@@ -19,7 +19,9 @@
       "english": "Stress triggers illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18378_yuuhatsusuru_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a risk that heavy rain will trigger landslides.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18378_yuuhatsusuru_ex3",
@@ -35,7 +39,9 @@
       "english": "One accident triggered a chain of other accidents, causing a major traffic jam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "PATTERN:\nA が B を{誘発|ゆうはつ}する (A triggers/induces B)\n\nCOMMON COLLOCATIONS:\n- {事故|じこ}を{誘発|ゆうはつ}する (to trigger an accident)\n- {病気|びょうき}を{誘発|ゆうはつ}する (to induce illness)\n- アレルギーを{誘発|ゆうはつ}する (to trigger allergies)\n- {地震|じしん}を{誘発|ゆうはつ}する (to trigger an earthquake)\n\nSIMILAR WORDS:\n- {引|ひ}き{起|お}こす: To cause, to bring about — more general and common in everyday speech.\n- {招|まね}く: To invite, to bring upon oneself — implies the cause was avoidable or negligent.\n- {促|うなが}す: To urge, to promote — neutral, often positive, unlike {誘発|ゆうはつ} which tends toward negative outcomes.",
@@ -46,12 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "transitive",
-      "style": ["written"]
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{誘発|ゆうはつ}する",
+        "negative": "{誘発|ゆうはつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{誘発|ゆうはつ}します",
+        "negative": "{誘発|ゆうはつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{誘発|ゆうはつ}した",
+        "negative": "{誘発|ゆうはつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{誘発|ゆうはつ}しました",
+        "negative": "{誘発|ゆうはつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{誘発|ゆうはつ}して",
+        "negative": "{誘発|ゆうはつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{誘発|ゆうはつ}している",
+        "negative": "{誘発|ゆうはつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{誘発|ゆうはつ}しています",
+        "negative": "{誘発|ゆうはつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{誘発|ゆうはつ}していた",
+        "negative": "{誘発|ゆうはつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{誘発|ゆうはつ}していました",
+        "negative": "{誘発|ゆうはつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{誘発|ゆうはつ}すれば",
+        "negative": "{誘発|ゆうはつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{誘発|ゆうはつ}したら",
+        "negative": "{誘発|ゆうはつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{誘発|ゆうはつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{誘発|ゆうはつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{誘発|ゆうはつ}できる",
+        "negative": "{誘発|ゆうはつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{誘発|ゆうはつ}される",
+        "negative": "{誘発|ゆうはつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{誘発|ゆうはつ}させる",
+        "negative": "{誘発|ゆうはつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{誘発|ゆうはつ}しろ",
+        "negative": "{誘発|ゆうはつ}するな"
+      }
+    ]
   }
 }

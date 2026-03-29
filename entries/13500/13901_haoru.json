@@ -19,7 +19,9 @@
       "english": "To throw on a cardigan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13901_haoru_ex2",
@@ -27,7 +29,9 @@
       "english": "It got cold, so I threw on a jacket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13901_haoru_ex3",
@@ -35,7 +39,9 @@
       "english": "I draped a blanket over my shoulders and watched a movie on the sofa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る-ending.\n- Negative: {羽織|はお}らない\n- Polite: {羽織|はお}ります\n- Te-form: {羽織|はお}って\n- Past: {羽織|はお}った\n\nUSAGE:\nUsed specifically for outer garments or coverings worn loosely over the shoulders. Not used for putting on pants, shoes, or tightly fitted clothing. The related noun {羽織|はおり} is a traditional Japanese jacket worn over a kimono.\n\nCOMMON COLLOCATIONS:\n- {上着|うわぎ}を{羽織|はお}る: to throw on a jacket\n- コートを{羽織|はお}る: to throw on a coat\n- {肩|かた}に{羽織|はお}る: to drape over one's shoulders",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{羽織|はお}る",
+        "negative": "{羽織|はお}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{羽織|はお}ります",
+        "negative": "{羽織|はお}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{羽織|はお}った",
+        "negative": "{羽織|はお}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{羽織|はお}りました",
+        "negative": "{羽織|はお}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{羽織|はお}って",
+        "negative": "{羽織|はお}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{羽織|はお}っている",
+        "negative": "{羽織|はお}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{羽織|はお}っています",
+        "negative": "{羽織|はお}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{羽織|はお}っていた",
+        "negative": "{羽織|はお}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{羽織|はお}っていました",
+        "negative": "{羽織|はお}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{羽織|はお}れば",
+        "negative": "{羽織|はお}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{羽織|はお}ったら",
+        "negative": "{羽織|はお}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{羽織|はお}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{羽織|はお}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{羽織|はお}れる",
+        "negative": "{羽織|はお}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{羽織|はお}られる",
+        "negative": "{羽織|はお}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{羽織|はお}らせる",
+        "negative": "{羽織|はお}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{羽織|はお}れ",
+        "negative": "{羽織|はお}るな"
+      }
+    ]
   }
 }

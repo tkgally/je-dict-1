@@ -19,7 +19,9 @@
       "english": "To prove one's identity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17851_shoumeisuru_ex2",
@@ -27,7 +29,9 @@
       "english": "His innocence was proven.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17851_shoumeisuru_ex3",
@@ -35,7 +39,9 @@
       "english": "The experimental results proved the correctness of that theory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a suru verb and as a standalone noun. The noun form appears in many compound words related to official documents and certificates.\n\nCOMMON COLLOCATIONS:\n- {証明書|しょうめいしょ} (certificate; proof document)\n- {身分|みぶん}{証明|しょうめい} (identification)\n- {卒業|そつぎょう}{証明書|しょうめいしょ} (graduation certificate)\n- {証明|しょうめい}{写真|しゃしん} (ID photo)\n- ～を{証明|しょうめい}する (to prove ~)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["logic", "documentation"]
+      "semantic": [
+        "logic",
+        "documentation"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{証明|しょうめい}する",
+        "negative": "{証明|しょうめい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{証明|しょうめい}します",
+        "negative": "{証明|しょうめい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{証明|しょうめい}した",
+        "negative": "{証明|しょうめい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{証明|しょうめい}しました",
+        "negative": "{証明|しょうめい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{証明|しょうめい}して",
+        "negative": "{証明|しょうめい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{証明|しょうめい}している",
+        "negative": "{証明|しょうめい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{証明|しょうめい}しています",
+        "negative": "{証明|しょうめい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{証明|しょうめい}していた",
+        "negative": "{証明|しょうめい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{証明|しょうめい}していました",
+        "negative": "{証明|しょうめい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{証明|しょうめい}すれば",
+        "negative": "{証明|しょうめい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{証明|しょうめい}したら",
+        "negative": "{証明|しょうめい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{証明|しょうめい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{証明|しょうめい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{証明|しょうめい}できる",
+        "negative": "{証明|しょうめい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{証明|しょうめい}される",
+        "negative": "{証明|しょうめい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{証明|しょうめい}させる",
+        "negative": "{証明|しょうめい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{証明|しょうめい}しろ",
+        "negative": "{証明|しょうめい}するな"
+      }
+    ]
   }
 }

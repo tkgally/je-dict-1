@@ -19,7 +19,9 @@
       "english": "I was ten years old when I lost my father.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18250_shibetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The loss of a loved one brings deep sorrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18250_shibetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "There are support groups for people who have experienced the death of a spouse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, somewhat literary word used to describe the specific type of separation caused by someone's death. Takes と to mark the person one was separated from: ～と{死別|しべつ}する.\n\nCOMMON COLLOCATIONS:\n- ～と{死別|しべつ}する (to be parted from ~ by death)\n- {死別|しべつ}を{経験|けいけん}する (to experience bereavement)\n- {親|おや}との{死別|しべつ} (losing a parent to death)\n\nSIMILAR WORDS:\n- {生|い}き{別|わか}れ: separation from a living person — being separated without death, typically due to circumstances\n- {別離|べつり}: separation; parting — literary term for separation in general",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "general"]
+      "semantic": [
+        "emotion",
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{死別|しべつ}する",
+        "negative": "{死別|しべつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{死別|しべつ}します",
+        "negative": "{死別|しべつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{死別|しべつ}した",
+        "negative": "{死別|しべつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{死別|しべつ}しました",
+        "negative": "{死別|しべつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{死別|しべつ}して",
+        "negative": "{死別|しべつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{死別|しべつ}している",
+        "negative": "{死別|しべつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{死別|しべつ}しています",
+        "negative": "{死別|しべつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{死別|しべつ}していた",
+        "negative": "{死別|しべつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{死別|しべつ}していました",
+        "negative": "{死別|しべつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{死別|しべつ}すれば",
+        "negative": "{死別|しべつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{死別|しべつ}したら",
+        "negative": "{死別|しべつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{死別|しべつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{死別|しべつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{死別|しべつ}できる",
+        "negative": "{死別|しべつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{死別|しべつ}される",
+        "negative": "{死別|しべつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{死別|しべつ}させる",
+        "negative": "{死別|しべつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{死別|しべつ}しろ",
+        "negative": "{死別|しべつ}するな"
+      }
+    ]
   }
 }

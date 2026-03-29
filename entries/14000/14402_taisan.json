@@ -19,7 +19,9 @@
       "english": "Everyone scattered when it started raining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14402_taisan_ex2",
@@ -27,7 +29,9 @@
       "english": "Evil spirits, begone!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14402_taisan_ex3",
@@ -35,7 +39,9 @@
       "english": "Hearing that the boss was in a bad mood, the employees quickly retreated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{退散|たいさん} is a noun that can function as a suru verb ({退散|たいさん}する). It implies leaving to get away from an unpleasant or undesirable situation.\n\nCOMMON COLLOCATIONS:\n- {悪霊|あくりょう}{退散|たいさん} (evil spirits begone — a ritual incantation)\n- {早々|そうそう}に{退散|たいさん}する (beat a quick retreat)\n- {蜘蛛|くも}の{子|こ}を{散|ち}らすように{退散|たいさん}する (scatter like baby spiders)\n\nThe phrase {悪霊|あくりょう}{退散|たいさん} is a well-known expression from Shinto and Buddhist exorcism rituals. In everyday usage, {退散|たいさん}する often carries a light, humorous tone, suggesting someone leaves not out of serious danger but to avoid an awkward or unpleasant situation.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{退散|たいさん}する",
+        "negative": "{退散|たいさん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{退散|たいさん}します",
+        "negative": "{退散|たいさん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{退散|たいさん}した",
+        "negative": "{退散|たいさん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{退散|たいさん}しました",
+        "negative": "{退散|たいさん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{退散|たいさん}して",
+        "negative": "{退散|たいさん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{退散|たいさん}している",
+        "negative": "{退散|たいさん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{退散|たいさん}しています",
+        "negative": "{退散|たいさん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{退散|たいさん}していた",
+        "negative": "{退散|たいさん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{退散|たいさん}していました",
+        "negative": "{退散|たいさん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{退散|たいさん}すれば",
+        "negative": "{退散|たいさん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{退散|たいさん}したら",
+        "negative": "{退散|たいさん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{退散|たいさん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{退散|たいさん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{退散|たいさん}できる",
+        "negative": "{退散|たいさん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{退散|たいさん}される",
+        "negative": "{退散|たいさん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{退散|たいさん}させる",
+        "negative": "{退散|たいさん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{退散|たいさん}しろ",
+        "negative": "{退散|たいさん}するな"
+      }
+    ]
   }
 }

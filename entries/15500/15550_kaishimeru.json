@@ -19,7 +19,9 @@
       "english": "Masks were bought up completely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15550_kaishimeru_ex2",
@@ -27,7 +29,9 @@
       "english": "There are people who buy up limited-edition items to resell them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15550_kaishimeru_ex3",
@@ -35,7 +39,9 @@
       "english": "I wish people would stop hoarding water and food before disasters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{買|か}い{占|し}める carries a negative connotation, implying selfish or excessive purchasing that deprives others of access. It became especially common during pandemic-related shortages.\n\nCOMMON COLLOCATIONS:\n- ～を{買|か}い{占|し}める (to buy up ~)\n- {買|か}い{占|し}め ({名詞|めいし} form — hoarding, buying up)\n- {買|か}い{占|し}め{行為|こうい} (hoarding behavior)\n\nSIMILAR WORDS:\n{まとめ買|が}い (buying in bulk) is neutral — simply purchasing a large quantity. {買|か}い{占|し}める implies buying everything available, leaving none for others. {買|か}いだめ (stockpiling) implies buying extra for personal reserves.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"],
-      "transitivity": "transitive"
+      "semantic": [
+        "consumption"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{買|か}い{占|し}める",
+        "negative": "{買|か}い{占|し}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{買|か}い{占|し}めます",
+        "negative": "{買|か}い{占|し}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{買|か}い{占|し}めた",
+        "negative": "{買|か}い{占|し}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{買|か}い{占|し}めました",
+        "negative": "{買|か}い{占|し}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{買|か}い{占|し}めて",
+        "negative": "{買|か}い{占|し}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{買|か}い{占|し}めている",
+        "negative": "{買|か}い{占|し}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{買|か}い{占|し}めています",
+        "negative": "{買|か}い{占|し}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{買|か}い{占|し}めていた",
+        "negative": "{買|か}い{占|し}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{買|か}い{占|し}めていました",
+        "negative": "{買|か}い{占|し}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{買|か}い{占|し}めれば",
+        "negative": "{買|か}い{占|し}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{買|か}い{占|し}めたら",
+        "negative": "{買|か}い{占|し}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{買|か}い{占|し}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{買|か}い{占|し}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{買|か}い{占|し}められる",
+        "negative": "{買|か}い{占|し}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{買|か}い{占|し}められる",
+        "negative": "{買|か}い{占|し}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{買|か}い{占|し}めさせる",
+        "negative": "{買|か}い{占|し}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{買|か}い{占|し}めろ",
+        "negative": "{買|か}い{占|し}めるな"
+      }
+    ]
   }
 }

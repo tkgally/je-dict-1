@@ -17,7 +17,9 @@
       "id": "11211_rinobeeshon_ex1",
       "japanese": "マンションをリノベーションした。",
       "english": "I renovated the apartment.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11211_rinobeeshon_ex2",
       "japanese": "リノベーション{物件|ぶっけん}が{人気|にんき}だ。",
       "english": "Renovated properties are popular.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "11211_rinobeeshon_ex3",
       "japanese": "{古|ふる}い{倉庫|そうこ}をリノベーションして、おしゃれなカフェに{変|か}えた。",
       "english": "They renovated an old warehouse and turned it into a stylish café.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "リノベーションする",
+        "negative": "リノベーションしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "リノベーションします",
+        "negative": "リノベーションしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "リノベーションした",
+        "negative": "リノベーションしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "リノベーションしました",
+        "negative": "リノベーションしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "リノベーションして",
+        "negative": "リノベーションしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "リノベーションしている",
+        "negative": "リノベーションしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "リノベーションしています",
+        "negative": "リノベーションしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "リノベーションしていた",
+        "negative": "リノベーションしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "リノベーションしていました",
+        "negative": "リノベーションしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "リノベーションすれば",
+        "negative": "リノベーションしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "リノベーションしたら",
+        "negative": "リノベーションしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "リノベーションしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "リノベーションしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "リノベーションできる",
+        "negative": "リノベーションできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "リノベーションされる",
+        "negative": "リノベーションされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "リノベーションさせる",
+        "negative": "リノベーションさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "リノベーションしろ",
+        "negative": "リノベーションするな"
+      }
+    ]
   }
 }

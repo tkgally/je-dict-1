@@ -19,7 +19,9 @@
       "english": "To take the athlete's oath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12312_sensei_ex2",
@@ -27,7 +29,9 @@
       "english": "The witness took an oath in court.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12312_sensei_ex3",
@@ -35,7 +39,9 @@
       "english": "The representative athlete read the oath at the opening ceremony, and the tournament began.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{宣誓|せんせい} combines {宣|せん} (declare, announce) and {誓|せい} (swear, vow).\n\nCOMMON COLLOCATIONS:\n- {宣誓|せんせい}する (to take an oath)\n- {選手|せんしゅ}{宣誓|せんせい} (athlete's oath — at sports events)\n- {宣誓|せんせい}{書|しょ} (sworn statement, affidavit)\n- {宣誓|せんせい}{式|しき} (swearing-in ceremony)\n- {就任|しゅうにん}{宣誓|せんせい} (inauguration oath)\n\nCULTURAL NOTE:\nAt Japanese sports events, the {選手|せんしゅ}{宣誓|せんせい} is a tradition where a representative athlete pledges fair play on behalf of all participants. This is especially prominent at school athletic festivals and national high school tournaments.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{宣誓|せんせい}する",
+        "negative": "{宣誓|せんせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{宣誓|せんせい}します",
+        "negative": "{宣誓|せんせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{宣誓|せんせい}した",
+        "negative": "{宣誓|せんせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{宣誓|せんせい}しました",
+        "negative": "{宣誓|せんせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{宣誓|せんせい}して",
+        "negative": "{宣誓|せんせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{宣誓|せんせい}している",
+        "negative": "{宣誓|せんせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{宣誓|せんせい}しています",
+        "negative": "{宣誓|せんせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{宣誓|せんせい}していた",
+        "negative": "{宣誓|せんせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{宣誓|せんせい}していました",
+        "negative": "{宣誓|せんせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{宣誓|せんせい}すれば",
+        "negative": "{宣誓|せんせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{宣誓|せんせい}したら",
+        "negative": "{宣誓|せんせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{宣誓|せんせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{宣誓|せんせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{宣誓|せんせい}できる",
+        "negative": "{宣誓|せんせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{宣誓|せんせい}される",
+        "negative": "{宣誓|せんせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{宣誓|せんせい}させる",
+        "negative": "{宣誓|せんせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{宣誓|せんせい}しろ",
+        "negative": "{宣誓|せんせい}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "The treatment at the hotel was very good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12517_taiguu_ex2",
@@ -32,7 +34,9 @@
       "english": "Companies that treat their employees well have low turnover rates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12517_taiguu_ex3",
@@ -40,7 +44,9 @@
       "english": "There is too much disparity in how customers are treated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12517_taiguu_ex4",
@@ -48,7 +54,9 @@
       "english": "I want to change to a company with better compensation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12517_taiguu_ex5",
@@ -56,7 +64,9 @@
       "english": "I have complaints regarding compensation, including salary and benefits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12517_taiguu_ex6",
@@ -64,7 +74,9 @@
       "english": "Improving the working conditions of non-regular employees has become a social issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (treatment) is broader, while sense 2 (compensation/conditions) is specifically about employment terms. In job advertisements, {待遇|たいぐう} refers to the package of salary, bonuses, benefits, and working conditions. Can also be used as a suru verb meaning \"to treat\" or \"to receive.\"\n\nCOMMON COLLOCATIONS:\n- {待遇|たいぐう}{改善|かいぜん}: improvement of conditions\n- {待遇|たいぐう}{面|めん}: in terms of compensation\n- {待遇|たいぐう}がいい: good pay/conditions\n- {同一労働同一|どういつろうどうどういつ}{待遇|たいぐう}: equal pay for equal work",
@@ -75,11 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{待遇|たいぐう}する",
+        "negative": "{待遇|たいぐう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{待遇|たいぐう}します",
+        "negative": "{待遇|たいぐう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{待遇|たいぐう}した",
+        "negative": "{待遇|たいぐう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{待遇|たいぐう}しました",
+        "negative": "{待遇|たいぐう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{待遇|たいぐう}して",
+        "negative": "{待遇|たいぐう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{待遇|たいぐう}している",
+        "negative": "{待遇|たいぐう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{待遇|たいぐう}しています",
+        "negative": "{待遇|たいぐう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{待遇|たいぐう}していた",
+        "negative": "{待遇|たいぐう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{待遇|たいぐう}していました",
+        "negative": "{待遇|たいぐう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{待遇|たいぐう}すれば",
+        "negative": "{待遇|たいぐう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{待遇|たいぐう}したら",
+        "negative": "{待遇|たいぐう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{待遇|たいぐう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{待遇|たいぐう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{待遇|たいぐう}できる",
+        "negative": "{待遇|たいぐう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{待遇|たいぐう}される",
+        "negative": "{待遇|たいぐう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{待遇|たいぐう}させる",
+        "negative": "{待遇|たいぐう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{待遇|たいぐう}しろ",
+        "negative": "{待遇|たいぐう}するな"
+      }
+    ]
   }
 }

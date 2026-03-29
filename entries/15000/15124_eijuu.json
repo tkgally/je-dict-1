@@ -19,7 +19,9 @@
       "english": "I intend to settle permanently in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15124_eijuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I applied for permanent residency.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15124_eijuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The number of Japanese people permanently residing overseas is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{永住|えいじゅう} is commonly used in immigration and visa contexts. {永住|えいじゅう}{権|けん} (permanent residency rights) is a key legal status for foreigners living in Japan.\n\nCOMMON COLLOCATIONS:\n- {永住|えいじゅう}{権|けん} (permanent residency)\n- {永住|えいじゅう}{者|しゃ} (permanent resident)\n- {永住|えいじゅう}ビザ (permanent residence visa)\n- {永住|えいじゅう}を{決意|けつい}する (to decide to settle permanently)\n- {永住|えいじゅう}{許可|きょか} (permanent residence permit)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society", "daily-life"]
+      "semantic": [
+        "society",
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{永住|えいじゅう}する",
+        "negative": "{永住|えいじゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{永住|えいじゅう}します",
+        "negative": "{永住|えいじゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{永住|えいじゅう}した",
+        "negative": "{永住|えいじゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{永住|えいじゅう}しました",
+        "negative": "{永住|えいじゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{永住|えいじゅう}して",
+        "negative": "{永住|えいじゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{永住|えいじゅう}している",
+        "negative": "{永住|えいじゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{永住|えいじゅう}しています",
+        "negative": "{永住|えいじゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{永住|えいじゅう}していた",
+        "negative": "{永住|えいじゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{永住|えいじゅう}していました",
+        "negative": "{永住|えいじゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{永住|えいじゅう}すれば",
+        "negative": "{永住|えいじゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{永住|えいじゅう}したら",
+        "negative": "{永住|えいじゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{永住|えいじゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{永住|えいじゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{永住|えいじゅう}できる",
+        "negative": "{永住|えいじゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{永住|えいじゅう}される",
+        "negative": "{永住|えいじゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{永住|えいじゅう}させる",
+        "negative": "{永住|えいじゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{永住|えいじゅう}しろ",
+        "negative": "{永住|えいじゅう}するな"
+      }
+    ]
   }
 }

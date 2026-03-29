@@ -19,7 +19,9 @@
       "english": "The company president has arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17274_omieninaru_ex2",
@@ -27,7 +29,9 @@
       "english": "When the client arrives, please show them to the meeting room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17274_omieninaru_ex3",
@@ -35,7 +39,9 @@
       "english": "Around what time is the teacher expected to arrive?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn honorific (尊敬語) form of {来|く}る (to come). Used in business and formal settings to respectfully refer to someone's arrival. The subject is always someone you are showing respect to — never use it for yourself.\n\nFORMALITY LEVELS FOR 'TO COME':\n- {来|く}る: plain\n- いらっしゃる: polite honorific\n- お{見|み}えになる: formal honorific (especially common in business)\n- お{越|こ}しになる: formal honorific\n\nCOMMON PATTERNS:\n- お{見|み}えになる (present/future)\n- お{見|み}えになりました ({past|かこ}, polite)\n- お{見|み}えになったら (when someone arrives)",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["movement"],
+      "semantic": [
+        "movement"
+      ],
       "transitivity": "intransitive",
-      "domain": ["business"]
+      "domain": [
+        "business"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "お{見|み}えになる",
+        "negative": "お{見|み}えにならない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "お{見|み}えになります",
+        "negative": "お{見|み}えになりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "お{見|み}えになった",
+        "negative": "お{見|み}えにならなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "お{見|み}えになりました",
+        "negative": "お{見|み}えになりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "お{見|み}えになって",
+        "negative": "お{見|み}えにならなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "お{見|み}えになっている",
+        "negative": "お{見|み}えになっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "お{見|み}えになっています",
+        "negative": "お{見|み}えになっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "お{見|み}えになっていた",
+        "negative": "お{見|み}えになっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "お{見|み}えになっていました",
+        "negative": "お{見|み}えになっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "お{見|み}えになれば",
+        "negative": "お{見|み}えにならなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "お{見|み}えになったら",
+        "negative": "お{見|み}えにならなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "お{見|み}えになろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "お{見|み}えになりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "お{見|み}えになれる",
+        "negative": "お{見|み}えになれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "お{見|み}えになられる",
+        "negative": "お{見|み}えになられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "お{見|み}えにならせる",
+        "negative": "お{見|み}えにならせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "お{見|み}えになれ",
+        "negative": "お{見|み}えになるな"
+      }
+    ]
   }
 }

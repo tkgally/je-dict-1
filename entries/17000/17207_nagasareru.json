@@ -24,7 +24,9 @@
       "english": "The bridge was swept away by the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17207_nagasareru_ex2",
@@ -32,7 +34,9 @@
       "english": "The car was washed away by the heavy rain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17207_nagasareru_ex3",
@@ -40,7 +44,9 @@
       "english": "Many houses were swept away by the tsunami.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17207_nagasareru_ex4",
@@ -48,7 +54,9 @@
       "english": "You shouldn't just go along with everyone else.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17207_nagasareru_ex5",
@@ -56,7 +64,9 @@
       "english": "I got caught up in the atmosphere and ended up buying it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17207_nagasareru_ex6",
@@ -64,7 +74,9 @@
       "english": "He's the type who doesn't have his own opinions and always goes along with others.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "FORMATION:\nPassive form of {流|なが}す (to wash away, to let flow). In sense 2, the passive conveys being acted upon by external influence.\n\nCOMMON COLLOCATIONS:\n- {川|かわ}に{流|なが}される (to be swept away by a river)\n- {周|まわ}りに{流|なが}される (to be swayed by those around you)\n- {雰囲気|ふんいき}に{流|なが}される (to get carried away by the mood)\n- {時代|じだい}に{流|なが}される (to be swept along by the times)\n\nSIMILAR WORDS:\n- {影響|えいきょう}を{受|う}ける: to be influenced — more neutral, without the negative connotation of passivity\n- {左右|さゆう}される: to be swayed — formal, implies being controlled by external factors",
@@ -75,10 +87,101 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "behavior"]
+      "semantic": [
+        "nature",
+        "behavior"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{流|なが}される",
+        "negative": "{流|なが}されない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{流|なが}されます",
+        "negative": "{流|なが}されません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{流|なが}された",
+        "negative": "{流|なが}されなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{流|なが}されました",
+        "negative": "{流|なが}されませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{流|なが}されて",
+        "negative": "{流|なが}されなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{流|なが}されている",
+        "negative": "{流|なが}されていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{流|なが}されています",
+        "negative": "{流|なが}されていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{流|なが}されていた",
+        "negative": "{流|なが}されていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{流|なが}されていました",
+        "negative": "{流|なが}されていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{流|なが}されれば",
+        "negative": "{流|なが}されなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{流|なが}されたら",
+        "negative": "{流|なが}されなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{流|なが}されよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{流|なが}されましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{流|なが}されられる",
+        "negative": "{流|なが}されられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{流|なが}されさせる",
+        "negative": "{流|なが}されさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{流|なが}されろ",
+        "negative": "{流|なが}されるな"
+      }
+    ]
   }
 }

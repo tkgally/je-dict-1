@@ -19,7 +19,9 @@
       "english": "A virus was detected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13132_kenshutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Harmful substances were detected in the water quality test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13132_kenshutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "This sensor has high sensitivity that can detect even trace amounts of gas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA technical word commonly used in scientific, medical, and IT contexts. Typically appears in passive form: {検出|けんしゅつ}される (to be detected). The subject of detection is marked with が.\n\nCOMMON COLLOCATIONS:\n- {検出|けんしゅつ}される: to be detected\n- {検出|けんしゅつ}{限界|げんかい}: detection limit\n- {検出|けんしゅつ}{率|りつ}: detection rate\n- {早期|そうき}{検出|けんしゅつ}: early detection",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["science"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "science"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{検出|けんしゅつ}する",
+        "negative": "{検出|けんしゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{検出|けんしゅつ}します",
+        "negative": "{検出|けんしゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{検出|けんしゅつ}した",
+        "negative": "{検出|けんしゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{検出|けんしゅつ}しました",
+        "negative": "{検出|けんしゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{検出|けんしゅつ}して",
+        "negative": "{検出|けんしゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{検出|けんしゅつ}している",
+        "negative": "{検出|けんしゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{検出|けんしゅつ}しています",
+        "negative": "{検出|けんしゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{検出|けんしゅつ}していた",
+        "negative": "{検出|けんしゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{検出|けんしゅつ}していました",
+        "negative": "{検出|けんしゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{検出|けんしゅつ}すれば",
+        "negative": "{検出|けんしゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{検出|けんしゅつ}したら",
+        "negative": "{検出|けんしゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{検出|けんしゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{検出|けんしゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{検出|けんしゅつ}できる",
+        "negative": "{検出|けんしゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{検出|けんしゅつ}される",
+        "negative": "{検出|けんしゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{検出|けんしゅつ}させる",
+        "negative": "{検出|けんしゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{検出|けんしゅつ}しろ",
+        "negative": "{検出|けんしゅつ}するな"
+      }
+    ]
   }
 }

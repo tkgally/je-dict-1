@@ -19,7 +19,9 @@
       "english": "I lost points due to a careless mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12160_bonmisu_ex2",
@@ -27,7 +29,9 @@
       "english": "You make a lot of careless calculation errors, so be careful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12160_bonmisu_ex3",
@@ -35,7 +39,9 @@
       "english": "I made one careless mistake after another in an important match and caused trouble for the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA hybrid word combining the kanji {凡|ぼん} (ordinary, mediocre) with the English loanword ミス (miss/mistake). Very common in school, sports, and work contexts. Often used self-critically.\n\nCOMMON COLLOCATIONS:\n- {凡|ぼん}ミスをする: to make a careless mistake\n- {凡|ぼん}ミスを{減|へ}らす: to reduce careless mistakes\n- {凡|ぼん}ミスが{目立|めだ}つ: careless mistakes stand out\n- {凡|ぼん}ミスを{連発|れんぱつ}する: to make careless mistakes in succession",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{凡|ぼん}ミスする",
+        "negative": "{凡|ぼん}ミスしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{凡|ぼん}ミスします",
+        "negative": "{凡|ぼん}ミスしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{凡|ぼん}ミスした",
+        "negative": "{凡|ぼん}ミスしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{凡|ぼん}ミスしました",
+        "negative": "{凡|ぼん}ミスしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{凡|ぼん}ミスして",
+        "negative": "{凡|ぼん}ミスしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{凡|ぼん}ミスしている",
+        "negative": "{凡|ぼん}ミスしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{凡|ぼん}ミスしています",
+        "negative": "{凡|ぼん}ミスしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{凡|ぼん}ミスしていた",
+        "negative": "{凡|ぼん}ミスしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{凡|ぼん}ミスしていました",
+        "negative": "{凡|ぼん}ミスしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{凡|ぼん}ミスすれば",
+        "negative": "{凡|ぼん}ミスしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{凡|ぼん}ミスしたら",
+        "negative": "{凡|ぼん}ミスしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{凡|ぼん}ミスしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{凡|ぼん}ミスしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{凡|ぼん}ミスできる",
+        "negative": "{凡|ぼん}ミスできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{凡|ぼん}ミスされる",
+        "negative": "{凡|ぼん}ミスされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{凡|ぼん}ミスさせる",
+        "negative": "{凡|ぼん}ミスさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{凡|ぼん}ミスしろ",
+        "negative": "{凡|ぼん}ミスするな"
+      }
+    ]
   }
 }

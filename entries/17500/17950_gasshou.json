@@ -19,7 +19,9 @@
       "english": "I pressed my palms together in front of the Buddhist altar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17950_gasshou_ex2",
@@ -27,7 +29,9 @@
       "english": "I said 'itadakimasu,' pressed my palms together, and began eating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17950_gasshou_ex3",
@@ -35,7 +39,9 @@
       "english": "She pressed her palms together and begged, 'Please!'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nIn Japan, {合掌|がっしょう} is seen in Buddhist prayer, before and after meals (with いただきます and ごちそうさま), and as a casual gesture when making a request or apology. It differs from the Western prayer gesture in that fingers are held straight and together.\n\nCOMMON COLLOCATIONS:\n- {合掌|がっしょう}する (press palms together)\n- {合掌|がっしょう}{礼拝|らいはい} (prayer and worship)\n- {合掌|がっしょう}{造|づく}り (gassho-style architecture — steep thatched roofs resembling pressed palms)\n\nNOTE:\nDo not confuse with {合唱|がっしょう} (chorus, singing together), which is a homophone with a completely different meaning.",
@@ -54,10 +60,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "general"]
+      "semantic": [
+        "action",
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{合掌|がっしょう}する",
+        "negative": "{合掌|がっしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{合掌|がっしょう}します",
+        "negative": "{合掌|がっしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{合掌|がっしょう}した",
+        "negative": "{合掌|がっしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{合掌|がっしょう}しました",
+        "negative": "{合掌|がっしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{合掌|がっしょう}して",
+        "negative": "{合掌|がっしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{合掌|がっしょう}している",
+        "negative": "{合掌|がっしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{合掌|がっしょう}しています",
+        "negative": "{合掌|がっしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{合掌|がっしょう}していた",
+        "negative": "{合掌|がっしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{合掌|がっしょう}していました",
+        "negative": "{合掌|がっしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{合掌|がっしょう}すれば",
+        "negative": "{合掌|がっしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{合掌|がっしょう}したら",
+        "negative": "{合掌|がっしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{合掌|がっしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{合掌|がっしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{合掌|がっしょう}できる",
+        "negative": "{合掌|がっしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{合掌|がっしょう}される",
+        "negative": "{合掌|がっしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{合掌|がっしょう}させる",
+        "negative": "{合掌|がっしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{合掌|がっしょう}しろ",
+        "negative": "{合掌|がっしょう}するな"
+      }
+    ]
   }
 }

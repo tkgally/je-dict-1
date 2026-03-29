@@ -24,7 +24,9 @@
       "english": "To walk slowly along the road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13196_ayumu_ex2",
@@ -32,7 +34,9 @@
       "english": "An elderly person was walking while leaning on a cane.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13196_ayumu_ex3",
@@ -40,7 +44,9 @@
       "english": "I walked alone along the dark night road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13196_ayumu_ex4",
@@ -48,7 +54,9 @@
       "english": "To follow the path one believes in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13196_ayumu_ex5",
@@ -56,7 +64,9 @@
       "english": "He began to pursue a path as a musician.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13196_ayumu_ex6",
@@ -64,7 +74,9 @@
       "english": "Both countries should walk together on the path toward peace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA godan verb (conjugates {歩|あゆ}まない, {歩|あゆ}みます, {歩|あゆ}んで). More literary and dignified than {歩|ある}く. In modern Japanese, the figurative sense (pursuing a life path) is more common than the literal walking sense. Often appears in written language, speeches, and formal contexts.\n\nCOMMON COLLOCATIONS:\n- {道|みち}を{歩|あゆ}む: to walk a path (literal and figurative)\n- {人生|じんせい}を{歩|あゆ}む: to walk through life\n- {共|とも}に{歩|あゆ}む: to walk together, to progress together\n- {新|あたら}しい{一歩|いっぽ}を{歩|あゆ}み{出|だ}す: to take a new first step\n\nSIMILAR WORDS:\n- {歩|ある}く: to walk (everyday, neutral)\n- {進|すす}む: to advance, to proceed (focuses on forward movement)",
@@ -75,12 +87,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
+      "semantic": [
+        "movement"
+      ],
       "transitivity": "intransitive",
-      "style": ["written", "literary"]
+      "style": [
+        "written",
+        "literary"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{歩|あゆ}む",
+        "negative": "{歩|あゆ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{歩|あゆ}みます",
+        "negative": "{歩|あゆ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{歩|あゆ}んだ",
+        "negative": "{歩|あゆ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{歩|あゆ}みました",
+        "negative": "{歩|あゆ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{歩|あゆ}んで",
+        "negative": "{歩|あゆ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{歩|あゆ}んでいる",
+        "negative": "{歩|あゆ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{歩|あゆ}んでいます",
+        "negative": "{歩|あゆ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{歩|あゆ}んでいた",
+        "negative": "{歩|あゆ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{歩|あゆ}んでいました",
+        "negative": "{歩|あゆ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{歩|あゆ}めば",
+        "negative": "{歩|あゆ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{歩|あゆ}んだら",
+        "negative": "{歩|あゆ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{歩|あゆ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{歩|あゆ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{歩|あゆ}める",
+        "negative": "{歩|あゆ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{歩|あゆ}まれる",
+        "negative": "{歩|あゆ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{歩|あゆ}ませる",
+        "negative": "{歩|あゆ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{歩|あゆ}め",
+        "negative": "{歩|あゆ}むな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I slowed down before the curve.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13336_gensoku_deceleration_ex2",
@@ -27,7 +29,9 @@
       "english": "Economic growth is slowing down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13336_gensoku_deceleration_ex3",
@@ -35,7 +39,9 @@
       "english": "Vehicles are required to slow down in construction zones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both physical deceleration (vehicles, machinery) and figurative slowdowns (economic growth, project progress). The opposite is {加速|かそく} (acceleration).\n\nNot to be confused with the homophone {原則|げんそく} (principle, general rule).\n\nCOMMON COLLOCATIONS:\n- {減速|げんそく}する: to decelerate, to slow down\n- {急|きゅう}{減速|げんそく}: sudden deceleration\n- {経済|けいざい}の{減速|げんそく}: economic slowdown\n- {減速|げんそく}{車線|しゃせん}: deceleration lane",
@@ -53,10 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["motion", "economics"]
+      "semantic": [
+        "motion",
+        "economics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{減速|げんそく}する",
+        "negative": "{減速|げんそく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{減速|げんそく}します",
+        "negative": "{減速|げんそく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{減速|げんそく}した",
+        "negative": "{減速|げんそく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{減速|げんそく}しました",
+        "negative": "{減速|げんそく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{減速|げんそく}して",
+        "negative": "{減速|げんそく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{減速|げんそく}している",
+        "negative": "{減速|げんそく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{減速|げんそく}しています",
+        "negative": "{減速|げんそく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{減速|げんそく}していた",
+        "negative": "{減速|げんそく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{減速|げんそく}していました",
+        "negative": "{減速|げんそく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{減速|げんそく}すれば",
+        "negative": "{減速|げんそく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{減速|げんそく}したら",
+        "negative": "{減速|げんそく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{減速|げんそく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{減速|げんそく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{減速|げんそく}できる",
+        "negative": "{減速|げんそく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{減速|げんそく}される",
+        "negative": "{減速|げんそく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{減速|げんそく}させる",
+        "negative": "{減速|げんそく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{減速|げんそく}しろ",
+        "negative": "{減速|げんそく}するな"
+      }
+    ]
   }
 }

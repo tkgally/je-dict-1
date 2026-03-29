@@ -19,7 +19,9 @@
       "english": "Please check it against the list.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14809_terashiawaseru_ex2",
@@ -27,7 +29,9 @@
       "english": "I checked it against the original to make sure there were no errors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14809_terashiawaseru_ex3",
@@ -35,7 +39,9 @@
       "english": "When I checked it against the regulations, I found that this procedure was not correct.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound verb formed from {照|て}らす (to shine, to illuminate) and {合|あ}わせる (to put together). The image is of holding two things up to the light to compare them.\n\nCOMMON COLLOCATIONS:\n- {原本|げんぽん}と{照|て}らし{合|あ}わせる (to check against the original)\n- {基準|きじゅん}と{照|て}らし{合|あ}わせる (to compare against a standard)\n- {事実|じじつ}と{照|て}らし{合|あ}わせる (to check against the facts)\n- {記録|きろく}と{照|て}らし{合|あ}わせる (to cross-reference with records)\n\nOften used in formal or business contexts. The particle と marks the reference item being compared against.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{照|て}らし{合|あ}わせる",
+        "negative": "{照|て}らし{合|あ}わせない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{照|て}らし{合|あ}わせます",
+        "negative": "{照|て}らし{合|あ}わせません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{照|て}らし{合|あ}わせた",
+        "negative": "{照|て}らし{合|あ}わせなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{照|て}らし{合|あ}わせました",
+        "negative": "{照|て}らし{合|あ}わせませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{照|て}らし{合|あ}わせて",
+        "negative": "{照|て}らし{合|あ}わせなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{照|て}らし{合|あ}わせている",
+        "negative": "{照|て}らし{合|あ}わせていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{照|て}らし{合|あ}わせています",
+        "negative": "{照|て}らし{合|あ}わせていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{照|て}らし{合|あ}わせていた",
+        "negative": "{照|て}らし{合|あ}わせていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{照|て}らし{合|あ}わせていました",
+        "negative": "{照|て}らし{合|あ}わせていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{照|て}らし{合|あ}わせれば",
+        "negative": "{照|て}らし{合|あ}わせなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{照|て}らし{合|あ}わせたら",
+        "negative": "{照|て}らし{合|あ}わせなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{照|て}らし{合|あ}わせよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{照|て}らし{合|あ}わせましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{照|て}らし{合|あ}わせられる",
+        "negative": "{照|て}らし{合|あ}わせられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{照|て}らし{合|あ}わせられる",
+        "negative": "{照|て}らし{合|あ}わせられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{照|て}らし{合|あ}わせさせる",
+        "negative": "{照|て}らし{合|あ}わせさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{照|て}らし{合|あ}わせろ",
+        "negative": "{照|て}らし{合|あ}わせるな"
+      }
+    ]
   }
 }

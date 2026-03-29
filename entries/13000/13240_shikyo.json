@@ -19,7 +19,9 @@
       "english": "A prominent writer passed away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13240_shikyo_ex2",
@@ -27,7 +29,9 @@
       "english": "It was announced that he died at the age of 90.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13240_shikyo_ex3",
@@ -35,7 +39,9 @@
       "english": "The Nobel laureate's family revealed that the doctor died at home due to illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, news-style term for death. Used in obituaries, news reports, and official announcements. More neutral and objective than {逝去|せいきょ}, which is an honorific term. Less formal than {逝去|せいきょ} but more formal than {亡|な}くなる (the most common everyday term for someone dying).\n\nREGISTER COMPARISON:\n- {亡|な}くなる: standard, respectful (everyday)\n- {死去|しきょ}: formal, objective (news/official)\n- {逝去|せいきょ}: honorific, respectful (very formal)\n\nCOMMON COLLOCATIONS:\n- ～{歳|さい}で{死去|しきょ}: died at age ~\n- {病気|びょうき}のため{死去|しきょ}: died due to illness\n- {死去|しきょ}が{報|ほう}じられる: death is reported",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["death"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "death"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{死去|しきょ}する",
+        "negative": "{死去|しきょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{死去|しきょ}します",
+        "negative": "{死去|しきょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{死去|しきょ}した",
+        "negative": "{死去|しきょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{死去|しきょ}しました",
+        "negative": "{死去|しきょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{死去|しきょ}して",
+        "negative": "{死去|しきょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{死去|しきょ}している",
+        "negative": "{死去|しきょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{死去|しきょ}しています",
+        "negative": "{死去|しきょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{死去|しきょ}していた",
+        "negative": "{死去|しきょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{死去|しきょ}していました",
+        "negative": "{死去|しきょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{死去|しきょ}すれば",
+        "negative": "{死去|しきょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{死去|しきょ}したら",
+        "negative": "{死去|しきょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{死去|しきょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{死去|しきょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{死去|しきょ}できる",
+        "negative": "{死去|しきょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{死去|しきょ}される",
+        "negative": "{死去|しきょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{死去|しきょ}させる",
+        "negative": "{死去|しきょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{死去|しきょ}しろ",
+        "negative": "{死去|しきょ}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I arrived safely — what a relief.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16364_hitoanshin_ex2",
@@ -27,7 +29,9 @@
       "english": "The test results came back normal, so I was relieved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16364_hitoanshin_ex3",
@@ -35,7 +39,9 @@
       "english": "The typhoon veered away, so that's a relief, but we can't let our guard down yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{一安心|ひとあんしん} is composed of {一|ひと} (one, a bit) and {安心|あんしん} (relief). The {一|ひと} prefix suggests the relief is partial or temporary — a first wave of relief rather than complete reassurance.\n\nCOMMON PATTERNS:\n- {一安心|ひとあんしん}だ (that's a relief)\n- {一安心|ひとあんしん}する (to feel relieved)\n- まずは{一安心|ひとあんしん} (that's a relief for now)\n\nSIMILAR WORDS:\n- {安心|あんしん}: relief, peace of mind — broader and more complete than {一安心|ひとあんしん}\n- {安堵|あんど}: relief — more literary/formal",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{一安心|ひとあんしん}する",
+        "negative": "{一安心|ひとあんしん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{一安心|ひとあんしん}します",
+        "negative": "{一安心|ひとあんしん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{一安心|ひとあんしん}した",
+        "negative": "{一安心|ひとあんしん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{一安心|ひとあんしん}しました",
+        "negative": "{一安心|ひとあんしん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{一安心|ひとあんしん}して",
+        "negative": "{一安心|ひとあんしん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{一安心|ひとあんしん}している",
+        "negative": "{一安心|ひとあんしん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{一安心|ひとあんしん}しています",
+        "negative": "{一安心|ひとあんしん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{一安心|ひとあんしん}していた",
+        "negative": "{一安心|ひとあんしん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{一安心|ひとあんしん}していました",
+        "negative": "{一安心|ひとあんしん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{一安心|ひとあんしん}すれば",
+        "negative": "{一安心|ひとあんしん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{一安心|ひとあんしん}したら",
+        "negative": "{一安心|ひとあんしん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{一安心|ひとあんしん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{一安心|ひとあんしん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{一安心|ひとあんしん}できる",
+        "negative": "{一安心|ひとあんしん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{一安心|ひとあんしん}される",
+        "negative": "{一安心|ひとあんしん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{一安心|ひとあんしん}させる",
+        "negative": "{一安心|ひとあんしん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{一安心|ひとあんしん}しろ",
+        "negative": "{一安心|ひとあんしん}するな"
+      }
+    ]
   }
 }

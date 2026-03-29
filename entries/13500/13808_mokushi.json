@@ -19,7 +19,9 @@
       "english": "To confirm by visual inspection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13808_mokushi_ex2",
@@ -27,7 +29,9 @@
       "english": "Please always perform safety checks visually.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13808_mokushi_ex3",
@@ -35,7 +39,9 @@
       "english": "I inspected not only with instruments but also visually for any abnormalities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, technical term used as a suru verb: {目視|もくし}する (to visually inspect). Common in workplace safety, aviation, manufacturing, and quality control contexts. Often contrasted with instrumental or automated checks.\n\nCOMMON COLLOCATIONS:\n- {目視|もくし}{確認|かくにん}: visual confirmation\n- {目視|もくし}{検査|けんさ}: visual inspection\n- {目視|もくし}{点検|てんけん}: visual check\n- {目視|もくし}で{確認|かくにん}する: to verify visually",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "domain": ["technical"]
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目視|もくし}する",
+        "negative": "{目視|もくし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目視|もくし}します",
+        "negative": "{目視|もくし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目視|もくし}した",
+        "negative": "{目視|もくし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目視|もくし}しました",
+        "negative": "{目視|もくし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目視|もくし}して",
+        "negative": "{目視|もくし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目視|もくし}している",
+        "negative": "{目視|もくし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目視|もくし}しています",
+        "negative": "{目視|もくし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目視|もくし}していた",
+        "negative": "{目視|もくし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目視|もくし}していました",
+        "negative": "{目視|もくし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目視|もくし}すれば",
+        "negative": "{目視|もくし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目視|もくし}したら",
+        "negative": "{目視|もくし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目視|もくし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目視|もくし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目視|もくし}できる",
+        "negative": "{目視|もくし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目視|もくし}される",
+        "negative": "{目視|もくし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目視|もくし}させる",
+        "negative": "{目視|もくし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目視|もくし}しろ",
+        "negative": "{目視|もくし}するな"
+      }
+    ]
   }
 }

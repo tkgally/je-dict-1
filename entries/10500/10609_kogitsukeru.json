@@ -19,7 +19,9 @@
       "english": "We finally managed to reach a contract.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10609_kogitsukeru_ex2",
@@ -27,7 +29,9 @@
       "english": "After long negotiations, we managed to reach an agreement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10609_kogitsukeru_ex3",
@@ -35,7 +39,9 @@
       "english": "I nearly gave up many times, but somehow managed to reach completion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (ichidan):\n- Negative: {漕|こ}ぎ{着|つ}けない\n- Te-form: {漕|こ}ぎ{着|つ}けて\n- Past: {漕|こ}ぎ{着|つ}けた\n\nETYMOLOGY:\nLiterally \"to row and arrive\" — from {漕|こ}ぐ (to row) + {着|つ}ける (to arrive at). The image is of rowing a boat through difficulty to finally reach shore.\n\nUSAGE:\nAlmost always used with に to mark the destination or goal reached. Implies overcoming obstacles. Common in business and project contexts.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}に{漕|こ}ぎ{着|つ}ける: to manage to reach a contract\n- {合意|ごうい}に{漕|こ}ぎ{着|つ}ける: to manage to reach an agreement\n- {完成|かんせい}に{漕|こ}ぎ{着|つ}ける: to manage to reach completion",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["achievement", "effort"]
+      "semantic": [
+        "achievement",
+        "effort"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{漕|こ}ぎ{着|つ}ける",
+        "negative": "{漕|こ}ぎ{着|つ}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{漕|こ}ぎ{着|つ}けます",
+        "negative": "{漕|こ}ぎ{着|つ}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{漕|こ}ぎ{着|つ}けた",
+        "negative": "{漕|こ}ぎ{着|つ}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{漕|こ}ぎ{着|つ}けました",
+        "negative": "{漕|こ}ぎ{着|つ}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{漕|こ}ぎ{着|つ}けて",
+        "negative": "{漕|こ}ぎ{着|つ}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{漕|こ}ぎ{着|つ}けている",
+        "negative": "{漕|こ}ぎ{着|つ}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{漕|こ}ぎ{着|つ}けています",
+        "negative": "{漕|こ}ぎ{着|つ}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{漕|こ}ぎ{着|つ}けていた",
+        "negative": "{漕|こ}ぎ{着|つ}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{漕|こ}ぎ{着|つ}けていました",
+        "negative": "{漕|こ}ぎ{着|つ}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{漕|こ}ぎ{着|つ}ければ",
+        "negative": "{漕|こ}ぎ{着|つ}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{漕|こ}ぎ{着|つ}けたら",
+        "negative": "{漕|こ}ぎ{着|つ}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{漕|こ}ぎ{着|つ}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{漕|こ}ぎ{着|つ}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{漕|こ}ぎ{着|つ}けられる",
+        "negative": "{漕|こ}ぎ{着|つ}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{漕|こ}ぎ{着|つ}けられる",
+        "negative": "{漕|こ}ぎ{着|つ}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{漕|こ}ぎ{着|つ}けさせる",
+        "negative": "{漕|こ}ぎ{着|つ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{漕|こ}ぎ{着|つ}けろ",
+        "negative": "{漕|こ}ぎ{着|つ}けるな"
+      }
+    ]
   }
 }

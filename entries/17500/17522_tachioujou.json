@@ -19,7 +19,9 @@
       "english": "Cars were stranded due to heavy snow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17522_tachioujou_ex2",
@@ -27,7 +29,9 @@
       "english": "The negotiations are at a standstill and not making progress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17522_tachioujou_ex3",
@@ -35,7 +39,9 @@
       "english": "The situation escalated to hundreds of trucks being stranded on the expressway.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nOriginally refers to the legendary death of the warrior monk Benkei, who died standing up ({立|た}ったまま{往生|おうじょう}する). Now used to describe being unable to move from a spot.\n\nUSAGE:\nCommonly appears in news reports about vehicles stuck in snow or traffic. Also used figuratively for stalled negotiations, projects, or plans.\n\nCOMMON COLLOCATIONS:\n- {車|くるま}が{立|た}ち{往生|おうじょう}する (cars get stranded)\n- {大雪|おおゆき}で{立|た}ち{往生|おうじょう}する (to be stranded by heavy snow)\n- {交渉|こうしょう}が{立|た}ち{往生|おうじょう}する (negotiations reach a standstill)\n\nSIMILAR WORDS:\n- {動|うご}けない: unable to move — simpler, more direct\n- {行|い}き{詰|づ}まる: to reach a deadlock — focuses on inability to progress\n- {足止|あしど}め: being stuck in a place — often due to weather or regulations",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{立|た}ち{往生|おうじょう}する",
+        "negative": "{立|た}ち{往生|おうじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{立|た}ち{往生|おうじょう}します",
+        "negative": "{立|た}ち{往生|おうじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{立|た}ち{往生|おうじょう}した",
+        "negative": "{立|た}ち{往生|おうじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{立|た}ち{往生|おうじょう}しました",
+        "negative": "{立|た}ち{往生|おうじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{立|た}ち{往生|おうじょう}して",
+        "negative": "{立|た}ち{往生|おうじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{立|た}ち{往生|おうじょう}している",
+        "negative": "{立|た}ち{往生|おうじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{立|た}ち{往生|おうじょう}しています",
+        "negative": "{立|た}ち{往生|おうじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{立|た}ち{往生|おうじょう}していた",
+        "negative": "{立|た}ち{往生|おうじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{立|た}ち{往生|おうじょう}していました",
+        "negative": "{立|た}ち{往生|おうじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{立|た}ち{往生|おうじょう}すれば",
+        "negative": "{立|た}ち{往生|おうじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{立|た}ち{往生|おうじょう}したら",
+        "negative": "{立|た}ち{往生|おうじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{立|た}ち{往生|おうじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{立|た}ち{往生|おうじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{立|た}ち{往生|おうじょう}できる",
+        "negative": "{立|た}ち{往生|おうじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{立|た}ち{往生|おうじょう}される",
+        "negative": "{立|た}ち{往生|おうじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{立|た}ち{往生|おうじょう}させる",
+        "negative": "{立|た}ち{往生|おうじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{立|た}ち{往生|おうじょう}しろ",
+        "negative": "{立|た}ち{往生|おうじょう}するな"
+      }
+    ]
   }
 }

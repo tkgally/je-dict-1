@@ -19,7 +19,9 @@
       "english": "To solve a mystery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14274_tokiakasu_ex2",
@@ -27,7 +29,9 @@
       "english": "Scientists are trying to unravel the secrets of the universe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14274_tokiakasu_ex3",
@@ -35,7 +39,9 @@
       "english": "After many years of research, the cause of the disease was finally elucidated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{解|と}き{明|あ}かす is a transitive godan verb. Compound of {解|と}く (to solve) + {明|あ}かす (to reveal), emphasizing both the solving process and bringing the answer to light.\n\nASPECT (ている):\n{解|と}き{明|あ}かしている indicates an ongoing investigation. The passive {解|と}き{明|あ}かされている describes something that has been solved.\n\nPARTICLE PATTERNS:\n- {謎|なぞ}を{解|と}き{明|あ}かす (solve a mystery)\n- {真相|しんそう}を{解|と}き{明|あ}かす (uncover the truth)\n\nCOMMON COLLOCATIONS:\n- {謎|なぞ}を{解|と}き{明|あ}かす (solve a mystery)\n- {秘密|ひみつ}を{解|と}き{明|あ}かす (unravel a secret)\n- {原因|げんいん}を{解|と}き{明|あ}かす (elucidate a cause)\n- {仕組|しく}みを{解|と}き{明|あ}かす (figure out how something works)\n\nSIMILAR WORDS:\n- {解明|かいめい}する: to clarify, elucidate (more formal, often used in academic/scientific contexts)\n- {解|と}く: to solve (simpler, does not carry the nuance of revelation)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{解|と}き{明|あ}かす",
+        "negative": "{解|と}き{明|あ}かさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{解|と}き{明|あ}かします",
+        "negative": "{解|と}き{明|あ}かしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{解|と}き{明|あ}かした",
+        "negative": "{解|と}き{明|あ}かさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{解|と}き{明|あ}かしました",
+        "negative": "{解|と}き{明|あ}かしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{解|と}き{明|あ}かして",
+        "negative": "{解|と}き{明|あ}かさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{解|と}き{明|あ}かしている",
+        "negative": "{解|と}き{明|あ}かしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{解|と}き{明|あ}かしています",
+        "negative": "{解|と}き{明|あ}かしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{解|と}き{明|あ}かしていた",
+        "negative": "{解|と}き{明|あ}かしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{解|と}き{明|あ}かしていました",
+        "negative": "{解|と}き{明|あ}かしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{解|と}き{明|あ}かせば",
+        "negative": "{解|と}き{明|あ}かさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{解|と}き{明|あ}かしたら",
+        "negative": "{解|と}き{明|あ}かさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{解|と}き{明|あ}かそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{解|と}き{明|あ}かしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{解|と}き{明|あ}かせる",
+        "negative": "{解|と}き{明|あ}かせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{解|と}き{明|あ}かされる",
+        "negative": "{解|と}き{明|あ}かされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{解|と}き{明|あ}かさせる",
+        "negative": "{解|と}き{明|あ}かさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{解|と}き{明|あ}かせ",
+        "negative": "{解|と}き{明|あ}かすな"
+      }
+    ]
   }
 }

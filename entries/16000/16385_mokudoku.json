@@ -19,7 +19,9 @@
       "english": "Please read this passage silently.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16385_mokudoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Reading silently is the proper etiquette in the library.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16385_mokudoku_ex3",
@@ -35,7 +39,9 @@
       "english": "You can read faster with silent reading than reading aloud.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONTRAST:\n{黙読|もくどく} (silent reading) is the opposite of {音読|おんどく} (reading aloud). In Japanese schools, both are practiced. {音読|おんどく} is emphasized in language learning because it helps with pronunciation and retention, while {黙読|もくどく} is used for comprehension exercises.\n\nCOMMON COLLOCATIONS:\n- {黙読|もくどく}する (to read silently)\n- {黙読|もくどく}で{読|よ}む (to read by silent reading)\n- {黙読|もくどく}の{時間|じかん} (silent reading time)\n\nKANJI NOTE:\n{黙|もく} means silence, as in {沈黙|ちんもく} (silence). {読|どく} means reading.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "cognition"]
+      "semantic": [
+        "education",
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{黙読|もくどく}する",
+        "negative": "{黙読|もくどく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{黙読|もくどく}します",
+        "negative": "{黙読|もくどく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{黙読|もくどく}した",
+        "negative": "{黙読|もくどく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{黙読|もくどく}しました",
+        "negative": "{黙読|もくどく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{黙読|もくどく}して",
+        "negative": "{黙読|もくどく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{黙読|もくどく}している",
+        "negative": "{黙読|もくどく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{黙読|もくどく}しています",
+        "negative": "{黙読|もくどく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{黙読|もくどく}していた",
+        "negative": "{黙読|もくどく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{黙読|もくどく}していました",
+        "negative": "{黙読|もくどく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{黙読|もくどく}すれば",
+        "negative": "{黙読|もくどく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{黙読|もくどく}したら",
+        "negative": "{黙読|もくどく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{黙読|もくどく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{黙読|もくどく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{黙読|もくどく}できる",
+        "negative": "{黙読|もくどく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{黙読|もくどく}される",
+        "negative": "{黙読|もくどく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{黙読|もくどく}させる",
+        "negative": "{黙読|もくどく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{黙読|もくどく}しろ",
+        "negative": "{黙読|もくどく}するな"
+      }
+    ]
   }
 }

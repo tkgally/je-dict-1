@@ -16,7 +16,9 @@
       "id": "09168_okusuru_ex1",
       "japanese": "{臆|おく}することなく",
       "english": "without flinching/hesitating",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09168_okusuru_ex2",
       "japanese": "{困難|こんなん}に{臆|おく}してはいけない。",
       "english": "Don't be daunted by difficulties.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09168_okusuru_ex3",
       "japanese": "{彼|かれ}は{臆|おく}することなく、{大勢|おおぜい}の{前|まえ}で{自分|じぶん}の{意見|いけん}を{主張|しゅちょう}した。",
       "english": "Without flinching, he asserted his opinion in front of a large crowd.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{臆|おく}する",
+        "negative": "{臆|おく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{臆|おく}します",
+        "negative": "{臆|おく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{臆|おく}した",
+        "negative": "{臆|おく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{臆|おく}しました",
+        "negative": "{臆|おく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{臆|おく}して",
+        "negative": "{臆|おく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{臆|おく}している",
+        "negative": "{臆|おく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{臆|おく}しています",
+        "negative": "{臆|おく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{臆|おく}していた",
+        "negative": "{臆|おく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{臆|おく}していました",
+        "negative": "{臆|おく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{臆|おく}すれば",
+        "negative": "{臆|おく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{臆|おく}したら",
+        "negative": "{臆|おく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{臆|おく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{臆|おく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{臆|おく}できる",
+        "negative": "{臆|おく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{臆|おく}される",
+        "negative": "{臆|おく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{臆|おく}させる",
+        "negative": "{臆|おく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{臆|おく}しろ",
+        "negative": "{臆|おく}するな"
+      }
+    ]
   }
 }

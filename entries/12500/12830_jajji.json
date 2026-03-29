@@ -19,7 +19,9 @@
       "english": "The judging is difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12830_jajji_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm dissatisfied with the referee's call.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12830_jajji_ex3",
@@ -35,7 +39,9 @@
       "english": "You have to judge for yourself how to act in the end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun and as a suru verb (ジャッジする). Common in sports contexts for officiating decisions, but also used more broadly for personal or professional judgment calls.\n\nCOMMON COLLOCATIONS:\n- ジャッジする: to judge, to make a call\n- ジャッジミス: misjudgment (in sports)\n- {誤|あやま}ったジャッジ: wrong call\n\nSIMILAR WORDS:\n- {判断|はんだん}: judgment, decision (more general, used in everyday contexts)\n- {審判|しんぱん}: referee, umpire; judgment",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ジャッジする",
+        "negative": "ジャッジしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ジャッジします",
+        "negative": "ジャッジしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ジャッジした",
+        "negative": "ジャッジしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ジャッジしました",
+        "negative": "ジャッジしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ジャッジして",
+        "negative": "ジャッジしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ジャッジしている",
+        "negative": "ジャッジしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ジャッジしています",
+        "negative": "ジャッジしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ジャッジしていた",
+        "negative": "ジャッジしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ジャッジしていました",
+        "negative": "ジャッジしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ジャッジすれば",
+        "negative": "ジャッジしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ジャッジしたら",
+        "negative": "ジャッジしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ジャッジしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ジャッジしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ジャッジできる",
+        "negative": "ジャッジできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ジャッジされる",
+        "negative": "ジャッジされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ジャッジさせる",
+        "negative": "ジャッジさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ジャッジしろ",
+        "negative": "ジャッジするな"
+      }
+    ]
   }
 }

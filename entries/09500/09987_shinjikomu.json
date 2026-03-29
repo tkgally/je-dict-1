@@ -18,7 +18,9 @@
       "english": "She firmly believes the rumor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09987_shinjikomu_ex2",
@@ -26,7 +28,9 @@
       "english": "I was convinced that I was right.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09987_shinjikomu_ex3",
@@ -34,7 +38,9 @@
       "english": "I believed the scammer's story completely and was cheated out of money.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{信|しん}じ{込|こ}む is a compound verb with ～{込|こ}む adding the sense of thoroughness or completion.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{信|しん}じ{込|こ}む / Xと{信|しん}じ{込|こ}む\n\nASPECT (ている):\n- {信|しん}じ{込|こ}んでいる: is firmly convinced (state)\n\nNUANCE:\nOften implies blind or possibly mistaken belief. More emphatic than {信|しん}じる alone.\n\nCOMPOSITION:\n- {信|しん}じる: to believe\n- ～{込|こ}む: suffix adding completeness/thoroughness",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{信|しん}じ{込|こ}む",
+        "negative": "{信|しん}じ{込|こ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{信|しん}じ{込|こ}みます",
+        "negative": "{信|しん}じ{込|こ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{信|しん}じ{込|こ}んだ",
+        "negative": "{信|しん}じ{込|こ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{信|しん}じ{込|こ}みました",
+        "negative": "{信|しん}じ{込|こ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{信|しん}じ{込|こ}んで",
+        "negative": "{信|しん}じ{込|こ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{信|しん}じ{込|こ}んでいる",
+        "negative": "{信|しん}じ{込|こ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{信|しん}じ{込|こ}んでいます",
+        "negative": "{信|しん}じ{込|こ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{信|しん}じ{込|こ}んでいた",
+        "negative": "{信|しん}じ{込|こ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{信|しん}じ{込|こ}んでいました",
+        "negative": "{信|しん}じ{込|こ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{信|しん}じ{込|こ}めば",
+        "negative": "{信|しん}じ{込|こ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{信|しん}じ{込|こ}んだら",
+        "negative": "{信|しん}じ{込|こ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{信|しん}じ{込|こ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{信|しん}じ{込|こ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{信|しん}じ{込|こ}める",
+        "negative": "{信|しん}じ{込|こ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{信|しん}じ{込|こ}まれる",
+        "negative": "{信|しん}じ{込|こ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{信|しん}じ{込|こ}ませる",
+        "negative": "{信|しん}じ{込|こ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{信|しん}じ{込|こ}め",
+        "negative": "{信|しん}じ{込|こ}むな"
+      }
+    ]
   }
 }

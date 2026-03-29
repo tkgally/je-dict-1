@@ -19,7 +19,9 @@
       "english": "A new song was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11487_ririisu_ex2",
@@ -27,7 +29,9 @@
       "english": "The latest version of the app was released.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11487_ririisu_ex3",
@@ -35,7 +39,9 @@
       "english": "A press conference was held about the new product scheduled for release next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nリリース is widely used in the music industry, software/tech, and general product launches. It has largely replaced the Japanese word {発売|はつばい} in some contexts, especially for digital products.\n\nIn the press/media context, プレスリリース means \"press release.\"\n\nCOMMON COLLOCATIONS:\n- {新曲|しんきょく}をリリースする: to release a new song\n- リリース{日|び}: release date\n- リリース{予定|よてい}: scheduled release\n- プレスリリース: press release\n- {最新|さいしん}リリース: latest release",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "リリースする",
+        "negative": "リリースしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "リリースします",
+        "negative": "リリースしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "リリースした",
+        "negative": "リリースしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "リリースしました",
+        "negative": "リリースしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "リリースして",
+        "negative": "リリースしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "リリースしている",
+        "negative": "リリースしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "リリースしています",
+        "negative": "リリースしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "リリースしていた",
+        "negative": "リリースしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "リリースしていました",
+        "negative": "リリースしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "リリースすれば",
+        "negative": "リリースしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "リリースしたら",
+        "negative": "リリースしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "リリースしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "リリースしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "リリースできる",
+        "negative": "リリースできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "リリースされる",
+        "negative": "リリースされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "リリースさせる",
+        "negative": "リリースさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "リリースしろ",
+        "negative": "リリースするな"
+      }
+    ]
   }
 }

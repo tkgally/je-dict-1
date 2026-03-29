@@ -19,7 +19,9 @@
       "english": "The footsteps faded into the distance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14429_toonoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Lately, my friend's visits have become less frequent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14429_toonoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The sound of thunder gradually receded, and the sky began to brighten.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Godan verb derived from {遠|とお}い (distant). Conjugates as {遠|とお}のく・{遠|とお}のいて・{遠|とお}のいた.\n\nCOMMON COLLOCATIONS:\n- {足|あし}が{遠|とお}のく (visits become less frequent)\n- {音|おと}が{遠|とお}のく (a sound fades away)\n- {意識|いしき}が{遠|とお}のく (consciousness fades — feeling faint)\n- {客|きゃく}が{遠|とお}のく (customers stop coming)\n\nThe idiom {足|あし}が{遠|とお}のく is particularly common, meaning someone visits or goes to a place less and less often. {意識|いしき}が{遠|とお}のく describes the sensation of losing consciousness.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遠|とお}のく",
+        "negative": "{遠|とお}のかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遠|とお}のきます",
+        "negative": "{遠|とお}のきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遠|とお}のいた",
+        "negative": "{遠|とお}のかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遠|とお}のきました",
+        "negative": "{遠|とお}のきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遠|とお}のいて",
+        "negative": "{遠|とお}のかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遠|とお}のいている",
+        "negative": "{遠|とお}のいていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遠|とお}のいています",
+        "negative": "{遠|とお}のいていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遠|とお}のいていた",
+        "negative": "{遠|とお}のいていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遠|とお}のいていました",
+        "negative": "{遠|とお}のいていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遠|とお}のけば",
+        "negative": "{遠|とお}のかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遠|とお}のいたら",
+        "negative": "{遠|とお}のかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遠|とお}のこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遠|とお}のきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遠|とお}のける",
+        "negative": "{遠|とお}のけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遠|とお}のかれる",
+        "negative": "{遠|とお}のかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遠|とお}のかせる",
+        "negative": "{遠|とお}のかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遠|とお}のけ",
+        "negative": "{遠|とお}のくな"
+      }
+    ]
   }
 }

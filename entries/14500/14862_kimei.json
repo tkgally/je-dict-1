@@ -19,7 +19,9 @@
       "english": "Write a name on the ballot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14862_kimei_ex2",
@@ -27,7 +29,9 @@
       "english": "Please put your name on your belongings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14862_kimei_ex3",
@@ -35,7 +39,9 @@
       "english": "In a signed ballot, you need to write your own name in addition to the candidate's name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{記名|きめい} is a compound of {記|き} (to record) and {名|めい} (name). It simply means that a name is written down, as opposed to being anonymous.\n\nSIMILAR WORDS:\n- {署名|しょめい} — a signature (the act of signing one's name as authentication)\n- {記名|きめい} — writing one's name (not necessarily as a signature or legal act)\n- {無記名|むきめい} — anonymous, unnamed (the opposite: {無記名|むきめい}{投票|とうひょう} = secret ballot)\n\nCOMMON COLLOCATIONS:\n- {記名|きめい}{投票|とうひょう} (signed/open ballot)\n- {無記名|むきめい}{投票|とうひょう} (secret/anonymous ballot)\n- {記名|きめい}{式|しき} (signed/named format)\n- {記名|きめい}する (write one's name)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{記名|きめい}する",
+        "negative": "{記名|きめい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{記名|きめい}します",
+        "negative": "{記名|きめい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{記名|きめい}した",
+        "negative": "{記名|きめい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{記名|きめい}しました",
+        "negative": "{記名|きめい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{記名|きめい}して",
+        "negative": "{記名|きめい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{記名|きめい}している",
+        "negative": "{記名|きめい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{記名|きめい}しています",
+        "negative": "{記名|きめい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{記名|きめい}していた",
+        "negative": "{記名|きめい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{記名|きめい}していました",
+        "negative": "{記名|きめい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{記名|きめい}すれば",
+        "negative": "{記名|きめい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{記名|きめい}したら",
+        "negative": "{記名|きめい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{記名|きめい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{記名|きめい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{記名|きめい}できる",
+        "negative": "{記名|きめい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{記名|きめい}される",
+        "negative": "{記名|きめい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{記名|きめい}させる",
+        "negative": "{記名|きめい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{記名|きめい}しろ",
+        "negative": "{記名|きめい}するな"
+      }
+    ]
   }
 }

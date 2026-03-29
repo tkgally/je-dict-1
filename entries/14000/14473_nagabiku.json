@@ -17,7 +17,9 @@
       "id": "14473_nagabiku_ex1",
       "japanese": "{会議|かいぎ}が{長引|ながび}いた。",
       "english": "The meeting dragged on.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14473_nagabiku_ex2",
       "japanese": "{風邪|かぜ}が{長引|ながび}いて、なかなか{治|なお}らない。",
       "english": "My cold is dragging on and won't go away.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14473_nagabiku_ex3",
       "japanese": "{交渉|こうしょう}が{予想以上|よそういじょう}に{長引|ながび}き、{契約|けいやく}は{来月|らいげつ}に{持|も}ち{越|こ}しになった。",
       "english": "Negotiations dragged on longer than expected, and the contract was carried over to next month.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長引|ながび}く",
+        "negative": "{長引|ながび}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長引|ながび}きます",
+        "negative": "{長引|ながび}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長引|ながび}いた",
+        "negative": "{長引|ながび}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長引|ながび}きました",
+        "negative": "{長引|ながび}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長引|ながび}いて",
+        "negative": "{長引|ながび}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長引|ながび}いている",
+        "negative": "{長引|ながび}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長引|ながび}いています",
+        "negative": "{長引|ながび}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長引|ながび}いていた",
+        "negative": "{長引|ながび}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長引|ながび}いていました",
+        "negative": "{長引|ながび}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長引|ながび}けば",
+        "negative": "{長引|ながび}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長引|ながび}いたら",
+        "negative": "{長引|ながび}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長引|ながび}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長引|ながび}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長引|ながび}ける",
+        "negative": "{長引|ながび}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長引|ながび}かれる",
+        "negative": "{長引|ながび}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長引|ながび}かせる",
+        "negative": "{長引|ながび}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長引|ながび}け",
+        "negative": "{長引|ながび}くな"
+      }
+    ]
   }
 }

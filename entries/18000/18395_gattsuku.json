@@ -24,7 +24,9 @@
       "english": "I was hungry and wolfed down my food.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18395_gattsuku_ex2",
@@ -32,7 +34,9 @@
       "english": "Don't eat so greedily — eat slowly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18395_gattsuku_ex3",
@@ -40,7 +44,9 @@
       "english": "The kids were devouring the yakiniku since it had been a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18395_gattsuku_ex4",
@@ -48,7 +54,9 @@
       "english": "If you come on too strong, you'll turn people off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18395_gattsuku_ex5",
@@ -56,7 +64,9 @@
       "english": "People who are desperate for money aren't trusted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18395_gattsuku_ex6",
@@ -64,7 +74,9 @@
       "english": "Even though it was our first meeting, I was too eager and put them off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (か row): がっつく・がっつきます\nて-form: がっついて\nた-form: がっついた\n\nUSAGE:\nColloquial and somewhat rough. Not used in formal speech. The figurative sense (sense 2) is especially common among younger speakers, particularly in dating and social contexts where someone is perceived as too eager or desperate.\n\nSIMILAR WORDS:\n- {貪|むさぼ}る: To devour, to covet greedily — more literary and intense.\n- がつがつする: Very similar meaning, also informal. Emphasizes the greedy manner.\n- {食|く}いつく: To bite at, to jump at — can be used for eagerly seizing an opportunity.",
@@ -75,12 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["consumption"],
+      "semantic": [
+        "consumption"
+      ],
       "transitivity": "intransitive",
-      "style": ["spoken"]
+      "style": [
+        "spoken"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "がっつく",
+        "negative": "がっつかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "がっつきます",
+        "negative": "がっつきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "がっついた",
+        "negative": "がっつかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "がっつきました",
+        "negative": "がっつきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "がっついて",
+        "negative": "がっつかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "がっついている",
+        "negative": "がっついていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "がっついています",
+        "negative": "がっついていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "がっついていた",
+        "negative": "がっついていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "がっついていました",
+        "negative": "がっついていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "がっつけば",
+        "negative": "がっつかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "がっついたら",
+        "negative": "がっつかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "がっつこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "がっつきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "がっつける",
+        "negative": "がっつけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "がっつかれる",
+        "negative": "がっつかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "がっつかせる",
+        "negative": "がっつかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "がっつけ",
+        "negative": "がっつくな"
+      }
+    ]
   }
 }

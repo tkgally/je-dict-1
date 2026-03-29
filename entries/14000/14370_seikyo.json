@@ -19,7 +19,9 @@
       "english": "The professor passed away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14370_seikyo_ex2",
@@ -27,7 +29,9 @@
       "english": "He passed away at the age of eighty-five.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14370_seikyo_ex3",
@@ -35,7 +39,9 @@
       "english": "Memorial services were held across the country to mourn the passing of the renowned author.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{逝去|せいきょ} is an honorific (respectful) term for death. It elevates the deceased and should not be used when referring to one's own family members' deaths (use {亡|な}くなる instead) or in casual conversation.\n\nFORMALITY:\nThis word belongs to formal/respectful register. In descending formality:\n- {逝去|せいきょ} (honorific, for respected persons)\n- {死去|しきょ} (neutral-formal, news reporting)\n- {亡|な}くなる (standard polite)\n- {死|し}ぬ (plain/blunt)\n\nCOMMON COLLOCATIONS:\n- {逝去|せいきょ}される (to pass away — honorific form)\n- {逝去|せいきょ}の{知|し}らせ (news of someone's passing)\n- ご{逝去|せいきょ} (passing — with honorific prefix)\n\nOften seen in the set phrase ご{逝去|せいきょ}を{悼|いた}み (mourning the passing of...).",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{逝去|せいきょ}する",
+        "negative": "{逝去|せいきょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{逝去|せいきょ}します",
+        "negative": "{逝去|せいきょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{逝去|せいきょ}した",
+        "negative": "{逝去|せいきょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{逝去|せいきょ}しました",
+        "negative": "{逝去|せいきょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{逝去|せいきょ}して",
+        "negative": "{逝去|せいきょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{逝去|せいきょ}している",
+        "negative": "{逝去|せいきょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{逝去|せいきょ}しています",
+        "negative": "{逝去|せいきょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{逝去|せいきょ}していた",
+        "negative": "{逝去|せいきょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{逝去|せいきょ}していました",
+        "negative": "{逝去|せいきょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{逝去|せいきょ}すれば",
+        "negative": "{逝去|せいきょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{逝去|せいきょ}したら",
+        "negative": "{逝去|せいきょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{逝去|せいきょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{逝去|せいきょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{逝去|せいきょ}できる",
+        "negative": "{逝去|せいきょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{逝去|せいきょ}される",
+        "negative": "{逝去|せいきょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{逝去|せいきょ}させる",
+        "negative": "{逝去|せいきょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{逝去|せいきょ}しろ",
+        "negative": "{逝去|せいきょ}するな"
+      }
+    ]
   }
 }

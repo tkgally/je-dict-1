@@ -19,7 +19,9 @@
       "english": "I'm planning to take a trip this weekend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14430_toode_ex2",
@@ -27,7 +29,9 @@
       "english": "The weather is nice, so let's go on a little excursion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14430_toode_ex3",
@@ -35,7 +39,9 @@
       "english": "While the children are young, it's hard to take trips to distant places.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {遠|とお}い (far) and {出|で} (going out). Functions as both a noun and a suru-verb.\n\nCOMMON COLLOCATIONS:\n- {遠出|とおで}する (to go on an excursion)\n- {遠出|とおで}の{予定|よてい} (plans for an outing)\n- {少|すこ}し{遠出|とおで}する (to go a little farther than usual)\n- {遠出|とおで}ができない (can't go far)\n\nLess formal than {旅行|りょこう} (travel) and implies a shorter, more casual trip — like a day trip or weekend outing rather than a formal vacation. Often used when someone ventures a bit beyond their usual neighborhood or daily routine.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遠出|とおで}する",
+        "negative": "{遠出|とおで}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遠出|とおで}します",
+        "negative": "{遠出|とおで}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遠出|とおで}した",
+        "negative": "{遠出|とおで}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遠出|とおで}しました",
+        "negative": "{遠出|とおで}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遠出|とおで}して",
+        "negative": "{遠出|とおで}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遠出|とおで}している",
+        "negative": "{遠出|とおで}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遠出|とおで}しています",
+        "negative": "{遠出|とおで}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遠出|とおで}していた",
+        "negative": "{遠出|とおで}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遠出|とおで}していました",
+        "negative": "{遠出|とおで}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遠出|とおで}すれば",
+        "negative": "{遠出|とおで}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遠出|とおで}したら",
+        "negative": "{遠出|とおで}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遠出|とおで}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遠出|とおで}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遠出|とおで}できる",
+        "negative": "{遠出|とおで}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遠出|とおで}される",
+        "negative": "{遠出|とおで}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遠出|とおで}させる",
+        "negative": "{遠出|とおで}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遠出|とおで}しろ",
+        "negative": "{遠出|とおで}するな"
+      }
+    ]
   }
 }

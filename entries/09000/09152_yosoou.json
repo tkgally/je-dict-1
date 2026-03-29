@@ -21,7 +21,9 @@
       "id": "09152_yosoou_ex1",
       "japanese": "{知|し}らないふりを{装|よそお}う",
       "english": "to pretend not to know",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "09152_yosoou_ex2",
       "japanese": "{彼|かれ}は{平静|へいせい}を{装|よそお}っていた。",
       "english": "He was pretending to be calm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "09152_yosoou_ex3",
       "japanese": "{何事|なにごと}もなかったかのように{装|よそお}って、{部屋|へや}に{入|はい}った。",
       "english": "Acting as if nothing had happened, he entered the room.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "09152_yosoou_ex4",
       "japanese": "{身|み}を{装|よそお}う",
       "english": "to dress oneself",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "09152_yosoou_ex5",
       "japanese": "{秋|あき}の{装|よそお}い",
       "english": "autumn attire/decoration",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "09152_yosoou_ex6",
       "japanese": "{会場|かいじょう}は{華|はな}やかに{装|よそお}われていた。",
       "english": "The venue was gorgeously decorated.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,11 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{装|よそお}う",
+        "negative": "{装|よそお}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{装|よそお}います",
+        "negative": "{装|よそお}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{装|よそお}った",
+        "negative": "{装|よそお}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{装|よそお}いました",
+        "negative": "{装|よそお}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{装|よそお}って",
+        "negative": "{装|よそお}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{装|よそお}っている",
+        "negative": "{装|よそお}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{装|よそお}っています",
+        "negative": "{装|よそお}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{装|よそお}っていた",
+        "negative": "{装|よそお}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{装|よそお}っていました",
+        "negative": "{装|よそお}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{装|よそお}えば",
+        "negative": "{装|よそお}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{装|よそお}ったら",
+        "negative": "{装|よそお}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{装|よそお}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{装|よそお}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{装|よそお}える",
+        "negative": "{装|よそお}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{装|よそお}われる",
+        "negative": "{装|よそお}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{装|よそお}わせる",
+        "negative": "{装|よそお}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{装|よそお}え",
+        "negative": "{装|よそお}うな"
+      }
+    ]
   }
 }

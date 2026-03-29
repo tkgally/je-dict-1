@@ -19,7 +19,9 @@
       "english": "I have a friend I can talk to without holding back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13258_kigane_ex2",
@@ -27,7 +29,9 @@
       "english": "Out of consideration for my neighbors, I refrain from playing music at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13258_kigane_ex3",
@@ -35,7 +39,9 @@
       "english": "Living at my parents' house means constantly holding back, so living alone is easier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{気兼|きが}ね reflects a deeply Japanese social dynamic of self-restraint out of concern for others' feelings or comfort. The most common form is {気兼|きが}ねなく (without reserve), used to describe relationships or situations where one can be completely at ease. As a する verb, {気兼|きが}ねする means to hold back out of consideration.\n\nCOMMON COLLOCATIONS:\n- {気兼|きが}ねなく: without reserve, freely\n- {気兼|きが}ねする: to hold back, to feel constrained\n- {気兼|きが}ねなく{過|す}ごす: to spend time without restraint\n- {気兼|きが}ねのない{関係|かんけい}: a relationship without reserve",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{気兼|きが}ねする",
+        "negative": "{気兼|きが}ねしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{気兼|きが}ねします",
+        "negative": "{気兼|きが}ねしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{気兼|きが}ねした",
+        "negative": "{気兼|きが}ねしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{気兼|きが}ねしました",
+        "negative": "{気兼|きが}ねしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{気兼|きが}ねして",
+        "negative": "{気兼|きが}ねしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{気兼|きが}ねしている",
+        "negative": "{気兼|きが}ねしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{気兼|きが}ねしています",
+        "negative": "{気兼|きが}ねしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{気兼|きが}ねしていた",
+        "negative": "{気兼|きが}ねしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{気兼|きが}ねしていました",
+        "negative": "{気兼|きが}ねしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{気兼|きが}ねすれば",
+        "negative": "{気兼|きが}ねしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{気兼|きが}ねしたら",
+        "negative": "{気兼|きが}ねしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{気兼|きが}ねしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{気兼|きが}ねしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{気兼|きが}ねできる",
+        "negative": "{気兼|きが}ねできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{気兼|きが}ねされる",
+        "negative": "{気兼|きが}ねされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{気兼|きが}ねさせる",
+        "negative": "{気兼|きが}ねさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{気兼|きが}ねしろ",
+        "negative": "{気兼|きが}ねするな"
+      }
+    ]
   }
 }

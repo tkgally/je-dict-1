@@ -24,7 +24,9 @@
       "english": "To capture a castle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12824_kouryaku_ex2",
@@ -32,7 +34,9 @@
       "english": "We devised a strategy to capture the enemy's base.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12824_kouryaku_ex3",
@@ -40,7 +44,9 @@
       "english": "I bought a book for tackling the difficult exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12824_kouryaku_ex4",
@@ -48,7 +54,9 @@
       "english": "To look at a game walkthrough site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12824_kouryaku_ex5",
@@ -56,7 +64,9 @@
       "english": "I didn't know how to beat the boss, so I watched a strategy video.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12824_kouryaku_ex6",
@@ -64,7 +74,9 @@
       "english": "If you use this strategy, even beginners can clear it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nWhile sense 1 (military capture) is the original meaning, sense 2 (strategy guide / walkthrough) is far more common in everyday Japanese, especially online. The word has expanded to cover any kind of \"how to conquer\" guide — games, exams, travel, dating, etc.\n\nCOMMON COLLOCATIONS:\n- {攻略|こうりゃく}{法|ほう}: strategy, method of conquering\n- {攻略|こうりゃく}サイト: walkthrough site\n- {攻略|こうりゃく}{本|ぼん}: strategy guide (book)\n- {攻略|こうりゃく}{動画|どうが}: strategy video\n- {攻略|こうりゃく}{情報|じょうほう}: strategy information, tips",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{攻略|こうりゃく}する",
+        "negative": "{攻略|こうりゃく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{攻略|こうりゃく}します",
+        "negative": "{攻略|こうりゃく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{攻略|こうりゃく}した",
+        "negative": "{攻略|こうりゃく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{攻略|こうりゃく}しました",
+        "negative": "{攻略|こうりゃく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{攻略|こうりゃく}して",
+        "negative": "{攻略|こうりゃく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{攻略|こうりゃく}している",
+        "negative": "{攻略|こうりゃく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{攻略|こうりゃく}しています",
+        "negative": "{攻略|こうりゃく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{攻略|こうりゃく}していた",
+        "negative": "{攻略|こうりゃく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{攻略|こうりゃく}していました",
+        "negative": "{攻略|こうりゃく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{攻略|こうりゃく}すれば",
+        "negative": "{攻略|こうりゃく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{攻略|こうりゃく}したら",
+        "negative": "{攻略|こうりゃく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{攻略|こうりゃく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{攻略|こうりゃく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{攻略|こうりゃく}できる",
+        "negative": "{攻略|こうりゃく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{攻略|こうりゃく}される",
+        "negative": "{攻略|こうりゃく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{攻略|こうりゃく}させる",
+        "negative": "{攻略|こうりゃく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{攻略|こうりゃく}しろ",
+        "negative": "{攻略|こうりゃく}するな"
+      }
+    ]
   }
 }

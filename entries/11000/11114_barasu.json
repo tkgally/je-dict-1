@@ -24,7 +24,9 @@
       "english": "Don't reveal the secret, okay?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11114_barasu_ex2",
@@ -32,7 +34,9 @@
       "english": "A friend spilled the plans for the surprise party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11114_barasu_ex3",
@@ -40,7 +44,9 @@
       "english": "I was afraid of being found out, so I confessed everything myself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11114_barasu_ex4",
@@ -48,7 +54,9 @@
       "english": "I dismantled the engine and inspected it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11114_barasu_ex5",
@@ -56,7 +64,9 @@
       "english": "I took apart an old computer and removed the parts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11114_barasu_ex6",
@@ -64,7 +74,9 @@
       "english": "I'm good at taking machines apart, but bad at putting them back together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (す-column): ばらさない / ばらします / ばらす / ばらせば / ばらそう\n\nUSAGE:\nBoth senses are informal/casual. Sense 1 (revealing secrets) is the more common usage in everyday conversation.\n\nRELATED WORD:\n- ばれる (to be found out, to be exposed) — the intransitive counterpart for sense 1. ばらす is the deliberate act of revealing; ばれる is when something becomes known.\n\nCOMMON COLLOCATIONS:\n- {秘密|ひみつ}をばらす (to reveal a secret)\n- ネタばらし (spoiler — revealing the punchline or plot)\n- {機械|きかい}をばらす (to dismantle a machine)",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ばらす",
+        "negative": "ばらさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ばらします",
+        "negative": "ばらしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ばらした",
+        "negative": "ばらさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ばらしました",
+        "negative": "ばらしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ばらして",
+        "negative": "ばらさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ばらしている",
+        "negative": "ばらしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ばらしています",
+        "negative": "ばらしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ばらしていた",
+        "negative": "ばらしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ばらしていました",
+        "negative": "ばらしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ばらせば",
+        "negative": "ばらさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ばらしたら",
+        "negative": "ばらさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ばらそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ばらしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ばらせる",
+        "negative": "ばらせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ばらされる",
+        "negative": "ばらされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ばらさせる",
+        "negative": "ばらさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ばらせ",
+        "negative": "ばらすな"
+      }
+    ]
   }
 }

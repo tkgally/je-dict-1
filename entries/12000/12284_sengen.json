@@ -19,7 +19,9 @@
       "english": "To declare independence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12284_sengen_ex2",
@@ -27,7 +29,9 @@
       "english": "The government issued a state of emergency declaration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12284_sengen_ex3",
@@ -35,7 +39,9 @@
       "english": "The athlete declared retirement at a press conference and expressed words of gratitude to the fans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both major official declarations and personal announcements. In everyday life, it can be used somewhat dramatically for personal resolutions: ダイエット{宣言|せんげん} (declaring one is going on a diet). The word carries a sense of formality and decisiveness.\n\nCOMMON COLLOCATIONS:\n- {独立|どくりつ}{宣言|せんげん}: declaration of independence\n- {非常事態|ひじょうじたい}{宣言|せんげん}: state of emergency declaration\n- {引退|いんたい}{宣言|せんげん}: retirement announcement\n- {宣言|せんげん}を{出|だ}す: to issue a declaration\n- {宣言|せんげん}どおり: as declared, true to one's word",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{宣言|せんげん}する",
+        "negative": "{宣言|せんげん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{宣言|せんげん}します",
+        "negative": "{宣言|せんげん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{宣言|せんげん}した",
+        "negative": "{宣言|せんげん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{宣言|せんげん}しました",
+        "negative": "{宣言|せんげん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{宣言|せんげん}して",
+        "negative": "{宣言|せんげん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{宣言|せんげん}している",
+        "negative": "{宣言|せんげん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{宣言|せんげん}しています",
+        "negative": "{宣言|せんげん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{宣言|せんげん}していた",
+        "negative": "{宣言|せんげん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{宣言|せんげん}していました",
+        "negative": "{宣言|せんげん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{宣言|せんげん}すれば",
+        "negative": "{宣言|せんげん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{宣言|せんげん}したら",
+        "negative": "{宣言|せんげん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{宣言|せんげん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{宣言|せんげん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{宣言|せんげん}できる",
+        "negative": "{宣言|せんげん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{宣言|せんげん}される",
+        "negative": "{宣言|せんげん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{宣言|せんげん}させる",
+        "negative": "{宣言|せんげん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{宣言|せんげん}しろ",
+        "negative": "{宣言|せんげん}するな"
+      }
+    ]
   }
 }

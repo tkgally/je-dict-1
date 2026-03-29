@@ -19,7 +19,9 @@
       "english": "First, apply the undercoat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17437_shitanuri_ex2",
@@ -27,7 +29,9 @@
       "english": "Please apply the top coat after the undercoat has dried.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17437_shitanuri_ex3",
@@ -35,7 +39,9 @@
       "english": "If you don't do the undercoat properly, the finish will turn out poorly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in painting (walls, furniture, art) and finishing work. The three stages of painting are typically {下塗|したぬ}り (undercoat), {中塗|なかぬ}り (middle coat), and {上塗|うわぬ}り (top coat).\n\nCOMMON COLLOCATIONS:\n- {下塗|したぬ}りをする (to apply an undercoat)\n- {下塗|したぬ}り{材|ざい} (primer material)\n- {下塗|したぬ}り{剤|ざい} (primer agent)\n\nSIMILAR WORDS:\n- {上塗|うわぬ}り: top coat, finish coat — the final layer\n- プライマー: primer (loanword) — same meaning in technical contexts",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["craft", "construction"]
+      "semantic": [
+        "craft",
+        "construction"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{下塗|したぬ}りする",
+        "negative": "{下塗|したぬ}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{下塗|したぬ}りします",
+        "negative": "{下塗|したぬ}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{下塗|したぬ}りした",
+        "negative": "{下塗|したぬ}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{下塗|したぬ}りしました",
+        "negative": "{下塗|したぬ}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{下塗|したぬ}りして",
+        "negative": "{下塗|したぬ}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{下塗|したぬ}りしている",
+        "negative": "{下塗|したぬ}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{下塗|したぬ}りしています",
+        "negative": "{下塗|したぬ}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{下塗|したぬ}りしていた",
+        "negative": "{下塗|したぬ}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{下塗|したぬ}りしていました",
+        "negative": "{下塗|したぬ}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{下塗|したぬ}りすれば",
+        "negative": "{下塗|したぬ}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{下塗|したぬ}りしたら",
+        "negative": "{下塗|したぬ}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{下塗|したぬ}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{下塗|したぬ}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{下塗|したぬ}りできる",
+        "negative": "{下塗|したぬ}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{下塗|したぬ}りされる",
+        "negative": "{下塗|したぬ}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{下塗|したぬ}りさせる",
+        "negative": "{下塗|したぬ}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{下塗|したぬ}りしろ",
+        "negative": "{下塗|したぬ}りするな"
+      }
+    ]
   }
 }

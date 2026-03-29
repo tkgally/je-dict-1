@@ -24,7 +24,9 @@
       "english": "The typhoon devastated the fields.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14057_arasu_ex2",
@@ -32,7 +34,9 @@
       "english": "Wild boars come down from the mountains and damage the rice paddies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14057_arasu_ex3",
@@ -40,7 +44,9 @@
       "english": "After the storm passed, the coastline had been devastated beyond recognition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14057_arasu_ex4",
@@ -48,7 +54,9 @@
       "english": "My house was ransacked while I was away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14057_arasu_ex5",
@@ -56,7 +64,9 @@
       "english": "The garbage dump was torn apart by crows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14057_arasu_ex6",
@@ -64,7 +74,9 @@
       "english": "My room was ransacked by a burglar, and the contents of the drawers were scattered all over the floor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段|ごだん}). {荒|あ}らす → {荒|あ}らさない → {荒|あ}らして → {荒|あ}らした\n\nUSAGE:\nThe passive form {荒|あ}らされる is very common, as the focus is often on the victim or the damaged area rather than the agent. Closely related to the intransitive verb {荒|あ}れる (to become rough/desolate).\n\nCOMMON COLLOCATIONS:\n- {畑|はたけ}を{荒|あ}らす: to damage/destroy the fields\n- {家|いえ}を{荒|あ}らす: to ransack a house\n- {場|ば}を{荒|あ}らす: to cause trouble at a gathering",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{荒|あ}らす",
+        "negative": "{荒|あ}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{荒|あ}らします",
+        "negative": "{荒|あ}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{荒|あ}らした",
+        "negative": "{荒|あ}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{荒|あ}らしました",
+        "negative": "{荒|あ}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{荒|あ}らして",
+        "negative": "{荒|あ}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{荒|あ}らしている",
+        "negative": "{荒|あ}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{荒|あ}らしています",
+        "negative": "{荒|あ}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{荒|あ}らしていた",
+        "negative": "{荒|あ}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{荒|あ}らしていました",
+        "negative": "{荒|あ}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{荒|あ}らせば",
+        "negative": "{荒|あ}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{荒|あ}らしたら",
+        "negative": "{荒|あ}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{荒|あ}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{荒|あ}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{荒|あ}らせる",
+        "negative": "{荒|あ}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{荒|あ}らされる",
+        "negative": "{荒|あ}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{荒|あ}らさせる",
+        "negative": "{荒|あ}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{荒|あ}らせ",
+        "negative": "{荒|あ}らすな"
+      }
+    ]
   }
 }

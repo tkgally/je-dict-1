@@ -19,7 +19,9 @@
       "english": "To write in one's name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13052_kakiireru_ex2",
@@ -27,7 +29,9 @@
       "english": "Please fill in the required items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13052_kakiireru_ex3",
@@ -35,7 +39,9 @@
       "english": "I make sure not to forget to write my plans in the calendar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {書|か}き{入|い}れない\n- Polite: {書|か}き{入|い}れます\n- Te-form: {書|か}き{入|い}れて\n- Past: {書|か}き{入|い}れた\n\nCOMMON COLLOCATIONS:\n- {名前|なまえ}を{書|か}き{入|い}れる: to write in one's name\n- {日付|ひづけ}を{書|か}き{入|い}れる: to fill in the date\n- {空欄|くうらん}に{書|か}き{入|い}れる: to fill in the blank\n- {手帳|てちょう}に{書|か}き{入|い}れる: to write in one's planner\n\nNOTE:\nThe related noun {書|か}き{入|い}れ{時|どき} means \"peak business period\" — the time when shopkeepers are busiest writing entries in their account books.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{書|か}き{入|い}れる",
+        "negative": "{書|か}き{入|い}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{書|か}き{入|い}れます",
+        "negative": "{書|か}き{入|い}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{書|か}き{入|い}れた",
+        "negative": "{書|か}き{入|い}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{書|か}き{入|い}れました",
+        "negative": "{書|か}き{入|い}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{書|か}き{入|い}れて",
+        "negative": "{書|か}き{入|い}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{書|か}き{入|い}れている",
+        "negative": "{書|か}き{入|い}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{書|か}き{入|い}れています",
+        "negative": "{書|か}き{入|い}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{書|か}き{入|い}れていた",
+        "negative": "{書|か}き{入|い}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{書|か}き{入|い}れていました",
+        "negative": "{書|か}き{入|い}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{書|か}き{入|い}れれば",
+        "negative": "{書|か}き{入|い}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{書|か}き{入|い}れたら",
+        "negative": "{書|か}き{入|い}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{書|か}き{入|い}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{書|か}き{入|い}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{書|か}き{入|い}れられる",
+        "negative": "{書|か}き{入|い}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{書|か}き{入|い}れられる",
+        "negative": "{書|か}き{入|い}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{書|か}き{入|い}れさせる",
+        "negative": "{書|か}き{入|い}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{書|か}き{入|い}れろ",
+        "negative": "{書|か}き{入|い}れるな"
+      }
+    ]
   }
 }

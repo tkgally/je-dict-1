@@ -19,7 +19,9 @@
       "english": "I underwent special training during summer break.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13466_tokkun_ex2",
@@ -27,7 +29,9 @@
       "english": "I am receiving intensive training from my coach before the match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13466_tokkun_ex3",
@@ -35,7 +39,9 @@
       "english": "Since I'm bad at presentations, I asked a senior colleague to put me through intensive practice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する as a verb. Implies training that is more intensive, focused, or demanding than regular practice. Common in sports, academics, and skill-building contexts. Often has an enthusiastic or determined tone.\n\nCOMMON COLLOCATIONS:\n- {特訓|とっくん}を{受|う}ける: to undergo special training\n- {特訓|とっくん}する: to do intensive training\n- {猛|もう}{特訓|とっくん}: fierce/grueling special training\n- {特訓|とっくん}{合宿|がっしゅく}: intensive training camp",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["activity-training"]
+      "semantic": [
+        "activity-training"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{特訓|とっくん}する",
+        "negative": "{特訓|とっくん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{特訓|とっくん}します",
+        "negative": "{特訓|とっくん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{特訓|とっくん}した",
+        "negative": "{特訓|とっくん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{特訓|とっくん}しました",
+        "negative": "{特訓|とっくん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{特訓|とっくん}して",
+        "negative": "{特訓|とっくん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{特訓|とっくん}している",
+        "negative": "{特訓|とっくん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{特訓|とっくん}しています",
+        "negative": "{特訓|とっくん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{特訓|とっくん}していた",
+        "negative": "{特訓|とっくん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{特訓|とっくん}していました",
+        "negative": "{特訓|とっくん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{特訓|とっくん}すれば",
+        "negative": "{特訓|とっくん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{特訓|とっくん}したら",
+        "negative": "{特訓|とっくん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{特訓|とっくん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{特訓|とっくん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{特訓|とっくん}できる",
+        "negative": "{特訓|とっくん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{特訓|とっくん}される",
+        "negative": "{特訓|とっくん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{特訓|とっくん}させる",
+        "negative": "{特訓|とっくん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{特訓|とっくん}しろ",
+        "negative": "{特訓|とっくん}するな"
+      }
+    ]
   }
 }

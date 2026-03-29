@@ -17,7 +17,9 @@
       "id": "14453_shinkyuu_ex1",
       "japanese": "{無事|ぶじ}に{進級|しんきゅう}できた。",
       "english": "I was able to advance to the next grade without any problems.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14453_shinkyuu_ex2",
       "japanese": "{成績|せいせき}が{悪|わる}いと{進級|しんきゅう}できない{場合|ばあい}がある。",
       "english": "If your grades are bad, you may not be able to advance to the next grade.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14453_shinkyuu_ex3",
       "japanese": "{息子|むすこ}は{水泳|すいえい}の{進級|しんきゅう}テストに{合格|ごうかく}して、とても{喜|よろこ}んでいた。",
       "english": "My son was very happy after passing the swimming level-up test.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{進級|しんきゅう}する",
+        "negative": "{進級|しんきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{進級|しんきゅう}します",
+        "negative": "{進級|しんきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{進級|しんきゅう}した",
+        "negative": "{進級|しんきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{進級|しんきゅう}しました",
+        "negative": "{進級|しんきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{進級|しんきゅう}して",
+        "negative": "{進級|しんきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{進級|しんきゅう}している",
+        "negative": "{進級|しんきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{進級|しんきゅう}しています",
+        "negative": "{進級|しんきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{進級|しんきゅう}していた",
+        "negative": "{進級|しんきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{進級|しんきゅう}していました",
+        "negative": "{進級|しんきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{進級|しんきゅう}すれば",
+        "negative": "{進級|しんきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{進級|しんきゅう}したら",
+        "negative": "{進級|しんきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{進級|しんきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{進級|しんきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{進級|しんきゅう}できる",
+        "negative": "{進級|しんきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{進級|しんきゅう}される",
+        "negative": "{進級|しんきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{進級|しんきゅう}させる",
+        "negative": "{進級|しんきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{進級|しんきゅう}しろ",
+        "negative": "{進級|しんきゅう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "To service a car.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17849_seibisuru_ex2",
@@ -32,7 +34,9 @@
       "english": "Airplanes are regularly maintained.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17849_seibisuru_ex3",
@@ -40,7 +44,9 @@
       "english": "Poor maintenance was the cause of the accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17849_seibisuru_ex4",
@@ -48,7 +54,9 @@
       "english": "To develop the roads.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17849_seibisuru_ex5",
@@ -56,7 +64,9 @@
       "english": "Legal frameworks need to be put in order.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17849_seibisuru_ex6",
@@ -64,7 +74,9 @@
       "english": "I want to develop the area's infrastructure and make it a livable town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is used for mechanical/vehicle maintenance. Sense 2 is broader, covering infrastructure development, legal frameworks, and organizational systems. Both senses share the core meaning of putting things in proper order.\n\nCOMMON COLLOCATIONS:\n- {車|くるま}の{整備|せいび} (car maintenance)\n- {整備士|せいびし} (mechanic)\n- {整備|せいび}{工場|こうじょう} (maintenance shop)\n- {環境|かんきょう}{整備|せいび} (environmental improvement)\n- {制度|せいど}を{整備|せいび}する (to establish a system)",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["maintenance", "infrastructure"]
+      "semantic": [
+        "maintenance",
+        "infrastructure"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{整備|せいび}する",
+        "negative": "{整備|せいび}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{整備|せいび}します",
+        "negative": "{整備|せいび}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{整備|せいび}した",
+        "negative": "{整備|せいび}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{整備|せいび}しました",
+        "negative": "{整備|せいび}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{整備|せいび}して",
+        "negative": "{整備|せいび}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{整備|せいび}している",
+        "negative": "{整備|せいび}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{整備|せいび}しています",
+        "negative": "{整備|せいび}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{整備|せいび}していた",
+        "negative": "{整備|せいび}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{整備|せいび}していました",
+        "negative": "{整備|せいび}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{整備|せいび}すれば",
+        "negative": "{整備|せいび}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{整備|せいび}したら",
+        "negative": "{整備|せいび}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{整備|せいび}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{整備|せいび}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{整備|せいび}できる",
+        "negative": "{整備|せいび}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{整備|せいび}される",
+        "negative": "{整備|せいび}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{整備|せいび}させる",
+        "negative": "{整備|せいび}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{整備|せいび}しろ",
+        "negative": "{整備|せいび}するな"
+      }
+    ]
   }
 }

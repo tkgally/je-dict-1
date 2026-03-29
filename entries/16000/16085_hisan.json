@@ -19,7 +19,9 @@
       "english": "Pollen is being dispersed in the air.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16085_hisan_ex2",
@@ -27,7 +29,9 @@
       "english": "The amount of pollen dispersal is high this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16085_hisan_ex3",
@@ -35,7 +39,9 @@
       "english": "Glass fragments have scattered and it's dangerous, so please stay away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in news and weather reports about pollen season ({花粉|かふん}{飛散|ひさん}). Also used for debris from explosions, accidents, or construction. Used as a suru-verb ({飛散|ひさん}する).\n\nCOMMON COLLOCATIONS:\n- {花粉|かふん}{飛散|ひさん} (pollen dispersal)\n- {飛散|ひさん}{防止|ぼうし} (prevention of scattering)\n- {飛散|ひさん}{量|りょう} (amount of dispersal)\n\nSIMILAR WORDS:\n- {散乱|さんらん}: scattering, being strewn about — for objects on the ground rather than in the air\n- {拡散|かくさん}: diffusion, spreading — broader dispersal over a wider area",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["nature", "science"]
+      "semantic": [
+        "nature",
+        "science"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{飛散|ひさん}する",
+        "negative": "{飛散|ひさん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{飛散|ひさん}します",
+        "negative": "{飛散|ひさん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{飛散|ひさん}した",
+        "negative": "{飛散|ひさん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{飛散|ひさん}しました",
+        "negative": "{飛散|ひさん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{飛散|ひさん}して",
+        "negative": "{飛散|ひさん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{飛散|ひさん}している",
+        "negative": "{飛散|ひさん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{飛散|ひさん}しています",
+        "negative": "{飛散|ひさん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{飛散|ひさん}していた",
+        "negative": "{飛散|ひさん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{飛散|ひさん}していました",
+        "negative": "{飛散|ひさん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{飛散|ひさん}すれば",
+        "negative": "{飛散|ひさん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{飛散|ひさん}したら",
+        "negative": "{飛散|ひさん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{飛散|ひさん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{飛散|ひさん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{飛散|ひさん}できる",
+        "negative": "{飛散|ひさん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{飛散|ひさん}される",
+        "negative": "{飛散|ひさん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{飛散|ひさん}させる",
+        "negative": "{飛散|ひさん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{飛散|ひさん}しろ",
+        "negative": "{飛散|ひさん}するな"
+      }
+    ]
   }
 }

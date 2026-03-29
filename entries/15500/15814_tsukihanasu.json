@@ -24,7 +24,9 @@
       "english": "I pushed the other person away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15814_tsukihanasu_ex2",
@@ -32,7 +34,9 @@
       "english": "He shoved away the child clinging to him and ran.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15814_tsukihanasu_ex3",
@@ -40,7 +44,9 @@
       "english": "The culprit shoved the security guard away and ran off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15814_tsukihanasu_ex4",
@@ -48,7 +54,9 @@
       "english": "He spoke in a cold, dismissive way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15814_tsukihanasu_ex5",
@@ -56,7 +64,9 @@
       "english": "I asked for help, but was coldly rejected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15814_tsukihanasu_ex6",
@@ -64,7 +74,9 @@
       "english": "For a child's independence, it's sometimes necessary to let go and not help.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{突|つ}き{放|はな}す is a godan verb. It is a compound of {突|つ}く (to thrust) + {放|はな}す (to release). The physical sense (sense 1) involves forceful pushing, while the figurative sense (sense 2) describes emotional coldness or deliberate distancing.\n\nCOMMON COLLOCATIONS:\n- {冷|つめ}たく{突|つ}き{放|はな}す (coldly reject)\n- {突|つ}き{放|はな}すような{態度|たいど} (dismissive attitude)\n- {突|つ}き{放|はな}すような{言|い}い{方|かた} (cold way of speaking)\n\nSIMILAR WORDS:\n{押|お}しのける means to push aside, focusing on clearing a path. {突|つ}き{放|はな}す emphasizes the force and finality of the action. In the figurative sense, {見捨|みす}てる (to abandon) is stronger and more permanent, while {突|つ}き{放|はな}す can be a temporary or intentional act of tough love.",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "emotion"],
+      "semantic": [
+        "action",
+        "emotion"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{突|つ}き{放|はな}す",
+        "negative": "{突|つ}き{放|はな}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{突|つ}き{放|はな}します",
+        "negative": "{突|つ}き{放|はな}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{突|つ}き{放|はな}した",
+        "negative": "{突|つ}き{放|はな}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{突|つ}き{放|はな}しました",
+        "negative": "{突|つ}き{放|はな}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{突|つ}き{放|はな}して",
+        "negative": "{突|つ}き{放|はな}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{突|つ}き{放|はな}している",
+        "negative": "{突|つ}き{放|はな}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{突|つ}き{放|はな}しています",
+        "negative": "{突|つ}き{放|はな}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{突|つ}き{放|はな}していた",
+        "negative": "{突|つ}き{放|はな}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{突|つ}き{放|はな}していました",
+        "negative": "{突|つ}き{放|はな}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{突|つ}き{放|はな}せば",
+        "negative": "{突|つ}き{放|はな}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{突|つ}き{放|はな}したら",
+        "negative": "{突|つ}き{放|はな}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{突|つ}き{放|はな}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{突|つ}き{放|はな}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{突|つ}き{放|はな}せる",
+        "negative": "{突|つ}き{放|はな}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{突|つ}き{放|はな}される",
+        "negative": "{突|つ}き{放|はな}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{突|つ}き{放|はな}させる",
+        "negative": "{突|つ}き{放|はな}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{突|つ}き{放|はな}せ",
+        "negative": "{突|つ}き{放|はな}すな"
+      }
+    ]
   }
 }

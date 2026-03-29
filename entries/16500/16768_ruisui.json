@@ -19,7 +19,9 @@
       "english": "To judge by analogy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16768_ruisui_ex2",
@@ -27,7 +29,9 @@
       "english": "Reasoning by analogy from past cases, the result will likely be the same.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16768_ruisui_ex3",
@@ -35,7 +39,9 @@
       "english": "I tried to understand the grammar of the new language by drawing analogies from my knowledge of other languages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({類推|るいすい}する). Common in academic, logical, and linguistic contexts. In linguistics, {類推|るいすい} refers to the process by which irregular forms are regularized based on patterns from similar words.\n\nCOMMON COLLOCATIONS:\n- {類推|るいすい}する (to reason by analogy)\n- {類推|るいすい}から (from analogy)\n- {類推|るいすい}{解釈|かいしゃく} (analogical interpretation)\n\nSIMILAR WORDS:\n- {推測|すいそく}: conjecture, guess — broader meaning, not necessarily based on analogy\n- {推論|すいろん}: inference, deduction — more general logical reasoning",
@@ -46,12 +52,111 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["thinking", "logic"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "thinking",
+        "logic"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{類推|るいすい}する",
+        "negative": "{類推|るいすい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{類推|るいすい}します",
+        "negative": "{類推|るいすい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{類推|るいすい}した",
+        "negative": "{類推|るいすい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{類推|るいすい}しました",
+        "negative": "{類推|るいすい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{類推|るいすい}して",
+        "negative": "{類推|るいすい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{類推|るいすい}している",
+        "negative": "{類推|るいすい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{類推|るいすい}しています",
+        "negative": "{類推|るいすい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{類推|るいすい}していた",
+        "negative": "{類推|るいすい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{類推|るいすい}していました",
+        "negative": "{類推|るいすい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{類推|るいすい}すれば",
+        "negative": "{類推|るいすい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{類推|るいすい}したら",
+        "negative": "{類推|るいすい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{類推|るいすい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{類推|るいすい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{類推|るいすい}できる",
+        "negative": "{類推|るいすい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{類推|るいすい}される",
+        "negative": "{類推|るいすい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{類推|るいすい}させる",
+        "negative": "{類推|るいすい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{類推|るいすい}しろ",
+        "negative": "{類推|るいすい}するな"
+      }
+    ]
   }
 }

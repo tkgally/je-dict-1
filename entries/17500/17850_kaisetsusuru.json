@@ -19,7 +19,9 @@
       "english": "An expert provides commentary on the news.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17850_kaisetsusuru_ex2",
@@ -27,7 +29,9 @@
       "english": "This book explains Japanese history in an easy-to-understand way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17850_kaisetsusuru_ex3",
@@ -35,7 +39,9 @@
       "english": "The announcer in charge of the game commentary is very interesting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a suru verb and as a standalone noun. As a noun, it often refers to commentary or explanatory notes. Common in media, sports broadcasting, and educational contexts.\n\nCOMMON COLLOCATIONS:\n- {解説者|かいせつしゃ} (commentator)\n- {解説記事|かいせつきじ} (explanatory article)\n- {解説番組|かいせつばんぐみ} (commentary program)\n- わかりやすく{解説|かいせつ}する (to explain clearly)\n\nSIMILAR WORDS:\n- {説明|せつめい}する: to explain — more general, everyday explanation\n- {解説|かいせつ}する: to explain with expert analysis or commentary — more detailed and authoritative",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "media"]
+      "semantic": [
+        "communication",
+        "media"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{解説|かいせつ}する",
+        "negative": "{解説|かいせつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{解説|かいせつ}します",
+        "negative": "{解説|かいせつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{解説|かいせつ}した",
+        "negative": "{解説|かいせつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{解説|かいせつ}しました",
+        "negative": "{解説|かいせつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{解説|かいせつ}して",
+        "negative": "{解説|かいせつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{解説|かいせつ}している",
+        "negative": "{解説|かいせつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{解説|かいせつ}しています",
+        "negative": "{解説|かいせつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{解説|かいせつ}していた",
+        "negative": "{解説|かいせつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{解説|かいせつ}していました",
+        "negative": "{解説|かいせつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{解説|かいせつ}すれば",
+        "negative": "{解説|かいせつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{解説|かいせつ}したら",
+        "negative": "{解説|かいせつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{解説|かいせつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{解説|かいせつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{解説|かいせつ}できる",
+        "negative": "{解説|かいせつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{解説|かいせつ}される",
+        "negative": "{解説|かいせつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{解説|かいせつ}させる",
+        "negative": "{解説|かいせつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{解説|かいせつ}しろ",
+        "negative": "{解説|かいせつ}するな"
+      }
+    ]
   }
 }

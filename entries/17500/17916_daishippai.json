@@ -19,7 +19,9 @@
       "english": "The presentation was a total disaster.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17916_daishippai_ex2",
@@ -27,7 +29,9 @@
       "english": "My first attempt at cooking ended in a huge failure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17916_daishippai_ex3",
@@ -35,7 +39,9 @@
       "english": "That new product didn't sell and was a fiasco for the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe prefix {大|だい} intensifies {失敗|しっぱい} (failure). Can be used as a noun or with する to function as a verb. Often used casually and sometimes humorously to describe one's own mistakes.\n\nCOMMON COLLOCATIONS:\n- {大失敗|だいしっぱい}に{終|お}わる (to end in a huge failure)\n- {大失敗|だいしっぱい}をする (to make a huge blunder)\n- {大失敗|だいしっぱい}だった (it was a total failure)\n\nSIMILAR WORDS:\n- {失敗|しっぱい}: failure — general term without the intensifying nuance\n- {大成功|だいせいこう}: huge success — the opposite, using the same {大|だい} prefix",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": []
+      "semantic": [
+        "general"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{大失敗|だいしっぱい}する",
+        "negative": "{大失敗|だいしっぱい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{大失敗|だいしっぱい}します",
+        "negative": "{大失敗|だいしっぱい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{大失敗|だいしっぱい}した",
+        "negative": "{大失敗|だいしっぱい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{大失敗|だいしっぱい}しました",
+        "negative": "{大失敗|だいしっぱい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{大失敗|だいしっぱい}して",
+        "negative": "{大失敗|だいしっぱい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{大失敗|だいしっぱい}している",
+        "negative": "{大失敗|だいしっぱい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{大失敗|だいしっぱい}しています",
+        "negative": "{大失敗|だいしっぱい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{大失敗|だいしっぱい}していた",
+        "negative": "{大失敗|だいしっぱい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{大失敗|だいしっぱい}していました",
+        "negative": "{大失敗|だいしっぱい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{大失敗|だいしっぱい}すれば",
+        "negative": "{大失敗|だいしっぱい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{大失敗|だいしっぱい}したら",
+        "negative": "{大失敗|だいしっぱい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{大失敗|だいしっぱい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{大失敗|だいしっぱい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{大失敗|だいしっぱい}できる",
+        "negative": "{大失敗|だいしっぱい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{大失敗|だいしっぱい}される",
+        "negative": "{大失敗|だいしっぱい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{大失敗|だいしっぱい}させる",
+        "negative": "{大失敗|だいしっぱい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{大失敗|だいしっぱい}しろ",
+        "negative": "{大失敗|だいしっぱい}するな"
+      }
+    ]
   }
 }

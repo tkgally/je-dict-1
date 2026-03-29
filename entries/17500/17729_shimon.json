@@ -19,7 +19,9 @@
       "english": "The minister referred the matter to the advisory council.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17729_shimon_ex2",
@@ -27,7 +29,9 @@
       "english": "The advisory body compiled a report.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17729_shimon_ex3",
@@ -35,7 +39,9 @@
       "english": "The matter of educational reform was referred to an expert panel, and a formal response was received six months later.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{諮問|しもん} is used in governmental and institutional settings. The typical process is: a leader or authority figure {諮問|しもん}s (consults) an advisory body, which then produces a {答申|とうしん} (formal recommendation).\n\nCOMMON COLLOCATIONS:\n- {諮問機関|しもんきかん} (advisory body)\n- {諮問委員会|しもんいいんかい} (advisory committee)\n- {諮問|しもん}に{応|おう}じる (to respond to a consultation)\n- {答申|とうしん} (formal recommendation in response to a consultation)",
@@ -46,12 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["government"],
-      "transitivity": "transitive"
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "government"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{諮問|しもん}する",
+        "negative": "{諮問|しもん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{諮問|しもん}します",
+        "negative": "{諮問|しもん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{諮問|しもん}した",
+        "negative": "{諮問|しもん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{諮問|しもん}しました",
+        "negative": "{諮問|しもん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{諮問|しもん}して",
+        "negative": "{諮問|しもん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{諮問|しもん}している",
+        "negative": "{諮問|しもん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{諮問|しもん}しています",
+        "negative": "{諮問|しもん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{諮問|しもん}していた",
+        "negative": "{諮問|しもん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{諮問|しもん}していました",
+        "negative": "{諮問|しもん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{諮問|しもん}すれば",
+        "negative": "{諮問|しもん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{諮問|しもん}したら",
+        "negative": "{諮問|しもん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{諮問|しもん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{諮問|しもん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{諮問|しもん}できる",
+        "negative": "{諮問|しもん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{諮問|しもん}される",
+        "negative": "{諮問|しもん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{諮問|しもん}させる",
+        "negative": "{諮問|しもん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{諮問|しもん}しろ",
+        "negative": "{諮問|しもん}するな"
+      }
+    ]
   }
 }

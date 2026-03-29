@@ -19,7 +19,9 @@
       "english": "We delayed the departure by one hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17088_okurasu_ex2",
@@ -27,7 +29,9 @@
       "english": "Can we push the meeting start time back by 30 minutes?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17088_okurasu_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to bad weather, we had no choice but to delay the start of the match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe transitive counterpart of {遅|おく}れる (to be late, intransitive). Used when someone deliberately or actively causes a delay.\n\nCOMMON COLLOCATIONS:\n- {出発|しゅっぱつ}を{遅|おく}らす (to delay departure)\n- {時間|じかん}を{遅|おく}らす (to push back the time)\n- {予定|よてい}を{遅|おく}らす (to postpone a plan)\n\nGRAMMAR:\nGodan verb ({遅|おく}らす → {遅|おく}らさない → {遅|おく}らして). Transitive. The intransitive form is {遅|おく}れる. Also written as {遅|おく}らせる (ichidan, causative form of {遅|おく}れる), which is more common in modern usage.\n\nSIMILAR WORDS:\n- {延期|えんき}する: to postpone — more formal, used for events and official dates\n- {先延|さきの}ばしにする: to put off — more casual, often implies procrastination",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general", "action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "time-general",
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遅|おく}らす",
+        "negative": "{遅|おく}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遅|おく}らします",
+        "negative": "{遅|おく}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遅|おく}らした",
+        "negative": "{遅|おく}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遅|おく}らしました",
+        "negative": "{遅|おく}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遅|おく}らして",
+        "negative": "{遅|おく}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遅|おく}らしている",
+        "negative": "{遅|おく}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遅|おく}らしています",
+        "negative": "{遅|おく}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遅|おく}らしていた",
+        "negative": "{遅|おく}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遅|おく}らしていました",
+        "negative": "{遅|おく}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遅|おく}らせば",
+        "negative": "{遅|おく}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遅|おく}らしたら",
+        "negative": "{遅|おく}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遅|おく}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遅|おく}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遅|おく}らせる",
+        "negative": "{遅|おく}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遅|おく}らされる",
+        "negative": "{遅|おく}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遅|おく}らさせる",
+        "negative": "{遅|おく}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遅|おく}らせ",
+        "negative": "{遅|おく}らすな"
+      }
+    ]
   }
 }

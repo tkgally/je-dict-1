@@ -19,7 +19,9 @@
       "english": "To convert farmland to a different use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14389_tenyou_ex2",
@@ -27,7 +29,9 @@
       "english": "They converted a vacant building into a shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14389_tenyou_ex3",
@@ -35,7 +39,9 @@
       "english": "New products were created by repurposing military technology for civilian use.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{転用|てんよう} is a noun that can function as a suru verb ({転用|てんよう}する).\n\nCOMMON COLLOCATIONS:\n- {農地|のうち}を{転用|てんよう}する (convert farmland)\n- {技術|ぎじゅつ}を{転用|てんよう}する (repurpose technology)\n- {資金|しきん}を{転用|てんよう}する (divert funds)\n- {軍事|ぐんじ}{転用|てんよう} (military diversion/repurposing)\n\nIn legal and administrative contexts, {農地|のうち}{転用|てんよう} (farmland conversion) is a regulated process that requires government approval. The word implies a deliberate, planned change of purpose rather than casual reuse.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{転用|てんよう}する",
+        "negative": "{転用|てんよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{転用|てんよう}します",
+        "negative": "{転用|てんよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{転用|てんよう}した",
+        "negative": "{転用|てんよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{転用|てんよう}しました",
+        "negative": "{転用|てんよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{転用|てんよう}して",
+        "negative": "{転用|てんよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{転用|てんよう}している",
+        "negative": "{転用|てんよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{転用|てんよう}しています",
+        "negative": "{転用|てんよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{転用|てんよう}していた",
+        "negative": "{転用|てんよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{転用|てんよう}していました",
+        "negative": "{転用|てんよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{転用|てんよう}すれば",
+        "negative": "{転用|てんよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{転用|てんよう}したら",
+        "negative": "{転用|てんよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{転用|てんよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{転用|てんよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{転用|てんよう}できる",
+        "negative": "{転用|てんよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{転用|てんよう}される",
+        "negative": "{転用|てんよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{転用|てんよう}させる",
+        "negative": "{転用|てんよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{転用|てんよう}しろ",
+        "negative": "{転用|てんよう}するな"
+      }
+    ]
   }
 }

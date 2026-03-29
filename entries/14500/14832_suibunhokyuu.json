@@ -19,7 +19,9 @@
       "english": "Please hydrate frequently.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14832_suibunhokyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Staying hydrated during exercise is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14832_suibunhokyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "In summer, it's important to hydrate before you feel thirsty in order to prevent heat stroke.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {水分|すいぶん} (moisture, fluid) and {補給|ほきゅう} (supply, replenishment). Very commonly heard in Japanese health advice, especially during summer.\n\nCOMMON COLLOCATIONS:\n- {水分補給|すいぶんほきゅう}をする (to hydrate)\n- こまめに{水分補給|すいぶんほきゅう}する (to hydrate frequently/regularly)\n- {十分|じゅうぶん}な{水分補給|すいぶんほきゅう} (adequate hydration)\n- {水分補給|すいぶんほきゅう}を{忘|わす}れずに (don't forget to hydrate)\n\nThe phrase こまめに{水分補給|すいぶんほきゅう}してください is ubiquitous in Japanese summer weather forecasts and public health announcements, often alongside warnings about {熱中症|ねっちゅうしょう} (heat stroke).",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"],
-      "domain": ["medical"]
+      "semantic": [
+        "consumption"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{水分補給|すいぶんほきゅう}する",
+        "negative": "{水分補給|すいぶんほきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{水分補給|すいぶんほきゅう}します",
+        "negative": "{水分補給|すいぶんほきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{水分補給|すいぶんほきゅう}した",
+        "negative": "{水分補給|すいぶんほきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{水分補給|すいぶんほきゅう}しました",
+        "negative": "{水分補給|すいぶんほきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{水分補給|すいぶんほきゅう}して",
+        "negative": "{水分補給|すいぶんほきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{水分補給|すいぶんほきゅう}している",
+        "negative": "{水分補給|すいぶんほきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{水分補給|すいぶんほきゅう}しています",
+        "negative": "{水分補給|すいぶんほきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{水分補給|すいぶんほきゅう}していた",
+        "negative": "{水分補給|すいぶんほきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{水分補給|すいぶんほきゅう}していました",
+        "negative": "{水分補給|すいぶんほきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{水分補給|すいぶんほきゅう}すれば",
+        "negative": "{水分補給|すいぶんほきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{水分補給|すいぶんほきゅう}したら",
+        "negative": "{水分補給|すいぶんほきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{水分補給|すいぶんほきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{水分補給|すいぶんほきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{水分補給|すいぶんほきゅう}できる",
+        "negative": "{水分補給|すいぶんほきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{水分補給|すいぶんほきゅう}される",
+        "negative": "{水分補給|すいぶんほきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{水分補給|すいぶんほきゅう}させる",
+        "negative": "{水分補給|すいぶんほきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{水分補給|すいぶんほきゅう}しろ",
+        "negative": "{水分補給|すいぶんほきゅう}するな"
+      }
+    ]
   }
 }

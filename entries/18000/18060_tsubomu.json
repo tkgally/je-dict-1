@@ -24,7 +24,9 @@
       "english": "The flower is still in bud.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18060_tsubomu_ex2",
@@ -32,7 +34,9 @@
       "english": "The petals close up in the evening.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18060_tsubomu_ex3",
@@ -40,7 +44,9 @@
       "english": "Morning glories close up by the afternoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18060_tsubomu_ex4",
@@ -48,7 +54,9 @@
       "english": "To purse one's lips.",
       "notes": "Transitive form つぼめる.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18060_tsubomu_ex5",
@@ -56,7 +64,9 @@
       "english": "I closed up my umbrella and got on the train.",
       "notes": "Transitive form つぼめる.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18060_tsubomu_ex6",
@@ -64,7 +74,9 @@
       "english": "When the wind gets strong, the flowers naturally close up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used for flowers closing or being in bud. The transitive form つぼめる is used for deliberately making something narrower (pursing lips, closing an umbrella).\n\nRELATED FORMS:\n- つぼめる (transitive): to make narrow, to purse, to close up\n- つぼみ (noun): bud, flower bud\n\nSIMILAR WORDS:\n- {閉|と}じる: to close (more general)\n- すぼむ: variant form with the same meaning\n- すぼめる: variant transitive form",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "つぼむ",
+        "negative": "つぼまない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "つぼみます",
+        "negative": "つぼみません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "つぼんだ",
+        "negative": "つぼまなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "つぼみました",
+        "negative": "つぼみませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "つぼんで",
+        "negative": "つぼまなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "つぼんでいる",
+        "negative": "つぼんでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "つぼんでいます",
+        "negative": "つぼんでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "つぼんでいた",
+        "negative": "つぼんでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "つぼんでいました",
+        "negative": "つぼんでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "つぼめば",
+        "negative": "つぼまなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "つぼんだら",
+        "negative": "つぼまなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "つぼもう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "つぼみましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "つぼめる",
+        "negative": "つぼめない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "つぼまれる",
+        "negative": "つぼまれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "つぼませる",
+        "negative": "つぼませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "つぼめ",
+        "negative": "つぼむな"
+      }
+    ]
   }
 }

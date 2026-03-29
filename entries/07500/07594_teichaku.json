@@ -22,7 +22,9 @@
       "japanese": "その{習慣|しゅうかん}は{日本|にほん}に{定着|ていちゃく}した。",
       "english": "That custom has become established in Japan.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "リモートワークが{働|はたら}き{方|かた}として{定着|ていちゃく}しつつある。",
       "english": "Remote work is becoming established as a way of working.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{新入|しんにゅう}{社員|しゃいん}が{会社|かいしゃ}に{定着|ていちゃく}するまで{時間|じかん}がかかる。",
       "english": "It takes time for new employees to settle into the company.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{写真|しゃしん}を{定着|ていちゃく}させる。",
       "english": "To fix a photograph.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{定着|ていちゃく}{液|えき}でフィルムを{処理|しょり}する。",
       "english": "To process the film with fixer solution.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{暗室|あんしつ}で{現像|げんぞう}した{後|あと}、{定着|ていちゃく}の{工程|こうてい}に{入|はい}る。",
       "english": "After developing in the darkroom, we move on to the fixing process.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["change", "society"],
-      "domain": ["business"]
+      "semantic": [
+        "change",
+        "society"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{定着|ていちゃく}する",
+        "negative": "{定着|ていちゃく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{定着|ていちゃく}します",
+        "negative": "{定着|ていちゃく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{定着|ていちゃく}した",
+        "negative": "{定着|ていちゃく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{定着|ていちゃく}しました",
+        "negative": "{定着|ていちゃく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{定着|ていちゃく}して",
+        "negative": "{定着|ていちゃく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{定着|ていちゃく}している",
+        "negative": "{定着|ていちゃく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{定着|ていちゃく}しています",
+        "negative": "{定着|ていちゃく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{定着|ていちゃく}していた",
+        "negative": "{定着|ていちゃく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{定着|ていちゃく}していました",
+        "negative": "{定着|ていちゃく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{定着|ていちゃく}すれば",
+        "negative": "{定着|ていちゃく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{定着|ていちゃく}したら",
+        "negative": "{定着|ていちゃく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{定着|ていちゃく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{定着|ていちゃく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{定着|ていちゃく}できる",
+        "negative": "{定着|ていちゃく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{定着|ていちゃく}される",
+        "negative": "{定着|ていちゃく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{定着|ていちゃく}させる",
+        "negative": "{定着|ていちゃく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{定着|ていちゃく}しろ",
+        "negative": "{定着|ていちゃく}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "A thief snuck into the house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12578_shinobikomu_ex2",
@@ -27,7 +29,9 @@
       "english": "A cat had slipped into the room without anyone noticing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12578_shinobikomu_ex3",
@@ -35,7 +39,9 @@
       "english": "I once snuck into the school building in the middle of the night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb combining {忍|しの}ぶ (to endure; to hide) and {込|こ}む (to go in deeply). Emphasizes stealth and secrecy. Common in crime reporting, mystery fiction, and everyday stories about entering somewhere covertly.\n\nGRAMMAR:\nGodan verb ending in む. Takes に to mark the destination: Xに{忍|しの}び{込|こ}む.\n\nCOMMON COLLOCATIONS:\n- {家|いえ}に{忍|しの}び{込|こ}む: to sneak into a house\n- {部屋|へや}に{忍|しの}び{込|こ}む: to steal into a room\n- こっそり{忍|しの}び{込|こ}む: to sneak in secretly\n- {夜中|よなか}に{忍|しの}び{込|こ}む: to sneak in at night",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{忍|しの}び{込|こ}む",
+        "negative": "{忍|しの}び{込|こ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{忍|しの}び{込|こ}みます",
+        "negative": "{忍|しの}び{込|こ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{忍|しの}び{込|こ}んだ",
+        "negative": "{忍|しの}び{込|こ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{忍|しの}び{込|こ}みました",
+        "negative": "{忍|しの}び{込|こ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{忍|しの}び{込|こ}んで",
+        "negative": "{忍|しの}び{込|こ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{忍|しの}び{込|こ}んでいる",
+        "negative": "{忍|しの}び{込|こ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{忍|しの}び{込|こ}んでいます",
+        "negative": "{忍|しの}び{込|こ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{忍|しの}び{込|こ}んでいた",
+        "negative": "{忍|しの}び{込|こ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{忍|しの}び{込|こ}んでいました",
+        "negative": "{忍|しの}び{込|こ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{忍|しの}び{込|こ}めば",
+        "negative": "{忍|しの}び{込|こ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{忍|しの}び{込|こ}んだら",
+        "negative": "{忍|しの}び{込|こ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{忍|しの}び{込|こ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{忍|しの}び{込|こ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{忍|しの}び{込|こ}める",
+        "negative": "{忍|しの}び{込|こ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{忍|しの}び{込|こ}まれる",
+        "negative": "{忍|しの}び{込|こ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{忍|しの}び{込|こ}ませる",
+        "negative": "{忍|しの}び{込|こ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{忍|しの}び{込|こ}め",
+        "negative": "{忍|しの}び{込|こ}むな"
+      }
+    ]
   }
 }

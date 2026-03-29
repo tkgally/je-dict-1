@@ -19,7 +19,9 @@
       "english": "Two cars are running side by side.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18190_heisou_ex2",
@@ -27,7 +29,9 @@
       "english": "Two runners were running neck and neck at the final corner of the marathon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18190_heisou_ex3",
@@ -35,7 +39,9 @@
       "english": "I was driving on a road that runs parallel to the train tracks, and a train happened to pass right beside me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for vehicles, runners, roads, train lines, and figuratively for concurrent projects or efforts. In business contexts, {並走|へいそう} can describe running two systems or processes simultaneously during a transition period.\n\nCOMMON COLLOCATIONS:\n- {並走|へいそう}する (to run alongside; to run in parallel)\n- {並走|へいそう}{区間|くかん} (parallel section — where road and rail run side by side)\n- {並走|へいそう}{期間|きかん} (parallel operation period — during system transitions)\n\nSIMILAR WORDS:\n- {併走|へいそう}: running together — written with a different kanji but essentially the same meaning\n- {伴走|ばんそう}: pacing; running alongside — specifically running alongside someone to support them",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{並走|へいそう}する",
+        "negative": "{並走|へいそう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{並走|へいそう}します",
+        "negative": "{並走|へいそう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{並走|へいそう}した",
+        "negative": "{並走|へいそう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{並走|へいそう}しました",
+        "negative": "{並走|へいそう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{並走|へいそう}して",
+        "negative": "{並走|へいそう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{並走|へいそう}している",
+        "negative": "{並走|へいそう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{並走|へいそう}しています",
+        "negative": "{並走|へいそう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{並走|へいそう}していた",
+        "negative": "{並走|へいそう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{並走|へいそう}していました",
+        "negative": "{並走|へいそう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{並走|へいそう}すれば",
+        "negative": "{並走|へいそう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{並走|へいそう}したら",
+        "negative": "{並走|へいそう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{並走|へいそう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{並走|へいそう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{並走|へいそう}できる",
+        "negative": "{並走|へいそう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{並走|へいそう}される",
+        "negative": "{並走|へいそう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{並走|へいそう}させる",
+        "negative": "{並走|へいそう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{並走|へいそう}しろ",
+        "negative": "{並走|へいそう}するな"
+      }
+    ]
   }
 }

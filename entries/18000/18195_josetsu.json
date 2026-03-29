@@ -19,7 +19,9 @@
       "english": "Snow removal work was carried out from the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18195_josetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Some areas couldn't keep up with snow removal due to the heavy snowfall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18195_josetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "In snow country, clearing snow in front of the house every morning is part of the daily routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan function as a する verb ({除雪|じょせつ}する). Very common in news reports during winter, especially regarding road conditions in northern Japan.\n\nCOMMON COLLOCATIONS:\n- {除雪|じょせつ}{作業|さぎょう} (snow removal work)\n- {除雪|じょせつ}{車|しゃ} (snowplow)\n- {除雪|じょせつ}{費|ひ} (snow removal costs)\n- {屋根|やね}の{除雪|じょせつ} (clearing snow from rooftops)\n\nSIMILAR WORDS:\n- {雪|ゆき}かき: shoveling snow — the everyday, informal word for physically shoveling snow by hand",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{除雪|じょせつ}する",
+        "negative": "{除雪|じょせつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{除雪|じょせつ}します",
+        "negative": "{除雪|じょせつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{除雪|じょせつ}した",
+        "negative": "{除雪|じょせつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{除雪|じょせつ}しました",
+        "negative": "{除雪|じょせつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{除雪|じょせつ}して",
+        "negative": "{除雪|じょせつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{除雪|じょせつ}している",
+        "negative": "{除雪|じょせつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{除雪|じょせつ}しています",
+        "negative": "{除雪|じょせつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{除雪|じょせつ}していた",
+        "negative": "{除雪|じょせつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{除雪|じょせつ}していました",
+        "negative": "{除雪|じょせつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{除雪|じょせつ}すれば",
+        "negative": "{除雪|じょせつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{除雪|じょせつ}したら",
+        "negative": "{除雪|じょせつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{除雪|じょせつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{除雪|じょせつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{除雪|じょせつ}できる",
+        "negative": "{除雪|じょせつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{除雪|じょせつ}される",
+        "negative": "{除雪|じょせつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{除雪|じょせつ}させる",
+        "negative": "{除雪|じょせつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{除雪|じょせつ}しろ",
+        "negative": "{除雪|じょせつ}するな"
+      }
+    ]
   }
 }

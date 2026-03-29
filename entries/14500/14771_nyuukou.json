@@ -19,7 +19,9 @@
       "english": "A large ship entered the port.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14771_nyuukou_ex2",
@@ -27,7 +29,9 @@
       "english": "Port entry has been delayed due to the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14771_nyuukou_ex3",
@@ -35,7 +39,9 @@
       "english": "A cruise ship entered the port of Yokohama, and many tourists disembarked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {入港|にゅうこう} is used as a noun or with する. It applies to all types of vessels — cargo ships, cruise ships, military ships, and fishing boats.\n\nPARTICLE PATTERNS:\n- AがBに{入港|にゅうこう}する (A enters port B)\n- Aへの{入港|にゅうこう} (entry into port A)\n\nCOMMON COLLOCATIONS:\n- {入港|にゅうこう}{許可|きょか} (port entry permit)\n- {入港|にゅうこう}{手続|てつづ}き (port entry procedures)\n- {入港|にゅうこう}{予定|よてい} (scheduled port arrival)\n\nThe antonym is {出港|しゅっこう} (departure from port). Together, {入港|にゅうこう} and {出港|しゅっこう} describe the arrival and departure of vessels.",
@@ -54,10 +60,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{入港|にゅうこう}する",
+        "negative": "{入港|にゅうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{入港|にゅうこう}します",
+        "negative": "{入港|にゅうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{入港|にゅうこう}した",
+        "negative": "{入港|にゅうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{入港|にゅうこう}しました",
+        "negative": "{入港|にゅうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{入港|にゅうこう}して",
+        "negative": "{入港|にゅうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{入港|にゅうこう}している",
+        "negative": "{入港|にゅうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{入港|にゅうこう}しています",
+        "negative": "{入港|にゅうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{入港|にゅうこう}していた",
+        "negative": "{入港|にゅうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{入港|にゅうこう}していました",
+        "negative": "{入港|にゅうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{入港|にゅうこう}すれば",
+        "negative": "{入港|にゅうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{入港|にゅうこう}したら",
+        "negative": "{入港|にゅうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{入港|にゅうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{入港|にゅうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{入港|にゅうこう}できる",
+        "negative": "{入港|にゅうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{入港|にゅうこう}される",
+        "negative": "{入港|にゅうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{入港|にゅうこう}させる",
+        "negative": "{入港|にゅうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{入港|にゅうこう}しろ",
+        "negative": "{入港|にゅうこう}するな"
+      }
+    ]
   }
 }

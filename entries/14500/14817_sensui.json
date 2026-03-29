@@ -19,7 +19,9 @@
       "english": "I dived underwater and observed the fish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14817_sensui_ex2",
@@ -27,7 +29,9 @@
       "english": "This watch is designed for diving and is waterproof to 100 meters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14817_sensui_ex3",
@@ -35,7 +39,9 @@
       "english": "The submarine quietly began to submerge toward the ocean floor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {潜|せん} (to dive, to lurk) and {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- {潜水艦|せんすいかん} (submarine)\n- {潜水|せんすい}{士|し} (professional diver)\n- {潜水|せんすい}{服|ふく} (diving suit)\n- スキューバ{潜水|せんすい} (scuba diving)\n- {潜水|せんすい}{時間|じかん} (dive time / submersion time)\n\nFor recreational scuba diving, ダイビング is more commonly used in casual speech. {潜水|せんすい} has a more formal or technical tone and is standard in military and professional contexts.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{潜水|せんすい}する",
+        "negative": "{潜水|せんすい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{潜水|せんすい}します",
+        "negative": "{潜水|せんすい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{潜水|せんすい}した",
+        "negative": "{潜水|せんすい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{潜水|せんすい}しました",
+        "negative": "{潜水|せんすい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{潜水|せんすい}して",
+        "negative": "{潜水|せんすい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{潜水|せんすい}している",
+        "negative": "{潜水|せんすい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{潜水|せんすい}しています",
+        "negative": "{潜水|せんすい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{潜水|せんすい}していた",
+        "negative": "{潜水|せんすい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{潜水|せんすい}していました",
+        "negative": "{潜水|せんすい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{潜水|せんすい}すれば",
+        "negative": "{潜水|せんすい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{潜水|せんすい}したら",
+        "negative": "{潜水|せんすい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{潜水|せんすい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{潜水|せんすい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{潜水|せんすい}できる",
+        "negative": "{潜水|せんすい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{潜水|せんすい}される",
+        "negative": "{潜水|せんすい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{潜水|せんすい}させる",
+        "negative": "{潜水|せんすい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{潜水|せんすい}しろ",
+        "negative": "{潜水|せんすい}するな"
+      }
+    ]
   }
 }

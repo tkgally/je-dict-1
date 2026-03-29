@@ -19,7 +19,9 @@
       "english": "To ensure safety.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13681_kakuho_ex2",
@@ -27,7 +29,9 @@
       "english": "I secured a parking space in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13681_kakuho_ex3",
@@ -35,7 +39,9 @@
       "english": "It's difficult to secure enough personnel amid a labor shortage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA very common word in business, news, and official contexts. Used with a wide range of objects: {安全|あんぜん} (safety), {予算|よさん} (budget), {人材|じんざい} (talent), スペース (space), {時間|じかん} (time), etc. The nuance is of actively obtaining and holding onto something that might otherwise not be available.\n\nKANJI:\n{確|かく} means \"certain\" or \"firm\" and {保|ほ} means \"to maintain\" or \"to protect.\" Together they convey the idea of firmly securing something.\n\nCOMMON COLLOCATIONS:\n- {安全|あんぜん}を{確保|かくほ}する: to ensure safety\n- {予算|よさん}を{確保|かくほ}する: to secure a budget\n- {人材|じんざい}を{確保|かくほ}する: to secure talent/personnel\n- {場所|ばしょ}を{確保|かくほ}する: to secure a place\n- {身柄|みがら}を{確保|かくほ}する: to take someone into custody (police term)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{確保|かくほ}する",
+        "negative": "{確保|かくほ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{確保|かくほ}します",
+        "negative": "{確保|かくほ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{確保|かくほ}した",
+        "negative": "{確保|かくほ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{確保|かくほ}しました",
+        "negative": "{確保|かくほ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{確保|かくほ}して",
+        "negative": "{確保|かくほ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{確保|かくほ}している",
+        "negative": "{確保|かくほ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{確保|かくほ}しています",
+        "negative": "{確保|かくほ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{確保|かくほ}していた",
+        "negative": "{確保|かくほ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{確保|かくほ}していました",
+        "negative": "{確保|かくほ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{確保|かくほ}すれば",
+        "negative": "{確保|かくほ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{確保|かくほ}したら",
+        "negative": "{確保|かくほ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{確保|かくほ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{確保|かくほ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{確保|かくほ}できる",
+        "negative": "{確保|かくほ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{確保|かくほ}される",
+        "negative": "{確保|かくほ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{確保|かくほ}させる",
+        "negative": "{確保|かくほ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{確保|かくほ}しろ",
+        "negative": "{確保|かくほ}するな"
+      }
+    ]
   }
 }

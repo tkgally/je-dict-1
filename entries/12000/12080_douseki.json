@@ -19,7 +19,9 @@
       "english": "I requested the presence of a lawyer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12080_douseki_ex2",
@@ -27,7 +29,9 @@
       "english": "I get nervous at meetings where my boss is present.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12080_douseki_ex3",
@@ -35,7 +39,9 @@
       "english": "The policy is not to conduct questioning of minors without a guardian present.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb: {同席|どうせき}する (to be present together, to attend together). Common in business and formal contexts. Can be used with を{求|もと}める (to request someone's presence) or を{許|ゆる}す (to allow someone to be present).\n\nCOMMON COLLOCATIONS:\n- {同席|どうせき}する: to be present, to attend together\n- {同席|どうせき}を{求|もと}める: to request someone's presence\n- {同席|どうせき}を{許|ゆる}す: to allow someone to be present\n- ～の{同席|どうせき}のもとで: in the presence of ~\n\nSIMILAR WORDS:\n{同席|どうせき} emphasizes being in the same room or at the same table. {出席|しゅっせき} (attendance) focuses on attending an event. {立|た}ち{会|あ}う (to witness, to be present at) implies being present to observe or oversee something.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{同席|どうせき}する",
+        "negative": "{同席|どうせき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{同席|どうせき}します",
+        "negative": "{同席|どうせき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{同席|どうせき}した",
+        "negative": "{同席|どうせき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{同席|どうせき}しました",
+        "negative": "{同席|どうせき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{同席|どうせき}して",
+        "negative": "{同席|どうせき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{同席|どうせき}している",
+        "negative": "{同席|どうせき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{同席|どうせき}しています",
+        "negative": "{同席|どうせき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{同席|どうせき}していた",
+        "negative": "{同席|どうせき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{同席|どうせき}していました",
+        "negative": "{同席|どうせき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{同席|どうせき}すれば",
+        "negative": "{同席|どうせき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{同席|どうせき}したら",
+        "negative": "{同席|どうせき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{同席|どうせき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{同席|どうせき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{同席|どうせき}できる",
+        "negative": "{同席|どうせき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{同席|どうせき}される",
+        "negative": "{同席|どうせき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{同席|どうせき}させる",
+        "negative": "{同席|どうせき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{同席|どうせき}しろ",
+        "negative": "{同席|どうせき}するな"
+      }
+    ]
   }
 }

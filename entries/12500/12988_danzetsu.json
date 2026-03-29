@@ -19,7 +19,9 @@
       "english": "Diplomatic relations were severed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12988_danzetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The generation gap has become a social problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12988_danzetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "A tradition that has continued for many years is in danger of dying out due to a lack of successors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for permanent or severe breaks. {断絶|だんぜつ}する can be both intransitive (a connection is severed) and transitive (someone severs a connection). Common in formal writing about diplomacy, history, and cultural continuity.\n\nCOMMON COLLOCATIONS:\n- {外交|がいこう}{関係|かんけい}の{断絶|だんぜつ}: severance of diplomatic relations\n- {世代|せだい}の{断絶|だんぜつ}: generation gap\n- {断絶|だんぜつ}の{危機|きき}: danger of dying out\n- {血統|けっとう}の{断絶|だんぜつ}: end of a bloodline\n\nSIMILAR WORDS:\n- {断裂|だんれつ}: rupture, tear (physical)\n- {絶縁|ぜつえん}: severing ties (personal relationships)\n- {途絶|とぜつ}: cessation, interruption",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{断絶|だんぜつ}する",
+        "negative": "{断絶|だんぜつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{断絶|だんぜつ}します",
+        "negative": "{断絶|だんぜつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{断絶|だんぜつ}した",
+        "negative": "{断絶|だんぜつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{断絶|だんぜつ}しました",
+        "negative": "{断絶|だんぜつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{断絶|だんぜつ}して",
+        "negative": "{断絶|だんぜつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{断絶|だんぜつ}している",
+        "negative": "{断絶|だんぜつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{断絶|だんぜつ}しています",
+        "negative": "{断絶|だんぜつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{断絶|だんぜつ}していた",
+        "negative": "{断絶|だんぜつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{断絶|だんぜつ}していました",
+        "negative": "{断絶|だんぜつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{断絶|だんぜつ}すれば",
+        "negative": "{断絶|だんぜつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{断絶|だんぜつ}したら",
+        "negative": "{断絶|だんぜつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{断絶|だんぜつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{断絶|だんぜつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{断絶|だんぜつ}できる",
+        "negative": "{断絶|だんぜつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{断絶|だんぜつ}される",
+        "negative": "{断絶|だんぜつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{断絶|だんぜつ}させる",
+        "negative": "{断絶|だんぜつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{断絶|だんぜつ}しろ",
+        "negative": "{断絶|だんぜつ}するな"
+      }
+    ]
   }
 }

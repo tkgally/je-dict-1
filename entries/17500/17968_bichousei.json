@@ -19,7 +19,9 @@
       "english": "I fine-tuned the camera's focus.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17968_bichousei_ex2",
@@ -27,7 +29,9 @@
       "english": "Minor adjustments to the schedule are needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17968_bichousei_ex3",
@@ -35,7 +39,9 @@
       "english": "The project is nearly complete, but there are still a few points that need fine-tuning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nImplies that the main work is done and only small refinements remain. Commonly used in business, engineering, creative work, and everyday planning.\n\nCOMMON COLLOCATIONS:\n- {微調整|びちょうせい}を{行|おこな}う (carry out fine adjustments)\n- {微調整|びちょうせい}を{加|くわ}える (add fine adjustments)\n- {微調整|びちょうせい}が{必要|ひつよう} (fine-tuning is needed)\n- {最後|さいご}の{微調整|びちょうせい} (final fine-tuning)\n\nSIMILAR WORDS:\n- {調整|ちょうせい}: adjustment — broader and more general; can refer to major adjustments too\n- {修正|しゅうせい}: correction — fixing something that is wrong, rather than optimizing something that is mostly right",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{微調整|びちょうせい}する",
+        "negative": "{微調整|びちょうせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{微調整|びちょうせい}します",
+        "negative": "{微調整|びちょうせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{微調整|びちょうせい}した",
+        "negative": "{微調整|びちょうせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{微調整|びちょうせい}しました",
+        "negative": "{微調整|びちょうせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{微調整|びちょうせい}して",
+        "negative": "{微調整|びちょうせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{微調整|びちょうせい}している",
+        "negative": "{微調整|びちょうせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{微調整|びちょうせい}しています",
+        "negative": "{微調整|びちょうせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{微調整|びちょうせい}していた",
+        "negative": "{微調整|びちょうせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{微調整|びちょうせい}していました",
+        "negative": "{微調整|びちょうせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{微調整|びちょうせい}すれば",
+        "negative": "{微調整|びちょうせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{微調整|びちょうせい}したら",
+        "negative": "{微調整|びちょうせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{微調整|びちょうせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{微調整|びちょうせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{微調整|びちょうせい}できる",
+        "negative": "{微調整|びちょうせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{微調整|びちょうせい}される",
+        "negative": "{微調整|びちょうせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{微調整|びちょうせい}させる",
+        "negative": "{微調整|びちょうせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{微調整|びちょうせい}しろ",
+        "negative": "{微調整|びちょうせい}するな"
+      }
+    ]
   }
 }

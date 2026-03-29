@@ -19,7 +19,9 @@
       "english": "Two molecules bond together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13880_ketsugou_ex2",
@@ -27,7 +29,9 @@
       "english": "The combination of technology and design produces new products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13880_ketsugou_ex3",
@@ -35,7 +39,9 @@
       "english": "This compound is formed by the bonding of hydrogen and oxygen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed across many fields including chemistry, biology, computing, and general contexts. In chemistry it refers to chemical bonds; in computing it can refer to data joining operations; in general usage it describes combining forces or elements.\n\nCOMMON COLLOCATIONS:\n- {化学|かがく}{結合|けつごう}: chemical bond\n- {結合|けつごう}する: to combine, to bond\n- ～と{結合|けつごう}する: to bond with\n- {強|つよ}い{結合|けつごう}: strong bond",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{結合|けつごう}する",
+        "negative": "{結合|けつごう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{結合|けつごう}します",
+        "negative": "{結合|けつごう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{結合|けつごう}した",
+        "negative": "{結合|けつごう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{結合|けつごう}しました",
+        "negative": "{結合|けつごう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{結合|けつごう}して",
+        "negative": "{結合|けつごう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{結合|けつごう}している",
+        "negative": "{結合|けつごう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{結合|けつごう}しています",
+        "negative": "{結合|けつごう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{結合|けつごう}していた",
+        "negative": "{結合|けつごう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{結合|けつごう}していました",
+        "negative": "{結合|けつごう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{結合|けつごう}すれば",
+        "negative": "{結合|けつごう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{結合|けつごう}したら",
+        "negative": "{結合|けつごう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{結合|けつごう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{結合|けつごう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{結合|けつごう}できる",
+        "negative": "{結合|けつごう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{結合|けつごう}される",
+        "negative": "{結合|けつごう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{結合|けつごう}させる",
+        "negative": "{結合|けつごう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{結合|けつごう}しろ",
+        "negative": "{結合|けつごう}するな"
+      }
+    ]
   }
 }

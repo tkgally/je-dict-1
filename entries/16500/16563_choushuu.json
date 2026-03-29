@@ -19,7 +19,9 @@
       "english": "To collect taxes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16563_choushuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The admission fee will be collected on the day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16563_choushuu_ex3",
@@ -35,7 +39,9 @@
       "english": "We sent a notice to collect the unpaid membership fees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used for official or institutional collection of money. The collector is usually a government body, organization, or institution — not an individual collecting a personal debt. Common in administrative, legal, and financial contexts.\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{徴収|ちょうしゅう}する (to collect taxes)\n- {源泉|げんせん}{徴収|ちょうしゅう} (tax withholding at source)\n- {徴収|ちょうしゅう}{額|がく} (amount collected)\n- {強制|きょうせい}{徴収|ちょうしゅう} (compulsory collection, garnishment)\n- {会費|かいひ}を{徴収|ちょうしゅう}する (to collect membership fees)\n\nSIMILAR WORDS:\n- {集金|しゅうきん}: collecting money — less formal, used for everyday payment collection (e.g., newspaper delivery fees)\n- {回収|かいしゅう}: recovery, collection — broader meaning including collecting objects, not just money",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["legal"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{徴収|ちょうしゅう}する",
+        "negative": "{徴収|ちょうしゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{徴収|ちょうしゅう}します",
+        "negative": "{徴収|ちょうしゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{徴収|ちょうしゅう}した",
+        "negative": "{徴収|ちょうしゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{徴収|ちょうしゅう}しました",
+        "negative": "{徴収|ちょうしゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{徴収|ちょうしゅう}して",
+        "negative": "{徴収|ちょうしゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{徴収|ちょうしゅう}している",
+        "negative": "{徴収|ちょうしゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{徴収|ちょうしゅう}しています",
+        "negative": "{徴収|ちょうしゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{徴収|ちょうしゅう}していた",
+        "negative": "{徴収|ちょうしゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{徴収|ちょうしゅう}していました",
+        "negative": "{徴収|ちょうしゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{徴収|ちょうしゅう}すれば",
+        "negative": "{徴収|ちょうしゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{徴収|ちょうしゅう}したら",
+        "negative": "{徴収|ちょうしゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{徴収|ちょうしゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{徴収|ちょうしゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{徴収|ちょうしゅう}できる",
+        "negative": "{徴収|ちょうしゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{徴収|ちょうしゅう}される",
+        "negative": "{徴収|ちょうしゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{徴収|ちょうしゅう}させる",
+        "negative": "{徴収|ちょうしゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{徴収|ちょうしゅう}しろ",
+        "negative": "{徴収|ちょうしゅう}するな"
+      }
+    ]
   }
 }

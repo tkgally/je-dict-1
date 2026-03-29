@@ -24,7 +24,9 @@
       "english": "I can't get used to the keyboard layout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14447_hairetsu_ex2",
@@ -32,7 +34,9 @@
       "english": "I changed the seating arrangement to make group activities easier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14447_hairetsu_ex3",
@@ -40,7 +44,9 @@
       "english": "Arrange them in the order of the Japanese syllabary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14447_hairetsu_ex4",
@@ -48,7 +54,9 @@
       "english": "Access the elements of an array.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14447_hairetsu_ex5",
@@ -56,7 +64,9 @@
       "english": "Analyze the DNA base sequence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14447_hairetsu_ex6",
@@ -64,7 +74,9 @@
       "english": "Store the data in an array and then process it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A compound of {配|はい} (to distribute, to arrange) and {列|れつ} (row, line). Functions as both a noun and a suru-verb.\n\nCOMMON COLLOCATIONS:\n- {配列|はいれつ}する (to arrange, to sequence)\n- キーボード{配列|はいれつ} (keyboard layout)\n- {座席|ざせき}{配列|はいれつ} (seating arrangement)\n- {塩基|えんき}{配列|はいれつ} (base sequence — in genetics)\n- {配列|はいれつ}の{要素|ようそ} (array element — in computing)\n- アミノ{酸|さん}{配列|はいれつ} (amino acid sequence)\n\nIn everyday use, sense 1 is more common (keyboard layout, seating arrangement). In technical contexts, sense 2 is standard terminology in both computing and molecular biology.",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{配列|はいれつ}する",
+        "negative": "{配列|はいれつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{配列|はいれつ}します",
+        "negative": "{配列|はいれつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{配列|はいれつ}した",
+        "negative": "{配列|はいれつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{配列|はいれつ}しました",
+        "negative": "{配列|はいれつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{配列|はいれつ}して",
+        "negative": "{配列|はいれつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{配列|はいれつ}している",
+        "negative": "{配列|はいれつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{配列|はいれつ}しています",
+        "negative": "{配列|はいれつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{配列|はいれつ}していた",
+        "negative": "{配列|はいれつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{配列|はいれつ}していました",
+        "negative": "{配列|はいれつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{配列|はいれつ}すれば",
+        "negative": "{配列|はいれつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{配列|はいれつ}したら",
+        "negative": "{配列|はいれつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{配列|はいれつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{配列|はいれつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{配列|はいれつ}できる",
+        "negative": "{配列|はいれつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{配列|はいれつ}される",
+        "negative": "{配列|はいれつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{配列|はいれつ}させる",
+        "negative": "{配列|はいれつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{配列|はいれつ}しろ",
+        "negative": "{配列|はいれつ}するな"
+      }
+    ]
   }
 }

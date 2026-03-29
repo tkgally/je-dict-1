@@ -19,7 +19,9 @@
       "english": "I applied to a university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18304_shutsugan_ex2",
@@ -27,7 +29,9 @@
       "english": "We are proceeding with the patent application process.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18304_shutsugan_ex3",
@@ -35,7 +39,9 @@
       "english": "The application deadline is the fifteenth of next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in two contexts: university/school admissions and patent/trademark filings. For general applications (job, membership), {申|もう}し{込|こ}み is more common.\n\nCOMMON COLLOCATIONS:\n- {出願|しゅつがん}する (to apply, to file)\n- {出願|しゅつがん}{書類|しょるい} (application documents)\n- {出願|しゅつがん}{締|し}め{切|き}り (application deadline)\n- {出願|しゅつがん}{資格|しかく} (eligibility to apply)\n- {特許|とっきょ}{出願|しゅつがん} (patent application)\n\nSIMILAR WORDS:\n- {申|もう}し{込|こ}み: application — broader and more general\n- {志願|しがん}: volunteering, applying — implies personal desire, used for military or competitive contexts\n- {応募|おうぼ}: applying (for a job, contest) — in response to a public call",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education", "work"]
+      "semantic": [
+        "education",
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{出願|しゅつがん}する",
+        "negative": "{出願|しゅつがん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{出願|しゅつがん}します",
+        "negative": "{出願|しゅつがん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{出願|しゅつがん}した",
+        "negative": "{出願|しゅつがん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{出願|しゅつがん}しました",
+        "negative": "{出願|しゅつがん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{出願|しゅつがん}して",
+        "negative": "{出願|しゅつがん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{出願|しゅつがん}している",
+        "negative": "{出願|しゅつがん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{出願|しゅつがん}しています",
+        "negative": "{出願|しゅつがん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{出願|しゅつがん}していた",
+        "negative": "{出願|しゅつがん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{出願|しゅつがん}していました",
+        "negative": "{出願|しゅつがん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{出願|しゅつがん}すれば",
+        "negative": "{出願|しゅつがん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{出願|しゅつがん}したら",
+        "negative": "{出願|しゅつがん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{出願|しゅつがん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{出願|しゅつがん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{出願|しゅつがん}できる",
+        "negative": "{出願|しゅつがん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{出願|しゅつがん}される",
+        "negative": "{出願|しゅつがん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{出願|しゅつがん}させる",
+        "negative": "{出願|しゅつがん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{出願|しゅつがん}しろ",
+        "negative": "{出願|しゅつがん}するな"
+      }
+    ]
   }
 }

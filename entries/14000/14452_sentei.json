@@ -17,7 +17,9 @@
       "id": "14452_sentei_ex1",
       "japanese": "{候補地|こうほち}を{選定|せんてい}する。",
       "english": "To select a candidate site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14452_sentei_ex2",
       "japanese": "{委員会|いいんかい}が{新|あたら}しい{教科書|きょうかしょ}を{選定|せんてい}した。",
       "english": "The committee selected a new textbook.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14452_sentei_ex3",
       "japanese": "オリンピックの{開催都市|かいさいとし}の{選定|せんてい}には{長|なが}い{時間|じかん}がかかる。",
       "english": "The selection of a host city for the Olympics takes a long time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{選定|せんてい}する",
+        "negative": "{選定|せんてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{選定|せんてい}します",
+        "negative": "{選定|せんてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{選定|せんてい}した",
+        "negative": "{選定|せんてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{選定|せんてい}しました",
+        "negative": "{選定|せんてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{選定|せんてい}して",
+        "negative": "{選定|せんてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{選定|せんてい}している",
+        "negative": "{選定|せんてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{選定|せんてい}しています",
+        "negative": "{選定|せんてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{選定|せんてい}していた",
+        "negative": "{選定|せんてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{選定|せんてい}していました",
+        "negative": "{選定|せんてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{選定|せんてい}すれば",
+        "negative": "{選定|せんてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{選定|せんてい}したら",
+        "negative": "{選定|せんてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{選定|せんてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{選定|せんてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{選定|せんてい}できる",
+        "negative": "{選定|せんてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{選定|せんてい}される",
+        "negative": "{選定|せんてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{選定|せんてい}させる",
+        "negative": "{選定|せんてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{選定|せんてい}しろ",
+        "negative": "{選定|せんてい}するな"
+      }
+    ]
   }
 }

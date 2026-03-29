@@ -19,7 +19,9 @@
       "english": "To clear one's name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14400_henjou_ex2",
@@ -27,7 +29,9 @@
       "english": "I worked on it, giving up my days off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14400_henjou_ex3",
@@ -35,7 +39,9 @@
       "english": "They shed their reputation as a weak team and brilliantly won the championship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{返上|へんじょう} is a noun that can function as a suru verb ({返上|へんじょう}する). It literally means returning something upward (to a superior), but is most commonly used figuratively.\n\nCOMMON COLLOCATIONS:\n- {汚名|おめい}{返上|へんじょう} (clearing a bad reputation)\n- {休日|きゅうじつ}{返上|へんじょう} (giving up holidays/days off)\n- {名誉|めいよ}{返上|へんじょう} (forfeiting an honor)\n- タイトルを{返上|へんじょう}する (relinquish a title)\n\nThe expression {汚名|おめい}{返上|へんじょう} (clearing one's name) is extremely common and is often the first context in which learners encounter this word. {休日|きゅうじつ}{返上|へんじょう} (working through holidays) appears frequently in work-related discussions.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{返上|へんじょう}する",
+        "negative": "{返上|へんじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{返上|へんじょう}します",
+        "negative": "{返上|へんじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{返上|へんじょう}した",
+        "negative": "{返上|へんじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{返上|へんじょう}しました",
+        "negative": "{返上|へんじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{返上|へんじょう}して",
+        "negative": "{返上|へんじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{返上|へんじょう}している",
+        "negative": "{返上|へんじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{返上|へんじょう}しています",
+        "negative": "{返上|へんじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{返上|へんじょう}していた",
+        "negative": "{返上|へんじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{返上|へんじょう}していました",
+        "negative": "{返上|へんじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{返上|へんじょう}すれば",
+        "negative": "{返上|へんじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{返上|へんじょう}したら",
+        "negative": "{返上|へんじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{返上|へんじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{返上|へんじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{返上|へんじょう}できる",
+        "negative": "{返上|へんじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{返上|へんじょう}される",
+        "negative": "{返上|へんじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{返上|へんじょう}させる",
+        "negative": "{返上|へんじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{返上|へんじょう}しろ",
+        "negative": "{返上|へんじょう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To clear wasteland for cultivation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15783_kaikon_ex2",
@@ -27,7 +29,9 @@
       "english": "Large-scale land reclamation was carried out in Hokkaido during the Meiji era.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15783_kaikon_ex3",
@@ -35,7 +39,9 @@
       "english": "My grandfather cleared the mountainside for farmland and supported his family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{開墾|かいこん} is used as a noun or suru-verb. It specifically refers to converting wild or unused land into farmable land, and is often encountered in historical contexts about Japanese agricultural development.\n\nCOMMON COLLOCATIONS:\n- {土地|とち}を{開墾|かいこん}する (clear land)\n- {荒|あ}れ{地|ち}を{開墾|かいこん}する (reclaim wasteland)\n- {開墾|かいこん}{地|ち} (cleared land, reclaimed land)\n\nSIMILAR WORDS:\n{開拓|かいたく} means \"pioneering\" or \"development\" and has a broader scope — it can refer to opening up new markets, fields, or territories. {開墾|かいこん} is specifically about making land farmable. {干拓|かんたく} means \"land reclamation from the sea\" by draining water.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["agriculture", "history"]
+      "semantic": [
+        "agriculture",
+        "history"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{開墾|かいこん}する",
+        "negative": "{開墾|かいこん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{開墾|かいこん}します",
+        "negative": "{開墾|かいこん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{開墾|かいこん}した",
+        "negative": "{開墾|かいこん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{開墾|かいこん}しました",
+        "negative": "{開墾|かいこん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{開墾|かいこん}して",
+        "negative": "{開墾|かいこん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{開墾|かいこん}している",
+        "negative": "{開墾|かいこん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{開墾|かいこん}しています",
+        "negative": "{開墾|かいこん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{開墾|かいこん}していた",
+        "negative": "{開墾|かいこん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{開墾|かいこん}していました",
+        "negative": "{開墾|かいこん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{開墾|かいこん}すれば",
+        "negative": "{開墾|かいこん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{開墾|かいこん}したら",
+        "negative": "{開墾|かいこん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{開墾|かいこん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{開墾|かいこん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{開墾|かいこん}できる",
+        "negative": "{開墾|かいこん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{開墾|かいこん}される",
+        "negative": "{開墾|かいこん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{開墾|かいこん}させる",
+        "negative": "{開墾|かいこん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{開墾|かいこん}しろ",
+        "negative": "{開墾|かいこん}するな"
+      }
+    ]
   }
 }

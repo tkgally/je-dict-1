@@ -19,7 +19,9 @@
       "english": "To administer medicine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12894_touyo_ex2",
@@ -27,7 +29,9 @@
       "english": "The doctor administered antibiotics to the patient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12894_touyo_ex3",
@@ -35,7 +39,9 @@
       "english": "The number of vaccine doses varies by age, so please check in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal medical and pharmaceutical term. Used as both a noun and a suru verb. The subject is typically a medical professional, and the object is a medicine or drug. Not used for self-medication in everyday speech — {飲|の}む (to take/drink) or {服用|ふくよう}する (to take medicine) are used instead.\n\nCOMMON COLLOCATIONS:\n- {薬|くすり}を{投与|とうよ}する: to administer medicine\n- {投与量|とうよりょう}: dosage, dose amount\n- {投与|とうよ}{回数|かいすう}: number of doses\n- {経口|けいこう}{投与|とうよ}: oral administration\n\nSIMILAR WORDS:\n- {服用|ふくよう}: taking medicine (from the patient's perspective)\n- {処方|しょほう}: prescription (the doctor's act of prescribing)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["medical"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{投与|とうよ}する",
+        "negative": "{投与|とうよ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{投与|とうよ}します",
+        "negative": "{投与|とうよ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{投与|とうよ}した",
+        "negative": "{投与|とうよ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{投与|とうよ}しました",
+        "negative": "{投与|とうよ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{投与|とうよ}して",
+        "negative": "{投与|とうよ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{投与|とうよ}している",
+        "negative": "{投与|とうよ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{投与|とうよ}しています",
+        "negative": "{投与|とうよ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{投与|とうよ}していた",
+        "negative": "{投与|とうよ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{投与|とうよ}していました",
+        "negative": "{投与|とうよ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{投与|とうよ}すれば",
+        "negative": "{投与|とうよ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{投与|とうよ}したら",
+        "negative": "{投与|とうよ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{投与|とうよ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{投与|とうよ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{投与|とうよ}できる",
+        "negative": "{投与|とうよ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{投与|とうよ}される",
+        "negative": "{投与|とうよ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{投与|とうよ}させる",
+        "negative": "{投与|とうよ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{投与|とうよ}しろ",
+        "negative": "{投与|とうよ}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To search for a solution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13176_mosaku_ex2",
@@ -27,7 +29,9 @@
       "english": "We are exploring a new direction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13176_mosaku_ex3",
@@ -35,7 +39,9 @@
       "english": "The company is at the stage of exploring various measures toward recovering its performance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{模|も} (to grope, to feel) + {索|さく} (to search, rope). Literally \"groping and searching\" — feeling one's way in the dark.\n\nUSAGE:\nAlmost always used as a する verb: {模索|もさく}する. Common in news, business, and academic contexts. Implies that the answer or path forward is not yet known and that the search involves uncertainty. Often used when organizations or individuals are exploring options during difficult times.\n\nCOMMON COLLOCATIONS:\n- {解決策|かいけつさく}を{模索|もさく}する: to search for a solution\n- {道|みち}を{模索|もさく}する: to search for a way forward\n- {可能性|かのうせい}を{模索|もさく}する: to explore possibilities\n- {暗中模索|あんちゅうもさく}: groping in the dark (idiom for searching without any clues)\n- {模索|もさく}{中|ちゅう}: in the process of searching/exploring",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{模索|もさく}する",
+        "negative": "{模索|もさく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{模索|もさく}します",
+        "negative": "{模索|もさく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{模索|もさく}した",
+        "negative": "{模索|もさく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{模索|もさく}しました",
+        "negative": "{模索|もさく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{模索|もさく}して",
+        "negative": "{模索|もさく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{模索|もさく}している",
+        "negative": "{模索|もさく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{模索|もさく}しています",
+        "negative": "{模索|もさく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{模索|もさく}していた",
+        "negative": "{模索|もさく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{模索|もさく}していました",
+        "negative": "{模索|もさく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{模索|もさく}すれば",
+        "negative": "{模索|もさく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{模索|もさく}したら",
+        "negative": "{模索|もさく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{模索|もさく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{模索|もさく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{模索|もさく}できる",
+        "negative": "{模索|もさく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{模索|もさく}される",
+        "negative": "{模索|もさく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{模索|もさく}させる",
+        "negative": "{模索|もさく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{模索|もさく}しろ",
+        "negative": "{模索|もさく}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The two countries agreed to a ceasefire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14815_kyuusen_ex2",
@@ -27,7 +29,9 @@
       "english": "An armistice agreement was signed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14815_kyuusen_ex3",
@@ -35,7 +39,9 @@
       "english": "The long conflict finally reached a ceasefire, and the residents were relieved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {休|きゅう} (to rest, to stop) and {戦|せん} (war, battle).\n\nCOMMON COLLOCATIONS:\n- {休戦|きゅうせん}{協定|きょうてい} (armistice agreement)\n- {休戦|きゅうせん}{交渉|こうしょう} (ceasefire negotiations)\n- {休戦|きゅうせん}を{呼|よ}びかける (to call for a ceasefire)\n- {休戦|きゅうせん}ライン (ceasefire line)\n- {休戦|きゅうせん}{状態|じょうたい} (state of ceasefire)\n\nDistinguish from {停戦|ていせん} (cessation of hostilities), which is more formal and often implies a more definitive end to fighting, and {終戦|しゅうせん} (end of war), which refers to the final conclusion of a war.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{休戦|きゅうせん}する",
+        "negative": "{休戦|きゅうせん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{休戦|きゅうせん}します",
+        "negative": "{休戦|きゅうせん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{休戦|きゅうせん}した",
+        "negative": "{休戦|きゅうせん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{休戦|きゅうせん}しました",
+        "negative": "{休戦|きゅうせん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{休戦|きゅうせん}して",
+        "negative": "{休戦|きゅうせん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{休戦|きゅうせん}している",
+        "negative": "{休戦|きゅうせん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{休戦|きゅうせん}しています",
+        "negative": "{休戦|きゅうせん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{休戦|きゅうせん}していた",
+        "negative": "{休戦|きゅうせん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{休戦|きゅうせん}していました",
+        "negative": "{休戦|きゅうせん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{休戦|きゅうせん}すれば",
+        "negative": "{休戦|きゅうせん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{休戦|きゅうせん}したら",
+        "negative": "{休戦|きゅうせん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{休戦|きゅうせん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{休戦|きゅうせん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{休戦|きゅうせん}できる",
+        "negative": "{休戦|きゅうせん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{休戦|きゅうせん}される",
+        "negative": "{休戦|きゅうせん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{休戦|きゅうせん}させる",
+        "negative": "{休戦|きゅうせん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{休戦|きゅうせん}しろ",
+        "negative": "{休戦|きゅうせん}するな"
+      }
+    ]
   }
 }

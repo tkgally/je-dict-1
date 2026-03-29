@@ -19,7 +19,9 @@
       "english": "This book was supervised by an expert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13646_kanshuu_ex2",
@@ -27,7 +29,9 @@
       "english": "A menu supervised by a famous chef appeared.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13646_kanshuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Since the health food was made under the supervision of a doctor, you can eat it with confidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a suru verb ({監修|かんしゅう}する, to supervise) and as a noun modifier ({監修|かんしゅう}の). Very common in publishing, media, and product marketing to indicate expert oversight. Often seen on book covers and food packaging: 〇〇{監修|かんしゅう} (supervised by 〇〇).\n\nCOMMON COLLOCATIONS:\n- {医師|いし}{監修|かんしゅう}: supervised by a doctor\n- {監修者|かんしゅうしゃ}: supervisor, editorial supervisor\n- {監修|かんしゅう}のもとで: under the supervision of\n- ～が{監修|かんしゅう}する: ~ supervises\n\nHOMOPHONE:\n- {慣習|かんしゅう}: custom, convention (different meaning)",
@@ -53,12 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{監修|かんしゅう}する",
+        "negative": "{監修|かんしゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{監修|かんしゅう}します",
+        "negative": "{監修|かんしゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{監修|かんしゅう}した",
+        "negative": "{監修|かんしゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{監修|かんしゅう}しました",
+        "negative": "{監修|かんしゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{監修|かんしゅう}して",
+        "negative": "{監修|かんしゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{監修|かんしゅう}している",
+        "negative": "{監修|かんしゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{監修|かんしゅう}しています",
+        "negative": "{監修|かんしゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{監修|かんしゅう}していた",
+        "negative": "{監修|かんしゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{監修|かんしゅう}していました",
+        "negative": "{監修|かんしゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{監修|かんしゅう}すれば",
+        "negative": "{監修|かんしゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{監修|かんしゅう}したら",
+        "negative": "{監修|かんしゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{監修|かんしゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{監修|かんしゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{監修|かんしゅう}できる",
+        "negative": "{監修|かんしゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{監修|かんしゅう}される",
+        "negative": "{監修|かんしゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{監修|かんしゅう}させる",
+        "negative": "{監修|かんしゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{監修|かんしゅう}しろ",
+        "negative": "{監修|かんしゅう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Visiting hours are until 3 PM.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15925_menkai_ex2",
@@ -27,7 +29,9 @@
       "english": "I went to visit my grandmother in the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15925_menkai_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to infection control measures, visits are limited to one group per day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{面会|めんかい} is most commonly used for visiting someone in an institutional setting such as a hospital or prison. It has a more formal and structured nuance than a casual visit.\n\nCOMMON COLLOCATIONS:\n- {面会|めんかい}する (to visit, to meet)\n- {面会|めんかい}{時間|じかん} (visiting hours)\n- {面会|めんかい}{謝絶|しゃぜつ} (no visitors allowed)\n- {面会|めんかい}に{行|い}く (to go visit)\n- {面会|めんかい}を{断|ことわ}る (to refuse a visit)\n\nSIMILAR WORDS:\n{見舞|みま}い focuses on visiting someone who is ill to wish them well, while {面会|めんかい} is the broader, more formal term for any institutional visit.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{面会|めんかい}する",
+        "negative": "{面会|めんかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{面会|めんかい}します",
+        "negative": "{面会|めんかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{面会|めんかい}した",
+        "negative": "{面会|めんかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{面会|めんかい}しました",
+        "negative": "{面会|めんかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{面会|めんかい}して",
+        "negative": "{面会|めんかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{面会|めんかい}している",
+        "negative": "{面会|めんかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{面会|めんかい}しています",
+        "negative": "{面会|めんかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{面会|めんかい}していた",
+        "negative": "{面会|めんかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{面会|めんかい}していました",
+        "negative": "{面会|めんかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{面会|めんかい}すれば",
+        "negative": "{面会|めんかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{面会|めんかい}したら",
+        "negative": "{面会|めんかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{面会|めんかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{面会|めんかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{面会|めんかい}できる",
+        "negative": "{面会|めんかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{面会|めんかい}される",
+        "negative": "{面会|めんかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{面会|めんかい}させる",
+        "negative": "{面会|めんかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{面会|めんかい}しろ",
+        "negative": "{面会|めんかい}するな"
+      }
+    ]
   }
 }

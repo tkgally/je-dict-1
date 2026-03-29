@@ -19,7 +19,9 @@
       "english": "I wish you the best of luck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15326_kentou_ex2",
@@ -27,7 +29,9 @@
       "english": "The athletes fought bravely until the very end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15326_kentou_ex3",
@@ -35,7 +39,9 @@
       "english": "They lost, but I'd like to commend the opposing team for their valiant effort.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA positive word used to praise or encourage effort, especially in sports, competitions, and challenging situations. Common in speeches and encouragement.\n\nCOMMON COLLOCATIONS:\n- {健闘|けんとう}を{祈|いの}る (to wish someone good luck)\n- {健闘|けんとう}を{称|たた}える (to praise someone's effort)\n- {健闘|けんとう}{及|およ}ばず (despite a valiant effort)\n\nDISTINCTION FROM HOMOPHONES:\n{健闘|けんとう} (valiant effort) vs. {検討|けんとう} (examination, consideration) vs. {見当|けんとう} (estimate, guess). These are completely different words that happen to share the same reading.",
@@ -61,9 +67,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["competition", "effort"]
+      "semantic": [
+        "competition",
+        "effort"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{健闘|けんとう}する",
+        "negative": "{健闘|けんとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{健闘|けんとう}します",
+        "negative": "{健闘|けんとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{健闘|けんとう}した",
+        "negative": "{健闘|けんとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{健闘|けんとう}しました",
+        "negative": "{健闘|けんとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{健闘|けんとう}して",
+        "negative": "{健闘|けんとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{健闘|けんとう}している",
+        "negative": "{健闘|けんとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{健闘|けんとう}しています",
+        "negative": "{健闘|けんとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{健闘|けんとう}していた",
+        "negative": "{健闘|けんとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{健闘|けんとう}していました",
+        "negative": "{健闘|けんとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{健闘|けんとう}すれば",
+        "negative": "{健闘|けんとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{健闘|けんとう}したら",
+        "negative": "{健闘|けんとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{健闘|けんとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{健闘|けんとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{健闘|けんとう}できる",
+        "negative": "{健闘|けんとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{健闘|けんとう}される",
+        "negative": "{健闘|けんとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{健闘|けんとう}させる",
+        "negative": "{健闘|けんとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{健闘|けんとう}しろ",
+        "negative": "{健闘|けんとう}するな"
+      }
+    ]
   }
 }

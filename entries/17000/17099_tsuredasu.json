@@ -19,7 +19,9 @@
       "english": "To take the kids to the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17099_tsuredasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I took the dog out for a walk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17099_tsuredasu_ex3",
@@ -35,7 +39,9 @@
       "english": "Since the weather was nice, I dragged my brother, who was cooped up at home, outside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb formed from {連|つ}れる (to take along) and {出|だ}す (to take out). Emphasizes the action of bringing someone from one location (typically indoors) to another (typically outdoors).\n\nCOMMON COLLOCATIONS:\n- {外|そと}に{連|つ}れ{出|だ}す (to take outside)\n- {散歩|さんぽ}に{連|つ}れ{出|だ}す (to take out for a walk)\n- {子供|こども}を{連|つ}れ{出|だ}す (to take the children out)\n\nSIMILAR WORDS:\n- {連|つ}れて{行|い}く: to take along — more general, no emphasis on going outside\n- {引|ひ}っ{張|ぱ}り{出|だ}す: to drag out — stronger nuance of forcing someone out",
@@ -46,12 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["motion", "human-relations"],
+      "semantic": [
+        "motion",
+        "human-relations"
+      ],
       "transitivity": "transitive",
-      "compound_verb": true
+      "compound_verb": true,
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連|つ}れ{出|だ}す",
+        "negative": "{連|つ}れ{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連|つ}れ{出|だ}します",
+        "negative": "{連|つ}れ{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連|つ}れ{出|だ}した",
+        "negative": "{連|つ}れ{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連|つ}れ{出|だ}しました",
+        "negative": "{連|つ}れ{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連|つ}れ{出|だ}して",
+        "negative": "{連|つ}れ{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連|つ}れ{出|だ}している",
+        "negative": "{連|つ}れ{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連|つ}れ{出|だ}しています",
+        "negative": "{連|つ}れ{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連|つ}れ{出|だ}していた",
+        "negative": "{連|つ}れ{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連|つ}れ{出|だ}していました",
+        "negative": "{連|つ}れ{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連|つ}れ{出|だ}せば",
+        "negative": "{連|つ}れ{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連|つ}れ{出|だ}したら",
+        "negative": "{連|つ}れ{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連|つ}れ{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連|つ}れ{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連|つ}れ{出|だ}せる",
+        "negative": "{連|つ}れ{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連|つ}れ{出|だ}される",
+        "negative": "{連|つ}れ{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連|つ}れ{出|だ}させる",
+        "negative": "{連|つ}れ{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連|つ}れ{出|だ}せ",
+        "negative": "{連|つ}れ{出|だ}すな"
+      }
+    ]
   }
 }

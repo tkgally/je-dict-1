@@ -23,7 +23,9 @@
       "english": "To save a file by overwriting it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16330_uwagaki_ex2",
@@ -31,7 +33,9 @@
       "english": "I accidentally overwrote it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16330_uwagaki_ex3",
@@ -39,7 +43,9 @@
       "english": "Please be careful not to overwrite important data.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16330_uwagaki_ex4",
@@ -47,7 +53,9 @@
       "english": "To check the address on the envelope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {上書|うわが}き{保存|ほぞん}: save (overwrite) — the standard \"save\" command in Japanese computing\n- {上書|うわが}き{禁止|きんし}: write-protect, overwrite prohibited\n\nUSAGE NOTES:\nSense 1 (computing) is far more common in modern usage. The phrase {上書|うわが}き{保存|ほぞん} is equivalent to \"Save\" (as opposed to \"Save As\" = {名前|なまえ}をつけて{保存|ほぞん}).",
@@ -57,13 +65,111 @@
     "modified": "2026-03-12T01:25:18Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"],
-      "transitivity": "transitive"
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
   },
-  "schema_version": "2.0"
+  "schema_version": "2.0",
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{上書|うわが}きする",
+        "negative": "{上書|うわが}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{上書|うわが}きします",
+        "negative": "{上書|うわが}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{上書|うわが}きした",
+        "negative": "{上書|うわが}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{上書|うわが}きしました",
+        "negative": "{上書|うわが}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{上書|うわが}きして",
+        "negative": "{上書|うわが}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{上書|うわが}きしている",
+        "negative": "{上書|うわが}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{上書|うわが}きしています",
+        "negative": "{上書|うわが}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{上書|うわが}きしていた",
+        "negative": "{上書|うわが}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{上書|うわが}きしていました",
+        "negative": "{上書|うわが}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{上書|うわが}きすれば",
+        "negative": "{上書|うわが}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{上書|うわが}きしたら",
+        "negative": "{上書|うわが}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{上書|うわが}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{上書|うわが}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{上書|うわが}きできる",
+        "negative": "{上書|うわが}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{上書|うわが}きされる",
+        "negative": "{上書|うわが}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{上書|うわが}きさせる",
+        "negative": "{上書|うわが}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{上書|うわが}きしろ",
+        "negative": "{上書|うわが}きするな"
+      }
+    ]
+  }
 }

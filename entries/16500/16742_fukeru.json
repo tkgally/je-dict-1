@@ -19,7 +19,9 @@
       "english": "You've aged quite a bit, haven't you?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16742_fukeru_ex2",
@@ -27,7 +29,9 @@
       "english": "The many hardships make them look old.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16742_fukeru_ex3",
@@ -35,7 +39,9 @@
       "english": "I was surprised to see how much my friend had aged when I met them after ten years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFocuses on visible changes in appearance due to aging. Can be blunt or even rude when said directly to someone. The past form {老|ふ}けた is often used as a modifier meaning \"aged-looking.\"\n\nCOMMON COLLOCATIONS:\n- {老|ふ}けて{見|み}える (to look old)\n- すっかり{老|ふ}ける (to age completely)\n- {急|きゅう}に{老|ふ}ける (to age suddenly)\n\nSIMILAR WORDS:\n- {年|とし}を{取|と}る: to grow older — neutral and objective\n- {老|お}いる: to grow old — more literary, focuses on the process of aging itself",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body", "time"]
+      "semantic": [
+        "body",
+        "time"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{老|ふ}ける",
+        "negative": "{老|ふ}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{老|ふ}けます",
+        "negative": "{老|ふ}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{老|ふ}けた",
+        "negative": "{老|ふ}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{老|ふ}けました",
+        "negative": "{老|ふ}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{老|ふ}けて",
+        "negative": "{老|ふ}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{老|ふ}けている",
+        "negative": "{老|ふ}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{老|ふ}けています",
+        "negative": "{老|ふ}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{老|ふ}けていた",
+        "negative": "{老|ふ}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{老|ふ}けていました",
+        "negative": "{老|ふ}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{老|ふ}ければ",
+        "negative": "{老|ふ}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{老|ふ}けたら",
+        "negative": "{老|ふ}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{老|ふ}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{老|ふ}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{老|ふ}けられる",
+        "negative": "{老|ふ}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{老|ふ}けられる",
+        "negative": "{老|ふ}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{老|ふ}けさせる",
+        "negative": "{老|ふ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{老|ふ}けろ",
+        "negative": "{老|ふ}けるな"
+      }
+    ]
   }
 }

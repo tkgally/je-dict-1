@@ -19,7 +19,9 @@
       "english": "The long-awaited new release went on sale.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12545_taibou_ex2",
@@ -27,7 +29,9 @@
       "english": "The couple's long-awaited first child was born.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12545_taibou_ex3",
@@ -35,7 +39,9 @@
       "english": "The Japan concert that fans had been eagerly awaiting is finally going to happen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost frequently appears as a noun modifier: {待望|たいぼう}の〜 (the long-awaited ~). Also used as a suru verb ({待望|たいぼう}する = to eagerly await), though the modifier form is far more common. This word always carries a positive tone — the thing awaited is desired and welcome.\n\nCOMMON COLLOCATIONS:\n- {待望|たいぼう}の{新作|しんさく}: long-awaited new work\n- {待望|たいぼう}の{第一子|だいいっし}: long-awaited first child\n- {待望|たいぼう}の{優勝|ゆうしょう}: long-awaited championship victory\n- {待望|たいぼう}の{来日|らいにち}: long-awaited visit to Japan",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion-anticipation"]
+      "semantic": [
+        "emotion-anticipation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{待望|たいぼう}する",
+        "negative": "{待望|たいぼう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{待望|たいぼう}します",
+        "negative": "{待望|たいぼう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{待望|たいぼう}した",
+        "negative": "{待望|たいぼう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{待望|たいぼう}しました",
+        "negative": "{待望|たいぼう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{待望|たいぼう}して",
+        "negative": "{待望|たいぼう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{待望|たいぼう}している",
+        "negative": "{待望|たいぼう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{待望|たいぼう}しています",
+        "negative": "{待望|たいぼう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{待望|たいぼう}していた",
+        "negative": "{待望|たいぼう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{待望|たいぼう}していました",
+        "negative": "{待望|たいぼう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{待望|たいぼう}すれば",
+        "negative": "{待望|たいぼう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{待望|たいぼう}したら",
+        "negative": "{待望|たいぼう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{待望|たいぼう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{待望|たいぼう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{待望|たいぼう}できる",
+        "negative": "{待望|たいぼう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{待望|たいぼう}される",
+        "negative": "{待望|たいぼう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{待望|たいぼう}させる",
+        "negative": "{待望|たいぼう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{待望|たいぼう}しろ",
+        "negative": "{待望|たいぼう}するな"
+      }
+    ]
   }
 }

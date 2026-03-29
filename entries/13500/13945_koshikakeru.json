@@ -19,7 +19,9 @@
       "english": "I sat down on the bench.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13945_koshikakeru_ex2",
@@ -27,7 +29,9 @@
       "english": "Please have a seat here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13945_koshikakeru_ex3",
@@ -35,7 +39,9 @@
       "english": "I was sitting in a chair by the window, gazing at the scenery outside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{腰掛|こしか}ける means to sit on a raised surface (chair, bench, edge of a bed, etc.). The particle に marks the surface sat on. It differs from {座|すわ}る, which is the general word for sitting and can include sitting on the floor or in any position.\n\nConjugation: ichidan verb ({腰掛|こしか}けない / {腰掛|こしか}けます / {腰掛|こしか}けて).\n\nThe related noun {腰掛|こしか}け means a stool or temporary seat, and figuratively refers to a temporary job or position ({腰掛|こしか}け{仕事|しごと}).\n\nCOMMON COLLOCATIONS:\n- {椅子|いす}に{腰掛|こしか}ける: to sit in a chair\n- ベンチに{腰掛|こしか}ける: to sit on a bench\n- {縁側|えんがわ}に{腰掛|こしか}ける: to sit on the veranda",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{腰掛|こしか}ける",
+        "negative": "{腰掛|こしか}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{腰掛|こしか}けます",
+        "negative": "{腰掛|こしか}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{腰掛|こしか}けた",
+        "negative": "{腰掛|こしか}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{腰掛|こしか}けました",
+        "negative": "{腰掛|こしか}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{腰掛|こしか}けて",
+        "negative": "{腰掛|こしか}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{腰掛|こしか}けている",
+        "negative": "{腰掛|こしか}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{腰掛|こしか}けています",
+        "negative": "{腰掛|こしか}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{腰掛|こしか}けていた",
+        "negative": "{腰掛|こしか}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{腰掛|こしか}けていました",
+        "negative": "{腰掛|こしか}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{腰掛|こしか}ければ",
+        "negative": "{腰掛|こしか}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{腰掛|こしか}けたら",
+        "negative": "{腰掛|こしか}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{腰掛|こしか}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{腰掛|こしか}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{腰掛|こしか}けられる",
+        "negative": "{腰掛|こしか}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{腰掛|こしか}けられる",
+        "negative": "{腰掛|こしか}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{腰掛|こしか}けさせる",
+        "negative": "{腰掛|こしか}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{腰掛|こしか}けろ",
+        "negative": "{腰掛|こしか}けるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I replanted the flower in a bigger pot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17856_uekaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I plan to transplant the seedlings to the garden in spring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17856_uekaeru_ex3",
@@ -35,7 +39,9 @@
       "english": "The roots are getting crowded, so you should repot it soon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily a gardening term. The noun form {植|う}え{替|か}え refers to the act of replanting/repotting. Spring is the most common time for {植|う}え{替|か}え in Japan.\n\nCOMMON COLLOCATIONS:\n- {鉢|はち}に{植|う}え{替|か}える (to repot)\n- {庭|にわ}に{植|う}え{替|か}える (to transplant into the garden)\n- {植|う}え{替|か}えの{時期|じき} (repotting season)\n- {苗|なえ}を{植|う}え{替|か}える (to transplant seedlings)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["gardening", "nature"]
+      "semantic": [
+        "gardening",
+        "nature"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{植|う}え{替|か}える",
+        "negative": "{植|う}え{替|か}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{植|う}え{替|か}えます",
+        "negative": "{植|う}え{替|か}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{植|う}え{替|か}えた",
+        "negative": "{植|う}え{替|か}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{植|う}え{替|か}えました",
+        "negative": "{植|う}え{替|か}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{植|う}え{替|か}えて",
+        "negative": "{植|う}え{替|か}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{植|う}え{替|か}えている",
+        "negative": "{植|う}え{替|か}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{植|う}え{替|か}えています",
+        "negative": "{植|う}え{替|か}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{植|う}え{替|か}えていた",
+        "negative": "{植|う}え{替|か}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{植|う}え{替|か}えていました",
+        "negative": "{植|う}え{替|か}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{植|う}え{替|か}えれば",
+        "negative": "{植|う}え{替|か}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{植|う}え{替|か}えたら",
+        "negative": "{植|う}え{替|か}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{植|う}え{替|か}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{植|う}え{替|か}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{植|う}え{替|か}えられる",
+        "negative": "{植|う}え{替|か}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{植|う}え{替|か}えられる",
+        "negative": "{植|う}え{替|か}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{植|う}え{替|か}えさせる",
+        "negative": "{植|う}え{替|か}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{植|う}え{替|か}えろ",
+        "negative": "{植|う}え{替|か}えるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The wound became infected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15315_kanou_ex2",
@@ -27,7 +29,9 @@
       "english": "I disinfected it to prevent infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15315_kanou_ex3",
@@ -35,7 +39,9 @@
       "english": "The wound festered and became red and swollen, so I decided to go to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{化膿|かのう} is used both as a medical term and in everyday conversation when describing infected wounds. It is commonly used with する to form a verb.\n\nCOMMON COLLOCATIONS:\n- {傷|きず}が{化膿|かのう}する (a wound festers)\n- {化膿|かのう}を{防|ふせ}ぐ (to prevent infection)\n- {化膿|かのう}{止|ど}め (antiseptic — prevents suppuration)\n- {化膿|かのう}{性|せい} (purulent, suppurative)\n\nMEDICAL CONTEXT:\nA doctor might say {化膿|かのう}しています (it's infected) when examining a wound. Over-the-counter {化膿|かのう}{止|ど}め (antiseptic) products are commonly available at pharmacies.",
@@ -46,11 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["health", "body"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "health",
+        "body"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{化膿|かのう}する",
+        "negative": "{化膿|かのう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{化膿|かのう}します",
+        "negative": "{化膿|かのう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{化膿|かのう}した",
+        "negative": "{化膿|かのう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{化膿|かのう}しました",
+        "negative": "{化膿|かのう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{化膿|かのう}して",
+        "negative": "{化膿|かのう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{化膿|かのう}している",
+        "negative": "{化膿|かのう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{化膿|かのう}しています",
+        "negative": "{化膿|かのう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{化膿|かのう}していた",
+        "negative": "{化膿|かのう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{化膿|かのう}していました",
+        "negative": "{化膿|かのう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{化膿|かのう}すれば",
+        "negative": "{化膿|かのう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{化膿|かのう}したら",
+        "negative": "{化膿|かのう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{化膿|かのう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{化膿|かのう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{化膿|かのう}できる",
+        "negative": "{化膿|かのう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{化膿|かのう}される",
+        "negative": "{化膿|かのう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{化膿|かのう}させる",
+        "negative": "{化膿|かのう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{化膿|かのう}しろ",
+        "negative": "{化膿|かのう}するな"
+      }
+    ]
   }
 }

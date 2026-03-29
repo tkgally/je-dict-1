@@ -19,7 +19,9 @@
       "english": "To muster one's courage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12817_furishiboru_ex2",
@@ -27,7 +29,9 @@
       "english": "I squeezed out every last ounce of strength and crossed the finish line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12817_furishiboru_ex3",
@@ -35,7 +39,9 @@
       "english": "I summoned all my voice to call for help.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る-ending (godan, not ichidan).\n- Negative: {振|ふ}り{絞|しぼ}らない\n- Polite: {振|ふ}り{絞|しぼ}ります\n- Te-form: {振|ふ}り{絞|しぼ}って\n- Past: {振|ふ}り{絞|しぼ}った\n\nUSAGE:\nAlmost always used with abstract objects like {勇気|ゆうき} (courage), {力|ちから} (strength), or {声|こえ} (voice). The expression conveys a sense of desperation or maximum effort — reaching deep inside oneself for reserves.\n\nCOMMON COLLOCATIONS:\n- {勇気|ゆうき}を{振|ふ}り{絞|しぼ}る: to summon one's courage\n- {力|ちから}を{振|ふ}り{絞|しぼ}る: to muster all one's strength\n- {声|こえ}を{振|ふ}り{絞|しぼ}る: to squeeze out one's voice\n- {知恵|ちえ}を{振|ふ}り{絞|しぼ}る: to rack one's brains",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{振|ふ}り{絞|しぼ}る",
+        "negative": "{振|ふ}り{絞|しぼ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{振|ふ}り{絞|しぼ}ります",
+        "negative": "{振|ふ}り{絞|しぼ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{振|ふ}り{絞|しぼ}った",
+        "negative": "{振|ふ}り{絞|しぼ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{振|ふ}り{絞|しぼ}りました",
+        "negative": "{振|ふ}り{絞|しぼ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{振|ふ}り{絞|しぼ}って",
+        "negative": "{振|ふ}り{絞|しぼ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{振|ふ}り{絞|しぼ}っている",
+        "negative": "{振|ふ}り{絞|しぼ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{振|ふ}り{絞|しぼ}っています",
+        "negative": "{振|ふ}り{絞|しぼ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{振|ふ}り{絞|しぼ}っていた",
+        "negative": "{振|ふ}り{絞|しぼ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{振|ふ}り{絞|しぼ}っていました",
+        "negative": "{振|ふ}り{絞|しぼ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{振|ふ}り{絞|しぼ}れば",
+        "negative": "{振|ふ}り{絞|しぼ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{振|ふ}り{絞|しぼ}ったら",
+        "negative": "{振|ふ}り{絞|しぼ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{振|ふ}り{絞|しぼ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{振|ふ}り{絞|しぼ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{振|ふ}り{絞|しぼ}れる",
+        "negative": "{振|ふ}り{絞|しぼ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{振|ふ}り{絞|しぼ}られる",
+        "negative": "{振|ふ}り{絞|しぼ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{振|ふ}り{絞|しぼ}らせる",
+        "negative": "{振|ふ}り{絞|しぼ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{振|ふ}り{絞|しぼ}れ",
+        "negative": "{振|ふ}り{絞|しぼ}るな"
+      }
+    ]
   }
 }

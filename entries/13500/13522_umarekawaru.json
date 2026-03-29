@@ -24,7 +24,9 @@
       "english": "I want to be reborn as a bird.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13522_umarekawaru_ex2",
@@ -32,7 +34,9 @@
       "english": "If you were reborn, what would you want to be?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13522_umarekawaru_ex3",
@@ -40,7 +44,9 @@
       "english": "In Buddhism, it is believed that people are reborn in a different form after death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13522_umarekawaru_ex4",
@@ -48,7 +54,9 @@
       "english": "The town has been completely transformed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13522_umarekawaru_ex5",
@@ -56,7 +64,9 @@
       "english": "After renovation, the shop was completely renewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13522_umarekawaru_ex6",
@@ -64,7 +74,9 @@
       "english": "The old factory has been reborn as an art museum, attracting many tourists.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb from {生|う}まれる (to be born) + {変|か}わる (to change). Sense 1 is the literal religious meaning of reincarnation, while sense 2 is the more common figurative usage meaning a dramatic transformation. The figurative use is very productive in modern Japanese.\n\nGRAMMAR:\n- Godan verb ({五段|ごだん}), intransitive\n- {生|う}まれ{変|か}わり (noun form): rebirth, reincarnation\n- Often used with に to indicate what one is reborn as: {鳥|とり}に{生|う}まれ{変|か}わる\n- として{生|う}まれ{変|か}わる: to be reborn/transformed as\n\nCOMMON COLLOCATIONS:\n- ～に{生|う}まれ{変|か}わる: to be reborn as ~\n- ～として{生|う}まれ{変|か}わる: to be renewed as ~\n- {見違|みちが}えるほど{生|う}まれ{変|か}わる: to be transformed beyond recognition",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{生|う}まれ{変|か}わる",
+        "negative": "{生|う}まれ{変|か}わらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{生|う}まれ{変|か}わります",
+        "negative": "{生|う}まれ{変|か}わりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{生|う}まれ{変|か}わった",
+        "negative": "{生|う}まれ{変|か}わらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{生|う}まれ{変|か}わりました",
+        "negative": "{生|う}まれ{変|か}わりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{生|う}まれ{変|か}わって",
+        "negative": "{生|う}まれ{変|か}わらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{生|う}まれ{変|か}わっている",
+        "negative": "{生|う}まれ{変|か}わっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{生|う}まれ{変|か}わっています",
+        "negative": "{生|う}まれ{変|か}わっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{生|う}まれ{変|か}わっていた",
+        "negative": "{生|う}まれ{変|か}わっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{生|う}まれ{変|か}わっていました",
+        "negative": "{生|う}まれ{変|か}わっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{生|う}まれ{変|か}われば",
+        "negative": "{生|う}まれ{変|か}わらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{生|う}まれ{変|か}わったら",
+        "negative": "{生|う}まれ{変|か}わらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{生|う}まれ{変|か}わろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{生|う}まれ{変|か}わりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{生|う}まれ{変|か}われる",
+        "negative": "{生|う}まれ{変|か}われない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{生|う}まれ{変|か}わられる",
+        "negative": "{生|う}まれ{変|か}わられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{生|う}まれ{変|か}わらせる",
+        "negative": "{生|う}まれ{変|か}わらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{生|う}まれ{変|か}われ",
+        "negative": "{生|う}まれ{変|か}わるな"
+      }
+    ]
   }
 }

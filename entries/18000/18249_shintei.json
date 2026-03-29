@@ -19,7 +19,9 @@
       "english": "We would like to present you with a small gift.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18249_shintei_ex2",
@@ -27,7 +29,9 @@
       "english": "We will present a commemorative gift to those who attend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18249_shintei_ex3",
@@ -35,7 +39,9 @@
       "english": "We will present a book gift card to everyone who responds to the survey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA humble ({謙譲語|けんじょうご}) expression used by the giver. Very common in commercial and promotional contexts where a business gives something to customers. Not used when receiving a gift.\n\nCOMMON COLLOCATIONS:\n- {記念品|きねんひん}を{進呈|しんてい}する (to present a commemorative gift)\n- {粗品|そしな}を{進呈|しんてい}する (to present a small gift)\n- もれなく{進呈|しんてい} (given to everyone without exception)\n\nSIMILAR WORDS:\n- {贈呈|ぞうてい}: presentation; bestowal — more formal, used for awards and ceremonies\n- {贈|おく}る: to give; to present — general term, less formal\n- {差|さ}し{上|あ}げる: to give (humble) — spoken humble form, used in daily polite conversation",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{進呈|しんてい}する",
+        "negative": "{進呈|しんてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{進呈|しんてい}します",
+        "negative": "{進呈|しんてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{進呈|しんてい}した",
+        "negative": "{進呈|しんてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{進呈|しんてい}しました",
+        "negative": "{進呈|しんてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{進呈|しんてい}して",
+        "negative": "{進呈|しんてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{進呈|しんてい}している",
+        "negative": "{進呈|しんてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{進呈|しんてい}しています",
+        "negative": "{進呈|しんてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{進呈|しんてい}していた",
+        "negative": "{進呈|しんてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{進呈|しんてい}していました",
+        "negative": "{進呈|しんてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{進呈|しんてい}すれば",
+        "negative": "{進呈|しんてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{進呈|しんてい}したら",
+        "negative": "{進呈|しんてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{進呈|しんてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{進呈|しんてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{進呈|しんてい}できる",
+        "negative": "{進呈|しんてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{進呈|しんてい}される",
+        "negative": "{進呈|しんてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{進呈|しんてい}させる",
+        "negative": "{進呈|しんてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{進呈|しんてい}しろ",
+        "negative": "{進呈|しんてい}するな"
+      }
+    ]
   }
 }

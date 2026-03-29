@@ -19,7 +19,9 @@
       "english": "The heavy rain caused flooding under the floor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14945_shinsui_ex2",
@@ -27,7 +29,9 @@
       "english": "Many houses were flooded due to the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14945_shinsui_ex3",
@@ -35,7 +39,9 @@
       "english": "We stacked sandbags to prevent flood damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A common term in weather reports and disaster news in Japan, where typhoons and heavy rains frequently cause flooding.\n\nCOMMON COLLOCATIONS:\n- {床上|ゆかうえ}{浸水|しんすい} (above-floor flooding)\n- {床下|ゆかした}{浸水|しんすい} (below-floor flooding)\n- {浸水|しんすい}{被害|ひがい} (flood damage)\n- {浸水|しんすい}{対策|たいさく} (flood prevention measures)\n\nUSAGE NOTE:\nJapanese disaster reports distinguish between {床上浸水|ゆかうえしんすい} (flooding that reaches living-floor level) and {床下浸水|ゆかしたしんすい} (flooding only under the raised floor). {床上|ゆかうえ}{浸水|しんすい} is far more damaging and often triggers evacuation orders.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{浸水|しんすい}する",
+        "negative": "{浸水|しんすい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{浸水|しんすい}します",
+        "negative": "{浸水|しんすい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{浸水|しんすい}した",
+        "negative": "{浸水|しんすい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{浸水|しんすい}しました",
+        "negative": "{浸水|しんすい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{浸水|しんすい}して",
+        "negative": "{浸水|しんすい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{浸水|しんすい}している",
+        "negative": "{浸水|しんすい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{浸水|しんすい}しています",
+        "negative": "{浸水|しんすい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{浸水|しんすい}していた",
+        "negative": "{浸水|しんすい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{浸水|しんすい}していました",
+        "negative": "{浸水|しんすい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{浸水|しんすい}すれば",
+        "negative": "{浸水|しんすい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{浸水|しんすい}したら",
+        "negative": "{浸水|しんすい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{浸水|しんすい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{浸水|しんすい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{浸水|しんすい}できる",
+        "negative": "{浸水|しんすい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{浸水|しんすい}される",
+        "negative": "{浸水|しんすい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{浸水|しんすい}させる",
+        "negative": "{浸水|しんすい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{浸水|しんすい}しろ",
+        "negative": "{浸水|しんすい}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "They installed a new party leader.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13441_youritsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The opposition party plans to put forward its own candidate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13441_youritsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Each faction put forward its own candidate, deepening the divisions within the party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nUsed as a する verb: {擁立|ようりつ}する. Takes を to mark the person being installed: ～を{擁立|ようりつ}する.\n\nUSAGE:\nA political and historical term. Most commonly seen in news coverage of elections, leadership contests, and party politics. In historical contexts, it describes the installation of emperors, shoguns, or other rulers by powerful supporters.\n\nThe word implies that the person being installed has the backing of a group or faction, rather than achieving the position entirely on their own.\n\nCOMMON COLLOCATIONS:\n- {候補者|こうほしゃ}を{擁立|ようりつ}する: to put forward a candidate\n- {党首|とうしゅ}を{擁立|ようりつ}する: to install a party leader\n- {対立|たいりつ}{候補|こうほ}を{擁立|ようりつ}: to put up a rival candidate",
@@ -46,12 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{擁立|ようりつ}する",
+        "negative": "{擁立|ようりつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{擁立|ようりつ}します",
+        "negative": "{擁立|ようりつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{擁立|ようりつ}した",
+        "negative": "{擁立|ようりつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{擁立|ようりつ}しました",
+        "negative": "{擁立|ようりつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{擁立|ようりつ}して",
+        "negative": "{擁立|ようりつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{擁立|ようりつ}している",
+        "negative": "{擁立|ようりつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{擁立|ようりつ}しています",
+        "negative": "{擁立|ようりつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{擁立|ようりつ}していた",
+        "negative": "{擁立|ようりつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{擁立|ようりつ}していました",
+        "negative": "{擁立|ようりつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{擁立|ようりつ}すれば",
+        "negative": "{擁立|ようりつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{擁立|ようりつ}したら",
+        "negative": "{擁立|ようりつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{擁立|ようりつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{擁立|ようりつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{擁立|ようりつ}できる",
+        "negative": "{擁立|ようりつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{擁立|ようりつ}される",
+        "negative": "{擁立|ようりつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{擁立|ようりつ}させる",
+        "negative": "{擁立|ようりつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{擁立|ようりつ}しろ",
+        "negative": "{擁立|ようりつ}するな"
+      }
+    ]
   }
 }

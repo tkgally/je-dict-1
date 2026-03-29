@@ -22,7 +22,9 @@
       "japanese": "{契約|けいやく}{内容|ないよう}を{吟味|ぎんみ}する。",
       "english": "Scrutinize the contract details.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{証拠|しょうこ}を{一|ひと}つ{一|ひと}つ{吟味|ぎんみ}した。",
       "english": "I examined each piece of evidence carefully.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{提出|ていしゅつ}する{前|まえ}に{言葉|ことば}の{使|つか}い{方|かた}をもう{一度|いちど}{吟味|ぎんみ}してください。",
       "english": "Please examine the wording once more before submitting.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{素材|そざい}を{吟味|ぎんみ}して{選|えら}ぶ。",
       "english": "Carefully select and choose the materials.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{吟味|ぎんみ}された{食材|しょくざい}のみを{使用|しよう}しています。",
       "english": "We use only carefully selected ingredients.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{産地|さんち}や{鮮度|せんど}を{吟味|ぎんみ}して{仕入|しい}れた{魚|さかな}を{提供|ていきょう}しています。",
       "english": "We serve fish that was purchased after carefully selecting for origin and freshness.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,108 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{吟味|ぎんみ}する",
+        "negative": "{吟味|ぎんみ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{吟味|ぎんみ}します",
+        "negative": "{吟味|ぎんみ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{吟味|ぎんみ}した",
+        "negative": "{吟味|ぎんみ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{吟味|ぎんみ}しました",
+        "negative": "{吟味|ぎんみ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{吟味|ぎんみ}して",
+        "negative": "{吟味|ぎんみ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{吟味|ぎんみ}している",
+        "negative": "{吟味|ぎんみ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{吟味|ぎんみ}しています",
+        "negative": "{吟味|ぎんみ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{吟味|ぎんみ}していた",
+        "negative": "{吟味|ぎんみ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{吟味|ぎんみ}していました",
+        "negative": "{吟味|ぎんみ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{吟味|ぎんみ}すれば",
+        "negative": "{吟味|ぎんみ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{吟味|ぎんみ}したら",
+        "negative": "{吟味|ぎんみ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{吟味|ぎんみ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{吟味|ぎんみ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{吟味|ぎんみ}できる",
+        "negative": "{吟味|ぎんみ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{吟味|ぎんみ}される",
+        "negative": "{吟味|ぎんみ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{吟味|ぎんみ}させる",
+        "negative": "{吟味|ぎんみ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{吟味|ぎんみ}しろ",
+        "negative": "{吟味|ぎんみ}するな"
+      }
+    ]
   }
 }

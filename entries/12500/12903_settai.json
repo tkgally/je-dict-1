@@ -24,7 +24,9 @@
       "english": "I have a client entertainment dinner tonight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12903_settai_ex2",
@@ -32,7 +34,9 @@
       "english": "An important contract was finalized through client entertainment golf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12903_settai_ex3",
@@ -40,7 +44,9 @@
       "english": "Excessive business entertainment can become a breeding ground for corruption.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12903_settai_ex4",
@@ -48,7 +54,9 @@
       "english": "To receive and serve guests.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12903_settai_ex5",
@@ -56,7 +64,9 @@
       "english": "The hospitality at the Japanese inn was very attentive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12903_settai_ex6",
@@ -64,7 +74,9 @@
       "english": "The custom of offering tea and meals to pilgrims still remains today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. In modern Japanese, sense 1 (business entertainment) is the most common usage. {接待|せったい} is a significant aspect of Japanese business culture, where relationships are built through shared meals and leisure activities. Sense 2 (general hospitality) is older and broader, seen in traditional and religious contexts.\n\nCOMMON COLLOCATIONS:\n- {接待|せったい}ゴルフ: client entertainment golf\n- {接待|せったい}{費|ひ}: entertainment expenses\n- {接待|せったい}を{受|う}ける: to be entertained (as a guest)\n- お{遍路|へんろ}{接待|せったい}: offering hospitality to pilgrims\n\nSIMILAR WORDS:\n- もてなし: hospitality (warm, personal)\n- {歓待|かんたい}: warm reception, warm welcome (more festive)",
@@ -75,11 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["business"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{接待|せったい}する",
+        "negative": "{接待|せったい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{接待|せったい}します",
+        "negative": "{接待|せったい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{接待|せったい}した",
+        "negative": "{接待|せったい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{接待|せったい}しました",
+        "negative": "{接待|せったい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{接待|せったい}して",
+        "negative": "{接待|せったい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{接待|せったい}している",
+        "negative": "{接待|せったい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{接待|せったい}しています",
+        "negative": "{接待|せったい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{接待|せったい}していた",
+        "negative": "{接待|せったい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{接待|せったい}していました",
+        "negative": "{接待|せったい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{接待|せったい}すれば",
+        "negative": "{接待|せったい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{接待|せったい}したら",
+        "negative": "{接待|せったい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{接待|せったい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{接待|せったい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{接待|せったい}できる",
+        "negative": "{接待|せったい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{接待|せったい}される",
+        "negative": "{接待|せったい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{接待|せったい}させる",
+        "negative": "{接待|せったい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{接待|せったい}しろ",
+        "negative": "{接待|せったい}するな"
+      }
+    ]
   }
 }

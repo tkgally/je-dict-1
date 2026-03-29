@@ -19,7 +19,9 @@
       "english": "He kept silent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13249_chinmoku_ex2",
@@ -27,7 +29,9 @@
       "english": "After a long silence, she finally spoke up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13249_chinmoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The government is being criticized for remaining silent on this issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{沈黙|ちんもく} implies a heavier, more deliberate silence than simply being quiet ({静|しず}か). It often suggests an intentional refusal to speak, an awkward pause, or a meaningful absence of words. As a する verb, {沈黙|ちんもく}する means \"to fall silent\" or \"to remain silent.\"\n\nCOMMON COLLOCATIONS:\n- {沈黙|ちんもく}を{守|まも}る: to keep silent, to maintain silence\n- {沈黙|ちんもく}を{破|やぶ}る: to break the silence\n- {沈黙|ちんもく}が{続|つづ}く: silence continues\n- {重|おも}い{沈黙|ちんもく}: heavy silence\n- {気|き}まずい{沈黙|ちんもく}: awkward silence\n- {沈黙|ちんもく}は{金|きん}: silence is golden (proverb)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{沈黙|ちんもく}する",
+        "negative": "{沈黙|ちんもく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{沈黙|ちんもく}します",
+        "negative": "{沈黙|ちんもく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{沈黙|ちんもく}した",
+        "negative": "{沈黙|ちんもく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{沈黙|ちんもく}しました",
+        "negative": "{沈黙|ちんもく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{沈黙|ちんもく}して",
+        "negative": "{沈黙|ちんもく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{沈黙|ちんもく}している",
+        "negative": "{沈黙|ちんもく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{沈黙|ちんもく}しています",
+        "negative": "{沈黙|ちんもく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{沈黙|ちんもく}していた",
+        "negative": "{沈黙|ちんもく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{沈黙|ちんもく}していました",
+        "negative": "{沈黙|ちんもく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{沈黙|ちんもく}すれば",
+        "negative": "{沈黙|ちんもく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{沈黙|ちんもく}したら",
+        "negative": "{沈黙|ちんもく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{沈黙|ちんもく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{沈黙|ちんもく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{沈黙|ちんもく}できる",
+        "negative": "{沈黙|ちんもく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{沈黙|ちんもく}される",
+        "negative": "{沈黙|ちんもく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{沈黙|ちんもく}させる",
+        "negative": "{沈黙|ちんもく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{沈黙|ちんもく}しろ",
+        "negative": "{沈黙|ちんもく}するな"
+      }
+    ]
   }
 }

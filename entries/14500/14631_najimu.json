@@ -24,7 +24,9 @@
       "english": "I've completely gotten used to this area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14631_najimu_ex2",
@@ -32,7 +34,9 @@
       "english": "It took time to get used to the new workplace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14631_najimu_ex3",
@@ -40,7 +44,9 @@
       "english": "The children quickly warmed up to the new teacher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14631_najimu_ex4",
@@ -48,7 +54,9 @@
       "english": "This color blends in with the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14631_najimu_ex5",
@@ -56,7 +64,9 @@
       "english": "A leather bag gradually molds to your hand as you use it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14631_najimu_ex6",
@@ -64,7 +74,9 @@
       "english": "This proposal doesn't fit with Japanese business customs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{馴染|なじ}む is an intransitive godan verb.\n\nASPECT (ている):\n{馴染|なじ}んでいる describes the resulting state of being accustomed or fitting in well.\n\nPARTICLE PATTERNS:\n- [place/person]に{馴染|なじ}む — to get used to; to blend into\n- [noun]に{馴染|なじ}まない — to not suit; to be incompatible with\n\nCOMMON COLLOCATIONS:\n- {土地|とち}に{馴染|なじ}む (get used to a place)\n- {手|て}に{馴染|なじ}む (fit the hand, feel natural in hand)\n- {肌|はだ}に{馴染|なじ}む (suit the skin)\n\nOften written in kana as なじむ. The related noun {馴染|なじ}み means \"familiarity\" or \"a regular (customer).\" The expression {顔馴染|かおなじ}み means \"familiar face\" or \"acquaintance.\"",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{馴染|なじ}む",
+        "negative": "{馴染|なじ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{馴染|なじ}みます",
+        "negative": "{馴染|なじ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{馴染|なじ}んだ",
+        "negative": "{馴染|なじ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{馴染|なじ}みました",
+        "negative": "{馴染|なじ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{馴染|なじ}んで",
+        "negative": "{馴染|なじ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{馴染|なじ}んでいる",
+        "negative": "{馴染|なじ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{馴染|なじ}んでいます",
+        "negative": "{馴染|なじ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{馴染|なじ}んでいた",
+        "negative": "{馴染|なじ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{馴染|なじ}んでいました",
+        "negative": "{馴染|なじ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{馴染|なじ}めば",
+        "negative": "{馴染|なじ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{馴染|なじ}んだら",
+        "negative": "{馴染|なじ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{馴染|なじ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{馴染|なじ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{馴染|なじ}める",
+        "negative": "{馴染|なじ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{馴染|なじ}まれる",
+        "negative": "{馴染|なじ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{馴染|なじ}ませる",
+        "negative": "{馴染|なじ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{馴染|なじ}め",
+        "negative": "{馴染|なじ}むな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "I dumped out the contents of the box.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10521_buchimakeru_ex2",
@@ -32,7 +34,9 @@
       "english": "I turned the bag upside down and dumped everything out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10521_buchimakeru_ex3",
@@ -40,7 +44,9 @@
       "english": "I dumped out the drawer onto the floor and searched through it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10521_buchimakeru_ex4",
@@ -48,7 +54,9 @@
       "english": "I let out my true feelings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10521_buchimakeru_ex5",
@@ -56,7 +64,9 @@
       "english": "I poured out my frustrations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10521_buchimakeru_ex6",
@@ -64,7 +74,9 @@
       "english": "I couldn't hold back anymore and poured out all the feelings I had been bottling up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (ichidan):\n- Negative: ぶちまけない\n- Te-form: ぶちまけて\n- Past: ぶちまけた\n\nTRANSITIVITY:\nTransitive.\n\nFORMATION:\nぶち (emphatic prefix suggesting force) + まける (to scatter). The prefix ぶち adds a rough, forceful nuance.\n\nREGISTER:\nInformal and somewhat rough. Common in spoken Japanese.\n\nCOMMON COLLOCATIONS:\n- {本音|ほんね}をぶちまける: to let out one's true feelings\n- {不満|ふまん}をぶちまける: to pour out complaints\n- {秘密|ひみつ}をぶちまける: to spill secrets\n- {中身|なかみ}をぶちまける: to dump out the contents",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["action-physical", "emotion-feeling"]
+      "semantic": [
+        "action-physical",
+        "emotion-feeling"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ぶちまける",
+        "negative": "ぶちまけない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ぶちまけます",
+        "negative": "ぶちまけません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ぶちまけた",
+        "negative": "ぶちまけなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ぶちまけました",
+        "negative": "ぶちまけませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ぶちまけて",
+        "negative": "ぶちまけなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ぶちまけている",
+        "negative": "ぶちまけていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ぶちまけています",
+        "negative": "ぶちまけていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ぶちまけていた",
+        "negative": "ぶちまけていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ぶちまけていました",
+        "negative": "ぶちまけていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ぶちまければ",
+        "negative": "ぶちまけなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ぶちまけたら",
+        "negative": "ぶちまけなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ぶちまけよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ぶちまけましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ぶちまけられる",
+        "negative": "ぶちまけられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ぶちまけられる",
+        "negative": "ぶちまけられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ぶちまけさせる",
+        "negative": "ぶちまけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ぶちまけろ",
+        "negative": "ぶちまけるな"
+      }
+    ]
   }
 }

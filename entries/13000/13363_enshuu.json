@@ -24,7 +24,9 @@
       "english": "A military exercise was conducted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13363_enshuu_ex2",
@@ -32,7 +34,9 @@
       "english": "To participate in a joint exercise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13363_enshuu_ex3",
@@ -40,7 +44,9 @@
       "english": "A large-scale disaster preparedness drill was carried out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13363_enshuu_ex4",
@@ -48,7 +54,9 @@
       "english": "I'll present at next week's seminar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13363_enshuu_ex5",
@@ -56,7 +64,9 @@
       "english": "To solve practice problems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13363_enshuu_ex6",
@@ -64,7 +74,9 @@
       "english": "This course has both lectures and practical sessions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe two senses operate in very different domains. In news contexts, {演習|えんしゅう} almost always refers to military exercises. In academic contexts, it refers to a practical seminar-style class (as opposed to {講義|こうぎ}, a lecture).\n\nAlso used for emergency drills (disaster preparedness, firefighting) when conducted on a large, organized scale.\n\nNot to be confused with the homophone {円周|えんしゅう} (circumference).\n\nCOMMON COLLOCATIONS:\n- {軍事|ぐんじ}{演習|えんしゅう}: military exercise\n- {合同|ごうどう}{演習|えんしゅう}: joint exercise\n- {防災|ぼうさい}{演習|えんしゅう}: disaster drill\n- {演習|えんしゅう}{問題|もんだい}: practice problem\n- {演習|えんしゅう}{林|りん}: training forest (university forestry)",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "action"]
+      "semantic": [
+        "education",
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{演習|えんしゅう}する",
+        "negative": "{演習|えんしゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{演習|えんしゅう}します",
+        "negative": "{演習|えんしゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{演習|えんしゅう}した",
+        "negative": "{演習|えんしゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{演習|えんしゅう}しました",
+        "negative": "{演習|えんしゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{演習|えんしゅう}して",
+        "negative": "{演習|えんしゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{演習|えんしゅう}している",
+        "negative": "{演習|えんしゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{演習|えんしゅう}しています",
+        "negative": "{演習|えんしゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{演習|えんしゅう}していた",
+        "negative": "{演習|えんしゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{演習|えんしゅう}していました",
+        "negative": "{演習|えんしゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{演習|えんしゅう}すれば",
+        "negative": "{演習|えんしゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{演習|えんしゅう}したら",
+        "negative": "{演習|えんしゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{演習|えんしゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{演習|えんしゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{演習|えんしゅう}できる",
+        "negative": "{演習|えんしゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{演習|えんしゅう}される",
+        "negative": "{演習|えんしゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{演習|えんしゅう}させる",
+        "negative": "{演習|えんしゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{演習|えんしゅう}しろ",
+        "negative": "{演習|えんしゅう}するな"
+      }
+    ]
   }
 }

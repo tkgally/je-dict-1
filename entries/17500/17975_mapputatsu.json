@@ -19,7 +19,9 @@
       "english": "I split the watermelon right in half.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17975_mapputatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Opinions were split right down the middle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17975_mapputatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "A large tree was snapped clean in two by the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe {真|ま}っ prefix intensifies {二|ふた}つ to emphasize an exact, clean split. Used both literally (cutting, breaking) and figuratively (divided opinions, split votes). Very vivid and expressive.\n\nCOMMON COLLOCATIONS:\n- {真|ま}っ{二|ふた}つに{割|わ}る (split right in half)\n- {真|ま}っ{二|ふた}つに{折|お}れる (snap in two)\n- {真|ま}っ{二|ふた}つに{分|わ}かれる (be divided right down the middle)\n- {意見|いけん}が{真|ま}っ{二|ふた}つ (opinions split 50-50)\n\nGRAMMAR:\nCan function as a noun (「{真|ま}っ{二|ふた}つになる」) or adverbially with に (「{真|ま}っ{二|ふた}つに{切|き}る」).",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adverb"],
+      "pos": [
+        "noun",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{真|ま}っ{二|ふた}つ",
+        "negative": "{真|ま}っ{二|ふた}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{真|ま}っ{二|ふた}ちます",
+        "negative": "{真|ま}っ{二|ふた}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{真|ま}っ{二|ふた}った",
+        "negative": "{真|ま}っ{二|ふた}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{真|ま}っ{二|ふた}ちました",
+        "negative": "{真|ま}っ{二|ふた}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{真|ま}っ{二|ふた}って",
+        "negative": "{真|ま}っ{二|ふた}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{真|ま}っ{二|ふた}っている",
+        "negative": "{真|ま}っ{二|ふた}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{真|ま}っ{二|ふた}っています",
+        "negative": "{真|ま}っ{二|ふた}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{真|ま}っ{二|ふた}っていた",
+        "negative": "{真|ま}っ{二|ふた}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{真|ま}っ{二|ふた}っていました",
+        "negative": "{真|ま}っ{二|ふた}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{真|ま}っ{二|ふた}てば",
+        "negative": "{真|ま}っ{二|ふた}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{真|ま}っ{二|ふた}ったら",
+        "negative": "{真|ま}っ{二|ふた}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{真|ま}っ{二|ふた}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{真|ま}っ{二|ふた}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{真|ま}っ{二|ふた}てる",
+        "negative": "{真|ま}っ{二|ふた}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{真|ま}っ{二|ふた}たれる",
+        "negative": "{真|ま}っ{二|ふた}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{真|ま}っ{二|ふた}たせる",
+        "negative": "{真|ま}っ{二|ふた}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{真|ま}っ{二|ふた}て",
+        "negative": "{真|ま}っ{二|ふた}つな"
+      }
+    ]
   }
 }

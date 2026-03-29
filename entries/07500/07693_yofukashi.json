@@ -17,21 +17,27 @@
       "japanese": "{昨日|きのう}{夜更|よふ}かししてしまった。",
       "english": "I ended up staying up late last night.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07693_yofukashi_ex2",
       "japanese": "{夜更|よふ}かしは{体|からだ}に{良|よ}くない。",
       "english": "Staying up late is not good for your body.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07693_yofukashi_ex3",
       "japanese": "{映画|えいが}を{見|み}ていたら{夜更|よふ}かしになってしまった。",
       "english": "I was watching a movie and ended up staying up late.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{夜|よ} (night) + {更|ふ}かし (staying late) - from {更|ふ}かす (to stay up late)\n\nRELATED SLEEP VOCABULARY:\n・{寝不足|ねぶそく} - lack of sleep\n・{二度寝|にどね} - going back to sleep\n・{徹夜|てつや} - pulling an all-nighter\n・{早寝早起|はやねはやお}き - early to bed, early to rise\n\nCOLLOCATIONS:\n・{夜更|よふ}かしをする - to stay up late\n・{夜更|よふ}かしが{続|つづ}く - staying up late continues\n・ついつい{夜更|よふ}かししてしまう - to unintentionally stay up late",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["sleep", "habits"],
-      "domain": []
+      "semantic": [
+        "sleep",
+        "habits"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{夜更|よふ}かしする",
+        "negative": "{夜更|よふ}かししない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{夜更|よふ}かしします",
+        "negative": "{夜更|よふ}かししません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{夜更|よふ}かしした",
+        "negative": "{夜更|よふ}かししなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{夜更|よふ}かししました",
+        "negative": "{夜更|よふ}かししませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{夜更|よふ}かしして",
+        "negative": "{夜更|よふ}かししなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{夜更|よふ}かししている",
+        "negative": "{夜更|よふ}かししていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{夜更|よふ}かししています",
+        "negative": "{夜更|よふ}かししていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{夜更|よふ}かししていた",
+        "negative": "{夜更|よふ}かししていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{夜更|よふ}かししていました",
+        "negative": "{夜更|よふ}かししていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{夜更|よふ}かしすれば",
+        "negative": "{夜更|よふ}かししなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{夜更|よふ}かししたら",
+        "negative": "{夜更|よふ}かししなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{夜更|よふ}かししよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{夜更|よふ}かししましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{夜更|よふ}かしできる",
+        "negative": "{夜更|よふ}かしできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{夜更|よふ}かしされる",
+        "negative": "{夜更|よふ}かしされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{夜更|よふ}かしさせる",
+        "negative": "{夜更|よふ}かしさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{夜更|よふ}かししろ",
+        "negative": "{夜更|よふ}かしするな"
+      }
+    ]
   }
 }

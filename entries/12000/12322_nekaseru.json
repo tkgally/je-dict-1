@@ -24,7 +24,9 @@
       "english": "To put the child to bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12322_nekaseru_ex2",
@@ -32,7 +34,9 @@
       "english": "The baby finally fell asleep, so I gently laid it down on the futon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12322_nekaseru_ex3",
@@ -40,7 +44,9 @@
       "english": "Store the bottle on its side.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12322_nekaseru_ex4",
@@ -48,7 +54,9 @@
       "english": "Let the dough rest overnight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12322_nekaseru_ex5",
@@ -56,7 +64,9 @@
       "english": "Curry tastes better when left to sit for a day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12322_nekaseru_ex6",
@@ -64,7 +74,9 @@
       "english": "When you open wine after aging it for many years, the flavor has deepened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{寝|ね}かせる is the transitive causative form of {寝|ね}る (to sleep). It is an ichidan verb ({一段動詞|いちだんどうし}).\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pair: {寝|ね}る (intransitive — to sleep, to lie down)\n- Pattern: Xを{寝|ね}かせる\n\nCONJUGATION:\n- Negative: {寝|ね}かせない\n- Polite: {寝|ね}かせます\n- Te-form: {寝|ね}かせて\n- Past: {寝|ね}かせた\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもを{寝|ね}かせる (to put the child to bed)\n- {生地|きじ}を{寝|ね}かせる (to let dough rest)\n- ワインを{寝|ね}かせる (to age wine)\n- {横|よこ}に{寝|ね}かせる (to lay on its side)\n\nUSAGE:\nSense 2 is widely used in cooking and food preparation. The idea is that letting something rest or age improves it, similar to English \"let it sit\" or \"let it age.\"",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{寝|ね}かせる",
+        "negative": "{寝|ね}かせない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{寝|ね}かせます",
+        "negative": "{寝|ね}かせません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{寝|ね}かせた",
+        "negative": "{寝|ね}かせなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{寝|ね}かせました",
+        "negative": "{寝|ね}かせませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{寝|ね}かせて",
+        "negative": "{寝|ね}かせなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{寝|ね}かせている",
+        "negative": "{寝|ね}かせていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{寝|ね}かせています",
+        "negative": "{寝|ね}かせていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{寝|ね}かせていた",
+        "negative": "{寝|ね}かせていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{寝|ね}かせていました",
+        "negative": "{寝|ね}かせていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{寝|ね}かせれば",
+        "negative": "{寝|ね}かせなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{寝|ね}かせたら",
+        "negative": "{寝|ね}かせなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{寝|ね}かせよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{寝|ね}かせましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{寝|ね}かせられる",
+        "negative": "{寝|ね}かせられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{寝|ね}かせられる",
+        "negative": "{寝|ね}かせられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{寝|ね}かせさせる",
+        "negative": "{寝|ね}かせさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{寝|ね}かせろ",
+        "negative": "{寝|ね}かせるな"
+      }
+    ]
   }
 }

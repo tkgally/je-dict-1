@@ -19,7 +19,9 @@
       "english": "An earthquake bulletin was broadcast.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14319_sokuhou_ex2",
@@ -27,7 +29,9 @@
       "english": "I waited for the results while watching the election flash reports.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14319_sokuhou_ex3",
@@ -35,7 +39,9 @@
       "english": "According to the news bulletin, a large typhoon is approaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {速|そく} (fast) + {報|ほう} (report). Commonly seen on TV and smartphone notifications for urgent news.\n\nCOMMON COLLOCATIONS:\n- ニュース{速報|そくほう} (news flash)\n- {地震|じしん}{速報|そくほう} (earthquake bulletin)\n- {選挙|せんきょ}{速報|そくほう} (election flash report)\n- {速報|そくほう}が{入|はい}る (a bulletin comes in)\n- {速報|そくほう}{値|ち} (preliminary figures)\n\nIn Japan, {緊急地震速報|きんきゅうじしんそくほう} (Emergency Earthquake Early Warning) is a well-known system that sends alerts to phones before shaking arrives.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "media"]
+      "semantic": [
+        "communication",
+        "media"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{速報|そくほう}する",
+        "negative": "{速報|そくほう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{速報|そくほう}します",
+        "negative": "{速報|そくほう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{速報|そくほう}した",
+        "negative": "{速報|そくほう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{速報|そくほう}しました",
+        "negative": "{速報|そくほう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{速報|そくほう}して",
+        "negative": "{速報|そくほう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{速報|そくほう}している",
+        "negative": "{速報|そくほう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{速報|そくほう}しています",
+        "negative": "{速報|そくほう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{速報|そくほう}していた",
+        "negative": "{速報|そくほう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{速報|そくほう}していました",
+        "negative": "{速報|そくほう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{速報|そくほう}すれば",
+        "negative": "{速報|そくほう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{速報|そくほう}したら",
+        "negative": "{速報|そくほう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{速報|そくほう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{速報|そくほう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{速報|そくほう}できる",
+        "negative": "{速報|そくほう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{速報|そくほう}される",
+        "negative": "{速報|そくほう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{速報|そくほう}させる",
+        "negative": "{速報|そくほう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{速報|そくほう}しろ",
+        "negative": "{速報|そくほう}するな"
+      }
+    ]
   }
 }

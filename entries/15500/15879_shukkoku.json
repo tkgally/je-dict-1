@@ -19,7 +19,9 @@
       "english": "I completed the departure procedures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15879_shukkoku_ex2",
@@ -27,7 +29,9 @@
       "english": "You need to present your passport when leaving the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15879_shukkoku_ex3",
@@ -35,7 +39,9 @@
       "english": "There was a long line at the departure immigration, so I worried whether I would make it to boarding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMPOSITION:\n{出|しゅつ} (go out, exit) + {国|こく} (country). The reading changes to しゅっ before こく due to consonant assimilation.\n\nGRAMMAR:\n{出国|しゅっこく}する is used as a する verb meaning \"to leave a country.\"\n\nCOMMON COLLOCATIONS:\n- {出国|しゅっこく}する (to leave the country)\n- {出国|しゅっこく}{審査|しんさ} (departure immigration check)\n- {出国|しゅっこく}{手続|てつづ}き (departure procedures)\n- {出国|しゅっこく}ゲート (departure gate)\n- {出国|しゅっこく}{禁止|きんし} (travel ban, exit ban)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel"]
+      "semantic": [
+        "travel"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{出国|しゅっこく}する",
+        "negative": "{出国|しゅっこく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{出国|しゅっこく}します",
+        "negative": "{出国|しゅっこく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{出国|しゅっこく}した",
+        "negative": "{出国|しゅっこく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{出国|しゅっこく}しました",
+        "negative": "{出国|しゅっこく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{出国|しゅっこく}して",
+        "negative": "{出国|しゅっこく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{出国|しゅっこく}している",
+        "negative": "{出国|しゅっこく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{出国|しゅっこく}しています",
+        "negative": "{出国|しゅっこく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{出国|しゅっこく}していた",
+        "negative": "{出国|しゅっこく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{出国|しゅっこく}していました",
+        "negative": "{出国|しゅっこく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{出国|しゅっこく}すれば",
+        "negative": "{出国|しゅっこく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{出国|しゅっこく}したら",
+        "negative": "{出国|しゅっこく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{出国|しゅっこく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{出国|しゅっこく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{出国|しゅっこく}できる",
+        "negative": "{出国|しゅっこく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{出国|しゅっこく}される",
+        "negative": "{出国|しゅっこく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{出国|しゅっこく}させる",
+        "negative": "{出国|しゅっこく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{出国|しゅっこく}しろ",
+        "negative": "{出国|しゅっこく}するな"
+      }
+    ]
   }
 }

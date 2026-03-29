@@ -19,7 +19,9 @@
       "english": "The criminal confined the victim.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13647_kankin_ex2",
@@ -27,7 +29,9 @@
       "english": "He was confined in a room for three days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13647_kankin_ex3",
@@ -35,7 +39,9 @@
       "english": "It was reported that a man was arrested on suspicion of unlawful confinement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({監禁|かんきん}する) or in the passive ({監禁|かんきん}される). Common in news reports about criminal cases. In legal terminology, {監禁|かんきん}{罪|ざい} refers to the crime of unlawful confinement.\n\nCOMMON COLLOCATIONS:\n- {不法|ふほう}{監禁|かんきん}: unlawful confinement\n- {監禁|かんきん}{罪|ざい}: crime of confinement\n- {監禁|かんきん}{状態|じょうたい}: state of captivity\n- {監禁|かんきん}される: to be confined\n\nSIMILAR WORDS:\n- {拘束|こうそく}: restraint, detention (broader; includes physical restraint)\n- {幽閉|ゆうへい}: imprisonment, confinement (literary; often used for historical contexts)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["legal"]
+      "semantic": [
+        "legal"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{監禁|かんきん}する",
+        "negative": "{監禁|かんきん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{監禁|かんきん}します",
+        "negative": "{監禁|かんきん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{監禁|かんきん}した",
+        "negative": "{監禁|かんきん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{監禁|かんきん}しました",
+        "negative": "{監禁|かんきん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{監禁|かんきん}して",
+        "negative": "{監禁|かんきん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{監禁|かんきん}している",
+        "negative": "{監禁|かんきん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{監禁|かんきん}しています",
+        "negative": "{監禁|かんきん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{監禁|かんきん}していた",
+        "negative": "{監禁|かんきん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{監禁|かんきん}していました",
+        "negative": "{監禁|かんきん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{監禁|かんきん}すれば",
+        "negative": "{監禁|かんきん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{監禁|かんきん}したら",
+        "negative": "{監禁|かんきん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{監禁|かんきん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{監禁|かんきん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{監禁|かんきん}できる",
+        "negative": "{監禁|かんきん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{監禁|かんきん}される",
+        "negative": "{監禁|かんきん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{監禁|かんきん}させる",
+        "negative": "{監禁|かんきん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{監禁|かんきん}しろ",
+        "negative": "{監禁|かんきん}するな"
+      }
+    ]
   }
 }

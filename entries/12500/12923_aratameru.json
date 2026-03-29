@@ -24,7 +24,9 @@
       "english": "To change one's attitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12923_aratameru_ex2",
@@ -32,7 +34,9 @@
       "english": "There is a need to revise the law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12923_aratameru_ex3",
@@ -40,7 +44,9 @@
       "english": "If you don't change your lifestyle habits, it will be bad for your health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12923_aratameru_ex4",
@@ -48,7 +54,9 @@
       "english": "To inspect tickets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12923_aratameru_ex5",
@@ -56,7 +64,9 @@
       "english": "I will check your identification.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12923_aratameru_ex6",
@@ -64,7 +74,9 @@
       "english": "When I checked again, I found a mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nAn ichidan verb with two distinct meanings. Sense 1 (reform/revise) is the more common meaning in everyday use. Sense 2 (examine/inspect) appears in formal or official contexts. The adverb {改|あらた}めて means \"again, anew, afresh\" and is extremely common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {態度|たいど}を{改|あらた}める: to reform one's attitude\n- {名前|なまえ}を{改|あらた}める: to change one's name\n- {改|あらた}めて: again, afresh, anew\n- {改|あらた}めてお{礼|れい}を{申|もう}し{上|あ}げます: I would like to express my thanks once again (formal)\n\nKANJI NOTE:\nThe kanji {改|かい} appears in many compound words related to change and revision: {改善|かいぜん} (improvement), {改革|かいかく} (reform), {改正|かいせい} (amendment).",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{改|あらた}める",
+        "negative": "{改|あらた}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{改|あらた}めます",
+        "negative": "{改|あらた}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{改|あらた}めた",
+        "negative": "{改|あらた}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{改|あらた}めました",
+        "negative": "{改|あらた}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{改|あらた}めて",
+        "negative": "{改|あらた}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{改|あらた}めている",
+        "negative": "{改|あらた}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{改|あらた}めています",
+        "negative": "{改|あらた}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{改|あらた}めていた",
+        "negative": "{改|あらた}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{改|あらた}めていました",
+        "negative": "{改|あらた}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{改|あらた}めれば",
+        "negative": "{改|あらた}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{改|あらた}めたら",
+        "negative": "{改|あらた}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{改|あらた}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{改|あらた}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{改|あらた}められる",
+        "negative": "{改|あらた}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{改|あらた}められる",
+        "negative": "{改|あらた}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{改|あらた}めさせる",
+        "negative": "{改|あらた}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{改|あらた}めろ",
+        "negative": "{改|あらた}めるな"
+      }
+    ]
   }
 }

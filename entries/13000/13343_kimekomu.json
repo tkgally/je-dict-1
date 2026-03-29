@@ -24,7 +24,9 @@
       "english": "I had assumed it was safe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13343_kimekomu_ex2",
@@ -32,7 +34,9 @@
       "english": "I had assumed he wouldn't come.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13343_kimekomu_ex3",
@@ -40,7 +44,9 @@
       "english": "I neglected preparations, having assumed everything would be fine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13343_kimekomu_ex4",
@@ -48,7 +54,9 @@
       "english": "To pretend to be asleep.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13343_kimekomu_ex5",
@@ -56,7 +64,9 @@
       "english": "I played dumb.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13343_kimekomu_ex6",
@@ -64,7 +74,9 @@
       "english": "No matter what he's asked, he insists on keeping silent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb combining {決|き}める (to decide) and {込|こ}む (into, thoroughly). The {込|こ}む suffix adds nuance of firmly settling into a state.\n\nSense 1 often implies the assumption was unwarranted or led to problems. Sense 2 is very common in the pattern Xを{決|き}め{込|こ}む, where X is a pretended state.\n\nCOMMON PATTERNS:\n- {寝|ね}たふりを{決|き}め{込|こ}む: to pretend to be asleep\n- {知|し}らないふりを{決|き}め{込|こ}む: to play dumb\n- {黙|だま}りを{決|き}め{込|こ}む: to clam up, to insist on silence\n- {高|たか}をくくって{決|き}め{込|こ}む: to take something lightly and assume",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{決|き}め{込|こ}む",
+        "negative": "{決|き}め{込|こ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{決|き}め{込|こ}みます",
+        "negative": "{決|き}め{込|こ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{決|き}め{込|こ}んだ",
+        "negative": "{決|き}め{込|こ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{決|き}め{込|こ}みました",
+        "negative": "{決|き}め{込|こ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{決|き}め{込|こ}んで",
+        "negative": "{決|き}め{込|こ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{決|き}め{込|こ}んでいる",
+        "negative": "{決|き}め{込|こ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{決|き}め{込|こ}んでいます",
+        "negative": "{決|き}め{込|こ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{決|き}め{込|こ}んでいた",
+        "negative": "{決|き}め{込|こ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{決|き}め{込|こ}んでいました",
+        "negative": "{決|き}め{込|こ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{決|き}め{込|こ}めば",
+        "negative": "{決|き}め{込|こ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{決|き}め{込|こ}んだら",
+        "negative": "{決|き}め{込|こ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{決|き}め{込|こ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{決|き}め{込|こ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{決|き}め{込|こ}める",
+        "negative": "{決|き}め{込|こ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{決|き}め{込|こ}まれる",
+        "negative": "{決|き}め{込|こ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{決|き}め{込|こ}ませる",
+        "negative": "{決|き}め{込|こ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{決|き}め{込|こ}め",
+        "negative": "{決|き}め{込|こ}むな"
+      }
+    ]
   }
 }

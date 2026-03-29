@@ -22,7 +22,9 @@
       "japanese": "{乾燥|かんそう}わかめを{水|みず}に{浸|ひた}す。",
       "english": "Soak the dried wakame in water.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{足|あし}を{温|あたた}かいお{湯|ゆ}に{浸|ひた}す。",
       "english": "Soak your feet in warm water.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{豆|まめ}を{一晩|ひとばん}{水|みず}に{浸|ひた}しておく。",
       "english": "Leave the beans soaking in water overnight.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "パンを{牛乳|ぎゅうにゅう}に{浸|ひた}して{食|た}べる。",
       "english": "Dip the bread in milk and eat it.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{天|てん}ぷらを{塩|しお}に{浸|ひた}す。",
       "english": "Dip the tempura in salt.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "フライドポテトをケチャップに{浸|ひた}して{食|た}べるのが{好|す}きだ。",
       "english": "I like dipping french fries in ketchup and eating them.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,11 +85,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "semantic": ["action"],
-      "domain": []
+      "semantic": [
+        "action"
+      ],
+      "domain": [],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{浸|ひた}す",
+        "negative": "{浸|ひた}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{浸|ひた}します",
+        "negative": "{浸|ひた}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{浸|ひた}した",
+        "negative": "{浸|ひた}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{浸|ひた}しました",
+        "negative": "{浸|ひた}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{浸|ひた}して",
+        "negative": "{浸|ひた}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{浸|ひた}している",
+        "negative": "{浸|ひた}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{浸|ひた}しています",
+        "negative": "{浸|ひた}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{浸|ひた}していた",
+        "negative": "{浸|ひた}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{浸|ひた}していました",
+        "negative": "{浸|ひた}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{浸|ひた}せば",
+        "negative": "{浸|ひた}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{浸|ひた}したら",
+        "negative": "{浸|ひた}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{浸|ひた}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{浸|ひた}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{浸|ひた}せる",
+        "negative": "{浸|ひた}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{浸|ひた}される",
+        "negative": "{浸|ひた}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{浸|ひた}させる",
+        "negative": "{浸|ひた}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{浸|ひた}せ",
+        "negative": "{浸|ひた}すな"
+      }
+    ]
   }
 }

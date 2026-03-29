@@ -23,7 +23,9 @@
       "english": "I know.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00458_shiru_ex2",
@@ -31,7 +33,9 @@
       "english": "I don't know.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00458_shiru_ex3",
@@ -39,7 +43,9 @@
       "english": "Do you know this word?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00458_shiru_ex4",
@@ -47,7 +53,9 @@
       "english": "Don't talk to strangers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00458_shiru_ex5",
@@ -55,7 +63,9 @@
       "english": "I only know that singer's name, but I've never heard their songs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00458_shiru_ex6",
@@ -63,7 +73,9 @@
       "english": "I found out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00458_shiru_ex7",
@@ -71,7 +83,9 @@
       "english": "I learned it from the news yesterday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00458_shiru_ex8",
@@ -79,7 +93,9 @@
       "english": "I learned about him from a friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00458_shiru_ex9",
@@ -87,7 +103,9 @@
       "english": "I was surprised when I found out that fact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00458_shiru_ex10",
@@ -95,7 +113,9 @@
       "english": "It's fun to learn new things by reading books. I want to learn something every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{知|し}る (know/learn X).\n\nASPECT: SPECIAL - ている indicates resulting state of knowing. {知|し}っている = 'know' (state of having learned). The negative is {知|し}らない (NOT {知|し}っていない). This positive/negative asymmetry is unique.\n\nCOMMON PATTERNS:\n・{知|し}っていますか (Do you know?)\n・{知|し}りません/{知|し}らない (I don't know)\n・{知|し}りました (I learned/found out)\n・{知|し}らない{人|ひと} (stranger/unknown person)\n\n{知|し}る = moment of learning; {知|し}っている = state of knowing. Different from {分|わ}かる (to understand).",
@@ -120,7 +140,98 @@
       "politeness": "plain",
       "semantic": [
         "cognition"
-      ]
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{知|し}る",
+        "negative": "{知|し}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{知|し}ります",
+        "negative": "{知|し}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{知|し}った",
+        "negative": "{知|し}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{知|し}りました",
+        "negative": "{知|し}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{知|し}って",
+        "negative": "{知|し}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{知|し}っている",
+        "negative": "{知|し}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{知|し}っています",
+        "negative": "{知|し}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{知|し}っていた",
+        "negative": "{知|し}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{知|し}っていました",
+        "negative": "{知|し}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{知|し}れば",
+        "negative": "{知|し}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{知|し}ったら",
+        "negative": "{知|し}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{知|し}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{知|し}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{知|し}れる",
+        "negative": "{知|し}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{知|し}られる",
+        "negative": "{知|し}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{知|し}らせる",
+        "negative": "{知|し}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{知|し}れ",
+        "negative": "{知|し}るな"
+      }
+    ]
   }
 }

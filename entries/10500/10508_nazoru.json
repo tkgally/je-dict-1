@@ -24,7 +24,9 @@
       "english": "To trace characters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10508_nazoru_ex2",
@@ -32,7 +34,9 @@
       "english": "The child is practicing writing by tracing the model characters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10508_nazoru_ex3",
@@ -40,7 +44,9 @@
       "english": "I traced the route on the map with my finger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10508_nazoru_ex4",
@@ -48,7 +54,9 @@
       "english": "To retrace history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10508_nazoru_ex5",
@@ -56,7 +64,9 @@
       "english": "To follow in the footsteps of those who came before.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10508_nazoru_ex6",
@@ -64,7 +74,9 @@
       "english": "Let's be careful not to repeat the same mistakes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-ru):\n- Negative: なぞらない\n- Te-form: なぞって\n- Past: なぞった\n- Passive: なぞられる\n\nTRANSITIVITY:\nTransitive.\n\nUSAGE:\nSense 1 is commonly used in handwriting practice and art. Sense 2 is used figuratively for following the same course or path as something prior.\n\nCOMMON COLLOCATIONS:\n- {文字|もじ}をなぞる: to trace characters\n- {輪郭|りんかく}をなぞる: to trace the outline\n- {足跡|あしあと}をなぞる: to follow in someone's footsteps\n- {歴史|れきし}をなぞる: to retrace history",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-physical", "action-cognitive"]
+      "semantic": [
+        "action-physical",
+        "action-cognitive"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "なぞる",
+        "negative": "なぞらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "なぞります",
+        "negative": "なぞりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "なぞった",
+        "negative": "なぞらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "なぞりました",
+        "negative": "なぞりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "なぞって",
+        "negative": "なぞらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "なぞっている",
+        "negative": "なぞっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "なぞっています",
+        "negative": "なぞっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "なぞっていた",
+        "negative": "なぞっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "なぞっていました",
+        "negative": "なぞっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "なぞれば",
+        "negative": "なぞらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "なぞったら",
+        "negative": "なぞらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "なぞろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "なぞりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "なぞれる",
+        "negative": "なぞれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "なぞられる",
+        "negative": "なぞられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "なぞらせる",
+        "negative": "なぞらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "なぞれ",
+        "negative": "なぞるな"
+      }
+    ]
   }
 }

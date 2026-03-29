@@ -19,7 +19,9 @@
       "english": "To remove a stain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12068_torisaru_ex2",
@@ -27,7 +29,9 @@
       "english": "I stripped off the old paint before repainting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12068_torisaru_ex3",
@@ -35,7 +39,9 @@
       "english": "To eliminate long-standing anxiety, you need to face its root cause.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る-ending (godan, not ichidan).\n- Negative: {取|と}り{去|さ}らない\n- Polite: {取|と}り{去|さ}ります\n- Te-form: {取|と}り{去|さ}って\n- Past: {取|と}り{去|さ}った\n\nUSAGE:\nEmphasizes complete removal with nothing left behind. Can be used both for physical removal (stains, objects) and abstract elimination (fears, obstacles). Somewhat more literary than {取|と}り{除|のぞ}く.\n\nCOMMON COLLOCATIONS:\n- シミを{取|と}り{去|さ}る: to remove a stain\n- {汚|よご}れを{取|と}り{去|さ}る: to remove dirt\n- {不安|ふあん}を{取|と}り{去|さ}る: to eliminate anxiety\n- {障害|しょうがい}を{取|と}り{去|さ}る: to remove an obstacle\n\nSIMILAR WORDS:\n{取|と}り{去|さ}る emphasizes complete removal. {取|と}り{除|のぞ}く (to remove, to get rid of) is more common in everyday speech. {取|と}り{払|はら}う (to clear away) emphasizes clearing or sweeping away.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}り{去|さ}る",
+        "negative": "{取|と}り{去|さ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}り{去|さ}ります",
+        "negative": "{取|と}り{去|さ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}り{去|さ}った",
+        "negative": "{取|と}り{去|さ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}り{去|さ}りました",
+        "negative": "{取|と}り{去|さ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}り{去|さ}って",
+        "negative": "{取|と}り{去|さ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}り{去|さ}っている",
+        "negative": "{取|と}り{去|さ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}り{去|さ}っています",
+        "negative": "{取|と}り{去|さ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}り{去|さ}っていた",
+        "negative": "{取|と}り{去|さ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}り{去|さ}っていました",
+        "negative": "{取|と}り{去|さ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}り{去|さ}れば",
+        "negative": "{取|と}り{去|さ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}り{去|さ}ったら",
+        "negative": "{取|と}り{去|さ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}り{去|さ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}り{去|さ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}り{去|さ}れる",
+        "negative": "{取|と}り{去|さ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}り{去|さ}られる",
+        "negative": "{取|と}り{去|さ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}り{去|さ}らせる",
+        "negative": "{取|と}り{去|さ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}り{去|さ}れ",
+        "negative": "{取|と}り{去|さ}るな"
+      }
+    ]
   }
 }

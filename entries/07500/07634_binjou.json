@@ -17,21 +17,27 @@
       "japanese": "ブームに{便乗|びんじょう}する。",
       "english": "To jump on the bandwagon.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07634_binjou_ex2",
       "japanese": "{便乗|びんじょう}{値上|ねあ}げが{問題|もんだい}になっている。",
       "english": "Opportunistic price hikes have become a problem.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07634_binjou_ex3",
       "japanese": "{彼|かれ}は{友人|ゆうじん}の{成功|せいこう}に{便乗|びんじょう}しようとしている。",
       "english": "He's trying to ride on his friend's success.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・ブームに{便乗|びんじょう}する - to jump on a trend\n・Xに{便乗|びんじょう}する - to take advantage of X\n・{便乗|びんじょう}{値上|ねあ}げ - opportunistic price increase\n・{便乗|びんじょう}{商法|しょうほう} - opportunistic business practices\n\nNUANCE:\nOften carries a negative or critical connotation, implying opportunism or exploitation of a situation.\n\nORIGIN:\nOriginally meant \"getting a ride\" (on a vehicle), but now mainly used in the figurative sense of riding on trends or others' success.\n\nUSAGE:\nPattern: Xに{便乗|びんじょう}する (to take advantage of X)",
@@ -41,10 +47,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["social-action", "opportunism"],
-      "domain": ["business"]
+      "semantic": [
+        "social-action",
+        "opportunism"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{便乗|びんじょう}する",
+        "negative": "{便乗|びんじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{便乗|びんじょう}します",
+        "negative": "{便乗|びんじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{便乗|びんじょう}した",
+        "negative": "{便乗|びんじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{便乗|びんじょう}しました",
+        "negative": "{便乗|びんじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{便乗|びんじょう}して",
+        "negative": "{便乗|びんじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{便乗|びんじょう}している",
+        "negative": "{便乗|びんじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{便乗|びんじょう}しています",
+        "negative": "{便乗|びんじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{便乗|びんじょう}していた",
+        "negative": "{便乗|びんじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{便乗|びんじょう}していました",
+        "negative": "{便乗|びんじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{便乗|びんじょう}すれば",
+        "negative": "{便乗|びんじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{便乗|びんじょう}したら",
+        "negative": "{便乗|びんじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{便乗|びんじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{便乗|びんじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{便乗|びんじょう}できる",
+        "negative": "{便乗|びんじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{便乗|びんじょう}される",
+        "negative": "{便乗|びんじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{便乗|びんじょう}させる",
+        "negative": "{便乗|びんじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{便乗|びんじょう}しろ",
+        "negative": "{便乗|びんじょう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "They confined the criminal in a room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12810_oshikomeru_ex2",
@@ -32,7 +34,9 @@
       "english": "I had been suppressing my dissatisfaction inside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12810_oshikomeru_ex3",
@@ -40,7 +44,9 @@
       "english": "I was stuck at home all day because of the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12810_oshikomeru_ex4",
@@ -48,7 +54,9 @@
       "english": "I crammed the luggage into the suitcase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12810_oshikomeru_ex5",
@@ -56,7 +64,9 @@
       "english": "I stuffed a large amount of documents into the drawer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12810_oshikomeru_ex6",
@@ -64,7 +74,9 @@
       "english": "Ten of us were crammed into a small room, and it was hard to breathe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {押|お}し{込|こ}めない\n- Polite: {押|お}し{込|こ}めます\n- Te-form: {押|お}し{込|こ}めて\n- Past: {押|お}し{込|こ}めた\n- Passive: {押|お}し{込|こ}められる\n\nUSAGE:\nThe passive form {押|お}し{込|こ}められる is very common, especially for describing being stuck or confined somewhere against one's will. The figurative usage in sense 1 (suppressing emotions) is also frequent.\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}に{押|お}し{込|こ}める: to confine in a room\n- {感情|かんじょう}を{押|お}し{込|こ}める: to suppress feelings\n- スーツケースに{押|お}し{込|こ}める: to cram into a suitcase",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{押|お}し{込|こ}める",
+        "negative": "{押|お}し{込|こ}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{押|お}し{込|こ}めます",
+        "negative": "{押|お}し{込|こ}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{押|お}し{込|こ}めた",
+        "negative": "{押|お}し{込|こ}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{押|お}し{込|こ}めました",
+        "negative": "{押|お}し{込|こ}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{押|お}し{込|こ}めて",
+        "negative": "{押|お}し{込|こ}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{押|お}し{込|こ}めている",
+        "negative": "{押|お}し{込|こ}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{押|お}し{込|こ}めています",
+        "negative": "{押|お}し{込|こ}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{押|お}し{込|こ}めていた",
+        "negative": "{押|お}し{込|こ}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{押|お}し{込|こ}めていました",
+        "negative": "{押|お}し{込|こ}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{押|お}し{込|こ}めれば",
+        "negative": "{押|お}し{込|こ}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{押|お}し{込|こ}めたら",
+        "negative": "{押|お}し{込|こ}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{押|お}し{込|こ}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{押|お}し{込|こ}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{押|お}し{込|こ}められる",
+        "negative": "{押|お}し{込|こ}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{押|お}し{込|こ}められる",
+        "negative": "{押|お}し{込|こ}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{押|お}し{込|こ}めさせる",
+        "negative": "{押|お}し{込|こ}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{押|お}し{込|こ}めろ",
+        "negative": "{押|お}し{込|こ}めるな"
+      }
+    ]
   }
 }

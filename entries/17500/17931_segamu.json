@@ -19,7 +19,9 @@
       "english": "My child pestered me to buy a toy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17931_segamu_ex2",
@@ -27,7 +29,9 @@
       "english": "My daughter keeps begging me to read her a picture book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17931_segamu_ex3",
@@ -35,7 +39,9 @@
       "english": "He pesters me for a reply almost every day, so I'm at a loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA godan verb (せがむ → せがまない → せがんで). Often used with the passive form せがまれる to describe being on the receiving end of persistent requests, especially from children. The nuance is of repeated, sometimes annoying requests.\n\nCOMMON COLLOCATIONS:\n- おもちゃをせがむ (to beg for a toy)\n- 〜してとせがむ (to beg someone to do ~)\n- せがまれて{買|か}う (to buy something because one was pestered)\n\nSIMILAR WORDS:\n- {頼|たの}む: to ask, to request — neutral, not necessarily persistent\n- おねだりする: to beg, to coax — similar but softer, more endearing nuance\n- {強請|ねだ}る: to demand, to pester — can have a stronger, more insistent tone",
@@ -46,13 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "domain": []
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "せがむ",
+        "negative": "せがまない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "せがみます",
+        "negative": "せがみません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "せがんだ",
+        "negative": "せがまなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "せがみました",
+        "negative": "せがみませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "せがんで",
+        "negative": "せがまなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "せがんでいる",
+        "negative": "せがんでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "せがんでいます",
+        "negative": "せがんでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "せがんでいた",
+        "negative": "せがんでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "せがんでいました",
+        "negative": "せがんでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "せがめば",
+        "negative": "せがまなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "せがんだら",
+        "negative": "せがまなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "せがもう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "せがみましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "せがめる",
+        "negative": "せがめない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "せがまれる",
+        "negative": "せがまれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "せがませる",
+        "negative": "せがませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "せがめ",
+        "negative": "せがむな"
+      }
+    ]
   }
 }

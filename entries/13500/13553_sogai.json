@@ -19,7 +19,9 @@
       "english": "I feel a sense of alienation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13553_sogai_ex2",
@@ -27,7 +29,9 @@
       "english": "The transfer student was excluded from the class.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13553_sogai_ex3",
@@ -35,7 +39,9 @@
       "english": "It has been pointed out that rapid technological innovation leads to the social alienation of elderly people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan be used as a noun ({疎外|そがい}) or as a suru-verb ({疎外|そがい}する, to alienate/exclude). The passive form {疎外|そがい}される (to be alienated) is very common.\n\nCOMMON COLLOCATIONS:\n- {疎外|そがい}{感|かん} (sense of alienation)\n- {社会的|しゃかいてき}{疎外|そがい} (social alienation)\n- {疎外|そがい}される (to be alienated, excluded)\n- {仲間|なかま}から{疎外|そがい}される (to be excluded from the group)\n\nSIMILAR WORDS:\n- {孤立|こりつ}: isolation (being alone, may be voluntary)\n- {排除|はいじょ}: exclusion, removal (more active, deliberate act of removing)\n- {差別|さべつ}: discrimination (unfair treatment based on a characteristic)",
@@ -53,11 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "transitivity": "transitive"
+      "semantic": [
+        "emotion"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{疎外|そがい}する",
+        "negative": "{疎外|そがい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{疎外|そがい}します",
+        "negative": "{疎外|そがい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{疎外|そがい}した",
+        "negative": "{疎外|そがい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{疎外|そがい}しました",
+        "negative": "{疎外|そがい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{疎外|そがい}して",
+        "negative": "{疎外|そがい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{疎外|そがい}している",
+        "negative": "{疎外|そがい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{疎外|そがい}しています",
+        "negative": "{疎外|そがい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{疎外|そがい}していた",
+        "negative": "{疎外|そがい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{疎外|そがい}していました",
+        "negative": "{疎外|そがい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{疎外|そがい}すれば",
+        "negative": "{疎外|そがい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{疎外|そがい}したら",
+        "negative": "{疎外|そがい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{疎外|そがい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{疎外|そがい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{疎外|そがい}できる",
+        "negative": "{疎外|そがい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{疎外|そがい}される",
+        "negative": "{疎外|そがい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{疎外|そがい}させる",
+        "negative": "{疎外|そがい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{疎外|そがい}しろ",
+        "negative": "{疎外|そがい}するな"
+      }
+    ]
   }
 }

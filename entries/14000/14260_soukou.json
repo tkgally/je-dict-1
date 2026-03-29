@@ -19,7 +19,9 @@
       "english": "To check the mileage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14260_soukou_ex2",
@@ -27,7 +29,9 @@
       "english": "To drive at 100 km/h on the expressway.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14260_soukou_ex3",
@@ -35,7 +39,9 @@
       "english": "This car has over 100,000 kilometers on it, but it still runs well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{走行|そうこう} refers specifically to the movement of vehicles, not people. It is commonly seen on car dashboards, in driving manuals, and in traffic-related contexts.\n\nCOMMON COLLOCATIONS:\n- {走行|そうこう}{距離|きょり} (mileage, distance traveled)\n- {走行|そうこう}{中|ちゅう} (while driving/in motion)\n- {走行|そうこう}{速度|そくど} (driving speed)\n- {走行|そうこう}{車線|しゃせん} (driving lane)\n- {自動|じどう}{走行|そうこう} (autonomous driving)\n\nWHEN NOT USED:\n{走行|そうこう} is not used for people running on foot. Use {走|はし}る or ランニング for that.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{走行|そうこう}する",
+        "negative": "{走行|そうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{走行|そうこう}します",
+        "negative": "{走行|そうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{走行|そうこう}した",
+        "negative": "{走行|そうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{走行|そうこう}しました",
+        "negative": "{走行|そうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{走行|そうこう}して",
+        "negative": "{走行|そうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{走行|そうこう}している",
+        "negative": "{走行|そうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{走行|そうこう}しています",
+        "negative": "{走行|そうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{走行|そうこう}していた",
+        "negative": "{走行|そうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{走行|そうこう}していました",
+        "negative": "{走行|そうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{走行|そうこう}すれば",
+        "negative": "{走行|そうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{走行|そうこう}したら",
+        "negative": "{走行|そうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{走行|そうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{走行|そうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{走行|そうこう}できる",
+        "negative": "{走行|そうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{走行|そうこう}される",
+        "negative": "{走行|そうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{走行|そうこう}させる",
+        "negative": "{走行|そうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{走行|そうこう}しろ",
+        "negative": "{走行|そうこう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "Excuse me for leaving before you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15203_shitsureisuru_ex2",
@@ -32,7 +34,9 @@
       "english": "Well then, I'll take my leave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15203_shitsureisuru_ex3",
@@ -40,7 +44,9 @@
       "english": "When entering the president's office, I said 'Excuse me.'",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15203_shitsureisuru_ex4",
@@ -48,7 +54,9 @@
       "english": "I'm sorry for being rude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15203_shitsureisuru_ex5",
@@ -56,7 +64,9 @@
       "english": "I'm terribly sorry for getting your name wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15203_shitsureisuru_ex6",
@@ -64,7 +74,9 @@
       "english": "He ended up being rude to someone senior to him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThis is one of the most common polite expressions in daily Japanese life. お{先|さき}に{失礼|しつれい}します is the standard phrase for leaving work before colleagues. {失礼|しつれい}します is used when entering someone's room or office.\n\nCOMMON COLLOCATIONS:\n- お{先|さき}に{失礼|しつれい}します (excuse me for leaving first — said when leaving work)\n- {失礼|しつれい}いたします (humble form: I'll take my leave)\n- {失礼|しつれい}しました (I was rude — an apology)\n- {大変|たいへん}{失礼|しつれい}しました (I was terribly rude)\n\nREGISTER:\nThe いたします form is more formal/humble than します.",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["greeting", "communication"]
+      "semantic": [
+        "greeting",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{失礼|しつれい}する",
+        "negative": "{失礼|しつれい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{失礼|しつれい}します",
+        "negative": "{失礼|しつれい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{失礼|しつれい}した",
+        "negative": "{失礼|しつれい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{失礼|しつれい}しました",
+        "negative": "{失礼|しつれい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{失礼|しつれい}して",
+        "negative": "{失礼|しつれい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{失礼|しつれい}している",
+        "negative": "{失礼|しつれい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{失礼|しつれい}しています",
+        "negative": "{失礼|しつれい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{失礼|しつれい}していた",
+        "negative": "{失礼|しつれい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{失礼|しつれい}していました",
+        "negative": "{失礼|しつれい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{失礼|しつれい}すれば",
+        "negative": "{失礼|しつれい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{失礼|しつれい}したら",
+        "negative": "{失礼|しつれい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{失礼|しつれい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{失礼|しつれい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{失礼|しつれい}できる",
+        "negative": "{失礼|しつれい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{失礼|しつれい}される",
+        "negative": "{失礼|しつれい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{失礼|しつれい}させる",
+        "negative": "{失礼|しつれい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{失礼|しつれい}しろ",
+        "negative": "{失礼|しつれい}するな"
+      }
+    ]
   }
 }

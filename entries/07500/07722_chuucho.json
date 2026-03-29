@@ -17,21 +17,27 @@
       "japanese": "{躊躇|ちゅうちょ}なく{答|こた}えた。",
       "english": "I answered without hesitation.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07722_chuucho_ex2",
       "japanese": "{高額|こうがく}なので{購入|こうにゅう}を{躊躇|ちゅうちょ}した。",
       "english": "I hesitated to buy it because it was expensive.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07722_chuucho_ex3",
       "japanese": "{彼|かれ}は{一瞬|いっしゅん}の{躊躇|ちゅうちょ}もなく{飛|と}び{込|こ}んだ。",
       "english": "He jumped in without a moment's hesitation.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "KANJI:\n{躊|ちゅう} and {躇|ちょ} are both rare characters that almost exclusively appear in this word. The kanji originally referred to hesitating steps.\n\nUSAGE:\nOften used with negation to emphasize decisiveness:\n・{躊躇|ちゅうちょ}なく - without hesitation\n・{躊躇|ちゅうちょ}せずに - without hesitating\n\nCOLLOCATIONS:\n・{躊躇|ちゅうちょ}する - to hesitate\n・{躊躇|ちゅうちょ}を{感|かん}じる - to feel hesitation\n・{躊躇|ちゅうちょ}を{覚|おぼ}える - to experience hesitation\n\nRELATED:\n・ためらう - to hesitate (native Japanese)\n・{迷|まよ}う - to be unsure, waver",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["emotion", "decision"],
-      "domain": []
+      "semantic": [
+        "emotion",
+        "decision"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{躊躇|ちゅうちょ}する",
+        "negative": "{躊躇|ちゅうちょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{躊躇|ちゅうちょ}します",
+        "negative": "{躊躇|ちゅうちょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{躊躇|ちゅうちょ}した",
+        "negative": "{躊躇|ちゅうちょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{躊躇|ちゅうちょ}しました",
+        "negative": "{躊躇|ちゅうちょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{躊躇|ちゅうちょ}して",
+        "negative": "{躊躇|ちゅうちょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{躊躇|ちゅうちょ}している",
+        "negative": "{躊躇|ちゅうちょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{躊躇|ちゅうちょ}しています",
+        "negative": "{躊躇|ちゅうちょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{躊躇|ちゅうちょ}していた",
+        "negative": "{躊躇|ちゅうちょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{躊躇|ちゅうちょ}していました",
+        "negative": "{躊躇|ちゅうちょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{躊躇|ちゅうちょ}すれば",
+        "negative": "{躊躇|ちゅうちょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{躊躇|ちゅうちょ}したら",
+        "negative": "{躊躇|ちゅうちょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{躊躇|ちゅうちょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{躊躇|ちゅうちょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{躊躇|ちゅうちょ}できる",
+        "negative": "{躊躇|ちゅうちょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{躊躇|ちゅうちょ}される",
+        "negative": "{躊躇|ちゅうちょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{躊躇|ちゅうちょ}させる",
+        "negative": "{躊躇|ちゅうちょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{躊躇|ちゅうちょ}しろ",
+        "negative": "{躊躇|ちゅうちょ}するな"
+      }
+    ]
   }
 }

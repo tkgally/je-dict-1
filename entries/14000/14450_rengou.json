@@ -17,7 +17,9 @@
       "id": "14450_rengou_ex1",
       "japanese": "{連合|れんごう}を{組|く}む。",
       "english": "To form an alliance.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14450_rengou_ex2",
       "japanese": "いくつかの{政党|せいとう}が{連合|れんごう}して{政権|せいけん}を{握|にぎ}った。",
       "english": "Several political parties formed a coalition and seized power.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14450_rengou_ex3",
       "japanese": "{労働|ろうどう}{組合|くみあい}の{連合|れんごう}が{賃上|ちんあ}げを{求|もと}めて{交渉|こうしょう}を{続|つづ}けている。",
       "english": "A federation of labor unions continues to negotiate for wage increases.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連合|れんごう}する",
+        "negative": "{連合|れんごう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連合|れんごう}します",
+        "negative": "{連合|れんごう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連合|れんごう}した",
+        "negative": "{連合|れんごう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連合|れんごう}しました",
+        "negative": "{連合|れんごう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連合|れんごう}して",
+        "negative": "{連合|れんごう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連合|れんごう}している",
+        "negative": "{連合|れんごう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連合|れんごう}しています",
+        "negative": "{連合|れんごう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連合|れんごう}していた",
+        "negative": "{連合|れんごう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連合|れんごう}していました",
+        "negative": "{連合|れんごう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連合|れんごう}すれば",
+        "negative": "{連合|れんごう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連合|れんごう}したら",
+        "negative": "{連合|れんごう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連合|れんごう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連合|れんごう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連合|れんごう}できる",
+        "negative": "{連合|れんごう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連合|れんごう}される",
+        "negative": "{連合|れんごう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連合|れんごう}させる",
+        "negative": "{連合|れんごう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連合|れんごう}しろ",
+        "negative": "{連合|れんごう}するな"
+      }
+    ]
   }
 }

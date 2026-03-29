@@ -19,7 +19,9 @@
       "english": "Equipment delivery will be done in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16523_hannyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The delivery of the exhibition items is running behind schedule.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16523_hannyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Since we need to bring a large amount of cargo into the venue the day before the event, we arranged for two trucks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する. Common in business, logistics, and event planning. The opposite is {搬出|はんしゅつ} (carrying out, removal).\n\nCOMMON COLLOCATIONS:\n- {搬入|はんにゅう}する (to carry in, to deliver)\n- {搬入|はんにゅう}{口|ぐち} (delivery entrance)\n- {搬入|はんにゅう}{経路|けいろ} (delivery route)\n- {搬入|はんにゅう}{作業|さぎょう} (loading-in work)\n\nSIMILAR WORDS:\n- {搬出|はんしゅつ}: carrying out — the opposite action of removing goods from a location\n- {納品|のうひん}: delivery of goods — specifically delivering ordered merchandise to a client",
@@ -46,11 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["logistics", "work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "logistics",
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{搬入|はんにゅう}する",
+        "negative": "{搬入|はんにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{搬入|はんにゅう}します",
+        "negative": "{搬入|はんにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{搬入|はんにゅう}した",
+        "negative": "{搬入|はんにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{搬入|はんにゅう}しました",
+        "negative": "{搬入|はんにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{搬入|はんにゅう}して",
+        "negative": "{搬入|はんにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{搬入|はんにゅう}している",
+        "negative": "{搬入|はんにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{搬入|はんにゅう}しています",
+        "negative": "{搬入|はんにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{搬入|はんにゅう}していた",
+        "negative": "{搬入|はんにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{搬入|はんにゅう}していました",
+        "negative": "{搬入|はんにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{搬入|はんにゅう}すれば",
+        "negative": "{搬入|はんにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{搬入|はんにゅう}したら",
+        "negative": "{搬入|はんにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{搬入|はんにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{搬入|はんにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{搬入|はんにゅう}できる",
+        "negative": "{搬入|はんにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{搬入|はんにゅう}される",
+        "negative": "{搬入|はんにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{搬入|はんにゅう}させる",
+        "negative": "{搬入|はんにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{搬入|はんにゅう}しろ",
+        "negative": "{搬入|はんにゅう}するな"
+      }
+    ]
   }
 }

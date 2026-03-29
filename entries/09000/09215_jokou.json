@@ -18,7 +18,9 @@
       "english": "This is a slow zone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09215_jokou_ex2",
@@ -26,7 +28,9 @@
       "english": "Please drive slowly in front of the school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09215_jokou_ex3",
@@ -34,7 +38,9 @@
       "english": "Slow driving is mandatory in the construction zone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{徐行|じょこう} refers to driving or moving at a reduced speed, typically for safety.\n\nCOMMON COLLOCATIONS:\n- {徐行|じょこう}する: to go slowly, to drive slowly\n- {徐行|じょこう}{区間|くかん}: slow zone\n- {徐行|じょこう}{運転|うんてん}: slow driving\n- {徐行|じょこう}の{標識|ひょうしき}: slow sign\n\nTRAFFIC SIGNS:\n- {徐行|じょこう} appears on road signs indicating areas where slow speed is required\n- Common near schools, construction zones, and sharp curves\n\nLEGAL DEFINITION:\n- In Japanese traffic law, {徐行|じょこう} means driving at a speed slow enough to stop immediately if needed",
@@ -45,10 +51,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "driving"]
+      "semantic": [
+        "transportation",
+        "driving"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{徐行|じょこう}する",
+        "negative": "{徐行|じょこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{徐行|じょこう}します",
+        "negative": "{徐行|じょこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{徐行|じょこう}した",
+        "negative": "{徐行|じょこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{徐行|じょこう}しました",
+        "negative": "{徐行|じょこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{徐行|じょこう}して",
+        "negative": "{徐行|じょこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{徐行|じょこう}している",
+        "negative": "{徐行|じょこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{徐行|じょこう}しています",
+        "negative": "{徐行|じょこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{徐行|じょこう}していた",
+        "negative": "{徐行|じょこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{徐行|じょこう}していました",
+        "negative": "{徐行|じょこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{徐行|じょこう}すれば",
+        "negative": "{徐行|じょこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{徐行|じょこう}したら",
+        "negative": "{徐行|じょこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{徐行|じょこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{徐行|じょこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{徐行|じょこう}できる",
+        "negative": "{徐行|じょこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{徐行|じょこう}される",
+        "negative": "{徐行|じょこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{徐行|じょこう}させる",
+        "negative": "{徐行|じょこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{徐行|じょこう}しろ",
+        "negative": "{徐行|じょこう}するな"
+      }
+    ]
   }
 }

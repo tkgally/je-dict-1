@@ -19,7 +19,9 @@
       "english": "I can't just abandon my friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14130_misuteru_ex2",
@@ -27,7 +29,9 @@
       "english": "Please don't turn your back on people in trouble.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14130_misuteru_ex3",
@@ -35,7 +39,9 @@
       "english": "When the company was on the verge of bankruptcy, the employees deserted one after another.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{見捨|みす}てる is a compound verb from {見|み} (see) and {捨|す}てる (to throw away). It implies a deliberate decision to stop caring about or helping someone. The phrase {見捨|みす}てるわけにはいかない (I can't just abandon...) is very common and expresses moral obligation.\n\nCOMMON COLLOCATIONS:\n- {見捨|みす}てるわけにはいかない: can't just abandon\n- {見捨|みす}てられる: to be abandoned/forsaken (passive)\n- {見捨|みす}てないで: don't abandon me/us\n- {神|かみ}に{見捨|みす}てられる: to be forsaken by God",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見捨|みす}てる",
+        "negative": "{見捨|みす}てない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見捨|みす}てます",
+        "negative": "{見捨|みす}てません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見捨|みす}てた",
+        "negative": "{見捨|みす}てなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見捨|みす}てました",
+        "negative": "{見捨|みす}てませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見捨|みす}てて",
+        "negative": "{見捨|みす}てなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見捨|みす}てている",
+        "negative": "{見捨|みす}てていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見捨|みす}てています",
+        "negative": "{見捨|みす}てていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見捨|みす}てていた",
+        "negative": "{見捨|みす}てていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見捨|みす}てていました",
+        "negative": "{見捨|みす}てていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見捨|みす}てれば",
+        "negative": "{見捨|みす}てなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見捨|みす}てたら",
+        "negative": "{見捨|みす}てなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見捨|みす}てよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見捨|みす}てましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見捨|みす}てられる",
+        "negative": "{見捨|みす}てられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見捨|みす}てられる",
+        "negative": "{見捨|みす}てられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見捨|みす}てさせる",
+        "negative": "{見捨|みす}てさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見捨|みす}てろ",
+        "negative": "{見捨|みす}てるな"
+      }
+    ]
   }
 }

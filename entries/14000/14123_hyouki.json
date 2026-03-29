@@ -19,7 +19,9 @@
       "english": "I write it in Roman alphabet notation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14123_hyouki_ex2",
@@ -27,7 +29,9 @@
       "english": "There was an error in the product labeling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14123_hyouki_ex3",
@@ -35,7 +39,9 @@
       "english": "This word is used in both kanji and hiragana notation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{表記|ひょうき} is frequently used in language-related contexts to discuss how words are written. It differs from {表示|ひょうじ} (display), which focuses on showing information visually (on screens, signs), while {表記|ひょうき} focuses specifically on written notation and orthography.\n\nCOMMON COLLOCATIONS:\n- {漢字|かんじ}{表記|ひょうき}: kanji notation\n- ローマ{字|じ}{表記|ひょうき}: romanization\n- {表記|ひょうき}ゆれ: inconsistency in written forms\n- {表記|ひょうき}を{統一|とういつ}する: to standardize notation\n- {成分|せいぶん}{表記|ひょうき}: ingredient labeling",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{表記|ひょうき}する",
+        "negative": "{表記|ひょうき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{表記|ひょうき}します",
+        "negative": "{表記|ひょうき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{表記|ひょうき}した",
+        "negative": "{表記|ひょうき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{表記|ひょうき}しました",
+        "negative": "{表記|ひょうき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{表記|ひょうき}して",
+        "negative": "{表記|ひょうき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{表記|ひょうき}している",
+        "negative": "{表記|ひょうき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{表記|ひょうき}しています",
+        "negative": "{表記|ひょうき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{表記|ひょうき}していた",
+        "negative": "{表記|ひょうき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{表記|ひょうき}していました",
+        "negative": "{表記|ひょうき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{表記|ひょうき}すれば",
+        "negative": "{表記|ひょうき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{表記|ひょうき}したら",
+        "negative": "{表記|ひょうき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{表記|ひょうき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{表記|ひょうき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{表記|ひょうき}できる",
+        "negative": "{表記|ひょうき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{表記|ひょうき}される",
+        "negative": "{表記|ひょうき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{表記|ひょうき}させる",
+        "negative": "{表記|ひょうき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{表記|ひょうき}しろ",
+        "negative": "{表記|ひょうき}するな"
+      }
+    ]
   }
 }

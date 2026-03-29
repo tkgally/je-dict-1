@@ -19,7 +19,9 @@
       "english": "A new route went into service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18064_shuukou_ex2",
@@ -27,7 +29,9 @@
       "english": "A direct flight between Tokyo and London will begin service next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18064_shuukou_ex3",
@@ -35,7 +39,9 @@
       "english": "This large ferry just went into service last year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{就|しゅう} (take up, enter) + {航|こう} (navigation, voyage). Literally \"entering navigation.\"\n\nUSAGE:\nUsed almost exclusively for ships and aircraft. For trains and buses, {開通|かいつう} (opening of a route) or {運行|うんこう}{開始|かいし} (start of operation) is more common.\n\nCOMMON COLLOCATIONS:\n- {新|あら}たに{就航|しゅうこう}する: to newly enter service\n- {直行便|ちょっこうびん}が{就航|しゅうこう}する: a direct flight enters service\n- {就航|しゅうこう}{路線|ろせん}: service route\n- {就航|しゅうこう}を{開始|かいし}する: to begin service",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{就航|しゅうこう}する",
+        "negative": "{就航|しゅうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{就航|しゅうこう}します",
+        "negative": "{就航|しゅうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{就航|しゅうこう}した",
+        "negative": "{就航|しゅうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{就航|しゅうこう}しました",
+        "negative": "{就航|しゅうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{就航|しゅうこう}して",
+        "negative": "{就航|しゅうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{就航|しゅうこう}している",
+        "negative": "{就航|しゅうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{就航|しゅうこう}しています",
+        "negative": "{就航|しゅうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{就航|しゅうこう}していた",
+        "negative": "{就航|しゅうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{就航|しゅうこう}していました",
+        "negative": "{就航|しゅうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{就航|しゅうこう}すれば",
+        "negative": "{就航|しゅうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{就航|しゅうこう}したら",
+        "negative": "{就航|しゅうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{就航|しゅうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{就航|しゅうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{就航|しゅうこう}できる",
+        "negative": "{就航|しゅうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{就航|しゅうこう}される",
+        "negative": "{就航|しゅうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{就航|しゅうこう}させる",
+        "negative": "{就航|しゅうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{就航|しゅうこう}しろ",
+        "negative": "{就航|しゅうこう}するな"
+      }
+    ]
   }
 }

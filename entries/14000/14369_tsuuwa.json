@@ -19,7 +19,9 @@
       "english": "To end the call.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14369_tsuuwa_ex2",
@@ -27,7 +29,9 @@
       "english": "I lost the signal during the call.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14369_tsuuwa_ex3",
@@ -35,7 +39,9 @@
       "english": "This plan includes up to 100 minutes of free calls per month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{通話|つうわ} is used in both everyday and technical/business contexts. It refers specifically to voice communication, as opposed to text messaging or data use.\n\nCOMMON COLLOCATIONS:\n- {通話|つうわ}{料金|りょうきん} (call charges)\n- {通話|つうわ}{中|ちゅう} (during a call, on the phone)\n- {通話|つうわ}{時間|じかん} (call duration)\n- {通話|つうわ}{履歴|りれき} (call history)\n- {無料|むりょう}{通話|つうわ} (free calls)\n- {通話|つうわ}を{切|き}る (to end/hang up a call)\n\n{通話|つうわ} is the standard word used by phone carriers and in plan descriptions.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "electronics"]
+      "semantic": [
+        "communication",
+        "electronics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{通話|つうわ}する",
+        "negative": "{通話|つうわ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{通話|つうわ}します",
+        "negative": "{通話|つうわ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{通話|つうわ}した",
+        "negative": "{通話|つうわ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{通話|つうわ}しました",
+        "negative": "{通話|つうわ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{通話|つうわ}して",
+        "negative": "{通話|つうわ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{通話|つうわ}している",
+        "negative": "{通話|つうわ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{通話|つうわ}しています",
+        "negative": "{通話|つうわ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{通話|つうわ}していた",
+        "negative": "{通話|つうわ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{通話|つうわ}していました",
+        "negative": "{通話|つうわ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{通話|つうわ}すれば",
+        "negative": "{通話|つうわ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{通話|つうわ}したら",
+        "negative": "{通話|つうわ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{通話|つうわ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{通話|つうわ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{通話|つうわ}できる",
+        "negative": "{通話|つうわ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{通話|つうわ}される",
+        "negative": "{通話|つうわ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{通話|つうわ}させる",
+        "negative": "{通話|つうわ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{通話|つうわ}しろ",
+        "negative": "{通話|つうわ}するな"
+      }
+    ]
   }
 }

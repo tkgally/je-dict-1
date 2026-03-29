@@ -19,7 +19,9 @@
       "english": "To memorize frequently appearing vocabulary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17107_hinshutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This type of question appears frequently on exams.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17107_hinshutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "I studied efficiently for the entrance exam using a book of frequently asked questions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used as a noun modifier: {頻出|ひんしゅつ}{単語|たんご} (frequently appearing vocabulary), {頻出|ひんしゅつ}{問題|もんだい} (frequently asked questions). Also used as a verbal noun with する. Very common in academic and test-preparation contexts.\n\nCOMMON COLLOCATIONS:\n- {頻出|ひんしゅつ}{単語|たんご} (high-frequency vocabulary)\n- {頻出|ひんしゅつ}{問題|もんだい} (frequently asked questions)\n- {頻出|ひんしゅつ}{表現|ひょうげん} (frequently used expressions)\n\nSIMILAR WORDS:\n- {頻繁|ひんぱん}: frequent — general-use adjective for frequency\n- よく{出|で}る: appears often — colloquial equivalent",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{頻出|ひんしゅつ}する",
+        "negative": "{頻出|ひんしゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{頻出|ひんしゅつ}します",
+        "negative": "{頻出|ひんしゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{頻出|ひんしゅつ}した",
+        "negative": "{頻出|ひんしゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{頻出|ひんしゅつ}しました",
+        "negative": "{頻出|ひんしゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{頻出|ひんしゅつ}して",
+        "negative": "{頻出|ひんしゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{頻出|ひんしゅつ}している",
+        "negative": "{頻出|ひんしゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{頻出|ひんしゅつ}しています",
+        "negative": "{頻出|ひんしゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{頻出|ひんしゅつ}していた",
+        "negative": "{頻出|ひんしゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{頻出|ひんしゅつ}していました",
+        "negative": "{頻出|ひんしゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{頻出|ひんしゅつ}すれば",
+        "negative": "{頻出|ひんしゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{頻出|ひんしゅつ}したら",
+        "negative": "{頻出|ひんしゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{頻出|ひんしゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{頻出|ひんしゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{頻出|ひんしゅつ}できる",
+        "negative": "{頻出|ひんしゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{頻出|ひんしゅつ}される",
+        "negative": "{頻出|ひんしゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{頻出|ひんしゅつ}させる",
+        "negative": "{頻出|ひんしゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{頻出|ひんしゅつ}しろ",
+        "negative": "{頻出|ひんしゅつ}するな"
+      }
+    ]
   }
 }

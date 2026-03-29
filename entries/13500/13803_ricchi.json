@@ -19,7 +19,9 @@
       "english": "It's an apartment with a good location.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13803_ricchi_ex2",
@@ -27,7 +29,9 @@
       "english": "They are expanding their stores, taking advantage of locations in front of stations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13803_ricchi_ex3",
@@ -35,7 +39,9 @@
       "english": "Transportation access and water sources are important location requirements for factories.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in real estate, business, and urban planning contexts. Often appears with {条件|じょうけん} (conditions) to discuss what makes a location suitable. Can also function as a suru verb: {立地|りっち}する (to be located/situated).\n\nCOMMON COLLOCATIONS:\n- {立地|りっち}が{良|よ}い: good location\n- {立地|りっち}{条件|じょうけん}: location requirements\n- {立地|りっち}を{活|い}かす: to take advantage of a location\n- {好|こう}{立地|りっち}: prime location\n\nSIMILAR WORDS:\n{場所|ばしょ} (place) is a general word for any location. {立地|りっち} specifically evaluates a location's strategic value for business, residence, or development.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "domain": ["business"]
+      "semantic": [
+        "geography"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{立地|りっち}する",
+        "negative": "{立地|りっち}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{立地|りっち}します",
+        "negative": "{立地|りっち}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{立地|りっち}した",
+        "negative": "{立地|りっち}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{立地|りっち}しました",
+        "negative": "{立地|りっち}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{立地|りっち}して",
+        "negative": "{立地|りっち}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{立地|りっち}している",
+        "negative": "{立地|りっち}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{立地|りっち}しています",
+        "negative": "{立地|りっち}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{立地|りっち}していた",
+        "negative": "{立地|りっち}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{立地|りっち}していました",
+        "negative": "{立地|りっち}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{立地|りっち}すれば",
+        "negative": "{立地|りっち}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{立地|りっち}したら",
+        "negative": "{立地|りっち}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{立地|りっち}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{立地|りっち}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{立地|りっち}できる",
+        "negative": "{立地|りっち}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{立地|りっち}される",
+        "negative": "{立地|りっち}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{立地|りっち}させる",
+        "negative": "{立地|りっち}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{立地|りっち}しろ",
+        "negative": "{立地|りっち}するな"
+      }
+    ]
   }
 }

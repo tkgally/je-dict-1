@@ -19,7 +19,9 @@
       "english": "Those in favor, please raise your hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16852_kyoshu_ex2",
@@ -27,7 +29,9 @@
       "english": "A vote was taken by a show of hands.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16852_kyoshu_ex3",
@@ -35,7 +39,9 @@
       "english": "If you have a question, please raise your hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{挙手|きょしゅ} is a formal word for raising one's hand, used in structured settings like meetings, classrooms, and assemblies. Composed of {挙|きょ} (raise) + {手|しゅ} (hand).\n\nUSAGE:\nUsed as a する verb: {挙手|きょしゅ}する. In casual speech, {手|て}を{挙|あ}げる is more natural. {挙手|きょしゅ} sounds official and is typically used by the person calling for a vote or response, not by the person raising their hand.\n\nCOMMON PATTERNS:\n- {挙手|きょしゅ}をお{願|ねが}いします: please raise your hand (polite request)\n- {挙手|きょしゅ}で{採決|さいけつ}を{取|と}る: to take a vote by show of hands\n- {挙手|きょしゅ}する: to raise one's hand\n- {賛成|さんせい}の{方|かた}は{挙手|きょしゅ}: those in favor, raise your hand\n\nCONTRAST:\n- {手|て}を{挙|あ}げる: raise one's hand (everyday, casual)\n- {挙手|きょしゅ}: raise one's hand (formal, procedural)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action", "communication"]
+      "semantic": [
+        "action",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{挙手|きょしゅ}する",
+        "negative": "{挙手|きょしゅ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{挙手|きょしゅ}します",
+        "negative": "{挙手|きょしゅ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{挙手|きょしゅ}した",
+        "negative": "{挙手|きょしゅ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{挙手|きょしゅ}しました",
+        "negative": "{挙手|きょしゅ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{挙手|きょしゅ}して",
+        "negative": "{挙手|きょしゅ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{挙手|きょしゅ}している",
+        "negative": "{挙手|きょしゅ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{挙手|きょしゅ}しています",
+        "negative": "{挙手|きょしゅ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{挙手|きょしゅ}していた",
+        "negative": "{挙手|きょしゅ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{挙手|きょしゅ}していました",
+        "negative": "{挙手|きょしゅ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{挙手|きょしゅ}すれば",
+        "negative": "{挙手|きょしゅ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{挙手|きょしゅ}したら",
+        "negative": "{挙手|きょしゅ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{挙手|きょしゅ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{挙手|きょしゅ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{挙手|きょしゅ}できる",
+        "negative": "{挙手|きょしゅ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{挙手|きょしゅ}される",
+        "negative": "{挙手|きょしゅ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{挙手|きょしゅ}させる",
+        "negative": "{挙手|きょしゅ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{挙手|きょしゅ}しろ",
+        "negative": "{挙手|きょしゅ}するな"
+      }
+    ]
   }
 }

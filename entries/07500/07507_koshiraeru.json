@@ -22,7 +22,9 @@
       "japanese": "{母|はは}が{弁当|べんとう}を{拵|こしら}えてくれた。",
       "english": "My mother made me a bento.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{手作|てづく}りで{人形|にんぎょう}を{拵|こしら}える。",
       "english": "Make a doll by hand.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{祖母|そぼ}は{毎朝|まいあさ}{漬物|つけもの}を{拵|こしら}えていた。",
       "english": "My grandmother used to prepare pickles every morning.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{言|い}い{訳|わけ}を{拵|こしら}えるな。",
       "english": "Don't make up excuses.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{嘘|うそ}の{話|はなし}を{拵|こしら}えた。",
       "english": "He fabricated a false story.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{都合|つごう}のいい{理由|りゆう}を{拵|こしら}えて{早退|そうたい}した。",
       "english": "He made up a convenient reason and left work early.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,11 +85,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "semantic": ["action"],
-      "domain": []
+      "semantic": [
+        "action"
+      ],
+      "domain": [],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{拵|こしら}える",
+        "negative": "{拵|こしら}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{拵|こしら}えます",
+        "negative": "{拵|こしら}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{拵|こしら}えた",
+        "negative": "{拵|こしら}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{拵|こしら}えました",
+        "negative": "{拵|こしら}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{拵|こしら}えて",
+        "negative": "{拵|こしら}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{拵|こしら}えている",
+        "negative": "{拵|こしら}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{拵|こしら}えています",
+        "negative": "{拵|こしら}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{拵|こしら}えていた",
+        "negative": "{拵|こしら}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{拵|こしら}えていました",
+        "negative": "{拵|こしら}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{拵|こしら}えれば",
+        "negative": "{拵|こしら}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{拵|こしら}えたら",
+        "negative": "{拵|こしら}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{拵|こしら}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{拵|こしら}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{拵|こしら}えられる",
+        "negative": "{拵|こしら}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{拵|こしら}えられる",
+        "negative": "{拵|こしら}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{拵|こしら}えさせる",
+        "negative": "{拵|こしら}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{拵|こしら}えろ",
+        "negative": "{拵|こしら}えるな"
+      }
+    ]
   }
 }

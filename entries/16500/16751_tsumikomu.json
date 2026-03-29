@@ -19,7 +19,9 @@
       "english": "I loaded the luggage into the car.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16751_tsumikomu_ex2",
@@ -27,7 +29,9 @@
       "english": "To load a large number of cardboard boxes onto a truck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16751_tsumikomu_ex3",
@@ -35,7 +39,9 @@
       "english": "On moving day, I was busy loading furniture onto the truck from early morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\nA compound verb from {積|つ}む (to pile up, to load) + {込|こ}む (into). The こむ suffix adds the nuance of packing things into a confined space.\n\nCOMMON COLLOCATIONS:\n- {荷物|にもつ}を{積|つ}み{込|こ}む (to load luggage)\n- {車|くるま}に{積|つ}み{込|こ}む (to load into a car)\n- トラックに{積|つ}み{込|こ}む (to load onto a truck)\n\nCONTRAST:\n- {荷|に}おろし / {荷下|におろ}し: unloading — the opposite action",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "transport"]
+      "semantic": [
+        "action",
+        "transport"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{積|つ}み{込|こ}む",
+        "negative": "{積|つ}み{込|こ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{積|つ}み{込|こ}みます",
+        "negative": "{積|つ}み{込|こ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{積|つ}み{込|こ}んだ",
+        "negative": "{積|つ}み{込|こ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{積|つ}み{込|こ}みました",
+        "negative": "{積|つ}み{込|こ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{積|つ}み{込|こ}んで",
+        "negative": "{積|つ}み{込|こ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{積|つ}み{込|こ}んでいる",
+        "negative": "{積|つ}み{込|こ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{積|つ}み{込|こ}んでいます",
+        "negative": "{積|つ}み{込|こ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{積|つ}み{込|こ}んでいた",
+        "negative": "{積|つ}み{込|こ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{積|つ}み{込|こ}んでいました",
+        "negative": "{積|つ}み{込|こ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{積|つ}み{込|こ}めば",
+        "negative": "{積|つ}み{込|こ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{積|つ}み{込|こ}んだら",
+        "negative": "{積|つ}み{込|こ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{積|つ}み{込|こ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{積|つ}み{込|こ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{積|つ}み{込|こ}める",
+        "negative": "{積|つ}み{込|こ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{積|つ}み{込|こ}まれる",
+        "negative": "{積|つ}み{込|こ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{積|つ}み{込|こ}ませる",
+        "negative": "{積|つ}み{込|こ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{積|つ}み{込|こ}め",
+        "negative": "{積|つ}み{込|こ}むな"
+      }
+    ]
   }
 }

@@ -16,7 +16,9 @@
       "id": "10024_sagesumu_ex1",
       "japanese": "{人|ひと}を{蔑|さげす}むな。",
       "english": "Don't look down on people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10024_sagesumu_ex2",
       "japanese": "{蔑|さげす}むような{目|め}で{見|み}られた。",
       "english": "I was looked at with contemptuous eyes.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10024_sagesumu_ex3",
       "japanese": "{彼|かれ}は{貧|まず}しい{人|ひと}たちを{蔑|さげす}んでいる。",
       "english": "He despises poor people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "10024_sagesumu_ex4",
       "japanese": "{弱者|じゃくしゃ}を{蔑|さげす}む{社会|しゃかい}は{健全|けんぜん}ではない。",
       "english": "A society that scorns the weak is not healthy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,10 +61,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "interpersonal"]
+      "semantic": [
+        "emotion",
+        "interpersonal"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{蔑|さげす}む",
+        "negative": "{蔑|さげす}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{蔑|さげす}みます",
+        "negative": "{蔑|さげす}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{蔑|さげす}んだ",
+        "negative": "{蔑|さげす}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{蔑|さげす}みました",
+        "negative": "{蔑|さげす}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{蔑|さげす}んで",
+        "negative": "{蔑|さげす}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{蔑|さげす}んでいる",
+        "negative": "{蔑|さげす}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{蔑|さげす}んでいます",
+        "negative": "{蔑|さげす}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{蔑|さげす}んでいた",
+        "negative": "{蔑|さげす}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{蔑|さげす}んでいました",
+        "negative": "{蔑|さげす}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{蔑|さげす}めば",
+        "negative": "{蔑|さげす}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{蔑|さげす}んだら",
+        "negative": "{蔑|さげす}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{蔑|さげす}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{蔑|さげす}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{蔑|さげす}める",
+        "negative": "{蔑|さげす}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{蔑|さげす}まれる",
+        "negative": "{蔑|さげす}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{蔑|さげす}ませる",
+        "negative": "{蔑|さげす}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{蔑|さげす}め",
+        "negative": "{蔑|さげす}むな"
+      }
+    ]
   }
 }

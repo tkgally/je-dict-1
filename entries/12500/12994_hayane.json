@@ -19,7 +19,9 @@
       "english": "Let's go to bed early today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12994_hayane_ex2",
@@ -27,7 +29,9 @@
       "english": "Going to bed early and rising early is good for your health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12994_hayane_ex3",
@@ -35,7 +39,9 @@
       "english": "I had a habit of going to bed early as a child, but since becoming an adult, I've been staying up late more often.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always appears in the set phrase {早寝|はやね}{早起|はやお}き (early to bed, early to rise). Can be used with する: {早寝|はやね}する (to go to bed early). The proverb {早寝|はやね}{早起|はやお}き{病|やまい}{知|し}らず means \"early to bed and early to rise keeps you healthy.\"\n\nCOMMON COLLOCATIONS:\n- {早寝|はやね}{早起|はやお}き: early to bed, early to rise\n- {早寝|はやね}する: to go to bed early\n- {早寝|はやね}の{習慣|しゅうかん}: habit of going to bed early\n\nSIMILAR WORDS:\n- {夜更|よふ}かし: staying up late (opposite habit)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "health"]
+      "semantic": [
+        "daily-life",
+        "health"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{早寝|はやね}する",
+        "negative": "{早寝|はやね}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{早寝|はやね}します",
+        "negative": "{早寝|はやね}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{早寝|はやね}した",
+        "negative": "{早寝|はやね}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{早寝|はやね}しました",
+        "negative": "{早寝|はやね}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{早寝|はやね}して",
+        "negative": "{早寝|はやね}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{早寝|はやね}している",
+        "negative": "{早寝|はやね}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{早寝|はやね}しています",
+        "negative": "{早寝|はやね}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{早寝|はやね}していた",
+        "negative": "{早寝|はやね}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{早寝|はやね}していました",
+        "negative": "{早寝|はやね}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{早寝|はやね}すれば",
+        "negative": "{早寝|はやね}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{早寝|はやね}したら",
+        "negative": "{早寝|はやね}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{早寝|はやね}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{早寝|はやね}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{早寝|はやね}できる",
+        "negative": "{早寝|はやね}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{早寝|はやね}される",
+        "negative": "{早寝|はやね}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{早寝|はやね}させる",
+        "negative": "{早寝|はやね}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{早寝|はやね}しろ",
+        "negative": "{早寝|はやね}するな"
+      }
+    ]
   }
 }

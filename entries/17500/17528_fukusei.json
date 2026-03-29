@@ -19,7 +19,9 @@
       "english": "This is a reproduction of a famous painting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17528_fukusei_ex2",
@@ -27,7 +29,9 @@
       "english": "I made a copy of the important file.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17528_fukusei_ex3",
@@ -35,7 +39,9 @@
       "english": "It is illegal to reproduce copyrighted works without permission.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both for physical reproductions (art replicas, document copies) and digital copies (file duplication). In legal and copyright contexts, {複製|ふくせい}{権|けん} (reproduction rights) is a key concept.\n\nCOMMON COLLOCATIONS:\n- {複製|ふくせい}を{作|つく}る (to make a reproduction)\n- {複製|ふくせい}{品|ひん} (replica, reproduction item)\n- {複製|ふくせい}{権|けん} (reproduction rights)\n- {無断|むだん}{複製|ふくせい} (unauthorized reproduction)\n\nSIMILAR WORDS:\n- コピー: copy — more casual, everyday term\n- {模造|もぞう}: imitation — often implies lower quality or intent to deceive\n- {複写|ふくしゃ}: copying, duplication — more technical, used for documents",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "transitivity": "transitive"
+      "semantic": [
+        "general"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{複製|ふくせい}する",
+        "negative": "{複製|ふくせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{複製|ふくせい}します",
+        "negative": "{複製|ふくせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{複製|ふくせい}した",
+        "negative": "{複製|ふくせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{複製|ふくせい}しました",
+        "negative": "{複製|ふくせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{複製|ふくせい}して",
+        "negative": "{複製|ふくせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{複製|ふくせい}している",
+        "negative": "{複製|ふくせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{複製|ふくせい}しています",
+        "negative": "{複製|ふくせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{複製|ふくせい}していた",
+        "negative": "{複製|ふくせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{複製|ふくせい}していました",
+        "negative": "{複製|ふくせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{複製|ふくせい}すれば",
+        "negative": "{複製|ふくせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{複製|ふくせい}したら",
+        "negative": "{複製|ふくせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{複製|ふくせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{複製|ふくせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{複製|ふくせい}できる",
+        "negative": "{複製|ふくせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{複製|ふくせい}される",
+        "negative": "{複製|ふくせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{複製|ふくせい}させる",
+        "negative": "{複製|ふくせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{複製|ふくせい}しろ",
+        "negative": "{複製|ふくせい}するな"
+      }
+    ]
   }
 }

@@ -17,7 +17,9 @@
       "id": "11222_risupekuto_ex1",
       "japanese": "{先輩|せんぱい}をリスペクトしている。",
       "english": "I respect my senior.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11222_risupekuto_ex2",
       "japanese": "リスペクトの{気持|きも}ちを{込|こ}めて{演奏|えんそう}した。",
       "english": "I played with a feeling of respect.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "11222_risupekuto_ex3",
       "japanese": "{彼|かれ}の{作品|さくひん}へのリスペクトがあるからこそ、カバーする{価値|かち}がある。",
       "english": "Precisely because there is respect for his work, it's worth doing a cover.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "リスペクトする",
+        "negative": "リスペクトしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "リスペクトします",
+        "negative": "リスペクトしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "リスペクトした",
+        "negative": "リスペクトしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "リスペクトしました",
+        "negative": "リスペクトしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "リスペクトして",
+        "negative": "リスペクトしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "リスペクトしている",
+        "negative": "リスペクトしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "リスペクトしています",
+        "negative": "リスペクトしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "リスペクトしていた",
+        "negative": "リスペクトしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "リスペクトしていました",
+        "negative": "リスペクトしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "リスペクトすれば",
+        "negative": "リスペクトしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "リスペクトしたら",
+        "negative": "リスペクトしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "リスペクトしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "リスペクトしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "リスペクトできる",
+        "negative": "リスペクトできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "リスペクトされる",
+        "negative": "リスペクトされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "リスペクトさせる",
+        "negative": "リスペクトさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "リスペクトしろ",
+        "negative": "リスペクトするな"
+      }
+    ]
   }
 }

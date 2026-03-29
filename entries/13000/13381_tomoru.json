@@ -19,7 +19,9 @@
       "english": "A candle is lit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13381_tomoru_ex2",
@@ -27,7 +29,9 @@
       "english": "The streetlights began to come on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13381_tomoru_ex3",
@@ -35,7 +39,9 @@
       "english": "At dusk, warm lights come on in the windows of houses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る-ending.\n- Negative: {灯|とも}らない\n- Polite: {灯|とも}ります\n- Te-form: {灯|とも}って\n- Past: {灯|とも}った\n\nUSAGE:\nAn intransitive verb. The transitive counterpart is {灯|とも}す (to light, to illuminate). {灯|とも}る often appears in literary and poetic contexts, evoking a warm, atmospheric mood.\n\nCOMMON COLLOCATIONS:\n- {灯|あか}りが{灯|とも}る: a light comes on\n- ろうそくが{灯|とも}る: a candle is lit\n- {街灯|がいとう}が{灯|とも}る: streetlights come on\n- {希望|きぼう}の{灯|ひ}が{灯|とも}る: a light of hope is kindled (figurative)",
@@ -53,12 +59,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
-      "semantic": ["light"]
+      "semantic": [
+        "light"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{灯|とも}る",
+        "negative": "{灯|とも}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{灯|とも}ります",
+        "negative": "{灯|とも}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{灯|とも}った",
+        "negative": "{灯|とも}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{灯|とも}りました",
+        "negative": "{灯|とも}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{灯|とも}って",
+        "negative": "{灯|とも}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{灯|とも}っている",
+        "negative": "{灯|とも}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{灯|とも}っています",
+        "negative": "{灯|とも}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{灯|とも}っていた",
+        "negative": "{灯|とも}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{灯|とも}っていました",
+        "negative": "{灯|とも}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{灯|とも}れば",
+        "negative": "{灯|とも}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{灯|とも}ったら",
+        "negative": "{灯|とも}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{灯|とも}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{灯|とも}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{灯|とも}れる",
+        "negative": "{灯|とも}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{灯|とも}られる",
+        "negative": "{灯|とも}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{灯|とも}らせる",
+        "negative": "{灯|とも}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{灯|とも}れ",
+        "negative": "{灯|とも}るな"
+      }
+    ]
   }
 }

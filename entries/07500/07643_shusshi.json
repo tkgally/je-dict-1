@@ -17,21 +17,27 @@
       "japanese": "{新事業|しんじぎょう}に{出資|しゅっし}する。",
       "english": "To invest in a new business.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07643_shusshi_ex2",
       "japanese": "{出資|しゅっし}{者|しゃ}を{募集|ぼしゅう}している。",
       "english": "They are looking for investors.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07643_shusshi_ex3",
       "japanese": "{出資|しゅっし}{比率|ひりつ}に{応|おう}じて{利益|りえき}を{分配|ぶんぱい}する。",
       "english": "Profits are distributed according to the investment ratio.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{出資|しゅっし}{者|しゃ} - investor, contributor\n・{出資|しゅっし}{金|きん} - investment capital\n・{出資|しゅっし}{比率|ひりつ} - investment ratio\n・{共同|きょうどう}{出資|しゅっし} - joint investment\n・{出資|しゅっし}を{募|つの}る - to seek investment\n\nBUSINESS CONTEXT:\nUsed in business/corporate contexts to describe contributing capital to a company.\n\nSIMILAR WORDS:\n・{投資|とうし} - investment (more general, includes stocks)\n・{融資|ゆうし} - financing, loan (lending money)",
@@ -41,10 +47,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["finance", "business"],
-      "domain": ["business"]
+      "semantic": [
+        "finance",
+        "business"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{出資|しゅっし}する",
+        "negative": "{出資|しゅっし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{出資|しゅっし}します",
+        "negative": "{出資|しゅっし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{出資|しゅっし}した",
+        "negative": "{出資|しゅっし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{出資|しゅっし}しました",
+        "negative": "{出資|しゅっし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{出資|しゅっし}して",
+        "negative": "{出資|しゅっし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{出資|しゅっし}している",
+        "negative": "{出資|しゅっし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{出資|しゅっし}しています",
+        "negative": "{出資|しゅっし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{出資|しゅっし}していた",
+        "negative": "{出資|しゅっし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{出資|しゅっし}していました",
+        "negative": "{出資|しゅっし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{出資|しゅっし}すれば",
+        "negative": "{出資|しゅっし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{出資|しゅっし}したら",
+        "negative": "{出資|しゅっし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{出資|しゅっし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{出資|しゅっし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{出資|しゅっし}できる",
+        "negative": "{出資|しゅっし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{出資|しゅっし}される",
+        "negative": "{出資|しゅっし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{出資|しゅっし}させる",
+        "negative": "{出資|しゅっし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{出資|しゅっし}しろ",
+        "negative": "{出資|しゅっし}するな"
+      }
+    ]
   }
 }

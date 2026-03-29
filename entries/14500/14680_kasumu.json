@@ -24,7 +24,9 @@
       "english": "The mountains look hazy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14680_kasumu_ex2",
@@ -32,7 +34,9 @@
       "english": "My eyes blurred with tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14680_kasumu_ex3",
@@ -40,7 +44,9 @@
       "english": "The distant scenery was faintly hazy with spring mist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14680_kasumu_ex4",
@@ -48,7 +54,9 @@
       "english": "The other performers pale in comparison to her acting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14680_kasumu_ex5",
@@ -56,7 +64,9 @@
       "english": "That newcomer's performance was enough to overshadow even the veteran's track record.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14680_kasumu_ex6",
@@ -64,7 +74,9 @@
       "english": "Before the beauty of Mt. Fuji, every other mountain pales in comparison.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "An intransitive godan verb. Sense 1 (hazy) is used both for physical scenes (mountains, landscapes) and for vision (eyes blurring). Sense 2 (overshadowed) is a common figurative extension.\n\nASPECT (ている):\n{霞|かす}んでいる describes a current state of being hazy or blurred.\n\nPARTICLE PATTERNS:\n- ～が{霞|かす}む (something becomes hazy / is overshadowed)\n- ～の{前|まえ}では{霞|かす}む (pales before ~)\n\nCOMMON COLLOCATIONS:\n- {目|め}が{霞|かす}む (eyes blur)\n- {景色|けしき}が{霞|かす}む (scenery becomes hazy)\n- {霞|かす}んで{見|み}える (looks hazy)\n\nRELATED WORD:\n- {霞|かすみ} (noun form) means haze or mist",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{霞|かす}む",
+        "negative": "{霞|かす}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{霞|かす}みます",
+        "negative": "{霞|かす}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{霞|かす}んだ",
+        "negative": "{霞|かす}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{霞|かす}みました",
+        "negative": "{霞|かす}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{霞|かす}んで",
+        "negative": "{霞|かす}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{霞|かす}んでいる",
+        "negative": "{霞|かす}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{霞|かす}んでいます",
+        "negative": "{霞|かす}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{霞|かす}んでいた",
+        "negative": "{霞|かす}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{霞|かす}んでいました",
+        "negative": "{霞|かす}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{霞|かす}めば",
+        "negative": "{霞|かす}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{霞|かす}んだら",
+        "negative": "{霞|かす}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{霞|かす}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{霞|かす}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{霞|かす}める",
+        "negative": "{霞|かす}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{霞|かす}まれる",
+        "negative": "{霞|かす}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{霞|かす}ませる",
+        "negative": "{霞|かす}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{霞|かす}め",
+        "negative": "{霞|かす}むな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "This area is under Tokyo's jurisdiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13825_kankatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "It's outside our jurisdiction, so we cannot handle it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13825_kankatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The laws under the jurisdiction of the Ministry of Health, Labour and Welfare are mostly related to medicine and labor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{管轄|かんかつ} is used in legal, governmental, and organizational contexts. It describes the scope of authority an agency or body has. Can be used as a する verb: {管轄|かんかつ}する (to have jurisdiction over).\n\nCOMMON COLLOCATIONS:\n- {管轄|かんかつ}{区域|くいき}: jurisdictional area\n- {管轄|かんかつ}{外|がい}: outside one's jurisdiction\n- {管轄|かんかつ}{官庁|かんちょう}: competent authority\n- {管轄|かんかつ}{裁判所|さいばんしょ}: court of jurisdiction\n- {管轄|かんかつ}{警察署|けいさつしょ}: police station with jurisdiction",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{管轄|かんかつ}する",
+        "negative": "{管轄|かんかつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{管轄|かんかつ}します",
+        "negative": "{管轄|かんかつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{管轄|かんかつ}した",
+        "negative": "{管轄|かんかつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{管轄|かんかつ}しました",
+        "negative": "{管轄|かんかつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{管轄|かんかつ}して",
+        "negative": "{管轄|かんかつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{管轄|かんかつ}している",
+        "negative": "{管轄|かんかつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{管轄|かんかつ}しています",
+        "negative": "{管轄|かんかつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{管轄|かんかつ}していた",
+        "negative": "{管轄|かんかつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{管轄|かんかつ}していました",
+        "negative": "{管轄|かんかつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{管轄|かんかつ}すれば",
+        "negative": "{管轄|かんかつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{管轄|かんかつ}したら",
+        "negative": "{管轄|かんかつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{管轄|かんかつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{管轄|かんかつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{管轄|かんかつ}できる",
+        "negative": "{管轄|かんかつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{管轄|かんかつ}される",
+        "negative": "{管轄|かんかつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{管轄|かんかつ}させる",
+        "negative": "{管轄|かんかつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{管轄|かんかつ}しろ",
+        "negative": "{管轄|かんかつ}するな"
+      }
+    ]
   }
 }

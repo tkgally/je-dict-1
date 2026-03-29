@@ -76,6 +76,57 @@ def generate_html_head(title: str, relative_path: str = '', description: str = '
 </head>'''
 
 
+# ── Conjugation table rendering ──────────────────────────────────────────
+
+# Row group boundaries for visual separators in the table.
+_GROUP_LAST_ROWS = {'て form', 'ている past polite', 'Conditional たら', 'Volitional polite'}
+
+
+def generate_conjugation_html(conjugation: dict) -> str:
+    """
+    Generate the <details> HTML block for a verb conjugation table.
+
+    Reads pre-computed forms from the entry's conjugation.forms array.
+    Each form has: label, affirmative, negative (may be null).
+    """
+    forms = conjugation.get('forms', [])
+    if not forms:
+        return ''
+
+    rows = []
+    for form in forms:
+        label = form.get('label', '')
+        aff = form.get('affirmative', '')
+        neg = form.get('negative')
+
+        aff_html = process_furigana(aff) if aff else ''
+        neg_html = process_furigana(neg) if neg else '—'
+        group_end = ' class="conj-group-end"' if label in _GROUP_LAST_ROWS else ''
+        rows.append(
+            f'<tr{group_end}>'
+            f'<td class="conj-label">{html.escape(label)}</td>'
+            f'<td class="conj-form">{aff_html}</td>'
+            f'<td class="conj-form">{neg_html}</td>'
+            f'</tr>'
+        )
+
+    table_html = '\n'.join(rows)
+    return (
+        '<details class="conjugation-details">\n'
+        '<summary>Conjugation</summary>\n'
+        '<table class="conjugation-table">\n'
+        '<thead><tr>'
+        '<th></th><th>Affirmative</th><th>Negative</th>'
+        '</tr></thead>\n'
+        f'<tbody>\n{table_html}\n</tbody>\n'
+        '</table>\n'
+        '</details>'
+    )
+
+
+# ── End conjugation ───────────────────────────────────────────────────────
+
+
 def process_headword_with_kanji_links(text: str, relative_path: str = '../../') -> str:
     """
     Process headword text with furigana AND kanji links.
@@ -292,6 +343,11 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
         html_parts.append(f'<span class="prominent-ref-label">See also:</span> ')
         html_parts.append(', '.join(ref_links))
         html_parts.append('</div>')
+
+    # Conjugation table (for verb entries with pre-computed forms)
+    conjugation = entry.get('conjugation')
+    if conjugation and conjugation.get('forms'):
+        html_parts.append(generate_conjugation_html(conjugation))
 
     html_parts.append('</div>')  # Close entry-header
 

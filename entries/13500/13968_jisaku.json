@@ -19,7 +19,9 @@
       "english": "I'm using a computer I built myself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13968_jisaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I posted a song I wrote myself online.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13968_jisaku_ex3",
@@ -35,7 +39,9 @@
       "english": "The shelf my friend built himself is sturdier than store-bought ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun modifier with の ({自作|じさく}のパソコン) or as a suru-verb ({自作|じさく}する = to make/build oneself). Very common in hobbies and tech culture: {自作|じさく}PC (DIY/custom-built PC) is a major hobby in Japan.\n\nCompared to {手作|てづく}り (handmade), {自作|じさく} emphasizes that you made it yourself (self as creator), while {手作|てづく}り emphasizes the handcrafted method. Compared to {自家製|じかせい} (homemade, house-made), {自作|じさく} focuses on personal creation while {自家製|じかせい} focuses on being made at home or in-house.\n\nCOMMON COLLOCATIONS:\n- {自作|じさく}PC: custom-built PC\n- {自作|じさく}の{曲|きょく}: a song one wrote\n- {自作|じさく}{自演|じえん}: staging one's own work (also: creating a problem and pretending to solve it)\n- {自作|じさく}の{野菜|やさい}: vegetables one grew oneself",
@@ -46,11 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru", "adjective-no"],
+      "pos": [
+        "noun",
+        "verb-suru",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "transitivity": "transitive"
+      "semantic": [
+        "general"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自作|じさく}する",
+        "negative": "{自作|じさく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自作|じさく}します",
+        "negative": "{自作|じさく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自作|じさく}した",
+        "negative": "{自作|じさく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自作|じさく}しました",
+        "negative": "{自作|じさく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自作|じさく}して",
+        "negative": "{自作|じさく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自作|じさく}している",
+        "negative": "{自作|じさく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自作|じさく}しています",
+        "negative": "{自作|じさく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自作|じさく}していた",
+        "negative": "{自作|じさく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自作|じさく}していました",
+        "negative": "{自作|じさく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自作|じさく}すれば",
+        "negative": "{自作|じさく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自作|じさく}したら",
+        "negative": "{自作|じさく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自作|じさく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自作|じさく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自作|じさく}できる",
+        "negative": "{自作|じさく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自作|じさく}される",
+        "negative": "{自作|じさく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自作|じさく}させる",
+        "negative": "{自作|じさく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自作|じさく}しろ",
+        "negative": "{自作|じさく}するな"
+      }
+    ]
   }
 }

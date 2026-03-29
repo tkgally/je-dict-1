@@ -24,7 +24,9 @@
       "english": "The flames flared up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13508_moeagaru_ex2",
@@ -32,7 +34,9 @@
       "english": "The fire flared up all at once in the wind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13508_moeagaru_ex3",
@@ -40,7 +44,9 @@
       "english": "The dry fallen leaves caught fire and blazed up in an instant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13508_moeagaru_ex4",
@@ -48,7 +54,9 @@
       "english": "My fighting spirit is fired up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13508_moeagaru_ex5",
@@ -56,7 +64,9 @@
       "english": "The athletes were fired up by the cheering of the spectators.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13508_moeagaru_ex6",
@@ -64,7 +74,9 @@
       "english": "Anger against the injustice flared up across the country, developing into large-scale protests.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb ({燃|も}え{上|あ}がる → {燃|も}え{上|あ}がります). A compound verb formed from {燃|も}える (to burn) + {上|あ}がる (to rise). Intransitive — there is no direct transitive counterpart.\n\nThe {上|あ}がる component adds the nuance of upward movement and sudden intensification, distinguishing this from the more neutral {燃|も}える.\n\nCOMMON COLLOCATIONS:\n- {炎|ほのお}が{燃|も}え{上|あ}がる: flames flare up\n- {闘志|とうし}が{燃|も}え{上|あ}がる: fighting spirit flares up\n- {怒|いか}りが{燃|も}え{上|あ}がる: anger flares up\n- {一気|いっき}に{燃|も}え{上|あ}がる: to blaze up all at once",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{燃|も}え{上|あ}がる",
+        "negative": "{燃|も}え{上|あ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{燃|も}え{上|あ}がります",
+        "negative": "{燃|も}え{上|あ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{燃|も}え{上|あ}がった",
+        "negative": "{燃|も}え{上|あ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{燃|も}え{上|あ}がりました",
+        "negative": "{燃|も}え{上|あ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{燃|も}え{上|あ}がって",
+        "negative": "{燃|も}え{上|あ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{燃|も}え{上|あ}がっている",
+        "negative": "{燃|も}え{上|あ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{燃|も}え{上|あ}がっています",
+        "negative": "{燃|も}え{上|あ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{燃|も}え{上|あ}がっていた",
+        "negative": "{燃|も}え{上|あ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{燃|も}え{上|あ}がっていました",
+        "negative": "{燃|も}え{上|あ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{燃|も}え{上|あ}がれば",
+        "negative": "{燃|も}え{上|あ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{燃|も}え{上|あ}がったら",
+        "negative": "{燃|も}え{上|あ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{燃|も}え{上|あ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{燃|も}え{上|あ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{燃|も}え{上|あ}がれる",
+        "negative": "{燃|も}え{上|あ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{燃|も}え{上|あ}がられる",
+        "negative": "{燃|も}え{上|あ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{燃|も}え{上|あ}がらせる",
+        "negative": "{燃|も}え{上|あ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{燃|も}え{上|あ}がれ",
+        "negative": "{燃|も}え{上|あ}がるな"
+      }
+    ]
   }
 }

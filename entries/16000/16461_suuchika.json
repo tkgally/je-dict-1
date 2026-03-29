@@ -19,7 +19,9 @@
       "english": "To quantify results.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16461_suuchika_ex2",
@@ -27,7 +29,9 @@
       "english": "To quantify and compare customer satisfaction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16461_suuchika_ex3",
@@ -35,7 +39,9 @@
       "english": "Rather than relying on intuitive judgment, we should quantify the data and evaluate objectively.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{数値化|すうちか} means expressing something in numerical form — making abstract or qualitative concepts measurable through data.\n\nWORD FORMATION:\n{数値|すうち} (numerical value) + {化|か} (-ification). The {化|か} suffix is productive and creates similar words:\n- {可視化|かしか}: visualization\n- {効率化|こうりつか}: streamlining\n- {最適化|さいてきか}: optimization\n\nCOMMON COLLOCATIONS:\n- {数値化|すうちか}する: to quantify\n- {数値化|すうちか}できる/できない: can/cannot be quantified\n- {数値化|すうちか}しにくい: difficult to quantify\n- {数値化|すうちか}して{比較|ひかく}する: to quantify and compare\n\nUSAGE:\nFrequently used in business and academic contexts where subjective assessments need to be made objective: {顧客|こきゃく}{満足度|まんぞくど}の{数値化|すうちか} (quantifying customer satisfaction), {成果|せいか}の{数値化|すうちか} (quantifying results).",
@@ -46,11 +52,111 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business", "academic"],
-      "semantic": ["data", "measurement"]
+      "domain": [
+        "business",
+        "academic"
+      ],
+      "semantic": [
+        "data",
+        "measurement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{数値化|すうちか}する",
+        "negative": "{数値化|すうちか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{数値化|すうちか}します",
+        "negative": "{数値化|すうちか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{数値化|すうちか}した",
+        "negative": "{数値化|すうちか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{数値化|すうちか}しました",
+        "negative": "{数値化|すうちか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{数値化|すうちか}して",
+        "negative": "{数値化|すうちか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{数値化|すうちか}している",
+        "negative": "{数値化|すうちか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{数値化|すうちか}しています",
+        "negative": "{数値化|すうちか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{数値化|すうちか}していた",
+        "negative": "{数値化|すうちか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{数値化|すうちか}していました",
+        "negative": "{数値化|すうちか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{数値化|すうちか}すれば",
+        "negative": "{数値化|すうちか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{数値化|すうちか}したら",
+        "negative": "{数値化|すうちか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{数値化|すうちか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{数値化|すうちか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{数値化|すうちか}できる",
+        "negative": "{数値化|すうちか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{数値化|すうちか}される",
+        "negative": "{数値化|すうちか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{数値化|すうちか}させる",
+        "negative": "{数値化|すうちか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{数値化|すうちか}しろ",
+        "negative": "{数値化|すうちか}するな"
+      }
+    ]
   }
 }

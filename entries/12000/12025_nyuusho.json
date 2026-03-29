@@ -19,7 +19,9 @@
       "english": "To enter a nursery school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12025_nyuusho_ex2",
@@ -27,7 +29,9 @@
       "english": "My grandmother was admitted to a care facility.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12025_nyuusho_ex3",
@@ -35,7 +39,9 @@
       "english": "Please prepare the documents needed for the admission procedure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for official placement in institutions — care homes, nurseries, detention centers, and research facilities. Not used for hospitals ({入院|にゅういん}) or schools ({入学|にゅうがく}), which have their own specific terms.\n\nCOMMON COLLOCATIONS:\n- {施設|しせつ}に{入所|にゅうしょ}する: to enter a facility\n- {入所|にゅうしょ}{手続|てつづ}き: admission procedure\n- {入所|にゅうしょ}{者|しゃ}: resident, inmate\n- {入所|にゅうしょ}{待|ま}ち: waiting for admission\n\nANTONYM:\n{退所|たいしょ} means leaving or being discharged from a facility.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["administrative"]
+      "semantic": [
+        "administrative"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{入所|にゅうしょ}する",
+        "negative": "{入所|にゅうしょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{入所|にゅうしょ}します",
+        "negative": "{入所|にゅうしょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{入所|にゅうしょ}した",
+        "negative": "{入所|にゅうしょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{入所|にゅうしょ}しました",
+        "negative": "{入所|にゅうしょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{入所|にゅうしょ}して",
+        "negative": "{入所|にゅうしょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{入所|にゅうしょ}している",
+        "negative": "{入所|にゅうしょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{入所|にゅうしょ}しています",
+        "negative": "{入所|にゅうしょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{入所|にゅうしょ}していた",
+        "negative": "{入所|にゅうしょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{入所|にゅうしょ}していました",
+        "negative": "{入所|にゅうしょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{入所|にゅうしょ}すれば",
+        "negative": "{入所|にゅうしょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{入所|にゅうしょ}したら",
+        "negative": "{入所|にゅうしょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{入所|にゅうしょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{入所|にゅうしょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{入所|にゅうしょ}できる",
+        "negative": "{入所|にゅうしょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{入所|にゅうしょ}される",
+        "negative": "{入所|にゅうしょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{入所|にゅうしょ}させる",
+        "negative": "{入所|にゅうしょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{入所|にゅうしょ}しろ",
+        "negative": "{入所|にゅうしょ}するな"
+      }
+    ]
   }
 }

@@ -22,7 +22,9 @@
       "japanese": "{明日|あした}は{客先|きゃくさき}に{直行|ちょっこう}します。",
       "english": "Tomorrow I'll go directly to the client's office.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{直行|ちょっこう}{直帰|ちょっき}でお{願|ねが}いします。",
       "english": "I'll be going directly to the site and straight home.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{朝|あさ}いちで{現場|げんば}に{直行|ちょっこう}して、{午後|ごご}は{会社|かいしゃ}に{戻|もど}る{予定|よてい}だ。",
       "english": "I plan to go directly to the site first thing in the morning and return to the office in the afternoon.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{直行便|ちょっこうびん}で{行|い}けば{早|はや}い。",
       "english": "It's faster if you take a direct flight.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "この{路線|ろせん}は{空港|くうこう}への{直行|ちょっこう}バスだ。",
       "english": "This route is a direct bus to the airport.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{乗|の}り{換|か}えなしの{直行便|ちょっこうびん}があるので、{移動|いどう}が{楽|らく}だ。",
       "english": "There's a direct flight with no transfers, so the travel is easy.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -93,7 +105,98 @@
       ],
       "domain": [
         "business"
-      ]
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{直行|ちょっこう}する",
+        "negative": "{直行|ちょっこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{直行|ちょっこう}します",
+        "negative": "{直行|ちょっこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{直行|ちょっこう}した",
+        "negative": "{直行|ちょっこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{直行|ちょっこう}しました",
+        "negative": "{直行|ちょっこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{直行|ちょっこう}して",
+        "negative": "{直行|ちょっこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{直行|ちょっこう}している",
+        "negative": "{直行|ちょっこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{直行|ちょっこう}しています",
+        "negative": "{直行|ちょっこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{直行|ちょっこう}していた",
+        "negative": "{直行|ちょっこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{直行|ちょっこう}していました",
+        "negative": "{直行|ちょっこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{直行|ちょっこう}すれば",
+        "negative": "{直行|ちょっこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{直行|ちょっこう}したら",
+        "negative": "{直行|ちょっこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{直行|ちょっこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{直行|ちょっこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{直行|ちょっこう}できる",
+        "negative": "{直行|ちょっこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{直行|ちょっこう}される",
+        "negative": "{直行|ちょっこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{直行|ちょっこう}させる",
+        "negative": "{直行|ちょっこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{直行|ちょっこう}しろ",
+        "negative": "{直行|ちょっこう}するな"
+      }
+    ]
   }
 }

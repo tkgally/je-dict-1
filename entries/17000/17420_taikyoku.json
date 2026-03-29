@@ -19,7 +19,9 @@
       "english": "I have an important match today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17420_taikyoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The two professional players began their shogi match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17420_taikyoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The title match was broadcast live on the internet, so many fans watched.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed specifically for board games like {将棋|しょうぎ}, {囲碁|いご} (Go), and {チェス|ちぇす}. Not used for sports matches ({試合|しあい}) or card games. Carries a formal, serious tone associated with professional competition.\n\nCOMMON COLLOCATIONS:\n- {対局|たいきょく}する (to play a match)\n- {対局|たいきょく}{相手|あいて} (opponent in a match)\n- {対局|たいきょく}{中|ちゅう} (during a match)\n- {対局|たいきょく}{室|しつ} (match room)\n\nSIMILAR WORDS:\n- {試合|しあい}: match, game — for sports and general competition\n- {勝負|しょうぶ}: contest, showdown — emphasizes the win/lose outcome",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["game", "competition"]
+      "semantic": [
+        "game",
+        "competition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{対局|たいきょく}する",
+        "negative": "{対局|たいきょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{対局|たいきょく}します",
+        "negative": "{対局|たいきょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{対局|たいきょく}した",
+        "negative": "{対局|たいきょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{対局|たいきょく}しました",
+        "negative": "{対局|たいきょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{対局|たいきょく}して",
+        "negative": "{対局|たいきょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{対局|たいきょく}している",
+        "negative": "{対局|たいきょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{対局|たいきょく}しています",
+        "negative": "{対局|たいきょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{対局|たいきょく}していた",
+        "negative": "{対局|たいきょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{対局|たいきょく}していました",
+        "negative": "{対局|たいきょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{対局|たいきょく}すれば",
+        "negative": "{対局|たいきょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{対局|たいきょく}したら",
+        "negative": "{対局|たいきょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{対局|たいきょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{対局|たいきょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{対局|たいきょく}できる",
+        "negative": "{対局|たいきょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{対局|たいきょく}される",
+        "negative": "{対局|たいきょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{対局|たいきょく}させる",
+        "negative": "{対局|たいきょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{対局|たいきょく}しろ",
+        "negative": "{対局|たいきょく}するな"
+      }
+    ]
   }
 }

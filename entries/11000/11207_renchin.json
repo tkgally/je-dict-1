@@ -17,7 +17,9 @@
       "id": "11207_renchin_ex1",
       "japanese": "レンチンするだけでいい。",
       "english": "You just need to microwave it.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11207_renchin_ex2",
       "japanese": "お{弁当|べんとう}をレンチンした。",
       "english": "I microwaved my bento.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "11207_renchin_ex3",
       "japanese": "{冷凍|れいとう}ご{飯|はん}をレンチンして{食|た}べるのが{一番|いちばん}{楽|らく}だ。",
       "english": "The easiest option is to microwave frozen rice and eat that.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "food"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "レンチンする",
+        "negative": "レンチンしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "レンチンします",
+        "negative": "レンチンしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "レンチンした",
+        "negative": "レンチンしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "レンチンしました",
+        "negative": "レンチンしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "レンチンして",
+        "negative": "レンチンしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "レンチンしている",
+        "negative": "レンチンしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "レンチンしています",
+        "negative": "レンチンしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "レンチンしていた",
+        "negative": "レンチンしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "レンチンしていました",
+        "negative": "レンチンしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "レンチンすれば",
+        "negative": "レンチンしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "レンチンしたら",
+        "negative": "レンチンしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "レンチンしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "レンチンしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "レンチンできる",
+        "negative": "レンチンできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "レンチンされる",
+        "negative": "レンチンされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "レンチンさせる",
+        "negative": "レンチンさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "レンチンしろ",
+        "negative": "レンチンするな"
+      }
+    ]
   }
 }

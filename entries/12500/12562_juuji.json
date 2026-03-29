@@ -19,7 +19,9 @@
       "english": "I am engaged in agriculture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12562_juuji_ex2",
@@ -27,7 +29,9 @@
       "english": "I have been engaged in research for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12562_juuji_ex3",
@@ -35,7 +39,9 @@
       "english": "About three hundred people are engaged in manufacturing work at this factory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word most commonly seen in resumes, official documents, surveys, and news articles. In everyday conversation, {働|はたら}く or {仕事|しごと}をする is more natural. Almost always used with the particle に: Xに{従事|じゅうじ}する.\n\nCOMMON COLLOCATIONS:\n- {農業|のうぎょう}に{従事|じゅうじ}する: to be engaged in agriculture\n- {研究|けんきゅう}に{従事|じゅうじ}する: to be engaged in research\n- {業務|ぎょうむ}に{従事|じゅうじ}する: to be engaged in duties\n- {従事|じゅうじ}{者|しゃ}: worker, person engaged in",
@@ -46,13 +52,113 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "domain": ["business"],
-      "semantic": ["work"]
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{従事|じゅうじ}する",
+        "negative": "{従事|じゅうじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{従事|じゅうじ}します",
+        "negative": "{従事|じゅうじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{従事|じゅうじ}した",
+        "negative": "{従事|じゅうじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{従事|じゅうじ}しました",
+        "negative": "{従事|じゅうじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{従事|じゅうじ}して",
+        "negative": "{従事|じゅうじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{従事|じゅうじ}している",
+        "negative": "{従事|じゅうじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{従事|じゅうじ}しています",
+        "negative": "{従事|じゅうじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{従事|じゅうじ}していた",
+        "negative": "{従事|じゅうじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{従事|じゅうじ}していました",
+        "negative": "{従事|じゅうじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{従事|じゅうじ}すれば",
+        "negative": "{従事|じゅうじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{従事|じゅうじ}したら",
+        "negative": "{従事|じゅうじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{従事|じゅうじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{従事|じゅうじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{従事|じゅうじ}できる",
+        "negative": "{従事|じゅうじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{従事|じゅうじ}される",
+        "negative": "{従事|じゅうじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{従事|じゅうじ}させる",
+        "negative": "{従事|じゅうじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{従事|じゅうじ}しろ",
+        "negative": "{従事|じゅうじ}するな"
+      }
+    ]
   }
 }

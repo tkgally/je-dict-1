@@ -19,7 +19,9 @@
       "english": "Please be careful of aspiration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15563_goen_ex2",
@@ -27,7 +29,9 @@
       "english": "Elderly people have a high risk of pneumonia caused by aspiration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15563_goen_ex3",
@@ -35,7 +39,9 @@
       "english": "Cutting food into small pieces can help prevent aspiration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {誤|ご} (mistake, error) and {嚥|えん} (to swallow). The word specifically refers to the accidental entry of food or liquid into the airway rather than the stomach.\n\n{誤嚥|ごえん}{性|せい}{肺炎|はいえん} (aspiration pneumonia) is a major health concern in aging societies like Japan, making this term frequently seen in health-related media.\n\nCOMMON COLLOCATIONS:\n- {誤嚥|ごえん}{性|せい}{肺炎|はいえん} (aspiration pneumonia)\n- {誤嚥|ごえん}を{防|ふせ}ぐ (to prevent aspiration)\n- {誤嚥|ごえん}{事故|じこ} (aspiration accident)\n- {誤嚥|ごえん}のリスク (risk of aspiration)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{誤嚥|ごえん}する",
+        "negative": "{誤嚥|ごえん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{誤嚥|ごえん}します",
+        "negative": "{誤嚥|ごえん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{誤嚥|ごえん}した",
+        "negative": "{誤嚥|ごえん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{誤嚥|ごえん}しました",
+        "negative": "{誤嚥|ごえん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{誤嚥|ごえん}して",
+        "negative": "{誤嚥|ごえん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{誤嚥|ごえん}している",
+        "negative": "{誤嚥|ごえん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{誤嚥|ごえん}しています",
+        "negative": "{誤嚥|ごえん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{誤嚥|ごえん}していた",
+        "negative": "{誤嚥|ごえん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{誤嚥|ごえん}していました",
+        "negative": "{誤嚥|ごえん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{誤嚥|ごえん}すれば",
+        "negative": "{誤嚥|ごえん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{誤嚥|ごえん}したら",
+        "negative": "{誤嚥|ごえん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{誤嚥|ごえん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{誤嚥|ごえん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{誤嚥|ごえん}できる",
+        "negative": "{誤嚥|ごえん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{誤嚥|ごえん}される",
+        "negative": "{誤嚥|ごえん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{誤嚥|ごえん}させる",
+        "negative": "{誤嚥|ごえん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{誤嚥|ごえん}しろ",
+        "negative": "{誤嚥|ごえん}するな"
+      }
+    ]
   }
 }

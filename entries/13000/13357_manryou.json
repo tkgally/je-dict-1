@@ -19,7 +19,9 @@
       "english": "The contract has expired.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13357_manryou_ex2",
@@ -27,7 +29,9 @@
       "english": "I will step down upon the expiration of my term.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13357_manryou_ex3",
@@ -35,7 +39,9 @@
       "english": "Please complete the renewal procedures before your visa expires.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, administrative term. Neutral in tone — it simply indicates that the full period has elapsed. In everyday conversation, {切|き}れる (to expire) or {終|お}わる (to end) are more common.\n\nCOMMON COLLOCATIONS:\n- {契約|けいやく}{満了|まんりょう}: contract expiration\n- {任期|にんき}{満了|まんりょう}: expiration of a term of office\n- {期間|きかん}{満了|まんりょう}: completion of a period\n- {刑期|けいき}{満了|まんりょう}: completion of a prison sentence\n- {満了|まんりょう}{日|び}: expiration date\n- {満了|まんりょう}に{伴|ともな}い: upon expiration",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "domain": ["legal"]
+      "semantic": [
+        "time-general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{満了|まんりょう}する",
+        "negative": "{満了|まんりょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{満了|まんりょう}します",
+        "negative": "{満了|まんりょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{満了|まんりょう}した",
+        "negative": "{満了|まんりょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{満了|まんりょう}しました",
+        "negative": "{満了|まんりょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{満了|まんりょう}して",
+        "negative": "{満了|まんりょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{満了|まんりょう}している",
+        "negative": "{満了|まんりょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{満了|まんりょう}しています",
+        "negative": "{満了|まんりょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{満了|まんりょう}していた",
+        "negative": "{満了|まんりょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{満了|まんりょう}していました",
+        "negative": "{満了|まんりょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{満了|まんりょう}すれば",
+        "negative": "{満了|まんりょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{満了|まんりょう}したら",
+        "negative": "{満了|まんりょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{満了|まんりょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{満了|まんりょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{満了|まんりょう}できる",
+        "negative": "{満了|まんりょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{満了|まんりょう}される",
+        "negative": "{満了|まんりょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{満了|まんりょう}させる",
+        "negative": "{満了|まんりょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{満了|まんりょう}しろ",
+        "negative": "{満了|まんりょう}するな"
+      }
+    ]
   }
 }

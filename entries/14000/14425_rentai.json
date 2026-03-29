@@ -24,7 +24,9 @@
       "english": "Solidarity among citizens grew stronger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14425_rentai_ex2",
@@ -32,7 +34,9 @@
       "english": "I want to show my solidarity with the people in the disaster-affected area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14425_rentai_ex3",
@@ -40,7 +44,9 @@
       "english": "The international community needs to stand together in tackling environmental issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14425_rentai_ex4",
@@ -48,7 +54,9 @@
       "english": "Becoming a joint guarantor is risky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14425_rentai_ex5",
@@ -56,7 +64,9 @@
       "english": "The two ended up jointly bearing the debt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14425_rentai_ex6",
@@ -64,7 +74,9 @@
       "english": "They were held jointly responsible, and all of them received punishment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A compound of {連|れん} (linked, connected) and {帯|たい} (band, zone — here suggesting being bound together).\n\nCOMMON COLLOCATIONS:\n- {連帯|れんたい}{責任|せきにん} (joint responsibility)\n- {連帯|れんたい}{保証人|ほしょうにん} (joint guarantor)\n- {連帯|れんたい}{感|かん} (sense of solidarity)\n- {連帯|れんたい}する (to stand together, to show solidarity)\n- {連帯|れんたい}して (jointly, in solidarity)\n\nThe social/political sense (sense 1) is common in news and discussions about social movements. The legal sense (sense 2) is important in financial contexts — being a {連帯|れんたい}{保証人|ほしょうにん} means being fully liable for another person's debt, which is a significant risk in Japanese financial culture.",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連帯|れんたい}する",
+        "negative": "{連帯|れんたい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連帯|れんたい}します",
+        "negative": "{連帯|れんたい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連帯|れんたい}した",
+        "negative": "{連帯|れんたい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連帯|れんたい}しました",
+        "negative": "{連帯|れんたい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連帯|れんたい}して",
+        "negative": "{連帯|れんたい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連帯|れんたい}している",
+        "negative": "{連帯|れんたい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連帯|れんたい}しています",
+        "negative": "{連帯|れんたい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連帯|れんたい}していた",
+        "negative": "{連帯|れんたい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連帯|れんたい}していました",
+        "negative": "{連帯|れんたい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連帯|れんたい}すれば",
+        "negative": "{連帯|れんたい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連帯|れんたい}したら",
+        "negative": "{連帯|れんたい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連帯|れんたい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連帯|れんたい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連帯|れんたい}できる",
+        "negative": "{連帯|れんたい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連帯|れんたい}される",
+        "negative": "{連帯|れんたい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連帯|れんたい}させる",
+        "negative": "{連帯|れんたい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連帯|れんたい}しろ",
+        "negative": "{連帯|れんたい}するな"
+      }
+    ]
   }
 }

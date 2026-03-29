@@ -19,7 +19,9 @@
       "english": "It was decided that I would have an arranged meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14159_miai_ex2",
@@ -27,7 +29,9 @@
       "english": "At my mother's recommendation, I met with the person from the arranged introduction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14159_miai_ex3",
@@ -35,7 +39,9 @@
       "english": "Whether arranged marriages or love marriages are more common changes with the times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{見合|みあ}い traditionally involves a {仲人|なこうど} (go-between) who arranges the meeting and facilitates introductions. Modern {見合|みあ}い has evolved considerably and may be quite casual. The word contrasts with {恋愛|れんあい} (romantic love) — marriages are often classified as either {見合|みあ}い{結婚|けっこん} (arranged marriage) or {恋愛|れんあい}{結婚|けっこん} (love marriage).\n\nCOMMON COLLOCATIONS:\n- {見合|みあ}い{結婚|けっこん}: arranged marriage\n- {見合|みあ}い{相手|あいて}: matchmaking partner\n- {見合|みあ}いをする: to have an arranged meeting\n- {見合|みあ}い{写真|しゃしん}: photo used for matchmaking",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見合|みあ}いする",
+        "negative": "{見合|みあ}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見合|みあ}いします",
+        "negative": "{見合|みあ}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見合|みあ}いした",
+        "negative": "{見合|みあ}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見合|みあ}いしました",
+        "negative": "{見合|みあ}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見合|みあ}いして",
+        "negative": "{見合|みあ}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見合|みあ}いしている",
+        "negative": "{見合|みあ}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見合|みあ}いしています",
+        "negative": "{見合|みあ}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見合|みあ}いしていた",
+        "negative": "{見合|みあ}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見合|みあ}いしていました",
+        "negative": "{見合|みあ}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見合|みあ}いすれば",
+        "negative": "{見合|みあ}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見合|みあ}いしたら",
+        "negative": "{見合|みあ}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見合|みあ}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見合|みあ}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見合|みあ}いできる",
+        "negative": "{見合|みあ}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見合|みあ}いされる",
+        "negative": "{見合|みあ}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見合|みあ}いさせる",
+        "negative": "{見合|みあ}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見合|みあ}いしろ",
+        "negative": "{見合|みあ}いするな"
+      }
+    ]
   }
 }

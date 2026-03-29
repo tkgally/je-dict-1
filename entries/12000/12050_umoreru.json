@@ -24,7 +24,9 @@
       "english": "To be buried in snow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12050_umoreru_ex2",
@@ -32,7 +34,9 @@
       "english": "The car is buried in snow and won't move.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12050_umoreru_ex3",
@@ -40,7 +44,9 @@
       "english": "The desk is buried under documents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12050_umoreru_ex4",
@@ -48,7 +54,9 @@
       "english": "A fact lost to history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12050_umoreru_ex5",
@@ -56,7 +64,9 @@
       "english": "It would be a waste for that talent to remain hidden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12050_umoreru_ex6",
@@ -64,7 +74,9 @@
       "english": "Important news tends to get buried among the mass of information and be overlooked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {埋|うも}れない\n- Polite: {埋|うも}れます\n- Te-form: {埋|うも}れて\n- Past: {埋|うも}れた\n\nUSAGE:\nIntransitive counterpart of {埋|う}める (to bury, to fill). Often appears in the pattern ～に{埋|うも}れる (to be buried in/under ~).\n\nCOMMON COLLOCATIONS:\n- {雪|ゆき}に{埋|うも}れる: to be buried in snow\n- {歴史|れきし}に{埋|うも}れる: to be lost to history\n- {書類|しょるい}に{埋|うも}れる: to be buried under paperwork",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["spatial"]
+      "semantic": [
+        "spatial"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{埋|うも}れる",
+        "negative": "{埋|うも}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{埋|うも}れます",
+        "negative": "{埋|うも}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{埋|うも}れた",
+        "negative": "{埋|うも}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{埋|うも}れました",
+        "negative": "{埋|うも}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{埋|うも}れて",
+        "negative": "{埋|うも}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{埋|うも}れている",
+        "negative": "{埋|うも}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{埋|うも}れています",
+        "negative": "{埋|うも}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{埋|うも}れていた",
+        "negative": "{埋|うも}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{埋|うも}れていました",
+        "negative": "{埋|うも}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{埋|うも}れれば",
+        "negative": "{埋|うも}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{埋|うも}れたら",
+        "negative": "{埋|うも}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{埋|うも}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{埋|うも}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{埋|うも}れられる",
+        "negative": "{埋|うも}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{埋|うも}れられる",
+        "negative": "{埋|うも}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{埋|うも}れさせる",
+        "negative": "{埋|うも}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{埋|うも}れろ",
+        "negative": "{埋|うも}れるな"
+      }
+    ]
   }
 }

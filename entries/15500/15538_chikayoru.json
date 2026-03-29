@@ -19,7 +19,9 @@
       "english": "A cat quietly came close.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15538_chikayoru_ex2",
@@ -27,7 +29,9 @@
       "english": "You'd better not go near that building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15538_chikayoru_ex3",
@@ -35,7 +39,9 @@
       "english": "A stranger approached me, so I became a little wary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe target of approach is marked with に: ～に{近寄|ちかよ}る. Often appears with ～てくる to indicate approaching the speaker, or ～ていく for moving away from the speaker toward something.\n\nCOMMON PATTERNS:\n- ～に{近寄|ちかよ}る (to approach ~)\n- {近寄|ちかよ}ってくる (to come closer — toward speaker)\n- {近寄|ちかよ}らないでください (please don't come near)\n- {近寄|ちかよ}りがたい (unapproachable, intimidating)\n\nSIMILAR WORDS:\n{近|ちか}づく is very similar and often interchangeable, but {近寄|ちかよ}る tends to emphasize deliberate physical movement toward a target, while {近|ちか}づく can also describe things becoming closer in time or abstract distance.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{近寄|ちかよ}る",
+        "negative": "{近寄|ちかよ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{近寄|ちかよ}ります",
+        "negative": "{近寄|ちかよ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{近寄|ちかよ}った",
+        "negative": "{近寄|ちかよ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{近寄|ちかよ}りました",
+        "negative": "{近寄|ちかよ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{近寄|ちかよ}って",
+        "negative": "{近寄|ちかよ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{近寄|ちかよ}っている",
+        "negative": "{近寄|ちかよ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{近寄|ちかよ}っています",
+        "negative": "{近寄|ちかよ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{近寄|ちかよ}っていた",
+        "negative": "{近寄|ちかよ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{近寄|ちかよ}っていました",
+        "negative": "{近寄|ちかよ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{近寄|ちかよ}れば",
+        "negative": "{近寄|ちかよ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{近寄|ちかよ}ったら",
+        "negative": "{近寄|ちかよ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{近寄|ちかよ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{近寄|ちかよ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{近寄|ちかよ}れる",
+        "negative": "{近寄|ちかよ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{近寄|ちかよ}られる",
+        "negative": "{近寄|ちかよ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{近寄|ちかよ}らせる",
+        "negative": "{近寄|ちかよ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{近寄|ちかよ}れ",
+        "negative": "{近寄|ちかよ}るな"
+      }
+    ]
   }
 }

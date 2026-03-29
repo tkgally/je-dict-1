@@ -18,7 +18,9 @@
       "english": "To conclude a speech.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16332_shimekukuru_ex2",
@@ -26,7 +28,9 @@
       "english": "I want to wrap up this year on a good note.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16332_shimekukuru_ex3",
@@ -34,7 +38,9 @@
       "english": "He concluded with words of gratitude.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- スピーチを{締|し}め{括|くく}る: to conclude a speech\n- {一年|いちねん}を{締|し}め{括|くく}る: to close out the year\n- 〜で{締|し}め{括|くく}る: to wrap up with ~\n\nRELATED NOUN:\n- {締|し}め{括|くく}り: conclusion, wrap-up\n\nSIMILAR WORDS:\n- {終|お}える: to finish (neutral, general)\n- {まとめる}: to summarize, to put together\n- {結|むす}ぶ: to conclude (more formal; used for contracts, agreements)",
@@ -44,12 +50,107 @@
     "modified": "2026-03-12T01:25:59Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "kuru"
     }
   },
-  "schema_version": "2.0"
+  "schema_version": "2.0",
+  "conjugation": {
+    "type": "kuru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{来|く}る",
+        "negative": "{来|こ}ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{来|き}ます",
+        "negative": "{来|き}ません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{来|き}た",
+        "negative": "{来|こ}なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{来|き}ました",
+        "negative": "{来|き}ませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{来|き}て",
+        "negative": "{来|こ}なくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{来|き}ている",
+        "negative": "{来|き}ていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{来|き}ています",
+        "negative": "{来|き}ていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{来|き}ていた",
+        "negative": "{来|き}ていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{来|き}ていました",
+        "negative": "{来|き}ていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{来|く}れば",
+        "negative": "{来|こ}なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{来|き}たら",
+        "negative": "{来|こ}なかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{来|こ}よう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{来|き}ましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{来|こ}られる",
+        "negative": "{来|こ}られない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{来|こ}られる",
+        "negative": "{来|こ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{来|こ}させる",
+        "negative": "{来|こ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{来|こ}い",
+        "negative": "{来|く}るな"
+      }
+    ]
+  }
 }

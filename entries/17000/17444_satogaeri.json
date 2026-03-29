@@ -19,7 +19,9 @@
       "english": "I plan to visit my parents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17444_satogaeri_ex2",
@@ -27,7 +29,9 @@
       "english": "I went home for Obon and saw my family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17444_satogaeri_ex3",
@@ -35,7 +39,9 @@
       "english": "My wife went back to her parents' home for the birth and had the baby there.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nTraditionally refers to a married woman returning to her parents' home, but now used broadly for anyone visiting their hometown. Particularly common around major holidays like {正月|しょうがつ} (New Year) and {盆|ぼん} (Obon).\n\nA specific and very common use is {里帰|さとがえ}り{出産|しゅっさん} (returning to one's parents' home to give birth), where a pregnant woman stays with her parents for support during delivery.\n\nCOMMON COLLOCATIONS:\n- {里帰|さとがえ}り{出産|しゅっさん} (returning home to give birth)\n- {里帰|さとがえ}りする (to go home to visit)\n- お{盆|ぼん}の{里帰|さとがえ}り (Obon homecoming)\n- {里帰|さとがえ}りラッシュ (homecoming rush — heavy traffic during holidays)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "movement"]
+      "semantic": [
+        "family",
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{里帰|さとがえ}りする",
+        "negative": "{里帰|さとがえ}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{里帰|さとがえ}りします",
+        "negative": "{里帰|さとがえ}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{里帰|さとがえ}りした",
+        "negative": "{里帰|さとがえ}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{里帰|さとがえ}りしました",
+        "negative": "{里帰|さとがえ}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{里帰|さとがえ}りして",
+        "negative": "{里帰|さとがえ}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{里帰|さとがえ}りしている",
+        "negative": "{里帰|さとがえ}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{里帰|さとがえ}りしています",
+        "negative": "{里帰|さとがえ}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{里帰|さとがえ}りしていた",
+        "negative": "{里帰|さとがえ}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{里帰|さとがえ}りしていました",
+        "negative": "{里帰|さとがえ}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{里帰|さとがえ}りすれば",
+        "negative": "{里帰|さとがえ}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{里帰|さとがえ}りしたら",
+        "negative": "{里帰|さとがえ}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{里帰|さとがえ}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{里帰|さとがえ}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{里帰|さとがえ}りできる",
+        "negative": "{里帰|さとがえ}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{里帰|さとがえ}りされる",
+        "negative": "{里帰|さとがえ}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{里帰|さとがえ}りさせる",
+        "negative": "{里帰|さとがえ}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{里帰|さとがえ}りしろ",
+        "negative": "{里帰|さとがえ}りするな"
+      }
+    ]
   }
 }

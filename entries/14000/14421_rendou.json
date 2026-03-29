@@ -19,7 +19,9 @@
       "english": "Stock prices and exchange rates are linked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14421_rendou_ex2",
@@ -27,7 +29,9 @@
       "english": "This system operates in conjunction with the fire alarm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14421_rendou_ex3",
@@ -35,7 +39,9 @@
       "english": "Gasoline prices also rose in tandem with the increase in crude oil prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {連|れん} (linked, connected) and {動|どう} (movement). Functions as a noun and suru-verb.\n\nCOMMON COLLOCATIONS:\n- ～と{連動|れんどう}する (to be linked with ~)\n- ～に{連動|れんどう}して (in conjunction with ~)\n- {連動|れんどう}{型|がた} (interlocking type)\n- {価格|かかく}{連動|れんどう} (price linkage)\n\nUsed frequently in business and economics to describe correlated movements (e.g., prices, markets) and in technical contexts for mechanically or electronically linked systems.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連動|れんどう}する",
+        "negative": "{連動|れんどう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連動|れんどう}します",
+        "negative": "{連動|れんどう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連動|れんどう}した",
+        "negative": "{連動|れんどう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連動|れんどう}しました",
+        "negative": "{連動|れんどう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連動|れんどう}して",
+        "negative": "{連動|れんどう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連動|れんどう}している",
+        "negative": "{連動|れんどう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連動|れんどう}しています",
+        "negative": "{連動|れんどう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連動|れんどう}していた",
+        "negative": "{連動|れんどう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連動|れんどう}していました",
+        "negative": "{連動|れんどう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連動|れんどう}すれば",
+        "negative": "{連動|れんどう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連動|れんどう}したら",
+        "negative": "{連動|れんどう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連動|れんどう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連動|れんどう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連動|れんどう}できる",
+        "negative": "{連動|れんどう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連動|れんどう}される",
+        "negative": "{連動|れんどう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連動|れんどう}させる",
+        "negative": "{連動|れんどう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連動|れんどう}しろ",
+        "negative": "{連動|れんどう}するな"
+      }
+    ]
   }
 }

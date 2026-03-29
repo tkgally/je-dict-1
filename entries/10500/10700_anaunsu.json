@@ -19,7 +19,9 @@
       "english": "An announcement was made.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10700_anaunsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The train delay was announced.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10700_anaunsu_ex3",
@@ -35,7 +39,9 @@
       "english": "I heard the boarding announcement at the airport and headed to the gate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nアナウンス typically refers to spoken announcements over loudspeakers or PA systems, especially at stations, airports, and sporting events. For written announcements or formal notices, {告知|こくち} or {発表|はっぴょう} are more common.\n\nRELATED WORDS:\nThe person who makes announcements is an アナウンサー (announcer), a well-known profession in Japanese media.\n\nCOMMON COLLOCATIONS:\n- アナウンスが{流|なが}れる: an announcement plays\n- アナウンスが{入|はい}る: an announcement comes in\n- {車内|しゃない}アナウンス: in-train announcement\n- {場内|じょうない}アナウンス: in-venue announcement",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "アナウンスする",
+        "negative": "アナウンスしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "アナウンスします",
+        "negative": "アナウンスしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "アナウンスした",
+        "negative": "アナウンスしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "アナウンスしました",
+        "negative": "アナウンスしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "アナウンスして",
+        "negative": "アナウンスしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "アナウンスしている",
+        "negative": "アナウンスしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "アナウンスしています",
+        "negative": "アナウンスしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "アナウンスしていた",
+        "negative": "アナウンスしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "アナウンスしていました",
+        "negative": "アナウンスしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "アナウンスすれば",
+        "negative": "アナウンスしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "アナウンスしたら",
+        "negative": "アナウンスしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "アナウンスしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "アナウンスしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "アナウンスできる",
+        "negative": "アナウンスできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "アナウンスされる",
+        "negative": "アナウンスされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "アナウンスさせる",
+        "negative": "アナウンスさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "アナウンスしろ",
+        "negative": "アナウンスするな"
+      }
+    ]
   }
 }

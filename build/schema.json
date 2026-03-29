@@ -225,6 +225,40 @@
         }
       }
     },
+    "conjugation": {
+      "type": "object",
+      "description": "Full conjugation table for verb entries",
+      "required": ["type", "forms"],
+      "properties": {
+        "type": {
+          "type": "string",
+          "enum": ["godan", "ichidan", "suru", "kuru", "aru"],
+          "description": "Verb conjugation class"
+        },
+        "forms": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["label", "affirmative"],
+            "properties": {
+              "label": {
+                "type": "string",
+                "description": "Conjugation category name (e.g., 'Present', 'Past polite', 'て form')"
+              },
+              "affirmative": {
+                "type": "string",
+                "description": "Affirmative conjugated form with furigana notation"
+              },
+              "negative": {
+                "type": ["string", "null"],
+                "description": "Negative conjugated form with furigana notation (null for volitional)"
+              }
+            }
+          },
+          "description": "Array of conjugation forms, each with label, affirmative, and negative"
+        }
+      }
+    },
     "common_mistakes": {
       "type": "array",
       "description": "Common mistakes learners make with this word",

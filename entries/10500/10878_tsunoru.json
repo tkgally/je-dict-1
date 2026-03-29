@@ -24,7 +24,9 @@
       "english": "To recruit volunteers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10878_tsunoru_ex2",
@@ -32,7 +34,9 @@
       "english": "The company solicited new ideas from employees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10878_tsunoru_ex3",
@@ -40,7 +44,9 @@
       "english": "They are broadly soliciting donations for the disaster-affected area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10878_tsunoru_ex4",
@@ -48,7 +54,9 @@
       "english": "Anxiety is mounting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10878_tsunoru_ex5",
@@ -56,7 +64,9 @@
       "english": "The cold intensified and it became hard to go outside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10878_tsunoru_ex6",
@@ -64,7 +74,9 @@
       "english": "The longer I waited, the more my frustration grew.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: Sense 1 is {他動詞|たどうし} (transitive): Xを{募|つの}る. Sense 2 is {自動詞|じどうし} (intransitive): Xが{募|つの}る.\n\nUSAGE:\nThe two senses have clearly different grammatical patterns. Sense 1 (recruit/solicit) takes a direct object with を. Sense 2 (intensify) takes a subject with が and is typically used with feelings or conditions.\n\nCOMMON COLLOCATIONS:\nSense 1:\n- ボランティアを{募|つの}る: to recruit volunteers\n- {寄付|きふ}を{募|つの}る: to solicit donations\n- {参加者|さんかしゃ}を{募|つの}る: to call for participants\n- アイデアを{募|つの}る: to solicit ideas\n\nSense 2:\n- {不安|ふあん}が{募|つの}る: anxiety mounts\n- {焦|あせ}りが{募|つの}る: impatience grows\n- {寒|さむ}さが{募|つの}る: the cold intensifies\n- {思|おも}いが{募|つの}る: feelings deepen",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "both",
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{募|つの}る",
+        "negative": "{募|つの}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{募|つの}ります",
+        "negative": "{募|つの}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{募|つの}った",
+        "negative": "{募|つの}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{募|つの}りました",
+        "negative": "{募|つの}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{募|つの}って",
+        "negative": "{募|つの}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{募|つの}っている",
+        "negative": "{募|つの}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{募|つの}っています",
+        "negative": "{募|つの}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{募|つの}っていた",
+        "negative": "{募|つの}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{募|つの}っていました",
+        "negative": "{募|つの}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{募|つの}れば",
+        "negative": "{募|つの}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{募|つの}ったら",
+        "negative": "{募|つの}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{募|つの}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{募|つの}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{募|つの}れる",
+        "negative": "{募|つの}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{募|つの}られる",
+        "negative": "{募|つの}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{募|つの}らせる",
+        "negative": "{募|つの}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{募|つの}れ",
+        "negative": "{募|つの}るな"
+      }
+    ]
   }
 }

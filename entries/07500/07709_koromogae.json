@@ -17,21 +17,27 @@
       "japanese": "そろそろ{衣替|ころもが}えの{季節|きせつ}だ。",
       "english": "It's about time for the seasonal clothing change.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07709_koromogae_ex2",
       "japanese": "{衣替|ころもが}えで{冬服|ふゆふく}をしまった。",
       "english": "I put away my winter clothes during the wardrobe change.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07709_koromogae_ex3",
       "japanese": "{学校|がっこう}の{衣替|ころもが}えは{六月|ろくがつ}だ。",
       "english": "The school uniform change is in June.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{衣|ころも} (clothing - classical reading) + {替|か}え (change)\n\nCULTURAL NOTE:\nIn Japan, {衣替|ころもが}え traditionally occurs on June 1st (from winter to summer uniforms) and October 1st (from summer to winter). Schools and many companies follow this schedule for uniform changes.\n\nTYPICAL ACTIVITIES:\n・Packing away off-season clothes\n・Taking out seasonal clothes from storage\n・Cleaning or laundering stored items\n\nRELATED:\n・{模様替|もようが}え - room rearrangement\n・{冬支度|ふゆじたく} - winter preparation\n・{夏服|なつふく}/{冬服|ふゆふく} - summer/winter clothes",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["clothing", "seasonal"],
-      "domain": []
+      "semantic": [
+        "clothing",
+        "seasonal"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{衣替|ころもが}えする",
+        "negative": "{衣替|ころもが}えしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{衣替|ころもが}えします",
+        "negative": "{衣替|ころもが}えしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{衣替|ころもが}えした",
+        "negative": "{衣替|ころもが}えしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{衣替|ころもが}えしました",
+        "negative": "{衣替|ころもが}えしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{衣替|ころもが}えして",
+        "negative": "{衣替|ころもが}えしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{衣替|ころもが}えしている",
+        "negative": "{衣替|ころもが}えしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{衣替|ころもが}えしています",
+        "negative": "{衣替|ころもが}えしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{衣替|ころもが}えしていた",
+        "negative": "{衣替|ころもが}えしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{衣替|ころもが}えしていました",
+        "negative": "{衣替|ころもが}えしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{衣替|ころもが}えすれば",
+        "negative": "{衣替|ころもが}えしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{衣替|ころもが}えしたら",
+        "negative": "{衣替|ころもが}えしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{衣替|ころもが}えしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{衣替|ころもが}えしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{衣替|ころもが}えできる",
+        "negative": "{衣替|ころもが}えできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{衣替|ころもが}えされる",
+        "negative": "{衣替|ころもが}えされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{衣替|ころもが}えさせる",
+        "negative": "{衣替|ころもが}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{衣替|ころもが}えしろ",
+        "negative": "{衣替|ころもが}えするな"
+      }
+    ]
   }
 }

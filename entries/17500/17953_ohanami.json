@@ -19,7 +19,9 @@
       "english": "I want to go cherry blossom viewing again this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17953_ohanami_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm planning to have a cherry blossom viewing party at the park this weekend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17953_ohanami_ex3",
@@ -35,7 +39,9 @@
       "english": "When cherry blossom season comes, Ueno Park bustles with crowds of people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nお{花見|はなみ} is one of Japan's most beloved spring traditions, typically taking place in late March to mid-April. Groups of friends, families, or coworkers gather under {桜|さくら} (cherry blossom) trees to eat, drink, and enjoy the flowers. Popular spots include parks, riverbanks, and temple grounds. It is common for someone to be sent early to reserve a spot by laying down a blue tarp ({場所取|ばしょと}り).\n\nCOMMON COLLOCATIONS:\n- お{花見|はなみ}に{行|い}く (go cherry blossom viewing)\n- お{花見|はなみ}{弁当|べんとう} (bento for flower viewing)\n- お{花見|はなみ}スポット (popular viewing spots)\n- お{花見|はなみ}の{時期|じき} (cherry blossom season)\n\nNOTE:\nThe form without お ({花見|はなみ}) is also common and slightly less polite. Both refer to the same custom.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["leisure", "time-season"]
+      "semantic": [
+        "leisure",
+        "time-season"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "お{花見|はなみ}する",
+        "negative": "お{花見|はなみ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "お{花見|はなみ}します",
+        "negative": "お{花見|はなみ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "お{花見|はなみ}した",
+        "negative": "お{花見|はなみ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "お{花見|はなみ}しました",
+        "negative": "お{花見|はなみ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "お{花見|はなみ}して",
+        "negative": "お{花見|はなみ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "お{花見|はなみ}している",
+        "negative": "お{花見|はなみ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "お{花見|はなみ}しています",
+        "negative": "お{花見|はなみ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "お{花見|はなみ}していた",
+        "negative": "お{花見|はなみ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "お{花見|はなみ}していました",
+        "negative": "お{花見|はなみ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "お{花見|はなみ}すれば",
+        "negative": "お{花見|はなみ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "お{花見|はなみ}したら",
+        "negative": "お{花見|はなみ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "お{花見|はなみ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "お{花見|はなみ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "お{花見|はなみ}できる",
+        "negative": "お{花見|はなみ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "お{花見|はなみ}される",
+        "negative": "お{花見|はなみ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "お{花見|はなみ}させる",
+        "negative": "お{花見|はなみ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "お{花見|はなみ}しろ",
+        "negative": "お{花見|はなみ}するな"
+      }
+    ]
   }
 }

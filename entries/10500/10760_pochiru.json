@@ -19,7 +19,9 @@
       "english": "I couldn't help clicking buy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10760_pochiru_ex2",
@@ -27,7 +29,9 @@
       "english": "Ordering stuff online late at night is dangerous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10760_pochiru_ex3",
@@ -35,7 +39,9 @@
       "english": "It was on sale, and before I knew it I'd ordered three of them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-ru):\n- Negative: ポチらない\n- Te-form: ポチって\n- Past: ポチった\n- Often used in the pattern ポチっちゃった (went and clicked buy, implying regret)\n\nETYMOLOGY:\nFrom ポチッ (the mimetic sound of pressing a button) + る. This word spread through online shopping culture, especially Amazon Japan, where the one-click buy feature made impulse purchases easy.\n\nCOMMON COLLOCATIONS:\n- ポチっちゃう: to go ahead and order (with nuance of impulse)\n- ポチった{商品|しょうひん}: something you ordered online\n- {思|おも}わずポチる: to buy on impulse",
@@ -46,14 +52,114 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-ru",
       "formality": "informal",
       "politeness": "plain",
-      "style": ["spoken", "slang"],
-      "domain": ["internet", "colloquial"],
-      "semantic": ["shopping-commerce"]
+      "style": [
+        "spoken",
+        "slang"
+      ],
+      "domain": [
+        "internet",
+        "colloquial"
+      ],
+      "semantic": [
+        "shopping-commerce"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ポチる",
+        "negative": "ポチらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ポチります",
+        "negative": "ポチりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ポチった",
+        "negative": "ポチらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ポチりました",
+        "negative": "ポチりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ポチって",
+        "negative": "ポチらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ポチっている",
+        "negative": "ポチっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ポチっています",
+        "negative": "ポチっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ポチっていた",
+        "negative": "ポチっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ポチっていました",
+        "negative": "ポチっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ポチれば",
+        "negative": "ポチらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ポチったら",
+        "negative": "ポチらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ポチろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ポチりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ポチれる",
+        "negative": "ポチれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ポチられる",
+        "negative": "ポチられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ポチらせる",
+        "negative": "ポチらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ポチれ",
+        "negative": "ポチるな"
+      }
+    ]
   }
 }

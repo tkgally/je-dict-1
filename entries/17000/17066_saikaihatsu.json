@@ -19,7 +19,9 @@
       "english": "Redevelopment in front of the station has begun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17066_saikaihatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This district changed dramatically through redevelopment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17066_saikaihatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Residents are raising voices of opposition to the redevelopment plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in news about urban planning in Japan. Major redevelopment projects in Tokyo ({渋谷|しぶや}, {品川|しながわ}, etc.) are frequently discussed in the media.\n\nCOMMON COLLOCATIONS:\n- {再開発|さいかいはつ}{計画|けいかく} (redevelopment plan)\n- {再開発|さいかいはつ}{事業|じぎょう} (redevelopment project)\n- {再開発|さいかいはつ}エリア (redevelopment area)\n- {駅前|えきまえ}{再開発|さいかいはつ} (station-area redevelopment)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "general"]
+      "semantic": [
+        "building",
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{再開発|さいかいはつ}する",
+        "negative": "{再開発|さいかいはつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{再開発|さいかいはつ}します",
+        "negative": "{再開発|さいかいはつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{再開発|さいかいはつ}した",
+        "negative": "{再開発|さいかいはつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{再開発|さいかいはつ}しました",
+        "negative": "{再開発|さいかいはつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{再開発|さいかいはつ}して",
+        "negative": "{再開発|さいかいはつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{再開発|さいかいはつ}している",
+        "negative": "{再開発|さいかいはつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{再開発|さいかいはつ}しています",
+        "negative": "{再開発|さいかいはつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{再開発|さいかいはつ}していた",
+        "negative": "{再開発|さいかいはつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{再開発|さいかいはつ}していました",
+        "negative": "{再開発|さいかいはつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{再開発|さいかいはつ}すれば",
+        "negative": "{再開発|さいかいはつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{再開発|さいかいはつ}したら",
+        "negative": "{再開発|さいかいはつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{再開発|さいかいはつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{再開発|さいかいはつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{再開発|さいかいはつ}できる",
+        "negative": "{再開発|さいかいはつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{再開発|さいかいはつ}される",
+        "negative": "{再開発|さいかいはつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{再開発|さいかいはつ}させる",
+        "negative": "{再開発|さいかいはつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{再開発|さいかいはつ}しろ",
+        "negative": "{再開発|さいかいはつ}するな"
+      }
+    ]
   }
 }

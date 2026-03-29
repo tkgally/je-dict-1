@@ -19,7 +19,9 @@
       "english": "It's not good to put down other people's work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17458_kenasu_ex2",
@@ -27,7 +29,9 @@
       "english": "He's always criticizing other people's cooking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17458_kenasu_ex3",
@@ -35,7 +39,9 @@
       "english": "There's someone at work who's bad at giving compliments but great at putting others down, and it's a problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlways negative — implies unfair, unkind, or exaggerated criticism. Often contrasted with {褒|ほ}める (to praise).\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{貶|けな}す (to put someone down)\n- {作品|さくひん}を{貶|けな}す (to disparage a work)\n- {貶|けな}してばかりいる (to always be criticizing)\n- {褒|ほ}めもせず{貶|けな}しもしない (neither praising nor criticizing)\n\nSIMILAR WORDS:\n- {批判|ひはん}する: to criticize — can be constructive; not necessarily unfair\n- {悪口|わるぐち}を{言|い}う: to speak ill of — focuses on talking behind someone's back\n- {見下|みくだ}す: to look down on — implies contempt based on perceived superiority",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{貶|けな}す",
+        "negative": "{貶|けな}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{貶|けな}します",
+        "negative": "{貶|けな}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{貶|けな}した",
+        "negative": "{貶|けな}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{貶|けな}しました",
+        "negative": "{貶|けな}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{貶|けな}して",
+        "negative": "{貶|けな}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{貶|けな}している",
+        "negative": "{貶|けな}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{貶|けな}しています",
+        "negative": "{貶|けな}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{貶|けな}していた",
+        "negative": "{貶|けな}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{貶|けな}していました",
+        "negative": "{貶|けな}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{貶|けな}せば",
+        "negative": "{貶|けな}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{貶|けな}したら",
+        "negative": "{貶|けな}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{貶|けな}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{貶|けな}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{貶|けな}せる",
+        "negative": "{貶|けな}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{貶|けな}される",
+        "negative": "{貶|けな}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{貶|けな}させる",
+        "negative": "{貶|けな}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{貶|けな}せ",
+        "negative": "{貶|けな}すな"
+      }
+    ]
   }
 }

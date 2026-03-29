@@ -19,7 +19,9 @@
       "english": "The war ended.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13851_shuuketsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The long trial finally came to an end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13851_shuuketsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The two countries continue negotiations toward ending the conflict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for weighty, significant endings — wars, conflicts, legal proceedings, eras. Not used for everyday endings like finishing a meal or ending a conversation. Common patterns include {終結|しゅうけつ}する (to end), {終結|しゅうけつ}を{迎|むか}える (to reach an end), and {終結|しゅうけつ}に{向|む}けて (toward an ending).\n\nSIMILAR WORDS:\n- {終了|しゅうりょう}: end, completion (neutral, for events, sessions)\n- {完結|かんけつ}: completion (of a series or story)\n- {終焉|しゅうえん}: demise, end (literary, often of life or an era)\n\nCOMMON COLLOCATIONS:\n- {戦争|せんそう}の{終結|しゅうけつ}: end of a war\n- {紛争|ふんそう}の{終結|しゅうけつ}: end of a conflict\n- {終結|しゅうけつ}を{迎|むか}える: reach an end\n- {終結|しゅうけつ}に{向|む}けて: toward an ending\n- {終結|しゅうけつ}{宣言|せんげん}: declaration of an end",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{終結|しゅうけつ}する",
+        "negative": "{終結|しゅうけつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{終結|しゅうけつ}します",
+        "negative": "{終結|しゅうけつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{終結|しゅうけつ}した",
+        "negative": "{終結|しゅうけつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{終結|しゅうけつ}しました",
+        "negative": "{終結|しゅうけつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{終結|しゅうけつ}して",
+        "negative": "{終結|しゅうけつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{終結|しゅうけつ}している",
+        "negative": "{終結|しゅうけつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{終結|しゅうけつ}しています",
+        "negative": "{終結|しゅうけつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{終結|しゅうけつ}していた",
+        "negative": "{終結|しゅうけつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{終結|しゅうけつ}していました",
+        "negative": "{終結|しゅうけつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{終結|しゅうけつ}すれば",
+        "negative": "{終結|しゅうけつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{終結|しゅうけつ}したら",
+        "negative": "{終結|しゅうけつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{終結|しゅうけつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{終結|しゅうけつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{終結|しゅうけつ}できる",
+        "negative": "{終結|しゅうけつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{終結|しゅうけつ}される",
+        "negative": "{終結|しゅうけつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{終結|しゅうけつ}させる",
+        "negative": "{終結|しゅうけつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{終結|しゅうけつ}しろ",
+        "negative": "{終結|しゅうけつ}するな"
+      }
+    ]
   }
 }

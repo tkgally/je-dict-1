@@ -19,7 +19,9 @@
       "english": "What are you scheming?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10618_mokuromu_ex2",
@@ -27,7 +29,9 @@
       "english": "He is planning to expand overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10618_mokuromu_ex3",
@@ -35,7 +39,9 @@
       "english": "The company is apparently planning major restructuring, but the employees haven't been told yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (godan):\n- Negative: {目論|もくろ}まない\n- Te-form: {目論|もくろ}んで\n- Past: {目論|もくろ}んだ\n\nUSAGE:\nCarries a nuance of strategic or calculated planning. Can be neutral (ambitious planning) or negative (scheming, plotting). The noun form {目論見|もくろみ} (plan, scheme, design) is also common: {目論見|もくろみ}が{外|はず}れる (one's plan goes awry).\n\nCOMMON COLLOCATIONS:\n- {逆転|ぎゃくてん}を{目論|もくろ}む: to plot a reversal\n- {拡大|かくだい}を{目論|もくろ}む: to plan expansion\n- {目論見|もくろみ}が{外|はず}れる: one's scheme falls through",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-mu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition", "planning"]
+      "semantic": [
+        "cognition",
+        "planning"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目論|もくろ}む",
+        "negative": "{目論|もくろ}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目論|もくろ}みます",
+        "negative": "{目論|もくろ}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目論|もくろ}んだ",
+        "negative": "{目論|もくろ}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目論|もくろ}みました",
+        "negative": "{目論|もくろ}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目論|もくろ}んで",
+        "negative": "{目論|もくろ}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目論|もくろ}んでいる",
+        "negative": "{目論|もくろ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目論|もくろ}んでいます",
+        "negative": "{目論|もくろ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目論|もくろ}んでいた",
+        "negative": "{目論|もくろ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目論|もくろ}んでいました",
+        "negative": "{目論|もくろ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目論|もくろ}めば",
+        "negative": "{目論|もくろ}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目論|もくろ}んだら",
+        "negative": "{目論|もくろ}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目論|もくろ}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目論|もくろ}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目論|もくろ}める",
+        "negative": "{目論|もくろ}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目論|もくろ}まれる",
+        "negative": "{目論|もくろ}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目論|もくろ}ませる",
+        "negative": "{目論|もくろ}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目論|もくろ}め",
+        "negative": "{目論|もくろ}むな"
+      }
+    ]
   }
 }

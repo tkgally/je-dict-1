@@ -19,7 +19,9 @@
       "english": "Settle down in this town.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12524_teijuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Measures to promote permanent settlement of foreigners are being discussed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12524_teijuu_ex3",
@@ -35,7 +39,9 @@
       "english": "People in the Jomon period led a somewhat settled lifestyle while practicing hunting and gathering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する as a verb. Common in discussions of migration, regional policy, and historical anthropology. Local governments in Japan often use this term in policies aimed at attracting and retaining residents.\n\nCOMMON COLLOCATIONS:\n- {定住|ていじゅう}{促進|そくしん}: settlement promotion\n- {定住|ていじゅう}{人口|じんこう}: resident population\n- {定住|ていじゅう}{生活|せいかつ}: settled lifestyle\n- {定住|ていじゅう}{者|しゃ}: permanent resident, settler\n- {定住|ていじゅう}{外国人|がいこくじん}: foreign permanent resident",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["society-population"],
-      "style": ["written"]
+      "semantic": [
+        "society-population"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{定住|ていじゅう}する",
+        "negative": "{定住|ていじゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{定住|ていじゅう}します",
+        "negative": "{定住|ていじゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{定住|ていじゅう}した",
+        "negative": "{定住|ていじゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{定住|ていじゅう}しました",
+        "negative": "{定住|ていじゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{定住|ていじゅう}して",
+        "negative": "{定住|ていじゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{定住|ていじゅう}している",
+        "negative": "{定住|ていじゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{定住|ていじゅう}しています",
+        "negative": "{定住|ていじゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{定住|ていじゅう}していた",
+        "negative": "{定住|ていじゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{定住|ていじゅう}していました",
+        "negative": "{定住|ていじゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{定住|ていじゅう}すれば",
+        "negative": "{定住|ていじゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{定住|ていじゅう}したら",
+        "negative": "{定住|ていじゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{定住|ていじゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{定住|ていじゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{定住|ていじゅう}できる",
+        "negative": "{定住|ていじゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{定住|ていじゅう}される",
+        "negative": "{定住|ていじゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{定住|ていじゅう}させる",
+        "negative": "{定住|ていじゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{定住|ていじゅう}しろ",
+        "negative": "{定住|ていじゅう}するな"
+      }
+    ]
   }
 }

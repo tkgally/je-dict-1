@@ -24,7 +24,9 @@
       "english": "I visit a hospitalized friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14133_mimau_ex2",
@@ -32,7 +34,9 @@
       "english": "I went to visit at the hospital with flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14133_mimau_ex3",
@@ -40,7 +44,9 @@
       "english": "I visited every day until my grandmother was discharged from the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14133_mimau_ex4",
@@ -48,7 +54,9 @@
       "english": "We were hit by a typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14133_mimau_ex5",
@@ -56,7 +64,9 @@
       "english": "This region was struck by a major earthquake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14133_mimau_ex6",
@@ -64,7 +74,9 @@
       "english": "The country struck by an economic crisis took many years to recover.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is the original meaning and is often used as the noun {見舞|みま}い (a visit to a sick person, a get-well gift). Sense 2 appears almost exclusively in the passive form {見舞|みま}われる, typically with natural disasters or crises as the subject.\n\nCOMMON COLLOCATIONS:\n- {見舞|みま}いに{行|い}く: to go visit (a sick person)\n- {見舞|みま}い{客|きゃく}: visitor (to a sick person)\n- お{見舞|みま}い: get-well visit/gift (polite form)\n- {災害|さいがい}に{見舞|みま}われる: to be struck by a disaster\n- {不幸|ふこう}に{見舞|みま}われる: to be visited by misfortune",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見舞|みま}う",
+        "negative": "{見舞|みま}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見舞|みま}います",
+        "negative": "{見舞|みま}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見舞|みま}った",
+        "negative": "{見舞|みま}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見舞|みま}いました",
+        "negative": "{見舞|みま}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見舞|みま}って",
+        "negative": "{見舞|みま}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見舞|みま}っている",
+        "negative": "{見舞|みま}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見舞|みま}っています",
+        "negative": "{見舞|みま}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見舞|みま}っていた",
+        "negative": "{見舞|みま}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見舞|みま}っていました",
+        "negative": "{見舞|みま}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見舞|みま}えば",
+        "negative": "{見舞|みま}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見舞|みま}ったら",
+        "negative": "{見舞|みま}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見舞|みま}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見舞|みま}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見舞|みま}える",
+        "negative": "{見舞|みま}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見舞|みま}われる",
+        "negative": "{見舞|みま}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見舞|みま}わせる",
+        "negative": "{見舞|みま}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見舞|みま}え",
+        "negative": "{見舞|みま}うな"
+      }
+    ]
   }
 }

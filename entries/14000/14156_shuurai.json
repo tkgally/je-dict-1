@@ -19,7 +19,9 @@
       "english": "A typhoon struck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14156_shuurai_ex2",
@@ -27,7 +29,9 @@
       "english": "They strengthened their defenses in preparation for an enemy attack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14156_shuurai_ex3",
@@ -35,7 +39,9 @@
       "english": "The Mongol invasions are one of the important events in Japanese history.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{襲来|しゅうらい} implies something coming at you with force from outside. It is commonly used for natural disasters ({台風|たいふう}の{襲来|しゅうらい}, {寒波|かんぱ}の{襲来|しゅうらい}) and historical military invasions. The word carries a dramatic, forceful tone. Historically, {元寇|げんこう} (the Mongol invasions of Japan) are often described using this word.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}の{襲来|しゅうらい}: a typhoon striking\n- {敵|てき}の{襲来|しゅうらい}: enemy attack/invasion\n- {寒波|かんぱ}の{襲来|しゅうらい}: onset of a cold wave\n- {襲来|しゅうらい}に{備|そな}える: to prepare for an onslaught",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "style": ["written"]
+      "semantic": [
+        "action"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{襲来|しゅうらい}する",
+        "negative": "{襲来|しゅうらい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{襲来|しゅうらい}します",
+        "negative": "{襲来|しゅうらい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{襲来|しゅうらい}した",
+        "negative": "{襲来|しゅうらい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{襲来|しゅうらい}しました",
+        "negative": "{襲来|しゅうらい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{襲来|しゅうらい}して",
+        "negative": "{襲来|しゅうらい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{襲来|しゅうらい}している",
+        "negative": "{襲来|しゅうらい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{襲来|しゅうらい}しています",
+        "negative": "{襲来|しゅうらい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{襲来|しゅうらい}していた",
+        "negative": "{襲来|しゅうらい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{襲来|しゅうらい}していました",
+        "negative": "{襲来|しゅうらい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{襲来|しゅうらい}すれば",
+        "negative": "{襲来|しゅうらい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{襲来|しゅうらい}したら",
+        "negative": "{襲来|しゅうらい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{襲来|しゅうらい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{襲来|しゅうらい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{襲来|しゅうらい}できる",
+        "negative": "{襲来|しゅうらい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{襲来|しゅうらい}される",
+        "negative": "{襲来|しゅうらい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{襲来|しゅうらい}させる",
+        "negative": "{襲来|しゅうらい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{襲来|しゅうらい}しろ",
+        "negative": "{襲来|しゅうらい}するな"
+      }
+    ]
   }
 }

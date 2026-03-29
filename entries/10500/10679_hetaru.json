@@ -19,7 +19,9 @@
       "english": "The pillow has gone flat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10679_hetaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The sofa cushions have worn out and are hard to sit on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10679_hetaru_ex3",
@@ -35,7 +39,9 @@
       "english": "The mattress I'd been using for years lost its firmness, and my back started to hurt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The object wears out on its own.\n\nCONJUGATION (godan, ら-row):\n- Negative: へたらない\n- Te-form: へたって\n- Past: へたった\n\nASPECT:\nへたっている describes the resulting state of being worn out. へたってきた emphasizes the gradual process of losing firmness.\n\nCOMMON COLLOCATIONS:\n- {枕|まくら}がへたる: pillow goes flat\n- クッションがへたる: cushion wears out\n- {布団|ふとん}がへたる: futon goes flat\n- バネがへたる: spring goes soft",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["state-change"]
+      "semantic": [
+        "state-change"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "へたる",
+        "negative": "へたらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "へたります",
+        "negative": "へたりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "へたった",
+        "negative": "へたらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "へたりました",
+        "negative": "へたりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "へたって",
+        "negative": "へたらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "へたっている",
+        "negative": "へたっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "へたっています",
+        "negative": "へたっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "へたっていた",
+        "negative": "へたっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "へたっていました",
+        "negative": "へたっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "へたれば",
+        "negative": "へたらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "へたったら",
+        "negative": "へたらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "へたろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "へたりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "へたれる",
+        "negative": "へたれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "へたられる",
+        "negative": "へたられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "へたらせる",
+        "negative": "へたらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "へたれ",
+        "negative": "へたるな"
+      }
+    ]
   }
 }

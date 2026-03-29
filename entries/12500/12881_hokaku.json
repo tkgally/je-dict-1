@@ -19,7 +19,9 @@
       "english": "A bear was captured.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12881_hokaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Efforts to capture invasive species are under way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12881_hokaku_ex3",
@@ -35,7 +39,9 @@
       "english": "Traps were set to capture the wild boar that had been appearing in the residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used for catching wild animals, especially in news reports about pest control, wildlife management, or escaped animals. Less commonly used for capturing enemy combatants or vessels. More formal than {捕|つか}まえる (to catch).\n\nCOMMON COLLOCATIONS:\n- {捕獲|ほかく}する: to capture\n- {捕獲|ほかく}される: to be captured\n- {生|い}け{捕獲|ほかく}: capture alive\n- {捕獲|ほかく}{作戦|さくせん}: capture operation\n\nSIMILAR WORDS:\n- {捕|つか}まえる: to catch (everyday, general)\n- {逮捕|たいほ}: arrest (for people, legal context)\n- {拿捕|だほ}: seizure (of ships)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{捕獲|ほかく}する",
+        "negative": "{捕獲|ほかく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{捕獲|ほかく}します",
+        "negative": "{捕獲|ほかく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{捕獲|ほかく}した",
+        "negative": "{捕獲|ほかく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{捕獲|ほかく}しました",
+        "negative": "{捕獲|ほかく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{捕獲|ほかく}して",
+        "negative": "{捕獲|ほかく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{捕獲|ほかく}している",
+        "negative": "{捕獲|ほかく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{捕獲|ほかく}しています",
+        "negative": "{捕獲|ほかく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{捕獲|ほかく}していた",
+        "negative": "{捕獲|ほかく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{捕獲|ほかく}していました",
+        "negative": "{捕獲|ほかく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{捕獲|ほかく}すれば",
+        "negative": "{捕獲|ほかく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{捕獲|ほかく}したら",
+        "negative": "{捕獲|ほかく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{捕獲|ほかく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{捕獲|ほかく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{捕獲|ほかく}できる",
+        "negative": "{捕獲|ほかく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{捕獲|ほかく}される",
+        "negative": "{捕獲|ほかく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{捕獲|ほかく}させる",
+        "negative": "{捕獲|ほかく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{捕獲|ほかく}しろ",
+        "negative": "{捕獲|ほかく}するな"
+      }
+    ]
   }
 }

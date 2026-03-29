@@ -21,7 +21,9 @@
       "id": "09140_kuraitsuku_ex1",
       "japanese": "{犬|いぬ}が{骨|ほね}に{食|く}らいついた。",
       "english": "The dog sank its teeth into the bone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "09140_kuraitsuku_ex2",
       "japanese": "{獲物|えもの}に{食|く}らいつく{ライオン|らいおん}",
       "english": "a lion sinking its teeth into its prey",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "09140_kuraitsuku_ex3",
       "japanese": "{彼|かれ}の{腕|うで}に{思|おも}い{切|き}り{食|く}らいついた。",
       "english": "I bit into his arm with all my might.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "09140_kuraitsuku_ex4",
       "japanese": "チャンスに{食|く}らいつく",
       "english": "to seize an opportunity tenaciously",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "09140_kuraitsuku_ex5",
       "japanese": "{最後|さいご}まで{食|く}らいついていこう。",
       "english": "Let's stick with it until the end.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "09140_kuraitsuku_ex6",
       "japanese": "{強豪|きょうごう}チームに{食|く}らいついて、{善戦|ぜんせん}した。",
       "english": "They tenaciously kept up with the powerhouse team and put up a good fight.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,11 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{食|く}らいつく",
+        "negative": "{食|く}らいつかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{食|く}らいつきます",
+        "negative": "{食|く}らいつきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{食|く}らいついた",
+        "negative": "{食|く}らいつかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{食|く}らいつきました",
+        "negative": "{食|く}らいつきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{食|く}らいついて",
+        "negative": "{食|く}らいつかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{食|く}らいついている",
+        "negative": "{食|く}らいついていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{食|く}らいついています",
+        "negative": "{食|く}らいついていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{食|く}らいついていた",
+        "negative": "{食|く}らいついていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{食|く}らいついていました",
+        "negative": "{食|く}らいついていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{食|く}らいつけば",
+        "negative": "{食|く}らいつかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{食|く}らいついたら",
+        "negative": "{食|く}らいつかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{食|く}らいつこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{食|く}らいつきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{食|く}らいつける",
+        "negative": "{食|く}らいつけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{食|く}らいつかれる",
+        "negative": "{食|く}らいつかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{食|く}らいつかせる",
+        "negative": "{食|く}らいつかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{食|く}らいつけ",
+        "negative": "{食|く}らいつくな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "These sweets keep well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12886_himochi_ex2",
@@ -27,7 +29,9 @@
       "english": "Fresh cream cake doesn't keep long.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12886_himochi_ex3",
@@ -35,7 +39,9 @@
       "english": "When choosing souvenirs, it's better to pick things that keep well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used in the patterns {日持|ひも}ちがする (keeps well) and {日持|ひも}ちしない (doesn't keep well). Very practical everyday vocabulary, especially when discussing food gifts, souvenirs, and cooking. An important consideration in Japanese gift-giving culture, where {日持|ひも}ちするもの (long-lasting items) are preferred for souvenirs.\n\nCOMMON COLLOCATIONS:\n- {日持|ひも}ちがする: to keep well, to have a long shelf life\n- {日持|ひも}ちしない: doesn't keep, perishable\n- {日持|ひも}ちする{食品|しょくひん}: food with a long shelf life",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{日持|ひも}ちする",
+        "negative": "{日持|ひも}ちしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{日持|ひも}ちします",
+        "negative": "{日持|ひも}ちしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{日持|ひも}ちした",
+        "negative": "{日持|ひも}ちしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{日持|ひも}ちしました",
+        "negative": "{日持|ひも}ちしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{日持|ひも}ちして",
+        "negative": "{日持|ひも}ちしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{日持|ひも}ちしている",
+        "negative": "{日持|ひも}ちしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{日持|ひも}ちしています",
+        "negative": "{日持|ひも}ちしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{日持|ひも}ちしていた",
+        "negative": "{日持|ひも}ちしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{日持|ひも}ちしていました",
+        "negative": "{日持|ひも}ちしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{日持|ひも}ちすれば",
+        "negative": "{日持|ひも}ちしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{日持|ひも}ちしたら",
+        "negative": "{日持|ひも}ちしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{日持|ひも}ちしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{日持|ひも}ちしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{日持|ひも}ちできる",
+        "negative": "{日持|ひも}ちできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{日持|ひも}ちされる",
+        "negative": "{日持|ひも}ちされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{日持|ひも}ちさせる",
+        "negative": "{日持|ひも}ちさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{日持|ひも}ちしろ",
+        "negative": "{日持|ひも}ちするな"
+      }
+    ]
   }
 }

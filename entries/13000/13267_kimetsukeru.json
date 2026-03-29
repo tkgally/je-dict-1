@@ -19,7 +19,9 @@
       "english": "I'd like you not to jump to conclusions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13267_kimetsukeru_ex2",
@@ -27,7 +29,9 @@
       "english": "It's too early to assume they're the culprit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13267_kimetsukeru_ex3",
@@ -35,7 +39,9 @@
       "english": "It's not right to judge people by their appearance and make assumptions about them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{決|き}めつける always carries a negative connotation — it implies the judgment is unfair, premature, or unwarranted. The person doing the {決|き}めつけ is seen as being unreasonable. Common patterns include ～と{決|き}めつける (to decide that...) and ～だと{決|き}めつける (to assume it's...).\n\nPATTERNS:\n- ～と{決|き}めつける: to assume that ~\n- ～だと{決|き}めつける: to conclude that it is ~\n- {頭|あたま}から{決|き}めつける: to assume from the start\n- {勝手|かって}に{決|き}めつける: to decide on one's own (without asking)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{決|き}めつける",
+        "negative": "{決|き}めつけない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{決|き}めつけます",
+        "negative": "{決|き}めつけません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{決|き}めつけた",
+        "negative": "{決|き}めつけなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{決|き}めつけました",
+        "negative": "{決|き}めつけませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{決|き}めつけて",
+        "negative": "{決|き}めつけなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{決|き}めつけている",
+        "negative": "{決|き}めつけていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{決|き}めつけています",
+        "negative": "{決|き}めつけていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{決|き}めつけていた",
+        "negative": "{決|き}めつけていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{決|き}めつけていました",
+        "negative": "{決|き}めつけていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{決|き}めつければ",
+        "negative": "{決|き}めつけなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{決|き}めつけたら",
+        "negative": "{決|き}めつけなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{決|き}めつけよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{決|き}めつけましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{決|き}めつけられる",
+        "negative": "{決|き}めつけられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{決|き}めつけられる",
+        "negative": "{決|き}めつけられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{決|き}めつけさせる",
+        "negative": "{決|き}めつけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{決|き}めつけろ",
+        "negative": "{決|き}めつけるな"
+      }
+    ]
   }
 }

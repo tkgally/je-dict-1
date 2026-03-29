@@ -24,7 +24,9 @@
       "english": "We must not let the tradition die out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15895_tayasu_ex2",
@@ -32,7 +34,9 @@
       "english": "I added firewood so the fire wouldn't go out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15895_tayasu_ex3",
@@ -40,7 +44,9 @@
       "english": "They are looking for a successor so as not to let the family line that has continued from their ancestors die out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15895_tayasu_ex4",
@@ -48,7 +54,9 @@
       "english": "She never stops smiling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15895_tayasu_ex5",
@@ -56,7 +64,9 @@
       "english": "She always keeps flowers on display without letting them run out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15895_tayasu_ex6",
@@ -64,7 +74,9 @@
       "english": "That restaurant always has a steady stream of customers, so you can't get in without a reservation.",
       "notes": "Uses the intransitive form {絶|た}えない.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {絶|た}やす is transitive. The intransitive counterpart is {絶|た}える (to cease, to die out).\n\nASPECT (ている): {絶|た}やしている indicates an ongoing state of having let something lapse.\n\nNEGATIVE FORM: Very frequently used in the negative ({絶|た}やさない) to express maintaining something continuously: {笑顔|えがお}を{絶|た}やさない (to always keep smiling).\n\nPARTICLE PATTERNS:\n- [thing]を{絶|た}やす (to let something die out)\n\nCOMMON COLLOCATIONS:\n- {笑顔|えがお}を{絶|た}やさない: to always keep smiling\n- {火|ひ}を{絶|た}やさない: to keep the fire going\n- {伝統|でんとう}を{絶|た}やす: to let a tradition die out\n- {花|はな}を{絶|た}やさない: to always have flowers (on display)",
@@ -82,12 +94,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["change"]
+      "semantic": [
+        "change"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{絶|た}やす",
+        "negative": "{絶|た}やさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{絶|た}やします",
+        "negative": "{絶|た}やしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{絶|た}やした",
+        "negative": "{絶|た}やさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{絶|た}やしました",
+        "negative": "{絶|た}やしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{絶|た}やして",
+        "negative": "{絶|た}やさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{絶|た}やしている",
+        "negative": "{絶|た}やしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{絶|た}やしています",
+        "negative": "{絶|た}やしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{絶|た}やしていた",
+        "negative": "{絶|た}やしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{絶|た}やしていました",
+        "negative": "{絶|た}やしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{絶|た}やせば",
+        "negative": "{絶|た}やさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{絶|た}やしたら",
+        "negative": "{絶|た}やさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{絶|た}やそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{絶|た}やしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{絶|た}やせる",
+        "negative": "{絶|た}やせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{絶|た}やされる",
+        "negative": "{絶|た}やされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{絶|た}やさせる",
+        "negative": "{絶|た}やさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{絶|た}やせ",
+        "negative": "{絶|た}やすな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The turnover rate is high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16383_rishoku_ex2",
@@ -27,7 +29,9 @@
       "english": "After leaving my job, I completed the procedures at the employment office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16383_rishoku_ex3",
@@ -35,7 +39,9 @@
       "english": "To prevent young employees from leaving, we need to create a comfortable work environment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{離職|りしょく} is a formal, neutral term that covers both quitting and being let go. It is the standard term used in official documents such as the {離職票|りしょくひょう} (certificate of separation from employment), which is needed to apply for unemployment insurance.\n\nCOMMON COLLOCATIONS:\n- {離職|りしょく}{率|りつ} (turnover rate)\n- {離職|りしょく}{票|ひょう} (certificate of separation from employment)\n- {離職|りしょく}{届|とどけ} (notice of separation)\n- {離職|りしょく}を{防|ふせ}ぐ (to prevent employee turnover)\n- {離職|りしょく}{期間|きかん} (period of unemployment)\n\nSIMILAR WORDS:\n{退職|たいしょく} emphasizes voluntary resignation or retirement, while {離職|りしょく} is a broader, more neutral administrative term covering any departure from employment.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{離職|りしょく}する",
+        "negative": "{離職|りしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{離職|りしょく}します",
+        "negative": "{離職|りしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{離職|りしょく}した",
+        "negative": "{離職|りしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{離職|りしょく}しました",
+        "negative": "{離職|りしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{離職|りしょく}して",
+        "negative": "{離職|りしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{離職|りしょく}している",
+        "negative": "{離職|りしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{離職|りしょく}しています",
+        "negative": "{離職|りしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{離職|りしょく}していた",
+        "negative": "{離職|りしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{離職|りしょく}していました",
+        "negative": "{離職|りしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{離職|りしょく}すれば",
+        "negative": "{離職|りしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{離職|りしょく}したら",
+        "negative": "{離職|りしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{離職|りしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{離職|りしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{離職|りしょく}できる",
+        "negative": "{離職|りしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{離職|りしょく}される",
+        "negative": "{離職|りしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{離職|りしょく}させる",
+        "negative": "{離職|りしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{離職|りしょく}しろ",
+        "negative": "{離職|りしょく}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The suspect barricaded himself in a building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18381_tatekomoru_ex2",
@@ -27,7 +29,9 @@
       "english": "An incident occurred in which someone took hostages and barricaded themselves in a bank.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18381_tatekomoru_ex3",
@@ -35,7 +39,9 @@
       "english": "Before exams, I'd shut myself in my room and study from morning till night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (ら row): {立|た}てこもる・{立|た}てこもります\nて-form: {立|た}てこもって\nた-form: {立|た}てこもった\n\nAlso written as {立|た}て{籠|こ}もる with the kanji {籠|こ}もる.\n\nCOMMON COLLOCATIONS:\n- ビルに{立|た}てこもる (to barricade oneself in a building)\n- {人質|ひとじち}を{取|と}って{立|た}てこもる (to take hostages and barricade oneself)\n- {部屋|へや}に{立|た}てこもる (to shut oneself in a room)\n- {立|た}てこもり{事件|じけん} (a barricade/siege incident)\n\nUSAGE:\nFrequently appears in news reports about criminal incidents. In casual usage, it can describe someone who shuts themselves in a room to concentrate on something, though {引|ひ}きこもる is more common for that.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{立|た}てこもる",
+        "negative": "{立|た}てこもらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{立|た}てこもります",
+        "negative": "{立|た}てこもりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{立|た}てこもった",
+        "negative": "{立|た}てこもらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{立|た}てこもりました",
+        "negative": "{立|た}てこもりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{立|た}てこもって",
+        "negative": "{立|た}てこもらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{立|た}てこもっている",
+        "negative": "{立|た}てこもっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{立|た}てこもっています",
+        "negative": "{立|た}てこもっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{立|た}てこもっていた",
+        "negative": "{立|た}てこもっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{立|た}てこもっていました",
+        "negative": "{立|た}てこもっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{立|た}てこもれば",
+        "negative": "{立|た}てこもらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{立|た}てこもったら",
+        "negative": "{立|た}てこもらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{立|た}てこもろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{立|た}てこもりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{立|た}てこもれる",
+        "negative": "{立|た}てこもれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{立|た}てこもられる",
+        "negative": "{立|た}てこもられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{立|た}てこもらせる",
+        "negative": "{立|た}てこもらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{立|た}てこもれ",
+        "negative": "{立|た}てこもるな"
+      }
+    ]
   }
 }

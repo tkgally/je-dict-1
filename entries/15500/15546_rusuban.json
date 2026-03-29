@@ -19,7 +19,9 @@
       "english": "I'm house-sitting today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15546_rusuban_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm worried about leaving the children home alone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15546_rusuban_ex3",
@@ -35,7 +39,9 @@
       "english": "While my family is on vacation, I'm staying home with the dog.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{留守番|るすばん}する means to stay home and look after things while others are away. When used about children, it often implies they are home alone ({子供|こども}だけで{留守番|るすばん}する).\n\nCOMMON COLLOCATIONS:\n- {留守番|るすばん}をする (to house-sit)\n- {留守番|るすばん}{電話|でんわ} (answering machine — lit. 'absence-watching phone')\n- お{留守番|るすばん} (house-sitting — polite/cute form, often used with children)\n- {留守番|るすばん}を{頼|たの}む (to ask someone to watch the house)\n\nSIMILAR WORDS:\n{留守|るす} means being away from home, while {留守番|るすばん} is the act of staying behind to watch over things during that absence.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "general"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{留守番|るすばん}する",
+        "negative": "{留守番|るすばん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{留守番|るすばん}します",
+        "negative": "{留守番|るすばん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{留守番|るすばん}した",
+        "negative": "{留守番|るすばん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{留守番|るすばん}しました",
+        "negative": "{留守番|るすばん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{留守番|るすばん}して",
+        "negative": "{留守番|るすばん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{留守番|るすばん}している",
+        "negative": "{留守番|るすばん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{留守番|るすばん}しています",
+        "negative": "{留守番|るすばん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{留守番|るすばん}していた",
+        "negative": "{留守番|るすばん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{留守番|るすばん}していました",
+        "negative": "{留守番|るすばん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{留守番|るすばん}すれば",
+        "negative": "{留守番|るすばん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{留守番|るすばん}したら",
+        "negative": "{留守番|るすばん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{留守番|るすばん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{留守番|るすばん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{留守番|るすばん}できる",
+        "negative": "{留守番|るすばん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{留守番|るすばん}される",
+        "negative": "{留守番|るすばん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{留守番|るすばん}させる",
+        "negative": "{留守番|るすばん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{留守番|るすばん}しろ",
+        "negative": "{留守番|るすばん}するな"
+      }
+    ]
   }
 }

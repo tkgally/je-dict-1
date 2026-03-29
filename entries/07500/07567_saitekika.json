@@ -17,21 +17,27 @@
       "japanese": "ウェブサイトの{表示|ひょうじ}{速度|そくど}を{最適化|さいてきか}する。",
       "english": "Optimize the website display speed.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07567_saitekika_ex2",
       "japanese": "{検索|けんさく}エンジン{最適化|さいてきか}（SEO）が{重要|じゅうよう}だ。",
       "english": "Search engine optimization (SEO) is important.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07567_saitekika_ex3",
       "japanese": "{在庫|ざいこ}{管理|かんり}の{最適化|さいてきか}を{行|おこな}う。",
       "english": "We carry out optimization of inventory management.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{最適|さいてき} (optimal, best suited) + {化|か} (-ization)\n\nCOMMON COLLOCATIONS:\n・{最適化|さいてきか}する - to optimize\n・{最適化|さいてきか}を{図|はか}る - to aim for optimization\n・{最適化|さいてきか}ツール - optimization tool\n\nIT/TECH CONTEXTS:\n・{検索|けんさく}エンジン{最適化|さいてきか} (SEO) - search engine optimization\n・コード{最適化|さいてきか} - code optimization\n・パフォーマンス{最適化|さいてきか} - performance optimization\n・メモリ{最適化|さいてきか} - memory optimization\n\nBUSINESS CONTEXTS:\n・{業務|ぎょうむ}プロセスの{最適化|さいてきか} - business process optimization\n・サプライチェーンの{最適化|さいてきか} - supply chain optimization\n\nRELATED WORDS:\n・{最適|さいてき} - optimal\n・{効率化|こうりつか} - streamlining",
@@ -41,9 +47,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["technology", "business"]
+      "semantic": [
+        "technology",
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{最適化|さいてきか}する",
+        "negative": "{最適化|さいてきか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{最適化|さいてきか}します",
+        "negative": "{最適化|さいてきか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{最適化|さいてきか}した",
+        "negative": "{最適化|さいてきか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{最適化|さいてきか}しました",
+        "negative": "{最適化|さいてきか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{最適化|さいてきか}して",
+        "negative": "{最適化|さいてきか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{最適化|さいてきか}している",
+        "negative": "{最適化|さいてきか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{最適化|さいてきか}しています",
+        "negative": "{最適化|さいてきか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{最適化|さいてきか}していた",
+        "negative": "{最適化|さいてきか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{最適化|さいてきか}していました",
+        "negative": "{最適化|さいてきか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{最適化|さいてきか}すれば",
+        "negative": "{最適化|さいてきか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{最適化|さいてきか}したら",
+        "negative": "{最適化|さいてきか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{最適化|さいてきか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{最適化|さいてきか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{最適化|さいてきか}できる",
+        "negative": "{最適化|さいてきか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{最適化|さいてきか}される",
+        "negative": "{最適化|さいてきか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{最適化|さいてきか}させる",
+        "negative": "{最適化|さいてきか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{最適化|さいてきか}しろ",
+        "negative": "{最適化|さいてきか}するな"
+      }
+    ]
   }
 }

@@ -18,7 +18,9 @@
       "english": "Each person fulfilled their role.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10060_hatasu_ex2",
@@ -26,7 +28,9 @@
       "english": "To keep a promise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10060_hatasu_ex3",
@@ -34,7 +38,9 @@
       "english": "To fulfill one's responsibility.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10060_hatasu_ex4",
@@ -42,7 +48,9 @@
       "english": "To work hard to achieve one's dream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{果|は}たす.\n\nCOMMON PATTERNS:\n・{役割|やくわり}を{果|は}たす (to fulfill a role)\n・{約束|やくそく}を{果|は}たす (to keep a promise)\n・{責任|せきにん}を{果|は}たす (to fulfill responsibility)\n・{義務|ぎむ}を{果|は}たす (to carry out one's duty)\n・{目的|もくてき}を{果|は}たす (to achieve one's purpose)\n\nRELATED:\n・{果|は}たして (as expected; indeed)",
@@ -53,11 +61,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{果|は}たす",
+        "negative": "{果|は}たさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{果|は}たします",
+        "negative": "{果|は}たしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{果|は}たした",
+        "negative": "{果|は}たさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{果|は}たしました",
+        "negative": "{果|は}たしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{果|は}たして",
+        "negative": "{果|は}たさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{果|は}たしている",
+        "negative": "{果|は}たしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{果|は}たしています",
+        "negative": "{果|は}たしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{果|は}たしていた",
+        "negative": "{果|は}たしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{果|は}たしていました",
+        "negative": "{果|は}たしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{果|は}たせば",
+        "negative": "{果|は}たさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{果|は}たしたら",
+        "negative": "{果|は}たさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{果|は}たそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{果|は}たしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{果|は}たせる",
+        "negative": "{果|は}たせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{果|は}たされる",
+        "negative": "{果|は}たされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{果|は}たさせる",
+        "negative": "{果|は}たさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{果|は}たせ",
+        "negative": "{果|は}たすな"
+      }
+    ]
   }
 }

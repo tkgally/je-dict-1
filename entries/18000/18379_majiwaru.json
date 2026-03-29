@@ -24,7 +24,9 @@
       "english": "Two roads cross here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18379_majiwaru_ex2",
@@ -32,7 +34,9 @@
       "english": "Parallel lines never intersect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18379_majiwaru_ex3",
@@ -40,7 +44,9 @@
       "english": "The moment their eyes met, he looked away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18379_majiwaru_ex4",
@@ -48,7 +54,9 @@
       "english": "I'm bad at socializing with people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18379_majiwaru_ex5",
@@ -56,7 +64,9 @@
       "english": "Through studying abroad, I got the chance to interact with people from various countries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18379_majiwaru_ex6",
@@ -64,7 +74,9 @@
       "english": "If you mix with vermilion, you turn red. (You become like those you associate with.)",
       "notes": "Well-known proverb.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (ら row): {交|まじ}わる・{交|まじ}わります\nて-form: {交|まじ}わって\nた-form: {交|まじ}わった\n\nPROVERB:\n{朱|しゅ}に{交|まじ}われば{赤|あか}くなる — \"If you mix with vermilion, you become red.\" Equivalent to \"You are the company you keep\" or \"Bad company corrupts good character.\"\n\nSIMILAR WORDS:\n- {交差|こうさ}する: To intersect — more technical and objective. Used for roads and geometry.\n- {付|つ}き{合|あ}う: To associate with, to date — more common in everyday speech for personal relationships.\n- {交|ま}じる: To mix in with, to be blended — emphasizes becoming part of a group rather than mutual interaction.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{交|まじ}わる",
+        "negative": "{交|まじ}わらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{交|まじ}わります",
+        "negative": "{交|まじ}わりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{交|まじ}わった",
+        "negative": "{交|まじ}わらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{交|まじ}わりました",
+        "negative": "{交|まじ}わりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{交|まじ}わって",
+        "negative": "{交|まじ}わらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{交|まじ}わっている",
+        "negative": "{交|まじ}わっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{交|まじ}わっています",
+        "negative": "{交|まじ}わっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{交|まじ}わっていた",
+        "negative": "{交|まじ}わっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{交|まじ}わっていました",
+        "negative": "{交|まじ}わっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{交|まじ}われば",
+        "negative": "{交|まじ}わらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{交|まじ}わったら",
+        "negative": "{交|まじ}わらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{交|まじ}わろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{交|まじ}わりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{交|まじ}われる",
+        "negative": "{交|まじ}われない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{交|まじ}わられる",
+        "negative": "{交|まじ}わられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{交|まじ}わらせる",
+        "negative": "{交|まじ}わらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{交|まじ}われ",
+        "negative": "{交|まじ}わるな"
+      }
+    ]
   }
 }

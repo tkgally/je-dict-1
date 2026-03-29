@@ -17,21 +17,27 @@
       "japanese": "{週末|しゅうまつ}に{部屋|へや}の{模様替|もようが}えをした。",
       "english": "I rearranged my room over the weekend.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07708_moyougae_ex2",
       "japanese": "{模様替|もようが}えで{気分|きぶん}も{変|か}わる。",
       "english": "Redecorating can change your mood too.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07708_moyougae_ex3",
       "japanese": "{春|はる}になったから{模様替|もようが}えしたい。",
       "english": "Since it's spring, I want to rearrange the room.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{模様|もよう} (pattern, appearance) + {替|か}え (change) - changing the appearance/pattern (of a room)\n\nSCOPE:\nCan range from simply moving furniture around to more extensive redecorating with new curtains, rugs, or paint.\n\nRELATED:\n・{衣替|ころもが}え - seasonal wardrobe change\n・{引|ひ}っ{越|こ}し - moving (to a new home)\n・インテリア - interior decor\n\nCOLLOCATIONS:\n・{部屋|へや}の{模様替|もようが}え - room rearrangement\n・{模様替|もようが}えをする - to redecorate",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["household", "home"],
-      "domain": []
+      "semantic": [
+        "household",
+        "home"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{模様替|もようが}えする",
+        "negative": "{模様替|もようが}えしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{模様替|もようが}えします",
+        "negative": "{模様替|もようが}えしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{模様替|もようが}えした",
+        "negative": "{模様替|もようが}えしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{模様替|もようが}えしました",
+        "negative": "{模様替|もようが}えしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{模様替|もようが}えして",
+        "negative": "{模様替|もようが}えしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{模様替|もようが}えしている",
+        "negative": "{模様替|もようが}えしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{模様替|もようが}えしています",
+        "negative": "{模様替|もようが}えしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{模様替|もようが}えしていた",
+        "negative": "{模様替|もようが}えしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{模様替|もようが}えしていました",
+        "negative": "{模様替|もようが}えしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{模様替|もようが}えすれば",
+        "negative": "{模様替|もようが}えしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{模様替|もようが}えしたら",
+        "negative": "{模様替|もようが}えしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{模様替|もようが}えしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{模様替|もようが}えしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{模様替|もようが}えできる",
+        "negative": "{模様替|もようが}えできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{模様替|もようが}えされる",
+        "negative": "{模様替|もようが}えされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{模様替|もようが}えさせる",
+        "negative": "{模様替|もようが}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{模様替|もようが}えしろ",
+        "negative": "{模様替|もようが}えするな"
+      }
+    ]
   }
 }

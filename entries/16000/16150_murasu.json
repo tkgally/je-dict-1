@@ -19,7 +19,9 @@
       "english": "Let the rice steam for ten minutes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16150_murasu_ex2",
@@ -27,7 +29,9 @@
       "english": "Once the rice is done cooking, let it steam without opening the lid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16150_murasu_ex3",
@@ -35,7 +39,9 @@
       "english": "If you let the bread rest after baking, it turns out fluffy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb (す ending, conjugates as s-row: {蒸|む}らさない, {蒸|む}らします). Transitive — takes a direct object marked with を.\n\nUSAGE:\n{蒸|む}らす is a key cooking term in Japanese cuisine. The {蒸|む}らし (steaming/resting) step after cooking rice is considered essential for achieving the ideal texture. Most Japanese rice cooker instructions include this step.\n\nCOMMON COLLOCATIONS:\n- ご{飯|はん}を{蒸|む}らす (to let rice rest/steam)\n- {蓋|ふた}をして{蒸|む}らす (to cover and let steam)\n- {蒸|む}らし{時間|じかん} (steaming/resting time)\n- {五分|ごふん}{蒸|む}らす (let rest for five minutes)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption", "food"]
+      "semantic": [
+        "consumption",
+        "food"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{蒸|む}らす",
+        "negative": "{蒸|む}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{蒸|む}らします",
+        "negative": "{蒸|む}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{蒸|む}らした",
+        "negative": "{蒸|む}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{蒸|む}らしました",
+        "negative": "{蒸|む}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{蒸|む}らして",
+        "negative": "{蒸|む}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{蒸|む}らしている",
+        "negative": "{蒸|む}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{蒸|む}らしています",
+        "negative": "{蒸|む}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{蒸|む}らしていた",
+        "negative": "{蒸|む}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{蒸|む}らしていました",
+        "negative": "{蒸|む}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{蒸|む}らせば",
+        "negative": "{蒸|む}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{蒸|む}らしたら",
+        "negative": "{蒸|む}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{蒸|む}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{蒸|む}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{蒸|む}らせる",
+        "negative": "{蒸|む}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{蒸|む}らされる",
+        "negative": "{蒸|む}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{蒸|む}らさせる",
+        "negative": "{蒸|む}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{蒸|む}らせ",
+        "negative": "{蒸|む}らすな"
+      }
+    ]
   }
 }

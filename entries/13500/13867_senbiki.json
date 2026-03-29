@@ -24,7 +24,9 @@
       "english": "Underline the important parts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13867_senbiki_ex2",
@@ -32,7 +34,9 @@
       "english": "I read the textbook while underlining in red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13867_senbiki_ex3",
@@ -40,7 +44,9 @@
       "english": "If you use a ruler to draw lines, you can draw them neatly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13867_senbiki_ex4",
@@ -48,7 +54,9 @@
       "english": "Drawing the line between public and private matters is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13867_senbiki_ex5",
@@ -56,7 +64,9 @@
       "english": "It's difficult to decide where to draw the line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13867_senbiki_ex6",
@@ -64,7 +74,9 @@
       "english": "The line between a joke and an insult differs from person to person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe figurative sense (making a distinction) is very common in everyday conversation and writing. The pattern AとBの{線引|せんび}き (the distinction between A and B) is standard. Also common is どこで{線引|せんび}きをするか (where to draw the line).\n\nCOMMON COLLOCATIONS:\n- {線引|せんび}きをする: draw a line; make a distinction\n- {線引|せんび}きが{難|むずか}しい: it's hard to draw the line\n- {公私|こうし}の{線引|せんび}き: distinction between public and private\n- {明確|めいかく}な{線引|せんび}き: clear distinction",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{線引|せんび}きする",
+        "negative": "{線引|せんび}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{線引|せんび}きします",
+        "negative": "{線引|せんび}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{線引|せんび}きした",
+        "negative": "{線引|せんび}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{線引|せんび}きしました",
+        "negative": "{線引|せんび}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{線引|せんび}きして",
+        "negative": "{線引|せんび}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{線引|せんび}きしている",
+        "negative": "{線引|せんび}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{線引|せんび}きしています",
+        "negative": "{線引|せんび}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{線引|せんび}きしていた",
+        "negative": "{線引|せんび}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{線引|せんび}きしていました",
+        "negative": "{線引|せんび}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{線引|せんび}きすれば",
+        "negative": "{線引|せんび}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{線引|せんび}きしたら",
+        "negative": "{線引|せんび}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{線引|せんび}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{線引|せんび}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{線引|せんび}きできる",
+        "negative": "{線引|せんび}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{線引|せんび}きされる",
+        "negative": "{線引|せんび}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{線引|せんび}きさせる",
+        "negative": "{線引|せんび}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{線引|せんび}きしろ",
+        "negative": "{線引|せんび}きするな"
+      }
+    ]
   }
 }

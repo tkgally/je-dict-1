@@ -19,7 +19,9 @@
       "english": "Mix two types of liquid together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18075_konwa_ex2",
@@ -27,7 +29,9 @@
       "english": "Create a new solution by mixing chemicals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18075_konwa_ex3",
@@ -35,7 +39,9 @@
       "english": "It's necessary to mix cement and sand in the proper ratio.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{混|こん} (mix) + {和|わ} (harmonize, blend). Implies mixing things together into a harmonious blend.\n\nUSAGE:\nA technical term more common in scientific, pharmaceutical, and industrial contexts than in everyday conversation. For everyday mixing, {混|ま}ぜる is more natural.\n\nSIMILAR WORDS:\n- {混合|こんごう}: mixing, mixture (more general)\n- {混|ま}ぜる: to mix (everyday verb)\n- {調合|ちょうごう}: compounding, preparation (especially medicine)\n- {配合|はいごう}: blending, formulation\n\nCOMMON COLLOCATIONS:\n- {混和|こんわ}{材|ざい}: admixture (concrete additive)\n- {混和|こんわ}{剤|ざい}: blending agent",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["technical"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{混和|こんわ}する",
+        "negative": "{混和|こんわ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{混和|こんわ}します",
+        "negative": "{混和|こんわ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{混和|こんわ}した",
+        "negative": "{混和|こんわ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{混和|こんわ}しました",
+        "negative": "{混和|こんわ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{混和|こんわ}して",
+        "negative": "{混和|こんわ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{混和|こんわ}している",
+        "negative": "{混和|こんわ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{混和|こんわ}しています",
+        "negative": "{混和|こんわ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{混和|こんわ}していた",
+        "negative": "{混和|こんわ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{混和|こんわ}していました",
+        "negative": "{混和|こんわ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{混和|こんわ}すれば",
+        "negative": "{混和|こんわ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{混和|こんわ}したら",
+        "negative": "{混和|こんわ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{混和|こんわ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{混和|こんわ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{混和|こんわ}できる",
+        "negative": "{混和|こんわ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{混和|こんわ}される",
+        "negative": "{混和|こんわ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{混和|こんわ}させる",
+        "negative": "{混和|こんわ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{混和|こんわ}しろ",
+        "negative": "{混和|こんわ}するな"
+      }
+    ]
   }
 }

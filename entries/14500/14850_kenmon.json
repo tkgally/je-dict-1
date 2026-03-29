@@ -19,7 +19,9 @@
       "english": "I got caught at a police checkpoint.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14850_kenmon_ex2",
@@ -27,7 +29,9 @@
       "english": "Drunk-driving checkpoints increase at year-end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14850_kenmon_ex3",
@@ -35,7 +39,9 @@
       "english": "I was driving late at night when I came upon a checkpoint and was asked to show my driver's license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{検問|けんもん} refers to official inspections, most commonly police checkpoints on roads. In Japan, police set up {検問|けんもん} to check for drunk driving, unlicensed driving, and other traffic violations, especially during holiday seasons.\n\nCOMMON COLLOCATIONS:\n- {検問|けんもん}に{引|ひ}っかかる (get stopped at a checkpoint)\n- {検問|けんもん}を{行|おこな}う (conduct an inspection)\n- {飲酒|いんしゅ}{検問|けんもん} (drunk-driving checkpoint)\n- {検問所|けんもんじょ} (checkpoint location)\n\nThe verb form {検問|けんもん}する means to inspect or question someone at a checkpoint.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{検問|けんもん}する",
+        "negative": "{検問|けんもん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{検問|けんもん}します",
+        "negative": "{検問|けんもん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{検問|けんもん}した",
+        "negative": "{検問|けんもん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{検問|けんもん}しました",
+        "negative": "{検問|けんもん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{検問|けんもん}して",
+        "negative": "{検問|けんもん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{検問|けんもん}している",
+        "negative": "{検問|けんもん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{検問|けんもん}しています",
+        "negative": "{検問|けんもん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{検問|けんもん}していた",
+        "negative": "{検問|けんもん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{検問|けんもん}していました",
+        "negative": "{検問|けんもん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{検問|けんもん}すれば",
+        "negative": "{検問|けんもん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{検問|けんもん}したら",
+        "negative": "{検問|けんもん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{検問|けんもん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{検問|けんもん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{検問|けんもん}できる",
+        "negative": "{検問|けんもん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{検問|けんもん}される",
+        "negative": "{検問|けんもん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{検問|けんもん}させる",
+        "negative": "{検問|けんもん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{検問|けんもん}しろ",
+        "negative": "{検問|けんもん}するな"
+      }
+    ]
   }
 }

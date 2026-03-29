@@ -24,7 +24,9 @@
       "english": "Let's save here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11030_seebu_ex2",
@@ -32,7 +34,9 @@
       "english": "Please save the data before quitting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11030_seebu_ex3",
@@ -40,7 +44,9 @@
       "english": "I forgot to save and had to start over from the beginning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11030_seebu_ex4",
@@ -48,7 +54,9 @@
       "english": "The goalkeeper made a save.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11030_seebu_ex5",
@@ -56,7 +64,9 @@
       "english": "He recorded thirty saves this season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11030_seebu_ex6",
@@ -64,7 +74,9 @@
       "english": "That pitcher became the team's saves leader with his consistent pitching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe gaming/computing sense (sense 1) is extremely common in everyday Japanese. セーブする means \"to save\" data or game progress. The opposite is ロードする (to load).\n\nThe sports sense (sense 2) is used mainly in baseball and soccer. In baseball, it refers to the official statistic for a relief pitcher who preserves a lead.\n\nNote that セーブ is NOT used for \"saving money\" (that is {節約|せつやく}する or {貯金|ちょきん}する) or \"saving someone\" (that is {助|たす}ける or {救|すく}う).\n\nCOMMON COLLOCATIONS:\n- セーブする: to save (data/game)\n- セーブデータ: save data, save file\n- セーブポイント: save point\n- オートセーブ: auto-save",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "セーブする",
+        "negative": "セーブしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "セーブします",
+        "negative": "セーブしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "セーブした",
+        "negative": "セーブしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "セーブしました",
+        "negative": "セーブしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "セーブして",
+        "negative": "セーブしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "セーブしている",
+        "negative": "セーブしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "セーブしています",
+        "negative": "セーブしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "セーブしていた",
+        "negative": "セーブしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "セーブしていました",
+        "negative": "セーブしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "セーブすれば",
+        "negative": "セーブしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "セーブしたら",
+        "negative": "セーブしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "セーブしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "セーブしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "セーブできる",
+        "negative": "セーブできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "セーブされる",
+        "negative": "セーブされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "セーブさせる",
+        "negative": "セーブさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "セーブしろ",
+        "negative": "セーブするな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "The ship sank.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17516_chinbotsu_ex2",
@@ -32,7 +34,9 @@
       "english": "The sinking of the Titanic is a famous accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17516_chinbotsu_ex3",
@@ -40,7 +44,9 @@
       "english": "There is a risk of fishing boats sinking in the storm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17516_chinbotsu_ex4",
@@ -48,7 +54,9 @@
       "english": "I drank too much last night and passed out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17516_chinbotsu_ex5",
@@ -56,7 +64,9 @@
       "english": "He was completely wasted at the after-party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17516_chinbotsu_ex6",
@@ -64,7 +74,9 @@
       "english": "I got so drunk during the drinking party that I couldn't get home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe literal meaning refers to ships or objects sinking underwater. In casual speech, commonly used as slang to mean getting extremely drunk and passing out. The slang usage is very common among younger speakers.\n\nCOMMON COLLOCATIONS:\n- {船|ふね}が{沈没|ちんぼつ}する (a ship sinks)\n- {沈没|ちんぼつ}{事故|じこ} (sinking accident)\n- {沈没|ちんぼつ}{船|せん} (sunken ship)\n- {完全|かんぜん}に{沈没|ちんぼつ}する (to completely pass out from drinking)\n\nSIMILAR WORDS:\n- {沈|しず}む: to sink — the basic intransitive verb for sinking\n- {潜水|せんすい}: diving — intentional submersion, not accidental\n- {転覆|てんぷく}: capsizing — overturning of a vessel, not necessarily sinking",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{沈没|ちんぼつ}する",
+        "negative": "{沈没|ちんぼつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{沈没|ちんぼつ}します",
+        "negative": "{沈没|ちんぼつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{沈没|ちんぼつ}した",
+        "negative": "{沈没|ちんぼつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{沈没|ちんぼつ}しました",
+        "negative": "{沈没|ちんぼつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{沈没|ちんぼつ}して",
+        "negative": "{沈没|ちんぼつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{沈没|ちんぼつ}している",
+        "negative": "{沈没|ちんぼつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{沈没|ちんぼつ}しています",
+        "negative": "{沈没|ちんぼつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{沈没|ちんぼつ}していた",
+        "negative": "{沈没|ちんぼつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{沈没|ちんぼつ}していました",
+        "negative": "{沈没|ちんぼつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{沈没|ちんぼつ}すれば",
+        "negative": "{沈没|ちんぼつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{沈没|ちんぼつ}したら",
+        "negative": "{沈没|ちんぼつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{沈没|ちんぼつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{沈没|ちんぼつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{沈没|ちんぼつ}できる",
+        "negative": "{沈没|ちんぼつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{沈没|ちんぼつ}される",
+        "negative": "{沈没|ちんぼつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{沈没|ちんぼつ}させる",
+        "negative": "{沈没|ちんぼつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{沈没|ちんぼつ}しろ",
+        "negative": "{沈没|ちんぼつ}するな"
+      }
+    ]
   }
 }

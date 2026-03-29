@@ -24,7 +24,9 @@
       "english": "The car made contact with the wall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12904_sesshoku_ex2",
@@ -32,7 +34,9 @@
       "english": "There is a risk of electric shock if you touch the power lines.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12904_sesshoku_ex3",
@@ -40,7 +44,9 @@
       "english": "The car body was scratched in a contact accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12904_sesshoku_ex4",
@@ -48,7 +54,9 @@
       "english": "To attempt to make contact with the people involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12904_sesshoku_ex5",
@@ -56,7 +64,9 @@
       "english": "Contact with different cultures broadens one's perspective.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12904_sesshoku_ex6",
@@ -64,7 +74,9 @@
       "english": "People who had close contact with an infected person should get tested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Sense 1 describes physical contact between objects or surfaces. Sense 2 describes interpersonal or cross-cultural contact and interaction. The word became widely familiar during the COVID-19 pandemic through the term {濃厚接触|のうこうせっしょく} (close contact).\n\nCOMMON COLLOCATIONS:\n- {接触|せっしょく}{事故|じこ}: contact accident, fender bender\n- {濃厚|のうこう}{接触|せっしょく}: close contact (epidemiology)\n- {接触|せっしょく}を{図|はか}る: to attempt contact\n- {接触|せっしょく}を{避|さ}ける: to avoid contact\n\nSIMILAR WORDS:\n- {接点|せってん}: point of contact, connection point\n- {触|ふ}れる: to touch (physical, more everyday)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{接触|せっしょく}する",
+        "negative": "{接触|せっしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{接触|せっしょく}します",
+        "negative": "{接触|せっしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{接触|せっしょく}した",
+        "negative": "{接触|せっしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{接触|せっしょく}しました",
+        "negative": "{接触|せっしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{接触|せっしょく}して",
+        "negative": "{接触|せっしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{接触|せっしょく}している",
+        "negative": "{接触|せっしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{接触|せっしょく}しています",
+        "negative": "{接触|せっしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{接触|せっしょく}していた",
+        "negative": "{接触|せっしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{接触|せっしょく}していました",
+        "negative": "{接触|せっしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{接触|せっしょく}すれば",
+        "negative": "{接触|せっしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{接触|せっしょく}したら",
+        "negative": "{接触|せっしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{接触|せっしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{接触|せっしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{接触|せっしょく}できる",
+        "negative": "{接触|せっしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{接触|せっしょく}される",
+        "negative": "{接触|せっしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{接触|せっしょく}させる",
+        "negative": "{接触|せっしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{接触|せっしょく}しろ",
+        "negative": "{接触|せっしょく}するな"
+      }
+    ]
   }
 }

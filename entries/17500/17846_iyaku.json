@@ -19,7 +19,9 @@
       "english": "I translated this part freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17846_iyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "A literal translation sounds unnatural, so it's better to translate freely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17846_iyaku_ex3",
@@ -35,7 +39,9 @@
       "english": "Movie subtitles require the skill of paraphrasing within a limited character count.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or suru verb. Often discussed in contrast with {直訳|ちょくやく} (literal translation). In translation studies and language learning, learners are often told to aim for {意訳|いやく} to produce natural-sounding output.\n\nCOMMON COLLOCATIONS:\n- {意訳|いやく}する (to translate freely)\n- {意訳|いやく}すると (if translated freely)\n- {直訳|ちょくやく}と{意訳|いやく} (literal and free translation)\n\nSIMILAR WORDS:\n- {直訳|ちょくやく}: literal, word-for-word translation\n- {和訳|わやく}: translation into Japanese\n- {英訳|えいやく}: translation into English",
@@ -52,10 +58,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "translation"]
+      "semantic": [
+        "language",
+        "translation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{意訳|いやく}する",
+        "negative": "{意訳|いやく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{意訳|いやく}します",
+        "negative": "{意訳|いやく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{意訳|いやく}した",
+        "negative": "{意訳|いやく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{意訳|いやく}しました",
+        "negative": "{意訳|いやく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{意訳|いやく}して",
+        "negative": "{意訳|いやく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{意訳|いやく}している",
+        "negative": "{意訳|いやく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{意訳|いやく}しています",
+        "negative": "{意訳|いやく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{意訳|いやく}していた",
+        "negative": "{意訳|いやく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{意訳|いやく}していました",
+        "negative": "{意訳|いやく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{意訳|いやく}すれば",
+        "negative": "{意訳|いやく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{意訳|いやく}したら",
+        "negative": "{意訳|いやく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{意訳|いやく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{意訳|いやく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{意訳|いやく}できる",
+        "negative": "{意訳|いやく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{意訳|いやく}される",
+        "negative": "{意訳|いやく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{意訳|いやく}させる",
+        "negative": "{意訳|いやく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{意訳|いやく}しろ",
+        "negative": "{意訳|いやく}するな"
+      }
+    ]
   }
 }

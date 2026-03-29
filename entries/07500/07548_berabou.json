@@ -22,7 +22,9 @@
       "japanese": "べらぼうに{高|たか}い。",
       "english": "It's ridiculously expensive.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "べらぼうな{値段|ねだん}だ。",
       "english": "That's an absurd price.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "あの{店|みせ}はべらぼうに{量|りょう}が{多|おお}い。",
       "english": "That restaurant serves ridiculously large portions.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "べらぼうめ！",
       "english": "You fool!",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "このべらぼうが！",
       "english": "You idiot!",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{時代劇|じだいげき}で「べらぼうめ」というセリフをよく{聞|き}く。",
       "english": "You often hear the line 'berabou-me' in period dramas.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,108 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "adverb"],
+      "pos": [
+        "adjective-na",
+        "adverb"
+      ],
       "formality": "informal",
-      "semantic": ["expression"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "expression"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "べらぼう",
+        "negative": "べらぼわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "べらぼいます",
+        "negative": "べらぼいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "べらぼった",
+        "negative": "べらぼわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "べらぼいました",
+        "negative": "べらぼいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "べらぼって",
+        "negative": "べらぼわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "べらぼっている",
+        "negative": "べらぼっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "べらぼっています",
+        "negative": "べらぼっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "べらぼっていた",
+        "negative": "べらぼっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "べらぼっていました",
+        "negative": "べらぼっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "べらぼえば",
+        "negative": "べらぼわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "べらぼったら",
+        "negative": "べらぼわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "べらぼおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "べらぼいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "べらぼえる",
+        "negative": "べらぼえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "べらぼわれる",
+        "negative": "べらぼわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "べらぼわせる",
+        "negative": "べらぼわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "べらぼえ",
+        "negative": "べらぼうな"
+      }
+    ]
   }
 }

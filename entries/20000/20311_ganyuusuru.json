@@ -17,7 +17,9 @@
       "id": "20311_ganyuusuru_ex1",
       "japanese": "この{食品|しょくひん}はカフェインを{含有|がんゆう}する。",
       "english": "This food product contains caffeine.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20311_ganyuusuru_ex2",
       "japanese": "アルコールを{含有|がんゆう}する{飲料|いんりょう}。",
       "english": "A beverage containing alcohol.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "20311_ganyuusuru_ex3",
       "japanese": "この{鉱石|こうせき}には{希少|きしょう}な{金属|きんぞく}が{高|たか}い{割合|わりあい}で{含有|がんゆう}されている。",
       "english": "This ore contains rare metals in a high proportion.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,13 +49,108 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["science"],
-      "transitivity": "transitive"
+      "semantic": [
+        "science"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     },
     "created": "2026-03-28T20:16:34Z",
     "modified": "2026-03-28T20:16:34Z"
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{含有|がんゆう}する",
+        "negative": "{含有|がんゆう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{含有|がんゆう}します",
+        "negative": "{含有|がんゆう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{含有|がんゆう}した",
+        "negative": "{含有|がんゆう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{含有|がんゆう}しました",
+        "negative": "{含有|がんゆう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{含有|がんゆう}して",
+        "negative": "{含有|がんゆう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{含有|がんゆう}している",
+        "negative": "{含有|がんゆう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{含有|がんゆう}しています",
+        "negative": "{含有|がんゆう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{含有|がんゆう}していた",
+        "negative": "{含有|がんゆう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{含有|がんゆう}していました",
+        "negative": "{含有|がんゆう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{含有|がんゆう}すれば",
+        "negative": "{含有|がんゆう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{含有|がんゆう}したら",
+        "negative": "{含有|がんゆう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{含有|がんゆう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{含有|がんゆう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{含有|がんゆう}できる",
+        "negative": "{含有|がんゆう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{含有|がんゆう}される",
+        "negative": "{含有|がんゆう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{含有|がんゆう}させる",
+        "negative": "{含有|がんゆう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{含有|がんゆう}しろ",
+        "negative": "{含有|がんゆう}するな"
+      }
+    ]
   }
 }

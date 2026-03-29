@@ -17,21 +17,27 @@
       "japanese": "{試着|しちゃく}してもいいですか。",
       "english": "May I try this on?",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07690_shichaku_ex2",
       "japanese": "{試着室|しちゃくしつ}はあちらです。",
       "english": "The fitting room is over there.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07690_shichaku_ex3",
       "japanese": "{試着|しちゃく}したら{思|おも}ったより{小|ちい}さかった。",
       "english": "When I tried it on, it was smaller than I expected.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{試|し} (try, test) + {着|ちゃく} (wearing)\n\nSHOPPING VOCABULARY:\n・{試着室|しちゃくしつ} - fitting room, changing room\n・{試着|しちゃく}できますか - May I try this on?\n\nRELATED:\n・{試飲|しいん} - drink tasting\n・{試食|ししょく} - food tasting\n・{着替|きが}える - to change clothes\n\nUSAGE:\nAsking 「{試着|しちゃく}してもいいですか」 is the standard polite way to request to try on clothes in Japanese stores.",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "clothing"],
-      "domain": []
+      "semantic": [
+        "shopping",
+        "clothing"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{試着|しちゃく}する",
+        "negative": "{試着|しちゃく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{試着|しちゃく}します",
+        "negative": "{試着|しちゃく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{試着|しちゃく}した",
+        "negative": "{試着|しちゃく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{試着|しちゃく}しました",
+        "negative": "{試着|しちゃく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{試着|しちゃく}して",
+        "negative": "{試着|しちゃく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{試着|しちゃく}している",
+        "negative": "{試着|しちゃく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{試着|しちゃく}しています",
+        "negative": "{試着|しちゃく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{試着|しちゃく}していた",
+        "negative": "{試着|しちゃく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{試着|しちゃく}していました",
+        "negative": "{試着|しちゃく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{試着|しちゃく}すれば",
+        "negative": "{試着|しちゃく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{試着|しちゃく}したら",
+        "negative": "{試着|しちゃく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{試着|しちゃく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{試着|しちゃく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{試着|しちゃく}できる",
+        "negative": "{試着|しちゃく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{試着|しちゃく}される",
+        "negative": "{試着|しちゃく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{試着|しちゃく}させる",
+        "negative": "{試着|しちゃく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{試着|しちゃく}しろ",
+        "negative": "{試着|しちゃく}するな"
+      }
+    ]
   }
 }

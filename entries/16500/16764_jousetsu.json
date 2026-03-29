@@ -19,7 +19,9 @@
       "english": "I went to see the permanent exhibition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16764_jousetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This facility has a permanent cafe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16764_jousetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "A standing committee was established and meetings are held regularly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or as a no-adjective modifier ({常設|じょうせつ}の). Also used as a suru verb in the sense of establishing something permanently ({常設|じょうせつ}する).\n\nCOMMON COLLOCATIONS:\n- {常設|じょうせつ}{展示|てんじ} (permanent exhibition)\n- {常設|じょうせつ}{委員会|いいんかい} (standing committee)\n- {常設|じょうせつ}{店舗|てんぽ} (permanent shop)\n\nCONTRAST:\n- {臨時|りんじ}: temporary, ad hoc — the opposite concept\n- {仮設|かせつ}: temporary, provisional — used for temporary structures",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru", "adjective-no"],
+      "pos": [
+        "noun",
+        "verb-suru",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["state"]
+      "semantic": [
+        "state"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{常設|じょうせつ}する",
+        "negative": "{常設|じょうせつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{常設|じょうせつ}します",
+        "negative": "{常設|じょうせつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{常設|じょうせつ}した",
+        "negative": "{常設|じょうせつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{常設|じょうせつ}しました",
+        "negative": "{常設|じょうせつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{常設|じょうせつ}して",
+        "negative": "{常設|じょうせつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{常設|じょうせつ}している",
+        "negative": "{常設|じょうせつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{常設|じょうせつ}しています",
+        "negative": "{常設|じょうせつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{常設|じょうせつ}していた",
+        "negative": "{常設|じょうせつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{常設|じょうせつ}していました",
+        "negative": "{常設|じょうせつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{常設|じょうせつ}すれば",
+        "negative": "{常設|じょうせつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{常設|じょうせつ}したら",
+        "negative": "{常設|じょうせつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{常設|じょうせつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{常設|じょうせつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{常設|じょうせつ}できる",
+        "negative": "{常設|じょうせつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{常設|じょうせつ}される",
+        "negative": "{常設|じょうせつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{常設|じょうせつ}させる",
+        "negative": "{常設|じょうせつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{常設|じょうせつ}しろ",
+        "negative": "{常設|じょうせつ}するな"
+      }
+    ]
   }
 }

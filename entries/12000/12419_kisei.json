@@ -19,7 +19,9 @@
       "english": "To go home for Obon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12419_kisei_ex2",
@@ -27,7 +29,9 @@
       "english": "At year-end, the Shinkansen gets crowded with the homecoming rush.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12419_kisei_ex3",
@@ -35,7 +39,9 @@
       "english": "This Golden Week, I went back to my hometown for the first time in a while and spent a relaxed time with my family at my parents' house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "STRUCTURE:\n{帰|き} (return) + {省|せい} (reflect; visit parents). The character {省|せい} here carries its classical meaning of visiting one's parents.\n\nUSAGE:\n{帰省|きせい} is used both as a noun and as a する verb ({帰省|きせい}する). It specifically refers to returning to one's hometown or parents' home, not just going home in general. The {帰省|きせい}ラッシュ (homecoming rush) during major holidays like {お盆|おぼん}, {年末年始|ねんまつねんし}, and ゴールデンウィーク is a well-known phenomenon in Japan, causing heavy congestion on highways and trains.\n\nCOMMON COLLOCATIONS:\n- {帰省|きせい}する: to return to one's hometown\n- {帰省|きせい}ラッシュ: homecoming rush\n- {帰省|きせい}{先|さき}: hometown destination\n- {帰省|きせい}{土産|みやげ}: souvenirs brought when visiting home",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement", "family"]
+      "semantic": [
+        "movement",
+        "family"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{帰省|きせい}する",
+        "negative": "{帰省|きせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{帰省|きせい}します",
+        "negative": "{帰省|きせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{帰省|きせい}した",
+        "negative": "{帰省|きせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{帰省|きせい}しました",
+        "negative": "{帰省|きせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{帰省|きせい}して",
+        "negative": "{帰省|きせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{帰省|きせい}している",
+        "negative": "{帰省|きせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{帰省|きせい}しています",
+        "negative": "{帰省|きせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{帰省|きせい}していた",
+        "negative": "{帰省|きせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{帰省|きせい}していました",
+        "negative": "{帰省|きせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{帰省|きせい}すれば",
+        "negative": "{帰省|きせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{帰省|きせい}したら",
+        "negative": "{帰省|きせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{帰省|きせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{帰省|きせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{帰省|きせい}できる",
+        "negative": "{帰省|きせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{帰省|きせい}される",
+        "negative": "{帰省|きせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{帰省|きせい}させる",
+        "negative": "{帰省|きせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{帰省|きせい}しろ",
+        "negative": "{帰省|きせい}するな"
+      }
+    ]
   }
 }

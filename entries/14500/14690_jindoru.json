@@ -19,7 +19,9 @@
       "english": "I claimed a spot by the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14690_jindoru_ex2",
@@ -27,7 +29,9 @@
       "english": "The children have planted themselves in front of the TV.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14690_jindoru_ex3",
@@ -35,7 +39,9 @@
       "english": "There were people who had been camped out in the park since morning to secure a spot for cherry blossom viewing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A godan verb ({五段動詞|ごだんどうし}) conjugating with the る row. Originally a military term from {陣|じん} (battle formation/camp) + {取|と}る (to take), it has shifted to everyday use describing someone settling firmly into a spot.\n\nCOMMON COLLOCATIONS:\n- {窓際|まどぎわ}に{陣取|じんど}る (claim a window seat)\n- テレビの{前|まえ}に{陣取|じんど}る (plant oneself in front of the TV)\n- {最前列|さいぜんれつ}に{陣取|じんど}る (take up a front-row position)\n\nUSAGE NOTES:\nImplies staying put for a while, not just briefly sitting. Often carries a humorous or slightly exaggerated tone in everyday speech, as if the person is \"occupying\" a position like a soldier. The ている form is especially common, emphasizing the ongoing occupation of the spot.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{陣取|じんど}る",
+        "negative": "{陣取|じんど}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{陣取|じんど}ります",
+        "negative": "{陣取|じんど}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{陣取|じんど}った",
+        "negative": "{陣取|じんど}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{陣取|じんど}りました",
+        "negative": "{陣取|じんど}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{陣取|じんど}って",
+        "negative": "{陣取|じんど}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{陣取|じんど}っている",
+        "negative": "{陣取|じんど}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{陣取|じんど}っています",
+        "negative": "{陣取|じんど}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{陣取|じんど}っていた",
+        "negative": "{陣取|じんど}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{陣取|じんど}っていました",
+        "negative": "{陣取|じんど}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{陣取|じんど}れば",
+        "negative": "{陣取|じんど}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{陣取|じんど}ったら",
+        "negative": "{陣取|じんど}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{陣取|じんど}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{陣取|じんど}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{陣取|じんど}れる",
+        "negative": "{陣取|じんど}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{陣取|じんど}られる",
+        "negative": "{陣取|じんど}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{陣取|じんど}らせる",
+        "negative": "{陣取|じんど}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{陣取|じんど}れ",
+        "negative": "{陣取|じんど}るな"
+      }
+    ]
   }
 }

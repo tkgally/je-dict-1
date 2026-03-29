@@ -19,7 +19,9 @@
       "english": "The children are absorbed in a game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13971_kyoujiru_ex2",
@@ -27,7 +29,9 @@
       "english": "I enjoyed conversation with my friends until late at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13971_kyoujiru_ex3",
@@ -35,7 +39,9 @@
       "english": "I look forward to enjoying games of shogi with the locals at my travel accommodation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed with the particle に to mark the activity being enjoyed: ～に{興|きょう}じる. Has a slightly literary or refined tone compared to casual alternatives like {楽|たの}しむ.\n\nGRAMMAR:\n- Pattern: [activity]に{興|きょう}じる\n- Conjugates as an ichidan verb: {興|きょう}じる → {興|きょう}じて → {興|きょう}じた\n- The variant {興|きょう}ずる (literary/classical) is also seen\n\nCOMMON COLLOCATIONS:\n- ゲームに{興|きょう}じる: to enjoy games\n- {会話|かいわ}に{興|きょう}じる: to enjoy conversation\n- {遊|あそ}びに{興|きょう}じる: to amuse oneself with play\n- {宴|うたげ}に{興|きょう}じる: to enjoy a banquet",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{興|きょう}じる",
+        "negative": "{興|きょう}じない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{興|きょう}じます",
+        "negative": "{興|きょう}じません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{興|きょう}じた",
+        "negative": "{興|きょう}じなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{興|きょう}じました",
+        "negative": "{興|きょう}じませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{興|きょう}じて",
+        "negative": "{興|きょう}じなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{興|きょう}じている",
+        "negative": "{興|きょう}じていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{興|きょう}じています",
+        "negative": "{興|きょう}じていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{興|きょう}じていた",
+        "negative": "{興|きょう}じていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{興|きょう}じていました",
+        "negative": "{興|きょう}じていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{興|きょう}じれば",
+        "negative": "{興|きょう}じなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{興|きょう}じたら",
+        "negative": "{興|きょう}じなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{興|きょう}じよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{興|きょう}じましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{興|きょう}じられる",
+        "negative": "{興|きょう}じられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{興|きょう}じられる",
+        "negative": "{興|きょう}じられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{興|きょう}じさせる",
+        "negative": "{興|きょう}じさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{興|きょう}じろ",
+        "negative": "{興|きょう}じるな"
+      }
+    ]
   }
 }

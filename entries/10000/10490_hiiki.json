@@ -19,7 +19,9 @@
       "english": "My favorite team won.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10490_hiiki_ex2",
@@ -27,7 +29,9 @@
       "english": "The teacher is playing favorites with that student.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10490_hiiki_ex3",
@@ -35,7 +39,9 @@
       "english": "Thank you for your continued patronage.",
       "notes": "Polite business expression",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10490_hiiki_ex4",
@@ -43,7 +49,9 @@
       "english": "Be careful not to do more harm than good by being overly supportive.",
       "notes": "Idiomatic expression",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "The kanji {贔屓|ひいき} are rarely written; hiragana is very common.\n\nCOMMON PATTERNS:\n- {贔屓|ひいき}にする: to patronize, to favor\n- {贔屓|ひいき}のお{店|みせ}: one's favorite shop\n- {贔屓|ひいき}のチーム: one's favorite team\n- ご{贔屓|ひいき}に: please continue to patronize us (business)\n\nIDIOM:\n- {贔屓|ひいき}の{引|ひ}き{倒|たお}し: doing more harm than good by being overly supportive\n\nNUANCE:\nWhen used about one's own favorites, it's positive (patronage, support). When used about others showing favoritism, it can be negative (unfair bias).",
@@ -54,10 +62,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["interpersonal-relations"]
+      "semantic": [
+        "interpersonal-relations"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{贔屓|ひいき}する",
+        "negative": "{贔屓|ひいき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{贔屓|ひいき}します",
+        "negative": "{贔屓|ひいき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{贔屓|ひいき}した",
+        "negative": "{贔屓|ひいき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{贔屓|ひいき}しました",
+        "negative": "{贔屓|ひいき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{贔屓|ひいき}して",
+        "negative": "{贔屓|ひいき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{贔屓|ひいき}している",
+        "negative": "{贔屓|ひいき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{贔屓|ひいき}しています",
+        "negative": "{贔屓|ひいき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{贔屓|ひいき}していた",
+        "negative": "{贔屓|ひいき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{贔屓|ひいき}していました",
+        "negative": "{贔屓|ひいき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{贔屓|ひいき}すれば",
+        "negative": "{贔屓|ひいき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{贔屓|ひいき}したら",
+        "negative": "{贔屓|ひいき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{贔屓|ひいき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{贔屓|ひいき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{贔屓|ひいき}できる",
+        "negative": "{贔屓|ひいき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{贔屓|ひいき}される",
+        "negative": "{贔屓|ひいき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{贔屓|ひいき}させる",
+        "negative": "{贔屓|ひいき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{贔屓|ひいき}しろ",
+        "negative": "{贔屓|ひいき}するな"
+      }
+    ]
   }
 }

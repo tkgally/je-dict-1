@@ -19,7 +19,9 @@
       "english": "Nobody even looked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16687_mimuku_ex2",
@@ -27,7 +29,9 @@
       "english": "That shop is completely ignored by customers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16687_mimuku_ex3",
@@ -35,7 +39,9 @@
       "english": "Without even glancing at cheap products, they only buy luxury items.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used in the negative pattern 見向きもしない, meaning \"to not pay the slightest attention to\" or \"to completely ignore.\" The affirmative form is rarely used.\n\nCOMMON COLLOCATIONS:\n- {見向|みむ}きもしない (to not even glance at)\n- {見向|みむ}きもされない (to be completely ignored)\n\nSIMILAR WORDS:\n- {無視|むし}する: to ignore — a more direct and common word for ignoring\n- {振|ふ}り{向|む}く: to turn around — to physically turn to look",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["perception"]
+      "semantic": [
+        "perception"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見向|みむ}く",
+        "negative": "{見向|みむ}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見向|みむ}きます",
+        "negative": "{見向|みむ}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見向|みむ}いた",
+        "negative": "{見向|みむ}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見向|みむ}きました",
+        "negative": "{見向|みむ}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見向|みむ}いて",
+        "negative": "{見向|みむ}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見向|みむ}いている",
+        "negative": "{見向|みむ}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見向|みむ}いています",
+        "negative": "{見向|みむ}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見向|みむ}いていた",
+        "negative": "{見向|みむ}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見向|みむ}いていました",
+        "negative": "{見向|みむ}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見向|みむ}けば",
+        "negative": "{見向|みむ}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見向|みむ}いたら",
+        "negative": "{見向|みむ}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見向|みむ}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見向|みむ}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見向|みむ}ける",
+        "negative": "{見向|みむ}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見向|みむ}かれる",
+        "negative": "{見向|みむ}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見向|みむ}かせる",
+        "negative": "{見向|みむ}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見向|みむ}け",
+        "negative": "{見向|みむ}くな"
+      }
+    ]
   }
 }

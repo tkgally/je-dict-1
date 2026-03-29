@@ -19,7 +19,9 @@
       "english": "To accompany someone on a news coverage trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12028_doukou_ex2",
@@ -27,7 +29,9 @@
       "english": "An interpreter accompanied the company president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12028_doukou_ex3",
@@ -35,7 +39,9 @@
       "english": "Those planning to accompany us on the overseas business trip, please check your passport in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore formal than {一緒|いっしょ}に{行|い}く. Often used in business, journalism, and official contexts. The person who accompanies is the {同行者|どうこうしゃ}.\n\nCOMMON COLLOCATIONS:\n- {同行|どうこう}{者|しゃ}: companion, fellow traveler\n- {取材|しゅざい}に{同行|どうこう}する: to accompany on a news assignment\n- {出張|しゅっちょう}に{同行|どうこう}する: to accompany on a business trip\n- {同行|どうこう}を{求|もと}める: to request someone's accompaniment",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{同行|どうこう}する",
+        "negative": "{同行|どうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{同行|どうこう}します",
+        "negative": "{同行|どうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{同行|どうこう}した",
+        "negative": "{同行|どうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{同行|どうこう}しました",
+        "negative": "{同行|どうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{同行|どうこう}して",
+        "negative": "{同行|どうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{同行|どうこう}している",
+        "negative": "{同行|どうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{同行|どうこう}しています",
+        "negative": "{同行|どうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{同行|どうこう}していた",
+        "negative": "{同行|どうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{同行|どうこう}していました",
+        "negative": "{同行|どうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{同行|どうこう}すれば",
+        "negative": "{同行|どうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{同行|どうこう}したら",
+        "negative": "{同行|どうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{同行|どうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{同行|どうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{同行|どうこう}できる",
+        "negative": "{同行|どうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{同行|どうこう}される",
+        "negative": "{同行|どうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{同行|どうこう}させる",
+        "negative": "{同行|どうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{同行|どうこう}しろ",
+        "negative": "{同行|どうこう}するな"
+      }
+    ]
   }
 }

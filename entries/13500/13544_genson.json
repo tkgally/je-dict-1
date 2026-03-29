@@ -19,7 +19,9 @@
       "english": "It is the oldest surviving wooden structure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13544_genson_ex2",
@@ -27,7 +29,9 @@
       "english": "This document is the only extant manuscript.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13544_genson_ex3",
@@ -35,7 +39,9 @@
       "english": "Of the castles built during the Edo period, only twelve still have their original keeps surviving today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in historical, archaeological, and cultural heritage contexts. The phrase {現存|げんそん}する{最古|さいこ}の～ (the oldest surviving ~) is a frequent pattern, especially when discussing historical buildings and artifacts. Also used in biology for species that still exist (as opposed to extinct ones).\n\nGRAMMAR:\n- {現存|げんそん}する + noun: surviving ~, extant ~\n- {現存|げんそん}している: is existing, still exists\n\nCOMMON COLLOCATIONS:\n- {現存|げんそん}する{最古|さいこ}の～: the oldest surviving ~\n- {現存|げんそん}する{唯一|ゆいいつ}の～: the only surviving ~\n- {現存|げんそん}{天守|てんしゅ}: extant castle keep\n- {現存|げんそん}{種|しゅ}: extant species",
@@ -46,12 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "style": ["written"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "style": [
+        "written"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{現存|げんそん}する",
+        "negative": "{現存|げんそん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{現存|げんそん}します",
+        "negative": "{現存|げんそん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{現存|げんそん}した",
+        "negative": "{現存|げんそん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{現存|げんそん}しました",
+        "negative": "{現存|げんそん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{現存|げんそん}して",
+        "negative": "{現存|げんそん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{現存|げんそん}している",
+        "negative": "{現存|げんそん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{現存|げんそん}しています",
+        "negative": "{現存|げんそん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{現存|げんそん}していた",
+        "negative": "{現存|げんそん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{現存|げんそん}していました",
+        "negative": "{現存|げんそん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{現存|げんそん}すれば",
+        "negative": "{現存|げんそん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{現存|げんそん}したら",
+        "negative": "{現存|げんそん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{現存|げんそん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{現存|げんそん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{現存|げんそん}できる",
+        "negative": "{現存|げんそん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{現存|げんそん}される",
+        "negative": "{現存|げんそん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{現存|げんそん}させる",
+        "negative": "{現存|げんそん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{現存|げんそん}しろ",
+        "negative": "{現存|げんそん}するな"
+      }
+    ]
   }
 }

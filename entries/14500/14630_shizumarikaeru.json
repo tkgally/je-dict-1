@@ -19,7 +19,9 @@
       "english": "The classroom fell completely silent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14630_shizumarikaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "The residential neighborhood was dead quiet late at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14630_shizumarikaeru_ex3",
@@ -35,7 +39,9 @@
       "english": "The moment the principal took the stage, the gymnasium fell instantly silent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{静|しず}まり{返|かえ}る is an intransitive godan verb. It is a compound of {静|しず}まる (to become quiet) and {返|かえ}る used as a suffix meaning \"thoroughly\" or \"completely.\"\n\nASPECT (ている):\n{静|しず}まり{返|かえ}っている describes a state of complete silence already achieved.\n\nCOMMON COLLOCATIONS:\n- {教室|きょうしつ}が{静|しず}まり{返|かえ}る (classroom falls silent)\n- {会場|かいじょう}が{静|しず}まり{返|かえ}る (venue falls silent)\n- {辺|あた}りが{静|しず}まり{返|かえ}る (the surroundings go quiet)\n\nThe ～{返|かえ}る suffix intensifies the base verb, similar to how {冷|ひ}え{返|かえ}る means \"to become ice cold.\"",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{静|しず}まり{返|かえ}る",
+        "negative": "{静|しず}まり{返|かえ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{静|しず}まり{返|かえ}ります",
+        "negative": "{静|しず}まり{返|かえ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{静|しず}まり{返|かえ}った",
+        "negative": "{静|しず}まり{返|かえ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{静|しず}まり{返|かえ}りました",
+        "negative": "{静|しず}まり{返|かえ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{静|しず}まり{返|かえ}って",
+        "negative": "{静|しず}まり{返|かえ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{静|しず}まり{返|かえ}っている",
+        "negative": "{静|しず}まり{返|かえ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{静|しず}まり{返|かえ}っています",
+        "negative": "{静|しず}まり{返|かえ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{静|しず}まり{返|かえ}っていた",
+        "negative": "{静|しず}まり{返|かえ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{静|しず}まり{返|かえ}っていました",
+        "negative": "{静|しず}まり{返|かえ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{静|しず}まり{返|かえ}れば",
+        "negative": "{静|しず}まり{返|かえ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{静|しず}まり{返|かえ}ったら",
+        "negative": "{静|しず}まり{返|かえ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{静|しず}まり{返|かえ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{静|しず}まり{返|かえ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{静|しず}まり{返|かえ}れる",
+        "negative": "{静|しず}まり{返|かえ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{静|しず}まり{返|かえ}られる",
+        "negative": "{静|しず}まり{返|かえ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{静|しず}まり{返|かえ}らせる",
+        "negative": "{静|しず}まり{返|かえ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{静|しず}まり{返|かえ}れ",
+        "negative": "{静|しず}まり{返|かえ}るな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I was absorbed in a novel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14338_yomifukeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I was engrossed in manga at the library.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14338_yomifukeru_ex3",
@@ -35,7 +39,9 @@
       "english": "I got so engrossed in a mystery novel late at night that before I knew it, it was morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{読|よ}みふける is an intransitive ichidan verb. Compound of {読|よ}み (reading) + ふける (to be absorbed in). The auxiliary ふける attaches to other verb stems as well (e.g., {考|かんが}えにふける, {物思|ものおも}いにふける).\n\nASPECT (ている):\n{読|よ}みふけっている describes the ongoing state of being absorbed in reading.\n\nPARTICLE PATTERNS:\n- {本|ほん}に{読|よ}みふける (to be engrossed in a book)\n- {小説|しょうせつ}に{読|よ}みふける (to be absorbed in a novel)\n\nCOMMON COLLOCATIONS:\n- {小説|しょうせつ}に{読|よ}みふける (to be lost in a novel)\n- {本|ほん}に{読|よ}みふける (to be absorbed in a book)\n- {一日中|いちにちじゅう}{読|よ}みふける (to read all day long)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{読|よ}みふける",
+        "negative": "{読|よ}みふけない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{読|よ}みふけます",
+        "negative": "{読|よ}みふけません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{読|よ}みふけた",
+        "negative": "{読|よ}みふけなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{読|よ}みふけました",
+        "negative": "{読|よ}みふけませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{読|よ}みふけて",
+        "negative": "{読|よ}みふけなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{読|よ}みふけている",
+        "negative": "{読|よ}みふけていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{読|よ}みふけています",
+        "negative": "{読|よ}みふけていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{読|よ}みふけていた",
+        "negative": "{読|よ}みふけていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{読|よ}みふけていました",
+        "negative": "{読|よ}みふけていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{読|よ}みふければ",
+        "negative": "{読|よ}みふけなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{読|よ}みふけたら",
+        "negative": "{読|よ}みふけなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{読|よ}みふけよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{読|よ}みふけましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{読|よ}みふけられる",
+        "negative": "{読|よ}みふけられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{読|よ}みふけられる",
+        "negative": "{読|よ}みふけられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{読|よ}みふけさせる",
+        "negative": "{読|よ}みふけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{読|よ}みふけろ",
+        "negative": "{読|よ}みふけるな"
+      }
+    ]
   }
 }

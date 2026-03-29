@@ -16,7 +16,9 @@
       "id": "09138_mimodaeru_ex1",
       "japanese": "{激痛|げきつう}に{身悶|みもだ}える",
       "english": "to writhe in severe pain",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09138_mimodaeru_ex2",
       "japanese": "{彼|かれ}は{苦|くる}しさに{身悶|みもだ}えしていた。",
       "english": "He was writhing in agony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09138_mimodaeru_ex3",
       "japanese": "{恥|は}ずかしさで{身悶|みもだ}えするほどの{失敗|しっぱい}をした。",
       "english": "I made such an embarrassing mistake that I wanted to squirm.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "emotion"]
+      "semantic": [
+        "action",
+        "emotion"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{身悶|みもだ}える",
+        "negative": "{身悶|みもだ}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{身悶|みもだ}えます",
+        "negative": "{身悶|みもだ}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{身悶|みもだ}えた",
+        "negative": "{身悶|みもだ}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{身悶|みもだ}えました",
+        "negative": "{身悶|みもだ}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{身悶|みもだ}えて",
+        "negative": "{身悶|みもだ}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{身悶|みもだ}えている",
+        "negative": "{身悶|みもだ}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{身悶|みもだ}えています",
+        "negative": "{身悶|みもだ}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{身悶|みもだ}えていた",
+        "negative": "{身悶|みもだ}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{身悶|みもだ}えていました",
+        "negative": "{身悶|みもだ}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{身悶|みもだ}えれば",
+        "negative": "{身悶|みもだ}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{身悶|みもだ}えたら",
+        "negative": "{身悶|みもだ}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{身悶|みもだ}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{身悶|みもだ}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{身悶|みもだ}えられる",
+        "negative": "{身悶|みもだ}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{身悶|みもだ}えられる",
+        "negative": "{身悶|みもだ}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{身悶|みもだ}えさせる",
+        "negative": "{身悶|みもだ}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{身悶|みもだ}えろ",
+        "negative": "{身悶|みもだ}えるな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "The teacher admonished the student.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17517_imashimeru_ex2",
@@ -32,7 +34,9 @@
       "english": "I cautioned myself not to let my guard down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17517_imashimeru_ex3",
@@ -40,7 +44,9 @@
       "english": "My father always admonished me not to tell lies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17517_imashimeru_ex4",
@@ -48,7 +54,9 @@
       "english": "To discipline an employee who committed misconduct.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17517_imashimeru_ex5",
@@ -56,7 +64,9 @@
       "english": "Those who broke the rules were severely disciplined.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17517_imashimeru_ex6",
@@ -64,7 +74,9 @@
       "english": "I engrave past failures in my heart as a lesson.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat formal verb used for serious warnings or moral guidance. Often used when a superior warns a subordinate, or when reflecting on one's own behavior. The noun form {戒|いまし}め means \"warning\" or \"lesson.\"\n\nCOMMON COLLOCATIONS:\n- {自分|じぶん}を{戒|いまし}める (to caution oneself)\n- {厳|きび}しく{戒|いまし}める (to sternly admonish)\n- {戒|いまし}めの{言葉|ことば} (words of warning)\n- {戒|いまし}めとする (to take as a lesson)\n\nSIMILAR WORDS:\n- {注意|ちゅうい}する: to warn, to be careful — more everyday and less authoritative\n- {叱|しか}る: to scold — focuses on expressing anger at wrongdoing\n- {諭|さと}す: to admonish gently — calmer and more patient than {戒|いまし}める",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{戒|いまし}める",
+        "negative": "{戒|いまし}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{戒|いまし}めます",
+        "negative": "{戒|いまし}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{戒|いまし}めた",
+        "negative": "{戒|いまし}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{戒|いまし}めました",
+        "negative": "{戒|いまし}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{戒|いまし}めて",
+        "negative": "{戒|いまし}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{戒|いまし}めている",
+        "negative": "{戒|いまし}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{戒|いまし}めています",
+        "negative": "{戒|いまし}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{戒|いまし}めていた",
+        "negative": "{戒|いまし}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{戒|いまし}めていました",
+        "negative": "{戒|いまし}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{戒|いまし}めれば",
+        "negative": "{戒|いまし}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{戒|いまし}めたら",
+        "negative": "{戒|いまし}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{戒|いまし}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{戒|いまし}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{戒|いまし}められる",
+        "negative": "{戒|いまし}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{戒|いまし}められる",
+        "negative": "{戒|いまし}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{戒|いまし}めさせる",
+        "negative": "{戒|いまし}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{戒|いまし}めろ",
+        "negative": "{戒|いまし}めるな"
+      }
+    ]
   }
 }

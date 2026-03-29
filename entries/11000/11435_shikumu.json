@@ -24,7 +24,9 @@
       "english": "To set a trap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11435_shikumu_ex2",
@@ -32,7 +34,9 @@
       "english": "Someone plotted this behind the scenes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11435_shikumu_ex3",
@@ -40,7 +44,9 @@
       "english": "It seems it was a scheme planned from the very beginning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11435_shikumu_ex4",
@@ -48,7 +54,9 @@
       "english": "To construct the mechanism inside a clock.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11435_shikumu_ex5",
@@ -56,7 +64,9 @@
       "english": "I set it up so that a sound plays when the button is pressed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11435_shikumu_ex6",
@@ -64,7 +74,9 @@
       "english": "It is set up so that water is sprinkled automatically.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION: {仕組|しく}む is a godan verb (む row). Te-form: {仕組|しく}んで. Passive: {仕組|しく}まれる.\n\nCOMMON COLLOCATIONS:\n- {罠|わな}を{仕組|しく}む (to set a trap)\n- {陰謀|いんぼう}を{仕組|しく}む (to hatch a conspiracy)\n- {仕組|しく}まれた{事件|じけん} (a staged incident)\n\nRELATED: The noun {仕組|しく}み (mechanism, system, structure) is derived from this verb and is extremely common.",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-mu",
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{仕組|しく}む",
+        "negative": "{仕組|しく}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{仕組|しく}みます",
+        "negative": "{仕組|しく}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{仕組|しく}んだ",
+        "negative": "{仕組|しく}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{仕組|しく}みました",
+        "negative": "{仕組|しく}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{仕組|しく}んで",
+        "negative": "{仕組|しく}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{仕組|しく}んでいる",
+        "negative": "{仕組|しく}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{仕組|しく}んでいます",
+        "negative": "{仕組|しく}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{仕組|しく}んでいた",
+        "negative": "{仕組|しく}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{仕組|しく}んでいました",
+        "negative": "{仕組|しく}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{仕組|しく}めば",
+        "negative": "{仕組|しく}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{仕組|しく}んだら",
+        "negative": "{仕組|しく}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{仕組|しく}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{仕組|しく}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{仕組|しく}める",
+        "negative": "{仕組|しく}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{仕組|しく}まれる",
+        "negative": "{仕組|しく}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{仕組|しく}ませる",
+        "negative": "{仕組|しく}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{仕組|しく}め",
+        "negative": "{仕組|しく}むな"
+      }
+    ]
   }
 }

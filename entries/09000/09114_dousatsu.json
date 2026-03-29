@@ -16,7 +16,9 @@
       "id": "09114_dousatsu_ex1",
       "japanese": "{鋭|するど}い{洞察力|どうさつりょく}",
       "english": "keen insight",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09114_dousatsu_ex2",
       "japanese": "{彼|かれ}は{人|ひと}の{心|こころ}を{洞察|どうさつ}する{力|ちから}がある。",
       "english": "He has the ability to see through people's hearts.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09114_dousatsu_ex3",
       "japanese": "この{小説|しょうせつ}には{人間|にんげん}{心理|しんり}への{深|ふか}い{洞察|どうさつ}が{見|み}られる。",
       "english": "Deep insight into human psychology can be seen in this novel.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{洞察|どうさつ}する",
+        "negative": "{洞察|どうさつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{洞察|どうさつ}します",
+        "negative": "{洞察|どうさつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{洞察|どうさつ}した",
+        "negative": "{洞察|どうさつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{洞察|どうさつ}しました",
+        "negative": "{洞察|どうさつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{洞察|どうさつ}して",
+        "negative": "{洞察|どうさつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{洞察|どうさつ}している",
+        "negative": "{洞察|どうさつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{洞察|どうさつ}しています",
+        "negative": "{洞察|どうさつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{洞察|どうさつ}していた",
+        "negative": "{洞察|どうさつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{洞察|どうさつ}していました",
+        "negative": "{洞察|どうさつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{洞察|どうさつ}すれば",
+        "negative": "{洞察|どうさつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{洞察|どうさつ}したら",
+        "negative": "{洞察|どうさつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{洞察|どうさつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{洞察|どうさつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{洞察|どうさつ}できる",
+        "negative": "{洞察|どうさつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{洞察|どうさつ}される",
+        "negative": "{洞察|どうさつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{洞察|どうさつ}させる",
+        "negative": "{洞察|どうさつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{洞察|どうさつ}しろ",
+        "negative": "{洞察|どうさつ}するな"
+      }
+    ]
   }
 }

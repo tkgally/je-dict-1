@@ -24,7 +24,9 @@
       "english": "To spin thread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13801_tsumugu_ex2",
@@ -32,7 +34,9 @@
       "english": "I spun thread from cotton and wove cloth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13801_tsumugu_ex3",
@@ -40,7 +44,9 @@
       "english": "My grandmother used to spin thread on a spinning wheel every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13801_tsumugu_ex4",
@@ -48,7 +54,9 @@
       "english": "To weave words together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13801_tsumugu_ex5",
@@ -56,7 +64,9 @@
       "english": "The two of them have woven their bond over time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13801_tsumugu_ex6",
@@ -64,7 +74,9 @@
       "english": "I want to pass on the stories our predecessors have woven to the next generation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb ({紡|つむ}ぐ → {紡|つむ}ぎます). Transitive.\n\nUSAGE:\nSense 2 has become very popular in modern Japanese, frequently appearing in book titles, song lyrics, and poetic prose. It conveys the idea of carefully and lovingly creating something over time, thread by thread.\n\nCOMMON COLLOCATIONS:\n- {糸|いと}を{紡|つむ}ぐ: to spin thread\n- {言葉|ことば}を{紡|つむ}ぐ: to weave words\n- {物語|ものがたり}を{紡|つむ}ぐ: to weave a story\n- {絆|きずな}を{紡|つむ}ぐ: to build bonds\n- {歴史|れきし}を{紡|つむ}ぐ: to weave history",
@@ -75,12 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "transitive",
-      "style": ["literary"]
+      "style": [
+        "literary"
+      ],
+      "verb_class": "godan-gu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{紡|つむ}ぐ",
+        "negative": "{紡|つむ}がない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{紡|つむ}ぎます",
+        "negative": "{紡|つむ}ぎません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{紡|つむ}いだ",
+        "negative": "{紡|つむ}がなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{紡|つむ}ぎました",
+        "negative": "{紡|つむ}ぎませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{紡|つむ}いで",
+        "negative": "{紡|つむ}がなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{紡|つむ}いでいる",
+        "negative": "{紡|つむ}いでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{紡|つむ}いでいます",
+        "negative": "{紡|つむ}いでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{紡|つむ}いでいた",
+        "negative": "{紡|つむ}いでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{紡|つむ}いでいました",
+        "negative": "{紡|つむ}いでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{紡|つむ}げば",
+        "negative": "{紡|つむ}がなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{紡|つむ}いだら",
+        "negative": "{紡|つむ}がなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{紡|つむ}ごう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{紡|つむ}ぎましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{紡|つむ}げる",
+        "negative": "{紡|つむ}げない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{紡|つむ}がれる",
+        "negative": "{紡|つむ}がれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{紡|つむ}がせる",
+        "negative": "{紡|つむ}がせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{紡|つむ}げ",
+        "negative": "{紡|つむ}ぐな"
+      }
+    ]
   }
 }

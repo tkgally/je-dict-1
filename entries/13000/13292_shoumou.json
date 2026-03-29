@@ -19,7 +19,9 @@
       "english": "The drain on my stamina is severe.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13292_shoumou_ex2",
@@ -27,7 +29,9 @@
       "english": "The battery was draining quickly, so I replaced it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13292_shoumou_ex3",
@@ -35,7 +39,9 @@
       "english": "The long meeting left me mentally drained.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan describe both physical consumption (materials, energy, batteries) and mental/emotional exhaustion. The compound {消耗品|しょうもうひん} (consumable goods/supplies) is very common in business and daily life.\n\nAlso read as しょうこう in some older or formal contexts, but しょうもう is standard in modern Japanese.\n\nCOMMON COLLOCATIONS:\n- {消耗品|しょうもうひん}: consumable goods, supplies\n- {体力|たいりょく}を{消耗|しょうもう}する: to exhaust one's stamina\n- {消耗|しょうもう}が{激|はげ}しい: heavy consumption/wear\n- {消耗|しょうもう}{戦|せん}: war of attrition\n- {精神的|せいしんてき}に{消耗|しょうもう}する: to be mentally drained",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{消耗|しょうもう}する",
+        "negative": "{消耗|しょうもう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{消耗|しょうもう}します",
+        "negative": "{消耗|しょうもう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{消耗|しょうもう}した",
+        "negative": "{消耗|しょうもう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{消耗|しょうもう}しました",
+        "negative": "{消耗|しょうもう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{消耗|しょうもう}して",
+        "negative": "{消耗|しょうもう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{消耗|しょうもう}している",
+        "negative": "{消耗|しょうもう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{消耗|しょうもう}しています",
+        "negative": "{消耗|しょうもう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{消耗|しょうもう}していた",
+        "negative": "{消耗|しょうもう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{消耗|しょうもう}していました",
+        "negative": "{消耗|しょうもう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{消耗|しょうもう}すれば",
+        "negative": "{消耗|しょうもう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{消耗|しょうもう}したら",
+        "negative": "{消耗|しょうもう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{消耗|しょうもう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{消耗|しょうもう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{消耗|しょうもう}できる",
+        "negative": "{消耗|しょうもう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{消耗|しょうもう}される",
+        "negative": "{消耗|しょうもう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{消耗|しょうもう}させる",
+        "negative": "{消耗|しょうもう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{消耗|しょうもう}しろ",
+        "negative": "{消耗|しょうもう}するな"
+      }
+    ]
   }
 }

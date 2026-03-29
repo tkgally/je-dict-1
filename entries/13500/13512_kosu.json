@@ -19,7 +19,9 @@
       "english": "To strain the dashi stock through a cloth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13512_kosu_ex2",
@@ -27,7 +29,9 @@
       "english": "Strain the soup to make it smooth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13512_kosu_ex3",
@@ -35,7 +39,9 @@
       "english": "Please strain the tea leaves with a tea strainer before pouring into the cup.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA godan verb ({漉|こ}す → {漉|こ}します). Often written in hiragana as こす since the kanji {漉|こ} is not in the standard-use kanji list. Primarily a cooking and craft term.\n\nNote: The homophones {越|こ}す (to cross over) and {超|こ}す (to exceed) are completely different words.\n\nAlso used in the compound {紙|かみ}を{漉|す}く (to make paper by hand), though this uses a different reading of the same kanji.\n\nCOMMON COLLOCATIONS:\n- {布|ぬの}で{漉|こ}す: to strain through cloth\n- ざるで{漉|こ}す: to strain through a colander\n- {裏|うら}{漉|ご}し: straining through a sieve (noun form)\n- だしを{漉|こ}す: to strain stock",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"],
-      "transitivity": "transitive"
+      "semantic": [
+        "consumption"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{漉|こ}す",
+        "negative": "{漉|こ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{漉|こ}します",
+        "negative": "{漉|こ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{漉|こ}した",
+        "negative": "{漉|こ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{漉|こ}しました",
+        "negative": "{漉|こ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{漉|こ}して",
+        "negative": "{漉|こ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{漉|こ}している",
+        "negative": "{漉|こ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{漉|こ}しています",
+        "negative": "{漉|こ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{漉|こ}していた",
+        "negative": "{漉|こ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{漉|こ}していました",
+        "negative": "{漉|こ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{漉|こ}せば",
+        "negative": "{漉|こ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{漉|こ}したら",
+        "negative": "{漉|こ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{漉|こ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{漉|こ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{漉|こ}せる",
+        "negative": "{漉|こ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{漉|こ}される",
+        "negative": "{漉|こ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{漉|こ}させる",
+        "negative": "{漉|こ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{漉|こ}せ",
+        "negative": "{漉|こ}すな"
+      }
+    ]
   }
 }

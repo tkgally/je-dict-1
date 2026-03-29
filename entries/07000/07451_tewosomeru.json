@@ -22,42 +22,54 @@
       "japanese": "{若|わか}い{頃|ころ}に{絵画|かいが}に{手|て}を{染|そ}めた。",
       "english": "I started painting when I was young.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07451_tewosomeru_ex2",
       "japanese": "{学生|がくせい}{時代|じだい}に{演劇|えんげき}に{手|て}を{染|そ}めた。",
       "english": "I got into theater during my student days.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07451_tewosomeru_ex3",
       "japanese": "{政治|せいじ}に{手|て}を{染|そ}めてからもう{二十年|にじゅうねん}になる。",
       "english": "It's been twenty years since I got into politics.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07451_tewosomeru_ex4",
       "japanese": "{彼|かれ}は{犯罪|はんざい}に{手|て}を{染|そ}めてしまった。",
       "english": "He got involved in crime.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07451_tewosomeru_ex5",
       "japanese": "その{世界|せかい}に{一度|いちど}{手|て}を{染|そ}めたら{抜|ぬ}けられない。",
       "english": "Once you get involved in that world, you can't get out.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07451_tewosomeru_ex6",
       "japanese": "{生活|せいかつ}に{困|こま}って{悪事|あくじ}に{手|て}を{染|そ}めてしまう{人|ひと}もいる。",
       "english": "Some people end up getting involved in wrongdoing because they're struggling to make ends meet.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "IDIOM STRUCTURE:\n{手|て} (hand) + を + {染|そ}める (to dye)\n\nLiterally \"to dye one's hands\" - implies getting deeply involved in something, as if the activity has stained one's hands.\n\nNUANCE:\n- Can be neutral when referring to arts, hobbies, or professions\n- Often negative when referring to illegal or immoral activities\n- Suggests deep involvement, not superficial engagement\n- The \"dye\" metaphor implies lasting involvement that's hard to wash away\n\nGRAMMAR:\n〜に{手|て}を{染|そ}める - to get involved in ~\n\nCOMMON COLLOCATIONS:\n・{犯罪|はんざい}に{手|て}を{染|そ}める - to get involved in crime\n・{悪事|あくじ}に{手|て}を{染|そ}める - to engage in wrongdoing\n・{政治|せいじ}に{手|て}を{染|そ}める - to get into politics\n・{芸術|げいじゅつ}に{手|て}を{染|そ}める - to take up art\n\nSIMILAR EXPRESSIONS:\n・{手|て}を{出|だ}す - to get involved in (also often negative)\n・{首|くび}を{突|つ}っ{込|こ}む - to stick one's nose into\n・{足|あし}を{踏|ふ}み{入|い}れる - to step into, to enter (a field)\n\nREGISTER:\nNeutral to literary. Common in written Japanese and dramatic contexts.",
@@ -67,10 +79,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression", "action"]
+      "semantic": [
+        "expression",
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{手|て}を{染|そ}める",
+        "negative": "{手|て}を{染|そ}めらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{手|て}を{染|そ}めります",
+        "negative": "{手|て}を{染|そ}めりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{手|て}を{染|そ}めった",
+        "negative": "{手|て}を{染|そ}めらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{手|て}を{染|そ}めりました",
+        "negative": "{手|て}を{染|そ}めりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{手|て}を{染|そ}めって",
+        "negative": "{手|て}を{染|そ}めらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{手|て}を{染|そ}めっている",
+        "negative": "{手|て}を{染|そ}めっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{手|て}を{染|そ}めっています",
+        "negative": "{手|て}を{染|そ}めっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{手|て}を{染|そ}めっていた",
+        "negative": "{手|て}を{染|そ}めっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{手|て}を{染|そ}めっていました",
+        "negative": "{手|て}を{染|そ}めっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{手|て}を{染|そ}めれば",
+        "negative": "{手|て}を{染|そ}めらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{手|て}を{染|そ}めったら",
+        "negative": "{手|て}を{染|そ}めらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{手|て}を{染|そ}めろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{手|て}を{染|そ}めりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{手|て}を{染|そ}めれる",
+        "negative": "{手|て}を{染|そ}めれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{手|て}を{染|そ}められる",
+        "negative": "{手|て}を{染|そ}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{手|て}を{染|そ}めらせる",
+        "negative": "{手|て}を{染|そ}めらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{手|て}を{染|そ}めれ",
+        "negative": "{手|て}を{染|そ}めるな"
+      }
+    ]
   }
 }

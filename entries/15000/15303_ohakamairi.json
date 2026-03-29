@@ -19,7 +19,9 @@
       "english": "I visit the grave during Obon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15303_ohakamairi_ex2",
@@ -27,7 +29,9 @@
       "english": "We went as a family to visit grandmother's grave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15303_ohakamairi_ex3",
@@ -35,7 +39,9 @@
       "english": "Every year during the spring and autumn equinox weeks, I make it a point to go back home and visit the graves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nお{墓参|はかまい}り is an important Japanese custom. Families typically visit graves during お{盆|ぼん} (mid-August), お{彼岸|ひがん} (equinox weeks in March and September), and {命日|めいにち} (death anniversaries). The visit involves cleaning the gravestone, offering {線香|せんこう} (incense), {花|はな} (flowers), and sometimes food or drink, and praying.\n\nFORMS:\nThe plain form {墓参|はかまい}り (without お) is also used but sounds less polite. {墓参|ぼさん} is a more formal reading used in written contexts.\n\nCOMMON COLLOCATIONS:\n- お{墓参|はかまい}りに{行|い}く (to go visit a grave)\n- お{墓参|はかまい}りをする (to visit a grave)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["culture", "religion"]
+      "semantic": [
+        "culture",
+        "religion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "お{墓参|はかまい}りする",
+        "negative": "お{墓参|はかまい}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "お{墓参|はかまい}りします",
+        "negative": "お{墓参|はかまい}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "お{墓参|はかまい}りした",
+        "negative": "お{墓参|はかまい}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "お{墓参|はかまい}りしました",
+        "negative": "お{墓参|はかまい}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "お{墓参|はかまい}りして",
+        "negative": "お{墓参|はかまい}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "お{墓参|はかまい}りしている",
+        "negative": "お{墓参|はかまい}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "お{墓参|はかまい}りしています",
+        "negative": "お{墓参|はかまい}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "お{墓参|はかまい}りしていた",
+        "negative": "お{墓参|はかまい}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "お{墓参|はかまい}りしていました",
+        "negative": "お{墓参|はかまい}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "お{墓参|はかまい}りすれば",
+        "negative": "お{墓参|はかまい}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "お{墓参|はかまい}りしたら",
+        "negative": "お{墓参|はかまい}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "お{墓参|はかまい}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "お{墓参|はかまい}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "お{墓参|はかまい}りできる",
+        "negative": "お{墓参|はかまい}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "お{墓参|はかまい}りされる",
+        "negative": "お{墓参|はかまい}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "お{墓参|はかまい}りさせる",
+        "negative": "お{墓参|はかまい}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "お{墓参|はかまい}りしろ",
+        "negative": "お{墓参|はかまい}りするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "There is a direct bus to the airport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13653_chokutsuu_ex2",
@@ -27,7 +29,9 @@
       "english": "This phone connects directly to the president's office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13653_chokutsuu_ex3",
@@ -35,7 +39,9 @@
       "english": "A direct express train runs from Shinjuku to Hakone, so you can get there without transferring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a modifier ({直通|ちょくつう}の or compound: {直通|ちょくつう}バス, {直通|ちょくつう}{電話|でんわ}) or as a suru verb ({直通|ちょくつう}する). Very common in transportation (trains, buses) and telecommunications (direct phone lines).\n\nCOMMON COLLOCATIONS:\n- {直通|ちょくつう}バス: direct bus\n- {直通|ちょくつう}{電車|でんしゃ}: direct train\n- {直通|ちょくつう}{電話|でんわ}: direct phone line\n- {直通|ちょくつう}{運転|うんてん}: through-service (trains running across different lines)\n- {直通|ちょくつう}ダイヤル: direct dial",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transport"]
+      "semantic": [
+        "transport"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{直通|ちょくつう}する",
+        "negative": "{直通|ちょくつう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{直通|ちょくつう}します",
+        "negative": "{直通|ちょくつう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{直通|ちょくつう}した",
+        "negative": "{直通|ちょくつう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{直通|ちょくつう}しました",
+        "negative": "{直通|ちょくつう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{直通|ちょくつう}して",
+        "negative": "{直通|ちょくつう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{直通|ちょくつう}している",
+        "negative": "{直通|ちょくつう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{直通|ちょくつう}しています",
+        "negative": "{直通|ちょくつう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{直通|ちょくつう}していた",
+        "negative": "{直通|ちょくつう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{直通|ちょくつう}していました",
+        "negative": "{直通|ちょくつう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{直通|ちょくつう}すれば",
+        "negative": "{直通|ちょくつう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{直通|ちょくつう}したら",
+        "negative": "{直通|ちょくつう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{直通|ちょくつう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{直通|ちょくつう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{直通|ちょくつう}できる",
+        "negative": "{直通|ちょくつう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{直通|ちょくつう}される",
+        "negative": "{直通|ちょくつう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{直通|ちょくつう}させる",
+        "negative": "{直通|ちょくつう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{直通|ちょくつう}しろ",
+        "negative": "{直通|ちょくつう}するな"
+      }
+    ]
   }
 }

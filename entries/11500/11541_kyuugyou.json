@@ -18,7 +18,9 @@
       "english": "Closed today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11541_kyuugyou_ex2",
@@ -26,7 +28,9 @@
       "english": "Notice of temporary closure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11541_kyuugyou_ex3",
@@ -34,7 +38,9 @@
       "english": "Due to the typhoon, many shops were forced to close.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Commonly seen on signs and notices. In Japanese labor law, {休業|きゅうぎょう} also refers to official leave periods such as {育児休業|いくじきゅうぎょう} (parental leave) and {介護休業|かいごきゅうぎょう} (nursing care leave).\n\nCOMMON COLLOCATIONS:\n・{休業|きゅうぎょう}する (to close, to suspend operations)\n・{臨時|りんじ}{休業|きゅうぎょう} (temporary closure)\n・{休業|きゅうぎょう}{日|び} (closure day)\n・{育児|いくじ}{休業|きゅうぎょう} (parental leave)\n・{休業|きゅうぎょう}{補償|ほしょう} (compensation during closure)",
@@ -46,11 +52,109 @@
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["business-operation"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business-operation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{休業|きゅうぎょう}する",
+        "negative": "{休業|きゅうぎょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{休業|きゅうぎょう}します",
+        "negative": "{休業|きゅうぎょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{休業|きゅうぎょう}した",
+        "negative": "{休業|きゅうぎょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{休業|きゅうぎょう}しました",
+        "negative": "{休業|きゅうぎょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{休業|きゅうぎょう}して",
+        "negative": "{休業|きゅうぎょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{休業|きゅうぎょう}している",
+        "negative": "{休業|きゅうぎょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{休業|きゅうぎょう}しています",
+        "negative": "{休業|きゅうぎょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{休業|きゅうぎょう}していた",
+        "negative": "{休業|きゅうぎょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{休業|きゅうぎょう}していました",
+        "negative": "{休業|きゅうぎょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{休業|きゅうぎょう}すれば",
+        "negative": "{休業|きゅうぎょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{休業|きゅうぎょう}したら",
+        "negative": "{休業|きゅうぎょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{休業|きゅうぎょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{休業|きゅうぎょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{休業|きゅうぎょう}できる",
+        "negative": "{休業|きゅうぎょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{休業|きゅうぎょう}される",
+        "negative": "{休業|きゅうぎょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{休業|きゅうぎょう}させる",
+        "negative": "{休業|きゅうぎょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{休業|きゅうぎょう}しろ",
+        "negative": "{休業|きゅうぎょう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "I fully enjoyed the autumn foliage in Kyoto.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12081_tannou_ex2",
@@ -32,7 +34,9 @@
       "english": "To savor seasonal seafood dishes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12081_tannou_ex3",
@@ -40,7 +44,9 @@
       "english": "I soaked in hot springs and savored dishes made with local ingredients — it was the best holiday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12081_tannou_ex4",
@@ -48,7 +54,9 @@
       "english": "She is proficient in English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12081_tannou_ex5",
@@ -56,7 +64,9 @@
       "english": "We are looking for an interpreter fluent in three languages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12081_tannou_ex6",
@@ -64,7 +74,9 @@
       "english": "He is highly skilled in martial arts and holds dan rankings in both kendo and judo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (to enjoy fully) is used as a suru verb: ～を{堪能|たんのう}する. Very common in travel writing and food reviews. Sense 2 (proficient) is used as a na-adjective: ～に{堪能|たんのう}だ. This sense is especially common when describing language ability.\n\nCOMMON COLLOCATIONS:\n- ～を{堪能|たんのう}する: to fully enjoy ~\n- {料理|りょうり}を{堪能|たんのう}する: to savor a meal\n- {景色|けしき}を{堪能|たんのう}する: to enjoy the scenery\n- ～に{堪能|たんのう}だ: to be proficient in ~\n- {語学|ごがく}に{堪能|たんのう}: proficient in languages\n\nETYMOLOGY:\nOriginally two separate words that converged. Sense 1 derives from a Buddhist term meaning \"to be satisfied.\" Sense 2 comes from {堪|た}える{能|のう}（{力|りょく}） meaning \"ability to endure/perform.\"",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru", "adjective-na"],
+      "pos": [
+        "noun",
+        "verb-suru",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{堪能|たんのう}する",
+        "negative": "{堪能|たんのう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{堪能|たんのう}します",
+        "negative": "{堪能|たんのう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{堪能|たんのう}した",
+        "negative": "{堪能|たんのう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{堪能|たんのう}しました",
+        "negative": "{堪能|たんのう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{堪能|たんのう}して",
+        "negative": "{堪能|たんのう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{堪能|たんのう}している",
+        "negative": "{堪能|たんのう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{堪能|たんのう}しています",
+        "negative": "{堪能|たんのう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{堪能|たんのう}していた",
+        "negative": "{堪能|たんのう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{堪能|たんのう}していました",
+        "negative": "{堪能|たんのう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{堪能|たんのう}すれば",
+        "negative": "{堪能|たんのう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{堪能|たんのう}したら",
+        "negative": "{堪能|たんのう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{堪能|たんのう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{堪能|たんのう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{堪能|たんのう}できる",
+        "negative": "{堪能|たんのう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{堪能|たんのう}される",
+        "negative": "{堪能|たんのう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{堪能|たんのう}させる",
+        "negative": "{堪能|たんのう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{堪能|たんのう}しろ",
+        "negative": "{堪能|たんのう}するな"
+      }
+    ]
   }
 }

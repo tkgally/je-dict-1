@@ -19,7 +19,9 @@
       "english": "To apologize for one's rudeness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14174_wabiru_ex2",
@@ -27,7 +29,9 @@
       "english": "He deeply apologized for being late.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14174_wabiru_ex3",
@@ -35,7 +39,9 @@
       "english": "The company president met the parties involved directly and apologized for the recent scandal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{詫|わ}びる is more formal and literary than {謝|あやま}る (to apologize). It implies deep, sincere remorse and is often used in written language, formal speeches, and news reports. The related noun {詫|わ}び means an apology, as in {詫|わ}びを{入|い}れる (to offer an apology). Not to be confused with {侘|わ}び (the aesthetic concept of rustic simplicity), which is a different word.\n\nCOMMON COLLOCATIONS:\n- {非礼|ひれい}を{詫|わ}びる: to apologize for rudeness\n- {深|ふか}く{詫|わ}びる: to deeply apologize\n- {詫|わ}びの{言葉|ことば}: words of apology\n- {詫|わ}びを{入|い}れる: to offer an apology",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "transitivity": "transitive",
-      "style": ["written"]
+      "style": [
+        "written"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{詫|わ}びる",
+        "negative": "{詫|わ}びない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{詫|わ}びます",
+        "negative": "{詫|わ}びません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{詫|わ}びた",
+        "negative": "{詫|わ}びなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{詫|わ}びました",
+        "negative": "{詫|わ}びませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{詫|わ}びて",
+        "negative": "{詫|わ}びなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{詫|わ}びている",
+        "negative": "{詫|わ}びていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{詫|わ}びています",
+        "negative": "{詫|わ}びていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{詫|わ}びていた",
+        "negative": "{詫|わ}びていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{詫|わ}びていました",
+        "negative": "{詫|わ}びていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{詫|わ}びれば",
+        "negative": "{詫|わ}びなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{詫|わ}びたら",
+        "negative": "{詫|わ}びなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{詫|わ}びよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{詫|わ}びましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{詫|わ}びられる",
+        "negative": "{詫|わ}びられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{詫|わ}びられる",
+        "negative": "{詫|わ}びられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{詫|わ}びさせる",
+        "negative": "{詫|わ}びさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{詫|わ}びろ",
+        "negative": "{詫|わ}びるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The company's survival is in doubt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12242_sonzoku_ex2",
@@ -27,7 +29,9 @@
       "english": "This system has continued to exist for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12242_sonzoku_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to the declining birth rate, more areas are facing the problem of whether schools can continue to operate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する to form a verb. Commonly appears in formal and news contexts when discussing whether something will continue or be discontinued. Often implies that the subject's continued existence is uncertain or threatened.\n\nCOMMON COLLOCATIONS:\n- {存続|そんぞく}が{危|あや}ぶまれる: survival is in doubt\n- {存続|そんぞく}の{危機|きき}: crisis of survival\n- {存続|そんぞく}を{図|はか}る: to seek to continue/survive\n- {存続|そんぞく}する: to continue to exist",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{存続|そんぞく}する",
+        "negative": "{存続|そんぞく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{存続|そんぞく}します",
+        "negative": "{存続|そんぞく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{存続|そんぞく}した",
+        "negative": "{存続|そんぞく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{存続|そんぞく}しました",
+        "negative": "{存続|そんぞく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{存続|そんぞく}して",
+        "negative": "{存続|そんぞく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{存続|そんぞく}している",
+        "negative": "{存続|そんぞく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{存続|そんぞく}しています",
+        "negative": "{存続|そんぞく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{存続|そんぞく}していた",
+        "negative": "{存続|そんぞく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{存続|そんぞく}していました",
+        "negative": "{存続|そんぞく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{存続|そんぞく}すれば",
+        "negative": "{存続|そんぞく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{存続|そんぞく}したら",
+        "negative": "{存続|そんぞく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{存続|そんぞく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{存続|そんぞく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{存続|そんぞく}できる",
+        "negative": "{存続|そんぞく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{存続|そんぞく}される",
+        "negative": "{存続|そんぞく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{存続|そんぞく}させる",
+        "negative": "{存続|そんぞく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{存続|そんぞく}しろ",
+        "negative": "{存続|そんぞく}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The schedule has been finalized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13707_kakutei_ex2",
@@ -27,7 +29,9 @@
       "english": "The deadline for filing a final tax return is by March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13707_kakutei_ex3",
@@ -35,7 +39,9 @@
       "english": "It can take several days for the election results to be confirmed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA very common word in business, legal, and administrative Japanese. The compound {確定|かくてい}{申告|しんこく} (final tax return) is one of the most well-known collocations and is relevant to anyone working or living in Japan.\n\nCOMMON COLLOCATIONS:\n- {確定|かくてい}{申告|しんこく}: final tax return\n- {確定|かくてい}{判決|はんけつ}: final verdict\n- {日程|にってい}が{確定|かくてい}する: the schedule is finalized\n- {結果|けっか}が{確定|かくてい}する: the results are confirmed\n- {予約|よやく}を{確定|かくてい}する: to confirm a reservation",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{確定|かくてい}する",
+        "negative": "{確定|かくてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{確定|かくてい}します",
+        "negative": "{確定|かくてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{確定|かくてい}した",
+        "negative": "{確定|かくてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{確定|かくてい}しました",
+        "negative": "{確定|かくてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{確定|かくてい}して",
+        "negative": "{確定|かくてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{確定|かくてい}している",
+        "negative": "{確定|かくてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{確定|かくてい}しています",
+        "negative": "{確定|かくてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{確定|かくてい}していた",
+        "negative": "{確定|かくてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{確定|かくてい}していました",
+        "negative": "{確定|かくてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{確定|かくてい}すれば",
+        "negative": "{確定|かくてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{確定|かくてい}したら",
+        "negative": "{確定|かくてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{確定|かくてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{確定|かくてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{確定|かくてい}できる",
+        "negative": "{確定|かくてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{確定|かくてい}される",
+        "negative": "{確定|かくてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{確定|かくてい}させる",
+        "negative": "{確定|かくてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{確定|かくてい}しろ",
+        "negative": "{確定|かくてい}するな"
+      }
+    ]
   }
 }

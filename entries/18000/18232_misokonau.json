@@ -24,7 +24,9 @@
       "english": "I had misjudged his ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18232_misokonau_ex2",
@@ -32,7 +34,9 @@
       "english": "If you misjudge your opponent, you'll pay for it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18232_misokonau_ex3",
@@ -40,7 +44,9 @@
       "english": "I misread the situation and ended up with a big loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18232_misokonau_ex4",
@@ -48,7 +54,9 @@
       "english": "I can't believe you'd do something like that — I've lost respect for you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18232_misokonau_ex5",
@@ -56,7 +64,9 @@
       "english": "I was betrayed by my friend, and I completely lost respect for them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18232_misokonau_ex6",
@@ -64,7 +74,9 @@
       "english": "I had thought poorly of her, but she was actually a very kind person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 2 is the more common everyday usage. The phrase {見損|みそこ}なったよ is a strong expression of disappointment, often said directly to the person. It carries an emotional weight similar to \"I thought better of you.\"\n\nGRAMMAR:\nGodan verb ({五段動詞|ごだんどうし}). Conjugates as: {見損|みそこ}なわない, {見損|みそこ}なって, {見損|みそこ}なった.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{見損|みそこ}なう (to misjudge a person)\n- {見損|みそこ}なったよ (I've lost respect for you)\n- すっかり{見損|みそこ}なう (to completely lose respect for)",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見損|みそこ}なう",
+        "negative": "{見損|みそこ}なわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見損|みそこ}ないます",
+        "negative": "{見損|みそこ}ないません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見損|みそこ}なった",
+        "negative": "{見損|みそこ}なわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見損|みそこ}ないました",
+        "negative": "{見損|みそこ}ないませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見損|みそこ}なって",
+        "negative": "{見損|みそこ}なわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見損|みそこ}なっている",
+        "negative": "{見損|みそこ}なっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見損|みそこ}なっています",
+        "negative": "{見損|みそこ}なっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見損|みそこ}なっていた",
+        "negative": "{見損|みそこ}なっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見損|みそこ}なっていました",
+        "negative": "{見損|みそこ}なっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見損|みそこ}なえば",
+        "negative": "{見損|みそこ}なわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見損|みそこ}なったら",
+        "negative": "{見損|みそこ}なわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見損|みそこ}なおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見損|みそこ}ないましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見損|みそこ}なえる",
+        "negative": "{見損|みそこ}なえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見損|みそこ}なわれる",
+        "negative": "{見損|みそこ}なわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見損|みそこ}なわせる",
+        "negative": "{見損|みそこ}なわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見損|みそこ}なえ",
+        "negative": "{見損|みそこ}なうな"
+      }
+    ]
   }
 }

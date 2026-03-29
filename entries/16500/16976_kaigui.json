@@ -19,7 +19,9 @@
       "english": "I bought snacks on the way home from school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16976_kaigui_ex2",
@@ -27,7 +29,9 @@
       "english": "Buying snacks on the way was forbidden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16976_kaigui_ex3",
@@ -35,7 +39,9 @@
       "english": "It's fun to stroll through the shopping street, buying and eating snacks as you go.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nTraditionally associated with school children buying snacks from shops on their way home. Many schools in Japan have rules prohibiting {買|か}い{食|ぐ}い. In modern usage, it also describes adults enjoying street food at festivals, markets, or shopping streets.\n\nCOMMON COLLOCATIONS:\n- {買|か}い{食|ぐ}い{禁止|きんし} (prohibition on buying snacks)\n- {食|た}べ{歩|ある}き / {買|か}い{食|ぐ}い (eating while walking / buying snacks)\n\nSIMILAR WORDS:\n- {食|た}べ{歩|ある}き: eating while walking — focuses on the walking aspect, more positive connotation\n- つまみ{食|ぐ}い: snacking, nibbling — picking at food before it's served",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["food-drink"]
+      "semantic": [
+        "food-drink"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{買|か}い{食|ぐ}いする",
+        "negative": "{買|か}い{食|ぐ}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{買|か}い{食|ぐ}いします",
+        "negative": "{買|か}い{食|ぐ}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{買|か}い{食|ぐ}いした",
+        "negative": "{買|か}い{食|ぐ}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{買|か}い{食|ぐ}いしました",
+        "negative": "{買|か}い{食|ぐ}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{買|か}い{食|ぐ}いして",
+        "negative": "{買|か}い{食|ぐ}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{買|か}い{食|ぐ}いしている",
+        "negative": "{買|か}い{食|ぐ}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{買|か}い{食|ぐ}いしています",
+        "negative": "{買|か}い{食|ぐ}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{買|か}い{食|ぐ}いしていた",
+        "negative": "{買|か}い{食|ぐ}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{買|か}い{食|ぐ}いしていました",
+        "negative": "{買|か}い{食|ぐ}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{買|か}い{食|ぐ}いすれば",
+        "negative": "{買|か}い{食|ぐ}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{買|か}い{食|ぐ}いしたら",
+        "negative": "{買|か}い{食|ぐ}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{買|か}い{食|ぐ}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{買|か}い{食|ぐ}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{買|か}い{食|ぐ}いできる",
+        "negative": "{買|か}い{食|ぐ}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{買|か}い{食|ぐ}いされる",
+        "negative": "{買|か}い{食|ぐ}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{買|か}い{食|ぐ}いさせる",
+        "negative": "{買|か}い{食|ぐ}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{買|か}い{食|ぐ}いしろ",
+        "negative": "{買|か}い{食|ぐ}いするな"
+      }
+    ]
   }
 }

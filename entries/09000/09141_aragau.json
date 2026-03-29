@@ -16,7 +16,9 @@
       "id": "09141_aragau_ex1",
       "japanese": "{運命|うんめい}に{抗|あらが}う",
       "english": "to defy fate",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09141_aragau_ex2",
       "japanese": "{権力|けんりょく}に{抗|あらが}うのは{難|むずか}しい。",
       "english": "It's difficult to resist authority.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09141_aragau_ex3",
       "japanese": "{老化|ろうか}に{抗|あらが}うことはできないが、{健康|けんこう}を{維持|いじ}することはできる。",
       "english": "We cannot fight aging, but we can maintain our health.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{抗|あらが}う",
+        "negative": "{抗|あらが}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{抗|あらが}います",
+        "negative": "{抗|あらが}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{抗|あらが}った",
+        "negative": "{抗|あらが}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{抗|あらが}いました",
+        "negative": "{抗|あらが}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{抗|あらが}って",
+        "negative": "{抗|あらが}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{抗|あらが}っている",
+        "negative": "{抗|あらが}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{抗|あらが}っています",
+        "negative": "{抗|あらが}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{抗|あらが}っていた",
+        "negative": "{抗|あらが}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{抗|あらが}っていました",
+        "negative": "{抗|あらが}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{抗|あらが}えば",
+        "negative": "{抗|あらが}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{抗|あらが}ったら",
+        "negative": "{抗|あらが}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{抗|あらが}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{抗|あらが}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{抗|あらが}える",
+        "negative": "{抗|あらが}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{抗|あらが}われる",
+        "negative": "{抗|あらが}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{抗|あらが}わせる",
+        "negative": "{抗|あらが}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{抗|あらが}え",
+        "negative": "{抗|あらが}うな"
+      }
+    ]
   }
 }

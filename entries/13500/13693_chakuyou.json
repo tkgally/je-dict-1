@@ -19,7 +19,9 @@
       "english": "Please wear a helmet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13693_chakuyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Wearing safety shoes is mandatory in the factory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13693_chakuyou_ex3",
@@ -35,7 +39,9 @@
       "english": "We do not allow customers who are not wearing masks to enter the store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word for wearing or putting on items. In everyday conversation, {着|き}る, {被|かぶ}る, {履|は}く, or {付|つ}ける would be used depending on the item. {着用|ちゃくよう} is preferred in written notices, safety regulations, and official instructions. It is used for all types of wearable items regardless of where on the body they are worn.\n\nKANJI:\n{着|ちゃく} means \"to wear\" or \"to arrive\" and {用|よう} means \"to use.\" Together they convey the formal sense of putting something on for use.\n\nCOMMON COLLOCATIONS:\n- マスクを{着用|ちゃくよう}する: to wear a mask\n- ヘルメットを{着用|ちゃくよう}する: to wear a helmet\n- {着用|ちゃくよう}{義務|ぎむ}: obligation to wear\n- {着用|ちゃくよう}{禁止|きんし}: prohibited from wearing",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{着用|ちゃくよう}する",
+        "negative": "{着用|ちゃくよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{着用|ちゃくよう}します",
+        "negative": "{着用|ちゃくよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{着用|ちゃくよう}した",
+        "negative": "{着用|ちゃくよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{着用|ちゃくよう}しました",
+        "negative": "{着用|ちゃくよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{着用|ちゃくよう}して",
+        "negative": "{着用|ちゃくよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{着用|ちゃくよう}している",
+        "negative": "{着用|ちゃくよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{着用|ちゃくよう}しています",
+        "negative": "{着用|ちゃくよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{着用|ちゃくよう}していた",
+        "negative": "{着用|ちゃくよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{着用|ちゃくよう}していました",
+        "negative": "{着用|ちゃくよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{着用|ちゃくよう}すれば",
+        "negative": "{着用|ちゃくよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{着用|ちゃくよう}したら",
+        "negative": "{着用|ちゃくよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{着用|ちゃくよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{着用|ちゃくよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{着用|ちゃくよう}できる",
+        "negative": "{着用|ちゃくよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{着用|ちゃくよう}される",
+        "negative": "{着用|ちゃくよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{着用|ちゃくよう}させる",
+        "negative": "{着用|ちゃくよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{着用|ちゃくよう}しろ",
+        "negative": "{着用|ちゃくよう}するな"
+      }
+    ]
   }
 }

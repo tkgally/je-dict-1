@@ -19,7 +19,9 @@
       "english": "He clicked his tongue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14982_shitauchi_ex2",
@@ -27,7 +29,9 @@
       "english": "I missed the train and couldn't help but click my tongue in frustration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14982_shitauchi_ex3",
@@ -35,7 +39,9 @@
       "english": "You should absolutely avoid clicking your tongue in front of your boss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {舌|した} (tongue) and {打|う}ち (striking, from {打|う}つ). Used with する to form a verb: {舌打|したう}ちする.\n\nCULTURAL NOTE:\nIn Japan, {舌打|したう}ち is considered very rude and aggressive. Even doing it unconsciously can offend people nearby. It signals open displeasure and is associated with ill temper.\n\nCOMMON COLLOCATIONS:\n- {舌打|したう}ちをする (to click one's tongue)\n- {思|おも}わず{舌打|したう}ちする (to involuntarily click one's tongue)\n- {小|ちい}さく{舌打|したう}ちする (to click one's tongue quietly)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-part", "communication"]
+      "semantic": [
+        "body-part",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{舌打|したう}ちする",
+        "negative": "{舌打|したう}ちしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{舌打|したう}ちします",
+        "negative": "{舌打|したう}ちしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{舌打|したう}ちした",
+        "negative": "{舌打|したう}ちしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{舌打|したう}ちしました",
+        "negative": "{舌打|したう}ちしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{舌打|したう}ちして",
+        "negative": "{舌打|したう}ちしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{舌打|したう}ちしている",
+        "negative": "{舌打|したう}ちしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{舌打|したう}ちしています",
+        "negative": "{舌打|したう}ちしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{舌打|したう}ちしていた",
+        "negative": "{舌打|したう}ちしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{舌打|したう}ちしていました",
+        "negative": "{舌打|したう}ちしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{舌打|したう}ちすれば",
+        "negative": "{舌打|したう}ちしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{舌打|したう}ちしたら",
+        "negative": "{舌打|したう}ちしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{舌打|したう}ちしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{舌打|したう}ちしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{舌打|したう}ちできる",
+        "negative": "{舌打|したう}ちできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{舌打|したう}ちされる",
+        "negative": "{舌打|したう}ちされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{舌打|したう}ちさせる",
+        "negative": "{舌打|したう}ちさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{舌打|したう}ちしろ",
+        "negative": "{舌打|したう}ちするな"
+      }
+    ]
   }
 }

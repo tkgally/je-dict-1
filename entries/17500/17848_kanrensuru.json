@@ -19,7 +19,9 @@
       "english": "These two incidents are related.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17848_kanrensuru_ex2",
@@ -27,7 +29,9 @@
       "english": "Laws related to environmental issues were revised.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17848_kanrensuru_ex3",
@@ -35,7 +39,9 @@
       "english": "Health and diet are closely related, so I'm careful about what I eat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in the pattern ～に{関連|かんれん}する (related to ~). Also very common as a noun modifier: {関連|かんれん} + noun (related ~). The noun form {関連|かんれん} is frequently used on its own.\n\nCOMMON COLLOCATIONS:\n- ～に{関連|かんれん}する (to be related to ~)\n- {関連|かんれん}{情報|じょうほう} (related information)\n- {関連|かんれん}{企業|きぎょう} (affiliated company)\n- {関連|かんれん}{商品|しょうひん} (related products)\n- {密接|みっせつ}に{関連|かんれん}する (to be closely related)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["relationship", "connection"]
+      "semantic": [
+        "relationship",
+        "connection"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{関連|かんれん}する",
+        "negative": "{関連|かんれん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{関連|かんれん}します",
+        "negative": "{関連|かんれん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{関連|かんれん}した",
+        "negative": "{関連|かんれん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{関連|かんれん}しました",
+        "negative": "{関連|かんれん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{関連|かんれん}して",
+        "negative": "{関連|かんれん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{関連|かんれん}している",
+        "negative": "{関連|かんれん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{関連|かんれん}しています",
+        "negative": "{関連|かんれん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{関連|かんれん}していた",
+        "negative": "{関連|かんれん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{関連|かんれん}していました",
+        "negative": "{関連|かんれん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{関連|かんれん}すれば",
+        "negative": "{関連|かんれん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{関連|かんれん}したら",
+        "negative": "{関連|かんれん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{関連|かんれん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{関連|かんれん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{関連|かんれん}できる",
+        "negative": "{関連|かんれん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{関連|かんれん}される",
+        "negative": "{関連|かんれん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{関連|かんれん}させる",
+        "negative": "{関連|かんれん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{関連|かんれん}しろ",
+        "negative": "{関連|かんれん}するな"
+      }
+    ]
   }
 }

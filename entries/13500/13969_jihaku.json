@@ -19,7 +19,9 @@
       "english": "The suspect confessed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13969_jihaku_ex2",
@@ -27,7 +29,9 @@
       "english": "After a long interrogation, they obtained a confession.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13969_jihaku_ex3",
@@ -35,7 +39,9 @@
       "english": "The lawyer raised questions about the reliability of the confession.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily a legal and police term. In Japanese criminal proceedings, {自白|じはく} carries significant weight, and coerced confessions ({強要|きょうよう}された{自白|じはく}) have been a recurring issue in Japanese law.\n\nCOMMON COLLOCATIONS:\n- {自白|じはく}する: to confess\n- {自白|じはく}を{強要|きょうよう}する: to coerce a confession\n- {自白|じはく}を{得|え}る: to obtain a confession\n- {自白|じはく}を{撤回|てっかい}する: to retract a confession\n- {虚偽|きょぎ}の{自白|じはく}: false confession\n\nSIMILAR WORDS:\n- {告白|こくはく}: confession of feelings, especially romantic; also used for confessing sins in a religious context\n- {白状|はくじょう}: confession, typically less formal than {自白|じはく}",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["legal"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自白|じはく}する",
+        "negative": "{自白|じはく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自白|じはく}します",
+        "negative": "{自白|じはく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自白|じはく}した",
+        "negative": "{自白|じはく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自白|じはく}しました",
+        "negative": "{自白|じはく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自白|じはく}して",
+        "negative": "{自白|じはく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自白|じはく}している",
+        "negative": "{自白|じはく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自白|じはく}しています",
+        "negative": "{自白|じはく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自白|じはく}していた",
+        "negative": "{自白|じはく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自白|じはく}していました",
+        "negative": "{自白|じはく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自白|じはく}すれば",
+        "negative": "{自白|じはく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自白|じはく}したら",
+        "negative": "{自白|じはく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自白|じはく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自白|じはく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自白|じはく}できる",
+        "negative": "{自白|じはく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自白|じはく}される",
+        "negative": "{自白|じはく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自白|じはく}させる",
+        "negative": "{自白|じはく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自白|じはく}しろ",
+        "negative": "{自白|じはく}するな"
+      }
+    ]
   }
 }

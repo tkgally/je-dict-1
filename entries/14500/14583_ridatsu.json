@@ -19,7 +19,9 @@
       "english": "He left the party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14583_ridatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The country announced its withdrawal from the treaty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14583_ridatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The ace's withdrawal due to injury was a major blow to the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{離脱|りだつ} is a formal word used for deliberate or significant departures — leaving a political party, withdrawing from a treaty, or a player dropping out due to injury. It is more formal and definitive than simply {辞|や}める.\n\nPARTICLE PATTERNS:\n- ～から{離脱|りだつ}する (to withdraw from ~)\n- ～を{離脱|りだつ}する (to leave ~ — less common)\n\nCOMMON COLLOCATIONS:\n- {党|とう}を{離脱|りだつ}する (to leave a political party)\n- {条約|じょうやく}から{離脱|りだつ}する (to withdraw from a treaty)\n- {負傷|ふしょう}{離脱|りだつ} (withdrawal due to injury)\n- {戦線|せんせん}{離脱|りだつ} (leaving the front line; dropping out)\n- {離脱|りだつ}{症状|しょうじょう} (withdrawal symptoms)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{離脱|りだつ}する",
+        "negative": "{離脱|りだつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{離脱|りだつ}します",
+        "negative": "{離脱|りだつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{離脱|りだつ}した",
+        "negative": "{離脱|りだつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{離脱|りだつ}しました",
+        "negative": "{離脱|りだつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{離脱|りだつ}して",
+        "negative": "{離脱|りだつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{離脱|りだつ}している",
+        "negative": "{離脱|りだつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{離脱|りだつ}しています",
+        "negative": "{離脱|りだつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{離脱|りだつ}していた",
+        "negative": "{離脱|りだつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{離脱|りだつ}していました",
+        "negative": "{離脱|りだつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{離脱|りだつ}すれば",
+        "negative": "{離脱|りだつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{離脱|りだつ}したら",
+        "negative": "{離脱|りだつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{離脱|りだつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{離脱|りだつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{離脱|りだつ}できる",
+        "negative": "{離脱|りだつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{離脱|りだつ}される",
+        "negative": "{離脱|りだつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{離脱|りだつ}させる",
+        "negative": "{離脱|りだつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{離脱|りだつ}しろ",
+        "negative": "{離脱|りだつ}するな"
+      }
+    ]
   }
 }

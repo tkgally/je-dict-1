@@ -24,7 +24,9 @@
       "english": "I ate while walking through the shopping street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15117_tabearuki_ex2",
@@ -32,7 +34,9 @@
       "english": "Eating while walking around at the festival is fun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15117_tabearuki_ex3",
@@ -40,7 +44,9 @@
       "english": "Eating while walking has become a problem in Kyoto.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15117_tabearuki_ex4",
@@ -48,7 +54,9 @@
       "english": "I went on a food tour in Tsukiji.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15117_tabearuki_ex5",
@@ -56,7 +64,9 @@
       "english": "I made a food tour plan with my friends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15117_tabearuki_ex6",
@@ -64,7 +74,9 @@
       "english": "There are many people who write ramen restaurant-hopping blogs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (eating while walking) can be considered rude in some contexts in Japan, especially in residential areas or near temples. Sense 2 (food touring) is a popular leisure activity, often featured in travel guides and TV shows.\n\nCOMMON COLLOCATIONS:\n- {食|た}べ{歩|ある}きグルメ (street food, walking-around food)\n- {食|た}べ{歩|ある}きマップ (food tour map)\n- {食|た}べ{歩|ある}き{禁止|きんし} (no eating while walking)\n\nCULTURAL NOTE:\nSome tourist areas in Japan have posted {食|た}べ{歩|ある}き{禁止|きんし} signs to address litter and congestion. Despite this, {食|た}べ{歩|ある}き remains a key part of visiting famous food streets like {築地|つきじ} and {錦市場|にしきいちば}.",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "leisure"]
+      "semantic": [
+        "food",
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{食|た}べ{歩|ある}きする",
+        "negative": "{食|た}べ{歩|ある}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{食|た}べ{歩|ある}きします",
+        "negative": "{食|た}べ{歩|ある}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{食|た}べ{歩|ある}きした",
+        "negative": "{食|た}べ{歩|ある}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{食|た}べ{歩|ある}きしました",
+        "negative": "{食|た}べ{歩|ある}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{食|た}べ{歩|ある}きして",
+        "negative": "{食|た}べ{歩|ある}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{食|た}べ{歩|ある}きしている",
+        "negative": "{食|た}べ{歩|ある}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{食|た}べ{歩|ある}きしています",
+        "negative": "{食|た}べ{歩|ある}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{食|た}べ{歩|ある}きしていた",
+        "negative": "{食|た}べ{歩|ある}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{食|た}べ{歩|ある}きしていました",
+        "negative": "{食|た}べ{歩|ある}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{食|た}べ{歩|ある}きすれば",
+        "negative": "{食|た}べ{歩|ある}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{食|た}べ{歩|ある}きしたら",
+        "negative": "{食|た}べ{歩|ある}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{食|た}べ{歩|ある}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{食|た}べ{歩|ある}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{食|た}べ{歩|ある}きできる",
+        "negative": "{食|た}べ{歩|ある}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{食|た}べ{歩|ある}きされる",
+        "negative": "{食|た}べ{歩|ある}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{食|た}べ{歩|ある}きさせる",
+        "negative": "{食|た}べ{歩|ある}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{食|た}べ{歩|ある}きしろ",
+        "negative": "{食|た}べ{歩|ある}きするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Apply for a benefit payment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13848_kyuufu_ex2",
@@ -27,7 +29,9 @@
       "english": "I am receiving unemployment benefits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13848_kyuufu_ex3",
@@ -35,7 +39,9 @@
       "english": "The government announced that it would provide a benefit payment of 100,000 yen per person to low-income households.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA key term in discussions of government benefits, social security, and insurance in Japan. Became widely known during the COVID-19 pandemic when the government distributed {特別定額給付金|とくべつていがくきゅうふきん} (special fixed-amount benefits) to all residents.\n\nSIMILAR WORDS:\n- {支給|しきゅう}: provision, supply (from an employer or organization)\n- {手当|てあて}: allowance, benefit (often for specific purposes like commuting)\n- {補助金|ほじょきん}: subsidy, grant (for projects or organizations)\n\nHOMOPHONES:\nNot to be confused with {休符|きゅうふ} (musical rest).\n\nCOMMON COLLOCATIONS:\n- {給付金|きゅうふきん}: benefit payment, subsidy\n- {失業|しつぎょう}{給付|きゅうふ}: unemployment benefits\n- {給付|きゅうふ}を{受|う}ける: to receive benefits\n- {給付|きゅうふ}{対象|たいしょう}: eligible for benefits\n- {現金|げんきん}{給付|きゅうふ}: cash benefit",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{給付|きゅうふ}する",
+        "negative": "{給付|きゅうふ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{給付|きゅうふ}します",
+        "negative": "{給付|きゅうふ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{給付|きゅうふ}した",
+        "negative": "{給付|きゅうふ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{給付|きゅうふ}しました",
+        "negative": "{給付|きゅうふ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{給付|きゅうふ}して",
+        "negative": "{給付|きゅうふ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{給付|きゅうふ}している",
+        "negative": "{給付|きゅうふ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{給付|きゅうふ}しています",
+        "negative": "{給付|きゅうふ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{給付|きゅうふ}していた",
+        "negative": "{給付|きゅうふ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{給付|きゅうふ}していました",
+        "negative": "{給付|きゅうふ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{給付|きゅうふ}すれば",
+        "negative": "{給付|きゅうふ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{給付|きゅうふ}したら",
+        "negative": "{給付|きゅうふ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{給付|きゅうふ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{給付|きゅうふ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{給付|きゅうふ}できる",
+        "negative": "{給付|きゅうふ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{給付|きゅうふ}される",
+        "negative": "{給付|きゅうふ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{給付|きゅうふ}させる",
+        "negative": "{給付|きゅうふ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{給付|きゅうふ}しろ",
+        "negative": "{給付|きゅうふ}するな"
+      }
+    ]
   }
 }

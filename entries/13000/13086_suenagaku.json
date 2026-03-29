@@ -19,7 +19,9 @@
       "english": "May you be happy forever.",
       "notes": "A standard wedding congratulation.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13086_suenagaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I look forward to our continued relationship for a long time to come.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13086_suenagaku_ex3",
@@ -35,7 +39,9 @@
       "english": "I hope this tradition will be passed down for many years to come.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{末永|すえなが}く is an adverb used in well-wishes and formal expressions. It conveys the hope that a positive state will continue indefinitely into the future.\n\nThe most iconic usage is the wedding blessing {末永|すえなが}くお{幸|しあわ}せに (May you be happy forever). It also appears in business greetings and formal letters to express a wish for a lasting relationship.\n\nETYMOLOGY:\nFrom {末|すえ} (the future, what comes after) + {永|なが}い (long) in its adverbial く form — literally \"long into the future.\"\n\nCOMMON COLLOCATIONS:\n- {末永|すえなが}くお{幸|しあわ}せに: may you be happy forever\n- {末永|すえなが}くよろしく: I look forward to a lasting relationship\n- {末永|すえなが}く{愛|あい}される: to be loved for a long time\n- {末永|すえなが}く{続|つづ}く: to last for a long time",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{末永|すえなが}く",
+        "negative": "{末永|すえなが}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{末永|すえなが}きます",
+        "negative": "{末永|すえなが}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{末永|すえなが}いた",
+        "negative": "{末永|すえなが}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{末永|すえなが}きました",
+        "negative": "{末永|すえなが}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{末永|すえなが}いて",
+        "negative": "{末永|すえなが}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{末永|すえなが}いている",
+        "negative": "{末永|すえなが}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{末永|すえなが}いています",
+        "negative": "{末永|すえなが}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{末永|すえなが}いていた",
+        "negative": "{末永|すえなが}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{末永|すえなが}いていました",
+        "negative": "{末永|すえなが}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{末永|すえなが}けば",
+        "negative": "{末永|すえなが}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{末永|すえなが}いたら",
+        "negative": "{末永|すえなが}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{末永|すえなが}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{末永|すえなが}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{末永|すえなが}ける",
+        "negative": "{末永|すえなが}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{末永|すえなが}かれる",
+        "negative": "{末永|すえなが}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{末永|すえなが}かせる",
+        "negative": "{末永|すえなが}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{末永|すえなが}け",
+        "negative": "{末永|すえなが}くな"
+      }
+    ]
   }
 }

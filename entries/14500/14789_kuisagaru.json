@@ -19,7 +19,9 @@
       "english": "The reporter persistently pressed for answers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14789_kuisagaru_ex2",
@@ -27,7 +29,9 @@
       "english": "You should persist even if you're turned down once.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14789_kuisagaru_ex3",
@@ -35,7 +39,9 @@
       "english": "Unsatisfied with the other person's explanation, I kept pressing with questions to the end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "An intransitive godan verb. The image is of biting ({食|く}う) and hanging on, like a dog that won't let go. Often carries a positive nuance of admirable tenacity, though it can also imply being annoyingly persistent.\n\nASPECT (ている):\n{食|く}い{下|さ}がっている describes an ongoing state of persistent questioning or negotiation.\n\nPARTICLE PATTERNS:\n- ～に{食|く}い{下|さ}がる (to persist against someone; not common — usually used without a specific target particle)\n\nCOMMON COLLOCATIONS:\n- しつこく{食|く}い{下|さ}がる (to persistently press)\n- {最後|さいご}まで{食|く}い{下|さ}がる (to persist to the very end)\n- {簡単|かんたん}に{引|ひ}き{下|さ}がらず{食|く}い{下|さ}がる (to persist without backing down easily)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{食|く}い{下|さ}がる",
+        "negative": "{食|く}い{下|さ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{食|く}い{下|さ}がります",
+        "negative": "{食|く}い{下|さ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{食|く}い{下|さ}がった",
+        "negative": "{食|く}い{下|さ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{食|く}い{下|さ}がりました",
+        "negative": "{食|く}い{下|さ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{食|く}い{下|さ}がって",
+        "negative": "{食|く}い{下|さ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{食|く}い{下|さ}がっている",
+        "negative": "{食|く}い{下|さ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{食|く}い{下|さ}がっています",
+        "negative": "{食|く}い{下|さ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{食|く}い{下|さ}がっていた",
+        "negative": "{食|く}い{下|さ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{食|く}い{下|さ}がっていました",
+        "negative": "{食|く}い{下|さ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{食|く}い{下|さ}がれば",
+        "negative": "{食|く}い{下|さ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{食|く}い{下|さ}がったら",
+        "negative": "{食|く}い{下|さ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{食|く}い{下|さ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{食|く}い{下|さ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{食|く}い{下|さ}がれる",
+        "negative": "{食|く}い{下|さ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{食|く}い{下|さ}がられる",
+        "negative": "{食|く}い{下|さ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{食|く}い{下|さ}がらせる",
+        "negative": "{食|く}い{下|さ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{食|く}い{下|さ}がれ",
+        "negative": "{食|く}い{下|さ}がるな"
+      }
+    ]
   }
 }

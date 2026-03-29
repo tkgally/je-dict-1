@@ -19,7 +19,9 @@
       "english": "Please replenish your fluids.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14055_hokyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Replenish energy during the marathon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14055_hokyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Because the supply line was cut, the frontline troops fell into a shortage of supplies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in both everyday and specialized contexts. In daily life, most commonly heard as {水分|すいぶん}{補給|ほきゅう} (hydration) and {栄養|えいよう}{補給|ほきゅう} (nutrition replenishment). In military and logistics contexts, refers to supply lines and provisioning.\n\nCOMMON COLLOCATIONS:\n- {水分|すいぶん}{補給|ほきゅう}: hydration, fluid replenishment\n- {栄養|えいよう}{補給|ほきゅう}: nutrition replenishment\n- {補給|ほきゅう}{路|ろ}: supply route/line\n- {補給|ほきゅう}{基地|きち}: supply base\n- {補給|ほきゅう}{物資|ぶっし}: supplies, provisions",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{補給|ほきゅう}する",
+        "negative": "{補給|ほきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{補給|ほきゅう}します",
+        "negative": "{補給|ほきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{補給|ほきゅう}した",
+        "negative": "{補給|ほきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{補給|ほきゅう}しました",
+        "negative": "{補給|ほきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{補給|ほきゅう}して",
+        "negative": "{補給|ほきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{補給|ほきゅう}している",
+        "negative": "{補給|ほきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{補給|ほきゅう}しています",
+        "negative": "{補給|ほきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{補給|ほきゅう}していた",
+        "negative": "{補給|ほきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{補給|ほきゅう}していました",
+        "negative": "{補給|ほきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{補給|ほきゅう}すれば",
+        "negative": "{補給|ほきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{補給|ほきゅう}したら",
+        "negative": "{補給|ほきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{補給|ほきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{補給|ほきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{補給|ほきゅう}できる",
+        "negative": "{補給|ほきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{補給|ほきゅう}される",
+        "negative": "{補給|ほきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{補給|ほきゅう}させる",
+        "negative": "{補給|ほきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{補給|ほきゅう}しろ",
+        "negative": "{補給|ほきゅう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I value our family quality time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12113_danran_ex2",
@@ -27,7 +29,9 @@
       "english": "Gather around the dinner table and enjoy time together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12113_danran_ex3",
@@ -35,7 +39,9 @@
       "english": "Even in our busy daily lives, we've decided to make dinnertime our family togetherness time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used in the context of family. The full kanji form is {団欒|だんらん}, but the mixed form {団|だん}らん is more common in modern writing. Strongly associated with meals shared around a table and carries a warm, nostalgic tone.\n\nCOMMON COLLOCATIONS:\n- {家族|かぞく}{団|だん}らん: family quality time\n- {団|だん}らんの{時間|じかん}: time spent together\n- {団|だん}らんのひととき: a moment of togetherness\n- {食卓|しょくたく}を{囲|かこ}んで{団|だん}らん: gather around the table for family time\n- {団|だん}らんを{楽|たの}しむ: enjoy time together",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "leisure"]
+      "semantic": [
+        "family",
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{団|だん}らんする",
+        "negative": "{団|だん}らんしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{団|だん}らんします",
+        "negative": "{団|だん}らんしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{団|だん}らんした",
+        "negative": "{団|だん}らんしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{団|だん}らんしました",
+        "negative": "{団|だん}らんしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{団|だん}らんして",
+        "negative": "{団|だん}らんしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{団|だん}らんしている",
+        "negative": "{団|だん}らんしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{団|だん}らんしています",
+        "negative": "{団|だん}らんしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{団|だん}らんしていた",
+        "negative": "{団|だん}らんしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{団|だん}らんしていました",
+        "negative": "{団|だん}らんしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{団|だん}らんすれば",
+        "negative": "{団|だん}らんしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{団|だん}らんしたら",
+        "negative": "{団|だん}らんしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{団|だん}らんしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{団|だん}らんしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{団|だん}らんできる",
+        "negative": "{団|だん}らんできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{団|だん}らんされる",
+        "negative": "{団|だん}らんされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{団|だん}らんさせる",
+        "negative": "{団|だん}らんさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{団|だん}らんしろ",
+        "negative": "{団|だん}らんするな"
+      }
+    ]
   }
 }

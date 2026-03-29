@@ -19,7 +19,9 @@
       "english": "To take over the work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12458_hikitsugu_ex2",
@@ -27,7 +29,9 @@
       "english": "I took over my father's company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12458_hikitsugu_ex3",
@@ -35,7 +39,9 @@
       "english": "When taking over duties from a predecessor, it's necessary to organize the documents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), ぐ-ending.\n- Negative: {引|ひ}き{継|つ}がない\n- Polite: {引|ひ}き{継|つ}ぎます\n- Te-form: {引|ひ}き{継|つ}いで\n- Past: {引|ひ}き{継|つ}いだ\n- Noun form: {引|ひ}き{継|つ}ぎ (handover)\n\nUSAGE:\nVery common in business contexts for job handovers and transitions. The noun form {引|ひ}き{継|つ}ぎ is equally common and refers to the handover process itself. Also used for inheriting traditions, customs, or family businesses.\n\nCOMMON COLLOCATIONS:\n- {業務|ぎょうむ}を{引|ひ}き{継|つ}ぐ: to take over duties\n- {伝統|でんとう}を{引|ひ}き{継|つ}ぐ: to inherit a tradition\n- {引|ひ}き{継|つ}ぎ{書|しょ}: handover document\n- {引|ひ}き{継|つ}ぎ{期間|きかん}: handover period",
@@ -46,13 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-gu",
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["action", "work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "action",
+        "work"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{引|ひ}き{継|つ}ぐ",
+        "negative": "{引|ひ}き{継|つ}がない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{引|ひ}き{継|つ}ぎます",
+        "negative": "{引|ひ}き{継|つ}ぎません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{引|ひ}き{継|つ}いだ",
+        "negative": "{引|ひ}き{継|つ}がなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{引|ひ}き{継|つ}ぎました",
+        "negative": "{引|ひ}き{継|つ}ぎませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{引|ひ}き{継|つ}いで",
+        "negative": "{引|ひ}き{継|つ}がなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{引|ひ}き{継|つ}いでいる",
+        "negative": "{引|ひ}き{継|つ}いでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{引|ひ}き{継|つ}いでいます",
+        "negative": "{引|ひ}き{継|つ}いでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{引|ひ}き{継|つ}いでいた",
+        "negative": "{引|ひ}き{継|つ}いでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{引|ひ}き{継|つ}いでいました",
+        "negative": "{引|ひ}き{継|つ}いでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{引|ひ}き{継|つ}げば",
+        "negative": "{引|ひ}き{継|つ}がなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{引|ひ}き{継|つ}いだら",
+        "negative": "{引|ひ}き{継|つ}がなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{引|ひ}き{継|つ}ごう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{引|ひ}き{継|つ}ぎましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{引|ひ}き{継|つ}げる",
+        "negative": "{引|ひ}き{継|つ}げない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{引|ひ}き{継|つ}がれる",
+        "negative": "{引|ひ}き{継|つ}がれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{引|ひ}き{継|つ}がせる",
+        "negative": "{引|ひ}き{継|つ}がせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{引|ひ}き{継|つ}げ",
+        "negative": "{引|ひ}き{継|つ}ぐな"
+      }
+    ]
   }
 }

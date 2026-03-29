@@ -24,7 +24,9 @@
       "english": "Samurai served their lords.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12263_houkou_ex2",
@@ -32,7 +34,9 @@
       "english": "Favor and service were the foundation of the feudal system.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12263_houkou_ex3",
@@ -40,7 +44,9 @@
       "english": "To work with a spirit of selfless devotion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12263_houkou_ex4",
@@ -48,7 +54,9 @@
       "english": "At age 12, he was sent to work as an apprentice at a merchant house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12263_houkou_ex5",
@@ -56,7 +64,9 @@
       "english": "Working as an apprentice was harsh training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12263_houkou_ex6",
@@ -64,7 +74,9 @@
       "english": "My grandfather apprenticed at a kimono shop when he was young and learned the trade.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in historical and cultural contexts. The compound {滅私|めっし}{奉公|ほうこう} (selfless devotion/service) is still used in modern Japanese, though sometimes with a critical nuance suggesting excessive self-sacrifice for an organization.\n\nCOMMON COLLOCATIONS:\n- {滅私|めっし}{奉公|ほうこう}: selfless devotion\n- {丁稚|でっち}{奉公|ほうこう}: apprenticeship (especially in a merchant house)\n- {御恩|ごおん}と{奉公|ほうこう}: favor and service (feudal reciprocity)\n- {奉公|ほうこう}に{出|で}る: to go into service/apprenticeship\n\nHISTORICAL NOTE:\nThe {御恩|ごおん}と{奉公|ほうこう} system was the mutual obligation between lords and vassals in medieval Japan: lords granted land ({御恩|ごおん}) and vassals provided military service ({奉公|ほうこう}).",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{奉公|ほうこう}する",
+        "negative": "{奉公|ほうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{奉公|ほうこう}します",
+        "negative": "{奉公|ほうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{奉公|ほうこう}した",
+        "negative": "{奉公|ほうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{奉公|ほうこう}しました",
+        "negative": "{奉公|ほうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{奉公|ほうこう}して",
+        "negative": "{奉公|ほうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{奉公|ほうこう}している",
+        "negative": "{奉公|ほうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{奉公|ほうこう}しています",
+        "negative": "{奉公|ほうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{奉公|ほうこう}していた",
+        "negative": "{奉公|ほうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{奉公|ほうこう}していました",
+        "negative": "{奉公|ほうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{奉公|ほうこう}すれば",
+        "negative": "{奉公|ほうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{奉公|ほうこう}したら",
+        "negative": "{奉公|ほうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{奉公|ほうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{奉公|ほうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{奉公|ほうこう}できる",
+        "negative": "{奉公|ほうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{奉公|ほうこう}される",
+        "negative": "{奉公|ほうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{奉公|ほうこう}させる",
+        "negative": "{奉公|ほうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{奉公|ほうこう}しろ",
+        "negative": "{奉公|ほうこう}するな"
+      }
+    ]
   }
 }

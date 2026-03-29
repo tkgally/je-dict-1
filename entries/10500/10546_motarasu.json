@@ -19,7 +19,9 @@
       "english": "The heavy rain caused damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10546_motarasu_ex2",
@@ -27,7 +29,9 @@
       "english": "This technology brought about a major change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10546_motarasu_ex3",
@@ -35,7 +39,9 @@
       "english": "The new policy is expected to bring economic benefits to the region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-su):\n- Negative: もたらさない\n- Te-form: もたらして\n- Past: もたらした\n- Potential: もたらせる\n\nTRANSITIVITY:\nTransitive. Takes を for the result or effect, and に for the recipient or target.\n\nPATTERN:\nAが Bに Cをもたらす = A brings about C for B\n\nUSAGE:\nもたらす is a somewhat formal word commonly used in news, academic writing, and formal speech. It is used for both positive outcomes ({利益|りえき}をもたらす) and negative outcomes ({被害|ひがい}をもたらす). Everyday conversation tends to use simpler alternatives.\n\nCOMMON COLLOCATIONS:\n- {被害|ひがい}をもたらす: to cause damage\n- {変化|へんか}をもたらす: to bring about change\n- {利益|りえき}をもたらす: to bring profit\n- {影響|えいきょう}をもたらす: to have an effect\n- {恩恵|おんけい}をもたらす: to bring benefits",
@@ -46,13 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["action"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "もたらす",
+        "negative": "もたらさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "もたらします",
+        "negative": "もたらしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "もたらした",
+        "negative": "もたらさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "もたらしました",
+        "negative": "もたらしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "もたらして",
+        "negative": "もたらさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "もたらしている",
+        "negative": "もたらしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "もたらしています",
+        "negative": "もたらしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "もたらしていた",
+        "negative": "もたらしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "もたらしていました",
+        "negative": "もたらしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "もたらせば",
+        "negative": "もたらさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "もたらしたら",
+        "negative": "もたらさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "もたらそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "もたらしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "もたらせる",
+        "negative": "もたらせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "もたらされる",
+        "negative": "もたらされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "もたらさせる",
+        "negative": "もたらさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "もたらせ",
+        "negative": "もたらすな"
+      }
+    ]
   }
 }

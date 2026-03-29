@@ -19,7 +19,9 @@
       "english": "To reduce expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13345_genjiru_ex2",
@@ -27,7 +29,9 @@
       "english": "Measures were taken to reduce the sentence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13345_genjiru_ex3",
@@ -35,7 +39,9 @@
       "english": "It was decided to reduce taxes by ten percent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, written-style verb. In everyday conversation, {減|へ}らす (transitive) or {減|へ}る (intransitive) are far more common. {減|げん}じる appears in legal, administrative, and academic writing.\n\nThe variant {減|げん}ずる (classical conjugation) is also used and carries an even more formal tone.\n\nCOMMON COLLOCATIONS:\n- {刑|けい}を{減|げん}じる: to reduce a sentence\n- {税|ぜい}を{減|げん}じる: to reduce taxes\n- {経費|けいひ}を{減|げん}じる: to reduce expenses\n- {負担|ふたん}を{減|げん}じる: to reduce a burden\n\nSIMILAR WORDS:\n- {減|へ}らす: to reduce (everyday transitive)\n- {減|へ}る: to decrease (everyday intransitive)\n- {減少|げんしょう}する: to decrease (formal, noun + suru)",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "both",
-      "style": ["written"]
+      "style": [
+        "written"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{減|げん}じる",
+        "negative": "{減|げん}じない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{減|げん}じます",
+        "negative": "{減|げん}じません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{減|げん}じた",
+        "negative": "{減|げん}じなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{減|げん}じました",
+        "negative": "{減|げん}じませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{減|げん}じて",
+        "negative": "{減|げん}じなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{減|げん}じている",
+        "negative": "{減|げん}じていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{減|げん}じています",
+        "negative": "{減|げん}じていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{減|げん}じていた",
+        "negative": "{減|げん}じていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{減|げん}じていました",
+        "negative": "{減|げん}じていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{減|げん}じれば",
+        "negative": "{減|げん}じなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{減|げん}じたら",
+        "negative": "{減|げん}じなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{減|げん}じよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{減|げん}じましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{減|げん}じられる",
+        "negative": "{減|げん}じられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{減|げん}じられる",
+        "negative": "{減|げん}じられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{減|げん}じさせる",
+        "negative": "{減|げん}じさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{減|げん}じろ",
+        "negative": "{減|げん}じるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The illness was completely cured.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12268_kanchi_ex2",
@@ -27,7 +29,9 @@
       "english": "It took half a year to fully recover.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12268_kanchi_ex3",
@@ -35,7 +39,9 @@
       "english": "If this disease is detected early, there is a high possibility of a complete cure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA medical term indicating that a condition has been fully resolved. Used as a suru verb: {完治|かんち}する (to be completely cured). Often contrasted with situations where symptoms are managed but not eliminated.\n\nSIMILAR WORDS:\n{全快|ぜんかい} also means complete recovery but tends to emphasize the patient's return to full health, while {完治|かんち} emphasizes the disease or injury itself being fully cured.\n\nCOMMON COLLOCATIONS:\n- {完治|かんち}する: to be completely cured\n- {完治|かんち}が{難|むずか}しい: difficult to cure completely\n- {完治|かんち}を{目指|めざ}す: to aim for a complete cure\n- {完治|かんち}までの{期間|きかん}: period until full recovery",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health"],
-      "domain": ["medical"]
+      "semantic": [
+        "health"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{完治|かんち}する",
+        "negative": "{完治|かんち}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{完治|かんち}します",
+        "negative": "{完治|かんち}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{完治|かんち}した",
+        "negative": "{完治|かんち}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{完治|かんち}しました",
+        "negative": "{完治|かんち}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{完治|かんち}して",
+        "negative": "{完治|かんち}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{完治|かんち}している",
+        "negative": "{完治|かんち}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{完治|かんち}しています",
+        "negative": "{完治|かんち}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{完治|かんち}していた",
+        "negative": "{完治|かんち}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{完治|かんち}していました",
+        "negative": "{完治|かんち}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{完治|かんち}すれば",
+        "negative": "{完治|かんち}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{完治|かんち}したら",
+        "negative": "{完治|かんち}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{完治|かんち}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{完治|かんち}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{完治|かんち}できる",
+        "negative": "{完治|かんち}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{完治|かんち}される",
+        "negative": "{完治|かんち}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{完治|かんち}させる",
+        "negative": "{完治|かんち}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{完治|かんち}しろ",
+        "negative": "{完治|かんち}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The lack of a sense of responsibility is the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13208_ketsujo_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a lack of crisis awareness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13208_ketsujo_ex3",
@@ -35,7 +39,9 @@
       "english": "The behavior lacking in ethics drew public criticism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, somewhat critical word. Used as a noun (Xの{欠如|けつじょ}) or as a suru verb ({欠如|けつじょ}する / {欠如|けつじょ}している). Almost always refers to the absence of abstract or intangible qualities — not physical objects. Often appears in criticism of individuals or organizations.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}の{欠如|けつじょ}: lack of awareness\n- {責任感|せきにんかん}の{欠如|けつじょ}: lack of responsibility\n- {配慮|はいりょ}の{欠如|けつじょ}: lack of consideration\n- {倫理観|りんりかん}の{欠如|けつじょ}: lack of ethics\n\nSIMILAR WORDS:\n- {不足|ふそく}: insufficiency, shortage (more general, can be physical)\n- {欠乏|けつぼう}: deficiency, want (stronger sense of deprivation, often physical)\n- {欠落|けつらく}: omission, gap (something that should be there is missing)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{欠如|けつじょ}する",
+        "negative": "{欠如|けつじょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{欠如|けつじょ}します",
+        "negative": "{欠如|けつじょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{欠如|けつじょ}した",
+        "negative": "{欠如|けつじょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{欠如|けつじょ}しました",
+        "negative": "{欠如|けつじょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{欠如|けつじょ}して",
+        "negative": "{欠如|けつじょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{欠如|けつじょ}している",
+        "negative": "{欠如|けつじょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{欠如|けつじょ}しています",
+        "negative": "{欠如|けつじょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{欠如|けつじょ}していた",
+        "negative": "{欠如|けつじょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{欠如|けつじょ}していました",
+        "negative": "{欠如|けつじょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{欠如|けつじょ}すれば",
+        "negative": "{欠如|けつじょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{欠如|けつじょ}したら",
+        "negative": "{欠如|けつじょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{欠如|けつじょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{欠如|けつじょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{欠如|けつじょ}できる",
+        "negative": "{欠如|けつじょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{欠如|けつじょ}される",
+        "negative": "{欠如|けつじょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{欠如|けつじょ}させる",
+        "negative": "{欠如|けつじょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{欠如|けつじょ}しろ",
+        "negative": "{欠如|けつじょ}するな"
+      }
+    ]
   }
 }

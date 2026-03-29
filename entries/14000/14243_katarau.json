@@ -19,7 +19,9 @@
       "english": "To talk with a friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14243_katarau_ex2",
@@ -27,7 +29,9 @@
       "english": "We talked about the future late into the night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14243_katarau_ex3",
@@ -35,7 +39,9 @@
       "english": "I spent an enjoyable time sharing old memories with an old friend I hadn't seen in a long time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{語|かた}らう is an intransitive godan verb that conveys a warm, leisurely quality of conversation. It is more literary and poetic than {話|はな}す or しゃべる.\n\nASPECT (ている):\n{語|かた}らっている indicates an ongoing conversation.\n\nPARTICLE PATTERNS:\n- Xと{語|かた}らう (converse with X)\n- Xについて{語|かた}らう (talk about X)\n\nCOMMON COLLOCATIONS:\n- {友|とも}と{語|かた}らう (talk with friends)\n- {夢|ゆめ}を{語|かた}らう (share one's dreams)\n- {酒|さけ}を{飲|の}みながら{語|かた}らう (talk over drinks)\n\nSIMILAR WORDS:\n- {語|かた}らう vs {話|はな}す: {語|かた}らう implies unhurried, heartfelt conversation, while {話|はな}す is a neutral, general word for speaking or talking.\n- {語|かた}らう vs {語|かた}る: {語|かた}る means to narrate or tell a story (often one-directional), while {語|かた}らう implies mutual, back-and-forth exchange.",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["literary"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "literary"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{語|かた}らう",
+        "negative": "{語|かた}らわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{語|かた}らいます",
+        "negative": "{語|かた}らいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{語|かた}らった",
+        "negative": "{語|かた}らわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{語|かた}らいました",
+        "negative": "{語|かた}らいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{語|かた}らって",
+        "negative": "{語|かた}らわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{語|かた}らっている",
+        "negative": "{語|かた}らっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{語|かた}らっています",
+        "negative": "{語|かた}らっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{語|かた}らっていた",
+        "negative": "{語|かた}らっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{語|かた}らっていました",
+        "negative": "{語|かた}らっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{語|かた}らえば",
+        "negative": "{語|かた}らわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{語|かた}らったら",
+        "negative": "{語|かた}らわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{語|かた}らおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{語|かた}らいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{語|かた}らえる",
+        "negative": "{語|かた}らえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{語|かた}らわれる",
+        "negative": "{語|かた}らわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{語|かた}らわせる",
+        "negative": "{語|かた}らわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{語|かた}らえ",
+        "negative": "{語|かた}らうな"
+      }
+    ]
   }
 }

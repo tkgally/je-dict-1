@@ -17,21 +17,27 @@
       "japanese": "{彼女|かのじょ}は{値段|ねだん}を{聞|き}いて{目|め}を{丸|まる}くした。",
       "english": "She was wide-eyed when she heard the price.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07448_mewomarukusuru_ex2",
       "japanese": "{思|おも}いがけない{再会|さいかい}に{目|め}を{丸|まる}くした。",
       "english": "I stared in amazement at the unexpected reunion.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07448_mewomarukusuru_ex3",
       "japanese": "{子供|こども}たちはマジックを{見|み}て{目|め}を{丸|まる}くしていた。",
       "english": "The children were wide-eyed watching the magic show.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "IDIOM STRUCTURE:\n{目|め} (eyes) + を + {丸|まる}く (round) + する (to make)\n\nLiterally \"to make one's eyes round\" - describes the widening of eyes in surprise.\n\nGRAMMAR:\n〜に{目|め}を{丸|まる}くする - to be wide-eyed at ~\n〜て{目|め}を{丸|まる}くする - to be wide-eyed upon ~ing\n\nNUANCE:\nIndicates genuine surprise, not necessarily positive or negative. Can express:\n- Pleasant surprise (unexpected gift)\n- Shock at something unexpected (high price)\n- Wonder and amazement (magic trick)\n- Disbelief (unexpected news)\n\nSIMILAR EXPRESSIONS:\n・{目|め}を{見張|みは}る - to stare in wonder (often at something impressive)\n・{目|め}を{疑|うたが}う - to doubt one's eyes\n・びっくりする - to be surprised (general)\n・{驚|おどろ}く - to be surprised/startled\n・{唖然|あぜん}とする - to be dumbfounded\n\nREGISTER:\nNeutral. Natural in both spoken and written Japanese.",
@@ -41,10 +47,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression", "emotion"]
+      "semantic": [
+        "expression",
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目|め}を{丸|まる}くする",
+        "negative": "{目|め}を{丸|まる}くしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目|め}を{丸|まる}くします",
+        "negative": "{目|め}を{丸|まる}くしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目|め}を{丸|まる}くした",
+        "negative": "{目|め}を{丸|まる}くしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目|め}を{丸|まる}くしました",
+        "negative": "{目|め}を{丸|まる}くしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目|め}を{丸|まる}くして",
+        "negative": "{目|め}を{丸|まる}くしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目|め}を{丸|まる}くしている",
+        "negative": "{目|め}を{丸|まる}くしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目|め}を{丸|まる}くしています",
+        "negative": "{目|め}を{丸|まる}くしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目|め}を{丸|まる}くしていた",
+        "negative": "{目|め}を{丸|まる}くしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目|め}を{丸|まる}くしていました",
+        "negative": "{目|め}を{丸|まる}くしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目|め}を{丸|まる}くすれば",
+        "negative": "{目|め}を{丸|まる}くしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目|め}を{丸|まる}くしたら",
+        "negative": "{目|め}を{丸|まる}くしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目|め}を{丸|まる}くしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目|め}を{丸|まる}くしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目|め}を{丸|まる}くできる",
+        "negative": "{目|め}を{丸|まる}くできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目|め}を{丸|まる}くされる",
+        "negative": "{目|め}を{丸|まる}くされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目|め}を{丸|まる}くさせる",
+        "negative": "{目|め}を{丸|まる}くさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目|め}を{丸|まる}くしろ",
+        "negative": "{目|め}を{丸|まる}くするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To cut off the power supply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15673_shadan_ex2",
@@ -27,7 +29,9 @@
       "english": "The railroad crossing gate came down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15673_shadan_ex3",
@@ -35,7 +39,9 @@
       "english": "I spent the time in a state completely cut off from outside information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in both technical and everyday contexts. Can describe physical blocking (a gate, wall) or abstract blocking (information, contact).\n\nCOMMON COLLOCATIONS:\n- {電源|でんげん}を{遮断|しゃだん}する (to cut off power)\n- {遮断機|しゃだんき} (crossing gate; circuit breaker)\n- {遮断|しゃだん}{器|き} (circuit breaker)\n- {音|おと}を{遮断|しゃだん}する (to block out sound)\n- {情報|じょうほう}を{遮断|しゃだん}する (to block information)\n\nSIMILAR WORDS:\n- {遮|さえぎ}る: to block, to intercept (verb; broader usage)\n- {断絶|だんぜつ}: severance, breaking off (more permanent, often for relationships)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遮断|しゃだん}する",
+        "negative": "{遮断|しゃだん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遮断|しゃだん}します",
+        "negative": "{遮断|しゃだん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遮断|しゃだん}した",
+        "negative": "{遮断|しゃだん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遮断|しゃだん}しました",
+        "negative": "{遮断|しゃだん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遮断|しゃだん}して",
+        "negative": "{遮断|しゃだん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遮断|しゃだん}している",
+        "negative": "{遮断|しゃだん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遮断|しゃだん}しています",
+        "negative": "{遮断|しゃだん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遮断|しゃだん}していた",
+        "negative": "{遮断|しゃだん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遮断|しゃだん}していました",
+        "negative": "{遮断|しゃだん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遮断|しゃだん}すれば",
+        "negative": "{遮断|しゃだん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遮断|しゃだん}したら",
+        "negative": "{遮断|しゃだん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遮断|しゃだん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遮断|しゃだん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遮断|しゃだん}できる",
+        "negative": "{遮断|しゃだん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遮断|しゃだん}される",
+        "negative": "{遮断|しゃだん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遮断|しゃだん}させる",
+        "negative": "{遮断|しゃだん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遮断|しゃだん}しろ",
+        "negative": "{遮断|しゃだん}するな"
+      }
+    ]
   }
 }

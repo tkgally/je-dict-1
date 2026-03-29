@@ -23,7 +23,9 @@
       "english": "Spring has come.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex2",
@@ -31,7 +33,9 @@
       "english": "To become a doctor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex3",
@@ -39,7 +43,9 @@
       "english": "It's getting dark.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex4",
@@ -47,7 +53,9 @@
       "english": "Please get well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex5",
@@ -55,7 +63,9 @@
       "english": "I want to become good at Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex6",
@@ -63,7 +73,9 @@
       "english": "What do you want to do when you become an adult?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "01970_naru_ex7",
@@ -71,7 +83,9 @@
       "english": "How did it turn out?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "01970_naru_ex8",
@@ -79,7 +93,9 @@
       "english": "What was the result?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "01970_naru_ex9",
@@ -87,7 +103,9 @@
       "english": "The meeting ended up being canceled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "01970_naru_ex10",
@@ -95,7 +113,9 @@
       "english": "The conversation ended up being long.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "01970_naru_ex11",
@@ -103,7 +123,9 @@
       "english": "Since the weather got bad, the field trip was moved to next week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "なる is a fundamental verb expressing change of state or transformation.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pair: する (to make/do - causative relationship)\n\nGRAMMAR PATTERNS:\n- N + になる: to become N ({医者|いしゃ}になる = to become a doctor)\n- い-adj stem + くなる: to become adj ({高|たか}くなる = to become expensive)\n- な-adj + になる: to become adj ({静|しず}かになる = to become quiet)\n- V-ようになる: to come to V, to reach a state where one V's\n\nCOMMON EXPRESSIONS:\n- どうなる: what will happen?\n- Xということになる: it's been decided that X\n- Xになっている: is in the state of X\n- どうにかなる: it'll work out somehow\n\nASPECT (ている):\nなっている describes a resulting state: {大人|おとな}になっている (has become an adult / is now an adult).",
@@ -121,7 +143,98 @@
       "politeness": "plain",
       "semantic": [
         "existence"
-      ]
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "なる",
+        "negative": "ならない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "なります",
+        "negative": "なりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "なった",
+        "negative": "ならなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "なりました",
+        "negative": "なりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "なって",
+        "negative": "ならなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "なっている",
+        "negative": "なっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "なっています",
+        "negative": "なっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "なっていた",
+        "negative": "なっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "なっていました",
+        "negative": "なっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "なれば",
+        "negative": "ならなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "なったら",
+        "negative": "ならなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "なろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "なりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "なれる",
+        "negative": "なれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "なられる",
+        "negative": "なられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ならせる",
+        "negative": "ならせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "なれ",
+        "negative": "なるな"
+      }
+    ]
   }
 }

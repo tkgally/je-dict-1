@@ -19,7 +19,9 @@
       "english": "He went into exile abroad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11424_boumei_ex2",
@@ -27,7 +29,9 @@
       "english": "He sought asylum for political reasons.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11424_boumei_ex3",
@@ -35,7 +39,9 @@
       "english": "Many intellectuals defected to neighboring countries to escape the dictatorship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {亡命|ぼうめい}する (to go into exile, to defect)\n- {亡命|ぼうめい}{者|しゃ} (exile, defector, refugee)\n- {亡命|ぼうめい}{政府|せいふ} (government in exile)\n- {亡命|ぼうめい}を{求|もと}める (to seek asylum)\n- {政治|せいじ}{亡命|ぼうめい} (political exile)\n\nThe characters literally mean \"{亡|ぼう}\" (to flee/perish) + \"{命|めい}\" (life/fate), conveying the sense of fleeing to save one's life.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{亡命|ぼうめい}する",
+        "negative": "{亡命|ぼうめい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{亡命|ぼうめい}します",
+        "negative": "{亡命|ぼうめい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{亡命|ぼうめい}した",
+        "negative": "{亡命|ぼうめい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{亡命|ぼうめい}しました",
+        "negative": "{亡命|ぼうめい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{亡命|ぼうめい}して",
+        "negative": "{亡命|ぼうめい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{亡命|ぼうめい}している",
+        "negative": "{亡命|ぼうめい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{亡命|ぼうめい}しています",
+        "negative": "{亡命|ぼうめい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{亡命|ぼうめい}していた",
+        "negative": "{亡命|ぼうめい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{亡命|ぼうめい}していました",
+        "negative": "{亡命|ぼうめい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{亡命|ぼうめい}すれば",
+        "negative": "{亡命|ぼうめい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{亡命|ぼうめい}したら",
+        "negative": "{亡命|ぼうめい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{亡命|ぼうめい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{亡命|ぼうめい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{亡命|ぼうめい}できる",
+        "negative": "{亡命|ぼうめい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{亡命|ぼうめい}される",
+        "negative": "{亡命|ぼうめい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{亡命|ぼうめい}させる",
+        "negative": "{亡命|ぼうめい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{亡命|ぼうめい}しろ",
+        "negative": "{亡命|ぼうめい}するな"
+      }
+    ]
   }
 }

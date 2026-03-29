@@ -19,7 +19,9 @@
       "english": "Round off the decimal places.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15694_shishagonyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "3.7 rounded off becomes 4.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15694_shishagonyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Round the calculation result and give the answer as a whole number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nLiterally \"{四|し}を{捨|す}て{五|ご}を{入|い}れる\" — discard (round down) at four, include (round up) at five. This four-character compound elegantly describes the standard rounding rule.\n\nGRAMMAR:\nUsed with する to form a verb: {四捨五入|ししゃごにゅう}する (to round off).\n\nCOMMON COLLOCATIONS:\n- {四捨五入|ししゃごにゅう}する (to round off)\n- {小数点|しょうすうてん}{以下|いか}を{四捨五入|ししゃごにゅう}する (to round off decimal places)\n\nSIMILAR WORDS:\n- {切|き}り{上|あ}げ: rounding up\n- {切|き}り{捨|す}て: rounding down, truncation",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["mathematics"]
+      "semantic": [
+        "mathematics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{四捨五入|ししゃごにゅう}する",
+        "negative": "{四捨五入|ししゃごにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{四捨五入|ししゃごにゅう}します",
+        "negative": "{四捨五入|ししゃごにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{四捨五入|ししゃごにゅう}した",
+        "negative": "{四捨五入|ししゃごにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{四捨五入|ししゃごにゅう}しました",
+        "negative": "{四捨五入|ししゃごにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{四捨五入|ししゃごにゅう}して",
+        "negative": "{四捨五入|ししゃごにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{四捨五入|ししゃごにゅう}している",
+        "negative": "{四捨五入|ししゃごにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{四捨五入|ししゃごにゅう}しています",
+        "negative": "{四捨五入|ししゃごにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{四捨五入|ししゃごにゅう}していた",
+        "negative": "{四捨五入|ししゃごにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{四捨五入|ししゃごにゅう}していました",
+        "negative": "{四捨五入|ししゃごにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{四捨五入|ししゃごにゅう}すれば",
+        "negative": "{四捨五入|ししゃごにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{四捨五入|ししゃごにゅう}したら",
+        "negative": "{四捨五入|ししゃごにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{四捨五入|ししゃごにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{四捨五入|ししゃごにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{四捨五入|ししゃごにゅう}できる",
+        "negative": "{四捨五入|ししゃごにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{四捨五入|ししゃごにゅう}される",
+        "negative": "{四捨五入|ししゃごにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{四捨五入|ししゃごにゅう}させる",
+        "negative": "{四捨五入|ししゃごにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{四捨五入|ししゃごにゅう}しろ",
+        "negative": "{四捨五入|ししゃごにゅう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The water is crystal clear.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14316_sukitooru_ex2",
@@ -27,7 +29,9 @@
       "english": "She has a clear, pure voice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14316_sukitooru_ex3",
@@ -35,7 +39,9 @@
       "english": "Under the perfectly clear blue sky, the mountain ridgeline was sharply visible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{透|す}き{通|とお}る is an intransitive godan verb. The adjective form {透|す}き{通|とお}った is very common as a modifier.\n\nASPECT (ている):\n{透|す}き{通|とお}っている describes a state of being transparent/clear.\n\nCOMMON COLLOCATIONS:\n- {透|す}き{通|とお}った{水|みず} (crystal clear water)\n- {透|す}き{通|とお}るような{声|こえ} (a clear, pure voice)\n- {透|す}き{通|とお}った{肌|はだ} (translucent skin)\n- {透|す}き{通|とお}った{空気|くうき} (crisp, clear air)\n\nOften used in poetic or admiring descriptions. When applied to voices, it suggests a pure, high, and beautiful quality. When applied to skin, it suggests a fair, porcelain-like complexion.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["appearance"]
+      "semantic": [
+        "appearance"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{透|す}き{通|とお}る",
+        "negative": "{透|す}き{通|とお}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{透|す}き{通|とお}ります",
+        "negative": "{透|す}き{通|とお}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{透|す}き{通|とお}った",
+        "negative": "{透|す}き{通|とお}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{透|す}き{通|とお}りました",
+        "negative": "{透|す}き{通|とお}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{透|す}き{通|とお}って",
+        "negative": "{透|す}き{通|とお}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{透|す}き{通|とお}っている",
+        "negative": "{透|す}き{通|とお}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{透|す}き{通|とお}っています",
+        "negative": "{透|す}き{通|とお}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{透|す}き{通|とお}っていた",
+        "negative": "{透|す}き{通|とお}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{透|す}き{通|とお}っていました",
+        "negative": "{透|す}き{通|とお}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{透|す}き{通|とお}れば",
+        "negative": "{透|す}き{通|とお}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{透|す}き{通|とお}ったら",
+        "negative": "{透|す}き{通|とお}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{透|す}き{通|とお}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{透|す}き{通|とお}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{透|す}き{通|とお}れる",
+        "negative": "{透|す}き{通|とお}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{透|す}き{通|とお}られる",
+        "negative": "{透|す}き{通|とお}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{透|す}き{通|とお}らせる",
+        "negative": "{透|す}き{通|とお}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{透|す}き{通|とお}れ",
+        "negative": "{透|す}き{通|とお}るな"
+      }
+    ]
   }
 }

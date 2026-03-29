@@ -21,7 +21,9 @@
       "id": "10025_tattobu_ex1",
       "japanese": "{命|いのち}を{尊|たっと}ぶ。",
       "english": "To value life.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "10025_tattobu_ex2",
       "japanese": "{自由|じゆう}を{尊|たっと}ぶ{精神|せいしん}。",
       "english": "A spirit that values freedom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "10025_tattobu_ex3",
       "japanese": "{私|わたし}たちは{平和|へいわ}を{何|なに}より{尊|たっと}ばなければならない。",
       "english": "We must value peace above all else.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "10025_tattobu_ex4",
       "japanese": "{先輩|せんぱい}を{尊|たっと}ぶ。",
       "english": "To respect one's seniors.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "10025_tattobu_ex5",
       "japanese": "{師|し}を{尊|たっと}ぶ{心|こころ}を{持|も}つ。",
       "english": "To have a heart that respects one's teacher.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "10025_tattobu_ex6",
       "japanese": "{彼|かれ}は{学問|がくもん}を{尊|たっと}び、{生涯|しょうがい}{学|まな}び{続|つづ}けた。",
       "english": "He valued learning and continued to study throughout his life.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "interpersonal"]
+      "semantic": [
+        "emotion",
+        "interpersonal"
+      ],
+      "verb_class": "godan-bu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{尊|たっと}ぶ",
+        "negative": "{尊|たっと}ばない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{尊|たっと}びます",
+        "negative": "{尊|たっと}びません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{尊|たっと}んだ",
+        "negative": "{尊|たっと}ばなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{尊|たっと}びました",
+        "negative": "{尊|たっと}びませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{尊|たっと}んで",
+        "negative": "{尊|たっと}ばなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{尊|たっと}んでいる",
+        "negative": "{尊|たっと}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{尊|たっと}んでいます",
+        "negative": "{尊|たっと}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{尊|たっと}んでいた",
+        "negative": "{尊|たっと}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{尊|たっと}んでいました",
+        "negative": "{尊|たっと}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{尊|たっと}べば",
+        "negative": "{尊|たっと}ばなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{尊|たっと}んだら",
+        "negative": "{尊|たっと}ばなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{尊|たっと}ぼう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{尊|たっと}びましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{尊|たっと}べる",
+        "negative": "{尊|たっと}べない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{尊|たっと}ばれる",
+        "negative": "{尊|たっと}ばれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{尊|たっと}ばせる",
+        "negative": "{尊|たっと}ばせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{尊|たっと}べ",
+        "negative": "{尊|たっと}ぶな"
+      }
+    ]
   }
 }

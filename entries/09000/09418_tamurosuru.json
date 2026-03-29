@@ -18,7 +18,9 @@
       "english": "Young people are hanging around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09418_tamurosuru_ex2",
@@ -26,7 +28,9 @@
       "english": "Don't loiter in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09418_tamurosuru_ex3",
@@ -34,7 +38,9 @@
       "english": "Delinquents are hanging around in front of the convenience store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09418_tamurosuru_ex4",
@@ -42,7 +48,9 @@
       "english": "At night, troublemakers gather in this park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "たむろする (also written {屯|たむろ}する) often carries a slightly negative connotation, implying idle gathering that may be unwelcome or suspicious.\n\nCommon contexts:\n- Groups of young people hanging out with no clear purpose\n- Delinquents or suspicious people loitering\n- People gathering without permission\n\nRelated expressions:\n- たまる (to gather - more neutral)\n- ぶらつく (to wander around - more active movement)\n- {溜|た}まり{場|ば} (hangout spot)",
@@ -52,12 +60,110 @@
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["movement", "leisure"],
-      "style": ["spoken"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement",
+        "leisure"
+      ],
+      "style": [
+        "spoken"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "たむろする",
+        "negative": "たむろしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "たむろします",
+        "negative": "たむろしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "たむろした",
+        "negative": "たむろしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "たむろしました",
+        "negative": "たむろしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "たむろして",
+        "negative": "たむろしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "たむろしている",
+        "negative": "たむろしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "たむろしています",
+        "negative": "たむろしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "たむろしていた",
+        "negative": "たむろしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "たむろしていました",
+        "negative": "たむろしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "たむろすれば",
+        "negative": "たむろしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "たむろしたら",
+        "negative": "たむろしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "たむろしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "たむろしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "たむろできる",
+        "negative": "たむろできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "たむろされる",
+        "negative": "たむろされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "たむろさせる",
+        "negative": "たむろさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "たむろしろ",
+        "negative": "たむろするな"
+      }
+    ]
   }
 }

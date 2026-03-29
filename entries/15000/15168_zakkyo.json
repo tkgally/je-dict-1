@@ -19,7 +19,9 @@
       "english": "The office is on the third floor of a mixed-use building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15168_zakkyo_ex2",
@@ -27,7 +29,9 @@
       "english": "Mixed-use buildings line the area in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15168_zakkyo_ex3",
@@ -35,7 +39,9 @@
       "english": "Old mixed-use buildings sometimes have inadequate fire prevention measures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{雑居|ざっきょ} most commonly appears in the compound {雑居|ざっきょ}ビル, referring to a building housing a miscellaneous mix of small businesses — bars, restaurants, clinics, offices, and other establishments all in one building. These are very common in Japanese cities, especially near train stations.\n\nCOMMON COLLOCATIONS:\n- {雑居|ざっきょ}ビル (mixed-use building — the most common usage)\n- {雑居|ざっきょ}{地区|ちく} (mixed-use district)\n- {雑居|ざっきょ}{房|ぼう} (shared prison cell)\n\nCHARACTERISTICS:\n{雑居|ざっきょ}ビル typically have narrow stairways, many small tenants on each floor, and often host nightlife establishments. They are a distinctive feature of Japanese urban landscapes.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building-structure"]
+      "semantic": [
+        "building-structure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{雑居|ざっきょ}する",
+        "negative": "{雑居|ざっきょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{雑居|ざっきょ}します",
+        "negative": "{雑居|ざっきょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{雑居|ざっきょ}した",
+        "negative": "{雑居|ざっきょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{雑居|ざっきょ}しました",
+        "negative": "{雑居|ざっきょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{雑居|ざっきょ}して",
+        "negative": "{雑居|ざっきょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{雑居|ざっきょ}している",
+        "negative": "{雑居|ざっきょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{雑居|ざっきょ}しています",
+        "negative": "{雑居|ざっきょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{雑居|ざっきょ}していた",
+        "negative": "{雑居|ざっきょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{雑居|ざっきょ}していました",
+        "negative": "{雑居|ざっきょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{雑居|ざっきょ}すれば",
+        "negative": "{雑居|ざっきょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{雑居|ざっきょ}したら",
+        "negative": "{雑居|ざっきょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{雑居|ざっきょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{雑居|ざっきょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{雑居|ざっきょ}できる",
+        "negative": "{雑居|ざっきょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{雑居|ざっきょ}される",
+        "negative": "{雑居|ざっきょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{雑居|ざっきょ}させる",
+        "negative": "{雑居|ざっきょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{雑居|ざっきょ}しろ",
+        "negative": "{雑居|ざっきょ}するな"
+      }
+    ]
   }
 }

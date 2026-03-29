@@ -21,7 +21,9 @@
       "id": "09133_jousei_ex1",
       "japanese": "{日本酒|にほんしゅ}の{醸成|じょうせい}",
       "english": "the brewing of sake",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "09133_jousei_ex2",
       "japanese": "この{蔵元|くらもと}では{伝統的|でんとうてき}な{方法|ほうほう}で{酒|さけ}を{醸成|じょうせい}している。",
       "english": "This brewery makes sake using traditional methods.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "09133_jousei_ex3",
       "japanese": "{伝統|でんとう}{文化|ぶんか}を{醸成|じょうせい}した{風土|ふうど}",
       "english": "the climate that cultivated traditional culture",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "09133_jousei_ex4",
       "japanese": "{危機感|ききかん}を{醸成|じょうせい}する",
       "english": "to foster a sense of crisis",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "09133_jousei_ex5",
       "japanese": "{社内|しゃない}に{革新的|かくしんてき}な{雰囲気|ふんいき}を{醸成|じょうせい}したい。",
       "english": "I want to cultivate an innovative atmosphere within the company.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "09133_jousei_ex6",
       "japanese": "{長年|ながねん}の{対話|たいわ}を{通|つう}じて{信頼関係|しんらいかんけい}が{醸成|じょうせい}された。",
       "english": "A relationship of trust was cultivated through years of dialogue.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{醸成|じょうせい}する",
+        "negative": "{醸成|じょうせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{醸成|じょうせい}します",
+        "negative": "{醸成|じょうせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{醸成|じょうせい}した",
+        "negative": "{醸成|じょうせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{醸成|じょうせい}しました",
+        "negative": "{醸成|じょうせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{醸成|じょうせい}して",
+        "negative": "{醸成|じょうせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{醸成|じょうせい}している",
+        "negative": "{醸成|じょうせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{醸成|じょうせい}しています",
+        "negative": "{醸成|じょうせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{醸成|じょうせい}していた",
+        "negative": "{醸成|じょうせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{醸成|じょうせい}していました",
+        "negative": "{醸成|じょうせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{醸成|じょうせい}すれば",
+        "negative": "{醸成|じょうせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{醸成|じょうせい}したら",
+        "negative": "{醸成|じょうせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{醸成|じょうせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{醸成|じょうせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{醸成|じょうせい}できる",
+        "negative": "{醸成|じょうせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{醸成|じょうせい}される",
+        "negative": "{醸成|じょうせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{醸成|じょうせい}させる",
+        "negative": "{醸成|じょうせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{醸成|じょうせい}しろ",
+        "negative": "{醸成|じょうせい}するな"
+      }
+    ]
   }
 }

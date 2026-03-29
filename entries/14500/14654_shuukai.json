@@ -19,7 +19,9 @@
       "english": "A schoolwide assembly was held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14654_shuukai_ex2",
@@ -27,7 +29,9 @@
       "english": "Disaster prevention was discussed at the residents' meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14654_shuukai_ex3",
@@ -35,7 +39,9 @@
       "english": "The constitution guarantees freedom of assembly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{集会|しゅうかい}する also functions as a suru-verb meaning \"to assemble\" or \"to gather.\"\n\nCOMMON COLLOCATIONS:\n- {集会|しゅうかい}を{開|ひら}く (hold a meeting/assembly)\n- {集会|しゅうかい}に{参加|さんか}する (attend a gathering)\n- {集会|しゅうかい}の{自由|じゆう} (freedom of assembly)\n- {全校|ぜんこう}{集会|しゅうかい} (schoolwide assembly)\n- {住民|じゅうみん}{集会|しゅうかい} (residents' meeting)\n- {抗議|こうぎ}{集会|しゅうかい} (protest rally)\n\nBroader than {会議|かいぎ} (formal meeting), {集会|しゅうかい} emphasizes the act of people gathering together. Common in school, community, and political contexts.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{集会|しゅうかい}する",
+        "negative": "{集会|しゅうかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{集会|しゅうかい}します",
+        "negative": "{集会|しゅうかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{集会|しゅうかい}した",
+        "negative": "{集会|しゅうかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{集会|しゅうかい}しました",
+        "negative": "{集会|しゅうかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{集会|しゅうかい}して",
+        "negative": "{集会|しゅうかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{集会|しゅうかい}している",
+        "negative": "{集会|しゅうかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{集会|しゅうかい}しています",
+        "negative": "{集会|しゅうかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{集会|しゅうかい}していた",
+        "negative": "{集会|しゅうかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{集会|しゅうかい}していました",
+        "negative": "{集会|しゅうかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{集会|しゅうかい}すれば",
+        "negative": "{集会|しゅうかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{集会|しゅうかい}したら",
+        "negative": "{集会|しゅうかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{集会|しゅうかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{集会|しゅうかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{集会|しゅうかい}できる",
+        "negative": "{集会|しゅうかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{集会|しゅうかい}される",
+        "negative": "{集会|しゅうかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{集会|しゅうかい}させる",
+        "negative": "{集会|しゅうかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{集会|しゅうかい}しろ",
+        "negative": "{集会|しゅうかい}するな"
+      }
+    ]
   }
 }

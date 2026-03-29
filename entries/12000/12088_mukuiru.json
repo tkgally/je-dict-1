@@ -24,7 +24,9 @@
       "english": "Repay a kindness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12088_mukuiru_ex2",
@@ -32,7 +34,9 @@
       "english": "I gave my all to live up to their expectations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12088_mukuiru_ex3",
@@ -40,7 +44,9 @@
       "english": "Years of effort were finally rewarded, and my dream came true.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12088_mukuiru_ex4",
@@ -48,7 +54,9 @@
       "english": "Take revenge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12088_mukuiru_ex5",
@@ -56,7 +64,9 @@
       "english": "You should not repay evil with evil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12088_mukuiru_ex6",
@@ -64,7 +74,9 @@
       "english": "I had no intention of retaliating for the betrayal in the same way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe passive form {報|むく}いられる (to be rewarded) is extremely common, especially in the pattern {努力|どりょく}が{報|むく}いられる (one's efforts are rewarded). The に particle marks what is being repaid: {恩|おん}に{報|むく}いる (repay a kindness), {期待|きたい}に{報|むく}いる (live up to expectations).\n\nCOMMON COLLOCATIONS:\n- {恩|おん}に{報|むく}いる: repay a favor/kindness\n- {期待|きたい}に{報|むく}いる: live up to expectations\n- {努力|どりょく}が{報|むく}いられる: one's efforts are rewarded\n- {仇|あだ}を{報|むく}いる: take revenge\n- {信頼|しんらい}に{報|むく}いる: repay someone's trust\n\nSIMILAR WORDS:\nThe related noun {報|むく}い means reward or retribution. {恩返|おんがえ}し (returning a favor) is a noun specifically for repaying kindness. {仕返|しかえ}し (getting back at someone) is more colloquial for revenge.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{報|むく}いる",
+        "negative": "{報|むく}いない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{報|むく}います",
+        "negative": "{報|むく}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{報|むく}いた",
+        "negative": "{報|むく}いなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{報|むく}いました",
+        "negative": "{報|むく}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{報|むく}いて",
+        "negative": "{報|むく}いなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{報|むく}いている",
+        "negative": "{報|むく}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{報|むく}いています",
+        "negative": "{報|むく}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{報|むく}いていた",
+        "negative": "{報|むく}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{報|むく}いていました",
+        "negative": "{報|むく}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{報|むく}いれば",
+        "negative": "{報|むく}いなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{報|むく}いたら",
+        "negative": "{報|むく}いなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{報|むく}いよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{報|むく}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{報|むく}いられる",
+        "negative": "{報|むく}いられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{報|むく}いられる",
+        "negative": "{報|むく}いられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{報|むく}いさせる",
+        "negative": "{報|むく}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{報|むく}いろ",
+        "negative": "{報|むく}いるな"
+      }
+    ]
   }
 }

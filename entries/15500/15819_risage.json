@@ -19,7 +19,9 @@
       "english": "The central bank decided on an interest rate cut.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15819_risage_ex2",
@@ -27,7 +29,9 @@
       "english": "Stock prices rose due to the effect of the rate cut.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15819_risage_ex3",
@@ -35,7 +39,9 @@
       "english": "A significant rate cut is expected to be implemented to prevent an economic downturn.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{利下|りさ}げ is a noun often used in news and financial reporting. It can also be used with する: {利下|りさ}げする (to cut interest rates). The word is frequently seen in headlines about central bank policy decisions.\n\nCOMMON COLLOCATIONS:\n- {利下|りさ}げを{行|おこな}う (carry out a rate cut)\n- {大幅|おおはば}な{利下|りさ}げ (significant rate cut)\n- {追加|ついか}{利下|りさ}げ (additional rate cut)\n- {利下|りさ}げ{幅|はば} (size of the rate cut)\n\nRELATED TERMS:\n- {利上|りあ}げ is the opposite, meaning an interest rate hike.\n- {金利|きんり} means interest rate.\n- {金融|きんゆう}{緩和|かんわ} means monetary easing, a broader policy that includes rate cuts.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["economics", "finance"]
+      "semantic": [
+        "economics",
+        "finance"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{利下|りさ}げする",
+        "negative": "{利下|りさ}げしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{利下|りさ}げします",
+        "negative": "{利下|りさ}げしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{利下|りさ}げした",
+        "negative": "{利下|りさ}げしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{利下|りさ}げしました",
+        "negative": "{利下|りさ}げしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{利下|りさ}げして",
+        "negative": "{利下|りさ}げしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{利下|りさ}げしている",
+        "negative": "{利下|りさ}げしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{利下|りさ}げしています",
+        "negative": "{利下|りさ}げしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{利下|りさ}げしていた",
+        "negative": "{利下|りさ}げしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{利下|りさ}げしていました",
+        "negative": "{利下|りさ}げしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{利下|りさ}げすれば",
+        "negative": "{利下|りさ}げしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{利下|りさ}げしたら",
+        "negative": "{利下|りさ}げしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{利下|りさ}げしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{利下|りさ}げしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{利下|りさ}げできる",
+        "negative": "{利下|りさ}げできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{利下|りさ}げされる",
+        "negative": "{利下|りさ}げされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{利下|りさ}げさせる",
+        "negative": "{利下|りさ}げさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{利下|りさ}げしろ",
+        "negative": "{利下|りさ}げするな"
+      }
+    ]
   }
 }

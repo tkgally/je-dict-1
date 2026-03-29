@@ -19,7 +19,9 @@
       "english": "Smoke rises.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10670_tachinoboru_ex2",
@@ -27,7 +29,9 @@
       "english": "Steam was rising from the hot spring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10670_tachinoboru_ex3",
@@ -35,7 +39,9 @@
       "english": "I could see white smoke rising from the volcano's crater.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The subject (smoke, steam, etc.) rises on its own.\n\nCONJUGATION (godan, る-row):\n- Negative: {立|た}ち{上|のぼ}らない\n- Te-form: {立|た}ち{上|のぼ}って\n- Past: {立|た}ち{上|のぼ}った\n\nASPECT:\n{立|た}ち{上|のぼ}っている indicates smoke or steam is currently rising (ongoing action).\n\nCOMMON COLLOCATIONS:\n- {煙|けむり}が{立|た}ち{上|のぼ}る: smoke rises\n- {湯気|ゆげ}が{立|た}ち{上|のぼ}る: steam rises\n- {霧|きり}が{立|た}ち{上|のぼ}る: mist rises\n\nNOTE: Not to be confused with {立|た}ち{上|あ}がる (to stand up, to start up), which has a different reading and meaning.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{立|た}ち{上|のぼ}る",
+        "negative": "{立|た}ち{上|のぼ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{立|た}ち{上|のぼ}ります",
+        "negative": "{立|た}ち{上|のぼ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{立|た}ち{上|のぼ}った",
+        "negative": "{立|た}ち{上|のぼ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{立|た}ち{上|のぼ}りました",
+        "negative": "{立|た}ち{上|のぼ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{立|た}ち{上|のぼ}って",
+        "negative": "{立|た}ち{上|のぼ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{立|た}ち{上|のぼ}っている",
+        "negative": "{立|た}ち{上|のぼ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{立|た}ち{上|のぼ}っています",
+        "negative": "{立|た}ち{上|のぼ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{立|た}ち{上|のぼ}っていた",
+        "negative": "{立|た}ち{上|のぼ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{立|た}ち{上|のぼ}っていました",
+        "negative": "{立|た}ち{上|のぼ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{立|た}ち{上|のぼ}れば",
+        "negative": "{立|た}ち{上|のぼ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{立|た}ち{上|のぼ}ったら",
+        "negative": "{立|た}ち{上|のぼ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{立|た}ち{上|のぼ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{立|た}ち{上|のぼ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{立|た}ち{上|のぼ}れる",
+        "negative": "{立|た}ち{上|のぼ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{立|た}ち{上|のぼ}られる",
+        "negative": "{立|た}ち{上|のぼ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{立|た}ち{上|のぼ}らせる",
+        "negative": "{立|た}ち{上|のぼ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{立|た}ち{上|のぼ}れ",
+        "negative": "{立|た}ち{上|のぼ}るな"
+      }
+    ]
   }
 }

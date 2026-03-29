@@ -19,7 +19,9 @@
       "english": "The president explicitly stated his resignation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13050_meigen_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister avoided making a clear statement about the tax increase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13050_meigen_ex3",
@@ -35,7 +39,9 @@
       "english": "At the press conference, he clearly stated that he would remain with the team next season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{明言|めいげん}する is used when someone makes an unambiguous, definitive statement, especially in formal or public contexts. The negative pattern {明言|めいげん}を{避|さ}ける (to avoid making a clear statement) or {明言|めいげん}しない (to not state clearly) is also very common, particularly in political and diplomatic reporting.\n\nCOMMON COLLOCATIONS:\n- {明言|めいげん}する: to state clearly\n- {明言|めいげん}を{避|さ}ける: to avoid a clear statement\n- {明言|めいげん}を{控|ひか}える: to refrain from stating clearly\n- はっきりと{明言|めいげん}する: to state explicitly",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{明言|めいげん}する",
+        "negative": "{明言|めいげん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{明言|めいげん}します",
+        "negative": "{明言|めいげん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{明言|めいげん}した",
+        "negative": "{明言|めいげん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{明言|めいげん}しました",
+        "negative": "{明言|めいげん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{明言|めいげん}して",
+        "negative": "{明言|めいげん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{明言|めいげん}している",
+        "negative": "{明言|めいげん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{明言|めいげん}しています",
+        "negative": "{明言|めいげん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{明言|めいげん}していた",
+        "negative": "{明言|めいげん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{明言|めいげん}していました",
+        "negative": "{明言|めいげん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{明言|めいげん}すれば",
+        "negative": "{明言|めいげん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{明言|めいげん}したら",
+        "negative": "{明言|めいげん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{明言|めいげん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{明言|めいげん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{明言|めいげん}できる",
+        "negative": "{明言|めいげん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{明言|めいげん}される",
+        "negative": "{明言|めいげん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{明言|めいげん}させる",
+        "negative": "{明言|めいげん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{明言|めいげん}しろ",
+        "negative": "{明言|めいげん}するな"
+      }
+    ]
   }
 }

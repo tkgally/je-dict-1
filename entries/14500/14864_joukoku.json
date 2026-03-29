@@ -19,7 +19,9 @@
       "english": "The defendant appealed to the Supreme Court.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14864_joukoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The appeal was dismissed, and the verdict was finalized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14864_joukoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The defense team argued a constitutional violation as grounds for the appeal, but the Supreme Court did not accept it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\nIn the Japanese three-tier court system, {上告|じょうこく} is the appeal from a High Court ({高等裁判所|こうとうさいばんしょ}) to the Supreme Court ({最高裁判所|さいこうさいばんしょ}). It is distinct from {控訴|こうそ}, which is an appeal from a District Court to a High Court.\n\nJAPANESE COURT SYSTEM:\n- {第一審|だいいっしん} (first trial) → {地方裁判所|ちほうさいばんしょ} (District Court)\n- {控訴|こうそ} (appeal) → {高等裁判所|こうとうさいばんしょ} (High Court)\n- {上告|じょうこく} (final appeal) → {最高裁判所|さいこうさいばんしょ} (Supreme Court)\n\nCOMMON COLLOCATIONS:\n- {上告|じょうこく}する (file a final appeal)\n- {上告|じょうこく}を{棄却|ききゃく}する (dismiss an appeal)\n- {上告|じょうこく}{審|しん} (the appeal trial at the Supreme Court level)\n- {上告|じょうこく}{理由|りゆう} (grounds for appeal)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{上告|じょうこく}する",
+        "negative": "{上告|じょうこく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{上告|じょうこく}します",
+        "negative": "{上告|じょうこく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{上告|じょうこく}した",
+        "negative": "{上告|じょうこく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{上告|じょうこく}しました",
+        "negative": "{上告|じょうこく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{上告|じょうこく}して",
+        "negative": "{上告|じょうこく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{上告|じょうこく}している",
+        "negative": "{上告|じょうこく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{上告|じょうこく}しています",
+        "negative": "{上告|じょうこく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{上告|じょうこく}していた",
+        "negative": "{上告|じょうこく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{上告|じょうこく}していました",
+        "negative": "{上告|じょうこく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{上告|じょうこく}すれば",
+        "negative": "{上告|じょうこく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{上告|じょうこく}したら",
+        "negative": "{上告|じょうこく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{上告|じょうこく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{上告|じょうこく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{上告|じょうこく}できる",
+        "negative": "{上告|じょうこく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{上告|じょうこく}される",
+        "negative": "{上告|じょうこく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{上告|じょうこく}させる",
+        "negative": "{上告|じょうこく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{上告|じょうこく}しろ",
+        "negative": "{上告|じょうこく}するな"
+      }
+    ]
   }
 }

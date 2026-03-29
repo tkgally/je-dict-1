@@ -24,7 +24,9 @@
       "english": "I mend the torn clothes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11066_tsukurou_ex2",
@@ -32,7 +34,9 @@
       "english": "I patched the hole in my socks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11066_tsukurou_ex3",
@@ -40,7 +44,9 @@
       "english": "My grandmother carefully mended old kimonos and wore them with care.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11066_tsukurou_ex4",
@@ -48,7 +54,9 @@
       "english": "To keep up appearances.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11066_tsukurou_ex5",
@@ -56,7 +64,9 @@
       "english": "Even if you put on a smile, you can't hide your true feelings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11066_tsukurou_ex6",
@@ -64,7 +74,9 @@
       "english": "By trying to cover up the mistake, I made the situation worse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (godan, う-ending):\n- Negative: {繕|つくろ}わない\n- Te-form: {繕|つくろ}って\n- Past: {繕|つくろ}った\n- Potential: {繕|つくろ}える\n\nTRANSITIVITY:\nTransitive. Takes を to mark the object being mended or the appearance being maintained.\n\nUSAGE:\nSense 1 is somewhat literary; in everyday speech, {直|なお}す or {修理|しゅうり}する is more common for repairs. Sense 2 is widely used in both speech and writing, especially in the phrase {体裁|ていさい}を{繕|つくろ}う (to keep up appearances).\n\nCOMMON COLLOCATIONS:\n- {体裁|ていさい}を{繕|つくろ}う: to keep up appearances\n- {表面|ひょうめん}を{繕|つくろ}う: to put on a front\n- {服|ふく}を{繕|つくろ}う: to mend clothes",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-u",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{繕|つくろ}う",
+        "negative": "{繕|つくろ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{繕|つくろ}います",
+        "negative": "{繕|つくろ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{繕|つくろ}った",
+        "negative": "{繕|つくろ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{繕|つくろ}いました",
+        "negative": "{繕|つくろ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{繕|つくろ}って",
+        "negative": "{繕|つくろ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{繕|つくろ}っている",
+        "negative": "{繕|つくろ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{繕|つくろ}っています",
+        "negative": "{繕|つくろ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{繕|つくろ}っていた",
+        "negative": "{繕|つくろ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{繕|つくろ}っていました",
+        "negative": "{繕|つくろ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{繕|つくろ}えば",
+        "negative": "{繕|つくろ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{繕|つくろ}ったら",
+        "negative": "{繕|つくろ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{繕|つくろ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{繕|つくろ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{繕|つくろ}える",
+        "negative": "{繕|つくろ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{繕|つくろ}われる",
+        "negative": "{繕|つくろ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{繕|つくろ}わせる",
+        "negative": "{繕|つくろ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{繕|つくろ}え",
+        "negative": "{繕|つくろ}うな"
+      }
+    ]
   }
 }

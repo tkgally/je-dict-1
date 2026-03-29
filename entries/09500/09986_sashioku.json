@@ -18,7 +18,9 @@
       "english": "Please don't proceed with the discussion leaving me out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09986_sashioku_ex2",
@@ -26,7 +28,9 @@
       "english": "He got promoted ahead of his seniors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09986_sashioku_ex3",
@@ -34,7 +38,9 @@
       "english": "It's not good to decide arbitrarily without consulting the person involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{差|さ}し{置|お}く means to bypass or ignore someone, often with negative connotations.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{差|さ}し{置|お}いて\n\nCOMMON PATTERNS:\n- Xを{差|さ}し{置|お}いて: leaving X aside, ignoring X\n- {本人|ほんにん}を{差|さ}し{置|お}いて: without the person's involvement\n- {先輩|せんぱい}を{差|さ}し{置|お}いて: ahead of one's seniors\n\nNUANCE:\nOften implies that someone was bypassed who should have been consulted or given priority.",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{差|さ}し{置|お}く",
+        "negative": "{差|さ}し{置|お}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{差|さ}し{置|お}きます",
+        "negative": "{差|さ}し{置|お}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{差|さ}し{置|お}いた",
+        "negative": "{差|さ}し{置|お}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{差|さ}し{置|お}きました",
+        "negative": "{差|さ}し{置|お}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{差|さ}し{置|お}いて",
+        "negative": "{差|さ}し{置|お}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{差|さ}し{置|お}いている",
+        "negative": "{差|さ}し{置|お}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{差|さ}し{置|お}いています",
+        "negative": "{差|さ}し{置|お}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{差|さ}し{置|お}いていた",
+        "negative": "{差|さ}し{置|お}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{差|さ}し{置|お}いていました",
+        "negative": "{差|さ}し{置|お}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{差|さ}し{置|お}けば",
+        "negative": "{差|さ}し{置|お}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{差|さ}し{置|お}いたら",
+        "negative": "{差|さ}し{置|お}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{差|さ}し{置|お}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{差|さ}し{置|お}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{差|さ}し{置|お}ける",
+        "negative": "{差|さ}し{置|お}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{差|さ}し{置|お}かれる",
+        "negative": "{差|さ}し{置|お}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{差|さ}し{置|お}かせる",
+        "negative": "{差|さ}し{置|お}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{差|さ}し{置|お}け",
+        "negative": "{差|さ}し{置|お}くな"
+      }
+    ]
   }
 }

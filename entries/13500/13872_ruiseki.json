@@ -19,7 +19,9 @@
       "english": "Deficits are accumulating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13872_ruiseki_ex2",
@@ -27,7 +29,9 @@
       "english": "The accumulated debt has reached an enormous amount.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13872_ruiseki_ex3",
@@ -35,7 +39,9 @@
       "english": "Years of accumulated fatigue broke down my body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used with negative quantities — debts, deficits, losses, fatigue. Also used in neutral/technical contexts like {累積|るいせき}データ (cumulative data) and {累積|るいせき}{販売|はんばい}{数|すう} (cumulative sales figures). Common in finance, business, and statistics.\n\nSIMILAR WORDS:\n- {蓄積|ちくせき}: accumulation, storage (more positive, for knowledge, experience)\n- {集積|しゅうせき}: aggregation, concentration (clustering together)\n\nCOMMON COLLOCATIONS:\n- {累積|るいせき}{赤字|あかじ}: accumulated deficit\n- {累積|るいせき}{債務|さいむ}: accumulated debt\n- {累積|るいせき}{販売|はんばい}{数|すう}: cumulative sales figures\n- {疲労|ひろう}が{累積|るいせき}する: fatigue accumulates",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{累積|るいせき}する",
+        "negative": "{累積|るいせき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{累積|るいせき}します",
+        "negative": "{累積|るいせき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{累積|るいせき}した",
+        "negative": "{累積|るいせき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{累積|るいせき}しました",
+        "negative": "{累積|るいせき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{累積|るいせき}して",
+        "negative": "{累積|るいせき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{累積|るいせき}している",
+        "negative": "{累積|るいせき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{累積|るいせき}しています",
+        "negative": "{累積|るいせき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{累積|るいせき}していた",
+        "negative": "{累積|るいせき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{累積|るいせき}していました",
+        "negative": "{累積|るいせき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{累積|るいせき}すれば",
+        "negative": "{累積|るいせき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{累積|るいせき}したら",
+        "negative": "{累積|るいせき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{累積|るいせき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{累積|るいせき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{累積|るいせき}できる",
+        "negative": "{累積|るいせき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{累積|るいせき}される",
+        "negative": "{累積|るいせき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{累積|るいせき}させる",
+        "negative": "{累積|るいせき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{累積|るいせき}しろ",
+        "negative": "{累積|るいせき}するな"
+      }
+    ]
   }
 }

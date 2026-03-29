@@ -19,7 +19,9 @@
       "english": "Mind your manners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15928_wakimaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "Please make remarks appropriate to the situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15928_wakimaeru_ex3",
@@ -35,7 +39,9 @@
       "english": "That person understands their position, so they don't say unnecessary things.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nわきまえる expresses a culturally significant concept in Japanese society — understanding and respecting social boundaries, hierarchy, and appropriate behavior. It is often used in instructions or critiques about proper conduct.\n\nCOMMON COLLOCATIONS:\n- {礼儀|れいぎ}をわきまえる (to mind one's manners)\n- {場|ば}をわきまえる (to read the room, to behave appropriately for the situation)\n- {分|ぶん}をわきまえる (to know one's place)\n- {立場|たちば}をわきまえる (to understand one's position)\n\nCULTURAL NOTE:\nThe expression {分|ぶん}をわきまえる (\"know your place\") reflects the traditional Japanese emphasis on social hierarchy. It can be used as genuine advice or as a somewhat stern rebuke.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "わきまえる",
+        "negative": "わきまえない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "わきまえます",
+        "negative": "わきまえません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "わきまえた",
+        "negative": "わきまえなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "わきまえました",
+        "negative": "わきまえませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "わきまえて",
+        "negative": "わきまえなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "わきまえている",
+        "negative": "わきまえていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "わきまえています",
+        "negative": "わきまえていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "わきまえていた",
+        "negative": "わきまえていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "わきまえていました",
+        "negative": "わきまえていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "わきまえれば",
+        "negative": "わきまえなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "わきまえたら",
+        "negative": "わきまえなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "わきまえよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "わきまえましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "わきまえられる",
+        "negative": "わきまえられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "わきまえられる",
+        "negative": "わきまえられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "わきまえさせる",
+        "negative": "わきまえさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "わきまえろ",
+        "negative": "わきまえるな"
+      }
+    ]
   }
 }

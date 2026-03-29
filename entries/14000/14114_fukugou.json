@@ -19,7 +19,9 @@
       "english": "A multi-use complex opened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14114_fukugou_ex2",
@@ -27,7 +29,9 @@
       "english": "This is a problem caused by multiple combined factors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14114_fukugou_ex3",
@@ -35,7 +39,9 @@
       "english": "By using composite materials, they achieved high strength while keeping the weight low.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTE:\n{複合|ふくごう} is very commonly used as a prefix modifier ({複合|ふくごう}〜) meaning \"compound,\" \"composite,\" or \"multi-.\" It appears in many technical, commercial, and everyday compounds.\n\nIn grammar, {複合|ふくごう}{語|ご} (compound word) and {複合|ふくごう}{動詞|どうし} (compound verb) are important linguistic terms.\n\nCOMMON COLLOCATIONS:\n- {複合|ふくごう}{施設|しせつ} (multi-use complex, combined facility)\n- {複合|ふくごう}{的|てき} (composite, multifaceted)\n- {複合|ふくごう}{語|ご} (compound word)\n- {複合|ふくごう}{動詞|どうし} (compound verb)\n- {複合|ふくごう}{素材|そざい} (composite material)\n- {複合|ふくごう}{機|き} (multifunction device/printer)\n\nSIMILAR WORDS:\n- {合成|ごうせい}: synthesis, composition (creating something new from parts)\n- {混合|こんごう}: mixture, blending (combining substances)\n- {統合|とうごう}: integration, unification (merging into one)",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "general"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{複合|ふくごう}する",
+        "negative": "{複合|ふくごう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{複合|ふくごう}します",
+        "negative": "{複合|ふくごう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{複合|ふくごう}した",
+        "negative": "{複合|ふくごう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{複合|ふくごう}しました",
+        "negative": "{複合|ふくごう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{複合|ふくごう}して",
+        "negative": "{複合|ふくごう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{複合|ふくごう}している",
+        "negative": "{複合|ふくごう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{複合|ふくごう}しています",
+        "negative": "{複合|ふくごう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{複合|ふくごう}していた",
+        "negative": "{複合|ふくごう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{複合|ふくごう}していました",
+        "negative": "{複合|ふくごう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{複合|ふくごう}すれば",
+        "negative": "{複合|ふくごう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{複合|ふくごう}したら",
+        "negative": "{複合|ふくごう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{複合|ふくごう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{複合|ふくごう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{複合|ふくごう}できる",
+        "negative": "{複合|ふくごう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{複合|ふくごう}される",
+        "negative": "{複合|ふくごう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{複合|ふくごう}させる",
+        "negative": "{複合|ふくごう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{複合|ふくごう}しろ",
+        "negative": "{複合|ふくごう}するな"
+      }
+    ]
   }
 }

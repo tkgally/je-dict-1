@@ -19,7 +19,9 @@
       "english": "A boat was drifting on the sea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13338_hyouryuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Drifting debris washed ashore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13338_hyouryuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The survivors were rescued after drifting for three days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften appears in news about maritime incidents and rescue operations. Also used as a literary or philosophical metaphor for aimless wandering through life.\n\nThe famous novel by Daniel Defoe is known in Japanese as ロビンソン・クルーソーの{漂流記|ひょうりゅうき} (Robinson Crusoe's account of being adrift).\n\nCOMMON COLLOCATIONS:\n- {漂流|ひょうりゅう}する: to drift, to be adrift\n- {漂流|ひょうりゅう}{物|ぶつ}: drifting debris, flotsam\n- {漂流記|ひょうりゅうき}: account of drifting/castaway story\n- {漂流|ひょうりゅう}{生活|せいかつ}: life adrift",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["motion", "nature-water"]
+      "semantic": [
+        "motion",
+        "nature-water"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{漂流|ひょうりゅう}する",
+        "negative": "{漂流|ひょうりゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{漂流|ひょうりゅう}します",
+        "negative": "{漂流|ひょうりゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{漂流|ひょうりゅう}した",
+        "negative": "{漂流|ひょうりゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{漂流|ひょうりゅう}しました",
+        "negative": "{漂流|ひょうりゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{漂流|ひょうりゅう}して",
+        "negative": "{漂流|ひょうりゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{漂流|ひょうりゅう}している",
+        "negative": "{漂流|ひょうりゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{漂流|ひょうりゅう}しています",
+        "negative": "{漂流|ひょうりゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{漂流|ひょうりゅう}していた",
+        "negative": "{漂流|ひょうりゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{漂流|ひょうりゅう}していました",
+        "negative": "{漂流|ひょうりゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{漂流|ひょうりゅう}すれば",
+        "negative": "{漂流|ひょうりゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{漂流|ひょうりゅう}したら",
+        "negative": "{漂流|ひょうりゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{漂流|ひょうりゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{漂流|ひょうりゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{漂流|ひょうりゅう}できる",
+        "negative": "{漂流|ひょうりゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{漂流|ひょうりゅう}される",
+        "negative": "{漂流|ひょうりゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{漂流|ひょうりゅう}させる",
+        "negative": "{漂流|ひょうりゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{漂流|ひょうりゅう}しろ",
+        "negative": "{漂流|ひょうりゅう}するな"
+      }
+    ]
   }
 }

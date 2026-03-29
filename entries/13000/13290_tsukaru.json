@@ -24,7 +24,9 @@
       "english": "To soak in the bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13290_tsukaru_ex2",
@@ -32,7 +34,9 @@
       "english": "I soaked slowly in the hot spring and relieved my fatigue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13290_tsukaru_ex3",
@@ -40,7 +44,9 @@
       "english": "Please add the vegetables until they are submerged in water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13290_tsukaru_ex4",
@@ -48,7 +54,9 @@
       "english": "To bask in the afterglow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13290_tsukaru_ex5",
@@ -56,7 +64,9 @@
       "english": "I was lost in memories of the trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13290_tsukaru_ex6",
@@ -64,7 +74,9 @@
       "english": "Without even time to bask in the joy of victory, the next match started.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nTakes the particle に to mark what one is soaking in: ～に{浸|つ}かる. The most common usage is お{風呂|ふろ}に{浸|つ}かる (to soak in the bath).\n\nSIMILAR WORDS:\n{浸|ひた}る also means \"to be immersed\" but is more literary and tends to emphasize the figurative sense of being absorbed in something. {浸|つ}かる is more common for physical soaking.\n\nCOMMON COLLOCATIONS:\n- お{風呂|ふろ}に{浸|つ}かる: to soak in the bath\n- {温泉|おんせん}に{浸|つ}かる: to soak in a hot spring\n- {水|みず}に{浸|つ}かる: to be submerged in water\n- {余韻|よいん}に{浸|つ}かる: to bask in the afterglow\n- {思|おも}い{出|で}に{浸|つ}かる: to be lost in memories",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{浸|つ}かる",
+        "negative": "{浸|つ}からない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{浸|つ}かります",
+        "negative": "{浸|つ}かりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{浸|つ}かった",
+        "negative": "{浸|つ}からなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{浸|つ}かりました",
+        "negative": "{浸|つ}かりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{浸|つ}かって",
+        "negative": "{浸|つ}からなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{浸|つ}かっている",
+        "negative": "{浸|つ}かっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{浸|つ}かっています",
+        "negative": "{浸|つ}かっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{浸|つ}かっていた",
+        "negative": "{浸|つ}かっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{浸|つ}かっていました",
+        "negative": "{浸|つ}かっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{浸|つ}かれば",
+        "negative": "{浸|つ}からなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{浸|つ}かったら",
+        "negative": "{浸|つ}からなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{浸|つ}かろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{浸|つ}かりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{浸|つ}かれる",
+        "negative": "{浸|つ}かれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{浸|つ}かられる",
+        "negative": "{浸|つ}かられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{浸|つ}からせる",
+        "negative": "{浸|つ}からせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{浸|つ}かれ",
+        "negative": "{浸|つ}かるな"
+      }
+    ]
   }
 }

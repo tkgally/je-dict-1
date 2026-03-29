@@ -19,7 +19,9 @@
       "english": "A hawk swooped down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14060_maioriru_ex2",
@@ -27,7 +29,9 @@
       "english": "It was a night when snow was gently falling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14060_maioriru_ex3",
@@ -35,7 +39,9 @@
       "english": "The sight of the swan gracefully descending onto the surface of the lake was beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段|いちだん}). {舞|ま}い{降|お}りる → {舞|ま}い{降|お}りない → {舞|ま}い{降|お}りて → {舞|ま}い{降|お}りた\n\nUSAGE:\nA compound verb combining {舞|ま}う (to dance, to flutter) and {降|お}りる (to descend). The {舞|ま}う component adds a sense of lightness and grace to the descent. Often used in literary or poetic contexts. Common subjects include birds, snow, leaves, and angels.\n\nCOMMON COLLOCATIONS:\n- {鳥|とり}が{舞|ま}い{降|お}りる: a bird swoops down\n- {雪|ゆき}が{舞|ま}い{降|お}りる: snow flutters down\n- {天使|てんし}が{舞|ま}い{降|お}りる: an angel descends",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
+      "semantic": [
+        "movement"
+      ],
       "transitivity": "intransitive",
-      "style": ["literary"]
+      "style": [
+        "literary"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{舞|ま}い{降|お}りる",
+        "negative": "{舞|ま}い{降|お}りない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{舞|ま}い{降|お}ります",
+        "negative": "{舞|ま}い{降|お}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{舞|ま}い{降|お}りた",
+        "negative": "{舞|ま}い{降|お}りなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{舞|ま}い{降|お}りました",
+        "negative": "{舞|ま}い{降|お}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{舞|ま}い{降|お}りて",
+        "negative": "{舞|ま}い{降|お}りなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{舞|ま}い{降|お}りている",
+        "negative": "{舞|ま}い{降|お}りていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{舞|ま}い{降|お}りています",
+        "negative": "{舞|ま}い{降|お}りていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{舞|ま}い{降|お}りていた",
+        "negative": "{舞|ま}い{降|お}りていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{舞|ま}い{降|お}りていました",
+        "negative": "{舞|ま}い{降|お}りていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{舞|ま}い{降|お}りれば",
+        "negative": "{舞|ま}い{降|お}りなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{舞|ま}い{降|お}りたら",
+        "negative": "{舞|ま}い{降|お}りなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{舞|ま}い{降|お}りよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{舞|ま}い{降|お}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{舞|ま}い{降|お}りられる",
+        "negative": "{舞|ま}い{降|お}りられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{舞|ま}い{降|お}りられる",
+        "negative": "{舞|ま}い{降|お}りられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{舞|ま}い{降|お}りさせる",
+        "negative": "{舞|ま}い{降|お}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{舞|ま}い{降|お}りろ",
+        "negative": "{舞|ま}い{降|お}りるな"
+      }
+    ]
   }
 }

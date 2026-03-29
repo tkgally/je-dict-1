@@ -24,7 +24,9 @@
       "english": "Please insert a coin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12895_tounyuu_ex2",
@@ -32,7 +34,9 @@
       "english": "Throw the ingredients into the pot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12895_tounyuu_ex3",
@@ -40,7 +44,9 @@
       "english": "I put money into the vending machine, but the product didn't come out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12895_tounyuu_ex4",
@@ -48,7 +54,9 @@
       "english": "A large number of personnel were deployed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12895_tounyuu_ex5",
@@ -56,7 +64,9 @@
       "english": "The government committed an enormous budget to economic measures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12895_tounyuu_ex6",
@@ -64,7 +74,9 @@
       "english": "We committed time and effort to development, but didn't achieve the expected results.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Sense 1 is concrete and physical, while sense 2 is figurative, referring to the commitment of abstract resources. Both senses share the core image of putting something into something else.\n\nCOMMON COLLOCATIONS:\n- コインを{投入|とうにゅう}する: to insert a coin\n- {人員|じんいん}を{投入|とうにゅう}する: to deploy personnel\n- {資金|しきん}を{投入|とうにゅう}する: to commit funds\n- {労力|ろうりょく}を{投入|とうにゅう}する: to put in effort\n\nSIMILAR WORDS:\n- {投下|とうか}: dropping; capital investment (more formal, narrower scope)\n- {導入|どうにゅう}: introduction, adoption (of systems or technology)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{投入|とうにゅう}する",
+        "negative": "{投入|とうにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{投入|とうにゅう}します",
+        "negative": "{投入|とうにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{投入|とうにゅう}した",
+        "negative": "{投入|とうにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{投入|とうにゅう}しました",
+        "negative": "{投入|とうにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{投入|とうにゅう}して",
+        "negative": "{投入|とうにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{投入|とうにゅう}している",
+        "negative": "{投入|とうにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{投入|とうにゅう}しています",
+        "negative": "{投入|とうにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{投入|とうにゅう}していた",
+        "negative": "{投入|とうにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{投入|とうにゅう}していました",
+        "negative": "{投入|とうにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{投入|とうにゅう}すれば",
+        "negative": "{投入|とうにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{投入|とうにゅう}したら",
+        "negative": "{投入|とうにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{投入|とうにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{投入|とうにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{投入|とうにゅう}できる",
+        "negative": "{投入|とうにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{投入|とうにゅう}される",
+        "negative": "{投入|とうにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{投入|とうにゅう}させる",
+        "negative": "{投入|とうにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{投入|とうにゅう}しろ",
+        "negative": "{投入|とうにゅう}するな"
+      }
+    ]
   }
 }

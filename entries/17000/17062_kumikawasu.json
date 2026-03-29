@@ -19,7 +19,9 @@
       "english": "I shared drinks with a friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17062_kumikawasu_ex2",
@@ -27,7 +29,9 @@
       "english": "After a long time, I exchanged cups of sake with an old friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17062_kumikawasu_ex3",
@@ -35,7 +39,9 @@
       "english": "We shared drinks late into the night, reminiscing about the old days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat literary or elegant expression for drinking together. Implies mutual pouring and shared conversation. More refined than simply {飲|の}む.\n\nCOMMON COLLOCATIONS:\n- {酒|さけ}を{酌|く}み{交|か}わす (to share sake)\n- {杯|さかずき}を{酌|く}み{交|か}わす (to exchange cups)\n- {語|かた}り{合|あ}いながら{酌|く}み{交|か}わす (to drink while talking together)\n\nGRAMMAR:\nGodan verb ({酌|く}み{交|か}わす → {酌|く}み{交|か}わさない → {酌|く}み{交|か}わして). The {交|か}わす component indicates mutual action, like {話|はな}し{合|あ}う.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption", "communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "consumption",
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{酌|く}み{交|か}わす",
+        "negative": "{酌|く}み{交|か}わさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{酌|く}み{交|か}わします",
+        "negative": "{酌|く}み{交|か}わしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{酌|く}み{交|か}わした",
+        "negative": "{酌|く}み{交|か}わさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{酌|く}み{交|か}わしました",
+        "negative": "{酌|く}み{交|か}わしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{酌|く}み{交|か}わして",
+        "negative": "{酌|く}み{交|か}わさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{酌|く}み{交|か}わしている",
+        "negative": "{酌|く}み{交|か}わしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{酌|く}み{交|か}わしています",
+        "negative": "{酌|く}み{交|か}わしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{酌|く}み{交|か}わしていた",
+        "negative": "{酌|く}み{交|か}わしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{酌|く}み{交|か}わしていました",
+        "negative": "{酌|く}み{交|か}わしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{酌|く}み{交|か}わせば",
+        "negative": "{酌|く}み{交|か}わさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{酌|く}み{交|か}わしたら",
+        "negative": "{酌|く}み{交|か}わさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{酌|く}み{交|か}わそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{酌|く}み{交|か}わしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{酌|く}み{交|か}わせる",
+        "negative": "{酌|く}み{交|か}わせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{酌|く}み{交|か}わされる",
+        "negative": "{酌|く}み{交|か}わされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{酌|く}み{交|か}わさせる",
+        "negative": "{酌|く}み{交|か}わさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{酌|く}み{交|か}わせ",
+        "negative": "{酌|く}み{交|か}わすな"
+      }
+    ]
   }
 }

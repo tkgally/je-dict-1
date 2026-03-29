@@ -17,7 +17,9 @@
       "id": "11208_rankuin_ex1",
       "japanese": "トップテンにランクインした。",
       "english": "It made it into the top ten.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11208_rankuin_ex2",
       "japanese": "この{曲|きょく}は{発売|はつばい}{直後|ちょくご}にランクインした。",
       "english": "This song charted immediately after its release.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "11208_rankuin_ex3",
       "japanese": "{人気|にんき}ランキングに{毎年|まいとし}ランクインしている{店|みせ}がある。",
       "english": "There is a shop that makes it onto the popularity ranking every year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ランクインする",
+        "negative": "ランクインしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ランクインします",
+        "negative": "ランクインしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ランクインした",
+        "negative": "ランクインしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ランクインしました",
+        "negative": "ランクインしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ランクインして",
+        "negative": "ランクインしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ランクインしている",
+        "negative": "ランクインしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ランクインしています",
+        "negative": "ランクインしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ランクインしていた",
+        "negative": "ランクインしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ランクインしていました",
+        "negative": "ランクインしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ランクインすれば",
+        "negative": "ランクインしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ランクインしたら",
+        "negative": "ランクインしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ランクインしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ランクインしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ランクインできる",
+        "negative": "ランクインできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ランクインされる",
+        "negative": "ランクインされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ランクインさせる",
+        "negative": "ランクインさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ランクインしろ",
+        "negative": "ランクインするな"
+      }
+    ]
   }
 }

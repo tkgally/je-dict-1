@@ -19,7 +19,9 @@
       "english": "There are still people who die of starvation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17156_gashi_ex2",
@@ -27,7 +29,9 @@
       "english": "During the war, many soldiers starved to death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17156_gashi_ex3",
@@ -35,7 +39,9 @@
       "english": "It is reported that deaths from starvation are occurring due to food shortages caused by drought.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {餓|が} (starve, hunger) + {死|し} (death). Used as a suru verb ({餓死|がし}する). A serious and somewhat formal term.\n\nCOMMON COLLOCATIONS:\n- {餓死|がし}する (to starve to death)\n- {餓死者|がししゃ} (people who died of starvation)\n- {餓死|がし}{寸前|すんぜん} (on the verge of starvation)\n\nSIMILAR WORDS:\n- {飢|う}え: hunger, starvation — the state of being hungry or starving\n- {飢餓|きが}: famine, starvation — a widespread severe shortage of food",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{餓死|がし}する",
+        "negative": "{餓死|がし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{餓死|がし}します",
+        "negative": "{餓死|がし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{餓死|がし}した",
+        "negative": "{餓死|がし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{餓死|がし}しました",
+        "negative": "{餓死|がし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{餓死|がし}して",
+        "negative": "{餓死|がし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{餓死|がし}している",
+        "negative": "{餓死|がし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{餓死|がし}しています",
+        "negative": "{餓死|がし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{餓死|がし}していた",
+        "negative": "{餓死|がし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{餓死|がし}していました",
+        "negative": "{餓死|がし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{餓死|がし}すれば",
+        "negative": "{餓死|がし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{餓死|がし}したら",
+        "negative": "{餓死|がし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{餓死|がし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{餓死|がし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{餓死|がし}できる",
+        "negative": "{餓死|がし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{餓死|がし}される",
+        "negative": "{餓死|がし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{餓死|がし}させる",
+        "negative": "{餓死|がし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{餓死|がし}しろ",
+        "negative": "{餓死|がし}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "To tie up one's hair.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13059_tabaneru_ex2",
@@ -32,7 +34,9 @@
       "english": "I bundled the newspapers with string.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13059_tabaneru_ex3",
@@ -40,7 +44,9 @@
       "english": "I gathered the flowers together, tied them with a ribbon, and made a bouquet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13059_tabaneru_ex4",
@@ -48,7 +54,9 @@
       "english": "To have the ability to lead a team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13059_tabaneru_ex5",
@@ -56,7 +64,9 @@
       "english": "She leads the entire department.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13059_tabaneru_ex6",
@@ -64,7 +74,9 @@
       "english": "I brought together members with differing opinions and completed the project.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {束|たば}ねない\n- Polite: {束|たば}ねます\n- Te-form: {束|たば}ねて\n- Past: {束|たば}ねた\n\nCOMMON COLLOCATIONS:\n- {髪|かみ}を{束|たば}ねる: to tie up hair\n- {新聞|しんぶん}を{束|たば}ねる: to bundle newspapers\n- チームを{束|たば}ねる: to lead/unite a team\n- {組織|そしき}を{束|たば}ねる: to lead an organization\n\nNOTE:\nThe related noun {束|たば} means \"bundle\" or \"bunch\" (e.g., {花束|はなたば} \"bouquet,\" {札束|さつたば} \"wad of bills\").",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{束|たば}ねる",
+        "negative": "{束|たば}ねない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{束|たば}ねます",
+        "negative": "{束|たば}ねません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{束|たば}ねた",
+        "negative": "{束|たば}ねなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{束|たば}ねました",
+        "negative": "{束|たば}ねませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{束|たば}ねて",
+        "negative": "{束|たば}ねなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{束|たば}ねている",
+        "negative": "{束|たば}ねていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{束|たば}ねています",
+        "negative": "{束|たば}ねていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{束|たば}ねていた",
+        "negative": "{束|たば}ねていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{束|たば}ねていました",
+        "negative": "{束|たば}ねていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{束|たば}ねれば",
+        "negative": "{束|たば}ねなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{束|たば}ねたら",
+        "negative": "{束|たば}ねなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{束|たば}ねよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{束|たば}ねましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{束|たば}ねられる",
+        "negative": "{束|たば}ねられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{束|たば}ねられる",
+        "negative": "{束|たば}ねられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{束|たば}ねさせる",
+        "negative": "{束|たば}ねさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{束|たば}ねろ",
+        "negative": "{束|たば}ねるな"
+      }
+    ]
   }
 }

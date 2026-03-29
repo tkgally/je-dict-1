@@ -19,7 +19,9 @@
       "english": "I applied for the issuance of a passport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18074_hakkyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Visa issuance takes two weeks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18074_hakkyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The embassy issues the visa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{発|はつ} (issue, emit) + {給|きゅう} (supply, provide). Literally \"issue and provide.\"\n\nUSAGE:\nA formal, official term used almost exclusively for government-issued documents. For more general \"issuing\" (like tickets or receipts), {発行|はっこう} is more appropriate.\n\nSIMILAR WORDS:\n- {発行|はっこう}: publication, issuance (broader use: books, tickets, cards)\n- {交付|こうふ}: delivery, granting (of official documents)\n\nCOMMON COLLOCATIONS:\n- パスポートの{発給|はっきゅう}: passport issuance\n- ビザの{発給|はっきゅう}: visa issuance\n- {発給|はっきゅう}を{申請|しんせい}する: to apply for issuance\n- {発給|はっきゅう}{手数料|てすうりょう}: issuance fee",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{発給|はっきゅう}する",
+        "negative": "{発給|はっきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{発給|はっきゅう}します",
+        "negative": "{発給|はっきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{発給|はっきゅう}した",
+        "negative": "{発給|はっきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{発給|はっきゅう}しました",
+        "negative": "{発給|はっきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{発給|はっきゅう}して",
+        "negative": "{発給|はっきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{発給|はっきゅう}している",
+        "negative": "{発給|はっきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{発給|はっきゅう}しています",
+        "negative": "{発給|はっきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{発給|はっきゅう}していた",
+        "negative": "{発給|はっきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{発給|はっきゅう}していました",
+        "negative": "{発給|はっきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{発給|はっきゅう}すれば",
+        "negative": "{発給|はっきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{発給|はっきゅう}したら",
+        "negative": "{発給|はっきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{発給|はっきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{発給|はっきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{発給|はっきゅう}できる",
+        "negative": "{発給|はっきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{発給|はっきゅう}される",
+        "negative": "{発給|はっきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{発給|はっきゅう}させる",
+        "negative": "{発給|はっきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{発給|はっきゅう}しろ",
+        "negative": "{発給|はっきゅう}するな"
+      }
+    ]
   }
 }

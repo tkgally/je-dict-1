@@ -19,7 +19,9 @@
       "english": "A world record was set.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13232_juritsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The two countries established diplomatic relations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13232_juritsu_ex3",
@@ -35,7 +39,9 @@
       "english": "She set a new record at the Olympics and won a gold medal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal suru verb ({樹立|じゅりつ}する). Most commonly used for setting records ({記録|きろく}を{樹立|じゅりつ}する) or establishing formal relations or systems. The kanji {樹|じゅ} (tree) conveys the metaphor of planting something that will stand firm.\n\nCOMMON COLLOCATIONS:\n- {記録|きろく}を{樹立|じゅりつ}する: to set a record\n- {世界|せかい}{記録|きろく}を{樹立|じゅりつ}する: to set a world record\n- {外交|がいこう}{関係|かんけい}を{樹立|じゅりつ}する: to establish diplomatic relations\n- {政権|せいけん}を{樹立|じゅりつ}する: to establish a government",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["abstract"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "abstract"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{樹立|じゅりつ}する",
+        "negative": "{樹立|じゅりつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{樹立|じゅりつ}します",
+        "negative": "{樹立|じゅりつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{樹立|じゅりつ}した",
+        "negative": "{樹立|じゅりつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{樹立|じゅりつ}しました",
+        "negative": "{樹立|じゅりつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{樹立|じゅりつ}して",
+        "negative": "{樹立|じゅりつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{樹立|じゅりつ}している",
+        "negative": "{樹立|じゅりつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{樹立|じゅりつ}しています",
+        "negative": "{樹立|じゅりつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{樹立|じゅりつ}していた",
+        "negative": "{樹立|じゅりつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{樹立|じゅりつ}していました",
+        "negative": "{樹立|じゅりつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{樹立|じゅりつ}すれば",
+        "negative": "{樹立|じゅりつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{樹立|じゅりつ}したら",
+        "negative": "{樹立|じゅりつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{樹立|じゅりつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{樹立|じゅりつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{樹立|じゅりつ}できる",
+        "negative": "{樹立|じゅりつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{樹立|じゅりつ}される",
+        "negative": "{樹立|じゅりつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{樹立|じゅりつ}させる",
+        "negative": "{樹立|じゅりつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{樹立|じゅりつ}しろ",
+        "negative": "{樹立|じゅりつ}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "Heart function is declining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13165_kinou_ex2",
@@ -32,7 +34,9 @@
       "english": "This organization is not functioning properly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13165_kinou_ex3",
@@ -40,7 +44,9 @@
       "english": "There are many researchers studying brain function.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13165_kinou_ex4",
@@ -48,7 +54,9 @@
       "english": "This feature is useful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13165_kinou_ex5",
@@ -56,7 +64,9 @@
       "english": "A new feature was added.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13165_kinou_ex6",
@@ -64,7 +74,9 @@
       "english": "This app has a feature that reads text using the camera.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{機|き} (machine, mechanism) + {能|のう} (ability, capability). Literally \"the ability of a mechanism.\"\n\nUSAGE:\nAs a する verb, {機能|きのう}する means \"to function\" or \"to work.\" Often used in negative contexts: {機能|きのう}しない (doesn't function), {機能|きのう}していない (is not functioning). Note the homophone {昨日|きのう} (yesterday), which has a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {機能|きのう}する: to function, to work\n- {機能|きのう}が{低下|ていか}する: function declines\n- {機能|きのう}を{果|は}たす: to fulfill a function\n- {機能|きのう}を{追加|ついか}する: to add a feature\n- {高機能|こうきのう}: high-performance, feature-rich\n- {多機能|たきのう}: multifunctional",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{機能|きのう}する",
+        "negative": "{機能|きのう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{機能|きのう}します",
+        "negative": "{機能|きのう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{機能|きのう}した",
+        "negative": "{機能|きのう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{機能|きのう}しました",
+        "negative": "{機能|きのう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{機能|きのう}して",
+        "negative": "{機能|きのう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{機能|きのう}している",
+        "negative": "{機能|きのう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{機能|きのう}しています",
+        "negative": "{機能|きのう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{機能|きのう}していた",
+        "negative": "{機能|きのう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{機能|きのう}していました",
+        "negative": "{機能|きのう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{機能|きのう}すれば",
+        "negative": "{機能|きのう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{機能|きのう}したら",
+        "negative": "{機能|きのう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{機能|きのう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{機能|きのう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{機能|きのう}できる",
+        "negative": "{機能|きのう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{機能|きのう}される",
+        "negative": "{機能|きのう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{機能|きのう}させる",
+        "negative": "{機能|きのう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{機能|きのう}しろ",
+        "negative": "{機能|きのう}するな"
+      }
+    ]
   }
 }

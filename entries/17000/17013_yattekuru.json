@@ -24,7 +24,9 @@
       "english": "A friend came over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17013_yattekuru_ex2",
@@ -32,7 +34,9 @@
       "english": "Tourists come from far away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17013_yattekuru_ex3",
@@ -40,7 +44,9 @@
       "english": "A stray cat comes to our garden every day, so I ended up giving it a name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17013_yattekuru_ex4",
@@ -48,7 +54,9 @@
       "english": "Spring is coming soon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17013_yattekuru_ex5",
@@ -56,7 +64,9 @@
       "english": "The day of the exam has finally arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17013_yattekuru_ex6",
@@ -64,7 +74,9 @@
       "english": "The long-awaited summer vacation has arrived, and the children are overjoyed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nMore vivid and emphatic than simply {来|く}る. Suggests that the arrival takes some effort or distance, or that it is notable or eagerly anticipated. Very common in both spoken and written Japanese.\n\nCOMMON COLLOCATIONS:\n- {春|はる}がやって{来|く}る (spring comes)\n- {客|きゃく}がやって{来|く}る (a guest arrives)\n- ついにやって{来|き}た (it finally arrived)\n\nSIMILAR WORDS:\n- {来|く}る: to come — neutral and general, while やって{来|く}る adds emphasis or a sense of distance",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-kuru"],
+      "pos": [
+        "verb-kuru"
+      ],
       "transitivity": "intransitive",
       "verb_class": "kuru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement", "time"]
+      "semantic": [
+        "movement",
+        "time"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "kuru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "やって{来|く}る",
+        "negative": "やって{来|こ}ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "やって{来|き}ます",
+        "negative": "やって{来|き}ません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "やって{来|き}た",
+        "negative": "やって{来|こ}なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "やって{来|き}ました",
+        "negative": "やって{来|き}ませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "やって{来|き}て",
+        "negative": "やって{来|こ}なくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "やって{来|き}ている",
+        "negative": "やって{来|き}ていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "やって{来|き}ています",
+        "negative": "やって{来|き}ていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "やって{来|き}ていた",
+        "negative": "やって{来|き}ていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "やって{来|き}ていました",
+        "negative": "やって{来|き}ていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "やって{来|く}れば",
+        "negative": "やって{来|こ}なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "やって{来|き}たら",
+        "negative": "やって{来|こ}なかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "やって{来|こ}よう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "やって{来|き}ましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "やって{来|こ}られる",
+        "negative": "やって{来|こ}られない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "やって{来|こ}られる",
+        "negative": "やって{来|こ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "やって{来|こ}させる",
+        "negative": "やって{来|こ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "やって{来|こ}い",
+        "negative": "やって{来|く}るな"
+      }
+    ]
   }
 }

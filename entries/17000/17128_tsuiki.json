@@ -19,7 +19,9 @@
       "english": "There is a postscript.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17128_tsuiki_ex2",
@@ -27,7 +29,9 @@
       "english": "I added additional information to the article.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17128_tsuiki_ex3",
@@ -35,7 +39,9 @@
       "english": "Since there was an error, I added a postscript at the end of the blog post.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {追|つい} (supplement, follow) + {記|き} (record, write). Used both as a noun and as a suru verb ({追記|ついき}する). Common in online writing, blogs, and official documents.\n\nCOMMON COLLOCATIONS:\n- {追記|ついき}する (to add a note)\n- {追記|ついき}を{入|い}れる (to insert a postscript)\n- {追記|ついき}{事項|じこう} (additional items)\n\nSIMILAR WORDS:\n- {補足|ほそく}: supplement — adding clarification to make something more complete\n- {付記|ふき}: appended note — a note attached to a document",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{追記|ついき}する",
+        "negative": "{追記|ついき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{追記|ついき}します",
+        "negative": "{追記|ついき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{追記|ついき}した",
+        "negative": "{追記|ついき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{追記|ついき}しました",
+        "negative": "{追記|ついき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{追記|ついき}して",
+        "negative": "{追記|ついき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{追記|ついき}している",
+        "negative": "{追記|ついき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{追記|ついき}しています",
+        "negative": "{追記|ついき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{追記|ついき}していた",
+        "negative": "{追記|ついき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{追記|ついき}していました",
+        "negative": "{追記|ついき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{追記|ついき}すれば",
+        "negative": "{追記|ついき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{追記|ついき}したら",
+        "negative": "{追記|ついき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{追記|ついき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{追記|ついき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{追記|ついき}できる",
+        "negative": "{追記|ついき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{追記|ついき}される",
+        "negative": "{追記|ついき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{追記|ついき}させる",
+        "negative": "{追記|ついき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{追記|ついき}しろ",
+        "negative": "{追記|ついき}するな"
+      }
+    ]
   }
 }

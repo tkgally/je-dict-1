@@ -24,7 +24,9 @@
       "english": "A new café opened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10831_oopun_ex2",
@@ -32,7 +34,9 @@
       "english": "The grand opening is planned for next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10831_oopun_ex3",
@@ -40,7 +44,9 @@
       "english": "A large shopping mall opened in front of the station, and the surrounding area has become lively.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10831_oopun_ex4",
@@ -48,7 +54,9 @@
       "english": "She has an open personality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10831_oopun_ex5",
@@ -56,7 +64,9 @@
       "english": "Let's talk more openly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10831_oopun_ex6",
@@ -64,7 +74,9 @@
       "english": "This company has an open corporate culture and is easy to work at.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "From English \"open.\" Very common and versatile in modern Japanese.\n\nSENSE 1 — BUSINESS OPENING:\nUsed for new shops, restaurants, and facilities. Often seen on banners and advertisements.\n\nCOMMON COMPOUNDS:\n- グランドオープン: grand opening\n- プレオープン: pre-opening, soft opening\n- リニューアルオープン: reopening after renovation\n- {新規|しんき}オープン: newly opened\n\nSENSE 2 — OPEN/TRANSPARENT:\nFunctions as a na-adjective (オープンな) and adverb (オープンに).\n\nCOMMON COMPOUNDS:\n- オープンキャンパス: open campus (university open day)\n- オープンカー: convertible car\n- オープンスペース: open space",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na", "verb-suru"],
+      "pos": [
+        "noun",
+        "adjective-na",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "オープンする",
+        "negative": "オープンしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "オープンします",
+        "negative": "オープンしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "オープンした",
+        "negative": "オープンしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "オープンしました",
+        "negative": "オープンしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "オープンして",
+        "negative": "オープンしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "オープンしている",
+        "negative": "オープンしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "オープンしています",
+        "negative": "オープンしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "オープンしていた",
+        "negative": "オープンしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "オープンしていました",
+        "negative": "オープンしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "オープンすれば",
+        "negative": "オープンしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "オープンしたら",
+        "negative": "オープンしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "オープンしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "オープンしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "オープンできる",
+        "negative": "オープンできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "オープンされる",
+        "negative": "オープンされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "オープンさせる",
+        "negative": "オープンさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "オープンしろ",
+        "negative": "オープンするな"
+      }
+    ]
   }
 }

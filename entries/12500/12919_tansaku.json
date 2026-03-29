@@ -19,7 +19,9 @@
       "english": "To explore a cave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12919_tansaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The police are continuing the search for the criminal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12919_tansaku_ex3",
@@ -35,7 +39,9 @@
       "english": "Searching for information on the internet has become part of my daily routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Implies a more systematic or thorough search than simply {探|さが}す (to look for). Often used for organized searches, investigations, or exploration of unfamiliar territory.\n\nCOMMON COLLOCATIONS:\n- {探索|たんさく}する: to search, to explore\n- {探索|たんさく}{活動|かつどう}: search activity\n- {探索|たんさく}{隊|たい}: search party, exploration team\n- {宇宙|うちゅう}{探索|たんさく}: space exploration\n\nSIMILAR WORDS:\n- {捜索|そうさく}: search (for missing persons/evidence, often by authorities)\n- {探検|たんけん}: expedition, exploration (of uncharted places)",
@@ -53,10 +59,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{探索|たんさく}する",
+        "negative": "{探索|たんさく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{探索|たんさく}します",
+        "negative": "{探索|たんさく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{探索|たんさく}した",
+        "negative": "{探索|たんさく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{探索|たんさく}しました",
+        "negative": "{探索|たんさく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{探索|たんさく}して",
+        "negative": "{探索|たんさく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{探索|たんさく}している",
+        "negative": "{探索|たんさく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{探索|たんさく}しています",
+        "negative": "{探索|たんさく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{探索|たんさく}していた",
+        "negative": "{探索|たんさく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{探索|たんさく}していました",
+        "negative": "{探索|たんさく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{探索|たんさく}すれば",
+        "negative": "{探索|たんさく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{探索|たんさく}したら",
+        "negative": "{探索|たんさく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{探索|たんさく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{探索|たんさく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{探索|たんさく}できる",
+        "negative": "{探索|たんさく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{探索|たんさく}される",
+        "negative": "{探索|たんさく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{探索|たんさく}させる",
+        "negative": "{探索|たんさく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{探索|たんさく}しろ",
+        "negative": "{探索|たんさく}するな"
+      }
+    ]
   }
 }

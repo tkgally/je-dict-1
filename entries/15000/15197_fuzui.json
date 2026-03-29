@@ -19,7 +19,9 @@
       "english": "There are conditions that accompany the contract.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15197_fuzui_ex2",
@@ -27,7 +29,9 @@
       "english": "Business trips are part and parcel of this job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15197_fuzui_ex3",
@@ -35,7 +39,9 @@
       "english": "Rights are always accompanied by obligations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{付随|ふずい} is a formal word used in legal, business, and academic contexts. It describes something that naturally or necessarily accompanies something else.\n\nGRAMMAR:\nUsed as a suru-verb: {付随|ふずい}する (to accompany, to be incidental to). Often appears in the pattern Xに{付随|ふずい}する (accompanying X / incidental to X).\n\nCOMMON COLLOCATIONS:\n- {付随|ふずい}する{費用|ひよう} (incidental costs)\n- {付随|ふずい}する{業務|ぎょうむ} (related duties)\n- {付随|ふずい}する{条件|じょうけん} (accompanying conditions)\n- {付随|ふずい}{事項|じこう} (incidental matters)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{付随|ふずい}する",
+        "negative": "{付随|ふずい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{付随|ふずい}します",
+        "negative": "{付随|ふずい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{付随|ふずい}した",
+        "negative": "{付随|ふずい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{付随|ふずい}しました",
+        "negative": "{付随|ふずい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{付随|ふずい}して",
+        "negative": "{付随|ふずい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{付随|ふずい}している",
+        "negative": "{付随|ふずい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{付随|ふずい}しています",
+        "negative": "{付随|ふずい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{付随|ふずい}していた",
+        "negative": "{付随|ふずい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{付随|ふずい}していました",
+        "negative": "{付随|ふずい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{付随|ふずい}すれば",
+        "negative": "{付随|ふずい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{付随|ふずい}したら",
+        "negative": "{付随|ふずい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{付随|ふずい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{付随|ふずい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{付随|ふずい}できる",
+        "negative": "{付随|ふずい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{付随|ふずい}される",
+        "negative": "{付随|ふずい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{付随|ふずい}させる",
+        "negative": "{付随|ふずい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{付随|ふずい}しろ",
+        "negative": "{付随|ふずい}するな"
+      }
+    ]
   }
 }

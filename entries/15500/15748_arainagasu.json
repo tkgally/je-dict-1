@@ -19,7 +19,9 @@
       "english": "Rinse the shampoo off thoroughly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15748_arainagasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I washed the mud off my shoes with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15748_arainagasu_ex3",
@@ -35,7 +39,9 @@
       "english": "On days when something unpleasant happens, I wash away the day's fatigue in the bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{洗|あら}い{流|なが}す emphasizes the rinsing or flushing action — removing something by washing it away with water. It implies more thorough removal than {洗|あら}う alone.\n\nCOMMON COLLOCATIONS:\n- {汚|よご}れを{洗|あら}い{流|なが}す (wash away dirt)\n- {石鹸|せっけん}を{洗|あら}い{流|なが}す (rinse off soap)\n- {水|みず}で{洗|あら}い{流|なが}す (rinse with water)\n- {疲|つか}れを{洗|あら}い{流|なが}す (wash away fatigue — figurative)\n\nSIMILAR WORDS:\n{すすぐ} means \"to rinse\" and is close in meaning but is a single verb rather than a compound. {流|なが}す alone means \"to flush\" or \"to drain\" without the washing action.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{洗|あら}い{流|なが}す",
+        "negative": "{洗|あら}い{流|なが}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{洗|あら}い{流|なが}します",
+        "negative": "{洗|あら}い{流|なが}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{洗|あら}い{流|なが}した",
+        "negative": "{洗|あら}い{流|なが}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{洗|あら}い{流|なが}しました",
+        "negative": "{洗|あら}い{流|なが}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{洗|あら}い{流|なが}して",
+        "negative": "{洗|あら}い{流|なが}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{洗|あら}い{流|なが}している",
+        "negative": "{洗|あら}い{流|なが}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{洗|あら}い{流|なが}しています",
+        "negative": "{洗|あら}い{流|なが}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{洗|あら}い{流|なが}していた",
+        "negative": "{洗|あら}い{流|なが}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{洗|あら}い{流|なが}していました",
+        "negative": "{洗|あら}い{流|なが}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{洗|あら}い{流|なが}せば",
+        "negative": "{洗|あら}い{流|なが}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{洗|あら}い{流|なが}したら",
+        "negative": "{洗|あら}い{流|なが}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{洗|あら}い{流|なが}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{洗|あら}い{流|なが}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{洗|あら}い{流|なが}せる",
+        "negative": "{洗|あら}い{流|なが}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{洗|あら}い{流|なが}される",
+        "negative": "{洗|あら}い{流|なが}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{洗|あら}い{流|なが}させる",
+        "negative": "{洗|あら}い{流|なが}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{洗|あら}い{流|なが}せ",
+        "negative": "{洗|あら}い{流|なが}すな"
+      }
+    ]
   }
 }

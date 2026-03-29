@@ -19,7 +19,9 @@
       "english": "The policy has been decided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12273_sadamaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The weather just won't settle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12273_sadamaru_ex3",
@@ -35,7 +39,9 @@
       "english": "It will probably take a little more time before the evaluation is settled.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\nIntransitive. The transitive counterpart is {定|さだ}める (to determine, to establish, to set).\n\nCONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る-ending.\n- Negative: {定|さだ}まらない\n- Polite: {定|さだ}まります\n- Te-form: {定|さだ}まって\n- Past: {定|さだ}まった\n\nUSAGE:\nSomewhat literary or formal. In everyday speech, {決|き}まる is more common for \"to be decided.\" {定|さだ}まる implies a more gradual or authoritative settling of something — a policy taking shape, a reputation becoming established, or conditions stabilizing.\n\nCOMMON COLLOCATIONS:\n- {方針|ほうしん}が{定|さだ}まる: the policy is decided\n- {評価|ひょうか}が{定|さだ}まる: the evaluation is established\n- {心|こころ}が{定|さだ}まる: one's mind is made up\n- {天候|てんこう}が{定|さだ}まらない: the weather won't settle",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{定|さだ}まる",
+        "negative": "{定|さだ}まらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{定|さだ}まります",
+        "negative": "{定|さだ}まりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{定|さだ}まった",
+        "negative": "{定|さだ}まらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{定|さだ}まりました",
+        "negative": "{定|さだ}まりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{定|さだ}まって",
+        "negative": "{定|さだ}まらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{定|さだ}まっている",
+        "negative": "{定|さだ}まっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{定|さだ}まっています",
+        "negative": "{定|さだ}まっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{定|さだ}まっていた",
+        "negative": "{定|さだ}まっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{定|さだ}まっていました",
+        "negative": "{定|さだ}まっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{定|さだ}まれば",
+        "negative": "{定|さだ}まらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{定|さだ}まったら",
+        "negative": "{定|さだ}まらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{定|さだ}まろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{定|さだ}まりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{定|さだ}まれる",
+        "negative": "{定|さだ}まれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{定|さだ}まられる",
+        "negative": "{定|さだ}まられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{定|さだ}まらせる",
+        "negative": "{定|さだ}まらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{定|さだ}まれ",
+        "negative": "{定|さだ}まるな"
+      }
+    ]
   }
 }

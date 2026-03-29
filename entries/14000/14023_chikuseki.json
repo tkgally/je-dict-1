@@ -19,7 +19,9 @@
       "english": "Fatigue has been building up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14023_chikuseki_ex2",
@@ -27,7 +29,9 @@
       "english": "The accumulation of many years of experience is his strength.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14023_chikuseki_ex3",
@@ -35,7 +39,9 @@
       "english": "By accumulating small daily efforts, you can achieve great results.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {蓄|ちく} (store, save) and {積|せき} (pile up, accumulate). Can be used as a noun or as a suru verb ({蓄積|ちくせき}する).\n\nPARTICLE PATTERNS:\n- [thing]が{蓄積|ちくせき}する (something accumulates)\n- [thing]を{蓄積|ちくせき}する (to accumulate something)\n\nCOMMON COLLOCATIONS:\n- {疲労|ひろう}が{蓄積|ちくせき}する (fatigue accumulates)\n- {知識|ちしき}を{蓄積|ちくせき}する (accumulate knowledge)\n- データを{蓄積|ちくせき}する (accumulate data)\n- {経験|けいけん}の{蓄積|ちくせき} (accumulation of experience)\n- {脂肪|しぼう}の{蓄積|ちくせき} (fat buildup)\n\nA versatile word used across many domains — health (fatigue, stress, fat), business (data, capital), and personal development (knowledge, experience). More formal than {溜|た}まる (to accumulate, informal).",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{蓄積|ちくせき}する",
+        "negative": "{蓄積|ちくせき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{蓄積|ちくせき}します",
+        "negative": "{蓄積|ちくせき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{蓄積|ちくせき}した",
+        "negative": "{蓄積|ちくせき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{蓄積|ちくせき}しました",
+        "negative": "{蓄積|ちくせき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{蓄積|ちくせき}して",
+        "negative": "{蓄積|ちくせき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{蓄積|ちくせき}している",
+        "negative": "{蓄積|ちくせき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{蓄積|ちくせき}しています",
+        "negative": "{蓄積|ちくせき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{蓄積|ちくせき}していた",
+        "negative": "{蓄積|ちくせき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{蓄積|ちくせき}していました",
+        "negative": "{蓄積|ちくせき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{蓄積|ちくせき}すれば",
+        "negative": "{蓄積|ちくせき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{蓄積|ちくせき}したら",
+        "negative": "{蓄積|ちくせき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{蓄積|ちくせき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{蓄積|ちくせき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{蓄積|ちくせき}できる",
+        "negative": "{蓄積|ちくせき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{蓄積|ちくせき}される",
+        "negative": "{蓄積|ちくせき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{蓄積|ちくせき}させる",
+        "negative": "{蓄積|ちくせき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{蓄積|ちくせき}しろ",
+        "negative": "{蓄積|ちくせき}するな"
+      }
+    ]
   }
 }

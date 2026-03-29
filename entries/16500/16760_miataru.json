@@ -19,7 +19,9 @@
       "english": "I can't find the key.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16760_miataru_ex2",
@@ -27,7 +29,9 @@
       "english": "No suitable candidate can be found.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16760_miataru_ex3",
@@ -35,7 +39,9 @@
       "english": "The book I was looking for was found in the back of the bookshelf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery commonly used in the negative form {見当|みあ}たらない (cannot be found). The affirmative form is less frequent but does occur. This is an intransitive verb — the thing being found is the subject.\n\nORTHOGRAPHY:\nAlso written as {見|み}あたる in kana, or {見当たる|みあたる} as a single unit. Despite the kanji {当|あ}たる, this is a distinct word from {当|あ}たる (to hit).\n\nCOMMON COLLOCATIONS:\n- {見当|みあ}たらない (cannot be found)\n- どこにも{見当|みあ}たらない (nowhere to be found)\n- {特|とく}に{問題|もんだい}は{見当|みあ}たらない (no particular problems can be found)",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["perception"]
+      "semantic": [
+        "perception"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見当|みあ}たる",
+        "negative": "{見当|みあ}たらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見当|みあ}たります",
+        "negative": "{見当|みあ}たりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見当|みあ}たった",
+        "negative": "{見当|みあ}たらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見当|みあ}たりました",
+        "negative": "{見当|みあ}たりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見当|みあ}たって",
+        "negative": "{見当|みあ}たらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見当|みあ}たっている",
+        "negative": "{見当|みあ}たっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見当|みあ}たっています",
+        "negative": "{見当|みあ}たっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見当|みあ}たっていた",
+        "negative": "{見当|みあ}たっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見当|みあ}たっていました",
+        "negative": "{見当|みあ}たっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見当|みあ}たれば",
+        "negative": "{見当|みあ}たらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見当|みあ}たったら",
+        "negative": "{見当|みあ}たらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見当|みあ}たろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見当|みあ}たりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見当|みあ}たれる",
+        "negative": "{見当|みあ}たれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見当|みあ}たられる",
+        "negative": "{見当|みあ}たられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見当|みあ}たらせる",
+        "negative": "{見当|みあ}たらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見当|みあ}たれ",
+        "negative": "{見当|みあ}たるな"
+      }
+    ]
   }
 }

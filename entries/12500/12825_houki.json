@@ -19,7 +19,9 @@
       "english": "To renounce a right.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12825_houki_ex2",
@@ -27,7 +29,9 @@
       "english": "They forfeited the match midway.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12825_houki_ex3",
@@ -35,7 +39,9 @@
       "english": "The Japanese constitution stipulates the renunciation of war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{放棄|ほうき} is a formal word commonly used in legal, political, and official contexts. It implies a deliberate, often irreversible decision to give something up. The most famous usage is in Article 9 of the Japanese Constitution: {戦争|せんそう}の{放棄|ほうき} (renunciation of war).\n\nCOMMON COLLOCATIONS:\n- {権利|けんり}を{放棄|ほうき}する: to renounce a right\n- {戦争|せんそう}{放棄|ほうき}: renunciation of war\n- {責任|せきにん}{放棄|ほうき}: abandonment of responsibility\n- {試合|しあい}{放棄|ほうき}: forfeiture of a match\n- {相続|そうぞく}{放棄|ほうき}: renunciation of inheritance",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{放棄|ほうき}する",
+        "negative": "{放棄|ほうき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{放棄|ほうき}します",
+        "negative": "{放棄|ほうき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{放棄|ほうき}した",
+        "negative": "{放棄|ほうき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{放棄|ほうき}しました",
+        "negative": "{放棄|ほうき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{放棄|ほうき}して",
+        "negative": "{放棄|ほうき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{放棄|ほうき}している",
+        "negative": "{放棄|ほうき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{放棄|ほうき}しています",
+        "negative": "{放棄|ほうき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{放棄|ほうき}していた",
+        "negative": "{放棄|ほうき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{放棄|ほうき}していました",
+        "negative": "{放棄|ほうき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{放棄|ほうき}すれば",
+        "negative": "{放棄|ほうき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{放棄|ほうき}したら",
+        "negative": "{放棄|ほうき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{放棄|ほうき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{放棄|ほうき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{放棄|ほうき}できる",
+        "negative": "{放棄|ほうき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{放棄|ほうき}される",
+        "negative": "{放棄|ほうき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{放棄|ほうき}させる",
+        "negative": "{放棄|ほうき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{放棄|ほうき}しろ",
+        "negative": "{放棄|ほうき}するな"
+      }
+    ]
   }
 }

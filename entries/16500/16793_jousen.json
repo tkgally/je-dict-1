@@ -19,7 +19,9 @@
       "english": "To go through the boarding procedures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16793_jousen_ex2",
@@ -27,7 +29,9 @@
       "english": "Please board the ship at least one hour before departure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16793_jousen_ex3",
@@ -35,7 +39,9 @@
       "english": "After showing my boarding pass, I boarded the ship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word for boarding a ship. The opposite is {下船|げせん} (disembarking). Similar compounds exist for other vehicles: {乗車|じょうしゃ} (boarding a train/car), {搭乗|とうじょう} (boarding a plane).\n\nCOMMON COLLOCATIONS:\n- {乗船|じょうせん}{券|けん} (boarding pass for a ship)\n- {乗船|じょうせん}{手続|てつづ}き (boarding procedures)\n- {乗船|じょうせん}{時間|じかん} (boarding time)\n- {乗船|じょうせん}{名簿|めいぼ} (passenger list)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["transportation", "travel"]
+      "semantic": [
+        "transportation",
+        "travel"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{乗船|じょうせん}する",
+        "negative": "{乗船|じょうせん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{乗船|じょうせん}します",
+        "negative": "{乗船|じょうせん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{乗船|じょうせん}した",
+        "negative": "{乗船|じょうせん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{乗船|じょうせん}しました",
+        "negative": "{乗船|じょうせん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{乗船|じょうせん}して",
+        "negative": "{乗船|じょうせん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{乗船|じょうせん}している",
+        "negative": "{乗船|じょうせん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{乗船|じょうせん}しています",
+        "negative": "{乗船|じょうせん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{乗船|じょうせん}していた",
+        "negative": "{乗船|じょうせん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{乗船|じょうせん}していました",
+        "negative": "{乗船|じょうせん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{乗船|じょうせん}すれば",
+        "negative": "{乗船|じょうせん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{乗船|じょうせん}したら",
+        "negative": "{乗船|じょうせん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{乗船|じょうせん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{乗船|じょうせん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{乗船|じょうせん}できる",
+        "negative": "{乗船|じょうせん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{乗船|じょうせん}される",
+        "negative": "{乗船|じょうせん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{乗船|じょうせん}させる",
+        "negative": "{乗船|じょうせん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{乗船|じょうせん}しろ",
+        "negative": "{乗船|じょうせん}するな"
+      }
+    ]
   }
 }

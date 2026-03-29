@@ -19,7 +19,9 @@
       "english": "He beckoned with his hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12772_temaneki_ex2",
@@ -27,7 +29,9 @@
       "english": "The staff member beckoned me over and showed me to a seat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12772_temaneki_ex3",
@@ -35,7 +39,9 @@
       "english": "I saw my friend beckoning from across the way, so I ran over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{手招|てまね}き describes the gesture of waving someone toward you. It is used both as a noun and in the pattern {手招|てまね}きする.\n\nCULTURAL NOTE: The Japanese beckoning gesture is made with the palm facing down and fingers curling inward. This differs from the Western palm-up \"come here\" gesture. The {招|まね}き{猫|ねこ} (beckoning cat) figurine uses this same gesture.\n\nPATTERN:\n- {手招|てまね}きする: to beckon (verb-suru usage)\n- {手招|てまね}きをする: to make a beckoning gesture\n\nCOMMON COLLOCATIONS:\n- {手招|てまね}きで{呼|よ}ぶ: to call someone over with a wave\n- {手招|てまね}きに{応|おう}じる: to respond to someone's beckoning",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{手招|てまね}きする",
+        "negative": "{手招|てまね}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{手招|てまね}きします",
+        "negative": "{手招|てまね}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{手招|てまね}きした",
+        "negative": "{手招|てまね}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{手招|てまね}きしました",
+        "negative": "{手招|てまね}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{手招|てまね}きして",
+        "negative": "{手招|てまね}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{手招|てまね}きしている",
+        "negative": "{手招|てまね}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{手招|てまね}きしています",
+        "negative": "{手招|てまね}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{手招|てまね}きしていた",
+        "negative": "{手招|てまね}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{手招|てまね}きしていました",
+        "negative": "{手招|てまね}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{手招|てまね}きすれば",
+        "negative": "{手招|てまね}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{手招|てまね}きしたら",
+        "negative": "{手招|てまね}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{手招|てまね}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{手招|てまね}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{手招|てまね}きできる",
+        "negative": "{手招|てまね}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{手招|てまね}きされる",
+        "negative": "{手招|てまね}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{手招|てまね}きさせる",
+        "negative": "{手招|てまね}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{手招|てまね}きしろ",
+        "negative": "{手招|てまね}きするな"
+      }
+    ]
   }
 }

@@ -23,7 +23,9 @@
       "english": "I write my name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00477_kaku_ex2",
@@ -31,7 +33,9 @@
       "english": "I wrote a letter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00477_kaku_ex3",
@@ -39,7 +43,9 @@
       "english": "Please write your name here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00477_kaku_ex4",
@@ -47,7 +53,9 @@
       "english": "Can you write in Japanese?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00477_kaku_ex5",
@@ -55,7 +63,9 @@
       "english": "I write in my diary every day. I've kept it up for a year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00477_kaku_ex6",
@@ -63,7 +73,9 @@
       "english": "I draw a picture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00477_kaku_ex7",
@@ -71,7 +83,9 @@
       "english": "Please draw a map.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00477_kaku_ex8",
@@ -79,7 +93,9 @@
       "english": "The child is drawing a picture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00477_kaku_ex9",
@@ -87,7 +103,9 @@
       "english": "I drew a picture of a cat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "00477_kaku_ex10",
@@ -95,7 +113,9 @@
       "english": "I've liked drawing since I was little. Now I draw for work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No pair verb. Pattern: Xを{書|か}く (write X).\n\nASPECT: ている indicates ongoing action. {書|か}いている = 'is writing.'\n\nCOMMON PATTERNS:\n・{手紙|てがみ}を{書|か}く (write a letter)\n・{名前|なまえ}を{書|か}く (write one's name)\n・{日記|にっき}を{書|か}く (write a diary)\n・{書|か}き{方|かた} (way of writing)\n\nIrregular te-form: {書|か}いて (not {書|か}きて). Also used for drawing: {絵|え}を{書|か}く.",
@@ -113,7 +133,98 @@
       "politeness": "plain",
       "semantic": [
         "communication"
-      ]
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{書|か}く",
+        "negative": "{書|か}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{書|か}きます",
+        "negative": "{書|か}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{書|か}いた",
+        "negative": "{書|か}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{書|か}きました",
+        "negative": "{書|か}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{書|か}いて",
+        "negative": "{書|か}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{書|か}いている",
+        "negative": "{書|か}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{書|か}いています",
+        "negative": "{書|か}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{書|か}いていた",
+        "negative": "{書|か}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{書|か}いていました",
+        "negative": "{書|か}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{書|か}けば",
+        "negative": "{書|か}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{書|か}いたら",
+        "negative": "{書|か}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{書|か}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{書|か}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{書|か}ける",
+        "negative": "{書|か}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{書|か}かれる",
+        "negative": "{書|か}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{書|か}かせる",
+        "negative": "{書|か}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{書|か}け",
+        "negative": "{書|か}くな"
+      }
+    ]
   }
 }

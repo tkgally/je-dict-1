@@ -24,7 +24,9 @@
       "english": "I dye it using natural dyes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15817_senshoku_ex2",
@@ -32,7 +34,9 @@
       "english": "Indigo dyeing is a traditional Japanese technique.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15817_senshoku_ex3",
@@ -40,7 +44,9 @@
       "english": "This workshop sells cloth that was hand-dyed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15817_senshoku_ex4",
@@ -48,7 +54,9 @@
       "english": "We stain the cells and observe them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15817_senshoku_ex5",
@@ -56,7 +64,9 @@
       "english": "We identify the type of bacteria using Gram staining.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15817_senshoku_ex6",
@@ -64,7 +74,9 @@
       "english": "Advances in staining techniques have improved the accuracy of pathological diagnosis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{染色|せんしょく} is used both as a noun and with する as a verbal noun. The word covers both the textile arts sense and the scientific sense. Context usually makes the meaning clear.\n\nCOMMON COLLOCATIONS:\n- {染色|せんしょく}する (to dye; to stain)\n- {染色|せんしょく}{技術|ぎじゅつ} (dyeing/staining technique)\n- {染色|せんしょく}{体|たい} (chromosome — literally 'staining body')\n- {草木|くさき}{染色|せんしょく} (plant dyeing)\n\nRELATED TERMS:\n- {染|そ}める means to dye and is the everyday verb form.\n- {染料|せんりょう} means dye or dyestuff.\n- {染色|せんしょく}{体|たい} (chromosome) uses this word because chromosomes were named for their ability to absorb biological stains.",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["craft", "science"]
+      "semantic": [
+        "craft",
+        "science"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{染色|せんしょく}する",
+        "negative": "{染色|せんしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{染色|せんしょく}します",
+        "negative": "{染色|せんしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{染色|せんしょく}した",
+        "negative": "{染色|せんしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{染色|せんしょく}しました",
+        "negative": "{染色|せんしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{染色|せんしょく}して",
+        "negative": "{染色|せんしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{染色|せんしょく}している",
+        "negative": "{染色|せんしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{染色|せんしょく}しています",
+        "negative": "{染色|せんしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{染色|せんしょく}していた",
+        "negative": "{染色|せんしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{染色|せんしょく}していました",
+        "negative": "{染色|せんしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{染色|せんしょく}すれば",
+        "negative": "{染色|せんしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{染色|せんしょく}したら",
+        "negative": "{染色|せんしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{染色|せんしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{染色|せんしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{染色|せんしょく}できる",
+        "negative": "{染色|せんしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{染色|せんしょく}される",
+        "negative": "{染色|せんしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{染色|せんしょく}させる",
+        "negative": "{染色|せんしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{染色|せんしょく}しろ",
+        "negative": "{染色|せんしょく}するな"
+      }
+    ]
   }
 }

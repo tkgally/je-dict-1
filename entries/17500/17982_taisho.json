@@ -19,7 +19,9 @@
       "english": "To complete the discharge procedures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17982_taisho_ex2",
@@ -27,7 +29,9 @@
       "english": "My grandmother is scheduled to leave the care facility next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17982_taisho_ex3",
@@ -35,7 +39,9 @@
       "english": "We need to consult with the person in charge about support for living after discharge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPairs with {入所|にゅうしょ} (entering an institution). Used for care facilities, detention centers, research institutes, and similar organizations. Not typically used for hospitals (use {退院|たいいん}) or schools (use {退学|たいがく}).\n\nCOMMON COLLOCATIONS:\n- {退所|たいしょ}する (to leave/be discharged from a facility)\n- {退所|たいしょ}{手続|てつづ}き (discharge procedures)\n- {退所|たいしょ}{後|ご} (after leaving the facility)\n- {退所|たいしょ}{日|び} (date of discharge)\n\nSIMILAR WORDS:\n- {退院|たいいん}: leaving a hospital — used specifically for medical discharge\n- {退学|たいがく}: leaving a school — used for withdrawal from educational institutions",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{退所|たいしょ}する",
+        "negative": "{退所|たいしょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{退所|たいしょ}します",
+        "negative": "{退所|たいしょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{退所|たいしょ}した",
+        "negative": "{退所|たいしょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{退所|たいしょ}しました",
+        "negative": "{退所|たいしょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{退所|たいしょ}して",
+        "negative": "{退所|たいしょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{退所|たいしょ}している",
+        "negative": "{退所|たいしょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{退所|たいしょ}しています",
+        "negative": "{退所|たいしょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{退所|たいしょ}していた",
+        "negative": "{退所|たいしょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{退所|たいしょ}していました",
+        "negative": "{退所|たいしょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{退所|たいしょ}すれば",
+        "negative": "{退所|たいしょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{退所|たいしょ}したら",
+        "negative": "{退所|たいしょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{退所|たいしょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{退所|たいしょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{退所|たいしょ}できる",
+        "negative": "{退所|たいしょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{退所|たいしょ}される",
+        "negative": "{退所|たいしょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{退所|たいしょ}させる",
+        "negative": "{退所|たいしょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{退所|たいしょ}しろ",
+        "negative": "{退所|たいしょ}するな"
+      }
+    ]
   }
 }

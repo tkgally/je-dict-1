@@ -16,7 +16,9 @@
       "id": "07875_mekureru_ex1",
       "japanese": "{風|かぜ}でスカートがめくれた。",
       "english": "The skirt flipped up in the wind.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "07875_mekureru_ex2",
       "japanese": "{古|ふる}いポスターの{端|はし}がめくれている。",
       "english": "The edge of the old poster is curling up.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "07875_mekureru_ex3",
       "japanese": "{乾燥|かんそう}して{唇|くちびる}の{皮|かわ}がめくれてきた。",
       "english": "My lips are so dry that the skin is peeling.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,11 +47,16 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "ichidan"
     },
     "created": "2026-01-21T13:22:38Z",
     "modified": "2026-01-21T13:22:38Z"
@@ -57,5 +68,95 @@
       "headword": "めくる",
       "label": "transitive"
     }
-  ]
+  ],
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "めくれる",
+        "negative": "めくれない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "めくれます",
+        "negative": "めくれません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "めくれた",
+        "negative": "めくれなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "めくれました",
+        "negative": "めくれませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "めくれて",
+        "negative": "めくれなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "めくれている",
+        "negative": "めくれていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "めくれています",
+        "negative": "めくれていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "めくれていた",
+        "negative": "めくれていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "めくれていました",
+        "negative": "めくれていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "めくれれば",
+        "negative": "めくれなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "めくれたら",
+        "negative": "めくれなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "めくれよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "めくれましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "めくれられる",
+        "negative": "めくれられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "めくれられる",
+        "negative": "めくれられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "めくれさせる",
+        "negative": "めくれさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "めくれろ",
+        "negative": "めくれるな"
+      }
+    ]
+  }
 }

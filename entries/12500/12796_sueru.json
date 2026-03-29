@@ -24,7 +24,9 @@
       "english": "To set up a cannon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12796_sueru_ex2",
@@ -32,7 +34,9 @@
       "english": "They placed a stone lantern in the garden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12796_sueru_ex3",
@@ -40,7 +44,9 @@
       "english": "They installed an air conditioner in the corner of the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12796_sueru_ex4",
@@ -48,7 +54,9 @@
       "english": "To brace oneself and take it on.",
       "notes": "{腹|はら}を{据|す}える is an idiom meaning to resolve oneself, to steel one's nerves.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12796_sueru_ex5",
@@ -56,7 +64,9 @@
       "english": "He fixed his gaze and glared at his opponent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12796_sueru_ex6",
@@ -64,7 +74,9 @@
       "english": "With firm resolve, I stepped into a new challenge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{据|す}える means to place something firmly and securely, both physically and figuratively.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Intransitive pair: {据|す}わる (to be set, to be settled)\n\nPATTERN:\n- 〜を{据|す}える: to set ~, to install ~\n\nCOMMON COLLOCATIONS:\n- {腹|はら}を{据|す}える: to steel oneself, to make up one's mind\n- {目|め}を{据|す}える: to fix one's gaze\n- {腰|こし}を{据|す}える: to settle in, to commit seriously to something\n- {据|す}え{置|お}き: leaving in place; fixed (as in a fixed interest rate)\n\nSIMILAR WORDS:\n- {置|お}く: to put, to place (more general, everyday)\n- {設置|せっち}する: to install, to set up (formal, institutional)",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{据|す}える",
+        "negative": "{据|す}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{据|す}えます",
+        "negative": "{据|す}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{据|す}えた",
+        "negative": "{据|す}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{据|す}えました",
+        "negative": "{据|す}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{据|す}えて",
+        "negative": "{据|す}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{据|す}えている",
+        "negative": "{据|す}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{据|す}えています",
+        "negative": "{据|す}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{据|す}えていた",
+        "negative": "{据|す}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{据|す}えていました",
+        "negative": "{据|す}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{据|す}えれば",
+        "negative": "{据|す}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{据|す}えたら",
+        "negative": "{据|す}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{据|す}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{据|す}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{据|す}えられる",
+        "negative": "{据|す}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{据|す}えられる",
+        "negative": "{据|す}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{据|す}えさせる",
+        "negative": "{据|す}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{据|す}えろ",
+        "negative": "{据|す}えるな"
+      }
+    ]
   }
 }

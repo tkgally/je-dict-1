@@ -19,7 +19,9 @@
       "english": "I found the cause.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17297_mitsukedasu_ex2",
@@ -27,7 +29,9 @@
       "english": "After hours of effort, I finally found a solution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17297_mitsukedasu_ex3",
@@ -35,7 +39,9 @@
       "english": "His job is to discover important patterns within massive amounts of data.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb combining {見|み}つける (to find) with {出|だ}す (to bring out). The {出|だ}す component adds emphasis on effort and success — implying the discovery was not easy or accidental.\n\nCOMMON COLLOCATIONS:\n- {原因|げんいん}を{見|み}つけ{出|だ}す (find the cause)\n- {解決策|かいけつさく}を{見|み}つけ{出|だ}す (find a solution)\n- {犯人|はんにん}を{見|み}つけ{出|だ}す (track down the culprit)\n- {真実|しんじつ}を{見|み}つけ{出|だ}す (uncover the truth)\n\nSIMILAR WORDS:\n- {見|み}つける: to find — more general; does not imply special effort\n- {発見|はっけん}する: to discover — more formal; often used for scientific or major discoveries\n- {突|つ}き{止|と}める: to track down/identify — emphasizes determined investigation",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見|み}つけ{出|だ}す",
+        "negative": "{見|み}つけ{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見|み}つけ{出|だ}します",
+        "negative": "{見|み}つけ{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見|み}つけ{出|だ}した",
+        "negative": "{見|み}つけ{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見|み}つけ{出|だ}しました",
+        "negative": "{見|み}つけ{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見|み}つけ{出|だ}して",
+        "negative": "{見|み}つけ{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見|み}つけ{出|だ}している",
+        "negative": "{見|み}つけ{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見|み}つけ{出|だ}しています",
+        "negative": "{見|み}つけ{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見|み}つけ{出|だ}していた",
+        "negative": "{見|み}つけ{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見|み}つけ{出|だ}していました",
+        "negative": "{見|み}つけ{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見|み}つけ{出|だ}せば",
+        "negative": "{見|み}つけ{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見|み}つけ{出|だ}したら",
+        "negative": "{見|み}つけ{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見|み}つけ{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見|み}つけ{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見|み}つけ{出|だ}せる",
+        "negative": "{見|み}つけ{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見|み}つけ{出|だ}される",
+        "negative": "{見|み}つけ{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見|み}つけ{出|だ}させる",
+        "negative": "{見|み}つけ{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見|み}つけ{出|だ}せ",
+        "negative": "{見|み}つけ{出|だ}すな"
+      }
+    ]
   }
 }

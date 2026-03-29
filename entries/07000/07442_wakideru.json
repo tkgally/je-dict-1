@@ -17,21 +17,27 @@
       "japanese": "{泉|いずみ}から{水|みず}が{湧|わ}き{出|で}ている。",
       "english": "Water is gushing out from the spring.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07442_wakideru_ex2",
       "japanese": "{次|つぎ}から{次|つぎ}へとアイデアが{湧|わ}き{出|で}てくる。",
       "english": "Ideas keep springing forth one after another.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07442_wakideru_ex3",
       "japanese": "{温泉|おんせん}が{地中|ちちゅう}から{湧|わ}き{出|で}る{町|まち}として{有名|ゆうめい}だ。",
       "english": "It's famous as a town where hot springs well up from underground.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\n- Type: Intransitive ({自動詞|じどうし})\n- Pattern: Xが{湧|わ}き{出|で}る\n- No direct transitive pair\n\nASPECT (ている):\n{湧|わ}き{出|で}ている indicates an ongoing action - water is actively flowing out.\n\nCOMPOUND VERB STRUCTURE:\n{湧|わ}く (to well up) + {出|で}る (to come out) = to gush/spring forth\n\nCOMMON COLLOCATIONS:\n・{水|みず}が{湧|わ}き{出|で}る - water gushes out\n・{温泉|おんせん}が{湧|わ}き{出|で}る - hot spring wells up\n・{涙|なみだ}が{湧|わ}き{出|で}る - tears well up\n・アイデアが{湧|わ}き{出|で}る - ideas spring forth\n・{活力|かつりょく}が{湧|わ}き{出|で}る - vitality wells up\n\nFIGURATIVE USE:\nOften used metaphorically for emotions, creativity, or energy that arises spontaneously and abundantly, as if from an internal spring.\n\nSIMILAR EXPRESSIONS:\n・{湧|わ}く - to well up (simpler form)\n・{噴|ふ}き{出|だ}す - to spout, to gush (more forceful)\n・{溢|あふ}れ{出|で}る - to overflow, to pour out",
@@ -49,11 +55,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{湧|わ}き{出|で}る",
+        "negative": "{湧|わ}き{出|で}ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{湧|わ}き{出|で}ます",
+        "negative": "{湧|わ}き{出|で}ません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{湧|わ}き{出|で}た",
+        "negative": "{湧|わ}き{出|で}なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{湧|わ}き{出|で}ました",
+        "negative": "{湧|わ}き{出|で}ませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{湧|わ}き{出|で}て",
+        "negative": "{湧|わ}き{出|で}なくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{湧|わ}き{出|で}ている",
+        "negative": "{湧|わ}き{出|で}ていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{湧|わ}き{出|で}ています",
+        "negative": "{湧|わ}き{出|で}ていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{湧|わ}き{出|で}ていた",
+        "negative": "{湧|わ}き{出|で}ていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{湧|わ}き{出|で}ていました",
+        "negative": "{湧|わ}き{出|で}ていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{湧|わ}き{出|で}れば",
+        "negative": "{湧|わ}き{出|で}なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{湧|わ}き{出|で}たら",
+        "negative": "{湧|わ}き{出|で}なかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{湧|わ}き{出|で}よう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{湧|わ}き{出|で}ましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{湧|わ}き{出|で}られる",
+        "negative": "{湧|わ}き{出|で}られない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{湧|わ}き{出|で}られる",
+        "negative": "{湧|わ}き{出|で}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{湧|わ}き{出|で}させる",
+        "negative": "{湧|わ}き{出|で}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{湧|わ}き{出|で}ろ",
+        "negative": "{湧|わ}き{出|で}るな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To entertain guests.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10635_motenasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I treated them to a home-cooked meal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10635_motenasu_ex3",
@@ -35,7 +39,9 @@
       "english": "I wholeheartedly entertained a friend who came from far away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xをもてなす.\n\nCOMMON COLLOCATIONS:\n・{客|きゃく}をもてなす (to entertain guests)\n・{手料理|てりょうり}でもてなす (to treat with home cooking)\n・{心|こころ}を{込|こ}めてもてなす (to host wholeheartedly)\n・{温|あたた}かくもてなす (to give a warm welcome)\n\nRELATED:\nThe noun form おもてなし is widely known from the phrase 「おもてなしの{心|こころ}」 (the spirit of hospitality). おもてなし became internationally known through the 2013 Tokyo Olympics bid presentation.",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["social", "hospitality"]
+      "semantic": [
+        "social",
+        "hospitality"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "もてなす",
+        "negative": "もてなさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "もてなします",
+        "negative": "もてなしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "もてなした",
+        "negative": "もてなさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "もてなしました",
+        "negative": "もてなしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "もてなして",
+        "negative": "もてなさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "もてなしている",
+        "negative": "もてなしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "もてなしています",
+        "negative": "もてなしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "もてなしていた",
+        "negative": "もてなしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "もてなしていました",
+        "negative": "もてなしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "もてなせば",
+        "negative": "もてなさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "もてなしたら",
+        "negative": "もてなさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "もてなそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "もてなしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "もてなせる",
+        "negative": "もてなせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "もてなされる",
+        "negative": "もてなされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "もてなさせる",
+        "negative": "もてなさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "もてなせ",
+        "negative": "もてなすな"
+      }
+    ]
   }
 }

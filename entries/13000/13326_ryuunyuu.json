@@ -19,7 +19,9 @@
       "english": "Capital flowed in from overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13326_ryuunyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The influx of population into cities continues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13326_ryuunyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Heavy rain caused a large amount of sediment to flow into the lake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used in news, economics, and scientific writing. The opposite is {流出|りゅうしゅつ} (outflow). Often used with する as a suru verb.\n\nCOMMON COLLOCATIONS:\n- {資金|しきん}の{流入|りゅうにゅう}: inflow of capital\n- {人口|じんこう}{流入|りゅうにゅう}: population influx\n- {流入|りゅうにゅう}する: to flow in\n- {海外|かいがい}からの{流入|りゅうにゅう}: influx from overseas",
@@ -53,10 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["motion", "economics"]
+      "semantic": [
+        "motion",
+        "economics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{流入|りゅうにゅう}する",
+        "negative": "{流入|りゅうにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{流入|りゅうにゅう}します",
+        "negative": "{流入|りゅうにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{流入|りゅうにゅう}した",
+        "negative": "{流入|りゅうにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{流入|りゅうにゅう}しました",
+        "negative": "{流入|りゅうにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{流入|りゅうにゅう}して",
+        "negative": "{流入|りゅうにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{流入|りゅうにゅう}している",
+        "negative": "{流入|りゅうにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{流入|りゅうにゅう}しています",
+        "negative": "{流入|りゅうにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{流入|りゅうにゅう}していた",
+        "negative": "{流入|りゅうにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{流入|りゅうにゅう}していました",
+        "negative": "{流入|りゅうにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{流入|りゅうにゅう}すれば",
+        "negative": "{流入|りゅうにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{流入|りゅうにゅう}したら",
+        "negative": "{流入|りゅうにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{流入|りゅうにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{流入|りゅうにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{流入|りゅうにゅう}できる",
+        "negative": "{流入|りゅうにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{流入|りゅうにゅう}される",
+        "negative": "{流入|りゅうにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{流入|りゅうにゅう}させる",
+        "negative": "{流入|りゅうにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{流入|りゅうにゅう}しろ",
+        "negative": "{流入|りゅうにゅう}するな"
+      }
+    ]
   }
 }

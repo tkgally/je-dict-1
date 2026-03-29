@@ -16,7 +16,9 @@
       "id": "09146_tsumeyoru_ex1",
       "japanese": "{記者|きしゃ}が{詰|つ}め{寄|よ}る",
       "english": "reporters press in",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09146_tsumeyoru_ex2",
       "japanese": "{彼女|かのじょ}は{責任者|せきにんしゃ}に{詰|つ}め{寄|よ}った。",
       "english": "She confronted the person in charge.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09146_tsumeyoru_ex3",
       "japanese": "{説明|せつめい}を{求|もと}めて{市民|しみん}が{市長|しちょう}に{詰|つ}め{寄|よ}った。",
       "english": "Citizens pressed the mayor for an explanation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{詰|つ}め{寄|よ}る",
+        "negative": "{詰|つ}め{寄|よ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{詰|つ}め{寄|よ}ります",
+        "negative": "{詰|つ}め{寄|よ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{詰|つ}め{寄|よ}った",
+        "negative": "{詰|つ}め{寄|よ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{詰|つ}め{寄|よ}りました",
+        "negative": "{詰|つ}め{寄|よ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{詰|つ}め{寄|よ}って",
+        "negative": "{詰|つ}め{寄|よ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{詰|つ}め{寄|よ}っている",
+        "negative": "{詰|つ}め{寄|よ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{詰|つ}め{寄|よ}っています",
+        "negative": "{詰|つ}め{寄|よ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{詰|つ}め{寄|よ}っていた",
+        "negative": "{詰|つ}め{寄|よ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{詰|つ}め{寄|よ}っていました",
+        "negative": "{詰|つ}め{寄|よ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{詰|つ}め{寄|よ}れば",
+        "negative": "{詰|つ}め{寄|よ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{詰|つ}め{寄|よ}ったら",
+        "negative": "{詰|つ}め{寄|よ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{詰|つ}め{寄|よ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{詰|つ}め{寄|よ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{詰|つ}め{寄|よ}れる",
+        "negative": "{詰|つ}め{寄|よ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{詰|つ}め{寄|よ}られる",
+        "negative": "{詰|つ}め{寄|よ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{詰|つ}め{寄|よ}らせる",
+        "negative": "{詰|つ}め{寄|よ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{詰|つ}め{寄|よ}れ",
+        "negative": "{詰|つ}め{寄|よ}るな"
+      }
+    ]
   }
 }

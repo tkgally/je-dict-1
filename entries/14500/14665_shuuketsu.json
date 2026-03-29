@@ -19,7 +19,9 @@
       "english": "Troops massed at the border.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14665_shuuketsu_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a tournament where top players gather from all over the country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14665_shuuketsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Thousands of demonstrators gathered at the plaza to demand reforms from the government.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Implies a purposeful, often large-scale gathering. Stronger and more dramatic than {集|あつ}まる. Often used in military, political, or competitive contexts.\n\nCOMMON COLLOCATIONS:\n- {軍|ぐん}が{集結|しゅうけつ}する (troops mass)\n- {人|ひと}が{集結|しゅうけつ}する (people assemble)\n- {精鋭|せいえい}が{集結|しゅうけつ}する (top talent gathers)\n- {一堂|いちどう}に{集結|しゅうけつ}する (assemble all in one place)\n\nSIMILAR WORDS:\n- {集合|しゅうごう} is a neutral word for meeting up or assembling\n- {集結|しゅうけつ} implies purpose, scale, or intensity\n- {終結|しゅうけつ} (same reading) means conclusion or ending — do not confuse",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{集結|しゅうけつ}する",
+        "negative": "{集結|しゅうけつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{集結|しゅうけつ}します",
+        "negative": "{集結|しゅうけつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{集結|しゅうけつ}した",
+        "negative": "{集結|しゅうけつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{集結|しゅうけつ}しました",
+        "negative": "{集結|しゅうけつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{集結|しゅうけつ}して",
+        "negative": "{集結|しゅうけつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{集結|しゅうけつ}している",
+        "negative": "{集結|しゅうけつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{集結|しゅうけつ}しています",
+        "negative": "{集結|しゅうけつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{集結|しゅうけつ}していた",
+        "negative": "{集結|しゅうけつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{集結|しゅうけつ}していました",
+        "negative": "{集結|しゅうけつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{集結|しゅうけつ}すれば",
+        "negative": "{集結|しゅうけつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{集結|しゅうけつ}したら",
+        "negative": "{集結|しゅうけつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{集結|しゅうけつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{集結|しゅうけつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{集結|しゅうけつ}できる",
+        "negative": "{集結|しゅうけつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{集結|しゅうけつ}される",
+        "negative": "{集結|しゅうけつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{集結|しゅうけつ}させる",
+        "negative": "{集結|しゅうけつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{集結|しゅうけつ}しろ",
+        "negative": "{集結|しゅうけつ}するな"
+      }
+    ]
   }
 }

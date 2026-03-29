@@ -19,7 +19,9 @@
       "english": "It's too early to be optimistic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17126_rakkan_ex2",
@@ -27,7 +29,9 @@
       "english": "You shouldn't be overly optimistic about the situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17126_rakkan_ex3",
@@ -35,7 +39,9 @@
       "english": "He takes an optimistic view of the future.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{楽観|らっかん} can function as a noun or as a suru verb ({楽観|らっかん}する, to be optimistic about). The derived na-adjective {楽観的|らっかんてき} (optimistic) is very common.\n\nCOMMON COLLOCATIONS:\n- {楽観的|らっかんてき}な{見方|みかた} (optimistic view)\n- {楽観|らっかん}できない (cannot be optimistic)\n- {楽観|らっかん}は{禁物|きんもつ} (optimism is dangerous)\n\nSIMILAR WORDS:\n- {悲観|ひかん}: pessimism — the opposite attitude, expecting unfavorable outcomes",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{楽観|らっかん}する",
+        "negative": "{楽観|らっかん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{楽観|らっかん}します",
+        "negative": "{楽観|らっかん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{楽観|らっかん}した",
+        "negative": "{楽観|らっかん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{楽観|らっかん}しました",
+        "negative": "{楽観|らっかん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{楽観|らっかん}して",
+        "negative": "{楽観|らっかん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{楽観|らっかん}している",
+        "negative": "{楽観|らっかん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{楽観|らっかん}しています",
+        "negative": "{楽観|らっかん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{楽観|らっかん}していた",
+        "negative": "{楽観|らっかん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{楽観|らっかん}していました",
+        "negative": "{楽観|らっかん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{楽観|らっかん}すれば",
+        "negative": "{楽観|らっかん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{楽観|らっかん}したら",
+        "negative": "{楽観|らっかん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{楽観|らっかん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{楽観|らっかん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{楽観|らっかん}できる",
+        "negative": "{楽観|らっかん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{楽観|らっかん}される",
+        "negative": "{楽観|らっかん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{楽観|らっかん}させる",
+        "negative": "{楽観|らっかん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{楽観|らっかん}しろ",
+        "negative": "{楽観|らっかん}するな"
+      }
+    ]
   }
 }

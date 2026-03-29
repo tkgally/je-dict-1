@@ -19,7 +19,9 @@
       "english": "The customer stayed until closing time and wouldn't leave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15930_isuwaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The typhoon is stalled over southern Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15930_isuwaru_ex3",
@@ -35,7 +39,9 @@
       "english": "The president clung to his position without resigning, even with poor performance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{居座|いすわ}る carries a negative connotation of remaining somewhere when one should leave. It combines {居|い}る (to be/stay) with {座|すわ}る (to sit), giving the image of someone planting themselves firmly in place.\n\nCOMMON COLLOCATIONS:\n- {居座|いすわ}り{続|つづ}ける (to continue to stay put)\n- {台風|たいふう}が{居座|いすわ}る (a typhoon stalls)\n- ポストに{居座|いすわ}る (to cling to one's position)\n\nGRAMMAR:\nConjugation: {居座|いすわ}らない (negative), {居座|いすわ}って (te-form), {居座|いすわ}った (past). Godan verb ending in る (ら行).",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{居座|いすわ}る",
+        "negative": "{居座|いすわ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{居座|いすわ}ります",
+        "negative": "{居座|いすわ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{居座|いすわ}った",
+        "negative": "{居座|いすわ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{居座|いすわ}りました",
+        "negative": "{居座|いすわ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{居座|いすわ}って",
+        "negative": "{居座|いすわ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{居座|いすわ}っている",
+        "negative": "{居座|いすわ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{居座|いすわ}っています",
+        "negative": "{居座|いすわ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{居座|いすわ}っていた",
+        "negative": "{居座|いすわ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{居座|いすわ}っていました",
+        "negative": "{居座|いすわ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{居座|いすわ}れば",
+        "negative": "{居座|いすわ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{居座|いすわ}ったら",
+        "negative": "{居座|いすわ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{居座|いすわ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{居座|いすわ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{居座|いすわ}れる",
+        "negative": "{居座|いすわ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{居座|いすわ}られる",
+        "negative": "{居座|いすわ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{居座|いすわ}らせる",
+        "negative": "{居座|いすわ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{居座|いすわ}れ",
+        "negative": "{居座|いすわ}るな"
+      }
+    ]
   }
 }

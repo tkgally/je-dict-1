@@ -17,21 +17,27 @@
       "japanese": "セールで{衝動買|しょうどうが}いしてしまった。",
       "english": "I ended up impulse buying at the sale.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07691_shoudougai_ex2",
       "japanese": "{衝動買|しょうどうが}いを{抑|おさ}えるのが{難|むずか}しい。",
       "english": "It's hard to resist impulse buying.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07691_shoudougai_ex3",
       "japanese": "このバッグは{衝動買|しょうどうが}いだったけど、{結局|けっきょく}{使|つか}っていない。",
       "english": "I bought this bag on impulse, but I haven't used it after all.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{衝動|しょうどう} (impulse) + {買|か}い (buying)\n\nRELATED SHOPPING TERMS:\n・まとめ{買|が}い - bulk buying\n・{買|か}いだめ - stocking up\n・ついで{買|が}い - buying something extra while shopping\n\nCOLLOCATIONS:\n・{衝動買|しょうどうが}いをする - to make an impulse purchase\n・{衝動買|しょうどうが}いを{抑|おさ}える - to control impulse buying\n・{衝動買|しょうどうが}いを{後悔|こうかい}する - to regret an impulse purchase",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["shopping", "behavior"],
-      "domain": []
+      "semantic": [
+        "shopping",
+        "behavior"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{衝動買|しょうどうが}いする",
+        "negative": "{衝動買|しょうどうが}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{衝動買|しょうどうが}いします",
+        "negative": "{衝動買|しょうどうが}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{衝動買|しょうどうが}いした",
+        "negative": "{衝動買|しょうどうが}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{衝動買|しょうどうが}いしました",
+        "negative": "{衝動買|しょうどうが}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{衝動買|しょうどうが}いして",
+        "negative": "{衝動買|しょうどうが}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{衝動買|しょうどうが}いしている",
+        "negative": "{衝動買|しょうどうが}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{衝動買|しょうどうが}いしています",
+        "negative": "{衝動買|しょうどうが}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{衝動買|しょうどうが}いしていた",
+        "negative": "{衝動買|しょうどうが}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{衝動買|しょうどうが}いしていました",
+        "negative": "{衝動買|しょうどうが}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{衝動買|しょうどうが}いすれば",
+        "negative": "{衝動買|しょうどうが}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{衝動買|しょうどうが}いしたら",
+        "negative": "{衝動買|しょうどうが}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{衝動買|しょうどうが}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{衝動買|しょうどうが}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{衝動買|しょうどうが}いできる",
+        "negative": "{衝動買|しょうどうが}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{衝動買|しょうどうが}いされる",
+        "negative": "{衝動買|しょうどうが}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{衝動買|しょうどうが}いさせる",
+        "negative": "{衝動買|しょうどうが}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{衝動買|しょうどうが}いしろ",
+        "negative": "{衝動買|しょうどうが}いするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "This cat warmed up to me right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17463_natsuku_ex2",
@@ -27,7 +29,9 @@
       "english": "The neighborhood kid has taken a liking to me and comes to play every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17463_natsuku_ex3",
@@ -35,7 +39,9 @@
       "english": "I kept feeding a stray cat, and it gradually warmed up to me — now it sits on my lap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used for animals and small children, not for adult-to-adult relationships. The subject is the one becoming attached (the animal or child), and the person they warm up to is marked with に.\n\nPattern: [animal/child]が[person]に{懐|なつ}く\n\nCOMMON COLLOCATIONS:\n- {猫|ねこ}が{懐|なつ}く (a cat warms up to someone)\n- {犬|いぬ}が{懐|なつ}く (a dog takes to someone)\n- {子|こ}どもが{懐|なつ}く (a child becomes attached)\n- すぐに{懐|なつ}く (to warm up quickly)\n- なかなか{懐|なつ}かない (to not easily warm up)\n\nSIMILAR WORDS:\n- {慣|な}れる: to get used to — broader; about becoming accustomed, not necessarily affectionate\n- {甘|あま}える: to act spoiled, to be clingy — the behavior that follows after {懐|なつ}く",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{懐|なつ}く",
+        "negative": "{懐|なつ}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{懐|なつ}きます",
+        "negative": "{懐|なつ}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{懐|なつ}いた",
+        "negative": "{懐|なつ}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{懐|なつ}きました",
+        "negative": "{懐|なつ}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{懐|なつ}いて",
+        "negative": "{懐|なつ}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{懐|なつ}いている",
+        "negative": "{懐|なつ}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{懐|なつ}いています",
+        "negative": "{懐|なつ}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{懐|なつ}いていた",
+        "negative": "{懐|なつ}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{懐|なつ}いていました",
+        "negative": "{懐|なつ}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{懐|なつ}けば",
+        "negative": "{懐|なつ}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{懐|なつ}いたら",
+        "negative": "{懐|なつ}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{懐|なつ}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{懐|なつ}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{懐|なつ}ける",
+        "negative": "{懐|なつ}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{懐|なつ}かれる",
+        "negative": "{懐|なつ}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{懐|なつ}かせる",
+        "negative": "{懐|なつ}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{懐|なつ}け",
+        "negative": "{懐|なつ}くな"
+      }
+    ]
   }
 }

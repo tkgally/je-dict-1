@@ -19,7 +19,9 @@
       "english": "We need to make concessions to each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17958_jouhosuru_ex2",
@@ -27,7 +29,9 @@
       "english": "The other side didn't concede a single step.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17958_jouhosuru_ex3",
@@ -35,7 +39,9 @@
       "english": "The negotiations dragged on, but ultimately both sides made concessions and reached an agreement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in negotiations, disputes, and relationship contexts. Often implies a deliberate, reasoned decision to yield rather than being forced to give in.\n\nCOMMON COLLOCATIONS:\n- {譲歩|じょうほ}を{求|もと}める (demand concessions)\n- {大幅|おおはば}な{譲歩|じょうほ} (major concession)\n- {一歩|いっぽ}も{譲歩|じょうほ}しない (not yield an inch)\n- {相互|そうご}{譲歩|じょうほ} (mutual compromise)\n\nSIMILAR WORDS:\n- {妥協|だきょう}する: to compromise — implies settling for a less-than-ideal outcome, sometimes with negative nuance\n- {折|お}れる: to give in — more colloquial; implies yielding under pressure\n- {歩|あゆ}み{寄|よ}る: to meet halfway — implies both sides making an effort to close the gap",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{譲歩|じょうほ}する",
+        "negative": "{譲歩|じょうほ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{譲歩|じょうほ}します",
+        "negative": "{譲歩|じょうほ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{譲歩|じょうほ}した",
+        "negative": "{譲歩|じょうほ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{譲歩|じょうほ}しました",
+        "negative": "{譲歩|じょうほ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{譲歩|じょうほ}して",
+        "negative": "{譲歩|じょうほ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{譲歩|じょうほ}している",
+        "negative": "{譲歩|じょうほ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{譲歩|じょうほ}しています",
+        "negative": "{譲歩|じょうほ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{譲歩|じょうほ}していた",
+        "negative": "{譲歩|じょうほ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{譲歩|じょうほ}していました",
+        "negative": "{譲歩|じょうほ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{譲歩|じょうほ}すれば",
+        "negative": "{譲歩|じょうほ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{譲歩|じょうほ}したら",
+        "negative": "{譲歩|じょうほ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{譲歩|じょうほ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{譲歩|じょうほ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{譲歩|じょうほ}できる",
+        "negative": "{譲歩|じょうほ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{譲歩|じょうほ}される",
+        "negative": "{譲歩|じょうほ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{譲歩|じょうほ}させる",
+        "negative": "{譲歩|じょうほ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{譲歩|じょうほ}しろ",
+        "negative": "{譲歩|じょうほ}するな"
+      }
+    ]
   }
 }

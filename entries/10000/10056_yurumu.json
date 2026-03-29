@@ -23,7 +23,9 @@
       "english": "The screw is loose.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10056_yurumu_ex2",
@@ -31,7 +33,9 @@
       "english": "The belt has become loose.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10056_yurumu_ex3",
@@ -39,7 +43,9 @@
       "english": "If you let your guard down, you'll fail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10056_yurumu_ex4",
@@ -47,7 +53,9 @@
       "english": "The regulations were relaxed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {緩|ゆる}める (transitive). Pattern: Xが{緩|ゆる}む.\n\nASPECT: ている indicates a current state of being loose.\n\nCOMMON PATTERNS:\n・ねじが{緩|ゆる}む (screw becomes loose)\n・{気|き}が{緩|ゆる}む (to let one's guard down)\n・{規制|きせい}が{緩|ゆる}む (regulations are relaxed)\n\nRELATED:\n・{緩|ゆる}める (to loosen - transitive)\n・{緩|ゆる}い (loose, slack)",
@@ -58,11 +66,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{緩|ゆる}む",
+        "negative": "{緩|ゆる}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{緩|ゆる}みます",
+        "negative": "{緩|ゆる}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{緩|ゆる}んだ",
+        "negative": "{緩|ゆる}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{緩|ゆる}みました",
+        "negative": "{緩|ゆる}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{緩|ゆる}んで",
+        "negative": "{緩|ゆる}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{緩|ゆる}んでいる",
+        "negative": "{緩|ゆる}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{緩|ゆる}んでいます",
+        "negative": "{緩|ゆる}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{緩|ゆる}んでいた",
+        "negative": "{緩|ゆる}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{緩|ゆる}んでいました",
+        "negative": "{緩|ゆる}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{緩|ゆる}めば",
+        "negative": "{緩|ゆる}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{緩|ゆる}んだら",
+        "negative": "{緩|ゆる}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{緩|ゆる}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{緩|ゆる}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{緩|ゆる}める",
+        "negative": "{緩|ゆる}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{緩|ゆる}まれる",
+        "negative": "{緩|ゆる}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{緩|ゆる}ませる",
+        "negative": "{緩|ゆる}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{緩|ゆる}め",
+        "negative": "{緩|ゆる}むな"
+      }
+    ]
   }
 }

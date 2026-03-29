@@ -19,7 +19,9 @@
       "english": "To get a new suit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13046_shinchou_ex2",
@@ -27,7 +29,9 @@
       "english": "I got new shoes in time for the entrance ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13046_shinchou_ex3",
@@ -35,7 +39,9 @@
       "english": "I went around several stores, thinking about getting new curtains to replace the old ones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{新調|しんちょう}する implies purposefully acquiring something new, often with a sense of replacing something old or preparing for an occasion. It is most commonly used for clothing, accessories, and household items.\n\nCOMMON COLLOCATIONS:\n- スーツを{新調|しんちょう}する: to get a new suit\n- {着物|きもの}を{新調|しんちょう}する: to get a new kimono\n- {家具|かぐ}を{新調|しんちょう}する: to get new furniture\n- {制服|せいふく}を{新調|しんちょう}する: to get a new uniform\n\nNOTE:\nUnlike simply \"buying\" ({買|か}う), {新調|しんちょう}する carries the nuance of replacing something or preparing something fresh for an occasion. It can also imply having something custom-made rather than buying off the shelf.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{新調|しんちょう}する",
+        "negative": "{新調|しんちょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{新調|しんちょう}します",
+        "negative": "{新調|しんちょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{新調|しんちょう}した",
+        "negative": "{新調|しんちょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{新調|しんちょう}しました",
+        "negative": "{新調|しんちょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{新調|しんちょう}して",
+        "negative": "{新調|しんちょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{新調|しんちょう}している",
+        "negative": "{新調|しんちょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{新調|しんちょう}しています",
+        "negative": "{新調|しんちょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{新調|しんちょう}していた",
+        "negative": "{新調|しんちょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{新調|しんちょう}していました",
+        "negative": "{新調|しんちょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{新調|しんちょう}すれば",
+        "negative": "{新調|しんちょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{新調|しんちょう}したら",
+        "negative": "{新調|しんちょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{新調|しんちょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{新調|しんちょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{新調|しんちょう}できる",
+        "negative": "{新調|しんちょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{新調|しんちょう}される",
+        "negative": "{新調|しんちょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{新調|しんちょう}させる",
+        "negative": "{新調|しんちょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{新調|しんちょう}しろ",
+        "negative": "{新調|しんちょう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "To harm one's health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18061_sokonau_ex2",
@@ -32,7 +34,9 @@
       "english": "Excessive dieting damages your body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18061_sokonau_ex3",
@@ -40,7 +44,9 @@
       "english": "One should avoid actions that would damage trust.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18061_sokonau_ex4",
@@ -48,7 +54,9 @@
       "english": "I missed the train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18061_sokonau_ex5",
@@ -56,7 +64,9 @@
       "english": "There's something I failed to say.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18061_sokonau_ex6",
@@ -64,7 +74,9 @@
       "english": "I missed the chance to seize a rare opportunity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is a standalone verb meaning to harm or impair. Sense 2 is a grammatical suffix attached to verb stems, meaning to fail at the action. Both are common in everyday Japanese.\n\nVERB SUFFIX PATTERN:\nV-stem + {損|そこ}なう: fail to do V\n- {乗|の}り{損|そこ}なう: to miss (a ride)\n- {言|い}い{損|そこ}なう: to fail to say\n- {食|た}べ{損|そこ}なう: to miss eating\n- {見|み}{損|そこ}なう: to misjudge; to miss seeing\n\nCOMMON COLLOCATIONS:\n- {健康|けんこう}を{損|そこ}なう: to harm one's health\n- {信頼|しんらい}を{損|そこ}なう: to damage trust\n- {名誉|めいよ}を{損|そこ}なう: to damage one's honor\n- {品位|ひんい}を{損|そこ}なう: to compromise one's dignity\n- {景観|けいかん}を{損|そこ}なう: to spoil the scenery",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{損|そこ}なう",
+        "negative": "{損|そこ}なわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{損|そこ}ないます",
+        "negative": "{損|そこ}ないません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{損|そこ}なった",
+        "negative": "{損|そこ}なわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{損|そこ}ないました",
+        "negative": "{損|そこ}ないませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{損|そこ}なって",
+        "negative": "{損|そこ}なわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{損|そこ}なっている",
+        "negative": "{損|そこ}なっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{損|そこ}なっています",
+        "negative": "{損|そこ}なっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{損|そこ}なっていた",
+        "negative": "{損|そこ}なっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{損|そこ}なっていました",
+        "negative": "{損|そこ}なっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{損|そこ}なえば",
+        "negative": "{損|そこ}なわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{損|そこ}なったら",
+        "negative": "{損|そこ}なわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{損|そこ}なおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{損|そこ}ないましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{損|そこ}なえる",
+        "negative": "{損|そこ}なえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{損|そこ}なわれる",
+        "negative": "{損|そこ}なわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{損|そこ}なわせる",
+        "negative": "{損|そこ}なわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{損|そこ}なえ",
+        "negative": "{損|そこ}なうな"
+      }
+    ]
   }
 }

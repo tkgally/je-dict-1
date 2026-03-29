@@ -19,7 +19,9 @@
       "english": "Shoplifting is a crime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16838_manbiki_ex2",
@@ -27,7 +29,9 @@
       "english": "The moment of shoplifting was captured on a security camera.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16838_manbiki_ex3",
@@ -35,7 +39,9 @@
       "english": "It is said that losses from shoplifting amount to tens of billions of yen annually.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlso used as a suru-verb: {万引|まんび}きする (to shoplift). Can also refer to the person who shoplifts ({万引|まんび}き{犯|はん} is more specific). Store signs often use the phrase {万引|まんび}きは{犯罪|はんざい}です (shoplifting is a crime).\n\nCOMMON COLLOCATIONS:\n- {万引|まんび}きする (to shoplift)\n- {万引|まんび}き{犯|はん} (shoplifter)\n- {万引|まんび}き{防止|ぼうし} (shoplifting prevention)\n- {万引|まんび}きで{捕|つか}まる (to be caught shoplifting)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["crime"]
+      "semantic": [
+        "crime"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{万引|まんび}きする",
+        "negative": "{万引|まんび}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{万引|まんび}きします",
+        "negative": "{万引|まんび}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{万引|まんび}きした",
+        "negative": "{万引|まんび}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{万引|まんび}きしました",
+        "negative": "{万引|まんび}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{万引|まんび}きして",
+        "negative": "{万引|まんび}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{万引|まんび}きしている",
+        "negative": "{万引|まんび}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{万引|まんび}きしています",
+        "negative": "{万引|まんび}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{万引|まんび}きしていた",
+        "negative": "{万引|まんび}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{万引|まんび}きしていました",
+        "negative": "{万引|まんび}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{万引|まんび}きすれば",
+        "negative": "{万引|まんび}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{万引|まんび}きしたら",
+        "negative": "{万引|まんび}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{万引|まんび}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{万引|まんび}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{万引|まんび}きできる",
+        "negative": "{万引|まんび}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{万引|まんび}きされる",
+        "negative": "{万引|まんび}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{万引|まんび}きさせる",
+        "negative": "{万引|まんび}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{万引|まんび}きしろ",
+        "negative": "{万引|まんび}きするな"
+      }
+    ]
   }
 }

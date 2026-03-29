@@ -16,7 +16,9 @@
       "id": "09130_yuuwa_ex1",
       "japanese": "{民族|みんぞく}{融和|ゆうわ}",
       "english": "ethnic harmony",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09130_yuuwa_ex2",
       "japanese": "{両派|りょうは}の{融和|ゆうわ}を{図|はか}る。",
       "english": "To seek reconciliation between the two factions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09130_yuuwa_ex3",
       "japanese": "この{地域|ちいき}では、{様々|さまざま}な{文化|ぶんか}が{融和|ゆうわ}して{独自|どくじ}の{伝統|でんとう}が{生|う}まれた。",
       "english": "In this region, various cultures blended together to create unique traditions.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{融和|ゆうわ}する",
+        "negative": "{融和|ゆうわ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{融和|ゆうわ}します",
+        "negative": "{融和|ゆうわ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{融和|ゆうわ}した",
+        "negative": "{融和|ゆうわ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{融和|ゆうわ}しました",
+        "negative": "{融和|ゆうわ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{融和|ゆうわ}して",
+        "negative": "{融和|ゆうわ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{融和|ゆうわ}している",
+        "negative": "{融和|ゆうわ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{融和|ゆうわ}しています",
+        "negative": "{融和|ゆうわ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{融和|ゆうわ}していた",
+        "negative": "{融和|ゆうわ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{融和|ゆうわ}していました",
+        "negative": "{融和|ゆうわ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{融和|ゆうわ}すれば",
+        "negative": "{融和|ゆうわ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{融和|ゆうわ}したら",
+        "negative": "{融和|ゆうわ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{融和|ゆうわ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{融和|ゆうわ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{融和|ゆうわ}できる",
+        "negative": "{融和|ゆうわ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{融和|ゆうわ}される",
+        "negative": "{融和|ゆうわ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{融和|ゆうわ}させる",
+        "negative": "{融和|ゆうわ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{融和|ゆうわ}しろ",
+        "negative": "{融和|ゆうわ}するな"
+      }
+    ]
   }
 }

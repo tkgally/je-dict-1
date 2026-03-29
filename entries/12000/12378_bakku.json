@@ -24,7 +24,9 @@
       "english": "You can see mountains in the background.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12378_bakku_ex2",
@@ -32,7 +34,9 @@
       "english": "That politician has a large corporation backing him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12378_bakku_ex3",
@@ -40,7 +44,9 @@
       "english": "I took a photo with the sunset in the background.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12378_bakku_ex4",
@@ -48,7 +54,9 @@
       "english": "Please reverse slowly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12378_bakku_ex5",
@@ -56,7 +64,9 @@
       "english": "Don't forget to check behind you when backing up in a parking lot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12378_bakku_ex6",
@@ -64,7 +74,9 @@
       "english": "A car came from the opposite direction on a narrow road, so I backed up to let it pass.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nバック has several distinct uses in Japanese. As a background/support word, it often appears in the pattern ～をバックに (with ~ as a backdrop) or バックがつく (to have backing). As a driving term, バックする is the standard way to say \"to reverse\" a vehicle.\n\nNOTE ON MEANING:\nバック does not mean \"bag\" in Japanese — that word is バッグ (baggu). The two are commonly confused by learners.\n\nCOMMON COLLOCATIONS:\n- ～をバックに: with ~ in the background\n- バックがつく: to gain backing/support\n- バックする: to reverse (a vehicle)\n- バックミラー: rearview mirror\n- バック{駐車|ちゅうしゃ}: reverse parking",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "バックする",
+        "negative": "バックしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "バックします",
+        "negative": "バックしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "バックした",
+        "negative": "バックしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "バックしました",
+        "negative": "バックしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "バックして",
+        "negative": "バックしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "バックしている",
+        "negative": "バックしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "バックしています",
+        "negative": "バックしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "バックしていた",
+        "negative": "バックしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "バックしていました",
+        "negative": "バックしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "バックすれば",
+        "negative": "バックしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "バックしたら",
+        "negative": "バックしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "バックしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "バックしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "バックできる",
+        "negative": "バックできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "バックされる",
+        "negative": "バックされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "バックさせる",
+        "negative": "バックさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "バックしろ",
+        "negative": "バックするな"
+      }
+    ]
   }
 }

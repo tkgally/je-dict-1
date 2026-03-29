@@ -19,7 +19,9 @@
       "english": "I had coffee during the mid-morning break.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15674_nakayasumi_ex2",
@@ -27,7 +29,9 @@
       "english": "There was a break in the rainy season and it was sunny for the first time in a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15674_nakayasumi_ex3",
@@ -35,7 +39,9 @@
       "english": "We took a ten-minute break in the middle of the long meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used for weather patterns — {梅雨|つゆ}の{中休|なかやす}み (a break in the rainy season) and {猛暑|もうしょ}の{中休|なかやす}み (a break from the intense heat) are very common expressions in weather forecasts.\n\nCOMMON COLLOCATIONS:\n- {梅雨|つゆ}の{中休|なかやす}み (break in the rainy season)\n- {中休|なかやす}みを{取|と}る (to take a mid-break)\n- {猛暑|もうしょ}の{中休|なかやす}み (respite from extreme heat)\n\nSIMILAR WORDS:\n- {休憩|きゅうけい}: break, rest (more general and formal)\n- {一息|ひといき}: a breather (shorter, more casual)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{中休|なかやす}みする",
+        "negative": "{中休|なかやす}みしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{中休|なかやす}みします",
+        "negative": "{中休|なかやす}みしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{中休|なかやす}みした",
+        "negative": "{中休|なかやす}みしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{中休|なかやす}みしました",
+        "negative": "{中休|なかやす}みしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{中休|なかやす}みして",
+        "negative": "{中休|なかやす}みしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{中休|なかやす}みしている",
+        "negative": "{中休|なかやす}みしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{中休|なかやす}みしています",
+        "negative": "{中休|なかやす}みしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{中休|なかやす}みしていた",
+        "negative": "{中休|なかやす}みしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{中休|なかやす}みしていました",
+        "negative": "{中休|なかやす}みしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{中休|なかやす}みすれば",
+        "negative": "{中休|なかやす}みしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{中休|なかやす}みしたら",
+        "negative": "{中休|なかやす}みしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{中休|なかやす}みしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{中休|なかやす}みしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{中休|なかやす}みできる",
+        "negative": "{中休|なかやす}みできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{中休|なかやす}みされる",
+        "negative": "{中休|なかやす}みされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{中休|なかやす}みさせる",
+        "negative": "{中休|なかやす}みさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{中休|なかやす}みしろ",
+        "negative": "{中休|なかやす}みするな"
+      }
+    ]
   }
 }

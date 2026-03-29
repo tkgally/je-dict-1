@@ -19,7 +19,9 @@
       "english": "I saw it through to the end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16745_yaritogeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I have confidence that I can carry out this difficult job.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16745_yaritogeru_ex3",
@@ -35,7 +39,9 @@
       "english": "No matter how hard it gets, it's important not to give up halfway and to see it through.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\nA compound verb from やる (to do) + {遂|と}げる (to accomplish). The combination emphasizes completing a task despite difficulty.\n\nCOMMON COLLOCATIONS:\n- {最後|さいご}までやり{遂|と}げる (to see through to the end)\n- {仕事|しごと}をやり{遂|と}げる (to complete a job)\n- {目標|もくひょう}をやり{遂|と}げる (to achieve a goal)\n\nSIMILAR WORDS:\n- {成|な}し{遂|と}げる: to accomplish — more formal, used for significant achievements\n- やりきる: to do completely — emphasizes exhausting effort",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "やり{遂|と}げる",
+        "negative": "やり{遂|と}げない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "やり{遂|と}げます",
+        "negative": "やり{遂|と}げません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "やり{遂|と}げた",
+        "negative": "やり{遂|と}げなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "やり{遂|と}げました",
+        "negative": "やり{遂|と}げませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "やり{遂|と}げて",
+        "negative": "やり{遂|と}げなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "やり{遂|と}げている",
+        "negative": "やり{遂|と}げていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "やり{遂|と}げています",
+        "negative": "やり{遂|と}げていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "やり{遂|と}げていた",
+        "negative": "やり{遂|と}げていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "やり{遂|と}げていました",
+        "negative": "やり{遂|と}げていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "やり{遂|と}げれば",
+        "negative": "やり{遂|と}げなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "やり{遂|と}げたら",
+        "negative": "やり{遂|と}げなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "やり{遂|と}げよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "やり{遂|と}げましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "やり{遂|と}げられる",
+        "negative": "やり{遂|と}げられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "やり{遂|と}げられる",
+        "negative": "やり{遂|と}げられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "やり{遂|と}げさせる",
+        "negative": "やり{遂|と}げさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "やり{遂|と}げろ",
+        "negative": "やり{遂|と}げるな"
+      }
+    ]
   }
 }

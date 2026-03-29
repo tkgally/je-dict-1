@@ -19,7 +19,9 @@
       "english": "A prisoner escaped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15529_dassou_ex2",
@@ -27,7 +29,9 @@
       "english": "My pet cat escaped through the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15529_dassou_ex3",
@@ -35,7 +39,9 @@
       "english": "During the war, deserting from one's unit was a serious crime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{脱走|だっそう}する is used for escaping from confinement or a place where one is obligated to remain. It implies unauthorized departure, distinguishing it from simply leaving.\n\nCOMMON COLLOCATIONS:\n- {脱走|だっそう}する (to escape, to desert)\n- {脱走|だっそう}{犯|はん} (escaped convict)\n- {脱走|だっそう}{兵|へい} (deserter — military)\n- {脱走|だっそう}{経路|けいろ} (escape route)\n\nSIMILAR WORDS:\n{逃亡|とうぼう} emphasizes fleeing and going into hiding, while {脱走|だっそう} emphasizes the act of breaking free from confinement. {脱獄|だつごく} specifically means escaping from prison.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{脱走|だっそう}する",
+        "negative": "{脱走|だっそう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{脱走|だっそう}します",
+        "negative": "{脱走|だっそう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{脱走|だっそう}した",
+        "negative": "{脱走|だっそう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{脱走|だっそう}しました",
+        "negative": "{脱走|だっそう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{脱走|だっそう}して",
+        "negative": "{脱走|だっそう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{脱走|だっそう}している",
+        "negative": "{脱走|だっそう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{脱走|だっそう}しています",
+        "negative": "{脱走|だっそう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{脱走|だっそう}していた",
+        "negative": "{脱走|だっそう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{脱走|だっそう}していました",
+        "negative": "{脱走|だっそう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{脱走|だっそう}すれば",
+        "negative": "{脱走|だっそう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{脱走|だっそう}したら",
+        "negative": "{脱走|だっそう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{脱走|だっそう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{脱走|だっそう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{脱走|だっそう}できる",
+        "negative": "{脱走|だっそう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{脱走|だっそう}される",
+        "negative": "{脱走|だっそう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{脱走|だっそう}させる",
+        "negative": "{脱走|だっそう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{脱走|だっそう}しろ",
+        "negative": "{脱走|だっそう}するな"
+      }
+    ]
   }
 }

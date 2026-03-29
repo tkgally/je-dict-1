@@ -19,7 +19,9 @@
       "english": "We were told to stay home because of the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18886_jitakutaiki_ex2",
@@ -27,7 +29,9 @@
       "english": "Close contacts were asked to stay home and quarantine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18886_jitakutaiki_ex3",
@@ -35,7 +39,9 @@
       "english": "The company issued a stay-at-home order, so I'll be at home until I hear from them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nBecame very common during the COVID-19 pandemic. Also used when employees are suspended from work pending an investigation, or when schools close due to weather.\n\nCOMMON COLLOCATIONS:\n- {自宅|じたく}{待機|たいき}を{命|めい}じられる (to be ordered to stay home)\n- {自宅|じたく}{待機|たいき}の{指示|しじ} (instruction to stay home)\n- {自宅|じたく}{待機|たいき}{期間|きかん} (home quarantine period)\n- {自宅|じたく}{待機|たいき}を{求|もと}める (to request someone stay home)\n\nSIMILAR WORDS:\n- {外出|がいしゅつ}{自粛|じしゅく}: voluntarily refraining from going out — a request rather than an order\n- {自宅|じたく}{療養|りょうよう}: recovering at home — specifically for medical treatment",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自宅|じたく}{待機|たいき}する",
+        "negative": "{自宅|じたく}{待機|たいき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自宅|じたく}{待機|たいき}します",
+        "negative": "{自宅|じたく}{待機|たいき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自宅|じたく}{待機|たいき}した",
+        "negative": "{自宅|じたく}{待機|たいき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自宅|じたく}{待機|たいき}しました",
+        "negative": "{自宅|じたく}{待機|たいき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自宅|じたく}{待機|たいき}して",
+        "negative": "{自宅|じたく}{待機|たいき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自宅|じたく}{待機|たいき}している",
+        "negative": "{自宅|じたく}{待機|たいき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自宅|じたく}{待機|たいき}しています",
+        "negative": "{自宅|じたく}{待機|たいき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自宅|じたく}{待機|たいき}していた",
+        "negative": "{自宅|じたく}{待機|たいき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自宅|じたく}{待機|たいき}していました",
+        "negative": "{自宅|じたく}{待機|たいき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自宅|じたく}{待機|たいき}すれば",
+        "negative": "{自宅|じたく}{待機|たいき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自宅|じたく}{待機|たいき}したら",
+        "negative": "{自宅|じたく}{待機|たいき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自宅|じたく}{待機|たいき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自宅|じたく}{待機|たいき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自宅|じたく}{待機|たいき}できる",
+        "negative": "{自宅|じたく}{待機|たいき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自宅|じたく}{待機|たいき}される",
+        "negative": "{自宅|じたく}{待機|たいき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自宅|じたく}{待機|たいき}させる",
+        "negative": "{自宅|じたく}{待機|たいき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自宅|じたく}{待機|たいき}しろ",
+        "negative": "{自宅|じたく}{待機|たいき}するな"
+      }
+    ]
   }
 }

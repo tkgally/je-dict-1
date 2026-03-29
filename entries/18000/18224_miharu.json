@@ -19,7 +19,9 @@
       "english": "Please keep watch over the entrance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18224_miharu_ex2",
@@ -27,7 +29,9 @@
       "english": "Security guards are keeping watch around the building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18224_miharu_ex3",
@@ -35,7 +39,9 @@
       "english": "While the children are playing in the pool, parents must keep a close watch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nGodan verb ({五段動詞|ごだんどうし}). The noun form {見張|みは}り means 'lookout, watch, guard.' Can describe both security/guarding situations and everyday supervision.\n\nCOMMON COLLOCATIONS:\n- {見張|みは}りを{立|た}てる (to post a lookout)\n- {見張|みは}り{番|ばん} (watchman, guard)\n- {見張|みは}り{台|だい} (watchtower, lookout post)\n- {見張|みは}りに{立|た}つ (to stand guard)\n\nSIMILAR WORDS:\n- {監視|かんし}する: to monitor, to surveil — more formal; often implies systematic or technological surveillance\n- {見守|みまも}る: to watch over — gentler; implies protective, caring observation",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見張|みは}る",
+        "negative": "{見張|みは}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見張|みは}ります",
+        "negative": "{見張|みは}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見張|みは}った",
+        "negative": "{見張|みは}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見張|みは}りました",
+        "negative": "{見張|みは}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見張|みは}って",
+        "negative": "{見張|みは}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見張|みは}っている",
+        "negative": "{見張|みは}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見張|みは}っています",
+        "negative": "{見張|みは}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見張|みは}っていた",
+        "negative": "{見張|みは}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見張|みは}っていました",
+        "negative": "{見張|みは}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見張|みは}れば",
+        "negative": "{見張|みは}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見張|みは}ったら",
+        "negative": "{見張|みは}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見張|みは}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見張|みは}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見張|みは}れる",
+        "negative": "{見張|みは}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見張|みは}られる",
+        "negative": "{見張|みは}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見張|みは}らせる",
+        "negative": "{見張|みは}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見張|みは}れ",
+        "negative": "{見張|みは}るな"
+      }
+    ]
   }
 }

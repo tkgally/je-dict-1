@@ -19,7 +19,9 @@
       "english": "I bought a charm for praying for success in the exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13745_kigan_ex2",
@@ -27,7 +29,9 @@
       "english": "I prayed for traffic safety at the shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13745_kigan_ex3",
@@ -35,7 +39,9 @@
       "english": "The whole family went to the shrine at New Year's to pray for a year free from illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore formal and specific than {祈|いの}り (prayer in general). {祈願|きがん} typically involves visiting a shrine or temple and praying for a concrete wish or goal. Common occasions include exam success, safe childbirth, business prosperity, and traffic safety.\n\nCOMMON COLLOCATIONS:\n- {合格|ごうかく}{祈願|きがん}: prayer for passing an exam\n- {安産|あんざん}{祈願|きがん}: prayer for safe childbirth\n- {商売|しょうばい}{繁盛|はんじょう}{祈願|きがん}: prayer for business prosperity\n- {交通|こうつう}{安全|あんぜん}{祈願|きがん}: prayer for traffic safety\n- {必勝|ひっしょう}{祈願|きがん}: prayer for certain victory",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["religion", "culture"]
+      "semantic": [
+        "religion",
+        "culture"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{祈願|きがん}する",
+        "negative": "{祈願|きがん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{祈願|きがん}します",
+        "negative": "{祈願|きがん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{祈願|きがん}した",
+        "negative": "{祈願|きがん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{祈願|きがん}しました",
+        "negative": "{祈願|きがん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{祈願|きがん}して",
+        "negative": "{祈願|きがん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{祈願|きがん}している",
+        "negative": "{祈願|きがん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{祈願|きがん}しています",
+        "negative": "{祈願|きがん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{祈願|きがん}していた",
+        "negative": "{祈願|きがん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{祈願|きがん}していました",
+        "negative": "{祈願|きがん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{祈願|きがん}すれば",
+        "negative": "{祈願|きがん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{祈願|きがん}したら",
+        "negative": "{祈願|きがん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{祈願|きがん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{祈願|きがん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{祈願|きがん}できる",
+        "negative": "{祈願|きがん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{祈願|きがん}される",
+        "negative": "{祈願|きがん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{祈願|きがん}させる",
+        "negative": "{祈願|きがん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{祈願|きがん}しろ",
+        "negative": "{祈願|きがん}するな"
+      }
+    ]
   }
 }

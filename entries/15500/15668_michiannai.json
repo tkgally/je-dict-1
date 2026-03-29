@@ -19,7 +19,9 @@
       "english": "Could you give me directions?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15668_michiannai_ex2",
@@ -27,7 +29,9 @@
       "english": "I gave directions to a tourist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15668_michiannai_ex3",
@@ -35,7 +39,9 @@
       "english": "This app gives you accurate directions even in unfamiliar places.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan refer to the act of guiding, the person guiding, or a tool (such as a sign or app) that provides guidance. Often used with する to mean \"to show the way.\"\n\nCOMMON COLLOCATIONS:\n- {道案内|みちあんない}をする (to give directions)\n- {道案内|みちあんない}を{頼|たの}む (to ask for directions)\n\nWORD FORMATION:\n{道|みち} (road, way) + {案内|あんない} (guidance).\n\nSIMILAR WORDS:\n- {案内|あんない}: guidance (broader; includes tour guiding)\n- {道順|みちじゅん}: route, directions (the route itself rather than the act of guiding)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{道案内|みちあんない}する",
+        "negative": "{道案内|みちあんない}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{道案内|みちあんない}します",
+        "negative": "{道案内|みちあんない}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{道案内|みちあんない}した",
+        "negative": "{道案内|みちあんない}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{道案内|みちあんない}しました",
+        "negative": "{道案内|みちあんない}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{道案内|みちあんない}して",
+        "negative": "{道案内|みちあんない}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{道案内|みちあんない}している",
+        "negative": "{道案内|みちあんない}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{道案内|みちあんない}しています",
+        "negative": "{道案内|みちあんない}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{道案内|みちあんない}していた",
+        "negative": "{道案内|みちあんない}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{道案内|みちあんない}していました",
+        "negative": "{道案内|みちあんない}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{道案内|みちあんない}すれば",
+        "negative": "{道案内|みちあんない}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{道案内|みちあんない}したら",
+        "negative": "{道案内|みちあんない}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{道案内|みちあんない}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{道案内|みちあんない}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{道案内|みちあんない}できる",
+        "negative": "{道案内|みちあんない}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{道案内|みちあんない}される",
+        "negative": "{道案内|みちあんない}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{道案内|みちあんない}させる",
+        "negative": "{道案内|みちあんない}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{道案内|みちあんない}しろ",
+        "negative": "{道案内|みちあんない}するな"
+      }
+    ]
   }
 }

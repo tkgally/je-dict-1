@@ -19,7 +19,9 @@
       "english": "The typhoon made a direct hit on Honshu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13719_chokugeki_ex2",
@@ -27,7 +29,9 @@
       "english": "The reporter ambush-interviewed the minister.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13719_chokugeki_ex3",
@@ -35,7 +39,9 @@
       "english": "The weak yen hit household finances directly, and food costs increased significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in news reporting. The pattern {台風|たいふう}が～を{直撃|ちょくげき} (a typhoon directly strikes ~) is heard frequently during typhoon season. In journalism, {直撃|ちょくげき}インタビュー or {直撃|ちょくげき}{取材|しゅざい} means confronting someone for an impromptu interview. Also used figuratively for economic impacts.\n\nCOMMON COLLOCATIONS:\n- {台風|たいふう}が{直撃|ちょくげき}する: a typhoon makes a direct hit\n- {直撃|ちょくげき}インタビュー: ambush/doorstep interview\n- {経済|けいざい}を{直撃|ちょくげき}する: to hit the economy directly\n- {直撃|ちょくげき}{弾|だん}: a direct hit (projectile)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{直撃|ちょくげき}する",
+        "negative": "{直撃|ちょくげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{直撃|ちょくげき}します",
+        "negative": "{直撃|ちょくげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{直撃|ちょくげき}した",
+        "negative": "{直撃|ちょくげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{直撃|ちょくげき}しました",
+        "negative": "{直撃|ちょくげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{直撃|ちょくげき}して",
+        "negative": "{直撃|ちょくげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{直撃|ちょくげき}している",
+        "negative": "{直撃|ちょくげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{直撃|ちょくげき}しています",
+        "negative": "{直撃|ちょくげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{直撃|ちょくげき}していた",
+        "negative": "{直撃|ちょくげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{直撃|ちょくげき}していました",
+        "negative": "{直撃|ちょくげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{直撃|ちょくげき}すれば",
+        "negative": "{直撃|ちょくげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{直撃|ちょくげき}したら",
+        "negative": "{直撃|ちょくげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{直撃|ちょくげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{直撃|ちょくげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{直撃|ちょくげき}できる",
+        "negative": "{直撃|ちょくげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{直撃|ちょくげき}される",
+        "negative": "{直撃|ちょくげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{直撃|ちょくげき}させる",
+        "negative": "{直撃|ちょくげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{直撃|ちょくげき}しろ",
+        "negative": "{直撃|ちょくげき}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Pay taxes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13849_noufu_ex2",
@@ -27,7 +29,9 @@
       "english": "The deadline for paying the insurance premium is approaching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13849_noufu_ex3",
@@ -35,7 +39,9 @@
       "english": "Resident tax can be paid in four installments per year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed specifically for official payments to government agencies, pension funds, or insurance bodies. Not used for ordinary commercial transactions or personal payments.\n\nSIMILAR WORDS:\n- {支払|しはら}い: payment (general, for any transaction)\n- {納税|のうぜい}: tax payment (specifically taxes)\n- {納入|のうにゅう}: delivery, payment (slightly broader, includes goods)\n\nCOMMON COLLOCATIONS:\n- {税金|ぜいきん}を{納付|のうふ}する: pay taxes\n- {保険料|ほけんりょう}の{納付|のうふ}: payment of insurance premiums\n- {納付|のうふ}{期限|きげん}: payment deadline\n- {納付|のうふ}{書|しょ}: payment slip\n- {未納付|みのうふ}: non-payment, unpaid",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["finance"],
-      "domain": ["legal"]
+      "semantic": [
+        "finance"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{納付|のうふ}する",
+        "negative": "{納付|のうふ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{納付|のうふ}します",
+        "negative": "{納付|のうふ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{納付|のうふ}した",
+        "negative": "{納付|のうふ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{納付|のうふ}しました",
+        "negative": "{納付|のうふ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{納付|のうふ}して",
+        "negative": "{納付|のうふ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{納付|のうふ}している",
+        "negative": "{納付|のうふ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{納付|のうふ}しています",
+        "negative": "{納付|のうふ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{納付|のうふ}していた",
+        "negative": "{納付|のうふ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{納付|のうふ}していました",
+        "negative": "{納付|のうふ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{納付|のうふ}すれば",
+        "negative": "{納付|のうふ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{納付|のうふ}したら",
+        "negative": "{納付|のうふ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{納付|のうふ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{納付|のうふ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{納付|のうふ}できる",
+        "negative": "{納付|のうふ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{納付|のうふ}される",
+        "negative": "{納付|のうふ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{納付|のうふ}させる",
+        "negative": "{納付|のうふ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{納付|のうふ}しろ",
+        "negative": "{納付|のうふ}するな"
+      }
+    ]
   }
 }

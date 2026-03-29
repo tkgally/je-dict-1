@@ -24,7 +24,9 @@
       "english": "I have trouble waking up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12341_neoki_ex2",
@@ -32,7 +34,9 @@
       "english": "I don't want people to see my face right after waking up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12341_neoki_ex3",
@@ -40,7 +44,9 @@
       "english": "He wakes up easily, so he can get up without an alarm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12341_neoki_ex4",
@@ -48,7 +54,9 @@
       "english": "I live here (sleep and wake here).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12341_neoki_ex5",
@@ -56,7 +64,9 @@
       "english": "During my student days, I was living at a friend's apartment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12341_neoki_ex6",
@@ -64,7 +74,9 @@
       "english": "Three people were living in a small room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe most common usage is in the phrase {寝起|ねお}きがいい／{悪|わる}い, describing whether someone wakes up easily or with difficulty.\n\nCOLLOCATIONS:\n- {寝起|ねお}きがいい — to be a good waker, to wake up easily\n- {寝起|ねお}きが{悪|わる}い — to be a bad waker, to have trouble waking up\n- {寝起|ねお}きの{顔|かお} — face just after waking\n- {寝起|ねお}きする — to sleep and wake (live somewhere)\n\nNOTE:\nIn sense 2, {寝起|ねお}き takes する to form a verb meaning to sleep and get up (i.e., to live or stay somewhere).",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{寝起|ねお}きする",
+        "negative": "{寝起|ねお}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{寝起|ねお}きします",
+        "negative": "{寝起|ねお}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{寝起|ねお}きした",
+        "negative": "{寝起|ねお}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{寝起|ねお}きしました",
+        "negative": "{寝起|ねお}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{寝起|ねお}きして",
+        "negative": "{寝起|ねお}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{寝起|ねお}きしている",
+        "negative": "{寝起|ねお}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{寝起|ねお}きしています",
+        "negative": "{寝起|ねお}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{寝起|ねお}きしていた",
+        "negative": "{寝起|ねお}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{寝起|ねお}きしていました",
+        "negative": "{寝起|ねお}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{寝起|ねお}きすれば",
+        "negative": "{寝起|ねお}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{寝起|ねお}きしたら",
+        "negative": "{寝起|ねお}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{寝起|ねお}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{寝起|ねお}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{寝起|ねお}きできる",
+        "negative": "{寝起|ねお}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{寝起|ねお}きされる",
+        "negative": "{寝起|ねお}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{寝起|ねお}きさせる",
+        "negative": "{寝起|ねお}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{寝起|ねお}きしろ",
+        "negative": "{寝起|ねお}きするな"
+      }
+    ]
   }
 }

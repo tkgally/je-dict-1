@@ -19,7 +19,9 @@
       "english": "He entered the venue accompanied by his subordinates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12561_shitagaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "The president attended the press conference accompanied by his secretary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12561_shitagaeru_ex3",
@@ -35,7 +39,9 @@
       "english": "A feudal lord accompanied by many retainers emerged from the castle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe transitive counterpart of {従|したが}う (to follow, to obey). While {従|したが}う describes the follower's action, {従|したが}える describes the leader's state of having followers. Often used in historical, formal, or literary contexts.\n\nGRAMMAR:\nTypically used in the pattern AがBを{従|したが}えて, where A is the leader and B is the follower(s).\n\nCOMMON COLLOCATIONS:\n- {部下|ぶか}を{従|したが}える: to have subordinates in tow\n- {家来|けらい}を{従|したが}える: to be accompanied by retainers\n- {大軍|たいぐん}を{従|したが}える: to lead a large army\n- {弟子|でし}を{従|したが}える: to have disciples in tow",
@@ -46,13 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["society-role"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "society-role"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{従|したが}える",
+        "negative": "{従|したが}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{従|したが}えます",
+        "negative": "{従|したが}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{従|したが}えた",
+        "negative": "{従|したが}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{従|したが}えました",
+        "negative": "{従|したが}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{従|したが}えて",
+        "negative": "{従|したが}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{従|したが}えている",
+        "negative": "{従|したが}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{従|したが}えています",
+        "negative": "{従|したが}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{従|したが}えていた",
+        "negative": "{従|したが}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{従|したが}えていました",
+        "negative": "{従|したが}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{従|したが}えれば",
+        "negative": "{従|したが}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{従|したが}えたら",
+        "negative": "{従|したが}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{従|したが}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{従|したが}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{従|したが}えられる",
+        "negative": "{従|したが}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{従|したが}えられる",
+        "negative": "{従|したが}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{従|したが}えさせる",
+        "negative": "{従|したが}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{従|したが}えろ",
+        "negative": "{従|したが}えるな"
+      }
+    ]
   }
 }

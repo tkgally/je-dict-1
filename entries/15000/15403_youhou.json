@@ -19,7 +19,9 @@
       "english": "I started beekeeping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15403_youhou_ex2",
@@ -27,7 +29,9 @@
       "english": "My grandfather is a beekeeper and produces honey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15403_youhou_ex3",
@@ -35,7 +39,9 @@
       "english": "More people are keeping bees on urban rooftops.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{養蜂|ようほう} is the standard term for beekeeping. It can also function as a する verb ({養蜂|ようほう}する).\n\nCOMMON COLLOCATIONS:\n- {養蜂|ようほう}{家|か} (beekeeper)\n- {養蜂|ようほう}{場|じょう} (apiary; bee farm)\n- {養蜂|ようほう}{箱|ばこ} (beehive box)\n\nWORD FORMATION:\n{養|よう} (to raise/keep) + {蜂|ほう} (bee). The same {養|よう} appears in {養殖|ようしょく} (aquaculture) and {養鶏|ようけい} (poultry farming).",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{養蜂|ようほう}する",
+        "negative": "{養蜂|ようほう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{養蜂|ようほう}します",
+        "negative": "{養蜂|ようほう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{養蜂|ようほう}した",
+        "negative": "{養蜂|ようほう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{養蜂|ようほう}しました",
+        "negative": "{養蜂|ようほう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{養蜂|ようほう}して",
+        "negative": "{養蜂|ようほう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{養蜂|ようほう}している",
+        "negative": "{養蜂|ようほう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{養蜂|ようほう}しています",
+        "negative": "{養蜂|ようほう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{養蜂|ようほう}していた",
+        "negative": "{養蜂|ようほう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{養蜂|ようほう}していました",
+        "negative": "{養蜂|ようほう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{養蜂|ようほう}すれば",
+        "negative": "{養蜂|ようほう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{養蜂|ようほう}したら",
+        "negative": "{養蜂|ようほう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{養蜂|ようほう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{養蜂|ようほう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{養蜂|ようほう}できる",
+        "negative": "{養蜂|ようほう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{養蜂|ようほう}される",
+        "negative": "{養蜂|ようほう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{養蜂|ようほう}させる",
+        "negative": "{養蜂|ようほう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{養蜂|ようほう}しろ",
+        "negative": "{養蜂|ようほう}するな"
+      }
+    ]
   }
 }

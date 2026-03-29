@@ -18,7 +18,9 @@
       "english": "A teacher adored by the children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09912_shitau_ex2",
@@ -26,7 +28,9 @@
       "english": "I shed tears longing for my late mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09912_shitau_ex3",
@@ -34,7 +38,9 @@
       "english": "The master, adored by many disciples, retired amid regret.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A somewhat literary verb expressing deep emotional attachment or admiration.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\n- 〜に{慕|した}われる (to be adored by ~)\n- 〜を{慕|した}う (to yearn for ~)\n- {故郷|ふるさと}を{慕|した}う (to long for one's hometown)\n\nUSAGE NOTE:\nOften used in the passive form {慕|した}われる to describe someone who is loved and respected. The verb conveys warm, respectful affection rather than romantic love.",
@@ -44,10 +50,106 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "affection"]
+      "semantic": [
+        "emotion",
+        "affection"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{慕|した}う",
+        "negative": "{慕|した}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{慕|した}います",
+        "negative": "{慕|した}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{慕|した}った",
+        "negative": "{慕|した}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{慕|した}いました",
+        "negative": "{慕|した}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{慕|した}って",
+        "negative": "{慕|した}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{慕|した}っている",
+        "negative": "{慕|した}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{慕|した}っています",
+        "negative": "{慕|した}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{慕|した}っていた",
+        "negative": "{慕|した}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{慕|した}っていました",
+        "negative": "{慕|した}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{慕|した}えば",
+        "negative": "{慕|した}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{慕|した}ったら",
+        "negative": "{慕|した}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{慕|した}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{慕|した}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{慕|した}える",
+        "negative": "{慕|した}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{慕|した}われる",
+        "negative": "{慕|した}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{慕|した}わせる",
+        "negative": "{慕|した}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{慕|した}え",
+        "negative": "{慕|した}うな"
+      }
+    ]
   }
 }

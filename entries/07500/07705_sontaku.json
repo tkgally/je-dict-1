@@ -17,21 +17,27 @@
       "japanese": "{上司|じょうし}の{意向|いこう}を{忖度|そんたく}する。",
       "english": "To surmise what the boss wants.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07705_sontaku_ex2",
       "japanese": "{忖度|そんたく}が{働|はたら}いたのではないか。",
       "english": "I suspect they were anticipating someone's wishes.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07705_sontaku_ex3",
       "japanese": "{忖度|そんたく}なしで{意見|いけん}を{言|い}ってください。",
       "english": "Please give your opinion without trying to guess what I want to hear.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\nFrom classical Chinese: {忖|そん} (to measure, consider) + {度|たく} (to conjecture)\n\nCULTURAL NOTE:\nThis term gained widespread attention in 2017 during Japanese political scandals, where it was used to describe how officials allegedly acted to please superiors without explicit instructions. It reflects the Japanese cultural emphasis on reading the air ({空気|くうき}を{読|よ}む) and anticipating others' wishes.\n\nNUANCE:\nCan be neutral (normal social skill) or negative (inappropriate deference or sycophancy), depending on context.\n\nRELATED:\n・{察|さっ}する - to sense, perceive\n・{空気|くうき}を{読|よ}む - to read the room\n・{推|お}し{量|はか}る - to conjecture",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["social", "communication"],
-      "domain": []
+      "semantic": [
+        "social",
+        "communication"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{忖度|そんたく}する",
+        "negative": "{忖度|そんたく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{忖度|そんたく}します",
+        "negative": "{忖度|そんたく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{忖度|そんたく}した",
+        "negative": "{忖度|そんたく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{忖度|そんたく}しました",
+        "negative": "{忖度|そんたく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{忖度|そんたく}して",
+        "negative": "{忖度|そんたく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{忖度|そんたく}している",
+        "negative": "{忖度|そんたく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{忖度|そんたく}しています",
+        "negative": "{忖度|そんたく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{忖度|そんたく}していた",
+        "negative": "{忖度|そんたく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{忖度|そんたく}していました",
+        "negative": "{忖度|そんたく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{忖度|そんたく}すれば",
+        "negative": "{忖度|そんたく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{忖度|そんたく}したら",
+        "negative": "{忖度|そんたく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{忖度|そんたく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{忖度|そんたく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{忖度|そんたく}できる",
+        "negative": "{忖度|そんたく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{忖度|そんたく}される",
+        "negative": "{忖度|そんたく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{忖度|そんたく}させる",
+        "negative": "{忖度|そんたく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{忖度|そんたく}しろ",
+        "negative": "{忖度|そんたく}するな"
+      }
+    ]
   }
 }

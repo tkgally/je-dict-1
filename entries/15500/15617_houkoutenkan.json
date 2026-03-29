@@ -24,7 +24,9 @@
       "english": "To turn around on a narrow road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15617_houkoutenkan_ex2",
@@ -32,7 +34,9 @@
       "english": "The truck changed direction at the intersection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15617_houkoutenkan_ex3",
@@ -40,7 +44,9 @@
       "english": "Large buses need a wide space to turn around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15617_houkoutenkan_ex4",
@@ -48,7 +54,9 @@
       "english": "They were forced to change policy direction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15617_houkoutenkan_ex5",
@@ -56,7 +64,9 @@
       "english": "At thirty, I decided to change the course of my life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15617_houkoutenkan_ex6",
@@ -64,7 +74,9 @@
       "english": "The company made a strategic shift and entered a new market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{方向転換|ほうこうてんかん} is used both literally (vehicles turning around) and figuratively (changing strategy, career, or policy). The figurative use is very common in business and political contexts.\n\nCOMMON COLLOCATIONS:\n- {方向転換|ほうこうてんかん}を{図|はか}る (to attempt a change of direction)\n- {方向転換|ほうこうてんかん}を{迫|せま}られる (to be forced to change course)\n- {大|おお}きな{方向転換|ほうこうてんかん} (a major change of direction)\n\nSIMILAR WORDS:\n{転換|てんかん} alone means \"conversion\" or \"shift\" in a more general sense. {路線変更|ろせんへんこう} (change of course/line) is similar but more commonly used for political or organizational policy shifts.",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{方向転換|ほうこうてんかん}する",
+        "negative": "{方向転換|ほうこうてんかん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{方向転換|ほうこうてんかん}します",
+        "negative": "{方向転換|ほうこうてんかん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{方向転換|ほうこうてんかん}した",
+        "negative": "{方向転換|ほうこうてんかん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{方向転換|ほうこうてんかん}しました",
+        "negative": "{方向転換|ほうこうてんかん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{方向転換|ほうこうてんかん}して",
+        "negative": "{方向転換|ほうこうてんかん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{方向転換|ほうこうてんかん}している",
+        "negative": "{方向転換|ほうこうてんかん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{方向転換|ほうこうてんかん}しています",
+        "negative": "{方向転換|ほうこうてんかん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{方向転換|ほうこうてんかん}していた",
+        "negative": "{方向転換|ほうこうてんかん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{方向転換|ほうこうてんかん}していました",
+        "negative": "{方向転換|ほうこうてんかん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{方向転換|ほうこうてんかん}すれば",
+        "negative": "{方向転換|ほうこうてんかん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{方向転換|ほうこうてんかん}したら",
+        "negative": "{方向転換|ほうこうてんかん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{方向転換|ほうこうてんかん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{方向転換|ほうこうてんかん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{方向転換|ほうこうてんかん}できる",
+        "negative": "{方向転換|ほうこうてんかん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{方向転換|ほうこうてんかん}される",
+        "negative": "{方向転換|ほうこうてんかん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{方向転換|ほうこうてんかん}させる",
+        "negative": "{方向転換|ほうこうてんかん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{方向転換|ほうこうてんかん}しろ",
+        "negative": "{方向転換|ほうこうてんかん}するな"
+      }
+    ]
   }
 }

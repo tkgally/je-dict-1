@@ -19,7 +19,9 @@
       "english": "I handed over the documents in person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15628_tewatashi_ex2",
@@ -27,7 +29,9 @@
       "english": "Since it's something important, I want to deliver it by hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15628_tewatashi_ex3",
@@ -35,7 +39,9 @@
       "english": "The salary was paid by hand rather than by bank transfer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{手渡|てわた}し functions both as a noun and as the stem of the verb {手渡|てわた}しする (to hand over directly). It emphasizes the directness and personal nature of the delivery.\n\nCOMMON COLLOCATIONS:\n- {手渡|てわた}しで{渡|わた}す (to pass by hand)\n- {手渡|てわた}しで{届|とど}ける (to deliver in person)\n- {手渡|てわた}しする (to hand over directly)\n- {給料|きゅうりょう}の{手渡|てわた}し (hand delivery of salary)\n\nSIMILAR WORDS:\n- {直接|ちょくせつ}{渡|わた}す: to hand over directly (phrase)\n- {配達|はいたつ}: delivery (by courier or mail)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{手渡|てわた}しする",
+        "negative": "{手渡|てわた}ししない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{手渡|てわた}しします",
+        "negative": "{手渡|てわた}ししません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{手渡|てわた}しした",
+        "negative": "{手渡|てわた}ししなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{手渡|てわた}ししました",
+        "negative": "{手渡|てわた}ししませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{手渡|てわた}しして",
+        "negative": "{手渡|てわた}ししなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{手渡|てわた}ししている",
+        "negative": "{手渡|てわた}ししていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{手渡|てわた}ししています",
+        "negative": "{手渡|てわた}ししていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{手渡|てわた}ししていた",
+        "negative": "{手渡|てわた}ししていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{手渡|てわた}ししていました",
+        "negative": "{手渡|てわた}ししていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{手渡|てわた}しすれば",
+        "negative": "{手渡|てわた}ししなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{手渡|てわた}ししたら",
+        "negative": "{手渡|てわた}ししなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{手渡|てわた}ししよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{手渡|てわた}ししましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{手渡|てわた}しできる",
+        "negative": "{手渡|てわた}しできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{手渡|てわた}しされる",
+        "negative": "{手渡|てわた}しされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{手渡|てわた}しさせる",
+        "negative": "{手渡|てわた}しさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{手渡|てわた}ししろ",
+        "negative": "{手渡|てわた}しするな"
+      }
+    ]
   }
 }

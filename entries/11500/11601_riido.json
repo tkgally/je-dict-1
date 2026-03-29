@@ -24,7 +24,9 @@
       "english": "We're leading by 3 points.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11601_riido_ex2",
@@ -32,7 +34,9 @@
       "english": "To lead the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11601_riido_ex3",
@@ -40,7 +44,9 @@
       "english": "We were trailing the other team in the first half, but made a comeback in the second half.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11601_riido_ex4",
@@ -48,7 +54,9 @@
       "english": "To put on a leash.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11601_riido_ex5",
@@ -56,7 +64,9 @@
       "english": "To hold the dog's leash.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11601_riido_ex6",
@@ -64,7 +74,9 @@
       "english": "Please keep your dog on a leash in the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nリードする as a verb is common in sports (leading in score) and business (leading a project/team). The leash meaning is a separate loanword but pronounced the same way.\n\nCOMMON COLLOCATIONS:\n- リードする: to lead, to be ahead\n- リードを{広|ひろ}げる: to extend the lead\n- リードを{守|まも}る: to protect the lead\n- リードを{奪|うば}う: to take the lead\n- リードをつける: to put on a leash\n- {伸縮|しんしゅく}リード: retractable leash",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "リードする",
+        "negative": "リードしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "リードします",
+        "negative": "リードしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "リードした",
+        "negative": "リードしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "リードしました",
+        "negative": "リードしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "リードして",
+        "negative": "リードしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "リードしている",
+        "negative": "リードしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "リードしています",
+        "negative": "リードしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "リードしていた",
+        "negative": "リードしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "リードしていました",
+        "negative": "リードしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "リードすれば",
+        "negative": "リードしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "リードしたら",
+        "negative": "リードしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "リードしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "リードしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "リードできる",
+        "negative": "リードできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "リードされる",
+        "negative": "リードされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "リードさせる",
+        "negative": "リードさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "リードしろ",
+        "negative": "リードするな"
+      }
+    ]
   }
 }

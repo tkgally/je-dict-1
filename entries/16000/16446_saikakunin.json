@@ -19,7 +19,9 @@
       "english": "To reconfirm a reservation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16446_saikakunin_ex2",
@@ -27,7 +29,9 @@
       "english": "I double-checked my belongings before departure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16446_saikakunin_ex3",
@@ -35,7 +39,9 @@
       "english": "We need to reconfirm the importance of safety measures once more.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound noun: {再|さい} (again) + {確認|かくにん} (confirmation). Used when verifying something a second time because accuracy or safety matters.\n\nCOMMON COLLOCATIONS:\n- {再確認|さいかくにん}する: to reconfirm, to double-check\n- {予約|よやく}の{再確認|さいかくにん}: reconfirmation of a reservation\n- {事実|じじつ}を{再確認|さいかくにん}する: to reconfirm the facts\n- {安全|あんぜん}を{再確認|さいかくにん}する: to double-check safety\n\nUSAGE:\nOften used in business, travel, and safety contexts where errors could cause problems. Unlike simple {確認|かくにん}, {再確認|さいかくにん} implies that the information was checked before and is being verified again for certainty.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{再確認|さいかくにん}する",
+        "negative": "{再確認|さいかくにん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{再確認|さいかくにん}します",
+        "negative": "{再確認|さいかくにん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{再確認|さいかくにん}した",
+        "negative": "{再確認|さいかくにん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{再確認|さいかくにん}しました",
+        "negative": "{再確認|さいかくにん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{再確認|さいかくにん}して",
+        "negative": "{再確認|さいかくにん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{再確認|さいかくにん}している",
+        "negative": "{再確認|さいかくにん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{再確認|さいかくにん}しています",
+        "negative": "{再確認|さいかくにん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{再確認|さいかくにん}していた",
+        "negative": "{再確認|さいかくにん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{再確認|さいかくにん}していました",
+        "negative": "{再確認|さいかくにん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{再確認|さいかくにん}すれば",
+        "negative": "{再確認|さいかくにん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{再確認|さいかくにん}したら",
+        "negative": "{再確認|さいかくにん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{再確認|さいかくにん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{再確認|さいかくにん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{再確認|さいかくにん}できる",
+        "negative": "{再確認|さいかくにん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{再確認|さいかくにん}される",
+        "negative": "{再確認|さいかくにん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{再確認|さいかくにん}させる",
+        "negative": "{再確認|さいかくにん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{再確認|さいかくにん}しろ",
+        "negative": "{再確認|さいかくにん}するな"
+      }
+    ]
   }
 }

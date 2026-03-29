@@ -19,7 +19,9 @@
       "english": "We sustained major damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18070_koumuru_ex2",
@@ -27,7 +29,9 @@
       "english": "We suffered enormous losses from the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18070_koumuru_ex3",
@@ -35,7 +39,9 @@
       "english": "The company ended up suffering a loss of credibility due to fraud.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, somewhat literary verb. More common in news, legal texts, and official reports than in everyday conversation. The object is always something negative: damage, loss, harm, inconvenience.\n\nSIMILAR WORDS:\n- {受|う}ける: to receive (more general, can be positive or negative)\n- {食|く}らう: to suffer, to be hit with (informal/colloquial)\n\nNOTE ON KANJI:\nThe kanji {被|こうむ}る is the same as in {被|かぶ}る (to wear on the head), but the reading こうむる has a completely different meaning.\n\nCOMMON COLLOCATIONS:\n- {被害|ひがい}を{被|こうむ}る: to sustain damage\n- {損害|そんがい}を{被|こうむ}る: to incur losses\n- {損失|そんしつ}を{被|こうむ}る: to suffer a loss\n- {迷惑|めいわく}を{被|こうむ}る: to suffer inconvenience\n- {不利益|ふりえき}を{被|こうむ}る: to suffer a disadvantage",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "transitive",
-      "style": ["written"]
+      "style": [
+        "written"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{被|こうむ}る",
+        "negative": "{被|こうむ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{被|こうむ}ります",
+        "negative": "{被|こうむ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{被|こうむ}った",
+        "negative": "{被|こうむ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{被|こうむ}りました",
+        "negative": "{被|こうむ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{被|こうむ}って",
+        "negative": "{被|こうむ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{被|こうむ}っている",
+        "negative": "{被|こうむ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{被|こうむ}っています",
+        "negative": "{被|こうむ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{被|こうむ}っていた",
+        "negative": "{被|こうむ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{被|こうむ}っていました",
+        "negative": "{被|こうむ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{被|こうむ}れば",
+        "negative": "{被|こうむ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{被|こうむ}ったら",
+        "negative": "{被|こうむ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{被|こうむ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{被|こうむ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{被|こうむ}れる",
+        "negative": "{被|こうむ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{被|こうむ}られる",
+        "negative": "{被|こうむ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{被|こうむ}らせる",
+        "negative": "{被|こうむ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{被|こうむ}れ",
+        "negative": "{被|こうむ}るな"
+      }
+    ]
   }
 }

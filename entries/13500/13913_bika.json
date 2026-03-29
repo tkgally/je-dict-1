@@ -24,7 +24,9 @@
       "english": "Participate in a town beautification activity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13913_bika_ex2",
@@ -32,7 +34,9 @@
       "english": "Volunteers gathered to beautify the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13913_bika_ex3",
@@ -40,7 +44,9 @@
       "english": "Thanks to the beautification campaign around the station, the amount of trash has decreased significantly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13913_bika_ex4",
@@ -48,7 +54,9 @@
       "english": "You shouldn't glorify the past.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13913_bika_ex5",
@@ -56,7 +64,9 @@
       "english": "Films that glorify violence draw a lot of criticism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13913_bika_ex6",
@@ -64,7 +74,9 @@
       "english": "There are quite a few people who romanticize their experiences when telling stories.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE NOTE:\nSense 1 (beautification) is concrete and neutral in tone, while sense 2 (glorification) is abstract and often carries a negative or critical nuance. Context usually makes the intended meaning clear.\n\nCOMMON COLLOCATIONS:\n- {美化|びか}{活動|かつどう} (beautification activity)\n- {美化|びか}{運動|うんどう} (beautification campaign)\n- {過去|かこ}を{美化|びか}する (glorify the past)\n- {暴力|ぼうりょく}を{美化|びか}する (glorify violence)\n- {自分|じぶん}を{美化|びか}する (idealize oneself)",
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{美化|びか}する",
+        "negative": "{美化|びか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{美化|びか}します",
+        "negative": "{美化|びか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{美化|びか}した",
+        "negative": "{美化|びか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{美化|びか}しました",
+        "negative": "{美化|びか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{美化|びか}して",
+        "negative": "{美化|びか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{美化|びか}している",
+        "negative": "{美化|びか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{美化|びか}しています",
+        "negative": "{美化|びか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{美化|びか}していた",
+        "negative": "{美化|びか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{美化|びか}していました",
+        "negative": "{美化|びか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{美化|びか}すれば",
+        "negative": "{美化|びか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{美化|びか}したら",
+        "negative": "{美化|びか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{美化|びか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{美化|びか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{美化|びか}できる",
+        "negative": "{美化|びか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{美化|びか}される",
+        "negative": "{美化|びか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{美化|びか}させる",
+        "negative": "{美化|びか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{美化|びか}しろ",
+        "negative": "{美化|びか}するな"
+      }
+    ]
   }
 }

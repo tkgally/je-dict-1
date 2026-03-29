@@ -19,7 +19,9 @@
       "english": "Let's get through this crisis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11410_norikiru_ex2",
@@ -27,7 +29,9 @@
       "english": "We somehow got through the harsh winter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11410_norikiru_ex3",
@@ -35,7 +39,9 @@
       "english": "By cooperating as a whole team, we were able to get through the difficult period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION: {乗|の}り{切|き}る is a godan verb. Te-form: {乗|の}り{切|き}って. Potential: {乗|の}り{切|き}れる.\n\nCOMMON COLLOCATIONS:\n- {危機|きき}を{乗|の}り{切|き}る (to overcome a crisis)\n- {困難|こんなん}を{乗|の}り{切|き}る (to get through difficulties)\n- {夏|なつ}を{乗|の}り{切|き}る (to survive the summer)\n- {不況|ふきょう}を{乗|の}り{切|き}る (to weather a recession)\n\nThis is a compound verb formed from {乗|の}る (to ride) + {切|き}る (to complete). The {切|き}る component adds the nuance of \"completely\" or \"all the way through.\"",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ru",
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{乗|の}り{切|き}る",
+        "negative": "{乗|の}り{切|き}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{乗|の}り{切|き}ります",
+        "negative": "{乗|の}り{切|き}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{乗|の}り{切|き}った",
+        "negative": "{乗|の}り{切|き}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{乗|の}り{切|き}りました",
+        "negative": "{乗|の}り{切|き}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{乗|の}り{切|き}って",
+        "negative": "{乗|の}り{切|き}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{乗|の}り{切|き}っている",
+        "negative": "{乗|の}り{切|き}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{乗|の}り{切|き}っています",
+        "negative": "{乗|の}り{切|き}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{乗|の}り{切|き}っていた",
+        "negative": "{乗|の}り{切|き}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{乗|の}り{切|き}っていました",
+        "negative": "{乗|の}り{切|き}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{乗|の}り{切|き}れば",
+        "negative": "{乗|の}り{切|き}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{乗|の}り{切|き}ったら",
+        "negative": "{乗|の}り{切|き}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{乗|の}り{切|き}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{乗|の}り{切|き}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{乗|の}り{切|き}れる",
+        "negative": "{乗|の}り{切|き}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{乗|の}り{切|き}られる",
+        "negative": "{乗|の}り{切|き}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{乗|の}り{切|き}らせる",
+        "negative": "{乗|の}り{切|き}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{乗|の}り{切|き}れ",
+        "negative": "{乗|の}り{切|き}るな"
+      }
+    ]
   }
 }

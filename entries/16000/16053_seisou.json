@@ -19,7 +19,9 @@
       "english": "Please attend in formal dress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16053_seisou_ex2",
@@ -27,7 +29,9 @@
       "english": "Formal attire is required for weddings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16053_seisou_ex3",
@@ -35,7 +39,9 @@
       "english": "I changed into formal attire and headed to the venue for the award ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{正装|せいそう} can also be used as a suru verb ({正装|せいそう}する = to dress formally). It covers both Western formal wear (suits, tuxedos, evening gowns) and Japanese formal wear ({和装|わそう} such as {紋付袴|もんつきはかま}).\n\nCOMMON COLLOCATIONS:\n- {正装|せいそう}で{出席|しゅっせき}する (to attend in formal dress)\n- {正装|せいそう}が{必要|ひつよう} (formal dress is required)\n- {正装|せいそう}に{着替|きが}える (to change into formal attire)\n\nSIMILAR WORDS:\n{礼服|れいふく} refers specifically to the garments themselves (formal clothing), while {正装|せいそう} refers more broadly to the act or state of being formally dressed. {盛装|せいそう} means to dress up elaborately, which may go beyond what is strictly formal.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{正装|せいそう}する",
+        "negative": "{正装|せいそう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{正装|せいそう}します",
+        "negative": "{正装|せいそう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{正装|せいそう}した",
+        "negative": "{正装|せいそう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{正装|せいそう}しました",
+        "negative": "{正装|せいそう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{正装|せいそう}して",
+        "negative": "{正装|せいそう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{正装|せいそう}している",
+        "negative": "{正装|せいそう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{正装|せいそう}しています",
+        "negative": "{正装|せいそう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{正装|せいそう}していた",
+        "negative": "{正装|せいそう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{正装|せいそう}していました",
+        "negative": "{正装|せいそう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{正装|せいそう}すれば",
+        "negative": "{正装|せいそう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{正装|せいそう}したら",
+        "negative": "{正装|せいそう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{正装|せいそう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{正装|せいそう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{正装|せいそう}できる",
+        "negative": "{正装|せいそう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{正装|せいそう}される",
+        "negative": "{正装|せいそう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{正装|せいそう}させる",
+        "negative": "{正装|せいそう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{正装|せいそう}しろ",
+        "negative": "{正装|せいそう}するな"
+      }
+    ]
   }
 }

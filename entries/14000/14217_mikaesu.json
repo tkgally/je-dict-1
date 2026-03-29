@@ -24,7 +24,9 @@
       "english": "She turned around and looked back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14217_mikaesu_ex2",
@@ -32,7 +34,9 @@
       "english": "I looked over my notes again and noticed a mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14217_mikaesu_ex3",
@@ -40,7 +44,9 @@
       "english": "Looking back at old photos makes me feel nostalgic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14217_mikaesu_ex4",
@@ -48,7 +54,9 @@
       "english": "I'll show them someday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14217_mikaesu_ex5",
@@ -56,7 +64,9 @@
       "english": "I want to prove wrong the people who made fun of me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14217_mikaesu_ex6",
@@ -64,7 +74,9 @@
       "english": "I worked hard, succeeded, and proved everyone wrong.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 2 (to get even / prove someone wrong) is very common in motivational contexts. The pattern 〜を{見返|みかえ}してやる expresses determination to succeed and vindicate oneself. The てやる ending adds a combative or defiant tone.\n\nCOMMON COLLOCATIONS:\n- {見返|みかえ}してやる: I'll show them (determined)\n- {周|まわ}りを{見返|みかえ}す: to prove everyone around you wrong\n- メモを{見返|みかえ}す: to review one's notes\n- {過去|かこ}を{見返|みかえ}す: to look back on the past\n- {写真|しゃしん}を{見返|みかえ}す: to look back through photos",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見返|みかえ}す",
+        "negative": "{見返|みかえ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見返|みかえ}します",
+        "negative": "{見返|みかえ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見返|みかえ}した",
+        "negative": "{見返|みかえ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見返|みかえ}しました",
+        "negative": "{見返|みかえ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見返|みかえ}して",
+        "negative": "{見返|みかえ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見返|みかえ}している",
+        "negative": "{見返|みかえ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見返|みかえ}しています",
+        "negative": "{見返|みかえ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見返|みかえ}していた",
+        "negative": "{見返|みかえ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見返|みかえ}していました",
+        "negative": "{見返|みかえ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見返|みかえ}せば",
+        "negative": "{見返|みかえ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見返|みかえ}したら",
+        "negative": "{見返|みかえ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見返|みかえ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見返|みかえ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見返|みかえ}せる",
+        "negative": "{見返|みかえ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見返|みかえ}される",
+        "negative": "{見返|みかえ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見返|みかえ}させる",
+        "negative": "{見返|みかえ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見返|みかえ}せ",
+        "negative": "{見返|みかえ}すな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "You can't trust the opinion of a self-proclaimed expert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13937_jishou_ex2",
@@ -27,7 +29,9 @@
       "english": "He calls himself an artist, but I've never seen his work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13937_jishou_ex3",
@@ -35,7 +39,9 @@
       "english": "The suspect claims to be a company employee, but his actual occupation is being verified.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTE:\nAlmost always carries a skeptical tone. When news reports use {自称|じしょう}, it signals that the claim has not been verified — for example, {自称|じしょう}{会社員|かいしゃいん} in a crime report means the suspect says they are an office worker but this hasn't been confirmed. In casual use, it's often ironic or humorous.\n\nCOMMON PATTERNS:\n- {自称|じしょう} + noun (self-proclaimed ~): {自称|じしょう}{専門家|せんもんか}, {自称|じしょう}プロ, {自称|じしょう}{天才|てんさい}\n- ～と{自称|じしょう}する (claim to be ~)\n\nLINGUISTIC NOTE:\nIn grammar, {自称|じしょう} also means \"first person\" (as in first-person pronouns), though this technical usage is rare outside linguistics.",
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自称|じしょう}する",
+        "negative": "{自称|じしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自称|じしょう}します",
+        "negative": "{自称|じしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自称|じしょう}した",
+        "negative": "{自称|じしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自称|じしょう}しました",
+        "negative": "{自称|じしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自称|じしょう}して",
+        "negative": "{自称|じしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自称|じしょう}している",
+        "negative": "{自称|じしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自称|じしょう}しています",
+        "negative": "{自称|じしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自称|じしょう}していた",
+        "negative": "{自称|じしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自称|じしょう}していました",
+        "negative": "{自称|じしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自称|じしょう}すれば",
+        "negative": "{自称|じしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自称|じしょう}したら",
+        "negative": "{自称|じしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自称|じしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自称|じしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自称|じしょう}できる",
+        "negative": "{自称|じしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自称|じしょう}される",
+        "negative": "{自称|じしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自称|じしょう}させる",
+        "negative": "{自称|じしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自称|じしょう}しろ",
+        "negative": "{自称|じしょう}するな"
+      }
+    ]
   }
 }

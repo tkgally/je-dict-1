@@ -19,7 +19,9 @@
       "english": "To check out books at the library.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14307_kashidasu_ex2",
@@ -27,7 +29,9 @@
       "english": "This equipment can be lent out externally.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14307_kashidasu_ex3",
@@ -35,7 +39,9 @@
       "english": "The city lends out gymnasiums as evacuation shelters during disasters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{貸|か}し{出|だ}す is a transitive godan verb. It adds a nuance of sending something out to {貸|か}す (to lend), emphasizing that the item leaves the owner's possession.\n\nASPECT (ている):\n{貸|か}し{出|だ}している indicates an ongoing state where something is currently lent out.\n\nPARTICLE PATTERNS:\n- AをBに{貸|か}し{出|だ}す (lend A to B)\n\nCOMMON COLLOCATIONS:\n- {本|ほん}を{貸|か}し{出|だ}す (check out books)\n- {機材|きざい}を{貸|か}し{出|だ}す (lend out equipment)\n- {無料|むりょう}で{貸|か}し{出|だ}す (lend out for free)\n\nThe noun form {貸|か}し{出|だ}し refers to the lending/checkout process itself, as in {貸|か}し{出|だ}し{期間|きかん} (lending period).",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{貸|か}し{出|だ}す",
+        "negative": "{貸|か}し{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{貸|か}し{出|だ}します",
+        "negative": "{貸|か}し{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{貸|か}し{出|だ}した",
+        "negative": "{貸|か}し{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{貸|か}し{出|だ}しました",
+        "negative": "{貸|か}し{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{貸|か}し{出|だ}して",
+        "negative": "{貸|か}し{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{貸|か}し{出|だ}している",
+        "negative": "{貸|か}し{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{貸|か}し{出|だ}しています",
+        "negative": "{貸|か}し{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{貸|か}し{出|だ}していた",
+        "negative": "{貸|か}し{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{貸|か}し{出|だ}していました",
+        "negative": "{貸|か}し{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{貸|か}し{出|だ}せば",
+        "negative": "{貸|か}し{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{貸|か}し{出|だ}したら",
+        "negative": "{貸|か}し{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{貸|か}し{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{貸|か}し{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{貸|か}し{出|だ}せる",
+        "negative": "{貸|か}し{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{貸|か}し{出|だ}される",
+        "negative": "{貸|か}し{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{貸|か}し{出|だ}させる",
+        "negative": "{貸|か}し{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{貸|か}し{出|だ}せ",
+        "negative": "{貸|か}し{出|だ}すな"
+      }
+    ]
   }
 }

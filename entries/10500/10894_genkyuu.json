@@ -19,7 +19,9 @@
       "english": "I didn't mention that matter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10894_genkyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister made reference to the possibility of resignation at the press conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10894_genkyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The report also makes reference to environmental issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{言|げん} (say, words) + {及|きゅう} (reach, extend to) = to extend one's words to (a topic).\n\nGRAMMAR:\nPattern: 〜に{言及|げんきゅう}する (to make reference to ~). The topic being mentioned is marked with に.\n\nCOMMON COLLOCATIONS:\n- 〜に{言及|げんきゅう}する: to refer to, to mention\n- {言及|げんきゅう}を{避|さ}ける: to avoid mentioning\n- {具体的|ぐたいてき}に{言及|げんきゅう}する: to refer to specifically\n- {一切|いっさい}{言及|げんきゅう}しない: to make no mention whatsoever\n\nUSAGE NOTE:\n{言及|げんきゅう} is formal and commonly found in news, academic, and official contexts. In everyday speech, {触|ふ}れる (to touch upon) or {話|はな}す (to talk about) are more natural.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["communication"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{言及|げんきゅう}する",
+        "negative": "{言及|げんきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{言及|げんきゅう}します",
+        "negative": "{言及|げんきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{言及|げんきゅう}した",
+        "negative": "{言及|げんきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{言及|げんきゅう}しました",
+        "negative": "{言及|げんきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{言及|げんきゅう}して",
+        "negative": "{言及|げんきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{言及|げんきゅう}している",
+        "negative": "{言及|げんきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{言及|げんきゅう}しています",
+        "negative": "{言及|げんきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{言及|げんきゅう}していた",
+        "negative": "{言及|げんきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{言及|げんきゅう}していました",
+        "negative": "{言及|げんきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{言及|げんきゅう}すれば",
+        "negative": "{言及|げんきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{言及|げんきゅう}したら",
+        "negative": "{言及|げんきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{言及|げんきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{言及|げんきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{言及|げんきゅう}できる",
+        "negative": "{言及|げんきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{言及|げんきゅう}される",
+        "negative": "{言及|げんきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{言及|げんきゅう}させる",
+        "negative": "{言及|げんきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{言及|げんきゅう}しろ",
+        "negative": "{言及|げんきゅう}するな"
+      }
+    ]
   }
 }

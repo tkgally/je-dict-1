@@ -19,7 +19,9 @@
       "english": "To rescue the hostages.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12918_kyuushutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The fire brigade rescued residents from the fire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12918_kyuushutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "A survivor was rescued from under a collapsed building 72 hours after the earthquake struck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Often appears in news reports about disasters, accidents, and hostage situations. The word emphasizes actively extracting someone from danger, as opposed to simply helping or assisting. The subject performing the rescue is typically a professional team (fire brigade, military, police, etc.).\n\nCOMMON COLLOCATIONS:\n- {救出|きゅうしゅつ}する: to rescue\n- {救出|きゅうしゅつ}{作戦|さくせん}: rescue operation\n- {救出|きゅうしゅつ}{活動|かつどう}: rescue activities\n- {救出|きゅうしゅつ}{劇|げき}: dramatic rescue\n\nSIMILAR WORDS:\n- {救助|きゅうじょ}: rescue, relief (broader; includes search-and-rescue)\n- {救済|きゅうさい}: relief, salvation (abstract; financial or spiritual relief)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{救出|きゅうしゅつ}する",
+        "negative": "{救出|きゅうしゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{救出|きゅうしゅつ}します",
+        "negative": "{救出|きゅうしゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{救出|きゅうしゅつ}した",
+        "negative": "{救出|きゅうしゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{救出|きゅうしゅつ}しました",
+        "negative": "{救出|きゅうしゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{救出|きゅうしゅつ}して",
+        "negative": "{救出|きゅうしゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{救出|きゅうしゅつ}している",
+        "negative": "{救出|きゅうしゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{救出|きゅうしゅつ}しています",
+        "negative": "{救出|きゅうしゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{救出|きゅうしゅつ}していた",
+        "negative": "{救出|きゅうしゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{救出|きゅうしゅつ}していました",
+        "negative": "{救出|きゅうしゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{救出|きゅうしゅつ}すれば",
+        "negative": "{救出|きゅうしゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{救出|きゅうしゅつ}したら",
+        "negative": "{救出|きゅうしゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{救出|きゅうしゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{救出|きゅうしゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{救出|きゅうしゅつ}できる",
+        "negative": "{救出|きゅうしゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{救出|きゅうしゅつ}される",
+        "negative": "{救出|きゅうしゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{救出|きゅうしゅつ}させる",
+        "negative": "{救出|きゅうしゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{救出|きゅうしゅつ}しろ",
+        "negative": "{救出|きゅうしゅつ}するな"
+      }
+    ]
   }
 }

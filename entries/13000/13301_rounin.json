@@ -24,7 +24,9 @@
       "english": "The Ako ronin are famous masterless samurai.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13301_rounin_ex2",
@@ -32,7 +34,9 @@
       "english": "During the Edo period, many ronin wandered through castle towns.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13301_rounin_ex3",
@@ -40,7 +44,9 @@
       "english": "I failed the exam for my school of choice and became a ronin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13301_rounin_ex4",
@@ -48,7 +54,9 @@
       "english": "After studying for a year as a ronin, I passed the exam for my first-choice university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13301_rounin_ex5",
@@ -56,7 +64,9 @@
       "english": "Life as a ronin was mentally tough, but it turned out to be a good experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13301_rounin_ex6",
@@ -64,7 +74,9 @@
       "english": "During my ronin year, I attend a prep school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CULTURE:\nIn modern Japan, {浪人|ろうにん} most commonly refers to students who did not gain admission to their desired university and are spending an extra year (or more) studying to retake entrance exams. These students often attend {予備校|よびこう} (cram schools). The term carries no strong stigma, as retaking exams is relatively common. Students who take one extra year are called {一浪|いちろう}, two years {二浪|にろう}, and so on.\n\nThe historical meaning of a masterless samurai is well known through stories like the {忠臣蔵|ちゅうしんぐら} (tale of the 47 ronin).\n\nCOMMON COLLOCATIONS:\n- {浪人|ろうにん}する: to become a ronin (spend a gap year)\n- {浪人|ろうにん}{生|せい}: a ronin student\n- {浪人|ろうにん}{生活|せいかつ}: life as a ronin student\n- {一浪|いちろう}: one year as a ronin\n- {浪人|ろうにん}{中|ちゅう}: during one's ronin period",
@@ -75,10 +87,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "education", "culture"]
+      "semantic": [
+        "person",
+        "education",
+        "culture"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{浪人|ろうにん}する",
+        "negative": "{浪人|ろうにん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{浪人|ろうにん}します",
+        "negative": "{浪人|ろうにん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{浪人|ろうにん}した",
+        "negative": "{浪人|ろうにん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{浪人|ろうにん}しました",
+        "negative": "{浪人|ろうにん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{浪人|ろうにん}して",
+        "negative": "{浪人|ろうにん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{浪人|ろうにん}している",
+        "negative": "{浪人|ろうにん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{浪人|ろうにん}しています",
+        "negative": "{浪人|ろうにん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{浪人|ろうにん}していた",
+        "negative": "{浪人|ろうにん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{浪人|ろうにん}していました",
+        "negative": "{浪人|ろうにん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{浪人|ろうにん}すれば",
+        "negative": "{浪人|ろうにん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{浪人|ろうにん}したら",
+        "negative": "{浪人|ろうにん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{浪人|ろうにん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{浪人|ろうにん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{浪人|ろうにん}できる",
+        "negative": "{浪人|ろうにん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{浪人|ろうにん}される",
+        "negative": "{浪人|ろうにん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{浪人|ろうにん}させる",
+        "negative": "{浪人|ろうにん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{浪人|ろうにん}しろ",
+        "negative": "{浪人|ろうにん}するな"
+      }
+    ]
   }
 }

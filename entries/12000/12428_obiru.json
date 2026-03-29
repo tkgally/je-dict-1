@@ -24,7 +24,9 @@
       "english": "To wear a sword.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12428_obiru_ex2",
@@ -32,7 +34,9 @@
       "english": "Samurai always wore swords.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12428_obiru_ex3",
@@ -40,7 +44,9 @@
       "english": "The security guard was carrying a radio while making rounds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12428_obiru_ex4",
@@ -48,7 +54,9 @@
       "english": "The sky began to take on a reddish tinge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12428_obiru_ex5",
@@ -56,7 +64,9 @@
       "english": "His voice carried anger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12428_obiru_ex6",
@@ -64,7 +74,9 @@
       "english": "The discussion gradually grew heated, and the participants' expressions became increasingly serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb: {帯|お}びない / {帯|お}びます / {帯|お}びる / {帯|お}びれば / {帯|お}びた.\n\nUSAGE:\nSense 1 (wear/carry) is more literary and often appears in historical or formal contexts. Sense 2 (be tinged with) is more commonly used in everyday Japanese, describing how something takes on a quality — a color, an emotion, heat, or other abstract characteristic. Common patterns include ～を{帯|お}びる and ～を{帯|お}びた + noun.\n\nCOMMON COLLOCATIONS:\n- {熱|ねつ}を{帯|お}びる: to become heated, to intensify\n- {赤|あか}みを{帯|お}びる: to take on a reddish tinge\n- {丸|まる}みを{帯|お}びる: to become rounded\n- {現実味|げんじつみ}を{帯|お}びる: to take on a sense of reality\n- {緊張感|きんちょうかん}を{帯|お}びる: to take on a sense of tension",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"],
-      "transitivity": "transitive"
+      "semantic": [
+        "abstract"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{帯|お}びる",
+        "negative": "{帯|お}びない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{帯|お}びます",
+        "negative": "{帯|お}びません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{帯|お}びた",
+        "negative": "{帯|お}びなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{帯|お}びました",
+        "negative": "{帯|お}びませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{帯|お}びて",
+        "negative": "{帯|お}びなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{帯|お}びている",
+        "negative": "{帯|お}びていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{帯|お}びています",
+        "negative": "{帯|お}びていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{帯|お}びていた",
+        "negative": "{帯|お}びていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{帯|お}びていました",
+        "negative": "{帯|お}びていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{帯|お}びれば",
+        "negative": "{帯|お}びなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{帯|お}びたら",
+        "negative": "{帯|お}びなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{帯|お}びよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{帯|お}びましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{帯|お}びられる",
+        "negative": "{帯|お}びられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{帯|お}びられる",
+        "negative": "{帯|お}びられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{帯|お}びさせる",
+        "negative": "{帯|お}びさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{帯|お}びろ",
+        "negative": "{帯|お}びるな"
+      }
+    ]
   }
 }

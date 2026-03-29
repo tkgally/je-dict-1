@@ -19,7 +19,9 @@
       "english": "To assign a value to a variable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17080_dainyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "If you substitute 3 for x, the answer is 10.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17080_dainyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "This assignment operator stores the value on the right side into the variable on the left side.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in both mathematics and programming. In math, it means plugging a value into an equation. In programming, it means assigning a value to a variable using operators like = or :=.\n\nCOMMON COLLOCATIONS:\n- {代入|だいにゅう}する (to substitute; to assign)\n- {代入|だいにゅう}{演算子|えんざんし} (assignment operator)\n- {値|あたい}を{代入|だいにゅう}する (to assign a value)\n- {代入|だいにゅう}{式|しき} (assignment expression)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{代入|だいにゅう}する",
+        "negative": "{代入|だいにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{代入|だいにゅう}します",
+        "negative": "{代入|だいにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{代入|だいにゅう}した",
+        "negative": "{代入|だいにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{代入|だいにゅう}しました",
+        "negative": "{代入|だいにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{代入|だいにゅう}して",
+        "negative": "{代入|だいにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{代入|だいにゅう}している",
+        "negative": "{代入|だいにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{代入|だいにゅう}しています",
+        "negative": "{代入|だいにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{代入|だいにゅう}していた",
+        "negative": "{代入|だいにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{代入|だいにゅう}していました",
+        "negative": "{代入|だいにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{代入|だいにゅう}すれば",
+        "negative": "{代入|だいにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{代入|だいにゅう}したら",
+        "negative": "{代入|だいにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{代入|だいにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{代入|だいにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{代入|だいにゅう}できる",
+        "negative": "{代入|だいにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{代入|だいにゅう}される",
+        "negative": "{代入|だいにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{代入|だいにゅう}させる",
+        "negative": "{代入|だいにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{代入|だいにゅう}しろ",
+        "negative": "{代入|だいにゅう}するな"
+      }
+    ]
   }
 }

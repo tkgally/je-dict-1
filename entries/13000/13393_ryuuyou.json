@@ -24,7 +24,9 @@
       "english": "Public funds were misappropriated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13393_ryuuyou_ex2",
@@ -32,7 +34,9 @@
       "english": "The diversion of budget funds was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13393_ryuuyou_ex3",
@@ -40,7 +44,9 @@
       "english": "The professor who misappropriated research funds was disciplined.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13393_ryuuyou_ex4",
@@ -48,7 +54,9 @@
       "english": "To reuse old parts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13393_ryuuyou_ex5",
@@ -56,7 +64,9 @@
       "english": "I made it by repurposing the previous proposal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13393_ryuuyou_ex6",
@@ -64,7 +74,9 @@
       "english": "By reusing code from another project, we shortened the development time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (misappropriation) carries a negative connotation and appears in news and legal contexts. Sense 2 (repurposing) is neutral and common in business and engineering.\n\nCOMMON COLLOCATIONS:\n- {公金|こうきん}を{流用|りゅうよう}する: to misappropriate public funds\n- {予算|よさん}の{流用|りゅうよう}: diversion of budget\n- {部品|ぶひん}を{流用|りゅうよう}する: to reuse parts\n- {設計|せっけい}を{流用|りゅうよう}する: to repurpose a design",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "action"]
+      "semantic": [
+        "money",
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{流用|りゅうよう}する",
+        "negative": "{流用|りゅうよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{流用|りゅうよう}します",
+        "negative": "{流用|りゅうよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{流用|りゅうよう}した",
+        "negative": "{流用|りゅうよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{流用|りゅうよう}しました",
+        "negative": "{流用|りゅうよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{流用|りゅうよう}して",
+        "negative": "{流用|りゅうよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{流用|りゅうよう}している",
+        "negative": "{流用|りゅうよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{流用|りゅうよう}しています",
+        "negative": "{流用|りゅうよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{流用|りゅうよう}していた",
+        "negative": "{流用|りゅうよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{流用|りゅうよう}していました",
+        "negative": "{流用|りゅうよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{流用|りゅうよう}すれば",
+        "negative": "{流用|りゅうよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{流用|りゅうよう}したら",
+        "negative": "{流用|りゅうよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{流用|りゅうよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{流用|りゅうよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{流用|りゅうよう}できる",
+        "negative": "{流用|りゅうよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{流用|りゅうよう}される",
+        "negative": "{流用|りゅうよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{流用|りゅうよう}させる",
+        "negative": "{流用|りゅうよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{流用|りゅうよう}しろ",
+        "negative": "{流用|りゅうよう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "He firmly declined the position of chairman.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17730_koji_ex2",
@@ -27,7 +29,9 @@
       "english": "No matter how many times I asked, I was firmly refused.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17730_koji_ex3",
@@ -35,7 +39,9 @@
       "english": "He firmly refused compensation and continued working as a volunteer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{固辞|こじ} implies a strong, unwavering refusal. It is often used when someone declines a position, honor, payment, or other offer that others think they should accept.\n\nCOMMON COLLOCATIONS:\n- {固辞|こじ}する (to firmly decline)\n- {申|もう}し{出|で}を{固辞|こじ}する (to firmly decline an offer)\n- {役職|やくしょく}を{固辞|こじ}する (to firmly decline a position)\n\nSIMILAR WORDS:\n{辞退|じたい} means to decline or withdraw (e.g., from a position or competition) and is less emphatic. {固辞|こじ} stresses the firmness and persistence of the refusal.",
@@ -53,11 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{固辞|こじ}する",
+        "negative": "{固辞|こじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{固辞|こじ}します",
+        "negative": "{固辞|こじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{固辞|こじ}した",
+        "negative": "{固辞|こじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{固辞|こじ}しました",
+        "negative": "{固辞|こじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{固辞|こじ}して",
+        "negative": "{固辞|こじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{固辞|こじ}している",
+        "negative": "{固辞|こじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{固辞|こじ}しています",
+        "negative": "{固辞|こじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{固辞|こじ}していた",
+        "negative": "{固辞|こじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{固辞|こじ}していました",
+        "negative": "{固辞|こじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{固辞|こじ}すれば",
+        "negative": "{固辞|こじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{固辞|こじ}したら",
+        "negative": "{固辞|こじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{固辞|こじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{固辞|こじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{固辞|こじ}できる",
+        "negative": "{固辞|こじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{固辞|こじ}される",
+        "negative": "{固辞|こじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{固辞|こじ}させる",
+        "negative": "{固辞|こじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{固辞|こじ}しろ",
+        "negative": "{固辞|こじ}するな"
+      }
+    ]
   }
 }

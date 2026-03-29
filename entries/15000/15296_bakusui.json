@@ -19,7 +19,9 @@
       "english": "I slept like a log yesterday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15296_bakusui_ex2",
@@ -27,7 +29,9 @@
       "english": "I fell sound asleep on the train.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15296_bakusui_ex3",
@@ -35,7 +39,9 @@
       "english": "I was so exhausted that I crashed the moment I got home and didn't wake up until morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{爆睡|ばくすい} is a colloquial, casual word popular especially among younger speakers. The {爆|ばく} (explosion) prefix intensifies the meaning, similar to how {爆笑|ばくしょう} means \"roaring laughter.\"\n\nCOMMON COLLOCATIONS:\n- {爆睡|ばくすい}する (to sleep like a log)\n- {爆睡|ばくすい}してしまう (to end up in a dead sleep)\n- {爆睡|ばくすい}{中|ちゅう} (in a deep sleep)\n\nREGISTER:\nThis is an informal, spoken word. In formal writing, use {熟睡|じゅくすい} (sound sleep) instead.",
@@ -46,12 +52,113 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "style": ["spoken", "slang"],
-      "domain": ["colloquial"],
-      "semantic": ["daily-life"]
+      "style": [
+        "spoken",
+        "slang"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "semantic": [
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{爆睡|ばくすい}する",
+        "negative": "{爆睡|ばくすい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{爆睡|ばくすい}します",
+        "negative": "{爆睡|ばくすい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{爆睡|ばくすい}した",
+        "negative": "{爆睡|ばくすい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{爆睡|ばくすい}しました",
+        "negative": "{爆睡|ばくすい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{爆睡|ばくすい}して",
+        "negative": "{爆睡|ばくすい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{爆睡|ばくすい}している",
+        "negative": "{爆睡|ばくすい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{爆睡|ばくすい}しています",
+        "negative": "{爆睡|ばくすい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{爆睡|ばくすい}していた",
+        "negative": "{爆睡|ばくすい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{爆睡|ばくすい}していました",
+        "negative": "{爆睡|ばくすい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{爆睡|ばくすい}すれば",
+        "negative": "{爆睡|ばくすい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{爆睡|ばくすい}したら",
+        "negative": "{爆睡|ばくすい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{爆睡|ばくすい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{爆睡|ばくすい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{爆睡|ばくすい}できる",
+        "negative": "{爆睡|ばくすい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{爆睡|ばくすい}される",
+        "negative": "{爆睡|ばくすい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{爆睡|ばくすい}させる",
+        "negative": "{爆睡|ばくすい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{爆睡|ばくすい}しろ",
+        "negative": "{爆睡|ばくすい}するな"
+      }
+    ]
   }
 }

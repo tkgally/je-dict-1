@@ -19,7 +19,9 @@
       "english": "Visitors, please proceed to the reception desk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13120_raihou_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister is scheduled to visit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13120_raihou_ex3",
@@ -35,7 +39,9 @@
       "english": "We are making preparations to welcome visitors from overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {来訪者|らいほうしゃ}: visitor, caller\n- {来訪|らいほう}する: to visit, to call on\n- {来訪|らいほう}を{受|う}ける: to receive a visit\n\nUSAGE:\n{来訪|らいほう} is a formal word. It describes the visit from the perspective of the person or place being visited (someone comes to you). For casual visits, {訪問|ほうもん} (visiting someone) or simply {来|く}る is more common.",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
       "transitivity": "intransitive",
       "verb_class": "suru",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{来訪|らいほう}する",
+        "negative": "{来訪|らいほう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{来訪|らいほう}します",
+        "negative": "{来訪|らいほう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{来訪|らいほう}した",
+        "negative": "{来訪|らいほう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{来訪|らいほう}しました",
+        "negative": "{来訪|らいほう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{来訪|らいほう}して",
+        "negative": "{来訪|らいほう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{来訪|らいほう}している",
+        "negative": "{来訪|らいほう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{来訪|らいほう}しています",
+        "negative": "{来訪|らいほう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{来訪|らいほう}していた",
+        "negative": "{来訪|らいほう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{来訪|らいほう}していました",
+        "negative": "{来訪|らいほう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{来訪|らいほう}すれば",
+        "negative": "{来訪|らいほう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{来訪|らいほう}したら",
+        "negative": "{来訪|らいほう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{来訪|らいほう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{来訪|らいほう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{来訪|らいほう}できる",
+        "negative": "{来訪|らいほう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{来訪|らいほう}される",
+        "negative": "{来訪|らいほう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{来訪|らいほう}させる",
+        "negative": "{来訪|らいほう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{来訪|らいほう}しろ",
+        "negative": "{来訪|らいほう}するな"
+      }
+    ]
   }
 }

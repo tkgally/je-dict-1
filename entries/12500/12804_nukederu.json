@@ -24,7 +24,9 @@
       "english": "I quietly slipped out of the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12804_nukederu_ex2",
@@ -32,7 +34,9 @@
       "english": "The child snuck out of the house to go play.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12804_nukederu_ex3",
@@ -40,7 +44,9 @@
       "english": "When I emerged from the tunnel, a beautiful landscape spread before me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12804_nukederu_ex4",
@@ -48,7 +54,9 @@
       "english": "She is outstandingly beautiful.",
       "notes": "The set phrase {群|ぐん}を{抜|ぬ}く/{抜|ぬ}けて means \"to stand head and shoulders above the rest.\"",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12804_nukederu_ex5",
@@ -56,7 +64,9 @@
       "english": "That athlete has outstanding ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12804_nukederu_ex6",
@@ -64,7 +74,9 @@
       "english": "That team has pulled far ahead of the others this season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {抜|ぬ}け{出|で}ない\n- Polite: {抜|ぬ}け{出|で}ます\n- Te-form: {抜|ぬ}け{出|で}て\n- Past: {抜|ぬ}け{出|で}た\n\nUSAGE:\nIn sense 1, the word implies stealth or an unnoticed departure. In sense 2, it emphasizes being clearly superior. The related compound verb {抜|ぬ}け{出|だ}す is sometimes used interchangeably for sense 1 (escaping), but {抜|ぬ}け{出|で}る is more standard.\n\nCOMMON COLLOCATIONS:\n- こっそり{抜|ぬ}け{出|で}る: to sneak out quietly\n- {群|ぐん}を{抜|ぬ}けて: standing out from the crowd\n- {渋滞|じゅうたい}を{抜|ぬ}け{出|で}る: to get out of a traffic jam\n- {不況|ふきょう}から{抜|ぬ}け{出|で}る: to emerge from a recession",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{抜|ぬ}け{出|で}る",
+        "negative": "{抜|ぬ}け{出|で}ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{抜|ぬ}け{出|で}ます",
+        "negative": "{抜|ぬ}け{出|で}ません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{抜|ぬ}け{出|で}た",
+        "negative": "{抜|ぬ}け{出|で}なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{抜|ぬ}け{出|で}ました",
+        "negative": "{抜|ぬ}け{出|で}ませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{抜|ぬ}け{出|で}て",
+        "negative": "{抜|ぬ}け{出|で}なくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{抜|ぬ}け{出|で}ている",
+        "negative": "{抜|ぬ}け{出|で}ていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{抜|ぬ}け{出|で}ています",
+        "negative": "{抜|ぬ}け{出|で}ていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{抜|ぬ}け{出|で}ていた",
+        "negative": "{抜|ぬ}け{出|で}ていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{抜|ぬ}け{出|で}ていました",
+        "negative": "{抜|ぬ}け{出|で}ていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{抜|ぬ}け{出|で}れば",
+        "negative": "{抜|ぬ}け{出|で}なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{抜|ぬ}け{出|で}たら",
+        "negative": "{抜|ぬ}け{出|で}なかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{抜|ぬ}け{出|で}よう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{抜|ぬ}け{出|で}ましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{抜|ぬ}け{出|で}られる",
+        "negative": "{抜|ぬ}け{出|で}られない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{抜|ぬ}け{出|で}られる",
+        "negative": "{抜|ぬ}け{出|で}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{抜|ぬ}け{出|で}させる",
+        "negative": "{抜|ぬ}け{出|で}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{抜|ぬ}け{出|で}ろ",
+        "negative": "{抜|ぬ}け{出|で}るな"
+      }
+    ]
   }
 }

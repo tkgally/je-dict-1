@@ -19,7 +19,9 @@
       "english": "I left the decision to him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10877_yudaneru_ex2",
@@ -27,7 +29,9 @@
       "english": "To resign oneself to fate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10877_yudaneru_ex3",
@@ -35,7 +39,9 @@
       "english": "It would be better to leave this matter to the experts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: XをYに{委|ゆだ}ねる.\n\nUSAGE:\nA somewhat formal verb often used in written language and formal speech. The thing entrusted (decision, fate, responsibility) is marked with を, and the person or entity receiving it is marked with に.\n\nCOMMON COLLOCATIONS:\n- {判断|はんだん}を{委|ゆだ}ねる: to leave the judgment to\n- {運命|うんめい}に{身|み}を{委|ゆだ}ねる: to entrust oneself to fate\n- {決定|けってい}を{委|ゆだ}ねる: to delegate a decision\n- {裁量|さいりょう}に{委|ゆだ}ねる: to leave to someone's discretion\n\nSIMILAR WORDS:\n{任|まか}せる is more conversational and broadly used. {委|ゆだ}ねる carries a more formal, literary tone and often implies a deeper level of trust or resignation.",
@@ -46,13 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["action"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{委|ゆだ}ねる",
+        "negative": "{委|ゆだ}ねない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{委|ゆだ}ねます",
+        "negative": "{委|ゆだ}ねません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{委|ゆだ}ねた",
+        "negative": "{委|ゆだ}ねなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{委|ゆだ}ねました",
+        "negative": "{委|ゆだ}ねませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{委|ゆだ}ねて",
+        "negative": "{委|ゆだ}ねなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{委|ゆだ}ねている",
+        "negative": "{委|ゆだ}ねていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{委|ゆだ}ねています",
+        "negative": "{委|ゆだ}ねていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{委|ゆだ}ねていた",
+        "negative": "{委|ゆだ}ねていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{委|ゆだ}ねていました",
+        "negative": "{委|ゆだ}ねていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{委|ゆだ}ねれば",
+        "negative": "{委|ゆだ}ねなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{委|ゆだ}ねたら",
+        "negative": "{委|ゆだ}ねなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{委|ゆだ}ねよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{委|ゆだ}ねましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{委|ゆだ}ねられる",
+        "negative": "{委|ゆだ}ねられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{委|ゆだ}ねられる",
+        "negative": "{委|ゆだ}ねられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{委|ゆだ}ねさせる",
+        "negative": "{委|ゆだ}ねさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{委|ゆだ}ねろ",
+        "negative": "{委|ゆだ}ねるな"
+      }
+    ]
   }
 }

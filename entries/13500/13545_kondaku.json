@@ -24,7 +24,9 @@
       "english": "The water is turbid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13545_kondaku_ex2",
@@ -32,7 +34,9 @@
       "english": "After the heavy rain, the river water became murky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13545_kondaku_ex3",
@@ -40,7 +44,9 @@
       "english": "Cataracts are a disease in which the lens of the eye becomes cloudy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13545_kondaku_ex4",
@@ -48,7 +54,9 @@
       "english": "Consciousness is clouded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13545_kondaku_ex5",
@@ -56,7 +64,9 @@
       "english": "Consciousness became clouded due to a high fever.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13545_kondaku_ex6",
@@ -64,7 +74,9 @@
       "english": "The patient was brought to the hospital in a state of impaired consciousness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, technical word used in medical, scientific, and literary contexts. In medicine, {意識|いしき}{混濁|こんだく} (clouding of consciousness) is a standard clinical term. The physical sense (turbid water) appears in environmental science and water quality discussions.\n\nKANJI NOTE:\n{混|こん} (mix, muddle) + {濁|だく} (turbid, muddy). Both characters relate to muddiness, reinforcing the meaning.\n\nCOMMON COLLOCATIONS:\n- {意識|いしき}{混濁|こんだく}: clouding of consciousness\n- {水|みず}の{混濁|こんだく}: turbidity of water\n- {混濁|こんだく}した{液体|えきたい}: turbid liquid",
@@ -75,13 +87,113 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "style": ["written"],
-      "domain": ["medical"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "descriptive"
+      ],
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{混濁|こんだく}する",
+        "negative": "{混濁|こんだく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{混濁|こんだく}します",
+        "negative": "{混濁|こんだく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{混濁|こんだく}した",
+        "negative": "{混濁|こんだく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{混濁|こんだく}しました",
+        "negative": "{混濁|こんだく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{混濁|こんだく}して",
+        "negative": "{混濁|こんだく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{混濁|こんだく}している",
+        "negative": "{混濁|こんだく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{混濁|こんだく}しています",
+        "negative": "{混濁|こんだく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{混濁|こんだく}していた",
+        "negative": "{混濁|こんだく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{混濁|こんだく}していました",
+        "negative": "{混濁|こんだく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{混濁|こんだく}すれば",
+        "negative": "{混濁|こんだく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{混濁|こんだく}したら",
+        "negative": "{混濁|こんだく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{混濁|こんだく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{混濁|こんだく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{混濁|こんだく}できる",
+        "negative": "{混濁|こんだく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{混濁|こんだく}される",
+        "negative": "{混濁|こんだく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{混濁|こんだく}させる",
+        "negative": "{混濁|こんだく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{混濁|こんだく}しろ",
+        "negative": "{混濁|こんだく}するな"
+      }
+    ]
   }
 }

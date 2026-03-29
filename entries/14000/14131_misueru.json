@@ -24,7 +24,9 @@
       "english": "I stared straight into the other person's eyes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14131_misueru_ex2",
@@ -32,7 +34,9 @@
       "english": "He was gazing at reality with eyes full of resolve.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14131_misueru_ex3",
@@ -40,7 +44,9 @@
       "english": "Seeing them stare at me with a stern expression, I involuntarily straightened up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14131_misueru_ex4",
@@ -48,7 +54,9 @@
       "english": "I save money with an eye to the future.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14131_misueru_ex5",
@@ -56,7 +64,9 @@
       "english": "A management strategy that looks ten years ahead is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14131_misueru_ex6",
@@ -64,7 +74,9 @@
       "english": "We should formulate policies with the aging society in view.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 (stare at) describes an intense, fixed gaze — stronger than simply {見|み}る. Sense 2 (keep in sight) is the more common usage in modern Japanese, especially in business and policy contexts. The pattern ～を{見据|みす}えて (with... in view) is a staple of formal writing.\n\nCOMMON COLLOCATIONS:\n- {将来|しょうらい}を{見据|みす}える: to keep the future in sight\n- {現実|げんじつ}を{見据|みす}える: to face reality squarely\n- ～を{見据|みす}えた{計画|けいかく}: a plan with... in view\n- {目|め}を{見据|みす}える: to stare into someone's eyes",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見据|みす}える",
+        "negative": "{見据|みす}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見据|みす}えます",
+        "negative": "{見据|みす}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見据|みす}えた",
+        "negative": "{見据|みす}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見据|みす}えました",
+        "negative": "{見据|みす}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見据|みす}えて",
+        "negative": "{見据|みす}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見据|みす}えている",
+        "negative": "{見据|みす}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見据|みす}えています",
+        "negative": "{見据|みす}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見据|みす}えていた",
+        "negative": "{見据|みす}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見据|みす}えていました",
+        "negative": "{見据|みす}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見据|みす}えれば",
+        "negative": "{見据|みす}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見据|みす}えたら",
+        "negative": "{見据|みす}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見据|みす}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見据|みす}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見据|みす}えられる",
+        "negative": "{見据|みす}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見据|みす}えられる",
+        "negative": "{見据|みす}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見据|みす}えさせる",
+        "negative": "{見据|みす}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見据|みす}えろ",
+        "negative": "{見据|みす}えるな"
+      }
+    ]
   }
 }

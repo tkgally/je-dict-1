@@ -19,7 +19,9 @@
       "english": "No food coloring is used.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13708_chakushoku_ex2",
@@ -27,7 +29,9 @@
       "english": "It was colored using natural coloring agents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13708_chakushoku_ex3",
@@ -35,7 +39,9 @@
       "english": "This Japanese confection is colored with ingredients extracted from plants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in food labeling and manufacturing contexts. {着色|ちゃくしょく}{料|りょう} (coloring agent, food coloring) is the most frequent compound. Also used in art and craft contexts for the process of applying color.\n\nCOMMON COLLOCATIONS:\n- {着色|ちゃくしょく}{料|りょう}: coloring agent, food dye\n- {人工|じんこう}{着色|ちゃくしょく}{料|りょう}: artificial coloring\n- {着色|ちゃくしょく}{料|りょう}{不使用|ふしよう}: no artificial coloring used\n- {着色|ちゃくしょく}する: to color, to dye",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["color"]
+      "semantic": [
+        "color"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{着色|ちゃくしょく}する",
+        "negative": "{着色|ちゃくしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{着色|ちゃくしょく}します",
+        "negative": "{着色|ちゃくしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{着色|ちゃくしょく}した",
+        "negative": "{着色|ちゃくしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{着色|ちゃくしょく}しました",
+        "negative": "{着色|ちゃくしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{着色|ちゃくしょく}して",
+        "negative": "{着色|ちゃくしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{着色|ちゃくしょく}している",
+        "negative": "{着色|ちゃくしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{着色|ちゃくしょく}しています",
+        "negative": "{着色|ちゃくしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{着色|ちゃくしょく}していた",
+        "negative": "{着色|ちゃくしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{着色|ちゃくしょく}していました",
+        "negative": "{着色|ちゃくしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{着色|ちゃくしょく}すれば",
+        "negative": "{着色|ちゃくしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{着色|ちゃくしょく}したら",
+        "negative": "{着色|ちゃくしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{着色|ちゃくしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{着色|ちゃくしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{着色|ちゃくしょく}できる",
+        "negative": "{着色|ちゃくしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{着色|ちゃくしょく}される",
+        "negative": "{着色|ちゃくしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{着色|ちゃくしょく}させる",
+        "negative": "{着色|ちゃくしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{着色|ちゃくしょく}しろ",
+        "negative": "{着色|ちゃくしょく}するな"
+      }
+    ]
   }
 }

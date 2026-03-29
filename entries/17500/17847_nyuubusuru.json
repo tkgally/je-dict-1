@@ -19,7 +19,9 @@
       "english": "I joined the baseball club.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17847_nyuubusuru_ex2",
@@ -27,7 +29,9 @@
       "english": "I was invited by a friend and joined the wind ensemble club.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17847_nyuubusuru_ex3",
@@ -35,7 +39,9 @@
       "english": "I'm undecided about which club to join when I start middle school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed with the particle に to indicate which club one joins: ～{部|ぶ}に{入部|にゅうぶ}する. Primarily a school context word. The opposite is {退部|たいぶ}する (to quit a club).\n\nCOMMON COLLOCATIONS:\n- ～{部|ぶ}に{入部|にゅうぶ}する (to join ~ club)\n- {入部届|にゅうぶとどけ} (club membership application form)\n- {入部|にゅうぶ}{希望|きぼう} (wish to join a club)\n\nCULTURAL NOTE:\nIn Japanese schools, joining a club ({部活|ぶかつ}) is considered an important part of education. Many students join in April at the start of the school year after attending trial sessions ({体験入部|たいけんにゅうぶ}).",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["school", "activity"]
+      "semantic": [
+        "school",
+        "activity"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{入部|にゅうぶ}する",
+        "negative": "{入部|にゅうぶ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{入部|にゅうぶ}します",
+        "negative": "{入部|にゅうぶ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{入部|にゅうぶ}した",
+        "negative": "{入部|にゅうぶ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{入部|にゅうぶ}しました",
+        "negative": "{入部|にゅうぶ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{入部|にゅうぶ}して",
+        "negative": "{入部|にゅうぶ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{入部|にゅうぶ}している",
+        "negative": "{入部|にゅうぶ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{入部|にゅうぶ}しています",
+        "negative": "{入部|にゅうぶ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{入部|にゅうぶ}していた",
+        "negative": "{入部|にゅうぶ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{入部|にゅうぶ}していました",
+        "negative": "{入部|にゅうぶ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{入部|にゅうぶ}すれば",
+        "negative": "{入部|にゅうぶ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{入部|にゅうぶ}したら",
+        "negative": "{入部|にゅうぶ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{入部|にゅうぶ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{入部|にゅうぶ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{入部|にゅうぶ}できる",
+        "negative": "{入部|にゅうぶ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{入部|にゅうぶ}される",
+        "negative": "{入部|にゅうぶ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{入部|にゅうぶ}させる",
+        "negative": "{入部|にゅうぶ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{入部|にゅうぶ}しろ",
+        "negative": "{入部|にゅうぶ}するな"
+      }
+    ]
   }
 }

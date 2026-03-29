@@ -19,7 +19,9 @@
       "english": "I got my qualification while employed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12129_zaishoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The period of tenure exceeds ten years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12129_zaishoku_ex3",
@@ -35,7 +39,9 @@
       "english": "That minister promoted various reforms during his time in office and earned high praise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{在職|ざいしょく} is used in both political and business contexts. It can describe being in a government position or simply being employed at a company. The compound {在職|ざいしょく}{中|ちゅう} (during one's tenure/while employed) is especially common.\n\nCOMMON COLLOCATIONS:\n- {在職|ざいしょく}{中|ちゅう}: during one's tenure, while employed\n- {在職|ざいしょく}{期間|きかん}: period of service, tenure\n- {在職|ざいしょく}{証明書|しょうめいしょ}: certificate of employment\n- {在職|ざいしょく}{年数|ねんすう}: years of service",
@@ -53,10 +59,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{在職|ざいしょく}する",
+        "negative": "{在職|ざいしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{在職|ざいしょく}します",
+        "negative": "{在職|ざいしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{在職|ざいしょく}した",
+        "negative": "{在職|ざいしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{在職|ざいしょく}しました",
+        "negative": "{在職|ざいしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{在職|ざいしょく}して",
+        "negative": "{在職|ざいしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{在職|ざいしょく}している",
+        "negative": "{在職|ざいしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{在職|ざいしょく}しています",
+        "negative": "{在職|ざいしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{在職|ざいしょく}していた",
+        "negative": "{在職|ざいしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{在職|ざいしょく}していました",
+        "negative": "{在職|ざいしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{在職|ざいしょく}すれば",
+        "negative": "{在職|ざいしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{在職|ざいしょく}したら",
+        "negative": "{在職|ざいしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{在職|ざいしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{在職|ざいしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{在職|ざいしょく}できる",
+        "negative": "{在職|ざいしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{在職|ざいしょく}される",
+        "negative": "{在職|ざいしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{在職|ざいしょく}させる",
+        "negative": "{在職|ざいしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{在職|ざいしょく}しろ",
+        "negative": "{在職|ざいしょく}するな"
+      }
+    ]
   }
 }

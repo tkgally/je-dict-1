@@ -19,7 +19,9 @@
       "english": "I'm living on the allowance from my parents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16344_shiokuri_ex2",
@@ -27,7 +29,9 @@
       "english": "The monthly allowance is 100,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16344_shiokuri_ex3",
@@ -35,7 +39,9 @@
       "english": "After starting university, the allowance alone wasn't enough, so I started working part-time too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{仕送|しおく}り refers to money sent regularly to support a family member living in a different location. The most typical scenario is parents sending money to a child studying at a university away from home.\n\nCOMMON COLLOCATIONS:\n- {仕送|しおく}りをする (to send money/an allowance)\n- {仕送|しおく}りを{受|う}ける (to receive an allowance)\n- {仕送|しおく}りで{生活|せいかつ}する (to live on an allowance)\n- {毎月|まいつき}の{仕送|しおく}り (monthly allowance)\n\nThe word can also be used as a する verb: {仕送|しおく}りする.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{仕送|しおく}りする",
+        "negative": "{仕送|しおく}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{仕送|しおく}りします",
+        "negative": "{仕送|しおく}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{仕送|しおく}りした",
+        "negative": "{仕送|しおく}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{仕送|しおく}りしました",
+        "negative": "{仕送|しおく}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{仕送|しおく}りして",
+        "negative": "{仕送|しおく}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{仕送|しおく}りしている",
+        "negative": "{仕送|しおく}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{仕送|しおく}りしています",
+        "negative": "{仕送|しおく}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{仕送|しおく}りしていた",
+        "negative": "{仕送|しおく}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{仕送|しおく}りしていました",
+        "negative": "{仕送|しおく}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{仕送|しおく}りすれば",
+        "negative": "{仕送|しおく}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{仕送|しおく}りしたら",
+        "negative": "{仕送|しおく}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{仕送|しおく}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{仕送|しおく}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{仕送|しおく}りできる",
+        "negative": "{仕送|しおく}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{仕送|しおく}りされる",
+        "negative": "{仕送|しおく}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{仕送|しおく}りさせる",
+        "negative": "{仕送|しおく}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{仕送|しおく}りしろ",
+        "negative": "{仕送|しおく}りするな"
+      }
+    ]
   }
 }

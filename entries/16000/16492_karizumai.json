@@ -19,7 +19,9 @@
       "english": "I'm staying in a temporary place during renovations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16492_karizumai_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm temporarily living at my parents' house until I find a place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16492_karizumai_ex3",
@@ -35,7 +39,9 @@
       "english": "Our home was damaged in the disaster, so we lived temporarily in an apartment for about half a year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan be used as a noun or with する as a suru verb ({仮住|かりず}まいする = to live temporarily). Often comes up in contexts of home renovation, natural disasters, or the transitional period between moving out of one home and into another.\n\nCOMMON COLLOCATIONS:\n- {仮住|かりず}まいをする (to live temporarily)\n- {仮住|かりず}まい{先|さき} (temporary residence location)\n- {仮住|かりず}まい{用|よう}のアパート (apartment for temporary residence)\n\nSIMILAR WORDS:\n- {仮設住宅|かせつじゅうたく}: temporary housing — prefabricated housing provided after disasters\n- {間借|まが}り: renting a room — living in someone else's house by renting a room",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["housing", "daily-life"]
+      "semantic": [
+        "housing",
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{仮住|かりず}まいする",
+        "negative": "{仮住|かりず}まいしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{仮住|かりず}まいします",
+        "negative": "{仮住|かりず}まいしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{仮住|かりず}まいした",
+        "negative": "{仮住|かりず}まいしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{仮住|かりず}まいしました",
+        "negative": "{仮住|かりず}まいしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{仮住|かりず}まいして",
+        "negative": "{仮住|かりず}まいしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{仮住|かりず}まいしている",
+        "negative": "{仮住|かりず}まいしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{仮住|かりず}まいしています",
+        "negative": "{仮住|かりず}まいしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{仮住|かりず}まいしていた",
+        "negative": "{仮住|かりず}まいしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{仮住|かりず}まいしていました",
+        "negative": "{仮住|かりず}まいしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{仮住|かりず}まいすれば",
+        "negative": "{仮住|かりず}まいしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{仮住|かりず}まいしたら",
+        "negative": "{仮住|かりず}まいしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{仮住|かりず}まいしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{仮住|かりず}まいしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{仮住|かりず}まいできる",
+        "negative": "{仮住|かりず}まいできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{仮住|かりず}まいされる",
+        "negative": "{仮住|かりず}まいされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{仮住|かりず}まいさせる",
+        "negative": "{仮住|かりず}まいさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{仮住|かりず}まいしろ",
+        "negative": "{仮住|かりず}まいするな"
+      }
+    ]
   }
 }

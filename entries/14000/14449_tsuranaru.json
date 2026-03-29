@@ -22,7 +22,9 @@
       "id": "14449_tsuranaru_ex1",
       "japanese": "{山|やま}が{連|つら}なっている。",
       "english": "Mountains stretch in a row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "14449_tsuranaru_ex2",
       "japanese": "{海岸|かいがん}に{沿|そ}ってホテルが{連|つら}なっている。",
       "english": "Hotels line the coast.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "14449_tsuranaru_ex3",
       "japanese": "{遠|とお}くに{雪|ゆき}をかぶった{山々|やまやま}が{連|つら}なっているのが{見|み}えた。",
       "english": "In the distance, I could see snow-capped mountains stretching in a row.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "14449_tsuranaru_ex4",
       "japanese": "{式典|しきてん}に{連|つら}なる。",
       "english": "To attend a ceremony.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "14449_tsuranaru_ex5",
       "japanese": "{多|おお}くの{来賓|らいひん}が{祝|いわ}いの{席|せき}に{連|つら}なった。",
       "english": "Many guests attended the celebration.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,7 +72,10 @@
       "id": "14449_tsuranaru_ex6",
       "japanese": "{歴代|れきだい}の{社長|しゃちょう}の{名前|なまえ}がリストに{連|つら}なっている。",
       "english": "The names of successive presidents are listed in a row.",
-      "sense_numbers": [1, 2],
+      "sense_numbers": [
+        1,
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -75,11 +88,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{連|つら}なる",
+        "negative": "{連|つら}ならない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{連|つら}なります",
+        "negative": "{連|つら}なりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{連|つら}なった",
+        "negative": "{連|つら}ならなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{連|つら}なりました",
+        "negative": "{連|つら}なりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{連|つら}なって",
+        "negative": "{連|つら}ならなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{連|つら}なっている",
+        "negative": "{連|つら}なっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{連|つら}なっています",
+        "negative": "{連|つら}なっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{連|つら}なっていた",
+        "negative": "{連|つら}なっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{連|つら}なっていました",
+        "negative": "{連|つら}なっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{連|つら}なれば",
+        "negative": "{連|つら}ならなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{連|つら}なったら",
+        "negative": "{連|つら}ならなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{連|つら}なろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{連|つら}なりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{連|つら}なれる",
+        "negative": "{連|つら}なれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{連|つら}なられる",
+        "negative": "{連|つら}なられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{連|つら}ならせる",
+        "negative": "{連|つら}ならせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{連|つら}なれ",
+        "negative": "{連|つら}なるな"
+      }
+    ]
   }
 }

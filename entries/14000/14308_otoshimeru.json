@@ -19,7 +19,9 @@
       "english": "You must not disparage others.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14308_otoshimeru_ex2",
@@ -27,7 +29,9 @@
       "english": "One should refrain from making remarks that demean others.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14308_otoshimeru_ex3",
@@ -35,7 +39,9 @@
       "english": "Putting others down to raise your own value is the wrong approach.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{貶|おとし}める is a transitive ichidan verb. It carries a strongly negative connotation and implies deliberate belittling or degradation.\n\nASPECT (ている):\n{貶|おとし}めている describes an ongoing act of disparagement.\n\nPARTICLE PATTERNS:\n- AをBと{貶|おとし}める (disparage A as B)\n- Aを{貶|おとし}める (put down A)\n\nCOMMON COLLOCATIONS:\n- {人|ひと}を{貶|おとし}める (disparage someone)\n- {名誉|めいよ}を{貶|おとし}める (damage someone's honor)\n- {価値|かち}を{貶|おとし}める (diminish the value of)\n\nMore literary and formal than {馬鹿|ばか}にする or {見下|みくだ}す. Often used in written contexts discussing discrimination, bullying, or ethical behavior.",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{貶|おとし}める",
+        "negative": "{貶|おとし}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{貶|おとし}めます",
+        "negative": "{貶|おとし}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{貶|おとし}めた",
+        "negative": "{貶|おとし}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{貶|おとし}めました",
+        "negative": "{貶|おとし}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{貶|おとし}めて",
+        "negative": "{貶|おとし}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{貶|おとし}めている",
+        "negative": "{貶|おとし}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{貶|おとし}めています",
+        "negative": "{貶|おとし}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{貶|おとし}めていた",
+        "negative": "{貶|おとし}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{貶|おとし}めていました",
+        "negative": "{貶|おとし}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{貶|おとし}めれば",
+        "negative": "{貶|おとし}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{貶|おとし}めたら",
+        "negative": "{貶|おとし}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{貶|おとし}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{貶|おとし}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{貶|おとし}められる",
+        "negative": "{貶|おとし}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{貶|おとし}められる",
+        "negative": "{貶|おとし}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{貶|おとし}めさせる",
+        "negative": "{貶|おとし}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{貶|おとし}めろ",
+        "negative": "{貶|おとし}めるな"
+      }
+    ]
   }
 }

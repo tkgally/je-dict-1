@@ -17,21 +17,27 @@
       "japanese": "{彼|かれ}はしぶしぶ{承諾|しょうだく}した。",
       "english": "He reluctantly agreed.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07512_shibushibu_ex2",
       "japanese": "しぶしぶながら{手伝|てつだ}ってくれた。",
       "english": "They helped me, albeit reluctantly.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07512_shibushibu_ex3",
       "japanese": "{子|こ}どもはしぶしぶ{宿題|しゅくだい}を{始|はじ}めた。",
       "english": "The child reluctantly started their homework.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "MIMETIC ORIGIN:\nReduplicated form related to {渋|しぶ}い (astringent, reluctant). The repetition emphasizes the reluctance.\n\nCOMMON COLLOCATIONS:\n・しぶしぶ{承諾|しょうだく}する - to agree reluctantly\n・しぶしぶ{従|したが}う - to comply unwillingly\n・しぶしぶ{受|う}け{入|い}れる - to accept grudgingly\n・しぶしぶながら - albeit reluctantly\n\nPOSITION:\nAppears before the verb, modifying the manner of action.\n\nSIMILAR EXPRESSIONS:\n・{嫌々|いやいや} - unwillingly (stronger negative feeling)\n・{仕方|しかた}なく - having no choice\n・{渋々|しぶしぶ} - alternative kanji spelling",
@@ -41,9 +47,104 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "godan-bu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "しぶしぶ",
+        "negative": "しぶしばない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "しぶしびます",
+        "negative": "しぶしびません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "しぶしんだ",
+        "negative": "しぶしばなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "しぶしびました",
+        "negative": "しぶしびませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "しぶしんで",
+        "negative": "しぶしばなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "しぶしんでいる",
+        "negative": "しぶしんでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "しぶしんでいます",
+        "negative": "しぶしんでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "しぶしんでいた",
+        "negative": "しぶしんでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "しぶしんでいました",
+        "negative": "しぶしんでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "しぶしべば",
+        "negative": "しぶしばなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "しぶしんだら",
+        "negative": "しぶしばなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "しぶしぼう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "しぶしびましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "しぶしべる",
+        "negative": "しぶしべない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "しぶしばれる",
+        "negative": "しぶしばれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "しぶしばせる",
+        "negative": "しぶしばせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "しぶしべ",
+        "negative": "しぶしぶな"
+      }
+    ]
   }
 }

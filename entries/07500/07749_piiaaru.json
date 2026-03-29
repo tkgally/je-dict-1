@@ -22,42 +22,54 @@
       "japanese": "PRビデオを{作成|さくせい}した。",
       "english": "We created a promotional video.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07749_piiaaru_ex2",
       "japanese": "{新商品|しんしょうひん}のPR{活動|かつどう}を{始|はじ}める。",
       "english": "We're starting promotional activities for the new product.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07749_piiaaru_ex3",
       "japanese": "SNSを{使|つか}ってPRする{会社|かいしゃ}が{増|ふ}えた。",
       "english": "More companies are using social media for promotion.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07749_piiaaru_ex4",
       "japanese": "{自己|じこ}PRを{書|か}いてください。",
       "english": "Please write a self-promotion statement.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07749_piiaaru_ex5",
       "japanese": "{面接|めんせつ}で{自分|じぶん}をPRする。",
       "english": "I promote myself in interviews.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07749_piiaaru_ex6",
       "japanese": "PRポイントは{何|なん}ですか?",
       "english": "What are your selling points?",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "PR is an abbreviation of English \"Public Relations,\" but in Japanese it is used more broadly than in English to mean any kind of promotion or self-promotion.\n\nSENSE 1 — PROMOTION/PUBLICITY:\n- PR{活動|かつどう}: PR/promotional activities\n- PRする: to promote, to publicize\n- PR{動画|どうが}/PRビデオ: promotional video\n- PR{戦略|せんりゃく}: PR strategy\n\nSENSE 2 — SELF-PROMOTION:\nExtremely common in Japanese job hunting ({就職|しゅうしょく}{活動|かつどう}).\n- {自己|じこ}PR: self-promotion statement (a standard part of Japanese job applications)\n- PRポイント: selling points, strengths to highlight\n- {自分|じぶん}をPRする: to promote/sell oneself\n\nNOTE:\nIn Japanese, PR has a broader, more casual meaning than English \"public relations.\" It often simply means \"to promote\" or \"to appeal,\" without the formal corporate communications connotation.",
@@ -67,10 +79,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["communication", "business"],
-      "domain": ["business"]
+      "semantic": [
+        "communication",
+        "business"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "PRする",
+        "negative": "PRしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "PRします",
+        "negative": "PRしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "PRした",
+        "negative": "PRしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "PRしました",
+        "negative": "PRしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "PRして",
+        "negative": "PRしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "PRしている",
+        "negative": "PRしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "PRしています",
+        "negative": "PRしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "PRしていた",
+        "negative": "PRしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "PRしていました",
+        "negative": "PRしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "PRすれば",
+        "negative": "PRしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "PRしたら",
+        "negative": "PRしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "PRしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "PRしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "PRできる",
+        "negative": "PRできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "PRされる",
+        "negative": "PRされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "PRさせる",
+        "negative": "PRさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "PRしろ",
+        "negative": "PRするな"
+      }
+    ]
   }
 }

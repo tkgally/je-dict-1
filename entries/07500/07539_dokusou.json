@@ -17,21 +17,27 @@
       "japanese": "ピアノ{独奏|どくそう}を{披露|ひろう}した。",
       "english": "She performed a piano solo.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07539_dokusou_ex2",
       "japanese": "{独奏|どくそう}{曲|きょく}を{練習|れんしゅう}している。",
       "english": "I'm practicing a solo piece.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07539_dokusou_ex3",
       "japanese": "バイオリン{独奏|どくそう}がオーケストラと{共演|きょうえん}する。",
       "english": "The violin soloist performs with the orchestra.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{独|どく} (alone, solo) + {奏|そう} (play music)\n\nRELATED TERMS:\n・{独奏者|どくそうしゃ} - soloist\n・{独奏会|どくそうかい} - solo recital\n・ソロ - solo (loanword)\n・{独唱|どくしょう} - solo singing\n・{合奏|がっそう} - ensemble performance\n・{協奏曲|きょうそうきょく} - concerto (features soloist with orchestra)\n\nCOLLOCATIONS:\n・ピアノ{独奏|どくそう} - piano solo\n・バイオリン{独奏|どくそう} - violin solo\n・{独奏|どくそう}を{務|つと}める - to serve as soloist\n・{独奏|どくそう}パート - solo part\n\nCONTRAST:\n・{独奏|どくそう} - solo (instrumental)\n・{独唱|どくしょう} - solo (vocal)\n・{合奏|がっそう} - ensemble (multiple performers together)",
@@ -49,9 +55,105 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["music"]
+      "semantic": [
+        "music"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{独奏|どくそう}する",
+        "negative": "{独奏|どくそう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{独奏|どくそう}します",
+        "negative": "{独奏|どくそう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{独奏|どくそう}した",
+        "negative": "{独奏|どくそう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{独奏|どくそう}しました",
+        "negative": "{独奏|どくそう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{独奏|どくそう}して",
+        "negative": "{独奏|どくそう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{独奏|どくそう}している",
+        "negative": "{独奏|どくそう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{独奏|どくそう}しています",
+        "negative": "{独奏|どくそう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{独奏|どくそう}していた",
+        "negative": "{独奏|どくそう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{独奏|どくそう}していました",
+        "negative": "{独奏|どくそう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{独奏|どくそう}すれば",
+        "negative": "{独奏|どくそう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{独奏|どくそう}したら",
+        "negative": "{独奏|どくそう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{独奏|どくそう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{独奏|どくそう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{独奏|どくそう}できる",
+        "negative": "{独奏|どくそう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{独奏|どくそう}される",
+        "negative": "{独奏|どくそう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{独奏|どくそう}させる",
+        "negative": "{独奏|どくそう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{独奏|どくそう}しろ",
+        "negative": "{独奏|どくそう}するな"
+      }
+    ]
   }
 }

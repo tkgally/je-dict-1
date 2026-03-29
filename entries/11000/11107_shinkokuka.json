@@ -19,7 +19,9 @@
       "english": "The labor shortage is becoming more serious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11107_shinkokuka_ex2",
@@ -27,7 +29,9 @@
       "english": "We must stop environmental problems from getting worse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11107_shinkokuka_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to the worsening of the declining birthrate and aging population, a review of the social security system is being called for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{深刻|しんこく} (serious, grave) + {化|か} (transformation suffix) = becoming serious/worsening. The 〜{化|か} suffix turns adjectives and nouns into verbs/nouns meaning \"becoming ~.\"\n\nCOMMON COLLOCATIONS:\n- {深刻化|しんこくか}する (to worsen, to become more serious)\n- {深刻化|しんこくか}が{進|すす}む (the worsening progresses)\n- {深刻化|しんこくか}を{防|ふせ}ぐ (to prevent worsening)\n\nSIMILAR 〜{化|か} WORDS:\n- {長期化|ちょうきか} (prolongation, becoming prolonged)\n- {悪化|あっか} (deterioration — more general than {深刻化|しんこくか})\n- {複雑化|ふくざつか} (becoming more complex)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["general"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{深刻化|しんこくか}する",
+        "negative": "{深刻化|しんこくか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{深刻化|しんこくか}します",
+        "negative": "{深刻化|しんこくか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{深刻化|しんこくか}した",
+        "negative": "{深刻化|しんこくか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{深刻化|しんこくか}しました",
+        "negative": "{深刻化|しんこくか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{深刻化|しんこくか}して",
+        "negative": "{深刻化|しんこくか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{深刻化|しんこくか}している",
+        "negative": "{深刻化|しんこくか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{深刻化|しんこくか}しています",
+        "negative": "{深刻化|しんこくか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{深刻化|しんこくか}していた",
+        "negative": "{深刻化|しんこくか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{深刻化|しんこくか}していました",
+        "negative": "{深刻化|しんこくか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{深刻化|しんこくか}すれば",
+        "negative": "{深刻化|しんこくか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{深刻化|しんこくか}したら",
+        "negative": "{深刻化|しんこくか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{深刻化|しんこくか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{深刻化|しんこくか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{深刻化|しんこくか}できる",
+        "negative": "{深刻化|しんこくか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{深刻化|しんこくか}される",
+        "negative": "{深刻化|しんこくか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{深刻化|しんこくか}させる",
+        "negative": "{深刻化|しんこくか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{深刻化|しんこくか}しろ",
+        "negative": "{深刻化|しんこくか}するな"
+      }
+    ]
   }
 }

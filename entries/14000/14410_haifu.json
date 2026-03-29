@@ -19,7 +19,9 @@
       "english": "To hand out flyers in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14410_haifu_ex2",
@@ -27,7 +29,9 @@
       "english": "The materials will be distributed before the meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14410_haifu_ex3",
@@ -35,7 +39,9 @@
       "english": "This software is distributed for free, so anyone can download it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{配布|はいふ} is a noun that can function as a suru verb ({配布|はいふ}する). It implies distributing copies or items widely to many recipients.\n\nPARTICLE PATTERNS:\n- [thing]を{配布|はいふ}する (to distribute something)\n- [thing]が{配布|はいふ}される (something is distributed)\n\nCOMMON COLLOCATIONS:\n- チラシを{配布|はいふ}する (distribute flyers)\n- {資料|しりょう}を{配布|はいふ}する (distribute materials)\n- {無料|むりょう}{配布|はいふ} (free distribution)\n- {配布|はいふ}{物|ぶつ} (handout, distributed material)\n\nDistinct from {配達|はいたつ} (delivery), which implies bringing items to specific recipients. {配布|はいふ} emphasizes wider, less targeted distribution. Also distinct from {配給|はいきゅう} (rationing, supply distribution), which implies controlled allocation.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{配布|はいふ}する",
+        "negative": "{配布|はいふ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{配布|はいふ}します",
+        "negative": "{配布|はいふ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{配布|はいふ}した",
+        "negative": "{配布|はいふ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{配布|はいふ}しました",
+        "negative": "{配布|はいふ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{配布|はいふ}して",
+        "negative": "{配布|はいふ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{配布|はいふ}している",
+        "negative": "{配布|はいふ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{配布|はいふ}しています",
+        "negative": "{配布|はいふ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{配布|はいふ}していた",
+        "negative": "{配布|はいふ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{配布|はいふ}していました",
+        "negative": "{配布|はいふ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{配布|はいふ}すれば",
+        "negative": "{配布|はいふ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{配布|はいふ}したら",
+        "negative": "{配布|はいふ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{配布|はいふ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{配布|はいふ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{配布|はいふ}できる",
+        "negative": "{配布|はいふ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{配布|はいふ}される",
+        "negative": "{配布|はいふ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{配布|はいふ}させる",
+        "negative": "{配布|はいふ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{配布|はいふ}しろ",
+        "negative": "{配布|はいふ}するな"
+      }
+    ]
   }
 }

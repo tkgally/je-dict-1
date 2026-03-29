@@ -19,7 +19,9 @@
       "english": "The evidence corroborated his testimony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14050_urazukeru_ex2",
@@ -27,7 +29,9 @@
       "english": "The survey results ended up substantiating the hypothesis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14050_urazukeru_ex3",
@@ -35,7 +39,9 @@
       "english": "Unless a claim is backed up by data, it won't be persuasive in a meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA transitive ichidan verb. The passive form {裏付|うらづ}けられる is very common, meaning \"to be supported/backed by evidence.\" The related noun is {裏付|うらづ}け (supporting evidence, substantiation).\n\nCOMMON PATTERNS:\n- {証拠|しょうこ}で{裏付|うらづ}ける: to substantiate with evidence\n- データに{裏付|うらづ}けられた: backed by data\n- {裏付|うらづ}けを{取|と}る: to obtain corroboration\n\nRELATED:\n- {裏付|うらづ}け (noun): supporting evidence, substantiation",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{裏付|うらづ}ける",
+        "negative": "{裏付|うらづ}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{裏付|うらづ}けます",
+        "negative": "{裏付|うらづ}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{裏付|うらづ}けた",
+        "negative": "{裏付|うらづ}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{裏付|うらづ}けました",
+        "negative": "{裏付|うらづ}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{裏付|うらづ}けて",
+        "negative": "{裏付|うらづ}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{裏付|うらづ}けている",
+        "negative": "{裏付|うらづ}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{裏付|うらづ}けています",
+        "negative": "{裏付|うらづ}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{裏付|うらづ}けていた",
+        "negative": "{裏付|うらづ}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{裏付|うらづ}けていました",
+        "negative": "{裏付|うらづ}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{裏付|うらづ}ければ",
+        "negative": "{裏付|うらづ}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{裏付|うらづ}けたら",
+        "negative": "{裏付|うらづ}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{裏付|うらづ}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{裏付|うらづ}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{裏付|うらづ}けられる",
+        "negative": "{裏付|うらづ}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{裏付|うらづ}けられる",
+        "negative": "{裏付|うらづ}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{裏付|うらづ}けさせる",
+        "negative": "{裏付|うらづ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{裏付|うらづ}けろ",
+        "negative": "{裏付|うらづ}けるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Child abuse is absolutely unacceptable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14046_gyakutai_ex2",
@@ -27,7 +29,9 @@
       "english": "Laws to prevent animal abuse have been strengthened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14046_gyakutai_ex3",
@@ -35,7 +39,9 @@
       "english": "A neighbor noticed signs of possible abuse and reported it to the child consultation center.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA serious word that appears frequently in news and social discussions. Japan has strengthened its child abuse prevention laws in recent years, and {児童|じどう}{虐待|ぎゃくたい} is a major social issue.\n\nCOMMON COMPOUNDS:\n- {児童|じどう}{虐待|ぎゃくたい}: child abuse\n- {動物|どうぶつ}{虐待|ぎゃくたい}: animal abuse/cruelty\n- {高齢者|こうれいしゃ}{虐待|ぎゃくたい}: elder abuse\n- {虐待|ぎゃくたい}{防止|ぼうし}: abuse prevention\n\nCOMMON COLLOCATIONS:\n- {虐待|ぎゃくたい}を{受|う}ける: to suffer abuse\n- {虐待|ぎゃくたい}を{通報|つうほう}する: to report abuse",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{虐待|ぎゃくたい}する",
+        "negative": "{虐待|ぎゃくたい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{虐待|ぎゃくたい}します",
+        "negative": "{虐待|ぎゃくたい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{虐待|ぎゃくたい}した",
+        "negative": "{虐待|ぎゃくたい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{虐待|ぎゃくたい}しました",
+        "negative": "{虐待|ぎゃくたい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{虐待|ぎゃくたい}して",
+        "negative": "{虐待|ぎゃくたい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{虐待|ぎゃくたい}している",
+        "negative": "{虐待|ぎゃくたい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{虐待|ぎゃくたい}しています",
+        "negative": "{虐待|ぎゃくたい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{虐待|ぎゃくたい}していた",
+        "negative": "{虐待|ぎゃくたい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{虐待|ぎゃくたい}していました",
+        "negative": "{虐待|ぎゃくたい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{虐待|ぎゃくたい}すれば",
+        "negative": "{虐待|ぎゃくたい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{虐待|ぎゃくたい}したら",
+        "negative": "{虐待|ぎゃくたい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{虐待|ぎゃくたい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{虐待|ぎゃくたい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{虐待|ぎゃくたい}できる",
+        "negative": "{虐待|ぎゃくたい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{虐待|ぎゃくたい}される",
+        "negative": "{虐待|ぎゃくたい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{虐待|ぎゃくたい}させる",
+        "negative": "{虐待|ぎゃくたい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{虐待|ぎゃくたい}しろ",
+        "negative": "{虐待|ぎゃくたい}するな"
+      }
+    ]
   }
 }

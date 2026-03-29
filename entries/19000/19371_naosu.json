@@ -17,19 +17,25 @@
       "id": "19371_naosu_ex1",
       "japanese": "{医者|いしゃ}が{病気|びょうき}を{治|なお}した。",
       "english": "The doctor cured the illness.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19371_naosu_ex2",
       "japanese": "この{薬|くすり}で{風邪|かぜ}を{治|なお}すことができる。",
       "english": "You can cure a cold with this medicine.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19371_naosu_ex3",
       "japanese": "{虫歯|むしば}は{早|はや}めに{歯医者|はいしゃ}で{治|なお}したほうがいい。",
       "english": "It's better to have cavities treated at the dentist early on.",
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "This is the medical/healing なおす, written with {治|なお}す. It means to cure illness or heal injury, as opposed to {直|なお}す which means to fix or repair broken objects or mistakes. Both are read なおす but use different kanji.\n\nCONTRAST WITH {直|なお}す:\n- {治|なお}す — to cure/heal (illness, injury)\n- {直|なお}す — to fix/repair (broken objects, mistakes)\n\nINTRANSITIVE PAIR:\n- {治|なお}す (transitive) — someone cures something\n- {治|なお}る (intransitive) — something heals/gets better on its own\n\nCOMMON COLLOCATIONS:\n- {病気|びょうき}を{治|なお}す — to cure an illness\n- {怪我|けが}を{治|なお}す — to heal an injury\n- {虫歯|むしば}を{治|なお}す — to treat a cavity\n- {風邪|かぜ}を{治|なお}す — to cure a cold",
@@ -37,13 +43,108 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     },
     "created": "2026-03-25T12:57:22Z",
     "modified": "2026-03-25T12:57:22Z"
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{治|なお}す",
+        "negative": "{治|なお}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{治|なお}します",
+        "negative": "{治|なお}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{治|なお}した",
+        "negative": "{治|なお}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{治|なお}しました",
+        "negative": "{治|なお}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{治|なお}して",
+        "negative": "{治|なお}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{治|なお}している",
+        "negative": "{治|なお}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{治|なお}しています",
+        "negative": "{治|なお}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{治|なお}していた",
+        "negative": "{治|なお}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{治|なお}していました",
+        "negative": "{治|なお}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{治|なお}せば",
+        "negative": "{治|なお}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{治|なお}したら",
+        "negative": "{治|なお}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{治|なお}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{治|なお}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{治|なお}せる",
+        "negative": "{治|なお}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{治|なお}される",
+        "negative": "{治|なお}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{治|なお}させる",
+        "negative": "{治|なお}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{治|なお}せ",
+        "negative": "{治|なお}すな"
+      }
+    ]
   }
 }

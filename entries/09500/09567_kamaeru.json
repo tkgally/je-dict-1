@@ -23,7 +23,9 @@
       "english": "To set up a shop.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09567_kamaeru_ex2",
@@ -31,7 +33,9 @@
       "english": "To ready one's sword.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09567_kamaeru_ex3",
@@ -39,7 +43,9 @@
       "english": "A cynical attitude is not good.",
       "notes": "「{斜|はす}に{構|かま}える」 means to take a cynical or aloof stance.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{構|かま}える is a transitive verb.\n\nTRANSITIVITY:\n- Type: Transitive ({他動詞|たどうし})\n- Pair: {構|かま}う (intransitive, though {構|かま}う has different meanings)\n\nCOMMON PATTERNS:\n- {店|みせ}を{構|かま}える (set up a shop)\n- {家|いえ}を{構|かま}える (establish a home)\n- {刀|かたな}を{構|かま}える (ready one's sword)\n- {斜|はす}に{構|かま}える (take a cynical stance)\n\nASPECT (ている):\n- {構|かま}えている can indicate either an ongoing state of readiness or an established setup.",
@@ -50,11 +56,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{構|かま}える",
+        "negative": "{構|かま}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{構|かま}えます",
+        "negative": "{構|かま}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{構|かま}えた",
+        "negative": "{構|かま}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{構|かま}えました",
+        "negative": "{構|かま}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{構|かま}えて",
+        "negative": "{構|かま}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{構|かま}えている",
+        "negative": "{構|かま}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{構|かま}えています",
+        "negative": "{構|かま}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{構|かま}えていた",
+        "negative": "{構|かま}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{構|かま}えていました",
+        "negative": "{構|かま}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{構|かま}えれば",
+        "negative": "{構|かま}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{構|かま}えたら",
+        "negative": "{構|かま}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{構|かま}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{構|かま}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{構|かま}えられる",
+        "negative": "{構|かま}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{構|かま}えられる",
+        "negative": "{構|かま}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{構|かま}えさせる",
+        "negative": "{構|かま}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{構|かま}えろ",
+        "negative": "{構|かま}えるな"
+      }
+    ]
   }
 }

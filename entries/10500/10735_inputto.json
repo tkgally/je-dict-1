@@ -19,7 +19,9 @@
       "english": "To increase input time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10735_inputto_ex2",
@@ -27,7 +29,9 @@
       "english": "I read books every day to absorb information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10735_inputto_ex3",
@@ -35,7 +39,9 @@
       "english": "Sufficient input is necessary for good output.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "From English \"input.\" In Japanese, commonly used beyond the technical sense to mean absorbing knowledge through reading, listening, or studying.\n\nUSAGE:\nAlmost always discussed in contrast with アウトプット (output). In education and self-improvement, インプット refers to receptive learning (reading, listening), while アウトプット means active production (writing, speaking).\n\nCOMMON PATTERNS:\n- インプットする: to absorb, to take in\n- インプットとアウトプット: input and output\n- {大量|たいりょう}のインプット: a large amount of input\n- インプットが{足|た}りない: not enough input\n\nDOMAINS:\n- {語学|ごがく}: language learning\n- ビジネス: business skills development\n- IT: data input (closer to English meaning)",
@@ -54,11 +60,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["action"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "インプットする",
+        "negative": "インプットしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "インプットします",
+        "negative": "インプットしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "インプットした",
+        "negative": "インプットしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "インプットしました",
+        "negative": "インプットしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "インプットして",
+        "negative": "インプットしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "インプットしている",
+        "negative": "インプットしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "インプットしています",
+        "negative": "インプットしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "インプットしていた",
+        "negative": "インプットしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "インプットしていました",
+        "negative": "インプットしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "インプットすれば",
+        "negative": "インプットしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "インプットしたら",
+        "negative": "インプットしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "インプットしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "インプットしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "インプットできる",
+        "negative": "インプットできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "インプットされる",
+        "negative": "インプットされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "インプットさせる",
+        "negative": "インプットさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "インプットしろ",
+        "negative": "インプットするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Snow fell from the roof.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14051_rakka_ex2",
@@ -27,7 +29,9 @@
       "english": "Please watch out for falling objects at the construction site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14051_rakka_ex3",
@@ -35,7 +39,9 @@
       "english": "In a free-fall experiment, if there is no air resistance, all objects fall at the same speed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word for falling, used more in written language, news, and technical contexts than in daily conversation (where {落|お}ちる is more natural).\n\nCOMMON COMPOUNDS:\n- {自由|じゆう}{落下|らっか}: free fall\n- {落下物|らっかぶつ}: falling object\n- {落下|らっか}{傘|さん}: parachute\n- {落下|らっか}{地点|ちてん}: point of impact\n\nCOMMON COLLOCATIONS:\n- {落下|らっか}する: to fall, to drop\n- {落下|らっか}を{防|ふせ}ぐ: to prevent falling",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{落下|らっか}する",
+        "negative": "{落下|らっか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{落下|らっか}します",
+        "negative": "{落下|らっか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{落下|らっか}した",
+        "negative": "{落下|らっか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{落下|らっか}しました",
+        "negative": "{落下|らっか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{落下|らっか}して",
+        "negative": "{落下|らっか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{落下|らっか}している",
+        "negative": "{落下|らっか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{落下|らっか}しています",
+        "negative": "{落下|らっか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{落下|らっか}していた",
+        "negative": "{落下|らっか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{落下|らっか}していました",
+        "negative": "{落下|らっか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{落下|らっか}すれば",
+        "negative": "{落下|らっか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{落下|らっか}したら",
+        "negative": "{落下|らっか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{落下|らっか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{落下|らっか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{落下|らっか}できる",
+        "negative": "{落下|らっか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{落下|らっか}される",
+        "negative": "{落下|らっか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{落下|らっか}させる",
+        "negative": "{落下|らっか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{落下|らっか}しろ",
+        "negative": "{落下|らっか}するな"
+      }
+    ]
   }
 }

@@ -17,7 +17,9 @@
       "id": "14474_nagamochi_ex1",
       "japanese": "このバッテリーは{長持|ながも}ちする。",
       "english": "This battery lasts a long time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14474_nagamochi_ex2",
       "japanese": "{革|かわ}の{靴|くつ}は{手入|てい}れをすれば{長持|ながも}ちする。",
       "english": "Leather shoes last a long time if you take care of them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14474_nagamochi_ex3",
       "japanese": "{冷蔵庫|れいぞうこ}に{入|い}れておけば{野菜|やさい}が{長持|ながも}ちするが、{種類|しゅるい}によっては{常温|じょうおん}の{方|ほう}がいいものもある。",
       "english": "Putting vegetables in the refrigerator makes them last longer, but some types are better kept at room temperature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長持|ながも}ちする",
+        "negative": "{長持|ながも}ちしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長持|ながも}ちします",
+        "negative": "{長持|ながも}ちしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長持|ながも}ちした",
+        "negative": "{長持|ながも}ちしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長持|ながも}ちしました",
+        "negative": "{長持|ながも}ちしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長持|ながも}ちして",
+        "negative": "{長持|ながも}ちしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長持|ながも}ちしている",
+        "negative": "{長持|ながも}ちしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長持|ながも}ちしています",
+        "negative": "{長持|ながも}ちしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長持|ながも}ちしていた",
+        "negative": "{長持|ながも}ちしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長持|ながも}ちしていました",
+        "negative": "{長持|ながも}ちしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長持|ながも}ちすれば",
+        "negative": "{長持|ながも}ちしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長持|ながも}ちしたら",
+        "negative": "{長持|ながも}ちしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長持|ながも}ちしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長持|ながも}ちしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長持|ながも}ちできる",
+        "negative": "{長持|ながも}ちできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長持|ながも}ちされる",
+        "negative": "{長持|ながも}ちされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長持|ながも}ちさせる",
+        "negative": "{長持|ながも}ちさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長持|ながも}ちしろ",
+        "negative": "{長持|ながも}ちするな"
+      }
+    ]
   }
 }

@@ -18,7 +18,9 @@
       "english": "I scratch my head.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09647_kaku_ex2",
@@ -26,7 +28,9 @@
       "english": "You shouldn't scratch the scab.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09647_kaku_ex3",
@@ -34,7 +38,9 @@
       "english": "The mosquito bite was so itchy that I ended up scratching it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{掻|か}く means to scratch or scrape a surface, typically with fingernails. It is a godan verb with the pattern Xを{掻|か}く.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{掻|か}く\n\nASPECT (ている):\n{掻|か}いている describes the ongoing action of scratching.\n\nIDIOMS AND SET PHRASES:\n- {頭|あたま}を{掻|か}く: to scratch one's head (showing embarrassment or confusion)\n- {汗|あせ}を{掻|か}く: to sweat (note: different kanji/meaning)\n- {恥|はじ}を{掻|か}く: to be embarrassed, to lose face\n\nHOMOPHONES:\nNot to be confused with other verbs read かく:\n- {書|か}く: to write\n- {描|か}く: to draw\n- {欠|か}く: to lack",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{掻|か}く",
+        "negative": "{掻|か}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{掻|か}きます",
+        "negative": "{掻|か}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{掻|か}いた",
+        "negative": "{掻|か}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{掻|か}きました",
+        "negative": "{掻|か}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{掻|か}いて",
+        "negative": "{掻|か}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{掻|か}いている",
+        "negative": "{掻|か}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{掻|か}いています",
+        "negative": "{掻|か}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{掻|か}いていた",
+        "negative": "{掻|か}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{掻|か}いていました",
+        "negative": "{掻|か}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{掻|か}けば",
+        "negative": "{掻|か}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{掻|か}いたら",
+        "negative": "{掻|か}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{掻|か}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{掻|か}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{掻|か}ける",
+        "negative": "{掻|か}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{掻|か}かれる",
+        "negative": "{掻|か}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{掻|か}かせる",
+        "negative": "{掻|か}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{掻|か}け",
+        "negative": "{掻|か}くな"
+      }
+    ]
   }
 }

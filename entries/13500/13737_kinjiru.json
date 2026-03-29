@@ -24,7 +24,9 @@
       "english": "To prohibit smoking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13737_kinjiru_ex2",
@@ -32,7 +34,9 @@
       "english": "Fishing is prohibited in this area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13737_kinjiru_ex3",
@@ -40,7 +44,9 @@
       "english": "Drinking by minors is prohibited by law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13737_kinjiru_ex4",
@@ -48,7 +54,9 @@
       "english": "I could not hold back my tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13737_kinjiru_ex5",
@@ -56,7 +64,9 @@
       "english": "I cannot help but feel astonished.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13737_kinjiru_ex6",
@@ -64,7 +74,9 @@
       "english": "Seeing that tragic situation, I could not help but feel sympathy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nAn ichidan verb. The variant {禁|きん}ずる (classical form) also exists but {禁|きん}じる is standard in modern Japanese.\n\nSense 2 almost always appears in the fixed pattern ～を{禁|きん}じ{得|え}ない (cannot suppress, cannot help but feel). This is a formal, written expression.\n\nCOMMON COLLOCATIONS:\n- {喫煙|きつえん}を{禁|きん}じる: to prohibit smoking\n- {法律|ほうりつ}で{禁|きん}じる: to prohibit by law\n- {涙|なみだ}を{禁|きん}じ{得|え}ない: cannot hold back tears\n- {驚|おどろ}きを{禁|きん}じ{得|え}ない: cannot help but be amazed",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{禁|きん}じる",
+        "negative": "{禁|きん}じない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{禁|きん}じます",
+        "negative": "{禁|きん}じません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{禁|きん}じた",
+        "negative": "{禁|きん}じなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{禁|きん}じました",
+        "negative": "{禁|きん}じませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{禁|きん}じて",
+        "negative": "{禁|きん}じなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{禁|きん}じている",
+        "negative": "{禁|きん}じていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{禁|きん}じています",
+        "negative": "{禁|きん}じていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{禁|きん}じていた",
+        "negative": "{禁|きん}じていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{禁|きん}じていました",
+        "negative": "{禁|きん}じていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{禁|きん}じれば",
+        "negative": "{禁|きん}じなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{禁|きん}じたら",
+        "negative": "{禁|きん}じなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{禁|きん}じよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{禁|きん}じましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{禁|きん}じられる",
+        "negative": "{禁|きん}じられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{禁|きん}じられる",
+        "negative": "{禁|きん}じられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{禁|きん}じさせる",
+        "negative": "{禁|きん}じさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{禁|きん}じろ",
+        "negative": "{禁|きん}じるな"
+      }
+    ]
   }
 }

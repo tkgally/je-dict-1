@@ -19,7 +19,9 @@
       "english": "You must not scribble on the walls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14043_rakugaki_ex2",
@@ -27,7 +29,9 @@
       "english": "I was doodling in the margins of my notebook while listening to the lecture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14043_rakugaki_ex3",
@@ -35,7 +39,9 @@
       "english": "Graffiti on historic buildings has become a problem, and the city is considering installing surveillance cameras.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCovers a range from innocent doodling (in notebooks) to vandalism (on buildings and public property). The tone depends on context — a child's doodle is harmless, while graffiti on cultural heritage sites is a serious issue.\n\nCOMMON COLLOCATIONS:\n- {落書|らくが}きをする: to scribble, to doodle, to graffiti\n- {落書|らくが}きを{消|け}す: to remove graffiti\n- {落書|らくが}き{帳|ちょう}: sketchbook, doodle pad",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{落書|らくが}きする",
+        "negative": "{落書|らくが}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{落書|らくが}きします",
+        "negative": "{落書|らくが}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{落書|らくが}きした",
+        "negative": "{落書|らくが}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{落書|らくが}きしました",
+        "negative": "{落書|らくが}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{落書|らくが}きして",
+        "negative": "{落書|らくが}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{落書|らくが}きしている",
+        "negative": "{落書|らくが}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{落書|らくが}きしています",
+        "negative": "{落書|らくが}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{落書|らくが}きしていた",
+        "negative": "{落書|らくが}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{落書|らくが}きしていました",
+        "negative": "{落書|らくが}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{落書|らくが}きすれば",
+        "negative": "{落書|らくが}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{落書|らくが}きしたら",
+        "negative": "{落書|らくが}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{落書|らくが}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{落書|らくが}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{落書|らくが}きできる",
+        "negative": "{落書|らくが}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{落書|らくが}きされる",
+        "negative": "{落書|らくが}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{落書|らくが}きさせる",
+        "negative": "{落書|らくが}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{落書|らくが}きしろ",
+        "negative": "{落書|らくが}きするな"
+      }
+    ]
   }
 }

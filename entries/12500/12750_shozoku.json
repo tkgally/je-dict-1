@@ -19,7 +19,9 @@
       "english": "I belong to the soccer club.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12750_shozoku_ex2",
@@ -27,7 +29,9 @@
       "english": "He belongs to the sales department.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12750_shozoku_ex3",
@@ -35,7 +39,9 @@
       "english": "Please write the name and department of your affiliation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{所属|しょぞく} means belonging to or being affiliated with a group or organization. It is commonly used for workplace departments, sports teams, and academic institutions.\n\nPATTERN:\n- 〜に{所属|しょぞく}する: to belong to ~\n\nCOMMON COLLOCATIONS:\n- {所属|しょぞく}{先|さき}: one's affiliation, organization one belongs to\n- {所属|しょぞく}{部署|ぶしょ}: department one belongs to\n- {所属|しょぞく}{選手|せんしゅ}: affiliated player\n- {所属|しょぞく}{事務所|じむしょ}: talent agency one belongs to",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["society"]
+      "semantic": [
+        "society"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{所属|しょぞく}する",
+        "negative": "{所属|しょぞく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{所属|しょぞく}します",
+        "negative": "{所属|しょぞく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{所属|しょぞく}した",
+        "negative": "{所属|しょぞく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{所属|しょぞく}しました",
+        "negative": "{所属|しょぞく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{所属|しょぞく}して",
+        "negative": "{所属|しょぞく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{所属|しょぞく}している",
+        "negative": "{所属|しょぞく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{所属|しょぞく}しています",
+        "negative": "{所属|しょぞく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{所属|しょぞく}していた",
+        "negative": "{所属|しょぞく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{所属|しょぞく}していました",
+        "negative": "{所属|しょぞく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{所属|しょぞく}すれば",
+        "negative": "{所属|しょぞく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{所属|しょぞく}したら",
+        "negative": "{所属|しょぞく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{所属|しょぞく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{所属|しょぞく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{所属|しょぞく}できる",
+        "negative": "{所属|しょぞく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{所属|しょぞく}される",
+        "negative": "{所属|しょぞく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{所属|しょぞく}させる",
+        "negative": "{所属|しょぞく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{所属|しょぞく}しろ",
+        "negative": "{所属|しょぞく}するな"
+      }
+    ]
   }
 }

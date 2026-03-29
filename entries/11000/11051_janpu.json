@@ -19,7 +19,9 @@
       "english": "To jump high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11051_janpu_ex2",
@@ -27,7 +29,9 @@
       "english": "The children are playing by jumping on a trampoline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11051_janpu_ex3",
@@ -35,7 +39,9 @@
       "english": "The figure skater landed a beautiful jump and the arena erupted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nジャンプ is used both as a noun and as a suru-verb: ジャンプする (to jump). The native equivalent is {跳|と}ぶ/{飛|と}ぶ for the verb. ジャンプ is preferred in sports terminology (figure skating jumps, ski jumping) and casual contexts.\n\nAlso appears in the name of the manga magazine {週刊|しゅうかん}少年ジャンプ (Weekly Shonen Jump).\n\nCOMMON COLLOCATIONS:\n- ジャンプする: to jump\n- ジャンプを{決|き}める: to land a jump (in sports)\n- ジャンプ{力|りょく}: jumping ability\n- ジャンプ{台|だい}: jumping platform, ski jump hill",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ジャンプする",
+        "negative": "ジャンプしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ジャンプします",
+        "negative": "ジャンプしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ジャンプした",
+        "negative": "ジャンプしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ジャンプしました",
+        "negative": "ジャンプしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ジャンプして",
+        "negative": "ジャンプしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ジャンプしている",
+        "negative": "ジャンプしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ジャンプしています",
+        "negative": "ジャンプしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ジャンプしていた",
+        "negative": "ジャンプしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ジャンプしていました",
+        "negative": "ジャンプしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ジャンプすれば",
+        "negative": "ジャンプしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ジャンプしたら",
+        "negative": "ジャンプしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ジャンプしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ジャンプしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ジャンプできる",
+        "negative": "ジャンプできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ジャンプされる",
+        "negative": "ジャンプされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ジャンプさせる",
+        "negative": "ジャンプさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ジャンプしろ",
+        "negative": "ジャンプするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To sprawl on the sofa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14873_nesoberu_ex2",
@@ -27,7 +29,9 @@
       "english": "The cat is sprawled out in a sunny spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14873_nesoberu_ex3",
@@ -35,7 +39,9 @@
       "english": "On my day off, I spent the whole day lying on the grass reading a book.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{寝|ね}そべる is an intransitive godan verb. It emphasizes a relaxed, sprawled-out posture — not sleeping, but lying down idly.\n\nASPECT (ている):\n{寝|ね}そべっている describes someone currently lying sprawled out.\n\nPARTICLE PATTERNS:\n- ～に{寝|ね}そべる (to sprawl on a surface)\n- ～で{寝|ね}そべる (to lounge around in a place)\n\nCOMMON COLLOCATIONS:\n- ソファーに{寝|ね}そべる (to sprawl on the sofa)\n- {床|ゆか}に{寝|ね}そべる (to sprawl on the floor)\n- {芝生|しばふ}に{寝|ね}そべる (to lie on the grass)\n\nRELATED WORDS:\n{横|よこ}になる is a neutral way to say \"to lie down.\" {寝|ね}そべる adds the nuance of doing so lazily or casually, often with limbs spread out.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{寝|ね}そべる",
+        "negative": "{寝|ね}そべらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{寝|ね}そべります",
+        "negative": "{寝|ね}そべりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{寝|ね}そべった",
+        "negative": "{寝|ね}そべらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{寝|ね}そべりました",
+        "negative": "{寝|ね}そべりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{寝|ね}そべって",
+        "negative": "{寝|ね}そべらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{寝|ね}そべっている",
+        "negative": "{寝|ね}そべっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{寝|ね}そべっています",
+        "negative": "{寝|ね}そべっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{寝|ね}そべっていた",
+        "negative": "{寝|ね}そべっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{寝|ね}そべっていました",
+        "negative": "{寝|ね}そべっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{寝|ね}そべれば",
+        "negative": "{寝|ね}そべらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{寝|ね}そべったら",
+        "negative": "{寝|ね}そべらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{寝|ね}そべろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{寝|ね}そべりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{寝|ね}そべれる",
+        "negative": "{寝|ね}そべれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{寝|ね}そべられる",
+        "negative": "{寝|ね}そべられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{寝|ね}そべらせる",
+        "negative": "{寝|ね}そべらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{寝|ね}そべれ",
+        "negative": "{寝|ね}そべるな"
+      }
+    ]
   }
 }

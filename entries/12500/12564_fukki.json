@@ -19,7 +19,9 @@
       "english": "I'm returning to the workplace next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12564_fukki_ex2",
@@ -27,7 +29,9 @@
       "english": "The player who returned from injury scored a goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12564_fukki_ex3",
@@ -35,7 +39,9 @@
       "english": "Systems to support return from parental leave have been put in place.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in workplace, sports, and political contexts. The pattern Xに{復帰|ふっき}する (to return to X) or Xから{復帰|ふっき}する (to return from X) are both frequently used. Historically significant in {沖縄|おきなわ}{返還|へんかん}・{復帰|ふっき} (the reversion of Okinawa to Japan in 1972).\n\nCOMMON COLLOCATIONS:\n- {職場|しょくば}{復帰|ふっき}: return to the workplace\n- {現役|げんえき}{復帰|ふっき}: return to active duty/competition\n- {社会|しゃかい}{復帰|ふっき}: reintegration into society\n- {戦列|せんれつ}{復帰|ふっき}: return to the lineup (sports)",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-general"]
+      "semantic": [
+        "action-general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{復帰|ふっき}する",
+        "negative": "{復帰|ふっき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{復帰|ふっき}します",
+        "negative": "{復帰|ふっき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{復帰|ふっき}した",
+        "negative": "{復帰|ふっき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{復帰|ふっき}しました",
+        "negative": "{復帰|ふっき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{復帰|ふっき}して",
+        "negative": "{復帰|ふっき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{復帰|ふっき}している",
+        "negative": "{復帰|ふっき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{復帰|ふっき}しています",
+        "negative": "{復帰|ふっき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{復帰|ふっき}していた",
+        "negative": "{復帰|ふっき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{復帰|ふっき}していました",
+        "negative": "{復帰|ふっき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{復帰|ふっき}すれば",
+        "negative": "{復帰|ふっき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{復帰|ふっき}したら",
+        "negative": "{復帰|ふっき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{復帰|ふっき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{復帰|ふっき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{復帰|ふっき}できる",
+        "negative": "{復帰|ふっき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{復帰|ふっき}される",
+        "negative": "{復帰|ふっき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{復帰|ふっき}させる",
+        "negative": "{復帰|ふっき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{復帰|ふっき}しろ",
+        "negative": "{復帰|ふっき}するな"
+      }
+    ]
   }
 }

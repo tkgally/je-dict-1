@@ -24,7 +24,9 @@
       "english": "To rush to the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10486_haseru_ex2",
@@ -32,7 +34,9 @@
       "english": "Upon hearing the news, I rushed over.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10486_haseru_ex3",
@@ -40,7 +44,9 @@
       "english": "To make a name for oneself.",
       "notes": "Set expression",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10486_haseru_ex4",
@@ -48,7 +54,9 @@
       "english": "To think fondly of one's hometown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10486_haseru_ex5",
@@ -56,7 +64,9 @@
       "english": "I let my thoughts wander to the distant past.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10486_haseru_ex6",
@@ -64,7 +74,9 @@
       "english": "Thinking of the people in the disaster area, I decided to donate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (ichidan):\n- Negative: {馳|は}せない\n- Te-form: {馳|は}せて\n- Past: {馳|は}せた\n- Potential: {馳|は}せられる\n\nCOMMON SET PHRASES:\n- {思|おも}いを{馳|は}せる: to send one's thoughts to, think of (the most common usage)\n- {名|な}を{馳|は}せる: to make a name for oneself, become famous\n- {馳|は}せ{参|さん}じる: to rush to join, hasten to participate\n\nNOTE:\nIn modern Japanese, sense 2 ({思|おも}いを{馳|は}せる) is far more common than the literal rushing meaning. The word has a literary, somewhat elevated tone.",
@@ -75,13 +87,111 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "both",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "literary"],
-      "semantic": ["movement", "thought-emotion"]
+      "style": [
+        "written",
+        "literary"
+      ],
+      "semantic": [
+        "movement",
+        "thought-emotion"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{馳|は}せる",
+        "negative": "{馳|は}せない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{馳|は}せます",
+        "negative": "{馳|は}せません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{馳|は}せた",
+        "negative": "{馳|は}せなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{馳|は}せました",
+        "negative": "{馳|は}せませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{馳|は}せて",
+        "negative": "{馳|は}せなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{馳|は}せている",
+        "negative": "{馳|は}せていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{馳|は}せています",
+        "negative": "{馳|は}せていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{馳|は}せていた",
+        "negative": "{馳|は}せていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{馳|は}せていました",
+        "negative": "{馳|は}せていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{馳|は}せれば",
+        "negative": "{馳|は}せなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{馳|は}せたら",
+        "negative": "{馳|は}せなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{馳|は}せよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{馳|は}せましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{馳|は}せられる",
+        "negative": "{馳|は}せられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{馳|は}せられる",
+        "negative": "{馳|は}せられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{馳|は}せさせる",
+        "negative": "{馳|は}せさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{馳|は}せろ",
+        "negative": "{馳|は}せるな"
+      }
+    ]
   }
 }

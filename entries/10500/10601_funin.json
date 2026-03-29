@@ -19,7 +19,9 @@
       "english": "I'm taking up a new post in Osaka next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10601_funin_ex2",
@@ -27,7 +29,9 @@
       "english": "My overseas assignment has been decided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10601_funin_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to an unaccompanied transfer, I ended up living apart from my family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a する verb: {赴任|ふにん}する (to take up a new post). Implies relocation — simply starting a new job at the same location would not be {赴任|ふにん}.\n\nCOMMON COLLOCATIONS:\n- {赴任|ふにん}する: to take up a new post\n- {海外|かいがい}{赴任|ふにん}: overseas assignment\n- {単身|たんしん}{赴任|ふにん}: unaccompanied transfer (going alone without family)\n- {赴任先|ふにんさき}: assignment location, new post\n- {赴任|ふにん}{手当|てあて}: relocation allowance\n\nCULTURAL NOTE:\n{単身|たんしん}{赴任|ふにん} (living apart from family due to a work transfer) is a common phenomenon in Japanese corporate life, where employees may be transferred to distant offices. The family often stays behind due to children's schooling or housing.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["work"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{赴任|ふにん}する",
+        "negative": "{赴任|ふにん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{赴任|ふにん}します",
+        "negative": "{赴任|ふにん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{赴任|ふにん}した",
+        "negative": "{赴任|ふにん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{赴任|ふにん}しました",
+        "negative": "{赴任|ふにん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{赴任|ふにん}して",
+        "negative": "{赴任|ふにん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{赴任|ふにん}している",
+        "negative": "{赴任|ふにん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{赴任|ふにん}しています",
+        "negative": "{赴任|ふにん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{赴任|ふにん}していた",
+        "negative": "{赴任|ふにん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{赴任|ふにん}していました",
+        "negative": "{赴任|ふにん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{赴任|ふにん}すれば",
+        "negative": "{赴任|ふにん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{赴任|ふにん}したら",
+        "negative": "{赴任|ふにん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{赴任|ふにん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{赴任|ふにん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{赴任|ふにん}できる",
+        "negative": "{赴任|ふにん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{赴任|ふにん}される",
+        "negative": "{赴任|ふにん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{赴任|ふにん}させる",
+        "negative": "{赴任|ふにん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{赴任|ふにん}しろ",
+        "negative": "{赴任|ふにん}するな"
+      }
+    ]
   }
 }

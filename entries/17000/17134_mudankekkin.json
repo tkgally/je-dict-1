@@ -19,7 +19,9 @@
       "english": "Unauthorized absence from work is not tolerated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17134_mudankekkin_ex2",
@@ -27,7 +29,9 @@
       "english": "He was absent from work for three days without notice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17134_mudankekkin_ex3",
@@ -35,7 +39,9 @@
       "english": "Continued unauthorized absences can become grounds for dismissal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA four-character compound of {無断|むだん} (without permission) + {欠勤|けっきん} (absence from work). Used as a suru verb ({無断欠勤|むだんけっきん}する). This is considered a serious infraction in Japanese workplaces.\n\nCOMMON COLLOCATIONS:\n- {無断欠勤|むだんけっきん}する (to be absent without notice)\n- {無断欠勤|むだんけっきん}が{続|つづ}く (unauthorized absences continue)\n- {無断欠勤|むだんけっきん}を{繰|く}り{返|かえ}す (to repeatedly be absent without notice)\n\nSIMILAR WORDS:\n- {欠勤|けっきん}: absence from work — the general term, not necessarily unauthorized\n- {無断|むだん}{欠席|けっせき}: unauthorized absence — used for school or meetings rather than work",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{無断欠勤|むだんけっきん}する",
+        "negative": "{無断欠勤|むだんけっきん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{無断欠勤|むだんけっきん}します",
+        "negative": "{無断欠勤|むだんけっきん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{無断欠勤|むだんけっきん}した",
+        "negative": "{無断欠勤|むだんけっきん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{無断欠勤|むだんけっきん}しました",
+        "negative": "{無断欠勤|むだんけっきん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{無断欠勤|むだんけっきん}して",
+        "negative": "{無断欠勤|むだんけっきん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{無断欠勤|むだんけっきん}している",
+        "negative": "{無断欠勤|むだんけっきん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{無断欠勤|むだんけっきん}しています",
+        "negative": "{無断欠勤|むだんけっきん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{無断欠勤|むだんけっきん}していた",
+        "negative": "{無断欠勤|むだんけっきん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{無断欠勤|むだんけっきん}していました",
+        "negative": "{無断欠勤|むだんけっきん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{無断欠勤|むだんけっきん}すれば",
+        "negative": "{無断欠勤|むだんけっきん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{無断欠勤|むだんけっきん}したら",
+        "negative": "{無断欠勤|むだんけっきん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{無断欠勤|むだんけっきん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{無断欠勤|むだんけっきん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{無断欠勤|むだんけっきん}できる",
+        "negative": "{無断欠勤|むだんけっきん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{無断欠勤|むだんけっきん}される",
+        "negative": "{無断欠勤|むだんけっきん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{無断欠勤|むだんけっきん}させる",
+        "negative": "{無断欠勤|むだんけっきん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{無断欠勤|むだんけっきん}しろ",
+        "negative": "{無断欠勤|むだんけっきん}するな"
+      }
+    ]
   }
 }

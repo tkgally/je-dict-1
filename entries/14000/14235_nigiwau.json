@@ -19,7 +19,9 @@
       "english": "The shopping street is bustling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14235_nigiwau_ex2",
@@ -27,7 +29,9 @@
       "english": "On weekends, this park bustles with families.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14235_nigiwau_ex3",
@@ -35,7 +39,9 @@
       "english": "When cherry blossom viewing season arrives, Ueno Park bustles with crowds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{賑|にぎ}わう is an intransitive verb. The place that is bustling is the subject, and the people or things making it lively are marked with で ({観光客|かんこうきゃく}で{賑|にぎ}わう — bustling with tourists). It carries a positive connotation of prosperity and liveliness.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}で{賑|にぎ}わう: to be bustling with people\n- {観光客|かんこうきゃく}で{賑|にぎ}わう: to be bustling with tourists\n- {大|おお}いに{賑|にぎ}わう: to be very lively\n- {賑|にぎ}わいを{見|み}せる: to show liveliness\n- {賑|にぎ}わいを{取|と}り{戻|もど}す: to regain bustling activity\n\nSIMILAR WORDS:\n{混|こ}む (to be crowded) is neutral and can be negative (uncomfortably crowded). {賑|にぎ}わう is positive, implying prosperity and cheerful energy, not just crowding. {繁盛|はんじょう}する (to prosper, to do good business) focuses on commercial success.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{賑|にぎ}わう",
+        "negative": "{賑|にぎ}わわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{賑|にぎ}わいます",
+        "negative": "{賑|にぎ}わいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{賑|にぎ}わった",
+        "negative": "{賑|にぎ}わわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{賑|にぎ}わいました",
+        "negative": "{賑|にぎ}わいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{賑|にぎ}わって",
+        "negative": "{賑|にぎ}わわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{賑|にぎ}わっている",
+        "negative": "{賑|にぎ}わっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{賑|にぎ}わっています",
+        "negative": "{賑|にぎ}わっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{賑|にぎ}わっていた",
+        "negative": "{賑|にぎ}わっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{賑|にぎ}わっていました",
+        "negative": "{賑|にぎ}わっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{賑|にぎ}わえば",
+        "negative": "{賑|にぎ}わわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{賑|にぎ}わったら",
+        "negative": "{賑|にぎ}わわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{賑|にぎ}わおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{賑|にぎ}わいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{賑|にぎ}わえる",
+        "negative": "{賑|にぎ}わえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{賑|にぎ}わわれる",
+        "negative": "{賑|にぎ}わわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{賑|にぎ}わわせる",
+        "negative": "{賑|にぎ}わわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{賑|にぎ}わえ",
+        "negative": "{賑|にぎ}わうな"
+      }
+    ]
   }
 }

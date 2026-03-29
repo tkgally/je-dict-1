@@ -19,7 +19,9 @@
       "english": "I say this as a warning to myself as well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14016_jikai_ex2",
@@ -27,7 +29,9 @@
       "english": "I warned myself not to repeat the same mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14016_jikai_ex3",
@@ -35,7 +39,9 @@
       "english": "He keeps that experience engraved in his heart as a reminder to himself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {自|じ} (self) and {戒|かい} (admonition, warning). Can be used as a noun or as a suru verb ({自戒|じかい}する).\n\nCOMMON COLLOCATIONS:\n- {自戒|じかい}を{込|こ}めて (with self-admonition; including a warning to oneself)\n- {自戒|じかい}の{念|ねん} (a sense of self-admonition)\n- {自戒|じかい}する (to admonish oneself)\n\nThe phrase {自戒|じかい}を{込|こ}めて is commonly used when someone criticizes a behavior while acknowledging they are also guilty of it — similar to saying \"speaking from my own experience\" or \"I need to hear this too.\" Note the homophone {次回|じかい} (next time), which is a completely different word.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自戒|じかい}する",
+        "negative": "{自戒|じかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自戒|じかい}します",
+        "negative": "{自戒|じかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自戒|じかい}した",
+        "negative": "{自戒|じかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自戒|じかい}しました",
+        "negative": "{自戒|じかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自戒|じかい}して",
+        "negative": "{自戒|じかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自戒|じかい}している",
+        "negative": "{自戒|じかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自戒|じかい}しています",
+        "negative": "{自戒|じかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自戒|じかい}していた",
+        "negative": "{自戒|じかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自戒|じかい}していました",
+        "negative": "{自戒|じかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自戒|じかい}すれば",
+        "negative": "{自戒|じかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自戒|じかい}したら",
+        "negative": "{自戒|じかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自戒|じかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自戒|じかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自戒|じかい}できる",
+        "negative": "{自戒|じかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自戒|じかい}される",
+        "negative": "{自戒|じかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自戒|じかい}させる",
+        "negative": "{自戒|じかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自戒|じかい}しろ",
+        "negative": "{自戒|じかい}するな"
+      }
+    ]
   }
 }

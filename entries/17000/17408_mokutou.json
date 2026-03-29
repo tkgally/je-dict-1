@@ -19,7 +19,9 @@
       "english": "Offer a moment of silent prayer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17408_mokutou_ex2",
@@ -27,7 +29,9 @@
       "english": "A one-minute moment of silence was held for the victims.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17408_mokutou_ex3",
@@ -35,7 +39,9 @@
       "english": "The ceremony began with a moment of silence by all attendees, quietly remembering those who had passed away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {黙|もく} (silence) and {祷|とう} (prayer). Used as both a noun and a suru verb ({黙祷|もくとう}する). At Japanese memorial services, the emcee typically announces {黙祷|もくとう} to signal the start and {黙祷|もくとう}やめ or お{直|なお}りください to signal the end.\n\nCOMMON COLLOCATIONS:\n- {黙祷|もくとう}を{捧|ささ}げる (to offer a moment of silence)\n- {黙祷|もくとう}する (to observe a moment of silence)\n- {一分間|いっぷんかん}の{黙祷|もくとう} (a one-minute moment of silence)\n- {黙祷|もくとう}！ (Silence! — announcement at ceremonies)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture-tradition", "religion"]
+      "semantic": [
+        "culture-tradition",
+        "religion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{黙祷|もくとう}する",
+        "negative": "{黙祷|もくとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{黙祷|もくとう}します",
+        "negative": "{黙祷|もくとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{黙祷|もくとう}した",
+        "negative": "{黙祷|もくとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{黙祷|もくとう}しました",
+        "negative": "{黙祷|もくとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{黙祷|もくとう}して",
+        "negative": "{黙祷|もくとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{黙祷|もくとう}している",
+        "negative": "{黙祷|もくとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{黙祷|もくとう}しています",
+        "negative": "{黙祷|もくとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{黙祷|もくとう}していた",
+        "negative": "{黙祷|もくとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{黙祷|もくとう}していました",
+        "negative": "{黙祷|もくとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{黙祷|もくとう}すれば",
+        "negative": "{黙祷|もくとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{黙祷|もくとう}したら",
+        "negative": "{黙祷|もくとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{黙祷|もくとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{黙祷|もくとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{黙祷|もくとう}できる",
+        "negative": "{黙祷|もくとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{黙祷|もくとう}される",
+        "negative": "{黙祷|もくとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{黙祷|もくとう}させる",
+        "negative": "{黙祷|もくとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{黙祷|もくとう}しろ",
+        "negative": "{黙祷|もくとう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I got dumped by my girlfriend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17448_furareru_ex2",
@@ -27,7 +29,9 @@
       "english": "I confessed my feelings, but I got rejected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17448_furareru_ex3",
@@ -35,7 +39,9 @@
       "english": "No matter how many times I get rejected, I intend to confess again without giving up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in everyday conversation about relationships. This is the passive form of {振|ふ}る (to dump someone), but it is used so frequently that it functions almost as its own word.\n\nCOMMON COLLOCATIONS:\n- {彼氏|かれし}に{振|ふ}られる (to be dumped by one's boyfriend)\n- {彼女|かのじょ}に{振|ふ}られる (to be dumped by one's girlfriend)\n- {告白|こくはく}して{振|ふ}られる (to confess and be rejected)\n- {振|ふ}られた{経験|けいけん} (experience of being rejected)\n\nSIMILAR WORDS:\n- {断|ことわ}られる: to be refused — broader term, not specific to romance\n- フラれる: alternate spelling using katakana フラ, common in casual writing",
@@ -46,11 +52,102 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "communication"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion",
+        "communication"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{振|ふ}られる",
+        "negative": "{振|ふ}られない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{振|ふ}られます",
+        "negative": "{振|ふ}られません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{振|ふ}られた",
+        "negative": "{振|ふ}られなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{振|ふ}られました",
+        "negative": "{振|ふ}られませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{振|ふ}られて",
+        "negative": "{振|ふ}られなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{振|ふ}られている",
+        "negative": "{振|ふ}られていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{振|ふ}られています",
+        "negative": "{振|ふ}られていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{振|ふ}られていた",
+        "negative": "{振|ふ}られていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{振|ふ}られていました",
+        "negative": "{振|ふ}られていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{振|ふ}られれば",
+        "negative": "{振|ふ}られなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{振|ふ}られたら",
+        "negative": "{振|ふ}られなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{振|ふ}られよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{振|ふ}られましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{振|ふ}られられる",
+        "negative": "{振|ふ}られられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{振|ふ}られさせる",
+        "negative": "{振|ふ}られさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{振|ふ}られろ",
+        "negative": "{振|ふ}られるな"
+      }
+    ]
   }
 }

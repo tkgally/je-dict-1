@@ -19,7 +19,9 @@
       "english": "This land is rich in nature.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12343_tomu_ex2",
@@ -27,7 +29,9 @@
       "english": "I want to consult someone rich in experience.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12343_tomu_ex3",
@@ -35,7 +39,9 @@
       "english": "This region is known for being rich in mineral resources.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nAlmost always used in the ている form ({富|と}んでいる) to describe an ongoing state of abundance. The pattern is Xに{富|と}む (to be rich in X).\n\nCOLLOCATIONS:\n- {経験|けいけん}に{富|と}む — rich in experience\n- {変化|へんか}に{富|と}む — full of variety\n- {才能|さいのう}に{富|と}む — rich in talent\n- {栄養|えいよう}に{富|と}む — rich in nutrition\n- {資源|しげん}に{富|と}む — rich in resources\n\nNOTE:\n{富|と}む is primarily used in written and formal contexts. In everyday speech, {豊|ゆた}かな is more common to express the same idea (e.g., {経験|けいけん}{豊|ゆた}かな{人|ひと}).",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{富|と}む",
+        "negative": "{富|と}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{富|と}みます",
+        "negative": "{富|と}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{富|と}んだ",
+        "negative": "{富|と}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{富|と}みました",
+        "negative": "{富|と}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{富|と}んで",
+        "negative": "{富|と}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{富|と}んでいる",
+        "negative": "{富|と}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{富|と}んでいます",
+        "negative": "{富|と}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{富|と}んでいた",
+        "negative": "{富|と}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{富|と}んでいました",
+        "negative": "{富|と}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{富|と}めば",
+        "negative": "{富|と}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{富|と}んだら",
+        "negative": "{富|と}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{富|と}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{富|と}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{富|と}める",
+        "negative": "{富|と}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{富|と}まれる",
+        "negative": "{富|と}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{富|と}ませる",
+        "negative": "{富|と}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{富|と}め",
+        "negative": "{富|と}むな"
+      }
+    ]
   }
 }

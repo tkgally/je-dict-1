@@ -19,7 +19,9 @@
       "english": "A guardian must accompany you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15292_douhan_ex2",
@@ -27,7 +29,9 @@
       "english": "Children can enter if accompanied by an adult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15292_douhan_ex3",
@@ -35,7 +39,9 @@
       "english": "This movie cannot be viewed by those under eighteen without parental accompaniment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{同伴|どうはん} is a formal word used in official rules, regulations, and announcements. It commonly appears in phrases like {保護者|ほごしゃ}{同伴|どうはん} (accompanied by a guardian) at venues, movies, and events.\n\nCOMMON COLLOCATIONS:\n- {保護者|ほごしゃ}{同伴|どうはん} (accompanied by a guardian)\n- {同伴者|どうはんしゃ} (companion, accompanying person)\n- {同伴|どうはん}{入場|にゅうじょう} (entry with a companion)\n\nSIMILAR WORDS:\n{一緒|いっしょ}に is the everyday equivalent. {同伴|どうはん} is more formal and often implies a requirement or condition.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["social"]
+      "semantic": [
+        "social"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{同伴|どうはん}する",
+        "negative": "{同伴|どうはん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{同伴|どうはん}します",
+        "negative": "{同伴|どうはん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{同伴|どうはん}した",
+        "negative": "{同伴|どうはん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{同伴|どうはん}しました",
+        "negative": "{同伴|どうはん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{同伴|どうはん}して",
+        "negative": "{同伴|どうはん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{同伴|どうはん}している",
+        "negative": "{同伴|どうはん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{同伴|どうはん}しています",
+        "negative": "{同伴|どうはん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{同伴|どうはん}していた",
+        "negative": "{同伴|どうはん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{同伴|どうはん}していました",
+        "negative": "{同伴|どうはん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{同伴|どうはん}すれば",
+        "negative": "{同伴|どうはん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{同伴|どうはん}したら",
+        "negative": "{同伴|どうはん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{同伴|どうはん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{同伴|どうはん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{同伴|どうはん}できる",
+        "negative": "{同伴|どうはん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{同伴|どうはん}される",
+        "negative": "{同伴|どうはん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{同伴|どうはん}させる",
+        "negative": "{同伴|どうはん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{同伴|どうはん}しろ",
+        "negative": "{同伴|どうはん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I looked after my drunk friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15848_kaihou_ex2",
@@ -27,7 +29,9 @@
       "english": "Someone quickly appeared to tend to the person who collapsed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15848_kaihou_ex3",
@@ -35,7 +39,9 @@
       "english": "She spent all night nursing her sick child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\n{介抱|かいほう}する is used as a する verb meaning \"to nurse, to tend to.\"\n\nUSAGE:\n{介抱|かいほう} often implies personal, hands-on care in an immediate situation — helping someone who has collapsed, nursing a drunk person, or tending to someone who is suddenly ill. It differs from {看護|かんご} (professional nursing) and {介護|かいご} (long-term caregiving).\n\nCOMMON COLLOCATIONS:\n- {酔|よ}っ{払|ぱら}いを{介抱|かいほう}する (to look after a drunk person)\n- {怪我人|けがにん}を{介抱|かいほう}する (to tend to an injured person)",
@@ -53,10 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "action"]
+      "semantic": [
+        "health",
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{介抱|かいほう}する",
+        "negative": "{介抱|かいほう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{介抱|かいほう}します",
+        "negative": "{介抱|かいほう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{介抱|かいほう}した",
+        "negative": "{介抱|かいほう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{介抱|かいほう}しました",
+        "negative": "{介抱|かいほう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{介抱|かいほう}して",
+        "negative": "{介抱|かいほう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{介抱|かいほう}している",
+        "negative": "{介抱|かいほう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{介抱|かいほう}しています",
+        "negative": "{介抱|かいほう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{介抱|かいほう}していた",
+        "negative": "{介抱|かいほう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{介抱|かいほう}していました",
+        "negative": "{介抱|かいほう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{介抱|かいほう}すれば",
+        "negative": "{介抱|かいほう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{介抱|かいほう}したら",
+        "negative": "{介抱|かいほう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{介抱|かいほう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{介抱|かいほう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{介抱|かいほう}できる",
+        "negative": "{介抱|かいほう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{介抱|かいほう}される",
+        "negative": "{介抱|かいほう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{介抱|かいほう}させる",
+        "negative": "{介抱|かいほう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{介抱|かいほう}しろ",
+        "negative": "{介抱|かいほう}するな"
+      }
+    ]
   }
 }

@@ -16,7 +16,9 @@
       "id": "09124_kogoeru_ex1",
       "japanese": "{手|て}が{凍|こご}えた。",
       "english": "My hands are frozen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09124_kogoeru_ex2",
       "japanese": "{寒|さむ}さで{体|からだ}が{凍|こご}えそうだ。",
       "english": "I'm freezing from the cold.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09124_kogoeru_ex3",
       "japanese": "{凍|こご}えるような{冬|ふゆ}の{朝|あさ}に、{彼|かれ}は{早起|はやお}きして{走|はし}りに{出|で}た。",
       "english": "On a freezing winter morning, he woke up early and went out for a run.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{凍|こご}える",
+        "negative": "{凍|こご}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{凍|こご}えます",
+        "negative": "{凍|こご}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{凍|こご}えた",
+        "negative": "{凍|こご}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{凍|こご}えました",
+        "negative": "{凍|こご}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{凍|こご}えて",
+        "negative": "{凍|こご}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{凍|こご}えている",
+        "negative": "{凍|こご}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{凍|こご}えています",
+        "negative": "{凍|こご}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{凍|こご}えていた",
+        "negative": "{凍|こご}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{凍|こご}えていました",
+        "negative": "{凍|こご}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{凍|こご}えれば",
+        "negative": "{凍|こご}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{凍|こご}えたら",
+        "negative": "{凍|こご}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{凍|こご}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{凍|こご}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{凍|こご}えられる",
+        "negative": "{凍|こご}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{凍|こご}えられる",
+        "negative": "{凍|こご}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{凍|こご}えさせる",
+        "negative": "{凍|こご}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{凍|こご}えろ",
+        "negative": "{凍|こご}えるな"
+      }
+    ]
   }
 }

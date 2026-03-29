@@ -19,7 +19,9 @@
       "english": "The perpetrator sniped from the rooftop of a building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17429_sogeki_ex2",
@@ -27,7 +29,9 @@
       "english": "Snipers were positioned in the building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17429_sogeki_ex3",
@@ -35,7 +39,9 @@
       "english": "News that the president had been shot spread around the world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAppears frequently in news reports, military contexts, and fiction (movies, games, novels). Implies a targeted, precise shot from a distance or concealed position.\n\nCOMMON COLLOCATIONS:\n- {狙撃|そげき}{手|しゅ} (sniper)\n- {狙撃|そげき}{銃|じゅう} (sniper rifle)\n- {狙撃|そげき}される (to be shot/sniped)\n- {狙撃|そげき}{事件|じけん} (shooting incident)\n\nSIMILAR WORDS:\n- {射撃|しゃげき}: shooting, firing — general term for shooting a gun\n- {狙撃|そげき}: sniping — specifically aiming at a target from a hidden position\n- {銃撃|じゅうげき}: gunfire — firing shots in general",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military", "crime"]
+      "semantic": [
+        "military",
+        "crime"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{狙撃|そげき}する",
+        "negative": "{狙撃|そげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{狙撃|そげき}します",
+        "negative": "{狙撃|そげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{狙撃|そげき}した",
+        "negative": "{狙撃|そげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{狙撃|そげき}しました",
+        "negative": "{狙撃|そげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{狙撃|そげき}して",
+        "negative": "{狙撃|そげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{狙撃|そげき}している",
+        "negative": "{狙撃|そげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{狙撃|そげき}しています",
+        "negative": "{狙撃|そげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{狙撃|そげき}していた",
+        "negative": "{狙撃|そげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{狙撃|そげき}していました",
+        "negative": "{狙撃|そげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{狙撃|そげき}すれば",
+        "negative": "{狙撃|そげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{狙撃|そげき}したら",
+        "negative": "{狙撃|そげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{狙撃|そげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{狙撃|そげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{狙撃|そげき}できる",
+        "negative": "{狙撃|そげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{狙撃|そげき}される",
+        "negative": "{狙撃|そげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{狙撃|そげき}させる",
+        "negative": "{狙撃|そげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{狙撃|そげき}しろ",
+        "negative": "{狙撃|そげき}するな"
+      }
+    ]
   }
 }

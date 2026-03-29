@@ -19,7 +19,9 @@
       "english": "The train slowly started moving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18597_ugokidasu_ex2",
@@ -27,7 +29,9 @@
       "english": "The plan finally got into motion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18597_ugokidasu_ex3",
@@ -35,7 +39,9 @@
       "english": "When spring comes, the hibernating animals begin to stir.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\nCompound verb: {動|うご}く (to move) + {出|だ}す (to begin). The ～{出|だ}す pattern indicates the beginning of an action: {歩|ある}き{出|だ}す (to start walking), {泣|な}き{出|だ}す (to start crying), {降|ふ}り{出|だ}す (to start raining).\n\nCOMMON COLLOCATIONS:\n- ゆっくり{動|うご}き{出|だ}す (to start moving slowly)\n- いよいよ{動|うご}き{出|だ}す (to finally get going)\n- {一斉|いっせい}に{動|うご}き{出|だ}す (to all start moving at once)\n\nSIMILAR WORDS:\n- {動|うご}き{始|はじ}める: to begin to move — synonymous, slightly more formal\n- {始動|しどう}する: to start up — technical, for machines and engines\n- {発進|はっしん}する: to depart, to set off — for vehicles",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{動|うご}き{出|だ}す",
+        "negative": "{動|うご}き{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{動|うご}き{出|だ}します",
+        "negative": "{動|うご}き{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{動|うご}き{出|だ}した",
+        "negative": "{動|うご}き{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{動|うご}き{出|だ}しました",
+        "negative": "{動|うご}き{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{動|うご}き{出|だ}して",
+        "negative": "{動|うご}き{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{動|うご}き{出|だ}している",
+        "negative": "{動|うご}き{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{動|うご}き{出|だ}しています",
+        "negative": "{動|うご}き{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{動|うご}き{出|だ}していた",
+        "negative": "{動|うご}き{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{動|うご}き{出|だ}していました",
+        "negative": "{動|うご}き{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{動|うご}き{出|だ}せば",
+        "negative": "{動|うご}き{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{動|うご}き{出|だ}したら",
+        "negative": "{動|うご}き{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{動|うご}き{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{動|うご}き{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{動|うご}き{出|だ}せる",
+        "negative": "{動|うご}き{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{動|うご}き{出|だ}される",
+        "negative": "{動|うご}き{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{動|うご}き{出|だ}させる",
+        "negative": "{動|うご}き{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{動|うご}き{出|だ}せ",
+        "negative": "{動|うご}き{出|だ}すな"
+      }
+    ]
   }
 }

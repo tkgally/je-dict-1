@@ -19,7 +19,9 @@
       "english": "Stress triggers illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14240_yuuhatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Heavy rain triggered a landslide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14240_yuuhatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "This medicine may trigger an allergic reaction, so caution is needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{誘発|ゆうはつ} means to induce or trigger something, typically something undesirable such as a disease, disaster, or negative reaction. It implies an indirect causal relationship.\n\nCOMMON COLLOCATIONS:\n- {病気|びょうき}を{誘発|ゆうはつ}する (trigger an illness)\n- {事故|じこ}を{誘発|ゆうはつ}する (cause an accident)\n- アレルギーを{誘発|ゆうはつ}する (trigger an allergy)\n\nSIMILAR WORDS:\n- {誘発|ゆうはつ} vs {引|ひ}き{起|お}こす: {誘発|ゆうはつ} is more formal and implies an indirect cause, while {引|ひ}き{起|お}こす is more general and can describe direct causation.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{誘発|ゆうはつ}する",
+        "negative": "{誘発|ゆうはつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{誘発|ゆうはつ}します",
+        "negative": "{誘発|ゆうはつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{誘発|ゆうはつ}した",
+        "negative": "{誘発|ゆうはつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{誘発|ゆうはつ}しました",
+        "negative": "{誘発|ゆうはつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{誘発|ゆうはつ}して",
+        "negative": "{誘発|ゆうはつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{誘発|ゆうはつ}している",
+        "negative": "{誘発|ゆうはつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{誘発|ゆうはつ}しています",
+        "negative": "{誘発|ゆうはつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{誘発|ゆうはつ}していた",
+        "negative": "{誘発|ゆうはつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{誘発|ゆうはつ}していました",
+        "negative": "{誘発|ゆうはつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{誘発|ゆうはつ}すれば",
+        "negative": "{誘発|ゆうはつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{誘発|ゆうはつ}したら",
+        "negative": "{誘発|ゆうはつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{誘発|ゆうはつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{誘発|ゆうはつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{誘発|ゆうはつ}できる",
+        "negative": "{誘発|ゆうはつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{誘発|ゆうはつ}される",
+        "negative": "{誘発|ゆうはつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{誘発|ゆうはつ}させる",
+        "negative": "{誘発|ゆうはつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{誘発|ゆうはつ}しろ",
+        "negative": "{誘発|ゆうはつ}するな"
+      }
+    ]
   }
 }

@@ -18,7 +18,9 @@
       "english": "In autumn, the ginkgo trees turn yellow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10074_irozuku_ex2",
@@ -26,7 +28,9 @@
       "english": "The autumn leaves have started to change color.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10074_irozuku_ex3",
@@ -34,7 +38,9 @@
       "english": "The tomatoes have turned red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xが{色|いろ}づく.\n\nASPECT: ている indicates a state of having changed color.\n\nCOMMON PATTERNS:\n・{葉|は}が{色|いろ}づく (leaves change color)\n・{紅葉|こうよう}が{色|いろ}づく (autumn foliage turns color)\n・{赤|あか}く{色|いろ}づく (to turn red)\n・{黄色|きいろ}く{色|いろ}づく (to turn yellow)\n\nSEASON: This verb is particularly associated with autumn ({秋|あき}) when describing foliage.",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{色|いろ}づく",
+        "negative": "{色|いろ}づかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{色|いろ}づきます",
+        "negative": "{色|いろ}づきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{色|いろ}づいた",
+        "negative": "{色|いろ}づかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{色|いろ}づきました",
+        "negative": "{色|いろ}づきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{色|いろ}づいて",
+        "negative": "{色|いろ}づかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{色|いろ}づいている",
+        "negative": "{色|いろ}づいていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{色|いろ}づいています",
+        "negative": "{色|いろ}づいていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{色|いろ}づいていた",
+        "negative": "{色|いろ}づいていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{色|いろ}づいていました",
+        "negative": "{色|いろ}づいていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{色|いろ}づけば",
+        "negative": "{色|いろ}づかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{色|いろ}づいたら",
+        "negative": "{色|いろ}づかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{色|いろ}づこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{色|いろ}づきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{色|いろ}づける",
+        "negative": "{色|いろ}づけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{色|いろ}づかれる",
+        "negative": "{色|いろ}づかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{色|いろ}づかせる",
+        "negative": "{色|いろ}づかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{色|いろ}づけ",
+        "negative": "{色|いろ}づくな"
+      }
+    ]
   }
 }

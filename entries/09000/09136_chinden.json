@@ -16,7 +16,9 @@
       "id": "09136_chinden_ex1",
       "japanese": "{沈殿物|ちんでんぶつ}を{取|と}り{除|のぞ}く",
       "english": "to remove the sediment",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09136_chinden_ex2",
       "japanese": "{砂|すな}が{底|そこ}に{沈殿|ちんでん}した。",
       "english": "Sand settled at the bottom.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09136_chinden_ex3",
       "japanese": "{化学|かがく}{反応|はんのう}によって{白|しろ}い{沈殿|ちんでん}が{生|しょう}じた。",
       "english": "A white precipitate formed from the chemical reaction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{沈殿|ちんでん}する",
+        "negative": "{沈殿|ちんでん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{沈殿|ちんでん}します",
+        "negative": "{沈殿|ちんでん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{沈殿|ちんでん}した",
+        "negative": "{沈殿|ちんでん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{沈殿|ちんでん}しました",
+        "negative": "{沈殿|ちんでん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{沈殿|ちんでん}して",
+        "negative": "{沈殿|ちんでん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{沈殿|ちんでん}している",
+        "negative": "{沈殿|ちんでん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{沈殿|ちんでん}しています",
+        "negative": "{沈殿|ちんでん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{沈殿|ちんでん}していた",
+        "negative": "{沈殿|ちんでん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{沈殿|ちんでん}していました",
+        "negative": "{沈殿|ちんでん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{沈殿|ちんでん}すれば",
+        "negative": "{沈殿|ちんでん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{沈殿|ちんでん}したら",
+        "negative": "{沈殿|ちんでん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{沈殿|ちんでん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{沈殿|ちんでん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{沈殿|ちんでん}できる",
+        "negative": "{沈殿|ちんでん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{沈殿|ちんでん}される",
+        "negative": "{沈殿|ちんでん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{沈殿|ちんでん}させる",
+        "negative": "{沈殿|ちんでん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{沈殿|ちんでん}しろ",
+        "negative": "{沈殿|ちんでん}するな"
+      }
+    ]
   }
 }

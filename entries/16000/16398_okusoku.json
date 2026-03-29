@@ -19,7 +19,9 @@
       "english": "Don't say things based on speculation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16398_okusoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Various speculations are flying around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16398_okusoku_ex3",
@@ -35,7 +39,9 @@
       "english": "It's dangerous to make judgments based solely on speculation without confirming the facts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{憶測|おくそく} generally has a negative connotation, implying that the conclusion drawn is not well-founded. It is common in news commentary and formal discussions.\n\nCOMMON COLLOCATIONS:\n- {憶測|おくそく}が{飛|と}び{交|か}う (speculation flies around)\n- {憶測|おくそく}で{判断|はんだん}する (to judge based on speculation)\n- {憶測|おくそく}に{過|す}ぎない (it's nothing more than speculation)\n- {憶測|おくそく}を{呼|よ}ぶ (to invite speculation)\n- {憶測|おくそく}{記事|きじ} (speculative article)\n\nKANJI NOTE:\nAlso written as {臆測|おくそく} with a different first character. Both writings are accepted and have the same meaning.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{憶測|おくそく}する",
+        "negative": "{憶測|おくそく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{憶測|おくそく}します",
+        "negative": "{憶測|おくそく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{憶測|おくそく}した",
+        "negative": "{憶測|おくそく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{憶測|おくそく}しました",
+        "negative": "{憶測|おくそく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{憶測|おくそく}して",
+        "negative": "{憶測|おくそく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{憶測|おくそく}している",
+        "negative": "{憶測|おくそく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{憶測|おくそく}しています",
+        "negative": "{憶測|おくそく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{憶測|おくそく}していた",
+        "negative": "{憶測|おくそく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{憶測|おくそく}していました",
+        "negative": "{憶測|おくそく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{憶測|おくそく}すれば",
+        "negative": "{憶測|おくそく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{憶測|おくそく}したら",
+        "negative": "{憶測|おくそく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{憶測|おくそく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{憶測|おくそく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{憶測|おくそく}できる",
+        "negative": "{憶測|おくそく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{憶測|おくそく}される",
+        "negative": "{憶測|おくそく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{憶測|おくそく}させる",
+        "negative": "{憶測|おくそく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{憶測|おくそく}しろ",
+        "negative": "{憶測|おくそく}するな"
+      }
+    ]
   }
 }

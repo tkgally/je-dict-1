@@ -19,7 +19,9 @@
       "english": "His impersonations are good.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13465_monomane_ex2",
@@ -27,7 +29,9 @@
       "english": "I did an impersonation of the company president at the year-end party and got laughs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13465_monomane_ex3",
@@ -35,7 +39,9 @@
       "english": "Many comedians became famous through impersonation shows on TV.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan also be written as {物真似|ものまね} in kanji. Used as a noun or with する as a verb: {物|もの}まねをする (to do an impersonation). The person who performs impersonations is called a {物|もの}まね{芸人|げいにん} or ものまねタレント.\n\nCULTURAL NOTE:\nImpersonation comedy is a major genre in Japanese entertainment. TV shows dedicated to {物|もの}まね are popular, and annual {物|もの}まね contests draw large audiences.\n\nCOMMON COLLOCATIONS:\n- {物|もの}まねをする: to do an impersonation\n- {物|もの}まね{芸人|げいにん}: impersonation comedian\n- {物|もの}まね{番組|ばんぐみ}: impersonation show\n- {物|もの}まねが{上手|じょうず}: good at impersonations",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["entertainment-comedy"]
+      "semantic": [
+        "entertainment-comedy"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{物|もの}まねする",
+        "negative": "{物|もの}まねしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{物|もの}まねします",
+        "negative": "{物|もの}まねしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{物|もの}まねした",
+        "negative": "{物|もの}まねしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{物|もの}まねしました",
+        "negative": "{物|もの}まねしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{物|もの}まねして",
+        "negative": "{物|もの}まねしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{物|もの}まねしている",
+        "negative": "{物|もの}まねしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{物|もの}まねしています",
+        "negative": "{物|もの}まねしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{物|もの}まねしていた",
+        "negative": "{物|もの}まねしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{物|もの}まねしていました",
+        "negative": "{物|もの}まねしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{物|もの}まねすれば",
+        "negative": "{物|もの}まねしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{物|もの}まねしたら",
+        "negative": "{物|もの}まねしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{物|もの}まねしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{物|もの}まねしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{物|もの}まねできる",
+        "negative": "{物|もの}まねできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{物|もの}まねされる",
+        "negative": "{物|もの}まねされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{物|もの}まねさせる",
+        "negative": "{物|もの}まねさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{物|もの}まねしろ",
+        "negative": "{物|もの}まねするな"
+      }
+    ]
   }
 }

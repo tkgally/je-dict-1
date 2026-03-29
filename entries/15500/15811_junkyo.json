@@ -19,7 +19,9 @@
       "english": "It conforms to international standards.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15811_junkyo_ex2",
@@ -27,7 +29,9 @@
       "english": "This product is manufactured in compliance with JIS standards.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15811_junkyo_ex3",
@@ -35,7 +39,9 @@
       "english": "It is necessary to follow procedures that comply with the law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{準拠|じゅんきょ} is commonly used with the particle に to indicate what standard is being followed: ～に{準拠|じゅんきょ}する (conform to ~). It is a formal, written-register word found in technical documents, legal texts, and product specifications.\n\nCOMMON COLLOCATIONS:\n- ～に{準拠|じゅんきょ}する (conform to, comply with)\n- {規格|きかく}に{準拠|じゅんきょ} (compliance with a standard)\n- {法令|ほうれい}{準拠|じゅんきょ} (legal compliance)\n- {準拠|じゅんきょ}{法|ほう} (governing law, applicable law)\n\nSIMILAR WORDS:\n{基|もと}づく means 'to be based on' and is more general. {適合|てきごう} means 'conformity' and focuses on meeting specific requirements. {準拠|じゅんきょ} emphasizes following an authoritative standard or framework.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "law"]
+      "semantic": [
+        "business",
+        "law"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{準拠|じゅんきょ}する",
+        "negative": "{準拠|じゅんきょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{準拠|じゅんきょ}します",
+        "negative": "{準拠|じゅんきょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{準拠|じゅんきょ}した",
+        "negative": "{準拠|じゅんきょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{準拠|じゅんきょ}しました",
+        "negative": "{準拠|じゅんきょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{準拠|じゅんきょ}して",
+        "negative": "{準拠|じゅんきょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{準拠|じゅんきょ}している",
+        "negative": "{準拠|じゅんきょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{準拠|じゅんきょ}しています",
+        "negative": "{準拠|じゅんきょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{準拠|じゅんきょ}していた",
+        "negative": "{準拠|じゅんきょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{準拠|じゅんきょ}していました",
+        "negative": "{準拠|じゅんきょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{準拠|じゅんきょ}すれば",
+        "negative": "{準拠|じゅんきょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{準拠|じゅんきょ}したら",
+        "negative": "{準拠|じゅんきょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{準拠|じゅんきょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{準拠|じゅんきょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{準拠|じゅんきょ}できる",
+        "negative": "{準拠|じゅんきょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{準拠|じゅんきょ}される",
+        "negative": "{準拠|じゅんきょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{準拠|じゅんきょ}させる",
+        "negative": "{準拠|じゅんきょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{準拠|じゅんきょ}しろ",
+        "negative": "{準拠|じゅんきょ}するな"
+      }
+    ]
   }
 }

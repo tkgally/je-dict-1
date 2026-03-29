@@ -19,7 +19,9 @@
       "english": "You'd better not get too involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13347_fukairi_ex2",
@@ -27,7 +29,9 @@
       "english": "I got too involved in other people's problems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13347_fukairi_ex3",
@@ -35,7 +39,9 @@
       "english": "I decided not to get any more involved in this matter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used in a cautionary or regretful context. The word implies that the involvement has gone or could go beyond a healthy or appropriate level. Frequently used as advice to someone to pull back.\n\nVery common in the negative pattern {深入|ふかい}りしない (to not get too involved).\n\nCOMMON PATTERNS:\n- {深入|ふかい}りしないほうがいい: you'd better not get too involved\n- {深入|ふかい}りしすぎる: to get far too involved\n- これ{以上|いじょう}{深入|ふかい}りしない: to not get any more involved than this",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{深入|ふかい}りする",
+        "negative": "{深入|ふかい}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{深入|ふかい}りします",
+        "negative": "{深入|ふかい}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{深入|ふかい}りした",
+        "negative": "{深入|ふかい}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{深入|ふかい}りしました",
+        "negative": "{深入|ふかい}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{深入|ふかい}りして",
+        "negative": "{深入|ふかい}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{深入|ふかい}りしている",
+        "negative": "{深入|ふかい}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{深入|ふかい}りしています",
+        "negative": "{深入|ふかい}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{深入|ふかい}りしていた",
+        "negative": "{深入|ふかい}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{深入|ふかい}りしていました",
+        "negative": "{深入|ふかい}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{深入|ふかい}りすれば",
+        "negative": "{深入|ふかい}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{深入|ふかい}りしたら",
+        "negative": "{深入|ふかい}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{深入|ふかい}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{深入|ふかい}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{深入|ふかい}りできる",
+        "negative": "{深入|ふかい}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{深入|ふかい}りされる",
+        "negative": "{深入|ふかい}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{深入|ふかい}りさせる",
+        "negative": "{深入|ふかい}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{深入|ふかい}りしろ",
+        "negative": "{深入|ふかい}りするな"
+      }
+    ]
   }
 }

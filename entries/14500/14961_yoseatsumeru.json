@@ -19,7 +19,9 @@
       "english": "I gathered together the materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14961_yoseatsumeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I scraped together the leftovers and made dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14961_yoseatsumeru_ex3",
@@ -35,7 +39,9 @@
       "english": "They assembled a team of experts gathered from around the country to form an emergency response unit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Ichidan verb ({一段|いちだん}). Transitive — takes を for the things gathered.\n\nThe compound combines {寄|よ}せる (to bring near) and {集|あつ}める (to collect). Often carries a nuance of assembling things hastily or from scattered sources, unlike {集|あつ}める alone which is more neutral.\n\nThe noun form {寄|よ}せ{集|あつ}め means 'a motley collection' or 'hodgepodge,' often with a slightly negative tone.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}を{寄|よ}せ{集|あつ}める (to gather information from various sources)\n- {人|ひと}を{寄|よ}せ{集|あつ}める (to round up people)\n- {資金|しきん}を{寄|よ}せ{集|あつ}める (to scrape together funds)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{寄|よ}せ{集|あつ}める",
+        "negative": "{寄|よ}せ{集|あつ}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{寄|よ}せ{集|あつ}めます",
+        "negative": "{寄|よ}せ{集|あつ}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{寄|よ}せ{集|あつ}めた",
+        "negative": "{寄|よ}せ{集|あつ}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{寄|よ}せ{集|あつ}めました",
+        "negative": "{寄|よ}せ{集|あつ}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{寄|よ}せ{集|あつ}めて",
+        "negative": "{寄|よ}せ{集|あつ}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{寄|よ}せ{集|あつ}めている",
+        "negative": "{寄|よ}せ{集|あつ}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{寄|よ}せ{集|あつ}めています",
+        "negative": "{寄|よ}せ{集|あつ}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{寄|よ}せ{集|あつ}めていた",
+        "negative": "{寄|よ}せ{集|あつ}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{寄|よ}せ{集|あつ}めていました",
+        "negative": "{寄|よ}せ{集|あつ}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{寄|よ}せ{集|あつ}めれば",
+        "negative": "{寄|よ}せ{集|あつ}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{寄|よ}せ{集|あつ}めたら",
+        "negative": "{寄|よ}せ{集|あつ}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{寄|よ}せ{集|あつ}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{寄|よ}せ{集|あつ}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{寄|よ}せ{集|あつ}められる",
+        "negative": "{寄|よ}せ{集|あつ}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{寄|よ}せ{集|あつ}められる",
+        "negative": "{寄|よ}せ{集|あつ}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{寄|よ}せ{集|あつ}めさせる",
+        "negative": "{寄|よ}せ{集|あつ}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{寄|よ}せ{集|あつ}めろ",
+        "negative": "{寄|よ}せ{集|あつ}めるな"
+      }
+    ]
   }
 }

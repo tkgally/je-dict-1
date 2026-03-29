@@ -19,7 +19,9 @@
       "english": "You don't have to put on a brave face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15929_tsuyogaru_ex2",
@@ -27,7 +29,9 @@
       "english": "He always acts tough, but I think he's actually lonely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15929_tsuyogaru_ex3",
@@ -35,7 +39,9 @@
       "english": "Despite being injured, she tried to keep practicing by putting on a brave face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{強|つよ}がる follows the common ～がる pattern, which turns an adjective into a verb meaning \"to show signs of\" or \"to act as if.\" Here, {強|つよ}い (strong) becomes {強|つよ}がる (to act strong). The implication is always that the toughness is a front.\n\nGRAMMAR:\nConjugation: {強|つよ}がらない (negative), {強|つよ}がって (te-form), {強|つよ}がった (past). Godan verb ending in る (ら行).\n\nCOMMON COLLOCATIONS:\n- {強|つよ}がって{見|み}せる (to put on a show of being tough)\n- {強|つよ}がらなくていい (you don't need to act tough)\n\nSIMILAR WORDS:\n{意地|いじ}を{張|は}る means to be stubborn or headstrong, while {強|つよ}がる specifically emphasizes hiding vulnerability behind a brave front.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{強|つよ}がる",
+        "negative": "{強|つよ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{強|つよ}がります",
+        "negative": "{強|つよ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{強|つよ}がった",
+        "negative": "{強|つよ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{強|つよ}がりました",
+        "negative": "{強|つよ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{強|つよ}がって",
+        "negative": "{強|つよ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{強|つよ}がっている",
+        "negative": "{強|つよ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{強|つよ}がっています",
+        "negative": "{強|つよ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{強|つよ}がっていた",
+        "negative": "{強|つよ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{強|つよ}がっていました",
+        "negative": "{強|つよ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{強|つよ}がれば",
+        "negative": "{強|つよ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{強|つよ}がったら",
+        "negative": "{強|つよ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{強|つよ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{強|つよ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{強|つよ}がれる",
+        "negative": "{強|つよ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{強|つよ}がられる",
+        "negative": "{強|つよ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{強|つよ}がらせる",
+        "negative": "{強|つよ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{強|つよ}がれ",
+        "negative": "{強|つよ}がるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "They parade through town carrying the portable shrine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13881_neriaruku_ex2",
@@ -27,7 +29,9 @@
       "english": "People in costumes paraded through the street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13881_neriaruku_ex3",
@@ -35,7 +39,9 @@
       "english": "On the festival day, floats paraded through the shopping street, and spectators along the route cheered loudly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), く-ending.\n- Negative: {練|ね}り{歩|ある}かない\n- Polite: {練|ね}り{歩|ある}きます\n- Te-form: {練|ね}り{歩|ある}いて\n- Past: {練|ね}り{歩|ある}いた\n\nUSAGE:\nOften associated with festivals ({祭|まつ}り), processions, and demonstrations. The {練|ね}り component implies a slow, deliberate, stately movement rather than ordinary walking.\n\nCOMMON COLLOCATIONS:\n- {町|まち}を{練|ね}り{歩|ある}く: to parade through town\n- {通|とお}りを{練|ね}り{歩|ある}く: to march along the street\n- {神輿|みこし}を{担|かつ}いで{練|ね}り{歩|ある}く: to parade carrying a portable shrine",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ku",
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{練|ね}り{歩|ある}く",
+        "negative": "{練|ね}り{歩|ある}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{練|ね}り{歩|ある}きます",
+        "negative": "{練|ね}り{歩|ある}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{練|ね}り{歩|ある}いた",
+        "negative": "{練|ね}り{歩|ある}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{練|ね}り{歩|ある}きました",
+        "negative": "{練|ね}り{歩|ある}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{練|ね}り{歩|ある}いて",
+        "negative": "{練|ね}り{歩|ある}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{練|ね}り{歩|ある}いている",
+        "negative": "{練|ね}り{歩|ある}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{練|ね}り{歩|ある}いています",
+        "negative": "{練|ね}り{歩|ある}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{練|ね}り{歩|ある}いていた",
+        "negative": "{練|ね}り{歩|ある}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{練|ね}り{歩|ある}いていました",
+        "negative": "{練|ね}り{歩|ある}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{練|ね}り{歩|ある}けば",
+        "negative": "{練|ね}り{歩|ある}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{練|ね}り{歩|ある}いたら",
+        "negative": "{練|ね}り{歩|ある}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{練|ね}り{歩|ある}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{練|ね}り{歩|ある}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{練|ね}り{歩|ある}ける",
+        "negative": "{練|ね}り{歩|ある}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{練|ね}り{歩|ある}かれる",
+        "negative": "{練|ね}り{歩|ある}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{練|ね}り{歩|ある}かせる",
+        "negative": "{練|ね}り{歩|ある}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{練|ね}り{歩|ある}け",
+        "negative": "{練|ね}り{歩|ある}くな"
+      }
+    ]
   }
 }

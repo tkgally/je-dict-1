@@ -19,7 +19,9 @@
       "english": "She returned to work after parental leave.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15398_fukushoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Having recovered from illness, I plan to return to work next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15398_fukushoku_ex3",
@@ -35,7 +39,9 @@
       "english": "After returning to work, I'll be working reduced hours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{復職|ふくしょく} is commonly used in HR and workplace contexts. It often refers to returning after {育児休暇|いくじきゅうか} (parental leave), {病気休暇|びょうききゅうか} (sick leave), or {休職|きゅうしょく} (leave of absence).\n\nCOMMON COLLOCATIONS:\n- {復職|ふくしょく}する (to return to work)\n- {復職|ふくしょく}{支援|しえん} (return-to-work support)\n- {復職|ふくしょく}{後|ご} (after returning to work)\n\nCONTRAST:\n{休職|きゅうしょく} (leave of absence from work) is the antonym. {転職|てんしょく} (changing jobs) means moving to a different position entirely.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{復職|ふくしょく}する",
+        "negative": "{復職|ふくしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{復職|ふくしょく}します",
+        "negative": "{復職|ふくしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{復職|ふくしょく}した",
+        "negative": "{復職|ふくしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{復職|ふくしょく}しました",
+        "negative": "{復職|ふくしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{復職|ふくしょく}して",
+        "negative": "{復職|ふくしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{復職|ふくしょく}している",
+        "negative": "{復職|ふくしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{復職|ふくしょく}しています",
+        "negative": "{復職|ふくしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{復職|ふくしょく}していた",
+        "negative": "{復職|ふくしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{復職|ふくしょく}していました",
+        "negative": "{復職|ふくしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{復職|ふくしょく}すれば",
+        "negative": "{復職|ふくしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{復職|ふくしょく}したら",
+        "negative": "{復職|ふくしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{復職|ふくしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{復職|ふくしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{復職|ふくしょく}できる",
+        "negative": "{復職|ふくしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{復職|ふくしょく}される",
+        "negative": "{復職|ふくしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{復職|ふくしょく}させる",
+        "negative": "{復職|ふくしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{復職|ふくしょく}しろ",
+        "negative": "{復職|ふくしょく}するな"
+      }
+    ]
   }
 }

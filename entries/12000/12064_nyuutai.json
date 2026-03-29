@@ -19,7 +19,9 @@
       "english": "He enlisted at the age of eighteen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12064_nyuutai_ex2",
@@ -27,7 +29,9 @@
       "english": "Those wishing to enlist must undergo a physical fitness test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12064_nyuutai_ex3",
@@ -35,7 +39,9 @@
       "english": "My grandfather was drafted and enlisted during the war, and remained in the military until the war ended.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used as a suru verb: {入隊|にゅうたい}する (to enlist). The word implies formally joining a military organization, whether voluntarily or through conscription.\n\nCOMMON COLLOCATIONS:\n- {入隊|にゅうたい}する: to enlist, to join the military\n- {入隊|にゅうたい}{希望者|きぼうしゃ}: enlistment applicant\n- {入隊|にゅうたい}{式|しき}: enlistment ceremony\n- {入隊|にゅうたい}{検査|けんさ}: enlistment examination\n\nSIMILAR WORDS:\nThe opposite is {除隊|じょたい} (discharge from the military). {志願|しがん} (volunteering) emphasizes the voluntary nature of enlistment, while {徴兵|ちょうへい} (conscription) refers to compulsory military service.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{入隊|にゅうたい}する",
+        "negative": "{入隊|にゅうたい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{入隊|にゅうたい}します",
+        "negative": "{入隊|にゅうたい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{入隊|にゅうたい}した",
+        "negative": "{入隊|にゅうたい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{入隊|にゅうたい}しました",
+        "negative": "{入隊|にゅうたい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{入隊|にゅうたい}して",
+        "negative": "{入隊|にゅうたい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{入隊|にゅうたい}している",
+        "negative": "{入隊|にゅうたい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{入隊|にゅうたい}しています",
+        "negative": "{入隊|にゅうたい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{入隊|にゅうたい}していた",
+        "negative": "{入隊|にゅうたい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{入隊|にゅうたい}していました",
+        "negative": "{入隊|にゅうたい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{入隊|にゅうたい}すれば",
+        "negative": "{入隊|にゅうたい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{入隊|にゅうたい}したら",
+        "negative": "{入隊|にゅうたい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{入隊|にゅうたい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{入隊|にゅうたい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{入隊|にゅうたい}できる",
+        "negative": "{入隊|にゅうたい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{入隊|にゅうたい}される",
+        "negative": "{入隊|にゅうたい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{入隊|にゅうたい}させる",
+        "negative": "{入隊|にゅうたい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{入隊|にゅうたい}しろ",
+        "negative": "{入隊|にゅうたい}するな"
+      }
+    ]
   }
 }

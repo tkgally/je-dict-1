@@ -19,7 +19,9 @@
       "english": "We met through a matching app.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11490_macchingu_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a service that matches job seekers with companies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11490_macchingu_ex3",
@@ -35,7 +39,9 @@
       "english": "You can find the ideal match through AI-powered matching.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nマッチング has become extremely common in modern Japanese, especially with the rise of dating apps (マッチングアプリ). It also appears in business contexts for connecting supply and demand.\n\nCOMMON COLLOCATIONS:\n- マッチングアプリ: dating app, matching app\n- マッチングサービス: matching service\n- マッチング{率|りつ}: matching rate\n- ビジネスマッチング: business matching\n- {人材|じんざい}マッチング: talent matching",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "マッチングする",
+        "negative": "マッチングしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "マッチングします",
+        "negative": "マッチングしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "マッチングした",
+        "negative": "マッチングしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "マッチングしました",
+        "negative": "マッチングしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "マッチングして",
+        "negative": "マッチングしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "マッチングしている",
+        "negative": "マッチングしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "マッチングしています",
+        "negative": "マッチングしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "マッチングしていた",
+        "negative": "マッチングしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "マッチングしていました",
+        "negative": "マッチングしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "マッチングすれば",
+        "negative": "マッチングしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "マッチングしたら",
+        "negative": "マッチングしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "マッチングしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "マッチングしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "マッチングできる",
+        "negative": "マッチングできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "マッチングされる",
+        "negative": "マッチングされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "マッチングさせる",
+        "negative": "マッチングさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "マッチングしろ",
+        "negative": "マッチングするな"
+      }
+    ]
   }
 }

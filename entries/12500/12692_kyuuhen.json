@@ -19,7 +19,9 @@
       "english": "The weather changed suddenly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12692_kyuuhen_ex2",
@@ -27,7 +29,9 @@
       "english": "The patient's condition took a sudden turn.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12692_kyuuhen_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to the sudden change in international affairs, the government is being pressured to respond.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{急変|きゅうへん} emphasizes the suddenness and dramatic nature of a change. It is frequently used in medical contexts for a patient's sudden worsening, in weather reports for abrupt changes, and in news for political or social upheaval.\n\nCOMMON COLLOCATIONS:\n- {容態|ようだい}が{急変|きゅうへん}する: a patient's condition takes a sudden turn\n- {天気|てんき}が{急変|きゅうへん}する: the weather changes suddenly\n- {事態|じたい}が{急変|きゅうへん}する: the situation changes dramatically\n- {情勢|じょうせい}の{急変|きゅうへん}: sudden change in the situation\n\nSIMILAR WORDS:\n- {急変|きゅうへん}: sudden change (dramatic, often negative)\n- {変化|へんか}: change (neutral, general)\n- {激変|げきへん}: radical change (even stronger than {急変|きゅうへん})\n- {一変|いっぺん}: complete change (transformation)",
@@ -54,10 +60,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["change"]
+      "semantic": [
+        "change"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{急変|きゅうへん}する",
+        "negative": "{急変|きゅうへん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{急変|きゅうへん}します",
+        "negative": "{急変|きゅうへん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{急変|きゅうへん}した",
+        "negative": "{急変|きゅうへん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{急変|きゅうへん}しました",
+        "negative": "{急変|きゅうへん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{急変|きゅうへん}して",
+        "negative": "{急変|きゅうへん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{急変|きゅうへん}している",
+        "negative": "{急変|きゅうへん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{急変|きゅうへん}しています",
+        "negative": "{急変|きゅうへん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{急変|きゅうへん}していた",
+        "negative": "{急変|きゅうへん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{急変|きゅうへん}していました",
+        "negative": "{急変|きゅうへん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{急変|きゅうへん}すれば",
+        "negative": "{急変|きゅうへん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{急変|きゅうへん}したら",
+        "negative": "{急変|きゅうへん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{急変|きゅうへん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{急変|きゅうへん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{急変|きゅうへん}できる",
+        "negative": "{急変|きゅうへん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{急変|きゅうへん}される",
+        "negative": "{急変|きゅうへん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{急変|きゅうへん}させる",
+        "negative": "{急変|きゅうへん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{急変|きゅうへん}しろ",
+        "negative": "{急変|きゅうへん}するな"
+      }
+    ]
   }
 }

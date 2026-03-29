@@ -21,7 +21,9 @@
       "id": "10048_sumiwake_ex1",
       "japanese": "{異|こと}なる{種|しゅ}が{棲|す}み{分|わ}けをしている。",
       "english": "Different species are partitioning habitats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "10048_sumiwake_ex2",
       "japanese": "{昼行性|ちゅうこうせい}と{夜行性|やこうせい}の{動物|どうぶつ}の{棲|す}み{分|わ}け。",
       "english": "Habitat partitioning between diurnal and nocturnal animals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "10048_sumiwake_ex3",
       "japanese": "{山|やま}の{標高|ひょうこう}によって{植物|しょくぶつ}が{棲|す}み{分|わ}けている。",
       "english": "Plants partition habitats by mountain elevation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "10048_sumiwake_ex4",
       "japanese": "{大手|おおて}と{中小|ちゅうしょう}の{棲|す}み{分|わ}け。",
       "english": "Market differentiation between large and small companies.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "10048_sumiwake_ex5",
       "japanese": "{各社|かくしゃ}が{棲|す}み{分|わ}けをして{共存|きょうぞん}している。",
       "english": "The companies coexist by occupying different niches.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "10048_sumiwake_ex6",
       "japanese": "{コンビニ|こんびに}と{スーパー|すーぱー}の{棲|す}み{分|わ}けが{進|すす}んでいる。",
       "english": "Market differentiation between convenience stores and supermarkets is progressing.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["ecology", "business"]
+      "semantic": [
+        "ecology",
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{棲|す}み{分|わ}けする",
+        "negative": "{棲|す}み{分|わ}けしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{棲|す}み{分|わ}けします",
+        "negative": "{棲|す}み{分|わ}けしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{棲|す}み{分|わ}けした",
+        "negative": "{棲|す}み{分|わ}けしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{棲|す}み{分|わ}けしました",
+        "negative": "{棲|す}み{分|わ}けしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{棲|す}み{分|わ}けして",
+        "negative": "{棲|す}み{分|わ}けしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{棲|す}み{分|わ}けしている",
+        "negative": "{棲|す}み{分|わ}けしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{棲|す}み{分|わ}けしています",
+        "negative": "{棲|す}み{分|わ}けしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{棲|す}み{分|わ}けしていた",
+        "negative": "{棲|す}み{分|わ}けしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{棲|す}み{分|わ}けしていました",
+        "negative": "{棲|す}み{分|わ}けしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{棲|す}み{分|わ}けすれば",
+        "negative": "{棲|す}み{分|わ}けしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{棲|す}み{分|わ}けしたら",
+        "negative": "{棲|す}み{分|わ}けしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{棲|す}み{分|わ}けしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{棲|す}み{分|わ}けしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{棲|す}み{分|わ}けできる",
+        "negative": "{棲|す}み{分|わ}けできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{棲|す}み{分|わ}けされる",
+        "negative": "{棲|す}み{分|わ}けされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{棲|す}み{分|わ}けさせる",
+        "negative": "{棲|す}み{分|わ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{棲|す}み{分|わ}けしろ",
+        "negative": "{棲|す}み{分|わ}けするな"
+      }
+    ]
   }
 }

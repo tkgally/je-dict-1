@@ -19,7 +19,9 @@
       "english": "You're reading too much into it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13306_fukayomi_ex2",
@@ -27,7 +29,9 @@
       "english": "I overanalyzed his email and got anxious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13306_fukayomi_ex3",
@@ -35,7 +39,9 @@
       "english": "It's better to take it at face value without reading too much into it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed with する: {深読|ふかよ}みする (to overinterpret, to read too much into). Often used in casual conversation to tell someone they are overthinking something. Can also be used about texts, messages, or situations.\n\nThe word carries a nuance that the interpretation goes beyond what is actually intended or present.\n\nCOMMON COLLOCATIONS:\n- {深読|ふかよ}みする: to read too much into\n- {深読|ふかよ}みしすぎ: overthinking too much\n- {深読|ふかよ}みしないで: don't overthink it",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{深読|ふかよ}みする",
+        "negative": "{深読|ふかよ}みしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{深読|ふかよ}みします",
+        "negative": "{深読|ふかよ}みしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{深読|ふかよ}みした",
+        "negative": "{深読|ふかよ}みしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{深読|ふかよ}みしました",
+        "negative": "{深読|ふかよ}みしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{深読|ふかよ}みして",
+        "negative": "{深読|ふかよ}みしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{深読|ふかよ}みしている",
+        "negative": "{深読|ふかよ}みしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{深読|ふかよ}みしています",
+        "negative": "{深読|ふかよ}みしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{深読|ふかよ}みしていた",
+        "negative": "{深読|ふかよ}みしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{深読|ふかよ}みしていました",
+        "negative": "{深読|ふかよ}みしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{深読|ふかよ}みすれば",
+        "negative": "{深読|ふかよ}みしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{深読|ふかよ}みしたら",
+        "negative": "{深読|ふかよ}みしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{深読|ふかよ}みしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{深読|ふかよ}みしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{深読|ふかよ}みできる",
+        "negative": "{深読|ふかよ}みできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{深読|ふかよ}みされる",
+        "negative": "{深読|ふかよ}みされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{深読|ふかよ}みさせる",
+        "negative": "{深読|ふかよ}みさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{深読|ふかよ}みしろ",
+        "negative": "{深読|ふかよ}みするな"
+      }
+    ]
   }
 }

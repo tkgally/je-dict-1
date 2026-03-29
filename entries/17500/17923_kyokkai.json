@@ -19,7 +19,9 @@
       "english": "I don't want you to misinterpret what I said.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17923_kyokkai_ex2",
@@ -27,7 +29,9 @@
       "english": "The media reported the politician's words in a distorted way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17923_kyokkai_ex3",
@@ -35,7 +39,9 @@
       "english": "If you misinterpret the other person's intentions, it will lead to unnecessary trouble.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nStronger than {誤解|ごかい} (misunderstanding), which can be innocent. {曲解|きょっかい} implies a willful or biased twisting of meaning. The kanji {曲|きょく} means 'bend' or 'twist,' reflecting the distortion involved.\n\nCOMMON COLLOCATIONS:\n- {曲解|きょっかい}する (to misinterpret)\n- {曲解|きょっかい}を{招|まね}く (to invite misinterpretation)\n- {意味|いみ}を{曲解|きょっかい}する (to distort the meaning)\n\nSIMILAR WORDS:\n- {誤解|ごかい}: misunderstanding — neutral; can be accidental\n- {歪曲|わいきょく}: distortion, falsification — even stronger; implies deliberate falsification of facts",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": []
+      "semantic": [
+        "communication"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{曲解|きょっかい}する",
+        "negative": "{曲解|きょっかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{曲解|きょっかい}します",
+        "negative": "{曲解|きょっかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{曲解|きょっかい}した",
+        "negative": "{曲解|きょっかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{曲解|きょっかい}しました",
+        "negative": "{曲解|きょっかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{曲解|きょっかい}して",
+        "negative": "{曲解|きょっかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{曲解|きょっかい}している",
+        "negative": "{曲解|きょっかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{曲解|きょっかい}しています",
+        "negative": "{曲解|きょっかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{曲解|きょっかい}していた",
+        "negative": "{曲解|きょっかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{曲解|きょっかい}していました",
+        "negative": "{曲解|きょっかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{曲解|きょっかい}すれば",
+        "negative": "{曲解|きょっかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{曲解|きょっかい}したら",
+        "negative": "{曲解|きょっかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{曲解|きょっかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{曲解|きょっかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{曲解|きょっかい}できる",
+        "negative": "{曲解|きょっかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{曲解|きょっかい}される",
+        "negative": "{曲解|きょっかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{曲解|きょっかい}させる",
+        "negative": "{曲解|きょっかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{曲解|きょっかい}しろ",
+        "negative": "{曲解|きょっかい}するな"
+      }
+    ]
   }
 }

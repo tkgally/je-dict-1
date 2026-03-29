@@ -24,7 +24,9 @@
       "english": "I took advantage of an opening and escaped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18394_jouzuru_ex2",
@@ -32,7 +34,9 @@
       "english": "A thief broke in, taking advantage of the confusion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18394_jouzuru_ex3",
@@ -40,7 +44,9 @@
       "english": "Malicious scams exploiting the disaster have been reported.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18394_jouzuru_ex4",
@@ -48,7 +54,9 @@
       "english": "3 multiplied by 5 equals 15.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18394_jouzuru_ex5",
@@ -56,7 +64,9 @@
       "english": "Multiply speed by time to find distance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18394_jouzuru_ex6",
@@ -64,7 +74,9 @@
       "english": "Please calculate the value multiplied by the coefficient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nThis is a ずる-verb (a variant of する-verbs). Common conjugation uses {乗|じょう}じる (ichidan) rather than {乗|じょう}ずる:\n- {乗|じょう}じる・{乗|じょう}じます\n- て-form: {乗|じょう}じて\n- た-form: {乗|じょう}じた\n\nPATTERN (sense 1):\n～に{乗|じょう}じて (taking advantage of ~)\n\nCOMMON COLLOCATIONS:\n- {隙|すき}に{乗|じょう}じる (to take advantage of an opening)\n- {混乱|こんらん}に{乗|じょう}じる (to exploit confusion)\n- {機|き}に{乗|じょう}じる (to seize the opportunity)\n\nSIMILAR WORDS (sense 1):\n- {付|つ}け{込|こ}む: To take advantage of — implies exploiting a weakness in a more calculated way.\n- {便乗|びんじょう}する: To take advantage of, to ride on — often implies riding on someone else's success or a trend.",
@@ -75,12 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
+      "semantic": [
+        "action"
+      ],
       "transitivity": "intransitive",
-      "style": ["written"]
+      "style": [
+        "written"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{乗|じょう}ずる",
+        "negative": "{乗|じょう}ずない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{乗|じょう}ずます",
+        "negative": "{乗|じょう}ずません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{乗|じょう}ずた",
+        "negative": "{乗|じょう}ずなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{乗|じょう}ずました",
+        "negative": "{乗|じょう}ずませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{乗|じょう}ずて",
+        "negative": "{乗|じょう}ずなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{乗|じょう}ずている",
+        "negative": "{乗|じょう}ずていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{乗|じょう}ずています",
+        "negative": "{乗|じょう}ずていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{乗|じょう}ずていた",
+        "negative": "{乗|じょう}ずていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{乗|じょう}ずていました",
+        "negative": "{乗|じょう}ずていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{乗|じょう}ずれば",
+        "negative": "{乗|じょう}ずなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{乗|じょう}ずたら",
+        "negative": "{乗|じょう}ずなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{乗|じょう}ずよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{乗|じょう}ずましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{乗|じょう}ずられる",
+        "negative": "{乗|じょう}ずられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{乗|じょう}ずられる",
+        "negative": "{乗|じょう}ずられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{乗|じょう}ずさせる",
+        "negative": "{乗|じょう}ずさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{乗|じょう}ずろ",
+        "negative": "{乗|じょう}ずるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "We shared the joy together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18203_wakachiau_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a blessing to have friends who can share your sorrows.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18203_wakachiau_ex3",
@@ -35,7 +39,9 @@
       "english": "I was truly happy that the whole team could share the excitement of winning the championship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nGodan verb ({五段動詞|ごだんどうし}) — conjugates as {分|わ}かち{合|あ}わない (negative), {分|わ}かち{合|あ}って (te-form). Primarily used with abstract nouns like feelings and experiences. While it can describe sharing physical things, it typically carries emotional weight.\n\nCOMMON COLLOCATIONS:\n- {喜|よろこ}びを{分|わ}かち{合|あ}う (to share joy)\n- {悲|かな}しみを{分|わ}かち{合|あ}う (to share sorrow)\n- {感動|かんどう}を{分|わ}かち{合|あ}う (to share emotions)\n- {痛|いた}みを{分|わ}かち{合|あ}う (to share pain)\n\nSIMILAR WORDS:\n- {分|わ}ける: to divide, to share — neutral, practical; used for both physical and abstract things\n- {共有|きょうゆう}する: to share — more formal; used for information, resources, and spaces",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication", "emotion"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication",
+        "emotion"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{分|わ}かち{合|あ}う",
+        "negative": "{分|わ}かち{合|あ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{分|わ}かち{合|あ}います",
+        "negative": "{分|わ}かち{合|あ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{分|わ}かち{合|あ}った",
+        "negative": "{分|わ}かち{合|あ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{分|わ}かち{合|あ}いました",
+        "negative": "{分|わ}かち{合|あ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{分|わ}かち{合|あ}って",
+        "negative": "{分|わ}かち{合|あ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{分|わ}かち{合|あ}っている",
+        "negative": "{分|わ}かち{合|あ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{分|わ}かち{合|あ}っています",
+        "negative": "{分|わ}かち{合|あ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{分|わ}かち{合|あ}っていた",
+        "negative": "{分|わ}かち{合|あ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{分|わ}かち{合|あ}っていました",
+        "negative": "{分|わ}かち{合|あ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{分|わ}かち{合|あ}えば",
+        "negative": "{分|わ}かち{合|あ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{分|わ}かち{合|あ}ったら",
+        "negative": "{分|わ}かち{合|あ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{分|わ}かち{合|あ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{分|わ}かち{合|あ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{分|わ}かち{合|あ}える",
+        "negative": "{分|わ}かち{合|あ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{分|わ}かち{合|あ}われる",
+        "negative": "{分|わ}かち{合|あ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{分|わ}かち{合|あ}わせる",
+        "negative": "{分|わ}かち{合|あ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{分|わ}かち{合|あ}え",
+        "negative": "{分|わ}かち{合|あ}うな"
+      }
+    ]
   }
 }

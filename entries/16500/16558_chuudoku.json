@@ -24,7 +24,9 @@
       "english": "I got food poisoning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16558_chuudoku_ex2",
@@ -32,7 +34,9 @@
       "english": "Please be careful of carbon monoxide poisoning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16558_chuudoku_ex3",
@@ -40,7 +44,9 @@
       "english": "I ate an old boxed lunch and developed symptoms of poisoning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16558_chuudoku_ex4",
@@ -48,7 +54,9 @@
       "english": "The number of children addicted to games is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16558_chuudoku_ex5",
@@ -56,7 +64,9 @@
       "english": "He's a caffeine addict and drinks five cups of coffee every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16558_chuudoku_ex6",
@@ -64,7 +74,9 @@
       "english": "That drama is so good I'm going to get hooked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is the original medical meaning — actual poisoning from toxic substances. Sense 2 is a figurative extension meaning addiction or obsessive attachment, used both seriously (drug/alcohol addiction) and casually (game/coffee addiction). Often appears as a suffix: ～{中毒|ちゅうどく}.\n\nCOMMON COLLOCATIONS:\n- {食中毒|しょくちゅうどく} (food poisoning)\n- {一酸化炭素|いっさんかたんそ}{中毒|ちゅうどく} (carbon monoxide poisoning)\n- アルコール{中毒|ちゅうどく} (alcoholism)\n- {中毒|ちゅうどく}{症状|しょうじょう} (poisoning symptoms)\n- {中毒|ちゅうどく}{患者|かんじゃ} (poisoning patient)\n\nSIMILAR WORDS:\n- {依存|いぞん}: dependence — more clinical and formal term for addiction\n- {中毒|ちゅうどく}{性|せい}: addictive quality — describes the property of being addictive",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{中毒|ちゅうどく}する",
+        "negative": "{中毒|ちゅうどく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{中毒|ちゅうどく}します",
+        "negative": "{中毒|ちゅうどく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{中毒|ちゅうどく}した",
+        "negative": "{中毒|ちゅうどく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{中毒|ちゅうどく}しました",
+        "negative": "{中毒|ちゅうどく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{中毒|ちゅうどく}して",
+        "negative": "{中毒|ちゅうどく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{中毒|ちゅうどく}している",
+        "negative": "{中毒|ちゅうどく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{中毒|ちゅうどく}しています",
+        "negative": "{中毒|ちゅうどく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{中毒|ちゅうどく}していた",
+        "negative": "{中毒|ちゅうどく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{中毒|ちゅうどく}していました",
+        "negative": "{中毒|ちゅうどく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{中毒|ちゅうどく}すれば",
+        "negative": "{中毒|ちゅうどく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{中毒|ちゅうどく}したら",
+        "negative": "{中毒|ちゅうどく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{中毒|ちゅうどく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{中毒|ちゅうどく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{中毒|ちゅうどく}できる",
+        "negative": "{中毒|ちゅうどく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{中毒|ちゅうどく}される",
+        "negative": "{中毒|ちゅうどく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{中毒|ちゅうどく}させる",
+        "negative": "{中毒|ちゅうどく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{中毒|ちゅうどく}しろ",
+        "negative": "{中毒|ちゅうどく}するな"
+      }
+    ]
   }
 }

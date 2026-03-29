@@ -19,7 +19,9 @@
       "english": "I have identification on me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12751_shoji_ex2",
@@ -27,7 +29,9 @@
       "english": "Please let us inspect your belongings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12751_shoji_ex3",
@@ -35,7 +39,9 @@
       "english": "He was arrested on suspicion of possessing illegal drugs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{所持|しょじ} means to possess or carry something, typically in formal or legal contexts. It implies having something physically on one's person.\n\nPATTERN:\n- 〜を{所持|しょじ}する: to possess, to carry ~\n\nCOMMON COLLOCATIONS:\n- {所持|しょじ}{品|ひん}: personal belongings, items on one's person\n- {所持|しょじ}{金|きん}: money on hand, cash carried\n- {銃|じゅう}を{所持|しょじ}する: to carry a gun\n- {不法|ふほう}{所持|しょじ}: illegal possession\n\nSIMILAR WORDS:\n- {所有|しょゆう}: ownership (broader, includes property and rights)\n- {持|も}つ: to have, to hold (everyday word)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["action"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{所持|しょじ}する",
+        "negative": "{所持|しょじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{所持|しょじ}します",
+        "negative": "{所持|しょじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{所持|しょじ}した",
+        "negative": "{所持|しょじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{所持|しょじ}しました",
+        "negative": "{所持|しょじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{所持|しょじ}して",
+        "negative": "{所持|しょじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{所持|しょじ}している",
+        "negative": "{所持|しょじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{所持|しょじ}しています",
+        "negative": "{所持|しょじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{所持|しょじ}していた",
+        "negative": "{所持|しょじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{所持|しょじ}していました",
+        "negative": "{所持|しょじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{所持|しょじ}すれば",
+        "negative": "{所持|しょじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{所持|しょじ}したら",
+        "negative": "{所持|しょじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{所持|しょじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{所持|しょじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{所持|しょじ}できる",
+        "negative": "{所持|しょじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{所持|しょじ}される",
+        "negative": "{所持|しょじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{所持|しょじ}させる",
+        "negative": "{所持|しょじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{所持|しょじ}しろ",
+        "negative": "{所持|しょじ}するな"
+      }
+    ]
   }
 }

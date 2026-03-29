@@ -19,7 +19,9 @@
       "english": "I took shelter from the rain under a tree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14929_amayadori_ex2",
@@ -27,7 +29,9 @@
       "english": "A sudden rain shower sent me to take shelter under the station eaves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14929_amayadori_ex3",
@@ -35,7 +39,9 @@
       "english": "I ducked into a cafe to wait out the rain and ended up staying for a whole hour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {雨|あめ} (rain) + {宿|やど}り (sheltering). A common everyday word used when someone waits somewhere temporarily to avoid rain.\n\nCOMMON COLLOCATIONS:\n- {雨宿|あまやど}りをする (to take shelter from the rain)\n- {雨宿|あまやど}りする{場所|ばしょ} (a place to shelter from rain)\n- {軒下|のきした}で{雨宿|あまやど}り (sheltering under the eaves)\n\nUSAGE NOTE:\nImplies the rain is temporary and the person plans to move on once it stops. Unlike simply being indoors, {雨宿|あまやど}り specifically conveys waiting for rain to pass.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{雨宿|あまやど}りする",
+        "negative": "{雨宿|あまやど}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{雨宿|あまやど}りします",
+        "negative": "{雨宿|あまやど}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{雨宿|あまやど}りした",
+        "negative": "{雨宿|あまやど}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{雨宿|あまやど}りしました",
+        "negative": "{雨宿|あまやど}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{雨宿|あまやど}りして",
+        "negative": "{雨宿|あまやど}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{雨宿|あまやど}りしている",
+        "negative": "{雨宿|あまやど}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{雨宿|あまやど}りしています",
+        "negative": "{雨宿|あまやど}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{雨宿|あまやど}りしていた",
+        "negative": "{雨宿|あまやど}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{雨宿|あまやど}りしていました",
+        "negative": "{雨宿|あまやど}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{雨宿|あまやど}りすれば",
+        "negative": "{雨宿|あまやど}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{雨宿|あまやど}りしたら",
+        "negative": "{雨宿|あまやど}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{雨宿|あまやど}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{雨宿|あまやど}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{雨宿|あまやど}りできる",
+        "negative": "{雨宿|あまやど}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{雨宿|あまやど}りされる",
+        "negative": "{雨宿|あまやど}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{雨宿|あまやど}りさせる",
+        "negative": "{雨宿|あまやど}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{雨宿|あまやど}りしろ",
+        "negative": "{雨宿|あまやど}りするな"
+      }
+    ]
   }
 }

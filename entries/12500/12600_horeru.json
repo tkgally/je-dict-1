@@ -24,7 +24,9 @@
       "english": "I fell for him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12600_horeru_ex2",
@@ -32,7 +34,9 @@
       "english": "It was love at first sight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12600_horeru_ex3",
@@ -40,7 +44,9 @@
       "english": "I fell for her smile and we started going out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12600_horeru_ex4",
@@ -48,7 +54,9 @@
       "english": "I was captivated by his skill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12600_horeru_ex5",
@@ -56,7 +64,9 @@
       "english": "This scenery is enchanting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12600_horeru_ex6",
@@ -64,7 +74,9 @@
       "english": "I was so captivated by the craftsman's splendid technique that I became his apprentice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA direct, somewhat informal word for falling in love or being captivated. More spontaneous and passionate than {好|す}きになる. Often implies being struck by sudden attraction.\n\nCOMPOUNDS:\n- {一目惚|ひとめぼ}れ: love at first sight\n- {惚|ほ}れ{込|こ}む: to fall deeply in love / to be thoroughly captivated\n- {惚|ほ}れ{惚|ぼ}れする: to be enchanted, to gaze in admiration\n- {惚|ほ}れた{弱|よわ}み: the weakness of being in love\n\nGRAMMAR:\nIchidan verb. Intransitive. Takes に for the object of affection: Xに{惚|ほ}れる.",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{惚|ほ}れる",
+        "negative": "{惚|ほ}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{惚|ほ}れます",
+        "negative": "{惚|ほ}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{惚|ほ}れた",
+        "negative": "{惚|ほ}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{惚|ほ}れました",
+        "negative": "{惚|ほ}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{惚|ほ}れて",
+        "negative": "{惚|ほ}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{惚|ほ}れている",
+        "negative": "{惚|ほ}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{惚|ほ}れています",
+        "negative": "{惚|ほ}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{惚|ほ}れていた",
+        "negative": "{惚|ほ}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{惚|ほ}れていました",
+        "negative": "{惚|ほ}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{惚|ほ}れれば",
+        "negative": "{惚|ほ}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{惚|ほ}れたら",
+        "negative": "{惚|ほ}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{惚|ほ}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{惚|ほ}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{惚|ほ}れられる",
+        "negative": "{惚|ほ}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{惚|ほ}れられる",
+        "negative": "{惚|ほ}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{惚|ほ}れさせる",
+        "negative": "{惚|ほ}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{惚|ほ}れろ",
+        "negative": "{惚|ほ}れるな"
+      }
+    ]
   }
 }

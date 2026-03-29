@@ -19,7 +19,9 @@
       "english": "Congratulations on achieving your goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15143_mokuhyoutassei_ex2",
@@ -27,7 +29,9 @@
       "english": "We're almost at our sales target.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15143_mokuhyoutassei_ex3",
@@ -35,7 +39,9 @@
       "english": "Thanks to the entire team's cooperation, we were able to achieve our annual target.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{目標|もくひょう}{達成|たっせい} is a four-character compound noun widely used in business, education, and personal development. It can also function as a する verb: {目標|もくひょう}{達成|たっせい}する.\n\nCOMMON COLLOCATIONS:\n- {目標|もくひょう}{達成|たっせい}する (to achieve a goal)\n- {目標|もくひょう}{達成|たっせい}{率|りつ} (goal achievement rate)\n- {目標|もくひょう}{達成|たっせい}に{向|む}けて (toward achieving a goal)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["achievement-success"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "achievement-success"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}する",
+        "negative": "{目標|もくひょう}{達成|たっせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}します",
+        "negative": "{目標|もくひょう}{達成|たっせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}した",
+        "negative": "{目標|もくひょう}{達成|たっせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}しました",
+        "negative": "{目標|もくひょう}{達成|たっせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}して",
+        "negative": "{目標|もくひょう}{達成|たっせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}している",
+        "negative": "{目標|もくひょう}{達成|たっせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}しています",
+        "negative": "{目標|もくひょう}{達成|たっせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}していた",
+        "negative": "{目標|もくひょう}{達成|たっせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}していました",
+        "negative": "{目標|もくひょう}{達成|たっせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}すれば",
+        "negative": "{目標|もくひょう}{達成|たっせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}したら",
+        "negative": "{目標|もくひょう}{達成|たっせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}できる",
+        "negative": "{目標|もくひょう}{達成|たっせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}される",
+        "negative": "{目標|もくひょう}{達成|たっせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}させる",
+        "negative": "{目標|もくひょう}{達成|たっせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目標|もくひょう}{達成|たっせい}しろ",
+        "negative": "{目標|もくひょう}{達成|たっせい}するな"
+      }
+    ]
   }
 }

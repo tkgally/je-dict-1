@@ -19,7 +19,9 @@
       "english": "To obtain a residence card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12128_zairyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The procedure to renew the residence status is necessary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12128_zairyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The number of foreign nationals residing in Japan is increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{在留|ざいりゅう} is primarily an administrative and legal term. It is the standard term used in Japanese immigration law and official documents. Foreign residents of Japan encounter this word frequently in visa and immigration procedures.\n\nCOMMON COLLOCATIONS:\n- {在留|ざいりゅう}カード: residence card (for foreign nationals in Japan)\n- {在留|ざいりゅう}{資格|しかく}: residence status, visa status\n- {在留|ざいりゅう}{期間|きかん}: period of stay\n- {在留|ざいりゅう}{届|とどけ}: residence notification\n- {在留|ざいりゅう}{外国人|がいこくじん}: foreign residents",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{在留|ざいりゅう}する",
+        "negative": "{在留|ざいりゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{在留|ざいりゅう}します",
+        "negative": "{在留|ざいりゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{在留|ざいりゅう}した",
+        "negative": "{在留|ざいりゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{在留|ざいりゅう}しました",
+        "negative": "{在留|ざいりゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{在留|ざいりゅう}して",
+        "negative": "{在留|ざいりゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{在留|ざいりゅう}している",
+        "negative": "{在留|ざいりゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{在留|ざいりゅう}しています",
+        "negative": "{在留|ざいりゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{在留|ざいりゅう}していた",
+        "negative": "{在留|ざいりゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{在留|ざいりゅう}していました",
+        "negative": "{在留|ざいりゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{在留|ざいりゅう}すれば",
+        "negative": "{在留|ざいりゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{在留|ざいりゅう}したら",
+        "negative": "{在留|ざいりゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{在留|ざいりゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{在留|ざいりゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{在留|ざいりゅう}できる",
+        "negative": "{在留|ざいりゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{在留|ざいりゅう}される",
+        "negative": "{在留|ざいりゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{在留|ざいりゅう}させる",
+        "negative": "{在留|ざいりゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{在留|ざいりゅう}しろ",
+        "negative": "{在留|ざいりゅう}するな"
+      }
+    ]
   }
 }

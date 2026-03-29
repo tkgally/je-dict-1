@@ -24,7 +24,9 @@
       "english": "The conversation went off track.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17195_soreru_ex2",
@@ -32,7 +34,9 @@
       "english": "The typhoon deviated from its predicted course.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17195_soreru_ex3",
@@ -40,7 +44,9 @@
       "english": "Let's proceed without straying from the main topic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17195_soreru_ex4",
@@ -48,7 +54,9 @@
       "english": "The ball went wide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17195_soreru_ex5",
@@ -56,7 +64,9 @@
       "english": "The shot veered right and missed the goal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17195_soreru_ex6",
@@ -64,7 +74,9 @@
       "english": "The arrow that missed the target by a wide margin stuck in the wall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe kanji {逸|そ}れる is common in print, but the word is also frequently written in hiragana. The transitive counterpart is {逸|そ}らす (to divert, to deflect).\n\nCOMMON COLLOCATIONS:\n- {話|はなし}が{逸|そ}れる (the conversation goes off track)\n- コースから{逸|そ}れる (to deviate from a course)\n- {的|まと}から{逸|そ}れる (to miss the mark)\n- {本題|ほんだい}から{逸|そ}れる (to stray from the main topic)\n\nSIMILAR WORDS:\n- {外|はず}れる: to miss, to be off — broader usage, also means \"to be wrong\"\n- ずれる: to shift, to be off — for slight misalignment or discrepancy",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["motion", "action"]
+      "semantic": [
+        "motion",
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{逸|そ}れる",
+        "negative": "{逸|そ}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{逸|そ}れます",
+        "negative": "{逸|そ}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{逸|そ}れた",
+        "negative": "{逸|そ}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{逸|そ}れました",
+        "negative": "{逸|そ}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{逸|そ}れて",
+        "negative": "{逸|そ}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{逸|そ}れている",
+        "negative": "{逸|そ}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{逸|そ}れています",
+        "negative": "{逸|そ}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{逸|そ}れていた",
+        "negative": "{逸|そ}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{逸|そ}れていました",
+        "negative": "{逸|そ}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{逸|そ}れれば",
+        "negative": "{逸|そ}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{逸|そ}れたら",
+        "negative": "{逸|そ}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{逸|そ}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{逸|そ}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{逸|そ}れられる",
+        "negative": "{逸|そ}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{逸|そ}れられる",
+        "negative": "{逸|そ}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{逸|そ}れさせる",
+        "negative": "{逸|そ}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{逸|そ}れろ",
+        "negative": "{逸|そ}れるな"
+      }
+    ]
   }
 }

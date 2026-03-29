@@ -19,7 +19,9 @@
       "english": "To increase the budget.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12134_zougaku_ex2",
@@ -27,7 +29,9 @@
       "english": "I requested a salary increase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12134_zougaku_ex3",
@@ -35,7 +39,9 @@
       "english": "The government decided on a significant increase in defense spending, sparking debate in parliament.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{増額|ぞうがく} refers specifically to increases in monetary amounts. It is distinct from {増加|ぞうか} (general increase in quantity) and {値上|ねあ}げ (price hike for consumers). {増額|ぞうがく} is used for budgets, salaries, investments, and other financial figures.\n\nCOMMON COLLOCATIONS:\n- {予算|よさん}の{増額|ぞうがく}: budget increase\n- {給与|きゅうよ}の{増額|ぞうがく}: salary increase\n- {大幅|おおはば}な{増額|ぞうがく}: significant increase\n- {増額|ぞうがく}を{要求|ようきゅう}する: to demand an increase",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["quantity"],
-      "domain": ["business"]
+      "semantic": [
+        "quantity"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{増額|ぞうがく}する",
+        "negative": "{増額|ぞうがく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{増額|ぞうがく}します",
+        "negative": "{増額|ぞうがく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{増額|ぞうがく}した",
+        "negative": "{増額|ぞうがく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{増額|ぞうがく}しました",
+        "negative": "{増額|ぞうがく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{増額|ぞうがく}して",
+        "negative": "{増額|ぞうがく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{増額|ぞうがく}している",
+        "negative": "{増額|ぞうがく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{増額|ぞうがく}しています",
+        "negative": "{増額|ぞうがく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{増額|ぞうがく}していた",
+        "negative": "{増額|ぞうがく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{増額|ぞうがく}していました",
+        "negative": "{増額|ぞうがく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{増額|ぞうがく}すれば",
+        "negative": "{増額|ぞうがく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{増額|ぞうがく}したら",
+        "negative": "{増額|ぞうがく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{増額|ぞうがく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{増額|ぞうがく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{増額|ぞうがく}できる",
+        "negative": "{増額|ぞうがく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{増額|ぞうがく}される",
+        "negative": "{増額|ぞうがく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{増額|ぞうがく}させる",
+        "negative": "{増額|ぞうがく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{増額|ぞうがく}しろ",
+        "negative": "{増額|ぞうがく}するな"
+      }
+    ]
   }
 }

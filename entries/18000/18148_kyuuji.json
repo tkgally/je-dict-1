@@ -24,7 +24,9 @@
       "english": "To serve a meal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18148_kyuuji_ex2",
@@ -32,7 +34,9 @@
       "english": "He works as a server at a hotel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18148_kyuuji_ex3",
@@ -40,7 +44,10 @@
       "english": "At the banquet, the servers carefully brought out each dish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1, 2]
+      "sense_numbers": [
+        1,
+        2
+      ]
     },
     {
       "id": "18148_kyuuji_ex4",
@@ -48,7 +55,9 @@
       "english": "At a Japanese inn, the attendant serves meals in your room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18148_kyuuji_ex5",
@@ -56,7 +65,9 @@
       "english": "When I was young, I worked as a server at a restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18148_kyuuji_ex6",
@@ -64,7 +75,9 @@
       "english": "This long-established restaurant is known for its attentive table service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat formal or literary word. In modern casual speech, ウェイター or ホールスタッフ are more common for referring to restaurant servers. {給仕|きゅうじ} carries a traditional or refined nuance.\n\nCOMMON COLLOCATIONS:\n- {給仕|きゅうじ}をする (to serve, to wait on tables)\n- {給仕|きゅうじ}が{行|ゆ}き{届|とど}いている (the service is attentive)\n- {給仕|きゅうじ}の{仕事|しごと} (server work)",
@@ -75,10 +88,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "food"]
+      "semantic": [
+        "work",
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{給仕|きゅうじ}する",
+        "negative": "{給仕|きゅうじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{給仕|きゅうじ}します",
+        "negative": "{給仕|きゅうじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{給仕|きゅうじ}した",
+        "negative": "{給仕|きゅうじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{給仕|きゅうじ}しました",
+        "negative": "{給仕|きゅうじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{給仕|きゅうじ}して",
+        "negative": "{給仕|きゅうじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{給仕|きゅうじ}している",
+        "negative": "{給仕|きゅうじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{給仕|きゅうじ}しています",
+        "negative": "{給仕|きゅうじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{給仕|きゅうじ}していた",
+        "negative": "{給仕|きゅうじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{給仕|きゅうじ}していました",
+        "negative": "{給仕|きゅうじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{給仕|きゅうじ}すれば",
+        "negative": "{給仕|きゅうじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{給仕|きゅうじ}したら",
+        "negative": "{給仕|きゅうじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{給仕|きゅうじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{給仕|きゅうじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{給仕|きゅうじ}できる",
+        "negative": "{給仕|きゅうじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{給仕|きゅうじ}される",
+        "negative": "{給仕|きゅうじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{給仕|きゅうじ}させる",
+        "negative": "{給仕|きゅうじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{給仕|きゅうじ}しろ",
+        "negative": "{給仕|きゅうじ}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "To compensate for the damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10883_tsugunau_ex2",
@@ -32,7 +34,9 @@
       "english": "I was able to compensate for the damage through insurance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10883_tsugunau_ex3",
@@ -40,7 +44,9 @@
       "english": "There are losses that cannot be fully compensated with money.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10883_tsugunau_ex4",
@@ -48,7 +54,9 @@
       "english": "To atone for one's sins.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10883_tsugunau_ex5",
@@ -56,7 +64,9 @@
       "english": "To atone for past mistakes, he continues volunteer work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10883_tsugunau_ex6",
@@ -64,7 +74,9 @@
       "english": "This sin probably can't be atoned for even in a lifetime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{償|つぐな}う.\n\nUSAGE:\nSense 1 is used in legal and financial contexts for compensation and restitution. Sense 2 is used in moral and personal contexts for atonement and making amends.\n\nCOMMON COLLOCATIONS:\n- {損害|そんがい}を{償|つぐな}う: to compensate for damage\n- {罪|つみ}を{償|つぐな}う: to atone for one's sins\n- {過|あやま}ちを{償|つぐな}う: to make amends for mistakes\n- {被害|ひがい}を{償|つぐな}う: to compensate for harm\n\nRELATED WORDS:\n{賠償|ばいしょう}する is the more formal/legal term for \"to compensate\" and is standard in legal documents. {償|つぐな}う has a broader, more personal tone.",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-u",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{償|つぐな}う",
+        "negative": "{償|つぐな}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{償|つぐな}います",
+        "negative": "{償|つぐな}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{償|つぐな}った",
+        "negative": "{償|つぐな}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{償|つぐな}いました",
+        "negative": "{償|つぐな}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{償|つぐな}って",
+        "negative": "{償|つぐな}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{償|つぐな}っている",
+        "negative": "{償|つぐな}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{償|つぐな}っています",
+        "negative": "{償|つぐな}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{償|つぐな}っていた",
+        "negative": "{償|つぐな}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{償|つぐな}っていました",
+        "negative": "{償|つぐな}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{償|つぐな}えば",
+        "negative": "{償|つぐな}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{償|つぐな}ったら",
+        "negative": "{償|つぐな}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{償|つぐな}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{償|つぐな}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{償|つぐな}える",
+        "negative": "{償|つぐな}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{償|つぐな}われる",
+        "negative": "{償|つぐな}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{償|つぐな}わせる",
+        "negative": "{償|つぐな}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{償|つぐな}え",
+        "negative": "{償|つぐな}うな"
+      }
+    ]
   }
 }

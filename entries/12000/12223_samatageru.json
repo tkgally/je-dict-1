@@ -19,7 +19,9 @@
       "english": "Please do not obstruct traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12223_samatageru_ex2",
@@ -27,7 +29,9 @@
       "english": "The noise is hindering my concentration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12223_samatageru_ex3",
@@ -35,7 +39,9 @@
       "english": "There are voices criticizing that regulations are impeding the development of new businesses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "PARTICLE PATTERNS:\n- 〜を{妨|さまた}げる: to hinder/obstruct (something)\n- 〜が〜を{妨|さまた}げる: (something) hinders (something else)\n\nCOMMON COLLOCATIONS:\n- {成長|せいちょう}を{妨|さまた}げる: to hinder growth\n- {発展|はってん}を{妨|さまた}げる: to impede development\n- {睡眠|すいみん}を{妨|さまた}げる: to disturb sleep\n- {進行|しんこう}を{妨|さまた}げる: to obstruct progress\n- {自由|じゆう}を{妨|さまた}げる: to impede freedom\n\nSIMILAR WORDS:\n{妨|さまた}げる vs {邪魔|じゃま}する: Both mean to get in the way. {邪魔|じゃま}する is more colloquial and often used for minor interference in everyday situations. {妨|さまた}げる is more formal and implies more serious or systematic obstruction.\n\nThe noun form is {妨|さまた}げ (hindrance, obstacle).",
@@ -53,12 +59,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{妨|さまた}げる",
+        "negative": "{妨|さまた}げない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{妨|さまた}げます",
+        "negative": "{妨|さまた}げません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{妨|さまた}げた",
+        "negative": "{妨|さまた}げなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{妨|さまた}げました",
+        "negative": "{妨|さまた}げませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{妨|さまた}げて",
+        "negative": "{妨|さまた}げなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{妨|さまた}げている",
+        "negative": "{妨|さまた}げていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{妨|さまた}げています",
+        "negative": "{妨|さまた}げていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{妨|さまた}げていた",
+        "negative": "{妨|さまた}げていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{妨|さまた}げていました",
+        "negative": "{妨|さまた}げていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{妨|さまた}げれば",
+        "negative": "{妨|さまた}げなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{妨|さまた}げたら",
+        "negative": "{妨|さまた}げなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{妨|さまた}げよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{妨|さまた}げましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{妨|さまた}げられる",
+        "negative": "{妨|さまた}げられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{妨|さまた}げられる",
+        "negative": "{妨|さまた}げられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{妨|さまた}げさせる",
+        "negative": "{妨|さまた}げさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{妨|さまた}げろ",
+        "negative": "{妨|さまた}げるな"
+      }
+    ]
   }
 }

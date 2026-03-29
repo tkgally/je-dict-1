@@ -24,7 +24,9 @@
       "english": "The gears mesh together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10586_kamiau_ex2",
@@ -32,7 +34,9 @@
       "english": "My upper and lower teeth don't align properly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10586_kamiau_ex3",
@@ -40,7 +44,9 @@
       "english": "If the parts don't mesh correctly, the machine won't work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10586_kamiau_ex4",
@@ -48,7 +54,9 @@
       "english": "The argument isn't connecting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10586_kamiau_ex5",
@@ -56,7 +64,9 @@
       "english": "The conversation wasn't on the same page at all.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10586_kamiau_ex6",
@@ -64,7 +74,9 @@
       "english": "Our opinions didn't mesh, and the meeting remained at an impasse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-u):\n- Negative: {噛|か}み{合|あ}わない\n- Te-form: {噛|か}み{合|あ}って\n- Past: {噛|か}み{合|あ}った\n\nTRANSITIVITY:\nIntransitive. Describes a mutual action between two or more things.\n\nASPECT:\n{噛|か}み{合|あ}っている describes the state of being properly engaged or in sync.\n\nUSAGE:\nSense 2 is extremely common in everyday Japanese. {議論|ぎろん}が{噛|か}み{合|あ}わない (the argument doesn't connect) is used when two people are talking past each other.\n\nCOMMON COLLOCATIONS:\n- {歯車|はぐるま}が{噛|か}み{合|あ}う: gears mesh\n- {議論|ぎろん}が{噛|か}み{合|あ}わない: arguments don't connect\n- {話|はなし}が{噛|か}み{合|あ}う: conversation flows well",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-u",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{噛|か}み{合|あ}う",
+        "negative": "{噛|か}み{合|あ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{噛|か}み{合|あ}います",
+        "negative": "{噛|か}み{合|あ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{噛|か}み{合|あ}った",
+        "negative": "{噛|か}み{合|あ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{噛|か}み{合|あ}いました",
+        "negative": "{噛|か}み{合|あ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{噛|か}み{合|あ}って",
+        "negative": "{噛|か}み{合|あ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{噛|か}み{合|あ}っている",
+        "negative": "{噛|か}み{合|あ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{噛|か}み{合|あ}っています",
+        "negative": "{噛|か}み{合|あ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{噛|か}み{合|あ}っていた",
+        "negative": "{噛|か}み{合|あ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{噛|か}み{合|あ}っていました",
+        "negative": "{噛|か}み{合|あ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{噛|か}み{合|あ}えば",
+        "negative": "{噛|か}み{合|あ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{噛|か}み{合|あ}ったら",
+        "negative": "{噛|か}み{合|あ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{噛|か}み{合|あ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{噛|か}み{合|あ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{噛|か}み{合|あ}える",
+        "negative": "{噛|か}み{合|あ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{噛|か}み{合|あ}われる",
+        "negative": "{噛|か}み{合|あ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{噛|か}み{合|あ}わせる",
+        "negative": "{噛|か}み{合|あ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{噛|か}み{合|あ}え",
+        "negative": "{噛|か}み{合|あ}うな"
+      }
+    ]
   }
 }

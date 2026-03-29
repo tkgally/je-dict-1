@@ -19,7 +19,9 @@
       "english": "I decided on the spot without hesitation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18317_sokudan_ex2",
@@ -27,7 +29,9 @@
       "english": "I can't make an immediate decision on this matter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18317_sokudan_ex3",
@@ -35,7 +39,9 @@
       "english": "The president is someone who makes quick decisions, so meetings never drag on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften paired with {即決|そっけつ} in the four-character expression {即断即決|そくだんそっけつ} (making snap decisions and acting on them immediately). Whether {即断|そくだん} is positive or negative depends on context — it can mean decisiveness or rashness.\n\nCOMMON COLLOCATIONS:\n- {即断|そくだん}{即決|そっけつ} (snap decision and immediate action)\n- {即断|そくだん}する (to decide on the spot)\n- {即断|そくだん}は{禁物|きんもつ} (snap decisions are to be avoided)\n\nSIMILAR WORDS:\n- {即決|そっけつ}: immediate decision — very similar, often paired with 即断\n- {決断|けつだん}: determination, resolution — a deliberate, weighty decision",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{即断|そくだん}する",
+        "negative": "{即断|そくだん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{即断|そくだん}します",
+        "negative": "{即断|そくだん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{即断|そくだん}した",
+        "negative": "{即断|そくだん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{即断|そくだん}しました",
+        "negative": "{即断|そくだん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{即断|そくだん}して",
+        "negative": "{即断|そくだん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{即断|そくだん}している",
+        "negative": "{即断|そくだん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{即断|そくだん}しています",
+        "negative": "{即断|そくだん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{即断|そくだん}していた",
+        "negative": "{即断|そくだん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{即断|そくだん}していました",
+        "negative": "{即断|そくだん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{即断|そくだん}すれば",
+        "negative": "{即断|そくだん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{即断|そくだん}したら",
+        "negative": "{即断|そくだん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{即断|そくだん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{即断|そくだん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{即断|そくだん}できる",
+        "negative": "{即断|そくだん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{即断|そくだん}される",
+        "negative": "{即断|そくだん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{即断|そくだん}させる",
+        "negative": "{即断|そくだん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{即断|そくだん}しろ",
+        "negative": "{即断|そくだん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The footsteps faded into the distance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14379_toozakaru_ex2",
@@ -27,7 +29,9 @@
       "english": "I watched the ship move away from the shore.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14379_toozakaru_ex3",
@@ -35,7 +39,9 @@
       "english": "After moving, I drifted apart from my friends and stopped keeping in touch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{遠|とお}ざかる is an intransitive godan verb (conjugation: {遠|とお}ざからない, {遠|とお}ざかって, etc.). The transitive counterpart is {遠|とお}ざける (to distance something, to keep away).\n\nASPECT (ている):\n{遠|とお}ざかっている indicates a state of being distant or having moved away.\n\nPARTICLE PATTERNS:\n- から{遠|とお}ざかる (to move away from)\n- が{遠|とお}ざかる (something recedes)\n\nCOMMON COLLOCATIONS:\n- {音|おと}が{遠|とお}ざかる (a sound fades away)\n- {記憶|きおく}が{遠|とお}ざかる (memories become distant)\n- {目標|もくひょう}から{遠|とお}ざかる (to drift away from one's goal)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遠|とお}ざかる",
+        "negative": "{遠|とお}ざからない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遠|とお}ざかります",
+        "negative": "{遠|とお}ざかりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遠|とお}ざかった",
+        "negative": "{遠|とお}ざからなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遠|とお}ざかりました",
+        "negative": "{遠|とお}ざかりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遠|とお}ざかって",
+        "negative": "{遠|とお}ざからなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遠|とお}ざかっている",
+        "negative": "{遠|とお}ざかっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遠|とお}ざかっています",
+        "negative": "{遠|とお}ざかっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遠|とお}ざかっていた",
+        "negative": "{遠|とお}ざかっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遠|とお}ざかっていました",
+        "negative": "{遠|とお}ざかっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遠|とお}ざかれば",
+        "negative": "{遠|とお}ざからなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遠|とお}ざかったら",
+        "negative": "{遠|とお}ざからなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遠|とお}ざかろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遠|とお}ざかりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遠|とお}ざかれる",
+        "negative": "{遠|とお}ざかれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遠|とお}ざかられる",
+        "negative": "{遠|とお}ざかられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遠|とお}ざからせる",
+        "negative": "{遠|とお}ざからせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遠|とお}ざかれ",
+        "negative": "{遠|とお}ざかるな"
+      }
+    ]
   }
 }

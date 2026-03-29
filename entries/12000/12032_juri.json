@@ -19,7 +19,9 @@
       "english": "To accept a notification form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12032_juri_ex2",
@@ -27,7 +29,9 @@
       "english": "The marriage registration was accepted without issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12032_juri_ex3",
@@ -35,7 +39,9 @@
       "english": "The application was not accepted because there were deficiencies in the documents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, administrative term. The subject is typically a government office or official body that accepts documents from individuals. Passive form {受理|じゅり}される is very common.\n\nCOMMON COLLOCATIONS:\n- {申請|しんせい}を{受理|じゅり}する: to accept an application\n- {届|とどけ}を{受理|じゅり}する: to accept a registration/notification\n- {受理|じゅり}{番号|ばんごう}: acceptance/receipt number\n- {受理|じゅり}{日|び}: date of acceptance",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["administrative"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "administrative"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{受理|じゅり}する",
+        "negative": "{受理|じゅり}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{受理|じゅり}します",
+        "negative": "{受理|じゅり}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{受理|じゅり}した",
+        "negative": "{受理|じゅり}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{受理|じゅり}しました",
+        "negative": "{受理|じゅり}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{受理|じゅり}して",
+        "negative": "{受理|じゅり}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{受理|じゅり}している",
+        "negative": "{受理|じゅり}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{受理|じゅり}しています",
+        "negative": "{受理|じゅり}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{受理|じゅり}していた",
+        "negative": "{受理|じゅり}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{受理|じゅり}していました",
+        "negative": "{受理|じゅり}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{受理|じゅり}すれば",
+        "negative": "{受理|じゅり}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{受理|じゅり}したら",
+        "negative": "{受理|じゅり}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{受理|じゅり}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{受理|じゅり}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{受理|じゅり}できる",
+        "negative": "{受理|じゅり}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{受理|じゅり}される",
+        "negative": "{受理|じゅり}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{受理|じゅり}させる",
+        "negative": "{受理|じゅり}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{受理|じゅり}しろ",
+        "negative": "{受理|じゅり}するな"
+      }
+    ]
   }
 }

@@ -18,7 +18,9 @@
       "english": "My grandfather never misses his daily walk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10138_kakasu_ex2",
@@ -26,7 +28,9 @@
       "english": "Even when I'm busy, I make sure to never skip my daily routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10138_kakasu_ex3",
@@ -34,7 +38,9 @@
       "english": "I never skip my morning coffee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: Almost exclusively used in the negative form {欠|か}かさない or {欠|か}かさず (without fail).\n\nTRANSITIVITY: Transitive ({他動詞|たどうし}).\n\nCOMMON PATTERNS:\n・〜を{欠|か}かさない (to never miss ~)\n・{欠|か}かさず〜する (to do ~ without fail)\n・{一日|いちにち}も{欠|か}かさず (without missing a single day)\n\nRELATED WORDS:\n・{欠|か}ける (to lack; to be missing - intransitive)\n・{欠|けっ}{席|せき}する (to be absent)",
@@ -44,11 +50,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{欠|か}かす",
+        "negative": "{欠|か}かさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{欠|か}かします",
+        "negative": "{欠|か}かしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{欠|か}かした",
+        "negative": "{欠|か}かさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{欠|か}かしました",
+        "negative": "{欠|か}かしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{欠|か}かして",
+        "negative": "{欠|か}かさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{欠|か}かしている",
+        "negative": "{欠|か}かしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{欠|か}かしています",
+        "negative": "{欠|か}かしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{欠|か}かしていた",
+        "negative": "{欠|か}かしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{欠|か}かしていました",
+        "negative": "{欠|か}かしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{欠|か}かせば",
+        "negative": "{欠|か}かさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{欠|か}かしたら",
+        "negative": "{欠|か}かさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{欠|か}かそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{欠|か}かしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{欠|か}かせる",
+        "negative": "{欠|か}かせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{欠|か}かされる",
+        "negative": "{欠|か}かされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{欠|か}かさせる",
+        "negative": "{欠|か}かさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{欠|か}かせ",
+        "negative": "{欠|か}かすな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "I received a heart transplant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13761_ishoku_ex2",
@@ -32,7 +34,9 @@
       "english": "Organ transplants require a donor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13761_ishoku_ex3",
@@ -40,7 +44,9 @@
       "english": "After the transplant surgery, the patient's condition is stable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13761_ishoku_ex4",
@@ -48,7 +54,9 @@
       "english": "I transplant the seedlings into the garden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13761_ishoku_ex5",
@@ -56,7 +64,9 @@
       "english": "Spring is the best time for transplanting bonsai.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13761_ishoku_ex6",
@@ -64,7 +74,9 @@
       "english": "This game was ported from an overseas version to a Japanese edition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nAs a する verb, {移植|いしょく}する means \"to transplant\" or \"to port.\" The medical sense is the most common in everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {臓器|ぞうき}{移植|いしょく}: organ transplant\n- {心臓|しんぞう}{移植|いしょく}: heart transplant\n- {骨髄|こつずい}{移植|いしょく}: bone marrow transplant\n- {移植|いしょく}{手術|しゅじゅつ}: transplant surgery\n- {移植|いしょく}を{受|う}ける: to receive a transplant\n- {苗|なえ}を{移植|いしょく}する: to transplant seedlings",
@@ -75,12 +87,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
+      "semantic": [
+        "general"
+      ],
       "transitivity": "transitive",
-      "domain": ["medical"]
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{移植|いしょく}する",
+        "negative": "{移植|いしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{移植|いしょく}します",
+        "negative": "{移植|いしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{移植|いしょく}した",
+        "negative": "{移植|いしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{移植|いしょく}しました",
+        "negative": "{移植|いしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{移植|いしょく}して",
+        "negative": "{移植|いしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{移植|いしょく}している",
+        "negative": "{移植|いしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{移植|いしょく}しています",
+        "negative": "{移植|いしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{移植|いしょく}していた",
+        "negative": "{移植|いしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{移植|いしょく}していました",
+        "negative": "{移植|いしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{移植|いしょく}すれば",
+        "negative": "{移植|いしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{移植|いしょく}したら",
+        "negative": "{移植|いしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{移植|いしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{移植|いしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{移植|いしょく}できる",
+        "negative": "{移植|いしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{移植|いしょく}される",
+        "negative": "{移植|いしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{移植|いしょく}させる",
+        "negative": "{移植|いしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{移植|いしょく}しろ",
+        "negative": "{移植|いしょく}するな"
+      }
+    ]
   }
 }

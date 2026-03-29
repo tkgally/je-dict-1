@@ -19,7 +19,9 @@
       "english": "What is the official designation?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12126_koshou_ex2",
@@ -27,7 +29,9 @@
       "english": "The title of this position was changed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12126_koshou_ex3",
@@ -35,7 +39,9 @@
       "english": "Since the same product can have different designations in different countries, international standardization is being called for.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{呼称|こしょう} is a formal word used for official or institutional names and titles. It is more formal than {呼|よ}び{方|かた} (casual way of calling) and {名前|なまえ} (name). Common in bureaucratic, academic, and business writing.\n\nCOMMON COLLOCATIONS:\n- {正式|せいしき}{呼称|こしょう}: official designation\n- {呼称|こしょう}を{変更|へんこう}する: to change the designation\n- {呼称|こしょう}が{異|こと}なる: to have different designations\n- {一般的|いっぱんてき}な{呼称|こしょう}: common designation",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{呼称|こしょう}する",
+        "negative": "{呼称|こしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{呼称|こしょう}します",
+        "negative": "{呼称|こしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{呼称|こしょう}した",
+        "negative": "{呼称|こしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{呼称|こしょう}しました",
+        "negative": "{呼称|こしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{呼称|こしょう}して",
+        "negative": "{呼称|こしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{呼称|こしょう}している",
+        "negative": "{呼称|こしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{呼称|こしょう}しています",
+        "negative": "{呼称|こしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{呼称|こしょう}していた",
+        "negative": "{呼称|こしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{呼称|こしょう}していました",
+        "negative": "{呼称|こしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{呼称|こしょう}すれば",
+        "negative": "{呼称|こしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{呼称|こしょう}したら",
+        "negative": "{呼称|こしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{呼称|こしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{呼称|こしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{呼称|こしょう}できる",
+        "negative": "{呼称|こしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{呼称|こしょう}される",
+        "negative": "{呼称|こしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{呼称|こしょう}させる",
+        "negative": "{呼称|こしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{呼称|こしょう}しろ",
+        "negative": "{呼称|こしょう}するな"
+      }
+    ]
   }
 }

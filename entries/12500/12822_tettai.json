@@ -19,7 +19,9 @@
       "english": "The army withdrew.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12822_tettai_ex2",
@@ -27,7 +29,9 @@
       "english": "The company withdrew from the overseas market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12822_tettai_ex3",
@@ -35,7 +39,9 @@
       "english": "A decision to withdraw promptly was needed before the damage spread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOriginally a military term, {撤退|てったい} is now widely used in business for exiting a market, closing operations, or pulling out of a venture. It implies an organized, deliberate withdrawal rather than a chaotic retreat.\n\nCOMPARISON WITH SIMILAR WORDS:\n- {撤退|てったい}: organized withdrawal (military or business)\n- {退却|たいきゃく}: retreat (more military, sometimes implies defeat)\n- {撤収|てっしゅう}: removal, cleanup; pulling out equipment/personnel\n\nCOMMON COLLOCATIONS:\n- {市場|しじょう}から{撤退|てったい}する: to withdraw from a market\n- {撤退|てったい}を{決|き}める: to decide to withdraw\n- {全面|ぜんめん}{撤退|てったい}: full withdrawal\n- {撤退|てったい}{戦略|せんりゃく}: withdrawal strategy",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{撤退|てったい}する",
+        "negative": "{撤退|てったい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{撤退|てったい}します",
+        "negative": "{撤退|てったい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{撤退|てったい}した",
+        "negative": "{撤退|てったい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{撤退|てったい}しました",
+        "negative": "{撤退|てったい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{撤退|てったい}して",
+        "negative": "{撤退|てったい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{撤退|てったい}している",
+        "negative": "{撤退|てったい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{撤退|てったい}しています",
+        "negative": "{撤退|てったい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{撤退|てったい}していた",
+        "negative": "{撤退|てったい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{撤退|てったい}していました",
+        "negative": "{撤退|てったい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{撤退|てったい}すれば",
+        "negative": "{撤退|てったい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{撤退|てったい}したら",
+        "negative": "{撤退|てったい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{撤退|てったい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{撤退|てったい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{撤退|てったい}できる",
+        "negative": "{撤退|てったい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{撤退|てったい}される",
+        "negative": "{撤退|てったい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{撤退|てったい}させる",
+        "negative": "{撤退|てったい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{撤退|てったい}しろ",
+        "negative": "{撤退|てったい}するな"
+      }
+    ]
   }
 }

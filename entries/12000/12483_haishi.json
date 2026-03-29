@@ -19,7 +19,9 @@
       "english": "That system was abolished.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12483_haishi_ex2",
@@ -27,7 +29,9 @@
       "english": "Calls for the abolition of the death penalty are growing louder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12483_haishi_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to declining ridership, the bus route is expected to be discontinued next fiscal year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru-verb: {廃止|はいし}する. Applies to systems, laws, regulations, services, and customs. Distinguish from {廃棄|はいき} (disposal of physical objects) and {撤廃|てっぱい} (abolition, often of restrictions or barriers). {廃止|はいし} emphasizes the official ending of something that was operational.\n\nCOMMON COLLOCATIONS:\n- {制度|せいど}を{廃止|はいし}する: abolish a system\n- {法律|ほうりつ}を{廃止|はいし}する: repeal a law\n- {路線|ろせん}の{廃止|はいし}: discontinuation of a route\n- {死刑|しけい}{廃止|はいし}: abolition of the death penalty",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{廃止|はいし}する",
+        "negative": "{廃止|はいし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{廃止|はいし}します",
+        "negative": "{廃止|はいし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{廃止|はいし}した",
+        "negative": "{廃止|はいし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{廃止|はいし}しました",
+        "negative": "{廃止|はいし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{廃止|はいし}して",
+        "negative": "{廃止|はいし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{廃止|はいし}している",
+        "negative": "{廃止|はいし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{廃止|はいし}しています",
+        "negative": "{廃止|はいし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{廃止|はいし}していた",
+        "negative": "{廃止|はいし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{廃止|はいし}していました",
+        "negative": "{廃止|はいし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{廃止|はいし}すれば",
+        "negative": "{廃止|はいし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{廃止|はいし}したら",
+        "negative": "{廃止|はいし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{廃止|はいし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{廃止|はいし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{廃止|はいし}できる",
+        "negative": "{廃止|はいし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{廃止|はいし}される",
+        "negative": "{廃止|はいし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{廃止|はいし}させる",
+        "negative": "{廃止|はいし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{廃止|はいし}しろ",
+        "negative": "{廃止|はいし}するな"
+      }
+    ]
   }
 }

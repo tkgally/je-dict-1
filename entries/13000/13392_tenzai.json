@@ -19,7 +19,9 @@
       "english": "Small islands are scattered across the lake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13392_tenzai_ex2",
@@ -27,7 +29,9 @@
       "english": "Old temples are dotted throughout the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13392_tenzai_ex3",
@@ -35,7 +39,9 @@
       "english": "Ranches are scattered across the vast plain, creating a peaceful landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA literary and descriptive term. Almost always used in the suru verb form {点在|てんざい}する or its ている form {点在|てんざい}している. The pattern ～に{点在|てんざい}する means \"to be scattered across (a place).\"\n\nCOMMON COLLOCATIONS:\n- {島|しま}が{点在|てんざい}する: islands are scattered\n- {集落|しゅうらく}が{点在|てんざい}する: settlements are dotted about\n- {遺跡|いせき}が{点在|てんざい}する: ruins are scattered",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["space-location"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "space-location"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{点在|てんざい}する",
+        "negative": "{点在|てんざい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{点在|てんざい}します",
+        "negative": "{点在|てんざい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{点在|てんざい}した",
+        "negative": "{点在|てんざい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{点在|てんざい}しました",
+        "negative": "{点在|てんざい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{点在|てんざい}して",
+        "negative": "{点在|てんざい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{点在|てんざい}している",
+        "negative": "{点在|てんざい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{点在|てんざい}しています",
+        "negative": "{点在|てんざい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{点在|てんざい}していた",
+        "negative": "{点在|てんざい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{点在|てんざい}していました",
+        "negative": "{点在|てんざい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{点在|てんざい}すれば",
+        "negative": "{点在|てんざい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{点在|てんざい}したら",
+        "negative": "{点在|てんざい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{点在|てんざい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{点在|てんざい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{点在|てんざい}できる",
+        "negative": "{点在|てんざい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{点在|てんざい}される",
+        "negative": "{点在|てんざい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{点在|てんざい}させる",
+        "negative": "{点在|てんざい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{点在|てんざい}しろ",
+        "negative": "{点在|てんざい}するな"
+      }
+    ]
   }
 }

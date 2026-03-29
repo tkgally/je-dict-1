@@ -19,7 +19,9 @@
       "english": "The soup came to a boil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13404_nitatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "When the pot comes to a boil, turn down the heat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13404_nitatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The trick is to dissolve the miso into the broth just as it comes to a boil.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The transitive pair is {煮立|にた}てる (to bring to a boil).\n\nASPECT (ている):\n{煮立|にた}っている indicates an ongoing state of boiling.\n\nUSAGE:\nVery common in recipes and cooking instructions. Often appears in the ～たら conditional form ({煮立|にた}ったら) to describe the moment a liquid reaches boiling point, at which point the next cooking step should be performed.\n\nCOMMON COLLOCATIONS:\n- スープが{煮立|にた}つ: the soup comes to a boil\n- {鍋|なべ}が{煮立|にた}つ: the pot comes to a boil\n- だしが{煮立|にた}つ: the broth comes to a boil\n- ぐつぐつ{煮立|にた}つ: to boil vigorously",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{煮立|にた}つ",
+        "negative": "{煮立|にた}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{煮立|にた}ちます",
+        "negative": "{煮立|にた}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{煮立|にた}った",
+        "negative": "{煮立|にた}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{煮立|にた}ちました",
+        "negative": "{煮立|にた}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{煮立|にた}って",
+        "negative": "{煮立|にた}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{煮立|にた}っている",
+        "negative": "{煮立|にた}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{煮立|にた}っています",
+        "negative": "{煮立|にた}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{煮立|にた}っていた",
+        "negative": "{煮立|にた}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{煮立|にた}っていました",
+        "negative": "{煮立|にた}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{煮立|にた}てば",
+        "negative": "{煮立|にた}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{煮立|にた}ったら",
+        "negative": "{煮立|にた}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{煮立|にた}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{煮立|にた}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{煮立|にた}てる",
+        "negative": "{煮立|にた}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{煮立|にた}たれる",
+        "negative": "{煮立|にた}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{煮立|にた}たせる",
+        "negative": "{煮立|にた}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{煮立|にた}て",
+        "negative": "{煮立|にた}つな"
+      }
+    ]
   }
 }

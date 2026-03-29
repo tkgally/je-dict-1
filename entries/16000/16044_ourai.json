@@ -24,7 +24,9 @@
       "english": "There is heavy foot traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16044_ourai_ex2",
@@ -32,7 +34,9 @@
       "english": "This street has a lot of vehicle traffic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16044_ourai_ex3",
@@ -40,7 +44,9 @@
       "english": "Pedestrian traffic is restricted due to construction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16044_ourai_ex4",
@@ -48,7 +54,9 @@
       "english": "You must not play in the street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16044_ourai_ex5",
@@ -56,7 +64,9 @@
       "english": "A shop facing the street stands out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16044_ourai_ex6",
@@ -64,7 +74,9 @@
       "english": "In the past, many merchant houses lined this street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{往来|おうらい} combines {往|おう} (going) and {来|らい} (coming). It can function as a noun or as a suru verb ({往来|おうらい}する = to come and go). Sense 2 (street) has a somewhat old-fashioned feel.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}の{往来|おうらい} (foot traffic)\n- {車|くるま}の{往来|おうらい} (vehicle traffic)\n- {往来|おうらい}が{激|はげ}しい (heavy traffic)\n- {往来|おうらい}に{面|めん}する (to face the street)\n\nSIMILAR WORDS:\n{交通|こうつう} is the standard modern word for traffic and transportation. {往来|おうらい} has a more traditional feel and specifically emphasizes the back-and-forth movement of people.",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement", "place"]
+      "semantic": [
+        "movement",
+        "place"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{往来|おうらい}する",
+        "negative": "{往来|おうらい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{往来|おうらい}します",
+        "negative": "{往来|おうらい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{往来|おうらい}した",
+        "negative": "{往来|おうらい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{往来|おうらい}しました",
+        "negative": "{往来|おうらい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{往来|おうらい}して",
+        "negative": "{往来|おうらい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{往来|おうらい}している",
+        "negative": "{往来|おうらい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{往来|おうらい}しています",
+        "negative": "{往来|おうらい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{往来|おうらい}していた",
+        "negative": "{往来|おうらい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{往来|おうらい}していました",
+        "negative": "{往来|おうらい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{往来|おうらい}すれば",
+        "negative": "{往来|おうらい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{往来|おうらい}したら",
+        "negative": "{往来|おうらい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{往来|おうらい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{往来|おうらい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{往来|おうらい}できる",
+        "negative": "{往来|おうらい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{往来|おうらい}される",
+        "negative": "{往来|おうらい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{往来|おうらい}させる",
+        "negative": "{往来|おうらい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{往来|おうらい}しろ",
+        "negative": "{往来|おうらい}するな"
+      }
+    ]
   }
 }

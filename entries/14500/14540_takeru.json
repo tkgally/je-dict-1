@@ -19,7 +19,9 @@
       "english": "He is skilled at negotiation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14540_takeru_ex2",
@@ -27,7 +29,9 @@
       "english": "She is a writer skilled in the use of language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14540_takeru_ex3",
@@ -35,7 +39,9 @@
       "english": "That company has gathered many people who excel in IT.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Almost exclusively used in the pattern ～に{長|た}けている. Rarely seen in other conjugated forms. Describes a developed, practical competence rather than innate talent.\n\nPATTERN:\n- ～に{長|た}けている (to be skilled at ~)\n- ～に{長|た}けた + noun (skilled at ~ [modifier])\n\nCOMMON COLLOCATIONS:\n- {交渉|こうしょう}に{長|た}けている (skilled at negotiation)\n- {技術|ぎじゅつ}に{長|た}けている (skilled in technology)\n- {弁舌|べんぜつ}に{長|た}けている (skilled in speech/rhetoric)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長|た}ける",
+        "negative": "{長|た}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長|た}けます",
+        "negative": "{長|た}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長|た}けた",
+        "negative": "{長|た}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長|た}けました",
+        "negative": "{長|た}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長|た}けて",
+        "negative": "{長|た}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長|た}けている",
+        "negative": "{長|た}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長|た}けています",
+        "negative": "{長|た}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長|た}けていた",
+        "negative": "{長|た}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長|た}けていました",
+        "negative": "{長|た}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長|た}ければ",
+        "negative": "{長|た}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長|た}けたら",
+        "negative": "{長|た}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長|た}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長|た}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長|た}けられる",
+        "negative": "{長|た}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長|た}けられる",
+        "negative": "{長|た}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長|た}けさせる",
+        "negative": "{長|た}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長|た}けろ",
+        "negative": "{長|た}けるな"
+      }
+    ]
   }
 }

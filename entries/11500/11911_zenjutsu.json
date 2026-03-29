@@ -18,7 +18,9 @@
       "english": "It is as stated above.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11911_zenjutsu_ex2",
@@ -26,7 +28,9 @@
       "english": "We will examine the issue mentioned earlier.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11911_zenjutsu_ex3",
@@ -34,7 +38,9 @@
       "english": "For the aforementioned reasons, we decided to cancel this plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A formal, written-style word. Rarely used in casual conversation. Typically found in essays, reports, academic papers, and official documents.\n\nSIMILAR WORDS:\n・{前述|ぜんじゅつ} — aforementioned (formal, written)\n・{上記|じょうき} — above-mentioned (more common in documents with visual layout)\n・{先述|せんじゅつ} — previously stated (synonym, slightly less common)\n\nCOMMON PATTERNS:\n・{前述|ぜんじゅつ}の〜 (the aforementioned ~)\n・{前述|ぜんじゅつ}のとおり (as mentioned above)\n・{前述|ぜんじゅつ}した〜 (the previously stated ~)",
@@ -46,11 +52,109 @@
     "vocabulary_tier": "general",
     "schema_version": "2.0",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{前述|ぜんじゅつ}する",
+        "negative": "{前述|ぜんじゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{前述|ぜんじゅつ}します",
+        "negative": "{前述|ぜんじゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{前述|ぜんじゅつ}した",
+        "negative": "{前述|ぜんじゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{前述|ぜんじゅつ}しました",
+        "negative": "{前述|ぜんじゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{前述|ぜんじゅつ}して",
+        "negative": "{前述|ぜんじゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{前述|ぜんじゅつ}している",
+        "negative": "{前述|ぜんじゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{前述|ぜんじゅつ}しています",
+        "negative": "{前述|ぜんじゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{前述|ぜんじゅつ}していた",
+        "negative": "{前述|ぜんじゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{前述|ぜんじゅつ}していました",
+        "negative": "{前述|ぜんじゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{前述|ぜんじゅつ}すれば",
+        "negative": "{前述|ぜんじゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{前述|ぜんじゅつ}したら",
+        "negative": "{前述|ぜんじゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{前述|ぜんじゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{前述|ぜんじゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{前述|ぜんじゅつ}できる",
+        "negative": "{前述|ぜんじゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{前述|ぜんじゅつ}される",
+        "negative": "{前述|ぜんじゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{前述|ぜんじゅつ}させる",
+        "negative": "{前述|ぜんじゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{前述|ぜんじゅつ}しろ",
+        "negative": "{前述|ぜんじゅつ}するな"
+      }
+    ]
   }
 }

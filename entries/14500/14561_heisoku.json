@@ -24,7 +24,9 @@
       "english": "A blockage in the blood vessel was found.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14561_heisoku_ex2",
@@ -32,7 +34,9 @@
       "english": "He underwent emergency surgery for an intestinal obstruction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14561_heisoku_ex3",
@@ -40,7 +44,9 @@
       "english": "The road was blocked by a landslide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14561_heisoku_ex4",
@@ -48,7 +54,9 @@
       "english": "A sense of stagnation pervades society.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14561_heisoku_ex5",
@@ -56,7 +64,9 @@
       "english": "Reform is needed to break through the economic stagnation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14561_heisoku_ex6",
@@ -64,7 +74,9 @@
       "english": "The sense of impasse spreading among young people has become a social issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A する verb with both physical and figurative meanings.\n\nSENSE 1 (blockage):\nUsed medically for vessel occlusion, obstruction of passages, etc.\n- {腸|ちょう}{閉塞|へいそく} (intestinal obstruction)\n- {血管|けっかん}{閉塞|へいそく} (vascular occlusion)\n\nSENSE 2 (stagnation):\nThe compound {閉塞感|へいそくかん} (sense of stagnation/impasse) is extremely common in media and social commentary.\n- {閉塞感|へいそくかん}を{感|かん}じる (to feel a sense of stagnation)\n- {閉塞|へいそく}{状況|じょうきょう} (deadlocked situation)\n- {閉塞|へいそく}を{打破|だは}する (to break through the impasse)",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "general"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{閉塞|へいそく}する",
+        "negative": "{閉塞|へいそく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{閉塞|へいそく}します",
+        "negative": "{閉塞|へいそく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{閉塞|へいそく}した",
+        "negative": "{閉塞|へいそく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{閉塞|へいそく}しました",
+        "negative": "{閉塞|へいそく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{閉塞|へいそく}して",
+        "negative": "{閉塞|へいそく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{閉塞|へいそく}している",
+        "negative": "{閉塞|へいそく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{閉塞|へいそく}しています",
+        "negative": "{閉塞|へいそく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{閉塞|へいそく}していた",
+        "negative": "{閉塞|へいそく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{閉塞|へいそく}していました",
+        "negative": "{閉塞|へいそく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{閉塞|へいそく}すれば",
+        "negative": "{閉塞|へいそく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{閉塞|へいそく}したら",
+        "negative": "{閉塞|へいそく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{閉塞|へいそく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{閉塞|へいそく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{閉塞|へいそく}できる",
+        "negative": "{閉塞|へいそく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{閉塞|へいそく}される",
+        "negative": "{閉塞|へいそく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{閉塞|へいそく}させる",
+        "negative": "{閉塞|へいそく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{閉塞|へいそく}しろ",
+        "negative": "{閉塞|へいそく}するな"
+      }
+    ]
   }
 }

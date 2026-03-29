@@ -19,7 +19,9 @@
       "english": "To rest for a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16097_seiyou_ex2",
@@ -27,7 +29,9 @@
       "english": "The doctor told me to rest and recuperate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16097_seiyou_ex3",
@@ -35,7 +39,9 @@
       "english": "After the surgery, I recuperated at a hot spring resort for about a week before returning to work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru-verb ({静養|せいよう}する). A somewhat formal word that often appears in news about public figures taking medical leave or in medical advice. Implies a deliberate period of quiet rest, not just ordinary relaxation.\n\nCOMMON COLLOCATIONS:\n- {静養|せいよう}する (to rest, to recuperate)\n- {自宅|じたく}で{静養|せいよう}する (to recuperate at home)\n- {静養|せいよう}{中|ちゅう} (currently recuperating)\n\nSIMILAR WORDS:\n- {休養|きゅうよう}: rest, relaxation — broader term, includes resting for any reason\n- {療養|りょうよう}: medical treatment and rest — specifically for recovery from illness under medical care",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["health"]
+      "semantic": [
+        "health"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{静養|せいよう}する",
+        "negative": "{静養|せいよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{静養|せいよう}します",
+        "negative": "{静養|せいよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{静養|せいよう}した",
+        "negative": "{静養|せいよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{静養|せいよう}しました",
+        "negative": "{静養|せいよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{静養|せいよう}して",
+        "negative": "{静養|せいよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{静養|せいよう}している",
+        "negative": "{静養|せいよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{静養|せいよう}しています",
+        "negative": "{静養|せいよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{静養|せいよう}していた",
+        "negative": "{静養|せいよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{静養|せいよう}していました",
+        "negative": "{静養|せいよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{静養|せいよう}すれば",
+        "negative": "{静養|せいよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{静養|せいよう}したら",
+        "negative": "{静養|せいよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{静養|せいよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{静養|せいよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{静養|せいよう}できる",
+        "negative": "{静養|せいよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{静養|せいよう}される",
+        "negative": "{静養|せいよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{静養|せいよう}させる",
+        "negative": "{静養|せいよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{静養|せいよう}しろ",
+        "negative": "{静養|せいよう}するな"
+      }
+    ]
   }
 }

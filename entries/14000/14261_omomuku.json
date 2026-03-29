@@ -19,7 +19,9 @@
       "english": "To go to the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14261_omomuku_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister went to the disaster area to inspect the situation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14261_omomuku_ex3",
@@ -35,7 +39,9 @@
       "english": "Before heading to my new post, I made time to talk things over with my family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{赴|おもむ}く is an intransitive godan verb. It is a formal, literary word meaning \"to go\" or \"to proceed,\" implying a deliberate, purposeful journey.\n\nASPECT (ている):\n{赴|おもむ}いている indicates a state of having gone to a place (resulting state).\n\nPARTICLE PATTERNS:\n- Xに{赴|おもむ}く (go to X)\n- Xへ{赴|おもむ}く (head toward X)\n\nCOMMON COLLOCATIONS:\n- {現場|げんば}に{赴|おもむ}く (go to the scene)\n- {任地|にんち}に{赴|おもむ}く (go to one's assigned post)\n- {戦地|せんち}に{赴|おもむ}く (go to the battlefield)\n\nSIMILAR WORDS:\n- {赴|おもむ}く vs {行|い}く: {赴|おもむ}く is formal and literary, implying purposeful travel to a specific destination, while {行|い}く is the everyday neutral word for going somewhere.",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "style": ["written"]
+      "semantic": [
+        "movement"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{赴|おもむ}く",
+        "negative": "{赴|おもむ}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{赴|おもむ}きます",
+        "negative": "{赴|おもむ}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{赴|おもむ}いた",
+        "negative": "{赴|おもむ}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{赴|おもむ}きました",
+        "negative": "{赴|おもむ}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{赴|おもむ}いて",
+        "negative": "{赴|おもむ}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{赴|おもむ}いている",
+        "negative": "{赴|おもむ}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{赴|おもむ}いています",
+        "negative": "{赴|おもむ}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{赴|おもむ}いていた",
+        "negative": "{赴|おもむ}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{赴|おもむ}いていました",
+        "negative": "{赴|おもむ}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{赴|おもむ}けば",
+        "negative": "{赴|おもむ}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{赴|おもむ}いたら",
+        "negative": "{赴|おもむ}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{赴|おもむ}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{赴|おもむ}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{赴|おもむ}ける",
+        "negative": "{赴|おもむ}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{赴|おもむ}かれる",
+        "negative": "{赴|おもむ}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{赴|おもむ}かせる",
+        "negative": "{赴|おもむ}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{赴|おもむ}け",
+        "negative": "{赴|おもむ}くな"
+      }
+    ]
   }
 }

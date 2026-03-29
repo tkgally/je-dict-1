@@ -19,7 +19,9 @@
       "english": "To outsource the design work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12153_gaichuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Since we're short-staffed, we outsourced some of the work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12153_gaichuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Communication with the subcontractor didn't go well, and we missed the deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. {外注|がいちゅう}する means to outsource or subcontract. {外注|がいちゅう}に{出|だ}す is also a common expression meaning the same thing.\n\nCOMMON COLLOCATIONS:\n- {外注|がいちゅう}に{出|だ}す: to send out for outsourcing\n- {外注|がいちゅう}{先|さき}: subcontractor, outsourcing partner\n- {外注|がいちゅう}{費|ひ}: outsourcing costs\n- {外注|がいちゅう}{管理|かんり}: outsourcing management",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{外注|がいちゅう}する",
+        "negative": "{外注|がいちゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{外注|がいちゅう}します",
+        "negative": "{外注|がいちゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{外注|がいちゅう}した",
+        "negative": "{外注|がいちゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{外注|がいちゅう}しました",
+        "negative": "{外注|がいちゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{外注|がいちゅう}して",
+        "negative": "{外注|がいちゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{外注|がいちゅう}している",
+        "negative": "{外注|がいちゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{外注|がいちゅう}しています",
+        "negative": "{外注|がいちゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{外注|がいちゅう}していた",
+        "negative": "{外注|がいちゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{外注|がいちゅう}していました",
+        "negative": "{外注|がいちゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{外注|がいちゅう}すれば",
+        "negative": "{外注|がいちゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{外注|がいちゅう}したら",
+        "negative": "{外注|がいちゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{外注|がいちゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{外注|がいちゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{外注|がいちゅう}できる",
+        "negative": "{外注|がいちゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{外注|がいちゅう}される",
+        "negative": "{外注|がいちゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{外注|がいちゅう}させる",
+        "negative": "{外注|がいちゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{外注|がいちゅう}しろ",
+        "negative": "{外注|がいちゅう}するな"
+      }
+    ]
   }
 }

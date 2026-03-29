@@ -19,7 +19,9 @@
       "english": "To deep-fry the vegetables without batter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17176_suage_ex2",
@@ -27,7 +29,9 @@
       "english": "Deep-fried eggplant without batter goes well with curry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17176_suage_ex3",
@@ -35,7 +39,9 @@
       "english": "Deep-frying without batter lets you enjoy the natural flavor of the ingredients.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA cooking term commonly found in recipes. The {素|す} prefix means \"plain\" or \"without additions,\" contrasting with {天|てん}ぷら (tempura, battered and fried) or {唐揚|からあ}げ (coated with starch or flour). Commonly used for vegetables like {茄子|なす} (eggplant), {蓮根|れんこん} (lotus root), and {南瓜|かぼちゃ} (pumpkin).\n\nCOMMON COLLOCATIONS:\n- {素揚|すあ}げにする (to deep-fry without coating)\n- {素揚|すあ}げした{野菜|やさい} (vegetables fried without batter)\n- {素揚|すあ}げにして{塩|しお}で{食|た}べる (to deep-fry plain and eat with salt)\n\nSIMILAR WORDS:\n- {天|てん}ぷら: tempura — battered and deep-fried\n- {唐揚|からあ}げ: deep-fried with starch coating — typically for chicken",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{素揚|すあ}げする",
+        "negative": "{素揚|すあ}げしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{素揚|すあ}げします",
+        "negative": "{素揚|すあ}げしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{素揚|すあ}げした",
+        "negative": "{素揚|すあ}げしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{素揚|すあ}げしました",
+        "negative": "{素揚|すあ}げしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{素揚|すあ}げして",
+        "negative": "{素揚|すあ}げしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{素揚|すあ}げしている",
+        "negative": "{素揚|すあ}げしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{素揚|すあ}げしています",
+        "negative": "{素揚|すあ}げしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{素揚|すあ}げしていた",
+        "negative": "{素揚|すあ}げしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{素揚|すあ}げしていました",
+        "negative": "{素揚|すあ}げしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{素揚|すあ}げすれば",
+        "negative": "{素揚|すあ}げしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{素揚|すあ}げしたら",
+        "negative": "{素揚|すあ}げしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{素揚|すあ}げしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{素揚|すあ}げしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{素揚|すあ}げできる",
+        "negative": "{素揚|すあ}げできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{素揚|すあ}げされる",
+        "negative": "{素揚|すあ}げされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{素揚|すあ}げさせる",
+        "negative": "{素揚|すあ}げさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{素揚|すあ}げしろ",
+        "negative": "{素揚|すあ}げするな"
+      }
+    ]
   }
 }

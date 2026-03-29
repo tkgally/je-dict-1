@@ -19,7 +19,9 @@
       "english": "A bug crawled out of the hole.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17010_haidasu_ex2",
@@ -27,7 +29,9 @@
       "english": "The baby crawled out from under the blanket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17010_haidasu_ex3",
@@ -35,7 +39,9 @@
       "english": "Everyone shed tears when survivors crawled out from under the collapsed building after the earthquake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound verb meaning to emerge from a space by crawling. Used for insects, babies, or people in confined spaces. Can also be figurative for escaping a difficult situation.\n\nWORD FORMATION:\n{這|は}う (to crawl) + {出|だ}す (to come out).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n\nCOMMON PATTERNS:\n- {穴|あな}から{這|は}い{出|だ}す: to crawl out of a hole\n- {布団|ふとん}から{這|は}い{出|だ}す: to crawl out of bed/futon\n- {這|は}い{出|だ}してくる: to come crawling out (toward the speaker)\n- {瓦礫|がれき}の{下|した}から{這|は}い{出|だ}す: to crawl out from under rubble\n\nUSAGE:\nOften paired with てくる to indicate motion toward the speaker: {虫|むし}が{這|は}い{出|だ}してきた (a bug came crawling out).",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{這|は}い{出|だ}す",
+        "negative": "{這|は}い{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{這|は}い{出|だ}します",
+        "negative": "{這|は}い{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{這|は}い{出|だ}した",
+        "negative": "{這|は}い{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{這|は}い{出|だ}しました",
+        "negative": "{這|は}い{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{這|は}い{出|だ}して",
+        "negative": "{這|は}い{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{這|は}い{出|だ}している",
+        "negative": "{這|は}い{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{這|は}い{出|だ}しています",
+        "negative": "{這|は}い{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{這|は}い{出|だ}していた",
+        "negative": "{這|は}い{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{這|は}い{出|だ}していました",
+        "negative": "{這|は}い{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{這|は}い{出|だ}せば",
+        "negative": "{這|は}い{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{這|は}い{出|だ}したら",
+        "negative": "{這|は}い{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{這|は}い{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{這|は}い{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{這|は}い{出|だ}せる",
+        "negative": "{這|は}い{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{這|は}い{出|だ}される",
+        "negative": "{這|は}い{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{這|は}い{出|だ}させる",
+        "negative": "{這|は}い{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{這|は}い{出|だ}せ",
+        "negative": "{這|は}い{出|だ}すな"
+      }
+    ]
   }
 }

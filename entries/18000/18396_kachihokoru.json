@@ -19,7 +19,9 @@
       "english": "He wore a triumphant smile.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18396_kachihokoru_ex2",
@@ -27,7 +29,9 @@
       "english": "He was gloating after winning the match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18396_kachihokoru_ex3",
@@ -35,7 +39,9 @@
       "english": "Looking down on your opponent with a gloating attitude goes against sportsmanship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (ら row): {勝|か}ち{誇|ほこ}る・{勝|か}ち{誇|ほこ}ります\nて-form: {勝|か}ち{誇|ほこ}って\nた-form: {勝|か}ち{誇|ほこ}った\n\nCOMMON PATTERNS:\n- {勝|か}ち{誇|ほこ}った{顔|かお} (a triumphant face)\n- {勝|か}ち{誇|ほこ}った{笑|え}み (a triumphant smile)\n- {勝|か}ち{誇|ほこ}ったように (as if gloating)\n- {勝|か}ち{誇|ほこ}った{態度|たいど} (a gloating attitude)\n\nUSAGE:\nMost commonly used in the past-tense modifier form {勝|か}ち{誇|ほこ}った to describe someone's expression, tone, or attitude. Often carries a slightly negative connotation of smugness.\n\nSIMILAR WORDS:\n- {得意|とくい}になる: To become proud/satisfied — more neutral, doesn't necessarily imply gloating over an opponent.\n- {威張|いば}る: To boast, to be arrogant — focuses on the general attitude rather than specifically post-victory behavior.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{勝|か}ち{誇|ほこ}る",
+        "negative": "{勝|か}ち{誇|ほこ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{勝|か}ち{誇|ほこ}ります",
+        "negative": "{勝|か}ち{誇|ほこ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{勝|か}ち{誇|ほこ}った",
+        "negative": "{勝|か}ち{誇|ほこ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{勝|か}ち{誇|ほこ}りました",
+        "negative": "{勝|か}ち{誇|ほこ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{勝|か}ち{誇|ほこ}って",
+        "negative": "{勝|か}ち{誇|ほこ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{勝|か}ち{誇|ほこ}っている",
+        "negative": "{勝|か}ち{誇|ほこ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{勝|か}ち{誇|ほこ}っています",
+        "negative": "{勝|か}ち{誇|ほこ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{勝|か}ち{誇|ほこ}っていた",
+        "negative": "{勝|か}ち{誇|ほこ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{勝|か}ち{誇|ほこ}っていました",
+        "negative": "{勝|か}ち{誇|ほこ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{勝|か}ち{誇|ほこ}れば",
+        "negative": "{勝|か}ち{誇|ほこ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{勝|か}ち{誇|ほこ}ったら",
+        "negative": "{勝|か}ち{誇|ほこ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{勝|か}ち{誇|ほこ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{勝|か}ち{誇|ほこ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{勝|か}ち{誇|ほこ}れる",
+        "negative": "{勝|か}ち{誇|ほこ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{勝|か}ち{誇|ほこ}られる",
+        "negative": "{勝|か}ち{誇|ほこ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{勝|か}ち{誇|ほこ}らせる",
+        "negative": "{勝|か}ち{誇|ほこ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{勝|か}ち{誇|ほこ}れ",
+        "negative": "{勝|か}ち{誇|ほこ}るな"
+      }
+    ]
   }
 }

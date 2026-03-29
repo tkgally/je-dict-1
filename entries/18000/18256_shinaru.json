@@ -19,7 +19,9 @@
       "english": "The bamboo bent in the wind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18256_shinaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The fishing rod is bending deeply.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18256_shinaru_ex3",
@@ -35,7 +39,9 @@
       "english": "Flexible branches that bend are hard to break.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb ({五段動詞|ごだんどうし}), intransitive. Conjugates as: しならない, しなって, しなった.\n\nUSAGE:\nDescribes the kind of bending seen in bamboo, tree branches, fishing rods, swords, and flexible sports equipment. Implies resilience — the object bends but doesn't break. Also used metaphorically for body movements that show suppleness.\n\nCOMMON COLLOCATIONS:\n- {竹|たけ}がしなる (bamboo bends/flexes)\n- {竿|さお}がしなる (a rod bends)\n- しなるような{動|うご}き (a supple movement)\n\nSIMILAR WORDS:\n- {曲|ま}がる: to bend; to curve — general bending in any direction, not necessarily elastic\n- たわむ: to bend; to sag — bending under weight, often with downward deflection",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "しなる",
+        "negative": "しならない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "しなります",
+        "negative": "しなりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "しなった",
+        "negative": "しならなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "しなりました",
+        "negative": "しなりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "しなって",
+        "negative": "しならなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "しなっている",
+        "negative": "しなっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "しなっています",
+        "negative": "しなっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "しなっていた",
+        "negative": "しなっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "しなっていました",
+        "negative": "しなっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "しなれば",
+        "negative": "しならなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "しなったら",
+        "negative": "しならなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "しなろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "しなりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "しなれる",
+        "negative": "しなれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "しなられる",
+        "negative": "しなられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "しならせる",
+        "negative": "しならせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "しなれ",
+        "negative": "しなるな"
+      }
+    ]
   }
 }

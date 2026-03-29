@@ -19,7 +19,9 @@
       "english": "I have a bad feeling about this.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11416_yokan_ex2",
@@ -27,7 +29,9 @@
       "english": "I had a feeling something good was going to happen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11416_yokan_ex3",
@@ -35,7 +39,9 @@
       "english": "I had a bad feeling since morning, and sure enough, the exam results were poor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {予感|よかん}がする (to have a premonition)\n- {嫌|いや}な{予感|よかん} (a bad feeling)\n- {予感|よかん}が{的中|てきちゅう}する (a premonition comes true)\n- {予感|よかん}が{当|あ}たる (a hunch proves right)\n\nThe phrase {嫌|いや}な{予感|よかん}がする is extremely common and is often the first thing that comes to mind when Japanese speakers sense something will go wrong.",
@@ -46,11 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "cognition"]
+      "semantic": [
+        "emotion",
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{予感|よかん}する",
+        "negative": "{予感|よかん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{予感|よかん}します",
+        "negative": "{予感|よかん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{予感|よかん}した",
+        "negative": "{予感|よかん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{予感|よかん}しました",
+        "negative": "{予感|よかん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{予感|よかん}して",
+        "negative": "{予感|よかん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{予感|よかん}している",
+        "negative": "{予感|よかん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{予感|よかん}しています",
+        "negative": "{予感|よかん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{予感|よかん}していた",
+        "negative": "{予感|よかん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{予感|よかん}していました",
+        "negative": "{予感|よかん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{予感|よかん}すれば",
+        "negative": "{予感|よかん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{予感|よかん}したら",
+        "negative": "{予感|よかん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{予感|よかん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{予感|よかん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{予感|よかん}できる",
+        "negative": "{予感|よかん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{予感|よかん}される",
+        "negative": "{予感|よかん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{予感|よかん}させる",
+        "negative": "{予感|よかん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{予感|よかん}しろ",
+        "negative": "{予感|よかん}するな"
+      }
+    ]
   }
 }

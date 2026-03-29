@@ -16,7 +16,9 @@
       "id": "10050_kyougyou_ex1",
       "japanese": "{他社|たしゃ}と{協業|きょうぎょう}する。",
       "english": "To collaborate with other companies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10050_kyougyou_ex2",
       "japanese": "{協業|きょうぎょう}{関係|かんけい}を{築|きず}く。",
       "english": "To build a partnership.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10050_kyougyou_ex3",
       "japanese": "{異業種|いぎょうしゅ}との{協業|きょうぎょう}が{増|ふ}えている。",
       "english": "Collaborations with different industries are increasing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "10050_kyougyou_ex4",
       "japanese": "{両社|りょうしゃ}は{新製品|しんせいひん}{開発|かいはつ}で{協業|きょうぎょう}することになった。",
       "english": "The two companies have decided to collaborate on new product development.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,10 +61,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "work"]
+      "semantic": [
+        "business",
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{協業|きょうぎょう}する",
+        "negative": "{協業|きょうぎょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{協業|きょうぎょう}します",
+        "negative": "{協業|きょうぎょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{協業|きょうぎょう}した",
+        "negative": "{協業|きょうぎょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{協業|きょうぎょう}しました",
+        "negative": "{協業|きょうぎょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{協業|きょうぎょう}して",
+        "negative": "{協業|きょうぎょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{協業|きょうぎょう}している",
+        "negative": "{協業|きょうぎょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{協業|きょうぎょう}しています",
+        "negative": "{協業|きょうぎょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{協業|きょうぎょう}していた",
+        "negative": "{協業|きょうぎょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{協業|きょうぎょう}していました",
+        "negative": "{協業|きょうぎょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{協業|きょうぎょう}すれば",
+        "negative": "{協業|きょうぎょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{協業|きょうぎょう}したら",
+        "negative": "{協業|きょうぎょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{協業|きょうぎょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{協業|きょうぎょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{協業|きょうぎょう}できる",
+        "negative": "{協業|きょうぎょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{協業|きょうぎょう}される",
+        "negative": "{協業|きょうぎょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{協業|きょうぎょう}させる",
+        "negative": "{協業|きょうぎょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{協業|きょうぎょう}しろ",
+        "negative": "{協業|きょうぎょう}するな"
+      }
+    ]
   }
 }

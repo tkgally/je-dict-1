@@ -19,7 +19,9 @@
       "english": "After persuading them many times, I finally got their agreement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14219_settoku_ex2",
@@ -27,7 +29,9 @@
       "english": "His persuasion is convincing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14219_settoku_ex3",
@@ -35,7 +39,9 @@
       "english": "I persuaded my parents and got their permission to study abroad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{説得|せっとく} is used as a noun or with する as a verb. The person being persuaded is marked with を ({親|おや}を{説得|せっとく}する). The very common compound {説得力|せっとくりょく} (persuasive power) describes arguments or presentations that are convincing.\n\nCOMMON COLLOCATIONS:\n- {説得|せっとく}する: to persuade\n- {説得|せっとく}される: to be persuaded\n- {説得力|せっとくりょく}: persuasive power, convincingness\n- {説得力|せっとくりょく}がある: to be persuasive/convincing\n- {説得|せっとく}に{応|おう}じる: to accept persuasion\n- {粘|ねば}り{強|づよ}く{説得|せっとく}する: to persistently persuade\n\nSIMILAR WORDS:\n{説得|せっとく} implies a sustained, rational effort to change someone's mind. {勧|すす}める (to recommend) is lighter and less forceful. {口説|くど}く (to talk someone into something) can be more persistent or nagging, and also means to hit on someone romantically.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{説得|せっとく}する",
+        "negative": "{説得|せっとく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{説得|せっとく}します",
+        "negative": "{説得|せっとく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{説得|せっとく}した",
+        "negative": "{説得|せっとく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{説得|せっとく}しました",
+        "negative": "{説得|せっとく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{説得|せっとく}して",
+        "negative": "{説得|せっとく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{説得|せっとく}している",
+        "negative": "{説得|せっとく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{説得|せっとく}しています",
+        "negative": "{説得|せっとく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{説得|せっとく}していた",
+        "negative": "{説得|せっとく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{説得|せっとく}していました",
+        "negative": "{説得|せっとく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{説得|せっとく}すれば",
+        "negative": "{説得|せっとく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{説得|せっとく}したら",
+        "negative": "{説得|せっとく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{説得|せっとく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{説得|せっとく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{説得|せっとく}できる",
+        "negative": "{説得|せっとく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{説得|せっとく}される",
+        "negative": "{説得|せっとく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{説得|せっとく}させる",
+        "negative": "{説得|せっとく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{説得|せっとく}しろ",
+        "negative": "{説得|せっとく}するな"
+      }
+    ]
   }
 }

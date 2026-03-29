@@ -19,7 +19,9 @@
       "english": "I can't keep up a diet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14520_nagatsuzuki_ex2",
@@ -27,7 +29,9 @@
       "english": "My problem is that I can't stick with anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14520_nagatsuzuki_ex3",
@@ -35,7 +39,9 @@
       "english": "If you push too hard it won't last, so let's keep going at your own pace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {長|なが} (long) + {続|つづ}き (continuing). Very frequently used in the negative pattern {長続|ながつづ}きしない (doesn't last, can't keep it up).\n\nCOMMON COLLOCATIONS:\n- {長続|ながつづ}きしない (doesn't last)\n- {長続|ながつづ}きする (to last a long time)\n- {長続|ながつづ}きの{秘訣|ひけつ} (the secret to keeping it up)\n\nUSAGE NOTE:\nVery commonly used with hobbies, exercise routines, diets, jobs, and relationships. The negative form {長続|ながつづ}きしない is far more frequent than the affirmative — it's typically used to talk about failure to persist rather than success.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長続|ながつづ}きする",
+        "negative": "{長続|ながつづ}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長続|ながつづ}きします",
+        "negative": "{長続|ながつづ}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長続|ながつづ}きした",
+        "negative": "{長続|ながつづ}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長続|ながつづ}きしました",
+        "negative": "{長続|ながつづ}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長続|ながつづ}きして",
+        "negative": "{長続|ながつづ}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長続|ながつづ}きしている",
+        "negative": "{長続|ながつづ}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長続|ながつづ}きしています",
+        "negative": "{長続|ながつづ}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長続|ながつづ}きしていた",
+        "negative": "{長続|ながつづ}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長続|ながつづ}きしていました",
+        "negative": "{長続|ながつづ}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長続|ながつづ}きすれば",
+        "negative": "{長続|ながつづ}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長続|ながつづ}きしたら",
+        "negative": "{長続|ながつづ}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長続|ながつづ}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長続|ながつづ}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長続|ながつづ}きできる",
+        "negative": "{長続|ながつづ}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長続|ながつづ}きされる",
+        "negative": "{長続|ながつづ}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長続|ながつづ}きさせる",
+        "negative": "{長続|ながつづ}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長続|ながつづ}きしろ",
+        "negative": "{長続|ながつづ}きするな"
+      }
+    ]
   }
 }

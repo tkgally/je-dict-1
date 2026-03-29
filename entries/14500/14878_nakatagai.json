@@ -19,7 +19,9 @@
       "english": "I had a falling out with a friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14878_nakatagai_ex2",
@@ -27,7 +29,9 @@
       "english": "A small misunderstanding led to a falling out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14878_nakatagai_ex3",
@@ -35,7 +39,9 @@
       "english": "It is common for siblings to have a falling out over an inheritance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{仲違|なかたが}い is a noun that also functions as a suru-verb ({仲違|なかたが}いする). It specifically describes a rift between people who were previously on good terms.\n\nPARTICLE PATTERNS:\n- ～と{仲違|なかたが}いする (to have a falling out with someone)\n- ～のことで{仲違|なかたが}いする (to fall out over something)\n\nCOMMON COLLOCATIONS:\n- {友人|ゆうじん}と{仲違|なかたが}いする (to fall out with a friend)\n- {仲違|なかたが}いの{原因|げんいん} (the cause of the estrangement)\n\nRELATED WORDS:\n{喧嘩|けんか} is a fight or quarrel (can be brief and resolved). {仲違|なかたが}い implies a more lasting breakdown in the relationship. {不仲|ふなか} describes a state of being on bad terms.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{仲違|なかたが}いする",
+        "negative": "{仲違|なかたが}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{仲違|なかたが}いします",
+        "negative": "{仲違|なかたが}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{仲違|なかたが}いした",
+        "negative": "{仲違|なかたが}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{仲違|なかたが}いしました",
+        "negative": "{仲違|なかたが}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{仲違|なかたが}いして",
+        "negative": "{仲違|なかたが}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{仲違|なかたが}いしている",
+        "negative": "{仲違|なかたが}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{仲違|なかたが}いしています",
+        "negative": "{仲違|なかたが}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{仲違|なかたが}いしていた",
+        "negative": "{仲違|なかたが}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{仲違|なかたが}いしていました",
+        "negative": "{仲違|なかたが}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{仲違|なかたが}いすれば",
+        "negative": "{仲違|なかたが}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{仲違|なかたが}いしたら",
+        "negative": "{仲違|なかたが}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{仲違|なかたが}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{仲違|なかたが}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{仲違|なかたが}いできる",
+        "negative": "{仲違|なかたが}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{仲違|なかたが}いされる",
+        "negative": "{仲違|なかたが}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{仲違|なかたが}いさせる",
+        "negative": "{仲違|なかたが}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{仲違|なかたが}いしろ",
+        "negative": "{仲違|なかたが}いするな"
+      }
+    ]
   }
 }

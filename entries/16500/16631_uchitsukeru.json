@@ -24,7 +24,9 @@
       "english": "The waves are crashing against the rocks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16631_uchitsukeru_ex2",
@@ -32,7 +34,9 @@
       "english": "Rain beat violently against the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16631_uchitsukeru_ex3",
@@ -40,7 +44,9 @@
       "english": "I fell and hit my head against the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16631_uchitsukeru_ex4",
@@ -48,7 +54,9 @@
       "english": "We nailed boards over the windows in preparation for the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16631_uchitsukeru_ex5",
@@ -56,7 +64,9 @@
       "english": "I nailed into the wall and attached a shelf.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16631_uchitsukeru_ex6",
@@ -64,7 +74,9 @@
       "english": "Boards had been nailed over the entrance to the abandoned building.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{打|う}ちつける is a compound verb from {打|う}つ (to strike) + つける (to attach/apply). It has two distinct uses.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nSENSE 1 — STRIKING AGAINST:\nDescribes forceful impact of natural elements or objects against surfaces.\n- {波|なみ}が{岩|いわ}に{打|う}ちつける: waves crash against rocks\n- {雨|あめ}が{窓|まど}に{打|う}ちつける: rain beats against the window\n- {頭|あたま}を{地面|じめん}に{打|う}ちつける: to hit one's head on the ground\n\nSENSE 2 — NAILING/BOARDING:\nDescribes fastening by hammering nails.\n- {板|いた}を{打|う}ちつける: to nail boards (over windows, etc.)\n- {釘|くぎ}を{打|う}ちつける: to hammer in nails\n\nNOTE:\nSense 1 is especially vivid in literary or descriptive writing about storms and nature. Sense 2 is practical, often appearing in typhoon preparation contexts.",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "impact"]
+      "semantic": [
+        "action",
+        "impact"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{打|う}ちつける",
+        "negative": "{打|う}ちつけない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{打|う}ちつけます",
+        "negative": "{打|う}ちつけません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{打|う}ちつけた",
+        "negative": "{打|う}ちつけなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{打|う}ちつけました",
+        "negative": "{打|う}ちつけませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{打|う}ちつけて",
+        "negative": "{打|う}ちつけなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{打|う}ちつけている",
+        "negative": "{打|う}ちつけていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{打|う}ちつけています",
+        "negative": "{打|う}ちつけていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{打|う}ちつけていた",
+        "negative": "{打|う}ちつけていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{打|う}ちつけていました",
+        "negative": "{打|う}ちつけていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{打|う}ちつければ",
+        "negative": "{打|う}ちつけなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{打|う}ちつけたら",
+        "negative": "{打|う}ちつけなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{打|う}ちつけよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{打|う}ちつけましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{打|う}ちつけられる",
+        "negative": "{打|う}ちつけられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{打|う}ちつけられる",
+        "negative": "{打|う}ちつけられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{打|う}ちつけさせる",
+        "negative": "{打|う}ちつけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{打|う}ちつけろ",
+        "negative": "{打|う}ちつけるな"
+      }
+    ]
   }
 }

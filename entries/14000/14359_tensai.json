@@ -19,7 +19,9 @@
       "english": "Unauthorized reproduction prohibited.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14359_tensai_ex2",
@@ -27,7 +29,9 @@
       "english": "May I repost this article?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14359_tensai_ex3",
@@ -35,7 +39,9 @@
       "english": "Reposting someone else's photos without permission can lead to copyright issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{転載|てんさい} refers specifically to reproducing or reposting content from one medium or platform to another. It is commonly seen in copyright notices on websites and publications.\n\nPARTICLE PATTERNS:\n- を{転載|てんさい}する (to repost/reprint something)\n- からの{転載|てんさい} (reprint from...)\n\nCOMMON COLLOCATIONS:\n- {無断|むだん}{転載|てんさい} (unauthorized reproduction)\n- {転載|てんさい}{禁止|きんし} (reproduction prohibited)\n- {記事|きじ}を{転載|てんさい}する (repost an article)\n\nSIMILAR WORDS:\n{転載|てんさい} focuses on reproducing content across platforms. Compare with {引用|いんよう} (quotation), which refers to citing a portion of someone's work with attribution.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{転載|てんさい}する",
+        "negative": "{転載|てんさい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{転載|てんさい}します",
+        "negative": "{転載|てんさい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{転載|てんさい}した",
+        "negative": "{転載|てんさい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{転載|てんさい}しました",
+        "negative": "{転載|てんさい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{転載|てんさい}して",
+        "negative": "{転載|てんさい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{転載|てんさい}している",
+        "negative": "{転載|てんさい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{転載|てんさい}しています",
+        "negative": "{転載|てんさい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{転載|てんさい}していた",
+        "negative": "{転載|てんさい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{転載|てんさい}していました",
+        "negative": "{転載|てんさい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{転載|てんさい}すれば",
+        "negative": "{転載|てんさい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{転載|てんさい}したら",
+        "negative": "{転載|てんさい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{転載|てんさい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{転載|てんさい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{転載|てんさい}できる",
+        "negative": "{転載|てんさい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{転載|てんさい}される",
+        "negative": "{転載|てんさい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{転載|てんさい}させる",
+        "negative": "{転載|てんさい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{転載|てんさい}しろ",
+        "negative": "{転載|てんさい}するな"
+      }
+    ]
   }
 }

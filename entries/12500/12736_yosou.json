@@ -19,7 +19,9 @@
       "english": "Please serve the rice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12736_yosou_ex2",
@@ -27,7 +29,9 @@
       "english": "To ladle miso soup into a bowl.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12736_yosou_ex3",
@@ -35,7 +39,9 @@
       "english": "My mother served rice into each family member's bowl one by one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "よそう is a verb specifically for scooping and serving rice or soup from a larger container into individual bowls. It is typically written in kana.\n\nKANJI:\n- Sometimes written as {装|よそ}う, but kana is standard\n\nCOMMON COLLOCATIONS:\n- ご{飯|はん}をよそう: to serve rice\n- {味噌汁|みそしる}をよそう: to serve miso soup\n- {茶碗|ちゃわん}によそう: to serve into a bowl\n\nSIMILAR WORDS:\n- {盛|も}る: to heap, to pile food on a plate — used more broadly for plating food, not just scooping into bowls\n- よそう is specific to scooping from a pot/cooker into a bowl",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "よそう",
+        "negative": "よそわない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "よそいます",
+        "negative": "よそいません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "よそった",
+        "negative": "よそわなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "よそいました",
+        "negative": "よそいませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "よそって",
+        "negative": "よそわなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "よそっている",
+        "negative": "よそっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "よそっています",
+        "negative": "よそっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "よそっていた",
+        "negative": "よそっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "よそっていました",
+        "negative": "よそっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "よそえば",
+        "negative": "よそわなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "よそったら",
+        "negative": "よそわなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "よそおう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "よそいましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "よそえる",
+        "negative": "よそえない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "よそわれる",
+        "negative": "よそわれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "よそわせる",
+        "negative": "よそわせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "よそえ",
+        "negative": "よそうな"
+      }
+    ]
   }
 }

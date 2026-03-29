@@ -24,7 +24,9 @@
       "english": "To seal an envelope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12360_fuujiru_ex2",
@@ -32,7 +34,9 @@
       "english": "I sealed the letter with glue and sent it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12360_fuujiru_ex3",
@@ -40,7 +44,9 @@
       "english": "Please seal the bottle opening tightly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12360_fuujiru_ex4",
@@ -48,7 +54,9 @@
       "english": "To block the opponent's attack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12360_fuujiru_ex5",
@@ -56,7 +64,9 @@
       "english": "I sealed the painful memories deep in my heart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12360_fuujiru_ex6",
@@ -64,7 +74,9 @@
       "english": "The coach devised a strategy to completely shut down the opposing team's ace player.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "GRAMMAR:\n{封|ふう}じる is an ichidan verb. The older godan form {封|ふう}ずる also exists but is less common in modern usage.\n\nCOLLOCATIONS:\n- {封筒|ふうとう}を{封|ふう}じる — to seal an envelope\n- {口|くち}を{封|ふう}じる — to silence someone, to shut someone up\n- {記憶|きおく}を{封|ふう}じる — to seal away memories\n- {攻撃|こうげき}を{封|ふう}じる — to block an attack\n\nSIMILAR WORDS:\n{塞|ふさ}ぐ means to block or close off a physical opening. {封印|ふういん}する means to seal away, often with a supernatural or dramatic connotation. {封|ふう}じる covers both physical sealing and figurative suppression.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{封|ふう}じる",
+        "negative": "{封|ふう}じない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{封|ふう}じます",
+        "negative": "{封|ふう}じません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{封|ふう}じた",
+        "negative": "{封|ふう}じなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{封|ふう}じました",
+        "negative": "{封|ふう}じませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{封|ふう}じて",
+        "negative": "{封|ふう}じなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{封|ふう}じている",
+        "negative": "{封|ふう}じていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{封|ふう}じています",
+        "negative": "{封|ふう}じていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{封|ふう}じていた",
+        "negative": "{封|ふう}じていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{封|ふう}じていました",
+        "negative": "{封|ふう}じていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{封|ふう}じれば",
+        "negative": "{封|ふう}じなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{封|ふう}じたら",
+        "negative": "{封|ふう}じなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{封|ふう}じよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{封|ふう}じましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{封|ふう}じられる",
+        "negative": "{封|ふう}じられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{封|ふう}じられる",
+        "negative": "{封|ふう}じられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{封|ふう}じさせる",
+        "negative": "{封|ふう}じさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{封|ふう}じろ",
+        "negative": "{封|ふう}じるな"
+      }
+    ]
   }
 }

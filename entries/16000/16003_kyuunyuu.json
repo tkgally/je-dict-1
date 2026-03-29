@@ -19,7 +19,9 @@
       "english": "Inhale the medication.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16003_kyuunyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Inhaled medication is used to treat asthma.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16003_kyuunyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Please wear a mask so you don't inhale toxic gas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used with する as {吸入|きゅうにゅう}する. Frequently appears in medical and safety contexts. The related compound {吸入器|きゅうにゅうき} means \"inhaler.\"\n\nCOMMON COLLOCATIONS:\n- {吸入|きゅうにゅう}する (to inhale)\n- {吸入|きゅうにゅう}{器|き} (inhaler)\n- {吸入|きゅうにゅう}{薬|やく} (inhaled medication)\n- {酸素|さんそ}{吸入|きゅうにゅう} (oxygen inhalation)\n\nSIMILAR WORDS:\n- {呼吸|こきゅう}: breathing, respiration — the general process of breathing in and out\n- {吸引|きゅういん}: suction, aspiration — drawing in by suction force",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{吸入|きゅうにゅう}する",
+        "negative": "{吸入|きゅうにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{吸入|きゅうにゅう}します",
+        "negative": "{吸入|きゅうにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{吸入|きゅうにゅう}した",
+        "negative": "{吸入|きゅうにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{吸入|きゅうにゅう}しました",
+        "negative": "{吸入|きゅうにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{吸入|きゅうにゅう}して",
+        "negative": "{吸入|きゅうにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{吸入|きゅうにゅう}している",
+        "negative": "{吸入|きゅうにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{吸入|きゅうにゅう}しています",
+        "negative": "{吸入|きゅうにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{吸入|きゅうにゅう}していた",
+        "negative": "{吸入|きゅうにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{吸入|きゅうにゅう}していました",
+        "negative": "{吸入|きゅうにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{吸入|きゅうにゅう}すれば",
+        "negative": "{吸入|きゅうにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{吸入|きゅうにゅう}したら",
+        "negative": "{吸入|きゅうにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{吸入|きゅうにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{吸入|きゅうにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{吸入|きゅうにゅう}できる",
+        "negative": "{吸入|きゅうにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{吸入|きゅうにゅう}される",
+        "negative": "{吸入|きゅうにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{吸入|きゅうにゅう}させる",
+        "negative": "{吸入|きゅうにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{吸入|きゅうにゅう}しろ",
+        "negative": "{吸入|きゅうにゅう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The number of schools being closed due to the declining birthrate is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12548_haikou_ex2",
@@ -27,7 +29,9 @@
       "english": "They renovated a closed school into a café.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12548_haikou_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to the regional population decline, school closures have been occurring one after another, and utilization of the former sites has become an issue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun ({廃校|はいこう}になる = to become a closed school) and with する ({廃校|はいこう}する = to close a school). In recent years, repurposing {廃校|はいこう} buildings as community centers, art spaces, hotels, or businesses has become a national trend in Japan.\n\nCOMMON COLLOCATIONS:\n- {廃校|はいこう}になる: to be closed (a school)\n- {廃校|はいこう}の{活用|かつよう}: repurposing of closed schools\n- {廃校|はいこう}{跡|あと}: former school site\n- {廃校|はいこう}{舎|しゃ}: closed school building",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{廃校|はいこう}する",
+        "negative": "{廃校|はいこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{廃校|はいこう}します",
+        "negative": "{廃校|はいこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{廃校|はいこう}した",
+        "negative": "{廃校|はいこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{廃校|はいこう}しました",
+        "negative": "{廃校|はいこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{廃校|はいこう}して",
+        "negative": "{廃校|はいこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{廃校|はいこう}している",
+        "negative": "{廃校|はいこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{廃校|はいこう}しています",
+        "negative": "{廃校|はいこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{廃校|はいこう}していた",
+        "negative": "{廃校|はいこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{廃校|はいこう}していました",
+        "negative": "{廃校|はいこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{廃校|はいこう}すれば",
+        "negative": "{廃校|はいこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{廃校|はいこう}したら",
+        "negative": "{廃校|はいこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{廃校|はいこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{廃校|はいこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{廃校|はいこう}できる",
+        "negative": "{廃校|はいこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{廃校|はいこう}される",
+        "negative": "{廃校|はいこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{廃校|はいこう}させる",
+        "negative": "{廃校|はいこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{廃校|はいこう}しろ",
+        "negative": "{廃校|はいこう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Japanese hospitality is world-renowned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16856_omotenashi_ex2",
@@ -27,7 +29,9 @@
       "english": "I was moved by the heartfelt hospitality at the ryokan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16856_omotenashi_ex3",
@@ -35,7 +39,9 @@
       "english": "I want to welcome our guests while valuing the spirit of hospitality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlso used as a suru-verb: おもてなしする (to provide hospitality). Gained international recognition when used in Tokyo's 2020 Olympics bid presentation. Represents a cultural ideal of selfless, anticipatory service.\n\nCULTURE:\nThe word encapsulates a distinctive Japanese approach to service: anticipating needs before being asked, showing genuine care without expectation of reward, and attention to small details that make guests feel valued.\n\nCOMMON COLLOCATIONS:\n- おもてなしの{心|こころ} (the spirit of hospitality)\n- おもてなしの{精神|せいしん} (the hospitality mindset)\n- {心|こころ}のこもったおもてなし (heartfelt hospitality)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["culture", "communication"]
+      "semantic": [
+        "culture",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "おもてなしする",
+        "negative": "おもてなししない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "おもてなしします",
+        "negative": "おもてなししません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "おもてなしした",
+        "negative": "おもてなししなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "おもてなししました",
+        "negative": "おもてなししませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "おもてなしして",
+        "negative": "おもてなししなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "おもてなししている",
+        "negative": "おもてなししていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "おもてなししています",
+        "negative": "おもてなししていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "おもてなししていた",
+        "negative": "おもてなししていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "おもてなししていました",
+        "negative": "おもてなししていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "おもてなしすれば",
+        "negative": "おもてなししなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "おもてなししたら",
+        "negative": "おもてなししなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "おもてなししよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "おもてなししましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "おもてなしできる",
+        "negative": "おもてなしできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "おもてなしされる",
+        "negative": "おもてなしされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "おもてなしさせる",
+        "negative": "おもてなしさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "おもてなししろ",
+        "negative": "おもてなしするな"
+      }
+    ]
   }
 }

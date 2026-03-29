@@ -24,7 +24,9 @@
       "english": "To lack manners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13166_kaku_ex2",
@@ -32,7 +34,9 @@
       "english": "His remarks lack consideration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13166_kaku_ex3",
@@ -40,7 +44,9 @@
       "english": "Products that lack safety should not be put on the market.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13166_kaku_ex4",
@@ -48,7 +54,9 @@
       "english": "I chipped my tooth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13166_kaku_ex5",
@@ -56,7 +64,9 @@
       "english": "To chip the rim of a rice bowl.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13166_kaku_ex6",
@@ -64,7 +74,9 @@
       "english": "I chipped the edge of the plate when I dropped it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), く row.\n- Negative: {欠|か}かない\n- Polite: {欠|か}きます\n- Te-form: {欠|か}いて\n- Past: {欠|か}いた\n- Potential: {欠|か}ける\n\nTRANSITIVITY:\nTransitive ({他動詞|たどうし}). The intransitive counterpart is {欠|か}ける (to be chipped, to be lacking).\n\nPATTERNS:\n- 〜を{欠|か}く: to lack ~, to be without ~\n- {欠|か}くことのできない: indispensable, essential\n- {欠|か}かせない: indispensable (from the causative-negative)\n\nCOMMON COLLOCATIONS:\n- {礼儀|れいぎ}を{欠|か}く: to lack manners\n- {配慮|はいりょ}を{欠|か}く: to lack consideration\n- {常識|じょうしき}を{欠|か}く: to lack common sense\n- {誠意|せいい}を{欠|か}く: to lack sincerity\n- {欠|か}かせない{存在|そんざい}: an indispensable presence",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{欠|か}く",
+        "negative": "{欠|か}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{欠|か}きます",
+        "negative": "{欠|か}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{欠|か}いた",
+        "negative": "{欠|か}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{欠|か}きました",
+        "negative": "{欠|か}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{欠|か}いて",
+        "negative": "{欠|か}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{欠|か}いている",
+        "negative": "{欠|か}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{欠|か}いています",
+        "negative": "{欠|か}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{欠|か}いていた",
+        "negative": "{欠|か}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{欠|か}いていました",
+        "negative": "{欠|か}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{欠|か}けば",
+        "negative": "{欠|か}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{欠|か}いたら",
+        "negative": "{欠|か}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{欠|か}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{欠|か}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{欠|か}ける",
+        "negative": "{欠|か}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{欠|か}かれる",
+        "negative": "{欠|か}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{欠|か}かせる",
+        "negative": "{欠|か}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{欠|か}け",
+        "negative": "{欠|か}くな"
+      }
+    ]
   }
 }

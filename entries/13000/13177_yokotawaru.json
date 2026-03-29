@@ -24,7 +24,9 @@
       "english": "To lie down on the sofa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13177_yokotawaru_ex2",
@@ -32,7 +34,9 @@
       "english": "Tired, I lay down on the grass.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13177_yokotawaru_ex3",
@@ -40,7 +44,9 @@
       "english": "I visited the patient who was lying quietly in bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13177_yokotawaru_ex4",
@@ -48,7 +54,9 @@
       "english": "A mountain range stretches from north to south.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13177_yokotawaru_ex5",
@@ -56,7 +64,9 @@
       "english": "A vast desert stretches between the two countries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13177_yokotawaru_ex6",
@@ -64,7 +74,9 @@
       "english": "Many challenges lie ahead before realization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}), る row.\n- Negative: {横|よこ}たわらない\n- Polite: {横|よこ}たわります\n- Te-form: {横|よこ}たわって\n- Past: {横|よこ}たわった\n\nTRANSITIVITY:\nIntransitive ({自動詞|じどうし}). The transitive counterpart is {横|よこ}たえる (to lay something down).\n\nTEIRU FORM:\n{横|よこ}たわっている describes the state of being in a lying position or stretching across a landscape.\n\nUSAGE:\nMore literary and descriptive than {横|よこ}になる (to lie down, everyday). Often used in novels, descriptive writing, and formal prose. In sense 2, used figuratively for obstacles or challenges that \"lie ahead.\"\n\nCOMMON COLLOCATIONS:\n- ベッドに{横|よこ}たわる: to lie down on a bed\n- {平野|へいや}が{横|よこ}たわる: a plain stretches out\n- {問題|もんだい}が{横|よこ}たわる: a problem lies (ahead)\n- {静|しず}かに{横|よこ}たわる: to lie quietly",
@@ -75,12 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["movement"],
-      "style": ["literary"]
+      "semantic": [
+        "movement"
+      ],
+      "style": [
+        "literary"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{横|よこ}たわる",
+        "negative": "{横|よこ}たわらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{横|よこ}たわります",
+        "negative": "{横|よこ}たわりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{横|よこ}たわった",
+        "negative": "{横|よこ}たわらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{横|よこ}たわりました",
+        "negative": "{横|よこ}たわりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{横|よこ}たわって",
+        "negative": "{横|よこ}たわらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{横|よこ}たわっている",
+        "negative": "{横|よこ}たわっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{横|よこ}たわっています",
+        "negative": "{横|よこ}たわっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{横|よこ}たわっていた",
+        "negative": "{横|よこ}たわっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{横|よこ}たわっていました",
+        "negative": "{横|よこ}たわっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{横|よこ}たわれば",
+        "negative": "{横|よこ}たわらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{横|よこ}たわったら",
+        "negative": "{横|よこ}たわらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{横|よこ}たわろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{横|よこ}たわりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{横|よこ}たわれる",
+        "negative": "{横|よこ}たわれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{横|よこ}たわられる",
+        "negative": "{横|よこ}たわられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{横|よこ}たわらせる",
+        "negative": "{横|よこ}たわらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{横|よこ}たわれ",
+        "negative": "{横|よこ}たわるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "That's nothing more than hearsay.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17978_denbun_ex2",
@@ -27,7 +29,9 @@
       "english": "According to what I've heard, the company president will be replaced next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17978_denbun_ex3",
@@ -35,7 +39,9 @@
       "english": "In court, hearsay evidence is generally not admissible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used in news, legal, and academic contexts. In grammar studies, {伝聞|でんぶん} also refers to the hearsay evidential form (〜そうだ, 〜とのことだ) — a way of marking that information comes from a secondary source.\n\nCOMMON COLLOCATIONS:\n- {伝聞|でんぶん}によると (according to what one has heard)\n- {伝聞|でんぶん}{情報|じょうほう} (hearsay information)\n- {伝聞|でんぶん}{証拠|しょうこ} (hearsay evidence)\n- {伝聞|でんぶん}にすぎない (nothing more than hearsay)\n\nSIMILAR WORDS:\n- うわさ: rumor — more colloquial and informal\n- {風聞|ふうぶん}: rumor — literary synonym, less common\n- {又聞|またぎ}き: secondhand information — specifically means hearing something through an intermediary",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{伝聞|でんぶん}する",
+        "negative": "{伝聞|でんぶん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{伝聞|でんぶん}します",
+        "negative": "{伝聞|でんぶん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{伝聞|でんぶん}した",
+        "negative": "{伝聞|でんぶん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{伝聞|でんぶん}しました",
+        "negative": "{伝聞|でんぶん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{伝聞|でんぶん}して",
+        "negative": "{伝聞|でんぶん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{伝聞|でんぶん}している",
+        "negative": "{伝聞|でんぶん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{伝聞|でんぶん}しています",
+        "negative": "{伝聞|でんぶん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{伝聞|でんぶん}していた",
+        "negative": "{伝聞|でんぶん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{伝聞|でんぶん}していました",
+        "negative": "{伝聞|でんぶん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{伝聞|でんぶん}すれば",
+        "negative": "{伝聞|でんぶん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{伝聞|でんぶん}したら",
+        "negative": "{伝聞|でんぶん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{伝聞|でんぶん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{伝聞|でんぶん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{伝聞|でんぶん}できる",
+        "negative": "{伝聞|でんぶん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{伝聞|でんぶん}される",
+        "negative": "{伝聞|でんぶん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{伝聞|でんぶん}させる",
+        "negative": "{伝聞|でんぶん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{伝聞|でんぶん}しろ",
+        "negative": "{伝聞|でんぶん}するな"
+      }
+    ]
   }
 }

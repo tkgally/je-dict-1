@@ -19,7 +19,9 @@
       "english": "Lions prey on zebras.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12819_hoshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Frogs survive by preying on insects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12819_hoshoku_ex3",
@@ -35,7 +39,9 @@
       "english": "Some animals have protective coloring to escape predation by natural enemies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{捕食|ほしょく} is a scientific/ecological term primarily used in biology and nature documentaries. It is not used for human eating. The word appears frequently in discussions of food chains and animal behavior.\n\nCOMMON COLLOCATIONS:\n- {捕食|ほしょく}{者|しゃ}: predator\n- {捕食|ほしょく}{行動|こうどう}: predatory behavior\n- {捕食|ほしょく}{関係|かんけい}: predator-prey relationship\n- {天敵|てんてき}に{捕食|ほしょく}される: to be preyed upon by a natural enemy",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["animal-general"],
-      "domain": ["academic"]
+      "semantic": [
+        "animal-general"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{捕食|ほしょく}する",
+        "negative": "{捕食|ほしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{捕食|ほしょく}します",
+        "negative": "{捕食|ほしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{捕食|ほしょく}した",
+        "negative": "{捕食|ほしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{捕食|ほしょく}しました",
+        "negative": "{捕食|ほしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{捕食|ほしょく}して",
+        "negative": "{捕食|ほしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{捕食|ほしょく}している",
+        "negative": "{捕食|ほしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{捕食|ほしょく}しています",
+        "negative": "{捕食|ほしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{捕食|ほしょく}していた",
+        "negative": "{捕食|ほしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{捕食|ほしょく}していました",
+        "negative": "{捕食|ほしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{捕食|ほしょく}すれば",
+        "negative": "{捕食|ほしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{捕食|ほしょく}したら",
+        "negative": "{捕食|ほしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{捕食|ほしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{捕食|ほしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{捕食|ほしょく}できる",
+        "negative": "{捕食|ほしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{捕食|ほしょく}される",
+        "negative": "{捕食|ほしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{捕食|ほしょく}させる",
+        "negative": "{捕食|ほしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{捕食|ほしょく}しろ",
+        "negative": "{捕食|ほしょく}するな"
+      }
+    ]
   }
 }

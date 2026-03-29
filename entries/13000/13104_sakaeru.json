@@ -19,7 +19,9 @@
       "english": "This town prospered through commerce.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13104_sakaeru_ex2",
@@ -27,7 +29,9 @@
       "english": "It was an era when culture flourished.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13104_sakaeru_ex3",
@@ -35,7 +39,9 @@
       "english": "This port town, which once thrived on trade, has now become quiet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {栄|さか}えない\n- Polite: {栄|さか}えます\n- Te-form: {栄|さか}えて\n- Past: {栄|さか}えた\n\nCOMMON COLLOCATIONS:\n- {商業|しょうぎょう}で{栄|さか}える: to prosper through commerce\n- {貿易|ぼうえき}で{栄|さか}える: to thrive on trade\n- {文化|ぶんか}が{栄|さか}える: culture flourishes\n\nRELATED FORMS:\n{栄|さか}え (noun form): prosperity, glory. The kanji {栄|さか} also appears in {栄光|えいこう} (glory) and {栄養|えいよう} (nutrition).",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
       "verb_class": "ichidan",
-      "semantic": ["change"]
+      "semantic": [
+        "change"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{栄|さか}える",
+        "negative": "{栄|さか}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{栄|さか}えます",
+        "negative": "{栄|さか}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{栄|さか}えた",
+        "negative": "{栄|さか}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{栄|さか}えました",
+        "negative": "{栄|さか}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{栄|さか}えて",
+        "negative": "{栄|さか}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{栄|さか}えている",
+        "negative": "{栄|さか}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{栄|さか}えています",
+        "negative": "{栄|さか}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{栄|さか}えていた",
+        "negative": "{栄|さか}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{栄|さか}えていました",
+        "negative": "{栄|さか}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{栄|さか}えれば",
+        "negative": "{栄|さか}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{栄|さか}えたら",
+        "negative": "{栄|さか}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{栄|さか}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{栄|さか}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{栄|さか}えられる",
+        "negative": "{栄|さか}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{栄|さか}えられる",
+        "negative": "{栄|さか}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{栄|さか}えさせる",
+        "negative": "{栄|さか}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{栄|さか}えろ",
+        "negative": "{栄|さか}えるな"
+      }
+    ]
   }
 }

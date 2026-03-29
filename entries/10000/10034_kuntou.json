@@ -16,7 +16,9 @@
       "id": "10034_kuntou_ex1",
       "japanese": "{師|し}の{薫陶|くんとう}を{受|う}ける。",
       "english": "To receive guidance from one's teacher.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10034_kuntou_ex2",
       "japanese": "{長年|ながねん}の{薫陶|くんとう}が{実|みの}った。",
       "english": "Years of cultivation have borne fruit.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10034_kuntou_ex3",
       "japanese": "{彼|かれ}は{先代|せんだい}{社長|しゃちょう}の{薫陶|くんとう}を{受|う}けて{育|そだ}った。",
       "english": "He was raised under the guidance of the former president.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "10034_kuntou_ex4",
       "japanese": "{若手|わかて}を{薫陶|くんとう}して{後継者|こうけいしゃ}を{育|そだ}てる。",
       "english": "To nurture young people and develop successors.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,10 +61,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education", "interpersonal"]
+      "semantic": [
+        "education",
+        "interpersonal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{薫陶|くんとう}する",
+        "negative": "{薫陶|くんとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{薫陶|くんとう}します",
+        "negative": "{薫陶|くんとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{薫陶|くんとう}した",
+        "negative": "{薫陶|くんとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{薫陶|くんとう}しました",
+        "negative": "{薫陶|くんとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{薫陶|くんとう}して",
+        "negative": "{薫陶|くんとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{薫陶|くんとう}している",
+        "negative": "{薫陶|くんとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{薫陶|くんとう}しています",
+        "negative": "{薫陶|くんとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{薫陶|くんとう}していた",
+        "negative": "{薫陶|くんとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{薫陶|くんとう}していました",
+        "negative": "{薫陶|くんとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{薫陶|くんとう}すれば",
+        "negative": "{薫陶|くんとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{薫陶|くんとう}したら",
+        "negative": "{薫陶|くんとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{薫陶|くんとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{薫陶|くんとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{薫陶|くんとう}できる",
+        "negative": "{薫陶|くんとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{薫陶|くんとう}される",
+        "negative": "{薫陶|くんとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{薫陶|くんとう}させる",
+        "negative": "{薫陶|くんとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{薫陶|くんとう}しろ",
+        "negative": "{薫陶|くんとう}するな"
+      }
+    ]
   }
 }

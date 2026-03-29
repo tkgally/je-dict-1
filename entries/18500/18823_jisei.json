@@ -17,7 +17,9 @@
       "id": "18823_jisei_ex1",
       "japanese": "この{花|はな}は{山|やま}に{自生|じせい}している。",
       "english": "This flower grows wild in the mountains.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "18823_jisei_ex2",
       "japanese": "{日本|にほん}に{自生|じせい}する{植物|しょくぶつ}を{調|しら}べている。",
       "english": "I'm researching plants that grow naturally in Japan.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "18823_jisei_ex3",
       "japanese": "{野生|やせい}のわさびが{渓流|けいりゅう}のそばに{自生|じせい}しているのを{見|み}つけた。",
       "english": "I found wild wasabi growing naturally by the mountain stream.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,13 +52,109 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-general"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "plant-general"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     },
     "created": "2026-03-23T04:45:28Z",
     "modified": "2026-03-25T09:40:20Z"
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自生|じせい}する",
+        "negative": "{自生|じせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自生|じせい}します",
+        "negative": "{自生|じせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自生|じせい}した",
+        "negative": "{自生|じせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自生|じせい}しました",
+        "negative": "{自生|じせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自生|じせい}して",
+        "negative": "{自生|じせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自生|じせい}している",
+        "negative": "{自生|じせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自生|じせい}しています",
+        "negative": "{自生|じせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自生|じせい}していた",
+        "negative": "{自生|じせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自生|じせい}していました",
+        "negative": "{自生|じせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自生|じせい}すれば",
+        "negative": "{自生|じせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自生|じせい}したら",
+        "negative": "{自生|じせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自生|じせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自生|じせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自生|じせい}できる",
+        "negative": "{自生|じせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自生|じせい}される",
+        "negative": "{自生|じせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自生|じせい}させる",
+        "negative": "{自生|じせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自生|じせい}しろ",
+        "negative": "{自生|じせい}するな"
+      }
+    ]
   }
 }

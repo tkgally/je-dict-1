@@ -19,7 +19,9 @@
       "english": "Friend and foe are mixed together in disorder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12054_irimidareru_ex2",
@@ -27,7 +29,9 @@
       "english": "Opinions for and against were jumbled together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12054_irimidareru_ex3",
@@ -35,7 +39,9 @@
       "english": "The field where flowers of various colors bloomed in wild profusion was beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {入|い}り{乱|みだ}れない\n- Polite: {入|い}り{乱|みだ}れます\n- Te-form: {入|い}り{乱|みだ}れて\n- Past: {入|い}り{乱|みだ}れた\n\nUSAGE:\nOften used for battle scenes ({敵|てき}{味方|みかた}が{入|い}り{乱|みだ}れて{戦|たたか}う — friend and foe fighting in a confused melee), but also for any situation where disparate elements are chaotically mixed: opinions, emotions, colors, people.\n\nCOMMON COLLOCATIONS:\n- {敵|てき}{味方|みかた}が{入|い}り{乱|みだ}れる: friend and foe intermingle\n- {入|い}り{乱|みだ}れて{戦|たたか}う: to fight in a melee\n- {意見|いけん}が{入|い}り{乱|みだ}れる: opinions are jumbled together",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{入|い}り{乱|みだ}れる",
+        "negative": "{入|い}り{乱|みだ}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{入|い}り{乱|みだ}れます",
+        "negative": "{入|い}り{乱|みだ}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{入|い}り{乱|みだ}れた",
+        "negative": "{入|い}り{乱|みだ}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{入|い}り{乱|みだ}れました",
+        "negative": "{入|い}り{乱|みだ}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{入|い}り{乱|みだ}れて",
+        "negative": "{入|い}り{乱|みだ}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{入|い}り{乱|みだ}れている",
+        "negative": "{入|い}り{乱|みだ}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{入|い}り{乱|みだ}れています",
+        "negative": "{入|い}り{乱|みだ}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{入|い}り{乱|みだ}れていた",
+        "negative": "{入|い}り{乱|みだ}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{入|い}り{乱|みだ}れていました",
+        "negative": "{入|い}り{乱|みだ}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{入|い}り{乱|みだ}れれば",
+        "negative": "{入|い}り{乱|みだ}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{入|い}り{乱|みだ}れたら",
+        "negative": "{入|い}り{乱|みだ}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{入|い}り{乱|みだ}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{入|い}り{乱|みだ}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{入|い}り{乱|みだ}れられる",
+        "negative": "{入|い}り{乱|みだ}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{入|い}り{乱|みだ}れられる",
+        "negative": "{入|い}り{乱|みだ}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{入|い}り{乱|みだ}れさせる",
+        "negative": "{入|い}り{乱|みだ}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{入|い}り{乱|みだ}れろ",
+        "negative": "{入|い}り{乱|みだ}れるな"
+      }
+    ]
   }
 }

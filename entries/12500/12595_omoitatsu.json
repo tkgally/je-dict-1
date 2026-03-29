@@ -19,7 +19,9 @@
       "english": "When I make up my mind, I act immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12595_omoitatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "One day I suddenly resolved to go on a trip.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12595_omoitatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "They say there's no day like the day you decide to act, so let's start today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nEmphasizes the moment of sudden decision or inspiration. The decision is spontaneous — if someone {思|おも}い{立|た}つ something, they haven't been deliberating for a long time.\n\nPROVERB:\n{思|おも}い{立|た}ったが{吉日|きちじつ} — \"The day you decide to act is a lucky day.\" Encourages acting immediately on one's resolutions rather than procrastinating.\n\nGRAMMAR:\nGodan verb ending in つ. Intransitive. Typically followed by と or たら: 〜しようと{思|おも}い{立|た}つ (resolve to do something).\n\nCOMMON PATTERNS:\n- {思|おも}い{立|た}ったらすぐ: as soon as one decides\n- 〜しようと{思|おも}い{立|た}つ: to resolve to do...\n- {思|おも}い{立|た}ったが{吉日|きちじつ}: no time like the present",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-tsu",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{思|おも}い{立|た}つ",
+        "negative": "{思|おも}い{立|た}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{思|おも}い{立|た}ちます",
+        "negative": "{思|おも}い{立|た}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{思|おも}い{立|た}った",
+        "negative": "{思|おも}い{立|た}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{思|おも}い{立|た}ちました",
+        "negative": "{思|おも}い{立|た}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{思|おも}い{立|た}って",
+        "negative": "{思|おも}い{立|た}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{思|おも}い{立|た}っている",
+        "negative": "{思|おも}い{立|た}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{思|おも}い{立|た}っています",
+        "negative": "{思|おも}い{立|た}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{思|おも}い{立|た}っていた",
+        "negative": "{思|おも}い{立|た}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{思|おも}い{立|た}っていました",
+        "negative": "{思|おも}い{立|た}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{思|おも}い{立|た}てば",
+        "negative": "{思|おも}い{立|た}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{思|おも}い{立|た}ったら",
+        "negative": "{思|おも}い{立|た}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{思|おも}い{立|た}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{思|おも}い{立|た}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{思|おも}い{立|た}てる",
+        "negative": "{思|おも}い{立|た}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{思|おも}い{立|た}たれる",
+        "negative": "{思|おも}い{立|た}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{思|おも}い{立|た}たせる",
+        "negative": "{思|おも}い{立|た}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{思|おも}い{立|た}て",
+        "negative": "{思|おも}い{立|た}つな"
+      }
+    ]
   }
 }

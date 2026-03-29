@@ -24,7 +24,9 @@
       "english": "We can't turn back from here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12581_atomodori_ex2",
@@ -32,7 +34,9 @@
       "english": "I took the wrong road and turned back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12581_atomodori_ex3",
@@ -40,7 +44,9 @@
       "english": "The weather deteriorated partway up the mountain trail, and we were forced to turn back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12581_atomodori_ex4",
@@ -48,7 +54,9 @@
       "english": "There is no turning back on the reforms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12581_atomodori_ex5",
@@ -56,7 +64,9 @@
       "english": "The progress we had made regressed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12581_atomodori_ex6",
@@ -64,7 +74,9 @@
       "english": "We must not allow society to regress to its prewar state.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in negative constructions like {後戻|あともど}りできない (cannot turn back) or {後戻|あともど}りはない (there is no going back) to express resolve or irreversibility.\n\nGRAMMAR:\nFunctions as both a noun and a する verb. As a noun, often used with particles like に or を.\n\nCOMMON COLLOCATIONS:\n- {後戻|あともど}りできない: cannot turn back\n- {後戻|あともど}りする: to go back, to regress\n- {後戻|あともど}りを{余儀|よぎ}なくされる: to be forced to turn back",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{後戻|あともど}りする",
+        "negative": "{後戻|あともど}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{後戻|あともど}りします",
+        "negative": "{後戻|あともど}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{後戻|あともど}りした",
+        "negative": "{後戻|あともど}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{後戻|あともど}りしました",
+        "negative": "{後戻|あともど}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{後戻|あともど}りして",
+        "negative": "{後戻|あともど}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{後戻|あともど}りしている",
+        "negative": "{後戻|あともど}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{後戻|あともど}りしています",
+        "negative": "{後戻|あともど}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{後戻|あともど}りしていた",
+        "negative": "{後戻|あともど}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{後戻|あともど}りしていました",
+        "negative": "{後戻|あともど}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{後戻|あともど}りすれば",
+        "negative": "{後戻|あともど}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{後戻|あともど}りしたら",
+        "negative": "{後戻|あともど}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{後戻|あともど}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{後戻|あともど}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{後戻|あともど}りできる",
+        "negative": "{後戻|あともど}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{後戻|あともど}りされる",
+        "negative": "{後戻|あともど}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{後戻|あともど}りさせる",
+        "negative": "{後戻|あともど}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{後戻|あともど}りしろ",
+        "negative": "{後戻|あともど}りするな"
+      }
+    ]
   }
 }

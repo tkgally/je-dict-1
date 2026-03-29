@@ -19,7 +19,9 @@
       "english": "I have plans to travel abroad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17919_tokou_ex2",
@@ -27,7 +29,9 @@
       "english": "Please check the safety information for your travel destination.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17919_tokou_ex3",
@@ -35,7 +39,9 @@
       "english": "The Ministry of Foreign Affairs is urging people to refrain from traveling to that region.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term commonly seen in government advisories, immigration documents, and travel warnings. More formal than {海外旅行|かいがいりょこう} (overseas trip) and carries an administrative tone.\n\nCOMMON COLLOCATIONS:\n- {渡航|とこう}{先|さき} (travel destination)\n- {渡航|とこう}{禁止|きんし} (travel ban)\n- {渡航|とこう}{歴|れき} (travel history)\n- {渡航|とこう}{制限|せいげん} (travel restrictions)\n\nSIMILAR WORDS:\n- {海外旅行|かいがいりょこう}: overseas trip — casual, everyday term for traveling abroad\n- {出国|しゅっこく}: departure from a country — focuses on the act of leaving",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["travel"],
-      "domain": []
+      "semantic": [
+        "travel"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{渡航|とこう}する",
+        "negative": "{渡航|とこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{渡航|とこう}します",
+        "negative": "{渡航|とこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{渡航|とこう}した",
+        "negative": "{渡航|とこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{渡航|とこう}しました",
+        "negative": "{渡航|とこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{渡航|とこう}して",
+        "negative": "{渡航|とこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{渡航|とこう}している",
+        "negative": "{渡航|とこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{渡航|とこう}しています",
+        "negative": "{渡航|とこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{渡航|とこう}していた",
+        "negative": "{渡航|とこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{渡航|とこう}していました",
+        "negative": "{渡航|とこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{渡航|とこう}すれば",
+        "negative": "{渡航|とこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{渡航|とこう}したら",
+        "negative": "{渡航|とこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{渡航|とこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{渡航|とこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{渡航|とこう}できる",
+        "negative": "{渡航|とこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{渡航|とこう}される",
+        "negative": "{渡航|とこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{渡航|とこう}させる",
+        "negative": "{渡航|とこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{渡航|とこう}しろ",
+        "negative": "{渡航|とこう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Bees are swarming around the flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15331_muragaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The children crowded around the ice cream truck.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15331_muragaru_ex3",
@@ -35,7 +39,9 @@
       "english": "When the sale started, customers thronged in front of the store.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn intransitive verb. The target that attracts the crowd is marked with に. Conveys a sense of many individuals converging eagerly or instinctively on one point.\n\nCOMMON COLLOCATIONS:\n- {虫|むし}が{群|むら}がる (insects swarm)\n- {人|ひと}が{群|むら}がる (people crowd around)\n- {群|むら}がって{来|く}る (to come swarming)\n\nGRAMMAR:\nGodan verb (ら行). Te-form: {群|むら}がって. Past: {群|むら}がった. Negative: {群|むら}がらない.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ru",
       "transitivity": "intransitive",
       "formality": "neutral",
-      "semantic": ["movement", "group"]
+      "semantic": [
+        "movement",
+        "group"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{群|むら}がる",
+        "negative": "{群|むら}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{群|むら}がります",
+        "negative": "{群|むら}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{群|むら}がった",
+        "negative": "{群|むら}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{群|むら}がりました",
+        "negative": "{群|むら}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{群|むら}がって",
+        "negative": "{群|むら}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{群|むら}がっている",
+        "negative": "{群|むら}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{群|むら}がっています",
+        "negative": "{群|むら}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{群|むら}がっていた",
+        "negative": "{群|むら}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{群|むら}がっていました",
+        "negative": "{群|むら}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{群|むら}がれば",
+        "negative": "{群|むら}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{群|むら}がったら",
+        "negative": "{群|むら}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{群|むら}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{群|むら}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{群|むら}がれる",
+        "negative": "{群|むら}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{群|むら}がられる",
+        "negative": "{群|むら}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{群|むら}がらせる",
+        "negative": "{群|むら}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{群|むら}がれ",
+        "negative": "{群|むら}がるな"
+      }
+    ]
   }
 }

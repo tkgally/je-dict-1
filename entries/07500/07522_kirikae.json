@@ -22,7 +22,9 @@
       "japanese": "システムの{切|き}り{替|か}えは{深夜|しんや}に{行|おこな}う。",
       "english": "The system switchover will be done late at night.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{夏時間|なつじかん}への{切|き}り{替|か}えが{行|おこな}われた。",
       "english": "The changeover to daylight saving time was implemented.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{画面|がめん}の{切|き}り{替|か}えはこのボタンで{行|おこな}えます。",
       "english": "You can switch screens with this button.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{気持|きも}ちの{切|き}り{替|か}えが{大事|だいじ}だ。",
       "english": "A mental shift is important.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{失敗|しっぱい}しても{切|き}り{替|か}えて{次|つぎ}に{進|すす}もう。",
       "english": "Even if you fail, shift your mindset and move on.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{試合|しあい}で{負|ま}けた{後|あと}、{気持|きも}ちの{切|き}り{替|か}えが{早|はや}い{選手|せんしゅ}ほど{成長|せいちょう}する。",
       "english": "Players who can quickly shift their mindset after a loss tend to grow more.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,108 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{切|き}り{替|か}えする",
+        "negative": "{切|き}り{替|か}えしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{切|き}り{替|か}えします",
+        "negative": "{切|き}り{替|か}えしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{切|き}り{替|か}えした",
+        "negative": "{切|き}り{替|か}えしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{切|き}り{替|か}えしました",
+        "negative": "{切|き}り{替|か}えしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{切|き}り{替|か}えして",
+        "negative": "{切|き}り{替|か}えしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{切|き}り{替|か}えしている",
+        "negative": "{切|き}り{替|か}えしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{切|き}り{替|か}えしています",
+        "negative": "{切|き}り{替|か}えしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{切|き}り{替|か}えしていた",
+        "negative": "{切|き}り{替|か}えしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{切|き}り{替|か}えしていました",
+        "negative": "{切|き}り{替|か}えしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{切|き}り{替|か}えすれば",
+        "negative": "{切|き}り{替|か}えしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{切|き}り{替|か}えしたら",
+        "negative": "{切|き}り{替|か}えしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{切|き}り{替|か}えしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{切|き}り{替|か}えしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{切|き}り{替|か}えできる",
+        "negative": "{切|き}り{替|か}えできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{切|き}り{替|か}えされる",
+        "negative": "{切|き}り{替|か}えされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{切|き}り{替|か}えさせる",
+        "negative": "{切|き}り{替|か}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{切|き}り{替|か}えしろ",
+        "negative": "{切|き}り{替|か}えするな"
+      }
+    ]
   }
 }

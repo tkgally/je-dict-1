@@ -19,7 +19,9 @@
       "english": "The pasta is done boiling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17741_yudeagaru_ex2",
@@ -27,7 +29,9 @@
       "english": "Once the eggs are done boiling, put them in cold water right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17741_yudeagaru_ex3",
@@ -35,7 +39,9 @@
       "english": "Let's prepare the sauce while the vegetables finish boiling.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb (intransitive). The transitive counterpart is {茹|ゆ}で{上|あ}げる (to finish boiling something). Part of the common ～{上|あ}がる pattern indicating completion of an action.\n\nUSAGE:\nPrimarily a cooking term. Sometimes written in hiragana as ゆで{上|あ}がる.\n\nCOMMON COLLOCATIONS:\n- パスタが{茹|ゆ}で{上|あ}がる: the pasta finishes boiling\n- {麺|めん}が{茹|ゆ}で{上|あ}がる: the noodles finish boiling\n- {卵|たまご}が{茹|ゆ}で{上|あ}がる: the eggs finish boiling",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["consumption"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "consumption"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{茹|ゆ}で{上|あ}がる",
+        "negative": "{茹|ゆ}で{上|あ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{茹|ゆ}で{上|あ}がります",
+        "negative": "{茹|ゆ}で{上|あ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{茹|ゆ}で{上|あ}がった",
+        "negative": "{茹|ゆ}で{上|あ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{茹|ゆ}で{上|あ}がりました",
+        "negative": "{茹|ゆ}で{上|あ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{茹|ゆ}で{上|あ}がって",
+        "negative": "{茹|ゆ}で{上|あ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{茹|ゆ}で{上|あ}がっている",
+        "negative": "{茹|ゆ}で{上|あ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{茹|ゆ}で{上|あ}がっています",
+        "negative": "{茹|ゆ}で{上|あ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{茹|ゆ}で{上|あ}がっていた",
+        "negative": "{茹|ゆ}で{上|あ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{茹|ゆ}で{上|あ}がっていました",
+        "negative": "{茹|ゆ}で{上|あ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{茹|ゆ}で{上|あ}がれば",
+        "negative": "{茹|ゆ}で{上|あ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{茹|ゆ}で{上|あ}がったら",
+        "negative": "{茹|ゆ}で{上|あ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{茹|ゆ}で{上|あ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{茹|ゆ}で{上|あ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{茹|ゆ}で{上|あ}がれる",
+        "negative": "{茹|ゆ}で{上|あ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{茹|ゆ}で{上|あ}がられる",
+        "negative": "{茹|ゆ}で{上|あ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{茹|ゆ}で{上|あ}がらせる",
+        "negative": "{茹|ゆ}で{上|あ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{茹|ゆ}で{上|あ}がれ",
+        "negative": "{茹|ゆ}で{上|あ}がるな"
+      }
+    ]
   }
 }

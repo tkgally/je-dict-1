@@ -24,7 +24,9 @@
       "english": "Clean up after yourself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12230_shimatsu_ex2",
@@ -32,7 +34,9 @@
       "english": "We are busy dealing with the aftermath of the accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12230_shimatsu_ex3",
@@ -40,7 +44,9 @@
       "english": "Tidy up the messy room before you go out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12230_shimatsu_ex4",
@@ -48,7 +54,9 @@
       "english": "No matter how many times I warned them, they wouldn't listen, and this is the result.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12230_shimatsu_ex5",
@@ -56,7 +64,9 @@
       "english": "After pushing too hard, the outcome was that they ruined their health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12230_shimatsu_ex6",
@@ -64,7 +74,9 @@
       "english": "After breaking the promise, they had the nerve to get angry — I was dumbfounded at how things turned out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {始末|しまつ}をつける: to settle/take care of a matter\n- {始末|しまつ}が{悪|わる}い: hard to deal with, troublesome\n- {後|あと}{始末|しまつ}: cleanup, dealing with the aftermath\n- この{始末|しまつ}だ: this is the (sorry) result\n- 〜という{始末|しまつ}だ: ...is how things ended up (exasperated)\n- {始末|しまつ}{書|しょ}: written apology/incident report\n\nSENSE DISTINCTION:\nSense 1 (management) is active — you {始末|しまつ}する something. Sense 2 (outcome) is descriptive — you observe この{始末|しまつ} (this sorry state). The pattern 〜という{始末|しまつ}だ or この{始末|しまつ}だ expresses the speaker's exasperation at a bad outcome.",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{始末|しまつ}する",
+        "negative": "{始末|しまつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{始末|しまつ}します",
+        "negative": "{始末|しまつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{始末|しまつ}した",
+        "negative": "{始末|しまつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{始末|しまつ}しました",
+        "negative": "{始末|しまつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{始末|しまつ}して",
+        "negative": "{始末|しまつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{始末|しまつ}している",
+        "negative": "{始末|しまつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{始末|しまつ}しています",
+        "negative": "{始末|しまつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{始末|しまつ}していた",
+        "negative": "{始末|しまつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{始末|しまつ}していました",
+        "negative": "{始末|しまつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{始末|しまつ}すれば",
+        "negative": "{始末|しまつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{始末|しまつ}したら",
+        "negative": "{始末|しまつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{始末|しまつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{始末|しまつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{始末|しまつ}できる",
+        "negative": "{始末|しまつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{始末|しまつ}される",
+        "negative": "{始末|しまつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{始末|しまつ}させる",
+        "negative": "{始末|しまつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{始末|しまつ}しろ",
+        "negative": "{始末|しまつ}するな"
+      }
+    ]
   }
 }

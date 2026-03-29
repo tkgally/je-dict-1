@@ -19,7 +19,9 @@
       "english": "The child is wailing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17819_nakisakebu_ex2",
@@ -27,7 +29,9 @@
       "english": "Unable to bear the pain, I cried out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17819_nakisakebu_ex3",
@@ -35,7 +39,9 @@
       "english": "The girl who had lost her mother collapsed to the ground, wailing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb that expresses more intense emotion than {泣|な}く alone. Often used in dramatic or literary descriptions of grief, pain, or desperation.\n\nCONJUGATION:\nConjugates as a godan verb ending in ぶ: {泣|な}き{叫|さけ}ばない, {泣|な}き{叫|さけ}びます, {泣|な}き{叫|さけ}んで, etc.\n\nSIMILAR WORDS:\n- {泣|な}く: to cry — general, less intense\n- {号泣|ごうきゅう}する: to bawl, cry loudly — emphasizes volume of crying\n- {喚|わめ}く: to scream, yell — emphasizes the shouting aspect",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-bu",
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "sound"]
+      "semantic": [
+        "emotion",
+        "sound"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{泣|な}き{叫|さけ}ぶ",
+        "negative": "{泣|な}き{叫|さけ}ばない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{泣|な}き{叫|さけ}びます",
+        "negative": "{泣|な}き{叫|さけ}びません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{泣|な}き{叫|さけ}んだ",
+        "negative": "{泣|な}き{叫|さけ}ばなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{泣|な}き{叫|さけ}びました",
+        "negative": "{泣|な}き{叫|さけ}びませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{泣|な}き{叫|さけ}んで",
+        "negative": "{泣|な}き{叫|さけ}ばなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{泣|な}き{叫|さけ}んでいる",
+        "negative": "{泣|な}き{叫|さけ}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{泣|な}き{叫|さけ}んでいます",
+        "negative": "{泣|な}き{叫|さけ}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{泣|な}き{叫|さけ}んでいた",
+        "negative": "{泣|な}き{叫|さけ}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{泣|な}き{叫|さけ}んでいました",
+        "negative": "{泣|な}き{叫|さけ}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{泣|な}き{叫|さけ}べば",
+        "negative": "{泣|な}き{叫|さけ}ばなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{泣|な}き{叫|さけ}んだら",
+        "negative": "{泣|な}き{叫|さけ}ばなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{泣|な}き{叫|さけ}ぼう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{泣|な}き{叫|さけ}びましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{泣|な}き{叫|さけ}べる",
+        "negative": "{泣|な}き{叫|さけ}べない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{泣|な}き{叫|さけ}ばれる",
+        "negative": "{泣|な}き{叫|さけ}ばれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{泣|な}き{叫|さけ}ばせる",
+        "negative": "{泣|な}き{叫|さけ}ばせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{泣|な}き{叫|さけ}べ",
+        "negative": "{泣|な}き{叫|さけ}ぶな"
+      }
+    ]
   }
 }

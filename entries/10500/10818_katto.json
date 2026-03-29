@@ -24,7 +24,9 @@
       "english": "I got a haircut.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10818_katto_ex2",
@@ -32,7 +34,9 @@
       "english": "How much is just a cut?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10818_katto_ex3",
@@ -40,7 +44,9 @@
       "english": "I asked for a cut and color at the hair salon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10818_katto_ex4",
@@ -48,7 +54,9 @@
       "english": "This scene was cut.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10818_katto_ex5",
@@ -56,7 +64,9 @@
       "english": "We will drastically cut expenses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10818_katto_ex6",
@@ -64,7 +74,9 @@
       "english": "The last part was cut due to time constraints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "カット is a very common loanword from English \"cut,\" used both as a noun and as a suru verb (カットする).\n\nSENSE 1 — HAIRCUT:\nAt hair salons, カット refers specifically to the cutting service. Pricing menus typically list カット separately from other services.\n\nSENSE 2 — DELETION/REDUCTION:\nUsed in film editing, business cost-cutting, and general removal of content.\n\nCOMMON COMPOUNDS:\n- ヘアカット: haircut\n- コストカット: cost cutting\n- {賃金|ちんぎん}カット: wage cut\n- カット{野菜|やさい}: pre-cut vegetables",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "カットする",
+        "negative": "カットしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "カットします",
+        "negative": "カットしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "カットした",
+        "negative": "カットしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "カットしました",
+        "negative": "カットしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "カットして",
+        "negative": "カットしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "カットしている",
+        "negative": "カットしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "カットしています",
+        "negative": "カットしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "カットしていた",
+        "negative": "カットしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "カットしていました",
+        "negative": "カットしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "カットすれば",
+        "negative": "カットしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "カットしたら",
+        "negative": "カットしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "カットしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "カットしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "カットできる",
+        "negative": "カットできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "カットされる",
+        "negative": "カットされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "カットさせる",
+        "negative": "カットさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "カットしろ",
+        "negative": "カットするな"
+      }
+    ]
   }
 }

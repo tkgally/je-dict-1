@@ -19,7 +19,9 @@
       "english": "The wall has become discolored.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17268_kurozumu_ex2",
@@ -27,7 +29,9 @@
       "english": "The silver accessory has started to tarnish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17268_kurozumu_ex3",
@@ -35,7 +39,9 @@
       "english": "The ceiling had darkened from years of smoke, so we decided to repaint it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in the ている form to describe a state of discoloration. The change is gradual and usually undesirable. Common for describing aging surfaces, tarnished metals, and stained materials.\n\nCOMMON COLLOCATIONS:\n- {壁|かべ}が{黒|くろ}ずむ (a wall darkens)\n- {肌|はだ}が{黒|くろ}ずむ (skin becomes discolored)\n- {銀|ぎん}が{黒|くろ}ずむ (silver tarnishes)\n- {黒|くろ}ずんだ{汚|よご}れ (dark discoloration/stain)\n\nSIMILAR WORDS:\n- {黒|くろ}くなる: to become black — a straightforward color change, while {黒|くろ}ずむ implies gradual darkening or discoloration\n- {汚|よご}れる: to get dirty — broader meaning; {黒|くろ}ずむ specifically refers to dark discoloration",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "descriptive"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{黒|くろ}ずむ",
+        "negative": "{黒|くろ}ずまない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{黒|くろ}ずみます",
+        "negative": "{黒|くろ}ずみません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{黒|くろ}ずんだ",
+        "negative": "{黒|くろ}ずまなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{黒|くろ}ずみました",
+        "negative": "{黒|くろ}ずみませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{黒|くろ}ずんで",
+        "negative": "{黒|くろ}ずまなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{黒|くろ}ずんでいる",
+        "negative": "{黒|くろ}ずんでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{黒|くろ}ずんでいます",
+        "negative": "{黒|くろ}ずんでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{黒|くろ}ずんでいた",
+        "negative": "{黒|くろ}ずんでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{黒|くろ}ずんでいました",
+        "negative": "{黒|くろ}ずんでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{黒|くろ}ずめば",
+        "negative": "{黒|くろ}ずまなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{黒|くろ}ずんだら",
+        "negative": "{黒|くろ}ずまなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{黒|くろ}ずもう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{黒|くろ}ずみましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{黒|くろ}ずめる",
+        "negative": "{黒|くろ}ずめない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{黒|くろ}ずまれる",
+        "negative": "{黒|くろ}ずまれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{黒|くろ}ずませる",
+        "negative": "{黒|くろ}ずませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{黒|くろ}ずめ",
+        "negative": "{黒|くろ}ずむな"
+      }
+    ]
   }
 }

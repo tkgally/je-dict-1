@@ -19,7 +19,9 @@
       "english": "Children learn by imitating adults.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15752_mohou_ex2",
@@ -27,7 +29,9 @@
       "english": "This work is nothing more than an imitation of a famous painter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15752_mohou_ex3",
@@ -35,7 +39,9 @@
       "english": "Care must be taken in how things are reported in order to prevent copycat crimes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{模倣|もほう} is more formal than {真似|まね} (imitation/mimicry). It is commonly used in academic, artistic, and media contexts. It can function as a suru-verb: {模倣|もほう}する (to imitate).\n\nCOMMON COLLOCATIONS:\n- {模倣|もほう}する (to imitate)\n- {模倣|もほう}{犯罪|はんざい} (copycat crime)\n- {模倣|もほう}{品|ひん} (imitation product, counterfeit)\n- {模倣|もほう}{者|しゃ} (imitator)\n- {模倣|もほう}から{始|はじ}まる (start from imitation)\n\nSIMILAR WORDS:\n{真似|まね} is the everyday word for \"imitation\" or \"mimicry\" and is less formal. {模写|もしゃ} specifically refers to copying a painting or artwork. {偽造|ぎぞう} means \"forgery\" or \"counterfeiting\" and implies illegal intent.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action", "general"]
+      "semantic": [
+        "action",
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{模倣|もほう}する",
+        "negative": "{模倣|もほう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{模倣|もほう}します",
+        "negative": "{模倣|もほう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{模倣|もほう}した",
+        "negative": "{模倣|もほう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{模倣|もほう}しました",
+        "negative": "{模倣|もほう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{模倣|もほう}して",
+        "negative": "{模倣|もほう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{模倣|もほう}している",
+        "negative": "{模倣|もほう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{模倣|もほう}しています",
+        "negative": "{模倣|もほう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{模倣|もほう}していた",
+        "negative": "{模倣|もほう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{模倣|もほう}していました",
+        "negative": "{模倣|もほう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{模倣|もほう}すれば",
+        "negative": "{模倣|もほう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{模倣|もほう}したら",
+        "negative": "{模倣|もほう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{模倣|もほう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{模倣|もほう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{模倣|もほう}できる",
+        "negative": "{模倣|もほう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{模倣|もほう}される",
+        "negative": "{模倣|もほう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{模倣|もほう}させる",
+        "negative": "{模倣|もほう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{模倣|もほう}しろ",
+        "negative": "{模倣|もほう}するな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "To send a letter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10638_yokosu_ex2",
@@ -32,7 +34,9 @@
       "english": "A friend sent me an email.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10638_yokosu_ex3",
@@ -40,7 +44,9 @@
       "english": "My mother sent me vegetables from the countryside.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10638_yokosu_ex4",
@@ -48,7 +54,9 @@
       "english": "Hand that over.",
       "notes": "Blunt, commanding tone",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10638_yokosu_ex5",
@@ -56,7 +64,9 @@
       "english": "I was told to hand over the money.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10638_yokosu_ex6",
@@ -64,7 +74,9 @@
       "english": "The kids are clamoring, \"Give us snacks!\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{寄越|よこ}す.\n\nUSAGE:\nThis verb describes things or people being sent toward the speaker. The imperative form {寄越|よこ}せ is commonly used as a blunt demand. The verb always implies movement toward the speaker's location or benefit.\n\nCOMMON COLLOCATIONS:\n・{手紙|てがみ}を{寄越|よこ}す (to send a letter)\n・{返事|へんじ}を{寄越|よこ}す (to send a reply)\n・{人|ひと}を{寄越|よこ}す (to send someone over)\n・{寄越|よこ}せ (hand it over — imperative)",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["transfer", "communication"]
+      "semantic": [
+        "transfer",
+        "communication"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{寄越|よこ}す",
+        "negative": "{寄越|よこ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{寄越|よこ}します",
+        "negative": "{寄越|よこ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{寄越|よこ}した",
+        "negative": "{寄越|よこ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{寄越|よこ}しました",
+        "negative": "{寄越|よこ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{寄越|よこ}して",
+        "negative": "{寄越|よこ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{寄越|よこ}している",
+        "negative": "{寄越|よこ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{寄越|よこ}しています",
+        "negative": "{寄越|よこ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{寄越|よこ}していた",
+        "negative": "{寄越|よこ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{寄越|よこ}していました",
+        "negative": "{寄越|よこ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{寄越|よこ}せば",
+        "negative": "{寄越|よこ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{寄越|よこ}したら",
+        "negative": "{寄越|よこ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{寄越|よこ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{寄越|よこ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{寄越|よこ}せる",
+        "negative": "{寄越|よこ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{寄越|よこ}される",
+        "negative": "{寄越|よこ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{寄越|よこ}させる",
+        "negative": "{寄越|よこ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{寄越|よこ}せ",
+        "negative": "{寄越|よこ}すな"
+      }
+    ]
   }
 }

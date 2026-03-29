@@ -19,7 +19,9 @@
       "english": "A subordinate offered advice to the company president.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14512_shingen_ex2",
@@ -27,7 +29,9 @@
       "english": "I intend to advise my boss to reconsider the plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14512_shingen_ex3",
@@ -35,7 +39,9 @@
       "english": "The lord heeded his retainers' counsel and changed his policy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Literally \"advance + words\" — pushing words forward to someone above you. Carries a formal, respectful tone and implies a hierarchical relationship.\n\nCOMMON COLLOCATIONS:\n- {進言|しんげん}する (to offer advice to a superior)\n- {進言|しんげん}を{聞|き}き{入|い}れる (to accept counsel)\n- {進言|しんげん}を{受|う}ける (to receive counsel)\n\nSIMILAR WORDS:\n{助言|じょげん} is general advice with no hierarchical implication, while {進言|しんげん} specifically means advice from a subordinate to a superior. {諫言|かんげん} is stronger — remonstration or critical advice urging a superior to correct a mistake.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{進言|しんげん}する",
+        "negative": "{進言|しんげん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{進言|しんげん}します",
+        "negative": "{進言|しんげん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{進言|しんげん}した",
+        "negative": "{進言|しんげん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{進言|しんげん}しました",
+        "negative": "{進言|しんげん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{進言|しんげん}して",
+        "negative": "{進言|しんげん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{進言|しんげん}している",
+        "negative": "{進言|しんげん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{進言|しんげん}しています",
+        "negative": "{進言|しんげん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{進言|しんげん}していた",
+        "negative": "{進言|しんげん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{進言|しんげん}していました",
+        "negative": "{進言|しんげん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{進言|しんげん}すれば",
+        "negative": "{進言|しんげん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{進言|しんげん}したら",
+        "negative": "{進言|しんげん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{進言|しんげん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{進言|しんげん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{進言|しんげん}できる",
+        "negative": "{進言|しんげん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{進言|しんげん}される",
+        "negative": "{進言|しんげん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{進言|しんげん}させる",
+        "negative": "{進言|しんげん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{進言|しんげん}しろ",
+        "negative": "{進言|しんげん}するな"
+      }
+    ]
   }
 }

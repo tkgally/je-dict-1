@@ -19,7 +19,9 @@
       "english": "To attend to my mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10585_tsukisou_ex2",
@@ -27,7 +29,9 @@
       "english": "I stayed by my hospitalized grandmother's side.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10585_tsukisou_ex3",
@@ -35,7 +39,9 @@
       "english": "A guardian must accompany the child to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-u):\n- Negative: {付|つ}き{添|そ}わない\n- Te-form: {付|つ}き{添|そ}って\n- Past: {付|つ}き{添|そ}った\n\nTRANSITIVITY:\nIntransitive. Takes the particle に to mark the person being accompanied: Xに{付|つ}き{添|そ}う.\n\nCOMMON COLLOCATIONS:\n- {患者|かんじゃ}に{付|つ}き{添|そ}う: to attend to a patient\n- {子供|こども}に{付|つ}き{添|そ}う: to accompany a child\n- {付|つ}き{添|そ}い: attendant, escort (noun form)\n- {付|つ}き{添|そ}い{人|にん}: caregiver, chaperone\n\nUSAGE:\nStronger than simply {一緒|いっしょ}に{行|い}く (going together). Implies a duty of care or protective role, commonly used in medical and childcare contexts.",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-u",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{付|つ}き{添|そ}う",
+        "negative": "{付|つ}き{添|そ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{付|つ}き{添|そ}います",
+        "negative": "{付|つ}き{添|そ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{付|つ}き{添|そ}った",
+        "negative": "{付|つ}き{添|そ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{付|つ}き{添|そ}いました",
+        "negative": "{付|つ}き{添|そ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{付|つ}き{添|そ}って",
+        "negative": "{付|つ}き{添|そ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{付|つ}き{添|そ}っている",
+        "negative": "{付|つ}き{添|そ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{付|つ}き{添|そ}っています",
+        "negative": "{付|つ}き{添|そ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{付|つ}き{添|そ}っていた",
+        "negative": "{付|つ}き{添|そ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{付|つ}き{添|そ}っていました",
+        "negative": "{付|つ}き{添|そ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{付|つ}き{添|そ}えば",
+        "negative": "{付|つ}き{添|そ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{付|つ}き{添|そ}ったら",
+        "negative": "{付|つ}き{添|そ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{付|つ}き{添|そ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{付|つ}き{添|そ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{付|つ}き{添|そ}える",
+        "negative": "{付|つ}き{添|そ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{付|つ}き{添|そ}われる",
+        "negative": "{付|つ}き{添|そ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{付|つ}き{添|そ}わせる",
+        "negative": "{付|つ}き{添|そ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{付|つ}き{添|そ}え",
+        "negative": "{付|つ}き{添|そ}うな"
+      }
+    ]
   }
 }

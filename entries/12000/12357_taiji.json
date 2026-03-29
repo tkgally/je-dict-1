@@ -19,7 +19,9 @@
       "english": "Two armies are facing off against each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12357_taiji_ex2",
@@ -27,7 +29,9 @@
       "english": "One needs the resolve to confront difficulties.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12357_taiji_ex3",
@@ -35,7 +39,9 @@
       "english": "The ruling and opposition parties confronted each other in parliament, and the debate continued until late at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{対|たい} means facing or opposing, and {峙|じ} means to stand tall (like a peak). Originally described mountains standing face to face, then extended to any opposing forces.\n\nCOLLOCATIONS:\n- {問題|もんだい}に{対峙|たいじ}する — to confront a problem\n- {敵|てき}と{対峙|たいじ}する — to face off against an enemy\n- {困難|こんなん}に{対峙|たいじ}する — to confront difficulties\n\nSIMILAR WORDS:\n{対決|たいけつ} implies a decisive showdown or battle. {対立|たいりつ} means opposition or conflict between views or groups. {対峙|たいじ} emphasizes the tense state of facing each other, not necessarily fighting.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "style": ["written"]
+      "semantic": [
+        "general"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{対峙|たいじ}する",
+        "negative": "{対峙|たいじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{対峙|たいじ}します",
+        "negative": "{対峙|たいじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{対峙|たいじ}した",
+        "negative": "{対峙|たいじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{対峙|たいじ}しました",
+        "negative": "{対峙|たいじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{対峙|たいじ}して",
+        "negative": "{対峙|たいじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{対峙|たいじ}している",
+        "negative": "{対峙|たいじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{対峙|たいじ}しています",
+        "negative": "{対峙|たいじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{対峙|たいじ}していた",
+        "negative": "{対峙|たいじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{対峙|たいじ}していました",
+        "negative": "{対峙|たいじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{対峙|たいじ}すれば",
+        "negative": "{対峙|たいじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{対峙|たいじ}したら",
+        "negative": "{対峙|たいじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{対峙|たいじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{対峙|たいじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{対峙|たいじ}できる",
+        "negative": "{対峙|たいじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{対峙|たいじ}される",
+        "negative": "{対峙|たいじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{対峙|たいじ}させる",
+        "negative": "{対峙|たいじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{対峙|たいじ}しろ",
+        "negative": "{対峙|たいじ}するな"
+      }
+    ]
   }
 }

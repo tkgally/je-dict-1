@@ -24,7 +24,9 @@
       "english": "Results come in proportion to effort.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13215_hirei_ex2",
@@ -32,7 +34,9 @@
       "english": "Housing demand is increasing in proportion to population growth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13215_hirei_ex3",
@@ -40,7 +44,9 @@
       "english": "Income and happiness are not necessarily proportional.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13215_hirei_ex4",
@@ -48,7 +54,9 @@
       "english": "Under the proportional representation system, even small parties can easily win seats.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13215_hirei_ex5",
@@ -56,7 +64,9 @@
       "english": "In the election, one can run as a candidate in both proportional representation and single-seat districts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13215_hirei_ex6",
@@ -64,7 +74,9 @@
       "english": "In this election, they won three seats through proportional representation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn the general sense, commonly used with に{比例|ひれい}して (in proportion to). As a suru verb, it means \"to be proportional.\" In the political sense, it is short for {比例|ひれい}{代表|だいひょう} (proportional representation) and is very common in election coverage.\n\nCOMMON COLLOCATIONS:\n- Xに{比例|ひれい}して: in proportion to X\n- {正|せい}{比例|ひれい}: direct proportion\n- {反比例|はんぴれい}: inverse proportion\n- {比例|ひれい}{代表|だいひょう}: proportional representation\n- {比例|ひれい}{区|く}: proportional representation block",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity", "general"]
+      "semantic": [
+        "quantity",
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{比例|ひれい}する",
+        "negative": "{比例|ひれい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{比例|ひれい}します",
+        "negative": "{比例|ひれい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{比例|ひれい}した",
+        "negative": "{比例|ひれい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{比例|ひれい}しました",
+        "negative": "{比例|ひれい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{比例|ひれい}して",
+        "negative": "{比例|ひれい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{比例|ひれい}している",
+        "negative": "{比例|ひれい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{比例|ひれい}しています",
+        "negative": "{比例|ひれい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{比例|ひれい}していた",
+        "negative": "{比例|ひれい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{比例|ひれい}していました",
+        "negative": "{比例|ひれい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{比例|ひれい}すれば",
+        "negative": "{比例|ひれい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{比例|ひれい}したら",
+        "negative": "{比例|ひれい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{比例|ひれい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{比例|ひれい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{比例|ひれい}できる",
+        "negative": "{比例|ひれい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{比例|ひれい}される",
+        "negative": "{比例|ひれい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{比例|ひれい}させる",
+        "negative": "{比例|ひれい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{比例|ひれい}しろ",
+        "negative": "{比例|ひれい}するな"
+      }
+    ]
   }
 }

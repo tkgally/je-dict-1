@@ -19,7 +19,9 @@
       "english": "I finished the large serving completely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12346_kanshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The child was able to eat all of the school lunch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12346_kanshoku_ex3",
@@ -35,7 +39,9 @@
       "english": "If you finish the extra-large size at this ramen shop, it's free.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{完食|かんしょく} is relatively informal and became popular in food-related media and social media. It implies a sense of achievement, as though finishing a meal is a challenge completed.\n\nCOLLOCATIONS:\n- {大盛|おおも}りを{完食|かんしょく}する — to finish a large serving\n- {完食|かんしょく}できる — to be able to eat everything\n- {完食|かんしょく}チャレンジ — eating challenge\n\nNOTE:\n{完食|かんしょく} contrasts with {残|のこ}す (to leave food behind). In Japanese dining culture, leaving food can be seen as wasteful, and {完食|かんしょく} carries a positive connotation of not wasting food.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["consumption"]
+      "semantic": [
+        "consumption"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{完食|かんしょく}する",
+        "negative": "{完食|かんしょく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{完食|かんしょく}します",
+        "negative": "{完食|かんしょく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{完食|かんしょく}した",
+        "negative": "{完食|かんしょく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{完食|かんしょく}しました",
+        "negative": "{完食|かんしょく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{完食|かんしょく}して",
+        "negative": "{完食|かんしょく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{完食|かんしょく}している",
+        "negative": "{完食|かんしょく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{完食|かんしょく}しています",
+        "negative": "{完食|かんしょく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{完食|かんしょく}していた",
+        "negative": "{完食|かんしょく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{完食|かんしょく}していました",
+        "negative": "{完食|かんしょく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{完食|かんしょく}すれば",
+        "negative": "{完食|かんしょく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{完食|かんしょく}したら",
+        "negative": "{完食|かんしょく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{完食|かんしょく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{完食|かんしょく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{完食|かんしょく}できる",
+        "negative": "{完食|かんしょく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{完食|かんしょく}される",
+        "negative": "{完食|かんしょく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{完食|かんしょく}させる",
+        "negative": "{完食|かんしょく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{完食|かんしょく}しろ",
+        "negative": "{完食|かんしょく}するな"
+      }
+    ]
   }
 }

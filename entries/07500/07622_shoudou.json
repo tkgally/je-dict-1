@@ -17,21 +17,27 @@
       "japanese": "{衝動|しょうどう}を{抑|おさ}える。",
       "english": "To suppress an impulse.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07622_shoudou_ex2",
       "japanese": "{衝動|しょうどう}{買|が}いしてしまった。",
       "english": "I ended up making an impulse purchase.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07622_shoudou_ex3",
       "japanese": "{突然|とつぜん}、{泣|な}きたいという{衝動|しょうどう}に{駆|か}られた。",
       "english": "I was suddenly seized by an impulse to cry.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{衝動|しょうどう}を{抑|おさ}える - to suppress an impulse\n・{衝動|しょうどう}に{駆|か}られる - to be seized by an impulse\n・{衝動|しょうどう}に{負|ま}ける - to give in to an impulse\n・{衝動|しょうどう}{買|が}い - impulse buying\n・{衝動|しょうどう}{的|てき} - impulsive\n\nUSAGE NOTES:\nOften used in compound expressions:\n・{衝動|しょうどう}{買|が}い - impulse purchase (very common expression)\n・{衝動|しょうどう}{殺人|さつじん} - impulsive killing (legal term)\n\nThe adjectival form {衝動|しょうどう}{的|てき}（な） means \"impulsive.\"",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["psychology", "emotion"],
-      "domain": []
+      "semantic": [
+        "psychology",
+        "emotion"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{衝動|しょうどう}する",
+        "negative": "{衝動|しょうどう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{衝動|しょうどう}します",
+        "negative": "{衝動|しょうどう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{衝動|しょうどう}した",
+        "negative": "{衝動|しょうどう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{衝動|しょうどう}しました",
+        "negative": "{衝動|しょうどう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{衝動|しょうどう}して",
+        "negative": "{衝動|しょうどう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{衝動|しょうどう}している",
+        "negative": "{衝動|しょうどう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{衝動|しょうどう}しています",
+        "negative": "{衝動|しょうどう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{衝動|しょうどう}していた",
+        "negative": "{衝動|しょうどう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{衝動|しょうどう}していました",
+        "negative": "{衝動|しょうどう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{衝動|しょうどう}すれば",
+        "negative": "{衝動|しょうどう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{衝動|しょうどう}したら",
+        "negative": "{衝動|しょうどう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{衝動|しょうどう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{衝動|しょうどう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{衝動|しょうどう}できる",
+        "negative": "{衝動|しょうどう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{衝動|しょうどう}される",
+        "negative": "{衝動|しょうどう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{衝動|しょうどう}させる",
+        "negative": "{衝動|しょうどう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{衝動|しょうどう}しろ",
+        "negative": "{衝動|しょうどう}するな"
+      }
+    ]
   }
 }

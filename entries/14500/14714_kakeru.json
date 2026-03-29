@@ -24,7 +24,9 @@
       "english": "Children are running around the park.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14714_kakeru_ex2",
@@ -32,7 +34,9 @@
       "english": "I dashed up the stairs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14714_kakeru_ex3",
@@ -40,7 +44,9 @@
       "english": "Upon hearing the news, he rushed to the hospital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14714_kakeru_ex4",
@@ -48,7 +54,9 @@
       "english": "A horse is galloping across the field.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14714_kakeru_ex5",
@@ -56,7 +64,9 @@
       "english": "The general galloped toward the battlefield.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14714_kakeru_ex6",
@@ -64,7 +74,9 @@
       "english": "The jockey spurred the thoroughbred on, racing past the spectators in a flash.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "An ichidan verb. More dynamic and literary than {走|はし}る (to run). Often appears in compound verbs.\n\nCOMMON COMPOUND VERBS:\n- {駆|か}け{上|あ}がる (dash up)\n- {駆|か}け{下|お}りる (dash down)\n- {駆|か}けつける (rush to the scene)\n- {駆|か}け{抜|ぬ}ける (dash through)\n- {駆|か}け{回|まわ}る (run around)\n- {駆|か}け{込|こ}む (rush into)\n\nSIMILAR WORDS:\n{走|はし}る is the standard neutral word for running. {駆|か}ける is more vivid and implies speed, urgency, or dynamic motion. {疾走|しっそう}する is even more formal and literary.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{駆|か}ける",
+        "negative": "{駆|か}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{駆|か}けます",
+        "negative": "{駆|か}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{駆|か}けた",
+        "negative": "{駆|か}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{駆|か}けました",
+        "negative": "{駆|か}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{駆|か}けて",
+        "negative": "{駆|か}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{駆|か}けている",
+        "negative": "{駆|か}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{駆|か}けています",
+        "negative": "{駆|か}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{駆|か}けていた",
+        "negative": "{駆|か}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{駆|か}けていました",
+        "negative": "{駆|か}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{駆|か}ければ",
+        "negative": "{駆|か}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{駆|か}けたら",
+        "negative": "{駆|か}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{駆|か}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{駆|か}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{駆|か}けられる",
+        "negative": "{駆|か}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{駆|か}けられる",
+        "negative": "{駆|か}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{駆|か}けさせる",
+        "negative": "{駆|か}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{駆|か}けろ",
+        "negative": "{駆|か}けるな"
+      }
+    ]
   }
 }

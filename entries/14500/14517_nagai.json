@@ -19,7 +19,9 @@
       "english": "Sorry for staying so long.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14517_nagai_ex2",
@@ -27,7 +29,9 @@
       "english": "I feel bad about staying too long at a café.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14517_nagai_ex3",
@@ -35,7 +39,9 @@
       "english": "The conversation was so lively that I ended up staying too long.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {長|なが} (long) + {居|い} (staying/being). Implies staying longer than socially expected or appropriate.\n\nCOMMON COLLOCATIONS:\n- {長居|ながい}する (to overstay)\n- {長居|ながい}してすみません (sorry for staying so long)\n- {長居|ながい}は{無用|むよう} (no need to stay long — a polite way to suggest leaving)\n\nUSAGE NOTE:\n{長居|ながい}してすみません is a very common phrase used when leaving someone's home or a shop. It shows awareness that one may have imposed on the host's time or space.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{長居|ながい}する",
+        "negative": "{長居|ながい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{長居|ながい}します",
+        "negative": "{長居|ながい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{長居|ながい}した",
+        "negative": "{長居|ながい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{長居|ながい}しました",
+        "negative": "{長居|ながい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{長居|ながい}して",
+        "negative": "{長居|ながい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{長居|ながい}している",
+        "negative": "{長居|ながい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{長居|ながい}しています",
+        "negative": "{長居|ながい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{長居|ながい}していた",
+        "negative": "{長居|ながい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{長居|ながい}していました",
+        "negative": "{長居|ながい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{長居|ながい}すれば",
+        "negative": "{長居|ながい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{長居|ながい}したら",
+        "negative": "{長居|ながい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{長居|ながい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{長居|ながい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{長居|ながい}できる",
+        "negative": "{長居|ながい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{長居|ながい}される",
+        "negative": "{長居|ながい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{長居|ながい}させる",
+        "negative": "{長居|ながい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{長居|ながい}しろ",
+        "negative": "{長居|ながい}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The truck was fully loaded with cargo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13320_mansai_ex2",
@@ -27,7 +29,9 @@
       "english": "This magazine is packed with useful information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13320_mansai_ex3",
@@ -35,7 +39,9 @@
       "english": "An event packed with fun activities will be held this weekend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe literal meaning (fully loaded with physical cargo) and the figurative meaning (packed with content) are both very common. The figurative usage is especially frequent in advertising and promotional writing: {情報|じょうほう}{満載|まんさい} (packed with information), {特典|とくてん}{満載|まんさい} (loaded with perks).\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{満載|まんさい}: packed with information\n- {荷物|にもつ}を{満載|まんさい}する: to load to full capacity\n- お{楽|たの}しみ{満載|まんさい}: packed with fun\n- {魅力|みりょく}{満載|まんさい}: full of charm/appeal",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{満載|まんさい}する",
+        "negative": "{満載|まんさい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{満載|まんさい}します",
+        "negative": "{満載|まんさい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{満載|まんさい}した",
+        "negative": "{満載|まんさい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{満載|まんさい}しました",
+        "negative": "{満載|まんさい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{満載|まんさい}して",
+        "negative": "{満載|まんさい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{満載|まんさい}している",
+        "negative": "{満載|まんさい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{満載|まんさい}しています",
+        "negative": "{満載|まんさい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{満載|まんさい}していた",
+        "negative": "{満載|まんさい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{満載|まんさい}していました",
+        "negative": "{満載|まんさい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{満載|まんさい}すれば",
+        "negative": "{満載|まんさい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{満載|まんさい}したら",
+        "negative": "{満載|まんさい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{満載|まんさい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{満載|まんさい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{満載|まんさい}できる",
+        "negative": "{満載|まんさい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{満載|まんさい}される",
+        "negative": "{満載|まんさい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{満載|まんさい}させる",
+        "negative": "{満載|まんさい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{満載|まんさい}しろ",
+        "negative": "{満載|まんさい}するな"
+      }
+    ]
   }
 }

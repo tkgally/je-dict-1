@@ -16,7 +16,9 @@
       "id": "10031_bubetsu_ex1",
       "japanese": "{侮蔑|ぶべつ}の{目|め}で{見|み}る。",
       "english": "To look at with contempt.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10031_bubetsu_ex2",
       "japanese": "{相手|あいて}を{侮蔑|ぶべつ}するような{態度|たいど}。",
       "english": "An attitude that shows contempt for the other person.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10031_bubetsu_ex3",
       "japanese": "{侮蔑|ぶべつ}を{込|こ}めた{笑|わら}い。",
       "english": "A laugh filled with disdain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "10031_bubetsu_ex4",
       "japanese": "{人|ひと}を{侮蔑|ぶべつ}するような{発言|はつげん}は{許|ゆる}されない。",
       "english": "Remarks that show contempt for others are not acceptable.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,10 +61,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "interpersonal"]
+      "semantic": [
+        "emotion",
+        "interpersonal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{侮蔑|ぶべつ}する",
+        "negative": "{侮蔑|ぶべつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{侮蔑|ぶべつ}します",
+        "negative": "{侮蔑|ぶべつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{侮蔑|ぶべつ}した",
+        "negative": "{侮蔑|ぶべつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{侮蔑|ぶべつ}しました",
+        "negative": "{侮蔑|ぶべつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{侮蔑|ぶべつ}して",
+        "negative": "{侮蔑|ぶべつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{侮蔑|ぶべつ}している",
+        "negative": "{侮蔑|ぶべつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{侮蔑|ぶべつ}しています",
+        "negative": "{侮蔑|ぶべつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{侮蔑|ぶべつ}していた",
+        "negative": "{侮蔑|ぶべつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{侮蔑|ぶべつ}していました",
+        "negative": "{侮蔑|ぶべつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{侮蔑|ぶべつ}すれば",
+        "negative": "{侮蔑|ぶべつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{侮蔑|ぶべつ}したら",
+        "negative": "{侮蔑|ぶべつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{侮蔑|ぶべつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{侮蔑|ぶべつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{侮蔑|ぶべつ}できる",
+        "negative": "{侮蔑|ぶべつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{侮蔑|ぶべつ}される",
+        "negative": "{侮蔑|ぶべつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{侮蔑|ぶべつ}させる",
+        "negative": "{侮蔑|ぶべつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{侮蔑|ぶべつ}しろ",
+        "negative": "{侮蔑|ぶべつ}するな"
+      }
+    ]
   }
 }

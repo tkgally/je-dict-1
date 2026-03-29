@@ -24,7 +24,9 @@
       "english": "Take one step forward.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14283_fumidasu_ex2",
@@ -32,7 +34,9 @@
       "english": "Please do not step past the white line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14283_fumidasu_ex3",
@@ -40,7 +44,9 @@
       "english": "She took a strong step toward the stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14283_fumidasu_ex4",
@@ -48,7 +54,9 @@
       "english": "To step into a new world.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14283_fumidasu_ex5",
@@ -56,7 +64,9 @@
       "english": "I gathered my courage and took the first step.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14283_fumidasu_ex6",
@@ -64,7 +74,9 @@
       "english": "I finally decided to take the first step toward my long-held dream of going independent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{踏|ふ}み{出|だ}す is a transitive godan verb. Compound of {踏|ふ}む (to step on) + {出|だ}す (to put out). Sense 2 is very common in motivational and life-change contexts.\n\nASPECT (ている):\nRarely used in the ている form since it describes a momentary action.\n\nPARTICLE PATTERNS:\n- {一歩|いっぽ}を{踏|ふ}み{出|だ}す (take a step)\n- ～へ{踏|ふ}み{出|だ}す (step out toward)\n- ～から{踏|ふ}み{出|だ}す (step out from)\n\nCOMMON COLLOCATIONS:\n- {一歩|いっぽ}を{踏|ふ}み{出|だ}す (take the first step)\n- {最初|さいしょ}の{一歩|いっぽ}を{踏|ふ}み{出|だ}す (take the very first step)\n- {新|あたら}しい{一歩|いっぽ}を{踏|ふ}み{出|だ}す (take a new step forward)\n\nSIMILAR WORDS:\n- {踏|ふ}み{込|こ}む: to step into, to tread into (entering a place or situation more deeply)\n- {乗|の}り{出|だ}す: to set out, to embark (emphasizes beginning an active venture)",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{踏|ふ}み{出|だ}す",
+        "negative": "{踏|ふ}み{出|だ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{踏|ふ}み{出|だ}します",
+        "negative": "{踏|ふ}み{出|だ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{踏|ふ}み{出|だ}した",
+        "negative": "{踏|ふ}み{出|だ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{踏|ふ}み{出|だ}しました",
+        "negative": "{踏|ふ}み{出|だ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{踏|ふ}み{出|だ}して",
+        "negative": "{踏|ふ}み{出|だ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{踏|ふ}み{出|だ}している",
+        "negative": "{踏|ふ}み{出|だ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{踏|ふ}み{出|だ}しています",
+        "negative": "{踏|ふ}み{出|だ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{踏|ふ}み{出|だ}していた",
+        "negative": "{踏|ふ}み{出|だ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{踏|ふ}み{出|だ}していました",
+        "negative": "{踏|ふ}み{出|だ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{踏|ふ}み{出|だ}せば",
+        "negative": "{踏|ふ}み{出|だ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{踏|ふ}み{出|だ}したら",
+        "negative": "{踏|ふ}み{出|だ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{踏|ふ}み{出|だ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{踏|ふ}み{出|だ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{踏|ふ}み{出|だ}せる",
+        "negative": "{踏|ふ}み{出|だ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{踏|ふ}み{出|だ}される",
+        "negative": "{踏|ふ}み{出|だ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{踏|ふ}み{出|だ}させる",
+        "negative": "{踏|ふ}み{出|だ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{踏|ふ}み{出|だ}せ",
+        "negative": "{踏|ふ}み{出|だ}すな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I was moved and got teary-eyed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14952_namidagumu_ex2",
@@ -27,7 +29,9 @@
       "english": "The teacher was getting teary-eyed at the graduation ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14952_namidagumu_ex3",
@@ -35,7 +39,9 @@
       "english": "Seeing a friend I hadn't met in a long time, I couldn't help but well up with tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Describes the state just before actual crying — tears forming in the eyes. More restrained than {泣|な}く (to cry).\n\nCOMMON COLLOCATIONS:\n- {感動|かんどう}して{涙|なみだ}ぐむ (to be moved to tears)\n- {思|おも}わず{涙|なみだ}ぐむ (to involuntarily get teary-eyed)\n- {涙|なみだ}ぐむ{声|こえ} (a voice choked with tears)\n\nUSAGE NOTE:\n{涙|なみだ}ぐむ is intransitive and focuses on the involuntary emotional response of tears welling up. It is more literary and expressive than simply saying {涙|なみだ}が{出|で}る (tears come out).",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{涙|なみだ}ぐむ",
+        "negative": "{涙|なみだ}ぐまない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{涙|なみだ}ぐみます",
+        "negative": "{涙|なみだ}ぐみません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{涙|なみだ}ぐんだ",
+        "negative": "{涙|なみだ}ぐまなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{涙|なみだ}ぐみました",
+        "negative": "{涙|なみだ}ぐみませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{涙|なみだ}ぐんで",
+        "negative": "{涙|なみだ}ぐまなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{涙|なみだ}ぐんでいる",
+        "negative": "{涙|なみだ}ぐんでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{涙|なみだ}ぐんでいます",
+        "negative": "{涙|なみだ}ぐんでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{涙|なみだ}ぐんでいた",
+        "negative": "{涙|なみだ}ぐんでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{涙|なみだ}ぐんでいました",
+        "negative": "{涙|なみだ}ぐんでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{涙|なみだ}ぐめば",
+        "negative": "{涙|なみだ}ぐまなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{涙|なみだ}ぐんだら",
+        "negative": "{涙|なみだ}ぐまなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{涙|なみだ}ぐもう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{涙|なみだ}ぐみましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{涙|なみだ}ぐめる",
+        "negative": "{涙|なみだ}ぐめない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{涙|なみだ}ぐまれる",
+        "negative": "{涙|なみだ}ぐまれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{涙|なみだ}ぐませる",
+        "negative": "{涙|なみだ}ぐませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{涙|なみだ}ぐめ",
+        "negative": "{涙|なみだ}ぐむな"
+      }
+    ]
   }
 }

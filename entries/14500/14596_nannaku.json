@@ -19,7 +19,9 @@
       "english": "I passed the exam without difficulty.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14596_nannaku_ex2",
@@ -27,7 +29,9 @@
       "english": "He solved the problem with no trouble.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14596_nannaku_ex3",
@@ -35,7 +39,9 @@
       "english": "Thanks to thorough preparation, the presentation went off without a hitch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{難|なん}なく is formed from {難|なん} (difficulty) + なく (without). It modifies verbs of accomplishment and implies the result was smoother than might have been expected. It is neutral to slightly formal in register.\n\nCOMMON COLLOCATIONS:\n- {難|なん}なく{合格|ごうかく}する (to pass without difficulty)\n- {難|なん}なく{成功|せいこう}する (to succeed easily)\n- {難|なん}なく{解決|かいけつ}する (to resolve without trouble)\n- {難|なん}なくこなす (to handle with ease)\n- {難|なん}なく{突破|とっぱ}する (to break through easily)\n\nSIMILAR WORDS:\n- {難|なん}なく: without difficulty (implies overcoming a potential challenge)\n- {簡単|かんたん}に: easily (straightforward, no nuance of challenge)\n- {楽|らく}に: with ease, comfortably (emphasizes lack of effort)",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{難|なん}なく",
+        "negative": "{難|なん}なかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{難|なん}なきます",
+        "negative": "{難|なん}なきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{難|なん}ないた",
+        "negative": "{難|なん}なかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{難|なん}なきました",
+        "negative": "{難|なん}なきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{難|なん}ないて",
+        "negative": "{難|なん}なかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{難|なん}ないている",
+        "negative": "{難|なん}ないていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{難|なん}ないています",
+        "negative": "{難|なん}ないていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{難|なん}ないていた",
+        "negative": "{難|なん}ないていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{難|なん}ないていました",
+        "negative": "{難|なん}ないていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{難|なん}なけば",
+        "negative": "{難|なん}なかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{難|なん}ないたら",
+        "negative": "{難|なん}なかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{難|なん}なこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{難|なん}なきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{難|なん}なける",
+        "negative": "{難|なん}なけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{難|なん}なかれる",
+        "negative": "{難|なん}なかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{難|なん}なかせる",
+        "negative": "{難|なん}なかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{難|なん}なけ",
+        "negative": "{難|なん}なくな"
+      }
+    ]
   }
 }

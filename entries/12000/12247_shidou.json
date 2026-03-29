@@ -24,7 +24,9 @@
       "english": "To start up the engine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12247_shidou_ex2",
@@ -32,7 +34,9 @@
       "english": "On cold mornings, it takes time to start the car.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12247_shidou_ex3",
@@ -40,7 +44,9 @@
       "english": "An error appeared when the computer started up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12247_shidou_ex4",
@@ -48,7 +54,9 @@
       "english": "A new project has launched.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12247_shidou_ex5",
@@ -56,7 +64,9 @@
       "english": "Starting next month, the reconstruction plan will launch in earnest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12247_shidou_ex6",
@@ -64,7 +74,9 @@
       "english": "The government's new economic measures have finally been set in motion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both literally for machines and figuratively for projects or initiatives. The literal sense (starting an engine) is the original meaning; the figurative sense (launching a project) is common in business and news contexts.\n\nCOMMON COLLOCATIONS:\n- エンジンを{始動|しどう}する: to start an engine\n- {始動|しどう}をかける: to initiate startup\n- プロジェクトが{始動|しどう}する: a project launches\n- {本格的|ほんかくてき}に{始動|しどう}する: to launch in earnest\n\nSIMILAR WORDS:\n{起動|きどう} is used specifically for electronic devices and software (booting a computer). {始動|しどう} is broader and applies to engines, machines, and figurative starts.",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{始動|しどう}する",
+        "negative": "{始動|しどう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{始動|しどう}します",
+        "negative": "{始動|しどう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{始動|しどう}した",
+        "negative": "{始動|しどう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{始動|しどう}しました",
+        "negative": "{始動|しどう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{始動|しどう}して",
+        "negative": "{始動|しどう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{始動|しどう}している",
+        "negative": "{始動|しどう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{始動|しどう}しています",
+        "negative": "{始動|しどう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{始動|しどう}していた",
+        "negative": "{始動|しどう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{始動|しどう}していました",
+        "negative": "{始動|しどう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{始動|しどう}すれば",
+        "negative": "{始動|しどう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{始動|しどう}したら",
+        "negative": "{始動|しどう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{始動|しどう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{始動|しどう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{始動|しどう}できる",
+        "negative": "{始動|しどう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{始動|しどう}される",
+        "negative": "{始動|しどう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{始動|しどう}させる",
+        "negative": "{始動|しどう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{始動|しどう}しろ",
+        "negative": "{始動|しどう}するな"
+      }
+    ]
   }
 }

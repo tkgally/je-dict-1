@@ -19,7 +19,9 @@
       "english": "Please don't rush me like that.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12596_sekasu_ex2",
@@ -27,7 +29,9 @@
       "english": "My mother rushed me out of the house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12596_sekasu_ex3",
@@ -35,7 +39,9 @@
       "english": "When the deadline is approaching, my boss rushes me almost every day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlways directed at another person — you {急|せ}かす someone else. Often appears in the passive form {急|せ}かされる (to be rushed by someone). Carries a mildly negative nuance of unwanted pressure.\n\nGRAMMAR:\nGodan verb ending in す. Transitive — takes を for the person being rushed: Xを{急|せ}かす.\n\nCOMMON COLLOCATIONS:\n- {急|せ}かさないで: don't rush me\n- {急|せ}かされる: to be rushed (passive)\n- {返事|へんじ}を{急|せ}かす: to press for a reply",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{急|せ}かす",
+        "negative": "{急|せ}かさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{急|せ}かします",
+        "negative": "{急|せ}かしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{急|せ}かした",
+        "negative": "{急|せ}かさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{急|せ}かしました",
+        "negative": "{急|せ}かしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{急|せ}かして",
+        "negative": "{急|せ}かさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{急|せ}かしている",
+        "negative": "{急|せ}かしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{急|せ}かしています",
+        "negative": "{急|せ}かしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{急|せ}かしていた",
+        "negative": "{急|せ}かしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{急|せ}かしていました",
+        "negative": "{急|せ}かしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{急|せ}かせば",
+        "negative": "{急|せ}かさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{急|せ}かしたら",
+        "negative": "{急|せ}かさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{急|せ}かそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{急|せ}かしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{急|せ}かせる",
+        "negative": "{急|せ}かせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{急|せ}かされる",
+        "negative": "{急|せ}かされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{急|せ}かさせる",
+        "negative": "{急|せ}かさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{急|せ}かせ",
+        "negative": "{急|せ}かすな"
+      }
+    ]
   }
 }

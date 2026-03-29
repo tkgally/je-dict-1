@@ -19,7 +19,9 @@
       "english": "The castle fell.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14594_kanraku_ex2",
@@ -27,7 +29,9 @@
       "english": "The war ended with the fall of the capital.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14594_kanraku_ex3",
@@ -35,7 +39,9 @@
       "english": "After a long siege, the fortress finally fell, and the defenders surrendered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{陥落|かんらく} is primarily a military and historical term for the fall of a fortified position. It is also used figuratively — for example, someone \"falling\" to persuasion ({口説|くど}き{落|お}とす) may be described as {陥落|かんらく}.\n\nCOMMON COLLOCATIONS:\n- {城|しろ}が{陥落|かんらく}する (the castle falls)\n- {首都|しゅと}の{陥落|かんらく} (the fall of the capital)\n- {要塞|ようさい}が{陥落|かんらく}する (the fortress falls)\n- {陥落|かんらく}させる (to capture; to cause to fall)\n\nSIMILAR WORDS:\n- {陥落|かんらく}: fall of a fortress/city (military defeat)\n- {降伏|こうふく}: surrender (formally giving up)\n- {落城|らくじょう}: fall of a castle (more specific to castles)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{陥落|かんらく}する",
+        "negative": "{陥落|かんらく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{陥落|かんらく}します",
+        "negative": "{陥落|かんらく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{陥落|かんらく}した",
+        "negative": "{陥落|かんらく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{陥落|かんらく}しました",
+        "negative": "{陥落|かんらく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{陥落|かんらく}して",
+        "negative": "{陥落|かんらく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{陥落|かんらく}している",
+        "negative": "{陥落|かんらく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{陥落|かんらく}しています",
+        "negative": "{陥落|かんらく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{陥落|かんらく}していた",
+        "negative": "{陥落|かんらく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{陥落|かんらく}していました",
+        "negative": "{陥落|かんらく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{陥落|かんらく}すれば",
+        "negative": "{陥落|かんらく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{陥落|かんらく}したら",
+        "negative": "{陥落|かんらく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{陥落|かんらく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{陥落|かんらく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{陥落|かんらく}できる",
+        "negative": "{陥落|かんらく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{陥落|かんらく}される",
+        "negative": "{陥落|かんらく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{陥落|かんらく}させる",
+        "negative": "{陥落|かんらく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{陥落|かんらく}しろ",
+        "negative": "{陥落|かんらく}するな"
+      }
+    ]
   }
 }

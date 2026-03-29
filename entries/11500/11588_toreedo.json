@@ -24,7 +24,9 @@
       "english": "The player was traded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11588_toreedo_ex2",
@@ -32,7 +34,9 @@
       "english": "There are rumors of a trade.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11588_toreedo_ex3",
@@ -40,7 +44,9 @@
       "english": "A major trade was completed just before the deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11588_toreedo_ex4",
@@ -48,7 +54,9 @@
       "english": "To trade cards.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11588_toreedo_ex5",
@@ -56,7 +64,9 @@
       "english": "I collect trading cards.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11588_toreedo_ex6",
@@ -64,7 +74,9 @@
       "english": "I traded game items with a friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese, トレード is primarily associated with sports (player trades) and collecting (card trading). For general commerce, {貿易|ぼうえき} (international trade) or {取引|とりひき} (business transaction) is used instead.\n\nCOMMON COLLOCATIONS:\n- トレードする: to trade\n- {大型|おおがた}トレード: major trade\n- トレード{期限|きげん}: trade deadline\n- トレーディングカード: trading card\n- トレードマーク: trademark (often figurative: someone's signature characteristic)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "トレードする",
+        "negative": "トレードしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "トレードします",
+        "negative": "トレードしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "トレードした",
+        "negative": "トレードしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "トレードしました",
+        "negative": "トレードしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "トレードして",
+        "negative": "トレードしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "トレードしている",
+        "negative": "トレードしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "トレードしています",
+        "negative": "トレードしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "トレードしていた",
+        "negative": "トレードしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "トレードしていました",
+        "negative": "トレードしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "トレードすれば",
+        "negative": "トレードしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "トレードしたら",
+        "negative": "トレードしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "トレードしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "トレードしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "トレードできる",
+        "negative": "トレードできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "トレードされる",
+        "negative": "トレードされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "トレードさせる",
+        "negative": "トレードさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "トレードしろ",
+        "negative": "トレードするな"
+      }
+    ]
   }
 }

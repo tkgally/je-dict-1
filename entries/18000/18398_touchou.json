@@ -19,7 +19,9 @@
       "english": "I summited Everest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18398_touchou_ex2",
@@ -27,7 +29,9 @@
       "english": "We gave up the summit attempt due to bad weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18398_touchou_ex3",
@@ -35,7 +39,9 @@
       "english": "She is the first Japanese woman to have summited all of the world's 8,000-meter peaks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "PATTERN:\n～に{登頂|とうちょう}する (to summit ~)\n\nCOMMON COLLOCATIONS:\n- {登頂|とうちょう}に{成功|せいこう}する (to successfully reach the summit)\n- {登頂|とうちょう}を{断念|だんねん}する (to give up the summit attempt)\n- {登頂|とうちょう}を{果|は}たす (to achieve the summit)\n- {初|はつ}{登頂|とうちょう} (first ascent)\n- {単独|たんどく}{登頂|とうちょう} (solo summit)\n- {無|む}{酸素|さんそ}{登頂|とうちょう} (summit without supplemental oxygen)\n\nSIMILAR WORDS:\n- {登山|とざん}: Mountain climbing — the general activity, not specifically reaching the peak.\n- {山頂|さんちょう}: The summit/peak itself — a noun referring to the location, not the act of reaching it.",
@@ -46,11 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure", "movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "leisure",
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{登頂|とうちょう}する",
+        "negative": "{登頂|とうちょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{登頂|とうちょう}します",
+        "negative": "{登頂|とうちょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{登頂|とうちょう}した",
+        "negative": "{登頂|とうちょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{登頂|とうちょう}しました",
+        "negative": "{登頂|とうちょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{登頂|とうちょう}して",
+        "negative": "{登頂|とうちょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{登頂|とうちょう}している",
+        "negative": "{登頂|とうちょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{登頂|とうちょう}しています",
+        "negative": "{登頂|とうちょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{登頂|とうちょう}していた",
+        "negative": "{登頂|とうちょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{登頂|とうちょう}していました",
+        "negative": "{登頂|とうちょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{登頂|とうちょう}すれば",
+        "negative": "{登頂|とうちょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{登頂|とうちょう}したら",
+        "negative": "{登頂|とうちょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{登頂|とうちょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{登頂|とうちょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{登頂|とうちょう}できる",
+        "negative": "{登頂|とうちょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{登頂|とうちょう}される",
+        "negative": "{登頂|とうちょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{登頂|とうちょう}させる",
+        "negative": "{登頂|とうちょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{登頂|とうちょう}しろ",
+        "negative": "{登頂|とうちょう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I gave a silent nod as we passed each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13747_mokurei_ex2",
@@ -27,7 +29,9 @@
       "english": "Since the meeting was in progress, he just gave a silent nod and took his seat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13747_mokurei_ex3",
@@ -35,7 +39,9 @@
       "english": "I made eye contact with my boss in the hallway, and we exchanged a silent nod.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {目|もく} (eye) and {礼|れい} (bow, greeting). Used when a full verbal greeting or deep bow would be inappropriate — for example, during a meeting, in a quiet space, or when passing someone in a hallway. A refined and understated form of acknowledgment.\n\nCOMMON COLLOCATIONS:\n- {目礼|もくれい}する: to give a silent nod\n- {目礼|もくれい}を{交|か}わす: to exchange silent nods\n- {軽|かる}く{目礼|もくれい}する: to give a slight nod of acknowledgment",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目礼|もくれい}する",
+        "negative": "{目礼|もくれい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目礼|もくれい}します",
+        "negative": "{目礼|もくれい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目礼|もくれい}した",
+        "negative": "{目礼|もくれい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目礼|もくれい}しました",
+        "negative": "{目礼|もくれい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目礼|もくれい}して",
+        "negative": "{目礼|もくれい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目礼|もくれい}している",
+        "negative": "{目礼|もくれい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目礼|もくれい}しています",
+        "negative": "{目礼|もくれい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目礼|もくれい}していた",
+        "negative": "{目礼|もくれい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目礼|もくれい}していました",
+        "negative": "{目礼|もくれい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目礼|もくれい}すれば",
+        "negative": "{目礼|もくれい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目礼|もくれい}したら",
+        "negative": "{目礼|もくれい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目礼|もくれい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目礼|もくれい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目礼|もくれい}できる",
+        "negative": "{目礼|もくれい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目礼|もくれい}される",
+        "negative": "{目礼|もくれい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目礼|もくれい}させる",
+        "negative": "{目礼|もくれい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目礼|もくれい}しろ",
+        "negative": "{目礼|もくれい}するな"
+      }
+    ]
   }
 }

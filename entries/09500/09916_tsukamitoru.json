@@ -23,7 +23,9 @@
       "english": "I grabbed the ball that came flying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09916_tsukamitoru_ex2",
@@ -31,7 +33,9 @@
       "english": "He grabbed the other person's arm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09916_tsukamitoru_ex3",
@@ -39,7 +43,9 @@
       "english": "I caught a falling leaf in midair.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09916_tsukamitoru_ex4",
@@ -47,7 +53,9 @@
       "english": "To seize the opportunity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09916_tsukamitoru_ex5",
@@ -55,7 +63,9 @@
       "english": "They seized victory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09916_tsukamitoru_ex6",
@@ -63,7 +73,9 @@
       "english": "She achieved success through her own efforts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "A compound verb combining {掴|つか}む (to grab) and {取|と}る (to take), emphasizing decisive action.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n\nCOMMON PATTERNS:\n- チャンスを{掴|つか}み{取|と}る (to seize an opportunity)\n- {勝利|しょうり}を{掴|つか}み{取|と}る (to seize victory)\n- {夢|ゆめ}を{掴|つか}み{取|と}る (to achieve one's dreams)\n\nRELATED TERMS:\n- {掴|つか}む: to grab\n- {獲得|かくとく}する: to acquire\n- {手|て}に{入|い}れる: to obtain",
@@ -73,10 +85,105 @@
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{掴|つか}み{取|と}る",
+        "negative": "{掴|つか}み{取|と}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{掴|つか}み{取|と}ります",
+        "negative": "{掴|つか}み{取|と}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{掴|つか}み{取|と}った",
+        "negative": "{掴|つか}み{取|と}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{掴|つか}み{取|と}りました",
+        "negative": "{掴|つか}み{取|と}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{掴|つか}み{取|と}って",
+        "negative": "{掴|つか}み{取|と}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{掴|つか}み{取|と}っている",
+        "negative": "{掴|つか}み{取|と}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{掴|つか}み{取|と}っています",
+        "negative": "{掴|つか}み{取|と}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{掴|つか}み{取|と}っていた",
+        "negative": "{掴|つか}み{取|と}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{掴|つか}み{取|と}っていました",
+        "negative": "{掴|つか}み{取|と}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{掴|つか}み{取|と}れば",
+        "negative": "{掴|つか}み{取|と}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{掴|つか}み{取|と}ったら",
+        "negative": "{掴|つか}み{取|と}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{掴|つか}み{取|と}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{掴|つか}み{取|と}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{掴|つか}み{取|と}れる",
+        "negative": "{掴|つか}み{取|と}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{掴|つか}み{取|と}られる",
+        "negative": "{掴|つか}み{取|と}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{掴|つか}み{取|と}らせる",
+        "negative": "{掴|つか}み{取|と}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{掴|つか}み{取|と}れ",
+        "negative": "{掴|つか}み{取|と}るな"
+      }
+    ]
   }
 }

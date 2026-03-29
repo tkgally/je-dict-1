@@ -19,7 +19,9 @@
       "english": "The two of them were having a secret talk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17980_mitsudan_ex2",
@@ -27,7 +29,9 @@
       "english": "It seems some kind of secret discussion is going on in the meeting room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17980_mitsudan_ex3",
@@ -35,7 +39,9 @@
       "english": "It was reported that the politicians had been exchanging secret talks at a traditional restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften carries a slightly suspicious or clandestine nuance. Common in political, business, and dramatic contexts. In Japanese political culture, secret meetings at {料亭|りょうてい} (traditional restaurants) are a well-known trope.\n\nCOMMON COLLOCATIONS:\n- {密談|みつだん}を{交|か}わす (exchange secret talks)\n- {密談|みつだん}が{行|おこな}われる (secret discussions take place)\n- {密談|みつだん}する (have a secret talk)\n- ひそかに{密談|みつだん}する (secretly confer)\n\nSIMILAR WORDS:\n- {内緒話|ないしょばなし}: whispered secret — more casual and everyday, like sharing a personal secret\n- {密会|みっかい}: secret meeting — focuses on the meeting itself rather than the conversation, often implies a romantic affair\n- {相談|そうだん}: consultation — neutral term for discussing something; not secret",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{密談|みつだん}する",
+        "negative": "{密談|みつだん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{密談|みつだん}します",
+        "negative": "{密談|みつだん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{密談|みつだん}した",
+        "negative": "{密談|みつだん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{密談|みつだん}しました",
+        "negative": "{密談|みつだん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{密談|みつだん}して",
+        "negative": "{密談|みつだん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{密談|みつだん}している",
+        "negative": "{密談|みつだん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{密談|みつだん}しています",
+        "negative": "{密談|みつだん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{密談|みつだん}していた",
+        "negative": "{密談|みつだん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{密談|みつだん}していました",
+        "negative": "{密談|みつだん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{密談|みつだん}すれば",
+        "negative": "{密談|みつだん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{密談|みつだん}したら",
+        "negative": "{密談|みつだん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{密談|みつだん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{密談|みつだん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{密談|みつだん}できる",
+        "negative": "{密談|みつだん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{密談|みつだん}される",
+        "negative": "{密談|みつだん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{密談|みつだん}させる",
+        "negative": "{密談|みつだん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{密談|みつだん}しろ",
+        "negative": "{密談|みつだん}するな"
+      }
+    ]
   }
 }

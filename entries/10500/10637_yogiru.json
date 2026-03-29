@@ -24,7 +24,9 @@
       "english": "Anxiety crossed my mind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10637_yogiru_ex2",
@@ -32,7 +34,9 @@
       "english": "An old memory suddenly flashed through my mind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10637_yogiru_ex3",
@@ -40,7 +44,9 @@
       "english": "The worst-case scenario flashed through my mind, and I froze involuntarily.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10637_yogiru_ex4",
@@ -48,7 +54,9 @@
       "english": "A shadow passed before my eyes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10637_yogiru_ex5",
@@ -56,7 +64,9 @@
       "english": "A bird flew past outside the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10637_yogiru_ex6",
@@ -64,7 +74,9 @@
       "english": "For a split second, I felt like something had crossed my field of vision.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xが（{頭|あたま}を）{過|よぎ}る.\n\nUSAGE:\nSense 1 is much more common than sense 2 in modern Japanese. The typical pattern is 「{頭|あたま}を{過|よぎ}る」 or 「{脳裏|のうり}を{過|よぎ}る」. The subject is usually something abstract like a thought, memory, fear, or premonition.\n\nCOMMON COLLOCATIONS:\n・{不安|ふあん}が{頭|あたま}を{過|よぎ}る (anxiety crosses one's mind)\n・{記憶|きおく}が{過|よぎ}る (a memory flashes by)\n・{脳裏|のうり}を{過|よぎ}る (to flash through one's mind)\n・{嫌|いや}な{予感|よかん}が{過|よぎ}る (a bad feeling crosses one's mind)",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["thought", "movement"]
+      "semantic": [
+        "thought",
+        "movement"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{過|よぎ}る",
+        "negative": "{過|よぎ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{過|よぎ}ります",
+        "negative": "{過|よぎ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{過|よぎ}った",
+        "negative": "{過|よぎ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{過|よぎ}りました",
+        "negative": "{過|よぎ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{過|よぎ}って",
+        "negative": "{過|よぎ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{過|よぎ}っている",
+        "negative": "{過|よぎ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{過|よぎ}っています",
+        "negative": "{過|よぎ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{過|よぎ}っていた",
+        "negative": "{過|よぎ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{過|よぎ}っていました",
+        "negative": "{過|よぎ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{過|よぎ}れば",
+        "negative": "{過|よぎ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{過|よぎ}ったら",
+        "negative": "{過|よぎ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{過|よぎ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{過|よぎ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{過|よぎ}れる",
+        "negative": "{過|よぎ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{過|よぎ}られる",
+        "negative": "{過|よぎ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{過|よぎ}らせる",
+        "negative": "{過|よぎ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{過|よぎ}れ",
+        "negative": "{過|よぎ}るな"
+      }
+    ]
   }
 }

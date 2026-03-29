@@ -24,7 +24,9 @@
       "english": "The traveler lodged at a small inn.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12351_yadoru_ex2",
@@ -32,7 +34,9 @@
       "english": "A bird is perching on the tree branch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12351_yadoru_ex3",
@@ -40,7 +44,9 @@
       "english": "Dew is resting on the leaves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12351_yadoru_ex4",
@@ -48,7 +54,9 @@
       "english": "Power resides in words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12351_yadoru_ex5",
@@ -56,7 +64,9 @@
       "english": "There is a saying that God dwells in the details.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12351_yadoru_ex6",
@@ -64,7 +74,9 @@
       "english": "The creator's soul resides in that work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{宿|やど}る is a literary and poetic word. In modern Japanese, sense 2 (something abstract residing within) is more commonly encountered than sense 1 (physically staying somewhere).\n\nCOLLOCATIONS:\n- {命|いのち}が{宿|やど}る — life dwells within\n- {魂|たましい}が{宿|やど}る — a soul resides in\n- {力|ちから}が{宿|やど}る — power resides in\n- {露|つゆ}が{宿|やど}る — dew rests on\n\nSIMILAR WORDS:\n{住|す}む is the everyday word for living or residing somewhere. {泊|と}まる means to stay overnight at a hotel or someone's house. {宿|やど}る has a more literary, sometimes spiritual nuance.",
@@ -75,12 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"],
+      "semantic": [
+        "existence"
+      ],
       "transitivity": "intransitive",
-      "style": ["literary"]
+      "style": [
+        "literary"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{宿|やど}る",
+        "negative": "{宿|やど}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{宿|やど}ります",
+        "negative": "{宿|やど}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{宿|やど}った",
+        "negative": "{宿|やど}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{宿|やど}りました",
+        "negative": "{宿|やど}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{宿|やど}って",
+        "negative": "{宿|やど}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{宿|やど}っている",
+        "negative": "{宿|やど}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{宿|やど}っています",
+        "negative": "{宿|やど}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{宿|やど}っていた",
+        "negative": "{宿|やど}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{宿|やど}っていました",
+        "negative": "{宿|やど}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{宿|やど}れば",
+        "negative": "{宿|やど}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{宿|やど}ったら",
+        "negative": "{宿|やど}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{宿|やど}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{宿|やど}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{宿|やど}れる",
+        "negative": "{宿|やど}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{宿|やど}られる",
+        "negative": "{宿|やど}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{宿|やど}らせる",
+        "negative": "{宿|やど}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{宿|やど}れ",
+        "negative": "{宿|やど}るな"
+      }
+    ]
   }
 }

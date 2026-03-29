@@ -24,7 +24,9 @@
       "english": "I released the bird into the sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14218_tokihanatsu_ex2",
@@ -32,7 +34,9 @@
       "english": "I removed the chain and set the dog free.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14218_tokihanatsu_ex3",
@@ -40,7 +44,9 @@
       "english": "I decided to release the caught fish back into the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14218_tokihanatsu_ex4",
@@ -48,7 +54,9 @@
       "english": "I want to be freed from stress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14218_tokihanatsu_ex5",
@@ -56,7 +64,9 @@
       "english": "I went on a trip and was freed from daily routine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14218_tokihanatsu_ex6",
@@ -64,7 +74,9 @@
       "english": "Freed from years of constraint, I obtained my freedom.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{解|と}き{放|はな}つ is a compound verb from {解|と}く (to untie) + {放|はな}つ (to release). It is a godan verb conjugating as {解|と}き{放|はな}たない, {解|と}き{放|はな}って, etc. The passive form {解|と}き{放|はな}たれる is very common, especially in the figurative sense.\n\nCOMMON COLLOCATIONS:\n- 〜から{解|と}き{放|はな}たれる: to be freed from ~\n- {束縛|そくばく}から{解|と}き{放|はな}つ: to free from constraint\n- {鳥|とり}を{解|と}き{放|はな}つ: to set a bird free\n- {日常|にちじょう}から{解|と}き{放|はな}たれる: to be freed from daily life\n\nSIMILAR WORDS:\n{放|はな}す (to release, to let go) is simpler and more physical. {解放|かいほう}する (to liberate) is more formal and often used for political or social liberation. {解|と}き{放|はな}つ has a literary, dramatic quality and emphasizes the act of untying or unlocking before releasing.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{解|と}き{放|はな}つ",
+        "negative": "{解|と}き{放|はな}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{解|と}き{放|はな}ちます",
+        "negative": "{解|と}き{放|はな}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{解|と}き{放|はな}った",
+        "negative": "{解|と}き{放|はな}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{解|と}き{放|はな}ちました",
+        "negative": "{解|と}き{放|はな}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{解|と}き{放|はな}って",
+        "negative": "{解|と}き{放|はな}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{解|と}き{放|はな}っている",
+        "negative": "{解|と}き{放|はな}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{解|と}き{放|はな}っています",
+        "negative": "{解|と}き{放|はな}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{解|と}き{放|はな}っていた",
+        "negative": "{解|と}き{放|はな}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{解|と}き{放|はな}っていました",
+        "negative": "{解|と}き{放|はな}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{解|と}き{放|はな}てば",
+        "negative": "{解|と}き{放|はな}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{解|と}き{放|はな}ったら",
+        "negative": "{解|と}き{放|はな}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{解|と}き{放|はな}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{解|と}き{放|はな}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{解|と}き{放|はな}てる",
+        "negative": "{解|と}き{放|はな}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{解|と}き{放|はな}たれる",
+        "negative": "{解|と}き{放|はな}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{解|と}き{放|はな}たせる",
+        "negative": "{解|と}き{放|はな}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{解|と}き{放|はな}て",
+        "negative": "{解|と}き{放|はな}つな"
+      }
+    ]
   }
 }

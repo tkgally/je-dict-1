@@ -19,7 +19,9 @@
       "english": "This item will be excluded from the scope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16375_jogai_ex2",
@@ -27,7 +29,9 @@
       "english": "Minors are excluded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16375_jogai_ex3",
@@ -35,7 +39,9 @@
       "english": "In cases with special circumstances, an exemption from application may be granted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{除外|じょがい} is used as both a noun and a suru-verb. It carries a formal tone and is common in rules, regulations, and official documents.\n\nCOMMON COLLOCATIONS:\n- {対象|たいしょう}から{除外|じょがい}する (to exclude from the scope)\n- {適用|てきよう}{除外|じょがい} (exemption from application)\n- {除外|じょがい}{条件|じょうけん} (exclusion criteria)\n- {除外|じょがい}{対象|たいしょう} (subject of exclusion)\n\nSIMILAR WORDS:\n{排除|はいじょ} means to eliminate or remove and implies more active rejection or getting rid of something, while {除外|じょがい} is more neutral and simply means to leave out or not include.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{除外|じょがい}する",
+        "negative": "{除外|じょがい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{除外|じょがい}します",
+        "negative": "{除外|じょがい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{除外|じょがい}した",
+        "negative": "{除外|じょがい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{除外|じょがい}しました",
+        "negative": "{除外|じょがい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{除外|じょがい}して",
+        "negative": "{除外|じょがい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{除外|じょがい}している",
+        "negative": "{除外|じょがい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{除外|じょがい}しています",
+        "negative": "{除外|じょがい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{除外|じょがい}していた",
+        "negative": "{除外|じょがい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{除外|じょがい}していました",
+        "negative": "{除外|じょがい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{除外|じょがい}すれば",
+        "negative": "{除外|じょがい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{除外|じょがい}したら",
+        "negative": "{除外|じょがい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{除外|じょがい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{除外|じょがい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{除外|じょがい}できる",
+        "negative": "{除外|じょがい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{除外|じょがい}される",
+        "negative": "{除外|じょがい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{除外|じょがい}させる",
+        "negative": "{除外|じょがい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{除外|じょがい}しろ",
+        "negative": "{除外|じょがい}するな"
+      }
+    ]
   }
 }

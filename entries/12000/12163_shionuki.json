@@ -19,7 +19,9 @@
       "english": "To desalt salted salmon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12163_shionuki_ex2",
@@ -27,7 +29,9 @@
       "english": "Please desalt the wakame before using it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12163_shionuki_ex3",
@@ -35,7 +39,9 @@
       "english": "If you don't desalt enough, the dish will be too salty, so make sure to soak it in water thoroughly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA cooking term used when preparing salt-preserved ingredients. The standard method is soaking in water, sometimes with a small amount of salt added (a technique called {迎|むか}え{塩|じお}) to draw out salt more effectively.\n\nWORD FORMATION:\n{塩|しお} (salt) + {抜|ぬ}き (removing). The {抜|ぬ}き suffix is productive in Japanese: {骨抜|ほねぬ}き (deboning), {色抜|いろぬ}き (bleaching), etc.\n\nCOMMON COLLOCATIONS:\n- {塩抜|しおぬ}きをする: to desalt\n- {塩抜|しおぬ}きが{足|た}りない: not desalted enough\n- {水|みず}で{塩抜|しおぬ}きする: to desalt by soaking in water",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{塩抜|しおぬ}きする",
+        "negative": "{塩抜|しおぬ}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{塩抜|しおぬ}きします",
+        "negative": "{塩抜|しおぬ}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{塩抜|しおぬ}きした",
+        "negative": "{塩抜|しおぬ}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{塩抜|しおぬ}きしました",
+        "negative": "{塩抜|しおぬ}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{塩抜|しおぬ}きして",
+        "negative": "{塩抜|しおぬ}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{塩抜|しおぬ}きしている",
+        "negative": "{塩抜|しおぬ}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{塩抜|しおぬ}きしています",
+        "negative": "{塩抜|しおぬ}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{塩抜|しおぬ}きしていた",
+        "negative": "{塩抜|しおぬ}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{塩抜|しおぬ}きしていました",
+        "negative": "{塩抜|しおぬ}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{塩抜|しおぬ}きすれば",
+        "negative": "{塩抜|しおぬ}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{塩抜|しおぬ}きしたら",
+        "negative": "{塩抜|しおぬ}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{塩抜|しおぬ}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{塩抜|しおぬ}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{塩抜|しおぬ}きできる",
+        "negative": "{塩抜|しおぬ}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{塩抜|しおぬ}きされる",
+        "negative": "{塩抜|しおぬ}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{塩抜|しおぬ}きさせる",
+        "negative": "{塩抜|しおぬ}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{塩抜|しおぬ}きしろ",
+        "negative": "{塩抜|しおぬ}きするな"
+      }
+    ]
   }
 }

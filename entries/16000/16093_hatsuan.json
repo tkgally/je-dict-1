@@ -19,7 +19,9 @@
       "english": "This project was his idea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16093_hatsuan_ex2",
@@ -27,7 +29,9 @@
       "english": "A new system was introduced at the president's initiative.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16093_hatsuan_ex3",
@@ -35,7 +39,9 @@
       "english": "By actively adopting suggestions from subordinates, the workplace atmosphere improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru-verb ({発案|はつあん}する). Often used to credit the origin of an idea or initiative. The person who came up with the idea is the {発案者|はつあんしゃ}.\n\nCOMMON COLLOCATIONS:\n- {発案|はつあん}する (to propose, to come up with an idea)\n- {発案者|はつあんしゃ} (originator, person who proposed)\n- 〜の{発案|はつあん}で (at the initiative of ~)\n\nSIMILAR WORDS:\n- {提案|ていあん}: proposal, suggestion — more formal, emphasizes the act of presenting an idea to others\n- {考案|こうあん}: devising, inventing — emphasizes the creative thinking process",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work", "thought"]
+      "semantic": [
+        "work",
+        "thought"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{発案|はつあん}する",
+        "negative": "{発案|はつあん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{発案|はつあん}します",
+        "negative": "{発案|はつあん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{発案|はつあん}した",
+        "negative": "{発案|はつあん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{発案|はつあん}しました",
+        "negative": "{発案|はつあん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{発案|はつあん}して",
+        "negative": "{発案|はつあん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{発案|はつあん}している",
+        "negative": "{発案|はつあん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{発案|はつあん}しています",
+        "negative": "{発案|はつあん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{発案|はつあん}していた",
+        "negative": "{発案|はつあん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{発案|はつあん}していました",
+        "negative": "{発案|はつあん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{発案|はつあん}すれば",
+        "negative": "{発案|はつあん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{発案|はつあん}したら",
+        "negative": "{発案|はつあん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{発案|はつあん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{発案|はつあん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{発案|はつあん}できる",
+        "negative": "{発案|はつあん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{発案|はつあん}される",
+        "negative": "{発案|はつあん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{発案|はつあん}させる",
+        "negative": "{発案|はつあん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{発案|はつあん}しろ",
+        "negative": "{発案|はつあん}するな"
+      }
+    ]
   }
 }

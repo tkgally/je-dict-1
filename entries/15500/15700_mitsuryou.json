@@ -19,7 +19,9 @@
       "english": "Poaching is prohibited by law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15700_mitsuryou_ex2",
@@ -27,7 +29,9 @@
       "english": "The poacher was arrested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15700_mitsuryou_ex3",
@@ -35,7 +39,9 @@
       "english": "The number of elephants is drastically declining due to poaching for ivory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFrequently encountered in news reports about wildlife conservation and environmental crime. Often discussed in the context of endangered species protection, both domestically in Japan and internationally.\n\nCOMMON COLLOCATIONS:\n- {密猟者|みつりょうしゃ} (poacher)\n- {密猟|みつりょう}を{取|と}り{締|し}まる (to crack down on poaching)\n- {密猟|みつりょう}{防止|ぼうし} (anti-poaching)\n\nSIMILAR WORDS:\n- {密漁|みつりょう}: illegal fishing, poaching of marine resources (same reading, different kanji)\n- {狩猟|しゅりょう}: hunting (legal hunting)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "legal"]
+      "semantic": [
+        "nature",
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{密猟|みつりょう}する",
+        "negative": "{密猟|みつりょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{密猟|みつりょう}します",
+        "negative": "{密猟|みつりょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{密猟|みつりょう}した",
+        "negative": "{密猟|みつりょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{密猟|みつりょう}しました",
+        "negative": "{密猟|みつりょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{密猟|みつりょう}して",
+        "negative": "{密猟|みつりょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{密猟|みつりょう}している",
+        "negative": "{密猟|みつりょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{密猟|みつりょう}しています",
+        "negative": "{密猟|みつりょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{密猟|みつりょう}していた",
+        "negative": "{密猟|みつりょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{密猟|みつりょう}していました",
+        "negative": "{密猟|みつりょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{密猟|みつりょう}すれば",
+        "negative": "{密猟|みつりょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{密猟|みつりょう}したら",
+        "negative": "{密猟|みつりょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{密猟|みつりょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{密猟|みつりょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{密猟|みつりょう}できる",
+        "negative": "{密猟|みつりょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{密猟|みつりょう}される",
+        "negative": "{密猟|みつりょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{密猟|みつりょう}させる",
+        "negative": "{密猟|みつりょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{密猟|みつりょう}しろ",
+        "negative": "{密猟|みつりょう}するな"
+      }
+    ]
   }
 }

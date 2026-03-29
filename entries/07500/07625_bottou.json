@@ -17,21 +17,27 @@
       "japanese": "{仕事|しごと}に{没頭|ぼっとう}する。",
       "english": "To immerse oneself in work.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07625_bottou_ex2",
       "japanese": "{彼|かれ}は{研究|けんきゅう}に{没頭|ぼっとう}している。",
       "english": "He is engrossed in his research.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07625_bottou_ex3",
       "japanese": "{趣味|しゅみ}に{没頭|ぼっとう}して{時間|じかん}を{忘|わす}れた。",
       "english": "I lost track of time while absorbed in my hobby.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{仕事|しごと}に{没頭|ぼっとう}する - to immerse oneself in work\n・{研究|けんきゅう}に{没頭|ぼっとう}する - to be absorbed in research\n・{趣味|しゅみ}に{没頭|ぼっとう}する - to be engrossed in a hobby\n・{読書|どくしょ}に{没頭|ぼっとう}する - to be absorbed in reading\n\nUSAGE NOTES:\nUsed with the particle に to indicate what one is absorbed in: Xに{没頭|ぼっとう}する\n\nSIMILAR EXPRESSIONS:\n・{夢中|むちゅう}になる - to be absorbed (more casual)\n・{熱中|ねっちゅう}する - to be enthusiastic about\n・{集中|しゅうちゅう}する - to concentrate (more about focus than absorption)",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["psychology", "activity"],
-      "domain": []
+      "semantic": [
+        "psychology",
+        "activity"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{没頭|ぼっとう}する",
+        "negative": "{没頭|ぼっとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{没頭|ぼっとう}します",
+        "negative": "{没頭|ぼっとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{没頭|ぼっとう}した",
+        "negative": "{没頭|ぼっとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{没頭|ぼっとう}しました",
+        "negative": "{没頭|ぼっとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{没頭|ぼっとう}して",
+        "negative": "{没頭|ぼっとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{没頭|ぼっとう}している",
+        "negative": "{没頭|ぼっとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{没頭|ぼっとう}しています",
+        "negative": "{没頭|ぼっとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{没頭|ぼっとう}していた",
+        "negative": "{没頭|ぼっとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{没頭|ぼっとう}していました",
+        "negative": "{没頭|ぼっとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{没頭|ぼっとう}すれば",
+        "negative": "{没頭|ぼっとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{没頭|ぼっとう}したら",
+        "negative": "{没頭|ぼっとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{没頭|ぼっとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{没頭|ぼっとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{没頭|ぼっとう}できる",
+        "negative": "{没頭|ぼっとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{没頭|ぼっとう}される",
+        "negative": "{没頭|ぼっとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{没頭|ぼっとう}させる",
+        "negative": "{没頭|ぼっとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{没頭|ぼっとう}しろ",
+        "negative": "{没頭|ぼっとう}するな"
+      }
+    ]
   }
 }

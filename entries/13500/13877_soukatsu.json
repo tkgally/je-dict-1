@@ -19,7 +19,9 @@
       "english": "Review this year's activities as a whole.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13877_soukatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "At the end of the meeting, the chair gave a summary.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13877_soukatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Sum up the project's successes and failures and apply them to the next one.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommon in business, government, and organizational contexts. Often used at the end of a period or project to review what happened overall. The pattern {総括|そうかつ}を{行|おこな}う (conduct a review) is standard in formal settings.\n\nSIMILAR WORDS:\n- {要約|ようやく}: summary (condensing content)\n- まとめ: summary, wrap-up (casual)\n- {概括|がいかつ}: general summary, outline\n\nCOMMON COLLOCATIONS:\n- {総括|そうかつ}を{行|おこな}う: conduct a summary/review\n- {年度|ねんど}{総括|そうかつ}: annual review\n- {総括|そうかつ}{報告|ほうこく}: summary report\n- {総括|そうかつ}{的|てき}: comprehensive, overall",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{総括|そうかつ}する",
+        "negative": "{総括|そうかつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{総括|そうかつ}します",
+        "negative": "{総括|そうかつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{総括|そうかつ}した",
+        "negative": "{総括|そうかつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{総括|そうかつ}しました",
+        "negative": "{総括|そうかつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{総括|そうかつ}して",
+        "negative": "{総括|そうかつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{総括|そうかつ}している",
+        "negative": "{総括|そうかつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{総括|そうかつ}しています",
+        "negative": "{総括|そうかつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{総括|そうかつ}していた",
+        "negative": "{総括|そうかつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{総括|そうかつ}していました",
+        "negative": "{総括|そうかつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{総括|そうかつ}すれば",
+        "negative": "{総括|そうかつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{総括|そうかつ}したら",
+        "negative": "{総括|そうかつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{総括|そうかつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{総括|そうかつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{総括|そうかつ}できる",
+        "negative": "{総括|そうかつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{総括|そうかつ}される",
+        "negative": "{総括|そうかつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{総括|そうかつ}させる",
+        "negative": "{総括|そうかつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{総括|そうかつ}しろ",
+        "negative": "{総括|そうかつ}するな"
+      }
+    ]
   }
 }

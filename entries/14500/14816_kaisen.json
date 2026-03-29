@@ -19,7 +19,9 @@
       "english": "News of the outbreak of war arrived.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14816_kaisen_ex2",
@@ -27,7 +29,9 @@
       "english": "Diplomatic negotiations broke down and led to the outbreak of war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14816_kaisen_ex3",
@@ -35,7 +39,9 @@
       "english": "Even seventy years after the war began, memories of the conflict remain in people's hearts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {開|かい} (to open, to start) and {戦|せん} (war, battle).\n\nCOMMON COLLOCATIONS:\n- {開戦|かいせん}に{踏|ふ}み{切|き}る (to decide to go to war)\n- {開戦|かいせん}に{至|いた}る (to lead to war)\n- {開戦|かいせん}{直前|ちょくぜん} (just before the outbreak of war)\n- {開戦|かいせん}{当初|とうしょ} (at the start of the war)\n- {開戦|かいせん}を{回避|かいひ}する (to avoid war)\n\nThe antonym is {終戦|しゅうせん} (end of war). Related terms include {宣戦|せんせん} (declaration of war) and {休戦|きゅうせん} (ceasefire).",
@@ -59,10 +65,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{開戦|かいせん}する",
+        "negative": "{開戦|かいせん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{開戦|かいせん}します",
+        "negative": "{開戦|かいせん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{開戦|かいせん}した",
+        "negative": "{開戦|かいせん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{開戦|かいせん}しました",
+        "negative": "{開戦|かいせん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{開戦|かいせん}して",
+        "negative": "{開戦|かいせん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{開戦|かいせん}している",
+        "negative": "{開戦|かいせん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{開戦|かいせん}しています",
+        "negative": "{開戦|かいせん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{開戦|かいせん}していた",
+        "negative": "{開戦|かいせん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{開戦|かいせん}していました",
+        "negative": "{開戦|かいせん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{開戦|かいせん}すれば",
+        "negative": "{開戦|かいせん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{開戦|かいせん}したら",
+        "negative": "{開戦|かいせん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{開戦|かいせん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{開戦|かいせん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{開戦|かいせん}できる",
+        "negative": "{開戦|かいせん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{開戦|かいせん}される",
+        "negative": "{開戦|かいせん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{開戦|かいせん}させる",
+        "negative": "{開戦|かいせん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{開戦|かいせん}しろ",
+        "negative": "{開戦|かいせん}するな"
+      }
+    ]
   }
 }

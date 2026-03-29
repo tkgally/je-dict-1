@@ -19,7 +19,9 @@
       "english": "To filter water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15164_roka_ex2",
@@ -27,7 +29,9 @@
       "english": "A paper filter is used for filtering coffee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15164_roka_ex3",
@@ -35,7 +39,9 @@
       "english": "Water treatment plants purify water by passing it through multiple stages of filtration equipment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nろ{過|か} is written with the kanji {濾|ろ}{過|か}, but since {濾|ろ} is not a standard-use kanji (not in the {常用|じょうよう}{漢字|かんじ} list), it is typically written in mixed form as ろ{過|か}.\n\nCOMMON COLLOCATIONS:\n- ろ{過|か}する (to filter)\n- ろ{過|か}{装置|そうち} (filtration device/equipment)\n- ろ{過|か}{器|き} (filter)\n- ろ{過|か}{水|すい} (filtered water)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["science-chemistry"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "science-chemistry"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ろ{過|か}する",
+        "negative": "ろ{過|か}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ろ{過|か}します",
+        "negative": "ろ{過|か}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ろ{過|か}した",
+        "negative": "ろ{過|か}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ろ{過|か}しました",
+        "negative": "ろ{過|か}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ろ{過|か}して",
+        "negative": "ろ{過|か}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ろ{過|か}している",
+        "negative": "ろ{過|か}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ろ{過|か}しています",
+        "negative": "ろ{過|か}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ろ{過|か}していた",
+        "negative": "ろ{過|か}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ろ{過|か}していました",
+        "negative": "ろ{過|か}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ろ{過|か}すれば",
+        "negative": "ろ{過|か}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ろ{過|か}したら",
+        "negative": "ろ{過|か}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ろ{過|か}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ろ{過|か}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ろ{過|か}できる",
+        "negative": "ろ{過|か}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ろ{過|か}される",
+        "negative": "ろ{過|か}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ろ{過|か}させる",
+        "negative": "ろ{過|か}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ろ{過|か}しろ",
+        "negative": "ろ{過|か}するな"
+      }
+    ]
   }
 }

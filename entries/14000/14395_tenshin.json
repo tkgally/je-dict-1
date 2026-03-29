@@ -19,7 +19,9 @@
       "english": "He switched from being a company employee to a writer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14395_tenshin_ex2",
@@ -27,7 +29,9 @@
       "english": "Many athletes switch to coaching after retirement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14395_tenshin_ex3",
@@ -35,7 +39,9 @@
       "english": "She left her bank job and made a brilliant career change — she is now active as a pastry chef.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{転身|てんしん} is a noun that can function as a suru verb ({転身|てんしん}する).\n\nPARTICLE PATTERNS:\n- [old role]から[new role]に{転身|てんしん}する (switch from X to Y)\n\nCOMMON COLLOCATIONS:\n- {華麗|かれい}な{転身|てんしん} (a brilliant career change)\n- {大|おお}きな{転身|てんしん} (a major career change)\n- {転身|てんしん}を{図|はか}る (to aim for a career change)\n\nOften implies a dramatic or noteworthy change rather than a routine job switch. The phrase {華麗|かれい}な{転身|てんしん} (brilliant career change) is particularly common in media describing public figures who successfully reinvent themselves.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{転身|てんしん}する",
+        "negative": "{転身|てんしん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{転身|てんしん}します",
+        "negative": "{転身|てんしん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{転身|てんしん}した",
+        "negative": "{転身|てんしん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{転身|てんしん}しました",
+        "negative": "{転身|てんしん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{転身|てんしん}して",
+        "negative": "{転身|てんしん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{転身|てんしん}している",
+        "negative": "{転身|てんしん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{転身|てんしん}しています",
+        "negative": "{転身|てんしん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{転身|てんしん}していた",
+        "negative": "{転身|てんしん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{転身|てんしん}していました",
+        "negative": "{転身|てんしん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{転身|てんしん}すれば",
+        "negative": "{転身|てんしん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{転身|てんしん}したら",
+        "negative": "{転身|てんしん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{転身|てんしん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{転身|てんしん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{転身|てんしん}できる",
+        "negative": "{転身|てんしん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{転身|てんしん}される",
+        "negative": "{転身|てんしん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{転身|てんしん}させる",
+        "negative": "{転身|てんしん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{転身|てんしん}しろ",
+        "negative": "{転身|てんしん}するな"
+      }
+    ]
   }
 }

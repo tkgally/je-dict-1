@@ -19,7 +19,9 @@
       "english": "You shouldn't overwork your body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17003_kokushi_ex2",
@@ -27,7 +29,9 @@
       "english": "My eyesight deteriorated because I strained my eyes too much.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17003_kokushi_ex3",
@@ -35,7 +39,9 @@
       "english": "The engine, which had been used harshly for many years, finally broke down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun and as a する verb ({酷使|こくし}する). Common objects of {酷使|こくし} include {体|からだ} (body), {目|め} (eyes), {声帯|せいたい} (vocal cords), and machinery. Always has a negative connotation.\n\nCOMMON COLLOCATIONS:\n- {体|からだ}を{酷使|こくし}する (to overwork one's body)\n- {目|め}を{酷使|こくし}する (to strain one's eyes)\n- {労働者|ろうどうしゃ}を{酷使|こくし}する (to overwork laborers)\n\nSIMILAR WORDS:\n- {使|つか}い{過|す}ぎ: overuse — milder and more neutral than {酷使|こくし}, which implies cruelty or mercilessness",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work", "health"]
+      "semantic": [
+        "work",
+        "health"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{酷使|こくし}する",
+        "negative": "{酷使|こくし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{酷使|こくし}します",
+        "negative": "{酷使|こくし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{酷使|こくし}した",
+        "negative": "{酷使|こくし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{酷使|こくし}しました",
+        "negative": "{酷使|こくし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{酷使|こくし}して",
+        "negative": "{酷使|こくし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{酷使|こくし}している",
+        "negative": "{酷使|こくし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{酷使|こくし}しています",
+        "negative": "{酷使|こくし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{酷使|こくし}していた",
+        "negative": "{酷使|こくし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{酷使|こくし}していました",
+        "negative": "{酷使|こくし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{酷使|こくし}すれば",
+        "negative": "{酷使|こくし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{酷使|こくし}したら",
+        "negative": "{酷使|こくし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{酷使|こくし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{酷使|こくし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{酷使|こくし}できる",
+        "negative": "{酷使|こくし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{酷使|こくし}される",
+        "negative": "{酷使|こくし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{酷使|こくし}させる",
+        "negative": "{酷使|こくし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{酷使|こくし}しろ",
+        "negative": "{酷使|こくし}するな"
+      }
+    ]
   }
 }

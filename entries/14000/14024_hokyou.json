@@ -19,7 +19,9 @@
       "english": "I reinforced the walls as an earthquake countermeasure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14024_hokyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Reinforcing the pitching staff is an urgent priority for the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14024_hokyou_ex3",
@@ -35,7 +39,9 @@
       "english": "I added data to reinforce the argument in my paper.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {補|ほ} (supplement, compensate) and {強|きょう} (strong). Can be used as a noun or as a suru verb ({補強|ほきょう}する).\n\nPARTICLE PATTERNS:\n- [thing]を{補強|ほきょう}する (reinforce something)\n\nCOMMON COLLOCATIONS:\n- {建物|たてもの}を{補強|ほきょう}する (reinforce a building)\n- {戦力|せんりょく}を{補強|ほきょう}する (strengthen one's fighting force/team)\n- {論拠|ろんきょ}を{補強|ほきょう}する (reinforce an argument)\n- {耐震|たいしん}{補強|ほきょう} (seismic reinforcement)\n- {補強|ほきょう}{工事|こうじ} (reinforcement construction)\n\nCommonly used in construction (earthquake-proofing), sports (strengthening a team roster through trades or signings), and academic or business contexts (bolstering an argument or position).",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{補強|ほきょう}する",
+        "negative": "{補強|ほきょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{補強|ほきょう}します",
+        "negative": "{補強|ほきょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{補強|ほきょう}した",
+        "negative": "{補強|ほきょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{補強|ほきょう}しました",
+        "negative": "{補強|ほきょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{補強|ほきょう}して",
+        "negative": "{補強|ほきょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{補強|ほきょう}している",
+        "negative": "{補強|ほきょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{補強|ほきょう}しています",
+        "negative": "{補強|ほきょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{補強|ほきょう}していた",
+        "negative": "{補強|ほきょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{補強|ほきょう}していました",
+        "negative": "{補強|ほきょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{補強|ほきょう}すれば",
+        "negative": "{補強|ほきょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{補強|ほきょう}したら",
+        "negative": "{補強|ほきょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{補強|ほきょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{補強|ほきょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{補強|ほきょう}できる",
+        "negative": "{補強|ほきょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{補強|ほきょう}される",
+        "negative": "{補強|ほきょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{補強|ほきょう}させる",
+        "negative": "{補強|ほきょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{補強|ほきょう}しろ",
+        "negative": "{補強|ほきょう}するな"
+      }
+    ]
   }
 }

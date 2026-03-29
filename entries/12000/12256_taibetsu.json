@@ -19,7 +19,9 @@
       "english": "Japanese verbs can be broadly classified into three types.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12256_taibetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Climates can be roughly divided into temperate and tropical.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12256_taibetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The causes can be broadly classified into two factors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used with する in the pattern {大別|たいべつ}すると or {大別|たいべつ}して, meaning \"broadly classifying\" or \"roughly speaking.\" Common in academic writing, explanations, and presentations when giving a simplified categorization.\n\nCOMMON PATTERNS:\n- {大別|たいべつ}すると: broadly classifying, roughly speaking\n- ～に{大別|たいべつ}される: to be broadly classified into ~\n- {大別|たいべつ}して～{種類|しゅるい}: roughly ~ types/kinds\n\nSIMILAR WORDS:\n{分類|ぶんるい} is the general word for classification. {大別|たいべつ} specifically implies a rough, broad-stroke division into major categories.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "domain": ["academic"]
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{大別|たいべつ}する",
+        "negative": "{大別|たいべつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{大別|たいべつ}します",
+        "negative": "{大別|たいべつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{大別|たいべつ}した",
+        "negative": "{大別|たいべつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{大別|たいべつ}しました",
+        "negative": "{大別|たいべつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{大別|たいべつ}して",
+        "negative": "{大別|たいべつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{大別|たいべつ}している",
+        "negative": "{大別|たいべつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{大別|たいべつ}しています",
+        "negative": "{大別|たいべつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{大別|たいべつ}していた",
+        "negative": "{大別|たいべつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{大別|たいべつ}していました",
+        "negative": "{大別|たいべつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{大別|たいべつ}すれば",
+        "negative": "{大別|たいべつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{大別|たいべつ}したら",
+        "negative": "{大別|たいべつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{大別|たいべつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{大別|たいべつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{大別|たいべつ}できる",
+        "negative": "{大別|たいべつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{大別|たいべつ}される",
+        "negative": "{大別|たいべつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{大別|たいべつ}させる",
+        "negative": "{大別|たいべつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{大別|たいべつ}しろ",
+        "negative": "{大別|たいべつ}するな"
+      }
+    ]
   }
 }

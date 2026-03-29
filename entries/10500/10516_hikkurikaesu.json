@@ -24,7 +24,9 @@
       "english": "To flip over a table.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10516_hikkurikaesu_ex2",
@@ -32,7 +34,9 @@
       "english": "The child knocked over the cup.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10516_hikkurikaesu_ex3",
@@ -40,7 +44,9 @@
       "english": "I turned the room upside down searching, but I couldn't find it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10516_hikkurikaesu_ex4",
@@ -48,7 +54,9 @@
       "english": "To turn the game around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10516_hikkurikaesu_ex5",
@@ -56,7 +64,9 @@
       "english": "The verdict was overturned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10516_hikkurikaesu_ex6",
@@ -64,7 +74,9 @@
       "english": "What's amazing about him is that he can turn things around at the very last moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-su):\n- Negative: ひっくり{返|かえ}さない\n- Te-form: ひっくり{返|かえ}して\n- Past: ひっくり{返|かえ}した\n- Passive: ひっくり{返|かえ}される\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is ひっくり{返|かえ}る (to be overturned, to topple over).\n\nCOMMON COLLOCATIONS:\n- テーブルをひっくり{返|かえ}す: to flip a table\n- {試合|しあい}をひっくり{返|かえ}す: to turn the match around\n- {常識|じょうしき}をひっくり{返|かえ}す: to upend common sense",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-physical", "change"]
+      "semantic": [
+        "action-physical",
+        "change"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ひっくり{返|かえ}す",
+        "negative": "ひっくり{返|かえ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ひっくり{返|かえ}します",
+        "negative": "ひっくり{返|かえ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ひっくり{返|かえ}した",
+        "negative": "ひっくり{返|かえ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ひっくり{返|かえ}しました",
+        "negative": "ひっくり{返|かえ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ひっくり{返|かえ}して",
+        "negative": "ひっくり{返|かえ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ひっくり{返|かえ}している",
+        "negative": "ひっくり{返|かえ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ひっくり{返|かえ}しています",
+        "negative": "ひっくり{返|かえ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ひっくり{返|かえ}していた",
+        "negative": "ひっくり{返|かえ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ひっくり{返|かえ}していました",
+        "negative": "ひっくり{返|かえ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ひっくり{返|かえ}せば",
+        "negative": "ひっくり{返|かえ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ひっくり{返|かえ}したら",
+        "negative": "ひっくり{返|かえ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ひっくり{返|かえ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ひっくり{返|かえ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ひっくり{返|かえ}せる",
+        "negative": "ひっくり{返|かえ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ひっくり{返|かえ}される",
+        "negative": "ひっくり{返|かえ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ひっくり{返|かえ}させる",
+        "negative": "ひっくり{返|かえ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ひっくり{返|かえ}せ",
+        "negative": "ひっくり{返|かえ}すな"
+      }
+    ]
   }
 }

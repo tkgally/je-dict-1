@@ -19,7 +19,9 @@
       "english": "To run away from home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12292_iede_ex2",
@@ -27,7 +29,9 @@
       "english": "I ran away from home once when I was in middle school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12292_iede_ex3",
@@ -35,7 +39,9 @@
       "english": "I ran away from home after fighting with my parents, but I came back after three days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly associated with teenagers or young people running away from home due to family problems. {家出|いえで}{少年|しょうねん}/{少女|しょうじょ} (runaway boy/girl) is a set phrase. The word carries a sense of impulsive departure rather than a planned move. It differs from simply moving out ({独立|どくりつ}する, {一人暮|ひとりぐ}らしを{始|はじ}める) in that {家出|いえで} implies leaving without approval or in conflict.\n\nCOMMON COLLOCATIONS:\n- {家出|いえで}をする: to run away from home\n- {家出|いえで}{少年|しょうねん}: runaway boy\n- {家出|いえで}{少女|しょうじょ}: runaway girl\n- {家出|いえで}{人|にん}: runaway, person who ran away from home",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "movement"]
+      "semantic": [
+        "family",
+        "movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{家出|いえで}する",
+        "negative": "{家出|いえで}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{家出|いえで}します",
+        "negative": "{家出|いえで}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{家出|いえで}した",
+        "negative": "{家出|いえで}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{家出|いえで}しました",
+        "negative": "{家出|いえで}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{家出|いえで}して",
+        "negative": "{家出|いえで}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{家出|いえで}している",
+        "negative": "{家出|いえで}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{家出|いえで}しています",
+        "negative": "{家出|いえで}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{家出|いえで}していた",
+        "negative": "{家出|いえで}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{家出|いえで}していました",
+        "negative": "{家出|いえで}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{家出|いえで}すれば",
+        "negative": "{家出|いえで}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{家出|いえで}したら",
+        "negative": "{家出|いえで}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{家出|いえで}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{家出|いえで}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{家出|いえで}できる",
+        "negative": "{家出|いえで}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{家出|いえで}される",
+        "negative": "{家出|いえで}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{家出|いえで}させる",
+        "negative": "{家出|いえで}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{家出|いえで}しろ",
+        "negative": "{家出|いえで}するな"
+      }
+    ]
   }
 }

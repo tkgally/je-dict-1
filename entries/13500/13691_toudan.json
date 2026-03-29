@@ -19,7 +19,9 @@
       "english": "The company president took the stage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13691_toudan_ex2",
@@ -27,7 +29,9 @@
       "english": "I will introduce the next speaker.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13691_toudan_ex3",
@@ -35,7 +39,9 @@
       "english": "I am honored to have the opportunity to speak at the international conference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({登壇|とうだん}する = to take the stage) or as a noun modifier ({登壇者|とうだんしゃ} = speaker/presenter). Common in business, academic, and formal event contexts. The word implies a raised platform or podium.\n\nKANJI:\n{登|とう} means \"to climb\" or \"to ascend\" and {壇|だん} means \"platform\" or \"podium.\" The compound literally means \"to ascend the platform.\"\n\nCOMMON COLLOCATIONS:\n- {登壇者|とうだんしゃ}: speaker, presenter\n- {登壇|とうだん}する: to take the stage\n- カンファレンスに{登壇|とうだん}する: to speak at a conference",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "verb_class": "suru",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{登壇|とうだん}する",
+        "negative": "{登壇|とうだん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{登壇|とうだん}します",
+        "negative": "{登壇|とうだん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{登壇|とうだん}した",
+        "negative": "{登壇|とうだん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{登壇|とうだん}しました",
+        "negative": "{登壇|とうだん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{登壇|とうだん}して",
+        "negative": "{登壇|とうだん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{登壇|とうだん}している",
+        "negative": "{登壇|とうだん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{登壇|とうだん}しています",
+        "negative": "{登壇|とうだん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{登壇|とうだん}していた",
+        "negative": "{登壇|とうだん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{登壇|とうだん}していました",
+        "negative": "{登壇|とうだん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{登壇|とうだん}すれば",
+        "negative": "{登壇|とうだん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{登壇|とうだん}したら",
+        "negative": "{登壇|とうだん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{登壇|とうだん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{登壇|とうだん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{登壇|とうだん}できる",
+        "negative": "{登壇|とうだん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{登壇|とうだん}される",
+        "negative": "{登壇|とうだん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{登壇|とうだん}させる",
+        "negative": "{登壇|とうだん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{登壇|とうだん}しろ",
+        "negative": "{登壇|とうだん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The drama is broadcast every Monday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12943_houei_ex2",
@@ -27,7 +29,9 @@
       "english": "That movie is scheduled to be shown on television next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12943_houei_ex3",
@@ -35,7 +39,9 @@
       "english": "It's an anime that is still popular even more than thirty years after it first aired.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Specifically refers to the broadcasting of visual content (TV programs, films). Slightly more formal than {放送|ほうそう} (broadcasting), which covers both radio and television.\n\nCOMMON COLLOCATIONS:\n- {放映|ほうえい}する: to broadcast, to screen\n- {放映|ほうえい}される: to be broadcast\n- {放映|ほうえい}{開始|かいし}: start of broadcasting\n- {放映|ほうえい}{中|ちゅう}: currently airing\n- {放映|ほうえい}{権|けん}: broadcasting rights\n\nSIMILAR WORDS:\n- {放送|ほうそう}: broadcasting (radio and TV, broader term)\n- {上映|じょうえい}: screening (specifically at a movie theater)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["media"]
+      "semantic": [
+        "media"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{放映|ほうえい}する",
+        "negative": "{放映|ほうえい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{放映|ほうえい}します",
+        "negative": "{放映|ほうえい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{放映|ほうえい}した",
+        "negative": "{放映|ほうえい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{放映|ほうえい}しました",
+        "negative": "{放映|ほうえい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{放映|ほうえい}して",
+        "negative": "{放映|ほうえい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{放映|ほうえい}している",
+        "negative": "{放映|ほうえい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{放映|ほうえい}しています",
+        "negative": "{放映|ほうえい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{放映|ほうえい}していた",
+        "negative": "{放映|ほうえい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{放映|ほうえい}していました",
+        "negative": "{放映|ほうえい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{放映|ほうえい}すれば",
+        "negative": "{放映|ほうえい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{放映|ほうえい}したら",
+        "negative": "{放映|ほうえい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{放映|ほうえい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{放映|ほうえい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{放映|ほうえい}できる",
+        "negative": "{放映|ほうえい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{放映|ほうえい}される",
+        "negative": "{放映|ほうえい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{放映|ほうえい}させる",
+        "negative": "{放映|ほうえい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{放映|ほうえい}しろ",
+        "negative": "{放映|ほうえい}するな"
+      }
+    ]
   }
 }

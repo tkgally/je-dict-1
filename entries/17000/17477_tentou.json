@@ -19,7 +19,9 @@
       "english": "The streetlights turned on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17477_tentou_ex2",
@@ -27,7 +29,9 @@
       "english": "I attended the Christmas tree lighting ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17477_tentou_ex3",
@@ -35,7 +39,9 @@
       "english": "In the evening, a sensor automatically detects the darkness and turns on the entrance light.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both automatic and manual lighting. Common in traffic contexts ({信号|しんごう}の{点灯|てんとう} — traffic light activation), event contexts (tree-lighting ceremonies), and everyday appliance descriptions.\n\nBe careful not to confuse with homophones: {店頭|てんとう} (storefront) and {転倒|てんとう} (falling over).\n\nCOMMON COLLOCATIONS:\n- {点灯|てんとう}する (to light up, to turn on)\n- {点灯|てんとう}{式|しき} (lighting ceremony)\n- ランプが{点灯|てんとう}する (a lamp turns on)\n- {警告灯|けいこくとう}が{点灯|てんとう}する (a warning light comes on)\n\nSIMILAR WORDS:\n- {消灯|しょうとう}: lights out — the opposite; turning off lights\n- {点|つ}ける: to turn on — casual, everyday equivalent",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{点灯|てんとう}する",
+        "negative": "{点灯|てんとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{点灯|てんとう}します",
+        "negative": "{点灯|てんとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{点灯|てんとう}した",
+        "negative": "{点灯|てんとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{点灯|てんとう}しました",
+        "negative": "{点灯|てんとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{点灯|てんとう}して",
+        "negative": "{点灯|てんとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{点灯|てんとう}している",
+        "negative": "{点灯|てんとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{点灯|てんとう}しています",
+        "negative": "{点灯|てんとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{点灯|てんとう}していた",
+        "negative": "{点灯|てんとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{点灯|てんとう}していました",
+        "negative": "{点灯|てんとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{点灯|てんとう}すれば",
+        "negative": "{点灯|てんとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{点灯|てんとう}したら",
+        "negative": "{点灯|てんとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{点灯|てんとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{点灯|てんとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{点灯|てんとう}できる",
+        "negative": "{点灯|てんとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{点灯|てんとう}される",
+        "negative": "{点灯|てんとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{点灯|てんとう}させる",
+        "negative": "{点灯|てんとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{点灯|てんとう}しろ",
+        "negative": "{点灯|てんとう}するな"
+      }
+    ]
   }
 }

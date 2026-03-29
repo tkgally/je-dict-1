@@ -21,7 +21,9 @@
       "id": "10023_ketsumazuku_ex1",
       "japanese": "{石|いし}に{蹴躓|けつまず}いた。",
       "english": "I tripped on a stone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "10023_ketsumazuku_ex2",
       "japanese": "{段差|だんさ}に{蹴躓|けつまず}いて{転|ころ}んだ。",
       "english": "I tripped on a step and fell.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "10023_ketsumazuku_ex3",
       "japanese": "{暗|くら}い{廊下|ろうか}で{何|なに}かに{蹴躓|けつまず}いてしまった。",
       "english": "I tripped over something in the dark hallway.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "10023_ketsumazuku_ex4",
       "japanese": "{計画|けいかく}が{蹴躓|けつまず}いた。",
       "english": "The plan hit a snag.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "10023_ketsumazuku_ex5",
       "japanese": "{最初|さいしょ}の{一歩|いっぽ}で{蹴躓|けつまず}く。",
       "english": "To stumble at the very first step.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "10023_ketsumazuku_ex6",
       "japanese": "{順調|じゅんちょう}だった{事業|じぎょう}が{資金難|しきんなん}で{蹴躓|けつまず}いてしまった。",
       "english": "The business that had been going well stumbled due to financial difficulties.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "physical"]
+      "semantic": [
+        "action",
+        "physical"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{蹴躓|けつまず}く",
+        "negative": "{蹴躓|けつまず}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{蹴躓|けつまず}きます",
+        "negative": "{蹴躓|けつまず}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{蹴躓|けつまず}いた",
+        "negative": "{蹴躓|けつまず}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{蹴躓|けつまず}きました",
+        "negative": "{蹴躓|けつまず}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{蹴躓|けつまず}いて",
+        "negative": "{蹴躓|けつまず}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{蹴躓|けつまず}いている",
+        "negative": "{蹴躓|けつまず}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{蹴躓|けつまず}いています",
+        "negative": "{蹴躓|けつまず}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{蹴躓|けつまず}いていた",
+        "negative": "{蹴躓|けつまず}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{蹴躓|けつまず}いていました",
+        "negative": "{蹴躓|けつまず}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{蹴躓|けつまず}けば",
+        "negative": "{蹴躓|けつまず}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{蹴躓|けつまず}いたら",
+        "negative": "{蹴躓|けつまず}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{蹴躓|けつまず}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{蹴躓|けつまず}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{蹴躓|けつまず}ける",
+        "negative": "{蹴躓|けつまず}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{蹴躓|けつまず}かれる",
+        "negative": "{蹴躓|けつまず}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{蹴躓|けつまず}かせる",
+        "negative": "{蹴躓|けつまず}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{蹴躓|けつまず}け",
+        "negative": "{蹴躓|けつまず}くな"
+      }
+    ]
   }
 }

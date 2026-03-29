@@ -19,7 +19,9 @@
       "english": "To reflect on one's own behavior.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13656_kaerimiru_ex2",
@@ -27,7 +29,9 @@
       "english": "I want to reflect on the past so as not to repeat the same mistakes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13656_kaerimiru_ex3",
@@ -35,7 +39,9 @@
       "english": "He criticizes only others without ever reflecting on his own words and actions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA literary and somewhat formal verb. In everyday speech, {振|ふ}り{返|かえ}る (to look back on) or {反省|はんせい}する (to reflect and feel remorse) are more common. {省|かえり}みる emphasizes thoughtful introspection.\n\nKANJI:\nAlso written as {顧|かえり}みる, which has a slightly different nuance: {省|かえり}みる focuses on self-reflection and examining one's own conduct, while {顧|かえり}みる means to give thought to or pay attention to something (often in the negative: {顧|かえり}みない = to disregard).\n\nCOMMON COLLOCATIONS:\n- {自分|じぶん}を{省|かえり}みる: to examine oneself\n- {過去|かこ}を{省|かえり}みる: to reflect on the past\n- {行動|こうどう}を{省|かえり}みる: to reflect on one's behavior",
@@ -46,13 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written", "literary"],
-      "semantic": ["abstract"]
+      "style": [
+        "written",
+        "literary"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{省|かえり}みる",
+        "negative": "{省|かえり}みない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{省|かえり}みます",
+        "negative": "{省|かえり}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{省|かえり}みた",
+        "negative": "{省|かえり}みなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{省|かえり}みました",
+        "negative": "{省|かえり}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{省|かえり}みて",
+        "negative": "{省|かえり}みなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{省|かえり}みている",
+        "negative": "{省|かえり}みていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{省|かえり}みています",
+        "negative": "{省|かえり}みていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{省|かえり}みていた",
+        "negative": "{省|かえり}みていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{省|かえり}みていました",
+        "negative": "{省|かえり}みていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{省|かえり}みれば",
+        "negative": "{省|かえり}みなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{省|かえり}みたら",
+        "negative": "{省|かえり}みなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{省|かえり}みよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{省|かえり}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{省|かえり}みられる",
+        "negative": "{省|かえり}みられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{省|かえり}みられる",
+        "negative": "{省|かえり}みられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{省|かえり}みさせる",
+        "negative": "{省|かえり}みさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{省|かえり}みろ",
+        "negative": "{省|かえり}みるな"
+      }
+    ]
   }
 }

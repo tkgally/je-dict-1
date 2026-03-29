@@ -19,7 +19,9 @@
       "english": "I walked all day and was completely exhausted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17963_tsukarehateru_ex2",
@@ -27,7 +29,9 @@
       "english": "I was so exhausted that I fell asleep as soon as I got home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17963_tsukarehateru_ex3",
@@ -35,7 +39,9 @@
       "english": "After long meetings and overtime one after another, I was completely exhausted both physically and mentally.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nCompound verb: {疲|つか}れる (to get tired) + {果|は}てる (to reach the end). The {果|は}てる suffix is a common intensifier meaning \"to do something to completion\" or \"to the very end.\" Other examples: {使|つか}い{果|は}たす (use up completely), {朽|く}ち{果|は}てる (decay completely).\n\nCOMMON COLLOCATIONS:\n- {疲|つか}れ{果|は}てた{顔|かお} (an utterly exhausted face)\n- {疲|つか}れ{果|は}てた{体|からだ} (a completely worn-out body)\n- {心身|しんしん}ともに{疲|つか}れ{果|は}てる (be exhausted both physically and mentally)\n\nSIMILAR WORDS:\n- {疲|つか}れる: to get tired — basic form, milder degree\n- くたくたになる: to be worn out — colloquial, vivid expression\n- {消耗|しょうもう}する: to be depleted — more formal, can apply to resources as well as energy",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{疲|つか}れ{果|は}てる",
+        "negative": "{疲|つか}れ{果|は}てない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{疲|つか}れ{果|は}てます",
+        "negative": "{疲|つか}れ{果|は}てません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{疲|つか}れ{果|は}てた",
+        "negative": "{疲|つか}れ{果|は}てなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{疲|つか}れ{果|は}てました",
+        "negative": "{疲|つか}れ{果|は}てませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{疲|つか}れ{果|は}てて",
+        "negative": "{疲|つか}れ{果|は}てなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{疲|つか}れ{果|は}てている",
+        "negative": "{疲|つか}れ{果|は}てていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{疲|つか}れ{果|は}てています",
+        "negative": "{疲|つか}れ{果|は}てていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{疲|つか}れ{果|は}てていた",
+        "negative": "{疲|つか}れ{果|は}てていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{疲|つか}れ{果|は}てていました",
+        "negative": "{疲|つか}れ{果|は}てていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{疲|つか}れ{果|は}てれば",
+        "negative": "{疲|つか}れ{果|は}てなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{疲|つか}れ{果|は}てたら",
+        "negative": "{疲|つか}れ{果|は}てなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{疲|つか}れ{果|は}てよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{疲|つか}れ{果|は}てましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{疲|つか}れ{果|は}てられる",
+        "negative": "{疲|つか}れ{果|は}てられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{疲|つか}れ{果|は}てられる",
+        "negative": "{疲|つか}れ{果|は}てられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{疲|つか}れ{果|は}てさせる",
+        "negative": "{疲|つか}れ{果|は}てさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{疲|つか}れ{果|は}てろ",
+        "negative": "{疲|つか}れ{果|は}てるな"
+      }
+    ]
   }
 }

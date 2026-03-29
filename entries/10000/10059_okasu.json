@@ -23,7 +23,9 @@
       "english": "To commit a crime.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10059_okasu_ex2",
@@ -31,7 +33,9 @@
       "english": "I made a serious mistake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10059_okasu_ex3",
@@ -39,7 +43,9 @@
       "english": "To break the law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10059_okasu_ex4",
@@ -47,7 +53,9 @@
       "english": "I won't make the same mistake twice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{犯|おか}す.\n\nHOMOPHONES:\n・{侵|おか}す - to invade, to violate (rights)\n・{冒|おか}す - to brave, to risk\n・{犯|おか}す - to commit (crime) (this entry)\n\nCOMMON PATTERNS:\n・{罪|つみ}を{犯|おか}す (to commit a crime/sin)\n・{法|ほう}を{犯|おか}す (to break the law)\n・ミスを{犯|おか}す (to make a mistake)\n・{過|あやま}ちを{犯|おか}す (to make an error)",
@@ -58,11 +66,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{犯|おか}す",
+        "negative": "{犯|おか}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{犯|おか}します",
+        "negative": "{犯|おか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{犯|おか}した",
+        "negative": "{犯|おか}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{犯|おか}しました",
+        "negative": "{犯|おか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{犯|おか}して",
+        "negative": "{犯|おか}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{犯|おか}している",
+        "negative": "{犯|おか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{犯|おか}しています",
+        "negative": "{犯|おか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{犯|おか}していた",
+        "negative": "{犯|おか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{犯|おか}していました",
+        "negative": "{犯|おか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{犯|おか}せば",
+        "negative": "{犯|おか}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{犯|おか}したら",
+        "negative": "{犯|おか}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{犯|おか}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{犯|おか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{犯|おか}せる",
+        "negative": "{犯|おか}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{犯|おか}される",
+        "negative": "{犯|おか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{犯|おか}させる",
+        "negative": "{犯|おか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{犯|おか}せ",
+        "negative": "{犯|おか}すな"
+      }
+    ]
   }
 }

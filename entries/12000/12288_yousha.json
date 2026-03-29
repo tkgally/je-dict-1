@@ -19,7 +19,9 @@
       "english": "To attack without mercy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12288_yousha_ex2",
@@ -27,7 +29,9 @@
       "english": "Rule violations will not be tolerated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12288_yousha_ex3",
@@ -35,7 +39,9 @@
       "english": "My boss shows no mercy when it comes to work mistakes and strictly points out even the smallest errors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly appears in negative constructions: {容赦|ようしゃ}なく (mercilessly, relentlessly), {容赦|ようしゃ}しない (to show no mercy), {容赦|ようしゃ}ない (merciless). The polite apology phrase ご{容赦|ようしゃ}ください means \"please forgive/excuse\" and appears in formal writing and business communications.\n\nCOMMON COLLOCATIONS:\n- {容赦|ようしゃ}なく: mercilessly, relentlessly\n- {容赦|ようしゃ}しない: to show no mercy\n- {容赦|ようしゃ}ない: merciless, unforgiving\n- ご{容赦|ようしゃ}ください: please forgive, please excuse\n- {容赦|ようしゃ}のない{批判|ひはん}: merciless criticism",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{容赦|ようしゃ}する",
+        "negative": "{容赦|ようしゃ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{容赦|ようしゃ}します",
+        "negative": "{容赦|ようしゃ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{容赦|ようしゃ}した",
+        "negative": "{容赦|ようしゃ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{容赦|ようしゃ}しました",
+        "negative": "{容赦|ようしゃ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{容赦|ようしゃ}して",
+        "negative": "{容赦|ようしゃ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{容赦|ようしゃ}している",
+        "negative": "{容赦|ようしゃ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{容赦|ようしゃ}しています",
+        "negative": "{容赦|ようしゃ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{容赦|ようしゃ}していた",
+        "negative": "{容赦|ようしゃ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{容赦|ようしゃ}していました",
+        "negative": "{容赦|ようしゃ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{容赦|ようしゃ}すれば",
+        "negative": "{容赦|ようしゃ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{容赦|ようしゃ}したら",
+        "negative": "{容赦|ようしゃ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{容赦|ようしゃ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{容赦|ようしゃ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{容赦|ようしゃ}できる",
+        "negative": "{容赦|ようしゃ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{容赦|ようしゃ}される",
+        "negative": "{容赦|ようしゃ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{容赦|ようしゃ}させる",
+        "negative": "{容赦|ようしゃ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{容赦|ようしゃ}しろ",
+        "negative": "{容赦|ようしゃ}するな"
+      }
+    ]
   }
 }

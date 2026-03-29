@@ -22,7 +22,9 @@
       "japanese": "{注文|ちゅうもん}を{取|と}り{消|け}す。",
       "english": "To cancel an order.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{予約|よやく}を{取|と}り{消|け}したいのですが。",
       "english": "I would like to cancel my reservation.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{出発|しゅっぱつ}の{前日|ぜんじつ}にホテルの{予約|よやく}を{取|と}り{消|け}したら、キャンセル{料|りょう}がかかった。",
       "english": "When I canceled the hotel reservation the day before departure, I was charged a cancellation fee.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{彼|かれ}は{自分|じぶん}の{発言|はつげん}を{取|と}り{消|け}した。",
       "english": "He retracted his statement.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{飲酒|いんしゅ}{運転|うんてん}で{免許|めんきょ}を{取|と}り{消|け}された。",
       "english": "His license was revoked for drunk driving.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{裁判所|さいばんしょ}は{証拠|しょうこ}{不十分|ふじゅうぶん}として、{以前|いぜん}の{判決|はんけつ}を{取|と}り{消|け}した。",
       "english": "The court revoked the previous ruling due to insufficient evidence.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -80,7 +92,98 @@
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}り{消|け}す",
+        "negative": "{取|と}り{消|け}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}り{消|け}します",
+        "negative": "{取|と}り{消|け}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}り{消|け}した",
+        "negative": "{取|と}り{消|け}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}り{消|け}しました",
+        "negative": "{取|と}り{消|け}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}り{消|け}して",
+        "negative": "{取|と}り{消|け}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}り{消|け}している",
+        "negative": "{取|と}り{消|け}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}り{消|け}しています",
+        "negative": "{取|と}り{消|け}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}り{消|け}していた",
+        "negative": "{取|と}り{消|け}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}り{消|け}していました",
+        "negative": "{取|と}り{消|け}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}り{消|け}せば",
+        "negative": "{取|と}り{消|け}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}り{消|け}したら",
+        "negative": "{取|と}り{消|け}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}り{消|け}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}り{消|け}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}り{消|け}せる",
+        "negative": "{取|と}り{消|け}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}り{消|け}される",
+        "negative": "{取|と}り{消|け}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}り{消|け}させる",
+        "negative": "{取|と}り{消|け}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}り{消|け}せ",
+        "negative": "{取|と}り{消|け}すな"
+      }
+    ]
   }
 }

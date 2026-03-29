@@ -24,7 +24,9 @@
       "english": "It's a blockbuster movie.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11161_hitto_ex2",
@@ -32,7 +34,9 @@
       "english": "This song reached number one on the hit charts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11161_hitto_ex3",
@@ -40,7 +44,9 @@
       "english": "Her new work became a hit worldwide and even turned into a social phenomenon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11161_hitto_ex4",
@@ -48,7 +54,9 @@
       "english": "He got a hit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11161_hitto_ex5",
@@ -56,7 +64,9 @@
       "english": "I searched and got 100 hits.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11161_hitto_ex6",
@@ -64,7 +74,9 @@
       "english": "Searching with these criteria yields no results.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nヒットする functions as a suru-verb meaning \"to become a hit\" or \"to match/find.\" {大|おお}ヒット is a stronger form meaning \"smash hit\" or \"blockbuster.\"\n\nCOMMON COLLOCATIONS:\n- {大|おお}ヒット: smash hit, blockbuster\n- ヒット{曲|きょく}: hit song\n- ヒット{商品|しょうひん}: hit product, bestselling product\n- ヒットチャート: hit chart, rankings\n- {検索|けんさく}でヒットする: to get search results\n- ヒットを{打|う}つ: to get a hit (baseball)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ヒットする",
+        "negative": "ヒットしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ヒットします",
+        "negative": "ヒットしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ヒットした",
+        "negative": "ヒットしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ヒットしました",
+        "negative": "ヒットしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ヒットして",
+        "negative": "ヒットしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ヒットしている",
+        "negative": "ヒットしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ヒットしています",
+        "negative": "ヒットしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ヒットしていた",
+        "negative": "ヒットしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ヒットしていました",
+        "negative": "ヒットしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ヒットすれば",
+        "negative": "ヒットしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ヒットしたら",
+        "negative": "ヒットしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ヒットしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ヒットしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ヒットできる",
+        "negative": "ヒットできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ヒットされる",
+        "negative": "ヒットされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ヒットさせる",
+        "negative": "ヒットさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ヒットしろ",
+        "negative": "ヒットするな"
+      }
+    ]
   }
 }

@@ -22,7 +22,9 @@
       "japanese": "{着信|ちゃくしん}に{気|き}づかなかった。",
       "english": "I didn't notice the incoming call.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{会議中|かいぎちゅう}に{着信|ちゃくしん}があった。",
       "english": "I got a call during the meeting.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{知|し}らない{番号|ばんごう}からの{着信|ちゃくしん}は{取|と}らないようにしている。",
       "english": "I make it a point not to answer calls from unknown numbers.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "メールが{着信|ちゃくしん}したらお{知|し}らせします。",
       "english": "I'll let you know when the email arrives.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{着信|ちゃくしん}{通知|つうち}をオンにしておく。",
       "english": "I'll leave incoming message notifications on.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{深夜|しんや}にメッセージが{着信|ちゃくしん}して{目|め}が{覚|さ}めた。",
       "english": "A message arrived in the middle of the night and woke me up.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["communication", "technology"],
-      "domain": []
+      "semantic": [
+        "communication",
+        "technology"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{着信|ちゃくしん}する",
+        "negative": "{着信|ちゃくしん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{着信|ちゃくしん}します",
+        "negative": "{着信|ちゃくしん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{着信|ちゃくしん}した",
+        "negative": "{着信|ちゃくしん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{着信|ちゃくしん}しました",
+        "negative": "{着信|ちゃくしん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{着信|ちゃくしん}して",
+        "negative": "{着信|ちゃくしん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{着信|ちゃくしん}している",
+        "negative": "{着信|ちゃくしん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{着信|ちゃくしん}しています",
+        "negative": "{着信|ちゃくしん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{着信|ちゃくしん}していた",
+        "negative": "{着信|ちゃくしん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{着信|ちゃくしん}していました",
+        "negative": "{着信|ちゃくしん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{着信|ちゃくしん}すれば",
+        "negative": "{着信|ちゃくしん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{着信|ちゃくしん}したら",
+        "negative": "{着信|ちゃくしん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{着信|ちゃくしん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{着信|ちゃくしん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{着信|ちゃくしん}できる",
+        "negative": "{着信|ちゃくしん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{着信|ちゃくしん}される",
+        "negative": "{着信|ちゃくしん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{着信|ちゃくしん}させる",
+        "negative": "{着信|ちゃくしん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{着信|ちゃくしん}しろ",
+        "negative": "{着信|ちゃくしん}するな"
+      }
+    ]
   }
 }

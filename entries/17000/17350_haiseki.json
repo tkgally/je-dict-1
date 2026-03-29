@@ -19,7 +19,9 @@
       "english": "Exclusion of foreigners is unacceptable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17350_haiseki_ex2",
@@ -27,7 +29,9 @@
       "english": "You must not reject differing opinions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17350_haiseki_ex3",
@@ -35,7 +39,9 @@
       "english": "Historically, it was not uncommon for minorities to be excluded from society.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA strong, formal word with negative connotations. Often used in discussions of discrimination, xenophobia, and social justice. Can function as a suru verb: {排斥|はいせき}する.\n\nCOMMON COLLOCATIONS:\n- {外国人|がいこくじん}{排斥|はいせき} (xenophobia, exclusion of foreigners)\n- {排斥|はいせき}{運動|うんどう} (boycott movement, exclusion campaign)\n- {排斥|はいせき}する (to reject, to exclude)\n\nSIMILAR WORDS:\n- {排除|はいじょ}する: to eliminate, to remove — focuses on removal rather than social rejection\n- {差別|さべつ}: discrimination — broader concept of unfair treatment",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{排斥|はいせき}する",
+        "negative": "{排斥|はいせき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{排斥|はいせき}します",
+        "negative": "{排斥|はいせき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{排斥|はいせき}した",
+        "negative": "{排斥|はいせき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{排斥|はいせき}しました",
+        "negative": "{排斥|はいせき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{排斥|はいせき}して",
+        "negative": "{排斥|はいせき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{排斥|はいせき}している",
+        "negative": "{排斥|はいせき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{排斥|はいせき}しています",
+        "negative": "{排斥|はいせき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{排斥|はいせき}していた",
+        "negative": "{排斥|はいせき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{排斥|はいせき}していました",
+        "negative": "{排斥|はいせき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{排斥|はいせき}すれば",
+        "negative": "{排斥|はいせき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{排斥|はいせき}したら",
+        "negative": "{排斥|はいせき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{排斥|はいせき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{排斥|はいせき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{排斥|はいせき}できる",
+        "negative": "{排斥|はいせき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{排斥|はいせき}される",
+        "negative": "{排斥|はいせき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{排斥|はいせき}させる",
+        "negative": "{排斥|はいせき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{排斥|はいせき}しろ",
+        "negative": "{排斥|はいせき}するな"
+      }
+    ]
   }
 }

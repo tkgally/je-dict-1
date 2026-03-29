@@ -19,7 +19,9 @@
       "english": "I used my full command of English to negotiate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14682_kushi_ex2",
@@ -27,7 +29,9 @@
       "english": "It's a product that makes full use of the latest technology.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14682_kushi_ex3",
@@ -35,7 +39,9 @@
       "english": "They used all their connections and knowledge to make the difficult project a success.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Implies skilled, confident use rather than basic use. Always positive — conveys mastery rather than mere utilization.\n\nPARTICLE PATTERNS:\n- ～を{駆使|くし}する (make full use of ~)\n\nCOMMON COLLOCATIONS:\n- {語学力|ごがくりょく}を{駆使|くし}する (make full use of language skills)\n- {技術|ぎじゅつ}を{駆使|くし}する (make full use of technology)\n- {知識|ちしき}を{駆使|くし}する (make full use of knowledge)\n- あらゆる{手段|しゅだん}を{駆使|くし}する (use every means available)\n\nSIMILAR WORDS:\n- {使|つか}う is the neutral word for \"use\"\n- {活用|かつよう}する means to make practical use of\n- {駆使|くし}する implies mastery and full exploitation of one's abilities",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{駆使|くし}する",
+        "negative": "{駆使|くし}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{駆使|くし}します",
+        "negative": "{駆使|くし}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{駆使|くし}した",
+        "negative": "{駆使|くし}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{駆使|くし}しました",
+        "negative": "{駆使|くし}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{駆使|くし}して",
+        "negative": "{駆使|くし}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{駆使|くし}している",
+        "negative": "{駆使|くし}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{駆使|くし}しています",
+        "negative": "{駆使|くし}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{駆使|くし}していた",
+        "negative": "{駆使|くし}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{駆使|くし}していました",
+        "negative": "{駆使|くし}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{駆使|くし}すれば",
+        "negative": "{駆使|くし}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{駆使|くし}したら",
+        "negative": "{駆使|くし}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{駆使|くし}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{駆使|くし}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{駆使|くし}できる",
+        "negative": "{駆使|くし}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{駆使|くし}される",
+        "negative": "{駆使|くし}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{駆使|くし}させる",
+        "negative": "{駆使|くし}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{駆使|くし}しろ",
+        "negative": "{駆使|くし}するな"
+      }
+    ]
   }
 }

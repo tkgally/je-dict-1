@@ -19,7 +19,9 @@
       "english": "The victim was struck on the head.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18187_ouda_ex2",
@@ -27,7 +29,9 @@
       "english": "He was arrested for assault causing injury.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18187_ouda_ex3",
@@ -35,7 +39,9 @@
       "english": "The security camera footage showed the suspect striking the victim.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word that appears almost exclusively in news reports, police records, and legal documents. In everyday speech, {殴|なぐ}る (to punch) or {叩|たた}く (to hit) are used instead. Often seen in crime reporting alongside terms like {傷害|しょうがい} (injury/assault).\n\nCOMMON COLLOCATIONS:\n- {殴打|おうだ}する (to strike, to beat)\n- {殴打|おうだ}による{死亡|しぼう} (death by beating)\n- {頭部|とうぶ}を{殴打|おうだ}する (to strike on the head)\n\nSIMILAR WORDS:\n- {殴|なぐ}る: to punch, to hit — everyday word for striking someone\n- {暴行|ぼうこう}: assault, violence — broader legal term covering various types of physical attack",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["legal"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{殴打|おうだ}する",
+        "negative": "{殴打|おうだ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{殴打|おうだ}します",
+        "negative": "{殴打|おうだ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{殴打|おうだ}した",
+        "negative": "{殴打|おうだ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{殴打|おうだ}しました",
+        "negative": "{殴打|おうだ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{殴打|おうだ}して",
+        "negative": "{殴打|おうだ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{殴打|おうだ}している",
+        "negative": "{殴打|おうだ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{殴打|おうだ}しています",
+        "negative": "{殴打|おうだ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{殴打|おうだ}していた",
+        "negative": "{殴打|おうだ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{殴打|おうだ}していました",
+        "negative": "{殴打|おうだ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{殴打|おうだ}すれば",
+        "negative": "{殴打|おうだ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{殴打|おうだ}したら",
+        "negative": "{殴打|おうだ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{殴打|おうだ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{殴打|おうだ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{殴打|おうだ}できる",
+        "negative": "{殴打|おうだ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{殴打|おうだ}される",
+        "negative": "{殴打|おうだ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{殴打|おうだ}させる",
+        "negative": "{殴打|おうだ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{殴打|おうだ}しろ",
+        "negative": "{殴打|おうだ}するな"
+      }
+    ]
   }
 }

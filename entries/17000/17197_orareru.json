@@ -19,7 +19,9 @@
       "english": "Is the teacher here?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17197_orareru_ex2",
@@ -27,7 +29,9 @@
       "english": "The president is in the conference room now.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17197_orareru_ex3",
@@ -35,7 +39,9 @@
       "english": "Is there a doctor among the passengers?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nおられる is the honorific form of おる (to be). It is widely used in Kansai dialect and formal business Japanese to respectfully refer to someone's presence or state. In standard Tokyo Japanese, いらっしゃる is the more common honorific form of いる.\n\nFORMALITY:\nUsed in polite and formal speech. Common in business settings, customer service, and when speaking about superiors.\n\nREGIONAL NOTE:\nParticularly common in western Japan (Kansai region), where おる is the standard informal equivalent of いる. In eastern Japan, some speakers consider おられる grammatically debatable since おる can be seen as humble rather than neutral.\n\nCONJUGATION:\n- おられます (polite)\n- おられない (negative)\n- おられた (past)\n\nSIMILAR WORDS:\n- いらっしゃる: the standard honorific for いる/{行|い}く/{来|く}る — more universally accepted across regions\n- おる: humble or neutral form of いる, depending on region",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["keigo"]
+      "semantic": [
+        "keigo"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "おられる",
+        "negative": "おられない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "おられます",
+        "negative": "おられません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "おられた",
+        "negative": "おられなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "おられました",
+        "negative": "おられませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "おられて",
+        "negative": "おられなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "おられている",
+        "negative": "おられていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "おられています",
+        "negative": "おられていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "おられていた",
+        "negative": "おられていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "おられていました",
+        "negative": "おられていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "おられれば",
+        "negative": "おられなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "おられたら",
+        "negative": "おられなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "おられよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "おられましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "おられられる",
+        "negative": "おられられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "おられられる",
+        "negative": "おられられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "おられさせる",
+        "negative": "おられさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "おられろ",
+        "negative": "おられるな"
+      }
+    ]
   }
 }

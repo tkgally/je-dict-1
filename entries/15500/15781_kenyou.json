@@ -19,7 +19,9 @@
       "english": "This sofa also serves as a bed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15781_kenyou_ex2",
@@ -27,7 +29,9 @@
       "english": "I bought an umbrella that works for both rain and sun.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15781_kenyou_ex3",
@@ -35,7 +39,9 @@
       "english": "This room serves as both a study and a bedroom, so it's a bit cramped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{兼用|けんよう} can be used as a noun, a no-adjective, or a suru-verb. As a noun modifier, it often appears with の: {兼用|けんよう}の{部屋|へや}. It is also commonly used in compound forms with a preceding word describing what is being combined: {晴雨|せいう}{兼用|けんよう} (for rain and shine), {男女|だんじょ}{兼用|けんよう} (unisex).\n\nCOMMON COLLOCATIONS:\n- {晴雨|せいう}{兼用|けんよう} (for sun and rain)\n- {男女|だんじょ}{兼用|けんよう} (unisex)\n- ベッド{兼用|けんよう} (doubling as a bed)\n- AとBを{兼用|けんよう}する (use something for both A and B)\n\nSIMILAR WORDS:\n{併用|へいよう} means \"using two things together\" simultaneously (e.g., two medications). {兼用|けんよう} means one thing serving two purposes. {多目的|たもくてき} means \"multipurpose\" and is used for facilities designed for varied uses.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{兼用|けんよう}する",
+        "negative": "{兼用|けんよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{兼用|けんよう}します",
+        "negative": "{兼用|けんよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{兼用|けんよう}した",
+        "negative": "{兼用|けんよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{兼用|けんよう}しました",
+        "negative": "{兼用|けんよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{兼用|けんよう}して",
+        "negative": "{兼用|けんよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{兼用|けんよう}している",
+        "negative": "{兼用|けんよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{兼用|けんよう}しています",
+        "negative": "{兼用|けんよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{兼用|けんよう}していた",
+        "negative": "{兼用|けんよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{兼用|けんよう}していました",
+        "negative": "{兼用|けんよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{兼用|けんよう}すれば",
+        "negative": "{兼用|けんよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{兼用|けんよう}したら",
+        "negative": "{兼用|けんよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{兼用|けんよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{兼用|けんよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{兼用|けんよう}できる",
+        "negative": "{兼用|けんよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{兼用|けんよう}される",
+        "negative": "{兼用|けんよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{兼用|けんよう}させる",
+        "negative": "{兼用|けんよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{兼用|けんよう}しろ",
+        "negative": "{兼用|けんよう}するな"
+      }
+    ]
   }
 }

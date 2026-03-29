@@ -19,7 +19,9 @@
       "english": "Force quit the app.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14854_kyouseishuuryou_ex2",
@@ -27,7 +29,9 @@
       "english": "My computer froze, so I did a forced shutdown.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14854_kyouseishuuryou_ex3",
@@ -35,7 +39,9 @@
       "english": "I force-quit without saving, and all the data I was working on was lost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{強制終了|きょうせいしゅうりょう} is a compound of {強制|きょうせい} (forced, compulsory) and {終了|しゅうりょう} (end, termination). It is the standard Japanese term for \"force quit\" in computing.\n\nCOMMON COLLOCATIONS:\n- アプリを{強制終了|きょうせいしゅうりょう}する (force quit an app)\n- {強制終了|きょうせいしゅうりょう}させる (cause to force quit)\n- {強制終了|きょうせいしゅうりょう}の{方法|ほうほう} (how to force quit)\n\nRELATED TERMS:\n- {再起動|さいきどう} (restart/reboot)\n- フリーズする (to freeze, become unresponsive)\n- {応答|おうとう}なし (not responding)\n\nAlso used outside computing to mean forcibly ending something: {番組|ばんぐみ}の{強制終了|きょうせいしゅうりょう} (forced cancellation of a program).",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}する",
+        "negative": "{強制終了|きょうせいしゅうりょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}します",
+        "negative": "{強制終了|きょうせいしゅうりょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}した",
+        "negative": "{強制終了|きょうせいしゅうりょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}しました",
+        "negative": "{強制終了|きょうせいしゅうりょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}して",
+        "negative": "{強制終了|きょうせいしゅうりょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}している",
+        "negative": "{強制終了|きょうせいしゅうりょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}しています",
+        "negative": "{強制終了|きょうせいしゅうりょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}していた",
+        "negative": "{強制終了|きょうせいしゅうりょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}していました",
+        "negative": "{強制終了|きょうせいしゅうりょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}すれば",
+        "negative": "{強制終了|きょうせいしゅうりょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}したら",
+        "negative": "{強制終了|きょうせいしゅうりょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}できる",
+        "negative": "{強制終了|きょうせいしゅうりょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}される",
+        "negative": "{強制終了|きょうせいしゅうりょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}させる",
+        "negative": "{強制終了|きょうせいしゅうりょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{強制終了|きょうせいしゅうりょう}しろ",
+        "negative": "{強制終了|きょうせいしゅうりょう}するな"
+      }
+    ]
   }
 }

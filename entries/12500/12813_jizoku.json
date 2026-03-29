@@ -19,7 +19,9 @@
       "english": "To sustain one's efforts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12813_jizoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The effect of this medicine lasts about six hours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12813_jizoku_ex3",
@@ -35,7 +39,9 @@
       "english": "Individual actions are important to realize a sustainable society.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{持続|じぞく} emphasizes maintaining something over time. It is used both as a noun and as a suru verb. The compound {持続|じぞく}{可能|かのう} (\"sustainable\") has become very common in discussions of environmental and social policy.\n\nCOMMON COLLOCATIONS:\n- {持続|じぞく}{可能|かのう}: sustainable\n- {持続|じぞく}{力|りょく}: endurance, staying power\n- {持続|じぞく}{的|てき}: continuous, sustained\n- {効果|こうか}が{持続|じぞく}する: the effect lasts\n- {成長|せいちょう}を{持続|じぞく}する: to sustain growth",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{持続|じぞく}する",
+        "negative": "{持続|じぞく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{持続|じぞく}します",
+        "negative": "{持続|じぞく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{持続|じぞく}した",
+        "negative": "{持続|じぞく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{持続|じぞく}しました",
+        "negative": "{持続|じぞく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{持続|じぞく}して",
+        "negative": "{持続|じぞく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{持続|じぞく}している",
+        "negative": "{持続|じぞく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{持続|じぞく}しています",
+        "negative": "{持続|じぞく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{持続|じぞく}していた",
+        "negative": "{持続|じぞく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{持続|じぞく}していました",
+        "negative": "{持続|じぞく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{持続|じぞく}すれば",
+        "negative": "{持続|じぞく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{持続|じぞく}したら",
+        "negative": "{持続|じぞく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{持続|じぞく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{持続|じぞく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{持続|じぞく}できる",
+        "negative": "{持続|じぞく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{持続|じぞく}される",
+        "negative": "{持続|じぞく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{持続|じぞく}させる",
+        "negative": "{持続|じぞく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{持続|じぞく}しろ",
+        "negative": "{持続|じぞく}するな"
+      }
+    ]
   }
 }

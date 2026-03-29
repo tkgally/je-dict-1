@@ -19,7 +19,9 @@
       "english": "Illegal parking was cracked down on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12935_tekihatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of drunk driving crackdowns is increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12935_tekihatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The police uncovered a large-scale fraud ring and arrested those involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Primarily appears in news and legal contexts. Implies an official or authoritative action to uncover and address illegal or improper behavior. The agent is typically law enforcement, regulators, or investigative authorities.\n\nCOMMON COLLOCATIONS:\n- {摘発|てきはつ}する: to expose, to crack down on\n- {摘発|てきはつ}される: to be exposed, to be caught\n- {摘発|てきはつ}{件数|けんすう}: number of cases exposed/cracked down on\n- {不正|ふせい}を{摘発|てきはつ}する: to uncover fraud/irregularities\n\nSIMILAR WORDS:\n- {告発|こくはつ}: accusation, indictment (formal legal action)\n- {暴露|ばくろ}: exposure, revelation (of secrets, not necessarily criminal)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["action"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{摘発|てきはつ}する",
+        "negative": "{摘発|てきはつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{摘発|てきはつ}します",
+        "negative": "{摘発|てきはつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{摘発|てきはつ}した",
+        "negative": "{摘発|てきはつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{摘発|てきはつ}しました",
+        "negative": "{摘発|てきはつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{摘発|てきはつ}して",
+        "negative": "{摘発|てきはつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{摘発|てきはつ}している",
+        "negative": "{摘発|てきはつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{摘発|てきはつ}しています",
+        "negative": "{摘発|てきはつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{摘発|てきはつ}していた",
+        "negative": "{摘発|てきはつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{摘発|てきはつ}していました",
+        "negative": "{摘発|てきはつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{摘発|てきはつ}すれば",
+        "negative": "{摘発|てきはつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{摘発|てきはつ}したら",
+        "negative": "{摘発|てきはつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{摘発|てきはつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{摘発|てきはつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{摘発|てきはつ}できる",
+        "negative": "{摘発|てきはつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{摘発|てきはつ}される",
+        "negative": "{摘発|てきはつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{摘発|てきはつ}させる",
+        "negative": "{摘発|てきはつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{摘発|てきはつ}しろ",
+        "negative": "{摘発|てきはつ}するな"
+      }
+    ]
   }
 }

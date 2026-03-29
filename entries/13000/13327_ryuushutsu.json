@@ -19,7 +19,9 @@
       "english": "Personal information was leaked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13327_ryuushutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The exodus of young people to cities is a problem for rural areas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13327_ryuushutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "We must prevent harmful substances from flowing out of the factory into the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term frequently used in news reporting. Particularly common in contexts of data breaches ({情報|じょうほう}{流出|りゅうしゅつ}), population movement ({人口|じんこう}{流出|りゅうしゅつ}), and environmental incidents ({油|あぶら}の{流出|りゅうしゅつ} — oil spill). The opposite is {流入|りゅうにゅう} (inflow).\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{流出|りゅうしゅつ}: information leak\n- {人口|じんこう}{流出|りゅうしゅつ}: population drain\n- {資金|しきん}の{流出|りゅうしゅつ}: capital outflow\n- {流出|りゅうしゅつ}を{防|ふせ}ぐ: to prevent a leak/outflow",
@@ -53,10 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["motion", "economics"]
+      "semantic": [
+        "motion",
+        "economics"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{流出|りゅうしゅつ}する",
+        "negative": "{流出|りゅうしゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{流出|りゅうしゅつ}します",
+        "negative": "{流出|りゅうしゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{流出|りゅうしゅつ}した",
+        "negative": "{流出|りゅうしゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{流出|りゅうしゅつ}しました",
+        "negative": "{流出|りゅうしゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{流出|りゅうしゅつ}して",
+        "negative": "{流出|りゅうしゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{流出|りゅうしゅつ}している",
+        "negative": "{流出|りゅうしゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{流出|りゅうしゅつ}しています",
+        "negative": "{流出|りゅうしゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{流出|りゅうしゅつ}していた",
+        "negative": "{流出|りゅうしゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{流出|りゅうしゅつ}していました",
+        "negative": "{流出|りゅうしゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{流出|りゅうしゅつ}すれば",
+        "negative": "{流出|りゅうしゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{流出|りゅうしゅつ}したら",
+        "negative": "{流出|りゅうしゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{流出|りゅうしゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{流出|りゅうしゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{流出|りゅうしゅつ}できる",
+        "negative": "{流出|りゅうしゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{流出|りゅうしゅつ}される",
+        "negative": "{流出|りゅうしゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{流出|りゅうしゅつ}させる",
+        "negative": "{流出|りゅうしゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{流出|りゅうしゅつ}しろ",
+        "negative": "{流出|りゅうしゅつ}するな"
+      }
+    ]
   }
 }

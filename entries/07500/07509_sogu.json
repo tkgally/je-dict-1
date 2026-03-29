@@ -22,7 +22,9 @@
       "japanese": "{鰹節|かつおぶし}を{薄|うす}く{削|そ}ぐ。",
       "english": "Shave the dried bonito into thin slices.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{鶏肉|とりにく}を{削|そ}ぎ{切|ぎ}りにする。",
       "english": "Cut the chicken into thin diagonal slices.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{竹|たけ}の{表面|ひょうめん}をナイフで{削|そ}いで{滑|なめ}らかにした。",
       "english": "I shaved the surface of the bamboo smooth with a knife.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "やる{気|き}を{削|そ}ぐような{発言|はつげん}はやめてほしい。",
       "english": "I wish you'd stop making comments that dampen my motivation.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{長|なが}い{会議|かいぎ}が{集中力|しゅうちゅうりょく}を{削|そ}いだ。",
       "english": "The long meeting sapped my concentration.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{度重|たびかさ}なる{失敗|しっぱい}がチームの{勢|いきお}いを{削|そ}いでしまった。",
       "english": "Repeated failures diminished the team's momentum.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,11 +85,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "semantic": ["action"],
-      "domain": []
+      "semantic": [
+        "action"
+      ],
+      "domain": [],
+      "verb_class": "godan-gu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{削|そ}ぐ",
+        "negative": "{削|そ}がない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{削|そ}ぎます",
+        "negative": "{削|そ}ぎません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{削|そ}いだ",
+        "negative": "{削|そ}がなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{削|そ}ぎました",
+        "negative": "{削|そ}ぎませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{削|そ}いで",
+        "negative": "{削|そ}がなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{削|そ}いでいる",
+        "negative": "{削|そ}いでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{削|そ}いでいます",
+        "negative": "{削|そ}いでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{削|そ}いでいた",
+        "negative": "{削|そ}いでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{削|そ}いでいました",
+        "negative": "{削|そ}いでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{削|そ}げば",
+        "negative": "{削|そ}がなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{削|そ}いだら",
+        "negative": "{削|そ}がなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{削|そ}ごう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{削|そ}ぎましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{削|そ}げる",
+        "negative": "{削|そ}げない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{削|そ}がれる",
+        "negative": "{削|そ}がれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{削|そ}がせる",
+        "negative": "{削|そ}がせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{削|そ}げ",
+        "negative": "{削|そ}ぐな"
+      }
+    ]
   }
 }

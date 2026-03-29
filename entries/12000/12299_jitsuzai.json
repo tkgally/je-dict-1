@@ -19,7 +19,9 @@
       "english": "It was modeled on a real person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12299_jitsuzai_ex2",
@@ -27,7 +29,9 @@
       "english": "This story is based on a real incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12299_jitsuzai_ex3",
@@ -35,7 +39,9 @@
       "english": "Whether he truly existed is a matter of debate even among historians.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{実在|じつざい} combines {実|じつ} (actual, real) and {在|ざい} (existence). It can function as a noun or as a suru verb ({実在|じつざい}する).\n\nCOMMON COLLOCATIONS:\n- {実在|じつざい}の{人物|じんぶつ} (real person)\n- {実在|じつざい}する{場所|ばしょ} (real place)\n- {実在|じつざい}が{確認|かくにん}される (existence is confirmed)\n\nSIMILAR WORDS:\n- {存在|そんざい} is the general word for existence, while {実在|じつざい} specifically emphasizes being real as opposed to fictional or imaginary.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{実在|じつざい}する",
+        "negative": "{実在|じつざい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{実在|じつざい}します",
+        "negative": "{実在|じつざい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{実在|じつざい}した",
+        "negative": "{実在|じつざい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{実在|じつざい}しました",
+        "negative": "{実在|じつざい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{実在|じつざい}して",
+        "negative": "{実在|じつざい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{実在|じつざい}している",
+        "negative": "{実在|じつざい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{実在|じつざい}しています",
+        "negative": "{実在|じつざい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{実在|じつざい}していた",
+        "negative": "{実在|じつざい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{実在|じつざい}していました",
+        "negative": "{実在|じつざい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{実在|じつざい}すれば",
+        "negative": "{実在|じつざい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{実在|じつざい}したら",
+        "negative": "{実在|じつざい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{実在|じつざい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{実在|じつざい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{実在|じつざい}できる",
+        "negative": "{実在|じつざい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{実在|じつざい}される",
+        "negative": "{実在|じつざい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{実在|じつざい}させる",
+        "negative": "{実在|じつざい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{実在|じつざい}しろ",
+        "negative": "{実在|じつざい}するな"
+      }
+    ]
   }
 }

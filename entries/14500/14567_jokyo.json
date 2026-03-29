@@ -19,7 +19,9 @@
       "english": "Remove the stain.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14567_jokyo_ex2",
@@ -27,7 +29,9 @@
       "english": "The tumor was removed by surgery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14567_jokyo_ex3",
@@ -35,7 +39,9 @@
       "english": "Landmine removal work is dangerous, but essential for peace.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A する verb used across many domains. More formal than {取|と}り{除|のぞ}く (to remove), which is the everyday equivalent.\n\nCOMMON COLLOCATIONS:\n- {汚|よご}れを{除去|じょきょ}する (to remove stains/dirt)\n- {障害|しょうがい}を{除去|じょきょ}する (to remove obstacles)\n- {不純物|ふじゅんぶつ}を{除去|じょきょ}する (to remove impurities)\n- {地雷|じらい}{除去|じょきょ} (landmine removal)\n- {除去|じょきょ}{手術|しゅじゅつ} (removal surgery)\n\nSIMILAR WORDS:\n- {撤去|てっきょ} — removal of structures or installations (demolition, dismantling)\n- {除去|じょきょ} — removal of substances, contaminants, or harmful things",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{除去|じょきょ}する",
+        "negative": "{除去|じょきょ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{除去|じょきょ}します",
+        "negative": "{除去|じょきょ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{除去|じょきょ}した",
+        "negative": "{除去|じょきょ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{除去|じょきょ}しました",
+        "negative": "{除去|じょきょ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{除去|じょきょ}して",
+        "negative": "{除去|じょきょ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{除去|じょきょ}している",
+        "negative": "{除去|じょきょ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{除去|じょきょ}しています",
+        "negative": "{除去|じょきょ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{除去|じょきょ}していた",
+        "negative": "{除去|じょきょ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{除去|じょきょ}していました",
+        "negative": "{除去|じょきょ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{除去|じょきょ}すれば",
+        "negative": "{除去|じょきょ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{除去|じょきょ}したら",
+        "negative": "{除去|じょきょ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{除去|じょきょ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{除去|じょきょ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{除去|じょきょ}できる",
+        "negative": "{除去|じょきょ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{除去|じょきょ}される",
+        "negative": "{除去|じょきょ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{除去|じょきょ}させる",
+        "negative": "{除去|じょきょ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{除去|じょきょ}しろ",
+        "negative": "{除去|じょきょ}するな"
+      }
+    ]
   }
 }

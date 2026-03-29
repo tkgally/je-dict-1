@@ -19,7 +19,9 @@
       "english": "She broke down in tears on the spot.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13342_nakikuzureru_ex2",
@@ -27,7 +29,9 @@
       "english": "She collapsed in tears upon hearing the news of the death.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13342_nakikuzureru_ex3",
@@ -35,7 +39,9 @@
       "english": "The bereaved family broke down in tears in front of the coffin, supported by those around them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb combining {泣|な}く (to cry) and {崩|くず}れる (to collapse/crumble). The word vividly conveys both the emotional intensity and the physical collapse that accompanies overwhelming grief. It is frequently used in news reports, novels, and dramatic narratives.\n\nAlmost always used in the context of grief, tragic news, or intense emotional shock. Rarely used for happy crying.\n\nSIMILAR WORDS:\n- {泣|な}く: to cry (general)\n- {泣|な}きじゃくる: to sob convulsively (intense but without the physical collapse)\n- {号泣|ごうきゅう}する: to wail, to cry loudly",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{泣|な}き{崩|くず}れる",
+        "negative": "{泣|な}き{崩|くず}れない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{泣|な}き{崩|くず}れます",
+        "negative": "{泣|な}き{崩|くず}れません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{泣|な}き{崩|くず}れた",
+        "negative": "{泣|な}き{崩|くず}れなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{泣|な}き{崩|くず}れました",
+        "negative": "{泣|な}き{崩|くず}れませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{泣|な}き{崩|くず}れて",
+        "negative": "{泣|な}き{崩|くず}れなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{泣|な}き{崩|くず}れている",
+        "negative": "{泣|な}き{崩|くず}れていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{泣|な}き{崩|くず}れています",
+        "negative": "{泣|な}き{崩|くず}れていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{泣|な}き{崩|くず}れていた",
+        "negative": "{泣|な}き{崩|くず}れていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{泣|な}き{崩|くず}れていました",
+        "negative": "{泣|な}き{崩|くず}れていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{泣|な}き{崩|くず}れれば",
+        "negative": "{泣|な}き{崩|くず}れなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{泣|な}き{崩|くず}れたら",
+        "negative": "{泣|な}き{崩|くず}れなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{泣|な}き{崩|くず}れよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{泣|な}き{崩|くず}れましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{泣|な}き{崩|くず}れられる",
+        "negative": "{泣|な}き{崩|くず}れられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{泣|な}き{崩|くず}れられる",
+        "negative": "{泣|な}き{崩|くず}れられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{泣|な}き{崩|くず}れさせる",
+        "negative": "{泣|な}き{崩|くず}れさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{泣|な}き{崩|くず}れろ",
+        "negative": "{泣|な}き{崩|くず}れるな"
+      }
+    ]
   }
 }

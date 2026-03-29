@@ -16,7 +16,9 @@
       "id": "10033_ikei_ex1",
       "japanese": "{畏敬|いけい}の{念|ねん}を{抱|いだ}く。",
       "english": "To hold a feeling of awe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "10033_ikei_ex2",
       "japanese": "{自然|しぜん}に{対|たい}する{畏敬|いけい}の{念|ねん}。",
       "english": "A sense of reverence toward nature.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "10033_ikei_ex3",
       "japanese": "{偉大|いだい}な{芸術家|げいじゅつか}に{畏敬|いけい}の{念|ねん}を{持|も}つ。",
       "english": "To have profound respect for a great artist.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -40,7 +46,9 @@
       "id": "10033_ikei_ex4",
       "japanese": "{人々|ひとびと}は{古代|こだい}の{遺跡|いせき}を{畏敬|いけい}の{目|め}で{見|み}た。",
       "english": "People looked at the ancient ruins with awe.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -53,10 +61,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion", "interpersonal"]
+      "semantic": [
+        "emotion",
+        "interpersonal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{畏敬|いけい}する",
+        "negative": "{畏敬|いけい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{畏敬|いけい}します",
+        "negative": "{畏敬|いけい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{畏敬|いけい}した",
+        "negative": "{畏敬|いけい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{畏敬|いけい}しました",
+        "negative": "{畏敬|いけい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{畏敬|いけい}して",
+        "negative": "{畏敬|いけい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{畏敬|いけい}している",
+        "negative": "{畏敬|いけい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{畏敬|いけい}しています",
+        "negative": "{畏敬|いけい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{畏敬|いけい}していた",
+        "negative": "{畏敬|いけい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{畏敬|いけい}していました",
+        "negative": "{畏敬|いけい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{畏敬|いけい}すれば",
+        "negative": "{畏敬|いけい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{畏敬|いけい}したら",
+        "negative": "{畏敬|いけい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{畏敬|いけい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{畏敬|いけい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{畏敬|いけい}できる",
+        "negative": "{畏敬|いけい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{畏敬|いけい}される",
+        "negative": "{畏敬|いけい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{畏敬|いけい}させる",
+        "negative": "{畏敬|いけい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{畏敬|いけい}しろ",
+        "negative": "{畏敬|いけい}するな"
+      }
+    ]
   }
 }

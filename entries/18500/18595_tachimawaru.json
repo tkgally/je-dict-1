@@ -24,7 +24,9 @@
       "english": "He's someone who maneuvers well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18595_tachimawaru_ex2",
@@ -32,7 +34,9 @@
       "english": "She skillfully maneuvers between her boss and subordinates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18595_tachimawaru_ex3",
@@ -40,7 +44,9 @@
       "english": "He maneuvered skillfully within the factions and got promoted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18595_tachimawaru_ex4",
@@ -48,7 +54,9 @@
       "english": "The detective went around the area near the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18595_tachimawaru_ex5",
@@ -56,7 +64,9 @@
       "english": "The reporter moved among the parties involved to gather information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18595_tachimawaru_ex6",
@@ -64,7 +74,9 @@
       "english": "The police went around the suspect's home and workplace to continue the investigation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is the more common usage in everyday conversation, often with うまく (skillfully). It implies political savvy or social dexterity. Sense 2 is used more in journalistic or investigative contexts.\n\nCOMMON COLLOCATIONS:\n- うまく{立|た}ち{回|まわ}る (to maneuver skillfully)\n- {巧|たく}みに{立|た}ち{回|まわ}る (to maneuver cleverly)\n- {現場|げんば}を{立|た}ち{回|まわ}る (to go around the scene)\n\nRELATED:\n- {立|た}ち{回|まわ}り: sword fight (in kabuki/film) — a different compound noun",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{立|た}ち{回|まわ}る",
+        "negative": "{立|た}ち{回|まわ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{立|た}ち{回|まわ}ります",
+        "negative": "{立|た}ち{回|まわ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{立|た}ち{回|まわ}った",
+        "negative": "{立|た}ち{回|まわ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{立|た}ち{回|まわ}りました",
+        "negative": "{立|た}ち{回|まわ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{立|た}ち{回|まわ}って",
+        "negative": "{立|た}ち{回|まわ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{立|た}ち{回|まわ}っている",
+        "negative": "{立|た}ち{回|まわ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{立|た}ち{回|まわ}っています",
+        "negative": "{立|た}ち{回|まわ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{立|た}ち{回|まわ}っていた",
+        "negative": "{立|た}ち{回|まわ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{立|た}ち{回|まわ}っていました",
+        "negative": "{立|た}ち{回|まわ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{立|た}ち{回|まわ}れば",
+        "negative": "{立|た}ち{回|まわ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{立|た}ち{回|まわ}ったら",
+        "negative": "{立|た}ち{回|まわ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{立|た}ち{回|まわ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{立|た}ち{回|まわ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{立|た}ち{回|まわ}れる",
+        "negative": "{立|た}ち{回|まわ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{立|た}ち{回|まわ}られる",
+        "negative": "{立|た}ち{回|まわ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{立|た}ち{回|まわ}らせる",
+        "negative": "{立|た}ち{回|まわ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{立|た}ち{回|まわ}れ",
+        "negative": "{立|た}ち{回|まわ}るな"
+      }
+    ]
   }
 }

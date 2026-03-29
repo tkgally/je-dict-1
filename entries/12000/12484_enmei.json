@@ -19,7 +19,9 @@
       "english": "Should we continue life-prolonging treatment?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12484_enmei_ex2",
@@ -27,7 +29,9 @@
       "english": "The family discussed life-sustaining measures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12484_enmei_ex3",
@@ -35,7 +39,9 @@
       "english": "Life-extension work was carried out on the aging bridge, and it is expected to last another 20 years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in medical contexts as {延命|えんめい}{治療|ちりょう} (life-prolonging treatment) or {延命|えんめい}{措置|そち} (life-sustaining measures), which are frequently discussed in the context of end-of-life care and bioethics in Japan. Also used figuratively for infrastructure, equipment, and organizations: {建物|たてもの}の{延命|えんめい} (extending the life of a building).\n\nCOMMON COLLOCATIONS:\n- {延命|えんめい}{治療|ちりょう}: life-prolonging treatment\n- {延命|えんめい}{措置|そち}: life-sustaining measures\n- {延命|えんめい}{工事|こうじ}: life-extension construction\n- {延命|えんめい}を{図|はか}る: aim to extend the lifespan",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "domain": ["medical"]
+      "semantic": [
+        "existence"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{延命|えんめい}する",
+        "negative": "{延命|えんめい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{延命|えんめい}します",
+        "negative": "{延命|えんめい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{延命|えんめい}した",
+        "negative": "{延命|えんめい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{延命|えんめい}しました",
+        "negative": "{延命|えんめい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{延命|えんめい}して",
+        "negative": "{延命|えんめい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{延命|えんめい}している",
+        "negative": "{延命|えんめい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{延命|えんめい}しています",
+        "negative": "{延命|えんめい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{延命|えんめい}していた",
+        "negative": "{延命|えんめい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{延命|えんめい}していました",
+        "negative": "{延命|えんめい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{延命|えんめい}すれば",
+        "negative": "{延命|えんめい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{延命|えんめい}したら",
+        "negative": "{延命|えんめい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{延命|えんめい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{延命|えんめい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{延命|えんめい}できる",
+        "negative": "{延命|えんめい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{延命|えんめい}される",
+        "negative": "{延命|えんめい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{延命|えんめい}させる",
+        "negative": "{延命|えんめい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{延命|えんめい}しろ",
+        "negative": "{延命|えんめい}するな"
+      }
+    ]
   }
 }

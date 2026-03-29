@@ -24,7 +24,9 @@
       "english": "To dress the child.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13684_kiseru_ex2",
@@ -32,7 +34,9 @@
       "english": "I put a warm coat on the baby.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13684_kiseru_ex3",
@@ -40,7 +44,9 @@
       "english": "I dressed the doll in a cute outfit and displayed it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13684_kiseru_ex4",
@@ -48,7 +54,9 @@
       "english": "To pin the blame on someone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13684_kiseru_ex5",
@@ -56,7 +64,9 @@
       "english": "You must not pin a crime on an innocent person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13684_kiseru_ex6",
@@ -64,7 +74,9 @@
       "english": "A boss who blames subordinates for their own failures won't be trusted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe transitive counterpart of {着|き}る (to wear). In sense 1, the pattern is [person]に[clothing]を{着|き}せる. In sense 2, the pattern is [person]に[blame/crime]を{着|き}せる. The phrase {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる (to frame someone; literally \"to put wet clothes on someone\") is a well-known idiom.\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもに{服|ふく}を{着|き}せる: to dress a child\n- {罪|つみ}を{着|き}せる: to pin blame on someone\n- {濡|ぬ}れ{衣|ぎぬ}を{着|き}せる: to frame someone (idiom)",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "clothing"]
+      "semantic": [
+        "action",
+        "clothing"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{着|き}せる",
+        "negative": "{着|き}せない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{着|き}せます",
+        "negative": "{着|き}せません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{着|き}せた",
+        "negative": "{着|き}せなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{着|き}せました",
+        "negative": "{着|き}せませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{着|き}せて",
+        "negative": "{着|き}せなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{着|き}せている",
+        "negative": "{着|き}せていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{着|き}せています",
+        "negative": "{着|き}せていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{着|き}せていた",
+        "negative": "{着|き}せていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{着|き}せていました",
+        "negative": "{着|き}せていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{着|き}せれば",
+        "negative": "{着|き}せなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{着|き}せたら",
+        "negative": "{着|き}せなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{着|き}せよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{着|き}せましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{着|き}せられる",
+        "negative": "{着|き}せられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{着|き}せられる",
+        "negative": "{着|き}せられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{着|き}せさせる",
+        "negative": "{着|き}せさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{着|き}せろ",
+        "negative": "{着|き}せるな"
+      }
+    ]
   }
 }

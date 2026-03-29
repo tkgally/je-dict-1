@@ -19,7 +19,9 @@
       "english": "My passport has expired.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17129_shikkou_ex2",
@@ -27,7 +29,9 @@
       "english": "This contract will expire next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17129_shikkou_ex3",
@@ -35,7 +39,9 @@
       "english": "I didn't notice my license had expired and ended up driving without a valid license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {失|しつ} (lose) + {効|こう} (effect). Used as a suru verb ({失効|しっこう}する) to describe documents, contracts, or rights losing their validity.\n\nCOMMON COLLOCATIONS:\n- {失効|しっこう}する (to expire, to lapse)\n- {失効|しっこう}{日|び} (expiration date)\n- {失効|しっこう}した{免許|めんきょ} (an expired license)\n\nSIMILAR WORDS:\n- {期限切|きげんぎ}れ: expiration — focuses on the deadline having passed\n- {無効|むこう}: invalid — the state of not being valid, regardless of whether it once was",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{失効|しっこう}する",
+        "negative": "{失効|しっこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{失効|しっこう}します",
+        "negative": "{失効|しっこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{失効|しっこう}した",
+        "negative": "{失効|しっこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{失効|しっこう}しました",
+        "negative": "{失効|しっこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{失効|しっこう}して",
+        "negative": "{失効|しっこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{失効|しっこう}している",
+        "negative": "{失効|しっこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{失効|しっこう}しています",
+        "negative": "{失効|しっこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{失効|しっこう}していた",
+        "negative": "{失効|しっこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{失効|しっこう}していました",
+        "negative": "{失効|しっこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{失効|しっこう}すれば",
+        "negative": "{失効|しっこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{失効|しっこう}したら",
+        "negative": "{失効|しっこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{失効|しっこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{失効|しっこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{失効|しっこう}できる",
+        "negative": "{失効|しっこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{失効|しっこう}される",
+        "negative": "{失効|しっこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{失効|しっこう}させる",
+        "negative": "{失効|しっこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{失効|しっこう}しろ",
+        "negative": "{失効|しっこう}するな"
+      }
+    ]
   }
 }

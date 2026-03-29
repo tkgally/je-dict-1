@@ -19,7 +19,9 @@
       "english": "The kittens are playing together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18385_jareau_ex2",
@@ -27,7 +29,9 @@
       "english": "The siblings were roughhousing, and it turned into a real fight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18385_jareau_ex3",
@@ -35,7 +39,9 @@
       "english": "Seeing dogs happily frolicking together in the park makes me smile too.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb (わ row): じゃれ{合|あ}う・じゃれ{合|あ}います\nて-form: じゃれ{合|あ}って\nた-form: じゃれ{合|あ}った\n\nFORMATION:\nFrom じゃれる (to play, to frolic) + {合|あ}う (reciprocal suffix indicating mutual action).\n\nUSAGE:\nVery commonly used for animals, especially kittens, puppies, and other young animals. Also used for children and occasionally for couples being playfully physical. The ～{合|あ}う suffix emphasizes the mutual, reciprocal nature of the play.\n\nSIMILAR WORDS:\n- じゃれる: To play, to frolic — used for a single subject playing with something or someone, without the reciprocal nuance.\n- ふざけ{合|あ}う: To joke around together — focuses more on verbal or silly behavior rather than physical play.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "leisure"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action",
+        "leisure"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "じゃれ{合|あ}う",
+        "negative": "じゃれ{合|あ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "じゃれ{合|あ}います",
+        "negative": "じゃれ{合|あ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "じゃれ{合|あ}った",
+        "negative": "じゃれ{合|あ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "じゃれ{合|あ}いました",
+        "negative": "じゃれ{合|あ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "じゃれ{合|あ}って",
+        "negative": "じゃれ{合|あ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "じゃれ{合|あ}っている",
+        "negative": "じゃれ{合|あ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "じゃれ{合|あ}っています",
+        "negative": "じゃれ{合|あ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "じゃれ{合|あ}っていた",
+        "negative": "じゃれ{合|あ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "じゃれ{合|あ}っていました",
+        "negative": "じゃれ{合|あ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "じゃれ{合|あ}えば",
+        "negative": "じゃれ{合|あ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "じゃれ{合|あ}ったら",
+        "negative": "じゃれ{合|あ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "じゃれ{合|あ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "じゃれ{合|あ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "じゃれ{合|あ}える",
+        "negative": "じゃれ{合|あ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "じゃれ{合|あ}われる",
+        "negative": "じゃれ{合|あ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "じゃれ{合|あ}わせる",
+        "negative": "じゃれ{合|あ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "じゃれ{合|あ}え",
+        "negative": "じゃれ{合|あ}うな"
+      }
+    ]
   }
 }

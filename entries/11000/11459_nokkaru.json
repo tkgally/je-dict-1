@@ -24,7 +24,9 @@
       "english": "The child climbed onto my shoulders.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11459_nokkaru_ex2",
@@ -32,7 +34,9 @@
       "english": "The cat is sitting on top of the table.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11459_nokkaru_ex3",
@@ -40,7 +44,9 @@
       "english": "Bags are piled on top of bags and look like they're about to collapse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11459_nokkaru_ex4",
@@ -48,7 +54,9 @@
       "english": "To jump on that trend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11459_nokkaru_ex5",
@@ -56,7 +64,9 @@
       "english": "I decided to go along with his proposal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11459_nokkaru_ex6",
@@ -64,7 +74,9 @@
       "english": "They launched a product by riding the trend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "CONJUGATION: {乗|の}っかる is a godan verb (る row). Te-form: {乗|の}っかって.\n\nREGISTER: Colloquial and casual. More informal than {乗|の}る. Common in spoken Japanese.\n\nCOMMON COLLOCATIONS:\n- ブームに{乗|の}っかる (to ride a trend)\n- {話|はなし}に{乗|の}っかる (to jump into a conversation/proposal)\n- {肩|かた}に{乗|の}っかる (to climb onto someone's shoulders)\n\nSIMILAR: {乗|の}る is the standard verb. {乗|の}っかる adds a nuance of casually or opportunistically getting on top of something.",
@@ -75,12 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ru",
       "transitivity": "intransitive",
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{乗|の}っかる",
+        "negative": "{乗|の}っからない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{乗|の}っかります",
+        "negative": "{乗|の}っかりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{乗|の}っかった",
+        "negative": "{乗|の}っからなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{乗|の}っかりました",
+        "negative": "{乗|の}っかりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{乗|の}っかって",
+        "negative": "{乗|の}っからなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{乗|の}っかっている",
+        "negative": "{乗|の}っかっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{乗|の}っかっています",
+        "negative": "{乗|の}っかっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{乗|の}っかっていた",
+        "negative": "{乗|の}っかっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{乗|の}っかっていました",
+        "negative": "{乗|の}っかっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{乗|の}っかれば",
+        "negative": "{乗|の}っからなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{乗|の}っかったら",
+        "negative": "{乗|の}っからなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{乗|の}っかろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{乗|の}っかりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{乗|の}っかれる",
+        "negative": "{乗|の}っかれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{乗|の}っかられる",
+        "negative": "{乗|の}っかられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{乗|の}っからせる",
+        "negative": "{乗|の}っからせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{乗|の}っかれ",
+        "negative": "{乗|の}っかるな"
+      }
+    ]
   }
 }

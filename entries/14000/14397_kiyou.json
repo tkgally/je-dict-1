@@ -19,7 +19,9 @@
       "english": "To appoint a newcomer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14397_kiyou_ex2",
@@ -27,7 +29,9 @@
       "english": "The manager actively selected young players.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14397_kiyou_ex3",
@@ -35,7 +39,9 @@
       "english": "The bold decision was made to cast an unknown actor in the lead role for this film.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{起用|きよう} is a noun that can function as a suru verb ({起用|きよう}する). It implies giving an opportunity to someone, often someone relatively new or unproven.\n\nPARTICLE PATTERNS:\n- [person]を{起用|きよう}する (appoint/select someone)\n- [role]に{起用|きよう}する (appoint to a role)\n\nCOMMON COLLOCATIONS:\n- {新人|しんじん}を{起用|きよう}する (appoint a newcomer)\n- {若手|わかて}を{起用|きよう}する (select young talent)\n- {抜擢|ばってき}{起用|きよう} (selecting by pulling up from below)\n- {大胆|だいたん}な{起用|きよう} (a bold selection)\n\nCommonly used in sports (selecting players for a lineup), entertainment (casting actors), and business (appointing staff). Not to be confused with {器用|きよう} (skillful, dexterous), which is a homophone with a completely different meaning.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{起用|きよう}する",
+        "negative": "{起用|きよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{起用|きよう}します",
+        "negative": "{起用|きよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{起用|きよう}した",
+        "negative": "{起用|きよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{起用|きよう}しました",
+        "negative": "{起用|きよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{起用|きよう}して",
+        "negative": "{起用|きよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{起用|きよう}している",
+        "negative": "{起用|きよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{起用|きよう}しています",
+        "negative": "{起用|きよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{起用|きよう}していた",
+        "negative": "{起用|きよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{起用|きよう}していました",
+        "negative": "{起用|きよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{起用|きよう}すれば",
+        "negative": "{起用|きよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{起用|きよう}したら",
+        "negative": "{起用|きよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{起用|きよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{起用|きよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{起用|きよう}できる",
+        "negative": "{起用|きよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{起用|きよう}される",
+        "negative": "{起用|きよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{起用|きよう}させる",
+        "negative": "{起用|きよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{起用|きよう}しろ",
+        "negative": "{起用|きよう}するな"
+      }
+    ]
   }
 }

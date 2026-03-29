@@ -22,7 +22,9 @@
       "japanese": "{子供|こども}がおもちゃをねだる。",
       "english": "The child begs for a toy.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{彼女|かのじょ}に{新|あたら}しいバッグをねだられた。",
       "english": "She pestered me to buy her a new bag.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{娘|むすめ}が{毎日|まいにち}のように{犬|いぬ}を{飼|か}いたいとねだっている。",
       "english": "My daughter begs to have a dog almost every day.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{小遣|こづか}いをねだった。",
       "english": "I wheedled for pocket money.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{甘|あま}い{声|こえ}でプレゼントをねだった。",
       "english": "She coaxed for a present in a sweet voice.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{小遣|こづか}いの{値上|ねあ}げをねだったが、{父|ちち}に{断|ことわ}られた。",
       "english": "I wheedled for a raise in my allowance, but my father refused.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,12 +85,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
-      "semantic": ["communication", "request"],
+      "semantic": [
+        "communication",
+        "request"
+      ],
       "domain": []
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ねだる",
+        "negative": "ねだらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ねだります",
+        "negative": "ねだりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ねだった",
+        "negative": "ねだらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ねだりました",
+        "negative": "ねだりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ねだって",
+        "negative": "ねだらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ねだっている",
+        "negative": "ねだっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ねだっています",
+        "negative": "ねだっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ねだっていた",
+        "negative": "ねだっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ねだっていました",
+        "negative": "ねだっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ねだれば",
+        "negative": "ねだらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ねだったら",
+        "negative": "ねだらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ねだろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ねだりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ねだれる",
+        "negative": "ねだれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ねだられる",
+        "negative": "ねだられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ねだらせる",
+        "negative": "ねだらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ねだれ",
+        "negative": "ねだるな"
+      }
+    ]
   }
 }

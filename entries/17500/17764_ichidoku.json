@@ -19,7 +19,9 @@
       "english": "I highly recommend giving it a read.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17764_ichidoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I read through the contract once before signing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17764_ichidoku_ex3",
@@ -35,7 +39,9 @@
       "english": "It's a difficult book that you can't understand with just one reading.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in recommendations: {一読|いちどく}をお{勧|すす}めします (I recommend reading it), {一読|いちどく}の{価値|かち}がある (worth reading). Also used to mean a quick or cursory reading.\n\nWORD FORMATION:\n{一|いち} (one) + {読|どく} (reading). Part of the {一|いち}～ pattern for single actions: {一見|いっけん} (a glance), {一聴|いっちょう} (a listen).\n\nCOMMON COLLOCATIONS:\n- {一読|いちどく}をお{勧|すす}めする: to recommend reading\n- {一読|いちどく}の{価値|かち}がある: to be worth reading\n- {一読|いちどく}する: to read through once",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{一読|いちどく}する",
+        "negative": "{一読|いちどく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{一読|いちどく}します",
+        "negative": "{一読|いちどく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{一読|いちどく}した",
+        "negative": "{一読|いちどく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{一読|いちどく}しました",
+        "negative": "{一読|いちどく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{一読|いちどく}して",
+        "negative": "{一読|いちどく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{一読|いちどく}している",
+        "negative": "{一読|いちどく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{一読|いちどく}しています",
+        "negative": "{一読|いちどく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{一読|いちどく}していた",
+        "negative": "{一読|いちどく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{一読|いちどく}していました",
+        "negative": "{一読|いちどく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{一読|いちどく}すれば",
+        "negative": "{一読|いちどく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{一読|いちどく}したら",
+        "negative": "{一読|いちどく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{一読|いちどく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{一読|いちどく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{一読|いちどく}できる",
+        "negative": "{一読|いちどく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{一読|いちどく}される",
+        "negative": "{一読|いちどく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{一読|いちどく}させる",
+        "negative": "{一読|いちどく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{一読|いちどく}しろ",
+        "negative": "{一読|いちどく}するな"
+      }
+    ]
   }
 }

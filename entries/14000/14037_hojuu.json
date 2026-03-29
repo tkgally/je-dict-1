@@ -19,7 +19,9 @@
       "english": "Restock the inventory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14037_hojuu_ex2",
@@ -27,7 +29,9 @@
       "english": "We're short-staffed, so we need to bring in additional personnel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14037_hojuu_ex3",
@@ -35,7 +39,9 @@
       "english": "My job is to regularly restock the drinks in the vending machines.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA practical word common in business and daily life. Used for restocking goods, replenishing supplies, and filling personnel vacancies.\n\nSIMILAR WORDS:\n- {補給|ほきゅう}: supply, replenishment (often military or large-scale logistics)\n- {補充|ほじゅう}: replenishment, restocking (general filling of shortages)\n- {補填|ほてん}: compensation, making up for a deficit (especially financial)\n\nCOMMON COLLOCATIONS:\n- {在庫|ざいこ}を{補充|ほじゅう}する: to restock inventory\n- {人員|じんいん}を{補充|ほじゅう}する: to supplement personnel\n- {補充|ほじゅう}{要員|よういん}: replacement personnel",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "domain": ["business"]
+      "semantic": [
+        "action"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{補充|ほじゅう}する",
+        "negative": "{補充|ほじゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{補充|ほじゅう}します",
+        "negative": "{補充|ほじゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{補充|ほじゅう}した",
+        "negative": "{補充|ほじゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{補充|ほじゅう}しました",
+        "negative": "{補充|ほじゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{補充|ほじゅう}して",
+        "negative": "{補充|ほじゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{補充|ほじゅう}している",
+        "negative": "{補充|ほじゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{補充|ほじゅう}しています",
+        "negative": "{補充|ほじゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{補充|ほじゅう}していた",
+        "negative": "{補充|ほじゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{補充|ほじゅう}していました",
+        "negative": "{補充|ほじゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{補充|ほじゅう}すれば",
+        "negative": "{補充|ほじゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{補充|ほじゅう}したら",
+        "negative": "{補充|ほじゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{補充|ほじゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{補充|ほじゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{補充|ほじゅう}できる",
+        "negative": "{補充|ほじゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{補充|ほじゅう}される",
+        "negative": "{補充|ほじゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{補充|ほじゅう}させる",
+        "negative": "{補充|ほじゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{補充|ほじゅう}しろ",
+        "negative": "{補充|ほじゅう}するな"
+      }
+    ]
   }
 }

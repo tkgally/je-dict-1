@@ -19,7 +19,9 @@
       "english": "The two opinions conflict with each other.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15986_aihansuru_ex2",
@@ -27,7 +29,9 @@
       "english": "His words and actions are contradictory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15986_aihansuru_ex3",
@@ -35,7 +39,9 @@
       "english": "Economic growth and environmental protection are sometimes said to be conflicting goals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal verb often used in written language, academic discussion, and news commentary. Typically takes two subjects connected by と or が, describing a mutual opposition. The noun form {相反|あいはん} can also appear in compounds.\n\nCOMMON COLLOCATIONS:\n- {利害|りがい}が{相反|あいはん}する (interests conflict)\n- {相反|あいはん}する{意見|いけん} (conflicting opinions)\n- {相反|あいはん}する{感情|かんじょう} (contradictory emotions)\n\nSIMILAR WORDS:\n- {矛盾|むじゅん}する: to contradict — implies logical inconsistency, often within one person's statements\n- {対立|たいりつ}する: to oppose, to confront — implies active confrontation between parties",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{相反|あいはん}する",
+        "negative": "{相反|あいはん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{相反|あいはん}します",
+        "negative": "{相反|あいはん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{相反|あいはん}した",
+        "negative": "{相反|あいはん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{相反|あいはん}しました",
+        "negative": "{相反|あいはん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{相反|あいはん}して",
+        "negative": "{相反|あいはん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{相反|あいはん}している",
+        "negative": "{相反|あいはん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{相反|あいはん}しています",
+        "negative": "{相反|あいはん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{相反|あいはん}していた",
+        "negative": "{相反|あいはん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{相反|あいはん}していました",
+        "negative": "{相反|あいはん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{相反|あいはん}すれば",
+        "negative": "{相反|あいはん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{相反|あいはん}したら",
+        "negative": "{相反|あいはん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{相反|あいはん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{相反|あいはん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{相反|あいはん}できる",
+        "negative": "{相反|あいはん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{相反|あいはん}される",
+        "negative": "{相反|あいはん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{相反|あいはん}させる",
+        "negative": "{相反|あいはん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{相反|あいはん}しろ",
+        "negative": "{相反|あいはん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "I received unofficial notice of a transfer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18056_naiji_ex2",
@@ -27,7 +29,9 @@
       "english": "The unofficial notice for next month's personnel changes came out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18056_naiji_ex3",
@@ -35,7 +39,9 @@
       "english": "I got unofficial word of a promotion from the department head, but the formal announcement hasn't been made yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in Japanese workplace culture, where {内示|ないじ} refers to advance notice of personnel transfers ({転勤|てんきん}), reassignments ({異動|いどう}), or promotions ({昇進|しょうしん}). The {内示|ないじ} typically comes a few weeks before the official announcement ({辞令|じれい}).\n\nWORD FORMATION:\n{内|ない} (inside, private) + {示|じ} (show, indicate). Literally \"showing privately.\"\n\nCOMMON COLLOCATIONS:\n- {内示|ないじ}を{受|う}ける: to receive unofficial notice\n- {内示|ないじ}が{出|で}る: unofficial notice comes out\n- {内示|ないじ}があった: there was an unofficial notice\n- {転勤|てんきん}の{内示|ないじ}: unofficial transfer notice\n- {人事|じんじ}{内示|ないじ}: personnel change advance notice",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{内示|ないじ}する",
+        "negative": "{内示|ないじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{内示|ないじ}します",
+        "negative": "{内示|ないじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{内示|ないじ}した",
+        "negative": "{内示|ないじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{内示|ないじ}しました",
+        "negative": "{内示|ないじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{内示|ないじ}して",
+        "negative": "{内示|ないじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{内示|ないじ}している",
+        "negative": "{内示|ないじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{内示|ないじ}しています",
+        "negative": "{内示|ないじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{内示|ないじ}していた",
+        "negative": "{内示|ないじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{内示|ないじ}していました",
+        "negative": "{内示|ないじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{内示|ないじ}すれば",
+        "negative": "{内示|ないじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{内示|ないじ}したら",
+        "negative": "{内示|ないじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{内示|ないじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{内示|ないじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{内示|ないじ}できる",
+        "negative": "{内示|ないじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{内示|ないじ}される",
+        "negative": "{内示|ないじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{内示|ないじ}させる",
+        "negative": "{内示|ないじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{内示|ないじ}しろ",
+        "negative": "{内示|ないじ}するな"
+      }
+    ]
   }
 }

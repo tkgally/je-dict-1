@@ -19,7 +19,9 @@
       "english": "They seized the evidence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19033_oushuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The police confiscated the computer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19033_oushuu_ex3",
@@ -35,7 +39,9 @@
       "english": "A large quantity of illegal drugs was seized at customs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA legal and news term. {押収|おうしゅう} specifically refers to seizure by legal authority (police, prosecutors, customs). Different from {没収|ぼっしゅう} (confiscation as punishment, forfeiture), which implies the items will not be returned.\n\nCOMMON COLLOCATIONS:\n- {押収|おうしゅう}する: to seize, to confiscate\n- {押収|おうしゅう}される: to be seized\n- {押収|おうしゅう}{品|ひん}: seized items\n- {証拠|しょうこ}を{押収|おうしゅう}する: to seize evidence",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{押収|おうしゅう}する",
+        "negative": "{押収|おうしゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{押収|おうしゅう}します",
+        "negative": "{押収|おうしゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{押収|おうしゅう}した",
+        "negative": "{押収|おうしゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{押収|おうしゅう}しました",
+        "negative": "{押収|おうしゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{押収|おうしゅう}して",
+        "negative": "{押収|おうしゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{押収|おうしゅう}している",
+        "negative": "{押収|おうしゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{押収|おうしゅう}しています",
+        "negative": "{押収|おうしゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{押収|おうしゅう}していた",
+        "negative": "{押収|おうしゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{押収|おうしゅう}していました",
+        "negative": "{押収|おうしゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{押収|おうしゅう}すれば",
+        "negative": "{押収|おうしゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{押収|おうしゅう}したら",
+        "negative": "{押収|おうしゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{押収|おうしゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{押収|おうしゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{押収|おうしゅう}できる",
+        "negative": "{押収|おうしゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{押収|おうしゅう}される",
+        "negative": "{押収|おうしゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{押収|おうしゅう}させる",
+        "negative": "{押収|おうしゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{押収|おうしゅう}しろ",
+        "negative": "{押収|おうしゅう}するな"
+      }
+    ]
   }
 }

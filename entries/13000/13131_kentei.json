@@ -24,7 +24,9 @@
       "english": "I took the kanji proficiency test.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13131_kentei_ex2",
@@ -32,7 +34,9 @@
       "english": "I passed Level 2 of the English proficiency exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13131_kentei_ex3",
@@ -40,7 +44,9 @@
       "english": "I study every day in preparation for next month's certification exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13131_kentei_ex4",
@@ -48,7 +54,9 @@
       "english": "The textbook screening was conducted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13131_kentei_ex5",
@@ -56,7 +64,9 @@
       "english": "This product has passed the safety certification.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13131_kentei_ex6",
@@ -64,7 +74,9 @@
       "english": "The certification is carried out based on standards set by the government.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nOften abbreviated in compound names: {漢検|かんけん} (kanji proficiency test), {英検|えいけん} (English proficiency test). The word {検定|けんてい} by itself often implies a proficiency test that one can study for and take at scheduled intervals. Distinct from {試験|しけん}, which is a broader term for any exam.\n\nCOMMON COLLOCATIONS:\n- {検定|けんてい}{試験|しけん}: certification examination\n- {検定|けんてい}に{合格|ごうかく}する: to pass a certification\n- {検定|けんてい}を{受|う}ける: to take a certification exam\n- {教科書|きょうかしょ}{検定|けんてい}: textbook screening",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{検定|けんてい}する",
+        "negative": "{検定|けんてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{検定|けんてい}します",
+        "negative": "{検定|けんてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{検定|けんてい}した",
+        "negative": "{検定|けんてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{検定|けんてい}しました",
+        "negative": "{検定|けんてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{検定|けんてい}して",
+        "negative": "{検定|けんてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{検定|けんてい}している",
+        "negative": "{検定|けんてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{検定|けんてい}しています",
+        "negative": "{検定|けんてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{検定|けんてい}していた",
+        "negative": "{検定|けんてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{検定|けんてい}していました",
+        "negative": "{検定|けんてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{検定|けんてい}すれば",
+        "negative": "{検定|けんてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{検定|けんてい}したら",
+        "negative": "{検定|けんてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{検定|けんてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{検定|けんてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{検定|けんてい}できる",
+        "negative": "{検定|けんてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{検定|けんてい}される",
+        "negative": "{検定|けんてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{検定|けんてい}させる",
+        "negative": "{検定|けんてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{検定|けんてい}しろ",
+        "negative": "{検定|けんてい}するな"
+      }
+    ]
   }
 }

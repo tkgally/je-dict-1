@@ -18,7 +18,9 @@
       "english": "I wrote the letter by dictation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09629_koujutsu_ex2",
@@ -26,7 +28,9 @@
       "english": "I had my secretary prepare the report through dictation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09629_koujutsu_ex3",
@@ -34,7 +38,9 @@
       "english": "In an oral examination, you explain your thoughts in words.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Refers to speaking aloud for someone else to write down (dictation), or making an oral statement in a formal context such as a courtroom or examination.\n\nCOMMON COMPOUNDS:\n- {口述|こうじゅつ}{試験|しけん}: oral examination\n- {口述|こうじゅつ}{筆記|ひっき}: dictation and transcription\n- {口述|こうじゅつ}{書|しょ}: dictated document\n\nCOMMON PATTERNS:\n- {口述|こうじゅつ}する: to dictate; to give an oral statement\n- {口述|こうじゅつ}で{書|か}く: to write by dictation\n\nUSAGE:\nUsed in formal and professional contexts — business correspondence, legal depositions, and academic examinations (especially bar exams and graduate oral defenses).\n\nRELATED TERMS:\n- {口頭|こうとう}: oral, verbal (broader term)\n- {筆記|ひっき}: written (as opposed to oral)",
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{口述|こうじゅつ}する",
+        "negative": "{口述|こうじゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{口述|こうじゅつ}します",
+        "negative": "{口述|こうじゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{口述|こうじゅつ}した",
+        "negative": "{口述|こうじゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{口述|こうじゅつ}しました",
+        "negative": "{口述|こうじゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{口述|こうじゅつ}して",
+        "negative": "{口述|こうじゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{口述|こうじゅつ}している",
+        "negative": "{口述|こうじゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{口述|こうじゅつ}しています",
+        "negative": "{口述|こうじゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{口述|こうじゅつ}していた",
+        "negative": "{口述|こうじゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{口述|こうじゅつ}していました",
+        "negative": "{口述|こうじゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{口述|こうじゅつ}すれば",
+        "negative": "{口述|こうじゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{口述|こうじゅつ}したら",
+        "negative": "{口述|こうじゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{口述|こうじゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{口述|こうじゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{口述|こうじゅつ}できる",
+        "negative": "{口述|こうじゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{口述|こうじゅつ}される",
+        "negative": "{口述|こうじゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{口述|こうじゅつ}させる",
+        "negative": "{口述|こうじゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{口述|こうじゅつ}しろ",
+        "negative": "{口述|こうじゅつ}するな"
+      }
+    ]
   }
 }

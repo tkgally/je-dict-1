@@ -19,7 +19,9 @@
       "english": "To respond to a survey.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18400_kaitousuru_ex2",
@@ -27,7 +29,9 @@
       "english": "Please answer the questions accurately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18400_kaitousuru_ex3",
@@ -35,7 +39,9 @@
       "english": "Companies have an obligation to respond promptly to customer inquiries.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "PATTERN:\n～に{回答|かいとう}する (to respond to ~)\n\nCOMMON COLLOCATIONS:\n- アンケートに{回答|かいとう}する (to respond to a survey)\n- {質問|しつもん}に{回答|かいとう}する (to answer a question)\n- {問|と}い{合|あ}わせに{回答|かいとう}する (to respond to an inquiry)\n- {回答|かいとう}を{求|もと}める (to request a response)\n- {回答|かいとう}{期限|きげん} (response deadline)\n\nCONTRAST:\n- {回答|かいとう}する vs. {答|こた}える: {答|こた}える is the general word for answering and is used in everyday conversation. {回答|かいとう}する is more formal and implies an official, deliberate, or written response.\n- {回答|かいとう} vs. {返答|へんとう}: {返答|へんとう} emphasizes the act of replying (returning an answer), while {回答|かいとう} emphasizes the content and correctness of the answer.\n- {回答|かいとう} vs. {解答|かいとう}: Same pronunciation but different kanji. {解答|かいとう} means solving a problem or providing the solution to a test/quiz. {回答|かいとう} is a response to a question or inquiry.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{回答|かいとう}する",
+        "negative": "{回答|かいとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{回答|かいとう}します",
+        "negative": "{回答|かいとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{回答|かいとう}した",
+        "negative": "{回答|かいとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{回答|かいとう}しました",
+        "negative": "{回答|かいとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{回答|かいとう}して",
+        "negative": "{回答|かいとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{回答|かいとう}している",
+        "negative": "{回答|かいとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{回答|かいとう}しています",
+        "negative": "{回答|かいとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{回答|かいとう}していた",
+        "negative": "{回答|かいとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{回答|かいとう}していました",
+        "negative": "{回答|かいとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{回答|かいとう}すれば",
+        "negative": "{回答|かいとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{回答|かいとう}したら",
+        "negative": "{回答|かいとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{回答|かいとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{回答|かいとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{回答|かいとう}できる",
+        "negative": "{回答|かいとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{回答|かいとう}される",
+        "negative": "{回答|かいとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{回答|かいとう}させる",
+        "negative": "{回答|かいとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{回答|かいとう}しろ",
+        "negative": "{回答|かいとう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To composite photographs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12027_gousei_ex2",
@@ -27,7 +29,9 @@
       "english": "This material is made of synthetic fiber.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12027_gousei_ex3",
@@ -35,7 +39,9 @@
       "english": "Technology for synthesizing speech using AI is advancing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAs a noun, {合成|ごうせい} often modifies other nouns to mean \"synthetic\" or \"composite\": {合成|ごうせい}{樹脂|じゅし} (synthetic resin), {合成|ごうせい}{着色料|ちゃくしょくりょう} (synthetic coloring). As a する verb, it means to synthesize or composite.\n\nCOMMON COLLOCATIONS:\n- {合成|ごうせい}{写真|しゃしん}: composite photograph\n- {合成|ごうせい}{繊維|せんい}: synthetic fiber\n- {音声|おんせい}{合成|ごうせい}: speech synthesis\n- {化学|かがく}{合成|ごうせい}: chemical synthesis\n- {合成|ごうせい}{着色料|ちゃくしょくりょう}: artificial coloring",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["technical"],
-      "semantic": ["science"]
+      "domain": [
+        "technical"
+      ],
+      "semantic": [
+        "science"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{合成|ごうせい}する",
+        "negative": "{合成|ごうせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{合成|ごうせい}します",
+        "negative": "{合成|ごうせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{合成|ごうせい}した",
+        "negative": "{合成|ごうせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{合成|ごうせい}しました",
+        "negative": "{合成|ごうせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{合成|ごうせい}して",
+        "negative": "{合成|ごうせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{合成|ごうせい}している",
+        "negative": "{合成|ごうせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{合成|ごうせい}しています",
+        "negative": "{合成|ごうせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{合成|ごうせい}していた",
+        "negative": "{合成|ごうせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{合成|ごうせい}していました",
+        "negative": "{合成|ごうせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{合成|ごうせい}すれば",
+        "negative": "{合成|ごうせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{合成|ごうせい}したら",
+        "negative": "{合成|ごうせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{合成|ごうせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{合成|ごうせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{合成|ごうせい}できる",
+        "negative": "{合成|ごうせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{合成|ごうせい}される",
+        "negative": "{合成|ごうせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{合成|ごうせい}させる",
+        "negative": "{合成|ごうせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{合成|ごうせい}しろ",
+        "negative": "{合成|ごうせい}するな"
+      }
+    ]
   }
 }

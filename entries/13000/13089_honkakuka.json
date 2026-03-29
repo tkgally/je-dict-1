@@ -19,7 +19,9 @@
       "english": "The rainy season has gotten into full swing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13089_honkakuka_ex2",
@@ -27,7 +29,9 @@
       "english": "The election campaign is ramping up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13089_honkakuka_ex3",
@@ -35,7 +39,9 @@
       "english": "The project is going into full swing next month, so we need to increase staff.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nSuru verb ({〜する動詞|するどうし}).\n- Dictionary: {本格化|ほんかくか}する\n- Negative: {本格化|ほんかくか}しない\n- Past: {本格化|ほんかくか}した\n- Te-form: {本格化|ほんかくか}して\n\nUSAGE:\n{本格化|ほんかくか} describes the transition from a beginning or partial phase to a full-scale, serious phase. It is very common in news reporting to describe seasonal changes, economic trends, and political activities intensifying.\n\nCOMMON COLLOCATIONS:\n- {本格化|ほんかくか}する: to get into full swing\n- {本格化|ほんかくか}に{向|む}けて: toward full-scale implementation\n- {議論|ぎろん}が{本格化|ほんかくか}する: debate intensifies\n- {夏|なつ}が{本格化|ほんかくか}する: summer gets into full swing",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["change"]
+      "semantic": [
+        "change"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{本格化|ほんかくか}する",
+        "negative": "{本格化|ほんかくか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{本格化|ほんかくか}します",
+        "negative": "{本格化|ほんかくか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{本格化|ほんかくか}した",
+        "negative": "{本格化|ほんかくか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{本格化|ほんかくか}しました",
+        "negative": "{本格化|ほんかくか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{本格化|ほんかくか}して",
+        "negative": "{本格化|ほんかくか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{本格化|ほんかくか}している",
+        "negative": "{本格化|ほんかくか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{本格化|ほんかくか}しています",
+        "negative": "{本格化|ほんかくか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{本格化|ほんかくか}していた",
+        "negative": "{本格化|ほんかくか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{本格化|ほんかくか}していました",
+        "negative": "{本格化|ほんかくか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{本格化|ほんかくか}すれば",
+        "negative": "{本格化|ほんかくか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{本格化|ほんかくか}したら",
+        "negative": "{本格化|ほんかくか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{本格化|ほんかくか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{本格化|ほんかくか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{本格化|ほんかくか}できる",
+        "negative": "{本格化|ほんかくか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{本格化|ほんかくか}される",
+        "negative": "{本格化|ほんかくか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{本格化|ほんかくか}させる",
+        "negative": "{本格化|ほんかくか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{本格化|ほんかくか}しろ",
+        "negative": "{本格化|ほんかくか}するな"
+      }
+    ]
   }
 }

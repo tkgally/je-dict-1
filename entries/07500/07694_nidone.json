@@ -17,21 +17,27 @@
       "japanese": "{二度寝|にどね}してしまった。",
       "english": "I went back to sleep.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07694_nidone_ex2",
       "japanese": "{休日|きゅうじつ}の{二度寝|にどね}は{最高|さいこう}だ。",
       "english": "Going back to sleep on holidays is the best.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07694_nidone_ex3",
       "japanese": "{二度寝|にどね}したせいで{遅刻|ちこく}した。",
       "english": "I was late because I went back to sleep.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "ETYMOLOGY:\n{二度|にど} (twice, second time) + {寝|ね} (sleeping)\n\nUSAGE:\nOften associated with lazy weekend mornings or the temptation to sleep more after the alarm. Can have both positive connotations (comfort, relaxation) or negative ones (causing lateness).\n\nRELATED SLEEP VOCABULARY:\n・{寝不足|ねぶそく} - lack of sleep\n・{夜更|よふ}かし - staying up late\n・{寝坊|ねぼう} - oversleeping\n・うたた{寝|ね} - dozing off\n\nCOLLOCATIONS:\n・{二度寝|にどね}をする - to go back to sleep\n・{二度寝|にどね}の{誘惑|ゆうわく} - the temptation to go back to sleep",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["sleep", "habits"],
-      "domain": []
+      "semantic": [
+        "sleep",
+        "habits"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{二度寝|にどね}する",
+        "negative": "{二度寝|にどね}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{二度寝|にどね}します",
+        "negative": "{二度寝|にどね}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{二度寝|にどね}した",
+        "negative": "{二度寝|にどね}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{二度寝|にどね}しました",
+        "negative": "{二度寝|にどね}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{二度寝|にどね}して",
+        "negative": "{二度寝|にどね}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{二度寝|にどね}している",
+        "negative": "{二度寝|にどね}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{二度寝|にどね}しています",
+        "negative": "{二度寝|にどね}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{二度寝|にどね}していた",
+        "negative": "{二度寝|にどね}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{二度寝|にどね}していました",
+        "negative": "{二度寝|にどね}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{二度寝|にどね}すれば",
+        "negative": "{二度寝|にどね}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{二度寝|にどね}したら",
+        "negative": "{二度寝|にどね}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{二度寝|にどね}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{二度寝|にどね}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{二度寝|にどね}できる",
+        "negative": "{二度寝|にどね}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{二度寝|にどね}される",
+        "negative": "{二度寝|にどね}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{二度寝|にどね}させる",
+        "negative": "{二度寝|にどね}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{二度寝|にどね}しろ",
+        "negative": "{二度寝|にどね}するな"
+      }
+    ]
   }
 }

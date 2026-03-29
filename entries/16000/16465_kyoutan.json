@@ -19,7 +19,9 @@
       "english": "Cries of wonder went up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16465_kyoutan_ex2",
@@ -27,7 +29,9 @@
       "english": "I was amazed by his skill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16465_kyoutan_ex3",
@@ -35,7 +39,9 @@
       "english": "The audience marveled at the magnificent performance and applauded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat literary or formal word. Often used with する to form a suru verb meaning \"to marvel at\" or \"to be amazed.\" Carries a positive nuance of being impressed, as opposed to simply being surprised.\n\nCOMMON COLLOCATIONS:\n- {驚嘆|きょうたん}する (to marvel, to be amazed)\n- {驚嘆|きょうたん}の{声|こえ} (cries of wonder)\n- {驚嘆|きょうたん}に{値|あたい}する (to be worthy of admiration)\n- {驚嘆|きょうたん}すべき (admirable, marvelous)\n\nSIMILAR WORDS:\n- {感嘆|かんたん}: admiration with emotional depth — emphasizes being deeply moved\n- {驚愕|きょうがく}: astonishment — stronger shock, not necessarily positive",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{驚嘆|きょうたん}する",
+        "negative": "{驚嘆|きょうたん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{驚嘆|きょうたん}します",
+        "negative": "{驚嘆|きょうたん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{驚嘆|きょうたん}した",
+        "negative": "{驚嘆|きょうたん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{驚嘆|きょうたん}しました",
+        "negative": "{驚嘆|きょうたん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{驚嘆|きょうたん}して",
+        "negative": "{驚嘆|きょうたん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{驚嘆|きょうたん}している",
+        "negative": "{驚嘆|きょうたん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{驚嘆|きょうたん}しています",
+        "negative": "{驚嘆|きょうたん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{驚嘆|きょうたん}していた",
+        "negative": "{驚嘆|きょうたん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{驚嘆|きょうたん}していました",
+        "negative": "{驚嘆|きょうたん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{驚嘆|きょうたん}すれば",
+        "negative": "{驚嘆|きょうたん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{驚嘆|きょうたん}したら",
+        "negative": "{驚嘆|きょうたん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{驚嘆|きょうたん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{驚嘆|きょうたん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{驚嘆|きょうたん}できる",
+        "negative": "{驚嘆|きょうたん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{驚嘆|きょうたん}される",
+        "negative": "{驚嘆|きょうたん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{驚嘆|きょうたん}させる",
+        "negative": "{驚嘆|きょうたん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{驚嘆|きょうたん}しろ",
+        "negative": "{驚嘆|きょうたん}するな"
+      }
+    ]
   }
 }

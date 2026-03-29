@@ -23,7 +23,9 @@
       "english": "Please straighten your posture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10132_tadasu_ex2",
@@ -31,7 +33,9 @@
       "english": "To straighten one's collar (to compose oneself).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10132_tadasu_ex3",
@@ -39,7 +43,9 @@
       "english": "To inquire about the truth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: Transitive ({他動詞|たどうし}).\n\nCOMMON PATTERNS:\n・{姿勢|しせい}を{正|ただ}す (to straighten one's posture)\n・{襟|えり}を{正|ただ}す (to straighten one's collar - idiom meaning to compose oneself formally)\n・{間違|まちが}いを{正|ただ}す (to correct a mistake)\n・{真偽|しんぎ}を{正|ただ}す (to inquire about the truth)\n\nSIMILAR WORDS:\n・{直|なお}す (to fix/repair - more general)\n・{訂正|ていせい}する (to correct - for written errors)",
@@ -49,11 +55,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{正|ただ}す",
+        "negative": "{正|ただ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{正|ただ}します",
+        "negative": "{正|ただ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{正|ただ}した",
+        "negative": "{正|ただ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{正|ただ}しました",
+        "negative": "{正|ただ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{正|ただ}して",
+        "negative": "{正|ただ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{正|ただ}している",
+        "negative": "{正|ただ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{正|ただ}しています",
+        "negative": "{正|ただ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{正|ただ}していた",
+        "negative": "{正|ただ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{正|ただ}していました",
+        "negative": "{正|ただ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{正|ただ}せば",
+        "negative": "{正|ただ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{正|ただ}したら",
+        "negative": "{正|ただ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{正|ただ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{正|ただ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{正|ただ}せる",
+        "negative": "{正|ただ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{正|ただ}される",
+        "negative": "{正|ただ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{正|ただ}させる",
+        "negative": "{正|ただ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{正|ただ}せ",
+        "negative": "{正|ただ}すな"
+      }
+    ]
   }
 }

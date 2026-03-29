@@ -19,7 +19,9 @@
       "english": "The credit rating dropped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13121_kakuzuke_ex2",
@@ -27,7 +29,9 @@
       "english": "This company has received a high rating.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13121_kakuzuke_ex3",
@@ -35,7 +39,9 @@
       "english": "The rating agency announced that it would review the government bond ratings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {信用|しんよう}{格付|かくづ}け: credit rating\n- {格付|かくづ}け{機関|きかん}: rating agency\n- {格付|かくづ}けを{受|う}ける: to receive a rating\n- {格付|かくづ}けを{引|ひ}き{下|さ}げる: to downgrade a rating\n\nUSAGE:\nMost commonly used in financial and business contexts for credit ratings. Also used for restaurant rankings, hotel star ratings, and other quality classifications.\n\nETYMOLOGY:\n{格|かく} (status, rank) + {付|つ}け (attaching). Literally, \"assigning a rank.\"",
@@ -52,13 +58,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
       "verb_class": "suru",
-      "domain": ["business"],
-      "semantic": ["abstract"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "abstract"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{格付|かくづ}けする",
+        "negative": "{格付|かくづ}けしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{格付|かくづ}けします",
+        "negative": "{格付|かくづ}けしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{格付|かくづ}けした",
+        "negative": "{格付|かくづ}けしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{格付|かくづ}けしました",
+        "negative": "{格付|かくづ}けしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{格付|かくづ}けして",
+        "negative": "{格付|かくづ}けしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{格付|かくづ}けしている",
+        "negative": "{格付|かくづ}けしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{格付|かくづ}けしています",
+        "negative": "{格付|かくづ}けしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{格付|かくづ}けしていた",
+        "negative": "{格付|かくづ}けしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{格付|かくづ}けしていました",
+        "negative": "{格付|かくづ}けしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{格付|かくづ}けすれば",
+        "negative": "{格付|かくづ}けしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{格付|かくづ}けしたら",
+        "negative": "{格付|かくづ}けしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{格付|かくづ}けしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{格付|かくづ}けしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{格付|かくづ}けできる",
+        "negative": "{格付|かくづ}けできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{格付|かくづ}けされる",
+        "negative": "{格付|かくづ}けされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{格付|かくづ}けさせる",
+        "negative": "{格付|かくづ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{格付|かくづ}けしろ",
+        "negative": "{格付|かくづ}けするな"
+      }
+    ]
   }
 }

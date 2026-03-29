@@ -19,7 +19,9 @@
       "english": "The suspect admitted to the killing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13226_satsugai_ex2",
@@ -27,7 +29,9 @@
       "english": "The victim is believed to have been killed at home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13226_satsugai_ex3",
@@ -35,7 +39,9 @@
       "english": "Police believe the victim was killed in a premeditated act, with a financial dispute behind the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used in news reporting and legal contexts. Functions as both a noun and a suru verb ({殺害|さつがい}する = to kill). The passive form {殺害|さつがい}される (to be killed) is extremely common in news reports.\n\nSIMILAR WORDS:\n{殺人|さつじん} is a legal/criminal term meaning 'murder' or 'homicide' (the crime itself). {殺害|さつがい} describes the act of killing more broadly and objectively.\n\nCOMMON COLLOCATIONS:\n- {殺害|さつがい}される: to be killed\n- {殺害|さつがい}{事件|じけん}: murder case\n- {殺害|さつがい}を{認|みと}める: to admit to killing\n- {計画的|けいかくてき}な{殺害|さつがい}: premeditated killing",
@@ -53,12 +59,113 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "domain": ["legal"],
-      "semantic": ["death", "crime"]
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "death",
+        "crime"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{殺害|さつがい}する",
+        "negative": "{殺害|さつがい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{殺害|さつがい}します",
+        "negative": "{殺害|さつがい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{殺害|さつがい}した",
+        "negative": "{殺害|さつがい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{殺害|さつがい}しました",
+        "negative": "{殺害|さつがい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{殺害|さつがい}して",
+        "negative": "{殺害|さつがい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{殺害|さつがい}している",
+        "negative": "{殺害|さつがい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{殺害|さつがい}しています",
+        "negative": "{殺害|さつがい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{殺害|さつがい}していた",
+        "negative": "{殺害|さつがい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{殺害|さつがい}していました",
+        "negative": "{殺害|さつがい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{殺害|さつがい}すれば",
+        "negative": "{殺害|さつがい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{殺害|さつがい}したら",
+        "negative": "{殺害|さつがい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{殺害|さつがい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{殺害|さつがい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{殺害|さつがい}できる",
+        "negative": "{殺害|さつがい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{殺害|さつがい}される",
+        "negative": "{殺害|さつがい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{殺害|さつがい}させる",
+        "negative": "{殺害|さつがい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{殺害|さつがい}しろ",
+        "negative": "{殺害|さつがい}するな"
+      }
+    ]
   }
 }

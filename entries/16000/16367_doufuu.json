@@ -19,7 +19,9 @@
       "english": "I have enclosed the documents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16367_doufuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I am enclosing a return envelope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16367_doufuu_ex3",
@@ -35,7 +39,9 @@
       "english": "Please review the enclosed materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{同封|どうふう} is composed of {同|どう} (together, same) and {封|ふう} (seal, envelope). It is used as a する verb: {同封|どうふう}する (to enclose).\n\nThis word is primarily used in formal correspondence, both written letters and business communications.\n\nCOMMON COLLOCATIONS:\n- {同封|どうふう}する (to enclose)\n- {同封|どうふう}の{書類|しょるい} (the enclosed documents)\n- 〜を{同封|どうふう}いたします (I am enclosing... — polite business form)\n\nSIMILAR WORDS:\n- {添付|てんぷ}: attachment — used for email attachments ({添付|てんぷ}ファイル)\n- {同梱|どうこん}: including in the same package — used for parcels, product bundles",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{同封|どうふう}する",
+        "negative": "{同封|どうふう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{同封|どうふう}します",
+        "negative": "{同封|どうふう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{同封|どうふう}した",
+        "negative": "{同封|どうふう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{同封|どうふう}しました",
+        "negative": "{同封|どうふう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{同封|どうふう}して",
+        "negative": "{同封|どうふう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{同封|どうふう}している",
+        "negative": "{同封|どうふう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{同封|どうふう}しています",
+        "negative": "{同封|どうふう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{同封|どうふう}していた",
+        "negative": "{同封|どうふう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{同封|どうふう}していました",
+        "negative": "{同封|どうふう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{同封|どうふう}すれば",
+        "negative": "{同封|どうふう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{同封|どうふう}したら",
+        "negative": "{同封|どうふう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{同封|どうふう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{同封|どうふう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{同封|どうふう}できる",
+        "negative": "{同封|どうふう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{同封|どうふう}される",
+        "negative": "{同封|どうふう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{同封|どうふう}させる",
+        "negative": "{同封|どうふう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{同封|どうふう}しろ",
+        "negative": "{同封|どうふう}するな"
+      }
+    ]
   }
 }

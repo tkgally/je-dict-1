@@ -19,7 +19,9 @@
       "english": "It exceeds the acceptable range.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14172_kyoyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This level of error is tolerable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14172_kyoyou_ex3",
@@ -35,7 +39,9 @@
       "english": "It is important for society to tolerate diverse values.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{許容|きょよう} implies accepting something within defined limits, often with the nuance that it is being tolerated rather than actively welcomed. It is commonly paired with {範囲|はんい} (range) to describe acceptable limits. The する form {許容|きょよう}する means to tolerate or accept, and is more formal than {許|ゆる}す (to forgive/permit).\n\nCOMMON COLLOCATIONS:\n- {許容|きょよう}{範囲|はんい}: acceptable range, tolerance\n- {許容|きょよう}{量|りょう}: tolerable amount\n- {許容|きょよう}できる: tolerable, acceptable\n- {許容|きょよう}{限度|げんど}: tolerance limit",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "style": ["written"]
+      "semantic": [
+        "cognition"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{許容|きょよう}する",
+        "negative": "{許容|きょよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{許容|きょよう}します",
+        "negative": "{許容|きょよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{許容|きょよう}した",
+        "negative": "{許容|きょよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{許容|きょよう}しました",
+        "negative": "{許容|きょよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{許容|きょよう}して",
+        "negative": "{許容|きょよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{許容|きょよう}している",
+        "negative": "{許容|きょよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{許容|きょよう}しています",
+        "negative": "{許容|きょよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{許容|きょよう}していた",
+        "negative": "{許容|きょよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{許容|きょよう}していました",
+        "negative": "{許容|きょよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{許容|きょよう}すれば",
+        "negative": "{許容|きょよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{許容|きょよう}したら",
+        "negative": "{許容|きょよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{許容|きょよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{許容|きょよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{許容|きょよう}できる",
+        "negative": "{許容|きょよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{許容|きょよう}される",
+        "negative": "{許容|きょよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{許容|きょよう}させる",
+        "negative": "{許容|きょよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{許容|きょよう}しろ",
+        "negative": "{許容|きょよう}するな"
+      }
+    ]
   }
 }

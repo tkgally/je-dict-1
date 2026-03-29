@@ -19,7 +19,9 @@
       "english": "Our companions gathered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14591_tsudou_ex2",
@@ -27,7 +29,9 @@
       "english": "I want a place where people with the same aspirations can come together.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14591_tsudou_ex3",
@@ -35,7 +39,9 @@
       "english": "Every year, large crowds gather from all over the country for this festival, and the town overflows with energy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{集|つど}う is a literary, slightly elevated synonym of {集|あつ}まる. It implies people coming together with a shared sense of purpose, bond, or spirit — not just randomly being in the same place. It is common in written language, event names, and poetic contexts.\n\nASPECT (ている):\n{集|つど}っている describes a state of being gathered together.\n\nCOMMON COLLOCATIONS:\n- {仲間|なかま}が{集|つど}う (companions gather)\n- {人|ひと}が{集|つど}う{場|ば} (a place where people come together)\n- ～のもとに{集|つど}う (to gather under the banner of ~)\n\nSIMILAR WORDS:\n- {集|つど}う: to gather (literary; implies shared purpose or bond)\n- {集|あつ}まる: to gather, to assemble (everyday; neutral)\n- {寄|よ}り{集|あつ}まる: to get together (casual, spontaneous feeling)\n\nRELATED:\nThe noun form is {集|つど}い (a gathering, assembly).",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "style": ["literary"]
+      "semantic": [
+        "movement"
+      ],
+      "style": [
+        "literary"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{集|つど}う",
+        "negative": "{集|つど}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{集|つど}います",
+        "negative": "{集|つど}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{集|つど}った",
+        "negative": "{集|つど}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{集|つど}いました",
+        "negative": "{集|つど}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{集|つど}って",
+        "negative": "{集|つど}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{集|つど}っている",
+        "negative": "{集|つど}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{集|つど}っています",
+        "negative": "{集|つど}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{集|つど}っていた",
+        "negative": "{集|つど}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{集|つど}っていました",
+        "negative": "{集|つど}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{集|つど}えば",
+        "negative": "{集|つど}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{集|つど}ったら",
+        "negative": "{集|つど}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{集|つど}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{集|つど}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{集|つど}える",
+        "negative": "{集|つど}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{集|つど}われる",
+        "negative": "{集|つど}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{集|つど}わせる",
+        "negative": "{集|つど}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{集|つど}え",
+        "negative": "{集|つど}うな"
+      }
+    ]
   }
 }

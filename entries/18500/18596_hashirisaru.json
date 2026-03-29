@@ -19,7 +19,9 @@
       "english": "The dog ran off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18596_hashirisaru_ex2",
@@ -27,7 +29,9 @@
       "english": "The children ran off laughing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18596_hashirisaru_ex3",
@@ -35,7 +39,9 @@
       "english": "When called out to, the suspicious person ran off and disappeared.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\nCompound verb: {走|はし}る (to run) + {去|さ}る (to go away). The ～{去|さ}る pattern indicates moving away from the speaker's perspective, seen also in {飛|と}び{去|さ}る (to fly away) and {逃|に}げ{去|さ}る (to flee).\n\nCOMMON COLLOCATIONS:\n- {走|はし}り{去|さ}っていく (to run off in a direction away from the speaker)\n- {一瞬|いっしゅん}で{走|はし}り{去|さ}る (to dash away in an instant)\n\nSIMILAR WORDS:\n- {駆|か}け{去|さ}る: to dash away — more literary or dramatic\n- {逃|に}げ{去|さ}る: to flee — implies escaping from something\n- {走|はし}り{出|だ}す: to start running — focuses on beginning rather than departing",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{走|はし}り{去|さ}る",
+        "negative": "{走|はし}り{去|さ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{走|はし}り{去|さ}ります",
+        "negative": "{走|はし}り{去|さ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{走|はし}り{去|さ}った",
+        "negative": "{走|はし}り{去|さ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{走|はし}り{去|さ}りました",
+        "negative": "{走|はし}り{去|さ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{走|はし}り{去|さ}って",
+        "negative": "{走|はし}り{去|さ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{走|はし}り{去|さ}っている",
+        "negative": "{走|はし}り{去|さ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{走|はし}り{去|さ}っています",
+        "negative": "{走|はし}り{去|さ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{走|はし}り{去|さ}っていた",
+        "negative": "{走|はし}り{去|さ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{走|はし}り{去|さ}っていました",
+        "negative": "{走|はし}り{去|さ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{走|はし}り{去|さ}れば",
+        "negative": "{走|はし}り{去|さ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{走|はし}り{去|さ}ったら",
+        "negative": "{走|はし}り{去|さ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{走|はし}り{去|さ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{走|はし}り{去|さ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{走|はし}り{去|さ}れる",
+        "negative": "{走|はし}り{去|さ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{走|はし}り{去|さ}られる",
+        "negative": "{走|はし}り{去|さ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{走|はし}り{去|さ}らせる",
+        "negative": "{走|はし}り{去|さ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{走|はし}り{去|さ}れ",
+        "negative": "{走|はし}り{去|さ}るな"
+      }
+    ]
   }
 }

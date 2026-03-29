@@ -19,7 +19,9 @@
       "english": "They are occupying that land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16996_senyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The market share went up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16996_senyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "I wish they would stop monopolizing the shared space by themselves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun and as a する verb ({占有|せんゆう}する = to occupy, to possess exclusively). In legal contexts, it refers to having physical control over property. In business, {占有|せんゆう}{率|りつ} (occupancy rate / market share) is a key metric.\n\nCOMMON COLLOCATIONS:\n- {占有|せんゆう}{率|りつ} (market share, occupancy rate)\n- {占有|せんゆう}{権|けん} (right of possession)\n- {占有|せんゆう}する (to occupy, to possess exclusively)\n\nSIMILAR WORDS:\n- {独占|どくせん}: monopoly — complete control of a market or resource, stronger than {占有|せんゆう}",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["business", "legal"]
+      "semantic": [
+        "business",
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{占有|せんゆう}する",
+        "negative": "{占有|せんゆう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{占有|せんゆう}します",
+        "negative": "{占有|せんゆう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{占有|せんゆう}した",
+        "negative": "{占有|せんゆう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{占有|せんゆう}しました",
+        "negative": "{占有|せんゆう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{占有|せんゆう}して",
+        "negative": "{占有|せんゆう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{占有|せんゆう}している",
+        "negative": "{占有|せんゆう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{占有|せんゆう}しています",
+        "negative": "{占有|せんゆう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{占有|せんゆう}していた",
+        "negative": "{占有|せんゆう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{占有|せんゆう}していました",
+        "negative": "{占有|せんゆう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{占有|せんゆう}すれば",
+        "negative": "{占有|せんゆう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{占有|せんゆう}したら",
+        "negative": "{占有|せんゆう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{占有|せんゆう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{占有|せんゆう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{占有|せんゆう}できる",
+        "negative": "{占有|せんゆう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{占有|せんゆう}される",
+        "negative": "{占有|せんゆう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{占有|せんゆう}させる",
+        "negative": "{占有|せんゆう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{占有|せんゆう}しろ",
+        "negative": "{占有|せんゆう}するな"
+      }
+    ]
   }
 }

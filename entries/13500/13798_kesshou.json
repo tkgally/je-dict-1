@@ -24,7 +24,9 @@
       "english": "Snow crystals are beautiful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13798_kesshou_ex2",
@@ -32,7 +34,9 @@
       "english": "Salt crystallized from the water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13798_kesshou_ex3",
@@ -40,7 +44,9 @@
       "english": "I observed the crystal structure under a microscope.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13798_kesshou_ex4",
@@ -48,7 +54,9 @@
       "english": "The fruit of love.",
       "notes": "A common expression referring to a child born of a loving relationship.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13798_kesshou_ex5",
@@ -56,7 +64,9 @@
       "english": "This work is the fruit of many years of effort.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13798_kesshou_ex6",
@@ -64,7 +74,9 @@
       "english": "This championship is the product of the entire team's sweat and tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nAlso functions as a suru verb: {結晶|けっしょう}する (to crystallize). The figurative sense 2 is very common in everyday Japanese, especially the phrase {愛|あい}の{結晶|けっしょう} (fruit of love, i.e., a child).\n\nCOMMON COLLOCATIONS:\n- {雪|ゆき}の{結晶|けっしょう}: snow crystal\n- {結晶|けっしょう}{構造|こうぞう}: crystal structure\n- {愛|あい}の{結晶|けっしょう}: fruit of love (a child)\n- {努力|どりょく}の{結晶|けっしょう}: fruit of one's efforts",
@@ -75,11 +87,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{結晶|けっしょう}する",
+        "negative": "{結晶|けっしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{結晶|けっしょう}します",
+        "negative": "{結晶|けっしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{結晶|けっしょう}した",
+        "negative": "{結晶|けっしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{結晶|けっしょう}しました",
+        "negative": "{結晶|けっしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{結晶|けっしょう}して",
+        "negative": "{結晶|けっしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{結晶|けっしょう}している",
+        "negative": "{結晶|けっしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{結晶|けっしょう}しています",
+        "negative": "{結晶|けっしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{結晶|けっしょう}していた",
+        "negative": "{結晶|けっしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{結晶|けっしょう}していました",
+        "negative": "{結晶|けっしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{結晶|けっしょう}すれば",
+        "negative": "{結晶|けっしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{結晶|けっしょう}したら",
+        "negative": "{結晶|けっしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{結晶|けっしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{結晶|けっしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{結晶|けっしょう}できる",
+        "negative": "{結晶|けっしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{結晶|けっしょう}される",
+        "negative": "{結晶|けっしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{結晶|けっしょう}させる",
+        "negative": "{結晶|けっしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{結晶|けっしょう}しろ",
+        "negative": "{結晶|けっしょう}するな"
+      }
+    ]
   }
 }

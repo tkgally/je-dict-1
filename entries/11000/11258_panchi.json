@@ -29,7 +29,9 @@
       "english": "I took a hard punch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11258_panchi_ex2",
@@ -37,7 +39,9 @@
       "english": "The boxer threw punches at his opponent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11258_panchi_ex3",
@@ -45,7 +49,9 @@
       "english": "His jokes always pack a punch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11258_panchi_ex4",
@@ -53,7 +59,9 @@
       "english": "This dish has a bold punch of flavor and is delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11258_panchi_ex5",
@@ -61,7 +69,9 @@
       "english": "I'd like a design with a bit more impact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11258_panchi_ex6",
@@ -69,7 +79,9 @@
       "english": "I punched holes in the documents and filed them in a binder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "11258_panchi_ex7",
@@ -77,7 +89,9 @@
       "english": "Could I borrow a two-hole punch?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "11258_panchi_ex8",
@@ -85,7 +99,9 @@
       "english": "You can punch holes in up to ten sheets at once.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "USAGE:\nThe figurative sense 2 is very common in everyday Japanese. パンチが{効|き}いている / パンチがある describes something with strong impact — spicy food, bold designs, memorable jokes, etc.\n\nSense 3 (hole punch) is common in office settings. The full form is {穴|あな}あけパンチ, but パンチ alone is usually sufficient in context.\n\nCOMMON COLLOCATIONS:\n- パンチを{食|く}らう: to take a punch\n- パンチを{繰|く}り{出|だ}す: to throw punches\n- パンチが{効|き}いている: to pack a punch, to have impact\n- パンチが{強|つよ}い: to have strong impact\n- パンチで{穴|あな}を{開|あ}ける: to punch holes",
@@ -96,10 +112,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "tool"]
+      "semantic": [
+        "action",
+        "tool"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "パンチする",
+        "negative": "パンチしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "パンチします",
+        "negative": "パンチしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "パンチした",
+        "negative": "パンチしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "パンチしました",
+        "negative": "パンチしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "パンチして",
+        "negative": "パンチしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "パンチしている",
+        "negative": "パンチしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "パンチしています",
+        "negative": "パンチしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "パンチしていた",
+        "negative": "パンチしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "パンチしていました",
+        "negative": "パンチしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "パンチすれば",
+        "negative": "パンチしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "パンチしたら",
+        "negative": "パンチしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "パンチしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "パンチしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "パンチできる",
+        "negative": "パンチできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "パンチされる",
+        "negative": "パンチされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "パンチさせる",
+        "negative": "パンチさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "パンチしろ",
+        "negative": "パンチするな"
+      }
+    ]
   }
 }

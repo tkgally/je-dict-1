@@ -19,7 +19,9 @@
       "english": "We unite our efforts and tackle the task.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13885_kesshuu_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's pool everyone's wisdom and solve the problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13885_kesshuu_ex3",
@@ -35,7 +39,9 @@
       "english": "This project is a major achievement completed by pooling the company's technical expertise.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used with {力|ちから} (strength), {知恵|ちえ} (wisdom), or {英知|えいち} (collective wisdom) as objects. Implies purposeful gathering rather than casual assembly. Common in speeches, news, and organizational contexts.\n\nCOMMON COLLOCATIONS:\n- {力|ちから}を{結集|けっしゅう}する: to unite forces\n- {知恵|ちえ}を{結集|けっしゅう}する: to pool wisdom\n- {総力|そうりょく}を{結集|けっしゅう}する: to concentrate all resources",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["social", "action"]
+      "semantic": [
+        "social",
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{結集|けっしゅう}する",
+        "negative": "{結集|けっしゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{結集|けっしゅう}します",
+        "negative": "{結集|けっしゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{結集|けっしゅう}した",
+        "negative": "{結集|けっしゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{結集|けっしゅう}しました",
+        "negative": "{結集|けっしゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{結集|けっしゅう}して",
+        "negative": "{結集|けっしゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{結集|けっしゅう}している",
+        "negative": "{結集|けっしゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{結集|けっしゅう}しています",
+        "negative": "{結集|けっしゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{結集|けっしゅう}していた",
+        "negative": "{結集|けっしゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{結集|けっしゅう}していました",
+        "negative": "{結集|けっしゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{結集|けっしゅう}すれば",
+        "negative": "{結集|けっしゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{結集|けっしゅう}したら",
+        "negative": "{結集|けっしゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{結集|けっしゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{結集|けっしゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{結集|けっしゅう}できる",
+        "negative": "{結集|けっしゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{結集|けっしゅう}される",
+        "negative": "{結集|けっしゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{結集|けっしゅう}させる",
+        "negative": "{結集|けっしゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{結集|けっしゅう}しろ",
+        "negative": "{結集|けっしゅう}するな"
+      }
+    ]
   }
 }

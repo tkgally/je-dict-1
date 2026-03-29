@@ -17,21 +17,27 @@
       "japanese": "{海外|かいがい}への{憧憬|しょうけい}。",
       "english": "A longing for foreign lands.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07626_shoukei_ex2",
       "japanese": "{彼|かれ}は{古|ふる}き{良|よ}き{時代|じだい}に{憧憬|しょうけい}を{抱|いだ}いている。",
       "english": "He yearns for the good old days.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07626_shoukei_ex3",
       "japanese": "{子供|こども}の{頃|ころ}からパリに{憧憬|しょうけい}を{持|も}っていた。",
       "english": "I've had a longing for Paris since childhood.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{憧憬|しょうけい}を{抱|いだ}く - to harbor a longing\n・{憧憬|しょうけい}を{持|も}つ - to have a yearning\n・Xへの{憧憬|しょうけい} - longing for X\n\nREGISTER:\nThis is a literary, somewhat formal word. The more common everyday expression for \"to long for\" or \"to admire\" is {憧|あこが}れる.\n\nSIMILAR WORDS:\n・{憧|あこが}れ - longing, admiration (more common)\n・{憧|あこが}れる - to long for, to admire (verb form)\n\nNOTE:\n{憧憬|しょうけい} has a more literary, nostalgic, or wistful nuance compared to {憧|あこが}れ.",
@@ -41,11 +47,110 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "style": ["literary"],
-      "semantic": ["emotion", "desire"],
-      "domain": []
+      "style": [
+        "literary"
+      ],
+      "semantic": [
+        "emotion",
+        "desire"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{憧憬|しょうけい}する",
+        "negative": "{憧憬|しょうけい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{憧憬|しょうけい}します",
+        "negative": "{憧憬|しょうけい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{憧憬|しょうけい}した",
+        "negative": "{憧憬|しょうけい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{憧憬|しょうけい}しました",
+        "negative": "{憧憬|しょうけい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{憧憬|しょうけい}して",
+        "negative": "{憧憬|しょうけい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{憧憬|しょうけい}している",
+        "negative": "{憧憬|しょうけい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{憧憬|しょうけい}しています",
+        "negative": "{憧憬|しょうけい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{憧憬|しょうけい}していた",
+        "negative": "{憧憬|しょうけい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{憧憬|しょうけい}していました",
+        "negative": "{憧憬|しょうけい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{憧憬|しょうけい}すれば",
+        "negative": "{憧憬|しょうけい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{憧憬|しょうけい}したら",
+        "negative": "{憧憬|しょうけい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{憧憬|しょうけい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{憧憬|しょうけい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{憧憬|しょうけい}できる",
+        "negative": "{憧憬|しょうけい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{憧憬|しょうけい}される",
+        "negative": "{憧憬|しょうけい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{憧憬|しょうけい}させる",
+        "negative": "{憧憬|しょうけい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{憧憬|しょうけい}しろ",
+        "negative": "{憧憬|しょうけい}するな"
+      }
+    ]
   }
 }

@@ -21,7 +21,9 @@
       "id": "10027_torikobosu_ex1",
       "japanese": "ボールを{取|と}りこぼした。",
       "english": "I dropped the ball.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "10027_torikobosu_ex2",
       "japanese": "グローブからボールを{取|と}りこぼす。",
       "english": "To drop the ball from one's glove.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "10027_torikobosu_ex3",
       "japanese": "キャッチャーが{送球|そうきゅう}を{取|と}りこぼしてしまった。",
       "english": "The catcher dropped the throw.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "10027_torikobosu_ex4",
       "japanese": "{勝|か}てる{試合|しあい}を{取|と}りこぼした。",
       "english": "We let slip a game we should have won.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "10027_torikobosu_ex5",
       "japanese": "{大事|だいじ}なチャンスを{取|と}りこぼす。",
       "english": "To miss an important opportunity.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "10027_torikobosu_ex6",
       "japanese": "{優勝|ゆうしょう}チームが{下位|かい}チーム{相手|あいて}に{取|と}りこぼすとは{意外|いがい}だった。",
       "english": "It was surprising that the champion team let slip a game against a lower-ranked team.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "sports"]
+      "semantic": [
+        "action",
+        "sports"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}りこぼす",
+        "negative": "{取|と}りこぼさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}りこぼします",
+        "negative": "{取|と}りこぼしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}りこぼした",
+        "negative": "{取|と}りこぼさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}りこぼしました",
+        "negative": "{取|と}りこぼしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}りこぼして",
+        "negative": "{取|と}りこぼさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}りこぼしている",
+        "negative": "{取|と}りこぼしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}りこぼしています",
+        "negative": "{取|と}りこぼしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}りこぼしていた",
+        "negative": "{取|と}りこぼしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}りこぼしていました",
+        "negative": "{取|と}りこぼしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}りこぼせば",
+        "negative": "{取|と}りこぼさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}りこぼしたら",
+        "negative": "{取|と}りこぼさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}りこぼそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}りこぼしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}りこぼせる",
+        "negative": "{取|と}りこぼせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}りこぼされる",
+        "negative": "{取|と}りこぼされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}りこぼさせる",
+        "negative": "{取|と}りこぼさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}りこぼせ",
+        "negative": "{取|と}りこぼすな"
+      }
+    ]
   }
 }

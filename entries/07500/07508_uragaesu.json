@@ -22,7 +22,9 @@
       "japanese": "{靴下|くつした}を{裏返|うらがえ}して{干|ほ}す。",
       "english": "Turn the socks inside out and hang them to dry.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "ポケットを{裏返|うらがえ}して{中身|なかみ}を{確認|かくにん}した。",
       "english": "I turned the pocket inside out to check the contents.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "Tシャツを{裏返|うらがえ}して{洗濯|せんたく}すると{色落|いろお}ちしにくい。",
       "english": "If you turn the T-shirt inside out before washing, the color is less likely to fade.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{焼|や}き{色|いろ}がついたら{裏返|うらがえ}す。",
       "english": "Flip it over once it's browned.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "カードを{裏返|うらがえ}す。",
       "english": "Flip the card over.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{中火|ちゅうび}で{三分|さんぷん}{焼|や}いてから{裏返|うらがえ}して、さらに{二分|にふん}{焼|や}く。",
       "english": "Cook on medium heat for three minutes, then flip and cook for two more minutes.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,11 +85,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
-      "semantic": ["action"],
-      "domain": []
+      "semantic": [
+        "action"
+      ],
+      "domain": [],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{裏返|うらがえ}す",
+        "negative": "{裏返|うらがえ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{裏返|うらがえ}します",
+        "negative": "{裏返|うらがえ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{裏返|うらがえ}した",
+        "negative": "{裏返|うらがえ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{裏返|うらがえ}しました",
+        "negative": "{裏返|うらがえ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{裏返|うらがえ}して",
+        "negative": "{裏返|うらがえ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{裏返|うらがえ}している",
+        "negative": "{裏返|うらがえ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{裏返|うらがえ}しています",
+        "negative": "{裏返|うらがえ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{裏返|うらがえ}していた",
+        "negative": "{裏返|うらがえ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{裏返|うらがえ}していました",
+        "negative": "{裏返|うらがえ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{裏返|うらがえ}せば",
+        "negative": "{裏返|うらがえ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{裏返|うらがえ}したら",
+        "negative": "{裏返|うらがえ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{裏返|うらがえ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{裏返|うらがえ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{裏返|うらがえ}せる",
+        "negative": "{裏返|うらがえ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{裏返|うらがえ}される",
+        "negative": "{裏返|うらがえ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{裏返|うらがえ}させる",
+        "negative": "{裏返|うらがえ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{裏返|うらがえ}せ",
+        "negative": "{裏返|うらがえ}すな"
+      }
+    ]
   }
 }

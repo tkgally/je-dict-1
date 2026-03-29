@@ -19,7 +19,9 @@
       "english": "He is well-versed in law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15453_seitsuu_ex2",
@@ -27,7 +29,9 @@
       "english": "We need an expert well-versed in this field.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15453_seitsuu_ex3",
@@ -35,7 +39,9 @@
       "english": "I asked someone familiar with local affairs to show me around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nUsed as a suru verb. The pattern is ～に{精通|せいつう}する (to be well-versed in ~). The particle に marks the field or subject of expertise.\n\nCOMMON PATTERNS:\n- ～に{精通|せいつう}している (is well-versed in ~)\n- ～に{精通|せいつう}した + noun (noun well-versed in ~)\n\nCOMMON COLLOCATIONS:\n- {法律|ほうりつ}に{精通|せいつう}する (to be well-versed in law)\n- {技術|ぎじゅつ}に{精通|せいつう}する (to be well-versed in technology)\n- {業界|ぎょうかい}に{精通|せいつう}する (to be well-versed in the industry)\n\nNUANCE:\nImplies deeper, more specialized knowledge than {詳|くわ}しい (knowledgeable). {精通|せいつう} suggests professional-level or expert familiarity.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{精通|せいつう}する",
+        "negative": "{精通|せいつう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{精通|せいつう}します",
+        "negative": "{精通|せいつう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{精通|せいつう}した",
+        "negative": "{精通|せいつう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{精通|せいつう}しました",
+        "negative": "{精通|せいつう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{精通|せいつう}して",
+        "negative": "{精通|せいつう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{精通|せいつう}している",
+        "negative": "{精通|せいつう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{精通|せいつう}しています",
+        "negative": "{精通|せいつう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{精通|せいつう}していた",
+        "negative": "{精通|せいつう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{精通|せいつう}していました",
+        "negative": "{精通|せいつう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{精通|せいつう}すれば",
+        "negative": "{精通|せいつう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{精通|せいつう}したら",
+        "negative": "{精通|せいつう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{精通|せいつう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{精通|せいつう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{精通|せいつう}できる",
+        "negative": "{精通|せいつう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{精通|せいつう}される",
+        "negative": "{精通|せいつう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{精通|せいつう}させる",
+        "negative": "{精通|せいつう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{精通|せいつう}しろ",
+        "negative": "{精通|せいつう}するな"
+      }
+    ]
   }
 }

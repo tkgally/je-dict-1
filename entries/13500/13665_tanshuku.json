@@ -19,7 +19,9 @@
       "english": "To reduce working hours.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13665_tanshuku_ex2",
@@ -27,7 +29,9 @@
       "english": "Commuting time was reduced thanks to the new road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13665_tanshuku_ex3",
@@ -35,7 +39,9 @@
       "english": "We decided to distribute materials in advance to shorten meeting times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed transitively ({短縮|たんしゅく}する = to shorten) or in the passive ({短縮|たんしゅく}される = to be shortened). Also used as a noun modifier: {短縮|たんしゅく}{版|ばん} (abbreviated version), {短縮|たんしゅく}URL (shortened URL).\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}を{短縮|たんしゅく}する: to shorten time\n- {営業|えいぎょう}{時間|じかん}の{短縮|たんしゅく}: reduction of business hours\n- {短縮|たんしゅく}{営業|えいぎょう}: shortened business hours\n- URL{短縮|たんしゅく}: URL shortening\n- {工期|こうき}を{短縮|たんしゅく}する: to shorten the construction period\n\nCONTRAST:\n- {延長|えんちょう}: extension, lengthening (the opposite)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{短縮|たんしゅく}する",
+        "negative": "{短縮|たんしゅく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{短縮|たんしゅく}します",
+        "negative": "{短縮|たんしゅく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{短縮|たんしゅく}した",
+        "negative": "{短縮|たんしゅく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{短縮|たんしゅく}しました",
+        "negative": "{短縮|たんしゅく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{短縮|たんしゅく}して",
+        "negative": "{短縮|たんしゅく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{短縮|たんしゅく}している",
+        "negative": "{短縮|たんしゅく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{短縮|たんしゅく}しています",
+        "negative": "{短縮|たんしゅく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{短縮|たんしゅく}していた",
+        "negative": "{短縮|たんしゅく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{短縮|たんしゅく}していました",
+        "negative": "{短縮|たんしゅく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{短縮|たんしゅく}すれば",
+        "negative": "{短縮|たんしゅく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{短縮|たんしゅく}したら",
+        "negative": "{短縮|たんしゅく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{短縮|たんしゅく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{短縮|たんしゅく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{短縮|たんしゅく}できる",
+        "negative": "{短縮|たんしゅく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{短縮|たんしゅく}される",
+        "negative": "{短縮|たんしゅく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{短縮|たんしゅく}させる",
+        "negative": "{短縮|たんしゅく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{短縮|たんしゅく}しろ",
+        "negative": "{短縮|たんしゅく}するな"
+      }
+    ]
   }
 }

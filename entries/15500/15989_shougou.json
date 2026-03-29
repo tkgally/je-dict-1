@@ -19,7 +19,9 @@
       "english": "Verify the data.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15989_shougou_ex2",
@@ -27,7 +29,9 @@
       "english": "Identity was confirmed by matching fingerprints.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15989_shougou_ex3",
@@ -35,7 +39,9 @@
       "english": "When I cross-checked the invoice amount against the purchase order, they didn't match.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used with する as {照合|しょうごう}する. Frequently appears in business, IT, and administrative contexts. The typical pattern is AとBを{照合|しょうごう}する (to cross-check A against B).\n\nCOMMON COLLOCATIONS:\n- {照合|しょうごう}する (to verify, to cross-check)\n- データを{照合|しょうごう}する (to verify data)\n- {照合|しょうごう}{結果|けっか} (verification result)\n- {照合|しょうごう}{番号|ばんごう} (reference number)\n\nSIMILAR WORDS:\n- {確認|かくにん}: confirmation — more general checking or making sure\n- {突合|とつごう}: matching, reconciliation — technical term used in accounting and data processing",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{照合|しょうごう}する",
+        "negative": "{照合|しょうごう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{照合|しょうごう}します",
+        "negative": "{照合|しょうごう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{照合|しょうごう}した",
+        "negative": "{照合|しょうごう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{照合|しょうごう}しました",
+        "negative": "{照合|しょうごう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{照合|しょうごう}して",
+        "negative": "{照合|しょうごう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{照合|しょうごう}している",
+        "negative": "{照合|しょうごう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{照合|しょうごう}しています",
+        "negative": "{照合|しょうごう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{照合|しょうごう}していた",
+        "negative": "{照合|しょうごう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{照合|しょうごう}していました",
+        "negative": "{照合|しょうごう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{照合|しょうごう}すれば",
+        "negative": "{照合|しょうごう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{照合|しょうごう}したら",
+        "negative": "{照合|しょうごう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{照合|しょうごう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{照合|しょうごう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{照合|しょうごう}できる",
+        "negative": "{照合|しょうごう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{照合|しょうごう}される",
+        "negative": "{照合|しょうごう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{照合|しょうごう}させる",
+        "negative": "{照合|しょうごう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{照合|しょうごう}しろ",
+        "negative": "{照合|しょうごう}するな"
+      }
+    ]
   }
 }

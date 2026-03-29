@@ -24,7 +24,9 @@
       "english": "The rope is pulled taut.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12498_haritsumeru_ex2",
@@ -32,7 +34,9 @@
       "english": "Ice had formed completely across the surface of the lake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12498_haritsumeru_ex3",
@@ -40,7 +44,9 @@
       "english": "If you stretch the string too tight, it will snap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12498_haritsumeru_ex4",
@@ -48,7 +54,9 @@
       "english": "The meeting room was enveloped in a tense atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12498_haritsumeru_ex5",
@@ -56,7 +64,9 @@
       "english": "I continued working with my nerves on edge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12498_haritsumeru_ex6",
@@ -64,7 +74,9 @@
       "english": "The tension that had been building for days finally eased.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIchidan verb that is most commonly used in its ている form ({張|は}りつめている) to describe a sustained state of tautness or tension. The past participle {張|は}りつめた is frequently used as a modifier before nouns like {空気|くうき} (atmosphere) and {表情|ひょうじょう} (expression).\n\nCOMMON COLLOCATIONS:\n- {張|は}りつめた{空気|くうき}: tense atmosphere\n- {神経|しんけい}を{張|は}りつめる: to be on edge, to strain one's nerves\n- {張|は}りつめた{糸|いと}が{切|き}れる: a taut thread snaps (metaphor for reaching a breaking point)",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "transitivity": "both"
+      "semantic": [
+        "descriptive"
+      ],
+      "transitivity": "both",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{張|は}りつめる",
+        "negative": "{張|は}りつめない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{張|は}りつめます",
+        "negative": "{張|は}りつめません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{張|は}りつめた",
+        "negative": "{張|は}りつめなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{張|は}りつめました",
+        "negative": "{張|は}りつめませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{張|は}りつめて",
+        "negative": "{張|は}りつめなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{張|は}りつめている",
+        "negative": "{張|は}りつめていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{張|は}りつめています",
+        "negative": "{張|は}りつめていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{張|は}りつめていた",
+        "negative": "{張|は}りつめていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{張|は}りつめていました",
+        "negative": "{張|は}りつめていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{張|は}りつめれば",
+        "negative": "{張|は}りつめなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{張|は}りつめたら",
+        "negative": "{張|は}りつめなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{張|は}りつめよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{張|は}りつめましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{張|は}りつめられる",
+        "negative": "{張|は}りつめられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{張|は}りつめられる",
+        "negative": "{張|は}りつめられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{張|は}りつめさせる",
+        "negative": "{張|は}りつめさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{張|は}りつめろ",
+        "negative": "{張|は}りつめるな"
+      }
+    ]
   }
 }

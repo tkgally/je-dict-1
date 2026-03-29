@@ -24,7 +24,9 @@
       "english": "The discontinued route was restored.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12565_fukkatsu_ex2",
@@ -32,7 +34,9 @@
       "english": "A popular menu item is coming back for a limited time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12565_fukkatsu_ex3",
@@ -40,7 +44,9 @@
       "english": "A traditional festival was revived through the efforts of the local community.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12565_fukkatsu_ex4",
@@ -48,7 +54,9 @@
       "english": "To celebrate the resurrection of Christ.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12565_fukkatsu_ex5",
@@ -56,7 +64,9 @@
       "english": "The main character in the game came back to life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12565_fukkatsu_ex6",
@@ -64,7 +74,9 @@
       "english": "Could it be possible to bring extinct species back to life using DNA technology?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 is the more common usage in everyday Japanese — products, customs, services, or traditions being brought back. Sense 2 is used in religious contexts and in fiction (games, anime, etc.). {復活|ふっかつ}{祭|さい} refers to Easter.\n\nThe causative form {復活|ふっかつ}させる (to revive something, to bring something back) is also very common.\n\nCOMMON COLLOCATIONS:\n- {復活|ふっかつ}する: to be revived, to come back\n- {復活|ふっかつ}させる: to revive, to bring back\n- {復活|ふっかつ}{祭|さい}: Easter\n- {奇跡|きせき}の{復活|ふっかつ}: miraculous comeback",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["change-of-state"]
+      "semantic": [
+        "change-of-state"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{復活|ふっかつ}する",
+        "negative": "{復活|ふっかつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{復活|ふっかつ}します",
+        "negative": "{復活|ふっかつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{復活|ふっかつ}した",
+        "negative": "{復活|ふっかつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{復活|ふっかつ}しました",
+        "negative": "{復活|ふっかつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{復活|ふっかつ}して",
+        "negative": "{復活|ふっかつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{復活|ふっかつ}している",
+        "negative": "{復活|ふっかつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{復活|ふっかつ}しています",
+        "negative": "{復活|ふっかつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{復活|ふっかつ}していた",
+        "negative": "{復活|ふっかつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{復活|ふっかつ}していました",
+        "negative": "{復活|ふっかつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{復活|ふっかつ}すれば",
+        "negative": "{復活|ふっかつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{復活|ふっかつ}したら",
+        "negative": "{復活|ふっかつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{復活|ふっかつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{復活|ふっかつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{復活|ふっかつ}できる",
+        "negative": "{復活|ふっかつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{復活|ふっかつ}される",
+        "negative": "{復活|ふっかつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{復活|ふっかつ}させる",
+        "negative": "{復活|ふっかつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{復活|ふっかつ}しろ",
+        "negative": "{復活|ふっかつ}するな"
+      }
+    ]
   }
 }

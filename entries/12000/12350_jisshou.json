@@ -19,7 +19,9 @@
       "english": "To verify a theory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12350_jisshou_ex2",
@@ -27,7 +29,9 @@
       "english": "We conducted a verification experiment to confirm the safety.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12350_jisshou_ex3",
@@ -35,7 +39,9 @@
       "english": "Caution is needed with treatments that have not been scientifically verified.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{実証|じっしょう} emphasizes proving through evidence or experiment, as opposed to theoretical reasoning. It is commonly used in academic, scientific, and technical contexts.\n\nCOLLOCATIONS:\n- {実証|じっしょう}{実験|じっけん} — verification experiment, demonstration test\n- {実証|じっしょう}{研究|けんきゅう} — empirical research\n- {科学的|かがくてき}に{実証|じっしょう}する — to scientifically verify\n- {実証|じっしょう}{済|ず}み — verified, proven\n\nSIMILAR WORDS:\n{証明|しょうめい} is the general word for proof or certification. {検証|けんしょう} means examination or verification through review. {実証|じっしょう} specifically implies demonstrating through concrete evidence or experiments.",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "domain": ["academic"]
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{実証|じっしょう}する",
+        "negative": "{実証|じっしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{実証|じっしょう}します",
+        "negative": "{実証|じっしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{実証|じっしょう}した",
+        "negative": "{実証|じっしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{実証|じっしょう}しました",
+        "negative": "{実証|じっしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{実証|じっしょう}して",
+        "negative": "{実証|じっしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{実証|じっしょう}している",
+        "negative": "{実証|じっしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{実証|じっしょう}しています",
+        "negative": "{実証|じっしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{実証|じっしょう}していた",
+        "negative": "{実証|じっしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{実証|じっしょう}していました",
+        "negative": "{実証|じっしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{実証|じっしょう}すれば",
+        "negative": "{実証|じっしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{実証|じっしょう}したら",
+        "negative": "{実証|じっしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{実証|じっしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{実証|じっしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{実証|じっしょう}できる",
+        "negative": "{実証|じっしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{実証|じっしょう}される",
+        "negative": "{実証|じっしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{実証|じっしょう}させる",
+        "negative": "{実証|じっしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{実証|じっしょう}しろ",
+        "negative": "{実証|じっしょう}するな"
+      }
+    ]
   }
 }

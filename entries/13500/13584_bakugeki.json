@@ -19,7 +19,9 @@
       "english": "The city was bombed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13584_bakugeki_ex2",
@@ -27,7 +29,9 @@
       "english": "Many buildings were destroyed by the bombing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13584_bakugeki_ex3",
@@ -35,7 +39,9 @@
       "english": "During the war, this area was bombed repeatedly and the town was reduced to a burned wasteland.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\n{爆|ばく} (explode) + {撃|げき} (strike, attack). Can also function as a する verb: {爆撃|ばくげき}する (to bomb).\n\nSIMILAR WORDS:\n- {空襲|くうしゅう}: air raid — focuses on the aerial nature of the attack\n- {爆撃|ばくげき}: bombing — specifically emphasizes the use of bombs\n- {砲撃|ほうげき}: bombardment with artillery, not from aircraft\n\nCOMMON COLLOCATIONS:\n- {爆撃|ばくげき}を{受|う}ける: be bombed\n- {爆撃|ばくげき}する: to bomb\n- {爆撃機|ばくげきき}: bomber (aircraft)\n- {無差別|むさべつ}{爆撃|ばくげき}: indiscriminate bombing",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{爆撃|ばくげき}する",
+        "negative": "{爆撃|ばくげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{爆撃|ばくげき}します",
+        "negative": "{爆撃|ばくげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{爆撃|ばくげき}した",
+        "negative": "{爆撃|ばくげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{爆撃|ばくげき}しました",
+        "negative": "{爆撃|ばくげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{爆撃|ばくげき}して",
+        "negative": "{爆撃|ばくげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{爆撃|ばくげき}している",
+        "negative": "{爆撃|ばくげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{爆撃|ばくげき}しています",
+        "negative": "{爆撃|ばくげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{爆撃|ばくげき}していた",
+        "negative": "{爆撃|ばくげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{爆撃|ばくげき}していました",
+        "negative": "{爆撃|ばくげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{爆撃|ばくげき}すれば",
+        "negative": "{爆撃|ばくげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{爆撃|ばくげき}したら",
+        "negative": "{爆撃|ばくげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{爆撃|ばくげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{爆撃|ばくげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{爆撃|ばくげき}できる",
+        "negative": "{爆撃|ばくげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{爆撃|ばくげき}される",
+        "negative": "{爆撃|ばくげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{爆撃|ばくげき}させる",
+        "negative": "{爆撃|ばくげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{爆撃|ばくげき}しろ",
+        "negative": "{爆撃|ばくげき}するな"
+      }
+    ]
   }
 }

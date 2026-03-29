@@ -19,7 +19,9 @@
       "english": "This smartphone is equipped with AI.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12789_tousai_ex2",
@@ -27,7 +29,9 @@
       "english": "The new car model is equipped with the latest safety features.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12789_tousai_ex3",
@@ -35,7 +39,9 @@
       "english": "This satellite is equipped with a high-performance camera that can photograph fine details on the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{搭載|とうさい} is very commonly used in product descriptions and tech journalism to describe features that are built into or loaded onto a device or vehicle.\n\nPATTERN:\n- 〜を{搭載|とうさい}する: to equip with ~, to install ~\n- 〜が{搭載|とうさい}されている: ~ is equipped / comes loaded with\n- 〜{搭載|とうさい}: ~-equipped (used as a modifier, e.g., AI{搭載|とうさい})\n\nCOMMON COLLOCATIONS:\n- エンジンを{搭載|とうさい}する: to mount an engine\n- {機能|きのう}を{搭載|とうさい}する: to include a feature\n- {搭載|とうさい}{量|りょう}: payload capacity\n- {搭載|とうさい}モデル: a model equipped with ~\n\nSIMILAR WORDS:\n- {装備|そうび}: equipment, gear (broader; includes personal gear and military equipment)\n- {積|つ}む: to load, to pile up (more general; less technical)",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{搭載|とうさい}する",
+        "negative": "{搭載|とうさい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{搭載|とうさい}します",
+        "negative": "{搭載|とうさい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{搭載|とうさい}した",
+        "negative": "{搭載|とうさい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{搭載|とうさい}しました",
+        "negative": "{搭載|とうさい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{搭載|とうさい}して",
+        "negative": "{搭載|とうさい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{搭載|とうさい}している",
+        "negative": "{搭載|とうさい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{搭載|とうさい}しています",
+        "negative": "{搭載|とうさい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{搭載|とうさい}していた",
+        "negative": "{搭載|とうさい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{搭載|とうさい}していました",
+        "negative": "{搭載|とうさい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{搭載|とうさい}すれば",
+        "negative": "{搭載|とうさい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{搭載|とうさい}したら",
+        "negative": "{搭載|とうさい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{搭載|とうさい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{搭載|とうさい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{搭載|とうさい}できる",
+        "negative": "{搭載|とうさい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{搭載|とうさい}される",
+        "negative": "{搭載|とうさい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{搭載|とうさい}させる",
+        "negative": "{搭載|とうさい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{搭載|とうさい}しろ",
+        "negative": "{搭載|とうさい}するな"
+      }
+    ]
   }
 }

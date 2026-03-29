@@ -24,7 +24,9 @@
       "english": "The court handed down a verdict.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12329_kudasu_ex2",
@@ -32,7 +34,9 @@
       "english": "It is difficult to make a final judgment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12329_kudasu_ex3",
@@ -40,7 +44,9 @@
       "english": "The boss issued instructions to the subordinates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{下|くだ}す is a transitive verb meaning to hand down from above. It is most commonly used in formal or official contexts with decisions, judgments, and orders.\n\nCONJUGATION:\nGodan verb (す-ending).\n- Negative: {下|くだ}さない\n- Polite: {下|くだ}します\n- Te-form: {下|くだ}して\n- Past: {下|くだ}した\n- Passive: {下|くだ}される\n\nCOMMON COLLOCATIONS:\n- {判断|はんだん}を{下|くだ}す: to pass/make a judgment\n- {判決|はんけつ}を{下|くだ}す: to hand down a verdict\n- {命令|めいれい}を{下|くだ}す: to issue an order\n- {決断|けつだん}を{下|くだ}す: to make a decision\n\nNOTE:\nDo not confuse with {下|くだ}さる (to give, honorific) or {下|くだ}る (to go down, intransitive).",
@@ -51,10 +57,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{下|くだ}す",
+        "negative": "{下|くだ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{下|くだ}します",
+        "negative": "{下|くだ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{下|くだ}した",
+        "negative": "{下|くだ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{下|くだ}しました",
+        "negative": "{下|くだ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{下|くだ}して",
+        "negative": "{下|くだ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{下|くだ}している",
+        "negative": "{下|くだ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{下|くだ}しています",
+        "negative": "{下|くだ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{下|くだ}していた",
+        "negative": "{下|くだ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{下|くだ}していました",
+        "negative": "{下|くだ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{下|くだ}せば",
+        "negative": "{下|くだ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{下|くだ}したら",
+        "negative": "{下|くだ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{下|くだ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{下|くだ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{下|くだ}せる",
+        "negative": "{下|くだ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{下|くだ}される",
+        "negative": "{下|くだ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{下|くだ}させる",
+        "negative": "{下|くだ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{下|くだ}せ",
+        "negative": "{下|くだ}すな"
+      }
+    ]
   }
 }

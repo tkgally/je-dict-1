@@ -18,7 +18,9 @@
       "english": "The water splattered everywhere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09645_tobichiru_ex2",
@@ -26,7 +28,9 @@
       "english": "The fireworks scattered across the night sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09645_tobichiru_ex3",
@@ -34,7 +38,9 @@
       "english": "Glass shards scattered all around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{飛|と}び{散|ち}る is a compound verb combining {飛|と}ぶ (to fly) + {散|ち}る (to scatter). It vividly describes things flying apart in multiple directions.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pattern: Xが{飛|と}び{散|ち}る\n- No transitive pair\n\nASPECT (ている):\n{飛|と}び{散|ち}っている describes the resulting state — things are scattered about after flying apart.\n\nCOMMON SUBJECTS:\n- {水|みず}/{水滴|すいてき}が{飛|と}び{散|ち}る: water/droplets splatter\n- ガラスの{破片|はへん}が{飛|と}び{散|ち}る: glass shards scatter\n- {火花|ひばな}が{飛|と}び{散|ち}る: sparks fly\n- {血|ち}が{飛|と}び{散|ち}る: blood spatters\n\nUSAGE:\nConveys a dynamic, often sudden image. Common in both everyday descriptions (splashing water) and dramatic scenes (explosions, accidents).",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{飛|と}び{散|ち}る",
+        "negative": "{飛|と}び{散|ち}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{飛|と}び{散|ち}ります",
+        "negative": "{飛|と}び{散|ち}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{飛|と}び{散|ち}った",
+        "negative": "{飛|と}び{散|ち}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{飛|と}び{散|ち}りました",
+        "negative": "{飛|と}び{散|ち}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{飛|と}び{散|ち}って",
+        "negative": "{飛|と}び{散|ち}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{飛|と}び{散|ち}っている",
+        "negative": "{飛|と}び{散|ち}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{飛|と}び{散|ち}っています",
+        "negative": "{飛|と}び{散|ち}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{飛|と}び{散|ち}っていた",
+        "negative": "{飛|と}び{散|ち}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{飛|と}び{散|ち}っていました",
+        "negative": "{飛|と}び{散|ち}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{飛|と}び{散|ち}れば",
+        "negative": "{飛|と}び{散|ち}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{飛|と}び{散|ち}ったら",
+        "negative": "{飛|と}び{散|ち}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{飛|と}び{散|ち}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{飛|と}び{散|ち}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{飛|と}び{散|ち}れる",
+        "negative": "{飛|と}び{散|ち}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{飛|と}び{散|ち}られる",
+        "negative": "{飛|と}び{散|ち}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{飛|と}び{散|ち}らせる",
+        "negative": "{飛|と}び{散|ち}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{飛|と}び{散|ち}れ",
+        "negative": "{飛|と}び{散|ち}るな"
+      }
+    ]
   }
 }

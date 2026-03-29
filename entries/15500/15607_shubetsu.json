@@ -19,7 +19,9 @@
       "english": "To sort garbage by type.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15607_shubetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Please confirm the type of your license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15607_shubetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The required documents differ depending on the type of application.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{種別|しゅべつ} is used in formal and administrative contexts for classifying things into categories. It often appears on forms and in official documents.\n\nCOMMON COLLOCATIONS:\n- {種別|しゅべつ}ごとに (by type, per category)\n- {車両|しゃりょう}{種別|しゅべつ} (vehicle type/classification)\n- {種別|しゅべつ}コード (classification code)\n\nSIMILAR WORDS:\n{種類|しゅるい} is more general and means \"kind\" or \"type\" in everyday speech. {分類|ぶんるい} emphasizes the act of categorizing, while {種別|しゅべつ} focuses on the categories themselves.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{種別|しゅべつ}する",
+        "negative": "{種別|しゅべつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{種別|しゅべつ}します",
+        "negative": "{種別|しゅべつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{種別|しゅべつ}した",
+        "negative": "{種別|しゅべつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{種別|しゅべつ}しました",
+        "negative": "{種別|しゅべつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{種別|しゅべつ}して",
+        "negative": "{種別|しゅべつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{種別|しゅべつ}している",
+        "negative": "{種別|しゅべつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{種別|しゅべつ}しています",
+        "negative": "{種別|しゅべつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{種別|しゅべつ}していた",
+        "negative": "{種別|しゅべつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{種別|しゅべつ}していました",
+        "negative": "{種別|しゅべつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{種別|しゅべつ}すれば",
+        "negative": "{種別|しゅべつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{種別|しゅべつ}したら",
+        "negative": "{種別|しゅべつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{種別|しゅべつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{種別|しゅべつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{種別|しゅべつ}できる",
+        "negative": "{種別|しゅべつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{種別|しゅべつ}される",
+        "negative": "{種別|しゅべつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{種別|しゅべつ}させる",
+        "negative": "{種別|しゅべつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{種別|しゅべつ}しろ",
+        "negative": "{種別|しゅべつ}するな"
+      }
+    ]
   }
 }

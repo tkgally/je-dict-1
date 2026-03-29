@@ -24,7 +24,9 @@
       "english": "The drain is clogged.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14872_fusagaru_ex2",
@@ -32,7 +34,9 @@
       "english": "The wound finally closed up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14872_fusagaru_ex3",
@@ -40,7 +44,9 @@
       "english": "The road was blocked due to an accident, so I took a detour.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14872_fusagaru_ex4",
@@ -48,7 +54,9 @@
       "english": "That seat is taken.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14872_fusagaru_ex5",
@@ -56,7 +64,9 @@
       "english": "My hands are full, so could you open the door for me?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14872_fusagaru_ex6",
@@ -64,7 +74,9 @@
       "english": "The meeting room was occupied all morning, so I couldn't make a reservation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{塞|ふさ}がる is an intransitive godan verb, the intransitive pair of {塞|ふさ}ぐ (to block, to close).\n\nASPECT (ている):\n{塞|ふさ}がっている describes a resultant state — something is currently blocked or occupied.\n\nPARTICLE PATTERNS:\n- ～が{塞|ふさ}がる (something becomes blocked/occupied)\n\nCOMMON COLLOCATIONS:\n- {道|みち}が{塞|ふさ}がる (the road is blocked)\n- {手|て}が{塞|ふさ}がる (one's hands are full)\n- {席|せき}が{塞|ふさ}がる (a seat is occupied)\n- {傷|きず}が{塞|ふさ}がる (a wound closes up)\n\nThe expression {手|て}が{塞|ふさ}がっている (one's hands are full) is very common in daily conversation.",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{塞|ふさ}がる",
+        "negative": "{塞|ふさ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{塞|ふさ}がります",
+        "negative": "{塞|ふさ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{塞|ふさ}がった",
+        "negative": "{塞|ふさ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{塞|ふさ}がりました",
+        "negative": "{塞|ふさ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{塞|ふさ}がって",
+        "negative": "{塞|ふさ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{塞|ふさ}がっている",
+        "negative": "{塞|ふさ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{塞|ふさ}がっています",
+        "negative": "{塞|ふさ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{塞|ふさ}がっていた",
+        "negative": "{塞|ふさ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{塞|ふさ}がっていました",
+        "negative": "{塞|ふさ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{塞|ふさ}がれば",
+        "negative": "{塞|ふさ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{塞|ふさ}がったら",
+        "negative": "{塞|ふさ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{塞|ふさ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{塞|ふさ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{塞|ふさ}がれる",
+        "negative": "{塞|ふさ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{塞|ふさ}がられる",
+        "negative": "{塞|ふさ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{塞|ふさ}がらせる",
+        "negative": "{塞|ふさ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{塞|ふさ}がれ",
+        "negative": "{塞|ふさ}がるな"
+      }
+    ]
   }
 }

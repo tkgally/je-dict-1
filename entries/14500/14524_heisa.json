@@ -19,7 +19,9 @@
       "english": "That factory was shut down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14524_heisa_ex2",
@@ -27,7 +29,9 @@
       "english": "The road is closed due to the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14524_heisa_ex3",
@@ -35,7 +39,9 @@
       "english": "Due to worsening business conditions, it was decided to close the store at the end of next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound of {閉|へい} (to close) + {鎖|さ} (to lock/chain). Implies a formal or official closing.\n\nCOMMON COLLOCATIONS:\n- {工場|こうじょう}を{閉鎖|へいさ}する (to close a factory)\n- {道路|どうろ}を{閉鎖|へいさ}する (to close a road)\n- {閉鎖|へいさ}に{追|お}い{込|こ}まれる (to be forced into closure)\n- {閉鎖|へいさ}{的|てき} (closed-minded; insular)\n\nUSAGE NOTE:\nThe adjective form {閉鎖|へいさ}{的|てき} means \"closed\" in the sense of being exclusive, insular, or unwelcoming of outsiders — e.g., {閉鎖|へいさ}{的|てき}な{社会|しゃかい} (a closed society).",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{閉鎖|へいさ}する",
+        "negative": "{閉鎖|へいさ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{閉鎖|へいさ}します",
+        "negative": "{閉鎖|へいさ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{閉鎖|へいさ}した",
+        "negative": "{閉鎖|へいさ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{閉鎖|へいさ}しました",
+        "negative": "{閉鎖|へいさ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{閉鎖|へいさ}して",
+        "negative": "{閉鎖|へいさ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{閉鎖|へいさ}している",
+        "negative": "{閉鎖|へいさ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{閉鎖|へいさ}しています",
+        "negative": "{閉鎖|へいさ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{閉鎖|へいさ}していた",
+        "negative": "{閉鎖|へいさ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{閉鎖|へいさ}していました",
+        "negative": "{閉鎖|へいさ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{閉鎖|へいさ}すれば",
+        "negative": "{閉鎖|へいさ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{閉鎖|へいさ}したら",
+        "negative": "{閉鎖|へいさ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{閉鎖|へいさ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{閉鎖|へいさ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{閉鎖|へいさ}できる",
+        "negative": "{閉鎖|へいさ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{閉鎖|へいさ}される",
+        "negative": "{閉鎖|へいさ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{閉鎖|へいさ}させる",
+        "negative": "{閉鎖|へいさ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{閉鎖|へいさ}しろ",
+        "negative": "{閉鎖|へいさ}するな"
+      }
+    ]
   }
 }

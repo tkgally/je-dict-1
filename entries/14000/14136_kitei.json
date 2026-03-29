@@ -19,7 +19,9 @@
       "english": "I follow the provisions of the law.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14136_kitei_ex2",
@@ -27,7 +29,9 @@
       "english": "The work regulations limit overtime to 30 hours per month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14136_kitei_ex3",
@@ -35,7 +39,9 @@
       "english": "Matters not stipulated in the contract will be discussed separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{規定|きてい} refers to specific rules or clauses within a larger system of regulations. Compare with {規則|きそく} (rules in general, often for everyday conduct), {法律|ほうりつ} (law), and {規約|きやく} (terms, bylaws). {規定|きてい} tends to appear in formal and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {規定|きてい}に{従|したが}う: to follow regulations\n- {規定|きてい}を{設|もう}ける: to establish a regulation\n- {規定|きてい}{違反|いはん}: violation of a regulation\n- {規定|きてい}どおり: as prescribed/stipulated\n- {服務|ふくむ}{規定|きてい}: service regulations",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{規定|きてい}する",
+        "negative": "{規定|きてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{規定|きてい}します",
+        "negative": "{規定|きてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{規定|きてい}した",
+        "negative": "{規定|きてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{規定|きてい}しました",
+        "negative": "{規定|きてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{規定|きてい}して",
+        "negative": "{規定|きてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{規定|きてい}している",
+        "negative": "{規定|きてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{規定|きてい}しています",
+        "negative": "{規定|きてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{規定|きてい}していた",
+        "negative": "{規定|きてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{規定|きてい}していました",
+        "negative": "{規定|きてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{規定|きてい}すれば",
+        "negative": "{規定|きてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{規定|きてい}したら",
+        "negative": "{規定|きてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{規定|きてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{規定|きてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{規定|きてい}できる",
+        "negative": "{規定|きてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{規定|きてい}される",
+        "negative": "{規定|きてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{規定|きてい}させる",
+        "negative": "{規定|きてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{規定|きてい}しろ",
+        "negative": "{規定|きてい}するな"
+      }
+    ]
   }
 }

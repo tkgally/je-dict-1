@@ -16,7 +16,9 @@
       "id": "09147_toitsumeru_ex1",
       "japanese": "{真実|しんじつ}を{問|と}い{詰|つ}める",
       "english": "to press for the truth",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09147_toitsumeru_ex2",
       "japanese": "{親|おや}に{問|と}い{詰|つ}められた。",
       "english": "I was questioned relentlessly by my parents.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09147_toitsumeru_ex3",
       "japanese": "{彼|かれ}は{問|と}い{詰|つ}められて、ついに{本当|ほんとう}のことを{話|はな}した。",
       "english": "Pressed for answers, he finally told the truth.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "speech"]
+      "semantic": [
+        "action",
+        "speech"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{問|と}い{詰|つ}める",
+        "negative": "{問|と}い{詰|つ}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{問|と}い{詰|つ}めます",
+        "negative": "{問|と}い{詰|つ}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{問|と}い{詰|つ}めた",
+        "negative": "{問|と}い{詰|つ}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{問|と}い{詰|つ}めました",
+        "negative": "{問|と}い{詰|つ}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{問|と}い{詰|つ}めて",
+        "negative": "{問|と}い{詰|つ}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{問|と}い{詰|つ}めている",
+        "negative": "{問|と}い{詰|つ}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{問|と}い{詰|つ}めています",
+        "negative": "{問|と}い{詰|つ}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{問|と}い{詰|つ}めていた",
+        "negative": "{問|と}い{詰|つ}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{問|と}い{詰|つ}めていました",
+        "negative": "{問|と}い{詰|つ}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{問|と}い{詰|つ}めれば",
+        "negative": "{問|と}い{詰|つ}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{問|と}い{詰|つ}めたら",
+        "negative": "{問|と}い{詰|つ}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{問|と}い{詰|つ}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{問|と}い{詰|つ}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{問|と}い{詰|つ}められる",
+        "negative": "{問|と}い{詰|つ}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{問|と}い{詰|つ}められる",
+        "negative": "{問|と}い{詰|つ}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{問|と}い{詰|つ}めさせる",
+        "negative": "{問|と}い{詰|つ}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{問|と}い{詰|つ}めろ",
+        "negative": "{問|と}い{詰|つ}めるな"
+      }
+    ]
   }
 }

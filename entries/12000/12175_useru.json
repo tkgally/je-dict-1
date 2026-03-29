@@ -24,7 +24,9 @@
       "english": "I lost my motivation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12175_useru_ex2",
@@ -32,7 +34,9 @@
       "english": "Seeing her attitude, I lost my appetite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12175_useru_ex3",
@@ -40,7 +44,9 @@
       "english": "The meeting was so long that I completely lost my ability to concentrate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12175_useru_ex4",
@@ -48,7 +54,9 @@
       "english": "Get lost!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12175_useru_ex5",
@@ -56,7 +64,9 @@
       "english": "He shouted, \"Don't ever appear before me again, get lost!\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12175_useru_ex6",
@@ -64,7 +74,9 @@
       "english": "He gave me a look as if to say, \"You're in the way, get lost now.\"",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{失|う}せる is an intransitive verb with two distinct uses.\n\nSENSE 1 — VANISHING:\nUsed when feelings, qualities, or abstract things disappear. Commonly paired with:\n- やる{気|き}が{失|う}せる (lose motivation)\n- {食欲|しょくよく}が{失|う}せる (lose one's appetite)\n- {興味|きょうみ}が{失|う}せる (lose interest)\n\nSENSE 2 — RUDE IMPERATIVE:\nThe command form {失|う}せろ is a very harsh way to tell someone to go away. It appears frequently in fiction, manga, and arguments but should be avoided in real-life situations.\n\nSIMILAR WORDS:\n- {消|き}える: neutral term for vanishing or disappearing (physical or abstract)\n- {失|う}せる: more literary or emphatic for abstract things; also has the rude imperative use",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{失|う}せる",
+        "negative": "{失|う}せない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{失|う}せます",
+        "negative": "{失|う}せません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{失|う}せた",
+        "negative": "{失|う}せなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{失|う}せました",
+        "negative": "{失|う}せませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{失|う}せて",
+        "negative": "{失|う}せなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{失|う}せている",
+        "negative": "{失|う}せていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{失|う}せています",
+        "negative": "{失|う}せていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{失|う}せていた",
+        "negative": "{失|う}せていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{失|う}せていました",
+        "negative": "{失|う}せていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{失|う}せれば",
+        "negative": "{失|う}せなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{失|う}せたら",
+        "negative": "{失|う}せなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{失|う}せよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{失|う}せましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{失|う}せられる",
+        "negative": "{失|う}せられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{失|う}せられる",
+        "negative": "{失|う}せられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{失|う}せさせる",
+        "negative": "{失|う}せさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{失|う}せろ",
+        "negative": "{失|う}せるな"
+      }
+    ]
   }
 }

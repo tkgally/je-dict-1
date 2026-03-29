@@ -22,7 +22,9 @@
       "japanese": "{汗|あせ}を{拭|ぬぐ}った。",
       "english": "I wiped off the sweat.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "タオルで{汗|あせ}を{拭|ぬぐ}った。",
       "english": "I wiped off the sweat with a towel.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{涙|なみだ}を{拭|ぬぐ}って{笑顔|えがお}を{見|み}せた。",
       "english": "She wiped away her tears and showed a smile.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{疑惑|ぎわく}を{拭|ぬぐ}えない。",
       "english": "I can't dispel the suspicions.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{不安|ふあん}を{拭|ぬぐ}い{去|さ}ることができない。",
       "english": "I can't dispel my anxiety.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{何度|なんど}{説明|せつめい}を{聞|き}いても、{疑|うたが}いを{拭|ぬぐ}い{去|さ}ることはできなかった。",
       "english": "No matter how many times I heard the explanation, I couldn't dispel my doubts.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,12 +85,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-u",
       "formality": "neutral",
-      "semantic": ["action", "cleaning"],
+      "semantic": [
+        "action",
+        "cleaning"
+      ],
       "domain": []
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{拭|ぬぐ}う",
+        "negative": "{拭|ぬぐ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{拭|ぬぐ}います",
+        "negative": "{拭|ぬぐ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{拭|ぬぐ}った",
+        "negative": "{拭|ぬぐ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{拭|ぬぐ}いました",
+        "negative": "{拭|ぬぐ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{拭|ぬぐ}って",
+        "negative": "{拭|ぬぐ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{拭|ぬぐ}っている",
+        "negative": "{拭|ぬぐ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{拭|ぬぐ}っています",
+        "negative": "{拭|ぬぐ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{拭|ぬぐ}っていた",
+        "negative": "{拭|ぬぐ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{拭|ぬぐ}っていました",
+        "negative": "{拭|ぬぐ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{拭|ぬぐ}えば",
+        "negative": "{拭|ぬぐ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{拭|ぬぐ}ったら",
+        "negative": "{拭|ぬぐ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{拭|ぬぐ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{拭|ぬぐ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{拭|ぬぐ}える",
+        "negative": "{拭|ぬぐ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{拭|ぬぐ}われる",
+        "negative": "{拭|ぬぐ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{拭|ぬぐ}わせる",
+        "negative": "{拭|ぬぐ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{拭|ぬぐ}え",
+        "negative": "{拭|ぬぐ}うな"
+      }
+    ]
   }
 }

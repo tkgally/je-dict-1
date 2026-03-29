@@ -21,7 +21,9 @@
       "id": "09132_hassan_ex1",
       "japanese": "{熱|ねつ}を{発散|はっさん}する",
       "english": "to emit heat",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "09132_hassan_ex2",
       "japanese": "この{素材|そざい}は{水分|すいぶん}を{発散|はっさん}しやすい。",
       "english": "This material easily releases moisture.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "09132_hassan_ex3",
       "japanese": "{太陽|たいよう}は{膨大|ぼうだい}なエネルギーを{発散|はっさん}している。",
       "english": "The sun emits an enormous amount of energy.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "09132_hassan_ex4",
       "japanese": "ストレス{発散|はっさん}",
       "english": "stress relief",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "09132_hassan_ex5",
       "japanese": "カラオケでストレスを{発散|はっさん}した。",
       "english": "I released stress through karaoke.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "09132_hassan_ex6",
       "japanese": "{運動|うんどう}は{溜|た}まったエネルギーを{発散|はっさん}するのに{効果的|こうかてき}だ。",
       "english": "Exercise is effective for releasing pent-up energy.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,10 +86,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{発散|はっさん}する",
+        "negative": "{発散|はっさん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{発散|はっさん}します",
+        "negative": "{発散|はっさん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{発散|はっさん}した",
+        "negative": "{発散|はっさん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{発散|はっさん}しました",
+        "negative": "{発散|はっさん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{発散|はっさん}して",
+        "negative": "{発散|はっさん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{発散|はっさん}している",
+        "negative": "{発散|はっさん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{発散|はっさん}しています",
+        "negative": "{発散|はっさん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{発散|はっさん}していた",
+        "negative": "{発散|はっさん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{発散|はっさん}していました",
+        "negative": "{発散|はっさん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{発散|はっさん}すれば",
+        "negative": "{発散|はっさん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{発散|はっさん}したら",
+        "negative": "{発散|はっさん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{発散|はっさん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{発散|はっさん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{発散|はっさん}できる",
+        "negative": "{発散|はっさん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{発散|はっさん}される",
+        "negative": "{発散|はっさん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{発散|はっさん}させる",
+        "negative": "{発散|はっさん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{発散|はっさん}しろ",
+        "negative": "{発散|はっさん}するな"
+      }
+    ]
   }
 }

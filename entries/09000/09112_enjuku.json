@@ -16,7 +16,9 @@
       "id": "09112_enjuku_ex1",
       "japanese": "{円熟|えんじゅく}した{演技|えんぎ}",
       "english": "a mature performance",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09112_enjuku_ex2",
       "japanese": "{彼|かれ}の{芸術|げいじゅつ}は{年|とし}を{重|かさ}ねて{円熟|えんじゅく}してきた。",
       "english": "His art has matured over the years.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09112_enjuku_ex3",
       "japanese": "{円熟|えんじゅく}{味|み}のある{文章|ぶんしょう}を{書|か}くには、{長年|ながねん}の{経験|けいけん}が{必要|ひつよう}だ。",
       "english": "Writing prose with the flavor of maturity requires years of experience.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{円熟|えんじゅく}する",
+        "negative": "{円熟|えんじゅく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{円熟|えんじゅく}します",
+        "negative": "{円熟|えんじゅく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{円熟|えんじゅく}した",
+        "negative": "{円熟|えんじゅく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{円熟|えんじゅく}しました",
+        "negative": "{円熟|えんじゅく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{円熟|えんじゅく}して",
+        "negative": "{円熟|えんじゅく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{円熟|えんじゅく}している",
+        "negative": "{円熟|えんじゅく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{円熟|えんじゅく}しています",
+        "negative": "{円熟|えんじゅく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{円熟|えんじゅく}していた",
+        "negative": "{円熟|えんじゅく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{円熟|えんじゅく}していました",
+        "negative": "{円熟|えんじゅく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{円熟|えんじゅく}すれば",
+        "negative": "{円熟|えんじゅく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{円熟|えんじゅく}したら",
+        "negative": "{円熟|えんじゅく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{円熟|えんじゅく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{円熟|えんじゅく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{円熟|えんじゅく}できる",
+        "negative": "{円熟|えんじゅく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{円熟|えんじゅく}される",
+        "negative": "{円熟|えんじゅく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{円熟|えんじゅく}させる",
+        "negative": "{円熟|えんじゅく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{円熟|えんじゅく}しろ",
+        "negative": "{円熟|えんじゅく}するな"
+      }
+    ]
   }
 }

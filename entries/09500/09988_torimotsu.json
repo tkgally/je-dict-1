@@ -18,7 +18,9 @@
       "english": "To act as a matchmaker.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09988_torimotsu_ex2",
@@ -26,7 +28,9 @@
       "english": "A friend acted as go-between for the two of them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09988_torimotsu_ex3",
@@ -34,7 +38,9 @@
       "english": "I played the role of mediating business deals between companies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{取|と}り{持|も}つ means to act as an intermediary between parties.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: Xを{取|と}り{持|も}つ / Xの{間|あいだ}を{取|と}り{持|も}つ\n\nCOMMON PATTERNS:\n- {縁|えん}を{取|と}り{持|も}つ: to play matchmaker\n- {仲|なか}を{取|と}り{持|も}つ: to mediate between parties\n- {間|あいだ}を{取|と}り{持|も}つ: to act as go-between\n\nRELATED EXPRESSIONS:\n- {仲介|ちゅうかい}する: to mediate (more formal)\n- {橋渡|はしわた}しをする: to bridge (figurative)\n- {斡旋|あっせん}する: to arrange, to introduce",
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}り{持|も}つ",
+        "negative": "{取|と}り{持|も}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}り{持|も}ちます",
+        "negative": "{取|と}り{持|も}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}り{持|も}った",
+        "negative": "{取|と}り{持|も}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}り{持|も}ちました",
+        "negative": "{取|と}り{持|も}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}り{持|も}って",
+        "negative": "{取|と}り{持|も}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}り{持|も}っている",
+        "negative": "{取|と}り{持|も}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}り{持|も}っています",
+        "negative": "{取|と}り{持|も}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}り{持|も}っていた",
+        "negative": "{取|と}り{持|も}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}り{持|も}っていました",
+        "negative": "{取|と}り{持|も}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}り{持|も}てば",
+        "negative": "{取|と}り{持|も}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}り{持|も}ったら",
+        "negative": "{取|と}り{持|も}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}り{持|も}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}り{持|も}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}り{持|も}てる",
+        "negative": "{取|と}り{持|も}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}り{持|も}たれる",
+        "negative": "{取|と}り{持|も}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}り{持|も}たせる",
+        "negative": "{取|と}り{持|も}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}り{持|も}て",
+        "negative": "{取|と}り{持|も}つな"
+      }
+    ]
   }
 }

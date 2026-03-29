@@ -19,7 +19,9 @@
       "english": "I go to church on Sundays.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16972_reihai_ex2",
@@ -27,7 +29,9 @@
       "english": "The service starts at ten in the morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16972_reihai_ex3",
@@ -35,7 +39,9 @@
       "english": "We offered quiet worship in a small church.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Christian contexts, {礼拝|れいはい} refers to a church service or worship. In Buddhist and other religious contexts, the reading らいはい is sometimes used. Many Japanese schools (especially Christian mission schools) hold {礼拝|れいはい} as a regular assembly.\n\nCOMMON COLLOCATIONS:\n- {礼拝|れいはい}{堂|どう} (chapel, place of worship)\n- {礼拝|れいはい}に{出席|しゅっせき}する (to attend a service)\n- {礼拝|れいはい}をささげる (to offer worship)\n- {朝|あさ}の{礼拝|れいはい} (morning service/worship)\n\nPRONUNCIATION NOTE:\nRead as れいはい in Christian and general contexts. The Buddhist reading らいはい also exists but is less common in everyday speech.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["religion"]
+      "semantic": [
+        "religion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{礼拝|れいはい}する",
+        "negative": "{礼拝|れいはい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{礼拝|れいはい}します",
+        "negative": "{礼拝|れいはい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{礼拝|れいはい}した",
+        "negative": "{礼拝|れいはい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{礼拝|れいはい}しました",
+        "negative": "{礼拝|れいはい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{礼拝|れいはい}して",
+        "negative": "{礼拝|れいはい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{礼拝|れいはい}している",
+        "negative": "{礼拝|れいはい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{礼拝|れいはい}しています",
+        "negative": "{礼拝|れいはい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{礼拝|れいはい}していた",
+        "negative": "{礼拝|れいはい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{礼拝|れいはい}していました",
+        "negative": "{礼拝|れいはい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{礼拝|れいはい}すれば",
+        "negative": "{礼拝|れいはい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{礼拝|れいはい}したら",
+        "negative": "{礼拝|れいはい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{礼拝|れいはい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{礼拝|れいはい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{礼拝|れいはい}できる",
+        "negative": "{礼拝|れいはい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{礼拝|れいはい}される",
+        "negative": "{礼拝|れいはい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{礼拝|れいはい}させる",
+        "negative": "{礼拝|れいはい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{礼拝|れいはい}しろ",
+        "negative": "{礼拝|れいはい}するな"
+      }
+    ]
   }
 }

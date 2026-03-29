@@ -24,7 +24,9 @@
       "english": "To make slides.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11582_suraido_ex2",
@@ -32,7 +34,9 @@
       "english": "Please move to the next slide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11582_suraido_ex3",
@@ -40,7 +44,9 @@
       "english": "I prepared 30 slides for the presentation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11582_suraido_ex4",
@@ -48,7 +54,9 @@
       "english": "To slide a door.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11582_suraido_ex5",
@@ -56,7 +64,9 @@
       "english": "To slide the screen to the right.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11582_suraido_ex6",
@@ -64,7 +74,9 @@
       "english": "Would it be okay to push the schedule back to next week?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe presentation meaning is the most common in business and academic settings. スライドする can also mean to shift or push back a schedule or deadline — a distinctly Japanese extension of the English meaning.\n\nCOMMON COLLOCATIONS:\n- スライドを{作|つく}る: to make slides\n- スライドショー: slideshow\n- スライド{式|しき}: sliding type\n- {予定|よてい}をスライドする: to push back a schedule",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "スライドする",
+        "negative": "スライドしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "スライドします",
+        "negative": "スライドしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "スライドした",
+        "negative": "スライドしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "スライドしました",
+        "negative": "スライドしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "スライドして",
+        "negative": "スライドしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "スライドしている",
+        "negative": "スライドしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "スライドしています",
+        "negative": "スライドしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "スライドしていた",
+        "negative": "スライドしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "スライドしていました",
+        "negative": "スライドしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "スライドすれば",
+        "negative": "スライドしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "スライドしたら",
+        "negative": "スライドしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "スライドしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "スライドしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "スライドできる",
+        "negative": "スライドできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "スライドされる",
+        "negative": "スライドされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "スライドさせる",
+        "negative": "スライドさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "スライドしろ",
+        "negative": "スライドするな"
+      }
+    ]
   }
 }

@@ -24,7 +24,9 @@
       "english": "Walk along the river.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13279_sou_ex2",
@@ -32,7 +34,9 @@
       "english": "I drove along the road that runs along the coastline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13279_sou_ex3",
@@ -40,7 +44,9 @@
       "english": "Cherry trees are lined up along the railroad tracks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13279_sou_ex4",
@@ -48,7 +54,9 @@
       "english": "To be in accordance with the policy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13279_sou_ex5",
@@ -56,7 +64,9 @@
       "english": "I will do my best to meet your wishes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13279_sou_ex6",
@@ -64,7 +74,9 @@
       "english": "Please proceed with the project in accordance with the plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nTakes the particle に to mark the thing being followed: ～に{沿|そ}う. The te-form ～に{沿|そ}って is commonly used as an adverbial phrase meaning \"along\" or \"in line with.\"\n\nThe potential negative form {沿|そ}えない is often used in polite refusals: ご{期待|きたい}に{沿|そ}えず{申|もう}し{訳|わけ}ございません (I am sorry that I cannot meet your expectations).\n\nCOMMON COLLOCATIONS:\n- {川|かわ}に{沿|そ}う: to follow a river\n- {道|みち}に{沿|そ}う: to follow a road\n- {方針|ほうしん}に{沿|そ}う: to be in line with a policy\n- ご{希望|きぼう}に{沿|そ}う: to meet someone's wishes\n- {計画|けいかく}に{沿|そ}って: in accordance with a plan",
@@ -82,11 +94,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "movement"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{沿|そ}う",
+        "negative": "{沿|そ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{沿|そ}います",
+        "negative": "{沿|そ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{沿|そ}った",
+        "negative": "{沿|そ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{沿|そ}いました",
+        "negative": "{沿|そ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{沿|そ}って",
+        "negative": "{沿|そ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{沿|そ}っている",
+        "negative": "{沿|そ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{沿|そ}っています",
+        "negative": "{沿|そ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{沿|そ}っていた",
+        "negative": "{沿|そ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{沿|そ}っていました",
+        "negative": "{沿|そ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{沿|そ}えば",
+        "negative": "{沿|そ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{沿|そ}ったら",
+        "negative": "{沿|そ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{沿|そ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{沿|そ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{沿|そ}える",
+        "negative": "{沿|そ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{沿|そ}われる",
+        "negative": "{沿|そ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{沿|そ}わせる",
+        "negative": "{沿|そ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{沿|そ}え",
+        "negative": "{沿|そ}うな"
+      }
+    ]
   }
 }

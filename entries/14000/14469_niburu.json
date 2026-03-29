@@ -22,7 +22,9 @@
       "id": "14469_niburu_ex1",
       "japanese": "{包丁|ほうちょう}の{切|き}れ{味|あじ}が{鈍|にぶ}った。",
       "english": "The kitchen knife has gone dull.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -30,7 +32,9 @@
       "id": "14469_niburu_ex2",
       "japanese": "{使|つか}い{続|つづ}けるとハサミの{刃|は}が{鈍|にぶ}る。",
       "english": "Scissors get dull if you keep using them.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -38,7 +42,9 @@
       "id": "14469_niburu_ex3",
       "japanese": "{長|なが}い{間|あいだ}{研|と}いでいないので、{刃|は}がだいぶ{鈍|にぶ}っている。",
       "english": "Since I haven't sharpened it in a long time, the blade has become quite dull.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -46,7 +52,9 @@
       "id": "14469_niburu_ex4",
       "japanese": "{勘|かん}が{鈍|にぶ}る。",
       "english": "One's intuition weakens.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -54,7 +62,9 @@
       "id": "14469_niburu_ex5",
       "japanese": "{練習|れんしゅう}をサボると{腕|うで}が{鈍|にぶ}る。",
       "english": "If you skip practice, your skills deteriorate.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -62,7 +72,9 @@
       "id": "14469_niburu_ex6",
       "japanese": "{寒|さむ}さで{手|て}の{感覚|かんかく}が{鈍|にぶ}って、うまくボタンが{押|お}せなかった。",
       "english": "My hands were so numb from the cold that I couldn't press the buttons properly.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{鈍|にぶ}る",
+        "negative": "{鈍|にぶ}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{鈍|にぶ}ります",
+        "negative": "{鈍|にぶ}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{鈍|にぶ}った",
+        "negative": "{鈍|にぶ}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{鈍|にぶ}りました",
+        "negative": "{鈍|にぶ}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{鈍|にぶ}って",
+        "negative": "{鈍|にぶ}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{鈍|にぶ}っている",
+        "negative": "{鈍|にぶ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{鈍|にぶ}っています",
+        "negative": "{鈍|にぶ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{鈍|にぶ}っていた",
+        "negative": "{鈍|にぶ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{鈍|にぶ}っていました",
+        "negative": "{鈍|にぶ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{鈍|にぶ}れば",
+        "negative": "{鈍|にぶ}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{鈍|にぶ}ったら",
+        "negative": "{鈍|にぶ}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{鈍|にぶ}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{鈍|にぶ}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{鈍|にぶ}れる",
+        "negative": "{鈍|にぶ}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{鈍|にぶ}られる",
+        "negative": "{鈍|にぶ}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{鈍|にぶ}らせる",
+        "negative": "{鈍|にぶ}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{鈍|にぶ}れ",
+        "negative": "{鈍|にぶ}るな"
+      }
+    ]
   }
 }

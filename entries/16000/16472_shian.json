@@ -19,7 +19,9 @@
       "english": "To be lost in thought.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16472_shian_ex2",
@@ -27,7 +29,9 @@
       "english": "I pondered whether there might be a good method.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16472_shian_ex3",
@@ -35,7 +39,9 @@
       "english": "After much deliberation over whether to change jobs, I decided to stay at my current company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat literary word that implies deep, prolonged thinking. Often appears in set phrases.\n\nCOMMON COLLOCATIONS:\n- {思案|しあん}に{暮|く}れる (to be lost in thought)\n- {思案|しあん}の{末|すえ} (after much deliberation)\n- {思案|しあん}{投|な}げ{首|くび} (racking one's brains; lit. \"thought-throwing neck\")\n\nSIMILAR WORDS:\n- {熟考|じゅっこう}: careful consideration — more formal, emphasizes thoroughness\n- {検討|けんとう}: examination, review — more practical and systematic, common in business",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["thinking"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "thinking"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{思案|しあん}する",
+        "negative": "{思案|しあん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{思案|しあん}します",
+        "negative": "{思案|しあん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{思案|しあん}した",
+        "negative": "{思案|しあん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{思案|しあん}しました",
+        "negative": "{思案|しあん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{思案|しあん}して",
+        "negative": "{思案|しあん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{思案|しあん}している",
+        "negative": "{思案|しあん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{思案|しあん}しています",
+        "negative": "{思案|しあん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{思案|しあん}していた",
+        "negative": "{思案|しあん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{思案|しあん}していました",
+        "negative": "{思案|しあん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{思案|しあん}すれば",
+        "negative": "{思案|しあん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{思案|しあん}したら",
+        "negative": "{思案|しあん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{思案|しあん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{思案|しあん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{思案|しあん}できる",
+        "negative": "{思案|しあん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{思案|しあん}される",
+        "negative": "{思案|しあん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{思案|しあん}させる",
+        "negative": "{思案|しあん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{思案|しあん}しろ",
+        "negative": "{思案|しあん}するな"
+      }
+    ]
   }
 }

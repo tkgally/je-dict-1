@@ -19,7 +19,9 @@
       "english": "This factory operates 24 hours a day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16938_kadou_ex2",
@@ -27,7 +29,9 @@
       "english": "The server maintains an uptime of 99.9%.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16938_kadou_ex3",
@@ -35,7 +39,9 @@
       "english": "Whether to continue operating the aging nuclear power plant is a matter of debate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for machines, factories, power plants, servers, and other systems that run continuously. Also used in business for labor metrics like {稼働|かどう}{時間|じかん} (working hours) and {稼働|かどう}{率|りつ} (utilization rate / uptime).\n\nCOMMON COLLOCATIONS:\n- {稼働|かどう}する (to operate, to run)\n- {稼働|かどう}{率|りつ} (utilization rate, uptime)\n- {稼働|かどう}{時間|じかん} (operating hours)\n- {稼働|かどう}{日数|にっすう} (number of working days)\n- {本格的|ほんかくてき}に{稼働|かどう}する (to begin full-scale operation)\n\nDO NOT CONFUSE:\n- {華道|かどう}: the art of flower arrangement — same reading, completely different meaning",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "work"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{稼働|かどう}する",
+        "negative": "{稼働|かどう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{稼働|かどう}します",
+        "negative": "{稼働|かどう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{稼働|かどう}した",
+        "negative": "{稼働|かどう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{稼働|かどう}しました",
+        "negative": "{稼働|かどう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{稼働|かどう}して",
+        "negative": "{稼働|かどう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{稼働|かどう}している",
+        "negative": "{稼働|かどう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{稼働|かどう}しています",
+        "negative": "{稼働|かどう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{稼働|かどう}していた",
+        "negative": "{稼働|かどう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{稼働|かどう}していました",
+        "negative": "{稼働|かどう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{稼働|かどう}すれば",
+        "negative": "{稼働|かどう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{稼働|かどう}したら",
+        "negative": "{稼働|かどう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{稼働|かどう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{稼働|かどう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{稼働|かどう}できる",
+        "negative": "{稼働|かどう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{稼働|かどう}される",
+        "negative": "{稼働|かどう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{稼働|かどう}させる",
+        "negative": "{稼働|かどう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{稼働|かどう}しろ",
+        "negative": "{稼働|かどう}するな"
+      }
+    ]
   }
 }

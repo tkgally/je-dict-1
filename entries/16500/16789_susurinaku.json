@@ -19,7 +19,9 @@
       "english": "She was sobbing quietly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16789_susurinaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The audience sobbed at the last scene of the movie.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16789_susurinaku_ex3",
@@ -35,7 +39,9 @@
       "english": "I could hear the faint sound of sobbing from the next room, and I became worried.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nDescribes quiet, restrained crying. Often used in literature and descriptions of emotional scenes. The verb conjugates as a godan verb (すすり{泣|な}かない, すすり{泣|な}いて, etc.).\n\nCOMMON COLLOCATIONS:\n- すすり{泣|な}く{声|こえ} (the sound of sobbing)\n- {静|しず}かにすすり{泣|な}く (to sob quietly)\n\nSIMILAR WORDS:\n- {泣|な}く: to cry — general term for crying\n- {嗚咽|おえつ}する: to choke with sobs — more intense, convulsive crying\n- しくしく{泣|な}く: to whimper — similar quiet crying, but more childlike",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-ku",
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "action"]
+      "semantic": [
+        "emotion",
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "すすり{泣|な}く",
+        "negative": "すすり{泣|な}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "すすり{泣|な}きます",
+        "negative": "すすり{泣|な}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "すすり{泣|な}いた",
+        "negative": "すすり{泣|な}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "すすり{泣|な}きました",
+        "negative": "すすり{泣|な}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "すすり{泣|な}いて",
+        "negative": "すすり{泣|な}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "すすり{泣|な}いている",
+        "negative": "すすり{泣|な}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "すすり{泣|な}いています",
+        "negative": "すすり{泣|な}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "すすり{泣|な}いていた",
+        "negative": "すすり{泣|な}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "すすり{泣|な}いていました",
+        "negative": "すすり{泣|な}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "すすり{泣|な}けば",
+        "negative": "すすり{泣|な}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "すすり{泣|な}いたら",
+        "negative": "すすり{泣|な}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "すすり{泣|な}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "すすり{泣|な}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "すすり{泣|な}ける",
+        "negative": "すすり{泣|な}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "すすり{泣|な}かれる",
+        "negative": "すすり{泣|な}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "すすり{泣|な}かせる",
+        "negative": "すすり{泣|な}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "すすり{泣|な}け",
+        "negative": "すすり{泣|な}くな"
+      }
+    ]
   }
 }

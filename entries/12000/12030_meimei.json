@@ -19,7 +19,9 @@
       "english": "We held a baby naming ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12030_meimei_ex2",
@@ -27,7 +29,9 @@
       "english": "We struggled with naming the new product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12030_meimei_ex3",
@@ -35,7 +39,9 @@
       "english": "This street is said to have been named after Emperor Meiji.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese culture, {命名|めいめい} for a newborn is a significant event. The {命名|めいめい}{式|しき} (naming ceremony) traditionally takes place on the seventh day after birth ({お七夜|おしちや}), when the baby's name is written on a {命名|めいめい}{書|しょ} (naming certificate) displayed in the home.\n\nCOMMON COLLOCATIONS:\n- {命名|めいめい}{式|しき}: naming ceremony\n- {命名|めいめい}{書|しょ}: naming certificate\n- {命名|めいめい}{権|けん}: naming rights\n- ～にちなんで{命名|めいめい}する: to name after ~",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{命名|めいめい}する",
+        "negative": "{命名|めいめい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{命名|めいめい}します",
+        "negative": "{命名|めいめい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{命名|めいめい}した",
+        "negative": "{命名|めいめい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{命名|めいめい}しました",
+        "negative": "{命名|めいめい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{命名|めいめい}して",
+        "negative": "{命名|めいめい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{命名|めいめい}している",
+        "negative": "{命名|めいめい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{命名|めいめい}しています",
+        "negative": "{命名|めいめい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{命名|めいめい}していた",
+        "negative": "{命名|めいめい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{命名|めいめい}していました",
+        "negative": "{命名|めいめい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{命名|めいめい}すれば",
+        "negative": "{命名|めいめい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{命名|めいめい}したら",
+        "negative": "{命名|めいめい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{命名|めいめい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{命名|めいめい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{命名|めいめい}できる",
+        "negative": "{命名|めいめい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{命名|めいめい}される",
+        "negative": "{命名|めいめい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{命名|めいめい}させる",
+        "negative": "{命名|めいめい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{命名|めいめい}しろ",
+        "negative": "{命名|めいめい}するな"
+      }
+    ]
   }
 }

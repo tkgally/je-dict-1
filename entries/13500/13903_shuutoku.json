@@ -19,7 +19,9 @@
       "english": "To acquire a new skill.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13903_shuutoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Acquiring a foreign language takes time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13903_shuutoku_ex3",
@@ -35,7 +39,9 @@
       "english": "You can acquire practical skills through the training program.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore formal and deliberate than {覚|おぼ}える (to memorize/learn). {習得|しゅうとく} implies sustained effort and practice leading to real proficiency, while {覚|おぼ}える is more about memorizing individual facts. Common in educational and professional contexts.\n\nSIMILAR WORDS:\n- {取得|しゅとく}: obtaining (a qualification, license) — focuses on the result\n- {修得|しゅうとく}: completing coursework — focuses on academic credits\n\nCOMMON COLLOCATIONS:\n- {技術|ぎじゅつ}を{習得|しゅうとく}する: to acquire a technique\n- {言語|げんご}を{習得|しゅうとく}する: to acquire a language\n- {習得|しゅうとく}に{時間|じかん}がかかる: to take time to learn",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{習得|しゅうとく}する",
+        "negative": "{習得|しゅうとく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{習得|しゅうとく}します",
+        "negative": "{習得|しゅうとく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{習得|しゅうとく}した",
+        "negative": "{習得|しゅうとく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{習得|しゅうとく}しました",
+        "negative": "{習得|しゅうとく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{習得|しゅうとく}して",
+        "negative": "{習得|しゅうとく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{習得|しゅうとく}している",
+        "negative": "{習得|しゅうとく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{習得|しゅうとく}しています",
+        "negative": "{習得|しゅうとく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{習得|しゅうとく}していた",
+        "negative": "{習得|しゅうとく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{習得|しゅうとく}していました",
+        "negative": "{習得|しゅうとく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{習得|しゅうとく}すれば",
+        "negative": "{習得|しゅうとく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{習得|しゅうとく}したら",
+        "negative": "{習得|しゅうとく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{習得|しゅうとく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{習得|しゅうとく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{習得|しゅうとく}できる",
+        "negative": "{習得|しゅうとく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{習得|しゅうとく}される",
+        "negative": "{習得|しゅうとく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{習得|しゅうとく}させる",
+        "negative": "{習得|しゅうとく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{習得|しゅうとく}しろ",
+        "negative": "{習得|しゅうとく}するな"
+      }
+    ]
   }
 }

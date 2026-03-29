@@ -17,21 +17,27 @@
       "japanese": "{災害|さいがい}に{備|そな}えて{食料|しょくりょう}を{備蓄|びちく}している。",
       "english": "We stockpile food in preparation for disasters.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07589_bichiku_ex2",
       "japanese": "{石油|せきゆ}{備蓄|びちく}は{国|くに}の{安全保障|あんぜんほしょう}に{重要|じゅうよう}だ。",
       "english": "Oil reserves are important for national security.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07589_bichiku_ex3",
       "japanese": "{各家庭|かくかてい}で3{日分|みっかぶん}の{水|みず}を{備蓄|びちく}しましょう。",
       "english": "Each household should stockpile three days' worth of water.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{備|び} (prepare, equip) + {蓄|ちく} (store, accumulate)\n\nCOMMON COLLOCATIONS:\n・{食料|しょくりょう}{備蓄|びちく} - food stockpile\n・{石油|せきゆ}{備蓄|びちく} - oil reserves\n・{備蓄|びちく}{品|ひん} - stockpiled goods\n・{備蓄|びちく}{倉庫|そうこ} - stockpile warehouse\n・{緊急|きんきゅう}{備蓄|びちく} - emergency reserves\n\nDISASTER PREPAREDNESS:\nIn Japan, households are encouraged to stockpile:\n・{水|みず} - water (3 liters per person per day)\n・{非常食|ひじょうしょく} - emergency food\n・{懐中電灯|かいちゅうでんとう} - flashlight\n・{乾電池|かんでんち} - batteries\n・{救急|きゅうきゅう}セット - first aid kit\n\nRELATED WORDS:\n・{貯蔵|ちょぞう} - storage, preservation\n・{蓄|たくわ}え - reserves, savings\n・{物資|ぶっし} - supplies, goods",
@@ -41,9 +47,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["emergency", "supply"]
+      "semantic": [
+        "emergency",
+        "supply"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{備蓄|びちく}する",
+        "negative": "{備蓄|びちく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{備蓄|びちく}します",
+        "negative": "{備蓄|びちく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{備蓄|びちく}した",
+        "negative": "{備蓄|びちく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{備蓄|びちく}しました",
+        "negative": "{備蓄|びちく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{備蓄|びちく}して",
+        "negative": "{備蓄|びちく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{備蓄|びちく}している",
+        "negative": "{備蓄|びちく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{備蓄|びちく}しています",
+        "negative": "{備蓄|びちく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{備蓄|びちく}していた",
+        "negative": "{備蓄|びちく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{備蓄|びちく}していました",
+        "negative": "{備蓄|びちく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{備蓄|びちく}すれば",
+        "negative": "{備蓄|びちく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{備蓄|びちく}したら",
+        "negative": "{備蓄|びちく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{備蓄|びちく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{備蓄|びちく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{備蓄|びちく}できる",
+        "negative": "{備蓄|びちく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{備蓄|びちく}される",
+        "negative": "{備蓄|びちく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{備蓄|びちく}させる",
+        "negative": "{備蓄|びちく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{備蓄|びちく}しろ",
+        "negative": "{備蓄|びちく}するな"
+      }
+    ]
   }
 }

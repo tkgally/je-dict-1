@@ -19,7 +19,9 @@
       "english": "I enclosed a photo with the letter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13315_soeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I served the dish garnished with parsley.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13315_soeru_ex3",
@@ -35,7 +39,9 @@
       "english": "Adding a short message to a gift is appreciated.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nImplies adding something supplementary rather than something essential. The added item complements or enhances the main item. Often used in contexts involving food presentation, gift-giving, and written communication.\n\nDistinct from {加|くわ}える, which means to add in a more general sense. {添|そ}える specifically suggests placing something alongside as an accompaniment.\n\nCOMMON COLLOCATIONS:\n- {手|て}を{添|そ}える: to lend a hand, to place one's hand on\n- {言葉|ことば}を{添|そ}える: to add a few words\n- {花|はな}を{添|そ}える: to add flowers (as decoration); to add color to an event\n- サラダを{添|そ}える: to serve with a salad",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-general"]
+      "semantic": [
+        "action-general"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{添|そ}える",
+        "negative": "{添|そ}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{添|そ}えます",
+        "negative": "{添|そ}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{添|そ}えた",
+        "negative": "{添|そ}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{添|そ}えました",
+        "negative": "{添|そ}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{添|そ}えて",
+        "negative": "{添|そ}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{添|そ}えている",
+        "negative": "{添|そ}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{添|そ}えています",
+        "negative": "{添|そ}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{添|そ}えていた",
+        "negative": "{添|そ}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{添|そ}えていました",
+        "negative": "{添|そ}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{添|そ}えれば",
+        "negative": "{添|そ}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{添|そ}えたら",
+        "negative": "{添|そ}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{添|そ}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{添|そ}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{添|そ}えられる",
+        "negative": "{添|そ}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{添|そ}えられる",
+        "negative": "{添|そ}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{添|そ}えさせる",
+        "negative": "{添|そ}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{添|そ}えろ",
+        "negative": "{添|そ}えるな"
+      }
+    ]
   }
 }

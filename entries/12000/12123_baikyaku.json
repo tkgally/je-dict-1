@@ -19,7 +19,9 @@
       "english": "To sell off a piece of land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12123_baikyaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The company sold off its unprofitable business.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12123_baikyaku_ex3",
@@ -35,7 +39,9 @@
       "english": "I sold off all the stocks I held to secure funds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{売却|ばいきゃく} is a formal term used for the sale of significant assets such as real estate, businesses, stocks, or other property. It is common in news, business, and legal contexts. For everyday selling (e.g., selling at a market), {売|う}る is used instead.\n\nCOMMON COLLOCATIONS:\n- {土地|とち}を{売却|ばいきゃく}する: to sell land\n- {株式|かぶしき}を{売却|ばいきゃく}する: to sell stocks\n- {資産|しさん}の{売却|ばいきゃく}: sale of assets\n- {売却|ばいきゃく}{益|えき}: profit from a sale\n- {売却|ばいきゃく}{価格|かかく}: selling price",
@@ -46,11 +52,110 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business", "legal"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business",
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{売却|ばいきゃく}する",
+        "negative": "{売却|ばいきゃく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{売却|ばいきゃく}します",
+        "negative": "{売却|ばいきゃく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{売却|ばいきゃく}した",
+        "negative": "{売却|ばいきゃく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{売却|ばいきゃく}しました",
+        "negative": "{売却|ばいきゃく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{売却|ばいきゃく}して",
+        "negative": "{売却|ばいきゃく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{売却|ばいきゃく}している",
+        "negative": "{売却|ばいきゃく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{売却|ばいきゃく}しています",
+        "negative": "{売却|ばいきゃく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{売却|ばいきゃく}していた",
+        "negative": "{売却|ばいきゃく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{売却|ばいきゃく}していました",
+        "negative": "{売却|ばいきゃく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{売却|ばいきゃく}すれば",
+        "negative": "{売却|ばいきゃく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{売却|ばいきゃく}したら",
+        "negative": "{売却|ばいきゃく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{売却|ばいきゃく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{売却|ばいきゃく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{売却|ばいきゃく}できる",
+        "negative": "{売却|ばいきゃく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{売却|ばいきゃく}される",
+        "negative": "{売却|ばいきゃく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{売却|ばいきゃく}させる",
+        "negative": "{売却|ばいきゃく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{売却|ばいきゃく}しろ",
+        "negative": "{売却|ばいきゃく}するな"
+      }
+    ]
   }
 }

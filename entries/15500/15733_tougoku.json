@@ -19,7 +19,9 @@
       "english": "The criminal was imprisoned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15733_tougoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Political prisoners are being unjustly imprisoned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15733_tougoku_ex3",
@@ -35,7 +39,9 @@
       "english": "The activist did not waver in their convictions even when imprisoned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{投獄|とうごく} combines {投|とう} (throw) + {獄|ごく} (prison), literally \"to throw into prison.\" A formal term used in news, legal writing, and historical contexts.\n\nCOMMON COLLOCATIONS:\n- {投獄|とうごく}する: to imprison\n- {投獄|とうごく}される: to be imprisoned (passive, very common)\n- {不当|ふとう}な{投獄|とうごく}: unjust imprisonment\n- {投獄|とうごく}される{恐|おそ}れ: risk of imprisonment\n\nSIMILAR WORDS:\n- {収監|しゅうかん}: confinement in prison (also formal)\n- {拘禁|こうきん}: detention, confinement\n- {禁固|きんこ}/{禁錮|きんこ}: imprisonment (as a legal sentence)\n- {懲役|ちょうえき}: imprisonment with hard labor\n\nREGISTER:\nThis is a written/formal word. In casual speech, {牢屋|ろうや}に{入|い}れられる or {刑務所|けいむしょ}に{入|はい}る are more natural.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law"]
+      "semantic": [
+        "law"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{投獄|とうごく}する",
+        "negative": "{投獄|とうごく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{投獄|とうごく}します",
+        "negative": "{投獄|とうごく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{投獄|とうごく}した",
+        "negative": "{投獄|とうごく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{投獄|とうごく}しました",
+        "negative": "{投獄|とうごく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{投獄|とうごく}して",
+        "negative": "{投獄|とうごく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{投獄|とうごく}している",
+        "negative": "{投獄|とうごく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{投獄|とうごく}しています",
+        "negative": "{投獄|とうごく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{投獄|とうごく}していた",
+        "negative": "{投獄|とうごく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{投獄|とうごく}していました",
+        "negative": "{投獄|とうごく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{投獄|とうごく}すれば",
+        "negative": "{投獄|とうごく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{投獄|とうごく}したら",
+        "negative": "{投獄|とうごく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{投獄|とうごく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{投獄|とうごく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{投獄|とうごく}できる",
+        "negative": "{投獄|とうごく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{投獄|とうごく}される",
+        "negative": "{投獄|とうごく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{投獄|とうごく}させる",
+        "negative": "{投獄|とうごく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{投獄|とうごく}しろ",
+        "negative": "{投獄|とうごく}するな"
+      }
+    ]
   }
 }

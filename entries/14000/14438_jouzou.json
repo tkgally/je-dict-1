@@ -19,7 +19,9 @@
       "english": "This brewery produces sake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14438_jouzou_ex2",
@@ -27,7 +29,9 @@
       "english": "I toured the beer brewing process.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14438_jouzou_ex3",
@@ -35,7 +39,9 @@
       "english": "Brewing techniques have been refined over hundreds of years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {醸|じょう} (to brew, to ferment) and {造|ぞう} (to make, to create). Functions as both a noun and a suru-verb.\n\nCOMMON COLLOCATIONS:\n- {醸造|じょうぞう}する (to brew, to ferment)\n- {醸造所|じょうぞうしょ} (brewery)\n- {醸造|じょうぞう}{技術|ぎじゅつ} (brewing technique)\n- {醸造|じょうぞう}{酢|す} (brewed vinegar)\n- {醸造|じょうぞう}{酒|しゅ} (brewed alcohol — as opposed to distilled)\n\nCovers a broader range than the English \"brewing\" since it includes the fermentation of soy sauce ({醤油|しょうゆ}), miso ({味噌|みそ}), and vinegar ({酢|す}) in addition to alcoholic beverages. Japan has a long tradition of {醸造|じょうぞう} culture, with many regional breweries and fermented food producers.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{醸造|じょうぞう}する",
+        "negative": "{醸造|じょうぞう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{醸造|じょうぞう}します",
+        "negative": "{醸造|じょうぞう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{醸造|じょうぞう}した",
+        "negative": "{醸造|じょうぞう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{醸造|じょうぞう}しました",
+        "negative": "{醸造|じょうぞう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{醸造|じょうぞう}して",
+        "negative": "{醸造|じょうぞう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{醸造|じょうぞう}している",
+        "negative": "{醸造|じょうぞう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{醸造|じょうぞう}しています",
+        "negative": "{醸造|じょうぞう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{醸造|じょうぞう}していた",
+        "negative": "{醸造|じょうぞう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{醸造|じょうぞう}していました",
+        "negative": "{醸造|じょうぞう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{醸造|じょうぞう}すれば",
+        "negative": "{醸造|じょうぞう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{醸造|じょうぞう}したら",
+        "negative": "{醸造|じょうぞう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{醸造|じょうぞう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{醸造|じょうぞう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{醸造|じょうぞう}できる",
+        "negative": "{醸造|じょうぞう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{醸造|じょうぞう}される",
+        "negative": "{醸造|じょうぞう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{醸造|じょうぞう}させる",
+        "negative": "{醸造|じょうぞう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{醸造|じょうぞう}しろ",
+        "negative": "{醸造|じょうぞう}するな"
+      }
+    ]
   }
 }

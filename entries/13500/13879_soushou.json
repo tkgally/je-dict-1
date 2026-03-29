@@ -19,7 +19,9 @@
       "english": "What do you collectively call these?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13879_soushou_ex2",
@@ -27,7 +29,9 @@
       "english": "Citrus is a general term for oranges, lemons, and the like.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13879_soushou_ex3",
@@ -35,7 +39,9 @@
       "english": "Traditional Japanese martial arts are sometimes collectively called bujutsu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nTypically used in the pattern ～を{総称|そうしょう}して…と{呼|よ}ぶ (to collectively call ~ ...) or ～の{総称|そうしょう} (a general term for ~). Common in explanatory and academic contexts when defining category names.\n\nCOMMON COLLOCATIONS:\n- ～を{総称|そうしょう}する: to collectively call\n- ～の{総称|そうしょう}: a general term for\n- {総称|そうしょう}して…と{呼|よ}ぶ: to collectively refer to as",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language"]
+      "semantic": [
+        "language"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{総称|そうしょう}する",
+        "negative": "{総称|そうしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{総称|そうしょう}します",
+        "negative": "{総称|そうしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{総称|そうしょう}した",
+        "negative": "{総称|そうしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{総称|そうしょう}しました",
+        "negative": "{総称|そうしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{総称|そうしょう}して",
+        "negative": "{総称|そうしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{総称|そうしょう}している",
+        "negative": "{総称|そうしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{総称|そうしょう}しています",
+        "negative": "{総称|そうしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{総称|そうしょう}していた",
+        "negative": "{総称|そうしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{総称|そうしょう}していました",
+        "negative": "{総称|そうしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{総称|そうしょう}すれば",
+        "negative": "{総称|そうしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{総称|そうしょう}したら",
+        "negative": "{総称|そうしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{総称|そうしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{総称|そうしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{総称|そうしょう}できる",
+        "negative": "{総称|そうしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{総称|そうしょう}される",
+        "negative": "{総称|そうしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{総称|そうしょう}させる",
+        "negative": "{総称|そうしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{総称|そうしょう}しろ",
+        "negative": "{総称|そうしょう}するな"
+      }
+    ]
   }
 }

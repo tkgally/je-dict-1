@@ -18,7 +18,9 @@
       "english": "I commute to work by transferring between JR and private railways.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10128_noritsugu_ex2",
@@ -26,7 +28,9 @@
       "english": "I have a connecting flight in Tokyo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10128_noritsugu_ex3",
@@ -34,7 +38,9 @@
       "english": "I finally arrived after transferring three times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{乗|の}り{継|つ}ぐ means to transfer between vehicles or transport lines during a journey. It emphasizes continuing a trip by switching to a different vehicle or route.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を for the vehicle/line being switched to, or で for the transfer location\n\nASPECT (ている):\n{乗|の}り{継|つ}いでいる describes being in the process of making a connection or having a layover.\n\nCOMMON PATTERNS:\n- 〜を{乗|の}り{継|つ}ぐ: to transfer via ~\n- 〜で{乗|の}り{継|つ}ぐ: to transfer at ~ (location)\n- {飛行機|ひこうき}を{乗|の}り{継|つ}ぐ: to have a connecting flight\n- {電車|でんしゃ}を{乗|の}り{継|つ}ぐ: to transfer trains\n\nRELATED WORDS:\n- {乗|の}り{継|つ}ぎ: transfer; connection (noun form)\n- {乗|の}り{換|か}える: to change/switch (trains etc.) — similar meaning but {乗|の}り{換|か}える is more common for switching between lines at the same station, while {乗|の}り{継|つ}ぐ emphasizes continuing a longer journey",
@@ -44,11 +50,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-gu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{乗|の}り{継|つ}ぐ",
+        "negative": "{乗|の}り{継|つ}がない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{乗|の}り{継|つ}ぎます",
+        "negative": "{乗|の}り{継|つ}ぎません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{乗|の}り{継|つ}いだ",
+        "negative": "{乗|の}り{継|つ}がなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{乗|の}り{継|つ}ぎました",
+        "negative": "{乗|の}り{継|つ}ぎませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{乗|の}り{継|つ}いで",
+        "negative": "{乗|の}り{継|つ}がなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{乗|の}り{継|つ}いでいる",
+        "negative": "{乗|の}り{継|つ}いでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{乗|の}り{継|つ}いでいます",
+        "negative": "{乗|の}り{継|つ}いでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{乗|の}り{継|つ}いでいた",
+        "negative": "{乗|の}り{継|つ}いでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{乗|の}り{継|つ}いでいました",
+        "negative": "{乗|の}り{継|つ}いでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{乗|の}り{継|つ}げば",
+        "negative": "{乗|の}り{継|つ}がなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{乗|の}り{継|つ}いだら",
+        "negative": "{乗|の}り{継|つ}がなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{乗|の}り{継|つ}ごう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{乗|の}り{継|つ}ぎましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{乗|の}り{継|つ}げる",
+        "negative": "{乗|の}り{継|つ}げない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{乗|の}り{継|つ}がれる",
+        "negative": "{乗|の}り{継|つ}がれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{乗|の}り{継|つ}がせる",
+        "negative": "{乗|の}り{継|つ}がせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{乗|の}り{継|つ}げ",
+        "negative": "{乗|の}り{継|つ}ぐな"
+      }
+    ]
   }
 }

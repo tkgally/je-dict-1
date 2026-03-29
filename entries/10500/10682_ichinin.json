@@ -19,7 +19,9 @@
       "english": "I'll leave the decision entirely to you.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10682_ichinin_ex2",
@@ -27,7 +29,9 @@
       "english": "I left the design entirely to the expert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10682_ichinin_ex3",
@@ -35,7 +39,9 @@
       "english": "I decided to leave the details of the negotiation entirely to the lawyer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{一|いち} (one, entirely) + {任|にん} (entrusting)\n\nPATTERN:\n～に{一任|いちにん}する: to leave entirely to ~\n\nNUANCE:\nImplies complete trust and delegation. Stronger than {任|まか}せる (to leave to someone) — {一任|いちにん} means giving full authority with no conditions attached. Commonly used in business, legal, and organizational settings.\n\nCOMMON COLLOCATIONS:\n- {判断|はんだん}を{一任|いちにん}する: to leave the judgment to someone\n- {議長|ぎちょう}に{一任|いちにん}する: to leave it to the chairman\n- {対応|たいおう}を{一任|いちにん}する: to entrust the handling of a matter",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["action-delegation"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "action-delegation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{一任|いちにん}する",
+        "negative": "{一任|いちにん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{一任|いちにん}します",
+        "negative": "{一任|いちにん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{一任|いちにん}した",
+        "negative": "{一任|いちにん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{一任|いちにん}しました",
+        "negative": "{一任|いちにん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{一任|いちにん}して",
+        "negative": "{一任|いちにん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{一任|いちにん}している",
+        "negative": "{一任|いちにん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{一任|いちにん}しています",
+        "negative": "{一任|いちにん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{一任|いちにん}していた",
+        "negative": "{一任|いちにん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{一任|いちにん}していました",
+        "negative": "{一任|いちにん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{一任|いちにん}すれば",
+        "negative": "{一任|いちにん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{一任|いちにん}したら",
+        "negative": "{一任|いちにん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{一任|いちにん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{一任|いちにん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{一任|いちにん}できる",
+        "negative": "{一任|いちにん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{一任|いちにん}される",
+        "negative": "{一任|いちにん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{一任|いちにん}させる",
+        "negative": "{一任|いちにん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{一任|いちにん}しろ",
+        "negative": "{一任|いちにん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "It is a novel depicting the downfall of a distinguished family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15873_botsuraku_ex2",
@@ -27,7 +29,9 @@
       "english": "That empire fell into ruin because of war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15873_botsuraku_ex3",
@@ -35,7 +39,9 @@
       "english": "Along with the decline of the aristocracy, old culture and traditions were also lost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMPOSITION:\n{没|ぼつ} (sink, fall) + {落|らく} (fall, drop). Both characters convey falling, giving the word a strong sense of decline.\n\nGRAMMAR:\n{没落|ぼつらく}する is used as a する verb meaning \"to fall into ruin\" or \"to decline.\"\n\nCOMMON COLLOCATIONS:\n- {没落|ぼつらく}する (to fall into ruin)\n- {没落|ぼつらく}した{貴族|きぞく} (a ruined aristocrat)\n- {没落|ぼつらく}の{道|みち}をたどる (to follow the path of decline)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["abstract", "history"]
+      "semantic": [
+        "abstract",
+        "history"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{没落|ぼつらく}する",
+        "negative": "{没落|ぼつらく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{没落|ぼつらく}します",
+        "negative": "{没落|ぼつらく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{没落|ぼつらく}した",
+        "negative": "{没落|ぼつらく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{没落|ぼつらく}しました",
+        "negative": "{没落|ぼつらく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{没落|ぼつらく}して",
+        "negative": "{没落|ぼつらく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{没落|ぼつらく}している",
+        "negative": "{没落|ぼつらく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{没落|ぼつらく}しています",
+        "negative": "{没落|ぼつらく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{没落|ぼつらく}していた",
+        "negative": "{没落|ぼつらく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{没落|ぼつらく}していました",
+        "negative": "{没落|ぼつらく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{没落|ぼつらく}すれば",
+        "negative": "{没落|ぼつらく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{没落|ぼつらく}したら",
+        "negative": "{没落|ぼつらく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{没落|ぼつらく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{没落|ぼつらく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{没落|ぼつらく}できる",
+        "negative": "{没落|ぼつらく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{没落|ぼつらく}される",
+        "negative": "{没落|ぼつらく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{没落|ぼつらく}させる",
+        "negative": "{没落|ぼつらく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{没落|ぼつらく}しろ",
+        "negative": "{没落|ぼつらく}するな"
+      }
+    ]
   }
 }

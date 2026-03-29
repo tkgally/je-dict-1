@@ -22,7 +22,9 @@
       "japanese": "{値段|ねだん}の{駆|か}け{引|ひ}きをする。",
       "english": "To bargain over the price.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{政治|せいじ}の{駆|か}け{引|ひ}きは{複雑|ふくざつ}だ。",
       "english": "Political maneuvering is complicated.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{彼|かれ}は{交渉|こうしょう}の{場|ば}での{駆|か}け{引|ひ}きが{上手|うま}い。",
       "english": "He's skilled at negotiation tactics.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{恋愛|れんあい}の{駆|か}け{引|ひ}きは{苦手|にがて}だ。",
       "english": "I'm not good at relationship games.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{駆|か}け{引|ひ}きなしで{素直|すなお}に{気持|きも}ちを{伝|つた}えたい。",
       "english": "I want to express my feelings honestly without playing games.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "あの{二人|ふたり}の{駆|か}け{引|ひ}きを{見|み}ていると、なかなか{進展|しんてん}しないのがもどかしい。",
       "english": "Watching those two play games with each other, it's frustrating how little progress they make.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,10 +85,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["communication", "strategy"],
-      "domain": []
+      "semantic": [
+        "communication",
+        "strategy"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{駆|か}け{引|ひ}きする",
+        "negative": "{駆|か}け{引|ひ}きしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{駆|か}け{引|ひ}きします",
+        "negative": "{駆|か}け{引|ひ}きしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{駆|か}け{引|ひ}きした",
+        "negative": "{駆|か}け{引|ひ}きしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{駆|か}け{引|ひ}きしました",
+        "negative": "{駆|か}け{引|ひ}きしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{駆|か}け{引|ひ}きして",
+        "negative": "{駆|か}け{引|ひ}きしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{駆|か}け{引|ひ}きしている",
+        "negative": "{駆|か}け{引|ひ}きしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{駆|か}け{引|ひ}きしています",
+        "negative": "{駆|か}け{引|ひ}きしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{駆|か}け{引|ひ}きしていた",
+        "negative": "{駆|か}け{引|ひ}きしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{駆|か}け{引|ひ}きしていました",
+        "negative": "{駆|か}け{引|ひ}きしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{駆|か}け{引|ひ}きすれば",
+        "negative": "{駆|か}け{引|ひ}きしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{駆|か}け{引|ひ}きしたら",
+        "negative": "{駆|か}け{引|ひ}きしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{駆|か}け{引|ひ}きしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{駆|か}け{引|ひ}きしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{駆|か}け{引|ひ}きできる",
+        "negative": "{駆|か}け{引|ひ}きできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{駆|か}け{引|ひ}きされる",
+        "negative": "{駆|か}け{引|ひ}きされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{駆|か}け{引|ひ}きさせる",
+        "negative": "{駆|か}け{引|ひ}きさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{駆|か}け{引|ひ}きしろ",
+        "negative": "{駆|か}け{引|ひ}きするな"
+      }
+    ]
   }
 }

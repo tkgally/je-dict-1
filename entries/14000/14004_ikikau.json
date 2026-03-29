@@ -19,7 +19,9 @@
       "english": "People come and go along the street.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14004_ikikau_ex2",
@@ -27,7 +29,9 @@
       "english": "Ships of all sizes were coming and going in the harbor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14004_ikikau_ex3",
@@ -35,7 +39,9 @@
       "english": "The shopping district at year's end was bustling with shoppers hurrying back and forth.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{行|い}き{交|か}う is an intransitive godan verb. A compound of {行|い}く (to go) and {交|か}う (to cross, to intersect).\n\nASPECT (ている):\n{行|い}き{交|か}っている describes an ongoing scene of people or things moving back and forth.\n\nPARTICLE PATTERNS:\n- [person/vehicle]が{行|い}き{交|か}う (people/vehicles pass back and forth)\n- [place]を{行|い}き{交|か}う (come and go through a place)\n\nCOMMON COLLOCATIONS:\n- {人|ひと}が{行|い}き{交|か}う (people come and go)\n- {車|くるま}が{行|い}き{交|か}う (cars pass back and forth)\n- {情報|じょうほう}が{行|い}き{交|か}う (information is exchanged back and forth)\n\nOften used to paint a vivid picture of a busy scene. Can also describe the exchange of messages, emails, or information flying back and forth between parties.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{行|い}き{交|か}う",
+        "negative": "{行|い}き{交|か}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{行|い}き{交|か}います",
+        "negative": "{行|い}き{交|か}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{行|い}き{交|か}った",
+        "negative": "{行|い}き{交|か}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{行|い}き{交|か}いました",
+        "negative": "{行|い}き{交|か}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{行|い}き{交|か}って",
+        "negative": "{行|い}き{交|か}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{行|い}き{交|か}っている",
+        "negative": "{行|い}き{交|か}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{行|い}き{交|か}っています",
+        "negative": "{行|い}き{交|か}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{行|い}き{交|か}っていた",
+        "negative": "{行|い}き{交|か}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{行|い}き{交|か}っていました",
+        "negative": "{行|い}き{交|か}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{行|い}き{交|か}えば",
+        "negative": "{行|い}き{交|か}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{行|い}き{交|か}ったら",
+        "negative": "{行|い}き{交|か}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{行|い}き{交|か}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{行|い}き{交|か}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{行|い}き{交|か}える",
+        "negative": "{行|い}き{交|か}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{行|い}き{交|か}われる",
+        "negative": "{行|い}き{交|か}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{行|い}き{交|か}わせる",
+        "negative": "{行|い}き{交|か}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{行|い}き{交|か}え",
+        "negative": "{行|い}き{交|か}うな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Signal when changing lanes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17361_shasenhenkou_ex2",
@@ -27,7 +29,9 @@
       "english": "Sudden lane changes are dangerous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17361_shasenhenkou_ex3",
@@ -35,7 +39,9 @@
       "english": "When changing lanes on the highway, always check behind you first.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound noun used in driving contexts. Can also be used as a suru verb: {車線|しゃせん}{変更|へんこう}する.\n\nCOMMON COLLOCATIONS:\n- {車線|しゃせん}{変更|へんこう}{禁止|きんし} (no lane changing)\n- {車線|しゃせん}{変更|へんこう}する (to change lanes)\n- {無理|むり}な{車線|しゃせん}{変更|へんこう} (reckless lane change)\n\nRELATED TERMS:\n- {車線|しゃせん}: traffic lane\n- {追|お}い{越|こ}し: overtaking, passing",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}する",
+        "negative": "{車線|しゃせん}{変更|へんこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}します",
+        "negative": "{車線|しゃせん}{変更|へんこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}した",
+        "negative": "{車線|しゃせん}{変更|へんこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}しました",
+        "negative": "{車線|しゃせん}{変更|へんこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}して",
+        "negative": "{車線|しゃせん}{変更|へんこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}している",
+        "negative": "{車線|しゃせん}{変更|へんこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}しています",
+        "negative": "{車線|しゃせん}{変更|へんこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}していた",
+        "negative": "{車線|しゃせん}{変更|へんこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}していました",
+        "negative": "{車線|しゃせん}{変更|へんこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}すれば",
+        "negative": "{車線|しゃせん}{変更|へんこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}したら",
+        "negative": "{車線|しゃせん}{変更|へんこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}できる",
+        "negative": "{車線|しゃせん}{変更|へんこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}される",
+        "negative": "{車線|しゃせん}{変更|へんこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}させる",
+        "negative": "{車線|しゃせん}{変更|へんこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{車線|しゃせん}{変更|へんこう}しろ",
+        "negative": "{車線|しゃせん}{変更|へんこう}するな"
+      }
+    ]
   }
 }

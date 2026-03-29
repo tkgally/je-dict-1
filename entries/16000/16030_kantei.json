@@ -19,7 +19,9 @@
       "english": "I requested an appraisal of this painting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16030_kantei_ex2",
@@ -27,7 +29,9 @@
       "english": "The culprit was identified through DNA analysis.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16030_kantei_ex3",
@@ -35,7 +39,9 @@
       "english": "When I had an expert appraise it, the vase turned out to be from the Edo period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{鑑定|かんてい} can be used as a noun or as a suru-verb ({鑑定|かんてい}する). It implies expert-level knowledge and authority.\n\nCOMMON COLLOCATIONS:\n- {鑑定|かんてい}する (to appraise, to assess)\n- {鑑定|かんてい}{結果|けっか} (appraisal results)\n- {鑑定|かんてい}{書|しょ} (appraisal certificate)\n- DNA{鑑定|かんてい} (DNA analysis)\n- {精神|せいしん}{鑑定|かんてい} (psychiatric evaluation)\n- {鑑定|かんてい}{士|し} / {鑑定|かんてい}{人|にん} (appraiser, expert witness)\n\nCAUTION:\nDo not confuse with {官邸|かんてい} (official residence, e.g., the Prime Minister's residence), which is a homophone.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{鑑定|かんてい}する",
+        "negative": "{鑑定|かんてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{鑑定|かんてい}します",
+        "negative": "{鑑定|かんてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{鑑定|かんてい}した",
+        "negative": "{鑑定|かんてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{鑑定|かんてい}しました",
+        "negative": "{鑑定|かんてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{鑑定|かんてい}して",
+        "negative": "{鑑定|かんてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{鑑定|かんてい}している",
+        "negative": "{鑑定|かんてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{鑑定|かんてい}しています",
+        "negative": "{鑑定|かんてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{鑑定|かんてい}していた",
+        "negative": "{鑑定|かんてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{鑑定|かんてい}していました",
+        "negative": "{鑑定|かんてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{鑑定|かんてい}すれば",
+        "negative": "{鑑定|かんてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{鑑定|かんてい}したら",
+        "negative": "{鑑定|かんてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{鑑定|かんてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{鑑定|かんてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{鑑定|かんてい}できる",
+        "negative": "{鑑定|かんてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{鑑定|かんてい}される",
+        "negative": "{鑑定|かんてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{鑑定|かんてい}させる",
+        "negative": "{鑑定|かんてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{鑑定|かんてい}しろ",
+        "negative": "{鑑定|かんてい}するな"
+      }
+    ]
   }
 }

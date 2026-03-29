@@ -19,7 +19,9 @@
       "english": "A spy infiltrated the organization.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13389_sennyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The reporter conducted undercover journalism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13389_sennyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "The investigator infiltrated the mafia and had been gathering information for years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used in crime, espionage, and journalism contexts. The pattern ～に{潜入|せんにゅう}する means \"to infiltrate into (a place or group).\"\n\nCOMMON COLLOCATIONS:\n- {潜入|せんにゅう}{捜査|そうさ}: undercover investigation\n- {潜入|せんにゅう}{取材|しゅざい}: undercover reporting\n- {潜入|せんにゅう}{操作|そうさ}: infiltration operation\n- ～に{潜入|せんにゅう}する: to infiltrate into",
@@ -53,10 +59,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-movement"]
+      "semantic": [
+        "action-movement"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{潜入|せんにゅう}する",
+        "negative": "{潜入|せんにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{潜入|せんにゅう}します",
+        "negative": "{潜入|せんにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{潜入|せんにゅう}した",
+        "negative": "{潜入|せんにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{潜入|せんにゅう}しました",
+        "negative": "{潜入|せんにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{潜入|せんにゅう}して",
+        "negative": "{潜入|せんにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{潜入|せんにゅう}している",
+        "negative": "{潜入|せんにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{潜入|せんにゅう}しています",
+        "negative": "{潜入|せんにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{潜入|せんにゅう}していた",
+        "negative": "{潜入|せんにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{潜入|せんにゅう}していました",
+        "negative": "{潜入|せんにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{潜入|せんにゅう}すれば",
+        "negative": "{潜入|せんにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{潜入|せんにゅう}したら",
+        "negative": "{潜入|せんにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{潜入|せんにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{潜入|せんにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{潜入|せんにゅう}できる",
+        "negative": "{潜入|せんにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{潜入|せんにゅう}される",
+        "negative": "{潜入|せんにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{潜入|せんにゅう}させる",
+        "negative": "{潜入|せんにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{潜入|せんにゅう}しろ",
+        "negative": "{潜入|せんにゅう}するな"
+      }
+    ]
   }
 }

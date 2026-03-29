@@ -24,7 +24,9 @@
       "english": "They fought back against the enemy's attack.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15525_ousen_ex2",
@@ -32,7 +34,9 @@
       "english": "The garrison fought back against an overwhelmingly large enemy force.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15525_ousen_ex3",
@@ -40,7 +44,9 @@
       "english": "She calmly responded to the criticism.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15525_ousen_ex4",
@@ -48,7 +54,9 @@
       "english": "Accept the challenge and fight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15525_ousen_ex5",
@@ -56,7 +64,9 @@
       "english": "To counter the rival company's new product, they lowered prices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15525_ousen_ex6",
@@ -64,7 +74,9 @@
       "english": "They fought back against the opposing team's fierce onslaught and never gave up until the end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{応戦|おうせん} implies a reactive stance — responding to an attack or challenge rather than initiating one. It can be used for military combat, competitive situations, debates, and business rivalry.\n\nCOMMON COLLOCATIONS:\n- {応戦|おうせん}する (to fight back)\n- {応戦|おうせん}{態勢|たいせい} (posture for counterattack)\n- {果敢|かかん}に{応戦|おうせん}する (to fight back boldly)\n\nGRAMMAR:\nUsed as a noun or with する to form an intransitive verb.",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["military", "competition"]
+      "semantic": [
+        "military",
+        "competition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{応戦|おうせん}する",
+        "negative": "{応戦|おうせん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{応戦|おうせん}します",
+        "negative": "{応戦|おうせん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{応戦|おうせん}した",
+        "negative": "{応戦|おうせん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{応戦|おうせん}しました",
+        "negative": "{応戦|おうせん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{応戦|おうせん}して",
+        "negative": "{応戦|おうせん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{応戦|おうせん}している",
+        "negative": "{応戦|おうせん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{応戦|おうせん}しています",
+        "negative": "{応戦|おうせん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{応戦|おうせん}していた",
+        "negative": "{応戦|おうせん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{応戦|おうせん}していました",
+        "negative": "{応戦|おうせん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{応戦|おうせん}すれば",
+        "negative": "{応戦|おうせん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{応戦|おうせん}したら",
+        "negative": "{応戦|おうせん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{応戦|おうせん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{応戦|おうせん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{応戦|おうせん}できる",
+        "negative": "{応戦|おうせん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{応戦|おうせん}される",
+        "negative": "{応戦|おうせん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{応戦|おうせん}させる",
+        "negative": "{応戦|おうせん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{応戦|おうせん}しろ",
+        "negative": "{応戦|おうせん}するな"
+      }
+    ]
   }
 }

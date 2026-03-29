@@ -19,7 +19,9 @@
       "english": "To tame a wild horse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16798_kainarasu_ex2",
@@ -27,7 +29,9 @@
       "english": "A tamed hawk perches on a person's arm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16798_kainarasu_ex3",
@@ -35,7 +39,9 @@
       "english": "It is said that humans tamed wolves over thousands of years and turned them into dogs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb from {飼|か}う (to keep/raise an animal) + {慣|な}らす (to accustom). The passive form {飼|か}い{慣|な}らされた is commonly used as a modifier meaning \"tamed\" or \"domesticated.\"\n\nCOMMON COLLOCATIONS:\n- {動物|どうぶつ}を{飼|か}い{慣|な}らす (to tame an animal)\n- {飼|か}い{慣|な}らされた{鳥|とり} (a tamed bird)\n\nSIMILAR WORDS:\n- {手懐|てなず}ける: to tame — emphasizes winning over trust through gentleness\n- {家畜化|かちくか}する: to domesticate — more scientific/formal term",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-su",
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["animal", "action"]
+      "semantic": [
+        "animal",
+        "action"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{飼|か}い{慣|な}らす",
+        "negative": "{飼|か}い{慣|な}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{飼|か}い{慣|な}らします",
+        "negative": "{飼|か}い{慣|な}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{飼|か}い{慣|な}らした",
+        "negative": "{飼|か}い{慣|な}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{飼|か}い{慣|な}らしました",
+        "negative": "{飼|か}い{慣|な}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{飼|か}い{慣|な}らして",
+        "negative": "{飼|か}い{慣|な}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{飼|か}い{慣|な}らしている",
+        "negative": "{飼|か}い{慣|な}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{飼|か}い{慣|な}らしています",
+        "negative": "{飼|か}い{慣|な}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{飼|か}い{慣|な}らしていた",
+        "negative": "{飼|か}い{慣|な}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{飼|か}い{慣|な}らしていました",
+        "negative": "{飼|か}い{慣|な}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{飼|か}い{慣|な}らせば",
+        "negative": "{飼|か}い{慣|な}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{飼|か}い{慣|な}らしたら",
+        "negative": "{飼|か}い{慣|な}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{飼|か}い{慣|な}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{飼|か}い{慣|な}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{飼|か}い{慣|な}らせる",
+        "negative": "{飼|か}い{慣|な}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{飼|か}い{慣|な}らされる",
+        "negative": "{飼|か}い{慣|な}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{飼|か}い{慣|な}らさせる",
+        "negative": "{飼|か}い{慣|な}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{飼|か}い{慣|な}らせ",
+        "negative": "{飼|か}い{慣|な}らすな"
+      }
+    ]
   }
 }

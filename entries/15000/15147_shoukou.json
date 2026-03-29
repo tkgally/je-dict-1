@@ -19,7 +19,9 @@
       "english": "Where is the entrance/exit (for boarding)?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15147_shoukou_ex2",
@@ -27,7 +29,9 @@
       "english": "I can hear the sound of the elevator going up and down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15147_shoukou_ex3",
@@ -35,7 +39,9 @@
       "english": "Those who have difficulty going up and down stairs, please use the elevator.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{昇降|しょうこう} is a formal compound combining {昇|のぼ}る (to ascend) and {降|お}りる (to descend). It appears frequently in signage, instructions, and technical descriptions.\n\nCOMMON COLLOCATIONS:\n- {昇降|しょうこう}{口|ぐち} (entrance/exit for boarding, as on a bus or train platform)\n- {昇降|しょうこう}{機|き} (elevator, lift mechanism)\n- {昇降|しょうこう}{式|しき} (height-adjustable, as in {昇降|しょうこう}{式|しき}デスク — standing desk)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["movement-direction"]
+      "semantic": [
+        "movement-direction"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{昇降|しょうこう}する",
+        "negative": "{昇降|しょうこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{昇降|しょうこう}します",
+        "negative": "{昇降|しょうこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{昇降|しょうこう}した",
+        "negative": "{昇降|しょうこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{昇降|しょうこう}しました",
+        "negative": "{昇降|しょうこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{昇降|しょうこう}して",
+        "negative": "{昇降|しょうこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{昇降|しょうこう}している",
+        "negative": "{昇降|しょうこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{昇降|しょうこう}しています",
+        "negative": "{昇降|しょうこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{昇降|しょうこう}していた",
+        "negative": "{昇降|しょうこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{昇降|しょうこう}していました",
+        "negative": "{昇降|しょうこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{昇降|しょうこう}すれば",
+        "negative": "{昇降|しょうこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{昇降|しょうこう}したら",
+        "negative": "{昇降|しょうこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{昇降|しょうこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{昇降|しょうこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{昇降|しょうこう}できる",
+        "negative": "{昇降|しょうこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{昇降|しょうこう}される",
+        "negative": "{昇降|しょうこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{昇降|しょうこう}させる",
+        "negative": "{昇降|しょうこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{昇降|しょうこう}しろ",
+        "negative": "{昇降|しょうこう}するな"
+      }
+    ]
   }
 }

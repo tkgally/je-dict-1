@@ -19,7 +19,9 @@
       "english": "I'm troubled by headaches.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12602_nayamasu_ex2",
@@ -27,7 +29,9 @@
       "english": "This problem has troubled researchers for many years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12602_nayamasu_ex3",
@@ -35,7 +39,9 @@
       "english": "Many parents are troubled by their children's rebellious phase.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe transitive counterpart of {悩|なや}む (to worry, to be troubled). While {悩|なや}む describes the person experiencing worry, {悩|なや}ます describes what causes the worry. Very often used in the passive form {悩|なや}まされる (to be troubled by).\n\nGRAMMAR:\nGodan verb ending in す. Transitive — takes を for the person being troubled: Xを{悩|なや}ます. The passive {悩|なや}まされる with に marks the cause: Xに{悩|なや}まされる.\n\nCOMMON COLLOCATIONS:\n- Xに{悩|なや}まされる: to be troubled by X (passive, very common)\n- {相手|あいて}を{悩|なや}ます: to give the opponent trouble\n- {長年|ながねん}{悩|なや}まされる: to be troubled for many years",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{悩|なや}ます",
+        "negative": "{悩|なや}まさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{悩|なや}まします",
+        "negative": "{悩|なや}ましません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{悩|なや}ました",
+        "negative": "{悩|なや}まさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{悩|なや}ましました",
+        "negative": "{悩|なや}ましませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{悩|なや}まして",
+        "negative": "{悩|なや}まさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{悩|なや}ましている",
+        "negative": "{悩|なや}ましていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{悩|なや}ましています",
+        "negative": "{悩|なや}ましていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{悩|なや}ましていた",
+        "negative": "{悩|なや}ましていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{悩|なや}ましていました",
+        "negative": "{悩|なや}ましていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{悩|なや}ませば",
+        "negative": "{悩|なや}まさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{悩|なや}ましたら",
+        "negative": "{悩|なや}まさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{悩|なや}まそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{悩|なや}ましましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{悩|なや}ませる",
+        "negative": "{悩|なや}ませない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{悩|なや}まされる",
+        "negative": "{悩|なや}まされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{悩|なや}まさせる",
+        "negative": "{悩|なや}まさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{悩|なや}ませ",
+        "negative": "{悩|なや}ますな"
+      }
+    ]
   }
 }

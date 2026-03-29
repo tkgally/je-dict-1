@@ -17,7 +17,9 @@
       "japanese": "ネットで{検索|けんさく}する。",
       "english": "Search on the internet.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{検索|けんさく}{結果|けっか}が{出|で}た。",
       "english": "The search results appeared.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,7 +37,9 @@
       "japanese": "{分|わ}からない{言葉|ことば}は{辞書|じしょ}で{検索|けんさく}している。",
       "english": "I look up words I don't understand in the dictionary.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -41,7 +47,9 @@
       "japanese": "キーワードを{入力|にゅうりょく}して{検索|けんさく}ボタンを{押|お}してください。",
       "english": "Enter a keyword and press the search button.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -49,7 +57,9 @@
       "japanese": "{名前|なまえ}で{検索|けんさく}しても{見|み}つからなかったので、{電話番号|でんわばんごう}で{検索|けんさく}してみたら、すぐに{出|で}てきた。",
       "english": "I couldn't find it by searching by name, but when I tried searching by phone number, it came right up.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
@@ -68,7 +78,98 @@
       "politeness": "plain",
       "semantic": [
         "action"
-      ]
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{検索|けんさく}する",
+        "negative": "{検索|けんさく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{検索|けんさく}します",
+        "negative": "{検索|けんさく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{検索|けんさく}した",
+        "negative": "{検索|けんさく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{検索|けんさく}しました",
+        "negative": "{検索|けんさく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{検索|けんさく}して",
+        "negative": "{検索|けんさく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{検索|けんさく}している",
+        "negative": "{検索|けんさく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{検索|けんさく}しています",
+        "negative": "{検索|けんさく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{検索|けんさく}していた",
+        "negative": "{検索|けんさく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{検索|けんさく}していました",
+        "negative": "{検索|けんさく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{検索|けんさく}すれば",
+        "negative": "{検索|けんさく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{検索|けんさく}したら",
+        "negative": "{検索|けんさく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{検索|けんさく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{検索|けんさく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{検索|けんさく}できる",
+        "negative": "{検索|けんさく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{検索|けんさく}される",
+        "negative": "{検索|けんさく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{検索|けんさく}させる",
+        "negative": "{検索|けんさく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{検索|けんさく}しろ",
+        "negative": "{検索|けんさく}するな"
+      }
+    ]
   }
 }

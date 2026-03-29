@@ -24,7 +24,9 @@
       "english": "I fell on the stairs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14303_tentou_ex2",
@@ -32,7 +34,9 @@
       "english": "Fall-related accidents among the elderly are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14303_tentou_ex3",
@@ -40,7 +44,9 @@
       "english": "The bookshelf toppled over in the earthquake and books scattered all over the room.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14303_tentou_ex4",
@@ -48,7 +54,9 @@
       "english": "That's putting the cart before the horse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14303_tentou_ex5",
@@ -56,7 +64,9 @@
       "english": "The priorities are reversed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14303_tentou_ex6",
@@ -64,7 +74,9 @@
       "english": "The means and the ends got reversed, and I lost sight of why I was doing it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "Sense 1 is used frequently in medical and safety contexts, especially regarding elderly falls. Sense 2 appears most often in the four-character compound {本末転倒|ほんまつてんとう} (putting the cart before the horse).\n\nCOMMON COLLOCATIONS:\n- {転倒|てんとう}{事故|じこ} (fall accident)\n- {転倒|てんとう}{防止|ぼうし} (fall prevention)\n- {転倒|てんとう}する (to fall over, to topple)\n- {本末転倒|ほんまつてんとう} (getting priorities backwards)\n\nNot to be confused with {店頭|てんとう} (storefront), which is a homophone.",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "change"]
+      "semantic": [
+        "action",
+        "change"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{転倒|てんとう}する",
+        "negative": "{転倒|てんとう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{転倒|てんとう}します",
+        "negative": "{転倒|てんとう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{転倒|てんとう}した",
+        "negative": "{転倒|てんとう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{転倒|てんとう}しました",
+        "negative": "{転倒|てんとう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{転倒|てんとう}して",
+        "negative": "{転倒|てんとう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{転倒|てんとう}している",
+        "negative": "{転倒|てんとう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{転倒|てんとう}しています",
+        "negative": "{転倒|てんとう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{転倒|てんとう}していた",
+        "negative": "{転倒|てんとう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{転倒|てんとう}していました",
+        "negative": "{転倒|てんとう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{転倒|てんとう}すれば",
+        "negative": "{転倒|てんとう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{転倒|てんとう}したら",
+        "negative": "{転倒|てんとう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{転倒|てんとう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{転倒|てんとう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{転倒|てんとう}できる",
+        "negative": "{転倒|てんとう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{転倒|てんとう}される",
+        "negative": "{転倒|てんとう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{転倒|てんとう}させる",
+        "negative": "{転倒|てんとう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{転倒|てんとう}しろ",
+        "negative": "{転倒|てんとう}するな"
+      }
+    ]
   }
 }

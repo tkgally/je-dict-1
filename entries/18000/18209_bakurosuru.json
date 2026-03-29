@@ -19,7 +19,9 @@
       "english": "The wrongdoing was exposed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18209_bakurosuru_ex2",
@@ -27,7 +29,9 @@
       "english": "A former employee exposed the company's internal information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18209_bakurosuru_ex3",
@@ -35,7 +39,9 @@
       "english": "Cases of celebrities' private lives being exposed online are increasing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlso used as a noun: {暴露|ばくろ} (exposure, revelation). The compound {暴露|ばくろ}{本|ぼん} (exposé book) is a common collocation. Carries a stronger, more dramatic tone than {明|あ}かす or {公開|こうかい}する.\n\nCOMMON COLLOCATIONS:\n- {秘密|ひみつ}を{暴露|ばくろ}する (to expose a secret)\n- {不正|ふせい}を{暴露|ばくろ}する (to expose wrongdoing)\n- {暴露|ばくろ}{本|ぼん} (exposé; tell-all book)\n- {暴露|ばくろ}{記事|きじ} (exposé article)\n\nSIMILAR WORDS:\n- {明|あ}かす: to reveal, to disclose — more neutral; can be used for personal confessions\n- {告発|こくはつ}する: to accuse, to report — focuses on formally reporting wrongdoing, often to authorities",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "transitivity": "transitive"
+      "semantic": [
+        "communication"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{暴露|ばくろ}する",
+        "negative": "{暴露|ばくろ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{暴露|ばくろ}します",
+        "negative": "{暴露|ばくろ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{暴露|ばくろ}した",
+        "negative": "{暴露|ばくろ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{暴露|ばくろ}しました",
+        "negative": "{暴露|ばくろ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{暴露|ばくろ}して",
+        "negative": "{暴露|ばくろ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{暴露|ばくろ}している",
+        "negative": "{暴露|ばくろ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{暴露|ばくろ}しています",
+        "negative": "{暴露|ばくろ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{暴露|ばくろ}していた",
+        "negative": "{暴露|ばくろ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{暴露|ばくろ}していました",
+        "negative": "{暴露|ばくろ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{暴露|ばくろ}すれば",
+        "negative": "{暴露|ばくろ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{暴露|ばくろ}したら",
+        "negative": "{暴露|ばくろ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{暴露|ばくろ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{暴露|ばくろ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{暴露|ばくろ}できる",
+        "negative": "{暴露|ばくろ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{暴露|ばくろ}される",
+        "negative": "{暴露|ばくろ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{暴露|ばくろ}させる",
+        "negative": "{暴露|ばくろ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{暴露|ばくろ}しろ",
+        "negative": "{暴露|ばくろ}するな"
+      }
+    ]
   }
 }

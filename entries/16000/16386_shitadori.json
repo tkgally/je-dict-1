@@ -19,7 +19,9 @@
       "english": "To trade in an old car.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16386_shitadori_ex2",
@@ -27,7 +29,9 @@
       "english": "The trade-in price was higher than I expected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16386_shitadori_ex3",
@@ -35,7 +39,9 @@
       "english": "When replacing my smartphone, I asked if they could take my current model as a trade-in.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{下取|したど}り is most commonly used when buying cars, electronics, and appliances. The seller evaluates the old item and deducts its value from the new purchase price.\n\nCOMMON COLLOCATIONS:\n- {下取|したど}りに{出|だ}す (to trade in, to offer as a trade-in)\n- {下取|したど}り{価格|かかく} (trade-in price/value)\n- {下取|したど}りしてもらう (to have something accepted as a trade-in)\n- {下取|したど}り{査定|さてい} (trade-in appraisal)\n\nSIMILAR WORDS:\n{買|か}い{取|と}り means buyback or purchase, where the store buys your item outright. {下取|したど}り specifically implies exchanging an old item when purchasing a new one.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{下取|したど}りする",
+        "negative": "{下取|したど}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{下取|したど}りします",
+        "negative": "{下取|したど}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{下取|したど}りした",
+        "negative": "{下取|したど}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{下取|したど}りしました",
+        "negative": "{下取|したど}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{下取|したど}りして",
+        "negative": "{下取|したど}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{下取|したど}りしている",
+        "negative": "{下取|したど}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{下取|したど}りしています",
+        "negative": "{下取|したど}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{下取|したど}りしていた",
+        "negative": "{下取|したど}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{下取|したど}りしていました",
+        "negative": "{下取|したど}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{下取|したど}りすれば",
+        "negative": "{下取|したど}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{下取|したど}りしたら",
+        "negative": "{下取|したど}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{下取|したど}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{下取|したど}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{下取|したど}りできる",
+        "negative": "{下取|したど}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{下取|したど}りされる",
+        "negative": "{下取|したど}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{下取|したど}りさせる",
+        "negative": "{下取|したど}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{下取|したど}りしろ",
+        "negative": "{下取|したど}りするな"
+      }
+    ]
   }
 }

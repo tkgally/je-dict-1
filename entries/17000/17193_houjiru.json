@@ -19,7 +19,9 @@
       "english": "The media reported the incident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17193_houjiru_ex2",
@@ -27,7 +29,9 @@
       "english": "The newspapers are covering it extensively.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17193_houjiru_ex3",
@@ -35,7 +39,9 @@
       "english": "Public attention gathered after all the news stations reported on this issue simultaneously.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal verb used primarily in media and journalism contexts. The alternative form {報|ほう}ずる also exists but is less common in modern Japanese. Often seen in passive form: 〜と{報|ほう}じられている (it is reported that ~).\n\nCOMMON COLLOCATIONS:\n- {事件|じけん}を{報|ほう}じる (to report an incident)\n- 〜と{報|ほう}じられている (it is reported that ~)\n- {大|おお}きく{報|ほう}じる (to cover extensively)\n- {一斉|いっせい}に{報|ほう}じる (to report simultaneously)\n\nSIMILAR WORDS:\n- {報道|ほうどう}する: to report (news) — more common as a する-verb\n- {伝|つた}える: to convey, to report — broader usage, not limited to media",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{報|ほう}じる",
+        "negative": "{報|ほう}じない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{報|ほう}じます",
+        "negative": "{報|ほう}じません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{報|ほう}じた",
+        "negative": "{報|ほう}じなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{報|ほう}じました",
+        "negative": "{報|ほう}じませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{報|ほう}じて",
+        "negative": "{報|ほう}じなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{報|ほう}じている",
+        "negative": "{報|ほう}じていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{報|ほう}じています",
+        "negative": "{報|ほう}じていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{報|ほう}じていた",
+        "negative": "{報|ほう}じていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{報|ほう}じていました",
+        "negative": "{報|ほう}じていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{報|ほう}じれば",
+        "negative": "{報|ほう}じなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{報|ほう}じたら",
+        "negative": "{報|ほう}じなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{報|ほう}じよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{報|ほう}じましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{報|ほう}じられる",
+        "negative": "{報|ほう}じられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{報|ほう}じられる",
+        "negative": "{報|ほう}じられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{報|ほう}じさせる",
+        "negative": "{報|ほう}じさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{報|ほう}じろ",
+        "negative": "{報|ほう}じるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Flowers filled the entire garden.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17206_umetsukusu_ex2",
@@ -27,7 +29,9 @@
       "english": "The venue was packed with spectators.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17206_umetsukusu_ex3",
@@ -35,7 +39,9 @@
       "english": "Cherry blossom petals covered the ground completely, like a pink carpet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY:\nTransitive verb ({他動詞|たどうし}). Often used in the passive form {埋|う}め{尽|つ}くされる to describe a state.\n\nWORD FORMATION:\n{埋|う}める (to fill, to bury) + {尽|つ}くす (to exhaust, to do completely). The {尽|つ}くす suffix adds the meaning of doing something thoroughly and completely.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}で{埋|う}め{尽|つ}くす (to be packed with people)\n- {花|はな}で{埋|う}め{尽|つ}くす (to be covered with flowers)\n- {観客|かんきゃく}で{埋|う}め{尽|つ}くされる (to be filled with spectators)\n- {一面|いちめん}を{埋|う}め{尽|つ}くす (to cover the entire surface)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity", "space"]
+      "semantic": [
+        "quantity",
+        "space"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{埋|う}め{尽|つ}くす",
+        "negative": "{埋|う}め{尽|つ}くさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{埋|う}め{尽|つ}くします",
+        "negative": "{埋|う}め{尽|つ}くしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{埋|う}め{尽|つ}くした",
+        "negative": "{埋|う}め{尽|つ}くさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{埋|う}め{尽|つ}くしました",
+        "negative": "{埋|う}め{尽|つ}くしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{埋|う}め{尽|つ}くして",
+        "negative": "{埋|う}め{尽|つ}くさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{埋|う}め{尽|つ}くしている",
+        "negative": "{埋|う}め{尽|つ}くしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{埋|う}め{尽|つ}くしています",
+        "negative": "{埋|う}め{尽|つ}くしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{埋|う}め{尽|つ}くしていた",
+        "negative": "{埋|う}め{尽|つ}くしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{埋|う}め{尽|つ}くしていました",
+        "negative": "{埋|う}め{尽|つ}くしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{埋|う}め{尽|つ}くせば",
+        "negative": "{埋|う}め{尽|つ}くさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{埋|う}め{尽|つ}くしたら",
+        "negative": "{埋|う}め{尽|つ}くさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{埋|う}め{尽|つ}くそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{埋|う}め{尽|つ}くしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{埋|う}め{尽|つ}くせる",
+        "negative": "{埋|う}め{尽|つ}くせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{埋|う}め{尽|つ}くされる",
+        "negative": "{埋|う}め{尽|つ}くされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{埋|う}め{尽|つ}くさせる",
+        "negative": "{埋|う}め{尽|つ}くさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{埋|う}め{尽|つ}くせ",
+        "negative": "{埋|う}め{尽|つ}くすな"
+      }
+    ]
   }
 }

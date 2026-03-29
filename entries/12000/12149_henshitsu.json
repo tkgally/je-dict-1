@@ -19,7 +19,9 @@
       "english": "The food deteriorated in quality.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12149_henshitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Medicines are prone to deterioration in hot and humid environments.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12149_henshitsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Over the years, the character of the organization changed, and its original ideals were lost.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften carries a negative connotation, implying degradation rather than improvement. For physical substances, it suggests spoilage or chemical breakdown. For abstract concepts, it suggests corruption or loss of original character.\n\nRELATED WORDS:\n{変質者|へんしつしゃ} means a pervert or deviant — a completely different usage from the base word. This compound should not be confused with the general meaning of {変質|へんしつ}.\n\nCOMMON COLLOCATIONS:\n- {変質|へんしつ}する: to deteriorate, to undergo a change in quality\n- {変質|へんしつ}を{防|ふせ}ぐ: to prevent deterioration\n- {変質|へんしつ}{防止|ぼうし}: prevention of deterioration",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{変質|へんしつ}する",
+        "negative": "{変質|へんしつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{変質|へんしつ}します",
+        "negative": "{変質|へんしつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{変質|へんしつ}した",
+        "negative": "{変質|へんしつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{変質|へんしつ}しました",
+        "negative": "{変質|へんしつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{変質|へんしつ}して",
+        "negative": "{変質|へんしつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{変質|へんしつ}している",
+        "negative": "{変質|へんしつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{変質|へんしつ}しています",
+        "negative": "{変質|へんしつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{変質|へんしつ}していた",
+        "negative": "{変質|へんしつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{変質|へんしつ}していました",
+        "negative": "{変質|へんしつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{変質|へんしつ}すれば",
+        "negative": "{変質|へんしつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{変質|へんしつ}したら",
+        "negative": "{変質|へんしつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{変質|へんしつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{変質|へんしつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{変質|へんしつ}できる",
+        "negative": "{変質|へんしつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{変質|へんしつ}される",
+        "negative": "{変質|へんしつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{変質|へんしつ}させる",
+        "negative": "{変質|へんしつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{変質|へんしつ}しろ",
+        "negative": "{変質|へんしつ}するな"
+      }
+    ]
   }
 }

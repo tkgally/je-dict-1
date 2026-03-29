@@ -19,7 +19,9 @@
       "english": "The children explored the forest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17461_tanken_ex2",
@@ -27,7 +29,9 @@
       "english": "I read a book about the history of Antarctic exploration.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17461_tanken_ex3",
@@ -35,7 +39,9 @@
       "english": "A friend whose hobby is exploring ruins invited me, and we entered an old factory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed for both serious expeditions (geographical, scientific) and casual adventures. Children going on neighborhood explorations and professional explorers both use this word.\n\nThe variant {探険|たんけん} (with {険|けん} meaning danger) is also used, though {探検|たんけん} (with {検|けん} meaning examine) is more standard.\n\nCOMMON COLLOCATIONS:\n- {探検|たんけん}する (to explore)\n- {探検|たんけん}{隊|たい} (expedition team)\n- {探検|たんけん}{家|か} (explorer)\n- {洞窟|どうくつ}{探検|たんけん} (cave exploration)\n- {秘境|ひきょう}{探検|たんけん} (exploration of hidden regions)\n\nSIMILAR WORDS:\n- {冒険|ぼうけん}: adventure — emphasizes risk and excitement rather than discovery\n- {調査|ちょうさ}: investigation — more systematic and scientific, less adventurous",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement", "leisure"]
+      "semantic": [
+        "movement",
+        "leisure"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{探検|たんけん}する",
+        "negative": "{探検|たんけん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{探検|たんけん}します",
+        "negative": "{探検|たんけん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{探検|たんけん}した",
+        "negative": "{探検|たんけん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{探検|たんけん}しました",
+        "negative": "{探検|たんけん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{探検|たんけん}して",
+        "negative": "{探検|たんけん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{探検|たんけん}している",
+        "negative": "{探検|たんけん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{探検|たんけん}しています",
+        "negative": "{探検|たんけん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{探検|たんけん}していた",
+        "negative": "{探検|たんけん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{探検|たんけん}していました",
+        "negative": "{探検|たんけん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{探検|たんけん}すれば",
+        "negative": "{探検|たんけん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{探検|たんけん}したら",
+        "negative": "{探検|たんけん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{探検|たんけん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{探検|たんけん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{探検|たんけん}できる",
+        "negative": "{探検|たんけん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{探検|たんけん}される",
+        "negative": "{探検|たんけん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{探検|たんけん}させる",
+        "negative": "{探検|たんけん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{探検|たんけん}しろ",
+        "negative": "{探検|たんけん}するな"
+      }
+    ]
   }
 }

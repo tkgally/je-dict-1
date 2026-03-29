@@ -17,21 +17,27 @@
       "japanese": "{新|あたら}しいシステムの{導入|どうにゅう}を{稟議|りんぎ}に{回|まわ}す。",
       "english": "Submit the new system implementation for approval.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07483_ringi_ex2",
       "japanese": "{稟議|りんぎ}が{通|とお}れば{予算|よさん}がつく。",
       "english": "Once the approval request passes, we'll get the budget.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07483_ringi_ex3",
       "japanese": "{稟議書|りんぎしょ}を{作成|さくせい}して{提出|ていしゅつ}する。",
       "english": "Create and submit the approval request document.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{稟|りん} (report to a superior) + {議|ぎ} (deliberation)\n\nTHE {稟議|りんぎ} SYSTEM:\nA uniquely Japanese business practice where decisions are made through a bottom-up proposal system rather than top-down orders.\n\n{稟議書|りんぎしょ} (ringi document) typically includes:\n・{件名|けんめい} - subject\n・{目的|もくてき} - purpose\n・{内容|ないよう} - details\n・{予算|よさん} - budget\n・{効果|こうか} - expected benefits\n・{承認欄|しょうにんらん} - approval section (for stamps)\n\nCOMMON EXPRESSIONS:\n・{稟議|りんぎ}を{回|まわ}す - to circulate for approval\n・{稟議|りんぎ}を{通|とお}す - to get approval\n・{稟議|りんぎ}が{通|とお}る - the proposal is approved\n・{稟議|りんぎ}が{却下|きゃっか}される - the proposal is rejected\n\nCULTURAL NOTE:\nThe {稟議|りんぎ} system reflects Japanese corporate culture's emphasis on consensus building ({根回|ねまわ}し). Getting multiple stamps shows broad organizational support.",
@@ -41,10 +47,109 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["document", "business-process"],
-      "domain": ["business"]
+      "semantic": [
+        "document",
+        "business-process"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{稟議|りんぎ}する",
+        "negative": "{稟議|りんぎ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{稟議|りんぎ}します",
+        "negative": "{稟議|りんぎ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{稟議|りんぎ}した",
+        "negative": "{稟議|りんぎ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{稟議|りんぎ}しました",
+        "negative": "{稟議|りんぎ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{稟議|りんぎ}して",
+        "negative": "{稟議|りんぎ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{稟議|りんぎ}している",
+        "negative": "{稟議|りんぎ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{稟議|りんぎ}しています",
+        "negative": "{稟議|りんぎ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{稟議|りんぎ}していた",
+        "negative": "{稟議|りんぎ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{稟議|りんぎ}していました",
+        "negative": "{稟議|りんぎ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{稟議|りんぎ}すれば",
+        "negative": "{稟議|りんぎ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{稟議|りんぎ}したら",
+        "negative": "{稟議|りんぎ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{稟議|りんぎ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{稟議|りんぎ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{稟議|りんぎ}できる",
+        "negative": "{稟議|りんぎ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{稟議|りんぎ}される",
+        "negative": "{稟議|りんぎ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{稟議|りんぎ}させる",
+        "negative": "{稟議|りんぎ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{稟議|りんぎ}しろ",
+        "negative": "{稟議|りんぎ}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Please read the contract carefully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17535_jukudoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I assembled it after reading the instructions thoroughly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17535_jukudoku_ex3",
@@ -35,7 +39,9 @@
       "english": "This book is worth reading carefully many times.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word emphasizing careful, attentive reading. Often used in instructions telling the reader to read something thoroughly before proceeding. The {熟|じゅく} character conveys the meaning of \"thorough\" or \"mature.\"\n\nCOMMON COLLOCATIONS:\n- {熟読|じゅくどく}する (to read carefully)\n- {熟読|じゅくどく}{玩味|がんみ} (reading and savoring — a set phrase for deep appreciation)\n- ～を{熟読|じゅくどく}してください (please read ~ carefully)\n\nCONTRAST:\n- {速読|そくどく}: speed reading — reading quickly, the opposite approach\n- {拾|ひろ}い{読|よ}み: skimming, selective reading — only reading parts\n- {通読|つうどく}: reading through — reading from start to finish without deep analysis\n- {精読|せいどく}: close reading — very similar, slightly more academic",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{熟読|じゅくどく}する",
+        "negative": "{熟読|じゅくどく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{熟読|じゅくどく}します",
+        "negative": "{熟読|じゅくどく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{熟読|じゅくどく}した",
+        "negative": "{熟読|じゅくどく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{熟読|じゅくどく}しました",
+        "negative": "{熟読|じゅくどく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{熟読|じゅくどく}して",
+        "negative": "{熟読|じゅくどく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{熟読|じゅくどく}している",
+        "negative": "{熟読|じゅくどく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{熟読|じゅくどく}しています",
+        "negative": "{熟読|じゅくどく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{熟読|じゅくどく}していた",
+        "negative": "{熟読|じゅくどく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{熟読|じゅくどく}していました",
+        "negative": "{熟読|じゅくどく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{熟読|じゅくどく}すれば",
+        "negative": "{熟読|じゅくどく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{熟読|じゅくどく}したら",
+        "negative": "{熟読|じゅくどく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{熟読|じゅくどく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{熟読|じゅくどく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{熟読|じゅくどく}できる",
+        "negative": "{熟読|じゅくどく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{熟読|じゅくどく}される",
+        "negative": "{熟読|じゅくどく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{熟読|じゅくどく}させる",
+        "negative": "{熟読|じゅくどく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{熟読|じゅくどく}しろ",
+        "negative": "{熟読|じゅくどく}するな"
+      }
+    ]
   }
 }

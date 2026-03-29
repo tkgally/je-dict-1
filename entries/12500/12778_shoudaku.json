@@ -19,7 +19,9 @@
       "english": "I obtained consent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12778_shoudaku_ex2",
@@ -27,7 +29,9 @@
       "english": "You must not disclose personal information without the individual's consent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12778_shoudaku_ex3",
@@ -35,7 +39,9 @@
       "english": "It took time to get my boss's approval for the project.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{承諾|しょうだく} is a formal word for consent or agreement. It is commonly used in business, legal, and contractual contexts.\n\nCOMMON COLLOCATIONS:\n- {承諾|しょうだく}する: to consent, to agree\n- {承諾|しょうだく}を{得|え}る: to obtain consent\n- {承諾|しょうだく}を{求|もと}める: to seek consent\n- {承諾|しょうだく}{書|しょ}: written consent, consent form\n- {快|こころよ}く{承諾|しょうだく}する: to readily agree\n\nSIMILAR WORDS:\n- {同意|どうい}: agreement, consent (emphasizes shared understanding)\n- {了承|りょうしょう}: acknowledgment, acceptance (understanding and accepting)\n- {許可|きょか}: permission (official authorization)\n- {合意|ごうい}: mutual agreement (both parties reaching consensus)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{承諾|しょうだく}する",
+        "negative": "{承諾|しょうだく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{承諾|しょうだく}します",
+        "negative": "{承諾|しょうだく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{承諾|しょうだく}した",
+        "negative": "{承諾|しょうだく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{承諾|しょうだく}しました",
+        "negative": "{承諾|しょうだく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{承諾|しょうだく}して",
+        "negative": "{承諾|しょうだく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{承諾|しょうだく}している",
+        "negative": "{承諾|しょうだく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{承諾|しょうだく}しています",
+        "negative": "{承諾|しょうだく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{承諾|しょうだく}していた",
+        "negative": "{承諾|しょうだく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{承諾|しょうだく}していました",
+        "negative": "{承諾|しょうだく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{承諾|しょうだく}すれば",
+        "negative": "{承諾|しょうだく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{承諾|しょうだく}したら",
+        "negative": "{承諾|しょうだく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{承諾|しょうだく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{承諾|しょうだく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{承諾|しょうだく}できる",
+        "negative": "{承諾|しょうだく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{承諾|しょうだく}される",
+        "negative": "{承諾|しょうだく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{承諾|しょうだく}させる",
+        "negative": "{承諾|しょうだく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{承諾|しょうだく}しろ",
+        "negative": "{承諾|しょうだく}するな"
+      }
+    ]
   }
 }

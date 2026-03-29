@@ -24,7 +24,9 @@
       "english": "Watching the cat video made me feel warm and fuzzy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18058_nagomu_ex2",
@@ -32,7 +34,9 @@
       "english": "Children's smiles warm the heart.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18058_nagomu_ex3",
@@ -40,7 +44,9 @@
       "english": "Looking at flowers gradually makes me feel at ease.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18058_nagomu_ex4",
@@ -48,7 +54,9 @@
       "english": "His joke softened the atmosphere.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18058_nagomu_ex5",
@@ -56,7 +64,9 @@
       "english": "Chatting over tea makes the atmosphere relax.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "18058_nagomu_ex6",
@@ -64,7 +74,9 @@
       "english": "The tense meeting became relaxed thanks to the moderator.",
       "notes": "Uses the related adjective {和|なご}やか.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in casual conversation and on social media. Often used when seeing cute animals, babies, or heartwarming scenes. The phrase {和|なご}んだ or {和|なご}む〜 is a popular reaction online.\n\nRELATED FORMS:\n- {和|なご}やか (na-adjective): gentle, harmonious, peaceful\n- {和|なご}ませる: to soothe, to put at ease (transitive)\n\nCOMMON COLLOCATIONS:\n- {心|こころ}が{和|なご}む: the heart is soothed\n- {気持|きも}ちが{和|なご}む: one's feelings are calmed\n- {場|ば}が{和|なご}む: the atmosphere relaxes\n- {表情|ひょうじょう}が{和|なご}む: one's expression softens",
@@ -75,11 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{和|なご}む",
+        "negative": "{和|なご}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{和|なご}みます",
+        "negative": "{和|なご}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{和|なご}んだ",
+        "negative": "{和|なご}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{和|なご}みました",
+        "negative": "{和|なご}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{和|なご}んで",
+        "negative": "{和|なご}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{和|なご}んでいる",
+        "negative": "{和|なご}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{和|なご}んでいます",
+        "negative": "{和|なご}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{和|なご}んでいた",
+        "negative": "{和|なご}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{和|なご}んでいました",
+        "negative": "{和|なご}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{和|なご}めば",
+        "negative": "{和|なご}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{和|なご}んだら",
+        "negative": "{和|なご}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{和|なご}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{和|なご}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{和|なご}める",
+        "negative": "{和|なご}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{和|なご}まれる",
+        "negative": "{和|なご}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{和|なご}ませる",
+        "negative": "{和|なご}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{和|なご}め",
+        "negative": "{和|なご}むな"
+      }
+    ]
   }
 }

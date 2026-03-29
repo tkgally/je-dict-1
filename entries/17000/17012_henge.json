@@ -24,7 +24,9 @@
       "english": "I saw a fox's transformation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17012_henge_ex2",
@@ -32,7 +34,9 @@
       "english": "In folktales, raccoon dogs transform into humans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17012_henge_ex3",
@@ -40,7 +44,10 @@
       "english": "A rumor spread throughout the village that someone had seen a shape-shifting apparition near the old temple.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1, 2]
+      "sense_numbers": [
+        1,
+        2
+      ]
     },
     {
       "id": "17012_henge_ex4",
@@ -48,7 +55,9 @@
       "english": "That is the doing of a shape-shifting spirit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17012_henge_ex5",
@@ -56,7 +65,9 @@
       "english": "It is said that shape-shifting spirits live in this forest.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17012_henge_ex6",
@@ -64,7 +75,10 @@
       "english": "There are many Noh plays with the theme of supernatural transformation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1, 2]
+      "sense_numbers": [
+        1,
+        2
+      ]
     }
   ],
   "notes": "READING NOTE:\nThe same kanji {変化|へんか} read as へんか means ordinary change or alteration. The reading へんげ specifically refers to supernatural transformation in folklore and religion.\n\nCULTURE:\nIn Japanese folklore, foxes ({狐|きつね}) and raccoon dogs ({狸|たぬき}) are the most famous shape-shifting animals. Buddhist texts also use this term for manifestations of deities ({権化|ごんげ}).\n\nCOMMON COLLOCATIONS:\n- {変化|へんげ}の{術|じゅつ} (the art of transformation)\n- {変化|へんげ}する (to transform supernaturally)\n- {変化|へんげ}の{仕業|しわざ} (the doing of a shape-shifter)",
@@ -82,10 +96,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["folklore", "supernatural"]
+      "semantic": [
+        "folklore",
+        "supernatural"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{変化|へんげ}する",
+        "negative": "{変化|へんげ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{変化|へんげ}します",
+        "negative": "{変化|へんげ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{変化|へんげ}した",
+        "negative": "{変化|へんげ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{変化|へんげ}しました",
+        "negative": "{変化|へんげ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{変化|へんげ}して",
+        "negative": "{変化|へんげ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{変化|へんげ}している",
+        "negative": "{変化|へんげ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{変化|へんげ}しています",
+        "negative": "{変化|へんげ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{変化|へんげ}していた",
+        "negative": "{変化|へんげ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{変化|へんげ}していました",
+        "negative": "{変化|へんげ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{変化|へんげ}すれば",
+        "negative": "{変化|へんげ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{変化|へんげ}したら",
+        "negative": "{変化|へんげ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{変化|へんげ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{変化|へんげ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{変化|へんげ}できる",
+        "negative": "{変化|へんげ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{変化|へんげ}される",
+        "negative": "{変化|へんげ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{変化|へんげ}させる",
+        "negative": "{変化|へんげ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{変化|へんげ}しろ",
+        "negative": "{変化|へんげ}するな"
+      }
+    ]
   }
 }

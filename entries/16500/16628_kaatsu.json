@@ -19,7 +19,9 @@
       "english": "The airplane cabin is pressurized.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16628_kaatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Pressure training is popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16628_kaatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "It's a system that pressurizes water with a pump and sends it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in engineering, aviation, fitness, and medical contexts. {加圧|かあつ}トレーニング (pressure training) is a popular fitness method in Japan that restricts blood flow during exercise.\n\nCOMMON COLLOCATIONS:\n- {加圧|かあつ}する (to pressurize)\n- {加圧|かあつ}トレーニング (pressure/blood-flow restriction training)\n- {加圧|かあつ}{装置|そうち} (pressurization device)\n\nANTONYM:\n- {減圧|げんあつ}: depressurization, reducing pressure",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "fitness"]
+      "semantic": [
+        "science",
+        "fitness"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{加圧|かあつ}する",
+        "negative": "{加圧|かあつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{加圧|かあつ}します",
+        "negative": "{加圧|かあつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{加圧|かあつ}した",
+        "negative": "{加圧|かあつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{加圧|かあつ}しました",
+        "negative": "{加圧|かあつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{加圧|かあつ}して",
+        "negative": "{加圧|かあつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{加圧|かあつ}している",
+        "negative": "{加圧|かあつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{加圧|かあつ}しています",
+        "negative": "{加圧|かあつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{加圧|かあつ}していた",
+        "negative": "{加圧|かあつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{加圧|かあつ}していました",
+        "negative": "{加圧|かあつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{加圧|かあつ}すれば",
+        "negative": "{加圧|かあつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{加圧|かあつ}したら",
+        "negative": "{加圧|かあつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{加圧|かあつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{加圧|かあつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{加圧|かあつ}できる",
+        "negative": "{加圧|かあつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{加圧|かあつ}される",
+        "negative": "{加圧|かあつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{加圧|かあつ}させる",
+        "negative": "{加圧|かあつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{加圧|かあつ}しろ",
+        "negative": "{加圧|かあつ}するな"
+      }
+    ]
   }
 }

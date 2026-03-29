@@ -18,7 +18,9 @@
       "english": "I'm afraid I forgot. (humble/formal)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16319_shitsunen_ex2",
@@ -26,7 +28,9 @@
       "english": "I'm sorry, I've forgotten the name.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16319_shitsunen_ex3",
@@ -34,7 +38,9 @@
       "english": "I deeply apologize for having forgotten the date of the important meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{失念|しつねん} is a formal and somewhat humble way to say \"I forgot.\" It is most commonly used in business correspondence, emails, and formal spoken language. Using {失念|しつねん} instead of {忘|わす}れる shows self-awareness and politeness when admitting a mistake.\n\nREGISTER:\nThis is a formal word. In casual conversation, {忘|わす}れる is standard. {失念|しつねん} would sound stiff or overly formal among friends.\n\nSIMILAR WORDS:\n- {忘|わす}れる: to forget (everyday word)\n- {度忘|どわす}れ: a momentary lapse of memory, tip-of-the-tongue forgetting",
@@ -44,13 +50,111 @@
     "modified": "2026-03-12T01:21:34Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "domain": ["business"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "business"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
   },
-  "schema_version": "2.0"
+  "schema_version": "2.0",
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{失念|しつねん}する",
+        "negative": "{失念|しつねん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{失念|しつねん}します",
+        "negative": "{失念|しつねん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{失念|しつねん}した",
+        "negative": "{失念|しつねん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{失念|しつねん}しました",
+        "negative": "{失念|しつねん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{失念|しつねん}して",
+        "negative": "{失念|しつねん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{失念|しつねん}している",
+        "negative": "{失念|しつねん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{失念|しつねん}しています",
+        "negative": "{失念|しつねん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{失念|しつねん}していた",
+        "negative": "{失念|しつねん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{失念|しつねん}していました",
+        "negative": "{失念|しつねん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{失念|しつねん}すれば",
+        "negative": "{失念|しつねん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{失念|しつねん}したら",
+        "negative": "{失念|しつねん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{失念|しつねん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{失念|しつねん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{失念|しつねん}できる",
+        "negative": "{失念|しつねん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{失念|しつねん}される",
+        "negative": "{失念|しつねん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{失念|しつねん}させる",
+        "negative": "{失念|しつねん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{失念|しつねん}しろ",
+        "negative": "{失念|しつねん}するな"
+      }
+    ]
+  }
 }

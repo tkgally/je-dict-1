@@ -24,7 +24,9 @@
       "english": "To mount a horse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10639_matagaru_ex2",
@@ -32,7 +34,9 @@
       "english": "I got on the bicycle and set off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10639_matagaru_ex3",
@@ -40,7 +44,9 @@
       "english": "I waited at the traffic light while still straddling the motorcycle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10639_matagaru_ex4",
@@ -48,7 +54,9 @@
       "english": "To span two prefectures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10639_matagaru_ex5",
@@ -56,7 +64,9 @@
       "english": "The construction spanned three months.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10639_matagaru_ex6",
@@ -64,7 +74,9 @@
       "english": "This project is a large-scale one that spans multiple departments.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pattern: Xに{跨|また}がる.\n\nUSAGE:\nSense 1 takes the particle に to mark what is being straddled. Sense 2 also uses に to mark the range or boundary being spanned. Both senses share the core meaning of extending across something.\n\nCOMMON COLLOCATIONS:\n・{馬|うま}に{跨|また}がる (to mount a horse)\n・{自転車|じてんしゃ}に{跨|また}がる (to get on a bicycle)\n・{国境|こっきょう}に{跨|また}がる (to span a national border)\n・{複数|ふくすう}の{分野|ぶんや}に{跨|また}がる (to span multiple fields)",
@@ -75,12 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "verb_class": "godan-ru",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["position", "extent"]
+      "semantic": [
+        "position",
+        "extent"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{跨|また}がる",
+        "negative": "{跨|また}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{跨|また}がります",
+        "negative": "{跨|また}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{跨|また}がった",
+        "negative": "{跨|また}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{跨|また}がりました",
+        "negative": "{跨|また}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{跨|また}がって",
+        "negative": "{跨|また}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{跨|また}がっている",
+        "negative": "{跨|また}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{跨|また}がっています",
+        "negative": "{跨|また}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{跨|また}がっていた",
+        "negative": "{跨|また}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{跨|また}がっていました",
+        "negative": "{跨|また}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{跨|また}がれば",
+        "negative": "{跨|また}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{跨|また}がったら",
+        "negative": "{跨|また}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{跨|また}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{跨|また}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{跨|また}がれる",
+        "negative": "{跨|また}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{跨|また}がられる",
+        "negative": "{跨|また}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{跨|また}がらせる",
+        "negative": "{跨|また}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{跨|また}がれ",
+        "negative": "{跨|また}がるな"
+      }
+    ]
   }
 }

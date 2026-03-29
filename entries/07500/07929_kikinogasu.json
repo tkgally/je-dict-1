@@ -21,7 +21,9 @@
       "id": "07929_kikinogasu_ex1",
       "japanese": "{名前|なまえ}を{聞|き}き{逃|のが}した。",
       "english": "I missed hearing the name.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "07929_kikinogasu_ex2",
       "japanese": "{大事|だいじ}な{発表|はっぴょう}を{聞|き}き{逃|のが}さないでください。",
       "english": "Please don't miss the important announcement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "07929_kikinogasu_ex3",
       "japanese": "その{発言|はつげん}は{聞|き}き{逃|のが}せない。",
       "english": "That remark cannot be ignored.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "07929_kikinogasu_ex4",
       "japanese": "{騒|さわ}がしくて{アナウンス|あなうんす}を{聞|き}き{逃|のが}した。",
       "english": "It was noisy, so I missed the announcement.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "07929_kikinogasu_ex5",
       "japanese": "{失礼|しつれい}な{言葉|ことば}を{聞|き}き{逃|のが}すわけにはいかない。",
       "english": "I can't let such rude words slide.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "07929_kikinogasu_ex6",
       "japanese": "{電車|でんしゃ}の{中|なか}で{駅名|えきめい}を{聞|き}き{逃|のが}した。",
       "english": "I missed hearing the station name on the train.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -69,7 +81,9 @@
       "id": "07929_kikinogasu_ex7",
       "japanese": "{今|いま}の{言葉|ことば}は{聞|き}き{逃|のが}せないな。{撤回|てっかい}してくれ。",
       "english": "I can't let what you just said slide. Take it back.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -78,12 +92,109 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["hearing", "missing", "attention"]
+      "semantic": [
+        "hearing",
+        "missing",
+        "attention"
+      ],
+      "verb_class": "godan-su"
     },
     "created": "2026-01-22T12:05:56Z",
     "modified": "2026-03-18T00:31:21Z"
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{聞|き}き{逃|のが}す",
+        "negative": "{聞|き}き{逃|のが}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{聞|き}き{逃|のが}します",
+        "negative": "{聞|き}き{逃|のが}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{聞|き}き{逃|のが}した",
+        "negative": "{聞|き}き{逃|のが}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{聞|き}き{逃|のが}しました",
+        "negative": "{聞|き}き{逃|のが}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{聞|き}き{逃|のが}して",
+        "negative": "{聞|き}き{逃|のが}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{聞|き}き{逃|のが}している",
+        "negative": "{聞|き}き{逃|のが}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{聞|き}き{逃|のが}しています",
+        "negative": "{聞|き}き{逃|のが}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{聞|き}き{逃|のが}していた",
+        "negative": "{聞|き}き{逃|のが}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{聞|き}き{逃|のが}していました",
+        "negative": "{聞|き}き{逃|のが}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{聞|き}き{逃|のが}せば",
+        "negative": "{聞|き}き{逃|のが}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{聞|き}き{逃|のが}したら",
+        "negative": "{聞|き}き{逃|のが}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{聞|き}き{逃|のが}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{聞|き}き{逃|のが}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{聞|き}き{逃|のが}せる",
+        "negative": "{聞|き}き{逃|のが}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{聞|き}き{逃|のが}される",
+        "negative": "{聞|き}き{逃|のが}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{聞|き}き{逃|のが}させる",
+        "negative": "{聞|き}き{逃|のが}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{聞|き}き{逃|のが}せ",
+        "negative": "{聞|き}き{逃|のが}すな"
+      }
+    ]
   }
 }

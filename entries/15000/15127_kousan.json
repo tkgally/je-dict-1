@@ -19,7 +19,9 @@
       "english": "I give up!",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15127_kousan_ex2",
@@ -27,7 +29,9 @@
       "english": "I surrendered to this heat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15127_kousan_ex3",
@@ -35,7 +39,9 @@
       "english": "I finally gave up on the problem that I couldn't solve no matter how many times I tried.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{降参|こうさん} can express both literal surrender (in battle, competition) and figurative giving up (to heat, difficulty, a persistent person). In casual speech, もう{降参|こうさん}だ！ is a common way to express that one has had enough.\n\nCOMMON COLLOCATIONS:\n- {降参|こうさん}する (to surrender, to give in)\n- もう{降参|こうさん}だ (I give up already)\n- {降参|こうさん}させる (to make someone give in)\n- {暑|あつ}さに{降参|こうさん}する (to be defeated by the heat)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "emotion"]
+      "semantic": [
+        "action",
+        "emotion"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{降参|こうさん}する",
+        "negative": "{降参|こうさん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{降参|こうさん}します",
+        "negative": "{降参|こうさん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{降参|こうさん}した",
+        "negative": "{降参|こうさん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{降参|こうさん}しました",
+        "negative": "{降参|こうさん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{降参|こうさん}して",
+        "negative": "{降参|こうさん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{降参|こうさん}している",
+        "negative": "{降参|こうさん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{降参|こうさん}しています",
+        "negative": "{降参|こうさん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{降参|こうさん}していた",
+        "negative": "{降参|こうさん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{降参|こうさん}していました",
+        "negative": "{降参|こうさん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{降参|こうさん}すれば",
+        "negative": "{降参|こうさん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{降参|こうさん}したら",
+        "negative": "{降参|こうさん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{降参|こうさん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{降参|こうさん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{降参|こうさん}できる",
+        "negative": "{降参|こうさん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{降参|こうさん}される",
+        "negative": "{降参|こうさん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{降参|こうさん}させる",
+        "negative": "{降参|こうさん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{降参|こうさん}しろ",
+        "negative": "{降参|こうさん}するな"
+      }
+    ]
   }
 }

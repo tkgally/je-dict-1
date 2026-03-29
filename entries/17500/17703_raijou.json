@@ -19,7 +19,9 @@
       "english": "Thank you for coming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17703_raijou_ex2",
@@ -27,7 +29,9 @@
       "english": "The number of visitors exceeded thirty thousand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17703_raijou_ex3",
@@ -35,7 +39,9 @@
       "english": "Advance reservations are required to visit the venue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{来場|らいじょう} is a formal word used in announcements, signage, and written communication at events, exhibitions, concerts, and commercial venues. It is rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- ご{来場|らいじょう}ください (please come/attend)\n- {来場者|らいじょうしゃ} (visitor, attendee)\n- {来場|らいじょう}{特典|とくてん} (visitor bonus/gift)\n- {来場|らいじょう}{予約|よやく} (attendance reservation)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["event"]
+      "semantic": [
+        "event"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{来場|らいじょう}する",
+        "negative": "{来場|らいじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{来場|らいじょう}します",
+        "negative": "{来場|らいじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{来場|らいじょう}した",
+        "negative": "{来場|らいじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{来場|らいじょう}しました",
+        "negative": "{来場|らいじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{来場|らいじょう}して",
+        "negative": "{来場|らいじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{来場|らいじょう}している",
+        "negative": "{来場|らいじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{来場|らいじょう}しています",
+        "negative": "{来場|らいじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{来場|らいじょう}していた",
+        "negative": "{来場|らいじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{来場|らいじょう}していました",
+        "negative": "{来場|らいじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{来場|らいじょう}すれば",
+        "negative": "{来場|らいじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{来場|らいじょう}したら",
+        "negative": "{来場|らいじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{来場|らいじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{来場|らいじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{来場|らいじょう}できる",
+        "negative": "{来場|らいじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{来場|らいじょう}される",
+        "negative": "{来場|らいじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{来場|らいじょう}させる",
+        "negative": "{来場|らいじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{来場|らいじょう}しろ",
+        "negative": "{来場|らいじょう}するな"
+      }
+    ]
   }
 }

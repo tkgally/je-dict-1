@@ -27,63 +27,81 @@
       "japanese": "{早|はや}めに{手|て}を{打|う}った。",
       "english": "I took early action.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07450_tewoutsu_ex2",
       "japanese": "{被害|ひがい}が{広|ひろ}がる{前|まえ}に{手|て}を{打|う}たなければならない。",
       "english": "We must take measures before the damage spreads.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07450_tewoutsu_ex3",
       "japanese": "{何|なん}らかの{手|て}を{打|う}たないと、{状況|じょうきょう}はさらに{悪化|あっか}するだろう。",
       "english": "If we don't take some kind of action, the situation will only get worse.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07450_tewoutsu_ex4",
       "japanese": "この{条件|じょうけん}で{手|て}を{打|う}とう。",
       "english": "Let's strike a deal on these terms.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07450_tewoutsu_ex5",
       "japanese": "この{辺|へん}りで{手|て}を{打|う}ちませんか。",
       "english": "Shall we settle around here?",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07450_tewoutsu_ex6",
       "japanese": "{双方|そうほう}が{譲歩|じょうほ}して、ようやく{手|て}を{打|う}つことができた。",
       "english": "Both sides made concessions, and they were finally able to reach an agreement.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "07450_tewoutsu_ex7",
       "japanese": "{手|て}を{打|う}って{喜|よろこ}んだ。",
       "english": "I clapped my hands with joy.",
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "07450_tewoutsu_ex8",
       "japanese": "{観客|かんきゃく}は{手|て}を{打|う}って{盛|も}り{上|あ}がった。",
       "english": "The audience clapped their hands with excitement.",
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "07450_tewoutsu_ex9",
       "japanese": "{子供|こども}たちが{手|て}を{打|う}ちながら{歌|うた}っていた。",
       "english": "The children were singing while clapping their hands.",
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "IDIOM STRUCTURE:\n{手|て} (hand) + を + {打|う}つ (to strike/hit)\n\nMULTIPLE MEANINGS:\nThis expression has distinct meanings based on context:\n\n1. TAKE MEASURES:\n・{手|て}を{打|う}つ - to take action/countermeasures\n・{先手|せんて}を{打|う}つ - to make the first move\n・{早|はや}めに{手|て}を{打|う}つ - to take early action\n\n2. STRIKE A DEAL:\nOriginates from the custom of clapping hands together to seal an agreement.\n・この{辺|へん}で{手|て}を{打|う}つ - to settle around here\n・{手|て}を{打|う}って{合意|ごうい}する - to reach a handshake agreement\n\n3. CLAP HANDS (literal):\n・{手|て}を{打|う}って{喜|よろこ}ぶ - to clap hands in joy\n・{三三七拍子|さんさんななびょうし}で{手|て}を{打|う}つ - to clap in 3-3-7 rhythm\n\nCOMMON COLLOCATIONS:\n・{対策|たいさく}の{手|て}を{打|う}つ - to take countermeasures\n・{何|なん}らかの{手|て}を{打|う}つ - to take some kind of action\n・{適切|てきせつ}な{手|て}を{打|う}つ - to take appropriate measures\n\nREGISTER:\nNeutral. Common in business and everyday contexts.",
@@ -93,10 +111,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression", "action"]
+      "semantic": [
+        "expression",
+        "action"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{手|て}を{打|う}つ",
+        "negative": "{手|て}を{打|う}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{手|て}を{打|う}ちます",
+        "negative": "{手|て}を{打|う}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{手|て}を{打|う}った",
+        "negative": "{手|て}を{打|う}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{手|て}を{打|う}ちました",
+        "negative": "{手|て}を{打|う}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{手|て}を{打|う}って",
+        "negative": "{手|て}を{打|う}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{手|て}を{打|う}っている",
+        "negative": "{手|て}を{打|う}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{手|て}を{打|う}っています",
+        "negative": "{手|て}を{打|う}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{手|て}を{打|う}っていた",
+        "negative": "{手|て}を{打|う}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{手|て}を{打|う}っていました",
+        "negative": "{手|て}を{打|う}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{手|て}を{打|う}てば",
+        "negative": "{手|て}を{打|う}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{手|て}を{打|う}ったら",
+        "negative": "{手|て}を{打|う}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{手|て}を{打|う}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{手|て}を{打|う}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{手|て}を{打|う}てる",
+        "negative": "{手|て}を{打|う}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{手|て}を{打|う}たれる",
+        "negative": "{手|て}を{打|う}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{手|て}を{打|う}たせる",
+        "negative": "{手|て}を{打|う}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{手|て}を{打|う}て",
+        "negative": "{手|て}を{打|う}つな"
+      }
+    ]
   }
 }

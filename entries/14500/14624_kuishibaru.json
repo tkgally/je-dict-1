@@ -19,7 +19,9 @@
       "english": "I gritted my teeth and endured it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14624_kuishibaru_ex2",
@@ -27,7 +29,9 @@
       "english": "Gritting my teeth against the pain, I kept running to the finish line.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14624_kuishibaru_ex3",
@@ -35,7 +39,9 @@
       "english": "I was so frustrated I nearly cried, but I gritted my teeth and held back the tears.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used in the phrase {歯|は}を{食|く}いしばる. The figurative meaning of enduring hardship with determination is very common and carries a strong emotional tone of perseverance.\n\nCONJUGATION:\nGodan verb (る → ら/り/る/れ/ろ): {食|く}いしばらない, {食|く}いしばります, {食|く}いしばる, {食|く}いしばれば, {食|く}いしばろう\n\nCOMMON COLLOCATIONS:\n- {歯|は}を{食|く}いしばる (to clench/grit one's teeth)\n- {歯|は}を{食|く}いしばって{耐|た}える (to grit one's teeth and endure)\n- {歯|は}を{食|く}いしばって{頑張|がんば}る (to grit one's teeth and persevere)\n\nSIMILAR WORDS:\n- {食|く}いしばる: to clench teeth (endurance, determination)\n- {噛|か}みしめる: to bite down on; to savor (can be physical or emotional)\n- {我慢|がまん}する: to endure, to put up with (broader, no physical image)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{食|く}いしばる",
+        "negative": "{食|く}いしばらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{食|く}いしばります",
+        "negative": "{食|く}いしばりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{食|く}いしばった",
+        "negative": "{食|く}いしばらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{食|く}いしばりました",
+        "negative": "{食|く}いしばりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{食|く}いしばって",
+        "negative": "{食|く}いしばらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{食|く}いしばっている",
+        "negative": "{食|く}いしばっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{食|く}いしばっています",
+        "negative": "{食|く}いしばっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{食|く}いしばっていた",
+        "negative": "{食|く}いしばっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{食|く}いしばっていました",
+        "negative": "{食|く}いしばっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{食|く}いしばれば",
+        "negative": "{食|く}いしばらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{食|く}いしばったら",
+        "negative": "{食|く}いしばらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{食|く}いしばろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{食|く}いしばりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{食|く}いしばれる",
+        "negative": "{食|く}いしばれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{食|く}いしばられる",
+        "negative": "{食|く}いしばられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{食|く}いしばらせる",
+        "negative": "{食|く}いしばらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{食|く}いしばれ",
+        "negative": "{食|く}いしばるな"
+      }
+    ]
   }
 }

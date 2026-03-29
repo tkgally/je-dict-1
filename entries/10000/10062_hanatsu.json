@@ -28,7 +28,9 @@
       "english": "I aimed at the target and shot an arrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10062_hanatsu_ex2",
@@ -36,7 +38,9 @@
       "english": "To release a bird into the sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10062_hanatsu_ex3",
@@ -44,7 +48,9 @@
       "english": "To emit light.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "10062_hanatsu_ex4",
@@ -52,7 +58,9 @@
       "english": "It's giving off a strong fragrance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{放|はな}つ.\n\nCOMMON PATTERNS:\n・{矢|や}を{放|はな}つ (to shoot an arrow)\n・{光|ひかり}を{放|はな}つ (to emit light)\n・{香|かお}りを{放|はな}つ (to give off a fragrance)\n・{野|の}に{放|はな}つ (to release into the wild)\n\nRELATED:\n・{放|はな}す - to release, to let go (similar meaning but different nuance)\n・{解|かい}{放|ほう} - liberation, release",
@@ -63,11 +71,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{放|はな}つ",
+        "negative": "{放|はな}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{放|はな}ちます",
+        "negative": "{放|はな}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{放|はな}った",
+        "negative": "{放|はな}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{放|はな}ちました",
+        "negative": "{放|はな}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{放|はな}って",
+        "negative": "{放|はな}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{放|はな}っている",
+        "negative": "{放|はな}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{放|はな}っています",
+        "negative": "{放|はな}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{放|はな}っていた",
+        "negative": "{放|はな}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{放|はな}っていました",
+        "negative": "{放|はな}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{放|はな}てば",
+        "negative": "{放|はな}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{放|はな}ったら",
+        "negative": "{放|はな}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{放|はな}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{放|はな}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{放|はな}てる",
+        "negative": "{放|はな}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{放|はな}たれる",
+        "negative": "{放|はな}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{放|はな}たせる",
+        "negative": "{放|はな}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{放|はな}て",
+        "negative": "{放|はな}つな"
+      }
+    ]
   }
 }

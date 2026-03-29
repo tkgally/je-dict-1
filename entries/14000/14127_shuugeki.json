@@ -19,7 +19,9 @@
       "english": "The bank was attacked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14127_shuugeki_ex2",
@@ -27,7 +29,9 @@
       "english": "Security was strengthened in preparation for an enemy raid.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14127_shuugeki_ex3",
@@ -35,7 +39,9 @@
       "english": "The village that was attacked late at night suffered heavy damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{襲撃|しゅうげき} implies a sudden, often violent attack. Compare with {攻撃|こうげき} (attack in general, including sustained military operations), which is broader in scope. {襲撃|しゅうげき} emphasizes the surprise or sudden nature of the assault.\n\nCOMMON COLLOCATIONS:\n- {襲撃|しゅうげき}する: to attack, to raid\n- {襲撃|しゅうげき}を{受|う}ける: to be attacked\n- {襲撃|しゅうげき}{事件|じけん}: attack incident\n- {襲撃|しゅうげき}に{備|そな}える: to prepare for an attack\n- テロ{襲撃|しゅうげき}: terrorist attack",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{襲撃|しゅうげき}する",
+        "negative": "{襲撃|しゅうげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{襲撃|しゅうげき}します",
+        "negative": "{襲撃|しゅうげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{襲撃|しゅうげき}した",
+        "negative": "{襲撃|しゅうげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{襲撃|しゅうげき}しました",
+        "negative": "{襲撃|しゅうげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{襲撃|しゅうげき}して",
+        "negative": "{襲撃|しゅうげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{襲撃|しゅうげき}している",
+        "negative": "{襲撃|しゅうげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{襲撃|しゅうげき}しています",
+        "negative": "{襲撃|しゅうげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{襲撃|しゅうげき}していた",
+        "negative": "{襲撃|しゅうげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{襲撃|しゅうげき}していました",
+        "negative": "{襲撃|しゅうげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{襲撃|しゅうげき}すれば",
+        "negative": "{襲撃|しゅうげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{襲撃|しゅうげき}したら",
+        "negative": "{襲撃|しゅうげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{襲撃|しゅうげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{襲撃|しゅうげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{襲撃|しゅうげき}できる",
+        "negative": "{襲撃|しゅうげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{襲撃|しゅうげき}される",
+        "negative": "{襲撃|しゅうげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{襲撃|しゅうげき}させる",
+        "negative": "{襲撃|しゅうげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{襲撃|しゅうげき}しろ",
+        "negative": "{襲撃|しゅうげき}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "After the probationary period, I became a permanent employee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13444_honsaiyou_ex2",
@@ -27,7 +29,9 @@
       "english": "Permanent employment is decided after a three-month probationary period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13444_honsaiyou_ex3",
@@ -35,7 +39,9 @@
       "english": "Once permanently hired, you become eligible for social insurance and bonuses.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nContrasts with {試用|しよう} (probationary/trial) employment. In Japanese companies, most new hires go through a {試用期間|しようきかん} (probationary period), typically three to six months, before {本採用|ほんさいよう} is confirmed. {本採用|ほんさいよう} means the employee is now a {正社員|せいしゃいん} (full-time permanent employee) with all associated benefits.\n\nGRAMMAR:\nAlso used as a する verb: {本採用|ほんさいよう}する (to hire permanently). The passive form {本採用|ほんさいよう}される (to be permanently hired) is common.\n\nCOMMON COLLOCATIONS:\n- {本採用|ほんさいよう}になる: to become permanently employed\n- {本採用|ほんさいよう}が{決|き}まる: permanent hire is confirmed\n- {本採用|ほんさいよう}を{見送|みおく}る: to defer/decline permanent hire",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{本採用|ほんさいよう}する",
+        "negative": "{本採用|ほんさいよう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{本採用|ほんさいよう}します",
+        "negative": "{本採用|ほんさいよう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{本採用|ほんさいよう}した",
+        "negative": "{本採用|ほんさいよう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{本採用|ほんさいよう}しました",
+        "negative": "{本採用|ほんさいよう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{本採用|ほんさいよう}して",
+        "negative": "{本採用|ほんさいよう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{本採用|ほんさいよう}している",
+        "negative": "{本採用|ほんさいよう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{本採用|ほんさいよう}しています",
+        "negative": "{本採用|ほんさいよう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{本採用|ほんさいよう}していた",
+        "negative": "{本採用|ほんさいよう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{本採用|ほんさいよう}していました",
+        "negative": "{本採用|ほんさいよう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{本採用|ほんさいよう}すれば",
+        "negative": "{本採用|ほんさいよう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{本採用|ほんさいよう}したら",
+        "negative": "{本採用|ほんさいよう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{本採用|ほんさいよう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{本採用|ほんさいよう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{本採用|ほんさいよう}できる",
+        "negative": "{本採用|ほんさいよう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{本採用|ほんさいよう}される",
+        "negative": "{本採用|ほんさいよう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{本採用|ほんさいよう}させる",
+        "negative": "{本採用|ほんさいよう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{本採用|ほんさいよう}しろ",
+        "negative": "{本採用|ほんさいよう}するな"
+      }
+    ]
   }
 }

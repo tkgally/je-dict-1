@@ -17,21 +17,27 @@
       "japanese": "もたもたしてると{遅刻|ちこく}するよ。",
       "english": "If you keep dilly-dallying, you'll be late.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07515_motamota_ex2",
       "japanese": "もたもたしないで{早|はや}く{準備|じゅんび}して。",
       "english": "Stop dawdling and get ready quickly.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07515_motamota_ex3",
       "japanese": "{彼|かれ}のもたもたした{動|うご}きにイライラした。",
       "english": "I got irritated by his sluggish movements.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "MIMETIC TYPE:\nOnomatopoeia expressing slow, inefficient movement or action.\n\nGRAMMATICAL FORMS:\n・もたもたする - to dawdle, be slow (suru-verb)\n・もたもた（と）{動|うご}く - to move sluggishly\n・もたもたした - sluggish (adjectival)\n\nNUANCE:\nUsually carries a negative connotation, implying the person is being annoyingly slow or wasting time. Often used when urging someone to hurry.\n\nSIMILAR EXPRESSIONS:\n・ぐずぐずする - to dawdle, procrastinate\n・のろのろ - slowly (more neutral)\n・てきぱき - briskly, efficiently (opposite)",
@@ -41,9 +47,105 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "verb-suru"],
+      "pos": [
+        "adverb",
+        "verb-suru"
+      ],
       "formality": "informal",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "もたもたする",
+        "negative": "もたもたしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "もたもたします",
+        "negative": "もたもたしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "もたもたした",
+        "negative": "もたもたしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "もたもたしました",
+        "negative": "もたもたしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "もたもたして",
+        "negative": "もたもたしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "もたもたしている",
+        "negative": "もたもたしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "もたもたしています",
+        "negative": "もたもたしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "もたもたしていた",
+        "negative": "もたもたしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "もたもたしていました",
+        "negative": "もたもたしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "もたもたすれば",
+        "negative": "もたもたしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "もたもたしたら",
+        "negative": "もたもたしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "もたもたしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "もたもたしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "もたもたできる",
+        "negative": "もたもたできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "もたもたされる",
+        "negative": "もたもたされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "もたもたさせる",
+        "negative": "もたもたさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "もたもたしろ",
+        "negative": "もたもたするな"
+      }
+    ]
   }
 }

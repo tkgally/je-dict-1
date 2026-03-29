@@ -19,7 +19,9 @@
       "english": "Please take care of your health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15302_taichoukanri_ex2",
@@ -27,7 +29,9 @@
       "english": "Health management is fundamental for working adults.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15302_taichoukanri_ex3",
@@ -35,7 +39,9 @@
       "english": "Especially before exams, I want to manage my health carefully and face them in top condition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\n{体調管理|たいちょうかんり} is considered a personal responsibility in Japanese society. In workplaces, employees are expected to manage their own health so as not to burden colleagues. The phrase {体調管理|たいちょうかんり}も{仕事|しごと}のうち (health management is part of the job) reflects this cultural attitude.\n\nCOMMON COLLOCATIONS:\n- {体調管理|たいちょうかんり}に{気|き}をつける (to pay attention to one's health)\n- {体調管理|たいちょうかんり}を{徹底|てってい}する (to be thorough about health management)\n- {体調管理|たいちょうかんり}が{大切|たいせつ} (health management is important)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health", "daily-life"]
+      "semantic": [
+        "health",
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{体調管理|たいちょうかんり}する",
+        "negative": "{体調管理|たいちょうかんり}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{体調管理|たいちょうかんり}します",
+        "negative": "{体調管理|たいちょうかんり}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{体調管理|たいちょうかんり}した",
+        "negative": "{体調管理|たいちょうかんり}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{体調管理|たいちょうかんり}しました",
+        "negative": "{体調管理|たいちょうかんり}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{体調管理|たいちょうかんり}して",
+        "negative": "{体調管理|たいちょうかんり}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{体調管理|たいちょうかんり}している",
+        "negative": "{体調管理|たいちょうかんり}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{体調管理|たいちょうかんり}しています",
+        "negative": "{体調管理|たいちょうかんり}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{体調管理|たいちょうかんり}していた",
+        "negative": "{体調管理|たいちょうかんり}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{体調管理|たいちょうかんり}していました",
+        "negative": "{体調管理|たいちょうかんり}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{体調管理|たいちょうかんり}すれば",
+        "negative": "{体調管理|たいちょうかんり}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{体調管理|たいちょうかんり}したら",
+        "negative": "{体調管理|たいちょうかんり}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{体調管理|たいちょうかんり}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{体調管理|たいちょうかんり}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{体調管理|たいちょうかんり}できる",
+        "negative": "{体調管理|たいちょうかんり}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{体調管理|たいちょうかんり}される",
+        "negative": "{体調管理|たいちょうかんり}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{体調管理|たいちょうかんり}させる",
+        "negative": "{体調管理|たいちょうかんり}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{体調管理|たいちょうかんり}しろ",
+        "negative": "{体調管理|たいちょうかんり}するな"
+      }
+    ]
   }
 }

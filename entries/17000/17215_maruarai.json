@@ -19,7 +19,9 @@
       "english": "This futon can be washed whole.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17215_maruarai_ex2",
@@ -27,7 +29,9 @@
       "english": "I sent my coat out for a full wash.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17215_maruarai_ex3",
@@ -35,7 +39,9 @@
       "english": "The kids' shoes got covered in mud, so I gave them a full wash.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed both as a noun ({丸洗|まるあら}い) and as a verb with する ({丸洗|まるあら}いする). Often appears on product labels to indicate that an item can be machine-washed whole.\n\nWORD FORMATION:\n{丸|まる} (whole, entire) + {洗|あら}い (washing). The {丸|まる} prefix means 'completely' or 'as a whole.'\n\nCOMMON COLLOCATIONS:\n- {丸洗|まるあら}いOK / {丸洗|まるあら}い{可|か} (machine-washable / can be fully washed)\n- {布団|ふとん}の{丸洗|まるあら}い (full washing of a futon)\n- {丸洗|まるあら}いに{出|だ}す (to send out for full washing)\n\nSIMILAR WORDS:\n- {水洗|みずあら}い: washing with water — focuses on the method (water) rather than completeness",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "cleaning"]
+      "semantic": [
+        "daily-life",
+        "cleaning"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{丸洗|まるあら}いする",
+        "negative": "{丸洗|まるあら}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{丸洗|まるあら}いします",
+        "negative": "{丸洗|まるあら}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{丸洗|まるあら}いした",
+        "negative": "{丸洗|まるあら}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{丸洗|まるあら}いしました",
+        "negative": "{丸洗|まるあら}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{丸洗|まるあら}いして",
+        "negative": "{丸洗|まるあら}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{丸洗|まるあら}いしている",
+        "negative": "{丸洗|まるあら}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{丸洗|まるあら}いしています",
+        "negative": "{丸洗|まるあら}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{丸洗|まるあら}いしていた",
+        "negative": "{丸洗|まるあら}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{丸洗|まるあら}いしていました",
+        "negative": "{丸洗|まるあら}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{丸洗|まるあら}いすれば",
+        "negative": "{丸洗|まるあら}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{丸洗|まるあら}いしたら",
+        "negative": "{丸洗|まるあら}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{丸洗|まるあら}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{丸洗|まるあら}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{丸洗|まるあら}いできる",
+        "negative": "{丸洗|まるあら}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{丸洗|まるあら}いされる",
+        "negative": "{丸洗|まるあら}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{丸洗|まるあら}いさせる",
+        "negative": "{丸洗|まるあら}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{丸洗|まるあら}いしろ",
+        "negative": "{丸洗|まるあら}いするな"
+      }
+    ]
   }
 }

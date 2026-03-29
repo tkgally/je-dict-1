@@ -163,7 +163,8 @@ All verb entries must include these tags in `metadata.tags`:
 
 - [ ] **All kanji have furigana** (headword, examples, AND notes)
 - [ ] Verify: `python3 build/verify_furigana.py <entry_id>` shows "✓ OK"
-- [ ] **Tags complete**: pos, transitivity, formality, politeness, semantic
+- [ ] **Tags complete**: pos, transitivity, verb_class, formality, politeness, semantic
+- [ ] **Conjugation field present** with full forms (see `verb-conjugations` skill)
 - [ ] Transitivity clearly marked (自動詞/他動詞)
 - [ ] Pair verb identified (if exists)
 - [ ] Aspect/ている behavior explained

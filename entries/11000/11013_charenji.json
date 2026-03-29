@@ -19,7 +19,9 @@
       "english": "To try something new.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11013_charenji_ex2",
@@ -27,7 +29,9 @@
       "english": "I attempted a marathon for the first time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11013_charenji_ex3",
@@ -35,7 +39,9 @@
       "english": "It's important to keep trying no matter how many times you fail.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "MEANING SHIFT:\nIn English, \"challenge\" often implies confrontation or difficulty. In Japanese, チャレンジ carries a strongly positive connotation of bravely attempting something new or difficult. It is closer in meaning to \"attempt\" or \"try\" than to \"confront.\"\n\nGRAMMAR:\nUsed with する or に: チャレンジする (to take on a challenge), 〜にチャレンジする (to attempt/try ~).\n\nCOMMON COLLOCATIONS:\n- {新|あたら}しいことにチャレンジする: to try something new\n- チャレンジ{精神|せいしん}: spirit of challenge/adventure\n- チャレンジする{価値|かち}がある: worth trying\n- {何度|なんど}もチャレンジする: to try again and again",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "チャレンジする",
+        "negative": "チャレンジしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "チャレンジします",
+        "negative": "チャレンジしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "チャレンジした",
+        "negative": "チャレンジしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "チャレンジしました",
+        "negative": "チャレンジしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "チャレンジして",
+        "negative": "チャレンジしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "チャレンジしている",
+        "negative": "チャレンジしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "チャレンジしています",
+        "negative": "チャレンジしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "チャレンジしていた",
+        "negative": "チャレンジしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "チャレンジしていました",
+        "negative": "チャレンジしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "チャレンジすれば",
+        "negative": "チャレンジしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "チャレンジしたら",
+        "negative": "チャレンジしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "チャレンジしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "チャレンジしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "チャレンジできる",
+        "negative": "チャレンジできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "チャレンジされる",
+        "negative": "チャレンジされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "チャレンジさせる",
+        "negative": "チャレンジさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "チャレンジしろ",
+        "negative": "チャレンジするな"
+      }
+    ]
   }
 }

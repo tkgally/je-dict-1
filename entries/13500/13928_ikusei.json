@@ -19,7 +19,9 @@
       "english": "Put effort into developing young players.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13928_ikusei_ex2",
@@ -27,7 +29,9 @@
       "english": "Human resource development determines a company's future.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13928_ikusei_ex3",
@@ -35,7 +39,9 @@
       "english": "This training program aims to develop the next generation of leaders.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTE:\nA formal word commonly used in business, sports, education, and government contexts. More systematic and institutional in nuance than {育|そだ}てる, which is the everyday verb for raising/nurturing.\n\nCOMMON COLLOCATIONS:\n- {人材|じんざい}{育成|いくせい} (human resource development)\n- {選手|せんしゅ}{育成|いくせい} (player development)\n- {育成|いくせい}{計画|けいかく} (development plan)\n- {育成|いくせい}プログラム (development program)\n- {後進|こうしん}の{育成|いくせい} (training successors)\n\nSIMILAR WORDS:\n- {養成|ようせい}: training, development (specifically for producing qualified professionals)\n- {教育|きょういく}: education (broader; includes general schooling)\n- {育|そだ}てる: raise, bring up (everyday verb; less formal and more personal)",
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{育成|いくせい}する",
+        "negative": "{育成|いくせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{育成|いくせい}します",
+        "negative": "{育成|いくせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{育成|いくせい}した",
+        "negative": "{育成|いくせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{育成|いくせい}しました",
+        "negative": "{育成|いくせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{育成|いくせい}して",
+        "negative": "{育成|いくせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{育成|いくせい}している",
+        "negative": "{育成|いくせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{育成|いくせい}しています",
+        "negative": "{育成|いくせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{育成|いくせい}していた",
+        "negative": "{育成|いくせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{育成|いくせい}していました",
+        "negative": "{育成|いくせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{育成|いくせい}すれば",
+        "negative": "{育成|いくせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{育成|いくせい}したら",
+        "negative": "{育成|いくせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{育成|いくせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{育成|いくせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{育成|いくせい}できる",
+        "negative": "{育成|いくせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{育成|いくせい}される",
+        "negative": "{育成|いくせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{育成|いくせい}させる",
+        "negative": "{育成|いくせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{育成|いくせい}しろ",
+        "negative": "{育成|いくせい}するな"
+      }
+    ]
   }
 }

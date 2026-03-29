@@ -19,7 +19,9 @@
       "english": "A doctor who happened to be there helped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12394_iawaseru_ex2",
@@ -27,7 +29,9 @@
       "english": "A person who happened to be at the scene of the accident gave testimony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12394_iawaseru_ex3",
@@ -35,7 +39,9 @@
       "english": "I was surprised to find myself in the same restaurant as a celebrity while having dinner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nIchidan verb ({一段動詞|いちだんどうし}).\n- Negative: {居合|いあ}わせない\n- Polite: {居合|いあ}わせます\n- Te-form: {居合|いあ}わせて\n- Past: {居合|いあ}わせた\n\nUSAGE:\n{居合|いあ}わせる most commonly appears in the past tense ({居合|いあ}わせた) as a relative clause modifying a person: {居合|いあ}わせた{人|ひと} (a person who happened to be there). It is frequently used in news reports about accidents, crimes, and emergencies.\n\nCOMMON COLLOCATIONS:\n- {偶然|ぐうぜん}{居合|いあ}わせる: to happen to be present by chance\n- {現場|げんば}に{居合|いあ}わせる: to be present at the scene\n- {居合|いあ}わせた{人|ひと}: a bystander, a person who happened to be there",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{居合|いあ}わせる",
+        "negative": "{居合|いあ}わせない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{居合|いあ}わせます",
+        "negative": "{居合|いあ}わせません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{居合|いあ}わせた",
+        "negative": "{居合|いあ}わせなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{居合|いあ}わせました",
+        "negative": "{居合|いあ}わせませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{居合|いあ}わせて",
+        "negative": "{居合|いあ}わせなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{居合|いあ}わせている",
+        "negative": "{居合|いあ}わせていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{居合|いあ}わせています",
+        "negative": "{居合|いあ}わせていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{居合|いあ}わせていた",
+        "negative": "{居合|いあ}わせていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{居合|いあ}わせていました",
+        "negative": "{居合|いあ}わせていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{居合|いあ}わせれば",
+        "negative": "{居合|いあ}わせなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{居合|いあ}わせたら",
+        "negative": "{居合|いあ}わせなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{居合|いあ}わせよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{居合|いあ}わせましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{居合|いあ}わせられる",
+        "negative": "{居合|いあ}わせられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{居合|いあ}わせられる",
+        "negative": "{居合|いあ}わせられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{居合|いあ}わせさせる",
+        "negative": "{居合|いあ}わせさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{居合|いあ}わせろ",
+        "negative": "{居合|いあ}わせるな"
+      }
+    ]
   }
 }

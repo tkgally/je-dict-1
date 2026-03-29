@@ -24,7 +24,9 @@
       "english": "I live in a town that borders the sea.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12920_sessuru_ex2",
@@ -32,7 +34,9 @@
       "english": "Opportunities to encounter foreign culture have increased.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12920_sessuru_ex3",
@@ -40,7 +44,9 @@
       "english": "Being in contact with nature heals the mind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12920_sessuru_ex4",
@@ -48,7 +54,9 @@
       "english": "To treat customers politely.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12920_sessuru_ex5",
@@ -56,7 +64,9 @@
       "english": "Please be gentle with the children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12920_sessuru_ex6",
@@ -64,7 +74,9 @@
       "english": "He is someone who treats everyone fairly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA special-class suru verb (not noun + する). Conjugates as {接|せっ}する, {接|せっ}して, {接|せっ}した. Sense 1 covers both physical adjacency and figurative contact (encountering culture, nature, art). Sense 2 focuses on interpersonal treatment and is very common in business and customer service contexts.\n\nCOMMON COLLOCATIONS:\n- ～に{接|せっ}する: to border, to be adjacent to; to come into contact with\n- {人|ひと}に{接|せっ}する: to deal with people\n- {態度|たいど}で{接|せっ}する: to treat with a certain attitude\n\nSIMILAR WORDS:\n- {触|ふ}れる: to touch (physical contact; also figurative)\n- {隣接|りんせつ}する: to be adjacent (more formal, physical only)",
@@ -75,11 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "both",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "communication"]
+      "semantic": [
+        "action",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{接|せっ}する",
+        "negative": "{接|せっ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{接|せっ}します",
+        "negative": "{接|せっ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{接|せっ}した",
+        "negative": "{接|せっ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{接|せっ}しました",
+        "negative": "{接|せっ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{接|せっ}して",
+        "negative": "{接|せっ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{接|せっ}している",
+        "negative": "{接|せっ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{接|せっ}しています",
+        "negative": "{接|せっ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{接|せっ}していた",
+        "negative": "{接|せっ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{接|せっ}していました",
+        "negative": "{接|せっ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{接|せっ}すれば",
+        "negative": "{接|せっ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{接|せっ}したら",
+        "negative": "{接|せっ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{接|せっ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{接|せっ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{接|せっ}できる",
+        "negative": "{接|せっ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{接|せっ}される",
+        "negative": "{接|せっ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{接|せっ}させる",
+        "negative": "{接|せっ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{接|せっ}しろ",
+        "negative": "{接|せっ}するな"
+      }
+    ]
   }
 }

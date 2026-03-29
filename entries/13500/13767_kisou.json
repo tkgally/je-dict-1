@@ -19,7 +19,9 @@
       "english": "To compete for speed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13767_kisou_ex2",
@@ -27,7 +29,9 @@
       "english": "The two are competing with each other over grades.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13767_kisou_ex3",
@@ -35,7 +39,9 @@
       "english": "Each company vied in technical prowess, announcing new products one after another.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nGodan verb ({五段|ごだん}). The pattern ～を{競|きそ}う means \"to compete in/for ~.\" The compound form {競|きそ}い{合|あ}う emphasizes mutual competition.\n\nCOMMON COLLOCATIONS:\n- {速|はや}さを{競|きそ}う: to compete for speed\n- {美|うつく}しさを{競|きそ}う: to vie in beauty\n- {腕|うで}を{競|きそ}う: to compete in skill\n- {競|きそ}い{合|あ}う: to compete with each other\n- {先|さき}を{競|きそ}う: to race to be first\n\nSIMILAR WORDS:\n{競争|きょうそう}する is the more common noun+する form meaning \"to compete,\" used broadly. {競|きそ}う is a native Japanese verb with a slightly more literary feel, often used when the object of competition is specified (～を{競|きそ}う).",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{競|きそ}う",
+        "negative": "{競|きそ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{競|きそ}います",
+        "negative": "{競|きそ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{競|きそ}った",
+        "negative": "{競|きそ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{競|きそ}いました",
+        "negative": "{競|きそ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{競|きそ}って",
+        "negative": "{競|きそ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{競|きそ}っている",
+        "negative": "{競|きそ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{競|きそ}っています",
+        "negative": "{競|きそ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{競|きそ}っていた",
+        "negative": "{競|きそ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{競|きそ}っていました",
+        "negative": "{競|きそ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{競|きそ}えば",
+        "negative": "{競|きそ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{競|きそ}ったら",
+        "negative": "{競|きそ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{競|きそ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{競|きそ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{競|きそ}える",
+        "negative": "{競|きそ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{競|きそ}われる",
+        "negative": "{競|きそ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{競|きそ}わせる",
+        "negative": "{競|きそ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{競|きそ}え",
+        "negative": "{競|きそ}うな"
+      }
+    ]
   }
 }

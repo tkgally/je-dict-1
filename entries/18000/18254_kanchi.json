@@ -19,7 +19,9 @@
       "english": "The sensor detected movement.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18254_kanchi_ex2",
@@ -27,7 +29,9 @@
       "english": "The smoke detector reacted and the alarm went off.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18254_kanchi_ex3",
@@ -35,7 +39,9 @@
       "english": "Animals are said to have the ability to sense earthquake precursors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used in technical contexts (sensors, detectors, alarms) and also for the innate ability of people or animals to sense things that aren't immediately obvious.\n\nCOMMON COLLOCATIONS:\n- {感知|かんち}する (to detect; to sense)\n- {感知器|かんちき} (detector; sensor)\n- {煙|けむり}{感知器|かんちき} (smoke detector)\n- {危険|きけん}を{感知|かんち}する (to sense danger)\n\nSIMILAR WORDS:\n- {検知|けんち}: detection — more technical, used for instruments and scientific measurement\n- {察知|さっち}: perception; sensing — emphasizes intuiting something through observation or experience",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{感知|かんち}する",
+        "negative": "{感知|かんち}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{感知|かんち}します",
+        "negative": "{感知|かんち}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{感知|かんち}した",
+        "negative": "{感知|かんち}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{感知|かんち}しました",
+        "negative": "{感知|かんち}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{感知|かんち}して",
+        "negative": "{感知|かんち}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{感知|かんち}している",
+        "negative": "{感知|かんち}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{感知|かんち}しています",
+        "negative": "{感知|かんち}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{感知|かんち}していた",
+        "negative": "{感知|かんち}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{感知|かんち}していました",
+        "negative": "{感知|かんち}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{感知|かんち}すれば",
+        "negative": "{感知|かんち}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{感知|かんち}したら",
+        "negative": "{感知|かんち}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{感知|かんち}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{感知|かんち}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{感知|かんち}できる",
+        "negative": "{感知|かんち}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{感知|かんち}される",
+        "negative": "{感知|かんち}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{感知|かんち}させる",
+        "negative": "{感知|かんち}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{感知|かんち}しろ",
+        "negative": "{感知|かんち}するな"
+      }
+    ]
   }
 }

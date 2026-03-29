@@ -19,7 +19,9 @@
       "english": "To wash vegetables with water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17427_mizuarai_ex2",
@@ -27,7 +29,9 @@
       "english": "Can this clothing be washed with water?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17427_mizuarai_ex3",
@@ -35,7 +39,9 @@
       "english": "I washed the mud-stained shoes with water and then hung them to dry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nImplies washing with water only, without detergent. In cooking, it refers to rinsing ingredients. For clothing, {水洗|みずあら}いできる means the item can be washed at home with water rather than requiring dry cleaning.\n\nCOMMON COLLOCATIONS:\n- {水洗|みずあら}いする (to wash with water)\n- {水洗|みずあら}い{可|か} (washable with water)\n- {水洗|みずあら}い{不可|ふか} (not washable with water)\n\nSIMILAR WORDS:\n- {洗濯|せんたく}: laundry, doing the wash — general washing of clothes\n- {水洗|みずあら}い: specifically washing with water only, no soap",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life", "cooking"]
+      "semantic": [
+        "daily-life",
+        "cooking"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{水洗|みずあら}いする",
+        "negative": "{水洗|みずあら}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{水洗|みずあら}いします",
+        "negative": "{水洗|みずあら}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{水洗|みずあら}いした",
+        "negative": "{水洗|みずあら}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{水洗|みずあら}いしました",
+        "negative": "{水洗|みずあら}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{水洗|みずあら}いして",
+        "negative": "{水洗|みずあら}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{水洗|みずあら}いしている",
+        "negative": "{水洗|みずあら}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{水洗|みずあら}いしています",
+        "negative": "{水洗|みずあら}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{水洗|みずあら}いしていた",
+        "negative": "{水洗|みずあら}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{水洗|みずあら}いしていました",
+        "negative": "{水洗|みずあら}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{水洗|みずあら}いすれば",
+        "negative": "{水洗|みずあら}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{水洗|みずあら}いしたら",
+        "negative": "{水洗|みずあら}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{水洗|みずあら}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{水洗|みずあら}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{水洗|みずあら}いできる",
+        "negative": "{水洗|みずあら}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{水洗|みずあら}いされる",
+        "negative": "{水洗|みずあら}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{水洗|みずあら}いさせる",
+        "negative": "{水洗|みずあら}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{水洗|みずあら}いしろ",
+        "negative": "{水洗|みずあら}いするな"
+      }
+    ]
   }
 }

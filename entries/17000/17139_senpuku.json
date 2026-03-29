@@ -24,7 +24,9 @@
       "english": "The criminal was hiding in the mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17139_senpuku_ex2",
@@ -32,7 +34,9 @@
       "english": "The police tracked down the hideout.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17139_senpuku_ex3",
@@ -40,7 +44,9 @@
       "english": "A suspect who had been hiding in the country for several years was arrested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17139_senpuku_ex4",
@@ -48,7 +54,9 @@
       "english": "The incubation period is about two weeks.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17139_senpuku_ex5",
@@ -56,7 +64,9 @@
       "english": "This virus has a long latency period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "17139_senpuku_ex6",
@@ -64,7 +74,9 @@
       "english": "Because the incubation period is long, one may not notice the infection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {潜|せん} (to hide, to lurk) + {伏|ふく} (to lie face down, to crouch). Used as a suru verb ({潜伏|せんぷく}する). Sense 1 relates to criminals or fugitives hiding; sense 2 is used in medical contexts for the incubation period of diseases.\n\nCOMMON COLLOCATIONS:\n- {潜伏|せんぷく}{期間|きかん} (incubation period / period of hiding)\n- {潜伏|せんぷく}{先|さき} (hideout, place of concealment)\n- {潜伏|せんぷく}する (to go into hiding)\n\nSIMILAR WORDS:\n- {隠|かく}れる: to hide — the everyday word for hiding\n- {逃亡|とうぼう}: flight, escape — fleeing rather than hiding in place",
@@ -75,10 +87,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["law", "medicine"]
+      "semantic": [
+        "law",
+        "medicine"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{潜伏|せんぷく}する",
+        "negative": "{潜伏|せんぷく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{潜伏|せんぷく}します",
+        "negative": "{潜伏|せんぷく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{潜伏|せんぷく}した",
+        "negative": "{潜伏|せんぷく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{潜伏|せんぷく}しました",
+        "negative": "{潜伏|せんぷく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{潜伏|せんぷく}して",
+        "negative": "{潜伏|せんぷく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{潜伏|せんぷく}している",
+        "negative": "{潜伏|せんぷく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{潜伏|せんぷく}しています",
+        "negative": "{潜伏|せんぷく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{潜伏|せんぷく}していた",
+        "negative": "{潜伏|せんぷく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{潜伏|せんぷく}していました",
+        "negative": "{潜伏|せんぷく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{潜伏|せんぷく}すれば",
+        "negative": "{潜伏|せんぷく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{潜伏|せんぷく}したら",
+        "negative": "{潜伏|せんぷく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{潜伏|せんぷく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{潜伏|せんぷく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{潜伏|せんぷく}できる",
+        "negative": "{潜伏|せんぷく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{潜伏|せんぷく}される",
+        "negative": "{潜伏|せんぷく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{潜伏|せんぷく}させる",
+        "negative": "{潜伏|せんぷく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{潜伏|せんぷく}しろ",
+        "negative": "{潜伏|せんぷく}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The house burned to the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17094_zenshou_ex2",
@@ -27,7 +29,9 @@
       "english": "The shop was completely destroyed in the fire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17094_zenshou_ex3",
@@ -35,7 +39,9 @@
       "english": "Three houses were completely destroyed and two people were injured in the late-night fire.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in news reporting and official fire department records. Often paired with する: {全焼|ぜんしょう}する. The degree of fire damage is categorized officially in Japan as {全焼|ぜんしょう} (total), {半焼|はんしょう} (partial), or {部分焼|ぶぶんしょう} (minor).\n\nCOMMON COLLOCATIONS:\n- {全焼|ぜんしょう}する (to be completely destroyed by fire)\n- {住宅|じゅうたく}が{全焼|ぜんしょう} (house totally burned)\n- {全焼|ぜんしょう}{被害|ひがい} (total fire damage)\n\nSIMILAR WORDS:\n- {半焼|はんしょう}: partially burned — partial fire damage\n- {焼失|しょうしつ}: destruction by fire — more formal/literary equivalent\n- {火事|かじ}: fire (incident) — the event itself, not the result",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["disaster"]
+      "semantic": [
+        "disaster"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{全焼|ぜんしょう}する",
+        "negative": "{全焼|ぜんしょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{全焼|ぜんしょう}します",
+        "negative": "{全焼|ぜんしょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{全焼|ぜんしょう}した",
+        "negative": "{全焼|ぜんしょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{全焼|ぜんしょう}しました",
+        "negative": "{全焼|ぜんしょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{全焼|ぜんしょう}して",
+        "negative": "{全焼|ぜんしょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{全焼|ぜんしょう}している",
+        "negative": "{全焼|ぜんしょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{全焼|ぜんしょう}しています",
+        "negative": "{全焼|ぜんしょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{全焼|ぜんしょう}していた",
+        "negative": "{全焼|ぜんしょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{全焼|ぜんしょう}していました",
+        "negative": "{全焼|ぜんしょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{全焼|ぜんしょう}すれば",
+        "negative": "{全焼|ぜんしょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{全焼|ぜんしょう}したら",
+        "negative": "{全焼|ぜんしょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{全焼|ぜんしょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{全焼|ぜんしょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{全焼|ぜんしょう}できる",
+        "negative": "{全焼|ぜんしょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{全焼|ぜんしょう}される",
+        "negative": "{全焼|ぜんしょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{全焼|ぜんしょう}させる",
+        "negative": "{全焼|ぜんしょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{全焼|ぜんしょう}しろ",
+        "negative": "{全焼|ぜんしょう}するな"
+      }
+    ]
   }
 }

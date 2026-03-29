@@ -19,7 +19,9 @@
       "english": "To newly establish a department.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13029_shinsetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "A nursery school was newly established in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13029_shinsetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The government plans to launch a newly established agency for disaster response next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({新設|しんせつ}する) or as a noun modifier ({新設|しんせつ}の). The homophone {親切|しんせつ} (kindness) is a completely different word.\n\nCOMMON COLLOCATIONS:\n- {学校|がっこう}を{新設|しんせつ}する: to newly establish a school\n- {新設|しんせつ}{部門|ぶもん}: newly created department\n- {新設|しんせつ}{校|こう}: newly built school\n- {新設|しんせつ}{合併|がっぺい}: new merger\n\nSIMILAR WORDS:\n- {設立|せつりつ}: establishment, founding (more general)\n- {創設|そうせつ}: founding, creation (emphasizes being the first)",
@@ -46,12 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "verb_class": "suru",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{新設|しんせつ}する",
+        "negative": "{新設|しんせつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{新設|しんせつ}します",
+        "negative": "{新設|しんせつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{新設|しんせつ}した",
+        "negative": "{新設|しんせつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{新設|しんせつ}しました",
+        "negative": "{新設|しんせつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{新設|しんせつ}して",
+        "negative": "{新設|しんせつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{新設|しんせつ}している",
+        "negative": "{新設|しんせつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{新設|しんせつ}しています",
+        "negative": "{新設|しんせつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{新設|しんせつ}していた",
+        "negative": "{新設|しんせつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{新設|しんせつ}していました",
+        "negative": "{新設|しんせつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{新設|しんせつ}すれば",
+        "negative": "{新設|しんせつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{新設|しんせつ}したら",
+        "negative": "{新設|しんせつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{新設|しんせつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{新設|しんせつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{新設|しんせつ}できる",
+        "negative": "{新設|しんせつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{新設|しんせつ}される",
+        "negative": "{新設|しんせつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{新設|しんせつ}させる",
+        "negative": "{新設|しんせつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{新設|しんせつ}しろ",
+        "negative": "{新設|しんせつ}するな"
+      }
+    ]
   }
 }

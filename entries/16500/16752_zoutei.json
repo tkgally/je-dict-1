@@ -19,7 +19,9 @@
       "english": "To present a bouquet of flowers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16752_zoutei_ex2",
@@ -27,7 +29,9 @@
       "english": "Commemorative gifts were presented at the graduation ceremony.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16752_zoutei_ex3",
@@ -35,7 +39,9 @@
       "english": "A certificate of appreciation was presented in recognition of many years of meritorious service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used primarily in ceremonial or official contexts. Common at award ceremonies, graduations, and official events. Used as a suru verb ({贈呈|ぞうてい}する).\n\nCOMMON COLLOCATIONS:\n- {花束|はなたば}を{贈呈|ぞうてい}する (to present a bouquet)\n- {賞|しょう}を{贈呈|ぞうてい}する (to present an award)\n- {記念品|きねんひん}の{贈呈|ぞうてい} (presentation of a commemorative item)\n- {贈呈|ぞうてい}{式|しき} (presentation ceremony)\n\nSIMILAR WORDS:\n- {進呈|しんてい}: presenting, offering — also formal, often used for complimentary items\n- {授与|じゅよ}: conferral — used for degrees and official awards",
@@ -46,11 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["ceremony", "social"]
+      "semantic": [
+        "ceremony",
+        "social"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{贈呈|ぞうてい}する",
+        "negative": "{贈呈|ぞうてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{贈呈|ぞうてい}します",
+        "negative": "{贈呈|ぞうてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{贈呈|ぞうてい}した",
+        "negative": "{贈呈|ぞうてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{贈呈|ぞうてい}しました",
+        "negative": "{贈呈|ぞうてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{贈呈|ぞうてい}して",
+        "negative": "{贈呈|ぞうてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{贈呈|ぞうてい}している",
+        "negative": "{贈呈|ぞうてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{贈呈|ぞうてい}しています",
+        "negative": "{贈呈|ぞうてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{贈呈|ぞうてい}していた",
+        "negative": "{贈呈|ぞうてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{贈呈|ぞうてい}していました",
+        "negative": "{贈呈|ぞうてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{贈呈|ぞうてい}すれば",
+        "negative": "{贈呈|ぞうてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{贈呈|ぞうてい}したら",
+        "negative": "{贈呈|ぞうてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{贈呈|ぞうてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{贈呈|ぞうてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{贈呈|ぞうてい}できる",
+        "negative": "{贈呈|ぞうてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{贈呈|ぞうてい}される",
+        "negative": "{贈呈|ぞうてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{贈呈|ぞうてい}させる",
+        "negative": "{贈呈|ぞうてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{贈呈|ぞうてい}しろ",
+        "negative": "{贈呈|ぞうてい}するな"
+      }
+    ]
   }
 }

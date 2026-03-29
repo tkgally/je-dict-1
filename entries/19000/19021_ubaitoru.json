@@ -19,7 +19,9 @@
       "english": "I snatched the ball away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19021_ubaitoru_ex2",
@@ -27,7 +29,9 @@
       "english": "The thief snatched the bag and ran away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19021_ubaitoru_ex3",
@@ -35,7 +39,9 @@
       "english": "The player seized victory at the last moment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound verb from {奪|うば}う (to rob, take) + {取|と}る (to take). The combination emphasizes the forceful, decisive nature of the action. Used both literally (physical snatching) and figuratively (seizing victory, power, etc.).\n\nCOMMON COLLOCATIONS:\n- {勝利|しょうり}を{奪|うば}い{取|と}る: to seize victory\n- {主導権|しゅどうけん}を{奪|うば}い{取|と}る: to wrest the initiative\n- {力|ちから}ずくで{奪|うば}い{取|と}る: to take by force",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{奪|うば}い{取|と}る",
+        "negative": "{奪|うば}い{取|と}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{奪|うば}い{取|と}ります",
+        "negative": "{奪|うば}い{取|と}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{奪|うば}い{取|と}った",
+        "negative": "{奪|うば}い{取|と}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{奪|うば}い{取|と}りました",
+        "negative": "{奪|うば}い{取|と}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{奪|うば}い{取|と}って",
+        "negative": "{奪|うば}い{取|と}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{奪|うば}い{取|と}っている",
+        "negative": "{奪|うば}い{取|と}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{奪|うば}い{取|と}っています",
+        "negative": "{奪|うば}い{取|と}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{奪|うば}い{取|と}っていた",
+        "negative": "{奪|うば}い{取|と}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{奪|うば}い{取|と}っていました",
+        "negative": "{奪|うば}い{取|と}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{奪|うば}い{取|と}れば",
+        "negative": "{奪|うば}い{取|と}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{奪|うば}い{取|と}ったら",
+        "negative": "{奪|うば}い{取|と}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{奪|うば}い{取|と}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{奪|うば}い{取|と}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{奪|うば}い{取|と}れる",
+        "negative": "{奪|うば}い{取|と}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{奪|うば}い{取|と}られる",
+        "negative": "{奪|うば}い{取|と}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{奪|うば}い{取|と}らせる",
+        "negative": "{奪|うば}い{取|と}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{奪|うば}い{取|と}れ",
+        "negative": "{奪|うば}い{取|と}るな"
+      }
+    ]
   }
 }

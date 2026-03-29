@@ -19,7 +19,9 @@
       "english": "The police are on high alert.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14224_keikai_ex2",
@@ -27,7 +29,9 @@
       "english": "Please be on guard against the typhoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14224_keikai_ex3",
@@ -35,7 +39,9 @@
       "english": "Stray cats are wary of humans and don't come close.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{警戒|けいかい} can be used as a noun or する verb. When used with を, it marks the thing being guarded ({台風|たいふう}を{警戒|けいかい}する). It appears frequently in news reports about natural disasters, crime, and security. Animals being wary of humans is also a common usage.\n\nCOMMON COLLOCATIONS:\n- {警戒|けいかい}する: to be on guard, to watch out for\n- {厳重|げんじゅう}に{警戒|けいかい}する: to be on high/strict alert\n- {警戒|けいかい}を{強|つよ}める: to heighten vigilance\n- {警戒|けいかい}レベル: alert level\n- {警戒|けいかい}{区域|くいき}: restricted/warning area\n- {警戒|けいかい}{態勢|たいせい}: alert posture/state of readiness\n- {警戒|けいかい}を{怠|おこた}る: to let one's guard down\n\nSIMILAR WORDS:\n{注意|ちゅうい} (caution, attention) is a milder, everyday word. {警戒|けいかい} implies a more serious, active state of readiness against a specific threat. {用心|ようじん} (precaution) focuses on taking preventive measures.",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"],
-      "transitivity": "transitive"
+      "semantic": [
+        "cognition"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{警戒|けいかい}する",
+        "negative": "{警戒|けいかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{警戒|けいかい}します",
+        "negative": "{警戒|けいかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{警戒|けいかい}した",
+        "negative": "{警戒|けいかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{警戒|けいかい}しました",
+        "negative": "{警戒|けいかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{警戒|けいかい}して",
+        "negative": "{警戒|けいかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{警戒|けいかい}している",
+        "negative": "{警戒|けいかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{警戒|けいかい}しています",
+        "negative": "{警戒|けいかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{警戒|けいかい}していた",
+        "negative": "{警戒|けいかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{警戒|けいかい}していました",
+        "negative": "{警戒|けいかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{警戒|けいかい}すれば",
+        "negative": "{警戒|けいかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{警戒|けいかい}したら",
+        "negative": "{警戒|けいかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{警戒|けいかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{警戒|けいかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{警戒|けいかい}できる",
+        "negative": "{警戒|けいかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{警戒|けいかい}される",
+        "negative": "{警戒|けいかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{警戒|けいかい}させる",
+        "negative": "{警戒|けいかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{警戒|けいかい}しろ",
+        "negative": "{警戒|けいかい}するな"
+      }
+    ]
   }
 }

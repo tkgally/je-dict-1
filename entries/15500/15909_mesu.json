@@ -29,7 +29,9 @@
       "english": "Please help yourself. (honorific: eat/drink)",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15909_mesu_ex2",
@@ -37,7 +39,9 @@
       "english": "What would you like to eat, sir/madam?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15909_mesu_ex3",
@@ -45,7 +49,9 @@
       "english": "Has the president already had lunch?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15909_mesu_ex4",
@@ -53,7 +59,9 @@
       "english": "What a lovely dress you're wearing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15909_mesu_ex5",
@@ -61,7 +69,9 @@
       "english": "Would you like to try on this coat?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15909_mesu_ex6",
@@ -69,7 +79,9 @@
       "english": "It's cold, so please put on a jacket.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "15909_mesu_ex7",
@@ -77,7 +89,9 @@
       "english": "The king summoned his retainer.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "15909_mesu_ex8",
@@ -85,7 +99,9 @@
       "english": "The lord summoned a doctor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "15909_mesu_ex9",
@@ -93,7 +109,9 @@
       "english": "It is said that the emperor summoned his subjects before him to seek their opinions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "USAGE: {召|め}す is an honorific (sonkeigo) verb with several meanings depending on context. The most common modern uses are お{召|め}し{上|あ}がる (to eat/drink, honorific) and お{召|め}しになる (to wear, honorific).\n\nThe \"summon\" meaning is mostly used in historical or formal contexts.\n\nASPECT (ている): お{召|め}しになっている describes the state of wearing something.\n\nCOMMON PATTERNS:\n- お{召|め}し{上|あ}がる: to eat/drink (honorific compound)\n- お{召|め}しになる: to wear (honorific form)\n- お{召|め}し{物|もの}: clothing (honorific)\n\nPARTICLE PATTERNS:\n- [food/drink]を{召|め}し{上|あ}がる (to eat/drink something)\n- [clothing]をお{召|め}しになる (to wear something)\n- [person]を{召|め}す (to summon someone)",
@@ -104,11 +122,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "verb_class": "godan-su",
       "formality": "formal",
       "politeness": "honorific",
-      "semantic": ["food", "clothing"]
+      "semantic": [
+        "food",
+        "clothing"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{召|め}す",
+        "negative": "{召|め}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{召|め}します",
+        "negative": "{召|め}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{召|め}した",
+        "negative": "{召|め}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{召|め}しました",
+        "negative": "{召|め}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{召|め}して",
+        "negative": "{召|め}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{召|め}している",
+        "negative": "{召|め}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{召|め}しています",
+        "negative": "{召|め}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{召|め}していた",
+        "negative": "{召|め}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{召|め}していました",
+        "negative": "{召|め}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{召|め}せば",
+        "negative": "{召|め}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{召|め}したら",
+        "negative": "{召|め}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{召|め}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{召|め}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{召|め}せる",
+        "negative": "{召|め}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{召|め}される",
+        "negative": "{召|め}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{召|め}させる",
+        "negative": "{召|め}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{召|め}せ",
+        "negative": "{召|め}すな"
+      }
+    ]
   }
 }

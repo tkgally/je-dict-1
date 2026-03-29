@@ -19,7 +19,9 @@
       "english": "I sent back the defective product.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14975_okurikaesu_ex2",
@@ -27,7 +29,9 @@
       "english": "The size didn't fit, so I sent it back and had it exchanged.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14975_okurikaesu_ex3",
@@ -35,7 +39,9 @@
       "english": "Because there were deficiencies in the documents, they had to be sent back to the applicant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Godan verb ({五段|ごだん}). Transitive.\n\nA compound of {送|おく}る (to send) and {返|かえ}す (to return). The {返|かえ}す component adds the meaning of returning to the origin.\n\nASPECT:\n- {送|おく}り{返|かえ}した (sent back — completed)\n- {送|おく}り{返|かえ}している (is in the process of sending back)\n\nSIMILAR WORDS:\n- {返品|へんぴん}する is specifically for returning purchased goods\n- {返送|へんそう}する is a more formal/written synonym\n- {突|つ}き{返|かえ}す means to refuse and send back (more forceful)\n\nCOMMON COLLOCATIONS:\n- {商品|しょうひん}を{送|おく}り{返|かえ}す (to send back a product)\n- {着払|ちゃくばら}いで{送|おく}り{返|かえ}す (to send back with recipient paying postage)\n- {元|もと}の{場所|ばしょ}に{送|おく}り{返|かえ}す (to send back to the original location)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{送|おく}り{返|かえ}す",
+        "negative": "{送|おく}り{返|かえ}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{送|おく}り{返|かえ}します",
+        "negative": "{送|おく}り{返|かえ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{送|おく}り{返|かえ}した",
+        "negative": "{送|おく}り{返|かえ}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{送|おく}り{返|かえ}しました",
+        "negative": "{送|おく}り{返|かえ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{送|おく}り{返|かえ}して",
+        "negative": "{送|おく}り{返|かえ}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{送|おく}り{返|かえ}している",
+        "negative": "{送|おく}り{返|かえ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{送|おく}り{返|かえ}しています",
+        "negative": "{送|おく}り{返|かえ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{送|おく}り{返|かえ}していた",
+        "negative": "{送|おく}り{返|かえ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{送|おく}り{返|かえ}していました",
+        "negative": "{送|おく}り{返|かえ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{送|おく}り{返|かえ}せば",
+        "negative": "{送|おく}り{返|かえ}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{送|おく}り{返|かえ}したら",
+        "negative": "{送|おく}り{返|かえ}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{送|おく}り{返|かえ}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{送|おく}り{返|かえ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{送|おく}り{返|かえ}せる",
+        "negative": "{送|おく}り{返|かえ}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{送|おく}り{返|かえ}される",
+        "negative": "{送|おく}り{返|かえ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{送|おく}り{返|かえ}させる",
+        "negative": "{送|おく}り{返|かえ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{送|おく}り{返|かえ}せ",
+        "negative": "{送|おく}り{返|かえ}すな"
+      }
+    ]
   }
 }

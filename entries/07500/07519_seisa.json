@@ -17,21 +17,27 @@
       "japanese": "{書類|しょるい}を{精査|せいさ}してから{判断|はんだん}する。",
       "english": "I will examine the documents carefully before making a decision.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07519_seisa_ex2",
       "japanese": "{データ|でーた}の{精査|せいさ}に{時間|じかん}がかかる。",
       "english": "It takes time to carefully examine the data.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07519_seisa_ex3",
       "japanese": "{予算案|よさんあん}の{精査|せいさ}が{必要|ひつよう}だ。",
       "english": "A thorough examination of the budget proposal is necessary.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD STRUCTURE:\n{精|せい} (detailed, precise) + {査|さ} (examine, investigate)\n\nCOMMON COLLOCATIONS:\n・{精査|せいさ}を{行|おこな}う - to conduct a close examination\n・{精査|せいさ}が{必要|ひつよう} - thorough examination is needed\n・{精査|せいさ}の{結果|けっか} - as a result of close examination\n・{精査|せいさ}{中|ちゅう} - under examination\n\nSIMILAR WORDS:\n・{検討|けんとう} - consideration, review (more general)\n・{調査|ちょうさ} - investigation, survey (broader scope)\n・{吟味|ぎんみ} - scrutiny, careful selection\n・{審査|しんさ} - examination, screening (often for approval)\n\nREGISTER:\nFormal. Common in business, academic, and government contexts.",
@@ -41,10 +47,108 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{精査|せいさ}する",
+        "negative": "{精査|せいさ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{精査|せいさ}します",
+        "negative": "{精査|せいさ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{精査|せいさ}した",
+        "negative": "{精査|せいさ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{精査|せいさ}しました",
+        "negative": "{精査|せいさ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{精査|せいさ}して",
+        "negative": "{精査|せいさ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{精査|せいさ}している",
+        "negative": "{精査|せいさ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{精査|せいさ}しています",
+        "negative": "{精査|せいさ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{精査|せいさ}していた",
+        "negative": "{精査|せいさ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{精査|せいさ}していました",
+        "negative": "{精査|せいさ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{精査|せいさ}すれば",
+        "negative": "{精査|せいさ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{精査|せいさ}したら",
+        "negative": "{精査|せいさ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{精査|せいさ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{精査|せいさ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{精査|せいさ}できる",
+        "negative": "{精査|せいさ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{精査|せいさ}される",
+        "negative": "{精査|せいさ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{精査|せいさ}させる",
+        "negative": "{精査|せいさ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{精査|せいさ}しろ",
+        "negative": "{精査|せいさ}するな"
+      }
+    ]
   }
 }

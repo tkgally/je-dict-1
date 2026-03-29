@@ -19,7 +19,9 @@
       "english": "I take off the child's shoes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14061_nugasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I undressed the baby and put her in the bath.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14061_nugasu_ex3",
@@ -35,7 +39,9 @@
       "english": "I took off my drunk friend's jacket and laid him down on the sofa.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段|ごだん}). {脱|ぬ}がす → {脱|ぬ}がさない → {脱|ぬ}がして → {脱|ぬ}がした\n\nUSAGE:\nThe transitive counterpart of {脱|ぬ}ぐ (to take off one's own clothes). While {脱|ぬ}ぐ is used for removing your own clothing, {脱|ぬ}がす is used for removing someone else's clothing. Commonly used in caregiving contexts such as parents undressing children or nurses helping patients.\n\nCOMMON COLLOCATIONS:\n- {服|ふく}を{脱|ぬ}がす: to take off someone's clothes\n- {靴|くつ}を{脱|ぬ}がす: to take off someone's shoes\n- {上着|うわぎ}を{脱|ぬ}がす: to take off someone's jacket",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{脱|ぬ}がす",
+        "negative": "{脱|ぬ}がさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{脱|ぬ}がします",
+        "negative": "{脱|ぬ}がしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{脱|ぬ}がした",
+        "negative": "{脱|ぬ}がさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{脱|ぬ}がしました",
+        "negative": "{脱|ぬ}がしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{脱|ぬ}がして",
+        "negative": "{脱|ぬ}がさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{脱|ぬ}がしている",
+        "negative": "{脱|ぬ}がしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{脱|ぬ}がしています",
+        "negative": "{脱|ぬ}がしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{脱|ぬ}がしていた",
+        "negative": "{脱|ぬ}がしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{脱|ぬ}がしていました",
+        "negative": "{脱|ぬ}がしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{脱|ぬ}がせば",
+        "negative": "{脱|ぬ}がさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{脱|ぬ}がしたら",
+        "negative": "{脱|ぬ}がさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{脱|ぬ}がそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{脱|ぬ}がしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{脱|ぬ}がせる",
+        "negative": "{脱|ぬ}がせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{脱|ぬ}がされる",
+        "negative": "{脱|ぬ}がされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{脱|ぬ}がさせる",
+        "negative": "{脱|ぬ}がさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{脱|ぬ}がせ",
+        "negative": "{脱|ぬ}がすな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Lead the team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13868_tousotsu_ex2",
@@ -27,7 +29,9 @@
       "english": "He is a leader with strong leadership ability.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13868_tousotsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The coach led the players and guided them to a championship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used with {力|りょく} as {統率|とうそつ}{力|りょく} (leadership ability), which is a common evaluation criterion for leaders, managers, and team captains.\n\nSIMILAR WORDS:\n- {指揮|しき}: command, direction (more military/orchestral)\n- {率|ひき}いる: to lead, to command (verb)\n- リーダーシップ: leadership (loanword, more casual)\n\nCOMMON COLLOCATIONS:\n- {統率|とうそつ}{力|りょく}: leadership ability\n- チームを{統率|とうそつ}する: lead a team\n- {軍|ぐん}を{統率|とうそつ}する: command an army\n- {統率|とうそつ}{力|りょく}がある: have leadership skills",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{統率|とうそつ}する",
+        "negative": "{統率|とうそつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{統率|とうそつ}します",
+        "negative": "{統率|とうそつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{統率|とうそつ}した",
+        "negative": "{統率|とうそつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{統率|とうそつ}しました",
+        "negative": "{統率|とうそつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{統率|とうそつ}して",
+        "negative": "{統率|とうそつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{統率|とうそつ}している",
+        "negative": "{統率|とうそつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{統率|とうそつ}しています",
+        "negative": "{統率|とうそつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{統率|とうそつ}していた",
+        "negative": "{統率|とうそつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{統率|とうそつ}していました",
+        "negative": "{統率|とうそつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{統率|とうそつ}すれば",
+        "negative": "{統率|とうそつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{統率|とうそつ}したら",
+        "negative": "{統率|とうそつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{統率|とうそつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{統率|とうそつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{統率|とうそつ}できる",
+        "negative": "{統率|とうそつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{統率|とうそつ}される",
+        "negative": "{統率|とうそつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{統率|とうそつ}させる",
+        "negative": "{統率|とうそつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{統率|とうそつ}しろ",
+        "negative": "{統率|とうそつ}するな"
+      }
+    ]
   }
 }

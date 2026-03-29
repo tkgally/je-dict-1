@@ -19,7 +19,9 @@
       "english": "I refunded the ticket price.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16528_haraimodosu_ex2",
@@ -27,7 +29,9 @@
       "english": "Since it was defective, I got a full refund.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16528_haraimodosu_ex3",
@@ -35,7 +39,9 @@
       "english": "In the case of cancellation, the remaining balance will be refunded to your account.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA godan verb ({五段動詞|ごだんどうし}). The noun form {払|はら}い{戻|もど}し is very common, especially in business and administrative contexts. The passive form {払|はら}い{戻|もど}される is frequently used to describe refunds being processed.\n\nCOMMON COLLOCATIONS:\n- {全額|ぜんがく}{払|はら}い{戻|もど}す (to refund the full amount)\n- {口座|こうざ}に{払|はら}い{戻|もど}す (to refund to an account)\n- {払|はら}い{戻|もど}しを{受|う}ける (to receive a refund)\n\nSIMILAR WORDS:\n- {返金|へんきん}する: to refund — a more concise, commonly used synonym\n- {返済|へんさい}する: to repay — used for loans and debts, not for refunds",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "transitive",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{払|はら}い{戻|もど}す",
+        "negative": "{払|はら}い{戻|もど}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{払|はら}い{戻|もど}します",
+        "negative": "{払|はら}い{戻|もど}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{払|はら}い{戻|もど}した",
+        "negative": "{払|はら}い{戻|もど}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{払|はら}い{戻|もど}しました",
+        "negative": "{払|はら}い{戻|もど}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{払|はら}い{戻|もど}して",
+        "negative": "{払|はら}い{戻|もど}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{払|はら}い{戻|もど}している",
+        "negative": "{払|はら}い{戻|もど}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{払|はら}い{戻|もど}しています",
+        "negative": "{払|はら}い{戻|もど}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{払|はら}い{戻|もど}していた",
+        "negative": "{払|はら}い{戻|もど}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{払|はら}い{戻|もど}していました",
+        "negative": "{払|はら}い{戻|もど}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{払|はら}い{戻|もど}せば",
+        "negative": "{払|はら}い{戻|もど}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{払|はら}い{戻|もど}したら",
+        "negative": "{払|はら}い{戻|もど}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{払|はら}い{戻|もど}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{払|はら}い{戻|もど}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{払|はら}い{戻|もど}せる",
+        "negative": "{払|はら}い{戻|もど}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{払|はら}い{戻|もど}される",
+        "negative": "{払|はら}い{戻|もど}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{払|はら}い{戻|もど}させる",
+        "negative": "{払|はら}い{戻|もど}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{払|はら}い{戻|もど}せ",
+        "negative": "{払|はら}い{戻|もど}すな"
+      }
+    ]
   }
 }

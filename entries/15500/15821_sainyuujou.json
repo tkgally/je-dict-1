@@ -19,7 +19,9 @@
       "english": "Is re-entry allowed?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15821_sainyuujou_ex2",
@@ -27,7 +29,9 @@
       "english": "Re-entry is not permitted at this event.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15821_sainyuujou_ex3",
@@ -35,7 +39,9 @@
       "english": "When re-entering, please show the stamp on the back of your hand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{再入場|さいにゅうじょう} is commonly seen on signs and in event rules. It can be used with する as a verbal noun: {再入場|さいにゅうじょう}する (to re-enter). Many venues stamp visitors' hands or provide wristbands for re-entry.\n\nCOMMON COLLOCATIONS:\n- {再入場|さいにゅうじょう}{不可|ふか} (no re-entry)\n- {再入場|さいにゅうじょう}{可能|かのう} (re-entry allowed)\n- {再入場|さいにゅうじょう}する (to re-enter)\n- {再入場|さいにゅうじょう}スタンプ (re-entry stamp)\n\nRELATED TERMS:\n- {入場|にゅうじょう} means entry or admission.\n- {退場|たいじょう} means exit or leaving.\n- {入場券|にゅうじょうけん} means admission ticket.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily-life"]
+      "semantic": [
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{再入場|さいにゅうじょう}する",
+        "negative": "{再入場|さいにゅうじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{再入場|さいにゅうじょう}します",
+        "negative": "{再入場|さいにゅうじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{再入場|さいにゅうじょう}した",
+        "negative": "{再入場|さいにゅうじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{再入場|さいにゅうじょう}しました",
+        "negative": "{再入場|さいにゅうじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{再入場|さいにゅうじょう}して",
+        "negative": "{再入場|さいにゅうじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{再入場|さいにゅうじょう}している",
+        "negative": "{再入場|さいにゅうじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{再入場|さいにゅうじょう}しています",
+        "negative": "{再入場|さいにゅうじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{再入場|さいにゅうじょう}していた",
+        "negative": "{再入場|さいにゅうじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{再入場|さいにゅうじょう}していました",
+        "negative": "{再入場|さいにゅうじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{再入場|さいにゅうじょう}すれば",
+        "negative": "{再入場|さいにゅうじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{再入場|さいにゅうじょう}したら",
+        "negative": "{再入場|さいにゅうじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{再入場|さいにゅうじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{再入場|さいにゅうじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{再入場|さいにゅうじょう}できる",
+        "negative": "{再入場|さいにゅうじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{再入場|さいにゅうじょう}される",
+        "negative": "{再入場|さいにゅうじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{再入場|さいにゅうじょう}させる",
+        "negative": "{再入場|さいにゅうじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{再入場|さいにゅうじょう}しろ",
+        "negative": "{再入場|さいにゅうじょう}するな"
+      }
+    ]
   }
 }

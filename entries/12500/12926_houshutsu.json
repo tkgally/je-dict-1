@@ -19,7 +19,9 @@
       "english": "To release heat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12926_houshutsu_ex2",
@@ -27,7 +29,9 @@
       "english": "Harmful gas was released from the factory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12926_houshutsu_ex3",
@@ -35,7 +39,9 @@
       "english": "The government decided to release its stockpiled oil reserves.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Covers both physical emissions (heat, gas, radiation) and the release of stored resources (oil reserves, surplus goods) into the market. Common in scientific, environmental, and economic reporting.\n\nCOMMON COLLOCATIONS:\n- {放出|ほうしゅつ}する: to release, to emit\n- ガスを{放出|ほうしゅつ}する: to emit gas\n- {熱|ねつ}を{放出|ほうしゅつ}する: to release heat\n- {備蓄|びちく}の{放出|ほうしゅつ}: release of stockpiles\n- {放射性|ほうしゃせい}{物質|ぶっしつ}の{放出|ほうしゅつ}: release of radioactive materials\n\nSIMILAR WORDS:\n- {排出|はいしゅつ}: emission, discharge (often negative: pollution, exhaust)\n- {放射|ほうしゃ}: radiation, emission (specifically of rays or radiation)",
@@ -53,10 +59,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "nature"]
+      "semantic": [
+        "action",
+        "nature"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{放出|ほうしゅつ}する",
+        "negative": "{放出|ほうしゅつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{放出|ほうしゅつ}します",
+        "negative": "{放出|ほうしゅつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{放出|ほうしゅつ}した",
+        "negative": "{放出|ほうしゅつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{放出|ほうしゅつ}しました",
+        "negative": "{放出|ほうしゅつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{放出|ほうしゅつ}して",
+        "negative": "{放出|ほうしゅつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{放出|ほうしゅつ}している",
+        "negative": "{放出|ほうしゅつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{放出|ほうしゅつ}しています",
+        "negative": "{放出|ほうしゅつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{放出|ほうしゅつ}していた",
+        "negative": "{放出|ほうしゅつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{放出|ほうしゅつ}していました",
+        "negative": "{放出|ほうしゅつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{放出|ほうしゅつ}すれば",
+        "negative": "{放出|ほうしゅつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{放出|ほうしゅつ}したら",
+        "negative": "{放出|ほうしゅつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{放出|ほうしゅつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{放出|ほうしゅつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{放出|ほうしゅつ}できる",
+        "negative": "{放出|ほうしゅつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{放出|ほうしゅつ}される",
+        "negative": "{放出|ほうしゅつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{放出|ほうしゅつ}させる",
+        "negative": "{放出|ほうしゅつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{放出|ほうしゅつ}しろ",
+        "negative": "{放出|ほうしゅつ}するな"
+      }
+    ]
   }
 }

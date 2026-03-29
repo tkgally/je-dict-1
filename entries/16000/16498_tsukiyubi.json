@@ -19,7 +19,9 @@
       "english": "I jammed my finger playing basketball.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16498_tsukiyubi_ex2",
@@ -27,7 +29,9 @@
       "english": "My finger is swollen because I jammed it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16498_tsukiyubi_ex3",
@@ -35,7 +39,9 @@
       "english": "I jammed my finger during volleyball practice and had it taped up for about a week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する. An extremely common minor sports injury in Japan, especially in ball sports like basketball, volleyball, and baseball. School students frequently experience this.\n\nCOMMON COLLOCATIONS:\n- {突|つ}き{指|ゆび}をする (to jam one's finger)\n- {突|つ}き{指|ゆび}の{応急処置|おうきゅうしょち} (first aid for a jammed finger)\n- {突|つ}き{指|ゆび}で{腫|は}れる (to swell from a jammed finger)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["health-medical", "sports"]
+      "semantic": [
+        "health-medical",
+        "sports"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{突|つ}き{指|ゆび}する",
+        "negative": "{突|つ}き{指|ゆび}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{突|つ}き{指|ゆび}します",
+        "negative": "{突|つ}き{指|ゆび}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{突|つ}き{指|ゆび}した",
+        "negative": "{突|つ}き{指|ゆび}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{突|つ}き{指|ゆび}しました",
+        "negative": "{突|つ}き{指|ゆび}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{突|つ}き{指|ゆび}して",
+        "negative": "{突|つ}き{指|ゆび}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{突|つ}き{指|ゆび}している",
+        "negative": "{突|つ}き{指|ゆび}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{突|つ}き{指|ゆび}しています",
+        "negative": "{突|つ}き{指|ゆび}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{突|つ}き{指|ゆび}していた",
+        "negative": "{突|つ}き{指|ゆび}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{突|つ}き{指|ゆび}していました",
+        "negative": "{突|つ}き{指|ゆび}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{突|つ}き{指|ゆび}すれば",
+        "negative": "{突|つ}き{指|ゆび}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{突|つ}き{指|ゆび}したら",
+        "negative": "{突|つ}き{指|ゆび}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{突|つ}き{指|ゆび}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{突|つ}き{指|ゆび}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{突|つ}き{指|ゆび}できる",
+        "negative": "{突|つ}き{指|ゆび}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{突|つ}き{指|ゆび}される",
+        "negative": "{突|つ}き{指|ゆび}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{突|つ}き{指|ゆび}させる",
+        "negative": "{突|つ}き{指|ゆび}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{突|つ}き{指|ゆび}しろ",
+        "negative": "{突|つ}き{指|ゆび}するな"
+      }
+    ]
   }
 }

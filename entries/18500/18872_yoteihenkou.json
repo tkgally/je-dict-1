@@ -19,7 +19,9 @@
       "english": "This is a notice of a schedule change.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18872_yoteihenkou_ex2",
@@ -27,7 +29,9 @@
       "english": "I apologize for the sudden change of plans.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18872_yoteihenkou_ex3",
@@ -35,7 +39,9 @@
       "english": "We were forced to change our plans due to the weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA versatile compound used in announcements, apologies, and everyday conversation. Often used with する to mean \"to change plans.\"\n\nCOMMON COLLOCATIONS:\n- {予定|よてい}{変更|へんこう}をする (to change plans)\n- {急|きゅう}な{予定|よてい}{変更|へんこう} (sudden change of plans)\n- {予定|よてい}{変更|へんこう}のお{知|し}らせ (notice of schedule change)\n- {予定|よてい}{変更|へんこう}を{余儀|よぎ}なくされる (to be forced to change plans)\n\nSIMILAR WORDS:\n- スケジュール{変更|へんこう}: schedule change — more casual, common in business settings\n- {日程|にってい}{変更|へんこう}: date change — specifically about changing the date rather than the plan itself",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{予定|よてい}{変更|へんこう}する",
+        "negative": "{予定|よてい}{変更|へんこう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{予定|よてい}{変更|へんこう}します",
+        "negative": "{予定|よてい}{変更|へんこう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{予定|よてい}{変更|へんこう}した",
+        "negative": "{予定|よてい}{変更|へんこう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{予定|よてい}{変更|へんこう}しました",
+        "negative": "{予定|よてい}{変更|へんこう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{予定|よてい}{変更|へんこう}して",
+        "negative": "{予定|よてい}{変更|へんこう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{予定|よてい}{変更|へんこう}している",
+        "negative": "{予定|よてい}{変更|へんこう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{予定|よてい}{変更|へんこう}しています",
+        "negative": "{予定|よてい}{変更|へんこう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{予定|よてい}{変更|へんこう}していた",
+        "negative": "{予定|よてい}{変更|へんこう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{予定|よてい}{変更|へんこう}していました",
+        "negative": "{予定|よてい}{変更|へんこう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{予定|よてい}{変更|へんこう}すれば",
+        "negative": "{予定|よてい}{変更|へんこう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{予定|よてい}{変更|へんこう}したら",
+        "negative": "{予定|よてい}{変更|へんこう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{予定|よてい}{変更|へんこう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{予定|よてい}{変更|へんこう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{予定|よてい}{変更|へんこう}できる",
+        "negative": "{予定|よてい}{変更|へんこう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{予定|よてい}{変更|へんこう}される",
+        "negative": "{予定|よてい}{変更|へんこう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{予定|よてい}{変更|へんこう}させる",
+        "negative": "{予定|よてい}{変更|へんこう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{予定|よてい}{変更|へんこう}しろ",
+        "negative": "{予定|よてい}{変更|へんこう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Perform CPR (cardiopulmonary resuscitation).",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14029_sosei_ex2",
@@ -27,7 +29,9 @@
       "english": "The paramedic applied resuscitation techniques and saved the patient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14029_sosei_ex3",
@@ -35,7 +39,9 @@
       "english": "The run-down shopping district was revived through the efforts of local volunteers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in the medical compound {心肺|しんぱい}{蘇生|そせい} (CPR). Also used figuratively for the revival of economies, communities, or traditions.\n\nCOMMON COLLOCATIONS:\n- {心肺|しんぱい}{蘇生|そせい}: cardiopulmonary resuscitation (CPR)\n- {蘇生|そせい}{術|じゅつ}: resuscitation technique\n- {蘇生|そせい}する: to resuscitate, to revive",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{蘇生|そせい}する",
+        "negative": "{蘇生|そせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{蘇生|そせい}します",
+        "negative": "{蘇生|そせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{蘇生|そせい}した",
+        "negative": "{蘇生|そせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{蘇生|そせい}しました",
+        "negative": "{蘇生|そせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{蘇生|そせい}して",
+        "negative": "{蘇生|そせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{蘇生|そせい}している",
+        "negative": "{蘇生|そせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{蘇生|そせい}しています",
+        "negative": "{蘇生|そせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{蘇生|そせい}していた",
+        "negative": "{蘇生|そせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{蘇生|そせい}していました",
+        "negative": "{蘇生|そせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{蘇生|そせい}すれば",
+        "negative": "{蘇生|そせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{蘇生|そせい}したら",
+        "negative": "{蘇生|そせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{蘇生|そせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{蘇生|そせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{蘇生|そせい}できる",
+        "negative": "{蘇生|そせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{蘇生|そせい}される",
+        "negative": "{蘇生|そせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{蘇生|そせい}させる",
+        "negative": "{蘇生|そせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{蘇生|そせい}しろ",
+        "negative": "{蘇生|そせい}するな"
+      }
+    ]
   }
 }

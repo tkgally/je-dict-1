@@ -19,7 +19,9 @@
       "english": "This thermos has a heat-retention function.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17467_hoon_ex2",
@@ -27,7 +29,9 @@
       "english": "I keep the rice warm using the rice cooker's keep-warm mode.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17467_hoon_ex3",
@@ -35,7 +39,9 @@
       "english": "A sleeping bag with high heat retention is essential for winter camping.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in product descriptions and daily life. Appears on rice cookers, thermoses, heated tables, and clothing labels. Often seen as a button or setting label on appliances.\n\nCOMMON COLLOCATIONS:\n- {保温|ほおん}{機能|きのう} (heat-retention function)\n- {保温|ほおん}する (to keep warm)\n- {保温|ほおん}ボトル (insulated bottle)\n- {保温性|ほおんせい} (heat-retention properties)\n- {保温|ほおん}モード (keep-warm mode)\n\nSIMILAR WORDS:\n- {保冷|ほれい}: keeping cool — the opposite; maintaining cold temperature\n- {断熱|だんねつ}: insulation — preventing heat transfer in either direction",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{保温|ほおん}する",
+        "negative": "{保温|ほおん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{保温|ほおん}します",
+        "negative": "{保温|ほおん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{保温|ほおん}した",
+        "negative": "{保温|ほおん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{保温|ほおん}しました",
+        "negative": "{保温|ほおん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{保温|ほおん}して",
+        "negative": "{保温|ほおん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{保温|ほおん}している",
+        "negative": "{保温|ほおん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{保温|ほおん}しています",
+        "negative": "{保温|ほおん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{保温|ほおん}していた",
+        "negative": "{保温|ほおん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{保温|ほおん}していました",
+        "negative": "{保温|ほおん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{保温|ほおん}すれば",
+        "negative": "{保温|ほおん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{保温|ほおん}したら",
+        "negative": "{保温|ほおん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{保温|ほおん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{保温|ほおん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{保温|ほおん}できる",
+        "negative": "{保温|ほおん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{保温|ほおん}される",
+        "negative": "{保温|ほおん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{保温|ほおん}させる",
+        "negative": "{保温|ほおん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{保温|ほおん}しろ",
+        "negative": "{保温|ほおん}するな"
+      }
+    ]
   }
 }

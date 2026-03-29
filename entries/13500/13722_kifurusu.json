@@ -19,7 +19,9 @@
       "english": "I threw away a worn-out shirt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13722_kifurusu_ex2",
@@ -27,7 +29,9 @@
       "english": "Worn-in jeans are the most comfortable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13722_kifurusu_ex3",
@@ -35,7 +39,9 @@
       "english": "The sweater is worn out and covered in pilling, but I'm too attached to it to let it go.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly used in the past participle form {着古|きふる}した as an adjective modifying clothing. Can have either a negative connotation (shabby, ready to throw out) or a positive one (well-loved, comfortable through years of use).\n\nCOMMON COLLOCATIONS:\n- {着古|きふる}したシャツ: a worn-out shirt\n- {着古|きふる}したコート: a well-worn coat\n- {着古|きふる}した{服|ふく}: worn-out clothes\n- {着古|きふる}してよれよれ: worn out and limp",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["clothing"]
+      "semantic": [
+        "clothing"
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{着古|きふる}す",
+        "negative": "{着古|きふる}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{着古|きふる}します",
+        "negative": "{着古|きふる}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{着古|きふる}した",
+        "negative": "{着古|きふる}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{着古|きふる}しました",
+        "negative": "{着古|きふる}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{着古|きふる}して",
+        "negative": "{着古|きふる}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{着古|きふる}している",
+        "negative": "{着古|きふる}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{着古|きふる}しています",
+        "negative": "{着古|きふる}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{着古|きふる}していた",
+        "negative": "{着古|きふる}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{着古|きふる}していました",
+        "negative": "{着古|きふる}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{着古|きふる}せば",
+        "negative": "{着古|きふる}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{着古|きふる}したら",
+        "negative": "{着古|きふる}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{着古|きふる}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{着古|きふる}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{着古|きふる}せる",
+        "negative": "{着古|きふる}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{着古|きふる}される",
+        "negative": "{着古|きふる}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{着古|きふる}させる",
+        "negative": "{着古|きふる}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{着古|きふる}せ",
+        "negative": "{着古|きふる}すな"
+      }
+    ]
   }
 }

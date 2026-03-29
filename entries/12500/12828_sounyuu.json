@@ -19,7 +19,9 @@
       "english": "Please insert your card.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12828_sounyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "To insert an image into a document.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12828_sounyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "A flashback scene is inserted partway through the film.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{挿入|そうにゅう} is a formal, technical word. In everyday computing, it is used for inserting text, images, or other elements (the \"Insert\" function). In film and literature, {挿入|そうにゅう}{歌|か} refers to an insert song (a song played during a scene).\n\nCOMMON COLLOCATIONS:\n- {挿入|そうにゅう}{歌|か}: insert song (in film/anime)\n- {挿入|そうにゅう}{口|ぐち}: insertion slot\n- カードを{挿入|そうにゅう}する: to insert a card\n- {画像|がぞう}を{挿入|そうにゅう}する: to insert an image\n- {挿入|そうにゅう}キー: Insert key (on keyboard)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{挿入|そうにゅう}する",
+        "negative": "{挿入|そうにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{挿入|そうにゅう}します",
+        "negative": "{挿入|そうにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{挿入|そうにゅう}した",
+        "negative": "{挿入|そうにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{挿入|そうにゅう}しました",
+        "negative": "{挿入|そうにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{挿入|そうにゅう}して",
+        "negative": "{挿入|そうにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{挿入|そうにゅう}している",
+        "negative": "{挿入|そうにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{挿入|そうにゅう}しています",
+        "negative": "{挿入|そうにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{挿入|そうにゅう}していた",
+        "negative": "{挿入|そうにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{挿入|そうにゅう}していました",
+        "negative": "{挿入|そうにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{挿入|そうにゅう}すれば",
+        "negative": "{挿入|そうにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{挿入|そうにゅう}したら",
+        "negative": "{挿入|そうにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{挿入|そうにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{挿入|そうにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{挿入|そうにゅう}できる",
+        "negative": "{挿入|そうにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{挿入|そうにゅう}される",
+        "negative": "{挿入|そうにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{挿入|そうにゅう}させる",
+        "negative": "{挿入|そうにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{挿入|そうにゅう}しろ",
+        "negative": "{挿入|そうにゅう}するな"
+      }
+    ]
   }
 }

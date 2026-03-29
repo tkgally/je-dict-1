@@ -19,7 +19,9 @@
       "english": "I had a narrow escape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15334_inochibiroi_ex2",
@@ -27,7 +29,9 @@
       "english": "The seatbelt saved my life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15334_inochibiroi_ex3",
@@ -35,7 +39,9 @@
       "english": "During that earthquake, I happened to be outside and narrowly escaped with my life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsually used with する: {命拾|いのちびろ}いをする or {命拾|いのちびろ}いする. Describes situations where someone came very close to death but survived. Often used when looking back on a dangerous event with gratitude or relief.\n\nCOMMON COLLOCATIONS:\n- {命拾|いのちびろ}いをする (to have a narrow escape)\n- {命拾|いのちびろ}いした (narrowly escaped death)\n\nWORD FORMATION:\n{命|いのち} (life) + {拾|ひろ}い (picking up). Literally \"picking up one's life,\" as if retrieving a life that was nearly lost.",
@@ -46,9 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["life-death", "danger"]
+      "semantic": [
+        "life-death",
+        "danger"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{命拾|いのちびろ}いする",
+        "negative": "{命拾|いのちびろ}いしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{命拾|いのちびろ}いします",
+        "negative": "{命拾|いのちびろ}いしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{命拾|いのちびろ}いした",
+        "negative": "{命拾|いのちびろ}いしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{命拾|いのちびろ}いしました",
+        "negative": "{命拾|いのちびろ}いしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{命拾|いのちびろ}いして",
+        "negative": "{命拾|いのちびろ}いしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{命拾|いのちびろ}いしている",
+        "negative": "{命拾|いのちびろ}いしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{命拾|いのちびろ}いしています",
+        "negative": "{命拾|いのちびろ}いしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{命拾|いのちびろ}いしていた",
+        "negative": "{命拾|いのちびろ}いしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{命拾|いのちびろ}いしていました",
+        "negative": "{命拾|いのちびろ}いしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{命拾|いのちびろ}いすれば",
+        "negative": "{命拾|いのちびろ}いしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{命拾|いのちびろ}いしたら",
+        "negative": "{命拾|いのちびろ}いしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{命拾|いのちびろ}いしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{命拾|いのちびろ}いしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{命拾|いのちびろ}いできる",
+        "negative": "{命拾|いのちびろ}いできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{命拾|いのちびろ}いされる",
+        "negative": "{命拾|いのちびろ}いされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{命拾|いのちびろ}いさせる",
+        "negative": "{命拾|いのちびろ}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{命拾|いのちびろ}いしろ",
+        "negative": "{命拾|いのちびろ}いするな"
+      }
+    ]
   }
 }

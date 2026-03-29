@@ -24,7 +24,9 @@
       "english": "The road twists and turns.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16399_kyokusetsu_ex2",
@@ -32,7 +34,9 @@
       "english": "The river flows through the mountainous area, winding as it goes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16399_kyokusetsu_ex3",
@@ -40,7 +44,9 @@
       "english": "Mountain roads with sharp bends in succession are difficult to drive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16399_kyokusetsu_ex4",
@@ -48,7 +54,9 @@
       "english": "It was completed after many twists and turns.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16399_kyokusetsu_ex5",
@@ -56,7 +64,9 @@
       "english": "This plan had many complications, but it ultimately succeeded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16399_kyokusetsu_ex6",
@@ -64,7 +74,9 @@
       "english": "I am who I am today because I overcame life's many ups and downs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe figurative sense (sense 2) is far more common than the literal sense. {曲折|きょくせつ} almost always appears in the four-character compound {紆余|うよ}{曲折|きょくせつ}, which is one of the most frequently used yojijukugo.\n\nCOMMON COLLOCATIONS:\n- {紆余|うよ}{曲折|きょくせつ} (twists and turns, complications)\n- {紆余|うよ}{曲折|きょくせつ}を{経|へ}て (after many twists and turns)\n- {紆余|うよ}{曲折|きょくせつ}があった (there were complications)\n- {曲折|きょくせつ}した{道|みち} (a winding road)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{曲折|きょくせつ}する",
+        "negative": "{曲折|きょくせつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{曲折|きょくせつ}します",
+        "negative": "{曲折|きょくせつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{曲折|きょくせつ}した",
+        "negative": "{曲折|きょくせつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{曲折|きょくせつ}しました",
+        "negative": "{曲折|きょくせつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{曲折|きょくせつ}して",
+        "negative": "{曲折|きょくせつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{曲折|きょくせつ}している",
+        "negative": "{曲折|きょくせつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{曲折|きょくせつ}しています",
+        "negative": "{曲折|きょくせつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{曲折|きょくせつ}していた",
+        "negative": "{曲折|きょくせつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{曲折|きょくせつ}していました",
+        "negative": "{曲折|きょくせつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{曲折|きょくせつ}すれば",
+        "negative": "{曲折|きょくせつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{曲折|きょくせつ}したら",
+        "negative": "{曲折|きょくせつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{曲折|きょくせつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{曲折|きょくせつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{曲折|きょくせつ}できる",
+        "negative": "{曲折|きょくせつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{曲折|きょくせつ}される",
+        "negative": "{曲折|きょくせつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{曲折|きょくせつ}させる",
+        "negative": "{曲折|きょくせつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{曲折|きょくせつ}しろ",
+        "negative": "{曲折|きょくせつ}するな"
+      }
+    ]
   }
 }

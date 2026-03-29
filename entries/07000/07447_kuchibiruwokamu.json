@@ -17,21 +17,27 @@
       "japanese": "{悔|くや}しくて{唇|くちびる}を{噛|か}んだ。",
       "english": "I bit my lip in frustration.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07447_kuchibiruwokamu_ex2",
       "japanese": "{言|い}い{返|かえ}せず、{唇|くちびる}を{噛|か}むしかなかった。",
       "english": "Unable to talk back, I could only bite my lip.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07447_kuchibiruwokamu_ex3",
       "japanese": "あの{時|とき}もっと{頑張|がんば}ればよかったと、{今|いま}でも{唇|くちびる}を{噛|か}む{思|おも}いだ。",
       "english": "Even now I feel bitter regret, wishing I had tried harder back then.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "IDIOM STRUCTURE:\n{唇|くちびる} (lip) + を + {噛|か}む (to bite)\n\nThe expression describes the physical action of biting one's lip as a metaphor for suppressing emotions, particularly frustration or regret.\n\nCOMMON PATTERNS:\n・{悔|くや}しくて{唇|くちびる}を{噛|か}む - bite one's lip in frustration\n・{唇|くちびる}を{噛|か}む{思|おも}い - bitter feelings of regret\n・{唇|くちびる}を{噛|か}みしめる - to bite down hard on one's lip (intensified form)\n\nNUANCE:\nAlways indicates negative emotions - frustration, regret, helplessness, or suppressed anger. Often implies the person cannot openly express their feelings or take action.\n\nVARIATION:\n{唇|くちびる}を{噛|か}みしめる is a more intense version, suggesting even stronger suppression of emotion.\n\nSIMILAR EXPRESSIONS:\n・{歯|は}を{食|く}いしばる - to grit one's teeth (endurance)\n・{拳|こぶし}を{握|にぎ}る - to clench one's fist (determination/frustration)\n・{涙|なみだ}を{呑|の}む - to swallow one's tears (accept disappointment)\n\nREGISTER:\nNeutral. Common in both spoken and written Japanese, especially in dramatic or emotional contexts.",
@@ -41,10 +47,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression", "emotion"]
+      "semantic": [
+        "expression",
+        "emotion"
+      ],
+      "verb_class": "godan-mu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{唇|くちびる}を{噛|か}む",
+        "negative": "{唇|くちびる}を{噛|か}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{唇|くちびる}を{噛|か}みます",
+        "negative": "{唇|くちびる}を{噛|か}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{唇|くちびる}を{噛|か}んだ",
+        "negative": "{唇|くちびる}を{噛|か}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{唇|くちびる}を{噛|か}みました",
+        "negative": "{唇|くちびる}を{噛|か}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{唇|くちびる}を{噛|か}んで",
+        "negative": "{唇|くちびる}を{噛|か}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{唇|くちびる}を{噛|か}んでいる",
+        "negative": "{唇|くちびる}を{噛|か}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{唇|くちびる}を{噛|か}んでいます",
+        "negative": "{唇|くちびる}を{噛|か}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{唇|くちびる}を{噛|か}んでいた",
+        "negative": "{唇|くちびる}を{噛|か}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{唇|くちびる}を{噛|か}んでいました",
+        "negative": "{唇|くちびる}を{噛|か}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{唇|くちびる}を{噛|か}めば",
+        "negative": "{唇|くちびる}を{噛|か}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{唇|くちびる}を{噛|か}んだら",
+        "negative": "{唇|くちびる}を{噛|か}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{唇|くちびる}を{噛|か}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{唇|くちびる}を{噛|か}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{唇|くちびる}を{噛|か}める",
+        "negative": "{唇|くちびる}を{噛|か}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{唇|くちびる}を{噛|か}まれる",
+        "negative": "{唇|くちびる}を{噛|か}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{唇|くちびる}を{噛|か}ませる",
+        "negative": "{唇|くちびる}を{噛|か}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{唇|くちびる}を{噛|か}め",
+        "negative": "{唇|くちびる}を{噛|か}むな"
+      }
+    ]
   }
 }

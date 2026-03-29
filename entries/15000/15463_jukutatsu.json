@@ -19,7 +19,9 @@
       "english": "He is a craftsman who has mastered the technique.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15463_jukutatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "It takes time to become proficient in English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15463_jukutatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "There were many warriors who achieved mastery of swordsmanship through years of training.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nUsed as a suru verb. The pattern is ～に{熟達|じゅくたつ}する (to become proficient at ~). The particle に marks the skill or subject.\n\nCOMMON PATTERNS:\n- ～に{熟達|じゅくたつ}する (to master ~)\n- ～に{熟達|じゅくたつ}した + noun (a noun skilled at ~)\n- {熟達|じゅくたつ}{者|しゃ} (expert, master)\n\nCONTRAST:\n- {上達|じょうたつ} (improvement — emphasizes getting better, can apply at any level)\n- {熟達|じゅくたつ} (mastery — emphasizes reaching a high level of skill through maturation)\n- {精通|せいつう} (being well-versed — emphasizes knowledge rather than skill)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{熟達|じゅくたつ}する",
+        "negative": "{熟達|じゅくたつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{熟達|じゅくたつ}します",
+        "negative": "{熟達|じゅくたつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{熟達|じゅくたつ}した",
+        "negative": "{熟達|じゅくたつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{熟達|じゅくたつ}しました",
+        "negative": "{熟達|じゅくたつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{熟達|じゅくたつ}して",
+        "negative": "{熟達|じゅくたつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{熟達|じゅくたつ}している",
+        "negative": "{熟達|じゅくたつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{熟達|じゅくたつ}しています",
+        "negative": "{熟達|じゅくたつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{熟達|じゅくたつ}していた",
+        "negative": "{熟達|じゅくたつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{熟達|じゅくたつ}していました",
+        "negative": "{熟達|じゅくたつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{熟達|じゅくたつ}すれば",
+        "negative": "{熟達|じゅくたつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{熟達|じゅくたつ}したら",
+        "negative": "{熟達|じゅくたつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{熟達|じゅくたつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{熟達|じゅくたつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{熟達|じゅくたつ}できる",
+        "negative": "{熟達|じゅくたつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{熟達|じゅくたつ}される",
+        "negative": "{熟達|じゅくたつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{熟達|じゅくたつ}させる",
+        "negative": "{熟達|じゅくたつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{熟達|じゅくたつ}しろ",
+        "negative": "{熟達|じゅくたつ}するな"
+      }
+    ]
   }
 }

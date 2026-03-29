@@ -19,7 +19,9 @@
       "english": "Please don't hold back information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17942_dashioshimi_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's give it our all without holding back.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17942_dashioshimi_ex3",
@@ -35,7 +39,9 @@
       "english": "He doesn't hold back on his knowledge and teaches us anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in the negative ({出|だ}し{惜|お}しみしない) to praise someone for being generous with their time, knowledge, or resources. Can also be used critically when someone is being stingy. A compound of {出|だ}す (to put out) and {惜|お}しむ (to grudge).\n\nCOMMON COLLOCATIONS:\n- {出|だ}し{惜|お}しみしない (to not hold back)\n- {出|だ}し{惜|お}しみする (to be stingy with)\n- {情報|じょうほう}の{出|だ}し{惜|お}しみ (withholding information)",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": []
+      "semantic": [
+        "general"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{出|だ}し{惜|お}しみする",
+        "negative": "{出|だ}し{惜|お}しみしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{出|だ}し{惜|お}しみします",
+        "negative": "{出|だ}し{惜|お}しみしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{出|だ}し{惜|お}しみした",
+        "negative": "{出|だ}し{惜|お}しみしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{出|だ}し{惜|お}しみしました",
+        "negative": "{出|だ}し{惜|お}しみしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{出|だ}し{惜|お}しみして",
+        "negative": "{出|だ}し{惜|お}しみしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{出|だ}し{惜|お}しみしている",
+        "negative": "{出|だ}し{惜|お}しみしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{出|だ}し{惜|お}しみしています",
+        "negative": "{出|だ}し{惜|お}しみしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{出|だ}し{惜|お}しみしていた",
+        "negative": "{出|だ}し{惜|お}しみしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{出|だ}し{惜|お}しみしていました",
+        "negative": "{出|だ}し{惜|お}しみしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{出|だ}し{惜|お}しみすれば",
+        "negative": "{出|だ}し{惜|お}しみしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{出|だ}し{惜|お}しみしたら",
+        "negative": "{出|だ}し{惜|お}しみしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{出|だ}し{惜|お}しみしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{出|だ}し{惜|お}しみしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{出|だ}し{惜|お}しみできる",
+        "negative": "{出|だ}し{惜|お}しみできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{出|だ}し{惜|お}しみされる",
+        "negative": "{出|だ}し{惜|お}しみされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{出|だ}し{惜|お}しみさせる",
+        "negative": "{出|だ}し{惜|お}しみさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{出|だ}し{惜|お}しみしろ",
+        "negative": "{出|だ}し{惜|お}しみするな"
+      }
+    ]
   }
 }

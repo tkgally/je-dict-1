@@ -21,7 +21,9 @@
       "id": "09137_modaeru_ex1",
       "japanese": "{痛|いた}みに{悶|もだ}える",
       "english": "to writhe in pain",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -29,7 +31,9 @@
       "id": "09137_modaeru_ex2",
       "japanese": "{苦|くる}しさに{悶|もだ}えながら{夜|よる}を{過|す}ごした。",
       "english": "I spent the night writhing in agony.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -37,7 +41,9 @@
       "id": "09137_modaeru_ex3",
       "japanese": "{腹痛|ふくつう}で{床|ゆか}に{倒|たお}れて{悶|もだ}えた。",
       "english": "I collapsed on the floor writhing from stomach pain.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -45,7 +51,9 @@
       "id": "09137_modaeru_ex4",
       "japanese": "{嫉妬|しっと}に{悶|もだ}える",
       "english": "to be tormented by jealousy",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -53,7 +61,9 @@
       "id": "09137_modaeru_ex5",
       "japanese": "{恋|こい}に{悶|もだ}える{若者|わかもの}",
       "english": "a young person tormented by love",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -61,7 +71,9 @@
       "id": "09137_modaeru_ex6",
       "japanese": "{答|こた}えが{出|で}ない{問題|もんだい}に{悶|もだ}え{続|つづ}けた。",
       "english": "I kept agonizing over a problem with no answer.",
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -74,11 +86,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "action"]
+      "semantic": [
+        "emotion",
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{悶|もだ}える",
+        "negative": "{悶|もだ}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{悶|もだ}えます",
+        "negative": "{悶|もだ}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{悶|もだ}えた",
+        "negative": "{悶|もだ}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{悶|もだ}えました",
+        "negative": "{悶|もだ}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{悶|もだ}えて",
+        "negative": "{悶|もだ}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{悶|もだ}えている",
+        "negative": "{悶|もだ}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{悶|もだ}えています",
+        "negative": "{悶|もだ}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{悶|もだ}えていた",
+        "negative": "{悶|もだ}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{悶|もだ}えていました",
+        "negative": "{悶|もだ}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{悶|もだ}えれば",
+        "negative": "{悶|もだ}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{悶|もだ}えたら",
+        "negative": "{悶|もだ}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{悶|もだ}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{悶|もだ}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{悶|もだ}えられる",
+        "negative": "{悶|もだ}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{悶|もだ}えられる",
+        "negative": "{悶|もだ}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{悶|もだ}えさせる",
+        "negative": "{悶|もだ}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{悶|もだ}えろ",
+        "negative": "{悶|もだ}えるな"
+      }
+    ]
   }
 }

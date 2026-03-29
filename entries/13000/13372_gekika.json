@@ -19,7 +19,9 @@
       "english": "Competition is intensifying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13372_gekika_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a risk that the conflict will escalate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13372_gekika_ex3",
@@ -35,7 +39,9 @@
       "english": "It is said that natural disasters are intensifying due to the effects of global warming.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in news and formal writing to describe situations that are becoming more severe. Typically appears as {激化|げきか}する (to intensify) or {激化|げきか}している (is intensifying).\n\nCOMMON COLLOCATIONS:\n- {競争|きょうそう}が{激化|げきか}する: competition intensifies\n- {紛争|ふんそう}が{激化|げきか}する: a conflict escalates\n- {対立|たいりつ}が{激化|げきか}する: opposition intensifies\n- {激化|げきか}の{一途|いっと}をたどる: to continue to escalate",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["change"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "change"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{激化|げきか}する",
+        "negative": "{激化|げきか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{激化|げきか}します",
+        "negative": "{激化|げきか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{激化|げきか}した",
+        "negative": "{激化|げきか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{激化|げきか}しました",
+        "negative": "{激化|げきか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{激化|げきか}して",
+        "negative": "{激化|げきか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{激化|げきか}している",
+        "negative": "{激化|げきか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{激化|げきか}しています",
+        "negative": "{激化|げきか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{激化|げきか}していた",
+        "negative": "{激化|げきか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{激化|げきか}していました",
+        "negative": "{激化|げきか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{激化|げきか}すれば",
+        "negative": "{激化|げきか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{激化|げきか}したら",
+        "negative": "{激化|げきか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{激化|げきか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{激化|げきか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{激化|げきか}できる",
+        "negative": "{激化|げきか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{激化|げきか}される",
+        "negative": "{激化|げきか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{激化|げきか}させる",
+        "negative": "{激化|げきか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{激化|げきか}しろ",
+        "negative": "{激化|げきか}するな"
+      }
+    ]
   }
 }

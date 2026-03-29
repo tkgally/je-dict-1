@@ -24,7 +24,9 @@
       "english": "To keep one's figure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10839_kiipu_ex2",
@@ -32,7 +34,9 @@
       "english": "I want to maintain these grades.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10839_kiipu_ex3",
@@ -40,7 +44,9 @@
       "english": "It's tough to maintain a good relationship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10839_kiipu_ex4",
@@ -48,7 +54,9 @@
       "english": "Can I keep a bottle here?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10839_kiipu_ex5",
@@ -56,7 +64,9 @@
       "english": "The bottle I kept from last time is still here.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10839_kiipu_ex6",
@@ -64,7 +74,9 @@
       "english": "At that izakaya, the bottle keep period is three months.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "From English \"keep.\" Used as a suru verb (キープする).\n\nSENSE 1 — MAINTAIN:\nBroadly used for maintaining conditions, standards, or states.\n\nCOMMON PATTERNS:\n- {体型|たいけい}をキープする: to maintain one's figure\n- ペースをキープする: to keep one's pace\n- {距離|きょり}をキープする: to keep one's distance\n\nSENSE 2 — BOTTLE KEEP:\nA distinctly Japanese custom where bars and izakaya store a customer's unfinished bottle (usually whisky or shochu) with a name tag. The customer can return and continue drinking from it.",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "キープする",
+        "negative": "キープしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "キープします",
+        "negative": "キープしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "キープした",
+        "negative": "キープしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "キープしました",
+        "negative": "キープしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "キープして",
+        "negative": "キープしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "キープしている",
+        "negative": "キープしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "キープしています",
+        "negative": "キープしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "キープしていた",
+        "negative": "キープしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "キープしていました",
+        "negative": "キープしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "キープすれば",
+        "negative": "キープしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "キープしたら",
+        "negative": "キープしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "キープしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "キープしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "キープできる",
+        "negative": "キープできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "キープされる",
+        "negative": "キープされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "キープさせる",
+        "negative": "キープさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "キープしろ",
+        "negative": "キープするな"
+      }
+    ]
   }
 }

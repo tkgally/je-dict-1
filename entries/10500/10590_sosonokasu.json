@@ -19,7 +19,9 @@
       "english": "To instigate someone into doing something bad.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10590_sosonokasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I was talked into skipping class by my friend.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10590_sosonokasu_ex3",
@@ -35,7 +39,9 @@
       "english": "He was arrested for instigating a subordinate into participating in fraud.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION (godan-su):\n- Negative: そそのかさない\n- Te-form: そそのかして\n- Past: そそのかした\n- Passive: そそのかされる\n\nTRANSITIVITY:\nTransitive. Takes を for the person being instigated.\n\nUSAGE:\nAlways carries a negative connotation. The person doing the そそのかす is leading someone astray. The passive form そそのかされる (to be instigated, to be egged on) is very common and is often used as a partial excuse for one's own wrongdoing.\n\nCOMMON COLLOCATIONS:\n- {人|ひと}をそそのかす: to instigate someone\n- そそのかされる: to be egged on, to be talked into\n- {悪事|あくじ}をそそのかす: to incite wrongdoing",
@@ -46,12 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "verb_class": "godan-su",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "そそのかす",
+        "negative": "そそのかさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "そそのかします",
+        "negative": "そそのかしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "そそのかした",
+        "negative": "そそのかさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "そそのかしました",
+        "negative": "そそのかしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "そそのかして",
+        "negative": "そそのかさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "そそのかしている",
+        "negative": "そそのかしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "そそのかしています",
+        "negative": "そそのかしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "そそのかしていた",
+        "negative": "そそのかしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "そそのかしていました",
+        "negative": "そそのかしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "そそのかせば",
+        "negative": "そそのかさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "そそのかしたら",
+        "negative": "そそのかさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "そそのかそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "そそのかしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "そそのかせる",
+        "negative": "そそのかせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "そそのかされる",
+        "negative": "そそのかされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "そそのかさせる",
+        "negative": "そそのかさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "そそのかせ",
+        "negative": "そそのかすな"
+      }
+    ]
   }
 }

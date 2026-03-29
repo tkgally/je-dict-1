@@ -19,7 +19,9 @@
       "english": "I was on the edge of my seat watching the game.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16932_haraharasuru_ex2",
@@ -27,7 +29,9 @@
       "english": "My child was climbing a tall tree, and I was watching nervously.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16932_haraharasuru_ex3",
@@ -35,7 +39,9 @@
       "english": "His driving is so rough that just sitting in the passenger seat makes me nervous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nDescribes the feeling of anxious anticipation while observing a situation. The anxiety comes from worrying about someone else or about an uncertain outcome, not from personal danger. Often used for watching sports, performances, or someone doing something risky.\n\nONOMATOPOEIA:\nハラハラ can also describe petals or tears falling lightly, but as ハラハラする it specifically means nervous anxiety.\n\nCOMMON PATTERNS:\n- ハラハラさせる (to make someone nervous)\n- ハラハラさせられる (to be made nervous by)\n- ハラハラドキドキ (nervous and excited — a common combination)\n\nSIMILAR WORDS:\n- ドキドキする: to be excited, heart pounding — can be positive excitement or nervousness\n- ヒヤヒヤする: to be frightened, to have a close call — focuses on fear of a bad outcome\n- {手|て}に{汗|あせ}{握|にぎ}る: to be gripping with sweaty palms — literary, for intense suspense",
@@ -46,11 +52,108 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru", "onomatopoeia"],
+      "pos": [
+        "verb-suru",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion", "onomatopoeia"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "emotion",
+        "onomatopoeia"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ハラハラする",
+        "negative": "ハラハラしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ハラハラします",
+        "negative": "ハラハラしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ハラハラした",
+        "negative": "ハラハラしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ハラハラしました",
+        "negative": "ハラハラしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ハラハラして",
+        "negative": "ハラハラしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ハラハラしている",
+        "negative": "ハラハラしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ハラハラしています",
+        "negative": "ハラハラしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ハラハラしていた",
+        "negative": "ハラハラしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ハラハラしていました",
+        "negative": "ハラハラしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ハラハラすれば",
+        "negative": "ハラハラしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ハラハラしたら",
+        "negative": "ハラハラしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ハラハラしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ハラハラしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ハラハラできる",
+        "negative": "ハラハラできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ハラハラされる",
+        "negative": "ハラハラされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ハラハラさせる",
+        "negative": "ハラハラさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ハラハラしろ",
+        "negative": "ハラハラするな"
+      }
+    ]
   }
 }

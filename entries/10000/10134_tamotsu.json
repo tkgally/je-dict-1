@@ -18,7 +18,9 @@
       "english": "I want to maintain good posture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10134_tamotsu_ex2",
@@ -26,7 +28,9 @@
       "english": "I exercise to maintain my health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10134_tamotsu_ex3",
@@ -34,7 +38,9 @@
       "english": "To keep one's distance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TRANSITIVITY: Transitive ({他動詞|たどうし}).\n\nASPECT: {保|たも}っている indicates ongoing maintenance of a state.\n\nCOMMON PATTERNS:\n・Xを{保|たも}つ (to maintain X)\n・{健康|けんこう}を{保|たも}つ (to maintain health)\n・{品質|ひんしつ}を{保|たも}つ (to maintain quality)\n・{関係|かんけい}を{保|たも}つ (to maintain a relationship)\n・{距離|きょり}を{保|たも}つ (to keep distance)\n\nSIMILAR WORDS:\n・{維持|いじ}する (to maintain - more formal)\n・{守|まも}る (to protect/keep)",
@@ -44,11 +50,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-tsu"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{保|たも}つ",
+        "negative": "{保|たも}たない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{保|たも}ちます",
+        "negative": "{保|たも}ちません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{保|たも}った",
+        "negative": "{保|たも}たなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{保|たも}ちました",
+        "negative": "{保|たも}ちませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{保|たも}って",
+        "negative": "{保|たも}たなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{保|たも}っている",
+        "negative": "{保|たも}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{保|たも}っています",
+        "negative": "{保|たも}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{保|たも}っていた",
+        "negative": "{保|たも}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{保|たも}っていました",
+        "negative": "{保|たも}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{保|たも}てば",
+        "negative": "{保|たも}たなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{保|たも}ったら",
+        "negative": "{保|たも}たなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{保|たも}とう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{保|たも}ちましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{保|たも}てる",
+        "negative": "{保|たも}てない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{保|たも}たれる",
+        "negative": "{保|たも}たれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{保|たも}たせる",
+        "negative": "{保|たも}たせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{保|たも}て",
+        "negative": "{保|たも}つな"
+      }
+    ]
   }
 }

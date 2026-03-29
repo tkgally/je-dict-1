@@ -17,21 +17,27 @@
       "japanese": "{外出|がいしゅつ}を{自粛|じしゅく}する。",
       "english": "To refrain from going out.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07650_jishuku_ex2",
       "japanese": "{自粛|じしゅく}{要請|ようせい}が{出|で}された。",
       "english": "A request for voluntary restraint was issued.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "07650_jishuku_ex3",
       "japanese": "コロナ{禍|か}で{営業|えいぎょう}{自粛|じしゅく}を{余儀|よぎ}なくされた。",
       "english": "We were forced to voluntarily suspend business during the pandemic.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n・{外出|がいしゅつ}{自粛|じしゅく} - refraining from going out\n・{営業|えいぎょう}{自粛|じしゅく} - voluntary business closure\n・{自粛|じしゅく}{要請|ようせい} - request for voluntary restraint\n・{自粛|じしゅく}ムード - atmosphere of self-restraint\n・{自粛|じしゅく}{期間|きかん} - period of self-restraint\n\nCULTURAL NOTE:\nThis word became very prominent during the COVID-19 pandemic in Japan, where the government often issued {自粛|じしゅく}{要請|ようせい} (requests for voluntary restraint) rather than legally binding orders. The concept reflects Japanese cultural values of social harmony and voluntary compliance.\n\nRELATED WORDS:\n・{自制|じせい} - self-control (individual restraint)\n・{規制|きせい} - regulation (official rules)",
@@ -41,10 +47,107 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["social", "restraint"],
-      "domain": []
+      "semantic": [
+        "social",
+        "restraint"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{自粛|じしゅく}する",
+        "negative": "{自粛|じしゅく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{自粛|じしゅく}します",
+        "negative": "{自粛|じしゅく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{自粛|じしゅく}した",
+        "negative": "{自粛|じしゅく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{自粛|じしゅく}しました",
+        "negative": "{自粛|じしゅく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{自粛|じしゅく}して",
+        "negative": "{自粛|じしゅく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{自粛|じしゅく}している",
+        "negative": "{自粛|じしゅく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{自粛|じしゅく}しています",
+        "negative": "{自粛|じしゅく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{自粛|じしゅく}していた",
+        "negative": "{自粛|じしゅく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{自粛|じしゅく}していました",
+        "negative": "{自粛|じしゅく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{自粛|じしゅく}すれば",
+        "negative": "{自粛|じしゅく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{自粛|じしゅく}したら",
+        "negative": "{自粛|じしゅく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{自粛|じしゅく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{自粛|じしゅく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{自粛|じしゅく}できる",
+        "negative": "{自粛|じしゅく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{自粛|じしゅく}される",
+        "negative": "{自粛|じしゅく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{自粛|じしゅく}させる",
+        "negative": "{自粛|じしゅく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{自粛|じしゅく}しろ",
+        "negative": "{自粛|じしゅく}するな"
+      }
+    ]
   }
 }

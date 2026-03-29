@@ -19,7 +19,9 @@
       "english": "I used hair styling product to arrange my hair.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15795_seihatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "You should groom your hair before the interview.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15795_seihatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "Styling my hair takes time every morning, so I'm thinking of switching to a shorter hairstyle.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{整髪|せいはつ} is most commonly encountered in the compound {整髪料|せいはつりょう} (hair styling product — gel, wax, mousse, etc.). On its own, it sounds somewhat formal.\n\nCOMMON COLLOCATIONS:\n- {整髪料|せいはつりょう} (hair styling product)\n- {整髪|せいはつ}する (style/groom one's hair)\n- {整髪|せいはつ}スプレー (hairspray)\n\nSIMILAR WORDS:\nセット refers to styling hair and is the common casual term (e.g., {髪|かみ}をセットする). {整髪|せいはつ} is more formal. ヘアスタイリング is the loanword equivalent used in fashion contexts.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["body", "daily-life"]
+      "semantic": [
+        "body",
+        "daily-life"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{整髪|せいはつ}する",
+        "negative": "{整髪|せいはつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{整髪|せいはつ}します",
+        "negative": "{整髪|せいはつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{整髪|せいはつ}した",
+        "negative": "{整髪|せいはつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{整髪|せいはつ}しました",
+        "negative": "{整髪|せいはつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{整髪|せいはつ}して",
+        "negative": "{整髪|せいはつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{整髪|せいはつ}している",
+        "negative": "{整髪|せいはつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{整髪|せいはつ}しています",
+        "negative": "{整髪|せいはつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{整髪|せいはつ}していた",
+        "negative": "{整髪|せいはつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{整髪|せいはつ}していました",
+        "negative": "{整髪|せいはつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{整髪|せいはつ}すれば",
+        "negative": "{整髪|せいはつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{整髪|せいはつ}したら",
+        "negative": "{整髪|せいはつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{整髪|せいはつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{整髪|せいはつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{整髪|せいはつ}できる",
+        "negative": "{整髪|せいはつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{整髪|せいはつ}される",
+        "negative": "{整髪|せいはつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{整髪|せいはつ}させる",
+        "negative": "{整髪|せいはつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{整髪|せいはつ}しろ",
+        "negative": "{整髪|せいはつ}するな"
+      }
+    ]
   }
 }

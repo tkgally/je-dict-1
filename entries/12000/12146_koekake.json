@@ -19,7 +19,9 @@
       "english": "To speak to someone who is in trouble.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12146_koekake_ex2",
@@ -27,7 +29,9 @@
       "english": "I felt encouraged by the teacher reaching out to me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12146_koekake_ex3",
@@ -35,7 +39,9 @@
       "english": "I participate in community outreach activities for elderly residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in social welfare, education, and community contexts to describe the act of proactively reaching out to someone. Carries a nuance of warmth and initiative. The verb form {声|こえ}かけする is also common.\n\nCOMMON COLLOCATIONS:\n- {声|こえ}かけをする: to call out to, to reach out to\n- {声|こえ}かけ{運動|うんどう}: outreach campaign\n- {声|こえ}かけ{活動|かつどう}: outreach activities\n- {積極的|せっきょくてき}な{声|こえ}かけ: proactive outreach",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{声|こえ}かけする",
+        "negative": "{声|こえ}かけしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{声|こえ}かけします",
+        "negative": "{声|こえ}かけしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{声|こえ}かけした",
+        "negative": "{声|こえ}かけしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{声|こえ}かけしました",
+        "negative": "{声|こえ}かけしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{声|こえ}かけして",
+        "negative": "{声|こえ}かけしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{声|こえ}かけしている",
+        "negative": "{声|こえ}かけしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{声|こえ}かけしています",
+        "negative": "{声|こえ}かけしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{声|こえ}かけしていた",
+        "negative": "{声|こえ}かけしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{声|こえ}かけしていました",
+        "negative": "{声|こえ}かけしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{声|こえ}かけすれば",
+        "negative": "{声|こえ}かけしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{声|こえ}かけしたら",
+        "negative": "{声|こえ}かけしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{声|こえ}かけしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{声|こえ}かけしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{声|こえ}かけできる",
+        "negative": "{声|こえ}かけできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{声|こえ}かけされる",
+        "negative": "{声|こえ}かけされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{声|こえ}かけさせる",
+        "negative": "{声|こえ}かけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{声|こえ}かけしろ",
+        "negative": "{声|こえ}かけするな"
+      }
+    ]
   }
 }

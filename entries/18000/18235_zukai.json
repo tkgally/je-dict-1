@@ -19,7 +19,9 @@
       "english": "I explain it clearly using a diagram.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18235_zukai_ex2",
@@ -27,7 +29,9 @@
       "english": "This textbook has many diagrams and is easy to understand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18235_zukai_ex3",
@@ -35,7 +39,9 @@
       "english": "I found an article that explains the mechanism with illustrations.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used in publishing, education, and presentations. {図解|ずかい}する means to illustrate or explain with diagrams. Very common in book titles, especially for introductory or reference works.\n\nCOMMON COLLOCATIONS:\n- {図解|ずかい}つき (with illustrations; illustrated)\n- {図解|ずかい}で{説明|せつめい}する (to explain with diagrams)\n- {図解|ずかい}{入門|にゅうもん} (illustrated introduction — common book title format)\n- {図解|ずかい}{事典|じてん} (illustrated encyclopedia)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{図解|ずかい}する",
+        "negative": "{図解|ずかい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{図解|ずかい}します",
+        "negative": "{図解|ずかい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{図解|ずかい}した",
+        "negative": "{図解|ずかい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{図解|ずかい}しました",
+        "negative": "{図解|ずかい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{図解|ずかい}して",
+        "negative": "{図解|ずかい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{図解|ずかい}している",
+        "negative": "{図解|ずかい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{図解|ずかい}しています",
+        "negative": "{図解|ずかい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{図解|ずかい}していた",
+        "negative": "{図解|ずかい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{図解|ずかい}していました",
+        "negative": "{図解|ずかい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{図解|ずかい}すれば",
+        "negative": "{図解|ずかい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{図解|ずかい}したら",
+        "negative": "{図解|ずかい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{図解|ずかい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{図解|ずかい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{図解|ずかい}できる",
+        "negative": "{図解|ずかい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{図解|ずかい}される",
+        "negative": "{図解|ずかい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{図解|ずかい}させる",
+        "negative": "{図解|ずかい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{図解|ずかい}しろ",
+        "negative": "{図解|ずかい}するな"
+      }
+    ]
   }
 }

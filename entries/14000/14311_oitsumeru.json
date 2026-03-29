@@ -19,7 +19,9 @@
       "english": "They cornered the criminal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14311_oitsumeru_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm suffering, driven into a corner by debt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14311_oitsumeru_ex3",
@@ -35,7 +39,9 @@
       "english": "If you push yourself too hard, both your mind and body will break down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{追|お}い{詰|つ}める is a transitive ichidan verb formed from {追|お}う (to chase) + {詰|つ}める (to pack in, to close in).\n\nASPECT (ている):\n{追|お}い{詰|つ}めている describes the ongoing process of cornering someone. {追|お}い{詰|つ}められている describes being in a cornered state.\n\nPARTICLE PATTERNS:\n- Aを{追|お}い{詰|つ}める (corner A)\n- Aに{追|お}い{詰|つ}められる (be cornered by A)\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}を{追|お}い{詰|つ}める (corner a criminal)\n- {精神的|せいしんてき}に{追|お}い{詰|つ}める (push someone psychologically)\n- {自分|じぶん}を{追|お}い{詰|つ}める (push oneself too hard)\n- {追|お}い{詰|つ}められた{状況|じょうきょう} (a cornered situation)\n\nThe passive form {追|お}い{詰|つ}められる is very common, describing the experience of being under extreme pressure.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{追|お}い{詰|つ}める",
+        "negative": "{追|お}い{詰|つ}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{追|お}い{詰|つ}めます",
+        "negative": "{追|お}い{詰|つ}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{追|お}い{詰|つ}めた",
+        "negative": "{追|お}い{詰|つ}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{追|お}い{詰|つ}めました",
+        "negative": "{追|お}い{詰|つ}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{追|お}い{詰|つ}めて",
+        "negative": "{追|お}い{詰|つ}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{追|お}い{詰|つ}めている",
+        "negative": "{追|お}い{詰|つ}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{追|お}い{詰|つ}めています",
+        "negative": "{追|お}い{詰|つ}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{追|お}い{詰|つ}めていた",
+        "negative": "{追|お}い{詰|つ}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{追|お}い{詰|つ}めていました",
+        "negative": "{追|お}い{詰|つ}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{追|お}い{詰|つ}めれば",
+        "negative": "{追|お}い{詰|つ}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{追|お}い{詰|つ}めたら",
+        "negative": "{追|お}い{詰|つ}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{追|お}い{詰|つ}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{追|お}い{詰|つ}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{追|お}い{詰|つ}められる",
+        "negative": "{追|お}い{詰|つ}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{追|お}い{詰|つ}められる",
+        "negative": "{追|お}い{詰|つ}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{追|お}い{詰|つ}めさせる",
+        "negative": "{追|お}い{詰|つ}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{追|お}い{詰|つ}めろ",
+        "negative": "{追|お}い{詰|つ}めるな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "His life was saved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15466_toritomeru_ex2",
@@ -27,7 +29,9 @@
       "english": "Thanks to the surgery, his life was saved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15466_toritomeru_ex3",
@@ -35,7 +39,9 @@
       "english": "He was in an accident but miraculously survived and regained consciousness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost exclusively used in the pattern {命|いのち}を{取|と}り{留|と}める or {一命|いちめい}を{取|と}り{留|と}める. Rarely used with other objects.\n\nCOMMON PATTERNS:\n- {命|いのち}を{取|と}り{留|と}める (to survive, to have one's life saved)\n- {一命|いちめい}を{取|と}り{留|と}める (to barely survive — more formal/dramatic)\n- {何|なん}とか{命|いのち}を{取|と}り{留|と}めた (somehow managed to survive)\n\nRELATED:\n- とりとめのない (rambling, incoherent — a separate, common expression from the same root)\n- {九死|きゅうし}に{一生|いっしょう}を{得|え}る (to have a narrow escape from death)",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"],
-      "transitivity": "transitive"
+      "semantic": [
+        "existence"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}り{留|と}める",
+        "negative": "{取|と}り{留|と}めない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}り{留|と}めます",
+        "negative": "{取|と}り{留|と}めません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}り{留|と}めた",
+        "negative": "{取|と}り{留|と}めなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}り{留|と}めました",
+        "negative": "{取|と}り{留|と}めませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}り{留|と}めて",
+        "negative": "{取|と}り{留|と}めなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}り{留|と}めている",
+        "negative": "{取|と}り{留|と}めていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}り{留|と}めています",
+        "negative": "{取|と}り{留|と}めていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}り{留|と}めていた",
+        "negative": "{取|と}り{留|と}めていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}り{留|と}めていました",
+        "negative": "{取|と}り{留|と}めていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}り{留|と}めれば",
+        "negative": "{取|と}り{留|と}めなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}り{留|と}めたら",
+        "negative": "{取|と}り{留|と}めなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}り{留|と}めよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}り{留|と}めましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}り{留|と}められる",
+        "negative": "{取|と}り{留|と}められない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}り{留|と}められる",
+        "negative": "{取|と}り{留|と}められない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}り{留|と}めさせる",
+        "negative": "{取|と}り{留|と}めさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}り{留|と}めろ",
+        "negative": "{取|と}り{留|と}めるな"
+      }
+    ]
   }
 }

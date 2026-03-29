@@ -19,7 +19,9 @@
       "english": "Dodge a ball.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14848_yokeru_ex2",
@@ -27,7 +29,9 @@
       "english": "A car was coming, so I stepped to the side of the road.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14848_yokeru_ex3",
@@ -35,7 +39,9 @@
       "english": "While walking and stepping around puddles, a bicycle came from behind and I hurriedly jumped out of the way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{避|よ}ける (ichidan verb, reading よける) focuses on the physical act of dodging or stepping aside. The same kanji {避|さ}ける (also ichidan, reading さける) means to avoid or keep away from in a broader sense — avoiding people, topics, risks, etc.\n\nSIMILAR WORDS:\n- {避|さ}ける (さける) — to avoid in general (abstract or physical); broader meaning\n- {避|よ}ける (よける) — specifically to dodge or physically get out of the way; more concrete\n- {躱|かわ}す — to dodge skillfully, often used in martial arts and sports\n\nPARTICLE PATTERNS:\n- AをBに{避|よ}ける is not used; instead: Aを{避|よ}ける (dodge A)\n- {道|みち}を{避|よ}ける (get out of the way)\n\nCOMMON COLLOCATIONS:\n- ボールを{避|よ}ける (dodge a ball)\n- {車|くるま}を{避|よ}ける (get out of the way of a car)\n- {水|みず}たまりを{避|よ}ける (step around a puddle)",
@@ -54,11 +60,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{避|よ}ける",
+        "negative": "{避|よ}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{避|よ}けます",
+        "negative": "{避|よ}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{避|よ}けた",
+        "negative": "{避|よ}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{避|よ}けました",
+        "negative": "{避|よ}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{避|よ}けて",
+        "negative": "{避|よ}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{避|よ}けている",
+        "negative": "{避|よ}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{避|よ}けています",
+        "negative": "{避|よ}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{避|よ}けていた",
+        "negative": "{避|よ}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{避|よ}けていました",
+        "negative": "{避|よ}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{避|よ}ければ",
+        "negative": "{避|よ}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{避|よ}けたら",
+        "negative": "{避|よ}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{避|よ}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{避|よ}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{避|よ}けられる",
+        "negative": "{避|よ}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{避|よ}けられる",
+        "negative": "{避|よ}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{避|よ}けさせる",
+        "negative": "{避|よ}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{避|よ}けろ",
+        "negative": "{避|よ}けるな"
+      }
+    ]
   }
 }

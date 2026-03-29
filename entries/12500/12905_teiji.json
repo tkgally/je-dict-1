@@ -19,7 +19,9 @@
       "english": "Please show your identification.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12905_teiji_ex2",
@@ -27,7 +29,9 @@
       "english": "New conditions were presented by the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12905_teiji_ex3",
@@ -35,7 +39,9 @@
       "english": "The lawyer presented crucial evidence at the trial, and the tide turned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as both a noun and a suru verb. Covers a range of contexts: showing ID or tickets, presenting evidence, offering terms or proposals. The act implies deliberately putting something forward for another person to see or consider. More formal than {見|み}せる (to show).\n\nCOMMON COLLOCATIONS:\n- {身分証|みぶんしょう}を{提示|ていじ}する: to present identification\n- {条件|じょうけん}を{提示|ていじ}する: to present conditions\n- {証拠|しょうこ}を{提示|ていじ}する: to present evidence\n- {価格|かかく}を{提示|ていじ}する: to quote a price\n\nSIMILAR WORDS:\n- {提出|ていしゅつ}: submission (handing over documents formally)\n- {掲示|けいじ}: posting, notice (displaying for public view)\n- {表示|ひょうじ}: display, indication (on screens or labels)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{提示|ていじ}する",
+        "negative": "{提示|ていじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{提示|ていじ}します",
+        "negative": "{提示|ていじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{提示|ていじ}した",
+        "negative": "{提示|ていじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{提示|ていじ}しました",
+        "negative": "{提示|ていじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{提示|ていじ}して",
+        "negative": "{提示|ていじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{提示|ていじ}している",
+        "negative": "{提示|ていじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{提示|ていじ}しています",
+        "negative": "{提示|ていじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{提示|ていじ}していた",
+        "negative": "{提示|ていじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{提示|ていじ}していました",
+        "negative": "{提示|ていじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{提示|ていじ}すれば",
+        "negative": "{提示|ていじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{提示|ていじ}したら",
+        "negative": "{提示|ていじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{提示|ていじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{提示|ていじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{提示|ていじ}できる",
+        "negative": "{提示|ていじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{提示|ていじ}される",
+        "negative": "{提示|ていじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{提示|ていじ}させる",
+        "negative": "{提示|ていじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{提示|ていじ}しろ",
+        "negative": "{提示|ていじ}するな"
+      }
+    ]
   }
 }

@@ -22,7 +22,9 @@
       "japanese": "{酵素|こうそ}が{活性化|かっせいか}する。",
       "english": "The enzyme becomes activated.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{脳|のう}を{活性化|かっせいか}させるために{運動|うんどう}をする。",
       "english": "I exercise to stimulate my brain.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "ビタミンCが{免疫|めんえき}システムを{活性化|かっせいか}する。",
       "english": "Vitamin C activates the immune system.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{地域|ちいき}{経済|けいざい}の{活性化|かっせいか}を{目指|めざ}す。",
       "english": "We aim for the revitalization of the local economy.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{商店街|しょうてんがい}の{活性化|かっせいか}のためにイベントを{開|ひら}いた。",
       "english": "We held an event to revitalize the shopping district.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{観光|かんこう}を{通|つう}じて{地方|ちほう}の{活性化|かっせいか}を{図|はか}る。",
       "english": "We aim to revitalize rural areas through tourism.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -73,9 +85,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
-      "semantic": ["change", "process"]
+      "semantic": [
+        "change",
+        "process"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{活性化|かっせいか}する",
+        "negative": "{活性化|かっせいか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{活性化|かっせいか}します",
+        "negative": "{活性化|かっせいか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{活性化|かっせいか}した",
+        "negative": "{活性化|かっせいか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{活性化|かっせいか}しました",
+        "negative": "{活性化|かっせいか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{活性化|かっせいか}して",
+        "negative": "{活性化|かっせいか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{活性化|かっせいか}している",
+        "negative": "{活性化|かっせいか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{活性化|かっせいか}しています",
+        "negative": "{活性化|かっせいか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{活性化|かっせいか}していた",
+        "negative": "{活性化|かっせいか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{活性化|かっせいか}していました",
+        "negative": "{活性化|かっせいか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{活性化|かっせいか}すれば",
+        "negative": "{活性化|かっせいか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{活性化|かっせいか}したら",
+        "negative": "{活性化|かっせいか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{活性化|かっせいか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{活性化|かっせいか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{活性化|かっせいか}できる",
+        "negative": "{活性化|かっせいか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{活性化|かっせいか}される",
+        "negative": "{活性化|かっせいか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{活性化|かっせいか}させる",
+        "negative": "{活性化|かっせいか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{活性化|かっせいか}しろ",
+        "negative": "{活性化|かっせいか}するな"
+      }
+    ]
   }
 }

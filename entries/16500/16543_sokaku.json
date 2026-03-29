@@ -19,7 +19,9 @@
       "english": "The new prime minister formed a cabinet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16543_sokaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Attention is focused on the cabinet formation appointments.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16543_sokaku_ex3",
@@ -35,7 +39,9 @@
       "english": "In the post-election cabinet formation, the appointment of younger legislators is expected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する. A formal political term that appears frequently in news coverage after elections or when a prime minister is selected. In Japan, the prime minister selects cabinet ministers ({閣僚|かくりょう}), and the process is closely watched by the media.\n\nCOMMON COLLOCATIONS:\n- {組閣|そかく}する (to form a cabinet)\n- {組閣|そかく}{人事|じんじ} (cabinet appointments)\n- {組閣|そかく}の{見通|みとお}し (outlook for cabinet formation)\n\nSIMILAR WORDS:\n- {内閣改造|ないかくかいぞう}: cabinet reshuffle — reshuffling an existing cabinet rather than forming a new one\n- {入閣|にゅうかく}: joining the cabinet — being appointed as a cabinet minister",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{組閣|そかく}する",
+        "negative": "{組閣|そかく}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{組閣|そかく}します",
+        "negative": "{組閣|そかく}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{組閣|そかく}した",
+        "negative": "{組閣|そかく}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{組閣|そかく}しました",
+        "negative": "{組閣|そかく}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{組閣|そかく}して",
+        "negative": "{組閣|そかく}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{組閣|そかく}している",
+        "negative": "{組閣|そかく}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{組閣|そかく}しています",
+        "negative": "{組閣|そかく}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{組閣|そかく}していた",
+        "negative": "{組閣|そかく}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{組閣|そかく}していました",
+        "negative": "{組閣|そかく}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{組閣|そかく}すれば",
+        "negative": "{組閣|そかく}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{組閣|そかく}したら",
+        "negative": "{組閣|そかく}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{組閣|そかく}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{組閣|そかく}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{組閣|そかく}できる",
+        "negative": "{組閣|そかく}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{組閣|そかく}される",
+        "negative": "{組閣|そかく}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{組閣|そかく}させる",
+        "negative": "{組閣|そかく}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{組閣|そかく}しろ",
+        "negative": "{組閣|そかく}するな"
+      }
+    ]
   }
 }

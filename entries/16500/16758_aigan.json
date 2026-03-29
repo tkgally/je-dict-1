@@ -19,7 +19,9 @@
       "english": "To gaze with pleading eyes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16758_aigan_ex2",
@@ -27,7 +29,9 @@
       "english": "The child said \"please\" in a pleading tone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16758_aigan_ex3",
@@ -35,7 +39,9 @@
       "english": "He pleaded tearfully, but his plea was not accepted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a suru verb ({哀願|あいがん}する) or as a noun modifier. Carries a strong emotional nuance — the person is desperately begging. Common in literary and dramatic contexts.\n\nCOMMON COLLOCATIONS:\n- {哀願|あいがん}する (to plead, to implore)\n- {哀願|あいがん}の{目|め} (pleading eyes)\n- {哀願|あいがん}の{声|こえ} (pleading voice)\n\nSIMILAR WORDS:\n- {懇願|こんがん}: earnest entreaty — similar intensity, slightly more formal\n- {嘆願|たんがん}: petition, appeal — more formal, often used for official requests",
@@ -46,12 +52,112 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["written", "literary"],
-      "semantic": ["emotion", "communication"]
+      "style": [
+        "written",
+        "literary"
+      ],
+      "semantic": [
+        "emotion",
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{哀願|あいがん}する",
+        "negative": "{哀願|あいがん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{哀願|あいがん}します",
+        "negative": "{哀願|あいがん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{哀願|あいがん}した",
+        "negative": "{哀願|あいがん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{哀願|あいがん}しました",
+        "negative": "{哀願|あいがん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{哀願|あいがん}して",
+        "negative": "{哀願|あいがん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{哀願|あいがん}している",
+        "negative": "{哀願|あいがん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{哀願|あいがん}しています",
+        "negative": "{哀願|あいがん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{哀願|あいがん}していた",
+        "negative": "{哀願|あいがん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{哀願|あいがん}していました",
+        "negative": "{哀願|あいがん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{哀願|あいがん}すれば",
+        "negative": "{哀願|あいがん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{哀願|あいがん}したら",
+        "negative": "{哀願|あいがん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{哀願|あいがん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{哀願|あいがん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{哀願|あいがん}できる",
+        "negative": "{哀願|あいがん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{哀願|あいがん}される",
+        "negative": "{哀願|あいがん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{哀願|あいがん}させる",
+        "negative": "{哀願|あいがん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{哀願|あいがん}しろ",
+        "negative": "{哀願|あいがん}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "Congratulations on your pregnancy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12227_ninshin_ex2",
@@ -27,7 +29,9 @@
       "english": "It's better to refrain from alcohol during pregnancy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12227_ninshin_ex3",
@@ -35,7 +39,9 @@
       "english": "Everyone was happy to hear that our friend had become pregnant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "COMMON COLLOCATIONS:\n- {妊娠|にんしん}する: to become pregnant\n- {妊娠|にんしん}{中|ちゅう}: during pregnancy\n- {妊娠|にんしん}{検査|けんさ}: pregnancy test\n- {妊娠|にんしん}〜{週|しゅう}: (number) weeks pregnant\n- {妊娠|にんしん}{初期|しょき}: early pregnancy\n\nRELATED VOCABULARY:\n- {妊婦|にんぷ}: pregnant woman\n- {出産|しゅっさん}: childbirth\n- {産婦人科|さんふじんか}: obstetrics and gynecology\n- {安定期|あんていき}: stable period (of pregnancy, usually after week 16)",
@@ -53,11 +59,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{妊娠|にんしん}する",
+        "negative": "{妊娠|にんしん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{妊娠|にんしん}します",
+        "negative": "{妊娠|にんしん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{妊娠|にんしん}した",
+        "negative": "{妊娠|にんしん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{妊娠|にんしん}しました",
+        "negative": "{妊娠|にんしん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{妊娠|にんしん}して",
+        "negative": "{妊娠|にんしん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{妊娠|にんしん}している",
+        "negative": "{妊娠|にんしん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{妊娠|にんしん}しています",
+        "negative": "{妊娠|にんしん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{妊娠|にんしん}していた",
+        "negative": "{妊娠|にんしん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{妊娠|にんしん}していました",
+        "negative": "{妊娠|にんしん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{妊娠|にんしん}すれば",
+        "negative": "{妊娠|にんしん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{妊娠|にんしん}したら",
+        "negative": "{妊娠|にんしん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{妊娠|にんしん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{妊娠|にんしん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{妊娠|にんしん}できる",
+        "negative": "{妊娠|にんしん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{妊娠|にんしん}される",
+        "negative": "{妊娠|にんしん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{妊娠|にんしん}させる",
+        "negative": "{妊娠|にんしん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{妊娠|にんしん}しろ",
+        "negative": "{妊娠|にんしん}するな"
+      }
+    ]
   }
 }

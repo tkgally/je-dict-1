@@ -19,7 +19,9 @@
       "english": "Request information disclosure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14562_kaiji_ex2",
@@ -27,7 +29,9 @@
       "english": "Companies have an obligation to disclose financial information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14562_kaiji_ex3",
@@ -35,7 +39,9 @@
       "english": "I filed a request for disclosure of personal information, but part of it was kept confidential.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A する verb used in formal, legal, and business contexts. Particularly common in discussions about corporate governance, freedom of information, and data privacy.\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}{開示|かいじ} (information disclosure)\n- {開示|かいじ}{請求|せいきゅう} (disclosure request)\n- {開示|かいじ}{義務|ぎむ} (disclosure obligation)\n- {開示|かいじ}{資料|しりょう} (disclosed documents)\n\nIn financial contexts, {適時|てきじ}{開示|かいじ} (timely disclosure) refers to the obligation of listed companies to promptly disclose material information to investors.",
@@ -46,12 +52,111 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
+      "semantic": [
+        "communication"
+      ],
       "transitivity": "transitive",
-      "domain": ["legal", "business"]
+      "domain": [
+        "legal",
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{開示|かいじ}する",
+        "negative": "{開示|かいじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{開示|かいじ}します",
+        "negative": "{開示|かいじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{開示|かいじ}した",
+        "negative": "{開示|かいじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{開示|かいじ}しました",
+        "negative": "{開示|かいじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{開示|かいじ}して",
+        "negative": "{開示|かいじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{開示|かいじ}している",
+        "negative": "{開示|かいじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{開示|かいじ}しています",
+        "negative": "{開示|かいじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{開示|かいじ}していた",
+        "negative": "{開示|かいじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{開示|かいじ}していました",
+        "negative": "{開示|かいじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{開示|かいじ}すれば",
+        "negative": "{開示|かいじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{開示|かいじ}したら",
+        "negative": "{開示|かいじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{開示|かいじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{開示|かいじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{開示|かいじ}できる",
+        "negative": "{開示|かいじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{開示|かいじ}される",
+        "negative": "{開示|かいじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{開示|かいじ}させる",
+        "negative": "{開示|かいじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{開示|かいじ}しろ",
+        "negative": "{開示|かいじ}するな"
+      }
+    ]
   }
 }

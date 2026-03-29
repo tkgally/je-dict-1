@@ -19,7 +19,9 @@
       "english": "To pick up and drop off the children.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14362_okurimukae_ex2",
@@ -27,7 +29,9 @@
       "english": "The daily school run is exhausting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14362_okurimukae_ex3",
@@ -35,7 +39,9 @@
       "english": "It would be a great help to have someone who can drive me to and from the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{送|おく}り{迎|むか}え combines {送|おく}り (sending/taking someone) and {迎|むか}え (picking up/meeting someone) into one word meaning round-trip transportation.\n\nPARTICLE PATTERNS:\n- の{送|おく}り{迎|むか}えをする (to do the pickup and drop-off for...)\n- への{送|おく}り{迎|むか}え (transportation to and from...)\n\nCOMMON COLLOCATIONS:\n- {子|こ}どもの{送|おく}り{迎|むか}え (school run for children)\n- {送|おく}り{迎|むか}えバス (shuttle bus)\n- {送|おく}り{迎|むか}えサービス (pickup and drop-off service)\n\nThis word is especially common among parents discussing daily routines with childcare and school.",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{送|おく}り{迎|むか}えする",
+        "negative": "{送|おく}り{迎|むか}えしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{送|おく}り{迎|むか}えします",
+        "negative": "{送|おく}り{迎|むか}えしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{送|おく}り{迎|むか}えした",
+        "negative": "{送|おく}り{迎|むか}えしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{送|おく}り{迎|むか}えしました",
+        "negative": "{送|おく}り{迎|むか}えしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{送|おく}り{迎|むか}えして",
+        "negative": "{送|おく}り{迎|むか}えしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{送|おく}り{迎|むか}えしている",
+        "negative": "{送|おく}り{迎|むか}えしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{送|おく}り{迎|むか}えしています",
+        "negative": "{送|おく}り{迎|むか}えしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{送|おく}り{迎|むか}えしていた",
+        "negative": "{送|おく}り{迎|むか}えしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{送|おく}り{迎|むか}えしていました",
+        "negative": "{送|おく}り{迎|むか}えしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{送|おく}り{迎|むか}えすれば",
+        "negative": "{送|おく}り{迎|むか}えしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{送|おく}り{迎|むか}えしたら",
+        "negative": "{送|おく}り{迎|むか}えしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{送|おく}り{迎|むか}えしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{送|おく}り{迎|むか}えしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{送|おく}り{迎|むか}えできる",
+        "negative": "{送|おく}り{迎|むか}えできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{送|おく}り{迎|むか}えされる",
+        "negative": "{送|おく}り{迎|むか}えされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{送|おく}り{迎|むか}えさせる",
+        "negative": "{送|おく}り{迎|むか}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{送|おく}り{迎|むか}えしろ",
+        "negative": "{送|おく}り{迎|むか}えするな"
+      }
+    ]
   }
 }

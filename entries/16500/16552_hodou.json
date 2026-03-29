@@ -19,7 +19,9 @@
       "english": "A middle school student was taken into protective custody.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16552_hodou_ex2",
@@ -27,7 +29,9 @@
       "english": "I was picked up by police for wandering around the entertainment district late at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16552_hodou_ex3",
@@ -35,7 +39,9 @@
       "english": "During summer vacation, local volunteers patrol at night and help with juvenile guidance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a noun or with する. Specifically refers to minors (under 18/20 depending on the context). Not the same as {逮捕|たいほ} (arrest), which is a formal legal action. {補導|ほどう} is a protective measure — the minor is typically contacted, spoken to, and their parents or school are notified.\n\nCOMMON COLLOCATIONS:\n- {補導|ほどう}される (to be taken into custody)\n- {補導|ほどう}{員|いん} (juvenile guidance officer)\n- {街頭|がいとう}{補導|ほどう} (street patrol for juvenile guidance)\n\nSIMILAR WORDS:\n- {逮捕|たいほ}: arrest — a formal legal action, applicable to adults and serious offenses\n- {保護|ほご}: protection — broader term for taking someone into protective care",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{補導|ほどう}する",
+        "negative": "{補導|ほどう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{補導|ほどう}します",
+        "negative": "{補導|ほどう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{補導|ほどう}した",
+        "negative": "{補導|ほどう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{補導|ほどう}しました",
+        "negative": "{補導|ほどう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{補導|ほどう}して",
+        "negative": "{補導|ほどう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{補導|ほどう}している",
+        "negative": "{補導|ほどう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{補導|ほどう}しています",
+        "negative": "{補導|ほどう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{補導|ほどう}していた",
+        "negative": "{補導|ほどう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{補導|ほどう}していました",
+        "negative": "{補導|ほどう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{補導|ほどう}すれば",
+        "negative": "{補導|ほどう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{補導|ほどう}したら",
+        "negative": "{補導|ほどう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{補導|ほどう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{補導|ほどう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{補導|ほどう}できる",
+        "negative": "{補導|ほどう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{補導|ほどう}される",
+        "negative": "{補導|ほどう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{補導|ほどう}させる",
+        "negative": "{補導|ほどう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{補導|ほどう}しろ",
+        "negative": "{補導|ほどう}するな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "The patient's condition improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17466_kouten_ex2",
@@ -27,7 +29,9 @@
       "english": "Signs that the economy is taking a turn for the better have become visible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17466_kouten_ex3",
@@ -35,7 +39,9 @@
       "english": "The negotiations were stalled, but after a new person took over, the situation improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in somewhat formal contexts — news, business, and medical reports. Implies a meaningful, noticeable improvement in a previously bad situation.\n\nCOMMON COLLOCATIONS:\n- {状況|じょうきょう}が{好転|こうてん}する (the situation improves)\n- {病状|びょうじょう}が{好転|こうてん}する (the condition improves)\n- {景気|けいき}が{好転|こうてん}する (the economy improves)\n- {好転|こうてん}の{兆|きざ}し (signs of improvement)\n\nSIMILAR WORDS:\n- {改善|かいぜん}: improvement — implies active effort to make things better\n- {回復|かいふく}: recovery — returning to a previous good state\n- {悪化|あっか}: deterioration — the opposite of {好転|こうてん}",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{好転|こうてん}する",
+        "negative": "{好転|こうてん}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{好転|こうてん}します",
+        "negative": "{好転|こうてん}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{好転|こうてん}した",
+        "negative": "{好転|こうてん}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{好転|こうてん}しました",
+        "negative": "{好転|こうてん}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{好転|こうてん}して",
+        "negative": "{好転|こうてん}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{好転|こうてん}している",
+        "negative": "{好転|こうてん}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{好転|こうてん}しています",
+        "negative": "{好転|こうてん}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{好転|こうてん}していた",
+        "negative": "{好転|こうてん}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{好転|こうてん}していました",
+        "negative": "{好転|こうてん}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{好転|こうてん}すれば",
+        "negative": "{好転|こうてん}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{好転|こうてん}したら",
+        "negative": "{好転|こうてん}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{好転|こうてん}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{好転|こうてん}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{好転|こうてん}できる",
+        "negative": "{好転|こうてん}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{好転|こうてん}される",
+        "negative": "{好転|こうてん}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{好転|こうてん}させる",
+        "negative": "{好転|こうてん}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{好転|こうてん}しろ",
+        "negative": "{好転|こうてん}するな"
+      }
+    ]
   }
 }

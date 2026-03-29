@@ -24,7 +24,9 @@
       "english": "The head priest gave a sermon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14213_sekkyou_ex2",
@@ -32,7 +34,9 @@
       "english": "I listened to the pastor's sermon at Sunday worship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14213_sekkyou_ex3",
@@ -40,7 +44,9 @@
       "english": "It was a worthy sermon, but it was difficult and I didn't really understand it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14213_sekkyou_ex4",
@@ -48,7 +54,9 @@
       "english": "I got lectured by my mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14213_sekkyou_ex5",
@@ -56,7 +64,9 @@
       "english": "Enough with the lecture. I already know.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "14213_sekkyou_ex6",
@@ -64,7 +74,9 @@
       "english": "A boss who gets drunk and gives long lectures to junior staff is disliked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\n{説教|せっきょう} has two distinct uses. In religious contexts (sense 1), it is neutral or respectful. In everyday use (sense 2), it almost always carries a negative nuance — being on the receiving end of a {説教|せっきょう} is unpleasant. The colloquial sense is far more common in daily conversation.\n\nCOMMON COLLOCATIONS:\n- {説教|せっきょう}をする: to give a sermon / to lecture someone\n- {説教|せっきょう}をたれる: to preach at someone (colloquial, negative)\n- {説教|せっきょう}{臭|くさ}い: preachy, moralistic\n- {長|なが}い{説教|せっきょう}: a long lecture\n- {説教|せっきょう}される: to be lectured (passive)",
@@ -75,10 +87,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{説教|せっきょう}する",
+        "negative": "{説教|せっきょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{説教|せっきょう}します",
+        "negative": "{説教|せっきょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{説教|せっきょう}した",
+        "negative": "{説教|せっきょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{説教|せっきょう}しました",
+        "negative": "{説教|せっきょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{説教|せっきょう}して",
+        "negative": "{説教|せっきょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{説教|せっきょう}している",
+        "negative": "{説教|せっきょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{説教|せっきょう}しています",
+        "negative": "{説教|せっきょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{説教|せっきょう}していた",
+        "negative": "{説教|せっきょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{説教|せっきょう}していました",
+        "negative": "{説教|せっきょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{説教|せっきょう}すれば",
+        "negative": "{説教|せっきょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{説教|せっきょう}したら",
+        "negative": "{説教|せっきょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{説教|せっきょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{説教|せっきょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{説教|せっきょう}できる",
+        "negative": "{説教|せっきょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{説教|せっきょう}される",
+        "negative": "{説教|せっきょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{説教|せっきょう}させる",
+        "negative": "{説教|せっきょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{説教|せっきょう}しろ",
+        "negative": "{説教|せっきょう}するな"
+      }
+    ]
   }
 }

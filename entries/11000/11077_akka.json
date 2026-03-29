@@ -19,7 +19,9 @@
       "english": "The symptoms worsened.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11077_akka_ex2",
@@ -27,7 +29,9 @@
       "english": "The match was canceled due to worsening weather.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11077_akka_ex3",
@@ -35,7 +39,9 @@
       "english": "If treatment is neglected, there is a risk of the condition worsening further.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA versatile word used for any kind of worsening — health, weather, relationships, economic conditions, environmental situations, etc. Frequently appears in news reports.\n\nSIMILAR WORDS:\n- {悪化|あっか}: neutral, factual worsening\n- {深刻化|しんこくか}: becoming serious/grave (emphasizes severity)\n- {劣化|れっか}: degradation (often for materials or quality)\n\nCOMMON COLLOCATIONS:\n- {症状|しょうじょう}が{悪化|あっか}する: symptoms worsen\n- {関係|かんけい}が{悪化|あっか}する: relations deteriorate\n- {治安|ちあん}の{悪化|あっか}: worsening public safety\n- {経済|けいざい}の{悪化|あっか}: economic deterioration\n- {悪化|あっか}の{一途|いっと}をたどる: to go from bad to worse",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{悪化|あっか}する",
+        "negative": "{悪化|あっか}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{悪化|あっか}します",
+        "negative": "{悪化|あっか}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{悪化|あっか}した",
+        "negative": "{悪化|あっか}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{悪化|あっか}しました",
+        "negative": "{悪化|あっか}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{悪化|あっか}して",
+        "negative": "{悪化|あっか}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{悪化|あっか}している",
+        "negative": "{悪化|あっか}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{悪化|あっか}しています",
+        "negative": "{悪化|あっか}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{悪化|あっか}していた",
+        "negative": "{悪化|あっか}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{悪化|あっか}していました",
+        "negative": "{悪化|あっか}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{悪化|あっか}すれば",
+        "negative": "{悪化|あっか}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{悪化|あっか}したら",
+        "negative": "{悪化|あっか}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{悪化|あっか}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{悪化|あっか}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{悪化|あっか}できる",
+        "negative": "{悪化|あっか}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{悪化|あっか}される",
+        "negative": "{悪化|あっか}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{悪化|あっか}させる",
+        "negative": "{悪化|あっか}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{悪化|あっか}しろ",
+        "negative": "{悪化|あっか}するな"
+      }
+    ]
   }
 }

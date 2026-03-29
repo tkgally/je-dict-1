@@ -19,7 +19,9 @@
       "english": "My child begged me for something.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17938_onedari_ex2",
@@ -27,7 +29,9 @@
       "english": "To coax someone for a birthday present.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17938_onedari_ex3",
@@ -35,7 +39,9 @@
       "english": "My daughter kept begging 'buy me that,' so I ended up buying it for her.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe お prefix gives a softer, more polite feel. The base word is {強請|ねだ}り. Often used for children's requests, but can also describe coy or playful requests between adults (e.g., asking a partner for a gift). The nuance is lighter and cuter than せがむ.\n\nCOMMON COLLOCATIONS:\n- おねだりする (to beg, to coax)\n- おねだりされる (to be begged)\n- プレゼントをおねだりする (to beg for a present)\n\nSIMILAR WORDS:\n- せがむ: to pester, to badger — more persistent and potentially annoying\n- {頼|たの}む: to ask, to request — neutral, straightforward request",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "colloquial"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "おねだりする",
+        "negative": "おねだりしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "おねだりします",
+        "negative": "おねだりしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "おねだりした",
+        "negative": "おねだりしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "おねだりしました",
+        "negative": "おねだりしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "おねだりして",
+        "negative": "おねだりしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "おねだりしている",
+        "negative": "おねだりしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "おねだりしています",
+        "negative": "おねだりしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "おねだりしていた",
+        "negative": "おねだりしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "おねだりしていました",
+        "negative": "おねだりしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "おねだりすれば",
+        "negative": "おねだりしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "おねだりしたら",
+        "negative": "おねだりしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "おねだりしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "おねだりしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "おねだりできる",
+        "negative": "おねだりできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "おねだりされる",
+        "negative": "おねだりされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "おねだりさせる",
+        "negative": "おねだりさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "おねだりしろ",
+        "negative": "おねだりするな"
+      }
+    ]
   }
 }

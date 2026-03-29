@@ -19,7 +19,9 @@
       "english": "The traffic light is flashing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17970_tenmetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The emergency light started flashing red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17970_tenmetsu_ex3",
@@ -35,7 +39,9 @@
       "english": "When the yellow light is flashing, please proceed with caution.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nComposed of {点|てん} (to light, to turn on) and {滅|めつ} (to extinguish, to turn off). Describes the on-off cycle of lights, not continuous illumination.\n\nCOMMON COLLOCATIONS:\n- {点滅|てんめつ}する (to flash, to blink)\n- {点滅|てんめつ}{信号|しんごう} (flashing traffic signal)\n- {赤|あか}く{点滅|てんめつ}する (flash red)\n- {点滅|てんめつ}を{繰|く}り{返|かえ}す (flash repeatedly)\n\nSIMILAR WORDS:\n- {明滅|めいめつ}: flickering — more literary; describes light wavering between bright and dim\n- {点灯|てんとう}: lighting up — turning a light on (without the off cycle)\n- {消灯|しょうとう}: lights out — turning lights off",
@@ -46,11 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "intransitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "intransitive",
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{点滅|てんめつ}する",
+        "negative": "{点滅|てんめつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{点滅|てんめつ}します",
+        "negative": "{点滅|てんめつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{点滅|てんめつ}した",
+        "negative": "{点滅|てんめつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{点滅|てんめつ}しました",
+        "negative": "{点滅|てんめつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{点滅|てんめつ}して",
+        "negative": "{点滅|てんめつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{点滅|てんめつ}している",
+        "negative": "{点滅|てんめつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{点滅|てんめつ}しています",
+        "negative": "{点滅|てんめつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{点滅|てんめつ}していた",
+        "negative": "{点滅|てんめつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{点滅|てんめつ}していました",
+        "negative": "{点滅|てんめつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{点滅|てんめつ}すれば",
+        "negative": "{点滅|てんめつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{点滅|てんめつ}したら",
+        "negative": "{点滅|てんめつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{点滅|てんめつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{点滅|てんめつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{点滅|てんめつ}できる",
+        "negative": "{点滅|てんめつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{点滅|てんめつ}される",
+        "negative": "{点滅|てんめつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{点滅|てんめつ}させる",
+        "negative": "{点滅|てんめつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{点滅|てんめつ}しろ",
+        "negative": "{点滅|てんめつ}するな"
+      }
+    ]
   }
 }

@@ -17,7 +17,9 @@
       "id": "11213_beesuappu_ex1",
       "japanese": "{今年|ことし}はベースアップがあった。",
       "english": "There was a base pay raise this year.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "11213_beesuappu_ex2",
       "japanese": "{組合|くみあい}がベースアップを{要求|ようきゅう}した。",
       "english": "The union demanded a base pay raise.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "11213_beesuappu_ex3",
       "japanese": "{物価|ぶっか}{上昇|じょうしょう}に{合|あ}わせて{多|おお}くの{企業|きぎょう}がベースアップに{踏|ふ}み{切|き}った。",
       "english": "In response to rising prices, many companies decided on base pay raises.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ベースアップする",
+        "negative": "ベースアップしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ベースアップします",
+        "negative": "ベースアップしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ベースアップした",
+        "negative": "ベースアップしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ベースアップしました",
+        "negative": "ベースアップしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ベースアップして",
+        "negative": "ベースアップしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ベースアップしている",
+        "negative": "ベースアップしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ベースアップしています",
+        "negative": "ベースアップしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ベースアップしていた",
+        "negative": "ベースアップしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ベースアップしていました",
+        "negative": "ベースアップしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ベースアップすれば",
+        "negative": "ベースアップしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ベースアップしたら",
+        "negative": "ベースアップしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ベースアップしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ベースアップしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ベースアップできる",
+        "negative": "ベースアップできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ベースアップされる",
+        "negative": "ベースアップされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ベースアップさせる",
+        "negative": "ベースアップさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ベースアップしろ",
+        "negative": "ベースアップするな"
+      }
+    ]
   }
 }

@@ -19,7 +19,9 @@
       "english": "To assume the worst-case scenario.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19018_souteisuru_ex2",
@@ -27,7 +29,9 @@
       "english": "An unforeseen problem occurred.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "19018_souteisuru_ex3",
@@ -35,7 +39,9 @@
       "english": "An evacuation drill assuming an earthquake was carried out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word frequently used in news, business, and official documents. The noun form {想定|そうてい} is also very common: {想定|そうてい}{外|がい} (beyond expectations) became widely known after the 2011 earthquake and nuclear disaster.\n\nCOMMON COLLOCATIONS:\n- {想定|そうてい}{外|がい}: beyond assumptions, unexpected\n- {想定|そうてい}{内|ない}: within expectations\n- ～を{想定|そうてい}した{訓練|くんれん}: drill assuming ~\n- {想定|そうてい}される{被害|ひがい}: anticipated damage",
@@ -46,10 +52,105 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["thought"]
+      "semantic": [
+        "thought"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{想定|そうてい}する",
+        "negative": "{想定|そうてい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{想定|そうてい}します",
+        "negative": "{想定|そうてい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{想定|そうてい}した",
+        "negative": "{想定|そうてい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{想定|そうてい}しました",
+        "negative": "{想定|そうてい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{想定|そうてい}して",
+        "negative": "{想定|そうてい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{想定|そうてい}している",
+        "negative": "{想定|そうてい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{想定|そうてい}しています",
+        "negative": "{想定|そうてい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{想定|そうてい}していた",
+        "negative": "{想定|そうてい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{想定|そうてい}していました",
+        "negative": "{想定|そうてい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{想定|そうてい}すれば",
+        "negative": "{想定|そうてい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{想定|そうてい}したら",
+        "negative": "{想定|そうてい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{想定|そうてい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{想定|そうてい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{想定|そうてい}できる",
+        "negative": "{想定|そうてい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{想定|そうてい}される",
+        "negative": "{想定|そうてい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{想定|そうてい}させる",
+        "negative": "{想定|そうてい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{想定|そうてい}しろ",
+        "negative": "{想定|そうてい}するな"
+      }
+    ]
   }
 }

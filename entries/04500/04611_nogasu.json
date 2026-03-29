@@ -22,7 +22,9 @@
       "japanese": "{魚|さかな}を{逃|のが}した。",
       "english": "I let the fish get away.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "{犯人|はんにん}を{逃|のが}してしまった。",
       "english": "We let the criminal escape.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{捕|つか}まえた{鳥|とり}を{逃|のが}してしまった。",
       "english": "I accidentally let the bird I caught escape.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{子供|こども}が{手|て}を{離|はな}したので、{犬|いぬ}を{逃|のが}してしまった。",
       "english": "The child let go of the leash, so we let the dog get away.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{警察|けいさつ}は{長|なが}い{間|あいだ}{追|お}いかけていた{犯人|はんにん}をまた{逃|のが}してしまった。",
       "english": "The police let the criminal they had been chasing for a long time escape again.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "このチャンスを{逃|のが}したくない。",
       "english": "I don't want to miss this chance.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -70,7 +82,9 @@
       "japanese": "{電車|でんしゃ}を{逃|のが}して{遅刻|ちこく}した。",
       "english": "I missed the train and was late.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -78,7 +92,9 @@
       "japanese": "せっかくの{機会|きかい}を{逃|のが}してしまった。",
       "english": "I let a great opportunity slip away.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -86,7 +102,9 @@
       "japanese": "{安|やす}く{買|か}えるチャンスを{逃|のが}して、とても{残念|ざんねん}だった。",
       "english": "I missed the chance to buy it cheaply and was very disappointed.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -94,7 +112,9 @@
       "japanese": "{最後|さいご}のバスを{逃|のが}してしまったので、{歩|ある}いて{家|いえ}まで{帰|かえ}らなければならなかった。",
       "english": "I missed the last bus, so I had to walk home.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -111,7 +131,98 @@
       "politeness": "plain",
       "semantic": [
         "geography"
-      ]
+      ],
+      "verb_class": "godan-su"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{逃|のが}す",
+        "negative": "{逃|のが}さない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{逃|のが}します",
+        "negative": "{逃|のが}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{逃|のが}した",
+        "negative": "{逃|のが}さなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{逃|のが}しました",
+        "negative": "{逃|のが}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{逃|のが}して",
+        "negative": "{逃|のが}さなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{逃|のが}している",
+        "negative": "{逃|のが}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{逃|のが}しています",
+        "negative": "{逃|のが}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{逃|のが}していた",
+        "negative": "{逃|のが}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{逃|のが}していました",
+        "negative": "{逃|のが}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{逃|のが}せば",
+        "negative": "{逃|のが}さなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{逃|のが}したら",
+        "negative": "{逃|のが}さなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{逃|のが}そう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{逃|のが}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{逃|のが}せる",
+        "negative": "{逃|のが}せない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{逃|のが}される",
+        "negative": "{逃|のが}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{逃|のが}させる",
+        "negative": "{逃|のが}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{逃|のが}せ",
+        "negative": "{逃|のが}すな"
+      }
+    ]
   }
 }

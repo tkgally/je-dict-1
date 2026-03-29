@@ -19,7 +19,9 @@
       "english": "To exhibit works.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12401_tenji_ex2",
@@ -27,7 +29,9 @@
       "english": "A special exhibition is being held at the art museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12401_tenji_ex3",
@@ -35,7 +39,9 @@
       "english": "New model cars were lined up in the exhibition hall, and many visitors stopped to look.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "STRUCTURE:\n{展|てん} (spread, unfold) + {示|じ} (show, indicate).\n\nUSAGE:\n{展示|てんじ} is used both as a noun and as a する verb ({展示|てんじ}する). It is the standard term for putting things on display at museums, galleries, exhibitions, and trade shows. The related noun {展示会|てんじかい} specifically means an exhibition event or trade fair.\n\nCOMMON COLLOCATIONS:\n- {展示|てんじ}する: to exhibit, to display\n- {展示|てんじ}{品|ひん}: exhibited item, display item\n- {展示|てんじ}ホール: exhibition hall\n- {常設|じょうせつ}{展示|てんじ}: permanent exhibition\n- {企画|きかく}{展示|てんじ}: special/planned exhibition",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{展示|てんじ}する",
+        "negative": "{展示|てんじ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{展示|てんじ}します",
+        "negative": "{展示|てんじ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{展示|てんじ}した",
+        "negative": "{展示|てんじ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{展示|てんじ}しました",
+        "negative": "{展示|てんじ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{展示|てんじ}して",
+        "negative": "{展示|てんじ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{展示|てんじ}している",
+        "negative": "{展示|てんじ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{展示|てんじ}しています",
+        "negative": "{展示|てんじ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{展示|てんじ}していた",
+        "negative": "{展示|てんじ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{展示|てんじ}していました",
+        "negative": "{展示|てんじ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{展示|てんじ}すれば",
+        "negative": "{展示|てんじ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{展示|てんじ}したら",
+        "negative": "{展示|てんじ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{展示|てんじ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{展示|てんじ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{展示|てんじ}できる",
+        "negative": "{展示|てんじ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{展示|てんじ}される",
+        "negative": "{展示|てんじ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{展示|てんじ}させる",
+        "negative": "{展示|てんじ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{展示|てんじ}しろ",
+        "negative": "{展示|てんじ}するな"
+      }
+    ]
   }
 }

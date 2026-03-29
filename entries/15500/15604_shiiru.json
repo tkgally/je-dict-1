@@ -19,7 +19,9 @@
       "english": "You shouldn't force someone to do the impossible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15604_shiiru_ex2",
@@ -27,7 +29,9 @@
       "english": "Companies that force employees to work overtime are problematic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15604_shiiru_ex3",
@@ -35,7 +39,9 @@
       "english": "The residents were forced to endure inconvenient living conditions for a long period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\n{強|し}いる is an ichidan verb despite ending in いる. The passive form {強|し}いられる is extremely common and often more natural than the active form.\n\nPATTERNS:\n- AにBを{強|し}いる (to force B on A)\n- {強|し}いられる (to be forced/compelled — very common passive)\n- {強|し}いて{言|い}えば (if forced to say; if I had to say — set phrase)\n\nCOMMON COLLOCATIONS:\n- {犠牲|ぎせい}を{強|し}いる (to demand sacrifice)\n- {我慢|がまん}を{強|し}いる (to force someone to endure)\n- {負担|ふたん}を{強|し}いる (to impose a burden)\n\nSIMILAR WORDS:\n{強制|きょうせい}する is a suru-verb meaning to compel or enforce, often used for rules or systems. {強|し}いる is used more for interpersonal situations or abstract impositions.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{強|し}いる",
+        "negative": "{強|し}いない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{強|し}います",
+        "negative": "{強|し}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{強|し}いた",
+        "negative": "{強|し}いなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{強|し}いました",
+        "negative": "{強|し}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{強|し}いて",
+        "negative": "{強|し}いなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{強|し}いている",
+        "negative": "{強|し}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{強|し}いています",
+        "negative": "{強|し}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{強|し}いていた",
+        "negative": "{強|し}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{強|し}いていました",
+        "negative": "{強|し}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{強|し}いれば",
+        "negative": "{強|し}いなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{強|し}いたら",
+        "negative": "{強|し}いなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{強|し}いよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{強|し}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{強|し}いられる",
+        "negative": "{強|し}いられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{強|し}いられる",
+        "negative": "{強|し}いられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{強|し}いさせる",
+        "negative": "{強|し}いさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{強|し}いろ",
+        "negative": "{強|し}いるな"
+      }
+    ]
   }
 }

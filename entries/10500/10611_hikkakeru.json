@@ -29,7 +29,9 @@
       "english": "To hang a coat on a hook.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10611_hikkakeru_ex2",
@@ -37,7 +39,9 @@
       "english": "I caught my sleeve on a branch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10611_hikkakeru_ex3",
@@ -45,7 +49,9 @@
       "english": "I went outside with a towel draped over my shoulder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10611_hikkakeru_ex4",
@@ -53,7 +59,9 @@
       "english": "I won't fall for that trick.",
       "notes": "Uses the intransitive {引|ひ}っ{掛|か}かる (to be tricked).",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10611_hikkakeru_ex5",
@@ -61,7 +69,9 @@
       "english": "I was tricked by a con artist.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10611_hikkakeru_ex6",
@@ -69,7 +79,9 @@
       "english": "Watch out for trick questions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "10611_hikkakeru_ex7",
@@ -77,7 +89,9 @@
       "english": "Water was splashed on me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "10611_hikkakeru_ex8",
@@ -85,7 +99,9 @@
       "english": "A passing car splashed muddy water on me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     },
     {
       "id": "10611_hikkakeru_ex9",
@@ -93,7 +109,9 @@
       "english": "The angry woman threw wine in his face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [3]
+      "sense_numbers": [
+        3
+      ]
     }
   ],
   "notes": "CONJUGATION (ichidan):\n- Negative: {引|ひ}っ{掛|か}けない\n- Te-form: {引|ひ}っ{掛|か}けて\n- Past: {引|ひ}っ{掛|か}けた\n\nTRANSITIVITY:\nTransitive. The intransitive counterpart is {引|ひ}っ{掛|か}かる (to get caught on; to be tricked).\n\nCOMMON COLLOCATIONS:\n- フックに{引|ひ}っ{掛|か}ける: to hang on a hook\n- {罠|わな}に{引|ひ}っ{掛|か}ける: to lure into a trap\n- {水|みず}を{引|ひ}っ{掛|か}ける: to splash water on",
@@ -104,12 +122,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "verb_class": "ichidan",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action-physical", "deception"]
+      "semantic": [
+        "action-physical",
+        "deception"
+      ]
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{引|ひ}っ{掛|か}ける",
+        "negative": "{引|ひ}っ{掛|か}けない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{引|ひ}っ{掛|か}けます",
+        "negative": "{引|ひ}っ{掛|か}けません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{引|ひ}っ{掛|か}けた",
+        "negative": "{引|ひ}っ{掛|か}けなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{引|ひ}っ{掛|か}けました",
+        "negative": "{引|ひ}っ{掛|か}けませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{引|ひ}っ{掛|か}けて",
+        "negative": "{引|ひ}っ{掛|か}けなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{引|ひ}っ{掛|か}けている",
+        "negative": "{引|ひ}っ{掛|か}けていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{引|ひ}っ{掛|か}けています",
+        "negative": "{引|ひ}っ{掛|か}けていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{引|ひ}っ{掛|か}けていた",
+        "negative": "{引|ひ}っ{掛|か}けていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{引|ひ}っ{掛|か}けていました",
+        "negative": "{引|ひ}っ{掛|か}けていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{引|ひ}っ{掛|か}ければ",
+        "negative": "{引|ひ}っ{掛|か}けなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{引|ひ}っ{掛|か}けたら",
+        "negative": "{引|ひ}っ{掛|か}けなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{引|ひ}っ{掛|か}けよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{引|ひ}っ{掛|か}けましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{引|ひ}っ{掛|か}けられる",
+        "negative": "{引|ひ}っ{掛|か}けられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{引|ひ}っ{掛|か}けられる",
+        "negative": "{引|ひ}っ{掛|か}けられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{引|ひ}っ{掛|か}けさせる",
+        "negative": "{引|ひ}っ{掛|か}けさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{引|ひ}っ{掛|か}けろ",
+        "negative": "{引|ひ}っ{掛|か}けるな"
+      }
+    ]
   }
 }

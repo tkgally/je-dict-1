@@ -19,7 +19,9 @@
       "english": "I witnessed an accident.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13627_mokugeki_ex2",
@@ -27,7 +29,9 @@
       "english": "The eyewitness remembered the criminal's face.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13627_mokugeki_ex3",
@@ -35,7 +39,9 @@
       "english": "A resident reported to the police that they had witnessed a suspicious person.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as a する verb: {目撃|もくげき}する (to witness). Primarily used for witnessing accidents, crimes, or unusual events. For everyday seeing, {見|み}る or {目|め}にする are more natural.\n\nCOMMON COLLOCATIONS:\n- {目撃|もくげき}{者|しゃ}: eyewitness\n- {目撃|もくげき}{情報|じょうほう}: eyewitness information/reports\n- {目撃|もくげき}{証言|しょうげん}: eyewitness testimony\n- {事故|じこ}を{目撃|もくげき}する: to witness an accident\n- {犯行|はんこう}を{目撃|もくげき}する: to witness a crime\n- {目撃|もくげき}{談|だん}: eyewitness account",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{目撃|もくげき}する",
+        "negative": "{目撃|もくげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{目撃|もくげき}します",
+        "negative": "{目撃|もくげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{目撃|もくげき}した",
+        "negative": "{目撃|もくげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{目撃|もくげき}しました",
+        "negative": "{目撃|もくげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{目撃|もくげき}して",
+        "negative": "{目撃|もくげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{目撃|もくげき}している",
+        "negative": "{目撃|もくげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{目撃|もくげき}しています",
+        "negative": "{目撃|もくげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{目撃|もくげき}していた",
+        "negative": "{目撃|もくげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{目撃|もくげき}していました",
+        "negative": "{目撃|もくげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{目撃|もくげき}すれば",
+        "negative": "{目撃|もくげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{目撃|もくげき}したら",
+        "negative": "{目撃|もくげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{目撃|もくげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{目撃|もくげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{目撃|もくげき}できる",
+        "negative": "{目撃|もくげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{目撃|もくげき}される",
+        "negative": "{目撃|もくげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{目撃|もくげき}させる",
+        "negative": "{目撃|もくげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{目撃|もくげき}しろ",
+        "negative": "{目撃|もくげき}するな"
+      }
+    ]
   }
 }

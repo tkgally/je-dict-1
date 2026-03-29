@@ -19,7 +19,9 @@
       "english": "I stayed shut up in my room all day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14523_tojikomoru_ex2",
@@ -27,7 +29,9 @@
       "english": "On rainy days, I stay indoors and read books.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14523_tojikomoru_ex3",
@@ -35,7 +39,9 @@
       "english": "After the breakup, she withdrew into her shell.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Compound verb from {閉|と}じる (to close) + こもる (to seclude oneself). Intransitive.\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}に{閉|と}じこもる (to shut oneself in one's room)\n- {家|いえ}に{閉|と}じこもる (to stay shut up at home)\n- {殻|から}に{閉|と}じこもる (to withdraw into one's shell — figurative)\n\nUSAGE NOTE:\nCan range from neutral (staying home on a bad-weather day) to serious (social withdrawal associated with {引|ひ}きこもり). Context determines the tone. The figurative use {殻|から}に{閉|と}じこもる describes emotional withdrawal.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
       "transitivity": "intransitive",
-      "semantic": ["movement"]
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-ru"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{閉|と}じこもる",
+        "negative": "{閉|と}じこもらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{閉|と}じこもります",
+        "negative": "{閉|と}じこもりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{閉|と}じこもった",
+        "negative": "{閉|と}じこもらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{閉|と}じこもりました",
+        "negative": "{閉|と}じこもりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{閉|と}じこもって",
+        "negative": "{閉|と}じこもらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{閉|と}じこもっている",
+        "negative": "{閉|と}じこもっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{閉|と}じこもっています",
+        "negative": "{閉|と}じこもっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{閉|と}じこもっていた",
+        "negative": "{閉|と}じこもっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{閉|と}じこもっていました",
+        "negative": "{閉|と}じこもっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{閉|と}じこもれば",
+        "negative": "{閉|と}じこもらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{閉|と}じこもったら",
+        "negative": "{閉|と}じこもらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{閉|と}じこもろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{閉|と}じこもりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{閉|と}じこもれる",
+        "negative": "{閉|と}じこもれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{閉|と}じこもられる",
+        "negative": "{閉|と}じこもられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{閉|と}じこもらせる",
+        "negative": "{閉|と}じこもらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{閉|と}じこもれ",
+        "negative": "{閉|と}じこもるな"
+      }
+    ]
   }
 }

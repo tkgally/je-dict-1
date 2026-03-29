@@ -19,7 +19,9 @@
       "english": "To provide information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12909_teikyou_ex2",
@@ -27,7 +29,9 @@
       "english": "This program is brought to you by ○○.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12909_teikyou_ex3",
@@ -35,7 +39,9 @@
       "english": "It is the hospital's mission to provide high-quality medical services to local residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOne of the most versatile and common formal verbs in Japanese. Used as both a noun and a suru verb. The phrase 「この{番組|ばんぐみ}は〜の{提供|ていきょう}でお{送|おく}りします」 is a familiar formula heard at the start or end of TV and radio programs, meaning \"This program is sponsored by ~.\"\n\nCOMMON COLLOCATIONS:\n- {情報|じょうほう}を{提供|ていきょう}する: to provide information\n- サービスを{提供|ていきょう}する: to provide a service\n- {提供|ていきょう}{元|もと}: provider, source\n- {無料|むりょう}で{提供|ていきょう}する: to provide free of charge\n- {番組|ばんぐみ}{提供|ていきょう}: program sponsorship\n\nSIMILAR WORDS:\n- {供給|きょうきゅう}: supply (of goods, resources — economic term)\n- {支給|しきゅう}: provision, payment (institutional, such as wages or benefits)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{提供|ていきょう}する",
+        "negative": "{提供|ていきょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{提供|ていきょう}します",
+        "negative": "{提供|ていきょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{提供|ていきょう}した",
+        "negative": "{提供|ていきょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{提供|ていきょう}しました",
+        "negative": "{提供|ていきょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{提供|ていきょう}して",
+        "negative": "{提供|ていきょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{提供|ていきょう}している",
+        "negative": "{提供|ていきょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{提供|ていきょう}しています",
+        "negative": "{提供|ていきょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{提供|ていきょう}していた",
+        "negative": "{提供|ていきょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{提供|ていきょう}していました",
+        "negative": "{提供|ていきょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{提供|ていきょう}すれば",
+        "negative": "{提供|ていきょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{提供|ていきょう}したら",
+        "negative": "{提供|ていきょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{提供|ていきょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{提供|ていきょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{提供|ていきょう}できる",
+        "negative": "{提供|ていきょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{提供|ていきょう}される",
+        "negative": "{提供|ていきょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{提供|ていきょう}させる",
+        "negative": "{提供|ていきょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{提供|ていきょう}しろ",
+        "negative": "{提供|ていきょう}するな"
+      }
+    ]
   }
 }

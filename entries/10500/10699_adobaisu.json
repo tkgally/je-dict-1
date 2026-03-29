@@ -19,7 +19,9 @@
       "english": "To receive advice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10699_adobaisu_ex2",
@@ -27,7 +29,9 @@
       "english": "I asked my senior for advice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "10699_adobaisu_ex3",
@@ -35,7 +39,9 @@
       "english": "The coach is advising the player about their form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nアドバイス is the standard loanword for advice in Japanese. It can be used as a noun (アドバイスをする／もらう／{求|もと}める) or as a suru-verb (アドバイスする). The native Japanese equivalent {助言|じょげん} is more formal.\n\nCOMMON COLLOCATIONS:\n- アドバイスをする: to give advice\n- アドバイスをもらう: to receive advice\n- アドバイスを{求|もと}める: to seek advice\n- {的確|てきかく}なアドバイス: precise/apt advice",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "アドバイスする",
+        "negative": "アドバイスしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "アドバイスします",
+        "negative": "アドバイスしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "アドバイスした",
+        "negative": "アドバイスしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "アドバイスしました",
+        "negative": "アドバイスしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "アドバイスして",
+        "negative": "アドバイスしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "アドバイスしている",
+        "negative": "アドバイスしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "アドバイスしています",
+        "negative": "アドバイスしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "アドバイスしていた",
+        "negative": "アドバイスしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "アドバイスしていました",
+        "negative": "アドバイスしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "アドバイスすれば",
+        "negative": "アドバイスしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "アドバイスしたら",
+        "negative": "アドバイスしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "アドバイスしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "アドバイスしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "アドバイスできる",
+        "negative": "アドバイスできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "アドバイスされる",
+        "negative": "アドバイスされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "アドバイスさせる",
+        "negative": "アドバイスさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "アドバイスしろ",
+        "negative": "アドバイスするな"
+      }
+    ]
   }
 }

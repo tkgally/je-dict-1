@@ -22,42 +22,54 @@
       "japanese": "{話|はなし}がしらけた。",
       "english": "The conversation died down.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09314_shirakeru_ex2",
       "japanese": "しらけた{表情|ひょうじょう}をしている。",
       "english": "They have a bored expression.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09314_shirakeru_ex3",
       "japanese": "{彼|かれ}の{冗談|じょうだん}で{場|ば}がしらけた。",
       "english": "His joke killed the mood.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09314_shirakeru_ex4",
       "japanese": "しらけるようなことを{言|い}うな。",
       "english": "Don't say things that kill the mood.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09314_shirakeru_ex5",
       "japanese": "{盛|も}り{上|あ}がっていたのにしらけた。",
       "english": "We were having fun but then the mood died.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09314_shirakeru_ex6",
       "japanese": "つまらないギャグで{場|ば}をしらけさせた。",
       "english": "His lame joke killed the atmosphere.",
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "しらける comes from {白|しら}ける, with {白|しろ} (white) evoking a sense of blankness or emptiness. It describes the loss of excitement or a fun atmosphere.\n\nREGISTER:\nThis is casual/colloquial language.\n\nCOMMON PATTERNS:\n- {場|ば}がしらける: the mood dies\n- しらけた{空気|くうき}: an awkward atmosphere\n- しらけさせる: to kill the mood (causative)\n\nASPECT ({ている}):\nしらけている indicates an ongoing state of boredom or awkwardness.",
@@ -66,11 +78,109 @@
     "modified": "2026-02-01T07:12:47Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "formality": "informal",
-      "domain": ["colloquial"],
+      "domain": [
+        "colloquial"
+      ],
       "politeness": "plain",
-      "semantic": ["emotion", "atmosphere"]
+      "semantic": [
+        "emotion",
+        "atmosphere"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "しらける",
+        "negative": "しらけない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "しらけます",
+        "negative": "しらけません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "しらけた",
+        "negative": "しらけなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "しらけました",
+        "negative": "しらけませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "しらけて",
+        "negative": "しらけなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "しらけている",
+        "negative": "しらけていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "しらけています",
+        "negative": "しらけていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "しらけていた",
+        "negative": "しらけていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "しらけていました",
+        "negative": "しらけていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "しらければ",
+        "negative": "しらけなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "しらけたら",
+        "negative": "しらけなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "しらけよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "しらけましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "しらけられる",
+        "negative": "しらけられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "しらけられる",
+        "negative": "しらけられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "しらけさせる",
+        "negative": "しらけさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "しらけろ",
+        "negative": "しらけるな"
+      }
+    ]
   }
 }

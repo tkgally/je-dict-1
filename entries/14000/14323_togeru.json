@@ -19,7 +19,9 @@
       "english": "To accomplish one's objective.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14323_togeru_ex2",
@@ -27,7 +29,9 @@
       "english": "This city achieved great development.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14323_togeru_ex3",
@@ -35,7 +39,9 @@
       "english": "After years of effort, I was finally able to fulfill my dream.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{遂|と}げる is a transitive ichidan verb with a literary, formal tone. It emphasizes completion and finality.\n\nASPECT (ている):\nRarely used in the ている form. The focus is on the completed result rather than an ongoing state.\n\nPARTICLE PATTERNS:\n- Aを{遂|と}げる (accomplish A)\n\nCOMMON COLLOCATIONS:\n- {目的|もくてき}を{遂|と}げる (accomplish an objective)\n- {成長|せいちょう}を{遂|と}げる (achieve growth)\n- {発展|はってん}を{遂|と}げる (achieve development)\n- {変貌|へんぼう}を{遂|と}げる (undergo a transformation)\n- {進化|しんか}を{遂|と}げる (achieve an evolution)\n\nAlso appears in the compound verb {成|な}し{遂|と}げる (to accomplish, to achieve), which is even more emphatic. The expression {死|し}を{遂|と}げる means \"to meet one's death\" (literary).",
@@ -46,12 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-ichidan"],
+      "pos": [
+        "verb-ichidan"
+      ],
       "transitivity": "transitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"],
-      "style": ["written"]
+      "semantic": [
+        "action"
+      ],
+      "style": [
+        "written"
+      ],
+      "verb_class": "ichidan"
     }
+  },
+  "conjugation": {
+    "type": "ichidan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{遂|と}げる",
+        "negative": "{遂|と}げない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{遂|と}げます",
+        "negative": "{遂|と}げません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{遂|と}げた",
+        "negative": "{遂|と}げなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{遂|と}げました",
+        "negative": "{遂|と}げませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{遂|と}げて",
+        "negative": "{遂|と}げなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{遂|と}げている",
+        "negative": "{遂|と}げていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{遂|と}げています",
+        "negative": "{遂|と}げていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{遂|と}げていた",
+        "negative": "{遂|と}げていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{遂|と}げていました",
+        "negative": "{遂|と}げていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{遂|と}げれば",
+        "negative": "{遂|と}げなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{遂|と}げたら",
+        "negative": "{遂|と}げなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{遂|と}げよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{遂|と}げましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{遂|と}げられる",
+        "negative": "{遂|と}げられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{遂|と}げられる",
+        "negative": "{遂|と}げられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{遂|と}げさせる",
+        "negative": "{遂|と}げさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{遂|と}げろ",
+        "negative": "{遂|と}げるな"
+      }
+    ]
   }
 }

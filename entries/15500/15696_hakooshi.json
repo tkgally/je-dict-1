@@ -19,7 +19,9 @@
       "english": "I'm a fan of the whole group.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15696_hakooshi_ex2",
@@ -27,7 +29,9 @@
       "english": "I don't have a favorite member, but I support the whole group and like everyone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15696_hakooshi_ex3",
@@ -35,7 +39,9 @@
       "english": "At first I was a fan of just one member, but now I support the whole group.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOriginated in Japanese idol fandom culture and has spread to other fan communities. Contrasts with {単推|たんお}し (supporting a single member) or having a {推|お}しメン (favorite member). The {箱|はこ} (box) metaphor refers to the group as a whole unit.\n\nCOMMON COLLOCATIONS:\n- {箱推|はこお}しする (to support the whole group)\n- {箱推|はこお}しのファン (a fan of the whole group)\n\nSIMILAR WORDS:\n- {推|お}し: one's favorite (person, group, or thing to support)\n- {単推|たんお}し: supporting a single member\n- {推|お}しメン: favorite member (of an idol group)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["entertainment"]
+      "semantic": [
+        "entertainment"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{箱推|はこお}しする",
+        "negative": "{箱推|はこお}ししない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{箱推|はこお}しします",
+        "negative": "{箱推|はこお}ししません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{箱推|はこお}しした",
+        "negative": "{箱推|はこお}ししなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{箱推|はこお}ししました",
+        "negative": "{箱推|はこお}ししませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{箱推|はこお}しして",
+        "negative": "{箱推|はこお}ししなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{箱推|はこお}ししている",
+        "negative": "{箱推|はこお}ししていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{箱推|はこお}ししています",
+        "negative": "{箱推|はこお}ししていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{箱推|はこお}ししていた",
+        "negative": "{箱推|はこお}ししていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{箱推|はこお}ししていました",
+        "negative": "{箱推|はこお}ししていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{箱推|はこお}しすれば",
+        "negative": "{箱推|はこお}ししなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{箱推|はこお}ししたら",
+        "negative": "{箱推|はこお}ししなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{箱推|はこお}ししよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{箱推|はこお}ししましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{箱推|はこお}しできる",
+        "negative": "{箱推|はこお}しできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{箱推|はこお}しされる",
+        "negative": "{箱推|はこお}しされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{箱推|はこお}しさせる",
+        "negative": "{箱推|はこお}しさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{箱推|はこお}ししろ",
+        "negative": "{箱推|はこお}しするな"
+      }
+    ]
   }
 }

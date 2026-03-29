@@ -19,7 +19,9 @@
       "english": "Transfer the shares.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15629_jouto_ex2",
@@ -27,7 +29,9 @@
       "english": "A contract is required for the transfer of land.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15629_jouto_ex3",
@@ -35,7 +39,9 @@
       "english": "The patent transfer procedure was completed, and the rights passed to the new owner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{譲渡|じょうと} is a formal, legal term. It is used for official transfers of property, rights, shares, or assets. In casual speech, {譲|ゆず}る (to hand over, to yield) is preferred.\n\nCOMMON COLLOCATIONS:\n- {譲渡|じょうと}{所得|しょとく} (capital gains from transfer)\n- {譲渡|じょうと}{契約|けいやく} (transfer agreement)\n- {株式|かぶしき}{譲渡|じょうと} (share transfer)\n- {権利|けんり}の{譲渡|じょうと} (assignment of rights)\n- {譲渡|じょうと}{益|えき} (transfer profit)\n\nSIMILAR WORDS:\n- {譲|ゆず}る: to hand over, to yield (general, less formal)\n- {移転|いてん}: transfer, relocation (broader usage)",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["legal", "business"]
+      "semantic": [
+        "legal",
+        "business"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{譲渡|じょうと}する",
+        "negative": "{譲渡|じょうと}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{譲渡|じょうと}します",
+        "negative": "{譲渡|じょうと}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{譲渡|じょうと}した",
+        "negative": "{譲渡|じょうと}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{譲渡|じょうと}しました",
+        "negative": "{譲渡|じょうと}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{譲渡|じょうと}して",
+        "negative": "{譲渡|じょうと}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{譲渡|じょうと}している",
+        "negative": "{譲渡|じょうと}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{譲渡|じょうと}しています",
+        "negative": "{譲渡|じょうと}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{譲渡|じょうと}していた",
+        "negative": "{譲渡|じょうと}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{譲渡|じょうと}していました",
+        "negative": "{譲渡|じょうと}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{譲渡|じょうと}すれば",
+        "negative": "{譲渡|じょうと}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{譲渡|じょうと}したら",
+        "negative": "{譲渡|じょうと}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{譲渡|じょうと}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{譲渡|じょうと}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{譲渡|じょうと}できる",
+        "negative": "{譲渡|じょうと}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{譲渡|じょうと}される",
+        "negative": "{譲渡|じょうと}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{譲渡|じょうと}させる",
+        "negative": "{譲渡|じょうと}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{譲渡|じょうと}しろ",
+        "negative": "{譲渡|じょうと}するな"
+      }
+    ]
   }
 }

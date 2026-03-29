@@ -19,7 +19,9 @@
       "english": "Residents petitioned the city.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14663_chinjou_ex2",
@@ -27,7 +29,9 @@
       "english": "A petition requesting road improvements was submitted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14663_chinjou_ex3",
@@ -35,7 +39,9 @@
       "english": "Local fishermen went to petition a member of parliament about environmental protection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Used specifically for appeals directed at government officials or political bodies. Differs from {請願|せいがん}, which is a more formal legal procedure with constitutional backing, while {陳情|ちんじょう} is less formal and has no legal requirements.\n\nCOMMON COLLOCATIONS:\n- {陳情|ちんじょう}する (to petition)\n- {陳情|ちんじょう}{書|しょ} (written petition)\n- {陳情|ちんじょう}に{行|い}く (to go petition)\n- {陳情|ちんじょう}を{受|う}ける (to receive a petition)\n- {陳情|ちんじょう}{活動|かつどう} (lobbying activities)",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{陳情|ちんじょう}する",
+        "negative": "{陳情|ちんじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{陳情|ちんじょう}します",
+        "negative": "{陳情|ちんじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{陳情|ちんじょう}した",
+        "negative": "{陳情|ちんじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{陳情|ちんじょう}しました",
+        "negative": "{陳情|ちんじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{陳情|ちんじょう}して",
+        "negative": "{陳情|ちんじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{陳情|ちんじょう}している",
+        "negative": "{陳情|ちんじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{陳情|ちんじょう}しています",
+        "negative": "{陳情|ちんじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{陳情|ちんじょう}していた",
+        "negative": "{陳情|ちんじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{陳情|ちんじょう}していました",
+        "negative": "{陳情|ちんじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{陳情|ちんじょう}すれば",
+        "negative": "{陳情|ちんじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{陳情|ちんじょう}したら",
+        "negative": "{陳情|ちんじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{陳情|ちんじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{陳情|ちんじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{陳情|ちんじょう}できる",
+        "negative": "{陳情|ちんじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{陳情|ちんじょう}される",
+        "negative": "{陳情|ちんじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{陳情|ちんじょう}させる",
+        "negative": "{陳情|ちんじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{陳情|ちんじょう}しろ",
+        "negative": "{陳情|ちんじょう}するな"
+      }
+    ]
   }
 }

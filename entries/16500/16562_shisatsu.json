@@ -19,7 +19,9 @@
       "english": "We inspected the factory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16562_shisatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The minister visited the disaster-stricken area for an inspection.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16562_shisatsu_ex3",
@@ -35,7 +39,9 @@
       "english": "I gained many insights from observing educational settings overseas.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word used for official or professional observation visits. The subject is typically someone in a position of authority — a politician, executive, or expert. Not used for casual sightseeing or personal visits.\n\nCOMMON COLLOCATIONS:\n- {視察|しさつ}する (to inspect, to observe)\n- {視察|しさつ}{団|だん} (inspection group, observation delegation)\n- {現地|げんち}{視察|しさつ} (on-site inspection)\n- {視察|しさつ}{報告|ほうこく} (inspection report)\n- {視察|しさつ}に{訪|おとず}れる (to visit for inspection)\n\nSIMILAR WORDS:\n- {見学|けんがく}: study visit — less formal, often educational (e.g., factory tours for students)\n- {調査|ちょうさ}: investigation, survey — broader, includes data collection beyond observation\n- {点検|てんけん}: inspection — checking equipment or items for defects, not observing conditions",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"]
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{視察|しさつ}する",
+        "negative": "{視察|しさつ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{視察|しさつ}します",
+        "negative": "{視察|しさつ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{視察|しさつ}した",
+        "negative": "{視察|しさつ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{視察|しさつ}しました",
+        "negative": "{視察|しさつ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{視察|しさつ}して",
+        "negative": "{視察|しさつ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{視察|しさつ}している",
+        "negative": "{視察|しさつ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{視察|しさつ}しています",
+        "negative": "{視察|しさつ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{視察|しさつ}していた",
+        "negative": "{視察|しさつ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{視察|しさつ}していました",
+        "negative": "{視察|しさつ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{視察|しさつ}すれば",
+        "negative": "{視察|しさつ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{視察|しさつ}したら",
+        "negative": "{視察|しさつ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{視察|しさつ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{視察|しさつ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{視察|しさつ}できる",
+        "negative": "{視察|しさつ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{視察|しさつ}される",
+        "negative": "{視察|しさつ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{視察|しさつ}させる",
+        "negative": "{視察|しさつ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{視察|しさつ}しろ",
+        "negative": "{視察|しさつ}するな"
+      }
+    ]
   }
 }

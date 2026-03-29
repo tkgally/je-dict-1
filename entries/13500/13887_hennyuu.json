@@ -19,7 +19,9 @@
       "english": "To transfer into a university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13887_hennyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I transferred from a junior college into the third year of a four-year university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13887_hennyuu_ex3",
@@ -35,7 +39,9 @@
       "english": "That area was incorporated into the neighboring city through a municipal merger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMost commonly encountered in educational contexts as {編入|へんにゅう}{学|がく} (transfer admission) or {編入|へんにゅう}{試験|しけん} (transfer entrance exam). Also used in administrative and military contexts for incorporating units or territories.\n\nCOMMON COLLOCATIONS:\n- {編入|へんにゅう}{試験|しけん}: transfer entrance examination\n- {編入|へんにゅう}{学|がく}: transfer enrollment\n- ～に{編入|へんにゅう}する: to be incorporated into\n- {三年次|さんねんじ}{編入|へんにゅう}: third-year transfer",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["academic"],
-      "semantic": ["education"]
+      "domain": [
+        "academic"
+      ],
+      "semantic": [
+        "education"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{編入|へんにゅう}する",
+        "negative": "{編入|へんにゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{編入|へんにゅう}します",
+        "negative": "{編入|へんにゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{編入|へんにゅう}した",
+        "negative": "{編入|へんにゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{編入|へんにゅう}しました",
+        "negative": "{編入|へんにゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{編入|へんにゅう}して",
+        "negative": "{編入|へんにゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{編入|へんにゅう}している",
+        "negative": "{編入|へんにゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{編入|へんにゅう}しています",
+        "negative": "{編入|へんにゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{編入|へんにゅう}していた",
+        "negative": "{編入|へんにゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{編入|へんにゅう}していました",
+        "negative": "{編入|へんにゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{編入|へんにゅう}すれば",
+        "negative": "{編入|へんにゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{編入|へんにゅう}したら",
+        "negative": "{編入|へんにゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{編入|へんにゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{編入|へんにゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{編入|へんにゅう}できる",
+        "negative": "{編入|へんにゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{編入|へんにゅう}される",
+        "negative": "{編入|へんにゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{編入|へんにゅう}させる",
+        "negative": "{編入|へんにゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{編入|へんにゅう}しろ",
+        "negative": "{編入|へんにゅう}するな"
+      }
+    ]
   }
 }

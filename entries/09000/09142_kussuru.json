@@ -16,7 +16,9 @@
       "id": "09142_kussuru_ex1",
       "japanese": "{圧力|あつりょく}に{屈|くっ}する",
       "english": "to yield to pressure",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09142_kussuru_ex2",
       "japanese": "{彼|かれ}は{脅迫|きょうはく}に{屈|くっ}しなかった。",
       "english": "He did not yield to the threats.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09142_kussuru_ex3",
       "japanese": "{困難|こんなん}に{屈|くっ}することなく、{最後|さいご}まで{戦|たたか}い{続|つづ}けた。",
       "english": "Without yielding to hardship, they continued to fight to the end.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,11 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-suru"],
+      "pos": [
+        "verb-suru"
+      ],
       "transitivity": "intransitive",
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{屈|くっ}する",
+        "negative": "{屈|くっ}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{屈|くっ}します",
+        "negative": "{屈|くっ}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{屈|くっ}した",
+        "negative": "{屈|くっ}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{屈|くっ}しました",
+        "negative": "{屈|くっ}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{屈|くっ}して",
+        "negative": "{屈|くっ}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{屈|くっ}している",
+        "negative": "{屈|くっ}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{屈|くっ}しています",
+        "negative": "{屈|くっ}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{屈|くっ}していた",
+        "negative": "{屈|くっ}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{屈|くっ}していました",
+        "negative": "{屈|くっ}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{屈|くっ}すれば",
+        "negative": "{屈|くっ}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{屈|くっ}したら",
+        "negative": "{屈|くっ}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{屈|くっ}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{屈|くっ}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{屈|くっ}できる",
+        "negative": "{屈|くっ}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{屈|くっ}される",
+        "negative": "{屈|くっ}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{屈|くっ}させる",
+        "negative": "{屈|くっ}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{屈|くっ}しろ",
+        "negative": "{屈|くっ}するな"
+      }
+    ]
   }
 }

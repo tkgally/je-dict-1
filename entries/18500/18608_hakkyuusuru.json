@@ -19,7 +19,9 @@
       "english": "The passport was issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18608_hakkyuusuru_ex2",
@@ -27,7 +29,9 @@
       "english": "It may take several weeks for a visa to be issued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18608_hakkyuusuru_ex3",
@@ -35,7 +39,9 @@
       "english": "The embassy handles same-day issuance only in emergency cases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used for official documents issued by governments or institutions. The noun form {発給|はっきゅう} is common in compound phrases.\n\nCOMMON COLLOCATIONS:\n- パスポートを{発給|はっきゅう}する (to issue a passport)\n- ビザを{発給|はっきゅう}する (to issue a visa)\n- {証明書|しょうめいしょ}を{発給|はっきゅう}する (to issue a certificate)\n- {即日|そくじつ}{発給|はっきゅう} (same-day issuance)\n\nSIMILAR WORDS:\n- {発行|はっこう}する: to issue, to publish — broader usage including magazines, tickets, and cards\n- {交付|こうふ}する: to grant, to deliver — official documents; emphasizes handing over\n- {支給|しきゅう}する: to provide, to supply — for salary, equipment, supplies",
@@ -46,11 +52,109 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{発給|はっきゅう}する",
+        "negative": "{発給|はっきゅう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{発給|はっきゅう}します",
+        "negative": "{発給|はっきゅう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{発給|はっきゅう}した",
+        "negative": "{発給|はっきゅう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{発給|はっきゅう}しました",
+        "negative": "{発給|はっきゅう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{発給|はっきゅう}して",
+        "negative": "{発給|はっきゅう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{発給|はっきゅう}している",
+        "negative": "{発給|はっきゅう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{発給|はっきゅう}しています",
+        "negative": "{発給|はっきゅう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{発給|はっきゅう}していた",
+        "negative": "{発給|はっきゅう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{発給|はっきゅう}していました",
+        "negative": "{発給|はっきゅう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{発給|はっきゅう}すれば",
+        "negative": "{発給|はっきゅう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{発給|はっきゅう}したら",
+        "negative": "{発給|はっきゅう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{発給|はっきゅう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{発給|はっきゅう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{発給|はっきゅう}できる",
+        "negative": "{発給|はっきゅう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{発給|はっきゅう}される",
+        "negative": "{発給|はっきゅう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{発給|はっきゅう}させる",
+        "negative": "{発給|はっきゅう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{発給|はっきゅう}しろ",
+        "negative": "{発給|はっきゅう}するな"
+      }
+    ]
   }
 }

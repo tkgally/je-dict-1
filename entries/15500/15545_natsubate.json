@@ -19,7 +19,9 @@
       "english": "I have no appetite due to summer fatigue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15545_natsubate_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's eat well so we don't get summer fatigue.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15545_natsubate_ex3",
@@ -35,7 +39,9 @@
       "english": "Every year when August comes, I get summer fatigue and lose all motivation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan function as a noun ({夏|なつ}バテ) or as a する verb ({夏|なつ}バテする). Symptoms include loss of appetite, fatigue, and difficulty sleeping. Very common topic in Japanese summer conversation.\n\nCOMMON COLLOCATIONS:\n- {夏|なつ}バテする (to suffer from summer fatigue)\n- {夏|なつ}バテ{防止|ぼうし} / {予防|よぼう} (preventing summer fatigue)\n- {夏|なつ}バテ{対策|たいさく} (measures against summer fatigue)\n- {夏|なつ}バテ{気味|ぎみ} (a touch of summer fatigue)\n\nCULTURAL NOTE:\nJapan's humid summers make {夏|なつ}バテ a widely shared experience. Traditional remedies include eating {鰻|うなぎ} (eel) on {土用|どよう}の{丑|うし}の{日|ひ} (midsummer day of the ox) and consuming {梅干|うめぼ}し (pickled plums) for energy.",
@@ -46,10 +52,107 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general", "time-season"]
+      "semantic": [
+        "general",
+        "time-season"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{夏|なつ}バテする",
+        "negative": "{夏|なつ}バテしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{夏|なつ}バテします",
+        "negative": "{夏|なつ}バテしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{夏|なつ}バテした",
+        "negative": "{夏|なつ}バテしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{夏|なつ}バテしました",
+        "negative": "{夏|なつ}バテしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{夏|なつ}バテして",
+        "negative": "{夏|なつ}バテしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{夏|なつ}バテしている",
+        "negative": "{夏|なつ}バテしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{夏|なつ}バテしています",
+        "negative": "{夏|なつ}バテしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{夏|なつ}バテしていた",
+        "negative": "{夏|なつ}バテしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{夏|なつ}バテしていました",
+        "negative": "{夏|なつ}バテしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{夏|なつ}バテすれば",
+        "negative": "{夏|なつ}バテしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{夏|なつ}バテしたら",
+        "negative": "{夏|なつ}バテしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{夏|なつ}バテしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{夏|なつ}バテしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{夏|なつ}バテできる",
+        "negative": "{夏|なつ}バテできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{夏|なつ}バテされる",
+        "negative": "{夏|なつ}バテされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{夏|なつ}バテさせる",
+        "negative": "{夏|なつ}バテさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{夏|なつ}バテしろ",
+        "negative": "{夏|なつ}バテするな"
+      }
+    ]
   }
 }

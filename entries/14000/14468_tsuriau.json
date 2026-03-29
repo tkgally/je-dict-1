@@ -17,7 +17,9 @@
       "id": "14468_tsuriau_ex1",
       "japanese": "{値段|ねだん}と{品質|ひんしつ}が{釣|つ}り{合|あ}っている。",
       "english": "The price and quality are well balanced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "14468_tsuriau_ex2",
       "japanese": "{収入|しゅうにゅう}と{支出|ししゅつ}が{釣|つ}り{合|あ}わない。",
       "english": "Income and expenses don't balance out.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "14468_tsuriau_ex3",
       "japanese": "あの{二人|ふたり}はお{互|たが}いに{釣|つ}り{合|あ}った{良|い}いカップルだと{思|おも}う。",
       "english": "I think those two are a well-matched couple.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "intransitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["existence"]
+      "semantic": [
+        "existence"
+      ],
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{釣|つ}り{合|あ}う",
+        "negative": "{釣|つ}り{合|あ}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{釣|つ}り{合|あ}います",
+        "negative": "{釣|つ}り{合|あ}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{釣|つ}り{合|あ}った",
+        "negative": "{釣|つ}り{合|あ}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{釣|つ}り{合|あ}いました",
+        "negative": "{釣|つ}り{合|あ}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{釣|つ}り{合|あ}って",
+        "negative": "{釣|つ}り{合|あ}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{釣|つ}り{合|あ}っている",
+        "negative": "{釣|つ}り{合|あ}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{釣|つ}り{合|あ}っています",
+        "negative": "{釣|つ}り{合|あ}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{釣|つ}り{合|あ}っていた",
+        "negative": "{釣|つ}り{合|あ}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{釣|つ}り{合|あ}っていました",
+        "negative": "{釣|つ}り{合|あ}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{釣|つ}り{合|あ}えば",
+        "negative": "{釣|つ}り{合|あ}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{釣|つ}り{合|あ}ったら",
+        "negative": "{釣|つ}り{合|あ}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{釣|つ}り{合|あ}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{釣|つ}り{合|あ}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{釣|つ}り{合|あ}える",
+        "negative": "{釣|つ}り{合|あ}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{釣|つ}り{合|あ}われる",
+        "negative": "{釣|つ}り{合|あ}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{釣|つ}り{合|あ}わせる",
+        "negative": "{釣|つ}り{合|あ}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{釣|つ}り{合|あ}え",
+        "negative": "{釣|つ}り{合|あ}うな"
+      }
+    ]
   }
 }

@@ -16,7 +16,9 @@
       "id": "09100_surimuku_ex1",
       "japanese": "{膝|ひざ}をすりむいた。",
       "english": "I scraped my knee.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09100_surimuku_ex2",
       "japanese": "{転|ころ}んで{肘|ひじ}をすりむいた。",
       "english": "I fell and scraped my elbow.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "09100_surimuku_ex3",
       "japanese": "{子供|こども}が{遊|あそ}んでいて{手|て}をすりむいてしまった。",
       "english": "The child scraped their hand while playing.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -45,10 +51,106 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body", "injury"]
+      "semantic": [
+        "body",
+        "injury"
+      ],
+      "verb_class": "godan-ku"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "すりむく",
+        "negative": "すりむかない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "すりむきます",
+        "negative": "すりむきません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "すりむいた",
+        "negative": "すりむかなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "すりむきました",
+        "negative": "すりむきませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "すりむいて",
+        "negative": "すりむかなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "すりむいている",
+        "negative": "すりむいていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "すりむいています",
+        "negative": "すりむいていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "すりむいていた",
+        "negative": "すりむいていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "すりむいていました",
+        "negative": "すりむいていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "すりむけば",
+        "negative": "すりむかなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "すりむいたら",
+        "negative": "すりむかなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "すりむこう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "すりむきましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "すりむける",
+        "negative": "すりむけない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "すりむかれる",
+        "negative": "すりむかれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "すりむかせる",
+        "negative": "すりむかせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "すりむけ",
+        "negative": "すりむくな"
+      }
+    ]
   }
 }

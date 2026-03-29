@@ -19,7 +19,9 @@
       "english": "There is no player who can rival him.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14843_hitteki_ex2",
@@ -27,7 +29,9 @@
       "english": "This work is of a quality that rivals the masterpieces.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14843_hitteki_ex3",
@@ -35,7 +39,9 @@
       "english": "There are not many cities in the world on a scale comparable to Tokyo's population.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE NOTES:\n{匹敵|ひってき} is a する-verb that takes the particle に to mark what is being rivaled or matched. It implies the comparison is at a high level and carries a tone of respect or acknowledgment.\n\nPARTICLE PATTERNS:\n- AはBに{匹敵|ひってき}する (A rivals B / A is comparable to B)\n- Bに{匹敵|ひってき}するA (A that rivals B)\n\nCOMMON COLLOCATIONS:\n- {実力|じつりょく}に{匹敵|ひってき}する (rival in ability)\n- プロに{匹敵|ひってき}する (comparable to a professional)\n- {過去|かこ}の{記録|きろく}に{匹敵|ひってき}する (match past records)\n\nSIMILAR WORDS:\n- {対抗|たいこう}する emphasizes active competition or opposition\n- {匹敵|ひってき}する emphasizes being on the same level, without implying direct conflict",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{匹敵|ひってき}する",
+        "negative": "{匹敵|ひってき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{匹敵|ひってき}します",
+        "negative": "{匹敵|ひってき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{匹敵|ひってき}した",
+        "negative": "{匹敵|ひってき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{匹敵|ひってき}しました",
+        "negative": "{匹敵|ひってき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{匹敵|ひってき}して",
+        "negative": "{匹敵|ひってき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{匹敵|ひってき}している",
+        "negative": "{匹敵|ひってき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{匹敵|ひってき}しています",
+        "negative": "{匹敵|ひってき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{匹敵|ひってき}していた",
+        "negative": "{匹敵|ひってき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{匹敵|ひってき}していました",
+        "negative": "{匹敵|ひってき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{匹敵|ひってき}すれば",
+        "negative": "{匹敵|ひってき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{匹敵|ひってき}したら",
+        "negative": "{匹敵|ひってき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{匹敵|ひってき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{匹敵|ひってき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{匹敵|ひってき}できる",
+        "negative": "{匹敵|ひってき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{匹敵|ひってき}される",
+        "negative": "{匹敵|ひってき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{匹敵|ひってき}させる",
+        "negative": "{匹敵|ひってき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{匹敵|ひってき}しろ",
+        "negative": "{匹敵|ひってき}するな"
+      }
+    ]
   }
 }

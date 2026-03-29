@@ -19,7 +19,9 @@
       "english": "We removed the partition.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12069_toriharau_ex2",
@@ -27,7 +29,9 @@
       "english": "We tore down the old fence and made the garden larger.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12069_toriharau_ex3",
@@ -35,7 +39,9 @@
       "english": "It is important to tear down the walls between departments and create an environment where opinions can be freely exchanged.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CONJUGATION:\nGodan verb ({五段動詞|ごだんどうし}).\n- Negative: {取|と}り{払|はら}わない\n- Polite: {取|と}り{払|はら}います\n- Te-form: {取|と}り{払|はら}って\n- Past: {取|と}り{払|はら}った\n\nUSAGE:\nOften used for removing physical structures like walls, fences, partitions, and barriers. Also used figuratively for removing abstract barriers ({壁|かべ}を{取|と}り{払|はら}う). The nuance of {払|はら}う (to sweep/brush away) gives this verb a sense of clearing something away completely.\n\nCOMMON COLLOCATIONS:\n- {壁|かべ}を{取|と}り{払|はら}う: to tear down a wall (literal and figurative)\n- {仕切|しき}りを{取|と}り{払|はら}う: to remove a partition\n- {塀|へい}を{取|と}り{払|はら}う: to take down a fence\n- {規制|きせい}を{取|と}り{払|はら}う: to remove regulations\n\nSIMILAR WORDS:\n{取|と}り{払|はら}う emphasizes clearing or sweeping away structures. {取|と}り{除|のぞ}く (to remove) is more general. {取|と}り{壊|こわ}す (to demolish) implies destruction of buildings.",
@@ -46,11 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"],
-      "transitivity": "transitive"
+      "semantic": [
+        "action"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "godan-u"
     }
+  },
+  "conjugation": {
+    "type": "godan",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{取|と}り{払|はら}う",
+        "negative": "{取|と}り{払|はら}わない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{取|と}り{払|はら}います",
+        "negative": "{取|と}り{払|はら}いません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{取|と}り{払|はら}った",
+        "negative": "{取|と}り{払|はら}わなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{取|と}り{払|はら}いました",
+        "negative": "{取|と}り{払|はら}いませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{取|と}り{払|はら}って",
+        "negative": "{取|と}り{払|はら}わなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{取|と}り{払|はら}っている",
+        "negative": "{取|と}り{払|はら}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{取|と}り{払|はら}っています",
+        "negative": "{取|と}り{払|はら}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{取|と}り{払|はら}っていた",
+        "negative": "{取|と}り{払|はら}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{取|と}り{払|はら}っていました",
+        "negative": "{取|と}り{払|はら}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{取|と}り{払|はら}えば",
+        "negative": "{取|と}り{払|はら}わなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{取|と}り{払|はら}ったら",
+        "negative": "{取|と}り{払|はら}わなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{取|と}り{払|はら}おう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{取|と}り{払|はら}いましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{取|と}り{払|はら}える",
+        "negative": "{取|と}り{払|はら}えない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{取|と}り{払|はら}われる",
+        "negative": "{取|と}り{払|はら}われない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{取|と}り{払|はら}わせる",
+        "negative": "{取|と}り{払|はら}わせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{取|と}り{払|はら}え",
+        "negative": "{取|と}り{払|はら}うな"
+      }
+    ]
   }
 }

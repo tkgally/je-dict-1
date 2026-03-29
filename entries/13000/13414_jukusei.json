@@ -19,7 +19,9 @@
       "english": "This cheese has been aged for three years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13414_jukusei_ex2",
@@ -27,7 +29,9 @@
       "english": "Aged meat has increased umami and tastes delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13414_jukusei_ex3",
@@ -35,7 +39,9 @@
       "english": "By aging miso for a long period, it develops a deeper flavor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "GRAMMAR:\nUsed as a noun and also as a する verb ({熟成|じゅくせい}する: to age, to mature). Can also be used in the causative form {熟成|じゅくせい}させる (to age something, to let something mature).\n\nDISTINCTION:\n{熟成|じゅくせい} specifically refers to intentional aging that improves quality. It differs from {腐敗|ふはい} (decomposition/rotting) in that {熟成|じゅくせい} is a controlled, desirable process.\n\nCOMMON COLLOCATIONS:\n- {熟成|じゅくせい}{肉|にく}: aged meat (dry-aged or wet-aged)\n- {熟成|じゅくせい}チーズ: aged cheese\n- {長期|ちょうき}{熟成|じゅくせい}: long-term aging\n- {熟成|じゅくせい}{期間|きかん}: aging period\n- {熟成|じゅくせい}させる: to age, to let mature",
@@ -46,10 +52,106 @@
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ],
+      "verb_class": "suru"
     }
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{熟成|じゅくせい}する",
+        "negative": "{熟成|じゅくせい}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{熟成|じゅくせい}します",
+        "negative": "{熟成|じゅくせい}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{熟成|じゅくせい}した",
+        "negative": "{熟成|じゅくせい}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{熟成|じゅくせい}しました",
+        "negative": "{熟成|じゅくせい}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{熟成|じゅくせい}して",
+        "negative": "{熟成|じゅくせい}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{熟成|じゅくせい}している",
+        "negative": "{熟成|じゅくせい}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{熟成|じゅくせい}しています",
+        "negative": "{熟成|じゅくせい}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{熟成|じゅくせい}していた",
+        "negative": "{熟成|じゅくせい}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{熟成|じゅくせい}していました",
+        "negative": "{熟成|じゅくせい}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{熟成|じゅくせい}すれば",
+        "negative": "{熟成|じゅくせい}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{熟成|じゅくせい}したら",
+        "negative": "{熟成|じゅくせい}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{熟成|じゅくせい}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{熟成|じゅくせい}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{熟成|じゅくせい}できる",
+        "negative": "{熟成|じゅくせい}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{熟成|じゅくせい}される",
+        "negative": "{熟成|じゅくせい}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{熟成|じゅくせい}させる",
+        "negative": "{熟成|じゅくせい}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{熟成|じゅくせい}しろ",
+        "negative": "{熟成|じゅくせい}するな"
+      }
+    ]
   }
 }
