@@ -85,6 +85,14 @@ Added 30 new dictionary entries (IDs 20403-20432) from candidate_words.json. A m
 - **Nouns (24)**: ホチキス (stapler), {試作|しさく} (prototype), {近眼|きんがん} (nearsightedness), {流星群|りゅうせいぐん} (meteor shower), {仮想現実|かそうげんじつ} (virtual reality), {見栄|みえ}っ{張|ぱ}り (show-off), ひっきりなしに (continuously), {上半期|かみはんき} (first half of year), {誤変換|ごへんかん} (incorrect kanji conversion), {指数|しすう} (index/exponent), {新聞紙|しんぶんし} (newspaper material), {減産|げんさん} (production cut), {社会復帰|しゃかいふっき} (return to society), {雑食|ざっしょく} (omnivorous), {再発防止|さいはつぼうし} (recurrence prevention), {携帯番号|けいたいばんごう} (mobile number), {現世|げんせ} (this world), {真綿|まわた} (silk floss), {調合|ちょうごう} (compounding), {屋台骨|やたいぼね} (backbone/foundation), {弥生時代|やよいじだい} (Yayoi period), {目立|めだ}ちたがり{屋|や} (attention seeker), {江戸時代|えどじだい} (Edo period), {通告|つうこく} (formal notice)
 - Removed 30 candidates that now exist as entries
 
+### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 539)
+Added 30 new dictionary entries (IDs 20523-20552) from candidate_words.json. A mix of practical everyday vocabulary, workplace expressions, compound nouns, and verbs for intermediate learners.
+
+- **Expressions (4)**: お{先|さき}に{失礼|しつれい}します (leaving before others), {広々|ひろびろ}とした (spacious), {年|とし}を{重|かさ}ねる (to grow older), {最中|さいちゅう}に (in the middle of)
+- **Verbs (2)**: {吹|ふ}き{付|つ}ける (to blow against/spray), {突|つ}き{合|あ}わせる (to compare/cross-reference)
+- **Nouns (24)**: ノートパソコン (laptop), {過小評価|かしょうひょうか} (underestimation), {時計回|とけいまわ}り (clockwise), {乗降|じょうこう} (boarding and alighting), {定番商品|ていばんしょうひん} (standard product), {話|はな}し{中|ちゅう} (line busy), トースト (toast), {一回限|いっかいかぎ}り (one time only), {標準化|ひょうじゅんか} (standardization), {経営陣|けいえいじん} (management team), {外貨両替|がいかりょうがえ} (foreign currency exchange), {芸術鑑賞|げいじゅつかんしょう} (art appreciation), {復路|ふくろ} (return route), {中華|ちゅうか}そば (Chinese-style noodles), {大音量|だいおんりょう} (high volume), {正常化|せいじょうか} (normalization), {体毛|たいもう} (body hair), {単発|たんぱつ} (one-time), {授業中|じゅぎょうちゅう} (during class), {情報発信|じょうほうはっしん} (information dissemination), {自責|じせき}の{念|ねん} (self-reproach), {稼働率|かどうりつ} (operating rate), バドミントン (badminton), {化粧下地|けしょうしたじ} (makeup primer)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 22 New Entries, Session 534)
 Added 22 new dictionary entries (IDs 20381-20402) from candidate_words.json. A diverse mix of practical vocabulary covering emotions, nature, culture, daily life, and abstract concepts.
 
