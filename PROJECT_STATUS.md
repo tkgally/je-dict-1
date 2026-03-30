@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 550)
+Added 30 new dictionary entries (IDs 20833-20862) from candidate_words.json. A mix of verbs, i-adjectives, nouns, an adverb, and an interjection covering everyday actions, emotions, appearance, and literary expression.
+
+- **Godan verbs (15)**: {覆|くつがえ}る (to be overturned), {絡|から}まる (to get tangled), ずらす (to shift), さする (to rub), {貪|むさぼ}る (to devour), {罵|ののし}る (to verbally abuse), {銘打|めいう}つ (to label as), {赤|あか}らむ (to redden), {裏返|うらがえ}る (to turn inside out), {反|そ}らす (to bend back), ねぶる (to lick), {胸躍|むねおど}る (thrilling), {赦|ゆる}す (to pardon), {退|しりぞ}く (to retreat), {採|と}る (to gather)
+- **Ichidan verbs (3)**: {心得|こころえ}る (to understand), どける (to move aside), {縮|ちぢ}れる (to be curly), {癒|い}える (to heal)
+- **I-adjectives (4)**: ごつい (rugged), {悪賢|わるがしこ}い (cunning), {欲深|よくふか}い (greedy), {篤|あつ}い (sincere)
+- **Nouns (4)**: {移|うつ}ろい (change/passing), {色違|いろちが}い (different color), {嘘笑|うそわら}い (fake smile), {入園|にゅうえん} (entering kindergarten), {格下|かくさ}げ (downgrade)
+- **Adverb (1)**: ごとく (like, as if)
+- **Interjection (1)**: ふむ (hmm, I see)
+- Removed 1 stale candidate (癒やす — duplicate of 癒す)
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 549)
 Added 30 new dictionary entries (IDs 20803-20832) from candidate_words.json. A diverse mix of nouns, na-adjective, adverbs, expressions, suru verbs, and onomatopoeia covering prophecy, emotions, law, nature, food, culture, sports, and daily life.
 
@@ -92,18 +103,6 @@ Added 30 new dictionary entries (IDs 20713-20742) from candidate_words.json. A d
 - **Nouns (15)**: {切|き}れ{目|め} (break/gap), {葉巻|はまき} (cigar), {草稿|そうこう} (draft), {総数|そうすう} (total number), {小計|しょうけい} (subtotal), {食前|しょくぜん} (before a meal), {素数|そすう} (prime number), {店先|みせさき} (storefront), {大聖堂|だいせいどう} (cathedral), {真|ま}っ{二|ふた}つ (right in half), {話|はな}しぶり (way of speaking), {季節感|きせつかん} (sense of season), {倍数|ばいすう} (multiple), {原寸大|げんすんだい} (full-size), {利|き}き{腕|うで} (dominant arm)
 - Added 1 new kanji to index: 仄
 - Removed 29 candidates that now exist as entries
-
-### 2026-03-30 (Vocabulary Expansion - 29 New Entries, Session 545)
-Added 29 new dictionary entries (IDs 20683-20712) from candidate_words.json. A diverse mix including nouns, expressions, and a na-adjective covering everyday life, travel, food, business, and education vocabulary.
-
-- **Na-adjective (1)**: {短絡的|たんらくてき} (hasty/simplistic)
-- **Expressions (3)**: {物腰|ものごし}が{柔|やわ}らかい (soft-spoken), {一歩|いっぽ}も{引|ひ}かない (to not back down), {心|こころ}に{響|ひび}く (to strike a chord)
-- **Nouns (25)**: ポリ{袋|ぶくろ} (plastic bag), {在日|ざいにち} (resident in Japan), {紛失届|ふんしつとどけ} (lost property report), {埠頭|ふとう} (wharf), {折|お}れ{線|せん}グラフ (line graph), {棒|ぼう}グラフ (bar graph), {小売店|こうりてん} (retail store), {預|あず}け{入|い}れ{荷物|にもつ} (checked baggage), どんぶり{勘定|かんじょう} (sloppy accounting), {断線|だんせん} (disconnection), {学|まな}び{舎|や} (school/place of learning), {継子|ままこ} (stepchild), {月額制|げつがくせい} (monthly subscription), {創刊号|そうかんごう} (first issue), {清掃員|せいそういん} (cleaning staff), {路肩|ろかた} (road shoulder), フランチャイズ (franchise), {水浸|みずびた}し (flooded), {薄力粉|はくりきこ} (cake flour), {強力粉|きょうりきこ} (bread flour), {締|し}めくくり (conclusion), {最下位|さいかい} (last place), {庭仕事|にわしごと} (garden work), {幸福度|こうふくど} (happiness index), {完結編|かんけつへん} (final volume)
-- Added 1 new kanji to index: 埠
-- Removed 1 stale candidate (duplicate reading variant)
-- Removed 1 duplicate entry ({肩代|かたが}わり — already existed as ID 20190)
-
-
 
 
 
