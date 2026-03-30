@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 25 New Entries, Session 544)
+Added 25 new dictionary entries (IDs 20658-20682) from candidate_words.json. A diverse mix including verbs, nouns, expressions, and an adjective spanning everyday conversation, food, culture, and media vocabulary.
+
+- **Godan verbs (2)**: {話|はな}し{込|こ}む (to get deeply involved in conversation), {恵|めぐ}む (to give charitably; to bless)
+- **Suru verbs (5)**: {投入|とうにゅう}する (to throw in/invest), {寄付|きふ}する (to donate), {完了|かんりょう}する (to complete), {完結|かんけつ}する (to conclude), うんざりする (to be fed up)
+- **Expressions (3)**: {嫌|いや}になる (to become fed up), お{疲|つか}れさまです (thank you for your work), {仲|なか}が{良|よ}い (to be on good terms)
+- **Na-adjective (1)**: {爆発的|ばくはつてき} (explosive/phenomenal)
+- **Nouns (14)**: {月光|げっこう} (moonlight), {捕虜|ほりょ} (prisoner of war), {施術|せじゅつ} (treatment/therapy), {半々|はんはん} (half and half), {紅|くれない} (crimson), {忠義|ちゅうぎ} (loyalty), {哺乳瓶|ほにゅうびん} (baby bottle), コク (richness of flavor), {脂身|あぶらみ} (fatty meat), {新品同様|しんぴんどうよう} (like new), {観光案内|かんこうあんない} (tourist information), {囚人|しゅうじん} (prisoner), {暴徒|ぼうと} (rioter), {大男|おおおとこ} (big man)
+- Removed 25 candidates that now exist as entries
+
 ### 2026-03-29 (Vocabulary Expansion - 15 New Entries, Session 543)
 Added 15 new dictionary entries (IDs 20643-20657) from candidate_words.json. A mix of practical vocabulary including four-character idioms, everyday nouns, cultural terms, and workplace vocabulary.
 
@@ -87,14 +97,6 @@ Added 30 new dictionary entries (IDs 20553-20582) from candidate_words.json. A d
 - Added 1 new kanji to index: 寓
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 538)
-Added 30 new dictionary entries (IDs 20493-20522) from candidate_words.json. A diverse mix of practical vocabulary including mimetic adverbs, everyday nouns, cultural terms, and formal expressions.
-
-- **Adverbs (5)**: もりもり (heartily/vigorously), どっさり (in heaps), がっぽり (raking it in), みっちり (thoroughly/tightly packed), {目下|もっか} (at present)
-- **Nouns (25)**: {上質|じょうしつ} (high quality), {栄光|えいこう} (glory), {漁業|ぎょぎょう} (fishing industry), {切断|せつだん} (cutting/severing), {量販店|りょうはんてん} (mass retailer), {品行|ひんこう} (conduct), {岩石|がんせき} (rock), {入札|にゅうさつ} (bidding), {頓珍漢|とんちんかん} (nonsensical), {大理石|だいりせき} (marble), {付|つ}け{焼|や}き{刃|ば} (superficial knowledge), {多発|たはつ} (frequent occurrence), {招待券|しょうたいけん} (invitation ticket), {横長|よこなが} (landscape-oriented), {旧知|きゅうち} (old acquaintance), {清純|せいじゅん} (pure/innocent), {蛍光|けいこう} (fluorescence), {準急|じゅんきゅう} (semi-express), {万物|ばんぶつ} (all things), {数日|すうじつ} (several days), {位置|いち}づけ (positioning), {残響|ざんきょう} (reverberation), {弾劾|だんがい} (impeachment), {上水|じょうすい} (water supply), {歌人|かじん} (waka poet)
-- Added 1 new kanji to index: 劾
-- Removed 1 stale duplicate candidate (却下)
-- Removed 30 candidates that now exist as entries
 
 
 
