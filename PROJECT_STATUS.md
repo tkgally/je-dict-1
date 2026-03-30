@@ -51,15 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 545)
-Added 30 new dictionary entries (IDs 20683-20712) from candidate_words.json. A diverse mix including nouns, expressions, and a na-adjective covering everyday life, travel, food, business, and education vocabulary.
+### 2026-03-30 (Vocabulary Expansion - 29 New Entries, Session 545)
+Added 29 new dictionary entries (IDs 20683-20712) from candidate_words.json. A diverse mix including nouns, expressions, and a na-adjective covering everyday life, travel, food, business, and education vocabulary.
 
 - **Na-adjective (1)**: {短絡的|たんらくてき} (hasty/simplistic)
 - **Expressions (3)**: {物腰|ものごし}が{柔|やわ}らかい (soft-spoken), {一歩|いっぽ}も{引|ひ}かない (to not back down), {心|こころ}に{響|ひび}く (to strike a chord)
-- **Nouns (26)**: ポリ{袋|ぶくろ} (plastic bag), {在日|ざいにち} (resident in Japan), {紛失届|ふんしつとどけ} (lost property report), {埠頭|ふとう} (wharf), {折|お}れ{線|せん}グラフ (line graph), {棒|ぼう}グラフ (bar graph), {小売店|こうりてん} (retail store), {預|あず}け{入|い}れ{荷物|にもつ} (checked baggage), どんぶり{勘定|かんじょう} (sloppy accounting), {断線|だんせん} (disconnection), {学|まな}び{舎|や} (school/place of learning), {肩代|かたが}わり (taking over a burden), {継子|ままこ} (stepchild), {月額制|げつがくせい} (monthly subscription), {創刊号|そうかんごう} (first issue), {清掃員|せいそういん} (cleaning staff), {路肩|ろかた} (road shoulder), フランチャイズ (franchise), {水浸|みずびた}し (flooded), {薄力粉|はくりきこ} (cake flour), {強力粉|きょうりきこ} (bread flour), {締|し}めくくり (conclusion), {最下位|さいかい} (last place), {庭仕事|にわしごと} (garden work), {幸福度|こうふくど} (happiness index), {完結編|かんけつへん} (final volume)
+- **Nouns (25)**: ポリ{袋|ぶくろ} (plastic bag), {在日|ざいにち} (resident in Japan), {紛失届|ふんしつとどけ} (lost property report), {埠頭|ふとう} (wharf), {折|お}れ{線|せん}グラフ (line graph), {棒|ぼう}グラフ (bar graph), {小売店|こうりてん} (retail store), {預|あず}け{入|い}れ{荷物|にもつ} (checked baggage), どんぶり{勘定|かんじょう} (sloppy accounting), {断線|だんせん} (disconnection), {学|まな}び{舎|や} (school/place of learning), {継子|ままこ} (stepchild), {月額制|げつがくせい} (monthly subscription), {創刊号|そうかんごう} (first issue), {清掃員|せいそういん} (cleaning staff), {路肩|ろかた} (road shoulder), フランチャイズ (franchise), {水浸|みずびた}し (flooded), {薄力粉|はくりきこ} (cake flour), {強力粉|きょうりきこ} (bread flour), {締|し}めくくり (conclusion), {最下位|さいかい} (last place), {庭仕事|にわしごと} (garden work), {幸福度|こうふくど} (happiness index), {完結編|かんけつへん} (final volume)
 - Added 1 new kanji to index: 埠
 - Removed 1 stale candidate (duplicate reading variant)
-- Removed 30 candidates that now exist as entries
+- Removed 1 duplicate entry ({肩代|かたが}わり — already existed as ID 20190)
 
 ### 2026-03-30 (Vocabulary Expansion - 25 New Entries, Session 544)
 Added 25 new dictionary entries (IDs 20658-20682) from candidate_words.json. A diverse mix including verbs, nouns, expressions, and an adjective spanning everyday conversation, food, culture, and media vocabulary.
