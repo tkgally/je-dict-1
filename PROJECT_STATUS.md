@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 548)
+Added 30 new dictionary entries (IDs 20773-20802) from candidate_words.json. A diverse mix of nouns, na-adjectives, and expressions covering food, culture, language, technology, daily life, weather, law, and emotions.
+
+- **Na-adjective (1)**: {例外的|れいがいてき} (exceptional)
+- **Expressions (3)**: {有終|ゆうしゅう}の{美|び} (finishing beautifully), {心|こころ}の{余裕|よゆう} (mental composure), {尻|しり}すぼみ (fizzling out)
+- **Four-character idioms (2)**: {一致団結|いっちだんけつ} (unity/solidarity), {威風堂々|いふうどうどう} (majestic/dignified)
+- **Nouns (24)**: {推論|すいろん} (inference), {失意|しつい} (dejection), {具体化|ぐたいか} (concretization), {短編小説|たんぺんしょうせつ} (short story), {入浴剤|にゅうよくざい} (bath additive), {常用漢字|じょうようかんじ} (regular-use kanji), {賃貸住宅|ちんたいじゅうたく} (rental housing), {焼|や}きうどん (fried udon), {金|きん}メダル (gold medal), {高速|こうそく}バス (express bus), {先端技術|せんたんぎじゅつ} (cutting-edge technology), {検事|けんじ} (public prosecutor), グレープフルーツ (grapefruit), {粒|つぶ}あん (chunky bean paste), こしあん (smooth bean paste), {科学技術|かがくぎじゅつ} (science and technology), ドライフルーツ (dried fruit), {探知|たんち} (detection), {悲哀|ひあい} (sorrow/grief), {長編小説|ちょうへんしょうせつ} (full-length novel), {特別警報|とくべつけいほう} (special warning), {避難指示|ひなんしじ} (evacuation order), {洋裁|ようさい} (dressmaking), リュックサック (backpack)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 547)
 Added 30 new dictionary entries (IDs 20743-20772) from candidate_words.json. A diverse mix of nouns, na-adjectives, adverbs, and expressions covering language, culture, technology, geography, and daily life.
 
@@ -92,12 +101,6 @@ Added 25 new dictionary entries (IDs 20658-20682) from candidate_words.json. A d
 - **Nouns (14)**: {月光|げっこう} (moonlight), {捕虜|ほりょ} (prisoner of war), {施術|せじゅつ} (treatment/therapy), {半々|はんはん} (half and half), {紅|くれない} (crimson), {忠義|ちゅうぎ} (loyalty), {哺乳瓶|ほにゅうびん} (baby bottle), コク (richness of flavor), {脂身|あぶらみ} (fatty meat), {新品同様|しんぴんどうよう} (like new), {観光案内|かんこうあんない} (tourist information), {囚人|しゅうじん} (prisoner), {暴徒|ぼうと} (rioter), {大男|おおおとこ} (big man)
 - Removed 25 candidates that now exist as entries
 
-### 2026-03-29 (Vocabulary Expansion - 15 New Entries, Session 543)
-Added 15 new dictionary entries (IDs 20643-20657) from candidate_words.json. A mix of practical vocabulary including four-character idioms, everyday nouns, cultural terms, and workplace vocabulary.
-
-- **Na-adjective (1)**: {明瞭|めいりょう} (clear/distinct)
-- **Nouns (14)**: {半信半疑|はんしんはんぎ} (half in doubt), {集金|しゅうきん} (bill collection), {廃業|はいぎょう} (closing a business), {旅費|りょひ} (travel expenses), {子羊|こひつじ} (lamb), {羊毛|ようもう} (wool), {納戸|なんど} (storage room), {前期|ぜんき} (first term), {学童|がくどう} (schoolchild), あんみつ (Japanese dessert), {世相|せそう} (social conditions), {厳寒|げんかん} (severe cold), {能書|のうが}き (boasting), {庶務|しょむ} (general affairs)
-- Removed 15 candidates that now exist as entries
 
 
 
