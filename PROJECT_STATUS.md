@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 553)
+Added 30 new dictionary entries (IDs 20939-20968) from candidate_words.json. A diverse mix covering social behavior, transportation, culture, nature, food, politics, history, law, arts, and daily life.
+
+- **Nouns (19)**: {普通車|ふつうしゃ} (standard car/regular train car), {若年層|じゃくねんそう} (younger generation), {毒蛇|どくへび} (venomous snake), ポニーテール (ponytail), {祝儀袋|しゅうぎぶくろ} (gift money envelope), {豆板醤|とうばんじゃん} (chili bean paste), {雑穀|ざっこく} (mixed grains), {国会議員|こっかいぎいん} (Diet member), {左官|さかん} (plasterer), {控|ひか}え{選手|せんしゅ} (substitute player), {二輪車|にりんしゃ} (two-wheeled vehicle), {市外局番|しがいきょくばん} (area code), {正誤表|せいごひょう} (errata), {練習曲|れんしゅうきょく} (etude), {写本|しゃほん} (manuscript), {相談役|そうだんやく} (advisor), {遠隔地|えんかくち} (remote area), {絶景|ぜっけい}スポット (scenic viewpoint), {放物線|ほうぶつせん} (parabola)
+- **Suru verbs (3)**: {依怙贔屓|えこひいき} (favoritism), {天下統一|てんかとういつ} (national unification), {成敗|せいばい} (punishment)
+- **Na-adjectives (3)**: {草食|そうしょく} (herbivorous/passive), {合憲|ごうけん} (constitutional), {苦労性|くろうしょう} (worrywart)
+- **Expressions (2)**: {眼鏡|めがね}をかける (to wear glasses), {何事|なにごと}も (everything)
+- **Other (3)**: こら (hey!/stop that!), {自然遺産|しぜんいさん} (natural heritage), {宵|よい}の{明星|みょうじょう} (evening star)
+- Added 1 new kanji to index: 怙
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 552)
 Added 30 new dictionary entries (IDs 20893-20922) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and adverbs covering daily life, food, culture, finance, geography, technology, and society.
 
@@ -105,14 +115,6 @@ Added 30 new dictionary entries (IDs 20803-20832) from candidate_words.json. A d
 - Added 1 new kanji to index: 贖
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 548)
-Added 30 new dictionary entries (IDs 20773-20802) from candidate_words.json. A diverse mix of nouns, na-adjectives, and expressions covering food, culture, language, technology, daily life, weather, law, and emotions.
-
-- **Na-adjective (1)**: {例外的|れいがいてき} (exceptional)
-- **Expressions (3)**: {有終|ゆうしゅう}の{美|び} (finishing beautifully), {心|こころ}の{余裕|よゆう} (mental composure), {尻|しり}すぼみ (fizzling out)
-- **Four-character idioms (2)**: {一致団結|いっちだんけつ} (unity/solidarity), {威風堂々|いふうどうどう} (majestic/dignified)
-- **Nouns (24)**: {推論|すいろん} (inference), {失意|しつい} (dejection), {具体化|ぐたいか} (concretization), {短編小説|たんぺんしょうせつ} (short story), {入浴剤|にゅうよくざい} (bath additive), {常用漢字|じょうようかんじ} (regular-use kanji), {賃貸住宅|ちんたいじゅうたく} (rental housing), {焼|や}きうどん (fried udon), {金|きん}メダル (gold medal), {高速|こうそく}バス (express bus), {先端技術|せんたんぎじゅつ} (cutting-edge technology), {検事|けんじ} (public prosecutor), グレープフルーツ (grapefruit), {粒|つぶ}あん (chunky bean paste), こしあん (smooth bean paste), {科学技術|かがくぎじゅつ} (science and technology), ドライフルーツ (dried fruit), {探知|たんち} (detection), {悲哀|ひあい} (sorrow/grief), {長編小説|ちょうへんしょうせつ} (full-length novel), {特別警報|とくべつけいほう} (special warning), {避難指示|ひなんしじ} (evacuation order), {洋裁|ようさい} (dressmaking), リュックサック (backpack)
-- Removed 30 candidates that now exist as entries
 
 
 
