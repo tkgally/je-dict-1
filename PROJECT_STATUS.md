@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 549)
+Added 30 new dictionary entries (IDs 20803-20832) from candidate_words.json. A diverse mix of nouns, na-adjective, adverbs, expressions, suru verbs, and onomatopoeia covering prophecy, emotions, law, nature, food, culture, sports, and daily life.
+
+- **Na-adjective (1)**: あからさま (blatant/obvious)
+- **Adverbs (3)**: きゅうっと (tightly/squeezing), {嫌々|いやいや}ながら (reluctantly), ちょびちょび (little by little)
+- **Expressions (2)**: ご{苦労|くろう}さまです (thank you for your work), {罠|わな}にかける (to trap/ensnare)
+- **Suru verbs (5)**: {予言|よげん} (prophecy), {発狂|はっきょう} (going mad), {贖罪|しょくざい} (atonement), {調教|ちょうきょう} (training/taming), {是認|ぜにん} (approval), {大|だい}ヒット (big hit)
+- **Onomatopoeia (1)**: ごそごそする (to rustle about/rummage)
+- **Nouns (17)**: {企|たくら}み (plot/scheme), {給付金|きゅうふきん} (benefit payment), {美点|びてん} (virtue/merit), {樹海|じゅかい} (sea of trees), {議案|ぎあん} (bill/proposal), ホームラン (home run), {相続人|そうぞくにん} (heir), {改正案|かいせいあん} (revision bill), {地震速報|じしんそくほう} (earthquake alert), {献立表|こんだてひょう} (meal plan), みょうが (Japanese ginger), {赤血球|せっけっきゅう} (red blood cell), {原子炉|げんしろ} (nuclear reactor), {和裁|わさい} (Japanese sewing), サーカス (circus), {青|あお}じそ (green shiso), {分煙|ぶんえん} (smoking area separation)
+- Added 1 new kanji to index: 贖
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 548)
 Added 30 new dictionary entries (IDs 20773-20802) from candidate_words.json. A diverse mix of nouns, na-adjectives, and expressions covering food, culture, language, technology, daily life, weather, law, and emotions.
 
@@ -91,15 +103,6 @@ Added 29 new dictionary entries (IDs 20683-20712) from candidate_words.json. A d
 - Removed 1 stale candidate (duplicate reading variant)
 - Removed 1 duplicate entry ({肩代|かたが}わり — already existed as ID 20190)
 
-### 2026-03-30 (Vocabulary Expansion - 25 New Entries, Session 544)
-Added 25 new dictionary entries (IDs 20658-20682) from candidate_words.json. A diverse mix including verbs, nouns, expressions, and an adjective spanning everyday conversation, food, culture, and media vocabulary.
-
-- **Godan verbs (2)**: {話|はな}し{込|こ}む (to get deeply involved in conversation), {恵|めぐ}む (to give charitably; to bless)
-- **Suru verbs (5)**: {投入|とうにゅう}する (to throw in/invest), {寄付|きふ}する (to donate), {完了|かんりょう}する (to complete), {完結|かんけつ}する (to conclude), うんざりする (to be fed up)
-- **Expressions (3)**: {嫌|いや}になる (to become fed up), お{疲|つか}れさまです (thank you for your work), {仲|なか}が{良|よ}い (to be on good terms)
-- **Na-adjective (1)**: {爆発的|ばくはつてき} (explosive/phenomenal)
-- **Nouns (14)**: {月光|げっこう} (moonlight), {捕虜|ほりょ} (prisoner of war), {施術|せじゅつ} (treatment/therapy), {半々|はんはん} (half and half), {紅|くれない} (crimson), {忠義|ちゅうぎ} (loyalty), {哺乳瓶|ほにゅうびん} (baby bottle), コク (richness of flavor), {脂身|あぶらみ} (fatty meat), {新品同様|しんぴんどうよう} (like new), {観光案内|かんこうあんない} (tourist information), {囚人|しゅうじん} (prisoner), {暴徒|ぼうと} (rioter), {大男|おおおとこ} (big man)
-- Removed 25 candidates that now exist as entries
 
 
 
