@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 552)
+Added 30 new dictionary entries (IDs 20893-20922) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and adverbs covering daily life, food, culture, finance, geography, technology, and society.
+
+- **Nouns (14)**: {企|くわだ}て (plan/plot), {小銭入|こぜにい}れ (coin purse), {販売店|はんばいてん} (retail store), {油脂|ゆし} (fats and oils), お{茶請|ちゃう}け (tea snack), {陶芸家|とうげいか} (ceramist), {美容整形|びようせいけい} (cosmetic surgery), {北半球|きたはんきゅう} (Northern Hemisphere), {司令官|しれいかん} (commander), {甲殻類|こうかくるい} (crustaceans), {志願者|しがんしゃ} (volunteer/applicant), {輪廻転生|りんねてんしょう} (reincarnation), {不良債権|ふりょうさいけん} (bad debt), {保養地|ほようち} (health resort)
+- **Suru verbs (6)**: {読破|どくは}する (to finish reading), {適合|てきごう} (conformity), {省力化|しょうりょくか} (labor-saving), {肩代|かたが}わりする (to take over a burden), {冠水|かんすい} (flooding), {脱臭|だっしゅう} (deodorization)
+- **Na-adjectives (4)**: {短|みじか}め (somewhat short), {太|ふと}め (somewhat thick), {細|ほそ}め (somewhat thin), {同情的|どうじょうてき} (sympathetic)
+- **Adverb (1)**: {公然|こうぜん} (openly/publicly)
+- **Other (5)**: へたれ (wimp), {漫談|まんだん} (comic talk), フォント (font), {甘納豆|あまなっとう} (sweetened beans), {地域|ちいき}おこし (regional revitalization)
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 551)
 Added 30 new dictionary entries (IDs 20863-20892) from candidate_words.json. A diverse mix of suru verbs, godan verb, nouns, na-adjectives, and expressions covering language, science, finance, culture, food, medicine, sports, and daily life.
 
@@ -93,19 +102,6 @@ Added 30 new dictionary entries (IDs 20773-20802) from candidate_words.json. A d
 - **Four-character idioms (2)**: {一致団結|いっちだんけつ} (unity/solidarity), {威風堂々|いふうどうどう} (majestic/dignified)
 - **Nouns (24)**: {推論|すいろん} (inference), {失意|しつい} (dejection), {具体化|ぐたいか} (concretization), {短編小説|たんぺんしょうせつ} (short story), {入浴剤|にゅうよくざい} (bath additive), {常用漢字|じょうようかんじ} (regular-use kanji), {賃貸住宅|ちんたいじゅうたく} (rental housing), {焼|や}きうどん (fried udon), {金|きん}メダル (gold medal), {高速|こうそく}バス (express bus), {先端技術|せんたんぎじゅつ} (cutting-edge technology), {検事|けんじ} (public prosecutor), グレープフルーツ (grapefruit), {粒|つぶ}あん (chunky bean paste), こしあん (smooth bean paste), {科学技術|かがくぎじゅつ} (science and technology), ドライフルーツ (dried fruit), {探知|たんち} (detection), {悲哀|ひあい} (sorrow/grief), {長編小説|ちょうへんしょうせつ} (full-length novel), {特別警報|とくべつけいほう} (special warning), {避難指示|ひなんしじ} (evacuation order), {洋裁|ようさい} (dressmaking), リュックサック (backpack)
 - Removed 30 candidates that now exist as entries
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 547)
-Added 30 new dictionary entries (IDs 20743-20772) from candidate_words.json. A diverse mix of nouns, na-adjectives, adverbs, and expressions covering language, culture, technology, geography, and daily life.
-
-- **Na-adjectives (3)**: {立体的|りったいてき} (three-dimensional), {非人道的|ひじんどうてき} (inhumane), {淡麗|たんれい} (light and clean/refined)
-- **Adverbs (2)**: すらり (slenderly/smoothly), {今|いま}でも (even now/still)
-- **Expressions (1)**: せいで (because of — negative cause)
-- **Nouns (24)**: {初学者|しょがくしゃ} (beginner), {寂寥感|せきりょうかん} (sense of desolation), {操縦士|そうじゅうし} (pilot), {離着陸|りちゃくりく} (takeoff and landing), {小型化|こがたか} (miniaturization), {出自|しゅつじ} (origin/lineage), {識見|しきけん} (insight), {史料|しりょう} (historical materials), {雅号|がごう} (pen name), {社殿|しゃでん} (shrine building), {残額|ざんがく} (remaining balance), {非公表|ひこうひょう} (undisclosed), {視覚化|しかくか} (visualization), {巧妙化|こうみょうか} (growing sophistication), {後|うし}ろ{髪|がみ} (back hair/lingering attachment), {実線|じっせん} (solid line), {破線|はせん} (dashed line), {中黒|なかぐろ} (interpunct), {姉|ねえ}さん (older sister/miss), {極大|きょくだい} (maximum), {修理中|しゅうりちゅう} (under repair), {使用禁止|しようきんし} (prohibited for use), {地中海|ちちゅうかい} (Mediterranean), おさげ (braids/pigtails)
-- Removed 30 candidates that now exist as entries
-
-- Removed 29 candidates that now exist as entries
-
-
 
 
 
