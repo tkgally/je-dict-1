@@ -60,6 +60,17 @@ Added 30 new dictionary entries (IDs 20893-20922) from candidate_words.json. A d
 - **Adverb (1)**: {公然|こうぜん} (openly/publicly)
 - **Other (5)**: へたれ (wimp), {漫談|まんだん} (comic talk), フォント (font), {甘納豆|あまなっとう} (sweetened beans), {地域|ちいき}おこし (regional revitalization)
 
+### 2026-03-30 (Vocabulary Expansion - 16 New Entries, Session 552)
+Added 16 new dictionary entries (IDs 20923-20938) from candidate_words.json. A mix of compound verbs, suru verbs, nouns, and na-adjectives covering everyday actions, psychology, commerce, geography, and social interaction.
+
+- **Godan verbs (4)**: {売|う}れ{残|のこ}る (to remain unsold), {作|つく}り{直|なお}す (to remake), {取|と}り{囲|かこ}む (to surround), {引|ひ}き{続|つづ}く (to continue)
+- **Ichidan verb (1)**: {聞|き}かせる (to tell/let hear)
+- **Suru verbs (5)**: {披露|ひろう} (to unveil/present), {出現|しゅつげん} (to appear/emerge), {執着|しゅうちゃく} (to cling to), {固執|こしつ} (to persist stubbornly), {拘束|こうそく} (to restrain/detain)
+- **Nouns (3)**: ふれあい (interaction/togetherness), {失神|しっしん} (fainting), {市内|しない} (within the city)
+- **Na-adjectives (2)**: {世界的|せかいてき} (worldwide/global), {苛烈|かれつ} (fierce/severe)
+- **Other (1)**: {国外|こくがい} (outside the country)
+- Removed 16 candidates that now exist as entries
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 551)
 Added 30 new dictionary entries (IDs 20863-20892) from candidate_words.json. A diverse mix of suru verbs, godan verb, nouns, na-adjectives, and expressions covering language, science, finance, culture, food, medicine, sports, and daily life.
 
