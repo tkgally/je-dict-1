@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 546)
+Added 30 new dictionary entries (IDs 20713-20742) from candidate_words.json. A diverse mix of verbs, nouns, adjectives, adverbs, and an onomatopoeia covering everyday communication, writing, math, food, and personality vocabulary.
+
+- **Godan verbs (6)**: {割|わ}り{切|き}る (to accept rationally), {仄|ほの}めかす (to hint), {押|お}し{通|とお}す (to push through), {突|つ}っつく (to poke/peck), {書|か}き{写|うつ}す (to copy down), {書|か}き{抜|ぬ}く (to extract by writing)
+- **Ichidan verb (1)**: くじける (to be discouraged; to sprain)
+- **Suru verbs (3)**: {熱中|ねっちゅう}する (to be absorbed in), {断念|だんねん}する (to give up), {退会|たいかい}する (to cancel membership)
+- **Na-adjectives (2)**: {気長|きなが} (patient), {小心|しょうしん} (timid)
+- **Adverbs (3)**: どろどろ (muddy/sordid), だいぶん (considerably), {順|じゅん}に (in order)
+- **Nouns (15)**: {切|き}れ{目|め} (break/gap), {葉巻|はまき} (cigar), {草稿|そうこう} (draft), {総数|そうすう} (total number), {小計|しょうけい} (subtotal), {食前|しょくぜん} (before a meal), {素数|そすう} (prime number), {店先|みせさき} (storefront), {大聖堂|だいせいどう} (cathedral), {真|ま}っ{二|ふた}つ (right in half), {話|はな}しぶり (way of speaking), {季節感|きせつかん} (sense of season), {倍数|ばいすう} (multiple), {原寸大|げんすんだい} (full-size), {利|き}き{腕|うで} (dominant arm)
+- Added 1 new kanji to index: 仄
+- Removed 29 candidates that now exist as entries
+
 ### 2026-03-30 (Vocabulary Expansion - 29 New Entries, Session 545)
 Added 29 new dictionary entries (IDs 20683-20712) from candidate_words.json. A diverse mix including nouns, expressions, and a na-adjective covering everyday life, travel, food, business, and education vocabulary.
 
@@ -85,16 +97,6 @@ Added 30 new dictionary entries (IDs 20613-20642) from candidate_words.json. A d
 - **Expressions (3)**: {根|ね}も{葉|は}もない (groundless), {約束|やくそく}を{破|やぶ}る (to break a promise), {注目|ちゅうもく}を{浴|あ}びる (to attract attention)
 - **Adverbs/expressions (2)**: {時間通|じかんどお}り (on time), {何|なん}でもかんでも (anything and everything)
 - **Nouns (23)**: {装着|そうちゃく} (equipping), {編成|へんせい} (formation), {人件費|じんけんひ} (labor costs), {唯一無二|ゆいいつむに} (one and only), {様変|さまが}わり (transformation), {問題点|もんだいてん} (problem area), {脱皮|だっぴ} (molting/outgrowing), {裸眼|らがん} (naked eye), {漁港|ぎょこう} (fishing port), {無一文|むいちもん} (penniless), {指切|ゆびき}り (pinky swear), {大学院生|だいがくいんせい} (graduate student), {煮汁|にじる} (cooking liquid), {精密検査|せいみつけんさ} (detailed examination), {反省文|はんせいぶん} (reflection paper), {金券|きんけん} (cash voucher), {受験票|じゅけんひょう} (exam ticket), お{焦|こ}げ (scorched rice), {人事部|じんじぶ} (HR department), {明明後日|しあさって} (three days from now), {洗米|せんまい} (rice washing), おじいちゃん (grandfather), {諸外国|しょがいこく} (various foreign countries)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 541)
-Added 30 new dictionary entries (IDs 20583-20612) from candidate_words.json. A diverse mix of practical vocabulary including verbs, nouns, adjectives, and adverbs for intermediate learners.
-
-- **Verbs (2)**: {儲|もう}ける (to make a profit), のぼせる (to feel flushed/to be infatuated)
-- **Na-adjectives (2)**: {非公式|ひこうしき} (informal/unofficial), {怪奇|かいき} (mysterious/eerie)
-- **Adverb (1)**: あたふた (in a fluster/hurriedly)
-- **Nouns (25)**: {綱渡|つなわた}り (tightrope walking), {農場|のうじょう} (farm), {真冬|まふゆ} (midwinter), {民意|みんい} (public will), {俗語|ぞくご} (slang), {上陸|じょうりく} (landing), {牽制|けんせい} (check/restraint), {企画書|きかくしょ} (proposal), {入眠|にゅうみん} (falling asleep), {師範|しはん} (master instructor), {口外|こうがい} (disclosing), {平衡|へいこう} (equilibrium), {先達|せんだつ} (pioneer), {土木|どぼく} (civil engineering), {大慌|おおあわ}て (great panic), {含|ふく}み{笑|わら}い (smothered laugh), {画風|がふう} (artistic style), {元金|がんきん} (principal), {表舞台|おもてぶたい} (public spotlight), {放牧|ほうぼく} (grazing), {奇人|きじん} (eccentric), {言語化|げんごか} (verbalization), {背面|はいめん} (back side), {後発|こうはつ} (latecomer), {降車|こうしゃ} (getting off vehicle)
-- Added 1 new kanji to index: 儲
 - Removed 30 candidates that now exist as entries
 
 
