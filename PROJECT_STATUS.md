@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 547)
+Added 30 new dictionary entries (IDs 20743-20772) from candidate_words.json. A diverse mix of nouns, na-adjectives, adverbs, and expressions covering language, culture, technology, geography, and daily life.
+
+- **Na-adjectives (3)**: {立体的|りったいてき} (three-dimensional), {非人道的|ひじんどうてき} (inhumane), {淡麗|たんれい} (light and clean/refined)
+- **Adverbs (2)**: すらり (slenderly/smoothly), {今|いま}でも (even now/still)
+- **Expressions (1)**: せいで (because of — negative cause)
+- **Nouns (24)**: {初学者|しょがくしゃ} (beginner), {寂寥感|せきりょうかん} (sense of desolation), {操縦士|そうじゅうし} (pilot), {離着陸|りちゃくりく} (takeoff and landing), {小型化|こがたか} (miniaturization), {出自|しゅつじ} (origin/lineage), {識見|しきけん} (insight), {史料|しりょう} (historical materials), {雅号|がごう} (pen name), {社殿|しゃでん} (shrine building), {残額|ざんがく} (remaining balance), {非公表|ひこうひょう} (undisclosed), {視覚化|しかくか} (visualization), {巧妙化|こうみょうか} (growing sophistication), {後|うし}ろ{髪|がみ} (back hair/lingering attachment), {実線|じっせん} (solid line), {破線|はせん} (dashed line), {中黒|なかぐろ} (interpunct), {姉|ねえ}さん (older sister/miss), {極大|きょくだい} (maximum), {修理中|しゅうりちゅう} (under repair), {使用禁止|しようきんし} (prohibited for use), {地中海|ちちゅうかい} (Mediterranean), おさげ (braids/pigtails)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 546)
 Added 30 new dictionary entries (IDs 20713-20742) from candidate_words.json. A diverse mix of verbs, nouns, adjectives, adverbs, and an onomatopoeia covering everyday communication, writing, math, food, and personality vocabulary.
 
@@ -89,15 +98,6 @@ Added 15 new dictionary entries (IDs 20643-20657) from candidate_words.json. A m
 - **Na-adjective (1)**: {明瞭|めいりょう} (clear/distinct)
 - **Nouns (14)**: {半信半疑|はんしんはんぎ} (half in doubt), {集金|しゅうきん} (bill collection), {廃業|はいぎょう} (closing a business), {旅費|りょひ} (travel expenses), {子羊|こひつじ} (lamb), {羊毛|ようもう} (wool), {納戸|なんど} (storage room), {前期|ぜんき} (first term), {学童|がくどう} (schoolchild), あんみつ (Japanese dessert), {世相|せそう} (social conditions), {厳寒|げんかん} (severe cold), {能書|のうが}き (boasting), {庶務|しょむ} (general affairs)
 - Removed 15 candidates that now exist as entries
-
-### 2026-03-29 (Vocabulary Expansion - 30 New Entries, Session 542)
-Added 30 new dictionary entries (IDs 20613-20642) from candidate_words.json. A diverse mix of practical vocabulary covering nouns, expressions, na-adjectives, and adverbs for intermediate learners.
-
-- **Na-adjectives (2)**: {鮮烈|せんれつ} (vivid/striking), {紳士的|しんしてき} (gentlemanly)
-- **Expressions (3)**: {根|ね}も{葉|は}もない (groundless), {約束|やくそく}を{破|やぶ}る (to break a promise), {注目|ちゅうもく}を{浴|あ}びる (to attract attention)
-- **Adverbs/expressions (2)**: {時間通|じかんどお}り (on time), {何|なん}でもかんでも (anything and everything)
-- **Nouns (23)**: {装着|そうちゃく} (equipping), {編成|へんせい} (formation), {人件費|じんけんひ} (labor costs), {唯一無二|ゆいいつむに} (one and only), {様変|さまが}わり (transformation), {問題点|もんだいてん} (problem area), {脱皮|だっぴ} (molting/outgrowing), {裸眼|らがん} (naked eye), {漁港|ぎょこう} (fishing port), {無一文|むいちもん} (penniless), {指切|ゆびき}り (pinky swear), {大学院生|だいがくいんせい} (graduate student), {煮汁|にじる} (cooking liquid), {精密検査|せいみつけんさ} (detailed examination), {反省文|はんせいぶん} (reflection paper), {金券|きんけん} (cash voucher), {受験票|じゅけんひょう} (exam ticket), お{焦|こ}げ (scorched rice), {人事部|じんじぶ} (HR department), {明明後日|しあさって} (three days from now), {洗米|せんまい} (rice washing), おじいちゃん (grandfather), {諸外国|しょがいこく} (various foreign countries)
-- Removed 30 candidates that now exist as entries
 
 
 
