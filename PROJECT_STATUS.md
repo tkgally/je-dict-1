@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 551)
+Added 30 new dictionary entries (IDs 20863-20892) from candidate_words.json. A diverse mix of suru verbs, godan verb, nouns, na-adjectives, and expressions covering language, science, finance, culture, food, medicine, sports, and daily life.
+
+- **Suru verbs (7)**: {連発|れんぱつ} (rapid repetition), {続発|ぞくはつ} (successive occurrence), {透過|とうか} (transmission/permeation), {帰属|きぞく} (belonging/attribution), {隷属|れいぞく} (subordination/servitude), {退色|たいしょく} (fading/discoloration), {注文生産|ちゅうもんせいさん} (made-to-order production — noun only)
+- **Godan verb (1)**: {澄|す}み{切|き}る (to be crystal clear)
+- **Nouns (14)**: {不成功|ふせいこう} (failure), {限度額|げんどがく} (credit limit), {無応答|むおうとう} (no response), {伝達力|でんたつりょく} (communication ability), {損害保険|そんがいほけん} (non-life insurance), {心理戦|しんりせん} (psychological warfare), {非推奨|ひすいしょう} (deprecated), {輝度|きど} (brightness/luminance), {防錆|ぼうせい} (rust prevention), {撥|ばち} (plectrum/drumstick), {兄貴分|あにきぶん} (big-brother figure), {葉菜|ようさい} (leafy vegetable), {獣医学|じゅういがく} (veterinary medicine), {注文服|ちゅうもんふく} (custom clothing), {副助詞|ふくじょし} (adverbial particle), {紆余|うよ} (winding/meandering)
+- **Expressions (2)**: {品|ひん}がある (to have class), {予約困難|よやくこんなん} (hard to book)
+- **Other (2)**: {拳闘|けんとう} (boxing), {浄化槽|じょうかそう} (septic tank), {脳神経|のうしんけい} (cranial nerve)
+- Added 1 new kanji to index: 隷
+- Removed 20 stale duplicate candidates from candidate_words.json
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 550)
 Added 30 new dictionary entries (IDs 20833-20862) from candidate_words.json. A mix of verbs, i-adjectives, nouns, an adverb, and an interjection covering everyday actions, emotions, appearance, and literary expression.
 
@@ -92,16 +103,6 @@ Added 30 new dictionary entries (IDs 20743-20772) from candidate_words.json. A d
 - **Nouns (24)**: {初学者|しょがくしゃ} (beginner), {寂寥感|せきりょうかん} (sense of desolation), {操縦士|そうじゅうし} (pilot), {離着陸|りちゃくりく} (takeoff and landing), {小型化|こがたか} (miniaturization), {出自|しゅつじ} (origin/lineage), {識見|しきけん} (insight), {史料|しりょう} (historical materials), {雅号|がごう} (pen name), {社殿|しゃでん} (shrine building), {残額|ざんがく} (remaining balance), {非公表|ひこうひょう} (undisclosed), {視覚化|しかくか} (visualization), {巧妙化|こうみょうか} (growing sophistication), {後|うし}ろ{髪|がみ} (back hair/lingering attachment), {実線|じっせん} (solid line), {破線|はせん} (dashed line), {中黒|なかぐろ} (interpunct), {姉|ねえ}さん (older sister/miss), {極大|きょくだい} (maximum), {修理中|しゅうりちゅう} (under repair), {使用禁止|しようきんし} (prohibited for use), {地中海|ちちゅうかい} (Mediterranean), おさげ (braids/pigtails)
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 546)
-Added 30 new dictionary entries (IDs 20713-20742) from candidate_words.json. A diverse mix of verbs, nouns, adjectives, adverbs, and an onomatopoeia covering everyday communication, writing, math, food, and personality vocabulary.
-
-- **Godan verbs (6)**: {割|わ}り{切|き}る (to accept rationally), {仄|ほの}めかす (to hint), {押|お}し{通|とお}す (to push through), {突|つ}っつく (to poke/peck), {書|か}き{写|うつ}す (to copy down), {書|か}き{抜|ぬ}く (to extract by writing)
-- **Ichidan verb (1)**: くじける (to be discouraged; to sprain)
-- **Suru verbs (3)**: {熱中|ねっちゅう}する (to be absorbed in), {断念|だんねん}する (to give up), {退会|たいかい}する (to cancel membership)
-- **Na-adjectives (2)**: {気長|きなが} (patient), {小心|しょうしん} (timid)
-- **Adverbs (3)**: どろどろ (muddy/sordid), だいぶん (considerably), {順|じゅん}に (in order)
-- **Nouns (15)**: {切|き}れ{目|め} (break/gap), {葉巻|はまき} (cigar), {草稿|そうこう} (draft), {総数|そうすう} (total number), {小計|しょうけい} (subtotal), {食前|しょくぜん} (before a meal), {素数|そすう} (prime number), {店先|みせさき} (storefront), {大聖堂|だいせいどう} (cathedral), {真|ま}っ{二|ふた}つ (right in half), {話|はな}しぶり (way of speaking), {季節感|きせつかん} (sense of season), {倍数|ばいすう} (multiple), {原寸大|げんすんだい} (full-size), {利|き}き{腕|うで} (dominant arm)
-- Added 1 new kanji to index: 仄
 - Removed 29 candidates that now exist as entries
 
 
