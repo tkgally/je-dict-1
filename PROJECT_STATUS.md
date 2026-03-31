@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-30
+**Last updated**: 2026-03-31
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -19,11 +19,11 @@ These counts are approximate. Run `make report` for accurate, up-to-date numbers
 
 | Metric | Value |
 |--------|-------|
-| Total entries | ~19,058 |
+| Total entries | ~19,088 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,998 (closed) |
-| General tier | ~16,259 (open) |
-| Candidate words | ~5,099 |
+| General tier | ~16,289 (open) |
+| Candidate words | ~5,472 |
 | Cross-references | ~3,400 |
 | Example sentences | ~53,200 |
 | Audio files | 1,028 |
@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 555)
+Added 30 new dictionary entries (IDs 21018-21047) from candidate_words.json. A mix of adjectives, verbs, nouns, and expressions covering evaluation, cognition, action, culture, and formal language.
+
+- **Na-adjectives (6)**: {私的|してき}な (private/personal), {公的|こうてき}な (official/public), {公正|こうせい}な (fair/impartial), {主観的|しゅかんてき}な (subjective), {理性的|りせいてき}な (rational), {筋違|すじちが}い (misplaced/misdirected)
+- **I-adjectives (4)**: {比類|ひるい}ない (peerless), {格式高|かくしきたか}い (prestigious), {田舎臭|いなかくさ}い (countrified), {疑|うたが}いない (undoubted)
+- **Godan verbs (7)**: {折|お}り{返|かえ}す (to fold back/call back), {刈|か}り{取|と}る (to harvest), {考|かんが}え{出|だ}す (to think up), {写|うつ}り{込|こ}む (to appear in photo), かき{乱|みだ}す (to stir up), {抜|ぬ}き{取|と}る (to extract), {刈|か}り{込|こ}む (to trim)
+- **Suru verbs (7)**: {決定|けってい}する (to decide), {実在|じつざい}する (to actually exist), {発射|はっしゃ}する (to fire/launch), {連発|れんぱつ}する (to repeat in succession), {続発|ぞくはつ}する (to occur in succession), {透過|とうか}する (to pass through), {発進|はっしん}する (to depart), {帰属|きぞく}する (to belong to)
+- **Nouns (4)**: {主|おも}な (main/major), {第一言語|だいいちげんご} (first language), サンデー (sundae), {腐女子|ふじょし} (fujoshi), {抜擢人事|ばってきじんじ} (merit-based promotion)
+- Removed 3 stale candidates (duplicates of existing entries)
+- Removed 29 candidates that now exist as entries
 
 ### 2026-03-31 (Vocabulary Expansion - 19 New Entries)
 Added 19 new dictionary entries (IDs 20999-21017) from candidate_words.json. A diverse mix covering language, medicine, law, science, culture, daily life, and modern society.
@@ -86,15 +97,6 @@ Added 30 new dictionary entries (IDs 20939-20968) from candidate_words.json. A d
 - **Expressions (2)**: {眼鏡|めがね}をかける (to wear glasses), {何事|なにごと}も (everything)
 - **Other (3)**: こら (hey!/stop that!), {自然遺産|しぜんいさん} (natural heritage), {宵|よい}の{明星|みょうじょう} (evening star)
 - Added 1 new kanji to index: 怙
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 552)
-Added 30 new dictionary entries (IDs 20893-20922) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and adverbs covering daily life, food, culture, finance, geography, technology, and society.
-
-- **Nouns (14)**: {企|くわだ}て (plan/plot), {小銭入|こぜにい}れ (coin purse), {販売店|はんばいてん} (retail store), {油脂|ゆし} (fats and oils), お{茶請|ちゃう}け (tea snack), {陶芸家|とうげいか} (ceramist), {美容整形|びようせいけい} (cosmetic surgery), {北半球|きたはんきゅう} (Northern Hemisphere), {司令官|しれいかん} (commander), {甲殻類|こうかくるい} (crustaceans), {志願者|しがんしゃ} (volunteer/applicant), {輪廻転生|りんねてんしょう} (reincarnation), {不良債権|ふりょうさいけん} (bad debt), {保養地|ほようち} (health resort)
-- **Suru verbs (6)**: {読破|どくは}する (to finish reading), {適合|てきごう} (conformity), {省力化|しょうりょくか} (labor-saving), {肩代|かたが}わりする (to take over a burden), {冠水|かんすい} (flooding), {脱臭|だっしゅう} (deodorization)
-- **Na-adjectives (4)**: {短|みじか}め (somewhat short), {太|ふと}め (somewhat thick), {細|ほそ}め (somewhat thin), {同情的|どうじょうてき} (sympathetic)
-- **Adverb (1)**: {公然|こうぜん} (openly/publicly)
-- **Other (5)**: へたれ (wimp), {漫談|まんだん} (comic talk), フォント (font), {甘納豆|あまなっとう} (sweetened beans), {地域|ちいき}おこし (regional revitalization)
 
 
 ---
