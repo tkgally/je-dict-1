@@ -121,15 +121,23 @@
   "notes": "{先生|せんせい} is a respectful title for teachers, doctors, and other professionals.\n\nUSAGE AS TITLE:\n- After names: {田中|たなか}{先生|せんせい} (Teacher/Dr. Tanaka)\n- Direct address: {先生|せんせい}、⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。\n\nAPPLIES TO:\n- ⟦{教師|きょうし}→教師：03029_kyoushi⟧: teachers\n- ⟦{医者|いしゃ}→医者：02847_isha⟧: doctors\n- ⟦{弁護士|べんごし}→弁護士：03150_bengoshi⟧: lawyers\n- ⟦{作家|さっか}→作家：01414_sakka⟧: authors, artists\n- ⟦{政治家|せいじか}→政治家：03084_seijika⟧: politicians\n\nIMPORTANT:\nNever use {先生|せんせい} for yourself. Use ⟦{教師|きょうし}→教師：03029_kyoushi⟧ or {教員|きょういん} instead.\n\nRELATED:\n- ⟦{生徒|せいと}→生徒：01051_seito⟧: student (of a {先生|せんせい})",
   "cross_references": [
     {
-      "type": "see_also",
+      "type": "related",
       "reading": "がっこう",
       "headword": "{学校|がっこう}",
-      "target_id": "00055_gakkou"
+      "target_id": "00055_gakkou",
+      "label": "school"
+    },
+    {
+      "type": "related",
+      "reading": "がくせい",
+      "headword": "{学生|がくせい}",
+      "target_id": "00610_gakusei",
+      "label": "student"
     }
   ],
   "metadata": {
     "created": "2026-01-07T15:46:11Z",
-    "modified": "2026-02-12T03:58:01Z",
+    "modified": "2026-03-31T08:45:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

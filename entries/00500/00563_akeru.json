@@ -68,23 +68,26 @@
     }
   ],
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {開|あ}く (intransitive, to open by itself). Pattern: Xを{開|あ}ける.\n\nASPECT: ている indicates resulting state. {開|あ}けている usually means 'have opened (and it's still open)' rather than 'is opening.'\n\nCOMMON PATTERNS:\n・{窓|まど}を{開|あ}ける (open the window)\n・ドアを{開|あ}ける (open the door)\n・{口|くち}を{開|あ}ける (open one's mouth)\n・{穴|あな}を{開|あ}ける (make a hole)\n\nOpposite: {閉|し}める (to close something).",
-  "cross_references": [
+  "prominent_see_also": [
     {
-      "type": "see_also",
-      "reading": "しめる",
-      "headword": "{閉|し}める",
-      "target_id": "00485_shimeru"
-    },
-    {
-      "type": "see_also",
+      "target_id": "00689_aku",
       "reading": "あく",
       "headword": "{開|あ}く",
-      "target_id": "00689_aku"
+      "note": "intransitive"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "しめる",
+      "headword": "{閉|し}める",
+      "target_id": "00485_shimeru",
+      "label": "to close"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:43:48Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:45:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

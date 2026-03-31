@@ -6,8 +6,93 @@
   "gloss": "to rise, to go up",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{上|あ}が"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{上|あ}がる",
+        "negative": "{上|あ}がらない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{上|あ}がります",
+        "negative": "{上|あ}がりません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{上|あ}がった",
+        "negative": "{上|あ}がらなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{上|あ}がりました",
+        "negative": "{上|あ}がりませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{上|あ}がって",
+        "negative": "{上|あ}がらなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{上|あ}がっている",
+        "negative": "{上|あ}がっていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{上|あ}がっています",
+        "negative": "{上|あ}がっていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{上|あ}がっていた",
+        "negative": "{上|あ}がっていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{上|あ}がっていました",
+        "negative": "{上|あ}がっていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{上|あ}がれば",
+        "negative": "{上|あ}がらなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{上|あ}がったら",
+        "negative": "{上|あ}がらなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{上|あ}がろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{上|あ}がりましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{上|あ}がれる",
+        "negative": "{上|あ}がれない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{上|あ}がられる",
+        "negative": "{上|あ}がられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{上|あ}がらせる",
+        "negative": "{上|あ}がらせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{上|あ}がれ",
+        "negative": "{上|あ}がるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -126,15 +211,16 @@
   "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{上|あ}げる→あげる：00546_ageru⟧ (to raise). Pattern: X⟦が→が：00051_ga⟧{上|あ}がる.\n\nASPECT: ている indicates ongoing action or resulting state depending on context. {上|あ}がっている can mean 'is rising' (ongoing) or 'has risen/is up' (result). For prices/temperatures, the result reading is common: ⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がっている (prices are up/have risen).\n\nCOMMON PATTERNS:\n・⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{上|あ}がる (temperature rises)\n・⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{上|あ}がる (price goes up)\n・⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧{上|あ}がる (go up stairs)\n・⟦どうぞ→どうぞ：02920_douzo⟧{上|あ}がって⟦ください→ください：02899_kudasai⟧ (please come in - entering a house)\n\nThe house-entering usage reflects traditional Japanese architecture where the floor is elevated above the genkan entrance.",
   "cross_references": [
     {
-      "type": "see_also",
-      "reading": "あげる",
-      "headword": "あげる",
-      "target_id": "00546_ageru"
+      "type": "antonym",
+      "reading": "さがる",
+      "headword": "{下|さ}がる",
+      "target_id": "01188_sagaru",
+      "label": "to go down"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:53:28Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:45:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -155,96 +241,12 @@
       "reading": "あがる",
       "headword": "あがる",
       "note": "to get nervous"
+    },
+    {
+      "target_id": "00546_ageru",
+      "reading": "あげる",
+      "headword": "あげる",
+      "note": "transitive"
     }
-  ],
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{上|あ}がる",
-        "negative": "{上|あ}がらない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{上|あ}がります",
-        "negative": "{上|あ}がりません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{上|あ}がった",
-        "negative": "{上|あ}がらなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{上|あ}がりました",
-        "negative": "{上|あ}がりませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{上|あ}がって",
-        "negative": "{上|あ}がらなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{上|あ}がっている",
-        "negative": "{上|あ}がっていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{上|あ}がっています",
-        "negative": "{上|あ}がっていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{上|あ}がっていた",
-        "negative": "{上|あ}がっていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{上|あ}がっていました",
-        "negative": "{上|あ}がっていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{上|あ}がれば",
-        "negative": "{上|あ}がらなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{上|あ}がったら",
-        "negative": "{上|あ}がらなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{上|あ}がろう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{上|あ}がりましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{上|あ}がれる",
-        "negative": "{上|あ}がれない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{上|あ}がられる",
-        "negative": "{上|あ}がられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{上|あ}がらせる",
-        "negative": "{上|あ}がらせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{上|あ}がれ",
-        "negative": "{上|あ}がるな"
-      }
-    ]
-  }
+  ]
 }
