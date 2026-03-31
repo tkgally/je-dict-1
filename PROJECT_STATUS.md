@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 558)
+Added 30 new dictionary entries (IDs 21108-21137) from candidate_words.json. A diverse mix covering culture, food, movement, emotions, finance, daily life, and formal/literary vocabulary.
+
+- **Nouns (16)**: {切|き}り{身|み} (fillet), {脳裏|のうり} (one's mind), {白身魚|しろみざかな} (white fish), {民芸品|みんげいひん} (folk craft), {小走|こばし}り (trot), {早足|はやあし} (brisk walk), {出来上|できあ}がり (finished product), {医療保険|いりょうほけん} (medical insurance), {副収入|ふくしゅうにゅう} (side income), サラダ{油|あぶら} (cooking oil), {本館|ほんかん} (main building), {別館|べっかん} (annex), {島民|とうみん} (islander), カイロ (hand warmer), {耐熱|たいねつ} (heat-resistant), {仮設|かせつ} (temporary)
+- **Suru verbs (4)**: {検閲|けんえつ} (censorship), {赤面|せきめん} (blushing), {欠落|けつらく} (omission), {常駐|じょうちゅう} (permanent stationing), {処遇|しょぐう} (treatment), {天日干|てんぴぼ}し (sun-drying)
+- **Na-adjectives (2)**: {未曾有|みぞう} (unprecedented), {悠長|ゆうちょう} (leisurely)
+- **I-adjective (1)**: {変|か}わりやすい (changeable)
+- **Ichidan verb (1)**: {積|つ}み{立|た}てる (to save up)
+- **Expression (2)**: {口|くち}をつぐむ (to keep silent), {火|ひ}を{見|み}るより{明|あき}らか (obvious beyond doubt)
+- **Adverb (1)**: きっかり (exactly)
+- **Other**: {荒涼|こうりょう} (desolate)
+- Added 1 new kanji to index: 曾
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 557)
 Added 30 new dictionary entries (IDs 21078-21107) from candidate_words.json. A mix of practical vocabulary covering communication, health, education, law, technology, culture, and everyday expressions.
 
@@ -95,14 +109,6 @@ Added 19 new dictionary entries (IDs 20999-21017) from candidate_words.json. A d
 - **I-adjective (1)**: ろくでもない (good-for-nothing/worthless)
 - **Adverb (1)**: そこかしこ (here and there)
 - **Cultural (2)**: {恋活|こいかつ} (dating activities), しめ{飾|かざ}り (New Year rope decoration)
-
-### 2026-03-31 (Vocabulary Expansion - 30 New Entries)
-Added 30 new dictionary entries (IDs 20969-20998) from candidate_words.json. A diverse mix covering people, relationships, culture, food, health, martial arts, society, finance, and common verbs.
-
-- **Nouns (16)**: クラスメート (classmate), {別|わか}れ{話|ばなし} (breakup talk), {熱|あつ}さ (heat/hotness), あごひげ (chin beard), {金言|きんげん} (wise saying), {出席者|しゅっせきしゃ} (attendee), {美術家|びじゅつか} (artist), {必読書|ひつどくしょ} (must-read book), {連載小説|れんさいしょうせつ} (serialized novel), {入居者|にゅうきょしゃ} (resident), {治療院|ちりょういん} (clinic), {接骨院|せっこついん} (bone-setting clinic), {継父|ままちち} (stepfather), {正月飾|しょうがつかざ}り (New Year decorations), {澄|す}まし{汁|じる} (clear soup), {免震|めんしん} (seismic isolation), {人権侵害|じんけんしんがい} (human rights violation), {逃走者|とうそうしゃ} (fugitive), {非正規雇用|ひせいきこよう} (non-regular employment), {地方創生|ちほうそうせい} (regional revitalization), {柔術|じゅうじゅつ} (jujutsu)
-- **Suru verbs (8)**: イメージする (to visualize), {停止|ていし}する (to stop/halt), {潜水|せんすい}する (to dive underwater), {潜入|せんにゅう}する (to infiltrate), {憎悪|ぞうお}する (to hate/detest), {着金|ちゃっきん}する (to receive payment), {変化|へんか}する (to change), {計画|けいかく}する (to plan)
-- **Expression (1)**: {心|こころ}が{広|ひろ}い (broad-minded)
-- Removed 30 candidates that now exist as entries
 
 
 
