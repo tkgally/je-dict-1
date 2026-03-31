@@ -104,9 +104,9 @@ Read PROJECT_CONTEXT_BRIEF.md and summarize the current state of the dictionary.
 Read prompts/consolidate_entries.md and follow the instructions to find and merge duplicate or variant entries.
 ```
 
-### Add prominent cross-references
+### Add cross-references
 ```
-Read prompts/add_prominent_crossrefs.md and follow the instructions to add high-visibility cross-references for homophones and easily confused words.
+Read prompts/add_cross-references.md and follow the instructions to systematically review and add cross-references to entries.
 ```
 
 ### Fix duplicate numeric IDs

@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Cross-Reference System Overhaul)
+Created a new systematic cross-reference review system and updated related documentation.
+
+- **New prompt**: `prompts/add_cross-references.md` — systematically reviews entries and adds/verifies both `prominent_see_also` and `cross_references` links
+- **New tracking file**: `prompts/add-cross-references-tracking.txt` — pre-populated with all 2,783 basic and core tier entries
+- **Updated skill**: `.claude/skills/cross-reference-entry/SKILL.md` — expanded `prominent_see_also` guidance to cover transitive/intransitive pairs, N/Nする pairs, informal/formal pairs, and other closely related word groups; deprecated `pair` type in `cross_references` (transitive/intransitive pairs now use `prominent_see_also`)
+- **Deleted**: `prompts/add_prominent_crossrefs.md` (superseded by new prompt)
+- **Updated**: CLAUDE.md, README.md, metaprompt_list.md references
+
 ### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 553)
 Added 30 new dictionary entries (IDs 20939-20968) from candidate_words.json. A diverse mix covering social behavior, transportation, culture, nature, food, politics, history, law, arts, and daily life.
 
@@ -91,31 +100,6 @@ Added 30 new dictionary entries (IDs 20863-20892) from candidate_words.json. A d
 - **Other (2)**: {拳闘|けんとう} (boxing), {浄化槽|じょうかそう} (septic tank), {脳神経|のうしんけい} (cranial nerve)
 - Added 1 new kanji to index: 隷
 - Removed 20 stale duplicate candidates from candidate_words.json
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 550)
-Added 30 new dictionary entries (IDs 20833-20862) from candidate_words.json. A mix of verbs, i-adjectives, nouns, an adverb, and an interjection covering everyday actions, emotions, appearance, and literary expression.
-
-- **Godan verbs (15)**: {覆|くつがえ}る (to be overturned), {絡|から}まる (to get tangled), ずらす (to shift), さする (to rub), {貪|むさぼ}る (to devour), {罵|ののし}る (to verbally abuse), {銘打|めいう}つ (to label as), {赤|あか}らむ (to redden), {裏返|うらがえ}る (to turn inside out), {反|そ}らす (to bend back), ねぶる (to lick), {胸躍|むねおど}る (thrilling), {赦|ゆる}す (to pardon), {退|しりぞ}く (to retreat), {採|と}る (to gather)
-- **Ichidan verbs (3)**: {心得|こころえ}る (to understand), どける (to move aside), {縮|ちぢ}れる (to be curly), {癒|い}える (to heal)
-- **I-adjectives (4)**: ごつい (rugged), {悪賢|わるがしこ}い (cunning), {欲深|よくふか}い (greedy), {篤|あつ}い (sincere)
-- **Nouns (4)**: {移|うつ}ろい (change/passing), {色違|いろちが}い (different color), {嘘笑|うそわら}い (fake smile), {入園|にゅうえん} (entering kindergarten), {格下|かくさ}げ (downgrade)
-- **Adverb (1)**: ごとく (like, as if)
-- **Interjection (1)**: ふむ (hmm, I see)
-- Removed 1 stale candidate (癒やす — duplicate of 癒す)
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 549)
-Added 30 new dictionary entries (IDs 20803-20832) from candidate_words.json. A diverse mix of nouns, na-adjective, adverbs, expressions, suru verbs, and onomatopoeia covering prophecy, emotions, law, nature, food, culture, sports, and daily life.
-
-- **Na-adjective (1)**: あからさま (blatant/obvious)
-- **Adverbs (3)**: きゅうっと (tightly/squeezing), {嫌々|いやいや}ながら (reluctantly), ちょびちょび (little by little)
-- **Expressions (2)**: ご{苦労|くろう}さまです (thank you for your work), {罠|わな}にかける (to trap/ensnare)
-- **Suru verbs (5)**: {予言|よげん} (prophecy), {発狂|はっきょう} (going mad), {贖罪|しょくざい} (atonement), {調教|ちょうきょう} (training/taming), {是認|ぜにん} (approval), {大|だい}ヒット (big hit)
-- **Onomatopoeia (1)**: ごそごそする (to rustle about/rummage)
-- **Nouns (17)**: {企|たくら}み (plot/scheme), {給付金|きゅうふきん} (benefit payment), {美点|びてん} (virtue/merit), {樹海|じゅかい} (sea of trees), {議案|ぎあん} (bill/proposal), ホームラン (home run), {相続人|そうぞくにん} (heir), {改正案|かいせいあん} (revision bill), {地震速報|じしんそくほう} (earthquake alert), {献立表|こんだてひょう} (meal plan), みょうが (Japanese ginger), {赤血球|せっけっきゅう} (red blood cell), {原子炉|げんしろ} (nuclear reactor), {和裁|わさい} (Japanese sewing), サーカス (circus), {青|あお}じそ (green shiso), {分煙|ぶんえん} (smoking area separation)
-- Added 1 new kanji to index: 贖
-- Removed 30 candidates that now exist as entries
-
-
 
 
 
