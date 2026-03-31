@@ -69,23 +69,26 @@
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{閉|し}める→閉める：00485_shimeru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{閉|し}まる (X closes).\n\nASPECT: ている indicates resulting state. {閉|し}まっている = 'is closed' (state, not process).\n\nCOMMON PATTERNS:\n・⟦ドア→ドア：00773_doa⟧⟦が→が：00051_ga⟧{閉|し}まる (the door closes)\n・⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{閉|し}まっている (the store is closed)\n・⟦{窓|まど}→窓：02254_mado⟧⟦が→が：00051_ga⟧{閉|し}まっている (the window is closed)\n・{閉|し}まる⟦{時間|じかん}→時間：00468_jikan⟧ (closing time)\n\nPAIR: ⟦{閉|し}める→閉める：00485_shimeru⟧ (transitive) - ⟦ドア→ドア：00773_doa⟧⟦を→を：00422_wo⟧⟦{閉|し}めた→閉める：00485_shimeru⟧ (closed the door). Opposite: ⟦{開|あ}く→開く：00689_aku⟧ (to open - intransitive).",
-  "cross_references": [
+  "prominent_see_also": [
     {
-      "type": "see_also",
+      "target_id": "00485_shimeru",
       "reading": "しめる",
       "headword": "{閉|し}める",
-      "target_id": "00485_shimeru"
-    },
+      "note": "transitive"
+    }
+  ],
+  "cross_references": [
     {
-      "type": "see_also",
+      "type": "antonym",
       "reading": "あく",
       "headword": "{開|あ}く",
-      "target_id": "00689_aku"
+      "target_id": "00689_aku",
+      "label": "to open (intransitive)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:18:28Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:45:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

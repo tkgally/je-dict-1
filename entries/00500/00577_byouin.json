@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{病院|びょういん} refers to a hospital or medical facility.\n\nCOMMON EXPRESSIONS:\n- {病院|びょういん}に{行|い}く: to go to the hospital\n- {病院|びょういん}に{入院|にゅういん}する: to be hospitalized\n- {病院|びょういん}を{退院|たいいん}する: to be discharged\n- {病院|びょういん}で{診|み}てもらう: to be examined at the hospital\n\nTYPES OF FACILITIES:\n- {総合|そうごう}{病院|びょういん}: general hospital\n- {大学|だいがく}{病院|びょういん}: university hospital\n- クリニック/{診療所|しんりょうじょ}: clinic (smaller)\n\nRELATED PEOPLE:\n- {医者|いしゃ}/{医師|いし}: doctor\n- {看護師|かんごし}: nurse\n- {患者|かんじゃ}: patient",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "いしゃ",
+      "headword": "{医者|いしゃ}",
+      "target_id": "02847_isha",
+      "label": "doctor"
+    },
+    {
+      "type": "related",
+      "reading": "びょうき",
+      "headword": "{病気|びょうき}",
+      "target_id": "00771_byouki",
+      "label": "illness"
+    },
+    {
+      "type": "related",
+      "reading": "くすり",
+      "headword": "{薬|くすり}",
+      "target_id": "00793_kusuri",
+      "label": "medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T15:24:28Z",
-    "modified": "2026-02-11T09:49:55Z",
+    "modified": "2026-03-31T08:45:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
