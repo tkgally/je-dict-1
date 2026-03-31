@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 19 New Entries)
+Added 19 new dictionary entries (IDs 20999-21017) from candidate_words.json. A diverse mix covering language, medicine, law, science, culture, daily life, and modern society.
+
+- **Nouns (13)**: {言|い}い{換|か}え (paraphrase), {改名|かいめい} (name change), {外科医|げかい} (surgeon), {病棟|びょうとう} (hospital ward), {消音|しょうおん} (mute/silencing), {処罰|しょばつ} (punishment), {海水浴場|かいすいよくじょう} (swimming beach), {退部|たいぶ} (leaving a club), {病状|びょうじょう} (patient's condition), {抵抗力|ていこうりょく} (resistance/immunity), {化粧台|けしょうだい} (dressing table), {即金|そっきん} (spot cash), {電流|でんりゅう} (electric current)
+- **Na-adjectives (2)**: {計画的|けいかくてき} (planned/deliberate), {突発的|とっぱつてき} (sudden/unexpected)
+- **I-adjective (1)**: ろくでもない (good-for-nothing/worthless)
+- **Adverb (1)**: そこかしこ (here and there)
+- **Cultural (2)**: {恋活|こいかつ} (dating activities), しめ{飾|かざ}り (New Year rope decoration)
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 20969-20998) from candidate_words.json. A diverse mix covering people, relationships, culture, food, health, martial arts, society, finance, and common verbs.
 
@@ -86,18 +95,6 @@ Added 30 new dictionary entries (IDs 20893-20922) from candidate_words.json. A d
 - **Na-adjectives (4)**: {短|みじか}め (somewhat short), {太|ふと}め (somewhat thick), {細|ほそ}め (somewhat thin), {同情的|どうじょうてき} (sympathetic)
 - **Adverb (1)**: {公然|こうぜん} (openly/publicly)
 - **Other (5)**: へたれ (wimp), {漫談|まんだん} (comic talk), フォント (font), {甘納豆|あまなっとう} (sweetened beans), {地域|ちいき}おこし (regional revitalization)
-
-### 2026-03-30 (Vocabulary Expansion - 16 New Entries, Session 552)
-Added 16 new dictionary entries (IDs 20923-20938) from candidate_words.json. A mix of compound verbs, suru verbs, nouns, and na-adjectives covering everyday actions, psychology, commerce, geography, and social interaction.
-
-- **Godan verbs (4)**: {売|う}れ{残|のこ}る (to remain unsold), {作|つく}り{直|なお}す (to remake), {取|と}り{囲|かこ}む (to surround), {引|ひ}き{続|つづ}く (to continue)
-- **Ichidan verb (1)**: {聞|き}かせる (to tell/let hear)
-- **Suru verbs (5)**: {披露|ひろう} (to unveil/present), {出現|しゅつげん} (to appear/emerge), {執着|しゅうちゃく} (to cling to), {固執|こしつ} (to persist stubbornly), {拘束|こうそく} (to restrain/detain)
-- **Nouns (3)**: ふれあい (interaction/togetherness), {失神|しっしん} (fainting), {市内|しない} (within the city)
-- **Na-adjectives (2)**: {世界的|せかいてき} (worldwide/global), {苛烈|かれつ} (fierce/severe)
-- **Other (1)**: {国外|こくがい} (outside the country)
-- Removed 16 candidates that now exist as entries
-
 
 
 ---
