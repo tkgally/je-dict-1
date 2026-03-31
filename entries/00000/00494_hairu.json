@@ -124,23 +124,26 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{入|い}れる→入れる：01098_ireru⟧ (transitive). Pattern: X⟦に→に：00314_ni⟧{入|はい}る (enter X).\n\nASPECT: ている indicates resulting state. {入|はい}っている = 'is inside/is contained.'\n\nCOMMON PATTERNS:\n・⟦{部屋|へや}→部屋：00507_heya⟧⟦に→に：00314_ni⟧{入|はい}る (enter a room)\n・⟦お{風呂|ふろ}→お風呂：00802_ofuro⟧⟦に→に：00314_ni⟧{入|はい}る (take a bath)\n・⟦{中|なか}→中：00654_naka⟧⟦に→に：00314_ni⟧{入|はい}る (go inside)\n・⟦{何|なに}→何：00498_nani⟧⟦が→が：00051_ga⟧{入|はい}っている (what's inside?)\n\nPAIR: ⟦{入|い}れる→入れる：01098_ireru⟧ (transitive) - ⟦{箱|はこ}→箱：02162_hako⟧⟦に→に：00314_ni⟧{入|い}れた (put in box). Opposite: ⟦{出|で}る→出る：00513_deru⟧ (to exit).",
-  "cross_references": [
+  "prominent_see_also": [
     {
-      "type": "see_also",
-      "reading": "でる",
-      "headword": "{出|で}る",
-      "target_id": "00513_deru"
-    },
-    {
-      "type": "see_also",
+      "target_id": "01098_ireru",
       "reading": "いれる",
       "headword": "{入|い}れる",
-      "target_id": "01098_ireru"
+      "note": "transitive"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00513_deru",
+      "reading": "でる",
+      "headword": "{出|で}る",
+      "label": "to exit"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:09:03Z",
-    "modified": "2026-03-29T03:02:24Z",
+    "modified": "2026-03-31T08:16:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

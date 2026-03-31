@@ -134,24 +134,26 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{消|き}える→消える：02520_kieru⟧ (intransitive, to go out/disappear). Pattern: Xを{消|け}す (turn off/erase X).\n\nASPECT: ている indicates resulting state. {消|け}している = 'have turned off' or 'is erasing.'\n\nCOMMON PATTERNS:\n・⟦{電気|でんき}→電気：09780_denki⟧⟦を→を：00422_wo⟧{消|け}す (turn off the light)\n・⟦テレビ→テレビ：01536_terebi⟧⟦を→を：00422_wo⟧{消|け}す (turn off the TV)\n・⟦{字|じ}→字：01606_ji⟧⟦を→を：00422_wo⟧{消|け}す (erase writing)\n・⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧{消|け}す (put out a fire)\n\nOpposite for devices: ⟦つける→つける：00562_tsukeru⟧ (to turn on). Pair: ⟦{消|き}える→消える：02520_kieru⟧ (to go out by itself).",
-  "cross_references": [
+  "prominent_see_also": [
     {
-      "type": "see_also",
-      "reading": "つける",
-      "headword": "つける",
-      "target_id": "00562_tsukeru"
-    },
-    {
-      "type": "pair",
+      "target_id": "02520_kieru",
       "reading": "きえる",
       "headword": "{消|き}える",
-      "label": "intransitive, to go out/disappear",
-      "target_id": "02520_kieru"
+      "note": "intransitive"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00562_tsukeru",
+      "reading": "つける",
+      "headword": "つける",
+      "label": "to turn on"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:40:18Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:16:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
