@@ -145,22 +145,16 @@
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {入|はい}る (intransitive, to enter). Pattern: XをYに{入|い}れる (put X into Y).\n\nASPECT: ている indicates resulting state. {入|い}れている = 'have put in (and it's still in there)' or 'is putting in.'\n\nCOMMON PATTERNS:\n・⟦{砂糖|さとう}→砂糖：00884_satou⟧⟦を→を：00422_wo⟧{入|い}れる (add sugar)\n・⟦かばん→かばん：00637_kaban⟧⟦に→に：00314_ni⟧{入|い}れる (put in a bag)\n・お⟦{風呂|ふろ}→風呂：14633_furo⟧⟦を→を：00422_wo⟧{入|い}れる (draw a bath)\n・⟦{電源|でんげん}→電源：04429_dengen⟧⟦を→を：00422_wo⟧{入|い}れる (turn on power)\n\nOpposite: ⟦{出|だ}す→出す：01087_dasu⟧ (to take out).",
   "cross_references": [
     {
-      "type": "see_also",
-      "reading": "はいる",
-      "headword": "{入|はい}る",
-      "target_id": "00494_hairu"
-    },
-    {
       "type": "antonym",
+      "target_id": "01087_dasu",
       "reading": "だす",
       "headword": "{出|だ}す",
-      "label": "to take out",
-      "target_id": "01087_dasu"
+      "label": "to take out"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:05:52Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:16:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -176,6 +170,12 @@
     }
   },
   "prominent_see_also": [
+    {
+      "target_id": "00494_hairu",
+      "reading": "はいる",
+      "headword": "{入|はい}る",
+      "note": "intransitive"
+    },
     {
       "target_id": "13297_ireru",
       "reading": "いれる",

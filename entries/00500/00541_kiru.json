@@ -70,21 +70,23 @@
   "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: Xを{着|き}る (wear/put on X).\n\nASPECT: ている indicates resulting state. {着|き}ている = 'is wearing' (not 'is putting on').\n\nCOMMON PATTERNS:\n・⟦コート→コート：01358_kooto⟧⟦を→を：00422_wo⟧{着|き}る (put on/wear a coat)\n・{着|き}ている (is wearing - state)\n・⟦{着|き}{替|か}える→着替える：04603_kigaeru⟧ (change clothes)\n・⟦{着物|きもの}→着物：01309_kimono⟧⟦を→を：00422_wo⟧{着|き}る (wear kimono)\n\nCLOTHING VERBS:\n・{着|き}る: upper body/full body\n・⟦はく→履く：00700_haku⟧: pants, shoes, skirts\n・⟦かぶる→かぶる：00709_kaburu⟧: hats\n・⟦する→する：00392_suru⟧: accessories\n\nOpposite: ⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧ (take off). Don't confuse with ⟦{切|き}る→切る：02693_kiru⟧ (to cut - godan).",
   "cross_references": [
     {
-      "type": "see_also",
+      "type": "antonym",
+      "target_id": "00518_nugu",
       "reading": "ぬぐ",
       "headword": "{脱|ぬ}ぐ",
-      "target_id": "00518_nugu"
+      "label": "to take off"
     },
     {
-      "type": "see_also",
+      "type": "related",
+      "target_id": "00709_kaburu",
       "reading": "かぶる",
       "headword": "かぶる",
-      "target_id": "00709_kaburu"
+      "label": "to put on (head)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:25:20Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:16:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

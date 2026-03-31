@@ -135,21 +135,30 @@
   "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: XがYにZをあげる (X gives Z to Y).\n\nFor the 'raise' meaning ({上|あ}げる): Pair verb is {上|あ}がる (intransitive, to rise). Pattern: Xを{上|あ}げる.\n\nASPECT: ている indicates ongoing action. あげている = 'is giving' or 'is raising.'\n\nCOMMON PATTERNS:\n・プレゼントをあげる (give a present)\n・{手|て}を{上|あ}げる (raise one's hand)\n・{声|こえ}を{上|あ}げる (raise one's voice)\n・〜てあげる (do something for someone's benefit)\n\nREGISTER: For giving to superiors, use {差|さ}し{上|あ}げる (humble). For receiving, the counterpart is もらう.",
   "cross_references": [
     {
-      "type": "see_also",
+      "type": "contrast",
+      "target_id": "00520_morau",
       "reading": "もらう",
       "headword": "もらう",
-      "target_id": "00520_morau"
+      "label": "to receive"
     },
     {
-      "type": "see_also",
+      "type": "related",
+      "target_id": "00724_kureru",
+      "reading": "くれる",
+      "headword": "くれる",
+      "label": "to give (to me)"
+    },
+    {
+      "type": "related",
+      "target_id": "00615_agaru",
       "reading": "あがる",
       "headword": "{上|あ}がる",
-      "target_id": "00615_agaru"
+      "label": "intransitive (to rise)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:07:26Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T08:16:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
