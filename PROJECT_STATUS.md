@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 557)
+Added 30 new dictionary entries (IDs 21078-21107) from candidate_words.json. A mix of practical vocabulary covering communication, health, education, law, technology, culture, and everyday expressions.
+
+- **Nouns (19)**: {口出|くちだ}し (meddling), {損傷|そんしょう} (damage), {余命|よめい} (remaining life expectancy), {校正|こうせい} (proofreading/calibration), {区切|くぎ}り (break/turning point), {納涼|のうりょう} (cooling off in summer), {許諾|きょだく} (permission), {本筋|ほんすじ} (main point), {可変|かへん} (variable), {照準|しょうじゅん} (aim/sighting), {既成事実|きせいじじつ} (fait accompli), {表層|ひょうそう} (surface layer), {高圧|こうあつ} (high pressure), {懲罰|ちょうばつ} (disciplinary punishment), {配点|はいてん} (point allocation), {禁欲|きんよく} (asceticism), {静音|せいおん} (silent operation), {帳面|ちょうめん} (notebook/ledger), {応用力|おうようりょく} (practical application skills)
+- **Suru verbs (5)**: {習熟|しゅうじゅく} (becoming proficient), {扶助|ふじょ} (aid/support), {同梱|どうこん} (bundling/packing together), {論証|ろんしょう} (proof/argumentation), {噴霧|ふんむ} (spraying)
+- **Ichidan verb (1)**: {見間違|みまちが}える (to mistake visually)
+- **Na-adjective (1)**: {反抗的|はんこうてき} (rebellious)
+- **Nouns (2)**: {伏兵|ふくへい} (ambush/dark horse), {養母|ようぼ} (adoptive mother)
+- **Expression (1)**: {胸|むね}に{刺|さ}さる (to hit home)
+- **Other**: {環境汚染|かんきょうおせん} (environmental pollution)
+- Added 1 new kanji to index: 扶
+- Removed 6 stale candidates (duplicates of existing entries)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 556)
 Added 30 new dictionary entries (IDs 21048-21077) from candidate_words.json. A practical mix covering emotions, food, family, places, daily life, and formal/business vocabulary.
 
@@ -90,14 +104,6 @@ Added 30 new dictionary entries (IDs 20969-20998) from candidate_words.json. A d
 - **Expression (1)**: {心|こころ}が{広|ひろ}い (broad-minded)
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-31 (Cross-Reference System Overhaul)
-Created a new systematic cross-reference review system and updated related documentation.
-
-- **New prompt**: `prompts/add_cross-references.md` — systematically reviews entries and adds/verifies both `prominent_see_also` and `cross_references` links
-- **New tracking file**: `prompts/add-cross-references-tracking.txt` — pre-populated with all 2,783 basic and core tier entries
-- **Updated skill**: `.claude/skills/cross-reference-entry/SKILL.md` — expanded `prominent_see_also` guidance to cover transitive/intransitive pairs, N/Nする pairs, informal/formal pairs, and other closely related word groups; deprecated `pair` type in `cross_references` (transitive/intransitive pairs now use `prominent_see_also`)
-- **Deleted**: `prompts/add_prominent_crossrefs.md` (superseded by new prompt)
-- **Updated**: CLAUDE.md, README.md, metaprompt_list.md references
 
 
 ---
