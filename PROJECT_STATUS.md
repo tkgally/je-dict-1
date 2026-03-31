@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 559)
+Added 30 new dictionary entries (IDs 21138-21167) from candidate_words.json. Practical vocabulary covering verbs, nouns, and adjectives for everyday communication, finance, nature, and more.
+
+- **Suru verbs (8)**: {説得|せっとく} (persuade), {分割|ぶんかつ} (divide), {分配|ぶんぱい} (distribute), {回収|かいしゅう} (collect/recall), {持参|じさん} (bring), {携帯|けいたい} (carry), {相当|そうとう} (correspond to), {匹敵|ひってき} (rival)
+- **Godan verb (1)**: {書|か}き{残|のこ}す (leave in writing)
+- **Nouns (17)**: {読|よ}み{書|か}き (literacy), {切|き}れ{端|はし} (scrap), {死後|しご} (after death), {自負|じふ} (pride), {休業日|きゅうぎょうび} (closed day), {衣料品|いりょうひん} (clothing), {乗組員|のりくみいん} (crew member), {遠征|えんせい} (expedition), {電話帳|でんわちょう} (phone book), {大群|たいぐん} (swarm), {金融機関|きんゆうきかん} (financial institution), {利率|りりつ} (interest rate), {地滑|じすべ}り (landslide), {同窓|どうそう} (alumnus), {照射|しょうしゃ} (irradiation), {苦慮|くりょ} (agonizing over), お{店|みせ} (shop), {島々|しまじま} (islands), {冒険者|ぼうけんしゃ} (adventurer)
+- **Na-adjectives (2)**: {無防備|むぼうび} (defenseless), {敏捷|びんしょう} (agile)
+- Added 1 new kanji to index: 捷
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 558)
 Added 30 new dictionary entries (IDs 21108-21137) from candidate_words.json. A diverse mix covering culture, food, movement, emotions, finance, daily life, and formal/literary vocabulary.
 
@@ -100,15 +110,6 @@ Added 30 new dictionary entries (IDs 21018-21047) from candidate_words.json. A m
 - **Nouns (4)**: {主|おも}な (main/major), {第一言語|だいいちげんご} (first language), サンデー (sundae), {腐女子|ふじょし} (fujoshi), {抜擢人事|ばってきじんじ} (merit-based promotion)
 - Removed 3 stale candidates (duplicates of existing entries)
 - Removed 29 candidates that now exist as entries
-
-### 2026-03-31 (Vocabulary Expansion - 19 New Entries)
-Added 19 new dictionary entries (IDs 20999-21017) from candidate_words.json. A diverse mix covering language, medicine, law, science, culture, daily life, and modern society.
-
-- **Nouns (13)**: {言|い}い{換|か}え (paraphrase), {改名|かいめい} (name change), {外科医|げかい} (surgeon), {病棟|びょうとう} (hospital ward), {消音|しょうおん} (mute/silencing), {処罰|しょばつ} (punishment), {海水浴場|かいすいよくじょう} (swimming beach), {退部|たいぶ} (leaving a club), {病状|びょうじょう} (patient's condition), {抵抗力|ていこうりょく} (resistance/immunity), {化粧台|けしょうだい} (dressing table), {即金|そっきん} (spot cash), {電流|でんりゅう} (electric current)
-- **Na-adjectives (2)**: {計画的|けいかくてき} (planned/deliberate), {突発的|とっぱつてき} (sudden/unexpected)
-- **I-adjective (1)**: ろくでもない (good-for-nothing/worthless)
-- **Adverb (1)**: そこかしこ (here and there)
-- **Cultural (2)**: {恋活|こいかつ} (dating activities), しめ{飾|かざ}り (New Year rope decoration)
 
 
 
