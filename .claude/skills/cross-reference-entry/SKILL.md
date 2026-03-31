@@ -7,28 +7,63 @@ description: Guidelines for adding and maintaining cross-references between dict
 
 When creating or revising entries, add cross-references to related vocabulary. This improves navigation and helps learners understand word relationships.
 
-## Cross-Reference Types
+## Two Cross-Reference Mechanisms
 
-### 1. `pair` - Transitivity Pairs (HIGH PRIORITY)
-Use for verb transitivity pairs ({自動詞|じどうし}/{他動詞|たどうし}).
+The dictionary has two structured cross-reference systems (plus inline word links, which are handled separately):
 
+### 1. `prominent_see_also` — Top-of-entry links (HIGH VISIBILITY)
+
+Displayed immediately below the headword, before definitions. These are the first thing a learner sees after the headword. Use for word pairs and groups that are **closely related** and which learners are likely to want to navigate between.
+
+**When to use `prominent_see_also`:**
+
+- **Homophones with different kanji** — learners may have landed on the wrong entry
+  - {聞|き}く (hear) ↔ {聴|き}く (listen attentively)
+  - {無|な}くなる (disappear) ↔ {亡|な}くなる (pass away)
+- **Transitive/intransitive verb pairs** — always use `prominent_see_also`, NOT `cross_references`
+  - {閉|し}まる (intransitive) ↔ {閉|し}める (transitive)
+  - {始|はじ}まる (intransitive) ↔ {始|はじ}める (transitive)
+- **N/Nする pairs** — noun form and verb form of the same word
+  - {発揮|はっき} (noun) ↔ {発揮|はっき}する (verb)
+  - {挨拶|あいさつ} (noun) ↔ {挨拶|あいさつ}する (verb)
+- **Informal/formal pairs** — different register forms of the same concept
+  - うまい (informal: tasty/skilled) ↔ {美味|おい}しい (standard: tasty)
+- **Other closely related pairs/groups** — words that learners are likely to want to learn together
+  - {制作|せいさく} (artistic creation) ↔ {製作|せいさく} (manufacturing)
+  - {人口|じんこう} (population) ↔ {人工|じんこう} (artificial)
+
+**When NOT to use `prominent_see_also`:**
+- Regular synonyms (use `cross_references` with type `synonym`)
+- Words that happen to sound similar but aren't confusable in practice
+- Words with different POS that a learner wouldn't confuse
+- Words in very different registers or domains that wouldn't be confused in practice
+
+**Format:**
 ```json
-{
-  "type": "pair",
-  "reading": "しまる",
-  "headword": "{閉|し}まる",
-  "label": "intransitive"
-}
+"prominent_see_also": [
+  {
+    "target_id": "00754_shimaru",
+    "reading": "しまる",
+    "headword": "{閉|し}まる",
+    "note": "intransitive"
+  }
+]
 ```
 
-**Labels:** `intransitive` or `transitive`
+- Always include `target_id` when the target entry exists
+- Always include a brief `note` in English (2-4 words) explaining the relationship
+- Add references **bidirectionally** — both entries should point to each other
+- For N/Nする pairs, use notes like "verb form" / "noun form"
+- For transitive/intransitive pairs, use notes like "transitive" / "intransitive"
+- For homophones, use a brief gloss distinguishing the words
 
-**Common pairs:**
-- 開く/開ける, 閉まる/閉める, 始まる/始める
-- 出る/出す, 入る/入れる, 付く/付ける
-- 決まる/決める, 変わる/変える, 上がる/上げる
+### 2. `cross_references` — "Related Words" box at the bottom (STRUCTURED)
 
-### 2. `antonym` - Opposites (HIGH PRIORITY)
+A structured array displayed in a "Related Words" box at the bottom of the entry page. These express **lexicographic relationships** between entries. Two-way linking is encouraged but not as critical as for `prominent_see_also`.
+
+## Cross-Reference Types (for `cross_references`)
+
+### `antonym` — Opposites (HIGH PRIORITY)
 Use for direct opposites.
 
 ```json
@@ -42,7 +77,7 @@ Use for direct opposites.
 
 **Label:** Brief gloss of target word
 
-### 3. `keigo` - Honorific/Humble Forms (HIGH PRIORITY)
+### `keigo` — Honorific/Humble Forms (HIGH PRIORITY)
 Use for formal speech equivalents.
 
 ```json
@@ -62,7 +97,7 @@ Use for formal speech equivalents.
 - 言う → おっしゃる (hon.), 申す (hum.)
 - 見る → ご覧になる (hon.), 拝見する (hum.)
 
-### 4. `synonym` - Similar Meaning (MEDIUM PRIORITY)
+### `synonym` — Similar Meaning (MEDIUM PRIORITY)
 Use for words with similar meaning but different nuance.
 
 ```json
@@ -76,7 +111,7 @@ Use for words with similar meaning but different nuance.
 
 **Label:** Distinguishing characteristic (e.g., "formal", "written", "casual")
 
-### 5. `contrast` - Easily Confused (MEDIUM PRIORITY)
+### `contrast` — Easily Confused (MEDIUM PRIORITY)
 Use for words learners often confuse.
 
 ```json
@@ -92,7 +127,10 @@ Especially important for:
 - Particles: は vs が, に vs で, に vs へ
 - Similar verbs: 聞く vs 聴く, 見る vs 見える vs 見せる
 
-### 6. `related` - Semantically Connected (LOW PRIORITY)
+### `homophone` — Same Reading, Different Meaning (MEDIUM PRIORITY)
+Use for words that share a reading. Note: if the homophones are easily confused, prefer `prominent_see_also` instead.
+
+### `related` — Semantically Connected (LOW PRIORITY)
 Use for derived words, compounds, or thematically related vocabulary.
 
 ```json
@@ -104,7 +142,7 @@ Use for derived words, compounds, or thematically related vocabulary.
 }
 ```
 
-### 7. `see_also` - General Reference (LOW PRIORITY)
+### `see_also` — General Reference (LOW PRIORITY)
 Use for general cross-references that don't fit other categories.
 
 ```json
@@ -116,13 +154,16 @@ Use for general cross-references that don't fit other categories.
 }
 ```
 
+### `pair` — DEPRECATED
+**Do not use.** Transitive/intransitive verb pairs should use `prominent_see_also` instead. Existing `pair`-type entries in `cross_references` should be migrated to `prominent_see_also` when entries are revised. The type remains technically valid in the schema but should not appear in new entries.
+
 ## Format Requirements
 
-Each cross-reference object requires:
+Each `cross_references` entry requires:
 
 | Field | Required | Description |
 |-------|----------|-------------|
-| `type` | Yes | One of: pair, synonym, antonym, keigo, related, see_also, contrast, homophone |
+| `type` | Yes | One of: synonym, antonym, keigo, related, see_also, contrast, homophone (avoid `pair`) |
 | `target_id` | No | Hard-coded entry ID for direct resolution (takes priority over reading/headword) |
 | `reading` | Yes | Hiragana reading (fallback lookup key when no target_id) |
 | `headword` | Yes* | Display form with furigana (required for homonym disambiguation) |
@@ -130,13 +171,22 @@ Each cross-reference object requires:
 
 *Headword is **required** for proper resolution. Without it, cross-references cannot be disambiguated between homonyms.
 
+Each `prominent_see_also` entry requires:
+
+| Field | Required | Description |
+|-------|----------|-------------|
+| `target_id` | No | Hard-coded entry ID for direct resolution |
+| `reading` | Yes | Hiragana reading |
+| `headword` | Yes | Display form with furigana |
+| `note` | Yes | Brief English description of the relationship (2-4 words) |
+
 **Note:** Valid cross-reference types are defined centrally in `build/constants.py` and shared across the schema, validation, and build scripts.
 
 ## Hybrid Cross-Reference System
 
 The dictionary uses a **hybrid system** that supports both:
-1. **Hard-coded `target_id`** - Direct reference to an entry ID (unambiguous)
-2. **Forward references** - References by reading/headword to entries that may not exist yet
+1. **Hard-coded `target_id`** — Direct reference to an entry ID (unambiguous)
+2. **Forward references** — References by reading/headword to entries that may not exist yet
 
 ### Resolution Priority
 
@@ -150,7 +200,6 @@ When resolving a cross-reference:
 **Use `target_id` when:**
 - The target entry exists in the dictionary
 - You want guaranteed, unambiguous resolution
-- The reference was previously validated
 
 **Don't manually add `target_id` when:**
 - Creating forward references to entries that don't exist yet
@@ -162,7 +211,7 @@ Instead, use the `harden_references.py` script to automatically add `target_id` 
 
 ```json
 {
-  "type": "pair",
+  "type": "antonym",
   "target_id": "00754_shimaru",
   "reading": "しまる",
   "headword": "{閉|し}まる",
@@ -186,15 +235,13 @@ Instead, use the `harden_references.py` script to automatically add `target_id` 
 **CRITICAL**: Many Japanese words share the same reading but have different kanji (homonyms). The headword field is essential for correct resolution.
 
 Example: The reading かんじょう has multiple entries:
-- {感情|かんじょう} - emotion, feeling
-- {勘定|かんじょう} - bill, calculation
-
-If you reference かんじょう without specifying the headword, the system cannot determine which entry you mean.
+- {感情|かんじょう} — emotion, feeling
+- {勘定|かんじょう} — bill, calculation
 
 **Always include the headword** to ensure cross-references link to the correct entry.
 
 ```json
-// CORRECT - specifies headword for disambiguation
+// CORRECT — specifies headword for disambiguation
 {
   "type": "synonym",
   "reading": "かんじょう",
@@ -202,7 +249,7 @@ If you reference かんじょう without specifying the headword, the system can
   "label": "bill, calculation"
 }
 
-// INCORRECT - no headword, may link to wrong homonym
+// INCORRECT — no headword, may link to wrong homonym
 {
   "type": "synonym",
   "reading": "かんじょう",
@@ -210,25 +257,44 @@ If you reference かんじょう without specifying the headword, the system can
 }
 ```
 
-**Validation detects homonym mismatches**: When you specify a headword that doesn't match any existing entry with that reading (e.g., 勘定 when only 感情 exists), the validator will warn you. This indicates either:
-1. The target entry doesn't exist yet (forward reference - OK)
-2. The headword is incorrect (fix it)
+## When Creating New Entries
+
+When creating new entries (e.g., via `prompts/newentries.md`), add cross-references as part of entry creation:
+
+1. **Always add `prominent_see_also`** for:
+   - Transitive/intransitive pair (if both entries exist)
+   - N/Nする pair (if both entries exist)
+   - Obvious homophones that learners would confuse
+
+2. **Add `cross_references`** for:
+   - Direct antonyms
+   - Keigo equivalents
+   - Close synonyms with clear distinctions
+   - Other relevant relationships
+
+3. **Check if the target entry exists** using `check_duplicate.py` or the entries index:
+   - If yes: include `target_id` and add a back-link on the target entry
+   - If no: create a forward reference (reading + headword only)
+
+4. **For back-links on existing entries**: When you add a cross-reference pointing to an existing entry, also add a reciprocal reference on that target entry pointing back to the new entry.
 
 ## Priority Order
 
 When adding references to entries, prioritize:
 
-1. **HIGH** - Always add if applicable:
-   - Transitivity pairs (pair)
-   - Keigo equivalents (keigo)
-   - Direct antonyms (antonym)
+1. **HIGH** — Always add if applicable:
+   - Transitive/intransitive pairs → `prominent_see_also`
+   - N/Nする pairs → `prominent_see_also`
+   - Easily confused homophones → `prominent_see_also`
+   - Keigo equivalents → `cross_references` (keigo)
+   - Direct antonyms → `cross_references` (antonym)
 
-2. **MEDIUM** - Add when natural:
+2. **MEDIUM** — Add when natural:
    - Close synonyms with clear distinction (synonym)
    - Particle contrasts (contrast)
    - Related compounds (related)
 
-3. **LOW** - Add sparingly:
+3. **LOW** — Add sparingly:
    - Thematic groupings
    - General see_also references
 
@@ -259,7 +325,7 @@ The notes field often contains vocabulary that should be cross-referenced. Look 
 Run the extraction script to find potential references:
 
 ```bash
-# Dry run - see proposed changes
+# Dry run — see proposed changes
 python3 build/extract_references.py
 
 # Apply changes
@@ -276,7 +342,7 @@ python3 build/extract_references.py --id 00396_taberu
 The `harden_references.py` script scans entries and adds `target_id` to resolvable cross-references. This "hardens" forward references into direct ID-based references once the target entry exists.
 
 ```bash
-# Dry run - see what would change
+# Dry run — see what would change
 python3 build/harden_references.py
 
 # Apply changes
@@ -290,12 +356,6 @@ python3 build/harden_references.py --id 00485_shimeru
 - After adding new entries that are targets of existing forward references
 - Periodically to ensure all resolvable references have `target_id`
 - Before releases to maximize resolution coverage
-
-**The script will:**
-- Add `target_id` to unambiguously resolvable references
-- WARN about ambiguous references (multiple candidates, need headword)
-- ERROR on stale `target_id` references (target no longer exists)
-- Skip forward references (legitimate refs to non-existent entries)
 
 ## Handling Non-Existent Entries
 
@@ -324,9 +384,9 @@ The validator checks:
 - Valid type values
 - Reading is valid hiragana
 - No self-references
-- **Homonym mismatches** - warns when a headword is specified but doesn't match any existing entry with that reading
-- **Stale target_id** - ERRORS when `target_id` points to a non-existent entry
-- **Hardenable references** - warns when a reference could be hardened (target exists but no `target_id`)
+- **Homonym mismatches** — warns when a headword is specified but doesn't match any existing entry with that reading
+- **Stale target_id** — ERRORS when `target_id` points to a non-existent entry
+- **Hardenable references** — warns when a reference could be hardened (target exists but no `target_id`)
 
 ### Validation Messages
 
@@ -336,44 +396,16 @@ The validator checks:
 | WARNING: Hardenable | Reference resolvable but missing `target_id` | Run `harden_references.py --apply` |
 | WARNING: Homonym mismatch | Headword doesn't match any entry with that reading | Verify correct homonym or wait for entry creation |
 
-## Example Entry
-
-Before:
-```json
-{
-  "id": "00485_shimeru",
-  "cross_references": []
-}
-```
-
-After:
-```json
-{
-  "id": "00485_shimeru",
-  "cross_references": [
-    {
-      "type": "pair",
-      "reading": "しまる",
-      "headword": "{閉|し}まる",
-      "label": "intransitive"
-    },
-    {
-      "type": "antonym",
-      "reading": "あける",
-      "headword": "{開|あ}ける",
-      "label": "to open"
-    }
-  ]
-}
-```
-
 ## Quality Checklist
 
-- [ ] Transitivity pair linked (for verbs)
+- [ ] Transitive/intransitive pair linked via `prominent_see_also` (for verbs)
+- [ ] N/Nする pair linked via `prominent_see_also` (if applicable)
+- [ ] Homophones linked via `prominent_see_also` (if easily confused)
 - [ ] Keigo forms linked (for common verbs)
 - [ ] Antonyms linked (if obvious opposite exists)
 - [ ] References in notes are also in cross_references
 - [ ] Each reference has correct type
 - [ ] Reading is valid hiragana
 - [ ] Headword uses proper furigana notation
-- [ ] Labels are concise and consistent
+- [ ] Labels/notes are concise and consistent
+- [ ] No `pair` type in `cross_references` (use `prominent_see_also` instead)

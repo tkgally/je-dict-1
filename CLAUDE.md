@@ -158,7 +158,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 
 **Entry consolidation:**
 - `consolidate_entries.md` — find and merge duplicate/variant entries
-- `add_prominent_crossrefs.md` — add high-visibility cross-references for homophones
+- `add_cross-references.md` — systematically review and add cross-references (`prominent_see_also` and `cross_references`) to entries
 - `fix_duplicate_ids.md` — resolve entries sharing the same 5-digit numeric ID
 
 **Polishing (progress-tracked):**

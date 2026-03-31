@@ -21,7 +21,7 @@ Dictionary features include:
 - **Furigana support** with toggle to show/hide readings above kanji
 - **Kanji index** linking each kanji in headwords to all other entries containing that kanji
 - **Multiple interface modes**: Search, Browse, Recent, and Random views
-- **Cross-reference linking** connecting related words, antonyms, and transitivity pairs
+- **Cross-reference linking** with prominent top-of-entry links for homophones, verb pairs, and N/Nする pairs, plus structured "Related Words" boxes for antonyms, keigo, synonyms, and more
 - **Inline word links** in example sentences allowing navigation to any word's entry
 - **Transitivity and aspect information** for verbs
 - **Collocation patterns** showing natural word combinations
