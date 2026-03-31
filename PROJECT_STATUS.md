@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 29 New Entries, Session 560)
+Added 29 new dictionary entries (IDs 21168-21196) from candidate_words.json. A diverse mix covering time, safety, language, anatomy, nature, culture, fashion, food, and more.
+
+- **Nouns (20)**: {幼少期|ようしょうき} (childhood), {防火|ぼうか} (fire prevention), {語法|ごほう} (diction), {気管|きかん} (windpipe), {日照|にっしょう} (sunshine), {見開|みひら}き (two-page spread), {村|むら}おこし (village revitalization), {渡|わた}し{舟|ぶね} (ferryboat), {公有|こうゆう} (public ownership), {兄嫁|あによめ} (sister-in-law), {橙|だいだい} (bitter orange), {柄物|がらもの} (patterned item), {回転|かいてん}ドア (revolving door), {保存|ほぞん}{容器|ようき} (storage container), {当|あ}て{推量|ずいりょう} (guesswork), {忌日|きじつ} (death anniversary), {密告者|みっこくしゃ} (informer), {猛寒|もうかん} (severe cold), {名校|めいこう} (famous school), {間諜|かんちょう} (spy)
+- **Suru verbs (2)**: {補水|ほすい} (rehydration), {断煙|だんえん} (quitting smoking)
+- **Na-adjectives (2)**: {堅固|けんご} (solid/firm), {儚|はかな}げ (seemingly fragile)
+- **Noun/suffix (1)**: {圏|けん} (zone/sphere)
+- **Noun/no-adjective (1)**: {対話型|たいわがた} (interactive)
+- **Expression (1)**: {一丸|いちがん}となって (as one)
+- **Other (2)**: {感謝|かんしゃ}{感激|かんげき} (deeply grateful), {綿入|わたい}れ (padded garment)
+- Added 1 new kanji to index: 橙
+- Removed 29 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 559)
 Added 30 new dictionary entries (IDs 21138-21167) from candidate_words.json. Practical vocabulary covering verbs, nouns, and adjectives for everyday communication, finance, nature, and more.
 
@@ -99,17 +112,6 @@ Added 30 new dictionary entries (IDs 21048-21077) from candidate_words.json. A p
 - **Adverb (1)**: {後程|のちほど} (later on)
 - Added 1 new kanji to index: 凱
 - Removed 30 candidates that now exist as entries
-
-### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 555)
-Added 30 new dictionary entries (IDs 21018-21047) from candidate_words.json. A mix of adjectives, verbs, nouns, and expressions covering evaluation, cognition, action, culture, and formal language.
-
-- **Na-adjectives (6)**: {私的|してき}な (private/personal), {公的|こうてき}な (official/public), {公正|こうせい}な (fair/impartial), {主観的|しゅかんてき}な (subjective), {理性的|りせいてき}な (rational), {筋違|すじちが}い (misplaced/misdirected)
-- **I-adjectives (4)**: {比類|ひるい}ない (peerless), {格式高|かくしきたか}い (prestigious), {田舎臭|いなかくさ}い (countrified), {疑|うたが}いない (undoubted)
-- **Godan verbs (7)**: {折|お}り{返|かえ}す (to fold back/call back), {刈|か}り{取|と}る (to harvest), {考|かんが}え{出|だ}す (to think up), {写|うつ}り{込|こ}む (to appear in photo), かき{乱|みだ}す (to stir up), {抜|ぬ}き{取|と}る (to extract), {刈|か}り{込|こ}む (to trim)
-- **Suru verbs (7)**: {決定|けってい}する (to decide), {実在|じつざい}する (to actually exist), {発射|はっしゃ}する (to fire/launch), {連発|れんぱつ}する (to repeat in succession), {続発|ぞくはつ}する (to occur in succession), {透過|とうか}する (to pass through), {発進|はっしん}する (to depart), {帰属|きぞく}する (to belong to)
-- **Nouns (4)**: {主|おも}な (main/major), {第一言語|だいいちげんご} (first language), サンデー (sundae), {腐女子|ふじょし} (fujoshi), {抜擢人事|ばってきじんじ} (merit-based promotion)
-- Removed 3 stale candidates (duplicates of existing entries)
-- Removed 29 candidates that now exist as entries
 
 
 
