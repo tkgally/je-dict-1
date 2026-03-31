@@ -123,24 +123,26 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{起|お}こす→起こす：01234_okosu⟧ (transitive, to wake someone up). Pattern: Xが{起|お}きる.\n\nASPECT: ている indicates resulting state. {起|お}きている = 'is awake' (not 'is waking up'). This is important: ⟦まだ→まだ：00603_mada⟧{起|お}きている means 'still awake.'\n\nCOMMON PATTERNS:\n・⟦{朝|あさ}→朝：02277_asa⟧⟦{早|はや}く→早い：00514_hayai⟧{起|お}きる (wake up early)\n・〜⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧{起|お}きる (wake up at ~ o'clock)\n・⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧{起|お}きる (an accident occurs - sense 2)\n・{起|お}きていますか (are you awake?)\n\nOpposite: ⟦{寝|ね}る→寝る：00470_neru⟧ (to sleep/go to bed).",
-  "cross_references": [
+  "prominent_see_also": [
     {
-      "type": "see_also",
-      "reading": "ねる",
-      "headword": "{寝|ね}る",
-      "target_id": "00470_neru"
-    },
-    {
-      "type": "pair",
+      "target_id": "01234_okosu",
       "reading": "おこす",
       "headword": "{起|お}こす",
-      "label": "transitive, to wake someone up",
-      "target_id": "01234_okosu"
+      "note": "transitive"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00470_neru",
+      "reading": "ねる",
+      "headword": "{寝|ね}る",
+      "label": "to sleep"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:42:38Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-03-31T07:54:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
