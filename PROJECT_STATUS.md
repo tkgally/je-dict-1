@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 20969-20998) from candidate_words.json. A diverse mix covering people, relationships, culture, food, health, martial arts, society, finance, and common verbs.
+
+- **Nouns (16)**: クラスメート (classmate), {別|わか}れ{話|ばなし} (breakup talk), {熱|あつ}さ (heat/hotness), あごひげ (chin beard), {金言|きんげん} (wise saying), {出席者|しゅっせきしゃ} (attendee), {美術家|びじゅつか} (artist), {必読書|ひつどくしょ} (must-read book), {連載小説|れんさいしょうせつ} (serialized novel), {入居者|にゅうきょしゃ} (resident), {治療院|ちりょういん} (clinic), {接骨院|せっこついん} (bone-setting clinic), {継父|ままちち} (stepfather), {正月飾|しょうがつかざ}り (New Year decorations), {澄|す}まし{汁|じる} (clear soup), {免震|めんしん} (seismic isolation), {人権侵害|じんけんしんがい} (human rights violation), {逃走者|とうそうしゃ} (fugitive), {非正規雇用|ひせいきこよう} (non-regular employment), {地方創生|ちほうそうせい} (regional revitalization), {柔術|じゅうじゅつ} (jujutsu)
+- **Suru verbs (8)**: イメージする (to visualize), {停止|ていし}する (to stop/halt), {潜水|せんすい}する (to dive underwater), {潜入|せんにゅう}する (to infiltrate), {憎悪|ぞうお}する (to hate/detest), {着金|ちゃっきん}する (to receive payment), {変化|へんか}する (to change), {計画|けいかく}する (to plan)
+- **Expression (1)**: {心|こころ}が{広|ひろ}い (broad-minded)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Cross-Reference System Overhaul)
 Created a new systematic cross-reference review system and updated related documentation.
 
@@ -89,17 +97,6 @@ Added 16 new dictionary entries (IDs 20923-20938) from candidate_words.json. A m
 - **Na-adjectives (2)**: {世界的|せかいてき} (worldwide/global), {苛烈|かれつ} (fierce/severe)
 - **Other (1)**: {国外|こくがい} (outside the country)
 - Removed 16 candidates that now exist as entries
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 551)
-Added 30 new dictionary entries (IDs 20863-20892) from candidate_words.json. A diverse mix of suru verbs, godan verb, nouns, na-adjectives, and expressions covering language, science, finance, culture, food, medicine, sports, and daily life.
-
-- **Suru verbs (7)**: {連発|れんぱつ} (rapid repetition), {続発|ぞくはつ} (successive occurrence), {透過|とうか} (transmission/permeation), {帰属|きぞく} (belonging/attribution), {隷属|れいぞく} (subordination/servitude), {退色|たいしょく} (fading/discoloration), {注文生産|ちゅうもんせいさん} (made-to-order production — noun only)
-- **Godan verb (1)**: {澄|す}み{切|き}る (to be crystal clear)
-- **Nouns (14)**: {不成功|ふせいこう} (failure), {限度額|げんどがく} (credit limit), {無応答|むおうとう} (no response), {伝達力|でんたつりょく} (communication ability), {損害保険|そんがいほけん} (non-life insurance), {心理戦|しんりせん} (psychological warfare), {非推奨|ひすいしょう} (deprecated), {輝度|きど} (brightness/luminance), {防錆|ぼうせい} (rust prevention), {撥|ばち} (plectrum/drumstick), {兄貴分|あにきぶん} (big-brother figure), {葉菜|ようさい} (leafy vegetable), {獣医学|じゅういがく} (veterinary medicine), {注文服|ちゅうもんふく} (custom clothing), {副助詞|ふくじょし} (adverbial particle), {紆余|うよ} (winding/meandering)
-- **Expressions (2)**: {品|ひん}がある (to have class), {予約困難|よやくこんなん} (hard to book)
-- **Other (2)**: {拳闘|けんとう} (boxing), {浄化槽|じょうかそう} (septic tank), {脳神経|のうしんけい} (cranial nerve)
-- Added 1 new kanji to index: 隷
-- Removed 20 stale duplicate candidates from candidate_words.json
 
 
 
