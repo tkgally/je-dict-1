@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 556)
+Added 30 new dictionary entries (IDs 21048-21077) from candidate_words.json. A practical mix covering emotions, food, family, places, daily life, and formal/business vocabulary.
+
+- **Nouns (22)**: {感慨|かんがい} (deep emotion), {論点|ろんてん} (point of argument), {金賞|きんしょう} (gold prize), {里親|さとおや} (foster parent), {心残|こころのこ}り (lingering regret), {裏路地|うらろじ} (back alley), {酒類|しゅるい} (alcoholic beverages), {急務|きゅうむ} (urgent task), {粉|こな}ミルク (powdered milk), {練乳|れんにゅう} (condensed milk), {残雪|ざんせつ} (lingering snow), {人生観|じんせいかん} (view of life), {恥知|はじし}らず (shameless person), {固定費|こていひ} (fixed costs), {病室|びょうしつ} (hospital room), {凱旋|がいせん} (triumphal return), {養女|ようじょ} (adopted daughter), {実子|じっし} (biological child), {出入|でい}り{口|ぐち} (entrance/exit), {食生活|しょくせいかつ} (eating habits), {完全主義|かんぜんしゅぎ} (perfectionism), {人当|ひとあ}たり (manner with people)
+- **Suru verbs (5)**: {失速|しっそく} (to stall/lose momentum), {散布|さんぷ} (to spray), {寄港|きこう} (to call at port), {子守|こも}り (babysitting), {駐車違反|ちゅうしゃいはん} (parking violation)
+- **Godan verb (1)**: {聞|き}き{落|お}とす (to miss hearing)
+- **I-adjective (1)**: {味気|あじけ}ない (dull/dreary)
+- **Adverb (1)**: {後程|のちほど} (later on)
+- Added 1 new kanji to index: 凱
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 555)
 Added 30 new dictionary entries (IDs 21018-21047) from candidate_words.json. A mix of adjectives, verbs, nouns, and expressions covering evaluation, cognition, action, culture, and formal language.
 
@@ -87,16 +98,6 @@ Created a new systematic cross-reference review system and updated related docum
 - **Updated skill**: `.claude/skills/cross-reference-entry/SKILL.md` — expanded `prominent_see_also` guidance to cover transitive/intransitive pairs, N/Nする pairs, informal/formal pairs, and other closely related word groups; deprecated `pair` type in `cross_references` (transitive/intransitive pairs now use `prominent_see_also`)
 - **Deleted**: `prompts/add_prominent_crossrefs.md` (superseded by new prompt)
 - **Updated**: CLAUDE.md, README.md, metaprompt_list.md references
-
-### 2026-03-30 (Vocabulary Expansion - 30 New Entries, Session 553)
-Added 30 new dictionary entries (IDs 20939-20968) from candidate_words.json. A diverse mix covering social behavior, transportation, culture, nature, food, politics, history, law, arts, and daily life.
-
-- **Nouns (19)**: {普通車|ふつうしゃ} (standard car/regular train car), {若年層|じゃくねんそう} (younger generation), {毒蛇|どくへび} (venomous snake), ポニーテール (ponytail), {祝儀袋|しゅうぎぶくろ} (gift money envelope), {豆板醤|とうばんじゃん} (chili bean paste), {雑穀|ざっこく} (mixed grains), {国会議員|こっかいぎいん} (Diet member), {左官|さかん} (plasterer), {控|ひか}え{選手|せんしゅ} (substitute player), {二輪車|にりんしゃ} (two-wheeled vehicle), {市外局番|しがいきょくばん} (area code), {正誤表|せいごひょう} (errata), {練習曲|れんしゅうきょく} (etude), {写本|しゃほん} (manuscript), {相談役|そうだんやく} (advisor), {遠隔地|えんかくち} (remote area), {絶景|ぜっけい}スポット (scenic viewpoint), {放物線|ほうぶつせん} (parabola)
-- **Suru verbs (3)**: {依怙贔屓|えこひいき} (favoritism), {天下統一|てんかとういつ} (national unification), {成敗|せいばい} (punishment)
-- **Na-adjectives (3)**: {草食|そうしょく} (herbivorous/passive), {合憲|ごうけん} (constitutional), {苦労性|くろうしょう} (worrywart)
-- **Expressions (2)**: {眼鏡|めがね}をかける (to wear glasses), {何事|なにごと}も (everything)
-- **Other (3)**: こら (hey!/stop that!), {自然遺産|しぜんいさん} (natural heritage), {宵|よい}の{明星|みょうじょう} (evening star)
-- Added 1 new kanji to index: 怙
 
 
 ---
