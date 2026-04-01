@@ -174,10 +174,25 @@
     }
   ],
   "notes": "{皮|かわ} is a versatile word referring to outer coverings: animal/human skin, fruit peels, and leather.\n\nCOMMON VERBS:\n- {皮|かわ}を⟦{剥|む}く→剥く：02305_muku⟧: to peel (fruit/vegetables)\n- {皮|かわ}が{剥|む}ける: skin peels off\n- {皮|かわ}を⟦{脱|ぬ}ぐ→脱ぐ：00518_nugu⟧: to shed skin (snakes)\n\nCOMPARE SIMILAR WORDS:\n- {皮|かわ}: skin, peel, leather (general outer covering)\n- {革|かわ}: leather (processed animal hide)\n- ⟦{肌|はだ}→肌：02243_hada⟧: skin (human, focusing on texture/complexion)\n- ⟦{皮膚|ひふ}→皮膚：03987_hifu⟧: skin (medical/formal term)\n\nCOMMON COMPOUNDS:\n- ⟦{毛皮|けがわ}→毛皮：00205_kegawa⟧: fur\n- ⟦{皮肉|ひにく}→皮肉：00103_hiniku⟧: irony, sarcasm\n- ⟦{鳥|とり}→鳥：00679_tori⟧の{皮|かわ}: chicken skin",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02243_hada",
+      "reading": "はだ",
+      "headword": "{肌|はだ}",
+      "label": "skin (texture/complexion)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03987_hifu",
+      "reading": "ひふ",
+      "headword": "{皮膚|ひふ}",
+      "label": "skin (medical/formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:43:35Z",
-    "modified": "2026-03-25T14:52:00Z",
+    "modified": "2026-04-01T03:32:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -200,6 +215,12 @@
       "reading": "かわ",
       "headword": "{川|かわ}",
       "note": "river (川)"
+    },
+    {
+      "target_id": "19310_kawa",
+      "reading": "かわ",
+      "headword": "{革|かわ}",
+      "note": "leather, processed hide (革)"
     }
   ]
 }
