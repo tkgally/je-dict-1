@@ -119,6 +119,14 @@
     }
   ],
   "notes": "お{昼|ひる} is the polite form of {昼|ひる}, commonly used to refer to noon or lunch.\n\nCOMMON PATTERNS:\n- お{昼|ひる}を{食|た}べる (to eat lunch)\n- お{昼|ひる}ごはん (lunch - more explicit)\n- お{昼|ひる}ごろ (around noon)\n- お{昼|ひる}{休|やす}み (lunch break)\n\nNOTE: While {昼|ひる} alone is grammatically correct, お{昼|ひる} is more commonly used in everyday speech, especially when talking about the meal.\n\nRELATED WORDS:\n- {昼食|ちゅうしょく}: lunch (formal)\n- ランチ: lunch (loanword, often used for restaurant meals)\n- {朝|あさ}ごはん: breakfast\n- {晩|ばん}ごはん: dinner",
+  "prominent_see_also": [
+    {
+      "target_id": "00540_hiru",
+      "reading": "ひる",
+      "headword": "{昼|ひる}",
+      "note": "without お prefix"
+    }
+  ],
   "cross_references": [
     {
       "type": "synonym",
@@ -126,11 +134,32 @@
       "headword": "{昼食|ちゅうしょく}",
       "label": "lunch (formal)",
       "target_id": "01616_chuushoku"
+    },
+    {
+      "type": "synonym",
+      "reading": "らんち",
+      "headword": "ランチ",
+      "label": "lunch (loanword)",
+      "target_id": "11196_ranchi"
+    },
+    {
+      "type": "related",
+      "reading": "あさごはん",
+      "headword": "{朝|あさ}ご{飯|はん}",
+      "label": "breakfast",
+      "target_id": "02843_asagohan"
+    },
+    {
+      "type": "related",
+      "reading": "ばんごはん",
+      "headword": "{晩|ばん}ご{飯|はん}",
+      "label": "dinner",
+      "target_id": "02940_bangohan"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:39:11Z",
-    "modified": "2026-03-25T03:10:20Z",
+    "modified": "2026-04-01T07:23:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
