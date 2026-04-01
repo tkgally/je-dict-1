@@ -64,10 +64,32 @@
     }
   ],
   "notes": "どんな is a pre-noun adjectival that asks about the nature, type, or quality of something. It always modifies a noun directly.\n\nKO-SO-A-DO SERIES:\n- こんな: this kind of (near speaker)\n- そんな: that kind of (near listener)\n- あんな: that kind of (far from both)\n- どんな: what kind of (question)\n\nCOMMON PATTERNS:\n- どんな + noun: どんな{本|ほん}？ (What kind of book?)\n- どんなに〜ても: no matter how ~ (どんなに{難|むずか}しくても = no matter how difficult)\n- どんな{時|とき}でも: at any time, no matter when\n- どんな{事|こと}があっても: no matter what happens\n\nSIMILAR WORDS:\n- どんな: casual, everyday question about type/nature\n- どういう: slightly more formal, asks about the manner or reasoning\n- どのような: formal/written equivalent of どんな",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02881_konna",
+      "reading": "こんな",
+      "headword": "こんな",
+      "label": "this kind of (near speaker)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01645_sonna",
+      "reading": "そんな",
+      "headword": "そんな",
+      "label": "that kind of (near listener)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01574_anna",
+      "reading": "あんな",
+      "headword": "あんな",
+      "label": "that kind of (far from both)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-04-01T02:51:31Z",
+    "modified": "2026-04-01T02:22:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -77,25 +99,5 @@
       "formality": "formal",
       "politeness": "plain"
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "01574_anna",
-      "reading": "あんな",
-      "headword": "あんな",
-      "note": "that kind of (far from both)"
-    },
-    {
-      "target_id": "02881_konna",
-      "reading": "こんな",
-      "headword": "こんな",
-      "note": "this kind of (near speaker)"
-    },
-    {
-      "target_id": "01645_sonna",
-      "reading": "そんな",
-      "headword": "そんな",
-      "note": "that kind of (near listener)"
-    }
-  ]
+  }
 }
