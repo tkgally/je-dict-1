@@ -64,10 +64,18 @@
     }
   ],
   "notes": "だから is a causal conjunction meaning 'therefore' or 'so,' connecting a reason to its result.\n\nFORMALITY LEVELS:\n- だから: casual\n- ⟦ですから→ですから：00926_desukara⟧: polite\n- ⟦したがって→したがって：03819_shitagatte⟧: formal/written\n\nUSAGE PATTERNS:\n- [Sentence A]。だから、[Sentence B]: A happened. Therefore, B.\n- だから⟦{言|い}った→言う：00515_iu⟧⟦でしょう→でしょう：09887_deshou⟧: I told you so (expresses frustration)\n- だからこそ: precisely because of that\n\nPOSITION:\nUsually at the beginning of a sentence or clause.\n\nCONTRAST:\n- だから: shows consequence (so/therefore)\n- ⟦でも→でも：00925_demo⟧: shows contrast (but/however)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00925_demo",
+      "reading": "でも",
+      "headword": "でも",
+      "label": "but/however"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:59:07Z",
-    "modified": "2026-02-20T06:29:39Z",
+    "modified": "2026-03-31T23:52:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -80,5 +88,13 @@
         "grammatical"
       ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "00926_desukara",
+      "reading": "ですから",
+      "headword": "ですから",
+      "note": "polite form"
+    }
+  ]
 }
