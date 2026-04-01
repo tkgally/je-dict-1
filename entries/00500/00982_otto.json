@@ -54,10 +54,33 @@
     }
   ],
   "notes": "{夫|おっと} is a neutral term for 'husband' and is increasingly preferred by modern Japanese speakers who find ⟦{主人|しゅじん}→主人：00987_shujin⟧ too formal or hierarchical. It's commonly used in official documents and neutral speech. The female equivalent is ⟦{妻|つま}→妻：01005_tsuma⟧. In casual conversation, many people also use ⟦{旦那|だんな}→旦那：12330_danna⟧ (danna) for husband.",
-  "cross_references": [],
+  "prominent_see_also": [
+    {
+      "target_id": "01005_tsuma",
+      "reading": "つま",
+      "headword": "{妻|つま}",
+      "note": "wife"
+    }
+  ],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00987_shujin",
+      "reading": "しゅじん",
+      "headword": "{主人|しゅじん}",
+      "label": "humble"
+    },
+    {
+      "type": "synonym",
+      "target_id": "12330_danna",
+      "reading": "だんな",
+      "headword": "{旦那|だんな}",
+      "label": "casual"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:06:49Z",
-    "modified": "2026-02-21T02:56:32Z",
+    "modified": "2026-04-01T01:21:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

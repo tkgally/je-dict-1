@@ -64,10 +64,25 @@
     }
   ],
   "notes": "{夕方|ゆうがた} refers to evening or dusk—the time when the sun sets, roughly 4-7 PM.\n\nCOMPONENTS:\n{夕|ゆう} (evening) + {方|がた} (direction/time) = evening time\n\nTIME SEQUENCE:\n- ⟦{朝|あさ}→朝：02277_asa⟧: morning\n- ⟦{昼|ひる}→昼：00540_hiru⟧: noon/daytime\n- {夕方|ゆうがた}: evening/dusk\n- ⟦{夜|よる}→夜：00487_yoru⟧: night\n\nRELATED {夕|ゆう} WORDS:\n- ⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧: dinner\n- ⟦{夕日|ゆうひ}→夕日：04080_yuuhi⟧: sunset, setting sun\n- ⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧: evening glow\n- {夕刊|ゆうかん}: evening newspaper\n- ⟦{夕暮|ゆうぐ}れ→夕暮れ：07682_yuugure⟧: twilight, dusk\n\nCOMMON PATTERNS:\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧: to return home in the evening\n- {夕方|ゆうがた}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: evening comes\n- {夕方|ゆうがた}⟦から→から：00504_kara⟧: from evening\n\n{夕方|ゆうがた} often signals the end of work and commuting home time.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02277_asa",
+      "reading": "あさ",
+      "headword": "{朝|あさ}",
+      "label": "morning"
+    },
+    {
+      "type": "related",
+      "target_id": "00487_yoru",
+      "reading": "よる",
+      "headword": "{夜|よる}",
+      "label": "night"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:45:56Z",
-    "modified": "2026-02-22T02:51:16Z",
+    "modified": "2026-04-01T01:21:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -99,10 +99,32 @@
     }
   ],
   "notes": "それで is a conjunction indicating consequence or result, meaning \"and so\" or \"because of that.\"\n\nTWO USES:\n1. Indicating result/consequence: \"So I went home\" (それで⟦{帰|かえ}った→帰る：00508_kaeru⟧)\n2. Prompting continuation: \"And then?\" (それで？)\n\nCOMPARISON WITH ⟦だから→だから：00924_dakara⟧:\n- それで: neutral, narrative, simply links cause and effect\n- だから: emphasizes the causal relationship, more assertive\n\nCOMMON PATTERNS:\n- それで？: And? So? (prompting)\n- それで、どうなった？: So, what happened?\n\nRELATED CONJUNCTIONS:\n- ⟦だから→だから：00924_dakara⟧: therefore, so (emphasizes reason)\n- ⟦そして→そして：00997_soshite⟧: and then (sequential)\n- ⟦それから→それから：00996_sorekara⟧: after that (sequential)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00924_dakara",
+      "reading": "だから",
+      "headword": "だから",
+      "label": "therefore (assertive)"
+    },
+    {
+      "type": "related",
+      "target_id": "00996_sorekara",
+      "reading": "それから",
+      "headword": "それから",
+      "label": "after that (sequential)"
+    },
+    {
+      "type": "related",
+      "target_id": "00997_soshite",
+      "reading": "そして",
+      "headword": "そして",
+      "label": "and then (sequential)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:48:47Z",
-    "modified": "2026-02-21T14:01:49Z",
+    "modified": "2026-04-01T01:21:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
