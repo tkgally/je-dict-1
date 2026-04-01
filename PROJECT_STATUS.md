@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 561)
+Added 30 new dictionary entries (IDs 21197-21226) from candidate_words.json. A diverse mix of practical vocabulary covering food, culture, nature, time, emotions, health, and everyday life.
+
+- **Nouns (22)**: {枝豆|えだまめ} (edamame), {落花生|らっかせい} (peanut), {顔文字|かおもじ} (kaomoji), {平常心|へいじょうしん} (composure), {小道|こみち} (path), {日光浴|にっこうよく} (sunbathing), {漁師|りょうし} (fisherman), {翌月|よくげつ} (following month), {前月|ぜんげつ} (previous month), {昔馴染|むかしなじ}み (old acquaintance), {揚|あ}げ{油|あぶら} (frying oil), {日|ひ}の{入|い}り (sunset), {所有者|しょゆうしゃ} (owner), {公私|こうし} (public and private), {小腹|こばら} (slight hunger), {練習問題|れんしゅうもんだい} (practice questions), {品質管理|ひんしつかんり} (quality control), {栄養失調|えいようしっちょう} (malnutrition), ボードゲーム (board game), {蚕|かいこ} (silkworm), {蛹|さなぎ} (pupa)
+- **Suru verbs (3)**: {察知|さっち} (sensing), {放心|ほうしん} (absent-mindedness), {酩酊|めいてい} (intoxication)
+- **Adverbs (2)**: ちらり (briefly), {瞬|またた}く{間|ま}に (in an instant)
+- **Na-adjectives (2)**: {肉厚|にくあつ} (thick/fleshy), {恒常的|こうじょうてき} (constant)
+- **Expression (1)**: {我|われ}を{忘|わす}れる (to lose oneself)
+- **Other (1)**: {生|う}まれつき (by nature)
+- Added 4 new kanji to index: 蚕, 蛹, 酊, 酩
+- Removed 30 candidates that now exist as entries
+
 ### 2026-03-31 (Vocabulary Expansion - 29 New Entries, Session 560)
 Added 29 new dictionary entries (IDs 21168-21196) from candidate_words.json. A diverse mix covering time, safety, language, anatomy, nature, culture, fashion, food, and more.
 
@@ -100,17 +112,6 @@ Added 30 new dictionary entries (IDs 21078-21107) from candidate_words.json. A m
 - **Other**: {環境汚染|かんきょうおせん} (environmental pollution)
 - Added 1 new kanji to index: 扶
 - Removed 6 stale candidates (duplicates of existing entries)
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 556)
-Added 30 new dictionary entries (IDs 21048-21077) from candidate_words.json. A practical mix covering emotions, food, family, places, daily life, and formal/business vocabulary.
-
-- **Nouns (22)**: {感慨|かんがい} (deep emotion), {論点|ろんてん} (point of argument), {金賞|きんしょう} (gold prize), {里親|さとおや} (foster parent), {心残|こころのこ}り (lingering regret), {裏路地|うらろじ} (back alley), {酒類|しゅるい} (alcoholic beverages), {急務|きゅうむ} (urgent task), {粉|こな}ミルク (powdered milk), {練乳|れんにゅう} (condensed milk), {残雪|ざんせつ} (lingering snow), {人生観|じんせいかん} (view of life), {恥知|はじし}らず (shameless person), {固定費|こていひ} (fixed costs), {病室|びょうしつ} (hospital room), {凱旋|がいせん} (triumphal return), {養女|ようじょ} (adopted daughter), {実子|じっし} (biological child), {出入|でい}り{口|ぐち} (entrance/exit), {食生活|しょくせいかつ} (eating habits), {完全主義|かんぜんしゅぎ} (perfectionism), {人当|ひとあ}たり (manner with people)
-- **Suru verbs (5)**: {失速|しっそく} (to stall/lose momentum), {散布|さんぷ} (to spray), {寄港|きこう} (to call at port), {子守|こも}り (babysitting), {駐車違反|ちゅうしゃいはん} (parking violation)
-- **Godan verb (1)**: {聞|き}き{落|お}とす (to miss hearing)
-- **I-adjective (1)**: {味気|あじけ}ない (dull/dreary)
-- **Adverb (1)**: {後程|のちほど} (later on)
-- Added 1 new kanji to index: 凱
 - Removed 30 candidates that now exist as entries
 
 
