@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 563)
+Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A diverse mix of practical vocabulary covering daily life, weather, society, medicine, education, culture, and emotions.
+
+- **Nouns (12)**: {洗顔|せんがん} (face washing), {交通事故|こうつうじこ} (traffic accident), {交通機関|こうつうきかん} (transportation system), {猛吹雪|もうふぶき} (heavy blizzard), {樹氷|じゅひょう} (rime ice), {革製品|かわせいひん} (leather goods), {記入欄|きにゅうらん} (entry field), {和装|わそう} (Japanese dress), {軍服|ぐんぷく} (military uniform), {唱歌|しょうか} (school song), {情報公開|じょうほうこうかい} (information disclosure), {近況報告|きんきょうほうこく} (status update)
+- **Suru verbs (6)**: {無断欠席|むだんけっせき} (unexcused absence), {複雑化|ふくざつか} (complication), {高度化|こうどか} (advancement), {縫合|ほうごう} (suturing), {抜歯|ばっし} (tooth extraction), {過剰摂取|かじょうせっしゅ} (excessive intake), {因数分解|いんすうぶんかい} (factorization)
+- **Na-adjectives (3)**: {本質的|ほんしつてき} (essential), {平然|へいぜん} (nonchalant), {決然|けつぜん} (resolute)
+- **Adverbs (2)**: {毅然|きぜん}と (firmly), {率直|そっちょく}に (frankly)
+- **Expressions (4)**: {責任|せきにん}を{果|は}たす (to fulfill responsibility), {身|み}をすくめる (to shrink back), {顔|かお}をほころばせる (to beam), {場|ば}をわきまえる (to read the room)
+- **Other (1)**: {両目|りょうめ} (both eyes), {視界不良|しかいふりょう} (poor visibility)
+
 ### 2026-04-01 (Vocabulary Expansion - 27 New Entries, Session 562)
 Added 27 new dictionary entries (IDs 21227-21253) from candidate_words.json. A diverse mix of practical vocabulary covering transportation, culture, society, weather, and abstract concepts.
 
@@ -94,20 +104,6 @@ Added 30 new dictionary entries (IDs 21138-21167) from candidate_words.json. Pra
 - **Nouns (17)**: {読|よ}み{書|か}き (literacy), {切|き}れ{端|はし} (scrap), {死後|しご} (after death), {自負|じふ} (pride), {休業日|きゅうぎょうび} (closed day), {衣料品|いりょうひん} (clothing), {乗組員|のりくみいん} (crew member), {遠征|えんせい} (expedition), {電話帳|でんわちょう} (phone book), {大群|たいぐん} (swarm), {金融機関|きんゆうきかん} (financial institution), {利率|りりつ} (interest rate), {地滑|じすべ}り (landslide), {同窓|どうそう} (alumnus), {照射|しょうしゃ} (irradiation), {苦慮|くりょ} (agonizing over), お{店|みせ} (shop), {島々|しまじま} (islands), {冒険者|ぼうけんしゃ} (adventurer)
 - **Na-adjectives (2)**: {無防備|むぼうび} (defenseless), {敏捷|びんしょう} (agile)
 - Added 1 new kanji to index: 捷
-- Removed 30 candidates that now exist as entries
-
-### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 558)
-Added 30 new dictionary entries (IDs 21108-21137) from candidate_words.json. A diverse mix covering culture, food, movement, emotions, finance, daily life, and formal/literary vocabulary.
-
-- **Nouns (16)**: {切|き}り{身|み} (fillet), {脳裏|のうり} (one's mind), {白身魚|しろみざかな} (white fish), {民芸品|みんげいひん} (folk craft), {小走|こばし}り (trot), {早足|はやあし} (brisk walk), {出来上|できあ}がり (finished product), {医療保険|いりょうほけん} (medical insurance), {副収入|ふくしゅうにゅう} (side income), サラダ{油|あぶら} (cooking oil), {本館|ほんかん} (main building), {別館|べっかん} (annex), {島民|とうみん} (islander), カイロ (hand warmer), {耐熱|たいねつ} (heat-resistant), {仮設|かせつ} (temporary)
-- **Suru verbs (4)**: {検閲|けんえつ} (censorship), {赤面|せきめん} (blushing), {欠落|けつらく} (omission), {常駐|じょうちゅう} (permanent stationing), {処遇|しょぐう} (treatment), {天日干|てんぴぼ}し (sun-drying)
-- **Na-adjectives (2)**: {未曾有|みぞう} (unprecedented), {悠長|ゆうちょう} (leisurely)
-- **I-adjective (1)**: {変|か}わりやすい (changeable)
-- **Ichidan verb (1)**: {積|つ}み{立|た}てる (to save up)
-- **Expression (2)**: {口|くち}をつぐむ (to keep silent), {火|ひ}を{見|み}るより{明|あき}らか (obvious beyond doubt)
-- **Adverb (1)**: きっかり (exactly)
-- **Other**: {荒涼|こうりょう} (desolate)
-- Added 1 new kanji to index: 曾
 - Removed 30 candidates that now exist as entries
 
 
