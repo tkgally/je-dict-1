@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 564)
+Added 30 new dictionary entries (IDs 21284-21313) from candidate_words.json. A diverse mix of practical vocabulary covering everyday language, formal expressions, idioms, grammar, and specialized terms.
+
+- **Nouns (8)**: {微風|びふう} (gentle breeze), {称賛|しょうさん} (praise), {戦況|せんきょう} (war situation), {建築物|けんちくぶつ} (building), {猜疑心|さいぎしん} (suspiciousness), {盤面|ばんめん} (board surface), {周期表|しゅうきひょう} (periodic table), {耐用年数|たいようねんすう} (service life)
+- **Na-adjectives (3)**: {利己的|りこてき} (selfish), {殺伐|さつばつ} (bleak/hostile), {不熱心|ふねっしん} (unenthusiastic)
+- **Verb (1)**: {明|あ}ける (to dawn)
+- **Nouns with suru (3)**: {独断専行|どくだんせんこう} (acting alone), {精錬|せいれん} (refining), {修飾語|しゅうしょくご} (modifier)
+- **Everyday nouns (3)**: {水道屋|すいどうや} (plumber), {船着|ふなつ}き{場|ば} (boat landing), {乗降口|じょうこうぐち} (boarding entrance), {濃|こ}い{味|あじ} (strong flavor)
+- **Expressions (8)**: {一通|ひととお}り (roughly/once through), {一筋縄|ひとすじなわ}ではいかない (not straightforward), {余韻|よいん}に{浸|ひた}る (to bask in the afterglow), {人目|ひとめ}を{忍|しの}ぶ (to avoid being seen), {文句|もんく}を{言|い}う (to complain), {食欲|しょくよく}をそそる (appetizing), {多忙|たぼう}を{極|きわ}める (to be extremely busy), {便宜|べんぎ}を{図|はか}る (to provide accommodation), {配慮|はいりょ}に{欠|か}ける (to lack consideration), {合図|あいず}を{送|おく}る (to give a signal)
+- **Other**: {惜別|せきべつ} (reluctant farewell)
+- Added 1 new kanji to index: 猜
+- Removed 4 stale candidates (duplicates of existing entries)
+
 ### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 563)
 Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A diverse mix of practical vocabulary covering daily life, weather, society, medicine, education, culture, and emotions.
 
@@ -95,16 +108,6 @@ Added 29 new dictionary entries (IDs 21168-21196) from candidate_words.json. A d
 - **Other (2)**: {感謝|かんしゃ}{感激|かんげき} (deeply grateful), {綿入|わたい}れ (padded garment)
 - Added 1 new kanji to index: 橙
 - Removed 29 candidates that now exist as entries
-
-### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 559)
-Added 30 new dictionary entries (IDs 21138-21167) from candidate_words.json. Practical vocabulary covering verbs, nouns, and adjectives for everyday communication, finance, nature, and more.
-
-- **Suru verbs (8)**: {説得|せっとく} (persuade), {分割|ぶんかつ} (divide), {分配|ぶんぱい} (distribute), {回収|かいしゅう} (collect/recall), {持参|じさん} (bring), {携帯|けいたい} (carry), {相当|そうとう} (correspond to), {匹敵|ひってき} (rival)
-- **Godan verb (1)**: {書|か}き{残|のこ}す (leave in writing)
-- **Nouns (17)**: {読|よ}み{書|か}き (literacy), {切|き}れ{端|はし} (scrap), {死後|しご} (after death), {自負|じふ} (pride), {休業日|きゅうぎょうび} (closed day), {衣料品|いりょうひん} (clothing), {乗組員|のりくみいん} (crew member), {遠征|えんせい} (expedition), {電話帳|でんわちょう} (phone book), {大群|たいぐん} (swarm), {金融機関|きんゆうきかん} (financial institution), {利率|りりつ} (interest rate), {地滑|じすべ}り (landslide), {同窓|どうそう} (alumnus), {照射|しょうしゃ} (irradiation), {苦慮|くりょ} (agonizing over), お{店|みせ} (shop), {島々|しまじま} (islands), {冒険者|ぼうけんしゃ} (adventurer)
-- **Na-adjectives (2)**: {無防備|むぼうび} (defenseless), {敏捷|びんしょう} (agile)
-- Added 1 new kanji to index: 捷
-- Removed 30 candidates that now exist as entries
 
 
 
