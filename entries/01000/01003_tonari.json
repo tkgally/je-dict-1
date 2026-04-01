@@ -99,10 +99,25 @@
     }
   ],
   "notes": "{隣|となり} refers to something immediately adjacent, with no gap in between. For things that are nearby but not directly adjacent, use ⟦{近|ちか}く→近い：00530_chikai⟧ or ⟦そば→そば：00989_soba⟧. {隣|となり}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧ can mean either 'the person next to me' or 'my neighbor.' Compare with ⟦{横|よこ}→横：02984_yoko⟧ which means 'beside' but emphasizes the horizontal direction.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00989_soba",
+      "reading": "そば",
+      "headword": "そば",
+      "label": "nearby (not adjacent)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02984_yoko",
+      "reading": "よこ",
+      "headword": "{横|よこ}",
+      "label": "beside (horizontal)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:39:34Z",
-    "modified": "2026-02-21T14:01:49Z",
+    "modified": "2026-04-01T01:21:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
