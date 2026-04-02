@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 19 New Entries, Session 573)
+Added 19 new dictionary entries (IDs 21521-21540) from candidate_words.json. A mix of everyday words, verbs, nouns, and expressions useful for intermediate learners.
+
+- **Expressions (2)**: ちょうどいい (just right), {気|き}に{障|さわ}る (to offend/annoy)
+- **Godan verbs (4)**: {恥|は}じらう (to be bashful), {悔|くや}しがる (to show frustration), {行|い}き{着|つ}く (to end up at), ふやかす (to soak and soften)
+- **Ichidan verb (1)**: もつれる (to become tangled)
+- **Nouns (11)**: ありさま (state/condition), {満腹感|まんぷくかん} (feeling full), {先々月|せんせんげつ} (month before last), {共用|きょうよう} (shared use), {使者|ししゃ} (messenger), {圧迫感|あっぱくかん} (feeling of pressure), {胸|むね}の{内|うち} (inner thoughts), {高低|こうてい} (high and low), {中心街|ちゅうしんがい} (city center), {補色|ほしょく} (complementary color), {図柄|ずがら} (design/pattern)
+- **Na-adjective/noun (1)**: {過干渉|かかんしょう} (overinvolvement)
+- Removed 19 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 572)
 Added 20 new dictionary entries (IDs 21501-21520) from candidate_words.json. A mix of literary, formal, and cultural vocabulary.
 
@@ -102,30 +112,6 @@ Added 30 new dictionary entries (IDs 21421-21450) from candidate_words.json. A d
 - Added 1 new kanji to index: 沫
 - Removed 30 candidates that now exist as entries
 
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 568)
-Added 30 new dictionary entries (IDs 21391-21420) from candidate_words.json. A diverse mix of practical vocabulary covering verbs, expressions, nouns, and adjectives useful for intermediate learners.
-
-- **Suru verbs (5)**: {加速|かそく}する (to accelerate), {下車|げしゃ}する (to alight), {反省|はんせい}する (to reflect/feel remorse), {組織化|そしきか} (systematization), {充足|じゅうそく} (sufficiency)
-- **Godan verbs (2)**: {込|こ}み{合|あ}う (to be crowded), {連|つ}れ{去|さ}る (to take away forcibly)
-- **Expressions (4)**: {声|こえ}を{出|だ}す (to speak up), {手|て}をつく (to place hands on ground), {息|いき}を{止|と}める (to hold one's breath), {申|もう}し{訳|わけ}ありません (I'm very sorry)
-- **Nouns (13)**: {朝方|あさがた} (early morning), {引|ひ}っ{張|ぱ}りだこ (in great demand), {辛|から}さ (spiciness), {数十|すうじゅう} (several tens), {自家用|じかよう} (private use), {新学年|しんがくねん} (new school year), モラル (morals), {東南|とうなん} (southeast), {孤立感|こりつかん} (feeling of isolation), {大盤振|おおばんぶ}る{舞|ま}い (lavish spending), お{得意様|とくいさま} (valued customer), {度量|どりょう} (magnanimity), {解析力|かいせきりょく} (analytical ability)
-- **Counter/noun (1)**: {一着|いっちゃく} (first place/one suit)
-- **Na-adjective (1)**: {不自然|ふしぜん}な (unnatural)
-- **Other nouns (4)**: {零点|れいてん} (zero points), {混合物|こんごうぶつ} (mixture), {拘留|こうりゅう} (detention), {感覚神経|かんかくしんけい} (sensory nerve)
-
-
-
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
-Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A practical mix of common verbs, adjectives, nouns, and expressions useful for intermediate learners.
-
-- **Suru verbs (12)**: {駆除|くじょ} (extermination), {分解|ぶんかい} (disassembly/decomposition), {撤去|てっきょ} (removal), {返金|へんきん} (refund), {返却|へんきゃく} (returning), {解消|かいしょう} (resolution), {停車|ていしゃ} (stopping), {回復|かいふく} (recovery), {拒否|きょひ} (refusal), {容認|ようにん} (tolerance), {離婚|りこん} (divorce), {湯煎|ゆせん} (water bath)
-- **Na-adjectives (4)**: {謙虚|けんきょ} (humble), {控|ひか}えめ (reserved), {高圧的|こうあつてき} (overbearing), {威圧的|いあつてき} (intimidating)
-- **Nouns (9)**: {表現力|ひょうげんりょく} (expressive ability), {未使用|みしよう} (unused), {断面|だんめん} (cross-section), {登山者|とざんしゃ} (mountaineer), {王座|おうざ} (throne), {愚|おろ}か{者|もの} (fool), {基本給|きほんきゅう} (base salary), {植|う}え{付|つ}け (planting), {収穫期|しゅうかくき} (harvest season)
-- **Godan verb (1)**: {取|と}り{逃|のが}す (to miss catching)
-- **Adverb (1)**: {一般的|いっぱんてき}に (generally)
-- **Expression (1)**: {構|かま}わない (don't mind)
-- **Other nouns (2)**: {作務衣|さむえ} (samue work clothes), {成長期|せいちょうき} (growth period)
-- Removed 30 candidates that now exist as entries
 
 
 
