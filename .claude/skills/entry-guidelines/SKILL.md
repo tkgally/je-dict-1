@@ -192,9 +192,10 @@ python3 build/verify_furigana.py <entry_id>
 ## Entry Structure
 
 Every entry must include:
-- `id`: Format `{5-digit-number}_{romaji}` (e.g., `00396_taberu`)
+- `id`: Format `{5-digit-number}_{romaji}` (e.g., `00396_taberu`). See **Romaji/ID Format** below for critical rules.
 - `headword`: With furigana notation
 - `reading`: **Hiragana only** (see Reading Format below)
+- `romaji`: Must match the full reading, concatenated without internal underscores
 - `part_of_speech`: Consistent terminology
 - `gloss`: Brief English equivalent
 - `definitions`: Array with sense_number, gloss, explanation
@@ -235,6 +236,26 @@ This applies to ALL entries, including:
 **Note:** The long vowel mark `ー` is acceptable in hiragana readings (e.g., `すきー`, `すとれーじ`) since there is no hiragana equivalent.
 
 The validation script (`validate.py`) will report errors for entries with katakana readings.
+
+## Romaji/ID Format (CRITICAL)
+
+The entry ID and `romaji` field must follow this format. The schema regex is: `^[0-9]{5}_[a-z]+(_[a-z]+)?$`
+
+**Rules:**
+1. **Concatenate the full reading** into the romaji — do NOT split at word boundaries with underscores
+2. At most **one underscore** after the 5-digit number (i.e., at most two lowercase segments)
+3. The romaji **must match the full reading** — the validator checks this
+
+**Correct examples:**
+- `21022_ketteisuru` ← 決定する (けっていする) — suru concatenated
+- `06899_kaowodasu` ← 顔を出す (かおをだす) — particles concatenated
+- `21019_shitekina` ← 私的な (してきな) — na concatenated
+- `21409_moushiwakearimasen` ← 申し訳ありません (もうしわけありません)
+
+**Wrong examples:**
+- `21391_kasoku_suru` ← splits "suru" as a second segment (use `kasokusuru`)
+- `21399_koe_wo_dasu` ← three segments after the number (use `koewodasu`)
+- `21410_fushizen_na` ← splits "na" as a second segment (use `fushizenna`)
 
 ## File Placement (CRITICAL)
 

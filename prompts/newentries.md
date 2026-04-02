@@ -60,6 +60,61 @@ Add new entries to the Japanese-English learner's dictionary from candidate_word
 - Timestamps must be from get_timestamp.py - the Z suffix is UTC, not JST
 - **All new entries must have `vocabulary_tier: "general"`** - basic and core tiers are fixed
 
+## ⚠️ Entry ID and Romaji Format (CRITICAL — validation will fail if wrong)
+
+The entry ID consists of a 5-digit number, an underscore, and the **romaji reading concatenated into one or two lowercase segments**. The schema regex is: `^[0-9]{5}_[a-z]+(_[a-z]+)?$`
+
+### Key rules:
+1. **Concatenate the full reading into the romaji** — do NOT split at word boundaries with underscores
+2. The ID allows **at most one underscore** after the number (two segments max)
+3. The romaji must match the full reading — the validator checks this
+
+### Examples:
+```
+✓ 21022_ketteisuru        (決定する — けっていする)
+✓ 06899_kaowodasu         (顔を出す — かおをだす)
+✓ 21019_shitekina         (私的な — してきな)
+✓ 21114_shiromizakana     (白身魚 — しろみざかな)
+✓ 21409_moushiwakearimasen (申し訳ありません — もうしわけありません)
+
+✗ 21391_kasoku_suru       ← WRONG: splits "suru" as separate segment
+✗ 21399_koe_wo_dasu       ← WRONG: three segments after the number
+✗ 21410_fushizen_na       ← WRONG: splits "na" as separate segment
+```
+
+### File naming matches the ID:
+- Entry `21022_ketteisuru` → file `entries/21000/21022_ketteisuru.json`
+- Use `python3 build/get_entry_path.py <id> <romaji>` to confirm
+
+## ⚠️ POS Tag Values (CRITICAL — schema enforces exact enum)
+
+The `metadata.tags.pos` array must use **only** these exact values:
+
+| Category | Valid values |
+|----------|-------------|
+| **Verbs** | `verb-godan`, `verb-ichidan`, `verb-suru`, `verb-kuru`, `verb-irregular` |
+| **Adjectives** | `adjective-i`, `adjective-na`, `adjective-no`, `adjective-taru` |
+| **Other** | `noun`, `adverb`, `particle`, `conjunction`, `interjection`, `pronoun`, `counter`, `prefix`, `suffix`, `expression`, `pre-noun-adjectival`, `number`, `auxiliary`, `onomatopoeia` |
+
+### Common mistakes to avoid:
+```
+✗ "verb"          → use verb-godan, verb-ichidan, verb-suru, etc.
+✗ "suru-verb"     → use "verb-suru"
+✗ "godan-verb"    → use "verb-godan"
+✗ "na-adjective"  → use "adjective-na"
+✗ "no-adjective"  → use "adjective-no"
+✗ "adjective"     → use adjective-i, adjective-na, etc.
+✗ "compound-verb" → not a valid tag; use verb-godan or verb-ichidan
+```
+
+### POS tag patterns by entry type:
+- **Suru verb (with する in headword)**: `["verb-suru"]`
+- **Noun that can take する**: `["noun", "verb-suru"]`
+- **Godan verb**: `["verb-godan"]`
+- **Na-adjective**: `["adjective-na"]`
+- **Noun usable with の**: `["noun", "adjective-no"]`
+- **Expression**: `["expression"]`
+
 ## Notes Field Requirements
 
 **See the `vocabulary-notes` skill for complete guidelines.** The notes field is a critical part of each entry. Short, unstructured notes are a common quality problem — follow these requirements carefully:
@@ -201,11 +256,13 @@ Follow the complete workflow described in CLAUDE.md under "End-of-session PR and
 1. **Run `make build` BEFORE the final commit** so that `docs/` and all build artifacts are included
 2. **`git add -A`** to stage everything (entries, docs, indexes, kanji, session logs, etc.)
 3. **Commit and push** to the feature branch
-4. **Create a PR** for the branch
-5. **Poll CI status** every 60 seconds until all checks pass (allow up to 10 minutes)
-6. **Squash-merge the PR** once all checks are green
-7. **If CI fails**: read the error, fix the issue, push again, and repeat from step 5
+4. **Create a PR** using `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
+5. **Poll CI status** every 60 seconds: `gh pr checks <number> --repo tkgally/je-dict-1`
+6. **Squash-merge the PR** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
+7. **If CI fails**: read the error with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat
 8. **Post-merge cleanup**: switch to main, pull, verify clean state, delete feature branch locally and remotely
+
+**Tool availability**: Use the `gh` CLI for all GitHub operations (PR creation, CI checks, merging). The git remote uses a local proxy, so always pass `--repo tkgally/je-dict-1` explicitly. If GitHub MCP tools are available (e.g. `mcp__github__*`), prefer those instead.
 
 **CRITICAL**: The PR must include rebuilt `docs/` files. If you commit entry changes but not the build output, the live site won't update and the repo will be left in a dirty state for the next session.
 
