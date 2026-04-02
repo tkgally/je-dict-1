@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 569)
+Added 30 new dictionary entries (IDs 21421-21450) from candidate_words.json. A diverse mix of vocabulary covering verbs, nouns, adjectives, and adverbs useful for intermediate learners.
+
+- **Suru verbs (8)**: {中継|ちゅうけい}する (to relay/broadcast), {墜落|ついらく}する (to crash), {活用|かつよう}する (to utilize), {同行|どうこう}する (to accompany), {失墜|しっつい} (loss of reputation), {悲嘆|ひたん} (grief), {在籍|ざいせき} (enrollment), {成功|せいこう}する (to succeed)
+- **Ichidan verb (1)**: {特徴|とくちょう}づける (to characterize)
+- **Suru verb nouns (2)**: {夢想|むそう} (daydream), {失墜|しっつい} (loss of reputation)
+- **Na-adjective (2)**: {荘厳|そうごん}な (majestic), {無秩序|むちつじょ} (disorder/chaos)
+- **I-adjective (1)**: {慈悲深|じひぶか}い (compassionate)
+- **Adverbs (2)**: {楽々|らくらく} (easily), ちらりと (briefly/at a glance)
+- **Nouns (14)**: {泡沫|ほうまつ} (foam/ephemeral), {内緒話|ないしょばなし} (secret talk), {盗|ぬす}み{聞|ぎ}き (eavesdropping), {流|なが}し{読|よ}み (skimming), ご{褒美|ほうび} (reward), {決|き}まり{文句|もんく} (set phrase), {楽勝|らくしょう} (easy victory), {高級品|こうきゅうひん} (luxury goods), {交流会|こうりゅうかい} (exchange meeting), {略|りゃく} (abbreviation), {養父母|ようふぼ} (adoptive parents), {四国|しこく} (Shikoku), {恒常性|こうじょうせい} (homeostasis), {超高層|ちょうこうそう}ビル (skyscraper), {骨密度|こつみつど} (bone density)
+- Added 1 new kanji to index: 沫
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 568)
 Added 30 new dictionary entries (IDs 21391-21420) from candidate_words.json. A diverse mix of practical vocabulary covering verbs, expressions, nouns, and adjectives useful for intermediate learners.
 
@@ -97,19 +110,6 @@ Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A p
 - **Expression (1)**: {構|かま}わない (don't mind)
 - **Other nouns (2)**: {作務衣|さむえ} (samue work clothes), {成長期|せいちょうき} (growth period)
 - Removed 30 candidates that now exist as entries
-
-### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 564)
-Added 30 new dictionary entries (IDs 21284-21313) from candidate_words.json. A diverse mix of practical vocabulary covering everyday language, formal expressions, idioms, grammar, and specialized terms.
-
-- **Nouns (8)**: {微風|びふう} (gentle breeze), {称賛|しょうさん} (praise), {戦況|せんきょう} (war situation), {建築物|けんちくぶつ} (building), {猜疑心|さいぎしん} (suspiciousness), {盤面|ばんめん} (board surface), {周期表|しゅうきひょう} (periodic table), {耐用年数|たいようねんすう} (service life)
-- **Na-adjectives (3)**: {利己的|りこてき} (selfish), {殺伐|さつばつ} (bleak/hostile), {不熱心|ふねっしん} (unenthusiastic)
-- **Verb (1)**: {明|あ}ける (to dawn)
-- **Nouns with suru (3)**: {独断専行|どくだんせんこう} (acting alone), {精錬|せいれん} (refining), {修飾語|しゅうしょくご} (modifier)
-- **Everyday nouns (3)**: {水道屋|すいどうや} (plumber), {船着|ふなつ}き{場|ば} (boat landing), {乗降口|じょうこうぐち} (boarding entrance), {濃|こ}い{味|あじ} (strong flavor)
-- **Expressions (8)**: {一通|ひととお}り (roughly/once through), {一筋縄|ひとすじなわ}ではいかない (not straightforward), {余韻|よいん}に{浸|ひた}る (to bask in the afterglow), {人目|ひとめ}を{忍|しの}ぶ (to avoid being seen), {文句|もんく}を{言|い}う (to complain), {食欲|しょくよく}をそそる (appetizing), {多忙|たぼう}を{極|きわ}める (to be extremely busy), {便宜|べんぎ}を{図|はか}る (to provide accommodation), {配慮|はいりょ}に{欠|か}ける (to lack consideration), {合図|あいず}を{送|おく}る (to give a signal)
-- **Other**: {惜別|せきべつ} (reluctant farewell)
-- Added 1 new kanji to index: 猜
-- Removed 4 stale candidates (duplicates of existing entries)
 
 
 
