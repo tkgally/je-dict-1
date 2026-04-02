@@ -51,18 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 566)
-Added 30 new dictionary entries (IDs 21344-21373) from candidate_words.json. A thematic mix spanning nature/weather, food/cooking, wedding vocabulary, and abstract concepts.
+### 2026-04-02 (Vocabulary Expansion - 29 New Entries, Session 566)
+Added 29 new dictionary entries (IDs 21344-21373) from candidate_words.json. A thematic mix spanning nature/weather, food/cooking, wedding vocabulary, and abstract concepts.
 
 - **Nature/weather nouns (5)**: {極寒|ごっかん} (extreme cold), {朝霧|あさぎり} (morning fog), {夕靄|ゆうもや} (evening haze), {冷気|れいき} (cold air), さざなみ (ripples)
 - **Food/cooking nouns (6)**: {甘露煮|かんろに} (candied/simmered in sweet syrup), {味噌煮|みそに} (simmered in miso), {丸焼|まるや}き (whole roast), {細巻|ほそま}き (thin sushi roll), {出汁巻|だしま}き (dashi omelette), {固|かた}ゆで (hard-boiled)
 - **Na-adjectives (3)**: {清涼|せいりょう} (cool and refreshing), {急峻|きゅうしゅん} (steep/precipitous), {無骨|ぶこつ} (rough/unsophisticated)
-- **Suru verbs (3)**: {貫通|かんつう} (penetration), {熟知|じゅくち} (thorough knowledge), {凝視|ぎょうし} (staring intently)
+- **Suru verbs (2)**: {貫通|かんつう} (penetration), {熟知|じゅくち} (thorough knowledge)
 - **Godan verb (1)**: {嫉|そね}む (to envy/begrudge)
 - **Cultural/other nouns (6)**: {甘|あま}さ (sweetness/leniency), {花婿|はなむこ} (groom), {婚礼|こんれい} (wedding ceremony), {和尚|おしょう} (Buddhist priest), {甘露|かんろ} (sweet dew/nectar), {勉強部屋|べんきょうべや} (study room)
 - **Other (6)**: ガチンコ (for real/serious fight), {手際|てぎわ}よく (skillfully), {九死一生|きゅうしいっしょう} (narrow escape from death), {節食|せっしょく} (dietary restraint), {挽|ひ}きたて (freshly ground)
 - Added 1 new kanji to index: 峻
-- Removed 30 candidates that now exist as entries
+- Removed 1 duplicate candidate (凝視する — 凝視 already existed)
+- Removed 29 candidates that now exist as entries
 
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
 Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A practical mix of common verbs, adjectives, nouns, and expressions useful for intermediate learners.
