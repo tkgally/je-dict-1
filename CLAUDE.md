@@ -50,6 +50,8 @@ Makefile               # Build runner (make validate, make build, make quick, et
 - Each entry is a JSON file at `entries/{range}/{id}_{romaji}.json`
 - Range directory = ID rounded down to nearest 500 (e.g., ID 01186 → `entries/01000/`)
 - Use `python3 build/get_entry_path.py <id> <romaji>` to get the correct path
+- **Romaji in IDs must be the full reading concatenated** — no internal underscores. Examples: `ketteisuru` (not `kettei_suru`), `kaowodasu` (not `kao_wo_dasu`), `fushizenna` (not `fushizen_na`). Schema regex: `^[0-9]{5}_[a-z]+(_[a-z]+)?$`
+- **POS tags use hyphenated names**: `verb-suru`, `verb-godan`, `adjective-na`, `adjective-no` (not `suru-verb`, `godan-verb`, `na-adjective`, etc.). See `entry-guidelines` skill for the full list.
 - Entries must validate against `build/schema.json`
 - All kanji must have furigana: `{漢字|かんじ}` — in headwords, examples, AND notes
 - Readings are always hiragana, never katakana
@@ -208,10 +210,12 @@ All task prompts that create a PR must follow this complete workflow. The goal i
 
 ### PR, CI, and merge
 
-4. **Create the PR**
-5. **Poll CI** every 60 seconds until checks pass (up to 10 minutes)
-6. **Squash-merge** once CI is green
-7. If CI fails: fix, push, and repeat from step 5
+Use the `gh` CLI for GitHub operations. The git remote uses a local proxy, so **always pass `--repo tkgally/je-dict-1`** to `gh` commands. If GitHub MCP tools (`mcp__github__*`) are available, those work too.
+
+4. **Create the PR**: `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
+5. **Poll CI** every 60 seconds: `gh pr checks <number> --repo tkgally/je-dict-1` (up to 10 minutes)
+6. **Squash-merge** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
+7. If CI fails: read logs with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat from step 5
 
 ### Post-merge cleanup (MANDATORY)
 
