@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 571)
+Added 30 new dictionary entries (IDs 21471-21500) from candidate_words.json. A diverse mix of verbs, expressions, adjectives, adverbs, onomatopoeia, and nouns useful for intermediate learners.
+
+- **Expressions (2)**: {口|くち}にする (to say/to eat), {目|め}にする (to come across)
+- **Godan verbs (4)**: {飲|の}み{干|ほ}す (to drain a drink), {言|い}い{合|あ}う (to argue/exchange words), {受|う}け{渡|わた}す (to hand over), ふらつく (to stagger/wander)
+- **Ichidan verbs (3)**: {振|ふ}りかける (to sprinkle), かき{消|き}える (to vanish), よろける (to stumble)
+- **Suru verb (1)**: {没|ぼっ}する (to sink/die/be absorbed)
+- **Noun/verb-suru (6)**: {助成|じょせい} (subsidy), {敢行|かんこう} (bold execution), {敬服|けいふく} (deep admiration), {離反|りはん} (defection), {見聞|みき}き (things seen and heard), {散乱|さんらん} (scattering)
+- **Adjectives (5)**: {清楚|せいそ} (neat and pure), あっぱれ (splendid), {朧|おぼろ}げ (faint/vague), {自在|じざい} (free/flexible), あったかい (warm, colloquial)
+- **Adverbs (2)**: やみくもに (blindly/recklessly), ぜいぜい (wheezing)
+- **Onomatopoeia (1)**: へなへな (weak/flimsy)
+- **Nouns (4)**: ほっぺた (cheek), {熱戦|ねっせん} (fierce match), {絶|た}え{間|ま} (pause/gap), {高潮|こうちょう} (climax)
+- **Other (2)**: こういう (this kind of), はいはい (yes yes/baby crawling)
+- Removed 57 stale candidates (suru-verb duplicates, wrong readings, entries already existing)
+
 ### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 570)
 Added 20 new dictionary entries (IDs 21451-21470) from candidate_words.json. A diverse mix of verbs, adjectives, adverbs, expressions, and nouns useful for intermediate learners.
 
