@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 17 New Entries, Session 567)
+Added 17 new dictionary entries (IDs 21374-21390) from candidate_words.json. Focused on practical verbs and expressions useful for intermediate learners.
+
+- **Suru verbs (10)**: {加速|かそく} (to accelerate), {公表|こうひょう} (to announce publicly), {依頼|いらい} (to request), {対面|たいめん} (to meet face-to-face), {白状|はくじょう} (to confess), {仲介|ちゅうかい} (to mediate), {流入|りゅうにゅう} (to flow in), {追及|ついきゅう} (to press for answers), {詰問|きつもん} (to interrogate), {出力|しゅつりょく} (to output), {習熟|しゅうじゅく} (to become proficient), {注文|ちゅうもん} (to order)
+- **Godan verbs (3)**: {沸|わ}き{立|た}つ (to boil up/surge), {連|つ}れ{込|こ}む (to bring someone in), {誘|さそ}い{出|だ}す (to lure out)
+- **Ichidan verb (1)**: {見下|みさ}げる (to look down on)
+- **Expression (1)**: {後|あと}を{追|お}う (to follow after)
+- Removed 1 stale candidate (軽視する — already existed as entry 18776)
+- Removed 5 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 29 New Entries, Session 566)
 Added 29 new dictionary entries (IDs 21344-21373) from candidate_words.json. A thematic mix spanning nature/weather, food/cooking, wedding vocabulary, and abstract concepts.
 
@@ -99,16 +109,6 @@ Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A d
 - **Adverbs (2)**: {毅然|きぜん}と (firmly), {率直|そっちょく}に (frankly)
 - **Expressions (4)**: {責任|せきにん}を{果|は}たす (to fulfill responsibility), {身|み}をすくめる (to shrink back), {顔|かお}をほころばせる (to beam), {場|ば}をわきまえる (to read the room)
 - **Other (1)**: {両目|りょうめ} (both eyes), {視界不良|しかいふりょう} (poor visibility)
-
-### 2026-04-01 (Vocabulary Expansion - 27 New Entries, Session 562)
-Added 27 new dictionary entries (IDs 21227-21253) from candidate_words.json. A diverse mix of practical vocabulary covering transportation, culture, society, weather, and abstract concepts.
-
-- **Nouns (12)**: {難局|なんきょく} (crisis), {備忘録|びぼうろく} (memorandum), {座椅子|ざいす} (floor chair), {入|い}れ{替|か}え (replacement), {体育祭|たいいくさい} (sports festival), {海賊版|かいぞくばん} (pirated edition), {十二分|じゅうにぶん} (more than enough), {生存者|せいぞんしゃ} (survivor), {中型|ちゅうがた} (medium-sized), {勲章|くんしょう} (medal), {北風|きたかぜ} (north wind), {寒風|かんぷう} (cold wind)
-- **Suru verbs (5)**: {乗|の}り{降|お}り (boarding/alighting), {乱闘|らんとう} (brawl), {失火|しっか} (accidental fire), {退却|たいきゃく} (retreat), {憂慮|ゆうりょ} (concern)
-- **Na-adjectives (4)**: {自明|じめい} (self-evident), {強大|きょうだい} (powerful), {大|おお}きめ (rather large), {機能的|きのうてき} (functional)
-- **Other (6)**: {極楽|ごくらく} (paradise), {所用|しょよう} (business/errand), {市民権|しみんけん} (citizenship), {打|う}つ{手|て}がない (no recourse), いちゃもん (complaint), {詭弁|きべん} (sophistry)
-- Added 2 new kanji to index: 勲, 詭
-- Removed 3 stale candidates (duplicate readings of existing entries)
 
 
 
