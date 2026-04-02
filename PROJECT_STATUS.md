@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 568)
+Added 30 new dictionary entries (IDs 21391-21420) from candidate_words.json. A diverse mix of practical vocabulary covering verbs, expressions, nouns, and adjectives useful for intermediate learners.
+
+- **Suru verbs (5)**: {加速|かそく}する (to accelerate), {下車|げしゃ}する (to alight), {反省|はんせい}する (to reflect/feel remorse), {組織化|そしきか} (systematization), {充足|じゅうそく} (sufficiency)
+- **Godan verbs (2)**: {込|こ}み{合|あ}う (to be crowded), {連|つ}れ{去|さ}る (to take away forcibly)
+- **Expressions (4)**: {声|こえ}を{出|だ}す (to speak up), {手|て}をつく (to place hands on ground), {息|いき}を{止|と}める (to hold one's breath), {申|もう}し{訳|わけ}ありません (I'm very sorry)
+- **Nouns (13)**: {朝方|あさがた} (early morning), {引|ひ}っ{張|ぱ}りだこ (in great demand), {辛|から}さ (spiciness), {数十|すうじゅう} (several tens), {自家用|じかよう} (private use), {新学年|しんがくねん} (new school year), モラル (morals), {東南|とうなん} (southeast), {孤立感|こりつかん} (feeling of isolation), {大盤振|おおばんぶ}る{舞|ま}い (lavish spending), お{得意様|とくいさま} (valued customer), {度量|どりょう} (magnanimity), {解析力|かいせきりょく} (analytical ability)
+- **Counter/noun (1)**: {一着|いっちゃく} (first place/one suit)
+- **Na-adjective (1)**: {不自然|ふしぜん}な (unnatural)
+- **Other nouns (4)**: {零点|れいてん} (zero points), {混合物|こんごうぶつ} (mixture), {拘留|こうりゅう} (detention), {感覚神経|かんかくしんけい} (sensory nerve)
+
 ### 2026-04-02 (Vocabulary Expansion - 17 New Entries, Session 567)
 Added 17 new dictionary entries (IDs 21374-21390) from candidate_words.json. Focused on practical verbs and expressions useful for intermediate learners.
 
@@ -99,16 +110,6 @@ Added 30 new dictionary entries (IDs 21284-21313) from candidate_words.json. A d
 - **Other**: {惜別|せきべつ} (reluctant farewell)
 - Added 1 new kanji to index: 猜
 - Removed 4 stale candidates (duplicates of existing entries)
-
-### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 563)
-Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A diverse mix of practical vocabulary covering daily life, weather, society, medicine, education, culture, and emotions.
-
-- **Nouns (12)**: {洗顔|せんがん} (face washing), {交通事故|こうつうじこ} (traffic accident), {交通機関|こうつうきかん} (transportation system), {猛吹雪|もうふぶき} (heavy blizzard), {樹氷|じゅひょう} (rime ice), {革製品|かわせいひん} (leather goods), {記入欄|きにゅうらん} (entry field), {和装|わそう} (Japanese dress), {軍服|ぐんぷく} (military uniform), {唱歌|しょうか} (school song), {情報公開|じょうほうこうかい} (information disclosure), {近況報告|きんきょうほうこく} (status update)
-- **Suru verbs (6)**: {無断欠席|むだんけっせき} (unexcused absence), {複雑化|ふくざつか} (complication), {高度化|こうどか} (advancement), {縫合|ほうごう} (suturing), {抜歯|ばっし} (tooth extraction), {過剰摂取|かじょうせっしゅ} (excessive intake), {因数分解|いんすうぶんかい} (factorization)
-- **Na-adjectives (3)**: {本質的|ほんしつてき} (essential), {平然|へいぜん} (nonchalant), {決然|けつぜん} (resolute)
-- **Adverbs (2)**: {毅然|きぜん}と (firmly), {率直|そっちょく}に (frankly)
-- **Expressions (4)**: {責任|せきにん}を{果|は}たす (to fulfill responsibility), {身|み}をすくめる (to shrink back), {顔|かお}をほころばせる (to beam), {場|ば}をわきまえる (to read the room)
-- **Other (1)**: {両目|りょうめ} (both eyes), {視界不良|しかいふりょう} (poor visibility)
 
 
 
