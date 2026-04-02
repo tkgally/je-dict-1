@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 28 New Entries, Session 579)
+Added 28 new dictionary entries (IDs 21677-21704) from candidate_words.json. A practical mix of commonly used vocabulary for intermediate learners including verbs, adjectives, nouns, and expressions.
+
+- **Suru verbs (10)**: {印刷|いんさつ}する (to print), {解散|かいさん}する (to disband), {集合|しゅうごう}する (to gather), {宣言|せんげん}する (to declare), {上昇|じょうしょう}する (to rise), {貢献|こうけん}する (to contribute), {敗北|はいぼく}する (to be defeated), {強調|きょうちょう}する (to emphasize), ぼんやりする (to be absent-minded), {帯電|たいでん} (electrification)
+- **Ichidan verb (1)**: {食|た}べ{過|す}ぎる (to overeat)
+- **Na-adjectives (2)**: {頑丈|がんじょう}な (sturdy), スリム (slim)
+- **Nouns (12)**: {暖|あたた}かさ (warmth), {純正|じゅんせい} (genuine), {代理店|だいりてん} (agency), {老婆心|ろうばしん} (motherly concern), {超絶|ちょうぜつ} (transcendent), {最後尾|さいこうび} (end of line), {過半|かはん} (majority), {別注|べっちゅう} (special order), {横腹|よこばら} (flank), {岩穴|いわあな} (cave), {打|う}ち{消|け}し (negation), {毒|どく}ガス (poison gas)
+- **Other (3)**: お{釜|かま} (pot/rear-end collision), {嘘|うそ}だろ (no way!), {値|あたい} (value)
+- Removed 28 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 578)
 Added 30 new dictionary entries (IDs 21647-21676) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners covering everyday life, sports, culture, medicine, fashion, and more.
 
@@ -96,16 +106,6 @@ Added 31 new dictionary entries (IDs 21571-21601) from candidate_words.json. A d
 - Added 3 new kanji to index: 截, 膳, 賂
 - Removed 31 candidates that now exist as entries; removed 1 stale candidate (働き甲斐, duplicate of 働きがい)
 
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 574)
-Added 30 new dictionary entries (IDs 21541-21570) from candidate_words.json. A diverse mix of common, useful vocabulary for intermediate learners.
-
-- **Na-adjectives (2)**: {肝心|かんじん} (essential/crucial), {逆説的|ぎゃくせつてき} (paradoxical)
-- **Godan verb (1)**: ほったらかす (to neglect/leave alone)
-- **Ichidan verb (1)**: {元気|げんき}づける (to cheer up/encourage)
-- **Expression (1)**: {歯|は}を{食|く}いしばる (to clench one's teeth/endure)
-- **Noun/verb-suru (7)**: {降下|こうか} (descent), {扶養|ふよう} (support/dependents), {消臭|しょうしゅう} (deodorizing), {精製|せいせい} (refining), {独習|どくしゅう} (self-study), {着服|ちゃくふく} (embezzlement), {間引|まび}き (thinning/reducing service)
-- **Nouns (18)**: {赤信号|あかしんごう} (red light), {青信号|あおしんごう} (green light), {口当|くちあ}たり (mouthfeel), {名産|めいさん} (local specialty), {勤|つと}め{先|さき} (workplace), {義務感|ぎむかん} (sense of duty), {全貌|ぜんぼう} (full picture), {大局|たいきょく} (big picture), {新語|しんご} (neologism), {命題|めいだい} (proposition), {賞品|しょうひん} (prize), {安定性|あんていせい} (stability), あがり{症|しょう} (stage fright), {区役所|くやくしょ} (ward office), {花鳥風月|かちょうふうげつ} (beauties of nature), {抗菌|こうきん} (antibacterial), {水位|すいい} (water level), {口伝|くちづた}え (word of mouth)
-- Removed 30 candidates that now exist as entries
 
 
 
