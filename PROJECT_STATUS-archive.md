@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 563)
+Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A diverse mix of practical vocabulary covering daily life, weather, society, medicine, education, culture, and emotions.
+
+- **Nouns (12)**: {洗顔|せんがん} (face washing), {交通事故|こうつうじこ} (traffic accident), {交通機関|こうつうきかん} (transportation system), {猛吹雪|もうふぶき} (heavy blizzard), {樹氷|じゅひょう} (rime ice), {革製品|かわせいひん} (leather goods), {記入欄|きにゅうらん} (entry field), {和装|わそう} (Japanese dress), {軍服|ぐんぷく} (military uniform), {唱歌|しょうか} (school song), {情報公開|じょうほうこうかい} (information disclosure), {近況報告|きんきょうほうこく} (status update)
+- **Suru verbs (6)**: {無断欠席|むだんけっせき} (unexcused absence), {複雑化|ふくざつか} (complication), {高度化|こうどか} (advancement), {縫合|ほうごう} (suturing), {抜歯|ばっし} (tooth extraction), {過剰摂取|かじょうせっしゅ} (excessive intake), {因数分解|いんすうぶんかい} (factorization)
+- **Na-adjectives (3)**: {本質的|ほんしつてき} (essential), {平然|へいぜん} (nonchalant), {決然|けつぜん} (resolute)
+- **Adverbs (2)**: {毅然|きぜん}と (firmly), {率直|そっちょく}に (frankly)
+- **Expressions (4)**: {責任|せきにん}を{果|は}たす (to fulfill responsibility), {身|み}をすくめる (to shrink back), {顔|かお}をほころばせる (to beam), {場|ば}をわきまえる (to read the room)
+- **Other (1)**: {両目|りょうめ} (both eyes), {視界不良|しかいふりょう} (poor visibility)
+
 ### 2026-03-31 (Vocabulary Expansion - 30 New Entries, Session 558)
 Added 30 new dictionary entries (IDs 21108-21137) from candidate_words.json. A diverse mix covering culture, food, movement, emotions, finance, daily life, and formal/literary vocabulary.
 
