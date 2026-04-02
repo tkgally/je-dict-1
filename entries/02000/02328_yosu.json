@@ -6,8 +6,93 @@
   "gloss": "to stop, to give up",
   "conjugation": {
     "type": "godan",
-    "ending": "す",
-    "stem": "よ"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "よす",
+        "negative": "よさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "よします",
+        "negative": "よしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "よした",
+        "negative": "よさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "よしました",
+        "negative": "よしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "よして",
+        "negative": "よさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "よしている",
+        "negative": "よしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "よしています",
+        "negative": "よしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "よしていた",
+        "negative": "よしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "よしていました",
+        "negative": "よしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "よせば",
+        "negative": "よさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "よしたら",
+        "negative": "よさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "よそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "よしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "よせる",
+        "negative": "よせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "よされる",
+        "negative": "よされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "よさせる",
+        "negative": "よさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "よせ",
+        "negative": "よすな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -134,10 +219,18 @@
     }
   ],
   "notes": "よす is a casual/colloquial verb meaning to stop or quit an action. Common in informal speech.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を particle: タバコをよす (quit smoking)\n\nREGISTER:\nCasual to rough. Often used in commands or strong suggestions. Not appropriate in formal settings.\n\nCOMMON PATTERNS:\n- よせ! / よせよ!: Stop it! (imperative, rough)\n- よしなさい: Stop that (softer command, often to children)\n- ～をよした{方|ほう}がいい: You'd better quit ~\n- よそう: Let's stop / I'll stop (volitional)\n\nSIMILAR WORDS:\n- やめる: to stop, quit (more neutral, widely usable)\n- {止|と}める: to stop (more formal, also physical stopping)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00909_yameru",
+      "reading": "やめる",
+      "headword": "やめる",
+      "label": "to stop/quit (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-03-29T03:03:58Z",
+    "modified": "2026-04-02T06:42:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -154,95 +247,5 @@
       ],
       "verb_class": "godan-su"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "よす",
-        "negative": "よさない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "よします",
-        "negative": "よしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "よした",
-        "negative": "よさなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "よしました",
-        "negative": "よしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "よして",
-        "negative": "よさなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "よしている",
-        "negative": "よしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "よしています",
-        "negative": "よしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "よしていた",
-        "negative": "よしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "よしていました",
-        "negative": "よしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "よせば",
-        "negative": "よさなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "よしたら",
-        "negative": "よさなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "よそう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "よしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "よせる",
-        "negative": "よせない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "よされる",
-        "negative": "よされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "よさせる",
-        "negative": "よさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "よせ",
-        "negative": "よすな"
-      }
-    ]
   }
 }

@@ -69,10 +69,32 @@
     }
   ],
   "notes": "{横切|よこぎ}る means to cross or traverse something horizontally, going from one side to the other.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を particle: Xを{横切|よこぎ}る\n\nCOMMON PATTERNS:\n- {道|みち}を{横切|よこぎ}る: to cross the road\n- {庭|にわ}を{横切|よこぎ}る: to cross the yard\n- {広場|ひろば}を{横切|よこぎ}る: to cross the square\n\nSIMILAR WORDS:\n- {横切|よこぎ}る: to cross (horizontally, from side to side)\n- {渡|わた}る: to cross (bridge, river, road)\n- {越|こ}える: to cross over, go beyond (mountains, borders)\n- {通|とお}る: to pass through\n\nETYMOLOGY:\n{横|よこ} (side/horizontal) + {切|き}る (to cut) - to 'cut across' something.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02441_wataru",
+      "reading": "わたる",
+      "headword": "{渡|わた}る",
+      "label": "to cross (bridge, river)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "02099_koeru",
+      "reading": "こえる",
+      "headword": "{越|こ}える",
+      "label": "to cross over, go beyond"
+    },
+    {
+      "type": "related",
+      "target_id": "01243_tooru",
+      "reading": "とおる",
+      "headword": "{通|とお}る",
+      "label": "to pass through"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:23:41Z",
-    "modified": "2026-03-29T03:03:58Z",
+    "modified": "2026-04-02T06:42:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
