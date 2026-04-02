@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 574)
+Added 30 new dictionary entries (IDs 21541-21570) from candidate_words.json. A diverse mix of common, useful vocabulary for intermediate learners.
+
+- **Na-adjectives (2)**: {肝心|かんじん} (essential/crucial), {逆説的|ぎゃくせつてき} (paradoxical)
+- **Godan verb (1)**: ほったらかす (to neglect/leave alone)
+- **Ichidan verb (1)**: {元気|げんき}づける (to cheer up/encourage)
+- **Expression (1)**: {歯|は}を{食|く}いしばる (to clench one's teeth/endure)
+- **Noun/verb-suru (7)**: {降下|こうか} (descent), {扶養|ふよう} (support/dependents), {消臭|しょうしゅう} (deodorizing), {精製|せいせい} (refining), {独習|どくしゅう} (self-study), {着服|ちゃくふく} (embezzlement), {間引|まび}き (thinning/reducing service)
+- **Nouns (18)**: {赤信号|あかしんごう} (red light), {青信号|あおしんごう} (green light), {口当|くちあ}たり (mouthfeel), {名産|めいさん} (local specialty), {勤|つと}め{先|さき} (workplace), {義務感|ぎむかん} (sense of duty), {全貌|ぜんぼう} (full picture), {大局|たいきょく} (big picture), {新語|しんご} (neologism), {命題|めいだい} (proposition), {賞品|しょうひん} (prize), {安定性|あんていせい} (stability), あがり{症|しょう} (stage fright), {区役所|くやくしょ} (ward office), {花鳥風月|かちょうふうげつ} (beauties of nature), {抗菌|こうきん} (antibacterial), {水位|すいい} (water level), {口伝|くちづた}え (word of mouth)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 19 New Entries, Session 573)
 Added 19 new dictionary entries (IDs 21521-21540) from candidate_words.json. A mix of everyday words, verbs, nouns, and expressions useful for intermediate learners.
 
@@ -98,19 +109,6 @@ Added 20 new dictionary entries (IDs 21451-21470) from candidate_words.json. A d
 - **Loanwords (2)**: トレーナー (sweatshirt/trainer), アウター (outerwear)
 - Removed 11 stale candidates (suru-verb duplicates of existing noun+verb-suru entries)
 - Removed 19 candidates that now exist as entries
-
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 569)
-Added 30 new dictionary entries (IDs 21421-21450) from candidate_words.json. A diverse mix of vocabulary covering verbs, nouns, adjectives, and adverbs useful for intermediate learners.
-
-- **Suru verbs (8)**: {中継|ちゅうけい}する (to relay/broadcast), {墜落|ついらく}する (to crash), {活用|かつよう}する (to utilize), {同行|どうこう}する (to accompany), {失墜|しっつい} (loss of reputation), {悲嘆|ひたん} (grief), {在籍|ざいせき} (enrollment), {成功|せいこう}する (to succeed)
-- **Ichidan verb (1)**: {特徴|とくちょう}づける (to characterize)
-- **Suru verb nouns (2)**: {夢想|むそう} (daydream), {失墜|しっつい} (loss of reputation)
-- **Na-adjective (2)**: {荘厳|そうごん}な (majestic), {無秩序|むちつじょ} (disorder/chaos)
-- **I-adjective (1)**: {慈悲深|じひぶか}い (compassionate)
-- **Adverbs (2)**: {楽々|らくらく} (easily), ちらりと (briefly/at a glance)
-- **Nouns (14)**: {泡沫|ほうまつ} (foam/ephemeral), {内緒話|ないしょばなし} (secret talk), {盗|ぬす}み{聞|ぎ}き (eavesdropping), {流|なが}し{読|よ}み (skimming), ご{褒美|ほうび} (reward), {決|き}まり{文句|もんく} (set phrase), {楽勝|らくしょう} (easy victory), {高級品|こうきゅうひん} (luxury goods), {交流会|こうりゅうかい} (exchange meeting), {略|りゃく} (abbreviation), {養父母|ようふぼ} (adoptive parents), {四国|しこく} (Shikoku), {恒常性|こうじょうせい} (homeostasis), {超高層|ちょうこうそう}ビル (skyscraper), {骨密度|こつみつど} (bone density)
-- Added 1 new kanji to index: 沫
-- Removed 30 candidates that now exist as entries
 
 
 
