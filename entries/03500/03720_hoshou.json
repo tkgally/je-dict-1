@@ -6,84 +6,6 @@
   "gloss": "compensation, reparation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{補償|ほしょう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "compensation, reparation",
-      "explanation": "Making up for loss, damage, or injury, often financially."
-    }
-  ],
-  "examples": [
-    {
-      "id": "03720_hoshou_ex1",
-      "japanese": "{被害者|ひがいしゃ}に{補償|ほしょう}{金|きん}が{支払|しはら}われた。",
-      "english": "Compensation was paid to the victims.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03720_hoshou_ex2",
-      "japanese": "{損害|そんがい}を{補償|ほしょう}する。",
-      "english": "To compensate for the damage.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03720_hoshou_ex3",
-      "japanese": "{労働|ろうどう}{災害|さいがい}の{補償|ほしょう}を{受|う}けた。",
-      "english": "I received compensation for the workplace injury.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "Used specifically for making up for damages or losses.\n\nCOMMON COLLOCATIONS:\n・{補償|ほしょう}する (to compensate)\n・{補償|ほしょう}{金|きん} (compensation money)\n・{損害|そんがい}{補償|ほしょう} (damage compensation)\n・{補償|ほしょう}{制度|せいど} (compensation system)\n・{被害|ひがい}{補償|ほしょう} (victim compensation)\n\nHOMOPHONES (all ほしょう):\n・{保証|ほしょう} - guarantee (for products, promises)\n・{保障|ほしょう} - security, protection (for rights, systems)\n・{補償|ほしょう} - compensation (for damages)\n\nMEMORY TIP:\n{補償|ほしょう} uses {補|ほ} (supplement/compensate) - filling in what was lost",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "ほしょう",
-      "headword": "{保証|ほしょう}",
-      "label": "warranty (homophone)",
-      "target_id": "03718_hoshou"
-    },
-    {
-      "type": "contrast",
-      "reading": "ほしょう",
-      "headword": "{保障|ほしょう}",
-      "label": "security (homophone)",
-      "target_id": "03719_hoshou"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-03-29T03:03:58Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -171,5 +93,78 @@
         "negative": "{補償|ほしょう}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "compensation, reparation",
+      "explanation": "Making up for loss, damage, or injury, often financially."
+    }
+  ],
+  "examples": [
+    {
+      "id": "03720_hoshou_ex1",
+      "japanese": "{被害者|ひがいしゃ}に{補償|ほしょう}{金|きん}が{支払|しはら}われた。",
+      "english": "Compensation was paid to the victims.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03720_hoshou_ex2",
+      "japanese": "{損害|そんがい}を{補償|ほしょう}する。",
+      "english": "To compensate for the damage.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03720_hoshou_ex3",
+      "japanese": "{労働|ろうどう}{災害|さいがい}の{補償|ほしょう}を{受|う}けた。",
+      "english": "I received compensation for the workplace injury.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Used specifically for making up for damages or losses.\n\nCOMMON COLLOCATIONS:\n・{補償|ほしょう}する (to compensate)\n・{補償|ほしょう}{金|きん} (compensation money)\n・{損害|そんがい}{補償|ほしょう} (damage compensation)\n・{補償|ほしょう}{制度|せいど} (compensation system)\n・{被害|ひがい}{補償|ほしょう} (victim compensation)\n\nHOMOPHONES (all ほしょう):\n・{保証|ほしょう} - guarantee (for products, promises)\n・{保障|ほしょう} - security, protection (for rights, systems)\n・{補償|ほしょう} - compensation (for damages)\n\nMEMORY TIP:\n{補償|ほしょう} uses {補|ほ} (supplement/compensate) - filling in what was lost",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-12T12:24:37Z",
+    "modified": "2026-04-02T11:57:29Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "03718_hoshou",
+      "reading": "ほしょう",
+      "headword": "{保証|ほしょう}",
+      "note": "warranty"
+    },
+    {
+      "target_id": "03719_hoshou",
+      "reading": "ほしょう",
+      "headword": "{保障|ほしょう}",
+      "note": "security"
+    }
+  ]
 }

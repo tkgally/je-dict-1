@@ -6,104 +6,6 @@
   "gloss": "departure (of vehicle)",
   "conjugation": {
     "type": "suru",
-    "prefix": "{発車|はっしゃ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "departure, starting off",
-      "explanation": "The act of a vehicle (train, bus, etc.) leaving a station or stop."
-    }
-  ],
-  "examples": [
-    {
-      "id": "03694_hassha_ex1",
-      "japanese": "{発車|はっしゃ}ベルが{鳴|な}った。",
-      "english": "The departure bell rang.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03694_hassha_ex2",
-      "japanese": "{電車|でんしゃ}は{間|ま}もなく{発車|はっしゃ}します。",
-      "english": "The train will depart shortly.",
-      "notes": "Common station announcement",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03694_hassha_ex3",
-      "japanese": "{発車|はっしゃ}{時刻|じこく}を{確認|かくにん}してください。",
-      "english": "Please check the departure time.",
-      "notes": "{発車|はっしゃ}{時刻|じこく} = departure time",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03694_hassha_ex4",
-      "japanese": "バスが{発車|はっしゃ}するまで、あと5{分|ふん}あります。",
-      "english": "There are five more minutes until the bus departs.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03694_hassha_ex5",
-      "japanese": "{急|いそ}いでホームに{向|む}かったが、{電車|でんしゃ}はもう{発車|はっしゃ}していた。",
-      "english": "I hurried to the platform, but the train had already departed.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "Used specifically for vehicles (trains, buses) leaving a station.\n\nCOMMON COLLOCATIONS:\n・{発車|はっしゃ}する (to depart)\n・{発車|はっしゃ}{時刻|じこく} (departure time)\n・{発車|はっしゃ}ベル (departure bell)\n・{発車|はっしゃ}ホーム (departure platform)\n・{発車|はっしゃ}{案内|あんない} (departure information)\n\nHOMOPHONE:\n・{発射|はっしゃ} - firing, shooting, launch (of projectiles, rockets)\n\nANTONYM:\n・{到着|とうちゃく} (arrival)",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "はっしゃ",
-      "headword": "{発射|はっしゃ}",
-      "label": "firing (homophone)",
-      "target_id": "03695_hassha"
-    },
-    {
-      "type": "antonym",
-      "reading": "とうちゃく",
-      "headword": "{到着|とうちゃく}",
-      "label": "arrival",
-      "target_id": "02526_touchaku"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-03-29T03:03:58Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "core",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "transportation"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -191,5 +93,92 @@
         "negative": "{発車|はっしゃ}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "departure, starting off",
+      "explanation": "The act of a vehicle (train, bus, etc.) leaving a station or stop."
+    }
+  ],
+  "examples": [
+    {
+      "id": "03694_hassha_ex1",
+      "japanese": "{発車|はっしゃ}ベルが{鳴|な}った。",
+      "english": "The departure bell rang.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex2",
+      "japanese": "{電車|でんしゃ}は{間|ま}もなく{発車|はっしゃ}します。",
+      "english": "The train will depart shortly.",
+      "notes": "Common station announcement",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex3",
+      "japanese": "{発車|はっしゃ}{時刻|じこく}を{確認|かくにん}してください。",
+      "english": "Please check the departure time.",
+      "notes": "{発車|はっしゃ}{時刻|じこく} = departure time",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex4",
+      "japanese": "バスが{発車|はっしゃ}するまで、あと5{分|ふん}あります。",
+      "english": "There are five more minutes until the bus departs.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03694_hassha_ex5",
+      "japanese": "{急|いそ}いでホームに{向|む}かったが、{電車|でんしゃ}はもう{発車|はっしゃ}していた。",
+      "english": "I hurried to the platform, but the train had already departed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Used specifically for vehicles (trains, buses) leaving a station.\n\nCOMMON COLLOCATIONS:\n・{発車|はっしゃ}する (to depart)\n・{発車|はっしゃ}{時刻|じこく} (departure time)\n・{発車|はっしゃ}ベル (departure bell)\n・{発車|はっしゃ}ホーム (departure platform)\n・{発車|はっしゃ}{案内|あんない} (departure information)\n\nHOMOPHONE:\n・{発射|はっしゃ} - firing, shooting, launch (of projectiles, rockets)\n\nANTONYM:\n・{到着|とうちゃく} (arrival)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "とうちゃく",
+      "headword": "{到着|とうちゃく}",
+      "label": "arrival",
+      "target_id": "02526_touchaku"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-12T12:24:37Z",
+    "modified": "2026-04-02T11:57:29Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "core",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "transportation"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
