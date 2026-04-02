@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 31 New Entries, Session 575)
+Added 31 new dictionary entries (IDs 21571-21601) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners covering law, food, culture, travel, work, and daily life.
+
+- **Godan verb (1)**: {踏|ふ}み{荒|あ}らす (to trample)
+- **Suru verbs (2)**: {哀願|あいがん}する (to plead), {改新|かいしん} (reform)
+- **Na-adjectives (2)**: {大仰|おおぎょう} (exaggerated), {直截|ちょくさい} (direct/blunt)
+- **Noun/verb-suru (6)**: {転任|てんにん} (transfer), {断交|だんこう} (severing relations), {膳立|ぜんだ}て (preparation), {下船|げせん} (disembarkation), {嘆願|たんがん} (petition), {贈賄|ぞうわい} (bribery)
+- **Nouns (20)**: {賄賂|わいろ} (bribe), {雪|ゆき}かき (snow shoveling), {替|か}え{歌|うた} (parody song), {途切|とぎ}れ (interruption), {呼|よ}び{鈴|りん} (doorbell), {置|お}き{引|び}き (theft of unattended items), シロップ (syrup), {走者|そうしゃ} (runner), {橙色|だいだいいろ} (orange color), {城壁|じょうへき} (castle wall), {進度|しんど} (rate of progress), パセリ (parsley), {精神科|せいしんか} (psychiatry), お{母|かあ}ちゃん (mom), {宅地|たくち} (residential land), {密偵|みってい} (spy), {仕入|しい}れ{値|ね} (wholesale cost), ジャスミン{茶|ちゃ} (jasmine tea), {振込|ふりこみ}{手数料|てすうりょう} (bank transfer fee), {座|すわ}り{方|かた} (way of sitting)
+- Added 3 new kanji to index: 截, 膳, 賂
+- Removed 31 candidates that now exist as entries; removed 1 stale candidate (働き甲斐, duplicate of 働きがい)
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 574)
 Added 30 new dictionary entries (IDs 21541-21570) from candidate_words.json. A diverse mix of common, useful vocabulary for intermediate learners.
 
@@ -95,20 +106,6 @@ Added 30 new dictionary entries (IDs 21471-21500) from candidate_words.json. A d
 - **Nouns (4)**: ほっぺた (cheek), {熱戦|ねっせん} (fierce match), {絶|た}え{間|ま} (pause/gap), {高潮|こうちょう} (climax)
 - **Other (2)**: こういう (this kind of), はいはい (yes yes/baby crawling)
 - Removed 57 stale candidates (suru-verb duplicates, wrong readings, entries already existing)
-
-### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 570)
-Added 20 new dictionary entries (IDs 21451-21470) from candidate_words.json. A diverse mix of verbs, adjectives, adverbs, expressions, and nouns useful for intermediate learners.
-
-- **Suru verbs (5)**: {感心|かんしん}する (to be impressed), {徹底|てってい}する (to be thorough), {干渉|かんしょう}する (to interfere), しっかりする (to be steady/firm), ぽかんとする (to look blank)
-- **I-adjectives (2)**: {憎|にく}たらしい (detestable), {腹立|はらだ}たしい (infuriating)
-- **Godan verb (1)**: {上|のぼ}る (to go up/amount to)
-- **Adverb (1)**: みるみる (rapidly, before one's eyes)
-- **Na-adjective (2)**: わんぱくな (naughty/mischievous), {平均的|へいきんてき}な (average/typical)
-- **Expressions (2)**: ため{息|いき}をつく (to sigh), {肩|かた}を{落|お}とす (to be dejected)
-- **Nouns (5)**: ファイト (fighting spirit/go for it!), {混入|こんにゅう} (contamination), {平均点|へいきんてん} (average score), {最大級|さいだいきゅう} (largest-class), {宣伝文句|せんでんもんく} (advertising slogan)
-- **Loanwords (2)**: トレーナー (sweatshirt/trainer), アウター (outerwear)
-- Removed 11 stale candidates (suru-verb duplicates of existing noun+verb-suru entries)
-- Removed 19 candidates that now exist as entries
 
 
 
