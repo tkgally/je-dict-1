@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 577)
+Added 20 new dictionary entries (IDs 21627-21646) from candidate_words.json. A thematic set focused on emotions, states of mind, and expressive vocabulary useful for intermediate learners.
+
+- **Onomatopoeia/suru verbs (6)**: ドキドキする (nervous/excited), ふらふらする (dizzy/wander), おどおどする (timid), びくびくする (apprehensive), うっとりする (entranced), {敬服|けいふく}する (to admire deeply)
+- **Ichidan verbs (2)**: うろたえる (to be flustered), {巻|ま}き{込|こ}まれる (to be caught up in)
+- **Godan verb (1)**: {立|た}ち{会|あ}う (to be present at)
+- **Na-adjectives (2)**: {穏健|おんけん} (moderate), {重篤|じゅうとく} (critical/grave)
+- **I-adjective (1)**: {別|わか}れ{惜|お}しい (reluctant to part)
+- **Nouns (2)**: {本格|ほんかく} (full-scale/authentic), {原油|げんゆ} (crude oil), {拒否|きょひ}{反応|はんのう} (rejection reaction)
+- **Adverb (1)**: {粛然|しゅくぜん} (solemnly)
+- **Expressions (3)**: ひょっとしたら (perhaps), {涼|すず}しい{顔|かお} (nonchalant look), {肝|きも}を{冷|ひ}やす (to be terrified), {先|さき}を{越|こ}される (to be beaten to it)
+
 ### 2026-04-02 (Vocabulary Expansion - 25 New Entries, Session 576)
 Added 25 new dictionary entries (IDs 21602-21626) from candidate_words.json. A practical mix of everyday vocabulary covering transportation, communication, health, education, nature, food, and time expressions.
 
@@ -93,14 +105,6 @@ Added 19 new dictionary entries (IDs 21521-21540) from candidate_words.json. A m
 - **Na-adjective/noun (1)**: {過干渉|かかんしょう} (overinvolvement)
 - Removed 19 candidates that now exist as entries
 
-### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 572)
-Added 20 new dictionary entries (IDs 21501-21520) from candidate_words.json. A mix of literary, formal, and cultural vocabulary.
-
-- **Nouns (17)**: {邂逅|かいこう} (chance meeting), {寸分|すんぶん} (a tiny bit), {夜涼|よすず}み (evening cool), {融点|ゆうてん} (melting point), {前文|ぜんぶん} (preamble), あとがき (afterword), {試料|しりょう} (sample), {懇親|こんしん} (friendly relations), {虚実|きょじつ} (truth and falsehood), {名店|めいてん} (famous shop), {旧家|きゅうか} (old family), {本年|ほんねん} (this year), {離別|りべつ} (separation), {死活|しかつ} (life and death), ルビ (ruby text), {季節風|きせつふう} (seasonal wind), {大|おお}ぼら (tall tale), {虚言|きょげん} (lie)
-- **Na-adjective (1)**: {陰鬱|いんうつ} (gloomy)
-- **Adverb (1)**: {露|あらわ}に (openly)
-- Added 2 new kanji to index: 邂, 逅
-- Removed 19 candidates that now exist as entries
 
 
 
