@@ -5,9 +5,94 @@
   "part_of_speech": "noun (verbal)",
   "gloss": "birth",
   "conjugation": {
-    "type": "godan",
-    "ending": "う",
-    "stem": "{誕生|たんじょう"
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{誕生|たんじょう}する",
+        "negative": "{誕生|たんじょう}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{誕生|たんじょう}します",
+        "negative": "{誕生|たんじょう}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{誕生|たんじょう}した",
+        "negative": "{誕生|たんじょう}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{誕生|たんじょう}しました",
+        "negative": "{誕生|たんじょう}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{誕生|たんじょう}して",
+        "negative": "{誕生|たんじょう}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{誕生|たんじょう}している",
+        "negative": "{誕生|たんじょう}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{誕生|たんじょう}しています",
+        "negative": "{誕生|たんじょう}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{誕生|たんじょう}していた",
+        "negative": "{誕生|たんじょう}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{誕生|たんじょう}していました",
+        "negative": "{誕生|たんじょう}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{誕生|たんじょう}すれば",
+        "negative": "{誕生|たんじょう}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{誕生|たんじょう}したら",
+        "negative": "{誕生|たんじょう}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{誕生|たんじょう}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{誕生|たんじょう}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{誕生|たんじょう}できる",
+        "negative": "{誕生|たんじょう}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{誕生|たんじょう}される",
+        "negative": "{誕生|たんじょう}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{誕生|たんじょう}させる",
+        "negative": "{誕生|たんじょう}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{誕生|たんじょう}しろ",
+        "negative": "{誕生|たんじょう}するな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -124,10 +209,18 @@
     }
   ],
   "notes": "{誕生|たんじょう} means birth or the creation/beginning of something new.\n\nMEANINGS:\n1. Birth (of a person): ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦の→の：09472_no⟧{誕生|たんじょう}\n2. Creation/beginning (figurative): ⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧{誕生|たんじょう}\n\nVERBAL USE:\n{誕生|たんじょう}する: to be born, to come into existence\n\nCOMMON COMPOUNDS:\n- ⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧: birthday\n- {誕生|たんじょう}パーティー: birthday party\n- ⟦{生|う}まれる→生まれる：00905_umareru⟧: to be born (more common verb)\n\nCOMMON EXPRESSIONS:\n- お⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧おめでとう: happy birthday\n- ⟦{新記録|しんきろく}→新記録：16705_shinkiroku⟧⟦が→が：00051_ga⟧{誕生|たんじょう}した: a new record was set\n\nNOTE:\nFor everyday \"birth,\" ⟦{生|う}まれる→生まれる：00905_umareru⟧ is more common. {誕生|たんじょう} is more formal/literary.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02910_tanjoubi",
+      "reading": "たんじょうび",
+      "headword": "{誕生日|たんじょうび}",
+      "label": "birthday"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:28:49Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-04-02T05:09:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -142,95 +235,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{誕生|たんじょう}する",
-        "negative": "{誕生|たんじょう}しない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{誕生|たんじょう}します",
-        "negative": "{誕生|たんじょう}しません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{誕生|たんじょう}した",
-        "negative": "{誕生|たんじょう}しなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{誕生|たんじょう}しました",
-        "negative": "{誕生|たんじょう}しませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{誕生|たんじょう}して",
-        "negative": "{誕生|たんじょう}しなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{誕生|たんじょう}している",
-        "negative": "{誕生|たんじょう}していない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{誕生|たんじょう}しています",
-        "negative": "{誕生|たんじょう}していません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{誕生|たんじょう}していた",
-        "negative": "{誕生|たんじょう}していなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{誕生|たんじょう}していました",
-        "negative": "{誕生|たんじょう}していませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{誕生|たんじょう}すれば",
-        "negative": "{誕生|たんじょう}しなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{誕生|たんじょう}したら",
-        "negative": "{誕生|たんじょう}しなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{誕生|たんじょう}しよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{誕生|たんじょう}しましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{誕生|たんじょう}できる",
-        "negative": "{誕生|たんじょう}できない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{誕生|たんじょう}される",
-        "negative": "{誕生|たんじょう}されない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{誕生|たんじょう}させる",
-        "negative": "{誕生|たんじょう}させない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{誕生|たんじょう}しろ",
-        "negative": "{誕生|たんじょう}するな"
-      }
-    ]
   }
 }
