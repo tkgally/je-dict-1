@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 566)
+Added 30 new dictionary entries (IDs 21344-21373) from candidate_words.json. A thematic mix spanning nature/weather, food/cooking, wedding vocabulary, and abstract concepts.
+
+- **Nature/weather nouns (5)**: {極寒|ごっかん} (extreme cold), {朝霧|あさぎり} (morning fog), {夕靄|ゆうもや} (evening haze), {冷気|れいき} (cold air), さざなみ (ripples)
+- **Food/cooking nouns (6)**: {甘露煮|かんろに} (candied/simmered in sweet syrup), {味噌煮|みそに} (simmered in miso), {丸焼|まるや}き (whole roast), {細巻|ほそま}き (thin sushi roll), {出汁巻|だしま}き (dashi omelette), {固|かた}ゆで (hard-boiled)
+- **Na-adjectives (3)**: {清涼|せいりょう} (cool and refreshing), {急峻|きゅうしゅん} (steep/precipitous), {無骨|ぶこつ} (rough/unsophisticated)
+- **Suru verbs (3)**: {貫通|かんつう} (penetration), {熟知|じゅくち} (thorough knowledge), {凝視|ぎょうし} (staring intently)
+- **Godan verb (1)**: {嫉|そね}む (to envy/begrudge)
+- **Cultural/other nouns (6)**: {甘|あま}さ (sweetness/leniency), {花婿|はなむこ} (groom), {婚礼|こんれい} (wedding ceremony), {和尚|おしょう} (Buddhist priest), {甘露|かんろ} (sweet dew/nectar), {勉強部屋|べんきょうべや} (study room)
+- **Other (6)**: ガチンコ (for real/serious fight), {手際|てぎわ}よく (skillfully), {九死一生|きゅうしいっしょう} (narrow escape from death), {節食|せっしょく} (dietary restraint), {挽|ひ}きたて (freshly ground)
+- Added 1 new kanji to index: 峻
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
 Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A practical mix of common verbs, adjectives, nouns, and expressions useful for intermediate learners.
 
@@ -95,18 +108,6 @@ Added 27 new dictionary entries (IDs 21227-21253) from candidate_words.json. A d
 - **Other (6)**: {極楽|ごくらく} (paradise), {所用|しょよう} (business/errand), {市民権|しみんけん} (citizenship), {打|う}つ{手|て}がない (no recourse), いちゃもん (complaint), {詭弁|きべん} (sophistry)
 - Added 2 new kanji to index: 勲, 詭
 - Removed 3 stale candidates (duplicate readings of existing entries)
-
-### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 561)
-Added 30 new dictionary entries (IDs 21197-21226) from candidate_words.json. A diverse mix of practical vocabulary covering food, culture, nature, time, emotions, health, and everyday life.
-
-- **Nouns (22)**: {枝豆|えだまめ} (edamame), {落花生|らっかせい} (peanut), {顔文字|かおもじ} (kaomoji), {平常心|へいじょうしん} (composure), {小道|こみち} (path), {日光浴|にっこうよく} (sunbathing), {漁師|りょうし} (fisherman), {翌月|よくげつ} (following month), {前月|ぜんげつ} (previous month), {昔馴染|むかしなじ}み (old acquaintance), {揚|あ}げ{油|あぶら} (frying oil), {日|ひ}の{入|い}り (sunset), {所有者|しょゆうしゃ} (owner), {公私|こうし} (public and private), {小腹|こばら} (slight hunger), {練習問題|れんしゅうもんだい} (practice questions), {品質管理|ひんしつかんり} (quality control), {栄養失調|えいようしっちょう} (malnutrition), ボードゲーム (board game), {蚕|かいこ} (silkworm), {蛹|さなぎ} (pupa)
-- **Suru verbs (3)**: {察知|さっち} (sensing), {放心|ほうしん} (absent-mindedness), {酩酊|めいてい} (intoxication)
-- **Adverbs (2)**: ちらり (briefly), {瞬|またた}く{間|ま}に (in an instant)
-- **Na-adjectives (2)**: {肉厚|にくあつ} (thick/fleshy), {恒常的|こうじょうてき} (constant)
-- **Expression (1)**: {我|われ}を{忘|わす}れる (to lose oneself)
-- **Other (1)**: {生|う}まれつき (by nature)
-- Added 4 new kanji to index: 蚕, 蛹, 酊, 酩
-- Removed 30 candidates that now exist as entries
 
 
 
