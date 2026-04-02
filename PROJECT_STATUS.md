@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 580)
+Added 30 new dictionary entries (IDs 21705-21734) from candidate_words.json. A practical mix of vocabulary for intermediate learners including verbs, nouns, adverbs, and food terms.
+
+- **Suru verbs (5)**: {触発|しょくはつ}する (to trigger/inspire), {誘導|ゆうどう}する (to guide/induce), {回想|かいそう}する (to reminisce), {整理|せいり}する (to organize), {改変|かいへん} (alteration)
+- **Ichidan verb (1)**: {生|い}き{延|の}びる (to survive)
+- **Na-adjectives (2)**: {無敵|むてき} (invincible), {過小|かしょう} (too small)
+- **Nouns (16)**: {略語|りゃくご} (abbreviation), {輝|かがや}き (brilliance), {周期|しゅうき} (cycle), {漆黒|しっこく} (jet black), {初春|しょしゅん} (early spring), {料亭|りょうてい} (high-class restaurant), {降雨|こうう} (rainfall), {低気圧|ていきあつ} (low pressure), {文通|ぶんつう} (correspondence), {壇上|だんじょう} (on stage), {並立|へいりつ} (coexistence), {年頭|ねんとう} (start of year), {火照|ほて}り (flushing), {深度|しんど} (depth), {書類選考|しょるいせんこう} (document screening), {音域|おんいき} (vocal range)
+- **Adverbs/Other (4)**: たじたじ (flinching), まずまず (fairly), {風雨|ふうう} (wind and rain), {話術|わじゅつ} (speaking skill)
+- **Food (1)**: はんぺん (steamed fish cake)
+- **Culture (1)**: お{墓|はか} (grave)
+- Removed 10 stale duplicate candidates
+
 ### 2026-04-02 (Vocabulary Expansion - 28 New Entries, Session 579)
 Added 28 new dictionary entries (IDs 21677-21704) from candidate_words.json. A practical mix of commonly used vocabulary for intermediate learners including verbs, adjectives, nouns, and expressions.
 
