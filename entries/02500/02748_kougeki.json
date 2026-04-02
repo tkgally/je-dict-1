@@ -6,7 +6,93 @@
   "gloss": "attack, offense, assault",
   "conjugation": {
     "type": "suru",
-    "prefix": "{攻撃|こうげき}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{攻撃|こうげき}する",
+        "negative": "{攻撃|こうげき}しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{攻撃|こうげき}します",
+        "negative": "{攻撃|こうげき}しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{攻撃|こうげき}した",
+        "negative": "{攻撃|こうげき}しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{攻撃|こうげき}しました",
+        "negative": "{攻撃|こうげき}しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{攻撃|こうげき}して",
+        "negative": "{攻撃|こうげき}しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{攻撃|こうげき}している",
+        "negative": "{攻撃|こうげき}していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{攻撃|こうげき}しています",
+        "negative": "{攻撃|こうげき}していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{攻撃|こうげき}していた",
+        "negative": "{攻撃|こうげき}していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{攻撃|こうげき}していました",
+        "negative": "{攻撃|こうげき}していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{攻撃|こうげき}すれば",
+        "negative": "{攻撃|こうげき}しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{攻撃|こうげき}したら",
+        "negative": "{攻撃|こうげき}しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{攻撃|こうげき}しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{攻撃|こうげき}しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{攻撃|こうげき}できる",
+        "negative": "{攻撃|こうげき}できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{攻撃|こうげき}される",
+        "negative": "{攻撃|こうげき}されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{攻撃|こうげき}させる",
+        "negative": "{攻撃|こうげき}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{攻撃|こうげき}しろ",
+        "negative": "{攻撃|こうげき}するな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -123,10 +209,18 @@
     }
   ],
   "notes": "{攻撃|こうげき} means attack, both physical and verbal.\n\nCOMMON PATTERNS:\n- {攻撃|こうげき}する (to attack)\n- {攻撃|こうげき}を{受|う}ける (to receive an attack)\n- {攻撃|こうげき}を{加|くわ}える (to launch an attack)\n\nTYPES OF ATTACKS:\n- {軍事|ぐんじ}{攻撃|こうげき} (military attack)\n- サイバー{攻撃|こうげき} (cyberattack)\n- テロ{攻撃|こうげき} (terrorist attack)\n- {人身|じんしん}{攻撃|こうげき} (personal attack)\n\nCONTRAST:\n- {攻撃|こうげき} (offense, attack) ↔ {防御|ぼうぎょ}/{守備|しゅび} (defense)\n\nCOMPOUND WORDS:\n- {攻撃|こうげき}{的|てき} (aggressive)\n- {攻撃|こうげき}{力|りょく} (attacking power)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "14575_bougyo",
+      "reading": "ぼうぎょ",
+      "headword": "{防御|ぼうぎょ}",
+      "label": "defense"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:50:15Z",
-    "modified": "2026-03-29T03:03:58Z",
+    "modified": "2026-04-02T08:34:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -141,95 +235,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{攻撃|こうげき}する",
-        "negative": "{攻撃|こうげき}しない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{攻撃|こうげき}します",
-        "negative": "{攻撃|こうげき}しません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{攻撃|こうげき}した",
-        "negative": "{攻撃|こうげき}しなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{攻撃|こうげき}しました",
-        "negative": "{攻撃|こうげき}しませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{攻撃|こうげき}して",
-        "negative": "{攻撃|こうげき}しなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{攻撃|こうげき}している",
-        "negative": "{攻撃|こうげき}していない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{攻撃|こうげき}しています",
-        "negative": "{攻撃|こうげき}していません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{攻撃|こうげき}していた",
-        "negative": "{攻撃|こうげき}していなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{攻撃|こうげき}していました",
-        "negative": "{攻撃|こうげき}していませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{攻撃|こうげき}すれば",
-        "negative": "{攻撃|こうげき}しなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{攻撃|こうげき}したら",
-        "negative": "{攻撃|こうげき}しなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{攻撃|こうげき}しよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{攻撃|こうげき}しましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{攻撃|こうげき}できる",
-        "negative": "{攻撃|こうげき}できない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{攻撃|こうげき}される",
-        "negative": "{攻撃|こうげき}されない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{攻撃|こうげき}させる",
-        "negative": "{攻撃|こうげき}させない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{攻撃|こうげき}しろ",
-        "negative": "{攻撃|こうげき}するな"
-      }
-    ]
   }
 }
