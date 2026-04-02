@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 570)
+Added 20 new dictionary entries (IDs 21451-21470) from candidate_words.json. A diverse mix of verbs, adjectives, adverbs, expressions, and nouns useful for intermediate learners.
+
+- **Suru verbs (5)**: {感心|かんしん}する (to be impressed), {徹底|てってい}する (to be thorough), {干渉|かんしょう}する (to interfere), しっかりする (to be steady/firm), ぽかんとする (to look blank)
+- **I-adjectives (2)**: {憎|にく}たらしい (detestable), {腹立|はらだ}たしい (infuriating)
+- **Godan verb (1)**: {上|のぼ}る (to go up/amount to)
+- **Adverb (1)**: みるみる (rapidly, before one's eyes)
+- **Na-adjective (2)**: わんぱくな (naughty/mischievous), {平均的|へいきんてき}な (average/typical)
+- **Expressions (2)**: ため{息|いき}をつく (to sigh), {肩|かた}を{落|お}とす (to be dejected)
+- **Nouns (5)**: ファイト (fighting spirit/go for it!), {混入|こんにゅう} (contamination), {平均点|へいきんてん} (average score), {最大級|さいだいきゅう} (largest-class), {宣伝文句|せんでんもんく} (advertising slogan)
+- **Loanwords (2)**: トレーナー (sweatshirt/trainer), アウター (outerwear)
+- Removed 11 stale candidates (suru-verb duplicates of existing noun+verb-suru entries)
+- Removed 19 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 569)
 Added 30 new dictionary entries (IDs 21421-21450) from candidate_words.json. A diverse mix of vocabulary covering verbs, nouns, adjectives, and adverbs useful for intermediate learners.
 
@@ -85,19 +99,6 @@ Added 17 new dictionary entries (IDs 21374-21390) from candidate_words.json. Foc
 - Removed 1 stale candidate (軽視する — already existed as entry 18776)
 - Removed 5 candidates that now exist as entries
 
-### 2026-04-02 (Vocabulary Expansion - 29 New Entries, Session 566)
-Added 29 new dictionary entries (IDs 21344-21373) from candidate_words.json. A thematic mix spanning nature/weather, food/cooking, wedding vocabulary, and abstract concepts.
-
-- **Nature/weather nouns (5)**: {極寒|ごっかん} (extreme cold), {朝霧|あさぎり} (morning fog), {夕靄|ゆうもや} (evening haze), {冷気|れいき} (cold air), さざなみ (ripples)
-- **Food/cooking nouns (6)**: {甘露煮|かんろに} (candied/simmered in sweet syrup), {味噌煮|みそに} (simmered in miso), {丸焼|まるや}き (whole roast), {細巻|ほそま}き (thin sushi roll), {出汁巻|だしま}き (dashi omelette), {固|かた}ゆで (hard-boiled)
-- **Na-adjectives (3)**: {清涼|せいりょう} (cool and refreshing), {急峻|きゅうしゅん} (steep/precipitous), {無骨|ぶこつ} (rough/unsophisticated)
-- **Suru verbs (2)**: {貫通|かんつう} (penetration), {熟知|じゅくち} (thorough knowledge)
-- **Godan verb (1)**: {嫉|そね}む (to envy/begrudge)
-- **Cultural/other nouns (6)**: {甘|あま}さ (sweetness/leniency), {花婿|はなむこ} (groom), {婚礼|こんれい} (wedding ceremony), {和尚|おしょう} (Buddhist priest), {甘露|かんろ} (sweet dew/nectar), {勉強部屋|べんきょうべや} (study room)
-- **Other (6)**: ガチンコ (for real/serious fight), {手際|てぎわ}よく (skillfully), {九死一生|きゅうしいっしょう} (narrow escape from death), {節食|せっしょく} (dietary restraint), {挽|ひ}きたて (freshly ground)
-- Added 1 new kanji to index: 峻
-- Removed 1 duplicate candidate (凝視する — 凝視 already existed)
-- Removed 29 candidates that now exist as entries
 
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
 Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A practical mix of common verbs, adjectives, nouns, and expressions useful for intermediate learners.
