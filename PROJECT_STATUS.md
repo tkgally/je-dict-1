@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 25 New Entries, Session 576)
+Added 25 new dictionary entries (IDs 21602-21626) from candidate_words.json. A practical mix of everyday vocabulary covering transportation, communication, health, education, nature, food, and time expressions.
+
+- **Suru verbs (8)**: {挑戦|ちょうせん}する (to challenge), {感動|かんどう}する (to be moved), {転居|てんきょ}する (to move residence), {服用|ふくよう}する (to take medicine), {復学|ふくがく} (returning to school), {転送|てんそう}する (to forward), {散布|さんぷ}する (to spray), {複写|ふくしゃ}する (to copy)
+- **Godan verbs (2)**: {乗|の}り{越|こ}す (to ride past one's stop), {炊|た}き{上|あ}がる (to finish cooking rice)
+- **Ichidan verb (1)**: {言|い}いつける (to tell on; to order)
+- **Nouns (10)**: {客室|きゃくしつ} (guest room/cabin), {人気|にんき}{商品|しょうひん} (popular product), {普通|ふつう}{列車|れっしゃ} (local train), {乗務員|じょうむいん} (crew member), {航空|こうくう}{会社|がいしゃ} (airline), {山歩|やまある}き (mountain walking), {数週間|すうしゅうかん} (several weeks), {数時間|すうじかん} (several hours), {数分|すうふん} (several minutes), {白銀|はくぎん} (silver/snowy world)
+- **Na-adjective (1)**: {鋭利|えいり}な (sharp)
+- **Other nouns (3)**: {参拝者|さんぱいしゃ} (shrine visitor), {才人|さいじん} (talented person), {突然|とつぜん}に (suddenly)
+
 ### 2026-04-02 (Vocabulary Expansion - 31 New Entries, Session 575)
 Added 31 new dictionary entries (IDs 21571-21601) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners covering law, food, culture, travel, work, and daily life.
 
@@ -91,21 +101,6 @@ Added 20 new dictionary entries (IDs 21501-21520) from candidate_words.json. A m
 - **Adverb (1)**: {露|あらわ}に (openly)
 - Added 2 new kanji to index: 邂, 逅
 - Removed 19 candidates that now exist as entries
-
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 571)
-Added 30 new dictionary entries (IDs 21471-21500) from candidate_words.json. A diverse mix of verbs, expressions, adjectives, adverbs, onomatopoeia, and nouns useful for intermediate learners.
-
-- **Expressions (2)**: {口|くち}にする (to say/to eat), {目|め}にする (to come across)
-- **Godan verbs (4)**: {飲|の}み{干|ほ}す (to drain a drink), {言|い}い{合|あ}う (to argue/exchange words), {受|う}け{渡|わた}す (to hand over), ふらつく (to stagger/wander)
-- **Ichidan verbs (3)**: {振|ふ}りかける (to sprinkle), かき{消|き}える (to vanish), よろける (to stumble)
-- **Suru verb (1)**: {没|ぼっ}する (to sink/die/be absorbed)
-- **Noun/verb-suru (6)**: {助成|じょせい} (subsidy), {敢行|かんこう} (bold execution), {敬服|けいふく} (deep admiration), {離反|りはん} (defection), {見聞|みき}き (things seen and heard), {散乱|さんらん} (scattering)
-- **Adjectives (5)**: {清楚|せいそ} (neat and pure), あっぱれ (splendid), {朧|おぼろ}げ (faint/vague), {自在|じざい} (free/flexible), あったかい (warm, colloquial)
-- **Adverbs (2)**: やみくもに (blindly/recklessly), ぜいぜい (wheezing)
-- **Onomatopoeia (1)**: へなへな (weak/flimsy)
-- **Nouns (4)**: ほっぺた (cheek), {熱戦|ねっせん} (fierce match), {絶|た}え{間|ま} (pause/gap), {高潮|こうちょう} (climax)
-- **Other (2)**: こういう (this kind of), はいはい (yes yes/baby crawling)
-- Removed 57 stale candidates (suru-verb duplicates, wrong readings, entries already existing)
 
 
 
