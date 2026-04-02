@@ -6,88 +6,6 @@
   "gloss": "to move; to transfer",
   "conjugation": {
     "type": "godan",
-    "ending": "す",
-    "stem": "{移|うつ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to move; to transfer; to shift",
-      "explanation": "To move something from one place to another. The transitive counterpart to 移る (to move/change)."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to infect; to pass on (disease)",
-      "explanation": "To transmit an illness or disease to another person."
-    }
-  ],
-  "examples": [
-    {
-      "id": "10122_utsusu_ex1",
-      "japanese": "{箱|はこ}の{中身|なかみ}を{別|べつ}の{箱|はこ}に{移|うつ}した。",
-      "english": "I moved the contents of the box to another box.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "10122_utsusu_ex2",
-      "japanese": "{本社|ほんしゃ}を{東京|とうきょう}に{移|うつ}す。",
-      "english": "We will move the headquarters to Tokyo.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "10122_utsusu_ex3",
-      "japanese": "{風邪|かぜ}を{人|ひと}に{移|うつ}さないように{気|き}をつける。",
-      "english": "I'm careful not to pass my cold on to others.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "{移|うつ}す means to move or transfer something from one place or state to another. It also has the distinct meaning of passing on an illness.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {移|うつ}る (intransitive — to move, to shift)\n\nASPECT (ている):\n{移|うつ}している indicates the action of moving/transferring is in progress.\n\nCOMMON PATTERNS:\n- Xを〜に{移|うつ}す: to move X to ~\n- {視線|しせん}を{移|うつ}す: to shift one's gaze\n- {住|す}まいを{移|うつ}す: to relocate one's home\n- {風邪|かぜ}を{移|うつ}す: to pass on a cold\n\nNOTE:\nThe illness meaning (sense 2) uses the same kanji but is a separate usage. Be careful not to confuse with {写|うつ}す (to copy, to photograph) or {映|うつ}す (to reflect, to project).",
-  "metadata": {
-    "created": "2026-02-05T08:37:56Z",
-    "modified": "2026-03-29T04:19:45Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "movement"
-      ],
-      "verb_class": "godan-su"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "01227_utsusu",
-      "reading": "うつす",
-      "headword": "{写|うつ}す",
-      "note": "copy, photograph"
-    },
-    {
-      "target_id": "12963_utsusu",
-      "reading": "うつす",
-      "headword": "{映|うつ}す",
-      "note": "reflect, project"
-    }
-  ],
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -175,5 +93,88 @@
         "negative": "{移|うつ}すな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to move; to transfer; to shift",
+      "explanation": "To move something from one place to another. The transitive counterpart to 移る (to move/change)."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to infect; to pass on (disease)",
+      "explanation": "To transmit an illness or disease to another person."
+    }
+  ],
+  "examples": [
+    {
+      "id": "10122_utsusu_ex1",
+      "japanese": "{箱|はこ}の{中身|なかみ}を{別|べつ}の{箱|はこ}に{移|うつ}した。",
+      "english": "I moved the contents of the box to another box.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "10122_utsusu_ex2",
+      "japanese": "{本社|ほんしゃ}を{東京|とうきょう}に{移|うつ}す。",
+      "english": "We will move the headquarters to Tokyo.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "10122_utsusu_ex3",
+      "japanese": "{風邪|かぜ}を{人|ひと}に{移|うつ}さないように{気|き}をつける。",
+      "english": "I'm careful not to pass my cold on to others.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "{移|うつ}す means to move or transfer something from one place or state to another. It also has the distinct meaning of passing on an illness.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {移|うつ}る (intransitive — to move, to shift)\n\nASPECT (ている):\n{移|うつ}している indicates the action of moving/transferring is in progress.\n\nCOMMON PATTERNS:\n- Xを〜に{移|うつ}す: to move X to ~\n- {視線|しせん}を{移|うつ}す: to shift one's gaze\n- {住|す}まいを{移|うつ}す: to relocate one's home\n- {風邪|かぜ}を{移|うつ}す: to pass on a cold\n\nNOTE:\nThe illness meaning (sense 2) uses the same kanji but is a separate usage. Be careful not to confuse with {写|うつ}す (to copy, to photograph) or {映|うつ}す (to reflect, to project).",
+  "metadata": {
+    "created": "2026-02-05T08:37:56Z",
+    "modified": "2026-04-02T04:29:40Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "godan-su"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01227_utsusu",
+      "reading": "うつす",
+      "headword": "{写|うつ}す",
+      "note": "copy, photograph"
+    },
+    {
+      "target_id": "12963_utsusu",
+      "reading": "うつす",
+      "headword": "{映|うつ}す",
+      "note": "reflect, project"
+    },
+    {
+      "target_id": "01232_utsuru",
+      "reading": "うつる",
+      "headword": "{移|うつ}る",
+      "note": "intransitive"
+    }
+  ]
 }

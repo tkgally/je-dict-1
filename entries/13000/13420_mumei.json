@@ -24,7 +24,9 @@
       "english": "He was an unknown painter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13420_mumei_ex2",
@@ -32,7 +34,9 @@
       "english": "An unknown newcomer suddenly won the championship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13420_mumei_ex3",
@@ -40,7 +44,9 @@
       "english": "A small, obscure village suddenly became famous after being used as a filming location.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13420_mumei_ex4",
@@ -48,7 +54,9 @@
       "english": "An anonymous poem was discovered.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13420_mumei_ex5",
@@ -56,7 +64,9 @@
       "english": "The museum displays medieval paintings by anonymous artists.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13420_mumei_ex6",
@@ -64,21 +74,36 @@
       "english": "This sword is unsigned, but based on the quality of the blade, it is presumed to be the work of a master smith.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "GRAMMAR:\nUsed as a noun ({無名|むめい}) and as a no-adjective modifier ({無名|むめい}の).\n\nCONTRAST:\n{無名|むめい} (unknown/nameless) is the opposite of {有名|ゆうめい} (famous). The pair {無名|むめい}/{有名|ゆうめい} shares the same structure: {無|む}/{有|ゆう} (without/with) + {名|めい} (name/fame).\n\nSPECIAL USAGE:\nIn the context of Japanese swords, {無名|むめい} (also read むめい) specifically means the blade lacks the swordsmith's inscription ({銘|めい}) on the tang.\n\nCOMMON COLLOCATIONS:\n- {無名|むめい}の{画家|がか}: unknown painter\n- {無名|むめい}の{新人|しんじん}: unknown newcomer\n- {無名|むめい}{戦士|せんし}: unknown soldier\n- {無名|むめい}の{作者|さくしゃ}: anonymous author",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "01106_yuumei",
+      "reading": "ゆうめい",
+      "headword": "{有名|ゆうめい}",
+      "label": "famous"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:42:42Z",
-    "modified": "2026-02-24T11:42:42Z",
+    "modified": "2026-04-02T04:29:40Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

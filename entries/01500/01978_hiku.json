@@ -6,8 +6,93 @@
   "gloss": "to pull, to draw",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "{引|ひ}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{引|ひ}く",
+        "negative": "{引|ひ}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{引|ひ}きます",
+        "negative": "{引|ひ}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{引|ひ}いた",
+        "negative": "{引|ひ}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{引|ひ}きました",
+        "negative": "{引|ひ}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{引|ひ}いて",
+        "negative": "{引|ひ}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{引|ひ}いている",
+        "negative": "{引|ひ}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{引|ひ}いています",
+        "negative": "{引|ひ}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{引|ひ}いていた",
+        "negative": "{引|ひ}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{引|ひ}いていました",
+        "negative": "{引|ひ}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{引|ひ}けば",
+        "negative": "{引|ひ}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{引|ひ}いたら",
+        "negative": "{引|ひ}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{引|ひ}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{引|ひ}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{引|ひ}ける",
+        "negative": "{引|ひ}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{引|ひ}かれる",
+        "negative": "{引|ひ}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{引|ひ}かせる",
+        "negative": "{引|ひ}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{引|ひ}け",
+        "negative": "{引|ひ}くな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -179,10 +264,18 @@
     }
   ],
   "notes": "{引|ひ}く is a versatile godan verb with multiple meanings related to pulling, drawing, and subtracting.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: none (but contrast with {押|お}す 'to push')\n\nMEANING 1 - PULL/DRAW:\n- ドアを{引|ひ}く: to pull the door\n- {線|せん}を{引|ひ}く: to draw a line\n- {辞書|じしょ}を{引|ひ}く: to look up in a dictionary\n- {注意|ちゅうい}を{引|ひ}く: to draw attention\n\nMEANING 2 - SUBTRACT:\n- 5から3を{引|ひ}く: to subtract 3 from 5\n- {税|ぜい}を{引|ひ}く: to deduct tax\n\nMEANING 3 - CATCH (COLD):\n- {風邪|かぜ}を{引|ひ}く: to catch a cold\n\nNOTE: Different kanji exist: {弾|ひ}く (play instrument), {轢|ひ}く (run over).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02854_osu",
+      "reading": "おす",
+      "headword": "{押|お}す",
+      "label": "to push"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:43:30Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-04-02T04:29:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -210,95 +303,5 @@
       "headword": "{挽|ひ}く",
       "note": "grind"
     }
-  ],
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{引|ひ}く",
-        "negative": "{引|ひ}かない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{引|ひ}きます",
-        "negative": "{引|ひ}きません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{引|ひ}いた",
-        "negative": "{引|ひ}かなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{引|ひ}きました",
-        "negative": "{引|ひ}きませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{引|ひ}いて",
-        "negative": "{引|ひ}かなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{引|ひ}いている",
-        "negative": "{引|ひ}いていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{引|ひ}いています",
-        "negative": "{引|ひ}いていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{引|ひ}いていた",
-        "negative": "{引|ひ}いていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{引|ひ}いていました",
-        "negative": "{引|ひ}いていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{引|ひ}けば",
-        "negative": "{引|ひ}かなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{引|ひ}いたら",
-        "negative": "{引|ひ}かなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{引|ひ}こう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{引|ひ}きましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{引|ひ}ける",
-        "negative": "{引|ひ}けない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{引|ひ}かれる",
-        "negative": "{引|ひ}かれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{引|ひ}かせる",
-        "negative": "{引|ひ}かせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{引|ひ}け",
-        "negative": "{引|ひ}くな"
-      }
-    ]
-  }
+  ]
 }
