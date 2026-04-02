@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
+Added 30 new dictionary entries (IDs 21314-21343) from candidate_words.json. A practical mix of common verbs, adjectives, nouns, and expressions useful for intermediate learners.
+
+- **Suru verbs (12)**: {駆除|くじょ} (extermination), {分解|ぶんかい} (disassembly/decomposition), {撤去|てっきょ} (removal), {返金|へんきん} (refund), {返却|へんきゃく} (returning), {解消|かいしょう} (resolution), {停車|ていしゃ} (stopping), {回復|かいふく} (recovery), {拒否|きょひ} (refusal), {容認|ようにん} (tolerance), {離婚|りこん} (divorce), {湯煎|ゆせん} (water bath)
+- **Na-adjectives (4)**: {謙虚|けんきょ} (humble), {控|ひか}えめ (reserved), {高圧的|こうあつてき} (overbearing), {威圧的|いあつてき} (intimidating)
+- **Nouns (9)**: {表現力|ひょうげんりょく} (expressive ability), {未使用|みしよう} (unused), {断面|だんめん} (cross-section), {登山者|とざんしゃ} (mountaineer), {王座|おうざ} (throne), {愚|おろ}か{者|もの} (fool), {基本給|きほんきゅう} (base salary), {植|う}え{付|つ}け (planting), {収穫期|しゅうかくき} (harvest season)
+- **Godan verb (1)**: {取|と}り{逃|のが}す (to miss catching)
+- **Adverb (1)**: {一般的|いっぱんてき}に (generally)
+- **Expression (1)**: {構|かま}わない (don't mind)
+- **Other nouns (2)**: {作務衣|さむえ} (samue work clothes), {成長期|せいちょうき} (growth period)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 564)
 Added 30 new dictionary entries (IDs 21284-21313) from candidate_words.json. A diverse mix of practical vocabulary covering everyday language, formal expressions, idioms, grammar, and specialized terms.
 
@@ -96,18 +108,6 @@ Added 30 new dictionary entries (IDs 21197-21226) from candidate_words.json. A d
 - Added 4 new kanji to index: 蚕, 蛹, 酊, 酩
 - Removed 30 candidates that now exist as entries
 
-### 2026-03-31 (Vocabulary Expansion - 29 New Entries, Session 560)
-Added 29 new dictionary entries (IDs 21168-21196) from candidate_words.json. A diverse mix covering time, safety, language, anatomy, nature, culture, fashion, food, and more.
-
-- **Nouns (20)**: {幼少期|ようしょうき} (childhood), {防火|ぼうか} (fire prevention), {語法|ごほう} (diction), {気管|きかん} (windpipe), {日照|にっしょう} (sunshine), {見開|みひら}き (two-page spread), {村|むら}おこし (village revitalization), {渡|わた}し{舟|ぶね} (ferryboat), {公有|こうゆう} (public ownership), {兄嫁|あによめ} (sister-in-law), {橙|だいだい} (bitter orange), {柄物|がらもの} (patterned item), {回転|かいてん}ドア (revolving door), {保存|ほぞん}{容器|ようき} (storage container), {当|あ}て{推量|ずいりょう} (guesswork), {忌日|きじつ} (death anniversary), {密告者|みっこくしゃ} (informer), {猛寒|もうかん} (severe cold), {名校|めいこう} (famous school), {間諜|かんちょう} (spy)
-- **Suru verbs (2)**: {補水|ほすい} (rehydration), {断煙|だんえん} (quitting smoking)
-- **Na-adjectives (2)**: {堅固|けんご} (solid/firm), {儚|はかな}げ (seemingly fragile)
-- **Noun/suffix (1)**: {圏|けん} (zone/sphere)
-- **Noun/no-adjective (1)**: {対話型|たいわがた} (interactive)
-- **Expression (1)**: {一丸|いちがん}となって (as one)
-- **Other (2)**: {感謝|かんしゃ}{感激|かんげき} (deeply grateful), {綿入|わたい}れ (padded garment)
-- Added 1 new kanji to index: 橙
-- Removed 29 candidates that now exist as entries
 
 
 
