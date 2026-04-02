@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 572)
+Added 20 new dictionary entries (IDs 21501-21520) from candidate_words.json. A mix of literary, formal, and cultural vocabulary.
+
+- **Nouns (17)**: {邂逅|かいこう} (chance meeting), {寸分|すんぶん} (a tiny bit), {夜涼|よすず}み (evening cool), {融点|ゆうてん} (melting point), {前文|ぜんぶん} (preamble), あとがき (afterword), {試料|しりょう} (sample), {懇親|こんしん} (friendly relations), {虚実|きょじつ} (truth and falsehood), {名店|めいてん} (famous shop), {旧家|きゅうか} (old family), {本年|ほんねん} (this year), {離別|りべつ} (separation), {死活|しかつ} (life and death), ルビ (ruby text), {季節風|きせつふう} (seasonal wind), {大|おお}ぼら (tall tale), {虚言|きょげん} (lie)
+- **Na-adjective (1)**: {陰鬱|いんうつ} (gloomy)
+- **Adverb (1)**: {露|あらわ}に (openly)
+- Added 2 new kanji to index: 邂, 逅
+- Removed 19 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 571)
 Added 30 new dictionary entries (IDs 21471-21500) from candidate_words.json. A diverse mix of verbs, expressions, adjectives, adverbs, onomatopoeia, and nouns useful for intermediate learners.
 
@@ -104,15 +113,6 @@ Added 30 new dictionary entries (IDs 21391-21420) from candidate_words.json. A d
 - **Na-adjective (1)**: {不自然|ふしぜん}な (unnatural)
 - **Other nouns (4)**: {零点|れいてん} (zero points), {混合物|こんごうぶつ} (mixture), {拘留|こうりゅう} (detention), {感覚神経|かんかくしんけい} (sensory nerve)
 
-### 2026-04-02 (Vocabulary Expansion - 17 New Entries, Session 567)
-Added 17 new dictionary entries (IDs 21374-21390) from candidate_words.json. Focused on practical verbs and expressions useful for intermediate learners.
-
-- **Suru verbs (10)**: {加速|かそく} (to accelerate), {公表|こうひょう} (to announce publicly), {依頼|いらい} (to request), {対面|たいめん} (to meet face-to-face), {白状|はくじょう} (to confess), {仲介|ちゅうかい} (to mediate), {流入|りゅうにゅう} (to flow in), {追及|ついきゅう} (to press for answers), {詰問|きつもん} (to interrogate), {出力|しゅつりょく} (to output), {習熟|しゅうじゅく} (to become proficient), {注文|ちゅうもん} (to order)
-- **Godan verbs (3)**: {沸|わ}き{立|た}つ (to boil up/surge), {連|つ}れ{込|こ}む (to bring someone in), {誘|さそ}い{出|だ}す (to lure out)
-- **Ichidan verb (1)**: {見下|みさ}げる (to look down on)
-- **Expression (1)**: {後|あと}を{追|お}う (to follow after)
-- Removed 1 stale candidate (軽視する — already existed as entry 18776)
-- Removed 5 candidates that now exist as entries
 
 
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 565)
