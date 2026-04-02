@@ -64,10 +64,32 @@
     }
   ],
   "notes": "{昼食|ちゅうしょく} is a formal word for lunch.\n\nCOMMON PATTERNS:\n- {昼食|ちゅうしょく}を{取|と}る (have lunch - formal)\n- {昼食|ちゅうしょく}{時間|じかん} (lunch time)\n- {昼食|ちゅうしょく}{休憩|きゅうけい} (lunch break)\n\nSIMILAR WORDS:\n- {昼|ひる}ご{飯|はん}: lunch (casual)\n- {昼食|ちゅうしょく}: lunch (formal)\n- ランチ: lunch (loanword, casual)\n- お{昼|ひる}: lunch (polite casual)\n\nMEAL TERMS:\n- {朝食|ちょうしょく}: breakfast (formal)\n- {昼食|ちゅうしょく}: lunch (formal)\n- {夕食|ゆうしょく}: dinner (formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02950_hirugohan",
+      "reading": "ひるごはん",
+      "headword": "{昼|ひる}ご{飯|はん}",
+      "label": "lunch (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "03122_choushoku",
+      "reading": "ちょうしょく",
+      "headword": "{朝食|ちょうしょく}",
+      "label": "breakfast"
+    },
+    {
+      "type": "related",
+      "target_id": "03006_yuushoku",
+      "reading": "ゆうしょく",
+      "headword": "{夕食|ゆうしょく}",
+      "label": "dinner"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-03-13T23:04:23Z",
+    "modified": "2026-04-02T05:09:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {

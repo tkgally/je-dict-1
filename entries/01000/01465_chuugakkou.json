@@ -64,10 +64,25 @@
     }
   ],
   "notes": "{中学校|ちゅうがっこう} is the standard term for junior high school in Japan's education system.\n\nABBREVIATION:\n⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧ (commonly used in conversation)\n\nJAPANESE SCHOOL SYSTEM:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧: elementary (6 years, ages 6-12)\n- {中学校|ちゅうがっこう}: junior high (3 years, ages 12-15)\n- ⟦{高校|こうこう}→高校：01083_koukou⟧/⟦{高等学校|こうとうがっこう}→高等学校：02997_koutougakkou⟧: high school (3 years, ages 15-18)\n\nRELATED TERMS:\n- ⟦{中学生|ちゅうがくせい}→中学生：10973_chuugakusei⟧: junior high student\n- ⟦{中学|ちゅうがく}→中学：03477_chuugaku⟧{一年生|いちねんせい}: first-year JHS student\n\nNOTE:\nJunior high is compulsory education in Japan.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01055_shougakkou",
+      "reading": "しょうがっこう",
+      "headword": "{小学校|しょうがっこう}",
+      "label": "elementary school"
+    },
+    {
+      "type": "related",
+      "target_id": "01083_koukou",
+      "reading": "こうこう",
+      "headword": "{高校|こうこう}",
+      "label": "high school"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:31:12Z",
-    "modified": "2026-03-11T12:01:45Z",
+    "modified": "2026-04-02T05:09:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -80,5 +95,13 @@
         "education"
       ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "03477_chuugaku",
+      "reading": "ちゅうがく",
+      "headword": "{中学|ちゅうがく}",
+      "note": "abbreviation"
+    }
+  ]
 }

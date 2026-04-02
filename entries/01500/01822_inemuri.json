@@ -6,7 +6,93 @@
   "gloss": "dozing, nodding off",
   "conjugation": {
     "type": "suru",
-    "prefix": "{居眠|いねむ}り"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{居眠|いねむ}りする",
+        "negative": "{居眠|いねむ}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{居眠|いねむ}りします",
+        "negative": "{居眠|いねむ}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{居眠|いねむ}りした",
+        "negative": "{居眠|いねむ}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{居眠|いねむ}りしました",
+        "negative": "{居眠|いねむ}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{居眠|いねむ}りして",
+        "negative": "{居眠|いねむ}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{居眠|いねむ}りしている",
+        "negative": "{居眠|いねむ}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{居眠|いねむ}りしています",
+        "negative": "{居眠|いねむ}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{居眠|いねむ}りしていた",
+        "negative": "{居眠|いねむ}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{居眠|いねむ}りしていました",
+        "negative": "{居眠|いねむ}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{居眠|いねむ}りすれば",
+        "negative": "{居眠|いねむ}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{居眠|いねむ}りしたら",
+        "negative": "{居眠|いねむ}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{居眠|いねむ}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{居眠|いねむ}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{居眠|いねむ}りできる",
+        "negative": "{居眠|いねむ}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{居眠|いねむ}りされる",
+        "negative": "{居眠|いねむ}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{居眠|いねむ}りさせる",
+        "negative": "{居眠|いねむ}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{居眠|いねむ}りしろ",
+        "negative": "{居眠|いねむ}りするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -123,10 +209,18 @@
     }
   ],
   "notes": "{居眠|いねむ}り refers to dozing while seated or in public.\n\nCOMMON PATTERNS:\n- {居眠|いねむ}りする (to doze off)\n- {居眠|いねむ}りをする (to take a nap while seated)\n- {居眠|いねむ}り{運転|うんてん} (drowsy driving)\n\nCULTURAL NOTE:\n- いねむり (napping in public) is relatively accepted in Japan\n- Common on trains, in meetings, etc.\n- Seen as a sign of working hard/being tired\n\nRELATED:\n- {昼寝|ひるね}: afternoon nap (intentional)\n- うとうとする: to doze, to drowse",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00106_hirune",
+      "reading": "ひるね",
+      "headword": "{昼寝|ひるね}",
+      "label": "nap (intentional)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-04-02T05:09:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -141,95 +235,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{居眠|いねむ}りする",
-        "negative": "{居眠|いねむ}りしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{居眠|いねむ}りします",
-        "negative": "{居眠|いねむ}りしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{居眠|いねむ}りした",
-        "negative": "{居眠|いねむ}りしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{居眠|いねむ}りしました",
-        "negative": "{居眠|いねむ}りしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{居眠|いねむ}りして",
-        "negative": "{居眠|いねむ}りしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{居眠|いねむ}りしている",
-        "negative": "{居眠|いねむ}りしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{居眠|いねむ}りしています",
-        "negative": "{居眠|いねむ}りしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{居眠|いねむ}りしていた",
-        "negative": "{居眠|いねむ}りしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{居眠|いねむ}りしていました",
-        "negative": "{居眠|いねむ}りしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{居眠|いねむ}りすれば",
-        "negative": "{居眠|いねむ}りしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{居眠|いねむ}りしたら",
-        "negative": "{居眠|いねむ}りしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{居眠|いねむ}りしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{居眠|いねむ}りしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{居眠|いねむ}りできる",
-        "negative": "{居眠|いねむ}りできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{居眠|いねむ}りされる",
-        "negative": "{居眠|いねむ}りされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{居眠|いねむ}りさせる",
-        "negative": "{居眠|いねむ}りさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{居眠|いねむ}りしろ",
-        "negative": "{居眠|いねむ}りするな"
-      }
-    ]
   }
 }
