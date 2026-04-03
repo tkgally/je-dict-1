@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-03-31
+**Last updated**: 2026-04-03
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 22 New Entries, Session 2)
+Added 22 new dictionary entries (IDs 21757-21778) from candidate_words.json. A diverse mix including emotion words, food terms, politics, grammar, and practical vocabulary.
+
+- **Suru verbs (5)**: {失望|しつぼう}する (to be disappointed), がっかりする (to be let down), {奮起|ふんき}する (to rouse oneself), {伝搬|でんぱん} (propagation), {修繕費|しゅうぜんひ} (repair cost - noun only)
+- **Godan verbs (2)**: {弔|とむら}う (to mourn), {嘘|うそ}をつく (to tell a lie)
+- **I-adjectives (2)**: {根気強|こんきづよ}い (persevering), {飲|の}みやすい (easy to drink)
+- **Nouns (11)**: {盛|も}り{合|あ}わせ (assorted platter), {水無月|みなづき} (June/wagashi), {受動態|じゅどうたい} (passive voice), {重油|じゅうゆ} (heavy oil), {舞踊家|ぶようか} (dancer), {地方自治|ちほうじち} (local self-government), {集客力|しゅうきゃくりょく} (drawing power), {��似性|るいじせい} (similarity), {同窓生|どうそうせい} (alumnus), {就労|しゅうろう}ビザ (work visa), {鳥小屋|とりごや} (birdhouse)
+- **Politics (2)**: {君主制|くんしゅせい} (monarchy), {独裁制|どくさいせい} (dictatorship)
+- 1 new kanji (弔) assigned ID 02644
+- Removed 22 candidates that now exist as entries
+
 ### 2026-04-03 (Vocabulary Expansion - 22 New Entries)
 Added 22 new dictionary entries (IDs 21735-21756) from candidate_words.json. A practical mix including suru verbs, nouns, a godan verb, and an expression.
 
@@ -94,17 +105,6 @@ Added 30 new dictionary entries (IDs 21647-21676) from candidate_words.json. A d
 - Added 1 new kanji to index: 噺
 - Removed 30 candidates that now exist as entries
 
-### 2026-04-02 (Vocabulary Expansion - 20 New Entries, Session 577)
-Added 20 new dictionary entries (IDs 21627-21646) from candidate_words.json. A thematic set focused on emotions, states of mind, and expressive vocabulary useful for intermediate learners.
-
-- **Onomatopoeia/suru verbs (6)**: ドキドキする (nervous/excited), ふらふらする (dizzy/wander), おどおどする (timid), びくびくする (apprehensive), うっとりする (entranced), {敬服|けいふく}する (to admire deeply)
-- **Ichidan verbs (2)**: うろたえる (to be flustered), {巻|ま}き{込|こ}まれる (to be caught up in)
-- **Godan verb (1)**: {立|た}ち{会|あ}う (to be present at)
-- **Na-adjectives (2)**: {穏健|おんけん} (moderate), {重篤|じゅうとく} (critical/grave)
-- **I-adjective (1)**: {別|わか}れ{惜|お}しい (reluctant to part)
-- **Nouns (2)**: {本格|ほんかく} (full-scale/authentic), {原油|げんゆ} (crude oil), {拒否|きょひ}{反応|はんのう} (rejection reaction)
-- **Adverb (1)**: {粛然|しゅくぜん} (solemnly)
-- **Expressions (3)**: ひょっとしたら (perhaps), {涼|すず}しい{顔|かお} (nonchalant look), {肝|きも}を{冷|ひ}やす (to be terrified), {先|さき}を{越|こ}される (to be beaten to it)
 
 
 
