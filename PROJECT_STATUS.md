@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 6)
+Added 30 new dictionary entries (IDs 21864-21893) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners including verbs, nouns, expressions, adjectives, and adverbs.
+
+- **Verbs (8)**: {考|かんが}え{込|こ}む (to ponder deeply), たしなむ (to enjoy as a pastime), {敢行|かんこう}する (to carry out boldly), {撃退|げきたい}する (to repel), {助成|じょせい}する (to subsidize), {見聞|みき}きする (to see and hear), {降|ふ}り{続|つづ}く (to keep falling), {見返|みかえ}る (to look back; to prove oneself)
+- **Nouns (10)**: {続行|ぞっこう} (continuation), {歩行|ほこう} (walking), {展示会|てんじかい} (exhibition), {年中無休|ねんじゅうむきゅう} (open year-round), {博識|はくしき} (erudition), {勝|か}ち{越|こ}し (winning record), {師弟|してい} (master and disciple), {私事|しじ} (personal matter), {音質|おんしつ} (sound quality), {事典|じてん} (encyclopedia)
+- **Expressions (3)**: {腕|うで}を{組|く}む (to fold one's arms), {息|いき}をつく (to catch one's breath), {小分|こわ}けする (to divide into smaller portions)
+- **Adjectives (2)**: {将来的|しょうらいてき} (future/prospective), {栗色|くりいろ} (chestnut color)
+- **Adverbs (3)**: {先立|さきだ}って (prior to; the other day), むくむく (swelling/fluffy), {夜毎|よごと} (every night)
+- **Other nouns (4)**: {県立|けんりつ} (prefectural), {同業|どうぎょう} (same trade), {酒席|しゅせき} (drinking party), {初陣|ういじん} (debut/first battle)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 5)
 Added 30 new dictionary entries (IDs 21834-21863) from candidate_words.json. A diverse mix of vocabulary across business, culture, history, food, health, law, and everyday life.
 
@@ -103,14 +114,6 @@ Added 22 new dictionary entries (IDs 21757-21778) from candidate_words.json. A d
 - 1 new kanji (弔) assigned ID 02644
 - Removed 22 candidates that now exist as entries
 
-### 2026-04-03 (Vocabulary Expansion - 22 New Entries)
-Added 22 new dictionary entries (IDs 21735-21756) from candidate_words.json. A practical mix including suru verbs, nouns, a godan verb, and an expression.
-
-- **Suru verbs (9)**: {利用|りよう}する (to use/utilize), {提供|ていきょう}する (to provide), {発送|はっそう}する (to ship), {配送|はいそう}する (to deliver), {適用|てきよう}する (to apply), {落下|らっか}する (to fall), {奪回|だっかい}する (to recapture), {貫通|かんつう}する (to penetrate), {開墾|かいこん}する (to reclaim land)
-- **Godan verb (1)**: {行|い}き{止|ど}まる (to come to a dead end)
-- **Nouns (11)**: {季節外|きせつはず}れ (out of season), {暖冬|だんとう} (mild winter), {新興国|しんこうこく} (emerging nation), {求職者|きゅうしょくしゃ} (job seeker), {持続性|じぞくせい} (sustainability), {水圧|すいあつ} (water pressure), {水流|すいりゅう} (water current), テレビ{会議|かいぎ} (video conference), {作詞家|さくしか} (lyricist), {経済政策|けいざいせいさく} (economic policy), {防犯対策|ぼうはんたいさく} (crime prevention measures)
-- **Expression (1)**: {何|なん}と{言|い}うか (how should I say)
-- Removed 22 candidates that now exist as entries
 
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 580)
 Added 30 new dictionary entries (IDs 21705-21734) from candidate_words.json. A practical mix of vocabulary for intermediate learners including verbs, nouns, adverbs, and food terms.
