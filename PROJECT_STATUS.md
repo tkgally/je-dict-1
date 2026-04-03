@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 25 New Entries, Session 3)
+Added 25 new dictionary entries (IDs 21779-21803) from candidate_words.json. Focused on practical grammar, expressions, and common vocabulary useful for intermediate learners.
+
+- **Conjunctions (3)**: おまけに (on top of that), {加|くわ}えて (in addition), もっとも (however/though)
+- **Pre-noun adjectivals (2)**: こうした (such/this kind of), そうした (such/that kind of)
+- **Expressions (5)**: {目|め}を{見張|みは}る (to be amazed), {上手|うま}くいく (to go well), {白紙|はくし}に{戻|もど}る (to go back to square one), {気|き}がつく (to notice), {顔|かお}を{上|あ}げる (to raise one's head), 〜における (in/at - formal)
+- **Verbs (3)**: {名乗|なの}り{出|で}る (to come forward), {帰国|きこく}する (to return to one's country), {注|つ}ぎ{足|た}す (to top up)
+- **Nouns (2)**: {現役|げんえき} (active service), {得意先|とくいさき} (customer/client), バイキング (buffet), {予約済|よやくず}み (reserved)
+- **Adjectives (3)**: {小|ちい}さめ (rather small), {太|ふと}り{気味|ぎみ} (somewhat overweight), {食|た}べやすい (easy to eat), {平明|へいめい} (plain/clear)
+- **Particles (2)**: 〜つつ (while/although), 〜にて (at/in - formal)
+- **Adverb (1)**: いくらか (somewhat/some)
+
 ### 2026-04-03 (Vocabulary Expansion - 22 New Entries, Session 2)
 Added 22 new dictionary entries (IDs 21757-21778) from candidate_words.json. A diverse mix including emotion words, food terms, politics, grammar, and practical vocabulary.
 
@@ -93,17 +105,6 @@ Added 28 new dictionary entries (IDs 21677-21704) from candidate_words.json. A p
 - **Other (3)**: お{釜|かま} (pot/rear-end collision), {嘘|うそ}だろ (no way!), {値|あたい} (value)
 - Removed 28 candidates that now exist as entries
 
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 578)
-Added 30 new dictionary entries (IDs 21647-21676) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners covering everyday life, sports, culture, medicine, fashion, and more.
-
-- **Ichidan verb (1)**: {突|つ}き{抜|ぬ}ける (to pierce through)
-- **Na-adjectives (2)**: {強健|きょうけん} (robust), {不誠実|ふせいじつ} (insincere)
-- **Noun/verb-suru (5)**: {休刊|きゅうかん} (suspension of publication), {現実化|げんじつか} (actualization), {健康管理|けんこうかんり} (health management), {盛装|せいそう} (full dress), {図式|ずしき} (diagram/schema)
-- **Nouns (16)**: {引|ひ}っ{越|こ}し{先|さき} (new place to move to), {総菜屋|そうざいや} (deli), {寝坊助|ねぼうすけ} (sleepyhead), {慰|なぐさ}め (comfort), {大逆転|だいぎゃくてん} (dramatic comeback), {空気入|くうきい}れ (air pump), {初戦|しょせん} (first match), {西口|にしぐち} (west exit), デニム (denim), {劇薬|げきやく} (powerful medicine), {猛火|もうか} (raging fire), {殺|ころ}し{屋|や} (hitman), {噺家|はなしか} (rakugo storyteller), {腹部|ふくぶ} (abdomen), {修正点|しゅうせいてん} (point to revise), {化学反応|かがくはんのう} (chemical reaction)
-- **Expressions (4)**: {身|み}を{投|とう}じる (to devote oneself), {議論|ぎろん}を{呼|よ}ぶ (to spark debate), {通好|つうごの}み (connoisseur's taste), {膿|うみ} (pus/corruption)
-- **Sports (2)**: {外野手|がいやしゅ} (outfielder), {論考|ろんこう} (essay/treatise)
-- Added 1 new kanji to index: 噺
-- Removed 30 candidates that now exist as entries
 
 
 
