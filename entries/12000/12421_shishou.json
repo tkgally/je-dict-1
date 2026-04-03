@@ -19,7 +19,9 @@
       "english": "To become an apprentice to a master.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12421_shishou_ex2",
@@ -27,7 +29,9 @@
       "english": "I trained under a rakugo master.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12421_shishou_ex3",
@@ -35,21 +39,36 @@
       "english": "While cherishing the techniques learned from my master, I am pursuing my own form of expression.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "STRUCTURE:\n{師|し} (teacher, master) + {匠|しょう} (artisan, skilled worker).\n\nUSAGE:\n{師匠|ししょう} is used in traditional arts such as {落語|らくご} (comic storytelling), {茶道|さどう} (tea ceremony), {花道|かどう} (flower arrangement), {書道|しょどう} (calligraphy), martial arts, and traditional music. The relationship between {師匠|ししょう} and {弟子|でし} (apprentice/disciple) is central to the transmission of traditional skills in Japan. Compare with {先生|せんせい}, which is a more general and widely applicable term for teacher.\n\nCOMMON COLLOCATIONS:\n- {師匠|ししょう}に{弟子入|でしい}りする: to become someone's apprentice\n- {師匠|ししょう}と{弟子|でし}: master and apprentice\n- {師匠|ししょう}の{教|おし}え: the master's teachings\n- {師匠|ししょう}{筋|すじ}: lineage of masters",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03986_deshi",
+      "reading": "でし",
+      "headword": "{弟子|でし}",
+      "label": "disciple, apprentice"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T06:12:01Z",
-    "modified": "2026-02-21T06:12:01Z",
+    "modified": "2026-04-03T00:02:52Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "culture"]
+      "semantic": [
+        "person",
+        "culture"
+      ]
     }
   }
 }

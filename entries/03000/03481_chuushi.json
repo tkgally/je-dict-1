@@ -6,85 +6,6 @@
   "gloss": "suspension, cancellation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{中止|ちゅうし}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "suspension, discontinuation, cancellation",
-      "explanation": "Stopping an activity or event that was planned or in progress."
-    }
-  ],
-  "examples": [
-    {
-      "id": "03481_chuushi_ex1",
-      "japanese": "{計画|けいかく}を{中止|ちゅうし}する。",
-      "english": "Cancel the plan.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03481_chuushi_ex2",
-      "japanese": "{雨|あめ}で{試合|しあい}が{中止|ちゅうし}になった。",
-      "english": "The game was canceled due to rain.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03481_chuushi_ex3",
-      "japanese": "イベントは{台風|たいふう}の{影響|えいきょう}で{中止|ちゅうし}となりました。",
-      "english": "The event has been canceled due to the typhoon.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "SIMILAR WORDS:\n・{中止|ちゅうし}: Cancellation, stopping something (often permanent or indefinite)\n・{中断|ちゅうだん}: Interruption, temporary suspension (implies resumption later)\n・{延期|えんき}: Postponement (rescheduled for later)\n・{取|と}り{消|け}し: Cancellation, withdrawal (often for reservations, orders)\n\nCOMMON PATTERNS:\n・〜が{中止|ちゅうし}になる (~ is/gets canceled)\n・〜を{中止|ちゅうし}する (to cancel ~)\n・{中止|ちゅうし}の{お知|しら}らせ (cancellation notice)",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "えんき",
-      "headword": "{延期|えんき}",
-      "label": "postponement",
-      "target_id": "01888_enki"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-12T09:20:00Z",
-    "modified": "2026-03-29T03:03:58Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "work"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "16389_chuushi",
-      "reading": "ちゅうし",
-      "headword": "{注視|ちゅうし}",
-      "note": "close observation"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -172,5 +93,87 @@
         "negative": "{中止|ちゅうし}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "suspension, discontinuation, cancellation",
+      "explanation": "Stopping an activity or event that was planned or in progress."
+    }
+  ],
+  "examples": [
+    {
+      "id": "03481_chuushi_ex1",
+      "japanese": "{計画|けいかく}を{中止|ちゅうし}する。",
+      "english": "Cancel the plan.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03481_chuushi_ex2",
+      "japanese": "{雨|あめ}で{試合|しあい}が{中止|ちゅうし}になった。",
+      "english": "The game was canceled due to rain.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03481_chuushi_ex3",
+      "japanese": "イベントは{台風|たいふう}の{影響|えいきょう}で{中止|ちゅうし}となりました。",
+      "english": "The event has been canceled due to the typhoon.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "SIMILAR WORDS:\n・{中止|ちゅうし}: Cancellation, stopping something (often permanent or indefinite)\n・{中断|ちゅうだん}: Interruption, temporary suspension (implies resumption later)\n・{延期|えんき}: Postponement (rescheduled for later)\n・{取|と}り{消|け}し: Cancellation, withdrawal (often for reservations, orders)\n\nCOMMON PATTERNS:\n・〜が{中止|ちゅうし}になる (~ is/gets canceled)\n・〜を{中止|ちゅうし}する (to cancel ~)\n・{中止|ちゅうし}の{お知|しら}らせ (cancellation notice)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "えんき",
+      "headword": "{延期|えんき}",
+      "label": "postponement",
+      "target_id": "01888_enki"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04067_teishi",
+      "reading": "ていし",
+      "headword": "{停止|ていし}",
+      "label": "halt, stoppage"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-12T09:20:00Z",
+    "modified": "2026-04-03T00:02:52Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "work"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "16389_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{注視|ちゅうし}",
+      "note": "close observation"
+    }
+  ]
 }
