@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 22 New Entries)
+Added 22 new dictionary entries (IDs 21735-21756) from candidate_words.json. A practical mix including suru verbs, nouns, a godan verb, and an expression.
+
+- **Suru verbs (9)**: {利用|りよう}する (to use/utilize), {提供|ていきょう}する (to provide), {発送|はっそう}する (to ship), {配送|はいそう}する (to deliver), {適用|てきよう}する (to apply), {落下|らっか}する (to fall), {奪回|だっかい}する (to recapture), {貫通|かんつう}する (to penetrate), {開墾|かいこん}する (to reclaim land)
+- **Godan verb (1)**: {行|い}き{止|ど}まる (to come to a dead end)
+- **Nouns (11)**: {季節外|きせつはず}れ (out of season), {暖冬|だんとう} (mild winter), {新興国|しんこうこく} (emerging nation), {求職者|きゅうしょくしゃ} (job seeker), {持続性|じぞくせい} (sustainability), {水圧|すいあつ} (water pressure), {水流|すいりゅう} (water current), テレビ{会議|かいぎ} (video conference), {作詞家|さくしか} (lyricist), {経済政策|けいざいせいさく} (economic policy), {防犯対策|ぼうはんたいさく} (crime prevention measures)
+- **Expression (1)**: {何|なん}と{言|い}うか (how should I say)
+- Removed 22 candidates that now exist as entries
+
 ### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 580)
 Added 30 new dictionary entries (IDs 21705-21734) from candidate_words.json. A practical mix of vocabulary for intermediate learners including verbs, nouns, adverbs, and food terms.
 
@@ -97,26 +106,6 @@ Added 20 new dictionary entries (IDs 21627-21646) from candidate_words.json. A t
 - **Adverb (1)**: {粛然|しゅくぜん} (solemnly)
 - **Expressions (3)**: ひょっとしたら (perhaps), {涼|すず}しい{顔|かお} (nonchalant look), {肝|きも}を{冷|ひ}やす (to be terrified), {先|さき}を{越|こ}される (to be beaten to it)
 
-### 2026-04-02 (Vocabulary Expansion - 25 New Entries, Session 576)
-Added 25 new dictionary entries (IDs 21602-21626) from candidate_words.json. A practical mix of everyday vocabulary covering transportation, communication, health, education, nature, food, and time expressions.
-
-- **Suru verbs (8)**: {挑戦|ちょうせん}する (to challenge), {感動|かんどう}する (to be moved), {転居|てんきょ}する (to move residence), {服用|ふくよう}する (to take medicine), {復学|ふくがく} (returning to school), {転送|てんそう}する (to forward), {散布|さんぷ}する (to spray), {複写|ふくしゃ}する (to copy)
-- **Godan verbs (2)**: {乗|の}り{越|こ}す (to ride past one's stop), {炊|た}き{上|あ}がる (to finish cooking rice)
-- **Ichidan verb (1)**: {言|い}いつける (to tell on; to order)
-- **Nouns (10)**: {客室|きゃくしつ} (guest room/cabin), {人気|にんき}{商品|しょうひん} (popular product), {普通|ふつう}{列車|れっしゃ} (local train), {乗務員|じょうむいん} (crew member), {航空|こうくう}{会社|がいしゃ} (airline), {山歩|やまある}き (mountain walking), {数週間|すうしゅうかん} (several weeks), {数時間|すうじかん} (several hours), {数分|すうふん} (several minutes), {白銀|はくぎん} (silver/snowy world)
-- **Na-adjective (1)**: {鋭利|えいり}な (sharp)
-- **Other nouns (3)**: {参拝者|さんぱいしゃ} (shrine visitor), {才人|さいじん} (talented person), {突然|とつぜん}に (suddenly)
-
-### 2026-04-02 (Vocabulary Expansion - 31 New Entries, Session 575)
-Added 31 new dictionary entries (IDs 21571-21601) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners covering law, food, culture, travel, work, and daily life.
-
-- **Godan verb (1)**: {踏|ふ}み{荒|あ}らす (to trample)
-- **Suru verbs (2)**: {哀願|あいがん}する (to plead), {改新|かいしん} (reform)
-- **Na-adjectives (2)**: {大仰|おおぎょう} (exaggerated), {直截|ちょくさい} (direct/blunt)
-- **Noun/verb-suru (6)**: {転任|てんにん} (transfer), {断交|だんこう} (severing relations), {膳立|ぜんだ}て (preparation), {下船|げせん} (disembarkation), {嘆願|たんがん} (petition), {贈賄|ぞうわい} (bribery)
-- **Nouns (20)**: {賄賂|わいろ} (bribe), {雪|ゆき}かき (snow shoveling), {替|か}え{歌|うた} (parody song), {途切|とぎ}れ (interruption), {呼|よ}び{鈴|りん} (doorbell), {置|お}き{引|び}き (theft of unattended items), シロップ (syrup), {走者|そうしゃ} (runner), {橙色|だいだいいろ} (orange color), {城壁|じょうへき} (castle wall), {進度|しんど} (rate of progress), パセリ (parsley), {精神科|せいしんか} (psychiatry), お{母|かあ}ちゃん (mom), {宅地|たくち} (residential land), {密偵|みってい} (spy), {仕入|しい}れ{値|ね} (wholesale cost), ジャスミン{茶|ちゃ} (jasmine tea), {振込|ふりこみ}{手数料|てすうりょう} (bank transfer fee), {座|すわ}り{方|かた} (way of sitting)
-- Added 3 new kanji to index: 截, 膳, 賂
-- Removed 31 candidates that now exist as entries; removed 1 stale candidate (働き甲斐, duplicate of 働きがい)
 
 
 
