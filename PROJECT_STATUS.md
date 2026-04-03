@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 8)
+Added 30 new dictionary entries (IDs 21924-21953) from candidate_words.json. A diverse mix of nouns, verbs, and expressions covering architecture, nature, food, sports, culture, and everyday life.
+
+- **Nouns (22)**: {低層|ていそう} (low-rise), {留|と}め{金|がね} (clasp/fastener), {本拠|ほんきょ} (headquarters), {苦労話|くろうばなし} (hardship story), {率直|そっちょく}さ (frankness), {鎮痛薬|ちんつうやく} (painkiller), {洗浄液|せんじょうえき} (cleaning solution), {実寸|じっすん} (actual size), {海港|かいこう} (seaport), {勢力圏|せいりょくけん} (sphere of influence), {防衛線|ぼうえいせん} (defensive line), {薬味皿|やくみざら} (condiment plate), {暖房器具|だんぼうきぐ} (heating appliance), リズム{感|かん} (sense of rhythm), {休刊日|きゅうかんび} (newspaper holiday), {求肥|ぎゅうひ} (gyuhi mochi), {投|な}げ (throw), {巻雲|けんうん} (cirrus cloud), {書風|しょふう} (calligraphic style), {光影|こうえい} (light and shadow), {高校野球|こうこうやきゅう} (high school baseball), {趣味三昧|しゅみざんまい} (immersed in hobbies)
+- **Suru verbs (3)**: {密生|みっせい}する (dense growth), {群生|ぐんせい}する (growing in clusters), {再発行|さいはっこう}する (to reissue)
+- **Verbs (3)**: {叩|たた}き{伏|ふ}せる (to knock down), {仕立|した}て{直|なお}す (to alter clothing), {動|うご}き{始|はじ}める (to begin moving)
+- **Expressions (1)**: {名|な}もなき (nameless), {追|お}いはぎ (highway robber)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 7)
 Added 30 new dictionary entries (IDs 21894-21923) from candidate_words.json. A diverse mix of na-adjectives, suru verbs, nouns, and expressions useful for intermediate learners.
 
@@ -112,34 +121,3 @@ Added 25 new dictionary entries (IDs 21779-21803) from candidate_words.json. Foc
 - **Adjectives (3)**: {小|ちい}さめ (rather small), {太|ふと}り{気味|ぎみ} (somewhat overweight), {食|た}べやすい (easy to eat), {平明|へいめい} (plain/clear)
 - **Particles (2)**: 〜つつ (while/although), 〜にて (at/in - formal)
 - **Adverb (1)**: いくらか (somewhat/some)
-
-### 2026-04-03 (Vocabulary Expansion - 22 New Entries, Session 2)
-Added 22 new dictionary entries (IDs 21757-21778) from candidate_words.json. A diverse mix including emotion words, food terms, politics, grammar, and practical vocabulary.
-
-- **Suru verbs (5)**: {失望|しつぼう}する (to be disappointed), がっかりする (to be let down), {奮起|ふんき}する (to rouse oneself), {伝搬|でんぱん} (propagation), {修繕費|しゅうぜんひ} (repair cost - noun only)
-- **Godan verbs (2)**: {弔|とむら}う (to mourn), {嘘|うそ}をつく (to tell a lie)
-- **I-adjectives (2)**: {根気強|こんきづよ}い (persevering), {飲|の}みやすい (easy to drink)
-- **Nouns (11)**: {盛|も}り{合|あ}わせ (assorted platter), {水無月|みなづき} (June/wagashi), {受動態|じゅどうたい} (passive voice), {重油|じゅうゆ} (heavy oil), {舞踊家|ぶようか} (dancer), {地方自治|ちほうじち} (local self-government), {集客力|しゅうきゃくりょく} (drawing power), {��似性|るいじせい} (similarity), {同窓生|どうそうせい} (alumnus), {就労|しゅうろう}ビザ (work visa), {鳥小屋|とりごや} (birdhouse)
-- **Politics (2)**: {君主制|くんしゅせい} (monarchy), {独裁制|どくさいせい} (dictatorship)
-- 1 new kanji (弔) assigned ID 02644
-- Removed 22 candidates that now exist as entries
-
-
-- **Food (1)**: はんぺん (steamed fish cake)
-- **Culture (1)**: お{墓|はか} (grave)
-- Removed 10 stale duplicate candidates
-
-
-
-
-
-
-
-
-
-
----
-
-**Archive Note**: Only the 5 most recent change log entries are shown above. When adding a new entry here, move the oldest one to [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md) to maintain this limit.
-
-For earlier changes, see [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).
