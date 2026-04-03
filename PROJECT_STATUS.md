@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 4)
+Added 30 new dictionary entries (IDs 21804-21833) from candidate_words.json. A diverse mix of vocabulary across nature, culture, food, law, and everyday life.
+
+- **Adverbs (2)**: あからさまに (bluntly/blatantly), いかほど (how much - formal)
+- **Nouns - Nature (5)**: {雨空|あまぞら} (rainy sky), {草地|くさち} (grassland), {黄葉|こうよう} (yellow autumn leaves), {山茶花|さざんか} (sasanqua), {花木|かぼく} (flowering tree)
+- **Nouns - Food (3)**: {中華麺|ちゅうかめん} (Chinese noodles), すだち (sudachi citrus), {白子|しらこ} (milt)
+- **Nouns - Culture/Society (6)**: {死生観|しせいかん} (view of life and death), {徒弟|とてい} (apprentice), {騎手|きしゅ} (jockey), {優勝者|ゆうしょうしゃ} (champion), {戦火|せんか} (flames of war), {夭折|ようせつ} (dying young)
+- **Nouns - Everyday (6)**: {基礎知識|きそちしき} (basic knowledge), {別日|べつじつ} (another day), {運動場|うんどうじょう} (sports ground), マット (mat), マーカー (marker pen), {談話室|だんわしつ} (lounge)
+- **Nouns - Formal/Technical (4)**: {推量|すいりょう} (conjecture), {適法|てきほう} (lawful), {権益|けんえき} (vested interests), {薬効|やっこう} (medicinal effect)
+- **Other (4)**: {小技|こわざ} (trick/technique), {彩色|さいしょく} (coloring), {燃|も}え{殻|がら} (cinders), {無欠|むけつ} (flawless)
+- 1 new kanji (夭) assigned ID 02645
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-03 (Vocabulary Expansion - 25 New Entries, Session 3)
 Added 25 new dictionary entries (IDs 21779-21803) from candidate_words.json. Focused on practical grammar, expressions, and common vocabulary useful for intermediate learners.
 
@@ -94,16 +107,6 @@ Added 30 new dictionary entries (IDs 21705-21734) from candidate_words.json. A p
 - **Food (1)**: はんぺん (steamed fish cake)
 - **Culture (1)**: お{墓|はか} (grave)
 - Removed 10 stale duplicate candidates
-
-### 2026-04-02 (Vocabulary Expansion - 28 New Entries, Session 579)
-Added 28 new dictionary entries (IDs 21677-21704) from candidate_words.json. A practical mix of commonly used vocabulary for intermediate learners including verbs, adjectives, nouns, and expressions.
-
-- **Suru verbs (10)**: {印刷|いんさつ}する (to print), {解散|かいさん}する (to disband), {集合|しゅうごう}する (to gather), {宣言|せんげん}する (to declare), {上昇|じょうしょう}する (to rise), {貢献|こうけん}する (to contribute), {敗北|はいぼく}する (to be defeated), {強調|きょうちょう}する (to emphasize), ぼんやりする (to be absent-minded), {帯電|たいでん} (electrification)
-- **Ichidan verb (1)**: {食|た}べ{過|す}ぎる (to overeat)
-- **Na-adjectives (2)**: {頑丈|がんじょう}な (sturdy), スリム (slim)
-- **Nouns (12)**: {暖|あたた}かさ (warmth), {純正|じゅんせい} (genuine), {代理店|だいりてん} (agency), {老婆心|ろうばしん} (motherly concern), {超絶|ちょうぜつ} (transcendent), {最後尾|さいこうび} (end of line), {過半|かはん} (majority), {別注|べっちゅう} (special order), {横腹|よこばら} (flank), {岩穴|いわあな} (cave), {打|う}ち{消|け}し (negation), {毒|どく}ガス (poison gas)
-- **Other (3)**: お{釜|かま} (pot/rear-end collision), {嘘|うそ}だろ (no way!), {値|あたい} (value)
-- Removed 28 candidates that now exist as entries
 
 
 
