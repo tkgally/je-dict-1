@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 5)
+Added 30 new dictionary entries (IDs 21834-21863) from candidate_words.json. A diverse mix of vocabulary across business, culture, history, food, health, law, and everyday life.
+
+- **Na-adjectives (3)**: {辛辣|しんらつ} (harsh/scathing), {激烈|げきれつ} (fierce/intense), {怪異|かいい} (mysterious/supernatural)
+- **Na-adj/noun combos (2)**: {自由自在|じゆうじざい} (freely/at will), {阿呆|あほう} (fool/idiot)
+- **Nouns - Business/Law (4)**: {管理職|かんりしょく} (management position), {許認可|きょにんか} (permits and licenses), {専売|せんばい} (monopoly sale), {実力者|じつりょくしゃ} (person of influence)
+- **Nouns - History/Military (3)**: {統制|とうせい} (control/regulation), {平定|へいてい} (pacification), {征伐|せいばつ} (subjugation)
+- **Nouns - Culture/Society (5)**: {悲願|ひがん} (long-cherished wish), {直筆|じきひつ} (one's own handwriting), {名士|めいし} (notable person), {後援者|こうえんしゃ} (supporter/patron), {検視|けんし} (coroner's inquest)
+- **Nouns - Everyday/Science (6)**: {空中|くうちゅう} (midair), {減塩|げんえん} (salt reduction), {進行中|しんこうちゅう} (in progress), {古紙|こし} (waste paper), {脱色|だっしょく} (bleaching), {縦横|じゅうおう} (vertical and horizontal)
+- **Nouns - Other (4)**: {甲羅|こうら} (shell/carapace), {海難|かいなん} (maritime disaster), {内服|ないふく} (oral medicine), {午睡|ごすい} (afternoon nap)
+- **Loanwords (1)**: フィルター (filter)
+- **Expressions (1)**: お{世話様|せわさま} (thank you for your help)
+- **Other (1)**: {探訪|たんぼう} (visit/exploration)
+- 1 new kanji (辣) assigned ID 02646
+- Removed 1 stale candidate (配役 with incorrect reading)
+
 ### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 4)
 Added 30 new dictionary entries (IDs 21804-21833) from candidate_words.json. A diverse mix of vocabulary across nature, culture, food, law, and everyday life.
 
