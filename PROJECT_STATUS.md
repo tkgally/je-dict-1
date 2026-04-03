@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 7)
+Added 30 new dictionary entries (IDs 21894-21923) from candidate_words.json. A diverse mix of na-adjectives, suru verbs, nouns, and expressions useful for intermediate learners.
+
+- **Na-adjectives (8)**: {神秘的|しんぴてき} (mysterious/mystical), {平均的|へいきんてき} (average/typical), {飛躍的|ひやくてき} (dramatic/remarkable), {金銭的|きんせんてき} (financial/monetary), {恣意的|しいてき} (arbitrary/capricious), {原始的|げんしてき} (primitive/primeval), {熱狂的|ねっきょうてき} (fanatical/fervent), {英雄的|えいゆうてき} (heroic/valiant), {独善的|どくぜんてき} (self-righteous/dogmatic)
+- **Suru verbs (7)**: {秘匿|ひとく}する (to conceal), {集中|しゅうちゅう}する (to concentrate), {中止|ちゅうし}する (to cancel), {管理|かんり}する (to manage), {妄想|もうそう}する (to fantasize), {注力|ちゅうりょく}する (to focus efforts), {離反|りはん}する (to defect), {推量|すいりょう}する (to conjecture)
+- **Nouns (7)**: {協議会|きょうぎかい} (council), {無給|むきゅう} (unpaid), {目尻|めじり} (outer corner of eye), {締切日|しめきりび} (deadline date), {流言|りゅうげん} (rumor), {立体感|りったいかん} (three-dimensionality), {注目度|ちゅうもくど} (degree of attention), {扱|あつか}い{方|かた} (how to handle), {老婦人|ろうふじん} (elderly woman), {林道|りんどう} (forest road), {料金表|りょうきんひょう} (price list)
+- **Expressions (2)**: {失礼|しつれい}します (excuse me), {恐|おそ}れ{入|い}ります (I'm sorry to trouble you — removed as duplicate of existing entry 17552)
+- 1 new kanji (恣) assigned ID 02647
+- Removed 1 stale candidate (恐れ入りますが — already exists as entry)
+
 ### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 6)
 Added 30 new dictionary entries (IDs 21864-21893) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners including verbs, nouns, expressions, adjectives, and adverbs.
 
@@ -115,14 +125,6 @@ Added 22 new dictionary entries (IDs 21757-21778) from candidate_words.json. A d
 - Removed 22 candidates that now exist as entries
 
 
-### 2026-04-02 (Vocabulary Expansion - 30 New Entries, Session 580)
-Added 30 new dictionary entries (IDs 21705-21734) from candidate_words.json. A practical mix of vocabulary for intermediate learners including verbs, nouns, adverbs, and food terms.
-
-- **Suru verbs (5)**: {触発|しょくはつ}する (to trigger/inspire), {誘導|ゆうどう}する (to guide/induce), {回想|かいそう}する (to reminisce), {整理|せいり}する (to organize), {改変|かいへん} (alteration)
-- **Ichidan verb (1)**: {生|い}き{延|の}びる (to survive)
-- **Na-adjectives (2)**: {無敵|むてき} (invincible), {過小|かしょう} (too small)
-- **Nouns (16)**: {略語|りゃくご} (abbreviation), {輝|かがや}き (brilliance), {周期|しゅうき} (cycle), {漆黒|しっこく} (jet black), {初春|しょしゅん} (early spring), {料亭|りょうてい} (high-class restaurant), {降雨|こうう} (rainfall), {低気圧|ていきあつ} (low pressure), {文通|ぶんつう} (correspondence), {壇上|だんじょう} (on stage), {並立|へいりつ} (coexistence), {年頭|ねんとう} (start of year), {火照|ほて}り (flushing), {深度|しんど} (depth), {書類選考|しょるいせんこう} (document screening), {音域|おんいき} (vocal range)
-- **Adverbs/Other (4)**: たじたじ (flinching), まずまず (fairly), {風雨|ふうう} (wind and rain), {話術|わじゅつ} (speaking skill)
 - **Food (1)**: はんぺん (steamed fish cake)
 - **Culture (1)**: お{墓|はか} (grave)
 - Removed 10 stale duplicate candidates
