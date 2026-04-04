@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 13)
+Added 30 new dictionary entries (IDs 22057-22086) from candidate_words.json. A diverse mix covering pronouns, adverbs, nouns, verbs, and expressions spanning daily life, education, business, politics, science, health, and more.
+
+- **Pronoun (1)**: いずれか (one or the other)
+- **Adverbs (4)**: {名目上|めいもくじょう} (nominally), {一遍|いっぺん} (once/all at once), {形式上|けいしきじょう} (formally/on paper), {何月|なんがつ} (what month)
+- **Verbs (1)**: {走|はし}り{続|つづ}ける (to keep running)
+- **Nouns (18)**: {飲|の}みすぎ (overdrinking), {自動|じどう}{引|ひ}き{落|お}とし (automatic withdrawal), {試験|しけん}{問題|もんだい} (exam questions), {反復|はんぷく}{練習|れんしゅう} (drill practice), {全世界|ぜんせかい} (the whole world), {品質|ひんしつ}{保証|ほしょう} (quality assurance), {整形|せいけい}{外科|げか} (orthopedics), {新版|しんぱん} (new edition), {水|みず}ぶくれ (blister), {髪質|かみしつ} (hair texture), {県知事|けんちじ} (prefectural governor), {楽章|がくしょう} (musical movement), {生魚|なまざかな} (raw fish), {補欠|ほけつ}{選挙|せんきょ} (by-election), {設問|せつもん} (question on a test), {走行中|そうこうちゅう} (while driving), {訴求力|そきゅうりょく} (appeal/persuasive power), {水栓|すいせん} (water faucet), マグマ (magma), {昇級|しょうきゅう} (promotion in rank)
+- **Expressions (4)**: {一度|いちど}きり (only once), {以前|いぜん}{通|どお}り (as before), {今|いま}まで{通|どお}り (as usual), {着想|ちゃくそう}を{得|え}る (to get an idea)
+
 ### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 12)
 Added 30 new dictionary entries (IDs 22027-22056) from candidate_words.json. A diverse mix covering verbs, adjectives, nouns spanning culture, education, finance, science, and daily life.
 
@@ -84,14 +93,5 @@ Added 30 new dictionary entries (IDs 21954-21983) from candidate_words.json. A d
 - **Other (3)**: {果|は}てしない (boundless — i-adj), {順々|じゅんじゅん}に (in turn — adverb), {尾|お}ひれがつく (to be exaggerated — expression), かるた (karuta card game)
 - 1 new kanji (顛) assigned ID 02648
 - Removed 6 stale candidates (duplicates of existing entries)
-
-### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 8)
-Added 30 new dictionary entries (IDs 21924-21953) from candidate_words.json. A diverse mix of nouns, verbs, and expressions covering architecture, nature, food, sports, culture, and everyday life.
-
-- **Nouns (22)**: {低層|ていそう} (low-rise), {留|と}め{金|がね} (clasp/fastener), {本拠|ほんきょ} (headquarters), {苦労話|くろうばなし} (hardship story), {率直|そっちょく}さ (frankness), {鎮痛薬|ちんつうやく} (painkiller), {洗浄液|せんじょうえき} (cleaning solution), {実寸|じっすん} (actual size), {海港|かいこう} (seaport), {勢力圏|せいりょくけん} (sphere of influence), {防衛線|ぼうえいせん} (defensive line), {薬味皿|やくみざら} (condiment plate), {暖房器具|だんぼうきぐ} (heating appliance), リズム{感|かん} (sense of rhythm), {休刊日|きゅうかんび} (newspaper holiday), {求肥|ぎゅうひ} (gyuhi mochi), {投|な}げ (throw), {巻雲|けんうん} (cirrus cloud), {書風|しょふう} (calligraphic style), {光影|こうえい} (light and shadow), {高校野球|こうこうやきゅう} (high school baseball), {趣味三昧|しゅみざんまい} (immersed in hobbies)
-- **Suru verbs (3)**: {密生|みっせい}する (dense growth), {群生|ぐんせい}する (growing in clusters), {再発行|さいはっこう}する (to reissue)
-- **Verbs (3)**: {叩|たた}き{伏|ふ}せる (to knock down), {仕立|した}て{直|なお}す (to alter clothing), {動|うご}き{始|はじ}める (to begin moving)
-- **Expressions (1)**: {名|な}もなき (nameless), {追|お}いはぎ (highway robber)
-- Removed 30 candidates that now exist as entries
 
 
