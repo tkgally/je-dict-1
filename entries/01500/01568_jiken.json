@@ -79,10 +79,25 @@
     }
   ],
   "notes": "{事件|じけん} refers to notable incidents, often with legal or news implications.\n\nCOMMON PATTERNS:\n- {事件|じけん}が{起|お}きる/{起|お}こる (an incident occurs)\n- {事件|じけん}を{解決|かいけつ}する (solve a case)\n- {事件|じけん}を{調査|ちょうさ}する (investigate a case)\n- {殺人|さつじん}{事件|じけん} (murder case)\n\nSIMILAR WORDS:\n- {事故|じこ}: accident (unintentional)\n- {事件|じけん}: incident/case (often intentional or criminal)\n- 出来事{できごと}: event, happening (neutral)\n\nCOUNTER: {件|けん} (～{件|けん}の{事件|じけん})",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00851_jiko",
+      "reading": "じこ",
+      "headword": "{事故|じこ}",
+      "label": "accident (unintentional)"
+    },
+    {
+      "type": "related",
+      "target_id": "03446_dekigoto",
+      "reading": "できごと",
+      "headword": "{出来事|できごと}",
+      "label": "event, happening (neutral)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:41:04Z",
-    "modified": "2026-03-25T13:27:06Z",
+    "modified": "2026-04-04T10:03:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
