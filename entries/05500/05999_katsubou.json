@@ -68,10 +68,32 @@
     }
   ],
   "notes": "{渇望|かつぼう} contains the character {渇|かつ} (thirst), emphasizing the desperate, intense nature of the desire.\n\nCOMMON PATTERNS:\n- {渇望|かつぼう}する: to crave, to yearn for\n- ～への{渇望|かつぼう}: yearning for ~\n- {渇望|かつぼう}を{抱|いだ}く: to harbor a craving\n\nCONTRAST:\n- {欲望|よくぼう}: desire, lust (can be negative)\n- {願望|がんぼう}: wish, desire (more neutral)\n- {憧|あこが}れ: admiration, longing (more romantic/idealistic)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "よくぼう",
+      "headword": "{欲望|よくぼう}",
+      "label": "desire, lust",
+      "target_id": "05086_yokubou"
+    },
+    {
+      "type": "contrast",
+      "reading": "がんぼう",
+      "headword": "{願望|がんぼう}",
+      "label": "wish (more neutral)",
+      "target_id": "05085_ganbou"
+    },
+    {
+      "type": "related",
+      "reading": "あこがれ",
+      "headword": "{憧|あこが}れ",
+      "label": "longing, admiration",
+      "target_id": "12630_akogare"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T03:06:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
