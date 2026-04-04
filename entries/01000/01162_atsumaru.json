@@ -6,112 +6,6 @@
   "gloss": "to gather, to assemble",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{集|あつ}ま"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to gather, to come together",
-      "explanation": "For people or things to come together in one place. The gathering happens naturally or voluntarily—this is the intransitive form (things gather themselves)."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to be collected, to accumulate",
-      "explanation": "For things like money, information, or materials to be gathered or accumulated in one place."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01162_atsumaru_ex1",
-      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
-      "english": "People gathered.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex2",
-      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まっています。",
-      "english": "People are gathered in the park.",
-      "notes": "に marks the location where gathering occurs",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex3",
-      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{集|あつ}まって⟦{パーティー|ぱーてぃー}→パーティー：02946_paatii⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
-      "english": "Next week, my friends will gather at my house for a party.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex4",
-      "japanese": "⟦{お金|おかね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
-      "english": "The money was collected.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex5",
-      "japanese": "⟦{募金|ぼきん}→募金：11830_bokin⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧{集|あつ}まりました。",
-      "english": "A lot of donations were collected.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01162_atsumaru_ex6",
-      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦で→で：00502_de⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦すぐに→すぐ：00814_sugu⟧{集|あつ}まる⟦ように→ように：10081_youni⟧⟦なった→なる：01970_naru⟧。",
-      "english": "Information can now be gathered quickly on the internet.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {集|あつ}める (transitive, to collect/gather something). Pattern: Xが{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・{人|ひと}が{集|あつ}まる (people gather)\n・{お金|おかね}が{集|あつ}まる (money is collected)\n・{情報|じょうほう}が{集|あつ}まる (information is gathered)\n・{一|ひと}か{所|しょ}に{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use {集|あつ}める instead. {集|あつ}まる implies voluntary or natural coming together.",
-  "cross_references": [
-    {
-      "type": "pair",
-      "reading": "あつめる",
-      "headword": "{集|あつ}める",
-      "label": "transitive, to collect",
-      "target_id": "01170_atsumeru"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-08T10:10:35Z",
-    "modified": "2026-03-29T03:03:11Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -199,5 +93,106 @@
         "negative": "{集|あつ}まるな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to gather, to come together",
+      "explanation": "For people or things to come together in one place. The gathering happens naturally or voluntarily—this is the intransitive form (things gather themselves)."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to be collected, to accumulate",
+      "explanation": "For things like money, information, or materials to be gathered or accumulated in one place."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01162_atsumaru_ex1",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
+      "english": "People gathered.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex2",
+      "japanese": "⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まっています。",
+      "english": "People are gathered in the park.",
+      "notes": "に marks the location where gathering occurs",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex3",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧、⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦が→が：00051_ga⟧⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{集|あつ}まって⟦{パーティー|ぱーてぃー}→パーティー：02946_paatii⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
+      "english": "Next week, my friends will gather at my house for a party.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex4",
+      "japanese": "⟦{お金|おかね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まった。",
+      "english": "The money was collected.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex5",
+      "japanese": "⟦{募金|ぼきん}→募金：11830_bokin⟧⟦が→が：00051_ga⟧⟦たくさん→たくさん：00597_takusan⟧{集|あつ}まりました。",
+      "english": "A lot of donations were collected.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01162_atsumaru_ex6",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦で→で：00502_de⟧⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧⟦すぐに→すぐ：00814_sugu⟧{集|あつ}まる⟦ように→ように：10081_youni⟧⟦なった→なる：01970_naru⟧。",
+      "english": "Information can now be gathered quickly on the internet.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {集|あつ}める (transitive, to collect/gather something). Pattern: Xが{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・{人|ひと}が{集|あつ}まる (people gather)\n・{お金|おかね}が{集|あつ}まる (money is collected)\n・{情報|じょうほう}が{集|あつ}まる (information is gathered)\n・{一|ひと}か{所|しょ}に{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use {集|あつ}める instead. {集|あつ}まる implies voluntary or natural coming together.",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-08T10:10:35Z",
+    "modified": "2026-04-04T05:23:08Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01170_atsumeru",
+      "reading": "あつめる",
+      "headword": "{集|あつ}める",
+      "note": "transitive"
+    }
+  ]
 }
