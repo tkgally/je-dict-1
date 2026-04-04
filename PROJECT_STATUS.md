@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 9)
+Added 30 new dictionary entries (IDs 21954-21983) from candidate_words.json. A diverse mix of nouns, adjectives, verbs, adverbs, and expressions useful for intermediate learners.
+
+- **Nouns (14)**: {水面下|すいめんか} (below the surface), {諸事情|しょじじょう} (various circumstances), {距離感|きょりかん} (sense of distance), {心底|しんそこ} (bottom of one's heart), {幻影|げんえい} (phantom/illusion), {外圧|がいあつ} (external pressure), {攻略法|こうりゃくほう} (strategy/walkthrough), {防止策|ぼうしさく} (preventive measure), {顛末|てんまつ} (full account), {内幕|うちまく} (inside story), {真実味|しんじつみ} (truthfulness), {善行|ぜんこう} (good deed), {包|つつ}み{紙|がみ} (wrapping paper), {風刺画|ふうしが} (satirical cartoon), {巻末|かんまつ} (end of book), {独自性|どくじせい} (originality)
+- **Na-adjectives (3)**: {善良|ぜんりょう} (good-natured), {秀逸|しゅういつ} (excellent), {漸進的|ぜんしんてき} (gradual), {珍妙|ちんみょう} (odd/bizarre)
+- **Verbs (4)**: よろよろする (to totter), {書|か}き{間違|まちが}える (to write incorrectly), {振|ふ}り{回|まわ}される (to be bossed around), {素潜|すもぐ}り (free diving)
+- **Noun/verb-suru (3)**: {無理強|むりじ}い (forcing/coercion), {配置換|はいちが}え (reassignment)
+- **Other (3)**: {果|は}てしない (boundless — i-adj), {順々|じゅんじゅん}に (in turn — adverb), {尾|お}ひれがつく (to be exaggerated — expression), かるた (karuta card game)
+- 1 new kanji (顛) assigned ID 02648
+- Removed 6 stale candidates (duplicates of existing entries)
+
 ### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 8)
 Added 30 new dictionary entries (IDs 21924-21953) from candidate_words.json. A diverse mix of nouns, verbs, and expressions covering architecture, nature, food, sports, culture, and everyday life.
 
@@ -97,27 +108,3 @@ Added 30 new dictionary entries (IDs 21834-21863) from candidate_words.json. A d
 - 1 new kanji (辣) assigned ID 02646
 - Removed 1 stale candidate (配役 with incorrect reading)
 
-### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 4)
-Added 30 new dictionary entries (IDs 21804-21833) from candidate_words.json. A diverse mix of vocabulary across nature, culture, food, law, and everyday life.
-
-- **Adverbs (2)**: あからさまに (bluntly/blatantly), いかほど (how much - formal)
-- **Nouns - Nature (5)**: {雨空|あまぞら} (rainy sky), {草地|くさち} (grassland), {黄葉|こうよう} (yellow autumn leaves), {山茶花|さざんか} (sasanqua), {花木|かぼく} (flowering tree)
-- **Nouns - Food (3)**: {中華麺|ちゅうかめん} (Chinese noodles), すだち (sudachi citrus), {白子|しらこ} (milt)
-- **Nouns - Culture/Society (6)**: {死生観|しせいかん} (view of life and death), {徒弟|とてい} (apprentice), {騎手|きしゅ} (jockey), {優勝者|ゆうしょうしゃ} (champion), {戦火|せんか} (flames of war), {夭折|ようせつ} (dying young)
-- **Nouns - Everyday (6)**: {基礎知識|きそちしき} (basic knowledge), {別日|べつじつ} (another day), {運動場|うんどうじょう} (sports ground), マット (mat), マーカー (marker pen), {談話室|だんわしつ} (lounge)
-- **Nouns - Formal/Technical (4)**: {推量|すいりょう} (conjecture), {適法|てきほう} (lawful), {権益|けんえき} (vested interests), {薬効|やっこう} (medicinal effect)
-- **Other (4)**: {小技|こわざ} (trick/technique), {彩色|さいしょく} (coloring), {燃|も}え{殻|がら} (cinders), {無欠|むけつ} (flawless)
-- 1 new kanji (夭) assigned ID 02645
-- Removed 30 candidates that now exist as entries
-
-### 2026-04-03 (Vocabulary Expansion - 25 New Entries, Session 3)
-Added 25 new dictionary entries (IDs 21779-21803) from candidate_words.json. Focused on practical grammar, expressions, and common vocabulary useful for intermediate learners.
-
-- **Conjunctions (3)**: おまけに (on top of that), {加|くわ}えて (in addition), もっとも (however/though)
-- **Pre-noun adjectivals (2)**: こうした (such/this kind of), そうした (such/that kind of)
-- **Expressions (5)**: {目|め}を{見張|みは}る (to be amazed), {上手|うま}くいく (to go well), {白紙|はくし}に{戻|もど}る (to go back to square one), {気|き}がつく (to notice), {顔|かお}を{上|あ}げる (to raise one's head), 〜における (in/at - formal)
-- **Verbs (3)**: {名乗|なの}り{出|で}る (to come forward), {帰国|きこく}する (to return to one's country), {注|つ}ぎ{足|た}す (to top up)
-- **Nouns (2)**: {現役|げんえき} (active service), {得意先|とくいさき} (customer/client), バイキング (buffet), {予約済|よやくず}み (reserved)
-- **Adjectives (3)**: {小|ちい}さめ (rather small), {太|ふと}り{気味|ぎみ} (somewhat overweight), {食|た}べやすい (easy to eat), {平明|へいめい} (plain/clear)
-- **Particles (2)**: 〜つつ (while/although), 〜にて (at/in - formal)
-- **Adverb (1)**: いくらか (somewhat/some)
