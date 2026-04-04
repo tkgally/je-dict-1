@@ -6,106 +6,6 @@
   "gloss": "to agree, to approve",
   "conjugation": {
     "type": "suru",
-    "prefix": "{賛成|さんせい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to agree, to approve, to support",
-      "explanation": "To express agreement with an opinion, proposal, or plan."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05647_sanseisuru_ex1",
-      "japanese": "その{意見|いけん}に{賛成|さんせい}します。",
-      "english": "I agree with that opinion.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05647_sanseisuru_ex2",
-      "japanese": "{全員|ぜんいん}が{計画|けいかく}に{賛成|さんせい}した。",
-      "english": "Everyone agreed to the plan.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05647_sanseisuru_ex3",
-      "japanese": "{賛成|さんせい}の{方|かた}は{手|て}を{挙|あ}げてください。",
-      "english": "Those in favor, please raise your hand.",
-      "notes": "Used in meetings and voting",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05647_sanseisuru_ex4",
-      "japanese": "{彼女|かのじょ}の{提案|ていあん}に{賛成|さんせい}する{人|ひと}が{多|おお}かった。",
-      "english": "Many people agreed with her proposal.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05647_sanseisuru_ex5",
-      "japanese": "{最初|さいしょ}は{反対|はんたい}だったが、{話|はなし}を{聞|き}いてから{賛成|さんせい}することにした。",
-      "english": "I was against it at first, but after hearing the explanation, I decided to agree.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{賛成|さんせい}する means to agree, approve, or support a proposal or opinion.\n\nWORD STRUCTURE:\n{賛|さん} (approve) + {成|せい} (become/form) + する\n\nPARTICLE PATTERN:\n- ～に{賛成|さんせい}する: to agree with/to ~\n- {提案|ていあん}に{賛成|さんせい}する: to agree to a proposal\n\nCOMMON EXPRESSIONS:\n- {賛成|さんせい}か{反対|はんたい}か: for or against\n- {賛成|さんせい}です: I agree\n- {大|おお}{賛成|さんせい}: strongly in favor\n\nCOMMON COLLOCATIONS:\n- {賛成票|さんせいひょう}: vote in favor\n- {賛成|さんせい}{多数|たすう}: majority in favor\n- {全員|ぜんいん}{賛成|さんせい}: unanimous agreement\n\nOPPOSITE:\n{反対|はんたい}する: to oppose, disagree",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "はんたいする",
-      "headword": "{反対|はんたい}する",
-      "label": "to oppose",
-      "target_id": "05648_hantaisuru"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "core",
-    "tags": {
-      "pos": [
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "building",
-        "electronics",
-        "transportation"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "02829_sansei",
-      "reading": "さんせい",
-      "headword": "{賛成|さんせい}",
-      "note": "noun form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -193,5 +93,101 @@
         "negative": "{賛成|さんせい}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to agree, to approve, to support",
+      "explanation": "To express agreement with an opinion, proposal, or plan."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05647_sanseisuru_ex1",
+      "japanese": "その{意見|いけん}に{賛成|さんせい}します。",
+      "english": "I agree with that opinion.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05647_sanseisuru_ex2",
+      "japanese": "{全員|ぜんいん}が{計画|けいかく}に{賛成|さんせい}した。",
+      "english": "Everyone agreed to the plan.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05647_sanseisuru_ex3",
+      "japanese": "{賛成|さんせい}の{方|かた}は{手|て}を{挙|あ}げてください。",
+      "english": "Those in favor, please raise your hand.",
+      "notes": "Used in meetings and voting",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05647_sanseisuru_ex4",
+      "japanese": "{彼女|かのじょ}の{提案|ていあん}に{賛成|さんせい}する{人|ひと}が{多|おお}かった。",
+      "english": "Many people agreed with her proposal.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05647_sanseisuru_ex5",
+      "japanese": "{最初|さいしょ}は{反対|はんたい}だったが、{話|はなし}を{聞|き}いてから{賛成|さんせい}することにした。",
+      "english": "I was against it at first, but after hearing the explanation, I decided to agree.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{賛成|さんせい}する means to agree, approve, or support a proposal or opinion.\n\nWORD STRUCTURE:\n{賛|さん} (approve) + {成|せい} (become/form) + する\n\nPARTICLE PATTERN:\n- ～に{賛成|さんせい}する: to agree with/to ~\n- {提案|ていあん}に{賛成|さんせい}する: to agree to a proposal\n\nCOMMON EXPRESSIONS:\n- {賛成|さんせい}か{反対|はんたい}か: for or against\n- {賛成|さんせい}です: I agree\n- {大|おお}{賛成|さんせい}: strongly in favor\n\nCOMMON COLLOCATIONS:\n- {賛成票|さんせいひょう}: vote in favor\n- {賛成|さんせい}{多数|たすう}: majority in favor\n- {全員|ぜんいん}{賛成|さんせい}: unanimous agreement\n\nOPPOSITE:\n{反対|はんたい}する: to oppose, disagree",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05648_hantaisuru",
+      "reading": "はんたいする",
+      "headword": "{反対|はんたい}する",
+      "label": "to oppose"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T08:34:03Z",
+    "modified": "2026-04-04T02:26:11Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "core",
+    "tags": {
+      "pos": [
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "building",
+        "electronics",
+        "transportation"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02829_sansei",
+      "reading": "さんせい",
+      "headword": "{賛成|さんせい}",
+      "note": "noun form"
+    }
+  ]
 }

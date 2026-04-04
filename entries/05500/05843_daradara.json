@@ -6,7 +6,93 @@
   "gloss": "sluggishly, lazily, dripping",
   "conjugation": {
     "type": "suru",
-    "prefix": "だらだら"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "だらだらする",
+        "negative": "だらだらしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "だらだらします",
+        "negative": "だらだらしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "だらだらした",
+        "negative": "だらだらしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "だらだらしました",
+        "negative": "だらだらしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "だらだらして",
+        "negative": "だらだらしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "だらだらしている",
+        "negative": "だらだらしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "だらだらしています",
+        "negative": "だらだらしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "だらだらしていた",
+        "negative": "だらだらしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "だらだらしていました",
+        "negative": "だらだらしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "だらだらすれば",
+        "negative": "だらだらしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "だらだらしたら",
+        "negative": "だらだらしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "だらだらしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "だらだらしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "だらだらできる",
+        "negative": "だらだらできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "だらだらされる",
+        "negative": "だらだらされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "だらだらさせる",
+        "negative": "だらだらさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "だらだらしろ",
+        "negative": "だらだらするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -125,16 +211,23 @@
   "notes": "だらだら is an onomatopoeic word with two main uses. The more common sense describes lazy, aimless, or drawn-out behavior, often with a negative connotation of wasting time. The second sense describes liquid dripping or trickling slowly and continuously.\n\nCOMMON PATTERNS (sense 1 — lazily):\n- だらだら{過|す}ごす: to spend time lazily\n- だらだらと{長引|ながび}く: to drag on\n- だらだらする: to laze around, to be idle\n- だらだら{続|つづ}く: to go on and on without purpose\n\nCOMMON PATTERNS (sense 2 — dripping):\n- {汗|あせ}がだらだら{流|なが}れる: sweat dripping down\n- {血|ち}がだらだら{出|で}る: blood trickling continuously\n\nCONTRAST:\n- きびきび: briskly, energetically (opposite of sense 1)\n- てきぱき: efficiently, promptly (opposite of sense 1)\n- ぽたぽた: drip-drip (drops falling one by one, vs. だらだら's continuous flow)",
   "cross_references": [
     {
-      "type": "antonym",
+      "type": "synonym",
+      "target_id": "05844_guzuguzu",
+      "reading": "ぐずぐず",
+      "headword": "ぐずぐず",
+      "label": "dawdling"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05842_kibikibi",
       "reading": "きびきび",
       "headword": "きびきび",
-      "label": "energetically",
-      "target_id": "05842_kibikibi"
+      "label": "brisk, energetic"
     }
   ],
   "metadata": {
     "created": "2026-01-16T13:47:25Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T02:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -149,95 +242,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "だらだらする",
-        "negative": "だらだらしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "だらだらします",
-        "negative": "だらだらしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "だらだらした",
-        "negative": "だらだらしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "だらだらしました",
-        "negative": "だらだらしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "だらだらして",
-        "negative": "だらだらしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "だらだらしている",
-        "negative": "だらだらしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "だらだらしています",
-        "negative": "だらだらしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "だらだらしていた",
-        "negative": "だらだらしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "だらだらしていました",
-        "negative": "だらだらしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "だらだらすれば",
-        "negative": "だらだらしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "だらだらしたら",
-        "negative": "だらだらしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "だらだらしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "だらだらしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "だらだらできる",
-        "negative": "だらだらできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "だらだらされる",
-        "negative": "だらだらされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "だらだらさせる",
-        "negative": "だらだらさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "だらだらしろ",
-        "negative": "だらだらするな"
-      }
-    ]
   }
 }
