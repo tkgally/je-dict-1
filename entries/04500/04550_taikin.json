@@ -6,78 +6,6 @@
   "gloss": "leaving work",
   "conjugation": {
     "type": "suru",
-    "prefix": "{退勤|たいきん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "leaving work; clocking out",
-      "explanation": "leaving work; clocking out"
-    }
-  ],
-  "examples": [
-    {
-      "id": "04550_taikin_ex1",
-      "japanese": "5{時|じ}に{退勤|たいきん}した。",
-      "english": "I left work at 5 o'clock.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04550_taikin_ex2",
-      "japanese": "{退勤|たいきん}{後|ご}、ジムに{行|い}く。",
-      "english": "I go to the gym after work.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04550_taikin_ex3",
-      "japanese": "{退勤|たいきん}{時間|じかん}を{打刻|だこく}するのを{忘|わす}れた。",
-      "english": "I forgot to clock out.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{退勤|たいきん} means leaving work for the day. As a suru-verb, it means \"to leave work\", \"to clock out\".\n\nCommon compounds:\n- {退勤|たいきん}{時間|じかん} (time of leaving work)\n- {退勤|たいきん}{後|ご} (after work)\n\nAntonym: {出勤|しゅっきん} (going to work)\n\nRelated expressions:\n- タイムカードを{押|お}す (punch the time card)\n- {打刻|だこく}する (to clock in/out)\n- {定時|ていじ}で{上|あ}がる (leave at the regular time)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "しゅっきん",
-      "headword": "{出勤|しゅっきん}",
-      "label": "going to work",
-      "target_id": "04548_shukkin"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-14T19:01:55Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5-20251101",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "time-general",
-        "tool"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -165,5 +93,73 @@
         "negative": "{退勤|たいきん}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "leaving work; clocking out",
+      "explanation": "leaving work; clocking out"
+    }
+  ],
+  "examples": [
+    {
+      "id": "04550_taikin_ex1",
+      "japanese": "5{時|じ}に{退勤|たいきん}した。",
+      "english": "I left work at 5 o'clock.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04550_taikin_ex2",
+      "japanese": "{退勤|たいきん}{後|ご}、ジムに{行|い}く。",
+      "english": "I go to the gym after work.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04550_taikin_ex3",
+      "japanese": "{退勤|たいきん}{時間|じかん}を{打刻|だこく}するのを{忘|わす}れた。",
+      "english": "I forgot to clock out.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{退勤|たいきん} means leaving work for the day — the formal counterpart of casual expressions like {仕事|しごと}が{終|お}わる or {上|あ}がる.\n\nWORD FORMATION:\n{退|たい} (withdraw, leave) + {勤|きん} (work, service)\n\nCOMMON COLLOCATIONS:\n- {退勤|たいきん}{時間|じかん}: clock-out time\n- {退勤|たいきん}{後|ご}: after leaving work\n- {退勤|たいきん}する: to leave work, to clock out\n- {退勤|たいきん}{打刻|だこく}: clocking out (punching the time card)\n\nCONTRAST:\n- {退勤|たいきん} (leaving work) ↔ {出勤|しゅっきん} (going to work)\n- {退社|たいしゃ} can mean either leaving the office for the day OR leaving the company (quitting)\n\nRELATED EXPRESSIONS:\n- タイムカードを{押|お}す: to punch the time card\n- {打刻|だこく}する: to clock in/out\n- {定時|ていじ}で{上|あ}がる: to leave at the regular time\n- {残業|ざんぎょう}: overtime work\n\nREGISTER:\nFormal/workplace term. Used on time cards, attendance systems, and workplace communication.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "しゅっきん",
+      "headword": "{出勤|しゅっきん}",
+      "label": "going to work",
+      "target_id": "04548_shukkin"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-14T19:01:55Z",
+    "modified": "2026-04-04T12:31:47Z",
+    "ai_model": "claude-opus-4-5-20251101",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "time-general",
+        "tool"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
