@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-03
+**Last updated**: 2026-04-04
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 12)
+Added 30 new dictionary entries (IDs 22027-22056) from candidate_words.json. A diverse mix covering verbs, adjectives, nouns spanning culture, education, finance, science, and daily life.
+
+- **Verbs (4)**: {貫徹|かんてつ}する (to carry out thoroughly), {貫|つらぬ}き{通|とお}す (to persist with), {退役|たいえき}する (to retire from military), {祈祷|きとう}する (to pray/invoke)
+- **I-adjective (1)**: {秩序正|ちつじょただ}しい (orderly/well-disciplined)
+- **Nouns (25)**: {悲観主義|ひかんしゅぎ} (pessimism), {漫才師|まんざいし} (manzai comedian), {茜色|あかねいろ} (madder red), {緋色|ひいろ} (scarlet), {謝金|しゃきん} (honorarium), {謝恩会|しゃおんかい} (thank-you party), {定常|ていじょう} (steady/stable), {敷地内|しきちない} (inside the premises), {作業台|さぎょうだい} (workbench), {底面|ていめん} (bottom surface), {多層|たそう} (multi-layered), {各部|かくぶ} (each section), {編入生|へんにゅうせい} (transfer student), {下校時間|げこうじかん} (school dismissal time), {女子校|じょしこう} (girls' school), {使用期限|しようきげん} (use-by date), {自然選択|しぜんせんたく} (natural selection), {慰労金|いろうきん} (consolation money), {歩合給|ぶあいきゅう} (commission pay), {水上|すいじょう}バス (water bus), {出願書類|しゅつがんしょるい} (application documents), {不戦条約|ふせんじょうやく} (non-aggression pact), {編入試験|へんにゅうしけん} (transfer exam), {最高値|さいこうね} (highest price), {最高額|さいこうがく} (highest amount)
+- 2 new kanji (緋, 茜) assigned IDs 02651-02652
+- Removed 2 stale candidates (極寒 ごくかん — variant of existing ごっかん, 共存 きょうそん — variant of existing きょうぞん)
+
 ### 2026-04-04 (Vocabulary Expansion - 28 New Entries, Session 11)
 Added 28 new dictionary entries (IDs 21999-22026) from candidate_words.json. A diverse mix of nouns covering food culture, geography, military/politics, science, traditional culture, and daily life.
 
@@ -84,15 +93,5 @@ Added 30 new dictionary entries (IDs 21924-21953) from candidate_words.json. A d
 - **Verbs (3)**: {叩|たた}き{伏|ふ}せる (to knock down), {仕立|した}て{直|なお}す (to alter clothing), {動|うご}き{始|はじ}める (to begin moving)
 - **Expressions (1)**: {名|な}もなき (nameless), {追|お}いはぎ (highway robber)
 - Removed 30 candidates that now exist as entries
-
-### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 7)
-Added 30 new dictionary entries (IDs 21894-21923) from candidate_words.json. A diverse mix of na-adjectives, suru verbs, nouns, and expressions useful for intermediate learners.
-
-- **Na-adjectives (8)**: {神秘的|しんぴてき} (mysterious/mystical), {平均的|へいきんてき} (average/typical), {飛躍的|ひやくてき} (dramatic/remarkable), {金銭的|きんせんてき} (financial/monetary), {恣意的|しいてき} (arbitrary/capricious), {原始的|げんしてき} (primitive/primeval), {熱狂的|ねっきょうてき} (fanatical/fervent), {英雄的|えいゆうてき} (heroic/valiant), {独善的|どくぜんてき} (self-righteous/dogmatic)
-- **Suru verbs (7)**: {秘匿|ひとく}する (to conceal), {集中|しゅうちゅう}する (to concentrate), {中止|ちゅうし}する (to cancel), {管理|かんり}する (to manage), {妄想|もうそう}する (to fantasize), {注力|ちゅうりょく}する (to focus efforts), {離反|りはん}する (to defect), {推量|すいりょう}する (to conjecture)
-- **Nouns (7)**: {協議会|きょうぎかい} (council), {無給|むきゅう} (unpaid), {目尻|めじり} (outer corner of eye), {締切日|しめきりび} (deadline date), {流言|りゅうげん} (rumor), {立体感|りったいかん} (three-dimensionality), {注目度|ちゅうもくど} (degree of attention), {扱|あつか}い{方|かた} (how to handle), {老婦人|ろうふじん} (elderly woman), {林道|りんどう} (forest road), {料金表|りょうきんひょう} (price list)
-- **Expressions (2)**: {失礼|しつれい}します (excuse me), {恐|おそ}れ{入|い}ります (I'm sorry to trouble you — removed as duplicate of existing entry 17552)
-- 1 new kanji (恣) assigned ID 02647
-- Removed 1 stale candidate (恐れ入りますが — already exists as entry)
 
 
