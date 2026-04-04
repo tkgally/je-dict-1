@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-04 (Vocabulary Expansion - 28 New Entries, Session 11)
+Added 28 new dictionary entries (IDs 21999-22026) from candidate_words.json. A diverse mix of nouns covering food culture, geography, military/politics, science, traditional culture, and daily life.
+
+- **Nouns (28)**: {突|つ}き{出|だ}し (appetizer at izakaya), {祟|たた}り (curse/divine punishment), {兵力|へいりょく} (military strength), {極地|きょくち} (polar region), {青物|あおもの} (green vegetables), {終発|しゅうはつ} (last departure), {同盟国|どうめいこく} (allied nation), {病死|びょうし} (death from illness), {白髪染|しらがぞ}め (gray hair dye), {落下物|らっかぶつ} (falling object), {冥土|めいど} (the underworld), {餌|えさ}やり (feeding animals), {軍備|ぐんび} (armaments), {微粒子|びりゅうし} (fine particle), {宗家|そうけ} (head family/founding school), {溶媒|ようばい} (solvent), {伝令|でんれい} (messenger), {棒状|ぼうじょう} (rod-shaped), {利他主義|りたしゅぎ} (altruism), {一升|いっしょう} (one shou/1.8L), {術策|じゅっさく} (stratagem), {斜|なな}め{前|まえ} (diagonally in front), {週例|しゅうれい} (weekly), {野外活動|やがいかつどう} (outdoor activities), {造幣局|ぞうへいきょく} (the mint), {鼎談|ていだん} (three-person discussion), {藻類|そうるい} (algae), {観賞用|かんしょうよう} (ornamental)
+- 2 new kanji (祟, 鼎) assigned IDs 02649-02650
+- Removed 2 stale candidates (はしご — duplicate of 梯子, 打消し — variant of 打ち消し)
+
 ### 2026-04-04 (Vocabulary Expansion - 15 New Entries, Session 10)
 Added 15 new dictionary entries (IDs 21984-21998) from candidate_words.json. All are commonly used する verbs covering everyday activities and professional contexts.
 
@@ -87,16 +94,5 @@ Added 30 new dictionary entries (IDs 21894-21923) from candidate_words.json. A d
 - **Expressions (2)**: {失礼|しつれい}します (excuse me), {恐|おそ}れ{入|い}ります (I'm sorry to trouble you — removed as duplicate of existing entry 17552)
 - 1 new kanji (恣) assigned ID 02647
 - Removed 1 stale candidate (恐れ入りますが — already exists as entry)
-
-### 2026-04-03 (Vocabulary Expansion - 30 New Entries, Session 6)
-Added 30 new dictionary entries (IDs 21864-21893) from candidate_words.json. A diverse mix of practical vocabulary for intermediate learners including verbs, nouns, expressions, adjectives, and adverbs.
-
-- **Verbs (8)**: {考|かんが}え{込|こ}む (to ponder deeply), たしなむ (to enjoy as a pastime), {敢行|かんこう}する (to carry out boldly), {撃退|げきたい}する (to repel), {助成|じょせい}する (to subsidize), {見聞|みき}きする (to see and hear), {降|ふ}り{続|つづ}く (to keep falling), {見返|みかえ}る (to look back; to prove oneself)
-- **Nouns (10)**: {続行|ぞっこう} (continuation), {歩行|ほこう} (walking), {展示会|てんじかい} (exhibition), {年中無休|ねんじゅうむきゅう} (open year-round), {博識|はくしき} (erudition), {勝|か}ち{越|こ}し (winning record), {師弟|してい} (master and disciple), {私事|しじ} (personal matter), {音質|おんしつ} (sound quality), {事典|じてん} (encyclopedia)
-- **Expressions (3)**: {腕|うで}を{組|く}む (to fold one's arms), {息|いき}をつく (to catch one's breath), {小分|こわ}けする (to divide into smaller portions)
-- **Adjectives (2)**: {将来的|しょうらいてき} (future/prospective), {栗色|くりいろ} (chestnut color)
-- **Adverbs (3)**: {先立|さきだ}って (prior to; the other day), むくむく (swelling/fluffy), {夜毎|よごと} (every night)
-- **Other nouns (4)**: {県立|けんりつ} (prefectural), {同業|どうぎょう} (same trade), {酒席|しゅせき} (drinking party), {初陣|ういじん} (debut/first battle)
-- Removed 30 candidates that now exist as entries
 
 
