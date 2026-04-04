@@ -6,7 +6,93 @@
   "gloss": "relaxed, loose, spacious",
   "conjugation": {
     "type": "suru",
-    "prefix": "ゆったり"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ゆったりする",
+        "negative": "ゆったりしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "ゆったりします",
+        "negative": "ゆったりしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "ゆったりした",
+        "negative": "ゆったりしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ゆったりしました",
+        "negative": "ゆったりしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "ゆったりして",
+        "negative": "ゆったりしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "ゆったりしている",
+        "negative": "ゆったりしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "ゆったりしています",
+        "negative": "ゆったりしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "ゆったりしていた",
+        "negative": "ゆったりしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "ゆったりしていました",
+        "negative": "ゆったりしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "ゆったりすれば",
+        "negative": "ゆったりしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "ゆったりしたら",
+        "negative": "ゆったりしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "ゆったりしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "ゆったりしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "ゆったりできる",
+        "negative": "ゆったりできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "ゆったりされる",
+        "negative": "ゆったりされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "ゆったりさせる",
+        "negative": "ゆったりさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "ゆったりしろ",
+        "negative": "ゆったりするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -123,10 +209,18 @@
     }
   ],
   "notes": "ゆったり is a mimetic word expressing relaxation, spaciousness, or looseness.\n\nTWO MAIN MEANINGS:\n1. Relaxed manner: doing something at a calm, unhurried pace\n2. Loose/spacious: having plenty of room (clothing, space)\n\nUSAGE PATTERNS:\n- ゆったりする: to relax, to be at ease\n- ゆったり（と）+ verb: to do something in a relaxed way\n- ゆったりした + noun: loose, spacious (modifying noun)\n\nCOMMON EXPRESSIONS:\n- ゆったり{過|す}ごす: to spend time relaxing\n- ゆったりした{服|ふく}: loose-fitting clothes\n- ゆったりした{気分|きぶん}: relaxed feeling\n- ゆったりとした{時間|じかん}: leisurely time\n\nCONTRAST:\n- きつい: tight (opposite for clothing/space)\n- ばたばた: busy, hectic (opposite for pace)\n- のんびり: leisurely, carefree (similar but emphasizes lack of worry)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "05842_kibikibi",
+      "reading": "きびきび",
+      "headword": "きびきび",
+      "label": "brisk, energetic"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T13:46:51Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T02:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -142,95 +236,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "ゆったりする",
-        "negative": "ゆったりしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "ゆったりします",
-        "negative": "ゆったりしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "ゆったりした",
-        "negative": "ゆったりしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "ゆったりしました",
-        "negative": "ゆったりしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "ゆったりして",
-        "negative": "ゆったりしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "ゆったりしている",
-        "negative": "ゆったりしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "ゆったりしています",
-        "negative": "ゆったりしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "ゆったりしていた",
-        "negative": "ゆったりしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "ゆったりしていました",
-        "negative": "ゆったりしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "ゆったりすれば",
-        "negative": "ゆったりしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "ゆったりしたら",
-        "negative": "ゆったりしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "ゆったりしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "ゆったりしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "ゆったりできる",
-        "negative": "ゆったりできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "ゆったりされる",
-        "negative": "ゆったりされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "ゆったりさせる",
-        "negative": "ゆったりさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "ゆったりしろ",
-        "negative": "ゆったりするな"
-      }
-    ]
   }
 }

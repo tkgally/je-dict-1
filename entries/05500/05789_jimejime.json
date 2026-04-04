@@ -6,7 +6,93 @@
   "gloss": "damp, humid, gloomy",
   "conjugation": {
     "type": "suru",
-    "prefix": "じめじめ"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "じめじめする",
+        "negative": "じめじめしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "じめじめします",
+        "negative": "じめじめしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "じめじめした",
+        "negative": "じめじめしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "じめじめしました",
+        "negative": "じめじめしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "じめじめして",
+        "negative": "じめじめしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "じめじめしている",
+        "negative": "じめじめしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "じめじめしています",
+        "negative": "じめじめしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "じめじめしていた",
+        "negative": "じめじめしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "じめじめしていました",
+        "negative": "じめじめしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "じめじめすれば",
+        "negative": "じめじめしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "じめじめしたら",
+        "negative": "じめじめしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "じめじめしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "じめじめしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "じめじめできる",
+        "negative": "じめじめできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "じめじめされる",
+        "negative": "じめじめされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "じめじめさせる",
+        "negative": "じめじめさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "じめじめしろ",
+        "negative": "じめじめするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -123,10 +209,18 @@
     }
   ],
   "notes": "じめじめ is an onomatopoeic word describing unpleasant dampness or a gloomy atmosphere.\n\nTWO MEANINGS:\n1. Physical: damp, humid, clammy\n2. Emotional: gloomy, depressing\n\nUSAGE:\n- As adverb: じめじめした{部屋|へや} (damp room)\n- With する: じめじめする (to be damp/humid)\n\nCOMMON PATTERNS:\n- じめじめした{天気|てんき}: humid weather\n- じめじめした{場所|ばしょ}: damp place\n- じめじめした{話|はなし}: depressing talk\n- {梅雨|つゆ}でじめじめする: it's humid in the rainy season\n\nCONTRAST:\n- からっと: dry and refreshing (opposite feeling)\n- さらっと: dry, smooth\n\nNOTE:\nAlways carries a negative connotation. Associated with {梅雨|つゆ} (rainy season) when humidity is high and mold ({カビ}) grows.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05791_karatto",
+      "reading": "からっと",
+      "headword": "からっと",
+      "label": "dry, crisp"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:49:32Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T02:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -141,95 +235,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "じめじめする",
-        "negative": "じめじめしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "じめじめします",
-        "negative": "じめじめしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "じめじめした",
-        "negative": "じめじめしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "じめじめしました",
-        "negative": "じめじめしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "じめじめして",
-        "negative": "じめじめしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "じめじめしている",
-        "negative": "じめじめしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "じめじめしています",
-        "negative": "じめじめしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "じめじめしていた",
-        "negative": "じめじめしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "じめじめしていました",
-        "negative": "じめじめしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "じめじめすれば",
-        "negative": "じめじめしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "じめじめしたら",
-        "negative": "じめじめしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "じめじめしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "じめじめしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "じめじめできる",
-        "negative": "じめじめできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "じめじめされる",
-        "negative": "じめじめされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "じめじめさせる",
-        "negative": "じめじめさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "じめじめしろ",
-        "negative": "じめじめするな"
-      }
-    ]
   }
 }

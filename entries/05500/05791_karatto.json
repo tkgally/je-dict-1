@@ -6,7 +6,93 @@
   "gloss": "dry and refreshing, crispy",
   "conjugation": {
     "type": "suru",
-    "prefix": "からっと"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "からっとする",
+        "negative": "からっとしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "からっとします",
+        "negative": "からっとしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "からっとした",
+        "negative": "からっとしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "からっとしました",
+        "negative": "からっとしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "からっとして",
+        "negative": "からっとしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "からっとしている",
+        "negative": "からっとしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "からっとしています",
+        "negative": "からっとしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "からっとしていた",
+        "negative": "からっとしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "からっとしていました",
+        "negative": "からっとしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "からっとすれば",
+        "negative": "からっとしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "からっとしたら",
+        "negative": "からっとしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "からっとしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "からっとしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "からっとできる",
+        "negative": "からっとできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "からっとされる",
+        "negative": "からっとされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "からっとさせる",
+        "negative": "からっとさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "からっとしろ",
+        "negative": "からっとするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -178,10 +264,18 @@
     }
   ],
   "notes": "からっと is an onomatopoeic expression describing a pleasant dryness or crispness, whether in weather, food texture, or personality.\n\nUSAGE PATTERNS:\n- からっと{晴|は}れる: to clear up completely (weather)\n- からっと{揚|あ}げる: to fry until crispy\n- からっとした{性格|せいかく}: a cheerful, straightforward personality\n\nCOOKING TIPS:\nFor frying, からっと describes the ideal crispy texture without excess oil. Achieving this requires proper oil temperature and not overcrowding the pan.\n\nCONTRAST:\n- じめじめ: damp, humid, gloomy (opposite for weather/personality)\n- べちゃべちゃ: soggy, mushy (opposite for food texture)\n\nREGISTER:\nNeutral to casual. Common in everyday conversation, cooking shows, and weather reports.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05789_jimejime",
+      "reading": "じめじめ",
+      "headword": "じめじめ",
+      "label": "damp, humid"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:49:32Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T02:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -197,95 +291,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "からっとする",
-        "negative": "からっとしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "からっとします",
-        "negative": "からっとしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "からっとした",
-        "negative": "からっとしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "からっとしました",
-        "negative": "からっとしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "からっとして",
-        "negative": "からっとしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "からっとしている",
-        "negative": "からっとしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "からっとしています",
-        "negative": "からっとしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "からっとしていた",
-        "negative": "からっとしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "からっとしていました",
-        "negative": "からっとしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "からっとすれば",
-        "negative": "からっとしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "からっとしたら",
-        "negative": "からっとしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "からっとしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "からっとしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "からっとできる",
-        "negative": "からっとできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "からっとされる",
-        "negative": "からっとされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "からっとさせる",
-        "negative": "からっとさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "からっとしろ",
-        "negative": "からっとするな"
-      }
-    ]
   }
 }

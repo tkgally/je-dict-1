@@ -6,8 +6,93 @@
   "gloss": "to close, to set a deadline",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{締|し}め{切|き}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{締|し}め{切|き}る",
+        "negative": "{締|し}め{切|き}らない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{締|し}め{切|き}ります",
+        "negative": "{締|し}め{切|き}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{締|し}め{切|き}った",
+        "negative": "{締|し}め{切|き}らなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{締|し}め{切|き}りました",
+        "negative": "{締|し}め{切|き}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{締|し}め{切|き}って",
+        "negative": "{締|し}め{切|き}らなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{締|し}め{切|き}っている",
+        "negative": "{締|し}め{切|き}っていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{締|し}め{切|き}っています",
+        "negative": "{締|し}め{切|き}っていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{締|し}め{切|き}っていた",
+        "negative": "{締|し}め{切|き}っていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{締|し}め{切|き}っていました",
+        "negative": "{締|し}め{切|き}っていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{締|し}め{切|き}れば",
+        "negative": "{締|し}め{切|き}らなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{締|し}め{切|き}ったら",
+        "negative": "{締|し}め{切|き}らなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{締|し}め{切|き}ろう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{締|し}め{切|き}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{締|し}め{切|き}れる",
+        "negative": "{締|し}め{切|き}れない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{締|し}め{切|き}られる",
+        "negative": "{締|し}め{切|き}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{締|し}め{切|き}らせる",
+        "negative": "{締|し}め{切|き}らせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{締|し}め{切|き}れ",
+        "negative": "{締|し}め{切|き}るな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -124,10 +209,18 @@
     }
   ],
   "notes": "{締|し}め{切|き}る is a compound godan verb with two distinct meanings.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を particle: 〜を{締|し}め{切|き}る\n\nCOMPOUND STRUCTURE:\n{締|し}める (to close) + {切|き}る (completely). The {切|き}る suffix indicates thoroughness.\n\nCOMMON PATTERNS:\n- {窓|まど}を{締|し}め{切|き}る: to close all windows\n- {応募|おうぼ}を{締|し}め{切|き}る: to close applications\n- {受付|うけつけ}を{締|し}め{切|き}る: to close registration\n\nRELATED NOUN:\n{締|し}め{切|き}り: deadline\n- {締|し}め{切|き}りに{間|ま}に{合|あ}う: to meet the deadline\n- {締|し}め{切|き}りを{守|まも}る: to keep the deadline\n- {締|し}め{切|き}り{日|び}: deadline date",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline (noun)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-04T02:26:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -142,95 +235,5 @@
       ],
       "verb_class": "godan-ru"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{締|し}め{切|き}る",
-        "negative": "{締|し}め{切|き}らない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{締|し}め{切|き}ります",
-        "negative": "{締|し}め{切|き}りません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{締|し}め{切|き}った",
-        "negative": "{締|し}め{切|き}らなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{締|し}め{切|き}りました",
-        "negative": "{締|し}め{切|き}りませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{締|し}め{切|き}って",
-        "negative": "{締|し}め{切|き}らなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{締|し}め{切|き}っている",
-        "negative": "{締|し}め{切|き}っていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{締|し}め{切|き}っています",
-        "negative": "{締|し}め{切|き}っていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{締|し}め{切|き}っていた",
-        "negative": "{締|し}め{切|き}っていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{締|し}め{切|き}っていました",
-        "negative": "{締|し}め{切|き}っていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{締|し}め{切|き}れば",
-        "negative": "{締|し}め{切|き}らなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{締|し}め{切|き}ったら",
-        "negative": "{締|し}め{切|き}らなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{締|し}め{切|き}ろう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{締|し}め{切|き}りましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{締|し}め{切|き}れる",
-        "negative": "{締|し}め{切|き}れない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{締|し}め{切|き}られる",
-        "negative": "{締|し}め{切|き}られない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{締|し}め{切|き}らせる",
-        "negative": "{締|し}め{切|き}らせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{締|し}め{切|き}れ",
-        "negative": "{締|し}め{切|き}るな"
-      }
-    ]
   }
 }
