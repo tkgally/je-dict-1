@@ -6,7 +6,93 @@
   "gloss": "to do, to make",
   "conjugation": {
     "type": "suru",
-    "prefix": ""
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "する",
+        "negative": "しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "します",
+        "negative": "しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "した",
+        "negative": "しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "しました",
+        "negative": "しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "して",
+        "negative": "しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "している",
+        "negative": "していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "しています",
+        "negative": "していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "していた",
+        "negative": "していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "していました",
+        "negative": "していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "すれば",
+        "negative": "しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "したら",
+        "negative": "しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "できる",
+        "negative": "できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "される",
+        "negative": "されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "させる",
+        "negative": "させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "しろ",
+        "negative": "するな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -239,11 +325,25 @@
       "reading": "くる",
       "headword": "{来|く}る",
       "target_id": "00254_kuru"
+    },
+    {
+      "type": "keigo",
+      "target_id": "01314_itasu",
+      "reading": "いたす",
+      "headword": "いたす",
+      "label": "humble"
+    },
+    {
+      "type": "keigo",
+      "target_id": "01307_nasaru",
+      "reading": "なさる",
+      "headword": "なさる",
+      "label": "honorific"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:52:26Z",
-    "modified": "2026-03-29T03:02:24Z",
+    "modified": "2026-04-04T05:23:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -257,95 +357,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "する",
-        "negative": "しない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "します",
-        "negative": "しません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "した",
-        "negative": "しなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "しました",
-        "negative": "しませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "して",
-        "negative": "しなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "している",
-        "negative": "していない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "しています",
-        "negative": "していません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "していた",
-        "negative": "していなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "していました",
-        "negative": "していませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "すれば",
-        "negative": "しなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "したら",
-        "negative": "しなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "しよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "しましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "できる",
-        "negative": "できない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "される",
-        "negative": "されない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "させる",
-        "negative": "させない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "しろ",
-        "negative": "するな"
-      }
-    ]
   }
 }

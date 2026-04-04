@@ -6,7 +6,93 @@
   "gloss": "to see, to look, to watch",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{見|み}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{見|み}る",
+        "negative": "{見|み}ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{見|み}ます",
+        "negative": "{見|み}ません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{見|み}た",
+        "negative": "{見|み}なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{見|み}ました",
+        "negative": "{見|み}ませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{見|み}て",
+        "negative": "{見|み}なくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{見|み}ている",
+        "negative": "{見|み}ていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{見|み}ています",
+        "negative": "{見|み}ていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{見|み}ていた",
+        "negative": "{見|み}ていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{見|み}ていました",
+        "negative": "{見|み}ていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{見|み}れば",
+        "negative": "{見|み}なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{見|み}たら",
+        "negative": "{見|み}なかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{見|み}よう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{見|み}ましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{見|み}られる",
+        "negative": "{見|み}られない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{見|み}られる",
+        "negative": "{見|み}られない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{見|み}させる",
+        "negative": "{見|み}させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{見|み}ろ",
+        "negative": "{見|み}るな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -192,11 +278,25 @@
       "reading": "みせる",
       "headword": "{見|み}せる",
       "label": "to show"
+    },
+    {
+      "type": "keigo",
+      "target_id": "01311_goranninaru",
+      "reading": "ごらんになる",
+      "headword": "ご{覧|らん}になる",
+      "label": "honorific"
+    },
+    {
+      "type": "keigo",
+      "target_id": "01823_haikensuru",
+      "reading": "はいけんする",
+      "headword": "{拝見|はいけん}する",
+      "label": "humble"
     }
   ],
   "metadata": {
     "created": "2026-01-05T10:29:42Z",
-    "modified": "2026-03-31T07:54:58Z",
+    "modified": "2026-04-04T05:23:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -218,95 +318,5 @@
       "headword": "{診|み}る",
       "note": "examine (medically)"
     }
-  ],
-  "conjugation": {
-    "type": "ichidan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{見|み}る",
-        "negative": "{見|み}ない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{見|み}ます",
-        "negative": "{見|み}ません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{見|み}た",
-        "negative": "{見|み}なかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{見|み}ました",
-        "negative": "{見|み}ませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{見|み}て",
-        "negative": "{見|み}なくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{見|み}ている",
-        "negative": "{見|み}ていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{見|み}ています",
-        "negative": "{見|み}ていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{見|み}ていた",
-        "negative": "{見|み}ていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{見|み}ていました",
-        "negative": "{見|み}ていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{見|み}れば",
-        "negative": "{見|み}なければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{見|み}たら",
-        "negative": "{見|み}なかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{見|み}よう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{見|み}ましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{見|み}られる",
-        "negative": "{見|み}られない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{見|み}られる",
-        "negative": "{見|み}られない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{見|み}させる",
-        "negative": "{見|み}させない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{見|み}ろ",
-        "negative": "{見|み}るな"
-      }
-    ]
-  }
+  ]
 }

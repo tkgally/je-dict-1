@@ -6,8 +6,93 @@
   "gloss": "to arrive, to reach",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "{届|とど}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{届|とど}く",
+        "negative": "{届|とど}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{届|とど}きます",
+        "negative": "{届|とど}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{届|とど}いた",
+        "negative": "{届|とど}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{届|とど}きました",
+        "negative": "{届|とど}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{届|とど}いて",
+        "negative": "{届|とど}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{届|とど}いている",
+        "negative": "{届|とど}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{届|とど}いています",
+        "negative": "{届|とど}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{届|とど}いていた",
+        "negative": "{届|とど}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{届|とど}いていました",
+        "negative": "{届|とど}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{届|とど}けば",
+        "negative": "{届|とど}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{届|とど}いたら",
+        "negative": "{届|とど}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{届|とど}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{届|とど}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{届|とど}ける",
+        "negative": "{届|とど}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{届|とど}かれる",
+        "negative": "{届|とど}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{届|とど}かせる",
+        "negative": "{届|とど}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{届|とど}け",
+        "negative": "{届|とど}くな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -124,18 +209,10 @@
     }
   ],
   "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {届|とど}ける (transitive). Pattern: Xが{届|とど}く (X arrives/reaches).\n\nASPECT: ている indicates resulting state. {届|とど}いている = 'has arrived' (and is here now).\n\nCOMMON PATTERNS:\n・{荷物|にもつ}が{届|とど}く (package arrives)\n・{手|て}が{届|とど}く (can reach - physical)\n・{声|こえ}が{届|とど}く (voice reaches - figurative)\n・まだ{届|とど}いていない (hasn't arrived yet)\n\nPAIR: {届|とど}ける (transitive) - {荷物|にもつ}を{届|とど}けた (delivered the package).",
-  "cross_references": [
-    {
-      "type": "pair",
-      "reading": "とどける",
-      "headword": "{届|とど}ける",
-      "label": "transitive",
-      "target_id": "01248_todokeru"
-    }
-  ],
+  "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:47:14Z",
-    "modified": "2026-03-29T03:03:11Z",
+    "modified": "2026-04-04T05:23:08Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -150,94 +227,12 @@
       "verb_class": "godan-ku"
     }
   },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{届|とど}く",
-        "negative": "{届|とど}かない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{届|とど}きます",
-        "negative": "{届|とど}きません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{届|とど}いた",
-        "negative": "{届|とど}かなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{届|とど}きました",
-        "negative": "{届|とど}きませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{届|とど}いて",
-        "negative": "{届|とど}かなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{届|とど}いている",
-        "negative": "{届|とど}いていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{届|とど}いています",
-        "negative": "{届|とど}いていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{届|とど}いていた",
-        "negative": "{届|とど}いていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{届|とど}いていました",
-        "negative": "{届|とど}いていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{届|とど}けば",
-        "negative": "{届|とど}かなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{届|とど}いたら",
-        "negative": "{届|とど}かなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{届|とど}こう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{届|とど}きましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{届|とど}ける",
-        "negative": "{届|とど}けない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{届|とど}かれる",
-        "negative": "{届|とど}かれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{届|とど}かせる",
-        "negative": "{届|とど}かせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{届|とど}け",
-        "negative": "{届|とど}くな"
-      }
-    ]
-  }
+  "prominent_see_also": [
+    {
+      "target_id": "01248_todokeru",
+      "reading": "とどける",
+      "headword": "{届|とど}ける",
+      "note": "transitive"
+    }
+  ]
 }
