@@ -32,39 +32,12 @@ Status values:
 - `completed` — Cross-references reviewed and updated
 - `skipped` — Intentionally skipped (with reason noted in session log)
 
-The tracking file is pre-populated with all basic and core tier entries. After those are exhausted, continue with general tier entries sequentially by numeric ID.
+The tracking file contains all general tier entries sorted by numeric ID. Basic and core tier entries were completed in earlier sessions and have been removed from the tracking file.
 
 ## Starting Point
 
 ```bash
 grep "^pending" prompts/add-cross-references-tracking.txt | head -1
-```
-
-If all entries in the tracking file are completed, find the highest completed ID and continue with the next general-tier entry by ID:
-
-```bash
-# Find the next general entry to process
-python3 -c "
-import json
-with open('entries_index.json') as f:
-    idx = json.load(f)
-# Get highest completed ID from tracking file
-import re
-max_id = 0
-with open('prompts/add-cross-references-tracking.txt') as f:
-    for line in f:
-        if line.startswith('completed'):
-            m = re.search(r'\| (\d{5})_', line)
-            if m:
-                max_id = max(max_id, int(m.group(1)))
-# Find next general entry
-entries = sorted(idx['entries'], key=lambda e: e['id'])
-for e in entries:
-    num = int(e['id'].split('_')[0])
-    if num > max_id:
-        print(f\"Next: {e['id']} | {e.get('headword','')} | {e.get('vocabulary_tier','')}\")
-        break
-"
 ```
 
 ## Workflow for Each Entry
@@ -162,18 +135,6 @@ make build
 git add -A && git commit -m "Add cross-references: XXXXX-XXXXX"
 ```
 
-## When General Tier Entries Are Reached
-
-Once all basic and core entries in the tracking file are completed, continue with general tier entries:
-
-1. Find the next general entry by ID (see "Starting Point" above)
-2. Process it using the same workflow
-3. Append a `completed` line to the tracking file for each processed general entry:
-   ```
-   completed | XXXXX_word | {漢字|かな} | general | pos
-   ```
-4. Continue sequentially through general entries by ID
-
 ## Session End
 
 When finishing (end of session or context getting long):
@@ -224,7 +185,7 @@ Report:
 4. Number of cross_references links added
 5. Number of references fixed or migrated
 6. Next entry to continue from
-7. Estimated remaining entries (for basic/core phase)
+7. Estimated remaining general tier entries
 
 ## PR and Merge Workflow
 
