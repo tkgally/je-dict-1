@@ -44,10 +44,32 @@
     }
   ],
   "notes": "{工業|こうぎょう} means industry or manufacturing, referring to the production of goods from raw materials.\n\nTYPES:\n- {重工業|じゅうこうぎょう}: heavy industry\n- {軽工業|けいこうぎょう}: light industry\n- {自動車|じどうしゃ}{工業|こうぎょう}: automobile industry\n- {化学|かがく}{工業|こうぎょう}: chemical industry\n\nCOMMON EXPRESSIONS:\n- {工業|こうぎょう}{地帯|ちたい}: industrial zone\n- {工業|こうぎょう}{製品|せいひん}: industrial products\n- {工業|こうぎょう}{国|こく}: industrialized nation\n- {工業|こうぎょう}{化|か}: industrialization\n\nCONTRAST:\n- {商業|しょうぎょう}: commerce, trade\n- {農業|のうぎょう}: agriculture\n- {産業|さんぎょう}: industry (broader term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01491_nougyou",
+      "reading": "のうぎょう",
+      "headword": "{農業|のうぎょう}",
+      "label": "agriculture"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09940_shougyou",
+      "reading": "しょうぎょう",
+      "headword": "{商業|しょうぎょう}",
+      "label": "commerce"
+    },
+    {
+      "type": "related",
+      "target_id": "01419_sangyou",
+      "reading": "さんぎょう",
+      "headword": "{産業|さんぎょう}",
+      "label": "industry (broader)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:29:11Z",
-    "modified": "2026-03-11T03:40:54Z",
+    "modified": "2026-04-04T06:28:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
