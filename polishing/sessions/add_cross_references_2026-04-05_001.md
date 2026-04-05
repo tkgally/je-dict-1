@@ -2,61 +2,52 @@
 Date: 2026-04-05
 
 ### prominent_see_also Added
-- 01737_ippan ↔ 04784_ippanteki: noun/na-adjective pair
-- 01773_araware ↔ 01870_arawareru: noun/verb pair
+- 01803 ↔ 09685: 市場(いちば) ↔ 市場(しじょう) — same kanji, different reading
+- 01827 ↔ 01829: 今に ↔ 今にも — easily confused adverbs
+- 01856 ↔ 01858: 暖まる ↔ 暖める — intransitive/transitive pair
+- 01860 ↔ 01864: 当たる ↔ 当てる — intransitive/transitive pair
+- 01870 → 02097: 現れる → 現す — transitive pair
+- 01872 → 10466: 合わせる → 合う — intransitive pair
 
 ### cross_references Added
-- 01736_mottomo → 01140_ichiban: synonym (most, casual)
-- 01736_mottomo → 00798_motto: contrast (more, comparative)
-- 01140_ichiban → 01736_mottomo: synonym (most, formal/written)
-- 00798_motto → 01736_mottomo: contrast (most, superlative)
-- 01737_ippan → 01502_futsuu: contrast (ordinary, colloquial)
-- 01502_futsuu → 01737_ippan: contrast (general, formal)
-- 01739_ippou → 01750_ryouhou: related (both sides)
-- 01742_yunyuu → 01727_boueki: related (trade)
-- 01746_youi → 02083_shitaku: synonym (getting ready)
-- 02083_shitaku → 01746_youi: synonym (preparation)
-- 01751_kousei → 01648_kouhei: synonym (fair, everyday)
-- 01648_kouhei → 01751_kousei: synonym (fair, formal/legal)
-- 01752_riyou → 00473_tsukau: synonym (use, everyday)
-- 01752_riyou → 02620_katsuyou: synonym (put to practical use)
-- 01753_juutai → 14414_juushou: contrast (serious injury)
-- 01754_rusu → 11302_fuzai: synonym (absence, formal)
-- 01757_tannaru → 03415_tanni: related (merely, adverb form)
-- 01758_wasuremono → 00474_wasureru: related (to forget, base verb)
-- 01758_wasuremono → 08450_otoshimono: contrast (dropped item)
-- 01759_douitsu → 02857_onaji: synonym (same, everyday)
-- 01759_douitsu → 01654_douyou: synonym (same manner)
-- 01760_wariai → 06727_hiritsu: synonym (ratio, formal)
-- 01764_mi → 00784_karada: related (body, physical)
-- 01766_myou → 01630_kimyou: related (strange, queer)
-- 01766_myou → 03589_bimyou: related (subtle, delicate)
-- 01770_atari → 00044_fukin: synonym (vicinity, formal)
-- 01771_arukooru → 01045_osake: synonym (alcohol/sake)
-- 01774_ootobai → 05081_baiku: synonym (bike, casual)
-- 01778_iin → 00577_byouin: contrast (hospital, larger)
+- 01787 → 04117: related — 泉 → 温泉
+- 01788 → 03155: related — パパ → ママ
+- 01788 → 02855: related — パパ → お父さん
+- 01791 ↔ 01343: synonym — プレゼント ↔ 贈り物
+- 01793 ↔ 00597: synonym — 一杯 ↔ たくさん
+- 01798 → 00039: synonym — 偉大 → 偉い
+- 01798 → 01093: synonym — 偉大 → 立派
+- 01800 → 03363: synonym — 格好 → 姿
+- 01800 → 03594: synonym — 格好 → 服装
+- 01801 → 08891: synonym — 一度に → 一気
+- 01804 → 05357: contrast — すっと → さっと
+- 01805 → 03226: synonym — 一瞬 → 瞬間
+- 01814 → 00912: synonym — いつまでも → ずっと
+- 01823 → 00283: keigo — 拝見する → 見る (plain form)
+- 01823 → 01311: keigo — 拝見する → ご覧になる (honorific)
+- 01828 → 01431: synonym — 支度する → 準備
+- 01828 → 01746: synonym — 支度する → 用意
+- 01833 → 01947: contrast — 招待する → 誘う
+- 01838 ↔ 01881: related — 祝い ↔ 祝う
+- 01841 → 03289: synonym — 生産する → 製造
+- 01841 → 03240: antonym — 生産する → 消費
+- 01847 ↔ 01849: antonym — 退院する ↔ 入院する
+- 01848 → 04559: synonym — 引退 → 退職
+- 01851 → 01643: antonym — 入学する → 卒業
+- 01842 → 04582: related — 老い → 老いる
+- 01873 ↔ 01875: synonym — 永遠 ↔ 永久
+- 01874 → 04619: synonym — 慌てる → 焦る
+- 01878 → 11541: antonym — 営業 → 休業
 
 ### References Fixed/Migrated
-- 01770_atari: Fixed garbled reading in cross_reference
-
-### Entries Skipped (no changes needed)
-- 01738_momen: Already has contrast→絹
-- 01741_idou: Already has prominent_see_also→異動
-- 01743_imasara: Standalone adverb
-- 01748_yoshuu: Already has antonym→復習
-- 01761_akusesarii: Standalone loanword
-- 01765_anaunsaa: Standalone loanword
-- 01775_aware: Standalone aesthetic term
-- 01776_an: Standalone abstract noun
-- 01779_jamu: Standalone food loanword
-- 01781_suutsukeesu: Standalone loanword
+- 09685 (市場/しじょう): Migrated cross_reference "related" → ichiba to prominent_see_also
 
 ### Statistics
-- Entries reviewed this session: 25
-- prominent_see_also links added: 4 (2 bidirectional pairs)
-- cross_references links added: 29
+- Entries reviewed this session: 56
+- prominent_see_also links added: 12 (6 bidirectional pairs)
+- cross_references links added: 32
 - References fixed/migrated: 1
-- Entry range: 01736 through 01781
+- Entry range: 01782 through 01882
 
 ### Next Entry
-01782_ikioi
+01885
