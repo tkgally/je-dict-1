@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
+Added 30 new dictionary entries (IDs 22310-22339) from candidate_words.json. A diverse mix covering daily life, culture, sports, food, business, geography, and more.
+
+- **Verb (1)**: {語|かた}り{継|つ}ぐ (to pass down orally)
+- **Adverb (1)**: {思|おも}う{存分|ぞんぶん} (to one's heart's content)
+- **Nouns (28)**: {切|き}り{口|くち} (perspective/cross-section), {追加|ついか}{料金|りょうきん} (additional fee), {停学|ていがく} (school suspension), {社会|しゃかい}{貢献|こうけん} (social contribution), {駆|か}け{足|あし} (running/quick pace), {懸垂|けんすい} (pull-up), {案内|あんない}{板|ばん} (information board), {彫像|ちょうぞう} (statue), {空前|くうぜん} (unprecedented), {馬券|ばけん} (horse racing ticket), {知力|ちりょく} (intellect), {年代物|ねんだいもの} (vintage item), {鼻筋|はなすじ} (bridge of nose), {取|と}り{壊|こわ}し (demolition), {建設中|けんせつちゅう} (under construction), {営業|えいぎょう}スマイル (customer-service smile), {豚丼|ぶたどん} (pork bowl), {百人一首|ひゃくにんいっしゅ} (Hyakunin Isshu), {懸賞金|けんしょうきん} (prize money), {講談|こうだん} (storytelling), {喫煙席|きつえんせき} (smoking seat), {宝飾品|ほうしょくひん} (jewelry), {躍動感|やくどうかん} (sense of dynamism), インテリア (interior), {急坂|きゅうざか} (steep slope), {平均台|へいきんだい} (balance beam), {跳|と}び{箱|ばこ} (vaulting box), {酪農家|らくのうか} (dairy farmer)
+
 ### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 20)
 Added 28 new dictionary entries (IDs 22282-22309) from candidate_words.json. A diverse mix covering daily life, culture, business, sports, food, and language.
 
@@ -93,21 +100,6 @@ Added 23 new dictionary entries (IDs 22169-22191) from candidate_words.json. Foc
 - **Expressions (5)**: {頼|たよ}りにする (to rely on), さよなら (goodbye), {場|ば}を{和|なご}ませる (to lighten the mood), お{会|あ}いする (to meet, humble), {誹謗|ひぼう}する (to slander)
 - **Pre-noun adjectival (1)**: ただの (mere, just)
 
-### 2026-04-05 (Vocabulary Expansion - 24 New Entries, Session 15)
-Added 24 new dictionary entries (IDs 22145-22168) from candidate_words.json. A diverse mix of verbs, nouns, and adjectives covering daily life, education, personality, society, and culture.
-
-- **Verbs (10)**: {禁止|きんし}する (to prohibit), {実行|じっこう}する (to execute), {通学|つうがく}する (to commute to school), {誇張|こちょう}する (to exaggerate), {完備|かんび}する (to be fully equipped), {登園|とうえん}する (to go to kindergarten), ちゃっかりする (to be shrewd), {発売|はつばい}{開始|かいし}する (start of sales), {臨場|りんじょう}する (to be present at scene), {包摂|ほうせつ}する (inclusion)
-- **Nouns (10)**: {受|う}け{入|い}れ (acceptance), {���頭|こうとう}{試験|しけん} (oral exam), {髪染|かみぞ}め (hair dye), {時事|じじ}{問題|もんだい} (current affairs), {後部|こうぶ}{座席|ざせき} (back seat), {研究生|けんきゅうせい} (research student), {屋上|おくじょう}{庭園|ていえん} (rooftop garden), {改良|かいりょう}{型|がた} (improved model), {武勇|ぶゆう} (bravery in battle), {餅肌|もちはだ} (smooth skin)
-- **Noun/adjective (4)**: {天真爛漫|てんしんらんまん} (innocent and cheerful), {勇猛|ゆうもう} (brave and fierce), {豪胆|ごうたん} (bold/daring), {狭隘|きょうあい} (narrow/cramped)
-- 1 new kanji (隘) assigned ID 02653
-
-### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 14)
-Added 28 new dictionary entries (IDs 22087-22114) from candidate_words.json. A practical mix covering daily life, education, culture, technology, social behavior, and body-related vocabulary.
-
-- **Nouns (16)**: {施錠|せじょう} (locking), {館内|かんない} (inside the building), {入店|にゅうてん} (entering a store), {紙切|かみき}れ (scrap of paper), {日記帳|にっきちょう} (diary), {胸元|むなもと} (chest area), {喉元|のどもと} (throat), {翻訳者|ほんやくしゃ} (translator), {購読者|こうどくしゃ} (subscriber), {学習者|がくしゅうしゃ} (learner), {文学賞|ぶんがくしょう} (literary prize), {新人賞|しんじんしょう} (newcomer award), {外付|そとづ}け (external), {本場物|ほんばもの} (authentic article), {反目|はんもく} (discord), {型番|かたばん} (model number), {首席|しゅせき} (top rank), {礼拝堂|れいはいどう} (chapel), {選択式|せんたくしき} (multiple-choice), {流転|るてん} (constant change), {走破|そうは} (completing a course), {鑑定士|かんていし} (appraiser), {雨|あま}よけ (rain shelter), マウンティング (one-upmanship)
-- **Na-adjective (1)**: ロマンチック (romantic)
-- **Verb (1)**: {書|か}き{損|そこ}ねる (to fail to write)
-- **Expressions (2)**: {相性|あいしょう}がいい (compatible), {頭|あたま}の{回転|かいてん}が{速|はや}い (quick-witted)
 
 
 
