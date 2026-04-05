@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 18)
+Added 30 new dictionary entries (IDs 22222-22251) from candidate_words.json. A broad mix of adverbs, expressions, and nouns covering grammar, daily life, politics, culture, finance, and more.
+
+- **Adverbs (4)**: {同時|どうじ}に (at the same time), まっしぐら (headlong), そそくさと (hurriedly), とりたてて (particularly)
+- **Expressions (6)**: たびに (every time), あっけにとられる (to be dumbfounded), {具合|ぐあい}が{悪|わる}い (to feel unwell), {失礼|しつれい}ですが (excuse me but), {目|め}を{向|む}ける (to turn attention to), {軌道|きどう}に{乗|の}る (to get on track), {胸|むね}に{秘|ひ}める (to keep in one's heart)
+- **Na-adjective (1)**: {進歩的|しんぽてき} (progressive)
+- **Nouns (19)**: {値下|ねさ}がり (price drop), {買|か}い{物袋|ものぶくろ} (shopping bag), ごみ{袋|ぶくろ} (trash bag), {転入|てんにゅう} (moving in/transfer), {代案|だいあん} (alternative plan), {被疑者|ひぎしゃ} (suspect), {通達|つうたつ} (official directive), {湯上|ゆあ}がり (after a bath), {自嘲|じちょう} (self-mockery), {休眠|きゅうみん} (dormancy), {岩盤|がんばん} (bedrock), {共和制|きょうわせい} (republic), {表現|ひょうげん}の{自由|じゆう} (freedom of expression), {吟醸酒|ぎんじょうしゅ} (ginjo sake), {枝葉|えだは} (branches and leaves), {鉱石|こうせき} (ore), {貼付|ちょうふ} (affixing), {定期預金|ていきよきん} (time deposit)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 17)
 Added 30 new dictionary entries (IDs 22192-22221) from candidate_words.json. A diverse mix of nouns, an i-adjective, an adverb, and a loanword covering politics, work culture, religion, environment, language, society, fashion, food, sports, and more.
 
@@ -92,34 +100,6 @@ Added 30 new dictionary entries (IDs 22057-22086) from candidate_words.json. A d
 - **Verbs (1)**: {走|はし}り{続|つづ}ける (to keep running)
 - **Nouns (18)**: {飲|の}みすぎ (overdrinking), {自動|じどう}{引|ひ}き{落|お}とし (automatic withdrawal), {試験|しけん}{問題|もんだい} (exam questions), {反復|はんぷく}{練習|れんしゅう} (drill practice), {全世界|ぜんせかい} (the whole world), {品質|ひんしつ}{保証|ほしょう} (quality assurance), {整形|せいけい}{外科|げか} (orthopedics), {新版|しんぱん} (new edition), {水|みず}ぶくれ (blister), {髪質|かみしつ} (hair texture), {県知事|けんちじ} (prefectural governor), {楽章|がくしょう} (musical movement), {生魚|なまざかな} (raw fish), {補欠|ほけつ}{選挙|せんきょ} (by-election), {設問|せつもん} (question on a test), {走行中|そうこうちゅう} (while driving), {訴求力|そきゅうりょく} (appeal/persuasive power), {水栓|すいせん} (water faucet), マグマ (magma), {昇級|しょうきゅう} (promotion in rank)
 - **Expressions (4)**: {一度|いちど}きり (only once), {以前|いぜん}{通|どお}り (as before), {今|いま}まで{通|どお}り (as usual), {着想|ちゃくそう}を{得|え}る (to get an idea)
-
-### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 12)
-Added 30 new dictionary entries (IDs 22027-22056) from candidate_words.json. A diverse mix covering verbs, adjectives, nouns spanning culture, education, finance, science, and daily life.
-
-- **Verbs (4)**: {貫徹|かんてつ}する (to carry out thoroughly), {貫|つらぬ}き{通|とお}す (to persist with), {退役|たいえき}する (to retire from military), {祈祷|きとう}する (to pray/invoke)
-- **I-adjective (1)**: {秩序正|ちつじょただ}しい (orderly/well-disciplined)
-- **Nouns (25)**: {悲観主義|ひかんしゅぎ} (pessimism), {漫才師|まんざいし} (manzai comedian), {茜色|あかねいろ} (madder red), {緋色|ひいろ} (scarlet), {謝金|しゃきん} (honorarium), {謝恩会|しゃおんかい} (thank-you party), {定常|ていじょう} (steady/stable), {敷地内|しきちない} (inside the premises), {作業台|さぎょうだい} (workbench), {底面|ていめん} (bottom surface), {多層|たそう} (multi-layered), {各部|かくぶ} (each section), {編入生|へんにゅうせい} (transfer student), {下校時間|げこうじかん} (school dismissal time), {女子校|じょしこう} (girls' school), {使用期限|しようきげん} (use-by date), {自然選択|しぜんせんたく} (natural selection), {慰労金|いろうきん} (consolation money), {歩合給|ぶあいきゅう} (commission pay), {水上|すいじょう}バス (water bus), {出願書類|しゅつがんしょるい} (application documents), {不戦条約|ふせんじょうやく} (non-aggression pact), {編入試験|へんにゅうしけん} (transfer exam), {最高値|さいこうね} (highest price), {最高額|さいこうがく} (highest amount)
-- 2 new kanji (緋, 茜) assigned IDs 02651-02652
-- Removed 2 stale candidates (極寒 ごくかん — variant of existing ごっかん, 共存 きょうそん — variant of existing きょうぞん)
-
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 12)
-Added 30 new dictionary entries (IDs 22115-22144) from candidate_words.json. A diverse mix of words including verbs, nouns, expressions, and an onomatopoeia, covering health, daily life, culture, education, nature, and social situations.
-
-- **Verbs (4)**: こじらせる (to make worse/complicate), {退出|たいしゅつ}する (to leave/exit), {窒息|ちっそく}する (to suffocate), むせ{返|かえ}る (to choke violently)
-- **Nouns (10)**: {安物|やすもの} (cheap item), {学習塾|がくしゅうじゅく} (cram school), {近辺|きんぺん} (nearby area), {専門用語|せんもんようご} (technical term), {商品券|しょうひんけん} (gift certificate), ニキビ (pimple), {原作者|げんさくしゃ} (original author), {有害物質|ゆうがいぶっしつ} (harmful substance), {加速度|かそくど} (acceleration), {発売中|はつばいちゅう} (now on sale)
-- **Noun/adjective (3)**: {折|お}り{紙|がみ}{付|つ}き (guaranteed quality), {東西南北|とうざいなんぼく} (four directions), {長命|ちょうめい} (long-lived)
-- **Expressions (8)**: どちらにしても (either way), {多少|たしょう}なりとも (to some extent), {思|おも}いのまま (as one wishes), {季節|きせつ}の{変|か}わり{目|め} (change of seasons), {見込|みこ}み{違|ちが}い (misjudgment), {情|なさ}け{容赦|ようしゃ}ない (merciless), どれでもいい (whichever is fine), {態度|たいど}を{変|か}える (to change attitude)
-- **Noun/expression (1)**: {超特急|ちょうとっきゅう} (super express/at top speed)
-- **Noun/expression (1)**: {相性|あいしょう}が{悪|わる}い (incompatible)
-- **Noun (1)**: {罠|わな}にかかる (to be caught in a trap)
-- **Adverb (1)**: ぐいぐい (forcefully/aggressively)
-
-### 2026-04-04 (Vocabulary Expansion - 28 New Entries, Session 11)
-Added 28 new dictionary entries (IDs 21999-22026) from candidate_words.json. A diverse mix of nouns covering food culture, geography, military/politics, science, traditional culture, and daily life.
-
-- **Nouns (28)**: {突|つ}き{出|だ}し (appetizer at izakaya), {祟|たた}り (curse/divine punishment), {兵力|へいりょく} (military strength), {極地|きょくち} (polar region), {青物|あおもの} (green vegetables), {終発|しゅうはつ} (last departure), {同盟国|どうめいこく} (allied nation), {病死|びょうし} (death from illness), {白髪染|しらがぞ}め (gray hair dye), {落下物|らっかぶつ} (falling object), {冥土|めいど} (the underworld), {餌|えさ}やり (feeding animals), {軍備|ぐんび} (armaments), {微粒子|びりゅうし} (fine particle), {宗家|そうけ} (head family/founding school), {溶媒|ようばい} (solvent), {伝令|でんれい} (messenger), {棒状|ぼうじょう} (rod-shaped), {利他主義|りたしゅぎ} (altruism), {一升|いっしょう} (one shou/1.8L), {術策|じゅっさく} (stratagem), {斜|なな}め{前|まえ} (diagonally in front), {週例|しゅうれい} (weekly), {野外活動|やがいかつどう} (outdoor activities), {造幣局|ぞうへいきょく} (the mint), {鼎談|ていだん} (three-person discussion), {藻類|そうるい} (algae), {観賞用|かんしょうよう} (ornamental)
-- 2 new kanji (祟, 鼎) assigned IDs 02649-02650
-- Removed 2 stale candidates (はしご — duplicate of 梯子, 打消し — variant of 打ち消し)
 
 
 
