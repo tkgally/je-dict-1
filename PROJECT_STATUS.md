@@ -77,19 +77,24 @@ Added 30 new dictionary entries (IDs 22027-22056) from candidate_words.json. A d
 - 2 new kanji (緋, 茜) assigned IDs 02651-02652
 - Removed 2 stale candidates (極寒 ごくかん — variant of existing ごっかん, 共存 きょうそん — variant of existing きょうぞん)
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 12)
+Added 30 new dictionary entries (IDs 22115-22144) from candidate_words.json. A diverse mix of words including verbs, nouns, expressions, and an onomatopoeia, covering health, daily life, culture, education, nature, and social situations.
+
+- **Verbs (4)**: こじらせる (to make worse/complicate), {退出|たいしゅつ}する (to leave/exit), {窒息|ちっそく}する (to suffocate), むせ{返|かえ}る (to choke violently)
+- **Nouns (10)**: {安物|やすもの} (cheap item), {学習塾|がくしゅうじゅく} (cram school), {近辺|きんぺん} (nearby area), {専門用語|せんもんようご} (technical term), {商品券|しょうひんけん} (gift certificate), ニキビ (pimple), {原作者|げんさくしゃ} (original author), {有害物質|ゆうがいぶっしつ} (harmful substance), {加速度|かそくど} (acceleration), {発売中|はつばいちゅう} (now on sale)
+- **Noun/adjective (3)**: {折|お}り{紙|がみ}{付|つ}き (guaranteed quality), {東西南北|とうざいなんぼく} (four directions), {長命|ちょうめい} (long-lived)
+- **Expressions (8)**: どちらにしても (either way), {多少|たしょう}なりとも (to some extent), {思|おも}いのまま (as one wishes), {季節|きせつ}の{変|か}わり{目|め} (change of seasons), {見込|みこ}み{違|ちが}い (misjudgment), {情|なさ}け{容赦|ようしゃ}ない (merciless), どれでもいい (whichever is fine), {態度|たいど}を{変|か}える (to change attitude)
+- **Noun/expression (1)**: {超特急|ちょうとっきゅう} (super express/at top speed)
+- **Noun/expression (1)**: {相性|あいしょう}が{悪|わる}い (incompatible)
+- **Noun (1)**: {罠|わな}にかかる (to be caught in a trap)
+- **Adverb (1)**: ぐいぐい (forcefully/aggressively)
+
 ### 2026-04-04 (Vocabulary Expansion - 28 New Entries, Session 11)
 Added 28 new dictionary entries (IDs 21999-22026) from candidate_words.json. A diverse mix of nouns covering food culture, geography, military/politics, science, traditional culture, and daily life.
 
 - **Nouns (28)**: {突|つ}き{出|だ}し (appetizer at izakaya), {祟|たた}り (curse/divine punishment), {兵力|へいりょく} (military strength), {極地|きょくち} (polar region), {青物|あおもの} (green vegetables), {終発|しゅうはつ} (last departure), {同盟国|どうめいこく} (allied nation), {病死|びょうし} (death from illness), {白髪染|しらがぞ}め (gray hair dye), {落下物|らっかぶつ} (falling object), {冥土|めいど} (the underworld), {餌|えさ}やり (feeding animals), {軍備|ぐんび} (armaments), {微粒子|びりゅうし} (fine particle), {宗家|そうけ} (head family/founding school), {溶媒|ようばい} (solvent), {伝令|でんれい} (messenger), {棒状|ぼうじょう} (rod-shaped), {利他主義|りたしゅぎ} (altruism), {一升|いっしょう} (one shou/1.8L), {術策|じゅっさく} (stratagem), {斜|なな}め{前|まえ} (diagonally in front), {週例|しゅうれい} (weekly), {野外活動|やがいかつどう} (outdoor activities), {造幣局|ぞうへいきょく} (the mint), {鼎談|ていだん} (three-person discussion), {藻類|そうるい} (algae), {観賞用|かんしょうよう} (ornamental)
 - 2 new kanji (祟, 鼎) assigned IDs 02649-02650
 - Removed 2 stale candidates (はしご — duplicate of 梯子, 打消し — variant of 打ち消し)
-
-### 2026-04-04 (Vocabulary Expansion - 15 New Entries, Session 10)
-Added 15 new dictionary entries (IDs 21984-21998) from candidate_words.json. All are commonly used する verbs covering everyday activities and professional contexts.
-
-- **Suru verbs (15)**: {交差|こうさ}する (to intersect), {沸騰|ふっとう}する (to boil), {監督|かんとく}する (to supervise/direct), {運営|うんえい}する (to operate/run), {応援|おうえん}する (to cheer/support), {観察|かんさつ}する (to observe), {撮影|さつえい}する (to photograph/film), {編集|へんしゅう}する (to edit), {了解|りょうかい}する (to understand/acknowledge), {批判|ひはん}する (to criticize), {指揮|しき}する (to command/conduct), {渡航|とこう}する (to travel overseas), {経過|けいか}する (to pass/elapse), {箱詰|はこづ}めする (to pack in a box), ノックする (to knock)
-- Removed 15 candidates that now exist as entries
-- Skipped 極寒 (ごくかん, variant of existing ごっかん) and 共存 (きょうそん, variant of existing きょうぞん)
 
 
 
