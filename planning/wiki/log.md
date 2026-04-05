@@ -2,6 +2,16 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-05] maintenance | Counters research, audio expansion deepening, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [A] Updated project/overview.md with current stats (22,200+ entries, 90,800+ examples, 5,200+ cross-refs, 19,400+ general tier)
+- [B] Researched Japanese counters and classifiers in learner dictionaries — semantic categories, sound changes, acquisition challenges, dictionary treatment approaches; created research/counters-classifiers.md citing Downing (1996), Yamamoto & Keil, and Tofugu's tiered classification
+- [C] Substantially expanded ideas/audio-expansion.md — added 2026 TTS landscape comparison (cloud and open-source), detailed implementation plan in 3 phases, storage/format considerations, cost estimates, quality assurance notes; updated entry count and audio coverage percentage
+- Added cross-references from japanese-lexicography.md and vocabulary-acquisition.md to the new counters page
+
 ## [2026-04-05] maintenance | LLMs beyond flat corpora, LLMs as corpus replacements
 
 **Session type**: Manual session (curator-directed)
