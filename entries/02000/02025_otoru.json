@@ -6,69 +6,6 @@
   "gloss": "to be inferior, to fall behind",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{劣|おと}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to be inferior to, to be worse than",
-      "explanation": "To be of lower quality or ability than something else."
-    }
-  ],
-  "examples": [
-    {
-      "id": "02025_otoru_ex1",
-      "japanese": "⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦が→が：00051_ga⟧{劣|おと}る。",
-      "english": "The quality is inferior.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02025_otoru_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{劣|おと}らない。",
-      "english": "I'm not inferior to him.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02025_otoru_ex3",
-      "japanese": "⟦どちら→どちら：00927_dochira⟧⟦も→も：00484_mo⟧{劣|おと}らず⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧。",
-      "english": "Both are equally wonderful.",
-      "notes": "Lit: wonderful without being inferior",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{劣|おと}る is an intransitive godan verb meaning to be inferior or fall short in comparison.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No transitive pair\n\nCOMMON PATTERNS:\n- 〜に{劣|おと}る: to be inferior to ~\n- 〜に{劣|おと}らず: not inferior to ~, equally\n- {勝|まさ}るとも{劣|おと}らない: at least as good as (lit: even if surpassing, not inferior)\n- どちらも{劣|おと}らず: both equally (good)\n\nASPECT (ている):\n{劣|おと}っている describes an ongoing state of being inferior.\n\nOPPOSITE:\n- {優|すぐ}れる: to excel, be superior\n- {勝|まさ}る: to surpass, exceed\n\nThe negative form {劣|おと}らない is frequently used to express equality or comparable quality.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-09T12:01:17Z",
-    "modified": "2026-03-29T03:03:58Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +93,71 @@
         "negative": "{劣|おと}るな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to be inferior to, to be worse than",
+      "explanation": "To be of lower quality or ability than something else."
+    }
+  ],
+  "examples": [
+    {
+      "id": "02025_otoru_ex1",
+      "japanese": "⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦が→が：00051_ga⟧{劣|おと}る。",
+      "english": "The quality is inferior.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02025_otoru_ex2",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧{劣|おと}らない。",
+      "english": "I'm not inferior to him.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02025_otoru_ex3",
+      "japanese": "⟦どちら→どちら：00927_dochira⟧⟦も→も：00484_mo⟧{劣|おと}らず⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧。",
+      "english": "Both are equally wonderful.",
+      "notes": "Lit: wonderful without being inferior",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{劣|おと}る is an intransitive godan verb meaning to be inferior or fall short in comparison.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No transitive pair\n\nCOMMON PATTERNS:\n- 〜に{劣|おと}る: to be inferior to ~\n- 〜に{劣|おと}らず: not inferior to ~, equally\n- {勝|まさ}るとも{劣|おと}らない: at least as good as (lit: even if surpassing, not inferior)\n- どちらも{劣|おと}らず: both equally (good)\n\nASPECT (ている):\n{劣|おと}っている describes an ongoing state of being inferior.\n\nOPPOSITE:\n- {優|すぐ}れる: to excel, be superior\n- {勝|まさ}る: to surpass, exceed\n\nThe negative form {劣|おと}らない is frequently used to express equality or comparable quality.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02119_sugureru",
+      "reading": "すぐれる",
+      "headword": "{優|すぐ}れる",
+      "label": "to excel, be superior"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:01:17Z",
+    "modified": "2026-04-05T07:30:05Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
+    }
   }
 }

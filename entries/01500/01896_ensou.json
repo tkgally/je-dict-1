@@ -6,69 +6,6 @@
   "gloss": "musical performance, playing",
   "conjugation": {
     "type": "suru",
-    "prefix": "{演奏|えんそう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "musical performance",
-      "explanation": "The act of playing music on an instrument."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01896_ensou_ex1",
-      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{演奏|えんそう}⟦する→する：00392_suru⟧。",
-      "english": "To play the piano.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01896_ensou_ex2",
-      "japanese": "⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧{演奏|えんそう}⟦だった→だ：09496_da⟧。",
-      "english": "It was a wonderful performance.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01896_ensou_ex3",
-      "japanese": "⟦{生|なま}→生：03509_nama⟧{演奏|えんそう}⟦を→を：00422_wo⟧⟦{聴|き}く→聞く：00483_kiku⟧。",
-      "english": "To listen to a live performance.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "Specifically refers to performing music on instruments. Does not cover singing ({歌唱|かしょう}) or acting ({演技|えんぎ}).\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を: ピアノを{演奏|えんそう}する (to play the piano)\n\nCOMMON COLLOCATIONS:\n- {演奏|えんそう}{会|かい}: concert, recital\n- {演奏|えんそう}{者|しゃ}: performer, musician\n- {生|なま}{演奏|えんそう}: live performance\n- ソロ{演奏|えんそう}: solo performance\n- {演奏|えんそう}{技術|ぎじゅつ}: playing technique\n\nSIMILAR WORDS:\n- {演奏|えんそう}: playing an instrument\n- {演技|えんぎ}: acting performance\n- {公演|こうえん}: public performance (broader, includes theater)\n- {歌唱|かしょう}: singing performance",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-03-31T03:18:29Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +93,72 @@
         "negative": "{演奏|えんそう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "musical performance",
+      "explanation": "The act of playing music on an instrument."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01896_ensou_ex1",
+      "japanese": "⟦ピアノ→ピアノ：01376_piano⟧⟦を→を：00422_wo⟧{演奏|えんそう}⟦する→する：00392_suru⟧。",
+      "english": "To play the piano.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01896_ensou_ex2",
+      "japanese": "⟦{素晴|すば}らしい→素晴らしい：01119_subarashii⟧{演奏|えんそう}⟦だった→だ：09496_da⟧。",
+      "english": "It was a wonderful performance.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01896_ensou_ex3",
+      "japanese": "⟦{生|なま}→生：03509_nama⟧{演奏|えんそう}⟦を→を：00422_wo⟧⟦{聴|き}く→聞く：00483_kiku⟧。",
+      "english": "To listen to a live performance.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "Specifically refers to performing music on instruments. Does not cover singing ({歌唱|かしょう}) or acting ({演技|えんぎ}).\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を: ピアノを{演奏|えんそう}する (to play the piano)\n\nCOMMON COLLOCATIONS:\n- {演奏|えんそう}{会|かい}: concert, recital\n- {演奏|えんそう}{者|しゃ}: performer, musician\n- {生|なま}{演奏|えんそう}: live performance\n- ソロ{演奏|えんそう}: solo performance\n- {演奏|えんそう}{技術|ぎじゅつ}: playing technique\n\nSIMILAR WORDS:\n- {演奏|えんそう}: playing an instrument\n- {演技|えんぎ}: acting performance\n- {公演|こうえん}: public performance (broader, includes theater)\n- {歌唱|かしょう}: singing performance",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01890_engi",
+      "reading": "えんぎ",
+      "headword": "{演技|えんぎ}",
+      "label": "acting, performance"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:30:00Z",
+    "modified": "2026-04-05T07:30:05Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
