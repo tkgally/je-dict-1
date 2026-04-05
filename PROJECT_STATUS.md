@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 19)
+Added 30 new dictionary entries (IDs 22252-22281) from candidate_words.json. A diverse mix of expressions, nouns, adverbs, and verbs covering communication, daily life, culture, education, science, sports, finance, and more.
+
+- **Expressions (10)**: ��の{通|とお}り (exactly right), どちらかといえば (if anything, rather), {明|あき}らかにする (to make clear), {小馬鹿|こばか}にする (to belittle), {豪快|ごうかい}に{笑|わら}う (to laugh heartily), {立場|たちば}がない (to lose face), {鼻|はな}を{利|き}かせる (to have a keen nose), {肘|ひじ}をつく (to rest elbows on table), {水|みず}に{浸|ひた}す (to soak in water), {情熱|じょうねつ}を{傾|かたむ}ける (to pour passion into)
+- **Nouns (13)**: {届|とど}���{物|もの} (delivery), {一門|いちもん} (clan/school), {三拍子|さんびょうし} (triple time), {透明化|とうめいか} (transparency), {取|と}り{立|た}て (debt collection/freshness), {疑問形|ぎもんけい} (interrogative form), {写真機|しゃしんき} (camera), {負|ふ}の{数|すう} (negative number), {書|か}き{下|くだ}し{文|ぶん} (kanbun rendering), {自分専用|じぶんせんよう} (for personal use), {冷|ひ}ややかさ (coldness), {技能者|ぎのうしゃ} (skilled worker), やり{投|な}げ (javelin throw), {合成繊維|ごうせいせんい} (synthetic fiber), {債務者|さいむしゃ} (debtor), {中等|ちゅうとう} (secondary level), {可視|かし} (visible)
+- **Adverb (1)**: ぴたり (exactly, suddenly stopping)
+- **Verbs (2)**: なびかせる (to let flutter), {書|か}き{始|はじ}める (to begin writing)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 18)
 Added 30 new dictionary entries (IDs 22222-22251) from candidate_words.json. A broad mix of adverbs, expressions, and nouns covering grammar, daily life, politics, culture, finance, and more.
 
@@ -91,15 +99,6 @@ Added 28 new dictionary entries (IDs 22087-22114) from candidate_words.json. A p
 - **Na-adjective (1)**: ロマンチック (romantic)
 - **Verb (1)**: {書|か}き{損|そこ}ねる (to fail to write)
 - **Expressions (2)**: {相性|あいしょう}がいい (compatible), {頭|あたま}の{回転|かいてん}が{速|はや}い (quick-witted)
-
-### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 13)
-Added 30 new dictionary entries (IDs 22057-22086) from candidate_words.json. A diverse mix covering pronouns, adverbs, nouns, verbs, and expressions spanning daily life, education, business, politics, science, health, and more.
-
-- **Pronoun (1)**: いずれか (one or the other)
-- **Adverbs (4)**: {名目上|めいもくじょう} (nominally), {一遍|いっぺん} (once/all at once), {形式上|けいしきじょう} (formally/on paper), {何月|なんがつ} (what month)
-- **Verbs (1)**: {走|はし}り{続|つづ}ける (to keep running)
-- **Nouns (18)**: {飲|の}みすぎ (overdrinking), {自動|じどう}{引|ひ}き{落|お}とし (automatic withdrawal), {試験|しけん}{問題|もんだい} (exam questions), {反復|はんぷく}{練習|れんしゅう} (drill practice), {全世界|ぜんせかい} (the whole world), {品質|ひんしつ}{保証|ほしょう} (quality assurance), {整形|せいけい}{外科|げか} (orthopedics), {新版|しんぱん} (new edition), {水|みず}ぶくれ (blister), {髪質|かみしつ} (hair texture), {県知事|けんちじ} (prefectural governor), {楽章|がくしょう} (musical movement), {生魚|なまざかな} (raw fish), {補欠|ほけつ}{選挙|せんきょ} (by-election), {設問|せつもん} (question on a test), {走行中|そうこうちゅう} (while driving), {訴求力|そきゅうりょく} (appeal/persuasive power), {水栓|すいせん} (water faucet), マグマ (magma), {昇級|しょうきゅう} (promotion in rank)
-- **Expressions (4)**: {一度|いちど}きり (only once), {以前|いぜん}{通|どお}り (as before), {今|いま}まで{通|どお}り (as usual), {着想|ちゃくそう}を{得|え}る (to get an idea)
 
 
 
