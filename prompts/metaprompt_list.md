@@ -116,6 +116,15 @@ Read prompts/fix_duplicate_ids.md and follow the instructions to resolve entries
 
 ---
 
+## Knowledge Base
+
+### Maintain project knowledge base
+```
+Read planning/maintain-knowledge-base.md and follow the instructions to maintain and improve the project knowledge base wiki.
+```
+
+---
+
 ## Maintenance & Review
 
 ### Review a specific entry
