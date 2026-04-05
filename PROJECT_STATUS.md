@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 24 New Entries, Session 15)
+Added 24 new dictionary entries (IDs 22145-22168) from candidate_words.json. A diverse mix of verbs, nouns, and adjectives covering daily life, education, personality, society, and culture.
+
+- **Verbs (10)**: {禁止|きんし}する (to prohibit), {実行|じっこう}する (to execute), {通学|つうがく}する (to commute to school), {誇張|こちょう}する (to exaggerate), {完備|かんび}する (to be fully equipped), {登園|とうえん}する (to go to kindergarten), ちゃっかりする (to be shrewd), {発売|はつばい}{開始|かいし}する (start of sales), {臨場|りんじょう}する (to be present at scene), {包摂|ほうせつ}する (inclusion)
+- **Nouns (10)**: {受|う}け{入|い}れ (acceptance), {���頭|こうとう}{試験|しけん} (oral exam), {髪染|かみぞ}め (hair dye), {時事|じじ}{問題|もんだい} (current affairs), {後部|こうぶ}{座席|ざせき} (back seat), {研究生|けんきゅうせい} (research student), {屋上|おくじょう}{庭園|ていえん} (rooftop garden), {改良|かいりょう}{型|がた} (improved model), {武勇|ぶゆう} (bravery in battle), {餅肌|もちはだ} (smooth skin)
+- **Noun/adjective (4)**: {天真爛漫|てんしんらんまん} (innocent and cheerful), {勇猛|ゆうもう} (brave and fierce), {豪胆|ごうたん} (bold/daring), {狭隘|きょうあい} (narrow/cramped)
+- 1 new kanji (隘) assigned ID 02653
+
 ### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 14)
 Added 28 new dictionary entries (IDs 22087-22114) from candidate_words.json. A practical mix covering daily life, education, culture, technology, social behavior, and body-related vocabulary.
 
