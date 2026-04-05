@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 17)
+Added 30 new dictionary entries (IDs 22192-22221) from candidate_words.json. A diverse mix of nouns, an i-adjective, an adverb, and a loanword covering politics, work culture, religion, environment, language, society, fashion, food, sports, and more.
+
+- **Adverb (1)**: あれこれ (this and that)
+- **I-adjective (1)**: みっともない (shameful, embarrassing)
+- **Loanword (1)**: フーディー (hoodie)
+- **Nouns (27)**: {菜食|さいしょく} (vegetarian diet), {餞別|せんべつ} (farewell gift), {行進|こうしん} (march), {高温多湿|こうおんたしつ} (hot and humid), {労働時間|ろうどうじかん} (working hours), {機長|きちょう} (aircraft captain), {投票率|とうひょうりつ} (voter turnout), {毒性|どくせい} (toxicity), {識者|しきしゃ} (expert), {戒律|かいりつ} (religious precepts), {貨物船|かもつせん} (cargo ship), {新体操|しんたいそう} (rhythmic gymnastics), {人名|じんめい} (personal name), {投票所|とうひょうじょ} (polling place), {期限内|きげんない} (within deadline), {単色|たんしょく} (monochrome), {前記|ぜんき} (aforementioned), {美観|びかん} (scenic beauty), {雲散霧消|うんさんむしょう} (vanishing without trace), {超過勤務|ちょうかきんむ} (overtime work), {霊感|れいかん} (spiritual sensitivity), {共助|きょうじょ} (mutual assistance), {相互扶助|そうごふじょ} (mutual aid), {交通安全|こうつうあんぜん} (traffic safety), {粉|ふん}じん (dust/particulate), {上述|じょうじゅつ} (aforementioned), {注記|ちゅうき} (annotation)
+- 1 new kanji (餞) assigned ID 02654
+
 ### 2026-04-05 (Vocabulary Expansion - 23 New Entries, Session 16)
 Added 23 new dictionary entries (IDs 22169-22191) from candidate_words.json. Focused on useful vocabulary for intermediate learners, with a mix of suru verbs, expressions, and nouns covering everyday life, communication, society, and keigo.
 
