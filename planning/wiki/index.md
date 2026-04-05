@@ -32,6 +32,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Digital Dictionary UX](research/digital-dictionary-ux.md) — Interface design and user behavior research
 - [Translation Equivalence](research/translation-equivalence.md) — The bilingual mapping problem
 - [Example Sentence Design](research/example-sentences.md) — What makes effective dictionary examples
+- [Pitch Accent](research/pitch-accent.md) — Pitch accent systems, notation, and learner dictionary implications
 
 ## Topics
 
@@ -40,6 +41,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Handling Homographs](topics/homographs.md) — Disambiguation strategies for words with identical writing
 - [Verb Transitivity Pairs](topics/verb-transitivity.md) — Presenting 自動詞/他動詞 pairs
 - [Register and Formality](topics/register.md) — Marking casual/neutral/formal/honorific usage
+- [Compound Verb Representation](topics/compound-verbs.md) — Entry-vs-pattern decisions for V1+V2 compound verbs
 
 ## Ideas
 
