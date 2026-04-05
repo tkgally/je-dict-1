@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 23 New Entries, Session 16)
+Added 23 new dictionary entries (IDs 22169-22191) from candidate_words.json. Focused on useful vocabulary for intermediate learners, with a mix of suru verbs, expressions, and nouns covering everyday life, communication, society, and keigo.
+
+- **Suru verbs (15)**: {帰宅|きたく}する (to return home), {解放|かいほう}する (to release), {矛盾|むじゅん}する (to contradict), {対立|たいりつ}する (to oppose), {連続|れんぞく}する (to continue in succession), {辛抱|しんぼう}する (to be patient), {視聴|しちょう}する (to watch media), {装着|そうちゃく}する (to equip), {美化|びか}する (to beautify), {頻発|ひんぱつ}する (to occur frequently), {突出|とっしゅつ}する (to protrude/excel), {工夫|くふう}する (to devise), {浸透|しんとう}する (to permeate), {普及|ふきゅう}する (to spread), {達成|たっせい}する (to achieve)
+- **Nouns (2)**: {古書店|こしょてん} (used bookstore), お{名前|なまえ} (name, polite)
+- **Expressions (5)**: {頼|たよ}りにする (to rely on), さよなら (goodbye), {場|ば}を{和|なご}ませる (to lighten the mood), お{会|あ}いする (to meet, humble), {誹謗|ひぼう}する (to slander)
+- **Pre-noun adjectival (1)**: ただの (mere, just)
+
 ### 2026-04-05 (Vocabulary Expansion - 24 New Entries, Session 15)
 Added 24 new dictionary entries (IDs 22145-22168) from candidate_words.json. A diverse mix of verbs, nouns, and adjectives covering daily life, education, personality, society, and culture.
 
