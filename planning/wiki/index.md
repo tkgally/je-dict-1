@@ -34,6 +34,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Example Sentence Design](research/example-sentences.md) — What makes effective dictionary examples
 - [Pitch Accent](research/pitch-accent.md) — Pitch accent systems, notation, and learner dictionary implications
 - [Collocations in Learner Dictionaries](research/collocations.md) — Collocation types, L1 transfer effects, and dictionary presentation
+- [Beyond Flat Corpora](research/beyond-flat-corpora.md) — LLMs and semantic-pragmatic analysis beyond distributional patterns
 
 ## Topics
 
@@ -43,6 +44,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Verb Transitivity Pairs](topics/verb-transitivity.md) — Presenting 自動詞/他動詞 pairs
 - [Register and Formality](topics/register.md) — Marking casual/neutral/formal/honorific usage
 - [Compound Verb Representation](topics/compound-verbs.md) — Entry-vs-pattern decisions for V1+V2 compound verbs
+- [LLMs as Lexicographic Corpus Replacements](topics/llms-replacing-corpora.md) — Whether and how LLMs can supplement or replace traditional corpora
 
 ## Ideas
 

@@ -50,3 +50,5 @@ Most of these could be implemented as batch prompts run via `claude --print`, si
 
 - [Quality Standards](../project/quality-standards.md)
 - [Content Pipeline](../project/content-pipeline.md)
+- [LLMs as Lexicographic Corpus Replacements](../topics/llms-replacing-corpora.md) — broader context for LLM use in dictionary production
+- [Beyond Flat Corpora](../research/beyond-flat-corpora.md) — semantic-pragmatic analysis capabilities

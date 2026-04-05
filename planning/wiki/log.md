@@ -2,6 +2,16 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-05] maintenance | LLMs beyond flat corpora, LLMs as corpus replacements
+
+**Session type**: Manual session (curator-directed)
+
+**Activities**:
+- [B] Researched LLM applications in lexicography — Rundell (2024), eLex 2025 proceedings, pragmatics surveys, Sydney Corpus Lab synthesis
+- [D] Created research/beyond-flat-corpora.md — how LLMs enable semantic-pragmatic analysis that flat corpora cannot provide, covering word sense disambiguation in context, pragmatic function identification, register assessment, and discourse-level analysis
+- [D] Created topics/llms-replacing-corpora.md — whether LLMs can replace traditional corpora in dictionary production, synthesizing Rundell's skepticism, the "trend toward the mean" argument, eLex 2025 consensus, a comparative strengths table, and implications for je-dict-1's LLM-primary workflow
+- Both pages written in response to curator observations about LLM capabilities in this project
+
 ## [2026-04-05] maintenance | Collocations research, vocabulary acquisition deepening, stats update
 
 **Session type**: Nightly maintenance
