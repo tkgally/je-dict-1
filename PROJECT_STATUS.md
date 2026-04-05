@@ -58,6 +58,14 @@ Added 30 new dictionary entries (IDs 22310-22339) from candidate_words.json. A d
 - **Adverb (1)**: {思|おも}う{存分|ぞんぶん} (to one's heart's content)
 - **Nouns (28)**: {切|き}り{口|くち} (perspective/cross-section), {追加|ついか}{料金|りょうきん} (additional fee), {停学|ていがく} (school suspension), {社会|しゃかい}{貢献|こうけん} (social contribution), {駆|か}け{足|あし} (running/quick pace), {懸垂|けんすい} (pull-up), {案内|あんない}{板|ばん} (information board), {彫像|ちょうぞう} (statue), {空前|くうぜん} (unprecedented), {馬券|ばけん} (horse racing ticket), {知力|ちりょく} (intellect), {年代物|ねんだいもの} (vintage item), {鼻筋|はなすじ} (bridge of nose), {取|と}り{壊|こわ}し (demolition), {建設中|けんせつちゅう} (under construction), {営業|えいぎょう}スマイル (customer-service smile), {豚丼|ぶたどん} (pork bowl), {百人一首|ひゃくにんいっしゅ} (Hyakunin Isshu), {懸賞金|けんしょうきん} (prize money), {講談|こうだん} (storytelling), {喫煙席|きつえんせき} (smoking seat), {宝飾品|ほうしょくひん} (jewelry), {躍動感|やくどうかん} (sense of dynamism), インテリア (interior), {急坂|きゅうざか} (steep slope), {平均台|へいきんだい} (balance beam), {跳|と}び{箱|ばこ} (vaulting box), {酪農家|らくのうか} (dairy farmer)
 
+### 2026-04-05 (Vocabulary Expansion - 26 New Entries, Session 21)
+Added 26 new dictionary entries (IDs 22340-22365) from candidate_words.json. Removed 3 stale duplicate candidates. A mix of nouns, verbs, and onomatopoeia covering business, sports, culture, health, and daily life.
+
+- **Godan verbs (5)**: {愛|いと}しむ (to cherish), {浅|あさ}まる (to become shallow), {苔|こけ}むす (to become mossy), {拭|ふ}き{消|け}す (to wipe away), {取|と}り{越|こ}す (to worry in advance)
+- **Suru verbs (7)**: {厄払|やくばら}い (purification), {通算|つうさん}する (to total up), {評論|ひょうろん}する (to critique), {滅菌|めっきん}する (to sterilize), {画一化|かくいつか} (standardization), {恒常化|こうじょうか} (becoming permanent), {注油|ちゅうゆ}する (to lubricate)
+- **Nouns (13)**: {財界|ざいかい} (business world), {秘密|ひみつ}{兵器|へいき} (secret weapon), {銀|ぎん}メダル (silver medal), {銅|どう}メダル (bronze medal), {使用人|しようにん} (servant), {執筆者|しっぴつしゃ} (author), {村民|そんみん} (villagers), {歴史|れきし}{学者|がくしゃ} (historian), {他殺|たさつ} (homicide), {病原菌|びょうげんきん} (pathogenic bacteria), マメ (blister), {整腸剤|せいちょうざい} (digestive medicine), ギャンブラー (gambler)
+- **Onomatopoeia (1)**: ごうごう (roaring sound)
+
 ### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 20)
 Added 28 new dictionary entries (IDs 22282-22309) from candidate_words.json. A diverse mix covering daily life, culture, business, sports, food, and language.
 
@@ -83,22 +91,6 @@ Added 30 new dictionary entries (IDs 22222-22251) from candidate_words.json. A b
 - **Na-adjective (1)**: {進歩的|しんぽてき} (progressive)
 - **Nouns (19)**: {値下|ねさ}がり (price drop), {買|か}い{物袋|ものぶくろ} (shopping bag), ごみ{袋|ぶくろ} (trash bag), {転入|てんにゅう} (moving in/transfer), {代案|だいあん} (alternative plan), {被疑者|ひぎしゃ} (suspect), {通達|つうたつ} (official directive), {湯上|ゆあ}がり (after a bath), {自嘲|じちょう} (self-mockery), {休眠|きゅうみん} (dormancy), {岩盤|がんばん} (bedrock), {共和制|きょうわせい} (republic), {表現|ひょうげん}の{自由|じゆう} (freedom of expression), {吟醸酒|ぎんじょうしゅ} (ginjo sake), {枝葉|えだは} (branches and leaves), {鉱石|こうせき} (ore), {貼付|ちょうふ} (affixing), {定期預金|ていきよきん} (time deposit)
 
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 17)
-Added 30 new dictionary entries (IDs 22192-22221) from candidate_words.json. A diverse mix of nouns, an i-adjective, an adverb, and a loanword covering politics, work culture, religion, environment, language, society, fashion, food, sports, and more.
-
-- **Adverb (1)**: あれこれ (this and that)
-- **I-adjective (1)**: みっともない (shameful, embarrassing)
-- **Loanword (1)**: フーディー (hoodie)
-- **Nouns (27)**: {菜食|さいしょく} (vegetarian diet), {餞別|せんべつ} (farewell gift), {行進|こうしん} (march), {高温多湿|こうおんたしつ} (hot and humid), {労働時間|ろうどうじかん} (working hours), {機長|きちょう} (aircraft captain), {投票率|とうひょうりつ} (voter turnout), {毒性|どくせい} (toxicity), {識者|しきしゃ} (expert), {戒律|かいりつ} (religious precepts), {貨物船|かもつせん} (cargo ship), {新体操|しんたいそう} (rhythmic gymnastics), {人名|じんめい} (personal name), {投票所|とうひょうじょ} (polling place), {期限内|きげんない} (within deadline), {単色|たんしょく} (monochrome), {前記|ぜんき} (aforementioned), {美観|びかん} (scenic beauty), {雲散霧消|うんさんむしょう} (vanishing without trace), {超過勤務|ちょうかきんむ} (overtime work), {霊感|れいかん} (spiritual sensitivity), {共助|きょうじょ} (mutual assistance), {相互扶助|そうごふじょ} (mutual aid), {交通安全|こうつうあんぜん} (traffic safety), {粉|ふん}じん (dust/particulate), {上述|じょうじゅつ} (aforementioned), {注記|ちゅうき} (annotation)
-- 1 new kanji (餞) assigned ID 02654
-
-### 2026-04-05 (Vocabulary Expansion - 23 New Entries, Session 16)
-Added 23 new dictionary entries (IDs 22169-22191) from candidate_words.json. Focused on useful vocabulary for intermediate learners, with a mix of suru verbs, expressions, and nouns covering everyday life, communication, society, and keigo.
-
-- **Suru verbs (15)**: {帰宅|きたく}する (to return home), {解放|かいほう}する (to release), {矛盾|むじゅん}する (to contradict), {対立|たいりつ}する (to oppose), {連続|れんぞく}する (to continue in succession), {辛抱|しんぼう}する (to be patient), {視聴|しちょう}する (to watch media), {装着|そうちゃく}する (to equip), {美化|びか}する (to beautify), {頻発|ひんぱつ}する (to occur frequently), {突出|とっしゅつ}する (to protrude/excel), {工夫|くふう}する (to devise), {浸透|しんとう}する (to permeate), {普及|ふきゅう}する (to spread), {達成|たっせい}する (to achieve)
-- **Nouns (2)**: {古書店|こしょてん} (used bookstore), お{名前|なまえ} (name, polite)
-- **Expressions (5)**: {頼|たよ}りにする (to rely on), さよなら (goodbye), {場|ば}を{和|なご}ませる (to lighten the mood), お{会|あ}いする (to meet, humble), {誹謗|ひぼう}する (to slander)
-- **Pre-noun adjectival (1)**: ただの (mere, just)
 
 
 
