@@ -69,3 +69,4 @@ Comparing dictionary coverage against BCCWJ frequency ranks would identify the h
 - [Vocabulary Tier System](../project/vocabulary-tiers.md)
 - [Corpus-Driven Entry Prioritization](../ideas/corpus-prioritization.md)
 - [Learner Lexicography](learner-lexicography.md)
+- [Collocations in Learner Dictionaries](collocations.md) — applying collocational analysis to dictionary entries

@@ -33,6 +33,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Translation Equivalence](research/translation-equivalence.md) — The bilingual mapping problem
 - [Example Sentence Design](research/example-sentences.md) — What makes effective dictionary examples
 - [Pitch Accent](research/pitch-accent.md) — Pitch accent systems, notation, and learner dictionary implications
+- [Collocations in Learner Dictionaries](research/collocations.md) — Collocation types, L1 transfer effects, and dictionary presentation
 
 ## Topics
 

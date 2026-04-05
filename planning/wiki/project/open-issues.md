@@ -1,6 +1,6 @@
 # Open Issues
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-05 (stats updated)
 
 A running list of known problems, design questions, and unresolved edge cases. Items here are candidates for future work sessions or discussion.
 
@@ -16,7 +16,7 @@ Entries created before v2 standards often have brief, unstructured notes (single
 Many semantically related entries aren't linked. The `add_cross-references.md` task and `find_merge_candidates.py` tool help, but systematic coverage would require reviewing all entries.
 
 ### Candidate list quality
-`candidate_words.json` contains ~5,400 candidates, but some are:
+`candidate_words.json` contains ~5,400+ candidates, but some are:
 - Duplicates of existing entries (variant readings)
 - Too obscure for intermediate learners
 - Compound words better handled as collocations in existing entries
@@ -52,7 +52,7 @@ Client-side search works but has limits:
 - Performance may degrade as entry count grows
 
 ### Audio coverage
-Only ~1,028 entries have audio files (~5% of total). Expanding this would significantly improve the user experience but requires a scalable audio generation strategy.
+Only ~1,028 entries have audio files (~4.7% of nearly 22,000 total). Expanding this would significantly improve the user experience but requires a scalable audio generation strategy.
 
 ### Mobile experience
 The static site works on mobile but wasn't designed mobile-first. Navigation, search, and long entry pages could be improved for small screens.
