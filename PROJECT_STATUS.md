@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 14)
+Added 28 new dictionary entries (IDs 22087-22114) from candidate_words.json. A practical mix covering daily life, education, culture, technology, social behavior, and body-related vocabulary.
+
+- **Nouns (16)**: {施錠|せじょう} (locking), {館内|かんない} (inside the building), {入店|にゅうてん} (entering a store), {紙切|かみき}れ (scrap of paper), {日記帳|にっきちょう} (diary), {胸元|むなもと} (chest area), {喉元|のどもと} (throat), {翻訳者|ほんやくしゃ} (translator), {購読者|こうどくしゃ} (subscriber), {学習者|がくしゅうしゃ} (learner), {文学賞|ぶんがくしょう} (literary prize), {新人賞|しんじんしょう} (newcomer award), {外付|そとづ}け (external), {本場物|ほんばもの} (authentic article), {反目|はんもく} (discord), {型番|かたばん} (model number), {首席|しゅせき} (top rank), {礼拝堂|れいはいどう} (chapel), {選択式|せんたくしき} (multiple-choice), {流転|るてん} (constant change), {走破|そうは} (completing a course), {鑑定士|かんていし} (appraiser), {雨|あま}よけ (rain shelter), マウンティング (one-upmanship)
+- **Na-adjective (1)**: ロマンチック (romantic)
+- **Verb (1)**: {書|か}き{損|そこ}ねる (to fail to write)
+- **Expressions (2)**: {相性|あいしょう}がいい (compatible), {頭|あたま}の{回転|かいてん}が{速|はや}い (quick-witted)
+
 ### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 13)
 Added 30 new dictionary entries (IDs 22057-22086) from candidate_words.json. A diverse mix covering pronouns, adverbs, nouns, verbs, and expressions spanning daily life, education, business, politics, science, health, and more.
 
@@ -83,15 +91,5 @@ Added 15 new dictionary entries (IDs 21984-21998) from candidate_words.json. All
 - Removed 15 candidates that now exist as entries
 - Skipped 極寒 (ごくかん, variant of existing ごっかん) and 共存 (きょうそん, variant of existing きょうぞん)
 
-### 2026-04-04 (Vocabulary Expansion - 30 New Entries, Session 9)
-Added 30 new dictionary entries (IDs 21954-21983) from candidate_words.json. A diverse mix of nouns, adjectives, verbs, adverbs, and expressions useful for intermediate learners.
-
-- **Nouns (14)**: {水面下|すいめんか} (below the surface), {諸事情|しょじじょう} (various circumstances), {距離感|きょりかん} (sense of distance), {心底|しんそこ} (bottom of one's heart), {幻影|げんえい} (phantom/illusion), {外圧|がいあつ} (external pressure), {攻略法|こうりゃくほう} (strategy/walkthrough), {防止策|ぼうしさく} (preventive measure), {顛末|てんまつ} (full account), {内幕|うちまく} (inside story), {真実味|しんじつみ} (truthfulness), {善行|ぜんこう} (good deed), {包|つつ}み{紙|がみ} (wrapping paper), {風刺画|ふうしが} (satirical cartoon), {巻末|かんまつ} (end of book), {独自性|どくじせい} (originality)
-- **Na-adjectives (3)**: {善良|ぜんりょう} (good-natured), {秀逸|しゅういつ} (excellent), {漸進的|ぜんしんてき} (gradual), {珍妙|ちんみょう} (odd/bizarre)
-- **Verbs (4)**: よろよろする (to totter), {書|か}き{間違|まちが}える (to write incorrectly), {振|ふ}り{回|まわ}される (to be bossed around), {素潜|すもぐ}り (free diving)
-- **Noun/verb-suru (3)**: {無理強|むりじ}い (forcing/coercion), {配置換|はいちが}え (reassignment)
-- **Other (3)**: {果|は}てしない (boundless — i-adj), {順々|じゅんじゅん}に (in turn — adverb), {尾|お}ひれがつく (to be exaggerated — expression), かるた (karuta card game)
-- 1 new kanji (顛) assigned ID 02648
-- Removed 6 stale candidates (duplicates of existing entries)
 
 
