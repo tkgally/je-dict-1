@@ -7,70 +7,6 @@
   "gloss": "to prove; to verify; to certify",
   "conjugation": {
     "type": "suru",
-    "prefix": "{証明|しょうめい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to prove; to demonstrate; to verify",
-      "explanation": "To show that something is true or valid through evidence, logic, or documentation."
-    }
-  ],
-  "examples": [
-    {
-      "id": "17851_shoumeisuru_ex1",
-      "japanese": "{身元|みもと}を{証明|しょうめい}する。",
-      "english": "To prove one's identity.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17851_shoumeisuru_ex2",
-      "japanese": "{彼|かれ}の{無実|むじつ}は{証明|しょうめい}された。",
-      "english": "His innocence was proven.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17851_shoumeisuru_ex3",
-      "japanese": "{実験|じっけん}の{結果|けっか}がその{理論|りろん}の{正|ただ}しさを{証明|しょうめい}した。",
-      "english": "The experimental results proved the correctness of that theory.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nUsed both as a suru verb and as a standalone noun. The noun form appears in many compound words related to official documents and certificates.\n\nCOMMON COLLOCATIONS:\n- {証明書|しょうめいしょ} (certificate; proof document)\n- {身分|みぶん}{証明|しょうめい} (identification)\n- {卒業|そつぎょう}{証明書|しょうめいしょ} (graduation certificate)\n- {証明|しょうめい}{写真|しゃしん} (ID photo)\n- ～を{証明|しょうめい}する (to prove ~)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-03-29T03:08:18Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-suru"
-      ],
-      "transitivity": "transitive",
-      "verb_class": "suru",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "logic",
-        "documentation"
-      ]
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -158,5 +94,65 @@
         "negative": "{証明|しょうめい}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to prove; to demonstrate; to verify",
+      "explanation": "To show that something is true or valid through evidence, logic, or documentation."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17851_shoumeisuru_ex1",
+      "japanese": "{身元|みもと}を{証明|しょうめい}する。",
+      "english": "To prove one's identity.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17851_shoumeisuru_ex2",
+      "japanese": "{彼|かれ}の{無実|むじつ}は{証明|しょうめい}された。",
+      "english": "His innocence was proven.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17851_shoumeisuru_ex3",
+      "japanese": "{実験|じっけん}の{結果|けっか}がその{理論|りろん}の{正|ただ}しさを{証明|しょうめい}した。",
+      "english": "The experimental results proved the correctness of that theory.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{証明|しょうめい}する means to prove or certify something. Also very common as a standalone noun in compounds related to official documents.\n\nCOMMON COLLOCATIONS (VERB):\n- ～を{証明|しょうめい}する: to prove something\n- {無実|むじつ}を{証明|しょうめい}する: to prove innocence\n- {身元|みもと}を{証明|しょうめい}する: to prove one's identity\n\nCOMMON COMPOUNDS (NOUN):\n- {証明書|しょうめいしょ}: certificate, proof document\n- {身分|みぶん}{証明|しょうめい}: identification (ID)\n- {卒業|そつぎょう}{証明書|しょうめいしょ}: graduation certificate\n- {在職|ざいしょく}{証明書|しょうめいしょ}: employment certificate\n- {証明|しょうめい}{写真|しゃしん}: ID photo (passport-style)\n\nSIMILAR WORDS:\n- {証明|しょうめい}する: to prove (with evidence or documents)\n- {証拠|しょうこ}: evidence, proof (the thing that proves)\n- {立証|りっしょう}する: to prove (legal/formal)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-03-19T06:58:32Z",
+    "modified": "2026-04-05T11:45:12Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-suru"
+      ],
+      "transitivity": "transitive",
+      "verb_class": "suru",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "logic",
+        "documentation"
+      ]
+    }
   }
 }
