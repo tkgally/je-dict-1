@@ -79,10 +79,25 @@
     }
   ],
   "notes": "{不正|ふせい} refers to injustice, unfairness, or fraud.\n\nCOMMON PATTERNS:\n- {不正|ふせい}{行為|こうい} (fraudulent act)\n- {不正|ふせい}アクセス (unauthorized access)\n- {不正|ふせい}{選挙|せんきょ} (election fraud)\n- {不正|ふせい}を{働|はたら}く (commit fraud)\n\nSIMILAR WORDS:\n- {不公平|ふこうへい}: unfairness (lack of equality)\n- {不正|ふせい}: injustice, fraud (illegal/improper)\n- {不法|ふほう}: illegal, unlawful\n\nANTONYM:\n- {公正|こうせい}: justice, fairness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "01751_kousei",
+      "reading": "こうせい",
+      "headword": "{公正|こうせい}",
+      "label": "justice, fairness"
+    },
+    {
+      "type": "synonym",
+      "target_id": "16851_fukouhei",
+      "reading": "ふこうへい",
+      "headword": "{不公平|ふこうへい}",
+      "label": "unfairness"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-03-14T09:28:19Z",
+    "modified": "2026-04-05T04:45:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
