@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 20)
+Added 28 new dictionary entries (IDs 22282-22309) from candidate_words.json. A diverse mix covering daily life, culture, business, sports, food, and language.
+
+- **Suru verbs (2)**: {遅刻|ちこく}する (to be late), {欠席|けっせき}する (to be absent)
+- **Ichidan verbs (3)**: {抜|ぬ}きん{出|で}る (to excel), しゃれる (to be stylish), {洗練|せんれん}される (to be refined)
+- **Na-adjective (1)**: {艶|つや}やか (glossy, lustrous)
+- **Expression (1)**: {納得|なっとく}がいく (to be convinced)
+- **Nouns (21)**: {努力家|どりょくか} (hard worker), {逆境|ぎゃっきょう} (adversity), {人|ひと}だかり (crowd), {水差|みずさ}し (pitcher), プライド (pride), {町家|まちや} (townhouse), {快適|かいてき}さ (comfort), {冷凍室|れいとうしつ} (freezer), {数|かぞ}え{年|どし} (traditional age), {茶道具|さどうぐ} (tea utensils), サビ (chorus), {朝会|ちょうかい} (morning meeting), {利益率|りえきりつ} (profit margin), {安全地帯|あんぜんちたい} (safety zone), {不戦敗|ふせんぱい} (forfeit loss), {舞台挨拶|ぶたいあいさつ} (stage greeting), {反則負|はんそくま}け (foul loss), {七分咲|ななぶざ}き (70% bloom), {蒸|む}し{菓子|がし} (steamed sweet), {敬白|けいはく} (respectfully yours), {謹啓|きんけい} (respectfully)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 19)
 Added 30 new dictionary entries (IDs 22252-22281) from candidate_words.json. A diverse mix of expressions, nouns, adverbs, and verbs covering communication, daily life, culture, education, science, sports, finance, and more.
 
