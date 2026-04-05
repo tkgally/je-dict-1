@@ -27,6 +27,11 @@ build/            # Python build, validation, and utility scripts
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
+planning/         # Project knowledge base and planning
+  planning/wiki/        # LLM-maintained knowledge base (project docs, research, ideas)
+  planning/wiki/index.md    # Master catalog of all wiki pages
+  planning/wiki/log.md      # Chronological record of wiki maintenance sessions
+  planning/maintain-knowledge-base.md  # Session prompt for wiki maintenance (nightly cron)
 polishing/        # Progress tracking for entry polishing tasks
   polishing/tasks/{task}/progress.txt  # Next entry ID to process per task
   polishing/sessions/                  # Session logs (what was checked/changed)
@@ -172,6 +177,11 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`.
+
+**Knowledge base:**
+- `planning/maintain-knowledge-base.md` — maintain and expand the project knowledge base wiki (nightly cron or manual)
+
+The knowledge base at `planning/wiki/` is an LLM-maintained wiki covering project documentation, external research (lexicography, SLA, corpus linguistics), design decisions, and future ideas. It is updated incrementally by dedicated maintenance sessions and can be consulted during any session for background knowledge. See `planning/wiki/index.md` for the full page catalog.
 
 ## Skills (detailed guidelines)
 
