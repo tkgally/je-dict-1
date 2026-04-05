@@ -35,6 +35,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Pitch Accent](research/pitch-accent.md) — Pitch accent systems, notation, and learner dictionary implications
 - [Collocations in Learner Dictionaries](research/collocations.md) — Collocation types, L1 transfer effects, and dictionary presentation
 - [Beyond Flat Corpora](research/beyond-flat-corpora.md) — LLMs and semantic-pragmatic analysis beyond distributional patterns
+- [Japanese Counters and Classifiers](research/counters-classifiers.md) — The numeral classifier system, acquisition challenges, and dictionary treatment
 
 ## Topics
 

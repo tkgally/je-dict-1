@@ -87,3 +87,4 @@ Many words have multiple accepted spellings:
 - [Handling Homographs](../topics/homographs.md)
 - [Verb Transitivity Pairs](../topics/verb-transitivity.md)
 - [Register and Formality](../topics/register.md)
+- [Japanese Counters and Classifiers](counters-classifiers.md) — the classifier system as a lexicographic challenge
