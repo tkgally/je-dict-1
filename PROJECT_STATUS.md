@@ -75,6 +75,14 @@ Added 28 new dictionary entries (IDs 22282-22309) from candidate_words.json. A d
 - **Expression (1)**: {納得|なっとく}がいく (to be convinced)
 - **Nouns (21)**: {努力家|どりょくか} (hard worker), {逆境|ぎゃっきょう} (adversity), {人|ひと}だかり (crowd), {水差|みずさ}し (pitcher), プライド (pride), {町家|まちや} (townhouse), {快適|かいてき}さ (comfort), {冷凍室|れいとうしつ} (freezer), {数|かぞ}え{年|どし} (traditional age), {茶道具|さどうぐ} (tea utensils), サビ (chorus), {朝会|ちょうかい} (morning meeting), {利益率|りえきりつ} (profit margin), {安全地帯|あんぜんちたい} (safety zone), {不戦敗|ふせんぱい} (forfeit loss), {舞台挨拶|ぶたいあいさつ} (stage greeting), {反則負|はんそくま}け (foul loss), {七分咲|ななぶざ}き (70% bloom), {蒸|む}し{菓子|がし} (steamed sweet), {敬白|けいはく} (respectfully yours), {謹啓|きんけい} (respectfully)
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
+Added 30 new dictionary entries (IDs 22366-22395) from candidate_words.json. A mix of suru verbs, na-adjectives, nouns, and a conjunction covering science, health, business, law, culture, education, and everyday life.
+
+- **Suru verbs (12)**: {消滅|しょうめつ}する (to vanish), {発症|はっしょう}する (to develop symptoms), {除去|じょきょ}する (to remove), {分離|ぶんり}する (to separate), {編成|へんせい}する (to organize), {統括|とうかつ}する (to oversee), {発現|はつげん}する (to manifest), {発火|はっか} (ignition), {保釈|ほしゃく} (bail), {徴税|ちょうぜい} (tax collection), {間借|まが}り (room rental), {射出|しゃしゅつ} (ejection)
+- **Na-adjectives (4)**: {印象的|いんしょうてき}な (impressive), {正常|せいじょう}な (normal), {過小|かしょう}な (too small), {真面目|まじめ}な (serious)
+- **Nouns (12)**: {適宜|てきぎ} (as appropriate), {冊子|さっし} (booklet), {期末|きまつ} (end of term), {重箱|じゅうばこ} (tiered box), {番犬|ばんけん} (guard dog), {闘争心|とうそうしん} (fighting spirit), {失業者|しつぎょうしゃ} (unemployed person), {学識|がくしき} (scholarship), {成句|せいく} (set phrase), {横断幕|おうだんまく} (banner), {当代|とうだい} (current generation), {共栄|きょうえい} (co-prosperity), {定理|ていり} (theorem)
+- **Conjunction (1)**: なのに (despite that)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 19)
 Added 30 new dictionary entries (IDs 22252-22281) from candidate_words.json. A diverse mix of expressions, nouns, adverbs, and verbs covering communication, daily life, culture, education, science, sports, finance, and more.
 
