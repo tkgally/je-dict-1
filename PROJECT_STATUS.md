@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 22)
+Added 30 new dictionary entries (IDs 22396-22425) from candidate_words.json. A practical mix of nouns, suru verbs, adjectives, an adverb, and an expression covering daily life, health, education, law, politics, food, culture, and language.
+
+- **Suru verbs (10)**: {悲観|ひかん} (pessimism), {意思表示|いしひょうじ} (expression of intention), {速読|そくどく} (speed reading), {滑走|かっそう} (gliding/taxiing), {包囲|ほうい} (encirclement), {焼却|しょうきゃく} (incineration), {注入|ちゅうにゅう} (injection), {加害|かがい} (inflicting harm), {密売|みつばい} (illegal sale), お{稽古|けいこ} (lessons/practice)
+- **Nouns (16)**: {左利|ひだりき}き (left-handed), {入学金|にゅうがくきん} (enrollment fee), {同年代|どうねんだい} (same age group), {虫刺|むしさ}され (insect bite), {冷汗|れいかん} (cold sweat), {活況|かっきょう} (boom/brisk activity), {良性|りょうせい} (benign), {将来性|しょうらいせい} (future potential), {婚姻届|こんいんとどけ} (marriage registration), {交通規制|こうつうきせい} (traffic control), {閣議|かくぎ} (cabinet meeting), {立春|りっしゅん} (beginning of spring), {水質|すいしつ} (water quality), {生焼|なまや}け (undercooked), {言語学|げんごがく} (linguistics), {血筋|ちすじ} (bloodline)
+- **Na-adjective (2)**: {簡略|かんりゃく} (simplification), {高潔|こうけつ} (noble/virtuous)
+- **Adverb (1)**: どれほど (how much/to what extent)
+- **Expression (1)**: というわけで (so/for that reason)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
 Added 30 new dictionary entries (IDs 22310-22339) from candidate_words.json. A diverse mix covering daily life, culture, sports, food, business, geography, and more.
 
@@ -91,13 +100,6 @@ Added 30 new dictionary entries (IDs 22252-22281) from candidate_words.json. A d
 - **Adverb (1)**: ぴたり (exactly, suddenly stopping)
 - **Verbs (2)**: なびかせる (to let flutter), {書|か}き{始|はじ}める (to begin writing)
 
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 18)
-Added 30 new dictionary entries (IDs 22222-22251) from candidate_words.json. A broad mix of adverbs, expressions, and nouns covering grammar, daily life, politics, culture, finance, and more.
-
-- **Adverbs (4)**: {同時|どうじ}に (at the same time), まっしぐら (headlong), そそくさと (hurriedly), とりたてて (particularly)
-- **Expressions (6)**: たびに (every time), あっけにとられる (to be dumbfounded), {具合|ぐあい}が{悪|わる}い (to feel unwell), {失礼|しつれい}ですが (excuse me but), {目|め}を{向|む}ける (to turn attention to), {軌道|きどう}に{乗|の}る (to get on track), {胸|むね}に{秘|ひ}める (to keep in one's heart)
-- **Na-adjective (1)**: {進歩的|しんぽてき} (progressive)
-- **Nouns (19)**: {値下|ねさ}がり (price drop), {買|か}い{物袋|ものぶくろ} (shopping bag), ごみ{袋|ぶくろ} (trash bag), {転入|てんにゅう} (moving in/transfer), {代案|だいあん} (alternative plan), {被疑者|ひぎしゃ} (suspect), {通達|つうたつ} (official directive), {湯上|ゆあ}がり (after a bath), {自嘲|じちょう} (self-mockery), {休眠|きゅうみん} (dormancy), {岩盤|がんばん} (bedrock), {共和制|きょうわせい} (republic), {表現|ひょうげん}の{自由|じゆう} (freedom of expression), {吟醸酒|ぎんじょうしゅ} (ginjo sake), {枝葉|えだは} (branches and leaves), {鉱石|こうせき} (ore), {貼付|ちょうふ} (affixing), {定期預金|ていきよきん} (time deposit)
 
 
 
