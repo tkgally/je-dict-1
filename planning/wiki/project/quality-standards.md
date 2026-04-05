@@ -67,3 +67,4 @@ The polishing pipeline works through all entries systematically, improving them 
 - [Entry Design](entry-design.md)
 - [Content Pipeline](content-pipeline.md)
 - [Example Sentence Design](../research/example-sentences.md)
+- [Collocations in Learner Dictionaries](../research/collocations.md) — research informing the collocation patterns priority
