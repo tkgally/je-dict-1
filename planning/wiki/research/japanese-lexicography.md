@@ -89,3 +89,4 @@ Many words have multiple accepted spellings:
 - [Register and Formality](../topics/register.md)
 - [Japanese Counters and Classifiers](counters-classifiers.md) — the classifier system as a lexicographic challenge
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — sound symbolism and mimetics as a lexicographic challenge
+- [Word Formation and Morphology](word-formation.md) — compounding, derivation, and vocabulary strata
