@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 27)
+Added 30 new dictionary entries (IDs 22527-22556) from candidate_words.json. Removed 22 stale suru-verb candidates that already existed as noun entries. Added new kanji 帆 to kanji index. A diverse mix of nouns, expressions, a na-adjective, and suru verbs covering cooking, household, culture, language, society, nature, and more.
+
+- **Nouns (21)**: {大|おお}さじ (tablespoon), {流|なが}し{台|だい} (kitchen sink), {土曜|どよう} (Saturday), {帆船|はんせん} (sailing ship), {繁忙|はんぼう} (busyness), {水浴|みずあ}び (bathing in water), {互恵|ごけい} (mutual benefit), {忠犬|ちゅうけん} (faithful dog), {門前町|もんぜんまち} (temple town), {擬音語|ぎおんご} (onomatopoeia), {報恩|ほうおん} (repaying kindness), {貝類|かいるい} (shellfish), {処世|しょせい} (worldly wisdom), {灯火|とうか} (lamplight), {弔意|ちょうい} (condolence), {浮腫|ふしゅ} (edema), {希代|きだい} (unprecedented), {鋭眼|えいがん} (keen eye), {取次|とりつぎ} (intermediary), {裏向|うらむ}き (face down), {甘|あま}やかし (spoiling)
+- **Na-adjective (1)**: {尊大|そんだい} (haughty)
+- **Nouns with verb-suru (4)**: {誘引|ゆういん} (inducement), {急襲|きゅうしゅう} (raid), {首謀|しゅぼう} (masterminding), スケッチ (sketch)
+- **Expressions (2)**: {喉|のど}が{渇|かわ}く (to be thirsty), {油|あぶら}を{切|き}る (to drain oil)
+- **Other (2)**: {愛人|あいじん} (lover), {先進|せんしん} (advanced)
+
 ### 2026-04-06 (Vocabulary Expansion - 23 New Entries, Session 26)
 Added 23 new dictionary entries (IDs 22504-22526) from candidate_words.json. Focused on verbs (godan, ichidan, suru) and two nouns. Words cover a range of registers from formal/news vocabulary to everyday descriptive verbs.
 
@@ -81,13 +90,6 @@ Added 18 new dictionary entries (IDs 22426-22443) from candidate_words.json. Foc
 - **Na-adjectives (5)**: {肝心|かんじん}な (essential), {器用|きよう}な (dexterous), {真剣|しんけん}な (serious), {��実|せいじつ}な (sincere), {効率的|こうりつてき}な (efficient)
 - **Nouns (3)**: {手間暇|てまひま} (time and effort), {通俗|つうぞく} (popular/commonplace), {基本料金|��ほんりょうきん} (basic fee)
 
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 22)
-Added 30 new dictionary entries (IDs 22396-22425) from candidate_words.json. A practical mix of nouns, suru verbs, adjectives, an adverb, and an expression covering daily life, health, education, law, politics, food, culture, and language.
-
-- **Suru verbs (10)**: {悲観|ひかん} (pessimism), {意思表示|いしひょうじ} (expression of intention), {速読|そくどく} (speed reading), {滑走|かっそう} (gliding/taxiing), {包囲|ほうい} (encirclement), {焼却|しょうきゃく} (incineration), {注入|ちゅうにゅう} (injection), {加害|かがい} (inflicting harm), {密売|みつばい} (illegal sale), お{稽古|けいこ} (lessons/practice)
-- **Nouns (16)**: {左利|ひだりき}き (left-handed), {入学金|にゅうがくきん} (enrollment fee), {同年代|どうねんだい} (same age group), {虫刺|むしさ}され (insect bite), {冷汗|れいかん} (cold sweat), {活況|かっきょう} (boom/brisk activity), {良性|りょうせい} (benign), {将来性|しょうらいせい} (future potential), {婚姻届|こんいんとどけ} (marriage registration), {交通規制|こうつうきせい} (traffic control), {閣議|かくぎ} (cabinet meeting), {立春|りっしゅん} (beginning of spring), {水質|すいしつ} (water quality), {生焼|なまや}け (undercooked), {言語学|げんごがく} (linguistics), {血筋|ちすじ} (bloodline)
-- **Na-adjective (2)**: {簡略|かんりゃく} (simplification), {高潔|こうけつ} (noble/virtuous)
-- **Adverb (1)**: どれほど (how much/to what extent)
 - **Expression (1)**: というわけで (so/for that reason)
 
 
