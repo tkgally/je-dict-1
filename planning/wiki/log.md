@@ -2,6 +2,16 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-06] maintenance | Onomatopoeia research, UX deepening, cross-ref additions
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched Japanese onomatopoeia and mimetic words — classification system, morphological patterns, phonosemantics (Hamano 1998), L2 acquisition challenges, dictionary treatment approaches; created research/onomatopoeia-mimetics.md citing Hamano, Iwasaki & Yoshioka, Feng, and Inose
+- [C] Substantially expanded research/digital-dictionary-ux.md — added detailed analysis of je-dict-1's current search architecture (three parallel indexes, match strategies, tag-based browsing), documented 8 specific improvement opportunities with implementation notes, added inflected form search as a high-value opportunity using existing conjugation data, added entry page UX section
+- [E] Added cross-references from japanese-lexicography.md, translation-equivalence.md, and expository-articles.md to the new onomatopoeia page; checked all wiki cross-references for broken links
+- Updated index.md with 1 new page entry
+
 ## [2026-04-06] maintenance | Cross-check accuracy, word discovery strategies, growth vision, cross-ref expansion
 
 **Session type**: Manual session (curator-directed)

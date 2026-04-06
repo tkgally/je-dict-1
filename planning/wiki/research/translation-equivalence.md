@@ -63,3 +63,4 @@ Cross-references are also essential — they expose the system of related words 
 - [Learner Lexicography](learner-lexicography.md)
 - [Cross-Reference Design](../topics/cross-references.md)
 - [Register and Formality](../topics/register.md)
+- [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — acute translation equivalence challenges for mimetics
