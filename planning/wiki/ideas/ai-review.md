@@ -69,3 +69,4 @@ In the full autonomous system, review agents would run continuously, processing 
 - [Content Pipeline](../project/content-pipeline.md)
 - [LLMs as Lexicographic Corpus Replacements](../topics/llms-replacing-corpora.md) — broader context for LLM use in dictionary production
 - [Beyond Flat Corpora](../research/beyond-flat-corpora.md) — semantic-pragmatic analysis capabilities
+- [Deterministic vs. Semantic Tasks](../topics/deterministic-vs-semantic-tasks.md) — taxonomy of which tasks can be automated and which cannot

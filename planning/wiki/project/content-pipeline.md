@@ -85,3 +85,4 @@ A typical entry creation session:
 - [Architecture and Build System](architecture.md)
 - [Quality Standards](quality-standards.md)
 - [Entry Design](entry-design.md)
+- [Deterministic vs. Semantic Tasks](../topics/deterministic-vs-semantic-tasks.md) — which pipeline steps are automated and which require editorial judgment

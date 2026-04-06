@@ -146,3 +146,4 @@ The dictionary's existence as a large-scale, LLM-built reference work with autom
 - [AI-Assisted Entry Review](../ideas/ai-review.md) — other uses of LLMs in dictionary quality improvement
 - [Corpus-Driven Entry Prioritization](../ideas/corpus-prioritization.md) — where corpus data remains most valuable
 - [Content Pipeline](../project/content-pipeline.md) — the current LLM-primary workflow
+- [Deterministic vs. Semantic Tasks](deterministic-vs-semantic-tasks.md) — which dictionary tasks can be automated and which require semantic judgment
