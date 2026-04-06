@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-06] maintenance | Deterministic vs. semantic task analysis
+
+**Session type**: Manual session (curator-directed)
+
+**Activities**:
+- [D] Created topics/deterministic-vs-semantic-tasks.md — comprehensive analysis of which editorial tasks can be automated deterministically and which require LLM semantic judgment. Covers: historical context (early project experience with Claude writing scripts), the two-layer architecture, complete taxonomy of all 22+ deterministic scripts and 12+ semantic tasks, detailed analysis of hybrid tasks, deep dives into why specific tasks (furigana, cross-references, examples, semantic labels) resist automation, the "trend toward the mean" advantage for lexicographic work, automatable components within semantic tasks, design principles distilled from project experience, and implications for future development
+- [F] Synthesized information across prompts, skills, and build scripts to document the project's hard-won lessons about the boundary between programmatic and editorial work
+- Updated index.md with 1 new page entry
+
 ## [2026-04-06] maintenance | Onomatopoeia research, UX deepening, cross-ref additions
 
 **Session type**: Nightly maintenance
