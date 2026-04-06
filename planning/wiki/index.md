@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-06
 
 ## How this wiki is organized
 
@@ -46,6 +46,8 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Register and Formality](topics/register.md) — Marking casual/neutral/formal/honorific usage
 - [Compound Verb Representation](topics/compound-verbs.md) — Entry-vs-pattern decisions for V1+V2 compound verbs
 - [LLMs as Lexicographic Corpus Replacements](topics/llms-replacing-corpora.md) — Whether and how LLMs can supplement or replace traditional corpora
+- [Entry Consistency](topics/entry-consistency.md) — Achieving uniformity in form and content among similar entries
+- [Word Variants](topics/word-variants.md) — Handling words with multiple written forms (kanji variants, okurigana, kanji vs. kana)
 
 ## Ideas
 
@@ -53,6 +55,9 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Sentence Mining Integration](ideas/sentence-mining.md) — Connecting the dictionary to SRS/Anki workflows
 - [AI-Assisted Entry Review](ideas/ai-review.md) — Using LLMs for systematic quality improvement
 - [Corpus-Driven Entry Prioritization](ideas/corpus-prioritization.md) — Using frequency data to guide expansion
+- [Multi-Model Proofreading](ideas/multi-model-proofreading.md) — Systematic cross-model verification via OpenRouter
+- [Expository Articles](ideas/expository-articles.md) — Standalone articles on vocabulary topics for browsing
+- [Parallel Agent Architecture](ideas/parallel-agent-architecture.md) — Autonomous parallel revision and improvement system
 
 ## Log
 

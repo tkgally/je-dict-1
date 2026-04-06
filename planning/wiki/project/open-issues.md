@@ -1,6 +1,6 @@
 # Open Issues
 
-**Last updated**: 2026-04-05 (stats updated)
+**Last updated**: 2026-04-06
 
 A running list of known problems, design questions, and unresolved edge cases. Items here are candidates for future work sessions or discussion.
 
@@ -36,11 +36,20 @@ Katakana loanwords raise questions:
 ### Homograph disambiguation
 Some words share identical writing but have different readings and meanings (e.g., 生 with multiple readings). Current approach is separate entries with cross-references, but the search/display experience could be improved.
 
+### Words with multiple written forms
+Many words can be written in different kanji, with different okurigana, or in kanji vs. kana. No systematic policy exists for when variants get separate entries vs. being listed in `alternate_forms`, and the search index doesn't always find entries via variant forms. See [Word Variants](../topics/word-variants.md) for detailed analysis and proposed policies.
+
+### Cross-entry consistency
+Entries of the same type (e.g., all transitive verbs, all color terms) present information in different ways — different note structures, different depth, different coverage of standard sections. As the dictionary matures, greater consistency would improve the user experience and make entries easier to maintain. See [Entry Consistency](../topics/entry-consistency.md).
+
 ### Compound verb representation
 Should compound verbs (V1 + V2, like 食べ始める) get their own entries, or should they be documented as patterns under the component verbs? Current practice is inconsistent.
 
 ### Expression boundary
 Where does "vocabulary" end and "grammar" begin? Entries for expressions like ～ている, ～てしまう, ～ことができる blur the line. Current approach includes common expressions but avoids pure grammar patterns.
+
+### Expository articles
+The dictionary could benefit from standalone articles on vocabulary topics too broad for any single entry's notes (e.g., the counter system, keigo, onomatopoeia families). These would serve the goal of making the dictionary more useful for browsing. See [Expository Articles](../ideas/expository-articles.md).
 
 ## Technical issues
 
@@ -65,8 +74,19 @@ The static site works on mobile but wasn't designed mobile-first. Navigation, se
 ### Session continuity
 Each LLM session starts fresh. While `PROJECT_STATUS.md` and polishing progress files help, complex multi-session tasks can lose context. This knowledge base is partly designed to address this.
 
+### Sequential processing bottleneck
+All maintenance tasks run sequentially — one session at a time, one task at a time. This limits throughput to ~30 entries per session for creation, ~20 entries per session for polishing. Parallel execution would multiply throughput but requires solving file conflict problems. See [Parallel Agent Architecture](../ideas/parallel-agent-architecture.md).
+
+### Single-model quality risk
+All content has been written and reviewed by Claude. While quality is generally high, systematic verification by other frontier models would catch model-specific blind spots. A cross-model proofreading system is planned. See [Multi-Model Proofreading](../ideas/multi-model-proofreading.md).
+
 ## Related pages
 
 - [Quality Standards](quality-standards.md)
 - [AI-Assisted Entry Review](../ideas/ai-review.md)
+- [Multi-Model Proofreading](../ideas/multi-model-proofreading.md)
+- [Parallel Agent Architecture](../ideas/parallel-agent-architecture.md)
+- [Entry Consistency](../topics/entry-consistency.md)
+- [Word Variants](../topics/word-variants.md)
+- [Expository Articles](../ideas/expository-articles.md)
 - [Audio Coverage Expansion](../ideas/audio-expansion.md)
