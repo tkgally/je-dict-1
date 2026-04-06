@@ -6,8 +6,93 @@
   "gloss": "to assemble, to form, to cross",
   "conjugation": {
     "type": "godan",
-    "ending": "む",
-    "stem": "{組|く}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{組|く}む",
+        "negative": "{組|く}まない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{組|く}みます",
+        "negative": "{組|く}みません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{組|く}んだ",
+        "negative": "{組|く}まなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{組|く}みました",
+        "negative": "{組|く}みませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{組|く}んで",
+        "negative": "{組|く}まなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{組|く}んでいる",
+        "negative": "{組|く}んでいない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{組|く}んでいます",
+        "negative": "{組|く}んでいません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{組|く}んでいた",
+        "negative": "{組|く}んでいなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{組|く}んでいました",
+        "negative": "{組|く}んでいませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{組|く}めば",
+        "negative": "{組|く}まなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{組|く}んだら",
+        "negative": "{組|く}まなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{組|く}もう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{組|く}みましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{組|く}める",
+        "negative": "{組|く}めない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{組|く}まれる",
+        "negative": "{組|く}まれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{組|く}ませる",
+        "negative": "{組|く}ませない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{組|く}め",
+        "negative": "{組|く}むな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -125,12 +210,18 @@
       "reading": "くむ",
       "headword": "{汲|く}む",
       "note": "draw water, scoop"
+    },
+    {
+      "target_id": "02464_kumu",
+      "reading": "くむ",
+      "headword": "{酌|く}む",
+      "note": "to pour sake"
     }
   ],
   "cross_references": [],
   "metadata": {
     "created": "2026-01-09T12:32:36Z",
-    "modified": "2026-04-05T07:46:44Z",
+    "modified": "2026-04-06T02:49:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -144,95 +235,5 @@
       ],
       "verb_class": "godan-mu"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{組|く}む",
-        "negative": "{組|く}まない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{組|く}みます",
-        "negative": "{組|く}みません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{組|く}んだ",
-        "negative": "{組|く}まなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{組|く}みました",
-        "negative": "{組|く}みませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{組|く}んで",
-        "negative": "{組|く}まなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{組|く}んでいる",
-        "negative": "{組|く}んでいない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{組|く}んでいます",
-        "negative": "{組|く}んでいません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{組|く}んでいた",
-        "negative": "{組|く}んでいなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{組|く}んでいました",
-        "negative": "{組|く}んでいませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{組|く}めば",
-        "negative": "{組|く}まなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{組|く}んだら",
-        "negative": "{組|く}まなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{組|く}もう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{組|く}みましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{組|く}める",
-        "negative": "{組|く}めない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{組|く}まれる",
-        "negative": "{組|く}まれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{組|く}ませる",
-        "negative": "{組|く}ませない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{組|く}め",
-        "negative": "{組|く}むな"
-      }
-    ]
   }
 }
