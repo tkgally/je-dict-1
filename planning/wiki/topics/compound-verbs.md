@@ -132,3 +132,4 @@ The compound verb question affects multiple project concerns:
 - [Verb Transitivity Pairs](verb-transitivity.md) — related verb classification question
 - [Cross-Reference Design](cross-references.md) — linking compound verbs to components
 - [Content Pipeline](../project/content-pipeline.md) — entry creation workflow
+- [Word Formation and Morphology](../research/word-formation.md) — broader context of Japanese compounding and derivation

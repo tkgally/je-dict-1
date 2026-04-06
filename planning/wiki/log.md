@@ -2,6 +2,17 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-06] maintenance | Word formation research, stats sync, lint check
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched Japanese word formation and morphology for learner dictionaries — vocabulary strata (wago/kango/gairaigo), compounding patterns, productive affixes, derivation, abbreviation, morphological awareness research (Kondo-Brown 2006, Mori & Nagy 1999); created research/word-formation.md citing Kageyama (2016), Halpern, CJK Dictionary Institute, Ito & Mester (2015)
+- [A] Updated entry counts across 7 wiki pages: entries 22,200→22,400, general tier 19,400→19,600, candidates 4,000→3,750, cross-references 5,300→5,400, examples 90,800→91,700; updated audio expansion estimates accordingly
+- [E] Audited all cross-references across 40 wiki pages — no broken links, no orphan pages, all "Last updated" dates current (2026-04-04 or later)
+- Added cross-references from japanese-lexicography.md, vocabulary-acquisition.md, and compound-verbs.md to the new word-formation page
+- Updated index.md with 1 new page entry
+
 ## [2026-04-06] maintenance | Deterministic vs. semantic task analysis
 
 **Session type**: Manual session (curator-directed)

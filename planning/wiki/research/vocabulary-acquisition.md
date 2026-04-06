@@ -104,3 +104,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Collocations in Learner Dictionaries](collocations.md)
 - [Digital Dictionary UX](digital-dictionary-ux.md)
 - [Japanese Counters and Classifiers](counters-classifiers.md) — classifier acquisition by L2 learners
+- [Word Formation and Morphology](word-formation.md) — morphological awareness and L2 vocabulary learning

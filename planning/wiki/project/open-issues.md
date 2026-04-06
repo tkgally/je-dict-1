@@ -16,7 +16,7 @@ Entries created before v2 standards often have brief, unstructured notes (single
 Many semantically related entries aren't linked. The `add_cross-references.md` task and `find_merge_candidates.py` tool help, but systematic coverage would require reviewing all entries.
 
 ### Candidate list quality
-`candidate_words.json` contains ~4,000 candidates, but some are:
+`candidate_words.json` contains ~3,750 candidates, but some are:
 - Duplicates of existing entries (variant readings)
 - Too obscure for intermediate learners
 - Compound words better handled as collocations in existing entries
