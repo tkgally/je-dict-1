@@ -4,7 +4,7 @@
 
 ## Current state
 
-Only 1,028 of ~22,200 entries (~4.6%) have audio files. Audio is valuable for learners — hearing pronunciation reinforces reading and helps with pitch accent, which is not marked in the dictionary. The existing audio files were human-recorded and cover a mix of basic and core tier entries.
+The dictionary currently has no audio files. An earlier experiment with human-recorded audio for ~1,028 entries was discontinued in early 2026 (the files were removed from the repository). Audio remains valuable for learners — hearing pronunciation reinforces reading and helps with pitch accent, which is not marked in the dictionary. Any future audio effort will likely be TTS-based rather than human-recorded.
 
 ## TTS landscape (as of 2026)
 
@@ -41,7 +41,7 @@ For ~22,200 entries averaging ~10 characters per headword, total character count
 
 **Qwen3-TTS** is a strong alternative if a more "natural" (non-character) voice is preferred, or for future multilingual expansion.
 
-A hybrid strategy — VOICEVOX for bulk generation, with human recordings retained for the existing 1,028 entries — would maximize coverage while preserving quality where it already exists.
+VOICEVOX for bulk generation would be the simplest path to full coverage at no cost.
 
 ## Implementation plan
 
