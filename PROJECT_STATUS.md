@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 23 New Entries, Session 26)
+Added 23 new dictionary entries (IDs 22504-22526) from candidate_words.json. Focused on verbs (godan, ichidan, suru) and two nouns. Words cover a range of registers from formal/news vocabulary to everyday descriptive verbs.
+
+- **Suru verbs (10)**: {値上|ねあ}げする (to raise prices), {飼育|しいく}する (to breed animals), {離陸|りりく}する (to take off), {破壊|はかい}する (to destroy), {懸念|けねん}する (to be concerned), {鎮火|ちんか}する (to extinguish fire), {伝播|でんぱ}する (to propagate), {否認|ひにん}する (to deny), {夢想|むそう}する (to fantasize), {憂慮|ゆうりょ}する (to be gravely concerned)
+- **Ichidan verbs (5)**: {取|と}り{分|わ}ける (to serve out), {待|ま}ち{伏|ふ}せる (to ambush), {振|ふ}り{付|つ}ける (to choreograph), {古|ふる}ぼける (to look old/worn), しゃがれる (to become hoarse)
+- **Godan verbs (6)**: {噴|ふ}き{上|あ}がる (to spout up), {生|お}い{茂|しげ}る (to grow thickly), {推|お}し{量|はか}る (to infer), {角張|かくば}る (to be angular), {食|く}いちぎる (to bite off), やせ{細|ほそ}る (to waste away)
+- **Nouns (2)**: {旨|うま}さ (deliciousness/skill), {素直|すなお}さ (honesty/straightforwardness)
+
 ### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 25)
 Added 30 new dictionary entries (IDs 22474-22503) from candidate_words.json. A diverse mix of nouns, na-adjectives, and a pronoun covering daily life, culture, food, science, language, music, and more.
 
@@ -82,12 +90,6 @@ Added 30 new dictionary entries (IDs 22396-22425) from candidate_words.json. A p
 - **Adverb (1)**: どれほど (how much/to what extent)
 - **Expression (1)**: というわけで (so/for that reason)
 
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
-Added 30 new dictionary entries (IDs 22310-22339) from candidate_words.json. A diverse mix covering daily life, culture, sports, food, business, geography, and more.
-
-- **Verb (1)**: {語|かた}り{継|つ}ぐ (to pass down orally)
-- **Adverb (1)**: {思|おも}う{存分|ぞんぶん} (to one's heart's content)
-- **Nouns (28)**: {切|き}り{口|くち} (perspective/cross-section), {追加|ついか}{料金|りょうきん} (additional fee), {停学|ていがく} (school suspension), {社会|しゃかい}{貢献|こうけん} (social contribution), {駆|か}け{足|あし} (running/quick pace), {懸垂|けんすい} (pull-up), {案内|あんない}{板|ばん} (information board), {彫像|ちょうぞう} (statue), {空前|くうぜん} (unprecedented), {馬券|ばけん} (horse racing ticket), {知力|ちりょく} (intellect), {年代物|ねんだいもの} (vintage item), {鼻筋|はなすじ} (bridge of nose), {取|と}り{壊|こわ}し (demolition), {建設中|けんせつちゅう} (under construction), {営業|えいぎょう}スマイル (customer-service smile), {豚丼|ぶたどん} (pork bowl), {百人一首|ひゃくにんいっしゅ} (Hyakunin Isshu), {懸賞金|けんしょうきん} (prize money), {講談|こうだん} (storytelling), {喫煙席|きつえんせき} (smoking seat), {宝飾品|ほうしょくひん} (jewelry), {躍動感|やくどうかん} (sense of dynamism), インテリア (interior), {急坂|きゅうざか} (steep slope), {平均台|へいきんだい} (balance beam), {跳|と}び{箱|ばこ} (vaulting box), {酪農家|らくのうか} (dairy farmer)
 
 ### 2026-04-05 (Vocabulary Expansion - 26 New Entries, Session 21)
 Added 26 new dictionary entries (IDs 22340-22365) from candidate_words.json. Removed 3 stale duplicate candidates. A mix of nouns, verbs, and onomatopoeia covering business, sports, culture, health, and daily life.
