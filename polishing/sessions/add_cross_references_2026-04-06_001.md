@@ -2,66 +2,57 @@
 Date: 2026-04-06
 
 ### prominent_see_also Added
-- 02462_osameru ↔ 02280_osameru: homophone (治める ↔ 納める)
-- 02464_kumu ↔ 02281_kumu: homophone (酌む ↔ 汲む)
-- 02464_kumu ↔ 02050_kumu: homophone (酌む ↔ 組む)
-- 02467_sasu ↔ 02111_sasu: homophone (注す ↔ 刺す)
-- 02467_sasu ↔ 02056_sasu: homophone (注す ↔ 指す)
-- 02467_sasu ↔ 17637_sasu: homophone (注す ↔ 差す)
-- 02468_sasu ↔ 02111_sasu: homophone (射す ↔ 刺す)
-- 02468_sasu ↔ 02056_sasu: homophone (射す ↔ 指す)
-- 02468_sasu ↔ 17637_sasu: homophone (射す ↔ 差す)
-- 02468_sasu ↔ 02466_sasu: homophone (射す ↔ 挿す)
-- 02468_sasu ↔ 02467_sasu: homophone (射す ↔ 注す)
-- 02469_sonaeru ↔ 02125_sonaeru: homophone (具える ↔ 備える)
-- 02469_sonaeru ↔ 11562_sonaeru: homophone (具える ↔ 供える)
-- 02470_tsugu ↔ 02471_tsugu: homophone (注ぐ ↔ 接ぐ)
-- 02470_tsugu ↔ 02292_tsugu: homophone (注ぐ ↔ 継ぐ)
-- 02470_tsugu ↔ 02076_tsugu: homophone (注ぐ ↔ 次ぐ)
-- 02471_tsugu ↔ 02292_tsugu: homophone (接ぐ ↔ 継ぐ)
-- 02471_tsugu ↔ 02076_tsugu: homophone (接ぐ ↔ 次ぐ)
-- 02489_souzou ↔ 03317_souzou: homophone (想像 ↔ 創造)
-- 02521_korogasu ↔ 02571_korogaru: transitive/intransitive (migrated from pair)
+- 02726_kouka (効果) ↔ 02745_kouka (硬貨): homophone
 
 ### cross_references Added
-- 02447_in → 04662_sha: related - person who does ~ suffix
-- 04662_sha → 02447_in: related - member/staff suffix (back-link)
-- 02448_oki → ごとに: contrast - each occurrence (forward ref)
-- 02449_gakubu → 00053_gakka: related - department (within faculty)
-- 02449_gakubu → 04783_daigakuin: related - graduate school
-- 02455_date → 01034_kai: related - floor counter
-- 02456_chan → 09848_san: related - polite name suffix
-- 02456_chan → 01549_sama: related - formal/respectful suffix
-- 09848_san → 02456_chan: related - affectionate suffix (back-link)
-- 01549_sama → 02456_chan: related - affectionate suffix (back-link)
-- 02462_osameru → 01629_seiji: related - politics
-- 02465_kosu ↔ 01942_koeru: synonym - ichidan/godan variants
-- 02495_kesseki → 07732_kekkin: related - absence from work
-- 02497_fuman → 03602_fuhei: related - grievance, complaint
-- 02497_fuman → 00252_kujou: related - formal complaint
-- 02498_sanka → 02084_shusseki: related - attendance
-- 02498_sanka → 11915_kanyuu: related - joining (organization)
-- 02503_shisetsu → 01458_tatemono: contrast - building (physical)
-- 02509_kizuna → 10380_tsunagari: related - connection, link
-- 02509_kizuna → 02182_en: related - fate, connection
-- 02513_rikutsu → 06026_ronri: related - logic (formal)
-- 02513_rikutsu → 10400_douri: related - reason, principle
+- 02707_kensa → 07679_kenshin: synonym (medical screening)
+- 02707_kensa → 03259_shinsatsu: synonym (medical examination)
+- 02707_kensa → 03489_chousa: synonym (investigation)
+- 02708_kensetsu → 02709_kenchiku: contrast (architecture, buildings)
+- 02708_kensetsu → 00244_kouji: related (construction work)
+- 02709_kenchiku → 02708_kensetsu: contrast (large-scale construction)
+- 02709_kenchiku → 00244_kouji: related (construction work)
+- 02713_geki → 02714_gekijou: related (theater venue)
+- 02713_geki → 03195_shibai: synonym (play, colloquial)
+- 02714_gekijou → 02713_geki: related (drama, play)
+- 02715_genkai → 00063_gendo: synonym (limit, quantity/degree)
+- 02715_genkai → 12096_kyoukai: related (boundary)
+- 02717_gengo → 02880_kotoba: synonym (everyday term)
+- 02720_genjitsu → 03676_risou: antonym (ideal)
+- 02721_genjou → 01576_joukyou: synonym (situation)
+- 02726_kouka → 02486_kekka: synonym (result)
+- 02726_kouka → 01877_eikyou: synonym (influence)
+- 02728_koudou → 10021_koui: synonym (act, deed)
+- 02729_kousei → 02730_kouzou: synonym (structure)
+- 02730_kouzou → 02729_kousei: synonym (composition)
+- 02730_kouzou → 07168_shikumi: synonym (mechanism)
+- 02731_koujou → 00144_kaizen: synonym (improvement)
+- 02731_koujou → 03265_shinpo: synonym (progress)
+- 02734_konki → 05212_nintai: synonym (endurance)
+- 02735_kouen → 01894_enzetsu: synonym (speech, political)
+- 02735_kouen → 03562_happyou: synonym (presentation)
+- 02736_kousatsu → 02710_kentou: synonym (practical review)
+- 02736_kousatsu → 03610_bunseki: synonym (analysis)
+- 02739_kokugo → 00614_nihongo: contrast (Japanese as foreign language)
+- 02739_kokugo → 02717_gengo: related (language, academic)
+- 02740_keiei → 05096_unei: synonym (operation)
+- 02741_keiji → 民事 (forward ref): antonym (civil matters)
+- 02743_kenkai → 01303_iken: synonym (opinion, general)
+- 02744_kenpou → 01722_houritsu: related (law, statute)
+- 02747_koukoku → 03307_senden: synonym (publicity)
 
 ### References Fixed/Migrated
-- 02478_nigasu: migrated pair to prominent_see_also (逃がす ↔ 逃げる)
-- 01151_nigeru: migrated pair to prominent_see_also (逃げる ↔ 逃がす)
-- 02521_korogasu: migrated pair to prominent_see_also (転がす ↔ 転がる)
-- 02571_korogaru: migrated pair to prominent_see_also (転がる ↔ 転がす)
+- 02647_gimu: changed cross_references type for 権利 from "related" to "antonym" (reciprocal match with 02711_kenri)
 
-### Entries Skipped
-None
+### Entries Skipped (if any)
+- None
 
 ### Statistics
-- Entries reviewed this session: 50
-- prominent_see_also links added: ~40 (bidirectional)
-- cross_references links added: ~22
-- References fixed/migrated: 4 (pair → prominent_see_also)
-- Entry range: 02447 through 02536
+- Entries reviewed this session: 35
+- prominent_see_also links added: 2
+- cross_references links added: 35
+- References fixed/migrated: 1
+- Entry range: 02707 through 02747
 
 ### Next Entry
-02538_kakujitsu
+02749
