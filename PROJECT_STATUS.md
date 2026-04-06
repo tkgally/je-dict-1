@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 25 New Entries, Session 31)
+Added 25 new dictionary entries (IDs 22645-22669) from candidate_words.json. Removed 1 stale candidate (焦れったい, already existed as entry 22590). A diverse mix of nouns, suru verbs, and a na-adjective covering culture, music, medicine, literature, daily life, and more.
+
+- **Nouns (16)**: {口笛|くちぶえ} (whistling), {警笛|けいてき} (warning whistle), {実用性|じつようせい} (practicality), {花札|はなふだ} (hanafuda cards), {本意|ほんい} (real intention), {社員証|しゃいんしょう} (employee ID), {暗黒街|あんこくがい} (underworld), {宿願|しゅくがん} (long-cherished wish), {便覧|べんらん} (handbook), {文壇|ぶんだん} (literary circles), {撮影所|さつえいじょ} (film studio), {縦笛|たてぶえ} (recorder), {旅行記|りょこうき} (travelogue), {紀行文|きこうぶん} (travel essay), {佳作|かさく} (honorable mention), あいこ (tie/draw)
+- **Suru verbs (5)**: {流浪|るろう} (wandering), {接種|せっしゅ} (vaccination), {先導|せんどう} (leading), {敬畏|けいい} (awe/reverence), {企図|きと} (plan/scheme)
+- **Na-adjective (1)**: {精細|せいさい} (detailed/fine)
+- **Household (2)**: {鍋|なべ}つかみ (pot holder), {皇族|こうぞく} (imperial family)
+- **Na-adjective (1)**: {演壇|えんだん} (podium)
+
 ### 2026-04-06 (Vocabulary Expansion - 28 New Entries, Session 30)
 Added 28 new dictionary entries (IDs 22617-22644) from candidate_words.json. A mix of verbs, nouns, and expressions covering daily life, medicine, law, emotion, social interaction, academic writing, music, biology, and more.
 
@@ -86,13 +95,6 @@ Added 30 new dictionary entries (IDs 22527-22556) from candidate_words.json. Rem
 - **Expressions (2)**: {喉|のど}が{渇|かわ}く (to be thirsty), {油|あぶら}を{切|き}る (to drain oil)
 - **Other (2)**: {愛人|あいじん} (lover), {先進|せんしん} (advanced)
 
-### 2026-04-06 (Vocabulary Expansion - 23 New Entries, Session 26)
-Added 23 new dictionary entries (IDs 22504-22526) from candidate_words.json. Focused on verbs (godan, ichidan, suru) and two nouns. Words cover a range of registers from formal/news vocabulary to everyday descriptive verbs.
-
-- **Suru verbs (10)**: {値上|ねあ}げする (to raise prices), {飼育|しいく}する (to breed animals), {離陸|りりく}する (to take off), {破壊|はかい}する (to destroy), {懸念|けねん}する (to be concerned), {鎮火|ちんか}する (to extinguish fire), {伝播|でんぱ}する (to propagate), {否認|ひにん}する (to deny), {夢想|むそう}する (to fantasize), {憂慮|ゆうりょ}する (to be gravely concerned)
-- **Ichidan verbs (5)**: {取|と}り{分|わ}ける (to serve out), {待|ま}ち{伏|ふ}せる (to ambush), {振|ふ}り{付|つ}ける (to choreograph), {古|ふる}ぼける (to look old/worn), しゃがれる (to become hoarse)
-- **Godan verbs (6)**: {噴|ふ}き{上|あ}がる (to spout up), {生|お}い{茂|しげ}る (to grow thickly), {推|お}し{量|はか}る (to infer), {角張|かくば}る (to be angular), {食|く}いちぎる (to bite off), やせ{細|ほそ}る (to waste away)
-- **Nouns (2)**: {旨|うま}さ (deliciousness/skill), {素直|すなお}さ (honesty/straightforwardness)
 
 
 
