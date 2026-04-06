@@ -44,10 +44,25 @@
     }
   ],
   "notes": "{金額|きんがく} refers to specific amounts of money.\n\nCOMMON PATTERNS:\n- {金額|きんがく}を{確認|かくにん}する (to confirm the amount)\n- {金額|きんがく}が{大|おお}きい/{小|ちい}さい (the amount is large/small)\n- {金額|きんがく}を{入力|にゅうりょく}する (to enter the amount)\n\nCOMPOUND WORDS:\n- {合計|ごうけい}{金額|きんがく} (total amount)\n- {請求|せいきゅう}{金額|きんがく} (billed amount)\n- {支払|しはらい}{金額|きんがく} (payment amount)\n\nSIMILAR WORDS:\n- {金額|きんがく}: amount of money (specific)\n- {値段|ねだん}: price (of goods)\n- {料金|りょうきん}: fee, charge",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00871_nedan",
+      "reading": "ねだん",
+      "headword": "{値段|ねだん}",
+      "label": "price (of goods)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03797_ryoukin",
+      "reading": "りょうきん",
+      "headword": "{料金|りょうきん}",
+      "label": "fee, charge"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-03-26T02:00:24Z",
+    "modified": "2026-04-06T03:40:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
