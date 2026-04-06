@@ -1,6 +1,6 @@
 # Vocabulary Tier System
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-06
 
 ## Overview
 
@@ -16,7 +16,7 @@ Foundational survival vocabulary. Words a learner needs from day one: numbers, c
 
 Essential vocabulary for functioning as an adult in Japanese society. Covers everyday topics: work, shopping, health, transportation, weather, food. A learner who knows all basic + core words can handle most daily situations. This tier is also frozen.
 
-### General (16,000+ entries, growing)
+### General (19,400+ entries, growing)
 
 All other vocabulary. Ranges from common words that just missed the core cutoff to specialized terms, literary vocabulary, and technical language. All new entries are added to this tier.
 
@@ -46,6 +46,19 @@ Within the basic and core tiers, definitions and examples should be largely self
 ## Relationship to frequency
 
 The tiers correlate loosely with frequency but are not strictly frequency-based. Some very frequent words (e.g., topic particles, basic conjunctions) are in the basic tier because they're foundational, while some moderately frequent words were placed in general because they serve narrower communicative functions.
+
+## Tier reassessment needed
+
+The basic and core tiers were assigned early in the project, when the dictionary was much smaller. Since then, thousands of general-tier entries have been added, and it is likely that some of these should be in the basic or core tiers. For example, a common everyday word added later in the project may have been placed in general simply because the basic/core tiers were already marked as "closed."
+
+A systematic reassessment is planned:
+- **Review general-tier entries** for words that are clearly basic or core level (survival vocabulary, essential adult communication)
+- **Review basic/core entries** for any that might be less fundamental than newer general entries
+- **Keep total counts approximately the same** — basic should stay around ~800, core around ~2,000. This means any promotions should be balanced by demotions or the thresholds should be explicitly expanded
+- **Criteria**: Use communicative need as the primary criterion (not raw frequency). A word belongs in basic if a learner needs it from day one; in core if an adult needs it for daily life
+- **Process**: This should be done in a dedicated session with careful review, not as a side effect of other work
+
+Until reassessment is complete, the tiers remain closed to new additions — all new entries continue to go in the general tier.
 
 ## Future considerations
 

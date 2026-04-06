@@ -1,6 +1,6 @@
 # Open Issues
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-06 (counts and audio status verified)
 
 A running list of known problems, design questions, and unresolved edge cases. Items here are candidates for future work sessions or discussion.
 
@@ -16,7 +16,7 @@ Entries created before v2 standards often have brief, unstructured notes (single
 Many semantically related entries aren't linked. The `add_cross-references.md` task and `find_merge_candidates.py` tool help, but systematic coverage would require reviewing all entries.
 
 ### Candidate list quality
-`candidate_words.json` contains ~5,400+ candidates, but some are:
+`candidate_words.json` contains ~4,000 candidates, but some are:
 - Duplicates of existing entries (variant readings)
 - Too obscure for intermediate learners
 - Compound words better handled as collocations in existing entries
@@ -45,6 +45,9 @@ Entries of the same type (e.g., all transitive verbs, all color terms) present i
 ### Compound verb representation
 Should compound verbs (V1 + V2, like 食べ始める) get their own entries, or should they be documented as patterns under the component verbs? Current practice is inconsistent.
 
+### Proper names and encyclopedic entries
+The dictionary currently excludes proper names (place names, personal names, organization names) and encyclopedic content. Eventually these should be added, but the current entry schema — optimized for vocabulary with example sentences, collocations, and contrastive notes — doesn't fit well. A different entry format with lighter example requirements and encyclopedic notes may be needed. See [Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md).
+
 ### Expression boundary
 Where does "vocabulary" end and "grammar" begin? Entries for expressions like ～ている, ～てしまう, ～ことができる blur the line. Current approach includes common expressions but avoids pure grammar patterns.
 
@@ -61,7 +64,7 @@ Client-side search works but has limits:
 - Performance may degrade as entry count grows
 
 ### Audio coverage
-Only ~1,028 entries have audio files (~4.7% of nearly 22,000 total). Expanding this would significantly improve the user experience but requires a scalable audio generation strategy.
+The dictionary currently has no audio files. An earlier experiment with human-recorded audio for ~1,028 entries was discontinued in early 2026. Adding pronunciation audio remains a desirable goal, but requires a scalable generation strategy — likely TTS-based. See [Audio Coverage Expansion](../ideas/audio-expansion.md).
 
 ### Mobile experience
 The static site works on mobile but wasn't designed mobile-first. Navigation, search, and long entry pages could be improved for small screens.
@@ -90,3 +93,5 @@ All content has been written and reviewed by Claude. While quality is generally 
 - [Word Variants](../topics/word-variants.md)
 - [Expository Articles](../ideas/expository-articles.md)
 - [Audio Coverage Expansion](../ideas/audio-expansion.md)
+- [Word Discovery Strategies](../ideas/word-discovery-strategies.md)
+- [Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md)

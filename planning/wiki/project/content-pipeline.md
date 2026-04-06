@@ -1,6 +1,6 @@
 # Content Pipeline
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-06
 
 ## Overview
 
@@ -14,10 +14,11 @@ Each stage has its own tools, prompts, and quality gates.
 
 ## Stage 1: Candidate discovery
 
-New words are identified and added to `candidate_words.json`. Sources:
+New words are identified and added to `candidate_words.json`. The primary method is now **LLM-based brainstorming**:
 
+- **LLM brainstorming** (primary) — `prompts/brainstorm-new-candidates.md` runs an automated pipeline that seeds an external LLM (via OpenRouter) with existing dictionary words and asks it to suggest related words that are missing. Explores synonyms, antonyms, same-field words, kanji compounds, register variants, collocational partners, and situationally related words. Produces large batches of candidates efficiently with built-in deduplication. See [Word Discovery Strategies](../ideas/word-discovery-strategies.md) for analysis of this and other approaches.
 - **Manual identification** — the curator notices gaps in coverage
-- **Corpus harvesting** — processing frequency lists to find missing common words (`prompts/corpus_harvesting.md`)
+- **Corpus harvesting** — processing frequency lists to find missing common words (`prompts/corpus_harvesting.md`); an earlier approach that has been largely superseded by brainstorming
 - **Systematic search** — scanning for words in specific semantic domains (`prompts/newcandidates.md`)
 - **Cross-reference gaps** — words mentioned in existing entries but lacking their own entry
 - **No-entry link detection** — words marked `noentry` in inline links

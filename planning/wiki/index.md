@@ -51,13 +51,15 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 
 ## Ideas
 
-- [Audio Coverage Expansion](ideas/audio-expansion.md) — Strategies for increasing audio coverage beyond 1,028 entries
+- [Audio Coverage Expansion](ideas/audio-expansion.md) — Strategies for adding TTS-based pronunciation audio
 - [Sentence Mining Integration](ideas/sentence-mining.md) — Connecting the dictionary to SRS/Anki workflows
 - [AI-Assisted Entry Review](ideas/ai-review.md) — Using LLMs for systematic quality improvement
 - [Corpus-Driven Entry Prioritization](ideas/corpus-prioritization.md) — Using frequency data to guide expansion
 - [Multi-Model Proofreading](ideas/multi-model-proofreading.md) — Systematic cross-model verification via OpenRouter
 - [Expository Articles](ideas/expository-articles.md) — Standalone articles on vocabulary topics for browsing
 - [Parallel Agent Architecture](ideas/parallel-agent-architecture.md) — Autonomous parallel revision and improvement system
+- [Word Discovery Strategies](ideas/word-discovery-strategies.md) — LLM brainstorming, scenario-based gaps, and other approaches for finding missing words
+- [Dictionary Growth and Long-Term Vision](ideas/dictionary-growth.md) — No maximum size, proper names, long-term expansion phases
 
 ## Log
 

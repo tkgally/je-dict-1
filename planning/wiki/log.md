@@ -2,6 +2,21 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-06] maintenance | Cross-check accuracy, word discovery strategies, growth vision, cross-ref expansion
+
+**Session type**: Manual session (curator-directed)
+
+**Activities**:
+- [E] Fixed outdated audio references in open-issues.md and audio-expansion.md — audio files were removed in early 2026 but wiki still referenced ~1,028 entries with audio
+- [E] Updated outdated counts: cross-references (3,400→5,300+), candidates (5,400→4,000), general tier (16,000→19,400+) across multiple pages
+- [A] Updated content-pipeline.md to reflect LLM brainstorming as the primary candidate discovery method
+- [D] Created ideas/word-discovery-strategies.md — comprehensive analysis of brainstorming pros/cons, 7 proposed alternative discovery methods (scenario-based, textbook mining, user simulation, reverse cross-ref mining, kanji productivity, semantic field audits, learner error analysis), safeguards against missing basic vocabulary
+- [D] Created ideas/dictionary-growth.md — no maximum size policy, three growth phases, proper names/encyclopedia entry design discussion, long-term dictionary identity
+- [C] Substantially expanded topics/cross-references.md — added sections on why cross-refs matter for browsing (vocabulary networks, serendipitous learning, disambiguation), improvement ideas (higher coverage targets, automated suggestions, quality review, navigational improvements, typed browsing paths, completeness metrics)
+- [C] Added tier reassessment section to project/vocabulary-tiers.md — noting that basic/core assignments need rechecking since they were made early in the project
+- [C] Added proper names design question to project/open-issues.md
+- Updated index.md with 2 new page entries
+
 ## [2026-04-06] maintenance | Major expansion — proofreading, articles, consistency, parallelism, word variants
 
 **Session type**: Manual session (curator-directed)
