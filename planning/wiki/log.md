@@ -2,6 +2,21 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-06] maintenance | Major expansion — proofreading, articles, consistency, parallelism, word variants
+
+**Session type**: Manual session (curator-directed)
+
+**Activities**:
+- [D] Created ideas/multi-model-proofreading.md — comprehensive plan for systematic cross-model entry verification via OpenRouter, covering furigana, glosses, examples, notes; two-pass review architecture; implementation roadmap in three phases; cost estimates
+- [D] Created ideas/expository-articles.md — proposal for standalone articles on vocabulary topics (counters, keigo, onomatopoeia families, etc.) to support browsing and serendipitous discovery; article types, format options, implementation plan, prioritization
+- [D] Created topics/entry-consistency.md — analysis of consistency problems in note structure, cross-references, glosses, and examples across similar entries; proposed standard note structures by POS; strategies including template-driven revision and cluster-based review
+- [D] Created ideas/parallel-agent-architecture.md — design for autonomous parallel agent system; four architecture options analyzed (file-based, task-based, claim-based, branch-per-agent) with hybrid recommendation; three-phase transition plan; quality safeguards
+- [D] Created topics/word-variants.md — policy framework for handling words with multiple written forms (kanji variants, okurigana, kanji vs. kana, reading variants); when to create separate entries vs. consolidate; search index implications; data model considerations
+- [C] Expanded ideas/ai-review.md — added links to new multi-model proofreading and parallel architecture pages; reorganized into review strategies and implementation approaches sections
+- [C] Updated project/open-issues.md — added new design questions (word variants, entry consistency, expository articles) and process issues (sequential bottleneck, single-model risk); expanded related pages
+- [E] Updated index.md with 5 new page entries (2 topics, 3 ideas)
+- All new pages incorporate insights from the curator's about.html blog entries and respond to specific curator priorities communicated in this session
+
 ## [2026-04-05] maintenance | Counters research, audio expansion deepening, stats sync
 
 **Session type**: Nightly maintenance
