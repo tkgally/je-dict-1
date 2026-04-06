@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 18 New Entries, Session 23)
+Added 18 new dictionary entries (IDs 22426-22443) from candidate_words.json. Focused on high-frequency, practical vocabulary for intermediate learners: common suru verbs, na-adjectives for character/attitude description, and everyday nouns.
+
+- **Suru verbs (10)**: {無理|むり}する (to overdo), {準備|じゅんび}する (to prepare), {用���|ようい}する (to arrange), {尊敬|そんけい}する (to respect), {移動|いどう}する (to move), {駐車|ちゅうしゃ}する (to park), {署名|しょめい}する (to sign), {連想|れんそう}する (to associate), {早退|そうたい}する (to leave early), {通過|つうか}する (to pass through)
+- **Na-adjectives (5)**: {肝心|かんじん}な (essential), {器用|きよう}な (dexterous), {真剣|しんけん}な (serious), {��実|せいじつ}な (sincere), {効率的|こうりつてき}な (efficient)
+- **Nouns (3)**: {手間暇|てまひま} (time and effort), {通俗|つうぞく} (popular/commonplace), {基本料金|��ほんりょうきん} (basic fee)
+
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 22)
 Added 30 new dictionary entries (IDs 22396-22425) from candidate_words.json. A practical mix of nouns, suru verbs, adjectives, an adverb, and an expression covering daily life, health, education, law, politics, food, culture, and language.
 
@@ -92,13 +99,6 @@ Added 30 new dictionary entries (IDs 22366-22395) from candidate_words.json. A m
 - **Nouns (12)**: {適宜|てきぎ} (as appropriate), {冊子|さっし} (booklet), {期末|きまつ} (end of term), {重箱|じゅうばこ} (tiered box), {番犬|ばんけん} (guard dog), {闘争心|とうそうしん} (fighting spirit), {失業者|しつぎょうしゃ} (unemployed person), {学識|がくしき} (scholarship), {成句|せいく} (set phrase), {横断幕|おうだんまく} (banner), {当代|とうだい} (current generation), {共栄|きょうえい} (co-prosperity), {定理|ていり} (theorem)
 - **Conjunction (1)**: なのに (despite that)
 
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 19)
-Added 30 new dictionary entries (IDs 22252-22281) from candidate_words.json. A diverse mix of expressions, nouns, adverbs, and verbs covering communication, daily life, culture, education, science, sports, finance, and more.
-
-- **Expressions (10)**: ��の{通|とお}り (exactly right), どちらかといえば (if anything, rather), {明|あき}らかにする (to make clear), {小馬鹿|こばか}にする (to belittle), {豪快|ごうかい}に{笑|わら}う (to laugh heartily), {立場|たちば}がない (to lose face), {鼻|はな}を{利|き}かせる (to have a keen nose), {肘|ひじ}をつく (to rest elbows on table), {水|みず}に{浸|ひた}す (to soak in water), {情熱|じょうねつ}を{傾|かたむ}ける (to pour passion into)
-- **Nouns (13)**: {届|とど}���{物|もの} (delivery), {一門|いちもん} (clan/school), {三拍子|さんびょうし} (triple time), {透明化|とうめいか} (transparency), {取|と}り{立|た}て (debt collection/freshness), {疑問形|ぎもんけい} (interrogative form), {写真機|しゃしんき} (camera), {負|ふ}の{数|すう} (negative number), {書|か}き{下|くだ}し{文|ぶん} (kanbun rendering), {自分専用|じぶんせんよう} (for personal use), {冷|ひ}ややかさ (coldness), {技能者|ぎのうしゃ} (skilled worker), やり{投|な}げ (javelin throw), {合成繊維|ごうせいせんい} (synthetic fiber), {債務者|さいむしゃ} (debtor), {中等|ちゅうとう} (secondary level), {可視|かし} (visible)
-- **Adverb (1)**: ぴたり (exactly, suddenly stopping)
-- **Verbs (2)**: なびかせる (to let flutter), {書|か}き{始|はじ}める (to begin writing)
 
 
 
