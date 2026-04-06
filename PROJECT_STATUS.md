@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 25)
+Added 30 new dictionary entries (IDs 22474-22503) from candidate_words.json. A diverse mix of nouns, na-adjectives, and a pronoun covering daily life, culture, food, science, language, music, and more.
+
+- **Na-adjectives (2)**: {不憫|ふびん} (pitiful), {一本気|いっぽんぎ} (single-minded)
+- **Pronoun (1)**: {俺様|おれさま} (arrogant "I")
+- **Nouns (27)**: {真逆|まぎゃく} (complete opposite), {即時|そくじ} (immediate), {地雷|じらい} (land mine), {置|お}き{場|ば} (storage spot), {掌握|しょうあく} (seizing control), {冷水|れいすい} (cold water), {言明|げんめい} (declaration), {台数|だいすう} (number of vehicles/machines), {英字|えいじ} (Roman letters), おままごと (playing house), {公営|こうえい} (publicly operated), {本線|ほんせん} (main line), {生育|せいいく} (growth of plants), {自治会|じちかい} (residents' association), {押|お}し{寿司|ずし} (pressed sushi), {飲|の}み{口|くち} (taste/mouthfeel), {恵方巻|えほうまき} (lucky direction sushi roll), {未確認|みかくにん} (unconfirmed), {山芋|やまいも} (Japanese yam), {船員|せんいん} (crew member), {曲|ま}がり (bend/curve), {明|あ}け{暮|く}れ (day and night), {変種|へんしゅ} (variant), {稼働中|かどうちゅう} (in operation), {弔辞|ちょうじ} (eulogy), {横笛|よこぶえ} (transverse flute), {反作用|はんさよう} (reaction/counteraction)
+
 ### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 24)
 Added 30 new dictionary entries (IDs 22444-22473) from candidate_words.json. A diverse mix of nouns, suru verbs, an adverb, and an expression covering daily life, culture, business, food, language, nature, travel, law, economics, medicine, and more.
 
@@ -90,14 +97,6 @@ Added 26 new dictionary entries (IDs 22340-22365) from candidate_words.json. Rem
 - **Nouns (13)**: {財界|ざいかい} (business world), {秘密|ひみつ}{兵器|へいき} (secret weapon), {銀|ぎん}メダル (silver medal), {銅|どう}メダル (bronze medal), {使用人|しようにん} (servant), {執筆者|しっぴつしゃ} (author), {村民|そんみん} (villagers), {歴史|れきし}{学者|がくしゃ} (historian), {他殺|たさつ} (homicide), {病原菌|びょうげんきん} (pathogenic bacteria), マメ (blister), {整腸剤|せいちょうざい} (digestive medicine), ギャンブラー (gambler)
 - **Onomatopoeia (1)**: ごうごう (roaring sound)
 
-### 2026-04-05 (Vocabulary Expansion - 28 New Entries, Session 20)
-Added 28 new dictionary entries (IDs 22282-22309) from candidate_words.json. A diverse mix covering daily life, culture, business, sports, food, and language.
-
-- **Suru verbs (2)**: {遅刻|ちこく}する (to be late), {欠席|けっせき}する (to be absent)
-- **Ichidan verbs (3)**: {抜|ぬ}きん{出|で}る (to excel), しゃれる (to be stylish), {洗練|せんれん}される (to be refined)
-- **Na-adjective (1)**: {艶|つや}やか (glossy, lustrous)
-- **Expression (1)**: {納得|なっとく}がいく (to be convinced)
-- **Nouns (21)**: {努力家|どりょくか} (hard worker), {逆境|ぎゃっきょう} (adversity), {人|ひと}だかり (crowd), {水差|みずさ}し (pitcher), プライド (pride), {町家|まちや} (townhouse), {快適|かいてき}さ (comfort), {冷凍室|れいとうしつ} (freezer), {数|かぞ}え{年|どし} (traditional age), {茶道具|さどうぐ} (tea utensils), サビ (chorus), {朝会|ちょうかい} (morning meeting), {利益率|りえきりつ} (profit margin), {安全地帯|あんぜんちたい} (safety zone), {不戦敗|ふせんぱい} (forfeit loss), {舞台挨拶|ぶたいあいさつ} (stage greeting), {反則負|はんそくま}け (foul loss), {七分咲|ななぶざ}き (70% bloom), {蒸|む}し{菓子|がし} (steamed sweet), {敬白|けいはく} (respectfully yours), {謹啓|きんけい} (respectfully)
 
 ### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
 Added 30 new dictionary entries (IDs 22366-22395) from candidate_words.json. A mix of suru verbs, na-adjectives, nouns, and a conjunction covering science, health, business, law, culture, education, and everyday life.
