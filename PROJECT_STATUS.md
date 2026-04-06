@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 29)
+Added 30 new dictionary entries (IDs 22587-22616) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, adverbs, expressions, and a pronoun covering daily life, food, nature, emotion, language, law, and more.
+
+- **I-adjectives (3)**: じれったい (frustrating), {薄気味悪|うすきみわる}い (creepy), {惜|お}しみない (unstinting)
+- **Verbs (2)**: {飲|の}み{過|す}ぎる (to drink too much), {死|し}にかける (to nearly die)
+- **Adverbs (2)**: はるかに (by far), {早急|そうきゅう}に (urgently)
+- **Expressions (2)**: {喝采|かっさい}を{送|おく}る (to applaud), {気位|きぐらい}が{高|たか}い (proud/haughty)
+- **Pronoun (1)**: どれか (one of them)
+- **Nouns (20)**: {網|あみ} (net), {目|め}の{前|まえ} (right before one's eyes), {全長|ぜんちょう} (overall length), {漁船|ぎょせん} (fishing boat), {南向|みなみむ}き (south-facing), {外国籍|がいこくせき} (foreign nationality), {懐中|かいちゅう} (pocket), {短|みじか}さ (shortness), {盛|も}り{放題|ほうだい} (all-you-can-serve), {中食|なかしょく} (ready-made meals), こちら{側|がわ} (this side), {貯水|ちょすい} (water storage), {茹|ゆ}で{汁|じる} (cooking liquid), オノマトペ (onomatopoeia), {仮釈放|かりしゃくほう} (parole), {宿木|やどりぎ} (mistletoe), {条理|じょうり} (reason/logic), {最下|さいか} (lowest), {定量化|ていりょうか} (quantification), {水切|みずき}れ (drainage/stone skipping)
+
 ### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 28)
 Added 30 new dictionary entries (IDs 22557-22586) from candidate_words.json. Added new kanji 汐 to kanji index. A diverse mix of nouns, verbs, adjectives, and an adverb covering daily life, science, culture, emotions, and more.
 
@@ -91,23 +101,6 @@ Added 30 new dictionary entries (IDs 22444-22473) from candidate_words.json. A d
 - **Expression (1)**: {一命|いちめい}を{取|と}り{留|と}める (to narrowly escape death)
 - **Nouns (25)**: {真|ま}っ{只中|ただなか} (right in the middle of), {試作品|しさくひん} (prototype), {人助|ひとだす}け (helping others), {新雪|しんせつ} (fresh snow), {当社|とうしゃ} (our company), {風呂上|ふろあ}がり (after a bath), {夜行|やこう}バス (overnight bus), {団体旅行|だんたいりょこう} (group tour), かかりつけ{医|い} (family doctor), おこわ (glutinous rice), わらべうた (nursery rhyme), {外聞|がいぶん} (reputation), {小売業者|こうりぎょうしゃ} (retailer), {良縁|りょうえん} (good match), {細雪|ささめゆき} (fine snow), {警句|けいく} (epigram), {茶請|ちゃう}け (tea snack), {言|い}い{渡|わた}し (pronouncement), {写|うつ}し (copy), {無色|むしょく} (colorless), {擬態語|ぎたいご} (mimetic word), {国民|こくみん}の{祝日|しゅくじつ} (national holiday), {公認会計士|こうにんかいけいし} (CPA), {給油所|きゅうゆじょ} (gas station), {供給過剰|きょうきゅうかじょう} (oversupply)
 
-### 2026-04-06 (Vocabulary Expansion - 18 New Entries, Session 23)
-Added 18 new dictionary entries (IDs 22426-22443) from candidate_words.json. Focused on high-frequency, practical vocabulary for intermediate learners: common suru verbs, na-adjectives for character/attitude description, and everyday nouns.
-
-- **Suru verbs (10)**: {無理|むり}する (to overdo), {準備|じゅんび}する (to prepare), {用���|ようい}する (to arrange), {尊敬|そんけい}する (to respect), {移動|いどう}する (to move), {駐車|ちゅうしゃ}する (to park), {署名|しょめい}する (to sign), {連想|れんそう}する (to associate), {早退|そうたい}する (to leave early), {通過|つうか}する (to pass through)
-- **Na-adjectives (5)**: {肝心|かんじん}な (essential), {器用|きよう}な (dexterous), {真剣|しんけん}な (serious), {��実|せいじつ}な (sincere), {効率的|こうりつてき}な (efficient)
-- **Nouns (3)**: {手間暇|てまひま} (time and effort), {通俗|つうぞく} (popular/commonplace), {基本料金|��ほんりょうきん} (basic fee)
-
-- **Expression (1)**: というわけで (so/for that reason)
-
-
-### 2026-04-05 (Vocabulary Expansion - 26 New Entries, Session 21)
-Added 26 new dictionary entries (IDs 22340-22365) from candidate_words.json. Removed 3 stale duplicate candidates. A mix of nouns, verbs, and onomatopoeia covering business, sports, culture, health, and daily life.
-
-- **Godan verbs (5)**: {愛|いと}しむ (to cherish), {浅|あさ}まる (to become shallow), {苔|こけ}むす (to become mossy), {拭|ふ}き{消|け}す (to wipe away), {取|と}り{越|こ}す (to worry in advance)
-- **Suru verbs (7)**: {厄払|やくばら}い (purification), {通算|つうさん}する (to total up), {評論|ひょうろん}する (to critique), {滅菌|めっきん}する (to sterilize), {画一化|かくいつか} (standardization), {恒常化|こうじょうか} (becoming permanent), {注油|ちゅうゆ}する (to lubricate)
-- **Nouns (13)**: {財界|ざいかい} (business world), {秘密|ひみつ}{兵器|へいき} (secret weapon), {銀|ぎん}メダル (silver medal), {銅|どう}メダル (bronze medal), {使用人|しようにん} (servant), {執筆者|しっぴつしゃ} (author), {村民|そんみん} (villagers), {歴史|れきし}{学者|がくしゃ} (historian), {他殺|たさつ} (homicide), {病原菌|びょうげんきん} (pathogenic bacteria), マメ (blister), {整腸剤|せいちょうざい} (digestive medicine), ギャンブラー (gambler)
-- **Onomatopoeia (1)**: ごうごう (roaring sound)
 
 
 
