@@ -44,10 +44,18 @@
     }
   ],
   "notes": "{小包|こづつみ} is a parcel or package sent by mail.\n\nCOMMON PATTERNS:\n- {小包|こづつみ}を{送|おく}る (to send a parcel)\n- {小包|こづつみ}を{受|う}け{取|と}る (to receive a parcel)\n- {小包|こづつみ}が{届|とど}く (a parcel arrives)\n\nPOSTAL SERVICES:\n- {郵便|ゆうびん}{小包|こづつみ} (postal parcel)\n- {国際|こくさい}{小包|こづつみ} (international parcel)\n- {航空|こうくう}{小包|こづつみ} (airmail parcel)\n\nSIMILAR WORDS:\n- {小包|こづつみ}: parcel (postal term)\n- {荷物|にもつ}: package, luggage (general)\n- {宅配便|たくはいびん}: home delivery service",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00737_nimotsu",
+      "reading": "にもつ",
+      "headword": "{荷物|にもつ}",
+      "label": "package, luggage (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T07:58:15Z",
-    "modified": "2026-01-19T12:17:41.803619Z",
+    "modified": "2026-04-06T07:33:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
