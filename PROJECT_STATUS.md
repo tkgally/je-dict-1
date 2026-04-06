@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 28)
+Added 30 new dictionary entries (IDs 22557-22586) from candidate_words.json. Added new kanji 汐 to kanji index. A diverse mix of nouns, verbs, adjectives, and an adverb covering daily life, science, culture, emotions, and more.
+
+- **Verbs (4)**: {押|お}し{留|とど}める (to restrain), {打|う}ち{壊|こわ}す (to smash), {習慣付|しゅうかんづ}ける (to habituate), {全力疾走|ぜんりょくしっそう}する (full-speed sprint)
+- **Na-adjective (2)**: {苦労知|くろうし}らず (carefree/sheltered), {感情豊|かんじょうゆた}か (emotionally rich)
+- **Adverb (1)**: {手厚|てあつ}く (generously/warmly)
+- **Nouns (23)**: {触感|しょっかん} (tactile sensation), {建|た}て{直|なお}し (rebuilding), {昔風|むかしふう} (old-fashioned), {複合施設|ふくごうしせつ} (mixed-use complex), {氷枕|こおりまくら} (ice pillow), {地域性|ちいきせい} (regional characteristics), {含有量|がんゆうりょう} (content amount), {職務内容|しょくむないよう} (job duties), {年額|ねんがく} (annual fee), {異同|いどう} (differences), {通知設定|つうちせってい} (notification settings), {活動時間|かつどうじかん} (active hours), {不義|ふぎ} (immorality/infidelity), {興奮気味|こうふんぎみ} (somewhat excited), {心得違|こころえちが}い (misunderstanding), {潮汐|ちょうせき} (tide), {自然|しぜん}さ (naturalness), {連載中|れんさいちゅう} (currently serialized), {完読|かんどく} (reading through), {札入|さつい}れ (billfold), {絵付|えつ}け (ceramic painting), {持|も}ち{手|て} (handle/holder), {五分|ごぶ} (fifty-fifty)
+
 ### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 27)
 Added 30 new dictionary entries (IDs 22527-22556) from candidate_words.json. Removed 22 stale suru-verb candidates that already existed as noun entries. Added new kanji 帆 to kanji index. A diverse mix of nouns, expressions, a na-adjective, and suru verbs covering cooking, household, culture, language, society, nature, and more.
 
@@ -101,14 +109,6 @@ Added 26 new dictionary entries (IDs 22340-22365) from candidate_words.json. Rem
 - **Nouns (13)**: {財界|ざいかい} (business world), {秘密|ひみつ}{兵器|へいき} (secret weapon), {銀|ぎん}メダル (silver medal), {銅|どう}メダル (bronze medal), {使用人|しようにん} (servant), {執筆者|しっぴつしゃ} (author), {村民|そんみん} (villagers), {歴史|れきし}{学者|がくしゃ} (historian), {他殺|たさつ} (homicide), {病原菌|びょうげんきん} (pathogenic bacteria), マメ (blister), {整腸剤|せいちょうざい} (digestive medicine), ギャンブラー (gambler)
 - **Onomatopoeia (1)**: ごうごう (roaring sound)
 
-
-### 2026-04-05 (Vocabulary Expansion - 30 New Entries, Session 21)
-Added 30 new dictionary entries (IDs 22366-22395) from candidate_words.json. A mix of suru verbs, na-adjectives, nouns, and a conjunction covering science, health, business, law, culture, education, and everyday life.
-
-- **Suru verbs (12)**: {消滅|しょうめつ}する (to vanish), {発症|はっしょう}する (to develop symptoms), {除去|じょきょ}する (to remove), {分離|ぶんり}する (to separate), {編成|へんせい}する (to organize), {統括|とうかつ}する (to oversee), {発現|はつげん}する (to manifest), {発火|はっか} (ignition), {保釈|ほしゃく} (bail), {徴税|ちょうぜい} (tax collection), {間借|まが}り (room rental), {射出|しゃしゅつ} (ejection)
-- **Na-adjectives (4)**: {印象的|いんしょうてき}な (impressive), {正常|せいじょう}な (normal), {過小|かしょう}な (too small), {真面目|まじめ}な (serious)
-- **Nouns (12)**: {適宜|てきぎ} (as appropriate), {冊子|さっし} (booklet), {期末|きまつ} (end of term), {重箱|じゅうばこ} (tiered box), {番犬|ばんけん} (guard dog), {闘争心|とうそうしん} (fighting spirit), {失業者|しつぎょうしゃ} (unemployed person), {学識|がくしき} (scholarship), {成句|せいく} (set phrase), {横断幕|おうだんまく} (banner), {当代|とうだい} (current generation), {共栄|きょうえい} (co-prosperity), {定理|ていり} (theorem)
-- **Conjunction (1)**: なのに (despite that)
 
 
 
