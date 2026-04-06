@@ -137,3 +137,4 @@ Which articles to write first, based on likely user interest and available entry
 - [Project Overview](../project/overview.md) — the dictionary's evolving purpose
 - [Cross-Reference Design](../topics/cross-references.md) — how articles would link to entries
 - [Example Sentence Design](../research/example-sentences.md) — quality standards that would apply to article examples too
+- [Onomatopoeia and Mimetic Words](../research/onomatopoeia-mimetics.md) — research backing an onomatopoeia overview article
