@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-06 (Vocabulary Expansion - 28 New Entries, Session 30)
+Added 28 new dictionary entries (IDs 22617-22644) from candidate_words.json. A mix of verbs, nouns, and expressions covering daily life, medicine, law, emotion, social interaction, academic writing, music, biology, and more.
+
+- **Suru verbs (7)**: {満足|まんぞく}する (to be satisfied), {突進|とっしん}する (to rush forward), {宣誓|せんせい}する (to swear an oath), タイプする (to type), {目隠|めかく}しする (to blindfold), {手術|しゅじゅつ}する (to perform surgery), {急浮上|きゅうふじょう}する (sudden emergence)
+- **Ichidan verbs (8)**: {書|か}き{加|くわ}える (to add in writing), {招|まね}き{入|い}れる (to invite in), {巻|ま}き{付|つ}ける (to wrap around), {辱|はずかし}める (to humiliate), {取|と}り{揃|そろ}える (to stock/arrange), {定義|ていぎ}づける (to define), {関連|かんれん}づける (to relate), {痩|や}せこける (to become gaunt), {降|ふ}り{始|はじ}める (to begin to fall)
+- **Expressions (4)**: {火|ひ}をつける (to light a fire), {弱|よわ}みに{付|つ}け{込|こ}む (to exploit weakness), {勘定|かんじょう}が{狂|くる}う (to miscalculate)
+- **Nouns (9)**: {切|き}り{抜|ぬ}き (clipping/clip), {葉緑素|ようりょくそ} (chlorophyll), {譜面台|ふめんだい} (music stand), {精神衛生|せいしんえいせい} (mental health), {既得権益|きとくけんえき} (vested interests), {若白髪|わかしらが} (premature gray hair), {酒気帯|しゅきお}び (under influence of alcohol), {内服薬|ないふくやく} (oral medication), {介護福祉士|かいごふくしし} (certified care worker)
+
 ### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 29)
 Added 30 new dictionary entries (IDs 22587-22616) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, adverbs, expressions, and a pronoun covering daily life, food, nature, emotion, language, law, and more.
 
@@ -85,22 +93,6 @@ Added 23 new dictionary entries (IDs 22504-22526) from candidate_words.json. Foc
 - **Ichidan verbs (5)**: {取|と}り{分|わ}ける (to serve out), {待|ま}ち{伏|ふ}せる (to ambush), {振|ふ}り{付|つ}ける (to choreograph), {古|ふる}ぼける (to look old/worn), しゃがれる (to become hoarse)
 - **Godan verbs (6)**: {噴|ふ}き{上|あ}がる (to spout up), {生|お}い{茂|しげ}る (to grow thickly), {推|お}し{量|はか}る (to infer), {角張|かくば}る (to be angular), {食|く}いちぎる (to bite off), やせ{細|ほそ}る (to waste away)
 - **Nouns (2)**: {旨|うま}さ (deliciousness/skill), {素直|すなお}さ (honesty/straightforwardness)
-
-### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 25)
-Added 30 new dictionary entries (IDs 22474-22503) from candidate_words.json. A diverse mix of nouns, na-adjectives, and a pronoun covering daily life, culture, food, science, language, music, and more.
-
-- **Na-adjectives (2)**: {不憫|ふびん} (pitiful), {一本気|いっぽんぎ} (single-minded)
-- **Pronoun (1)**: {俺様|おれさま} (arrogant "I")
-- **Nouns (27)**: {真逆|まぎゃく} (complete opposite), {即時|そくじ} (immediate), {地雷|じらい} (land mine), {置|お}き{場|ば} (storage spot), {掌握|しょうあく} (seizing control), {冷水|れいすい} (cold water), {言明|げんめい} (declaration), {台数|だいすう} (number of vehicles/machines), {英字|えいじ} (Roman letters), おままごと (playing house), {公営|こうえい} (publicly operated), {本線|ほんせん} (main line), {生育|せいいく} (growth of plants), {自治会|じちかい} (residents' association), {押|お}し{寿司|ずし} (pressed sushi), {飲|の}み{口|くち} (taste/mouthfeel), {恵方巻|えほうまき} (lucky direction sushi roll), {未確認|みかくにん} (unconfirmed), {山芋|やまいも} (Japanese yam), {船員|せんいん} (crew member), {曲|ま}がり (bend/curve), {明|あ}け{暮|く}れ (day and night), {変種|へんしゅ} (variant), {稼働中|かどうちゅう} (in operation), {弔辞|ちょうじ} (eulogy), {横笛|よこぶえ} (transverse flute), {反作用|はんさよう} (reaction/counteraction)
-
-### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 24)
-Added 30 new dictionary entries (IDs 22444-22473) from candidate_words.json. A diverse mix of nouns, suru verbs, an adverb, and an expression covering daily life, culture, business, food, language, nature, travel, law, economics, medicine, and more.
-
-- **Suru verbs (3)**: {活発化|かっぱつか} (becoming more active), {映写|えいしゃ} (projection), {愛好|あいこう} (love/fondness)
-- **Adverb (1)**: ひっきりなし (incessantly)
-- **Expression (1)**: {一命|いちめい}を{取|と}り{留|と}める (to narrowly escape death)
-- **Nouns (25)**: {真|ま}っ{只中|ただなか} (right in the middle of), {試作品|しさくひん} (prototype), {人助|ひとだす}け (helping others), {新雪|しんせつ} (fresh snow), {当社|とうしゃ} (our company), {風呂上|ふろあ}がり (after a bath), {夜行|やこう}バス (overnight bus), {団体旅行|だんたいりょこう} (group tour), かかりつけ{医|い} (family doctor), おこわ (glutinous rice), わらべうた (nursery rhyme), {外聞|がいぶん} (reputation), {小売業者|こうりぎょうしゃ} (retailer), {良縁|りょうえん} (good match), {細雪|ささめゆき} (fine snow), {警句|けいく} (epigram), {茶請|ちゃう}け (tea snack), {言|い}い{渡|わた}し (pronouncement), {写|うつ}し (copy), {無色|むしょく} (colorless), {擬態語|ぎたいご} (mimetic word), {国民|こくみん}の{祝日|しゅくじつ} (national holiday), {公認会計士|こうにんかいけいし} (CPA), {給油所|きゅうゆじょ} (gas station), {供給過剰|きょうきゅうかじょう} (oversupply)
-
 
 
 
