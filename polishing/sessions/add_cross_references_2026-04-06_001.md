@@ -2,55 +2,66 @@
 Date: 2026-04-06
 
 ### prominent_see_also Added
-- 02373 ↔ 00759: 飛ばす (transitive) ↔ 飛ぶ (intransitive)
+- 02462_osameru ↔ 02280_osameru: homophone (治める ↔ 納める)
+- 02464_kumu ↔ 02281_kumu: homophone (酌む ↔ 汲む)
+- 02464_kumu ↔ 02050_kumu: homophone (酌む ↔ 組む)
+- 02467_sasu ↔ 02111_sasu: homophone (注す ↔ 刺す)
+- 02467_sasu ↔ 02056_sasu: homophone (注す ↔ 指す)
+- 02467_sasu ↔ 17637_sasu: homophone (注す ↔ 差す)
+- 02468_sasu ↔ 02111_sasu: homophone (射す ↔ 刺す)
+- 02468_sasu ↔ 02056_sasu: homophone (射す ↔ 指す)
+- 02468_sasu ↔ 17637_sasu: homophone (射す ↔ 差す)
+- 02468_sasu ↔ 02466_sasu: homophone (射す ↔ 挿す)
+- 02468_sasu ↔ 02467_sasu: homophone (射す ↔ 注す)
+- 02469_sonaeru ↔ 02125_sonaeru: homophone (具える ↔ 備える)
+- 02469_sonaeru ↔ 11562_sonaeru: homophone (具える ↔ 供える)
+- 02470_tsugu ↔ 02471_tsugu: homophone (注ぐ ↔ 接ぐ)
+- 02470_tsugu ↔ 02292_tsugu: homophone (注ぐ ↔ 継ぐ)
+- 02470_tsugu ↔ 02076_tsugu: homophone (注ぐ ↔ 次ぐ)
+- 02471_tsugu ↔ 02292_tsugu: homophone (接ぐ ↔ 継ぐ)
+- 02471_tsugu ↔ 02076_tsugu: homophone (接ぐ ↔ 次ぐ)
+- 02489_souzou ↔ 03317_souzou: homophone (想像 ↔ 創造)
+- 02521_korogasu ↔ 02571_korogaru: transitive/intransitive (migrated from pair)
 
 ### cross_references Added
-- 02335 → 00693: synonym - だめ (casual)
-- 02336 → 01903: related - 羨む (verb form)
-- 02336 → 05406: related - 嫉妬 (jealousy, stronger)
-- 02337 → 00823: synonym - 若い (young, broader age range)
-- 02337 → 16825: synonym - 子供っぽい (childish, pejorative)
-- 02337 → 12478: related - 幼児 (infant)
-- 02337 → 04703: related - 幼稚園 (kindergarten)
-- 02338 → 00864: synonym - 怖い (scary, more common)
-- 02338 → 02585: related - 恐怖 (fear, terror noun)
-- 02340 → 09647: related - 掻く (to scratch)
-- 02341 → 00857: synonym - かわいい (cute, casual)
-- 02342 → 01125: contrast - 厳しい (strict, severe)
-- 02343 → 14725: related - 悔やむ (to regret, verb)
-- 02343 → 01244: synonym - 残念 (disappointing)
-- 02344 → 00764: antonym - 薄い (thin, light, weak)
-- 02349 → 19466: synonym - 貧乏 (poor, colloquial)
-- 02349 → 14041: antonym - 裕福 (wealthy)
-- 02368 → 03595: antonym - 不幸 (unhappiness)
-- 02368 → 02774: related - 幸い (fortunately)
-- 02369 → 02475: antonym - 都会 (city, urban area)
-- 02369 → 01320: related - 田舎 (countryside)
-- 02374 → 00759: related - 飛ぶ (to fly, to jump)
-- 02378 → 02072: contrast - 叩く (to hit, slap)
-- 02378 → 02054: contrast - 蹴る (to kick)
-- 02379 → 09295: synonym - サボる (to skip, casual)
+- 02447_in → 04662_sha: related - person who does ~ suffix
+- 04662_sha → 02447_in: related - member/staff suffix (back-link)
+- 02448_oki → ごとに: contrast - each occurrence (forward ref)
+- 02449_gakubu → 00053_gakka: related - department (within faculty)
+- 02449_gakubu → 04783_daigakuin: related - graduate school
+- 02455_date → 01034_kai: related - floor counter
+- 02456_chan → 09848_san: related - polite name suffix
+- 02456_chan → 01549_sama: related - formal/respectful suffix
+- 09848_san → 02456_chan: related - affectionate suffix (back-link)
+- 01549_sama → 02456_chan: related - affectionate suffix (back-link)
+- 02462_osameru → 01629_seiji: related - politics
+- 02465_kosu ↔ 01942_koeru: synonym - ichidan/godan variants
+- 02495_kesseki → 07732_kekkin: related - absence from work
+- 02497_fuman → 03602_fuhei: related - grievance, complaint
+- 02497_fuman → 00252_kujou: related - formal complaint
+- 02498_sanka → 02084_shusseki: related - attendance
+- 02498_sanka → 11915_kanyuu: related - joining (organization)
+- 02503_shisetsu → 01458_tatemono: contrast - building (physical)
+- 02509_kizuna → 10380_tsunagari: related - connection, link
+- 02509_kizuna → 02182_en: related - fate, connection
+- 02513_rikutsu → 06026_ronri: related - logic (formal)
+- 02513_rikutsu → 10400_douri: related - reason, principle
 
-### Back-links Added
-- 02585 → 02338: related - 恐ろしい (frightening adjective)
-- 14725 → 02343: related - 悔しい (frustrating adjective)
-- 03595 → 02368: antonym - 幸せ (happiness)
-- 02774 → 02368: related - 幸せ (happiness)
-- 19466 → 02349: synonym - 貧しい (poor, literary)
-- 00759 → 02373: prominent_see_also - 飛ばす (transitive)
+### References Fixed/Migrated
+- 02478_nigasu: migrated pair to prominent_see_also (逃がす ↔ 逃げる)
+- 01151_nigeru: migrated pair to prominent_see_also (逃げる ↔ 逃がす)
+- 02521_korogasu: migrated pair to prominent_see_also (転がす ↔ 転がる)
+- 02571_korogaru: migrated pair to prominent_see_also (転がる ↔ 転がす)
 
-### Entries Skipped (no changes needed)
-- 02347: Already has antonym 鈍い — no additional references needed
-- 02354: No strong cross-reference relationships found (からっぽ)
-- 02362: No strong cross-reference relationships found (ぴったり)
-- 02366: Already has prominent_see_also for 機会 homophone — no additional references needed
+### Entries Skipped
+None
 
 ### Statistics
-- Entries reviewed this session: 20
-- prominent_see_also links added: 2 (1 pair, bidirectional)
-- cross_references links added: 25 (starting entries) + 6 (back-links) = 31
-- References fixed/migrated: 0
-- Entry range: 02335 through 02379
+- Entries reviewed this session: 50
+- prominent_see_also links added: ~40 (bidirectional)
+- cross_references links added: ~22
+- References fixed/migrated: 4 (pair → prominent_see_also)
+- Entry range: 02447 through 02536
 
 ### Next Entry
-02380
+02538_kakujitsu

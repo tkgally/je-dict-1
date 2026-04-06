@@ -18,7 +18,9 @@
       "english": "I examine the patient.",
       "notes": "さん can be added to occupation words like 患者 for politeness.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09848_san_ex2",
@@ -26,7 +28,9 @@
       "english": "Is Mr./Ms. Tanaka here?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09848_san_ex3",
@@ -34,7 +38,9 @@
       "english": "Please consult a doctor.",
       "notes": "Often combined with お〜 prefix for added politeness.",
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "〜さん is the most common honorific suffix in Japanese.\n\nUSAGE:\n- Attached to family names: {田中|たなか}さん\n- Attached to given names: {太郎|たろう}さん\n- Attached to occupations: {運転手|うんてんしゅ}さん (driver)\n- Attached to roles: {患者|かんじゃ}さん (patient), お{客|きゃく}さん (customer)\n\nOTHER HONORIFIC SUFFIXES:\n- 〜{様|さま}: more formal/respectful\n- 〜くん: for males (often younger/subordinate)\n- 〜ちゃん: affectionate, for children/close friends\n- 〜{先生|せんせい}: for teachers, doctors, etc.",
@@ -45,18 +51,29 @@
       "reading": "さま",
       "headword": "{様|さま}",
       "label": "more formal"
+    },
+    {
+      "type": "related",
+      "target_id": "02456_chan",
+      "reading": "ちゃん",
+      "headword": "～ちゃん",
+      "label": "affectionate suffix"
     }
   ],
   "metadata": {
     "created": "2026-02-04T01:44:31Z",
-    "modified": "2026-04-01T02:22:20Z",
+    "modified": "2026-04-06T02:49:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["suffix"],
+      "pos": [
+        "suffix"
+      ],
       "formality": "neutral",
       "politeness": "polite",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

@@ -44,10 +44,25 @@
     }
   ],
   "notes": "～{学部|がくぶ} is a suffix attached to a field of study to indicate a university faculty or department.\n\nCOMMON FACULTIES:\n- {文|ぶん}{学部|がくぶ}: faculty of literature\n- {経済|けいざい}{学部|がくぶ}: faculty of economics\n- {工|こう}{学部|がくぶ}: faculty of engineering\n- {法|ほう}{学部|がくぶ}: faculty of law\n- {医|い}{学部|がくぶ}: faculty of medicine\n- {理|り}{学部|がくぶ}: faculty of science\n- {教育|きょういく}{学部|がくぶ}: faculty of education\n\nPATTERNS:\n- ～{学部|がくぶ}に{入|はい}る: to enter a faculty\n- ～{学部|がくぶ}を{卒業|そつぎょう}する: to graduate from a faculty\n- ～{学部|がくぶ}の{学生|がくせい}: a student in the ~ faculty\n\nRELATED:\n- {学科|がっか}: department (subdivision within a faculty)\n- {大学院|だいがくいん}: graduate school\n- {研究科|けんきゅうか}: graduate school division",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00053_gakka",
+      "reading": "がっか",
+      "headword": "{学科|がっか}",
+      "label": "department (within faculty)"
+    },
+    {
+      "type": "related",
+      "target_id": "04783_daigakuin",
+      "reading": "だいがくいん",
+      "headword": "{大学院|だいがくいん}",
+      "label": "graduate school"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T09:10:00Z",
-    "modified": "2026-03-23T10:37:18Z",
+    "modified": "2026-04-06T02:49:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
