@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 37)
+Added 30 new dictionary entries (IDs 22805-22834) from candidate_words.json. A practical mix of nouns, expressions, and adverbs covering daily life, weather, health, business, food, culture, art, and grammar.
+
+- **Nouns (18)**: {再婚|さいこん} (remarriage), {重複|ちょうふく} (duplication), {震度|しんど} (seismic intensity), {雨雲|あまぐも} (rain cloud), {胸焼|むねや}け (heartburn), {金切|かなき}り{声|ごえ} (shrill scream), {足腰|あしこし} (legs and lower back), {降水量|こうすいりょう} (precipitation), {草刈|くさか}り (mowing), {庭|にわ}いじり (casual gardening), {会員登録|かいいんとうろく} (membership registration), {寄|よ}せ{鍋|なべ} (mixed hot pot), {陰性|いんせい} (negative test result), {守秘|しゅひ} (confidentiality), {創意|そうい} (originality), {懐中時計|かいちゅうどけい} (pocket watch), {単純作業|たんじゅんさぎょう} (routine work), {肉体労働|にくたいろうどう} (manual labor), {再生紙|さいせいし} (recycled paper), {遠近法|えんきんほう} (perspective in art), {平準化|へいじゅんか} (leveling), キャッチフレーズ (catchphrase), {本日中|ほんじつちゅう} (by today)
+- **Expressions (6)**: まだしも (comparatively better), {必要|ひつよう}に{応|おう}じて (as needed), {頬杖|ほおづえ}をつく (rest chin on hand), {言|い}い{換|か}えると (in other words), {切|き}り{離|はな}せない (inseparable), {当|あ}たって{砕|くだ}けろ (nothing ventured nothing gained)
+- **Adverbs (2)**: {陰|かげ}で (behind the scenes), まだしも (at least)
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 36)
 Added 30 new dictionary entries (IDs 22775-22804) from candidate_words.json. A diverse mix of expressions, adjectives, verbs, pronouns, nouns, and an adverb covering emotions, communication, personality, family, body, education, finance, and more.
 
