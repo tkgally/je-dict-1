@@ -44,10 +44,25 @@
     }
   ],
   "notes": "{応募|おうぼ} is a noun/suru-verb meaning to apply or enter (for jobs, contests, etc.).\n\nCOMMON PATTERNS:\n- {応募|おうぼ}する (to apply)\n- {応募|おうぼ}{締|し}め{切|き}り (application deadline)\n- {応募|おうぼ}{用紙|ようし} (application form)\n- {応募|おうぼ}{資格|しかく} (eligibility requirements)\n- {応募者|おうぼしゃ} (applicant)\n\nDISTINCTION:\n- {応募|おうぼ}: applying for jobs, contests, programs\n- {申|もう}し{込|こ}み: general application/registration",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03035_boshuu",
+      "reading": "ぼしゅう",
+      "headword": "{募集|ぼしゅう}",
+      "label": "recruiting (employer side)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03161_moushikomi",
+      "reading": "もうしこみ",
+      "headword": "{申|もう}し{込|こ}み",
+      "label": "general application"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:38:42Z",
+    "modified": "2026-04-07T05:23:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

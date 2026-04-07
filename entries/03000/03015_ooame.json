@@ -44,10 +44,25 @@
     }
   ],
   "notes": "{大雨|おおあめ} means heavy rain — significantly heavier than normal rainfall.\n\nWORD FORMATION:\n{大|おお} (big, heavy) + {雨|あめ} (rain).\n\nCOMMON PATTERNS:\n- {大雨|おおあめ}が{降|ふ}る: heavy rain falls\n- {大雨|おおあめ}{警報|けいほう}: heavy rain warning (issued by the {気象庁|きしょうちょう})\n- {大雨|おおあめ}{注意報|ちゅういほう}: heavy rain advisory (less severe)\n- {大雨|おおあめ}で{中止|ちゅうし}: canceled due to heavy rain\n- {大雨|おおあめ}による{被害|ひがい}: damage caused by heavy rain\n\nINTENSITY SCALE:\n- {小雨|こさめ}: light rain\n- {雨|あめ}: rain (normal)\n- {大雨|おおあめ}: heavy rain\n- {豪雨|ごうう}: torrential rain (more intense, often implies disaster-level)\n- {集中豪雨|しゅうちゅうごうう}: localized torrential rain",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05861_kosame",
+      "reading": "こさめ",
+      "headword": "{小雨|こさめ}",
+      "label": "light rain"
+    },
+    {
+      "type": "related",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snow"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-04-05T11:45:12Z",
+    "modified": "2026-04-07T05:23:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
