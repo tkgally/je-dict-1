@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 24 New Entries, Session 38)
+Added 24 new dictionary entries (IDs 22835-22858) from candidate_words.json. A mix of nouns, verbs, expressions, and a pronoun covering daily life, culture, food, politics, language, and more.
+
+- **Nouns (17)**: {永続|えいぞく} (permanence), {左側|ひだりがわ} (left side), {日曜|にちよう} (Sunday), {蚊帳|かや} (mosquito net), {人民|じんみん} (the people), {飛|と}ばし{読|よ}み (skimming), {箱入|はこい}り (boxed/sheltered), {覚|おぼ}え (memory), {代価|だいか} (price/cost), {通信販売|つうしんはんばい} (mail-order sales), ネット{通販|つうはん} (online shopping), {訪米|ほうべい} (visiting the US), {豪傑|ごうけつ} (heroic person), {寄進|きしん} (shrine donation), {無常感|むじょうかん} (sense of impermanence), {凍|こお}り{豆腐|どうふ} (freeze-dried tofu), {関東弁|かんとうべん} (Kanto dialect), {電話機|でんわき} (telephone set), {合|あ}いびき{肉|にく} (mixed ground meat), やせ{形|がた} (slender build), {収蔵庫|しゅうぞうこ} (storage facility)
+- **Verb (godan) (1)**: {引|ひ}きずり{込|こ}む (to drag in)
+- **Expression (1)**: {気|き}が{合|あ}う (to get along)
+- **Pronoun (1)**: それら (those)
+- Removed 1 stale candidate (肉体的, already an entry)
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 37)
 Added 30 new dictionary entries (IDs 22805-22834) from candidate_words.json. A practical mix of nouns, expressions, and adverbs covering daily life, weather, health, business, food, culture, art, and grammar.
 
@@ -95,19 +104,6 @@ Added 30 new dictionary entries (IDs 22700-22729) from candidate_words.json. A d
 
 - **Nouns (27)**: {県民|けんみん} (prefectural resident), {庁舎|ちょうしゃ} (government building), {私有地|しゆうち} (private land), {水道料金|すいどうりょうきん} (water bill), {理科室|りかしつ} (science lab), {文化史|ぶんかし} (cultural history), オーブンレンジ (combination microwave oven), {電波時計|でんぱどけい} (radio-controlled clock), {経理課|けいりか} (accounting dept), {海面上昇|かいめんじょうしょう} (sea level rise), {自然破壊|しぜんはかい} (destruction of nature), グランドピアノ (grand piano), {都市|とし}ガス (city gas), {明朝体|みんちょうたい} (Mincho typeface), {社務所|しゃむしょ} (shrine office), {倍速再生|ばいそくさいせい} (double-speed playback), {成績優秀|せいせきゆうしゅう} (excellent grades), {貸切|かしきり}バス (chartered bus), {工業地帯|こうぎょうちたい} (industrial zone), {共同責任|きょうどうせきにん} (joint responsibility), {慈善事業|じぜんじぎょう} (charitable work), {人権問題|じんけんもんだい} (human rights issue), {開幕戦|かいまくせん} (opening game), {早期診断|そうきしんだん} (early diagnosis), {殺菌剤|さっきんざい} (disinfectant), {乾燥地帯|かんそうちたい} (arid region), {消毒剤|しょうどくざい} (antiseptic)
 - **Noun/suru verbs (3)**: {再生産|さいせいさん} (reproduction), {株式公開|かぶしきこうかい} (IPO), {吹奏|すいそう} (wind instrument performance)
-
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 32)
-Added 30 new dictionary entries (IDs 22670-22699) from candidate_words.json. A diverse mix of nouns, expressions, suru verbs, and a na-adjective covering personality, culture, law, business, perception, emotion, and more.
-
-- **Expressions (8)**: {耳|みみ}を{澄|す}ます (to listen carefully), {気味|きみ}が{悪|わる}い (creepy), {暖簾|のれん}に{腕押|うでお}し (futile effort), {愛想|あいそ}が{悪|わる}い (unsociable), {無心|むしん}になる (to become absorbed), {手狭|てぜま}になる (to become cramped), ふと{思|おも}い{出|だ}す (to suddenly remember), {決定的瞬間|けっていてきしゅんかん} (decisive moment — as noun)
-- **Suru verbs (2)**: {加入|かにゅう}する (to join), {深刻化|しんこくか}する (to become serious)
-- **Na-adjective (1)**: {結果的|けっかてき} (resultant, eventual)
-- **Nouns (19)**: {労力|ろうりょく} (labor/effort), {世間知|せけんし}らず (naive), {内密|ないみつ} (confidential), {秀作|しゅうさく} (excellent work), {家族|かぞく}{団|だん}らん (family togetherness), お{盆休|ぼんやす}み (Obon holiday), {半人前|はんにんまえ} (half-fledged), {青二才|あおにさい} (greenhorn), {日和見|ひよりみ} (opportunism), {児童文学|じどうぶんがく} (children's literature), {荷物検査|にもつけんさ} (baggage inspection), {国際協力|こくさいきょうりょく} (international cooperation), {営業利益|えいぎょうりえき} (operating profit), {旅日記|たびにっき} (travel diary), {精神的苦痛|せいしんてきくつう} (emotional distress), {有力候補|ゆうりょくこうほ} (leading candidate), {原子爆弾|げんしばくだん} (atomic bomb), {無期懲役|むきちょうえき} (life imprisonment), {寄稿者|きこうしゃ} (contributor)
-
-- **Household (2)**: {鍋|なべ}つかみ (pot holder), {皇族|こうぞく} (imperial family)
-- **Na-adjective (1)**: {演壇|えんだん} (podium)
-
-
 
 
 
