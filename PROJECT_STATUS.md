@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 33)
+Added 30 new dictionary entries (IDs 22700-22729) from candidate_words.json. A diverse mix of nouns and suru verbs covering daily life, society, government, education, environment, science, music, sports, health, and more.
+
+- **Nouns (27)**: {県民|けんみん} (prefectural resident), {庁舎|ちょうしゃ} (government building), {私有地|しゆうち} (private land), {水道料金|すいどうりょうきん} (water bill), {理科室|りかしつ} (science lab), {文化史|ぶんかし} (cultural history), オーブンレンジ (combination microwave oven), {電波時計|でんぱどけい} (radio-controlled clock), {経理課|けいりか} (accounting dept), {海面上昇|かいめんじょうしょう} (sea level rise), {自然破壊|しぜんはかい} (destruction of nature), グランドピアノ (grand piano), {都市|とし}ガス (city gas), {明朝体|みんちょうたい} (Mincho typeface), {社務所|しゃむしょ} (shrine office), {倍速再生|ばいそくさいせい} (double-speed playback), {成績優秀|せいせきゆうしゅう} (excellent grades), {貸切|かしきり}バス (chartered bus), {工業地帯|こうぎょうちたい} (industrial zone), {共同責任|きょうどうせきにん} (joint responsibility), {慈善事業|じぜんじぎょう} (charitable work), {人権問題|じんけんもんだい} (human rights issue), {開幕戦|かいまくせん} (opening game), {早期診断|そうきしんだん} (early diagnosis), {殺菌剤|さっきんざい} (disinfectant), {乾燥地帯|かんそうちたい} (arid region), {消毒剤|しょうどくざい} (antiseptic)
+- **Noun/suru verbs (3)**: {再生産|さいせいさん} (reproduction), {株式公開|かぶしきこうかい} (IPO), {吹奏|すいそう} (wind instrument performance)
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 32)
 Added 30 new dictionary entries (IDs 22670-22699) from candidate_words.json. A diverse mix of nouns, expressions, suru verbs, and a na-adjective covering personality, culture, law, business, perception, emotion, and more.
 
@@ -86,13 +92,6 @@ Added 30 new dictionary entries (IDs 22587-22616) from candidate_words.json. A d
 - **Pronoun (1)**: どれか (one of them)
 - **Nouns (20)**: {網|あみ} (net), {目|め}の{前|まえ} (right before one's eyes), {全長|ぜんちょう} (overall length), {漁船|ぎょせん} (fishing boat), {南向|みなみむ}き (south-facing), {外国籍|がいこくせき} (foreign nationality), {懐中|かいちゅう} (pocket), {短|みじか}さ (shortness), {盛|も}り{放題|ほうだい} (all-you-can-serve), {中食|なかしょく} (ready-made meals), こちら{側|がわ} (this side), {貯水|ちょすい} (water storage), {茹|ゆ}で{汁|じる} (cooking liquid), オノマトペ (onomatopoeia), {仮釈放|かりしゃくほう} (parole), {宿木|やどりぎ} (mistletoe), {条理|じょうり} (reason/logic), {最下|さいか} (lowest), {定量化|ていりょうか} (quantification), {水切|みずき}れ (drainage/stone skipping)
 
-### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 28)
-Added 30 new dictionary entries (IDs 22557-22586) from candidate_words.json. Added new kanji 汐 to kanji index. A diverse mix of nouns, verbs, adjectives, and an adverb covering daily life, science, culture, emotions, and more.
-
-- **Verbs (4)**: {押|お}し{留|とど}める (to restrain), {打|う}ち{壊|こわ}す (to smash), {習慣付|しゅうかんづ}ける (to habituate), {全力疾走|ぜんりょくしっそう}する (full-speed sprint)
-- **Na-adjective (2)**: {苦労知|くろうし}らず (carefree/sheltered), {感情豊|かんじょうゆた}か (emotionally rich)
-- **Adverb (1)**: {手厚|てあつ}く (generously/warmly)
-- **Nouns (23)**: {触感|しょっかん} (tactile sensation), {建|た}て{直|なお}し (rebuilding), {昔風|むかしふう} (old-fashioned), {複合施設|ふくごうしせつ} (mixed-use complex), {氷枕|こおりまくら} (ice pillow), {地域性|ちいきせい} (regional characteristics), {含有量|がんゆうりょう} (content amount), {職務内容|しょくむないよう} (job duties), {年額|ねんがく} (annual fee), {異同|いどう} (differences), {通知設定|つうちせってい} (notification settings), {活動時間|かつどうじかん} (active hours), {不義|ふぎ} (immorality/infidelity), {興奮気味|こうふんぎみ} (somewhat excited), {心得違|こころえちが}い (misunderstanding), {潮汐|ちょうせき} (tide), {自然|しぜん}さ (naturalness), {連載中|れんさいちゅう} (currently serialized), {完読|かんどく} (reading through), {札入|さつい}れ (billfold), {絵付|えつ}け (ceramic painting), {持|も}ち{手|て} (handle/holder), {五分|ごぶ} (fifty-fifty)
 
 
 
