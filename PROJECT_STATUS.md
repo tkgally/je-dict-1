@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 15 New Entries, Session 35)
+Added 15 new dictionary entries (IDs 22760-22774) from candidate_words.json. A diverse mix of nouns, expressions, and a verb covering culture, daily life, business, communication, medicine, and history.
+
+- **Nouns (8)**: ゴールデンウィーク (Golden Week), {受|う}け{渡|わた}し (handover), {持|も}ち{前|まえ} (natural trait), {救急隊員|きゅうきゅうたいいん} (paramedic), {批判家|ひはんか} (critic), {鑑賞者|かんしょうしゃ} (viewer/appreciator), {過密|かみつ}スケジュール (overcrowded schedule), {忠言|ちゅうげん} (frank advice)
+- **Noun/suru verbs (3)**: {自己批判|じこひはん} (self-criticism), {事前予約|じぜんよやく} (advance reservation), {創建|そうけん} (founding/construction)
+- **Expressions (2)**: {場合|ばあい}によっては (depending on the case), {予定|よてい}を{立|た}てる (to make plans)
+- **Verb (godan) (1)**: {織|お}り{込|こ}む (to weave in/factor in)
+- **Adjective-no (1)**: {持|も}ち{前|まえ} (inherent, natural — also noun)
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 34)
 Added 30 new dictionary entries (IDs 22730-22759) from candidate_words.json. A diverse mix of nouns, expressions, a verb, and a pre-noun adjectival covering entertainment, society, nature, food, culture, daily life, language, and science.
 
@@ -84,13 +93,6 @@ Added 25 new dictionary entries (IDs 22645-22669) from candidate_words.json. Rem
 - **Household (2)**: {鍋|なべ}つかみ (pot holder), {皇族|こうぞく} (imperial family)
 - **Na-adjective (1)**: {演壇|えんだん} (podium)
 
-### 2026-04-06 (Vocabulary Expansion - 28 New Entries, Session 30)
-Added 28 new dictionary entries (IDs 22617-22644) from candidate_words.json. A mix of verbs, nouns, and expressions covering daily life, medicine, law, emotion, social interaction, academic writing, music, biology, and more.
-
-- **Suru verbs (7)**: {満足|まんぞく}する (to be satisfied), {突進|とっしん}する (to rush forward), {宣誓|せんせい}する (to swear an oath), タイプする (to type), {目隠|めかく}しする (to blindfold), {手術|しゅじゅつ}する (to perform surgery), {急浮上|きゅうふじょう}する (sudden emergence)
-- **Ichidan verbs (8)**: {書|か}き{加|くわ}える (to add in writing), {招|まね}き{入|い}れる (to invite in), {巻|ま}き{付|つ}ける (to wrap around), {辱|はずかし}める (to humiliate), {取|と}り{揃|そろ}える (to stock/arrange), {定義|ていぎ}づける (to define), {関連|かんれん}づける (to relate), {痩|や}せこける (to become gaunt), {降|ふ}り{始|はじ}める (to begin to fall)
-- **Expressions (4)**: {火|ひ}をつける (to light a fire), {弱|よわ}みに{付|つ}け{込|こ}む (to exploit weakness), {勘定|かんじょう}が{狂|くる}う (to miscalculate)
-- **Nouns (9)**: {切|き}り{抜|ぬ}き (clipping/clip), {葉緑素|ようりょくそ} (chlorophyll), {譜面台|ふめんだい} (music stand), {精神衛生|せいしんえいせい} (mental health), {既得権益|きとくけんえき} (vested interests), {若白髪|わかしらが} (premature gray hair), {酒気帯|しゅきお}び (under influence of alcohol), {内服薬|ないふくやく} (oral medication), {介護福祉士|かいごふくしし} (certified care worker)
 
 
 
