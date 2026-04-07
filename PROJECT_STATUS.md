@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 20 New Entries, Session 41)
+Added 20 new dictionary entries (IDs 22914-22933) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering culture, biology, food, business, law, medicine, and daily life.
+
+- **Nouns (14)**: {生誕|せいたん} (birth/nativity), {被験者|ひけんしゃ} (test subject), {館長|かんちょう} (museum director), {歯科医院|しかいいん} (dental clinic), {特賞|とくしょう} (special prize), {違法駐車|いほうちゅうしゃ} (illegal parking), {事業計画|じぎょうけいかく} (business plan), {旅行者|りょこうしゃ} (traveler), {応募書類|おうぼしょるい} (application documents), {氷砂糖|こおりざとう} (rock sugar), {自然環境|しぜんかんきょう} (natural environment), カプセル (capsule)
+- **Noun/suru verbs (3)**: {発刊|はっかん} (publishing), {交尾|こうび} (mating), {増改築|ぞうかいちく} (renovation and expansion)
+- **Expressions (2)**: {看板倒|かんばんだお}れ (all show no substance), {面|つら}の{皮|かわ}が{厚|あつ}い (shameless)
+- **Adverb (1)**: {暫時|ざんじ} (for a while)
+- **Expression (verb-like) (1)**: {息|いき}を{切|き}らす (to be out of breath)
+
 ### 2026-04-07 (Vocabulary Expansion - 25 New Entries, Session 40)
 Added 25 new dictionary entries (IDs 22889-22913) from candidate_words.json. A practical mix of expressions, nouns, and an adverb covering daily life, culture, business, health, society, and more.
 
