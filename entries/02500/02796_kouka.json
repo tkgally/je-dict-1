@@ -54,10 +54,32 @@
     }
   ],
   "notes": "{高価|こうか} is a na-adjective meaning expensive or costly. It carries a more formal, written tone than {高|たか}い and is often used when describing the objective monetary value of goods.\n\nCOMMON PATTERNS:\n- {高価|こうか}な{品物|しなもの}: expensive goods\n- {高価|こうか}な{買|か}い{物|もの}: an expensive purchase\n- {高価|こうか}な{贈|おく}り{物|もの}: an expensive gift\n\nSIMILAR WORDS:\n- {高|たか}い: expensive (everyday, conversational)\n- {高価|こうか}: expensive (formal, written, objective)\n- {高額|こうがく}: large amount of money (focuses on the sum rather than the item)\n\nANTONYM:\n- {安価|あんか}: inexpensive, cheap (also formal register)\n\nREGISTER:\nMore common in written language, news, and formal descriptions. In everyday conversation, {高|たか}い is preferred.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12251_anka",
+      "reading": "あんか",
+      "headword": "{安価|あんか}",
+      "label": "inexpensive"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00500_takai",
+      "reading": "たかい",
+      "headword": "{高|たか}い",
+      "label": "expensive (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "14704_kougaku",
+      "reading": "こうがく",
+      "headword": "{高額|こうがく}",
+      "label": "large amount of money"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T08:47:30Z",
-    "modified": "2026-02-15T13:36:03Z",
+    "modified": "2026-04-07T03:12:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
