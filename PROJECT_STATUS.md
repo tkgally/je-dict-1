@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 34)
+Added 30 new dictionary entries (IDs 22730-22759) from candidate_words.json. A diverse mix of nouns, expressions, a verb, and a pre-noun adjectival covering entertainment, society, nature, food, culture, daily life, language, and science.
+
+- **Nouns (21)**: ホラー (horror genre), ミステリー (mystery genre), {発展途上国|はってんとじょうこく} (developing country), {一般人|いっぱんじん} (ordinary person), {田植|たう}え (rice planting), {全面|ぜんめん} (whole surface/all aspects), {一家|いっか}{団|だん}らん (family togetherness), {一覧表|いちらんひょう} (list/table), {交際相手|こうさいあいて} (romantic partner), {作業中|さぎょうちゅう} (work in progress), しめじ (shimeji mushroom), {斜|なな}め{読|よ}み (skimming), さん{付|づ}け (using -san honorific), {左翼|さよく} (left wing), {混雑時間帯|こんざつじかんたい} (peak hours), {散在|さんざい} (scattered), {化学繊維|かがくせんい} (synthetic fiber), {大人数|おおにんずう} (large group), {七草粥|ななくさがゆ} (seven-herb porridge), {事案|じあん} (case/matter), {収容所|しゅうようじょ} (detention center), {沢|さわ} (mountain stream), {季節替|きせつが}わり (seasonal change), {被曝|ひばく} (radiation exposure)
+- **Noun/suru verbs (3)**: {越冬|えっとう} (overwintering), {散在|さんざい} (scattered), {被曝|ひばく} (radiation exposure)
+- **Verb (1)**: {読|よ}み{流|なが}す (to skim over)
+- **Expressions (3)**: {元気|げんき}いっぱい (full of energy), たった{一人|ひとり} (only one person), じゃあまた (see you later)
+- **Pre-noun adjectival (1)**: ほんの (just, only, mere)
+- **New kanji**: 曝 (expose) — assigned kanji ID 02657
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 33)
 Added 30 new dictionary entries (IDs 22700-22729) from candidate_words.json. A diverse mix of nouns and suru verbs covering daily life, society, government, education, environment, science, music, sports, health, and more.
 
@@ -82,15 +92,6 @@ Added 28 new dictionary entries (IDs 22617-22644) from candidate_words.json. A m
 - **Expressions (4)**: {火|ひ}をつける (to light a fire), {弱|よわ}みに{付|つ}け{込|こ}む (to exploit weakness), {勘定|かんじょう}が{狂|くる}う (to miscalculate)
 - **Nouns (9)**: {切|き}り{抜|ぬ}き (clipping/clip), {葉緑素|ようりょくそ} (chlorophyll), {譜面台|ふめんだい} (music stand), {精神衛生|せいしんえいせい} (mental health), {既得権益|きとくけんえき} (vested interests), {若白髪|わかしらが} (premature gray hair), {酒気帯|しゅきお}び (under influence of alcohol), {内服薬|ないふくやく} (oral medication), {介護福祉士|かいごふくしし} (certified care worker)
 
-### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 29)
-Added 30 new dictionary entries (IDs 22587-22616) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, adverbs, expressions, and a pronoun covering daily life, food, nature, emotion, language, law, and more.
-
-- **I-adjectives (3)**: じれったい (frustrating), {薄気味悪|うすきみわる}い (creepy), {惜|お}しみない (unstinting)
-- **Verbs (2)**: {飲|の}み{過|す}ぎる (to drink too much), {死|し}にかける (to nearly die)
-- **Adverbs (2)**: はるかに (by far), {早急|そうきゅう}に (urgently)
-- **Expressions (2)**: {喝采|かっさい}を{送|おく}る (to applaud), {気位|きぐらい}が{高|たか}い (proud/haughty)
-- **Pronoun (1)**: どれか (one of them)
-- **Nouns (20)**: {網|あみ} (net), {目|め}の{前|まえ} (right before one's eyes), {全長|ぜんちょう} (overall length), {漁船|ぎょせん} (fishing boat), {南向|みなみむ}き (south-facing), {外国籍|がいこくせき} (foreign nationality), {懐中|かいちゅう} (pocket), {短|みじか}さ (shortness), {盛|も}り{放題|ほうだい} (all-you-can-serve), {中食|なかしょく} (ready-made meals), こちら{側|がわ} (this side), {貯水|ちょすい} (water storage), {茹|ゆ}で{汁|じる} (cooking liquid), オノマトペ (onomatopoeia), {仮釈放|かりしゃくほう} (parole), {宿木|やどりぎ} (mistletoe), {条理|じょうり} (reason/logic), {最下|さいか} (lowest), {定量化|ていりょうか} (quantification), {水切|みずき}れ (drainage/stone skipping)
 
 
 
