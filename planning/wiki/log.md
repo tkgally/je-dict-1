@@ -2,6 +2,17 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-07] maintenance | Definition strategies research, learner lexicography deepening, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched definition and gloss writing strategies for bilingual learner dictionaries — Adamska-Sałaciak's equivalence typology (translational, cognitive, explanatory, functional), Zgusta's degrees of equivalence, sense ordering approaches, Japanese-English specific challenges; created research/definition-strategies.md citing Adamska-Sałaciak (2010), Atkins & Rundell (2008), Zgusta (1971), Lew (2004)
+- [C] Substantially expanded research/learner-lexicography.md — added sections on the monolingual vs. bilingual debate (Laufer & Hadar 1997, Laufer & Kimmel 1997, Lew 2004), bilingualised dictionaries, dictionary structure terminology (macrostructure/microstructure/mediostructure/access structure), frame semantics and prototype theory foundations, production vs. reception comparison table; expanded references and related pages
+- [A] Updated entry counts across 14 wiki pages: entries 22,400→22,700, general tier 19,600→19,900, cross-references 5,400→5,700, candidates 3,750→3,470; updated audio expansion estimates, parallel architecture, multi-model proofreading, compound verbs, pitch accent, LLMs-as-corpora, and word discovery pages accordingly
+- Added cross-references from translation-equivalence.md and learner-lexicography.md to the new definition-strategies page
+- Updated index.md with 1 new page entry
+
 ## [2026-04-06] maintenance | Word formation research, stats sync, lint check
 
 **Session type**: Nightly maintenance

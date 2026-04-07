@@ -1,6 +1,6 @@
 # Digital Dictionary UX
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-07
 
 ## How users actually use online dictionaries
 
@@ -97,7 +97,7 @@ Implementation would require:
 
 ### Search index size considerations
 
-With 22,000+ entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
+With 22,700+ entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
 - Index only high-frequency conjugation forms (masu, te, nai, ta)
 - Use compressed representations (shared prefix encoding)
 - Split the index into lazy-loaded chunks

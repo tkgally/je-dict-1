@@ -1,6 +1,6 @@
 # Compound Verb Representation
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-07
 
 ## Overview
 
@@ -84,7 +84,7 @@ The key design question from [Open Issues](../project/open-issues.md): should co
 1. **Scalability** — With ~2,700 compound verbs and dozens of productive V2 patterns, creating entries for all combinations is impractical. 始める alone could combine with hundreds of V1 verbs.
 2. **Redundancy** — Entries for 食べ始める, 読み始める, 書き始める, 走り始める etc. would all essentially say "begin to [V1]" with minor variations.
 3. **Teaching the pattern** — Documenting ～始める as a pattern teaches learners to decompose and understand new compound verbs independently, which is a more valuable skill than memorizing individual entries.
-4. **Entry count bloat** — At 19,000+ entries, adding thousands of transparent compound verbs would dilute the dictionary's signal-to-noise ratio.
+4. **Entry count bloat** — At 22,700+ entries, adding thousands of transparent compound verbs would dilute the dictionary's signal-to-noise ratio.
 
 ### Recommended approach
 

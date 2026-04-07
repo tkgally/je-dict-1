@@ -1,6 +1,6 @@
 # Multi-Model Proofreading and Accuracy Verification
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-07
 
 ## Overview
 
@@ -159,7 +159,7 @@ Each review produces a structured report per entry:
 
 ## Cost considerations
 
-- At current OpenRouter prices, reviewing all ~19,000+ entries through even a cheap model would cost several dollars
+- At current OpenRouter prices, reviewing all ~22,700 entries through even a cheap model would cost several dollars
 - The two-pass system keeps costs manageable: bulk screening at ~$0.001/entry, deep review at ~$0.01-0.05/entry
 - Budget roughly $5-20 for a full dictionary review cycle
 - As the dictionary grows, prioritize reviewing new entries first

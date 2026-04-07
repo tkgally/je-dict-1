@@ -1,6 +1,6 @@
 # Audio Coverage Expansion
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-07
 
 ## Current state
 
@@ -19,7 +19,7 @@ The Japanese TTS field has advanced dramatically. Several viable options exist:
 | **Amazon Polly** | Good (Neural) | $4 per 1M characters | NTTS Japanese voice; reliable at scale |
 | **ElevenLabs** | Very high | $5-22/month (tiered) | Best-in-class naturalness; voice cloning possible |
 
-For ~22,400 entries averaging ~10 characters per headword, total character count would be ~224K — well within free tiers for a one-time generation.
+For ~22,700 entries averaging ~10 characters per headword, total character count would be ~224K — well within free tiers for a one-time generation.
 
 ### Open-source / local models
 
@@ -49,12 +49,12 @@ VOICEVOX for bulk generation would be the simplest path to full coverage at no c
 - Generate pronunciation audio for each entry's headword
 - One audio file per entry: the word spoken in isolation
 - Priority order: basic tier → core tier → general tier
-- Estimated: ~22,400 files, each <5 seconds
+- Estimated: ~22,700 files, each <5 seconds
 
 ### Phase 2: Example sentence audio (higher effort, high value)
 - Generate audio for example sentences
 - Start with the first (simplest) example per entry
-- Estimated: ~22,400+ files at 5-15 seconds each
+- Estimated: ~22,700+ files at 5-15 seconds each
 
 ### Phase 3: Selective human re-recording
 - Replace TTS with human recordings for:
@@ -67,7 +67,7 @@ VOICEVOX for bulk generation would be the simplest path to full coverage at no c
 
 **File format**: MP3 at 128kbps is the pragmatic choice — universally supported, small files (~50KB per headword clip). OGG could save ~30% but has browser compatibility concerns.
 
-**Storage**: 22,400 MP3 headword files at ~50KB each ≈ 1.1GB. This is too large for the Git repository. Options:
+**Storage**: 22,700 MP3 headword files at ~50KB each ≈ 1.1GB. This is too large for the Git repository. Options:
 - **Git LFS** — keeps files in Git workflow but uses external storage
 - **Separate CDN/bucket** — S3, Cloudflare R2, or GitHub Releases
 - **GitHub Pages submodule** — separate repo for audio assets

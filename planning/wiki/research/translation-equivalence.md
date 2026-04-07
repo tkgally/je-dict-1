@@ -60,7 +60,8 @@ Cross-references are also essential — they expose the system of related words 
 
 ## Related pages
 
-- [Learner Lexicography](learner-lexicography.md)
+- [Definition Strategies](definition-strategies.md) — practical techniques for writing effective glosses (complementary to this page)
+- [Learner Lexicography](learner-lexicography.md) — broader principles of pedagogical dictionary design
 - [Cross-Reference Design](../topics/cross-references.md)
 - [Register and Formality](../topics/register.md)
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — acute translation equivalence challenges for mimetics
