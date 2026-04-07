@@ -19,7 +19,9 @@
       "english": "To translate Japanese text into English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16805_wabun_ex2",
@@ -27,7 +29,9 @@
       "english": "The contract will be prepared in both Japanese and English.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16805_wabun_ex3",
@@ -35,21 +39,36 @@
       "english": "Japanese-script typewriters were once widely used in Japanese offices.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used in translation work and official documents. The counterpart {英文|えいぶん} means \"English text.\" The pattern ～{文|ぶん} can be used with other language prefixes: {仏文|ふつぶん} (French text), {独文|どくぶん} (German text).\n\nCOMMON COLLOCATIONS:\n- {和文|わぶん}{英訳|えいやく} (Japanese-to-English translation)\n- {和文|わぶん}タイプ (Japanese typing)\n- {英和|えいわ}・{和英|わえい} (English-Japanese / Japanese-English)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "えいぶん",
+      "headword": "{英文|えいぶん}",
+      "label": "English text",
+      "target_id": "04103_eibun"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-03-14T10:32:03Z",
+    "modified": "2026-04-07T10:12:38Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["language", "writing"]
+      "semantic": [
+        "language",
+        "writing"
+      ]
     }
   }
 }
