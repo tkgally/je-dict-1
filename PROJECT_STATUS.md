@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 36)
+Added 30 new dictionary entries (IDs 22775-22804) from candidate_words.json. A diverse mix of expressions, adjectives, verbs, pronouns, nouns, and an adverb covering emotions, communication, personality, family, body, education, finance, and more.
+
+- **Expressions (8)**: {手|て}を{貸|か}す (to lend a hand), {手|て}を{出|だ}す (to get involved), {行儀|ぎょうぎ}が{良|よ}い (well-mannered), {期待|きたい}を{膨|ふく}らます (to build up expectations), {才能|さいのう}を{引|ひ}き{出|だ}す (to bring out talent), {威力|いりょく}を{振|ふ}るう (to exert power), {納得|なっとく}させる (to convince), どちら{様|さま} (who, very polite)
+- **Na-adjectives (4)**: {未熟|みじゅく}な (immature), {深刻|しんこく}な (serious), {新鮮|しんせん}な (fresh), {幸運|こううん}な (fortunate), {重要|じゅうよう}な (important)
+- **Verbs (3)**: {呆|あき}れ{返|かえ}る (to be utterly dumbfounded), {聞|き}き{澄|す}ます (to listen carefully), {胸騒|むなさわ}ぐ (to feel uneasy)
+- **I-adjective (1)**: {荒|あら}っぽい (rough, crude)
+- **Pronouns (2)**: {僕|ぼく}ら (we, informal male), {私|わたくし}ども (we, very formal humble)
+- **Nouns (6)**: お{兄|にい}ちゃん (older brother, casual), スパルタ (Spartan education), {吝嗇家|りんしょくか} (miser), {分娩|ぶんべん} (childbirth), {債権者|さいけんしゃ} (creditor), {予知夢|よちむ} (precognitive dream), {塵埃|じんあい} (dust and dirt), {観|み}る (to watch)
+- **Adverb/onomatopoeia (2)**: ぽっちゃり (chubby, plump), こまめに (diligently)
+- **New kanji**: 吝 (stingy, ID 02658), 嗇 (miserly, ID 02659), 娩 (childbirth, ID 02660)
+- Removed 29 stale candidates that now exist as entries
+
 ### 2026-04-07 (Vocabulary Expansion - 15 New Entries, Session 35)
 Added 15 new dictionary entries (IDs 22760-22774) from candidate_words.json. A diverse mix of nouns, expressions, and a verb covering culture, daily life, business, communication, medicine, and history.
 
@@ -84,12 +97,6 @@ Added 30 new dictionary entries (IDs 22670-22699) from candidate_words.json. A d
 - **Na-adjective (1)**: {結果的|けっかてき} (resultant, eventual)
 - **Nouns (19)**: {労力|ろうりょく} (labor/effort), {世間知|せけんし}らず (naive), {内密|ないみつ} (confidential), {秀作|しゅうさく} (excellent work), {家族|かぞく}{団|だん}らん (family togetherness), お{盆休|ぼんやす}み (Obon holiday), {半人前|はんにんまえ} (half-fledged), {青二才|あおにさい} (greenhorn), {日和見|ひよりみ} (opportunism), {児童文学|じどうぶんがく} (children's literature), {荷物検査|にもつけんさ} (baggage inspection), {国際協力|こくさいきょうりょく} (international cooperation), {営業利益|えいぎょうりえき} (operating profit), {旅日記|たびにっき} (travel diary), {精神的苦痛|せいしんてきくつう} (emotional distress), {有力候補|ゆうりょくこうほ} (leading candidate), {原子爆弾|げんしばくだん} (atomic bomb), {無期懲役|むきちょうえき} (life imprisonment), {寄稿者|きこうしゃ} (contributor)
 
-### 2026-04-06 (Vocabulary Expansion - 25 New Entries, Session 31)
-Added 25 new dictionary entries (IDs 22645-22669) from candidate_words.json. Removed 1 stale candidate (焦れったい, already existed as entry 22590). A diverse mix of nouns, suru verbs, and a na-adjective covering culture, music, medicine, literature, daily life, and more.
-
-- **Nouns (16)**: {口笛|くちぶえ} (whistling), {警笛|けいてき} (warning whistle), {実用性|じつようせい} (practicality), {花札|はなふだ} (hanafuda cards), {本意|ほんい} (real intention), {社員証|しゃいんしょう} (employee ID), {暗黒街|あんこくがい} (underworld), {宿願|しゅくがん} (long-cherished wish), {便覧|べんらん} (handbook), {文壇|ぶんだん} (literary circles), {撮影所|さつえいじょ} (film studio), {縦笛|たてぶえ} (recorder), {旅行記|りょこうき} (travelogue), {紀行文|きこうぶん} (travel essay), {佳作|かさく} (honorable mention), あいこ (tie/draw)
-- **Suru verbs (5)**: {流浪|るろう} (wandering), {接種|せっしゅ} (vaccination), {先導|せんどう} (leading), {敬畏|けいい} (awe/reverence), {企図|きと} (plan/scheme)
-- **Na-adjective (1)**: {精細|せいさい} (detailed/fine)
 - **Household (2)**: {鍋|なべ}つかみ (pot holder), {皇族|こうぞく} (imperial family)
 - **Na-adjective (1)**: {演壇|えんだん} (podium)
 
