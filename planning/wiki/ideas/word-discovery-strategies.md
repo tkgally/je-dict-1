@@ -1,6 +1,6 @@
 # Word Discovery Strategies
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-07
 
 ## Overview
 
@@ -107,7 +107,7 @@ The user's concern about overlooking fundamental words is valid. The brainstormi
 1. **Semantic field audits** (method 6 above) — systematically review basic domains
 2. **Scenario-based checks** (method 1) — ensure coverage for common life situations
 3. **Tier self-check**: Periodically review the basic and core tiers to verify they are genuinely complete — and check whether any general-tier entries should be promoted (see [Vocabulary Tier System](../project/vocabulary-tiers.md) for the tier reassessment note)
-4. **"What's missing?" prompts**: Occasionally ask an LLM directly, "Given a dictionary of 22,000+ Japanese entries for intermediate learners, what common everyday words might still be missing?" — without providing the actual wordlist. The LLM can brainstorm based on its knowledge of what intermediate learners need
+4. **"What's missing?" prompts**: Occasionally ask an LLM directly, "Given a dictionary of 22,700+ Japanese entries for intermediate learners, what common everyday words might still be missing?" — without providing the actual wordlist. The LLM can brainstorm based on its knowledge of what intermediate learners need
 5. **Example sentence scanning**: Review example sentences across the dictionary for words used naturally but lacking entries
 
 ## Policy note: No wordlist comparison

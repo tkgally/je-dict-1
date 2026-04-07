@@ -1,6 +1,6 @@
 # LLMs as Lexicographic Corpus Replacements
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-07
 
 ## The question
 
@@ -92,7 +92,7 @@ Rather than asking "Can LLMs replace corpora?", a more productive framing is: **
 
 ### The current model works
 
-je-dict-1's LLM-primary workflow has produced nearly 22,000 entries with consistent quality. The LLM's implicit distributional knowledge, combined with structured prompts, schema validation, and human oversight, has proven effective for:
+je-dict-1's LLM-primary workflow has produced over 22,700 entries with consistent quality. The LLM's implicit distributional knowledge, combined with structured prompts, schema validation, and human oversight, has proven effective for:
 - Selecting appropriate senses and ordering them by frequency
 - Generating natural collocations and example sentences
 - Writing nuanced usage notes that explain semantic and pragmatic distinctions
