@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 25 New Entries, Session 40)
+Added 25 new dictionary entries (IDs 22889-22913) from candidate_words.json. A practical mix of expressions, nouns, and an adverb covering daily life, culture, business, health, society, and more.
+
+- **Nouns (17)**: {詰|つ}め{替|か}え{用|よう} (refill), {稼|かせ}ぎ{頭|がしら} (top earner), {髭剃|ひげそ}り (razor), {観衆|かんしゅう} (spectators), {卓上|たくじょう} (tabletop), {大入|おおい}り (full house), {会員証|かいいんしょう} (membership card), {経過|けいか}{報告|ほうこく} (progress report), こげ{茶色|ちゃいろ} (dark brown), {共働|ともばたら}き{世帯|せたい} (dual-income household), {汗|あせ}まみれ (soaked in sweat), {健康|けんこう}{増進|ぞうしん} (health promotion), {自虐|じぎゃく}ネタ (self-deprecating joke), {家|いえ}ごもり (staying home), {修正|しゅうせい}テープ (correction tape), {業務|ぎょうむ}{提携|ていけい} (business alliance), {加入者|かにゅうしゃ} (subscriber)
+- **Noun/suru verbs (3)**: {初出演|はつしゅつえん} (debut appearance), {新生|しんせい} (rebirth), {読経|どきょう} (sutra chanting)
+- **Nouns with legal/medical usage (1)**: {傷害|しょうがい} (injury/assault)
+- **Expressions (2)**: {切|き}りがない (endless), {糠|ぬか}に{釘|くぎ} (futile effort)
+- **Adverb/onomatopoeia (1)**: しゃきっと (crisply/alertly)
+- **Other (1)**: {家族|かぞく}ぐるみ (whole-family involvement)
+- Removed 3 stale candidates (duplicates: ブレ, 詰問, 口伝え)
+- New kanji: 髭 (beard, ID 02663)
+
 ### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 39)
 Added 30 new dictionary entries (IDs 22859-22888) from candidate_words.json. A diverse mix of nouns, verbs, adverbs, and expressions covering culture, military, communication, grammar, medicine, food, and more.
 
@@ -100,14 +112,6 @@ Added 15 new dictionary entries (IDs 22760-22774) from candidate_words.json. A d
 - **Verb (godan) (1)**: {織|お}り{込|こ}む (to weave in/factor in)
 - **Adjective-no (1)**: {持|も}ち{前|まえ} (inherent, natural — also noun)
 
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 34)
-Added 30 new dictionary entries (IDs 22730-22759) from candidate_words.json. A diverse mix of nouns, expressions, a verb, and a pre-noun adjectival covering entertainment, society, nature, food, culture, daily life, language, and science.
-
-- **Nouns (21)**: ホラー (horror genre), ミステリー (mystery genre), {発展途上国|はってんとじょうこく} (developing country), {一般人|いっぱんじん} (ordinary person), {田植|たう}え (rice planting), {全面|ぜんめん} (whole surface/all aspects), {一家|いっか}{団|だん}らん (family togetherness), {一覧表|いちらんひょう} (list/table), {交際相手|こうさいあいて} (romantic partner), {作業中|さぎょうちゅう} (work in progress), しめじ (shimeji mushroom), {斜|なな}め{読|よ}み (skimming), さん{付|づ}け (using -san honorific), {左翼|さよく} (left wing), {混雑時間帯|こんざつじかんたい} (peak hours), {散在|さんざい} (scattered), {化学繊維|かがくせんい} (synthetic fiber), {大人数|おおにんずう} (large group), {七草粥|ななくさがゆ} (seven-herb porridge), {事案|じあん} (case/matter), {収容所|しゅうようじょ} (detention center), {沢|さわ} (mountain stream), {季節替|きせつが}わり (seasonal change), {被曝|ひばく} (radiation exposure)
-- **Noun/suru verbs (3)**: {越冬|えっとう} (overwintering), {散在|さんざい} (scattered), {被曝|ひばく} (radiation exposure)
-- **Verb (1)**: {読|よ}み{流|なが}す (to skim over)
-- **Expressions (3)**: {元気|げんき}いっぱい (full of energy), たった{一人|ひとり} (only one person), じゃあまた (see you later)
-- **Pre-noun adjectival (1)**: ほんの (just, only, mere)
 - **New kanji**: 曝 (expose) — assigned kanji ID 02657
 
 
