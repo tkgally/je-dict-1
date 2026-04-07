@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 39)
+Added 30 new dictionary entries (IDs 22859-22888) from candidate_words.json. A diverse mix of nouns, verbs, adverbs, and expressions covering culture, military, communication, grammar, medicine, food, and more.
+
+- **Nouns (21)**: {葉月|はづき} (August, traditional), {一月|ひとつき} (one month), {実父|じっぷ} (biological father), {祝電|しゅくでん} (congratulatory telegram), {弔電|ちょうでん} (condolence telegram), {末梢|まっしょう} (periphery/trivial), {軽業|かるわざ} (acrobatics), {補語|ほご} (complement, grammar), {五七五|ごしちご} (haiku meter), マグ (mug), ガード (guard/overpass), {脱衣|だつい} (undressing), {美男|びなん} (handsome man), {耳鼻科|じびか} (ENT department), {出回|でまわ}り (market availability), {不定|ふてい} (indefinite), {受章|じゅしょう} (receiving a decoration), {助教授|じょきょうじゅ} (associate professor), {一派|いっぱ} (faction), {造幣|ぞうへい} (minting), {拝承|はいしょう} (acknowledged, humble)
+- **Noun/suru verbs (7)**: {駐屯|ちゅうとん} (stationing), {屈曲|くっきょく} (bending), {従軍|じゅうぐん} (military service), {除隊|じょたい} (military discharge), {打電|だでん} (telegraphing)
+- **Verb (godan) (1)**: {隈取|くまど}る (to apply kumadori makeup)
+- **Adverb (1)**: {猛然|もうぜん} (fiercely)
+- **Expressions (2)**: {後塵|こうじん}を{拝|はい}する (to fall behind), {命|いのち}を{絶|た}つ (to end one's life)
+- Removed 14 stale candidates (duplicates of existing entries)
+- New kanji: 屯 (camp, ID 02661), 梢 (treetop, ID 02662)
+
 ### 2026-04-07 (Vocabulary Expansion - 24 New Entries, Session 38)
 Added 24 new dictionary entries (IDs 22835-22858) from candidate_words.json. A mix of nouns, verbs, expressions, and a pronoun covering daily life, culture, food, politics, language, and more.
 
@@ -98,13 +109,6 @@ Added 30 new dictionary entries (IDs 22730-22759) from candidate_words.json. A d
 - **Expressions (3)**: {元気|げんき}いっぱい (full of energy), たった{一人|ひとり} (only one person), じゃあまた (see you later)
 - **Pre-noun adjectival (1)**: ほんの (just, only, mere)
 - **New kanji**: 曝 (expose) — assigned kanji ID 02657
-
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 33)
-Added 30 new dictionary entries (IDs 22700-22729) from candidate_words.json. A diverse mix of nouns and suru verbs covering daily life, society, government, education, environment, science, music, sports, health, and more.
-
-- **Nouns (27)**: {県民|けんみん} (prefectural resident), {庁舎|ちょうしゃ} (government building), {私有地|しゆうち} (private land), {水道料金|すいどうりょうきん} (water bill), {理科室|りかしつ} (science lab), {文化史|ぶんかし} (cultural history), オーブンレンジ (combination microwave oven), {電波時計|でんぱどけい} (radio-controlled clock), {経理課|けいりか} (accounting dept), {海面上昇|かいめんじょうしょう} (sea level rise), {自然破壊|しぜんはかい} (destruction of nature), グランドピアノ (grand piano), {都市|とし}ガス (city gas), {明朝体|みんちょうたい} (Mincho typeface), {社務所|しゃむしょ} (shrine office), {倍速再生|ばいそくさいせい} (double-speed playback), {成績優秀|せいせきゆうしゅう} (excellent grades), {貸切|かしきり}バス (chartered bus), {工業地帯|こうぎょうちたい} (industrial zone), {共同責任|きょうどうせきにん} (joint responsibility), {慈善事業|じぜんじぎょう} (charitable work), {人権問題|じんけんもんだい} (human rights issue), {開幕戦|かいまくせん} (opening game), {早期診断|そうきしんだん} (early diagnosis), {殺菌剤|さっきんざい} (disinfectant), {乾燥地帯|かんそうちたい} (arid region), {消毒剤|しょうどくざい} (antiseptic)
-- **Noun/suru verbs (3)**: {再生産|さいせいさん} (reproduction), {株式公開|かぶしきこうかい} (IPO), {吹奏|すいそう} (wind instrument performance)
-
 
 
 
