@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 32)
+Added 30 new dictionary entries (IDs 22670-22699) from candidate_words.json. A diverse mix of nouns, expressions, suru verbs, and a na-adjective covering personality, culture, law, business, perception, emotion, and more.
+
+- **Expressions (8)**: {耳|みみ}を{澄|す}ます (to listen carefully), {気味|きみ}が{悪|わる}い (creepy), {暖簾|のれん}に{腕押|うでお}し (futile effort), {愛想|あいそ}が{悪|わる}い (unsociable), {無心|むしん}になる (to become absorbed), {手狭|てぜま}になる (to become cramped), ふと{思|おも}い{出|だ}す (to suddenly remember), {決定的瞬間|けっていてきしゅんかん} (decisive moment — as noun)
+- **Suru verbs (2)**: {加入|かにゅう}する (to join), {深刻化|しんこくか}する (to become serious)
+- **Na-adjective (1)**: {結果的|けっかてき} (resultant, eventual)
+- **Nouns (19)**: {労力|ろうりょく} (labor/effort), {世間知|せけんし}らず (naive), {内密|ないみつ} (confidential), {秀作|しゅうさく} (excellent work), {家族|かぞく}{団|だん}らん (family togetherness), お{盆休|ぼんやす}み (Obon holiday), {半人前|はんにんまえ} (half-fledged), {青二才|あおにさい} (greenhorn), {日和見|ひよりみ} (opportunism), {児童文学|じどうぶんがく} (children's literature), {荷物検査|にもつけんさ} (baggage inspection), {国際協力|こくさいきょうりょく} (international cooperation), {営業利益|えいぎょうりえき} (operating profit), {旅日記|たびにっき} (travel diary), {精神的苦痛|せいしんてきくつう} (emotional distress), {有力候補|ゆうりょくこうほ} (leading candidate), {原子爆弾|げんしばくだん} (atomic bomb), {無期懲役|むきちょうえき} (life imprisonment), {寄稿者|きこうしゃ} (contributor)
+
 ### 2026-04-06 (Vocabulary Expansion - 25 New Entries, Session 31)
 Added 25 new dictionary entries (IDs 22645-22669) from candidate_words.json. Removed 1 stale candidate (焦れったい, already existed as entry 22590). A diverse mix of nouns, suru verbs, and a na-adjective covering culture, music, medicine, literature, daily life, and more.
 
@@ -85,15 +93,6 @@ Added 30 new dictionary entries (IDs 22557-22586) from candidate_words.json. Add
 - **Na-adjective (2)**: {苦労知|くろうし}らず (carefree/sheltered), {感情豊|かんじょうゆた}か (emotionally rich)
 - **Adverb (1)**: {手厚|てあつ}く (generously/warmly)
 - **Nouns (23)**: {触感|しょっかん} (tactile sensation), {建|た}て{直|なお}し (rebuilding), {昔風|むかしふう} (old-fashioned), {複合施設|ふくごうしせつ} (mixed-use complex), {氷枕|こおりまくら} (ice pillow), {地域性|ちいきせい} (regional characteristics), {含有量|がんゆうりょう} (content amount), {職務内容|しょくむないよう} (job duties), {年額|ねんがく} (annual fee), {異同|いどう} (differences), {通知設定|つうちせってい} (notification settings), {活動時間|かつどうじかん} (active hours), {不義|ふぎ} (immorality/infidelity), {興奮気味|こうふんぎみ} (somewhat excited), {心得違|こころえちが}い (misunderstanding), {潮汐|ちょうせき} (tide), {自然|しぜん}さ (naturalness), {連載中|れんさいちゅう} (currently serialized), {完読|かんどく} (reading through), {札入|さつい}れ (billfold), {絵付|えつ}け (ceramic painting), {持|も}ち{手|て} (handle/holder), {五分|ごぶ} (fifty-fifty)
-
-### 2026-04-06 (Vocabulary Expansion - 30 New Entries, Session 27)
-Added 30 new dictionary entries (IDs 22527-22556) from candidate_words.json. Removed 22 stale suru-verb candidates that already existed as noun entries. Added new kanji 帆 to kanji index. A diverse mix of nouns, expressions, a na-adjective, and suru verbs covering cooking, household, culture, language, society, nature, and more.
-
-- **Nouns (21)**: {大|おお}さじ (tablespoon), {流|なが}し{台|だい} (kitchen sink), {土曜|どよう} (Saturday), {帆船|はんせん} (sailing ship), {繁忙|はんぼう} (busyness), {水浴|みずあ}び (bathing in water), {互恵|ごけい} (mutual benefit), {忠犬|ちゅうけん} (faithful dog), {門前町|もんぜんまち} (temple town), {擬音語|ぎおんご} (onomatopoeia), {報恩|ほうおん} (repaying kindness), {貝類|かいるい} (shellfish), {処世|しょせい} (worldly wisdom), {灯火|とうか} (lamplight), {弔意|ちょうい} (condolence), {浮腫|ふしゅ} (edema), {希代|きだい} (unprecedented), {鋭眼|えいがん} (keen eye), {取次|とりつぎ} (intermediary), {裏向|うらむ}き (face down), {甘|あま}やかし (spoiling)
-- **Na-adjective (1)**: {尊大|そんだい} (haughty)
-- **Nouns with verb-suru (4)**: {誘引|ゆういん} (inducement), {急襲|きゅうしゅう} (raid), {首謀|しゅぼう} (masterminding), スケッチ (sketch)
-- **Expressions (2)**: {喉|のど}が{渇|かわ}く (to be thirsty), {油|あぶら}を{切|き}る (to drain oil)
-- **Other (2)**: {愛人|あいじん} (lover), {先進|せんしん} (advanced)
 
 
 
