@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 29 New Entries, Session 44)
+Added 29 new dictionary entries (IDs 22988-23017) from candidate_words.json. A practical mix of suru verbs, expressions, and nouns covering daily life, communication, nature, commerce, culture, and more.
+
+- **Noun/suru verbs (10)**: {信頼|しんらい}する (to trust), {予約|よやく}する (to reserve), {終了|しゅうりょう}する (to end), {練習|れんしゅう}する (to practice), {行|い}き{来|き}する (to come and go), {深読|ふかよ}みする (to overinterpret), {建造|けんぞう} (construction), {直送|ちょくそう}する (to ship directly), {辞去|じきょ}する (to take one's leave), {整然|せいぜん}とする (to be orderly)
+- **Suru verbs (onomatopoeia) (2)**: からっとする (dry and refreshing), カチンとする (to get irritated), そっとする (to leave alone)
+- **Expressions (2)**: {都合|つごう}が{悪|わる}い (inconvenient), {都合|つごう}がいい (convenient)
+- **Nouns (12)**: {戦線|せんせん} (front line), {乙|おつ} (second rank/nice), {峰|みね} (peak), {札|ふだ} (tag/card), {筋立|すじた}て (plot/storyline), ビリ (last place), {羅針盤|らしんばん} (compass), {敵陣|てきじん} (enemy camp), {語義|ごぎ} (word meaning), {折|お}れ{線|せん} (broken line), アトピー (atopy), {下弦|かげん} (last quarter moon), {月齢|げつれい} (moon age), {徳|とく} (virtue), {壇|だん} (platform)
+- Removed 1 stale candidate (格式高い — duplicate of 21042)
+
 ### 2026-04-08 (Vocabulary Expansion - 24 New Entries, Session 43)
 Added 24 new dictionary entries (IDs 22964-22987) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and expressions covering politics, culture, food, geography, competition, and language.
 
@@ -90,19 +99,6 @@ Added 25 new dictionary entries (IDs 22889-22913) from candidate_words.json. A p
 - **Other (1)**: {家族|かぞく}ぐるみ (whole-family involvement)
 - Removed 3 stale candidates (duplicates: ブレ, 詰問, 口伝え)
 - New kanji: 髭 (beard, ID 02663)
-
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 39)
-Added 30 new dictionary entries (IDs 22859-22888) from candidate_words.json. A diverse mix of nouns, verbs, adverbs, and expressions covering culture, military, communication, grammar, medicine, food, and more.
-
-- **Nouns (21)**: {葉月|はづき} (August, traditional), {一月|ひとつき} (one month), {実父|じっぷ} (biological father), {祝電|しゅくでん} (congratulatory telegram), {弔電|ちょうでん} (condolence telegram), {末梢|まっしょう} (periphery/trivial), {軽業|かるわざ} (acrobatics), {補語|ほご} (complement, grammar), {五七五|ごしちご} (haiku meter), マグ (mug), ガード (guard/overpass), {脱衣|だつい} (undressing), {美男|びなん} (handsome man), {耳鼻科|じびか} (ENT department), {出回|でまわ}り (market availability), {不定|ふてい} (indefinite), {受章|じゅしょう} (receiving a decoration), {助教授|じょきょうじゅ} (associate professor), {一派|いっぱ} (faction), {造幣|ぞうへい} (minting), {拝承|はいしょう} (acknowledged, humble)
-- **Noun/suru verbs (7)**: {駐屯|ちゅうとん} (stationing), {屈曲|くっきょく} (bending), {従軍|じゅうぐん} (military service), {除隊|じょたい} (military discharge), {打電|だでん} (telegraphing)
-- **Verb (godan) (1)**: {隈取|くまど}る (to apply kumadori makeup)
-- **Adverb (1)**: {猛然|もうぜん} (fiercely)
-- **Expressions (2)**: {後塵|こうじん}を{拝|はい}する (to fall behind), {命|いのち}を{絶|た}つ (to end one's life)
-- Removed 14 stale candidates (duplicates of existing entries)
-- New kanji: 屯 (camp, ID 02661), 梢 (treetop, ID 02662)
-
-
 
 
 
