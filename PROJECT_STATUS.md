@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 42)
+Added 30 new dictionary entries (IDs 22934-22963) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering grammar, food, culture, business, color, and daily life.
+
+- **Nouns (17)**: {泊|とま}まり (overnight stay), {青色|あおいろ} (blue color), {修正案|しゅうせいあん} (amendment), {総決算|そうけっさん} (final reckoning), {色|いろ}づけ (coloring), {平滑|へいかつ} (smooth), {具象|ぐしょう} (concrete/figurative art), {編|あ}み{髪|がみ} (braided hair), {元請|もとう}け (main contractor), {肯定形|こうていけい} (affirmative form), {命令形|めいれいけい} (imperative form), {他人丼|たにんどん} (beef-egg bowl), {三色丼|さんしょくどん} (three-color bowl), {掛|か}け{捨|す}て (term insurance), {依頼者|いらいしゃ} (client), {椿油|つばきあぶら} (camellia oil), {置屋|おきや} (geisha house), {瑠璃色|るりいろ} (lapis blue), {賛成者|さんせいしゃ} (supporter), {看板店|かんばんてん} (flagship store), {同族経営|どうぞくけいえい} (family management)
+- **Expressions (7)**: どれも (all of them), にあたって (on the occasion of), {余程|よほど}の{事|こと} (something extraordinary), {意|い}のまま (at one's will), {一生|いっしょう}{一度|いちど} (once in a lifetime), {一言|ひとこと}{断|ことわ}る (to give a heads-up), をもちまして (as of)
+- **Pronouns/Adverbs (2)**: どれも (pronoun), どこにでも (everywhere), {御方|おかた} (person, honorific)
+- Removed 7 stale candidates (duplicates: 切り抜き, 上書き保存, 熟す, 何方, 邪魔をする, ましだ, 激高)
+
 ### 2026-04-07 (Vocabulary Expansion - 20 New Entries, Session 41)
 Added 20 new dictionary entries (IDs 22914-22933) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering culture, biology, food, business, law, medicine, and daily life.
 
@@ -92,36 +100,6 @@ Added 24 new dictionary entries (IDs 22835-22858) from candidate_words.json. A m
 - **Pronoun (1)**: それら (those)
 - Removed 1 stale candidate (肉体的, already an entry)
 
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 37)
-Added 30 new dictionary entries (IDs 22805-22834) from candidate_words.json. A practical mix of nouns, expressions, and adverbs covering daily life, weather, health, business, food, culture, art, and grammar.
-
-- **Nouns (18)**: {再婚|さいこん} (remarriage), {重複|ちょうふく} (duplication), {震度|しんど} (seismic intensity), {雨雲|あまぐも} (rain cloud), {胸焼|むねや}け (heartburn), {金切|かなき}り{声|ごえ} (shrill scream), {足腰|あしこし} (legs and lower back), {降水量|こうすいりょう} (precipitation), {草刈|くさか}り (mowing), {庭|にわ}いじり (casual gardening), {会員登録|かいいんとうろく} (membership registration), {寄|よ}せ{鍋|なべ} (mixed hot pot), {陰性|いんせい} (negative test result), {守秘|しゅひ} (confidentiality), {創意|そうい} (originality), {懐中時計|かいちゅうどけい} (pocket watch), {単純作業|たんじゅんさぎょう} (routine work), {肉体労働|にくたいろうどう} (manual labor), {再生紙|さいせいし} (recycled paper), {遠近法|えんきんほう} (perspective in art), {平準化|へいじゅんか} (leveling), キャッチフレーズ (catchphrase), {本日中|ほんじつちゅう} (by today)
-- **Expressions (6)**: まだしも (comparatively better), {必要|ひつよう}に{応|おう}じて (as needed), {頬杖|ほおづえ}をつく (rest chin on hand), {言|い}い{換|か}えると (in other words), {切|き}り{離|はな}せない (inseparable), {当|あ}たって{砕|くだ}けろ (nothing ventured nothing gained)
-- **Adverbs (2)**: {陰|かげ}で (behind the scenes), まだしも (at least)
-
-### 2026-04-07 (Vocabulary Expansion - 30 New Entries, Session 36)
-Added 30 new dictionary entries (IDs 22775-22804) from candidate_words.json. A diverse mix of expressions, adjectives, verbs, pronouns, nouns, and an adverb covering emotions, communication, personality, family, body, education, finance, and more.
-
-- **Expressions (8)**: {手|て}を{貸|か}す (to lend a hand), {手|て}を{出|だ}す (to get involved), {行儀|ぎょうぎ}が{良|よ}い (well-mannered), {期待|きたい}を{膨|ふく}らます (to build up expectations), {才能|さいのう}を{引|ひ}き{出|だ}す (to bring out talent), {威力|いりょく}を{振|ふ}るう (to exert power), {納得|なっとく}させる (to convince), どちら{様|さま} (who, very polite)
-- **Na-adjectives (4)**: {未熟|みじゅく}な (immature), {深刻|しんこく}な (serious), {新鮮|しんせん}な (fresh), {幸運|こううん}な (fortunate), {重要|じゅうよう}な (important)
-- **Verbs (3)**: {呆|あき}れ{返|かえ}る (to be utterly dumbfounded), {聞|き}き{澄|す}ます (to listen carefully), {胸騒|むなさわ}ぐ (to feel uneasy)
-- **I-adjective (1)**: {荒|あら}っぽい (rough, crude)
-- **Pronouns (2)**: {僕|ぼく}ら (we, informal male), {私|わたくし}ども (we, very formal humble)
-- **Nouns (6)**: お{兄|にい}ちゃん (older brother, casual), スパルタ (Spartan education), {吝嗇家|りんしょくか} (miser), {分娩|ぶんべん} (childbirth), {債権者|さいけんしゃ} (creditor), {予知夢|よちむ} (precognitive dream), {塵埃|じんあい} (dust and dirt), {観|み}る (to watch)
-- **Adverb/onomatopoeia (2)**: ぽっちゃり (chubby, plump), こまめに (diligently)
-- **New kanji**: 吝 (stingy, ID 02658), 嗇 (miserly, ID 02659), 娩 (childbirth, ID 02660)
-- Removed 29 stale candidates that now exist as entries
-
-### 2026-04-07 (Vocabulary Expansion - 15 New Entries, Session 35)
-Added 15 new dictionary entries (IDs 22760-22774) from candidate_words.json. A diverse mix of nouns, expressions, and a verb covering culture, daily life, business, communication, medicine, and history.
-
-- **Nouns (8)**: ゴールデンウィーク (Golden Week), {受|う}け{渡|わた}し (handover), {持|も}ち{前|まえ} (natural trait), {救急隊員|きゅうきゅうたいいん} (paramedic), {批判家|ひはんか} (critic), {鑑賞者|かんしょうしゃ} (viewer/appreciator), {過密|かみつ}スケジュール (overcrowded schedule), {忠言|ちゅうげん} (frank advice)
-- **Noun/suru verbs (3)**: {自己批判|じこひはん} (self-criticism), {事前予約|じぜんよやく} (advance reservation), {創建|そうけん} (founding/construction)
-- **Expressions (2)**: {場合|ばあい}によっては (depending on the case), {予定|よてい}を{立|た}てる (to make plans)
-- **Verb (godan) (1)**: {織|お}り{込|こ}む (to weave in/factor in)
-- **Adjective-no (1)**: {持|も}ち{前|まえ} (inherent, natural — also noun)
-
-- **New kanji**: 曝 (expose) — assigned kanji ID 02657
 
 
 
