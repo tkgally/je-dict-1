@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 47)
+Added 30 new dictionary entries (IDs 23078-23107) from candidate_words.json. A diverse mix of loanwords, compound nouns, cultural terms, and adjectives covering daily life, food, sports, body, culture, science, weather, and business.
+
+- **Katakana loanwords (13)**: スタミナ (stamina), フレッシュ (fresh), エゴ (ego), キャンディー (candy), ジャーナリズム (journalism), スキンケア (skin care), テナント (tenant), トートバッグ (tote bag), ミネラル (mineral), ボルト (bolt/volt), タンク (tank), ディップ (dip), ピラティス (Pilates)
+- **Compound nouns (11)**: {冬服|ふゆふく} (winter clothes), {体長|たいちょう} (body length), {始点|してん} (starting point), {背筋|はいきん} (back muscles), {精肉店|せいにくてん} (butcher shop), {花器|かき} (flower vase), {事務作業|じむさぎょう} (clerical work), {間隙|かんげき} (gap), {沈降|ちんこう} (subsidence), {青紫|あおむらさき} (blue-purple), {天井裏|てんじょううら} (attic space)
+- **Cultural/proper nouns (1)**: {甲子園|こうしえん} (Koshien)
+- **Na-adjectives (2)**: フレッシュ (fresh/youthful), まめ (diligent/attentive)
+- **Four-character compound (1)**: {立身出世|りっしんしゅっせ} (rising in the world)
+- **Other nouns (2)**: {更衣|こうい} (changing clothes), いびり (bullying), {風向|ふうこう} (wind direction)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 46)
 Added 30 new dictionary entries (IDs 23048-23077) from candidate_words.json. A diverse mix of nouns, suru verbs, adverbs, and onomatopoeia covering daily life, culture, food, education, legal/business, nature, and people.
 
@@ -88,16 +98,6 @@ Added 24 new dictionary entries (IDs 22964-22987) from candidate_words.json. A d
 - **Na-adjectives (3)**: {急進的|きゅうしんてき} (radical/progressive), {概括的|がいかつてき} (general/broad), {不徹底|ふてってい} (incomplete/halfhearted)
 - **Other (2)**: {誰彼|だれかれ} (anyone and everyone), {折|おり}を{見|み}て (when the time comes)
 - Removed 1 stale candidate (いとしむ — duplicate of 愛しむ, ID 22360)
-
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 42)
-Added 30 new dictionary entries (IDs 22934-22963) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering grammar, food, culture, business, color, and daily life.
-
-- **Nouns (17)**: {泊|とま}まり (overnight stay), {青色|あおいろ} (blue color), {修正案|しゅうせいあん} (amendment), {総決算|そうけっさん} (final reckoning), {色|いろ}づけ (coloring), {平滑|へいかつ} (smooth), {具象|ぐしょう} (concrete/figurative art), {編|あ}み{髪|がみ} (braided hair), {元請|もとう}け (main contractor), {肯定形|こうていけい} (affirmative form), {命令形|めいれいけい} (imperative form), {他人丼|たにんどん} (beef-egg bowl), {三色丼|さんしょくどん} (three-color bowl), {掛|か}け{捨|す}て (term insurance), {依頼者|いらいしゃ} (client), {椿油|つばきあぶら} (camellia oil), {置屋|おきや} (geisha house), {瑠璃色|るりいろ} (lapis blue), {賛成者|さんせいしゃ} (supporter), {看板店|かんばんてん} (flagship store), {同族経営|どうぞくけいえい} (family management)
-- **Expressions (7)**: どれも (all of them), にあたって (on the occasion of), {余程|よほど}の{事|こと} (something extraordinary), {意|い}のまま (at one's will), {一生|いっしょう}{一度|いちど} (once in a lifetime), {一言|ひとこと}{断|ことわ}る (to give a heads-up), をもちまして (as of)
-- **Pronouns/Adverbs (2)**: どれも (pronoun), どこにでも (everywhere), {御方|おかた} (person, honorific)
-- Removed 7 stale candidates (duplicates: 切り抜き, 上書き保存, 熟す, 何方, 邪魔をする, ましだ, 激高)
-
-
 
 
 
