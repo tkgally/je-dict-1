@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 25 New Entries, Session 50)
+Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A diverse mix of nouns, suru verbs, and a godan verb covering daily life, culture, food, language, politics, military, measurement, and more.
+
+- **Nouns (14)**: テクニック (technique), {序論|じょろん} (introduction), {相談者|そうだんしゃ} (person seeking advice), {支配権|しはいけん} (control/dominion), {掴|つか}み{所|どころ} (defining characteristic), {蚊取|かと}り (mosquito repelling), {酒好|さけず}き (sake lover), ミリメートル (millimeter), {来館者|らいかんしゃ} (visitor to a facility), {言|い}い{様|よう} (way of saying), {悪感|あくかん} (ill will), ハマグリ (clam), ライ{麦|むぎ} (rye), {円弧|えんこ} (arc), {主翼|しゅよく} (main wing), {公印|こういん} (official seal), {工匠|こうしょう} (artisan)
+- **Noun/suru verbs (4)**: {文書化|ぶんしょか} (documentation), {出撃|しゅつげき} (sortie), {毒殺|どくさつ} (poisoning to death), {敢闘|かんとう} (fighting bravely)
+- **Noun/na-adjective (1)**: {酒好|さけず}き (fond of drinking)
+- **Godan verb (1)**: {這|は}い{込|こ}む (to crawl into)
+- **Noun with two senses (2)**: {門外|もんがい} (outside the gate / outside one's field), {終礼|しゅうれい} (end-of-day meeting)
+- **Loanwords (3)**: テクニック, ミリメートル, ハマグリ (katakana standard)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 49)
 Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A mix of nouns, na-adjectives, suru verbs, and a counter covering culture, daily life, politics, law, nature, food, education, and society.
 
@@ -96,15 +106,6 @@ Added 30 new dictionary entries (IDs 23048-23077) from candidate_words.json. A d
 - **Adverbs/onomatopoeia (2)**: きょとんと (blankly/puzzledly), あんぐり (gaping wide open)
 - **Other (1)**: {悪行|あくぎょう} (evil deed)
 - Added 1 new kanji to index: 套 (sheath)
-
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 45)
-Added 30 new dictionary entries (IDs 23018-23047) from candidate_words.json. A diverse mix of nouns, expressions, and cultural terms covering language, safety, culture, society, science, sports, food, philosophy, and daily life.
-
-- **Nouns (22)**: {含蓄|がんちく} (implication/depth), {刀剣|とうけん} (swords), {過疎地|かそち} (depopulated area), {同胞|どうほう} (compatriots), {月報|げっぽう} (monthly report), {浮力|ふりょく} (buoyancy), {場外|じょうがい} (outside the venue), {邸|てい} (mansion), {御朱印帳|ごしゅいんちょう} (stamp book), {失|う}せ{物|もの} (lost article), {統治者|とうちしゃ} (ruler), ひねくれ{者|もの} (contrarian), {消毒薬|しょうどくやく} (disinfectant), {工賃|こうちん} (labor cost), {予想違|よそうちが}い (wrong prediction), レモン{汁|じる} (lemon juice), {上段|じょうだん} (upper level), {鑑定書|かんていしょ} (appraisal certificate), {仁|じん} (benevolence), {拾得物|しゅうとくぶつ} (found property), {飲|の}み{屋街|やがい} (bar district), {藍染|あいぞ}め (indigo dyeing)
-- **Noun/suru verbs (6)**: {防護|ぼうご} (protection), {卒倒|そっとう} (fainting), {残存|ざんぞん} (remaining), {固着|こちゃく} (fixation), {代走|だいそう} (pinch runner), {長期滞在|ちょうきたいざい} (long-term stay)
-- **Adverb (1)**: {年毎|としごと} (year by year)
-- **Expression (1)**: {口先|くちさき}だけ (all talk)
-- Added 1 new kanji to index: 仁 (benevolence)
 
 
 
