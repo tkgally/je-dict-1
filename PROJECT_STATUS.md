@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 49)
+Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A mix of nouns, na-adjectives, suru verbs, and a counter covering culture, daily life, politics, law, nature, food, education, and society.
+
+- **Nouns (16)**: {和式|わしき} (Japanese style), {期待外|きたいはず}れ (disappointment), {目|め}つき (look in eyes), {前代|ぜんだい} (previous generation), {営利|えいり} (profit-making), {党派|とうは} (political faction), {山水|さんすい} (landscape), {名画座|めいがざ} (repertory cinema), {手毬|てまり} (temari ball), {院卒|いんそつ} (graduate school grad), {供花|きょうか} (funeral flowers), {排水管|はいすいかん} (drainpipe), {輪番制|りんばんせい} (rotation system), {貸室|かししつ} (rental room), {年忌|ねんき} (memorial anniversary), {幼稚園児|ようちえんじ} (kindergartener)
+- **Noun/na-adjective (3)**: {無表情|むひょうじょう} (expressionless), つむじまがり (contrarian), {激高|げきたか} (very expensive)
+- **Noun/suru verbs (4)**: {水没|すいぼつ} (submersion), {出所|しゅっしょ} (release from prison), {急加速|きゅうかそく} (rapid acceleration), {駐留|ちゅうりゅう} (stationing)
+- **Noun/adjective-no (3)**: {和式|わしき}, {期待外|きたいはず}れ, {水溶性|すいようせい} (water-soluble)
+- **Other (2)**: とらわれ (obsession/fixation), すりごま (ground sesame)
+- **Counter (1)**: {一冊|いっさつ} (one book)
+- **Banking (1)**: {自動振込|じどうふりこみ} (automatic bank transfer)
+- **Legal (1)**: {欠格|けっかく} (disqualification)
+- **Nature (1)**: {雉|きじ} (pheasant — Japan's national bird)
+- Added 2 new kanji to index: 毬 (ball), 雉 (pheasant)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 48)
 Added 30 new dictionary entries (IDs 23108-23137) from candidate_words.json. A diverse mix of nouns, expressions, adjectives, adverbs, and verbs covering society, language, medicine, culture, travel, personality, and daily life.
 
@@ -92,14 +106,6 @@ Added 30 new dictionary entries (IDs 23018-23047) from candidate_words.json. A d
 - **Expression (1)**: {口先|くちさき}だけ (all talk)
 - Added 1 new kanji to index: 仁 (benevolence)
 
-### 2026-04-08 (Vocabulary Expansion - 29 New Entries, Session 44)
-Added 29 new dictionary entries (IDs 22988-23017) from candidate_words.json. A practical mix of suru verbs, expressions, and nouns covering daily life, communication, nature, commerce, culture, and more.
-
-- **Noun/suru verbs (10)**: {信頼|しんらい}する (to trust), {予約|よやく}する (to reserve), {終了|しゅうりょう}する (to end), {練習|れんしゅう}する (to practice), {行|い}き{来|き}する (to come and go), {深読|ふかよ}みする (to overinterpret), {建造|けんぞう} (construction), {直送|ちょくそう}する (to ship directly), {辞去|じきょ}する (to take one's leave), {整然|せいぜん}とする (to be orderly)
-- **Suru verbs (onomatopoeia) (2)**: からっとする (dry and refreshing), カチンとする (to get irritated), そっとする (to leave alone)
-- **Expressions (2)**: {都合|つごう}が{悪|わる}い (inconvenient), {都合|つごう}がいい (convenient)
-- **Nouns (12)**: {戦線|せんせん} (front line), {乙|おつ} (second rank/nice), {峰|みね} (peak), {札|ふだ} (tag/card), {筋立|すじた}て (plot/storyline), ビリ (last place), {羅針盤|らしんばん} (compass), {敵陣|てきじん} (enemy camp), {語義|ごぎ} (word meaning), {折|お}れ{線|せん} (broken line), アトピー (atopy), {下弦|かげん} (last quarter moon), {月齢|げつれい} (moon age), {徳|とく} (virtue), {壇|だん} (platform)
-- Removed 1 stale candidate (格式高い — duplicate of 21042)
 
 
 
