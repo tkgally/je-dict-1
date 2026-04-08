@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 24 New Entries, Session 43)
+Added 24 new dictionary entries (IDs 22964-22987) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and expressions covering politics, culture, food, geography, competition, and language.
+
+- **Nouns (11)**: {導入部|どうにゅうぶ} (introduction/opening section), {何倍|なんばい} (how many fold), {素案|そあん} (rough draft), {燭台|しょくだい} (candlestick), {第二言語|だいにげんご} (second language), ごま{塩|しお} (sesame salt), {在野|ざいや} (out of office/independent), {中距離|ちゅうきょり} (medium distance), {無党派|むとうは} (nonpartisan), {南欧|なんおう} (Southern Europe), {下方|かほう} (lower part/downward)
+- **Nouns with adjective-no usage (3)**: {異国風|いこくふう} (foreign/exotic style), {無党派|むとうは} (nonpartisan), {中距離|ちゅうきょり}
+- **Noun/suru verbs (3)**: {和睦|わぼく} (reconciliation), {策謀|さくぼう} (plot/intrigue), {身|み}じろぎ (stirring/fidgeting)
+- **Verbs (3)**: かじりつく (to bite into/cling to), {勝|か}ち{抜|ぬ}く (to win through), {並外|なみはず}れる (to be exceptional)
+- **Na-adjectives (3)**: {急進的|きゅうしんてき} (radical/progressive), {概括的|がいかつてき} (general/broad), {不徹底|ふてってい} (incomplete/halfhearted)
+- **Other (2)**: {誰彼|だれかれ} (anyone and everyone), {折|おり}を{見|み}て (when the time comes)
+- Removed 1 stale candidate (いとしむ — duplicate of 愛しむ, ID 22360)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 42)
 Added 30 new dictionary entries (IDs 22934-22963) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering grammar, food, culture, business, color, and daily life.
 
@@ -90,15 +101,6 @@ Added 30 new dictionary entries (IDs 22859-22888) from candidate_words.json. A d
 - **Expressions (2)**: {後塵|こうじん}を{拝|はい}する (to fall behind), {命|いのち}を{絶|た}つ (to end one's life)
 - Removed 14 stale candidates (duplicates of existing entries)
 - New kanji: 屯 (camp, ID 02661), 梢 (treetop, ID 02662)
-
-### 2026-04-07 (Vocabulary Expansion - 24 New Entries, Session 38)
-Added 24 new dictionary entries (IDs 22835-22858) from candidate_words.json. A mix of nouns, verbs, expressions, and a pronoun covering daily life, culture, food, politics, language, and more.
-
-- **Nouns (17)**: {永続|えいぞく} (permanence), {左側|ひだりがわ} (left side), {日曜|にちよう} (Sunday), {蚊帳|かや} (mosquito net), {人民|じんみん} (the people), {飛|と}ばし{読|よ}み (skimming), {箱入|はこい}り (boxed/sheltered), {覚|おぼ}え (memory), {代価|だいか} (price/cost), {通信販売|つうしんはんばい} (mail-order sales), ネット{通販|つうはん} (online shopping), {訪米|ほうべい} (visiting the US), {豪傑|ごうけつ} (heroic person), {寄進|きしん} (shrine donation), {無常感|むじょうかん} (sense of impermanence), {凍|こお}り{豆腐|どうふ} (freeze-dried tofu), {関東弁|かんとうべん} (Kanto dialect), {電話機|でんわき} (telephone set), {合|あ}いびき{肉|にく} (mixed ground meat), やせ{形|がた} (slender build), {収蔵庫|しゅうぞうこ} (storage facility)
-- **Verb (godan) (1)**: {引|ひ}きずり{込|こ}む (to drag in)
-- **Expression (1)**: {気|き}が{合|あ}う (to get along)
-- **Pronoun (1)**: それら (those)
-- Removed 1 stale candidate (肉体的, already an entry)
 
 
 
