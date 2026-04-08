@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-08
 
 ## How this wiki is organized
 
@@ -39,6 +39,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Onomatopoeia and Mimetic Words](research/onomatopoeia-mimetics.md) — Sound symbolism, morphological patterns, L2 acquisition, and dictionary treatment
 - [Word Formation and Morphology](research/word-formation.md) — Compounding, derivation, vocabulary strata, and implications for entry scope
 - [Definition and Gloss Strategies](research/definition-strategies.md) — Equivalence types, gloss writing techniques, and sense ordering for bilingual learner dictionaries
+- [Dictionary Lookup Behavior](research/dictionary-lookup-behavior.md) — Lookup process models, common errors, and implications for dictionary design
 
 ## Topics
 

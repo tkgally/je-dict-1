@@ -1,6 +1,6 @@
 # Pitch Accent in Japanese Learner Dictionaries
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-08
 
 ## Overview
 
@@ -119,7 +119,7 @@ je-dict-1 does not include pitch accent data. The entry schema has no field for 
 
 Adding pitch accent to je-dict-1 would be a significant undertaking:
 
-1. **Data sourcing** — There is no freely available, comprehensive pitch accent database in a format suitable for bulk integration. OJAD covers a subset of vocabulary. The NHK and Shinmeikai dictionaries are copyrighted. Manual annotation of 22,700+ entries is impractical.
+1. **Data sourcing** — There is no freely available, comprehensive pitch accent database in a format suitable for bulk integration. OJAD covers a subset of vocabulary. The NHK and Shinmeikai dictionaries are copyrighted. Manual annotation of 23,000 entries is impractical.
 
 2. **Schema changes** — A new field (e.g., `"pitch_accent": [0]` or `"pitch_accent": "LHH"`) would need to be added to `build/schema.json` and rendered by `entry_renderer.py`.
 

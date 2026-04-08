@@ -1,6 +1,6 @@
 # Cross-Reference Design
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-08
 
 ## Overview
 
@@ -61,7 +61,7 @@ Each cross-reference includes a `relationship` field:
 
 ## Current coverage
 
-Over 5,700 cross-references exist across 22,700+ entries (roughly 0.25 cross-references per entry on average). Coverage is growing through:
+Over 6,000 cross-references exist across 23,000 entries (roughly 0.26 cross-references per entry on average). Coverage is growing through:
 - Systematic review (`prompts/add_cross-references.md`)
 - Entry creation (new entries include initial cross-refs)
 - Polishing passes
@@ -78,7 +78,7 @@ Over 5,700 cross-references exist across 22,700+ entries (roughly 0.25 cross-ref
 
 ### Higher coverage targets
 
-The current ratio of ~0.25 cross-references per entry is low. Most entries have zero or one cross-reference. A reasonable target might be an average of 1-2 cross-references per entry, which would mean 22,700-45,400 total. Priority should go to:
+The current ratio of ~0.26 cross-references per entry is low. Most entries have zero or one cross-reference. A reasonable target might be an average of 1-2 cross-references per entry, which would mean 23,000-46,000 total. Priority should go to:
 - **Verbs without transitivity pair links** — these are the most pedagogically critical
 - **Near-synonyms** — words that learners commonly confuse
 - **Semantic field clusters** — groups of related words (colors, emotions, family terms) that should all link to each other
