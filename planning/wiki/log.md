@@ -2,6 +2,17 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-08] maintenance | Dictionary lookup behavior research, homographs deepening, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched dictionary lookup behavior and skills — Nesi's (1999) lookup process model (5 stages), Lew's (2013) revision for electronic dictionaries, common lookup errors (failure to lemmatize, first-fit sense selection, ignoring context), Atkins & Varantola (1997) monitoring study, Tono (2001) eye-tracking research, Thumb (2004) bilingualised dictionary strategies, Japanese-specific challenges (kanji barrier, homophone density, kun-yomi near-synonyms); created research/dictionary-lookup-behavior.md citing Atkins & Varantola (1997), Lew (2004, 2013), Nesi (1999), Thumb (2004), Tono (2001), Halpern, CJK Dictionary Institute
+- [C] Substantially expanded topics/homographs.md from ~250 words to ~1,500 — added concrete data from the dictionary (117 homographic headwords, 1,372 homophone readings), detailed analysis of five homograph types with tables and examples, in-depth treatment of homographic heterophones (角, 追従), dense homophone clusters (けん×7, かく×6), kun-yomi near-synonyms (かえる×5), search result disambiguation strategies, split-vs-merge design principles table
+- [A] Updated entry counts across 14 wiki pages: entries 22,700→23,000, general tier 19,900→20,200, cross-references 5,700→6,000, examples 92,500→93,500, candidates 3,470→3,200; updated audio expansion storage estimates, parallel architecture, multi-model proofreading, compound verbs, pitch accent, LLMs-as-corpora, entry consistency, and word discovery pages accordingly
+- Added cross-references from vocabulary-acquisition.md, learner-lexicography.md, and digital-dictionary-ux.md to the new dictionary-lookup-behavior page; added dictionary-lookup-behavior.md as a related page on homographs.md
+- Updated index.md with 1 new page entry
+
 ## [2026-04-07] maintenance | Definition strategies research, learner lexicography deepening, stats sync
 
 **Session type**: Nightly maintenance

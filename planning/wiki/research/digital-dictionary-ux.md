@@ -1,6 +1,6 @@
 # Digital Dictionary UX
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-08
 
 ## How users actually use online dictionaries
 
@@ -97,7 +97,7 @@ Implementation would require:
 
 ### Search index size considerations
 
-With 22,700+ entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
+With 23,000 entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
 - Index only high-frequency conjugation forms (masu, te, nai, ta)
 - Use compressed representations (shared prefix encoding)
 - Split the index into lazy-loaded chunks
@@ -130,3 +130,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Open Issues](../project/open-issues.md) — known problems including UX items
 - [Audio Coverage Expansion](../ideas/audio-expansion.md) — TTS-based pronunciation audio plans
 - [Learner Lexicography](learner-lexicography.md) — pedagogical principles informing UX decisions
+- [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — empirical research on how learners use dictionaries

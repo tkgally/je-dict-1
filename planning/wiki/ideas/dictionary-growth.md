@@ -1,6 +1,6 @@
 # Dictionary Growth and Long-Term Vision
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-08
 
 ## Overview
 
@@ -8,7 +8,7 @@ There is no maximum size for this dictionary. Even after core learner needs are 
 
 ## Current state and near-term priorities
 
-As of April 2026, the dictionary has ~22,700 entries covering basic, core, and general vocabulary for intermediate Japanese learners. The immediate priority is:
+As of April 2026, the dictionary has ~23,000 entries covering basic, core, and general vocabulary for intermediate Japanese learners. The immediate priority is:
 
 1. **Fill remaining gaps in common vocabulary** — ensure no everyday word is missing (see [Word Discovery Strategies](word-discovery-strategies.md))
 2. **Polish existing entries** — bring all entries up to v2 quality standards
