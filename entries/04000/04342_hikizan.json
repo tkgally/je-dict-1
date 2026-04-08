@@ -48,10 +48,32 @@
     }
   ],
   "notes": "USAGE: {引算|ひきざん} (also written as {引|ひ}き{算|ざん}) is the elementary math term for subtraction.\n\nBASIC ARITHMETIC OPERATIONS:\n- {足算|たしざん} (addition)\n- {引算|ひきざん} (subtraction)\n- {掛算|かけざん} (multiplication)\n- {割算|わりざん} (division)\n\nCOMMON PATTERNS:\n- {引算|ひきざん}をする (to do subtraction)\n- XからYを{引算|ひきざん}する (to subtract Y from X)\n\nNOTE: While {引算|ひきざん} is the noun form, the verb {引|ひ}く is commonly used: 10から3を{引|ひ}く = 10 - 3.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "related",
+      "target_id": "05334_kakezan",
+      "reading": "かけざん",
+      "headword": "{掛|か}け{算|ざん}",
+      "label": "multiplication"
+    },
+    {
+      "type": "related",
+      "target_id": "05335_warizan",
+      "reading": "わりざん",
+      "headword": "{割|わ}り{算|ざん}",
+      "label": "division"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-08T01:16:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
