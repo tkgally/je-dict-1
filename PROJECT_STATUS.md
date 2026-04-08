@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 45)
+Added 30 new dictionary entries (IDs 23018-23047) from candidate_words.json. A diverse mix of nouns, expressions, and cultural terms covering language, safety, culture, society, science, sports, food, philosophy, and daily life.
+
+- **Nouns (22)**: {含蓄|がんちく} (implication/depth), {刀剣|とうけん} (swords), {過疎地|かそち} (depopulated area), {同胞|どうほう} (compatriots), {月報|げっぽう} (monthly report), {浮力|ふりょく} (buoyancy), {場外|じょうがい} (outside the venue), {邸|てい} (mansion), {御朱印帳|ごしゅいんちょう} (stamp book), {失|う}せ{物|もの} (lost article), {統治者|とうちしゃ} (ruler), ひねくれ{者|もの} (contrarian), {消毒薬|しょうどくやく} (disinfectant), {工賃|こうちん} (labor cost), {予想違|よそうちが}い (wrong prediction), レモン{汁|じる} (lemon juice), {上段|じょうだん} (upper level), {鑑定書|かんていしょ} (appraisal certificate), {仁|じん} (benevolence), {拾得物|しゅうとくぶつ} (found property), {飲|の}み{屋街|やがい} (bar district), {藍染|あいぞ}め (indigo dyeing)
+- **Noun/suru verbs (6)**: {防護|ぼうご} (protection), {卒倒|そっとう} (fainting), {残存|ざんぞん} (remaining), {固着|こちゃく} (fixation), {代走|だいそう} (pinch runner), {長期滞在|ちょうきたいざい} (long-term stay)
+- **Adverb (1)**: {年毎|としごと} (year by year)
+- **Expression (1)**: {口先|くちさき}だけ (all talk)
+- Added 1 new kanji to index: 仁 (benevolence)
+
 ### 2026-04-08 (Vocabulary Expansion - 29 New Entries, Session 44)
 Added 29 new dictionary entries (IDs 22988-23017) from candidate_words.json. A practical mix of suru verbs, expressions, and nouns covering daily life, communication, nature, commerce, culture, and more.
 
@@ -87,18 +96,6 @@ Added 20 new dictionary entries (IDs 22914-22933) from candidate_words.json. A d
 - **Expressions (2)**: {看板倒|かんばんだお}れ (all show no substance), {面|つら}の{皮|かわ}が{厚|あつ}い (shameless)
 - **Adverb (1)**: {暫時|ざんじ} (for a while)
 - **Expression (verb-like) (1)**: {息|いき}を{切|き}らす (to be out of breath)
-
-### 2026-04-07 (Vocabulary Expansion - 25 New Entries, Session 40)
-Added 25 new dictionary entries (IDs 22889-22913) from candidate_words.json. A practical mix of expressions, nouns, and an adverb covering daily life, culture, business, health, society, and more.
-
-- **Nouns (17)**: {詰|つ}め{替|か}え{用|よう} (refill), {稼|かせ}ぎ{頭|がしら} (top earner), {髭剃|ひげそ}り (razor), {観衆|かんしゅう} (spectators), {卓上|たくじょう} (tabletop), {大入|おおい}り (full house), {会員証|かいいんしょう} (membership card), {経過|けいか}{報告|ほうこく} (progress report), こげ{茶色|ちゃいろ} (dark brown), {共働|ともばたら}き{世帯|せたい} (dual-income household), {汗|あせ}まみれ (soaked in sweat), {健康|けんこう}{増進|ぞうしん} (health promotion), {自虐|じぎゃく}ネタ (self-deprecating joke), {家|いえ}ごもり (staying home), {修正|しゅうせい}テープ (correction tape), {業務|ぎょうむ}{提携|ていけい} (business alliance), {加入者|かにゅうしゃ} (subscriber)
-- **Noun/suru verbs (3)**: {初出演|はつしゅつえん} (debut appearance), {新生|しんせい} (rebirth), {読経|どきょう} (sutra chanting)
-- **Nouns with legal/medical usage (1)**: {傷害|しょうがい} (injury/assault)
-- **Expressions (2)**: {切|き}りがない (endless), {糠|ぬか}に{釘|くぎ} (futile effort)
-- **Adverb/onomatopoeia (1)**: しゃきっと (crisply/alertly)
-- **Other (1)**: {家族|かぞく}ぐるみ (whole-family involvement)
-- Removed 3 stale candidates (duplicates: ブレ, 詰問, 口伝え)
-- New kanji: 髭 (beard, ID 02663)
 
 
 
