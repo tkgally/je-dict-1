@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 48)
+Added 30 new dictionary entries (IDs 23108-23137) from candidate_words.json. A diverse mix of nouns, expressions, adjectives, adverbs, and verbs covering society, language, medicine, culture, travel, personality, and daily life.
+
+- **Nouns (12)**: {暴走族|ぼうそうぞく} (motorcycle gang), {連盟|れんめい} (league/federation), {支配者|しはいしゃ} (ruler), {臆病者|おくびょうもの} (coward), {発疹|ほっしん} (rash), {白血球|はっけっきゅう} (white blood cell), {用語集|ようごしゅう} (glossary), {土産物|みやげもの} (souvenir goods), {土産話|みやげばなし} (travel stories), {賓客|ひんきゃく} (honored guest), {加盟店|かめいてん} (member store), {真面目|まじめ}さ (seriousness)
+- **Noun/suru verbs (2)**: {脱落|だつらく} (dropout/omission), {待|ま}ち{伏|ぶ}せ (ambush)
+- **Na-adjectives (2)**: {不適当|ふてきとう} (inappropriate), {自由奔放|じゆうほんぽう} (free and unrestrained)
+- **I-adjective (1)**: {真面目|まじめ}くさい (overly serious)
+- **Expressions/verbs (4)**: {口|くち}を{閉|と}ざす (to clam up), {余韻|よいん}が{残|のこ}る (resonance lingers), {記憶|きおく}が{薄|うす}れる (memory fades), {罪|つみ}を{被|かぶ}せる (to frame someone)
+- **Adverbs (3)**: {都合|つごう}よく (conveniently), {直前|ちょくぜん}に (immediately before), {適切|てきせつ}に (appropriately)
+- **Loanwords (2)**: ホワイトボード (whiteboard), モーター (motor)
+- **Verb (1)**: {向上|こうじょう}させる (to improve/enhance)
+- **Other noun (1)**: {誤植|ごしょく} (misprint/typo), {前掛|まえか}け (traditional apron), {田園|でんえん} (countryside/pastoral)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 47)
 Added 30 new dictionary entries (IDs 23078-23107) from candidate_words.json. A diverse mix of loanwords, compound nouns, cultural terms, and adjectives covering daily life, food, sports, body, culture, science, weather, and business.
 
@@ -88,16 +101,6 @@ Added 29 new dictionary entries (IDs 22988-23017) from candidate_words.json. A p
 - **Nouns (12)**: {戦線|せんせん} (front line), {乙|おつ} (second rank/nice), {峰|みね} (peak), {札|ふだ} (tag/card), {筋立|すじた}て (plot/storyline), ビリ (last place), {羅針盤|らしんばん} (compass), {敵陣|てきじん} (enemy camp), {語義|ごぎ} (word meaning), {折|お}れ{線|せん} (broken line), アトピー (atopy), {下弦|かげん} (last quarter moon), {月齢|げつれい} (moon age), {徳|とく} (virtue), {壇|だん} (platform)
 - Removed 1 stale candidate (格式高い — duplicate of 21042)
 
-### 2026-04-08 (Vocabulary Expansion - 24 New Entries, Session 43)
-Added 24 new dictionary entries (IDs 22964-22987) from candidate_words.json. A diverse mix of nouns, verbs, adjectives, and expressions covering politics, culture, food, geography, competition, and language.
-
-- **Nouns (11)**: {導入部|どうにゅうぶ} (introduction/opening section), {何倍|なんばい} (how many fold), {素案|そあん} (rough draft), {燭台|しょくだい} (candlestick), {第二言語|だいにげんご} (second language), ごま{塩|しお} (sesame salt), {在野|ざいや} (out of office/independent), {中距離|ちゅうきょり} (medium distance), {無党派|むとうは} (nonpartisan), {南欧|なんおう} (Southern Europe), {下方|かほう} (lower part/downward)
-- **Nouns with adjective-no usage (3)**: {異国風|いこくふう} (foreign/exotic style), {無党派|むとうは} (nonpartisan), {中距離|ちゅうきょり}
-- **Noun/suru verbs (3)**: {和睦|わぼく} (reconciliation), {策謀|さくぼう} (plot/intrigue), {身|み}じろぎ (stirring/fidgeting)
-- **Verbs (3)**: かじりつく (to bite into/cling to), {勝|か}ち{抜|ぬ}く (to win through), {並外|なみはず}れる (to be exceptional)
-- **Na-adjectives (3)**: {急進的|きゅうしんてき} (radical/progressive), {概括的|がいかつてき} (general/broad), {不徹底|ふてってい} (incomplete/halfhearted)
-- **Other (2)**: {誰彼|だれかれ} (anyone and everyone), {折|おり}を{見|み}て (when the time comes)
-- Removed 1 stale candidate (いとしむ — duplicate of 愛しむ, ID 22360)
 
 
 
