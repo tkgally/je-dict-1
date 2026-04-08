@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 46)
+Added 30 new dictionary entries (IDs 23048-23077) from candidate_words.json. A diverse mix of nouns, suru verbs, adverbs, and onomatopoeia covering daily life, culture, food, education, legal/business, nature, and people.
+
+- **Nouns (17)**: {合羽|かっぱ} (raincoat), お{香|こう} (incense), {草花|くさばな} (flowers and grasses), {遊|あそ}び{場|ば} (playground), {空|あ}き{缶|かん} (empty can), {細道|ほそみち} (narrow path), {著名人|ちょめいじん} (celebrity), {香気|こうき} (fragrance), {外套|がいとう} (overcoat), {市区町村|しくちょうそん} (municipalities), {災厄|さいやく} (calamity), {合挽|あいび}き (mixed ground meat), {甘酢漬|あまずづ}け (sweet vinegar pickle), {維持費|いじひ} (maintenance cost), {案内係|あんないがかり} (guide), {足裏|あしうら} (sole of the foot), {合意書|ごういしょ} (agreement), {大金持|おおがねも}ち (rich person), ニュータウン (new town)
+- **Noun/suru verbs (8)**: {委任|いにん} (delegation), {指南|しなん} (instruction), {相似|そうじ} (similarity), {制圧|せいあつ} (suppression), アニメ{化|か} (anime adaptation), {依拠|いきょ} (reliance), {講読|こうどく} (text study), {小口切|こぐちぎ}り (thin slicing)
+- **Adverbs/onomatopoeia (2)**: きょとんと (blankly/puzzledly), あんぐり (gaping wide open)
+- **Other (1)**: {悪行|あくぎょう} (evil deed)
+- Added 1 new kanji to index: 套 (sheath)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 45)
 Added 30 new dictionary entries (IDs 23018-23047) from candidate_words.json. A diverse mix of nouns, expressions, and cultural terms covering language, safety, culture, society, science, sports, food, philosophy, and daily life.
 
@@ -88,14 +97,6 @@ Added 30 new dictionary entries (IDs 22934-22963) from candidate_words.json. A d
 - **Pronouns/Adverbs (2)**: どれも (pronoun), どこにでも (everywhere), {御方|おかた} (person, honorific)
 - Removed 7 stale candidates (duplicates: 切り抜き, 上書き保存, 熟す, 何方, 邪魔をする, ましだ, 激高)
 
-### 2026-04-07 (Vocabulary Expansion - 20 New Entries, Session 41)
-Added 20 new dictionary entries (IDs 22914-22933) from candidate_words.json. A diverse mix of nouns, expressions, and an adverb covering culture, biology, food, business, law, medicine, and daily life.
-
-- **Nouns (14)**: {生誕|せいたん} (birth/nativity), {被験者|ひけんしゃ} (test subject), {館長|かんちょう} (museum director), {歯科医院|しかいいん} (dental clinic), {特賞|とくしょう} (special prize), {違法駐車|いほうちゅうしゃ} (illegal parking), {事業計画|じぎょうけいかく} (business plan), {旅行者|りょこうしゃ} (traveler), {応募書類|おうぼしょるい} (application documents), {氷砂糖|こおりざとう} (rock sugar), {自然環境|しぜんかんきょう} (natural environment), カプセル (capsule)
-- **Noun/suru verbs (3)**: {発刊|はっかん} (publishing), {交尾|こうび} (mating), {増改築|ぞうかいちく} (renovation and expansion)
-- **Expressions (2)**: {看板倒|かんばんだお}れ (all show no substance), {面|つら}の{皮|かわ}が{厚|あつ}い (shameless)
-- **Adverb (1)**: {暫時|ざんじ} (for a while)
-- **Expression (verb-like) (1)**: {息|いき}を{切|き}らす (to be out of breath)
 
 
 
