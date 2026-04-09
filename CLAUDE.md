@@ -39,6 +39,7 @@ build/            # Python build, validation, and utility scripts
   build/assemble_learner_scenarios.py  # Assembles per-category files into learner_scenarios.json
   build/analyze_scenarios.py           # Scenario-based vocabulary gap analysis
   build/coverage_utils.py             # Shared lookup utilities for coverage auditing
+  build/review_runner.py              # Multi-model furigana review via OpenRouter API
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 planning/         # Project knowledge base and planning
@@ -58,6 +59,9 @@ enhancement/      # Long-term enhancement plan and implementation prompts
   enhancement/enhancement-plan-2026-04-09.md  # Comprehensive enhancement plan
   enhancement/prompts/                        # Step-by-step implementation prompts (16 phases)
   enhancement/prompts/README.md               # Master guide, metaprompts, and sequencing
+reviews/          # Multi-model review reports (furigana correctness)
+  reviews/calibration_report.md  # Phase 1 calibration results
+  reviews/{entry_id}.json        # Per-entry review reports
 candidate_words.json   # Words queued for future entry creation
 entries_index.json     # Master index of all entries (rebuilt by update_indexes.py)
 build/word_id_lookup.json  # Pre-built word→entry_id map (for inline link lookups)
@@ -176,6 +180,13 @@ python3 build/audit_tiers.py                    # Tier summary statistics
 python3 build/audit_tiers.py --tier basic       # Basic tier breakdown
 python3 build/audit_tiers.py --outliers         # Flag potential misclassifications
 python3 build/audit_tiers.py --tier basic --list | head -30  # List basic entries
+
+# Multi-model review (requires OPENROUTER_API_KEY)
+python3 build/review_runner.py --range START END       # Review entries in ID range
+python3 build/review_runner.py --ids ID1,ID2,...       # Review specific entries
+python3 build/review_runner.py --dry-run --range 1 10  # Preview prompts without sending
+python3 build/review_runner.py --model openai/gpt-4.1  # Test with one model
+python3 build/review_runner.py --report                # Summarize review results
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
