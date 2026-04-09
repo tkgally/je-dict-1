@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters
 
 validate:
 	python3 build/validate.py
@@ -35,5 +35,11 @@ clean:
 
 note-scores:
 	python3 build/score_note_quality.py --summary
+
+check-symmetry:
+	python3 build/find_merge_candidates.py --asymmetry-only
+
+check-clusters:
+	python3 build/check_semantic_clusters.py --summary
 
 full: clean build

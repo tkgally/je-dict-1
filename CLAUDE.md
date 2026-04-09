@@ -26,6 +26,7 @@ build/            # Python build, validation, and utility scripts
   build/add_conjugations.py      # Add full conjugation tables to verb entries
   build/add_adjective_conjugations.py  # Add conjugation tables to i-adjective entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
+  build/check_semantic_clusters.py # Lint transitivity/antonym/keigo clusters for missing links
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 planning/         # Project knowledge base and planning
@@ -122,6 +123,9 @@ python3 build/manage_candidates.py stats                          # Show candida
 python3 build/find_merge_candidates.py              # Full report: merges, cross-refs, dup IDs
 python3 build/find_merge_candidates.py --merge-only # Only potential merges
 python3 build/find_merge_candidates.py --json       # Machine-readable output
+python3 build/find_merge_candidates.py --asymmetry-only  # Asymmetric cross-reference report
+python3 build/check_semantic_clusters.py                  # Lint transitivity/antonym/keigo clusters
+python3 build/check_semantic_clusters.py --summary        # Cluster completeness summary
 
 # Verb transitivity
 python3 build/find_missing_transitivity.py              # Report on verbs missing transitivity data
@@ -146,6 +150,8 @@ make check-kanji                          # verify kanji index integrity
 make stats                                # tag statistics
 make word-lookup                          # rebuild word_id_lookup.json
 make note-scores                          # note quality score distribution
+make check-symmetry                       # asymmetric cross-reference report
+make check-clusters                       # semantic cluster completeness summary
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).

@@ -126,6 +126,50 @@ python3 build/verify_furigana.py ENTRY_ID
 
 Fix any missing furigana before continuing.
 
+## Cluster Mode (Alternative Workflow)
+
+Instead of processing entries one at a time by sequential ID, you can process **semantic clusters together**. This is more efficient for ensuring symmetric linking because you handle both sides of a relationship in the same batch.
+
+### When to use Cluster Mode
+
+Use cluster mode when:
+- The asymmetry report shows many one-way references: `python3 build/find_merge_candidates.py --asymmetry-only`
+- The cluster linter flags incomplete groups: `python3 build/check_semantic_clusters.py`
+- You want to focus on a specific relationship type (transitivity, antonyms, keigo)
+
+### Cluster Mode Workflow
+
+1. **Generate a cluster report**:
+   ```bash
+   python3 build/check_semantic_clusters.py --type transitivity
+   # or: --type antonym, --type keigo
+   ```
+
+2. **Pick a cluster** from the report (e.g., a transitivity pair with a missing link).
+
+3. **Load all entries in the cluster** simultaneously (typically 2-5 entries):
+   - Read each entry's full JSON
+   - Map out all existing cross-references between cluster members
+
+4. **Fix all links within the cluster**:
+   - Add missing `prominent_see_also` links (transitivity pairs, homophones)
+   - Add missing `cross_references` links (antonyms, keigo)
+   - Ensure every link is bidirectional where required
+   - Normalize relationship labels across the cluster (e.g., both sides of an antonym pair should use the same label format)
+
+5. **Update timestamps** on all modified entries.
+
+6. **Move to the next cluster** from the report.
+
+### Cluster size guidelines
+
+- **Transitivity pairs**: 2 entries per cluster
+- **Antonym pairs**: 2 entries per cluster
+- **Keigo groups**: 2-5 entries per cluster (plain + honorific + humble + any variants)
+- **Homophone groups**: 2-4 entries per cluster
+
+Process 5-10 clusters per commit batch (roughly 10-20 entries total).
+
 ## Batch Commits
 
 After every 10-15 entries:
@@ -186,6 +230,7 @@ Report:
 5. Number of references fixed or migrated
 6. Next entry to continue from
 7. Estimated remaining general tier entries
+8. If using cluster mode: number of clusters processed, cluster types
 
 ## PR and Merge Workflow
 
