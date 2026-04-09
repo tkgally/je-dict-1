@@ -104,6 +104,11 @@ Run make quick to validate entries, update indexes, and rebuild only changed ent
 Read PROJECT_CONTEXT_BRIEF.md and summarize the current state of the dictionary.
 ```
 
+### Audit vocabulary tiers
+```
+Read prompts/audit_vocabulary_tiers.md and follow the instructions to review vocabulary tier assignments and produce a reassessment report.
+```
+
 ### Consolidate entries (merge duplicates/variants)
 ```
 Read prompts/consolidate_entries.md and follow the instructions to find and merge duplicate or variant entries.

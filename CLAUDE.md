@@ -31,6 +31,7 @@ build/            # Python build, validation, and utility scripts
   build/data/semantic_fields.json   # Semantic field definitions for coverage auditing (generated)
   build/data/semantic_fields/       # Per-category source files for semantic fields
   build/assemble_semantic_fields.py # Assembles per-category files into semantic_fields.json
+  build/audit_tiers.py              # Vocabulary tier analysis and outlier detection
   build/audit_semantic_field.py     # Semantic field coverage audit
   build/data/learner_scenarios.json    # Learner scenario definitions for gap analysis (generated)
   build/data/learner_scenarios/        # Per-category source files for learner scenarios
@@ -164,6 +165,12 @@ python3 build/analyze_scenarios.py --scenario SCENARIO_ID  # Analyze one scenari
 python3 build/analyze_scenarios.py --top-gaps 20           # Highest-impact missing words
 python3 build/analyze_scenarios.py --add-candidates        # Add missing words as candidates
 
+# Vocabulary tier analysis
+python3 build/audit_tiers.py                    # Tier summary statistics
+python3 build/audit_tiers.py --tier basic       # Basic tier breakdown
+python3 build/audit_tiers.py --outliers         # Flag potential misclassifications
+python3 build/audit_tiers.py --tier basic --list | head -30  # List basic entries
+
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build
@@ -183,6 +190,7 @@ make audit-fields                         # semantic field coverage overview
 make assemble-fields                      # reassemble semantic_fields.json from per-category files
 make audit-scenarios                      # scenario coverage overview
 make assemble-scenarios                   # reassemble learner_scenarios.json from per-category files
+make audit-tiers                          # vocabulary tier outlier detection
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).
@@ -240,6 +248,9 @@ Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (fo
 **Polishing priority**: Polishing tasks can optionally process entries in priority order (worst first) instead of sequentially by ID. Run `make priorities` to generate priority files in `polishing/priority/`. Polishing prompts automatically detect and use these files when present. Without priority files, prompts fall back to sequential processing.
 
 **Session log standard**: All polishing sessions should write a structured log to `polishing/sessions/{task}_{date}_{nnn}.md` when finishing. The log should include: date, entry range processed, list of changes made, any notes, and the next entry number. See existing logs in `polishing/sessions/` for examples.
+
+**Auditing:**
+- `audit_vocabulary_tiers.md` — periodic tier reassessment audit (produces report, no automatic changes)
 
 **Knowledge base:**
 - `planning/maintain-knowledge-base.md` — maintain and expand the project knowledge base wiki (nightly cron or manual)
