@@ -48,6 +48,23 @@ These patterns require editorial judgment - the automatic check won't catch them
 - **Okurigana variations**: 行なう vs 行う, 現われる vs 現れる - same word, different spellings
 - **Prefix/suffix forms**: Check if 大～ or ～的 forms warrant separate entries
 
+## Discovery Strategies
+
+In addition to brainstorming, you can use the semantic field audit to identify systematic gaps:
+
+```bash
+# See which semantic fields have the lowest coverage
+python3 build/audit_semantic_field.py --below 60 --summary
+
+# Get missing words for a specific field
+python3 build/audit_semantic_field.py --field FIELD_ID --candidates
+
+# Directly add missing words as candidates (high+medium priority)
+python3 build/audit_semantic_field.py --field FIELD_ID --add-candidates
+```
+
+This is especially useful for finding vocabulary gaps in specialized domains (medical, legal, academic) that brainstorming tends to miss.
+
 ## Selection Approach
 
 ### Quality Over Quantity

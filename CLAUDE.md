@@ -27,6 +27,11 @@ build/            # Python build, validation, and utility scripts
   build/add_adjective_conjugations.py  # Add conjugation tables to i-adjective entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
   build/check_semantic_clusters.py # Lint transitivity/antonym/keigo clusters for missing links
+  build/data/                 # Static data files (semantic fields, scenarios, etc.)
+  build/data/semantic_fields.json   # Semantic field definitions for coverage auditing (generated)
+  build/data/semantic_fields/       # Per-category source files for semantic fields
+  build/assemble_semantic_fields.py # Assembles per-category files into semantic_fields.json
+  build/audit_semantic_field.py     # Semantic field coverage audit
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 planning/         # Project knowledge base and planning
@@ -142,6 +147,12 @@ python3 build/prioritize_polishing.py             # Generate polishing priority 
 python3 build/prioritize_polishing.py --summary    # Priority statistics without writing files
 python3 build/prioritize_polishing.py --task notes # Generate priority for one task only
 
+# Semantic field coverage
+python3 build/audit_semantic_field.py --summary          # Coverage overview for all fields
+python3 build/audit_semantic_field.py --field FIELD_ID    # Audit one field
+python3 build/audit_semantic_field.py --below 50          # Fields with poor coverage
+python3 build/audit_semantic_field.py --add-candidates    # Add missing words as candidates
+
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build
@@ -157,6 +168,8 @@ make note-scores                          # note quality score distribution
 make check-symmetry                       # asymmetric cross-reference report
 make check-clusters                       # semantic cluster completeness summary
 make priorities                           # generate polishing priority lists
+make audit-fields                         # semantic field coverage overview
+make assemble-fields                      # reassemble semantic_fields.json from per-category files
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).

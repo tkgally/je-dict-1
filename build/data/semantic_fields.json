@@ -1,0 +1,7726 @@
+{
+  "version": "1.0",
+  "description": "Semantic field definitions for dictionary coverage auditing",
+  "fields": [
+    {
+      "id": "colors",
+      "name": "Colors",
+      "description": "Basic and common color terms including i-adjective and noun forms",
+      "expected_words": [
+        {
+          "word": "赤い",
+          "reading": "あかい",
+          "gloss": "red",
+          "priority": "high"
+        },
+        {
+          "word": "青い",
+          "reading": "あおい",
+          "gloss": "blue",
+          "priority": "high"
+        },
+        {
+          "word": "白い",
+          "reading": "しろい",
+          "gloss": "white",
+          "priority": "high"
+        },
+        {
+          "word": "黒い",
+          "reading": "くろい",
+          "gloss": "black",
+          "priority": "high"
+        },
+        {
+          "word": "黄色い",
+          "reading": "きいろい",
+          "gloss": "yellow",
+          "priority": "high"
+        },
+        {
+          "word": "緑",
+          "reading": "みどり",
+          "gloss": "green",
+          "priority": "high"
+        },
+        {
+          "word": "茶色",
+          "reading": "ちゃいろ",
+          "gloss": "brown",
+          "priority": "medium"
+        },
+        {
+          "word": "灰色",
+          "reading": "はいいろ",
+          "gloss": "gray",
+          "priority": "medium"
+        },
+        {
+          "word": "紫",
+          "reading": "むらさき",
+          "gloss": "purple",
+          "priority": "medium"
+        },
+        {
+          "word": "水色",
+          "reading": "みずいろ",
+          "gloss": "light blue",
+          "priority": "medium"
+        },
+        {
+          "word": "オレンジ",
+          "reading": "おれんじ",
+          "gloss": "orange (color)",
+          "priority": "medium"
+        },
+        {
+          "word": "ピンク",
+          "reading": "ぴんく",
+          "gloss": "pink",
+          "priority": "medium"
+        },
+        {
+          "word": "金色",
+          "reading": "きんいろ",
+          "gloss": "gold (color)",
+          "priority": "low"
+        },
+        {
+          "word": "銀色",
+          "reading": "ぎんいろ",
+          "gloss": "silver (color)",
+          "priority": "low"
+        },
+        {
+          "word": "色",
+          "reading": "いろ",
+          "gloss": "color",
+          "priority": "high"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "time_expressions",
+      "name": "Time Expressions",
+      "description": "Words for expressing time, temporal order, and duration",
+      "expected_words": [
+        {
+          "word": "今",
+          "reading": "いま",
+          "gloss": "now",
+          "priority": "high"
+        },
+        {
+          "word": "前",
+          "reading": "まえ",
+          "gloss": "before; in front",
+          "priority": "high"
+        },
+        {
+          "word": "後",
+          "reading": "あと",
+          "gloss": "after; later",
+          "priority": "high"
+        },
+        {
+          "word": "朝",
+          "reading": "あさ",
+          "gloss": "morning",
+          "priority": "high"
+        },
+        {
+          "word": "昼",
+          "reading": "ひる",
+          "gloss": "noon; daytime",
+          "priority": "high"
+        },
+        {
+          "word": "夜",
+          "reading": "よる",
+          "gloss": "night",
+          "priority": "high"
+        },
+        {
+          "word": "夕方",
+          "reading": "ゆうがた",
+          "gloss": "evening",
+          "priority": "high"
+        },
+        {
+          "word": "今日",
+          "reading": "きょう",
+          "gloss": "today",
+          "priority": "high"
+        },
+        {
+          "word": "明日",
+          "reading": "あした",
+          "gloss": "tomorrow",
+          "priority": "high"
+        },
+        {
+          "word": "昨日",
+          "reading": "きのう",
+          "gloss": "yesterday",
+          "priority": "high"
+        },
+        {
+          "word": "来週",
+          "reading": "らいしゅう",
+          "gloss": "next week",
+          "priority": "high"
+        },
+        {
+          "word": "先週",
+          "reading": "せんしゅう",
+          "gloss": "last week",
+          "priority": "high"
+        },
+        {
+          "word": "来月",
+          "reading": "らいげつ",
+          "gloss": "next month",
+          "priority": "high"
+        },
+        {
+          "word": "先月",
+          "reading": "せんげつ",
+          "gloss": "last month",
+          "priority": "high"
+        },
+        {
+          "word": "来年",
+          "reading": "らいねん",
+          "gloss": "next year",
+          "priority": "high"
+        },
+        {
+          "word": "去年",
+          "reading": "きょねん",
+          "gloss": "last year",
+          "priority": "high"
+        },
+        {
+          "word": "最近",
+          "reading": "さいきん",
+          "gloss": "recently",
+          "priority": "high"
+        },
+        {
+          "word": "将来",
+          "reading": "しょうらい",
+          "gloss": "future",
+          "priority": "medium"
+        },
+        {
+          "word": "過去",
+          "reading": "かこ",
+          "gloss": "past",
+          "priority": "medium"
+        },
+        {
+          "word": "現在",
+          "reading": "げんざい",
+          "gloss": "present; current",
+          "priority": "medium"
+        },
+        {
+          "word": "一昨日",
+          "reading": "おととい",
+          "gloss": "day before yesterday",
+          "priority": "medium"
+        },
+        {
+          "word": "明後日",
+          "reading": "あさって",
+          "gloss": "day after tomorrow",
+          "priority": "medium"
+        },
+        {
+          "word": "再来週",
+          "reading": "さらいしゅう",
+          "gloss": "week after next",
+          "priority": "low"
+        },
+        {
+          "word": "夜中",
+          "reading": "よなか",
+          "gloss": "middle of the night",
+          "priority": "medium"
+        },
+        {
+          "word": "午前",
+          "reading": "ごぜん",
+          "gloss": "morning; AM",
+          "priority": "high"
+        },
+        {
+          "word": "午後",
+          "reading": "ごご",
+          "gloss": "afternoon; PM",
+          "priority": "high"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "directions_location",
+      "name": "Directions and Location",
+      "description": "Spatial directions, positions, and location words",
+      "expected_words": [
+        {
+          "word": "上",
+          "reading": "うえ",
+          "gloss": "above; on top",
+          "priority": "high"
+        },
+        {
+          "word": "下",
+          "reading": "した",
+          "gloss": "below; under",
+          "priority": "high"
+        },
+        {
+          "word": "右",
+          "reading": "みぎ",
+          "gloss": "right",
+          "priority": "high"
+        },
+        {
+          "word": "左",
+          "reading": "ひだり",
+          "gloss": "left",
+          "priority": "high"
+        },
+        {
+          "word": "中",
+          "reading": "なか",
+          "gloss": "inside; middle",
+          "priority": "high"
+        },
+        {
+          "word": "外",
+          "reading": "そと",
+          "gloss": "outside",
+          "priority": "high"
+        },
+        {
+          "word": "北",
+          "reading": "きた",
+          "gloss": "north",
+          "priority": "high"
+        },
+        {
+          "word": "南",
+          "reading": "みなみ",
+          "gloss": "south",
+          "priority": "high"
+        },
+        {
+          "word": "東",
+          "reading": "ひがし",
+          "gloss": "east",
+          "priority": "high"
+        },
+        {
+          "word": "西",
+          "reading": "にし",
+          "gloss": "west",
+          "priority": "high"
+        },
+        {
+          "word": "隣",
+          "reading": "となり",
+          "gloss": "next to; adjacent",
+          "priority": "high"
+        },
+        {
+          "word": "向こう",
+          "reading": "むこう",
+          "gloss": "other side; over there",
+          "priority": "medium"
+        },
+        {
+          "word": "手前",
+          "reading": "てまえ",
+          "gloss": "this side; before",
+          "priority": "medium"
+        },
+        {
+          "word": "奥",
+          "reading": "おく",
+          "gloss": "interior; back; deep inside",
+          "priority": "medium"
+        },
+        {
+          "word": "周り",
+          "reading": "まわり",
+          "gloss": "surroundings; around",
+          "priority": "medium"
+        },
+        {
+          "word": "近く",
+          "reading": "ちかく",
+          "gloss": "nearby",
+          "priority": "high"
+        },
+        {
+          "word": "遠く",
+          "reading": "とおく",
+          "gloss": "far away",
+          "priority": "medium"
+        },
+        {
+          "word": "間",
+          "reading": "あいだ",
+          "gloss": "between; interval",
+          "priority": "high"
+        },
+        {
+          "word": "横",
+          "reading": "よこ",
+          "gloss": "side; horizontal",
+          "priority": "medium"
+        },
+        {
+          "word": "縦",
+          "reading": "たて",
+          "gloss": "vertical; lengthwise",
+          "priority": "low"
+        },
+        {
+          "word": "表",
+          "reading": "おもて",
+          "gloss": "front; surface",
+          "priority": "medium"
+        },
+        {
+          "word": "裏",
+          "reading": "うら",
+          "gloss": "back; reverse side",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "numbers_counting",
+      "name": "Numbers and Counting",
+      "description": "Number words, counters, and quantity expressions",
+      "expected_words": [
+        {
+          "word": "数",
+          "reading": "かず",
+          "gloss": "number; quantity",
+          "priority": "high"
+        },
+        {
+          "word": "半分",
+          "reading": "はんぶん",
+          "gloss": "half",
+          "priority": "high"
+        },
+        {
+          "word": "倍",
+          "reading": "ばい",
+          "gloss": "double; times",
+          "priority": "medium"
+        },
+        {
+          "word": "全部",
+          "reading": "ぜんぶ",
+          "gloss": "all; everything",
+          "priority": "high"
+        },
+        {
+          "word": "全体",
+          "reading": "ぜんたい",
+          "gloss": "whole; entire",
+          "priority": "medium"
+        },
+        {
+          "word": "一部",
+          "reading": "いちぶ",
+          "gloss": "part; portion",
+          "priority": "medium"
+        },
+        {
+          "word": "多い",
+          "reading": "おおい",
+          "gloss": "many; numerous",
+          "priority": "high"
+        },
+        {
+          "word": "少ない",
+          "reading": "すくない",
+          "gloss": "few; scarce",
+          "priority": "high"
+        },
+        {
+          "word": "足りる",
+          "reading": "たりる",
+          "gloss": "to be sufficient",
+          "priority": "medium"
+        },
+        {
+          "word": "余る",
+          "reading": "あまる",
+          "gloss": "to be left over",
+          "priority": "medium"
+        },
+        {
+          "word": "増える",
+          "reading": "ふえる",
+          "gloss": "to increase",
+          "priority": "high"
+        },
+        {
+          "word": "減る",
+          "reading": "へる",
+          "gloss": "to decrease",
+          "priority": "high"
+        },
+        {
+          "word": "数える",
+          "reading": "かぞえる",
+          "gloss": "to count",
+          "priority": "medium"
+        },
+        {
+          "word": "約",
+          "reading": "やく",
+          "gloss": "approximately",
+          "priority": "medium"
+        },
+        {
+          "word": "以上",
+          "reading": "いじょう",
+          "gloss": "more than; above",
+          "priority": "high"
+        },
+        {
+          "word": "以下",
+          "reading": "いか",
+          "gloss": "less than; below",
+          "priority": "high"
+        },
+        {
+          "word": "以内",
+          "reading": "いない",
+          "gloss": "within",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "shapes_dimensions",
+      "name": "Shapes and Dimensions",
+      "description": "Shape names, dimensions, and spatial properties",
+      "expected_words": [
+        {
+          "word": "丸い",
+          "reading": "まるい",
+          "gloss": "round; circular",
+          "priority": "high"
+        },
+        {
+          "word": "四角い",
+          "reading": "しかくい",
+          "gloss": "square; rectangular",
+          "priority": "medium"
+        },
+        {
+          "word": "丸",
+          "reading": "まる",
+          "gloss": "circle",
+          "priority": "medium"
+        },
+        {
+          "word": "線",
+          "reading": "せん",
+          "gloss": "line",
+          "priority": "high"
+        },
+        {
+          "word": "角",
+          "reading": "かど",
+          "gloss": "corner; angle",
+          "priority": "medium"
+        },
+        {
+          "word": "形",
+          "reading": "かたち",
+          "gloss": "shape; form",
+          "priority": "high"
+        },
+        {
+          "word": "大きさ",
+          "reading": "おおきさ",
+          "gloss": "size",
+          "priority": "high"
+        },
+        {
+          "word": "長さ",
+          "reading": "ながさ",
+          "gloss": "length",
+          "priority": "medium"
+        },
+        {
+          "word": "高さ",
+          "reading": "たかさ",
+          "gloss": "height",
+          "priority": "medium"
+        },
+        {
+          "word": "幅",
+          "reading": "はば",
+          "gloss": "width",
+          "priority": "medium"
+        },
+        {
+          "word": "深さ",
+          "reading": "ふかさ",
+          "gloss": "depth",
+          "priority": "medium"
+        },
+        {
+          "word": "太い",
+          "reading": "ふとい",
+          "gloss": "thick; fat",
+          "priority": "medium"
+        },
+        {
+          "word": "細い",
+          "reading": "ほそい",
+          "gloss": "thin; narrow",
+          "priority": "medium"
+        },
+        {
+          "word": "平ら",
+          "reading": "たいら",
+          "gloss": "flat; level",
+          "priority": "low"
+        },
+        {
+          "word": "真っ直ぐ",
+          "reading": "まっすぐ",
+          "gloss": "straight",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "size_weight",
+      "name": "Size and Weight",
+      "description": "Words describing size, weight, and physical magnitude",
+      "expected_words": [
+        {
+          "word": "大きい",
+          "reading": "おおきい",
+          "gloss": "big; large",
+          "priority": "high"
+        },
+        {
+          "word": "小さい",
+          "reading": "ちいさい",
+          "gloss": "small; little",
+          "priority": "high"
+        },
+        {
+          "word": "長い",
+          "reading": "ながい",
+          "gloss": "long",
+          "priority": "high"
+        },
+        {
+          "word": "短い",
+          "reading": "みじかい",
+          "gloss": "short",
+          "priority": "high"
+        },
+        {
+          "word": "高い",
+          "reading": "たかい",
+          "gloss": "tall; high; expensive",
+          "priority": "high"
+        },
+        {
+          "word": "低い",
+          "reading": "ひくい",
+          "gloss": "low; short (height)",
+          "priority": "high"
+        },
+        {
+          "word": "広い",
+          "reading": "ひろい",
+          "gloss": "wide; spacious",
+          "priority": "high"
+        },
+        {
+          "word": "狭い",
+          "reading": "せまい",
+          "gloss": "narrow; cramped",
+          "priority": "high"
+        },
+        {
+          "word": "重い",
+          "reading": "おもい",
+          "gloss": "heavy",
+          "priority": "high"
+        },
+        {
+          "word": "軽い",
+          "reading": "かるい",
+          "gloss": "light (weight)",
+          "priority": "high"
+        },
+        {
+          "word": "深い",
+          "reading": "ふかい",
+          "gloss": "deep",
+          "priority": "medium"
+        },
+        {
+          "word": "浅い",
+          "reading": "あさい",
+          "gloss": "shallow",
+          "priority": "medium"
+        },
+        {
+          "word": "厚い",
+          "reading": "あつい",
+          "gloss": "thick",
+          "priority": "medium"
+        },
+        {
+          "word": "薄い",
+          "reading": "うすい",
+          "gloss": "thin; light (color)",
+          "priority": "medium"
+        },
+        {
+          "word": "巨大",
+          "reading": "きょだい",
+          "gloss": "enormous; gigantic",
+          "priority": "low"
+        },
+        {
+          "word": "微小",
+          "reading": "びしょう",
+          "gloss": "minute; tiny",
+          "priority": "low"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "speed_motion",
+      "name": "Speed and Motion",
+      "description": "Words describing speed, motion, and movement",
+      "expected_words": [
+        {
+          "word": "速い",
+          "reading": "はやい",
+          "gloss": "fast; quick",
+          "priority": "high"
+        },
+        {
+          "word": "遅い",
+          "reading": "おそい",
+          "gloss": "slow; late",
+          "priority": "high"
+        },
+        {
+          "word": "急ぐ",
+          "reading": "いそぐ",
+          "gloss": "to hurry",
+          "priority": "high"
+        },
+        {
+          "word": "動く",
+          "reading": "うごく",
+          "gloss": "to move",
+          "priority": "high"
+        },
+        {
+          "word": "止まる",
+          "reading": "とまる",
+          "gloss": "to stop",
+          "priority": "high"
+        },
+        {
+          "word": "進む",
+          "reading": "すすむ",
+          "gloss": "to advance; to proceed",
+          "priority": "medium"
+        },
+        {
+          "word": "戻る",
+          "reading": "もどる",
+          "gloss": "to return; to go back",
+          "priority": "high"
+        },
+        {
+          "word": "曲がる",
+          "reading": "まがる",
+          "gloss": "to turn; to bend",
+          "priority": "high"
+        },
+        {
+          "word": "渡る",
+          "reading": "わたる",
+          "gloss": "to cross",
+          "priority": "high"
+        },
+        {
+          "word": "通る",
+          "reading": "とおる",
+          "gloss": "to pass through",
+          "priority": "high"
+        },
+        {
+          "word": "届く",
+          "reading": "とどく",
+          "gloss": "to reach; to arrive",
+          "priority": "medium"
+        },
+        {
+          "word": "滑る",
+          "reading": "すべる",
+          "gloss": "to slide; to slip",
+          "priority": "medium"
+        },
+        {
+          "word": "落ちる",
+          "reading": "おちる",
+          "gloss": "to fall; to drop",
+          "priority": "high"
+        },
+        {
+          "word": "飛ぶ",
+          "reading": "とぶ",
+          "gloss": "to fly; to jump",
+          "priority": "high"
+        },
+        {
+          "word": "登る",
+          "reading": "のぼる",
+          "gloss": "to climb",
+          "priority": "medium"
+        },
+        {
+          "word": "下りる",
+          "reading": "おりる",
+          "gloss": "to descend",
+          "priority": "medium"
+        },
+        {
+          "word": "転ぶ",
+          "reading": "ころぶ",
+          "gloss": "to fall over; to trip",
+          "priority": "medium"
+        },
+        {
+          "word": "揺れる",
+          "reading": "ゆれる",
+          "gloss": "to shake; to sway",
+          "priority": "medium"
+        },
+        {
+          "word": "回る",
+          "reading": "まわる",
+          "gloss": "to rotate; to go around",
+          "priority": "medium"
+        },
+        {
+          "word": "追いかける",
+          "reading": "おいかける",
+          "gloss": "to chase",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "basic_actions",
+      "name": "Basic Actions",
+      "description": "Fundamental physical actions and operations",
+      "expected_words": [
+        {
+          "word": "開ける",
+          "reading": "あける",
+          "gloss": "to open",
+          "priority": "high"
+        },
+        {
+          "word": "閉める",
+          "reading": "しめる",
+          "gloss": "to close",
+          "priority": "high"
+        },
+        {
+          "word": "入る",
+          "reading": "はいる",
+          "gloss": "to enter",
+          "priority": "high"
+        },
+        {
+          "word": "出る",
+          "reading": "でる",
+          "gloss": "to leave; to go out",
+          "priority": "high"
+        },
+        {
+          "word": "押す",
+          "reading": "おす",
+          "gloss": "to push; to press",
+          "priority": "high"
+        },
+        {
+          "word": "引く",
+          "reading": "ひく",
+          "gloss": "to pull",
+          "priority": "high"
+        },
+        {
+          "word": "持つ",
+          "reading": "もつ",
+          "gloss": "to hold; to have",
+          "priority": "high"
+        },
+        {
+          "word": "置く",
+          "reading": "おく",
+          "gloss": "to put; to place",
+          "priority": "high"
+        },
+        {
+          "word": "取る",
+          "reading": "とる",
+          "gloss": "to take",
+          "priority": "high"
+        },
+        {
+          "word": "上げる",
+          "reading": "あげる",
+          "gloss": "to raise; to give",
+          "priority": "high"
+        },
+        {
+          "word": "下げる",
+          "reading": "さげる",
+          "gloss": "to lower",
+          "priority": "high"
+        },
+        {
+          "word": "付ける",
+          "reading": "つける",
+          "gloss": "to attach; to turn on",
+          "priority": "high"
+        },
+        {
+          "word": "外す",
+          "reading": "はずす",
+          "gloss": "to remove; to detach",
+          "priority": "medium"
+        },
+        {
+          "word": "壊す",
+          "reading": "こわす",
+          "gloss": "to break; to destroy",
+          "priority": "medium"
+        },
+        {
+          "word": "壊れる",
+          "reading": "こわれる",
+          "gloss": "to break (intransitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "直す",
+          "reading": "なおす",
+          "gloss": "to fix; to repair",
+          "priority": "high"
+        },
+        {
+          "word": "作る",
+          "reading": "つくる",
+          "gloss": "to make; to create",
+          "priority": "high"
+        },
+        {
+          "word": "使う",
+          "reading": "つかう",
+          "gloss": "to use",
+          "priority": "high"
+        },
+        {
+          "word": "探す",
+          "reading": "さがす",
+          "gloss": "to search for",
+          "priority": "high"
+        },
+        {
+          "word": "見つける",
+          "reading": "みつける",
+          "gloss": "to find",
+          "priority": "high"
+        },
+        {
+          "word": "選ぶ",
+          "reading": "えらぶ",
+          "gloss": "to choose; to select",
+          "priority": "high"
+        },
+        {
+          "word": "集める",
+          "reading": "あつめる",
+          "gloss": "to collect; to gather",
+          "priority": "medium"
+        },
+        {
+          "word": "並べる",
+          "reading": "ならべる",
+          "gloss": "to line up; to arrange",
+          "priority": "medium"
+        },
+        {
+          "word": "混ぜる",
+          "reading": "まぜる",
+          "gloss": "to mix",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "giving_receiving",
+      "name": "Giving and Receiving",
+      "description": "Words for giving, receiving, and exchanging",
+      "expected_words": [
+        {
+          "word": "あげる",
+          "reading": "あげる",
+          "gloss": "to give (to equal/lower)",
+          "priority": "high"
+        },
+        {
+          "word": "もらう",
+          "reading": "もらう",
+          "gloss": "to receive",
+          "priority": "high"
+        },
+        {
+          "word": "くれる",
+          "reading": "くれる",
+          "gloss": "to give (to me/my group)",
+          "priority": "high"
+        },
+        {
+          "word": "差し上げる",
+          "reading": "さしあげる",
+          "gloss": "to give (humble)",
+          "priority": "medium"
+        },
+        {
+          "word": "いただく",
+          "reading": "いただく",
+          "gloss": "to receive (humble)",
+          "priority": "high"
+        },
+        {
+          "word": "くださる",
+          "reading": "くださる",
+          "gloss": "to give (honorific)",
+          "priority": "medium"
+        },
+        {
+          "word": "渡す",
+          "reading": "わたす",
+          "gloss": "to hand over",
+          "priority": "high"
+        },
+        {
+          "word": "届ける",
+          "reading": "とどける",
+          "gloss": "to deliver",
+          "priority": "medium"
+        },
+        {
+          "word": "送る",
+          "reading": "おくる",
+          "gloss": "to send",
+          "priority": "high"
+        },
+        {
+          "word": "受け取る",
+          "reading": "うけとる",
+          "gloss": "to receive; to accept",
+          "priority": "medium"
+        },
+        {
+          "word": "返す",
+          "reading": "かえす",
+          "gloss": "to return; to give back",
+          "priority": "high"
+        },
+        {
+          "word": "交換",
+          "reading": "こうかん",
+          "gloss": "exchange",
+          "priority": "medium"
+        },
+        {
+          "word": "配る",
+          "reading": "くばる",
+          "gloss": "to distribute",
+          "priority": "medium"
+        },
+        {
+          "word": "譲る",
+          "reading": "ゆずる",
+          "gloss": "to yield; to hand over",
+          "priority": "medium"
+        },
+        {
+          "word": "奪う",
+          "reading": "うばう",
+          "gloss": "to snatch; to rob",
+          "priority": "medium"
+        },
+        {
+          "word": "贈る",
+          "reading": "おくる",
+          "gloss": "to present; to gift",
+          "priority": "medium"
+        }
+      ],
+      "category": "basic_concepts"
+    },
+    {
+      "id": "body_parts",
+      "name": "Body Parts",
+      "description": "External and internal body parts",
+      "expected_words": [
+        {
+          "word": "頭",
+          "reading": "あたま",
+          "gloss": "head",
+          "priority": "high"
+        },
+        {
+          "word": "顔",
+          "reading": "かお",
+          "gloss": "face",
+          "priority": "high"
+        },
+        {
+          "word": "目",
+          "reading": "め",
+          "gloss": "eye",
+          "priority": "high"
+        },
+        {
+          "word": "耳",
+          "reading": "みみ",
+          "gloss": "ear",
+          "priority": "high"
+        },
+        {
+          "word": "鼻",
+          "reading": "はな",
+          "gloss": "nose",
+          "priority": "high"
+        },
+        {
+          "word": "口",
+          "reading": "くち",
+          "gloss": "mouth",
+          "priority": "high"
+        },
+        {
+          "word": "歯",
+          "reading": "は",
+          "gloss": "tooth",
+          "priority": "high"
+        },
+        {
+          "word": "首",
+          "reading": "くび",
+          "gloss": "neck",
+          "priority": "high"
+        },
+        {
+          "word": "肩",
+          "reading": "かた",
+          "gloss": "shoulder",
+          "priority": "high"
+        },
+        {
+          "word": "腕",
+          "reading": "うで",
+          "gloss": "arm",
+          "priority": "high"
+        },
+        {
+          "word": "手",
+          "reading": "て",
+          "gloss": "hand",
+          "priority": "high"
+        },
+        {
+          "word": "指",
+          "reading": "ゆび",
+          "gloss": "finger; toe",
+          "priority": "high"
+        },
+        {
+          "word": "足",
+          "reading": "あし",
+          "gloss": "foot; leg",
+          "priority": "high"
+        },
+        {
+          "word": "膝",
+          "reading": "ひざ",
+          "gloss": "knee",
+          "priority": "medium"
+        },
+        {
+          "word": "背中",
+          "reading": "せなか",
+          "gloss": "back (body)",
+          "priority": "medium"
+        },
+        {
+          "word": "胸",
+          "reading": "むね",
+          "gloss": "chest; breast",
+          "priority": "medium"
+        },
+        {
+          "word": "腹",
+          "reading": "はら",
+          "gloss": "belly; stomach",
+          "priority": "medium"
+        },
+        {
+          "word": "腰",
+          "reading": "こし",
+          "gloss": "waist; lower back",
+          "priority": "medium"
+        },
+        {
+          "word": "髪",
+          "reading": "かみ",
+          "gloss": "hair (head)",
+          "priority": "high"
+        },
+        {
+          "word": "肌",
+          "reading": "はだ",
+          "gloss": "skin",
+          "priority": "medium"
+        },
+        {
+          "word": "骨",
+          "reading": "ほね",
+          "gloss": "bone",
+          "priority": "medium"
+        },
+        {
+          "word": "血",
+          "reading": "ち",
+          "gloss": "blood",
+          "priority": "medium"
+        },
+        {
+          "word": "心臓",
+          "reading": "しんぞう",
+          "gloss": "heart (organ)",
+          "priority": "medium"
+        },
+        {
+          "word": "脳",
+          "reading": "のう",
+          "gloss": "brain",
+          "priority": "medium"
+        },
+        {
+          "word": "爪",
+          "reading": "つめ",
+          "gloss": "nail; claw",
+          "priority": "low"
+        },
+        {
+          "word": "唇",
+          "reading": "くちびる",
+          "gloss": "lips",
+          "priority": "low"
+        },
+        {
+          "word": "額",
+          "reading": "ひたい",
+          "gloss": "forehead",
+          "priority": "low"
+        },
+        {
+          "word": "頬",
+          "reading": "ほお",
+          "gloss": "cheek",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "medical_symptoms",
+      "name": "Medical and Symptoms",
+      "description": "Illness, symptoms, medical terms, and treatment",
+      "expected_words": [
+        {
+          "word": "病気",
+          "reading": "びょうき",
+          "gloss": "illness; disease",
+          "priority": "high"
+        },
+        {
+          "word": "風邪",
+          "reading": "かぜ",
+          "gloss": "cold (illness)",
+          "priority": "high"
+        },
+        {
+          "word": "熱",
+          "reading": "ねつ",
+          "gloss": "fever; heat",
+          "priority": "high"
+        },
+        {
+          "word": "痛い",
+          "reading": "いたい",
+          "gloss": "painful; hurts",
+          "priority": "high"
+        },
+        {
+          "word": "薬",
+          "reading": "くすり",
+          "gloss": "medicine",
+          "priority": "high"
+        },
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "gloss": "hospital",
+          "priority": "high"
+        },
+        {
+          "word": "医者",
+          "reading": "いしゃ",
+          "gloss": "doctor",
+          "priority": "high"
+        },
+        {
+          "word": "怪我",
+          "reading": "けが",
+          "gloss": "injury",
+          "priority": "high"
+        },
+        {
+          "word": "咳",
+          "reading": "せき",
+          "gloss": "cough",
+          "priority": "medium"
+        },
+        {
+          "word": "頭痛",
+          "reading": "ずつう",
+          "gloss": "headache",
+          "priority": "medium"
+        },
+        {
+          "word": "腹痛",
+          "reading": "ふくつう",
+          "gloss": "stomachache",
+          "priority": "medium"
+        },
+        {
+          "word": "アレルギー",
+          "reading": "あれるぎー",
+          "gloss": "allergy",
+          "priority": "medium"
+        },
+        {
+          "word": "注射",
+          "reading": "ちゅうしゃ",
+          "gloss": "injection; shot",
+          "priority": "medium"
+        },
+        {
+          "word": "手術",
+          "reading": "しゅじゅつ",
+          "gloss": "surgery",
+          "priority": "medium"
+        },
+        {
+          "word": "検査",
+          "reading": "けんさ",
+          "gloss": "examination; test",
+          "priority": "medium"
+        },
+        {
+          "word": "症状",
+          "reading": "しょうじょう",
+          "gloss": "symptoms",
+          "priority": "medium"
+        },
+        {
+          "word": "治る",
+          "reading": "なおる",
+          "gloss": "to heal; to be cured",
+          "priority": "high"
+        },
+        {
+          "word": "治す",
+          "reading": "なおす",
+          "gloss": "to cure; to heal",
+          "priority": "high"
+        },
+        {
+          "word": "吐く",
+          "reading": "はく",
+          "gloss": "to vomit; to spit",
+          "priority": "medium"
+        },
+        {
+          "word": "めまい",
+          "reading": "めまい",
+          "gloss": "dizziness",
+          "priority": "low"
+        },
+        {
+          "word": "傷",
+          "reading": "きず",
+          "gloss": "wound; scar",
+          "priority": "medium"
+        },
+        {
+          "word": "包帯",
+          "reading": "ほうたい",
+          "gloss": "bandage",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "hygiene_health",
+      "name": "Hygiene and Health",
+      "description": "Personal hygiene, health maintenance, and wellness",
+      "expected_words": [
+        {
+          "word": "健康",
+          "reading": "けんこう",
+          "gloss": "health; healthy",
+          "priority": "high"
+        },
+        {
+          "word": "元気",
+          "reading": "げんき",
+          "gloss": "energetic; well",
+          "priority": "high"
+        },
+        {
+          "word": "疲れる",
+          "reading": "つかれる",
+          "gloss": "to get tired",
+          "priority": "high"
+        },
+        {
+          "word": "休む",
+          "reading": "やすむ",
+          "gloss": "to rest",
+          "priority": "high"
+        },
+        {
+          "word": "眠る",
+          "reading": "ねむる",
+          "gloss": "to sleep",
+          "priority": "high"
+        },
+        {
+          "word": "起きる",
+          "reading": "おきる",
+          "gloss": "to wake up",
+          "priority": "high"
+        },
+        {
+          "word": "風呂",
+          "reading": "ふろ",
+          "gloss": "bath",
+          "priority": "high"
+        },
+        {
+          "word": "シャワー",
+          "reading": "しゃわー",
+          "gloss": "shower",
+          "priority": "medium"
+        },
+        {
+          "word": "石鹸",
+          "reading": "せっけん",
+          "gloss": "soap",
+          "priority": "medium"
+        },
+        {
+          "word": "歯磨き",
+          "reading": "はみがき",
+          "gloss": "toothbrushing; toothpaste",
+          "priority": "medium"
+        },
+        {
+          "word": "洗う",
+          "reading": "あらう",
+          "gloss": "to wash",
+          "priority": "high"
+        },
+        {
+          "word": "体重",
+          "reading": "たいじゅう",
+          "gloss": "body weight",
+          "priority": "medium"
+        },
+        {
+          "word": "運動",
+          "reading": "うんどう",
+          "gloss": "exercise",
+          "priority": "high"
+        },
+        {
+          "word": "栄養",
+          "reading": "えいよう",
+          "gloss": "nutrition",
+          "priority": "medium"
+        },
+        {
+          "word": "睡眠",
+          "reading": "すいみん",
+          "gloss": "sleep",
+          "priority": "medium"
+        },
+        {
+          "word": "ストレス",
+          "reading": "すとれす",
+          "gloss": "stress",
+          "priority": "medium"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "emotions_feelings",
+      "name": "Emotions and Feelings",
+      "description": "Basic emotions, moods, and emotional states",
+      "expected_words": [
+        {
+          "word": "嬉しい",
+          "reading": "うれしい",
+          "gloss": "happy; glad",
+          "priority": "high"
+        },
+        {
+          "word": "悲しい",
+          "reading": "かなしい",
+          "gloss": "sad",
+          "priority": "high"
+        },
+        {
+          "word": "楽しい",
+          "reading": "たのしい",
+          "gloss": "fun; enjoyable",
+          "priority": "high"
+        },
+        {
+          "word": "怒る",
+          "reading": "おこる",
+          "gloss": "to get angry",
+          "priority": "high"
+        },
+        {
+          "word": "泣く",
+          "reading": "なく",
+          "gloss": "to cry",
+          "priority": "high"
+        },
+        {
+          "word": "笑う",
+          "reading": "わらう",
+          "gloss": "to laugh; to smile",
+          "priority": "high"
+        },
+        {
+          "word": "寂しい",
+          "reading": "さびしい",
+          "gloss": "lonely",
+          "priority": "high"
+        },
+        {
+          "word": "恥ずかしい",
+          "reading": "はずかしい",
+          "gloss": "embarrassed; ashamed",
+          "priority": "high"
+        },
+        {
+          "word": "怖い",
+          "reading": "こわい",
+          "gloss": "scary; afraid",
+          "priority": "high"
+        },
+        {
+          "word": "心配",
+          "reading": "しんぱい",
+          "gloss": "worry; concern",
+          "priority": "high"
+        },
+        {
+          "word": "安心",
+          "reading": "あんしん",
+          "gloss": "relief; peace of mind",
+          "priority": "high"
+        },
+        {
+          "word": "驚く",
+          "reading": "おどろく",
+          "gloss": "to be surprised",
+          "priority": "high"
+        },
+        {
+          "word": "悔しい",
+          "reading": "くやしい",
+          "gloss": "frustrating; vexing",
+          "priority": "medium"
+        },
+        {
+          "word": "懐かしい",
+          "reading": "なつかしい",
+          "gloss": "nostalgic",
+          "priority": "medium"
+        },
+        {
+          "word": "感動",
+          "reading": "かんどう",
+          "gloss": "being deeply moved",
+          "priority": "medium"
+        },
+        {
+          "word": "不安",
+          "reading": "ふあん",
+          "gloss": "anxiety; unease",
+          "priority": "medium"
+        },
+        {
+          "word": "退屈",
+          "reading": "たいくつ",
+          "gloss": "boredom; tedious",
+          "priority": "medium"
+        },
+        {
+          "word": "緊張",
+          "reading": "きんちょう",
+          "gloss": "tension; nervousness",
+          "priority": "medium"
+        },
+        {
+          "word": "満足",
+          "reading": "まんぞく",
+          "gloss": "satisfaction",
+          "priority": "medium"
+        },
+        {
+          "word": "後悔",
+          "reading": "こうかい",
+          "gloss": "regret",
+          "priority": "medium"
+        },
+        {
+          "word": "羨ましい",
+          "reading": "うらやましい",
+          "gloss": "envious; jealous",
+          "priority": "medium"
+        },
+        {
+          "word": "呆れる",
+          "reading": "あきれる",
+          "gloss": "to be exasperated",
+          "priority": "low"
+        },
+        {
+          "word": "感謝",
+          "reading": "かんしゃ",
+          "gloss": "gratitude",
+          "priority": "medium"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "senses",
+      "name": "Senses and Perception",
+      "description": "Words related to the five senses and perception",
+      "expected_words": [
+        {
+          "word": "見る",
+          "reading": "みる",
+          "gloss": "to see; to look",
+          "priority": "high"
+        },
+        {
+          "word": "聞く",
+          "reading": "きく",
+          "gloss": "to hear; to listen",
+          "priority": "high"
+        },
+        {
+          "word": "触る",
+          "reading": "さわる",
+          "gloss": "to touch",
+          "priority": "high"
+        },
+        {
+          "word": "嗅ぐ",
+          "reading": "かぐ",
+          "gloss": "to smell",
+          "priority": "medium"
+        },
+        {
+          "word": "味",
+          "reading": "あじ",
+          "gloss": "taste; flavor",
+          "priority": "high"
+        },
+        {
+          "word": "匂い",
+          "reading": "におい",
+          "gloss": "smell; scent",
+          "priority": "high"
+        },
+        {
+          "word": "音",
+          "reading": "おと",
+          "gloss": "sound",
+          "priority": "high"
+        },
+        {
+          "word": "声",
+          "reading": "こえ",
+          "gloss": "voice",
+          "priority": "high"
+        },
+        {
+          "word": "光",
+          "reading": "ひかり",
+          "gloss": "light",
+          "priority": "high"
+        },
+        {
+          "word": "影",
+          "reading": "かげ",
+          "gloss": "shadow; shade",
+          "priority": "medium"
+        },
+        {
+          "word": "甘い",
+          "reading": "あまい",
+          "gloss": "sweet",
+          "priority": "high"
+        },
+        {
+          "word": "辛い",
+          "reading": "からい",
+          "gloss": "spicy; hot",
+          "priority": "high"
+        },
+        {
+          "word": "苦い",
+          "reading": "にがい",
+          "gloss": "bitter",
+          "priority": "medium"
+        },
+        {
+          "word": "酸っぱい",
+          "reading": "すっぱい",
+          "gloss": "sour",
+          "priority": "medium"
+        },
+        {
+          "word": "塩辛い",
+          "reading": "しおからい",
+          "gloss": "salty",
+          "priority": "medium"
+        },
+        {
+          "word": "うるさい",
+          "reading": "うるさい",
+          "gloss": "noisy; annoying",
+          "priority": "high"
+        },
+        {
+          "word": "静か",
+          "reading": "しずか",
+          "gloss": "quiet",
+          "priority": "high"
+        },
+        {
+          "word": "明るい",
+          "reading": "あかるい",
+          "gloss": "bright",
+          "priority": "high"
+        },
+        {
+          "word": "暗い",
+          "reading": "くらい",
+          "gloss": "dark",
+          "priority": "high"
+        },
+        {
+          "word": "柔らかい",
+          "reading": "やわらかい",
+          "gloss": "soft",
+          "priority": "medium"
+        },
+        {
+          "word": "硬い",
+          "reading": "かたい",
+          "gloss": "hard; stiff",
+          "priority": "medium"
+        },
+        {
+          "word": "滑らか",
+          "reading": "なめらか",
+          "gloss": "smooth",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "bodily_actions",
+      "name": "Bodily Actions",
+      "description": "Actions performed with the body",
+      "expected_words": [
+        {
+          "word": "立つ",
+          "reading": "たつ",
+          "gloss": "to stand",
+          "priority": "high"
+        },
+        {
+          "word": "座る",
+          "reading": "すわる",
+          "gloss": "to sit",
+          "priority": "high"
+        },
+        {
+          "word": "寝る",
+          "reading": "ねる",
+          "gloss": "to lie down; to sleep",
+          "priority": "high"
+        },
+        {
+          "word": "起こす",
+          "reading": "おこす",
+          "gloss": "to wake someone up",
+          "priority": "medium"
+        },
+        {
+          "word": "息",
+          "reading": "いき",
+          "gloss": "breath",
+          "priority": "medium"
+        },
+        {
+          "word": "呼吸",
+          "reading": "こきゅう",
+          "gloss": "breathing; respiration",
+          "priority": "medium"
+        },
+        {
+          "word": "汗",
+          "reading": "あせ",
+          "gloss": "sweat",
+          "priority": "medium"
+        },
+        {
+          "word": "涙",
+          "reading": "なみだ",
+          "gloss": "tears",
+          "priority": "medium"
+        },
+        {
+          "word": "あくび",
+          "reading": "あくび",
+          "gloss": "yawn",
+          "priority": "low"
+        },
+        {
+          "word": "くしゃみ",
+          "reading": "くしゃみ",
+          "gloss": "sneeze",
+          "priority": "low"
+        },
+        {
+          "word": "噛む",
+          "reading": "かむ",
+          "gloss": "to bite; to chew",
+          "priority": "medium"
+        },
+        {
+          "word": "飲み込む",
+          "reading": "のみこむ",
+          "gloss": "to swallow",
+          "priority": "medium"
+        },
+        {
+          "word": "握る",
+          "reading": "にぎる",
+          "gloss": "to grip; to grasp",
+          "priority": "medium"
+        },
+        {
+          "word": "抱く",
+          "reading": "だく",
+          "gloss": "to hold; to embrace",
+          "priority": "medium"
+        },
+        {
+          "word": "しゃがむ",
+          "reading": "しゃがむ",
+          "gloss": "to squat; to crouch",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "life_death",
+      "name": "Life and Death",
+      "description": "Words related to being alive, dying, and existence",
+      "expected_words": [
+        {
+          "word": "生きる",
+          "reading": "いきる",
+          "gloss": "to live; to be alive",
+          "priority": "high"
+        },
+        {
+          "word": "死ぬ",
+          "reading": "しぬ",
+          "gloss": "to die",
+          "priority": "high"
+        },
+        {
+          "word": "生まれる",
+          "reading": "うまれる",
+          "gloss": "to be born",
+          "priority": "high"
+        },
+        {
+          "word": "命",
+          "reading": "いのち",
+          "gloss": "life",
+          "priority": "high"
+        },
+        {
+          "word": "死",
+          "reading": "し",
+          "gloss": "death",
+          "priority": "medium"
+        },
+        {
+          "word": "亡くなる",
+          "reading": "なくなる",
+          "gloss": "to pass away (polite)",
+          "priority": "medium"
+        },
+        {
+          "word": "殺す",
+          "reading": "ころす",
+          "gloss": "to kill",
+          "priority": "medium"
+        },
+        {
+          "word": "助ける",
+          "reading": "たすける",
+          "gloss": "to help; to rescue",
+          "priority": "high"
+        },
+        {
+          "word": "助かる",
+          "reading": "たすかる",
+          "gloss": "to be saved; to survive",
+          "priority": "medium"
+        },
+        {
+          "word": "生命",
+          "reading": "せいめい",
+          "gloss": "life; existence",
+          "priority": "low"
+        },
+        {
+          "word": "寿命",
+          "reading": "じゅみょう",
+          "gloss": "lifespan",
+          "priority": "low"
+        },
+        {
+          "word": "葬式",
+          "reading": "そうしき",
+          "gloss": "funeral",
+          "priority": "low"
+        },
+        {
+          "word": "墓",
+          "reading": "はか",
+          "gloss": "grave; tomb",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "mental_states",
+      "name": "Mental States",
+      "description": "Cognitive and mental condition vocabulary",
+      "expected_words": [
+        {
+          "word": "意識",
+          "reading": "いしき",
+          "gloss": "consciousness; awareness",
+          "priority": "medium"
+        },
+        {
+          "word": "集中",
+          "reading": "しゅうちゅう",
+          "gloss": "concentration",
+          "priority": "medium"
+        },
+        {
+          "word": "記憶",
+          "reading": "きおく",
+          "gloss": "memory",
+          "priority": "medium"
+        },
+        {
+          "word": "想像",
+          "reading": "そうぞう",
+          "gloss": "imagination",
+          "priority": "medium"
+        },
+        {
+          "word": "判断",
+          "reading": "はんだん",
+          "gloss": "judgment; decision",
+          "priority": "medium"
+        },
+        {
+          "word": "迷う",
+          "reading": "まよう",
+          "gloss": "to be confused; to hesitate",
+          "priority": "medium"
+        },
+        {
+          "word": "悩む",
+          "reading": "なやむ",
+          "gloss": "to worry; to be troubled",
+          "priority": "medium"
+        },
+        {
+          "word": "気付く",
+          "reading": "きづく",
+          "gloss": "to notice; to realize",
+          "priority": "high"
+        },
+        {
+          "word": "信じる",
+          "reading": "しんじる",
+          "gloss": "to believe",
+          "priority": "high"
+        },
+        {
+          "word": "疑う",
+          "reading": "うたがう",
+          "gloss": "to doubt; to suspect",
+          "priority": "medium"
+        },
+        {
+          "word": "決める",
+          "reading": "きめる",
+          "gloss": "to decide",
+          "priority": "high"
+        },
+        {
+          "word": "諦める",
+          "reading": "あきらめる",
+          "gloss": "to give up",
+          "priority": "medium"
+        },
+        {
+          "word": "慣れる",
+          "reading": "なれる",
+          "gloss": "to get used to",
+          "priority": "high"
+        },
+        {
+          "word": "飽きる",
+          "reading": "あきる",
+          "gloss": "to get tired of; to bore",
+          "priority": "medium"
+        },
+        {
+          "word": "興味",
+          "reading": "きょうみ",
+          "gloss": "interest",
+          "priority": "high"
+        },
+        {
+          "word": "注意",
+          "reading": "ちゅうい",
+          "gloss": "attention; caution",
+          "priority": "high"
+        },
+        {
+          "word": "理解",
+          "reading": "りかい",
+          "gloss": "understanding",
+          "priority": "medium"
+        },
+        {
+          "word": "混乱",
+          "reading": "こんらん",
+          "gloss": "confusion; disorder",
+          "priority": "medium"
+        },
+        {
+          "word": "落ち着く",
+          "reading": "おちつく",
+          "gloss": "to calm down",
+          "priority": "high"
+        },
+        {
+          "word": "焦る",
+          "reading": "あせる",
+          "gloss": "to feel rushed; to be flustered",
+          "priority": "medium"
+        },
+        {
+          "word": "我慢",
+          "reading": "がまん",
+          "gloss": "patience; endurance",
+          "priority": "high"
+        },
+        {
+          "word": "油断",
+          "reading": "ゆだん",
+          "gloss": "carelessness; letting guard down",
+          "priority": "medium"
+        },
+        {
+          "word": "夢中",
+          "reading": "むちゅう",
+          "gloss": "absorbed; engrossed",
+          "priority": "medium"
+        },
+        {
+          "word": "気分",
+          "reading": "きぶん",
+          "gloss": "mood; feeling",
+          "priority": "high"
+        },
+        {
+          "word": "感覚",
+          "reading": "かんかく",
+          "gloss": "sense; sensation",
+          "priority": "medium"
+        },
+        {
+          "word": "直感",
+          "reading": "ちょっかん",
+          "gloss": "intuition",
+          "priority": "low"
+        }
+      ],
+      "category": "body_and_health"
+    },
+    {
+      "id": "food_cooking",
+      "name": "Food and Cooking",
+      "description": "Food items, cooking methods, and meal-related vocabulary",
+      "expected_words": [
+        {
+          "word": "食べる",
+          "reading": "たべる",
+          "gloss": "to eat",
+          "priority": "high"
+        },
+        {
+          "word": "飲む",
+          "reading": "のむ",
+          "gloss": "to drink",
+          "priority": "high"
+        },
+        {
+          "word": "料理",
+          "reading": "りょうり",
+          "gloss": "cooking; dish",
+          "priority": "high"
+        },
+        {
+          "word": "米",
+          "reading": "こめ",
+          "gloss": "rice (uncooked)",
+          "priority": "high"
+        },
+        {
+          "word": "ご飯",
+          "reading": "ごはん",
+          "gloss": "cooked rice; meal",
+          "priority": "high"
+        },
+        {
+          "word": "パン",
+          "reading": "ぱん",
+          "gloss": "bread",
+          "priority": "high"
+        },
+        {
+          "word": "肉",
+          "reading": "にく",
+          "gloss": "meat",
+          "priority": "high"
+        },
+        {
+          "word": "魚",
+          "reading": "さかな",
+          "gloss": "fish",
+          "priority": "high"
+        },
+        {
+          "word": "野菜",
+          "reading": "やさい",
+          "gloss": "vegetables",
+          "priority": "high"
+        },
+        {
+          "word": "果物",
+          "reading": "くだもの",
+          "gloss": "fruit",
+          "priority": "high"
+        },
+        {
+          "word": "卵",
+          "reading": "たまご",
+          "gloss": "egg",
+          "priority": "high"
+        },
+        {
+          "word": "牛乳",
+          "reading": "ぎゅうにゅう",
+          "gloss": "milk",
+          "priority": "high"
+        },
+        {
+          "word": "砂糖",
+          "reading": "さとう",
+          "gloss": "sugar",
+          "priority": "medium"
+        },
+        {
+          "word": "塩",
+          "reading": "しお",
+          "gloss": "salt",
+          "priority": "high"
+        },
+        {
+          "word": "醤油",
+          "reading": "しょうゆ",
+          "gloss": "soy sauce",
+          "priority": "medium"
+        },
+        {
+          "word": "味噌",
+          "reading": "みそ",
+          "gloss": "miso",
+          "priority": "medium"
+        },
+        {
+          "word": "焼く",
+          "reading": "やく",
+          "gloss": "to grill; to bake",
+          "priority": "high"
+        },
+        {
+          "word": "煮る",
+          "reading": "にる",
+          "gloss": "to boil; to simmer",
+          "priority": "medium"
+        },
+        {
+          "word": "揚げる",
+          "reading": "あげる",
+          "gloss": "to deep-fry",
+          "priority": "medium"
+        },
+        {
+          "word": "炒める",
+          "reading": "いためる",
+          "gloss": "to stir-fry",
+          "priority": "medium"
+        },
+        {
+          "word": "切る",
+          "reading": "きる",
+          "gloss": "to cut",
+          "priority": "high"
+        },
+        {
+          "word": "茶",
+          "reading": "ちゃ",
+          "gloss": "tea",
+          "priority": "high"
+        },
+        {
+          "word": "水",
+          "reading": "みず",
+          "gloss": "water",
+          "priority": "high"
+        },
+        {
+          "word": "酒",
+          "reading": "さけ",
+          "gloss": "sake; alcohol",
+          "priority": "high"
+        },
+        {
+          "word": "弁当",
+          "reading": "べんとう",
+          "gloss": "boxed lunch",
+          "priority": "medium"
+        },
+        {
+          "word": "おかず",
+          "reading": "おかず",
+          "gloss": "side dish",
+          "priority": "medium"
+        },
+        {
+          "word": "レシピ",
+          "reading": "れしぴ",
+          "gloss": "recipe",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "clothing",
+      "name": "Clothing",
+      "description": "Clothes, accessories, and dressing-related vocabulary",
+      "expected_words": [
+        {
+          "word": "服",
+          "reading": "ふく",
+          "gloss": "clothes",
+          "priority": "high"
+        },
+        {
+          "word": "着る",
+          "reading": "きる",
+          "gloss": "to wear (upper body)",
+          "priority": "high"
+        },
+        {
+          "word": "脱ぐ",
+          "reading": "ぬぐ",
+          "gloss": "to take off (clothes)",
+          "priority": "high"
+        },
+        {
+          "word": "履く",
+          "reading": "はく",
+          "gloss": "to put on (lower body/shoes)",
+          "priority": "high"
+        },
+        {
+          "word": "靴",
+          "reading": "くつ",
+          "gloss": "shoes",
+          "priority": "high"
+        },
+        {
+          "word": "帽子",
+          "reading": "ぼうし",
+          "gloss": "hat; cap",
+          "priority": "high"
+        },
+        {
+          "word": "シャツ",
+          "reading": "しゃつ",
+          "gloss": "shirt",
+          "priority": "high"
+        },
+        {
+          "word": "ズボン",
+          "reading": "ずぼん",
+          "gloss": "pants; trousers",
+          "priority": "medium"
+        },
+        {
+          "word": "スカート",
+          "reading": "すかーと",
+          "gloss": "skirt",
+          "priority": "medium"
+        },
+        {
+          "word": "コート",
+          "reading": "こーと",
+          "gloss": "coat",
+          "priority": "medium"
+        },
+        {
+          "word": "傘",
+          "reading": "かさ",
+          "gloss": "umbrella",
+          "priority": "high"
+        },
+        {
+          "word": "鞄",
+          "reading": "かばん",
+          "gloss": "bag",
+          "priority": "high"
+        },
+        {
+          "word": "眼鏡",
+          "reading": "めがね",
+          "gloss": "glasses",
+          "priority": "medium"
+        },
+        {
+          "word": "時計",
+          "reading": "とけい",
+          "gloss": "watch; clock",
+          "priority": "high"
+        },
+        {
+          "word": "ネクタイ",
+          "reading": "ねくたい",
+          "gloss": "necktie",
+          "priority": "medium"
+        },
+        {
+          "word": "着物",
+          "reading": "きもの",
+          "gloss": "kimono",
+          "priority": "medium"
+        },
+        {
+          "word": "下着",
+          "reading": "したぎ",
+          "gloss": "underwear",
+          "priority": "medium"
+        },
+        {
+          "word": "靴下",
+          "reading": "くつした",
+          "gloss": "socks",
+          "priority": "medium"
+        },
+        {
+          "word": "手袋",
+          "reading": "てぶくろ",
+          "gloss": "gloves",
+          "priority": "medium"
+        },
+        {
+          "word": "洋服",
+          "reading": "ようふく",
+          "gloss": "Western clothes",
+          "priority": "medium"
+        },
+        {
+          "word": "袖",
+          "reading": "そで",
+          "gloss": "sleeve",
+          "priority": "low"
+        },
+        {
+          "word": "襟",
+          "reading": "えり",
+          "gloss": "collar",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "housing_furniture",
+      "name": "Housing and Furniture",
+      "description": "House rooms, furniture, and household items",
+      "expected_words": [
+        {
+          "word": "家",
+          "reading": "いえ",
+          "gloss": "house; home",
+          "priority": "high"
+        },
+        {
+          "word": "部屋",
+          "reading": "へや",
+          "gloss": "room",
+          "priority": "high"
+        },
+        {
+          "word": "台所",
+          "reading": "だいどころ",
+          "gloss": "kitchen",
+          "priority": "high"
+        },
+        {
+          "word": "トイレ",
+          "reading": "といれ",
+          "gloss": "toilet; bathroom",
+          "priority": "high"
+        },
+        {
+          "word": "玄関",
+          "reading": "げんかん",
+          "gloss": "entrance; front door",
+          "priority": "high"
+        },
+        {
+          "word": "窓",
+          "reading": "まど",
+          "gloss": "window",
+          "priority": "high"
+        },
+        {
+          "word": "ドア",
+          "reading": "どあ",
+          "gloss": "door",
+          "priority": "high"
+        },
+        {
+          "word": "壁",
+          "reading": "かべ",
+          "gloss": "wall",
+          "priority": "medium"
+        },
+        {
+          "word": "床",
+          "reading": "ゆか",
+          "gloss": "floor",
+          "priority": "medium"
+        },
+        {
+          "word": "天井",
+          "reading": "てんじょう",
+          "gloss": "ceiling",
+          "priority": "medium"
+        },
+        {
+          "word": "屋根",
+          "reading": "やね",
+          "gloss": "roof",
+          "priority": "medium"
+        },
+        {
+          "word": "階段",
+          "reading": "かいだん",
+          "gloss": "stairs",
+          "priority": "medium"
+        },
+        {
+          "word": "椅子",
+          "reading": "いす",
+          "gloss": "chair",
+          "priority": "high"
+        },
+        {
+          "word": "机",
+          "reading": "つくえ",
+          "gloss": "desk",
+          "priority": "high"
+        },
+        {
+          "word": "テーブル",
+          "reading": "てーぶる",
+          "gloss": "table",
+          "priority": "high"
+        },
+        {
+          "word": "ベッド",
+          "reading": "べっど",
+          "gloss": "bed",
+          "priority": "high"
+        },
+        {
+          "word": "布団",
+          "reading": "ふとん",
+          "gloss": "futon",
+          "priority": "medium"
+        },
+        {
+          "word": "棚",
+          "reading": "たな",
+          "gloss": "shelf",
+          "priority": "medium"
+        },
+        {
+          "word": "引き出し",
+          "reading": "ひきだし",
+          "gloss": "drawer",
+          "priority": "medium"
+        },
+        {
+          "word": "庭",
+          "reading": "にわ",
+          "gloss": "garden; yard",
+          "priority": "medium"
+        },
+        {
+          "word": "畳",
+          "reading": "たたみ",
+          "gloss": "tatami mat",
+          "priority": "medium"
+        },
+        {
+          "word": "押入れ",
+          "reading": "おしいれ",
+          "gloss": "closet (Japanese style)",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "shopping_money",
+      "name": "Shopping and Money",
+      "description": "Commerce, money, and financial transactions",
+      "expected_words": [
+        {
+          "word": "買う",
+          "reading": "かう",
+          "gloss": "to buy",
+          "priority": "high"
+        },
+        {
+          "word": "売る",
+          "reading": "うる",
+          "gloss": "to sell",
+          "priority": "high"
+        },
+        {
+          "word": "払う",
+          "reading": "はらう",
+          "gloss": "to pay",
+          "priority": "high"
+        },
+        {
+          "word": "店",
+          "reading": "みせ",
+          "gloss": "shop; store",
+          "priority": "high"
+        },
+        {
+          "word": "値段",
+          "reading": "ねだん",
+          "gloss": "price",
+          "priority": "high"
+        },
+        {
+          "word": "安い",
+          "reading": "やすい",
+          "gloss": "cheap; inexpensive",
+          "priority": "high"
+        },
+        {
+          "word": "お金",
+          "reading": "おかね",
+          "gloss": "money",
+          "priority": "high"
+        },
+        {
+          "word": "お釣り",
+          "reading": "おつり",
+          "gloss": "change (money)",
+          "priority": "medium"
+        },
+        {
+          "word": "レジ",
+          "reading": "れじ",
+          "gloss": "cash register",
+          "priority": "medium"
+        },
+        {
+          "word": "割引",
+          "reading": "わりびき",
+          "gloss": "discount",
+          "priority": "medium"
+        },
+        {
+          "word": "税金",
+          "reading": "ぜいきん",
+          "gloss": "tax",
+          "priority": "medium"
+        },
+        {
+          "word": "クレジットカード",
+          "reading": "くれじっとかーど",
+          "gloss": "credit card",
+          "priority": "medium"
+        },
+        {
+          "word": "財布",
+          "reading": "さいふ",
+          "gloss": "wallet",
+          "priority": "medium"
+        },
+        {
+          "word": "預金",
+          "reading": "よきん",
+          "gloss": "deposit; savings",
+          "priority": "medium"
+        },
+        {
+          "word": "貯金",
+          "reading": "ちょきん",
+          "gloss": "savings",
+          "priority": "medium"
+        },
+        {
+          "word": "銀行",
+          "reading": "ぎんこう",
+          "gloss": "bank",
+          "priority": "high"
+        },
+        {
+          "word": "借りる",
+          "reading": "かりる",
+          "gloss": "to borrow",
+          "priority": "high"
+        },
+        {
+          "word": "貸す",
+          "reading": "かす",
+          "gloss": "to lend",
+          "priority": "high"
+        },
+        {
+          "word": "無料",
+          "reading": "むりょう",
+          "gloss": "free (no charge)",
+          "priority": "medium"
+        },
+        {
+          "word": "有料",
+          "reading": "ゆうりょう",
+          "gloss": "paid; charged",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "transportation",
+      "name": "Transportation",
+      "description": "Vehicles, travel, and getting around",
+      "expected_words": [
+        {
+          "word": "電車",
+          "reading": "でんしゃ",
+          "gloss": "train",
+          "priority": "high"
+        },
+        {
+          "word": "バス",
+          "reading": "ばす",
+          "gloss": "bus",
+          "priority": "high"
+        },
+        {
+          "word": "車",
+          "reading": "くるま",
+          "gloss": "car",
+          "priority": "high"
+        },
+        {
+          "word": "自転車",
+          "reading": "じてんしゃ",
+          "gloss": "bicycle",
+          "priority": "high"
+        },
+        {
+          "word": "飛行機",
+          "reading": "ひこうき",
+          "gloss": "airplane",
+          "priority": "high"
+        },
+        {
+          "word": "船",
+          "reading": "ふね",
+          "gloss": "ship; boat",
+          "priority": "high"
+        },
+        {
+          "word": "駅",
+          "reading": "えき",
+          "gloss": "station",
+          "priority": "high"
+        },
+        {
+          "word": "乗る",
+          "reading": "のる",
+          "gloss": "to ride; to get on",
+          "priority": "high"
+        },
+        {
+          "word": "降りる",
+          "reading": "おりる",
+          "gloss": "to get off",
+          "priority": "high"
+        },
+        {
+          "word": "運転",
+          "reading": "うんてん",
+          "gloss": "driving",
+          "priority": "high"
+        },
+        {
+          "word": "道",
+          "reading": "みち",
+          "gloss": "road; path",
+          "priority": "high"
+        },
+        {
+          "word": "橋",
+          "reading": "はし",
+          "gloss": "bridge",
+          "priority": "medium"
+        },
+        {
+          "word": "交差点",
+          "reading": "こうさてん",
+          "gloss": "intersection",
+          "priority": "medium"
+        },
+        {
+          "word": "信号",
+          "reading": "しんごう",
+          "gloss": "traffic light",
+          "priority": "medium"
+        },
+        {
+          "word": "切符",
+          "reading": "きっぷ",
+          "gloss": "ticket",
+          "priority": "high"
+        },
+        {
+          "word": "タクシー",
+          "reading": "たくしー",
+          "gloss": "taxi",
+          "priority": "medium"
+        },
+        {
+          "word": "地下鉄",
+          "reading": "ちかてつ",
+          "gloss": "subway",
+          "priority": "medium"
+        },
+        {
+          "word": "空港",
+          "reading": "くうこう",
+          "gloss": "airport",
+          "priority": "medium"
+        },
+        {
+          "word": "港",
+          "reading": "みなと",
+          "gloss": "harbor; port",
+          "priority": "low"
+        },
+        {
+          "word": "駐車場",
+          "reading": "ちゅうしゃじょう",
+          "gloss": "parking lot",
+          "priority": "medium"
+        },
+        {
+          "word": "歩く",
+          "reading": "あるく",
+          "gloss": "to walk",
+          "priority": "high"
+        },
+        {
+          "word": "走る",
+          "reading": "はしる",
+          "gloss": "to run",
+          "priority": "high"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "tools_devices",
+      "name": "Tools and Devices",
+      "description": "Common tools, appliances, and everyday devices",
+      "expected_words": [
+        {
+          "word": "鍵",
+          "reading": "かぎ",
+          "gloss": "key; lock",
+          "priority": "high"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "gloss": "telephone",
+          "priority": "high"
+        },
+        {
+          "word": "テレビ",
+          "reading": "てれび",
+          "gloss": "television",
+          "priority": "high"
+        },
+        {
+          "word": "冷蔵庫",
+          "reading": "れいぞうこ",
+          "gloss": "refrigerator",
+          "priority": "medium"
+        },
+        {
+          "word": "洗濯機",
+          "reading": "せんたくき",
+          "gloss": "washing machine",
+          "priority": "medium"
+        },
+        {
+          "word": "エアコン",
+          "reading": "えあこん",
+          "gloss": "air conditioner",
+          "priority": "medium"
+        },
+        {
+          "word": "電気",
+          "reading": "でんき",
+          "gloss": "electricity; light",
+          "priority": "high"
+        },
+        {
+          "word": "パソコン",
+          "reading": "ぱそこん",
+          "gloss": "personal computer",
+          "priority": "high"
+        },
+        {
+          "word": "カメラ",
+          "reading": "かめら",
+          "gloss": "camera",
+          "priority": "medium"
+        },
+        {
+          "word": "はさみ",
+          "reading": "はさみ",
+          "gloss": "scissors",
+          "priority": "medium"
+        },
+        {
+          "word": "ペン",
+          "reading": "ぺん",
+          "gloss": "pen",
+          "priority": "high"
+        },
+        {
+          "word": "鉛筆",
+          "reading": "えんぴつ",
+          "gloss": "pencil",
+          "priority": "high"
+        },
+        {
+          "word": "紙",
+          "reading": "かみ",
+          "gloss": "paper",
+          "priority": "high"
+        },
+        {
+          "word": "電池",
+          "reading": "でんち",
+          "gloss": "battery",
+          "priority": "medium"
+        },
+        {
+          "word": "道具",
+          "reading": "どうぐ",
+          "gloss": "tool; implement",
+          "priority": "medium"
+        },
+        {
+          "word": "針",
+          "reading": "はり",
+          "gloss": "needle",
+          "priority": "low"
+        },
+        {
+          "word": "糸",
+          "reading": "いと",
+          "gloss": "thread; string",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "household_chores",
+      "name": "Household Chores",
+      "description": "Cleaning, maintenance, and domestic tasks",
+      "expected_words": [
+        {
+          "word": "掃除",
+          "reading": "そうじ",
+          "gloss": "cleaning",
+          "priority": "high"
+        },
+        {
+          "word": "洗濯",
+          "reading": "せんたく",
+          "gloss": "laundry",
+          "priority": "high"
+        },
+        {
+          "word": "片付ける",
+          "reading": "かたづける",
+          "gloss": "to tidy up",
+          "priority": "high"
+        },
+        {
+          "word": "干す",
+          "reading": "ほす",
+          "gloss": "to hang out to dry",
+          "priority": "medium"
+        },
+        {
+          "word": "ゴミ",
+          "reading": "ごみ",
+          "gloss": "garbage; trash",
+          "priority": "high"
+        },
+        {
+          "word": "捨てる",
+          "reading": "すてる",
+          "gloss": "to throw away",
+          "priority": "high"
+        },
+        {
+          "word": "拾う",
+          "reading": "ひろう",
+          "gloss": "to pick up",
+          "priority": "medium"
+        },
+        {
+          "word": "磨く",
+          "reading": "みがく",
+          "gloss": "to polish; to brush",
+          "priority": "medium"
+        },
+        {
+          "word": "拭く",
+          "reading": "ふく",
+          "gloss": "to wipe",
+          "priority": "medium"
+        },
+        {
+          "word": "畳む",
+          "reading": "たたむ",
+          "gloss": "to fold",
+          "priority": "medium"
+        },
+        {
+          "word": "アイロン",
+          "reading": "あいろん",
+          "gloss": "iron (clothes)",
+          "priority": "low"
+        },
+        {
+          "word": "修理",
+          "reading": "しゅうり",
+          "gloss": "repair",
+          "priority": "medium"
+        },
+        {
+          "word": "整理",
+          "reading": "せいり",
+          "gloss": "organize; sort",
+          "priority": "medium"
+        },
+        {
+          "word": "掃く",
+          "reading": "はく",
+          "gloss": "to sweep",
+          "priority": "medium"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "meals_eating",
+      "name": "Meals and Eating",
+      "description": "Meal times, table items, and eating-related vocabulary",
+      "expected_words": [
+        {
+          "word": "朝ご飯",
+          "reading": "あさごはん",
+          "gloss": "breakfast",
+          "priority": "high"
+        },
+        {
+          "word": "昼ご飯",
+          "reading": "ひるごはん",
+          "gloss": "lunch",
+          "priority": "high"
+        },
+        {
+          "word": "晩ご飯",
+          "reading": "ばんごはん",
+          "gloss": "dinner",
+          "priority": "high"
+        },
+        {
+          "word": "おやつ",
+          "reading": "おやつ",
+          "gloss": "snack",
+          "priority": "medium"
+        },
+        {
+          "word": "箸",
+          "reading": "はし",
+          "gloss": "chopsticks",
+          "priority": "high"
+        },
+        {
+          "word": "皿",
+          "reading": "さら",
+          "gloss": "plate; dish",
+          "priority": "high"
+        },
+        {
+          "word": "茶碗",
+          "reading": "ちゃわん",
+          "gloss": "rice bowl; teacup",
+          "priority": "medium"
+        },
+        {
+          "word": "コップ",
+          "reading": "こっぷ",
+          "gloss": "glass; cup",
+          "priority": "medium"
+        },
+        {
+          "word": "スプーン",
+          "reading": "すぷーん",
+          "gloss": "spoon",
+          "priority": "medium"
+        },
+        {
+          "word": "フォーク",
+          "reading": "ふぉーく",
+          "gloss": "fork",
+          "priority": "medium"
+        },
+        {
+          "word": "ナイフ",
+          "reading": "ないふ",
+          "gloss": "knife",
+          "priority": "medium"
+        },
+        {
+          "word": "お腹",
+          "reading": "おなか",
+          "gloss": "stomach; belly",
+          "priority": "high"
+        },
+        {
+          "word": "食事",
+          "reading": "しょくじ",
+          "gloss": "meal",
+          "priority": "high"
+        },
+        {
+          "word": "注文",
+          "reading": "ちゅうもん",
+          "gloss": "order (food)",
+          "priority": "high"
+        },
+        {
+          "word": "レストラン",
+          "reading": "れすとらん",
+          "gloss": "restaurant",
+          "priority": "high"
+        },
+        {
+          "word": "満腹",
+          "reading": "まんぷく",
+          "gloss": "full (stomach)",
+          "priority": "low"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "personal_items",
+      "name": "Personal Items",
+      "description": "Items people carry or use daily",
+      "expected_words": [
+        {
+          "word": "携帯",
+          "reading": "けいたい",
+          "gloss": "mobile phone",
+          "priority": "high"
+        },
+        {
+          "word": "スマホ",
+          "reading": "すまほ",
+          "gloss": "smartphone",
+          "priority": "high"
+        },
+        {
+          "word": "定期券",
+          "reading": "ていきけん",
+          "gloss": "commuter pass",
+          "priority": "medium"
+        },
+        {
+          "word": "名刺",
+          "reading": "めいし",
+          "gloss": "business card",
+          "priority": "medium"
+        },
+        {
+          "word": "ハンカチ",
+          "reading": "はんかち",
+          "gloss": "handkerchief",
+          "priority": "medium"
+        },
+        {
+          "word": "化粧品",
+          "reading": "けしょうひん",
+          "gloss": "cosmetics",
+          "priority": "medium"
+        },
+        {
+          "word": "写真",
+          "reading": "しゃしん",
+          "gloss": "photograph",
+          "priority": "high"
+        },
+        {
+          "word": "本",
+          "reading": "ほん",
+          "gloss": "book",
+          "priority": "high"
+        },
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "gloss": "magazine",
+          "priority": "medium"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "gloss": "newspaper",
+          "priority": "high"
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "gloss": "letter",
+          "priority": "high"
+        },
+        {
+          "word": "地図",
+          "reading": "ちず",
+          "gloss": "map",
+          "priority": "medium"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "gloss": "dictionary",
+          "priority": "high"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "places_around_town",
+      "name": "Places Around Town",
+      "description": "Buildings, facilities, and locations in a town or city",
+      "expected_words": [
+        {
+          "word": "公園",
+          "reading": "こうえん",
+          "gloss": "park",
+          "priority": "high"
+        },
+        {
+          "word": "病院",
+          "reading": "びょういん",
+          "gloss": "hospital",
+          "priority": "high"
+        },
+        {
+          "word": "郵便局",
+          "reading": "ゆうびんきょく",
+          "gloss": "post office",
+          "priority": "high"
+        },
+        {
+          "word": "交番",
+          "reading": "こうばん",
+          "gloss": "police box",
+          "priority": "medium"
+        },
+        {
+          "word": "デパート",
+          "reading": "でぱーと",
+          "gloss": "department store",
+          "priority": "medium"
+        },
+        {
+          "word": "スーパー",
+          "reading": "すーぱー",
+          "gloss": "supermarket",
+          "priority": "high"
+        },
+        {
+          "word": "コンビニ",
+          "reading": "こんびに",
+          "gloss": "convenience store",
+          "priority": "high"
+        },
+        {
+          "word": "薬局",
+          "reading": "やっきょく",
+          "gloss": "pharmacy",
+          "priority": "medium"
+        },
+        {
+          "word": "映画館",
+          "reading": "えいがかん",
+          "gloss": "movie theater",
+          "priority": "medium"
+        },
+        {
+          "word": "ホテル",
+          "reading": "ほてる",
+          "gloss": "hotel",
+          "priority": "medium"
+        },
+        {
+          "word": "旅館",
+          "reading": "りょかん",
+          "gloss": "Japanese inn",
+          "priority": "medium"
+        },
+        {
+          "word": "プール",
+          "reading": "ぷーる",
+          "gloss": "pool",
+          "priority": "medium"
+        },
+        {
+          "word": "体育館",
+          "reading": "たいいくかん",
+          "gloss": "gymnasium",
+          "priority": "medium"
+        },
+        {
+          "word": "喫茶店",
+          "reading": "きっさてん",
+          "gloss": "coffee shop; cafe",
+          "priority": "medium"
+        },
+        {
+          "word": "本屋",
+          "reading": "ほんや",
+          "gloss": "bookstore",
+          "priority": "medium"
+        },
+        {
+          "word": "花屋",
+          "reading": "はなや",
+          "gloss": "flower shop",
+          "priority": "medium"
+        },
+        {
+          "word": "美容院",
+          "reading": "びよういん",
+          "gloss": "beauty salon",
+          "priority": "medium"
+        },
+        {
+          "word": "工場",
+          "reading": "こうじょう",
+          "gloss": "factory",
+          "priority": "medium"
+        },
+        {
+          "word": "教会",
+          "reading": "きょうかい",
+          "gloss": "church",
+          "priority": "low"
+        },
+        {
+          "word": "動物園",
+          "reading": "どうぶつえん",
+          "gloss": "zoo",
+          "priority": "medium"
+        },
+        {
+          "word": "遊園地",
+          "reading": "ゆうえんち",
+          "gloss": "amusement park",
+          "priority": "medium"
+        },
+        {
+          "word": "市場",
+          "reading": "いちば",
+          "gloss": "market",
+          "priority": "medium"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "travel_tourism",
+      "name": "Travel and Tourism",
+      "description": "Travel, tourism, and trip-related vocabulary",
+      "expected_words": [
+        {
+          "word": "旅行",
+          "reading": "りょこう",
+          "gloss": "travel; trip",
+          "priority": "high"
+        },
+        {
+          "word": "観光",
+          "reading": "かんこう",
+          "gloss": "sightseeing",
+          "priority": "medium"
+        },
+        {
+          "word": "予約",
+          "reading": "よやく",
+          "gloss": "reservation",
+          "priority": "high"
+        },
+        {
+          "word": "荷物",
+          "reading": "にもつ",
+          "gloss": "luggage; baggage",
+          "priority": "high"
+        },
+        {
+          "word": "パスポート",
+          "reading": "ぱすぽーと",
+          "gloss": "passport",
+          "priority": "medium"
+        },
+        {
+          "word": "外国",
+          "reading": "がいこく",
+          "gloss": "foreign country",
+          "priority": "high"
+        },
+        {
+          "word": "出発",
+          "reading": "しゅっぱつ",
+          "gloss": "departure",
+          "priority": "high"
+        },
+        {
+          "word": "到着",
+          "reading": "とうちゃく",
+          "gloss": "arrival",
+          "priority": "high"
+        },
+        {
+          "word": "泊まる",
+          "reading": "とまる",
+          "gloss": "to stay (overnight)",
+          "priority": "high"
+        },
+        {
+          "word": "案内",
+          "reading": "あんない",
+          "gloss": "guidance; information",
+          "priority": "medium"
+        },
+        {
+          "word": "土産",
+          "reading": "みやげ",
+          "gloss": "souvenir",
+          "priority": "medium"
+        },
+        {
+          "word": "往復",
+          "reading": "おうふく",
+          "gloss": "round trip",
+          "priority": "medium"
+        },
+        {
+          "word": "片道",
+          "reading": "かたみち",
+          "gloss": "one way",
+          "priority": "medium"
+        },
+        {
+          "word": "乗り換え",
+          "reading": "のりかえ",
+          "gloss": "transfer (transportation)",
+          "priority": "medium"
+        },
+        {
+          "word": "迷子",
+          "reading": "まいご",
+          "gloss": "lost child; getting lost",
+          "priority": "medium"
+        },
+        {
+          "word": "景色",
+          "reading": "けしき",
+          "gloss": "scenery; view",
+          "priority": "medium"
+        },
+        {
+          "word": "名所",
+          "reading": "めいしょ",
+          "gloss": "famous place",
+          "priority": "medium"
+        },
+        {
+          "word": "温泉",
+          "reading": "おんせん",
+          "gloss": "hot spring",
+          "priority": "medium"
+        },
+        {
+          "word": "ガイド",
+          "reading": "がいど",
+          "gloss": "guide",
+          "priority": "medium"
+        }
+      ],
+      "category": "daily_life"
+    },
+    {
+      "id": "greetings_social",
+      "name": "Greetings and Social Expressions",
+      "description": "Common greetings, social phrases, and politeness expressions",
+      "expected_words": [
+        {
+          "word": "挨拶",
+          "reading": "あいさつ",
+          "gloss": "greeting",
+          "priority": "high"
+        },
+        {
+          "word": "お礼",
+          "reading": "おれい",
+          "gloss": "thanks; gratitude",
+          "priority": "high"
+        },
+        {
+          "word": "お願い",
+          "reading": "おねがい",
+          "gloss": "request; please",
+          "priority": "high"
+        },
+        {
+          "word": "失礼",
+          "reading": "しつれい",
+          "gloss": "rudeness; excuse me",
+          "priority": "high"
+        },
+        {
+          "word": "遠慮",
+          "reading": "えんりょ",
+          "gloss": "reserve; restraint",
+          "priority": "medium"
+        },
+        {
+          "word": "お祝い",
+          "reading": "おいわい",
+          "gloss": "celebration; congratulations",
+          "priority": "medium"
+        },
+        {
+          "word": "お見舞い",
+          "reading": "おみまい",
+          "gloss": "visiting the sick",
+          "priority": "medium"
+        },
+        {
+          "word": "お土産",
+          "reading": "おみやげ",
+          "gloss": "souvenir; gift",
+          "priority": "medium"
+        },
+        {
+          "word": "お世話",
+          "reading": "おせわ",
+          "gloss": "care; assistance",
+          "priority": "medium"
+        },
+        {
+          "word": "謝る",
+          "reading": "あやまる",
+          "gloss": "to apologize",
+          "priority": "high"
+        },
+        {
+          "word": "褒める",
+          "reading": "ほめる",
+          "gloss": "to praise",
+          "priority": "medium"
+        },
+        {
+          "word": "招待",
+          "reading": "しょうたい",
+          "gloss": "invitation",
+          "priority": "medium"
+        },
+        {
+          "word": "紹介",
+          "reading": "しょうかい",
+          "gloss": "introduction",
+          "priority": "high"
+        },
+        {
+          "word": "約束",
+          "reading": "やくそく",
+          "gloss": "promise; appointment",
+          "priority": "high"
+        },
+        {
+          "word": "礼儀",
+          "reading": "れいぎ",
+          "gloss": "manners; etiquette",
+          "priority": "medium"
+        },
+        {
+          "word": "丁寧",
+          "reading": "ていねい",
+          "gloss": "polite; careful",
+          "priority": "high"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "materials_substances",
+      "name": "Materials and Substances",
+      "description": "Common materials, substances, and matter",
+      "expected_words": [
+        {
+          "word": "金属",
+          "reading": "きんぞく",
+          "gloss": "metal",
+          "priority": "medium"
+        },
+        {
+          "word": "鉄",
+          "reading": "てつ",
+          "gloss": "iron; steel",
+          "priority": "medium"
+        },
+        {
+          "word": "金",
+          "reading": "きん",
+          "gloss": "gold",
+          "priority": "medium"
+        },
+        {
+          "word": "銀",
+          "reading": "ぎん",
+          "gloss": "silver",
+          "priority": "medium"
+        },
+        {
+          "word": "木材",
+          "reading": "もくざい",
+          "gloss": "lumber; wood",
+          "priority": "low"
+        },
+        {
+          "word": "ガラス",
+          "reading": "がらす",
+          "gloss": "glass",
+          "priority": "medium"
+        },
+        {
+          "word": "プラスチック",
+          "reading": "ぷらすちっく",
+          "gloss": "plastic",
+          "priority": "medium"
+        },
+        {
+          "word": "布",
+          "reading": "ぬの",
+          "gloss": "cloth; fabric",
+          "priority": "medium"
+        },
+        {
+          "word": "皮",
+          "reading": "かわ",
+          "gloss": "leather; skin",
+          "priority": "medium"
+        },
+        {
+          "word": "ゴム",
+          "reading": "ごむ",
+          "gloss": "rubber",
+          "priority": "low"
+        },
+        {
+          "word": "油",
+          "reading": "あぶら",
+          "gloss": "oil",
+          "priority": "medium"
+        },
+        {
+          "word": "氷",
+          "reading": "こおり",
+          "gloss": "ice",
+          "priority": "medium"
+        },
+        {
+          "word": "煙",
+          "reading": "けむり",
+          "gloss": "smoke",
+          "priority": "medium"
+        },
+        {
+          "word": "灰",
+          "reading": "はい",
+          "gloss": "ash",
+          "priority": "low"
+        },
+        {
+          "word": "綿",
+          "reading": "めん",
+          "gloss": "cotton",
+          "priority": "low"
+        },
+        {
+          "word": "材料",
+          "reading": "ざいりょう",
+          "gloss": "material; ingredient",
+          "priority": "medium"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "abstract_concepts",
+      "name": "Abstract Concepts",
+      "description": "Abstract nouns for thinking, reasoning, and general concepts",
+      "expected_words": [
+        {
+          "word": "考える",
+          "reading": "かんがえる",
+          "gloss": "to think",
+          "priority": "high"
+        },
+        {
+          "word": "思う",
+          "reading": "おもう",
+          "gloss": "to think; to feel",
+          "priority": "high"
+        },
+        {
+          "word": "知る",
+          "reading": "しる",
+          "gloss": "to know",
+          "priority": "high"
+        },
+        {
+          "word": "分かる",
+          "reading": "わかる",
+          "gloss": "to understand",
+          "priority": "high"
+        },
+        {
+          "word": "意味",
+          "reading": "いみ",
+          "gloss": "meaning",
+          "priority": "high"
+        },
+        {
+          "word": "理由",
+          "reading": "りゆう",
+          "gloss": "reason; cause",
+          "priority": "high"
+        },
+        {
+          "word": "目的",
+          "reading": "もくてき",
+          "gloss": "purpose; objective",
+          "priority": "medium"
+        },
+        {
+          "word": "原因",
+          "reading": "げんいん",
+          "gloss": "cause; origin",
+          "priority": "medium"
+        },
+        {
+          "word": "結果",
+          "reading": "けっか",
+          "gloss": "result; outcome",
+          "priority": "medium"
+        },
+        {
+          "word": "関係",
+          "reading": "かんけい",
+          "gloss": "relation; connection",
+          "priority": "high"
+        },
+        {
+          "word": "影響",
+          "reading": "えいきょう",
+          "gloss": "influence; effect",
+          "priority": "medium"
+        },
+        {
+          "word": "可能",
+          "reading": "かのう",
+          "gloss": "possible",
+          "priority": "medium"
+        },
+        {
+          "word": "不可能",
+          "reading": "ふかのう",
+          "gloss": "impossible",
+          "priority": "medium"
+        },
+        {
+          "word": "必要",
+          "reading": "ひつよう",
+          "gloss": "necessary; needed",
+          "priority": "high"
+        },
+        {
+          "word": "自由",
+          "reading": "じゆう",
+          "gloss": "freedom",
+          "priority": "high"
+        },
+        {
+          "word": "事実",
+          "reading": "じじつ",
+          "gloss": "fact; truth",
+          "priority": "medium"
+        },
+        {
+          "word": "秘密",
+          "reading": "ひみつ",
+          "gloss": "secret",
+          "priority": "medium"
+        },
+        {
+          "word": "夢",
+          "reading": "ゆめ",
+          "gloss": "dream",
+          "priority": "high"
+        },
+        {
+          "word": "希望",
+          "reading": "きぼう",
+          "gloss": "hope; wish",
+          "priority": "medium"
+        },
+        {
+          "word": "努力",
+          "reading": "どりょく",
+          "gloss": "effort",
+          "priority": "medium"
+        },
+        {
+          "word": "経験",
+          "reading": "けいけん",
+          "gloss": "experience",
+          "priority": "medium"
+        },
+        {
+          "word": "成功",
+          "reading": "せいこう",
+          "gloss": "success",
+          "priority": "medium"
+        },
+        {
+          "word": "失敗",
+          "reading": "しっぱい",
+          "gloss": "failure",
+          "priority": "medium"
+        },
+        {
+          "word": "比較",
+          "reading": "ひかく",
+          "gloss": "comparison",
+          "priority": "medium"
+        },
+        {
+          "word": "変化",
+          "reading": "へんか",
+          "gloss": "change; transformation",
+          "priority": "medium"
+        },
+        {
+          "word": "状態",
+          "reading": "じょうたい",
+          "gloss": "state; condition",
+          "priority": "medium"
+        },
+        {
+          "word": "程度",
+          "reading": "ていど",
+          "gloss": "degree; extent",
+          "priority": "medium"
+        },
+        {
+          "word": "種類",
+          "reading": "しゅるい",
+          "gloss": "type; kind",
+          "priority": "medium"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "language_terms",
+      "name": "Language Terms",
+      "description": "Words about language, words, and linguistic concepts",
+      "expected_words": [
+        {
+          "word": "言葉",
+          "reading": "ことば",
+          "gloss": "word; language",
+          "priority": "high"
+        },
+        {
+          "word": "文",
+          "reading": "ぶん",
+          "gloss": "sentence",
+          "priority": "high"
+        },
+        {
+          "word": "文字",
+          "reading": "もじ",
+          "gloss": "character; letter",
+          "priority": "high"
+        },
+        {
+          "word": "漢字",
+          "reading": "かんじ",
+          "gloss": "kanji; Chinese character",
+          "priority": "high"
+        },
+        {
+          "word": "文法",
+          "reading": "ぶんぽう",
+          "gloss": "grammar",
+          "priority": "medium"
+        },
+        {
+          "word": "発音",
+          "reading": "はつおん",
+          "gloss": "pronunciation",
+          "priority": "medium"
+        },
+        {
+          "word": "会話",
+          "reading": "かいわ",
+          "gloss": "conversation",
+          "priority": "high"
+        },
+        {
+          "word": "日本語",
+          "reading": "にほんご",
+          "gloss": "Japanese language",
+          "priority": "high"
+        },
+        {
+          "word": "英語",
+          "reading": "えいご",
+          "gloss": "English language",
+          "priority": "high"
+        },
+        {
+          "word": "外国語",
+          "reading": "がいこくご",
+          "gloss": "foreign language",
+          "priority": "medium"
+        },
+        {
+          "word": "訳",
+          "reading": "やく",
+          "gloss": "translation; meaning",
+          "priority": "medium"
+        },
+        {
+          "word": "表現",
+          "reading": "ひょうげん",
+          "gloss": "expression",
+          "priority": "medium"
+        },
+        {
+          "word": "敬語",
+          "reading": "けいご",
+          "gloss": "honorific language",
+          "priority": "medium"
+        },
+        {
+          "word": "方言",
+          "reading": "ほうげん",
+          "gloss": "dialect",
+          "priority": "low"
+        },
+        {
+          "word": "辞書",
+          "reading": "じしょ",
+          "gloss": "dictionary",
+          "priority": "high"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "evaluation_judgment",
+      "name": "Evaluation and Judgment",
+      "description": "Words for evaluating, judging, and expressing opinions",
+      "expected_words": [
+        {
+          "word": "良い",
+          "reading": "よい",
+          "gloss": "good",
+          "priority": "high"
+        },
+        {
+          "word": "悪い",
+          "reading": "わるい",
+          "gloss": "bad",
+          "priority": "high"
+        },
+        {
+          "word": "正しい",
+          "reading": "ただしい",
+          "gloss": "correct; right",
+          "priority": "high"
+        },
+        {
+          "word": "間違い",
+          "reading": "まちがい",
+          "gloss": "mistake; error",
+          "priority": "high"
+        },
+        {
+          "word": "普通",
+          "reading": "ふつう",
+          "gloss": "normal; ordinary",
+          "priority": "high"
+        },
+        {
+          "word": "特別",
+          "reading": "とくべつ",
+          "gloss": "special",
+          "priority": "high"
+        },
+        {
+          "word": "大切",
+          "reading": "たいせつ",
+          "gloss": "important; precious",
+          "priority": "high"
+        },
+        {
+          "word": "便利",
+          "reading": "べんり",
+          "gloss": "convenient",
+          "priority": "high"
+        },
+        {
+          "word": "不便",
+          "reading": "ふべん",
+          "gloss": "inconvenient",
+          "priority": "medium"
+        },
+        {
+          "word": "簡単",
+          "reading": "かんたん",
+          "gloss": "easy; simple",
+          "priority": "high"
+        },
+        {
+          "word": "難しい",
+          "reading": "むずかしい",
+          "gloss": "difficult",
+          "priority": "high"
+        },
+        {
+          "word": "複雑",
+          "reading": "ふくざつ",
+          "gloss": "complicated",
+          "priority": "medium"
+        },
+        {
+          "word": "立派",
+          "reading": "りっぱ",
+          "gloss": "splendid; fine",
+          "priority": "medium"
+        },
+        {
+          "word": "素晴らしい",
+          "reading": "すばらしい",
+          "gloss": "wonderful; excellent",
+          "priority": "high"
+        },
+        {
+          "word": "駄目",
+          "reading": "だめ",
+          "gloss": "no good; useless",
+          "priority": "high"
+        },
+        {
+          "word": "無駄",
+          "reading": "むだ",
+          "gloss": "wasteful; useless",
+          "priority": "medium"
+        },
+        {
+          "word": "適切",
+          "reading": "てきせつ",
+          "gloss": "appropriate",
+          "priority": "medium"
+        },
+        {
+          "word": "十分",
+          "reading": "じゅうぶん",
+          "gloss": "sufficient; enough",
+          "priority": "high"
+        },
+        {
+          "word": "完璧",
+          "reading": "かんぺき",
+          "gloss": "perfect; flawless",
+          "priority": "medium"
+        },
+        {
+          "word": "曖昧",
+          "reading": "あいまい",
+          "gloss": "vague; ambiguous",
+          "priority": "medium"
+        },
+        {
+          "word": "新しい",
+          "reading": "あたらしい",
+          "gloss": "new",
+          "priority": "high"
+        },
+        {
+          "word": "古い",
+          "reading": "ふるい",
+          "gloss": "old",
+          "priority": "high"
+        },
+        {
+          "word": "珍しい",
+          "reading": "めずらしい",
+          "gloss": "rare; unusual",
+          "priority": "medium"
+        },
+        {
+          "word": "面白い",
+          "reading": "おもしろい",
+          "gloss": "interesting; funny",
+          "priority": "high"
+        },
+        {
+          "word": "つまらない",
+          "reading": "つまらない",
+          "gloss": "boring; dull",
+          "priority": "high"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "existence_possession",
+      "name": "Existence and Possession",
+      "description": "Words for existing, having, belonging, and appearing",
+      "expected_words": [
+        {
+          "word": "ある",
+          "reading": "ある",
+          "gloss": "to exist (inanimate)",
+          "priority": "high"
+        },
+        {
+          "word": "いる",
+          "reading": "いる",
+          "gloss": "to exist (animate)",
+          "priority": "high"
+        },
+        {
+          "word": "なる",
+          "reading": "なる",
+          "gloss": "to become",
+          "priority": "high"
+        },
+        {
+          "word": "できる",
+          "reading": "できる",
+          "gloss": "to be able; to be made",
+          "priority": "high"
+        },
+        {
+          "word": "要る",
+          "reading": "いる",
+          "gloss": "to need",
+          "priority": "high"
+        },
+        {
+          "word": "欲しい",
+          "reading": "ほしい",
+          "gloss": "wanted; desired",
+          "priority": "high"
+        },
+        {
+          "word": "残る",
+          "reading": "のこる",
+          "gloss": "to remain; to be left",
+          "priority": "medium"
+        },
+        {
+          "word": "無くなる",
+          "reading": "なくなる",
+          "gloss": "to disappear; to run out",
+          "priority": "medium"
+        },
+        {
+          "word": "現れる",
+          "reading": "あらわれる",
+          "gloss": "to appear",
+          "priority": "medium"
+        },
+        {
+          "word": "消える",
+          "reading": "きえる",
+          "gloss": "to disappear; to go out",
+          "priority": "medium"
+        },
+        {
+          "word": "含む",
+          "reading": "ふくむ",
+          "gloss": "to include; to contain",
+          "priority": "medium"
+        },
+        {
+          "word": "属する",
+          "reading": "ぞくする",
+          "gloss": "to belong to",
+          "priority": "low"
+        },
+        {
+          "word": "存在",
+          "reading": "そんざい",
+          "gloss": "existence",
+          "priority": "medium"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "change_comparison",
+      "name": "Change and Comparison",
+      "description": "Words for comparing, changing, and contrasting",
+      "expected_words": [
+        {
+          "word": "変わる",
+          "reading": "かわる",
+          "gloss": "to change (intransitive)",
+          "priority": "high"
+        },
+        {
+          "word": "変える",
+          "reading": "かえる",
+          "gloss": "to change (transitive)",
+          "priority": "high"
+        },
+        {
+          "word": "同じ",
+          "reading": "おなじ",
+          "gloss": "same",
+          "priority": "high"
+        },
+        {
+          "word": "違う",
+          "reading": "ちがう",
+          "gloss": "to differ; to be wrong",
+          "priority": "high"
+        },
+        {
+          "word": "比べる",
+          "reading": "くらべる",
+          "gloss": "to compare",
+          "priority": "medium"
+        },
+        {
+          "word": "似る",
+          "reading": "にる",
+          "gloss": "to resemble",
+          "priority": "high"
+        },
+        {
+          "word": "代わり",
+          "reading": "かわり",
+          "gloss": "substitute; replacement",
+          "priority": "medium"
+        },
+        {
+          "word": "反対",
+          "reading": "はんたい",
+          "gloss": "opposite; opposition",
+          "priority": "high"
+        },
+        {
+          "word": "逆",
+          "reading": "ぎゃく",
+          "gloss": "reverse; opposite",
+          "priority": "medium"
+        },
+        {
+          "word": "別",
+          "reading": "べつ",
+          "gloss": "different; separate",
+          "priority": "high"
+        },
+        {
+          "word": "共通",
+          "reading": "きょうつう",
+          "gloss": "common; shared",
+          "priority": "medium"
+        },
+        {
+          "word": "差",
+          "reading": "さ",
+          "gloss": "difference; gap",
+          "priority": "medium"
+        },
+        {
+          "word": "区別",
+          "reading": "くべつ",
+          "gloss": "distinction; differentiation",
+          "priority": "medium"
+        },
+        {
+          "word": "増やす",
+          "reading": "ふやす",
+          "gloss": "to increase (transitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "減らす",
+          "reading": "へらす",
+          "gloss": "to decrease (transitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "続く",
+          "reading": "つづく",
+          "gloss": "to continue",
+          "priority": "high"
+        },
+        {
+          "word": "続ける",
+          "reading": "つづける",
+          "gloss": "to continue (transitive)",
+          "priority": "high"
+        },
+        {
+          "word": "始まる",
+          "reading": "はじまる",
+          "gloss": "to begin (intransitive)",
+          "priority": "high"
+        },
+        {
+          "word": "始める",
+          "reading": "はじめる",
+          "gloss": "to begin (transitive)",
+          "priority": "high"
+        },
+        {
+          "word": "終わる",
+          "reading": "おわる",
+          "gloss": "to end; to finish",
+          "priority": "high"
+        },
+        {
+          "word": "やめる",
+          "reading": "やめる",
+          "gloss": "to stop; to quit",
+          "priority": "high"
+        },
+        {
+          "word": "繰り返す",
+          "reading": "くりかえす",
+          "gloss": "to repeat",
+          "priority": "medium"
+        },
+        {
+          "word": "戻す",
+          "reading": "もどす",
+          "gloss": "to return; to put back",
+          "priority": "medium"
+        },
+        {
+          "word": "替える",
+          "reading": "かえる",
+          "gloss": "to replace; to exchange",
+          "priority": "medium"
+        },
+        {
+          "word": "進歩",
+          "reading": "しんぽ",
+          "gloss": "progress; advancement",
+          "priority": "medium"
+        },
+        {
+          "word": "発展",
+          "reading": "はってん",
+          "gloss": "development; expansion",
+          "priority": "medium"
+        },
+        {
+          "word": "悪化",
+          "reading": "あっか",
+          "gloss": "deterioration; worsening",
+          "priority": "medium"
+        },
+        {
+          "word": "改善",
+          "reading": "かいぜん",
+          "gloss": "improvement",
+          "priority": "medium"
+        },
+        {
+          "word": "完成",
+          "reading": "かんせい",
+          "gloss": "completion",
+          "priority": "medium"
+        },
+        {
+          "word": "準備",
+          "reading": "じゅんび",
+          "gloss": "preparation",
+          "priority": "high"
+        },
+        {
+          "word": "途中",
+          "reading": "とちゅう",
+          "gloss": "on the way; midway",
+          "priority": "high"
+        },
+        {
+          "word": "最初",
+          "reading": "さいしょ",
+          "gloss": "first; beginning",
+          "priority": "high"
+        },
+        {
+          "word": "最後",
+          "reading": "さいご",
+          "gloss": "last; final",
+          "priority": "high"
+        },
+        {
+          "word": "次",
+          "reading": "つぎ",
+          "gloss": "next",
+          "priority": "high"
+        }
+      ],
+      "category": "language"
+    },
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Weather conditions, phenomena, and forecasting",
+      "expected_words": [
+        {
+          "word": "天気",
+          "reading": "てんき",
+          "gloss": "weather",
+          "priority": "high"
+        },
+        {
+          "word": "雨",
+          "reading": "あめ",
+          "gloss": "rain",
+          "priority": "high"
+        },
+        {
+          "word": "雪",
+          "reading": "ゆき",
+          "gloss": "snow",
+          "priority": "high"
+        },
+        {
+          "word": "風",
+          "reading": "かぜ",
+          "gloss": "wind",
+          "priority": "high"
+        },
+        {
+          "word": "雲",
+          "reading": "くも",
+          "gloss": "cloud",
+          "priority": "high"
+        },
+        {
+          "word": "晴れる",
+          "reading": "はれる",
+          "gloss": "to clear up (weather)",
+          "priority": "high"
+        },
+        {
+          "word": "曇る",
+          "reading": "くもる",
+          "gloss": "to become cloudy",
+          "priority": "high"
+        },
+        {
+          "word": "降る",
+          "reading": "ふる",
+          "gloss": "to fall (rain/snow)",
+          "priority": "high"
+        },
+        {
+          "word": "暑い",
+          "reading": "あつい",
+          "gloss": "hot (weather)",
+          "priority": "high"
+        },
+        {
+          "word": "寒い",
+          "reading": "さむい",
+          "gloss": "cold (weather)",
+          "priority": "high"
+        },
+        {
+          "word": "涼しい",
+          "reading": "すずしい",
+          "gloss": "cool; refreshing",
+          "priority": "high"
+        },
+        {
+          "word": "暖かい",
+          "reading": "あたたかい",
+          "gloss": "warm",
+          "priority": "high"
+        },
+        {
+          "word": "台風",
+          "reading": "たいふう",
+          "gloss": "typhoon",
+          "priority": "medium"
+        },
+        {
+          "word": "雷",
+          "reading": "かみなり",
+          "gloss": "thunder; lightning",
+          "priority": "medium"
+        },
+        {
+          "word": "霧",
+          "reading": "きり",
+          "gloss": "fog; mist",
+          "priority": "medium"
+        },
+        {
+          "word": "湿度",
+          "reading": "しつど",
+          "gloss": "humidity",
+          "priority": "medium"
+        },
+        {
+          "word": "温度",
+          "reading": "おんど",
+          "gloss": "temperature",
+          "priority": "medium"
+        },
+        {
+          "word": "天気予報",
+          "reading": "てんきよほう",
+          "gloss": "weather forecast",
+          "priority": "medium"
+        },
+        {
+          "word": "梅雨",
+          "reading": "つゆ",
+          "gloss": "rainy season",
+          "priority": "medium"
+        },
+        {
+          "word": "虹",
+          "reading": "にじ",
+          "gloss": "rainbow",
+          "priority": "low"
+        },
+        {
+          "word": "蒸し暑い",
+          "reading": "むしあつい",
+          "gloss": "humid and hot",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "seasons",
+      "name": "Seasons",
+      "description": "Four seasons and seasonal activities/concepts",
+      "expected_words": [
+        {
+          "word": "春",
+          "reading": "はる",
+          "gloss": "spring",
+          "priority": "high"
+        },
+        {
+          "word": "夏",
+          "reading": "なつ",
+          "gloss": "summer",
+          "priority": "high"
+        },
+        {
+          "word": "秋",
+          "reading": "あき",
+          "gloss": "autumn",
+          "priority": "high"
+        },
+        {
+          "word": "冬",
+          "reading": "ふゆ",
+          "gloss": "winter",
+          "priority": "high"
+        },
+        {
+          "word": "季節",
+          "reading": "きせつ",
+          "gloss": "season",
+          "priority": "high"
+        },
+        {
+          "word": "桜",
+          "reading": "さくら",
+          "gloss": "cherry blossom",
+          "priority": "high"
+        },
+        {
+          "word": "花見",
+          "reading": "はなみ",
+          "gloss": "cherry blossom viewing",
+          "priority": "medium"
+        },
+        {
+          "word": "紅葉",
+          "reading": "こうよう",
+          "gloss": "autumn leaves",
+          "priority": "medium"
+        },
+        {
+          "word": "花火",
+          "reading": "はなび",
+          "gloss": "fireworks",
+          "priority": "medium"
+        },
+        {
+          "word": "正月",
+          "reading": "しょうがつ",
+          "gloss": "New Year",
+          "priority": "medium"
+        },
+        {
+          "word": "祭り",
+          "reading": "まつり",
+          "gloss": "festival",
+          "priority": "high"
+        },
+        {
+          "word": "年末",
+          "reading": "ねんまつ",
+          "gloss": "year-end",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "description": "Common animals including pets, farm animals, and wildlife",
+      "expected_words": [
+        {
+          "word": "犬",
+          "reading": "いぬ",
+          "gloss": "dog",
+          "priority": "high"
+        },
+        {
+          "word": "猫",
+          "reading": "ねこ",
+          "gloss": "cat",
+          "priority": "high"
+        },
+        {
+          "word": "鳥",
+          "reading": "とり",
+          "gloss": "bird",
+          "priority": "high"
+        },
+        {
+          "word": "牛",
+          "reading": "うし",
+          "gloss": "cow; cattle",
+          "priority": "high"
+        },
+        {
+          "word": "馬",
+          "reading": "うま",
+          "gloss": "horse",
+          "priority": "high"
+        },
+        {
+          "word": "豚",
+          "reading": "ぶた",
+          "gloss": "pig",
+          "priority": "medium"
+        },
+        {
+          "word": "羊",
+          "reading": "ひつじ",
+          "gloss": "sheep",
+          "priority": "medium"
+        },
+        {
+          "word": "猿",
+          "reading": "さる",
+          "gloss": "monkey",
+          "priority": "medium"
+        },
+        {
+          "word": "象",
+          "reading": "ぞう",
+          "gloss": "elephant",
+          "priority": "medium"
+        },
+        {
+          "word": "熊",
+          "reading": "くま",
+          "gloss": "bear",
+          "priority": "medium"
+        },
+        {
+          "word": "虫",
+          "reading": "むし",
+          "gloss": "insect; bug",
+          "priority": "high"
+        },
+        {
+          "word": "蛇",
+          "reading": "へび",
+          "gloss": "snake",
+          "priority": "medium"
+        },
+        {
+          "word": "鶏",
+          "reading": "にわとり",
+          "gloss": "chicken",
+          "priority": "medium"
+        },
+        {
+          "word": "亀",
+          "reading": "かめ",
+          "gloss": "turtle",
+          "priority": "medium"
+        },
+        {
+          "word": "蝶",
+          "reading": "ちょう",
+          "gloss": "butterfly",
+          "priority": "low"
+        },
+        {
+          "word": "蚊",
+          "reading": "か",
+          "gloss": "mosquito",
+          "priority": "medium"
+        },
+        {
+          "word": "ウサギ",
+          "reading": "うさぎ",
+          "gloss": "rabbit",
+          "priority": "medium"
+        },
+        {
+          "word": "ライオン",
+          "reading": "らいおん",
+          "gloss": "lion",
+          "priority": "medium"
+        },
+        {
+          "word": "鯨",
+          "reading": "くじら",
+          "gloss": "whale",
+          "priority": "low"
+        },
+        {
+          "word": "動物",
+          "reading": "どうぶつ",
+          "gloss": "animal",
+          "priority": "high"
+        },
+        {
+          "word": "ペット",
+          "reading": "ぺっと",
+          "gloss": "pet",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "plants",
+      "name": "Plants",
+      "description": "Trees, flowers, and plant-related vocabulary",
+      "expected_words": [
+        {
+          "word": "木",
+          "reading": "き",
+          "gloss": "tree; wood",
+          "priority": "high"
+        },
+        {
+          "word": "花",
+          "reading": "はな",
+          "gloss": "flower",
+          "priority": "high"
+        },
+        {
+          "word": "草",
+          "reading": "くさ",
+          "gloss": "grass; weed",
+          "priority": "high"
+        },
+        {
+          "word": "葉",
+          "reading": "は",
+          "gloss": "leaf",
+          "priority": "high"
+        },
+        {
+          "word": "根",
+          "reading": "ね",
+          "gloss": "root",
+          "priority": "medium"
+        },
+        {
+          "word": "枝",
+          "reading": "えだ",
+          "gloss": "branch",
+          "priority": "medium"
+        },
+        {
+          "word": "種",
+          "reading": "たね",
+          "gloss": "seed",
+          "priority": "medium"
+        },
+        {
+          "word": "実",
+          "reading": "み",
+          "gloss": "fruit; nut",
+          "priority": "medium"
+        },
+        {
+          "word": "森",
+          "reading": "もり",
+          "gloss": "forest",
+          "priority": "high"
+        },
+        {
+          "word": "林",
+          "reading": "はやし",
+          "gloss": "woods; grove",
+          "priority": "medium"
+        },
+        {
+          "word": "竹",
+          "reading": "たけ",
+          "gloss": "bamboo",
+          "priority": "medium"
+        },
+        {
+          "word": "松",
+          "reading": "まつ",
+          "gloss": "pine tree",
+          "priority": "medium"
+        },
+        {
+          "word": "咲く",
+          "reading": "さく",
+          "gloss": "to bloom",
+          "priority": "high"
+        },
+        {
+          "word": "枯れる",
+          "reading": "かれる",
+          "gloss": "to wither",
+          "priority": "medium"
+        },
+        {
+          "word": "植える",
+          "reading": "うえる",
+          "gloss": "to plant",
+          "priority": "medium"
+        },
+        {
+          "word": "育てる",
+          "reading": "そだてる",
+          "gloss": "to grow; to raise",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "nature_geography",
+      "name": "Nature and Geography",
+      "description": "Natural features, landforms, and geographical terms",
+      "expected_words": [
+        {
+          "word": "山",
+          "reading": "やま",
+          "gloss": "mountain",
+          "priority": "high"
+        },
+        {
+          "word": "川",
+          "reading": "かわ",
+          "gloss": "river",
+          "priority": "high"
+        },
+        {
+          "word": "海",
+          "reading": "うみ",
+          "gloss": "sea; ocean",
+          "priority": "high"
+        },
+        {
+          "word": "湖",
+          "reading": "みずうみ",
+          "gloss": "lake",
+          "priority": "medium"
+        },
+        {
+          "word": "島",
+          "reading": "しま",
+          "gloss": "island",
+          "priority": "medium"
+        },
+        {
+          "word": "空",
+          "reading": "そら",
+          "gloss": "sky",
+          "priority": "high"
+        },
+        {
+          "word": "星",
+          "reading": "ほし",
+          "gloss": "star",
+          "priority": "high"
+        },
+        {
+          "word": "月",
+          "reading": "つき",
+          "gloss": "moon",
+          "priority": "high"
+        },
+        {
+          "word": "太陽",
+          "reading": "たいよう",
+          "gloss": "sun",
+          "priority": "high"
+        },
+        {
+          "word": "石",
+          "reading": "いし",
+          "gloss": "stone; rock",
+          "priority": "high"
+        },
+        {
+          "word": "砂",
+          "reading": "すな",
+          "gloss": "sand",
+          "priority": "medium"
+        },
+        {
+          "word": "土",
+          "reading": "つち",
+          "gloss": "soil; earth",
+          "priority": "high"
+        },
+        {
+          "word": "池",
+          "reading": "いけ",
+          "gloss": "pond",
+          "priority": "medium"
+        },
+        {
+          "word": "滝",
+          "reading": "たき",
+          "gloss": "waterfall",
+          "priority": "low"
+        },
+        {
+          "word": "丘",
+          "reading": "おか",
+          "gloss": "hill",
+          "priority": "medium"
+        },
+        {
+          "word": "谷",
+          "reading": "たに",
+          "gloss": "valley",
+          "priority": "medium"
+        },
+        {
+          "word": "岸",
+          "reading": "きし",
+          "gloss": "shore; bank",
+          "priority": "low"
+        },
+        {
+          "word": "波",
+          "reading": "なみ",
+          "gloss": "wave",
+          "priority": "medium"
+        },
+        {
+          "word": "自然",
+          "reading": "しぜん",
+          "gloss": "nature",
+          "priority": "high"
+        },
+        {
+          "word": "環境",
+          "reading": "かんきょう",
+          "gloss": "environment",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "natural_disasters",
+      "name": "Natural Disasters",
+      "description": "Earthquakes, floods, and natural disaster vocabulary",
+      "expected_words": [
+        {
+          "word": "地震",
+          "reading": "じしん",
+          "gloss": "earthquake",
+          "priority": "high"
+        },
+        {
+          "word": "津波",
+          "reading": "つなみ",
+          "gloss": "tsunami",
+          "priority": "high"
+        },
+        {
+          "word": "洪水",
+          "reading": "こうずい",
+          "gloss": "flood",
+          "priority": "medium"
+        },
+        {
+          "word": "火事",
+          "reading": "かじ",
+          "gloss": "fire (conflagration)",
+          "priority": "high"
+        },
+        {
+          "word": "災害",
+          "reading": "さいがい",
+          "gloss": "disaster",
+          "priority": "medium"
+        },
+        {
+          "word": "避難",
+          "reading": "ひなん",
+          "gloss": "evacuation",
+          "priority": "medium"
+        },
+        {
+          "word": "噴火",
+          "reading": "ふんか",
+          "gloss": "volcanic eruption",
+          "priority": "low"
+        },
+        {
+          "word": "土砂崩れ",
+          "reading": "どしゃくずれ",
+          "gloss": "landslide",
+          "priority": "low"
+        },
+        {
+          "word": "被害",
+          "reading": "ひがい",
+          "gloss": "damage; harm",
+          "priority": "medium"
+        },
+        {
+          "word": "危険",
+          "reading": "きけん",
+          "gloss": "danger; hazard",
+          "priority": "high"
+        },
+        {
+          "word": "安全",
+          "reading": "あんぜん",
+          "gloss": "safety; safe",
+          "priority": "high"
+        },
+        {
+          "word": "防災",
+          "reading": "ぼうさい",
+          "gloss": "disaster prevention",
+          "priority": "low"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "environment_ecology",
+      "name": "Environment and Ecology",
+      "description": "Environmental issues, ecology, and conservation",
+      "expected_words": [
+        {
+          "word": "汚染",
+          "reading": "おせん",
+          "gloss": "pollution; contamination",
+          "priority": "medium"
+        },
+        {
+          "word": "リサイクル",
+          "reading": "りさいくる",
+          "gloss": "recycling",
+          "priority": "medium"
+        },
+        {
+          "word": "エネルギー",
+          "reading": "えねるぎー",
+          "gloss": "energy",
+          "priority": "medium"
+        },
+        {
+          "word": "温暖化",
+          "reading": "おんだんか",
+          "gloss": "global warming",
+          "priority": "medium"
+        },
+        {
+          "word": "資源",
+          "reading": "しげん",
+          "gloss": "resources",
+          "priority": "medium"
+        },
+        {
+          "word": "生態系",
+          "reading": "せいたいけい",
+          "gloss": "ecosystem",
+          "priority": "low"
+        },
+        {
+          "word": "絶滅",
+          "reading": "ぜつめつ",
+          "gloss": "extinction",
+          "priority": "low"
+        },
+        {
+          "word": "森林",
+          "reading": "しんりん",
+          "gloss": "forest; woodland",
+          "priority": "medium"
+        },
+        {
+          "word": "砂漠",
+          "reading": "さばく",
+          "gloss": "desert",
+          "priority": "medium"
+        },
+        {
+          "word": "大気",
+          "reading": "たいき",
+          "gloss": "atmosphere",
+          "priority": "low"
+        },
+        {
+          "word": "酸素",
+          "reading": "さんそ",
+          "gloss": "oxygen",
+          "priority": "medium"
+        },
+        {
+          "word": "二酸化炭素",
+          "reading": "にさんかたんそ",
+          "gloss": "carbon dioxide",
+          "priority": "low"
+        },
+        {
+          "word": "地球",
+          "reading": "ちきゅう",
+          "gloss": "Earth",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "time_of_day_celestial",
+      "name": "Celestial Bodies and Sky",
+      "description": "Sun, moon, stars, and sky-related vocabulary",
+      "expected_words": [
+        {
+          "word": "日",
+          "reading": "ひ",
+          "gloss": "sun; day",
+          "priority": "high"
+        },
+        {
+          "word": "日の出",
+          "reading": "ひので",
+          "gloss": "sunrise",
+          "priority": "medium"
+        },
+        {
+          "word": "日の入り",
+          "reading": "ひのいり",
+          "gloss": "sunset",
+          "priority": "medium"
+        },
+        {
+          "word": "夕日",
+          "reading": "ゆうひ",
+          "gloss": "evening sun; sunset",
+          "priority": "medium"
+        },
+        {
+          "word": "朝日",
+          "reading": "あさひ",
+          "gloss": "morning sun",
+          "priority": "medium"
+        },
+        {
+          "word": "満月",
+          "reading": "まんげつ",
+          "gloss": "full moon",
+          "priority": "low"
+        },
+        {
+          "word": "宇宙",
+          "reading": "うちゅう",
+          "gloss": "space; universe",
+          "priority": "medium"
+        },
+        {
+          "word": "惑星",
+          "reading": "わくせい",
+          "gloss": "planet",
+          "priority": "low"
+        },
+        {
+          "word": "流れ星",
+          "reading": "ながれぼし",
+          "gloss": "shooting star",
+          "priority": "low"
+        },
+        {
+          "word": "日光",
+          "reading": "にっこう",
+          "gloss": "sunlight",
+          "priority": "medium"
+        },
+        {
+          "word": "月光",
+          "reading": "げっこう",
+          "gloss": "moonlight",
+          "priority": "low"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "water_liquids",
+      "name": "Water and Liquids",
+      "description": "Water-related terms and liquid states",
+      "expected_words": [
+        {
+          "word": "水",
+          "reading": "みず",
+          "gloss": "water",
+          "priority": "high"
+        },
+        {
+          "word": "お湯",
+          "reading": "おゆ",
+          "gloss": "hot water",
+          "priority": "high"
+        },
+        {
+          "word": "湯",
+          "reading": "ゆ",
+          "gloss": "hot water; bath",
+          "priority": "medium"
+        },
+        {
+          "word": "泉",
+          "reading": "いずみ",
+          "gloss": "spring; fountain",
+          "priority": "low"
+        },
+        {
+          "word": "流れる",
+          "reading": "ながれる",
+          "gloss": "to flow",
+          "priority": "medium"
+        },
+        {
+          "word": "沈む",
+          "reading": "しずむ",
+          "gloss": "to sink",
+          "priority": "medium"
+        },
+        {
+          "word": "浮かぶ",
+          "reading": "うかぶ",
+          "gloss": "to float",
+          "priority": "medium"
+        },
+        {
+          "word": "溶ける",
+          "reading": "とける",
+          "gloss": "to melt; to dissolve",
+          "priority": "medium"
+        },
+        {
+          "word": "凍る",
+          "reading": "こおる",
+          "gloss": "to freeze",
+          "priority": "medium"
+        },
+        {
+          "word": "濡れる",
+          "reading": "ぬれる",
+          "gloss": "to get wet",
+          "priority": "medium"
+        },
+        {
+          "word": "乾く",
+          "reading": "かわく",
+          "gloss": "to dry",
+          "priority": "medium"
+        },
+        {
+          "word": "蒸気",
+          "reading": "じょうき",
+          "gloss": "steam; vapor",
+          "priority": "low"
+        },
+        {
+          "word": "露",
+          "reading": "つゆ",
+          "gloss": "dew",
+          "priority": "low"
+        },
+        {
+          "word": "泥",
+          "reading": "どろ",
+          "gloss": "mud",
+          "priority": "medium"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "fire_heat",
+      "name": "Fire and Heat",
+      "description": "Fire, heat, and temperature-related vocabulary",
+      "expected_words": [
+        {
+          "word": "火",
+          "reading": "ひ",
+          "gloss": "fire",
+          "priority": "high"
+        },
+        {
+          "word": "炎",
+          "reading": "ほのお",
+          "gloss": "flame",
+          "priority": "medium"
+        },
+        {
+          "word": "燃える",
+          "reading": "もえる",
+          "gloss": "to burn (intransitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "燃やす",
+          "reading": "もやす",
+          "gloss": "to burn (transitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "消す",
+          "reading": "けす",
+          "gloss": "to extinguish; to erase",
+          "priority": "high"
+        },
+        {
+          "word": "熱い",
+          "reading": "あつい",
+          "gloss": "hot (to touch)",
+          "priority": "high"
+        },
+        {
+          "word": "冷たい",
+          "reading": "つめたい",
+          "gloss": "cold (to touch)",
+          "priority": "high"
+        },
+        {
+          "word": "温かい",
+          "reading": "あたたかい",
+          "gloss": "warm (to touch)",
+          "priority": "high"
+        },
+        {
+          "word": "冷える",
+          "reading": "ひえる",
+          "gloss": "to get cold",
+          "priority": "medium"
+        },
+        {
+          "word": "温める",
+          "reading": "あたためる",
+          "gloss": "to warm up",
+          "priority": "medium"
+        },
+        {
+          "word": "冷ます",
+          "reading": "さます",
+          "gloss": "to cool down",
+          "priority": "medium"
+        },
+        {
+          "word": "沸かす",
+          "reading": "わかす",
+          "gloss": "to boil (water)",
+          "priority": "medium"
+        },
+        {
+          "word": "沸く",
+          "reading": "わく",
+          "gloss": "to boil (intransitive)",
+          "priority": "medium"
+        },
+        {
+          "word": "焦げる",
+          "reading": "こげる",
+          "gloss": "to scorch; to burn (food)",
+          "priority": "low"
+        }
+      ],
+      "category": "nature"
+    },
+    {
+      "id": "family",
+      "name": "Family",
+      "description": "Family members and kinship terms",
+      "expected_words": [
+        {
+          "word": "家族",
+          "reading": "かぞく",
+          "gloss": "family",
+          "priority": "high"
+        },
+        {
+          "word": "父",
+          "reading": "ちち",
+          "gloss": "father (humble)",
+          "priority": "high"
+        },
+        {
+          "word": "母",
+          "reading": "はは",
+          "gloss": "mother (humble)",
+          "priority": "high"
+        },
+        {
+          "word": "兄",
+          "reading": "あに",
+          "gloss": "older brother (humble)",
+          "priority": "high"
+        },
+        {
+          "word": "姉",
+          "reading": "あね",
+          "gloss": "older sister (humble)",
+          "priority": "high"
+        },
+        {
+          "word": "弟",
+          "reading": "おとうと",
+          "gloss": "younger brother",
+          "priority": "high"
+        },
+        {
+          "word": "妹",
+          "reading": "いもうと",
+          "gloss": "younger sister",
+          "priority": "high"
+        },
+        {
+          "word": "息子",
+          "reading": "むすこ",
+          "gloss": "son",
+          "priority": "high"
+        },
+        {
+          "word": "娘",
+          "reading": "むすめ",
+          "gloss": "daughter",
+          "priority": "high"
+        },
+        {
+          "word": "夫",
+          "reading": "おっと",
+          "gloss": "husband",
+          "priority": "high"
+        },
+        {
+          "word": "妻",
+          "reading": "つま",
+          "gloss": "wife",
+          "priority": "high"
+        },
+        {
+          "word": "祖父",
+          "reading": "そふ",
+          "gloss": "grandfather",
+          "priority": "high"
+        },
+        {
+          "word": "祖母",
+          "reading": "そぼ",
+          "gloss": "grandmother",
+          "priority": "high"
+        },
+        {
+          "word": "孫",
+          "reading": "まご",
+          "gloss": "grandchild",
+          "priority": "medium"
+        },
+        {
+          "word": "親戚",
+          "reading": "しんせき",
+          "gloss": "relative",
+          "priority": "medium"
+        },
+        {
+          "word": "叔父",
+          "reading": "おじ",
+          "gloss": "uncle",
+          "priority": "medium"
+        },
+        {
+          "word": "叔母",
+          "reading": "おば",
+          "gloss": "aunt",
+          "priority": "medium"
+        },
+        {
+          "word": "従兄弟",
+          "reading": "いとこ",
+          "gloss": "cousin",
+          "priority": "medium"
+        },
+        {
+          "word": "親",
+          "reading": "おや",
+          "gloss": "parent",
+          "priority": "high"
+        },
+        {
+          "word": "子供",
+          "reading": "こども",
+          "gloss": "child",
+          "priority": "high"
+        },
+        {
+          "word": "赤ちゃん",
+          "reading": "あかちゃん",
+          "gloss": "baby",
+          "priority": "high"
+        },
+        {
+          "word": "兄弟",
+          "reading": "きょうだい",
+          "gloss": "siblings",
+          "priority": "high"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "occupations",
+      "name": "Occupations",
+      "description": "Jobs, professions, and work roles",
+      "expected_words": [
+        {
+          "word": "先生",
+          "reading": "せんせい",
+          "gloss": "teacher; doctor",
+          "priority": "high"
+        },
+        {
+          "word": "学生",
+          "reading": "がくせい",
+          "gloss": "student",
+          "priority": "high"
+        },
+        {
+          "word": "会社員",
+          "reading": "かいしゃいん",
+          "gloss": "company employee",
+          "priority": "high"
+        },
+        {
+          "word": "店員",
+          "reading": "てんいん",
+          "gloss": "shop clerk",
+          "priority": "high"
+        },
+        {
+          "word": "警察",
+          "reading": "けいさつ",
+          "gloss": "police",
+          "priority": "high"
+        },
+        {
+          "word": "運転手",
+          "reading": "うんてんしゅ",
+          "gloss": "driver",
+          "priority": "medium"
+        },
+        {
+          "word": "弁護士",
+          "reading": "べんごし",
+          "gloss": "lawyer",
+          "priority": "medium"
+        },
+        {
+          "word": "看護師",
+          "reading": "かんごし",
+          "gloss": "nurse",
+          "priority": "medium"
+        },
+        {
+          "word": "公務員",
+          "reading": "こうむいん",
+          "gloss": "civil servant",
+          "priority": "medium"
+        },
+        {
+          "word": "記者",
+          "reading": "きしゃ",
+          "gloss": "journalist",
+          "priority": "medium"
+        },
+        {
+          "word": "歌手",
+          "reading": "かしゅ",
+          "gloss": "singer",
+          "priority": "medium"
+        },
+        {
+          "word": "俳優",
+          "reading": "はいゆう",
+          "gloss": "actor",
+          "priority": "medium"
+        },
+        {
+          "word": "選手",
+          "reading": "せんしゅ",
+          "gloss": "athlete; player",
+          "priority": "medium"
+        },
+        {
+          "word": "農家",
+          "reading": "のうか",
+          "gloss": "farmer",
+          "priority": "medium"
+        },
+        {
+          "word": "料理人",
+          "reading": "りょうりにん",
+          "gloss": "cook; chef",
+          "priority": "medium"
+        },
+        {
+          "word": "建築家",
+          "reading": "けんちくか",
+          "gloss": "architect",
+          "priority": "low"
+        },
+        {
+          "word": "職業",
+          "reading": "しょくぎょう",
+          "gloss": "occupation; profession",
+          "priority": "medium"
+        },
+        {
+          "word": "研究者",
+          "reading": "けんきゅうしゃ",
+          "gloss": "researcher",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "personality_traits",
+      "name": "Personality Traits",
+      "description": "Character traits and personal qualities",
+      "expected_words": [
+        {
+          "word": "優しい",
+          "reading": "やさしい",
+          "gloss": "kind; gentle",
+          "priority": "high"
+        },
+        {
+          "word": "厳しい",
+          "reading": "きびしい",
+          "gloss": "strict; severe",
+          "priority": "high"
+        },
+        {
+          "word": "真面目",
+          "reading": "まじめ",
+          "gloss": "serious; earnest",
+          "priority": "high"
+        },
+        {
+          "word": "明るい",
+          "reading": "あかるい",
+          "gloss": "cheerful; bright",
+          "priority": "high"
+        },
+        {
+          "word": "おとなしい",
+          "reading": "おとなしい",
+          "gloss": "quiet; docile",
+          "priority": "medium"
+        },
+        {
+          "word": "頑固",
+          "reading": "がんこ",
+          "gloss": "stubborn",
+          "priority": "medium"
+        },
+        {
+          "word": "素直",
+          "reading": "すなお",
+          "gloss": "honest; obedient",
+          "priority": "medium"
+        },
+        {
+          "word": "勇気",
+          "reading": "ゆうき",
+          "gloss": "courage; bravery",
+          "priority": "medium"
+        },
+        {
+          "word": "怠け者",
+          "reading": "なまけもの",
+          "gloss": "lazy person",
+          "priority": "low"
+        },
+        {
+          "word": "賢い",
+          "reading": "かしこい",
+          "gloss": "clever; wise",
+          "priority": "medium"
+        },
+        {
+          "word": "馬鹿",
+          "reading": "ばか",
+          "gloss": "fool; stupid",
+          "priority": "medium"
+        },
+        {
+          "word": "正直",
+          "reading": "しょうじき",
+          "gloss": "honest; frank",
+          "priority": "medium"
+        },
+        {
+          "word": "親切",
+          "reading": "しんせつ",
+          "gloss": "kind; helpful",
+          "priority": "high"
+        },
+        {
+          "word": "意地悪",
+          "reading": "いじわる",
+          "gloss": "mean; malicious",
+          "priority": "medium"
+        },
+        {
+          "word": "我慢",
+          "reading": "がまん",
+          "gloss": "patience; endurance",
+          "priority": "high"
+        },
+        {
+          "word": "積極的",
+          "reading": "せっきょくてき",
+          "gloss": "proactive; positive",
+          "priority": "medium"
+        },
+        {
+          "word": "消極的",
+          "reading": "しょうきょくてき",
+          "gloss": "passive; negative",
+          "priority": "low"
+        },
+        {
+          "word": "性格",
+          "reading": "せいかく",
+          "gloss": "personality; character",
+          "priority": "high"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "appearance",
+      "name": "Appearance",
+      "description": "Physical appearance and descriptions of people",
+      "expected_words": [
+        {
+          "word": "背",
+          "reading": "せ",
+          "gloss": "height; stature",
+          "priority": "high"
+        },
+        {
+          "word": "太る",
+          "reading": "ふとる",
+          "gloss": "to gain weight",
+          "priority": "medium"
+        },
+        {
+          "word": "痩せる",
+          "reading": "やせる",
+          "gloss": "to lose weight; thin",
+          "priority": "medium"
+        },
+        {
+          "word": "美しい",
+          "reading": "うつくしい",
+          "gloss": "beautiful",
+          "priority": "high"
+        },
+        {
+          "word": "可愛い",
+          "reading": "かわいい",
+          "gloss": "cute",
+          "priority": "high"
+        },
+        {
+          "word": "格好いい",
+          "reading": "かっこいい",
+          "gloss": "cool; good-looking",
+          "priority": "high"
+        },
+        {
+          "word": "若い",
+          "reading": "わかい",
+          "gloss": "young",
+          "priority": "high"
+        },
+        {
+          "word": "年寄り",
+          "reading": "としより",
+          "gloss": "elderly person",
+          "priority": "medium"
+        },
+        {
+          "word": "顔つき",
+          "reading": "かおつき",
+          "gloss": "facial expression; look",
+          "priority": "low"
+        },
+        {
+          "word": "身長",
+          "reading": "しんちょう",
+          "gloss": "height (body)",
+          "priority": "medium"
+        },
+        {
+          "word": "髭",
+          "reading": "ひげ",
+          "gloss": "beard; mustache",
+          "priority": "medium"
+        },
+        {
+          "word": "姿",
+          "reading": "すがた",
+          "gloss": "figure; appearance",
+          "priority": "medium"
+        },
+        {
+          "word": "似る",
+          "reading": "にる",
+          "gloss": "to resemble",
+          "priority": "high"
+        },
+        {
+          "word": "醜い",
+          "reading": "みにくい",
+          "gloss": "ugly",
+          "priority": "low"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "social_relationships",
+      "name": "Social Relationships",
+      "description": "Friendships, social connections, and interpersonal terms",
+      "expected_words": [
+        {
+          "word": "友達",
+          "reading": "ともだち",
+          "gloss": "friend",
+          "priority": "high"
+        },
+        {
+          "word": "恋人",
+          "reading": "こいびと",
+          "gloss": "lover; partner",
+          "priority": "medium"
+        },
+        {
+          "word": "彼氏",
+          "reading": "かれし",
+          "gloss": "boyfriend",
+          "priority": "medium"
+        },
+        {
+          "word": "彼女",
+          "reading": "かのじょ",
+          "gloss": "girlfriend; she",
+          "priority": "high"
+        },
+        {
+          "word": "先輩",
+          "reading": "せんぱい",
+          "gloss": "senior; upperclassman",
+          "priority": "high"
+        },
+        {
+          "word": "後輩",
+          "reading": "こうはい",
+          "gloss": "junior; underclassman",
+          "priority": "high"
+        },
+        {
+          "word": "知り合い",
+          "reading": "しりあい",
+          "gloss": "acquaintance",
+          "priority": "medium"
+        },
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "gloss": "companion; comrade",
+          "priority": "medium"
+        },
+        {
+          "word": "隣人",
+          "reading": "りんじん",
+          "gloss": "neighbor",
+          "priority": "low"
+        },
+        {
+          "word": "相手",
+          "reading": "あいて",
+          "gloss": "partner; opponent",
+          "priority": "high"
+        },
+        {
+          "word": "結婚",
+          "reading": "けっこん",
+          "gloss": "marriage",
+          "priority": "high"
+        },
+        {
+          "word": "離婚",
+          "reading": "りこん",
+          "gloss": "divorce",
+          "priority": "medium"
+        },
+        {
+          "word": "付き合う",
+          "reading": "つきあう",
+          "gloss": "to go out with; to associate",
+          "priority": "medium"
+        },
+        {
+          "word": "喧嘩",
+          "reading": "けんか",
+          "gloss": "quarrel; fight",
+          "priority": "medium"
+        },
+        {
+          "word": "仲良し",
+          "reading": "なかよし",
+          "gloss": "close friend",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "life_stages",
+      "name": "Life Stages",
+      "description": "Age groups, life events, and developmental stages",
+      "expected_words": [
+        {
+          "word": "赤ん坊",
+          "reading": "あかんぼう",
+          "gloss": "baby; infant",
+          "priority": "medium"
+        },
+        {
+          "word": "子供",
+          "reading": "こども",
+          "gloss": "child",
+          "priority": "high"
+        },
+        {
+          "word": "大人",
+          "reading": "おとな",
+          "gloss": "adult",
+          "priority": "high"
+        },
+        {
+          "word": "青年",
+          "reading": "せいねん",
+          "gloss": "youth; young person",
+          "priority": "medium"
+        },
+        {
+          "word": "老人",
+          "reading": "ろうじん",
+          "gloss": "old person",
+          "priority": "medium"
+        },
+        {
+          "word": "年齢",
+          "reading": "ねんれい",
+          "gloss": "age",
+          "priority": "medium"
+        },
+        {
+          "word": "成長",
+          "reading": "せいちょう",
+          "gloss": "growth; development",
+          "priority": "medium"
+        },
+        {
+          "word": "卒業",
+          "reading": "そつぎょう",
+          "gloss": "graduation",
+          "priority": "high"
+        },
+        {
+          "word": "入学",
+          "reading": "にゅうがく",
+          "gloss": "entering school",
+          "priority": "high"
+        },
+        {
+          "word": "就職",
+          "reading": "しゅうしょく",
+          "gloss": "finding employment",
+          "priority": "medium"
+        },
+        {
+          "word": "退職",
+          "reading": "たいしょく",
+          "gloss": "retirement; resignation",
+          "priority": "medium"
+        },
+        {
+          "word": "誕生日",
+          "reading": "たんじょうび",
+          "gloss": "birthday",
+          "priority": "high"
+        },
+        {
+          "word": "男",
+          "reading": "おとこ",
+          "gloss": "man; male",
+          "priority": "high"
+        },
+        {
+          "word": "女",
+          "reading": "おんな",
+          "gloss": "woman; female",
+          "priority": "high"
+        },
+        {
+          "word": "少年",
+          "reading": "しょうねん",
+          "gloss": "boy; youth",
+          "priority": "medium"
+        },
+        {
+          "word": "少女",
+          "reading": "しょうじょ",
+          "gloss": "girl; young woman",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "groups_organizations",
+      "name": "Groups and Organizations",
+      "description": "Social groups, organizations, and collective terms",
+      "expected_words": [
+        {
+          "word": "グループ",
+          "reading": "ぐるーぷ",
+          "gloss": "group",
+          "priority": "medium"
+        },
+        {
+          "word": "団体",
+          "reading": "だんたい",
+          "gloss": "organization; group",
+          "priority": "medium"
+        },
+        {
+          "word": "クラブ",
+          "reading": "くらぶ",
+          "gloss": "club",
+          "priority": "medium"
+        },
+        {
+          "word": "委員会",
+          "reading": "いいんかい",
+          "gloss": "committee",
+          "priority": "medium"
+        },
+        {
+          "word": "組合",
+          "reading": "くみあい",
+          "gloss": "union; association",
+          "priority": "low"
+        },
+        {
+          "word": "チーム",
+          "reading": "ちーむ",
+          "gloss": "team",
+          "priority": "medium"
+        },
+        {
+          "word": "メンバー",
+          "reading": "めんばー",
+          "gloss": "member",
+          "priority": "medium"
+        },
+        {
+          "word": "リーダー",
+          "reading": "りーだー",
+          "gloss": "leader",
+          "priority": "medium"
+        },
+        {
+          "word": "ボランティア",
+          "reading": "ぼらんてぃあ",
+          "gloss": "volunteer",
+          "priority": "medium"
+        },
+        {
+          "word": "仲間",
+          "reading": "なかま",
+          "gloss": "companion; fellow",
+          "priority": "medium"
+        },
+        {
+          "word": "集団",
+          "reading": "しゅうだん",
+          "gloss": "group; collective",
+          "priority": "medium"
+        },
+        {
+          "word": "会員",
+          "reading": "かいいん",
+          "gloss": "member (of organization)",
+          "priority": "medium"
+        },
+        {
+          "word": "部",
+          "reading": "ぶ",
+          "gloss": "club (school); department",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "human_actions_interpersonal",
+      "name": "Interpersonal Actions",
+      "description": "Actions between people: helping, giving, teaching",
+      "expected_words": [
+        {
+          "word": "会う",
+          "reading": "あう",
+          "gloss": "to meet",
+          "priority": "high"
+        },
+        {
+          "word": "待つ",
+          "reading": "まつ",
+          "gloss": "to wait",
+          "priority": "high"
+        },
+        {
+          "word": "呼ぶ",
+          "reading": "よぶ",
+          "gloss": "to call; to invite",
+          "priority": "high"
+        },
+        {
+          "word": "頼む",
+          "reading": "たのむ",
+          "gloss": "to request; to ask",
+          "priority": "high"
+        },
+        {
+          "word": "断る",
+          "reading": "ことわる",
+          "gloss": "to refuse; to decline",
+          "priority": "medium"
+        },
+        {
+          "word": "誘う",
+          "reading": "さそう",
+          "gloss": "to invite; to tempt",
+          "priority": "medium"
+        },
+        {
+          "word": "手伝う",
+          "reading": "てつだう",
+          "gloss": "to help; to assist",
+          "priority": "high"
+        },
+        {
+          "word": "守る",
+          "reading": "まもる",
+          "gloss": "to protect; to obey",
+          "priority": "high"
+        },
+        {
+          "word": "許す",
+          "reading": "ゆるす",
+          "gloss": "to forgive; to allow",
+          "priority": "medium"
+        },
+        {
+          "word": "叱る",
+          "reading": "しかる",
+          "gloss": "to scold",
+          "priority": "medium"
+        },
+        {
+          "word": "怒る",
+          "reading": "おこる",
+          "gloss": "to get angry",
+          "priority": "high"
+        },
+        {
+          "word": "慰める",
+          "reading": "なぐさめる",
+          "gloss": "to comfort; to console",
+          "priority": "low"
+        },
+        {
+          "word": "励ます",
+          "reading": "はげます",
+          "gloss": "to encourage",
+          "priority": "medium"
+        },
+        {
+          "word": "従う",
+          "reading": "したがう",
+          "gloss": "to obey; to follow",
+          "priority": "medium"
+        },
+        {
+          "word": "協力",
+          "reading": "きょうりょく",
+          "gloss": "cooperation",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "daily_greetings_manners",
+      "name": "Daily Manners and Customs",
+      "description": "Japanese customs, daily habits, and social conventions",
+      "expected_words": [
+        {
+          "word": "お辞儀",
+          "reading": "おじぎ",
+          "gloss": "bow (greeting)",
+          "priority": "medium"
+        },
+        {
+          "word": "握手",
+          "reading": "あくしゅ",
+          "gloss": "handshake",
+          "priority": "medium"
+        },
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "gloss": "name",
+          "priority": "high"
+        },
+        {
+          "word": "苗字",
+          "reading": "みょうじ",
+          "gloss": "surname",
+          "priority": "medium"
+        },
+        {
+          "word": "敬語",
+          "reading": "けいご",
+          "gloss": "honorific language",
+          "priority": "medium"
+        },
+        {
+          "word": "年賀状",
+          "reading": "ねんがじょう",
+          "gloss": "New Year's card",
+          "priority": "medium"
+        },
+        {
+          "word": "贈り物",
+          "reading": "おくりもの",
+          "gloss": "gift; present",
+          "priority": "medium"
+        },
+        {
+          "word": "包む",
+          "reading": "つつむ",
+          "gloss": "to wrap",
+          "priority": "medium"
+        },
+        {
+          "word": "マナー",
+          "reading": "まなー",
+          "gloss": "manners; etiquette",
+          "priority": "medium"
+        },
+        {
+          "word": "習慣",
+          "reading": "しゅうかん",
+          "gloss": "habit; custom",
+          "priority": "medium"
+        },
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "gloss": "tradition",
+          "priority": "medium"
+        },
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "gloss": "culture",
+          "priority": "high"
+        },
+        {
+          "word": "行事",
+          "reading": "ぎょうじ",
+          "gloss": "event; function",
+          "priority": "medium"
+        },
+        {
+          "word": "冠婚葬祭",
+          "reading": "かんこんそうさい",
+          "gloss": "ceremonial occasions",
+          "priority": "low"
+        },
+        {
+          "word": "お歳暮",
+          "reading": "おせいぼ",
+          "gloss": "year-end gift",
+          "priority": "low"
+        },
+        {
+          "word": "お中元",
+          "reading": "おちゅうげん",
+          "gloss": "mid-year gift",
+          "priority": "low"
+        },
+        {
+          "word": "七五三",
+          "reading": "しちごさん",
+          "gloss": "children's festival (ages 3, 5, 7)",
+          "priority": "low"
+        },
+        {
+          "word": "お盆",
+          "reading": "おぼん",
+          "gloss": "Obon festival",
+          "priority": "medium"
+        },
+        {
+          "word": "節分",
+          "reading": "せつぶん",
+          "gloss": "Setsubun (bean-throwing)",
+          "priority": "low"
+        },
+        {
+          "word": "成人式",
+          "reading": "せいじんしき",
+          "gloss": "coming-of-age ceremony",
+          "priority": "medium"
+        },
+        {
+          "word": "お花見",
+          "reading": "おはなみ",
+          "gloss": "cherry blossom viewing",
+          "priority": "medium"
+        },
+        {
+          "word": "初詣",
+          "reading": "はつもうで",
+          "gloss": "first shrine visit of the year",
+          "priority": "medium"
+        }
+      ],
+      "category": "people"
+    },
+    {
+      "id": "work_office",
+      "name": "Work and Office",
+      "description": "Workplace, office life, and business vocabulary",
+      "expected_words": [
+        {
+          "word": "仕事",
+          "reading": "しごと",
+          "gloss": "work; job",
+          "priority": "high"
+        },
+        {
+          "word": "会社",
+          "reading": "かいしゃ",
+          "gloss": "company",
+          "priority": "high"
+        },
+        {
+          "word": "会議",
+          "reading": "かいぎ",
+          "gloss": "meeting; conference",
+          "priority": "high"
+        },
+        {
+          "word": "社長",
+          "reading": "しゃちょう",
+          "gloss": "company president",
+          "priority": "medium"
+        },
+        {
+          "word": "部長",
+          "reading": "ぶちょう",
+          "gloss": "department head",
+          "priority": "medium"
+        },
+        {
+          "word": "課長",
+          "reading": "かちょう",
+          "gloss": "section chief",
+          "priority": "medium"
+        },
+        {
+          "word": "残業",
+          "reading": "ざんぎょう",
+          "gloss": "overtime work",
+          "priority": "medium"
+        },
+        {
+          "word": "出張",
+          "reading": "しゅっちょう",
+          "gloss": "business trip",
+          "priority": "medium"
+        },
+        {
+          "word": "給料",
+          "reading": "きゅうりょう",
+          "gloss": "salary",
+          "priority": "medium"
+        },
+        {
+          "word": "休み",
+          "reading": "やすみ",
+          "gloss": "rest; holiday",
+          "priority": "high"
+        },
+        {
+          "word": "名前",
+          "reading": "なまえ",
+          "gloss": "name",
+          "priority": "high"
+        },
+        {
+          "word": "書類",
+          "reading": "しょるい",
+          "gloss": "documents",
+          "priority": "medium"
+        },
+        {
+          "word": "報告",
+          "reading": "ほうこく",
+          "gloss": "report",
+          "priority": "medium"
+        },
+        {
+          "word": "連絡",
+          "reading": "れんらく",
+          "gloss": "contact; communication",
+          "priority": "high"
+        },
+        {
+          "word": "予定",
+          "reading": "よてい",
+          "gloss": "schedule; plan",
+          "priority": "high"
+        },
+        {
+          "word": "締め切り",
+          "reading": "しめきり",
+          "gloss": "deadline",
+          "priority": "medium"
+        },
+        {
+          "word": "面接",
+          "reading": "めんせつ",
+          "gloss": "interview",
+          "priority": "medium"
+        },
+        {
+          "word": "契約",
+          "reading": "けいやく",
+          "gloss": "contract",
+          "priority": "medium"
+        },
+        {
+          "word": "上司",
+          "reading": "じょうし",
+          "gloss": "boss; superior",
+          "priority": "medium"
+        },
+        {
+          "word": "部下",
+          "reading": "ぶか",
+          "gloss": "subordinate",
+          "priority": "medium"
+        },
+        {
+          "word": "同僚",
+          "reading": "どうりょう",
+          "gloss": "colleague",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "education",
+      "name": "Education",
+      "description": "School, learning, and academic vocabulary",
+      "expected_words": [
+        {
+          "word": "学校",
+          "reading": "がっこう",
+          "gloss": "school",
+          "priority": "high"
+        },
+        {
+          "word": "大学",
+          "reading": "だいがく",
+          "gloss": "university",
+          "priority": "high"
+        },
+        {
+          "word": "授業",
+          "reading": "じゅぎょう",
+          "gloss": "class; lesson",
+          "priority": "high"
+        },
+        {
+          "word": "勉強",
+          "reading": "べんきょう",
+          "gloss": "study",
+          "priority": "high"
+        },
+        {
+          "word": "試験",
+          "reading": "しけん",
+          "gloss": "exam",
+          "priority": "high"
+        },
+        {
+          "word": "宿題",
+          "reading": "しゅくだい",
+          "gloss": "homework",
+          "priority": "high"
+        },
+        {
+          "word": "教科書",
+          "reading": "きょうかしょ",
+          "gloss": "textbook",
+          "priority": "medium"
+        },
+        {
+          "word": "成績",
+          "reading": "せいせき",
+          "gloss": "grades; results",
+          "priority": "medium"
+        },
+        {
+          "word": "教室",
+          "reading": "きょうしつ",
+          "gloss": "classroom",
+          "priority": "high"
+        },
+        {
+          "word": "図書館",
+          "reading": "としょかん",
+          "gloss": "library",
+          "priority": "high"
+        },
+        {
+          "word": "研究",
+          "reading": "けんきゅう",
+          "gloss": "research",
+          "priority": "medium"
+        },
+        {
+          "word": "留学",
+          "reading": "りゅうがく",
+          "gloss": "study abroad",
+          "priority": "medium"
+        },
+        {
+          "word": "教育",
+          "reading": "きょういく",
+          "gloss": "education",
+          "priority": "medium"
+        },
+        {
+          "word": "習う",
+          "reading": "ならう",
+          "gloss": "to learn (from someone)",
+          "priority": "high"
+        },
+        {
+          "word": "教える",
+          "reading": "おしえる",
+          "gloss": "to teach; to tell",
+          "priority": "high"
+        },
+        {
+          "word": "覚える",
+          "reading": "おぼえる",
+          "gloss": "to memorize; to learn",
+          "priority": "high"
+        },
+        {
+          "word": "忘れる",
+          "reading": "わすれる",
+          "gloss": "to forget",
+          "priority": "high"
+        },
+        {
+          "word": "答える",
+          "reading": "こたえる",
+          "gloss": "to answer",
+          "priority": "high"
+        },
+        {
+          "word": "質問",
+          "reading": "しつもん",
+          "gloss": "question",
+          "priority": "high"
+        },
+        {
+          "word": "問題",
+          "reading": "もんだい",
+          "gloss": "problem; question",
+          "priority": "high"
+        },
+        {
+          "word": "科目",
+          "reading": "かもく",
+          "gloss": "school subject",
+          "priority": "medium"
+        },
+        {
+          "word": "数学",
+          "reading": "すうがく",
+          "gloss": "mathematics",
+          "priority": "medium"
+        },
+        {
+          "word": "歴史",
+          "reading": "れきし",
+          "gloss": "history",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "legal",
+      "name": "Legal Terms",
+      "description": "Law, crime, and justice vocabulary",
+      "expected_words": [
+        {
+          "word": "法律",
+          "reading": "ほうりつ",
+          "gloss": "law",
+          "priority": "medium"
+        },
+        {
+          "word": "裁判",
+          "reading": "さいばん",
+          "gloss": "trial; court case",
+          "priority": "medium"
+        },
+        {
+          "word": "犯罪",
+          "reading": "はんざい",
+          "gloss": "crime",
+          "priority": "medium"
+        },
+        {
+          "word": "犯人",
+          "reading": "はんにん",
+          "gloss": "criminal; culprit",
+          "priority": "medium"
+        },
+        {
+          "word": "泥棒",
+          "reading": "どろぼう",
+          "gloss": "thief",
+          "priority": "medium"
+        },
+        {
+          "word": "盗む",
+          "reading": "ぬすむ",
+          "gloss": "to steal",
+          "priority": "medium"
+        },
+        {
+          "word": "逮捕",
+          "reading": "たいほ",
+          "gloss": "arrest",
+          "priority": "medium"
+        },
+        {
+          "word": "罰",
+          "reading": "ばつ",
+          "gloss": "punishment",
+          "priority": "medium"
+        },
+        {
+          "word": "権利",
+          "reading": "けんり",
+          "gloss": "right; privilege",
+          "priority": "medium"
+        },
+        {
+          "word": "義務",
+          "reading": "ぎむ",
+          "gloss": "duty; obligation",
+          "priority": "medium"
+        },
+        {
+          "word": "規則",
+          "reading": "きそく",
+          "gloss": "rule; regulation",
+          "priority": "medium"
+        },
+        {
+          "word": "禁止",
+          "reading": "きんし",
+          "gloss": "prohibition",
+          "priority": "medium"
+        },
+        {
+          "word": "許可",
+          "reading": "きょか",
+          "gloss": "permission",
+          "priority": "medium"
+        },
+        {
+          "word": "証拠",
+          "reading": "しょうこ",
+          "gloss": "evidence; proof",
+          "priority": "low"
+        },
+        {
+          "word": "裁判所",
+          "reading": "さいばんしょ",
+          "gloss": "court (building)",
+          "priority": "low"
+        },
+        {
+          "word": "弁護士",
+          "reading": "べんごし",
+          "gloss": "lawyer",
+          "priority": "medium"
+        },
+        {
+          "word": "事件",
+          "reading": "じけん",
+          "gloss": "incident; case",
+          "priority": "medium"
+        },
+        {
+          "word": "事故",
+          "reading": "じこ",
+          "gloss": "accident",
+          "priority": "high"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "government",
+      "name": "Government",
+      "description": "Government, politics, and civic vocabulary",
+      "expected_words": [
+        {
+          "word": "政府",
+          "reading": "せいふ",
+          "gloss": "government",
+          "priority": "medium"
+        },
+        {
+          "word": "政治",
+          "reading": "せいじ",
+          "gloss": "politics",
+          "priority": "medium"
+        },
+        {
+          "word": "選挙",
+          "reading": "せんきょ",
+          "gloss": "election",
+          "priority": "medium"
+        },
+        {
+          "word": "大臣",
+          "reading": "だいじん",
+          "gloss": "minister (government)",
+          "priority": "low"
+        },
+        {
+          "word": "国会",
+          "reading": "こっかい",
+          "gloss": "parliament; Diet",
+          "priority": "low"
+        },
+        {
+          "word": "市",
+          "reading": "し",
+          "gloss": "city",
+          "priority": "high"
+        },
+        {
+          "word": "県",
+          "reading": "けん",
+          "gloss": "prefecture",
+          "priority": "high"
+        },
+        {
+          "word": "国",
+          "reading": "くに",
+          "gloss": "country",
+          "priority": "high"
+        },
+        {
+          "word": "市役所",
+          "reading": "しやくしょ",
+          "gloss": "city hall",
+          "priority": "medium"
+        },
+        {
+          "word": "税金",
+          "reading": "ぜいきん",
+          "gloss": "tax",
+          "priority": "medium"
+        },
+        {
+          "word": "憲法",
+          "reading": "けんぽう",
+          "gloss": "constitution",
+          "priority": "low"
+        },
+        {
+          "word": "平和",
+          "reading": "へいわ",
+          "gloss": "peace",
+          "priority": "medium"
+        },
+        {
+          "word": "戦争",
+          "reading": "せんそう",
+          "gloss": "war",
+          "priority": "medium"
+        },
+        {
+          "word": "民主主義",
+          "reading": "みんしゅしゅぎ",
+          "gloss": "democracy",
+          "priority": "low"
+        },
+        {
+          "word": "社会",
+          "reading": "しゃかい",
+          "gloss": "society",
+          "priority": "high"
+        },
+        {
+          "word": "経済",
+          "reading": "けいざい",
+          "gloss": "economy",
+          "priority": "medium"
+        },
+        {
+          "word": "国際",
+          "reading": "こくさい",
+          "gloss": "international",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "communication",
+      "name": "Communication",
+      "description": "Speaking, writing, and communication vocabulary",
+      "expected_words": [
+        {
+          "word": "話す",
+          "reading": "はなす",
+          "gloss": "to speak; to talk",
+          "priority": "high"
+        },
+        {
+          "word": "聞く",
+          "reading": "きく",
+          "gloss": "to ask; to listen",
+          "priority": "high"
+        },
+        {
+          "word": "言う",
+          "reading": "いう",
+          "gloss": "to say",
+          "priority": "high"
+        },
+        {
+          "word": "読む",
+          "reading": "よむ",
+          "gloss": "to read",
+          "priority": "high"
+        },
+        {
+          "word": "書く",
+          "reading": "かく",
+          "gloss": "to write",
+          "priority": "high"
+        },
+        {
+          "word": "伝える",
+          "reading": "つたえる",
+          "gloss": "to convey; to tell",
+          "priority": "high"
+        },
+        {
+          "word": "説明",
+          "reading": "せつめい",
+          "gloss": "explanation",
+          "priority": "high"
+        },
+        {
+          "word": "相談",
+          "reading": "そうだん",
+          "gloss": "consultation",
+          "priority": "high"
+        },
+        {
+          "word": "意見",
+          "reading": "いけん",
+          "gloss": "opinion",
+          "priority": "high"
+        },
+        {
+          "word": "返事",
+          "reading": "へんじ",
+          "gloss": "reply; answer",
+          "priority": "high"
+        },
+        {
+          "word": "電話",
+          "reading": "でんわ",
+          "gloss": "telephone",
+          "priority": "high"
+        },
+        {
+          "word": "メール",
+          "reading": "めーる",
+          "gloss": "email",
+          "priority": "high"
+        },
+        {
+          "word": "手紙",
+          "reading": "てがみ",
+          "gloss": "letter",
+          "priority": "high"
+        },
+        {
+          "word": "翻訳",
+          "reading": "ほんやく",
+          "gloss": "translation",
+          "priority": "medium"
+        },
+        {
+          "word": "通訳",
+          "reading": "つうやく",
+          "gloss": "interpreting",
+          "priority": "medium"
+        },
+        {
+          "word": "発表",
+          "reading": "はっぴょう",
+          "gloss": "presentation; announcement",
+          "priority": "medium"
+        },
+        {
+          "word": "議論",
+          "reading": "ぎろん",
+          "gloss": "argument; debate",
+          "priority": "medium"
+        },
+        {
+          "word": "噂",
+          "reading": "うわさ",
+          "gloss": "rumor; gossip",
+          "priority": "medium"
+        },
+        {
+          "word": "黙る",
+          "reading": "だまる",
+          "gloss": "to be silent",
+          "priority": "medium"
+        },
+        {
+          "word": "叫ぶ",
+          "reading": "さけぶ",
+          "gloss": "to shout; to scream",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "technology",
+      "name": "Technology",
+      "description": "Modern technology, internet, and digital vocabulary",
+      "expected_words": [
+        {
+          "word": "インターネット",
+          "reading": "いんたーねっと",
+          "gloss": "internet",
+          "priority": "high"
+        },
+        {
+          "word": "コンピューター",
+          "reading": "こんぴゅーたー",
+          "gloss": "computer",
+          "priority": "high"
+        },
+        {
+          "word": "データ",
+          "reading": "でーた",
+          "gloss": "data",
+          "priority": "medium"
+        },
+        {
+          "word": "ソフト",
+          "reading": "そふと",
+          "gloss": "software",
+          "priority": "medium"
+        },
+        {
+          "word": "アプリ",
+          "reading": "あぷり",
+          "gloss": "app; application",
+          "priority": "medium"
+        },
+        {
+          "word": "ネット",
+          "reading": "ねっと",
+          "gloss": "internet; net",
+          "priority": "medium"
+        },
+        {
+          "word": "検索",
+          "reading": "けんさく",
+          "gloss": "search (internet)",
+          "priority": "medium"
+        },
+        {
+          "word": "情報",
+          "reading": "じょうほう",
+          "gloss": "information",
+          "priority": "high"
+        },
+        {
+          "word": "技術",
+          "reading": "ぎじゅつ",
+          "gloss": "technology; skill",
+          "priority": "medium"
+        },
+        {
+          "word": "機械",
+          "reading": "きかい",
+          "gloss": "machine",
+          "priority": "medium"
+        },
+        {
+          "word": "ロボット",
+          "reading": "ろぼっと",
+          "gloss": "robot",
+          "priority": "medium"
+        },
+        {
+          "word": "人工知能",
+          "reading": "じんこうちのう",
+          "gloss": "artificial intelligence",
+          "priority": "low"
+        },
+        {
+          "word": "画面",
+          "reading": "がめん",
+          "gloss": "screen",
+          "priority": "medium"
+        },
+        {
+          "word": "印刷",
+          "reading": "いんさつ",
+          "gloss": "printing",
+          "priority": "medium"
+        },
+        {
+          "word": "電源",
+          "reading": "でんげん",
+          "gloss": "power supply",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "description": "Sports, exercise, and athletic activities",
+      "expected_words": [
+        {
+          "word": "スポーツ",
+          "reading": "すぽーつ",
+          "gloss": "sports",
+          "priority": "high"
+        },
+        {
+          "word": "野球",
+          "reading": "やきゅう",
+          "gloss": "baseball",
+          "priority": "high"
+        },
+        {
+          "word": "サッカー",
+          "reading": "さっかー",
+          "gloss": "soccer",
+          "priority": "high"
+        },
+        {
+          "word": "テニス",
+          "reading": "てにす",
+          "gloss": "tennis",
+          "priority": "medium"
+        },
+        {
+          "word": "水泳",
+          "reading": "すいえい",
+          "gloss": "swimming",
+          "priority": "medium"
+        },
+        {
+          "word": "試合",
+          "reading": "しあい",
+          "gloss": "match; game",
+          "priority": "high"
+        },
+        {
+          "word": "練習",
+          "reading": "れんしゅう",
+          "gloss": "practice",
+          "priority": "high"
+        },
+        {
+          "word": "勝つ",
+          "reading": "かつ",
+          "gloss": "to win",
+          "priority": "high"
+        },
+        {
+          "word": "負ける",
+          "reading": "まける",
+          "gloss": "to lose",
+          "priority": "high"
+        },
+        {
+          "word": "チーム",
+          "reading": "ちーむ",
+          "gloss": "team",
+          "priority": "medium"
+        },
+        {
+          "word": "応援",
+          "reading": "おうえん",
+          "gloss": "cheering; support",
+          "priority": "medium"
+        },
+        {
+          "word": "柔道",
+          "reading": "じゅうどう",
+          "gloss": "judo",
+          "priority": "medium"
+        },
+        {
+          "word": "相撲",
+          "reading": "すもう",
+          "gloss": "sumo",
+          "priority": "medium"
+        },
+        {
+          "word": "オリンピック",
+          "reading": "おりんぴっく",
+          "gloss": "Olympics",
+          "priority": "medium"
+        },
+        {
+          "word": "投げる",
+          "reading": "なげる",
+          "gloss": "to throw",
+          "priority": "high"
+        },
+        {
+          "word": "蹴る",
+          "reading": "ける",
+          "gloss": "to kick",
+          "priority": "medium"
+        },
+        {
+          "word": "打つ",
+          "reading": "うつ",
+          "gloss": "to hit; to strike",
+          "priority": "high"
+        },
+        {
+          "word": "泳ぐ",
+          "reading": "およぐ",
+          "gloss": "to swim",
+          "priority": "high"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "arts_culture",
+      "name": "Arts and Culture",
+      "description": "Music, art, literature, and cultural activities",
+      "expected_words": [
+        {
+          "word": "音楽",
+          "reading": "おんがく",
+          "gloss": "music",
+          "priority": "high"
+        },
+        {
+          "word": "歌",
+          "reading": "うた",
+          "gloss": "song",
+          "priority": "high"
+        },
+        {
+          "word": "歌う",
+          "reading": "うたう",
+          "gloss": "to sing",
+          "priority": "high"
+        },
+        {
+          "word": "踊る",
+          "reading": "おどる",
+          "gloss": "to dance",
+          "priority": "high"
+        },
+        {
+          "word": "絵",
+          "reading": "え",
+          "gloss": "picture; painting",
+          "priority": "high"
+        },
+        {
+          "word": "描く",
+          "reading": "えがく",
+          "gloss": "to draw; to paint",
+          "priority": "medium"
+        },
+        {
+          "word": "映画",
+          "reading": "えいが",
+          "gloss": "movie; film",
+          "priority": "high"
+        },
+        {
+          "word": "小説",
+          "reading": "しょうせつ",
+          "gloss": "novel",
+          "priority": "medium"
+        },
+        {
+          "word": "演劇",
+          "reading": "えんげき",
+          "gloss": "theater; drama",
+          "priority": "medium"
+        },
+        {
+          "word": "美術館",
+          "reading": "びじゅつかん",
+          "gloss": "art museum",
+          "priority": "medium"
+        },
+        {
+          "word": "博物館",
+          "reading": "はくぶつかん",
+          "gloss": "museum",
+          "priority": "medium"
+        },
+        {
+          "word": "文化",
+          "reading": "ぶんか",
+          "gloss": "culture",
+          "priority": "high"
+        },
+        {
+          "word": "伝統",
+          "reading": "でんとう",
+          "gloss": "tradition",
+          "priority": "medium"
+        },
+        {
+          "word": "芸術",
+          "reading": "げいじゅつ",
+          "gloss": "art; fine arts",
+          "priority": "medium"
+        },
+        {
+          "word": "楽器",
+          "reading": "がっき",
+          "gloss": "musical instrument",
+          "priority": "medium"
+        },
+        {
+          "word": "ピアノ",
+          "reading": "ぴあの",
+          "gloss": "piano",
+          "priority": "medium"
+        },
+        {
+          "word": "ギター",
+          "reading": "ぎたー",
+          "gloss": "guitar",
+          "priority": "medium"
+        },
+        {
+          "word": "漫画",
+          "reading": "まんが",
+          "gloss": "manga; comics",
+          "priority": "medium"
+        },
+        {
+          "word": "アニメ",
+          "reading": "あにめ",
+          "gloss": "anime",
+          "priority": "medium"
+        },
+        {
+          "word": "趣味",
+          "reading": "しゅみ",
+          "gloss": "hobby",
+          "priority": "high"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "religion",
+      "name": "Religion",
+      "description": "Religious terms, temples, shrines, and spiritual vocabulary",
+      "expected_words": [
+        {
+          "word": "神社",
+          "reading": "じんじゃ",
+          "gloss": "Shinto shrine",
+          "priority": "high"
+        },
+        {
+          "word": "寺",
+          "reading": "てら",
+          "gloss": "Buddhist temple",
+          "priority": "high"
+        },
+        {
+          "word": "神",
+          "reading": "かみ",
+          "gloss": "god; deity",
+          "priority": "high"
+        },
+        {
+          "word": "仏",
+          "reading": "ほとけ",
+          "gloss": "Buddha",
+          "priority": "medium"
+        },
+        {
+          "word": "祈る",
+          "reading": "いのる",
+          "gloss": "to pray",
+          "priority": "medium"
+        },
+        {
+          "word": "お参り",
+          "reading": "おまいり",
+          "gloss": "shrine/temple visit",
+          "priority": "medium"
+        },
+        {
+          "word": "宗教",
+          "reading": "しゅうきょう",
+          "gloss": "religion",
+          "priority": "medium"
+        },
+        {
+          "word": "お守り",
+          "reading": "おまもり",
+          "gloss": "charm; amulet",
+          "priority": "medium"
+        },
+        {
+          "word": "お寺",
+          "reading": "おてら",
+          "gloss": "temple (polite)",
+          "priority": "medium"
+        },
+        {
+          "word": "信じる",
+          "reading": "しんじる",
+          "gloss": "to believe",
+          "priority": "high"
+        },
+        {
+          "word": "魂",
+          "reading": "たましい",
+          "gloss": "soul; spirit",
+          "priority": "low"
+        },
+        {
+          "word": "地獄",
+          "reading": "じごく",
+          "gloss": "hell",
+          "priority": "low"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "media_news",
+      "name": "Media and News",
+      "description": "News, media, and broadcasting vocabulary",
+      "expected_words": [
+        {
+          "word": "ニュース",
+          "reading": "にゅーす",
+          "gloss": "news",
+          "priority": "high"
+        },
+        {
+          "word": "番組",
+          "reading": "ばんぐみ",
+          "gloss": "TV program",
+          "priority": "medium"
+        },
+        {
+          "word": "放送",
+          "reading": "ほうそう",
+          "gloss": "broadcast",
+          "priority": "medium"
+        },
+        {
+          "word": "新聞",
+          "reading": "しんぶん",
+          "gloss": "newspaper",
+          "priority": "high"
+        },
+        {
+          "word": "記事",
+          "reading": "きじ",
+          "gloss": "article; news story",
+          "priority": "medium"
+        },
+        {
+          "word": "広告",
+          "reading": "こうこく",
+          "gloss": "advertisement",
+          "priority": "medium"
+        },
+        {
+          "word": "雑誌",
+          "reading": "ざっし",
+          "gloss": "magazine",
+          "priority": "medium"
+        },
+        {
+          "word": "出版",
+          "reading": "しゅっぱん",
+          "gloss": "publishing",
+          "priority": "medium"
+        },
+        {
+          "word": "取材",
+          "reading": "しゅざい",
+          "gloss": "news coverage; interview",
+          "priority": "low"
+        },
+        {
+          "word": "報道",
+          "reading": "ほうどう",
+          "gloss": "news reporting",
+          "priority": "medium"
+        },
+        {
+          "word": "世論",
+          "reading": "よろん",
+          "gloss": "public opinion",
+          "priority": "low"
+        },
+        {
+          "word": "マスコミ",
+          "reading": "ますこみ",
+          "gloss": "mass media",
+          "priority": "medium"
+        },
+        {
+          "word": "ラジオ",
+          "reading": "らじお",
+          "gloss": "radio",
+          "priority": "medium"
+        },
+        {
+          "word": "テレビ",
+          "reading": "てれび",
+          "gloss": "television",
+          "priority": "high"
+        },
+        {
+          "word": "動画",
+          "reading": "どうが",
+          "gloss": "video",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    },
+    {
+      "id": "housing_real_estate",
+      "name": "Housing and Real Estate",
+      "description": "Renting, buying, and living arrangements",
+      "expected_words": [
+        {
+          "word": "アパート",
+          "reading": "あぱーと",
+          "gloss": "apartment",
+          "priority": "high"
+        },
+        {
+          "word": "マンション",
+          "reading": "まんしょん",
+          "gloss": "condominium; apartment building",
+          "priority": "medium"
+        },
+        {
+          "word": "家賃",
+          "reading": "やちん",
+          "gloss": "rent",
+          "priority": "medium"
+        },
+        {
+          "word": "引っ越し",
+          "reading": "ひっこし",
+          "gloss": "moving (house)",
+          "priority": "medium"
+        },
+        {
+          "word": "住所",
+          "reading": "じゅうしょ",
+          "gloss": "address",
+          "priority": "high"
+        },
+        {
+          "word": "住む",
+          "reading": "すむ",
+          "gloss": "to live; to reside",
+          "priority": "high"
+        },
+        {
+          "word": "建物",
+          "reading": "たてもの",
+          "gloss": "building",
+          "priority": "high"
+        },
+        {
+          "word": "建てる",
+          "reading": "たてる",
+          "gloss": "to build; to construct",
+          "priority": "medium"
+        },
+        {
+          "word": "エレベーター",
+          "reading": "えれべーたー",
+          "gloss": "elevator",
+          "priority": "medium"
+        },
+        {
+          "word": "階",
+          "reading": "かい",
+          "gloss": "floor; story",
+          "priority": "high"
+        },
+        {
+          "word": "管理",
+          "reading": "かんり",
+          "gloss": "management",
+          "priority": "medium"
+        },
+        {
+          "word": "不動産",
+          "reading": "ふどうさん",
+          "gloss": "real estate",
+          "priority": "low"
+        },
+        {
+          "word": "近所",
+          "reading": "きんじょ",
+          "gloss": "neighborhood",
+          "priority": "high"
+        },
+        {
+          "word": "町",
+          "reading": "まち",
+          "gloss": "town; city",
+          "priority": "high"
+        },
+        {
+          "word": "村",
+          "reading": "むら",
+          "gloss": "village",
+          "priority": "medium"
+        },
+        {
+          "word": "都会",
+          "reading": "とかい",
+          "gloss": "city; urban area",
+          "priority": "medium"
+        },
+        {
+          "word": "田舎",
+          "reading": "いなか",
+          "gloss": "countryside; rural area",
+          "priority": "medium"
+        }
+      ],
+      "category": "society"
+    }
+  ]
+}

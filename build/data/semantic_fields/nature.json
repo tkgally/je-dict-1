@@ -1,0 +1,230 @@
+{
+  "category": "nature",
+  "category_name": "Nature",
+  "fields": [
+    {
+      "id": "weather",
+      "name": "Weather",
+      "description": "Weather conditions, phenomena, and forecasting",
+      "expected_words": [
+        {"word": "天気", "reading": "てんき", "gloss": "weather", "priority": "high"},
+        {"word": "雨", "reading": "あめ", "gloss": "rain", "priority": "high"},
+        {"word": "雪", "reading": "ゆき", "gloss": "snow", "priority": "high"},
+        {"word": "風", "reading": "かぜ", "gloss": "wind", "priority": "high"},
+        {"word": "雲", "reading": "くも", "gloss": "cloud", "priority": "high"},
+        {"word": "晴れる", "reading": "はれる", "gloss": "to clear up (weather)", "priority": "high"},
+        {"word": "曇る", "reading": "くもる", "gloss": "to become cloudy", "priority": "high"},
+        {"word": "降る", "reading": "ふる", "gloss": "to fall (rain/snow)", "priority": "high"},
+        {"word": "暑い", "reading": "あつい", "gloss": "hot (weather)", "priority": "high"},
+        {"word": "寒い", "reading": "さむい", "gloss": "cold (weather)", "priority": "high"},
+        {"word": "涼しい", "reading": "すずしい", "gloss": "cool; refreshing", "priority": "high"},
+        {"word": "暖かい", "reading": "あたたかい", "gloss": "warm", "priority": "high"},
+        {"word": "台風", "reading": "たいふう", "gloss": "typhoon", "priority": "medium"},
+        {"word": "雷", "reading": "かみなり", "gloss": "thunder; lightning", "priority": "medium"},
+        {"word": "霧", "reading": "きり", "gloss": "fog; mist", "priority": "medium"},
+        {"word": "湿度", "reading": "しつど", "gloss": "humidity", "priority": "medium"},
+        {"word": "温度", "reading": "おんど", "gloss": "temperature", "priority": "medium"},
+        {"word": "天気予報", "reading": "てんきよほう", "gloss": "weather forecast", "priority": "medium"},
+        {"word": "梅雨", "reading": "つゆ", "gloss": "rainy season", "priority": "medium"},
+        {"word": "虹", "reading": "にじ", "gloss": "rainbow", "priority": "low"},
+        {"word": "蒸し暑い", "reading": "むしあつい", "gloss": "humid and hot", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "seasons",
+      "name": "Seasons",
+      "description": "Four seasons and seasonal activities/concepts",
+      "expected_words": [
+        {"word": "春", "reading": "はる", "gloss": "spring", "priority": "high"},
+        {"word": "夏", "reading": "なつ", "gloss": "summer", "priority": "high"},
+        {"word": "秋", "reading": "あき", "gloss": "autumn", "priority": "high"},
+        {"word": "冬", "reading": "ふゆ", "gloss": "winter", "priority": "high"},
+        {"word": "季節", "reading": "きせつ", "gloss": "season", "priority": "high"},
+        {"word": "桜", "reading": "さくら", "gloss": "cherry blossom", "priority": "high"},
+        {"word": "花見", "reading": "はなみ", "gloss": "cherry blossom viewing", "priority": "medium"},
+        {"word": "紅葉", "reading": "こうよう", "gloss": "autumn leaves", "priority": "medium"},
+        {"word": "花火", "reading": "はなび", "gloss": "fireworks", "priority": "medium"},
+        {"word": "正月", "reading": "しょうがつ", "gloss": "New Year", "priority": "medium"},
+        {"word": "祭り", "reading": "まつり", "gloss": "festival", "priority": "high"},
+        {"word": "年末", "reading": "ねんまつ", "gloss": "year-end", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "animals",
+      "name": "Animals",
+      "description": "Common animals including pets, farm animals, and wildlife",
+      "expected_words": [
+        {"word": "犬", "reading": "いぬ", "gloss": "dog", "priority": "high"},
+        {"word": "猫", "reading": "ねこ", "gloss": "cat", "priority": "high"},
+        {"word": "鳥", "reading": "とり", "gloss": "bird", "priority": "high"},
+        {"word": "牛", "reading": "うし", "gloss": "cow; cattle", "priority": "high"},
+        {"word": "馬", "reading": "うま", "gloss": "horse", "priority": "high"},
+        {"word": "豚", "reading": "ぶた", "gloss": "pig", "priority": "medium"},
+        {"word": "羊", "reading": "ひつじ", "gloss": "sheep", "priority": "medium"},
+        {"word": "猿", "reading": "さる", "gloss": "monkey", "priority": "medium"},
+        {"word": "象", "reading": "ぞう", "gloss": "elephant", "priority": "medium"},
+        {"word": "熊", "reading": "くま", "gloss": "bear", "priority": "medium"},
+        {"word": "虫", "reading": "むし", "gloss": "insect; bug", "priority": "high"},
+        {"word": "蛇", "reading": "へび", "gloss": "snake", "priority": "medium"},
+        {"word": "鶏", "reading": "にわとり", "gloss": "chicken", "priority": "medium"},
+        {"word": "亀", "reading": "かめ", "gloss": "turtle", "priority": "medium"},
+        {"word": "蝶", "reading": "ちょう", "gloss": "butterfly", "priority": "low"},
+        {"word": "蚊", "reading": "か", "gloss": "mosquito", "priority": "medium"},
+        {"word": "ウサギ", "reading": "うさぎ", "gloss": "rabbit", "priority": "medium"},
+        {"word": "ライオン", "reading": "らいおん", "gloss": "lion", "priority": "medium"},
+        {"word": "鯨", "reading": "くじら", "gloss": "whale", "priority": "low"},
+        {"word": "動物", "reading": "どうぶつ", "gloss": "animal", "priority": "high"},
+        {"word": "ペット", "reading": "ぺっと", "gloss": "pet", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "plants",
+      "name": "Plants",
+      "description": "Trees, flowers, and plant-related vocabulary",
+      "expected_words": [
+        {"word": "木", "reading": "き", "gloss": "tree; wood", "priority": "high"},
+        {"word": "花", "reading": "はな", "gloss": "flower", "priority": "high"},
+        {"word": "草", "reading": "くさ", "gloss": "grass; weed", "priority": "high"},
+        {"word": "葉", "reading": "は", "gloss": "leaf", "priority": "high"},
+        {"word": "根", "reading": "ね", "gloss": "root", "priority": "medium"},
+        {"word": "枝", "reading": "えだ", "gloss": "branch", "priority": "medium"},
+        {"word": "種", "reading": "たね", "gloss": "seed", "priority": "medium"},
+        {"word": "実", "reading": "み", "gloss": "fruit; nut", "priority": "medium"},
+        {"word": "森", "reading": "もり", "gloss": "forest", "priority": "high"},
+        {"word": "林", "reading": "はやし", "gloss": "woods; grove", "priority": "medium"},
+        {"word": "竹", "reading": "たけ", "gloss": "bamboo", "priority": "medium"},
+        {"word": "松", "reading": "まつ", "gloss": "pine tree", "priority": "medium"},
+        {"word": "咲く", "reading": "さく", "gloss": "to bloom", "priority": "high"},
+        {"word": "枯れる", "reading": "かれる", "gloss": "to wither", "priority": "medium"},
+        {"word": "植える", "reading": "うえる", "gloss": "to plant", "priority": "medium"},
+        {"word": "育てる", "reading": "そだてる", "gloss": "to grow; to raise", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "nature_geography",
+      "name": "Nature and Geography",
+      "description": "Natural features, landforms, and geographical terms",
+      "expected_words": [
+        {"word": "山", "reading": "やま", "gloss": "mountain", "priority": "high"},
+        {"word": "川", "reading": "かわ", "gloss": "river", "priority": "high"},
+        {"word": "海", "reading": "うみ", "gloss": "sea; ocean", "priority": "high"},
+        {"word": "湖", "reading": "みずうみ", "gloss": "lake", "priority": "medium"},
+        {"word": "島", "reading": "しま", "gloss": "island", "priority": "medium"},
+        {"word": "空", "reading": "そら", "gloss": "sky", "priority": "high"},
+        {"word": "星", "reading": "ほし", "gloss": "star", "priority": "high"},
+        {"word": "月", "reading": "つき", "gloss": "moon", "priority": "high"},
+        {"word": "太陽", "reading": "たいよう", "gloss": "sun", "priority": "high"},
+        {"word": "石", "reading": "いし", "gloss": "stone; rock", "priority": "high"},
+        {"word": "砂", "reading": "すな", "gloss": "sand", "priority": "medium"},
+        {"word": "土", "reading": "つち", "gloss": "soil; earth", "priority": "high"},
+        {"word": "池", "reading": "いけ", "gloss": "pond", "priority": "medium"},
+        {"word": "滝", "reading": "たき", "gloss": "waterfall", "priority": "low"},
+        {"word": "丘", "reading": "おか", "gloss": "hill", "priority": "medium"},
+        {"word": "谷", "reading": "たに", "gloss": "valley", "priority": "medium"},
+        {"word": "岸", "reading": "きし", "gloss": "shore; bank", "priority": "low"},
+        {"word": "波", "reading": "なみ", "gloss": "wave", "priority": "medium"},
+        {"word": "自然", "reading": "しぜん", "gloss": "nature", "priority": "high"},
+        {"word": "環境", "reading": "かんきょう", "gloss": "environment", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "natural_disasters",
+      "name": "Natural Disasters",
+      "description": "Earthquakes, floods, and natural disaster vocabulary",
+      "expected_words": [
+        {"word": "地震", "reading": "じしん", "gloss": "earthquake", "priority": "high"},
+        {"word": "津波", "reading": "つなみ", "gloss": "tsunami", "priority": "high"},
+        {"word": "洪水", "reading": "こうずい", "gloss": "flood", "priority": "medium"},
+        {"word": "火事", "reading": "かじ", "gloss": "fire (conflagration)", "priority": "high"},
+        {"word": "災害", "reading": "さいがい", "gloss": "disaster", "priority": "medium"},
+        {"word": "避難", "reading": "ひなん", "gloss": "evacuation", "priority": "medium"},
+        {"word": "噴火", "reading": "ふんか", "gloss": "volcanic eruption", "priority": "low"},
+        {"word": "土砂崩れ", "reading": "どしゃくずれ", "gloss": "landslide", "priority": "low"},
+        {"word": "被害", "reading": "ひがい", "gloss": "damage; harm", "priority": "medium"},
+        {"word": "危険", "reading": "きけん", "gloss": "danger; hazard", "priority": "high"},
+        {"word": "安全", "reading": "あんぜん", "gloss": "safety; safe", "priority": "high"},
+        {"word": "防災", "reading": "ぼうさい", "gloss": "disaster prevention", "priority": "low"}
+      ]
+    },
+    {
+      "id": "environment_ecology",
+      "name": "Environment and Ecology",
+      "description": "Environmental issues, ecology, and conservation",
+      "expected_words": [
+        {"word": "汚染", "reading": "おせん", "gloss": "pollution; contamination", "priority": "medium"},
+        {"word": "リサイクル", "reading": "りさいくる", "gloss": "recycling", "priority": "medium"},
+        {"word": "エネルギー", "reading": "えねるぎー", "gloss": "energy", "priority": "medium"},
+        {"word": "温暖化", "reading": "おんだんか", "gloss": "global warming", "priority": "medium"},
+        {"word": "資源", "reading": "しげん", "gloss": "resources", "priority": "medium"},
+        {"word": "生態系", "reading": "せいたいけい", "gloss": "ecosystem", "priority": "low"},
+        {"word": "絶滅", "reading": "ぜつめつ", "gloss": "extinction", "priority": "low"},
+        {"word": "森林", "reading": "しんりん", "gloss": "forest; woodland", "priority": "medium"},
+        {"word": "砂漠", "reading": "さばく", "gloss": "desert", "priority": "medium"},
+        {"word": "大気", "reading": "たいき", "gloss": "atmosphere", "priority": "low"},
+        {"word": "酸素", "reading": "さんそ", "gloss": "oxygen", "priority": "medium"},
+        {"word": "二酸化炭素", "reading": "にさんかたんそ", "gloss": "carbon dioxide", "priority": "low"},
+        {"word": "地球", "reading": "ちきゅう", "gloss": "Earth", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "time_of_day_celestial",
+      "name": "Celestial Bodies and Sky",
+      "description": "Sun, moon, stars, and sky-related vocabulary",
+      "expected_words": [
+        {"word": "日", "reading": "ひ", "gloss": "sun; day", "priority": "high"},
+        {"word": "日の出", "reading": "ひので", "gloss": "sunrise", "priority": "medium"},
+        {"word": "日の入り", "reading": "ひのいり", "gloss": "sunset", "priority": "medium"},
+        {"word": "夕日", "reading": "ゆうひ", "gloss": "evening sun; sunset", "priority": "medium"},
+        {"word": "朝日", "reading": "あさひ", "gloss": "morning sun", "priority": "medium"},
+        {"word": "満月", "reading": "まんげつ", "gloss": "full moon", "priority": "low"},
+        {"word": "宇宙", "reading": "うちゅう", "gloss": "space; universe", "priority": "medium"},
+        {"word": "惑星", "reading": "わくせい", "gloss": "planet", "priority": "low"},
+        {"word": "流れ星", "reading": "ながれぼし", "gloss": "shooting star", "priority": "low"},
+        {"word": "日光", "reading": "にっこう", "gloss": "sunlight", "priority": "medium"},
+        {"word": "月光", "reading": "げっこう", "gloss": "moonlight", "priority": "low"}
+      ]
+    },
+    {
+      "id": "water_liquids",
+      "name": "Water and Liquids",
+      "description": "Water-related terms and liquid states",
+      "expected_words": [
+        {"word": "水", "reading": "みず", "gloss": "water", "priority": "high"},
+        {"word": "お湯", "reading": "おゆ", "gloss": "hot water", "priority": "high"},
+        {"word": "湯", "reading": "ゆ", "gloss": "hot water; bath", "priority": "medium"},
+        {"word": "泉", "reading": "いずみ", "gloss": "spring; fountain", "priority": "low"},
+        {"word": "流れる", "reading": "ながれる", "gloss": "to flow", "priority": "medium"},
+        {"word": "沈む", "reading": "しずむ", "gloss": "to sink", "priority": "medium"},
+        {"word": "浮かぶ", "reading": "うかぶ", "gloss": "to float", "priority": "medium"},
+        {"word": "溶ける", "reading": "とける", "gloss": "to melt; to dissolve", "priority": "medium"},
+        {"word": "凍る", "reading": "こおる", "gloss": "to freeze", "priority": "medium"},
+        {"word": "濡れる", "reading": "ぬれる", "gloss": "to get wet", "priority": "medium"},
+        {"word": "乾く", "reading": "かわく", "gloss": "to dry", "priority": "medium"},
+        {"word": "蒸気", "reading": "じょうき", "gloss": "steam; vapor", "priority": "low"},
+        {"word": "露", "reading": "つゆ", "gloss": "dew", "priority": "low"},
+        {"word": "泥", "reading": "どろ", "gloss": "mud", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "fire_heat",
+      "name": "Fire and Heat",
+      "description": "Fire, heat, and temperature-related vocabulary",
+      "expected_words": [
+        {"word": "火", "reading": "ひ", "gloss": "fire", "priority": "high"},
+        {"word": "炎", "reading": "ほのお", "gloss": "flame", "priority": "medium"},
+        {"word": "燃える", "reading": "もえる", "gloss": "to burn (intransitive)", "priority": "medium"},
+        {"word": "燃やす", "reading": "もやす", "gloss": "to burn (transitive)", "priority": "medium"},
+        {"word": "消す", "reading": "けす", "gloss": "to extinguish; to erase", "priority": "high"},
+        {"word": "熱い", "reading": "あつい", "gloss": "hot (to touch)", "priority": "high"},
+        {"word": "冷たい", "reading": "つめたい", "gloss": "cold (to touch)", "priority": "high"},
+        {"word": "温かい", "reading": "あたたかい", "gloss": "warm (to touch)", "priority": "high"},
+        {"word": "冷える", "reading": "ひえる", "gloss": "to get cold", "priority": "medium"},
+        {"word": "温める", "reading": "あたためる", "gloss": "to warm up", "priority": "medium"},
+        {"word": "冷ます", "reading": "さます", "gloss": "to cool down", "priority": "medium"},
+        {"word": "沸かす", "reading": "わかす", "gloss": "to boil (water)", "priority": "medium"},
+        {"word": "沸く", "reading": "わく", "gloss": "to boil (intransitive)", "priority": "medium"},
+        {"word": "焦げる", "reading": "こげる", "gloss": "to scorch; to burn (food)", "priority": "low"}
+      ]
+    }
+  ]
+}
