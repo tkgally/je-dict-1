@@ -198,6 +198,13 @@ make audit-scenarios                      # scenario coverage overview
 make assemble-scenarios                   # reassemble learner_scenarios.json from per-category files
 make audit-tiers                          # vocabulary tier outlier detection
 make consistency                          # run consistency checker
+make lock-status                          # show active entry locks
+
+# Parallel execution
+python3 build/entry_lock.py status            # Show active entry locks
+python3 build/entry_lock.py lock --range 10000 10499 --session "my-session"
+python3 build/entry_lock.py unlock --range 10000 10499 --session "my-session"
+python3 build/parallel_coordinator.py branch1 branch2  # Merge parallel session branches
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).
@@ -268,6 +275,58 @@ The knowledge base at `planning/wiki/` is an LLM-maintained wiki covering projec
 - `enhancement/enhancement-plan-2026-04-09.md` — comprehensive plan for content quality, workflow, and infrastructure improvements
 - `enhancement/prompts/README.md` — master guide with 16 step-by-step implementation prompts, metaprompts, and sequencing instructions
 - Enhancement prompts cover: infrastructure, verb transitivity, aspect/ている, note quality, cross-references, polishing priority, semantic fields, scenarios, tier reassessment, consistency checking, parallel execution, multi-model review, task queues, expository articles, and orchestration
+
+## Parallel Execution
+
+Two or more Claude Code sessions can safely run polishing tasks simultaneously on non-overlapping ID ranges.
+
+### How to run two sessions simultaneously
+
+1. **Choose non-overlapping ID ranges**: Divide the entry space (roughly 00001-23000) into ranges. Use 500-entry blocks aligned with directory boundaries (e.g., 10000-10499, 10500-10999).
+
+2. **Start each session with a range directive**: Tell each session which range to process:
+   > "Read prompts/polish_furigana_completeness.md and follow the instructions. Process entries 10000-10499 only."
+
+3. **Each session creates its own branch**: Sessions commit only entry changes and session logs to their branch. They do NOT run `make build` or `update_indexes.py`.
+
+4. **After all sessions complete, run the coordinator**:
+   ```bash
+   python3 build/parallel_coordinator.py branch1 branch2
+   ```
+   This validates non-overlap, merges branches, and regenerates all shared files.
+
+5. **Create a single PR from the coordinated result**.
+
+### ID range assignment guidelines
+
+- Use 500-entry blocks aligned with directory boundaries: 00000-00499, 00500-00999, etc.
+- For two sessions: split the remaining entry space roughly in half.
+- For polishing tasks with progress tracking: start from the current `next:` value and assign consecutive blocks.
+- Record the range assignments so they don't overlap.
+
+### Entry locking (advisory)
+
+```bash
+python3 build/entry_lock.py lock --range 10000 10499 --session "session-1"
+python3 build/entry_lock.py check --range 10500 10999   # Check before starting
+python3 build/entry_lock.py status                       # See all active locks
+python3 build/entry_lock.py unlock --range 10000 10499 --session "session-1"
+python3 build/entry_lock.py clean                        # Remove expired locks
+```
+
+Locks are advisory and expire after 30 minutes. They help prevent accidental overlap but do not block execution.
+
+### What CAN run in parallel
+
+- Two different polishing tasks (e.g., furigana + inline links) on the same entries — generally safe if they modify different fields, but use separate branches to be safe.
+- The same polishing task on non-overlapping ID ranges — fully safe.
+- One polishing session + one entry creation session — safe if the polishing session doesn't touch newly created entries.
+
+### What CANNOT run in parallel
+
+- Two sessions modifying the same entry file — will cause merge conflicts.
+- Two sessions both running `make build` — unnecessary and may produce different outputs.
+- Two entry creation sessions — both modify `candidate_words.json`.
 
 ## Skills (detailed guidelines)
 
