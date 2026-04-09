@@ -15,7 +15,7 @@ Last updated: 2026-04-09
 | 02 | done | 02_verb_transitivity_tooling.md | Build find_missing_transitivity.py + polishing prompt | 2026-04-09 |
 | 03 | done | 03_aspect_teiru_tooling.md | Create aspect/ている polishing prompt | 2026-04-09 |
 | 04 | done | 04_note_quality_system.md | POS note templates + note quality scorer | 2026-04-09 |
-| 05 | pending | 05_cross_ref_symmetry.md | Cross-reference symmetry detection + cluster polishing | |
+| 05 | done | 05_cross_ref_symmetry.md | Cross-reference symmetry detection + cluster polishing | 2026-04-09 |
 | 06 | pending | 06_polishing_priority.md | Priority-based polishing reordering | |
 | 07 | pending | 07_semantic_field_audit.md | Semantic field definitions + coverage audit | |
 | 08 | pending | 08_scenario_gap_analysis.md | Learner scenario definitions + gap analysis | |
