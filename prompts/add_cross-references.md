@@ -178,6 +178,7 @@ After every 10-15 entries:
 make build
 git add -A && git commit -m "Add cross-references: XXXXX-XXXXX"
 ```
+**In parallel mode**: Replace `git add -A` with `git add entries/ polishing/sessions/` to avoid staging shared files.
 
 ## Session End
 
@@ -231,6 +232,36 @@ Report:
 6. Next entry to continue from
 7. Estimated remaining general tier entries
 8. If using cluster mode: number of clusters processed, cluster types
+
+## Parallel Execution Mode
+
+This task supports parallel execution when given an explicit ID range. Two or more sessions can run this task simultaneously on non-overlapping ID ranges.
+
+### How to invoke
+
+When starting the session, specify a range:
+> "Process entries 10000-10499 only."
+
+### Behavior in parallel mode
+
+When an ID range is given:
+1. **Ignore** the tracking file — do not read it or update it
+2. **Process only** entry files whose numeric ID falls within the given range (inclusive)
+3. **Skip shared-file updates**: do NOT run `update_indexes.py`, `build_flat.py`, or `update_kanji_index.py`
+4. **Commit entry changes only**: `git add entries/ polishing/sessions/ && git commit -m "..."`
+5. **Do NOT run `make build`** — a coordinator will do this after all parallel sessions complete
+6. **Do NOT push to main** — push to a feature branch and create a PR, but do NOT merge it. The coordinator will handle merging.
+
+### After parallel sessions complete
+
+A coordinator step (run manually or via `build/parallel_coordinator.py`) will:
+1. Merge all parallel session branches
+2. Run `update_indexes.py`, `build_flat.py`, and other shared-file regeneration
+3. Create a single combined PR
+
+### When NO range is given
+
+Operate in **legacy sequential mode**: read the tracking file, process entries sequentially from that point, update the tracking file, and run `make build` as usual. This is the default behavior.
 
 ## PR and Merge Workflow
 
