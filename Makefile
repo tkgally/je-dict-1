@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities
 
 validate:
 	python3 build/validate.py
@@ -41,5 +41,8 @@ check-symmetry:
 
 check-clusters:
 	python3 build/check_semantic_clusters.py --summary
+
+priorities:
+	python3 build/prioritize_polishing.py
 
 full: clean build
