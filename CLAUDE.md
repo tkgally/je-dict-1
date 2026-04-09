@@ -131,6 +131,8 @@ python3 build/find_missing_transitivity.py --json        # Machine-readable outp
 # Reports
 python3 build/report.py                   # Dictionary health dashboard
 python3 pipeline/update-brief.py          # Refresh PROJECT_CONTEXT_BRIEF.md from current data
+python3 build/score_note_quality.py --summary   # Note quality score distribution
+python3 build/score_note_quality.py --below 30   # Entries with worst notes
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
@@ -143,6 +145,7 @@ make check-furigana                       # find_missing_furigana scan
 make check-kanji                          # verify kanji index integrity
 make stats                                # tag statistics
 make word-lookup                          # rebuild word_id_lookup.json
+make note-scores                          # note quality score distribution
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).

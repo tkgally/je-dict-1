@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores
 
 validate:
 	python3 build/validate.py
@@ -32,5 +32,8 @@ report:
 
 clean:
 	rm -rf docs_build_temp/ docs_backup/
+
+note-scores:
+	python3 build/score_note_quality.py --summary
 
 full: clean build

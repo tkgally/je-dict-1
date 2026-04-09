@@ -1,0 +1,81 @@
+{
+  "_comment": "POS note templates for score_note_quality.py. Sections are matched case-insensitively against section headers in notes (e.g., 'TRANSITIVITY:', 'COMMON PATTERNS:').",
+  "verb-ichidan": {
+    "required_sections": ["transitivity", "common patterns"],
+    "optional_sections": ["aspect", "collocations", "particles", "similar verbs", "register", "negative usage", "keigo"],
+    "min_length": 120,
+    "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]
+  },
+  "verb-godan": {
+    "required_sections": ["transitivity", "common patterns"],
+    "optional_sections": ["aspect", "collocations", "particles", "similar verbs", "register", "negative usage", "keigo"],
+    "min_length": 120,
+    "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]
+  },
+  "verb-suru": {
+    "required_sections": ["common patterns"],
+    "optional_sections": ["transitivity", "aspect", "collocations", "particles", "similar verbs", "register", "keigo"],
+    "min_length": 100,
+    "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]
+  },
+  "verb-irregular": {
+    "required_sections": ["common patterns"],
+    "optional_sections": ["transitivity", "aspect", "collocations", "particles", "similar verbs", "register", "keigo"],
+    "min_length": 100,
+    "expected_order": ["transitivity", "aspect", "common patterns", "similar verbs", "register"]
+  },
+  "adjective-na": {
+    "required_sections": ["usage"],
+    "optional_sections": ["predicate vs. modifier", "collocations", "similar adjectives", "register", "forms"],
+    "min_length": 80,
+    "expected_order": ["usage", "predicate vs. modifier", "collocations", "similar adjectives", "register"]
+  },
+  "adjective-i": {
+    "required_sections": ["usage"],
+    "optional_sections": ["forms", "collocations", "similar adjectives", "register"],
+    "min_length": 80,
+    "expected_order": ["usage", "forms", "collocations", "similar adjectives", "register"]
+  },
+  "adjective-no": {
+    "required_sections": ["usage"],
+    "optional_sections": ["collocations", "similar adjectives", "register"],
+    "min_length": 60,
+    "expected_order": ["usage", "collocations", "similar adjectives", "register"]
+  },
+  "noun": {
+    "required_sections": [],
+    "optional_sections": ["common expressions", "collocations", "compounds", "similar words", "cultural context"],
+    "min_length": 60,
+    "expected_order": ["common expressions", "compounds", "similar words", "cultural context"]
+  },
+  "adverb": {
+    "required_sections": [],
+    "optional_sections": ["collocations", "position in sentence", "similar adverbs", "register"],
+    "min_length": 60,
+    "expected_order": ["collocations", "position in sentence", "similar adverbs"]
+  },
+  "particle": {
+    "required_sections": ["functions"],
+    "optional_sections": ["patterns", "contrasts", "common mistakes"],
+    "min_length": 100,
+    "expected_order": ["functions", "patterns", "contrasts", "common mistakes"]
+  },
+  "counter": {
+    "required_sections": ["counting patterns"],
+    "optional_sections": ["range", "exceptions", "similar counters"],
+    "min_length": 80,
+    "expected_order": ["counting patterns", "range", "exceptions", "similar counters"]
+  },
+  "expression": {
+    "required_sections": [],
+    "optional_sections": ["usage context", "formality", "similar expressions", "cultural context"],
+    "min_length": 60,
+    "expected_order": ["usage context", "formality", "similar expressions", "cultural context"]
+  },
+  "_default": {
+    "required_sections": [],
+    "optional_sections": [],
+    "min_length": 40,
+    "expected_order": []
+  }
+}

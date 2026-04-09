@@ -268,3 +268,26 @@ The web interface renders notes with line break support. To ensure proper displa
 3. Bullet points with `- ` will display as a list
 
 The rendering converts newlines appropriately, so focus on logical structure in the JSON.
+
+## POS Note Templates (Machine-Readable)
+
+The expected note structure for each POS is defined in `build/note_templates.json`. This file is used by `build/score_note_quality.py` to score note quality. When writing notes, aim to include the required sections for the entry's POS:
+
+| POS | Required Sections | Min Length |
+|-----|-------------------|------------|
+| verb-ichidan, verb-godan | transitivity, common patterns | 120 chars |
+| verb-suru, verb-irregular | common patterns | 100 chars |
+| adjective-na, adjective-i | usage | 80 chars |
+| adjective-no | usage | 60 chars |
+| noun | (none required) | 60 chars |
+| adverb | (none required) | 60 chars |
+| particle | functions | 100 chars |
+| counter | counting patterns | 80 chars |
+| expression | (none required) | 60 chars |
+
+Optional sections (bonus quality): collocations, similar words, register, cultural context, forms, aspect, etc. See `build/note_templates.json` for the complete list per POS.
+
+To check an entry's note quality score:
+```bash
+python3 build/score_note_quality.py --id ENTRY_ID
+```
