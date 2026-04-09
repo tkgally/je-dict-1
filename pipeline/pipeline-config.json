@@ -10,5 +10,46 @@
         "batch_size": 20
       }
     }
-  ]
+  ],
+  "parallel_slots": [
+    {
+      "id": "slot-1",
+      "task_type": "furigana",
+      "prompt": "prompts/polish_furigana_completeness.md",
+      "batch_size": 50,
+      "enabled": true
+    },
+    {
+      "id": "slot-2",
+      "task_type": "notes",
+      "prompt": "prompts/expand-short-notes.md",
+      "batch_size": 25,
+      "enabled": true
+    },
+    {
+      "id": "slot-3",
+      "task_type": "cross_refs",
+      "prompt": "prompts/add_cross-references.md",
+      "batch_size": 15,
+      "enabled": false
+    },
+    {
+      "id": "slot-4",
+      "task_type": "examples",
+      "prompt": "prompts/polish_example_sentences.md",
+      "batch_size": 20,
+      "enabled": false
+    }
+  ],
+  "schedule": {
+    "max_concurrent": 2,
+    "daily_budget_usd": 50.0,
+    "cooldown_minutes": 5,
+    "max_runs_per_day": 10
+  },
+  "coordinator": {
+    "post_session_build": true,
+    "auto_merge": false,
+    "notify_on_failure": true
+  }
 }

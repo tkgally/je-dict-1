@@ -64,3 +64,8 @@ prompts/brainstorm_results.json
 
 # Parallel session locks (advisory, not committed)
 polishing/locks/
+
+# Orchestrator runtime files
+pipeline/orchestrator.lock
+pipeline/logs/
+pipeline/task_queue.json

@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup orchestrate orchestrate-status orchestrate-stop monitor
 
 validate:
 	python3 build/validate.py
@@ -74,5 +74,17 @@ queue-status:
 
 queue-cleanup:
 	python3 pipeline/task_queue.py cleanup
+
+orchestrate:
+	python3 pipeline/orchestrator.py start
+
+orchestrate-status:
+	python3 pipeline/orchestrator.py status
+
+orchestrate-stop:
+	python3 pipeline/orchestrator.py stop
+
+monitor:
+	python3 pipeline/monitor.py
 
 full: clean build

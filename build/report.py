@@ -603,6 +603,87 @@ def report_consistency_summary(project_root: Path) -> None:
     print()
 
 
+def report_queue_and_agents(project_root: Path) -> None:
+    """Print task queue status and agent activity metrics."""
+    queue_file = project_root / 'pipeline' / 'task_queue.json'
+    budget_file = project_root / 'pipeline' / 'budget.json'
+    logs_dir = project_root / 'pipeline' / 'logs'
+
+    # Queue status
+    if queue_file.exists():
+        try:
+            with open(queue_file) as f:
+                qdata = json.load(f)
+
+            tasks = qdata.get('tasks', [])
+            pending = sum(1 for t in tasks if t['status'] == 'pending')
+            in_progress = sum(1 for t in tasks if t['status'] == 'in_progress')
+            completed = sum(1 for t in tasks if t['status'] == 'completed')
+
+            print("TASK QUEUE")
+            print("-" * 40)
+            print(f"  Pending:               {pending:>6}")
+            print(f"  In progress:           {in_progress:>6}")
+            print(f"  Completed:             {completed:>6}")
+            print(f"  Total:                 {pending + in_progress + completed:>6}")
+
+            # By type
+            type_counts: dict[str, dict[str, int]] = {}
+            for t in tasks:
+                tt = t['task_type']
+                if tt not in type_counts:
+                    type_counts[tt] = {'pending': 0, 'in_progress': 0, 'completed': 0}
+                if t['status'] in type_counts[tt]:
+                    type_counts[tt][t['status']] += 1
+            if type_counts:
+                print("  By type:")
+                for tt in sorted(type_counts):
+                    c = type_counts[tt]
+                    print(f"    {tt:<15} {c['pending']:>5d}p / {c['in_progress']:>3d}a / {c['completed']:>5d}d")
+            print()
+        except (json.JSONDecodeError, IOError, KeyError):
+            pass
+
+    # Agent activity from budget log
+    if budget_file.exists():
+        try:
+            with open(budget_file) as f:
+                bdata = json.load(f)
+            session_log = bdata.get('session_log', [])
+            if session_log:
+                print("AGENT ACTIVITY (today)")
+                print("-" * 40)
+                print(f"  Sessions launched:     {len(session_log):>6}")
+                total_cost = sum(s.get('cost_usd', 0) for s in session_log)
+                limit = bdata.get('daily_limit_usd', 50.0)
+                print(f"  Estimated cost:       ${total_cost:>6.2f} / ${limit:.2f}")
+                print()
+        except (json.JSONDecodeError, IOError, KeyError):
+            pass
+
+    # Log file metrics
+    if logs_dir.exists():
+        today = datetime.now(timezone.utc).strftime('%Y-%m-%d')
+        today_logs = [f for f in logs_dir.glob(f'*_{today}*.log')
+                      if not f.name.startswith('orchestrator_')]
+        if today_logs:
+            failed = 0
+            for lf in today_logs:
+                try:
+                    content = lf.read_text(errors='replace')
+                    if 'Error' in content or 'FAILED' in content:
+                        failed += 1
+                except IOError:
+                    pass
+            print("AGENT SESSIONS (today)")
+            print("-" * 40)
+            print(f"  Total log files:       {len(today_logs):>6}")
+            print(f"  With errors:           {failed:>6}")
+            rate = (failed / len(today_logs) * 100) if today_logs else 0
+            print(f"  Error rate:            {rate:>5.1f}%")
+            print()
+
+
 def report_review_coverage(project_root: Path, total_entries: int) -> None:
     """Print multi-model review coverage and results."""
     reviews_dir = project_root / 'reviews'
@@ -716,6 +797,7 @@ def main():
     report_furigana(entries)
     report_note_quality(entries)
     report_pos_completeness(entries)
+    report_queue_and_agents(project_root)
     report_review_coverage(project_root, len(entries))
     report_polishing_progress(project_root)
     report_candidate_health(project_root)
