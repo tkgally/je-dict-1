@@ -19,6 +19,7 @@ build/            # Python build, validation, and utility scripts
   build/generate_word_lookup.py # Builds word_id_lookup.json for inline link lookups
   build/manage_candidates.py    # Add/remove/check candidates in candidate_words.json
   build/find_missing_furigana.py # Scan entries for kanji missing furigana
+  build/find_missing_transitivity.py # Report on verbs missing transitivity data
   build/update_kanji_index.py   # Rebuild kanji JSON files; --check-new finds new kanji
   build/validate_tags.py        # Validate semantic/POS tag consistency
   build/get_next_id.py          # Get next available entry ID (scans filesystem)
@@ -122,6 +123,11 @@ python3 build/find_merge_candidates.py              # Full report: merges, cross
 python3 build/find_merge_candidates.py --merge-only # Only potential merges
 python3 build/find_merge_candidates.py --json       # Machine-readable output
 
+# Verb transitivity
+python3 build/find_missing_transitivity.py              # Report on verbs missing transitivity data
+python3 build/find_missing_transitivity.py --tier basic  # Filter to one tier
+python3 build/find_missing_transitivity.py --json        # Machine-readable output
+
 # Reports
 python3 build/report.py                   # Dictionary health dashboard
 python3 pipeline/update-brief.py          # Refresh PROJECT_CONTEXT_BRIEF.md from current data
@@ -185,6 +191,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_furigana_completeness.md` — find and add missing furigana
 - `polish_furigana_correctness.md` — verify existing furigana readings are correct
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
+- `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.

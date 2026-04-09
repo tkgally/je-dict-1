@@ -32,6 +32,8 @@ TRANSITIVITY:
 - 出る/出す, 入る/入れる, 付く/付ける, 消える/消す
 - 割れる/割る, 壊れる/壊す, 決まる/決める, 変わる/変える
 
+**Pair linking**: Use `prominent_see_also` (NOT `cross_references`) to link transitive/intransitive pair verbs. The `note` field should indicate what the *target* entry is ("transitive" or "intransitive"). Always verify the back-link exists on the pair entry.
+
 ### 2. Aspect/ている Behavior
 Explicitly state what ている means for this verb:
 
