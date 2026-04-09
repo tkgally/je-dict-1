@@ -28,6 +28,59 @@
       "items": {
         "$ref": "#/$defs/task"
       }
+    },
+    "parallel_slots": {
+      "type": "array",
+      "description": "Parallel task slot definitions for the orchestrator.",
+      "items": {
+        "$ref": "#/$defs/parallel_slot"
+      }
+    },
+    "schedule": {
+      "type": "object",
+      "description": "Scheduling configuration for the orchestrator.",
+      "properties": {
+        "max_concurrent": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Maximum number of parallel slots to run concurrently."
+        },
+        "daily_budget_usd": {
+          "type": "number",
+          "minimum": 0,
+          "description": "Maximum daily spend in USD."
+        },
+        "cooldown_minutes": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "Minutes to wait between launching new sessions."
+        },
+        "max_runs_per_day": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Maximum number of session launches per day."
+        }
+      },
+      "additionalProperties": false
+    },
+    "coordinator": {
+      "type": "object",
+      "description": "Post-session coordination settings.",
+      "properties": {
+        "post_session_build": {
+          "type": "boolean",
+          "description": "Run make build after merging a session's results."
+        },
+        "auto_merge": {
+          "type": "boolean",
+          "description": "Automatically merge valid session branches (false = create PR for review)."
+        },
+        "notify_on_failure": {
+          "type": "boolean",
+          "description": "Log a notification when a session fails."
+        }
+      },
+      "additionalProperties": false
     }
   },
   "$defs": {
@@ -91,6 +144,34 @@
             }
           },
           "additionalProperties": true
+        }
+      },
+      "additionalProperties": false
+    },
+    "parallel_slot": {
+      "type": "object",
+      "required": ["id", "task_type", "prompt", "batch_size", "enabled"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "description": "Unique identifier for this slot."
+        },
+        "task_type": {
+          "type": "string",
+          "description": "Task type from the task queue (e.g., furigana, notes, cross_refs)."
+        },
+        "prompt": {
+          "type": "string",
+          "description": "Path to the prompt file for this slot's sessions."
+        },
+        "batch_size": {
+          "type": "integer",
+          "minimum": 1,
+          "description": "Number of entries to claim per session."
+        },
+        "enabled": {
+          "type": "boolean",
+          "description": "Whether this slot is active for orchestration."
         }
       },
       "additionalProperties": false
