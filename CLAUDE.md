@@ -39,6 +39,10 @@ prompts/          # Task prompts for interactive sessions
   prompts/batch/      # Shell runner scripts for non-interactive `claude --print` execution
   prompts/refactoring/  # Code refactoring prompts for build scripts
   prompts/expand-short-notes-tracking.txt  # Separate tracking file for expand-short-notes task
+enhancement/      # Long-term enhancement plan and implementation prompts
+  enhancement/enhancement-plan-2026-04-09.md  # Comprehensive enhancement plan
+  enhancement/prompts/                        # Step-by-step implementation prompts (16 phases)
+  enhancement/prompts/README.md               # Master guide, metaprompts, and sequencing
 candidate_words.json   # Words queued for future entry creation
 entries_index.json     # Master index of all entries (rebuilt by update_indexes.py)
 build/word_id_lookup.json  # Pre-built word→entry_id map (for inline link lookups)
@@ -182,6 +186,11 @@ Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (fo
 - `planning/maintain-knowledge-base.md` — maintain and expand the project knowledge base wiki (nightly cron or manual)
 
 The knowledge base at `planning/wiki/` is an LLM-maintained wiki covering project documentation, external research (lexicography, SLA, corpus linguistics), design decisions, and future ideas. It is updated incrementally by dedicated maintenance sessions and can be consulted during any session for background knowledge. See `planning/wiki/index.md` for the full page catalog.
+
+**Enhancement plan:**
+- `enhancement/enhancement-plan-2026-04-09.md` — comprehensive plan for content quality, workflow, and infrastructure improvements
+- `enhancement/prompts/README.md` — master guide with 16 step-by-step implementation prompts, metaprompts, and sequencing instructions
+- Enhancement prompts cover: infrastructure, verb transitivity, aspect/ている, note quality, cross-references, polishing priority, semantic fields, scenarios, tier reassessment, consistency checking, parallel execution, multi-model review, task queues, expository articles, and orchestration
 
 ## Skills (detailed guidelines)
 
