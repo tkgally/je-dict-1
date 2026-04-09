@@ -70,6 +70,11 @@ from page_generators import (
     generate_kanji_list_page,
     build_recent_entries,
 )
+from article_renderer import (
+    generate_article_html,
+    generate_article_index_html,
+    build_article_to_entry_map,
+)
 
 # Canonical CNAME for GitHub Pages custom domain
 # This ensures the CNAME file is always restored even if accidentally deleted
@@ -154,6 +159,21 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
             'headword': e.get('headword', '')
         })
 
+    # Load articles for entry→article links
+    articles_source_dir = project_root / 'articles'
+    articles = []
+    if articles_source_dir.exists():
+        for article_path in sorted(articles_source_dir.glob('*.json')):
+            try:
+                with open(article_path, 'r', encoding='utf-8') as f:
+                    article = json.load(f)
+                articles.append(article)
+            except (json.JSONDecodeError, OSError) as e:
+                print(f"  WARNING: Could not load article {article_path}: {e}")
+    article_map = build_article_to_entry_map(articles) if articles else {}
+    if articles:
+        print(f"  Loaded {len(articles)} articles ({len(article_map)} entry links)")
+
     timings['1_load_entries'] = time.time() - phase_start
 
     if quick:
@@ -189,7 +209,8 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
                     continue
 
             # Regenerate this entry
-            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
+            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries,
+                                             article_map=article_map)
             output_dir.mkdir(parents=True, exist_ok=True)
             with open(output_path, 'w', encoding='utf-8') as f:
                 f.write(entry_html)
@@ -290,7 +311,8 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
         phase_start = time.time()
         for entry in entries:
             dir_range = get_directory_range(entry['id'])
-            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries)
+            entry_html = generate_entry_html(entry, entries_dict, readings_to_entries,
+                                             article_map=article_map)
             # Create directory structure: entries/{range}/
             output_dir = entries_output_dir / dir_range
             output_dir.mkdir(parents=True, exist_ok=True)
@@ -357,6 +379,25 @@ def build_flat(project_root: Path, quick: bool = False) -> int:
             kanji_list_data = json.load(f)
         with open(docs_dir / 'kanji.html', 'w', encoding='utf-8') as f:
             f.write(generate_kanji_list_page(entries, kanji_list_data))
+
+    # Article pages (articles loaded in step 1)
+    if articles:
+        articles_output_dir = docs_dir / 'articles'
+        articles_output_dir.mkdir(parents=True, exist_ok=True)
+
+        for article in articles:
+            article_html = generate_article_html(article, entries_dict)
+            output_path = articles_output_dir / f"{article['id']}.html"
+            with open(output_path, 'w', encoding='utf-8') as f:
+                f.write(article_html)
+
+        # Article index page
+        with open(articles_output_dir / 'index.html', 'w', encoding='utf-8') as f:
+            f.write(generate_article_index_html(articles))
+
+        print(f"  Generated {len(articles)} article pages + articles/index.html")
+    else:
+        print("  No articles found")
 
     print("  Generated index.html, advanced.html, browse.html, recent.html, random.html, pending.html, kanji.html")
 

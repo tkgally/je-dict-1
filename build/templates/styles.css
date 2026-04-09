@@ -1511,3 +1511,292 @@ footer a:hover {
         text-overflow: ellipsis;
     }
 }
+
+/* ── Article pages ─────────────────────────────────────────── */
+
+.article-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.article-display {
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    padding: var(--spacing-xl);
+}
+
+.article-header {
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 2px solid var(--color-border);
+}
+
+.article-title {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--color-text);
+    margin: 0 0 0.3rem 0;
+}
+
+.article-title-ja {
+    font-size: 1.2rem;
+    color: var(--color-text-secondary);
+    font-family: var(--font-jp);
+}
+
+.article-content {
+    line-height: 1.7;
+    color: var(--color-text);
+}
+
+.article-content h2 {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin: var(--spacing-xl) 0 var(--spacing-md) 0;
+    padding-bottom: 0.3rem;
+    border-bottom: 1px solid var(--color-border);
+    color: var(--color-text);
+}
+
+.article-content h3 {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin: var(--spacing-lg) 0 var(--spacing-sm) 0;
+    color: var(--color-text);
+}
+
+.article-content p {
+    margin: 0 0 var(--spacing-md) 0;
+}
+
+.article-content ul,
+.article-content ol {
+    margin: 0 0 var(--spacing-md) 0;
+    padding-left: var(--spacing-xl);
+}
+
+.article-content li {
+    margin-bottom: 0.3rem;
+}
+
+.article-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--spacing-md) 0;
+    font-size: 0.95rem;
+}
+
+.article-table th,
+.article-table td {
+    border: 1px solid var(--color-border);
+    padding: 0.4rem 0.6rem;
+    text-align: left;
+}
+
+.article-table th {
+    background: var(--color-bg);
+    font-weight: 600;
+}
+
+.article-table tr:nth-child(even) td {
+    background: #fafafa;
+}
+
+/* Related entries section */
+.article-related {
+    margin-top: var(--spacing-xl);
+    padding-top: var(--spacing-lg);
+    border-top: 2px solid var(--color-border);
+}
+
+.article-related h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0 0 var(--spacing-md) 0;
+}
+
+.article-related-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+}
+
+.article-related-link {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background: var(--color-accent-light);
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    transition: background 0.15s;
+}
+
+.article-related-link:hover {
+    background: var(--color-accent);
+    color: white;
+}
+
+.article-related-note {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+.article-related-pending {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background: #f5f5f5;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    color: var(--color-text-secondary);
+    font-size: 0.9rem;
+}
+
+/* Article metadata */
+.article-metadata {
+    margin-top: var(--spacing-lg);
+    padding-top: var(--spacing-sm);
+    border-top: 1px solid var(--color-border);
+}
+
+.article-meta-dates {
+    font-size: 0.85rem;
+    color: var(--color-text-secondary);
+}
+
+/* Entry → Article link (on entry pages) */
+.entry-articles {
+    margin-top: var(--spacing-lg);
+    padding: var(--spacing-md);
+    background: #f0f7ff;
+    border: 1px solid #cce0ff;
+    border-radius: 6px;
+}
+
+.entry-articles h2 {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0 0 var(--spacing-sm) 0;
+    color: var(--color-text);
+}
+
+.entry-article-link {
+    display: inline-block;
+    padding: 0.3rem 0.6rem;
+    background: white;
+    border: 1px solid var(--color-accent);
+    border-radius: 4px;
+    color: var(--color-accent);
+    text-decoration: none;
+    font-size: 0.9rem;
+    margin-right: 0.5rem;
+    transition: background 0.15s;
+}
+
+.entry-article-link:hover {
+    background: var(--color-accent);
+    color: white;
+}
+
+/* ── Article index page ────────────────────────────────────── */
+
+.article-index-page {
+    max-width: var(--max-width);
+    margin: 0 auto;
+    padding: var(--spacing-lg) var(--spacing-md);
+}
+
+.article-index-page h1 {
+    font-size: 1.8rem;
+    margin: 0 0 var(--spacing-sm) 0;
+}
+
+.article-index-intro {
+    color: var(--color-text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.article-index-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: var(--spacing-md);
+}
+
+.article-card {
+    display: block;
+    padding: var(--spacing-lg);
+    background: var(--color-surface);
+    border: 1px solid var(--color-border);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--color-text);
+    transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.article-card:hover {
+    border-color: var(--color-accent);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.article-card-title {
+    font-size: 1.15rem;
+    font-weight: 600;
+    margin-bottom: 0.2rem;
+}
+
+.article-card-title-ja {
+    font-size: 0.95rem;
+    color: var(--color-text-secondary);
+    font-family: var(--font-jp);
+    margin-bottom: 0.5rem;
+}
+
+.article-card-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+.article-card-tag {
+    font-size: 0.75rem;
+    padding: 0.15rem 0.4rem;
+    background: var(--color-accent-light);
+    border-radius: 3px;
+    color: var(--color-accent);
+}
+
+.article-card-meta {
+    font-size: 0.8rem;
+    color: var(--color-text-secondary);
+}
+
+@media (max-width: 600px) {
+    .article-display {
+        padding: var(--spacing-md);
+    }
+
+    .article-title {
+        font-size: 1.4rem;
+    }
+
+    .article-content h2 {
+        font-size: 1.2rem;
+    }
+
+    .article-index-list {
+        grid-template-columns: 1fr;
+    }
+
+    .article-table {
+        font-size: 0.85rem;
+    }
+
+    .article-table th,
+    .article-table td {
+        padding: 0.3rem 0.4rem;
+    }
+}

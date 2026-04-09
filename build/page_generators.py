@@ -99,6 +99,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
         <div class="home-nav-links">
             <a href="advanced.html">Advanced</a>
             <a href="browse.html">Browse</a>
+            <a href="articles/index.html">Articles</a>
             <a href="kanji.html">Kanji</a>
             <a href="recent.html">Recent</a>
             <a href="pending.html">Pending</a>

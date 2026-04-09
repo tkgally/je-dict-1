@@ -279,8 +279,13 @@ def render_examples(examples_list, entries_dict: dict, relative_path: str = '../
 
 
 def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: dict,
-                        relative_path: str = '../../') -> str:
-    """Generate HTML content for a single entry page."""
+                        relative_path: str = '../../', article_map: dict = None) -> str:
+    """Generate HTML content for a single entry page.
+
+    Args:
+        article_map: Optional dict mapping entry_id to list of articles that reference it.
+                     Each article is {"article_id": str, "title": str}.
+    """
     entry_id = entry['id']
     headword = entry['headword']
     reading = entry['reading']
@@ -518,6 +523,19 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
                         <span class="cross-ref-pending">{display}{label_text}</span>
                     </div>
                 ''')
+        html_parts.append('</div>')
+
+    # Article links (bidirectional: entry → article)
+    if article_map and entry_id in article_map:
+        entry_articles = article_map[entry_id]
+        html_parts.append('<div class="entry-articles">')
+        html_parts.append('<h2>Related Articles</h2>')
+        for art in entry_articles:
+            art_path = f"{relative_path}articles/{art['article_id']}.html"
+            html_parts.append(
+                f'<a href="{art_path}" class="entry-article-link">'
+                f'{html.escape(art["title"])}</a>'
+            )
         html_parts.append('</div>')
 
     # Metadata
