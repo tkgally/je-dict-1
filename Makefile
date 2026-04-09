@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields
 
 validate:
 	python3 build/validate.py
@@ -44,5 +44,11 @@ check-clusters:
 
 priorities:
 	python3 build/prioritize_polishing.py
+
+audit-fields:
+	python3 build/audit_semantic_field.py --summary
+
+assemble-fields:
+	python3 build/assemble_semantic_fields.py
 
 full: clean build
