@@ -1,0 +1,54 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": ["id", "title", "body", "metadata"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z][a-z0-9-]*$",
+      "description": "URL-safe identifier for the article"
+    },
+    "title": {
+      "type": "object",
+      "required": ["english", "japanese"],
+      "additionalProperties": false,
+      "properties": {
+        "english": { "type": "string", "minLength": 1 },
+        "japanese": { "type": "string", "minLength": 1 }
+      }
+    },
+    "body": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Markdown content with {漢字|かんじ} furigana support"
+    },
+    "related_entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["entry_id", "headword"],
+        "additionalProperties": false,
+        "properties": {
+          "entry_id": { "type": "string" },
+          "headword": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "tags": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "metadata": {
+      "type": "object",
+      "required": ["created", "modified", "author"],
+      "additionalProperties": false,
+      "properties": {
+        "created": { "type": "string", "format": "date-time" },
+        "modified": { "type": "string", "format": "date-time" },
+        "author": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

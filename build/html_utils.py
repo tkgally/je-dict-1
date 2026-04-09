@@ -72,6 +72,7 @@ def generate_nav_header(relative_path: str = '', show_all_links: bool = True) ->
         <a href="{base}index.html" class="nav-link nav-home" title="Home" aria-label="Home">{home_icon}</a>
         <a href="{base}advanced.html" class="nav-link">Advanced</a>
         <a href="{base}browse.html" class="nav-link">Browse</a>
+        <a href="{base}articles/index.html" class="nav-link">Articles</a>
         <a href="{base}recent.html" class="nav-link">Recent</a>
         <a href="{base}random.html" class="nav-link">Random</a>
         <a href="{base}pending.html" class="nav-link">Pending</a>

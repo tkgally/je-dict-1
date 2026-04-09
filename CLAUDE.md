@@ -40,6 +40,9 @@ build/            # Python build, validation, and utility scripts
   build/analyze_scenarios.py           # Scenario-based vocabulary gap analysis
   build/coverage_utils.py             # Shared lookup utilities for coverage auditing
   build/review_runner.py              # Multi-model furigana review via OpenRouter API
+  build/article_schema.json       # JSON schema for article validation
+  build/article_renderer.py       # Article page HTML generation
+articles/         # Expository article source files as JSON (pilot feature)
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
   pipeline/task_queue.py    # Claim-based task queue for parallel polishing agents
