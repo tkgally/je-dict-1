@@ -12,7 +12,7 @@ Last updated: 2026-04-09
 | # | Status | Prompt | Description | Completed |
 |---|--------|--------|-------------|-----------|
 | 01 | done | 01_infrastructure_quick_wins.md | Auto-refresh BRIEF, session continuity, incremental validation | 2026-04-09 |
-| 02 | pending | 02_verb_transitivity_tooling.md | Build find_missing_transitivity.py + polishing prompt | |
+| 02 | done | 02_verb_transitivity_tooling.md | Build find_missing_transitivity.py + polishing prompt | 2026-04-09 |
 | 03 | pending | 03_aspect_teiru_tooling.md | Create aspect/ている polishing prompt | |
 | 04 | pending | 04_note_quality_system.md | POS note templates + note quality scorer | |
 | 05 | pending | 05_cross_ref_symmetry.md | Cross-reference symmetry detection + cluster polishing | |
