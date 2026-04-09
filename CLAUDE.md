@@ -63,7 +63,9 @@ enhancement/      # Long-term enhancement plan and implementation prompts
   enhancement/prompts/README.md               # Master guide, metaprompts, and sequencing
 reviews/          # Multi-model review reports (furigana correctness)
   reviews/calibration_report.md  # Phase 1 calibration results
-  reviews/{entry_id}.json        # Per-entry review reports
+  reviews/{entry_id}.json        # Per-entry deep review reports
+  reviews/screening/             # Pass 1 screening results (cheap model)
+  reviews/queue.txt              # Entries queued for review (auto-updated by CI)
 candidate_words.json   # Words queued for future entry creation
 entries_index.json     # Master index of all entries (rebuilt by update_indexes.py)
 build/word_id_lookup.json  # Pre-built word→entry_id map (for inline link lookups)
@@ -189,6 +191,10 @@ python3 build/review_runner.py --ids ID1,ID2,...       # Review specific entries
 python3 build/review_runner.py --dry-run --range 1 10  # Preview prompts without sending
 python3 build/review_runner.py --model openai/gpt-4.1  # Test with one model
 python3 build/review_runner.py --report                # Summarize review results
+python3 build/review_runner.py --pass screening --range 1 1000   # Pass 1: cheap bulk screening
+python3 build/review_runner.py --pass screening --budget 5.00    # Screen with cost limit
+python3 build/review_runner.py --pass deep --range 1 1000        # Pass 2: deep review of flagged
+python3 build/review_runner.py --pass deep                       # Deep review all flagged entries
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
@@ -281,6 +287,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
 - `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior
+- `polish_cross_model_review.md` — process multi-model review reports and apply/reject corrections
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.
 

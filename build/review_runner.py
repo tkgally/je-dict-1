@@ -2,14 +2,24 @@
 """Multi-model review runner for dictionary entry proofreading.
 
 Sends entries to external models via OpenRouter API to cross-check
-furigana readings. Stores structured review reports.
+furigana readings. Supports a two-pass pipeline:
+
+  Pass 1 (screening): Cheap model flags potentially problematic entries.
+  Pass 2 (deep review): Strong models verify flagged entries in detail.
 
 Usage:
+    # Original mode (both models, detailed review)
     python3 build/review_runner.py --range 1 100
     python3 build/review_runner.py --ids 00123,00456,00789
     python3 build/review_runner.py --range 1 100 --model openai/gpt-4.1
     python3 build/review_runner.py --range 1 100 --dry-run
     python3 build/review_runner.py --report
+
+    # Two-pass pipeline (Phase 2)
+    python3 build/review_runner.py --pass screening --range 1 1000
+    python3 build/review_runner.py --pass screening --range 1 1000 --budget 5.00
+    python3 build/review_runner.py --pass deep --range 1 1000
+    python3 build/review_runner.py --pass deep --ids 00123,00456
 """
 
 import argparse
@@ -32,16 +42,27 @@ except ImportError:
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = PROJECT_ROOT / "entries"
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
+SCREENING_DIR = REVIEWS_DIR / "screening"
 INDEX_FILE = PROJECT_ROOT / "entries_index.json"
 
 OPENROUTER_API_URL = "https://openrouter.ai/api/v1/chat/completions"
 
 DEFAULT_MODELS = ["openai/gpt-4.1", "google/gemini-2.5-flash"]
+SCREENING_MODEL = "google/gemini-2.5-flash"
+DEEP_MODELS = ["openai/gpt-4.1", "google/gemini-2.5-pro"]
 
 FURIGANA_RE = re.compile(r"\{([^|{}]+)\|([^}]+)\}")
 
 # Rate limiting: max 10 requests per minute per model
 RATE_LIMIT_INTERVAL = 6.0  # seconds between requests per model
+
+# Approximate cost per 1K tokens (USD) for budget estimation
+MODEL_COSTS = {
+    "google/gemini-2.5-flash": {"input": 0.00015, "output": 0.0006},
+    "google/gemini-2.5-pro": {"input": 0.00125, "output": 0.005},
+    "openai/gpt-4.1": {"input": 0.002, "output": 0.008},
+    "openai/gpt-4.1-mini": {"input": 0.0004, "output": 0.0016},
+}
 
 
 def get_api_key():
@@ -136,6 +157,314 @@ def deduplicate_pairs(pairs):
             seen[key] = p
             unique.append(p)
     return unique
+
+
+def estimate_cost(model, prompt_tokens, completion_tokens=200):
+    """Estimate API call cost in USD."""
+    costs = MODEL_COSTS.get(model, {"input": 0.002, "output": 0.008})
+    return (prompt_tokens / 1000 * costs["input"] +
+            completion_tokens / 1000 * costs["output"])
+
+
+def rough_token_count(text):
+    """Rough token estimate: ~4 chars per token for mixed JP/EN text."""
+    return len(text) // 4
+
+
+def build_screening_prompt(entry, pairs):
+    """Build a lightweight screening prompt for Pass 1."""
+    word = entry.get("headword", "")
+    reading = entry.get("reading", "")
+    pos = entry.get("part_of_speech", "")
+
+    unique_pairs = deduplicate_pairs(pairs)
+    pair_lines = []
+    for i, p in enumerate(unique_pairs, 1):
+        ctx = p.get("context_after", "")
+        display = f'{p["kanji"]} → {p["reading"]}'
+        if ctx:
+            display += f'  (followed by: {ctx.split(chr(10))[0][:15]})'
+        pair_lines.append(f'{i}. {display}')
+
+    pairs_text = "\n".join(pair_lines)
+
+    prompt = f"""Check these furigana readings from a Japanese dictionary entry for errors.
+
+Entry: {word} ({reading}) — {pos}
+
+Format: {{kanji|reading}}okurigana — the reading covers ONLY the kanji portion.
+Example: {{走|はし}}る means 走=はし (correct), る is okurigana outside the markup.
+Do NOT flag partial readings as errors — they are correct by design.
+
+Pairs:
+{pairs_text}
+
+Are there any incorrect kanji-reading mappings? Respond with JSON:
+{{"flagged": true/false, "concerns": ["description of each concern"], "confidence": 0.0-1.0}}
+
+If all readings look correct, respond: {{"flagged": false, "concerns": [], "confidence": 1.0}}
+Respond ONLY with JSON."""
+
+    return prompt, unique_pairs
+
+
+def load_screening_status():
+    """Load screening status tracking file."""
+    status_file = SCREENING_DIR / "screening_status.json"
+    if status_file.exists():
+        with open(status_file) as f:
+            return json.load(f)
+    return {"screened": {}, "last_updated": None}
+
+
+def save_screening_status(status):
+    """Save screening status tracking file."""
+    SCREENING_DIR.mkdir(parents=True, exist_ok=True)
+    status["last_updated"] = datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
+    status_file = SCREENING_DIR / "screening_status.json"
+    with open(status_file, "w", encoding="utf-8") as f:
+        json.dump(status, f, indent=2, ensure_ascii=False)
+
+
+def save_screening_result(result):
+    """Save a screening result to the screening directory."""
+    SCREENING_DIR.mkdir(parents=True, exist_ok=True)
+    path = SCREENING_DIR / f"{result['entry_id']}.json"
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
+    return path
+
+
+def parse_screening_response(response_data):
+    """Extract screening JSON from model response."""
+    if not response_data:
+        return None
+    try:
+        content = response_data["choices"][0]["message"]["content"]
+    except (KeyError, IndexError):
+        return None
+
+    content = content.strip()
+    if content.startswith("```json"):
+        content = content[7:]
+    elif content.startswith("```"):
+        content = content[3:]
+    if content.endswith("```"):
+        content = content[:-3]
+    content = content.strip()
+
+    try:
+        return json.loads(content)
+    except json.JSONDecodeError:
+        match = re.search(r'\{.*\}', content, re.DOTALL)
+        if match:
+            try:
+                return json.loads(match.group())
+            except json.JSONDecodeError:
+                pass
+        print(f"  Failed to parse screening response: {content[:200]}...", file=sys.stderr)
+        return None
+
+
+def run_screening_pass(entry_ids, api_key, model, dry_run=False, budget=None):
+    """Run Pass 1: screening with a cheap model."""
+    print(f"SCREENING PASS — model: {model}")
+    print(f"Processing {len(entry_ids)} entries")
+    if budget is not None:
+        print(f"Budget limit: ${budget:.2f}")
+    if dry_run:
+        print("DRY RUN — prompts will be printed but not sent.\n")
+
+    status = load_screening_status()
+    total_cost = 0.0
+    screened = 0
+    flagged_count = 0
+    skipped = 0
+
+    for entry_id_str in entry_ids:
+        # Budget check
+        if budget is not None and total_cost >= budget:
+            print(f"\nBudget limit reached (${total_cost:.4f} >= ${budget:.2f}). Stopping.")
+            break
+
+        # Skip already screened
+        if entry_id_str in status.get("screened", {}) and not dry_run:
+            skipped += 1
+            continue
+
+        entry_path = find_entry_file(entry_id_str)
+        if not entry_path:
+            skipped += 1
+            continue
+
+        entry = load_entry(entry_path)
+        pairs = extract_furigana_pairs(entry)
+        if not pairs:
+            status.setdefault("screened", {})[entry_id_str] = "no_pairs"
+            skipped += 1
+            continue
+
+        prompt, unique_pairs = build_screening_prompt(entry, pairs)
+
+        if dry_run:
+            print(f"\n{'='*60}")
+            print(f"Entry: {entry_id_str} — {entry.get('headword', '')} ({entry.get('reading', '')})")
+            print(f"Furigana pairs: {len(pairs)} total, {len(unique_pairs)} unique")
+            print(f"{'='*60}")
+            print(prompt)
+            print(f"{'='*60}\n")
+            continue
+
+        # Estimate cost
+        prompt_tokens = rough_token_count(prompt)
+        est_cost = estimate_cost(model, prompt_tokens, 100)
+        total_cost += est_cost
+
+        print(f"  Screening {entry_id_str}: {entry.get('headword', '')} "
+              f"({len(unique_pairs)} pairs, ~${est_cost:.4f})")
+
+        response = call_openrouter(api_key, model, prompt)
+        parsed = parse_screening_response(response)
+
+        if parsed is None:
+            print(f"    WARNING: Failed to parse response, marking as flagged")
+            parsed = {"flagged": True, "concerns": ["Parse failure"], "confidence": 0.0}
+
+        result = {
+            "entry_id": entry_id_str,
+            "screened_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "model": model,
+            "flagged": parsed.get("flagged", False),
+            "concerns": parsed.get("concerns", []),
+            "confidence": parsed.get("confidence", 0.5),
+        }
+
+        save_screening_result(result)
+        status.setdefault("screened", {})[entry_id_str] = "flagged" if result["flagged"] else "ok"
+        screened += 1
+
+        if result["flagged"]:
+            flagged_count += 1
+            concerns = "; ".join(result["concerns"][:2]) if result["concerns"] else "no details"
+            print(f"    FLAGGED (confidence: {result['confidence']:.1f}): {concerns}")
+        else:
+            print(f"    OK")
+
+        # Rate limit
+        if entry_id_str != entry_ids[-1]:
+            time.sleep(RATE_LIMIT_INTERVAL)
+
+    if not dry_run:
+        save_screening_status(status)
+        print(f"\nScreening complete. Screened: {screened}, Flagged: {flagged_count}, "
+              f"Skipped: {skipped}, Est. cost: ${total_cost:.4f}")
+        print(f"Results saved to: {SCREENING_DIR}/")
+
+        # Report cost estimate for full dictionary
+        total_entries_est = len(list(ENTRIES_DIR.glob("**/*.json")))
+        remaining = total_entries_est - len(status.get("screened", {}))
+        if screened > 0:
+            cost_per_entry = total_cost / screened
+            full_est = cost_per_entry * remaining
+            print(f"\nCost estimate for remaining {remaining} entries: ~${full_est:.2f}")
+
+
+def get_flagged_entry_ids():
+    """Get entry IDs flagged during screening."""
+    flagged = []
+    if not SCREENING_DIR.exists():
+        return flagged
+    for f in sorted(SCREENING_DIR.glob("*.json")):
+        if f.name == "screening_status.json":
+            continue
+        try:
+            with open(f) as fh:
+                data = json.load(fh)
+            if data.get("flagged"):
+                flagged.append(data["entry_id"])
+        except (json.JSONDecodeError, IOError):
+            pass
+    return flagged
+
+
+def run_deep_pass(entry_ids, api_key, models, dry_run=False, budget=None):
+    """Run Pass 2: deep review with strong models on flagged entries."""
+    print(f"DEEP REVIEW PASS — models: {', '.join(models)}")
+
+    # If no explicit IDs given, use flagged entries from screening
+    if not entry_ids:
+        entry_ids = get_flagged_entry_ids()
+        print(f"Using {len(entry_ids)} flagged entries from screening")
+
+    if not entry_ids:
+        print("No entries to review. Run screening pass first or specify --ids.")
+        return
+
+    print(f"Processing {len(entry_ids)} entries")
+    if budget is not None:
+        print(f"Budget limit: ${budget:.2f}")
+    if dry_run:
+        print("DRY RUN — prompts will be printed but not sent.\n")
+
+    total_cost = 0.0
+    reviewed = 0
+    flagged_total = 0
+    skipped = 0
+
+    for entry_id_str in entry_ids:
+        if budget is not None and total_cost >= budget:
+            print(f"\nBudget limit reached (${total_cost:.4f} >= ${budget:.2f}). Stopping.")
+            break
+
+        entry_path = find_entry_file(entry_id_str)
+        if not entry_path:
+            print(f"  {entry_id_str}: Entry file not found, skipping.")
+            skipped += 1
+            continue
+
+        entry = load_entry(entry_path)
+        pairs = extract_furigana_pairs(entry)
+        if not pairs:
+            print(f"  {entry_id_str}: No furigana pairs found, skipping.")
+            skipped += 1
+            continue
+
+        print(f"Deep review {entry_id_str}: {entry.get('headword', '')} ({entry.get('reading', '')})")
+
+        prompt, unique_pairs = build_review_prompt(entry, pairs)
+
+        if dry_run:
+            print(f"  {len(unique_pairs)} unique pairs, {len(models)} models")
+            continue
+
+        # Estimate cost for all models
+        prompt_tokens = rough_token_count(prompt)
+        for model in models:
+            total_cost += estimate_cost(model, prompt_tokens, 500)
+
+        report = review_entry(entry, entry_id_str, api_key, models, dry_run=False)
+        if report:
+            # Add screening context if available
+            screening_file = SCREENING_DIR / f"{entry_id_str}.json"
+            if screening_file.exists():
+                with open(screening_file) as sf:
+                    report["screening"] = json.load(sf)
+
+            save_report(report)
+            flagged = report["summary"]["flagged"]
+            flagged_total += flagged
+            status = f"✓ {report['summary']['total_checked']} pairs"
+            if flagged:
+                status += f", {flagged} flagged"
+            print(f"  {entry_id_str}: {status}")
+            reviewed += 1
+
+        if entry_id_str != entry_ids[-1]:
+            time.sleep(RATE_LIMIT_INTERVAL)
+
+    if not dry_run:
+        print(f"\nDeep review complete. Reviewed: {reviewed}, Flagged: {flagged_total}, "
+              f"Skipped: {skipped}, Est. cost: ${total_cost:.4f}")
 
 
 def build_review_prompt(entry, pairs):
@@ -416,14 +745,44 @@ def save_report(report):
 
 
 def generate_summary_report():
-    """Summarize all existing review results."""
+    """Summarize all existing review results, including screening stats."""
+    # Screening stats
+    if SCREENING_DIR.exists():
+        screening_files = [f for f in sorted(SCREENING_DIR.glob("*.json"))
+                           if f.name != "screening_status.json"]
+        screened_total = len(screening_files)
+        screened_flagged = 0
+        for f in screening_files:
+            try:
+                with open(f) as fh:
+                    data = json.load(fh)
+                if data.get("flagged"):
+                    screened_flagged += 1
+            except (json.JSONDecodeError, IOError):
+                pass
+
+        total_entries_est = len(list(ENTRIES_DIR.glob("**/*.json")))
+        print(f"Screening Status")
+        print(f"{'='*40}")
+        print(f"Entries screened:      {screened_total}")
+        print(f"Entries flagged:       {screened_flagged}")
+        print(f"Total entries:         {total_entries_est}")
+        pct = (screened_total / total_entries_est * 100) if total_entries_est else 0
+        print(f"Screening coverage:    {pct:.1f}%")
+        if screened_total > 0:
+            flag_rate = screened_flagged / screened_total * 100
+            print(f"Flag rate:             {flag_rate:.1f}%")
+        print()
+
+    # Deep review stats
     if not REVIEWS_DIR.exists():
         print("No reviews directory found.")
         return
 
-    json_files = sorted(REVIEWS_DIR.glob("*.json"))
+    json_files = sorted(f for f in REVIEWS_DIR.glob("*.json")
+                         if f.parent == REVIEWS_DIR)
     if not json_files:
-        print("No review files found.")
+        print("No deep review files found.")
         return
 
     total_entries = 0
@@ -431,6 +790,8 @@ def generate_summary_report():
     total_flagged = 0
     total_ok = 0
     flagged_entries = []
+    model_agreement = 0
+    model_disagreement = 0
 
     for f in json_files:
         with open(f) as fh:
@@ -442,16 +803,25 @@ def generate_summary_report():
         total_flagged += s.get("flagged", 0)
         total_ok += s.get("ok", 0)
 
+        if s.get("models_agreeing_on_flags", 0) > 0:
+            model_agreement += s["models_agreeing_on_flags"]
+        flagged_count = s.get("flagged", 0)
+        if flagged_count > s.get("models_agreeing_on_flags", 0):
+            model_disagreement += flagged_count - s.get("models_agreeing_on_flags", 0)
+
         if s.get("flagged", 0) > 0:
             flagged_entries.append(report)
 
-    print(f"Multi-Model Review Summary")
+    print(f"Deep Review Summary")
     print(f"{'='*40}")
     print(f"Entries reviewed:      {total_entries}")
     print(f"Total pairs checked:   {total_pairs}")
     print(f"Pairs OK:              {total_ok}")
     print(f"Pairs flagged:         {total_flagged}")
     print(f"Entries with flags:    {len(flagged_entries)}")
+    if model_agreement + model_disagreement > 0:
+        agree_pct = model_agreement / (model_agreement + model_disagreement) * 100
+        print(f"Model agreement rate:  {agree_pct:.1f}%")
     print()
 
     if flagged_entries:
@@ -497,7 +867,9 @@ def main():
     parser.add_argument("--model", type=str,
                         help="Use only one model (for testing)")
     parser.add_argument("--pass", dest="review_pass", type=str, choices=["screening", "deep"],
-                        help="Review pass type (Phase 2 feature)")
+                        help="Review pass type: 'screening' (cheap, bulk) or 'deep' (multi-model)")
+    parser.add_argument("--budget", type=float, metavar="AMOUNT",
+                        help="Stop processing when estimated cost exceeds AMOUNT (USD)")
     parser.add_argument("--report", action="store_true",
                         help="Summarize existing review results")
 
@@ -507,10 +879,25 @@ def main():
         generate_summary_report()
         return
 
-    if args.review_pass:
-        print("Two-pass pipeline available in Phase 2.")
+    # Two-pass pipeline
+    if args.review_pass == "screening":
+        if not args.range and not args.ids:
+            print("ERROR: --pass screening requires --range or --ids", file=sys.stderr)
+            return
+        api_key = None if args.dry_run else get_api_key()
+        model = args.model or SCREENING_MODEL
+        entry_ids = resolve_entry_ids(args)
+        run_screening_pass(entry_ids, api_key, model, dry_run=args.dry_run, budget=args.budget)
         return
 
+    if args.review_pass == "deep":
+        api_key = None if args.dry_run else get_api_key()
+        models = [args.model] if args.model else DEEP_MODELS
+        entry_ids = resolve_entry_ids(args) if (args.range or args.ids) else []
+        run_deep_pass(entry_ids, api_key, models, dry_run=args.dry_run, budget=args.budget)
+        return
+
+    # Original mode (no --pass flag)
     if not args.range and not args.ids:
         parser.print_help()
         return

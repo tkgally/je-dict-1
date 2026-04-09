@@ -70,6 +70,11 @@ Read prompts/expand-short-notes.md and follow the instructions to expand the not
 Read prompts/polish_aspect_notes.md and follow the instructions to add ている documentation to verb entries with non-obvious aspect behavior.
 ```
 
+### Process multi-model review results
+```
+Read prompts/polish_cross_model_review.md and follow the instructions to process review results and apply corrections.
+```
+
 ---
 
 ## Project Health & Planning

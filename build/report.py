@@ -603,6 +603,87 @@ def report_consistency_summary(project_root: Path) -> None:
     print()
 
 
+def report_review_coverage(project_root: Path, total_entries: int) -> None:
+    """Print multi-model review coverage and results."""
+    reviews_dir = project_root / 'reviews'
+    screening_dir = reviews_dir / 'screening'
+
+    has_screening = screening_dir.exists()
+    has_reviews = reviews_dir.exists()
+
+    if not has_screening and not has_reviews:
+        return
+
+    print("MULTI-MODEL REVIEW")
+    print("-" * 40)
+
+    # Screening stats
+    if has_screening:
+        screening_files = [f for f in screening_dir.glob("*.json")
+                           if f.name != "screening_status.json"]
+        screened = len(screening_files)
+        screened_flagged = 0
+        for f in screening_files:
+            try:
+                with open(f) as fh:
+                    data = json.load(fh)
+                if data.get("flagged"):
+                    screened_flagged += 1
+            except (json.JSONDecodeError, IOError):
+                pass
+
+        pct = (screened / total_entries * 100) if total_entries else 0
+        print(f"  Screening coverage:    {screened:>6} / {total_entries} ({pct:.1f}%)")
+        print(f"  Screening flagged:     {screened_flagged:>6}")
+
+    # Deep review stats
+    if has_reviews:
+        review_files = [f for f in reviews_dir.glob("*.json")
+                        if f.parent == reviews_dir]
+        reviewed = len(review_files)
+        total_flagged = 0
+        resolved_apply = 0
+        resolved_reject = 0
+        resolved_flag = 0
+
+        for f in review_files:
+            try:
+                with open(f) as fh:
+                    report = json.load(fh)
+                s = report.get("summary", {})
+                total_flagged += s.get("flagged", 0)
+                for issue in report.get("issues", []):
+                    resolution = issue.get("resolution", {})
+                    decision = resolution.get("decision", "")
+                    if decision == "apply":
+                        resolved_apply += 1
+                    elif decision == "reject":
+                        resolved_reject += 1
+                    elif decision == "flag":
+                        resolved_flag += 1
+            except (json.JSONDecodeError, IOError):
+                pass
+
+        pct = (reviewed / total_entries * 100) if total_entries else 0
+        print(f"  Deep review coverage:  {reviewed:>6} / {total_entries} ({pct:.1f}%)")
+        print(f"  Issues flagged:        {total_flagged:>6}")
+        if resolved_apply + resolved_reject + resolved_flag > 0:
+            print(f"  Resolved — applied:    {resolved_apply:>6}")
+            print(f"  Resolved — rejected:   {resolved_reject:>6}")
+            print(f"  Resolved — curator:    {resolved_flag:>6}")
+
+    # Queue depth
+    queue_file = reviews_dir / 'queue.txt'
+    if queue_file.exists():
+        try:
+            lines = [l.strip() for l in queue_file.read_text().splitlines() if l.strip()]
+            print(f"  Queue depth:           {len(lines):>6}")
+        except IOError:
+            pass
+
+    print()
+
+
 def main():
     """Main entry point."""
     script_dir = Path(__file__).parent
@@ -635,6 +716,7 @@ def main():
     report_furigana(entries)
     report_note_quality(entries)
     report_pos_completeness(entries)
+    report_review_coverage(project_root, len(entries))
     report_polishing_progress(project_root)
     report_candidate_health(project_root)
     report_consistency_summary(project_root)
