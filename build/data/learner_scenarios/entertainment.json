@@ -1,0 +1,137 @@
+{
+  "category": "entertainment",
+  "category_name": "Movies, games, hobbies, books",
+  "scenarios": [
+    {
+      "id": "going_to_movie",
+      "name": "Going to a Movie",
+      "level": "intermediate",
+      "description": "Buying tickets, choosing a movie, at the cinema",
+      "expected_vocabulary": [
+        {"word": "映画", "reading": "えいが", "gloss": "movie/film", "priority": "high"},
+        {"word": "映画館", "reading": "えいがかん", "gloss": "movie theater", "priority": "high"},
+        {"word": "上映", "reading": "じょうえい", "gloss": "screening", "priority": "medium"},
+        {"word": "字幕", "reading": "じまく", "gloss": "subtitles", "priority": "medium"},
+        {"word": "吹き替え", "reading": "ふきかえ", "gloss": "dubbing", "priority": "medium"},
+        {"word": "席", "reading": "せき", "gloss": "seat", "priority": "high"},
+        {"word": "ポップコーン", "reading": "ぽっぷこーん", "gloss": "popcorn", "priority": "low"},
+        {"word": "予告", "reading": "よこく", "gloss": "preview/trailer", "priority": "medium"},
+        {"word": "感想", "reading": "かんそう", "gloss": "impression/review", "priority": "medium"},
+        {"word": "面白い", "reading": "おもしろい", "gloss": "interesting/funny", "priority": "high"},
+        {"word": "つまらない", "reading": "つまらない", "gloss": "boring", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "karaoke",
+      "name": "Karaoke",
+      "level": "intermediate",
+      "description": "Going to karaoke: choosing songs, ordering, using the machine",
+      "expected_vocabulary": [
+        {"word": "カラオケ", "reading": "からおけ", "gloss": "karaoke", "priority": "high"},
+        {"word": "歌う", "reading": "うたう", "gloss": "to sing", "priority": "high"},
+        {"word": "曲", "reading": "きょく", "gloss": "song/tune", "priority": "high"},
+        {"word": "歌詞", "reading": "かし", "gloss": "lyrics", "priority": "medium"},
+        {"word": "マイク", "reading": "まいく", "gloss": "microphone", "priority": "medium"},
+        {"word": "音量", "reading": "おんりょう", "gloss": "volume", "priority": "medium"},
+        {"word": "リモコン", "reading": "りもこん", "gloss": "remote control", "priority": "medium"},
+        {"word": "フリータイム", "reading": "ふりーたいむ", "gloss": "unlimited time plan", "priority": "medium"},
+        {"word": "延長", "reading": "えんちょう", "gloss": "extension", "priority": "medium"},
+        {"word": "十八番", "reading": "おはこ", "gloss": "signature song/specialty", "priority": "low"}
+      ]
+    },
+    {
+      "id": "visiting_museum",
+      "name": "Visiting a Museum",
+      "level": "intermediate",
+      "description": "Visiting an art museum or exhibition",
+      "expected_vocabulary": [
+        {"word": "美術館", "reading": "びじゅつかん", "gloss": "art museum", "priority": "high"},
+        {"word": "博物館", "reading": "はくぶつかん", "gloss": "museum", "priority": "high"},
+        {"word": "展覧会", "reading": "てんらんかい", "gloss": "exhibition", "priority": "medium"},
+        {"word": "展示", "reading": "てんじ", "gloss": "display/exhibit", "priority": "high"},
+        {"word": "作品", "reading": "さくひん", "gloss": "work (of art)", "priority": "high"},
+        {"word": "入場料", "reading": "にゅうじょうりょう", "gloss": "admission fee", "priority": "medium"},
+        {"word": "音声ガイド", "reading": "おんせいがいど", "gloss": "audio guide", "priority": "medium"},
+        {"word": "彫刻", "reading": "ちょうこく", "gloss": "sculpture", "priority": "low"},
+        {"word": "絵画", "reading": "かいが", "gloss": "painting", "priority": "medium"},
+        {"word": "鑑賞", "reading": "かんしょう", "gloss": "appreciation/viewing", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "reading_books",
+      "name": "Reading Books and Manga",
+      "level": "intermediate",
+      "description": "Buying and discussing books, manga, and other reading material",
+      "expected_vocabulary": [
+        {"word": "本屋", "reading": "ほんや", "gloss": "bookstore", "priority": "high"},
+        {"word": "漫画", "reading": "まんが", "gloss": "manga/comics", "priority": "high"},
+        {"word": "小説", "reading": "しょうせつ", "gloss": "novel", "priority": "high"},
+        {"word": "作者", "reading": "さくしゃ", "gloss": "author", "priority": "medium"},
+        {"word": "新刊", "reading": "しんかん", "gloss": "new publication", "priority": "medium"},
+        {"word": "ベストセラー", "reading": "べすとせらー", "gloss": "bestseller", "priority": "low"},
+        {"word": "連載", "reading": "れんさい", "gloss": "serialization", "priority": "medium"},
+        {"word": "読む", "reading": "よむ", "gloss": "to read", "priority": "high"},
+        {"word": "面白い", "reading": "おもしろい", "gloss": "interesting", "priority": "high"},
+        {"word": "感動", "reading": "かんどう", "gloss": "being moved/impressed", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "attending_concert",
+      "name": "Attending a Concert",
+      "level": "intermediate",
+      "description": "Going to a live music event or concert",
+      "expected_vocabulary": [
+        {"word": "コンサート", "reading": "こんさーと", "gloss": "concert", "priority": "high"},
+        {"word": "ライブ", "reading": "らいぶ", "gloss": "live performance", "priority": "high"},
+        {"word": "チケット", "reading": "ちけっと", "gloss": "ticket", "priority": "high"},
+        {"word": "会場", "reading": "かいじょう", "gloss": "venue", "priority": "high"},
+        {"word": "開演", "reading": "かいえん", "gloss": "start of performance", "priority": "medium"},
+        {"word": "アンコール", "reading": "あんこーる", "gloss": "encore", "priority": "low"},
+        {"word": "歌手", "reading": "かしゅ", "gloss": "singer", "priority": "medium"},
+        {"word": "ファン", "reading": "ふぁん", "gloss": "fan", "priority": "medium"},
+        {"word": "グッズ", "reading": "ぐっず", "gloss": "merchandise/goods", "priority": "medium"},
+        {"word": "整理券", "reading": "せいりけん", "gloss": "numbered ticket", "priority": "low"},
+        {"word": "盛り上がる", "reading": "もりあがる", "gloss": "to get lively/excited", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "playing_games",
+      "name": "Playing Video Games",
+      "level": "intermediate",
+      "description": "Playing video games, discussing gaming, buying games",
+      "expected_vocabulary": [
+        {"word": "ゲーム", "reading": "げーむ", "gloss": "game", "priority": "high"},
+        {"word": "対戦", "reading": "たいせん", "gloss": "match/versus battle", "priority": "medium"},
+        {"word": "操作", "reading": "そうさ", "gloss": "operation/controls", "priority": "medium"},
+        {"word": "クリア", "reading": "くりあ", "gloss": "to clear/complete", "priority": "medium"},
+        {"word": "セーブ", "reading": "せーぶ", "gloss": "save (game)", "priority": "medium"},
+        {"word": "オンライン", "reading": "おんらいん", "gloss": "online", "priority": "medium"},
+        {"word": "キャラクター", "reading": "きゃらくたー", "gloss": "character", "priority": "medium"},
+        {"word": "レベル", "reading": "れべる", "gloss": "level", "priority": "medium"},
+        {"word": "攻略", "reading": "こうりゃく", "gloss": "strategy/walkthrough", "priority": "medium"},
+        {"word": "課金", "reading": "かきん", "gloss": "in-app purchase", "priority": "medium"},
+        {"word": "ダウンロード", "reading": "だうんろーど", "gloss": "download", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "amusement_park",
+      "name": "Visiting an Amusement Park",
+      "level": "intermediate",
+      "description": "Visiting a theme or amusement park: rides, tickets, scheduling",
+      "expected_vocabulary": [
+        {"word": "遊園地", "reading": "ゆうえんち", "gloss": "amusement park", "priority": "high"},
+        {"word": "アトラクション", "reading": "あとらくしょん", "gloss": "attraction/ride", "priority": "high"},
+        {"word": "待ち時間", "reading": "まちじかん", "gloss": "waiting time", "priority": "high"},
+        {"word": "行列", "reading": "ぎょうれつ", "gloss": "line/queue", "priority": "high"},
+        {"word": "入場", "reading": "にゅうじょう", "gloss": "admission/entry", "priority": "high"},
+        {"word": "パス", "reading": "ぱす", "gloss": "pass/ticket", "priority": "medium"},
+        {"word": "お化け屋敷", "reading": "おばけやしき", "gloss": "haunted house", "priority": "medium"},
+        {"word": "観覧車", "reading": "かんらんしゃ", "gloss": "Ferris wheel", "priority": "medium"},
+        {"word": "ジェットコースター", "reading": "じぇっとこーすたー", "gloss": "roller coaster", "priority": "medium"},
+        {"word": "パレード", "reading": "ぱれーど", "gloss": "parade", "priority": "medium"},
+        {"word": "混雑", "reading": "こんざつ", "gloss": "crowding/congestion", "priority": "medium"},
+        {"word": "並ぶ", "reading": "ならぶ", "gloss": "to line up", "priority": "high"}
+      ]
+    }
+  ]
+}

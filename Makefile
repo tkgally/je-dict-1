@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios
 
 validate:
 	python3 build/validate.py
@@ -50,5 +50,11 @@ audit-fields:
 
 assemble-fields:
 	python3 build/assemble_semantic_fields.py
+
+audit-scenarios:
+	python3 build/analyze_scenarios.py --summary
+
+assemble-scenarios:
+	python3 build/assemble_learner_scenarios.py
 
 full: clean build

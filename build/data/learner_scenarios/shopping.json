@@ -1,0 +1,119 @@
+{
+  "category": "shopping",
+  "category_name": "Stores, online shopping, payments",
+  "scenarios": [
+    {
+      "id": "convenience_store",
+      "name": "At a Convenience Store",
+      "level": "intermediate",
+      "description": "Buying items, using services, and interacting at a konbini",
+      "expected_vocabulary": [
+        {"word": "コンビニ", "reading": "こんびに", "gloss": "convenience store", "priority": "high"},
+        {"word": "お弁当", "reading": "おべんとう", "gloss": "boxed lunch", "priority": "high"},
+        {"word": "温める", "reading": "あたためる", "gloss": "to heat up", "priority": "high"},
+        {"word": "袋", "reading": "ふくろ", "gloss": "bag", "priority": "high"},
+        {"word": "レジ", "reading": "れじ", "gloss": "cash register", "priority": "high"},
+        {"word": "お箸", "reading": "おはし", "gloss": "chopsticks", "priority": "medium"},
+        {"word": "支払い", "reading": "しはらい", "gloss": "payment", "priority": "high"},
+        {"word": "電子マネー", "reading": "でんしまねー", "gloss": "electronic money", "priority": "medium"},
+        {"word": "ATM", "reading": "えーてぃーえむ", "gloss": "ATM", "priority": "medium"},
+        {"word": "コピー機", "reading": "こぴーき", "gloss": "copy machine", "priority": "low"},
+        {"word": "宅配便", "reading": "たくはいびん", "gloss": "home delivery service", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "clothing_store",
+      "name": "Shopping at a Clothing Store",
+      "level": "intermediate",
+      "description": "Trying on clothes, asking about sizes and colors",
+      "expected_vocabulary": [
+        {"word": "試着", "reading": "しちゃく", "gloss": "trying on clothes", "priority": "high"},
+        {"word": "サイズ", "reading": "さいず", "gloss": "size", "priority": "high"},
+        {"word": "色", "reading": "いろ", "gloss": "color", "priority": "high"},
+        {"word": "似合う", "reading": "にあう", "gloss": "to suit/look good on", "priority": "high"},
+        {"word": "着る", "reading": "きる", "gloss": "to wear (upper body)", "priority": "high"},
+        {"word": "履く", "reading": "はく", "gloss": "to wear (lower body/shoes)", "priority": "high"},
+        {"word": "素材", "reading": "そざい", "gloss": "material/fabric", "priority": "medium"},
+        {"word": "セール", "reading": "せーる", "gloss": "sale", "priority": "medium"},
+        {"word": "取り寄せ", "reading": "とりよせ", "gloss": "ordering/stocking", "priority": "low"},
+        {"word": "在庫", "reading": "ざいこ", "gloss": "stock/inventory", "priority": "medium"},
+        {"word": "レシート", "reading": "れしーと", "gloss": "receipt", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "returning_item",
+      "name": "Returning an Item",
+      "level": "intermediate",
+      "description": "Returning or exchanging a purchased item at a store",
+      "expected_vocabulary": [
+        {"word": "返品", "reading": "へんぴん", "gloss": "return (of goods)", "priority": "high"},
+        {"word": "交換", "reading": "こうかん", "gloss": "exchange", "priority": "high"},
+        {"word": "レシート", "reading": "れしーと", "gloss": "receipt", "priority": "high"},
+        {"word": "不良品", "reading": "ふりょうひん", "gloss": "defective product", "priority": "medium"},
+        {"word": "返金", "reading": "へんきん", "gloss": "refund", "priority": "high"},
+        {"word": "理由", "reading": "りゆう", "gloss": "reason", "priority": "high"},
+        {"word": "期間", "reading": "きかん", "gloss": "period/duration", "priority": "medium"},
+        {"word": "未使用", "reading": "みしよう", "gloss": "unused", "priority": "medium"},
+        {"word": "壊れる", "reading": "こわれる", "gloss": "to break", "priority": "high"},
+        {"word": "対応", "reading": "たいおう", "gloss": "handling/response", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "online_shopping",
+      "name": "Online Shopping",
+      "level": "intermediate",
+      "description": "Ordering items online, tracking delivery, handling issues",
+      "expected_vocabulary": [
+        {"word": "注文", "reading": "ちゅうもん", "gloss": "order", "priority": "high"},
+        {"word": "配送", "reading": "はいそう", "gloss": "delivery/shipping", "priority": "high"},
+        {"word": "送料", "reading": "そうりょう", "gloss": "shipping fee", "priority": "high"},
+        {"word": "届く", "reading": "とどく", "gloss": "to arrive/be delivered", "priority": "high"},
+        {"word": "カート", "reading": "かーと", "gloss": "shopping cart", "priority": "medium"},
+        {"word": "口コミ", "reading": "くちこみ", "gloss": "review/word-of-mouth", "priority": "medium"},
+        {"word": "商品", "reading": "しょうひん", "gloss": "product/goods", "priority": "high"},
+        {"word": "発送", "reading": "はっそう", "gloss": "shipping/dispatch", "priority": "medium"},
+        {"word": "追跡", "reading": "ついせき", "gloss": "tracking", "priority": "medium"},
+        {"word": "代引き", "reading": "だいびき", "gloss": "cash on delivery", "priority": "low"},
+        {"word": "在庫切れ", "reading": "ざいこぎれ", "gloss": "out of stock", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "paying",
+      "name": "Paying (Cash and Card)",
+      "level": "intermediate",
+      "description": "Methods of payment at stores and restaurants",
+      "expected_vocabulary": [
+        {"word": "現金", "reading": "げんきん", "gloss": "cash", "priority": "high"},
+        {"word": "クレジットカード", "reading": "くれじっとかーど", "gloss": "credit card", "priority": "high"},
+        {"word": "お釣り", "reading": "おつり", "gloss": "change (money)", "priority": "high"},
+        {"word": "会計", "reading": "かいけい", "gloss": "bill/check", "priority": "high"},
+        {"word": "ポイント", "reading": "ぽいんと", "gloss": "points (loyalty)", "priority": "medium"},
+        {"word": "分割払い", "reading": "ぶんかつばらい", "gloss": "installment payment", "priority": "medium"},
+        {"word": "一括払い", "reading": "いっかつばらい", "gloss": "lump-sum payment", "priority": "medium"},
+        {"word": "消費税", "reading": "しょうひぜい", "gloss": "consumption tax", "priority": "medium"},
+        {"word": "値引き", "reading": "ねびき", "gloss": "price reduction", "priority": "medium"},
+        {"word": "合計", "reading": "ごうけい", "gloss": "total", "priority": "high"},
+        {"word": "領収書", "reading": "りょうしゅうしょ", "gloss": "receipt (formal)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "electronics_store",
+      "name": "At an Electronics Store",
+      "level": "intermediate",
+      "description": "Buying electronics, asking about specifications, warranties",
+      "expected_vocabulary": [
+        {"word": "家電量販店", "reading": "かでんりょうはんてん", "gloss": "electronics store", "priority": "high"},
+        {"word": "パソコン", "reading": "ぱそこん", "gloss": "personal computer", "priority": "high"},
+        {"word": "性能", "reading": "せいのう", "gloss": "performance/specs", "priority": "medium"},
+        {"word": "保証", "reading": "ほしょう", "gloss": "warranty", "priority": "high"},
+        {"word": "保証書", "reading": "ほしょうしょ", "gloss": "warranty certificate", "priority": "medium"},
+        {"word": "展示品", "reading": "てんじひん", "gloss": "display model", "priority": "medium"},
+        {"word": "値下げ", "reading": "ねさげ", "gloss": "price reduction", "priority": "medium"},
+        {"word": "比較", "reading": "ひかく", "gloss": "comparison", "priority": "medium"},
+        {"word": "取り付け", "reading": "とりつけ", "gloss": "installation", "priority": "medium"},
+        {"word": "説明書", "reading": "せつめいしょ", "gloss": "instruction manual", "priority": "medium"},
+        {"word": "免税", "reading": "めんぜい", "gloss": "tax-free", "priority": "medium"}
+      ]
+    }
+  ]
+}

@@ -32,6 +32,11 @@ build/            # Python build, validation, and utility scripts
   build/data/semantic_fields/       # Per-category source files for semantic fields
   build/assemble_semantic_fields.py # Assembles per-category files into semantic_fields.json
   build/audit_semantic_field.py     # Semantic field coverage audit
+  build/data/learner_scenarios.json    # Learner scenario definitions for gap analysis (generated)
+  build/data/learner_scenarios/        # Per-category source files for learner scenarios
+  build/assemble_learner_scenarios.py  # Assembles per-category files into learner_scenarios.json
+  build/analyze_scenarios.py           # Scenario-based vocabulary gap analysis
+  build/coverage_utils.py             # Shared lookup utilities for coverage auditing
 kanji/            # Kanji index data (JSON files mapping kanji to entries)
 pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, status tracking)
 planning/         # Project knowledge base and planning
@@ -153,6 +158,12 @@ python3 build/audit_semantic_field.py --field FIELD_ID    # Audit one field
 python3 build/audit_semantic_field.py --below 50          # Fields with poor coverage
 python3 build/audit_semantic_field.py --add-candidates    # Add missing words as candidates
 
+# Scenario gap analysis
+python3 build/analyze_scenarios.py --summary              # Coverage overview for all scenarios
+python3 build/analyze_scenarios.py --scenario SCENARIO_ID  # Analyze one scenario
+python3 build/analyze_scenarios.py --top-gaps 20           # Highest-impact missing words
+python3 build/analyze_scenarios.py --add-candidates        # Add missing words as candidates
+
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build
@@ -170,6 +181,8 @@ make check-clusters                       # semantic cluster completeness summar
 make priorities                           # generate polishing priority lists
 make audit-fields                         # semantic field coverage overview
 make assemble-fields                      # reassemble semantic_fields.json from per-category files
+make audit-scenarios                      # scenario coverage overview
+make assemble-scenarios                   # reassemble learner_scenarios.json from per-category files
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).
