@@ -409,3 +409,35 @@ The validator checks:
 - [ ] Headword uses proper furigana notation
 - [ ] Labels/notes are concise and consistent
 - [ ] No `pair` type in `cross_references` (use `prominent_see_also` instead)
+
+## Symmetry Requirements
+
+Cross-references should be **bidirectional** for most relationship types. The table below summarizes when back-links are required vs. optional:
+
+| Relationship | Back-link Required? | Via |
+|-------------|--------------------|----|
+| Transitive/intransitive pair | **Always** | `prominent_see_also` both ways |
+| N/Nする pair | **Always** | `prominent_see_also` both ways |
+| Homophones (confusable) | **Always** | `prominent_see_also` both ways |
+| Antonym | **Usually** | `cross_references` (antonym) both ways |
+| Keigo | **Usually** | `cross_references` (keigo) both ways within group |
+| Synonym | Case-by-case | `cross_references` (synonym) — add back-link if genuinely helpful |
+| Contrast | Case-by-case | `cross_references` (contrast) |
+| Related | Optional | `cross_references` (related) |
+| See also | Optional | `cross_references` (see_also) |
+
+### Checking symmetry
+
+Use the asymmetry report to find one-way references:
+```bash
+python3 build/find_merge_candidates.py --asymmetry-only
+```
+
+Use the cluster linter to find incomplete semantic groups:
+```bash
+python3 build/check_semantic_clusters.py
+```
+
+### Cluster processing
+
+When fixing symmetry issues, process related entries together as a cluster rather than one at a time. This ensures both sides of a relationship are updated in the same session. See the "Cluster Mode" section in `prompts/add_cross-references.md` for the detailed workflow.

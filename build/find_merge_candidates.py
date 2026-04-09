@@ -294,6 +294,117 @@ def find_duplicate_numeric_ids(entries):
     return duplicates
 
 
+def _load_entry_full_refs():
+    """Load full cross-reference and prominent_see_also details from entry files.
+
+    Returns a dict mapping entry_id -> {
+        'headword': str,
+        'reading': str,
+        'refs': [{'target_id': str, 'ref_type': str, 'ref_detail': str|None}, ...]
+    }
+    """
+    entry_data = {}
+    for entry_dir in sorted(ENTRIES_DIR.iterdir()):
+        if not entry_dir.is_dir():
+            continue
+        for entry_file in sorted(entry_dir.glob('*.json')):
+            try:
+                with open(entry_file, 'r', encoding='utf-8') as f:
+                    data = json.load(f)
+            except (json.JSONDecodeError, IOError):
+                continue
+            entry_id = data.get('id', '')
+            headword = strip_furigana(data.get('headword', ''))
+            reading = data.get('reading', '')
+            refs = []
+            # Collect prominent_see_also refs
+            psa = data.get('prominent_see_also', [])
+            if isinstance(psa, list):
+                for ref in psa:
+                    if isinstance(ref, dict) and ref.get('target_id'):
+                        refs.append({
+                            'target_id': ref['target_id'],
+                            'ref_type': 'prominent_see_also',
+                            'ref_detail': None
+                        })
+            # Collect cross_references refs
+            cr = data.get('cross_references', [])
+            if isinstance(cr, list):
+                for ref in cr:
+                    if isinstance(ref, dict) and ref.get('target_id'):
+                        refs.append({
+                            'target_id': ref['target_id'],
+                            'ref_type': 'cross_references',
+                            'ref_detail': ref.get('type')
+                        })
+            entry_data[entry_id] = {
+                'headword': headword,
+                'reading': reading,
+                'refs': refs
+            }
+    return entry_data
+
+
+def find_asymmetric_references():
+    """
+    Find cross-references where A->B exists but B->A does not.
+
+    Checks both prominent_see_also and cross_references for directional
+    asymmetry. Only considers references with target_id (hardened references).
+
+    Returns a tuple of (asymmetric_list, stats_dict).
+    """
+    entry_data = _load_entry_full_refs()
+
+    # Build a set of (source_id, target_id) for quick back-reference lookup
+    all_ref_pairs = set()
+    for source_id, data in entry_data.items():
+        for ref in data['refs']:
+            all_ref_pairs.add((source_id, ref['target_id']))
+
+    asymmetric = []
+    total_refs_with_target = 0
+    symmetric_count = 0
+    asymmetric_count = 0
+    seen_pairs = set()
+
+    for source_id, data in sorted(entry_data.items()):
+        for ref in data['refs']:
+            target_id = ref['target_id']
+            total_refs_with_target += 1
+
+            # Normalize pair to avoid double-counting
+            pair_key = tuple(sorted([source_id, target_id]))
+            if pair_key in seen_pairs:
+                continue
+
+            has_back = (target_id, source_id) in all_ref_pairs
+
+            if has_back:
+                symmetric_count += 1
+            else:
+                asymmetric_count += 1
+                target_data = entry_data.get(target_id, {})
+                asymmetric.append({
+                    'source_id': source_id,
+                    'source_headword': data['headword'],
+                    'target_id': target_id,
+                    'target_headword': target_data.get('headword', '(unknown)'),
+                    'ref_type': ref['ref_type'],
+                    'ref_detail': ref['ref_detail']
+                })
+
+            seen_pairs.add(pair_key)
+
+    stats = {
+        'total_refs_with_target_id': total_refs_with_target,
+        'symmetric_pairs': symmetric_count,
+        'asymmetric_one_way': asymmetric_count
+    }
+
+    return asymmetric, stats
+
+
 def find_candidate_duplicates(entries, candidates):
     """
     Find candidates that are essentially duplicates of existing entries
@@ -338,10 +449,12 @@ def main():
     parser.add_argument('--merge-only', action='store_true', help='Only show potential merges')
     parser.add_argument('--crossref-only', action='store_true', help='Only show missing cross-references')
     parser.add_argument('--dupid-only', action='store_true', help='Only show duplicate numeric IDs')
+    parser.add_argument('--asymmetry-only', action='store_true',
+                        help='Only show asymmetric cross-reference report')
     parser.add_argument('--json', action='store_true', help='Output as JSON')
     args = parser.parse_args()
 
-    show_all = not (args.merge_only or args.crossref_only or args.dupid_only)
+    show_all = not (args.merge_only or args.crossref_only or args.dupid_only or args.asymmetry_only)
 
     data = load_entries_index()
     entries = data.get('entries', [])
@@ -364,6 +477,11 @@ def main():
     if show_all or args.merge_only:
         cand_dups = find_candidate_duplicates(entries, candidates)
         results['candidate_duplicates'] = cand_dups
+
+    if show_all or args.asymmetry_only:
+        asymmetric, asym_stats = find_asymmetric_references()
+        results['asymmetric_references'] = asymmetric
+        results['asymmetry_stats'] = asym_stats
 
     if args.json:
         print(json.dumps(results, ensure_ascii=False, indent=2))
@@ -423,8 +541,24 @@ def main():
                 print(f"    {e['id']}  {e['headword']}  ({e['reading']})  \"{e['gloss']}\"")
             print()
 
+    if 'asymmetric_references' in results:
+        asym = results['asymmetric_references']
+        asym_stats = results['asymmetry_stats']
+        print(f"=== ASYMMETRIC CROSS-REFERENCES ({len(asym)} found) ===")
+        print("References where A\u2192B exists but B\u2192A does not.\n")
+        for a in asym:
+            detail = f": {a['ref_detail']}" if a['ref_detail'] else ''
+            print(f"  {a['source_id']} \u2192 {a['target_id']}  ({a['ref_type']}{detail})")
+            print(f"    Source has link to target, but target has no link back.")
+            print()
+        print("Summary:")
+        print(f"  Total references with target_id: {asym_stats['total_refs_with_target_id']}")
+        print(f"  Symmetric pairs: {asym_stats['symmetric_pairs']}")
+        print(f"  Asymmetric (one-way): {asym_stats['asymmetric_one_way']}")
+        print()
+
     # Summary
-    total_issues = sum(len(v) for v in results.values())
+    total_issues = sum(len(v) for v in results.values() if isinstance(v, list))
     print(f"Total issues found: {total_issues}")
 
 
