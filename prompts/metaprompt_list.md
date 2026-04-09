@@ -149,9 +149,76 @@ Run python3 build/update_indexes.py to sync entries_index.json, candidate_words.
 
 ---
 
+## Enhancement Plan
+
+The enhancement plan is a phased, long-term improvement initiative. Each prompt below is a one-time implementation session that builds tooling, creates new polishing prompts, or improves infrastructure. See `enhancement/prompts/README.md` for the full guide, dependency graph, and sequencing.
+
+### Phase 1: Foundation
+```
+Read enhancement/prompts/01_infrastructure_quick_wins.md and follow the instructions to implement the infrastructure improvements.
+```
+```
+Read enhancement/prompts/02_verb_transitivity_tooling.md and follow the instructions to build the verb transitivity detection script and polishing prompt.
+```
+```
+Read enhancement/prompts/03_aspect_teiru_tooling.md and follow the instructions to create the aspect/ている polishing prompt.
+```
+
+### Phase 2: Quality Systems
+```
+Read enhancement/prompts/04_note_quality_system.md and follow the instructions to define POS note templates and build the note quality scorer.
+```
+```
+Read enhancement/prompts/05_cross_ref_symmetry.md and follow the instructions to build cross-reference symmetry detection and update the polishing prompt for cluster-mode processing.
+```
+```
+Read enhancement/prompts/06_polishing_priority.md and follow the instructions to build the polishing priority system and update polishing prompts to use priority queues.
+```
+
+### Phase 3: Content Strategy
+```
+Read enhancement/prompts/07_semantic_field_audit.md and follow the instructions to define semantic fields and build the coverage audit system.
+```
+```
+Read enhancement/prompts/08_scenario_gap_analysis.md and follow the instructions to define learner scenarios and build gap analysis tools.
+```
+```
+Read enhancement/prompts/09_vocab_tier_reassessment.md and follow the instructions to create the vocabulary tier reassessment prompt and run the initial audit.
+```
+
+### Phase 4: Infrastructure & Quality Tools
+```
+Read enhancement/prompts/10_consistency_and_dashboard.md and follow the instructions to build the consistency checker and enhance the report dashboard.
+```
+```
+Read enhancement/prompts/11_parallel_safe_redesign.md and follow the instructions to redesign prompts for parallel-safe execution.
+```
+
+### Phase 5: Advanced Systems
+```
+Read enhancement/prompts/12_multi_model_review_p1.md and follow the instructions to build the multi-model review runner and run the Phase 1 calibration.
+```
+```
+Read enhancement/prompts/13_task_queue_system.md and follow the instructions to build the claim-based task queue for parallel agent processing.
+```
+```
+Read enhancement/prompts/14_multi_model_review_p2.md and follow the instructions to scale the multi-model review to the full dictionary.
+```
+
+### Phase 6: Long-Term Projects
+```
+Read enhancement/prompts/15_expository_articles.md and follow the instructions to design the article system and create the pilot articles.
+```
+```
+Read enhancement/prompts/16_automated_orchestration.md and follow the instructions to build the automated orchestration system.
+```
+
+---
+
 ## Notes
 
 - **One task per session** works best for polishing tasks — they use context tracking files to resume across sessions.
 - **Entry creation** can be done in batches of 30 per session (the default).
 - After any task that modifies entries, always run `make build` or `make quick` before finishing.
 - The polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` — they automatically pick up where the previous session left off.
+- **Enhancement prompts** are one-time implementation sessions. After running an enhancement prompt that creates a new polishing prompt, use the new polishing prompt's metaprompt for ongoing work.
