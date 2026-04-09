@@ -8,7 +8,9 @@ Build a system that defines essential semantic fields, checks dictionary coverag
 
 | File | Action | Purpose |
 |------|--------|---------|
-| `build/data/semantic_fields.json` | **Create** | 50-100 semantic field definitions with expected vocabulary |
+| `build/data/semantic_fields/` | **Create** | Directory of per-category JSON files defining semantic fields |
+| `build/assemble_semantic_fields.py` | **Create** | Merges per-category files into `build/data/semantic_fields.json` |
+| `build/data/semantic_fields.json` | **Generated** | Combined semantic field definitions (built by assemble script) |
 | `build/audit_semantic_field.py` | **Create** | Coverage audit script: cross-checks fields against entries |
 | `prompts/newcandidates.md` | **Modify** | Add semantic field audit as a discovery strategy |
 | `CLAUDE.md` | **Modify** | Document `audit_semantic_field.py` in essential commands |
@@ -18,67 +20,115 @@ Build a system that defines essential semantic fields, checks dictionary coverag
 
 ## Part A: Define Semantic Fields [1.3.1 step 1-2]
 
-**Goal**: Create a comprehensive set of semantic field definitions covering the vocabulary domains an intermediate Japanese learner needs. Use LLM knowledge to populate expected words (per project policy -- no external dictionary comparison).
+**Goal**: Create a comprehensive set of semantic field definitions covering the vocabulary domains an intermediate Japanese learner needs. Use LLM knowledge to populate expected words (per project policy — no external dictionary comparison).
+
+### CRITICAL: Why this part is split into per-category steps
+
+Previous attempts to create all semantic fields in a single JSON file (1,500+ words) caused timeouts and invalid JSON. The fix: create **one small JSON file per category**, then assemble them with a script. Each category file contains 5-12 fields and ~100-250 words — easily manageable in a single write.
+
+**You MUST follow the per-category approach below. Do NOT attempt to write all fields into a single file at once.**
 
 ### Step A1: Create the data directory
 
 ```bash
-mkdir -p build/data
+mkdir -p build/data/semantic_fields
 ```
 
-### Step A2: Create `build/data/semantic_fields.json`
+### Step A2: Create per-category field files
 
-Create a JSON file containing 50-100 semantic field definitions. The top-level structure is:
+Create **seven** separate JSON files, one per category. Work through them **one at a time**, writing each file, then validating it before moving to the next.
+
+Each file has the same structure:
 
 ```json
 {
-  "version": "1.0",
-  "description": "Semantic field definitions for dictionary coverage auditing",
+  "category": "category_id",
+  "category_name": "Human-Readable Name",
   "fields": [
     {
       "id": "colors",
       "name": "Colors",
-      "category": "basic_concepts",
       "description": "Basic and common color terms including i-adjective and noun forms",
       "expected_words": [
         {"word": "赤い", "reading": "あかい", "gloss": "red", "priority": "high"},
-        {"word": "青い", "reading": "あおい", "gloss": "blue", "priority": "high"},
-        {"word": "白い", "reading": "しろい", "gloss": "white", "priority": "high"},
-        {"word": "黒い", "reading": "くろい", "gloss": "black", "priority": "high"},
-        {"word": "黄色い", "reading": "きいろい", "gloss": "yellow", "priority": "high"},
-        {"word": "緑", "reading": "みどり", "gloss": "green", "priority": "high"},
-        {"word": "茶色", "reading": "ちゃいろ", "gloss": "brown", "priority": "medium"},
-        {"word": "灰色", "reading": "はいいろ", "gloss": "gray", "priority": "medium"},
-        {"word": "紫", "reading": "むらさき", "gloss": "purple", "priority": "medium"},
-        {"word": "ピンク", "reading": "ぴんく", "gloss": "pink", "priority": "medium"},
-        {"word": "オレンジ", "reading": "おれんじ", "gloss": "orange", "priority": "low"},
-        {"word": "金色", "reading": "きんいろ", "gloss": "gold (color)", "priority": "low"},
-        {"word": "銀色", "reading": "ぎんいろ", "gloss": "silver (color)", "priority": "low"}
+        {"word": "青い", "reading": "あおい", "gloss": "blue", "priority": "high"}
       ]
     }
   ]
 }
 ```
 
-**Required categories** (aim for the target number of fields in each):
+**After writing each file**, validate it immediately:
 
-| Category | Target fields | Example fields |
-|----------|--------------|----------------|
-| `basic_concepts` | 5-8 | colors, numbers/counting, time expressions, directions/location, shapes |
-| `body_and_health` | 5-8 | body parts, medical/symptoms, hygiene/health, emotions/feelings, senses |
-| `daily_life` | 8-12 | food/cooking, clothing, housing/furniture, shopping/money, transportation, tools, household chores, personal items |
-| `nature` | 5-8 | weather, seasons, animals, plants, nature/geography, natural disasters |
-| `people` | 5-8 | family, occupations, personality traits, appearance, social relationships, life stages |
-| `society` | 8-12 | work/office, education/academic, legal, government, religion, communication, technology, media, sports, music/arts |
-| `language` | 3-5 | greetings/social, materials/substances, abstract concepts |
+```bash
+python3 -c "
+import json, sys
+with open(sys.argv[1]) as f:
+    data = json.load(f)
+fields = data['fields']
+total = sum(len(f['expected_words']) for f in fields)
+print(f'{data[\"category\"]}: {len(fields)} fields, {total} words')
+for f in fields:
+    for w in f['expected_words']:
+        assert all(k in w for k in ('word','reading','gloss','priority')), f'Missing key in {f[\"id\"]}: {w}'
+        assert w['priority'] in ('high','medium','low'), f'Bad priority in {f[\"id\"]}: {w}'
+print('OK')
+" build/data/semantic_fields/FILENAME.json
+```
+
+If validation fails, fix the file before proceeding to the next category.
+
+#### Category files to create:
+
+**File 1: `build/data/semantic_fields/basic_concepts.json`**
+- Category: `basic_concepts`
+- Target: 5-8 fields
+- Example fields: colors, numbers/counting, time expressions, directions/location, shapes
+- Target words: ~100-160
+
+**File 2: `build/data/semantic_fields/body_and_health.json`**
+- Category: `body_and_health`
+- Target: 5-8 fields
+- Example fields: body parts, medical/symptoms, hygiene/health, emotions/feelings, senses
+- Target words: ~100-160
+
+**File 3: `build/data/semantic_fields/daily_life.json`**
+- Category: `daily_life`
+- Target: 8-12 fields
+- Example fields: food/cooking, clothing, housing/furniture, shopping/money, transportation, tools, household chores, personal items
+- Target words: ~160-240
+
+**File 4: `build/data/semantic_fields/nature.json`**
+- Category: `nature`
+- Target: 5-8 fields
+- Example fields: weather, seasons, animals, plants, nature/geography, natural disasters
+- Target words: ~100-160
+
+**File 5: `build/data/semantic_fields/people.json`**
+- Category: `people`
+- Target: 5-8 fields
+- Example fields: family, occupations, personality traits, appearance, social relationships, life stages
+- Target words: ~100-160
+
+**File 6: `build/data/semantic_fields/society.json`**
+- Category: `society`
+- Target: 8-12 fields
+- Example fields: work/office, education/academic, legal, government, religion, communication, technology, media, sports, music/arts
+- Target words: ~160-240
+
+**File 7: `build/data/semantic_fields/language.json`**
+- Category: `language`
+- Target: 3-5 fields
+- Example fields: greetings/social, materials/substances, abstract concepts
+- Target words: ~60-100
 
 **Guidelines for populating expected words**:
 
 - Each field should have 10-30 expected words
 - Use three priority levels:
-  - `high` -- words any intermediate learner must know (would appear in basic/core tiers)
-  - `medium` -- words most intermediate learners should know (early general tier)
-  - `low` -- words that complete the domain (later general tier)
+  - `high` — words any intermediate learner must know (would appear in basic/core tiers)
+  - `medium` — words most intermediate learners should know (early general tier)
+  - `low` — words that complete the domain (later general tier)
 - Include the most natural form of each word:
   - I-adjectives: dictionary form (e.g., "赤い" not "赤")
   - Na-adjectives: stem form without な (e.g., "静か" not "静かな")
@@ -86,16 +136,73 @@ Create a JSON file containing 50-100 semantic field definitions. The top-level s
   - Nouns: standard form
 - Readings must be in hiragana (katakana words get hiragana readings: ピンク → ぴんく)
 - Include a brief English gloss for each word
-- Focus on concrete, unambiguous vocabulary. Avoid words that belong equally to multiple fields -- put them in the most natural one.
+- Focus on concrete, unambiguous vocabulary. Avoid words that belong equally to multiple fields — put them in the most natural one.
 - For words with multiple common readings, include the most common reading only
 
-**Total target**: At least 1,500 expected words across all fields (average ~20 per field).
+**Total target**: At least 1,200 expected words across all files (average ~17-20 per field).
 
-### Step A3: Validate the data file
+### Step A3: Create the assembly script
 
-After creating the file, verify it is valid JSON:
+Create `build/assemble_semantic_fields.py`:
+
+```python
+#!/usr/bin/env python3
+"""Assemble per-category semantic field files into a single semantic_fields.json."""
+
+import json
+import sys
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+PARTS_DIR = SCRIPT_DIR / "data" / "semantic_fields"
+OUTPUT_FILE = SCRIPT_DIR / "data" / "semantic_fields.json"
+
+
+def main():
+    if not PARTS_DIR.is_dir():
+        print(f"Error: {PARTS_DIR} not found", file=sys.stderr)
+        sys.exit(1)
+
+    all_fields = []
+    category_files = sorted(PARTS_DIR.glob("*.json"))
+
+    if not category_files:
+        print(f"Error: no JSON files found in {PARTS_DIR}", file=sys.stderr)
+        sys.exit(1)
+
+    for path in category_files:
+        with open(path) as f:
+            data = json.load(f)
+        category_id = data["category"]
+        for field in data["fields"]:
+            field["category"] = category_id
+            all_fields.append(field)
+
+    combined = {
+        "version": "1.0",
+        "description": "Semantic field definitions for dictionary coverage auditing",
+        "fields": all_fields
+    }
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+
+    total_words = sum(len(f["expected_words"]) for f in all_fields)
+    print(f"Assembled {len(all_fields)} fields ({total_words} words) from {len(category_files)} category files")
+    print(f"Written to {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### Step A4: Assemble and validate
 
 ```bash
+# Assemble the combined file
+python3 build/assemble_semantic_fields.py
+
+# Validate the assembled file
 python3 -c "
 import json
 with open('build/data/semantic_fields.json') as f:
@@ -113,6 +220,8 @@ for f in fields:
 print('Validation passed')
 "
 ```
+
+If the total is below 1,200 words, go back and add more words to the thinnest fields before proceeding.
 
 ---
 
@@ -338,7 +447,7 @@ Fix any issues found during testing.
 Run on a small field to verify the pipeline works end to end:
 
 ```bash
-# Dry run -- show what would be added
+# Dry run — show what would be added
 python3 build/audit_semantic_field.py --field colors --candidates
 
 # Actually add (high+medium priority only by default)
@@ -371,20 +480,25 @@ Also update the project structure section to include:
 
 ```
   build/data/                 # Static data files (semantic fields, scenarios, etc.)
-  build/data/semantic_fields.json   # Semantic field definitions for coverage auditing
+  build/data/semantic_fields.json   # Semantic field definitions for coverage auditing (generated)
+  build/data/semantic_fields/       # Per-category source files for semantic fields
+  build/assemble_semantic_fields.py # Assembles per-category files into semantic_fields.json
   build/audit_semantic_field.py     # Semantic field coverage audit
 ```
 
 ### Step D2: Update Makefile
 
-Add a target for semantic field auditing:
+Add targets for semantic field auditing:
 
 ```makefile
 audit-fields:
 	python3 build/audit_semantic_field.py --summary
+
+assemble-fields:
+	python3 build/assemble_semantic_fields.py
 ```
 
-Add `audit-fields` to the `.PHONY` line.
+Add `audit-fields` and `assemble-fields` to the `.PHONY` line.
 
 ### Step D3: Update `prompts/newcandidates.md`
 
@@ -416,7 +530,21 @@ This is especially useful for finding vocabulary gaps in specialized domains (me
 After all parts are complete, run these checks:
 
 ```bash
-# Verify data file exists and is valid
+# Verify per-category files exist and are valid
+for f in build/data/semantic_fields/*.json; do
+  python3 -c "
+import json, sys
+with open(sys.argv[1]) as f:
+    data = json.load(f)
+total = sum(len(field['expected_words']) for field in data['fields'])
+print(f'{sys.argv[1]}: {len(data[\"fields\"])} fields, {total} words — OK')
+" "$f"
+done
+
+# Verify assembly works
+python3 build/assemble_semantic_fields.py
+
+# Verify the assembled file
 python3 -c "import json; d = json.load(open('build/data/semantic_fields.json')); print(f'{len(d[\"fields\"])} fields, {sum(len(f[\"expected_words\"]) for f in d[\"fields\"])} words')"
 
 # Verify the audit script runs
@@ -449,7 +577,8 @@ Follow the complete workflow described in CLAUDE.md under "End-of-session PR and
    git add -A
    git commit -m "Semantic field audit system: field definitions and coverage tool [1.3.1]
 
-   - Create build/data/semantic_fields.json with 50-100 semantic field definitions
+   - Create per-category semantic field definitions in build/data/semantic_fields/
+   - Create build/assemble_semantic_fields.py to merge category files
    - Create build/audit_semantic_field.py for coverage auditing
    - Add --add-candidates mode for candidate pipeline integration
    - Update CLAUDE.md, Makefile, and newcandidates.md with documentation"
