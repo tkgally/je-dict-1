@@ -373,10 +373,15 @@ def cmd_populate(args):
     data["metadata"]["last_populated"] = utcnow()
     update_metadata(data)
 
-    # Write the queue file
-    with open(QUEUE_FILE, 'w') as f:
-        json.dump(data, f, indent=2, ensure_ascii=False)
-        f.write("\n")
+    # Write the queue file (with lock to avoid clobbering concurrent operations)
+    mode = 'r+' if QUEUE_FILE.exists() else 'w'
+    if mode == 'w':
+        with open(QUEUE_FILE, 'w') as f:
+            json.dump(data, f, indent=2, ensure_ascii=False)
+            f.write("\n")
+    else:
+        with locked_queue(QUEUE_FILE) as f:
+            save_queue(data, f)
 
     print(f"\nTotal: {total_added} new tasks added ({data['metadata']['total_tasks']} total in queue)")
 

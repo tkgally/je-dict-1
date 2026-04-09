@@ -285,17 +285,42 @@ def launch_session(
 
 
 def validate_branch(branch_name: str, logger: logging.Logger) -> bool:
-    """Validate entries on a session branch."""
-    result = subprocess.run(
-        [sys.executable, str(PROJECT_ROOT / "build" / "validate.py"), "--changed-only"],
+    """Validate entries changed on a session branch vs main.
+
+    Uses git diff to find changed entry files on the branch, then
+    validates each one individually (no checkout needed).
+    """
+    # Find entry files changed on the branch relative to main
+    diff_result = subprocess.run(
+        ["git", "diff", "--name-only", f"main...{branch_name}", "--", "entries/"],
         capture_output=True,
         text=True,
         cwd=str(PROJECT_ROOT),
     )
-    if result.returncode != 0:
-        logger.error(f"Validation failed for {branch_name}: {result.stderr[:500]}")
-        return False
-    return True
+    changed = [f.strip() for f in diff_result.stdout.strip().split("\n") if f.strip()]
+    if not changed:
+        logger.info(f"No entry files changed on {branch_name}")
+        return True
+
+    # Validate each changed entry
+    failed = False
+    for entry_path in changed:
+        result = subprocess.run(
+            [sys.executable, str(PROJECT_ROOT / "build" / "validate.py"),
+             "--entry", entry_path],
+            capture_output=True,
+            text=True,
+            cwd=str(PROJECT_ROOT),
+        )
+        if result.returncode != 0:
+            logger.error(f"Validation failed for {entry_path}: {result.stderr[:200]}")
+            failed = True
+
+    if failed:
+        logger.error(f"Validation failed for {branch_name}")
+    else:
+        logger.info(f"Validated {len(changed)} changed entries on {branch_name}")
+    return not failed
 
 
 # --- Main orchestration loop ---
