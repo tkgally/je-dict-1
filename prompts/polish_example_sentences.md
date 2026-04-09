@@ -159,6 +159,12 @@ Keep the progress file minimal:
 next: XXXXX
 ```
 
+Optionally, add a summary line for the next session:
+```
+next: XXXXX
+last_session: YYYY-MM-DD, entries AAAAA-BBBBB, N entries modified
+```
+
 ## Output at Session End
 
 When stopping (user request or context reset), report:

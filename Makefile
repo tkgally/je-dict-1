@@ -1,7 +1,10 @@
-.PHONY: validate index build quick check-furigana check-kanji stats report clean full word-lookup
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup
 
 validate:
 	python3 build/validate.py
+
+validate-changed:
+	python3 build/validate.py --changed-only
 
 index:
 	python3 build/update_indexes.py
