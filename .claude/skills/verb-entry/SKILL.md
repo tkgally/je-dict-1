@@ -50,6 +50,46 @@ ASPECT:
 - 死ぬ → 死んでいる means "is dead" (state)
 - 持つ → 持っている means "have" (state)
 
+**Reference list of verbs with non-obvious ている behavior:**
+
+Resultative state (ている = "is in the state of having done X"):
+- {結婚|けっこん}する → {結婚|けっこん}している = is married
+- {死|し}ぬ → {死|し}んでいる = is dead
+- {座|すわ}る → {座|すわ}っている = is seated
+- {立|た}つ → {立|た}っている = is standing
+- {持|も}つ → {持|も}っている = has/possesses
+- {着|き}る → {着|き}ている = is wearing
+- {住|す}む → {住|す}んでいる = lives (at)
+- {太|ふと}る → {太|ふと}っている = is fat/overweight
+- {痩|や}せる → {痩|や}せている = is thin
+- {開|あ}く → {開|あ}いている = is open
+- {閉|し}まる → {閉|し}まっている = is closed
+- {壊|こわ}れる → {壊|こわ}れている = is broken
+- {決|き}まる → {決|き}まっている = is decided
+- {似|に}る → {似|に}ている = resembles
+- {慣|な}れる → {慣|な}れている = is accustomed
+- {疲|つか}れる → {疲|つか}れている = is tired
+- {落|お}ちる → {落|お}ちている = is on the ground (has fallen)
+- {並|なら}ぶ → {並|なら}んでいる = is lined up
+- {曲|ま}がる → {曲|ま}がっている = is bent/curved
+- {混|こ}む → {混|こ}んでいる = is crowded
+- {起|お}きる → {起|お}きている = is awake
+- {売|う}れる → {売|う}れている = is popular / sells well
+- {届|とど}く → {届|とど}いている = has arrived (is there)
+- {始|はじ}まる → {始|はじ}まっている = has started (is underway)
+- {終|お}わる → {終|お}わっている = is over/finished
+
+Knowledge/cognitive state (ている = current mental state):
+- {知|し}る → {知|し}っている = knows (negative: {知|し}らない, NOT {知|し}っていない)
+- {覚|おぼ}える → {覚|おぼ}えている = remembers
+- {信|しん}じる → {信|しん}じている = believes
+- {分|わ}かる → {分|わ}かっている = understands (already)
+
+Habitual (ている = regularly does X):
+- {勤|つと}める → {勤|つと}めている = works at / is employed at
+- {通|かよ}う → {通|かよ}っている = attends regularly / commutes to
+- {付|つ}き{合|あ}う → {付|つ}き{合|あ}っている = is dating / is in a relationship
+
 ### 3. Core Particle Patterns
 Show which particles the verb takes:
 

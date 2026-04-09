@@ -193,6 +193,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
+- `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.
 

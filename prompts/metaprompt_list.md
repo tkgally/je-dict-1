@@ -65,6 +65,11 @@ Read prompts/polish_semantic_labels.md and follow the instructions to verify sem
 Read prompts/expand-short-notes.md and follow the instructions to expand the notes field for entries with inadequate notes.
 ```
 
+### Add aspect/ている notes to verbs
+```
+Read prompts/polish_aspect_notes.md and follow the instructions to add ている documentation to verb entries with non-obvious aspect behavior.
+```
+
 ---
 
 ## Project Health & Planning
