@@ -1,0 +1,40 @@
+name: Update Brief
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update-brief:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r build/requirements.txt
+
+      - name: Update indexes and brief
+        run: |
+          python3 build/update_indexes.py
+          python3 pipeline/update-brief.py
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if ! git diff --quiet PROJECT_CONTEXT_BRIEF.md; then
+            git add PROJECT_CONTEXT_BRIEF.md
+            git commit -m "Auto-refresh PROJECT_CONTEXT_BRIEF.md [skip ci]"
+            git push
+          else
+            echo "PROJECT_CONTEXT_BRIEF.md is already up to date."
+          fi

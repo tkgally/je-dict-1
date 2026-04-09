@@ -54,6 +54,10 @@ PROJECT_CONTEXT_BRIEF.md # Quick-reference counts and rules for session start
 Makefile               # Build runner (make validate, make build, make quick, etc.)
 ```
 
+## Session start
+
+**At session start**: Run `python3 pipeline/update-brief.py` before reading PROJECT_CONTEXT_BRIEF.md to ensure counts are current. (This is also run automatically after each merge to main via GitHub Actions.)
+
 ## Entry basics
 
 - Each entry is a JSON file at `entries/{range}/{id}_{romaji}.json`
@@ -120,11 +124,14 @@ python3 build/find_merge_candidates.py --json       # Machine-readable output
 
 # Reports
 python3 build/report.py                   # Dictionary health dashboard
+python3 pipeline/update-brief.py          # Refresh PROJECT_CONTEXT_BRIEF.md from current data
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build
 make validate                             # validate only
+make validate-changed                     # Validate only entries changed vs. main (fast)
+python3 build/validate.py --range 10000 10499  # Validate a specific ID range
 make report                               # health dashboard
 make check-furigana                       # find_missing_furigana scan
 make check-kanji                          # verify kanji index integrity
@@ -180,7 +187,9 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
 
-Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`.
+Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.
+
+**Session log standard**: All polishing sessions should write a structured log to `polishing/sessions/{task}_{date}_{nnn}.md` when finishing. The log should include: date, entry range processed, list of changes made, any notes, and the next entry number. See existing logs in `polishing/sessions/` for examples.
 
 **Knowledge base:**
 - `planning/maintain-knowledge-base.md` — maintain and expand the project knowledge base wiki (nightly cron or manual)

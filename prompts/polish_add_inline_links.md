@@ -203,6 +203,12 @@ Keep the progress file minimal:
 next: XXXXX
 ```
 
+Optionally, add a summary line for the next session:
+```
+next: XXXXX
+last_session: YYYY-MM-DD, entries AAAAA-BBBBB, N entries modified
+```
+
 ## PR and Merge Workflow
 
 Follow the complete workflow described in CLAUDE.md under "End-of-session PR and merge workflow." The key points:

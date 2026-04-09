@@ -7,6 +7,7 @@ consistency rules (filename format, directory placement, ID uniqueness).
 """
 
 import json
+import subprocess
 import sys
 import re
 from collections import defaultdict
@@ -970,6 +971,142 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
         return 0
 
 
+def validate_changed_only(project_root: Path) -> int:
+    """
+    Validate only entry files changed compared to main branch.
+    Skips cross-entry checks (duplicates, cross-references) for speed.
+    Returns 0 on success, 1 on failure.
+    """
+    # Determine changed files
+    try:
+        result = subprocess.run(
+            ['git', 'diff', '--name-only', 'origin/main...HEAD', '--', 'entries/'],
+            capture_output=True, text=True, cwd=project_root
+        )
+        changed_files = [f for f in result.stdout.strip().split('\n') if f.endswith('.json')]
+    except Exception:
+        changed_files = []
+
+    # Fallback: if on main or no diff found, compare against previous commit
+    if not changed_files:
+        try:
+            result = subprocess.run(
+                ['git', 'diff', '--name-only', 'HEAD~1', '--', 'entries/'],
+                capture_output=True, text=True, cwd=project_root
+            )
+            changed_files = [f for f in result.stdout.strip().split('\n') if f.endswith('.json')]
+        except Exception:
+            changed_files = []
+
+    if not changed_files:
+        print("No changed entry files found.")
+        return 0
+
+    schema_path = project_root / 'build' / 'schema.json'
+    schema = load_schema(schema_path)
+    validator = Draft7Validator(schema)
+
+    print(f"Validating {len(changed_files)} changed entry file(s)...")
+    print("-" * 50)
+
+    all_ids = set()
+    invalid_files = []
+    valid = 0
+
+    for rel_path in changed_files:
+        file_path = project_root / rel_path
+        if not file_path.exists():
+            continue
+        errors, entry = validate_entry_file(file_path, schema, all_ids, validator)
+        if errors:
+            invalid_files.append((file_path, errors))
+        else:
+            valid += 1
+
+    if invalid_files:
+        print(f"\nFound {len(invalid_files)} invalid file(s):\n")
+        for file_path, errors in invalid_files:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            for error in errors:
+                print(f"    - {error}")
+            print()
+
+    total = valid + len(invalid_files)
+    print(f"Validation complete: {valid}/{total} changed entries valid")
+    print("Note: Cross-reference and duplicate checks skipped in --changed-only mode.")
+    print("Run full validation (`make validate`) to check those.")
+
+    return 1 if invalid_files else 0
+
+
+def validate_range(project_root: Path, start: int, end: int) -> int:
+    """
+    Validate entries in a specific numeric ID range.
+    Runs full per-file validation on the subset.
+    Returns 0 on success, 1 on failure.
+    """
+    entries_dir = project_root / 'entries'
+    schema_path = project_root / 'build' / 'schema.json'
+    schema = load_schema(schema_path)
+    validator = Draft7Validator(schema)
+
+    # Collect entry files in the range
+    entry_files = []
+    for file_path in entries_dir.glob('**/*.json'):
+        # Extract numeric ID from filename (e.g., 01234_taberu.json -> 1234)
+        match = re.match(r'^(\d{5})_', file_path.name)
+        if match:
+            numeric_id = int(match.group(1))
+            if start <= numeric_id <= end:
+                entry_files.append(file_path)
+
+    if not entry_files:
+        print(f"No entry files found in range {start}-{end}.")
+        return 0
+
+    print(f"Validating {len(entry_files)} entries in range {start}-{end}...")
+    print("-" * 50)
+
+    all_ids = set()
+    invalid_files = []
+    valid = 0
+    entries_data = []
+
+    for file_path in entry_files:
+        errors, entry = validate_entry_file(file_path, schema, all_ids, validator)
+        if errors:
+            invalid_files.append((file_path, errors))
+        else:
+            valid += 1
+            if entry is not None:
+                entries_data.append((file_path, entry))
+
+    # Run duplicate checks within the range
+    duplicate_errors = check_for_duplicates(entries_data)
+    for file_path, error_msg in duplicate_errors:
+        existing = next((i for i, (fp, _) in enumerate(invalid_files) if fp == file_path), None)
+        if existing is not None:
+            invalid_files[existing][1].append(error_msg)
+        else:
+            invalid_files.append((file_path, [error_msg]))
+            valid -= 1
+
+    if invalid_files:
+        print(f"\nFound {len(invalid_files)} invalid file(s):\n")
+        for file_path, errors in invalid_files:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            for error in errors:
+                print(f"    - {error}")
+            print()
+
+    total = valid + len(invalid_files)
+    print(f"Validation complete: {valid}/{total} entries valid in range {start}-{end}")
+
+    return 1 if invalid_files else 0
+
+
 def main():
     """Main entry point."""
     import argparse
@@ -977,11 +1114,20 @@ def main():
     parser = argparse.ArgumentParser(description='Validate dictionary entries')
     parser.add_argument('--entry', '-e', type=str, help='Path to a single entry file to validate')
     parser.add_argument('--id', type=str, help='Entry ID to validate (e.g., 00001_taberu)')
+    parser.add_argument('--changed-only', action='store_true',
+                        help='Validate only entry files changed since the last commit on main')
+    parser.add_argument('--range', nargs=2, metavar=('START', 'END'), type=int,
+                        help='Validate entries in a specific numeric ID range (e.g., --range 10000 10499)')
     args = parser.parse_args()
 
     # Determine project root
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
+
+    # Check for mutually exclusive flags
+    if (args.changed_only or args.range) and (args.entry or args.id):
+        print("Error: --changed-only and --range cannot be used with --entry or --id")
+        return 1
 
     # Single entry validation mode
     if args.entry:
@@ -1004,6 +1150,14 @@ def main():
             print(f"Error: No entry found with ID: {args.id}")
             return 1
         return validate_single_entry(entry_path, project_root)
+
+    # Changed-only validation mode
+    if args.changed_only:
+        return validate_changed_only(project_root)
+
+    # Range validation mode
+    if args.range:
+        return validate_range(project_root, args.range[0], args.range[1])
 
     # Full validation mode
     print(f"Validating entries in {project_root}")

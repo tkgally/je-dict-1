@@ -113,6 +113,12 @@ Keep the progress file minimal:
 next: XXXXX
 ```
 
+Optionally, add a summary line for the next session:
+```
+next: XXXXX
+last_session: YYYY-MM-DD, entries AAAAA-BBBBB, N entries modified
+```
+
 That's all. This allows quick loading into context.
 
 ## Output at Session End
