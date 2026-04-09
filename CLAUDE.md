@@ -26,6 +26,7 @@ build/            # Python build, validation, and utility scripts
   build/add_conjugations.py      # Add full conjugation tables to verb entries
   build/add_adjective_conjugations.py  # Add conjugation tables to i-adjective entries
   build/find_merge_candidates.py # Detect duplicate/variant entries and missing cross-refs
+  build/check_consistency.py       # Entry consistency checker (note structure, transitivity, etc.)
   build/check_semantic_clusters.py # Lint transitivity/antonym/keigo clusters for missing links
   build/data/                 # Static data files (semantic fields, scenarios, etc.)
   build/data/semantic_fields.json   # Semantic field definitions for coverage auditing (generated)
@@ -145,8 +146,13 @@ python3 build/find_missing_transitivity.py --tier basic  # Filter to one tier
 python3 build/find_missing_transitivity.py --json        # Machine-readable output
 
 # Reports
-python3 build/report.py                   # Dictionary health dashboard
+python3 build/report.py                   # Dictionary health dashboard (includes quality metrics)
 python3 pipeline/update-brief.py          # Refresh PROJECT_CONTEXT_BRIEF.md from current data
+python3 build/check_consistency.py            # Check entry consistency across the dictionary
+python3 build/check_consistency.py --json     # Machine-readable consistency report
+python3 build/check_consistency.py --fix-list # Entry IDs only (for piping)
+python3 build/check_consistency.py --issue note-length  # Filter to one issue type
+python3 build/check_consistency.py --tier basic         # Filter by vocabulary tier
 python3 build/score_note_quality.py --summary   # Note quality score distribution
 python3 build/score_note_quality.py --below 30   # Entries with worst notes
 python3 build/prioritize_polishing.py             # Generate polishing priority lists
@@ -191,6 +197,7 @@ make assemble-fields                      # reassemble semantic_fields.json from
 make audit-scenarios                      # scenario coverage overview
 make assemble-scenarios                   # reassemble learner_scenarios.json from per-category files
 make audit-tiers                          # vocabulary tier outlier detection
+make consistency                          # run consistency checker
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).

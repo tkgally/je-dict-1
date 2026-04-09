@@ -12,6 +12,7 @@ Usage:
 
 import json
 import re
+import subprocess
 import sys
 from collections import Counter, defaultdict
 from datetime import datetime, timedelta, timezone
@@ -19,6 +20,12 @@ from pathlib import Path
 
 from constants import LINK_OPEN
 from japanese_utils import FURIGANA_PATTERN, is_kanji, strip_furigana
+
+try:
+    import score_note_quality as _snq
+    _SCORER_AVAILABLE = True
+except ImportError:
+    _SCORER_AVAILABLE = False
 
 
 def load_all_entries(entries_dir: Path) -> list[dict]:
@@ -282,6 +289,320 @@ def report_recent_activity(entries: list[dict], days: int = 7) -> None:
     print()
 
 
+def report_crossref_symmetry(entries: list[dict]) -> None:
+    """Print cross-reference symmetry rate."""
+    # Build directed-reference map from in-memory entries
+    ref_map: dict[str, set[str]] = {}
+    for entry in entries:
+        eid = entry.get('id', '')
+        targets = set()
+        for ref in entry.get('cross_references', []):
+            if isinstance(ref, dict) and ref.get('target_id'):
+                targets.add(ref['target_id'])
+        for ref in entry.get('prominent_see_also', []):
+            if isinstance(ref, dict) and ref.get('target_id'):
+                targets.add(ref['target_id'])
+        ref_map[eid] = targets
+
+    total_directed = sum(len(t) for t in ref_map.values())
+    symmetric = 0
+    asymmetric = 0
+    seen = set()
+    for src, targets in ref_map.items():
+        for tgt in targets:
+            pair = tuple(sorted([src, tgt]))
+            if pair in seen:
+                continue
+            seen.add(pair)
+            if src in ref_map.get(tgt, set()):
+                symmetric += 1
+            else:
+                asymmetric += 1
+
+    rate = (symmetric / (symmetric + asymmetric) * 100) if (symmetric + asymmetric) else 0
+
+    print("CROSS-REFERENCE SYMMETRY")
+    print("-" * 40)
+    print(f"  Total directed references: {total_directed:>8}")
+    print(f"  Symmetric pairs:           {symmetric:>8}")
+    print(f"  Asymmetric references:     {asymmetric:>8}")
+    print(f"  Symmetry rate:             {rate:>7.1f}%")
+    print()
+
+
+def report_note_quality(entries: list[dict]) -> None:
+    """Print note quality summary — scorer mode if available, else length stats."""
+    if _SCORER_AVAILABLE:
+        _report_note_quality_scored(entries)
+    else:
+        _report_note_quality_length(entries)
+
+
+def _report_note_quality_scored(entries: list[dict]) -> None:
+    """Report note quality using the score_note_quality scorer."""
+    script_dir = Path(__file__).parent
+    templates_path = script_dir / 'note_templates.json'
+    if not templates_path.exists():
+        _report_note_quality_length(entries)
+        return
+
+    templates = _snq.load_templates(str(templates_path))
+    buckets = Counter()  # 0-20, 21-40, 41-60, 61-80, 81-100
+    pos_scores: dict[str, list[int]] = defaultdict(list)
+    total_scored = 0
+
+    for entry in entries:
+        pos = entry.get('part_of_speech', '')
+        template_key = _snq.normalize_pos(pos)
+        template = templates.get(template_key, templates.get('_default', {}))
+        notes = entry.get('notes', '') or ''
+        score, _ = _snq.score_entry(entry, notes, template)
+
+        total_scored += 1
+        pos_scores[template_key].append(score)
+
+        if score <= 20:
+            buckets['0-20'] += 1
+        elif score <= 40:
+            buckets['21-40'] += 1
+        elif score <= 60:
+            buckets['41-60'] += 1
+        elif score <= 80:
+            buckets['61-80'] += 1
+        else:
+            buckets['81-100'] += 1
+
+    print("NOTE QUALITY (scored)")
+    print("-" * 40)
+    print("  Score distribution:")
+    for bucket in ['0-20', '21-40', '41-60', '61-80', '81-100']:
+        count = buckets.get(bucket, 0)
+        print(f"    {bucket:<10} {count:>6}")
+    print()
+    print(f"  {'POS':<24} {'Count':>6}  {'Avg':>5}")
+    for pos_key in sorted(pos_scores.keys()):
+        scores = pos_scores[pos_key]
+        avg = sum(scores) / len(scores) if scores else 0
+        print(f"    {pos_key:<22} {len(scores):>6}  {avg:>5.1f}")
+    print()
+
+
+def _report_note_quality_length(entries: list[dict]) -> None:
+    """Fallback: report note quality by length per POS."""
+    pos_stats: dict[str, list[int]] = defaultdict(list)
+    without_notes = 0
+
+    for entry in entries:
+        notes = entry.get('notes', '') or ''
+        if not notes:
+            without_notes += 1
+            continue
+        tags = entry.get('metadata', {}).get('tags', {}).get('pos', [])
+        primary_pos = tags[0] if tags else 'unknown'
+        pos_stats[primary_pos].append(len(notes))
+
+    print("NOTE QUALITY (by length)")
+    print("-" * 40)
+    print(f"  {'POS':<24} {'With Notes':>10} {'Avg Length':>11} {'Median':>8}")
+    for pos in sorted(pos_stats.keys()):
+        lengths = sorted(pos_stats[pos])
+        avg = sum(lengths) / len(lengths) if lengths else 0
+        median = lengths[len(lengths) // 2] if lengths else 0
+        print(f"    {pos:<22} {len(lengths):>10} {avg:>11.0f} {median:>8}")
+    print(f"  Entries without notes:  {without_notes:>6}")
+    print()
+
+
+def report_pos_completeness(entries: list[dict]) -> None:
+    """Print POS section completeness for verbs and na-adjectives."""
+    verb_total = 0
+    verb_transitivity = 0
+    verb_teiru = 0
+    verb_collocations = 0
+    verb_conjugation = 0
+
+    na_total = 0
+    na_collocations = 0
+    na_conjugation = 0
+
+    for entry in entries:
+        pos_tags = entry.get('metadata', {}).get('tags', {}).get('pos', [])
+        sem_tags = entry.get('metadata', {}).get('tags', {}).get('semantic', [])
+        notes = (entry.get('notes', '') or '').lower()
+
+        is_verb = any(p.startswith('verb') for p in pos_tags)
+        is_na = 'adjective-na' in pos_tags
+
+        if is_verb:
+            verb_total += 1
+            if ('transitive' in sem_tags or 'intransitive' in sem_tags or
+                    '自動詞' in notes or '他動詞' in notes or
+                    'transitive' in notes or 'intransitive' in notes):
+                verb_transitivity += 1
+            if 'aspect' in notes or 'ている' in notes:
+                verb_teiru += 1
+            if 'collocation' in notes or '〜' in entry.get('notes', ''):
+                verb_collocations += 1
+            if entry.get('conjugation'):
+                verb_conjugation += 1
+
+        if is_na:
+            na_total += 1
+            if 'collocation' in notes or '〜' in entry.get('notes', ''):
+                na_collocations += 1
+            if entry.get('conjugation'):
+                na_conjugation += 1
+
+    def pct(n, total):
+        return f"{n / total * 100:.1f}%" if total else "N/A"
+
+    print("POS SECTION COMPLETENESS")
+    print("-" * 40)
+    print(f"  Verbs ({verb_total} total):")
+    print(f"    With transitivity:   {verb_transitivity:>6} ({pct(verb_transitivity, verb_total)})")
+    print(f"    With ている docs:    {verb_teiru:>6} ({pct(verb_teiru, verb_total)})")
+    print(f"    With collocations:   {verb_collocations:>6} ({pct(verb_collocations, verb_total)})")
+    print(f"    With conjugation:    {verb_conjugation:>6} ({pct(verb_conjugation, verb_total)})")
+    print(f"  Na-adjectives ({na_total} total):")
+    print(f"    With collocations:   {na_collocations:>6} ({pct(na_collocations, na_total)})")
+    print(f"    With conjugation:    {na_conjugation:>6} ({pct(na_conjugation, na_total)})")
+    print()
+
+
+def report_polishing_progress(project_root: Path) -> None:
+    """Print polishing task completion percentages."""
+    tasks_dir = project_root / 'polishing' / 'tasks'
+    if not tasks_dir.exists():
+        return
+
+    # Find max entry ID
+    max_id = 0
+    entries_dir = project_root / 'entries'
+    for f in entries_dir.glob('**/*.json'):
+        try:
+            num = int(f.stem.split('_')[0])
+            if num > max_id:
+                max_id = num
+        except (ValueError, IndexError):
+            pass
+
+    if max_id == 0:
+        return
+
+    print("POLISHING PROGRESS")
+    print("-" * 40)
+    print(f"  {'Task':<28} {'Progress':>8} {'Next Entry':>12}")
+
+    for progress_file in sorted(tasks_dir.glob('*/progress.txt')):
+        task_name = progress_file.parent.name
+        # Find the last "next: XXXXX" line
+        next_id = 0
+        try:
+            text = progress_file.read_text(encoding='utf-8')
+            for line in text.splitlines():
+                line = line.strip()
+                if line.startswith('next:'):
+                    val = line.split(':', 1)[1].strip()
+                    try:
+                        next_id = int(val)
+                    except ValueError:
+                        pass
+        except IOError:
+            continue
+
+        pct = (next_id / max_id * 100) if max_id else 0
+        print(f"    {task_name:<26} {pct:>7.1f}% {next_id:>10}")
+
+    print()
+
+
+def report_candidate_health(project_root: Path) -> None:
+    """Print candidate queue statistics."""
+    cand_file = project_root / 'candidate_words.json'
+    if not cand_file.exists():
+        print("CANDIDATE QUEUE")
+        print("-" * 40)
+        print("  (candidate_words.json not found)")
+        print()
+        return
+
+    try:
+        with open(cand_file, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return
+
+    candidates = data.get('candidates', [])
+    total = len(candidates)
+
+    print("CANDIDATE QUEUE")
+    print("-" * 40)
+    print(f"  Total candidates:      {total:>8}")
+
+    # Check for date field to report oldest
+    if candidates:
+        dates = [c.get('added', '') for c in candidates if c.get('added')]
+        if dates:
+            oldest = min(dates)
+            print(f"  Oldest candidate:      {oldest[:10]}")
+
+    print()
+
+
+def report_consistency_summary(project_root: Path) -> None:
+    """Print one-line summary from check_consistency.py."""
+    script = project_root / 'build' / 'check_consistency.py'
+    if not script.exists():
+        print("CONSISTENCY SUMMARY")
+        print("-" * 40)
+        print("  (check_consistency.py not available)")
+        print()
+        return
+
+    try:
+        result = subprocess.run(
+            [sys.executable, str(script), '--json'],
+            capture_output=True, text=True, timeout=300,
+        )
+        if result.returncode != 0:
+            print("CONSISTENCY SUMMARY")
+            print("-" * 40)
+            print(f"  (check_consistency.py failed: exit {result.returncode})")
+            print()
+            return
+
+        data = json.loads(result.stdout)
+    except (subprocess.TimeoutExpired, json.JSONDecodeError, OSError) as e:
+        print("CONSISTENCY SUMMARY")
+        print("-" * 40)
+        print(f"  (check_consistency.py error: {e})")
+        print()
+        return
+
+    print("CONSISTENCY SUMMARY")
+    print("-" * 40)
+
+    labels = {
+        'note-structure': ('Note structure issues', lambda v: len(v)),
+        'crossref-asymmetry': ('Cross-ref asymmetry',
+                               lambda v: f"{v.get('asymmetric_pairs', 'N/A')} pairs"
+                               if 'error' not in v else 'N/A'),
+        'note-length': ('Note length outliers',
+                        lambda v: len(v.get('too_short', [])) + len(v.get('too_long', []))),
+        'missing-transitivity': ('Missing transitivity', lambda v: len(v)),
+        'no-collocations': ('No collocations', lambda v: len(v)),
+        'example-count': ('Example count gaps', lambda v: len(v)),
+    }
+
+    for key, (label, count_fn) in labels.items():
+        if key in data:
+            count = count_fn(data[key])
+            print(f"  {label + ':':<26} {count:>8}")
+
+    print("  (Full report: python3 build/check_consistency.py)")
+    print()
+
+
 def main():
     """Main entry point."""
     script_dir = Path(__file__).parent
@@ -308,9 +629,15 @@ def main():
     report_tier_breakdown(entries)
     report_pos_breakdown(entries)
     report_cross_references(entries)
+    report_crossref_symmetry(entries)
     report_examples(entries)
     report_inline_links(entries)
     report_furigana(entries)
+    report_note_quality(entries)
+    report_pos_completeness(entries)
+    report_polishing_progress(project_root)
+    report_candidate_health(project_root)
+    report_consistency_summary(project_root)
     report_recent_activity(entries)
 
     return 0

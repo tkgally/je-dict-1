@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency
 
 validate:
 	python3 build/validate.py
@@ -59,5 +59,8 @@ assemble-scenarios:
 
 audit-tiers:
 	python3 build/audit_tiers.py --outliers
+
+consistency:
+	python3 build/check_consistency.py
 
 full: clean build
