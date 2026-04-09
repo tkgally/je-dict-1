@@ -1,0 +1,121 @@
+{
+  "category": "emergency",
+  "category_name": "Accidents, police, natural disasters",
+  "scenarios": [
+    {
+      "id": "calling_emergency",
+      "name": "Calling Emergency Services (110/119)",
+      "level": "intermediate",
+      "description": "Calling police (110) or fire/ambulance (119) in an emergency",
+      "expected_vocabulary": [
+        {"word": "警察", "reading": "けいさつ", "gloss": "police", "priority": "high"},
+        {"word": "救急車", "reading": "きゅうきゅうしゃ", "gloss": "ambulance", "priority": "high"},
+        {"word": "消防車", "reading": "しょうぼうしゃ", "gloss": "fire truck", "priority": "high"},
+        {"word": "事故", "reading": "じこ", "gloss": "accident", "priority": "high"},
+        {"word": "火事", "reading": "かじ", "gloss": "fire", "priority": "high"},
+        {"word": "怪我", "reading": "けが", "gloss": "injury", "priority": "high"},
+        {"word": "助けて", "reading": "たすけて", "gloss": "help!", "priority": "high"},
+        {"word": "住所", "reading": "じゅうしょ", "gloss": "address", "priority": "high"},
+        {"word": "意識", "reading": "いしき", "gloss": "consciousness", "priority": "medium"},
+        {"word": "出血", "reading": "しゅっけつ", "gloss": "bleeding", "priority": "medium"},
+        {"word": "通報", "reading": "つうほう", "gloss": "report (to authorities)", "priority": "medium"},
+        {"word": "緊急", "reading": "きんきゅう", "gloss": "emergency/urgent", "priority": "high"}
+      ]
+    },
+    {
+      "id": "earthquake_response",
+      "name": "Earthquake Response",
+      "level": "intermediate",
+      "description": "Reacting to an earthquake: taking shelter, checking safety, evacuation",
+      "expected_vocabulary": [
+        {"word": "地震", "reading": "じしん", "gloss": "earthquake", "priority": "high"},
+        {"word": "避難", "reading": "ひなん", "gloss": "evacuation", "priority": "high"},
+        {"word": "避難所", "reading": "ひなんじょ", "gloss": "evacuation shelter", "priority": "high"},
+        {"word": "揺れ", "reading": "ゆれ", "gloss": "shaking/tremor", "priority": "high"},
+        {"word": "余震", "reading": "よしん", "gloss": "aftershock", "priority": "medium"},
+        {"word": "津波", "reading": "つなみ", "gloss": "tsunami", "priority": "high"},
+        {"word": "安全", "reading": "あんぜん", "gloss": "safety", "priority": "high"},
+        {"word": "防災", "reading": "ぼうさい", "gloss": "disaster prevention", "priority": "medium"},
+        {"word": "非常口", "reading": "ひじょうぐち", "gloss": "emergency exit", "priority": "medium"},
+        {"word": "防災グッズ", "reading": "ぼうさいぐっず", "gloss": "emergency supplies", "priority": "medium"},
+        {"word": "震度", "reading": "しんど", "gloss": "seismic intensity", "priority": "medium"},
+        {"word": "机の下", "reading": "つくえのした", "gloss": "under the desk", "priority": "high"}
+      ]
+    },
+    {
+      "id": "reporting_crime",
+      "name": "Reporting a Crime",
+      "level": "intermediate",
+      "description": "Reporting a crime or suspicious activity to the police",
+      "expected_vocabulary": [
+        {"word": "交番", "reading": "こうばん", "gloss": "police box", "priority": "high"},
+        {"word": "被害", "reading": "ひがい", "gloss": "damage/harm", "priority": "high"},
+        {"word": "犯人", "reading": "はんにん", "gloss": "criminal/culprit", "priority": "medium"},
+        {"word": "届ける", "reading": "とどける", "gloss": "to report/notify", "priority": "high"},
+        {"word": "被害届", "reading": "ひがいとどけ", "gloss": "damage report", "priority": "medium"},
+        {"word": "証拠", "reading": "しょうこ", "gloss": "evidence", "priority": "medium"},
+        {"word": "目撃", "reading": "もくげき", "gloss": "witnessing", "priority": "medium"},
+        {"word": "不審者", "reading": "ふしんしゃ", "gloss": "suspicious person", "priority": "medium"},
+        {"word": "盗む", "reading": "ぬすむ", "gloss": "to steal", "priority": "high"},
+        {"word": "状況", "reading": "じょうきょう", "gloss": "situation", "priority": "high"}
+      ]
+    },
+    {
+      "id": "lost_stolen_items",
+      "name": "Lost or Stolen Items",
+      "level": "intermediate",
+      "description": "Reporting lost or stolen belongings, inquiring at lost-and-found",
+      "expected_vocabulary": [
+        {"word": "落とし物", "reading": "おとしもの", "gloss": "lost item", "priority": "high"},
+        {"word": "忘れ物", "reading": "わすれもの", "gloss": "forgotten item", "priority": "high"},
+        {"word": "紛失", "reading": "ふんしつ", "gloss": "loss (of item)", "priority": "medium"},
+        {"word": "届け出", "reading": "とどけで", "gloss": "report/notification", "priority": "medium"},
+        {"word": "遺失物取扱所", "reading": "いしつぶつとりあつかいじょ", "gloss": "lost-and-found office", "priority": "medium"},
+        {"word": "財布", "reading": "さいふ", "gloss": "wallet", "priority": "high"},
+        {"word": "携帯電話", "reading": "けいたいでんわ", "gloss": "mobile phone", "priority": "high"},
+        {"word": "見つかる", "reading": "みつかる", "gloss": "to be found", "priority": "high"},
+        {"word": "探す", "reading": "さがす", "gloss": "to search/look for", "priority": "high"},
+        {"word": "特徴", "reading": "とくちょう", "gloss": "characteristics", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "typhoon_preparation",
+      "name": "Typhoon Preparation",
+      "level": "intermediate",
+      "description": "Preparing for and riding out a typhoon",
+      "expected_vocabulary": [
+        {"word": "台風", "reading": "たいふう", "gloss": "typhoon", "priority": "high"},
+        {"word": "暴風", "reading": "ぼうふう", "gloss": "violent wind/storm", "priority": "medium"},
+        {"word": "大雨", "reading": "おおあめ", "gloss": "heavy rain", "priority": "high"},
+        {"word": "警報", "reading": "けいほう", "gloss": "warning/alert", "priority": "high"},
+        {"word": "避難勧告", "reading": "ひなんかんこく", "gloss": "evacuation advisory", "priority": "medium"},
+        {"word": "停電", "reading": "ていでん", "gloss": "power outage", "priority": "medium"},
+        {"word": "浸水", "reading": "しんすい", "gloss": "flooding", "priority": "medium"},
+        {"word": "備蓄", "reading": "びちく", "gloss": "emergency stockpile", "priority": "medium"},
+        {"word": "運休", "reading": "うんきゅう", "gloss": "service suspension", "priority": "medium"},
+        {"word": "注意", "reading": "ちゅうい", "gloss": "caution/attention", "priority": "high"},
+        {"word": "天気予報", "reading": "てんきよほう", "gloss": "weather forecast", "priority": "high"}
+      ]
+    },
+    {
+      "id": "traffic_accident",
+      "name": "Traffic Accident",
+      "level": "intermediate",
+      "description": "Being involved in or witnessing a traffic accident",
+      "expected_vocabulary": [
+        {"word": "交通事故", "reading": "こうつうじこ", "gloss": "traffic accident", "priority": "high"},
+        {"word": "衝突", "reading": "しょうとつ", "gloss": "collision", "priority": "medium"},
+        {"word": "怪我人", "reading": "けがにん", "gloss": "injured person", "priority": "high"},
+        {"word": "救急", "reading": "きゅうきゅう", "gloss": "emergency/first aid", "priority": "high"},
+        {"word": "保険会社", "reading": "ほけんがいしゃ", "gloss": "insurance company", "priority": "medium"},
+        {"word": "過失", "reading": "かしつ", "gloss": "negligence/fault", "priority": "medium"},
+        {"word": "現場", "reading": "げんば", "gloss": "scene (of accident)", "priority": "medium"},
+        {"word": "示談", "reading": "じだん", "gloss": "settlement (out of court)", "priority": "low"},
+        {"word": "免許証", "reading": "めんきょしょう", "gloss": "driver's license", "priority": "high"},
+        {"word": "連絡先", "reading": "れんらくさき", "gloss": "contact information", "priority": "high"},
+        {"word": "目撃者", "reading": "もくげきしゃ", "gloss": "witness", "priority": "medium"},
+        {"word": "信号無視", "reading": "しんごうむし", "gloss": "running a red light", "priority": "medium"}
+      ]
+    }
+  ]
+}

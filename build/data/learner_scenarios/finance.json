@@ -1,0 +1,135 @@
+{
+  "category": "finance",
+  "category_name": "Banks, payments, budgeting, insurance",
+  "scenarios": [
+    {
+      "id": "opening_bank_account",
+      "name": "Opening a Bank Account",
+      "level": "intermediate",
+      "description": "Opening a bank account in Japan: required documents, account types",
+      "expected_vocabulary": [
+        {"word": "銀行", "reading": "ぎんこう", "gloss": "bank", "priority": "high"},
+        {"word": "口座", "reading": "こうざ", "gloss": "bank account", "priority": "high"},
+        {"word": "開設", "reading": "かいせつ", "gloss": "opening (an account)", "priority": "high"},
+        {"word": "普通預金", "reading": "ふつうよきん", "gloss": "savings account (regular)", "priority": "medium"},
+        {"word": "通帳", "reading": "つうちょう", "gloss": "bankbook", "priority": "medium"},
+        {"word": "印鑑", "reading": "いんかん", "gloss": "personal seal", "priority": "high"},
+        {"word": "身分証明書", "reading": "みぶんしょうめいしょ", "gloss": "ID document", "priority": "high"},
+        {"word": "届出", "reading": "とどけで", "gloss": "registration", "priority": "medium"},
+        {"word": "キャッシュカード", "reading": "きゃっしゅかーど", "gloss": "bank card", "priority": "medium"},
+        {"word": "暗証番号", "reading": "あんしょうばんごう", "gloss": "PIN number", "priority": "high"}
+      ]
+    },
+    {
+      "id": "transferring_money",
+      "name": "Transferring Money",
+      "level": "intermediate",
+      "description": "Making bank transfers domestically or internationally",
+      "expected_vocabulary": [
+        {"word": "振込", "reading": "ふりこみ", "gloss": "bank transfer", "priority": "high"},
+        {"word": "送金", "reading": "そうきん", "gloss": "remittance/sending money", "priority": "high"},
+        {"word": "口座番号", "reading": "こうざばんごう", "gloss": "account number", "priority": "high"},
+        {"word": "支店", "reading": "してん", "gloss": "branch (bank)", "priority": "medium"},
+        {"word": "手数料", "reading": "てすうりょう", "gloss": "handling fee", "priority": "high"},
+        {"word": "振込先", "reading": "ふりこみさき", "gloss": "transfer destination", "priority": "medium"},
+        {"word": "入金", "reading": "にゅうきん", "gloss": "deposit/payment received", "priority": "medium"},
+        {"word": "出金", "reading": "しゅっきん", "gloss": "withdrawal/payment made", "priority": "medium"},
+        {"word": "確認", "reading": "かくにん", "gloss": "confirmation", "priority": "high"},
+        {"word": "完了", "reading": "かんりょう", "gloss": "completion", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "paying_bills",
+      "name": "Paying Bills",
+      "level": "intermediate",
+      "description": "Paying utility bills, rent, and other recurring payments",
+      "expected_vocabulary": [
+        {"word": "支払い", "reading": "しはらい", "gloss": "payment", "priority": "high"},
+        {"word": "請求書", "reading": "せいきゅうしょ", "gloss": "invoice/bill", "priority": "high"},
+        {"word": "引き落とし", "reading": "ひきおとし", "gloss": "automatic deduction", "priority": "high"},
+        {"word": "口座振替", "reading": "こうざふりかえ", "gloss": "automatic bank transfer", "priority": "medium"},
+        {"word": "期限", "reading": "きげん", "gloss": "due date", "priority": "high"},
+        {"word": "滞納", "reading": "たいのう", "gloss": "overdue payment", "priority": "medium"},
+        {"word": "毎月", "reading": "まいつき", "gloss": "every month", "priority": "high"},
+        {"word": "家賃", "reading": "やちん", "gloss": "rent", "priority": "high"},
+        {"word": "光熱費", "reading": "こうねつひ", "gloss": "utility costs", "priority": "medium"},
+        {"word": "コンビニ払い", "reading": "こんびにばらい", "gloss": "convenience store payment", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "insurance",
+      "name": "Understanding Insurance",
+      "level": "intermediate",
+      "description": "Health insurance, car insurance, and other insurance types in Japan",
+      "expected_vocabulary": [
+        {"word": "保険", "reading": "ほけん", "gloss": "insurance", "priority": "high"},
+        {"word": "健康保険", "reading": "けんこうほけん", "gloss": "health insurance", "priority": "high"},
+        {"word": "国民健康保険", "reading": "こくみんけんこうほけん", "gloss": "national health insurance", "priority": "medium"},
+        {"word": "加入", "reading": "かにゅう", "gloss": "enrollment/joining", "priority": "high"},
+        {"word": "保険料", "reading": "ほけんりょう", "gloss": "insurance premium", "priority": "medium"},
+        {"word": "保険証", "reading": "ほけんしょう", "gloss": "insurance card", "priority": "high"},
+        {"word": "自己負担", "reading": "じこふたん", "gloss": "out-of-pocket cost", "priority": "medium"},
+        {"word": "生命保険", "reading": "せいめいほけん", "gloss": "life insurance", "priority": "medium"},
+        {"word": "補償", "reading": "ほしょう", "gloss": "compensation/coverage", "priority": "medium"},
+        {"word": "申請", "reading": "しんせい", "gloss": "application", "priority": "high"}
+      ]
+    },
+    {
+      "id": "currency_exchange",
+      "name": "Currency Exchange",
+      "level": "intermediate",
+      "description": "Exchanging foreign currency at a bank or exchange counter",
+      "expected_vocabulary": [
+        {"word": "両替", "reading": "りょうがえ", "gloss": "currency exchange", "priority": "high"},
+        {"word": "為替レート", "reading": "かわせれーと", "gloss": "exchange rate", "priority": "high"},
+        {"word": "円", "reading": "えん", "gloss": "yen", "priority": "high"},
+        {"word": "ドル", "reading": "どる", "gloss": "dollar", "priority": "medium"},
+        {"word": "手数料", "reading": "てすうりょう", "gloss": "handling fee", "priority": "medium"},
+        {"word": "現金", "reading": "げんきん", "gloss": "cash", "priority": "high"},
+        {"word": "外貨", "reading": "がいか", "gloss": "foreign currency", "priority": "medium"},
+        {"word": "窓口", "reading": "まどぐち", "gloss": "service counter", "priority": "medium"},
+        {"word": "レート", "reading": "れーと", "gloss": "rate", "priority": "medium"},
+        {"word": "紙幣", "reading": "しへい", "gloss": "banknote/bill", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "budgeting",
+      "name": "Budgeting and Saving",
+      "level": "intermediate",
+      "description": "Managing personal finances, saving money, tracking expenses",
+      "expected_vocabulary": [
+        {"word": "家計", "reading": "かけい", "gloss": "household finances", "priority": "high"},
+        {"word": "貯金", "reading": "ちょきん", "gloss": "savings", "priority": "high"},
+        {"word": "節約", "reading": "せつやく", "gloss": "economizing/saving", "priority": "high"},
+        {"word": "出費", "reading": "しゅっぴ", "gloss": "expenses", "priority": "medium"},
+        {"word": "収入", "reading": "しゅうにゅう", "gloss": "income", "priority": "high"},
+        {"word": "赤字", "reading": "あかじ", "gloss": "deficit/in the red", "priority": "medium"},
+        {"word": "黒字", "reading": "くろじ", "gloss": "surplus/in the black", "priority": "medium"},
+        {"word": "家計簿", "reading": "かけいぼ", "gloss": "household account book", "priority": "medium"},
+        {"word": "予算", "reading": "よさん", "gloss": "budget", "priority": "medium"},
+        {"word": "無駄遣い", "reading": "むだづかい", "gloss": "wasteful spending", "priority": "medium"},
+        {"word": "定期預金", "reading": "ていきよきん", "gloss": "fixed-term deposit", "priority": "low"},
+        {"word": "利息", "reading": "りそく", "gloss": "interest (financial)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "credit_cards",
+      "name": "Managing Credit Cards",
+      "level": "intermediate",
+      "description": "Applying for, using, and managing credit cards",
+      "expected_vocabulary": [
+        {"word": "クレジットカード", "reading": "くれじっとかーど", "gloss": "credit card", "priority": "high"},
+        {"word": "審査", "reading": "しんさ", "gloss": "screening/review", "priority": "medium"},
+        {"word": "利用限度額", "reading": "りようげんどがく", "gloss": "credit limit", "priority": "medium"},
+        {"word": "明細書", "reading": "めいさいしょ", "gloss": "statement/itemized bill", "priority": "medium"},
+        {"word": "年会費", "reading": "ねんかいひ", "gloss": "annual fee", "priority": "medium"},
+        {"word": "ポイント", "reading": "ぽいんと", "gloss": "reward points", "priority": "medium"},
+        {"word": "暗証番号", "reading": "あんしょうばんごう", "gloss": "PIN number", "priority": "high"},
+        {"word": "分割", "reading": "ぶんかつ", "gloss": "installments", "priority": "medium"},
+        {"word": "一括", "reading": "いっかつ", "gloss": "lump sum", "priority": "medium"},
+        {"word": "引き落とし", "reading": "ひきおとし", "gloss": "automatic deduction", "priority": "high"},
+        {"word": "申し込み", "reading": "もうしこみ", "gloss": "application", "priority": "high"}
+      ]
+    }
+  ]
+}

@@ -8,61 +8,17 @@ import sys
 from datetime import date
 from pathlib import Path
 
+from coverage_utils import load_entry_index, load_candidates, word_in_dictionary
+
 SCRIPT_DIR = Path(__file__).resolve().parent
 PROJECT_DIR = SCRIPT_DIR.parent
 FIELDS_FILE = SCRIPT_DIR / "data" / "semantic_fields.json"
-INDEX_FILE = PROJECT_DIR / "entries_index.json"
-CANDIDATES_FILE = PROJECT_DIR / "candidate_words.json"
 
 
 def load_fields(fields_file=FIELDS_FILE):
     """Load semantic field definitions."""
     with open(fields_file) as f:
         return json.load(f)
-
-
-def load_entry_index(index_file=INDEX_FILE):
-    """Load entries_index.json and build a lookup set of (word, reading) pairs."""
-    with open(index_file) as f:
-        data = json.load(f)
-
-    lookup = set()
-    reading_only = set()  # for kana-only matching
-
-    for entry in data["entries"]:
-        headword = entry["headword"]
-        reading = entry["reading"]
-        lookup.add((headword, reading))
-        reading_only.add(reading)
-
-    return lookup, reading_only
-
-
-def load_candidates(candidates_file=CANDIDATES_FILE):
-    """Load candidate_words.json and build a lookup set of (word, reading) pairs."""
-    if not candidates_file.exists():
-        return set()
-
-    with open(candidates_file) as f:
-        data = json.load(f)
-
-    lookup = set()
-    for candidate in data.get("candidates", []):
-        word = candidate.get("word", "")
-        reading = candidate.get("reading", "")
-        if word and reading:
-            lookup.add((word, reading))
-    return lookup
-
-
-def is_all_kana(word):
-    """Check if a word contains only kana (hiragana + katakana)."""
-    for ch in word:
-        cp = ord(ch)
-        # Hiragana: U+3040-U+309F, Katakana: U+30A0-U+30FF
-        if not (0x3040 <= cp <= 0x309F or 0x30A0 <= cp <= 0x30FF or ch in "ー"):
-            return False
-    return True
 
 
 def audit_field(field, entry_lookup, reading_only, priority_filter=None):
@@ -78,11 +34,7 @@ def audit_field(field, entry_lookup, reading_only, priority_filter=None):
         word = word_entry["word"]
         reading = word_entry["reading"]
 
-        # Check exact (headword, reading) match
-        if (word, reading) in entry_lookup:
-            found.append(word_entry)
-        # For kana-only words, also match by reading alone
-        elif is_all_kana(word) and reading in reading_only:
+        if word_in_dictionary(word, reading, entry_lookup, reading_only):
             found.append(word_entry)
         else:
             missing.append(word_entry)

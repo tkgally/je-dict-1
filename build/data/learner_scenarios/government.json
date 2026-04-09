@@ -1,0 +1,139 @@
+{
+  "category": "government",
+  "category_name": "City hall, documents, taxes, post office",
+  "scenarios": [
+    {
+      "id": "city_hall_registration",
+      "name": "City Hall Registration",
+      "level": "intermediate",
+      "description": "Registering your address, getting documents, and handling administrative tasks at city hall",
+      "expected_vocabulary": [
+        {"word": "市役所", "reading": "しやくしょ", "gloss": "city hall", "priority": "high"},
+        {"word": "届出", "reading": "とどけで", "gloss": "notification/registration", "priority": "high"},
+        {"word": "転入届", "reading": "てんにゅうとどけ", "gloss": "moving-in notification", "priority": "high"},
+        {"word": "転出届", "reading": "てんしゅつとどけ", "gloss": "moving-out notification", "priority": "medium"},
+        {"word": "住民票", "reading": "じゅうみんひょう", "gloss": "residence certificate", "priority": "high"},
+        {"word": "印鑑登録", "reading": "いんかんとうろく", "gloss": "seal registration", "priority": "medium"},
+        {"word": "窓口", "reading": "まどぐち", "gloss": "service window", "priority": "high"},
+        {"word": "申請", "reading": "しんせい", "gloss": "application/petition", "priority": "high"},
+        {"word": "証明書", "reading": "しょうめいしょ", "gloss": "certificate", "priority": "high"},
+        {"word": "手数料", "reading": "てすうりょう", "gloss": "handling fee", "priority": "medium"},
+        {"word": "番号札", "reading": "ばんごうふだ", "gloss": "numbered ticket", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "getting_id",
+      "name": "Getting an ID Card",
+      "level": "intermediate",
+      "description": "Applying for a My Number card or other identification",
+      "expected_vocabulary": [
+        {"word": "身分証明書", "reading": "みぶんしょうめいしょ", "gloss": "identification document", "priority": "high"},
+        {"word": "マイナンバーカード", "reading": "まいなんばーかーど", "gloss": "My Number card", "priority": "high"},
+        {"word": "写真", "reading": "しゃしん", "gloss": "photo", "priority": "high"},
+        {"word": "申請", "reading": "しんせい", "gloss": "application", "priority": "high"},
+        {"word": "交付", "reading": "こうふ", "gloss": "issuance", "priority": "medium"},
+        {"word": "暗証番号", "reading": "あんしょうばんごう", "gloss": "PIN/security code", "priority": "medium"},
+        {"word": "有効期限", "reading": "ゆうこうきげん", "gloss": "expiration date", "priority": "medium"},
+        {"word": "受け取り", "reading": "うけとり", "gloss": "receipt/pickup", "priority": "medium"},
+        {"word": "本人確認", "reading": "ほんにんかくにん", "gloss": "identity verification", "priority": "medium"},
+        {"word": "通知", "reading": "つうち", "gloss": "notification", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "filing_taxes",
+      "name": "Filing Taxes",
+      "level": "intermediate",
+      "description": "Understanding and filing annual tax returns in Japan",
+      "expected_vocabulary": [
+        {"word": "確定申告", "reading": "かくていしんこく", "gloss": "tax return filing", "priority": "high"},
+        {"word": "税金", "reading": "ぜいきん", "gloss": "tax", "priority": "high"},
+        {"word": "所得", "reading": "しょとく", "gloss": "income", "priority": "high"},
+        {"word": "控除", "reading": "こうじょ", "gloss": "deduction", "priority": "medium"},
+        {"word": "源泉徴収", "reading": "げんせんちょうしゅう", "gloss": "tax withholding", "priority": "medium"},
+        {"word": "納税", "reading": "のうぜい", "gloss": "tax payment", "priority": "medium"},
+        {"word": "申告", "reading": "しんこく", "gloss": "declaration/filing", "priority": "high"},
+        {"word": "年末調整", "reading": "ねんまつちょうせい", "gloss": "year-end tax adjustment", "priority": "medium"},
+        {"word": "領収書", "reading": "りょうしゅうしょ", "gloss": "receipt", "priority": "medium"},
+        {"word": "還付", "reading": "かんぷ", "gloss": "tax refund", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "post_office",
+      "name": "At the Post Office",
+      "level": "intermediate",
+      "description": "Sending mail and packages, buying stamps, using post office services",
+      "expected_vocabulary": [
+        {"word": "郵便局", "reading": "ゆうびんきょく", "gloss": "post office", "priority": "high"},
+        {"word": "手紙", "reading": "てがみ", "gloss": "letter", "priority": "high"},
+        {"word": "荷物", "reading": "にもつ", "gloss": "package", "priority": "high"},
+        {"word": "切手", "reading": "きって", "gloss": "stamp", "priority": "high"},
+        {"word": "はがき", "reading": "はがき", "gloss": "postcard", "priority": "medium"},
+        {"word": "速達", "reading": "そくたつ", "gloss": "express mail", "priority": "medium"},
+        {"word": "書留", "reading": "かきとめ", "gloss": "registered mail", "priority": "medium"},
+        {"word": "国際郵便", "reading": "こくさいゆうびん", "gloss": "international mail", "priority": "medium"},
+        {"word": "送り先", "reading": "おくりさき", "gloss": "destination address", "priority": "high"},
+        {"word": "差出人", "reading": "さしだしにん", "gloss": "sender", "priority": "medium"},
+        {"word": "届く", "reading": "とどく", "gloss": "to arrive/be delivered", "priority": "high"},
+        {"word": "配達", "reading": "はいたつ", "gloss": "delivery", "priority": "high"}
+      ]
+    },
+    {
+      "id": "renewing_visa",
+      "name": "Renewing a Visa",
+      "level": "intermediate",
+      "description": "Extending or changing visa status at the immigration office",
+      "expected_vocabulary": [
+        {"word": "ビザ", "reading": "びざ", "gloss": "visa", "priority": "high"},
+        {"word": "在留カード", "reading": "ざいりゅうかーど", "gloss": "residence card", "priority": "high"},
+        {"word": "在留資格", "reading": "ざいりゅうしかく", "gloss": "residence status", "priority": "high"},
+        {"word": "更新", "reading": "こうしん", "gloss": "renewal", "priority": "high"},
+        {"word": "延長", "reading": "えんちょう", "gloss": "extension", "priority": "medium"},
+        {"word": "入国管理局", "reading": "にゅうこくかんりきょく", "gloss": "immigration office", "priority": "high"},
+        {"word": "申請書", "reading": "しんせいしょ", "gloss": "application form", "priority": "high"},
+        {"word": "手続き", "reading": "てつづき", "gloss": "procedure", "priority": "high"},
+        {"word": "期間", "reading": "きかん", "gloss": "period/duration", "priority": "medium"},
+        {"word": "許可", "reading": "きょか", "gloss": "permission/approval", "priority": "medium"},
+        {"word": "書類", "reading": "しょるい", "gloss": "documents", "priority": "high"}
+      ]
+    },
+    {
+      "id": "garbage_rules",
+      "name": "Understanding Local Rules and Regulations",
+      "level": "intermediate",
+      "description": "Learning about local rules at city hall: parking, noise, neighborhood association",
+      "expected_vocabulary": [
+        {"word": "規則", "reading": "きそく", "gloss": "rules/regulations", "priority": "high"},
+        {"word": "町内会", "reading": "ちょうないかい", "gloss": "neighborhood association", "priority": "medium"},
+        {"word": "回覧板", "reading": "かいらんばん", "gloss": "circular notice board", "priority": "medium"},
+        {"word": "条例", "reading": "じょうれい", "gloss": "local ordinance", "priority": "medium"},
+        {"word": "届け出", "reading": "とどけで", "gloss": "notification/registration", "priority": "medium"},
+        {"word": "罰金", "reading": "ばっきん", "gloss": "fine/penalty", "priority": "medium"},
+        {"word": "自治体", "reading": "じちたい", "gloss": "municipality", "priority": "medium"},
+        {"word": "問い合わせ", "reading": "といあわせ", "gloss": "inquiry", "priority": "high"},
+        {"word": "相談窓口", "reading": "そうだんまどぐち", "gloss": "consultation counter", "priority": "medium"},
+        {"word": "案内", "reading": "あんない", "gloss": "information/guide", "priority": "high"},
+        {"word": "手続き", "reading": "てつづき", "gloss": "procedure", "priority": "high"}
+      ]
+    },
+    {
+      "id": "pension_social_security",
+      "name": "Pension and Social Security",
+      "level": "intermediate",
+      "description": "Enrolling in pension, understanding social security obligations",
+      "expected_vocabulary": [
+        {"word": "年金", "reading": "ねんきん", "gloss": "pension", "priority": "high"},
+        {"word": "国民年金", "reading": "こくみんねんきん", "gloss": "national pension", "priority": "high"},
+        {"word": "社会保険", "reading": "しゃかいほけん", "gloss": "social insurance", "priority": "high"},
+        {"word": "加入", "reading": "かにゅう", "gloss": "enrollment", "priority": "high"},
+        {"word": "免除", "reading": "めんじょ", "gloss": "exemption", "priority": "medium"},
+        {"word": "納付", "reading": "のうふ", "gloss": "payment (of dues)", "priority": "medium"},
+        {"word": "受給", "reading": "じゅきゅう", "gloss": "receiving benefits", "priority": "medium"},
+        {"word": "保険料", "reading": "ほけんりょう", "gloss": "insurance premium", "priority": "medium"},
+        {"word": "手帳", "reading": "てちょう", "gloss": "handbook/booklet", "priority": "medium"},
+        {"word": "届出", "reading": "とどけで", "gloss": "notification", "priority": "medium"},
+        {"word": "義務", "reading": "ぎむ", "gloss": "obligation/duty", "priority": "medium"},
+        {"word": "制度", "reading": "せいど", "gloss": "system/institution", "priority": "medium"}
+      ]
+    }
+  ]
+}

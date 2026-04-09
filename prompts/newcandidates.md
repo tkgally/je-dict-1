@@ -65,6 +65,23 @@ python3 build/audit_semantic_field.py --field FIELD_ID --add-candidates
 
 This is especially useful for finding vocabulary gaps in specialized domains (medical, legal, academic) that brainstorming tends to miss.
 
+### Scenario-based gap analysis
+
+Scenarios identify vocabulary needed for real-world situations. Missing words that appear across many scenarios are the highest-impact candidates:
+
+```bash
+# See the most impactful missing words across all scenarios
+python3 build/analyze_scenarios.py --top-gaps 30
+
+# See which scenario categories have the worst coverage
+python3 build/analyze_scenarios.py --summary
+
+# Add the highest-impact gaps as candidates
+python3 build/analyze_scenarios.py --top-gaps 20 --add-candidates
+```
+
+This complements semantic field audits: fields find topical gaps, scenarios find communicative gaps.
+
 ## Selection Approach
 
 ### Quality Over Quantity

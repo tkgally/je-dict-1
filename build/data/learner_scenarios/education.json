@@ -1,0 +1,156 @@
+{
+  "category": "education",
+  "category_name": "School, studying, academic settings",
+  "scenarios": [
+    {
+      "id": "enrolling_class",
+      "name": "Enrolling in a Class",
+      "level": "intermediate",
+      "description": "Signing up for a course at a language school, community center, or university",
+      "expected_vocabulary": [
+        {"word": "申し込み", "reading": "もうしこみ", "gloss": "application/registration", "priority": "high"},
+        {"word": "授業", "reading": "じゅぎょう", "gloss": "class/lesson", "priority": "high"},
+        {"word": "講座", "reading": "こうざ", "gloss": "course/lecture series", "priority": "medium"},
+        {"word": "受講", "reading": "じゅこう", "gloss": "taking a course", "priority": "medium"},
+        {"word": "学費", "reading": "がくひ", "gloss": "tuition", "priority": "medium"},
+        {"word": "時間割", "reading": "じかんわり", "gloss": "class schedule/timetable", "priority": "medium"},
+        {"word": "科目", "reading": "かもく", "gloss": "subject/course", "priority": "medium"},
+        {"word": "入学", "reading": "にゅうがく", "gloss": "enrollment/admission", "priority": "high"},
+        {"word": "定員", "reading": "ていいん", "gloss": "capacity/enrollment limit", "priority": "medium"},
+        {"word": "教材", "reading": "きょうざい", "gloss": "teaching materials", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "taking_exam",
+      "name": "Taking an Exam",
+      "level": "intermediate",
+      "description": "Preparing for and taking a written or oral examination",
+      "expected_vocabulary": [
+        {"word": "試験", "reading": "しけん", "gloss": "exam/test", "priority": "high"},
+        {"word": "問題", "reading": "もんだい", "gloss": "question/problem", "priority": "high"},
+        {"word": "答え", "reading": "こたえ", "gloss": "answer", "priority": "high"},
+        {"word": "合格", "reading": "ごうかく", "gloss": "passing (an exam)", "priority": "high"},
+        {"word": "不合格", "reading": "ふごうかく", "gloss": "failing (an exam)", "priority": "medium"},
+        {"word": "点数", "reading": "てんすう", "gloss": "score/marks", "priority": "high"},
+        {"word": "復習", "reading": "ふくしゅう", "gloss": "review/revision", "priority": "high"},
+        {"word": "予習", "reading": "よしゅう", "gloss": "preparation (study)", "priority": "medium"},
+        {"word": "暗記", "reading": "あんき", "gloss": "memorization", "priority": "medium"},
+        {"word": "成績", "reading": "せいせき", "gloss": "grades/results", "priority": "high"},
+        {"word": "範囲", "reading": "はんい", "gloss": "scope/range", "priority": "medium"},
+        {"word": "解答", "reading": "かいとう", "gloss": "answer/solution", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "library_usage",
+      "name": "Using the Library",
+      "level": "intermediate",
+      "description": "Borrowing books, using study spaces, navigating a library",
+      "expected_vocabulary": [
+        {"word": "図書館", "reading": "としょかん", "gloss": "library", "priority": "high"},
+        {"word": "貸し出し", "reading": "かしだし", "gloss": "lending/checkout", "priority": "high"},
+        {"word": "返却", "reading": "へんきゃく", "gloss": "return (of items)", "priority": "high"},
+        {"word": "期限", "reading": "きげん", "gloss": "due date/deadline", "priority": "medium"},
+        {"word": "延長", "reading": "えんちょう", "gloss": "extension/renewal", "priority": "medium"},
+        {"word": "蔵書", "reading": "ぞうしょ", "gloss": "library collection", "priority": "low"},
+        {"word": "検索", "reading": "けんさく", "gloss": "search/lookup", "priority": "high"},
+        {"word": "閲覧", "reading": "えつらん", "gloss": "reading/browsing", "priority": "medium"},
+        {"word": "利用者カード", "reading": "りようしゃかーど", "gloss": "library card", "priority": "medium"},
+        {"word": "静かに", "reading": "しずかに", "gloss": "quietly", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "asking_teacher",
+      "name": "Asking a Teacher",
+      "level": "intermediate",
+      "description": "Asking questions, getting help, and communicating with teachers",
+      "expected_vocabulary": [
+        {"word": "先生", "reading": "せんせい", "gloss": "teacher", "priority": "high"},
+        {"word": "質問", "reading": "しつもん", "gloss": "question", "priority": "high"},
+        {"word": "宿題", "reading": "しゅくだい", "gloss": "homework", "priority": "high"},
+        {"word": "分からない", "reading": "わからない", "gloss": "don't understand", "priority": "high"},
+        {"word": "教える", "reading": "おしえる", "gloss": "to teach/tell", "priority": "high"},
+        {"word": "説明", "reading": "せつめい", "gloss": "explanation", "priority": "high"},
+        {"word": "例", "reading": "れい", "gloss": "example", "priority": "medium"},
+        {"word": "もう一度", "reading": "もういちど", "gloss": "one more time", "priority": "high"},
+        {"word": "提出", "reading": "ていしゅつ", "gloss": "submission", "priority": "medium"},
+        {"word": "間違い", "reading": "まちがい", "gloss": "mistake", "priority": "high"}
+      ]
+    },
+    {
+      "id": "group_study",
+      "name": "Group Study",
+      "level": "intermediate",
+      "description": "Studying with classmates: sharing notes, discussing material, preparing together",
+      "expected_vocabulary": [
+        {"word": "勉強会", "reading": "べんきょうかい", "gloss": "study group", "priority": "high"},
+        {"word": "ノート", "reading": "のーと", "gloss": "notebook/notes", "priority": "high"},
+        {"word": "相談", "reading": "そうだん", "gloss": "consultation/discussion", "priority": "high"},
+        {"word": "協力", "reading": "きょうりょく", "gloss": "cooperation", "priority": "medium"},
+        {"word": "発表", "reading": "はっぴょう", "gloss": "presentation", "priority": "high"},
+        {"word": "調べる", "reading": "しらべる", "gloss": "to look up/investigate", "priority": "high"},
+        {"word": "まとめる", "reading": "まとめる", "gloss": "to summarize", "priority": "medium"},
+        {"word": "意見", "reading": "いけん", "gloss": "opinion", "priority": "high"},
+        {"word": "担当", "reading": "たんとう", "gloss": "person in charge/role", "priority": "medium"},
+        {"word": "参考書", "reading": "さんこうしょ", "gloss": "reference book", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "school_events",
+      "name": "School Events",
+      "level": "intermediate",
+      "description": "Cultural festivals, sports days, graduation, and other school events",
+      "expected_vocabulary": [
+        {"word": "文化祭", "reading": "ぶんかさい", "gloss": "cultural festival", "priority": "high"},
+        {"word": "体育祭", "reading": "たいいくさい", "gloss": "sports festival", "priority": "high"},
+        {"word": "卒業式", "reading": "そつぎょうしき", "gloss": "graduation ceremony", "priority": "high"},
+        {"word": "入学式", "reading": "にゅうがくしき", "gloss": "entrance ceremony", "priority": "high"},
+        {"word": "準備", "reading": "じゅんび", "gloss": "preparation", "priority": "high"},
+        {"word": "参加", "reading": "さんか", "gloss": "participation", "priority": "high"},
+        {"word": "実行委員", "reading": "じっこういいん", "gloss": "organizing committee member", "priority": "medium"},
+        {"word": "出し物", "reading": "だしもの", "gloss": "performance/attraction", "priority": "medium"},
+        {"word": "練習", "reading": "れんしゅう", "gloss": "practice", "priority": "high"},
+        {"word": "記念写真", "reading": "きねんしゃしん", "gloss": "commemorative photo", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "language_school",
+      "name": "Attending a Language School",
+      "level": "intermediate",
+      "description": "Studying Japanese at a language school: placement tests, levels, classroom activities",
+      "expected_vocabulary": [
+        {"word": "日本語学校", "reading": "にほんごがっこう", "gloss": "Japanese language school", "priority": "high"},
+        {"word": "レベル", "reading": "れべる", "gloss": "level", "priority": "high"},
+        {"word": "初級", "reading": "しょきゅう", "gloss": "beginner level", "priority": "medium"},
+        {"word": "中級", "reading": "ちゅうきゅう", "gloss": "intermediate level", "priority": "medium"},
+        {"word": "上級", "reading": "じょうきゅう", "gloss": "advanced level", "priority": "medium"},
+        {"word": "文法", "reading": "ぶんぽう", "gloss": "grammar", "priority": "high"},
+        {"word": "単語", "reading": "たんご", "gloss": "vocabulary word", "priority": "high"},
+        {"word": "漢字", "reading": "かんじ", "gloss": "kanji", "priority": "high"},
+        {"word": "会話", "reading": "かいわ", "gloss": "conversation", "priority": "high"},
+        {"word": "作文", "reading": "さくぶん", "gloss": "composition/essay", "priority": "medium"},
+        {"word": "発音", "reading": "はつおん", "gloss": "pronunciation", "priority": "medium"},
+        {"word": "教科書", "reading": "きょうかしょ", "gloss": "textbook", "priority": "high"}
+      ]
+    },
+    {
+      "id": "school_life",
+      "name": "Daily School Life",
+      "level": "intermediate",
+      "description": "Everyday school activities: classroom, clubs, lunch, interactions",
+      "expected_vocabulary": [
+        {"word": "教室", "reading": "きょうしつ", "gloss": "classroom", "priority": "high"},
+        {"word": "クラスメート", "reading": "くらすめーと", "gloss": "classmate", "priority": "high"},
+        {"word": "部活", "reading": "ぶかつ", "gloss": "club activities", "priority": "high"},
+        {"word": "給食", "reading": "きゅうしょく", "gloss": "school lunch", "priority": "medium"},
+        {"word": "黒板", "reading": "こくばん", "gloss": "blackboard", "priority": "medium"},
+        {"word": "席", "reading": "せき", "gloss": "seat", "priority": "high"},
+        {"word": "出席", "reading": "しゅっせき", "gloss": "attendance", "priority": "high"},
+        {"word": "欠席", "reading": "けっせき", "gloss": "absence", "priority": "high"},
+        {"word": "遅刻", "reading": "ちこく", "gloss": "being late", "priority": "high"},
+        {"word": "制服", "reading": "せいふく", "gloss": "school uniform", "priority": "medium"},
+        {"word": "通知表", "reading": "つうちひょう", "gloss": "report card", "priority": "medium"},
+        {"word": "担任", "reading": "たんにん", "gloss": "homeroom teacher", "priority": "medium"}
+      ]
+    }
+  ]
+}

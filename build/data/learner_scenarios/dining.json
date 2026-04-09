@@ -1,0 +1,157 @@
+{
+  "category": "dining",
+  "category_name": "Restaurants, cafes, food ordering",
+  "scenarios": [
+    {
+      "id": "ordering_restaurant",
+      "name": "Ordering at a Restaurant",
+      "level": "intermediate",
+      "description": "Reading a menu, ordering food and drinks, and making requests at a restaurant",
+      "expected_vocabulary": [
+        {"word": "メニュー", "reading": "めにゅー", "gloss": "menu", "priority": "high"},
+        {"word": "注文", "reading": "ちゅうもん", "gloss": "order", "priority": "high"},
+        {"word": "おすすめ", "reading": "おすすめ", "gloss": "recommendation", "priority": "high"},
+        {"word": "定食", "reading": "ていしょく", "gloss": "set meal", "priority": "high"},
+        {"word": "飲み物", "reading": "のみもの", "gloss": "drink/beverage", "priority": "high"},
+        {"word": "お水", "reading": "おみず", "gloss": "water", "priority": "high"},
+        {"word": "取り皿", "reading": "とりざら", "gloss": "small sharing plate", "priority": "medium"},
+        {"word": "大盛り", "reading": "おおもり", "gloss": "large serving", "priority": "medium"},
+        {"word": "お会計", "reading": "おかいけい", "gloss": "the bill", "priority": "high"},
+        {"word": "店員", "reading": "てんいん", "gloss": "shop staff", "priority": "high"},
+        {"word": "持ち帰り", "reading": "もちかえり", "gloss": "takeout", "priority": "medium"},
+        {"word": "すみません", "reading": "すみません", "gloss": "excuse me", "priority": "high"}
+      ]
+    },
+    {
+      "id": "restaurant_reservation",
+      "name": "Making a Restaurant Reservation",
+      "level": "intermediate",
+      "description": "Booking a table by phone or in person",
+      "expected_vocabulary": [
+        {"word": "予約", "reading": "よやく", "gloss": "reservation", "priority": "high"},
+        {"word": "席", "reading": "せき", "gloss": "seat", "priority": "high"},
+        {"word": "人数", "reading": "にんずう", "gloss": "number of people", "priority": "high"},
+        {"word": "個室", "reading": "こしつ", "gloss": "private room", "priority": "medium"},
+        {"word": "カウンター", "reading": "かうんたー", "gloss": "counter seating", "priority": "medium"},
+        {"word": "座敷", "reading": "ざしき", "gloss": "tatami seating area", "priority": "medium"},
+        {"word": "喫煙", "reading": "きつえん", "gloss": "smoking", "priority": "medium"},
+        {"word": "禁煙", "reading": "きんえん", "gloss": "non-smoking", "priority": "medium"},
+        {"word": "空席", "reading": "くうせき", "gloss": "vacant seat", "priority": "medium"},
+        {"word": "満席", "reading": "まんせき", "gloss": "full/no seats", "priority": "medium"},
+        {"word": "時間", "reading": "じかん", "gloss": "time", "priority": "high"}
+      ]
+    },
+    {
+      "id": "izakaya",
+      "name": "At an Izakaya",
+      "level": "intermediate",
+      "description": "Ordering and socializing at a Japanese-style pub",
+      "expected_vocabulary": [
+        {"word": "居酒屋", "reading": "いざかや", "gloss": "izakaya/pub", "priority": "high"},
+        {"word": "飲み放題", "reading": "のみほうだい", "gloss": "all-you-can-drink", "priority": "high"},
+        {"word": "食べ放題", "reading": "たべほうだい", "gloss": "all-you-can-eat", "priority": "medium"},
+        {"word": "乾杯", "reading": "かんぱい", "gloss": "cheers/toast", "priority": "high"},
+        {"word": "つまみ", "reading": "つまみ", "gloss": "snacks (with drinks)", "priority": "medium"},
+        {"word": "お通し", "reading": "おとおし", "gloss": "appetizer (automatic)", "priority": "medium"},
+        {"word": "生ビール", "reading": "なまびーる", "gloss": "draft beer", "priority": "high"},
+        {"word": "焼酎", "reading": "しょうちゅう", "gloss": "shochu", "priority": "medium"},
+        {"word": "日本酒", "reading": "にほんしゅ", "gloss": "sake/Japanese rice wine", "priority": "medium"},
+        {"word": "コース", "reading": "こーす", "gloss": "course meal", "priority": "medium"},
+        {"word": "割り勘", "reading": "わりかん", "gloss": "splitting the bill", "priority": "high"}
+      ]
+    },
+    {
+      "id": "cafe",
+      "name": "At a Cafe",
+      "level": "intermediate",
+      "description": "Ordering coffee, finding a seat, using cafe services",
+      "expected_vocabulary": [
+        {"word": "コーヒー", "reading": "こーひー", "gloss": "coffee", "priority": "high"},
+        {"word": "紅茶", "reading": "こうちゃ", "gloss": "black tea", "priority": "high"},
+        {"word": "ケーキ", "reading": "けーき", "gloss": "cake", "priority": "medium"},
+        {"word": "砂糖", "reading": "さとう", "gloss": "sugar", "priority": "medium"},
+        {"word": "ミルク", "reading": "みるく", "gloss": "milk", "priority": "medium"},
+        {"word": "アイス", "reading": "あいす", "gloss": "iced", "priority": "medium"},
+        {"word": "ホット", "reading": "ほっと", "gloss": "hot", "priority": "medium"},
+        {"word": "店内", "reading": "てんない", "gloss": "inside the shop", "priority": "medium"},
+        {"word": "テイクアウト", "reading": "ていくあうと", "gloss": "takeout", "priority": "medium"},
+        {"word": "WiFi", "reading": "わいふぁい", "gloss": "WiFi", "priority": "medium"},
+        {"word": "コンセント", "reading": "こんせんと", "gloss": "power outlet", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "food_allergies",
+      "name": "Food Allergies and Preferences",
+      "level": "intermediate",
+      "description": "Communicating dietary restrictions, allergies, and food preferences",
+      "expected_vocabulary": [
+        {"word": "アレルギー", "reading": "あれるぎー", "gloss": "allergy", "priority": "high"},
+        {"word": "卵", "reading": "たまご", "gloss": "egg", "priority": "high"},
+        {"word": "小麦", "reading": "こむぎ", "gloss": "wheat", "priority": "medium"},
+        {"word": "乳製品", "reading": "にゅうせいひん", "gloss": "dairy products", "priority": "medium"},
+        {"word": "甲殻類", "reading": "こうかくるい", "gloss": "shellfish", "priority": "medium"},
+        {"word": "ベジタリアン", "reading": "べじたりあん", "gloss": "vegetarian", "priority": "medium"},
+        {"word": "抜き", "reading": "ぬき", "gloss": "without/excluding", "priority": "high"},
+        {"word": "成分", "reading": "せいぶん", "gloss": "ingredient/component", "priority": "medium"},
+        {"word": "含む", "reading": "ふくむ", "gloss": "to contain/include", "priority": "high"},
+        {"word": "苦手", "reading": "にがて", "gloss": "not good with/dislike", "priority": "high"}
+      ]
+    },
+    {
+      "id": "splitting_bill",
+      "name": "Splitting the Bill",
+      "level": "intermediate",
+      "description": "Paying at a restaurant, splitting costs among a group",
+      "expected_vocabulary": [
+        {"word": "割り勘", "reading": "わりかん", "gloss": "splitting the bill", "priority": "high"},
+        {"word": "別々", "reading": "べつべつ", "gloss": "separately", "priority": "high"},
+        {"word": "一緒", "reading": "いっしょ", "gloss": "together", "priority": "high"},
+        {"word": "おごる", "reading": "おごる", "gloss": "to treat (pay for someone)", "priority": "high"},
+        {"word": "会計", "reading": "かいけい", "gloss": "bill/check", "priority": "high"},
+        {"word": "現金", "reading": "げんきん", "gloss": "cash", "priority": "high"},
+        {"word": "クレジットカード", "reading": "くれじっとかーど", "gloss": "credit card", "priority": "medium"},
+        {"word": "お釣り", "reading": "おつり", "gloss": "change (money)", "priority": "medium"},
+        {"word": "端数", "reading": "はすう", "gloss": "odd amount/fraction", "priority": "low"},
+        {"word": "領収書", "reading": "りょうしゅうしょ", "gloss": "receipt (formal)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "fast_food",
+      "name": "At a Fast Food Restaurant",
+      "level": "intermediate",
+      "description": "Ordering at a fast food chain, customizing orders, using the counter",
+      "expected_vocabulary": [
+        {"word": "セット", "reading": "せっと", "gloss": "set meal/combo", "priority": "high"},
+        {"word": "サイズ", "reading": "さいず", "gloss": "size", "priority": "high"},
+        {"word": "持ち帰り", "reading": "もちかえり", "gloss": "takeout", "priority": "high"},
+        {"word": "店内", "reading": "てんない", "gloss": "eating in", "priority": "high"},
+        {"word": "ポテト", "reading": "ぽてと", "gloss": "French fries", "priority": "medium"},
+        {"word": "ドリンク", "reading": "どりんく", "gloss": "drink", "priority": "medium"},
+        {"word": "番号", "reading": "ばんごう", "gloss": "number", "priority": "high"},
+        {"word": "トレー", "reading": "とれー", "gloss": "tray", "priority": "medium"},
+        {"word": "ストロー", "reading": "すとろー", "gloss": "straw", "priority": "low"},
+        {"word": "追加", "reading": "ついか", "gloss": "addition/extra", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "cooking_class",
+      "name": "Taking a Cooking Class",
+      "level": "intermediate",
+      "description": "Participating in a Japanese cooking class or food workshop",
+      "expected_vocabulary": [
+        {"word": "料理教室", "reading": "りょうりきょうしつ", "gloss": "cooking class", "priority": "high"},
+        {"word": "和食", "reading": "わしょく", "gloss": "Japanese cuisine", "priority": "high"},
+        {"word": "手順", "reading": "てじゅん", "gloss": "procedure/steps", "priority": "medium"},
+        {"word": "量", "reading": "りょう", "gloss": "amount/quantity", "priority": "medium"},
+        {"word": "大さじ", "reading": "おおさじ", "gloss": "tablespoon", "priority": "medium"},
+        {"word": "小さじ", "reading": "こさじ", "gloss": "teaspoon", "priority": "medium"},
+        {"word": "混ぜる", "reading": "まぜる", "gloss": "to mix", "priority": "high"},
+        {"word": "茹でる", "reading": "ゆでる", "gloss": "to boil", "priority": "high"},
+        {"word": "蒸す", "reading": "むす", "gloss": "to steam", "priority": "medium"},
+        {"word": "出汁", "reading": "だし", "gloss": "cooking stock/broth", "priority": "medium"},
+        {"word": "エプロン", "reading": "えぷろん", "gloss": "apron", "priority": "medium"},
+        {"word": "盛り付け", "reading": "もりつけ", "gloss": "plating/presentation", "priority": "medium"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "category": "daily_life",
+  "category_name": "Everyday routines and household tasks",
+  "scenarios": [
+    {
+      "id": "morning_routine",
+      "name": "Morning Routine",
+      "level": "intermediate",
+      "description": "Getting ready in the morning: waking up, washing, dressing, and preparing to leave",
+      "expected_vocabulary": [
+        {"word": "目覚まし", "reading": "めざまし", "gloss": "alarm clock", "priority": "high"},
+        {"word": "起きる", "reading": "おきる", "gloss": "to wake up/get up", "priority": "high"},
+        {"word": "顔を洗う", "reading": "かおをあらう", "gloss": "to wash one's face", "priority": "high"},
+        {"word": "歯磨き", "reading": "はみがき", "gloss": "toothbrushing", "priority": "high"},
+        {"word": "着替える", "reading": "きがえる", "gloss": "to change clothes", "priority": "high"},
+        {"word": "身支度", "reading": "みじたく", "gloss": "getting ready/grooming", "priority": "medium"},
+        {"word": "化粧", "reading": "けしょう", "gloss": "makeup", "priority": "medium"},
+        {"word": "朝食", "reading": "ちょうしょく", "gloss": "breakfast", "priority": "high"},
+        {"word": "出かける", "reading": "でかける", "gloss": "to go out/leave", "priority": "high"},
+        {"word": "支度", "reading": "したく", "gloss": "preparation", "priority": "medium"},
+        {"word": "寝坊", "reading": "ねぼう", "gloss": "oversleeping", "priority": "medium"},
+        {"word": "目が覚める", "reading": "めがさめる", "gloss": "to wake up (intransitive)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "doing_laundry",
+      "name": "Doing Laundry",
+      "level": "intermediate",
+      "description": "Washing, drying, and managing clothes and linens",
+      "expected_vocabulary": [
+        {"word": "洗濯", "reading": "せんたく", "gloss": "laundry", "priority": "high"},
+        {"word": "洗濯機", "reading": "せんたくき", "gloss": "washing machine", "priority": "high"},
+        {"word": "干す", "reading": "ほす", "gloss": "to hang out to dry", "priority": "high"},
+        {"word": "乾く", "reading": "かわく", "gloss": "to dry", "priority": "high"},
+        {"word": "畳む", "reading": "たたむ", "gloss": "to fold", "priority": "high"},
+        {"word": "洗剤", "reading": "せんざい", "gloss": "detergent", "priority": "high"},
+        {"word": "柔軟剤", "reading": "じゅうなんざい", "gloss": "fabric softener", "priority": "medium"},
+        {"word": "物干し", "reading": "ものほし", "gloss": "clothesline/drying rack", "priority": "medium"},
+        {"word": "アイロン", "reading": "あいろん", "gloss": "iron (for clothes)", "priority": "medium"},
+        {"word": "汚れ", "reading": "よごれ", "gloss": "stain/dirt", "priority": "medium"},
+        {"word": "色落ち", "reading": "いろおち", "gloss": "color fading", "priority": "low"},
+        {"word": "取り込む", "reading": "とりこむ", "gloss": "to take in (laundry)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "grocery_shopping",
+      "name": "Grocery Shopping",
+      "level": "intermediate",
+      "description": "Buying food and household items at a supermarket or local shop",
+      "expected_vocabulary": [
+        {"word": "スーパー", "reading": "すーぱー", "gloss": "supermarket", "priority": "high"},
+        {"word": "買い物", "reading": "かいもの", "gloss": "shopping", "priority": "high"},
+        {"word": "野菜", "reading": "やさい", "gloss": "vegetables", "priority": "high"},
+        {"word": "果物", "reading": "くだもの", "gloss": "fruit", "priority": "high"},
+        {"word": "肉", "reading": "にく", "gloss": "meat", "priority": "high"},
+        {"word": "魚", "reading": "さかな", "gloss": "fish", "priority": "high"},
+        {"word": "賞味期限", "reading": "しょうみきげん", "gloss": "best-before date", "priority": "medium"},
+        {"word": "値段", "reading": "ねだん", "gloss": "price", "priority": "high"},
+        {"word": "レジ", "reading": "れじ", "gloss": "cash register/checkout", "priority": "high"},
+        {"word": "袋", "reading": "ふくろ", "gloss": "bag", "priority": "high"},
+        {"word": "特売", "reading": "とくばい", "gloss": "special sale", "priority": "medium"},
+        {"word": "半額", "reading": "はんがく", "gloss": "half price", "priority": "medium"},
+        {"word": "割引", "reading": "わりびき", "gloss": "discount", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "cooking_meal",
+      "name": "Cooking a Meal",
+      "level": "intermediate",
+      "description": "Preparing and cooking a meal at home, including ingredients and methods",
+      "expected_vocabulary": [
+        {"word": "料理", "reading": "りょうり", "gloss": "cooking/dish", "priority": "high"},
+        {"word": "材料", "reading": "ざいりょう", "gloss": "ingredients", "priority": "high"},
+        {"word": "切る", "reading": "きる", "gloss": "to cut", "priority": "high"},
+        {"word": "焼く", "reading": "やく", "gloss": "to grill/bake/fry", "priority": "high"},
+        {"word": "煮る", "reading": "にる", "gloss": "to simmer/boil", "priority": "high"},
+        {"word": "炒める", "reading": "いためる", "gloss": "to stir-fry", "priority": "high"},
+        {"word": "味付け", "reading": "あじつけ", "gloss": "seasoning/flavoring", "priority": "medium"},
+        {"word": "レシピ", "reading": "れしぴ", "gloss": "recipe", "priority": "medium"},
+        {"word": "鍋", "reading": "なべ", "gloss": "pot/pan", "priority": "high"},
+        {"word": "フライパン", "reading": "ふらいぱん", "gloss": "frying pan", "priority": "medium"},
+        {"word": "包丁", "reading": "ほうちょう", "gloss": "kitchen knife", "priority": "medium"},
+        {"word": "火加減", "reading": "ひかげん", "gloss": "heat level", "priority": "medium"},
+        {"word": "味見", "reading": "あじみ", "gloss": "tasting", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "cleaning_house",
+      "name": "Cleaning the House",
+      "level": "intermediate",
+      "description": "Regular house cleaning: vacuuming, mopping, tidying up",
+      "expected_vocabulary": [
+        {"word": "掃除", "reading": "そうじ", "gloss": "cleaning", "priority": "high"},
+        {"word": "掃除機", "reading": "そうじき", "gloss": "vacuum cleaner", "priority": "high"},
+        {"word": "拭く", "reading": "ふく", "gloss": "to wipe", "priority": "high"},
+        {"word": "片付ける", "reading": "かたづける", "gloss": "to tidy up", "priority": "high"},
+        {"word": "散らかる", "reading": "ちらかる", "gloss": "to be messy/cluttered", "priority": "medium"},
+        {"word": "ほこり", "reading": "ほこり", "gloss": "dust", "priority": "medium"},
+        {"word": "雑巾", "reading": "ぞうきん", "gloss": "cleaning rag", "priority": "medium"},
+        {"word": "ゴミ箱", "reading": "ごみばこ", "gloss": "trash can", "priority": "medium"},
+        {"word": "磨く", "reading": "みがく", "gloss": "to polish/scrub", "priority": "medium"},
+        {"word": "整理", "reading": "せいり", "gloss": "organizing", "priority": "high"},
+        {"word": "床", "reading": "ゆか", "gloss": "floor", "priority": "high"}
+      ]
+    },
+    {
+      "id": "trash_sorting",
+      "name": "Trash Sorting and Disposal",
+      "level": "intermediate",
+      "description": "Sorting recyclables, understanding collection schedules, and proper disposal in Japan",
+      "expected_vocabulary": [
+        {"word": "ゴミ", "reading": "ごみ", "gloss": "garbage/trash", "priority": "high"},
+        {"word": "分別", "reading": "ぶんべつ", "gloss": "sorting (trash)", "priority": "high"},
+        {"word": "燃えるゴミ", "reading": "もえるごみ", "gloss": "burnable trash", "priority": "high"},
+        {"word": "燃えないゴミ", "reading": "もえないごみ", "gloss": "non-burnable trash", "priority": "high"},
+        {"word": "資源ゴミ", "reading": "しげんごみ", "gloss": "recyclable waste", "priority": "high"},
+        {"word": "収集日", "reading": "しゅうしゅうび", "gloss": "collection day", "priority": "medium"},
+        {"word": "粗大ゴミ", "reading": "そだいごみ", "gloss": "oversized garbage", "priority": "medium"},
+        {"word": "リサイクル", "reading": "りさいくる", "gloss": "recycling", "priority": "medium"},
+        {"word": "捨てる", "reading": "すてる", "gloss": "to throw away", "priority": "high"},
+        {"word": "缶", "reading": "かん", "gloss": "can", "priority": "medium"},
+        {"word": "瓶", "reading": "びん", "gloss": "bottle (glass)", "priority": "medium"},
+        {"word": "ペットボトル", "reading": "ぺっとぼとる", "gloss": "PET bottle", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "commuting",
+      "name": "Commuting",
+      "level": "intermediate",
+      "description": "Daily commute by train, bus, bicycle, or on foot",
+      "expected_vocabulary": [
+        {"word": "通勤", "reading": "つうきん", "gloss": "commuting (to work)", "priority": "high"},
+        {"word": "通学", "reading": "つうがく", "gloss": "commuting (to school)", "priority": "high"},
+        {"word": "電車", "reading": "でんしゃ", "gloss": "train", "priority": "high"},
+        {"word": "乗り換え", "reading": "のりかえ", "gloss": "transfer (trains)", "priority": "high"},
+        {"word": "定期券", "reading": "ていきけん", "gloss": "commuter pass", "priority": "high"},
+        {"word": "満員電車", "reading": "まんいんでんしゃ", "gloss": "packed train", "priority": "medium"},
+        {"word": "遅延", "reading": "ちえん", "gloss": "delay", "priority": "medium"},
+        {"word": "ラッシュ", "reading": "らっしゅ", "gloss": "rush hour", "priority": "medium"},
+        {"word": "自転車", "reading": "じてんしゃ", "gloss": "bicycle", "priority": "high"},
+        {"word": "バス停", "reading": "ばすてい", "gloss": "bus stop", "priority": "medium"},
+        {"word": "改札", "reading": "かいさつ", "gloss": "ticket gate", "priority": "high"},
+        {"word": "時刻表", "reading": "じこくひょう", "gloss": "timetable", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "bathing",
+      "name": "Bathing and Personal Hygiene",
+      "level": "intermediate",
+      "description": "Taking a bath or shower, Japanese-style bathing, and personal care",
+      "expected_vocabulary": [
+        {"word": "風呂", "reading": "ふろ", "gloss": "bath", "priority": "high"},
+        {"word": "シャワー", "reading": "しゃわー", "gloss": "shower", "priority": "high"},
+        {"word": "石鹸", "reading": "せっけん", "gloss": "soap", "priority": "high"},
+        {"word": "シャンプー", "reading": "しゃんぷー", "gloss": "shampoo", "priority": "medium"},
+        {"word": "タオル", "reading": "たおる", "gloss": "towel", "priority": "high"},
+        {"word": "湯船", "reading": "ゆぶね", "gloss": "bathtub", "priority": "medium"},
+        {"word": "温度", "reading": "おんど", "gloss": "temperature", "priority": "medium"},
+        {"word": "髪を乾かす", "reading": "かみをかわかす", "gloss": "to dry one's hair", "priority": "medium"},
+        {"word": "入浴", "reading": "にゅうよく", "gloss": "bathing", "priority": "medium"},
+        {"word": "湯", "reading": "ゆ", "gloss": "hot water", "priority": "high"}
+      ]
+    },
+    {
+      "id": "pet_care",
+      "name": "Pet Care",
+      "level": "intermediate",
+      "description": "Taking care of a pet: feeding, walking, veterinary visits",
+      "expected_vocabulary": [
+        {"word": "ペット", "reading": "ぺっと", "gloss": "pet", "priority": "high"},
+        {"word": "犬", "reading": "いぬ", "gloss": "dog", "priority": "high"},
+        {"word": "猫", "reading": "ねこ", "gloss": "cat", "priority": "high"},
+        {"word": "散歩", "reading": "さんぽ", "gloss": "walk/stroll", "priority": "high"},
+        {"word": "餌", "reading": "えさ", "gloss": "animal food/feed", "priority": "high"},
+        {"word": "動物病院", "reading": "どうぶつびょういん", "gloss": "veterinary clinic", "priority": "medium"},
+        {"word": "予防接種", "reading": "よぼうせっしゅ", "gloss": "vaccination", "priority": "medium"},
+        {"word": "飼う", "reading": "かう", "gloss": "to keep (a pet)", "priority": "high"},
+        {"word": "首輪", "reading": "くびわ", "gloss": "collar (pet)", "priority": "medium"},
+        {"word": "トイレ", "reading": "といれ", "gloss": "toilet/litter box", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "weather_seasons",
+      "name": "Talking About Weather and Seasons",
+      "level": "intermediate",
+      "description": "Discussing weather conditions, seasonal changes, and dressing appropriately",
+      "expected_vocabulary": [
+        {"word": "天気", "reading": "てんき", "gloss": "weather", "priority": "high"},
+        {"word": "晴れ", "reading": "はれ", "gloss": "clear/sunny", "priority": "high"},
+        {"word": "曇り", "reading": "くもり", "gloss": "cloudy", "priority": "high"},
+        {"word": "雨", "reading": "あめ", "gloss": "rain", "priority": "high"},
+        {"word": "雪", "reading": "ゆき", "gloss": "snow", "priority": "high"},
+        {"word": "暑い", "reading": "あつい", "gloss": "hot", "priority": "high"},
+        {"word": "寒い", "reading": "さむい", "gloss": "cold", "priority": "high"},
+        {"word": "蒸し暑い", "reading": "むしあつい", "gloss": "humid and hot", "priority": "medium"},
+        {"word": "梅雨", "reading": "つゆ", "gloss": "rainy season", "priority": "medium"},
+        {"word": "傘", "reading": "かさ", "gloss": "umbrella", "priority": "high"},
+        {"word": "予報", "reading": "よほう", "gloss": "forecast", "priority": "medium"},
+        {"word": "季節", "reading": "きせつ", "gloss": "season", "priority": "high"},
+        {"word": "涼しい", "reading": "すずしい", "gloss": "cool/refreshing", "priority": "medium"},
+        {"word": "温かい", "reading": "あたたかい", "gloss": "warm", "priority": "high"}
+      ]
+    }
+  ]
+}

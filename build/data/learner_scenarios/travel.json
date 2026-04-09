@@ -1,0 +1,198 @@
+{
+  "category": "travel",
+  "category_name": "Transportation, navigation, accommodation",
+  "scenarios": [
+    {
+      "id": "buying_train_tickets",
+      "name": "Buying Train Tickets",
+      "level": "intermediate",
+      "description": "Purchasing tickets at a station, using ticket machines, choosing seats",
+      "expected_vocabulary": [
+        {"word": "切符", "reading": "きっぷ", "gloss": "ticket", "priority": "high"},
+        {"word": "片道", "reading": "かたみち", "gloss": "one-way", "priority": "high"},
+        {"word": "往復", "reading": "おうふく", "gloss": "round trip", "priority": "high"},
+        {"word": "指定席", "reading": "していせき", "gloss": "reserved seat", "priority": "high"},
+        {"word": "自由席", "reading": "じゆうせき", "gloss": "unreserved seat", "priority": "high"},
+        {"word": "券売機", "reading": "けんばいき", "gloss": "ticket machine", "priority": "high"},
+        {"word": "窓口", "reading": "まどぐち", "gloss": "ticket window", "priority": "medium"},
+        {"word": "運賃", "reading": "うんちん", "gloss": "fare", "priority": "medium"},
+        {"word": "乗車券", "reading": "じょうしゃけん", "gloss": "boarding ticket", "priority": "medium"},
+        {"word": "特急", "reading": "とっきゅう", "gloss": "limited express", "priority": "medium"},
+        {"word": "ホーム", "reading": "ほーむ", "gloss": "platform", "priority": "high"},
+        {"word": "発車", "reading": "はっしゃ", "gloss": "departure (train)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "asking_directions",
+      "name": "Asking for Directions",
+      "level": "intermediate",
+      "description": "Asking and understanding directions on the street or in a building",
+      "expected_vocabulary": [
+        {"word": "道", "reading": "みち", "gloss": "road/way", "priority": "high"},
+        {"word": "交差点", "reading": "こうさてん", "gloss": "intersection", "priority": "high"},
+        {"word": "信号", "reading": "しんごう", "gloss": "traffic light", "priority": "high"},
+        {"word": "右", "reading": "みぎ", "gloss": "right", "priority": "high"},
+        {"word": "左", "reading": "ひだり", "gloss": "left", "priority": "high"},
+        {"word": "まっすぐ", "reading": "まっすぐ", "gloss": "straight ahead", "priority": "high"},
+        {"word": "曲がる", "reading": "まがる", "gloss": "to turn", "priority": "high"},
+        {"word": "角", "reading": "かど", "gloss": "corner", "priority": "high"},
+        {"word": "近く", "reading": "ちかく", "gloss": "nearby", "priority": "high"},
+        {"word": "通り", "reading": "とおり", "gloss": "street/avenue", "priority": "medium"},
+        {"word": "地図", "reading": "ちず", "gloss": "map", "priority": "medium"},
+        {"word": "目印", "reading": "めじるし", "gloss": "landmark", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "hotel_checkin",
+      "name": "Hotel Check-in",
+      "level": "intermediate",
+      "description": "Checking in and out of a hotel, requesting room features",
+      "expected_vocabulary": [
+        {"word": "予約", "reading": "よやく", "gloss": "reservation", "priority": "high"},
+        {"word": "チェックイン", "reading": "ちぇっくいん", "gloss": "check-in", "priority": "high"},
+        {"word": "チェックアウト", "reading": "ちぇっくあうと", "gloss": "checkout", "priority": "high"},
+        {"word": "フロント", "reading": "ふろんと", "gloss": "front desk", "priority": "high"},
+        {"word": "部屋", "reading": "へや", "gloss": "room", "priority": "high"},
+        {"word": "鍵", "reading": "かぎ", "gloss": "key", "priority": "high"},
+        {"word": "宿泊", "reading": "しゅくはく", "gloss": "accommodation/stay", "priority": "medium"},
+        {"word": "朝食付き", "reading": "ちょうしょくつき", "gloss": "with breakfast", "priority": "medium"},
+        {"word": "禁煙", "reading": "きんえん", "gloss": "non-smoking", "priority": "medium"},
+        {"word": "荷物", "reading": "にもつ", "gloss": "luggage", "priority": "high"},
+        {"word": "泊まる", "reading": "とまる", "gloss": "to stay (overnight)", "priority": "high"},
+        {"word": "一泊", "reading": "いっぱく", "gloss": "one night's stay", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "airport_immigration",
+      "name": "Airport and Immigration",
+      "level": "intermediate",
+      "description": "Navigating an airport, going through immigration, customs",
+      "expected_vocabulary": [
+        {"word": "空港", "reading": "くうこう", "gloss": "airport", "priority": "high"},
+        {"word": "パスポート", "reading": "ぱすぽーと", "gloss": "passport", "priority": "high"},
+        {"word": "搭乗券", "reading": "とうじょうけん", "gloss": "boarding pass", "priority": "high"},
+        {"word": "出発", "reading": "しゅっぱつ", "gloss": "departure", "priority": "high"},
+        {"word": "到着", "reading": "とうちゃく", "gloss": "arrival", "priority": "high"},
+        {"word": "入国", "reading": "にゅうこく", "gloss": "entering a country", "priority": "high"},
+        {"word": "出国", "reading": "しゅっこく", "gloss": "leaving a country", "priority": "medium"},
+        {"word": "税関", "reading": "ぜいかん", "gloss": "customs", "priority": "medium"},
+        {"word": "手荷物", "reading": "てにもつ", "gloss": "carry-on luggage", "priority": "medium"},
+        {"word": "搭乗", "reading": "とうじょう", "gloss": "boarding", "priority": "medium"},
+        {"word": "免税", "reading": "めんぜい", "gloss": "duty-free", "priority": "medium"},
+        {"word": "飛行機", "reading": "ひこうき", "gloss": "airplane", "priority": "high"}
+      ]
+    },
+    {
+      "id": "renting_car",
+      "name": "Renting a Car",
+      "level": "intermediate",
+      "description": "Renting a vehicle, understanding rental terms, driving",
+      "expected_vocabulary": [
+        {"word": "レンタカー", "reading": "れんたかー", "gloss": "rental car", "priority": "high"},
+        {"word": "免許証", "reading": "めんきょしょう", "gloss": "driver's license", "priority": "high"},
+        {"word": "保険", "reading": "ほけん", "gloss": "insurance", "priority": "high"},
+        {"word": "ガソリン", "reading": "がそりん", "gloss": "gasoline", "priority": "high"},
+        {"word": "満タン", "reading": "まんたん", "gloss": "full tank", "priority": "medium"},
+        {"word": "返却", "reading": "へんきゃく", "gloss": "return (of item)", "priority": "medium"},
+        {"word": "運転", "reading": "うんてん", "gloss": "driving", "priority": "high"},
+        {"word": "駐車場", "reading": "ちゅうしゃじょう", "gloss": "parking lot", "priority": "high"},
+        {"word": "ナビ", "reading": "なび", "gloss": "car navigation", "priority": "medium"},
+        {"word": "高速道路", "reading": "こうそくどうろ", "gloss": "expressway", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "using_taxi",
+      "name": "Using a Taxi",
+      "level": "intermediate",
+      "description": "Hailing a taxi, giving destination, paying the fare",
+      "expected_vocabulary": [
+        {"word": "タクシー", "reading": "たくしー", "gloss": "taxi", "priority": "high"},
+        {"word": "行き先", "reading": "いきさき", "gloss": "destination", "priority": "high"},
+        {"word": "乗り場", "reading": "のりば", "gloss": "taxi stand/boarding area", "priority": "medium"},
+        {"word": "料金", "reading": "りょうきん", "gloss": "fare/fee", "priority": "high"},
+        {"word": "メーター", "reading": "めーたー", "gloss": "meter", "priority": "medium"},
+        {"word": "止める", "reading": "とめる", "gloss": "to stop", "priority": "high"},
+        {"word": "降りる", "reading": "おりる", "gloss": "to get off/out", "priority": "high"},
+        {"word": "乗る", "reading": "のる", "gloss": "to ride/get on", "priority": "high"},
+        {"word": "領収書", "reading": "りょうしゅうしょ", "gloss": "receipt", "priority": "medium"},
+        {"word": "お釣り", "reading": "おつり", "gloss": "change (money)", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "sightseeing",
+      "name": "Sightseeing",
+      "level": "intermediate",
+      "description": "Visiting tourist sites, temples, museums, and scenic spots",
+      "expected_vocabulary": [
+        {"word": "観光", "reading": "かんこう", "gloss": "sightseeing/tourism", "priority": "high"},
+        {"word": "名所", "reading": "めいしょ", "gloss": "famous place", "priority": "medium"},
+        {"word": "神社", "reading": "じんじゃ", "gloss": "Shinto shrine", "priority": "high"},
+        {"word": "寺", "reading": "てら", "gloss": "Buddhist temple", "priority": "high"},
+        {"word": "入場料", "reading": "にゅうじょうりょう", "gloss": "admission fee", "priority": "medium"},
+        {"word": "お土産", "reading": "おみやげ", "gloss": "souvenir", "priority": "high"},
+        {"word": "写真", "reading": "しゃしん", "gloss": "photograph", "priority": "high"},
+        {"word": "案内", "reading": "あんない", "gloss": "guidance/information", "priority": "high"},
+        {"word": "景色", "reading": "けしき", "gloss": "scenery", "priority": "medium"},
+        {"word": "ガイド", "reading": "がいど", "gloss": "guide", "priority": "medium"},
+        {"word": "記念", "reading": "きねん", "gloss": "memorial/commemoration", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "making_reservations",
+      "name": "Making Reservations",
+      "level": "intermediate",
+      "description": "Booking hotels, restaurants, or activities by phone or online",
+      "expected_vocabulary": [
+        {"word": "予約", "reading": "よやく", "gloss": "reservation", "priority": "high"},
+        {"word": "空き", "reading": "あき", "gloss": "availability/vacancy", "priority": "high"},
+        {"word": "日程", "reading": "にってい", "gloss": "schedule/dates", "priority": "medium"},
+        {"word": "人数", "reading": "にんずう", "gloss": "number of people", "priority": "high"},
+        {"word": "キャンセル", "reading": "きゃんせる", "gloss": "cancellation", "priority": "high"},
+        {"word": "確認", "reading": "かくにん", "gloss": "confirmation", "priority": "high"},
+        {"word": "変更", "reading": "へんこう", "gloss": "change/modification", "priority": "medium"},
+        {"word": "申し込み", "reading": "もうしこみ", "gloss": "application/booking", "priority": "medium"},
+        {"word": "名前", "reading": "なまえ", "gloss": "name", "priority": "high"},
+        {"word": "電話番号", "reading": "でんわばんごう", "gloss": "phone number", "priority": "high"}
+      ]
+    },
+    {
+      "id": "lost_luggage",
+      "name": "Lost Luggage",
+      "level": "intermediate",
+      "description": "Reporting and dealing with lost or delayed luggage at an airport",
+      "expected_vocabulary": [
+        {"word": "荷物", "reading": "にもつ", "gloss": "luggage", "priority": "high"},
+        {"word": "紛失", "reading": "ふんしつ", "gloss": "loss", "priority": "high"},
+        {"word": "届け出", "reading": "とどけで", "gloss": "report/notification", "priority": "medium"},
+        {"word": "カウンター", "reading": "かうんたー", "gloss": "counter/desk", "priority": "high"},
+        {"word": "タグ", "reading": "たぐ", "gloss": "luggage tag", "priority": "medium"},
+        {"word": "便名", "reading": "びんめい", "gloss": "flight number", "priority": "medium"},
+        {"word": "特徴", "reading": "とくちょう", "gloss": "characteristics", "priority": "medium"},
+        {"word": "連絡先", "reading": "れんらくさき", "gloss": "contact information", "priority": "high"},
+        {"word": "配達", "reading": "はいたつ", "gloss": "delivery", "priority": "medium"},
+        {"word": "補償", "reading": "ほしょう", "gloss": "compensation", "priority": "medium"},
+        {"word": "見つかる", "reading": "みつかる", "gloss": "to be found", "priority": "high"}
+      ]
+    },
+    {
+      "id": "public_transport",
+      "name": "Using Public Transportation",
+      "level": "intermediate",
+      "description": "Using buses, subways, and other local transit in Japan",
+      "expected_vocabulary": [
+        {"word": "地下鉄", "reading": "ちかてつ", "gloss": "subway", "priority": "high"},
+        {"word": "バス", "reading": "ばす", "gloss": "bus", "priority": "high"},
+        {"word": "路線図", "reading": "ろせんず", "gloss": "route map", "priority": "medium"},
+        {"word": "乗り場", "reading": "のりば", "gloss": "boarding area", "priority": "medium"},
+        {"word": "次の駅", "reading": "つぎのえき", "gloss": "next station", "priority": "high"},
+        {"word": "終電", "reading": "しゅうでん", "gloss": "last train", "priority": "high"},
+        {"word": "始発", "reading": "しはつ", "gloss": "first train", "priority": "medium"},
+        {"word": "優先席", "reading": "ゆうせんせき", "gloss": "priority seat", "priority": "medium"},
+        {"word": "ICカード", "reading": "あいしーかーど", "gloss": "IC card (Suica/Pasmo)", "priority": "high"},
+        {"word": "チャージ", "reading": "ちゃーじ", "gloss": "charge/top up", "priority": "medium"},
+        {"word": "乗り越し", "reading": "のりこし", "gloss": "riding past your stop", "priority": "medium"},
+        {"word": "精算", "reading": "せいさん", "gloss": "fare adjustment", "priority": "medium"}
+      ]
+    }
+  ]
+}

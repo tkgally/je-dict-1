@@ -1,0 +1,120 @@
+{
+  "category": "housing",
+  "category_name": "Apartments, moving, utilities, neighbors",
+  "scenarios": [
+    {
+      "id": "apartment_hunting",
+      "name": "Looking for an Apartment",
+      "level": "intermediate",
+      "description": "Searching for rental housing, visiting properties, understanding listings",
+      "expected_vocabulary": [
+        {"word": "不動産", "reading": "ふどうさん", "gloss": "real estate", "priority": "high"},
+        {"word": "物件", "reading": "ぶっけん", "gloss": "property/listing", "priority": "high"},
+        {"word": "家賃", "reading": "やちん", "gloss": "rent", "priority": "high"},
+        {"word": "間取り", "reading": "まどり", "gloss": "floor plan/layout", "priority": "high"},
+        {"word": "駅近", "reading": "えきちか", "gloss": "near a station", "priority": "medium"},
+        {"word": "築年数", "reading": "ちくねんすう", "gloss": "building age", "priority": "medium"},
+        {"word": "内見", "reading": "ないけん", "gloss": "property viewing", "priority": "high"},
+        {"word": "日当たり", "reading": "ひあたり", "gloss": "sun exposure", "priority": "medium"},
+        {"word": "ペット可", "reading": "ぺっとか", "gloss": "pets allowed", "priority": "medium"},
+        {"word": "条件", "reading": "じょうけん", "gloss": "conditions/requirements", "priority": "high"},
+        {"word": "マンション", "reading": "まんしょん", "gloss": "apartment building", "priority": "high"},
+        {"word": "アパート", "reading": "あぱーと", "gloss": "apartment (smaller)", "priority": "high"}
+      ]
+    },
+    {
+      "id": "signing_lease",
+      "name": "Signing a Lease",
+      "level": "intermediate",
+      "description": "Understanding and signing a rental contract",
+      "expected_vocabulary": [
+        {"word": "契約", "reading": "けいやく", "gloss": "contract", "priority": "high"},
+        {"word": "敷金", "reading": "しききん", "gloss": "security deposit", "priority": "high"},
+        {"word": "礼金", "reading": "れいきん", "gloss": "key money (non-refundable)", "priority": "high"},
+        {"word": "保証人", "reading": "ほしょうにん", "gloss": "guarantor", "priority": "high"},
+        {"word": "更新", "reading": "こうしん", "gloss": "renewal", "priority": "medium"},
+        {"word": "解約", "reading": "かいやく", "gloss": "cancellation of contract", "priority": "medium"},
+        {"word": "仲介手数料", "reading": "ちゅうかいてすうりょう", "gloss": "brokerage fee", "priority": "medium"},
+        {"word": "印鑑", "reading": "いんかん", "gloss": "personal seal", "priority": "high"},
+        {"word": "書類", "reading": "しょるい", "gloss": "documents", "priority": "high"},
+        {"word": "入居", "reading": "にゅうきょ", "gloss": "moving in", "priority": "medium"},
+        {"word": "退去", "reading": "たいきょ", "gloss": "moving out", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "moving_in",
+      "name": "Moving In",
+      "level": "intermediate",
+      "description": "Moving to a new home: hiring movers, unpacking, setting up",
+      "expected_vocabulary": [
+        {"word": "引っ越し", "reading": "ひっこし", "gloss": "moving (house)", "priority": "high"},
+        {"word": "荷造り", "reading": "にづくり", "gloss": "packing", "priority": "high"},
+        {"word": "段ボール", "reading": "だんぼーる", "gloss": "cardboard box", "priority": "medium"},
+        {"word": "家具", "reading": "かぐ", "gloss": "furniture", "priority": "high"},
+        {"word": "家電", "reading": "かでん", "gloss": "home appliances", "priority": "high"},
+        {"word": "引っ越し業者", "reading": "ひっこしぎょうしゃ", "gloss": "moving company", "priority": "medium"},
+        {"word": "見積もり", "reading": "みつもり", "gloss": "estimate/quote", "priority": "medium"},
+        {"word": "挨拶", "reading": "あいさつ", "gloss": "greeting (neighbors)", "priority": "high"},
+        {"word": "近所", "reading": "きんじょ", "gloss": "neighborhood", "priority": "high"},
+        {"word": "鍵", "reading": "かぎ", "gloss": "key", "priority": "high"}
+      ]
+    },
+    {
+      "id": "reporting_problem",
+      "name": "Reporting a Housing Problem",
+      "level": "intermediate",
+      "description": "Contacting the landlord or management about problems in the apartment",
+      "expected_vocabulary": [
+        {"word": "大家", "reading": "おおや", "gloss": "landlord", "priority": "high"},
+        {"word": "管理会社", "reading": "かんりがいしゃ", "gloss": "management company", "priority": "high"},
+        {"word": "故障", "reading": "こしょう", "gloss": "breakdown/malfunction", "priority": "high"},
+        {"word": "修理", "reading": "しゅうり", "gloss": "repair", "priority": "high"},
+        {"word": "水漏れ", "reading": "みずもれ", "gloss": "water leak", "priority": "high"},
+        {"word": "騒音", "reading": "そうおん", "gloss": "noise", "priority": "medium"},
+        {"word": "エアコン", "reading": "えあこん", "gloss": "air conditioner", "priority": "medium"},
+        {"word": "給湯器", "reading": "きゅうとうき", "gloss": "water heater", "priority": "medium"},
+        {"word": "壊れる", "reading": "こわれる", "gloss": "to break", "priority": "high"},
+        {"word": "対応", "reading": "たいおう", "gloss": "handling/response", "priority": "medium"},
+        {"word": "連絡", "reading": "れんらく", "gloss": "contact/communication", "priority": "high"}
+      ]
+    },
+    {
+      "id": "utilities_setup",
+      "name": "Setting Up Utilities",
+      "level": "intermediate",
+      "description": "Arranging electricity, gas, water, and internet for a new home",
+      "expected_vocabulary": [
+        {"word": "電気", "reading": "でんき", "gloss": "electricity", "priority": "high"},
+        {"word": "ガス", "reading": "がす", "gloss": "gas", "priority": "high"},
+        {"word": "水道", "reading": "すいどう", "gloss": "water supply", "priority": "high"},
+        {"word": "インターネット", "reading": "いんたーねっと", "gloss": "internet", "priority": "high"},
+        {"word": "開通", "reading": "かいつう", "gloss": "connection/opening", "priority": "medium"},
+        {"word": "手続き", "reading": "てつづき", "gloss": "procedure", "priority": "high"},
+        {"word": "光熱費", "reading": "こうねつひ", "gloss": "utility bills", "priority": "medium"},
+        {"word": "引き落とし", "reading": "ひきおとし", "gloss": "automatic deduction", "priority": "medium"},
+        {"word": "工事", "reading": "こうじ", "gloss": "construction/installation work", "priority": "medium"},
+        {"word": "申し込み", "reading": "もうしこみ", "gloss": "application", "priority": "high"},
+        {"word": "口座振替", "reading": "こうざふりかえ", "gloss": "bank transfer payment", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "neighbor_relations",
+      "name": "Neighbor Relations",
+      "level": "intermediate",
+      "description": "Interacting with neighbors, dealing with noise and shared spaces",
+      "expected_vocabulary": [
+        {"word": "隣人", "reading": "りんじん", "gloss": "neighbor", "priority": "high"},
+        {"word": "騒音", "reading": "そうおん", "gloss": "noise", "priority": "high"},
+        {"word": "苦情", "reading": "くじょう", "gloss": "complaint", "priority": "high"},
+        {"word": "ゴミ出し", "reading": "ごみだし", "gloss": "taking out trash", "priority": "high"},
+        {"word": "共用部分", "reading": "きょうようぶぶん", "gloss": "shared/common area", "priority": "medium"},
+        {"word": "マナー", "reading": "まなー", "gloss": "manners/etiquette", "priority": "medium"},
+        {"word": "迷惑", "reading": "めいわく", "gloss": "nuisance/trouble", "priority": "high"},
+        {"word": "お互い", "reading": "おたがい", "gloss": "each other/mutual", "priority": "medium"},
+        {"word": "挨拶", "reading": "あいさつ", "gloss": "greeting", "priority": "high"},
+        {"word": "回覧板", "reading": "かいらんばん", "gloss": "circular notice", "priority": "medium"},
+        {"word": "静かに", "reading": "しずかに", "gloss": "quietly", "priority": "medium"}
+      ]
+    }
+  ]
+}

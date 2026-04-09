@@ -1,0 +1,141 @@
+{
+  "category": "healthcare",
+  "category_name": "Medical visits, pharmacy, health management",
+  "scenarios": [
+    {
+      "id": "doctor_visit",
+      "name": "Visiting a Doctor",
+      "level": "intermediate",
+      "description": "Describing symptoms, understanding a diagnosis, and following treatment instructions at a clinic or hospital",
+      "expected_vocabulary": [
+        {"word": "症状", "reading": "しょうじょう", "gloss": "symptom", "priority": "high"},
+        {"word": "診察", "reading": "しんさつ", "gloss": "medical examination", "priority": "high"},
+        {"word": "処方", "reading": "しょほう", "gloss": "prescription", "priority": "high"},
+        {"word": "熱", "reading": "ねつ", "gloss": "fever", "priority": "high"},
+        {"word": "痛い", "reading": "いたい", "gloss": "painful", "priority": "high"},
+        {"word": "薬", "reading": "くすり", "gloss": "medicine", "priority": "high"},
+        {"word": "保険証", "reading": "ほけんしょう", "gloss": "insurance card", "priority": "medium"},
+        {"word": "受付", "reading": "うけつけ", "gloss": "reception", "priority": "medium"},
+        {"word": "血圧", "reading": "けつあつ", "gloss": "blood pressure", "priority": "medium"},
+        {"word": "検査", "reading": "けんさ", "gloss": "examination/test", "priority": "medium"},
+        {"word": "注射", "reading": "ちゅうしゃ", "gloss": "injection", "priority": "medium"},
+        {"word": "入院", "reading": "にゅういん", "gloss": "hospitalization", "priority": "low"},
+        {"word": "退院", "reading": "たいいん", "gloss": "discharge from hospital", "priority": "low"}
+      ]
+    },
+    {
+      "id": "pharmacy",
+      "name": "At the Pharmacy",
+      "level": "intermediate",
+      "description": "Getting medicine filled, understanding dosage, buying over-the-counter medicine",
+      "expected_vocabulary": [
+        {"word": "薬局", "reading": "やっきょく", "gloss": "pharmacy", "priority": "high"},
+        {"word": "処方箋", "reading": "しょほうせん", "gloss": "prescription (document)", "priority": "high"},
+        {"word": "飲み薬", "reading": "のみぐすり", "gloss": "oral medicine", "priority": "medium"},
+        {"word": "塗り薬", "reading": "ぬりぐすり", "gloss": "topical medicine", "priority": "medium"},
+        {"word": "副作用", "reading": "ふくさよう", "gloss": "side effect", "priority": "medium"},
+        {"word": "用量", "reading": "ようりょう", "gloss": "dosage", "priority": "medium"},
+        {"word": "食後", "reading": "しょくご", "gloss": "after meals", "priority": "medium"},
+        {"word": "市販薬", "reading": "しはんやく", "gloss": "over-the-counter medicine", "priority": "medium"},
+        {"word": "風邪薬", "reading": "かぜぐすり", "gloss": "cold medicine", "priority": "high"},
+        {"word": "痛み止め", "reading": "いたみどめ", "gloss": "painkiller", "priority": "high"},
+        {"word": "アレルギー", "reading": "あれるぎー", "gloss": "allergy", "priority": "high"}
+      ]
+    },
+    {
+      "id": "dental_visit",
+      "name": "Dental Visit",
+      "level": "intermediate",
+      "description": "Visiting a dentist for checkup, cleaning, or treatment",
+      "expected_vocabulary": [
+        {"word": "歯医者", "reading": "はいしゃ", "gloss": "dentist", "priority": "high"},
+        {"word": "歯", "reading": "は", "gloss": "tooth", "priority": "high"},
+        {"word": "虫歯", "reading": "むしば", "gloss": "cavity", "priority": "high"},
+        {"word": "歯茎", "reading": "はぐき", "gloss": "gums", "priority": "medium"},
+        {"word": "治療", "reading": "ちりょう", "gloss": "treatment", "priority": "high"},
+        {"word": "麻酔", "reading": "ますい", "gloss": "anesthesia", "priority": "medium"},
+        {"word": "詰め物", "reading": "つめもの", "gloss": "filling (dental)", "priority": "medium"},
+        {"word": "親知らず", "reading": "おやしらず", "gloss": "wisdom tooth", "priority": "low"},
+        {"word": "レントゲン", "reading": "れんとげん", "gloss": "X-ray", "priority": "medium"},
+        {"word": "痛む", "reading": "いたむ", "gloss": "to ache/hurt", "priority": "high"}
+      ]
+    },
+    {
+      "id": "describing_pain",
+      "name": "Describing Pain and Symptoms",
+      "level": "intermediate",
+      "description": "Communicating various types of pain, discomfort, and physical symptoms",
+      "expected_vocabulary": [
+        {"word": "頭痛", "reading": "ずつう", "gloss": "headache", "priority": "high"},
+        {"word": "腹痛", "reading": "ふくつう", "gloss": "stomachache", "priority": "high"},
+        {"word": "咳", "reading": "せき", "gloss": "cough", "priority": "high"},
+        {"word": "吐き気", "reading": "はきけ", "gloss": "nausea", "priority": "high"},
+        {"word": "めまい", "reading": "めまい", "gloss": "dizziness", "priority": "medium"},
+        {"word": "下痢", "reading": "げり", "gloss": "diarrhea", "priority": "medium"},
+        {"word": "鼻水", "reading": "はなみず", "gloss": "runny nose", "priority": "medium"},
+        {"word": "喉", "reading": "のど", "gloss": "throat", "priority": "high"},
+        {"word": "腫れる", "reading": "はれる", "gloss": "to swell", "priority": "medium"},
+        {"word": "だるい", "reading": "だるい", "gloss": "sluggish/lethargic", "priority": "medium"},
+        {"word": "寒気", "reading": "さむけ", "gloss": "chills", "priority": "medium"},
+        {"word": "具合が悪い", "reading": "ぐあいがわるい", "gloss": "feeling unwell", "priority": "high"}
+      ]
+    },
+    {
+      "id": "getting_checkup",
+      "name": "Getting a Health Checkup",
+      "level": "intermediate",
+      "description": "Annual health checkup (kenkou shindan) at work or a clinic",
+      "expected_vocabulary": [
+        {"word": "健康診断", "reading": "けんこうしんだん", "gloss": "health checkup", "priority": "high"},
+        {"word": "身長", "reading": "しんちょう", "gloss": "height", "priority": "medium"},
+        {"word": "体重", "reading": "たいじゅう", "gloss": "body weight", "priority": "medium"},
+        {"word": "血液検査", "reading": "けつえきけんさ", "gloss": "blood test", "priority": "medium"},
+        {"word": "尿検査", "reading": "にょうけんさ", "gloss": "urine test", "priority": "medium"},
+        {"word": "視力", "reading": "しりょく", "gloss": "eyesight/vision", "priority": "medium"},
+        {"word": "聴力", "reading": "ちょうりょく", "gloss": "hearing", "priority": "low"},
+        {"word": "結果", "reading": "けっか", "gloss": "result", "priority": "high"},
+        {"word": "異常", "reading": "いじょう", "gloss": "abnormality", "priority": "medium"},
+        {"word": "正常", "reading": "せいじょう", "gloss": "normal/healthy", "priority": "medium"},
+        {"word": "再検査", "reading": "さいけんさ", "gloss": "re-examination", "priority": "low"}
+      ]
+    },
+    {
+      "id": "mental_health",
+      "name": "Mental Health and Stress",
+      "level": "intermediate",
+      "description": "Discussing mental health, stress, and seeking counseling",
+      "expected_vocabulary": [
+        {"word": "ストレス", "reading": "すとれす", "gloss": "stress", "priority": "high"},
+        {"word": "不安", "reading": "ふあん", "gloss": "anxiety/unease", "priority": "high"},
+        {"word": "眠れない", "reading": "ねむれない", "gloss": "can't sleep", "priority": "high"},
+        {"word": "疲れ", "reading": "つかれ", "gloss": "fatigue/tiredness", "priority": "high"},
+        {"word": "相談", "reading": "そうだん", "gloss": "consultation", "priority": "high"},
+        {"word": "カウンセリング", "reading": "かうんせりんぐ", "gloss": "counseling", "priority": "medium"},
+        {"word": "休養", "reading": "きゅうよう", "gloss": "rest/recuperation", "priority": "medium"},
+        {"word": "気分", "reading": "きぶん", "gloss": "mood/feeling", "priority": "high"},
+        {"word": "落ち込む", "reading": "おちこむ", "gloss": "to feel depressed", "priority": "medium"},
+        {"word": "リラックス", "reading": "りらっくす", "gloss": "relaxation", "priority": "medium"},
+        {"word": "睡眠", "reading": "すいみん", "gloss": "sleep", "priority": "medium"}
+      ]
+    },
+    {
+      "id": "eye_doctor",
+      "name": "Eye Doctor and Optician",
+      "level": "intermediate",
+      "description": "Getting an eye exam, buying glasses or contact lenses",
+      "expected_vocabulary": [
+        {"word": "眼科", "reading": "がんか", "gloss": "ophthalmology/eye clinic", "priority": "high"},
+        {"word": "眼鏡", "reading": "めがね", "gloss": "glasses", "priority": "high"},
+        {"word": "コンタクトレンズ", "reading": "こんたくとれんず", "gloss": "contact lenses", "priority": "high"},
+        {"word": "視力", "reading": "しりょく", "gloss": "eyesight", "priority": "high"},
+        {"word": "度数", "reading": "どすう", "gloss": "lens prescription/power", "priority": "medium"},
+        {"word": "近視", "reading": "きんし", "gloss": "nearsightedness", "priority": "medium"},
+        {"word": "遠視", "reading": "えんし", "gloss": "farsightedness", "priority": "low"},
+        {"word": "目薬", "reading": "めぐすり", "gloss": "eye drops", "priority": "medium"},
+        {"word": "充血", "reading": "じゅうけつ", "gloss": "bloodshot eyes", "priority": "medium"},
+        {"word": "見える", "reading": "みえる", "gloss": "to be visible/can see", "priority": "high"},
+        {"word": "ぼやける", "reading": "ぼやける", "gloss": "to be blurry", "priority": "medium"}
+      ]
+    }
+  ]
+}
