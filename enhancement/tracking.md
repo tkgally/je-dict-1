@@ -24,7 +24,7 @@ Last updated: 2026-04-09
 | 11 | done | 11_parallel_safe_redesign.md | Parallel-safe prompts + entry locking | 2026-04-09 |
 | 12 | done | 12_multi_model_review_p1.md | Multi-model review Phase 1 (proof of concept) | 2026-04-09 |
 | 13 | done | 13_task_queue_system.md | Claim-based task queue for parallel agents | 2026-04-09 |
-| 14 | pending | 14_multi_model_review_p2.md | Multi-model review Phases 2-3 (scaling) | |
+| 14 | done | 14_multi_model_review_p2.md | Multi-model review Phases 2-3 (scaling) | 2026-04-09 |
 | 15 | pending | 15_expository_articles.md | Article schema + 3 pilot articles | |
 | 16 | pending | 16_automated_orchestration.md | Orchestrator + monitoring dashboard | |
 
