@@ -1,0 +1,163 @@
+{
+  "entry_id": "18531",
+  "word": "ぐつぐつ",
+  "reading": "ぐつぐつ",
+  "reviewed_at": "2026-04-09T11:52:10Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-flash"
+  ],
+  "furigana_pairs_checked": 8,
+  "issues": [
+    {
+      "field": "examples[0].japanese",
+      "kanji": "煮",
+      "reading": "に",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "煮",
+      "reading": "に",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鍋",
+      "reading": "なべ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鍋",
+      "reading": "なべ",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "音",
+      "reading": "おと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "音",
+      "reading": "おと",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "立",
+      "reading": "た",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "立",
+      "reading": "た",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "弱火",
+      "reading": "よわび",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "弱火",
+      "reading": "よわび",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "煮込",
+      "reading": "にこ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "煮込",
+      "reading": "にこ",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "香",
+      "reading": "かお",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "香",
+      "reading": "かお",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "言",
+      "reading": "い",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "言",
+      "reading": "い",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 8,
+    "flagged": 0,
+    "ok": 8,
+    "models_agreeing_on_flags": 0
+  }
+}

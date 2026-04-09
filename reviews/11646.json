@@ -1,0 +1,217 @@
+{
+  "entry_id": "11646",
+  "word": "{付|つ}き{添|そ}い",
+  "reading": "つきそい",
+  "reviewed_at": "2026-04-09T11:43:54Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-flash"
+  ],
+  "furigana_pairs_checked": 11,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "付",
+      "reading": "つ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "付",
+      "reading": "つ",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "添",
+      "reading": "そ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "添",
+      "reading": "そ",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "人",
+      "reading": "ひと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "人",
+      "reading": "ひと",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "必要",
+      "reading": "ひつよう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "必要",
+      "reading": "ひつよう",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "母",
+      "reading": "はは",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "母",
+      "reading": "はは",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "入院",
+      "reading": "にゅういん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "入院",
+      "reading": "にゅういん",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "病院",
+      "reading": "びょういん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "病院",
+      "reading": "びょういん",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "泊",
+      "reading": "と",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "泊",
+      "reading": "と",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "子供",
+      "reading": "こども",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "子供",
+      "reading": "こども",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "参加",
+      "reading": "さんか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "参加",
+      "reading": "さんか",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "保護者",
+      "reading": "ほごしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "保護者",
+      "reading": "ほごしゃ",
+      "model": "google/gemini-2.5-flash",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 11,
+    "flagged": 0,
+    "ok": 11,
+    "models_agreeing_on_flags": 0
+  }
+}
