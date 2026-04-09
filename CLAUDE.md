@@ -63,7 +63,6 @@ polishing/        # Progress tracking for entry polishing tasks
 prompts/          # Task prompts for interactive sessions
   prompts/batch/      # Shell runner scripts for non-interactive `claude --print` execution
   prompts/refactoring/  # Code refactoring prompts for build scripts
-  prompts/expand-short-notes-tracking.txt  # Separate tracking file for expand-short-notes task
 enhancement/      # Long-term enhancement plan and implementation prompts
   enhancement/enhancement-plan-2026-04-09.md  # Comprehensive enhancement plan
   enhancement/prompts/                        # Step-by-step implementation prompts (16 phases)
@@ -304,7 +303,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_furigana_correctness.md` — verify existing furigana readings are correct
 - `polish_semantic_labels.md` — verify semantic tags match word meanings
 - `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs
-- `expand-short-notes.md` — expand inadequate notes (tracking in `prompts/expand-short-notes-tracking.txt`)
+- `expand-short-notes.md` — expand inadequate notes
 - `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior
 - `polish_cross_model_review.md` — process multi-model review reports and apply/reject corrections
 
