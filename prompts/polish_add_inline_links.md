@@ -26,6 +26,25 @@ cat polishing/tasks/inline-links/progress.txt
 
 Find the first entry file that starts with that number.
 
+## Priority Mode (Optional)
+
+If a priority file exists, process entries in priority order instead of sequentially by ID:
+
+```bash
+ls polishing/priority/cross_refs.txt 2>/dev/null
+```
+
+**If the file exists**:
+1. Read the priority file to get the ordered list of entry IDs
+2. Find your current position: check `polishing/tasks/inline-links/progress.txt` for the last processed entry
+3. Skip any entries in the priority list that come before your last processed entry
+4. Process entries in priority file order (highest priority first)
+5. Update `polishing/tasks/inline-links/progress.txt` with the ID of the last entry processed (NOT the next sequential ID, but the next entry in the priority list)
+
+**If the file does not exist**: Fall back to sequential processing by ID (the standard behavior described in "Starting Point" above).
+
+**Regenerating priorities**: Run `python3 build/prioritize_polishing.py --task cross_refs` to refresh the priority list. This is useful after many entries have been polished and priorities have shifted.
+
 ## Link Format
 
 ```

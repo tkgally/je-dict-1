@@ -37,6 +37,7 @@ planning/         # Project knowledge base and planning
 polishing/        # Progress tracking for entry polishing tasks
   polishing/tasks/{task}/progress.txt  # Next entry ID to process per task
   polishing/sessions/                  # Session logs (what was checked/changed)
+  polishing/priority/                  # Priority-ordered entry ID lists per polishing task
 prompts/          # Task prompts for interactive sessions
   prompts/batch/      # Shell runner scripts for non-interactive `claude --print` execution
   prompts/refactoring/  # Code refactoring prompts for build scripts
@@ -137,6 +138,9 @@ python3 build/report.py                   # Dictionary health dashboard
 python3 pipeline/update-brief.py          # Refresh PROJECT_CONTEXT_BRIEF.md from current data
 python3 build/score_note_quality.py --summary   # Note quality score distribution
 python3 build/score_note_quality.py --below 30   # Entries with worst notes
+python3 build/prioritize_polishing.py             # Generate polishing priority lists
+python3 build/prioritize_polishing.py --summary    # Priority statistics without writing files
+python3 build/prioritize_polishing.py --task notes # Generate priority for one task only
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
@@ -152,6 +156,7 @@ make word-lookup                          # rebuild word_id_lookup.json
 make note-scores                          # note quality score distribution
 make check-symmetry                       # asymmetric cross-reference report
 make check-clusters                       # semantic cluster completeness summary
+make priorities                           # generate polishing priority lists
 ```
 
 After creating or revising entries, always run: `make build` (or validate → update_indexes → build_flat).
@@ -205,6 +210,8 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.
+
+**Polishing priority**: Polishing tasks can optionally process entries in priority order (worst first) instead of sequentially by ID. Run `make priorities` to generate priority files in `polishing/priority/`. Polishing prompts automatically detect and use these files when present. Without priority files, prompts fall back to sequential processing.
 
 **Session log standard**: All polishing sessions should write a structured log to `polishing/sessions/{task}_{date}_{nnn}.md` when finishing. The log should include: date, entry range processed, list of changes made, any notes, and the next entry number. See existing logs in `polishing/sessions/` for examples.
 
