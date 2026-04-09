@@ -421,6 +421,10 @@ def cmd_claim(args):
 
 def cmd_complete(args):
     """Mark tasks as completed."""
+    if not args.session_id and not args.task_ids:
+        print("Error: must provide --session-id or --task-ids", file=sys.stderr)
+        sys.exit(1)
+
     require_queue_exists()
 
     with locked_queue(QUEUE_FILE) as f:

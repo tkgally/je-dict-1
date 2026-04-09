@@ -226,18 +226,15 @@ def launch_session(
     logger: logging.Logger,
     dry_run: bool = False,
 ) -> subprocess.Popen | None:
-    """Launch a Claude CLI session for the given slot and entries.
+    """Launch a Claude CLI session in an isolated git worktree.
+
+    Each session gets its own worktree so multiple sessions can run
+    concurrently without fighting over the shared git HEAD.
 
     Returns the Popen object, or None if dry_run.
     """
     prompt_file = PROJECT_ROOT / slot["prompt"]
     entry_list = ", ".join(entry_ids)
-
-    prompt_text = (
-        f"Read {prompt_file} and process these specific entries: {entry_list}. "
-        f"Commit results to branch {branch_name}. "
-        f"Do NOT run make build or update_indexes.py."
-    )
 
     if dry_run:
         logger.info(
@@ -246,16 +243,25 @@ def launch_session(
         )
         return None
 
-    # Create the branch
-    subprocess.run(
-        ["git", "checkout", "-b", branch_name],
+    # Create an isolated worktree for this session so concurrent sessions
+    # don't conflict over the shared git HEAD.
+    worktree_dir = PROJECT_ROOT / ".worktrees" / branch_name.replace("/", "_")
+    worktree_dir.parent.mkdir(parents=True, exist_ok=True)
+
+    result = subprocess.run(
+        ["git", "worktree", "add", str(worktree_dir), "-b", branch_name],
         cwd=str(PROJECT_ROOT),
         capture_output=True,
+        text=True,
     )
-    subprocess.run(
-        ["git", "checkout", "main"],
-        cwd=str(PROJECT_ROOT),
-        capture_output=True,
+    if result.returncode != 0:
+        logger.error(f"Failed to create worktree for {branch_name}: {result.stderr}")
+        return None
+
+    prompt_text = (
+        f"Read {prompt_file} and process these specific entries: {entry_list}. "
+        f"Commit results to branch {branch_name}. "
+        f"Do NOT run make build or update_indexes.py."
     )
 
     log_file = LOGS_DIR / f"{slot['id']}_{today_str()}_{utcnow().replace(':', '')}.log"
@@ -263,7 +269,8 @@ def launch_session(
     cmd = ["claude", "-p", prompt_text, "--verbose"]
 
     logger.info(
-        f"Launching slot {slot['id']}: {len(entry_ids)} entries, branch {branch_name}"
+        f"Launching slot {slot['id']}: {len(entry_ids)} entries, "
+        f"branch {branch_name}, worktree {worktree_dir}"
     )
 
     with open(log_file, "w") as lf:
@@ -271,7 +278,7 @@ def launch_session(
             cmd,
             stdout=lf,
             stderr=subprocess.STDOUT,
-            cwd=str(PROJECT_ROOT),
+            cwd=str(worktree_dir),
         )
 
     return proc
@@ -402,6 +409,16 @@ class Orchestrator:
                     slot, entry_ids, branch_name, self.logger, self.dry_run
                 )
 
+                if proc is None and not self.dry_run:
+                    # Worktree/branch creation failed
+                    self.logger.error(
+                        f"Failed to launch session for slot {slot['id']}, "
+                        f"releasing tasks"
+                    )
+                    release_tasks(session_id)
+                    self.consecutive_failures += 1
+                    continue
+
                 estimated_cost = budget.get("estimated_cost_per_session_usd", 2.0)
                 record_session_cost(budget, slot["id"], estimated_cost)
 
@@ -465,6 +482,17 @@ class Orchestrator:
                     if "Pending" in line or "pending" in line:
                         self.logger.info(f"  {line.strip()}")
 
+    def _cleanup_worktree(self, branch_name: str) -> None:
+        """Remove the worktree for a completed session."""
+        worktree_dir = PROJECT_ROOT / ".worktrees" / branch_name.replace("/", "_")
+        if worktree_dir.exists():
+            subprocess.run(
+                ["git", "worktree", "remove", str(worktree_dir), "--force"],
+                cwd=str(PROJECT_ROOT),
+                capture_output=True,
+            )
+            self.logger.info(f"Cleaned up worktree for {branch_name}")
+
     def _reap_completed(self, config: dict) -> None:
         """Check for completed sessions and handle results."""
         completed = []
@@ -478,6 +506,9 @@ class Orchestrator:
             proc = info["process"]
             session_id = info["session_id"]
             branch_name = info["branch"]
+
+            # Clean up the worktree now that the session is done
+            self._cleanup_worktree(branch_name)
 
             if proc.returncode == 0:
                 self.logger.info(
