@@ -26,7 +26,7 @@ Last updated: 2026-04-09
 | 13 | done | 13_task_queue_system.md | Claim-based task queue for parallel agents | 2026-04-09 |
 | 14 | done | 14_multi_model_review_p2.md | Multi-model review Phases 2-3 (scaling) | 2026-04-09 |
 | 15 | done | 15_expository_articles.md | Article schema + 3 pilot articles | 2026-04-09 |
-| 16 | pending | 16_automated_orchestration.md | Orchestrator + monitoring dashboard | |
+| 16 | done | 16_automated_orchestration.md | Orchestrator + monitoring dashboard | 2026-04-09 |
 
 ## Dependencies
 
