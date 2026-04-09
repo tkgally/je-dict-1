@@ -71,10 +71,11 @@ def markdown_to_html(text: str) -> str:
 
     def process_inline(text: str) -> str:
         """Process inline formatting: bold and furigana."""
-        # Process bold
-        text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
-        # Process furigana
+        # Process furigana first (this HTML-escapes non-furigana text,
+        # so bold markers must be converted after to avoid escaping)
         text = process_furigana(text)
+        # Process bold second (** markers survive html.escape)
+        text = re.sub(r'\*\*(.+?)\*\*', r'<strong>\1</strong>', text)
         return text
 
     i = 0
