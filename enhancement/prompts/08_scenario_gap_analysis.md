@@ -8,11 +8,13 @@ Build a system that defines common learner scenarios, checks whether the diction
 
 | File | Action | Purpose |
 |------|--------|---------|
-| `build/data/learner_scenarios.json` | **Create** | 100-200 scenario definitions with expected vocabulary |
+| `build/data/learner_scenarios/` | **Create** | Directory of per-category JSON files defining learner scenarios |
+| `build/assemble_learner_scenarios.py` | **Create** | Merges per-category files into `build/data/learner_scenarios.json` |
+| `build/data/learner_scenarios.json` | **Generated** | Combined scenario definitions (built by assemble script) |
 | `build/analyze_scenarios.py` | **Create** | Scenario coverage analysis and cross-scenario gap detection |
 | `prompts/newcandidates.md` | **Modify** | Add scenario analysis as a discovery strategy |
 | `CLAUDE.md` | **Modify** | Document `analyze_scenarios.py` in essential commands |
-| `Makefile` | **Modify** | Add `audit-scenarios` target |
+| `Makefile` | **Modify** | Add `audit-scenarios` and `assemble-scenarios` targets |
 
 **Depends on**: Prompt 07 (semantic field audit) should be merged first. This prompt shares infrastructure patterns (the `build/data/` directory, candidate pipeline integration) and complements the semantic field approach.
 
@@ -22,42 +24,34 @@ Build a system that defines common learner scenarios, checks whether the diction
 
 **Goal**: Create a comprehensive set of real-world scenarios an intermediate Japanese learner encounters. Each scenario lists the vocabulary needed to navigate that situation. Where semantic fields organize by topic, scenarios organize by communicative need.
 
-### Step A1: Create `build/data/learner_scenarios.json`
+### CRITICAL: Why this part is split into per-category steps
 
-The `build/data/` directory should already exist (created by Prompt 07). If not:
+Previous attempts to create all scenarios in a single JSON file (100+ scenarios, 1,500+ vocabulary items) caused timeouts. The fix: create **one small JSON file per category**, then assemble them with a script. Each category file contains 4-10 scenarios and ~60-150 vocabulary items — easily manageable in a single write.
+
+**You MUST follow the per-category approach below. Do NOT attempt to write all scenarios into a single file at once.**
+
+### Step A1: Create the data directory
+
+The `build/data/` directory should already exist (created by Prompt 07). Create the scenarios subdirectory:
 
 ```bash
-mkdir -p build/data
+mkdir -p build/data/learner_scenarios
 ```
 
-Create the scenarios file with this structure:
+### Step A2: Create per-category scenario files
+
+Create **fifteen** separate JSON files, one per category. Work through them **one at a time**, writing each file, then validating it before moving to the next.
+
+Each file has the same structure:
 
 ```json
 {
-  "version": "1.0",
-  "description": "Learner scenario definitions for vocabulary gap analysis",
-  "categories": {
-    "daily_life": "Everyday routines and household tasks",
-    "travel": "Transportation, navigation, accommodation",
-    "work": "Office, meetings, business communication",
-    "education": "School, studying, academic settings",
-    "healthcare": "Medical visits, pharmacy, health management",
-    "shopping": "Stores, online shopping, payments",
-    "dining": "Restaurants, cafes, food ordering",
-    "housing": "Apartments, moving, utilities, neighbors",
-    "government": "City hall, documents, taxes, post office",
-    "social": "Friendships, events, polite interaction",
-    "emergency": "Accidents, police, natural disasters",
-    "technology": "Phones, computers, internet, apps",
-    "entertainment": "Movies, games, hobbies, books",
-    "sports": "Exercise, gym, spectator sports",
-    "finance": "Banks, payments, budgeting, insurance"
-  },
+  "category": "healthcare",
+  "category_name": "Medical visits, pharmacy, health management",
   "scenarios": [
     {
       "id": "doctor_visit",
       "name": "Visiting a Doctor",
-      "category": "healthcare",
       "level": "intermediate",
       "description": "Describing symptoms, understanding a diagnosis, and following treatment instructions at a clinic or hospital",
       "expected_vocabulary": [
@@ -80,29 +74,122 @@ Create the scenarios file with this structure:
 }
 ```
 
-**Required categories and target scenario counts**:
+**After writing each file**, validate it immediately:
 
-| Category | Target scenarios | Example scenarios |
-|----------|-----------------|-------------------|
-| `daily_life` | 10-15 | morning routine, doing laundry, grocery shopping, cooking a meal, cleaning, trash sorting, bathing, getting dressed, commuting |
-| `travel` | 10-15 | buying train tickets, asking directions, hotel check-in, airport/immigration, renting a car, using a taxi, sightseeing, reading a map, making reservations |
-| `work` | 8-12 | job interview, office greetings, meetings, email correspondence, making a phone call, giving a presentation, business card exchange, overtime/scheduling, quitting a job |
-| `education` | 6-10 | enrolling in a class, taking an exam, library usage, asking a teacher, group study, school events, graduation, parent-teacher meeting |
-| `healthcare` | 6-10 | visiting a doctor, pharmacy, dental visit, describing pain, allergies, calling an ambulance, mental health, getting a checkup |
-| `shopping` | 6-10 | convenience store, clothing store, electronics store, returning an item, online shopping, bargaining/sales, paying (cash/card), wrapping/bags |
-| `dining` | 6-10 | ordering at a restaurant, making a reservation, izakaya, cafe, fast food, food allergies/preferences, splitting the bill, complimenting food |
-| `housing` | 6-10 | apartment hunting, signing a lease, moving in, reporting a problem, meeting neighbors, utilities setup, home maintenance |
-| `government` | 5-8 | city hall registration, getting an ID, filing taxes, post office, renewing a visa, reporting to police, voting |
-| `social` | 6-10 | self-introduction, party/gathering, giving gifts, apologizing, congratulating, visiting someone's home, seasonal greetings, making plans |
-| `emergency` | 4-6 | calling 110/119, earthquake response, reporting a crime, lost/stolen items, fire evacuation, typhoon preparation |
-| `technology` | 5-8 | setting up a phone, connecting to wifi, using an ATM, troubleshooting, social media, online forms, printing/copying |
-| `entertainment` | 5-8 | going to a movie, karaoke, visiting a museum, reading manga/books, playing games, attending a concert, watching sports |
-| `sports` | 4-6 | joining a gym, playing a team sport, swimming, hiking/outdoor activities, describing exercise |
-| `finance` | 5-8 | opening a bank account, transferring money, paying bills, understanding a receipt, insurance, budgeting, currency exchange |
+```bash
+python3 -c "
+import json, sys
+with open(sys.argv[1]) as f:
+    data = json.load(f)
+scenarios = data['scenarios']
+total = sum(len(s['expected_vocabulary']) for s in scenarios)
+print(f'{data[\"category\"]}: {len(scenarios)} scenarios, {total} words')
+for s in scenarios:
+    assert 'id' in s and 'name' in s and 'level' in s and 'description' in s, f'Missing key in scenario: {s.get(\"id\",\"?\")}'
+    for w in s['expected_vocabulary']:
+        assert all(k in w for k in ('word','reading','gloss','priority')), f'Missing key in {s[\"id\"]}: {w}'
+        assert w['priority'] in ('high','medium','low'), f'Bad priority in {s[\"id\"]}: {w}'
+print('OK')
+" build/data/learner_scenarios/FILENAME.json
+```
+
+If validation fails, fix the file before proceeding to the next category.
+
+#### Category files to create:
+
+**File 1: `build/data/learner_scenarios/daily_life.json`**
+- Category: `daily_life` — "Everyday routines and household tasks"
+- Target: 8-10 scenarios
+- Example scenarios: morning routine, doing laundry, grocery shopping, cooking a meal, cleaning, trash sorting, commuting
+- Target words per scenario: 8-15
+
+**File 2: `build/data/learner_scenarios/travel.json`**
+- Category: `travel` — "Transportation, navigation, accommodation"
+- Target: 8-10 scenarios
+- Example scenarios: buying train tickets, asking directions, hotel check-in, airport/immigration, renting a car, using a taxi, sightseeing, making reservations
+- Target words per scenario: 8-15
+
+**File 3: `build/data/learner_scenarios/work.json`**
+- Category: `work` — "Office, meetings, business communication"
+- Target: 6-8 scenarios
+- Example scenarios: job interview, office greetings, meetings, email correspondence, giving a presentation, business card exchange, overtime/scheduling
+- Target words per scenario: 8-15
+
+**File 4: `build/data/learner_scenarios/education.json`**
+- Category: `education` — "School, studying, academic settings"
+- Target: 5-7 scenarios
+- Example scenarios: enrolling in a class, taking an exam, library usage, asking a teacher, group study, school events
+- Target words per scenario: 8-15
+
+**File 5: `build/data/learner_scenarios/healthcare.json`**
+- Category: `healthcare` — "Medical visits, pharmacy, health management"
+- Target: 5-7 scenarios
+- Example scenarios: visiting a doctor, pharmacy, dental visit, describing pain, allergies, getting a checkup
+- Target words per scenario: 8-15
+
+**File 6: `build/data/learner_scenarios/shopping.json`**
+- Category: `shopping` — "Stores, online shopping, payments"
+- Target: 5-7 scenarios
+- Example scenarios: convenience store, clothing store, returning an item, online shopping, paying (cash/card)
+- Target words per scenario: 8-15
+
+**File 7: `build/data/learner_scenarios/dining.json`**
+- Category: `dining` — "Restaurants, cafes, food ordering"
+- Target: 5-7 scenarios
+- Example scenarios: ordering at a restaurant, making a reservation, izakaya, cafe, food allergies/preferences, splitting the bill
+- Target words per scenario: 8-15
+
+**File 8: `build/data/learner_scenarios/housing.json`**
+- Category: `housing` — "Apartments, moving, utilities, neighbors"
+- Target: 5-7 scenarios
+- Example scenarios: apartment hunting, signing a lease, moving in, reporting a problem, utilities setup
+- Target words per scenario: 8-15
+
+**File 9: `build/data/learner_scenarios/government.json`**
+- Category: `government` — "City hall, documents, taxes, post office"
+- Target: 4-6 scenarios
+- Example scenarios: city hall registration, getting an ID, filing taxes, post office, renewing a visa
+- Target words per scenario: 8-15
+
+**File 10: `build/data/learner_scenarios/social.json`**
+- Category: `social` — "Friendships, events, polite interaction"
+- Target: 5-7 scenarios
+- Example scenarios: self-introduction, party/gathering, giving gifts, apologizing, visiting someone's home, making plans
+- Target words per scenario: 8-15
+
+**File 11: `build/data/learner_scenarios/emergency.json`**
+- Category: `emergency` — "Accidents, police, natural disasters"
+- Target: 4-5 scenarios
+- Example scenarios: calling 110/119, earthquake response, reporting a crime, lost/stolen items, typhoon preparation
+- Target words per scenario: 8-15
+
+**File 12: `build/data/learner_scenarios/technology.json`**
+- Category: `technology` — "Phones, computers, internet, apps"
+- Target: 4-6 scenarios
+- Example scenarios: setting up a phone, connecting to wifi, using an ATM, troubleshooting, online forms
+- Target words per scenario: 8-15
+
+**File 13: `build/data/learner_scenarios/entertainment.json`**
+- Category: `entertainment` — "Movies, games, hobbies, books"
+- Target: 4-6 scenarios
+- Example scenarios: going to a movie, karaoke, visiting a museum, reading manga/books, attending a concert
+- Target words per scenario: 8-15
+
+**File 14: `build/data/learner_scenarios/sports.json`**
+- Category: `sports` — "Exercise, gym, spectator sports"
+- Target: 3-5 scenarios
+- Example scenarios: joining a gym, playing a team sport, swimming, hiking/outdoor activities
+- Target words per scenario: 8-15
+
+**File 15: `build/data/learner_scenarios/finance.json`**
+- Category: `finance` — "Banks, payments, budgeting, insurance"
+- Target: 4-6 scenarios
+- Example scenarios: opening a bank account, transferring money, paying bills, insurance, currency exchange
+- Target words per scenario: 8-15
 
 **Guidelines for populating scenario vocabulary**:
 
-- Each scenario should have 10-30 expected vocabulary items
+- Each scenario should have **8-15** expected vocabulary items (focus on the essentials)
 - Focus on words specifically needed for that scenario (not general vocabulary)
 - Use the same three priority levels as semantic fields:
   - `high` -- cannot navigate the scenario without this word
@@ -114,11 +201,79 @@ Create the scenarios file with this structure:
 - Readings must be in hiragana
 - Include a brief English gloss
 
-**Total target**: At least 2,000 expected vocabulary items across all scenarios. Many words will overlap across scenarios -- that overlap is the signal for high-impact gaps.
+**Total target**: At least 1,200 expected vocabulary items across all category files. Many words will overlap across scenarios -- that overlap is the signal for high-impact gaps.
 
-### Step A2: Validate the data file
+### Step A3: Create the assembly script
+
+Create `build/assemble_learner_scenarios.py`:
+
+```python
+#!/usr/bin/env python3
+"""Assemble per-category learner scenario files into a single learner_scenarios.json."""
+
+import json
+import sys
+from pathlib import Path
+
+SCRIPT_DIR = Path(__file__).resolve().parent
+PARTS_DIR = SCRIPT_DIR / "data" / "learner_scenarios"
+OUTPUT_FILE = SCRIPT_DIR / "data" / "learner_scenarios.json"
+
+
+def main():
+    if not PARTS_DIR.is_dir():
+        print(f"Error: {PARTS_DIR} not found", file=sys.stderr)
+        sys.exit(1)
+
+    all_scenarios = []
+    categories = {}
+    category_files = sorted(PARTS_DIR.glob("*.json"))
+
+    if not category_files:
+        print(f"Error: no JSON files found in {PARTS_DIR}", file=sys.stderr)
+        sys.exit(1)
+
+    for path in category_files:
+        with open(path) as f:
+            data = json.load(f)
+        category_id = data["category"]
+        categories[category_id] = data["category_name"]
+        for scenario in data["scenarios"]:
+            scenario["category"] = category_id
+            all_scenarios.append(scenario)
+
+    combined = {
+        "version": "1.0",
+        "description": "Learner scenario definitions for vocabulary gap analysis",
+        "categories": categories,
+        "scenarios": all_scenarios
+    }
+
+    with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
+        json.dump(combined, f, ensure_ascii=False, indent=2)
+
+    total_words = sum(len(s["expected_vocabulary"]) for s in all_scenarios)
+    unique = set()
+    for s in all_scenarios:
+        for w in s["expected_vocabulary"]:
+            unique.add((w["word"], w["reading"]))
+    print(f"Assembled {len(all_scenarios)} scenarios ({total_words} vocab items, {len(unique)} unique) from {len(category_files)} category files")
+    print(f"Written to {OUTPUT_FILE}")
+
+
+if __name__ == "__main__":
+    main()
+```
+
+### Step A4: Assemble and validate
+
+After all 15 category files are created and individually validated:
 
 ```bash
+# Assemble the combined file
+python3 build/assemble_learner_scenarios.py
+
+# Validate the assembled file
 python3 -c "
 import json
 with open('build/data/learner_scenarios.json') as f:
@@ -128,27 +283,22 @@ categories = data['categories']
 print(f'Total scenarios: {len(scenarios)}')
 total_words = sum(len(s['expected_vocabulary']) for s in scenarios)
 print(f'Total vocabulary items: {total_words}')
-# Count unique words
 unique = set()
 for s in scenarios:
     for w in s['expected_vocabulary']:
         unique.add((w['word'], w['reading']))
 print(f'Unique words: {len(unique)}')
-# Check categories
+print(f'Categories defined: {len(categories)}')
 used_cats = set(s['category'] for s in scenarios)
-defined_cats = set(categories.keys())
-print(f'Categories defined: {len(defined_cats)}')
 print(f'Categories used: {len(used_cats)}')
-unused = defined_cats - used_cats
+unused = set(categories.keys()) - used_cats
 if unused:
     print(f'WARNING: Unused categories: {unused}')
-# Validate structure
 for s in scenarios:
     assert s['category'] in categories, f'Unknown category: {s[\"category\"]} in {s[\"id\"]}'
     for w in s['expected_vocabulary']:
         assert all(k in w for k in ('word', 'reading', 'gloss', 'priority')), f'Missing key in {s[\"id\"]}: {w}'
         assert w['priority'] in ('high', 'medium', 'low'), f'Bad priority in {s[\"id\"]}: {w}'
-# Category distribution
 from collections import Counter
 cat_counts = Counter(s['category'] for s in scenarios)
 for cat, count in sorted(cat_counts.items()):
@@ -156,6 +306,8 @@ for cat, count in sorted(cat_counts.items()):
 print('Validation passed')
 "
 ```
+
+If the total is below 1,200 vocabulary items, go back and add more words to the thinnest scenarios before proceeding.
 
 ---
 
@@ -367,8 +519,10 @@ python3 build/analyze_scenarios.py --add-candidates        # Add missing words a
 Update the project structure section to include:
 
 ```
-  build/data/learner_scenarios.json   # Learner scenario definitions for gap analysis
-  build/analyze_scenarios.py          # Scenario-based vocabulary gap analysis
+  build/data/learner_scenarios.json    # Learner scenario definitions for gap analysis (generated)
+  build/data/learner_scenarios/        # Per-category source files for learner scenarios
+  build/assemble_learner_scenarios.py  # Assembles per-category files into learner_scenarios.json
+  build/analyze_scenarios.py           # Scenario-based vocabulary gap analysis
 ```
 
 If a shared utility was created:
@@ -379,14 +533,17 @@ If a shared utility was created:
 
 ### Step D2: Update Makefile
 
-Add a target:
+Add targets:
 
 ```makefile
 audit-scenarios:
 	python3 build/analyze_scenarios.py --summary
+
+assemble-scenarios:
+	python3 build/assemble_learner_scenarios.py
 ```
 
-Add `audit-scenarios` to the `.PHONY` line.
+Add `audit-scenarios` and `assemble-scenarios` to the `.PHONY` line.
 
 ### Step D3: Update `prompts/newcandidates.md`
 
@@ -418,7 +575,21 @@ This complements semantic field audits: fields find topical gaps, scenarios find
 After all parts are complete, run these checks:
 
 ```bash
-# Verify data file
+# Verify per-category files exist and are valid
+for f in build/data/learner_scenarios/*.json; do
+  python3 -c "
+import json, sys
+with open(sys.argv[1]) as f:
+    data = json.load(f)
+total = sum(len(s['expected_vocabulary']) for s in data['scenarios'])
+print(f'{sys.argv[1]}: {len(data[\"scenarios\"])} scenarios, {total} words — OK')
+" "$f"
+done
+
+# Verify assembly works
+python3 build/assemble_learner_scenarios.py
+
+# Verify the assembled data file
 python3 -c "
 import json
 d = json.load(open('build/data/learner_scenarios.json'))
@@ -460,7 +631,8 @@ Follow the complete workflow described in CLAUDE.md under "End-of-session PR and
    git add -A
    git commit -m "Scenario-based gap analysis: scenario definitions and analysis tools [1.3.2]
 
-   - Create build/data/learner_scenarios.json with 100-200 scenario definitions
+   - Create per-category scenario definitions in build/data/learner_scenarios/
+   - Create build/assemble_learner_scenarios.py to merge category files
    - Create build/analyze_scenarios.py for coverage analysis and impact ranking
    - Add cross-scenario impact scoring to identify highest-value missing words
    - Add --add-candidates mode for candidate pipeline integration
