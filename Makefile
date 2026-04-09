@@ -1,4 +1,4 @@
-.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status
+.PHONY: validate validate-changed index build quick check-furigana check-kanji stats report clean full word-lookup note-scores check-symmetry check-clusters priorities audit-fields assemble-fields audit-scenarios assemble-scenarios audit-tiers consistency lock-status queue-populate queue-status queue-cleanup
 
 validate:
 	python3 build/validate.py
@@ -65,5 +65,14 @@ consistency:
 
 lock-status:
 	python3 build/entry_lock.py status
+
+queue-populate:
+	python3 pipeline/task_queue.py populate --all
+
+queue-status:
+	python3 pipeline/task_queue.py status
+
+queue-cleanup:
+	python3 pipeline/task_queue.py cleanup
 
 full: clean build
