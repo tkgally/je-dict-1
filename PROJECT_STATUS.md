@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-10 (New Candidates - 55 Words Added)
+Added 55 new candidate words to candidate_words.json using diverse search strategies. Candidate count now ~3,260.
+
+- **Scenario gaps (14)**: 示談, 引き落とし, レンタカー, 血液検査, 尿検査, 再検査, 乗り越し, 出し物, ベジタリアン, 信号無視, 記念写真, 勉強会, 家電量販店, 料理教室
+- **Expressive adjectives (8)**: 小賢しい, 仰々しい, 末恐ろしい, 罪深い, 底知れない, 見苦しい, 聞き苦しい, 恨めしい
+- **Modern social/workplace (7)**: 炎上する, 課金する, 配信する, フレックス, 承認欲求, マウントを取る, 忖度する, ブラック企業, 働き方改革
+- **Legal (4)**: 不起訴, 公判, 供述, 自首
+- **Academic (6)**: 論旨, 剽窃, 盗用, 紀要, 学士, 口頭試問, 論文審査
+- **Housing/tax (6)**: 原状回復, 更新料, 鍵交換, 二重窓, 扶養控除, 医療費控除
+- **Medical (4)**: 紹介状, 内視鏡, 再診, 人間ドック
+- **Nature/biology (5)**: 吹雪く, 真冬日, 樹齢, 枝垂れ, 外来種, 株分け
+- **Arts/crafts (3)**: 鋳造, 轆轤, 釉薬
+- **Other (misc)**: 足掻く, 窘める, 僻む, 振込先, 裏漉し, 気骨, 尻拭い, 思い巡らす, 食い意地, ぼやぼや, しどろもどろ, 即日配送, 定期便, 送料無料, 二次元コード, ログインする, 総集編, お蔵入り, 寸志, 拝受, 割愛する, 委細, 諸般, 有酸素運動, 腕立て伏せ, 持久走, 反復横跳び, 折返し運転, 間引き運転
+
 ### 2026-04-08 (Vocabulary Expansion - 25 New Entries, Session 50)
 Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A diverse mix of nouns, suru verbs, and a godan verb covering daily life, culture, food, language, politics, military, measurement, and more.
 
@@ -98,14 +112,6 @@ Added 30 new dictionary entries (IDs 23078-23107) from candidate_words.json. A d
 - **Four-character compound (1)**: {立身出世|りっしんしゅっせ} (rising in the world)
 - **Other nouns (2)**: {更衣|こうい} (changing clothes), いびり (bullying), {風向|ふうこう} (wind direction)
 
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 46)
-Added 30 new dictionary entries (IDs 23048-23077) from candidate_words.json. A diverse mix of nouns, suru verbs, adverbs, and onomatopoeia covering daily life, culture, food, education, legal/business, nature, and people.
-
-- **Nouns (17)**: {合羽|かっぱ} (raincoat), お{香|こう} (incense), {草花|くさばな} (flowers and grasses), {遊|あそ}び{場|ば} (playground), {空|あ}き{缶|かん} (empty can), {細道|ほそみち} (narrow path), {著名人|ちょめいじん} (celebrity), {香気|こうき} (fragrance), {外套|がいとう} (overcoat), {市区町村|しくちょうそん} (municipalities), {災厄|さいやく} (calamity), {合挽|あいび}き (mixed ground meat), {甘酢漬|あまずづ}け (sweet vinegar pickle), {維持費|いじひ} (maintenance cost), {案内係|あんないがかり} (guide), {足裏|あしうら} (sole of the foot), {合意書|ごういしょ} (agreement), {大金持|おおがねも}ち (rich person), ニュータウン (new town)
-- **Noun/suru verbs (8)**: {委任|いにん} (delegation), {指南|しなん} (instruction), {相似|そうじ} (similarity), {制圧|せいあつ} (suppression), アニメ{化|か} (anime adaptation), {依拠|いきょ} (reliance), {講読|こうどく} (text study), {小口切|こぐちぎ}り (thin slicing)
-- **Adverbs/onomatopoeia (2)**: きょとんと (blankly/puzzledly), あんぐり (gaping wide open)
-- **Other (1)**: {悪行|あくぎょう} (evil deed)
-- Added 1 new kanji to index: 套 (sheath)
 
 
 
