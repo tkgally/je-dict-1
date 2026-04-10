@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-10 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A diverse mix covering modern life, internet culture, emotions, weather, banking, and expressive vocabulary.
+
+- **Nouns (11)**: レンタカー (rental car), {乗|の}り{越|こ}し (riding past one's stop), {出|だ}し{物|もの} (show/performance), {振込先|ふりこみさき} (transfer destination), {紹介状|しょうかいじょう} (referral letter), {総集編|そうしゅうへん} (compilation episode), お{蔵入|くらい}り (shelved), {気骨|きこつ} (backbone), {定期便|ていきびん} (regular service), {送料無料|そうりょうむりょう} (free shipping), {記念写真|きねんしゃしん} (commemorative photo)
+- **Noun/suru verbs (5)**: {信号無視|しんごうむし} (running a red light), {炎上|えんじょう}する (online flaming), {課金|かきん}する (in-app purchase), {配信|はいしん}する (streaming), {尻拭|しりぬぐ}い (cleaning up someone's mess)
+- **Suru verbs (2)**: {割愛|かつあい}する (to omit reluctantly), {忖度|そんたく}する (to read the room)
+- **Godan verbs (3)**: {足掻|あが}く (to struggle), {僻|ひが}む (to be envious), {吹雪|ふぶ}く (to blizzard)
+- **Ichidan verb (1)**: {窘|たしな}める (to admonish gently)
+- **I-adjectives (5)**: {小賢|こざか}しい (impudently clever), {仰々|ぎょうぎょう}しい (exaggerated), {末恐|すえおそ}ろしい (frighteningly promising), {見苦|みぐる}しい (unsightly), {恨|うら}めしい (resentful)
+- **Onomatopoeia/adverbs (2)**: ぼやぼや (absent-mindedly), しどろもどろ (incoherently)
+- **勉強会** (study group) rounds out the set
+- Added 1 new kanji to index: 窘 (admonish)
+- Removed 1 stale candidate (引き落とし — duplicate of existing 引落し entry 07556)
+
 ### 2026-04-10 (New Candidates - 55 Words Added)
 Added 55 new candidate words to candidate_words.json using diverse search strategies. Candidate count now ~3,260.
 
@@ -102,15 +116,6 @@ Added 30 new dictionary entries (IDs 23108-23137) from candidate_words.json. A d
 - **Verb (1)**: {向上|こうじょう}させる (to improve/enhance)
 - **Other noun (1)**: {誤植|ごしょく} (misprint/typo), {前掛|まえか}け (traditional apron), {田園|でんえん} (countryside/pastoral)
 
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 47)
-Added 30 new dictionary entries (IDs 23078-23107) from candidate_words.json. A diverse mix of loanwords, compound nouns, cultural terms, and adjectives covering daily life, food, sports, body, culture, science, weather, and business.
-
-- **Katakana loanwords (13)**: スタミナ (stamina), フレッシュ (fresh), エゴ (ego), キャンディー (candy), ジャーナリズム (journalism), スキンケア (skin care), テナント (tenant), トートバッグ (tote bag), ミネラル (mineral), ボルト (bolt/volt), タンク (tank), ディップ (dip), ピラティス (Pilates)
-- **Compound nouns (11)**: {冬服|ふゆふく} (winter clothes), {体長|たいちょう} (body length), {始点|してん} (starting point), {背筋|はいきん} (back muscles), {精肉店|せいにくてん} (butcher shop), {花器|かき} (flower vase), {事務作業|じむさぎょう} (clerical work), {間隙|かんげき} (gap), {沈降|ちんこう} (subsidence), {青紫|あおむらさき} (blue-purple), {天井裏|てんじょううら} (attic space)
-- **Cultural/proper nouns (1)**: {甲子園|こうしえん} (Koshien)
-- **Na-adjectives (2)**: フレッシュ (fresh/youthful), まめ (diligent/attentive)
-- **Four-character compound (1)**: {立身出世|りっしんしゅっせ} (rising in the world)
-- **Other nouns (2)**: {更衣|こうい} (changing clothes), いびり (bullying), {風向|ふうこう} (wind direction)
 
 
 
