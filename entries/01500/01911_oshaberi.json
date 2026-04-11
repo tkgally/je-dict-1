@@ -6,7 +6,93 @@
   "gloss": "chatting, talkative, chatterbox",
   "conjugation": {
     "type": "suru",
-    "prefix": "お{喋|しゃべ}り"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "お{喋|しゃべ}りする",
+        "negative": "お{喋|しゃべ}りしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "お{喋|しゃべ}りします",
+        "negative": "お{喋|しゃべ}りしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "お{喋|しゃべ}りした",
+        "negative": "お{喋|しゃべ}りしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "お{喋|しゃべ}りしました",
+        "negative": "お{喋|しゃべ}りしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "お{喋|しゃべ}りして",
+        "negative": "お{喋|しゃべ}りしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "お{喋|しゃべ}りしている",
+        "negative": "お{喋|しゃべ}りしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "お{喋|しゃべ}りしています",
+        "negative": "お{喋|しゃべ}りしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "お{喋|しゃべ}りしていた",
+        "negative": "お{喋|しゃべ}りしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "お{喋|しゃべ}りしていました",
+        "negative": "お{喋|しゃべ}りしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "お{喋|しゃべ}りすれば",
+        "negative": "お{喋|しゃべ}りしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "お{喋|しゃべ}りしたら",
+        "negative": "お{喋|しゃべ}りしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "お{喋|しゃべ}りしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "お{喋|しゃべ}りしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "お{喋|しゃべ}りできる",
+        "negative": "お{喋|しゃべ}りできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "お{喋|しゃべ}りされる",
+        "negative": "お{喋|しゃべ}りされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "お{喋|しゃべ}りさせる",
+        "negative": "お{喋|しゃべ}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "お{喋|しゃべ}りしろ",
+        "negative": "お{喋|しゃべ}りするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -118,10 +204,18 @@
     }
   ],
   "notes": "お{喋|しゃべ}り can be a noun, na-adjective, or suru verb.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: お{喋|しゃべ}りする\n\nFORMS:\n- Noun: お{喋|しゃべ}り (chat, chatterbox)\n- Na-adjective: お{喋|しゃべ}りな (talkative)\n- Suru verb: お{喋|しゃべ}りする (to chat)\n\nNUANCE:\n- Can be positive (friendly chat) or negative (too talkative)\n- As description of a person, often implies they talk too much\n\nWRITING:\n- Usually written with お prefix\n- Can be written おしゃべり or お{喋|しゃべ}り",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "06644_mukuchi",
+      "reading": "むくち",
+      "headword": "{無口|むくち}",
+      "label": "taciturn"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-04-10T06:55:14Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -139,95 +233,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "お{喋|しゃべ}りする",
-        "negative": "お{喋|しゃべ}りしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "お{喋|しゃべ}りします",
-        "negative": "お{喋|しゃべ}りしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "お{喋|しゃべ}りした",
-        "negative": "お{喋|しゃべ}りしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "お{喋|しゃべ}りしました",
-        "negative": "お{喋|しゃべ}りしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "お{喋|しゃべ}りして",
-        "negative": "お{喋|しゃべ}りしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "お{喋|しゃべ}りしている",
-        "negative": "お{喋|しゃべ}りしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "お{喋|しゃべ}りしています",
-        "negative": "お{喋|しゃべ}りしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "お{喋|しゃべ}りしていた",
-        "negative": "お{喋|しゃべ}りしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "お{喋|しゃべ}りしていました",
-        "negative": "お{喋|しゃべ}りしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "お{喋|しゃべ}りすれば",
-        "negative": "お{喋|しゃべ}りしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "お{喋|しゃべ}りしたら",
-        "negative": "お{喋|しゃべ}りしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "お{喋|しゃべ}りしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "お{喋|しゃべ}りしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "お{喋|しゃべ}りできる",
-        "negative": "お{喋|しゃべ}りできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "お{喋|しゃべ}りされる",
-        "negative": "お{喋|しゃべ}りされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "お{喋|しゃべ}りさせる",
-        "negative": "お{喋|しゃべ}りさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "お{喋|しゃべ}りしろ",
-        "negative": "お{喋|しゃべ}りするな"
-      }
-    ]
   }
 }

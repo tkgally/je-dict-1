@@ -6,85 +6,6 @@
   "gloss": "reception",
   "conjugation": {
     "type": "suru",
-    "prefix": "{受信|じゅしん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "reception, receiving",
-      "explanation": "The act of receiving signals, messages, or broadcasts."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04896_jushin_ex1",
-      "japanese": "メールを{受信|じゅしん}する。",
-      "english": "Receive an email.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04896_jushin_ex2",
-      "japanese": "{電波|でんぱ}の{受信|じゅしん}{状態|じょうたい}が{悪|わる}い。",
-      "english": "The signal reception is poor.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04896_jushin_ex3",
-      "japanese": "{受信|じゅしん}ボックスを{確認|かくにん}する。",
-      "english": "Check the inbox.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{受信|じゅしん} means receiving signals, messages, or broadcasts. Composed of {受|じゅ} (receive) + {信|しん} (message/signal).\n\nCOMMON EXPRESSIONS:\n- {受信|じゅしん}する: to receive\n- {受信|じゅしん}ボックス/{受信|じゅしん}トレイ: inbox\n- {受信|じゅしん}{拒否|きょひ}: blocking (messages), rejection of reception\n- {電波|でんぱ}{受信|じゅしん}: signal reception\n\nTECHNICAL TERMS:\n- {受信|じゅしん}{機|き}: receiver (device)\n- {受信|じゅしん}{感度|かんど}: reception sensitivity\n- {受信|じゅしん}{状態|じょうたい}: reception status/quality\n- {受信|じゅしん}{料|りょう}: reception fee (e.g., NHK TV fee)\n\nOPPOSITE:\n- {発信|はっしん}: transmission, sending",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "はっしん",
-      "headword": "{発信|はっしん}",
-      "label": "transmission",
-      "target_id": "04895_hasshin"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "11890_jushin",
-      "reading": "じゅしん",
-      "headword": "{受診|じゅしん}",
-      "note": "seeing a doctor"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -172,5 +93,87 @@
         "negative": "{受信|じゅしん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "reception, receiving",
+      "explanation": "The act of receiving signals, messages, or broadcasts."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04896_jushin_ex1",
+      "japanese": "メールを{受信|じゅしん}する。",
+      "english": "Receive an email.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04896_jushin_ex2",
+      "japanese": "{電波|でんぱ}の{受信|じゅしん}{状態|じょうたい}が{悪|わる}い。",
+      "english": "The signal reception is poor.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04896_jushin_ex3",
+      "japanese": "{受信|じゅしん}ボックスを{確認|かくにん}する。",
+      "english": "Check the inbox.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{受信|じゅしん} means receiving signals, messages, or broadcasts. Composed of {受|じゅ} (receive) + {信|しん} (message/signal).\n\nCOMMON EXPRESSIONS:\n- {受信|じゅしん}する: to receive\n- {受信|じゅしん}ボックス/{受信|じゅしん}トレイ: inbox\n- {受信|じゅしん}{拒否|きょひ}: blocking (messages), rejection of reception\n- {電波|でんぱ}{受信|じゅしん}: signal reception\n\nTECHNICAL TERMS:\n- {受信|じゅしん}{機|き}: receiver (device)\n- {受信|じゅしん}{感度|かんど}: reception sensitivity\n- {受信|じゅしん}{状態|じょうたい}: reception status/quality\n- {受信|じゅしん}{料|りょう}: reception fee (e.g., NHK TV fee)\n\nOPPOSITE:\n- {発信|はっしん}: transmission, sending",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "はっしん",
+      "headword": "{発信|はっしん}",
+      "label": "transmission",
+      "target_id": "04895_hasshin"
+    },
+    {
+      "type": "antonym",
+      "target_id": "17692_soushin",
+      "reading": "そうしん",
+      "headword": "{送信|そうしん}",
+      "label": "sending"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T00:35:11Z",
+    "modified": "2026-04-11T01:25:09Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "11890_jushin",
+      "reading": "じゅしん",
+      "headword": "{受診|じゅしん}",
+      "note": "seeing a doctor"
+    }
+  ]
 }

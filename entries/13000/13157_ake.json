@@ -24,7 +24,9 @@
       "english": "Dawn is near.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13157_ake_ex2",
@@ -32,7 +34,9 @@
       "english": "The dawn sky was dyed red.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13157_ake_ex3",
@@ -40,7 +44,9 @@
       "english": "The morning star was shining in the eastern sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13157_ake_ex4",
@@ -48,7 +54,9 @@
       "english": "I'm waiting for the end of the rainy season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13157_ake_ex5",
@@ -56,7 +64,9 @@
       "english": "Let's meet after the new year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "13157_ake_ex6",
@@ -64,21 +74,35 @@
       "english": "Work piles up after the long holiday, so it's tough.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nThe noun form of the verb {明|あ}ける (to dawn, to open). In sense 1, most commonly appears in the compound {夜明|よあ}け (dawn, daybreak). In sense 2, it forms many useful compounds:\n\n- {梅雨明|つゆあ}け: end of the rainy season\n- {年明|としあ}け: the new year, after the new year\n- {連休|れんきゅう}{明|あ}け: after a long holiday\n- {正月|しょうがつ}{明|あ}け: after New Year's\n- {夏休|なつやす}み{明|あ}け: after summer vacation\n\nThe sense 2 pattern 〜{明|あ}け is very productive and means \"right after the end of ~.\"\n\nCOMMON COLLOCATIONS:\n- {夜明|よあ}け: dawn, daybreak\n- {梅雨明|つゆあ}け: end of rainy season\n- {年明|としあ}け: new year\n- {明|あ}けの{明星|みょうじょう}: the morning star (Venus)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02671_kure",
+      "reading": "くれ",
+      "headword": "{暮|く}れ",
+      "label": "end of year"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T11:54:11Z",
-    "modified": "2026-02-23T11:54:11Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time"]
+      "semantic": [
+        "time"
+      ]
     }
   }
 }

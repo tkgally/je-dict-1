@@ -19,7 +19,9 @@
       "english": "An informal meeting was held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20590_hikoushiki_ex2",
@@ -27,7 +29,9 @@
       "english": "That information is unofficial, so please be careful.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "20590_hikoushiki_ex3",
@@ -35,21 +39,36 @@
       "english": "It has been reported that the leaders of both countries informally exchanged opinions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {非|ひ} (non-, un-) + {公式|こうしき} (official, formal). The prefix {非|ひ} negates the base word. Functions both as a na-adjective ({非公式|ひこうしき}な) and as a noun.\n\nCOMMON COLLOCATIONS:\n- {非公式|ひこうしき}な{会談|かいだん} (informal meeting/talks)\n- {非公式|ひこうしき}な{発表|はっぴょう} (unofficial announcement)\n- {非公式|ひこうしき}な{訪問|ほうもん} (unofficial visit)\n- {非公式|ひこうしき}に (informally, off the record)\n\nSIMILAR WORDS:\n- {公式|こうしき} — official, formal (the antonym)\n- {私的|してき} — private, personal (focuses on private vs. public rather than official status)\n- オフレコ — off the record (journalism term, loanword from English)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "04167_koushiki",
+      "reading": "こうしき",
+      "headword": "{公式|こうしき}",
+      "label": "official"
+    }
+  ],
   "metadata": {
     "created": "2026-03-29T19:18:43Z",
-    "modified": "2026-03-29T19:18:43Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["description"]
+      "semantic": [
+        "description"
+      ]
     }
   }
 }

@@ -6,68 +6,6 @@
   "gloss": "rejection; voting down",
   "conjugation": {
     "type": "suru",
-    "prefix": "{否決|ひけつ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "rejection; voting down",
-      "explanation": "the defeat or rejection of a proposal or bill through voting"
-    }
-  ],
-  "examples": [
-    {
-      "id": "08396_hiketsu_ex1",
-      "japanese": "{法案|ほうあん}は{否決|ひけつ}された。",
-      "english": "The bill was voted down.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08396_hiketsu_ex2",
-      "japanese": "{提案|ていあん}は{反対|はんたい}{多数|たすう}で{否決|ひけつ}となった。",
-      "english": "The proposal was rejected by a majority opposing it.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08396_hiketsu_ex3",
-      "japanese": "{修正案|しゅうせいあん}の{否決|ひけつ}により、{原案|げんあん}のまま{可決|かけつ}された。",
-      "english": "With the amendment rejected, the original proposal was passed as is.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "{否決|ひけつ} means to reject a proposal or bill by vote. Combines {否|ひ} (negate) + {決|けつ} (decide).\n\nCOMMON COLLOCATIONS:\n- {法案|ほうあん}を{否決|ひけつ}する: to vote down a bill\n- {反対|はんたい}{多数|たすう}で{否決|ひけつ}: rejected by majority opposition\n- {満場|まんじょう}{一致|いっち}で{否決|ひけつ}: rejected unanimously\n- {否決|ひけつ}{権|けん}: veto power\n\nCONTRAST:\n- {可決|かけつ}: passage, approval (antonym) — {否決|ひけつ} and {可決|かけつ} form a natural pair\n- {却下|きゃっか}: rejection, dismissal — used in legal/administrative contexts, not necessarily by vote\n- {棄却|ききゃく}: dismissal — primarily legal (e.g., dismissing a case)\n\nREGISTER:\nFormal. Used in political, parliamentary, and corporate governance contexts.",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "semantic": [
-        "politics",
-        "government",
-        "legal"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-01-26T05:21:17Z",
-    "modified": "2026-03-30T04:48:32Z"
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -155,5 +93,72 @@
         "negative": "{否決|ひけつ}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "rejection; voting down",
+      "explanation": "the defeat or rejection of a proposal or bill through voting"
+    }
+  ],
+  "examples": [
+    {
+      "id": "08396_hiketsu_ex1",
+      "japanese": "{法案|ほうあん}は{否決|ひけつ}された。",
+      "english": "The bill was voted down.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08396_hiketsu_ex2",
+      "japanese": "{提案|ていあん}は{反対|はんたい}{多数|たすう}で{否決|ひけつ}となった。",
+      "english": "The proposal was rejected by a majority opposing it.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08396_hiketsu_ex3",
+      "japanese": "{修正案|しゅうせいあん}の{否決|ひけつ}により、{原案|げんあん}のまま{可決|かけつ}された。",
+      "english": "With the amendment rejected, the original proposal was passed as is.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "{否決|ひけつ} means to reject a proposal or bill by vote. Combines {否|ひ} (negate) + {決|けつ} (decide).\n\nCOMMON COLLOCATIONS:\n- {法案|ほうあん}を{否決|ひけつ}する: to vote down a bill\n- {反対|はんたい}{多数|たすう}で{否決|ひけつ}: rejected by majority opposition\n- {満場|まんじょう}{一致|いっち}で{否決|ひけつ}: rejected unanimously\n- {否決|ひけつ}{権|けん}: veto power\n\nCONTRAST:\n- {可決|かけつ}: passage, approval (antonym) — {否決|ひけつ} and {可決|かけつ} form a natural pair\n- {却下|きゃっか}: rejection, dismissal — used in legal/administrative contexts, not necessarily by vote\n- {棄却|ききゃく}: dismissal — primarily legal (e.g., dismissing a case)\n\nREGISTER:\nFormal. Used in political, parliamentary, and corporate governance contexts.",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "semantic": [
+        "politics",
+        "government",
+        "legal"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-01-26T05:21:17Z",
+    "modified": "2026-04-11T01:25:09Z"
+  },
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00148_kaketsu",
+      "reading": "かけつ",
+      "headword": "{可決|かけつ}",
+      "label": "approval"
+    }
+  ]
 }

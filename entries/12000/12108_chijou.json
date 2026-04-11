@@ -19,7 +19,9 @@
       "english": "The reception desk is on the third floor above ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12108_chijou_ex2",
@@ -27,7 +29,9 @@
       "english": "The rocket was launched from the ground.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12108_chijou_ex3",
@@ -35,21 +39,36 @@
       "english": "Since the switch to digital terrestrial broadcasting, the picture quality has improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn building descriptions, {地上|ちじょう} specifies floors above ground as opposed to {地下|ちか} (underground/basement). For example, {地上|ちじょう}{五階|ごかい}{地下|ちか}{二階|にかい} means \"5 floors above ground, 2 basement floors.\" Also used in broadcasting: {地上|ちじょう}デジタル (terrestrial digital), commonly abbreviated to {地|ち}デジ.\n\nCOMMON COLLOCATIONS:\n- {地上|ちじょう}～{階|かい}: ~ floor(s) above ground\n- {地上|ちじょう}デジタル: terrestrial digital (broadcasting)\n- {地上|ちじょう}{波|は}: terrestrial wave/broadcast\n- {地上|ちじょう}から: from the ground\n- {地上|ちじょう}に{出|で}る: come above ground\n\nSIMILAR WORDS:\nThe opposite is {地下|ちか} (underground). {地面|じめん} (the ground surface) refers to the physical surface you walk on. {陸上|りくじょう} (on land) contrasts with water or sea.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03429_chika",
+      "reading": "ちか",
+      "headword": "{地下|ちか}",
+      "label": "underground"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T05:01:02Z",
-    "modified": "2026-02-20T05:01:02Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography", "direction"]
+      "semantic": [
+        "geography",
+        "direction"
+      ]
     }
   }
 }
