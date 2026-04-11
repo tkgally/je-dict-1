@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-10 (New Candidates - 55 Words Added)
+Added 55 new candidate words to candidate_words.json using diverse search strategies. Candidate count now ~3,260.
+
+- **Scenario gaps (14)**: 示談, 引き落とし, レンタカー, 血液検査, 尿検査, 再検査, 乗り越し, 出し物, ベジタリアン, 信号無視, 記念写真, 勉強会, 家電量販店, 料理教室
+- **Expressive adjectives (8)**: 小賢しい, 仰々しい, 末恐ろしい, 罪深い, 底知れない, 見苦しい, 聞き苦しい, 恨めしい
+- **Modern social/workplace (7)**: 炎上する, 課金する, 配信する, フレックス, 承認欲求, マウントを取る, 忖度する, ブラック企業, 働き方改革
+- **Legal (4)**: 不起訴, 公判, 供述, 自首
+- **Academic (6)**: 論旨, 剽窃, 盗用, 紀要, 学士, 口頭試問, 論文審査
+- **Housing/tax (6)**: 原状回復, 更新料, 鍵交換, 二重窓, 扶養控除, 医療費控除
+- **Medical (4)**: 紹介状, 内視鏡, 再診, 人間ドック
+- **Nature/biology (5)**: 吹雪く, 真冬日, 樹齢, 枝垂れ, 外来種, 株分け
+- **Arts/crafts (3)**: 鋳造, 轆轤, 釉薬
+- **Other (misc)**: 足掻く, 窘める, 僻む, 振込先, 裏漉し, 気骨, 尻拭い, 思い巡らす, 食い意地, ぼやぼや, しどろもどろ, 即日配送, 定期便, 送料無料, 二次元コード, ログインする, 総集編, お蔵入り, 寸志, 拝受, 割愛する, 委細, 諸般, 有酸素運動, 腕立て伏せ, 持久走, 反復横跳び, 折返し運転, 間引き運転
+
 ### 2026-04-08 (Vocabulary Expansion - 25 New Entries, Session 50)
 Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A diverse mix of nouns, suru verbs, and a godan verb covering daily life, culture, food, language, politics, military, measurement, and more.
 
