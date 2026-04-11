@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23355-23374) from candidate_words.json. A diverse mix of everyday vocabulary, tech and business terms, a medical word, and formal written-register vocabulary.
+
+- **Nouns (16)**: {翌年|よくねん} (the following year), {血行|けっこう} (blood circulation), {自己|じこ} (the self), お{嬢様|じょうさま} (young lady), {英和辞典|えいわじてん} (English-Japanese dictionary), {電源|でんげん}ボタン (power button), コンシーラー (concealer), {牛|ぎゅう}ひき{肉|にく} (ground beef), {腫瘍|しゅよう} (tumor), {初期値|しょきち} (initial/default value), {交渉力|こうしょうりょく} (negotiating skill / bargaining power), {天性|てんせい} (innate nature), {数百|すうひゃく} (several hundred), {実利|じつり} (practical benefit), {追加|ついか}{予算|よさん} (additional budget), {悲運|ひうん} (tragic fate), {賛同者|さんどうしゃ} (supporter)
+- **Noun/suru verb (1)**: {結晶化|けっしょうか} (crystallization; figurative taking form)
+- **Expressions (2)**: {唯一|ゆいいつ}の (the only; the sole), {多|おお}くの (many of; a lot of — attributive)
+
 ### 2026-04-11 (Vocabulary Expansion - 28 New Entries)
 Added 28 new dictionary entries (IDs 23327-23354) from candidate_words.json. A mix of color terms, science and history vocabulary, practical home and business words, formal written vocabulary, and traditional crafts.
 
@@ -79,15 +86,6 @@ Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A m
 - **Noun/suru verbs (2)**: {非核化|ひかくか} (denuclearization), {水耕栽培|すいこうさいばい} (hydroponics)
 - **Expressions (2)**: {関係者各位|かんけいしゃかくい} (to whom it may concern), {詳細不明|しょうさいふめい} (details unknown)
 - Removed 1 stale candidate (多角形/たかっけい — variant reading duplicate of existing 05553 多角形/たかくけい)
-
-### 2026-04-11 (Vocabulary Expansion - 18 New Entries)
-Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A diverse mix of nouns, a godan verb, and two i-adjectives covering nature, academia, law, medicine, housing, exercise, and everyday language.
-
-- **Nouns (11)**: {外来種|がいらいしゅ} (invasive species), {樹齢|じゅれい} (age of a tree), {承認欲求|しょうにんよっきゅう} (need for approval), {腕立|うでた}て{伏|ふ}せ (push-up), {学士|がくし} (bachelor's degree), {紀要|きよう} (academic bulletin), {内視鏡|ないしきょう} (endoscope), {更新料|こうしんりょう} (renewal fee), {公判|こうはん} (court hearing), {食|く}い{意地|いじ} (greed for food), {二重窓|にじゅうまど} (double window)
-- **Noun/suru verbs (4)**: {鋳造|ちゅうぞう} (casting), {剽窃|ひょうせつ} (plagiarism), {再診|さいしん} (follow-up medical visit), {自首|じしゅ} (turning oneself in)
-- **Godan verb (1)**: {思|おも}い{巡|めぐ}らす (to ponder)
-- **I-adjectives (2)**: {聞|き}き{苦|ぐる}しい (hard to listen to), {罪深|つみぶか}い (sinful)
-- Added 2 new kanji to index: 鋳 (cast), 剽 (plunder)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
