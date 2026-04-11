@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-08 (Vocabulary Expansion - 25 New Entries, Session 50)
+Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A diverse mix of nouns, suru verbs, and a godan verb covering daily life, culture, food, language, politics, military, measurement, and more.
+
+- **Nouns (14)**: テクニック (technique), {序論|じょろん} (introduction), {相談者|そうだんしゃ} (person seeking advice), {支配権|しはいけん} (control/dominion), {掴|つか}み{所|どころ} (defining characteristic), {蚊取|かと}り (mosquito repelling), {酒好|さけず}き (sake lover), ミリメートル (millimeter), {来館者|らいかんしゃ} (visitor to a facility), {言|い}い{様|よう} (way of saying), {悪感|あくかん} (ill will), ハマグリ (clam), ライ{麦|むぎ} (rye), {円弧|えんこ} (arc), {主翼|しゅよく} (main wing), {公印|こういん} (official seal), {工匠|こうしょう} (artisan)
+- **Noun/suru verbs (4)**: {文書化|ぶんしょか} (documentation), {出撃|しゅつげき} (sortie), {毒殺|どくさつ} (poisoning to death), {敢闘|かんとう} (fighting bravely)
+- **Noun/na-adjective (1)**: {酒好|さけず}き (fond of drinking)
+- **Godan verb (1)**: {這|は}い{込|こ}む (to crawl into)
+- **Noun with two senses (2)**: {門外|もんがい} (outside the gate / outside one's field), {終礼|しゅうれい} (end-of-day meeting)
+- **Loanwords (3)**: テクニック, ミリメートル, ハマグリ (katakana standard)
+
 ### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 49)
 Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A mix of nouns, na-adjectives, suru verbs, and a counter covering culture, daily life, politics, law, nature, food, education, and society.
 
