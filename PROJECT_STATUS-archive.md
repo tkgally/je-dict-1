@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-10 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A diverse mix covering modern life, internet culture, emotions, weather, banking, and expressive vocabulary.
+
+- **Nouns (11)**: レンタカー (rental car), {乗|の}り{越|こ}し (riding past one's stop), {出|だ}し{物|もの} (show/performance), {振込先|ふりこみさき} (transfer destination), {紹介状|しょうかいじょう} (referral letter), {総集編|そうしゅうへん} (compilation episode), お{蔵入|くらい}り (shelved), {気骨|きこつ} (backbone), {定期便|ていきびん} (regular service), {送料無料|そうりょうむりょう} (free shipping), {記念写真|きねんしゃしん} (commemorative photo)
+- **Noun/suru verbs (5)**: {信号無視|しんごうむし} (running a red light), {炎上|えんじょう}する (online flaming), {課金|かきん}する (in-app purchase), {配信|はいしん}する (streaming), {尻拭|しりぬぐ}い (cleaning up someone's mess)
+- **Suru verbs (2)**: {割愛|かつあい}する (to omit reluctantly), {忖度|そんたく}する (to read the room)
+- **Godan verbs (3)**: {足掻|あが}く (to struggle), {僻|ひが}む (to be envious), {吹雪|ふぶ}く (to blizzard)
+- **Ichidan verb (1)**: {窘|たしな}める (to admonish gently)
+- **I-adjectives (5)**: {小賢|こざか}しい (impudently clever), {仰々|ぎょうぎょう}しい (exaggerated), {末恐|すえおそ}ろしい (frighteningly promising), {見苦|みぐる}しい (unsightly), {恨|うら}めしい (resentful)
+- **Onomatopoeia/adverbs (2)**: ぼやぼや (absent-mindedly), しどろもどろ (incoherently)
+- **勉強会** (study group) rounds out the set
+- Added 1 new kanji to index: 窘 (admonish)
+- Removed 1 stale candidate (引き落とし — duplicate of existing 引落し entry 07556)
+
 ### 2026-04-10 (New Candidates - 55 Words Added)
 Added 55 new candidate words to candidate_words.json using diverse search strategies. Candidate count now ~3,260.
 

@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 23297-23326) from candidate_words.json. A mix of common everyday vocabulary, practical tech/web terms, health and medical terms, legal/tax vocabulary, and contemporary social keywords.
+
+- **Nouns (18)**: ベジタリアン (vegetarian), {血液検査|けつえきけんさ} (blood test), {尿検査|にょうけんさ} (urine test), {料理教室|りょうりきょうしつ} (cooking class), {持久走|じきゅうそう} (endurance run), {反復横跳|はんぷくよことび}び (side-to-side jumping fitness test), {二次元|にじげん}コード (QR code), {即日|そくじつ}{配送|はいそう} (same-day delivery), {人間|にんげん}ドック (comprehensive medical checkup), ブラック{企業|きぎょう} (exploitative company), {働|はたら}き{方|かた}{改革|かいかく} (work-style reform), フレックス (flextime), {論文審査|ろんぶんしんさ} (thesis examination), {医療費|いりょうひ}{控除|こうじょ} (medical expense deduction), {扶養|ふよう}{控除|こうじょ} (dependent deduction), {間引|まび}き{運転|うんてん} (reduced service), {折返|おりかえ}し{運転|うんてん} (shuttle operation), {口頭試問|こうとうしもん} (oral examination), {寸志|すんし} (small token of gratitude)
+- **Noun/suru verbs (5)**: ログインする (to log in), ログアウトする (to log out), {示談|じだん} (out-of-court settlement), {供述|きょうじゅつ} (testimony), {原状回復|げんじょうかいふく} (restoration to original condition), {盗用|とうよう} (plagiarism)
+- **Adverbs (2)**: {正|ただ}しく (correctly), {元気|げんき}よく (energetically)
+- **Expressions (3)**: {最初|さいしょ}から (from the start), {途中|とちゅう}で (halfway; on the way), {底知|そこし}れない (unfathomable)
+
 ### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23277-23296) from candidate_words.json. All nouns — a mix of professional roles, institutional and social vocabulary, finance, military/politics, and everyday practical terms.
 
@@ -79,20 +87,6 @@ Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A m
 - **Nouns (17)**: {中枢神経|ちゅうすうしんけい} (central nervous system), {軍事行動|ぐんじこうどう} (military action), {自己同一性|じこどういつせい} (self-identity), {新興住宅地|しんこうじゅうたくち} (new housing development), {中性脂肪|ちゅうせいしぼう} (triglycerides), {悪性腫瘍|あくせいしゅよう} (malignant tumor), アレルギー{体質|たいしつ} (allergic constitution), {液晶|えきしょう}パネル (LCD panel), {皮下脂肪|ひかしぼう} (subcutaneous fat), {伝達手段|でんたつしゅだん} (means of communication), {電子商取引|でんししょうとりひき} (e-commerce), {通信速度|つうしんそくど} (connection speed), {核軍縮|かくぐんしゅく} (nuclear disarmament), {戦没者|せんぼつしゃ} (the war dead), {自覚症状|じかくしょうじょう} (subjective symptoms), {温暖前線|おんだんぜんせん} (warm front), {居住空間|きょじゅうくうかん} (living space), {身元保証人|みもとほしょうにん} (personal guarantor)
 - **Expression/godan verbs (2)**: {意図|いと}を{汲|く}む (to grasp someone's intent), {権力|けんりょく}を{振|ふ}るう (to wield power)
 - Added 1 new kanji to index: 瘍 (tumor)
-
-### 2026-04-10 (Vocabulary Expansion - 30 New Entries)
-Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A diverse mix covering modern life, internet culture, emotions, weather, banking, and expressive vocabulary.
-
-- **Nouns (11)**: レンタカー (rental car), {乗|の}り{越|こ}し (riding past one's stop), {出|だ}し{物|もの} (show/performance), {振込先|ふりこみさき} (transfer destination), {紹介状|しょうかいじょう} (referral letter), {総集編|そうしゅうへん} (compilation episode), お{蔵入|くらい}り (shelved), {気骨|きこつ} (backbone), {定期便|ていきびん} (regular service), {送料無料|そうりょうむりょう} (free shipping), {記念写真|きねんしゃしん} (commemorative photo)
-- **Noun/suru verbs (5)**: {信号無視|しんごうむし} (running a red light), {炎上|えんじょう}する (online flaming), {課金|かきん}する (in-app purchase), {配信|はいしん}する (streaming), {尻拭|しりぬぐ}い (cleaning up someone's mess)
-- **Suru verbs (2)**: {割愛|かつあい}する (to omit reluctantly), {忖度|そんたく}する (to read the room)
-- **Godan verbs (3)**: {足掻|あが}く (to struggle), {僻|ひが}む (to be envious), {吹雪|ふぶ}く (to blizzard)
-- **Ichidan verb (1)**: {窘|たしな}める (to admonish gently)
-- **I-adjectives (5)**: {小賢|こざか}しい (impudently clever), {仰々|ぎょうぎょう}しい (exaggerated), {末恐|すえおそ}ろしい (frighteningly promising), {見苦|みぐる}しい (unsightly), {恨|うら}めしい (resentful)
-- **Onomatopoeia/adverbs (2)**: ぼやぼや (absent-mindedly), しどろもどろ (incoherently)
-- **勉強会** (study group) rounds out the set
-- Added 1 new kanji to index: 窘 (admonish)
-- Removed 1 stale candidate (引き落とし — duplicate of existing 引落し entry 07556)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
