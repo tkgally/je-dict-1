@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 18 New Entries)
+Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A diverse mix of nouns, a godan verb, and two i-adjectives covering nature, academia, law, medicine, housing, exercise, and everyday language.
+
+- **Nouns (11)**: {外来種|がいらいしゅ} (invasive species), {樹齢|じゅれい} (age of a tree), {承認欲求|しょうにんよっきゅう} (need for approval), {腕立|うでた}て{伏|ふ}せ (push-up), {学士|がくし} (bachelor's degree), {紀要|きよう} (academic bulletin), {内視鏡|ないしきょう} (endoscope), {更新料|こうしんりょう} (renewal fee), {公判|こうはん} (court hearing), {食|く}い{意地|いじ} (greed for food), {二重窓|にじゅうまど} (double window)
+- **Noun/suru verbs (4)**: {鋳造|ちゅうぞう} (casting), {剽窃|ひょうせつ} (plagiarism), {再診|さいしん} (follow-up medical visit), {自首|じしゅ} (turning oneself in)
+- **Godan verb (1)**: {思|おも}い{巡|めぐ}らす (to ponder)
+- **I-adjectives (2)**: {聞|き}き{苦|ぐる}しい (hard to listen to), {罪深|つみぶか}い (sinful)
+- Added 2 new kanji to index: 鋳 (cast), 剽 (plunder)
+
 ### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A mix of formal and technical vocabulary covering medicine, technology, politics, society, and daily life.
 
@@ -96,19 +105,7 @@ Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A d
 - **Noun with two senses (2)**: {門外|もんがい} (outside the gate / outside one's field), {終礼|しゅうれい} (end-of-day meeting)
 - **Loanwords (3)**: テクニック, ミリメートル, ハマグリ (katakana standard)
 
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 49)
-Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A mix of nouns, na-adjectives, suru verbs, and a counter covering culture, daily life, politics, law, nature, food, education, and society.
-
-- **Nouns (16)**: {和式|わしき} (Japanese style), {期待外|きたいはず}れ (disappointment), {目|め}つき (look in eyes), {前代|ぜんだい} (previous generation), {営利|えいり} (profit-making), {党派|とうは} (political faction), {山水|さんすい} (landscape), {名画座|めいがざ} (repertory cinema), {手毬|てまり} (temari ball), {院卒|いんそつ} (graduate school grad), {供花|きょうか} (funeral flowers), {排水管|はいすいかん} (drainpipe), {輪番制|りんばんせい} (rotation system), {貸室|かししつ} (rental room), {年忌|ねんき} (memorial anniversary), {幼稚園児|ようちえんじ} (kindergartener)
-- **Noun/na-adjective (3)**: {無表情|むひょうじょう} (expressionless), つむじまがり (contrarian), {激高|げきたか} (very expensive)
-- **Noun/suru verbs (4)**: {水没|すいぼつ} (submersion), {出所|しゅっしょ} (release from prison), {急加速|きゅうかそく} (rapid acceleration), {駐留|ちゅうりゅう} (stationing)
-- **Noun/adjective-no (3)**: {和式|わしき}, {期待外|きたいはず}れ, {水溶性|すいようせい} (water-soluble)
-- **Other (2)**: とらわれ (obsession/fixation), すりごま (ground sesame)
-- **Counter (1)**: {一冊|いっさつ} (one book)
-- **Banking (1)**: {自動振込|じどうふりこみ} (automatic bank transfer)
-- **Legal (1)**: {欠格|けっかく} (disqualification)
-- **Nature (1)**: {雉|きじ} (pheasant — Japan's national bird)
-- Added 2 new kanji to index: 毬 (ball), 雉 (pheasant)
+_(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
 
 
