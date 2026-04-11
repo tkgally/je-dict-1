@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 28 New Entries)
+Added 28 new dictionary entries (IDs 23327-23354) from candidate_words.json. A mix of color terms, science and history vocabulary, practical home and business words, formal written vocabulary, and traditional crafts.
+
+- **Nouns (25)**: {赤色|あかいろ} (red color), {電子|でんし}メール (email), {赤茶色|あかちゃいろ} (reddish brown), {多面体|ためんたい} (polyhedron), {対流圏|たいりゅうけん} (troposphere), {古墳|こふん}{時代|じだい} (Kofun period), {分電盤|ぶんでんばん} (distribution board), {釉薬|ゆうやく} (ceramic glaze), {轆轤|ろくろ} (potter's wheel/lathe), {株分|かぶわ}け (plant division), {有酸素|ゆうさんそ}{運動|うんどう} (aerobic exercise), {真冬日|まふゆび} (day below freezing), {委細|いさい} (full particulars), コスチューム (costume), アナログ{時計|どけい} (analog clock), {家電|かでん}{量販店|りょうはんてん} (big-box electronics retailer), {論旨|ろんし} (main thrust of an argument), {立替|たてか}え{払|ばら}い (out-of-pocket payment), {感嘆詞|かんたんし} (interjection), {真珠色|しんじゅいろ} (pearly white), {守護霊|しゅごれい} (guardian spirit), {練習場|れんしゅうじょう} (practice range), {不起訴|ふきそ} (non-indictment), {堆積岩|たいせきがん} (sedimentary rock), {凝縮感|ぎょうしゅくかん} (sense of density)
+- **Noun/suru verbs (2)**: {再検査|さいけんさ} (reexamination), {鍵|かぎ}{交換|こうかん} (lock replacement)
+- **Pronoun (1)**: {彼女|かのじょ}たち (they - female)
+- Added 3 new kanji to index: 釉 (glaze), 轆 (pulley), 轤 (pulley)
+
 ### 2026-04-11 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 23297-23326) from candidate_words.json. A mix of common everyday vocabulary, practical tech/web terms, health and medical terms, legal/tax vocabulary, and contemporary social keywords.
 
@@ -80,13 +88,6 @@ Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A d
 - **Godan verb (1)**: {思|おも}い{巡|めぐ}らす (to ponder)
 - **I-adjectives (2)**: {聞|き}き{苦|ぐる}しい (hard to listen to), {罪深|つみぶか}い (sinful)
 - Added 2 new kanji to index: 鋳 (cast), 剽 (plunder)
-
-### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
-Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A mix of formal and technical vocabulary covering medicine, technology, politics, society, and daily life.
-
-- **Nouns (17)**: {中枢神経|ちゅうすうしんけい} (central nervous system), {軍事行動|ぐんじこうどう} (military action), {自己同一性|じこどういつせい} (self-identity), {新興住宅地|しんこうじゅうたくち} (new housing development), {中性脂肪|ちゅうせいしぼう} (triglycerides), {悪性腫瘍|あくせいしゅよう} (malignant tumor), アレルギー{体質|たいしつ} (allergic constitution), {液晶|えきしょう}パネル (LCD panel), {皮下脂肪|ひかしぼう} (subcutaneous fat), {伝達手段|でんたつしゅだん} (means of communication), {電子商取引|でんししょうとりひき} (e-commerce), {通信速度|つうしんそくど} (connection speed), {核軍縮|かくぐんしゅく} (nuclear disarmament), {戦没者|せんぼつしゃ} (the war dead), {自覚症状|じかくしょうじょう} (subjective symptoms), {温暖前線|おんだんぜんせん} (warm front), {居住空間|きょじゅうくうかん} (living space), {身元保証人|みもとほしょうにん} (personal guarantor)
-- **Expression/godan verbs (2)**: {意図|いと}を{汲|く}む (to grasp someone's intent), {権力|けんりょく}を{振|ふ}るう (to wield power)
-- Added 1 new kanji to index: 瘍 (tumor)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 

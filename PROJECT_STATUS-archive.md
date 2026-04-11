@@ -3,6 +3,13 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A mix of formal and technical vocabulary covering medicine, technology, politics, society, and daily life.
+
+- **Nouns (17)**: {中枢神経|ちゅうすうしんけい} (central nervous system), {軍事行動|ぐんじこうどう} (military action), {自己同一性|じこどういつせい} (self-identity), {新興住宅地|しんこうじゅうたくち} (new housing development), {中性脂肪|ちゅうせいしぼう} (triglycerides), {悪性腫瘍|あくせいしゅよう} (malignant tumor), アレルギー{体質|たいしつ} (allergic constitution), {液晶|えきしょう}パネル (LCD panel), {皮下脂肪|ひかしぼう} (subcutaneous fat), {伝達手段|でんたつしゅだん} (means of communication), {電子商取引|でんししょうとりひき} (e-commerce), {通信速度|つうしんそくど} (connection speed), {核軍縮|かくぐんしゅく} (nuclear disarmament), {戦没者|せんぼつしゃ} (the war dead), {自覚症状|じかくしょうじょう} (subjective symptoms), {温暖前線|おんだんぜんせん} (warm front), {居住空間|きょじゅうくうかん} (living space), {身元保証人|みもとほしょうにん} (personal guarantor)
+- **Expression/godan verbs (2)**: {意図|いと}を{汲|く}む (to grasp someone's intent), {権力|けんりょく}を{振|ふ}るう (to wield power)
+- Added 1 new kanji to index: 瘍 (tumor)
+
 ### 2026-04-10 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A diverse mix covering modern life, internet culture, emotions, weather, banking, and expressive vocabulary.
 
