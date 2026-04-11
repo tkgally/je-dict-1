@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23375-23388) from candidate_words.json. A mix of everyday nouns, sports, science and math vocabulary, a business term, and several idiomatic expressions.
+
+- **Nouns (11)**: {光線銃|こうせんじゅう} (ray gun), {女子中学生|じょしちゅうがくせい} (junior high school girl), {副|ふく}キャプテン (vice-captain), {三段跳|さんだんと}び (triple jump), {副団長|ふくだんちょう} (deputy leader of a troupe), {事前交渉|じぜんこうしょう} (prior negotiation), {人工皮革|じんこうひかく} (synthetic leather), {平行四辺形|へいこうしへんけい} (parallelogram), {最優秀選手|さいゆうしゅうせんしゅ} (MVP), {過飽和|かほうわ} (supersaturation), {群体|ぐんたい} (colonial organism)
+- **Expressions (3)**: {看板|かんばん}を{掲|かか}げる (to hang out a sign / to publicly proclaim), {歴史|れきし}を{紐解|ひもと}く (to delve into history), {脇道|わきみち}にそれる (to go off on a tangent)
+
 ### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23355-23374) from candidate_words.json. A diverse mix of everyday vocabulary, tech and business terms, a medical word, and formal written-register vocabulary.
 
@@ -78,14 +84,6 @@ Added 30 new dictionary entries (IDs 23297-23326) from candidate_words.json. A m
 Added 20 new dictionary entries (IDs 23277-23296) from candidate_words.json. All nouns — a mix of professional roles, institutional and social vocabulary, finance, military/politics, and everyday practical terms.
 
 - **Nouns (20)**: {国語辞典|こくごじてん} (Japanese dictionary), {調理場|ちょうりば} (commercial kitchen), {研修会|けんしゅうかい} (training session), {相談会|そうだんかい} (consultation session), {担当医|たんとうい} (attending physician), {団体行動|だんたいこうどう} (group action), {発明者|はつめいしゃ} (inventor), {設計者|せっけいしゃ} (designer/architect), {産油国|さんゆこく} (oil-producing country), {開拓者|かいたくしゃ} (pioneer), {戦闘機|せんとうき} (fighter plane), {倹約家|けんやくか} (frugal person), {軍事力|ぐんじりょく} (military strength), {季節労働|きせつろうどう} (seasonal labor), {自己資金|じこしきん} (personal funds), {優待券|ゆうたいけん} (preferential voucher), {調理用具|ちょうりようぐ} (cooking utensils), {視力矯正|しりょくきょうせい} (vision correction), {人数制限|にんずうせいげん} (headcount limit), {防護壁|ぼうごへき} (protective wall)
-
-### 2026-04-11 (Vocabulary Expansion - 16 New Entries)
-Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A mix of formal, technical, and everyday vocabulary covering food, international politics, security, business, linguistics, body/beauty, and materials science.
-
-- **Nouns (13)**: {一口|ひとくち}サイズ (bite-sized), {核弾頭|かくだんとう} (nuclear warhead), {国交断絶|こっこうだんぜつ} (severance of diplomatic relations), {主力商品|しゅりょくしょうひん} (flagship product), {暗号鍵|あんごうかぎ} (encryption key), {不透明度|ふとうめいど} (opacity), {一重|ひとえ}まぶた (single eyelid), {二重|ふたえ}まぶた (double eyelid), {平和維持活動|へいわいじかつどう} (peacekeeping operations), {摩擦音|まさつおん} (fricative), {競争原理|きょうそうげんり} (principle of competition), {合成樹脂|ごうせいじゅし} (synthetic resin)
-- **Noun/suru verbs (2)**: {非核化|ひかくか} (denuclearization), {水耕栽培|すいこうさいばい} (hydroponics)
-- **Expressions (2)**: {関係者各位|かんけいしゃかくい} (to whom it may concern), {詳細不明|しょうさいふめい} (details unknown)
-- Removed 1 stale candidate (多角形/たかっけい — variant reading duplicate of existing 05553 多角形/たかくけい)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
