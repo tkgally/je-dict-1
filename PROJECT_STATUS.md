@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-04
+**Last updated**: 2026-04-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A mix of formal and technical vocabulary covering medicine, technology, politics, society, and daily life.
+
+- **Nouns (17)**: {中枢神経|ちゅうすうしんけい} (central nervous system), {軍事行動|ぐんじこうどう} (military action), {自己同一性|じこどういつせい} (self-identity), {新興住宅地|しんこうじゅうたくち} (new housing development), {中性脂肪|ちゅうせいしぼう} (triglycerides), {悪性腫瘍|あくせいしゅよう} (malignant tumor), アレルギー{体質|たいしつ} (allergic constitution), {液晶|えきしょう}パネル (LCD panel), {皮下脂肪|ひかしぼう} (subcutaneous fat), {伝達手段|でんたつしゅだん} (means of communication), {電子商取引|でんししょうとりひき} (e-commerce), {通信速度|つうしんそくど} (connection speed), {核軍縮|かくぐんしゅく} (nuclear disarmament), {戦没者|せんぼつしゃ} (the war dead), {自覚症状|じかくしょうじょう} (subjective symptoms), {温暖前線|おんだんぜんせん} (warm front), {居住空間|きょじゅうくうかん} (living space), {身元保証人|みもとほしょうにん} (personal guarantor)
+- **Expression/godan verbs (2)**: {意図|いと}を{汲|く}む (to grasp someone's intent), {権力|けんりょく}を{振|ふ}るう (to wield power)
+- Added 1 new kanji to index: 瘍 (tumor)
 
 ### 2026-04-10 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A diverse mix covering modern life, internet culture, emotions, weather, banking, and expressive vocabulary.
@@ -102,22 +109,6 @@ Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A m
 - **Legal (1)**: {欠格|けっかく} (disqualification)
 - **Nature (1)**: {雉|きじ} (pheasant — Japan's national bird)
 - Added 2 new kanji to index: 毬 (ball), 雉 (pheasant)
-
-### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 48)
-Added 30 new dictionary entries (IDs 23108-23137) from candidate_words.json. A diverse mix of nouns, expressions, adjectives, adverbs, and verbs covering society, language, medicine, culture, travel, personality, and daily life.
-
-- **Nouns (12)**: {暴走族|ぼうそうぞく} (motorcycle gang), {連盟|れんめい} (league/federation), {支配者|しはいしゃ} (ruler), {臆病者|おくびょうもの} (coward), {発疹|ほっしん} (rash), {白血球|はっけっきゅう} (white blood cell), {用語集|ようごしゅう} (glossary), {土産物|みやげもの} (souvenir goods), {土産話|みやげばなし} (travel stories), {賓客|ひんきゃく} (honored guest), {加盟店|かめいてん} (member store), {真面目|まじめ}さ (seriousness)
-- **Noun/suru verbs (2)**: {脱落|だつらく} (dropout/omission), {待|ま}ち{伏|ぶ}せ (ambush)
-- **Na-adjectives (2)**: {不適当|ふてきとう} (inappropriate), {自由奔放|じゆうほんぽう} (free and unrestrained)
-- **I-adjective (1)**: {真面目|まじめ}くさい (overly serious)
-- **Expressions/verbs (4)**: {口|くち}を{閉|と}ざす (to clam up), {余韻|よいん}が{残|のこ}る (resonance lingers), {記憶|きおく}が{薄|うす}れる (memory fades), {罪|つみ}を{被|かぶ}せる (to frame someone)
-- **Adverbs (3)**: {都合|つごう}よく (conveniently), {直前|ちょくぜん}に (immediately before), {適切|てきせつ}に (appropriately)
-- **Loanwords (2)**: ホワイトボード (whiteboard), モーター (motor)
-- **Verb (1)**: {向上|こうじょう}させる (to improve/enhance)
-- **Other noun (1)**: {誤植|ごしょく} (misprint/typo), {前掛|まえか}け (traditional apron), {田園|でんえん} (countryside/pastoral)
-
-
-
 
 
 
