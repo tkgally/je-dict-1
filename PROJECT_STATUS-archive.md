@@ -3,6 +3,15 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-11 (Vocabulary Expansion - 18 New Entries)
+Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A diverse mix of nouns, a godan verb, and two i-adjectives covering nature, academia, law, medicine, housing, exercise, and everyday language.
+
+- **Nouns (11)**: {外来種|がいらいしゅ} (invasive species), {樹齢|じゅれい} (age of a tree), {承認欲求|しょうにんよっきゅう} (need for approval), {腕立|うでた}て{伏|ふ}せ (push-up), {学士|がくし} (bachelor's degree), {紀要|きよう} (academic bulletin), {内視鏡|ないしきょう} (endoscope), {更新料|こうしんりょう} (renewal fee), {公判|こうはん} (court hearing), {食|く}い{意地|いじ} (greed for food), {二重窓|にじゅうまど} (double window)
+- **Noun/suru verbs (4)**: {鋳造|ちゅうぞう} (casting), {剽窃|ひょうせつ} (plagiarism), {再診|さいしん} (follow-up medical visit), {自首|じしゅ} (turning oneself in)
+- **Godan verb (1)**: {思|おも}い{巡|めぐ}らす (to ponder)
+- **I-adjectives (2)**: {聞|き}き{苦|ぐる}しい (hard to listen to), {罪深|つみぶか}い (sinful)
+- Added 2 new kanji to index: 鋳 (cast), 剽 (plunder)
+
 ### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23223-23242) from candidate_words.json. A mix of formal and technical vocabulary covering medicine, technology, politics, society, and daily life.
 
