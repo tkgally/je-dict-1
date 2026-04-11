@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-11 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A mix of formal, technical, and everyday vocabulary covering food, international politics, security, business, linguistics, body/beauty, and materials science.
+
+- **Nouns (13)**: {一口|ひとくち}サイズ (bite-sized), {核弾頭|かくだんとう} (nuclear warhead), {国交断絶|こっこうだんぜつ} (severance of diplomatic relations), {主力商品|しゅりょくしょうひん} (flagship product), {暗号鍵|あんごうかぎ} (encryption key), {不透明度|ふとうめいど} (opacity), {一重|ひとえ}まぶた (single eyelid), {二重|ふたえ}まぶた (double eyelid), {平和維持活動|へいわいじかつどう} (peacekeeping operations), {摩擦音|まさつおん} (fricative), {競争原理|きょうそうげんり} (principle of competition), {合成樹脂|ごうせいじゅし} (synthetic resin)
+- **Noun/suru verbs (2)**: {非核化|ひかくか} (denuclearization), {水耕栽培|すいこうさいばい} (hydroponics)
+- **Expressions (2)**: {関係者各位|かんけいしゃかくい} (to whom it may concern), {詳細不明|しょうさいふめい} (details unknown)
+- Removed 1 stale candidate (多角形/たかっけい — variant reading duplicate of existing 05553 多角形/たかくけい)
+
 ### 2026-04-11 (Vocabulary Expansion - 18 New Entries)
 Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A diverse mix of nouns, a godan verb, and two i-adjectives covering nature, academia, law, medicine, housing, exercise, and everyday language.
 
