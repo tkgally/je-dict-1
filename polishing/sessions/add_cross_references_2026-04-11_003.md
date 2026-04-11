@@ -106,3 +106,37 @@ asymmetry is now resolved in all cases.
 
 ### Next Entry
 N/A — this was an asymmetry-driven session, not sequential.
+
+### Addendum: Curator follow-up fixes
+After the initial commit, the curator requested fixes to all four of the
+flagged cases above. Applied in a second commit on the same branch:
+
+1. **11717_kaeru ↔ 00508_kaeru**: Removed the `antonym` cross-reference on
+   BOTH sides. The link was a miscategorized homophone; 11717_kaeru still
+   has its existing `homophone → 01089_kaeru` link.
+
+2. **電動 / 手動 / 自動 triangle**: All three entries now cross-reference the
+   other two. The lexical antonym pair remains `自動 ↔ 手動` (antonym). The
+   connections involving 電動 are retyped to `related` (not `antonym`)
+   because 電動 is a power-source descriptor, not a lexical opposite.
+   - 06412_dendou (電動): `related → 12890_shudou`, `related → 03339_jidou`
+   - 12890_shudou (手動): `antonym → 03339_jidou` (unchanged),
+     `related → 06412_dendou` (retyped from antonym)
+   - 03339_jidou (自動): `antonym → 12890_shudou` (unchanged),
+     `related → 06412_dendou` (new)
+
+3. **00528_kesu → 00761_tsukeru**: Label changed from "to attach" to
+   "to turn on" (the contextually relevant sense of 付ける in this
+   antonym pair).
+
+4. **03595_fukou → 02774_saiwai**: Label changed from "fortunately" to
+   "happiness" (the noun sense of 幸い that pairs with 不幸).
+
+Entries modified in this addendum: 7
+(11717_kaeru, 00508_kaeru, 06412_dendou, 12890_shudou, 03339_jidou,
+00528_kesu, 03595_fukou).
+
+Validation: 23021/23021 entries valid, asymmetry count unchanged (2766 total,
+antonym: 0) because all modifications are symmetric (both sides of the
+triangle retyped together, both sides of 11717/00508 removed together, and
+the label fixes do not affect asymmetry).
