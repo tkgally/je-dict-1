@@ -51,6 +51,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23277-23296) from candidate_words.json. All nouns — a mix of professional roles, institutional and social vocabulary, finance, military/politics, and everyday practical terms.
+
+- **Nouns (20)**: {国語辞典|こくごじてん} (Japanese dictionary), {調理場|ちょうりば} (commercial kitchen), {研修会|けんしゅうかい} (training session), {相談会|そうだんかい} (consultation session), {担当医|たんとうい} (attending physician), {団体行動|だんたいこうどう} (group action), {発明者|はつめいしゃ} (inventor), {設計者|せっけいしゃ} (designer/architect), {産油国|さんゆこく} (oil-producing country), {開拓者|かいたくしゃ} (pioneer), {戦闘機|せんとうき} (fighter plane), {倹約家|けんやくか} (frugal person), {軍事力|ぐんじりょく} (military strength), {季節労働|きせつろうどう} (seasonal labor), {自己資金|じこしきん} (personal funds), {優待券|ゆうたいけん} (preferential voucher), {調理用具|ちょうりようぐ} (cooking utensils), {視力矯正|しりょくきょうせい} (vision correction), {人数制限|にんずうせいげん} (headcount limit), {防護壁|ぼうごへき} (protective wall)
+
 ### 2026-04-11 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A mix of formal, technical, and everyday vocabulary covering food, international politics, security, business, linguistics, body/beauty, and materials science.
 
@@ -88,20 +93,6 @@ Added 30 new dictionary entries (IDs 23193-23222) from candidate_words.json. A d
 - **勉強会** (study group) rounds out the set
 - Added 1 new kanji to index: 窘 (admonish)
 - Removed 1 stale candidate (引き落とし — duplicate of existing 引落し entry 07556)
-
-### 2026-04-10 (New Candidates - 55 Words Added)
-Added 55 new candidate words to candidate_words.json using diverse search strategies. Candidate count now ~3,260.
-
-- **Scenario gaps (14)**: 示談, 引き落とし, レンタカー, 血液検査, 尿検査, 再検査, 乗り越し, 出し物, ベジタリアン, 信号無視, 記念写真, 勉強会, 家電量販店, 料理教室
-- **Expressive adjectives (8)**: 小賢しい, 仰々しい, 末恐ろしい, 罪深い, 底知れない, 見苦しい, 聞き苦しい, 恨めしい
-- **Modern social/workplace (7)**: 炎上する, 課金する, 配信する, フレックス, 承認欲求, マウントを取る, 忖度する, ブラック企業, 働き方改革
-- **Legal (4)**: 不起訴, 公判, 供述, 自首
-- **Academic (6)**: 論旨, 剽窃, 盗用, 紀要, 学士, 口頭試問, 論文審査
-- **Housing/tax (6)**: 原状回復, 更新料, 鍵交換, 二重窓, 扶養控除, 医療費控除
-- **Medical (4)**: 紹介状, 内視鏡, 再診, 人間ドック
-- **Nature/biology (5)**: 吹雪く, 真冬日, 樹齢, 枝垂れ, 外来種, 株分け
-- **Arts/crafts (3)**: 鋳造, 轆轤, 釉薬
-- **Other (misc)**: 足掻く, 窘める, 僻む, 振込先, 裏漉し, 気骨, 尻拭い, 思い巡らす, 食い意地, ぼやぼや, しどろもどろ, 即日配送, 定期便, 送料無料, 二次元コード, ログインする, 総集編, お蔵入り, 寸志, 拝受, 割愛する, 委細, 諸般, 有酸素運動, 腕立て伏せ, 持久走, 反復横跳び, 折返し運転, 間引き運転
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
