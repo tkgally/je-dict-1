@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-08 (Vocabulary Expansion - 30 New Entries, Session 49)
+Added 30 new dictionary entries (IDs 23138-23167) from candidate_words.json. A mix of nouns, na-adjectives, suru verbs, and a counter covering culture, daily life, politics, law, nature, food, education, and society.
+
+- **Nouns (16)**: {和式|わしき} (Japanese style), {期待外|きたいはず}れ (disappointment), {目|め}つき (look in eyes), {前代|ぜんだい} (previous generation), {営利|えいり} (profit-making), {党派|とうは} (political faction), {山水|さんすい} (landscape), {名画座|めいがざ} (repertory cinema), {手毬|てまり} (temari ball), {院卒|いんそつ} (graduate school grad), {供花|きょうか} (funeral flowers), {排水管|はいすいかん} (drainpipe), {輪番制|りんばんせい} (rotation system), {貸室|かししつ} (rental room), {年忌|ねんき} (memorial anniversary), {幼稚園児|ようちえんじ} (kindergartener)
+- **Noun/na-adjective (3)**: {無表情|むひょうじょう} (expressionless), つむじまがり (contrarian), {激高|げきたか} (very expensive)
+- **Noun/suru verbs (4)**: {水没|すいぼつ} (submersion), {出所|しゅっしょ} (release from prison), {急加速|きゅうかそく} (rapid acceleration), {駐留|ちゅうりゅう} (stationing)
+- **Noun/adjective-no (3)**: {和式|わしき}, {期待外|きたいはず}れ, {水溶性|すいようせい} (water-soluble)
+- **Other (2)**: とらわれ (obsession/fixation), すりごま (ground sesame)
+- **Counter (1)**: {一冊|いっさつ} (one book)
+- **Banking (1)**: {自動振込|じどうふりこみ} (automatic bank transfer)
+- **Legal (1)**: {欠格|けっかく} (disqualification)
+- **Nature (1)**: {雉|きじ} (pheasant — Japan's national bird)
+- Added 2 new kanji to index: 毬 (ball), 雉 (pheasant)
+
 ### 2026-04-01 (Vocabulary Expansion - 30 New Entries, Session 563)
 Added 30 new dictionary entries (IDs 21254-21283) from candidate_words.json. A diverse mix of practical vocabulary covering daily life, weather, society, medicine, education, culture, and emotions.
 
