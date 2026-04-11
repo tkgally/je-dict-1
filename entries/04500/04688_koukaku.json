@@ -6,73 +6,6 @@
   "gloss": "demotion; downgrading",
   "conjugation": {
     "type": "suru",
-    "prefix": "{降格|こうかく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "demotion; downgrading in rank",
-      "explanation": "A reduction in job rank, position, or status."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04688_koukaku_ex1",
-      "japanese": "{不祥事|ふしょうじ}で{降格|こうかく}させられた。",
-      "english": "I was demoted due to a scandal.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04688_koukaku_ex2",
-      "japanese": "{降格|こうかく}{人事|じんじ}が{発表|はっぴょう}された。",
-      "english": "A demotion was announced in the personnel changes.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04688_koukaku_ex3",
-      "japanese": "{成績|せいせき}が{悪|わる}いと{降格|こうかく}の{可能性|かのうせい}がある。",
-      "english": "Poor performance may lead to demotion.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{降格|こうかく} is a compound: {降|こう} (descend) + {格|かく} (rank).\n\nCOMMON COLLOCATIONS:\n- {降格|こうかく}する (to be demoted)\n- {降格|こうかく}させる (to demote someone)\n- {降格|こうかく}{人事|じんじ} (personnel changes involving demotion)\n- {降格|こうかく}{処分|しょぶん} (demotion as disciplinary action)\n\nCONTRAST:\n- {昇格|しょうかく} (promotion in rank - opposite)\n- {昇進|しょうしん} (promotion)\n\nRELATED VOCABULARY:\n- {左遷|させん} (transfer to a less desirable position)\n- {解雇|かいこ} (dismissal)\n- {減給|げんきゅう} (salary reduction)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "しょうかく",
-      "headword": "{昇格|しょうかく}",
-      "label": "promotion",
-      "target_id": "08369_shoukaku"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-15T23:09:03Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "emotion"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -160,5 +93,75 @@
         "negative": "{降格|こうかく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "demotion; downgrading in rank",
+      "explanation": "A reduction in job rank, position, or status."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04688_koukaku_ex1",
+      "japanese": "{不祥事|ふしょうじ}で{降格|こうかく}させられた。",
+      "english": "I was demoted due to a scandal.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04688_koukaku_ex2",
+      "japanese": "{降格|こうかく}{人事|じんじ}が{発表|はっぴょう}された。",
+      "english": "A demotion was announced in the personnel changes.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04688_koukaku_ex3",
+      "japanese": "{成績|せいせき}が{悪|わる}いと{降格|こうかく}の{可能性|かのうせい}がある。",
+      "english": "Poor performance may lead to demotion.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{降格|こうかく} is a compound: {降|こう} (descend) + {格|かく} (rank).\n\nCOMMON COLLOCATIONS:\n- {降格|こうかく}する (to be demoted)\n- {降格|こうかく}させる (to demote someone)\n- {降格|こうかく}{人事|じんじ} (personnel changes involving demotion)\n- {降格|こうかく}{処分|しょぶん} (demotion as disciplinary action)\n\nCONTRAST:\n- {昇格|しょうかく} (promotion in rank - opposite)\n- {昇進|しょうしん} (promotion)\n\nRELATED VOCABULARY:\n- {左遷|させん} (transfer to a less desirable position)\n- {解雇|かいこ} (dismissal)\n- {減給|げんきゅう} (salary reduction)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "しょうかく",
+      "headword": "{昇格|しょうかく}",
+      "label": "promotion",
+      "target_id": "08369_shoukaku"
+    },
+    {
+      "type": "antonym",
+      "target_id": "04553_shoushin",
+      "reading": "しょうしん",
+      "headword": "{昇進|しょうしん}",
+      "label": "promotion (at work)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-15T23:09:03Z",
+    "modified": "2026-04-11T01:25:09Z",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

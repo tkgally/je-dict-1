@@ -24,7 +24,10 @@
       "english": "It's a better deal to buy in bulk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1, 2]
+      "sense_numbers": [
+        1,
+        2
+      ]
     },
     {
       "id": "12563_toku_ex2",
@@ -32,7 +35,9 @@
       "english": "You save five thousand yen by booking early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12563_toku_ex3",
@@ -40,7 +45,9 @@
       "english": "There is a proverb that says you gain by taking a loss.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12563_toku_ex4",
@@ -48,7 +55,9 @@
       "english": "It's a better deal if you use this coupon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12563_toku_ex5",
@@ -56,7 +65,9 @@
       "english": "Which is more economical, buying a commuter pass or buying a ticket each time?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12563_toku_ex6",
@@ -64,21 +75,37 @@
       "english": "A card with no annual fee can sometimes be the better deal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in everyday conversation about shopping, money, and practical decisions. Often used with する: {得|とく}する means \"to profit, to come out ahead.\" Also appears as a na-adjective: {得|とく}な{情報|じょうほう} (useful information, tips on deals).\n\nDo not confuse with {徳|とく} (virtue, moral goodness), which is a different word.\n\nCOMMON COLLOCATIONS:\n- {得|とく}する: to profit, to benefit\n- {得|とく}な{情報|じょうほう}: tips on bargains\n- {損得|そんとく}: profit and loss, pros and cons\n- お{得|とく}: bargain, good deal (polite/commercial)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03325_son",
+      "reading": "そん",
+      "headword": "{損|そん}",
+      "label": "loss"
+    }
+  ],
   "metadata": {
     "created": "2026-02-21T13:24:54Z",
-    "modified": "2026-02-21T13:24:54Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["economics", "evaluation"]
+      "semantic": [
+        "economics",
+        "evaluation"
+      ]
     }
   }
 }

@@ -5,7 +5,44 @@
   "part_of_speech": "godan verb",
   "gloss": "to exist, to be (inanimate)",
   "conjugation": {
-    "type": "aru"
+    "type": "aru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "ある",
+        "negative": "ない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "あります",
+        "negative": "ありません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "あった",
+        "negative": "なかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "ありました",
+        "negative": "ありませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "あって",
+        "negative": "なくて"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "あれば",
+        "negative": "なければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "あったら",
+        "negative": "なかったら"
+      }
+    ]
   },
   "definitions": [
     {
@@ -185,10 +222,18 @@
       "note": "animate counterpart"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "01118_nai",
+      "reading": "ない",
+      "headword": "ない",
+      "label": "nonexistent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-05T10:43:43Z",
-    "modified": "2026-04-10T06:37:05Z",
+    "modified": "2026-04-11T01:25:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -203,45 +248,5 @@
       ],
       "verb_class": "irregular"
     }
-  },
-  "conjugation": {
-    "type": "aru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "ある",
-        "negative": "ない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "あります",
-        "negative": "ありません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "あった",
-        "negative": "なかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "ありました",
-        "negative": "ありませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "あって",
-        "negative": "なくて"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "あれば",
-        "negative": "なければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "あったら",
-        "negative": "なかったら"
-      }
-    ]
   }
 }

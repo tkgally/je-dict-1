@@ -6,78 +6,6 @@
   "gloss": "expectation, hope",
   "conjugation": {
     "type": "suru",
-    "prefix": "{期待|きたい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "expectation, anticipation, hope",
-      "explanation": "A belief that something will happen or be the case."
-    }
-  ],
-  "examples": [
-    {
-      "id": "00238_kitai_ex1",
-      "japanese": "{期待|きたい}⟦しています→する：00392_suru⟧。",
-      "english": "I'm looking forward to it. / I have high hopes.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00238_kitai_ex2",
-      "japanese": "{期待|きたい}⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧。",
-      "english": "To meet expectations.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00238_kitai_ex3",
-      "japanese": "{期待|きたい}⟦はずれ→外れる：02395_hazureru⟧⟦だった→だ：09496_da⟧。",
-      "english": "It didn't meet expectations.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{期待|きたい} means \"expectation\" or \"hope\"—anticipating something positive will happen. Can function as a noun or する verb.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{期待|きたい}する\n\nCOMMON PATTERNS:\n- 〜を{期待|きたい}する: to expect ~, to hope for ~\n- {期待|きたい}に{応|こた}える: to meet/live up to expectations\n- {期待|きたい}を{裏切|うらぎ}る: to betray expectations\n- {期待|きたい}はずれ: disappointment, letdown\n- {期待|きたい}が{高|たか}まる: expectations rise\n\nCOMMON EXPRESSIONS:\n- {期待|きたい}しています: I'm looking forward to it\n- ご{期待|きたい}ください: Please look forward to it (promotional)\n- {期待|きたい}どおり: as expected\n\nUSAGE NOTE: {期待|きたい} usually implies positive anticipation, unlike 予想 (yosou) which is more neutral.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-04-10T06:45:29Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "emotion"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "06065_kitaisuru",
-      "reading": "きたいする",
-      "headword": "{期待|きたい}する",
-      "note": "verb form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -165,5 +93,81 @@
         "negative": "{期待|きたい}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "expectation, anticipation, hope",
+      "explanation": "A belief that something will happen or be the case."
+    }
+  ],
+  "examples": [
+    {
+      "id": "00238_kitai_ex1",
+      "japanese": "{期待|きたい}⟦しています→する：00392_suru⟧。",
+      "english": "I'm looking forward to it. / I have high hopes.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00238_kitai_ex2",
+      "japanese": "{期待|きたい}⟦に→に：00314_ni⟧⟦{応|こた}える→応える：09893_kotaeru⟧。",
+      "english": "To meet expectations.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00238_kitai_ex3",
+      "japanese": "{期待|きたい}⟦はずれ→外れる：02395_hazureru⟧⟦だった→だ：09496_da⟧。",
+      "english": "It didn't meet expectations.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{期待|きたい} means \"expectation\" or \"hope\"—anticipating something positive will happen. Can function as a noun or する verb.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{期待|きたい}する\n\nCOMMON PATTERNS:\n- 〜を{期待|きたい}する: to expect ~, to hope for ~\n- {期待|きたい}に{応|こた}える: to meet/live up to expectations\n- {期待|きたい}を{裏切|うらぎ}る: to betray expectations\n- {期待|きたい}はずれ: disappointment, letdown\n- {期待|きたい}が{高|たか}まる: expectations rise\n\nCOMMON EXPRESSIONS:\n- {期待|きたい}しています: I'm looking forward to it\n- ご{期待|きたい}ください: Please look forward to it (promotional)\n- {期待|きたい}どおり: as expected\n\nUSAGE NOTE: {期待|きたい} usually implies positive anticipation, unlike 予想 (yosou) which is more neutral.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03183_shitsubou",
+      "reading": "しつぼう",
+      "headword": "{失望|しつぼう}",
+      "label": "disappointment"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-10T08:42:54Z",
+    "modified": "2026-04-11T01:25:09Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "06065_kitaisuru",
+      "reading": "きたいする",
+      "headword": "{期待|きたい}する",
+      "note": "verb form"
+    }
+  ]
 }
