@@ -5,6 +5,9 @@ on:
     branches: [main]
     paths: ['entries/**/*.json']
 
+permissions:
+  contents: write
+
 jobs:
   queue:
     runs-on: ubuntu-latest
