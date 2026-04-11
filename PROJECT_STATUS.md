@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-11 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A mix of formal, technical, and everyday vocabulary covering food, international politics, security, business, linguistics, body/beauty, and materials science.
+
+- **Nouns (13)**: {一口|ひとくち}サイズ (bite-sized), {核弾頭|かくだんとう} (nuclear warhead), {国交断絶|こっこうだんぜつ} (severance of diplomatic relations), {主力商品|しゅりょくしょうひん} (flagship product), {暗号鍵|あんごうかぎ} (encryption key), {不透明度|ふとうめいど} (opacity), {一重|ひとえ}まぶた (single eyelid), {二重|ふたえ}まぶた (double eyelid), {平和維持活動|へいわいじかつどう} (peacekeeping operations), {摩擦音|まさつおん} (fricative), {競争原理|きょうそうげんり} (principle of competition), {合成樹脂|ごうせいじゅし} (synthetic resin)
+- **Noun/suru verbs (2)**: {非核化|ひかくか} (denuclearization), {水耕栽培|すいこうさいばい} (hydroponics)
+- **Expressions (2)**: {関係者各位|かんけいしゃかくい} (to whom it may concern), {詳細不明|しょうさいふめい} (details unknown)
+- Removed 1 stale candidate (多角形/たかっけい — variant reading duplicate of existing 05553 多角形/たかくけい)
+
 ### 2026-04-11 (Vocabulary Expansion - 18 New Entries)
 Added 18 new dictionary entries (IDs 23243-23260) from candidate_words.json. A diverse mix of nouns, a godan verb, and two i-adjectives covering nature, academia, law, medicine, housing, exercise, and everyday language.
 
@@ -94,16 +102,6 @@ Added 55 new candidate words to candidate_words.json using diverse search strate
 - **Nature/biology (5)**: 吹雪く, 真冬日, 樹齢, 枝垂れ, 外来種, 株分け
 - **Arts/crafts (3)**: 鋳造, 轆轤, 釉薬
 - **Other (misc)**: 足掻く, 窘める, 僻む, 振込先, 裏漉し, 気骨, 尻拭い, 思い巡らす, 食い意地, ぼやぼや, しどろもどろ, 即日配送, 定期便, 送料無料, 二次元コード, ログインする, 総集編, お蔵入り, 寸志, 拝受, 割愛する, 委細, 諸般, 有酸素運動, 腕立て伏せ, 持久走, 反復横跳び, 折返し運転, 間引き運転
-
-### 2026-04-08 (Vocabulary Expansion - 25 New Entries, Session 50)
-Added 25 new dictionary entries (IDs 23168-23192) from candidate_words.json. A diverse mix of nouns, suru verbs, and a godan verb covering daily life, culture, food, language, politics, military, measurement, and more.
-
-- **Nouns (14)**: テクニック (technique), {序論|じょろん} (introduction), {相談者|そうだんしゃ} (person seeking advice), {支配権|しはいけん} (control/dominion), {掴|つか}み{所|どころ} (defining characteristic), {蚊取|かと}り (mosquito repelling), {酒好|さけず}き (sake lover), ミリメートル (millimeter), {来館者|らいかんしゃ} (visitor to a facility), {言|い}い{様|よう} (way of saying), {悪感|あくかん} (ill will), ハマグリ (clam), ライ{麦|むぎ} (rye), {円弧|えんこ} (arc), {主翼|しゅよく} (main wing), {公印|こういん} (official seal), {工匠|こうしょう} (artisan)
-- **Noun/suru verbs (4)**: {文書化|ぶんしょか} (documentation), {出撃|しゅつげき} (sortie), {毒殺|どくさつ} (poisoning to death), {敢闘|かんとう} (fighting bravely)
-- **Noun/na-adjective (1)**: {酒好|さけず}き (fond of drinking)
-- **Godan verb (1)**: {這|は}い{込|こ}む (to crawl into)
-- **Noun with two senses (2)**: {門外|もんがい} (outside the gate / outside one's field), {終礼|しゅうれい} (end-of-day meeting)
-- **Loanwords (3)**: テクニック, ミリメートル, ハマグリ (katakana standard)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
