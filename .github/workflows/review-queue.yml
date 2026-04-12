@@ -8,6 +8,14 @@ on:
 permissions:
   contents: write
 
+# Serialize runs on main so two Queue Reviews jobs can't race each other.
+# cancel-in-progress is false because each run must commit the entries
+# changed by its specific triggering commit — canceling a run would drop
+# those entries from the review queue.
+concurrency:
+  group: queue-reviews-${{ github.ref }}
+  cancel-in-progress: false
+
 jobs:
   queue:
     runs-on: ubuntu-latest
@@ -16,15 +24,50 @@ jobs:
         with:
           fetch-depth: 2
 
-      - name: Find changed entries
+      - name: Capture changed entries from triggering commit
         run: |
-          git diff --name-only HEAD~1 HEAD -- 'entries/**/*.json' >> reviews/queue.txt
-          sort -u reviews/queue.txt -o reviews/queue.txt
+          # Record the entries changed by the triggering commit *before*
+          # doing any git manipulation in the push loop below, so we can
+          # re-apply the same list after a reset to the latest main.
+          git diff --name-only HEAD~1 HEAD -- 'entries/**/*.json' \
+            > /tmp/changed-entries.txt
+          echo "Changed entry files captured:"
+          cat /tmp/changed-entries.txt || true
 
-      - name: Commit queue update
+      - name: Append to queue and push
         run: |
+          set -e
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add reviews/queue.txt
-          git diff --staged --quiet || git commit -m "Queue entries for multi-model review"
-          git push
+
+          # Retry loop: if another commit lands on main between our fetch
+          # and our push, reset to the new tip, re-append the captured
+          # entry list, and try again. The queue is monotonic (sort -u
+          # de-dupes), so re-applying the same list on top of a newer
+          # main is safe.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            cat /tmp/changed-entries.txt >> reviews/queue.txt
+            sort -u reviews/queue.txt -o reviews/queue.txt
+
+            if git diff --quiet reviews/queue.txt; then
+              echo "reviews/queue.txt already contains all entries from this push."
+              exit 0
+            fi
+
+            git add reviews/queue.txt
+            git commit -m "Queue entries for multi-model review"
+
+            if git push origin HEAD:main; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected on attempt $attempt; remote advanced. Retrying..."
+            sleep $((attempt * 3))
+          done
+
+          echo "Failed to push reviews/queue.txt update after 5 attempts." >&2
+          exit 1
