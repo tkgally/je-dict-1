@@ -101,12 +101,6 @@ Run make consistency and summarize the results.
 ```
 Finds structural issues: missing collocations, asymmetric cross-references, note problems.
 
-### Semantic Field Coverage
-```
-Run make audit-fields and summarize which fields have the worst coverage.
-```
-Shows which semantic domains (body parts, colors, daily life, etc.) have vocabulary gaps.
-
 ### Scenario Coverage
 ```
 Run python3 build/analyze_scenarios.py --top-gaps 20 and show me the highest-impact missing words.
