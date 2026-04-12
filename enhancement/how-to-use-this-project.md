@@ -101,12 +101,6 @@ Run make consistency and summarize the results.
 ```
 Finds structural issues: missing collocations, asymmetric cross-references, note problems.
 
-### Scenario Coverage
-```
-Run python3 build/analyze_scenarios.py --top-gaps 20 and show me the highest-impact missing words.
-```
-Shows which words learners would need most but the dictionary doesn't have yet.
-
 ### Vocabulary Tier Audit
 ```
 Run make audit-tiers and show me any outliers.
