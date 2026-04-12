@@ -3,6 +3,12 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 30 New Practical Entries)
+Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Focused on practical, daily-life vocabulary useful for foreign residents and travelers in Japan: housing, finance, transportation, technology, entertainment, and business communication.
+
+- **Nouns (30)**: お{寺|てら} (Buddhist temple), トレー (tray), メーター (meter/gauge), キャラクター (fictional/mascot character), アトラクション (amusement park attraction), {普通|ふつう}{預金|よきん} (savings account), {国際|こくさい}{郵便|ゆうびん} (international mail), コンビニ{払|ばら}い (convenience store payment), {日本語|にほんご}{学校|がっこう} (Japanese language school), {為替|かわせ}レート (exchange rate), {燃|も}えないゴミ (non-burnable trash), {在留|ざいりゅう}カード (residence card), ICカード (IC transit card), ペット{可|か} (pets allowed), {音声|おんせい}ガイド (audio guide), {保険|ほけん}{会社|がいしゃ} (insurance company), {管理|かんり}{会社|がいしゃ} (management company), {相談|そうだん}{窓口|まどぐち} (consultation counter), {引|ひ}っ{越|こ}し{業者|ぎょうしゃ} (moving company), {国民|こくみん}{年金|ねんきん} (national pension), ジェットコースター (roller coaster), SIMカード (SIM card), {訳|やく} (translation), ご{挨拶|あいさつ} (formal greeting), タイム (time/time-out), メールアドレス (email address), {共用|きょうよう}{部分|ぶぶん} (shared area), {実行|じっこう}{委員|いいん} (organizing committee member), {横|よこ}{一列|いちれつ} (horizontal line), ご{確認|かくにん} (confirmation, formal)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A diverse mix of practical, everyday vocabulary useful for intermediate learners: food/drink, health, daily life, travel, entertainment, culture, and nature.
 
