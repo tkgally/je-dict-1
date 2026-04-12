@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 22 New Entries)
+Added 22 new dictionary entries (IDs 23459-23482) from candidate_words.json. A diverse mix of vocabulary across cooking, language/phonetics, business, military/history, culture, health, nature, and modern slang.
+
+- **Nouns (18)**: {論争点|ろんそうてん} (point of contention), {縦列|じゅうれつ} (column/vertical row), {御神体|ごしんたい} (sacred shrine object), {拗音|ようおん} (contracted sounds), {撥音|はつおん} (nasal n sound), {左党|さとう} (sake lover), {自著|じちょ} (one's own book), {設定温度|せっていおんど} (set temperature), {多目的室|たもくてきしつ} (multi-purpose room), {能力給|のうりょくきゅう} (merit pay), {営業収益|えいぎょうしゅうえき} (operating revenue), {多忙期|たぼうき} (busy period), {情趣|じょうしゅ} (charm/refined atmosphere), {陣形|じんけい} (battle formation), {本営|ほんえい} (headquarters), {商売仇|しょうばいがたき} (business rival), {空一面|そらいちめん} (entire sky), {脂性|あぶらしょう} (oily skin), {果菜|かさい} (fruit vegetable), {慢性病|まんせいびょう} (chronic illness), しんどさ (tiredness/hardship)
+- **Noun/suru verbs (2)**: {調味|ちょうみ}する (to season food), {裏漉|うらご}し (straining/sieving)
+- **Expression (1)**: マウントを{取|と}る (to one-up/assert dominance)
+- Removed 2 stale candidates (base forms already existed)
+
 ### 2026-04-11 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23261-23276) from candidate_words.json. A mix of formal, technical, and everyday vocabulary covering food, international politics, security, business, linguistics, body/beauty, and materials science.
 

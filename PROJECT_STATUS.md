@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Focused on high-frequency set expressions, everyday collocations, and common spoken/business phrases that learners encounter early but often lack good dictionary coverage for.
+
+- **Expressions (11)**: よろしくお{願|ねが}いします (please treat me well / I look forward to working with you), お{邪魔|じゃま}します (pardon my intrusion, said on entering), お{邪魔|じゃま}しました (thanks for having me, said on leaving), お{世話|せわ}になっております (thank you for your continued support, business greeting), つまらないものですが (it's just a small thing, said when giving a gift), {靴|くつ}を{脱|ぬ}ぐ (to take off one's shoes), {顔|かお}を{洗|あら}う (to wash one's face), {髪|かみ}を{乾|かわ}かす (to dry one's hair), {次|つぎ}の{駅|えき} (the next station), お{忙|いそが}しいところ (when you are busy, polite preface), {一列|いちれつ}に{並|なら}ぶ (to line up in a single file)
+- **Expression/interjection (1)**: {助|たす}けて (help!; help me!)
+- **Nouns (2)**: お{水|みず} (water, polite form), {起工式|きこうしき} (groundbreaking ceremony)
+- Removed 14 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
 Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
 
@@ -82,17 +90,6 @@ Added 12 new dictionary entries (IDs 23483-23494) from candidate_words.json. A m
 - **Nouns (11)**: {菜|な}っ{葉|ぱ} (leafy greens), {遊歩道|ゆうほどう} (promenade/walkway), {年数|ねんすう} (number of years), {墓参|ぼさん} (visiting a grave), {組成|そせい} (composition/makeup), {門下|もんか} (disciples/pupils), {行員|こういん} (bank employee), {特使|とくし} (special envoy), {散歩道|さんぽみち} (walking path), {水夫|すいふ} (sailor), {画壇|がだん} (art world)
 - **Noun/suru verb (1)**: {去勢|きょせい} (castration/neutering)
 - Removed 12 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 22 New Entries)
-Added 22 new dictionary entries (IDs 23459-23482) from candidate_words.json. A diverse mix of vocabulary across cooking, language/phonetics, business, military/history, culture, health, nature, and modern slang.
-
-- **Nouns (18)**: {論争点|ろんそうてん} (point of contention), {縦列|じゅうれつ} (column/vertical row), {御神体|ごしんたい} (sacred shrine object), {拗音|ようおん} (contracted sounds), {撥音|はつおん} (nasal n sound), {左党|さとう} (sake lover), {自著|じちょ} (one's own book), {設定温度|せっていおんど} (set temperature), {多目的室|たもくてきしつ} (multi-purpose room), {能力給|のうりょくきゅう} (merit pay), {営業収益|えいぎょうしゅうえき} (operating revenue), {多忙期|たぼうき} (busy period), {情趣|じょうしゅ} (charm/refined atmosphere), {陣形|じんけい} (battle formation), {本営|ほんえい} (headquarters), {商売仇|しょうばいがたき} (business rival), {空一面|そらいちめん} (entire sky), {脂性|あぶらしょう} (oily skin), {果菜|かさい} (fruit vegetable), {慢性病|まんせいびょう} (chronic illness), しんどさ (tiredness/hardship)
-- **Noun/suru verbs (2)**: {調味|ちょうみ}する (to season food), {裏漉|うらご}し (straining/sieving)
-- **Expression (1)**: マウントを{取|と}る (to one-up/assert dominance)
-- Removed 2 stale candidates (base forms already existed)
-
-
-
 
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
