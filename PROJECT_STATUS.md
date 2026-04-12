@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A mix of everyday loanwords, banking and transportation vocabulary, policy/business terms, and technical computing and science terms.
+
+- **Nouns (11)**: メインディッシュ (main dish), {銃撃戦|じゅうげきせん} (shootout), {旅客列車|りょかくれっしゃ} (passenger train), {熱伝導|ねつでんどう} (heat conduction), {磁気|じき}テープ (magnetic tape), {発光|はっこう}ダイオード (light-emitting diode), {演算子|えんざんし} (operator — math/programming), {預金通帳|よきんつうちょう} (bankbook), {学園生活|がくえんせいかつ} (school/campus life), {地域振興|ちいきしんこう} (regional development), {球根|きゅうこん}{植物|しょくぶつ} (bulb plant)
+- **Noun/suru verbs (4)**: サインイン (sign in), {均質化|きんしつか} (homogenization), {通帳記入|つうちょうきにゅう} (passbook update), {演算処理|えんざんしょり} (arithmetic processing)
+- Removed 15 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Focused on high-frequency set expressions, everyday collocations, and common spoken/business phrases that learners encounter early but often lack good dictionary coverage for.
 
@@ -83,13 +90,6 @@ Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A d
 - **Noun/suffix (1)**: {抜|ぬ}き (without/excluding)
 - **Expression (1)**: {目|め}が{覚|さ}める (to wake up; to come to one's senses)
 - Removed 20 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 12 New Entries)
-Added 12 new dictionary entries (IDs 23483-23494) from candidate_words.json. A mix of food, nature, time, culture, science, occupational, diplomatic, and art vocabulary.
-
-- **Nouns (11)**: {菜|な}っ{葉|ぱ} (leafy greens), {遊歩道|ゆうほどう} (promenade/walkway), {年数|ねんすう} (number of years), {墓参|ぼさん} (visiting a grave), {組成|そせい} (composition/makeup), {門下|もんか} (disciples/pupils), {行員|こういん} (bank employee), {特使|とくし} (special envoy), {散歩道|さんぽみち} (walking path), {水夫|すいふ} (sailor), {画壇|がだん} (art world)
-- **Noun/suru verb (1)**: {去勢|きょせい} (castration/neutering)
-- Removed 12 candidates that now exist as entries
 
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
