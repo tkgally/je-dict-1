@@ -3,6 +3,15 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A diverse mix of practical, everyday vocabulary useful for intermediate learners: food/drink, health, daily life, travel, entertainment, culture, and nature.
+
+- **Nouns (17)**: {朝日|あさひ} (morning sun), {生|なま}ビール (draft beer), {痛|いた}み{止|ど}め (painkiller), {還付|かんぷ} (refund), {端数|はすう} (fraction/odd amount), {暑中見舞|しょちゅうみま}い (summer greeting card), {親知|おやし}らず (wisdom tooth), {番号札|ばんごうふだ} (numbered ticket), {送|おく}り{先|さき} (destination address), ドリンク (drink/beverage), ナビ (navigation), {防災|ぼうさい}グッズ (disaster supplies), {取|と}り{付|つ}け (installation), {便名|びんめい} (flight number), {日誌|にっし} (daily log), {怪我人|けがにん} (injured person), ポップコーン (popcorn)
+- **Noun/suru verbs (2)**: {還付|かんぷ} (refund), {開演|かいえん} (start of performance) — both also function as nouns
+- **Noun/suffix (1)**: {抜|ぬ}き (without/excluding)
+- **Expression (1)**: {目|め}が{覚|さ}める (to wake up; to come to one's senses)
+- Removed 20 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 12 New Entries)
 Added 12 new dictionary entries (IDs 23483-23494) from candidate_words.json. A mix of food, nature, time, culture, science, occupational, diplomatic, and art vocabulary.
 

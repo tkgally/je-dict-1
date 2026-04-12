@@ -52,6 +52,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23595-23609) from candidate_words.json. A mix of legal, medical, food, geographical, biological, business, and civics vocabulary of practical value to intermediate learners.
+
+- **Nouns (13)**: {破産者|はさんしゃ} (bankrupt person), {皮膚炎|ひふえん} (dermatitis), {三温糖|さんおんとう} (Japanese light brown sugar), {入場者|にゅうじょうしゃ} (attendee / visitor), {峠道|とうげみち} (mountain pass road), {尾骨|びこつ} (coccyx / tailbone), {親権者|しんけんしゃ} (parent with legal custody), {正式名称|せいしきめいしょう} (official name), {発見者|はっけんしゃ} (discoverer / finder), {営業所|えいぎょうしょ} (sales / branch office), {受精卵|じゅせいらん} (fertilized egg), {閉店時間|へいてんじかん} (closing time), {市議会|しぎかい} (city council), {水力発電|すいりょくはつでん} (hydroelectric power generation)
+- **Na-adjectives (1)**: {民族的|みんぞくてき} (ethnic / national)
+- Removed 15 candidates that now exist as entries
+
+### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A mix of everyday loanwords, banking and transportation vocabulary, policy/business terms, and technical computing and science terms.
 
 - **Nouns (11)**: メインディッシュ (main dish), {銃撃戦|じゅうげきせん} (shootout), {旅客列車|りょかくれっしゃ} (passenger train), {熱伝導|ねつでんどう} (heat conduction), {磁気|じき}テープ (magnetic tape), {発光|はっこう}ダイオード (light-emitting diode), {演算子|えんざんし} (operator — math/programming), {預金通帳|よきんつうちょう} (bankbook), {学園生活|がくえんせいかつ} (school/campus life), {地域振興|ちいきしんこう} (regional development), {球根|きゅうこん}{植物|しょくぶつ} (bulb plant)
@@ -81,16 +88,6 @@ Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Foc
 
 - **Nouns (30)**: お{寺|てら} (Buddhist temple), トレー (tray), メーター (meter/gauge), キャラクター (fictional/mascot character), アトラクション (amusement park attraction), {普通|ふつう}{預金|よきん} (savings account), {国際|こくさい}{郵便|ゆうびん} (international mail), コンビニ{払|ばら}い (convenience store payment), {日本語|にほんご}{学校|がっこう} (Japanese language school), {為替|かわせ}レート (exchange rate), {燃|も}えないゴミ (non-burnable trash), {在留|ざいりゅう}カード (residence card), ICカード (IC transit card), ペット{可|か} (pets allowed), {音声|おんせい}ガイド (audio guide), {保険|ほけん}{会社|がいしゃ} (insurance company), {管理|かんり}{会社|がいしゃ} (management company), {相談|そうだん}{窓口|まどぐち} (consultation counter), {引|ひ}っ{越|こ}し{業者|ぎょうしゃ} (moving company), {国民|こくみん}{年金|ねんきん} (national pension), ジェットコースター (roller coaster), SIMカード (SIM card), {訳|やく} (translation), ご{挨拶|あいさつ} (formal greeting), タイム (time/time-out), メールアドレス (email address), {共用|きょうよう}{部分|ぶぶん} (shared area), {実行|じっこう}{委員|いいん} (organizing committee member), {横|よこ}{一列|いちれつ} (horizontal line), ご{確認|かくにん} (confirmation, formal)
 - Removed 30 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 20 New Entries)
-Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A diverse mix of practical, everyday vocabulary useful for intermediate learners: food/drink, health, daily life, travel, entertainment, culture, and nature.
-
-- **Nouns (17)**: {朝日|あさひ} (morning sun), {生|なま}ビール (draft beer), {痛|いた}み{止|ど}め (painkiller), {還付|かんぷ} (refund), {端数|はすう} (fraction/odd amount), {暑中見舞|しょちゅうみま}い (summer greeting card), {親知|おやし}らず (wisdom tooth), {番号札|ばんごうふだ} (numbered ticket), {送|おく}り{先|さき} (destination address), ドリンク (drink/beverage), ナビ (navigation), {防災|ぼうさい}グッズ (disaster supplies), {取|と}り{付|つ}け (installation), {便名|びんめい} (flight number), {日誌|にっし} (daily log), {怪我人|けがにん} (injured person), ポップコーン (popcorn)
-- **Noun/suru verbs (2)**: {還付|かんぷ} (refund), {開演|かいえん} (start of performance) — both also function as nouns
-- **Noun/suffix (1)**: {抜|ぬ}き (without/excluding)
-- **Expression (1)**: {目|め}が{覚|さ}める (to wake up; to come to one's senses)
-- Removed 20 candidates that now exist as entries
-
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
