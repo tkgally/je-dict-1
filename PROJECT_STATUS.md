@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A diverse mix of practical, everyday vocabulary useful for intermediate learners: food/drink, health, daily life, travel, entertainment, culture, and nature.
+
+- **Nouns (17)**: {朝日|あさひ} (morning sun), {生|なま}ビール (draft beer), {痛|いた}み{止|ど}め (painkiller), {還付|かんぷ} (refund), {端数|はすう} (fraction/odd amount), {暑中見舞|しょちゅうみま}い (summer greeting card), {親知|おやし}らず (wisdom tooth), {番号札|ばんごうふだ} (numbered ticket), {送|おく}り{先|さき} (destination address), ドリンク (drink/beverage), ナビ (navigation), {防災|ぼうさい}グッズ (disaster supplies), {取|と}り{付|つ}け (installation), {便名|びんめい} (flight number), {日誌|にっし} (daily log), {怪我人|けがにん} (injured person), ポップコーン (popcorn)
+- **Noun/suru verbs (2)**: {還付|かんぷ} (refund), {開演|かいえん} (start of performance) — both also function as nouns
+- **Noun/suffix (1)**: {抜|ぬ}き (without/excluding)
+- **Expression (1)**: {目|め}が{覚|さ}める (to wake up; to come to one's senses)
+- Removed 20 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 12 New Entries)
 Added 12 new dictionary entries (IDs 23483-23494) from candidate_words.json. A mix of food, nature, time, culture, science, occupational, diplomatic, and art vocabulary.
 
@@ -95,13 +104,6 @@ Added 14 new dictionary entries (IDs 23375-23388) from candidate_words.json. A m
 
 - **Nouns (11)**: {光線銃|こうせんじゅう} (ray gun), {女子中学生|じょしちゅうがくせい} (junior high school girl), {副|ふく}キャプテン (vice-captain), {三段跳|さんだんと}び (triple jump), {副団長|ふくだんちょう} (deputy leader of a troupe), {事前交渉|じぜんこうしょう} (prior negotiation), {人工皮革|じんこうひかく} (synthetic leather), {平行四辺形|へいこうしへんけい} (parallelogram), {最優秀選手|さいゆうしゅうせんしゅ} (MVP), {過飽和|かほうわ} (supersaturation), {群体|ぐんたい} (colonial organism)
 - **Expressions (3)**: {看板|かんばん}を{掲|かか}げる (to hang out a sign / to publicly proclaim), {歴史|れきし}を{紐解|ひもと}く (to delve into history), {脇道|わきみち}にそれる (to go off on a tangent)
-
-### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
-Added 20 new dictionary entries (IDs 23355-23374) from candidate_words.json. A diverse mix of everyday vocabulary, tech and business terms, a medical word, and formal written-register vocabulary.
-
-- **Nouns (16)**: {翌年|よくねん} (the following year), {血行|けっこう} (blood circulation), {自己|じこ} (the self), お{嬢様|じょうさま} (young lady), {英和辞典|えいわじてん} (English-Japanese dictionary), {電源|でんげん}ボタン (power button), コンシーラー (concealer), {牛|ぎゅう}ひき{肉|にく} (ground beef), {腫瘍|しゅよう} (tumor), {初期値|しょきち} (initial/default value), {交渉力|こうしょうりょく} (negotiating skill / bargaining power), {天性|てんせい} (innate nature), {数百|すうひゃく} (several hundred), {実利|じつり} (practical benefit), {追加|ついか}{予算|よさん} (additional budget), {悲運|ひうん} (tragic fate), {賛同者|さんどうしゃ} (supporter)
-- **Noun/suru verb (1)**: {結晶化|けっしょうか} (crystallization; figurative taking form)
-- **Expressions (2)**: {唯一|ゆいいつ}の (the only; the sole), {多|おお}くの (many of; a lot of — attributive)
 
 
 
