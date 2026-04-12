@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
+Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
+
+- **Nouns (13)**: {食事|しょくじ}{会|かい} (meal gathering), コピー{機|き} (copier), ニックネーム (nickname), {自家用車|じかようしゃ} (private car), {有理数|ゆうりすう} (rational number), {倫理学|りんりがく} (ethics / moral philosophy), {大工|だいく}{道具|どうぐ} (carpentry tools), {音響|おんきょう}{設備|せつび} (sound equipment), {法医学|ほういがく} (forensic medicine), {付|つ}け{替|か}え (replacement / swap), {公約数|こうやくすう} (common divisor — multi-sense), {教育|きょういく}{課程|かてい} (curriculum), {添付|てんぷ}{書類|しょるい} (attached documents), {番号|ばんごう}{順|じゅん} (numerical order)
+- **Noun/suru verbs (4)**: {安全|あんぜん}{管理|かんり} (safety management), {自己|じこ}{認識|にんしき} (self-awareness), {弔問|ちょうもん} (condolence visit), {機密|きみつ}{保持|ほじ} (confidentiality / NDA)
+- **Noun/na-adjective (1)**: {非合理|ひごうり} (irrationality / irrational)
+- **Expression (1)**: {昔|むかし}から (from a long time ago)
+- **Adverb (1)**: {極端|きょくたん}に (extremely)
+- Removed 21 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 30 New Practical Entries)
 Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Focused on practical, daily-life vocabulary useful for foreign residents and travelers in Japan: housing, finance, transportation, technology, entertainment, and business communication.
 
@@ -81,29 +91,6 @@ Added 22 new dictionary entries (IDs 23459-23482) from candidate_words.json. A d
 - **Expression (1)**: マウントを{取|と}る (to one-up/assert dominance)
 - Removed 2 stale candidates (base forms already existed)
 
-### 2026-04-12 (Vocabulary Expansion - 24 New Entries)
-Added 24 new dictionary entries (IDs 23435-23458) from candidate_words.json. A diverse mix of food/cooking, language/phonetics, formal/business, nature, technology, and cultural vocabulary.
-
-- **Nouns (21)**: {魚介類|ぎょかいるい} (seafood), {諸般|しょはん} (various/sundry), {天候不良|てんこうふりょう} (inclement weather), {屋台村|やたいむら} (food stall village), {枝垂|しだ}れ (weeping tree), {麻婆茄子|まーぼーなす} (mapo eggplant), {電源|でんげん}コード (power cord), {鶏|とり}ひき{肉|にく} (ground chicken), {豚|ぶた}ひき{肉|にく} (ground pork), {肉|にく}だね (meat filling), {炒|い}りごま (toasted sesame), {茶殻|ちゃがら} (used tea leaves), {指示書|しじしょ} (instruction document), {昇降機|しょうこうき} (elevator/lift), お{餅|もち} (rice cake), スキューバ (scuba), {半濁音|はんだくおん} (semi-voiced sound), {白|しろ}ごま (white sesame), {黒|くろ}ごま (black sesame), くず{粉|こ} (arrowroot starch), {清音|せいおん} (voiceless sound)
-- **Noun/suru verbs (3)**: {拝受|はいじゅ} (humble receipt), {警護|けいご} (bodyguarding), {作付|さくづ}け (crop planting)
-- 1 new kanji added to index: 茄 (eggplant)
-
-### 2026-04-12 (Vocabulary Expansion - 30 New Entries)
-Added 30 new dictionary entries (IDs 23405-23434) from candidate_words.json. A diverse mix of everyday and learner-useful vocabulary: loanwords, body parts, clothing, food/kitchen, beauty, music, geography, law, art, ethics, and communication.
-
-- **Nouns (20)**: デスク (desk / desk editor), チラシ (flyer), {目元|めもと} (around the eyes), {耳栓|みみせん} (earplugs), {休憩室|きゅうけいしつ} (break room), ブーケ (bouquet), オーブントースター (toaster oven), グルテンフリー (gluten-free), {北極圏|ほっきょくけん} (Arctic Circle), {倫理観|りんりかん} (sense of ethics), {下唇|したくちびる} (lower lip), {夏服|なつふく} (summer clothes), {短縮形|たんしゅくけい} (shortened form), サッシ (window sash), コーヒーカップ (coffee cup / teacup ride), ブラスバンド (brass band), ダイレクトメッセージ (direct message), {解熱|げねつ} (lowering a fever), {予熱|よねつ} (preheating), {肖像画|しょうぞうが} (portrait painting)
-- **Verb-suru (5)**: デッサン, {投函|とうかん}, カール, デコレーション (also nouns)
-- **Verbs (2)**: {言|い}いくるめる (to talk into — ichidan), ぬぐい{去|さ}る (to wipe away — godan)
-- **Na-adjective (1)**: {可憐|かれん}な (sweet and delicate)
-- **Other (2)**: ええと (filler word — interjection), ブルゾン (blouson jacket), {誘導尋問|ゆうどうじんもん} (leading question)
-- 2 new kanji added to index: 函, 肖
-
-### 2026-04-12 (Vocabulary Expansion - 16 New Entries)
-Added 16 new dictionary entries (IDs 23389-23404) from candidate_words.json. A broad mix of everyday and specialized vocabulary across nouns, a suru verb, and two na-adjectives — covering marine biology, geology, mathematics, education, technology, military, cuisine, and abstract concepts.
-
-- **Nouns (13)**: {駆逐艦|くちくかん} (destroyer), {渡航費|とこうひ} (overseas travel expenses), {携帯端末|けいたいたんまつ} (mobile device / handheld terminal), {中等教育|ちゅうとうきょういく} (secondary education), {水菜|みずな} (mizuna / Japanese mustard greens), {二枚貝|にまいがい} (bivalve), {巻|ま}き{貝|がい} (univalve / spiral-shelled mollusk), {石灰岩|せっかいがん} (limestone), {自然数|しぜんすう} (natural number), {先史|せんし} (prehistory), {教育機関|きょういくきかん} (educational institution), {記憶媒体|きおくばいたい} (storage medium), {実数|じっすう} (real number / actual count — multi-sense)
-- **Verb-suru (1)**: {画一化|かくいつか}する (to standardize / homogenize)
-- **Na-adjectives (2)**: {規則的|きそくてき} (regular / systematic), {野性的|やせいてき} (wild / primal / rugged)
 
 
 
