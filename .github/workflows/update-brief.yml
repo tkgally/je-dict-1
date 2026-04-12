@@ -7,6 +7,14 @@ on:
 permissions:
   contents: write
 
+# Serialize runs on main so two Update Brief jobs can't race each other.
+# cancel-in-progress is safe here: the brief is derived purely from the
+# current state of main, so if several pushes land in quick succession
+# only the latest run needs to complete.
+concurrency:
+  group: update-brief-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   update-brief:
     runs-on: ubuntu-latest
@@ -22,19 +30,39 @@ jobs:
       - name: Install dependencies
         run: pip install -r build/requirements.txt
 
-      - name: Update indexes and brief
+      - name: Refresh brief and push
         run: |
-          python3 build/update_indexes.py
-          python3 pipeline/update-brief.py
-
-      - name: Commit if changed
-        run: |
+          set -e
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if ! git diff --quiet PROJECT_CONTEXT_BRIEF.md; then
+
+          # Retry loop: if another commit lands on main between our fetch
+          # and our push, reset to the new tip, regenerate the brief from
+          # scratch, and try again. The brief is deterministic from the
+          # state of main, so regenerating on top of new commits is safe.
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+
+            python3 build/update_indexes.py
+            python3 pipeline/update-brief.py
+
+            if git diff --quiet PROJECT_CONTEXT_BRIEF.md; then
+              echo "PROJECT_CONTEXT_BRIEF.md is already up to date."
+              exit 0
+            fi
+
             git add PROJECT_CONTEXT_BRIEF.md
             git commit -m "Auto-refresh PROJECT_CONTEXT_BRIEF.md [skip ci]"
-            git push
-          else
-            echo "PROJECT_CONTEXT_BRIEF.md is already up to date."
-          fi
+
+            if git push origin HEAD:main; then
+              echo "Push succeeded on attempt $attempt."
+              exit 0
+            fi
+
+            echo "Push rejected on attempt $attempt; remote advanced. Retrying..."
+            sleep $((attempt * 3))
+          done
+
+          echo "Failed to push PROJECT_CONTEXT_BRIEF.md update after 5 attempts." >&2
+          exit 1
