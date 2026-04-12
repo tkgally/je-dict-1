@@ -28,7 +28,8 @@ def load_scenarios(scenarios_file=SCENARIOS_FILE):
         return json.load(f)
 
 
-def audit_scenario(scenario, entry_lookup, reading_only, priority_filter=None):
+def audit_scenario(scenario, entry_lookup, reading_only, priority_filter=None,
+                   headword_only=None):
     """Check coverage for a single scenario. Returns dict with results."""
     expected = scenario["expected_vocabulary"]
     if priority_filter:
@@ -41,7 +42,8 @@ def audit_scenario(scenario, entry_lookup, reading_only, priority_filter=None):
         word = word_entry["word"]
         reading = word_entry["reading"]
 
-        if word_in_dictionary(word, reading, entry_lookup, reading_only):
+        if word_in_dictionary(word, reading, entry_lookup, reading_only,
+                              headword_only):
             found.append(word_entry)
         else:
             missing.append(word_entry)
@@ -206,7 +208,7 @@ def main():
         sys.exit(1)
 
     scenario_data = load_scenarios()
-    entry_lookup, reading_only = load_entry_index()
+    entry_lookup, reading_only, headword_only = load_entry_index()
 
     # Filter scenarios
     scenarios = scenario_data["scenarios"]
@@ -225,7 +227,8 @@ def main():
     results = []
     for scenario in scenarios:
         result = audit_scenario(scenario, entry_lookup, reading_only,
-                                priority_filter=args.priority)
+                                priority_filter=args.priority,
+                                headword_only=headword_only)
         results.append(result)
 
     # Filter by coverage threshold

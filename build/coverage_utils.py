@@ -14,24 +14,27 @@ CANDIDATES_FILE = PROJECT_DIR / "candidate_words.json"
 
 
 def load_entry_index(index_file=INDEX_FILE):
-    """Load entries_index.json and build a lookup set of (word, reading) pairs.
+    """Load entries_index.json and build lookup sets for coverage matching.
 
     Returns:
-        tuple: (lookup set of (headword, reading), set of readings only)
+        tuple: (lookup set of (headword, reading), set of readings only,
+                set of headwords only)
     """
     with open(index_file) as f:
         data = json.load(f)
 
     lookup = set()
     reading_only = set()
+    headword_only = set()
 
     for entry in data["entries"]:
         headword = entry["headword"]
         reading = entry["reading"]
         lookup.add((headword, reading))
         reading_only.add(reading)
+        headword_only.add(headword)
 
-    return lookup, reading_only
+    return lookup, reading_only, headword_only
 
 
 def load_candidates(candidates_file=CANDIDATES_FILE):
@@ -61,17 +64,21 @@ def is_all_kana(word):
     return True
 
 
-def word_in_dictionary(word, reading, entry_lookup, reading_only):
+def word_in_dictionary(word, reading, entry_lookup, reading_only, headword_only=None):
     """Check if a word is in the dictionary.
 
-    Checks exact (headword, reading) match first, then for kana-only words
-    also matches by reading alone.
+    Checks exact (headword, reading) match first, then falls back to
+    reading-only or headword-only matching to handle orthographic variations
+    (kanji vs kana headwords, okurigana differences, variant kana readings
+    for loanwords, etc.).
 
     Returns:
         bool: True if word is found in the dictionary
     """
     if (word, reading) in entry_lookup:
         return True
-    if is_all_kana(word) and reading in reading_only:
+    if reading in reading_only:
+        return True
+    if headword_only is not None and word in headword_only:
         return True
     return False
