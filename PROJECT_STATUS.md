@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 22 New Entries)
+Added 22 new dictionary entries (IDs 23459-23482) from candidate_words.json. A diverse mix of vocabulary across cooking, language/phonetics, business, military/history, culture, health, nature, and modern slang.
+
+- **Nouns (18)**: {論争点|ろんそうてん} (point of contention), {縦列|じゅうれつ} (column/vertical row), {御神体|ごしんたい} (sacred shrine object), {拗音|ようおん} (contracted sounds), {撥音|はつおん} (nasal n sound), {左党|さとう} (sake lover), {自著|じちょ} (one's own book), {設定温度|せっていおんど} (set temperature), {多目的室|たもくてきしつ} (multi-purpose room), {能力給|のうりょくきゅう} (merit pay), {営業収益|えいぎょうしゅうえき} (operating revenue), {多忙期|たぼうき} (busy period), {情趣|じょうしゅ} (charm/refined atmosphere), {陣形|じんけい} (battle formation), {本営|ほんえい} (headquarters), {商売仇|しょうばいがたき} (business rival), {空一面|そらいちめん} (entire sky), {脂性|あぶらしょう} (oily skin), {果菜|かさい} (fruit vegetable), {慢性病|まんせいびょう} (chronic illness), しんどさ (tiredness/hardship)
+- **Noun/suru verbs (2)**: {調味|ちょうみ}する (to season food), {裏漉|うらご}し (straining/sieving)
+- **Expression (1)**: マウントを{取|と}る (to one-up/assert dominance)
+- Removed 2 stale candidates (base forms already existed)
+
 ### 2026-04-12 (Vocabulary Expansion - 24 New Entries)
 Added 24 new dictionary entries (IDs 23435-23458) from candidate_words.json. A diverse mix of food/cooking, language/phonetics, formal/business, nature, technology, and cultural vocabulary.
 
@@ -88,21 +96,6 @@ Added 20 new dictionary entries (IDs 23355-23374) from candidate_words.json. A d
 - **Noun/suru verb (1)**: {結晶化|けっしょうか} (crystallization; figurative taking form)
 - **Expressions (2)**: {唯一|ゆいいつ}の (the only; the sole), {多|おお}くの (many of; a lot of — attributive)
 
-### 2026-04-11 (Vocabulary Expansion - 28 New Entries)
-Added 28 new dictionary entries (IDs 23327-23354) from candidate_words.json. A mix of color terms, science and history vocabulary, practical home and business words, formal written vocabulary, and traditional crafts.
-
-- **Nouns (25)**: {赤色|あかいろ} (red color), {電子|でんし}メール (email), {赤茶色|あかちゃいろ} (reddish brown), {多面体|ためんたい} (polyhedron), {対流圏|たいりゅうけん} (troposphere), {古墳|こふん}{時代|じだい} (Kofun period), {分電盤|ぶんでんばん} (distribution board), {釉薬|ゆうやく} (ceramic glaze), {轆轤|ろくろ} (potter's wheel/lathe), {株分|かぶわ}け (plant division), {有酸素|ゆうさんそ}{運動|うんどう} (aerobic exercise), {真冬日|まふゆび} (day below freezing), {委細|いさい} (full particulars), コスチューム (costume), アナログ{時計|どけい} (analog clock), {家電|かでん}{量販店|りょうはんてん} (big-box electronics retailer), {論旨|ろんし} (main thrust of an argument), {立替|たてか}え{払|ばら}い (out-of-pocket payment), {感嘆詞|かんたんし} (interjection), {真珠色|しんじゅいろ} (pearly white), {守護霊|しゅごれい} (guardian spirit), {練習場|れんしゅうじょう} (practice range), {不起訴|ふきそ} (non-indictment), {堆積岩|たいせきがん} (sedimentary rock), {凝縮感|ぎょうしゅくかん} (sense of density)
-- **Noun/suru verbs (2)**: {再検査|さいけんさ} (reexamination), {鍵|かぎ}{交換|こうかん} (lock replacement)
-- **Pronoun (1)**: {彼女|かのじょ}たち (they - female)
-- Added 3 new kanji to index: 釉 (glaze), 轆 (pulley), 轤 (pulley)
-
-### 2026-04-11 (Vocabulary Expansion - 30 New Entries)
-Added 30 new dictionary entries (IDs 23297-23326) from candidate_words.json. A mix of common everyday vocabulary, practical tech/web terms, health and medical terms, legal/tax vocabulary, and contemporary social keywords.
-
-- **Nouns (18)**: ベジタリアン (vegetarian), {血液検査|けつえきけんさ} (blood test), {尿検査|にょうけんさ} (urine test), {料理教室|りょうりきょうしつ} (cooking class), {持久走|じきゅうそう} (endurance run), {反復横跳|はんぷくよことび}び (side-to-side jumping fitness test), {二次元|にじげん}コード (QR code), {即日|そくじつ}{配送|はいそう} (same-day delivery), {人間|にんげん}ドック (comprehensive medical checkup), ブラック{企業|きぎょう} (exploitative company), {働|はたら}き{方|かた}{改革|かいかく} (work-style reform), フレックス (flextime), {論文審査|ろんぶんしんさ} (thesis examination), {医療費|いりょうひ}{控除|こうじょ} (medical expense deduction), {扶養|ふよう}{控除|こうじょ} (dependent deduction), {間引|まび}き{運転|うんてん} (reduced service), {折返|おりかえ}し{運転|うんてん} (shuttle operation), {口頭試問|こうとうしもん} (oral examination), {寸志|すんし} (small token of gratitude)
-- **Noun/suru verbs (5)**: ログインする (to log in), ログアウトする (to log out), {示談|じだん} (out-of-court settlement), {供述|きょうじゅつ} (testimony), {原状回復|げんじょうかいふく} (restoration to original condition), {盗用|とうよう} (plagiarism)
-- **Adverbs (2)**: {正|ただ}しく (correctly), {元気|げんき}よく (energetically)
-- **Expressions (3)**: {最初|さいしょ}から (from the start), {途中|とちゅう}で (halfway; on the way), {底知|そこし}れない (unfathomable)
 
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
