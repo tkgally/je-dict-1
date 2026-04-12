@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 12 New Entries)
+Added 12 new dictionary entries (IDs 23610-23621) from candidate_words.json. A mix of medical, scientific, grammatical, disaster-related, and everyday vocabulary. Introduced one new kanji (臀) to the kanji index.
+
+- **Nouns (10)**: {耳鼻咽喉科|じびいんこうか} (otolaryngology / ENT clinic), {臀部|でんぶ} (buttocks / gluteal region), {二人称|ににんしょう} (second person — grammar), {薄紅色|うすべにいろ} (light pink / pale rose color), {乾燥果実|かんそうかじつ} (dried fruit), りんご{園|えん} (apple orchard), {一等星|いっとうせい} (first-magnitude star), {造影剤|ぞうえいざい} (medical contrast agent), {老年期|ろうねんき} (old age / later years of life), {床下浸水|ゆかしたしんすい} (below-floor flooding)
+- **Noun/suru verbs (2)**: {閉経|へいけい} (menopause), {床上浸水|ゆかうえしんすい} (above-floor flooding)
+- New kanji: 臀 (02678_den_shiri_buttocks)
+- Removed 12 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23595-23609) from candidate_words.json. A mix of legal, medical, food, geographical, biological, business, and civics vocabulary of practical value to intermediate learners.
 
@@ -82,12 +90,6 @@ Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A m
 - **Expression (1)**: {昔|むかし}から (from a long time ago)
 - **Adverb (1)**: {極端|きょくたん}に (extremely)
 - Removed 21 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 30 New Practical Entries)
-Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Focused on practical, daily-life vocabulary useful for foreign residents and travelers in Japan: housing, finance, transportation, technology, entertainment, and business communication.
-
-- **Nouns (30)**: お{寺|てら} (Buddhist temple), トレー (tray), メーター (meter/gauge), キャラクター (fictional/mascot character), アトラクション (amusement park attraction), {普通|ふつう}{預金|よきん} (savings account), {国際|こくさい}{郵便|ゆうびん} (international mail), コンビニ{払|ばら}い (convenience store payment), {日本語|にほんご}{学校|がっこう} (Japanese language school), {為替|かわせ}レート (exchange rate), {燃|も}えないゴミ (non-burnable trash), {在留|ざいりゅう}カード (residence card), ICカード (IC transit card), ペット{可|か} (pets allowed), {音声|おんせい}ガイド (audio guide), {保険|ほけん}{会社|がいしゃ} (insurance company), {管理|かんり}{会社|がいしゃ} (management company), {相談|そうだん}{窓口|まどぐち} (consultation counter), {引|ひ}っ{越|こ}し{業者|ぎょうしゃ} (moving company), {国民|こくみん}{年金|ねんきん} (national pension), ジェットコースター (roller coaster), SIMカード (SIM card), {訳|やく} (translation), ご{挨拶|あいさつ} (formal greeting), タイム (time/time-out), メールアドレス (email address), {共用|きょうよう}{部分|ぶぶん} (shared area), {実行|じっこう}{委員|いいん} (organizing committee member), {横|よこ}{一列|いちれつ} (horizontal line), ご{確認|かくにん} (confirmation, formal)
-- Removed 30 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
