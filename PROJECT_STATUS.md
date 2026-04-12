@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-11
+**Last updated**: 2026-04-12
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-04-12 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23389-23404) from candidate_words.json. A broad mix of everyday and specialized vocabulary across nouns, a suru verb, and two na-adjectives — covering marine biology, geology, mathematics, education, technology, military, cuisine, and abstract concepts.
+
+- **Nouns (13)**: {駆逐艦|くちくかん} (destroyer), {渡航費|とこうひ} (overseas travel expenses), {携帯端末|けいたいたんまつ} (mobile device / handheld terminal), {中等教育|ちゅうとうきょういく} (secondary education), {水菜|みずな} (mizuna / Japanese mustard greens), {二枚貝|にまいがい} (bivalve), {巻|ま}き{貝|がい} (univalve / spiral-shelled mollusk), {石灰岩|せっかいがん} (limestone), {自然数|しぜんすう} (natural number), {先史|せんし} (prehistory), {教育機関|きょういくきかん} (educational institution), {記憶媒体|きおくばいたい} (storage medium), {実数|じっすう} (real number / actual count — multi-sense)
+- **Verb-suru (1)**: {画一化|かくいつか}する (to standardize / homogenize)
+- **Na-adjectives (2)**: {規則的|きそくてき} (regular / systematic), {野性的|やせいてき} (wild / primal / rugged)
 
 ### 2026-04-11 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 23375-23388) from candidate_words.json. A mix of everyday nouns, sports, science and math vocabulary, a business term, and several idiomatic expressions.
