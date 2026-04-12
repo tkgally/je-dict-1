@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 24 New Entries)
+Added 24 new dictionary entries (IDs 23435-23458) from candidate_words.json. A diverse mix of food/cooking, language/phonetics, formal/business, nature, technology, and cultural vocabulary.
+
+- **Nouns (21)**: {魚介類|ぎょかいるい} (seafood), {諸般|しょはん} (various/sundry), {天候不良|てんこうふりょう} (inclement weather), {屋台村|やたいむら} (food stall village), {枝垂|しだ}れ (weeping tree), {麻婆茄子|まーぼーなす} (mapo eggplant), {電源|でんげん}コード (power cord), {鶏|とり}ひき{肉|にく} (ground chicken), {豚|ぶた}ひき{肉|にく} (ground pork), {肉|にく}だね (meat filling), {炒|い}りごま (toasted sesame), {茶殻|ちゃがら} (used tea leaves), {指示書|しじしょ} (instruction document), {昇降機|しょうこうき} (elevator/lift), お{餅|もち} (rice cake), スキューバ (scuba), {半濁音|はんだくおん} (semi-voiced sound), {白|しろ}ごま (white sesame), {黒|くろ}ごま (black sesame), くず{粉|こ} (arrowroot starch), {清音|せいおん} (voiceless sound)
+- **Noun/suru verbs (3)**: {拝受|はいじゅ} (humble receipt), {警護|けいご} (bodyguarding), {作付|さくづ}け (crop planting)
+- 1 new kanji added to index: 茄 (eggplant)
+
 ### 2026-04-12 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 23405-23434) from candidate_words.json. A diverse mix of everyday and learner-useful vocabulary: loanwords, body parts, clothing, food/kitchen, beauty, music, geography, law, art, ethics, and communication.
 
@@ -97,10 +104,6 @@ Added 30 new dictionary entries (IDs 23297-23326) from candidate_words.json. A m
 - **Adverbs (2)**: {正|ただ}しく (correctly), {元気|げんき}よく (energetically)
 - **Expressions (3)**: {最初|さいしょ}から (from the start), {途中|とちゅう}で (halfway; on the way), {底知|そこし}れない (unfathomable)
 
-### 2026-04-11 (Vocabulary Expansion - 20 New Entries)
-Added 20 new dictionary entries (IDs 23277-23296) from candidate_words.json. All nouns — a mix of professional roles, institutional and social vocabulary, finance, military/politics, and everyday practical terms.
-
-- **Nouns (20)**: {国語辞典|こくごじてん} (Japanese dictionary), {調理場|ちょうりば} (commercial kitchen), {研修会|けんしゅうかい} (training session), {相談会|そうだんかい} (consultation session), {担当医|たんとうい} (attending physician), {団体行動|だんたいこうどう} (group action), {発明者|はつめいしゃ} (inventor), {設計者|せっけいしゃ} (designer/architect), {産油国|さんゆこく} (oil-producing country), {開拓者|かいたくしゃ} (pioneer), {戦闘機|せんとうき} (fighter plane), {倹約家|けんやくか} (frugal person), {軍事力|ぐんじりょく} (military strength), {季節労働|きせつろうどう} (seasonal labor), {自己資金|じこしきん} (personal funds), {優待券|ゆうたいけん} (preferential voucher), {調理用具|ちょうりようぐ} (cooking utensils), {視力矯正|しりょくきょうせい} (vision correction), {人数制限|にんずうせいげん} (headcount limit), {防護壁|ぼうごへき} (protective wall)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
