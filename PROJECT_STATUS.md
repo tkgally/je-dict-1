@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 12 New Entries)
+Added 12 new dictionary entries (IDs 23483-23494) from candidate_words.json. A mix of food, nature, time, culture, science, occupational, diplomatic, and art vocabulary.
+
+- **Nouns (11)**: {菜|な}っ{葉|ぱ} (leafy greens), {遊歩道|ゆうほどう} (promenade/walkway), {年数|ねんすう} (number of years), {墓参|ぼさん} (visiting a grave), {組成|そせい} (composition/makeup), {門下|もんか} (disciples/pupils), {行員|こういん} (bank employee), {特使|とくし} (special envoy), {散歩道|さんぽみち} (walking path), {水夫|すいふ} (sailor), {画壇|がだん} (art world)
+- **Noun/suru verb (1)**: {去勢|きょせい} (castration/neutering)
+- Removed 12 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 22 New Entries)
 Added 22 new dictionary entries (IDs 23459-23482) from candidate_words.json. A diverse mix of vocabulary across cooking, language/phonetics, business, military/history, culture, health, nature, and modern slang.
 
