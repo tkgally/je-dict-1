@@ -28,6 +28,14 @@ permissions:
   contents: write
   pull-requests: write
 
+# Serialize runs that target the same pipeline branch so two concurrent
+# workflow_dispatch invocations can't stomp on each other's commits.
+# cancel-in-progress is false because in-progress Claude work should not
+# be discarded — let the earlier run finish, then run the next one.
+concurrency:
+  group: run-pipeline-${{ inputs.branch }}
+  cancel-in-progress: false
+
 jobs:
   pipeline:
     runs-on: ubuntu-latest
@@ -98,14 +106,32 @@ jobs:
       - name: Push pipeline branch
         if: ${{ !inputs.dry_run && inputs.create_pr }}
         run: |
+          set -e
           # Check if there are any commits to push (beyond what we started with)
           if git diff --quiet origin/main...HEAD 2>/dev/null; then
             echo "No changes to push — pipeline produced no commits."
             echo "SKIP_PR=true" >> "$GITHUB_ENV"
-          else
-            git push -u origin "${{ inputs.branch }}"
-            echo "SKIP_PR=false" >> "$GITHUB_ENV"
+            exit 0
           fi
+
+          # Retry push with backoff for transient network errors. We do
+          # NOT rebuild the branch on rejection — the pipeline branch
+          # carries Claude-generated commits that can't be regenerated,
+          # and the concurrency group above already prevents concurrent
+          # workflow runs on the same branch from racing.
+          for attempt in 1 2 3 4 5; do
+            if git push -u origin "${{ inputs.branch }}"; then
+              echo "Push succeeded on attempt $attempt."
+              echo "SKIP_PR=false" >> "$GITHUB_ENV"
+              exit 0
+            fi
+            if [ "$attempt" -eq 5 ]; then
+              echo "Failed to push pipeline branch after 5 attempts." >&2
+              exit 1
+            fi
+            echo "Push failed on attempt $attempt; retrying after backoff..."
+            sleep $((attempt * 3))
+          done
 
       - name: Create pull request
         if: ${{ !inputs.dry_run && inputs.create_pr && env.SKIP_PR != 'true' }}
