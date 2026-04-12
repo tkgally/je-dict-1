@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 30 New Practical Entries)
+Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Focused on practical, daily-life vocabulary useful for foreign residents and travelers in Japan: housing, finance, transportation, technology, entertainment, and business communication.
+
+- **Nouns (30)**: お{寺|てら} (Buddhist temple), トレー (tray), メーター (meter/gauge), キャラクター (fictional/mascot character), アトラクション (amusement park attraction), {普通|ふつう}{預金|よきん} (savings account), {国際|こくさい}{郵便|ゆうびん} (international mail), コンビニ{払|ばら}い (convenience store payment), {日本語|にほんご}{学校|がっこう} (Japanese language school), {為替|かわせ}レート (exchange rate), {燃|も}えないゴミ (non-burnable trash), {在留|ざいりゅう}カード (residence card), ICカード (IC transit card), ペット{可|か} (pets allowed), {音声|おんせい}ガイド (audio guide), {保険|ほけん}{会社|がいしゃ} (insurance company), {管理|かんり}{会社|がいしゃ} (management company), {相談|そうだん}{窓口|まどぐち} (consultation counter), {引|ひ}っ{越|こ}し{業者|ぎょうしゃ} (moving company), {国民|こくみん}{年金|ねんきん} (national pension), ジェットコースター (roller coaster), SIMカード (SIM card), {訳|やく} (translation), ご{挨拶|あいさつ} (formal greeting), タイム (time/time-out), メールアドレス (email address), {共用|きょうよう}{部分|ぶぶん} (shared area), {実行|じっこう}{委員|いいん} (organizing committee member), {横|よこ}{一列|いちれつ} (horizontal line), ご{確認|かくにん} (confirmation, formal)
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 23495-23514) from candidate_words.json. A diverse mix of practical, everyday vocabulary useful for intermediate learners: food/drink, health, daily life, travel, entertainment, culture, and nature.
 
@@ -99,11 +105,6 @@ Added 16 new dictionary entries (IDs 23389-23404) from candidate_words.json. A b
 - **Verb-suru (1)**: {画一化|かくいつか}する (to standardize / homogenize)
 - **Na-adjectives (2)**: {規則的|きそくてき} (regular / systematic), {野性的|やせいてき} (wild / primal / rugged)
 
-### 2026-04-11 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 23375-23388) from candidate_words.json. A mix of everyday nouns, sports, science and math vocabulary, a business term, and several idiomatic expressions.
-
-- **Nouns (11)**: {光線銃|こうせんじゅう} (ray gun), {女子中学生|じょしちゅうがくせい} (junior high school girl), {副|ふく}キャプテン (vice-captain), {三段跳|さんだんと}び (triple jump), {副団長|ふくだんちょう} (deputy leader of a troupe), {事前交渉|じぜんこうしょう} (prior negotiation), {人工皮革|じんこうひかく} (synthetic leather), {平行四辺形|へいこうしへんけい} (parallelogram), {最優秀選手|さいゆうしゅうせんしゅ} (MVP), {過飽和|かほうわ} (supersaturation), {群体|ぐんたい} (colonial organism)
-- **Expressions (3)**: {看板|かんばん}を{掲|かか}げる (to hang out a sign / to publicly proclaim), {歴史|れきし}を{紐解|ひもと}く (to delve into history), {脇道|わきみち}にそれる (to go off on a tangent)
 
 
 
