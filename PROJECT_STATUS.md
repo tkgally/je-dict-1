@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-12 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 23405-23434) from candidate_words.json. A diverse mix of everyday and learner-useful vocabulary: loanwords, body parts, clothing, food/kitchen, beauty, music, geography, law, art, ethics, and communication.
+
+- **Nouns (20)**: デスク (desk / desk editor), チラシ (flyer), {目元|めもと} (around the eyes), {耳栓|みみせん} (earplugs), {休憩室|きゅうけいしつ} (break room), ブーケ (bouquet), オーブントースター (toaster oven), グルテンフリー (gluten-free), {北極圏|ほっきょくけん} (Arctic Circle), {倫理観|りんりかん} (sense of ethics), {下唇|したくちびる} (lower lip), {夏服|なつふく} (summer clothes), {短縮形|たんしゅくけい} (shortened form), サッシ (window sash), コーヒーカップ (coffee cup / teacup ride), ブラスバンド (brass band), ダイレクトメッセージ (direct message), {解熱|げねつ} (lowering a fever), {予熱|よねつ} (preheating), {肖像画|しょうぞうが} (portrait painting)
+- **Verb-suru (5)**: デッサン, {投函|とうかん}, カール, デコレーション (also nouns)
+- **Verbs (2)**: {言|い}いくるめる (to talk into — ichidan), ぬぐい{去|さ}る (to wipe away — godan)
+- **Na-adjective (1)**: {可憐|かれん}な (sweet and delicate)
+- **Other (2)**: ええと (filler word — interjection), ブルゾン (blouson jacket), {誘導尋問|ゆうどうじんもん} (leading question)
+- 2 new kanji added to index: 函, 肖
+
 ### 2026-04-12 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23389-23404) from candidate_words.json. A broad mix of everyday and specialized vocabulary across nouns, a suru verb, and two na-adjectives — covering marine biology, geology, mathematics, education, technology, military, cuisine, and abstract concepts.
 
