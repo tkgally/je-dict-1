@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-12
+**Last updated**: 2026-04-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-13 (Vocabulary Expansion - 18 New Entries)
+Added 18 new dictionary entries (IDs 23635-23652) from candidate_words.json. A mix of diplomatic, legal, bureaucratic, meteorological, culinary, grammatical, and everyday vocabulary, including some slang and tech-era terms.
+
+- **Nouns (16)**: {特命全権大使|とくめいぜんけんたいし} (ambassador extraordinary and plenipotentiary), {所定事項|しょていじこう} (required items on a form), {不該当|ふがいとう} (not applicable), {計算手法|けいさんしゅほう} (calculation method), {既遂|きすい} (consummated crime), {正犯|せいはん} (principal offender), {略奪愛|りゃくだつあい} (stealing someone's partner), {暖波|だんぱ} (warm spell / heat wave), {被修飾語|ひしゅうしょくご} (modified word — grammar), {指図役|さしずやく} (person giving orders), {内皮|ないひ} (endothelium / inner skin), {先日付|さきづけ} (post-dating), {逆|ぎゃく}ナン (woman picking up a man — slang), {投|な}げ{銭|せん}{機能|きのう} (tipping feature), {焼|や}き{麩|ふ} (toasted wheat gluten), {生麩|なまふ} (fresh wheat gluten), {八歳|はっさい} (eight years old)
+- **Na-adjectives (1)**: {自衛的|じえいてき} (self-defensive)
+- Removed 18 candidates that now exist as entries
+
 ### 2026-04-13 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23620-23634) from candidate_words.json. A mix of technical, educational, and everyday vocabulary including medical, household, kanji-radical, industrial, mathematical, and number/age terms.
 
@@ -80,14 +87,6 @@ Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A m
 - **Nouns (11)**: メインディッシュ (main dish), {銃撃戦|じゅうげきせん} (shootout), {旅客列車|りょかくれっしゃ} (passenger train), {熱伝導|ねつでんどう} (heat conduction), {磁気|じき}テープ (magnetic tape), {発光|はっこう}ダイオード (light-emitting diode), {演算子|えんざんし} (operator — math/programming), {預金通帳|よきんつうちょう} (bankbook), {学園生活|がくえんせいかつ} (school/campus life), {地域振興|ちいきしんこう} (regional development), {球根|きゅうこん}{植物|しょくぶつ} (bulb plant)
 - **Noun/suru verbs (4)**: サインイン (sign in), {均質化|きんしつか} (homogenization), {通帳記入|つうちょうきにゅう} (passbook update), {演算処理|えんざんしょり} (arithmetic processing)
 - Removed 15 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Focused on high-frequency set expressions, everyday collocations, and common spoken/business phrases that learners encounter early but often lack good dictionary coverage for.
-
-- **Expressions (11)**: よろしくお{願|ねが}いします (please treat me well / I look forward to working with you), お{邪魔|じゃま}します (pardon my intrusion, said on entering), お{邪魔|じゃま}しました (thanks for having me, said on leaving), お{世話|せわ}になっております (thank you for your continued support, business greeting), つまらないものですが (it's just a small thing, said when giving a gift), {靴|くつ}を{脱|ぬ}ぐ (to take off one's shoes), {顔|かお}を{洗|あら}う (to wash one's face), {髪|かみ}を{乾|かわ}かす (to dry one's hair), {次|つぎ}の{駅|えき} (the next station), お{忙|いそが}しいところ (when you are busy, polite preface), {一列|いちれつ}に{並|なら}ぶ (to line up in a single file)
-- **Expression/interjection (1)**: {助|たす}けて (help!; help me!)
-- **Nouns (2)**: お{水|みず} (water, polite form), {起工式|きこうしき} (groundbreaking ceremony)
-- Removed 14 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
