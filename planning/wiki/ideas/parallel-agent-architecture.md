@@ -1,6 +1,8 @@
 # Parallel Agent Architecture for Autonomous Dictionary Improvement
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-04-13
+
+> **Implementation status (2026-04)**: The design in this page has been largely implemented. Phase 1 (parallel-safe prompts) shipped in Enhancement Phase 11; the claim-based queue (Phase 2 / the recommended hybrid) in Enhancement Phase 13; initial continuous operation (Phase 3) via `pipeline/orchestrator.py` in Enhancement Phase 16. The page is retained as the rationale and design record; see [Architecture](../project/architecture.md#parallel-and-orchestrated-editorial-work) for the current running system.
 
 ## Overview
 
@@ -19,7 +21,7 @@ Some tasks run via `claude --print` (non-interactive batch mode) or the pipeline
 
 ### Why sequential is a problem
 
-- **Throughput ceiling**: Only one task runs at a time. With ~23,000 entries and many polishing dimensions, sequential processing will take months to cover everything once.
+- **Throughput ceiling**: Only one task runs at a time. With ~23,400 entries and many polishing dimensions, sequential processing will take months to cover everything once.
 - **Curator bottleneck**: Each session requires the curator to initiate it and (often) review the PR. The curator's time is the scarcest resource.
 - **File conflicts**: Multiple sessions cannot safely modify the same files. Polishing tasks read and write `entries_index.json`, `polishing/tasks/*/progress.txt`, and individual entry files. Concurrent runs would create merge conflicts.
 - **Context limitations**: A single session can process ~20-30 entries before context fills up. Parallelism would multiply effective throughput.
