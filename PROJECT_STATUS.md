@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-12
+**Last updated**: 2026-04-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-13 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23620-23635) from candidate_words.json. A mix of everyday nouns, commercial/retail vocabulary, medical terms, and formal/ceremonial language.
+
+- **Nouns (11)**: {理容師|りようし} (barber), {売|う}り{手|て} (seller), {全品|ぜんぴん} (all items), {電気工事|でんきこうじ} (electrical work), {七夕祭|たなばたまつ}り (Tanabata festival), {下側|したがわ} (underside), {共和国|きょうわこく} (republic), {動脈硬化|どうみゃくこうか} (arteriosclerosis), {昼型|ひるがた} (day person), {外国製|がいこくせい} (foreign-made), {一般用|いっぱんよう} (for general use), ご{芳名|ほうめい} (your esteemed name — formal)
+- **Noun/suru verbs (4)**: {誤飲|ごいん} (accidental swallowing), {転覆|てんぷく} (capsizing / overthrow), {入植|にゅうしょく} (settlement / colonization), {入庫|にゅうこ} (entering a warehouse or garage)
+- Removed corresponding candidates from candidate_words.json after entry creation.
+
 ### 2026-04-12 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A mix of Japanese grammar/linguistic terms, disaster-reporting vocabulary, and formal medical/business/accounting terms.
 
@@ -80,16 +87,6 @@ Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Foc
 - **Expression/interjection (1)**: {助|たす}けて (help!; help me!)
 - **Nouns (2)**: お{水|みず} (water, polite form), {起工式|きこうしき} (groundbreaking ceremony)
 - Removed 14 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
-Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
-
-- **Nouns (13)**: {食事|しょくじ}{会|かい} (meal gathering), コピー{機|き} (copier), ニックネーム (nickname), {自家用車|じかようしゃ} (private car), {有理数|ゆうりすう} (rational number), {倫理学|りんりがく} (ethics / moral philosophy), {大工|だいく}{道具|どうぐ} (carpentry tools), {音響|おんきょう}{設備|せつび} (sound equipment), {法医学|ほういがく} (forensic medicine), {付|つ}け{替|か}え (replacement / swap), {公約数|こうやくすう} (common divisor — multi-sense), {教育|きょういく}{課程|かてい} (curriculum), {添付|てんぷ}{書類|しょるい} (attached documents), {番号|ばんごう}{順|じゅん} (numerical order)
-- **Noun/suru verbs (4)**: {安全|あんぜん}{管理|かんり} (safety management), {自己|じこ}{認識|にんしき} (self-awareness), {弔問|ちょうもん} (condolence visit), {機密|きみつ}{保持|ほじ} (confidentiality / NDA)
-- **Noun/na-adjective (1)**: {非合理|ひごうり} (irrationality / irrational)
-- **Expression (1)**: {昔|むかし}から (from a long time ago)
-- **Adverb (1)**: {極端|きょくたん}に (extremely)
-- Removed 21 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 

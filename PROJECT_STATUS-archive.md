@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
+Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
+
+- **Nouns (13)**: {食事|しょくじ}{会|かい} (meal gathering), コピー{機|き} (copier), ニックネーム (nickname), {自家用車|じかようしゃ} (private car), {有理数|ゆうりすう} (rational number), {倫理学|りんりがく} (ethics / moral philosophy), {大工|だいく}{道具|どうぐ} (carpentry tools), {音響|おんきょう}{設備|せつび} (sound equipment), {法医学|ほういがく} (forensic medicine), {付|つ}け{替|か}え (replacement / swap), {公約数|こうやくすう} (common divisor — multi-sense), {教育|きょういく}{課程|かてい} (curriculum), {添付|てんぷ}{書類|しょるい} (attached documents), {番号|ばんごう}{順|じゅん} (numerical order)
+- **Noun/suru verbs (4)**: {安全|あんぜん}{管理|かんり} (safety management), {自己|じこ}{認識|にんしき} (self-awareness), {弔問|ちょうもん} (condolence visit), {機密|きみつ}{保持|ほじ} (confidentiality / NDA)
+- **Noun/na-adjective (1)**: {非合理|ひごうり} (irrationality / irrational)
+- **Expression (1)**: {昔|むかし}から (from a long time ago)
+- **Adverb (1)**: {極端|きょくたん}に (extremely)
+- Removed 21 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 30 New Practical Entries)
 Added 30 new dictionary entries (IDs 23515-23544) from candidate_words.json. Focused on practical, daily-life vocabulary useful for foreign residents and travelers in Japan: housing, finance, transportation, technology, entertainment, and business communication.
 
