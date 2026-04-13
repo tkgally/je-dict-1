@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-13 (Vocabulary Expansion - 13 New Entries)
+Added 13 new dictionary entries (IDs 23620-23632) from candidate_words.json. A mix of everyday nouns, formal/written vocabulary, expressions, and technical/loanword terms of practical value to intermediate learners.
+
+- **Nouns (10)**: {鼻紙|はながみ} (tissue paper), {団員|だんいん} (group/troupe member), {中括弧|なかかっこ} (curly brackets / braces), {大喝采|だいかっさい} (thunderous applause), {厄除|やくよ}け (warding off misfortune / protective charm), {法的|ほうてき}{責任|せきにん} (legal responsibility), {来訪者|らいほうしゃ} (visitor, formal), {諸所|しょしょ} (various places, formal), {検査|けんさ}キット (test kit), {立体映像|りったいえいぞう} (3D image)
+- **Noun/suru verbs (1)**: {搬送|はんそう} (transport — medical emergency / industrial)
+- **Na-adjectives (1)**: チャーミング (charming)
+- **Expressions (1)**: {口笛|くちぶえ}を{吹|ふ}く (to whistle)
+- Removed 1 stale candidate (C16713 先送りにする — variant of existing 先送り entry)
+
 ### 2026-04-12 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A mix of Japanese grammar/linguistic terms, disaster-reporting vocabulary, and formal medical/business/accounting terms.
 
