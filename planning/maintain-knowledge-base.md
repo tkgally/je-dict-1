@@ -15,6 +15,8 @@ planning/wiki/log.md       — what recent sessions did
 
 Also read `PROJECT_STATUS.md` for the latest project changes — new entries, polishing progress, build system changes, etc. that may need to be reflected in the wiki.
 
+**Catch-up context**: The 16-item Enhancement Plan 2026 (`enhancement/enhancement-plan-2026-04-09.md`, tracked in `enhancement/tracking.md`) was completed in April 2026. That plan shipped the task queue, orchestrator, multi-model review pipeline, consistency checker, semantic fields/scenarios, priority polishing, and expository articles. When reflecting changes into the wiki, `topics/enhancement-plan-retrospective.md` is the best single entry point — it summarizes what was built, which wiki hypotheses were validated, and which targets remain unmet. `build/report.py` is the authoritative source for current counts.
+
 ### 2. Choose session activities
 
 Each session should do **2-4 activities** from the list below. Vary the mix across sessions — don't do the same activities every night. Prioritize based on what seems most valuable given recent project changes.

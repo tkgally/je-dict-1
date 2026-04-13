@@ -321,12 +321,14 @@ Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (fo
 **Knowledge base:**
 - `planning/maintain-knowledge-base.md` — maintain and expand the project knowledge base wiki (nightly cron or manual)
 
-The knowledge base at `planning/wiki/` is an LLM-maintained wiki covering project documentation, external research (lexicography, SLA, corpus linguistics), design decisions, and future ideas. It is updated incrementally by dedicated maintenance sessions and can be consulted during any session for background knowledge. See `planning/wiki/index.md` for the full page catalog.
+The knowledge base at `planning/wiki/` is an LLM-maintained wiki covering project documentation, external research (lexicography, SLA, corpus linguistics), design decisions, and future ideas. It is updated incrementally by dedicated maintenance sessions and can be consulted during any session for background knowledge. See `planning/wiki/index.md` for the full page catalog. For a post-implementation overview of what the 2026 Enhancement Plan built and what's still open, see `planning/wiki/topics/enhancement-plan-retrospective.md`.
 
-**Enhancement plan:**
+**Enhancement plan (completed 2026-04-09):**
 - `enhancement/enhancement-plan-2026-04-09.md` — comprehensive plan for content quality, workflow, and infrastructure improvements
+- `enhancement/tracking.md` — per-phase completion status (all 16 items `done`)
 - `enhancement/prompts/README.md` — master guide with 16 step-by-step implementation prompts, metaprompts, and sequencing instructions
 - Enhancement prompts cover: infrastructure, verb transitivity, aspect/ている, note quality, cross-references, polishing priority, semantic fields, scenarios, tier reassessment, consistency checking, parallel execution, multi-model review, task queues, expository articles, and orchestration
+- Retrospective: `planning/wiki/topics/enhancement-plan-retrospective.md` summarizes outcomes and targets still open
 
 ## Parallel Execution
 

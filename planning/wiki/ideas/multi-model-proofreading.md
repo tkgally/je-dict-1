@@ -1,6 +1,8 @@
 # Multi-Model Proofreading and Accuracy Verification
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-04-13
+
+> **Implementation status (2026-04)**: Phase 1 (calibration/proof-of-concept) and Phase 2 (two-pass runner + polishing integration) of this plan shipped as Enhancement Phases 12 and 14. The pipeline is implemented in `build/review_runner.py` and `polish_cross_model_review.md`; per-entry reports live under `reviews/`. Phase 3 (continuous review) is partially realized via the queue-driven polishing system. As of mid-April 2026, deep review has covered ~100 entries and the screening queue holds ~2,950.
 
 ## Overview
 
@@ -159,7 +161,7 @@ Each review produces a structured report per entry:
 
 ## Cost considerations
 
-- At current OpenRouter prices, reviewing all ~23,000 entries through even a cheap model would cost several dollars
+- At current OpenRouter prices, reviewing all ~23,400 entries through even a cheap model would cost several dollars
 - The two-pass system keeps costs manageable: bulk screening at ~$0.001/entry, deep review at ~$0.01-0.05/entry
 - Budget roughly $5-20 for a full dictionary review cycle
 - As the dictionary grows, prioritize reviewing new entries first

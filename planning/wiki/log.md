@@ -2,6 +2,18 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-13] maintenance | Post-enhancement architecture update, retrospective page, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [C] Substantially rewrote `project/architecture.md` to document the post-Enhancement-Plan infrastructure: task queue, orchestrator, monitor, multi-model review pipeline, entry locking, priority polishing, semantic fields, learner scenarios, expository articles, consistency checker, and the full current build-script inventory. Previous version only described the core build (validate → update_indexes → build_flat).
+- [A] Updated `project/content-pipeline.md` to reflect coexisting progress-file and queue-based polishing modes, priority ordering, and the orchestrator/monitor layer. Added verb transitivity, aspect notes, and cross-model review to the polishing task list.
+- [D/F] Created `topics/enhancement-plan-retrospective.md` — synthesis of what the 16-phase Enhancement Plan (2026-04-09) built, which wiki hypotheses it validated, which it under-specified, and progress against the plan's targets measured on 2026-04-13. Draws on `enhancement/enhancement-plan-2026-04-09.md`, `enhancement/tracking.md`, and `build/report.py` output.
+- [A/E] Added implementation-status banners to `ideas/parallel-agent-architecture.md` and `ideas/multi-model-proofreading.md` linking to the retrospective page and current architecture page — these design docs were written as proposals and the wiki now signals that they've shipped.
+- [A] Updated entry counts across core pages: 23,000→23,418 total, 20,200→20,600+ general, 6,000→6,600+ cross-references, 93,500→95,000+ examples, 3,200→2,900 candidates; noted ~48% cross-reference symmetry from the updated `report.py`.
+- [E] Updated "Last updated" dates on all pages modified this session; updated `index.md` with the new retrospective page; updated `planning/maintain-knowledge-base.md` to note that the `enhancement/` folder is now a closed project and to point future sessions at the retrospective for catching up.
+
 ## [2026-04-08] maintenance | Dictionary lookup behavior research, homographs deepening, stats sync
 
 **Session type**: Nightly maintenance

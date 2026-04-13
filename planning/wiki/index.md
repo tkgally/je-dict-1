@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-04-13
 
 ## How this wiki is organized
 
@@ -53,6 +53,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Entry Consistency](topics/entry-consistency.md) — Achieving uniformity in form and content among similar entries
 - [Word Variants](topics/word-variants.md) — Handling words with multiple written forms (kanji variants, okurigana, kanji vs. kana)
 - [Deterministic vs. Semantic Tasks](topics/deterministic-vs-semantic-tasks.md) — Which editorial tasks can be automated and which require LLM judgment
+- [Enhancement Plan 2026 Retrospective](topics/enhancement-plan-retrospective.md) — What the 16-phase enhancement plan built, which targets were met, and what remains
 
 ## Ideas
 

@@ -1,6 +1,6 @@
 # Content Pipeline
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-13
 
 ## Overview
 
@@ -37,7 +37,13 @@ Entries are created in batch sessions of ~30 entries each, following `prompts/ne
 
 ## Stage 3: Polishing
 
-Created entries are improved through iterative polishing passes, each tracked with progress files in `polishing/tasks/`:
+Created entries are improved through iterative polishing passes. There are two coexisting polishing modes:
+
+**Progress-file mode** (original) — each task has `polishing/tasks/{task}/progress.txt` recording the next entry ID to process. Sessions resume sequentially from there.
+
+**Queue mode** (post-enhancement) — tasks are placed on `pipeline/task_queue.json` by `pipeline/task_queue.py populate`. Sessions `claim` a batch of tasks, process them, then `complete`. This avoids conflicts when multiple sessions run in parallel. See `queue_polishing_template.md`.
+
+Current polishing tasks:
 
 | Task | Prompt | What it does |
 |------|--------|-------------|
@@ -47,8 +53,11 @@ Created entries are improved through iterative polishing passes, each tracked wi
 | Furigana correctness | `polish_furigana_correctness.md` | Verify readings are correct |
 | Semantic labels | `polish_semantic_labels.md` | Verify tags match meanings |
 | Short notes | `expand-short-notes.md` | Expand inadequate notes |
+| Verb transitivity | `polish_verb_transitivity.md` | Add transitivity tags, notes, and pair links |
+| Aspect notes | `polish_aspect_notes.md` | Document non-obvious ている behavior |
+| Cross-model review | `polish_cross_model_review.md` | Apply or reject multi-model proofreading suggestions |
 
-Each task resumes where the previous session left off via `polishing/tasks/{task}/progress.txt`.
+**Priority ordering**: `make priorities` writes ordered ID lists to `polishing/priority/{task}.txt`. When a priority file exists, polishing prompts process entries worst-first rather than sequentially by ID.
 
 ## Stage 4: Consolidation
 
@@ -58,9 +67,17 @@ Periodic maintenance to keep entries clean:
 - **Cross-reference addition** — `prompts/add_cross-references.md` systematically links related entries
 - **Candidate cleanup** — `prompts/clean_up_candidates_list.md` reviews the candidate queue
 
-## Automated pipeline
+## Automated pipeline and orchestration
 
-The `pipeline/` directory contains `run-pipeline.sh` and related scripts for automated batch execution. GitHub Actions (`pipeline.yml`) can trigger pipeline runs.
+The `pipeline/` directory contains:
+
+- `run-pipeline.sh` and `recommend-tasks.py` — batch execution and task recommendation
+- `task_queue.py` — claim-based task queue for parallel agents
+- `orchestrator.py` — launches parallel Claude CLI sessions against the queue, enforcing a daily budget and a circuit breaker
+- `monitor.py` — real-time dashboard over sessions, queue, and budget
+- `update-brief.py` / `update-status.py` — regenerate `PROJECT_CONTEXT_BRIEF.md` and `PROJECT_STATUS.md` metadata
+
+`make orchestrate` starts the orchestrator loop; `make monitor` shows the dashboard. Budget, circuit breaker, and a single-instance lock file prevent runaway cost or duplicated agents.
 
 ## Quality gates
 
