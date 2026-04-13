@@ -44,10 +44,32 @@
     }
   ],
   "notes": "{和歌|わか} literally means 'Japanese song/poem' ({和|わ} = Japanese, {歌|か} = song). It refers to traditional Japanese poetry as distinct from {漢詩|かんし} (Chinese poetry).\n\nFORMS:\n- {短歌|たんか} (5-7-5-7-7): the most common form, often simply called {和歌|わか}\n- {長歌|ちょうか}: longer poems with alternating 5-7 mora patterns\n\nFAMOUS COLLECTIONS:\n- {万葉集|まんようしゅう}: oldest anthology (8th century)\n- {古今和歌集|こきんわかしゅう}: compiled 905 CE\n- {百人一首|ひゃくにんいっしゅ}: 100 famous poems, still used in card games\n\nCOMMON EXPRESSIONS:\n- {和歌|わか}を{詠|よ}む: to compose a waka poem\n- {和歌|わか}{集|しゅう}: waka anthology\n\nNote: {俳句|はいく} (haiku, 5-7-5) developed later as a separate genre and is not classified as {和歌|わか}.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15358_tanka",
+      "reading": "たんか",
+      "headword": "{短歌|たんか}",
+      "label": "31-syllable form"
+    },
+    {
+      "type": "related",
+      "target_id": "00083_haiku",
+      "reading": "はいく",
+      "headword": "{俳句|はいく}",
+      "label": "haiku (5-7-5)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13438_kanshi",
+      "reading": "かんし",
+      "headword": "{漢詩|かんし}",
+      "label": "Chinese poetry"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T03:32:45Z",
-    "modified": "2026-03-29T04:38:12Z",
+    "modified": "2026-04-13T09:32:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
