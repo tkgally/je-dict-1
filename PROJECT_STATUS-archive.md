@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Focused on high-frequency set expressions, everyday collocations, and common spoken/business phrases that learners encounter early but often lack good dictionary coverage for.
+
+- **Expressions (11)**: よろしくお{願|ねが}いします (please treat me well / I look forward to working with you), お{邪魔|じゃま}します (pardon my intrusion, said on entering), お{邪魔|じゃま}しました (thanks for having me, said on leaving), お{世話|せわ}になっております (thank you for your continued support, business greeting), つまらないものですが (it's just a small thing, said when giving a gift), {靴|くつ}を{脱|ぬ}ぐ (to take off one's shoes), {顔|かお}を{洗|あら}う (to wash one's face), {髪|かみ}を{乾|かわ}かす (to dry one's hair), {次|つぎ}の{駅|えき} (the next station), お{忙|いそが}しいところ (when you are busy, polite preface), {一列|いちれつ}に{並|なら}ぶ (to line up in a single file)
+- **Expression/interjection (1)**: {助|たす}けて (help!; help me!)
+- **Nouns (2)**: お{水|みず} (water, polite form), {起工式|きこうしき} (groundbreaking ceremony)
+- Removed 14 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
 Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
 
