@@ -3,6 +3,13 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A mix of everyday loanwords, banking and transportation vocabulary, policy/business terms, and technical computing and science terms.
+
+- **Nouns (11)**: メインディッシュ (main dish), {銃撃戦|じゅうげきせん} (shootout), {旅客列車|りょかくれっしゃ} (passenger train), {熱伝導|ねつでんどう} (heat conduction), {磁気|じき}テープ (magnetic tape), {発光|はっこう}ダイオード (light-emitting diode), {演算子|えんざんし} (operator — math/programming), {預金通帳|よきんつうちょう} (bankbook), {学園生活|がくえんせいかつ} (school/campus life), {地域振興|ちいきしんこう} (regional development), {球根|きゅうこん}{植物|しょくぶつ} (bulb plant)
+- **Noun/suru verbs (4)**: サインイン (sign in), {均質化|きんしつか} (homogenization), {通帳記入|つうちょうきにゅう} (passbook update), {演算処理|えんざんしょり} (arithmetic processing)
+- Removed 15 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Focused on high-frequency set expressions, everyday collocations, and common spoken/business phrases that learners encounter early but often lack good dictionary coverage for.
 
