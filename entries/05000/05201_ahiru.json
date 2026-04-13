@@ -44,10 +44,32 @@
     }
   ],
   "notes": "アヒル refers specifically to domesticated ducks, as opposed to wild ducks ({鴨|かも}). Usually written in katakana, though the kanji {家鴨|あひる} exists (literally \"house duck\").\n\nRELATED TERMS:\n- {鴨|かも}: wild duck (also used in cooking: {鴨|かも}{肉|にく})\n- アヒルの{子|こ}: duckling\n- {合鴨|あいがも}: crossbreed of wild and domestic duck\n- {白鳥|はくちょう}: swan\n\nONOMATOPOEIA:\n- ガーガー: quacking sound\n- よちよち: waddling motion (アヒル{歩|ある}き — duck walk)\n\nCULTURAL NOTE:\nThe story 「{醜|みにく}いアヒルの{子|こ}」 (The Ugly Duckling) is well known in Japan. Rubber ducks (アヒルのおもちゃ) are also a familiar bath toy.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17740_kamo",
+      "reading": "かも",
+      "headword": "{鴨|かも}",
+      "label": "wild duck"
+    },
+    {
+      "type": "related",
+      "target_id": "04937_hakuchou",
+      "reading": "はくちょう",
+      "headword": "{白鳥|はくちょう}",
+      "label": "swan"
+    },
+    {
+      "type": "related",
+      "target_id": "00679_tori",
+      "reading": "とり",
+      "headword": "{鳥|とり}",
+      "label": "bird"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T03:26:34Z",
-    "modified": "2026-03-26T14:47:11Z",
+    "modified": "2026-04-13T09:32:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
