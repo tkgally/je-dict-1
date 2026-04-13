@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-13 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23653-23667) from candidate_words.json. A mix of historical, biological, medical, geographical, business, geometric, and everyday vocabulary.
+
+- **Nouns (15)**: {引|ひ}き{揚|あ}げ{者|しゃ} (postwar repatriate), {誕生祭|たんじょうさい} (birthday celebration, esp. for an idol/character), {二十日鼠|はつかねずみ} (house mouse), {齧歯類|げっしるい} (rodents), {死後硬直|しごこうちょく} (rigor mortis), {家庭用|かていよう}ゲーム{機|き} (home game console), {耳鼻咽喉科|じびいんこうか} (ENT department), {輸液|ゆえき} (IV infusion), {首長竜|くびながりゅう} (plesiosaur), {返信|へんしん}はがき (reply postcard), {同族企業|どうぞくきぎょう} (family business), {正三角形|せいさんかくけい} (equilateral triangle), {二十三区|にじゅうさんく} (Tokyo's 23 wards), {顎紐|あごひも} (chin strap), {脱脂粉乳|だっしふんにゅう} (skim milk powder)
+- Removed 15 candidates that now exist as entries
+
 ### 2026-04-13 (Vocabulary Expansion - 18 New Entries)
 Added 18 new dictionary entries (IDs 23635-23652) from candidate_words.json. A mix of diplomatic, legal, bureaucratic, meteorological, culinary, grammatical, and everyday vocabulary, including some slang and tech-era terms.
 
@@ -79,13 +85,6 @@ Added 15 new dictionary entries (IDs 23595-23609) from candidate_words.json. A m
 
 - **Nouns (13)**: {破産者|はさんしゃ} (bankrupt person), {皮膚炎|ひふえん} (dermatitis), {三温糖|さんおんとう} (Japanese light brown sugar), {入場者|にゅうじょうしゃ} (attendee / visitor), {峠道|とうげみち} (mountain pass road), {尾骨|びこつ} (coccyx / tailbone), {親権者|しんけんしゃ} (parent with legal custody), {正式名称|せいしきめいしょう} (official name), {発見者|はっけんしゃ} (discoverer / finder), {営業所|えいぎょうしょ} (sales / branch office), {受精卵|じゅせいらん} (fertilized egg), {閉店時間|へいてんじかん} (closing time), {市議会|しぎかい} (city council), {水力発電|すいりょくはつでん} (hydroelectric power generation)
 - **Na-adjectives (1)**: {民族的|みんぞくてき} (ethnic / national)
-- Removed 15 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
-Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A mix of everyday loanwords, banking and transportation vocabulary, policy/business terms, and technical computing and science terms.
-
-- **Nouns (11)**: メインディッシュ (main dish), {銃撃戦|じゅうげきせん} (shootout), {旅客列車|りょかくれっしゃ} (passenger train), {熱伝導|ねつでんどう} (heat conduction), {磁気|じき}テープ (magnetic tape), {発光|はっこう}ダイオード (light-emitting diode), {演算子|えんざんし} (operator — math/programming), {預金通帳|よきんつうちょう} (bankbook), {学園生活|がくえんせいかつ} (school/campus life), {地域振興|ちいきしんこう} (regional development), {球根|きゅうこん}{植物|しょくぶつ} (bulb plant)
-- **Noun/suru verbs (4)**: サインイン (sign in), {均質化|きんしつか} (homogenization), {通帳記入|つうちょうきにゅう} (passbook update), {演算処理|えんざんしょり} (arithmetic processing)
 - Removed 15 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
