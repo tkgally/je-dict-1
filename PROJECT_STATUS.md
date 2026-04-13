@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-13 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23620-23634) from candidate_words.json. A mix of technical, educational, and everyday vocabulary including medical, household, kanji-radical, industrial, mathematical, and number/age terms.
+
+- **Nouns (13)**: {抗炎症|こうえんしょう} (anti-inflammatory), {体脂肪計|たいしぼうけい} (body fat scale), {身長計|しんちょうけい} (stadiometer), ハンマー{投|な}げ (hammer throw), にんべん (person radical 亻), きへん (tree radical 木), {旁|つくり} (right-hand kanji component), スタンプ{台|だい} (ink pad for rubber stamps), {溶鉱炉|ようこうろ} (blast furnace), {四角錐|しかくすい} (square pyramid), {処理装置|しょりそうち} (processing unit), {骨格標本|こっかくひょうほん} (skeletal specimen), {十九歳|じゅうきゅうさい} (nineteen years old), {大量殺人|たいりょうさつじん} (mass murder)
+- **Number (1)**: {二万|にまん} (twenty thousand)
+- Added new kanji 旁 to kanji_list.json (ID 02679_hou_tsukuri_right-component)
+- Removed 15 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A mix of Japanese grammar/linguistic terms, disaster-reporting vocabulary, and formal medical/business/accounting terms.
 
@@ -80,16 +88,6 @@ Added 14 new dictionary entries (IDs 23566-23579) from candidate_words.json. Foc
 - **Expression/interjection (1)**: {助|たす}けて (help!; help me!)
 - **Nouns (2)**: お{水|みず} (water, polite form), {起工式|きこうしき} (groundbreaking ceremony)
 - Removed 14 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 21 New Entries)
-Added 21 new dictionary entries (IDs 23545-23565) from candidate_words.json. A mix of everyday, academic, business, and formal vocabulary: time expressions, adverbs, nouns for daily life and technology, mathematical and philosophical terms, and formal compounds used in business and administrative contexts.
-
-- **Nouns (13)**: {食事|しょくじ}{会|かい} (meal gathering), コピー{機|き} (copier), ニックネーム (nickname), {自家用車|じかようしゃ} (private car), {有理数|ゆうりすう} (rational number), {倫理学|りんりがく} (ethics / moral philosophy), {大工|だいく}{道具|どうぐ} (carpentry tools), {音響|おんきょう}{設備|せつび} (sound equipment), {法医学|ほういがく} (forensic medicine), {付|つ}け{替|か}え (replacement / swap), {公約数|こうやくすう} (common divisor — multi-sense), {教育|きょういく}{課程|かてい} (curriculum), {添付|てんぷ}{書類|しょるい} (attached documents), {番号|ばんごう}{順|じゅん} (numerical order)
-- **Noun/suru verbs (4)**: {安全|あんぜん}{管理|かんり} (safety management), {自己|じこ}{認識|にんしき} (self-awareness), {弔問|ちょうもん} (condolence visit), {機密|きみつ}{保持|ほじ} (confidentiality / NDA)
-- **Noun/na-adjective (1)**: {非合理|ひごうり} (irrationality / irrational)
-- **Expression (1)**: {昔|むかし}から (from a long time ago)
-- **Adverb (1)**: {極端|きょくたん}に (extremely)
-- Removed 21 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
