@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 13 New Entries)
+Added 13 new dictionary entries (IDs 23798-23810) from candidate_words.json. A mix of formal/technical, sexuality-related, legal, and traditional vocabulary.
+
+- **Na-adjectives (3)**: {性的|せいてき} (sexual; erotic), {狭量|きょうりょう} (narrow-minded; petty), {有毒|ゆうどく} (poisonous; toxic — also no-adj)
+- **Noun/suru verbs (3)**: {野宿|のじゅく} (sleeping outdoors), {査察|ささつ} (official on-site inspection), {昏睡|こんすい} (coma / comatose state), {作図|さくず} (geometric construction; drafting)
+- **Nouns (5)**: {先人|せんじん} (forerunner; predecessor), {論客|ろんきゃく} (pundit; skilled debater), {猥褻|わいせつ} (obscene; indecent — na-adj), {性欲|せいよく} (sexual desire; libido), {多用途|たようと} (multi-purpose), {棒術|ぼうじゅつ} (traditional staff martial art)
+- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS (plus CULTURAL CONTEXT where relevant) sections, and full furigana coverage
+- Added new kanji 褻 (ID 02683) to the kanji index
+
 ### 2026-04-14 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 23773-23797) from candidate_words.json. A mix of everyday nouns, technical terms, and cultural/scientific vocabulary.
 
