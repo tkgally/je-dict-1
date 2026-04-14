@@ -79,10 +79,39 @@
     }
   ],
   "notes": "{脈|みゃく} has both medical and figurative uses.\n\nMEDICAL TERMS:\n- {脈拍|みゃくはく}: pulse rate\n- {動脈|どうみゃく}: artery\n- {静脈|じょうみゃく}: vein\n- {脈|みゃく}を{取|と}る/{測|はか}る: to take pulse\n- {脈|みゃく}がある: to have a pulse\n\nFIGURATIVE USES:\n- {山脈|さんみゃく}: mountain range\n- {鉱脈|こうみゃく}: ore vein, lode\n- {文脈|ぶんみゃく}: context\n- {人脈|じんみゃく}: personal connections, network\n\nIDIOM:\n- {脈|みゃく}がある: to have a chance/prospect\n- {脈|みゃく}がない: no chance, hopeless\n\nRELATED:\n- {血管|けっかん}: blood vessel",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "17839_myakuhaku",
+      "reading": "みゃくはく",
+      "headword": "{脈拍|みゃくはく}",
+      "label": "pulse rate (technical)"
+    },
+    {
+      "type": "related",
+      "target_id": "05857_doumyaku",
+      "reading": "どうみゃく",
+      "headword": "{動脈|どうみゃく}",
+      "label": "artery"
+    },
+    {
+      "type": "related",
+      "target_id": "05858_joumyaku",
+      "reading": "じょうみゃく",
+      "headword": "{静脈|じょうみゃく}",
+      "label": "vein"
+    },
+    {
+      "type": "related",
+      "target_id": "02742_kekkan",
+      "reading": "けっかん",
+      "headword": "{血管|けっかん}",
+      "label": "blood vessel"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T03:32:45Z",
-    "modified": "2026-03-08T04:15:24Z",
+    "modified": "2026-04-14T01:59:28Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
