@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23711-23726) from candidate_words.json. A mix of everyday, financial, technical, and abstract vocabulary.
+
+- **Nouns (13)**: {利用限度額|りようげんどがく} (credit limit), マイナンバーカード (My Number Card), フリータイム (unlimited-time plan), {利用者|りようしゃ}カード (user/library card), {遺失物取扱所|いしつぶつとりあつかいじょ} (lost-and-found office), {基準金利|きじゅんきんり} (benchmark interest rate), {季節行事|きせつぎょうじ} (seasonal event), レコーダー (recorder), {録音機|ろくおんき} (audio recorder), {垂直線|すいちょくせん} (vertical/perpendicular line), {交差線|こうさせん} (intersecting line), {顧客|こきゃく}サービス (customer service), {心理現象|しんりげんしょう} (psychological phenomenon)
+- **Noun+suru verbs (1)**: {平均化|へいきんか} (averaging / leveling)
+- **Expressions (2)**: {途中|とちゅう}から (from partway through), ブラシをかける (to brush)
+- All entries created with full v2 quality: progressive-length examples, structured notes (USAGE/COLLOCATIONS/SIMILAR WORDS sections), and full furigana coverage
+
 ### 2026-04-14 (Vocabulary Expansion - 13 New Entries)
 Added 13 new dictionary entries (IDs 23698-23710) from candidate_words.json. A mix of general, scientific, and everyday vocabulary.
 
