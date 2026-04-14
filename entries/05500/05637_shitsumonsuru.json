@@ -48,10 +48,32 @@
     }
   ],
   "notes": "{質問|しつもん}する means to ask a question or inquire. The noun {質問|しつもん} combines with する to form the verb.\n\nCOMMON PATTERNS:\n- {質問|しつもん}に{答|こた}える: to answer a question\n- {質問|しつもん}を{受|う}ける: to receive questions\n- {質問|しつもん}を{投|な}げかける: to pose a question\n- {質問|しつもん}がある: to have a question\n- {何|なに}か{質問|しつもん}はありますか: any questions?\n\nSIMILAR WORDS:\n- {聞|き}く: to ask (casual, everyday)\n- {尋|たず}ねる: to inquire (slightly formal)\n- {問|と}い{合|あ}わせる: to make an inquiry (business/customer service)\n\nNOTE:\n{質問|しつもん}する is neutral in register and works in both casual and formal contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "01099_kotaeru",
+      "reading": "こたえる",
+      "headword": "{答|こた}える",
+      "label": "to answer"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01175_tazuneru",
+      "reading": "たずねる",
+      "headword": "{尋|たず}ねる",
+      "label": "to inquire (formal)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00483_kiku",
+      "reading": "きく",
+      "headword": "{聞|き}く",
+      "label": "to ask (casual)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:34:03Z",
-    "modified": "2026-03-29T07:15:08Z",
+    "modified": "2026-04-14T10:22:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
