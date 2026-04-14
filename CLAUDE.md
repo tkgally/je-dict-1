@@ -432,7 +432,7 @@ All task prompts that create a PR must follow this complete workflow. The goal i
 Use the `gh` CLI for GitHub operations. The git remote uses a local proxy, so **always pass `--repo tkgally/je-dict-1`** to `gh` commands. If GitHub MCP tools (`mcp__github__*`) are available, those work too.
 
 4. **Create the PR**: `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
-5. **Poll CI** every 60 seconds: `gh pr checks <number> --repo tkgally/je-dict-1` (up to 10 minutes)
+5. **Wait for CI** with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` — exits 0 when every check succeeds, non-zero on failure. **Do NOT wrap this in a hand-rolled `while`/`sleep`/`curl` polling loop**: `--watch` already handles the wait, and streaming loops get routed through the `Monitor` tool, which has its own permission grant and will deadlock an unattended (cron/scheduler) session if not pre-approved.
 6. **Squash-merge** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
 7. If CI fails: read logs with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat from step 5
 

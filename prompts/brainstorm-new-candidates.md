@@ -173,8 +173,7 @@ The PR body should include:
 
 ### 9. Wait for CI and squash-merge
 
-Poll CI status every 60 seconds (up to 10 minutes). Once green, squash-merge
-the PR.
+Wait for CI with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast`. It exits 0 when every check succeeds and non-zero on failure. Do NOT wrap it in a `while`/`sleep`/`curl` polling loop — `--watch` already handles the wait, and hand-rolled streaming loops get routed through the `Monitor` tool (separate permission grant) which will deadlock an unattended session. Once green, squash-merge the PR.
 
 If CI fails, read the failure logs, fix the issue, commit, push, and re-check.
 
