@@ -52,6 +52,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23763-23772) from candidate_words.json. A mix of crime/media, writing/language, logistics, and sports/transport vocabulary.
+
+- **Nouns (7)**: {覗|のぞ}き (peeping/voyeurism — two senses), {制作者|せいさくしゃ} (creator/producer of media), {公海|こうかい} (the high seas / international waters), {夜行列車|やこうれっしゃ} (overnight train), シャープペンシル (mechanical pencil), {野球場|やきゅうじょう} (baseball stadium), {引用文|いんようぶん} (quotation / quoted passage), {引用符|いんようふ} (quotation marks)
+- **Na-adjective (1)**: {内部的|ないぶてき} (internal; in-house)
+- **Noun+suru verb (1)**: {入庫|にゅうこ} (warehousing; returning to depot — two senses)
+- All entries include progressive-length examples, structured notes (USAGE/COLLOCATIONS/SIMILAR WORDS sections), and full furigana coverage
+
+### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23753-23762) from candidate_words.json. A mix of everyday verbs and phrases, news and media vocabulary, and disaster/infrastructure terms.
 
 - **Nouns (5)**: {検査|けんさ}キット (test kit), {誤差|ごさ}{範囲|はんい} (margin of error), {押|お}し{入|い}り (break-in / home invasion), {決壊|けっかい}{口|ぐち} (levee breach), {独占|どくせん}{取材|しゅざい} (exclusive interview; also suru-verb)
