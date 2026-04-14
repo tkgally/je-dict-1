@@ -113,6 +113,6 @@ Follow the complete workflow described in CLAUDE.md:
 2. Commit ALL changes including build artifacts
 3. Push to the feature branch
 4. Create PR describing the corrections made
-5. Poll CI every 60 seconds (up to 10 minutes)
+5. Wait for CI with `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` (one blocking call — do NOT wrap in a `while`/`sleep`/`curl` loop; streaming loops trigger the `Monitor` permission and will deadlock an unattended session)
 6. Squash-merge once CI is green
 7. Post-merge cleanup: switch to main, pull, verify clean, delete feature branch

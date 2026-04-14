@@ -267,7 +267,7 @@ Follow the complete workflow described in CLAUDE.md under "End-of-session PR and
 2. **`git add -A`** to stage everything (entries, docs, indexes, kanji, progress file, session log, etc.)
 3. **Commit and push** to the feature branch
 4. **Create a PR** for the branch
-5. **Poll CI status** every 60 seconds until all checks pass (allow up to 10 minutes)
+5. **Wait for CI** with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` (exits 0 on success, non-zero on failure). Do NOT wrap this in a `while`/`sleep`/`curl` polling loop — `--watch` already waits, and hand-rolled streaming loops get routed through the `Monitor` tool (separate permission grant) which will deadlock an unattended session.
 6. **Squash-merge the PR** once all checks are green
 7. **If CI fails**: read the error, fix the issue, push again, and repeat from step 5
 8. **Post-merge cleanup**: switch to main, pull, verify clean state, delete feature branch locally and remotely

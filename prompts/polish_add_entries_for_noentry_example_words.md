@@ -184,7 +184,7 @@ python3 build/build_flat.py                         # Rebuild the static site
 
 4. **PR and merge workflow**:
    - Create a PR for the branch
-   - Poll CI status every 60 seconds using the `pull_request_read` tool until all checks pass (allow up to 10 minutes)
+   - Wait for CI with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` (exits 0 on success, non-zero on failure). Do NOT drive a polling loop via `pull_request_read` or shell `while`/`sleep`/`curl` — streaming loops get routed through the `Monitor` tool (separate permission grant) and will deadlock an unattended session.
    - Squash-merge the PR once all checks are green
    - If CI fails: read the error, fix the issue, push again, and repeat
 

@@ -257,7 +257,7 @@ Follow the complete workflow described in CLAUDE.md under "End-of-session PR and
 2. **`git add -A`** to stage everything (entries, docs, indexes, kanji, session logs, etc.)
 3. **Commit and push** to the feature branch
 4. **Create a PR** using `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
-5. **Poll CI status** every 60 seconds: `gh pr checks <number> --repo tkgally/je-dict-1`
+5. **Wait for CI** with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` (exits 0 on success, non-zero on failure). Do NOT wrap this in a `while`/`sleep`/`curl` polling loop — `--watch` already waits, and hand-rolled streaming loops get routed through the `Monitor` tool, which has its own permission grant and will deadlock an unattended (cron) session.
 6. **Squash-merge the PR** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
 7. **If CI fails**: read the error with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat
 8. **Post-merge cleanup**: switch to main, pull, verify clean state, delete feature branch locally and remotely
