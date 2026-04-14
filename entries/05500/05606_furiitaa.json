@@ -44,10 +44,32 @@
     }
   ],
   "notes": "フリーター is a Japanese coinage from \"free\" + アルバイター (from German \"Arbeiter,\" worker). The term emerged in the late 1980s.\n\nSOCIAL CONTEXT:\nSome choose this lifestyle for flexibility or while pursuing dreams (music, acting). However, it can also indicate difficulty entering the regular job market, especially after Japan's economic downturn. Being a long-term フリーター carries some social stigma, as {正社員|せいしゃいん} (full-time employment) is considered the standard career path.\n\nRELATED EMPLOYMENT TERMS:\n- {正社員|せいしゃいん}: full-time regular employee\n- {派遣|はけん}{社員|しゃいん}: temporary/dispatch worker\n- {契約|けいやく}{社員|しゃいん}: contract employee\n- アルバイト: part-time job\n- ニート: NEET (not in education, employment, or training)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13194_seishain",
+      "reading": "せいしゃいん",
+      "headword": "{正社員|せいしゃいん}",
+      "label": "full-time regular employee"
+    },
+    {
+      "type": "related",
+      "target_id": "01528_arubaito",
+      "reading": "あるばいと",
+      "headword": "アルバイト",
+      "label": "part-time job"
+    },
+    {
+      "type": "related",
+      "target_id": "18875_hakenshain",
+      "reading": "はけんしゃいん",
+      "headword": "{派遣|はけん}{社員|しゃいん}",
+      "label": "dispatch worker"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:18:53Z",
-    "modified": "2026-03-28T10:56:41Z",
+    "modified": "2026-04-14T10:22:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
