@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-13
+**Last updated**: 2026-04-14
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 23668-23697) from candidate_words.json. A mix of technology, architecture, business, ecology, grammar, accounting, and general vocabulary for intermediate learners.
+
+- **Nouns (20)**: {高画質|こうがしつ} (high image quality), {低画質|ていがしつ} (low image quality), {平面図|へいめんず} (floor plan), {立面図|りつめんず} (elevation drawing), {原始林|げんしりん} (primeval forest), {自然林|しぜんりん} (natural forest), {地元紙|じもとし} (local newspaper), {歴史学|れきしがく} (history as a discipline), {奇術|きじゅつ} (stage magic), {出世欲|しゅっせよく} (desire for career advancement), {提出書類|ていしゅつしょるい} (required submission documents), {金管楽器|きんかんがっき} (brass instrument), {低品質|ていひんしつ} (low quality), {上級者向|じょうきゅうしゃむ}け (for advanced users), {初級者向|しょきゅうしゃむ}け (for beginners), つなぎ{役|やく} (intermediary / bridging role), {提携先|ていけいさき} (business partner), {会議費|かいぎひ} (meeting expenses, accounting), {給水塔|きゅうすいとう} (water tower), {受|う}け{止|と}め{方|かた} (way of taking/interpreting), {成語|せいご} (set phrase/idiom)
+- **Noun+suru verbs (5)**: {自給|じきゅう} (self-sufficiency in supply), {自足|じそく} (self-sufficiency), {事故死|じこし} (accidental death), {送風|そうふう} (ventilation/fan), {正比例|せいひれい} (direct proportion), {区別化|くべつか} (differentiation)
+- **Expressions (3)**: どのように (how, in what way), {仕事|しごと}のやりがい (fulfillment at work), {対価|たいか}を{払|はら}う (to pay a price)
+- Added conjugation tables to 6 new suru verbs automatically
+- Removed 30 candidates that now exist as entries
+
 ### 2026-04-13 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23653-23667) from candidate_words.json. A mix of historical, biological, medical, geographical, business, geometric, and everyday vocabulary.
 
@@ -79,13 +88,6 @@ Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A m
 - **Noun/suru verbs (2)**: {床下浸水|ゆかしたしんすい} (below-floor flooding), {床上浸水|ゆかうえしんすい} (above-floor flooding)
 - Added new kanji 臀 to kanji_list.json (ID 02678_den_shiri_buttocks)
 - Removed 10 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
-Added 15 new dictionary entries (IDs 23595-23609) from candidate_words.json. A mix of legal, medical, food, geographical, biological, business, and civics vocabulary of practical value to intermediate learners.
-
-- **Nouns (13)**: {破産者|はさんしゃ} (bankrupt person), {皮膚炎|ひふえん} (dermatitis), {三温糖|さんおんとう} (Japanese light brown sugar), {入場者|にゅうじょうしゃ} (attendee / visitor), {峠道|とうげみち} (mountain pass road), {尾骨|びこつ} (coccyx / tailbone), {親権者|しんけんしゃ} (parent with legal custody), {正式名称|せいしきめいしょう} (official name), {発見者|はっけんしゃ} (discoverer / finder), {営業所|えいぎょうしょ} (sales / branch office), {受精卵|じゅせいらん} (fertilized egg), {閉店時間|へいてんじかん} (closing time), {市議会|しぎかい} (city council), {水力発電|すいりょくはつでん} (hydroelectric power generation)
-- **Na-adjectives (1)**: {民族的|みんぞくてき} (ethnic / national)
-- Removed 15 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
