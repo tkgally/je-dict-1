@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 13 New Entries)
+Added 13 new dictionary entries (IDs 23698-23710) from candidate_words.json. A mix of general, scientific, and everyday vocabulary.
+
+- **Nouns (10)**: {中国人|ちゅうごくじん} (Chinese person), {天然|てんねん}ゴム (natural rubber), {合成|ごうせい}ゴム (synthetic rubber), {積雲|せきうん} (cumulus cloud), {層雲|そううん} (stratus cloud), {神経系|しんけいけい} (nervous system), {合成|ごうせい}{皮革|ひかく} (synthetic leather), {葉緑体|ようりょくたい} (chloroplast), {有袋類|ゆうたいるい} (marsupials)
+- **Noun+suru verbs (1)**: {閉経|へいけい} (menopause)
+- **Godan verbs (3)**: {向|む}かい{合|あ}う (to face each other), {切羽|せっぱ}{詰|つ}まる (to be cornered), {引|ひ}き{落|お}とす (to debit / pull down)
+- Added conjugation tables to all new verbs and the suru-verb entry
+- Removed 13 candidates that now exist as entries
+
 ### 2026-04-14 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 23668-23697) from candidate_words.json. A mix of technology, architecture, business, ecology, grammar, accounting, and general vocabulary for intermediate learners.
 
@@ -80,14 +89,6 @@ Added 15 new dictionary entries (IDs 23620-23634) from candidate_words.json. A m
 - **Number (1)**: {二万|にまん} (twenty thousand)
 - Added new kanji 旁 to kanji_list.json (ID 02679_hou_tsukuri_right-component)
 - Removed 15 candidates that now exist as entries
-
-### 2026-04-12 (Vocabulary Expansion - 10 New Entries)
-Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A mix of Japanese grammar/linguistic terms, disaster-reporting vocabulary, and formal medical/business/accounting terms.
-
-- **Nouns (8)**: {未然形|みぜんけい} (irrealis form), {終止形|しゅうしけい} (terminal/dictionary form), {連体形|れんたいけい} (attributive form), {二人称|ににんしょう} (second person — grammatical), {臀部|でんぶ} (buttocks / gluteal region — formal), {被保険者|ひほけんしゃ} (the insured), {立替金|たてかえきん} (advance payment / reimbursable expense), {造影剤|ぞうえいざい} (contrast agent for medical imaging)
-- **Noun/suru verbs (2)**: {床下浸水|ゆかしたしんすい} (below-floor flooding), {床上浸水|ゆかうえしんすい} (above-floor flooding)
-- Added new kanji 臀 to kanji_list.json (ID 02678_den_shiri_buttocks)
-- Removed 10 candidates that now exist as entries
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
