@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23737-23752) from candidate_words.json. A mix of everyday household items, loanwords, media/tech vocabulary, and cooking terms.
+
+- **Nouns (13)**: スクランブルエッグ (scrambled eggs), センチメートル (centimeter), ドレッサー (dresser/vanity), キャビア (caviar), ボイラー (boiler), ホルン (French horn), サンバイザー (sun visor — two senses: headwear and car visor), ハイカー (hiker), ヨガマット (yoga mat), {充電池|じゅうでんち} (rechargeable battery), {割増料金|わりましりょうきん} (surcharge), {電気|でんき}ポット (electric hot water dispenser), {介護休業|かいごきゅうぎょう} (family care leave), {焼|や}き{目|め} (browned surface/sear)
+- **Noun+suru verbs (2)**: ライブ{配信|はいしん} (live streaming), チャンネル{登録|とうろく} (channel subscription)
+- All entries include progressive-length examples, structured notes (USAGE/COLLOCATIONS/SIMILAR WORDS/CULTURAL NOTE sections), and full furigana coverage
+
 ### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23727-23736) from candidate_words.json, mainly technical and specialized nouns in the general tier.
 
