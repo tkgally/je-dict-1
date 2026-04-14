@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-12 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23610-23619) from candidate_words.json. A mix of Japanese grammar/linguistic terms, disaster-reporting vocabulary, and formal medical/business/accounting terms.
+
+- **Nouns (8)**: {未然形|みぜんけい} (irrealis form), {終止形|しゅうしけい} (terminal/dictionary form), {連体形|れんたいけい} (attributive form), {二人称|ににんしょう} (second person — grammatical), {臀部|でんぶ} (buttocks / gluteal region — formal), {被保険者|ひほけんしゃ} (the insured), {立替金|たてかえきん} (advance payment / reimbursable expense), {造影剤|ぞうえいざい} (contrast agent for medical imaging)
+- **Noun/suru verbs (2)**: {床下浸水|ゆかしたしんすい} (below-floor flooding), {床上浸水|ゆかうえしんすい} (above-floor flooding)
+- Added new kanji 臀 to kanji_list.json (ID 02678_den_shiri_buttocks)
+- Removed 10 candidates that now exist as entries
+
 ### 2026-04-12 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23580-23594) from candidate_words.json. A mix of everyday loanwords, banking and transportation vocabulary, policy/business terms, and technical computing and science terms.
 
