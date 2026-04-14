@@ -44,10 +44,39 @@
     }
   ],
   "notes": "{霰|あられ} refers to small ice pellets that fall from clouds, technically called graupel. Distinct from {雹|ひょう} (hailstones), which are larger.\n\nSIZE DISTINCTION:\n- {霰|あられ}: ice pellets under 5mm in diameter\n- {雹|ひょう}: hailstones 5mm or larger\n\nRELATED WEATHER TERMS:\n- {雹|ひょう}: hail (larger, more damaging)\n- {霙|みぞれ}: sleet (rain and snow mix)\n- {雪|ゆき}: snow\n- {吹雪|ふぶき}: blizzard\n\nCOMMON PATTERNS:\n- {霰|あられ}が{降|ふ}る: hail falls\n- {霰|あられ}が{降|ふ}ってくる: hail starts falling\n\nOTHER MEANING:\nあられ also refers to small cube-shaped rice crackers ({霰|あられ}{餅|もち}), named for their resemblance to hail pellets. Common in the {日本海|にほんかい}{側|がわ} (Sea of Japan side) during winter.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17632_hyou",
+      "reading": "ひょう",
+      "headword": "{雹|ひょう}",
+      "label": "hail (larger, 5mm+)"
+    },
+    {
+      "type": "related",
+      "target_id": "06505_mizore",
+      "reading": "みぞれ",
+      "headword": "{霙|みぞれ}",
+      "label": "sleet (rain + snow)"
+    },
+    {
+      "type": "related",
+      "target_id": "00584_yuki",
+      "reading": "ゆき",
+      "headword": "{雪|ゆき}",
+      "label": "snow"
+    },
+    {
+      "type": "related",
+      "target_id": "00040_fubuki",
+      "reading": "ふぶき",
+      "headword": "{吹雪|ふぶき}",
+      "label": "blizzard"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-03-27T00:47:55Z",
+    "modified": "2026-04-14T03:22:28Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
