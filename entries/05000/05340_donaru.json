@@ -49,10 +49,32 @@
     }
   ],
   "notes": "{怒鳴|どな}る specifically implies angry shouting, as opposed to neutral loud speaking.\n\nSIMILAR WORDS:\n- {叫|さけ}ぶ: to scream, to shout (neutral, not necessarily angry)\n- {喚|わめ}く: to yell, to scream (often hysterical or out of control)\n- {怒|おこ}る: to get angry (doesn't necessarily involve shouting)\n\nCOMMON PATTERNS:\n- 〜に{怒鳴|どな}る: to yell at ~\n- {怒鳴|どな}り{声|こえ} (どなりごえ): yelling voice\n- {怒鳴|どな}りつける: to yell at fiercely",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02108_sakebu",
+      "reading": "さけぶ",
+      "headword": "{叫|さけ}ぶ",
+      "label": "to shout, scream (neutral)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "05345_wameku",
+      "reading": "わめく",
+      "headword": "{喚|わめ}く",
+      "label": "to yell (hysterical)"
+    },
+    {
+      "type": "related",
+      "target_id": "00876_okoru",
+      "reading": "おこる",
+      "headword": "{怒|おこ}る",
+      "label": "to get angry"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-04-14T03:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

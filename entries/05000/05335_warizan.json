@@ -46,16 +46,30 @@
   "notes": "{割|わ}り{算|ざん} is composed of {割|わ}る (to divide) + {算|さん} (calculation). Used mainly in math education and everyday arithmetic.\n\nHOW TO READ DIVISION:\n- 12{割|わ}る3は4: 12 divided by 3 is 4\n- The verb {割|わ}る is used for \"divided by\"\n\nFOUR BASIC OPERATIONS:\n- {足|た}し{算|ざん}: addition (+)\n- {引|ひ}き{算|ざん}: subtraction (−)\n- {掛|か}け{算|ざん}: multiplication (×)\n- {割|わ}り{算|ざん}: division (÷)\n\nRELATED TERMS:\n- {割|わ}り{切|き}れる: divisible (no remainder)\n- {割|わ}り{切|き}れない: indivisible; also figuratively \"hard to accept\"\n- {余|あま}り: remainder",
   "cross_references": [
     {
-      "type": "related",
+      "type": "antonym",
       "reading": "かけざん",
       "headword": "{掛|か}け{算|ざん}",
       "label": "multiplication",
       "target_id": "05334_kakezan"
+    },
+    {
+      "type": "related",
+      "target_id": "05332_tashizan",
+      "reading": "たしざん",
+      "headword": "{足|た}し{算|ざん}",
+      "label": "addition"
+    },
+    {
+      "type": "related",
+      "target_id": "05333_hikizan",
+      "reading": "ひきざん",
+      "headword": "{引|ひ}き{算|ざん}",
+      "label": "subtraction"
     }
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-03-27T03:48:52Z",
+    "modified": "2026-04-14T03:00:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
