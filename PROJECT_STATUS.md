@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23753-23762) from candidate_words.json. A mix of everyday verbs and phrases, news and media vocabulary, and disaster/infrastructure terms.
+
+- **Nouns (5)**: {検査|けんさ}キット (test kit), {誤差|ごさ}{範囲|はんい} (margin of error), {押|お}し{入|い}り (break-in / home invasion), {決壊|けっかい}{口|ぐち} (levee breach), {独占|どくせん}{取材|しゅざい} (exclusive interview; also suru-verb)
+- **Godan verbs (2)**: {連|つ}れていく (to take someone along), ぐるぐる{回|まわ}る (to spin round and round)
+- **Adverb (1)**: {個別|こべつ}に (individually, separately)
+- **Pronoun (1)**: あれら (those, distant plural)
+- **Expression (1)**: {代|か}わりのない (irreplaceable)
+- Hand-corrected the auto-generated conjugation for {連|つ}れていく because the いく stem has irregular past/て forms (いった, いって)
+- All entries include progressive-length examples, structured notes (USAGE/COLLOCATIONS/SIMILAR WORDS/RELATED TERMS sections), and full furigana coverage
+
 ### 2026-04-14 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23737-23752) from candidate_words.json. A mix of everyday household items, loanwords, media/tech vocabulary, and cooking terms.
 
