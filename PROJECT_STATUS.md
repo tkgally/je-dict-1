@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23727-23736) from candidate_words.json, mainly technical and specialized nouns in the general tier.
+
+- **Nouns (10)**: {孵化場|ふかじょう} (hatchery), {孵卵器|ふらんき} (incubator), {玄武岩|げんぶがん} (basalt), {泥岩|でいがん} (mudstone), {禁固刑|きんこけい} (imprisonment without labor), {団員|だんいん} (group/troupe member), {外枠|そとわく} (outer frame), {攪拌器|かくはんき} (mixer/agitator), {黄熱病|おうねつびょう} (yellow fever), {骨格筋|こっかくきん} (skeletal muscle)
+- All entries created with full v2 quality: progressive-length examples, structured notes (USAGE/COLLOCATIONS/SIMILAR WORDS sections), and full furigana coverage
+- Two new kanji (攪, 拌) added to the kanji index (IDs 02680, 02681)
+
 ### 2026-04-14 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23711-23726) from candidate_words.json. A mix of everyday, financial, technical, and abstract vocabulary.
 
