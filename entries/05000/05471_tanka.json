@@ -44,10 +44,32 @@
     }
   ],
   "notes": "{単価|たんか} refers to the price of a single unit or item. It is primarily used in business, retail, and manufacturing contexts rather than everyday conversation.\n\nCOMMON EXPRESSIONS:\n- {客|きゃく}{単価|たんか}: average spending per customer (a key retail metric)\n- {単価|たんか}が{高|たか}い/{安|やす}い: high/low unit price\n- {単価|たんか}を{上|あ}げる/{下|さ}げる: to raise/lower the unit price\n- {原価|げんか}{単価|たんか}: unit cost (manufacturing)\n\nCOMPONENTS:\n{単|たん} (single) + {価|か} (price). Related terms include {定価|ていか} (list price), {原価|げんか} (cost price), and {時価|じか} (market price).\n\nUSAGE:\nIn business discussions, {客|きゃく}{単価|たんか} (customer unit price) is a key performance metric meaning the average amount each customer spends per visit or transaction.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05470_genka",
+      "reading": "げんか",
+      "headword": "{原価|げんか}",
+      "label": "cost price"
+    },
+    {
+      "type": "related",
+      "target_id": "04066_teika",
+      "reading": "ていか",
+      "headword": "{定価|ていか}",
+      "label": "list price"
+    },
+    {
+      "type": "related",
+      "target_id": "05472_sougaku",
+      "reading": "そうがく",
+      "headword": "{総額|そうがく}",
+      "label": "total amount"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T07:41:48Z",
-    "modified": "2026-03-26T06:22:34Z",
+    "modified": "2026-04-14T06:33:24Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
