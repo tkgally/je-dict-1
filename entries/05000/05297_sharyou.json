@@ -79,10 +79,25 @@
     }
   ],
   "notes": "{車両|しゃりょう} is a formal or technical term for vehicles. In everyday speech, {車|くるま} is used for cars and {電車|でんしゃ} for trains, while {車両|しゃりょう} appears in official signs, regulations, and announcements.\n\nTRAIN USAGE:\n- {先頭|せんとう}{車両|しゃりょう}: front car\n- {最後尾|さいこうび}{車両|しゃりょう}: rear car\n- {女性|じょせい}{専用|せんよう}{車両|しゃりょう}: women-only car\n- ～{両|りょう}{編成|へんせい}: N-car formation (e.g., 10{両|りょう}{編成|へんせい})\n\nROAD/REGULATION USAGE:\n- {車両|しゃりょう}{通行|つうこう}{禁止|きんし}: no vehicles allowed\n- {緊急|きんきゅう}{車両|しゃりょう}: emergency vehicle\n- {車両|しゃりょう}{進入|しんにゅう}{禁止|きんし}: no vehicle entry\n\nCOUNTER: Individual train cars are counted with {両|りょう}.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00516_kuruma",
+      "reading": "くるま",
+      "headword": "{車|くるま}",
+      "label": "car (everyday term)"
+    },
+    {
+      "type": "related",
+      "target_id": "00522_densha",
+      "reading": "でんしゃ",
+      "headword": "{電車|でんしゃ}",
+      "label": "train"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-03-29T04:38:12Z",
+    "modified": "2026-04-14T01:59:28Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
