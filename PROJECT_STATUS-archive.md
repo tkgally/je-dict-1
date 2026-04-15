@@ -3,6 +3,15 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
+Added 8 new dictionary entries (IDs 23825-23832) from candidate_words.json. A mixed set covering descriptive modifiers, occupations, biology, transport, tea-ceremony vocabulary, and common verb/phrase expressions.
+
+- **No-adjective (1)**: {等身大|とうしんだい}の (life-size; true-to-life — with figurative sense)
+- **Nouns (4)**: {副操縦士|ふくそうじゅうし} (co-pilot; first officer), {軟体動物|なんたいどうぶつ} (mollusk), {豪華客船|ごうかきゃくせん} (luxury cruise ship), {茶筅|ちゃせん} (tea whisk), {茶杓|ちゃしゃく} (tea scoop)
+- **Expressions (2)**: {偽|いつわ}りのない (truthful; genuine — set prenominal phrase), {口|くち}を{開|あ}ける (to open one's mouth / to unseal a container — two senses)
+- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
+- New kanji 筅 assigned ID 02684_sen_none_whisk for the kanji index
+
 ### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 23811-23824) from candidate_words.json. A themed set focused on 〜的 na-adjectives (abstract/academic register) plus several nouns.
 
