@@ -6,14 +6,14 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 23,713 |
+| Total entries | 23,726 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,982 (closed) |
-| General tier | 20,930 (open — all new entries here) |
-| Next entry ID | 23915 |
-| Candidate words | 2,642 |
+| General tier | 20,943 (open — all new entries here) |
+| Next entry ID | 23928 |
+| Candidate words | 2,629 |
 | Cross-references | ~7,400 |
-| Example sentences | ~96,100 |
+| Example sentences | ~96,200 |
 
 ## Critical Rules
 
@@ -40,14 +40,14 @@ python3 build/check_duplicate.py "word" "reading" # Duplicate check
 ## File Placement
 
 - Path: `entries/{range}/{id}_{romaji}.json`
-- Range = ID rounded down to nearest 500 (e.g., 23915 → `entries/23500/`)
+- Range = ID rounded down to nearest 500 (e.g., 23928 → `entries/23500/`)
 - Use `python3 build/get_entry_path.py <reading> <id>` to confirm
 
 ## Vocabulary Tier Policy
 
 - **Basic** (801): Foundational words. Closed — do not add or modify.
 - **Core** (1,982): Essential adult communication. Closed — do not add or modify.
-- **General** (20,930+): All other vocabulary. All new entries go here.
+- **General** (20,943+): All other vocabulary. All new entries go here.
 
 ## Skills
 
