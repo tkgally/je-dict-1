@@ -4,6 +4,17 @@ This file contains the historical change log entries that have been moved from P
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 
+### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A mix of everyday nouns, cosmetics/skincare vocabulary, formal na-adjectives, and a multi-sense grammar expression.
+
+- **General nouns (8)**: {大喝采|だいかっさい} (thunderous applause), {廃材|はいざい} (scrap material), {命名者|めいめいしゃ} (namer), {月替|つきが}わり (monthly rotation), {期間中|きかんちゅう} (during the period), {二重国籍|にじゅうこくせき} (dual citizenship), {外国製|がいこくせい} (foreign-made), ページ{数|すう} (page count)
+- **Business / product (1)**: {従来品|じゅうらいひん} (previous model; existing product)
+- **Cosmetics / skincare (3)**: グロス (lip gloss / glossy finish — two senses), {脂性肌|しせいはだ} (oily skin), {混合肌|こんごうはだ} (combination skin)
+- **Loanword / marking (1)**: マーキング (marking / territorial scent marking — two senses, noun and verb-suru)
+- **Na-adjectives (2)**: {防衛的|ぼうえいてき} (defensive), {観念的|かんねんてき} (notional; theoretical — with nuance of being out of touch)
+- **Grammar expression (1)**: に{限|かぎ}って (three senses: limiting 'only', unexpected-timing 'of all times', and confident-denial 'of all people')
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 18 New Entries)
 Added 18 new dictionary entries (IDs 23928-23945) from candidate_words.json. A balanced mix spanning politics, chemistry, finance, pop culture, geography, and general vocabulary.
 
