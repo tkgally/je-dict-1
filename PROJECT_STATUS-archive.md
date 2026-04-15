@@ -3,6 +3,17 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A themed mix of academic, music, technology, and everyday nouns plus one {する}-verb.
+
+- **Academic / language / education (4)**: {社会学|しゃかいがく} (sociology), {派生語|はせいご} (derived word; linguistic derivative), {体験学習|たいけんがくしゅう} (experiential/hands-on learning), {助演男優|じょえんだんゆう} (supporting actor)
+- **Music (2)**: {二重奏|にじゅうそう} (instrumental duet), {三重奏|さんじゅうそう} (instrumental trio) — cross-linked to each other
+- **Transport / places (2)**: {寝台車|しんだいしゃ} (sleeping car on a train), マリーナ (marina)
+- **Technology / leisure (2)**: ヘッドセット (headset with microphone), {攻略本|こうりゃくぼん} (strategy guide book for video games)
+- **Everyday / infrastructure (4)**: {電気工事|でんきこうじ} (electrical work), {使用法|しようほう} (directions for use), {誘導灯|ゆうどうとう} (illuminated exit/evacuation sign), {有酸素|ゆうさんそ} (aerobic; prefix-like noun)
+- **Noun + {する}-verb (1)**: {立証|りっしょう} (proof; substantiation — legal/academic register)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR or RELATED WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23833-23842) from candidate_words.json. A mixed set covering everyday nouns, technical vocabulary, a na-adjective loanword, and a multi-sense general noun.
 
