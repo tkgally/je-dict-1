@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23833-23842) from candidate_words.json. A mixed set covering everyday nouns, technical vocabulary, a na-adjective loanword, and a multi-sense general noun.
+
+- **Nouns (8)**: アスピリン (aspirin), ウェブページ (web page), イタチ (weasel), {花輪|はなわ} (floral wreath; garland), {電磁石|でんじしゃく} (electromagnet), {投稿者|とうこうしゃ} (poster; contributor), {広報活動|こうほうかつどう} (public relations activities), {通知書|つうちしょ} (official notice/notification letter)
+- **Na-adjective (1)**: チャーミング (charming; endearing — loanword)
+- **Multi-sense noun (1)**: {小口|こぐち} (small-lot; cut end of a log; edge of a book — three senses, 9 examples)
+- All entries include progressive-length examples, structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
+
 ### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
 Added 8 new dictionary entries (IDs 23825-23832) from candidate_words.json. A mixed set covering descriptive modifiers, occupations, biology, transport, tea-ceremony vocabulary, and common verb/phrase expressions.
 
