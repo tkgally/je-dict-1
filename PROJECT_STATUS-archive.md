@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
+Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emphasizing quality over quantity. A mixed set covering loanword nouns, linguistics/poetics terminology, and common polite expressions.
+
+- **Loanword noun (1)**: スチュワーデス (stewardess; flight attendant — with note on the shift toward gender-neutral {客室乗務員|きゃくしつじょうむいん})
+- **Linguistics / poetics nouns (3)**: {字音|じおん} (Sino-Japanese on-reading of a kanji), {律詩|りっし} (regulated verse, classical Chinese poetic form), {音数|おんすう} (mora count; number of morae, used in haiku/tanka prosody)
+- **Art / evaluation noun (1)**: {優品|ゆうひん} (fine piece; superior-quality article, used in auction/antiques contexts)
+- **Expressions (3)**: でしょうか (polite softened question ending), {秩序|ちつじょ}を{守|まも}る (to maintain order), お{招|まね}きにあずかる (to be kindly invited — humble/formal)
+- Also removed 2 stale candidates (C17377 {上手|じょうず}に — regular adverb of existing entry; C17533 {立替払|たてかえばら}い — orthographic variant of existing 23347)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23878-23892) from candidate_words.json. A themed mix covering language/linguistics, transportation, environment, education, engineering, and architecture.
 
