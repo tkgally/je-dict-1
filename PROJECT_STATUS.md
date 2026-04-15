@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 24013-24026) from candidate_words.json. A mix of everyday objects, technology, administrative vocabulary, formal/abstract nouns, and a traditional color name.
+
+- **Everyday objects (2)**: {瓶蓋|びんぶた} (bottle cap; bottle lid), {保護|ほご}めがね (protective goggles; safety glasses)
+- **Technology / electronics (2)**: {表示画面|ひょうじがめん} (display screen), {起動音|きどうおん} (startup sound; boot chime)
+- **Infrastructure / administration (3)**: {村役場|むらやくば} (village office), {送電網|そうでんもう} (power transmission network; power grid), {系列店|けいれつてん} (affiliated store; corporate-group chain store)
+- **Education / publishing (2)**: {授業計画|じゅぎょうけいかく} (lesson plan; teaching plan), {増補版|ぞうほばん} (expanded edition)
+- **Health / body (1)**: {足浴|そくよく} (foot bath; soaking one's feet — also verb-suru)
+- **Academic (1)**: {人類学者|じんるいがくしゃ} (anthropologist)
+- **Biology (1)**: {昼行性|ちゅうこうせい} (diurnal; daytime-active — antonym of 夜行性)
+- **Color / aesthetics (1)**: {薄紅色|うすべにいろ} (pale pink; soft rose — traditional Japanese color name)
+- **Formal abstract (1)**: {実際上|じっさいじょう} (in practice; practically — contrasts with 理論上)
+- Cleaned up one stale candidate (C11461 {無傷|むきず}で — adverbial variant of the existing 13458 entry {無傷|むきず})
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 9 New Entries)
 Added 9 new dictionary entries (IDs 24004-24012) from candidate_words.json. A set of technical and infrastructural nouns plus one everyday nature term.
 
@@ -96,17 +111,6 @@ Added 14 new dictionary entries (IDs 23962-23975) from candidate_words.json. A m
 - **Everyday / food / hobby (3)**: {歯触|はざわ}り (mouthfeel; texture of food), {艶出|つやだ}し (polishing; glossing), {棋譜|きふ} (shogi/go game record)
 - **Literature / criticism (1)**: {人物|じんぶつ}{描写|びょうしゃ} (characterization; portrayal of a person)
 - **Expression (1)**: {幕|まく}が{上|あ}がる (the curtain rises; to get underway — two senses, literal and figurative)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
-Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A mix of everyday nouns, cosmetics/skincare vocabulary, formal na-adjectives, and a multi-sense grammar expression.
-
-- **General nouns (8)**: {大喝采|だいかっさい} (thunderous applause), {廃材|はいざい} (scrap material), {命名者|めいめいしゃ} (namer), {月替|つきが}わり (monthly rotation), {期間中|きかんちゅう} (during the period), {二重国籍|にじゅうこくせき} (dual citizenship), {外国製|がいこくせい} (foreign-made), ページ{数|すう} (page count)
-- **Business / product (1)**: {従来品|じゅうらいひん} (previous model; existing product)
-- **Cosmetics / skincare (3)**: グロス (lip gloss / glossy finish — two senses), {脂性肌|しせいはだ} (oily skin), {混合肌|こんごうはだ} (combination skin)
-- **Loanword / marking (1)**: マーキング (marking / territorial scent marking — two senses, noun and verb-suru)
-- **Na-adjectives (2)**: {防衛的|ぼうえいてき} (defensive), {観念的|かんねんてき} (notional; theoretical — with nuance of being out of touch)
-- **Grammar expression (1)**: に{限|かぎ}って (three senses: limiting 'only', unexpected-timing 'of all times', and confident-denial 'of all people')
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
