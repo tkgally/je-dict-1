@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
+Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emphasizing quality over quantity. A mixed set covering loanword nouns, linguistics/poetics terminology, and common polite expressions.
+
+- **Loanword noun (1)**: スチュワーデス (stewardess; flight attendant — with note on the shift toward gender-neutral {客室乗務員|きゃくしつじょうむいん})
+- **Linguistics / poetics nouns (3)**: {字音|じおん} (Sino-Japanese on-reading of a kanji), {律詩|りっし} (regulated verse, classical Chinese poetic form), {音数|おんすう} (mora count; number of morae, used in haiku/tanka prosody)
+- **Art / evaluation noun (1)**: {優品|ゆうひん} (fine piece; superior-quality article, used in auction/antiques contexts)
+- **Expressions (3)**: でしょうか (polite softened question ending), {秩序|ちつじょ}を{守|まも}る (to maintain order), お{招|まね}きにあずかる (to be kindly invited — humble/formal)
+- Also removed 2 stale candidates (C17377 {上手|じょうず}に — regular adverb of existing entry; C17533 {立替払|たてかえばら}い — orthographic variant of existing 23347)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23878-23892) from candidate_words.json. A themed mix covering language/linguistics, transportation, environment, education, engineering, and architecture.
 
@@ -95,14 +105,6 @@ Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A t
 - **Everyday / infrastructure (4)**: {電気工事|でんきこうじ} (electrical work), {使用法|しようほう} (directions for use), {誘導灯|ゆうどうとう} (illuminated exit/evacuation sign), {有酸素|ゆうさんそ} (aerobic; prefix-like noun)
 - **Noun + {する}-verb (1)**: {立証|りっしょう} (proof; substantiation — legal/academic register)
 - All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR or RELATED WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
-Added 10 new dictionary entries (IDs 23833-23842) from candidate_words.json. A mixed set covering everyday nouns, technical vocabulary, a na-adjective loanword, and a multi-sense general noun.
-
-- **Nouns (8)**: アスピリン (aspirin), ウェブページ (web page), イタチ (weasel), {花輪|はなわ} (floral wreath; garland), {電磁石|でんじしゃく} (electromagnet), {投稿者|とうこうしゃ} (poster; contributor), {広報活動|こうほうかつどう} (public relations activities), {通知書|つうちしょ} (official notice/notification letter)
-- **Na-adjective (1)**: チャーミング (charming; endearing — loanword)
-- **Multi-sense noun (1)**: {小口|こぐち} (small-lot; cut end of a log; edge of a book — three senses, 9 examples)
-- All entries include progressive-length examples, structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
