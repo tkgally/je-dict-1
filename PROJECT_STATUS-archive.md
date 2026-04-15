@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+
+### 2026-04-15 (Vocabulary Expansion - 18 New Entries)
+Added 18 new dictionary entries (IDs 23928-23945) from candidate_words.json. A balanced mix spanning politics, chemistry, finance, pop culture, geography, and general vocabulary.
+
+- **Politics / society (4)**: {極右|きょくう} (far right), {極左|きょくさ} (far left), {売人|ばいにん} (drug dealer), {全方位|ぜんほうい} (all directions; omnidirectional)
+- **Pop culture / people (3)**: {握手会|あくしゅかい} (handshake event), {女子力|じょしりょく} (\"girl power\"), {女子大生|じょしだいせい} (female college student)
+- **Science / tech (4)**: {酸化物|さんかぶつ} (oxide), {受信機|じゅしんき} (receiver), {亜熱帯|あねったい} (subtropics), {燃料補給|ねんりょうほきゅう} (refueling)
+- **Business / academic (3)**: {時価総額|じかそうがく} (market capitalization), {言語能力|げんごのうりょく} (language ability), {哲学者|てつがくしゃ} (philosopher)
+- **Descriptive (2)**: {熱情的|ねつじょうてき} (passionate — na-adjective), {無比|むひ} (matchless; peerless)
+- **Adverb (1)**: {過剰|かじょう}に (excessively; overly)
+- **Family / education (1)**: {保育園児|ほいくえんじ} (daycare child)
+
+All entries include full notes with COMMON COLLOCATIONS and SIMILAR WORDS / RELATED TERMS sections, appropriate semantic tags, and progressive-length examples.
+
 ### 2026-04-15 (Vocabulary Expansion - 13 New Entries)
 Added 13 new dictionary entries (IDs 23915-23927) from candidate_words.json. A mixed set covering everyday objects, medical/social/academic terms, and words frequent in news and formal writing.
 
