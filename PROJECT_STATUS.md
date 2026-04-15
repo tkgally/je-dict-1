@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 12 New Entries)
+Added 12 new dictionary entries (IDs 23976-23987) from candidate_words.json. A balanced mix of sports, business/finance, medical/abstract, astronomy, and everyday product vocabulary.
+
+- **Sports / martial arts (3)**: {強打者|きょうだしゃ} (slugger; heavy hitter), {指名打者|しめいだしゃ} (designated hitter), {関節技|かんせつわざ} (joint lock technique)
+- **Counter (1)**: {一羽|いちわ} (one bird — counter for birds and, traditionally, rabbits; includes full counting table)
+- **Formal / abstract (3)**: {様態|ようたい} (state; condition — two senses: medical and grammatical 'mode'), {顕在的|けんざいてき} (manifest; overt — na-adjective, contrasts with 潜在的), {発足式|ほっそくしき} (inauguration ceremony)
+- **Business / finance (1)**: {上場廃止|じょうじょうはいし} (delisting from a stock exchange — also takes する)
+- **Everyday product / concrete (2)**: {電動|でんどう}のこぎり (power saw), {乾燥果実|かんそうかじつ} (dried fruit — formal counterpart of ドライフルーツ)
+- **Astronomy (1)**: {一等星|いっとうせい} (first-magnitude star)
+- **Loanword (1)**: タクト (conductor's baton / leadership — two senses, literal and figurative)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 23962-23975) from candidate_words.json. A mixed set of formal/technical nouns, everyday food and real-estate vocabulary, and one theatrical idiom with literal and figurative senses.
 
@@ -96,16 +108,6 @@ Added 13 new dictionary entries (IDs 23915-23927) from candidate_words.json. A m
 - **News / formal (2)**: {暴発|ぼうはつ} (accidental discharge; sudden eruption — two senses, firearm + metaphorical), {男装|だんそう} (female-to-male cross-dressing — with Takarazuka context)
 - **Social / academic (2)**: {階層|かいそう}{社会|しゃかい} (stratified/class society), {序説|じょせつ} (introductory treatise; prolegomena)
 - **New kanji**: Added 楊 (kanji ID 02685, 'you/yanagi — willow') to support {爪楊枝|つまようじ}
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 23901-23914) from candidate_words.json. A mix of everyday loanwords, social/institutional nouns, and a few more technical terms.
-
-- **Loanword nouns (5)**: スタジアム (stadium — sports venue), ゲレンデ (ski slope — from German), スノーボード (snowboard/snowboarding), ティッシュペーパー (facial tissues), ローマ{字入力|じにゅうりょく} (romaji input method)
-- **Social / institutional nouns (4)**: {原住民|げんじゅうみん} (native inhabitants — with usage note on the shift toward {先住民|せんじゅうみん}), {名家|めいか} (distinguished family), {救助隊|きゅうじょたい} (rescue team), {騒乱|そうらん} (civil disturbance; riot)
-- **Technical / linguistic / measurement nouns (3)**: {擬声語|ぎせいご} (onomatopoeia — sound-imitating words), {満年齢|まんねんれい} (full age — contrasted with {数|かぞ}え{年|どし}), {機械化|きかいか} (mechanization — also a {する}-verb)
-- **Time noun (1)**: {前年|ぜんねん} (previous year — formal; frequent in year-on-year business comparisons)
-- **Accessibility noun (1)**: {白杖|はくじょう} (white cane — with note on the legal/SOS signaling function)
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
