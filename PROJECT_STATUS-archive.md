@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-14 (Vocabulary Expansion - 25 New Entries)
+Added 25 new dictionary entries (IDs 23773-23797) from candidate_words.json. A mix of everyday nouns, technical terms, and cultural/scientific vocabulary.
+
+- **Media/Arts**: {映画化|えいがか} (film adaptation, noun+suru-verb), {紅色|べにいろ} (crimson; safflower red), {弓術|きゅうじゅつ} (traditional archery as a martial art)
+- **Geography/Location**: {中心部|ちゅうしんぶ} (central part; downtown), {白昼|はくちゅう} (broad daylight; daytime)
+- **Work/Social**: {受|う}け{持|も}ち (one's charge or assigned area), {会話力|かいわりょく} (conversational ability), {社交性|しゃこうせい} (sociability), {熟練者|じゅくれんしゃ} (experienced worker; skilled craftsperson), {総務部|そうむぶ} (general affairs department), {送付先|そうふさき} (mailing/shipping address)
+- **Nature/Biology**: {動植物|どうしょくぶつ} (flora and fauna), {獣|けもの} (wild beast), {亜種|あしゅ} (subspecies), {同種|どうしゅ} (same kind/species), {脂肪酸|しぼうさん} (fatty acid)
+- **Daily life**: {食糧不足|しょくりょうぶそく} (food shortage), {風|かぜ}よけ (windbreak), {食堂車|しょくどうしゃ} (dining car), トイレットペーパー (toilet paper), {公衆|こうしゅう}トイレ (public toilet), {肩掛|かたか}け (shawl/shoulder wrap), {核爆弾|かくばくだん} (nuclear bomb)
+- **Abstract**: {先駆|さきが}け (forerunner; pioneer; harbinger), {構成要素|こうせいようそ} (component; constituent element)
+- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS (and in some cases CULTURAL NOTE) sections, and full furigana coverage
+- Added new kanji 亜 (ID 02682) to the kanji index
+
 ### 2026-04-14 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23763-23772) from candidate_words.json. A mix of crime/media, writing/language, logistics, and sports/transport vocabulary.
 

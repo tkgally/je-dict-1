@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-14
+**Last updated**: 2026-04-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A themed mix of academic, music, technology, and everyday nouns plus one {する}-verb.
+
+- **Academic / language / education (4)**: {社会学|しゃかいがく} (sociology), {派生語|はせいご} (derived word; linguistic derivative), {体験学習|たいけんがくしゅう} (experiential/hands-on learning), {助演男優|じょえんだんゆう} (supporting actor)
+- **Music (2)**: {二重奏|にじゅうそう} (instrumental duet), {三重奏|さんじゅうそう} (instrumental trio) — cross-linked to each other
+- **Transport / places (2)**: {寝台車|しんだいしゃ} (sleeping car on a train), マリーナ (marina)
+- **Technology / leisure (2)**: ヘッドセット (headset with microphone), {攻略本|こうりゃくぼん} (strategy guide book for video games)
+- **Everyday / infrastructure (4)**: {電気工事|でんきこうじ} (electrical work), {使用法|しようほう} (directions for use), {誘導灯|ゆうどうとう} (illuminated exit/evacuation sign), {有酸素|ゆうさんそ} (aerobic; prefix-like noun)
+- **Noun + {する}-verb (1)**: {立証|りっしょう} (proof; substantiation — legal/academic register)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR or RELATED WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23833-23842) from candidate_words.json. A mixed set covering everyday nouns, technical vocabulary, a na-adjective loanword, and a multi-sense general noun.
 
@@ -84,18 +95,6 @@ Added 13 new dictionary entries (IDs 23798-23810) from candidate_words.json. A m
 - **Nouns (5)**: {先人|せんじん} (forerunner; predecessor), {論客|ろんきゃく} (pundit; skilled debater), {猥褻|わいせつ} (obscene; indecent — na-adj), {性欲|せいよく} (sexual desire; libido), {多用途|たようと} (multi-purpose), {棒術|ぼうじゅつ} (traditional staff martial art)
 - All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS (plus CULTURAL CONTEXT where relevant) sections, and full furigana coverage
 - Added new kanji 褻 (ID 02683) to the kanji index
-
-### 2026-04-14 (Vocabulary Expansion - 25 New Entries)
-Added 25 new dictionary entries (IDs 23773-23797) from candidate_words.json. A mix of everyday nouns, technical terms, and cultural/scientific vocabulary.
-
-- **Media/Arts**: {映画化|えいがか} (film adaptation, noun+suru-verb), {紅色|べにいろ} (crimson; safflower red), {弓術|きゅうじゅつ} (traditional archery as a martial art)
-- **Geography/Location**: {中心部|ちゅうしんぶ} (central part; downtown), {白昼|はくちゅう} (broad daylight; daytime)
-- **Work/Social**: {受|う}け{持|も}ち (one's charge or assigned area), {会話力|かいわりょく} (conversational ability), {社交性|しゃこうせい} (sociability), {熟練者|じゅくれんしゃ} (experienced worker; skilled craftsperson), {総務部|そうむぶ} (general affairs department), {送付先|そうふさき} (mailing/shipping address)
-- **Nature/Biology**: {動植物|どうしょくぶつ} (flora and fauna), {獣|けもの} (wild beast), {亜種|あしゅ} (subspecies), {同種|どうしゅ} (same kind/species), {脂肪酸|しぼうさん} (fatty acid)
-- **Daily life**: {食糧不足|しょくりょうぶそく} (food shortage), {風|かぜ}よけ (windbreak), {食堂車|しょくどうしゃ} (dining car), トイレットペーパー (toilet paper), {公衆|こうしゅう}トイレ (public toilet), {肩掛|かたか}け (shawl/shoulder wrap), {核爆弾|かくばくだん} (nuclear bomb)
-- **Abstract**: {先駆|さきが}け (forerunner; pioneer; harbinger), {構成要素|こうせいようそ} (component; constituent element)
-- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS (and in some cases CULTURAL NOTE) sections, and full furigana coverage
-- Added new kanji 亜 (ID 02682) to the kanji index
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
