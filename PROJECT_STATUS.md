@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23901-23914) from candidate_words.json. A mix of everyday loanwords, social/institutional nouns, and a few more technical terms.
+
+- **Loanword nouns (5)**: スタジアム (stadium — sports venue), ゲレンデ (ski slope — from German), スノーボード (snowboard/snowboarding), ティッシュペーパー (facial tissues), ローマ{字入力|じにゅうりょく} (romaji input method)
+- **Social / institutional nouns (4)**: {原住民|げんじゅうみん} (native inhabitants — with usage note on the shift toward {先住民|せんじゅうみん}), {名家|めいか} (distinguished family), {救助隊|きゅうじょたい} (rescue team), {騒乱|そうらん} (civil disturbance; riot)
+- **Technical / linguistic / measurement nouns (3)**: {擬声語|ぎせいご} (onomatopoeia — sound-imitating words), {満年齢|まんねんれい} (full age — contrasted with {数|かぞ}え{年|どし}), {機械化|きかいか} (mechanization — also a {する}-verb)
+- **Time noun (1)**: {前年|ぜんねん} (previous year — formal; frequent in year-on-year business comparisons)
+- **Accessibility noun (1)**: {白杖|はくじょう} (white cane — with note on the legal/SOS signaling function)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
 Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emphasizing quality over quantity. A mixed set covering loanword nouns, linguistics/poetics terminology, and common polite expressions.
 
@@ -94,17 +104,6 @@ Added 10 new dictionary entries (IDs 23858-23867) from candidate_words.json. A m
 - **Transportation / commerce (2)**: {輸入車|ゆにゅうしゃ} (imported car), {国産車|こくさんしゃ} (domestic car) — cross-contrastive pair
 - **Informal everyday (1)**: うんこ (poop; poo — casual/childlike)
 - All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS / RELATED TERMS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
-Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A themed mix of academic, music, technology, and everyday nouns plus one {する}-verb.
-
-- **Academic / language / education (4)**: {社会学|しゃかいがく} (sociology), {派生語|はせいご} (derived word; linguistic derivative), {体験学習|たいけんがくしゅう} (experiential/hands-on learning), {助演男優|じょえんだんゆう} (supporting actor)
-- **Music (2)**: {二重奏|にじゅうそう} (instrumental duet), {三重奏|さんじゅうそう} (instrumental trio) — cross-linked to each other
-- **Transport / places (2)**: {寝台車|しんだいしゃ} (sleeping car on a train), マリーナ (marina)
-- **Technology / leisure (2)**: ヘッドセット (headset with microphone), {攻略本|こうりゃくぼん} (strategy guide book for video games)
-- **Everyday / infrastructure (4)**: {電気工事|でんきこうじ} (electrical work), {使用法|しようほう} (directions for use), {誘導灯|ゆうどうとう} (illuminated exit/evacuation sign), {有酸素|ゆうさんそ} (aerobic; prefix-like noun)
-- **Noun + {する}-verb (1)**: {立証|りっしょう} (proof; substantiation — legal/academic register)
-- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR or RELATED WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
