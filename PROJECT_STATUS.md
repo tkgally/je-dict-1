@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 24027-24042) from candidate_words.json. A mixed batch covering emotion, communication, geography, weather, agriculture, real estate, transportation, and entertainment vocabulary.
+
+- **Emotion / abstract (3)**: {愛欲|あいよく} (lust; carnal desire), {形式主義|けいしきしゅぎ} (formalism), {現象的|げんしょうてき} (phenomenal; on the surface) [adjective-na]
+- **Communication / humor (1)**: {駄洒落|だじゃれ}る (to make a corny pun) [verb-ichidan]
+- **Geography / weather (2)**: {不毛地帯|ふもうちたい} (barren land; wasteland), {湿雪|しっせつ} (wet snow)
+- **Agriculture / nature (3)**: {真珠貝|しんじゅがい} (pearl oyster), りんご{園|えん} (apple orchard), りんご{農家|のうか} (apple farmer)
+- **Society / people (1)**: {余所様|よそさま} (other people; polite)
+- **Real estate / construction (1)**: {敷地面積|しきちめんせき} (site area; lot area)
+- **Transport / safety (3)**: {車検証|しゃけんしょう} (vehicle inspection certificate), {除氷|じょひょう} (de-icing; ice removal), {散乱物|さんらんぶつ} (scattered debris)
+- **Food / tableware (1)**: {盛|も}り{皿|ざら} (serving plate)
+- **Entertainment (1)**: {漫才|まんざい}コンビ (manzai duo)
+
+Total entries: 23,825 → 23,841.
+
 ### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
 Added 14 new dictionary entries (IDs 24013-24026) from candidate_words.json. A mix of everyday objects, technology, administrative vocabulary, formal/abstract nouns, and a traditional color name.
 
