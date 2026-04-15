@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A balanced mix of nature, medicine, formal technical vocabulary, food-related loanwords, and one formal suru verb.
+
+- **Nature / biology (3)**: {桑|くわ} (mulberry — historically central to sericulture; introduces new kanji 桑), {白魚|しらうお} (icefish; whitebait — spring seasonal delicacy), {群落|ぐんらく} (plant community; stand — botanical/ecological term)
+- **Medical / body (2)**: {神経痛|しんけいつう} (neuralgia; nerve pain), {診療科|しんりょうか} (medical department; clinical specialty)
+- **Institution / titles (2)**: {副部長|ふくぶちょう} (deputy department head / vice-captain of a club), {副校長|ふくこうちょう} (vice-principal — formally established in 2007 school law reform)
+- **Social / family (2)**: {同性愛|どうせいあい} (same-sex love; homosexuality — neutral reference term), {姻戚|いんせき} (relative by marriage; in-law — formal/legal register)
+- **Verb (1)**: {議|ぎ}する (to deliberate formally — verb-suru; full conjugation table)
+- **Food / loanwords (3)**: グラニュー{糖|とう} (granulated sugar), クランプ (clamp; general fixture tool), チョコチップ (chocolate chips)
+- **Math / technical (3)**: {垂線|すいせん} (perpendicular line — geometry), {冗長性|じょうちょうせい} (redundancy — engineering/IT and writing), {経文|きょうもん} (sutra text — Buddhist ritual and literary)
+- **New kanji**: Added 桑 (kanji ID 02686, 'sou/kuwa — mulberry') to support the 桑 entry
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 12 New Entries)
 Added 12 new dictionary entries (IDs 23976-23987) from candidate_words.json. A balanced mix of sports, business/finance, medical/abstract, astronomy, and everyday product vocabulary.
 
@@ -97,18 +110,6 @@ Added 18 new dictionary entries (IDs 23928-23945) from candidate_words.json. A b
 - **Family / education (1)**: {保育園児|ほいくえんじ} (daycare child)
 
 All entries include full notes with COMMON COLLOCATIONS and SIMILAR WORDS / RELATED TERMS sections, appropriate semantic tags, and progressive-length examples.
-
-### 2026-04-15 (Vocabulary Expansion - 13 New Entries)
-Added 13 new dictionary entries (IDs 23915-23927) from candidate_words.json. A mixed set covering everyday objects, medical/social/academic terms, and words frequent in news and formal writing.
-
-- **Everyday objects / food (4)**: {角笛|つのぶえ} (horn — animal-horn musical instrument), {爪楊枝|つまようじ} (toothpick), {鉄鍋|てつなべ} (iron pot/pan), {仕出|しだ}し{弁当|べんとう} (catered bento)
-- **Medical / body (1)**: {鼻炎|びえん} (rhinitis — with note on allergic and chronic variants)
-- **People / roles (3)**: {仲介者|ちゅうかいしゃ} (mediator; broker), {出場者|しゅつじょうしゃ} (contestant; participant), {声楽家|せいがくか} (classical vocalist)
-- **Food-industry noun (1)**: {魚肉|ぎょにく} (fish meat — processed-food category, not everyday cooking speech)
-- **News / formal (2)**: {暴発|ぼうはつ} (accidental discharge; sudden eruption — two senses, firearm + metaphorical), {男装|だんそう} (female-to-male cross-dressing — with Takarazuka context)
-- **Social / academic (2)**: {階層|かいそう}{社会|しゃかい} (stratified/class society), {序説|じょせつ} (introductory treatise; prolegomena)
-- **New kanji**: Added 楊 (kanji ID 02685, 'you/yanagi — willow') to support {爪楊枝|つまようじ}
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
