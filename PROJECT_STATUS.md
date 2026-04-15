@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23878-23892) from candidate_words.json. A themed mix covering language/linguistics, transportation, environment, education, engineering, and architecture.
+
+- **Language / grammar (2)**: {話|はな}し{言葉|ことば} (spoken/colloquial language), {過去形|かこけい} (past tense)
+- **Transportation / urban (2)**: {終着駅|しゅうちゃくえき} (terminal station; last stop — with figurative usage), {分譲住宅|ぶんじょうじゅうたく} (housing for sale, contrasting with rentals)
+- **Environment / weather (2)**: {焼却炉|しょうきゃくろ} (incinerator), {集中豪雨|しゅうちゅうごうう} (torrential localized downpour)
+- **Business / industry (1)**: {印刷所|いんさつじょ} (print shop)
+- **Engineering / technology (4)**: {側面図|そくめんず} (side view / elevation drawing), {絶縁体|ぜつえんたい} (electrical insulator), {増幅器|ぞうふくき} (amplifier), {計量器|けいりょうき} (measuring instrument)
+- **Architecture (1)**: {高層建築|こうそうけんちく} (high-rise building)
+- **Healthcare (1)**: {在宅医療|ざいたくいりょう} (home healthcare)
+- **Ideas / school life (2)**: {妙案|みょうあん} (clever idea), {二学期|にがっき} (second school term)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23868-23877) from candidate_words.json. A mixed set covering everyday nouns, loanwords, a grammatical expression, and question-word vocabulary.
 
@@ -90,15 +103,6 @@ Added 10 new dictionary entries (IDs 23833-23842) from candidate_words.json. A m
 - **Na-adjective (1)**: チャーミング (charming; endearing — loanword)
 - **Multi-sense noun (1)**: {小口|こぐち} (small-lot; cut end of a log; edge of a book — three senses, 9 examples)
 - All entries include progressive-length examples, structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
-
-### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
-Added 8 new dictionary entries (IDs 23825-23832) from candidate_words.json. A mixed set covering descriptive modifiers, occupations, biology, transport, tea-ceremony vocabulary, and common verb/phrase expressions.
-
-- **No-adjective (1)**: {等身大|とうしんだい}の (life-size; true-to-life — with figurative sense)
-- **Nouns (4)**: {副操縦士|ふくそうじゅうし} (co-pilot; first officer), {軟体動物|なんたいどうぶつ} (mollusk), {豪華客船|ごうかきゃくせん} (luxury cruise ship), {茶筅|ちゃせん} (tea whisk), {茶杓|ちゃしゃく} (tea scoop)
-- **Expressions (2)**: {偽|いつわ}りのない (truthful; genuine — set prenominal phrase), {口|くち}を{開|あ}ける (to open one's mouth / to unseal a container — two senses)
-- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
-- New kanji 筅 assigned ID 02684_sen_none_whisk for the kanji index
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
