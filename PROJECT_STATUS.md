@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A mix of everyday nouns, cosmetics/skincare vocabulary, formal na-adjectives, and a multi-sense grammar expression.
+
+- **General nouns (8)**: {大喝采|だいかっさい} (thunderous applause), {廃材|はいざい} (scrap material), {命名者|めいめいしゃ} (namer), {月替|つきが}わり (monthly rotation), {期間中|きかんちゅう} (during the period), {二重国籍|にじゅうこくせき} (dual citizenship), {外国製|がいこくせい} (foreign-made), ページ{数|すう} (page count)
+- **Business / product (1)**: {従来品|じゅうらいひん} (previous model; existing product)
+- **Cosmetics / skincare (3)**: グロス (lip gloss / glossy finish — two senses), {脂性肌|しせいはだ} (oily skin), {混合肌|こんごうはだ} (combination skin)
+- **Loanword / marking (1)**: マーキング (marking / territorial scent marking — two senses, noun and verb-suru)
+- **Na-adjectives (2)**: {防衛的|ぼうえいてき} (defensive), {観念的|かんねんてき} (notional; theoretical — with nuance of being out of touch)
+- **Grammar expression (1)**: に{限|かぎ}って (three senses: limiting 'only', unexpected-timing 'of all times', and confident-denial 'of all people')
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 18 New Entries)
 Added 18 new dictionary entries (IDs 23928-23945) from candidate_words.json. A balanced mix spanning politics, chemistry, finance, pop culture, geography, and general vocabulary.
 
@@ -95,28 +106,6 @@ Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emph
 - **Expressions (3)**: でしょうか (polite softened question ending), {秩序|ちつじょ}を{守|まも}る (to maintain order), お{招|まね}きにあずかる (to be kindly invited — humble/formal)
 - Also removed 2 stale candidates (C17377 {上手|じょうず}に — regular adverb of existing entry; C17533 {立替払|たてかえばら}い — orthographic variant of existing 23347)
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
-Added 15 new dictionary entries (IDs 23878-23892) from candidate_words.json. A themed mix covering language/linguistics, transportation, environment, education, engineering, and architecture.
-
-- **Language / grammar (2)**: {話|はな}し{言葉|ことば} (spoken/colloquial language), {過去形|かこけい} (past tense)
-- **Transportation / urban (2)**: {終着駅|しゅうちゃくえき} (terminal station; last stop — with figurative usage), {分譲住宅|ぶんじょうじゅうたく} (housing for sale, contrasting with rentals)
-- **Environment / weather (2)**: {焼却炉|しょうきゃくろ} (incinerator), {集中豪雨|しゅうちゅうごうう} (torrential localized downpour)
-- **Business / industry (1)**: {印刷所|いんさつじょ} (print shop)
-- **Engineering / technology (4)**: {側面図|そくめんず} (side view / elevation drawing), {絶縁体|ぜつえんたい} (electrical insulator), {増幅器|ぞうふくき} (amplifier), {計量器|けいりょうき} (measuring instrument)
-- **Architecture (1)**: {高層建築|こうそうけんちく} (high-rise building)
-- **Healthcare (1)**: {在宅医療|ざいたくいりょう} (home healthcare)
-- **Ideas / school life (2)**: {妙案|みょうあん} (clever idea), {二学期|にがっき} (second school term)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
-Added 10 new dictionary entries (IDs 23868-23877) from candidate_words.json. A mixed set covering everyday nouns, loanwords, a grammatical expression, and question-word vocabulary.
-
-- **Nouns (7)**: {舟|ふね} (small boat — distinguished from {船|ふね}), {仏教徒|ぶっきょうと} (Buddhist), {拳法|けんぽう} (Chinese-style martial arts — homophone-linked to {憲法|けんぽう}), {野球帽|やきゅうぼう} (baseball cap), {限界点|げんかいてん} (limit point; threshold), {何日|なんにち} (how many days / what day — two senses)
-- **Loanwords (3)**: パウダー (powder — cosmetic), ワークブック (workbook), スカッシュ (squash sport / squash drink — two senses)
-- **Expression (1)**: {次第|しだい}で (depending on; subject to — grammatical pattern)
-- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-- Cross-references added: {舟|ふね}↔{船|ふね}, {拳法|けんぽう}↔{憲法|けんぽう} (homophone)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
