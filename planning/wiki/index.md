@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-13
+**Last updated**: 2026-04-15
 
 ## How this wiki is organized
 
@@ -40,6 +40,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Word Formation and Morphology](research/word-formation.md) — Compounding, derivation, vocabulary strata, and implications for entry scope
 - [Definition and Gloss Strategies](research/definition-strategies.md) — Equivalence types, gloss writing techniques, and sense ordering for bilingual learner dictionaries
 - [Dictionary Lookup Behavior](research/dictionary-lookup-behavior.md) — Lookup process models, common errors, and implications for dictionary design
+- [Semantic Prosody](research/semantic-prosody.md) — How evaluative colouring attaches to near-synonyms, and how dictionaries can surface it
 
 ## Topics
 
