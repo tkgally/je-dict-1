@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23962-23975) from candidate_words.json. A mixed set of formal/technical nouns, everyday food and real-estate vocabulary, and one theatrical idiom with literal and figurative senses.
+
+- **Formal / institutional (3)**: {閉会|へいかい} (closing of a meeting; adjournment), {入国|にゅうこく}{管理|かんり} (immigration control), {労働者|ろうどうしゃ} (worker; laborer)
+- **Technical / medical (3)**: {吸気|きゅうき} (inhalation; intake air — two senses), {老年期|ろうねんき} (old age; senescence period), {航空母艦|こうくうぼかん} (aircraft carrier)
+- **Business / publishing (3)**: {試用|しよう} (trial use), {自費|じひ}{出版|しゅっぱん} (self-publishing), {周辺|しゅうへん}{環境|かんきょう} (surrounding environment)
+- **Everyday / food / hobby (3)**: {歯触|はざわ}り (mouthfeel; texture of food), {艶出|つやだ}し (polishing; glossing), {棋譜|きふ} (shogi/go game record)
+- **Literature / criticism (1)**: {人物|じんぶつ}{描写|びょうしゃ} (characterization; portrayal of a person)
+- **Expression (1)**: {幕|まく}が{上|あ}がる (the curtain rises; to get underway — two senses, literal and figurative)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A mix of everyday nouns, cosmetics/skincare vocabulary, formal na-adjectives, and a multi-sense grammar expression.
 
@@ -95,16 +106,6 @@ Added 14 new dictionary entries (IDs 23901-23914) from candidate_words.json. A m
 - **Technical / linguistic / measurement nouns (3)**: {擬声語|ぎせいご} (onomatopoeia — sound-imitating words), {満年齢|まんねんれい} (full age — contrasted with {数|かぞ}え{年|どし}), {機械化|きかいか} (mechanization — also a {する}-verb)
 - **Time noun (1)**: {前年|ぜんねん} (previous year — formal; frequent in year-on-year business comparisons)
 - **Accessibility noun (1)**: {白杖|はくじょう} (white cane — with note on the legal/SOS signaling function)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
-Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emphasizing quality over quantity. A mixed set covering loanword nouns, linguistics/poetics terminology, and common polite expressions.
-
-- **Loanword noun (1)**: スチュワーデス (stewardess; flight attendant — with note on the shift toward gender-neutral {客室乗務員|きゃくしつじょうむいん})
-- **Linguistics / poetics nouns (3)**: {字音|じおん} (Sino-Japanese on-reading of a kanji), {律詩|りっし} (regulated verse, classical Chinese poetic form), {音数|おんすう} (mora count; number of morae, used in haiku/tanka prosody)
-- **Art / evaluation noun (1)**: {優品|ゆうひん} (fine piece; superior-quality article, used in auction/antiques contexts)
-- **Expressions (3)**: でしょうか (polite softened question ending), {秩序|ちつじょ}を{守|まも}る (to maintain order), お{招|まね}きにあずかる (to be kindly invited — humble/formal)
-- Also removed 2 stale candidates (C17377 {上手|じょうず}に — regular adverb of existing entry; C17533 {立替払|たてかえばら}い — orthographic variant of existing 23347)
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
