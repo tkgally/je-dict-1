@@ -52,6 +52,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23868-23877) from candidate_words.json. A mixed set covering everyday nouns, loanwords, a grammatical expression, and question-word vocabulary.
+
+- **Nouns (7)**: {舟|ふね} (small boat — distinguished from {船|ふね}), {仏教徒|ぶっきょうと} (Buddhist), {拳法|けんぽう} (Chinese-style martial arts — homophone-linked to {憲法|けんぽう}), {野球帽|やきゅうぼう} (baseball cap), {限界点|げんかいてん} (limit point; threshold), {何日|なんにち} (how many days / what day — two senses)
+- **Loanwords (3)**: パウダー (powder — cosmetic), ワークブック (workbook), スカッシュ (squash sport / squash drink — two senses)
+- **Expression (1)**: {次第|しだい}で (depending on; subject to — grammatical pattern)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+- Cross-references added: {舟|ふね}↔{船|ふね}, {拳法|けんぽう}↔{憲法|けんぽう} (homophone)
+
+### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23858-23867) from candidate_words.json. A mixed set covering clothing, medical/biology, industrial, commerce, education, and informal everyday vocabulary.
 
 - **Clothing (2)**: {袖口|そでぐち} (cuff; sleeve opening), {袖|そで}なし (sleeveless — garment type)
@@ -90,14 +99,6 @@ Added 8 new dictionary entries (IDs 23825-23832) from candidate_words.json. A mi
 - **Expressions (2)**: {偽|いつわ}りのない (truthful; genuine — set prenominal phrase), {口|くち}を{開|あ}ける (to open one's mouth / to unseal a container — two senses)
 - All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections, and full furigana coverage
 - New kanji 筅 assigned ID 02684_sen_none_whisk for the kanji index
-
-### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 23811-23824) from candidate_words.json. A themed set focused on 〜的 na-adjectives (abstract/academic register) plus several nouns.
-
-- **Na-adjectives (9)**: {概念的|がいねんてき} (conceptual; abstract), {派生的|はせいてき} (derivative; derived), {局所的|きょくしょてき} (localized), {先駆的|せんくてき} (pioneering; trailblazing), {非論理的|ひろんりてき} (illogical), {非合理的|ひごうりてき} (irrational), {情緒的|じょうちょてき} (emotional; sentimental), {友好的|ゆうこうてき} (friendly; amicable), {発作的|ほっさてき} (impulsive; fit-like)
-- **Nouns (4)**: {現象学|げんしょうがく} (phenomenology), {防護柵|ぼうごさく} (protective fence; guardrail), {来客数|らいきゃくすう} (number of visitors/customers), {写真室|しゃしんしつ} (photo studio — room)
-- **Noun+suru verb (1)**: {減水|げんすい} (drop in water level; reservoir-level fall)
-- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections (plus RELATED TERMS or CULTURAL CONTEXT where relevant), and full furigana coverage
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 

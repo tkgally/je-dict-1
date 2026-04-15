@@ -3,6 +3,14 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23811-23824) from candidate_words.json. A themed set focused on 〜的 na-adjectives (abstract/academic register) plus several nouns.
+
+- **Na-adjectives (9)**: {概念的|がいねんてき} (conceptual; abstract), {派生的|はせいてき} (derivative; derived), {局所的|きょくしょてき} (localized), {先駆的|せんくてき} (pioneering; trailblazing), {非論理的|ひろんりてき} (illogical), {非合理的|ひごうりてき} (irrational), {情緒的|じょうちょてき} (emotional; sentimental), {友好的|ゆうこうてき} (friendly; amicable), {発作的|ほっさてき} (impulsive; fit-like)
+- **Nouns (4)**: {現象学|げんしょうがく} (phenomenology), {防護柵|ぼうごさく} (protective fence; guardrail), {来客数|らいきゃくすう} (number of visitors/customers), {写真室|しゃしんしつ} (photo studio — room)
+- **Noun+suru verb (1)**: {減水|げんすい} (drop in water level; reservoir-level fall)
+- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections (plus RELATED TERMS or CULTURAL CONTEXT where relevant), and full furigana coverage
+
 ### 2026-04-14 (Vocabulary Expansion - 13 New Entries)
 Added 13 new dictionary entries (IDs 23798-23810) from candidate_words.json. A mix of formal/technical, sexuality-related, legal, and traditional vocabulary.
 
