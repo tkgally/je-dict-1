@@ -41,6 +41,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Definition and Gloss Strategies](research/definition-strategies.md) — Equivalence types, gloss writing techniques, and sense ordering for bilingual learner dictionaries
 - [Dictionary Lookup Behavior](research/dictionary-lookup-behavior.md) — Lookup process models, common errors, and implications for dictionary design
 - [Semantic Prosody](research/semantic-prosody.md) — How evaluative colouring attaches to near-synonyms, and how dictionaries can surface it
+- [Controlled Defining Vocabulary](research/controlled-defining-vocabulary.md) — The CDV tradition (Ogden, West, LDOCE, COBUILD) and its relationship to je-dict-1's tier system
 
 ## Topics
 

@@ -16,7 +16,7 @@ Foundational survival vocabulary. Words a learner needs from day one: numbers, c
 
 Essential vocabulary for functioning as an adult in Japanese society. Covers everyday topics: work, shopping, health, transportation, weather, food. A learner who knows all basic + core words can handle most daily situations. This tier is also frozen.
 
-### General (20,800+ entries, growing)
+### General (21,000+ entries, growing)
 
 All other vocabulary. Ranges from common words that just missed the core cutoff to specialized terms, literary vocabulary, and technical language. All new entries are added to this tier.
 
@@ -42,6 +42,8 @@ JLPT (Japanese Language Proficiency Test) levels N5-N1 are the most common vocab
 ## Self-containment principle
 
 Within the basic and core tiers, definitions and examples should be largely self-contained — they shouldn't require vocabulary from higher tiers to understand. General-tier entries have no such restriction.
+
+This principle is the functional analogue of the **controlled defining vocabulary** tradition in monolingual English learner dictionaries like LDOCE and COBUILD — see [Controlled Defining Vocabulary](../research/controlled-defining-vocabulary.md). Where LDOCE enforces a ~2,000-word English defining vocabulary across all definitions, je-dict-1 enforces a roughly 2,800-word Japanese vocabulary (basic + core) for examples and notes in those tiers. The **inline word link system** (`⟦…⟧`) extends this discipline into the general tier by hyperlinking non-basic vocabulary in examples, giving readers an explicit escape hatch instead of forcing paraphrase.
 
 ## Relationship to frequency
 
@@ -71,4 +73,5 @@ Until reassessment is complete, the tiers remain closed to new additions — all
 - [Project Overview](overview.md)
 - [Corpus Linguistics](../research/corpus-linguistics.md)
 - [Vocabulary Acquisition](../research/vocabulary-acquisition.md)
+- [Controlled Defining Vocabulary](../research/controlled-defining-vocabulary.md) — the monolingual-dictionary tradition that the tier system parallels
 - [Corpus-Driven Entry Prioritization](../ideas/corpus-prioritization.md)
