@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23858-23867) from candidate_words.json. A mixed set covering clothing, medical/biology, industrial, commerce, education, and informal everyday vocabulary.
+
+- **Clothing (2)**: {袖口|そでぐち} (cuff; sleeve opening), {袖|そで}なし (sleeveless — garment type)
+- **Medical / body (2)**: {甲状腺|こうじょうせん} (thyroid gland), {汗腺|かんせん} (sweat gland)
+- **Industrial / abstract (1)**: {潤滑|じゅんかつ} (lubrication; smoothness — with figurative usage)
+- **Education (1)**: {受講料|じゅこうりょう} (course fee; tuition for a class)
+- **Geography (1)**: {岩山|いわやま} (rocky mountain; rocky hill)
+- **Transportation / commerce (2)**: {輸入車|ゆにゅうしゃ} (imported car), {国産車|こくさんしゃ} (domestic car) — cross-contrastive pair
+- **Informal everyday (1)**: うんこ (poop; poo — casual/childlike)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS / RELATED TERMS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A themed mix of academic, music, technology, and everyday nouns plus one {する}-verb.
 
