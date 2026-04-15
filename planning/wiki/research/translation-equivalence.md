@@ -65,3 +65,4 @@ Cross-references are also essential — they expose the system of related words 
 - [Cross-Reference Design](../topics/cross-references.md)
 - [Register and Formality](../topics/register.md)
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — acute translation equivalence challenges for mimetics
+- [Semantic Prosody](semantic-prosody.md) — the evaluative dimension that monolingual glosses routinely strip

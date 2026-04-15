@@ -2,6 +2,17 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-15] maintenance | Semantic prosody research, stats sync, retrospective refresh
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **semantic prosody** — the evaluative colouring that attaches to words through habitual collocation — and created `research/semantic-prosody.md`. Covers the Sinclair/Louw/Stubbs/Partington theoretical tradition, distinctions between connotation / semantic preference / semantic prosody, the Hunston/Whitsitt critiques, Japanese examples organised by adverbs (ろくに, なかなか, いちいち, いかにも, わざわざ, せっかく, まさか), verbs and auxiliaries (〜てしまう, benefactives, 〜がる, 〜ぶる), and noun-modifiers (とんでもない, 〜くさい, 〜っぽい). Includes L2 acquisition findings (Xiao & McEnery 2006, Hoey 2005, Wei & Li 2014), five dictionary treatment strategies, and concrete recommendations for how je-dict-1's existing USAGE and SIMILAR WORDS blocks can carry prosody information explicitly. Full reference list: Hoey 2005, Hunston 2007, Louw 1993, Partington 1998/2004, Sinclair 1991/1996, Stubbs 1995/2001, Wei & Li 2014, Whitsitt 2005, Xiao & McEnery 2006.
+- [A] Synced entry counts with `report.py` output (23,609 entries / 20,826 general / 7,423 cross-references / 95,784 examples / 2,747 candidates / 45.5% symmetry rate) across `project/overview.md`, `project/vocabulary-tiers.md`, `project/open-issues.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, and the retrospective page.
+- [C/E] Refreshed `topics/enhancement-plan-retrospective.md` metrics table to the 2026-04-15 numbers, flagging that **cross-reference symmetry has drifted downward** (3,461 asymmetric refs, up ~500 from two days earlier) as new entries add unreciprocated links faster than the symmetry pass processes them. Noted this as a suggested next sprint target.
+- [E] Added cross-references from `research/collocations.md`, `research/definition-strategies.md`, and `research/translation-equivalence.md` into the new semantic prosody page; added the new page to `index.md`. Ran a Python-based link-checker across the whole wiki (0 broken links).
+- [E] Updated "Last updated" dates on all pages touched this session.
+
 ## [2026-04-13] maintenance | Post-enhancement architecture update, retrospective page, stats sync
 
 **Session type**: Nightly maintenance

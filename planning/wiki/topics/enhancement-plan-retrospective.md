@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-04-13
+**Last updated**: 2026-04-15
 
 ## Overview
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-13 (23,418 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-15 (23,609 entries):
 
-| Metric | Plan target | 2026-04-13 | Notes |
+| Metric | Plan target | 2026-04-15 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | 34.5% | Long way to go; 4,068 verbs still missing |
+| Verbs with transitivity | 100% | 34.5% | 4,085 verbs still missing; transitivity queue 12.6% processed |
 | Entries with note score ≥ 60 | 80% | 83% | Target reached |
-| Cross-reference symmetry | 98% | 48% | 2,935 asymmetric references; largest remaining gap |
-| Verbs with ている docs | 80% (of those needing it) | 18.6% of all verbs | Aspect polishing task at 9.8% progress |
-| Multi-model review coverage | 100% (furigana) | 0.4% (deep) / screening queue 2,954 | Screening almost operational at scale |
+| Cross-reference symmetry | 98% | 45.5% | 3,461 asymmetric references; largest remaining gap, and has drifted slightly as new entries added unlinked refs |
+| Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.7% | Still slow-moving |
+| Multi-model review coverage | 100% (furigana) | screening ~on pace; deep <1% | Screening queue is active |
 | Examples per entry (avg) | ≥ 4 | 4.1 | Target reached |
-| Cross-references per entry | ≥ 0.5 | 0.28 | Needs doubling |
+| Cross-references per entry | ≥ 0.5 | 0.31 | Slowly rising from 0.28 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work.
+Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Symmetry rate is currently drifting in the wrong direction**: new entries are being added faster than reciprocal links for their cross-references are being completed, so the absolute asymmetric count rose by ~500 in two days. A short symmetry-focused queue run would reset the trend.
 
 ## Implications for future maintenance sessions
 

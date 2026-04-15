@@ -174,3 +174,4 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Register and Formality](../topics/register.md) — marking formality levels in glosses
 - [Japanese Lexicography](japanese-lexicography.md) — challenges specific to Japanese dictionaries
 - [Entry Consistency](../topics/entry-consistency.md) — standardizing gloss format across entries
+- [Semantic Prosody](semantic-prosody.md) — why prosody-bearing words need more than neutral glosses

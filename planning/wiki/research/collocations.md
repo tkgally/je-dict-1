@@ -1,6 +1,6 @@
 # Collocations in Learner Dictionaries
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-15
 
 ## What collocations are and why they matter
 
@@ -153,3 +153,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Learner Lexicography](learner-lexicography.md) — production vs. reception in dictionary design
 - [Quality Standards](../project/quality-standards.md) — collocation patterns as a v2 priority
 - [Compound Verb Representation](../topics/compound-verbs.md) — a related category of multi-word units
+- [Semantic Prosody](semantic-prosody.md) — the evaluative colouring that extends beyond simple collocation
