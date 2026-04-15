@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 9 New Entries)
+Added 9 new dictionary entries (IDs 24004-24012) from candidate_words.json. A set of technical and infrastructural nouns plus one everyday nature term.
+
+- **Loanword (1)**: ダイヤグラム (diagram; (train) schedule, timetable — two senses covering general diagram and specialized railway schedule usage)
+- **Technical / engineering (4)**: {防塵|ぼうじん} (dustproof), {分解図|ぶんかいず} (exploded view; breakdown diagram), {送水|そうすい} (water supply; pumping of water — also verb-suru), {分解能|ぶんかいのう} (resolution; resolving power)
+- **Infrastructure / telecom (2)**: {総額表示|そうがくひょうじ} (tax-inclusive price display — Japanese consumer-law term), {通話圏|つうわけん} (mobile-phone coverage area)
+- **Abstract (1)**: {唯一性|ゆいいつせい} (uniqueness; singularity)
+- **Nature / animals (1)**: {潮吹|しおふ}き (whale spouting; water spout)
+- Cleaned up one stale candidate (つくり C09835 — already existed as the 23626 entry {旁|つくり})
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A balanced mix of nature, medicine, formal technical vocabulary, food-related loanwords, and one formal suru verb.
 
@@ -97,19 +108,6 @@ Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A m
 - **Na-adjectives (2)**: {防衛的|ぼうえいてき} (defensive), {観念的|かんねんてき} (notional; theoretical — with nuance of being out of touch)
 - **Grammar expression (1)**: に{限|かぎ}って (three senses: limiting 'only', unexpected-timing 'of all times', and confident-denial 'of all people')
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 18 New Entries)
-Added 18 new dictionary entries (IDs 23928-23945) from candidate_words.json. A balanced mix spanning politics, chemistry, finance, pop culture, geography, and general vocabulary.
-
-- **Politics / society (4)**: {極右|きょくう} (far right), {極左|きょくさ} (far left), {売人|ばいにん} (drug dealer), {全方位|ぜんほうい} (all directions; omnidirectional)
-- **Pop culture / people (3)**: {握手会|あくしゅかい} (handshake event), {女子力|じょしりょく} (\"girl power\"), {女子大生|じょしだいせい} (female college student)
-- **Science / tech (4)**: {酸化物|さんかぶつ} (oxide), {受信機|じゅしんき} (receiver), {亜熱帯|あねったい} (subtropics), {燃料補給|ねんりょうほきゅう} (refueling)
-- **Business / academic (3)**: {時価総額|じかそうがく} (market capitalization), {言語能力|げんごのうりょく} (language ability), {哲学者|てつがくしゃ} (philosopher)
-- **Descriptive (2)**: {熱情的|ねつじょうてき} (passionate — na-adjective), {無比|むひ} (matchless; peerless)
-- **Adverb (1)**: {過剰|かじょう}に (excessively; overly)
-- **Family / education (1)**: {保育園児|ほいくえんじ} (daycare child)
-
-All entries include full notes with COMMON COLLOCATIONS and SIMILAR WORDS / RELATED TERMS sections, appropriate semantic tags, and progressive-length examples.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
