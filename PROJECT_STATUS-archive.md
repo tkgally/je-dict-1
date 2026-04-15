@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 13 New Entries)
+Added 13 new dictionary entries (IDs 23915-23927) from candidate_words.json. A mixed set covering everyday objects, medical/social/academic terms, and words frequent in news and formal writing.
+
+- **Everyday objects / food (4)**: {角笛|つのぶえ} (horn — animal-horn musical instrument), {爪楊枝|つまようじ} (toothpick), {鉄鍋|てつなべ} (iron pot/pan), {仕出|しだ}し{弁当|べんとう} (catered bento)
+- **Medical / body (1)**: {鼻炎|びえん} (rhinitis — with note on allergic and chronic variants)
+- **People / roles (3)**: {仲介者|ちゅうかいしゃ} (mediator; broker), {出場者|しゅつじょうしゃ} (contestant; participant), {声楽家|せいがくか} (classical vocalist)
+- **Food-industry noun (1)**: {魚肉|ぎょにく} (fish meat — processed-food category, not everyday cooking speech)
+- **News / formal (2)**: {暴発|ぼうはつ} (accidental discharge; sudden eruption — two senses, firearm + metaphorical), {男装|だんそう} (female-to-male cross-dressing — with Takarazuka context)
+- **Social / academic (2)**: {階層|かいそう}{社会|しゃかい} (stratified/class society), {序説|じょせつ} (introductory treatise; prolegomena)
+- **New kanji**: Added 楊 (kanji ID 02685, 'you/yanagi — willow') to support {爪楊枝|つまようじ}
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 8 New Entries)
 Added 8 new dictionary entries (IDs 23893-23900) from candidate_words.json, emphasizing quality over quantity. A mixed set covering loanword nouns, linguistics/poetics terminology, and common polite expressions.
 
