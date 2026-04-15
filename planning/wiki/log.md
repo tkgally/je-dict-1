@@ -2,6 +2,16 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-15] maintenance | Controlled defining vocabulary research, stats sync, tier-system cross-link
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **controlled defining vocabulary** (CDV) and created `research/controlled-defining-vocabulary.md`. Covers the historical arc from Ogden's Basic English (1930) through West's General Service List (1953) to LDOCE's explicit ~2,000-word defining vocabulary (Procter 1978) and COBUILD's full-sentence definition style (Sinclair 1987); what a CDV accomplishes (non-circularity, reading-level control, stylistic consistency, computational tractability); its criticisms (naturalness trade-offs, intra-CDV circularity, polysemy within defining words, L2-specific pragmatics); treatment in bilingual and Japanese-English dictionaries; and a detailed analysis of how je-dict-1's closed basic+core tiers plus the inline-word-link system function as an analogue of the CDV tradition. Concrete recommendations include keeping the closed-tier policy as a hard constraint, adding an automated self-containment linter, and adopting soft-CDV discipline for the English notes field. Cited Adamska-Sałaciak 2016, Hanks, Herbst 1996, Nation 2001/2013, Ogden 1930, Procter 1978, Rundell 2008, Sinclair 1987, West 1953.
+- [C] Expanded `project/vocabulary-tiers.md` self-containment section to explicitly frame the tier system as a CDV analogue and link to the new research page, and added the new page to the vocabulary-tiers related-pages list.
+- [A] Refreshed entry counts with end-of-day `report.py` output (23,841 entries / 21,058 general / 7,427 cross-references / 96,585 examples / 2,513 candidates / 45.5% symmetry / 3,463 asymmetric refs) across `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, and the retrospective page. The earlier 2026-04-15 session had used morning snapshot values (23,609 / 20,826 / 2,747); today's second session catches the wiki up to the 24027-24042 and 24013-24026 entry batches merged since then.
+- [E] Added the new page to `index.md`. Existing "Last updated" dates on all touched pages were already 2026-04-15 so no date changes were required.
+
 ## [2026-04-15] maintenance | Semantic prosody research, stats sync, retrospective refresh
 
 **Session type**: Nightly maintenance
