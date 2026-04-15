@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23858-23867) from candidate_words.json. A mixed set covering clothing, medical/biology, industrial, commerce, education, and informal everyday vocabulary.
+
+- **Clothing (2)**: {袖口|そでぐち} (cuff; sleeve opening), {袖|そで}なし (sleeveless — garment type)
+- **Medical / body (2)**: {甲状腺|こうじょうせん} (thyroid gland), {汗腺|かんせん} (sweat gland)
+- **Industrial / abstract (1)**: {潤滑|じゅんかつ} (lubrication; smoothness — with figurative usage)
+- **Education (1)**: {受講料|じゅこうりょう} (course fee; tuition for a class)
+- **Geography (1)**: {岩山|いわやま} (rocky mountain; rocky hill)
+- **Transportation / commerce (2)**: {輸入車|ゆにゅうしゃ} (imported car), {国産車|こくさんしゃ} (domestic car) — cross-contrastive pair
+- **Informal everyday (1)**: うんこ (poop; poo — casual/childlike)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS / RELATED TERMS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
 Added 15 new dictionary entries (IDs 23843-23857) from candidate_words.json. A themed mix of academic, music, technology, and everyday nouns plus one {する}-verb.
 
@@ -86,15 +98,6 @@ Added 14 new dictionary entries (IDs 23811-23824) from candidate_words.json. A t
 - **Nouns (4)**: {現象学|げんしょうがく} (phenomenology), {防護柵|ぼうごさく} (protective fence; guardrail), {来客数|らいきゃくすう} (number of visitors/customers), {写真室|しゃしんしつ} (photo studio — room)
 - **Noun+suru verb (1)**: {減水|げんすい} (drop in water level; reservoir-level fall)
 - All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS sections (plus RELATED TERMS or CULTURAL CONTEXT where relevant), and full furigana coverage
-
-### 2026-04-14 (Vocabulary Expansion - 13 New Entries)
-Added 13 new dictionary entries (IDs 23798-23810) from candidate_words.json. A mix of formal/technical, sexuality-related, legal, and traditional vocabulary.
-
-- **Na-adjectives (3)**: {性的|せいてき} (sexual; erotic), {狭量|きょうりょう} (narrow-minded; petty), {有毒|ゆうどく} (poisonous; toxic — also no-adj)
-- **Noun/suru verbs (3)**: {野宿|のじゅく} (sleeping outdoors), {査察|ささつ} (official on-site inspection), {昏睡|こんすい} (coma / comatose state), {作図|さくず} (geometric construction; drafting)
-- **Nouns (5)**: {先人|せんじん} (forerunner; predecessor), {論客|ろんきゃく} (pundit; skilled debater), {猥褻|わいせつ} (obscene; indecent — na-adj), {性欲|せいよく} (sexual desire; libido), {多用途|たようと} (multi-purpose), {棒術|ぼうじゅつ} (traditional staff martial art)
-- All entries include progressive-length examples, structured notes with USAGE / COLLOCATIONS / SIMILAR WORDS (plus CULTURAL CONTEXT where relevant) sections, and full furigana coverage
-- Added new kanji 褻 (ID 02683) to the kanji index
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
