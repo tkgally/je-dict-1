@@ -3,6 +3,28 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-15 (Vocabulary Expansion - 15 New Entries)
+Added 15 new dictionary entries (IDs 23878-23892) from candidate_words.json. A themed mix covering language/linguistics, transportation, environment, education, engineering, and architecture.
+
+- **Language / grammar (2)**: {話|はな}し{言葉|ことば} (spoken/colloquial language), {過去形|かこけい} (past tense)
+- **Transportation / urban (2)**: {終着駅|しゅうちゃくえき} (terminal station; last stop — with figurative usage), {分譲住宅|ぶんじょうじゅうたく} (housing for sale, contrasting with rentals)
+- **Environment / weather (2)**: {焼却炉|しょうきゃくろ} (incinerator), {集中豪雨|しゅうちゅうごうう} (torrential localized downpour)
+- **Business / industry (1)**: {印刷所|いんさつじょ} (print shop)
+- **Engineering / technology (4)**: {側面図|そくめんず} (side view / elevation drawing), {絶縁体|ぜつえんたい} (electrical insulator), {増幅器|ぞうふくき} (amplifier), {計量器|けいりょうき} (measuring instrument)
+- **Architecture (1)**: {高層建築|こうそうけんちく} (high-rise building)
+- **Healthcare (1)**: {在宅医療|ざいたくいりょう} (home healthcare)
+- **Ideas / school life (2)**: {妙案|みょうあん} (clever idea), {二学期|にがっき} (second school term)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
+### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 23868-23877) from candidate_words.json. A mixed set covering everyday nouns, loanwords, a grammatical expression, and question-word vocabulary.
+
+- **Nouns (7)**: {舟|ふね} (small boat — distinguished from {船|ふね}), {仏教徒|ぶっきょうと} (Buddhist), {拳法|けんぽう} (Chinese-style martial arts — homophone-linked to {憲法|けんぽう}), {野球帽|やきゅうぼう} (baseball cap), {限界点|げんかいてん} (limit point; threshold), {何日|なんにち} (how many days / what day — two senses)
+- **Loanwords (3)**: パウダー (powder — cosmetic), ワークブック (workbook), スカッシュ (squash sport / squash drink — two senses)
+- **Expression (1)**: {次第|しだい}で (depending on; subject to — grammatical pattern)
+- All entries follow v2 standards: progressive-length examples (3 per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+- Cross-references added: {舟|ふね}↔{船|ふね}, {拳法|けんぽう}↔{憲法|けんぽう} (homophone)
+
 ### 2026-04-15 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 23858-23867) from candidate_words.json. A mixed set covering clothing, medical/biology, industrial, commerce, education, and informal everyday vocabulary.
 
