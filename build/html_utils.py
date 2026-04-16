@@ -342,3 +342,11 @@ def generate_wordlinks_script() -> str:
     });
 })();
 </script>'''
+
+
+def generate_goatcounter_script() -> str:
+    """Generate the GoatCounter analytics script tag.
+
+    This should be emitted on every built page immediately before </body>.
+    """
+    return '<script data-goatcounter="https://tkgje.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>'

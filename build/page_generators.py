@@ -18,6 +18,7 @@ from html_utils import (
     generate_furigana_script,
     generate_examples_script,
     generate_wordlinks_script,
+    generate_goatcounter_script,
 )
 from entry_renderer import (
     process_furigana,
@@ -132,6 +133,7 @@ def generate_index_page(entry_count: int, tier_counts: dict, example_count: int,
 {generate_furigana_script()}
 {generate_examples_script()}
 {generate_wordlinks_script()}
+{generate_goatcounter_script()}
 </body>
 </html>'''
 
@@ -658,6 +660,7 @@ def generate_advanced_page() -> str:
 {generate_furigana_script()}
 {generate_examples_script()}
 {generate_wordlinks_script()}
+{generate_goatcounter_script()}
 </body>
 </html>'''
 
@@ -739,6 +742,7 @@ def generate_browse_page(entries: list, entries_dict: dict) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -791,6 +795,7 @@ def generate_recent_page(recent_entries: list, entries_dict: dict) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -846,6 +851,7 @@ def generate_random_page(entries: list) -> str:
     });
 })();
 </script>''')
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -896,6 +902,7 @@ def generate_pending_page(candidates: list) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -998,6 +1005,7 @@ def generate_kanji_list_page(entries: list, kanji_list: dict) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 

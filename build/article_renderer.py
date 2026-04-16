@@ -20,6 +20,7 @@ from html_utils import (
     generate_furigana_script,
     generate_examples_script,
     generate_wordlinks_script,
+    generate_goatcounter_script,
 )
 from entry_renderer import (
     generate_html_head,
@@ -284,6 +285,7 @@ def generate_article_html(article: dict, entries_dict: dict) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
@@ -341,6 +343,7 @@ def generate_article_index_html(articles: list) -> str:
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
