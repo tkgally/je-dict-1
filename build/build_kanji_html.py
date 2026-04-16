@@ -19,7 +19,8 @@ from html_utils import (
     generate_furigana_script,
     generate_examples_script,
     generate_header_search_script,
-    generate_wordlinks_script
+    generate_wordlinks_script,
+    generate_goatcounter_script,
 )
 
 
@@ -105,6 +106,7 @@ def generate_kanji_page(kanji_data: dict, relative_path: str = '../') -> str:
 {generate_furigana_script()}
 {generate_examples_script()}
 {generate_wordlinks_script()}
+{generate_goatcounter_script()}
 </body>
 </html>''')
 

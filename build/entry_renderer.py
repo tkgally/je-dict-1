@@ -23,6 +23,7 @@ from html_utils import (
     generate_examples_script,
     generate_header_search_script,
     generate_wordlinks_script,
+    generate_goatcounter_script,
     process_word_links as _process_word_links_base
 )
 
@@ -581,6 +582,7 @@ def generate_entry_html(entry: dict, entries_dict: dict, readings_to_entries: di
     html_parts.append(generate_furigana_script())
     html_parts.append(generate_examples_script())
     html_parts.append(generate_wordlinks_script())
+    html_parts.append(generate_goatcounter_script())
     html_parts.append('</body>')
     html_parts.append('</html>')
 
