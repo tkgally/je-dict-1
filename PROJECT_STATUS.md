@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-15
+**Last updated**: 2026-04-16
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-04-16 (Vocabulary Expansion - 10 New Entries)
+Added 10 new dictionary entries (IDs 24043-24052) from candidate_words.json. A balanced set spanning body-part, age, religion, academia, science, expressions, and music/verb vocabulary.
+
+- **Body-part (1)**: {足|あし}の{親指|おやゆび} (big toe — includes full toe-naming table)
+- **Age / demographics (1)**: {四十代|よんじゅうだい} (one's forties — mirrors the 三十代/二十代 pattern)
+- **Academia (1)**: {文学部|ぶんがくぶ} (Faculty of Letters; Faculty of Humanities — covers typical departments and cultural context)
+- **Religion (2)**: {旧約聖書|きゅうやくせいしょ} (Old Testament), {新約聖書|しんやくせいしょ} (New Testament) — cross-linked pair, both tied to the existing 聖書 entry
+- **Science (1)**: アミノ{酸|さん} (amino acid — nutrition/cosmetics/chemistry contexts)
+- **Expressions / adverbials (2)**: {歴史上|れきしじょう} (historically; in history — noun/adverbial use with の and bare forms), {最後|さいご}には (in the end; ultimately — distinguished from 最後に, ついに, 結局, 最終的に)
+- **Communication (1)**: {書|か}きぶり (writing style; manner of writing — contrasts with 話しぶり, 書き方, 文体, 筆致)
+- **Verb (1)**: かき{鳴|な}らす (to strum; to play loudly — godan-su with full conjugation table; transitive, for stringed instruments)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
+Total entries: 23,841 → 23,851.
 
 ### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 24027-24042) from candidate_words.json. A mixed batch covering emotion, communication, geography, weather, agriculture, real estate, transportation, and entertainment vocabulary.
@@ -103,29 +118,6 @@ Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A b
 - **Food / loanwords (3)**: グラニュー{糖|とう} (granulated sugar), クランプ (clamp; general fixture tool), チョコチップ (chocolate chips)
 - **Math / technical (3)**: {垂線|すいせん} (perpendicular line — geometry), {冗長性|じょうちょうせい} (redundancy — engineering/IT and writing), {経文|きょうもん} (sutra text — Buddhist ritual and literary)
 - **New kanji**: Added 桑 (kanji ID 02686, 'sou/kuwa — mulberry') to support the 桑 entry
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 12 New Entries)
-Added 12 new dictionary entries (IDs 23976-23987) from candidate_words.json. A balanced mix of sports, business/finance, medical/abstract, astronomy, and everyday product vocabulary.
-
-- **Sports / martial arts (3)**: {強打者|きょうだしゃ} (slugger; heavy hitter), {指名打者|しめいだしゃ} (designated hitter), {関節技|かんせつわざ} (joint lock technique)
-- **Counter (1)**: {一羽|いちわ} (one bird — counter for birds and, traditionally, rabbits; includes full counting table)
-- **Formal / abstract (3)**: {様態|ようたい} (state; condition — two senses: medical and grammatical 'mode'), {顕在的|けんざいてき} (manifest; overt — na-adjective, contrasts with 潜在的), {発足式|ほっそくしき} (inauguration ceremony)
-- **Business / finance (1)**: {上場廃止|じょうじょうはいし} (delisting from a stock exchange — also takes する)
-- **Everyday product / concrete (2)**: {電動|でんどう}のこぎり (power saw), {乾燥果実|かんそうかじつ} (dried fruit — formal counterpart of ドライフルーツ)
-- **Astronomy (1)**: {一等星|いっとうせい} (first-magnitude star)
-- **Loanword (1)**: タクト (conductor's baton / leadership — two senses, literal and figurative)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 23962-23975) from candidate_words.json. A mixed set of formal/technical nouns, everyday food and real-estate vocabulary, and one theatrical idiom with literal and figurative senses.
-
-- **Formal / institutional (3)**: {閉会|へいかい} (closing of a meeting; adjournment), {入国|にゅうこく}{管理|かんり} (immigration control), {労働者|ろうどうしゃ} (worker; laborer)
-- **Technical / medical (3)**: {吸気|きゅうき} (inhalation; intake air — two senses), {老年期|ろうねんき} (old age; senescence period), {航空母艦|こうくうぼかん} (aircraft carrier)
-- **Business / publishing (3)**: {試用|しよう} (trial use), {自費|じひ}{出版|しゅっぱん} (self-publishing), {周辺|しゅうへん}{環境|かんきょう} (surrounding environment)
-- **Everyday / food / hobby (3)**: {歯触|はざわ}り (mouthfeel; texture of food), {艶出|つやだ}し (polishing; glossing), {棋譜|きふ} (shogi/go game record)
-- **Literature / criticism (1)**: {人物|じんぶつ}{描写|びょうしゃ} (characterization; portrayal of a person)
-- **Expression (1)**: {幕|まく}が{上|あ}がる (the curtain rises; to get underway — two senses, literal and figurative)
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

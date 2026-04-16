@@ -4,6 +4,29 @@ This file contains the historical change log entries that have been moved from P
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 
+### 2026-04-15 (Vocabulary Expansion - 12 New Entries)
+Added 12 new dictionary entries (IDs 23976-23987) from candidate_words.json. A balanced mix of sports, business/finance, medical/abstract, astronomy, and everyday product vocabulary.
+
+- **Sports / martial arts (3)**: {強打者|きょうだしゃ} (slugger; heavy hitter), {指名打者|しめいだしゃ} (designated hitter), {関節技|かんせつわざ} (joint lock technique)
+- **Counter (1)**: {一羽|いちわ} (one bird — counter for birds and, traditionally, rabbits; includes full counting table)
+- **Formal / abstract (3)**: {様態|ようたい} (state; condition — two senses: medical and grammatical 'mode'), {顕在的|けんざいてき} (manifest; overt — na-adjective, contrasts with 潜在的), {発足式|ほっそくしき} (inauguration ceremony)
+- **Business / finance (1)**: {上場廃止|じょうじょうはいし} (delisting from a stock exchange — also takes する)
+- **Everyday product / concrete (2)**: {電動|でんどう}のこぎり (power saw), {乾燥果実|かんそうかじつ} (dried fruit — formal counterpart of ドライフルーツ)
+- **Astronomy (1)**: {一等星|いっとうせい} (first-magnitude star)
+- **Loanword (1)**: タクト (conductor's baton / leadership — two senses, literal and figurative)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
+### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
+Added 14 new dictionary entries (IDs 23962-23975) from candidate_words.json. A mixed set of formal/technical nouns, everyday food and real-estate vocabulary, and one theatrical idiom with literal and figurative senses.
+
+- **Formal / institutional (3)**: {閉会|へいかい} (closing of a meeting; adjournment), {入国|にゅうこく}{管理|かんり} (immigration control), {労働者|ろうどうしゃ} (worker; laborer)
+- **Technical / medical (3)**: {吸気|きゅうき} (inhalation; intake air — two senses), {老年期|ろうねんき} (old age; senescence period), {航空母艦|こうくうぼかん} (aircraft carrier)
+- **Business / publishing (3)**: {試用|しよう} (trial use), {自費|じひ}{出版|しゅっぱん} (self-publishing), {周辺|しゅうへん}{環境|かんきょう} (surrounding environment)
+- **Everyday / food / hobby (3)**: {歯触|はざわ}り (mouthfeel; texture of food), {艶出|つやだ}し (polishing; glossing), {棋譜|きふ} (shogi/go game record)
+- **Literature / criticism (1)**: {人物|じんぶつ}{描写|びょうしゃ} (characterization; portrayal of a person)
+- **Expression (1)**: {幕|まく}が{上|あ}がる (the curtain rises; to get underway — two senses, literal and figurative)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23946-23961) from candidate_words.json. A mix of everyday nouns, cosmetics/skincare vocabulary, formal na-adjectives, and a multi-sense grammar expression.
 
