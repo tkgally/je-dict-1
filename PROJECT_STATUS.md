@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-17 (Vocabulary Expansion - 17 New Entries)
+Added 17 new dictionary entries (IDs 24142-24158) from candidate_words.json. A diverse batch covering body/health, food, business, religion, industry, communication, and abstract concepts.
+
+- **Body / health (2)**: {脂汗|あぶらあせ} (cold sweat), {誤飲|ごいん} (accidental ingestion)
+- **Food / cooking (2)**: ほぐし (loosening; shredded), {焼|や}き{栗|ぐり} (roasted chestnuts)
+- **Religion / culture (2)**: {崇敬|すうけい} (reverence), {経典|きょうてん} (scripture)
+- **Industry / science (3)**: {製錬|せいれん} (smelting), {冶金|やきん} (metallurgy), {不凍|ふとう} (non-freezing)
+- **Business / communication (3)**: {社外秘|しゃがいひ} (confidential), {切電|せつでん} (hanging up), {電工|でんこう} (electrician)
+- **Entertainment (1)**: {旧作|きゅうさく} (older work)
+- **Abstract (2)**: {内在|ないざい} (inherence), ありよう (way of being)
+- **Onomatopoeia (1)**: しゅっと (sleekly; swiftly)
+- **Totality (1)**: {合切|がっさい} (all; everything)
+- 1 new kanji added to index: 冶 (smelt)
+- 2 stale candidates removed (ばっかり duplicate of ばかり, 露わに duplicate of 露に)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 23,940 → 23,957.
+
 ### 2026-04-17 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 24117-24141) from candidate_words.json. A practical batch covering work/business, food/cooking, daily life, education, arts, and nature vocabulary.
 
