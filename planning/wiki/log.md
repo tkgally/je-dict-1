@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-17] maintenance | Polysemy research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **polysemy and sense discrimination** in learner dictionaries and created `research/polysemy-sense-discrimination.md`. Covers the ontological debate (Kilgarriff 1997), lumping vs. splitting trade-offs (with bilingual dictionary considerations), three sense-ordering approaches (historical, frequency, logical/core-first), Bond et al. (2024) models of polysemy structure (prototype, progenitor, nearest-neighbor chaining, local chaining), cognitive linguistics and prototype theory, Japanese-specific challenges (extreme polysemy in basic verbs, kanji as sense disambiguator, compound verb extensions), Hoshino & Shimizu (2018) on learner mental lexicon organization, and detailed implications for je-dict-1 including quantitative analysis of the current sense distribution (19,005 single-definition entries, 4,504 with 2 definitions, 478 with 3+, none with example-to-sense linking). Recommendations include documenting a sense-ordering convention, adding example-sense linking, reviewing high-polysemy entries, and adding sense relationship markers. Cited Atkins & Rundell 2008, Bond et al. 2024, Geeraerts 2006, Hoshino & Shimizu 2018, Kilgarriff 1997, Lew 2013, Lu & Geng 2024, McCrae et al. 2022, Nesi 1999.
+- [A] Updated entry counts across 12 wiki pages to reflect 2026-04-17 `report.py` output (23,987 entries / 21,204 general / 7,787 cross-references / 97,124 examples / 2,366 candidates / 44.9% symmetry / 3,660 asymmetric refs). Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `project/open-issues.md`, `research/controlled-defining-vocabulary.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `topics/compound-verbs.md`, `ideas/audio-expansion.md`, `ideas/dictionary-growth.md`, `ideas/multi-model-proofreading.md`, `ideas/parallel-agent-architecture.md`, `ideas/word-discovery-strategies.md`, `research/digital-dictionary-ux.md`, `research/pitch-accent.md`.
+- [E] Ran cross-reference link checker across all 40+ wiki pages (350 internal links checked, 0 broken). Added the new polysemy page to `index.md` and as a related page on `definition-strategies.md`, `vocabulary-acquisition.md`, `homographs.md`, and `learner-lexicography.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-15] maintenance | Controlled defining vocabulary research, stats sync, tier-system cross-link
 
 **Session type**: Nightly maintenance

@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-04-15
+**Last updated**: 2026-04-17
 
 ## Overview
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-15 (23,841 entries, end-of-day snapshot):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-17 (23,987 entries):
 
-| Metric | Plan target | 2026-04-15 (end of day) | Notes |
+| Metric | Plan target | 2026-04-17 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | 34.4% | 4,099 verbs still missing; transitivity queue 12.5% processed |
+| Verbs with transitivity | 100% | 34.3% | 4,123 verbs still missing; transitivity queue 12.4% processed |
 | Entries with note score ≥ 60 | 80% | 83% | Target reached |
-| Cross-reference symmetry | 98% | 45.5% | 3,463 asymmetric references; largest remaining gap, still drifting as new entries are added faster than symmetry pass processes them |
+| Cross-reference symmetry | 98% | 44.9% | 3,660 asymmetric references; largest remaining gap, continuing to drift as new entries add unreciprocated links |
 | Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.6% | Still slow-moving |
-| Multi-model review coverage | 100% (furigana) | deep 0.4% (100/23,841), queue depth 3,705 | Screening queue is active |
+| Multi-model review coverage | 100% (furigana) | deep 0.4% (100/23,987), queue depth 4,049 | Screening queue is active |
 | Examples per entry (avg) | ≥ 4 | 4.1 | Target reached |
-| Cross-references per entry | ≥ 0.5 | 0.31 | Slowly rising from 0.28 in mid-April |
+| Cross-references per entry | ≥ 0.5 | 0.32 | Slowly rising from 0.28 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Symmetry rate continues to drift in the wrong direction**: new entries are being added faster than reciprocal links for their cross-references are being completed, so the absolute asymmetric count now stands at 3,463 (up from 3,461 a few hours earlier). A short symmetry-focused queue run would reset the trend.
+Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Symmetry rate continues drifting downward**: 3,660 asymmetric pairs (up from 3,463 two days earlier), as new entries are added faster than reciprocal links are completed. The review queue depth has also grown from 3,705 to 4,049 as new entries outpace review throughput.
 
 ## Implications for future maintenance sessions
 

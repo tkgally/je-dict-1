@@ -175,3 +175,4 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Japanese Lexicography](japanese-lexicography.md) — challenges specific to Japanese dictionaries
 - [Entry Consistency](../topics/entry-consistency.md) — standardizing gloss format across entries
 - [Semantic Prosody](semantic-prosody.md) — why prosody-bearing words need more than neutral glosses
+- [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — sense division, ordering, and structure in learner dictionaries

@@ -120,3 +120,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Quality Standards](../project/quality-standards.md) — je-dict-1's entry quality standards
 - [Entry Design](../project/entry-design.md) — je-dict-1's microstructure
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — how learners actually use dictionaries
+- [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — sense division and ordering strategies for learner dictionaries
