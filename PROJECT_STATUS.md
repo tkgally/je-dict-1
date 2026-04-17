@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-17 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 24066-24095) from candidate_words.json. A diverse batch of two-kanji compound words covering transportation, household, administration, finance, science, culture, and military vocabulary.
+
+- **Transportation / location (2)**: {南口|みなみぐち} (south exit), {東口|ひがしぐち} (east exit) — essential station navigation vocabulary
+- **Household / everyday (3)**: {油性|ゆせい} (oil-based), {顆粒|かりゅう} (granules), {取|と}っ{手|て} (handle; knob)
+- **Administration / law (3)**: {要項|ようこう} (guidelines; essentials), {減免|げんめん} (reduction and exemption), {職権|しょっけん} (official authority)
+- **Finance / business (2)**: {社債|しゃさい} (corporate bond), {積算|せきさん} (accumulation; cost estimation — two senses)
+- **Housing / infrastructure (1)**: {漏水|ろうすい} (water leak)
+- **Science / industry (3)**: {圧搾|あっさく} (compression; pressing), {減圧|げんあつ} (decompression), {製鉄|せいてつ} (ironmaking)
+- **Architecture / history (3)**: {御殿|ごてん} (palace; mansion), {城郭|じょうかく} (castle compound), {上層|じょうそう} (upper layer/stratum)
+- **Culture / education (4)**: {学芸|がくげい} (arts and sciences), {射的|しゃてき} (shooting gallery), {任侠|にんきょう} (chivalry), {増刊|ぞうかん} (special issue)
+- **Mathematics (2)**: {立方|りっぽう} (cubic; cube), {音信|おんしん} (correspondence — most common in {音信|おんしん}{不通|ふつう})
+- **Military / conflict (3)**: {軍縮|ぐんしゅく} (disarmament), {死闘|しとう} (fierce battle), {防備|ぼうび} (defense preparations)
+- **Social (2)**: {宴席|えんせき} (banquet), {慰問|いもん} (consolation visit)
+- **Abstract (1)**: {純潔|じゅんけつ} (purity; chastity)
+- 2 new kanji added to index: 侠 (chivalry), 顆 (grain)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 23,864 → 23,894.
+
 ### 2026-04-17 (Vocabulary Expansion - 13 New Entries)
 Added 13 new dictionary entries (IDs 24053-24065) from candidate_words.json. A varied batch covering formal abstract nouns, news/legal vocabulary, sports vocabulary, anatomy, traffic accidents, set expressions, and one loanword adjective.
 
@@ -110,17 +130,6 @@ Added 14 new dictionary entries (IDs 24013-24026) from candidate_words.json. A m
 - **Color / aesthetics (1)**: {薄紅色|うすべにいろ} (pale pink; soft rose — traditional Japanese color name)
 - **Formal abstract (1)**: {実際上|じっさいじょう} (in practice; practically — contrasts with 理論上)
 - Cleaned up one stale candidate (C11461 {無傷|むきず}で — adverbial variant of the existing 13458 entry {無傷|むきず})
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 9 New Entries)
-Added 9 new dictionary entries (IDs 24004-24012) from candidate_words.json. A set of technical and infrastructural nouns plus one everyday nature term.
-
-- **Loanword (1)**: ダイヤグラム (diagram; (train) schedule, timetable — two senses covering general diagram and specialized railway schedule usage)
-- **Technical / engineering (4)**: {防塵|ぼうじん} (dustproof), {分解図|ぶんかいず} (exploded view; breakdown diagram), {送水|そうすい} (water supply; pumping of water — also verb-suru), {分解能|ぶんかいのう} (resolution; resolving power)
-- **Infrastructure / telecom (2)**: {総額表示|そうがくひょうじ} (tax-inclusive price display — Japanese consumer-law term), {通話圏|つうわけん} (mobile-phone coverage area)
-- **Abstract (1)**: {唯一性|ゆいいつせい} (uniqueness; singularity)
-- **Nature / animals (1)**: {潮吹|しおふ}き (whale spouting; water spout)
-- Cleaned up one stale candidate (つくり C09835 — already existed as the 23626 entry {旁|つくり})
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
