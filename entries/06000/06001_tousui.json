@@ -6,69 +6,6 @@
   "gloss": "intoxication; rapture; ecstasy",
   "conjugation": {
     "type": "suru",
-    "prefix": "{陶酔|とうすい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "intoxication; rapture; ecstasy",
-      "explanation": "A state of being completely absorbed in something pleasurable, losing oneself in an experience. Can refer to alcohol intoxication or figurative intoxication with art, beauty, or ideas."
-    }
-  ],
-  "examples": [
-    {
-      "id": "06001_tousui_ex1",
-      "japanese": "{音楽|おんがく}に{陶酔|とうすい}している。",
-      "english": "I'm enraptured by the music.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06001_tousui_ex2",
-      "japanese": "{自分|じぶん}の{成功|せいこう}に{陶酔|とうすい}するな。",
-      "english": "Don't get intoxicated with your own success.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06001_tousui_ex3",
-      "japanese": "{陶酔|とうすい}{状態|じょうたい}で{演奏|えんそう}した。",
-      "english": "I performed in a state of rapture.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{陶酔|とうすい} contains {陶|とう} (pottery/to mold) and {酔|すい} (drunk), suggesting being shaped or molded by the experience of intoxication.\n\nCOMMON PATTERNS:\n- {陶酔|とうすい}する: to be intoxicated, to be enraptured\n- ～に{陶酔|とうすい}する: to be intoxicated by ~\n- {自己|じこ}{陶酔|とうすい}: self-intoxication, narcissism\n\nCONTRAST:\n- {酔|よ}う: to get drunk (more literal)\n- {恍惚|こうこつ}: ecstasy (more intense)\n- {夢中|むちゅう}: absorbed in (less intense)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-03-29T03:05:07Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +93,72 @@
         "negative": "{陶酔|とうすい}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "intoxication; rapture; ecstasy",
+      "explanation": "A state of being completely absorbed in something pleasurable, losing oneself in an experience. Can refer to alcohol intoxication or figurative intoxication with art, beauty, or ideas."
+    }
+  ],
+  "examples": [
+    {
+      "id": "06001_tousui_ex1",
+      "japanese": "{音楽|おんがく}に{陶酔|とうすい}している。",
+      "english": "I'm enraptured by the music.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06001_tousui_ex2",
+      "japanese": "{自分|じぶん}の{成功|せいこう}に{陶酔|とうすい}するな。",
+      "english": "Don't get intoxicated with your own success.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06001_tousui_ex3",
+      "japanese": "{陶酔|とうすい}{状態|じょうたい}で{演奏|えんそう}した。",
+      "english": "I performed in a state of rapture.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{陶酔|とうすい} contains {陶|とう} (pottery/to mold) and {酔|すい} (drunk), suggesting being shaped or molded by the experience of intoxication.\n\nCOMMON PATTERNS:\n- {陶酔|とうすい}する: to be intoxicated, to be enraptured\n- ～に{陶酔|とうすい}する: to be intoxicated by ~\n- {自己|じこ}{陶酔|とうすい}: self-intoxication, narcissism\n\nCONTRAST:\n- {酔|よ}う: to get drunk (more literal)\n- {恍惚|こうこつ}: ecstasy (more intense)\n- {夢中|むちゅう}: absorbed in (less intense)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "06002_koukotsu",
+      "reading": "こうこつ",
+      "headword": "{恍惚|こうこつ}",
+      "label": "ecstasy, rapture"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T21:25:32Z",
+    "modified": "2026-04-17T14:07:51Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

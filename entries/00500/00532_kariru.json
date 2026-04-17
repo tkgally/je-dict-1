@@ -6,7 +6,93 @@
   "gloss": "to borrow, to rent",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{借|か}り"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{借|か}りる",
+        "negative": "{借|か}りない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{借|か}ります",
+        "negative": "{借|か}りません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{借|か}りた",
+        "negative": "{借|か}りなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{借|か}りました",
+        "negative": "{借|か}りませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{借|か}りて",
+        "negative": "{借|か}りなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{借|か}りている",
+        "negative": "{借|か}りていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{借|か}りています",
+        "negative": "{借|か}りていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{借|か}りていた",
+        "negative": "{借|か}りていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{借|か}りていました",
+        "negative": "{借|か}りていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{借|か}りれば",
+        "negative": "{借|か}りなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{借|か}りたら",
+        "negative": "{借|か}りなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{借|か}りよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{借|か}りましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{借|か}りられる",
+        "negative": "{借|か}りられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{借|か}りられる",
+        "negative": "{借|か}りられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{借|か}りさせる",
+        "negative": "{借|か}りさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{借|か}りろ",
+        "negative": "{借|か}りるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -140,11 +226,18 @@
       "reading": "かす",
       "headword": "{貸|か}す",
       "label": "to lend"
+    },
+    {
+      "type": "keigo",
+      "target_id": "06032_haishakusuru",
+      "reading": "はいしゃくする",
+      "headword": "{拝借|はいしゃく}する",
+      "label": "humble"
     }
   ],
   "metadata": {
     "created": "2026-01-07T14:06:56Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-04-17T14:07:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -159,95 +252,5 @@
       ],
       "verb_class": "ichidan"
     }
-  },
-  "conjugation": {
-    "type": "ichidan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{借|か}りる",
-        "negative": "{借|か}りない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{借|か}ります",
-        "negative": "{借|か}りません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{借|か}りた",
-        "negative": "{借|か}りなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{借|か}りました",
-        "negative": "{借|か}りませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{借|か}りて",
-        "negative": "{借|か}りなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{借|か}りている",
-        "negative": "{借|か}りていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{借|か}りています",
-        "negative": "{借|か}りていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{借|か}りていた",
-        "negative": "{借|か}りていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{借|か}りていました",
-        "negative": "{借|か}りていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{借|か}りれば",
-        "negative": "{借|か}りなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{借|か}りたら",
-        "negative": "{借|か}りなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{借|か}りよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{借|か}りましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{借|か}りられる",
-        "negative": "{借|か}りられない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{借|か}りられる",
-        "negative": "{借|か}りられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{借|か}りさせる",
-        "negative": "{借|か}りさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{借|か}りろ",
-        "negative": "{借|か}りるな"
-      }
-    ]
   }
 }

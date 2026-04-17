@@ -6,76 +6,6 @@
   "gloss": "to borrow (humble)",
   "conjugation": {
     "type": "suru",
-    "prefix": "{拝借|はいしゃく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to borrow (humble expression)",
-      "explanation": "A humble way to say 'to borrow.' Used when borrowing something from someone of higher status or in formal situations."
-    }
-  ],
-  "examples": [
-    {
-      "id": "06032_haishakusuru_ex1",
-      "japanese": "お{知恵|ちえ}を{拝借|はいしゃく}したいのですが。",
-      "english": "I would like to borrow your wisdom (ask for your advice).",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06032_haishakusuru_ex2",
-      "japanese": "ペンを{拝借|はいしゃく}できますか。",
-      "english": "May I borrow a pen?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "06032_haishakusuru_ex3",
-      "japanese": "お{時間|じかん}を{拝借|はいしゃく}いたします。",
-      "english": "I humbly ask for a moment of your time.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{拝借|はいしゃく}する is {謙譲語|けんじょうご} (humble language) for {借|か}りる (to borrow). The {拝|はい} prefix conveys respect toward the person you are borrowing from.\n\nFORMALITY LEVELS (\"to borrow\"):\n- {借|か}りる: neutral\n- お{借|か}りする: polite\n- {拝借|はいしゃく}する: humble/very formal\n\nCOMMON EXPRESSIONS:\n- お{知恵|ちえ}を{拝借|はいしゃく}する: to seek advice (lit. \"borrow wisdom\")\n- お{時間|じかん}を{拝借|はいしゃく}する: to take someone's time\n- お{力|ちから}を{拝借|はいしゃく}する: to ask for assistance\n\nUSAGE:\nUsed in business and formal settings. Can sound overly stiff in casual conversation. Often used with いたす for extra humility: {拝借|はいしゃく}いたします.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-16T21:25:32Z",
-    "modified": "2026-03-29T07:15:08Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "humble",
-      "semantic": [
-        "communication"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "06381_haishaku",
-      "reading": "はいしゃく",
-      "headword": "{拝借|はいしゃく}",
-      "note": "noun form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -163,5 +93,79 @@
         "negative": "{拝借|はいしゃく}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to borrow (humble expression)",
+      "explanation": "A humble way to say 'to borrow.' Used when borrowing something from someone of higher status or in formal situations."
+    }
+  ],
+  "examples": [
+    {
+      "id": "06032_haishakusuru_ex1",
+      "japanese": "お{知恵|ちえ}を{拝借|はいしゃく}したいのですが。",
+      "english": "I would like to borrow your wisdom (ask for your advice).",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06032_haishakusuru_ex2",
+      "japanese": "ペンを{拝借|はいしゃく}できますか。",
+      "english": "May I borrow a pen?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "06032_haishakusuru_ex3",
+      "japanese": "お{時間|じかん}を{拝借|はいしゃく}いたします。",
+      "english": "I humbly ask for a moment of your time.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{拝借|はいしゃく}する is {謙譲語|けんじょうご} (humble language) for {借|か}りる (to borrow). The {拝|はい} prefix conveys respect toward the person you are borrowing from.\n\nFORMALITY LEVELS (\"to borrow\"):\n- {借|か}りる: neutral\n- お{借|か}りする: polite\n- {拝借|はいしゃく}する: humble/very formal\n\nCOMMON EXPRESSIONS:\n- お{知恵|ちえ}を{拝借|はいしゃく}する: to seek advice (lit. \"borrow wisdom\")\n- お{時間|じかん}を{拝借|はいしゃく}する: to take someone's time\n- お{力|ちから}を{拝借|はいしゃく}する: to ask for assistance\n\nUSAGE:\nUsed in business and formal settings. Can sound overly stiff in casual conversation. Often used with いたす for extra humility: {拝借|はいしゃく}いたします.",
+  "cross_references": [
+    {
+      "type": "keigo",
+      "target_id": "00532_kariru",
+      "reading": "かりる",
+      "headword": "{借|か}りる",
+      "label": "plain form"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T21:25:32Z",
+    "modified": "2026-04-17T14:07:51Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "humble",
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "06381_haishaku",
+      "reading": "はいしゃく",
+      "headword": "{拝借|はいしゃく}",
+      "note": "noun form"
+    }
+  ]
 }
