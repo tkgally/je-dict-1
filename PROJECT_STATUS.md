@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-17 (Vocabulary Expansion - 25 New Entries)
+Added 25 new dictionary entries (IDs 24117-24141) from candidate_words.json. A practical batch covering work/business, food/cooking, daily life, education, arts, and nature vocabulary.
+
+- **Work / business (6)**: {中小企業|ちゅうしょうきぎょう} (SME), {理容師|りようし} (barber), インターンシップ (internship), {同業者|どうぎょうしゃ} (industry peer), {作業着|さぎょうぎ} (work clothes), {作業員|さぎょういん} (worker)
+- **Time / weather (3)**: {例年通|れいねんどお}り (as usual), {平年|へいねん} (average year), {勤務時間|きんむじかん} (working hours)
+- **Food / cooking (2)**: {長芋|ながいも} (Chinese yam), {自然薯|じねんじょ} (wild yam)
+- **Safety / expressions (2)**: {安全第一|あんぜんだいいち} (safety first), {時間|じかん}が{経|た}つ (time passes)
+- **Nature / geography (2)**: {河川敷|かせんしき} (riverside area), {砦|とりで} (fortress)
+- **Shopping / products (2)**: {純正品|じゅんせいひん} (genuine product), {濃色|のうしょく} (dark color)
+- **Academics / arts (2)**: {総論|そうろん} (general overview), {受賞作|じゅしょうさく} (award-winning work)
+- **Body / literary (2)**: {掌|たなごころ} (palm — literary), {館|やかた} (mansion)
+- **Daily life / education (3)**: {竿|さお} (pole/rod), {校外|こうがい} (off-campus), {交友関係|こうゆうかんけい} (circle of friends)
+- **Herbicide (1)**: {除草剤|じょそうざい} (herbicide)
+- 2 new kanji added to index: 砦 (fortress), 薯 (yam)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 23,915 → 23,940.
+
 ### 2026-04-17 (Vocabulary Expansion - 21 New Entries)
 Added 21 new dictionary entries (IDs 24096-24116) from candidate_words.json. A practical batch covering commerce, law, travel, culture, safety, and daily-life vocabulary useful for intermediate learners.
 
