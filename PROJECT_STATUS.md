@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-16
+**Last updated**: 2026-04-17
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-04-17 (Vocabulary Expansion - 13 New Entries)
+Added 13 new dictionary entries (IDs 24053-24065) from candidate_words.json. A varied batch covering formal abstract nouns, news/legal vocabulary, sports vocabulary, anatomy, traffic accidents, set expressions, and one loanword adjective.
+
+- **Formal abstract / news (3)**: {提起|ていき} (raising an issue; filing a lawsuit — two senses), {転覆|てんぷく} (capsizing; toppling a regime — two senses), {鑑識|かんしき} (forensics; expert appraisal — two senses)
+- **Loanword adjective (1)**: リスキー (risky — na-adjective)
+- **Crime / law (1)**: {賭博|とばく} (gambling — formal term, cross-linked with informal {博打|ばくち})
+- **Architecture / sports (1)**: ドーム (dome / domed stadium)
+- **Sports / abstract (1)**: {攻守|こうしゅ} (offense and defense — two senses, literal and figurative)
+- **Anatomy (1)**: {頬骨|ほほぼね} (cheekbone)
+- **Set expressions (2)**: {喫緊|きっきん}の{課題|かだい} (urgent issue), {殺伐|さつばつ}とした (bleak; grim — taru-form modifier)
+- **Transportation / law (2)**: {路上駐車|ろじょうちゅうしゃ} (on-street parking — also verb-suru), {追突事故|ついとつじこ} (rear-end collision)
+- **Society (1)**: {徒党|ととう} (clique; faction — appears chiefly in {徒党|ととう}を{組|く}む)
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, sense-number annotations, and full conjugation tables for verb-suru entries
+
+Total entries: 23,851 → 23,864.
 
 ### 2026-04-16 (Vocabulary Expansion - 10 New Entries)
 Added 10 new dictionary entries (IDs 24043-24052) from candidate_words.json. A balanced set spanning body-part, age, religion, academia, science, expressions, and music/verb vocabulary.
@@ -105,19 +121,6 @@ Added 9 new dictionary entries (IDs 24004-24012) from candidate_words.json. A se
 - **Abstract (1)**: {唯一性|ゆいいつせい} (uniqueness; singularity)
 - **Nature / animals (1)**: {潮吹|しおふ}き (whale spouting; water spout)
 - Cleaned up one stale candidate (つくり C09835 — already existed as the 23626 entry {旁|つくり})
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
-Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A balanced mix of nature, medicine, formal technical vocabulary, food-related loanwords, and one formal suru verb.
-
-- **Nature / biology (3)**: {桑|くわ} (mulberry — historically central to sericulture; introduces new kanji 桑), {白魚|しらうお} (icefish; whitebait — spring seasonal delicacy), {群落|ぐんらく} (plant community; stand — botanical/ecological term)
-- **Medical / body (2)**: {神経痛|しんけいつう} (neuralgia; nerve pain), {診療科|しんりょうか} (medical department; clinical specialty)
-- **Institution / titles (2)**: {副部長|ふくぶちょう} (deputy department head / vice-captain of a club), {副校長|ふくこうちょう} (vice-principal — formally established in 2007 school law reform)
-- **Social / family (2)**: {同性愛|どうせいあい} (same-sex love; homosexuality — neutral reference term), {姻戚|いんせき} (relative by marriage; in-law — formal/legal register)
-- **Verb (1)**: {議|ぎ}する (to deliberate formally — verb-suru; full conjugation table)
-- **Food / loanwords (3)**: グラニュー{糖|とう} (granulated sugar), クランプ (clamp; general fixture tool), チョコチップ (chocolate chips)
-- **Math / technical (3)**: {垂線|すいせん} (perpendicular line — geometry), {冗長性|じょうちょうせい} (redundancy — engineering/IT and writing), {経文|きょうもん} (sutra text — Buddhist ritual and literary)
-- **New kanji**: Added 桑 (kanji ID 02686, 'sou/kuwa — mulberry') to support the 桑 entry
 - All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

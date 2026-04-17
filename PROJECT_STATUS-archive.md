@@ -4,6 +4,19 @@ This file contains the historical change log entries that have been moved from P
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
 
+### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
+Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A balanced mix of nature, medicine, formal technical vocabulary, food-related loanwords, and one formal suru verb.
+
+- **Nature / biology (3)**: {桑|くわ} (mulberry — historically central to sericulture; introduces new kanji 桑), {白魚|しらうお} (icefish; whitebait — spring seasonal delicacy), {群落|ぐんらく} (plant community; stand — botanical/ecological term)
+- **Medical / body (2)**: {神経痛|しんけいつう} (neuralgia; nerve pain), {診療科|しんりょうか} (medical department; clinical specialty)
+- **Institution / titles (2)**: {副部長|ふくぶちょう} (deputy department head / vice-captain of a club), {副校長|ふくこうちょう} (vice-principal — formally established in 2007 school law reform)
+- **Social / family (2)**: {同性愛|どうせいあい} (same-sex love; homosexuality — neutral reference term), {姻戚|いんせき} (relative by marriage; in-law — formal/legal register)
+- **Verb (1)**: {議|ぎ}する (to deliberate formally — verb-suru; full conjugation table)
+- **Food / loanwords (3)**: グラニュー{糖|とう} (granulated sugar), クランプ (clamp; general fixture tool), チョコチップ (chocolate chips)
+- **Math / technical (3)**: {垂線|すいせん} (perpendicular line — geometry), {冗長性|じょうちょうせい} (redundancy — engineering/IT and writing), {経文|きょうもん} (sutra text — Buddhist ritual and literary)
+- **New kanji**: Added 桑 (kanji ID 02686, 'sou/kuwa — mulberry') to support the 桑 entry
+- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
+
 ### 2026-04-15 (Vocabulary Expansion - 12 New Entries)
 Added 12 new dictionary entries (IDs 23976-23987) from candidate_words.json. A balanced mix of sports, business/finance, medical/abstract, astronomy, and everyday product vocabulary.
 
