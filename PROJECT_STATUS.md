@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-17 (Vocabulary Expansion - 21 New Entries)
+Added 21 new dictionary entries (IDs 24096-24116) from candidate_words.json. A practical batch covering commerce, law, travel, culture, safety, and daily-life vocabulary useful for intermediate learners.
+
+- **Commerce (3)**: {古物|こぶつ} (secondhand goods/antiques), {取扱店|とりあつかいてん} (authorized dealer), {卸売店|おろしうりてん} (wholesale shop)
+- **Finance / business (3)**: {収益率|しゅうえきりつ} (rate of return), {項目別|こうもくべつ} (by item/category), {好成績|こうせいせき} (excellent performance)
+- **Travel / daily life (3)**: {日帰|ひがえ}り{旅行|りょこう} (day trip), {預|あず}かり{所|じょ} (checkroom/storage), {紛失物|ふんしつぶつ} (lost property)
+- **Culture / art (3)**: {書画|しょが} (calligraphy and painting), {伝統産業|でんとうさんぎょう} (traditional industry), {異邦人|いほうじん} (foreigner/stranger — literary)
+- **Safety / law (3)**: {自己防衛|じこぼうえい} (self-defense), {権利者|けんりしゃ} (rights holder), {耐震構造|たいしんこうぞう} (earthquake-resistant structure)
+- **Politics / society (2)**: {支配力|しはいりょく} (controlling power/dominance), {視察団|しさつだん} (inspection delegation)
+- **Medicine (1)**: {整骨|せいこつ} (bonesetting/osteopathic treatment)
+- **Transportation (1)**: {黄信号|きしんごう} (yellow light — literal and figurative)
+- **Abstract (1)**: {欠|か}かせない (indispensable — i-adjective)
+- **Animals (1)**: {迷|まよ}い{犬|いぬ} (lost dog)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+- Conjugation tables auto-generated for verb-suru (自己防衛) and i-adjective (欠かせない) entries
+
+Total entries: 23,894 → 23,915.
+
 ### 2026-04-17 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 24066-24095) from candidate_words.json. A diverse batch of two-kanji compound words covering transportation, household, administration, finance, science, culture, and military vocabulary.
 
@@ -116,21 +134,6 @@ Added 16 new dictionary entries (IDs 24027-24042) from candidate_words.json. A m
 - **Entertainment (1)**: {漫才|まんざい}コンビ (manzai duo)
 
 Total entries: 23,825 → 23,841.
-
-### 2026-04-15 (Vocabulary Expansion - 14 New Entries)
-Added 14 new dictionary entries (IDs 24013-24026) from candidate_words.json. A mix of everyday objects, technology, administrative vocabulary, formal/abstract nouns, and a traditional color name.
-
-- **Everyday objects (2)**: {瓶蓋|びんぶた} (bottle cap; bottle lid), {保護|ほご}めがね (protective goggles; safety glasses)
-- **Technology / electronics (2)**: {表示画面|ひょうじがめん} (display screen), {起動音|きどうおん} (startup sound; boot chime)
-- **Infrastructure / administration (3)**: {村役場|むらやくば} (village office), {送電網|そうでんもう} (power transmission network; power grid), {系列店|けいれつてん} (affiliated store; corporate-group chain store)
-- **Education / publishing (2)**: {授業計画|じゅぎょうけいかく} (lesson plan; teaching plan), {増補版|ぞうほばん} (expanded edition)
-- **Health / body (1)**: {足浴|そくよく} (foot bath; soaking one's feet — also verb-suru)
-- **Academic (1)**: {人類学者|じんるいがくしゃ} (anthropologist)
-- **Biology (1)**: {昼行性|ちゅうこうせい} (diurnal; daytime-active — antonym of 夜行性)
-- **Color / aesthetics (1)**: {薄紅色|うすべにいろ} (pale pink; soft rose — traditional Japanese color name)
-- **Formal abstract (1)**: {実際上|じっさいじょう} (in practice; practically — contrasts with 理論上)
-- Cleaned up one stale candidate (C11461 {無傷|むきず}で — adverbial variant of the existing 13458 entry {無傷|むきず})
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
