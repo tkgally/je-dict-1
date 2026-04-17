@@ -7,72 +7,6 @@
   "gloss": "mediation; arbitration",
   "conjugation": {
     "type": "suru",
-    "prefix": "{調停|ちょうてい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "mediation; arbitration; conciliation",
-      "explanation": "The act of intervening between disputing parties to help them reach an agreement, especially through a formal or legal process."
-    }
-  ],
-  "examples": [
-    {
-      "id": "14251_choutei_ex1",
-      "japanese": "{裁判所|さいばんしょ}で{調停|ちょうてい}を{行|おこな}う。",
-      "english": "To conduct mediation at the court.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "14251_choutei_ex2",
-      "japanese": "{労使|ろうし}{間|かん}の{紛争|ふんそう}を{調停|ちょうてい}する。",
-      "english": "To mediate a dispute between labor and management.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "14251_choutei_ex3",
-      "japanese": "{離婚|りこん}{調停|ちょうてい}では、{第三者|だいさんしゃ}が{間|あいだ}に{入|はい}って{話|はな}し{合|あ}いを{進|すす}める。",
-      "english": "In divorce mediation, a third party steps in to facilitate discussion.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{調停|ちょうてい} refers to mediation or arbitration, particularly in legal contexts. It is distinct from {朝廷|ちょうてい} (imperial court), which has the same reading but different kanji.\n\nCOMMON COLLOCATIONS:\n- {調停|ちょうてい}を{行|おこな}う (conduct mediation)\n- {調停|ちょうてい}{委員|いいん} (mediator, mediation committee member)\n- {離婚|りこん}{調停|ちょうてい} (divorce mediation)\n- {調停|ちょうてい}{案|あん} (mediation proposal)\n\nIn the Japanese legal system, {調停|ちょうてい} is a formal process conducted at family courts or summary courts as an alternative to litigation. It is commonly used for divorce cases, inheritance disputes, and neighbor conflicts.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-02-28T07:56:39Z",
-    "modified": "2026-03-29T03:08:18Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "general"
-      ],
-      "domain": [
-        "legal"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -160,5 +94,75 @@
         "negative": "{調停|ちょうてい}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "mediation; arbitration; conciliation",
+      "explanation": "The act of intervening between disputing parties to help them reach an agreement, especially through a formal or legal process."
+    }
+  ],
+  "examples": [
+    {
+      "id": "14251_choutei_ex1",
+      "japanese": "{裁判所|さいばんしょ}で{調停|ちょうてい}を{行|おこな}う。",
+      "english": "To conduct mediation at the court.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14251_choutei_ex2",
+      "japanese": "{労使|ろうし}{間|かん}の{紛争|ふんそう}を{調停|ちょうてい}する。",
+      "english": "To mediate a dispute between labor and management.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "14251_choutei_ex3",
+      "japanese": "{離婚|りこん}{調停|ちょうてい}では、{第三者|だいさんしゃ}が{間|あいだ}に{入|はい}って{話|はな}し{合|あ}いを{進|すす}める。",
+      "english": "In divorce mediation, a third party steps in to facilitate discussion.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{調停|ちょうてい} refers to mediation or arbitration, particularly in legal contexts. It is distinct from {朝廷|ちょうてい} (imperial court), which has the same reading but different kanji.\n\nCOMMON COLLOCATIONS:\n- {調停|ちょうてい}を{行|おこな}う (conduct mediation)\n- {調停|ちょうてい}{委員|いいん} (mediator, mediation committee member)\n- {離婚|りこん}{調停|ちょうてい} (divorce mediation)\n- {調停|ちょうてい}{案|あん} (mediation proposal)\n\nIn the Japanese legal system, {調停|ちょうてい} is a formal process conducted at family courts or summary courts as an alternative to litigation. It is commonly used for divorce cases, inheritance disputes, and neighbor conflicts.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "05907_chuusai",
+      "reading": "ちゅうさい",
+      "headword": "{仲裁|ちゅうさい}",
+      "label": "arbitration"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-28T07:56:39Z",
+    "modified": "2026-04-17T14:07:51Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
