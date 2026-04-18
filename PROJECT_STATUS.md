@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-18 (Vocabulary Expansion - 22 New Entries)
+Added 22 new dictionary entries (IDs 24382-24403) from candidate_words.json. A varied batch emphasizing formal/literary vocabulary, practical expressions, and useful concepts.
+
+- **Abstract concepts (4)**: {客観|きゃっかん} (objectivity), {隔絶|かくぜつ} (isolation), {残余|ざんよ} (remainder), {劣位|れつい} (inferiority)
+- **Expressions (5)**: {話|はなし}を{盛|も}る (to exaggerate), {先延|さきの}ばしにする (to postpone), {先送|さきおく}りにする (to defer), {論|ろん}をまたない (goes without saying), {役|やく}を{演|えん}じる (to play a role)
+- **Society / politics (2)**: {人口|じんこう}{減少|げんしょう} (population decline), {共存|きょうそん}{共栄|きょうえい} (coexistence and co-prosperity)
+- **Business / finance (2)**: {預金|よきん}{口座|こうざ} (bank account), {契約者|けいやくしゃ} (subscriber)
+- **Culture / arts (3)**: {銘|めい} (inscription), {楚々|そそ} (graceful), {無類|むるい} (peerless)
+- **Knowledge / description (3)**: {通暁|つうぎょう} (thorough knowledge), {緩徐|かんじょ} (slow/gradual), いかん (depending on)
+- **Military / sports (2)**: {堅守|けんしゅ} (firm defense), {起工|きこう} (commencement of construction)
+- Also removed 1 stale candidate (取立て, duplicate of existing 取り立て)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,180 → 24,202.
+
 ### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 24352-24381) from candidate_words.json. A varied batch covering language, culture, food, science, transportation, politics, architecture, history, and everyday vocabulary.
 
@@ -122,44 +137,6 @@ Added 30 new dictionary entries (IDs 24262-24291) from candidate_words.json. A d
 - All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
 
 Total entries: 24,060 → 24,090.
-
-### 2026-04-18 (Vocabulary Expansion - 25 New Entries)
-Added 25 new dictionary entries (IDs 24237-24261) from candidate_words.json. A varied batch covering culture, food, daily life, technology, performing arts, and descriptive vocabulary.
-
-- **Culture / history (3)**: やくざ (yakuza/gangster), {天守|てんしゅ} (castle keep), {拝殿|はいでん} (shrine worship hall)
-- **Food / cooking (2)**: ちゃんこ{鍋|なべ} (sumo hot pot), {米酢|こめず} (rice vinegar)
-- **Daily life / household (4)**: カーペット (carpet), ベッドルーム (bedroom), {電話|でんわ}ボックス (phone booth), {化粧|けしょう}ポーチ (cosmetic pouch)
-- **Body / appearance (3)**: かすれ{声|ごえ} (hoarse voice), {撫|な}で{肩|かた} (sloping shoulders), {姿形|すがたかたち} (figure/form)
-- **Work / society (3)**: {反対意見|はんたいいけん} (opposing opinion), {不適格|ふてきかく} (disqualification), {金券|きんけん}ショップ (ticket shop)
-- **Performing arts (2)**: {端役|はやく} (minor role), {舞台稽古|ぶたいげいこ} (dress rehearsal)
-- **Technology / equipment (3)**: {駆動|くどう} (drive/propulsion), {複写機|ふくしゃき} (copy machine), {安全帯|あんぜんたい} (safety harness)
-- **Nature / science (1)**: {発生源|はっせいげん} (source/origin)
-- **Animals (1)**: {盲導犬|もうどうけん} (guide dog)
-- **Travel (1)**: {国内旅行|こくないりょこう} (domestic travel)
-- **Onomatopoeia (1)**: ぱりぱりする (crispy; energetic)
-- **Abstract (1)**: {官能|かんのう} (sensuality/the senses)
-- Conjugation tables auto-generated for suru-verbs ({駆動|くどう}, ぱりぱりする)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 24,035 → 24,060.
-
-### 2026-04-18 (Vocabulary Expansion - 20 New Entries)
-Added 20 new dictionary entries (IDs 24214-24236) from candidate_words.json. A mix of loanwords, formal kanji compounds, and practical vocabulary.
-
-- **Food (2)**: ピーナッツ (peanut), ロールケーキ (Swiss roll)
-- **Household / tools (3)**: カッター (utility knife), タオルケット (towel blanket), サインペン (felt-tip pen)
-- **Clothing / accessories (2)**: ストール (stole/shawl), {装身具|そうしんぐ} (jewelry/accessories)
-- **Travel / outdoors (2)**: ランタン (lantern), トランク (trunk/suitcase)
-- **Sports / entertainment (2)**: ラウンド (round of golf/boxing), パフォーマー (performer)
-- **Hotels / general (1)**: ダブル (double room/double-breasted)
-- **Technology (1)**: メモリー (memory/storage)
-- **Abstract / academic (4)**: {類型|るいけい} (typology), {等価|とうか} (equivalence), {均整|きんせい} (proportion), {無感動|むかんどう} (unmoved)
-- **People / culture (2)**: {鬼才|きさい} (genius), {教徒|きょうと} (religious follower)
-- **Other (1)**: {漫歩|まんぽ} (stroll), {耐水|たいすい} (water resistance), {防腐|ぼうふ} (antisepsis), {甲斐性|かいしょう} (competence)
-- Conjugation tables auto-generated for suru-verbs ({漫歩|まんぽ}, ラウンド)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 24,012 → 24,035.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
