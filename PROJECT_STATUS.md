@@ -52,6 +52,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 24292-24321) from candidate_words.json. A diverse batch covering general vocabulary, loanwords, body parts, nature, business, medicine, geography, and cultural terms.
+
+- **Business / society (4)**: {管理者|かんりしゃ} (administrator), {協力者|きょうりょくしゃ} (collaborator), {経済界|けいざいかい} (business world), {再調整|さいちょうせい} (readjustment)
+- **Nature / plants (2)**: {茂|しげ}み (thicket), {草木|そうもく} (vegetation)
+- **Medicine / health (2)**: {鎮静剤|ちんせいざい} (sedative), {粘液|ねんえき} (mucus)
+- **Body / appearance (2)**: {首元|くびもと} (neckline), {足指|あしゆび} (toe)
+- **Language / writing (2)**: {疑問符|ぎもんふ} (question mark), {言葉遊|ことばあそ}び (wordplay)
+- **Fashion / accessories (2)**: {宝飾|ほうしょく} (jewelry), {耳飾|みみかざ}り (earring)
+- **Technology / IT (2)**: フォーマット (format), リーダー (leader/reader)
+- **Travel / geography (3)**: {遊覧船|ゆうらんせん} (sightseeing boat), {東|ひがし}アジア (East Asia), {海外旅行|かいがいりょこう} (overseas travel)
+- **Construction / materials (3)**: {建造物|けんぞうぶつ} (structure), {石材|せきざい} (stone material), {鋳型|いがた} (mold/cast)
+- **Household (1)**: {防虫剤|ぼうちゅうざい} (mothball)
+- **Abstract / concepts (5)**: {上機嫌|じょうきげん} (good mood), {不確定|ふかくてい} (uncertain), {等身|とうしん} (life-size), {最上位|さいじょうい} (highest rank), {参加型|さんかがた} (participatory)
+- **Other (2)**: {端切|はぎ}れ (fabric scrap), {実証実験|じっしょうじっけん} (field trial)
+- Conjugation tables auto-generated for suru-verbs (フォーマット, {再調整|さいちょうせい}, {海外旅行|かいがいりょこう})
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,090 → 24,120.
+
+### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 24262-24291) from candidate_words.json. A diverse batch spanning business, culture, nature, education, medicine, arts, and idiomatic expressions.
 
 - **Business / economics (4)**: {金融緩和|きんゆうかんわ} (monetary easing), {商界|しょうかい} (business world), {小社|しょうしゃ} (our company, humble), {営業車|えいぎょうしゃ} (company car)
