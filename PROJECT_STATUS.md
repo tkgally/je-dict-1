@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-18 (Vocabulary Expansion - 25 New Entries)
+Added 25 new dictionary entries (IDs 24237-24261) from candidate_words.json. A varied batch covering culture, food, daily life, technology, performing arts, and descriptive vocabulary.
+
+- **Culture / history (3)**: やくざ (yakuza/gangster), {天守|てんしゅ} (castle keep), {拝殿|はいでん} (shrine worship hall)
+- **Food / cooking (2)**: ちゃんこ{鍋|なべ} (sumo hot pot), {米酢|こめず} (rice vinegar)
+- **Daily life / household (4)**: カーペット (carpet), ベッドルーム (bedroom), {電話|でんわ}ボックス (phone booth), {化粧|けしょう}ポーチ (cosmetic pouch)
+- **Body / appearance (3)**: かすれ{声|ごえ} (hoarse voice), {撫|な}で{肩|かた} (sloping shoulders), {姿形|すがたかたち} (figure/form)
+- **Work / society (3)**: {反対意見|はんたいいけん} (opposing opinion), {不適格|ふてきかく} (disqualification), {金券|きんけん}ショップ (ticket shop)
+- **Performing arts (2)**: {端役|はやく} (minor role), {舞台稽古|ぶたいげいこ} (dress rehearsal)
+- **Technology / equipment (3)**: {駆動|くどう} (drive/propulsion), {複写機|ふくしゃき} (copy machine), {安全帯|あんぜんたい} (safety harness)
+- **Nature / science (1)**: {発生源|はっせいげん} (source/origin)
+- **Animals (1)**: {盲導犬|もうどうけん} (guide dog)
+- **Travel (1)**: {国内旅行|こくないりょこう} (domestic travel)
+- **Onomatopoeia (1)**: ぱりぱりする (crispy; energetic)
+- **Abstract (1)**: {官能|かんのう} (sensuality/the senses)
+- Conjugation tables auto-generated for suru-verbs ({駆動|くどう}, ぱりぱりする)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,035 → 24,060.
+
 ### 2026-04-18 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 24214-24236) from candidate_words.json. A mix of loanwords, formal kanji compounds, and practical vocabulary.
 
@@ -123,24 +143,6 @@ Added 25 new dictionary entries (IDs 24117-24141) from candidate_words.json. A p
 - All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
 
 Total entries: 23,915 → 23,940.
-
-### 2026-04-17 (Vocabulary Expansion - 21 New Entries)
-Added 21 new dictionary entries (IDs 24096-24116) from candidate_words.json. A practical batch covering commerce, law, travel, culture, safety, and daily-life vocabulary useful for intermediate learners.
-
-- **Commerce (3)**: {古物|こぶつ} (secondhand goods/antiques), {取扱店|とりあつかいてん} (authorized dealer), {卸売店|おろしうりてん} (wholesale shop)
-- **Finance / business (3)**: {収益率|しゅうえきりつ} (rate of return), {項目別|こうもくべつ} (by item/category), {好成績|こうせいせき} (excellent performance)
-- **Travel / daily life (3)**: {日帰|ひがえ}り{旅行|りょこう} (day trip), {預|あず}かり{所|じょ} (checkroom/storage), {紛失物|ふんしつぶつ} (lost property)
-- **Culture / art (3)**: {書画|しょが} (calligraphy and painting), {伝統産業|でんとうさんぎょう} (traditional industry), {異邦人|いほうじん} (foreigner/stranger — literary)
-- **Safety / law (3)**: {自己防衛|じこぼうえい} (self-defense), {権利者|けんりしゃ} (rights holder), {耐震構造|たいしんこうぞう} (earthquake-resistant structure)
-- **Politics / society (2)**: {支配力|しはいりょく} (controlling power/dominance), {視察団|しさつだん} (inspection delegation)
-- **Medicine (1)**: {整骨|せいこつ} (bonesetting/osteopathic treatment)
-- **Transportation (1)**: {黄信号|きしんごう} (yellow light — literal and figurative)
-- **Abstract (1)**: {欠|か}かせない (indispensable — i-adjective)
-- **Animals (1)**: {迷|まよ}い{犬|いぬ} (lost dog)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-- Conjugation tables auto-generated for verb-suru (自己防衛) and i-adjective (欠かせない) entries
-
-Total entries: 23,894 → 23,915.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
