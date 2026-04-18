@@ -6,7 +6,93 @@
   "gloss": "dejected; disappointed; crestfallen",
   "conjugation": {
     "type": "suru",
-    "prefix": "がっくり"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "がっくりする",
+        "negative": "がっくりしない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "がっくりします",
+        "negative": "がっくりしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "がっくりした",
+        "negative": "がっくりしなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "がっくりしました",
+        "negative": "がっくりしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "がっくりして",
+        "negative": "がっくりしなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "がっくりしている",
+        "negative": "がっくりしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "がっくりしています",
+        "negative": "がっくりしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "がっくりしていた",
+        "negative": "がっくりしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "がっくりしていました",
+        "negative": "がっくりしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "がっくりすれば",
+        "negative": "がっくりしなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "がっくりしたら",
+        "negative": "がっくりしなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "がっくりしよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "がっくりしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "がっくりできる",
+        "negative": "がっくりできない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "がっくりされる",
+        "negative": "がっくりされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "がっくりさせる",
+        "negative": "がっくりさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "がっくりしろ",
+        "negative": "がっくりするな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -123,10 +209,18 @@
     }
   ],
   "notes": "がっくり conveys a sudden, visible loss of spirits or physical strength. It often implies a bodily reaction — shoulders drooping, knees buckling — rather than just an internal feeling.\n\nSENSE 1 - EMOTIONAL DEJECTION:\n- がっくりする: to feel dejected, crestfallen\n- がっくり{来|く}る: to be hit with disappointment\n- {肩|かた}をがっくり{落|お}とす: to drop one's shoulders in despair\n\nSENSE 2 - PHYSICAL WEAKENING:\n- {膝|ひざ}ががっくりする: knees give way\n- {体力|たいりょく}ががっくり{落|お}ちる: stamina drops sharply\n\nSIMILAR WORDS:\n- がっかり: disappointed (similar but less physical, more internal)\n- しょんぼり: dejected, downcast (quieter, more passive sadness)\n- {落|お}ち{込|こ}む: to feel down (longer-lasting low mood)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06934_shunto",
+      "reading": "しゅんと",
+      "headword": "しゅんと",
+      "label": "deflated, dejected"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-04-11T11:35:11Z",
+    "modified": "2026-04-18T08:05:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -141,95 +235,5 @@
       ],
       "verb_class": "suru"
     }
-  },
-  "conjugation": {
-    "type": "suru",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "がっくりする",
-        "negative": "がっくりしない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "がっくりします",
-        "negative": "がっくりしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "がっくりした",
-        "negative": "がっくりしなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "がっくりしました",
-        "negative": "がっくりしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "がっくりして",
-        "negative": "がっくりしなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "がっくりしている",
-        "negative": "がっくりしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "がっくりしています",
-        "negative": "がっくりしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "がっくりしていた",
-        "negative": "がっくりしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "がっくりしていました",
-        "negative": "がっくりしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "がっくりすれば",
-        "negative": "がっくりしなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "がっくりしたら",
-        "negative": "がっくりしなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "がっくりしよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "がっくりしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "がっくりできる",
-        "negative": "がっくりできない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "がっくりされる",
-        "negative": "がっくりされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "がっくりさせる",
-        "negative": "がっくりさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "がっくりしろ",
-        "negative": "がっくりするな"
-      }
-    ]
   }
 }
