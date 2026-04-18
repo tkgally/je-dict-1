@@ -6,69 +6,6 @@
   "gloss": "to cower; to flinch; to be daunted",
   "conjugation": {
     "type": "godan",
-    "ending": "む",
-    "stem": "ひる"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to cower; to flinch; to be daunted",
-      "explanation": "To draw back or hesitate due to fear, intimidation, or lack of courage. Stronger than mere hesitation."
-    }
-  ],
-  "examples": [
-    {
-      "id": "07358_hirumu_ex1",
-      "japanese": "{相手|あいて}の{威圧感|いあつかん}にひるんだ。",
-      "english": "I was daunted by my opponent's intimidating presence.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "07358_hirumu_ex2",
-      "japanese": "{困難|こんなん}にひるむことなく{挑戦|ちょうせん}し{続|つづ}けた。",
-      "english": "I kept challenging myself without being daunted by difficulties.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "07358_hirumu_ex3",
-      "japanese": "{失敗|しっぱい}を{恐|おそ}れてひるんでいてはいけない。",
-      "english": "You shouldn't cower out of fear of failure.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). No pair verb.\n\nKANJI:\nSometimes written as {怯|ひる}む, though hiragana is more common.\n\nUSAGE:\nひるむ implies backing down or losing courage in the face of something intimidating. It suggests a stronger reaction than たじろぐ.\n\nCOMMON PATTERNS:\n・〜にひるむ (to be daunted by ~)\n・ひるむことなく (without flinching)\n・ひるまない (doesn't cower - shows determination)\n\nSIMILAR WORDS:\n・たじろぐ - to flinch/falter (momentary wavering, less about fear)\n・おじける - to be scared/chicken out (more cowardly)\n・びびる - to be scared/intimidated (casual/colloquial)",
-  "metadata": {
-    "created": "2026-01-19T05:57:09Z",
-    "modified": "2026-03-29T03:05:07Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "formality": "informal",
-      "domain": [
-        "colloquial"
-      ],
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-mu"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +93,79 @@
         "negative": "ひるむな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to cower; to flinch; to be daunted",
+      "explanation": "To draw back or hesitate due to fear, intimidation, or lack of courage. Stronger than mere hesitation."
+    }
+  ],
+  "examples": [
+    {
+      "id": "07358_hirumu_ex1",
+      "japanese": "{相手|あいて}の{威圧感|いあつかん}にひるんだ。",
+      "english": "I was daunted by my opponent's intimidating presence.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "07358_hirumu_ex2",
+      "japanese": "{困難|こんなん}にひるむことなく{挑戦|ちょうせん}し{続|つづ}けた。",
+      "english": "I kept challenging myself without being daunted by difficulties.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "07358_hirumu_ex3",
+      "japanese": "{失敗|しっぱい}を{恐|おそ}れてひるんでいてはいけない。",
+      "english": "You shouldn't cower out of fear of failure.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY:\nIntransitive verb ({自動詞|じどうし}). No pair verb.\n\nKANJI:\nSometimes written as {怯|ひる}む, though hiragana is more common.\n\nUSAGE:\nひるむ implies backing down or losing courage in the face of something intimidating. It suggests a stronger reaction than たじろぐ.\n\nCOMMON PATTERNS:\n・〜にひるむ (to be daunted by ~)\n・ひるむことなく (without flinching)\n・ひるまない (doesn't cower - shows determination)\n\nSIMILAR WORDS:\n・たじろぐ - to flinch/falter (momentary wavering, less about fear)\n・おじける - to be scared/chicken out (more cowardly)\n・びびる - to be scared/intimidated (casual/colloquial)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "07356_tajirogu",
+      "reading": "たじろぐ",
+      "headword": "たじろぐ",
+      "label": "to flinch, to falter"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09292_bibiru",
+      "reading": "びびる",
+      "headword": "びびる",
+      "label": "to be scared (casual)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-19T05:57:09Z",
+    "modified": "2026-04-18T08:05:14Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "formality": "informal",
+      "domain": [
+        "colloquial"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-mu"
+    }
   }
 }
