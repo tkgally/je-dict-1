@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-18 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 24214-24236) from candidate_words.json. A mix of loanwords, formal kanji compounds, and practical vocabulary.
+
+- **Food (2)**: ピーナッツ (peanut), ロールケーキ (Swiss roll)
+- **Household / tools (3)**: カッター (utility knife), タオルケット (towel blanket), サインペン (felt-tip pen)
+- **Clothing / accessories (2)**: ストール (stole/shawl), {装身具|そうしんぐ} (jewelry/accessories)
+- **Travel / outdoors (2)**: ランタン (lantern), トランク (trunk/suitcase)
+- **Sports / entertainment (2)**: ラウンド (round of golf/boxing), パフォーマー (performer)
+- **Hotels / general (1)**: ダブル (double room/double-breasted)
+- **Technology (1)**: メモリー (memory/storage)
+- **Abstract / academic (4)**: {類型|るいけい} (typology), {等価|とうか} (equivalence), {均整|きんせい} (proportion), {無感動|むかんどう} (unmoved)
+- **People / culture (2)**: {鬼才|きさい} (genius), {教徒|きょうと} (religious follower)
+- **Other (1)**: {漫歩|まんぽ} (stroll), {耐水|たいすい} (water resistance), {防腐|ぼうふ} (antisepsis), {甲斐性|かいしょう} (competence)
+- Conjugation tables auto-generated for suru-verbs ({漫歩|まんぽ}, ラウンド)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,012 → 24,035.
+
 ### 2026-04-18 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 24189-24213) from candidate_words.json. A diverse batch covering everyday vocabulary, cultural terms, literary expressions, and specialized terminology.
 
@@ -123,72 +141,6 @@ Added 21 new dictionary entries (IDs 24096-24116) from candidate_words.json. A p
 - Conjugation tables auto-generated for verb-suru (自己防衛) and i-adjective (欠かせない) entries
 
 Total entries: 23,894 → 23,915.
-
-### 2026-04-17 (Vocabulary Expansion - 30 New Entries)
-Added 30 new dictionary entries (IDs 24066-24095) from candidate_words.json. A diverse batch of two-kanji compound words covering transportation, household, administration, finance, science, culture, and military vocabulary.
-
-- **Transportation / location (2)**: {南口|みなみぐち} (south exit), {東口|ひがしぐち} (east exit) — essential station navigation vocabulary
-- **Household / everyday (3)**: {油性|ゆせい} (oil-based), {顆粒|かりゅう} (granules), {取|と}っ{手|て} (handle; knob)
-- **Administration / law (3)**: {要項|ようこう} (guidelines; essentials), {減免|げんめん} (reduction and exemption), {職権|しょっけん} (official authority)
-- **Finance / business (2)**: {社債|しゃさい} (corporate bond), {積算|せきさん} (accumulation; cost estimation — two senses)
-- **Housing / infrastructure (1)**: {漏水|ろうすい} (water leak)
-- **Science / industry (3)**: {圧搾|あっさく} (compression; pressing), {減圧|げんあつ} (decompression), {製鉄|せいてつ} (ironmaking)
-- **Architecture / history (3)**: {御殿|ごてん} (palace; mansion), {城郭|じょうかく} (castle compound), {上層|じょうそう} (upper layer/stratum)
-- **Culture / education (4)**: {学芸|がくげい} (arts and sciences), {射的|しゃてき} (shooting gallery), {任侠|にんきょう} (chivalry), {増刊|ぞうかん} (special issue)
-- **Mathematics (2)**: {立方|りっぽう} (cubic; cube), {音信|おんしん} (correspondence — most common in {音信|おんしん}{不通|ふつう})
-- **Military / conflict (3)**: {軍縮|ぐんしゅく} (disarmament), {死闘|しとう} (fierce battle), {防備|ぼうび} (defense preparations)
-- **Social (2)**: {宴席|えんせき} (banquet), {慰問|いもん} (consolation visit)
-- **Abstract (1)**: {純潔|じゅんけつ} (purity; chastity)
-- 2 new kanji added to index: 侠 (chivalry), 顆 (grain)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 23,864 → 23,894.
-
-### 2026-04-17 (Vocabulary Expansion - 13 New Entries)
-Added 13 new dictionary entries (IDs 24053-24065) from candidate_words.json. A varied batch covering formal abstract nouns, news/legal vocabulary, sports vocabulary, anatomy, traffic accidents, set expressions, and one loanword adjective.
-
-- **Formal abstract / news (3)**: {提起|ていき} (raising an issue; filing a lawsuit — two senses), {転覆|てんぷく} (capsizing; toppling a regime — two senses), {鑑識|かんしき} (forensics; expert appraisal — two senses)
-- **Loanword adjective (1)**: リスキー (risky — na-adjective)
-- **Crime / law (1)**: {賭博|とばく} (gambling — formal term, cross-linked with informal {博打|ばくち})
-- **Architecture / sports (1)**: ドーム (dome / domed stadium)
-- **Sports / abstract (1)**: {攻守|こうしゅ} (offense and defense — two senses, literal and figurative)
-- **Anatomy (1)**: {頬骨|ほほぼね} (cheekbone)
-- **Set expressions (2)**: {喫緊|きっきん}の{課題|かだい} (urgent issue), {殺伐|さつばつ}とした (bleak; grim — taru-form modifier)
-- **Transportation / law (2)**: {路上駐車|ろじょうちゅうしゃ} (on-street parking — also verb-suru), {追突事故|ついとつじこ} (rear-end collision)
-- **Society (1)**: {徒党|ととう} (clique; faction — appears chiefly in {徒党|ととう}を{組|く}む)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, sense-number annotations, and full conjugation tables for verb-suru entries
-
-Total entries: 23,851 → 23,864.
-
-### 2026-04-16 (Vocabulary Expansion - 10 New Entries)
-Added 10 new dictionary entries (IDs 24043-24052) from candidate_words.json. A balanced set spanning body-part, age, religion, academia, science, expressions, and music/verb vocabulary.
-
-- **Body-part (1)**: {足|あし}の{親指|おやゆび} (big toe — includes full toe-naming table)
-- **Age / demographics (1)**: {四十代|よんじゅうだい} (one's forties — mirrors the 三十代/二十代 pattern)
-- **Academia (1)**: {文学部|ぶんがくぶ} (Faculty of Letters; Faculty of Humanities — covers typical departments and cultural context)
-- **Religion (2)**: {旧約聖書|きゅうやくせいしょ} (Old Testament), {新約聖書|しんやくせいしょ} (New Testament) — cross-linked pair, both tied to the existing 聖書 entry
-- **Science (1)**: アミノ{酸|さん} (amino acid — nutrition/cosmetics/chemistry contexts)
-- **Expressions / adverbials (2)**: {歴史上|れきしじょう} (historically; in history — noun/adverbial use with の and bare forms), {最後|さいご}には (in the end; ultimately — distinguished from 最後に, ついに, 結局, 最終的に)
-- **Communication (1)**: {書|か}きぶり (writing style; manner of writing — contrasts with 話しぶり, 書き方, 文体, 筆致)
-- **Verb (1)**: かき{鳴|な}らす (to strum; to play loudly — godan-su with full conjugation table; transitive, for stringed instruments)
-- All entries follow v2 standards: progressive-length examples (3+ per sense), structured notes with USAGE / COMMON COLLOCATIONS / SIMILAR WORDS sections, full furigana coverage, and sense-number annotations
-
-Total entries: 23,841 → 23,851.
-
-### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
-Added 16 new dictionary entries (IDs 24027-24042) from candidate_words.json. A mixed batch covering emotion, communication, geography, weather, agriculture, real estate, transportation, and entertainment vocabulary.
-
-- **Emotion / abstract (3)**: {愛欲|あいよく} (lust; carnal desire), {形式主義|けいしきしゅぎ} (formalism), {現象的|げんしょうてき} (phenomenal; on the surface) [adjective-na]
-- **Communication / humor (1)**: {駄洒落|だじゃれ}る (to make a corny pun) [verb-ichidan]
-- **Geography / weather (2)**: {不毛地帯|ふもうちたい} (barren land; wasteland), {湿雪|しっせつ} (wet snow)
-- **Agriculture / nature (3)**: {真珠貝|しんじゅがい} (pearl oyster), りんご{園|えん} (apple orchard), りんご{農家|のうか} (apple farmer)
-- **Society / people (1)**: {余所様|よそさま} (other people; polite)
-- **Real estate / construction (1)**: {敷地面積|しきちめんせき} (site area; lot area)
-- **Transport / safety (3)**: {車検証|しゃけんしょう} (vehicle inspection certificate), {除氷|じょひょう} (de-icing; ice removal), {散乱物|さんらんぶつ} (scattered debris)
-- **Food / tableware (1)**: {盛|も}り{皿|ざら} (serving plate)
-- **Entertainment (1)**: {漫才|まんざい}コンビ (manzai duo)
-
-Total entries: 23,825 → 23,841.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
