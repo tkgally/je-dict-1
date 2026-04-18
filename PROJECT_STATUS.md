@@ -52,6 +52,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 24352-24381) from candidate_words.json. A varied batch covering language, culture, food, science, transportation, politics, architecture, history, and everyday vocabulary.
+
+- **Language / culture (5)**: {京都弁|きょうとべん} (Kyoto dialect), {大阪弁|おおさかべん} (Osaka dialect), {反意語|はんいご} (antonym), {熟字訓|じゅくじくん} (special kanji reading), {俗|ぞく} (secular/colloquial)
+- **Food / cooking (3)**: {食道楽|しょくどうらく} (gourmet), {生乳|せいにゅう} (raw milk), {牛脂|ぎゅうし} (beef tallow)
+- **Politics / society (4)**: {閥|ばつ} (faction), {官界|かんかい} (bureaucratic world), {同質化|どうしつか} (homogenization), {皇女|こうじょ} (imperial princess)
+- **Transportation (3)**: {航空便|こうくうびん} (airmail), {支線|しせん} (branch line), {接岸|せつがん} (docking)
+- **Science (2)**: {電荷|でんか} (electric charge), {外力|がいりょく} (external force)
+- **Arts / literature (2)**: {筆致|ひっち} (writing style), {格子窓|こうしまど} (lattice window)
+- **Everyday / general (8)**: {不明確|ふめいかく} (unclear), {布切|ぬのき}れ (piece of cloth), {局員|きょくいん} (office staff), {全席|ぜんせき} (all seats), {河岸|かがん} (riverbank), {県人|けんじん} (person from prefecture), {諸所|しょしょ} (various places), {学習書|がくしゅうしょ} (study book)
+- **Expressions (3)**: {術中|じゅっちゅう} (trap/scheme), {猛特訓|もうとっくん} (rigorous training), {大奮発|だいふんぱつ} (big splurge)
+- Conjugation tables auto-generated for suru-verbs ({同質化|どうしつか}, {接岸|せつがん}, {猛特訓|もうとっくん}, {大奮発|だいふんぱつ})
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,150 → 24,180.
+
+### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 24322-24351) from candidate_words.json. A diverse batch covering politics, business, food culture, society, nature, education, and everyday vocabulary.
 
 - **Business / commerce (5)**: {販売元|はんばいもと} (seller/distributor), {契約先|けいやくさき} (contract partner), {上場企業|じょうじょうきぎょう} (listed company), {転売屋|てんばいや} (scalper), ブランド{化|か} (branding)
