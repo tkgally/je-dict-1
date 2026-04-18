@@ -52,6 +52,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 24322-24351) from candidate_words.json. A diverse batch covering politics, business, food culture, society, nature, education, and everyday vocabulary.
+
+- **Business / commerce (5)**: {販売元|はんばいもと} (seller/distributor), {契約先|けいやくさき} (contract partner), {上場企業|じょうじょうきぎょう} (listed company), {転売屋|てんばいや} (scalper), ブランド{化|か} (branding)
+- **Society / politics (4)**: {共和国|きょうわこく} (republic), {報道|ほうどう}の{自由|じゆう} (press freedom), {対人恐怖|たいじんきょうふ} (social anxiety), {肉食系|にくしょくけい} (assertive type)
+- **Nature / animals (3)**: {蜂|はち}の{巣|す} (beehive), {鳥|とり}の{巣|す} (bird's nest), {巣穴|すあな} (burrow/den)
+- **Food / culture (2)**: {黒蜜|くろみつ} (black sugar syrup), {香草|こうそう} (herb)
+- **Education (2)**: {法学部|ほうがくぶ} (faculty of law), {補習授業|ほしゅうじゅぎょう} (supplementary lessons)
+- **Work / life (2)**: {深夜勤務|しんやきんむ} (night shift), {休|やす}みなし (no days off)
+- **Emotion / abstract (3)**: {金銭欲|きんせんよく} (greed for money), {無自覚|むじかく} (lack of self-awareness), {情事|じょうじ} (love affair)
+- **General vocabulary (7)**: {最後尾|さいごび} (tail end), {爪痕|つめあと} (scratch mark/aftermath), {再送|さいそう} (resending), {特別版|とくべつばん} (special edition), {逆順|ぎゃくじゅん} (reverse order), {一|ひと}つずつ (one by one), {遥|はる}か{彼方|かなた} (far away)
+- **Expression (2)**: {抜|ぬ}け{出|だ}せない (unable to escape), {野|の}いちご (wild strawberry)
+- Conjugation tables auto-generated for suru-verbs ({再送|さいそう}, ブランド{化|か})
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,120 → 24,150.
+
+### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
 Added 30 new dictionary entries (IDs 24292-24321) from candidate_words.json. A diverse batch covering general vocabulary, loanwords, body parts, nature, business, medicine, geography, and cultural terms.
 
 - **Business / society (4)**: {管理者|かんりしゃ} (administrator), {協力者|きょうりょくしゃ} (collaborator), {経済界|けいざいかい} (business world), {再調整|さいちょうせい} (readjustment)
@@ -127,43 +144,6 @@ Added 20 new dictionary entries (IDs 24214-24236) from candidate_words.json. A m
 - All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
 
 Total entries: 24,012 → 24,035.
-
-### 2026-04-18 (Vocabulary Expansion - 25 New Entries)
-Added 25 new dictionary entries (IDs 24189-24213) from candidate_words.json. A diverse batch covering everyday vocabulary, cultural terms, literary expressions, and specialized terminology.
-
-- **Direction / spatial (2)**: {右側|みぎがわ} (right side), {右記|うき} (the above — in vertical writing)
-- **Color (2)**: {緑色|みどりいろ} (green color), {朱|しゅ} (vermillion)
-- **Food (2)**: {食肉|しょくにく} (meat for eating), {麩|ふ} (wheat gluten)
-- **Medical / health (3)**: {飛沫感染|ひまつかんせん} (droplet infection), {臨終|りんじゅう} (deathbed), {大便|だいべん} (stool)
-- **Travel / outdoors (3)**: バックパック (backpack), {宿営|しゅくえい} (encampment), {露営|ろえい} (bivouac)
-- **History / culture (3)**: {本丸|ほんまる} (castle keep / main target), {名跡|めいせき} (historic site / stage name), {体操着|たいそうぎ} (gym clothes)
-- **Expressions (4)**: {異議|いぎ}なし (no objection), {注意|ちゅうい}を{向|む}ける (to pay attention), {鼻歌|はなうた}を{歌|うた}う (to hum), どれだけ (how much)
-- **Evaluation / degree (2)**: {卓絶|たくぜつ} (transcendent), {全数|ぜんすう} (total count)
-- **Nature / weather (2)**: {波濤|はとう} (billowing waves), {寒冬|かんとう} (cold winter)
-- **Photography (1)**: {映|うつ}り (image quality)
-- **Emotion / body (1)**: {顔面蒼白|がんめんそうはく} (deathly pale)
-- 1 new kanji added to index: 濤 (billows)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 23,987 → 24,012.
-
-### 2026-04-17 (Vocabulary Expansion - 17 New Entries)
-Added 17 new dictionary entries (IDs 24142-24158) from candidate_words.json. A diverse batch covering body/health, food, business, religion, industry, communication, and abstract concepts.
-
-- **Body / health (2)**: {脂汗|あぶらあせ} (cold sweat), {誤飲|ごいん} (accidental ingestion)
-- **Food / cooking (2)**: ほぐし (loosening; shredded), {焼|や}き{栗|ぐり} (roasted chestnuts)
-- **Religion / culture (2)**: {崇敬|すうけい} (reverence), {経典|きょうてん} (scripture)
-- **Industry / science (3)**: {製錬|せいれん} (smelting), {冶金|やきん} (metallurgy), {不凍|ふとう} (non-freezing)
-- **Business / communication (3)**: {社外秘|しゃがいひ} (confidential), {切電|せつでん} (hanging up), {電工|でんこう} (electrician)
-- **Entertainment (1)**: {旧作|きゅうさく} (older work)
-- **Abstract (2)**: {内在|ないざい} (inherence), ありよう (way of being)
-- **Onomatopoeia (1)**: しゅっと (sleekly; swiftly)
-- **Totality (1)**: {合切|がっさい} (all; everything)
-- 1 new kanji added to index: 冶 (smelt)
-- 2 stale candidates removed (ばっかり duplicate of ばかり, 露わに duplicate of 露に)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 23,940 → 23,957.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
