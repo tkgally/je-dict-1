@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-18 (Vocabulary Expansion - 30 New Entries)
+Added 30 new dictionary entries (IDs 24262-24291) from candidate_words.json. A diverse batch spanning business, culture, nature, education, medicine, arts, and idiomatic expressions.
+
+- **Business / economics (4)**: {金融緩和|きんゆうかんわ} (monetary easing), {商界|しょうかい} (business world), {小社|しょうしゃ} (our company, humble), {営業車|えいぎょうしゃ} (company car)
+- **Ceremonies / awards (3)**: {祝典|しゅくてん} (celebration ceremony), {受賞式|じゅしょうしき} (award ceremony), {最優秀賞|さいゆうしゅうしょう} (grand prize)
+- **Medicine / health (3)**: {点眼薬|てんがんやく} (eye drops), {外用薬|がいようやく} (external medicine), {軽労働|けいろうどう} (light work)
+- **Nature / birds (3)**: {夏鳥|なつどり} (summer bird), {冬鳥|ふゆどり} (winter bird), {山峡|さんきょう} (mountain gorge)
+- **Culture / religion (2)**: {春彼岸|はるひがん} (spring equinox period), {秋彼岸|あきひがん} (autumn equinox period)
+- **Education (3)**: {副担任|ふくたんにん} (assistant homeroom teacher), {塾長|じゅくちょう} (cram school director), {漢学|かんがく} (Chinese classical studies)
+- **Arts / music (2)**: {古典派|こてんは} (classical school), {音響効果|おんきょうこうか} (sound effects)
+- **Science / writing (3)**: {有機物|ゆうきぶつ} (organic matter), {字形|じけい} (character shape), {解説書|かいせつしょ} (explanatory book)
+- **Society / politics (3)**: {派閥争|はばつあらそ}い (factional strife), ヘイトスピーチ (hate speech), {接触事故|せっしょくじこ} (fender bender)
+- **Expressions / idioms (2)**: {会話|かいわ}を{交|か}わす (to exchange conversation), へそを{曲|ま}げる (to sulk)
+- **Other (2)**: {淫|みだ}ら (lewd), {一輪|いちりん} (single flower / one wheel)
+- 1 new kanji added to index: 淫 (lewd)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,060 → 24,090.
+
 ### 2026-04-18 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 24237-24261) from candidate_words.json. A varied batch covering culture, food, daily life, technology, performing arts, and descriptive vocabulary.
 
@@ -125,24 +144,6 @@ Added 17 new dictionary entries (IDs 24142-24158) from candidate_words.json. A d
 - All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
 
 Total entries: 23,940 → 23,957.
-
-### 2026-04-17 (Vocabulary Expansion - 25 New Entries)
-Added 25 new dictionary entries (IDs 24117-24141) from candidate_words.json. A practical batch covering work/business, food/cooking, daily life, education, arts, and nature vocabulary.
-
-- **Work / business (6)**: {中小企業|ちゅうしょうきぎょう} (SME), {理容師|りようし} (barber), インターンシップ (internship), {同業者|どうぎょうしゃ} (industry peer), {作業着|さぎょうぎ} (work clothes), {作業員|さぎょういん} (worker)
-- **Time / weather (3)**: {例年通|れいねんどお}り (as usual), {平年|へいねん} (average year), {勤務時間|きんむじかん} (working hours)
-- **Food / cooking (2)**: {長芋|ながいも} (Chinese yam), {自然薯|じねんじょ} (wild yam)
-- **Safety / expressions (2)**: {安全第一|あんぜんだいいち} (safety first), {時間|じかん}が{経|た}つ (time passes)
-- **Nature / geography (2)**: {河川敷|かせんしき} (riverside area), {砦|とりで} (fortress)
-- **Shopping / products (2)**: {純正品|じゅんせいひん} (genuine product), {濃色|のうしょく} (dark color)
-- **Academics / arts (2)**: {総論|そうろん} (general overview), {受賞作|じゅしょうさく} (award-winning work)
-- **Body / literary (2)**: {掌|たなごころ} (palm — literary), {館|やかた} (mansion)
-- **Daily life / education (3)**: {竿|さお} (pole/rod), {校外|こうがい} (off-campus), {交友関係|こうゆうかんけい} (circle of friends)
-- **Herbicide (1)**: {除草剤|じょそうざい} (herbicide)
-- 2 new kanji added to index: 砦 (fortress), 薯 (yam)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 23,915 → 23,940.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
 
