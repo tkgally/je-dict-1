@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 24 New Entries)
+Added 24 new dictionary entries (IDs 24404-24428, excluding 24427 which was a duplicate) from candidate_words.json. This batch focuses on common loanwords and practical vocabulary useful for intermediate learners.
+
+- **Technology (5)**: ディスク (disk), デスクトップ (desktop), フォルダー (folder), ミラーレス (mirrorless camera), ポート (port/connector)
+- **Daily life (3)**: ランドリー (laundry/laundromat), コインパーキング (pay parking lot), ルームメイト (roommate)
+- **Education (3)**: チョーク (chalk), ロールプレイ (role play), ゼミナール (seminar)
+- **Sports (2)**: メダリスト (medalist), キーパー (goalkeeper)
+- **Media / culture (3)**: ナレーション (narration), キリスト (Christ), グレー (gray/gray area)
+- **General vocabulary (5)**: ランク (rank), リーフレット (leaflet), インターン (internship), インナー (innerwear), スプリング (spring)
+- **Math (1)**: {百分率|ひゃくぶんりつ} (percentage)
+- Also removed 1 stale candidate ({能力給|のうりょくきゅう}, duplicate of existing entry)
+- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
+
+Total entries: 24,202 → 24,226.
+
 ### 2026-04-18 (Vocabulary Expansion - 22 New Entries)
 Added 22 new dictionary entries (IDs 24382-24403) from candidate_words.json. A varied batch emphasizing formal/literary vocabulary, practical expressions, and useful concepts.
 
