@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 6)
+Added 30 new dictionary entries (IDs 24559-24588) from candidate_words.json. A diverse batch covering academic/formal vocabulary, daily life, culture, sports, politics, and practical terms.
+
+- **Academic / formal (4)**: {類似点|るいじてん} (point of similarity), {刊行物|かんこうぶつ} (publication), {印刷物|いんさつぶつ} (printed matter), {考証|こうしょう} (historical verification)
+- **Society / politics (4)**: {不公正|ふこうせい} (unfair/unjust), {反対党|はんたいとう} (opposition party), {非核|ひかく} (non-nuclear), {尊厳死|そんげんし} (death with dignity)
+- **Daily life / practical (4)**: {改装中|かいそうちゅう} (under renovation), {禁煙車|きんえんしゃ} (non-smoking car), {地階|ちかい} (basement floor), {収集車|しゅうしゅうしゃ} (garbage truck)
+- **Culture / arts (4)**: {喜悦|きえつ} (joy/delight), お{銚子|ちょうし} (sake flask), {画室|がしつ} (artist's studio), {洗練|せんれん}さ (refinement/sophistication)
+- **Military / history (1)**: {兵法|へいほう} (military strategy)
+- **Sports (1)**: {本塁打|ほんるいだ} (home run)
+- **Law / crime (2)**: {窃取|せっしゅ} (theft/pilferage), {公告|こうこく} (public notice)
+- **Mathematics / science (1)**: {交点|こうてん} (intersection point)
+- **Business / logistics (2)**: {荷積|にづ}み (cargo loading), {数十倍|すうじゅうばい} (tens of times)
+- **Descriptive (4)**: {重|かさ}なり (overlap/coincidence), かすれ (hoarseness/blur), {尾|お}ひれ (tail fin / embellishments), {服従的|ふくじゅうてき} (submissive)
+- **Work / colloquial (2)**: {午後一|ごごいち} (first thing in the afternoon), {振付家|ふりつけか} (choreographer)
+- **Animals (1)**: {捨|す}て{犬|いぬ} (abandoned dog)
+- 2 new kanji added to index: 悦, 銚
+
+Total entries: 24,356 → 24,386.
+
 ### 2026-04-19 (Vocabulary Expansion - 20 New Entries, Batch 5)
 Added 20 new dictionary entries (IDs 24539-24558) from candidate_words.json. A diverse batch covering conflict/diplomacy, law enforcement, weather/geography, arts/culture, and practical vocabulary.
 
@@ -117,25 +136,5 @@ Added 25 new dictionary entries (IDs 24454-24478) from candidate_words.json. A d
 - Conjugation tables auto-generated for 7 verb entries (5 suru, 2 godan)
 
 Total entries: 24,251 → 24,276.
-
-### 2026-04-19 (Vocabulary Expansion - 25 New Entries)
-Added 25 new dictionary entries (IDs 24429-24453) from candidate_words.json. A diverse batch covering nature, culture, food, disaster terminology, workplace vocabulary, and technical terms.
-
-- **Disaster / weather (2)**: {雪害|せつがい} (snow damage), {半焼|はんしょう} (partial fire damage)
-- **Culture / history (4)**: {侠客|きょうかく} (chivalrous outlaw), {門人|もんじん} (disciple), {神霊|しんれい} (divine spirit), {正字|せいじ} (orthodox kanji form)
-- **Workplace / society (3)**: {訓告|くんこく} (official reprimand), {属人|ぞくじん} (person-dependent), {世故|せこ} (worldly wisdom)
-- **Infrastructure / tech (3)**: {配水|はいすい} (water distribution), {防壁|ぼうへき} (defensive wall), {圧送|あっそう} (pressure pumping)
-- **Nature / agriculture (3)**: {花芯|かしん} (flower center), {育苗|いくびょう} (raising seedlings), {発根|はっこん} (root emergence)
-- **Food (1)**: {半生|はんなま} (half-raw/medium-rare)
-- **People / culture (3)**: {俊才|しゅんさい} (prodigy), {曲芸師|きょくげいし} (acrobat), {見舞金|みまいきん} (sympathy money)
-- **Body / language (2)**: {禿|はげ} (baldness), {糞|ふん} (dung/droppings)
-- **Aesthetics / morality (2)**: {絶美|ぜつび} (exquisite beauty), {清白|せいはく} (purity/innocence)
-- **Medical (1)**: {昏倒|こんとう} (fainting/collapse)
-- **Logistics (1)**: {船荷|ふなに} (ship cargo)
-- Also removed 2 stale candidates (粉骨砕身する, 羽化する — both already exist as entries)
-- 1 new kanji added to index: 糞
-- Conjugation tables auto-generated for 7 suru-verb entries
-
-Total entries: 24,226 → 24,251.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
