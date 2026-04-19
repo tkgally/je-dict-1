@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 25 New Entries, Batch 2)
+Added 25 new dictionary entries (IDs 24454-24478) from candidate_words.json. A diverse batch with good variety across practical daily life, cultural, business, and academic vocabulary.
+
+- **Cultural (4)**: {朱印|しゅいん} (red seal stamp), {賽銭箱|さいせんばこ} (offertory box), {友引|ともびき} (rokuyo calendar day), お{食|く}い{初|ぞ}め (baby's first meal ceremony)
+- **Business / workplace (4)**: フレックスタイム (flextime), {添付|てんぷ}ファイル (email attachment), {法的|ほうてき}{措置|そち} (legal action), {来訪|らいほう}{者|しゃ} (visitor)
+- **Education / communication (4)**: {生徒|せいと}{会長|かいちょう} (student council president), {口頭|こうとう}{発表|はっぴょう} (oral presentation), {言語|げんご}{交換|こうかん} (language exchange), {文学|ぶんがく}{作品|さくひん} (literary work)
+- **Daily life / practical (3)**: {満|まん}タン (full tank), できるだけ{早|はや}く (ASAP), {広報|こうほう}{誌|し} (newsletter)
+- **Formal vocabulary (4)**: {未了|みりょう} (pending/unfinished), {不可分|ふかぶん} (indivisible), {誤認|ごにん} (misidentification), {予期|よき}せず (unexpectedly)
+- **Nature / science (1)**: {自然|しぜん}{現象|げんしょう} (natural phenomenon)
+- **Emotions / literature (1)**: むせび{泣|な}く (to sob)
+- **People (1)**: {門番|もんばん} (gatekeeper)
+- **Math / finance (1)**: {切|き}り{上|あ}げ (rounding up / revaluation)
+- **Idiom (1)**: タヌキ{寝入|ねい}り (pretending to be asleep)
+- **Keigo (1)**: ご{来店|らいてん} (visiting a store, honorific)
+- Conjugation tables auto-generated for 7 verb entries (5 suru, 2 godan)
+
+Total entries: 24,251 → 24,276.
+
 ### 2026-04-19 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 24429-24453) from candidate_words.json. A diverse batch covering nature, culture, food, disaster terminology, workplace vocabulary, and technical terms.
 
