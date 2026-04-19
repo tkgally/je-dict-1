@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 20 New Entries, Batch 5)
+Added 20 new dictionary entries (IDs 24539-24558) from candidate_words.json. A diverse batch covering conflict/diplomacy, law enforcement, weather/geography, arts/culture, and practical vocabulary.
+
+- **War / diplomacy (2)**: {停戦|ていせん} (ceasefire), {講和|こうわ} (peace treaty)
+- **Law enforcement (3)**: {署長|しょちょう} (station chief), {警部|けいぶ} (police inspector), {弁論|べんろん} (oral argument/debate)
+- **Weather / geography (3)**: {風速|ふうそく} (wind speed), {雨量|うりょう} (rainfall), {岩礁|がんしょう} (reef)
+- **Nature / places (2)**: {川岸|かわぎし} (riverbank), {花園|はなぞの} (flower garden)
+- **Arts / culture (2)**: {舞踏|ぶとう} (dance/ball), {世俗|せぞく} (worldly/secular)
+- **Construction / materials (2)**: {鉄骨|てっこつ} (steel frame), {塗料|とりょう} (paint/coating)
+- **Descriptive (3)**: {潤沢|じゅんたく} (abundant), {突出|とっしゅつ} (protruding/outstanding), {可憐|かれん} (lovely/pitiful)
+- **Other (3)**: {搬送|はんそう} (transport), {不断|ふだん} (constant), {覇者|はしゃ} (champion)
+
+Total entries: 24,336 → 24,356.
+
 ### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 4)
 Added 30 new dictionary entries (IDs 24509-24538) from candidate_words.json. Diverse batch covering health/medicine, business/finance, culture, education, nature/science, and daily life.
 
@@ -123,20 +137,5 @@ Added 25 new dictionary entries (IDs 24429-24453) from candidate_words.json. A d
 - Conjugation tables auto-generated for 7 suru-verb entries
 
 Total entries: 24,226 → 24,251.
-
-### 2026-04-19 (Vocabulary Expansion - 24 New Entries)
-Added 24 new dictionary entries (IDs 24404-24428, excluding 24427 which was a duplicate) from candidate_words.json. This batch focuses on common loanwords and practical vocabulary useful for intermediate learners.
-
-- **Technology (5)**: ディスク (disk), デスクトップ (desktop), フォルダー (folder), ミラーレス (mirrorless camera), ポート (port/connector)
-- **Daily life (3)**: ランドリー (laundry/laundromat), コインパーキング (pay parking lot), ルームメイト (roommate)
-- **Education (3)**: チョーク (chalk), ロールプレイ (role play), ゼミナール (seminar)
-- **Sports (2)**: メダリスト (medalist), キーパー (goalkeeper)
-- **Media / culture (3)**: ナレーション (narration), キリスト (Christ), グレー (gray/gray area)
-- **General vocabulary (5)**: ランク (rank), リーフレット (leaflet), インターン (internship), インナー (innerwear), スプリング (spring)
-- **Math (1)**: {百分率|ひゃくぶんりつ} (percentage)
-- Also removed 1 stale candidate ({能力給|のうりょくきゅう}, duplicate of existing entry)
-- All entries follow v2 standards with structured notes, collocations, similar words, and full furigana
-
-Total entries: 24,202 → 24,226.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
