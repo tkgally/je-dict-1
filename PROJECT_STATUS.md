@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 22 New Entries, Batch 7)
+Added 22 new dictionary entries (IDs 24589-24610) from candidate_words.json. A diverse batch covering history/culture, food/nature, academic/formal, medical, and practical vocabulary.
+
+- **History / culture (5)**: {反面教師|はんめんきょうし} (negative example), {反物|たんもの} (bolt of cloth), {騎馬|きば} (horseback), {武具|ぶぐ} (arms and armor), {駕籠|かご} (palanquin)
+- **Religion / spirituality (2)**: {汚|けが}れ (impurity/defilement), {布施|ふせ} (alms/offering)
+- **Food / nature (3)**: {菜種|なたね} (rapeseed), {瓶詰|びんづめ} (bottled goods), {残熱|ざんねつ} (residual heat)
+- **Academic / formal (4)**: {連関|れんかん} (interrelation), {沈思|ちんし} (deep thought), {奮励|ふんれい} (strenuous effort), {王権|おうけん} (royal authority)
+- **Medical (1)**: {塗布|とふ} (application of ointment)
+- **Business / education (2)**: {販売価格|はんばいかかく} (selling price), {勉強机|べんきょうづくえ} (study desk)
+- **Language / sports (2)**: {日英|にちえい} (Japanese-English), {泳法|えいほう} (swimming stroke)
+- **Color / place (2)**: {青緑|あおみどり} (blue-green), {裏手|うらて} (back side)
+- **Multi-sense (1)**: {鼻薬|はなぐすり} (nasal medicine / bribe)
+
+Total entries: 24,386 → 24,408.
+
 ### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 6)
 Added 30 new dictionary entries (IDs 24559-24588) from candidate_words.json. A diverse batch covering academic/formal vocabulary, daily life, culture, sports, politics, and practical terms.
 
