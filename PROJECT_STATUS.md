@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 3)
+Added 30 new dictionary entries (IDs 24479-24508) from candidate_words.json. A diverse batch covering daily life, cultural practices, education, food, and practical vocabulary.
+
+- **Cultural / religious (3)**: {御霊前|ごれいぜん} (condolence offering), {香典袋|こうでんぶくろ} (condolence envelope), {盂蘭盆会|うらぼんえ} (Obon festival)
+- **Education (3)**: {経済学部|けいざいがくぶ} (faculty of economics), {理学部|りがくぶ} (faculty of science), {工学部|こうがくぶ} (faculty of engineering)
+- **Food / cooking (2)**: {寿司酢|すしず} (sushi vinegar), {穀物酢|こくもつす} (grain vinegar)
+- **Daily life / practical (5)**: {家具店|かぐてん} (furniture store), {停車中|ていしゃちゅう} (stopped/parked), {遺失届|いしつとどけ} (lost property report), {日付印|ひづけいん} (date stamp), {自動販売|じどうはんばい} (automatic vending)
+- **Social / drinking culture (2)**: {二軒目|にけんめ} (second bar/stop), {秘密話|ひみつばなし} (secret talk)
+- **People (2)**: {応援者|おうえんしゃ} (supporter), {泳者|えいしゃ} (swimmer)
+- **Business (2)**: {会議所|かいぎしょ} (chamber of commerce), {先行発売|せんこうはつばい} (advance sale)
+- **Language/grammar patterns (3)**: {諸問題|しょもんだい} (various problems), {低|ひく}め (somewhat low), {数軒|すうけん} (several houses)
+- **Legal (1)**: {保釈金|ほしゃくきん} (bail money)
+- **Loanwords (3)**: バン (van), ワンピ (dress), インスリン (insulin)
+- **Culture / martial arts (1)**: {抜刀|ばっとう} (drawing a sword)
+- **Descriptive (1)**: {波状|はじょう} (wavy/undulating)
+- **Animals (1)**: {仔猫|こねこ} (kitten)
+- **Multi-sense (1)**: {先付|さきづ}け (postdating / kaiseki appetizer)
+- 3 new kanji added to index: 仔, 盂, 蘭
+
+Total entries: 24,276 → 24,306.
+
 ### 2026-04-19 (Vocabulary Expansion - 25 New Entries, Batch 2)
 Added 25 new dictionary entries (IDs 24454-24478) from candidate_words.json. A diverse batch with good variety across practical daily life, cultural, business, and academic vocabulary.
 
