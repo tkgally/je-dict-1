@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-19 (Vocabulary Expansion - 25 New Entries)
+Added 25 new dictionary entries (IDs 24429-24453) from candidate_words.json. A diverse batch covering nature, culture, food, disaster terminology, workplace vocabulary, and technical terms.
+
+- **Disaster / weather (2)**: {雪害|せつがい} (snow damage), {半焼|はんしょう} (partial fire damage)
+- **Culture / history (4)**: {侠客|きょうかく} (chivalrous outlaw), {門人|もんじん} (disciple), {神霊|しんれい} (divine spirit), {正字|せいじ} (orthodox kanji form)
+- **Workplace / society (3)**: {訓告|くんこく} (official reprimand), {属人|ぞくじん} (person-dependent), {世故|せこ} (worldly wisdom)
+- **Infrastructure / tech (3)**: {配水|はいすい} (water distribution), {防壁|ぼうへき} (defensive wall), {圧送|あっそう} (pressure pumping)
+- **Nature / agriculture (3)**: {花芯|かしん} (flower center), {育苗|いくびょう} (raising seedlings), {発根|はっこん} (root emergence)
+- **Food (1)**: {半生|はんなま} (half-raw/medium-rare)
+- **People / culture (3)**: {俊才|しゅんさい} (prodigy), {曲芸師|きょくげいし} (acrobat), {見舞金|みまいきん} (sympathy money)
+- **Body / language (2)**: {禿|はげ} (baldness), {糞|ふん} (dung/droppings)
+- **Aesthetics / morality (2)**: {絶美|ぜつび} (exquisite beauty), {清白|せいはく} (purity/innocence)
+- **Medical (1)**: {昏倒|こんとう} (fainting/collapse)
+- **Logistics (1)**: {船荷|ふなに} (ship cargo)
+- Also removed 2 stale candidates (粉骨砕身する, 羽化する — both already exist as entries)
+- 1 new kanji added to index: 糞
+- Conjugation tables auto-generated for 7 suru-verb entries
+
+Total entries: 24,226 → 24,251.
+
 ### 2026-04-19 (Vocabulary Expansion - 24 New Entries)
 Added 24 new dictionary entries (IDs 24404-24428, excluding 24427 which was a duplicate) from candidate_words.json. This batch focuses on common loanwords and practical vocabulary useful for intermediate learners.
 
