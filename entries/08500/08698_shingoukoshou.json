@@ -16,7 +16,9 @@
       "id": "08698_shingoukoshou_ex1",
       "japanese": "{信号故障|しんごうこしょう}により{電車|でんしゃ}が{遅|おく}れている。",
       "english": "The train is delayed due to a signal malfunction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08698_shingoukoshou_ex2",
       "japanese": "{信号故障|しんごうこしょう}の{復旧|ふっきゅう}に{時間|じかん}がかかっています。",
       "english": "It's taking time to repair the signal malfunction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08698_shingoukoshou_ex3",
       "japanese": "{信号故障|しんごうこしょう}が{発生|はっせい}したため、{徐行運転|じょこううんてん}を{行|おこな}っています。",
       "english": "We are operating at reduced speed due to a signal malfunction.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,11 +47,25 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["transportation", "train"]
+      "semantic": [
+        "transportation",
+        "train"
+      ]
     },
     "created": "2026-01-28T02:45:31Z",
-    "modified": "2026-01-28T02:45:31Z"
-  }
+    "modified": "2026-04-20T08:21:42Z"
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08697_sharyoutenken",
+      "reading": "しゃりょうてんけん",
+      "headword": "{車両|しゃりょう}{点検|てんけん}",
+      "label": "train inspection"
+    }
+  ]
 }

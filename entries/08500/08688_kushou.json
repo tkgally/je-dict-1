@@ -6,67 +6,6 @@
   "gloss": "wry smile; bitter smile; forced laugh",
   "conjugation": {
     "type": "suru",
-    "prefix": "{苦笑|くしょう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "wry smile; bitter smile; forced laugh",
-      "explanation": "a smile or laugh expressing embarrassment, irony, or resignation rather than genuine amusement"
-    }
-  ],
-  "examples": [
-    {
-      "id": "08688_kushou_ex1",
-      "japanese": "{彼|かれ}は{苦笑|くしょう}するしかなかった。",
-      "english": "He could only smile wryly.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08688_kushou_ex2",
-      "japanese": "その{失敗|しっぱい}を{思|おも}い{出|だ}して{苦笑|くしょう}した。",
-      "english": "I smiled bitterly remembering that failure.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08688_kushou_ex3",
-      "japanese": "{自分|じぶん}の{間違|まちが}いに{苦笑|くしょう}を{禁|きん}じ{得|え}なかった。",
-      "english": "I couldn't help but smile wryly at my own mistake.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "VERB FORM:\n{苦笑|くしょう}する - to smile wryly, to give a bitter smile\n\nALTERNATE READING:\n{苦笑|にがわら}い - same meaning, kun'yomi reading\n\nNUANCE:\n{苦笑|くしょう} expresses a complex emotion - not genuine happiness, but a resigned or ironic reaction. It often occurs when someone is embarrassed, finds something ironically funny, or has no other way to react.\n\nTYPES OF SMILES:\n- {微笑|びしょう} - gentle smile\n- {苦笑|くしょう} - bitter/wry smile\n- {失笑|しっしょう} - involuntary laugh\n- {爆笑|ばくしょう} - roar of laughter",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "semantic": [
-        "emotions",
-        "expressions"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-01-27T23:50:36Z",
-    "modified": "2026-02-19T12:32:33Z"
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -154,5 +93,85 @@
         "negative": "{苦笑|くしょう}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "wry smile; bitter smile; forced laugh",
+      "explanation": "a smile or laugh expressing embarrassment, irony, or resignation rather than genuine amusement"
+    }
+  ],
+  "examples": [
+    {
+      "id": "08688_kushou_ex1",
+      "japanese": "{彼|かれ}は{苦笑|くしょう}するしかなかった。",
+      "english": "He could only smile wryly.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08688_kushou_ex2",
+      "japanese": "その{失敗|しっぱい}を{思|おも}い{出|だ}して{苦笑|くしょう}した。",
+      "english": "I smiled bitterly remembering that failure.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08688_kushou_ex3",
+      "japanese": "{自分|じぶん}の{間違|まちが}いに{苦笑|くしょう}を{禁|きん}じ{得|え}なかった。",
+      "english": "I couldn't help but smile wryly at my own mistake.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "VERB FORM:\n{苦笑|くしょう}する - to smile wryly, to give a bitter smile\n\nALTERNATE READING:\n{苦笑|にがわら}い - same meaning, kun'yomi reading\n\nNUANCE:\n{苦笑|くしょう} expresses a complex emotion - not genuine happiness, but a resigned or ironic reaction. It often occurs when someone is embarrassed, finds something ironically funny, or has no other way to react.\n\nTYPES OF SMILES:\n- {微笑|びしょう} - gentle smile\n- {苦笑|くしょう} - bitter/wry smile\n- {失笑|しっしょう} - involuntary laugh\n- {爆笑|ばくしょう} - roar of laughter",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "semantic": [
+        "emotions",
+        "expressions"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-01-27T23:50:36Z",
+    "modified": "2026-04-20T08:21:42Z"
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "08686_bakushou",
+      "reading": "ばくしょう",
+      "headword": "{爆笑|ばくしょう}",
+      "label": "roar of laughter"
+    },
+    {
+      "type": "related",
+      "target_id": "08687_bishou",
+      "reading": "びしょう",
+      "headword": "{微笑|びしょう}",
+      "label": "gentle smile"
+    },
+    {
+      "type": "related",
+      "target_id": "08689_shisshou",
+      "reading": "しっしょう",
+      "headword": "{失笑|しっしょう}",
+      "label": "involuntary laugh"
+    }
+  ]
 }
