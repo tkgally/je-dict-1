@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 11)
+Added 26 new dictionary entries (IDs 24691-24716) from candidate_words.json. Batch focusing on practical, business, cultural, and everyday vocabulary with detailed notes and collocations.
+
+- **Business / work (4)**: {内部告発|ないぶこくはつ} (whistleblowing), {事後報告|じごほうこく} (after-the-fact report), {按分|あんぶん} (apportionment), {栄進|えいしん} (promotion)
+- **Social / cultural (3)**: {縁故主義|えんこしゅぎ} (nepotism), {感情表出|かんじょうひょうしゅつ} (expression of emotion), {社会教育|しゃかいきょういく} (social education)
+- **Finance / practical (3)**: {医療費|いりょうひ} (medical expenses), {予算内|よさんない} (within budget), {懐具合|ふところぐあい} (financial situation)
+- **Daily life / household (3)**: {調理台|ちょうりだい} (kitchen counter), シミ{取|と}り (stain removal), {大|おお}あくび (big yawn)
+- **Nature / body (3)**: {種苗|しゅびょう} (seeds and seedlings), {尾|お}びれ (tail fin), {擦|す}れ (chafing)
+- **Places / description (3)**: {地柄|じがら} (character of an area), {不自然|ふしぜん}さ (unnaturalness), {傾向性|けいこうせい} (tendency)
+- **Education / expression (3)**: {家庭学習|かていがくしゅう} (home study), {自己表現|じこひょうげん} (self-expression), {魚料理|さかなりょうり} (fish cuisine)
+- **Other (4)**: {引|ひ}き{込|こ}み (drawing in), {打鍵音|だけんおん} (keystroke sound), {当日予約|とうじつよやく} (same-day reservation), {庫裏|くり} (temple kitchen)
+- Conjugation tables auto-generated for 5 suru verb entries
+- 1 new kanji added to index: 按
+- Removed 1 stale candidate (えこひいきする — duplicate of entry 20939)
+
+Total entries: 24,488 → 24,514.
+
 ### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 10)
 Added 30 new dictionary entries (IDs 24661-24690) from candidate_words.json. Diverse batch focusing on practical, institutional, and cultural vocabulary across many domains.
 
@@ -139,33 +156,6 @@ Added 30 new dictionary entries (IDs 24559-24588) from candidate_words.json. A d
 
 Total entries: 24,356 → 24,386.
 
-### 2026-04-19 (Vocabulary Expansion - 20 New Entries, Batch 5)
-Added 20 new dictionary entries (IDs 24539-24558) from candidate_words.json. A diverse batch covering conflict/diplomacy, law enforcement, weather/geography, arts/culture, and practical vocabulary.
-
-- **War / diplomacy (2)**: {停戦|ていせん} (ceasefire), {講和|こうわ} (peace treaty)
-- **Law enforcement (3)**: {署長|しょちょう} (station chief), {警部|けいぶ} (police inspector), {弁論|べんろん} (oral argument/debate)
-- **Weather / geography (3)**: {風速|ふうそく} (wind speed), {雨量|うりょう} (rainfall), {岩礁|がんしょう} (reef)
-- **Nature / places (2)**: {川岸|かわぎし} (riverbank), {花園|はなぞの} (flower garden)
-- **Arts / culture (2)**: {舞踏|ぶとう} (dance/ball), {世俗|せぞく} (worldly/secular)
-- **Construction / materials (2)**: {鉄骨|てっこつ} (steel frame), {塗料|とりょう} (paint/coating)
-- **Descriptive (3)**: {潤沢|じゅんたく} (abundant), {突出|とっしゅつ} (protruding/outstanding), {可憐|かれん} (lovely/pitiful)
-- **Other (3)**: {搬送|はんそう} (transport), {不断|ふだん} (constant), {覇者|はしゃ} (champion)
-
-Total entries: 24,336 → 24,356.
-
-### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 4)
-Added 30 new dictionary entries (IDs 24509-24538) from candidate_words.json. Diverse batch covering health/medicine, business/finance, culture, education, nature/science, and daily life.
-
-- **Health / medicine (4)**: {動脈硬化|どうみゃくこうか} (arteriosclerosis), {高血糖|こうけっとう} (high blood sugar), {降圧薬|こうあつやく} (antihypertensive drug), {抗加齢|こうかれい} (anti-aging)
-- **Business / finance (3)**: {終身雇用制|しゅうしんこようせい} (lifetime employment), {貸借対照表|たいしゃくたいしょうひょう} (balance sheet), {損益計算書|そんえきけいさんしょ} (income statement)
-- **Society / politics (4)**: デモ{行進|こうしん} (demonstration march), {訪問介護|ほうもんかいご} (home care), {福祉施設|ふくししせつ} (welfare facility), {男女別学|だんじょべつがく} (single-sex education)
-- **Nature / science (3)**: {海洋生物|かいようせいぶつ} (marine life), {雑食動物|ざっしょくどうぶつ} (omnivore), {鍾乳石|しょうにゅうせき} (stalactite)
-- **Culture / arts (5)**: フランス{語|ご} (French language), フランス{料理|りょうり} (French cuisine), クラシック{音楽|おんがく} (classical music), {吟詠|ぎんえい} (poetry chanting), {内面描写|ないめんびょうしゃ} (psychological depiction)
-- **Daily life (4)**: {判断|はんだん}ミス (judgment error), {黄色信号|きいろしんごう} (yellow light / warning sign), {新居祝|しんきょいわ}い (housewarming gift), {世界各地|せかいかくち} (various places worldwide)
-- **Emotion / character (2)**: {徒労感|とろうかん} (sense of futility), おどけ{者|もの} (joker/clown)
-- **Other (5)**: {不品行|ふひんこう} (misconduct), {優秀作|ゆうしゅうさく} (excellent work), {要領|ようりょう}よく (efficiently), {直方体|ちょくほうたい} (cuboid), {佳品|かひん} (fine article)
-
-Total entries: 24,306 → 24,336.
 
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
