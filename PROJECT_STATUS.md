@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 27 New Entries, Batch 12)
+Added 27 new dictionary entries (IDs 24717-24743) from candidate_words.json. Mix of practical, technical, academic, and cultural vocabulary.
+
+- **Technology (3)**: ディスプレー (display/monitor), クリックする (to click), サインアウト (sign out)
+- **Transport / driving (4)**: {迎車|げいしゃ} (taxi pickup), バイク{便|びん} (motorcycle courier), {走行車線|そうこうしゃせん} (driving lane), {追越車線|おいこししゃせん} (passing lane)
+- **Academic / formal (6)**: {産業化|さんぎょうか} (industrialization), {関連性|かんれんせい} (relevance), {真実性|しんじつせい} (truthfulness), {比喩|ひゆ}する (to use metaphor), {勢力範囲|せいりょくはんい} (sphere of influence), {鎮定|ちんてい} (pacification)
+- **Business / law (2)**: {独占権|どくせんけん} (exclusive right), {献言|けんげん} (offering advice)
+- **Daily life / culture (6)**: {紙|かみ}ナプキン (paper napkin), たばこ{屋|や} (tobacco shop), {合|あ}わせ{鏡|かがみ} (facing mirrors), ぬかみそ (rice-bran paste), {裁縫道具|さいほうどうぐ} (sewing tools), {午後便|ごごびん} (afternoon delivery)
+- **Nature / general (4)**: {天然資源|てんねんしげん} (natural resources), {霧中|むちゅう} (in fog), {貴石|きせき} (precious stone), {間抜|まぬ}け{面|づら} (stupid face)
+- **Sports (1)**: {不戦勝|ふせんが}ち (win by default)
+- **Narrative (1)**: {場面転換|ばめんてんかん} (scene change)
+- Conjugation tables auto-generated for 7 suru verb entries
+- Removed 27 candidates that became entries
+
+Total entries: 24,514 → 24,541.
+
 ### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 11)
 Added 26 new dictionary entries (IDs 24691-24716) from candidate_words.json. Batch focusing on practical, business, cultural, and everyday vocabulary with detailed notes and collocations.
 
