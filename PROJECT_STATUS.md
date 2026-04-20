@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 15)
+Added 30 new dictionary entries (IDs 24786-24815) from candidate_words.json. Diverse batch covering military, history, culture, science, language, sports, daily life, and modern society.
+
+- **Military / security (3)**: {匍匐|ほふく} (crawling), {着弾|ちゃくだん} (projectile impact), {化学|かがく}{兵器|へいき} (chemical weapon)
+- **History / culture (5)**: {後宮|こうきゅう} (inner palace), {武家屋敷|ぶけやしき} (samurai residence), {文化勲章|ぶんかくんしょう} (Order of Culture), {進上|しんじょう} (formal gift-giving), {貴公|きこう} (archaic "you")
+- **Science / education (3)**: {化学式|かがくしき} (chemical formula), {仮定形|かていけい} (hypothetical form), {化学|かがく}{薬品|やくひん} (chemicals)
+- **Sports / entertainment (3)**: {白星|しろぼし}を{挙|あ}げる (score a win), {通|とお}し{稽古|げいこ} (full rehearsal), {着|き}せ{替|か}え{人形|にんぎょう} (dress-up doll)
+- **Modern society (3)**: {転売|てんばい}{禁止|きんし} (resale prohibition), {命名権|めいめいけん} (naming rights), {入場|にゅうじょう}{禁止|きんし} (no admittance)
+- **Health / daily life (4)**: {体脂肪率|たいしぼうりつ} (body fat percentage), {生理用品|せいりようひん} (sanitary products), {入院|にゅういん}{患者|かんじゃ} (inpatient), {滞在|たいざい}{日数|にっすう} (length of stay)
+- **Language / register (2)**: てめえ (vulgar "you"), {返|かえ}し (comeback/sauce)
+- **Other (7)**: ホワイトアウト (whiteout), {地場|じば}{産業|さんぎょう} (local industry), {追悼式|ついとうしき} (memorial service), {粒度|りゅうど} (granularity), {跳|は}ね{返|かえ}し (rebound), {素性|すじょう}が{知|し}れる (background revealed), {筋骨|きんこつ}たくましい (muscular)
+
+Total entries: 24,583 → 24,613.
+
 ### 2026-04-20 (Vocabulary Expansion - 17 New Entries, Batch 14)
 Added 17 new dictionary entries (IDs 24769-24785) from candidate_words.json. Diverse batch covering business/finance, culture, food, nature, geography, and daily life.
 
