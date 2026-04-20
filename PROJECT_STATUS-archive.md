@@ -3,6 +3,20 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-19 (Vocabulary Expansion - 20 New Entries, Batch 5)
+Added 20 new dictionary entries (IDs 24539-24558) from candidate_words.json. A diverse batch covering conflict/diplomacy, law enforcement, weather/geography, arts/culture, and practical vocabulary.
+
+- **War / diplomacy (2)**: {停戦|ていせん} (ceasefire), {講和|こうわ} (peace treaty)
+- **Law enforcement (3)**: {署長|しょちょう} (station chief), {警部|けいぶ} (police inspector), {弁論|べんろん} (oral argument/debate)
+- **Weather / geography (3)**: {風速|ふうそく} (wind speed), {雨量|うりょう} (rainfall), {岩礁|がんしょう} (reef)
+- **Nature / places (2)**: {川岸|かわぎし} (riverbank), {花園|はなぞの} (flower garden)
+- **Arts / culture (2)**: {舞踏|ぶとう} (dance/ball), {世俗|せぞく} (worldly/secular)
+- **Construction / materials (2)**: {鉄骨|てっこつ} (steel frame), {塗料|とりょう} (paint/coating)
+- **Descriptive (3)**: {潤沢|じゅんたく} (abundant), {突出|とっしゅつ} (protruding/outstanding), {可憐|かれん} (lovely/pitiful)
+- **Other (3)**: {搬送|はんそう} (transport), {不断|ふだん} (constant), {覇者|はしゃ} (champion)
+
+Total entries: 24,336 → 24,356.
+
 
 ### 2026-04-15 (Vocabulary Expansion - 16 New Entries)
 Added 16 new dictionary entries (IDs 23988-24003) from candidate_words.json. A balanced mix of nature, medicine, formal technical vocabulary, food-related loanwords, and one formal suru verb.
