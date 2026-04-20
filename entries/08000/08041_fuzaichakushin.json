@@ -16,7 +16,9 @@
       "id": "08041_fuzaichakushin_ex1",
       "japanese": "{不在着信|ふざいちゃくしん}が3{件|けん}あった。",
       "english": "I had three missed calls.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08041_fuzaichakushin_ex2",
       "japanese": "{知|し}らない{番号|ばんごう}から{不在着信|ふざいちゃくしん}があった。",
       "english": "I had a missed call from an unknown number.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,18 +36,35 @@
       "id": "08041_fuzaichakushin_ex3",
       "japanese": "{不在着信|ふざいちゃくしん}に{気|き}づいて{折|お}り{返|かえ}し{電話|でんわ}をした。",
       "english": "I noticed the missed call and called back.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A phone call that was received but not answered. The caller's number is typically recorded so the recipient can call back later.\n\nWORD FORMATION:\n- {不在|ふざい} (absence, away) + {着信|ちゃくしん} (incoming call)\n\nCOMMON PATTERNS:\n- {不在着信|ふざいちゃくしん}がある: to have a missed call\n- {不在着信|ふざいちゃくしん}に{気|き}づく: to notice a missed call\n- {不在着信|ふざいちゃくしん}が{残|のこ}る: a missed call is left/recorded\n\nCOUNTER:\nCounted with {件|けん}: {不在着信|ふざいちゃくしん}が3{件|けん}ある (there are 3 missed calls).\n\nRELATED TERMS:\n- {折|お}り{返|かえ}し{電話|でんわ}: return call, callback\n- {着信履歴|ちゃくしんりれき}: call history\n- {留守番電話|るすばんでんわ} / {留守電|るすでん}: voicemail",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ちゃくしんおん",
+      "headword": "{着信音|ちゃくしんおん}",
+      "label": "ringtone; notification sound",
+      "target_id": "08040_chakushinon"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["technology", "phone", "communication"]
+      "semantic": [
+        "technology",
+        "phone",
+        "communication"
+      ]
     },
     "created": "2026-01-25T00:53:15Z",
     "modified": "2026-03-27T01:43:05Z"
