@@ -2,78 +2,49 @@
 Date: 2026-04-20
 
 ### prominent_see_also Added
-- 07892 ↔ 02128: transitive/intransitive pair (立ち上げる ↔ 立ち上がる)
+- 08107_kamoi ↔ 06937_shikii: architectural pair (lintel / threshold)
 
 ### cross_references Added
-- 07883 → 07023: synonym (追従 → お世辞, "can be neutral")
-- 07884 → 06034: synonym (憚る → ためらう, "general hesitation")
-- 07884 → 01337: synonym (憚る → 遠慮, "polite restraint")
-- 07884 → 07722: synonym (憚る → 躊躇, "formal")
-- 07885 → 07023: synonym (おべっか → お世辞, "can be neutral")
-- 07887 → 06879: synonym (天命 → 運命, "general fate")
-- 07887 → 07401: synonym (天命 → 宿命, "predetermined")
-- 07887 → 11445: related (天命 → 使命, "mission")
-- 07887 → 12359: related (天命 → 寿命, "lifespan")
-- 07888 → 17920: synonym (抜本 → 根本的, "fundamental")
-- 07889 → 09615: related (統廃合 → 統合, "integration only")
-- 07889 → 04778: related (統廃合 → 合併, "merger")
-- 07890 → 14616: synonym (糾弾 → 非難, "blame")
-- 07890 → 03580: synonym (糾弾 → 批判, "less severe")
-- 07890 → 20520: related (糾弾 → 弾劾, "impeachment")
-- 07891 → 02811: synonym (紛糾 → 混乱, "chaos")
-- 07891 → 05758: related (紛糾 → 紛争, "conflict")
-- 07893 → 07593: synonym (染み込む → 浸透, "formal")
-- 07893 → 10354: related (染み込む → 染みる, "base verb")
-- 07898 → 12863: synonym (儚い → 束の間, "momentary")
-- 07899 → 16315: synonym (頼もしい → 心強い, "emotionally reassuring")
-- 07899 → 20294: synonym (頼もしい → 頼りになる, "conversational")
-- 07900 → 05701: synonym (清々しい → 爽やか, "lighter nuance")
-- 07900 → 07913: synonym (清々しい → 爽快, "more intense")
-- 07901 → 07902: synonym (奮闘 → 善戦, "good fight")
-- 07901 → 15326: synonym (奮闘 → 健闘, "good fight")
-- 07902 → 07901: synonym (善戦 → 奮闘, "emphasis on effort")
-- 07902 → 15326: synonym (善戦 → 健闘, "nearly synonymous")
-- 07902 → 07904: related (善戦 → 惜敗, "narrow defeat")
-- 07903 → 08236: antonym (圧勝 → 惨敗, "crushing defeat")
-- 07903 → 08238: contrast (圧勝 → 辛勝, "narrow victory")
-- 07904 → 08238: antonym (惜敗 → 辛勝, "narrow victory")
-- 07904 → 07902: related (惜敗 → 善戦, "good fight")
-- 07904 → 08176: related (惜敗 → 接戦, "close game")
-- 07911 → 02625: synonym (後始末 → 片付け, "tidying up")
-- 07911 → 23216: related (後始末 → 尻拭い, "cleaning up someone's mess")
-- 07913 → 07900: synonym (爽快 → 清々しい, "gentler")
-- 07913 → 05701: synonym (爽快 → 爽やか, "lighter")
-- 07915 → 13775: synonym (緻密 → 精密, "more technical")
-- 07915 → 15052: synonym (緻密 → 綿密, "thorough")
-- 07922 ↔ 07923: contrast (どよめく ↔ ざわめく)
-- 07927 ↔ 07929: contrast (聞き流す ↔ 聞き逃す)
-- 07933 → 07153: synonym (巧妙 → 巧み, "skillful")
-- 07934 → 07609: synonym (果敢 → 大胆, "bold, daring")
-- 07935 → 07936: contrast (雨漏り → 水漏れ, "general water leak")
-- 07937 → 07938: contrast (梱包 → 荷造り, "general packing")
-- 07939 → 05135: antonym (入荷 → 出荷, "shipment out")
+- 08087_tanzakugiri ↔ 07473_sengiri: related (rectangular strips / julienne)
+- 08088_ohitsu ↔ 08131_sushioke: related (rice container / sushi tub)
+- 08089_buaisei ↔ 18879_koteikyuu: contrast (commission-based / fixed salary)
+- 08091_hangetsugiri → 07474_wagiri: related (half-moon / round slices)
+- 08091_hangetsugiri ↔ 08092_ichougiri: related (half-moon / quarter rounds)
+- 08092_ichougiri → 07474_wagiri: related (quarter rounds / round slices)
+- 08095_chikudenchi ↔ 10188_kandenchi: contrast (storage / disposable battery)
+- 08095_chikudenchi ↔ 23748_juudenchi: synonym (storage / rechargeable battery)
+- 08096_torimi ↔ 08097_hoshimi: related (birdwatching / stargazing)
+- 08102_gakusetsu ↔ 04708_riron: synonym (academic theory / theory)
+- 08102_gakusetsu ↔ 04786_kasetsu: related (academic theory / hypothesis)
+- 08102_gakusetsu ↔ 12462_teisetsu: related (academic theory / established theory)
+- 08103_mizukagen ↔ 06656_hikagen: related (water amount / heat level)
+- 08103_mizukagen ↔ 08575_shiokagen: related (water amount / saltiness)
+- 08105_sashiki ↔ 08106_tsugiki: related (cutting / grafting propagation)
+- 08108_kissashitsu → 01079_kissaten: contrast (cafe in facility / standalone coffee shop)
+- 08111_shitasaki ↔ 16728_kuchisaki: synonym (glib talk / lip service)
+- 08112_ofu ↔ 08113_kurumafu: related (wheat gluten / wheel-shaped fu)
+- 08114_shikibou → 06565_shikisha: related (baton / conductor)
+- 08115_chero ↔ 00009_baiorin: related (cello / violin)
+- 08115_chero → 09489_biora: related (cello / viola)
+- 08115_chero ↔ 08149_kontorabasu: related (cello / double bass)
+- 08117_rekoodingu ↔ 08119_mikishingu: related (recording / mixing)
+- 08117_rekoodingu → 05107_rokuon: contrast (professional / general recording)
+- 08120_shasen ↔ 08121_taikakusen: related (diagonal line / shape diagonal)
+- 08128_fuchin ↔ 08133_eiko: synonym (rise and fall / prosperity and decline)
+- 08129_akutori ↔ 08134_sukuiami: related (scum skimmer / scooping net)
 
 ### References Fixed/Migrated
 - None
 
-### Entries Skipped (no changes needed)
-- 07886: No strong cross-refs (standalone idiomatic expression)
-- 07894: No strong cross-refs (standalone verb)
-- 07895-07897: Already had proper prominent_see_also links
-- 07905-07908: Already had proper cross_references/prominent_see_also
-- 07909-07910: No strong cross-refs (standalone daily-life nouns)
-- 07912: Already had prominent_see_also to noun form
-- 07914: No strong cross-refs (standalone adjective)
-- 07916-07921, 07924-07926, 07928, 07930-07932: Reviewed, no high-priority relationships found
-- 07936, 07938: Already had cross_references
-- 07940-07942: No strong cross-refs (standalone nouns)
+### Entries Skipped (no cross-references needed)
+- 08090, 08093-08094, 08098-08101, 08104, 08109-08110, 08116, 08118, 08122-08127, 08130, 08132, 08135-08148: no strong cross-reference pairs found
 
 ### Statistics
-- Entries reviewed this session: 60
-- prominent_see_also links added: 2 (1 pair)
-- cross_references links added: 47
+- Entries reviewed this session: 63
+- prominent_see_also links added: 2 (1 bidirectional pair)
+- cross_references links added: 54 (27 relationships, most bidirectional)
 - References fixed/migrated: 0
-- Entry range: 07883 through 07942
+- Entry range: 08087 through 08149
 
 ### Next Entry
-07943
+08150
