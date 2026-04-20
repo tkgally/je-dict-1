@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 9)
+Added 26 new dictionary entries (IDs 24635-24660) from candidate_words.json. Diverse batch covering media/publishing, politics/history, religion/culture, nature, medicine, business, and practical vocabulary.
+
+- **Media / publishing (3)**: {論説|ろんせつ} (editorial), {図版|ずはん} (illustration/plate), {扉絵|とびらえ} (frontispiece)
+- **Politics / history / military (3)**: {軍部|ぐんぶ} (military establishment), {文民統制|ぶんみんとうせい} (civilian control), {名誉回復|めいよかいふく} (restoration of honor)
+- **Religion / culture (3)**: {本山|ほんざん} (head temple), {献納|けんのう} (dedication/offering), {滝行|たきぎょう} (waterfall meditation)
+- **Nature / geography (3)**: {滝壺|たきつぼ} (plunge pool), {名瀑|めいばく} (famous waterfall), {鳥獣|ちょうじゅう} (birds and beasts)
+- **Ceramics / food (3)**: {焼成|しょうせい} (firing/kiln), {素焼|すや}き (bisque/plain grill), {糖類|とうるい} (sugars/saccharides)
+- **Business / finance (2)**: {経常利益|けいじょうりえき} (ordinary profit), {豪商|ごうしょう} (wealthy merchant)
+- **Medicine (1)**: {梗塞|こうそく} (infarction)
+- **Law / insurance (1)**: {物損|ぶっそん} (property damage)
+- **Society (2)**: {婦人会|ふじんかい} (women's association), {私物化|しぶつか} (personal appropriation)
+- **Education / daily life (3)**: {提出物|ていしゅつぶつ} (assignment), {年賀|ねんが}はがき (New Year's postcard), {感冒薬|かんぼうやく} (cold medicine)
+- **Linguistics (1)**: {間投詞|かんとうし} (interjection)
+- **Photography (1)**: {望遠|ぼうえん}レンズ (telephoto lens)
+- Removed 1 stale candidate (おかみさん — variant of existing entry)
+- 2 new kanji added to index: 壺, 瀑
+
+Total entries: 24,432 → 24,458.
+
 ### 2026-04-20 (Vocabulary Expansion - 24 New Entries, Batch 8)
 Added 24 new dictionary entries (IDs 24611-24634) from candidate_words.json. Diverse batch covering business, culture, science, law, sports, and practical vocabulary.
 
@@ -131,26 +151,6 @@ Added 30 new dictionary entries (IDs 24509-24538) from candidate_words.json. Div
 
 Total entries: 24,306 → 24,336.
 
-### 2026-04-19 (Vocabulary Expansion - 30 New Entries, Batch 3)
-Added 30 new dictionary entries (IDs 24479-24508) from candidate_words.json. A diverse batch covering daily life, cultural practices, education, food, and practical vocabulary.
-
-- **Cultural / religious (3)**: {御霊前|ごれいぜん} (condolence offering), {香典袋|こうでんぶくろ} (condolence envelope), {盂蘭盆会|うらぼんえ} (Obon festival)
-- **Education (3)**: {経済学部|けいざいがくぶ} (faculty of economics), {理学部|りがくぶ} (faculty of science), {工学部|こうがくぶ} (faculty of engineering)
-- **Food / cooking (2)**: {寿司酢|すしず} (sushi vinegar), {穀物酢|こくもつす} (grain vinegar)
-- **Daily life / practical (5)**: {家具店|かぐてん} (furniture store), {停車中|ていしゃちゅう} (stopped/parked), {遺失届|いしつとどけ} (lost property report), {日付印|ひづけいん} (date stamp), {自動販売|じどうはんばい} (automatic vending)
-- **Social / drinking culture (2)**: {二軒目|にけんめ} (second bar/stop), {秘密話|ひみつばなし} (secret talk)
-- **People (2)**: {応援者|おうえんしゃ} (supporter), {泳者|えいしゃ} (swimmer)
-- **Business (2)**: {会議所|かいぎしょ} (chamber of commerce), {先行発売|せんこうはつばい} (advance sale)
-- **Language/grammar patterns (3)**: {諸問題|しょもんだい} (various problems), {低|ひく}め (somewhat low), {数軒|すうけん} (several houses)
-- **Legal (1)**: {保釈金|ほしゃくきん} (bail money)
-- **Loanwords (3)**: バン (van), ワンピ (dress), インスリン (insulin)
-- **Culture / martial arts (1)**: {抜刀|ばっとう} (drawing a sword)
-- **Descriptive (1)**: {波状|はじょう} (wavy/undulating)
-- **Animals (1)**: {仔猫|こねこ} (kitten)
-- **Multi-sense (1)**: {先付|さきづ}け (postdating / kaiseki appetizer)
-- 3 new kanji added to index: 仔, 盂, 蘭
-
-Total entries: 24,276 → 24,306.
 
 ### 2026-04-19 (Vocabulary Expansion - 25 New Entries, Batch 2)
 Added 25 new dictionary entries (IDs 24454-24478) from candidate_words.json. A diverse batch with good variety across practical daily life, cultural, business, and academic vocabulary.
