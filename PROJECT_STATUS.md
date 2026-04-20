@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 10)
+Added 30 new dictionary entries (IDs 24661-24690) from candidate_words.json. Diverse batch focusing on practical, institutional, and cultural vocabulary across many domains.
+
+- **Society / politics (4)**: {専制政治|せんせいせいじ} (despotism), {世論形成|よろんけいせい} (forming public opinion), {保護観察|ほごかんさつ} (probation), {新興宗教|しんこうしゅうきょう} (new religious movement)
+- **Law / business (3)**: {営利法人|えいりほうじん} (for-profit corporation), {決議事項|けつぎじこう} (resolution items), {協同組合|きょうどうくみあい} (cooperative)
+- **Health / medicine (2)**: {国民健康保険|こくみんけんこうほけん} (National Health Insurance), {静脈注射|じょうみゃくちゅうしゃ} (IV injection)
+- **Daily life / practical (4)**: {通行禁止|つうこうきんし} (no passage), {台所仕事|だいどころしごと} (kitchen work), {発信履歴|はっしんりれき} (call history), {女子寮|じょしりょう} (women's dormitory)
+- **Education / academic (3)**: {研究発表|けんきゅうはっぴょう} (research presentation), {教科課程|きょうかかてい} (curriculum), {出現頻度|しゅつげんひんど} (frequency of occurrence)
+- **Technology (2)**: {文字認識|もじにんしき} (character recognition/OCR), {位置関係|いちかんけい} (spatial relationship)
+- **Culture / personality (3)**: {義侠|ぎきょう} (chivalry), {自己中心|じこちゅうしん} (egocentrism), {念願成就|ねんがんじょうじゅ} (wish fulfillment)
+- **Nature / agriculture (2)**: {害獣|がいじゅう} (pest animal), {防除|ぼうじょ} (pest control)
+- **Other (7)**: {汽船|きせん} (steamship), {和英辞典|わえいじてん} (J-E dictionary), {消息不明|しょうそくふめい} (missing/whereabouts unknown), {風紀委員|ふうきいいん} (discipline committee), {汚名挽回|おめいばんかい} (restoring reputation), {美白効果|びはくこうか} (skin-whitening effect), {事後処理|じごしょり} (post-processing)
+- Conjugation tables auto-generated for 7 suru verb entries
+
+Total entries: 24,458 → 24,488.
+
 ### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 9)
 Added 26 new dictionary entries (IDs 24635-24660) from candidate_words.json. Diverse batch covering media/publishing, politics/history, religion/culture, nature, medicine, business, and practical vocabulary.
 
@@ -151,23 +167,5 @@ Added 30 new dictionary entries (IDs 24509-24538) from candidate_words.json. Div
 
 Total entries: 24,306 → 24,336.
 
-
-### 2026-04-19 (Vocabulary Expansion - 25 New Entries, Batch 2)
-Added 25 new dictionary entries (IDs 24454-24478) from candidate_words.json. A diverse batch with good variety across practical daily life, cultural, business, and academic vocabulary.
-
-- **Cultural (4)**: {朱印|しゅいん} (red seal stamp), {賽銭箱|さいせんばこ} (offertory box), {友引|ともびき} (rokuyo calendar day), お{食|く}い{初|ぞ}め (baby's first meal ceremony)
-- **Business / workplace (4)**: フレックスタイム (flextime), {添付|てんぷ}ファイル (email attachment), {法的|ほうてき}{措置|そち} (legal action), {来訪|らいほう}{者|しゃ} (visitor)
-- **Education / communication (4)**: {生徒|せいと}{会長|かいちょう} (student council president), {口頭|こうとう}{発表|はっぴょう} (oral presentation), {言語|げんご}{交換|こうかん} (language exchange), {文学|ぶんがく}{作品|さくひん} (literary work)
-- **Daily life / practical (3)**: {満|まん}タン (full tank), できるだけ{早|はや}く (ASAP), {広報|こうほう}{誌|し} (newsletter)
-- **Formal vocabulary (4)**: {未了|みりょう} (pending/unfinished), {不可分|ふかぶん} (indivisible), {誤認|ごにん} (misidentification), {予期|よき}せず (unexpectedly)
-- **Nature / science (1)**: {自然|しぜん}{現象|げんしょう} (natural phenomenon)
-- **Emotions / literature (1)**: むせび{泣|な}く (to sob)
-- **People (1)**: {門番|もんばん} (gatekeeper)
-- **Math / finance (1)**: {切|き}り{上|あ}げ (rounding up / revaluation)
-- **Idiom (1)**: タヌキ{寝入|ねい}り (pretending to be asleep)
-- **Keigo (1)**: ご{来店|らいてん} (visiting a store, honorific)
-- Conjugation tables auto-generated for 7 verb entries (5 suru, 2 godan)
-
-Total entries: 24,251 → 24,276.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
