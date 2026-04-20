@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 17 New Entries, Batch 14)
+Added 17 new dictionary entries (IDs 24769-24785) from candidate_words.json. Diverse batch covering business/finance, culture, food, nature, geography, and daily life.
+
+- **Business / finance (4)**: {売|う}り{手|て} (seller), {買|か}い{手|て} (buyer), {証券会社|しょうけんがいしゃ} (securities company), {信用金庫|しんようきんこ} (credit union)
+- **Culture / history (4)**: {宿場町|しゅくばまち} (post town), {護符|ごふ} (protective talisman), {呪術|じゅじゅつ} (sorcery), {日帰|ひがえ}り{温泉|おんせん} (day-trip hot spring)
+- **Food (1)**: {味噌漬|みそづ}け (miso pickles)
+- **Nature (1)**: {雛鳥|ひなどり} (baby bird)
+- **Formal / meetings (2)**: {散会|さんかい} (adjournment), {政令|せいれい} (cabinet order)
+- **Other (5)**: {最終日|さいしゅうび} (final day), {浄水器|じょうすいき} (water purifier), {弟分|おとうとぶん} (younger-brother figure), {中間色|ちゅうかんしょく} (intermediate color), {放射状|ほうしゃじょう} (radial pattern)
+- Conjugation table auto-generated for 1 suru verb entry (散会)
+- Removed 1 stale candidate (他人事/たにんごと, covered by existing entry 09570)
+
+Total entries: 24,566 → 24,583.
+
 ### 2026-04-20 (Vocabulary Expansion - 25 New Entries, Batch 13)
 Added 25 new dictionary entries (IDs 24744-24768) from candidate_words.json. Diverse batch covering cultural practices, daily life, finance, history, medical, and general vocabulary.
 
