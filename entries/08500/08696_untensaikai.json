@@ -16,7 +16,9 @@
       "id": "08696_untensaikai_ex1",
       "japanese": "{運転再開|うんてんさいかい}は{午後|ごご}3{時|じ}の{予定|よてい}です。",
       "english": "Service is scheduled to resume at 3 PM.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08696_untensaikai_ex2",
       "japanese": "{安全|あんぜん}{確認|かくにん}{後|ご}、{運転再開|うんてんさいかい}しました。",
       "english": "Service resumed after safety confirmation.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08696_untensaikai_ex3",
       "japanese": "{運転再開|うんてんさいかい}の{見込|みこ}みは{立|た}っていません。",
       "english": "There is no prospect for service resumption yet.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,11 +47,25 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["transportation", "train"]
+      "semantic": [
+        "transportation",
+        "train"
+      ]
     },
     "created": "2026-01-28T02:44:50Z",
-    "modified": "2026-01-28T02:44:50Z"
-  }
+    "modified": "2026-04-20T08:21:42Z"
+  },
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "08695_untenmiawase",
+      "reading": "うんてんみあわせ",
+      "headword": "{運転|うんてん}{見合|みあ}わせ",
+      "label": "service suspension"
+    }
+  ]
 }
