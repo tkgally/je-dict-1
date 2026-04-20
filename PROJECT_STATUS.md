@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-20 (Vocabulary Expansion - 24 New Entries, Batch 8)
+Added 24 new dictionary entries (IDs 24611-24634) from candidate_words.json. Diverse batch covering business, culture, science, law, sports, and practical vocabulary.
+
+- **Business / organization (3)**: {総務課|そうむか} (general affairs section), {主幹|しゅかん} (chief editor/manager), {勢力図|せいりょくず} (power map)
+- **Religion / culture (3)**: {崇拝者|すうはいしゃ} (worshipper/devotee), {彼岸会|ひがんえ} (higan memorial service), はかなさ (transience)
+- **Science / math (2)**: {切片|せっぺん} (section/intercept), {果糖|かとう} (fructose)
+- **Music / arts (2)**: {和声|わせい} (harmony), {合本|がっぽん} (combined volume)
+- **Law / politics (3)**: {公序良俗|こうじょりょうぞく} (public order and morals), {不戦|ふせん} (non-combat/by default), {寡占|かせん} (oligopoly)
+- **Economics / society (2)**: {期待感|きたいかん} (sense of expectation), {有志者|ゆうししゃ} (volunteer)
+- **Technology / infrastructure (3)**: {接続口|せつぞくぐち} (connection port), {導線|どうせん} (conductor wire/flow line), {通用門|つうようもん} (service gate)
+- **Education (1)**: {択一式|たくいつしき} (multiple-choice format)
+- **Transport (1)**: {搭乗者|とうじょうしゃ} (passenger)
+- **Construction (1)**: {部材|ぶざい} (structural member)
+- **Sports (1)**: {完投|かんとう} (complete game)
+- **Descriptive (2)**: {総覧|そうらん} (comprehensive survey), {露骨|ろこつ}さ (blatancy)
+
+Total entries: 24,408 → 24,432.
+
 ### 2026-04-19 (Vocabulary Expansion - 22 New Entries, Batch 7)
 Added 22 new dictionary entries (IDs 24589-24610) from candidate_words.json. A diverse batch covering history/culture, food/nature, academic/formal, medical, and practical vocabulary.
 
