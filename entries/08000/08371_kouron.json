@@ -6,67 +6,6 @@
   "gloss": "argument; quarrel; verbal dispute",
   "conjugation": {
     "type": "suru",
-    "prefix": "{口論|こうろん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "argument; quarrel; verbal dispute",
-      "explanation": "a heated verbal exchange or disagreement between people"
-    }
-  ],
-  "examples": [
-    {
-      "id": "08371_kouron_ex1",
-      "japanese": "{二人|ふたり}は{口論|こうろん}になった。",
-      "english": "The two got into an argument.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08371_kouron_ex2",
-      "japanese": "{些細|ささい}なことで{口論|こうろん}した。",
-      "english": "We argued over something trivial.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08371_kouron_ex3",
-      "japanese": "{口論|こうろん}の{末|すえ}、{彼|かれ}は{部屋|へや}を{出|で}て{行|い}った。",
-      "english": "After the argument, he left the room.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "FORMATION:\n{口|こう} (mouth) + {論|ろん} (argument, discussion) → verbal argument\n\nVERB FORM:\n{口論|こうろん}する (to argue, to quarrel)\n\nRELATED WORDS:\n- {喧嘩|けんか} (fight, quarrel - can include physical)\n- {言|い}い{争|あらそ}い (verbal dispute)\n- {論争|ろんそう} (debate, controversy - more formal)\n- {揉|も}め{事|ごと} (trouble, dispute)\n- {口喧嘩|くちげんか} (verbal fight)\n\nDISTINCTION:\n{口論|こうろん} is specifically verbal and somewhat formal. {喧嘩|けんか} is more casual and can include physical fighting. {口喧嘩|くちげんか} is a casual word specifically for verbal fighting.",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "semantic": [
-        "conflict",
-        "communication"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-01-26T04:46:09Z",
-    "modified": "2026-02-19T12:32:33Z"
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -154,5 +93,78 @@
         "negative": "{口論|こうろん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "argument; quarrel; verbal dispute",
+      "explanation": "a heated verbal exchange or disagreement between people"
+    }
+  ],
+  "examples": [
+    {
+      "id": "08371_kouron_ex1",
+      "japanese": "{二人|ふたり}は{口論|こうろん}になった。",
+      "english": "The two got into an argument.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08371_kouron_ex2",
+      "japanese": "{些細|ささい}なことで{口論|こうろん}した。",
+      "english": "We argued over something trivial.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08371_kouron_ex3",
+      "japanese": "{口論|こうろん}の{末|すえ}、{彼|かれ}は{部屋|へや}を{出|で}て{行|い}った。",
+      "english": "After the argument, he left the room.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "FORMATION:\n{口|こう} (mouth) + {論|ろん} (argument, discussion) → verbal argument\n\nVERB FORM:\n{口論|こうろん}する (to argue, to quarrel)\n\nRELATED WORDS:\n- {喧嘩|けんか} (fight, quarrel - can include physical)\n- {言|い}い{争|あらそ}い (verbal dispute)\n- {論争|ろんそう} (debate, controversy - more formal)\n- {揉|も}め{事|ごと} (trouble, dispute)\n- {口喧嘩|くちげんか} (verbal fight)\n\nDISTINCTION:\n{口論|こうろん} is specifically verbal and somewhat formal. {喧嘩|けんか} is more casual and can include physical fighting. {口喧嘩|くちげんか} is a casual word specifically for verbal fighting.",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "semantic": [
+        "conflict",
+        "communication"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-01-26T04:46:09Z",
+    "modified": "2026-04-20T06:28:06Z"
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "08361_momegoto",
+      "reading": "もめごと",
+      "headword": "{揉|も}め{事|ごと}",
+      "label": "trouble, dispute"
+    },
+    {
+      "type": "related",
+      "target_id": "02996_kenka",
+      "reading": "けんか",
+      "headword": "{喧嘩|けんか}",
+      "label": "fight, quarrel"
+    }
+  ]
 }

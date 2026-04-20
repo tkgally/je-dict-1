@@ -16,7 +16,9 @@
       "id": "08327_ruikei_ex1",
       "japanese": "{累計|るいけい}{販売|はんばい}{数|すう}は{百万部|ひゃくまんぶ}を{超|こ}えた。",
       "english": "Cumulative sales have exceeded one million copies.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08327_ruikei_ex2",
       "japanese": "{今月|こんげつ}までの{累計|るいけい}で{五千万円|ごせんまんえん}です。",
       "english": "The cumulative total up to this month is 50 million yen.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "08327_ruikei_ex3",
       "japanese": "{感染者|かんせんしゃ}の{累計|るいけい}が{発表|はっぴょう}された。",
       "english": "The cumulative number of infected people was announced.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -41,11 +47,33 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
-      "semantic": ["business", "statistics", "data"]
+      "semantic": [
+        "business",
+        "statistics",
+        "data"
+      ]
     },
     "created": "2026-01-25T23:18:25Z",
-    "modified": "2026-01-25T23:18:25Z"
-  }
+    "modified": "2026-04-20T06:28:06Z"
+  },
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02817_goukei",
+      "reading": "ごうけい",
+      "headword": "{合計|ごうけい}",
+      "label": "total (single sum)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "15248_soukei",
+      "reading": "そうけい",
+      "headword": "{総計|そうけい}",
+      "label": "grand total"
+    }
+  ]
 }
