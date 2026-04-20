@@ -16,7 +16,9 @@
       "id": "08069_hacchuusho_ex1",
       "japanese": "{発注書|はっちゅうしょ}を{送|おく}る。",
       "english": "To send a purchase order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "08069_hacchuusho_ex2",
       "japanese": "{発注書|はっちゅうしょ}に{記載|きさい}された{数量|すうりょう}を{確認|かくにん}する。",
       "english": "To confirm the quantity listed on the purchase order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,18 +36,35 @@
       "id": "08069_hacchuusho_ex3",
       "japanese": "{発注書|はっちゅうしょ}がなければ{納品|のうひん}できないことになっている。",
       "english": "We cannot deliver without a purchase order.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{発注書|はっちゅうしょ} is a formal business document used to place an order with a supplier.\n\nWORD FORMATION:\n{発注|はっちゅう} (placing an order) + {書|しょ} (document)\n\nCOMMON EXPRESSIONS:\n- {発注書|はっちゅうしょ}を{送|おく}る: to send a purchase order\n- {発注書|はっちゅうしょ}を{発行|はっこう}する: to issue a purchase order\n- {発注書|はっちゅうしょ}に{基|もと}づく: based on the purchase order\n\nRELATED BUSINESS DOCUMENTS:\n- {見積書|みつもりしょ}: quotation\n- {注文書|ちゅうもんしょ}: order form (similar/interchangeable)\n- {請求書|せいきゅうしょ}: invoice\n- {納品書|のうひんしょ}: delivery slip\n- {領収書|りょうしゅうしょ}: receipt\n\nBUSINESS CONTEXT:\n{発注書|はっちゅうしょ} is typically issued by the buyer and serves as a formal record of what was ordered, quantity, price, and delivery terms.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "reading": "ちゅうもんしょ",
+      "headword": "{注文書|ちゅうもんしょ}",
+      "label": "order form (less formal)",
+      "target_id": "08126_chuumonsho"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
-      "semantic": ["business", "document", "commerce"]
+      "semantic": [
+        "business",
+        "document",
+        "commerce"
+      ]
     },
     "created": "2026-01-25T01:22:36Z",
     "modified": "2026-01-26T23:53:38Z"
