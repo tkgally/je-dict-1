@@ -6,68 +6,6 @@
   "gloss": "to sink to; to stoop to; to degrade oneself to",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{成|な}り{下|さ}が"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to sink to; to stoop to; to degrade oneself to",
-      "explanation": "to fall to a lower status, role, or condition that is considered shameful"
-    }
-  ],
-  "examples": [
-    {
-      "id": "08235_narisagaru_ex1",
-      "japanese": "{詐欺師|さぎし}に{成|な}り{下|さ}がった。",
-      "english": "He sank to becoming a con artist.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08235_narisagaru_ex2",
-      "japanese": "{犯罪者|はんざいしゃ}に{成|な}り{下|さ}がるとは{思|おも}わなかった。",
-      "english": "I never thought he would stoop to becoming a criminal.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "08235_narisagaru_ex3",
-      "japanese": "かつての{英雄|えいゆう}が{乞食|こじき}に{成|な}り{下|さ}がった。",
-      "english": "The former hero was reduced to begging.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし})\n\nUSAGE:\n- 〜に{成|な}り{下|さ}がる (to sink to becoming ~)\n\nNUANCE:\nStrongly negative connotation. Implies a shameful fall from a better state. The destination is always something considered degrading or dishonorable.\n\nCONTRAST:\n- {成|な}り{上|あ}がる (to rise in status - opposite direction, but also often negative as \"parvenu\")\n- {落|お}ちぶれる (to come down in the world - similar but less focused on moral degradation)",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "formality": "neutral",
-      "semantic": [
-        "status",
-        "evaluation"
-      ],
-      "verb_class": "godan-ru"
-    },
-    "created": "2026-01-25T08:33:23Z",
-    "modified": "2026-04-10T06:37:10Z"
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -155,5 +93,71 @@
         "negative": "{成|な}り{下|さ}がるな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to sink to; to stoop to; to degrade oneself to",
+      "explanation": "to fall to a lower status, role, or condition that is considered shameful"
+    }
+  ],
+  "examples": [
+    {
+      "id": "08235_narisagaru_ex1",
+      "japanese": "{詐欺師|さぎし}に{成|な}り{下|さ}がった。",
+      "english": "He sank to becoming a con artist.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08235_narisagaru_ex2",
+      "japanese": "{犯罪者|はんざいしゃ}に{成|な}り{下|さ}がるとは{思|おも}わなかった。",
+      "english": "I never thought he would stoop to becoming a criminal.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "08235_narisagaru_ex3",
+      "japanese": "かつての{英雄|えいゆう}が{乞食|こじき}に{成|な}り{下|さ}がった。",
+      "english": "The former hero was reduced to begging.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "TRANSITIVITY:\nIntransitive ({自動詞|じどうし})\n\nUSAGE:\n- 〜に{成|な}り{下|さ}がる (to sink to becoming ~)\n\nNUANCE:\nStrongly negative connotation. Implies a shameful fall from a better state. The destination is always something considered degrading or dishonorable.\n\nCONTRAST:\n- {成|な}り{上|あ}がる (to rise in status - opposite direction, but also often negative as \"parvenu\")\n- {落|お}ちぶれる (to come down in the world - similar but less focused on moral degradation)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "なりあがる",
+      "headword": "{成|な}り{上|あ}がる",
+      "label": "to rise in status; to climb the social ladder",
+      "target_id": "08205_nariagaru"
+    }
+  ],
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "semantic": [
+        "status",
+        "evaluation"
+      ],
+      "verb_class": "godan-ru"
+    },
+    "created": "2026-01-25T08:33:23Z",
+    "modified": "2026-04-10T06:37:10Z"
   }
 }
