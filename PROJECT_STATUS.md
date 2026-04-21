@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-21 (Vocabulary Expansion - 20 New Entries, Batch 19)
+Added 20 new dictionary entries (IDs 24894-24913) from candidate_words.json. Mixed batch covering community life, culture, science, law, language, and daily vocabulary.
+
+- **Community / daily life (4)**: {町会|ちょうかい} (neighborhood association), {掃除用具|そうじようぐ} (cleaning tools), {都外|とがい} (outside Tokyo), {予約券|よやくけん} (reservation ticket)
+- **Food / culture (2)**: {切り餅|きりもち} (block mochi), {趣向|しゅこう} (creative twist)
+- **Science / environment (3)**: {寒冷化|かんれいか} (cooling/climate shift), {炭素排出|たんそはいしゅつ} (carbon emissions), {推力|すいりょく} (thrust)
+- **Technology (1)**: ショートする (to short-circuit)
+- **Law / religion / philosophy (3)**: {制定法|せいていほう} (statute law), {常住|じょうじゅう} (permanence/permanent residence), {色情|しきじょう} (lust/sensuality)
+- **Language / literature (2)**: {典故|てんこ} (classical allusion), {発行所|はっこうしょ} (publishing office)
+- **History / nature (2)**: {軍馬|ぐんば} (war horse), {波面|はめん} (wave surface)
+- **Expressions (2)**: {交換券|こうかんけん} (exchange coupon), ふくれっつら (sulky face), {経過点|けいかてん} (waypoint/milestone)
+- Conjugation tables auto-generated for 3 suru verb entries
+- Removed 1 stale candidate (博士号 はかせごう, variant of existing entry 16350)
+- 20 candidates synced from candidate list
+
+Total entries: 24,691 → 24,711.
+
 ### 2026-04-21 (Vocabulary Expansion - 22 New Entries, Batch 18)
 Added 22 new dictionary entries (IDs 24872-24893) from candidate_words.json. Mixed batch covering social/cultural concepts, education, politics, infrastructure, health, sports, and practical vocabulary.
 
@@ -113,19 +130,5 @@ Added 30 new dictionary entries (IDs 24786-24815) from candidate_words.json. Div
 - **Other (7)**: ホワイトアウト (whiteout), {地場|じば}{産業|さんぎょう} (local industry), {追悼式|ついとうしき} (memorial service), {粒度|りゅうど} (granularity), {跳|は}ね{返|かえ}し (rebound), {素性|すじょう}が{知|し}れる (background revealed), {筋骨|きんこつ}たくましい (muscular)
 
 Total entries: 24,583 → 24,613.
-
-### 2026-04-20 (Vocabulary Expansion - 17 New Entries, Batch 14)
-Added 17 new dictionary entries (IDs 24769-24785) from candidate_words.json. Diverse batch covering business/finance, culture, food, nature, geography, and daily life.
-
-- **Business / finance (4)**: {売|う}り{手|て} (seller), {買|か}い{手|て} (buyer), {証券会社|しょうけんがいしゃ} (securities company), {信用金庫|しんようきんこ} (credit union)
-- **Culture / history (4)**: {宿場町|しゅくばまち} (post town), {護符|ごふ} (protective talisman), {呪術|じゅじゅつ} (sorcery), {日帰|ひがえ}り{温泉|おんせん} (day-trip hot spring)
-- **Food (1)**: {味噌漬|みそづ}け (miso pickles)
-- **Nature (1)**: {雛鳥|ひなどり} (baby bird)
-- **Formal / meetings (2)**: {散会|さんかい} (adjournment), {政令|せいれい} (cabinet order)
-- **Other (5)**: {最終日|さいしゅうび} (final day), {浄水器|じょうすいき} (water purifier), {弟分|おとうとぶん} (younger-brother figure), {中間色|ちゅうかんしょく} (intermediate color), {放射状|ほうしゃじょう} (radial pattern)
-- Conjugation table auto-generated for 1 suru verb entry (散会)
-- Removed 1 stale candidate (他人事/たにんごと, covered by existing entry 09570)
-
-Total entries: 24,566 → 24,583.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
