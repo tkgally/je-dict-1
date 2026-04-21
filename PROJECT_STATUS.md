@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-21 (Vocabulary Expansion - 22 New Entries, Batch 18)
+Added 22 new dictionary entries (IDs 24872-24893) from candidate_words.json. Mixed batch covering social/cultural concepts, education, politics, infrastructure, health, sports, and practical vocabulary.
+
+- **Social / cultural (3)**: {嫌|きら}われる (to be disliked), {報|むく}われない (unrewarded), {通過儀礼|つうかぎれい} (rite of passage)
+- **Education / research (4)**: {黒板消|こくばんけ}し (blackboard eraser), {試験監督|しけんかんとく} (exam proctor), {採点者|さいてんしゃ} (grader), {聞|き}き{取|と}り{調査|ちょうさ} (interview survey)
+- **Politics / government (3)**: {超大国|ちょうたいこく} (superpower), {出入国|しゅつにゅうこく} (immigration/emigration), {禁止解除|きんしかいじょ} (lifting a ban)
+- **Math / business (2)**: {概数|がいすう} (approximate number), {加算|かさん} (addition/surcharge)
+- **Infrastructure / tech (3)**: {配電盤|はいでんばん} (electrical panel), {送風機|そうふうき} (blower), {焼却場|しょうきゃくじょう} (incineration plant)
+- **Transport / urban (2)**: {停留|ていりゅう} (stopping), {通過点|つうかてん} (waypoint/milestone)
+- **Nature / health / sports (3)**: {植栽|しょくさい} (planting/landscaping), {扁平足|へんぺいそく} (flat feet), {陸上選手|りくじょうせんしゅ} (track athlete)
+- **Other (2)**: {助言者|じょげんしゃ} (advisor), {音楽隊|おんがくたい} (band/music corps)
+- Conjugation tables auto-generated for 6 suru verbs and 1 ichidan verb, 1 i-adjective
+- 1 new kanji added to index: 扁
+- 22 candidates removed from candidate list
+
+Total entries: 24,669 → 24,691.
+
 ### 2026-04-21 (Vocabulary Expansion - 28 New Entries, Batch 17)
 Added 28 new dictionary entries (IDs 24844-24871) from candidate_words.json. Diverse batch covering expressions, business, culture, language, geography, and general vocabulary.
 
