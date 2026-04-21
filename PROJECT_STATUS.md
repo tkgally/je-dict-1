@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-21 (Vocabulary Expansion - 24 New Entries, Batch 20)
+Added 24 new dictionary entries (IDs 24914-24937) from candidate_words.json. Mixed batch covering health/beauty, society, education, finance, food, science, and daily life vocabulary.
+
+- **Health / beauty (3)**: {脱毛|だつもう} (hair removal/loss), {除毛|じょもう} (surface hair removal), {幻聴|げんちょう} (auditory hallucination)
+- **Society / people (4)**: {蹂躙|じゅうりん} (trampling/violation), {放浪者|ほうろうしゃ} (wanderer), {支援者|しえんしゃ} (supporter), {最強者|さいきょうしゃ} (the strongest)
+- **Education (1)**: {定期試験|ていきしけん} (regular exam)
+- **Finance / commerce (3)**: {借金返済|しゃっきんへんさい} (debt repayment), {掛|か}け{金|きん} (premium/stake), {現在価格|げんざいかかく} (current price)
+- **Food / science (3)**: {加水|かすい} (adding water), {注水|ちゅうすい} (water injection), {食品保存|しょくひんほぞん} (food preservation)
+- **Health / fitness (2)**: {運動量|うんどうりょう} (amount of exercise), {異常値|いじょうち} (abnormal value)
+- **Daily life / expressions (4)**: {気分|きぶん}が{悪|わる}い (feel sick/bad), ご{自宅|じたく} (your home, honorific), {携帯品|けいたいひん} (personal belongings), {最弱|さいじゃく} (weakest)
+- **Na-adjectives (2)**: {抵抗的|ていこうてき} (resistant/defiant), {感性的|かんせいてき} (emotional/aesthetic)
+- **Government / travel (2)**: {入国管理局|にゅうこくかんりきょく} (immigration bureau), {連勝記録|れんしょうきろく} (winning streak record)
+- Conjugation tables auto-generated for 4 suru verb entries
+- 2 new kanji added to index: 蹂, 躙
+- 24 candidates synced from candidate list
+
+Total entries: 24,711 → 24,735.
+
 ### 2026-04-21 (Vocabulary Expansion - 20 New Entries, Batch 19)
 Added 20 new dictionary entries (IDs 24894-24913) from candidate_words.json. Mixed batch covering community life, culture, science, law, language, and daily vocabulary.
 
@@ -116,19 +134,5 @@ Added 28 new dictionary entries (IDs 24816-24843) from candidate_words.json. Div
 - Conjugation tables auto-generated for 8 verb entries
 
 Total entries: 24,613 -> 24,641.
-
-### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 15)
-Added 30 new dictionary entries (IDs 24786-24815) from candidate_words.json. Diverse batch covering military, history, culture, science, language, sports, daily life, and modern society.
-
-- **Military / security (3)**: {匍匐|ほふく} (crawling), {着弾|ちゃくだん} (projectile impact), {化学|かがく}{兵器|へいき} (chemical weapon)
-- **History / culture (5)**: {後宮|こうきゅう} (inner palace), {武家屋敷|ぶけやしき} (samurai residence), {文化勲章|ぶんかくんしょう} (Order of Culture), {進上|しんじょう} (formal gift-giving), {貴公|きこう} (archaic "you")
-- **Science / education (3)**: {化学式|かがくしき} (chemical formula), {仮定形|かていけい} (hypothetical form), {化学|かがく}{薬品|やくひん} (chemicals)
-- **Sports / entertainment (3)**: {白星|しろぼし}を{挙|あ}げる (score a win), {通|とお}し{稽古|げいこ} (full rehearsal), {着|き}せ{替|か}え{人形|にんぎょう} (dress-up doll)
-- **Modern society (3)**: {転売|てんばい}{禁止|きんし} (resale prohibition), {命名権|めいめいけん} (naming rights), {入場|にゅうじょう}{禁止|きんし} (no admittance)
-- **Health / daily life (4)**: {体脂肪率|たいしぼうりつ} (body fat percentage), {生理用品|せいりようひん} (sanitary products), {入院|にゅういん}{患者|かんじゃ} (inpatient), {滞在|たいざい}{日数|にっすう} (length of stay)
-- **Language / register (2)**: てめえ (vulgar "you"), {返|かえ}し (comeback/sauce)
-- **Other (7)**: ホワイトアウト (whiteout), {地場|じば}{産業|さんぎょう} (local industry), {追悼式|ついとうしき} (memorial service), {粒度|りゅうど} (granularity), {跳|は}ね{返|かえ}し (rebound), {素性|すじょう}が{知|し}れる (background revealed), {筋骨|きんこつ}たくましい (muscular)
-
-Total entries: 24,583 → 24,613.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
