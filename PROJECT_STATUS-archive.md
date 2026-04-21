@@ -3,6 +3,21 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-20 (Vocabulary Expansion - 25 New Entries, Batch 13)
+Added 25 new dictionary entries (IDs 24744-24768). Batch covering cultural practices, daily life, finance, history, medical, and general vocabulary. Total entries: 24,541 → 24,566.
+
+### 2026-04-20 (Vocabulary Expansion - 27 New Entries, Batch 12)
+Added 27 new dictionary entries (IDs 24717-24743). Mix of practical, technical, academic, and cultural vocabulary. Total entries: 24,514 → 24,541.
+
+### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 11)
+Added 26 new dictionary entries (IDs 24691-24716). Practical, business, cultural, and everyday vocabulary. Total entries: 24,488 → 24,514.
+
+### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 10)
+Added 30 new dictionary entries (IDs 24661-24690). Practical, institutional, and cultural vocabulary. Total entries: 24,458 → 24,488.
+
+### 2026-04-20 (Vocabulary Expansion - 26 New Entries, Batch 9)
+Added 26 new dictionary entries (IDs 24635-24660). Media/publishing, politics/history, religion/culture, nature, medicine, business vocabulary. Total entries: 24,432 → 24,458.
+
 ### 2026-04-19 (Vocabulary Expansion - 20 New Entries, Batch 5)
 Added 20 new dictionary entries (IDs 24539-24558) from candidate_words.json. A diverse batch covering conflict/diplomacy, law enforcement, weather/geography, arts/culture, and practical vocabulary.
 
