@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-21 (Vocabulary Expansion - 28 New Entries, Batch 16)
+Added 28 new dictionary entries (IDs 24816-24843) from candidate_words.json. Diverse batch covering culture, health, science, food, sports, economics, and daily life.
+
+- **Culture / traditions (4)**: {好色|こうしょく} (lustful/amorous), {酒器|しゅき} (sake vessel), お{七夜|しちや} (baby naming ceremony), {百日|ももか}{祝|いわ}い (100-day celebration)
+- **Health / medical (4)**: {失禁|しっきん} (incontinence), {聴覚|ちょうかく}{障害|しょうがい} (hearing impairment), {終末|しゅうまつ}{医療|いりょう} (end-of-life care), {交感|こうかん}{神経|しんけい} (sympathetic nerve)
+- **Science / environment (3)**: {自然|しぜん}{科学|かがく} (natural science), {温室|おんしつ}{効果|こうか}ガス (greenhouse gas), {無人機|むじんき} (drone)
+- **Business / economics (3)**: {上方|じょうほう}{修正|しゅうせい} (upward revision), {私有化|しゆうか} (privatization), {清涼|せいりょう}{飲料|いんりょう} (soft drink)
+- **Education (2)**: {遠隔|えんかく}{教育|きょういく} (distance education), {学部長|がくぶちょう} (dean)
+- **Food / drink (3)**: さやいんげん (green bean), ソーダ{水|すい} (soda water), {和|わ}{布団|ぶとん} (Japanese futon)
+- **Sports / entertainment (3)**: {猛練習|もうれんしゅう} (intensive practice), {金属|きんぞく}バット (metal bat), {助演|じょえん}{女優|じょゆう} (supporting actress)
+- **History / other (4)**: {打|う}ち{壊|こわ}し (Edo-period riot), {引|ひ}きずり{出|だ}す (to drag out), {将棋盤|しょうぎばん} (shogi board), {化粧|けしょう}{鏡|きょう} (vanity mirror), {印刷機|いんさつき} (printing press)
+- Removed 1 stale candidate (望遠レンズ, duplicate of entry 24644)
+- Conjugation tables auto-generated for 8 verb entries
+
+Total entries: 24,613 -> 24,641.
+
 ### 2026-04-20 (Vocabulary Expansion - 30 New Entries, Batch 15)
 Added 30 new dictionary entries (IDs 24786-24815) from candidate_words.json. Diverse batch covering military, history, culture, science, language, sports, daily life, and modern society.
 
