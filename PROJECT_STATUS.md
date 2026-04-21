@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-21 (Vocabulary Expansion - 25 New Entries, Batch 21)
+Added 25 new dictionary entries (IDs 24938-24962) from candidate_words.json. Thematic batch covering health/medical, daily life/travel, Japan-specific culture, business/legal, and technical vocabulary.
+
+- **Health / medical (3)**: {禁断症状|きんだんしょうじょう} (withdrawal symptoms), {予防医療|よぼういりょう} (preventive medicine), {姿勢矯正|しせいきょうせい} (posture correction)
+- **Daily life / travel (5)**: {電話予約|でんわよやく} (phone reservation), {荷物置|にもつお}き{場|ば} (luggage storage area), クーポン{券|けん} (coupon), グリーン{券|けん} (green car ticket), {貴重品入|きちょうひんい}れ (valuables locker)
+- **Japan-specific culture (4)**: {耐震設計|たいしんせっけい} (earthquake-resistant design), {精進弁当|しょうじんべんとう} (vegetarian bento), {山葵漬|わさびづ}け (wasabi pickles), {襖紙|ふすまがみ} (fusuma paper)
+- **Business / legal (5)**: {提携店|ていけいてん} (partner store), {子会社化|こがいしゃか} (subsidiarization), {被選挙権|ひせんきょけん} (right to run for office), {除籍|じょせき} (removal from register), {私文書|しぶんしょ} (private document)
+- **Technical / practical (3)**: {予備電源|よびでんげん} (backup power source), {手信号|てしんごう} (hand signal), {耐震強度|たいしんきょうど} (seismic strength)
+- **Other (5)**: {連載終了|れんさいしゅうりょう} (end of serialization), {奇妙|きみょう}さ (strangeness), {努力給|どりょくきゅう} (effort-based pay), {限定免許|げんていめんきょ} (restricted license), {旧校舎|きゅうこうしゃ} (old school building)
+- 25 candidates synced from candidate list
+
+Total entries: 24,735 → 24,760.
+
 ### 2026-04-21 (Vocabulary Expansion - 24 New Entries, Batch 20)
 Added 24 new dictionary entries (IDs 24914-24937) from candidate_words.json. Mixed batch covering health/beauty, society, education, finance, food, science, and daily life vocabulary.
 
@@ -118,21 +131,5 @@ Added 28 new dictionary entries (IDs 24844-24871) from candidate_words.json. Div
 - Removed 5 stale candidates (duplicates/variants of existing entries)
 
 Total entries: 24,641 → 24,669.
-
-### 2026-04-21 (Vocabulary Expansion - 28 New Entries, Batch 16)
-Added 28 new dictionary entries (IDs 24816-24843) from candidate_words.json. Diverse batch covering culture, health, science, food, sports, economics, and daily life.
-
-- **Culture / traditions (4)**: {好色|こうしょく} (lustful/amorous), {酒器|しゅき} (sake vessel), お{七夜|しちや} (baby naming ceremony), {百日|ももか}{祝|いわ}い (100-day celebration)
-- **Health / medical (4)**: {失禁|しっきん} (incontinence), {聴覚|ちょうかく}{障害|しょうがい} (hearing impairment), {終末|しゅうまつ}{医療|いりょう} (end-of-life care), {交感|こうかん}{神経|しんけい} (sympathetic nerve)
-- **Science / environment (3)**: {自然|しぜん}{科学|かがく} (natural science), {温室|おんしつ}{効果|こうか}ガス (greenhouse gas), {無人機|むじんき} (drone)
-- **Business / economics (3)**: {上方|じょうほう}{修正|しゅうせい} (upward revision), {私有化|しゆうか} (privatization), {清涼|せいりょう}{飲料|いんりょう} (soft drink)
-- **Education (2)**: {遠隔|えんかく}{教育|きょういく} (distance education), {学部長|がくぶちょう} (dean)
-- **Food / drink (3)**: さやいんげん (green bean), ソーダ{水|すい} (soda water), {和|わ}{布団|ぶとん} (Japanese futon)
-- **Sports / entertainment (3)**: {猛練習|もうれんしゅう} (intensive practice), {金属|きんぞく}バット (metal bat), {助演|じょえん}{女優|じょゆう} (supporting actress)
-- **History / other (4)**: {打|う}ち{壊|こわ}し (Edo-period riot), {引|ひ}きずり{出|だ}す (to drag out), {将棋盤|しょうぎばん} (shogi board), {化粧|けしょう}{鏡|きょう} (vanity mirror), {印刷機|いんさつき} (printing press)
-- Removed 1 stale candidate (望遠レンズ, duplicate of entry 24644)
-- Conjugation tables auto-generated for 8 verb entries
-
-Total entries: 24,613 -> 24,641.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
