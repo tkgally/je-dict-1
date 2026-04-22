@@ -17,7 +17,9 @@
       "id": "20726_shokuzen_ex1",
       "japanese": "この{薬|くすり}は{食前|しょくぜん}に{飲|の}む。",
       "english": "Take this medicine before meals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "20726_shokuzen_ex2",
       "japanese": "{食前|しょくぜん}に{手|て}を{洗|あら}いましょう。",
       "english": "Let's wash our hands before eating.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "20726_shokuzen_ex3",
       "japanese": "{食前|しょくぜん}{三十分|さんじゅっぷん}に{服用|ふくよう}してください。",
       "english": "Please take it thirty minutes before meals.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,12 +49,27 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food", "health", "time"]
+      "semantic": [
+        "food",
+        "health",
+        "time"
+      ]
     },
     "created": "2026-03-30T14:26:51Z",
-    "modified": "2026-03-30T14:26:51Z"
-  }
+    "modified": "2026-04-22T08:43:07Z"
+  },
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09499_shokugo",
+      "reading": "しょくご",
+      "headword": "{食後|しょくご}",
+      "label": "after a meal"
+    }
+  ]
 }

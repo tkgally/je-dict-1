@@ -16,7 +16,9 @@
       "id": "09270_tankyori_ex1",
       "japanese": "{短距離|たんきょり}{走|そう}が{得意|とくい}だ。",
       "english": "I'm good at short-distance running.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09270_tankyori_ex2",
       "japanese": "{短距離|たんきょり}の{移動|いどう}なら{自転車|じてんしゃ}が{便利|べんり}だ。",
       "english": "For short-distance travel, a bicycle is convenient.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,37 @@
       "id": "09270_tankyori_ex3",
       "japanese": "{彼女|かのじょ}は{短距離|たんきょり}{選手|せんしゅ}として{活躍|かつやく}している。",
       "english": "She is active as a sprinter.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{短距離|たんきょり} refers to a short distance, often used in the context of track and field events (100m, 200m, etc.) or short-haul transportation.\n\nCOMMON COLLOCATIONS:\n- {短距離|たんきょり}{走|そう} (short-distance running, sprint)\n- {短距離|たんきょり}{選手|せんしゅ} (sprinter)\n- {短距離|たんきょり}{競走|きょうそう} (sprint race)\n- {短距離|たんきょり}バス (short-distance bus)\n\nRELATED TERMS:\n- {長距離|ちょうきょり} (long distance) - opposite\n- {中距離|ちゅうきょり} (middle distance)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09271_choukyori",
+      "reading": "ちょうきょり",
+      "headword": "{長距離|ちょうきょり}",
+      "label": "long distance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:15:45Z",
-    "modified": "2026-02-01T06:15:45Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

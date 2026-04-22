@@ -16,7 +16,9 @@
       "id": "09275_boutakatobi_ex1",
       "japanese": "{棒高跳|ぼうたかと}びは{難|むずか}しい{競技|きょうぎ}だ。",
       "english": "Pole vault is a difficult event.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09275_boutakatobi_ex2",
       "japanese": "{棒高跳|ぼうたかと}びで{六|ろく}メートルを{越|こ}えた。",
       "english": "He cleared six meters in pole vault.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,44 @@
       "id": "09275_boutakatobi_ex3",
       "japanese": "{棒高跳|ぼうたかと}びは{陸上競技|りくじょうきょうぎ}の{花形|はながた}の{一|ひと}つだ。",
       "english": "Pole vault is one of the highlights of track and field.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A {陸上競技|りくじょうきょうぎ} (track and field) event where athletes vault over a crossbar using a long flexible pole.\n\nCOMPOUND: {棒|ぼう} (pole) + {高跳|たかと}び (high jump)\n\nCOMMON COLLOCATIONS:\n- {棒高跳|ぼうたかと}びの{選手|せんしゅ}: pole vaulter\n- {棒高跳|ぼうたかと}びで{記録|きろく}を{出|だ}す: to set a record in pole vault\n- バーを{越|こ}える: to clear the bar\n- {棒高跳|ぼうたかと}びの{世界記録|せかいきろく}: pole vault world record\n\nTECHNICAL TERMS:\n- ポール: pole\n- バー: crossbar\n- {踏|ふ}み{切|き}り: takeoff\n- {助走|じょそう}: approach run\n\nRELATED:\n- {走|はし}り{高跳|たかと}び: high jump\n- {走|はし}り{幅跳|はばと}び: long jump",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09276_hashiritakatobi",
+      "reading": "はしりたかとび",
+      "headword": "{走|はし}り{高跳|たかと}び",
+      "label": "high jump"
+    },
+    {
+      "type": "related",
+      "target_id": "09277_hashirihabatobi",
+      "reading": "はしりはばとび",
+      "headword": "{走|はし}り{幅跳|はばと}び",
+      "label": "long jump"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:17:59Z",
-    "modified": "2026-04-07T03:52:40Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

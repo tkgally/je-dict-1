@@ -16,7 +16,9 @@
       "id": "09284_dojouosen_ex1",
       "japanese": "{土壌汚染|どじょうおせん}の{調査|ちょうさ}が{行|おこな}われた。",
       "english": "A soil contamination survey was conducted.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09284_dojouosen_ex2",
       "japanese": "{土壌汚染|どじょうおせん}は{長期間|ちょうきかん}{残|のこ}ることがある。",
       "english": "Soil contamination can persist for a long time.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,24 +36,54 @@
       "id": "09284_dojouosen_ex3",
       "japanese": "{工場|こうじょう}{跡地|あとち}で{土壌汚染|どじょうおせん}が{発覚|はっかく}した。",
       "english": "Soil contamination was discovered at a former factory site.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{土壌汚染|どじょうおせん} is an environmental issue caused by industrial activities, improper waste disposal, pesticides, and other pollutants seeping into the ground.\n\nCOMMON COLLOCATIONS:\n- {土壌汚染|どじょうおせん}{対策|たいさく}{法|ほう} (Soil Contamination Countermeasures Act)\n- {土壌汚染|どじょうおせん}の{浄化|じょうか} (soil remediation)\n- {土壌汚染|どじょうおせん}{調査|ちょうさ} (soil contamination survey)\n\nRELATED TERMS:\n- {水質汚染|すいしつおせん} (water pollution)\n- {大気汚染|たいきおせん} (air pollution)\n- {地下水|ちかすい}{汚染|おせん} (groundwater contamination)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09254_taikiosen",
+      "reading": "たいきおせん",
+      "headword": "{大気汚染|たいきおせん}",
+      "label": "air pollution"
+    },
+    {
+      "type": "related",
+      "target_id": "09283_suishitsuosen",
+      "reading": "すいしつおせん",
+      "headword": "{水質汚染|すいしつおせん}",
+      "label": "water pollution"
+    },
+    {
+      "type": "related",
+      "target_id": "02595_osen",
+      "reading": "おせん",
+      "headword": "{汚染|おせん}",
+      "label": "pollution, contamination"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:19:49Z",
-    "modified": "2026-02-01T06:19:49Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

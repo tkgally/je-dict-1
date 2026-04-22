@@ -18,7 +18,9 @@
       "english": "They're totally wasted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09428_berobero_ex2",
@@ -26,7 +28,9 @@
       "english": "You were so drunk yesterday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09428_berobero_ex3",
@@ -34,7 +38,9 @@
       "english": "I got so wasted I don't remember anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09428_berobero_ex4",
@@ -42,21 +48,53 @@
       "english": "They called me while completely sloshed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "べろべろ is a common mimetic word for being very drunk. The word べろ means \"tongue,\" and べろべろ may evoke the image of a tongue loosened by alcohol.\n\nCommon patterns:\n- べろべろに{酔|よ}う (to get wasted)\n- べろべろになる (to become drunk)\n- べろべろの{状態|じょうたい} (drunk state)\n\nRelated expressions:\n- ぐでんぐでん (dead drunk - more severe)\n- へべれけ (drunk and rambling)\n- ほろ{酔|よ}い (tipsy - less severe)\n\nべろべろ is commonly used in casual conversation and is not considered vulgar.",
   "metadata": {
     "created": "2026-02-01T11:13:48Z",
-    "modified": "2026-02-01T11:13:48Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["onomatopoeia", "descriptive"],
-      "style": ["spoken"]
+      "semantic": [
+        "onomatopoeia",
+        "descriptive"
+      ],
+      "style": [
+        "spoken"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "09427_gudenguden",
+      "reading": "ぐでんぐでん",
+      "headword": "ぐでんぐでん",
+      "label": "dead drunk"
+    },
+    {
+      "type": "related",
+      "target_id": "09429_yopparai",
+      "reading": "よっぱらい",
+      "headword": "{酔|よ}っ{払|ぱら}い",
+      "label": "drunk person"
+    },
+    {
+      "type": "contrast",
+      "target_id": "09370_horoyoi",
+      "reading": "ほろよい",
+      "headword": "ほろ{酔|よ}い",
+      "label": "tipsy (milder)"
+    }
+  ]
 }
