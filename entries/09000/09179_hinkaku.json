@@ -16,7 +16,9 @@
       "id": "09179_hinkaku_ex1",
       "japanese": "{品格|ひんかく}のある{人|ひと}",
       "english": "a person of dignity",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09179_hinkaku_ex2",
       "japanese": "{彼女|かのじょ}の{振|ふ}る{舞|ま}いには{品格|ひんかく}がある。",
       "english": "There is grace in her manners.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,52 @@
       "id": "09179_hinkaku_ex3",
       "japanese": "{国家|こっか}の{品格|ひんかく}は、{国民|こくみん}の{行動|こうどう}によって{示|しめ}される。",
       "english": "A nation's dignity is demonstrated by the conduct of its people.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "NUANCE: {品格|ひんかく} suggests refined elegance with moral undertones. It implies both external grace and inner character. The book「{国家|こっか}の{品格|ひんかく}」(The Dignity of the Nation) made this term widely discussed in the 2000s.\n\nCOMMON COLLOCATIONS:\n- {品格|ひんかく}がある/ない (to have/lack dignity)\n- {品格|ひんかく}のある{人|ひと} (a person of refinement)\n- {品格|ひんかく}を{保|たも}つ (to maintain dignity)\n- {品格|ひんかく}を{損|そこ}なう (to damage one's dignity)\n\nRELATED WORDS:\n- {品|ひん} (elegance, refinement)\n- {気品|きひん} (elegance, grace)\n- {風格|ふうかく} (dignity, character)\n- {威厳|いげん} (dignity, majesty - more imposing)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "13255_kihin",
+      "reading": "きひん",
+      "headword": "{気品|きひん}",
+      "label": "elegance, grace"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09177_fuukaku",
+      "reading": "ふうかく",
+      "headword": "{風格|ふうかく}",
+      "label": "dignity, character"
+    },
+    {
+      "type": "synonym",
+      "target_id": "10680_igen",
+      "reading": "いげん",
+      "headword": "{威厳|いげん}",
+      "label": "more imposing"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T01:39:02Z",
-    "modified": "2026-02-01T01:39:02Z",
+    "modified": "2026-04-22T08:20:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality", "positive"]
+      "semantic": [
+        "personality",
+        "positive"
+      ]
     }
   }
 }

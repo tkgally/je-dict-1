@@ -16,7 +16,9 @@
       "id": "09201_shisso_ex1",
       "japanese": "{質素|しっそ}な{暮|く}らし",
       "english": "a simple lifestyle",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09201_shisso_ex2",
       "japanese": "{質素|しっそ}な{食事|しょくじ}だが、{栄養|えいよう}は{十分|じゅうぶん}だ。",
       "english": "The meal is simple but nutritious enough.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,66 @@
       "id": "09201_shisso_ex3",
       "japanese": "{質素|しっそ}{倹約|けんやく}を{旨|むね}として{生|い}きてきた{祖父母|そふぼ}を{尊敬|そんけい}している。",
       "english": "I respect my grandparents who have lived by the principle of simple frugality.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {質素|しっそ}な{生活|せいかつ}.\n\nADVERBIAL FORM: {質素|しっそ}に (simply, frugally)\n\nNUANCE: {質素|しっそ} typically has positive connotations - it suggests admirable simplicity and lack of pretension rather than poverty. It's often associated with traditional Japanese values of modesty.\n\nFOUR-CHARACTER COMPOUND: {質素|しっそ}{倹約|けんやく} (simple and frugal) is a common phrase describing a modest, thrifty lifestyle.\n\nCOMMON COLLOCATIONS:\n- {質素|しっそ}な{暮|く}らし/{生活|せいかつ} (simple life)\n- {質素|しっそ}な{食事|しょくじ} (simple meal)\n- {質素|しっそ}{倹約|けんやく} (simple frugality)\n- {質素|しっそ}に{暮|く}らす (to live simply)\n\nRELATED WORDS:\n- {簡素|かんそ} (simple, plain - similar)\n- {地味|じみ} (plain, subdued)\n- {倹約|けんやく} (thrift, economy)\n- {華麗|かれい} (splendid, gorgeous - opposite)\n- {豪華|ごうか} (luxurious - opposite)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "09202_kanso",
+      "reading": "かんそ",
+      "headword": "{簡素|かんそ}",
+      "label": "simple, plain"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01573_jimi",
+      "reading": "じみ",
+      "headword": "{地味|じみ}",
+      "label": "plain, subdued"
+    },
+    {
+      "type": "related",
+      "target_id": "09203_kenyaku",
+      "reading": "けんやく",
+      "headword": "{倹約|けんやく}",
+      "label": "thrift"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09199_karei",
+      "reading": "かれい",
+      "headword": "{華麗|かれい}",
+      "label": "splendid"
+    },
+    {
+      "type": "antonym",
+      "target_id": "02815_gouka",
+      "reading": "ごうか",
+      "headword": "{豪華|ごうか}",
+      "label": "luxurious"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T01:43:45Z",
-    "modified": "2026-02-01T01:43:45Z",
+    "modified": "2026-04-22T08:20:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["lifestyle", "positive"]
+      "semantic": [
+        "lifestyle",
+        "positive"
+      ]
     }
   }
 }
