@@ -38,6 +38,22 @@
     }
   ],
   "notes": "SCOPE OF WORK:\n- {不動産|ふどうさん}{登記|とうき} - real estate registration\n- {商業|しょうぎょう}{登記|とうき} - commercial registration\n- {会社|かいしゃ}{設立|せつりつ} - company incorporation\n- {相続|そうぞく}{手続|てつづ}き - inheritance procedures\n- {債務|さいむ}{整理|せいり} - debt restructuring (limited)\n\nCONTRAST WITH OTHER LEGAL PROFESSIONALS:\n- {弁護士|べんごし} - lawyer (litigation, legal advice)\n- {司法|しほう}{書士|しょし} - judicial scrivener (registration, documents)\n- {行政|ぎょうせい}{書士|しょし} - administrative scrivener (government permits)\n- {税理士|ぜいりし} - tax accountant\n\nJAPAN-SPECIFIC:\nThis profession is unique to Japan. In other countries, these tasks are typically handled by lawyers or notaries.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08748_gyouseishoshi",
+      "reading": "ぎょうせいしょし",
+      "headword": "{行政|ぎょうせい}{書士|しょし}",
+      "label": "administrative scrivener"
+    },
+    {
+      "type": "related",
+      "target_id": "03150_bengoshi",
+      "reading": "べんごし",
+      "headword": "{弁護士|べんごし}",
+      "label": "lawyer"
+    }
+  ],
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
@@ -46,6 +62,6 @@
       "semantic": ["legal", "profession"]
     },
     "created": "2026-01-28T03:36:53Z",
-    "modified": "2026-01-28T03:36:53Z"
+    "modified": "2026-04-22T04:11:39Z"
   }
 }
