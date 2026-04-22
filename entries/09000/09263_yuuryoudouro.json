@@ -16,7 +16,9 @@
       "id": "09263_yuuryoudouro_ex1",
       "japanese": "{有料道路|ゆうりょうどうろ}を{使|つか}う。",
       "english": "To use the toll road.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09263_yuuryoudouro_ex2",
       "japanese": "{有料道路|ゆうりょうどうろ}の{料金|りょうきん}は{高|たか}い。",
       "english": "The toll road fee is expensive.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,44 @@
       "id": "09263_yuuryoudouro_ex3",
       "japanese": "{渋滞|じゅうたい}を{避|さ}けるために{有料道路|ゆうりょうどうろ}を{通|とお}った。",
       "english": "I took the toll road to avoid traffic.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{有料道路|ゆうりょうどうろ} refers to any road that charges a fee for use. This includes expressways, bypasses, and certain mountain roads.\n\nCOMMON COLLOCATIONS:\n- {有料道路|ゆうりょうどうろ}を{走|はし}る (drive on a toll road)\n- {有料道路|ゆうりょうどうろ}に{入|はい}る (enter a toll road)\n- {有料道路|ゆうりょうどうろ}の{料金|りょうきん} (toll road fee)\n\nRELATED TERMS:\n- {高速道路|こうそくどうろ}: expressway (most are toll roads in Japan)\n- {料金所|りょうきんじょ}: toll booth",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09242_kousokudouro",
+      "reading": "こうそくどうろ",
+      "headword": "{高速道路|こうそくどうろ}",
+      "label": "expressway"
+    },
+    {
+      "type": "related",
+      "target_id": "09243_ryoukinjo",
+      "reading": "りょうきんじょ",
+      "headword": "{料金所|りょうきんじょ}",
+      "label": "toll booth"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:15:45Z",
-    "modified": "2026-02-01T06:15:45Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation"]
+      "semantic": [
+        "transportation"
+      ]
     }
   }
 }

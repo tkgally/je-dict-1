@@ -16,7 +16,9 @@
       "id": "09276_hashiritakatobi_ex1",
       "japanese": "{走|はし}り{高跳|たかと}びで{金|きん}メダルを{取|と}った。",
       "english": "She won a gold medal in high jump.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09276_hashiritakatobi_ex2",
       "japanese": "{走|はし}り{高跳|たかと}びの{世界記録|せかいきろく}は2メートル{以上|いじょう}だ。",
       "english": "The world record in high jump is over 2 meters.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,44 @@
       "id": "09276_hashiritakatobi_ex3",
       "japanese": "{子|こ}どもの{頃|ころ}から{走|はし}り{高跳|たかと}びを{練習|れんしゅう}してきた。",
       "english": "I have been practicing high jump since I was a child.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "{走|はし}り{高跳|たかと}び is often shortened to {高跳|たかと}び. Modern high jumpers typically use the \"Fosbury Flop\" technique, going over the bar backward.\n\nCOMMON COLLOCATIONS:\n- {走|はし}り{高跳|たかと}びの{選手|せんしゅ} (high jumper)\n- バーを{越|こ}える (to clear the bar)\n- {踏|ふ}み{切|き}る (to take off)\n\nTECHNIQUES:\n- {背面跳|はいめんと}び (Fosbury Flop, lit. \"back jump\")\n- {挟|はさ}み{跳|と}び (scissors jump, older technique)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09275_boutakatobi",
+      "reading": "ぼうたかとび",
+      "headword": "{棒高跳|ぼうたかと}び",
+      "label": "pole vault"
+    },
+    {
+      "type": "related",
+      "target_id": "09277_hashirihabatobi",
+      "reading": "はしりはばとび",
+      "headword": "{走|はし}り{幅跳|はばと}び",
+      "label": "long jump"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T06:17:59Z",
-    "modified": "2026-02-01T06:17:59Z",
+    "modified": "2026-04-22T08:43:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }
