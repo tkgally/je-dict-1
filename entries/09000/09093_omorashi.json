@@ -6,70 +6,6 @@
   "gloss": "wetting oneself, accident",
   "conjugation": {
     "type": "suru",
-    "prefix": "おもらし"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "wetting oneself, having an accident (urinary)",
-      "explanation": "Accidentally urinating in one's clothes. Common term used especially with children who are toilet training or have accidents."
-    }
-  ],
-  "examples": [
-    {
-      "id": "09093_omorashi_ex1",
-      "japanese": "おもらししちゃった。",
-      "english": "I wet myself.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "09093_omorashi_ex2",
-      "japanese": "{子供|こども}がおもらしした。",
-      "english": "The child wet themselves.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "09093_omorashi_ex3",
-      "japanese": "おもらしをしても{怒|おこ}らないでね。",
-      "english": "Please don't get angry even if they have an accident.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "おもらし refers to involuntary urination, typically by young children. A gentle, euphemistic term.\n\nWORD FORMATION:\nお (softening prefix) + {漏|も}らす (to leak). Can be written as お{漏|も}らし.\n\nCOMMON PATTERNS:\n- おもらしをする: to wet oneself\n- おもらししちゃう: to accidentally wet oneself (casual)\n- おもらしが{多|おお}い: to have frequent accidents\n\nCONTRAST:\n- おもらし: wetting oneself (while awake, mainly children)\n- おねしょ: bedwetting (during sleep)\n- {失禁|しっきん}: incontinence (medical/formal term)\n\nNOTE:\nPrimarily used when talking about small children. For adults, the medical term {失禁|しっきん} is preferred. The お prefix softens the word and makes it less embarrassing, especially in parenting contexts.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-03-29T03:05:07Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "informal",
-      "politeness": "plain",
-      "semantic": [
-        "childcare",
-        "body"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -157,5 +93,73 @@
         "negative": "おもらしするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "wetting oneself, having an accident (urinary)",
+      "explanation": "Accidentally urinating in one's clothes. Common term used especially with children who are toilet training or have accidents."
+    }
+  ],
+  "examples": [
+    {
+      "id": "09093_omorashi_ex1",
+      "japanese": "おもらししちゃった。",
+      "english": "I wet myself.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09093_omorashi_ex2",
+      "japanese": "{子供|こども}がおもらしした。",
+      "english": "The child wet themselves.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09093_omorashi_ex3",
+      "japanese": "おもらしをしても{怒|おこ}らないでね。",
+      "english": "Please don't get angry even if they have an accident.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "おもらし refers to involuntary urination, typically by young children. A gentle, euphemistic term.\n\nWORD FORMATION:\nお (softening prefix) + {漏|も}らす (to leak). Can be written as お{漏|も}らし.\n\nCOMMON PATTERNS:\n- おもらしをする: to wet oneself\n- おもらししちゃう: to accidentally wet oneself (casual)\n- おもらしが{多|おお}い: to have frequent accidents\n\nCONTRAST:\n- おもらし: wetting oneself (while awake, mainly children)\n- おねしょ: bedwetting (during sleep)\n- {失禁|しっきん}: incontinence (medical/formal term)\n\nNOTE:\nPrimarily used when talking about small children. For adults, the medical term {失禁|しっきん} is preferred. The お prefix softens the word and makes it less embarrassing, especially in parenting contexts.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09094_onesho",
+      "reading": "おねしょ",
+      "headword": "おねしょ",
+      "label": "bedwetting"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-31T04:25:12Z",
+    "modified": "2026-04-22T06:07:44Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "informal",
+      "politeness": "plain",
+      "semantic": [
+        "childcare",
+        "body"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
