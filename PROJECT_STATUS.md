@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 29 New Entries, Batch 27)
+Added 29 new dictionary entries (IDs 25082-25110) from candidate_words.json. Mixed batch covering daily life, law, food, culture, society, stationery, and more.
+
+- **Law / society (5)**: {不正行為|ふせいこうい} (misconduct), {法的責任|ほうてきせきにん} (legal responsibility), {酒酔|しゅよ}い{運転|うんてん} (drunk driving), {放置駐車|ほうちちゅうしゃ} (abandoned parking), {風紀|ふうき}を{乱|みだ}す (disturb public morals)
+- **Daily life / stationery (3)**: {水性|すいせい}ペン (water-based pen), {付箋紙|ふせんし} (sticky note), {紙質|ししつ} (paper quality)
+- **Food / cooking (2)**: いんげんまめ (kidney bean), {幼児食|ようじしょく} (toddler food)
+- **People / family (4)**: フランス{人|じん} (French person), やんちゃ{坊主|ぼうず} (mischievous boy), いたずらっこ (mischievous child), {身贔屓|みびいき} (favoritism)
+- **Industry / work (3)**: {運搬車|うんぱんしゃ} (transport vehicle), {予備部品|よびぶひん} (spare part), {変則勤務|へんそくきんむ} (irregular working hours)
+- **Hobbies / nature (3)**: {観賞魚|かんしょうぎょ} (ornamental fish), {観賞植物|かんしょうしょくぶつ} (ornamental plant), {風船|ふうせん}ガム (bubble gum)
+- **Culture / religion (1)**: {阿弥陀仏|あみだぶつ} (Amitabha Buddha)
+- **Commerce (2)**: {取次店|とりつぎてん} (agency/dealer), コーダー (coder)
+- **Appearance (1)**: {地顔|じがお} (natural face)
+- **Expression / emotion (3)**: {募|つの}る{思|おも}い (growing feelings), {盗|ぬす}み{撮|ど}り (secret photography), {出来心|できごころ}で (on impulse)
+- **Geography (2)**: パリ (Paris), {砂|すな}まみれ (covered in sand)
+- Multi-sense entry: いんげんまめ (2 senses)
+- 49 candidates synced from candidate list
+
+Total entries: 24,879 → 24,908.
+
 ### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 26)
 Added 20 new dictionary entries (IDs 25062-25081) from candidate_words.json. Mixed batch covering daily life, culture, travel, food, nature, fashion, sport, and history.
 
@@ -129,25 +148,5 @@ Added 24 new dictionary entries (IDs 24993-25016) from candidate_words.json. Mix
 - 24 candidates synced, 1 stale candidate removed (空言 からごと, variant of existing そらごと entry)
 
 Total entries: 24,790 → 24,814.
-
-### 2026-04-22 (Vocabulary Expansion - 30 New Entries, Batch 22)
-Added 30 new dictionary entries (IDs 24963-24992) from candidate_words.json. Diverse batch covering culture, food, science, professions, language, and daily life vocabulary.
-
-- **Culture / religion (5)**: {一寸法師|いっすんぼうし} (Issun-bōshi folk tale), {禰宜|ねぎ} (Shinto priest), {仏具|ぶつぐ} (Buddhist altar fittings), {義侠心|ぎきょうしん} (chivalrous spirit), {融通無碍|ゆうずうむげ} (unhindered flexibility)
-- **Food / cooking (3)**: {粕汁|かすじる} (sake lees soup), {餅粉|もちこ} (glutinous rice flour), {莢|さや} (pod/shell)
-- **Science / tech (3)**: {不活性|ふかっせい} (inertness), {伝導|でんどう} (conduction), {梅雨前線|つゆぜんせん} (seasonal rain front)
-- **Professions / government (3)**: {建築士|けんちくし} (architect), {補佐官|ほさかん} (aide/adviser), {乗員|じょういん} (crew member)
-- **Arts / craft (3)**: {彫金|ちょうきん} (metal engraving), {活版|かっぱん} (letterpress), {幻術|げんじゅつ} (illusionism)
-- **Language / reference (2)**: {見出|みだ}し{語|ご} (headword/lemma), {客観視|きゃっかんし} (objective viewpoint)
-- **Body / description (1)**: {中肉中背|ちゅうにくちゅうせい} (medium build)
-- **Housing (1)**: {床下|ゆかした} (under the floor)
-- **Education / society (3)**: {受験料|じゅけんりょう} (exam fee), {共同生活|きょうどうせいかつ} (communal living), {席次|せきじ} (seating order)
-- **Expressions / abstract (3)**: {若気の至り|わかげのいたり} (youthful indiscretion), {無二|むに} (peerless), {深考|しんこう} (deep thought)
-- **History / military (2)**: {兵営|へいえい} (barracks), {通話中|つうわちゅう} (on a call)
-- Conjugation tables auto-generated for 5 suru verb entries
-- 3 new kanji added to index: 碍, 禰, 莢
-- 30 candidates synced from candidate list
-
-Total entries: 24,760 → 24,790.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
