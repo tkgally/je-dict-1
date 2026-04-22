@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 24 New Entries, Batch 23)
+Added 24 new dictionary entries (IDs 24993-25016) from candidate_words.json. Mixed batch covering culture, religion, history, nature, daily life, textiles, and body vocabulary.
+
+- **Culture / religion (4)**: {阿弥陀|あみだ} (Amitabha Buddha), {仏殿|ぶつでん} (Buddha hall), {本厄|ほんやく} (main unlucky year), {叙勲|じょくん} (conferring decorations)
+- **History (2)**: {平氏|へいし} (Taira clan), {太夫|たゆう} (tayuu/courtesan/performer)
+- **Nature / weather (3)**: {虻|あぶ} (horsefly), {風浪|ふうろう} (wind-driven waves), {湖上|こじょう} (on the lake)
+- **Daily life / food (3)**: ペーパータオル (paper towel), チューインガム (chewing gum), ニュース{速報|そくほう} (breaking news)
+- **Textiles (2)**: {表地|おもてじ} (outer fabric), {裏布|うらぬの} (lining cloth)
+- **Body / health (2)**: しもやけ (chilblains), {脇毛|わきげ} (armpit hair)
+- **Sports / fitness (1)**: {柔軟体操|じゅうなんたいそう} (stretching exercises)
+- **Finance (1)**: {株券|かぶけん} (stock certificate)
+- **Material (2)**: {銅板|どうばん} (copper plate), {車軸|しゃじく} (axle)
+- **Abstract / personality (2)**: {軽|かる}さ (lightness), {吝嗇|りんしょく} (stinginess)
+- **Conversation (1)**: ではでは (well then/goodbye)
+- **Supernatural (1)**: {背後霊|はいごれい} (guardian spirit)
+- Conjugation tables auto-generated for 1 suru verb entry
+- 2 new kanji added to index: 叙, 陀
+- 24 candidates synced, 1 stale candidate removed (空言 からごと, variant of existing そらごと entry)
+
+Total entries: 24,790 → 24,814.
+
 ### 2026-04-22 (Vocabulary Expansion - 30 New Entries, Batch 22)
 Added 30 new dictionary entries (IDs 24963-24992) from candidate_words.json. Diverse batch covering culture, food, science, professions, language, and daily life vocabulary.
 
@@ -118,22 +139,5 @@ Added 20 new dictionary entries (IDs 24894-24913) from candidate_words.json. Mix
 - 20 candidates synced from candidate list
 
 Total entries: 24,691 → 24,711.
-
-### 2026-04-21 (Vocabulary Expansion - 22 New Entries, Batch 18)
-Added 22 new dictionary entries (IDs 24872-24893) from candidate_words.json. Mixed batch covering social/cultural concepts, education, politics, infrastructure, health, sports, and practical vocabulary.
-
-- **Social / cultural (3)**: {嫌|きら}われる (to be disliked), {報|むく}われない (unrewarded), {通過儀礼|つうかぎれい} (rite of passage)
-- **Education / research (4)**: {黒板消|こくばんけ}し (blackboard eraser), {試験監督|しけんかんとく} (exam proctor), {採点者|さいてんしゃ} (grader), {聞|き}き{取|と}り{調査|ちょうさ} (interview survey)
-- **Politics / government (3)**: {超大国|ちょうたいこく} (superpower), {出入国|しゅつにゅうこく} (immigration/emigration), {禁止解除|きんしかいじょ} (lifting a ban)
-- **Math / business (2)**: {概数|がいすう} (approximate number), {加算|かさん} (addition/surcharge)
-- **Infrastructure / tech (3)**: {配電盤|はいでんばん} (electrical panel), {送風機|そうふうき} (blower), {焼却場|しょうきゃくじょう} (incineration plant)
-- **Transport / urban (2)**: {停留|ていりゅう} (stopping), {通過点|つうかてん} (waypoint/milestone)
-- **Nature / health / sports (3)**: {植栽|しょくさい} (planting/landscaping), {扁平足|へんぺいそく} (flat feet), {陸上選手|りくじょうせんしゅ} (track athlete)
-- **Other (2)**: {助言者|じょげんしゃ} (advisor), {音楽隊|おんがくたい} (band/music corps)
-- Conjugation tables auto-generated for 6 suru verbs and 1 ichidan verb, 1 i-adjective
-- 1 new kanji added to index: 扁
-- 22 candidates removed from candidate list
-
-Total entries: 24,669 → 24,691.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
