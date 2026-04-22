@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 25 New Entries, Batch 25)
+Added 25 new dictionary entries (IDs 25037-25061) from candidate_words.json. Mixed batch covering daily life, culture, history, business, science, economics, and expressions.
+
+- **Daily life (3)**: キッチンペーパー (kitchen paper towel), {必携品|ひっけいひん} (essential item), {美顔|びがん} (facial beauty/care)
+- **Business / work (3)**: {進行役|しんこうやく} (facilitator/moderator), {繁盛期|はんじょうき} (peak season), サービス{出勤|しゅっきん} (unpaid work attendance)
+- **Culture / history (3)**: {百獣|ひゃくじゅう} (all beasts), {廓|くるわ} (pleasure quarter/castle bailey), {一寸|いっすん} (one sun measurement)
+- **Science / technology (3)**: {周波数|しゅうはすう} (frequency), {無生物|むせいぶつ} (inanimate object), {再設定|さいせってい} (resetting)
+- **Economics / general (3)**: インフレーション (inflation), その{他|た} (others/the rest), {介在|かいざい} (mediation/intervention)
+- **Expressions / literary (2)**: {胸|むね}がきゅんとする (heart flutter), よすが (means of support/keepsake)
+- **Education (1)**: {女子学生|じょしがくせい} (female student)
+- **Transport (1)**: {乗合|のりあい}バス (public bus)
+- **Agriculture (1)**: {輪作|りんさく} (crop rotation)
+- **Religion (1)**: イスラム{教|きょう} (Islam)
+- **Military (1)**: {手榴弾|しゅりゅうだん} (hand grenade)
+- **Multi-sense entries (3)**: {上|あ}がり (3 senses), {廓|くるわ} (2 senses), {絵札|えふだ} (2 senses), よすが (2 senses)
+- Conjugation tables auto-generated for 5 suru verb entries
+- 2 new kanji added to index: 廓, 榴
+- 25 candidates synced from candidate list
+
+Total entries: 24,834 → 24,859.
+
 ### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 24)
 Added 20 new dictionary entries (IDs 25017-25036) from candidate_words.json. Mixed batch covering expressions, loanwords, food, sports, daily life, science, and business vocabulary.
 
@@ -123,23 +144,5 @@ Added 25 new dictionary entries (IDs 24938-24962) from candidate_words.json. The
 - 25 candidates synced from candidate list
 
 Total entries: 24,735 → 24,760.
-
-### 2026-04-21 (Vocabulary Expansion - 24 New Entries, Batch 20)
-Added 24 new dictionary entries (IDs 24914-24937) from candidate_words.json. Mixed batch covering health/beauty, society, education, finance, food, science, and daily life vocabulary.
-
-- **Health / beauty (3)**: {脱毛|だつもう} (hair removal/loss), {除毛|じょもう} (surface hair removal), {幻聴|げんちょう} (auditory hallucination)
-- **Society / people (4)**: {蹂躙|じゅうりん} (trampling/violation), {放浪者|ほうろうしゃ} (wanderer), {支援者|しえんしゃ} (supporter), {最強者|さいきょうしゃ} (the strongest)
-- **Education (1)**: {定期試験|ていきしけん} (regular exam)
-- **Finance / commerce (3)**: {借金返済|しゃっきんへんさい} (debt repayment), {掛|か}け{金|きん} (premium/stake), {現在価格|げんざいかかく} (current price)
-- **Food / science (3)**: {加水|かすい} (adding water), {注水|ちゅうすい} (water injection), {食品保存|しょくひんほぞん} (food preservation)
-- **Health / fitness (2)**: {運動量|うんどうりょう} (amount of exercise), {異常値|いじょうち} (abnormal value)
-- **Daily life / expressions (4)**: {気分|きぶん}が{悪|わる}い (feel sick/bad), ご{自宅|じたく} (your home, honorific), {携帯品|けいたいひん} (personal belongings), {最弱|さいじゃく} (weakest)
-- **Na-adjectives (2)**: {抵抗的|ていこうてき} (resistant/defiant), {感性的|かんせいてき} (emotional/aesthetic)
-- **Government / travel (2)**: {入国管理局|にゅうこくかんりきょく} (immigration bureau), {連勝記録|れんしょうきろく} (winning streak record)
-- Conjugation tables auto-generated for 4 suru verb entries
-- 2 new kanji added to index: 蹂, 躙
-- 24 candidates synced from candidate list
-
-Total entries: 24,711 → 24,735.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
