@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 26)
+Added 20 new dictionary entries (IDs 25062-25081) from candidate_words.json. Mixed batch covering daily life, culture, travel, food, nature, fashion, sport, and history.
+
+- **Daily life / facilities (4)**: パウダールーム (powder room), {相談室|そうだんしつ} (consultation room), レンタルルーム (rental room), フェイスタオル (face towel)
+- **Culture / religion (3)**: {大凶|だいきょう} (great misfortune / omikuji), {剃髪|ていはつ} (head shaving / tonsure), {儒者|じゅしゃ} (Confucian scholar)
+- **Travel / transport (2)**: {渡航先|とこうさき} (destination abroad), パーキングエリア (parking area)
+- **Food / nature (3)**: カシューナッツ (cashew nut), {片栗|かたくり} (dogtooth violet / starch), {羽虫|はむし} (gnat / small flying insect)
+- **Sport / leisure (2)**: セーリング (sailing), クルーザー (cruiser / yacht)
+- **Fashion (1)**: バングル (bangle)
+- **People / society (3)**: {女主人|おんなしゅじん} (female proprietor), {長子|ちょうし} (eldest child), {素|そ}っ{気|け} (bluntness / coldness)
+- **Expression (1)**: {昼日中|ひるひなか} (broad daylight)
+- **Tools (1)**: {噴霧器|ふんむき} (sprayer / atomizer)
+- Multi-sense entry: {片栗|かたくり} (2 senses)
+- Conjugation table auto-generated for 1 suru verb entry ({剃髪|ていはつ})
+- 20 candidates synced from candidate list
+
+Total entries: 24,859 → 24,879.
+
 ### 2026-04-22 (Vocabulary Expansion - 25 New Entries, Batch 25)
 Added 25 new dictionary entries (IDs 25037-25061) from candidate_words.json. Mixed batch covering daily life, culture, history, business, science, economics, and expressions.
 
@@ -131,18 +149,5 @@ Added 30 new dictionary entries (IDs 24963-24992) from candidate_words.json. Div
 - 30 candidates synced from candidate list
 
 Total entries: 24,760 → 24,790.
-
-### 2026-04-21 (Vocabulary Expansion - 25 New Entries, Batch 21)
-Added 25 new dictionary entries (IDs 24938-24962) from candidate_words.json. Thematic batch covering health/medical, daily life/travel, Japan-specific culture, business/legal, and technical vocabulary.
-
-- **Health / medical (3)**: {禁断症状|きんだんしょうじょう} (withdrawal symptoms), {予防医療|よぼういりょう} (preventive medicine), {姿勢矯正|しせいきょうせい} (posture correction)
-- **Daily life / travel (5)**: {電話予約|でんわよやく} (phone reservation), {荷物置|にもつお}き{場|ば} (luggage storage area), クーポン{券|けん} (coupon), グリーン{券|けん} (green car ticket), {貴重品入|きちょうひんい}れ (valuables locker)
-- **Japan-specific culture (4)**: {耐震設計|たいしんせっけい} (earthquake-resistant design), {精進弁当|しょうじんべんとう} (vegetarian bento), {山葵漬|わさびづ}け (wasabi pickles), {襖紙|ふすまがみ} (fusuma paper)
-- **Business / legal (5)**: {提携店|ていけいてん} (partner store), {子会社化|こがいしゃか} (subsidiarization), {被選挙権|ひせんきょけん} (right to run for office), {除籍|じょせき} (removal from register), {私文書|しぶんしょ} (private document)
-- **Technical / practical (3)**: {予備電源|よびでんげん} (backup power source), {手信号|てしんごう} (hand signal), {耐震強度|たいしんきょうど} (seismic strength)
-- **Other (5)**: {連載終了|れんさいしゅうりょう} (end of serialization), {奇妙|きみょう}さ (strangeness), {努力給|どりょくきゅう} (effort-based pay), {限定免許|げんていめんきょ} (restricted license), {旧校舎|きゅうこうしゃ} (old school building)
-- 25 candidates synced from candidate list
-
-Total entries: 24,735 → 24,760.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
