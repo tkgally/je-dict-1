@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-04-22
 
 ## How this wiki is organized
 
@@ -43,6 +43,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Semantic Prosody](research/semantic-prosody.md) — How evaluative colouring attaches to near-synonyms, and how dictionaries can surface it
 - [Controlled Defining Vocabulary](research/controlled-defining-vocabulary.md) — The CDV tradition (Ogden, West, LDOCE, COBUILD) and its relationship to je-dict-1's tier system
 - [Polysemy and Sense Discrimination](research/polysemy-sense-discrimination.md) — Sense division, ordering, and structure in learner dictionaries; models of polysemy; Japanese-specific challenges
+- [Grammar Information in Learner Dictionaries](research/grammar-in-dictionaries.md) — Grammar codes, natural-language patterns, valency, conjugation, and Japanese-specific grammatical challenges
 
 ## Topics
 

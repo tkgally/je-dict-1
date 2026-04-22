@@ -49,3 +49,4 @@ Transitivity marking is a **high priority** v2 quality standard. Many older entr
 
 - [Quality Standards](../project/quality-standards.md)
 - [Entry Design](../project/entry-design.md)
+- [Grammar Information in Learner Dictionaries](../research/grammar-in-dictionaries.md) — valency, transitivity, and grammatical encoding in dictionaries

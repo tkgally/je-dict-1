@@ -154,3 +154,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Quality Standards](../project/quality-standards.md) — collocation patterns as a v2 priority
 - [Compound Verb Representation](../topics/compound-verbs.md) — a related category of multi-word units
 - [Semantic Prosody](semantic-prosody.md) — the evaluative colouring that extends beyond simple collocation
+- [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — overlap between collocational and grammatical patterns

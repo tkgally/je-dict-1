@@ -146,3 +146,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Cross-Reference Design](../topics/cross-references.md) — linking related entries
 - [Sentence Mining Integration](../ideas/sentence-mining.md) — SRS/Anki workflow integration
 - [Example Sentence Design](example-sentences.md) — what makes effective dictionary examples
+- [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — how grammar codes are (under)used during lookup

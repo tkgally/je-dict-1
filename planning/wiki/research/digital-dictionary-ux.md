@@ -97,7 +97,7 @@ Implementation would require:
 
 ### Search index size considerations
 
-With 24,000 entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
+With 25,000 entries, the search index JS file is already substantial. Adding conjugated forms could multiply its size significantly. Potential mitigations:
 - Index only high-frequency conjugation forms (masu, te, nai, ta)
 - Use compressed representations (shared prefix encoding)
 - Split the index into lazy-loaded chunks

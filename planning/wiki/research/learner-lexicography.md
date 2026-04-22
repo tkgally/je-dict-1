@@ -121,3 +121,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Entry Design](../project/entry-design.md) — je-dict-1's microstructure
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — how learners actually use dictionaries
 - [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — sense division and ordering strategies for learner dictionaries
+- [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — how dictionaries encode and present grammatical information
