@@ -16,7 +16,9 @@
       "id": "09181_akanuke_ex1",
       "japanese": "{垢抜|あかぬ}けした{人|ひと}",
       "english": "a sophisticated person",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09181_akanuke_ex2",
       "japanese": "{東京|とうきょう}に{出|で}てから、{彼女|かのじょ}は{垢抜|あかぬ}けた。",
       "english": "She became more sophisticated after moving to Tokyo.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,45 @@
       "id": "09181_akanuke_ex3",
       "japanese": "{久|ひさ}しぶりに{会|あ}った{友人|ゆうじん}は、{垢抜|あかぬ}けた{雰囲気|ふんいき}になっていた。",
       "english": "The friend I met after a long time had acquired a polished air.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "VERB FORM: Most commonly used as the verb {垢抜|あかぬ}ける (to become sophisticated) or in its past form {垢抜|あかぬ}けた (sophisticated).\n\nETYMOLOGY: Literally \"shedding grime/dirt ({垢|あか})\" - the idea of removing the rough, unsophisticated qualities.\n\nNUANCE: {垢抜|あかぬ}け implies a transformation from rustic or unsophisticated to stylish and urbane. It often has positive connotations but can sometimes suggest someone trying too hard to seem sophisticated.\n\nCOMMON COLLOCATIONS:\n- {垢抜|あかぬ}けた{人|ひと} (sophisticated person)\n- {垢抜|あかぬ}けない (unsophisticated, unpolished)\n- {垢抜|あかぬ}けた{雰囲気|ふんいき} (polished atmosphere)\n\nRELATED WORDS:\n- {洗練|せんれん}された (refined, sophisticated)\n- {都会的|とかいてき} (urban, metropolitan)\n- {野暮|やぼ}ったい (unfashionable, tacky - opposite)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "06468_senren",
+      "reading": "せんれん",
+      "headword": "{洗練|せんれん}",
+      "label": "refined"
+    },
+    {
+      "type": "antonym",
+      "target_id": "09183_yabottai",
+      "reading": "やぼったい",
+      "headword": "{野暮|やぼ}ったい",
+      "label": "unfashionable"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T01:39:02Z",
-    "modified": "2026-02-01T01:39:02Z",
+    "modified": "2026-04-22T08:20:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["appearance", "positive"]
+      "semantic": [
+        "appearance",
+        "positive"
+      ]
     }
   }
 }

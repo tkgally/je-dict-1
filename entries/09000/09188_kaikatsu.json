@@ -16,7 +16,9 @@
       "id": "09188_kaikatsu_ex1",
       "japanese": "{快活|かいかつ}な{笑顔|えがお}",
       "english": "a cheerful smile",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09188_kaikatsu_ex2",
       "japanese": "{彼女|かのじょ}は{快活|かいかつ}で{誰|だれ}からも{好|す}かれる。",
       "english": "She is cheerful and liked by everyone.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,52 @@
       "id": "09188_kaikatsu_ex3",
       "japanese": "{快活|かいかつ}な{性格|せいかく}の{彼|かれ}は、{職場|しょくば}のムードメーカーだ。",
       "english": "With his vivacious personality, he is the mood maker of the workplace.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {快活|かいかつ}な{性格|せいかく}.\n\nNUANCE: {快活|かいかつ} describes a bright, outgoing personality with natural energy and positivity. It's a straightforward compliment suggesting someone who is fun to be around.\n\nCOMMON COLLOCATIONS:\n- {快活|かいかつ}な{笑顔|えがお} (cheerful smile)\n- {快活|かいかつ}な{性格|せいかく} (lively personality)\n- {快活|かいかつ}な{人|ひと} (cheerful person)\n- {快活|かいかつ}に{話|はな}す (to speak vivaciously)\n\nRELATED WORDS:\n- {明|あか}るい (bright, cheerful - more common)\n- {陽気|ようき} (cheerful, jovial)\n- {溌剌|はつらつ} (lively, vigorous)\n- {活発|かっぱつ} (active, lively)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03657_youki",
+      "reading": "ようき",
+      "headword": "{陽気|ようき}",
+      "label": "cheerful, jovial"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09189_hatsuratsu",
+      "reading": "はつらつ",
+      "headword": "{溌剌|はつらつ}",
+      "label": "lively, vigorous"
+    },
+    {
+      "type": "synonym",
+      "target_id": "13272_kappatsu",
+      "reading": "かっぱつ",
+      "headword": "{活発|かっぱつ}",
+      "label": "active, lively"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T01:41:28Z",
-    "modified": "2026-02-01T01:41:28Z",
+    "modified": "2026-04-22T08:20:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["personality", "positive"]
+      "semantic": [
+        "personality",
+        "positive"
+      ]
     }
   }
 }

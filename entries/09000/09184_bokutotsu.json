@@ -16,7 +16,9 @@
       "id": "09184_bokutotsu_ex1",
       "japanese": "{朴訥|ぼくとつ}な{人柄|ひとがら}",
       "english": "an artless, simple personality",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "09184_bokutotsu_ex2",
       "japanese": "{彼|かれ}は{朴訥|ぼくとつ}な{話|はな}し{方|かた}をする。",
       "english": "He has an unpretentious way of speaking.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,23 +36,52 @@
       "id": "09184_bokutotsu_ex3",
       "japanese": "{朴訥|ぼくとつ}な{農夫|のうふ}は、{飾|かざ}り{気|け}のない{言葉|ことば}で{感謝|かんしゃ}を{述|の}べた。",
       "english": "The plain-spoken farmer expressed his gratitude in unadorned words.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "ADJECTIVE TYPE: Na-adjective. Uses な before nouns: {朴訥|ぼくとつ}な{性格|せいかく}.\n\nALTERNATE READINGS: Can also be read as ぼくねつ.\n\nNUANCE: {朴訥|ぼくとつ} has positive connotations - it describes honest simplicity rather than stupidity. It suggests someone who is genuine and unpretentious, often associated with rural or working-class people.\n\nCOMMON COLLOCATIONS:\n- {朴訥|ぼくとつ}な{人柄|ひとがら} (simple character)\n- {朴訥|ぼくとつ}な{話|はな}し{方|かた} (plain way of speaking)\n- {朴訥|ぼくとつ}な{人|ひと} (artless person)\n\nRELATED WORDS:\n- {素朴|そぼく} (simple, naive - similar)\n- {愚直|ぐちょく} (simple-minded, honest)\n- {実直|じっちょく} (honest, sincere)\n- {飾|かざ}り{気|け}のない (unaffected, plain)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "06071_soboku",
+      "reading": "そぼく",
+      "headword": "{素朴|そぼく}",
+      "label": "simple, naive"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09185_guchoku",
+      "reading": "ぐちょく",
+      "headword": "{愚直|ぐちょく}",
+      "label": "earnest"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09186_jicchoku",
+      "reading": "じっちょく",
+      "headword": "{実直|じっちょく}",
+      "label": "honest, sincere"
+    }
+  ],
   "metadata": {
     "created": "2026-02-01T01:40:15Z",
-    "modified": "2026-02-01T01:40:15Z",
+    "modified": "2026-04-22T08:20:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["personality", "positive"]
+      "semantic": [
+        "personality",
+        "positive"
+      ]
     }
   }
 }
