@@ -23,7 +23,9 @@
       "english": "The logic is flawed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09066_hatan_ex2",
@@ -31,7 +33,9 @@
       "english": "The marriage broke down.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09066_hatan_ex3",
@@ -39,7 +43,9 @@
       "english": "The failure of the plan was unavoidable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09066_hatan_ex4",
@@ -47,7 +53,9 @@
       "english": "The company went bankrupt.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09066_hatan_ex5",
@@ -55,7 +63,9 @@
       "english": "We are on the verge of financial collapse.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09066_hatan_ex6",
@@ -63,20 +73,36 @@
       "english": "Deposits were frozen due to the bank's failure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{破綻|はたん} indicates complete failure or collapse.\n\nWORD FORMATION:\n- {破|は} (break) + {綻|たん} (rip, tear)\n- Literally: ripping apart\n\nSENSE 1 (GENERAL FAILURE):\n- {論理|ろんり}の{破綻|はたん}: logical flaw\n- {関係|かんけい}の{破綻|はたん}: breakdown of a relationship\n- {計画|けいかく}の{破綻|はたん}: failure of a plan\n\nSENSE 2 (FINANCIAL):\n- {経営|けいえい}{破綻|はたん}: business failure/bankruptcy\n- {財政|ざいせい}{破綻|はたん}: fiscal collapse\n- {破綻|はたん}する: to go bankrupt, to fail\n\nRELATED WORDS:\n- {倒産|とうさん}: bankruptcy (business)\n- {崩壊|ほうかい}: collapse (physical/system)\n- {頓挫|とんざ}: setback, stalling",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09065_tonza",
+      "reading": "とんざ",
+      "headword": "{頓挫|とんざ}",
+      "label": "setback, stall"
+    }
+  ],
   "metadata": {
     "created": "2026-01-31T02:22:21Z",
-    "modified": "2026-01-31T02:22:21Z",
+    "modified": "2026-04-22T06:07:44Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["failure", "finance", "relationships"]
+      "semantic": [
+        "failure",
+        "finance",
+        "relationships"
+      ]
     }
   }
 }
