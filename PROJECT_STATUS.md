@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 30 New Entries, Batch 22)
+Added 30 new dictionary entries (IDs 24963-24992) from candidate_words.json. Diverse batch covering culture, food, science, professions, language, and daily life vocabulary.
+
+- **Culture / religion (5)**: {一寸法師|いっすんぼうし} (Issun-bōshi folk tale), {禰宜|ねぎ} (Shinto priest), {仏具|ぶつぐ} (Buddhist altar fittings), {義侠心|ぎきょうしん} (chivalrous spirit), {融通無碍|ゆうずうむげ} (unhindered flexibility)
+- **Food / cooking (3)**: {粕汁|かすじる} (sake lees soup), {餅粉|もちこ} (glutinous rice flour), {莢|さや} (pod/shell)
+- **Science / tech (3)**: {不活性|ふかっせい} (inertness), {伝導|でんどう} (conduction), {梅雨前線|つゆぜんせん} (seasonal rain front)
+- **Professions / government (3)**: {建築士|けんちくし} (architect), {補佐官|ほさかん} (aide/adviser), {乗員|じょういん} (crew member)
+- **Arts / craft (3)**: {彫金|ちょうきん} (metal engraving), {活版|かっぱん} (letterpress), {幻術|げんじゅつ} (illusionism)
+- **Language / reference (2)**: {見出|みだ}し{語|ご} (headword/lemma), {客観視|きゃっかんし} (objective viewpoint)
+- **Body / description (1)**: {中肉中背|ちゅうにくちゅうせい} (medium build)
+- **Housing (1)**: {床下|ゆかした} (under the floor)
+- **Education / society (3)**: {受験料|じゅけんりょう} (exam fee), {共同生活|きょうどうせいかつ} (communal living), {席次|せきじ} (seating order)
+- **Expressions / abstract (3)**: {若気の至り|わかげのいたり} (youthful indiscretion), {無二|むに} (peerless), {深考|しんこう} (deep thought)
+- **History / military (2)**: {兵営|へいえい} (barracks), {通話中|つうわちゅう} (on a call)
+- Conjugation tables auto-generated for 5 suru verb entries
+- 3 new kanji added to index: 碍, 禰, 莢
+- 30 candidates synced from candidate list
+
+Total entries: 24,760 → 24,790.
+
 ### 2026-04-21 (Vocabulary Expansion - 25 New Entries, Batch 21)
 Added 25 new dictionary entries (IDs 24938-24962) from candidate_words.json. Thematic batch covering health/medical, daily life/travel, Japan-specific culture, business/legal, and technical vocabulary.
 
@@ -115,21 +135,5 @@ Added 22 new dictionary entries (IDs 24872-24893) from candidate_words.json. Mix
 - 22 candidates removed from candidate list
 
 Total entries: 24,669 → 24,691.
-
-### 2026-04-21 (Vocabulary Expansion - 28 New Entries, Batch 17)
-Added 28 new dictionary entries (IDs 24844-24871) from candidate_words.json. Diverse batch covering expressions, business, culture, language, geography, and general vocabulary.
-
-- **Expressions / idioms (4)**: {人|ひと}それぞれ (to each their own), {言葉|ことば}を{濁|にご}す (to equivocate), {八面六臂|はちめんろっぴ} (outstanding versatility), {気散|きさん}じ (diversion)
-- **Business / finance (4)**: {個人事業|こじんじぎょう} (sole proprietorship), {顧客満足|こきゃくまんぞく} (customer satisfaction), {財務諸表|ざいむしょひょう} (financial statements), {省電力|しょうでんりょく} (power saving)
-- **Culture / religion (3)**: ご{芳名|ほうめい} (your honored name), {頓首|とんしゅ} (respectfully yours), {経|きょう} (Buddhist sutra)
-- **Language / linguistics (2)**: {口語体|こうごたい} (colloquial style), {未発表|みはっぴょう} (unpublished)
-- **Geography / science (3)**: {震央|しんおう} (epicenter), {地底|ちてい} (underground depths), {郡部|ぐんぶ} (rural area)
-- **People / society (3)**: {無職者|むしょくしゃ} (unemployed person), {見舞客|みまいきゃく} (hospital visitor), {創作者|そうさくしゃ} (creator)
-- **Other (9)**: {牽引力|けんいんりょく} (traction), {対話力|たいわりょく} (dialogue skills), {下腹|したばら} (lower abdomen), {豪華版|ごうかばん} (deluxe edition), {普及版|ふきゅうばん} (popular edition), {局限|きょくげん} (restriction), {濃緑|のうりょく} (dark green), {惜敗感|せきはいかん} (feeling of near-miss), ヒル (leech)
-- Conjugation table auto-generated for 1 suru verb entry ({局限|きょくげん})
-- 1 new kanji added to index: 臂
-- Removed 5 stale candidates (duplicates/variants of existing entries)
-
-Total entries: 24,641 → 24,669.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
