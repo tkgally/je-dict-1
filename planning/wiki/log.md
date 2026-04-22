@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-22] maintenance | Grammar information research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **grammar information in learner dictionaries** and created `research/grammar-in-dictionaries.md`. Covers four encoding strategies (opaque codes, semi-transparent codes, natural-language descriptions, grammar-through-examples), the historical trend from Hornby's verb tables to COBUILD's definitions; the consultation gap (Nesi & Haill 2002, Tono 2001, Herbst 1989) showing learners largely ignore coded grammar; Frankenberg-Garcia's (2012–2015) encoding examples concept; Japanese-specific challenges (particle-verb dependencies, transitivity pairs, conjugation complexity, ている aspect polysemy, keigo); the Makino & Tsutsui grammar dictionary model; Herbst's valency dictionary approach; and detailed implications for je-dict-1 including what the dictionary already does well (natural-language notes, conjugation tables, transitivity marking) and five areas for improvement (particle templates, encoding-optimized examples, contrastive grammar notes, structured particle fields, grammar-entry cross-references). Cited Atkins & Rundell 2008, Frankenberg-Garcia 2012/2014/2015, Herbst 1989/2004, Hornby 1942, Makino & Tsutsui 1986/1995, Nesi & Haill 2002, Sinclair 1987, Tono 2001, Wekker 1992.
+- [A] Updated entry counts across 15 wiki pages to reflect 2026-04-22 `report.py` output (24,760 entries / 21,977 general / 8,801 cross-references / 99,747 examples / 1,584 candidates / 45.0% symmetry / 4,062 asymmetric refs / 2,847 entries with inline links at 11.5%). Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `project/entry-design.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `topics/compound-verbs.md`, `ideas/audio-expansion.md`, `ideas/dictionary-growth.md`, `ideas/multi-model-proofreading.md`, `ideas/parallel-agent-architecture.md`, `ideas/word-discovery-strategies.md`, `research/controlled-defining-vocabulary.md`, `research/digital-dictionary-ux.md`, `research/pitch-accent.md`.
+- [E] Ran cross-reference link checker across all wiki pages (359+ internal links checked, 0 broken). Added the new grammar page to `index.md` and as a related page on `learner-lexicography.md`, `example-sentences.md`, `entry-design.md`, `verb-transitivity.md`, `dictionary-lookup-behavior.md`, `definition-strategies.md`, and `collocations.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-17] maintenance | Polysemy research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

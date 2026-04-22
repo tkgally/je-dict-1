@@ -1,6 +1,6 @@
 # Consistency in Form and Content Among Similar Entries
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-04-22
 
 ## Overview
 
@@ -64,7 +64,7 @@ As the dictionary grows past 23,600 entries, inconsistencies in how similar type
 
 ### 2. Cross-reference consistency
 
-**Current state**: ~7,700 cross-references across ~24,000 entries, but coverage is uneven. Some semantic clusters are well-linked; others have no cross-references at all.
+**Current state**: ~8,800 cross-references across ~24,800 entries, but coverage is uneven. Some semantic clusters are well-linked; others have no cross-references at all.
 
 **Target consistency goals**:
 - All transitivity pairs linked bidirectionally via `prominent_see_also`

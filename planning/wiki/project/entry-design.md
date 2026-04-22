@@ -89,3 +89,4 @@ All kanji must have furigana in all fields: `{漢字|かんじ}`. This is enforc
 - [Quality Standards](quality-standards.md)
 - [Furigana Strategy](../topics/furigana-strategy.md)
 - [Cross-Reference Design](../topics/cross-references.md)
+- [Grammar Information in Learner Dictionaries](../research/grammar-in-dictionaries.md) — research context for grammar encoding
