@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 24)
+Added 20 new dictionary entries (IDs 25017-25036) from candidate_words.json. Mixed batch covering expressions, loanwords, food, sports, daily life, science, and business vocabulary.
+
+- **Expressions (3)**: どちらかというと (if anything/rather), {影響|えいきょう}を{受|う}ける (to be influenced), {再々|さいさい} (again and again)
+- **Loanwords / daily life (4)**: エントリーシート (job application form), チェックリスト (checklist), コンディショナー (hair conditioner), ウェットティッシュ (wet wipe)
+- **Food / dining (2)**: {計量|けいりょう}カップ (measuring cup), {刺身盛|さしみも}り (sashimi platter)
+- **Onomatopoeia (1)**: ぽこぽこ (bubbling; one after another)
+- **Sports (1)**: {内野手|ないやしゅ} (infielder)
+- **Science / technology (2)**: {化合物|かごうぶつ} (chemical compound), データ{解析|かいせき} (data analysis)
+- **Business / administration (3)**: {名称変更|めいしょうへんこう} (name change), {募集期間|ぼしゅうきかん} (application period), {予約受付|よやくうけつけ} (reservation reception)
+- **Shopping (1)**: {購入予約|こうにゅうよやく} (pre-order)
+- **Transport / education (2)**: {進路変更|しんろへんこう} (change of course), {車線規制|しゃせんきせい} (lane restriction)
+- **Exploration (1)**: {探検隊|たんけんたい} (expedition)
+- Conjugation tables auto-generated for 4 suru verb entries
+- 3 stale candidates removed (duplicates of existing entries)
+- 20 candidates synced from candidate list
+
+Total entries: 24,814 → 24,834.
+
 ### 2026-04-22 (Vocabulary Expansion - 24 New Entries, Batch 23)
 Added 24 new dictionary entries (IDs 24993-25016) from candidate_words.json. Mixed batch covering culture, religion, history, nature, daily life, textiles, and body vocabulary.
 
@@ -122,22 +141,5 @@ Added 24 new dictionary entries (IDs 24914-24937) from candidate_words.json. Mix
 - 24 candidates synced from candidate list
 
 Total entries: 24,711 → 24,735.
-
-### 2026-04-21 (Vocabulary Expansion - 20 New Entries, Batch 19)
-Added 20 new dictionary entries (IDs 24894-24913) from candidate_words.json. Mixed batch covering community life, culture, science, law, language, and daily vocabulary.
-
-- **Community / daily life (4)**: {町会|ちょうかい} (neighborhood association), {掃除用具|そうじようぐ} (cleaning tools), {都外|とがい} (outside Tokyo), {予約券|よやくけん} (reservation ticket)
-- **Food / culture (2)**: {切り餅|きりもち} (block mochi), {趣向|しゅこう} (creative twist)
-- **Science / environment (3)**: {寒冷化|かんれいか} (cooling/climate shift), {炭素排出|たんそはいしゅつ} (carbon emissions), {推力|すいりょく} (thrust)
-- **Technology (1)**: ショートする (to short-circuit)
-- **Law / religion / philosophy (3)**: {制定法|せいていほう} (statute law), {常住|じょうじゅう} (permanence/permanent residence), {色情|しきじょう} (lust/sensuality)
-- **Language / literature (2)**: {典故|てんこ} (classical allusion), {発行所|はっこうしょ} (publishing office)
-- **History / nature (2)**: {軍馬|ぐんば} (war horse), {波面|はめん} (wave surface)
-- **Expressions (2)**: {交換券|こうかんけん} (exchange coupon), ふくれっつら (sulky face), {経過点|けいかてん} (waypoint/milestone)
-- Conjugation tables auto-generated for 3 suru verb entries
-- Removed 1 stale candidate (博士号 はかせごう, variant of existing entry 16350)
-- 20 candidates synced from candidate list
-
-Total entries: 24,691 → 24,711.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
