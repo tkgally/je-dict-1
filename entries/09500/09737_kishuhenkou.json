@@ -18,7 +18,9 @@
       "english": "Maybe it's time to upgrade my phone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09737_kishuhenkou_ex2",
@@ -26,7 +28,9 @@
       "english": "Don't forget to transfer your data when you change phones.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09737_kishuhenkou_ex3",
@@ -34,7 +38,9 @@
       "english": "After upgrading to the latest model, the battery life improved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{機種|きしゅ}{変更|へんこう} is commonly abbreviated as {機変|きへん}.\n\nCOMMON COLLOCATIONS:\n- {機種|きしゅ}{変更|へんこう}する (to upgrade/change phones)\n- {機種|きしゅ}{変更|へんこう}{手続|てつづ}き (phone upgrade procedure)\n- {機種|きしゅ}{変更|へんこう}キャンペーン (phone upgrade campaign)\n\nVERB FORM:\n- {機種|きしゅ}{変更|へんこう}する (to change device models)\n\nRELATED TERMS:\n- データ{移行|いこう}: data transfer\n- {乗|の}り{換|か}え: carrier switch\n- {新規|しんき}{契約|けいやく}: new contract",
@@ -44,10 +50,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "phone"]
+      "semantic": [
+        "technology",
+        "phone"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09736_shokisettei",
+      "reading": "しょきせってい",
+      "headword": "{初期|しょき}{設定|せってい}",
+      "label": "initial setup, default settings"
+    },
+    {
+      "type": "related",
+      "target_id": "04427_juuden",
+      "reading": "じゅうでん",
+      "headword": "{充電|じゅうでん}",
+      "label": "charging"
+    },
+    {
+      "type": "related",
+      "target_id": "09738_juudengire",
+      "reading": "じゅうでんぎれ",
+      "headword": "{充電|じゅうでん}{切|ぎ}れ",
+      "label": "dead battery"
+    }
+  ]
 }

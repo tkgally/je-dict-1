@@ -18,7 +18,9 @@
       "english": "My smartphone ran out of battery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09738_juudengire_ex2",
@@ -26,7 +28,9 @@
       "english": "I couldn't contact you because my phone was dead.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09738_juudengire_ex3",
@@ -34,7 +38,9 @@
       "english": "I carry a portable charger because I worry about running out of battery when I'm out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{充電|じゅうでん}{切|き}れ describes a common modern-day problem.\n\nCOMMON EXPRESSIONS:\n- {充電|じゅうでん}が{切|き}れる (battery dies)\n- {充電|じゅうでん}が{切|き}れそう (battery is about to die)\n- バッテリー{切|ぎ}れ (battery dead, alternate expression)\n\nPREVENTION:\n- モバイルバッテリー: portable charger\n- {充電|じゅうでん}スポット: charging station\n- {省電力|しょうでんりょく}モード: power-saving mode\n\nRELATED TERMS:\n- {充電|じゅうでん}: charging\n- {残量|ざんりょう}: remaining charge",
@@ -44,10 +50,31 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "phone"]
+      "semantic": [
+        "technology",
+        "phone"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04427_juuden",
+      "reading": "じゅうでん",
+      "headword": "{充電|じゅうでん}",
+      "label": "charging"
+    },
+    {
+      "type": "related",
+      "target_id": "09737_kishuhenkou",
+      "reading": "きしゅへんこう",
+      "headword": "{機種|きしゅ}{変更|へんこう}",
+      "label": "phone upgrade"
+    }
+  ]
 }

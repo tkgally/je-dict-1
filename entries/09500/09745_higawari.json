@@ -18,7 +18,9 @@
       "english": "I ordered the daily lunch special.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09745_higawari_ex2",
@@ -26,7 +28,9 @@
       "english": "What's today's special?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09745_higawari_ex3",
@@ -34,7 +38,9 @@
       "english": "This set-meal restaurant has a variety of daily specials, so I never get bored.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{日替|ひが}わり is most commonly seen in restaurant contexts.\n\nCOMMON COLLOCATIONS:\n- {日替|ひが}わりランチ (daily lunch special)\n- {日替|ひが}わりメニュー (daily changing menu)\n- {日替|ひが}わり{定食|ていしょく} (daily set meal)\n- {日替|ひが}わり{弁当|べんとう} (daily bento)\n\nSIMILAR EXPRESSIONS:\n- {週替|しゅうが}わり: weekly special\n- {本日|ほんじつ}の: today's (special)\n- おすすめ: recommendation\n\nKANJI NOTE:\n- Can also be written as {日替り|ひがわり} with okurigana.",
@@ -44,10 +50,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["restaurant", "food"]
+      "semantic": [
+        "restaurant",
+        "food"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03123_teishoku",
+      "reading": "ていしょく",
+      "headword": "{定食|ていしょく}",
+      "label": "set meal"
+    },
+    {
+      "type": "related",
+      "target_id": "09746_osusume",
+      "reading": "おすすめ",
+      "headword": "おすすめ",
+      "label": "recommendation"
+    },
+    {
+      "type": "related",
+      "target_id": "09744_kikangentei",
+      "reading": "きかんげんてい",
+      "headword": "{期間|きかん}{限定|げんてい}",
+      "label": "limited time"
+    }
+  ]
 }

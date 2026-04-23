@@ -18,7 +18,9 @@
       "english": "I turned off automatic renewal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09742_jidoukoushin_ex2",
@@ -26,7 +28,9 @@
       "english": "The contract will be automatically renewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09742_jidoukoushin_ex3",
@@ -34,7 +38,9 @@
       "english": "I forgot to cancel and it auto-renewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{自動|じどう}{更新|こうしん} is a common feature in subscription services.\n\nCOMMON COLLOCATIONS:\n- {自動|じどう}{更新|こうしん}をオン/オフにする (to turn auto-renewal on/off)\n- {自動|じどう}{更新|こうしん}を{解除|かいじょ}する (to disable auto-renewal)\n- {自動|じどう}{更新|こうしん}{設定|せってい} (auto-renewal settings)\n\nVERB FORM:\n- {自動|じどう}{更新|こうしん}する (to auto-renew)\n- {自動|じどう}{更新|こうしん}される (to be auto-renewed)\n\nRELATED TERMS:\n- {解約|かいやく}: cancellation\n- {更新|こうしん}{日|び}: renewal date\n- {無料|むりょう}{体験|たいけん}: free trial",
@@ -44,10 +50,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["subscription", "service"]
+      "semantic": [
+        "subscription",
+        "service"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06129_kaiyaku",
+      "reading": "かいやく",
+      "headword": "{解約|かいやく}",
+      "label": "cancellation"
+    },
+    {
+      "type": "related",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "renewal, update"
+    },
+    {
+      "type": "related",
+      "target_id": "09739_getsugaku",
+      "reading": "げつがく",
+      "headword": "{月額|げつがく}",
+      "label": "monthly fee"
+    }
+  ]
 }
