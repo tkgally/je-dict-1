@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-23 (Vocabulary Expansion - 30 New Entries, Batch 29)
+Added 30 new dictionary entries (IDs 25136-25165) from candidate_words.json. Diverse batch covering politics, culture, daily life, food, law, sports, body, and communication.
+
+- **Politics / international (4)**: {票数|ひょうすう} (vote count), {得票数|とくひょうすう} (votes received), {世論戦|よろんせん} (battle for public opinion), {強大国|きょうだいこく} (great power)
+- **Culture / religion (3)**: {服喪|ふくもう} (mourning period), {過去帳|かこちょう} (death register), {二十四節気|にじゅうしせっき} (24 solar terms)
+- **Daily life / practical (5)**: {管理料|かんりりょう} (management fee), {保冷|ほれい}バッグ (cooler bag), {配達時間|はいたつじかん} (delivery time), {弁当袋|べんとうぶくろ} (lunch bag), {上白糖|じょうはくとう} (refined white sugar)
+- **Body / expression (5)**: つま{先立|さきだ}ち (standing on tiptoe), {包帯|ほうたい}を{巻|ま}く (to bandage), {唾|つば}を{吐|は}く (to spit), {脂汗|あぶらあせ}をかく (cold sweat), {間|ま}の{抜|ぬ}けた (foolish, dopey)
+- **Sports / activities (2)**: {騎乗|きじょう} (horse riding), ウィンタースポーツ (winter sports)
+- **Law / safety (3)**: {自損|じそん} (self-inflicted damage), {冤罪事件|えんざいじけん} (wrongful conviction case), {害虫駆除|がいちゅうくじょ} (pest control)
+- **Abstract / academic (3)**: {我慢強|がまんづよ}さ (patience), {主観性|しゅかんせい} (subjectivity), {過剰使用|かじょうしよう} (overuse)
+- **Communication (2)**: {説得力|せっとくりょく}がある (to be persuasive), {鼻歌|はなうた}まじり (humming cheerfully)
+- **Architecture (2)**: レンガ{造|づく}り (brick construction), {十割|じゅうわり} (100 percent)
+- Multi-sense entries: {過去帳|かこちょう} (2 senses), {唾|つば}を{吐|は}く (2 senses)
+- 2 stale candidates removed (duplicates of existing entries)
+- 29 candidates synced from candidate list
+
+Total entries: 24,933 → 24,963.
+
 ### 2026-04-23 (Vocabulary Expansion - 25 New Entries, Batch 28)
 Added 25 new dictionary entries (IDs 25111-25135) from candidate_words.json. Mixed batch covering daily life, politics, culture, sports, health, education, economy, and nature.
 
