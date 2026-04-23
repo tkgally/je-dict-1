@@ -19,7 +19,9 @@
       "english": "That is legal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15024_gouhou_ex2",
@@ -27,7 +29,9 @@
       "english": "Let's resolve it through legal means.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15024_gouhou_ex3",
@@ -35,21 +39,38 @@
       "english": "Something that is legal in this country can be illegal in that country.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: Functions as both a na-adjective ({合法|ごうほう}な) and a noun. Often used in compound forms.\n\nCOMMON COLLOCATIONS:\n- {合法|ごうほう}{的|てき}: legal, legitimate (adjectival)\n- {合法|ごうほう}な{手段|しゅだん}: legal means\n- {合法|ごうほう}{化|か}: legalization\n- {合法|ごうほう}{化|か}する: to legalize\n\nCONTRAST: The antonym is {違法|いほう} (illegal). A related word is {適法|てきほう} (lawful, in conformity with law), which is more formal and technical.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09687_ihou",
+      "reading": "いほう",
+      "headword": "{違法|いほう}",
+      "label": "illegal, unlawful"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T05:34:37Z",
-    "modified": "2026-03-05T05:34:37Z",
+    "modified": "2026-04-23T06:13:56Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }
