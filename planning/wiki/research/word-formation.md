@@ -1,6 +1,6 @@
 # Japanese Word Formation and Morphology
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-04-23
 
 ## Overview
 
@@ -151,6 +151,7 @@ Productive affixes and common compound-forming elements should be in the basic o
 - [Vocabulary Tier System](../project/vocabulary-tiers.md) — tier classification including affix treatment
 - [Cross-Reference Design](../topics/cross-references.md) — linking morphologically related entries
 - [Entry Design](../project/entry-design.md) — what goes in each entry
+- [Multiword Expressions](multiword-expressions.md) — how multiword units relate to morphological boundaries
 
 ## Sources
 

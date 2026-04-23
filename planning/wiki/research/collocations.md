@@ -1,6 +1,6 @@
 # Collocations in Learner Dictionaries
 
-**Last updated**: 2026-04-15
+**Last updated**: 2026-04-23
 
 ## What collocations are and why they matter
 
@@ -155,3 +155,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Compound Verb Representation](../topics/compound-verbs.md) — a related category of multi-word units
 - [Semantic Prosody](semantic-prosody.md) — the evaluative colouring that extends beyond simple collocation
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — overlap between collocational and grammatical patterns
+- [Multiword Expressions](multiword-expressions.md) — broader taxonomy of MWEs including idioms, formulaic routines, and grammar patterns

@@ -1,6 +1,6 @@
 # Compound Verb Representation
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-04-23
 
 ## Overview
 
@@ -133,3 +133,4 @@ The compound verb question affects multiple project concerns:
 - [Cross-Reference Design](cross-references.md) — linking compound verbs to components
 - [Content Pipeline](../project/content-pipeline.md) — entry creation workflow
 - [Word Formation and Morphology](../research/word-formation.md) — broader context of Japanese compounding and derivation
+- [Multiword Expressions](../research/multiword-expressions.md) — compound verbs as one category in the broader MWE taxonomy
