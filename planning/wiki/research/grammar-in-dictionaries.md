@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-04-22
+**Last updated**: 2026-04-23
 
 ## Overview
 
@@ -164,7 +164,7 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 
 4. **Aspect documentation**: The polish_aspect_notes task adds ている behavior notes to verbs with non-obvious aspect, directly addressing the aspect polysemy challenge.
 
-5. **Example-based grammar teaching**: With ~99,700 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
+5. **Example-based grammar teaching**: With over 100,200 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
 
 ### Areas for potential improvement
 
@@ -204,3 +204,4 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 - [Verb Transitivity Pairs](../topics/verb-transitivity.md) — transitivity pair presentation
 - [Definition and Gloss Strategies](definition-strategies.md) — COBUILD's grammar-in-definitions approach
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — how users navigate entries
+- [Multiword Expressions](multiword-expressions.md) — grammar patterns (〜について, 〜てしまう) as a category of MWE

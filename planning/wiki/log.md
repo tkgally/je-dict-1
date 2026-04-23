@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-23] maintenance | Multiword expressions research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **multiword expressions (MWEs) in learner dictionaries** and created `research/multiword-expressions.md`. Covers the MWE taxonomy by compositionality (free combinations → collocations → figurative idioms → pure idioms, following Cowie 1998 / Vinogradov) and by Japanese grammatical structure (compound verbs, 慣用句, 四字熟語, proverbs, greetings, grammar patterns, light-verb constructions); the dictionary placement problem (5 strategies from Atkins & Rundell 2008, subentry vs. independent entry trade-offs); MWE types and acquisition challenges (Nesselhauf 2005 on collocation errors, Yamashita & Jiang 2010 on L1 influence); Wray's (2002) holistic storage/retrieval model; the 気 cluster problem and particle-as-part-of-expression design; quantitative analysis of je-dict-1's ~745 expression entries (233 verb-object, 113 subject-predicate, 100 location/goal, 15 proverbs, 7 grammar patterns, 277 other); inclusion criteria decision table; Siepmann's (2005) finding that dictionaries neglect compositional routine formulae; Palmer & Hornby's historical connection to Japanese MWE lexicography; and detailed implications for je-dict-1 (cross-reference density, metaphorical motivation notes, collocation fields, grammar pattern coverage expansion, body-part idiom cluster auditing). Cited Atkins & Rundell 2008, Biber et al. 1999, Cowie 1998, Erman & Warren 2000, Granger & Meunier 2008, Moon 1998, Nesselhauf 2005, Pawley & Syder 1983, Siepmann 2005, Wray 2002, Yamashita & Jiang 2010.
+- [A] Updated entry counts across 8 wiki pages to reflect 2026-04-23 `report.py` output (24,908 entries / 22,125 general / 9,413 cross-references / 100,247 examples / 1,432 candidates / 45.3% symmetry / 4,280 asymmetric refs / 2,847 entries with inline links at 11.4%). Noted the **100,000 example sentence milestone** in the retrospective page. Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`.
+- [E] Ran cross-reference link checker across all wiki pages (385 internal links checked, 0 broken). Added the new MWE page to `index.md` and as a related page on `collocations.md`, `compound-verbs.md`, `learner-lexicography.md`, `word-formation.md`, `grammar-in-dictionaries.md`, and `definition-strategies.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-22] maintenance | Grammar information research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

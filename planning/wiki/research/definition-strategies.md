@@ -1,6 +1,6 @@
 # Definition and Gloss Strategies in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-04-07
+**Last updated**: 2026-04-23
 
 ## Overview
 
@@ -177,3 +177,4 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Semantic Prosody](semantic-prosody.md) — why prosody-bearing words need more than neutral glosses
 - [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — sense division, ordering, and structure in learner dictionaries
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — COBUILD's grammar-in-definitions approach and natural-language patterns
+- [Multiword Expressions](multiword-expressions.md) — defining phrasal meanings vs. single-word meanings
