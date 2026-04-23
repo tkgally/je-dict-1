@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-23 (Vocabulary Expansion - 30 New Entries, Batch 30)
+Added 30 new dictionary entries (IDs 25166-25195) from candidate_words.json. Diverse batch covering travel, health, science, education, business, culture, food, and technology.
+
+- **Health / science (4)**: {接触感染|せっしょくかんせん} (contact transmission), {空気感染|くうきかんせん} (airborne transmission), {移植手術|いしょくしゅじゅつ} (transplant surgery), {司法解剖|しほうかいぼう} (forensic autopsy)
+- **Science / technology (3)**: {電気抵抗|でんきていこう} (electrical resistance), {永久磁石|えいきゅうじしゃく} (permanent magnet), {天体望遠鏡|てんたいぼうえんきょう} (astronomical telescope)
+- **Business / economy (2)**: {市場投入|しじょうとうにゅう} (market launch), {特典券|とくてんけん} (bonus ticket)
+- **Material / industry (3)**: {耐水性|たいすいせい} (water resistance), {天然素材|てんねんそざい} (natural material), {粉状|ふんじょう} (powdered form)
+- **Education (3)**: {大学教員|だいがくきょういん} (university faculty), {大学生協|だいがくせいきょう} (university co-op), {児童向|じどうむ}け (for children)
+- **Travel / daily life (3)**: {泊数|はくすう} (number of nights), {引換所|ひきかえじょ} (exchange counter), {家族向|かぞくむ}け (for families)
+- **Entertainment / media (2)**: {新作映画|しんさくえいが} (new film), {内幕話|ないまくばなし} (inside story)
+- **Food / culture (2)**: {酒麹|さけこうじ} (sake koji), {麹菌|こうじきん} (koji mold)
+- **Technology / industry (2)**: {再始動|さいしどう} (restart), {型式|けいしき} (model type)
+- **Other (6)**: {中継点|ちゅうけいてん} (relay point), {体操選手|たいそうせんしゅ} (gymnast), {急傾斜|きゅうけいしゃ} (steep slope), {温暖化対策|おんだんかたいさく} (global warming measures), {王后|おうごう} (queen consort), {異性愛|いせいあい} (heterosexuality)
+- 30 candidates synced from candidate list
+
+Total entries: 24,963 → 24,993.
+
 ### 2026-04-23 (Vocabulary Expansion - 30 New Entries, Batch 29)
 Added 30 new dictionary entries (IDs 25136-25165) from candidate_words.json. Diverse batch covering politics, culture, daily life, food, law, sports, body, and communication.
 
@@ -125,26 +142,6 @@ Added 20 new dictionary entries (IDs 25062-25081) from candidate_words.json. Mix
 
 Total entries: 24,859 → 24,879.
 
-### 2026-04-22 (Vocabulary Expansion - 25 New Entries, Batch 25)
-Added 25 new dictionary entries (IDs 25037-25061) from candidate_words.json. Mixed batch covering daily life, culture, history, business, science, economics, and expressions.
-
-- **Daily life (3)**: キッチンペーパー (kitchen paper towel), {必携品|ひっけいひん} (essential item), {美顔|びがん} (facial beauty/care)
-- **Business / work (3)**: {進行役|しんこうやく} (facilitator/moderator), {繁盛期|はんじょうき} (peak season), サービス{出勤|しゅっきん} (unpaid work attendance)
-- **Culture / history (3)**: {百獣|ひゃくじゅう} (all beasts), {廓|くるわ} (pleasure quarter/castle bailey), {一寸|いっすん} (one sun measurement)
-- **Science / technology (3)**: {周波数|しゅうはすう} (frequency), {無生物|むせいぶつ} (inanimate object), {再設定|さいせってい} (resetting)
-- **Economics / general (3)**: インフレーション (inflation), その{他|た} (others/the rest), {介在|かいざい} (mediation/intervention)
-- **Expressions / literary (2)**: {胸|むね}がきゅんとする (heart flutter), よすが (means of support/keepsake)
-- **Education (1)**: {女子学生|じょしがくせい} (female student)
-- **Transport (1)**: {乗合|のりあい}バス (public bus)
-- **Agriculture (1)**: {輪作|りんさく} (crop rotation)
-- **Religion (1)**: イスラム{教|きょう} (Islam)
-- **Military (1)**: {手榴弾|しゅりゅうだん} (hand grenade)
-- **Multi-sense entries (3)**: {上|あ}がり (3 senses), {廓|くるわ} (2 senses), {絵札|えふだ} (2 senses), よすが (2 senses)
-- Conjugation tables auto-generated for 5 suru verb entries
-- 2 new kanji added to index: 廓, 榴
-- 25 candidates synced from candidate list
-
-Total entries: 24,834 → 24,859.
 
 ### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 24)
 Added 20 new dictionary entries (IDs 25017-25036) from candidate_words.json. Mixed batch covering expressions, loanwords, food, sports, daily life, science, and business vocabulary.
