@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-23 (Vocabulary Expansion - 24 New Entries, Batch 31)
+Added 24 new dictionary entries (IDs 25196-25219) from candidate_words.json. Diverse batch covering onomatopoeia, food culture, traditional vocabulary, nature, and more.
+
+- **Onomatopoeia / mimetic (3)**: ぐにゃぐにゃ (floppy/limp), なでなでする (to gently stroke), ぱたぱたする (to flap)
+- **Nature / geography (3)**: {飛瀑|ひばく} (waterfall), {礁|しょう} (reef), {毒茸|どくきのこ} (poisonous mushroom)
+- **Culture / tradition (4)**: {三代目|さんだいめ} (third generation), {楽日|らくじつ} (closing day), {命名式|めいめいしき} (naming ceremony), {霊地|れいち} (sacred place)
+- **Body / medical (2)**: {咽喉|いんこう} (throat/pharynx), {両耳|りょうみみ} (both ears)
+- **Society / law (2)**: {門地|もんち} (family status/pedigree), {共有者|きょうゆうしゃ} (co-owner)
+- **Food culture (1)**: {米麹|こめこうじ} (rice koji)
+- **Travel (1)**: {温泉旅館|おんせんりょかん} (hot spring inn)
+- **Feelings / qualities (2)**: {愛撫|あいぶ} (caress), {大度|たいど} (magnanimity)
+- **Language / vocabulary (2)**: {何程|なにほど} (how much/to what extent), {仲春|ちゅうしゅん} (mid-spring)
+- **Family / nature (2)**: {初子|ういご} (firstborn child), {天道|てんとう} (way of heaven/the sun)
+- **Other (2)**: {雄雌|ゆうし} (male and female), {緒|お} (cord/strap)
+- 4 stale candidates removed (overlapping with existing entries)
+- 23 candidates synced from candidate list
+
+Total entries: 24,993 → 25,017.
+
 ### 2026-04-23 (Vocabulary Expansion - 30 New Entries, Batch 30)
 Added 30 new dictionary entries (IDs 25166-25195) from candidate_words.json. Diverse batch covering travel, health, science, education, business, culture, food, and technology.
 
@@ -123,43 +142,5 @@ Added 29 new dictionary entries (IDs 25082-25110) from candidate_words.json. Mix
 - 49 candidates synced from candidate list
 
 Total entries: 24,879 → 24,908.
-
-### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 26)
-Added 20 new dictionary entries (IDs 25062-25081) from candidate_words.json. Mixed batch covering daily life, culture, travel, food, nature, fashion, sport, and history.
-
-- **Daily life / facilities (4)**: パウダールーム (powder room), {相談室|そうだんしつ} (consultation room), レンタルルーム (rental room), フェイスタオル (face towel)
-- **Culture / religion (3)**: {大凶|だいきょう} (great misfortune / omikuji), {剃髪|ていはつ} (head shaving / tonsure), {儒者|じゅしゃ} (Confucian scholar)
-- **Travel / transport (2)**: {渡航先|とこうさき} (destination abroad), パーキングエリア (parking area)
-- **Food / nature (3)**: カシューナッツ (cashew nut), {片栗|かたくり} (dogtooth violet / starch), {羽虫|はむし} (gnat / small flying insect)
-- **Sport / leisure (2)**: セーリング (sailing), クルーザー (cruiser / yacht)
-- **Fashion (1)**: バングル (bangle)
-- **People / society (3)**: {女主人|おんなしゅじん} (female proprietor), {長子|ちょうし} (eldest child), {素|そ}っ{気|け} (bluntness / coldness)
-- **Expression (1)**: {昼日中|ひるひなか} (broad daylight)
-- **Tools (1)**: {噴霧器|ふんむき} (sprayer / atomizer)
-- Multi-sense entry: {片栗|かたくり} (2 senses)
-- Conjugation table auto-generated for 1 suru verb entry ({剃髪|ていはつ})
-- 20 candidates synced from candidate list
-
-Total entries: 24,859 → 24,879.
-
-
-### 2026-04-22 (Vocabulary Expansion - 20 New Entries, Batch 24)
-Added 20 new dictionary entries (IDs 25017-25036) from candidate_words.json. Mixed batch covering expressions, loanwords, food, sports, daily life, science, and business vocabulary.
-
-- **Expressions (3)**: どちらかというと (if anything/rather), {影響|えいきょう}を{受|う}ける (to be influenced), {再々|さいさい} (again and again)
-- **Loanwords / daily life (4)**: エントリーシート (job application form), チェックリスト (checklist), コンディショナー (hair conditioner), ウェットティッシュ (wet wipe)
-- **Food / dining (2)**: {計量|けいりょう}カップ (measuring cup), {刺身盛|さしみも}り (sashimi platter)
-- **Onomatopoeia (1)**: ぽこぽこ (bubbling; one after another)
-- **Sports (1)**: {内野手|ないやしゅ} (infielder)
-- **Science / technology (2)**: {化合物|かごうぶつ} (chemical compound), データ{解析|かいせき} (data analysis)
-- **Business / administration (3)**: {名称変更|めいしょうへんこう} (name change), {募集期間|ぼしゅうきかん} (application period), {予約受付|よやくうけつけ} (reservation reception)
-- **Shopping (1)**: {購入予約|こうにゅうよやく} (pre-order)
-- **Transport / education (2)**: {進路変更|しんろへんこう} (change of course), {車線規制|しゃせんきせい} (lane restriction)
-- **Exploration (1)**: {探検隊|たんけんたい} (expedition)
-- Conjugation tables auto-generated for 4 suru verb entries
-- 3 stale candidates removed (duplicates of existing entries)
-- 20 candidates synced from candidate list
-
-Total entries: 24,814 → 24,834.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
