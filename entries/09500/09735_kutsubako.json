@@ -18,7 +18,9 @@
       "english": "Please put your shoes in the shoe cabinet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09735_kutsubako_ex2",
@@ -26,7 +28,9 @@
       "english": "The shoe lockers at school are assigned by number.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09735_kutsubako_ex3",
@@ -34,7 +38,9 @@
       "english": "I have a large shoe cabinet in the entryway.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{靴箱|くつばこ} is an essential piece of furniture in Japanese homes and facilities.\n\nALTERNATE TERMS:\n- {下駄箱|げたばこ}: traditional term (literally \"geta box\")\n- シューズボックス: shoe box (loanword)\n\nCOMMON CONTEXTS:\n- {玄関|げんかん}: home entryway\n- {学校|がっこう}: school (students change to indoor shoes)\n- {銭湯|せんとう}/{温泉|おんせん}: public baths\n\nRELATED TERMS:\n- {上履|うわば}き: indoor shoes\n- {玄関|げんかん}: entrance, entryway",
@@ -44,10 +50,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["housing", "furniture"]
+      "semantic": [
+        "housing",
+        "furniture"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06490_getabako",
+      "reading": "げたばこ",
+      "headword": "{下駄箱|げたばこ}",
+      "label": "shoe rack (traditional term)"
+    },
+    {
+      "type": "related",
+      "target_id": "09734_rokkaa",
+      "reading": "ろっかー",
+      "headword": "ロッカー",
+      "label": "locker"
+    },
+    {
+      "type": "related",
+      "target_id": "05003_genkan",
+      "reading": "げんかん",
+      "headword": "{玄関|げんかん}",
+      "label": "entryway"
+    }
+  ]
 }

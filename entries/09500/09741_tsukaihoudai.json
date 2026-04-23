@@ -18,7 +18,9 @@
       "english": "An unlimited data plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09741_tsukaihoudai_ex2",
@@ -26,7 +28,9 @@
       "english": "It's unlimited, so I can use it without worry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09741_tsukaihoudai_ex3",
@@ -34,7 +38,9 @@
       "english": "This cafe has unlimited Wi-Fi, which makes it easy to work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{使|つか}い{放題|ほうだい} follows the ～{放題|ほうだい} pattern meaning \"as much as you want.\"\n\nSIMILAR EXPRESSIONS:\n- {食|た}べ{放題|ほうだい}: all-you-can-eat\n- {飲|の}み{放題|ほうだい}: all-you-can-drink\n- {見|み}{放題|ほうだい}: unlimited viewing\n- {聴|き}き{放題|ほうだい}: unlimited listening\n\nCOMMON COLLOCATIONS:\n- データ{使|つか}い{放題|ほうだい} (unlimited data)\n- Wi-Fi{使|つか}い{放題|ほうだい} (unlimited Wi-Fi)\n\nRELATED TERMS:\n- {定額|ていがく}: flat rate\n- {無制限|むせいげん}: unlimited",
@@ -44,10 +50,45 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["subscription", "service"]
+      "semantic": [
+        "subscription",
+        "service"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09740_teigaku",
+      "reading": "ていがく",
+      "headword": "{定額|ていがく}",
+      "label": "flat rate"
+    },
+    {
+      "type": "related",
+      "target_id": "08291_tabehoudai",
+      "reading": "たべほうだい",
+      "headword": "{食|た}べ{放題|ほうだい}",
+      "label": "all-you-can-eat"
+    },
+    {
+      "type": "related",
+      "target_id": "08308_nomihoudai",
+      "reading": "のみほうだい",
+      "headword": "{飲|の}み{放題|ほうだい}",
+      "label": "all-you-can-drink"
+    },
+    {
+      "type": "related",
+      "target_id": "17829_museigen",
+      "reading": "むせいげん",
+      "headword": "{無制限|むせいげん}",
+      "label": "unlimited"
+    }
+  ]
 }

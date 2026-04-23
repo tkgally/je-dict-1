@@ -18,7 +18,9 @@
       "english": "I took my suit to the dry cleaner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09733_kuriininguten_ex2",
@@ -26,7 +28,9 @@
       "english": "What time is the dry cleaner open until?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09733_kuriininguten_ex3",
@@ -34,7 +38,9 @@
       "english": "The dry cleaner in front of the station can do same-day service.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "クリーニング{店|てん} provides professional cleaning services.\n\nCOMMON SERVICES:\n- ドライクリーニング: dry cleaning\n- アイロン{掛|が}け: ironing/pressing\n- しみ{抜|ぬ}き: stain removal\n- {即日|そくじつ}{仕上|しあ}げ: same-day service\n\nCOMMON COLLOCATIONS:\n- クリーニングに{出|だ}す (to take to the cleaner)\n- クリーニングから{受|う}け{取|と}る (to pick up from the cleaner)\n\nRELATED TERMS:\n- コインランドリー: coin laundry\n- {洗濯|せんたく}: laundry, washing",
@@ -44,10 +50,31 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["service", "daily_life"]
+      "semantic": [
+        "service",
+        "daily_life"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09732_koinrandorii",
+      "reading": "こいんらんどりー",
+      "headword": "コインランドリー",
+      "label": "coin laundry"
+    },
+    {
+      "type": "related",
+      "target_id": "13283_sentaku",
+      "reading": "せんたく",
+      "headword": "{洗濯|せんたく}",
+      "label": "laundry, washing"
+    }
+  ]
 }

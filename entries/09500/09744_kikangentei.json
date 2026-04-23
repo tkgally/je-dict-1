@@ -18,7 +18,9 @@
       "english": "It's a limited-time sale.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09744_kikangentei_ex2",
@@ -26,7 +28,9 @@
       "english": "I ordered from the limited-time menu.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09744_kikangentei_ex3",
@@ -34,7 +38,9 @@
       "english": "This product is available for a limited time only until the end of March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{期間|きかん}{限定|げんてい} is widely used in marketing and retail.\n\nCOMMON COLLOCATIONS:\n- {期間|きかん}{限定|げんてい}{商品|しょうひん} (limited-time product)\n- {期間|きかん}{限定|げんてい}セール (limited-time sale)\n- {期間|きかん}{限定|げんてい}メニュー (limited-time menu)\n- {期間|きかん}{限定|げんてい}キャンペーン (limited-time campaign)\n\nSIMILAR EXPRESSIONS:\n- {数量|すうりょう}{限定|げんてい}: limited quantity\n- {季節|きせつ}{限定|げんてい}: seasonal limited\n- {地域|ちいき}{限定|げんてい}: region-exclusive",
@@ -44,10 +50,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["shopping", "promotion"]
+      "semantic": [
+        "shopping",
+        "promotion"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10997_gentei",
+      "reading": "げんてい",
+      "headword": "{限定|げんてい}",
+      "label": "limited, restricted"
+    },
+    {
+      "type": "related",
+      "target_id": "09745_higawari",
+      "reading": "ひがわり",
+      "headword": "{日替|ひが}わり",
+      "label": "daily special"
+    },
+    {
+      "type": "related",
+      "target_id": "09743_muryoutaiken",
+      "reading": "むりょうたいけん",
+      "headword": "{無料|むりょう}{体験|たいけん}",
+      "label": "free trial"
+    }
+  ]
 }

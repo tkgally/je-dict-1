@@ -18,7 +18,9 @@
       "english": "The automatic door won't open.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09748_jidoudoa_ex2",
@@ -26,7 +28,9 @@
       "english": "The automatic doors at convenience stores are convenient.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09748_jidoudoa_ex3",
@@ -34,7 +38,9 @@
       "english": "Sometimes the automatic door doesn't react even when you stand in front of it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{自動|じどう}ドア is ubiquitous in Japan, found in most commercial buildings.\n\nCOMMON LOCATIONS:\n- コンビニ: convenience stores\n- スーパー: supermarkets\n- デパート: department stores\n- {駅|えき}: train stations\n- {病院|びょういん}: hospitals\n\nSIGNS:\n- {自動|じどう}ドア ({注意|ちゅうい}): Automatic door (caution)\n- {押|お}すな: Don't push\n\nRELATED TERMS:\n- {手動|しゅどう}ドア: manual door\n- {回転|かいてん}ドア: revolving door\n- センサー: sensor",
@@ -44,10 +50,31 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["facility", "daily_life"]
+      "semantic": [
+        "facility",
+        "daily_life"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03078_jidouhanbaiki",
+      "reading": "じどうはんばいき",
+      "headword": "{自動販売機|じどうはんばいき}",
+      "label": "vending machine"
+    },
+    {
+      "type": "related",
+      "target_id": "03339_jidou",
+      "reading": "じどう",
+      "headword": "{自動|じどう}",
+      "label": "automatic"
+    }
+  ]
 }

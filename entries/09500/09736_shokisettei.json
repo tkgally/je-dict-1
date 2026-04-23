@@ -23,7 +23,9 @@
       "english": "I did the initial setup on my new smartphone.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09736_shokisettei_ex2",
@@ -31,7 +33,9 @@
       "english": "The initial setup took about 30 minutes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09736_shokisettei_ex3",
@@ -39,7 +43,9 @@
       "english": "The Wi-Fi initial setup was difficult.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09736_shokisettei_ex4",
@@ -47,7 +53,9 @@
       "english": "To restore to default settings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09736_shokisettei_ex5",
@@ -55,7 +63,9 @@
       "english": "I'm using it with the default settings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "09736_shokisettei_ex6",
@@ -63,7 +73,9 @@
       "english": "There was a problem, so I reset it to factory settings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{初期|しょき} (initial/early stage) + {設定|せってい} (settings/configuration). Has two distinct senses depending on context.\n\nSENSE 1 — INITIAL SETUP:\nThe process of configuring something for the first time.\n- {初期|しょき}{設定|せってい}をする: to do initial setup\n- {初期|しょき}{設定|せってい}ガイド: setup guide\n- {初期|しょき}{設定|せってい}{画面|がめん}: setup screen\n\nSENSE 2 — DEFAULT SETTINGS:\nThe original/factory configuration before customization.\n- {初期|しょき}{設定|せってい}に{戻|もど}す: to restore to default settings\n- {初期|しょき}{設定|せってい}のまま: as-is with default settings\n\nRELATED TERMS:\n- {工場出荷時|こうじょうしゅっかじ}の{設定|せってい}: factory settings (more formal)\n- リセット: reset\n- デフォルト: default (loanword, also common in tech)\n- {初期化|しょきか}: initialization/formatting (more drastic than resetting settings)",
@@ -73,10 +85,38 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["technology", "device"]
+      "semantic": [
+        "technology",
+        "device"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04767_settei",
+      "reading": "せってい",
+      "headword": "{設定|せってい}",
+      "label": "settings, configuration"
+    },
+    {
+      "type": "related",
+      "target_id": "09223_shokika",
+      "reading": "しょきか",
+      "headword": "{初期化|しょきか}",
+      "label": "initialization, formatting"
+    },
+    {
+      "type": "related",
+      "target_id": "09737_kishuhenkou",
+      "reading": "きしゅへんこう",
+      "headword": "{機種|きしゅ}{変更|へんこう}",
+      "label": "phone upgrade"
+    }
+  ]
 }

@@ -18,7 +18,9 @@
       "english": "I signed up for the free trial.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09743_muryoutaiken_ex2",
@@ -26,7 +28,9 @@
       "english": "The free trial is for one month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09743_muryoutaiken_ex3",
@@ -34,7 +38,9 @@
       "english": "You'll be automatically charged when the free trial period ends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{無料|むりょう}{体験|たいけん} is commonly offered by subscription services.\n\nCOMMON COLLOCATIONS:\n- {無料|むりょう}{体験|たいけん}に{申|もう}し{込|こ}む (to sign up for a free trial)\n- {無料|むりょう}{体験|たいけん}{期間|きかん} (free trial period)\n- {無料|むりょう}{体験|たいけん}キャンペーン (free trial campaign)\n\nWARNINGS:\n- Many free trials require credit card registration.\n- Auto-renewal ({自動|じどう}{更新|こうしん}) is often enabled by default.\n\nRELATED TERMS:\n- お{試|ため}し: trial, sample\n- {初回|しょかい}{限定|げんてい}: first-time only\n- {解約|かいやく}: cancellation",
@@ -44,10 +50,45 @@
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["subscription", "promotion"]
+      "semantic": [
+        "subscription",
+        "promotion"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09742_jidoukoushin",
+      "reading": "じどうこうしん",
+      "headword": "{自動|じどう}{更新|こうしん}",
+      "label": "auto-renewal"
+    },
+    {
+      "type": "related",
+      "target_id": "06129_kaiyaku",
+      "reading": "かいやく",
+      "headword": "{解約|かいやく}",
+      "label": "cancellation"
+    },
+    {
+      "type": "related",
+      "target_id": "09744_kikangentei",
+      "reading": "きかんげんてい",
+      "headword": "{期間|きかん}{限定|げんてい}",
+      "label": "limited time"
+    },
+    {
+      "type": "related",
+      "target_id": "01662_muryou",
+      "reading": "むりょう",
+      "headword": "{無料|むりょう}",
+      "label": "free of charge"
+    }
+  ]
 }
