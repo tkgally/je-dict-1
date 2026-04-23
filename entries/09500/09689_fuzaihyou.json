@@ -18,7 +18,9 @@
       "english": "There was a missed delivery notice.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09689_fuzaihyou_ex2",
@@ -26,7 +28,9 @@
       "english": "I saw the missed delivery notice and requested redelivery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09689_fuzaihyou_ex3",
@@ -34,20 +38,43 @@
       "english": "There was a missed delivery notice in the mailbox, so I contacted the delivery office.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{不在票|ふざいひょう} is the slip left by delivery services when a package cannot be delivered.\n\nCOMMON PATTERNS:\n- {不在票|ふざいひょう}が{入|はい}る (a missed delivery notice is left)\n- {不在票|ふざいひょう}を{確認|かくにん}する (to check the missed delivery notice)\n\nUSAGE NOTES:\n- Contains information for arranging redelivery\n- Usually includes a QR code or phone number\n\nRELATED TERMS:\n- {再配達|さいはいたつ}: redelivery\n- {宅配便|たくはいびん}: home delivery service",
   "metadata": {
     "created": "2026-02-03T06:48:04Z",
-    "modified": "2026-02-03T06:48:04Z",
+    "modified": "2026-04-23T06:13:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["daily_life", "delivery"]
+      "semantic": [
+        "daily_life",
+        "delivery"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09690_saihaitatsu",
+      "reading": "さいはいたつ",
+      "headword": "{再配達|さいはいたつ}",
+      "label": "redelivery"
+    },
+    {
+      "type": "related",
+      "target_id": "00084_haitatsu",
+      "reading": "はいたつ",
+      "headword": "{配達|はいたつ}",
+      "label": "delivery"
+    }
+  ]
 }

@@ -18,7 +18,9 @@
       "english": "It was delivered to the parcel locker.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09719_takuhaibokkusu_ex2",
@@ -26,7 +28,9 @@
       "english": "This apartment building has delivery lockers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "09719_takuhaibokkusu_ex3",
@@ -34,20 +38,43 @@
       "english": "It's convenient because they can leave packages in the delivery locker even when I'm not home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{宅配|たくはい}ボックス is a common amenity in Japanese apartment buildings ({集合住宅|しゅうごうじゅうたく}).\n\nCOMMON COLLOCATIONS:\n- {宅配|たくはい}ボックスに{届|とど}く (to be delivered to the parcel locker)\n- {宅配|たくはい}ボックスから{取|と}り{出|だ}す (to retrieve from the parcel locker)\n- {宅配|たくはい}ボックス{付|つ}き (with delivery locker)\n\nRELATED TERMS:\n- {置|お}き{配|はい}: leave-at-door delivery\n- {再配達|さいはいたつ}: redelivery\n- {不在票|ふざいひょう}: missed delivery notice",
   "metadata": {
     "created": "2026-02-03T07:17:27Z",
-    "modified": "2026-02-03T07:17:27Z",
+    "modified": "2026-04-23T06:13:56Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["housing", "delivery"]
+      "semantic": [
+        "housing",
+        "delivery"
+      ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09571_takuhai",
+      "reading": "たくはい",
+      "headword": "{宅配|たくはい}",
+      "label": "home delivery"
+    },
+    {
+      "type": "related",
+      "target_id": "09720_okihai",
+      "reading": "おきはい",
+      "headword": "{置|お}き{配|はい}",
+      "label": "leave-at-door delivery"
+    }
+  ]
 }
