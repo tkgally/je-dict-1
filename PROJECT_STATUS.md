@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-23 (Vocabulary Expansion - 25 New Entries, Batch 28)
+Added 25 new dictionary entries (IDs 25111-25135) from candidate_words.json. Mixed batch covering daily life, politics, culture, sports, health, education, economy, and nature.
+
+- **Politics / government (2)**: {連立政権|れんりつせいけん} (coalition government), {擁護者|ようごしゃ} (advocate/defender)
+- **Economy / finance (2)**: {大台乗|おおだいの}せ (crossing a major milestone), {緩和策|かんわさく} (mitigation measure)
+- **Health / medicine (2)**: {服用量|ふくようりょう} (dosage), {油分|ゆぶん} (oil content)
+- **Daily life / transportation (3)**: {通過駅|つうかえき} (non-stop station), {表側|おもてがわ} (front side), {缶飲料|かんいんりょう} (canned drink)
+- **Education / science (2)**: {研究科|けんきゅうか} (graduate department), {命名法|めいめいほう} (nomenclature)
+- **Culture / mythology (2)**: {織姫|おりひめ} (Orihime/Weaver Princess), {魔法|まほう}の{杖|つえ} (magic wand)
+- **Sports / martial arts (2)**: {壁打|かべう}ち (wall practice/brainstorming), {一本勝|いっぽんが}ち (ippon victory)
+- **People / society (3)**: {該当者|がいとうしゃ} (eligible person), {低所得者|ていしょとくしゃ} (low-income person), {顔役|かおやく} (influential figure)
+- **Nature / materials (2)**: {水族|すいぞく} (aquatic life), {綿布|めんぷ} (cotton cloth)
+- **Other (3)**: {躓|つまず}き (stumble/setback), {縦線|たてせん} (vertical line), しおしお (dejectedly/wilted), {初年|しょねん} (first year)
+- Multi-sense entries: {躓|つまず}き (2 senses), {壁打|かべう}ち (2 senses), {織姫|おりひめ} (2 senses)
+- 1 stale candidate removed (duplicate of existing entry)
+- 25 candidates synced from candidate list
+
+Total entries: 24,908 → 24,933.
+
 ### 2026-04-22 (Vocabulary Expansion - 29 New Entries, Batch 27)
 Added 29 new dictionary entries (IDs 25082-25110) from candidate_words.json. Mixed batch covering daily life, law, food, culture, society, stationery, and more.
 
@@ -127,26 +146,5 @@ Added 20 new dictionary entries (IDs 25017-25036) from candidate_words.json. Mix
 - 20 candidates synced from candidate list
 
 Total entries: 24,814 → 24,834.
-
-### 2026-04-22 (Vocabulary Expansion - 24 New Entries, Batch 23)
-Added 24 new dictionary entries (IDs 24993-25016) from candidate_words.json. Mixed batch covering culture, religion, history, nature, daily life, textiles, and body vocabulary.
-
-- **Culture / religion (4)**: {阿弥陀|あみだ} (Amitabha Buddha), {仏殿|ぶつでん} (Buddha hall), {本厄|ほんやく} (main unlucky year), {叙勲|じょくん} (conferring decorations)
-- **History (2)**: {平氏|へいし} (Taira clan), {太夫|たゆう} (tayuu/courtesan/performer)
-- **Nature / weather (3)**: {虻|あぶ} (horsefly), {風浪|ふうろう} (wind-driven waves), {湖上|こじょう} (on the lake)
-- **Daily life / food (3)**: ペーパータオル (paper towel), チューインガム (chewing gum), ニュース{速報|そくほう} (breaking news)
-- **Textiles (2)**: {表地|おもてじ} (outer fabric), {裏布|うらぬの} (lining cloth)
-- **Body / health (2)**: しもやけ (chilblains), {脇毛|わきげ} (armpit hair)
-- **Sports / fitness (1)**: {柔軟体操|じゅうなんたいそう} (stretching exercises)
-- **Finance (1)**: {株券|かぶけん} (stock certificate)
-- **Material (2)**: {銅板|どうばん} (copper plate), {車軸|しゃじく} (axle)
-- **Abstract / personality (2)**: {軽|かる}さ (lightness), {吝嗇|りんしょく} (stinginess)
-- **Conversation (1)**: ではでは (well then/goodbye)
-- **Supernatural (1)**: {背後霊|はいごれい} (guardian spirit)
-- Conjugation tables auto-generated for 1 suru verb entry
-- 2 new kanji added to index: 叙, 陀
-- 24 candidates synced, 1 stale candidate removed (空言 からごと, variant of existing そらごと entry)
-
-Total entries: 24,790 → 24,814.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
