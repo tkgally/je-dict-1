@@ -7,68 +7,6 @@
   "gloss": "reply, answer, response",
   "conjugation": {
     "type": "suru",
-    "prefix": "{返答|へんとう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "reply, answer, response",
-      "explanation": "A verbal or written response to a question or request. Slightly more formal than 返事."
-    }
-  ],
-  "examples": [
-    {
-      "id": "10440_hentou_ex1",
-      "japanese": "{返答|へんとう}に{困|こま}る。",
-      "english": "To be at a loss for a reply.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "10440_hentou_ex2",
-      "japanese": "{質問|しつもん}に{対|たい}して{明確|めいかく}な{返答|へんとう}をした。",
-      "english": "I gave a clear reply to the question.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "10440_hentou_ex3",
-      "japanese": "すぐに{返答|へんとう}できないので、{少|すこ}し{時間|じかん}をいただけますか。",
-      "english": "I can't reply immediately, so could I have a little time?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{返答|へんとう} is composed of {返|へん} (return) + {答|とう} (answer).\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}する: to reply\n- {返答|へんとう}に{困|こま}る: to be stuck for a reply\n- {返答|へんとう}を{待|ま}つ: to wait for a reply\n\nSIMILAR WORDS:\n- {返答|へんとう}: reply (somewhat formal, to questions or requests)\n- {返事|へんじ}: reply (everyday, general response)\n- {回答|かいとう}: answer (formal, to surveys, official questions)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-02-07T11:20:16Z",
-    "modified": "2026-03-29T03:07:35Z",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "communication"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +94,78 @@
         "negative": "{返答|へんとう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "reply, answer, response",
+      "explanation": "A verbal or written response to a question or request. Slightly more formal than 返事."
+    }
+  ],
+  "examples": [
+    {
+      "id": "10440_hentou_ex1",
+      "japanese": "{返答|へんとう}に{困|こま}る。",
+      "english": "To be at a loss for a reply.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "10440_hentou_ex2",
+      "japanese": "{質問|しつもん}に{対|たい}して{明確|めいかく}な{返答|へんとう}をした。",
+      "english": "I gave a clear reply to the question.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "10440_hentou_ex3",
+      "japanese": "すぐに{返答|へんとう}できないので、{少|すこ}し{時間|じかん}をいただけますか。",
+      "english": "I can't reply immediately, so could I have a little time?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{返答|へんとう} is composed of {返|へん} (return) + {答|とう} (answer).\n\nCOMMON COLLOCATIONS:\n- {返答|へんとう}する: to reply\n- {返答|へんとう}に{困|こま}る: to be stuck for a reply\n- {返答|へんとう}を{待|ま}つ: to wait for a reply\n\nSIMILAR WORDS:\n- {返答|へんとう}: reply (somewhat formal, to questions or requests)\n- {返事|へんじ}: reply (everyday, general response)\n- {回答|かいとう}: answer (formal, to surveys, official questions)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00844_henji",
+      "reading": "へんじ",
+      "headword": "{返事|へんじ}",
+      "label": "reply (everyday)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00790_kotae",
+      "reading": "こたえ",
+      "headword": "{答|こた}え",
+      "label": "answer"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-07T11:20:16Z",
+    "modified": "2026-04-24T06:24:12Z",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

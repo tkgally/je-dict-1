@@ -19,7 +19,9 @@
       "english": "I want to eat Western food today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13274_youshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "This is a long-established Western-style restaurant, and their hamburger steak is popular.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13274_youshoku_ex3",
@@ -35,21 +39,35 @@
       "english": "Western cuisine introduced to Japan in the Meiji era merged with Japanese cooking techniques and evolved in its own unique way.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{洋食|ようしょく} refers specifically to the Japanese adaptation of Western dishes, not to Western cuisine as served in its countries of origin. It forms a pair with {和食|わしょく} (Japanese food). Typical {洋食|ようしょく} dishes include ハンバーグ (hamburger steak), オムライス (omurice), カレーライス (curry rice), コロッケ (croquettes), and ナポリタン (Napolitan spaghetti). A {洋食|ようしょく}{屋|や} is a restaurant specializing in these dishes.\n\nCOMMON COLLOCATIONS:\n- {洋食|ようしょく}{屋|や}: Western-style restaurant\n- {洋食|ようしょく}メニュー: Western-style menu\n- {和食|わしょく}と{洋食|ようしょく}: Japanese and Western food\n- {洋食|ようしょく}レストラン: Western-style restaurant",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10436_washoku",
+      "reading": "わしょく",
+      "headword": "{和食|わしょく}",
+      "label": "Japanese food"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T07:33:05Z",
-    "modified": "2026-02-24T07:33:05Z",
+    "modified": "2026-04-24T06:24:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

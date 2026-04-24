@@ -19,7 +19,9 @@
       "english": "Which would you prefer, a Western-style room or a Japanese-style room?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15741_youshitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This hotel has thirty Western-style rooms.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15741_youshitsu_ex3",
@@ -35,21 +39,35 @@
       "english": "We decided to make the children's room Western-style and put in beds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{洋室|ようしつ} is contrasted with {和室|わしつ} (Japanese-style room). The distinction is important when booking hotels or ryokan, or when describing rooms in a house.\n\nCOMMON COLLOCATIONS:\n- {洋室|ようしつ}タイプ (Western-style room type)\n- {洋室|ようしつ}{仕様|しよう} (Western-room specifications)\n- ツイン{洋室|ようしつ} (twin Western-style room)\n\nSIMILAR WORDS:\n{和室|わしつ} is the opposite — a Japanese-style room with {畳|たたみ} flooring. Many Japanese homes have both {洋室|ようしつ} and {和室|わしつ}. {洋間|ようま} is a synonym but less common in hotel contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10437_washitsu",
+      "reading": "わしつ",
+      "headword": "{和室|わしつ}",
+      "label": "Japanese-style room"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:07:57Z",
-    "modified": "2026-03-08T09:07:57Z",
+    "modified": "2026-04-24T06:24:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building"]
+      "semantic": [
+        "building"
+      ]
     }
   }
 }
