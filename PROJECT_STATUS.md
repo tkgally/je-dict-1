@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-24 (Vocabulary Expansion - 26 New Entries, Batch 32)
+Added 26 new dictionary entries (IDs 25220-25245) from candidate_words.json. Focused on common, high-utility vocabulary for intermediate learners.
+
+- **Na-adjectives (5)**: {透明|とうめい} (transparent), {単純|たんじゅん} (simple), {豊富|ほうふ} (abundant), {失礼|しつれい} (rude/excuse me), {世界的|せかいてき} (worldwide)
+- **Suru verbs (14)**: {支配|しはい}する (to rule), {加工|かこう}する (to process), {分類|ぶんるい}する (to classify), {節約|せつやく}する (to economize), {登録|とうろく}する (to register), {申請|しんせい}する (to apply), {展開|てんかい}する (to develop), {消費|しょうひ}する (to consume), {発表|はっぴょう}する (to announce), {口出|くちだ}しする (to meddle), {選|よ}り{好|ごの}みする (to be picky), {浪費|ろうひ}する (to waste), {補充|ほじゅう}する (to replenish), {推察|すいさつ}する (to surmise), {接着|せっちゃく}する (to adhere)
+- **Godan verb (1)**: {引|ひ}き{立|た}つ (to stand out)
+- **I-adjective (1)**: {油|あぶら}っぽい (oily/greasy)
+- **Nouns (2)**: {乗|の}り{物酔|ものよ}い (motion sickness), {割|わ}り{込|こ}み (cutting in line)
+- **Expressions (2)**: {正々堂々|せいせいどうどう} (fair and square), {粉々|こなごな}になる (to shatter)
+- 21 candidates synced from candidate list
+
+Total entries: 25,017 → 25,043.
+
 ### 2026-04-23 (Vocabulary Expansion - 24 New Entries, Batch 31)
 Added 24 new dictionary entries (IDs 25196-25219) from candidate_words.json. Diverse batch covering onomatopoeia, food culture, traditional vocabulary, nature, and more.
 
