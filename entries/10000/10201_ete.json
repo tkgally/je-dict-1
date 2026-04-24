@@ -38,10 +38,32 @@
     }
   ],
   "notes": "WORD FORMATION:\n{得|え} (gain, obtain) + {手|て} (hand, skill)\n\nKEY EXPRESSION:\n{得手不得手|えてふえて} (strengths and weaknesses) - a very common compound meaning the things one is good at and bad at.\n\nCONTRAST WITH {不得手|ふえて}:\n- {得手|えて}: strong point, what one is good at\n- {不得手|ふえて}: weak point, what one is not good at\n\nRELATED TERMS:\n- {得意|とくい}: specialty, being good at\n- {長所|ちょうしょ}: strong point, advantage\n- {苦手|にがて}: weak point, not good at\n- {持|も}ち{味|あじ}: distinctive quality",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "09989_fuete",
+      "reading": "ふえて",
+      "headword": "{不得手|ふえて}",
+      "label": "weak point"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03455_tokui",
+      "reading": "とくい",
+      "headword": "{得意|とくい}",
+      "label": "good at, specialty"
+    },
+    {
+      "type": "antonym",
+      "target_id": "03513_nigate",
+      "reading": "にがて",
+      "headword": "{苦手|にがて}",
+      "label": "weak point, not good at"
+    }
+  ],
   "metadata": {
     "created": "2026-02-05T12:58:08Z",
-    "modified": "2026-02-05T12:58:08Z",
+    "modified": "2026-04-24T05:12:18Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": ["noun", "adjective-na"],
