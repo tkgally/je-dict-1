@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-24 (Vocabulary Expansion - 25 New Entries, Batch 33)
+Added 25 new dictionary entries (IDs 25246-25270) from candidate_words.json. Focused on expressive verbs, useful nouns, and common expressions. 25 stale candidates removed as duplicates of existing base-form entries.
+
+- **Ichidan verbs (3)**: {膨|ふく}れる (to swell/pout), {悔|く}いる (to regret), {弾|はじ}ける (to burst/pop)
+- **Godan verbs (9)**: はしゃぐ (to frolic), {口|くち}ごもる (to mumble), {貢|みつ}ぐ (to lavish gifts on), {出|で}っ{張|ぱ}る (to protrude), {謎|なぞ}めく (to be mysterious), {見|み}くびる (to underestimate), {怖気|おじけ}づく (to get cold feet), {見放|みはな}す (to abandon), {忌|い}み{嫌|きら}う (to detest)
+- **Compound verb (1)**: {汲|く}み{取|と}る (to scoop up/to grasp feelings)
+- **I-adjective (1)**: {堅苦|かたくる}しい (stiff/overly formal)
+- **Nouns (8)**: {粉飾|ふんしょく} (embellishment), {逆行|ぎゃっこう} (retrogression), {恩情|おんじょう} (benevolence), {運転免許証|うんてんめんきょしょう} (driver's license), {教育者|きょういくしゃ} (educator), {経験値|けいけんち} (experience points), {事務員|じむいん} (office clerk), {初年度|しょねんど} (first year)
+- **Other (3)**: この{前|まえ} (the other day), パートタイム (part-time), {段違|だんちが}い (a world apart)
+- 25 stale candidates removed, 25 candidates synced from candidate list
+
+Total entries: 25,038 → 25,063.
+
 ### 2026-04-24 (Vocabulary Expansion - 21 New Entries, Batch 32)
 Added 21 new dictionary entries (IDs 25222-25245) from candidate_words.json. Focused on common, high-utility vocabulary for intermediate learners. 5 candidates removed as duplicates of existing entries.
 
@@ -135,24 +148,5 @@ Added 25 new dictionary entries (IDs 25111-25135) from candidate_words.json. Mix
 - 25 candidates synced from candidate list
 
 Total entries: 24,908 → 24,933.
-
-### 2026-04-22 (Vocabulary Expansion - 29 New Entries, Batch 27)
-Added 29 new dictionary entries (IDs 25082-25110) from candidate_words.json. Mixed batch covering daily life, law, food, culture, society, stationery, and more.
-
-- **Law / society (5)**: {不正行為|ふせいこうい} (misconduct), {法的責任|ほうてきせきにん} (legal responsibility), {酒酔|しゅよ}い{運転|うんてん} (drunk driving), {放置駐車|ほうちちゅうしゃ} (abandoned parking), {風紀|ふうき}を{乱|みだ}す (disturb public morals)
-- **Daily life / stationery (3)**: {水性|すいせい}ペン (water-based pen), {付箋紙|ふせんし} (sticky note), {紙質|ししつ} (paper quality)
-- **Food / cooking (2)**: いんげんまめ (kidney bean), {幼児食|ようじしょく} (toddler food)
-- **People / family (4)**: フランス{人|じん} (French person), やんちゃ{坊主|ぼうず} (mischievous boy), いたずらっこ (mischievous child), {身贔屓|みびいき} (favoritism)
-- **Industry / work (3)**: {運搬車|うんぱんしゃ} (transport vehicle), {予備部品|よびぶひん} (spare part), {変則勤務|へんそくきんむ} (irregular working hours)
-- **Hobbies / nature (3)**: {観賞魚|かんしょうぎょ} (ornamental fish), {観賞植物|かんしょうしょくぶつ} (ornamental plant), {風船|ふうせん}ガム (bubble gum)
-- **Culture / religion (1)**: {阿弥陀仏|あみだぶつ} (Amitabha Buddha)
-- **Commerce (2)**: {取次店|とりつぎてん} (agency/dealer), コーダー (coder)
-- **Appearance (1)**: {地顔|じがお} (natural face)
-- **Expression / emotion (3)**: {募|つの}る{思|おも}い (growing feelings), {盗|ぬす}み{撮|ど}り (secret photography), {出来心|できごころ}で (on impulse)
-- **Geography (2)**: パリ (Paris), {砂|すな}まみれ (covered in sand)
-- Multi-sense entry: いんげんまめ (2 senses)
-- 49 candidates synced from candidate list
-
-Total entries: 24,879 → 24,908.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
