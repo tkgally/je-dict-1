@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-24 (Vocabulary Expansion - 30 New Entries, Batch 34)
+Added 30 new dictionary entries (IDs 25271-25300) from candidate_words.json. Diverse batch covering culture, daily life, science, work, food, and more.
+
+- **Nouns (18)**: かぶれ (skin rash), {挑戦者|ちょうせんしゃ} (challenger), {引力|いんりょく} (gravity), {大空|おおぞら} (vast sky), {重病|じゅうびょう} (serious illness), バレンタインデー (Valentine's Day), ホワイトデー (White Day), {製鉄所|せいてつじょ} (steel mill), {芸名|げいめい} (stage name), {床暖房|ゆかだんぼう} (floor heating), {夏疲|なつづか}れ (summer fatigue), サービス{業|ぎょう} (service industry), {透明度|とうめいど} (transparency), {返却期限|へんきゃくきげん} (return deadline), {図画工作|ずがこうさく} (arts and crafts), {市場経済|しじょうけいざい} (market economy), {有用性|ゆうようせい} (usefulness), {鶏卵|けいらん} (chicken egg)
+- **Suru verbs (5)**: {攻略|こうりゃく}する (to capture/to clear a game), {慰労|いろう}する (to appreciate effort), {奪取|だっしゅ}する (to seize), {内職|ないしょく}する (to do side jobs), {配備|はいび}する (to deploy)
+- **Other (7)**: くすくす{笑|わら}う (to giggle), {横入|よこい}り (cutting in line), {未処理|みしょり} (unprocessed), {休暇明|きゅうかあ}け (post-vacation), もも{肉|にく} (thigh meat), {顧客対応|こきゃくたいおう} (customer service), {鳥|とり}のさえずり (birdsong)
+- 30 candidates synced from candidate list
+
+Total entries: 25,063 → 25,093.
+
 ### 2026-04-24 (Vocabulary Expansion - 25 New Entries, Batch 33)
 Added 25 new dictionary entries (IDs 25246-25270) from candidate_words.json. Focused on expressive verbs, useful nouns, and common expressions. 25 stale candidates removed as duplicates of existing base-form entries.
 
