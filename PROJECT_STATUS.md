@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-24 (Vocabulary Expansion - 30 New Entries, Batch 35)
+Added 30 new dictionary entries (IDs 25301-25330) from candidate_words.json. Focused on useful two-kanji compounds and common vocabulary across science, politics, food, culture, and daily life.
+
+- **Nouns (18)**: {重力|じゅうりょく} (gravity), {自伝|じでん} (autobiography), {範疇|はんちゅう} (category), {内情|ないじょう} (inside story), {室温|しつおん} (room temperature), {純愛|じゅんあい} (pure love), {氷河|ひょうが} (glacier), {苦難|くなん} (hardship), {炭火|すみび} (charcoal fire), {酢豚|すぶた} (sweet and sour pork), {錠前|じょうまえ} (lock), {翌週|よくしゅう} (following week), {長屋|ながや} (row house)
+- **Suru verbs (8)**: {従属|じゅうぞく}する (to be subordinate), {倒壊|とうかい}する (to collapse), {退陣|たいじん}する (to step down), {討議|とうぎ}する (to discuss), {湾曲|わんきょく}する (to curve), {発育|はついく}する (to grow), {始業|しぎょう}する (to start work), {出頭|しゅっとう}する (to turn oneself in)
+- **Adverb (1)**: {俄然|がぜん} (suddenly/dramatically)
+- **Na-adjectives (2)**: {変則|へんそく} (irregular), {早熟|そうじゅく} (precocious)
+- **Other (1)**: {食用|しょくよう} (edible), {儀礼|ぎれい} (ceremony/etiquette), {沸点|ふってん} (boiling point), {思慮|しりょ} (prudence), {平常|へいじょう} (normal), {造語|ぞうご} (coined word)
+- 1 new kanji added: 疇
+- 30 candidates synced from candidate list
+
+Total entries: 25,093 → 25,123.
+
 ### 2026-04-24 (Vocabulary Expansion - 30 New Entries, Batch 34)
 Added 30 new dictionary entries (IDs 25271-25300) from candidate_words.json. Diverse batch covering culture, daily life, science, work, food, and more.
 
