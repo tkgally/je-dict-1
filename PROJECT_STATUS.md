@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 40)
+Added 30 new dictionary entries (IDs 25466-25495) from candidate_words.json. Diverse batch covering everyday vocabulary, modern slang, medical/scientific terms, cultural items, and practical expressions.
+
+- **Nouns (21)**: {故郷|ふるさと} (hometown), {顔色|かおいろ} (complexion/expression), お{昼寝|ひるね} (afternoon nap), {映|ば}え (photogenic/Instagram-worthy), {子豚|こぶた} (piglet), {塩味|しおみ} (salty flavor), {空色|そらいろ} (sky blue), {器量|きりょう} (looks/caliber), {秘策|ひさく} (secret plan), {物品|ぶっぴん} (goods), {心拍|しんぱく} (heartbeat), {本編|ほんぺん} (main story), {牧草|ぼくそう} (pasture grass), {親鳥|おやどり} (parent bird), {胃炎|いえん} (gastritis), {柄杓|ひしゃく} (ladle/dipper), {石灰|せっかい} (lime), {瞬|またた}き (blink/twinkle), {利己主義|りこしゅぎ} (egoism), {住処|すみか} (dwelling/habitat), {気球|ききゅう} (hot-air balloon)
+- **Na-adjective (1)**: {無害|むがい} (harmless)
+- **Suru verbs (5)**: {誘惑|ゆうわく}する (to tempt), {再婚|さいこん}する (to remarry), {算定|さんてい}する (to calculate), {密会|みっかい}する (to meet secretly), {離席|りせき}する (to leave one's seat)
+- **Noun/Verb-suru (2)**: {隆起|りゅうき} (uplift), {分泌|ぶんぴつ} (secretion)
+- **Expression (1)**: あっという{間|ま}に (in the blink of an eye)
+- Cross-references added for variant readings ({故郷|ふるさと}↔{故郷|こきょう}, {塩味|しおみ}↔{塩味|しおあじ}, {瞬|またた}き↔まばたき)
+- 1 new kanji added to kanji index: {泌|ぴつ}
+- 30 candidates synced from candidate list
+
+Total entries: 25,258 → 25,288.
+
 ### 2026-04-25 (Vocabulary Expansion - 28 New Entries, Batch 39)
 Added 28 new dictionary entries (IDs 25438-25465) from candidate_words.json. Diverse batch covering practical vocabulary across work/society, health, commerce, culture, science, law, and daily life.
 
@@ -95,18 +109,5 @@ Added 20 new dictionary entries (IDs 25331-25350) from candidate_words.json. Foc
 - 19 candidates synced from candidate list
 
 Total entries: 25,123 → 25,143.
-
-### 2026-04-24 (Vocabulary Expansion - 30 New Entries, Batch 35)
-Added 30 new dictionary entries (IDs 25301-25330) from candidate_words.json. Focused on useful two-kanji compounds and common vocabulary across science, politics, food, culture, and daily life.
-
-- **Nouns (18)**: {重力|じゅうりょく} (gravity), {自伝|じでん} (autobiography), {範疇|はんちゅう} (category), {内情|ないじょう} (inside story), {室温|しつおん} (room temperature), {純愛|じゅんあい} (pure love), {氷河|ひょうが} (glacier), {苦難|くなん} (hardship), {炭火|すみび} (charcoal fire), {酢豚|すぶた} (sweet and sour pork), {錠前|じょうまえ} (lock), {翌週|よくしゅう} (following week), {長屋|ながや} (row house)
-- **Suru verbs (8)**: {従属|じゅうぞく}する (to be subordinate), {倒壊|とうかい}する (to collapse), {退陣|たいじん}する (to step down), {討議|とうぎ}する (to discuss), {湾曲|わんきょく}する (to curve), {発育|はついく}する (to grow), {始業|しぎょう}する (to start work), {出頭|しゅっとう}する (to turn oneself in)
-- **Adverb (1)**: {俄然|がぜん} (suddenly/dramatically)
-- **Na-adjectives (2)**: {変則|へんそく} (irregular), {早熟|そうじゅく} (precocious)
-- **Other (1)**: {食用|しょくよう} (edible), {儀礼|ぎれい} (ceremony/etiquette), {沸点|ふってん} (boiling point), {思慮|しりょ} (prudence), {平常|へいじょう} (normal), {造語|ぞうご} (coined word)
-- 1 new kanji added: 疇
-- 30 candidates synced from candidate list
-
-Total entries: 25,093 → 25,123.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
