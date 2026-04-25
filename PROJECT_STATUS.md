@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 41)
+Added 30 new dictionary entries (IDs 25496-25525) from candidate_words.json. Focused on useful vocabulary across business, law, government, food, medicine, and daily life.
+
+- **Suru verbs (15)**: {優勝|ゆうしょう}する (to win championship), {成立|せいりつ}する (to be established), {執行|しっこう}する (to execute/enforce), {解任|かいにん}する (to dismiss from office), {予言|よげん}する (to prophesy), メモする (to take notes), {焙煎|ばいせん}する (to roast beans), {潜伏|せんぷく}する (to lie hidden), {充血|じゅうけつ}する (to become bloodshot), {戦慄|せんりつ}する (to shudder), {扇動|せんどう}する (to agitate/incite), {咀嚼|そしゃく}する (to chew/digest mentally), {妄信|もうしん}する (to believe blindly), {報連相|ほうれんそう}する (report-contact-consult), {抗弁|こうべん} (objection/plea)
+- **Na-adjectives (3)**: {重大|じゅうだい}な (serious/grave), {十分|じゅうぶん}な (sufficient), {構造的|こうぞうてき}な (structural)
+- **Verbs (3)**: {撮|と}り{直|なお}す (to retake photo), {困|こま}らせる (to cause trouble), {爪|つめ}を{噛|か}む (to bite nails)
+- **Nouns (9)**: {機能性|きのうせい} (functionality), {市場調査|しじょうちょうさ} (market research), {慰霊碑|いれいひ} (memorial monument), {白色|はくしょく} (white color), {登記簿|とうきぼ} (registry), {秘書官|ひしょかん} (executive secretary), {卸売|おろしうり}{市場|しじょう} (wholesale market), {捧|ささ}げ{物|もの} (offering), {世渡|よわた}り{下手|べた} (social ineptness)
+- Conjugation tables auto-generated for all 17 verb entries
+- 29 candidates synced from candidate list
+
+Total entries: 25,288 → 25,318.
+
 ### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 40)
 Added 30 new dictionary entries (IDs 25466-25495) from candidate_words.json. Diverse batch covering everyday vocabulary, modern slang, medical/scientific terms, cultural items, and practical expressions.
 
