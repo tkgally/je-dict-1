@@ -2,68 +2,46 @@
 Date: 2026-04-25
 
 ### prominent_see_also Added
-- 11332_oritatami ↔ 12803_oritatamu: noun form / verb form
-- 11335_kikonsha ↔ 16160_kikon: married person (with 者) / base form (no 者)
+- 11412 (乱す) → 09506 (乱れる): transitive/intransitive pair (migrated from cross_references)
+- 11434 (仕方ない) ↔ 07380 (しかたがない): variant form (with/without が)
 
 ### cross_references Added
-- 11331_zaidan ↔ 24186_shadan: contrast — foundation (asset-based) / association (people-based)
-- 11333_saabisueria ↔ 25068_paakingueria: contrast — larger rest facility (SA) / smaller rest stop (PA)
-- 11334_shinsha → 中古車: antonym — used car (forward reference, no entry yet)
-- 11335_kikonsha ↔ 14969_dokushinsha: antonym — married person / single person
-- 11336_denwadai ↔ 09543_denkidai: related — phone bill / electricity bill
-- 11336_denwadai ↔ 09544_suidoudai: related — phone bill / water bill
-- 11339_koushitsu → 04546_tennou: related — the Emperor
-- 11339_koushitsu ↔ 15297_oushitsu: contrast — imperial household / royal family (non-Japanese)
-- 11340_shutsuensha ↔ 11732_shutsuen: related — performer / appearance (base noun)
-- 11342_shigansuru → 03014_oubo: synonym — to apply (general)
-- 11343_joseikin → 19222_hojokin: synonym — subsidy (larger scale)
-- 11343_joseikin → 03230_shougakukin: related — scholarship
-- 11347_furin ↔ 13285_uwaki: synonym — adultery (formal) / cheating (colloquial)
-- 11349_fujimi → 11711_fushi: related — immortality
-- 11349_fujimi → 15254_fumetsu: related — indestructible (abstract)
-- 11351_fui → 00409_totsuzen: synonym — suddenly (emphasizes abruptness)
-- 11355_chuutai → 03387_taigaku: related — withdrawal from school
-- 11355_chuutai → 01643_sotsugyou: antonym — graduation
-- 11357_ryousha → 11859_souhou: synonym — both sides (negotiations)
-- 11366_ryoumen → 17101_katamen: antonym — one side
-- 11368_chuuryuu → 15028_jouryuu: related — upper class / upstream
-- 11368_chuuryuu → 15029_karyuu: related — lower class / downstream
+- 11372 (下層) ↔ 24077 (上層): antonym - lower/upper layer
+- 11379 (中頃) → 11309 (中旬): contrast - vague vs. precise mid-month
+- 11380 (中卒) ↔ 19284 (高卒) ↔ 19285 (大卒): related - education level group
+- 11386 (不快) ↔ 12571 (快い): antonym - unpleasant/pleasant
+- 11386 (不快) ↔ 01211 (深い): homophone - ふかい
+- 11388 (不向き) ↔ 12041 (向き): antonym - unsuited/suited
+- 11389 (不人気) ↔ 01488 (人気): antonym - unpopular/popular
+- 11408 (主食) → 04995 (主菜), 04993 (副菜): related - meal structure group
+- 11414 (乳児) → 12478 (幼児), 03340 (児童), 01282 (赤ちゃん): related/synonym - age terminology
+- 11422 (二次元) ↔ 18315 (三次元): contrast - 2D/3D
+- 11423 (五輪) ↔ 09899 (オリンピック): synonym - abbreviated/full form
+- 11434 (仕方ない) → 07381 (しょうがない): synonym - casual variant
+- 11443 (体験) ↔ 01179 (経験): contrast - firsthand vs. general experience
+- 11451 (主導権) → 11406 (主導): related - derived compound
+- 11466 (主観) ↔ 24382 (客観): antonym - subjectivity/objectivity
+- 11481 (不利益) → 03673 (利益): antonym - disadvantage/benefit
+- 11509 (上半身) ↔ 19453 (下半身): antonym - upper/lower body
+- 11513 (月刊誌) ↔ 11514 (季刊誌) ↔ 11179 (週刊誌): related - publication frequency group
+- 11539 (健全) ↔ 19753 (不健全): antonym - healthy/unhealthy
+- 11548 (他方) → 01739 (一方): contrast - paired conjunctions
 
 ### References Fixed/Migrated
-- None
+- 11412 (乱す): migrated 乱れる from cross_references (type: related) to prominent_see_also (transitivity pair)
+- 11538 (値上がり): hardened reference to 値下がり by adding target_id 22228_nesagari; added reciprocal antonym on 22228
 
-### Entries Skipped (no cross-references needed)
-- 11337_uuroncha: standalone vocabulary item
-- 11338_orugooru: standalone vocabulary item
-- 11341_rosen: no close pairs or antonyms
-- 11344_gekokujou: unique concept, no natural cross-references
-- 11346_shitajiki: standalone vocabulary item
-- 11348_fushinsha: standalone vocabulary item
-- 11352_fumei: standalone vocabulary item
-- 11353_chuukagai: standalone vocabulary item
-- 11354_kushikatsu: standalone vocabulary item
-- 11356_ryoutan: no meaningful cross-references beyond existing notes
-- 11358_seikimatsu: standalone vocabulary item
-- 11367_chuubu: standalone geographic term
-
-### Entries Already Cross-Referenced (reviewed, no changes)
-- 11345_hetakuso: already has related link to 00703_heta
-- 11350_fushizen: already has antonym to 01423_shizen
-- 11359_futekisetsu: already has antonym to 01621_tekisetsu
-- 11360_fubyoudou: already has antonym to 03590_byoudou
-- 11361_fuhou: already has synonym to 09687_ihou
-- 11362_futashika: already has antonym to 00894_tashika
-- 11364_fukanzen: already has antonym to 01552_kanzen
-- 11365_futoumei: already has antonym to 04565_toumei
-- 11369_chuukaku: already has related to 11373_chuusuu
-- 11370_kakyuu: already has antonym to 11298_joukyuu
+### Entries Skipped (no cross-reference needed)
+- Many katakana loanwords (11391-11403, 11485-11493) without strong Japanese cross-reference targets
+- Compound nouns with existing adequate references (11404, 11405, 11425, etc.)
+- Standalone nouns without obvious pairs (11424, 11436, 11444-11447, etc.)
 
 ### Statistics
-- Entries reviewed this session: 40
-- prominent_see_also links added: 4 (2 bidirectional pairs)
-- cross_references links added: 30 (including back-links)
-- References fixed/migrated: 0
-- Entry range: 11331 through 11370
+- Entries reviewed this session: 180
+- prominent_see_also links added: 3 (including 1 migration + 1 back-link)
+- cross_references links added: 37 (including back-links on target entries)
+- References fixed/migrated: 2
+- Entry range: 11371 through 11550
 
 ### Next Entry
-11371
+11551

@@ -39,10 +39,32 @@
     }
   ],
   "notes": "USAGE: {乳児|にゅうじ} is the formal and medical term for an infant. In casual conversation, {赤|あか}ちゃん is far more common. The character {乳|にゅう} means \"milk\" or \"breast,\" reflecting that the infant is at the nursing age.\n\nCOMMON COLLOCATIONS:\n- {乳児|にゅうじ}{健診|けんしん} (infant health checkup)\n- {乳児|にゅうじ}{院|いん} (infant home, nursery institution)\n- {乳児|にゅうじ}{用|よう} (for infants)\n\nAGE TERMINOLOGY:\n- {乳児|にゅうじ}: infant (0-1 year)\n- {幼児|ようじ}: toddler/young child (1-6 years)\n- {児童|じどう}: child (6-12 years)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12478_youji",
+      "reading": "ようじ",
+      "headword": "{幼児|ようじ}",
+      "label": "toddler"
+    },
+    {
+      "type": "related",
+      "target_id": "03340_jidou",
+      "reading": "じどう",
+      "headword": "{児童|じどう}",
+      "label": "child (school-age)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01282_akachan",
+      "reading": "あかちゃん",
+      "headword": "{赤|あか}ちゃん",
+      "label": "baby (casual)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-16T07:35:11Z",
-    "modified": "2026-02-16T07:35:11Z",
+    "modified": "2026-04-25T06:08:04Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
