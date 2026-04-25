@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-25 (Vocabulary Expansion - 27 New Entries, Batch 37)
+Added 27 new dictionary entries (IDs 25381-25407) from candidate_words.json. Focused on useful suru verbs, an expression, and a noun covering disaster recovery, daily life, school, workplace, and literary vocabulary.
+
+- **Suru verbs (25)**: {復興|ふっこう}する (to reconstruct), {放置|ほうち}する (to leave as is), {変身|へんしん}する (to transform), {仮装|かそう}する (to dress in costume), {反抗|はんこう}する (to rebel), {正座|せいざ}する (to sit formally), {混雑|こんざつ}する (to be crowded), {録音|ろくおん}する (to record audio), {油断|ゆだん}する (to be careless), {直視|ちょくし}する (to look squarely at), {修行|しゅぎょう}する (to undergo training), {追放|ついほう}する (to banish), {降格|こうかく}する (to demote), {熟睡|じゅくすい}する (to sleep soundly), {復帰|ふっき}する (to return), {退治|たいじ}する (to exterminate), {執筆|しっぴつ}する (to author), {介入|かいにゅう}する (to intervene), {削減|さくげん}する (to cut/reduce), {転校|てんこう}する (to transfer schools), {下校|げこう}する (to go home from school), {凝視|ぎょうし}する (to stare at), {敵対|てきたい}する (to be hostile), {軽視|けいし}する (to belittle), {懇願|こんがん}する (to implore)
+- **Expression (1)**: {差|さ}し{支|つか}えない (no problem/objection)
+- **Noun (1)**: {揺|ゆ}り{戻|もど}し (rebound/backlash)
+- 27 candidates synced from candidate list
+
+Total entries: 25,173 → 25,200.
+
 ### 2026-04-24 (Vocabulary Expansion - 20 New Entries, Batch 36)
 Added 20 new dictionary entries (IDs 25331-25350) from candidate_words.json. Focused on high-frequency, practical vocabulary useful for intermediate learners across daily life, business, science, and personal expression.
 
@@ -97,17 +107,5 @@ Added 25 new dictionary entries (IDs 25246-25270) from candidate_words.json. Foc
 - 25 stale candidates removed, 25 candidates synced from candidate list
 
 Total entries: 25,038 → 25,063.
-
-### 2026-04-24 (Vocabulary Expansion - 21 New Entries, Batch 32)
-Added 21 new dictionary entries (IDs 25222-25245) from candidate_words.json. Focused on common, high-utility vocabulary for intermediate learners. 5 candidates removed as duplicates of existing entries.
-
-- **Suru verbs (14)**: {支配|しはい}する (to rule), {加工|かこう}する (to process), {分類|ぶんるい}する (to classify), {節約|せつやく}する (to economize), {登録|とうろく}する (to register), {申請|しんせい}する (to apply), {展開|てんかい}する (to develop), {消費|しょうひ}する (to consume), {発表|はっぴょう}する (to announce), {口出|くちだ}しする (to meddle), {選|よ}り{好|ごの}みする (to be picky), {浪費|ろうひ}する (to waste), {補充|ほじゅう}する (to replenish), {推察|すいさつ}する (to surmise), {接着|せっちゃく}する (to adhere)
-- **Godan verb (1)**: {引|ひ}き{立|た}つ (to stand out)
-- **I-adjective (1)**: {油|あぶら}っぽい (oily/greasy)
-- **Nouns (2)**: {乗|の}り{物酔|ものよ}い (motion sickness), {割|わ}り{込|こ}み (cutting in line)
-- **Expressions (2)**: {正々堂々|せいせいどうどう} (fair and square), {粉々|こなごな}になる (to shatter)
-- 21 candidates synced from candidate list
-
-Total entries: 25,017 → 25,038.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
