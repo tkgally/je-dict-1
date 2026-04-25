@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-25] maintenance | Error analysis research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **error analysis and learner corpora for Japanese L2** and created `research/error-analysis-japanese-l2.md`. Covers major Japanese learner corpora (I-JAS, KY Corpus, C-JAS, B-JAS, LARP at SCU, Teramura Database, NAIST Goyo Corpus, Lang-8/TEC-JL); five common error categories at the intermediate level with detailed analysis (particle errors including は/が, に/で, を usage; verb form and conjugation errors including て-form, conditional selection, ている aspect misuse; register and politeness errors including keigo avoidance and hypercorrection; lexical and collocational errors including Chinese false friends and near-synonym confusion; sentence structure errors including relative clause difficulties); L1 transfer effects for Chinese, Korean, and English-speaking learners with specific error pattern differences; error analysis methodology evolution (contrastive analysis → error analysis → interlanguage analysis); and seven specific implications for je-dict-1 (particle information prioritization, ている polysemy documentation, near-synonym contrastive notes, Chinese false friend warnings, register consistency in examples, error-preempting example design, error-frequency-informed polishing priorities). Cited Corder 1967, Gabriele & McClure 2011, Ichikawa 1997, Koyama et al. 2020, Lado 1957, Noda & Sakoda 2020, Oyama 2010, Sakoda & Kawaguchi 2023, Selinker 1972, Shirai & Kurono 1998, Teramura 1990.
+- [A] Updated entry counts across 10 wiki pages to reflect 2026-04-25 `report.py` output (25,348 entries / 22,565 general / 10,735 cross-references / 101,840 examples / 2,226 candidates / 44.6% symmetry / 4,933 asymmetric refs / 2,847 entries with inline links at 11.2%). Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`.
+- [E] Ran cross-reference link checker across all wiki pages (386 internal links checked, 0 broken). Checked for orphan pages (0 found across 49 total pages). Added the new error analysis page to `index.md` and as a related page on `vocabulary-acquisition.md`, `collocations.md`, `grammar-in-dictionaries.md`, `example-sentences.md`, `japanese-lexicography.md`, `learner-lexicography.md`, `verb-transitivity.md`, and `register.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-23] maintenance | Multiword expressions research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

@@ -1,10 +1,10 @@
 # Project Overview
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-25
 
 ## What je-dict-1 is
 
-je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of late April 2026, it contains over 24,900 entries with over 100,000 example sentences and 9,400+ cross-references.
+je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of late April 2026, it contains over 25,300 entries with over 101,800 example sentences and 10,700+ cross-references.
 
 The dictionary is entirely static: HTML, CSS, and JavaScript generated from JSON source files by a Python build pipeline, deployed via GitHub Pages. There is no server, no database, and no user accounts.
 
@@ -20,7 +20,7 @@ Rather than using JLPT levels (which are exam-oriented and have well-known probl
 
 - **Basic** (801 entries) — foundational words needed for survival communication. Closed tier.
 - **Core** (~1,982 entries) — essential vocabulary for adult communication. Closed tier.
-- **General** (22,125+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary.
+- **General** (22,565+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary.
 
 See [Vocabulary Tier System](vocabulary-tiers.md) for details.
 

@@ -156,3 +156,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Semantic Prosody](semantic-prosody.md) — the evaluative colouring that extends beyond simple collocation
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — overlap between collocational and grammatical patterns
 - [Multiword Expressions](multiword-expressions.md) — broader taxonomy of MWEs including idioms, formulaic routines, and grammar patterns
+- [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — collocational violations as a major error category

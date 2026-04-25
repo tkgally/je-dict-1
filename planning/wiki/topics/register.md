@@ -162,3 +162,4 @@ Register marking is a **medium priority** v2 quality standard. The path forward:
 - [Entry Design](../project/entry-design.md) — schema structure and required fields
 - [Learner Lexicography](../research/learner-lexicography.md) — pedagogical dictionary design principles
 - [Open Issues](../project/open-issues.md) — loanword handling and other design questions
+- [Error Analysis and Learner Corpora](../research/error-analysis-japanese-l2.md) — register-mixing and keigo errors in learner production
