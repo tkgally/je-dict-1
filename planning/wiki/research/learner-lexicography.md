@@ -123,3 +123,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — sense division and ordering strategies for learner dictionaries
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — how dictionaries encode and present grammatical information
 - [Multiword Expressions](multiword-expressions.md) — idioms, collocations, and formulaic sequences in learner dictionaries
+- [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — learner error patterns and their implications for dictionary design

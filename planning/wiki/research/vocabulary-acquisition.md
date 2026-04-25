@@ -107,3 +107,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Word Formation and Morphology](word-formation.md) — morphological awareness and L2 vocabulary learning
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — how lookup strategies affect vocabulary retention
 - [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — how learners organize polysemous senses
+- [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — what learners get wrong and what it means for dictionary design

@@ -1,6 +1,6 @@
 # Controlled Defining Vocabulary
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-25
 
 ## Overview
 
@@ -70,13 +70,13 @@ Bilingual learner dictionaries have less of a CDV tradition than monolingual one
 
 ## Defining vocabulary vs. tier system: je-dict-1's analogue
 
-je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 22,125) that plays a structurally similar role in two ways:
+je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 22,565) that plays a structurally similar role in two ways:
 
 1. **Self-containment**. The guideline that higher-tier entries' examples and notes should draw their Japanese vocabulary from the same tier or below (basic entries should use basic words; core entries should use core-or-below words) is the direct analogue of CDV discipline. It ensures that a learner who has mastered the basic tier can read any basic-tier entry end-to-end without a secondary lookup.
 
 2. **Closed lower tiers**. Basic and core tiers are closed — new entries go only into general — which keeps the "defining corpus" stable. This is more rigid than LDOCE's CDV (which revises across editions) and more rigid than COBUILD's corpus-driven style (which floats with the corpus), and it has a documentation benefit: a learner who learns the basic tier today learns exactly the vocabulary that underlies all basic-tier examples and notes indefinitely.
 
-The **inline word link system** (`⟦surface→base：entry_id⟧`) extends this idea further. Even when an example sentence in a general-tier entry uses words above the basic tier, every non-basic word is hyperlinked to its own entry. The learner does not need to guess what the word means or go to an external dictionary — the dictionary defines itself through its own hyperlinks. This is functionally equivalent to a CDV but with an explicit escape hatch: instead of forcing the writer to paraphrase with basic words, it permits any word and links it. The cost is that the writer still has to produce that inline link (currently 11.4% of entries have any links at all — see `build/report.py`).
+The **inline word link system** (`⟦surface→base：entry_id⟧`) extends this idea further. Even when an example sentence in a general-tier entry uses words above the basic tier, every non-basic word is hyperlinked to its own entry. The learner does not need to guess what the word means or go to an external dictionary — the dictionary defines itself through its own hyperlinks. This is functionally equivalent to a CDV but with an explicit escape hatch: instead of forcing the writer to paraphrase with basic words, it permits any word and links it. The cost is that the writer still has to produce that inline link (currently 11.2% of entries have any links at all — see `build/report.py`).
 
 ## Implications for je-dict-1
 

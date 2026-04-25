@@ -72,3 +72,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Corpus Linguistics](corpus-linguistics.md)
 - [Vocabulary Acquisition](vocabulary-acquisition.md)
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — encoding examples and grammar-through-examples
+- [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — designing examples that preempt common errors
