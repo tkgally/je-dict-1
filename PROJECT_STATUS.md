@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-25 (Vocabulary Expansion - 28 New Entries, Batch 39)
+Added 28 new dictionary entries (IDs 25438-25465) from candidate_words.json. Diverse batch covering practical vocabulary across work/society, health, commerce, culture, science, law, and daily life.
+
+- **Nouns (24)**: {人手|ひとで} (manpower), {働|はたら}き{方|かた} (work style), {育児|いくじ}{休業|きゅうぎょう} (childcare leave), {偏頭痛|へんずつう} (migraine), {購入者|こうにゅうしゃ} (purchaser), {生産者|せいさんしゃ} (producer), {追加|ついか}{費用|ひよう} (additional cost), {予防法|よぼうほう} (prevention method), {深夜|しんや}バス (night bus), スヌーズ (snooze), {主流派|しゅりゅうは} (mainstream faction), {力学|りきがく} (mechanics/dynamics), {筆名|ひつめい} (pen name), ペンネーム (pen name), {報復|ほうふく}{措置|そち} (retaliatory measures), {著作権|ちょさくけん}{侵害|しんがい} (copyright infringement), {和食店|わしょくてん} (Japanese restaurant), {金封|きんぷう} (gift envelope), {度付|どつ}き (prescription glasses), {解剖学|かいぼうがく} (anatomy), {犯罪学|はんざいがく} (criminology), {粘着性|ねんちゃくせい} (adhesiveness), {床材|ゆかざい} (flooring material), {床板|ゆかいた} (floorboard), {電磁気|でんじき} (electromagnetism), {遠征隊|えんせいたい} (expedition)
+- **Expressions (2)**: {愚痴|ぐち}を{言|い}う (to complain), {不平|ふへい}を{言|い}う (to express dissatisfaction)
+- Cross-references added between synonym/related pairs
+- 28 candidates synced from candidate list
+
+Total entries: 25,230 → 25,258.
+
 ### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 38)
 Added 30 new dictionary entries (IDs 25408-25437) from candidate_words.json. Diverse batch covering everyday verbs, common expressions, nouns, adverbs, and an adjective across business, education, culture, and daily life.
 
@@ -98,16 +108,5 @@ Added 30 new dictionary entries (IDs 25301-25330) from candidate_words.json. Foc
 - 30 candidates synced from candidate list
 
 Total entries: 25,093 → 25,123.
-
-### 2026-04-24 (Vocabulary Expansion - 30 New Entries, Batch 34)
-Added 30 new dictionary entries (IDs 25271-25300) from candidate_words.json. Diverse batch covering culture, daily life, science, work, food, and more.
-
-- **Nouns (18)**: かぶれ (skin rash), {挑戦者|ちょうせんしゃ} (challenger), {引力|いんりょく} (gravity), {大空|おおぞら} (vast sky), {重病|じゅうびょう} (serious illness), バレンタインデー (Valentine's Day), ホワイトデー (White Day), {製鉄所|せいてつじょ} (steel mill), {芸名|げいめい} (stage name), {床暖房|ゆかだんぼう} (floor heating), {夏疲|なつづか}れ (summer fatigue), サービス{業|ぎょう} (service industry), {透明度|とうめいど} (transparency), {返却期限|へんきゃくきげん} (return deadline), {図画工作|ずがこうさく} (arts and crafts), {市場経済|しじょうけいざい} (market economy), {有用性|ゆうようせい} (usefulness), {鶏卵|けいらん} (chicken egg)
-- **Suru verbs (5)**: {攻略|こうりゃく}する (to capture/to clear a game), {慰労|いろう}する (to appreciate effort), {奪取|だっしゅ}する (to seize), {内職|ないしょく}する (to do side jobs), {配備|はいび}する (to deploy)
-- **Other (7)**: くすくす{笑|わら}う (to giggle), {横入|よこい}り (cutting in line), {未処理|みしょり} (unprocessed), {休暇明|きゅうかあ}け (post-vacation), もも{肉|にく} (thigh meat), {顧客対応|こきゃくたいおう} (customer service), {鳥|とり}のさえずり (birdsong)
-- 30 candidates synced from candidate list
-
-Total entries: 25,063 → 25,093.
-
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
