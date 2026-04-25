@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 38)
+Added 30 new dictionary entries (IDs 25408-25437) from candidate_words.json. Diverse batch covering everyday verbs, common expressions, nouns, adverbs, and an adjective across business, education, culture, and daily life.
+
+- **Suru verbs (4)**: {参加|さんか}する (to participate), {入社|にゅうしゃ}する (to join a company), {泣|な}き{寝入|ねい}りする (to accept defeat silently), {社会参加|しゃかいさんか} (social participation)
+- **Expressions (4)**: お{世話|せわ}になる (to be indebted to), {身|み}を{捧|ささ}げる (to devote oneself), これ{以上|いじょう} (any more/further), {大|たい}したことない (not a big deal)
+- **Nouns (14)**: {実験室|じっけんしつ} (laboratory), {判断基準|はんだんきじゅん} (judgment criteria), {経験不足|けいけんぶそく} (lack of experience), {宿泊先|しゅくはくさき} (accommodation), {大波|おおなみ} (big wave), {研究会|けんきゅうかい} (study group), {大枠|おおわく} (broad outline), {韓国語|かんこくご} (Korean language), あぐら (sitting cross-legged), {冷|つめ}たさ (coldness), {演奏者|えんそうしゃ} (performer), {差分|さぶん} (difference), {家族愛|かぞくあい} (family love), {音訓|おんくん} (on/kun readings)
+- **Noun/Na-adjective (1)**: {親不孝|おやふこう} (unfilial conduct)
+- **Na-adjective (1)**: リズミカル (rhythmic)
+- **Adverbs (2)**: {変|か}わらず (unchanged), たやすく (easily)
+- **Nouns (additional, meetings)**: {討論会|とうろんかい} (debate forum), {範囲内|はんいない} (within range), {感情表現|かんじょうひょうげん} (emotional expression), {機関車|きかんしゃ} (locomotive)
+- 30 candidates synced from candidate list
+
+Total entries: 25,200 → 25,230.
+
 ### 2026-04-25 (Vocabulary Expansion - 27 New Entries, Batch 37)
 Added 27 new dictionary entries (IDs 25381-25407) from candidate_words.json. Focused on useful suru verbs, an expression, and a noun covering disaster recovery, daily life, school, workplace, and literary vocabulary.
 
@@ -95,17 +109,5 @@ Added 30 new dictionary entries (IDs 25271-25300) from candidate_words.json. Div
 
 Total entries: 25,063 → 25,093.
 
-### 2026-04-24 (Vocabulary Expansion - 25 New Entries, Batch 33)
-Added 25 new dictionary entries (IDs 25246-25270) from candidate_words.json. Focused on expressive verbs, useful nouns, and common expressions. 25 stale candidates removed as duplicates of existing base-form entries.
-
-- **Ichidan verbs (3)**: {膨|ふく}れる (to swell/pout), {悔|く}いる (to regret), {弾|はじ}ける (to burst/pop)
-- **Godan verbs (9)**: はしゃぐ (to frolic), {口|くち}ごもる (to mumble), {貢|みつ}ぐ (to lavish gifts on), {出|で}っ{張|ぱ}る (to protrude), {謎|なぞ}めく (to be mysterious), {見|み}くびる (to underestimate), {怖気|おじけ}づく (to get cold feet), {見放|みはな}す (to abandon), {忌|い}み{嫌|きら}う (to detest)
-- **Compound verb (1)**: {汲|く}み{取|と}る (to scoop up/to grasp feelings)
-- **I-adjective (1)**: {堅苦|かたくる}しい (stiff/overly formal)
-- **Nouns (8)**: {粉飾|ふんしょく} (embellishment), {逆行|ぎゃっこう} (retrogression), {恩情|おんじょう} (benevolence), {運転免許証|うんてんめんきょしょう} (driver's license), {教育者|きょういくしゃ} (educator), {経験値|けいけんち} (experience points), {事務員|じむいん} (office clerk), {初年度|しょねんど} (first year)
-- **Other (3)**: この{前|まえ} (the other day), パートタイム (part-time), {段違|だんちが}い (a world apart)
-- 25 stale candidates removed, 25 candidates synced from candidate list
-
-Total entries: 25,038 → 25,063.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
