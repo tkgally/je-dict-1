@@ -7,69 +7,6 @@
   "gloss": "repetition, iteration",
   "conjugation": {
     "type": "suru",
-    "prefix": "{反復|はんぷく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "repetition, iteration",
-      "explanation": "The act of doing something over and over again; repeating a process or action multiple times."
-    }
-  ],
-  "examples": [
-    {
-      "id": "11096_hanpuku_ex1",
-      "japanese": "{反復|はんぷく}{練習|れんしゅう}が{上達|じょうたつ}の{鍵|かぎ}だ。",
-      "english": "Repeated practice is the key to improvement.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "11096_hanpuku_ex2",
-      "japanese": "{同|おな}じミスを{反復|はんぷく}しないように{気|き}をつけてください。",
-      "english": "Please be careful not to repeat the same mistakes.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "11096_hanpuku_ex3",
-      "japanese": "{単語|たんご}は{反復|はんぷく}して{覚|おぼ}えるのが{一番|いちばん}{効果的|こうかてき}な{方法|ほうほう}だ。",
-      "english": "Memorizing vocabulary through repetition is the most effective method.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\n{反復|はんぷく} is a somewhat formal word often used in educational, scientific, and technical contexts. It can be used as a noun or as a suru-verb ({反復|はんぷく}する = to repeat).\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう} (repetitive practice, drilling)\n- {反復|はんぷく}{学習|がくしゅう} (repetitive learning)\n- {反復|はんぷく}する (to repeat, to iterate)\n\nSIMILAR WORDS:\n- {繰|く}り{返|かえ}し: more everyday/casual term for repetition\n- {反復|はんぷく}: more formal/academic, often implies systematic repetition\n- {再発|さいはつ}: recurrence (used for diseases or problems, not for deliberate repetition)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-02-13T12:41:35Z",
-    "modified": "2026-03-29T03:07:35Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "general"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -157,5 +94,72 @@
         "negative": "{反復|はんぷく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "repetition, iteration",
+      "explanation": "The act of doing something over and over again; repeating a process or action multiple times."
+    }
+  ],
+  "examples": [
+    {
+      "id": "11096_hanpuku_ex1",
+      "japanese": "{反復|はんぷく}{練習|れんしゅう}が{上達|じょうたつ}の{鍵|かぎ}だ。",
+      "english": "Repeated practice is the key to improvement.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "11096_hanpuku_ex2",
+      "japanese": "{同|おな}じミスを{反復|はんぷく}しないように{気|き}をつけてください。",
+      "english": "Please be careful not to repeat the same mistakes.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "11096_hanpuku_ex3",
+      "japanese": "{単語|たんご}は{反復|はんぷく}して{覚|おぼ}えるのが{一番|いちばん}{効果的|こうかてき}な{方法|ほうほう}だ。",
+      "english": "Memorizing vocabulary through repetition is the most effective method.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\n{反復|はんぷく} is a somewhat formal word often used in educational, scientific, and technical contexts. It can be used as a noun or as a suru-verb ({反復|はんぷく}する = to repeat).\n\nCOMMON COLLOCATIONS:\n- {反復|はんぷく}{練習|れんしゅう} (repetitive practice, drilling)\n- {反復|はんぷく}{学習|がくしゅう} (repetitive learning)\n- {反復|はんぷく}する (to repeat, to iterate)\n\nSIMILAR WORDS:\n- {繰|く}り{返|かえ}し: more everyday/casual term for repetition\n- {反復|はんぷく}: more formal/academic, often implies systematic repetition\n- {再発|さいはつ}: recurrence (used for diseases or problems, not for deliberate repetition)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02051_kurikaesu",
+      "reading": "くりかえす",
+      "headword": "{繰|く}り{返|かえ}す",
+      "label": "to repeat (everyday)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-13T12:41:35Z",
+    "modified": "2026-04-25T04:12:08Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

@@ -19,7 +19,9 @@
       "english": "Let's be careful not to consume too much fat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11092_shishitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This product is healthy because it's low in fat.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11092_shishitsu_ex3",
@@ -35,22 +39,38 @@
       "english": "I make sure to check the fat content on the nutrition label before buying.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{脂質|ししつ} is the standard nutritional/scientific term for fats and lipids, commonly seen on Japanese food labels. In everyday speech, people more often say {脂肪|しぼう} (fat) or {油|あぶら} (oil/grease).\n\nCOMMON COLLOCATIONS:\n- {脂質|ししつ}{異常症|いじょうしょう} (dyslipidemia — high cholesterol/triglycerides)\n- {脂質|ししつ}ゼロ (zero fat)\n- {脂質|ししつ}{制限|せいげん} (fat restriction)\n\nRELATED NUTRITION TERMS:\n- {糖質|とうしつ} (carbohydrates)\n- たんぱく{質|しつ} (protein)\n- {脂肪|しぼう} (body fat, dietary fat — more everyday term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11091_toushitsu",
+      "reading": "とうしつ",
+      "headword": "{糖質|とうしつ}",
+      "label": "carbohydrates"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["food"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

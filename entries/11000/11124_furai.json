@@ -24,7 +24,9 @@
       "english": "I like fried shrimp.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11124_furai_ex2",
@@ -32,7 +34,9 @@
       "english": "Let's have fried horse mackerel for dinner tonight.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11124_furai_ex3",
@@ -40,7 +44,9 @@
       "english": "I eat fried oysters with tartar sauce and lemon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11124_furai_ex4",
@@ -48,7 +54,9 @@
       "english": "He hit a fly ball.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11124_furai_ex5",
@@ -56,7 +64,9 @@
       "english": "He was out on a fly to center field.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11124_furai_ex6",
@@ -64,21 +74,35 @@
       "english": "He fumbled the outfield fly and it became an error.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nフライ (sense 1) is distinct from {天|てん}ぷら. フライ uses breadcrumbs (パン{粉|こ}) for coating and is considered {洋食|ようしょく} (Western-style cooking), while {天|てん}ぷら uses a batter and is {和食|わしょく} (Japanese cuisine).\n\nCOMMON COLLOCATIONS (food):\n- エビフライ (fried shrimp)\n- アジフライ (fried horse mackerel)\n- カキフライ (fried oysters)\n- コロッケ (croquette — related but distinct)\n- フライを{揚|あ}げる (deep-fry a fry)\n\nCOMMON COLLOCATIONS (baseball):\n- フライを{打|う}つ (hit a fly ball)\n- フライを{捕|と}る (catch a fly ball)\n- {外野|がいや}フライ (outfield fly)\n\nETYMOLOGY:\nFrom English \"fry.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04948_tenpura",
+      "reading": "てんぷら",
+      "headword": "{天|てん}ぷら",
+      "label": "batter-fried (Japanese)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "First-time patients, please check in at the reception desk.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11090_shoshin_ex2",
@@ -27,7 +29,9 @@
       "english": "Please bring your insurance card for your first visit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11090_shoshin_ex3",
@@ -35,22 +39,38 @@
       "english": "The initial consultation fee is often higher than the follow-up fee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{初診|しょしん} is commonly seen on signs and forms at hospitals and clinics in Japan. Patients are typically divided into {初診|しょしん} (first-time) and {再診|さいしん} (returning) at the reception desk.\n\nCOMMON COLLOCATIONS:\n- {初診|しょしん}{料|りょう} (initial consultation fee)\n- {初診|しょしん}の{患者|かんじゃ} (first-time patient)\n- {初診|しょしん}{予約|よやく} (first-visit appointment)\n\nRELATED TERMS:\n- {再診|さいしん} (follow-up visit, return visit)\n- {紹介状|しょうかいじょう} (referral letter — often needed for a first visit to a large hospital)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23254_saishin",
+      "reading": "さいしん",
+      "headword": "{再診|さいしん}",
+      "label": "return visit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["general"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }
