@@ -19,7 +19,9 @@
       "english": "The prosecution launched an investigation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11086_kensatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The prosecution plans to indict the suspect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11086_kensatsu_ex3",
@@ -35,22 +39,52 @@
       "english": "A witness for the prosecution testified in court.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{検察|けんさつ} can refer to both the prosecution as an institution and the act of prosecuting. In Japan, prosecutors ({検察官|けんさつかん} or {検事|けんじ}) belong to the {検察庁|けんさつちょう} (Public Prosecutors Office).\n\nCOMMON COLLOCATIONS:\n- {検察|けんさつ}{側|がわ} (the prosecution side)\n- {検察|けんさつ}{官|かん} (prosecutor)\n- {検察|けんさつ}{庁|ちょう} (Public Prosecutors Office)\n- {検察|けんさつ}{審査会|しんさかい} (Prosecution Review Commission)\n\nRELATED TERMS:\n- {検事|けんじ} (public prosecutor — the individual)\n- {弁護|べんご} (defense)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02773_saiban",
+      "reading": "さいばん",
+      "headword": "{裁判|さいばん}",
+      "label": "trial"
+    },
+    {
+      "type": "related",
+      "target_id": "11080_hikoku",
+      "reading": "ひこく",
+      "headword": "{被告|ひこく}",
+      "label": "defendant"
+    },
+    {
+      "type": "related",
+      "target_id": "11085_genkoku",
+      "reading": "げんこく",
+      "headword": "{原告|げんこく}",
+      "label": "plaintiff"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["general"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

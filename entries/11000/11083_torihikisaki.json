@@ -19,7 +19,9 @@
       "english": "I'll contact the business partner.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11083_torihikisaki_ex2",
@@ -27,7 +29,9 @@
       "english": "There's a meeting with a client company this afternoon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11083_torihikisaki_ex3",
@@ -35,22 +39,38 @@
       "english": "We're strengthening our sales activities to develop new business partners.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "STRUCTURE:\nCompound of {取引|とりひき} (business transaction) + {先|さき} (destination/party). The {先|さき} suffix is common in business vocabulary to indicate the other party: {連絡先|れんらくさき} (contact), {届|とど}け{先|さき} (delivery destination), {仕入|しい}れ{先|さき} (supplier).\n\nUSAGE:\nA core business vocabulary word. Used in workplace conversations, emails, and reports. {取引先|とりひきさき} is broader than \"client\" — it encompasses any company you do business with, whether they buy from you or you buy from them.\n\nCOMMON COLLOCATIONS:\n- {取引先|とりひきさき}を{訪問|ほうもん}する: to visit a business partner\n- {取引先|とりひきさき}との{関係|かんけい}: relationship with a business partner\n- {主要|しゅよう}{取引先|とりひきさき}: major business partner\n- {取引先|とりひきさき}を{開拓|かいたく}する: to develop new business partners",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04700_torihiki",
+      "reading": "とりひき",
+      "headword": "{取引|とりひき}",
+      "label": "business transaction"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T05:17:28Z",
-    "modified": "2026-02-13T05:17:28Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }

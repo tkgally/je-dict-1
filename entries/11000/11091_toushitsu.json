@@ -19,7 +19,9 @@
       "english": "I'm cutting back on carbs.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11091_toushitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "This food product is low in carbohydrates.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11091_toushitsu_ex3",
@@ -35,22 +39,38 @@
       "english": "Low-carb diets have been popular recently.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{糖質|とうしつ} is the term commonly seen on Japanese nutrition labels and in diet-related discussions. It refers to digestible carbohydrates (sugars and starches), as opposed to {食物繊維|しょくもつせんい} (dietary fiber).\n\nNUTRITION LABEL NOTE:\nJapanese food labels list {炭水化物|たんすいかぶつ} (total carbohydrates) which equals {糖質|とうしつ} + {食物繊維|しょくもつせんい}.\n\nCOMMON COLLOCATIONS:\n- {糖質|とうしつ}{制限|せいげん} (carb restriction, low-carb)\n- {糖質|とうしつ}オフ (sugar-free/low-carb — used on product labels)\n- {糖質|とうしつ}{量|りょう} (carbohydrate content)\n\nRELATED NUTRITION TERMS:\n- {脂質|ししつ} (lipids, fats)\n- たんぱく{質|しつ} (protein)\n- {炭水化物|たんすいかぶつ} (total carbohydrates, including fiber)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11092_shishitsu",
+      "reading": "ししつ",
+      "headword": "{脂質|ししつ}",
+      "label": "fat, lipids"
+    }
+  ],
   "metadata": {
     "created": "2026-02-13T12:38:59Z",
-    "modified": "2026-02-13T12:38:59Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["medical"],
-      "semantic": ["food"]
+      "domain": [
+        "medical"
+      ],
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

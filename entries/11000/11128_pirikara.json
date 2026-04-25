@@ -19,7 +19,9 @@
       "english": "I ordered the mildly spicy miso ramen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11128_pirikara_ex2",
@@ -27,7 +29,9 @@
       "english": "This sauce is mildly spicy and stimulates the appetite.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11128_pirikara_ex3",
@@ -35,21 +39,35 @@
       "english": "I added a little chili pepper to give it a mildly spicy finish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common descriptor on menus and in food writing. ピリ is an onomatopoeic element suggesting a tingling, prickling sensation, and {辛|から} means spicy or hot. The compound specifically suggests a pleasant, mild level of spiciness rather than intense heat.\n\nCOMMON COLLOCATIONS:\n- ピリ{辛|から}{味|あじ} (mildly spicy flavor)\n- ピリ{辛|から}ソース (mildly spicy sauce)\n- ピリ{辛|から}に{仕上|しあ}げる (finish with a mild kick)\n- ピリ{辛|から}{料理|りょうり} (mildly spicy dish)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00638_karai",
+      "reading": "からい",
+      "headword": "{辛|から}い",
+      "label": "spicy, hot"
+    }
+  ],
   "metadata": {
     "created": "2026-02-14T03:15:22Z",
-    "modified": "2026-02-14T03:15:22Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-no"],
+      "pos": [
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -24,7 +24,9 @@
       "english": "The criminal's accomplices were arrested.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11238_ichimi_ex2",
@@ -32,7 +34,9 @@
       "english": "He was also one of that gang.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11238_ichimi_ex3",
@@ -40,7 +44,9 @@
       "english": "It was discovered that a band of pirates had been hiding on the island.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11238_ichimi_ex4",
@@ -48,7 +54,9 @@
       "english": "To sprinkle chili flakes on udon.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11238_ichimi_ex5",
@@ -56,7 +64,9 @@
       "english": "Which do you prefer, ichimi or shichimi?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "11238_ichimi_ex6",
@@ -64,21 +74,36 @@
       "english": "Adding a little ichimi chili pepper to miso soup makes it delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nSense 1 has a negative connotation, implying involvement in wrongdoing or conspiracy. It appears frequently in crime dramas and historical fiction.\n\nSense 2 is short for {一味唐辛子|いちみとうがらし}, a condiment made of a single type of ground chili pepper. This contrasts with {七味唐辛子|しちみとうがらし}, which is a blend of seven spices.\n\nCOMMON COLLOCATIONS:\n- {犯人|はんにん}の{一味|いちみ}: the criminal's gang\n- 〜の{一味|いちみ}に{加|くわ}わる: to join someone's group/gang\n- {一味唐辛子|いちみとうがらし}: ichimi chili pepper",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20131_shichimi",
+      "reading": "しちみ",
+      "headword": "{七味|しちみ}",
+      "label": "seven-spice blend"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T09:12:21Z",
-    "modified": "2026-02-15T09:12:21Z",
+    "modified": "2026-04-25T04:12:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "food"]
+      "semantic": [
+        "person",
+        "food"
+      ]
     }
   }
 }
