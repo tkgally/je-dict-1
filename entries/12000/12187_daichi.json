@@ -19,7 +19,9 @@
       "english": "The earth shook.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12187_daichi_ex2",
@@ -27,7 +29,9 @@
       "english": "A vast expanse of land stretched out before my eyes.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12187_daichi_ex3",
@@ -35,22 +39,45 @@
       "english": "When spring comes, the frozen earth begins to thaw and new life sprouts.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{大地|だいち} refers to the earth or land viewed on a grand scale.\n\nSIMILAR WORDS:\n- {地面|じめん}: the ground surface (concrete, everyday)\n- {土地|とち}: land as property or territory\n- {大地|だいち}: the earth or land in a grand, poetic sense\n\nCOMMON COLLOCATIONS:\n- {大地|だいち}が{揺|ゆ}れる: the earth shakes\n- {大地|だいち}を{踏|ふ}みしめる: to plant one's feet firmly on the ground\n- {広大|こうだい}な{大地|だいち}: a vast expanse of land\n- {母|はは}なる{大地|だいち}: Mother Earth\n\nOften used in literary or poetic contexts, nature descriptions, and when discussing landscapes or natural phenomena.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "じめん",
+      "headword": "{地面|じめん}",
+      "label": "ground surface (everyday)",
+      "target_id": "00125_jimen"
+    },
+    {
+      "type": "contrast",
+      "reading": "とち",
+      "headword": "{土地|とち}",
+      "label": "land, property",
+      "target_id": "02226_tochi"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T10:22:52Z",
-    "modified": "2026-02-20T10:22:52Z",
+    "modified": "2026-04-26T07:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["geography"],
-      "style": ["literary"]
+      "semantic": [
+        "geography"
+      ],
+      "style": [
+        "literary"
+      ]
     }
   }
 }

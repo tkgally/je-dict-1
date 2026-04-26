@@ -19,7 +19,9 @@
       "english": "I can smell the chlorine from the pool.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12143_enso_ex2",
@@ -27,7 +29,9 @@
       "english": "Tap water is disinfected with chlorine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12143_enso_ex3",
@@ -35,22 +39,45 @@
       "english": "When using chlorine-based bleach, please ensure adequate ventilation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn everyday life, {塩素|えんそ} is most commonly discussed in the context of tap water treatment and swimming pool maintenance. The kanji {塩|えん} (salt) reflects that chlorine was historically obtained from salt ({塩|しお}).\n\nCOMMON COLLOCATIONS:\n- {塩素|えんそ}{消毒|しょうどく}: chlorine disinfection\n- {塩素|えんそ}{系|けい}: chlorine-based\n- {塩素|えんそ}{濃度|のうど}: chlorine concentration\n- {残留|ざんりゅう}{塩素|えんそ}: residual chlorine",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "さんそ",
+      "headword": "{酸素|さんそ}",
+      "label": "oxygen",
+      "target_id": "02830_sanso"
+    },
+    {
+      "type": "related",
+      "reading": "すいそ",
+      "headword": "{水素|すいそ}",
+      "label": "hydrogen",
+      "target_id": "00387_suiso"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T09:00:04Z",
-    "modified": "2026-02-20T09:00:04Z",
+    "modified": "2026-04-26T07:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }
