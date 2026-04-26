@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 43)
+Added 30 new dictionary entries (IDs 25556-25585) from candidate_words.json. Diverse batch covering adjectives, adverbs, expressions, nouns, and a verb across emotions, weather, sports, media, food, and daily life.
+
+- **Na-adjectives (4)**: {残酷|ざんこく}な (cruel), {悲惨|ひさん}な (tragic), {哀|あわ}れな (pitiful/poignant), {緊密|きんみつ}な (close/tight)
+- **Nouns (15)**: {屈伸|くっしん} (bending and stretching), {発表者|はっぴょうしゃ} (presenter), {降水確率|こうすいかくりつ} (chance of rain), {初婚|しょこん} (first marriage), さやえんどう (snow pea), {山野|さんや} (mountains and fields), {投稿欄|とうこうらん} (letters column), {気象予報|きしょうよほう} (weather forecast), {水風船|みずふうせん} (water balloon), {得点者|とくてんしゃ} (scorer), {先取点|せんしゅてん} (opening goal), {抜|ぬ}き{書|が}き (excerpt), {再婚者|さいこんしゃ} (remarried person), {投稿記事|とうこうきじ} (submitted article), {名人芸|めいじんげい} (masterful skill)
+- **Nouns cont'd (5)**: {学徒|がくと} (student/scholar), {細口|ほそぐち} (narrow opening), ご{機嫌|きげん} (mood/good spirits), {事前準備|じぜんじゅんび} (advance preparation), {開店準備|かいてんじゅんび} (preparation for opening), {準備完了|じゅんびかんりょう} (preparation complete)
+- **Verb (1)**: {紐付|ひもづ}ける (to link/associate)
+- **Adverbs (2)**: {婉曲|えんきょく}に (indirectly/euphemistically), {偶然|ぐうぜん}に (by chance)
+- **Expressions (2)**: {胸|むね}が{痛|いた}む (to feel heartache), {仲良|なかよ}くする (to get along well)
+- Conjugation tables auto-generated for 5 verb entries (1 ichidan, 4 suru)
+- 30 candidates synced from candidate list
+
+Total entries: 25,348 → 25,378.
+
 ### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 42)
 Added 30 new dictionary entries (IDs 25526-25555) from candidate_words.json. Focused on common suru verbs across diverse semantic domains, plus one na-adjective.
 
@@ -110,26 +124,5 @@ Added 30 new dictionary entries (IDs 25408-25437) from candidate_words.json. Div
 - 30 candidates synced from candidate list
 
 Total entries: 25,200 → 25,230.
-
-### 2026-04-25 (Vocabulary Expansion - 27 New Entries, Batch 37)
-Added 27 new dictionary entries (IDs 25381-25407) from candidate_words.json. Focused on useful suru verbs, an expression, and a noun covering disaster recovery, daily life, school, workplace, and literary vocabulary.
-
-- **Suru verbs (25)**: {復興|ふっこう}する (to reconstruct), {放置|ほうち}する (to leave as is), {変身|へんしん}する (to transform), {仮装|かそう}する (to dress in costume), {反抗|はんこう}する (to rebel), {正座|せいざ}する (to sit formally), {混雑|こんざつ}する (to be crowded), {録音|ろくおん}する (to record audio), {油断|ゆだん}する (to be careless), {直視|ちょくし}する (to look squarely at), {修行|しゅぎょう}する (to undergo training), {追放|ついほう}する (to banish), {降格|こうかく}する (to demote), {熟睡|じゅくすい}する (to sleep soundly), {復帰|ふっき}する (to return), {退治|たいじ}する (to exterminate), {執筆|しっぴつ}する (to author), {介入|かいにゅう}する (to intervene), {削減|さくげん}する (to cut/reduce), {転校|てんこう}する (to transfer schools), {下校|げこう}する (to go home from school), {凝視|ぎょうし}する (to stare at), {敵対|てきたい}する (to be hostile), {軽視|けいし}する (to belittle), {懇願|こんがん}する (to implore)
-- **Expression (1)**: {差|さ}し{支|つか}えない (no problem/objection)
-- **Noun (1)**: {揺|ゆ}り{戻|もど}し (rebound/backlash)
-- 27 candidates synced from candidate list
-
-Total entries: 25,173 → 25,200.
-
-### 2026-04-24 (Vocabulary Expansion - 20 New Entries, Batch 36)
-Added 20 new dictionary entries (IDs 25331-25350) from candidate_words.json. Focused on high-frequency, practical vocabulary useful for intermediate learners across daily life, business, science, and personal expression.
-
-- **Suru verbs (10)**: {発展|はってん}する (to develop), {確認|かくにん}する (to confirm), {呼吸|こきゅう}する (to breathe), {化粧|けしょう}する (to put on makeup), {分析|ぶんせき}する (to analyze), {記録|きろく}する (to record), じっとする (to stay still), {我慢|がまん}する (to endure), {強化|きょうか}する (to strengthen), {情報|じょうほう}{共有|きょうゆう} (information sharing)
-- **Ichidan verb (1)**: {並|なら}べ{替|か}える (to rearrange)
-- **Na-adjectives (3)**: {適切|てきせつ}な (appropriate), {雑|ざつ}な (sloppy), {幻想的|げんそうてき}な (fantastical)
-- **Nouns (6)**: {温|あたた}かみ (warmth), {被災者|ひさいしゃ} (disaster victim), {単語帳|たんごちょう} (vocabulary book), {水道水|すいどうすい} (tap water), {軟水|なんすい} (soft water), {雨模様|あまもよう} (rainy weather)
-- 19 candidates synced from candidate list
-
-Total entries: 25,123 → 25,143.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
