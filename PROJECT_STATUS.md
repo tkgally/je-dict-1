@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 44)
+Added 30 new dictionary entries (IDs 25586-25615) from candidate_words.json. Diverse batch covering verbs, adjectives, nouns, expressions, and a pronoun across daily life, culture, business, health, nature, and more.
+
+- **Verbs (1)**: {形作|かたちづく}る (to form/shape)
+- **Suru verbs (3)**: {予約確認|よやくかくにん}する (reservation confirmation), {予約変更|よやくへんこう}する (reservation change), {詐称|さしょう}する (to misrepresent)
+- **Na-adjective (1)**: {自動的|じどうてき} (automatic)
+- **I-adjective (1)**: {薄明|うすあか}るい (dimly lit)
+- **Pronoun (1)**: {誰|だれ}しも (everyone/anybody)
+- **Nouns (17)**: {優|やさ}しさ (kindness), {韓国料理|かんこくりょうり} (Korean cuisine), ジュエリー (jewelry), {午前零時|ごぜんれいじ} (midnight), {反射神経|はんしゃしんけい} (reflexes), {鏡開|かがみびら}き (New Year mochi/sake barrel opening), {競合他社|きょうごうたしゃ} (competitor), {決定要素|けっていようそ} (decisive factor), {省資源|しょうしげん} (resource conservation), {探検者|たんけんしゃ} (explorer), {麻酔薬|ますいやく} (anesthetic), {帽子屋|ぼうしや} (hat shop), {落成式|らくせいしき} (completion ceremony), {薄明|はくめい} (twilight), {伝道師|でんどうし} (evangelist/missionary), {評伝|ひょうでん} (critical biography), {神域|しんいき} (sacred precinct), {農閑期|のうかんき} (farming off-season), {鏡面|きょうめん} (mirror surface), {警部補|けいぶほ} (assistant inspector)
+- **Expressions (4)**: くしゃみが{出|で}る (to sneeze), {心|こころ}が{狭|せま}い (narrow-minded), {価値|かち}ある (valuable/worthy)
+- Conjugation tables auto-generated for 4 verb entries (1 godan, 3 suru) and 1 i-adjective
+- 30 candidates synced from candidate list
+
+Total entries: 25,378 → 25,408.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 43)
 Added 30 new dictionary entries (IDs 25556-25585) from candidate_words.json. Diverse batch covering adjectives, adverbs, expressions, nouns, and a verb across emotions, weather, sports, media, food, and daily life.
 
@@ -110,19 +125,5 @@ Added 28 new dictionary entries (IDs 25438-25465) from candidate_words.json. Div
 - 28 candidates synced from candidate list
 
 Total entries: 25,230 → 25,258.
-
-### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 38)
-Added 30 new dictionary entries (IDs 25408-25437) from candidate_words.json. Diverse batch covering everyday verbs, common expressions, nouns, adverbs, and an adjective across business, education, culture, and daily life.
-
-- **Suru verbs (4)**: {参加|さんか}する (to participate), {入社|にゅうしゃ}する (to join a company), {泣|な}き{寝入|ねい}りする (to accept defeat silently), {社会参加|しゃかいさんか} (social participation)
-- **Expressions (4)**: お{世話|せわ}になる (to be indebted to), {身|み}を{捧|ささ}げる (to devote oneself), これ{以上|いじょう} (any more/further), {大|たい}したことない (not a big deal)
-- **Nouns (14)**: {実験室|じっけんしつ} (laboratory), {判断基準|はんだんきじゅん} (judgment criteria), {経験不足|けいけんぶそく} (lack of experience), {宿泊先|しゅくはくさき} (accommodation), {大波|おおなみ} (big wave), {研究会|けんきゅうかい} (study group), {大枠|おおわく} (broad outline), {韓国語|かんこくご} (Korean language), あぐら (sitting cross-legged), {冷|つめ}たさ (coldness), {演奏者|えんそうしゃ} (performer), {差分|さぶん} (difference), {家族愛|かぞくあい} (family love), {音訓|おんくん} (on/kun readings)
-- **Noun/Na-adjective (1)**: {親不孝|おやふこう} (unfilial conduct)
-- **Na-adjective (1)**: リズミカル (rhythmic)
-- **Adverbs (2)**: {変|か}わらず (unchanged), たやすく (easily)
-- **Nouns (additional, meetings)**: {討論会|とうろんかい} (debate forum), {範囲内|はんいない} (within range), {感情表現|かんじょうひょうげん} (emotional expression), {機関車|きかんしゃ} (locomotive)
-- 30 candidates synced from candidate list
-
-Total entries: 25,200 → 25,230.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
