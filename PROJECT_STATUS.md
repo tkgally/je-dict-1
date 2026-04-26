@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 45)
+Added 30 new dictionary entries (IDs 25616-25645) from candidate_words.json. Diverse batch covering education, business, food, daily life, culture, and expressions useful for intermediate learners.
+
+- **Nouns (18)**: {吟醸|ぎんじょう} (ginjo sake), {体験談|たいけんだん} (personal experience story), {業務連絡|ぎょうむれんらく} (business notice), {自己都合|じこつごう} (personal reasons), {時間管理|じかんかんり} (time management), {食品添加物|しょくひんてんかぶつ} (food additive), {料理店|りょうりてん} (restaurant), {交替勤務|こうたいきんむ} (shift work), {勤続年数|きんぞくねんすう} (years of service), {落書|らくが}き{帳|ちょう} (doodle notebook), {備蓄品|びちくひん} (emergency supplies), {悪戯好|いたずらず}き (prankster), {使|つか}い (errand/messenger), {単語力|たんごりょく} (vocabulary ability), {電動工具|でんどうこうぐ} (power tool), {敗者復活戦|はいしゃふっかつせん} (repechage), {水彩絵具|すいさいえのぐ} (watercolor paint), {平方根|へいほうこん} (square root)
+- **Academic disciplines (3)**: {地理学|ちりがく} (geography), {気象学|きしょうがく} (meteorology), {地質学|ちしつがく} (geology)
+- **Na-adjective (1)**: {無感情|むかんじょう} (emotionless)
+- **Adjective-no (1)**: {���身|なまみ}の (flesh-and-blood)
+- **Expressions (4)**: {一夜漬|いちやづ}け (cramming/overnight pickling), {仲|なか}が{悪|わる}い (on bad terms), {小言|こごと}を{言|い}う (to nag), {避|さ}けられない (unavoidable)
+- **Other (3)**: {走馬灯|そうまとう}のよう (life flashing before eyes), {平和活動|へいわかつどう} (peace activities), {一緒|いっしょ}に (together)
+- 30 candidates synced from candidate list
+
+Total entries: 25,408 → 25,438.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 44)
 Added 30 new dictionary entries (IDs 25586-25615) from candidate_words.json. Diverse batch covering verbs, adjectives, nouns, expressions, and a pronoun across daily life, culture, business, health, nature, and more.
 
@@ -115,15 +128,5 @@ Added 30 new dictionary entries (IDs 25466-25495) from candidate_words.json. Div
 - 30 candidates synced from candidate list
 
 Total entries: 25,258 → 25,288.
-
-### 2026-04-25 (Vocabulary Expansion - 28 New Entries, Batch 39)
-Added 28 new dictionary entries (IDs 25438-25465) from candidate_words.json. Diverse batch covering practical vocabulary across work/society, health, commerce, culture, science, law, and daily life.
-
-- **Nouns (24)**: {人手|ひとで} (manpower), {働|はたら}き{方|かた} (work style), {育児|いくじ}{休業|きゅうぎょう} (childcare leave), {偏頭痛|へんずつう} (migraine), {購入者|こうにゅうしゃ} (purchaser), {生産者|せいさんしゃ} (producer), {追加|ついか}{費用|ひよう} (additional cost), {予防法|よぼうほう} (prevention method), {深夜|しんや}バス (night bus), スヌーズ (snooze), {主流派|しゅりゅうは} (mainstream faction), {力学|りきがく} (mechanics/dynamics), {筆名|ひつめい} (pen name), ペンネーム (pen name), {報復|ほうふく}{措置|そち} (retaliatory measures), {著作権|ちょさくけん}{侵害|しんがい} (copyright infringement), {和食店|わしょくてん} (Japanese restaurant), {金封|きんぷう} (gift envelope), {度付|どつ}き (prescription glasses), {解剖学|かいぼうがく} (anatomy), {犯罪学|はんざいがく} (criminology), {粘着性|ねんちゃくせい} (adhesiveness), {床材|ゆかざい} (flooring material), {床板|ゆかいた} (floorboard), {電磁気|でんじき} (electromagnetism), {遠征隊|えんせいたい} (expedition)
-- **Expressions (2)**: {愚痴|ぐち}を{言|い}う (to complain), {不平|ふへい}を{言|い}う (to express dissatisfaction)
-- Cross-references added between synonym/related pairs
-- 28 candidates synced from candidate list
-
-Total entries: 25,230 → 25,258.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
