@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-04-25
+**Last updated**: 2026-04-26
 
 ## Overview
 
@@ -72,7 +72,7 @@ The parallel architecture document named "regression — an agent makes a change
 
 ### 4. Consistency checker as a gate vs. a report
 
-`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,817 note-structure issues, 4,933 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
+`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,817 note-structure issues, 5,160 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
 
 ### 5. Multi-model review feedback loops
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-25 (25,348 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-26 (25,518 entries):
 
-| Metric | Plan target | 2026-04-23 | Notes |
+| Metric | Plan target | 2026-04-26 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | ~33% | 4,408 verbs still missing; transitivity queue 11.7% processed |
+| Verbs with transitivity | 100% | ~33% | 4,431 verbs still missing; transitivity queue 11.7% processed |
 | Entries with note score ≥ 60 | 80% | ~84% | Target reached |
-| Cross-reference symmetry | 98% | 44.6% | 4,933 asymmetric references; largest remaining gap |
-| Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.1% | Still slow-moving |
-| Multi-model review coverage | 100% (furigana) | queue depth 7,500 | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **101,840 total examples** |
-| Cross-references per entry | ≥ 0.5 | 0.42 | Rising steadily from 0.32 in mid-April |
+| Cross-reference symmetry | 98% | 43.8% | 5,160 asymmetric references; largest remaining gap |
+| Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.0% | Still slow-moving |
+| Multi-model review coverage | 100% (furigana) | queue depth 7,895 | Queue growing as entries outpace review |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **102,407 total examples** |
+| Cross-references per entry | ≥ 0.5 | 0.43 | Rising steadily from 0.32 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density continues improving** (0.42 per entry, up from 0.32 in mid-April) as the dictionary added ~2,000+ entries with cross-references since mid-April. Total cross-references have reached 10,735. Asymmetric pairs stand at 4,933 (growing as new entries add unreciprocated links faster than the symmetry pass processes them), and the review queue has grown to 7,500 as new entries outpace review throughput.
+Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density continues improving** (0.43 per entry, up from 0.32 in mid-April) as the dictionary added ~2,500+ entries with cross-references since mid-April. Total cross-references have reached 11,050. Asymmetric pairs stand at 5,160 (growing as new entries add unreciprocated links faster than the symmetry pass processes them), and the review queue has grown to 7,895 as new entries outpace review throughput.
 
 ## Implications for future maintenance sessions
 

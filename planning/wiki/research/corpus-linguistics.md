@@ -72,3 +72,4 @@ Comparing dictionary coverage against BCCWJ frequency ranks would identify the h
 - [Collocations in Learner Dictionaries](collocations.md) — applying collocational analysis to dictionary entries
 - [Beyond Flat Corpora](beyond-flat-corpora.md) — how LLMs go beyond distributional analysis
 - [LLMs as Lexicographic Corpus Replacements](../topics/llms-replacing-corpora.md) — whether LLMs can replace corpora in dictionary production
+- [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how frequency-based vocabulary size maps to text coverage thresholds

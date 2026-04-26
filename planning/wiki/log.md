@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-26] maintenance | Vocabulary size research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **vocabulary size and text coverage thresholds** and created `research/vocabulary-size-coverage.md`. Covers the text coverage model and the 95%/98% lexical thresholds (Laufer 1989, Hu & Nation 2000); Nation's (2006) word-family counts for different text types (novels, newspapers, spoken English, graded readers); the diminishing-returns curve from 2,000 WF (~80–85% coverage) to 8,000–9,000 WF (~98%); vocabulary size measurement instruments (VST by Nation & Beglar 2007, VLT, Yes/No tests); Japanese-specific challenges (word family definition problems, script barriers, Sino-Japanese compound productivity); JLPT vocabulary benchmarks; Japanese text coverage studies (Tono et al. 2013, Matsushita 2012, Sato 2014); major learner dictionary sizes (OALD 60,000+ headwords, LDOCE ~80,000, Cambridge ~140,000) and the gap between comprehension vocabulary needs and dictionary reference needs; the "lookup disappointment" problem (Bogaards 1996); and detailed implications for je-dict-1 including tier alignment with coverage thresholds, expansion priority implications, and the self-containment–coverage connection. Cited Beglar 2010, Bogaards 1996, Hu & Nation 2000, Kremmel & Schmitt 2023, Laufer 1989/1998/2013, Laufer & Ravenhorst-Kalovski 2010, Matsushita 2012, Nation 2001/2006, Nation & Beglar 2007, Sato 2014, Schmitt et al. 2001/2011, Tono et al. 2013, Webb & Nation 2017.
+- [A] Updated entry counts across 10 wiki pages to reflect 2026-04-26 `report.py` output (25,518 entries / 22,735 general / 11,050 cross-references / 102,407 examples / 2,056 candidates / 43.8% symmetry / 5,160 asymmetric refs / 2,847 entries with inline links at 11.2%). Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `project/open-issues.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`.
+- [E] Ran cross-reference link checker across all wiki pages (408 internal links checked, 0 broken). Checked for orphan pages (0 found across 50 total pages). Added the new vocabulary size page to `index.md` and as a related page on `vocabulary-acquisition.md`, `corpus-linguistics.md`, `learner-lexicography.md`, `vocabulary-tiers.md`, `dictionary-growth.md`, `corpus-prioritization.md`, and `controlled-defining-vocabulary.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-25] maintenance | Error analysis research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

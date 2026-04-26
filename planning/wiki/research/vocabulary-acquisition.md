@@ -108,3 +108,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — how lookup strategies affect vocabulary retention
 - [Polysemy and Sense Discrimination](polysemy-sense-discrimination.md) — how learners organize polysemous senses
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — what learners get wrong and what it means for dictionary design
+- [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how many words learners need and what that means for dictionary sizing
