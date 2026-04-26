@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 47)
+Added 30 new dictionary entries (IDs 25666-25695) from candidate_words.json. Practical, learner-friendly vocabulary covering daily life, business, environment, sports, food, and communication.
+
+- **Daily life (7)**: {雨降|あめふ}り (rainfall), へこみ (dent/setback), {抜|ぬ}け{毛|げ} (hair loss), {空|あ}き{時間|じかん} (free time), {早歩|はやある}き (brisk walking), シャーペン (mechanical pencil), フロントガラス (windshield)
+- **Time/intensity (3)**: {今|いま}すぐ (right now), {急上昇|きゅうじょうしょう} (sharp rise), {急降下|きゅうこうか} (sharp drop)
+- **Business/society (6)**: {前金|まえきん} (advance payment), {離席|りせき}する (to step away), {危機|きき}{管理|かんり} (crisis management), {社会|しゃかい}{問題|もんだい} (social problem), {誘致|ゆうち} (attraction/bidding), {連絡係|れんらくがかり} (liaison)
+- **Loanwords (5)**: ジェスチャー (gesture), セロリ (celery), リユース (reuse), カヌー (canoe), トラブルメーカー (troublemaker)
+- **Other (9)**: {先回|さきまわ}り (preemption), {全速力|ぜんそくりょく} (full speed), {分|わ}け{前|まえ} (share/portion), ビジネスホテル (business hotel), {大中小|だいちゅうしょう} (L/M/S), {強|つよ}さ (strength), {寄付者|きふしゃ} (donor), {仲間|なかま}{意識|いしき} (camaraderie), {守勢|しゅせい} (defensive)
+- Conjugation tables auto-generated for 7 suru verb entries
+- 30 candidates synced from candidate list
+
+Total entries: 25,458 → 25,488.
+
 ### 2026-04-26 (Vocabulary Expansion - 20 New Entries, Batch 46)
 Added 20 new dictionary entries (IDs 25646-25665) from candidate_words.json. Mixed batch covering Japanese culture, everyday expressions, business/economics, food/drink, sports, and daily life.
 
