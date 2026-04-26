@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 48)
+Added 30 new dictionary entries (IDs 25696-25725) from candidate_words.json. Mixed batch covering business, culture, daily life, science, expressions, and social topics.
+
+- **Nouns (16)**: {長期間|ちょうきかん} (long period), {新入|しんい}り (newcomer), {温度計|おんどけい} (thermometer), {広告主|こうこくぬし} (advertiser), {広告料|こうこくりょう} (ad revenue), {銀河系|ぎんがけい} (Milky Way), {新興企業|しんこうきぎょう} (startup), {倍速|ばいそく} (double speed), {紳士服|しんしふく} (menswear), {運動着|うんどうぎ} (sportswear), {内縁|ないえん} (common-law marriage), {省力|しょうりょく} (labor-saving), {死亡率|しぼうりつ} (mortality rate), {探査機|たんさき} (probe), {別邸|べってい} (villa), {鮮魚店|せんぎょてん} (fish shop)
+- **Suru verbs (5)**: {転出|てんしゅつ}する (moving out), {拉致|らち}する (to abduct), {吸引|きゅういん}する (to suction), {近道|ちかみち}する (to take a shortcut), {東奔西走|とうほんせいそう}する (to rush about)
+- **Expressions (2)**: {懐|ふところ}が{深|ふか}い (broad-minded), {器|うつわ}が{大|おお}きい (magnanimous)
+- **Other (7)**: {外人|がいじん} (foreigner), {貧富|ひんぷ}の{差|さ} (wealth gap), {天運|てんうん} (fate), {無思慮|むしりょ} (thoughtlessness), ホスト (host), {敏捷性|びんしょうせい} (agility), ホラー{映画|えいが} (horror movie)
+- Conjugation tables auto-generated for 5 suru verb entries
+- 1 new kanji (拉) assigned to kanji index
+- 30 candidates synced from candidate list
+
+Total entries: 25,488 → 25,518.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 47)
 Added 30 new dictionary entries (IDs 25666-25695) from candidate_words.json. Practical, learner-friendly vocabulary covering daily life, business, environment, sports, food, and communication.
 
