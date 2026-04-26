@@ -39,10 +39,25 @@
     }
   ],
   "notes": "USAGE:\nA linguistic term used when discussing the origins and layers of Japanese vocabulary. Japanese vocabulary is traditionally classified into three categories: {和語|わご} (native Japanese), {漢語|かんご} (Sino-Japanese, borrowed from Chinese), and {外来語|がいらいご} (loanwords from other languages). {和語|わご} is also called {大和言葉|やまとことば}.\n\nKEY CHARACTERISTICS:\n{和語|わご} tends to sound softer and more emotional than {漢語|かんご}. Many basic, everyday words are {和語|わご}: {食|た}べる (to eat), {歩|ある}く (to walk), {美|うつく}しい (beautiful). Kanji used for {和語|わご} are read with {訓読|くんよ}み (native readings).\n\nCOMMON COLLOCATIONS:\n- {和語|わご}の{読|よ}み: native Japanese reading\n- {和語|わご}と{漢語|かんご}: native and Sino-Japanese words\n- {大和言葉|やまとことば}: yamato kotoba (synonym)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13439_kango",
+      "reading": "かんご",
+      "headword": "{漢語|かんご}",
+      "label": "Sino-Japanese word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "12101_gairaigo",
+      "reading": "がいらいご",
+      "headword": "{外来語|がいらいご}",
+      "label": "loanword"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T04:33:59Z",
-    "modified": "2026-02-20T04:33:59Z",
+    "modified": "2026-04-26T04:23:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {

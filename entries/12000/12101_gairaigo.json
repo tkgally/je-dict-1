@@ -39,10 +39,25 @@
     }
   ],
   "notes": "USAGE:\nJapanese vocabulary is classified into three categories: {和語|わご} (native Japanese words), {漢語|かんご} (Sino-Japanese words from Chinese), and {外来語|がいらいご} (loanwords from other languages). Despite Chinese being technically \"foreign,\" {外来語|がいらいご} conventionally excludes {漢語|かんご} and refers mainly to Western borrowings written in katakana.\n\nCOMMON COLLOCATIONS:\n- {外来語|がいらいご}を{使|つか}う: use a loanword\n- {英語|えいご}からの{外来語|がいらいご}: loanword from English\n- {外来語|がいらいご}{辞典|じてん}: loanword dictionary\n- {外来語|がいらいご}の{乱用|らんよう}: overuse of loanwords\n\nSIMILAR WORDS:\n{外来語|がいらいご} is the standard linguistic term. {カタカナ}{語|ご} (katakana word) is a casual synonym. {借用語|しゃくようご} (borrowed word) is the more technical linguistic term.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12074_wago",
+      "reading": "わご",
+      "headword": "{和語|わご}",
+      "label": "native Japanese word"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13439_kango",
+      "reading": "かんご",
+      "headword": "{漢語|かんご}",
+      "label": "Sino-Japanese word"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T04:58:08Z",
-    "modified": "2026-02-20T04:58:08Z",
+    "modified": "2026-04-26T04:23:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
