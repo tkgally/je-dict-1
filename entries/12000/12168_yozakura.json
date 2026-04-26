@@ -19,7 +19,9 @@
       "english": "To go see the cherry blossoms at night.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12168_yozakura_ex2",
@@ -27,7 +29,9 @@
       "english": "The illuminated cherry blossoms at night were very enchanting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12168_yozakura_ex3",
@@ -35,21 +39,43 @@
       "english": "We enjoyed the cherry blossoms at night in the park while drinking sake with friends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nMany parks and temples set up special lighting during cherry blossom season to allow visitors to enjoy {夜桜|よざくら}. The blossoms appear pale and ethereal under artificial light, creating a different atmosphere from daytime viewing. {夜桜|よざくら}{見物|けんぶつ} (nighttime cherry blossom viewing) is a popular spring activity.\n\nWORD FORMATION:\n{夜|よ} (night) + {桜|さくら} (cherry blossom). The さ becomes ざ through rendaku (sequential voicing).\n\nCOMMON COLLOCATIONS:\n- {夜桜|よざくら}{見物|けんぶつ}: nighttime cherry blossom viewing\n- {夜桜|よざくら}のライトアップ: nighttime cherry blossom illumination\n- {夜桜|よざくら}を{楽|たの}しむ: to enjoy nighttime cherry blossoms",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "さくら",
+      "headword": "{桜|さくら}",
+      "label": "cherry blossoms",
+      "target_id": "02212_sakura"
+    },
+    {
+      "type": "related",
+      "reading": "はなみ",
+      "headword": "{花見|はなみ}",
+      "label": "cherry blossom viewing",
+      "target_id": "01700_hanami"
+    }
+  ],
   "metadata": {
     "created": "2026-02-20T09:57:01Z",
-    "modified": "2026-02-20T09:57:01Z",
+    "modified": "2026-04-26T07:25:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["plant-flower", "time-season"]
+      "semantic": [
+        "plant-flower",
+        "time-season"
+      ]
     }
   }
 }
