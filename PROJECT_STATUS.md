@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-26 (Vocabulary Expansion - 20 New Entries, Batch 46)
+Added 20 new dictionary entries (IDs 25646-25665) from candidate_words.json. Mixed batch covering Japanese culture, everyday expressions, business/economics, food/drink, sports, and daily life.
+
+- **Cultural (3)**: {天下|あまくだ}り (amakudari - bureaucratic parachuting), {純米酒|じゅんまいしゅ} (pure rice sake), {大吟醸|だいぎんじょう} (premium ginjo sake)
+- **Expressions (3)**: {目|め}を{合|あ}わせる (to make eye contact), {好|す}き{放題|ほうだい} (doing as one pleases), そのままにする (to leave as is)
+- **Business/Economics (4)**: {銀行|ぎんこう}{振込|ふりこみ} (bank transfer), {占有率|せんゆうりつ} (market share), {輸出国|ゆしゅつこく} (exporting country), {輸入国|ゆにゅうこく} (importing country)
+- **Nouns (6)**: {準々決勝|じゅんじゅんけっしょう} (quarterfinal), {猿芝居|さるしばい} (transparent sham), {工場長|こうじょうちょう} (factory manager), {肉片|にくへん} (piece of meat), {中米|ちゅうべい} (Central America), {拭|ふ}き{取|と}り (wiping off)
+- **Verb (1)**: {苛立|いらだ}たせる (to irritate)
+- **Other (3)**: {遊歩|ゆうほ} (strolling), ポロシャツ (polo shirt), {満々|まんまん} (brimming with)
+- Conjugation tables auto-generated for 4 verb entries (2 ichidan, 2 suru)
+- 20 candidates synced from candidate list
+
+Total entries: 25,438 → 25,458.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 45)
 Added 30 new dictionary entries (IDs 25616-25645) from candidate_words.json. Diverse batch covering education, business, food, daily life, culture, and expressions useful for intermediate learners.
 
@@ -102,31 +116,5 @@ Added 30 new dictionary entries (IDs 25526-25555) from candidate_words.json. Foc
 - 30 candidates synced from candidate list
 
 Total entries: 25,318 → 25,348.
-
-### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 41)
-Added 30 new dictionary entries (IDs 25496-25525) from candidate_words.json. Focused on useful vocabulary across business, law, government, food, medicine, and daily life.
-
-- **Suru verbs (15)**: {優勝|ゆうしょう}する (to win championship), {成立|せいりつ}する (to be established), {執行|しっこう}する (to execute/enforce), {解任|かいにん}する (to dismiss from office), {予言|よげん}する (to prophesy), メモする (to take notes), {焙煎|ばいせん}する (to roast beans), {潜伏|せんぷく}する (to lie hidden), {充血|じゅうけつ}する (to become bloodshot), {戦慄|せんりつ}する (to shudder), {扇動|せんどう}する (to agitate/incite), {咀嚼|そしゃく}する (to chew/digest mentally), {妄信|もうしん}する (to believe blindly), {報連相|ほうれんそう}する (report-contact-consult), {抗弁|こうべん} (objection/plea)
-- **Na-adjectives (3)**: {重大|じゅうだい}な (serious/grave), {十分|じゅうぶん}な (sufficient), {構造的|こうぞうてき}な (structural)
-- **Verbs (3)**: {撮|と}り{直|なお}す (to retake photo), {困|こま}らせる (to cause trouble), {爪|つめ}を{噛|か}む (to bite nails)
-- **Nouns (9)**: {機能性|きのうせい} (functionality), {市場調査|しじょうちょうさ} (market research), {慰霊碑|いれいひ} (memorial monument), {白色|はくしょく} (white color), {登記簿|とうきぼ} (registry), {秘書官|ひしょかん} (executive secretary), {卸売|おろしうり}{市場|しじょう} (wholesale market), {捧|ささ}げ{物|もの} (offering), {世渡|よわた}り{下手|べた} (social ineptness)
-- Conjugation tables auto-generated for all 17 verb entries
-- 29 candidates synced from candidate list
-
-Total entries: 25,288 → 25,318.
-
-### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 40)
-Added 30 new dictionary entries (IDs 25466-25495) from candidate_words.json. Diverse batch covering everyday vocabulary, modern slang, medical/scientific terms, cultural items, and practical expressions.
-
-- **Nouns (21)**: {故郷|ふるさと} (hometown), {顔色|かおいろ} (complexion/expression), お{昼寝|ひるね} (afternoon nap), {映|ば}え (photogenic/Instagram-worthy), {子豚|こぶた} (piglet), {塩味|しおみ} (salty flavor), {空色|そらいろ} (sky blue), {器量|きりょう} (looks/caliber), {秘策|ひさく} (secret plan), {物品|ぶっぴん} (goods), {心拍|しんぱく} (heartbeat), {本編|ほんぺん} (main story), {牧草|ぼくそう} (pasture grass), {親鳥|おやどり} (parent bird), {胃炎|いえん} (gastritis), {柄杓|ひしゃく} (ladle/dipper), {石灰|せっかい} (lime), {瞬|またた}き (blink/twinkle), {利己主義|りこしゅぎ} (egoism), {住処|すみか} (dwelling/habitat), {気球|ききゅう} (hot-air balloon)
-- **Na-adjective (1)**: {無害|むがい} (harmless)
-- **Suru verbs (5)**: {誘惑|ゆうわく}する (to tempt), {再婚|さいこん}する (to remarry), {算定|さんてい}する (to calculate), {密会|みっかい}する (to meet secretly), {離席|りせき}する (to leave one's seat)
-- **Noun/Verb-suru (2)**: {隆起|りゅうき} (uplift), {分泌|ぶんぴつ} (secretion)
-- **Expression (1)**: あっという{間|ま}に (in the blink of an eye)
-- Cross-references added for variant readings ({故郷|ふるさと}↔{故郷|こきょう}, {塩味|しおみ}↔{塩味|しおあじ}, {瞬|またた}き↔まばたき)
-- 1 new kanji added to kanji index: {泌|ぴつ}
-- 30 candidates synced from candidate list
-
-Total entries: 25,258 → 25,288.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
