@@ -1,6 +1,6 @@
 # Dictionary Growth and Long-Term Vision
 
-**Last updated**: 2026-04-25
+**Last updated**: 2026-04-26
 
 ## Overview
 
@@ -8,7 +8,7 @@ There is no maximum size for this dictionary. Even after core learner needs are 
 
 ## Current state and near-term priorities
 
-As of late April 2026, the dictionary has ~25,300 entries covering basic, core, and general vocabulary for intermediate Japanese learners. The immediate priority is:
+As of late April 2026, the dictionary has ~25,500 entries covering basic, core, and general vocabulary for intermediate Japanese learners. The immediate priority is:
 
 1. **Fill remaining gaps in common vocabulary** — ensure no everyday word is missing (see [Word Discovery Strategies](word-discovery-strategies.md))
 2. **Polish existing entries** — bring all entries up to v2 quality standards
@@ -105,4 +105,5 @@ This distinguishes je-dict-1 from reference dictionaries (which assume native-sp
 - [Vocabulary Tier System](../project/vocabulary-tiers.md) — the three-tier classification
 - [Corpus-Driven Entry Prioritization](corpus-prioritization.md) — frequency-based expansion
 - [Content Pipeline](../project/content-pipeline.md) — how entries flow from discovery to publication
+- [Vocabulary Size and Text Coverage](../research/vocabulary-size-coverage.md) — research on how many words learners need and dictionary sizing
 - [Project Overview](../project/overview.md) — what the dictionary is and who it's for

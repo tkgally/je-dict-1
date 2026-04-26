@@ -1,6 +1,6 @@
 # Controlled Defining Vocabulary
 
-**Last updated**: 2026-04-25
+**Last updated**: 2026-04-26
 
 ## Overview
 
@@ -70,7 +70,7 @@ Bilingual learner dictionaries have less of a CDV tradition than monolingual one
 
 ## Defining vocabulary vs. tier system: je-dict-1's analogue
 
-je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 22,565) that plays a structurally similar role in two ways:
+je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 22,735) that plays a structurally similar role in two ways:
 
 1. **Self-containment**. The guideline that higher-tier entries' examples and notes should draw their Japanese vocabulary from the same tier or below (basic entries should use basic words; core entries should use core-or-below words) is the direct analogue of CDV discipline. It ensures that a learner who has mastered the basic tier can read any basic-tier entry end-to-end without a secondary lookup.
 
@@ -118,5 +118,6 @@ The pilot **expository articles** feature (see `ideas/expository-articles.md`) w
 - [Learner Lexicography](learner-lexicography.md) — the broader tradition of pedagogical dictionary design
 - [Definition and Gloss Strategies](definition-strategies.md) — equivalence types and gloss-writing techniques
 - [Vocabulary Acquisition](vocabulary-acquisition.md) — the receptive/productive thresholds that CDVs target
+- [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — the text coverage thresholds that CDVs target
 - [Corpus Linguistics](corpus-linguistics.md) — frequency-based word selection, which underlies all modern CDVs
 - [Entry Design](../project/entry-design.md) — the required-fields structure into which notes (and thus CDV-controlled prose) fit

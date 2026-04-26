@@ -49,4 +49,5 @@ The `prompts/corpus_harvesting.md` task processes corpus words into candidates, 
 
 - [Corpus Linguistics](../research/corpus-linguistics.md)
 - [Vocabulary Tier System](../project/vocabulary-tiers.md)
+- [Vocabulary Size and Text Coverage](../research/vocabulary-size-coverage.md) — the research on frequency-coverage thresholds that motivates prioritization
 - [Content Pipeline](../project/content-pipeline.md)
