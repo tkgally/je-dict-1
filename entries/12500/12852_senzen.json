@@ -19,7 +19,9 @@
       "english": "Prewar Japan was very different.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12852_senzen_ex2",
@@ -27,7 +29,9 @@
       "english": "This building was built before the war.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12852_senzen_ex3",
@@ -35,21 +39,35 @@
       "english": "There are major differences between the prewar and postwar education systems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nWhen used without qualification, {戦前|せんぜん} almost always refers to the period before World War II in Japan (before 1945). Used as a noun and as a modifier ({戦前|せんぜん}の). Often contrasted with {戦後|せんご} (postwar) and {戦中|せんちゅう} (wartime).\n\nCOMMON COLLOCATIONS:\n- {戦前|せんぜん}の{日本|にほん}: prewar Japan\n- {戦前|せんぜん}から: since before the war\n\nSIMILAR WORDS:\n- {戦後|せんご}: postwar (after the war)\n- {戦中|せんちゅう}: during the war, wartime",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12853_sengo",
+      "reading": "せんご",
+      "headword": "{戦後|せんご}",
+      "label": "postwar"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:59:10Z",
-    "modified": "2026-02-22T11:59:10Z",
+    "modified": "2026-04-27T09:13:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

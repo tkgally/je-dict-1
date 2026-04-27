@@ -19,7 +19,9 @@
       "english": "I received a homemade cake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12891_tesei_ex2",
@@ -27,7 +29,9 @@
       "english": "The scarf my grandmother made by hand is warm.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12891_tesei_ex3",
@@ -35,21 +39,36 @@
       "english": "This bag was finished one by one by hand by a craftsman.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFunctions as both a noun and a no-adjective. Carries a positive connotation of care and personal effort. Often used when describing gifts, food, or craft items made by a specific person. More formal than {手作|てづく}り, which is the more common everyday word for \"handmade.\"\n\nCOMMON COLLOCATIONS:\n- {手製|てせい}の〜: handmade ~\n- {手製|てせい}の{品|しな}: handmade item\n- {手製|てせい}の{菓子|かし}: handmade sweets\n\nSIMILAR WORDS:\n- {手作|てづく}り: handmade (more casual, everyday usage)\n- {自家製|じかせい}: homemade, house-made (often used for food products)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "08300_tezukuri",
+      "reading": "てづくり",
+      "headword": "{手作|てづく}り",
+      "label": "handmade (more common, everyday)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:20:34Z",
-    "modified": "2026-02-22T14:20:34Z",
+    "modified": "2026-04-27T09:13:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }

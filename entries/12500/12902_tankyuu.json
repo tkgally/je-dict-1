@@ -7,72 +7,6 @@
   "gloss": "quest, pursuit, inquiry",
   "conjugation": {
     "type": "suru",
-    "prefix": "{探求|たんきゅう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "quest, pursuit, inquiry",
-      "explanation": "The deep, sustained pursuit of truth, knowledge, or meaning. Implies intellectual or philosophical seeking, rather than a simple search for physical objects."
-    }
-  ],
-  "examples": [
-    {
-      "id": "12902_tankyuu_ex1",
-      "japanese": "{真理|しんり}を{探求|たんきゅう}する。",
-      "english": "To pursue the truth.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "12902_tankyuu_ex2",
-      "japanese": "{科学者|かがくしゃ}は{未知|みち}の{世界|せかい}を{探求|たんきゅう}し{続|つづ}けている。",
-      "english": "Scientists continue to explore the unknown world.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "12902_tankyuu_ex3",
-      "japanese": "{人生|じんせい}の{意味|いみ}を{探求|たんきゅう}することは、{古代|こだい}から{哲学|てつがく}の{中心的|ちゅうしんてき}なテーマであった。",
-      "english": "The quest for the meaning of life has been a central theme of philosophy since ancient times.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nUsed as both a noun and a suru verb. Carries an elevated, intellectual tone. The object of {探求|たんきゅう} is typically something abstract — truth, knowledge, beauty, meaning — rather than concrete things. Common in academic, philosophical, and literary writing.\n\nCOMMON COLLOCATIONS:\n- {真理|しんり}を{探求|たんきゅう}する: to pursue truth\n- {知識|ちしき}の{探求|たんきゅう}: pursuit of knowledge\n- {探求心|たんきゅうしん}: spirit of inquiry, intellectual curiosity\n\nSIMILAR WORDS:\n- {探索|たんさく}: search, exploration (more concrete, physical searching)\n- {追求|ついきゅう}: pursuit (of goals, ideals, profit — broader scope)\n- {研究|けんきゅう}: research (systematic, academic study)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-02-22T14:24:47Z",
-    "modified": "2026-03-29T03:07:35Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "cognition"
-      ],
-      "domain": [
-        "academic"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -160,5 +94,82 @@
         "negative": "{探求|たんきゅう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "quest, pursuit, inquiry",
+      "explanation": "The deep, sustained pursuit of truth, knowledge, or meaning. Implies intellectual or philosophical seeking, rather than a simple search for physical objects."
+    }
+  ],
+  "examples": [
+    {
+      "id": "12902_tankyuu_ex1",
+      "japanese": "{真理|しんり}を{探求|たんきゅう}する。",
+      "english": "To pursue the truth.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "12902_tankyuu_ex2",
+      "japanese": "{科学者|かがくしゃ}は{未知|みち}の{世界|せかい}を{探求|たんきゅう}し{続|つづ}けている。",
+      "english": "Scientists continue to explore the unknown world.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "12902_tankyuu_ex3",
+      "japanese": "{人生|じんせい}の{意味|いみ}を{探求|たんきゅう}することは、{古代|こだい}から{哲学|てつがく}の{中心的|ちゅうしんてき}なテーマであった。",
+      "english": "The quest for the meaning of life has been a central theme of philosophy since ancient times.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nUsed as both a noun and a suru verb. Carries an elevated, intellectual tone. The object of {探求|たんきゅう} is typically something abstract — truth, knowledge, beauty, meaning — rather than concrete things. Common in academic, philosophical, and literary writing.\n\nCOMMON COLLOCATIONS:\n- {真理|しんり}を{探求|たんきゅう}する: to pursue truth\n- {知識|ちしき}の{探求|たんきゅう}: pursuit of knowledge\n- {探求心|たんきゅうしん}: spirit of inquiry, intellectual curiosity\n\nSIMILAR WORDS:\n- {探索|たんさく}: search, exploration (more concrete, physical searching)\n- {追求|ついきゅう}: pursuit (of goals, ideals, profit — broader scope)\n- {研究|けんきゅう}: research (systematic, academic study)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "14401_tsuikyuu",
+      "reading": "ついきゅう",
+      "headword": "{追求|ついきゅう}",
+      "label": "pursuit, striving for"
+    },
+    {
+      "type": "synonym",
+      "target_id": "12919_tansaku",
+      "reading": "たんさく",
+      "headword": "{探索|たんさく}",
+      "label": "search, investigation"
+    }
+  ],
+  "metadata": {
+    "created": "2026-02-22T14:24:47Z",
+    "modified": "2026-04-27T09:13:01Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "cognition"
+      ],
+      "domain": [
+        "academic"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
