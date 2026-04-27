@@ -19,7 +19,9 @@
       "english": "I like mentaiko rice balls.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12729_mentaiko_ex2",
@@ -27,7 +29,9 @@
       "english": "Hakata is famous as the home of mentaiko.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12729_mentaiko_ex3",
@@ -35,20 +39,34 @@
       "english": "Mentaiko pasta is a popular dish originating in Japan, served at many restaurants.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{明太子|めんたいこ} specifically refers to spicy seasoned pollock roe. The unseasoned version is たらこ ({鱈子|たらこ}). The name comes from Korean: {明太|めんたい} is the Korean word for pollock (명태), and {子|こ} means roe. {博多|はかた} ({福岡|ふくおか}) is credited with popularizing the modern spicy version.\n\nCOMMON COLLOCATIONS:\n- {明太子|めんたいこ}おにぎり: mentaiko rice ball\n- {明太子|めんたいこ}パスタ: mentaiko pasta\n- {辛子|からし}{明太子|めんたいこ}: spicy mentaiko (formal/full name)\n- {博多|はかた}{明太子|めんたいこ}: Hakata mentaiko (brand origin)\n\nSIMILAR WORDS:\n- たらこ: unseasoned pollock roe (plain, salted)\n- {明太子|めんたいこ}: spicy seasoned pollock roe (chili-marinated)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15258_tarako",
+      "reading": "たらこ",
+      "headword": "たらこ",
+      "label": "plain pollock roe"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T06:26:47Z",
-    "modified": "2026-02-22T06:26:47Z",
+    "modified": "2026-04-27T07:31:57Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "Fine particles.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12690_bisai_ex2",
@@ -27,7 +29,9 @@
       "english": "To distinguish minute differences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12690_bisai_ex3",
@@ -35,23 +39,50 @@
       "english": "Microscopic structures invisible to the naked eye support the mechanisms of life.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMS:\n- Modifier: {微細|びさい}な\n- Adverbial: {微細|びさい}に\n\nUSAGE:\n{微細|びさい} is a formal, often technical or scientific word. It is frequently used in academic writing, manufacturing, and medicine to describe extremely small scales.\n\nCOMMON COLLOCATIONS:\n- {微細|びさい}な{粒子|りゅうし}: fine particles\n- {微細|びさい}な{構造|こうぞう}: fine structure, microstructure\n- {微細|びさい}な{変化|へんか}: minute changes\n- {微細|びさい}{加工|かこう}: microfabrication, micro-processing\n\nSIMILAR WORDS:\n- {微細|びさい}: minute, microscopic (technical, scientific)\n- {細|こま}かい: fine, detailed (everyday)\n- {微小|びしょう}: tiny, minuscule (emphasizes smallness)\n- {精密|せいみつ}: precise, fine (emphasizes precision)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01245_komakai",
+      "reading": "こまかい",
+      "headword": "{細|こま}かい",
+      "label": "fine, detailed (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "13775_seimitsu",
+      "reading": "せいみつ",
+      "headword": "{精密|せいみつ}",
+      "label": "precise, fine"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T05:53:15Z",
-    "modified": "2026-02-22T05:53:15Z",
+    "modified": "2026-04-27T07:31:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["size"],
-      "style": ["written"],
-      "domain": ["technical", "academic"]
+      "semantic": [
+        "size"
+      ],
+      "style": [
+        "written"
+      ],
+      "domain": [
+        "technical",
+        "academic"
+      ]
     }
   }
 }
