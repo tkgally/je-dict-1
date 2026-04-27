@@ -90,3 +90,4 @@ Many words have multiple accepted spellings:
 - [Japanese Counters and Classifiers](counters-classifiers.md) — the classifier system as a lexicographic challenge
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — sound symbolism and mimetics as a lexicographic challenge
 - [Word Formation and Morphology](word-formation.md) — compounding, derivation, and vocabulary strata
+- [Kanji Learning and Acquisition](kanji-learning.md) — L2 kanji acquisition, radical awareness, and dictionary lookup methods

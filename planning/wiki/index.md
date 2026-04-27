@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-27
 
 ## How this wiki is organized
 
@@ -45,6 +45,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Polysemy and Sense Discrimination](research/polysemy-sense-discrimination.md) — Sense division, ordering, and structure in learner dictionaries; models of polysemy; Japanese-specific challenges
 - [Grammar Information in Learner Dictionaries](research/grammar-in-dictionaries.md) — Grammar codes, natural-language patterns, valency, conjugation, and Japanese-specific grammatical challenges
 - [Multiword Expressions](research/multiword-expressions.md) — Taxonomy, dictionary placement, inclusion criteria, and Japanese-specific MWE challenges
+- [Kanji Learning and Acquisition](research/kanji-learning.md) — L2 kanji acquisition stages, radical awareness, multi-dimensional knowledge, L1 effects, and dictionary design implications
 
 ## Topics
 

@@ -152,6 +152,7 @@ Productive affixes and common compound-forming elements should be in the basic o
 - [Cross-Reference Design](../topics/cross-references.md) — linking morphologically related entries
 - [Entry Design](../project/entry-design.md) — what goes in each entry
 - [Multiword Expressions](multiword-expressions.md) — how multiword units relate to morphological boundaries
+- [Kanji Learning and Acquisition](kanji-learning.md) — morphological analysis of kanji compounds and L2 acquisition
 
 ## Sources
 

@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-27] maintenance | Kanji learning research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **kanji learning and acquisition** and created `research/kanji-learning.md`. Covers L2 kanji acquisition stages and radical awareness development (Koda 1988/1992, Toyoda); individual differences in kanji learning strategies (Mori 1998/2003/2007, Mori & Nagy 1999); the multi-dimensional model of kanji abilities — reading, writing, semantic comprehension (Tamaoka et al. 2020/2021 *Scientific Reports*, N=33,659); Heisig's building-block mnemonic approach vs. frequency-based ordering; L1 effects comparing Chinese-background (logographic transfer, false friends like 手紙/娘/湯) and non-kanji-background learners (Chikamatsu 2006, Gamage 2003); dictionary lookup methods including radical indexing, Halpern's SKIP system, and Breen's (2004) electronic multi-indexing with 20+ simultaneous access methods; the "core meaning" concept from the Kodansha Kanji Learner's Dictionary; furigana as scaffolding (Abraham 2008 on glossing effects); and detailed implications for je-dict-1 including five improvement areas (furigana toggle, kanji-level frequency info, radical/component display, Chinese-Japanese false friend notes, core meaning in kanji index). Cited Breen 2004, Chikamatsu 1996/2006, Gamage 2003, Halpern, Heisig, Koda 1988, Mori 1998/2003/2007, Mori & Nagy 1999, Rose 2017, Tamaoka et al. 2020/2021, Toyoda.
+- [A] Updated entry counts across 8 wiki pages to reflect 2026-04-27 `report.py` output (25,173 entries / 22,390 general / 10,512 cross-references / 101,214 examples / 2,400 candidates / 44.4% symmetry / 4,859 asymmetric refs / 2,847 entries with inline links at 11.3%). Noted the **significant cross-reference surge** (+1,099 in one week from systematic add_cross-references sessions covering entries 10461-11370); cross-ref density rose from 0.38 to 0.42 per entry. Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`.
+- [E] Ran cross-reference link checker across all wiki pages (400 internal links checked, 0 broken; 0 orphan pages). Added the new kanji learning page to `index.md` and as a related page on `topics/furigana-strategy.md`, `research/japanese-lexicography.md`, `research/vocabulary-acquisition.md`, `research/digital-dictionary-ux.md`, `research/dictionary-lookup-behavior.md`, and `research/word-formation.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-23] maintenance | Multiword expressions research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

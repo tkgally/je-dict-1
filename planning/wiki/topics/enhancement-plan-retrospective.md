@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-27
 
 ## Overview
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-23 (24,908 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-27 (25,173 entries):
 
-| Metric | Plan target | 2026-04-23 | Notes |
+| Metric | Plan target | 2026-04-27 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | ~34% | 4,232 verbs still missing; transitivity queue 12.0% processed |
+| Verbs with transitivity | 100% | ~33.2% | 4,334 verbs still missing; transitivity queue 11.8% processed |
 | Entries with note score ≥ 60 | 80% | ~83% | Target reached |
-| Cross-reference symmetry | 98% | 45.3% | 4,280 asymmetric references; largest remaining gap |
-| Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.3% | Still slow-moving |
-| Multi-model review coverage | 100% (furigana) | queue depth 5,545 | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **100,247 total examples** |
-| Cross-references per entry | ≥ 0.5 | 0.38 | Rising steadily from 0.32 in mid-April |
+| Cross-reference symmetry | 98% | 44.4% | 4,859 asymmetric references; largest remaining gap |
+| Verbs with ている docs | 80% (of those needing it) | aspect-notes queue at 9.1% | Still slow-moving |
+| Multi-model review coverage | 100% (furigana) | queue depth 7,166 | Queue growing as entries outpace review |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **101,214 total examples** |
+| Cross-references per entry | ≥ 0.5 | 0.42 | Rising steadily; 10,512 total cross-refs |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples — the dictionary crossed the **100,000 example sentence milestone** on 2026-04-23). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density continues improving** (0.38 per entry, up from 0.32 two weeks ago) as the dictionary added ~1,400 entries with cross-references since mid-April. Total cross-references have reached 9,413. Asymmetric pairs stand at 4,280, and the review queue has grown to 5,545 as new entries outpace review throughput.
+Two targets remain met (note quality, examples). **Cross-reference density jumped significantly** to 0.42 per entry (up from 0.38 on April 23) thanks to systematic cross-reference addition sessions covering entries 10461-11370 — adding over 1,000 new cross-references in a week. However, symmetry rate dipped slightly to 44.4% (from 45.3%) as many of the new references are one-directional. The multi-model review queue has grown to 7,166, up from 5,545, as new entries outpace review throughput. Three metrics remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work.
 
 ## Implications for future maintenance sessions
 

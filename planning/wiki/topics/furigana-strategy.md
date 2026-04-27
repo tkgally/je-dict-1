@@ -45,3 +45,4 @@ Some dictionaries only annotate "difficult" kanji, but:
 
 - [Entry Design](../project/entry-design.md)
 - [Japanese Lexicography](../research/japanese-lexicography.md)
+- [Kanji Learning and Acquisition](../research/kanji-learning.md) — research on how furigana supports kanji acquisition
