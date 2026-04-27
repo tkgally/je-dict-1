@@ -24,7 +24,9 @@
       "english": "The submission deadline is Friday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12861_kigen_ex2",
@@ -32,7 +34,9 @@
       "english": "Please submit the documents by the deadline.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12861_kigen_ex3",
@@ -40,7 +44,9 @@
       "english": "The application deadline has passed, so there is no choice but to wait until next year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12861_kigen_ex4",
@@ -48,7 +54,9 @@
       "english": "This milk is past its expiration date.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12861_kigen_ex5",
@@ -56,7 +64,9 @@
       "english": "Please check the expiration date of your passport.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "12861_kigen_ex6",
@@ -64,21 +74,42 @@
       "english": "Products nearing their best-before date are often discounted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nA versatile noun used in both administrative and everyday contexts. As a deadline (sense 1), it pairs with {提出|ていしゅつ} (submission), {申|もう}し{込|こ}み (application), and {支払|しはら}い (payment). As an expiration date (sense 2), it pairs with {賞味|しょうみ} (best-before), {消費|しょうひ} (use-by), and {有効|ゆうこう} (validity).\n\nCOMMON COLLOCATIONS:\n- {期限|きげん}を{守|まも}る: to meet a deadline\n- {期限|きげん}が{切|き}れる: to expire\n- {期限|きげん}を{延長|えんちょう}する: to extend a deadline\n- {有効|ゆうこう}{期限|きげん}: validity period, expiration date\n- {賞味|しょうみ}{期限|きげん}: best-before date\n- {提出|ていしゅつ}{期限|きげん}: submission deadline\n\nSIMILAR WORDS:\n- {締|し}め{切|き}り: deadline (more casual, used for work and projects)\n- {納期|のうき}: delivery deadline (business term)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "04162_shimekiri",
+      "reading": "しめきり",
+      "headword": "{締|し}め{切|き}り",
+      "label": "deadline (more colloquial)"
+    },
+    {
+      "type": "related",
+      "target_id": "00229_kikan",
+      "reading": "きかん",
+      "headword": "{期間|きかん}",
+      "label": "period, duration"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T12:38:37Z",
-    "modified": "2026-02-22T12:38:37Z",
+    "modified": "2026-04-27T09:13:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "I recall it from time to time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12809_oriori_ex2",
@@ -27,7 +29,9 @@
       "english": "To enjoy the flowers of each season.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12809_oriori_ex3",
@@ -35,22 +39,46 @@
       "english": "From time to time, my teacher's words come to mind.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{折々|おりおり} is a somewhat literary or refined expression compared to the more colloquial ときどき. It is often used in writing and formal speech. The expression {季節|きせつ}{折々|おりおり} (\"of each season\") and {折々|おりおり}に{触|ふ}れて (\"on various occasions\") are set phrases.\n\nAlso written as {折|おり}{折|おり} or おりおり.\n\nCOMMON COLLOCATIONS:\n- {折々|おりおり}に{触|ふ}れて: on various occasions, whenever the opportunity arises\n- {季節|きせつ}{折々|おりおり}: of each season, seasonal\n- {四季|しき}{折々|おりおり}: of each of the four seasons",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00600_tokidoki",
+      "reading": "ときどき",
+      "headword": "{時々|ときどき}",
+      "label": "more colloquial"
+    },
+    {
+      "type": "synonym",
+      "target_id": "01276_tamani",
+      "reading": "たまに",
+      "headword": "たまに",
+      "label": "less frequent nuance"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T11:05:33Z",
-    "modified": "2026-02-22T11:05:33Z",
+    "modified": "2026-04-27T09:13:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time-general"],
-      "style": ["written", "literary"]
+      "semantic": [
+        "time-general"
+      ],
+      "style": [
+        "written",
+        "literary"
+      ]
     }
   }
 }

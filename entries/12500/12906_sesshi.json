@@ -19,7 +19,9 @@
       "english": "Today's temperature is 30 degrees Celsius.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12906_sesshi_ex2",
@@ -27,7 +29,9 @@
       "english": "Water boils at 100 degrees Celsius.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12906_sesshi_ex3",
@@ -35,22 +39,37 @@
       "english": "Fahrenheit is used in America, but Celsius is the standard in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nNamed after the Chinese transliteration of Anders Celsius ({摂爾修斯|セルシウス}). In everyday Japanese, temperatures are almost always given in Celsius without explicitly saying {摂氏|せっし} — people simply say 30{度|ど} (30 degrees). The word {摂氏|せっし} is used when explicitly distinguishing from Fahrenheit or in scientific contexts.\n\nCOMMON COLLOCATIONS:\n- {摂氏|せっし}〜{度|ど}: ~ degrees Celsius\n- {摂氏|せっし}{温度|おんど}: Celsius temperature\n\nSIMILAR WORDS:\n- {華氏|かし}: Fahrenheit (the counterpart scale used in the US)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "かし",
+      "headword": "{華氏|かし}",
+      "label": "Fahrenheit"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T14:26:21Z",
-    "modified": "2026-02-22T14:26:21Z",
+    "modified": "2026-04-27T09:13:01Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["academic"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }
