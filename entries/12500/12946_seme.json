@@ -19,7 +19,9 @@
       "english": "To switch to offense.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12946_seme_ex2",
@@ -27,7 +29,9 @@
       "english": "This team's offense is strong, but their defense has issues.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12946_seme_ex3",
@@ -35,21 +39,49 @@
       "english": "They overwhelmed the opponent with a furious offensive and seized victory.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe noun form derived from the verb {攻|せ}める (to attack). Often contrasted with {守|まも}り (defense). Very common in sports commentary, board game discussion (especially {将棋|しょうぎ} and {囲碁|いご}), and business strategy.\n\nCOMMON COLLOCATIONS:\n- {攻|せ}めに{転|てん}じる: to go on the offensive\n- {攻|せ}めが{強|つよ}い: strong on offense\n- {攻|せ}めと{守|まも}り: offense and defense\n- {攻|せ}めの{姿勢|しせい}: offensive stance/attitude\n- {攻|せ}めの{経営|けいえい}: aggressive management",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02123_semeru",
+      "reading": "せめる",
+      "headword": "{攻|せ}める",
+      "label": "to attack (verb)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "12250_mamori",
+      "reading": "まもり",
+      "headword": "{守|まも}り",
+      "label": "defense"
+    },
+    {
+      "type": "related",
+      "target_id": "02748_kougeki",
+      "reading": "こうげき",
+      "headword": "{攻撃|こうげき}",
+      "label": "attack (formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:07:35Z",
-    "modified": "2026-02-22T23:07:35Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }

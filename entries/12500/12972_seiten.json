@@ -19,7 +19,9 @@
       "english": "The forecast for tomorrow is clear skies.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12972_seiten_ex2",
@@ -27,7 +29,9 @@
       "english": "Blessed with fine weather, the sports day was held as planned.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12972_seiten_ex3",
@@ -35,21 +39,35 @@
       "english": "Thanks to three consecutive days of fine weather, the laundry dried well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore formal and literary than {晴|は}れ (clear weather, everyday). Common in weather forecasts, written descriptions, and the well-known proverb {青天|せいてん}の{霹靂|へきれき} (a bolt from the blue — note: this uses the kanji {青|せい}, not {晴|せい}). {晴天|せいてん} is a noun and does not inflect.\n\nCOMMON COLLOCATIONS:\n- {晴天|せいてん}に{恵|めぐ}まれる: to be blessed with fine weather\n- {晴天|せいてん}が{続|つづ}く: fine weather continues\n- {晴天|せいてん}の{日|ひ}: a clear day\n\nSIMILAR WORDS:\n- {晴|は}れ: clear weather (everyday, also used in forecasts)\n- {快晴|かいせい}: perfectly clear sky (no clouds at all)\n- {好天|こうてん}: good weather (formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "15325_uten",
+      "reading": "うてん",
+      "headword": "{雨天|うてん}",
+      "label": "rainy weather"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:44:56Z",
-    "modified": "2026-02-22T23:44:56Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }

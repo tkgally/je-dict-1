@@ -19,7 +19,9 @@
       "english": "A fierce battle of offense and defense continued.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12925_koubou_ex2",
@@ -27,7 +29,9 @@
       "english": "The back-and-forth between the two teams was exciting to watch.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12925_koubou_ex3",
@@ -35,7 +39,9 @@
       "english": "The daily clash between the ruling and opposition parties in parliament is being reported on.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {攻|こう} (offense) and {防|ぼう} (defense). Frequently used in sports commentary to describe an exciting exchange between competing sides. Also common in political and military reporting.\n\nCOMMON COLLOCATIONS:\n- {攻防|こうぼう}{戦|せん}: battle, offensive-defensive engagement\n- {激|はげ}しい{攻防|こうぼう}: fierce exchange of offense and defense\n- {攻防|こうぼう}を{繰|く}り{広|ひろ}げる: to wage a battle of offense and defense\n\nHOMOPHONE NOTE:\nNot to be confused with {工房|こうぼう} (workshop, studio) or {興亡|こうぼう} (rise and fall), which share the same reading.",
@@ -46,18 +52,43 @@
       "headword": "{工房|こうぼう}",
       "target_id": "12418_koubou",
       "label": "workshop, studio"
+    },
+    {
+      "type": "related",
+      "target_id": "02748_kougeki",
+      "reading": "こうげき",
+      "headword": "{攻撃|こうげき}",
+      "label": "attack"
+    },
+    {
+      "type": "related",
+      "target_id": "14575_bougyo",
+      "reading": "ぼうぎょ",
+      "headword": "{防御|ぼうぎょ}",
+      "label": "defense"
+    },
+    {
+      "type": "homophone",
+      "target_id": "05568_koubou",
+      "reading": "こうぼう",
+      "headword": "{興亡|こうぼう}",
+      "label": "rise and fall"
     }
   ],
   "metadata": {
     "created": "2026-02-22T22:58:41Z",
-    "modified": "2026-02-22T22:58:41Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action"]
+      "semantic": [
+        "action"
+      ]
     }
   }
 }
