@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-27 (Vocabulary Expansion - 20 New Entries, Batch 50)
+Added 20 new dictionary entries (IDs 25756-25775) from candidate_words.json. Mixed batch covering language/culture, daily life, food, society/law, and military/politics.
+
+- **Na-adjectives (2)**: {幻想的|げんそうてき} (fantastical), {依存的|いそんてき} (dependent)
+- **Food (2)**: コーヒー{豆|まめ} (coffee beans), カスタード (custard)
+- **Culture/language (3)**: {筆記体|ひっきたい} (cursive script), ヒット{曲|きょく} (hit song), {全集中|ぜんしゅうちゅう} (full concentration)
+- **Society/law (4)**: {死亡届|しぼうとどけ} (death notification), {売春|ばいしゅん} (prostitution), {災害対策|さいがいたいさく} (disaster measures), {駐留|ちゅうりゅう}する (to station troops)
+- **Daily life (4)**: {近日中|きんじつちゅう} (in the near future), {破|やぶ}れ (tear/rip), {整体院|せいたいいん} (bodywork clinic), {旅行客|りょこうきゃく} (traveler)
+- **Other (5)**: {弾力性|だんりょくせい} (elasticity), {年月日|ねんがっぴ} (date), {燕尾服|えんびふく} (tailcoat), {弾丸列車|だんがんれっしゃ} (bullet train), {猿山|さるやま} (monkey hill)
+- Conjugation table auto-generated for 1 suru verb entry
+- 20 candidates synced from candidate list
+
+Total entries: 25,548 → 25,568.
+
 ### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 49)
 Added 30 new dictionary entries (IDs 25726-25755) from candidate_words.json. Mixed batch covering daily life, culture, sports, household items, clothing, and practical vocabulary.
 
@@ -105,47 +119,5 @@ Added 20 new dictionary entries (IDs 25646-25665) from candidate_words.json. Mix
 - 20 candidates synced from candidate list
 
 Total entries: 25,438 → 25,458.
-
-### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 45)
-Added 30 new dictionary entries (IDs 25616-25645) from candidate_words.json. Diverse batch covering education, business, food, daily life, culture, and expressions useful for intermediate learners.
-
-- **Nouns (18)**: {吟醸|ぎんじょう} (ginjo sake), {体験談|たいけんだん} (personal experience story), {業務連絡|ぎょうむれんらく} (business notice), {自己都合|じこつごう} (personal reasons), {時間管理|じかんかんり} (time management), {食品添加物|しょくひんてんかぶつ} (food additive), {料理店|りょうりてん} (restaurant), {交替勤務|こうたいきんむ} (shift work), {勤続年数|きんぞくねんすう} (years of service), {落書|らくが}き{帳|ちょう} (doodle notebook), {備蓄品|びちくひん} (emergency supplies), {悪戯好|いたずらず}き (prankster), {使|つか}い (errand/messenger), {単語力|たんごりょく} (vocabulary ability), {電動工具|でんどうこうぐ} (power tool), {敗者復活戦|はいしゃふっかつせん} (repechage), {水彩絵具|すいさいえのぐ} (watercolor paint), {平方根|へいほうこん} (square root)
-- **Academic disciplines (3)**: {地理学|ちりがく} (geography), {気象学|きしょうがく} (meteorology), {地質学|ちしつがく} (geology)
-- **Na-adjective (1)**: {無感情|むかんじょう} (emotionless)
-- **Adjective-no (1)**: {���身|なまみ}の (flesh-and-blood)
-- **Expressions (4)**: {一夜漬|いちやづ}け (cramming/overnight pickling), {仲|なか}が{悪|わる}い (on bad terms), {小言|こごと}を{言|い}う (to nag), {避|さ}けられない (unavoidable)
-- **Other (3)**: {走馬灯|そうまとう}のよう (life flashing before eyes), {平和活動|へいわかつどう} (peace activities), {一緒|いっしょ}に (together)
-- 30 candidates synced from candidate list
-
-Total entries: 25,408 → 25,438.
-
-### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 44)
-Added 30 new dictionary entries (IDs 25586-25615) from candidate_words.json. Diverse batch covering verbs, adjectives, nouns, expressions, and a pronoun across daily life, culture, business, health, nature, and more.
-
-- **Verbs (1)**: {形作|かたちづく}る (to form/shape)
-- **Suru verbs (3)**: {予約確認|よやくかくにん}する (reservation confirmation), {予約変更|よやくへんこう}する (reservation change), {詐称|さしょう}する (to misrepresent)
-- **Na-adjective (1)**: {自動的|じどうてき} (automatic)
-- **I-adjective (1)**: {薄明|うすあか}るい (dimly lit)
-- **Pronoun (1)**: {誰|だれ}しも (everyone/anybody)
-- **Nouns (17)**: {優|やさ}しさ (kindness), {韓国料理|かんこくりょうり} (Korean cuisine), ジュエリー (jewelry), {午前零時|ごぜんれいじ} (midnight), {反射神経|はんしゃしんけい} (reflexes), {鏡開|かがみびら}き (New Year mochi/sake barrel opening), {競合他社|きょうごうたしゃ} (competitor), {決定要素|けっていようそ} (decisive factor), {省資源|しょうしげん} (resource conservation), {探検者|たんけんしゃ} (explorer), {麻酔薬|ますいやく} (anesthetic), {帽子屋|ぼうしや} (hat shop), {落成式|らくせいしき} (completion ceremony), {薄明|はくめい} (twilight), {伝道師|でんどうし} (evangelist/missionary), {評伝|ひょうでん} (critical biography), {神域|しんいき} (sacred precinct), {農閑期|のうかんき} (farming off-season), {鏡面|きょうめん} (mirror surface), {警部補|けいぶほ} (assistant inspector)
-- **Expressions (4)**: くしゃみが{出|で}る (to sneeze), {心|こころ}が{狭|せま}い (narrow-minded), {価値|かち}ある (valuable/worthy)
-- Conjugation tables auto-generated for 4 verb entries (1 godan, 3 suru) and 1 i-adjective
-- 30 candidates synced from candidate list
-
-Total entries: 25,378 → 25,408.
-
-### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 43)
-Added 30 new dictionary entries (IDs 25556-25585) from candidate_words.json. Diverse batch covering adjectives, adverbs, expressions, nouns, and a verb across emotions, weather, sports, media, food, and daily life.
-
-- **Na-adjectives (4)**: {残酷|ざんこく}な (cruel), {悲惨|ひさん}な (tragic), {哀|あわ}れな (pitiful/poignant), {緊密|きんみつ}な (close/tight)
-- **Nouns (15)**: {屈伸|くっしん} (bending and stretching), {発表者|はっぴょうしゃ} (presenter), {降水確率|こうすいかくりつ} (chance of rain), {初婚|しょこん} (first marriage), さやえんどう (snow pea), {山野|さんや} (mountains and fields), {投稿欄|とうこうらん} (letters column), {気象予報|きしょうよほう} (weather forecast), {水風船|みずふうせん} (water balloon), {得点者|とくてんしゃ} (scorer), {先取点|せんしゅてん} (opening goal), {抜|ぬ}き{書|が}き (excerpt), {再婚者|さいこんしゃ} (remarried person), {投稿記事|とうこうきじ} (submitted article), {名人芸|めいじんげい} (masterful skill)
-- **Nouns cont'd (5)**: {学徒|がくと} (student/scholar), {細口|ほそぐち} (narrow opening), ご{機嫌|きげん} (mood/good spirits), {事前準備|じぜんじゅんび} (advance preparation), {開店準備|かいてんじゅんび} (preparation for opening), {準備完了|じゅんびかんりょう} (preparation complete)
-- **Verb (1)**: {紐付|ひもづ}ける (to link/associate)
-- **Adverbs (2)**: {婉曲|えんきょく}に (indirectly/euphemistically), {偶然|ぐうぜん}に (by chance)
-- **Expressions (2)**: {胸|むね}が{痛|いた}む (to feel heartache), {仲良|なかよ}くする (to get along well)
-- Conjugation tables auto-generated for 5 verb entries (1 ichidan, 4 suru)
-- 30 candidates synced from candidate list
-
-Total entries: 25,348 → 25,378.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
