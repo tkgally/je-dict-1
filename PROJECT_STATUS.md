@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 49)
+Added 30 new dictionary entries (IDs 25726-25755) from candidate_words.json. Mixed batch covering daily life, culture, sports, household items, clothing, and practical vocabulary.
+
+- **Household/clothing (5)**: {衣装棚|いしょうだな} (wardrobe), ハンガーラック (clothes rack), フード{付|つ}き (hooded), {防寒服|ぼうかんふく} (cold-weather clothing), {夜着|よぎ} (padded sleeping kimono)
+- **Sports/leisure (4)**: {攻守交代|こうしゅこうたい} (change of sides), {判定|はんてい}ミス (bad call), スケート{場|じょう} (skating rink), アイススケート (ice skating)
+- **Tools/technology (4)**: カッターナイフ (utility knife), {開閉|かいへい}ボタン (open/close button), {活動量計|かつどうりょうけい} (activity tracker), {回転灯|かいてんとう} (rotating light)
+- **Culture (3)**: {前厄|まえやく} (pre-calamity year), {後厄|あとやく} (post-calamity year), {休耕田|きゅうこうでん} (fallow rice field)
+- **Academic/news (4)**: {学会誌|がっかいし} (academic journal), {防衛力|ぼうえいりょく} (defensive capability), {防御線|ぼうぎょせん} (line of defense), {副専攻|ふくせんこう} (academic minor)
+- **General (10)**: {怖|こわ}がらせる (to frighten), {一部分|いちぶぶん} (a part), {反応的|はんのうてき} (reactive), {密集地|みっしゅうち} (densely populated area), {旅行鞄|りょこうかばん} (travel bag), ミラー (mirror), ニキビ{跡|あと} (acne scar), インソール (insole), {財布入|さいふい}れ (wallet case), {糸巻|いとま}き (spool)
+- Conjugation tables auto-generated for 2 verb entries (1 ichidan, 1 suru)
+- 1 new kanji (鞄) assigned to kanji index
+- 30 candidates synced from candidate list
+
+Total entries: 25,518 → 25,548.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 48)
 Added 30 new dictionary entries (IDs 25696-25725) from candidate_words.json. Mixed batch covering business, culture, daily life, science, expressions, and social topics.
 
@@ -132,15 +147,5 @@ Added 30 new dictionary entries (IDs 25556-25585) from candidate_words.json. Div
 - 30 candidates synced from candidate list
 
 Total entries: 25,348 → 25,378.
-
-### 2026-04-25 (Vocabulary Expansion - 30 New Entries, Batch 42)
-Added 30 new dictionary entries (IDs 25526-25555) from candidate_words.json. Focused on common suru verbs across diverse semantic domains, plus one na-adjective.
-
-- **Suru verbs (29)**: {計算|けいさん}する (to calculate), {修正|しゅうせい}する (to correct/revise), {完成|かんせい}する (to complete), {発生|はっせい}する (to occur), {注目|ちゅうもく}する (to pay attention), {処理|しょり}する (to handle/process), {再開|さいかい}する (to resume), {要求|ようきゅう}する (to demand), {支援|しえん}する (to support), {制作|せいさく}する (to produce/create), {保管|ほかん}する (to store), {廃棄|はいき}する (to discard), {隔離|かくり}する (to isolate), {切断|せつだん}する (to cut off), {作用|さよう}する (to act on), {配分|はいぶん}する (to allocate), {変装|へんそう}する (to disguise), {改心|かいしん}する (to reform), {値|あたい}する (to deserve), {洗練|せんれん}する (to refine), {類似|るいじ}する (to be similar), {得点|とくてん}する (to score), {適合|てきごう}する (to conform), {奔走|ほんそう}する (to hustle), {完食|かんしょく}する (to finish eating), {多様化|たようか}する (to diversify), {撲滅|ぼくめつ}する (to eradicate), {消火|しょうか}する (to extinguish), {融解|ゆうかい}する (to melt)
-- **Na-adjective (1)**: {巨大|きょだい}な (huge/gigantic)
-- Conjugation tables auto-generated for all 29 suru verb entries
-- 30 candidates synced from candidate list
-
-Total entries: 25,318 → 25,348.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
