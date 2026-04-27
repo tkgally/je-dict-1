@@ -6,8 +6,93 @@
   "gloss": "to poke, to thrust, to prop",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "{突|つ}"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{突|つ}く",
+        "negative": "{突|つ}かない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{突|つ}きます",
+        "negative": "{突|つ}きません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{突|つ}いた",
+        "negative": "{突|つ}かなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{突|つ}きました",
+        "negative": "{突|つ}きませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{突|つ}いて",
+        "negative": "{突|つ}かなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{突|つ}いている",
+        "negative": "{突|つ}いていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{突|つ}いています",
+        "negative": "{突|つ}いていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{突|つ}いていた",
+        "negative": "{突|つ}いていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{突|つ}いていました",
+        "negative": "{突|つ}いていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{突|つ}けば",
+        "negative": "{突|つ}かなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{突|つ}いたら",
+        "negative": "{突|つ}かなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{突|つ}こう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{突|つ}きましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{突|つ}ける",
+        "negative": "{突|つ}けない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{突|つ}かれる",
+        "negative": "{突|つ}かれない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{突|つ}かせる",
+        "negative": "{突|つ}かせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{突|つ}け",
+        "negative": "{突|つ}くな"
+      }
+    ]
   },
   "schema_version": "2.0",
   "definitions": [
@@ -100,7 +185,7 @@
   ],
   "metadata": {
     "created": "2026-02-22T06:51:21Z",
-    "modified": "2026-03-29T03:07:35Z",
+    "modified": "2026-04-27T07:31:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
@@ -135,95 +220,5 @@
       "headword": "{着|つ}く",
       "note": "arrive"
     }
-  ],
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{突|つ}く",
-        "negative": "{突|つ}かない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{突|つ}きます",
-        "negative": "{突|つ}きません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{突|つ}いた",
-        "negative": "{突|つ}かなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{突|つ}きました",
-        "negative": "{突|つ}きませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{突|つ}いて",
-        "negative": "{突|つ}かなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{突|つ}いている",
-        "negative": "{突|つ}いていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{突|つ}いています",
-        "negative": "{突|つ}いていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{突|つ}いていた",
-        "negative": "{突|つ}いていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{突|つ}いていました",
-        "negative": "{突|つ}いていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{突|つ}けば",
-        "negative": "{突|つ}かなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{突|つ}いたら",
-        "negative": "{突|つ}かなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{突|つ}こう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{突|つ}きましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{突|つ}ける",
-        "negative": "{突|つ}けない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{突|つ}かれる",
-        "negative": "{突|つ}かれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{突|つ}かせる",
-        "negative": "{突|つ}かせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{突|つ}け",
-        "negative": "{突|つ}くな"
-      }
-    ]
-  }
+  ]
 }
