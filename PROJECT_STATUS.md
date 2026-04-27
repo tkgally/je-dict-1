@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-27 (Vocabulary Expansion - 25 New Entries, Batch 51)
+Added 25 new dictionary entries (IDs 25776-25800) from candidate_words.json. Diverse batch covering cultural vocabulary, everyday expressions, academic terms, and practical nouns.
+
+- **Expressions (5)**: {返答|へんとう}に{困|こま}る (at a loss for an answer), {工夫|くふう}を{重|かさ}ねる (make repeated efforts), {迎|むか}えに{行|い}く (go pick someone up), {紙一重|かみひとえ}の{差|さ} (paper-thin difference), {踏|ふ}み{台|だい}にする (use as a stepping stone)
+- **Cultural (3)**: {出世魚|しゅっせうお} (fish with growth-stage names), {謎|なぞ}かけ (riddle/wordplay), {参上|さんじょう}する (arrive, humble/dramatic)
+- **Academic/statistics (3)**: {中央値|ちゅうおうち} (median), {最高点|さいこうてん} (highest score), {最低点|さいていてん} (lowest score)
+- **Personality/evaluation (3)**: {勝手|かって}{気|き}まま (selfish/self-indulgent), {分不相応|ぶんふそうおう} (beyond one's means), {裏切|うらぎ}り{者|もの} (traitor)
+- **Nouns (8)**: {遅咲|おそざ}き (late bloomer), {錯乱|さくらん} (derangement), {慣用語|かんようご} (idiom), {一人客|ひとりきゃく} (solo customer), {割引|わりびき}{価格|かかく} (discounted price), {飲食品|いんしょくひん} (food and drink), {略装|りゃくそう} (informal dress), {宿代|やどだい} (lodging fee)
+- **Other (3)**: {意識|いしき}{喪失|そうしつ} (loss of consciousness), {資源国|しげんこく} (resource-rich country), {本流|ほんりゅう} (mainstream)
+- Conjugation tables auto-generated for 2 suru verb entries
+- Removed 20 stale candidates (duplicates of existing entries)
+- 24 candidates synced from candidate list
+
+Total entries: 25,568 → 25,593.
+
 ### 2026-04-27 (Vocabulary Expansion - 20 New Entries, Batch 50)
 Added 20 new dictionary entries (IDs 25756-25775) from candidate_words.json. Mixed batch covering language/culture, daily life, food, society/law, and military/politics.
 
@@ -105,19 +120,5 @@ Added 30 new dictionary entries (IDs 25666-25695) from candidate_words.json. Pra
 - 30 candidates synced from candidate list
 
 Total entries: 25,458 → 25,488.
-
-### 2026-04-26 (Vocabulary Expansion - 20 New Entries, Batch 46)
-Added 20 new dictionary entries (IDs 25646-25665) from candidate_words.json. Mixed batch covering Japanese culture, everyday expressions, business/economics, food/drink, sports, and daily life.
-
-- **Cultural (3)**: {天下|あまくだ}り (amakudari - bureaucratic parachuting), {純米酒|じゅんまいしゅ} (pure rice sake), {大吟醸|だいぎんじょう} (premium ginjo sake)
-- **Expressions (3)**: {目|め}を{合|あ}わせる (to make eye contact), {好|す}き{放題|ほうだい} (doing as one pleases), そのままにする (to leave as is)
-- **Business/Economics (4)**: {銀行|ぎんこう}{振込|ふりこみ} (bank transfer), {占有率|せんゆうりつ} (market share), {輸出国|ゆしゅつこく} (exporting country), {輸入国|ゆにゅうこく} (importing country)
-- **Nouns (6)**: {準々決勝|じゅんじゅんけっしょう} (quarterfinal), {猿芝居|さるしばい} (transparent sham), {工場長|こうじょうちょう} (factory manager), {肉片|にくへん} (piece of meat), {中米|ちゅうべい} (Central America), {拭|ふ}き{取|と}り (wiping off)
-- **Verb (1)**: {苛立|いらだ}たせる (to irritate)
-- **Other (3)**: {遊歩|ゆうほ} (strolling), ポロシャツ (polo shirt), {満々|まんまん} (brimming with)
-- Conjugation tables auto-generated for 4 verb entries (2 ichidan, 2 suru)
-- 20 candidates synced from candidate list
-
-Total entries: 25,438 → 25,458.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
