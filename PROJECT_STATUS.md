@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-27 (Vocabulary Expansion - 28 New Entries, Batch 53)
+Added 28 new dictionary entries (IDs 25831-25858) from candidate_words.json. Focused batch of expressions, verbs, and cultural vocabulary useful for intermediate learners.
+
+- **Social expressions (8)**: {気|き}を{遣|つか}う (to be considerate), {席|せき}を{外|はず}す (to step away), {顔|かお}を{立|た}てる (to save face), {恩|おん}を{売|う}る (to put someone in one's debt), {手|て}を{借|か}りる (to get help), {当|あ}てにする (to count on), {気|き}が{済|す}む (to be satisfied), お{茶|ちゃ}を{濁|にご}す (to be evasive)
+- **Verbs (5)**: {引|ひ}き{戻|もど}す (to pull back), おもねる (to flatter), {思|おも}いやる (to empathize), しくじる (to fail/blunder), あやかる (to share in good fortune)
+- **Expressions/adverbs (7)**: {思|おも}い{通|どお}り (as one wishes), {思|おも}うがまま (as one pleases), いかにして (how; by what means), たかが (merely; at most), そぐわない (to not suit), {腑|ふ}に{落|お}ちない (to not make sense), {身|み}を{乗|の}り{出|だ}す (to lean forward eagerly)
+- **Cultural (3)**: {心|こころ}を{無|む}にする (to clear one's mind), {物心|ものごころ}つく (to reach age of awareness), {故郷|こきょう}を{離|はな}れる (to leave hometown)
+- **Nouns (3)**: {滞留|たいりゅう} (stagnation/lingering), {傍点|ぼうてん} (emphasis dots), {目障|めざわ}り (eyesore)
+- **Other (2)**: ぐずぐずする (to dawdle), {頭|あたま}を{柔|やわ}らかくする (to think flexibly)
+- Conjugation tables auto-generated for 7 verb entries (5 godan, 2 suru)
+- Removed 1 stale candidate (残存/ざんそん, variant of existing ざんぞん entry)
+- 11 candidates synced from candidate list
+
+Total entries: 25,623 → 25,651.
+
 ### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 52)
 Added 30 new dictionary entries (IDs 25801-25830) from candidate_words.json. Diverse batch covering everyday expressions, postal/legal terminology, cultural vocabulary, and practical nouns.
 
