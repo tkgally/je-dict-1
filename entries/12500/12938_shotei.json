@@ -19,7 +19,9 @@
       "english": "Please fill in the designated form.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12938_shotei_ex2",
@@ -27,7 +29,9 @@
       "english": "Please complete the required procedures before entering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12938_shotei_ex3",
@@ -35,21 +39,36 @@
       "english": "If you don't park your car in the designated spot, you'll be fined.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAlmost always used as a modifier before a noun ({所定|しょてい}の + noun). Very common in formal and administrative language — forms, procedures, official documents, and regulations. Rarely used in casual conversation.\n\nCOMMON COLLOCATIONS:\n- {所定|しょてい}の{用紙|ようし}: prescribed/designated form\n- {所定|しょてい}の{手続|てつづ}き: required procedures\n- {所定|しょてい}の{位置|いち}: designated position/location\n- {所定|しょてい}の{時間|じかん}: designated time\n- {所定|しょてい}の{金額|きんがく}: prescribed amount",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "14136_kitei",
+      "reading": "きてい",
+      "headword": "{規定|きてい}",
+      "label": "regulation, provision"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:04:09Z",
-    "modified": "2026-02-22T23:04:09Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "pre-noun-adjectival"],
+      "pos": [
+        "noun",
+        "pre-noun-adjectival"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }

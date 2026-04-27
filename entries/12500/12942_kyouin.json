@@ -19,7 +19,9 @@
       "english": "I have a teaching license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12942_kyouin_ex2",
@@ -27,7 +29,9 @@
       "english": "I passed the teacher recruitment exam.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12942_kyouin_ex3",
@@ -35,21 +39,50 @@
       "english": "There are regions where a shortage of teachers has become a serious problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal term used in administrative, legal, and institutional contexts. More official than {先生|せんせい} (teacher, used in everyday address and conversation) or {教師|きょうし} (teacher, slightly formal). {教員|きょういん} is the standard term in regulations, job postings, and discussions about the teaching profession.\n\nCOMMON COLLOCATIONS:\n- {教員|きょういん}{免許|めんきょ}: teaching license\n- {教員|きょういん}{採用|さいよう}{試験|しけん}: teacher recruitment exam\n- {教員|きょういん}{不足|ふそく}: teacher shortage\n- {教員|きょういん}{研修|けんしゅう}: teacher training\n- {教員|きょういん}{数|すう}: number of teachers\n\nSIMILAR WORDS:\n- {先生|せんせい}: teacher (everyday, respectful address)\n- {教師|きょうし}: teacher (slightly formal, emphasizes the role)\n- {講師|こうし}: lecturer, instructor (part-time or at university level)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00609_sensei",
+      "reading": "せんせい",
+      "headword": "{先生|せんせい}",
+      "label": "teacher (everyday)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03029_kyoushi",
+      "reading": "きょうし",
+      "headword": "{教師|きょうし}",
+      "label": "teacher (semi-formal)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00451_koushi",
+      "reading": "こうし",
+      "headword": "{講師|こうし}",
+      "label": "lecturer, instructor"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:05:58Z",
-    "modified": "2026-02-22T23:05:58Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person", "education"]
+      "semantic": [
+        "person",
+        "education"
+      ]
     }
   }
 }

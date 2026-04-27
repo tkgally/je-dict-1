@@ -19,7 +19,9 @@
       "english": "This town has beautiful scenery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12976_keikan_ex2",
@@ -27,7 +29,9 @@
       "english": "Building height is restricted to preserve the landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12976_keikan_ex3",
@@ -35,21 +39,42 @@
       "english": "Strict standards have been established for new construction so as not to spoil the historical landscape.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nMore formal and specific than {景色|けしき} (scenery). {景観|けいかん} emphasizes the overall visual character of an area, especially in the context of urban planning, architecture, and environmental protection. Japan has a {景観法|けいかんほう} (Landscape Act) that regulates development to preserve scenic areas.\n\nCOMMON COLLOCATIONS:\n- {景観|けいかん}を{守|まも}る: to protect the landscape\n- {景観|けいかん}を{損|そこ}なう: to spoil the landscape\n- {景観|けいかん}{条例|じょうれい}: landscape ordinance\n- {自然|しぜん}{景観|けいかん}: natural landscape\n- {都市|とし}{景観|けいかん}: urban landscape\n\nSIMILAR WORDS:\n- {景色|けしき}: scenery, view (everyday, general)\n- {風景|ふうけい}: scenery, landscape (literary, often visual art)\n- {眺|なが}め: view (from a specific vantage point)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "01395_keshiki",
+      "reading": "けしき",
+      "headword": "{景色|けしき}",
+      "label": "scenery (general)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03591_fuukei",
+      "reading": "ふうけい",
+      "headword": "{風景|ふうけい}",
+      "label": "landscape, scenery"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T23:46:22Z",
-    "modified": "2026-02-22T23:46:22Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["geography"]
+      "semantic": [
+        "geography"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "What is your monthly income?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12999_gesshuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I live on a monthly income of 300,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12999_gesshuu_ex3",
@@ -35,21 +39,43 @@
       "english": "Since changing jobs, my monthly income has increased significantly, so I've been able to save money.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in discussions about salary, living expenses, and financial planning. Can refer to gross or net income depending on context. Often followed by a specific amount: {月収|げっしゅう}20{万円|まんえん}.\n\nCOMMON COLLOCATIONS:\n- {月収|げっしゅう}〜{万円|まんえん}: monthly income of ~ ten-thousand yen\n- {手取|てど}り{月収|げっしゅう}: take-home monthly income\n- {月収|げっしゅう}が{上|あ}がる: monthly income goes up\n- {月収|げっしゅう}が{下|さ}がる: monthly income goes down\n\nSIMILAR WORDS:\n- {年収|ねんしゅう}: annual income\n- {給料|きゅうりょう}: salary, pay (general)\n- {収入|しゅうにゅう}: income (broader, includes all sources)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05504_nenshuu",
+      "reading": "ねんしゅう",
+      "headword": "{年収|ねんしゅう}",
+      "label": "annual income"
+    },
+    {
+      "type": "related",
+      "target_id": "03213_shuunyuu",
+      "reading": "しゅうにゅう",
+      "headword": "{収入|しゅうにゅう}",
+      "label": "income (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-23T05:13:40Z",
-    "modified": "2026-02-23T05:13:40Z",
+    "modified": "2026-04-27T10:17:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "work"]
+      "semantic": [
+        "money",
+        "work"
+      ]
     }
   }
 }
