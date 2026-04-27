@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 52)
+Added 30 new dictionary entries (IDs 25801-25830) from candidate_words.json. Diverse batch covering everyday expressions, postal/legal terminology, cultural vocabulary, and practical nouns.
+
+- **Onomatopoeia/expressions (3)**: ワクワクする (to be excited), きちんとする (to be neat/proper), あくびをする (to yawn)
+- **Education (3)**: {語学学校|ごがくがっこう} (language school), {日本語教育|にほんごきょういく} (Japanese language education), コミュニケーション{能力|のうりょく} (communication skills)
+- **Postal services (3)**: {書留郵便|かきとめゆうびん} (registered mail), {普通郵便|ふつうゆうびん} (regular mail), {配達証明|はいたつしょうめい} (proof of delivery)
+- **Legal (4)**: {民事責任|みんじせきにん} (civil liability), {刑事責任|けいじせきにん} (criminal liability), {法的義務|ほうてきぎむ} (legal obligation), {弾劾裁判|だんがいさいばん} (impeachment trial)
+- **Buildings/places (3)**: {葬儀場|そうぎじょう} (funeral hall), {別宅|べったく} (second residence), {別荘地|べっそうち} (resort area)
+- **Other (14)**: {運動能力|うんどうのうりょく} (athletic ability), {凍害|とうがい} (frost damage), {秘術|ひじゅつ} (secret technique), イナゴ (locust), {決算報告|けっさんほうこく} (financial report), {報復行為|ほうふくこうい} (retaliation), {演習曲|えんしゅうきょく} (étude), {熱狂者|ねっきょうしゃ} (fanatic), {秘書室|ひしょしつ} (secretarial office), {卵料理|たまごりょうり} (egg dish), {申込用紙|もうしこみようし} (application form), {誘惑|ゆうわく}に{負|ま}ける (to give in to temptation), {燕雀|えんじゃく} (swallows and sparrows), {若奥様|わかおくさま} (young wife)
+- Conjugation tables auto-generated for 4 verb entries (3 suru, 1 ichidan)
+- 30 candidates synced from candidate list
+
+Total entries: 25,593 → 25,623.
+
 ### 2026-04-27 (Vocabulary Expansion - 25 New Entries, Batch 51)
 Added 25 new dictionary entries (IDs 25776-25800) from candidate_words.json. Diverse batch covering cultural vocabulary, everyday expressions, academic terms, and practical nouns.
 
@@ -107,18 +121,5 @@ Added 30 new dictionary entries (IDs 25696-25725) from candidate_words.json. Mix
 - 30 candidates synced from candidate list
 
 Total entries: 25,488 → 25,518.
-
-### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 47)
-Added 30 new dictionary entries (IDs 25666-25695) from candidate_words.json. Practical, learner-friendly vocabulary covering daily life, business, environment, sports, food, and communication.
-
-- **Daily life (7)**: {雨降|あめふ}り (rainfall), へこみ (dent/setback), {抜|ぬ}け{毛|げ} (hair loss), {空|あ}き{時間|じかん} (free time), {早歩|はやある}き (brisk walking), シャーペン (mechanical pencil), フロントガラス (windshield)
-- **Time/intensity (3)**: {今|いま}すぐ (right now), {急上昇|きゅうじょうしょう} (sharp rise), {急降下|きゅうこうか} (sharp drop)
-- **Business/society (6)**: {前金|まえきん} (advance payment), {離席|りせき}する (to step away), {危機|きき}{管理|かんり} (crisis management), {社会|しゃかい}{問題|もんだい} (social problem), {誘致|ゆうち} (attraction/bidding), {連絡係|れんらくがかり} (liaison)
-- **Loanwords (5)**: ジェスチャー (gesture), セロリ (celery), リユース (reuse), カヌー (canoe), トラブルメーカー (troublemaker)
-- **Other (9)**: {先回|さきまわ}り (preemption), {全速力|ぜんそくりょく} (full speed), {分|わ}け{前|まえ} (share/portion), ビジネスホテル (business hotel), {大中小|だいちゅうしょう} (L/M/S), {強|つよ}さ (strength), {寄付者|きふしゃ} (donor), {仲間|なかま}{意識|いしき} (camaraderie), {守勢|しゅせい} (defensive)
-- Conjugation tables auto-generated for 7 suru verb entries
-- 30 candidates synced from candidate list
-
-Total entries: 25,458 → 25,488.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
