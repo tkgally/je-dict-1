@@ -68,6 +68,20 @@ Added 30 new dictionary entries (IDs 25959-25988) from candidate_words.json. Div
 
 Total entries: 25,751 → 25,781.
 
+### 2026-04-28 (Vocabulary Expansion - 16 New Entries, Batch 57)
+Added 16 new dictionary entries (IDs 25989-26004) from candidate_words.json. Curated batch of useful vocabulary spanning multiple domains.
+
+- **Culture/arts (2)**: {話芸|わげい} (art of storytelling), {再結成|さいけっせい} (reunion/reforming of a group)
+- **Spatial/physical (3)**: {下段|げだん} (lower level/low guard), {砂岩|さがん} (sandstone), {経線|けいせん} (meridian)
+- **Practical/daily life (4)**: {常用薬|じょうようやく} (regular medication), {肌質|はだしつ} (skin type), {相乗|あいの}り (ride-sharing), {売札|うりふだ} (price tag)
+- **Academic/technical (2)**: {導出|どうしゅつ} (derivation), {数列|すうれつ} (number sequence)
+- **Society/evaluation (3)**: {無冠|むかん} (uncrowned/titleless), {無回答|むかいとう} (no answer), {風波|ふうは} (trouble/discord)
+- **Other (2)**: {紙片|しへん} (scrap of paper), {再刊|さいかん} (republication)
+- Conjugation tables auto-generated for 4 suru-verb entries
+- 15 candidates synced from candidate list
+
+Total entries: 25,781 → 25,797.
+
 ### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 56)
 Added 28 new dictionary entries (IDs 25931-25958) from candidate_words.json. Mix of na-adjectives (～的), compound nouns, loanwords, and an adverb useful for intermediate learners.
 
