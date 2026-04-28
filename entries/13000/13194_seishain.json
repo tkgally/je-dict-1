@@ -39,10 +39,32 @@
     }
   ],
   "notes": "USAGE:\nA key term in the Japanese employment system. {正社員|せいしゃいん} typically enjoy lifetime employment ({終身|しゅうしん}{雇用|こよう}), regular salary increases, bonuses, and social insurance. The distinction between {正社員|せいしゃいん} and {非正規|ひせいき}{社員|しゃいん} (non-regular workers) is a major social and economic issue in Japan.\n\nCOMMON COLLOCATIONS:\n- {正社員|せいしゃいん}として{働|はたら}く: to work as a regular employee\n- {正社員|せいしゃいん}{登用|とうよう}: promotion to regular employee status\n- {正社員|せいしゃいん}{募集|ぼしゅう}: recruiting for regular positions\n\nCONTRASTING TERMS:\n- {契約|けいやく}{社員|しゃいん}: contract employee\n- {派遣|はけん}{社員|しゃいん}: dispatch/temporary worker\n- パート / アルバイト: part-time worker",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12260_keiyakushain",
+      "reading": "けいやくしゃいん",
+      "headword": "{契約|けいやく}{社員|しゃいん}",
+      "label": "contract employee"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18875_hakenshain",
+      "reading": "はけんしゃいん",
+      "headword": "{派遣|はけん}{社員|しゃいん}",
+      "label": "dispatch worker"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01528_arubaito",
+      "reading": "あるばいと",
+      "headword": "アルバイト",
+      "label": "part-time work"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T06:09:37Z",
-    "modified": "2026-02-24T06:09:37Z",
+    "modified": "2026-04-28T06:26:02Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
