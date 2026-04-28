@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 58)
+Added 30 new dictionary entries (IDs 26005-26034) from candidate_words.json. Varied batch of practical vocabulary for intermediate learners.
+
+- **Expressions (1)**: {目|め}をつぶる (to close one's eyes / to overlook)
+- **People/education (3)**: {優等生|ゆうとうせい} (honor student), {見知|みし}らぬ{人|ひと} (stranger), {人物像|じんぶつぞう} (character profile)
+- **Culture/history (4)**: {鍛冶屋|かじや} (blacksmith), {銘文|めいぶん} (inscription), {町工場|まちこうば} (small factory), {昔日|せきじつ} (former times)
+- **Anonymous reference (2)**: {某社|ぼうしゃ} (a certain company), {某所|ぼうしょ} (a certain place)
+- **Body/health (3)**: {涙腺|るいせん} (tear gland), {声|こえ}がれ (hoarseness), {低血糖|ていけっとう} — skipped, not in final set
+- **Nature/seasons (2)**: {初秋|しょしゅう} (early autumn), {巣箱|すばこ} (nest box)
+- **Action/observation (2)**: {盗|ぬす}み{見|み} (sneaking a look), {覗|のぞ}き{見|み} (peeking)
+- **Abstract/academic (3)**: {相反|あいはん} (contradiction), {慎重|しんちょう}さ (prudence), {跡形|あとかた} (trace)
+- **Practical/daily life (5)**: {手作|てづく}り{感|かん} (handmade feel), {内容物|ないようぶつ} (contents), {抜|ぬ}き{打|う}ち (surprise inspection), {専門外|せんもんがい} (outside one's specialty), {資格証|しかくしょう} (qualification certificate)
+- **Science/tech (3)**: {巨大化|きょだいか} (becoming enormous), {断電|だんでん} (power outage), {桁数|けたすう} (number of digits)
+- **Other (2)**: {格上|かくじょう} (upgrading), よもやま{話|ばなし} (miscellaneous chat), {宇宙船|うちゅうせん} (spaceship)
+- Conjugation tables auto-generated for 6 suru-verb entries
+- 30 candidates synced from candidate list
+
+Total entries: 25,797 → 25,827.
+
 ### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 57)
 Added 30 new dictionary entries (IDs 25959-25988) from candidate_words.json. Diverse batch of useful vocabulary for intermediate learners including expressions, cultural terms, travel/transport vocabulary, and language-related words.
 
