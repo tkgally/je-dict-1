@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 56)
+Added 28 new dictionary entries (IDs 25931-25958) from candidate_words.json. Mix of na-adjectives (～的), compound nouns, loanwords, and an adverb useful for intermediate learners.
+
+- **Na-adjectives with 的 (10)**: {感動的|かんどうてき} (moving), {挑戦的|ちょうせんてき} (challenging/provocative), {戦略的|せんりゃくてき} (strategic), {都会的|とかいてき} (urban/cosmopolitan), {魅惑的|みわくてき} (enchanting), {敵対的|てきたいてき} (hostile), {空想的|くうそうてき} (fanciful/visionary), {創作的|そうさくてき} (creative), {反発的|はんぱつてき} (resistant/defiant), {反逆的|はんぎゃくてき} (rebellious)
+- **Compound nouns (13)**: {中古車|ちゅうこしゃ} (used car), {牢獄|ろうごく} (prison/dungeon), {防波堤|ぼうはてい} (breakwater), {食料費|しょくりょうひ} (food expenses), {郵便局員|ゆうびんきょくいん} (postal clerk), {衝撃波|しょうげきは} (shock wave), {緊急警報|きんきゅうけいほう} (emergency alert), {木管楽器|もっかんがっき} (woodwind instrument), {覗|のぞ}き{穴|あな} (peephole), {最低気温|さいていきおん} (minimum temperature), {画像認識|がぞうにんしき} (image recognition), {原始時代|げんしじだい} (prehistoric times), {情報機器|じょうほうきき} (IT equipment)
+- **Loanwords (2)**: バケツリレー (bucket relay), フィルタリング (filtering)
+- **Other (3)**: {学術会議|がくじゅつかいぎ} (academic conference), {立体映像|りったいえいぞう} (3D image), {刻々|こっこく}と (moment by moment)
+- 27 candidates synced from candidate list
+
+Total entries: 25,723 → 25,751.
+
 ### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 55)
 Added 28 new dictionary entries (IDs 25903-25930) from candidate_words.json. Diverse batch of expressions, cultural vocabulary, and descriptive terms useful for intermediate learners.
 
@@ -119,34 +130,5 @@ Added 25 new dictionary entries (IDs 25776-25800) from candidate_words.json. Div
 - 24 candidates synced from candidate list
 
 Total entries: 25,568 → 25,593.
-
-### 2026-04-27 (Vocabulary Expansion - 20 New Entries, Batch 50)
-Added 20 new dictionary entries (IDs 25756-25775) from candidate_words.json. Mixed batch covering language/culture, daily life, food, society/law, and military/politics.
-
-- **Na-adjectives (2)**: {幻想的|げんそうてき} (fantastical), {依存的|いそんてき} (dependent)
-- **Food (2)**: コーヒー{豆|まめ} (coffee beans), カスタード (custard)
-- **Culture/language (3)**: {筆記体|ひっきたい} (cursive script), ヒット{曲|きょく} (hit song), {全集中|ぜんしゅうちゅう} (full concentration)
-- **Society/law (4)**: {死亡届|しぼうとどけ} (death notification), {売春|ばいしゅん} (prostitution), {災害対策|さいがいたいさく} (disaster measures), {駐留|ちゅうりゅう}する (to station troops)
-- **Daily life (4)**: {近日中|きんじつちゅう} (in the near future), {破|やぶ}れ (tear/rip), {整体院|せいたいいん} (bodywork clinic), {旅行客|りょこうきゃく} (traveler)
-- **Other (5)**: {弾力性|だんりょくせい} (elasticity), {年月日|ねんがっぴ} (date), {燕尾服|えんびふく} (tailcoat), {弾丸列車|だんがんれっしゃ} (bullet train), {猿山|さるやま} (monkey hill)
-- Conjugation table auto-generated for 1 suru verb entry
-- 20 candidates synced from candidate list
-
-Total entries: 25,548 → 25,568.
-
-### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 49)
-Added 30 new dictionary entries (IDs 25726-25755) from candidate_words.json. Mixed batch covering daily life, culture, sports, household items, clothing, and practical vocabulary.
-
-- **Household/clothing (5)**: {衣装棚|いしょうだな} (wardrobe), ハンガーラック (clothes rack), フード{付|つ}き (hooded), {防寒服|ぼうかんふく} (cold-weather clothing), {夜着|よぎ} (padded sleeping kimono)
-- **Sports/leisure (4)**: {攻守交代|こうしゅこうたい} (change of sides), {判定|はんてい}ミス (bad call), スケート{場|じょう} (skating rink), アイススケート (ice skating)
-- **Tools/technology (4)**: カッターナイフ (utility knife), {開閉|かいへい}ボタン (open/close button), {活動量計|かつどうりょうけい} (activity tracker), {回転灯|かいてんとう} (rotating light)
-- **Culture (3)**: {前厄|まえやく} (pre-calamity year), {後厄|あとやく} (post-calamity year), {休耕田|きゅうこうでん} (fallow rice field)
-- **Academic/news (4)**: {学会誌|がっかいし} (academic journal), {防衛力|ぼうえいりょく} (defensive capability), {防御線|ぼうぎょせん} (line of defense), {副専攻|ふくせんこう} (academic minor)
-- **General (10)**: {怖|こわ}がらせる (to frighten), {一部分|いちぶぶん} (a part), {反応的|はんのうてき} (reactive), {密集地|みっしゅうち} (densely populated area), {旅行鞄|りょこうかばん} (travel bag), ミラー (mirror), ニキビ{跡|あと} (acne scar), インソール (insole), {財布入|さいふい}れ (wallet case), {糸巻|いとま}き (spool)
-- Conjugation tables auto-generated for 2 verb entries (1 ichidan, 1 suru)
-- 1 new kanji (鞄) assigned to kanji index
-- 30 candidates synced from candidate list
-
-Total entries: 25,518 → 25,548.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
