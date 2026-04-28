@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-28 (Vocabulary Expansion - 24 New Entries, Batch 54)
+Added 24 new dictionary entries (IDs 25879-25902) from candidate_words.json. Focused batch of na-adjectives (～的な), katakana loanwords, and other useful vocabulary for intermediate learners.
+
+- **Na-adjectives with 的 (10)**: {感動的|かんどうてき}な (moving), {挑戦的|ちょうせんてき}な (challenging/defiant), {戦略的|せんりゃくてき}な (strategic), {魅惑的|みわくてき}な (enchanting), {都会的|とかいてき}な (urban/sophisticated), {敵対的|てきたいてき}な (hostile), {創作的|そうさくてき}な (creative), {空想的|くうそうてき}な (fantastical), {反発的|はんぱつてき}な (defiant), {反逆的|はんぎゃくてき}な (rebellious), {肉感的|にくかんてき}な (voluptuous)
+- **Katakana loanwords (8)**: ハンマー (hammer), タイマー (timer), ドキュメント (document), トリック (trick), ネイル (nail art), ストライク (strike), バジル (basil), チーズケーキ (cheesecake), フック (hook), ポインター (pointer)
+- **Other (3)**: {名門校|めいもんこう} (prestigious school), どっちも (both, informal), やり{出|だ}す (to start doing)
+- Conjugation table auto-generated for 1 godan verb entry
+- 13 candidates synced from candidate list
+
+Total entries: 25,671 → 25,695.
+
 ### 2026-04-27 (Vocabulary Expansion - 28 New Entries, Batch 53)
 Added 28 new dictionary entries (IDs 25831-25858) from candidate_words.json. Focused batch of expressions, verbs, and cultural vocabulary useful for intermediate learners.
 
@@ -123,18 +134,5 @@ Added 30 new dictionary entries (IDs 25726-25755) from candidate_words.json. Mix
 - 30 candidates synced from candidate list
 
 Total entries: 25,518 → 25,548.
-
-### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 48)
-Added 30 new dictionary entries (IDs 25696-25725) from candidate_words.json. Mixed batch covering business, culture, daily life, science, expressions, and social topics.
-
-- **Nouns (16)**: {長期間|ちょうきかん} (long period), {新入|しんい}り (newcomer), {温度計|おんどけい} (thermometer), {広告主|こうこくぬし} (advertiser), {広告料|こうこくりょう} (ad revenue), {銀河系|ぎんがけい} (Milky Way), {新興企業|しんこうきぎょう} (startup), {倍速|ばいそく} (double speed), {紳士服|しんしふく} (menswear), {運動着|うんどうぎ} (sportswear), {内縁|ないえん} (common-law marriage), {省力|しょうりょく} (labor-saving), {死亡率|しぼうりつ} (mortality rate), {探査機|たんさき} (probe), {別邸|べってい} (villa), {鮮魚店|せんぎょてん} (fish shop)
-- **Suru verbs (5)**: {転出|てんしゅつ}する (moving out), {拉致|らち}する (to abduct), {吸引|きゅういん}する (to suction), {近道|ちかみち}する (to take a shortcut), {東奔西走|とうほんせいそう}する (to rush about)
-- **Expressions (2)**: {懐|ふところ}が{深|ふか}い (broad-minded), {器|うつわ}が{大|おお}きい (magnanimous)
-- **Other (7)**: {外人|がいじん} (foreigner), {貧富|ひんぷ}の{差|さ} (wealth gap), {天運|てんうん} (fate), {無思慮|むしりょ} (thoughtlessness), ホスト (host), {敏捷性|びんしょうせい} (agility), ホラー{映画|えいが} (horror movie)
-- Conjugation tables auto-generated for 5 suru verb entries
-- 1 new kanji (拉) assigned to kanji index
-- 30 candidates synced from candidate list
-
-Total entries: 25,488 → 25,518.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
