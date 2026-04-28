@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 57)
+Added 30 new dictionary entries (IDs 25959-25988) from candidate_words.json. Diverse batch of useful vocabulary for intermediate learners including expressions, cultural terms, travel/transport vocabulary, and language-related words.
+
+- **Expressions (5)**: よろしければ (if you don't mind), {岐路|きろ}に{立|た}つ (to stand at a crossroads), {衝撃|しょうげき}を{受|う}ける (to be shocked), とにもかくにも (at any rate), あれやこれや (this and that)
+- **Travel/transport (5)**: {宿泊費|しゅくはくひ} (accommodation costs), {旅行会社|りょこうがいしゃ} (travel agency), {寝台列車|しんだいれっしゃ} (sleeper train), {特急列車|とっきゅうれっしゃ} (limited express train), {急行列車|きゅうこうれっしゃ} (express train)
+- **Language (4)**: {書|か}き{言葉|ことば} (written language), {早口言葉|はやくちことば} (tongue twister), イントネーション (intonation), スペイン{語|ご} (Spanish language)
+- **Culture (2)**: {七夕祭|たなばたまつ}り (Tanabata festival), {鼓|つづみ} (hand drum)
+- **Politics/society (3)**: {問題提起|もんだいていき} (raising an issue), {標榜|ひょうぼう} (professing/claiming), {党員|とういん} (party member)
+- **Body/health (2)**: {鼓膜|こまく} (eardrum), {呻|うめ}き{声|ごえ} (groan)
+- **Other (9)**: {後知恵|あとぢえ} (hindsight), {出張費|しゅっちょうひ} (business trip expenses), {年齢層|ねんれいそう} (age group), {合格点|ごうかくてん} (passing score), {名物料理|めいぶつりょうり} (local specialty dish), あちらこちら (here and there), {結論|けつろん}づける (to conclude), {緑地|りょくち} (green space), バランス{感覚|かんかく} (sense of balance)
+- Conjugation tables auto-generated for 3 verb entries (2 suru, 1 ichidan)
+- 1 new kanji added to index: 榜
+- Removed 3 stale candidates (洗練された duplicate, 苦虫をかみつぶしたよう variant, 年中行事 variant reading)
+- 30 candidates synced from candidate list
+
+Total entries: 25,751 → 25,781.
+
 ### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 56)
 Added 28 new dictionary entries (IDs 25931-25958) from candidate_words.json. Mix of na-adjectives (～的), compound nouns, loanwords, and an adverb useful for intermediate learners.
 
@@ -101,34 +118,5 @@ Added 28 new dictionary entries (IDs 25831-25858) from candidate_words.json. Foc
 - 11 candidates synced from candidate list
 
 Total entries: 25,623 → 25,651.
-
-### 2026-04-27 (Vocabulary Expansion - 30 New Entries, Batch 52)
-Added 30 new dictionary entries (IDs 25801-25830) from candidate_words.json. Diverse batch covering everyday expressions, postal/legal terminology, cultural vocabulary, and practical nouns.
-
-- **Onomatopoeia/expressions (3)**: ワクワクする (to be excited), きちんとする (to be neat/proper), あくびをする (to yawn)
-- **Education (3)**: {語学学校|ごがくがっこう} (language school), {日本語教育|にほんごきょういく} (Japanese language education), コミュニケーション{能力|のうりょく} (communication skills)
-- **Postal services (3)**: {書留郵便|かきとめゆうびん} (registered mail), {普通郵便|ふつうゆうびん} (regular mail), {配達証明|はいたつしょうめい} (proof of delivery)
-- **Legal (4)**: {民事責任|みんじせきにん} (civil liability), {刑事責任|けいじせきにん} (criminal liability), {法的義務|ほうてきぎむ} (legal obligation), {弾劾裁判|だんがいさいばん} (impeachment trial)
-- **Buildings/places (3)**: {葬儀場|そうぎじょう} (funeral hall), {別宅|べったく} (second residence), {別荘地|べっそうち} (resort area)
-- **Other (14)**: {運動能力|うんどうのうりょく} (athletic ability), {凍害|とうがい} (frost damage), {秘術|ひじゅつ} (secret technique), イナゴ (locust), {決算報告|けっさんほうこく} (financial report), {報復行為|ほうふくこうい} (retaliation), {演習曲|えんしゅうきょく} (étude), {熱狂者|ねっきょうしゃ} (fanatic), {秘書室|ひしょしつ} (secretarial office), {卵料理|たまごりょうり} (egg dish), {申込用紙|もうしこみようし} (application form), {誘惑|ゆうわく}に{負|ま}ける (to give in to temptation), {燕雀|えんじゃく} (swallows and sparrows), {若奥様|わかおくさま} (young wife)
-- Conjugation tables auto-generated for 4 verb entries (3 suru, 1 ichidan)
-- 30 candidates synced from candidate list
-
-Total entries: 25,593 → 25,623.
-
-### 2026-04-27 (Vocabulary Expansion - 25 New Entries, Batch 51)
-Added 25 new dictionary entries (IDs 25776-25800) from candidate_words.json. Diverse batch covering cultural vocabulary, everyday expressions, academic terms, and practical nouns.
-
-- **Expressions (5)**: {返答|へんとう}に{困|こま}る (at a loss for an answer), {工夫|くふう}を{重|かさ}ねる (make repeated efforts), {迎|むか}えに{行|い}く (go pick someone up), {紙一重|かみひとえ}の{差|さ} (paper-thin difference), {踏|ふ}み{台|だい}にする (use as a stepping stone)
-- **Cultural (3)**: {出世魚|しゅっせうお} (fish with growth-stage names), {謎|なぞ}かけ (riddle/wordplay), {参上|さんじょう}する (arrive, humble/dramatic)
-- **Academic/statistics (3)**: {中央値|ちゅうおうち} (median), {最高点|さいこうてん} (highest score), {最低点|さいていてん} (lowest score)
-- **Personality/evaluation (3)**: {勝手|かって}{気|き}まま (selfish/self-indulgent), {分不相応|ぶんふそうおう} (beyond one's means), {裏切|うらぎ}り{者|もの} (traitor)
-- **Nouns (8)**: {遅咲|おそざ}き (late bloomer), {錯乱|さくらん} (derangement), {慣用語|かんようご} (idiom), {一人客|ひとりきゃく} (solo customer), {割引|わりびき}{価格|かかく} (discounted price), {飲食品|いんしょくひん} (food and drink), {略装|りゃくそう} (informal dress), {宿代|やどだい} (lodging fee)
-- **Other (3)**: {意識|いしき}{喪失|そうしつ} (loss of consciousness), {資源国|しげんこく} (resource-rich country), {本流|ほんりゅう} (mainstream)
-- Conjugation tables auto-generated for 2 suru verb entries
-- Removed 20 stale candidates (duplicates of existing entries)
-- 24 candidates synced from candidate list
-
-Total entries: 25,568 → 25,593.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
