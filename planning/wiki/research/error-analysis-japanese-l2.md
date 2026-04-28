@@ -1,6 +1,6 @@
 # Error Analysis and Learner Corpora for Japanese L2
 
-**Last updated**: 2026-04-25
+**Last updated**: 2026-04-28
 
 ## Overview
 
@@ -226,3 +226,4 @@ The polishing priority system (`make priorities`) currently uses note quality sc
 - [Japanese Lexicography](japanese-lexicography.md) — Japanese-specific dictionary challenges
 - [Verb Transitivity Pairs](../topics/verb-transitivity.md) — transitivity confusion is a particle-error subtype
 - [Register and Formality](../topics/register.md) — register errors in learner production
+- [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword false friends as a source of lexical transfer errors

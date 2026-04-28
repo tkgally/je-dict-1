@@ -1,6 +1,6 @@
 # Japanese Word Formation and Morphology
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-28
 
 ## Overview
 
@@ -152,6 +152,7 @@ Productive affixes and common compound-forming elements should be in the basic o
 - [Cross-Reference Design](../topics/cross-references.md) — linking morphologically related entries
 - [Entry Design](../project/entry-design.md) — what goes in each entry
 - [Multiword Expressions](multiword-expressions.md) — how multiword units relate to morphological boundaries
+- [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — deep dive into the gairaigo stratum: phonological adaptation, semantic shift, and dictionary treatment
 
 ## Sources
 

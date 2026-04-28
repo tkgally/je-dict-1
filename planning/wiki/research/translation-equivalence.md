@@ -1,6 +1,6 @@
 # Translation Equivalence
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-28
 
 ## The core problem
 
@@ -66,3 +66,4 @@ Cross-references are also essential — they expose the system of related words 
 - [Register and Formality](../topics/register.md)
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — acute translation equivalence challenges for mimetics
 - [Semantic Prosody](semantic-prosody.md) — the evaluative dimension that monolingual glosses routinely strip
+- [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — semantic shift in loanwords as a translation equivalence challenge
