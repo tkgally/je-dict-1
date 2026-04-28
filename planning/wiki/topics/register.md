@@ -1,6 +1,6 @@
 # Register and Formality
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-28
 
 ## Why register matters
 
@@ -163,3 +163,4 @@ Register marking is a **medium priority** v2 quality standard. The path forward:
 - [Learner Lexicography](../research/learner-lexicography.md) — pedagogical dictionary design principles
 - [Open Issues](../project/open-issues.md) — loanword handling and other design questions
 - [Error Analysis and Learner Corpora](../research/error-analysis-japanese-l2.md) — register-mixing and keigo errors in learner production
+- [Gairaigo: Loanwords in Japanese](../research/gairaigo-loanwords.md) — register connotations of gairaigo vs. wago/kango synonyms

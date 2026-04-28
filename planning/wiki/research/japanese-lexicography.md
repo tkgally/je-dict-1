@@ -1,6 +1,6 @@
 # Japanese Lexicography Challenges
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-28
 
 ## Overview
 
@@ -91,3 +91,4 @@ Many words have multiple accepted spellings:
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — sound symbolism and mimetics as a lexicographic challenge
 - [Word Formation and Morphology](word-formation.md) — compounding, derivation, and vocabulary strata
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Japanese-specific error patterns and L1 transfer effects
+- [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword adaptation, semantic shift, and dictionary treatment challenges

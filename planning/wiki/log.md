@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-04-28] maintenance | Gairaigo loanwords research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **gairaigo (loanwords) in Japanese and their treatment in learner dictionaries** and created `research/gairaigo-loanwords.md`. Covers phonological adaptation processes (vowel epenthesis rules with /u/ default >70% of cases, consonant substitution, mora obstruent insertion, truncation); semantic change taxonomy (narrowing as the most common type, with tables of false friends like マンション/mansion, スマート/smart, ナイーブ/naive); register and stylistic effects of gairaigo vs. wago/kango equivalents (Rebuck 2002's three functions: gap-filling, special effect, euphemism); the NINJAL loanword replacement initiative (2002–2006, 176 problem words) and government survey data showing 78.5%→83.5% public comprehension difficulty; wasei-eigo (和製英語) as pseudo-loanwords with examples (サラリーマン, スキンシップ, ジェットコースター); the cognate advantage (Daulton 2008: 45.5% of top 3,000 BNC families have gairaigo correspondences, 54.8% of top 1,000) and its five key limitations (phonological distance, semantic false friends, L1 asymmetry, production difficulty, overreliance); dictionary treatment approaches in JMdict, Kenkyusha, and Wisdom; quantitative analysis of je-dict-1's 1,588 pure katakana entries (6.1%) plus 337 mixed katakana entries (total ~1,925, 7.5%); and six specific implications for je-dict-1 including semantic shift notes, source language metadata, false-friend annotation, cognate-aware features, and expansion priorities. Cited Daulton 1998/2008, Hatanaka & Pannell 2016, Irwin 2011, Kay 1995, Loveday 1996, Nakao 2020, NINJAL 2003–2006/2006/2017, Olah 2007, Rebuck 2002, Simon-Maeda 2002, Stanlaw 2004.
+- [A] Updated entry counts across 12 wiki pages to reflect 2026-04-28 `report.py` output (25,827 entries / 23,044 general / 11,677 cross-references / 103,512 examples / 1,754 candidates / 43.3% symmetry / 5,496 asymmetric refs / 2,847 entries with inline links at 11.0%). Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`, `research/vocabulary-size-coverage.md`.
+- [E] Ran cross-reference link checker across all wiki pages (443 internal links checked, 0 broken). Checked for orphan pages (0 found across 52 total pages). Added the new gairaigo page to `index.md` and as a related page on `word-formation.md`, `japanese-lexicography.md`, `vocabulary-acquisition.md`, `translation-equivalence.md`, `error-analysis-japanese-l2.md`, `definition-strategies.md`, and `topics/register.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-04-26] maintenance | Vocabulary size research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance
