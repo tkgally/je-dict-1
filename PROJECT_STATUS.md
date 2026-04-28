@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 55)
+Added 28 new dictionary entries (IDs 25903-25930) from candidate_words.json. Diverse batch of expressions, cultural vocabulary, and descriptive terms useful for intermediate learners.
+
+- **Expressions (8)**: {今日|きょう}このごろ (these days), {余|あま}すところなく (completely), {期待|きたい}に{満|み}ちる (full of anticipation), {苦虫|にがむし}を{噛|か}み{潰|つぶ}したよう (looking sour), {目|め}に{遭|あ}う (to suffer), これより (from this point on), ジロリと{見|み}る (to glare), ぴんぴんしている (lively and well)
+- **Na-adjectives (2)**: {誘惑|ゆうわく}{的|てき} (tempting/seductive), {肉感|にっかん}{的|てき} (voluptuous)
+- **Nouns (12)**: {周|まわ}り{中|じゅう} (all around), {秘密|ひみつ}{主義|しゅぎ} (secretiveness), {大|だい}{音響|おんきょう} (loud sound), {読|よ}み{飛|と}ばし (skimming), {小物|こもの}{入|い}れ (accessory case), {伝送|でんそう} (transmission), {御|お}{祝儀|しゅうぎ}{袋|ぶくろ} (gift envelope), {括弧|かっこ}{書|が}き (parenthetical), {預言者|よげんしゃ} (prophet), {原稿料|げんこうりょう} (manuscript fee), {金銀|きんぎん}{財宝|ざいほう} (gold and treasure), {溺死|できし} (drowning), {機嫌|きげん}{屋|や} (moody person), {五十代|ごじゅうだい} (one's fifties), {高級|こうきゅう}{料亭|りょうてい} (high-class restaurant), {脚線美|きゃくせんび} (beautiful legs)
+- **Pronoun (1)**: あの{人|ひと} (that person; he/she)
+- **Verb (1)**: {引|ひ}きずられる (to be dragged/swayed)
+- Conjugation tables auto-generated for 4 verb entries (2 suru, 1 ichidan, 1 godan)
+- Removed 2 stale candidates (出す duplicate, 世渡り下手 variant reading)
+- 27 candidates synced from candidate list
+
+Total entries: 25,695 → 25,723.
+
 ### 2026-04-28 (Vocabulary Expansion - 24 New Entries, Batch 54)
 Added 24 new dictionary entries (IDs 25879-25902) from candidate_words.json. Focused batch of na-adjectives (～的な), katakana loanwords, and other useful vocabulary for intermediate learners.
 
