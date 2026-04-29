@@ -19,7 +19,9 @@
       "english": "That person gives off an air of intelligence.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13690_chisei_ex2",
@@ -27,7 +29,9 @@
       "english": "A balance between intellect and sensibility is important.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13690_chisei_ex3",
@@ -35,21 +39,49 @@
       "english": "It is said that human intelligence developed greatly through language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA somewhat formal and literary word. {知性|ちせい} implies a refined, cultivated form of intelligence — the kind associated with educated, thoughtful people. It differs from {知能|ちのう}, which refers more to raw cognitive ability or IQ.\n\nKANJI:\n{知|ち} means \"to know\" or \"wisdom\" and {性|せい} means \"nature\" or \"quality.\" The compound refers to the inherent quality of knowing and understanding.\n\nCONTRAST:\n- {知能|ちのう}: cognitive ability, IQ (more clinical/measurable)\n- {知恵|ちえ}: practical wisdom, cleverness (more applied/everyday)\n- {知性|ちせい}: intellect (more cultivated/sophisticated)\n\nCOMMON COLLOCATIONS:\n- {知性|ちせい}を{磨|みが}く: to cultivate one's intellect\n- {知性|ちせい}を{感|かん}じる: to sense intelligence\n- {知性|ちせい}{的|てき}: intellectual\n- {高|たか}い{知性|ちせい}: high intelligence",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03471_chinou",
+      "reading": "ちのう",
+      "headword": "{知能|ちのう}",
+      "label": "cognitive ability (measurable)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03428_chie",
+      "reading": "ちえ",
+      "headword": "{知恵|ちえ}",
+      "label": "practical wisdom"
+    },
+    {
+      "type": "related",
+      "target_id": "13700_chiteki",
+      "reading": "ちてき",
+      "headword": "{知的|ちてき}",
+      "label": "intellectual (adjective)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-26T12:57:15Z",
-    "modified": "2026-02-26T12:57:15Z",
+    "modified": "2026-04-29T07:15:05Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["thought"]
+      "semantic": [
+        "thought"
+      ]
     }
   }
 }

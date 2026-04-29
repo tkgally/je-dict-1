@@ -6,96 +6,6 @@
   "gloss": "to pray, to wish",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{祈|いの}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to pray",
-      "explanation": "To address a deity or spiritual power with requests, thanks, or devotion. Used for religious prayer or earnest supplication."
-    },
-    {
-      "sense_number": 2,
-      "gloss": "to wish, to hope earnestly",
-      "explanation": "To deeply hope for something, often for another person's wellbeing. Used in expressions of goodwill."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01198_inoru_ex1",
-      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧{祈|いの}りました。",
-      "english": "I prayed at the shrine.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01198_inoru_ex2",
-      "japanese": "ご⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{祈|いの}ります。",
-      "english": "I wish you success.",
-      "notes": "Common polite expression when wishing someone well",
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
-      "id": "01198_inoru_ex3",
-      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{祈|いの}っています。",
-      "english": "I'm praying for my family's health.",
-      "notes": "を marks what you pray/wish for",
-      "has_audio": false,
-      "sense_numbers": [
-        1,
-        2
-      ]
-    },
-    {
-      "id": "01198_inoru_ex4",
-      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{神|かみ}→神：02147_kami⟧⟦に→に：00314_ni⟧{祈|いの}っている。",
-      "english": "I pray to God every morning.",
-      "notes": "に marks the object of prayer",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01198_inoru_ex5",
-      "japanese": "⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{祈|いの}る。",
-      "english": "Wish for peace.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{祈|いの}る (pray for X) / Xに{祈|いの}る (pray to X—less common). No intransitive pair.\n\nASPECT: ている indicates ongoing state. {祈|いの}っている = 'is praying' or 'have been wishing (continuously).'\n\nCOMMON PATTERNS:\n・{幸|しあわ}せを{祈|いの}る (wish for happiness)\n・{成功|せいこう}を{祈|いの}る (pray for success)\n・{神|かみ}に{祈|いの}る (pray to god)\n・ご{無事|ぶじ}を{祈|いの}ります (I pray for your safety—polite)\n・{祈|いの}りを{捧|ささ}げる (offer a prayer—formal)\n\nCONTEXT: Used for both religious prayer (at shrines, temples, churches) and secular well-wishing. In Japanese culture, {祈|いの}る at a shrine ({神社|じんじゃ}) typically involves clapping and bowing.\n\nREGISTER: Neutral to slightly formal. Often used in polite expressions of goodwill.",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-08T10:33:01Z",
-    "modified": "2026-04-10T06:37:10Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "both",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "emotion"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -183,5 +93,98 @@
         "negative": "{祈|いの}るな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to pray",
+      "explanation": "To address a deity or spiritual power with requests, thanks, or devotion. Used for religious prayer or earnest supplication."
+    },
+    {
+      "sense_number": 2,
+      "gloss": "to wish, to hope earnestly",
+      "explanation": "To deeply hope for something, often for another person's wellbeing. Used in expressions of goodwill."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01198_inoru_ex1",
+      "japanese": "⟦{神社|じんじゃ}→神社：01620_jinja⟧⟦で→で：00502_de⟧{祈|いの}りました。",
+      "english": "I prayed at the shrine.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01198_inoru_ex2",
+      "japanese": "ご⟦{成功|せいこう}→成功：02638_seikou⟧⟦を→を：00422_wo⟧{祈|いの}ります。",
+      "english": "I wish you success.",
+      "notes": "Common polite expression when wishing someone well",
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    },
+    {
+      "id": "01198_inoru_ex3",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦の→の：09472_no⟧⟦{健康|けんこう}→健康：02706_kenkou⟧⟦を→を：00422_wo⟧{祈|いの}っています。",
+      "english": "I'm praying for my family's health.",
+      "notes": "を marks what you pray/wish for",
+      "has_audio": false,
+      "sense_numbers": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": "01198_inoru_ex4",
+      "japanese": "⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{神|かみ}→神：02147_kami⟧⟦に→に：00314_ni⟧{祈|いの}っている。",
+      "english": "I pray to God every morning.",
+      "notes": "に marks the object of prayer",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01198_inoru_ex5",
+      "japanese": "⟦{平和|へいわ}→平和：01507_heiwa⟧⟦を→を：00422_wo⟧{祈|いの}る。",
+      "english": "Wish for peace.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{祈|いの}る (pray for X) / Xに{祈|いの}る (pray to X—less common). No intransitive pair.\n\nASPECT: ている indicates ongoing state. {祈|いの}っている = 'is praying' or 'have been wishing (continuously).'\n\nCOMMON PATTERNS:\n・{幸|しあわ}せを{祈|いの}る (wish for happiness)\n・{成功|せいこう}を{祈|いの}る (pray for success)\n・{神|かみ}に{祈|いの}る (pray to god)\n・ご{無事|ぶじ}を{祈|いの}ります (I pray for your safety—polite)\n・{祈|いの}りを{捧|ささ}げる (offer a prayer—formal)\n\nCONTEXT: Used for both religious prayer (at shrines, temples, churches) and secular well-wishing. In Japanese culture, {祈|いの}る at a shrine ({神社|じんじゃ}) typically involves clapping and bowing.\n\nREGISTER: Neutral to slightly formal. Often used in polite expressions of goodwill.",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-08T10:33:01Z",
+    "modified": "2026-04-29T07:15:05Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "both",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "emotion"
+      ],
+      "verb_class": "godan-ru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "13732_inori",
+      "reading": "いのり",
+      "headword": "{祈|いの}り",
+      "note": "noun form"
+    }
+  ]
 }

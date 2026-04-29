@@ -19,7 +19,9 @@
       "english": "The schedule is undecided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14985_mitei_ex2",
@@ -27,7 +29,9 @@
       "english": "The venue hasn't been decided yet, but it's expected to be finalized within next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14985_mitei_ex3",
@@ -35,21 +39,36 @@
       "english": "The predecessor left the company while the successor's appointment was still undecided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {未|み} (not yet) and {定|てい} (fixed, decided). The prefix {未|み}～ is productive and appears in many words: {未定|みてい}, {未満|みまん}, {未知|みち}, {未来|みらい}.\n\nOften abbreviated as TBD (to be determined) in bilingual business contexts.\n\nSIMILAR WORDS:\n- {未決|みけつ} means undecided, especially in legal or formal contexts\n- {保留|ほりゅう} means 'on hold' — a deliberate postponement\n- {検討中|けんとうちゅう} means 'under consideration'\n\nCOMMON COLLOCATIONS:\n- {日時|にちじ}{未定|みてい} (date and time undecided)\n- {未定|みてい}のまま (remaining undecided)\n- まだ{未定|みてい} (still undecided)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13707_kakutei",
+      "reading": "かくてい",
+      "headword": "{確定|かくてい}",
+      "label": "determined, definite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-04T08:08:43Z",
-    "modified": "2026-03-04T08:08:43Z",
+    "modified": "2026-04-29T07:15:05Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }
