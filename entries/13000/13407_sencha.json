@@ -19,7 +19,9 @@
       "english": "I drink sencha after meals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13407_sencha_ex2",
@@ -27,7 +29,9 @@
       "english": "Sencha tastes best when brewed with water that has cooled slightly, rather than boiling water.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13407_sencha_ex3",
@@ -35,21 +39,35 @@
       "english": "The most widely consumed tea in Japan is sencha, accounting for about 60 percent of production.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "TYPES OF JAPANESE TEA:\n{煎茶|せんちゃ} is the everyday green tea of Japan, distinct from:\n- {抹茶|まっちゃ}: powdered tea used in tea ceremony\n- {玉露|ぎょくろ}: a high-grade shaded tea with a rich umami flavor\n- ほうじ{茶|ちゃ}: roasted green tea with a toasty flavor\n- {番茶|ばんちゃ}: coarser, everyday tea from later harvests\n\nBREWING:\n{煎茶|せんちゃ} is best brewed at around 70-80°C, not boiling water. Using cooler water brings out sweetness and umami while reducing bitterness.\n\nCOMMON COLLOCATIONS:\n- {煎茶|せんちゃ}を{淹|い}れる: to brew sencha\n- {煎茶|せんちゃ}を{飲|の}む: to drink sencha\n- {深蒸|ふかむ}し{煎茶|せんちゃ}: deep-steamed sencha",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13595_gyokuro",
+      "reading": "ぎょくろ",
+      "headword": "{玉露|ぎょくろ}",
+      "label": "gyokuro (highest grade)"
+    }
+  ],
   "metadata": {
     "created": "2026-02-24T11:36:53Z",
-    "modified": "2026-02-24T11:36:53Z",
+    "modified": "2026-04-29T05:15:51Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }
