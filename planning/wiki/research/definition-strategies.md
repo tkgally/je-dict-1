@@ -1,6 +1,6 @@
 # Definition and Gloss Strategies in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-04-28
+**Last updated**: 2026-04-29
 
 ## Overview
 
@@ -179,3 +179,4 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — COBUILD's grammar-in-definitions approach and natural-language patterns
 - [Multiword Expressions](multiword-expressions.md) — defining phrasal meanings vs. single-word meanings
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — glossing challenges for words with semantic shift from their source language
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — glossing culturally untranslatable speech acts like よろしくお願いします

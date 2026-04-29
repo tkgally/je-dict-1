@@ -1,6 +1,6 @@
 # Learner Lexicography
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-04-29
 
 ## What is learner lexicography?
 
@@ -125,3 +125,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Multiword Expressions](multiword-expressions.md) — idioms, collocations, and formulaic sequences in learner dictionaries
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — learner error patterns and their implications for dictionary design
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — lexical thresholds and dictionary sizing decisions
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic information in dictionaries and the L2 pragmatic competence gap

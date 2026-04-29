@@ -1,6 +1,6 @@
 # Japanese Lexicography Challenges
 
-**Last updated**: 2026-04-28
+**Last updated**: 2026-04-29
 
 ## Overview
 
@@ -92,3 +92,4 @@ Many words have multiple accepted spellings:
 - [Word Formation and Morphology](word-formation.md) — compounding, derivation, and vocabulary strata
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Japanese-specific error patterns and L1 transfer effects
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword adaptation, semantic shift, and dictionary treatment challenges
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — indirectness, keigo pragmatics, and sentence-final particles as Japanese-specific challenges
