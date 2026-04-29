@@ -19,7 +19,9 @@
       "english": "Please don't leak this outside the company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17992_shagai_ex2",
@@ -27,7 +29,9 @@
       "english": "Two outside directors were appointed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17992_shagai_ex3",
@@ -35,22 +39,38 @@
       "english": "This information is confidential to the company, so please handle it with care.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA common business term used as a prefix or standalone noun. Pairs with {社内|しゃない} (inside the company). Often modifies other nouns directly without の.\n\nCOMMON COLLOCATIONS:\n- {社外|しゃがい}{秘|ひ} (company confidential)\n- {社外|しゃがい}{取締役|とりしまりやく} (outside director)\n- {社外|しゃがい}の{人|ひと} (someone outside the company)\n- {社外|しゃがい}{向|む}け (for external use)\n\nSIMILAR WORDS:\n- {社内|しゃない}: inside the company — the antonym\n- {外部|がいぶ}: external — a broader term not limited to companies",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13731_shanai",
+      "reading": "しゃない",
+      "headword": "{社内|しゃない}",
+      "label": "within the company"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:49:05Z",
-    "modified": "2026-03-19T11:49:05Z",
+    "modified": "2026-04-29T07:15:05Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }
