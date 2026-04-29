@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-29 (Vocabulary Expansion - 21 New Entries, Batch 61)
+Added 21 new dictionary entries (IDs 26125-26145) from candidate_words.json. Diverse batch covering psychology, cooking, science, medicine, law, history, and grammar.
+
+- **Psychology/cognition (2)**: {内観|ないかん} (introspection), {妄想癖|もうそうへき} (habit of fantasizing)
+- **Cooking/food (4)**: {丸揚|まるあ}げ (whole deep-frying), {醤油焼|しょうゆや}き (soy sauce grilling), {丸煮|まるに} (simmered whole), {生豆|なままめ} (raw/green beans)
+- **Science/geology (2)**: {火成岩|かせいがん} (igneous rock), {変成岩|へんせいがん} (metamorphic rock)
+- **Medical (3)**: {低体温症|ていたいおんしょう} (hypothermia), {癒合|ゆごう} (bone healing/fusion), {抗菌薬|こうきんやく} (antibacterial drug)
+- **Law/politics (3)**: {不敬罪|ふけいざい} (lese-majeste), {免官|めんかん} (dismissal from office), {脱会|だっかい} (withdrawal from organization)
+- **Practical/daily life (3)**: {防寒具|ぼうかんぐ} (cold-weather gear), {国名|こくめい} (country name), {操業中|そうぎょうちゅう} (in operation)
+- **Education/grammar (1)**: {普通体|ふつうたい} (plain style)
+- **Culture/history (1)**: {孔子|こうし} (Confucius)
+- **Other (2)**: {救助者|きゅうじょしゃ} (rescuer), {相対性|そうたいせい} (relativity)
+- Conjugation tables auto-generated for 4 suru-verb entries
+- 21 candidates synced from candidate list
+
+Total entries: 25,917 → 25,938.
+
 ### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 60)
 Added 30 new dictionary entries (IDs 26095-26124) from candidate_words.json. Mixed batch covering politics, food, language, business, travel, culture, and daily life topics.
 
@@ -133,16 +150,5 @@ Added 16 new dictionary entries (IDs 25989-26004) from candidate_words.json. Cur
 - 15 candidates synced from candidate list
 
 Total entries: 25,781 → 25,797.
-
-### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 56)
-Added 28 new dictionary entries (IDs 25931-25958) from candidate_words.json. Mix of na-adjectives (～的), compound nouns, loanwords, and an adverb useful for intermediate learners.
-
-- **Na-adjectives with 的 (10)**: {感動的|かんどうてき} (moving), {挑戦的|ちょうせんてき} (challenging/provocative), {戦略的|せんりゃくてき} (strategic), {都会的|とかいてき} (urban/cosmopolitan), {魅惑的|みわくてき} (enchanting), {敵対的|てきたいてき} (hostile), {空想的|くうそうてき} (fanciful/visionary), {創作的|そうさくてき} (creative), {反発的|はんぱつてき} (resistant/defiant), {反逆的|はんぎゃくてき} (rebellious)
-- **Compound nouns (13)**: {中古車|ちゅうこしゃ} (used car), {牢獄|ろうごく} (prison/dungeon), {防波堤|ぼうはてい} (breakwater), {食料費|しょくりょうひ} (food expenses), {郵便局員|ゆうびんきょくいん} (postal clerk), {衝撃波|しょうげきは} (shock wave), {緊急警報|きんきゅうけいほう} (emergency alert), {木管楽器|もっかんがっき} (woodwind instrument), {覗|のぞ}き{穴|あな} (peephole), {最低気温|さいていきおん} (minimum temperature), {画像認識|がぞうにんしき} (image recognition), {原始時代|げんしじだい} (prehistoric times), {情報機器|じょうほうきき} (IT equipment)
-- **Loanwords (2)**: バケツリレー (bucket relay), フィルタリング (filtering)
-- **Other (3)**: {学術会議|がくじゅつかいぎ} (academic conference), {立体映像|りったいえいぞう} (3D image), {刻々|こっこく}と (moment by moment)
-- 27 candidates synced from candidate list
-
-Total entries: 25,723 → 25,751.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
