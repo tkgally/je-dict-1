@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 60)
+Added 30 new dictionary entries (IDs 26095-26124) from candidate_words.json. Mixed batch covering politics, food, language, business, travel, culture, and daily life topics.
+
+- **Verbs (3)**: {好|す}かれる (to be liked), {腹|はら}{減|へ}る (to be hungry, casual), {規模|きぼ}{拡大|かくだい}する (to scale up)
+- **Food/culture (3)**: {炒|い}り{卵|たまご} (scrambled eggs), {和食器|わしょっき} (Japanese tableware), {仲居|なかい}さん (ryokan waitress)
+- **Politics/society (3)**: {急進|きゅうしん} (radicalism), {政党|せいとう}{政治|せいじ} (party politics), {成員|せいいん} (member)
+- **Business/admin (5)**: {専門職|せんもんしょく} (professional occupation), {文書|ぶんしょ}{作成|さくせい} (document creation), {登録|とうろく}{番号|ばんごう} (registration number), {識別|しきべつ}{番号|ばんごう} (ID number), {消費財|しょうひざい} (consumer goods)
+- **Language/education (3)**: {書|か}き{順|じゅん} (stroke order), {普通語|ふつうご} (standard language), {学生|がくせい}{生活|せいかつ} (student life)
+- **Literature/science (2)**: {娯楽|ごらく}{小説|しょうせつ} (popular fiction), {空想|くうそう}{科学|かがく} (science fiction)
+- **Travel/transport (2)**: {出発|しゅっぱつ}ロビー (departure lobby), {専用車|せんようしゃ} (dedicated vehicle)
+- **Daily life/tech (5)**: {料理法|りょうりほう} (cooking method), {説明図|せつめいず} (explanatory diagram), {転送先|てんそうさき} (forwarding destination), {交換|こうかん}{部品|ぶひん} (replacement part), {表示板|ひょうじばん} (display board)
+- **Other (4)**: {年間|ねんかん}{予定|よてい} (annual schedule), {発光体|はっこうたい} (luminous body), {趣味人|しゅみじん} (hobbyist), {性行為|せいこうい} (sexual activity)
+- Conjugation tables auto-generated for 6 verb entries (3 godan, 1 ichidan, 2 suru)
+- Removed 2 stale candidates (思い遣る variant of existing 思いやる, 嫌な variant of existing 嫌)
+- 30 candidates synced from candidate list
+
+Total entries: 25,887 → 25,917.
+
 ### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 59)
 Added 30 new dictionary entries (IDs 26065-26094) from candidate_words.json. Mixed batch of practical vocabulary, expressions, and onomatopoeia for intermediate learners.
 
@@ -126,35 +144,5 @@ Added 28 new dictionary entries (IDs 25931-25958) from candidate_words.json. Mix
 - 27 candidates synced from candidate list
 
 Total entries: 25,723 → 25,751.
-
-### 2026-04-28 (Vocabulary Expansion - 28 New Entries, Batch 55)
-Added 28 new dictionary entries (IDs 25903-25930) from candidate_words.json. Diverse batch of expressions, cultural vocabulary, and descriptive terms useful for intermediate learners.
-
-- **Expressions (8)**: {今日|きょう}このごろ (these days), {余|あま}すところなく (completely), {期待|きたい}に{満|み}ちる (full of anticipation), {苦虫|にがむし}を{噛|か}み{潰|つぶ}したよう (looking sour), {目|め}に{遭|あ}う (to suffer), これより (from this point on), ジロリと{見|み}る (to glare), ぴんぴんしている (lively and well)
-- **Na-adjectives (2)**: {誘惑|ゆうわく}{的|てき} (tempting/seductive), {肉感|にっかん}{的|てき} (voluptuous)
-- **Nouns (12)**: {周|まわ}り{中|じゅう} (all around), {秘密|ひみつ}{主義|しゅぎ} (secretiveness), {大|だい}{音響|おんきょう} (loud sound), {読|よ}み{飛|と}ばし (skimming), {小物|こもの}{入|い}れ (accessory case), {伝送|でんそう} (transmission), {御|お}{祝儀|しゅうぎ}{袋|ぶくろ} (gift envelope), {括弧|かっこ}{書|が}き (parenthetical), {預言者|よげんしゃ} (prophet), {原稿料|げんこうりょう} (manuscript fee), {金銀|きんぎん}{財宝|ざいほう} (gold and treasure), {溺死|できし} (drowning), {機嫌|きげん}{屋|や} (moody person), {五十代|ごじゅうだい} (one's fifties), {高級|こうきゅう}{料亭|りょうてい} (high-class restaurant), {脚線美|きゃくせんび} (beautiful legs)
-- **Pronoun (1)**: あの{人|ひと} (that person; he/she)
-- **Verb (1)**: {引|ひ}きずられる (to be dragged/swayed)
-- Conjugation tables auto-generated for 4 verb entries (2 suru, 1 ichidan, 1 godan)
-- Removed 2 stale candidates (出す duplicate, 世渡り下手 variant reading)
-- 27 candidates synced from candidate list
-
-Total entries: 25,695 → 25,723.
-
-
-### 2026-04-27 (Vocabulary Expansion - 28 New Entries, Batch 53)
-Added 28 new dictionary entries (IDs 25831-25858) from candidate_words.json. Focused batch of expressions, verbs, and cultural vocabulary useful for intermediate learners.
-
-- **Social expressions (8)**: {気|き}を{遣|つか}う (to be considerate), {席|せき}を{外|はず}す (to step away), {顔|かお}を{立|た}てる (to save face), {恩|おん}を{売|う}る (to put someone in one's debt), {手|て}を{借|か}りる (to get help), {当|あ}てにする (to count on), {気|き}が{済|す}む (to be satisfied), お{茶|ちゃ}を{濁|にご}す (to be evasive)
-- **Verbs (5)**: {引|ひ}き{戻|もど}す (to pull back), おもねる (to flatter), {思|おも}いやる (to empathize), しくじる (to fail/blunder), あやかる (to share in good fortune)
-- **Expressions/adverbs (7)**: {思|おも}い{通|どお}り (as one wishes), {思|おも}うがまま (as one pleases), いかにして (how; by what means), たかが (merely; at most), そぐわない (to not suit), {腑|ふ}に{落|お}ちない (to not make sense), {身|み}を{乗|の}り{出|だ}す (to lean forward eagerly)
-- **Cultural (3)**: {心|こころ}を{無|む}にする (to clear one's mind), {物心|ものごころ}つく (to reach age of awareness), {故郷|こきょう}を{離|はな}れる (to leave hometown)
-- **Nouns (3)**: {滞留|たいりゅう} (stagnation/lingering), {傍点|ぼうてん} (emphasis dots), {目障|めざわ}り (eyesore)
-- **Other (2)**: ぐずぐずする (to dawdle), {頭|あたま}を{柔|やわ}らかくする (to think flexibly)
-- Conjugation tables auto-generated for 7 verb entries (5 godan, 2 suru)
-- Removed 1 stale candidate (残存/ざんそん, variant of existing ざんぞん entry)
-- 11 candidates synced from candidate list
-
-Total entries: 25,623 → 25,651.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
