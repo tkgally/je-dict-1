@@ -1,6 +1,6 @@
 # Semantic Prosody
 
-**Last updated**: 2026-04-15
+**Last updated**: 2026-04-29
 
 ## Overview
 
@@ -110,3 +110,4 @@ The phenomenon is subtle enough that notes about it are probably more valuable i
 - [Beyond Flat Corpora](beyond-flat-corpora.md) — why LLMs detect prosody where frequency data cannot
 - [Vocabulary Notes](../project/quality-standards.md) — current USAGE and SIMILAR WORDS conventions that can carry prosody information
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — overlapping territory, since many mimetics carry fixed evaluative polarity
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — connotation and affect as pragmatic dimensions of meaning

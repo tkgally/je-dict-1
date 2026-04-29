@@ -1,6 +1,6 @@
 # Vocabulary Acquisition
 
-**Last updated**: 2026-04-28
+**Last updated**: 2026-04-29
 
 ## How L2 learners acquire vocabulary
 
@@ -110,3 +110,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — what learners get wrong and what it means for dictionary design
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how many words learners need and what that means for dictionary sizing
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — the cognate advantage for English-speaking learners and its limits
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic competence gap and why grammatical knowledge doesn't ensure appropriate language use

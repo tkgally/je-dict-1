@@ -1,6 +1,6 @@
 # Example Sentence Design
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-04-29
 
 ## What makes good dictionary examples?
 
@@ -73,3 +73,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Vocabulary Acquisition](vocabulary-acquisition.md)
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — encoding examples and grammar-through-examples
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — designing examples that preempt common errors
+- [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — designing examples that make pragmatic context salient
