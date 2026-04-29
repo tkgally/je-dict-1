@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 59)
+Added 30 new dictionary entries (IDs 26065-26094) from candidate_words.json. Mixed batch of practical vocabulary, expressions, and onomatopoeia for intermediate learners.
+
+- **Expressions (8)**: {影響|えいきょう}を{与|あた}える (to influence), {左右|さゆう}される (to be swayed), {目|め}を{覚|さ}ます (to wake up / come to senses), けちをつける (to find fault / jinx), {工夫|くふう}を{凝|こ}らす (to devise cleverly), {時間|じかん}がかかる (to take time), {楽|らく}になる (to become easier), {冗談|じょうだん}を{言|い}う (to joke)
+- **Nouns (11)**: {総合病院|そうごうびょういん} (general hospital), {長期休暇|ちょうききゅうか} (long vacation), {害悪|がいあく} (harm), {始発駅|しはつえき} (starting station), {最高気温|さいこうきおん} (highest temperature), {問題解決|もんだいかいけつ} (problem solving), {一割|いちわり} (10%), {話題性|わだいせい} (newsworthiness), {時間制限|じかんせいげん} (time limit), {記録映画|きろくえいが} (documentary), {選挙運動|せんきょうんどう} (election campaign)
+- **Nouns continued (4)**: {最終段階|さいしゅうだんかい} (final stage), {視覚障害|しかくしょうがい} (visual impairment), {人生哲学|じんせいてつがく} (philosophy of life), {火鍋|ひなべ} (Chinese hot pot)
+- **Adverbs (3)**: {故意|こい}に (intentionally), {勢|いきお}いよく (vigorously), じっと{見|み}る (to stare fixedly)
+- **Onomatopoeia (2)**: ぽんぽん (tapping / in succession / tummy), ぷくぷく (plump / bubbling)
+- **Adjective-no (2)**: {極小|きょくしょう} (extremely small), {可燃|かねん} (flammable)
+- Conjugation table auto-generated for 1 suru-verb entry
+- Removed 5 stale candidates (duplicates/variants of existing entries)
+- 30 candidates synced from candidate list
+
+Total entries: 25,857 → 25,887.
+
 ### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 58)
 Added 30 new dictionary entries (IDs 26005-26034) from candidate_words.json. Varied batch of practical vocabulary for intermediate learners.
 
@@ -126,16 +141,6 @@ Added 28 new dictionary entries (IDs 25903-25930) from candidate_words.json. Div
 
 Total entries: 25,695 → 25,723.
 
-### 2026-04-28 (Vocabulary Expansion - 24 New Entries, Batch 54)
-Added 24 new dictionary entries (IDs 25879-25902) from candidate_words.json. Focused batch of na-adjectives (～的な), katakana loanwords, and other useful vocabulary for intermediate learners.
-
-- **Na-adjectives with 的 (10)**: {感動的|かんどうてき}な (moving), {挑戦的|ちょうせんてき}な (challenging/defiant), {戦略的|せんりゃくてき}な (strategic), {魅惑的|みわくてき}な (enchanting), {都会的|とかいてき}な (urban/sophisticated), {敵対的|てきたいてき}な (hostile), {創作的|そうさくてき}な (creative), {空想的|くうそうてき}な (fantastical), {反発的|はんぱつてき}な (defiant), {反逆的|はんぎゃくてき}な (rebellious), {肉感的|にくかんてき}な (voluptuous)
-- **Katakana loanwords (8)**: ハンマー (hammer), タイマー (timer), ドキュメント (document), トリック (trick), ネイル (nail art), ストライク (strike), バジル (basil), チーズケーキ (cheesecake), フック (hook), ポインター (pointer)
-- **Other (3)**: {名門校|めいもんこう} (prestigious school), どっちも (both, informal), やり{出|だ}す (to start doing)
-- Conjugation table auto-generated for 1 godan verb entry
-- 13 candidates synced from candidate list
-
-Total entries: 25,671 → 25,695.
 
 ### 2026-04-27 (Vocabulary Expansion - 28 New Entries, Batch 53)
 Added 28 new dictionary entries (IDs 25831-25858) from candidate_words.json. Focused batch of expressions, verbs, and cultural vocabulary useful for intermediate learners.
