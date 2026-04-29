@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-29 (Vocabulary Expansion - 15 New Entries, Batch 63)
+Added 15 new dictionary entries (IDs 26171-26185) from candidate_words.json. Diverse batch covering education, emergency services, daily life, manufacturing, medicine, nature, religion, transportation, and commerce.
+
+- **Education/documents (2)**: {教案|きょうあん} (lesson plan), {合格証|ごうかくしょう} (passing certificate)
+- **Emergency services (3)**: {救急隊|きゅうきゅうたい} (rescue squad), ポンプ{車|しゃ} (pumper truck), {誘導路|ゆうどうろ} (taxiway)
+- **Daily life (3)**: {郵便箱|ゆうびんばこ} (mailbox), {電気剃刀|でんきかみそり} (electric razor), {価格表示|かかくひょうじ} (price display)
+- **Medicine (1)**: {頓服薬|とんぷくやく} (as-needed medication)
+- **Nature/agriculture (2)**: {稲田|いなだ} (rice paddy), {留鳥|りゅうちょう} (resident bird)
+- **Manufacturing (1)**: {旋盤|せんばん} (lathe)
+- **Social/formal (2)**: {紹介者|しょうかいしゃ} (introducer/referrer), ご{労苦|ろうく} (hard work/toil)
+- **Religion (1)**: {奉献|ほうけん} (dedication/offering)
+- Removed 3 stale candidates (duplicates of existing entries)
+- 15 candidates synced from candidate list
+
+Total entries: 25,963 → 25,978.
+
 ### 2026-04-29 (Vocabulary Expansion - 25 New Entries, Batch 62)
 Added 25 new dictionary entries (IDs 26146-26170) from candidate_words.json. Mixed batch covering daily life, business, culture, health, and modern technology.
 
