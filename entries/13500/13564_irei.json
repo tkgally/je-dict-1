@@ -19,7 +19,9 @@
       "english": "It was decided with unusual speed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13564_irei_ex2",
@@ -27,7 +29,9 @@
       "english": "It is unusual for the prime minister to apologize directly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13564_irei_ex3",
@@ -35,21 +39,43 @@
       "english": "Because an exceptionally large typhoon is approaching, strict precautions are being called for nationwide.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a na-adjective ({異例|いれい}な or {異例|いれい}の) to describe something that breaks from established norms or precedent. Very common in news reporting and formal contexts. Often implies the situation is noteworthy because it rarely happens.\n\nCOMMON COLLOCATIONS:\n- {異例|いれい}の{措置|そち} (exceptional measure)\n- {異例|いれい}の{速|はや}さ (unusual speed)\n- {異例|いれい}の{事態|じたい} (unusual situation)\n- {異例|いれい}の{人事|じんじ} (unusual personnel appointment)\n- {異例|いれい}ずくめ (full of unusual things)\n\nSIMILAR WORDS:\n- {例外|れいがい}: exception (a case that doesn't follow the rule)\n- {前例|ぜんれい}のない: unprecedented (no prior cases)\n- {異常|いじょう}: abnormal, anomalous (implies something is wrong, not just unusual)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03798_reigai",
+      "reading": "れいがい",
+      "headword": "{例外|れいがい}",
+      "label": "exception"
+    },
+    {
+      "type": "related",
+      "target_id": "01716_ijou",
+      "reading": "いじょう",
+      "headword": "{異常|いじょう}",
+      "label": "abnormal"
+    }
+  ],
   "metadata": {
     "created": "2026-02-25T14:29:48Z",
-    "modified": "2026-02-25T14:29:48Z",
+    "modified": "2026-04-29T04:08:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive"]
+      "semantic": [
+        "descriptive"
+      ]
     }
   }
 }
