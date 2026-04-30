@@ -3,6 +3,23 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-04-29 (Vocabulary Expansion - 21 New Entries, Batch 61)
+Added 21 new dictionary entries (IDs 26125-26145) from candidate_words.json. Diverse batch covering psychology, cooking, science, medicine, law, history, and grammar.
+
+- **Psychology/cognition (2)**: {内観|ないかん} (introspection), {妄想癖|もうそうへき} (habit of fantasizing)
+- **Cooking/food (4)**: {丸揚|まるあ}げ (whole deep-frying), {醤油焼|しょうゆや}き (soy sauce grilling), {丸煮|まるに} (simmered whole), {生豆|なままめ} (raw/green beans)
+- **Science/geology (2)**: {火成岩|かせいがん} (igneous rock), {変成岩|へんせいがん} (metamorphic rock)
+- **Medical (3)**: {低体温症|ていたいおんしょう} (hypothermia), {癒合|ゆごう} (bone healing/fusion), {抗菌薬|こうきんやく} (antibacterial drug)
+- **Law/politics (3)**: {不敬罪|ふけいざい} (lese-majeste), {免官|めんかん} (dismissal from office), {脱会|だっかい} (withdrawal from organization)
+- **Practical/daily life (3)**: {防寒具|ぼうかんぐ} (cold-weather gear), {国名|こくめい} (country name), {操業中|そうぎょうちゅう} (in operation)
+- **Education/grammar (1)**: {普通体|ふつうたい} (plain style)
+- **Culture/history (1)**: {孔子|こうし} (Confucius)
+- **Other (2)**: {救助者|きゅうじょしゃ} (rescuer), {相対性|そうたいせい} (relativity)
+- Conjugation tables auto-generated for 4 suru-verb entries
+- 21 candidates synced from candidate list
+
+Total entries: 25,917 → 25,938.
+
 ### 2026-04-26 (Vocabulary Expansion - 30 New Entries, Batch 48)
 Added 30 new dictionary entries (IDs 25696-25725) from candidate_words.json. Mixed batch covering business, culture, daily life, science, expressions, and social topics.
 
