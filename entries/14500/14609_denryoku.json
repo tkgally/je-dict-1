@@ -19,7 +19,9 @@
       "english": "Reduce electricity consumption.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14609_denryoku_ex2",
@@ -27,7 +29,9 @@
       "english": "Systems that generate electricity from solar power are becoming widespread.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14609_denryoku_ex3",
@@ -35,22 +39,38 @@
       "english": "In summer, there are concerns about electricity shortages because air conditioner use increases.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{電力|でんりょく} refers to electric power on a systemic or industrial scale. For everyday electricity in the home, {電気|でんき} is more common. {電力|でんりょく} appears frequently in news about energy policy and infrastructure.\n\nCOMMON COLLOCATIONS:\n- {電力|でんりょく}{会社|がいしゃ} (electric power company)\n- {電力|でんりょく}{不足|ぶそく} (electricity shortage)\n- {電力|でんりょく}{供給|きょうきゅう} (electricity supply)\n- {電力|でんりょく}{消費|しょうひ} (electricity consumption)\n- {電力|でんりょく}を{節約|せつやく}する (to conserve electricity)\n- {再生可能|さいせいかのう}{電力|でんりょく} (renewable electricity)\n\nSIMILAR WORDS:\n- {電力|でんりょく}: electric power (large-scale, systemic)\n- {電気|でんき}: electricity (everyday usage; also means lights)\n- エネルギー: energy (broader term, includes all types)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "09780_denki",
+      "reading": "でんき",
+      "headword": "{電気|でんき}",
+      "label": "electricity (everyday)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:28:03Z",
-    "modified": "2026-03-02T08:28:03Z",
+    "modified": "2026-04-30T09:17:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }
