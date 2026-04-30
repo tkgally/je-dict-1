@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-30 (Vocabulary Expansion - 28 New Entries, Batch 68)
+Added 28 new dictionary entries (IDs 26313-26340) from candidate_words.json. Varied batch covering arts, health, science, daily life, culture, and more.
+
+- **Arts/culture (4)**: {改作|かいさく} (adaptation/rewriting), {阿修羅|あしゅら} (Asura/scene of carnage), ボーイズラブ (BL/boys' love genre), はかなくなる (to pass away, euphemism)
+- **Health/body (7)**: {排尿|はいにょう} (urination), {排便|はいべん} (defecation), {低体温|ていたいおん} (hypothermia), {乳腺|にゅうせん} (mammary gland), {洗浴|せんよく} (bathing), {手肌|てはだ} (hand skin), {真菌|しんきん} (fungus)
+- **Science/technology (4)**: {核酸|かくさん} (nucleic acid), {酢酸|さくさん} (acetic acid), {解像|かいぞう} (image resolution), {線分|せんぶん} (line segment)
+- **Society/business (3)**: {転籍|てんせき} (change of domicile/company transfer), {娼婦|しょうふ} (prostitute), {従量制|じゅうりょうせい} (usage-based pricing)
+- **Daily life/food (3)**: {粉茶|こなちゃ} (powdered tea), {片耳|かたみみ} (one ear), {休室|きゅうしつ} (room closure)
+- **Language/grammar (3)**: {付|つ}き (with/per), どっちか (either one), {耽溺|たんでき} (indulgence/addiction)
+- **Nature (1)**: {幼鳥|ようちょう} (young bird)
+- **Expressions (2)**: {取|と}り{憑|つ}かれる (to be possessed/obsessed), {細|こま}かいことを{言|い}う (to nitpick)
+- 1 new kanji added (娼)
+- Conjugation tables auto-generated for 8 verb entries
+- 28 candidates synced from candidate list
+
+Total entries: 26,105 → 26,133.
+
 ### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 67)
 Added 30 new dictionary entries (IDs 26283-26312) from candidate_words.json. Diverse batch covering daily life, science, business, culture, history, health, and more.
 
