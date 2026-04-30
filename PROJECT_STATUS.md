@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 67)
+Added 30 new dictionary entries (IDs 26283-26312) from candidate_words.json. Diverse batch covering daily life, science, business, culture, history, health, and more.
+
+- **Colors/body (2)**: {肌色|はだいろ} (skin color/flesh color), {毛根|もうこん} (hair root)
+- **Daily objects (2)**: {長傘|なががさ} (long umbrella), {密閉容器|みっぺいようき} (airtight container)
+- **Seasonal/calendar (3)**: {立秋|りっしゅう} (start of autumn), {立冬|りっとう} (start of winter), {凝固点|ぎょうこてん} (freezing point)
+- **Business/work (4)**: {変動費|へんどうひ} (variable costs), {未経験者|みけいけんしゃ} (inexperienced person), {現状報告|げんじょうほうこく} (status report), {個人事業主|こじんじぎょうぬし} (sole proprietor)
+- **Science/technical (4)**: {融解点|ゆうかいてん} (melting point), {定量分析|ていりょうぶんせき} (quantitative analysis), {鋳鉄|ちゅうてつ} (cast iron), {潤滑剤|じゅんかつざい} (lubricant)
+- **Geography/nature (2)**: {水系|すいけい} (water system), {分流|ぶんりゅう} (branching stream)
+- **People/roles (3)**: {撮影者|さつえいしゃ} (photographer), {当選者|とうせんしゃ} (winner/elected person), {原始人|げんしじん} (primitive man)
+- **Culture/writing (2)**: {乱筆|らんぴつ} (poor handwriting), {不忠|ふちゅう} (disloyalty)
+- **Architecture (1)**: {建築設計|けんちくせっけい} (architectural design)
+- **Security (1)**: {監視塔|かんしとう} (watchtower)
+- **General (2)**: {連続性|れんぞくせい} (continuity), {時限爆弾|じげんばくだん} (time bomb)
+- **Abstract (1)**: {無拘束|むこうそく} (unrestrained)
+- **Medical (2)**: {脱毛症|だつもうしょう} (alopecia), {外皮|がいひ} (outer skin)
+- Conjugation tables auto-generated for 3 suru-verb entries
+- 29 candidates synced from candidate list
+
+Total entries: 26,075 → 26,105.
+
 ### 2026-04-30 (Vocabulary Expansion - 24 New Entries, Batch 66)
 Added 24 new dictionary entries (IDs 26236-26259) from candidate_words.json. Diverse batch covering employment, patterns/textiles, business, geography, culture, food, science, politics, and more.
 
@@ -131,22 +152,5 @@ Added 15 new dictionary entries (IDs 26171-26185) from candidate_words.json. Div
 - 15 candidates synced from candidate list
 
 Total entries: 25,963 → 25,978.
-
-### 2026-04-29 (Vocabulary Expansion - 25 New Entries, Batch 62)
-Added 25 new dictionary entries (IDs 26146-26170) from candidate_words.json. Mixed batch covering daily life, business, culture, health, and modern technology.
-
-- **Food/culture (2)**: {柏|かしわ} (oak leaf / chicken in Kansai), お{惣菜屋|そうざいや} (deli, prepared-food shop)
-- **Business/finance (5)**: {稟議書|りんぎしょ} (approval document), {着金|ちゃっきん} (payment received), {価格上昇|かかくじょうしょう} (price increase), {部品代|ぶひんだい} (parts cost), {印刷会社|いんさつがいしゃ} (printing company)
-- **Technology/modern life (3)**: キャッシュレス{決済|けっさい} (cashless payment), オンライン{取引|とりひき} (online transaction), {重低音|じゅうていおん} (deep bass)
-- **Health/body (2)**: {便|べん} (stool), {半月板|はんげつばん} (meniscus)
-- **Transportation (3)**: {車内広告|しゃないこうこく} (in-train ads), {移動距離|いどうきょり} (travel distance), {走行速度|そうこうそくど} (travel speed)
-- **Daily life/practical (5)**: {建築中|けんちくちゅう} (under construction), {巻|ま}き{取|と}り (winding/reeling), {連|つ}れて{帰|かえ}る (bring someone home), {淡|あわ}い{色|いろ} (pale color), {適正使用|てきせいしよう} (proper use)
-- **Language/culture (3)**: こいつら (these guys), {色欲|しきよく} (lust), ネガ (negative film/pessimistic)
-- **Education (1)**: {発声練習|はっせいれんしゅう} (vocal practice)
-- **Counter (1)**: {一通|いっつう} (one letter/document)
-- Conjugation tables auto-generated for 4 suru-verb entries
-- 25 candidates synced from candidate list
-
-Total entries: 25,938 → 25,963.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
