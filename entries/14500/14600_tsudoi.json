@@ -19,7 +19,9 @@
       "english": "I attended a community gathering.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14600_tsudoi_ex2",
@@ -27,7 +29,9 @@
       "english": "A gathering of book lovers is held once a month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14600_tsudoi_ex3",
@@ -35,21 +39,42 @@
       "english": "I reunited with old friends at an alumni gathering after a long time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{集|つど}い is the noun form of the verb {集|つど}う (to gather). It has a warm, communal tone and is often used for social or community events rather than formal meetings.\n\nCOMMON COLLOCATIONS:\n- {集|つど}いに{参加|さんか}する (to attend a gathering)\n- {集|つど}いを{開|ひら}く (to hold a gathering)\n- {仲間|なかま}の{集|つど}い (a gathering of friends/companions)\n\nSIMILAR WORDS:\n- {集|つど}い: gathering (warm, communal tone)\n- {集会|しゅうかい}: assembly (more formal, sometimes political)\n- {会合|かいごう}: meeting (business or organizational)\n- {寄|よ}り{合|あ}い: informal get-together (neighborhood/community)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14591_tsudou",
+      "reading": "つどう",
+      "headword": "{集|つど}う",
+      "label": "to gather (verb form)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "14654_shuukai",
+      "reading": "しゅうかい",
+      "headword": "{集会|しゅうかい}",
+      "label": "assembly (formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-02T08:24:31Z",
-    "modified": "2026-03-02T08:24:31Z",
+    "modified": "2026-04-30T09:17:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }
