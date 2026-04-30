@@ -161,3 +161,4 @@ This is a significant gap for highly polysemous entries. Adding sense-number lin
 - [Compound Verb Representation](../topics/compound-verbs.md) — entry-vs-pattern decisions for V1+V2 compounds
 - [Word Variants](../topics/word-variants.md) — handling multiple written forms
 - [Vocabulary Acquisition](vocabulary-acquisition.md) — how learners acquire multi-sense knowledge
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — paradigmatic sense relations (synonymy, antonymy, hyponymy) and their dictionary treatment

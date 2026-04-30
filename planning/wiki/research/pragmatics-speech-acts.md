@@ -153,7 +153,7 @@ je-dict-1's entry design already provides several pragmatic channels:
 
 1. **Register fields**: The schema includes formality, politeness, style, and domain tags — a richer register system than most comparable dictionaries.
 2. **Usage notes**: The USAGE and SIMILAR WORDS sections in notes naturally carry pragmatic information when well-written.
-3. **Example sentences**: With over 104,000 examples, there is substantial implicit pragmatic input — but its pragmatic value depends on whether examples are designed to show contextual appropriateness or merely grammatical patterns.
+3. **Example sentences**: With over 104,500 examples, there is substantial implicit pragmatic input — but its pragmatic value depends on whether examples are designed to show contextual appropriateness or merely grammatical patterns.
 4. **Cross-references for keigo**: The cross-reference system links plain/honorific/humble forms, enabling learners to navigate the politeness gradient.
 
 ### Areas for improvement

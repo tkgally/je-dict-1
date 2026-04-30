@@ -68,3 +68,4 @@ Cross-references are also essential — they expose the system of related words 
 - [Semantic Prosody](semantic-prosody.md) — the evaluative dimension that monolingual glosses routinely strip
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — semantic shift in loanwords as a translation equivalence challenge
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — when translation fails because the pragmatic function has no English equivalent
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — cross-linguistic asymmetry in near-synonym sets and stratal synonymy

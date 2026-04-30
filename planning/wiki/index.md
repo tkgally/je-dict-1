@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-04-30
 
 ## How this wiki is organized
 
@@ -49,6 +49,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Vocabulary Size and Text Coverage](research/vocabulary-size-coverage.md) — Lexical thresholds (95%/98%), word-family counts for comprehension, dictionary sizing, and Japanese-specific considerations
 - [Gairaigo: Loanwords in Japanese](research/gairaigo-loanwords.md) — Phonological adaptation, semantic shift, false friends, wasei-eigo, cognate advantage, and dictionary treatment
 - [Pragmatics and Speech Acts](research/pragmatics-speech-acts.md) — Speech act theory, Japanese indirectness, sentence-final particles, pragmatic competence gap, and dictionary treatment
+- [Sense Relations and Semantic Networks](research/sense-relations-semantic-networks.md) — Synonymy, antonymy, hyponymy, mental lexicon organization, semantic clustering debate, and dictionary treatment
 
 ## Topics
 
