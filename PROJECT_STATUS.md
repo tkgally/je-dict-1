@@ -51,6 +51,30 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 64)
+Added 30 new dictionary entries (IDs 26186-26215) from candidate_words.json. Diverse batch covering history, business, geography, science, food, art, architecture, medicine, nature, education, entertainment, and technology.
+
+- **History/culture (3)**: {藩主|はんしゅ} (feudal domain lord), {蛮族|ばんぞく} (barbarian tribe), {公女|こうじょ} (princess/noblewoman)
+- **Business/keigo (4)**: {資金源|しきんげん} (funding source), {先方様|せんぽうさま} (the other party - honorific), {専売店|せんばいてん} (exclusive dealer), {会社名|かいしゃめい} (company name)
+- **Geography/science (3)**: {緯線|いせん} (latitude line), {西経|せいけい} (west longitude), {高層雲|こうそううん} (altostratus cloud)
+- **Food/cooking (3)**: {焼|や}き{網|あみ} (grill net), {赤|あか}ピーマン (red bell pepper), {焙煎機|ばいせんき} (coffee roaster)
+- **Architecture/urban (3)**: {超高層|ちょうこうそう} (super high-rise), {工事現場|こうじげんば} (construction site), {中央広場|ちゅうおうひろば} (central plaza)
+- **Entertainment/media (2)**: {娯楽映画|ごらくえいが} (entertainment film), ホラー{小説|しょうせつ} (horror novel)
+- **Agriculture (1)**: {施肥|せひ} (fertilization)
+- **Art/craft (2)**: {彫刻刀|ちょうこくとう} (carving chisel), {色付|いろづ}ける (to color/tint)
+- **Medicine/body (2)**: {血小板|けっしょうばん} (platelet), {低身長|ていしんちょう} (short stature)
+- **Housing (1)**: お{屋敷|やしき} (mansion)
+- **Education (1)**: {学習指導要領|がくしゅうしどうようりょう} (curriculum guidelines)
+- **Technology (1)**: {高解像度|こうかいぞうど} (high resolution)
+- **Literary (1)**: {場景|ばけい} (scene/setting)
+- **Transportation (1)**: {自動車道|じどうしゃどう} (motorway/expressway)
+- **Planning (1)**: {方案|ほうあん} (plan/proposal)
+- **Nature (1)**: {鹿角|ろっかく} (antler)
+- Conjugation table auto-generated for 1 ichidan verb entry
+- 30 candidates synced from candidate list
+
+Total entries: 25,978 → 26,008.
+
 ### 2026-04-29 (Vocabulary Expansion - 15 New Entries, Batch 63)
 Added 15 new dictionary entries (IDs 26171-26185) from candidate_words.json. Diverse batch covering education, emergency services, daily life, manufacturing, medicine, nature, religion, transportation, and commerce.
 
@@ -118,70 +142,5 @@ Added 30 new dictionary entries (IDs 26095-26124) from candidate_words.json. Mix
 - 30 candidates synced from candidate list
 
 Total entries: 25,887 → 25,917.
-
-### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 59)
-Added 30 new dictionary entries (IDs 26065-26094) from candidate_words.json. Mixed batch of practical vocabulary, expressions, and onomatopoeia for intermediate learners.
-
-- **Expressions (8)**: {影響|えいきょう}を{与|あた}える (to influence), {左右|さゆう}される (to be swayed), {目|め}を{覚|さ}ます (to wake up / come to senses), けちをつける (to find fault / jinx), {工夫|くふう}を{凝|こ}らす (to devise cleverly), {時間|じかん}がかかる (to take time), {楽|らく}になる (to become easier), {冗談|じょうだん}を{言|い}う (to joke)
-- **Nouns (11)**: {総合病院|そうごうびょういん} (general hospital), {長期休暇|ちょうききゅうか} (long vacation), {害悪|がいあく} (harm), {始発駅|しはつえき} (starting station), {最高気温|さいこうきおん} (highest temperature), {問題解決|もんだいかいけつ} (problem solving), {一割|いちわり} (10%), {話題性|わだいせい} (newsworthiness), {時間制限|じかんせいげん} (time limit), {記録映画|きろくえいが} (documentary), {選挙運動|せんきょうんどう} (election campaign)
-- **Nouns continued (4)**: {最終段階|さいしゅうだんかい} (final stage), {視覚障害|しかくしょうがい} (visual impairment), {人生哲学|じんせいてつがく} (philosophy of life), {火鍋|ひなべ} (Chinese hot pot)
-- **Adverbs (3)**: {故意|こい}に (intentionally), {勢|いきお}いよく (vigorously), じっと{見|み}る (to stare fixedly)
-- **Onomatopoeia (2)**: ぽんぽん (tapping / in succession / tummy), ぷくぷく (plump / bubbling)
-- **Adjective-no (2)**: {極小|きょくしょう} (extremely small), {可燃|かねん} (flammable)
-- Conjugation table auto-generated for 1 suru-verb entry
-- Removed 5 stale candidates (duplicates/variants of existing entries)
-- 30 candidates synced from candidate list
-
-Total entries: 25,857 → 25,887.
-
-### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 58)
-Added 30 new dictionary entries (IDs 26005-26034) from candidate_words.json. Varied batch of practical vocabulary for intermediate learners.
-
-- **Expressions (1)**: {目|め}をつぶる (to close one's eyes / to overlook)
-- **People/education (3)**: {優等生|ゆうとうせい} (honor student), {見知|みし}らぬ{人|ひと} (stranger), {人物像|じんぶつぞう} (character profile)
-- **Culture/history (4)**: {鍛冶屋|かじや} (blacksmith), {銘文|めいぶん} (inscription), {町工場|まちこうば} (small factory), {昔日|せきじつ} (former times)
-- **Anonymous reference (2)**: {某社|ぼうしゃ} (a certain company), {某所|ぼうしょ} (a certain place)
-- **Body/health (3)**: {涙腺|るいせん} (tear gland), {声|こえ}がれ (hoarseness), {低血糖|ていけっとう} — skipped, not in final set
-- **Nature/seasons (2)**: {初秋|しょしゅう} (early autumn), {巣箱|すばこ} (nest box)
-- **Action/observation (2)**: {盗|ぬす}み{見|み} (sneaking a look), {覗|のぞ}き{見|み} (peeking)
-- **Abstract/academic (3)**: {相反|あいはん} (contradiction), {慎重|しんちょう}さ (prudence), {跡形|あとかた} (trace)
-- **Practical/daily life (5)**: {手作|てづく}り{感|かん} (handmade feel), {内容物|ないようぶつ} (contents), {抜|ぬ}き{打|う}ち (surprise inspection), {専門外|せんもんがい} (outside one's specialty), {資格証|しかくしょう} (qualification certificate)
-- **Science/tech (3)**: {巨大化|きょだいか} (becoming enormous), {断電|だんでん} (power outage), {桁数|けたすう} (number of digits)
-- **Other (2)**: {格上|かくじょう} (upgrading), よもやま{話|ばなし} (miscellaneous chat), {宇宙船|うちゅうせん} (spaceship)
-- Conjugation tables auto-generated for 6 suru-verb entries
-- 30 candidates synced from candidate list
-
-Total entries: 25,797 → 25,827.
-
-### 2026-04-28 (Vocabulary Expansion - 30 New Entries, Batch 57)
-Added 30 new dictionary entries (IDs 25959-25988) from candidate_words.json. Diverse batch of useful vocabulary for intermediate learners including expressions, cultural terms, travel/transport vocabulary, and language-related words.
-
-- **Expressions (5)**: よろしければ (if you don't mind), {岐路|きろ}に{立|た}つ (to stand at a crossroads), {衝撃|しょうげき}を{受|う}ける (to be shocked), とにもかくにも (at any rate), あれやこれや (this and that)
-- **Travel/transport (5)**: {宿泊費|しゅくはくひ} (accommodation costs), {旅行会社|りょこうがいしゃ} (travel agency), {寝台列車|しんだいれっしゃ} (sleeper train), {特急列車|とっきゅうれっしゃ} (limited express train), {急行列車|きゅうこうれっしゃ} (express train)
-- **Language (4)**: {書|か}き{言葉|ことば} (written language), {早口言葉|はやくちことば} (tongue twister), イントネーション (intonation), スペイン{語|ご} (Spanish language)
-- **Culture (2)**: {七夕祭|たなばたまつ}り (Tanabata festival), {鼓|つづみ} (hand drum)
-- **Politics/society (3)**: {問題提起|もんだいていき} (raising an issue), {標榜|ひょうぼう} (professing/claiming), {党員|とういん} (party member)
-- **Body/health (2)**: {鼓膜|こまく} (eardrum), {呻|うめ}き{声|ごえ} (groan)
-- **Other (9)**: {後知恵|あとぢえ} (hindsight), {出張費|しゅっちょうひ} (business trip expenses), {年齢層|ねんれいそう} (age group), {合格点|ごうかくてん} (passing score), {名物料理|めいぶつりょうり} (local specialty dish), あちらこちら (here and there), {結論|けつろん}づける (to conclude), {緑地|りょくち} (green space), バランス{感覚|かんかく} (sense of balance)
-- Conjugation tables auto-generated for 3 verb entries (2 suru, 1 ichidan)
-- 1 new kanji added to index: 榜
-- Removed 3 stale candidates (洗練された duplicate, 苦虫をかみつぶしたよう variant, 年中行事 variant reading)
-- 30 candidates synced from candidate list
-
-Total entries: 25,751 → 25,781.
-
-### 2026-04-28 (Vocabulary Expansion - 16 New Entries, Batch 57)
-Added 16 new dictionary entries (IDs 25989-26004) from candidate_words.json. Curated batch of useful vocabulary spanning multiple domains.
-
-- **Culture/arts (2)**: {話芸|わげい} (art of storytelling), {再結成|さいけっせい} (reunion/reforming of a group)
-- **Spatial/physical (3)**: {下段|げだん} (lower level/low guard), {砂岩|さがん} (sandstone), {経線|けいせん} (meridian)
-- **Practical/daily life (4)**: {常用薬|じょうようやく} (regular medication), {肌質|はだしつ} (skin type), {相乗|あいの}り (ride-sharing), {売札|うりふだ} (price tag)
-- **Academic/technical (2)**: {導出|どうしゅつ} (derivation), {数列|すうれつ} (number sequence)
-- **Society/evaluation (3)**: {無冠|むかん} (uncrowned/titleless), {無回答|むかいとう} (no answer), {風波|ふうは} (trouble/discord)
-- **Other (2)**: {紙片|しへん} (scrap of paper), {再刊|さいかん} (republication)
-- Conjugation tables auto-generated for 4 suru-verb entries
-- 15 candidates synced from candidate list
-
-Total entries: 25,781 → 25,797.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
