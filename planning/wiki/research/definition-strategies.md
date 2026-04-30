@@ -180,3 +180,4 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Multiword Expressions](multiword-expressions.md) — defining phrasal meanings vs. single-word meanings
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — glossing challenges for words with semantic shift from their source language
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — glossing culturally untranslatable speech acts like よろしくお願いします
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonym discrimination and sense relation types in dictionary design

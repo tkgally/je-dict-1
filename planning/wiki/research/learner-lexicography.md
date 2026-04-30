@@ -126,3 +126,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — learner error patterns and their implications for dictionary design
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — lexical thresholds and dictionary sizing decisions
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic information in dictionaries and the L2 pragmatic competence gap
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonymy, antonymy, hyponymy, and their representation in dictionaries

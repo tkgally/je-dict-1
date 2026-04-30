@@ -227,3 +227,4 @@ The gap between the dictionary's 6.1% gairaigo coverage and the 19% type frequen
 - [Register and Formality](../topics/register.md) — register differences between gairaigo and wago/kango synonyms
 - [Definition and Gloss Strategies](definition-strategies.md) — gloss writing for words with no exact translation equivalent
 - [Entry Design](../project/entry-design.md) — current schema and what fields exist for loanword annotation
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — stratal synonymy between wago, kango, and gairaigo

@@ -1,10 +1,10 @@
 # Vocabulary Size and Text Coverage
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-04-30
 
 ## Overview
 
-How many words does a learner need to know? This deceptively simple question has driven decades of vocabulary acquisition research and directly shapes decisions about dictionary size, tier boundaries, and expansion priorities. The consensus answer — "it depends on the task, the text, and what counts as 'knowing'" — is precise enough to be useful. This page synthesizes the key findings on vocabulary size thresholds, text coverage models, and their implications for a Japanese-English learner dictionary at 25,900+ entries.
+How many words does a learner need to know? This deceptively simple question has driven decades of vocabulary acquisition research and directly shapes decisions about dictionary size, tier boundaries, and expansion priorities. The consensus answer — "it depends on the task, the text, and what counts as 'knowing'" — is precise enough to be useful. This page synthesizes the key findings on vocabulary size thresholds, text coverage models, and their implications for a Japanese-English learner dictionary at 26,100+ entries.
 
 ## The text coverage model
 
@@ -150,7 +150,7 @@ This is why major learner dictionaries aim for 40,000–80,000+ headwords despit
 
 ### Current size in context
 
-With 25,900+ entries, je-dict-1 is well past the vocabulary size needed for 98% text coverage (roughly 8,000–9,000 English word families, or perhaps 10,000–12,000 Japanese lemmas). The dictionary's basic + core tiers (~2,800 entries) likely correspond to the first 2,000–3,000 word families that cover ~80–90% of text. The general tier extends coverage deep into the long tail.
+With 26,100+ entries, je-dict-1 is well past the vocabulary size needed for 98% text coverage (roughly 8,000–9,000 English word families, or perhaps 10,000–12,000 Japanese lemmas). The dictionary's basic + core tiers (~2,800 entries) likely correspond to the first 2,000–3,000 word families that cover ~80–90% of text. The general tier extends coverage deep into the long tail.
 
 However, direct comparison is complicated by counting differences: je-dict-1 counts entries (one entry per headword, including compound expressions), while the coverage research counts word families. A single word family can span multiple je-dict-1 entries (e.g., 教える, 教わる, 教育, 教師, 教室 are five entries but might be two or three word families). Conversely, one je-dict-1 entry can cover multiple senses that the VST would count as separate "known words."
 
@@ -162,7 +162,7 @@ The three-tier system maps loosely onto the coverage research:
 |---------------|------|-------------------|
 | Basic | 801 | First 1,000 WF — survival vocabulary, ~72–78% coverage |
 | Basic + Core | 2,783 | First 2,000–3,000 WF — ~80–90% coverage, Laufer's minimal threshold |
-| + General (all) | 25,978 | Well beyond 98% written coverage — reference completeness |
+| + General (all) | 26,133 | Well beyond 98% written coverage — reference completeness |
 
 This mapping reinforces the tier design: basic + core gives the learner enough vocabulary to read with struggle; the general tier progressively reduces the density of unknowns toward comfortable reading. The 25,000-30,000 entry target in the [growth plan](../ideas/dictionary-growth.md) for "Phase 1: learner completeness" aligns with the major English learner dictionaries' wordlists and should provide comfortable reference coverage.
 
@@ -180,7 +180,7 @@ The [self-containment principle](../project/vocabulary-tiers.md) — that basic 
 
 ### Dictionary size vs. vocabulary size
 
-The coverage research clarifies that je-dict-1's size (25,900+) is not "too large" for intermediate learners — a concern that might arise from the finding that only 8,000–9,000 word families are needed for reading. The dictionary's role is not to represent the vocabulary a learner should memorize but to be a reliable reference for any word they encounter. Major English learner dictionaries contain 5–10× more headwords than the 98% coverage threshold, and je-dict-1 follows the same pattern.
+The coverage research clarifies that je-dict-1's size (26,100+) is not "too large" for intermediate learners — a concern that might arise from the finding that only 8,000–9,000 word families are needed for reading. The dictionary's role is not to represent the vocabulary a learner should memorize but to be a reliable reference for any word they encounter. Major English learner dictionaries contain 5–10× more headwords than the 98% coverage threshold, and je-dict-1 follows the same pattern.
 
 ## References
 

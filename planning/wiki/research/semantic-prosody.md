@@ -111,3 +111,4 @@ The phenomenon is subtle enough that notes about it are probably more valuable i
 - [Vocabulary Notes](../project/quality-standards.md) — current USAGE and SIMILAR WORDS conventions that can carry prosody information
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — overlapping territory, since many mimetics carry fixed evaluative polarity
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — connotation and affect as pragmatic dimensions of meaning
+- [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — prosody as a dimension that distinguishes near-synonyms
