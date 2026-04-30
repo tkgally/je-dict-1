@@ -19,7 +19,9 @@
       "english": "The world championship will be held next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14432_senshuken_ex2",
@@ -27,7 +29,9 @@
       "english": "She won the national championship.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "14432_senshuken_ex3",
@@ -35,22 +39,43 @@
       "english": "This team has advanced to the championship finals for three consecutive years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "A compound of {選手|せんしゅ} (athlete, player) and {権|けん} (right, title). Literally \"the right/title of being the selected player,\" meaning the championship title.\n\nCOMMON COLLOCATIONS:\n- {世界|せかい}{選手権|せんしゅけん} (world championship)\n- {全国|ぜんこく}{選手権|せんしゅけん} (national championship)\n- {選手権|せんしゅけん}{大会|たいかい} (championship tournament)\n- {選手権|せんしゅけん}を{獲得|かくとく}する (to win the championship)\n- {選手権|せんしゅけん}を{防衛|ぼうえい}する (to defend the championship)\n\nVery commonly seen in sports news. Can refer to both the title itself and the tournament held to determine the champion. Often appears with a scope prefix like {世界|せかい} (world) or {全国|ぜんこく} (national).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03823_senshu",
+      "reading": "せんしゅ",
+      "headword": "{選手|せんしゅ}",
+      "label": "player, athlete"
+    },
+    {
+      "type": "related",
+      "target_id": "03386_taikai",
+      "reading": "たいかい",
+      "headword": "{大会|たいかい}",
+      "label": "tournament"
+    }
+  ],
   "metadata": {
     "created": "2026-03-01T09:33:23Z",
-    "modified": "2026-03-01T09:33:23Z",
+    "modified": "2026-04-30T07:28:10Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "transitivity": null,
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }
