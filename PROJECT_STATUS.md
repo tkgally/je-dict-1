@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-30 (Vocabulary Expansion - 20 New Entries, Batch 65)
+Added 20 new dictionary entries (IDs 26216-26235) from candidate_words.json. Mixed batch covering language, sports, culture, geography, food, nature, and practical daily life.
+
+- **Language/grammar (1)**: {分|ぶん} (portion; share; extent)
+- **Geography (2)**: {低所|ていしょ} (low place), {異郷|いきょう} (foreign land)
+- **Photography/media (2)**: {写|うつ}り{映|ば}え (photogenic quality), {素材感|そざいかん} (texture; material feel)
+- **Sports (2)**: シュートする (to shoot), {体格差|たいかくさ} (size gap)
+- **Rankings/numbers (1)**: {三位|さんい} (third place)
+- **Communication (1)**: {空話|からばなし} (idle talk; tall tale)
+- **Daily life (3)**: {月|つき}めくり (monthly calendar), {駐車場代|ちゅうしゃじょうだい} (parking fee), {現地解散|げんちかいさん} (disbanding at venue)
+- **Business (3)**: {地元企業|じもときぎょう} (local company), {調整役|ちょうせいやく} (coordinator), {最有力|さいゆうりょく} (frontrunner)
+- **Food/commerce (2)**: {砂糖菓子|さとうがし} (sugar confection), {生産地|せいさんち} (production area)
+- **Ability (1)**: {総合力|そうごうりょく} (overall ability)
+- **Nature (1)**: {蜻蛉|かげろう} (mayfly)
+- **Games (1)**: {盤上|ばんじょう} (on the board)
+- Conjugation tables auto-generated for 2 suru-verb entries
+- 20 candidates synced from candidate list
+
+Total entries: 26,008 → 26,028.
+
 ### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 64)
 Added 30 new dictionary entries (IDs 26186-26215) from candidate_words.json. Diverse batch covering history, business, geography, science, food, art, architecture, medicine, nature, education, entertainment, and technology.
 
@@ -124,23 +144,5 @@ Added 21 new dictionary entries (IDs 26125-26145) from candidate_words.json. Div
 - 21 candidates synced from candidate list
 
 Total entries: 25,917 → 25,938.
-
-### 2026-04-29 (Vocabulary Expansion - 30 New Entries, Batch 60)
-Added 30 new dictionary entries (IDs 26095-26124) from candidate_words.json. Mixed batch covering politics, food, language, business, travel, culture, and daily life topics.
-
-- **Verbs (3)**: {好|す}かれる (to be liked), {腹|はら}{減|へ}る (to be hungry, casual), {規模|きぼ}{拡大|かくだい}する (to scale up)
-- **Food/culture (3)**: {炒|い}り{卵|たまご} (scrambled eggs), {和食器|わしょっき} (Japanese tableware), {仲居|なかい}さん (ryokan waitress)
-- **Politics/society (3)**: {急進|きゅうしん} (radicalism), {政党|せいとう}{政治|せいじ} (party politics), {成員|せいいん} (member)
-- **Business/admin (5)**: {専門職|せんもんしょく} (professional occupation), {文書|ぶんしょ}{作成|さくせい} (document creation), {登録|とうろく}{番号|ばんごう} (registration number), {識別|しきべつ}{番号|ばんごう} (ID number), {消費財|しょうひざい} (consumer goods)
-- **Language/education (3)**: {書|か}き{順|じゅん} (stroke order), {普通語|ふつうご} (standard language), {学生|がくせい}{生活|せいかつ} (student life)
-- **Literature/science (2)**: {娯楽|ごらく}{小説|しょうせつ} (popular fiction), {空想|くうそう}{科学|かがく} (science fiction)
-- **Travel/transport (2)**: {出発|しゅっぱつ}ロビー (departure lobby), {専用車|せんようしゃ} (dedicated vehicle)
-- **Daily life/tech (5)**: {料理法|りょうりほう} (cooking method), {説明図|せつめいず} (explanatory diagram), {転送先|てんそうさき} (forwarding destination), {交換|こうかん}{部品|ぶひん} (replacement part), {表示板|ひょうじばん} (display board)
-- **Other (4)**: {年間|ねんかん}{予定|よてい} (annual schedule), {発光体|はっこうたい} (luminous body), {趣味人|しゅみじん} (hobbyist), {性行為|せいこうい} (sexual activity)
-- Conjugation tables auto-generated for 6 verb entries (3 godan, 1 ichidan, 2 suru)
-- Removed 2 stale candidates (思い遣る variant of existing 思いやる, 嫌な variant of existing 嫌)
-- 30 candidates synced from candidate list
-
-Total entries: 25,887 → 25,917.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
