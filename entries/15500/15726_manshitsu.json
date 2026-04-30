@@ -19,7 +19,9 @@
       "english": "The hotel was fully booked.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15726_manshitsu_ex2",
@@ -27,7 +29,9 @@
       "english": "During the holiday period, everywhere is fully booked and I can't make a reservation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15726_manshitsu_ex3",
@@ -35,21 +39,36 @@
       "english": "Popular inns can be fully booked as early as six months in advance.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly seen on signs at hotels and parking garages (for the latter, {満車|まんしゃ} is used instead). The opposite is {空室|くうしつ} (vacancy).\n\nCOMMON COLLOCATIONS:\n- {満室|まんしつ}になる (to become fully booked)\n- {満室|まんしつ}{御礼|おんれい} (fully booked — thank you)\n- {空室|くうしつ}/{満室|まんしつ} (vacancy / no vacancy)\n\nSIMILAR WORDS:\n{満車|まんしゃ} (no parking spaces available), {満席|まんせき} (no seats available), {満員|まんいん} (full capacity of people).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "14798_kuushitsu",
+      "reading": "くうしつ",
+      "headword": "{空室|くうしつ}",
+      "label": "vacant room"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T08:51:20Z",
-    "modified": "2026-03-08T08:51:20Z",
+    "modified": "2026-04-30T10:37:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["travel", "quantity"]
+      "semantic": [
+        "travel",
+        "quantity"
+      ]
     }
   }
 }
