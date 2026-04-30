@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-04-30 (Vocabulary Expansion - 24 New Entries, Batch 66)
+Added 24 new dictionary entries (IDs 26236-26259) from candidate_words.json. Diverse batch covering employment, patterns/textiles, business, geography, culture, food, science, politics, and more.
+
+- **Employment/social (2)**: {非正規|ひせいき} (non-regular employment), {媒酌人|ばいしゃくにん} (matchmaker/go-between)
+- **Patterns/textiles (3)**: {縞模様|しまもよう} (striped pattern), {花柄|はながら} (floral pattern), {革製|かわせい} (leather-made)
+- **Business/admin (4)**: {見|み}える{化|か} (visualization), {保留中|ほりゅうちゅう} (on hold/pending), {懸案事項|けんあんじこう} (pending matter), {登録者|とうろくしゃ} (subscriber)
+- **Geography/nature (1)**: {湖岸|こがん} (lakeshore)
+- **Science/facilities (2)**: {観測所|かんそくじょ} (observatory), {接種率|せっしゅりつ} (vaccination rate)
+- **Politics/history (2)**: {中央集権|ちゅうおうしゅうけん} (centralization of power), {行政区|ぎょうせいく} (administrative district)
+- **Religion/culture (2)**: {使徒|しと} (apostle/disciple), {俗世間|ぞくせけん} (secular world)
+- **Medical/body (2)**: {拍動|はくどう} (pulsation), {律動|りつどう} (rhythm)
+- **Tourism (1)**: {誘客|ゆうきゃく} (attracting visitors)
+- **Mental health (1)**: {精神病|せいしんびょう} (mental illness)
+- **Food (2)**: {揚|あ}げかまぼこ (deep-fried fish cake), {粉乳|ふんにゅう} (powdered milk)
+- **Transportation (1)**: {通行可|つうこうか} (passable/open to traffic)
+- **Descriptive (1)**: おどろおどろしい (eerie/ghastly)
+- Conjugation tables auto-generated for 4 suru-verb and 1 i-adjective entries
+- 24 candidates synced from candidate list
+
+Total entries: 26,028 → 26,052.
+
 ### 2026-04-30 (Vocabulary Expansion - 20 New Entries, Batch 65)
 Added 20 new dictionary entries (IDs 26216-26235) from candidate_words.json. Mixed batch covering language, sports, culture, geography, food, nature, and practical daily life.
 
@@ -127,22 +148,5 @@ Added 25 new dictionary entries (IDs 26146-26170) from candidate_words.json. Mix
 - 25 candidates synced from candidate list
 
 Total entries: 25,938 → 25,963.
-
-### 2026-04-29 (Vocabulary Expansion - 21 New Entries, Batch 61)
-Added 21 new dictionary entries (IDs 26125-26145) from candidate_words.json. Diverse batch covering psychology, cooking, science, medicine, law, history, and grammar.
-
-- **Psychology/cognition (2)**: {内観|ないかん} (introspection), {妄想癖|もうそうへき} (habit of fantasizing)
-- **Cooking/food (4)**: {丸揚|まるあ}げ (whole deep-frying), {醤油焼|しょうゆや}き (soy sauce grilling), {丸煮|まるに} (simmered whole), {生豆|なままめ} (raw/green beans)
-- **Science/geology (2)**: {火成岩|かせいがん} (igneous rock), {変成岩|へんせいがん} (metamorphic rock)
-- **Medical (3)**: {低体温症|ていたいおんしょう} (hypothermia), {癒合|ゆごう} (bone healing/fusion), {抗菌薬|こうきんやく} (antibacterial drug)
-- **Law/politics (3)**: {不敬罪|ふけいざい} (lese-majeste), {免官|めんかん} (dismissal from office), {脱会|だっかい} (withdrawal from organization)
-- **Practical/daily life (3)**: {防寒具|ぼうかんぐ} (cold-weather gear), {国名|こくめい} (country name), {操業中|そうぎょうちゅう} (in operation)
-- **Education/grammar (1)**: {普通体|ふつうたい} (plain style)
-- **Culture/history (1)**: {孔子|こうし} (Confucius)
-- **Other (2)**: {救助者|きゅうじょしゃ} (rescuer), {相対性|そうたいせい} (relativity)
-- Conjugation tables auto-generated for 4 suru-verb entries
-- 21 candidates synced from candidate list
-
-Total entries: 25,917 → 25,938.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
