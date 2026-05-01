@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 12 New Entries, Batch 72)
+Added 12 new dictionary entries (IDs 26398-26409) from candidate_words.json. Focus on practical vocabulary covering media, daily life, business, politics, and industry.
+
+- **Media/entertainment (2)**: {連続|れんぞく}ドラマ (serial drama/TV series), {原作家|げんさくか} (original author)
+- **Leisure (1)**: {絶叫|ぜっきょう}マシン (thrill ride)
+- **Daily life/food (2)**: {白砂糖|しろざとう} (white sugar), {調乳|ちょうにゅう} (preparing formula)
+- **Business/real estate (2)**: {立地|りっち}{条件|じょうけん} (location conditions), {利害|りがい}{調整|ちょうせい} (coordination of interests)
+- **Politics (1)**: {国務大臣|こくむだいじん} (minister of state)
+- **Education (1)**: {出題者|しゅつだいしゃ} (question setter)
+- **Industry/technology (2)**: {電子|でんし}{部品|ぶひん} (electronic components), {水産|すいさん}{加工|かこう} (seafood processing)
+- **Insurance (1)**: {自動車|じどうしゃ}{保険|ほけん} (car insurance)
+- Conjugation table auto-generated for 1 suru-verb entry (調乳する)
+- 12 candidates synced from candidate list; 1 stale duplicate removed
+
+Total entries: 26,190 → 26,202.
+
 ### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 71)
 Added 20 new dictionary entries (IDs 26378-26397) from candidate_words.json. Focus on modern life, technology, culture, and daily practical vocabulary.
 
