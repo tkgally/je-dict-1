@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 17 New Entries, Batch 70)
+Added 17 new dictionary entries (IDs 26361-26377) from candidate_words.json. Mixed batch covering food, clothing, transportation, environment, language, and daily life.
+
+- **Food (3)**: {粕|かす} (dregs/residue/lees), カマンベール (camembert cheese), バニラアイス (vanilla ice cream)
+- **Clothing/fashion (4)**: ルームウェア (loungewear), ナイトウェア (nightwear), ポリエステル (polyester), ペディキュア (pedicure)
+- **Transportation (1)**: ドアミラー (side mirror, wasei-eigo)
+- **Environment (1)**: リデュース (reduce, 3R movement)
+- **Business (2)**: {全品|ぜんぴん} (all items), {送付状|そうふじょう} (cover letter/transmittal)
+- **Language/education (1)**: {和文英訳|わぶんえいやく} (Japanese-to-English translation)
+- **Geography (1)**: メキシコ (Mexico)
+- **Body/movement (1)**: のけぞり (bending backward)
+- **Sound (1)**: ばたんばたん (repeated banging/slamming)
+- **Verbs (1)**: {立|た}ち{入|い}る (to enter/trespass)
+- Conjugation tables auto-generated for 2 verb entries
+- 15 candidates synced; 6 stale candidates removed
+
+Total entries: 26,153 → 26,170.
+
 ### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 69)
 Added 20 new dictionary entries (IDs 26341-26360) from candidate_words.json. Batch covering nature, food, culture, daily life, recreation, agriculture, and color vocabulary.
 
