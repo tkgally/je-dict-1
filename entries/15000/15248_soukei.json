@@ -7,69 +7,6 @@
   "gloss": "sum total; grand total",
   "conjugation": {
     "type": "suru",
-    "prefix": "{総計|そうけい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "sum total; grand total; aggregate",
-      "explanation": "The total amount obtained by adding everything together."
-    }
-  ],
-  "examples": [
-    {
-      "id": "15248_soukei_ex1",
-      "japanese": "{総計|そうけい}で{百万円|ひゃくまんえん}になった。",
-      "english": "The total came to one million yen.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "15248_soukei_ex2",
-      "japanese": "{参加者|さんかしゃ}は{総計|そうけい}{三百名|さんびゃくめい}だった。",
-      "english": "The total number of participants was three hundred.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "15248_soukei_ex3",
-      "japanese": "{全部門|ぜんぶもん}の{売上|うりあげ}を{総計|そうけい}すると、{昨年|さくねん}より{一割|いちわり}{増加|ぞうか}していた。",
-      "english": "When all divisions' sales were totaled up, there was a ten percent increase over last year.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "FORMATION: {総|そう} (total, overall) + {計|けい} (count, calculate).\n\nCOMMON COLLOCATIONS:\n- {総計|そうけい}で: in total\n- {総計|そうけい}する: to total up, to calculate the sum\n- {総計|そうけい}{金額|きんがく}: total amount\n\nSIMILAR WORDS:\n- {総計|そうけい}: grand total (formal, comprehensive)\n- {合計|ごうけい}: total, sum (more common in everyday use)\n- {累計|るいけい}: cumulative total (accumulated over time)\n- {総額|そうがく}: total amount (specifically for money)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-05T10:25:18Z",
-    "modified": "2026-03-29T03:08:18Z",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "quantity",
-        "math"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -157,5 +94,72 @@
         "negative": "{総計|そうけい}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "sum total; grand total; aggregate",
+      "explanation": "The total amount obtained by adding everything together."
+    }
+  ],
+  "examples": [
+    {
+      "id": "15248_soukei_ex1",
+      "japanese": "{総計|そうけい}で{百万円|ひゃくまんえん}になった。",
+      "english": "The total came to one million yen.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "15248_soukei_ex2",
+      "japanese": "{参加者|さんかしゃ}は{総計|そうけい}{三百名|さんびゃくめい}だった。",
+      "english": "The total number of participants was three hundred.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "15248_soukei_ex3",
+      "japanese": "{全部門|ぜんぶもん}の{売上|うりあげ}を{総計|そうけい}すると、{昨年|さくねん}より{一割|いちわり}{増加|ぞうか}していた。",
+      "english": "When all divisions' sales were totaled up, there was a ten percent increase over last year.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "FORMATION: {総|そう} (total, overall) + {計|けい} (count, calculate).\n\nCOMMON COLLOCATIONS:\n- {総計|そうけい}で: in total\n- {総計|そうけい}する: to total up, to calculate the sum\n- {総計|そうけい}{金額|きんがく}: total amount\n\nSIMILAR WORDS:\n- {総計|そうけい}: grand total (formal, comprehensive)\n- {合計|ごうけい}: total, sum (more common in everyday use)\n- {累計|るいけい}: cumulative total (accumulated over time)\n- {総額|そうがく}: total amount (specifically for money)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02817_goukei",
+      "reading": "ごうけい",
+      "headword": "{合計|ごうけい}",
+      "label": "total, sum"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-05T10:25:18Z",
+    "modified": "2026-05-01T06:14:09Z",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "quantity",
+        "math"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

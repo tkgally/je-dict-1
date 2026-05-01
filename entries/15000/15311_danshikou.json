@@ -19,7 +19,9 @@
       "english": "He attends a boys' school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15311_danshikou_ex2",
@@ -27,7 +29,9 @@
       "english": "More and more schools are changing from all-boys to co-ed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15311_danshikou_ex3",
@@ -35,21 +39,35 @@
       "english": "Since I spent six years at an all-boys school, I had almost no opportunity to talk with girls until I entered university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{男子校|だんしこう} is short for {男子|だんし}{学校|がっこう}. In Japan, single-sex schools are primarily private and often have long histories and traditions.\n\nRELATED TERMS:\n- {女子校|じょしこう} (girls' school)\n- {共学|きょうがく} (co-educational school)\n- {別学|べつがく} (single-sex education)\n\nNOTE:\nMany traditional {男子校|だんしこう} in Japan have been converting to {共学|きょうがく} in recent decades due to declining birth rates and changing social norms.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "22046_joshikou",
+      "reading": "じょしこう",
+      "headword": "{女子校|じょしこう}",
+      "label": "girls' school"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T08:58:53Z",
-    "modified": "2026-03-06T08:58:53Z",
+    "modified": "2026-05-01T06:14:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }

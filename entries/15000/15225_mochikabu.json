@@ -19,7 +19,9 @@
       "english": "I sold my shareholdings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15225_mochikabu_ex2",
@@ -27,7 +29,9 @@
       "english": "The president's shareholding ratio is thirty percent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15225_mochikabu_ex3",
@@ -35,21 +39,36 @@
       "english": "I joined the employee stock ownership plan and buy a little company stock each month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{持|も}ち{株|かぶ} refers to shares one currently holds. It is common in business and financial contexts.\n\nCOMMON COLLOCATIONS:\n- {持|も}ち{株|かぶ}{会社|がいしゃ} (holding company)\n- {持|も}ち{株|かぶ}{比率|ひりつ} (shareholding ratio)\n- {従業員|じゅうぎょういん}{持|も}ち{株|かぶ}{会|かい} (employee stock ownership plan)\n- {持|も}ち{株|かぶ}を{売|う}る (to sell one's shares)\n- {持|も}ち{株|かぶ}を{増|ふ}やす (to increase one's shareholdings)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02592_kabu",
+      "reading": "かぶ",
+      "headword": "{株|かぶ}",
+      "label": "stock, share"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:41:42Z",
-    "modified": "2026-03-05T09:41:42Z",
+    "modified": "2026-05-01T06:14:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "finance"]
+      "semantic": [
+        "business",
+        "finance"
+      ]
     }
   }
 }

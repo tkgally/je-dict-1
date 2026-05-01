@@ -19,7 +19,9 @@
       "english": "I obtained a teaching license.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15464_menjou_ex2",
@@ -27,7 +29,9 @@
       "english": "I received a certificate in tea ceremony from my teacher.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15464_menjou_ex3",
@@ -35,21 +39,35 @@
       "english": "Having a black belt certificate in judo was a requirement for hiring.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly used for licenses and certificates in traditional Japanese arts ({茶道|さどう}, {華道|かどう}, {武道|ぶどう}) as well as official credentials like teaching licenses.\n\nCOMMON COLLOCATIONS:\n- {教員|きょういん}{免状|めんじょう} (teaching license)\n- {免状|めんじょう}を{取得|しゅとく}する (to obtain a license/certificate)\n- {免状|めんじょう}を{授|さず}ける (to confer a certificate)\n- {師範|しはん}{免状|めんじょう} (instructor's certificate)\n\nRELATED:\n- {免許|めんきょ} (license — broader term, includes driver's licenses)\n- {資格|しかく} (qualification, credential)\n- {修了証|しゅうりょうしょう} (certificate of completion)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03808_menkyo",
+      "reading": "めんきょ",
+      "headword": "{免許|めんきょ}",
+      "label": "license"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T07:41:08Z",
-    "modified": "2026-03-07T07:41:08Z",
+    "modified": "2026-05-01T06:14:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }
