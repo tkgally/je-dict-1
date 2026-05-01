@@ -19,7 +19,9 @@
       "english": "I offer my condolences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15866_okuyami_ex2",
@@ -27,7 +29,9 @@
       "english": "I wrote a letter of condolence to my friend's family.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15866_okuyami_ex3",
@@ -35,21 +39,36 @@
       "english": "Upon receiving the sudden news of the passing, I offer my heartfelt condolences.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMALITY:\nお{悔|く}やみ is inherently polite due to the お prefix. The most common set phrase is お{悔|く}やみを{申|もう}し{上|あ}げます, a formal expression used at funerals and in writing.\n\nCOMMON COLLOCATIONS:\n- お{悔|く}やみを{申|もう}し{上|あ}げる (to offer condolences — formal)\n- お{悔|く}やみの{言葉|ことば} (words of condolence)\n- お{悔|く}やみの{手紙|てがみ} (condolence letter)\n- お{悔|く}やみを{述|の}べる (to express condolences)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15556_aitou",
+      "reading": "あいとう",
+      "headword": "{哀悼|あいとう}",
+      "label": "condolence (formal/official)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T13:21:32Z",
-    "modified": "2026-03-08T13:21:32Z",
+    "modified": "2026-05-01T08:11:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["social", "death"]
+      "semantic": [
+        "social",
+        "death"
+      ]
     }
   }
 }

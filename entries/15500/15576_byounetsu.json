@@ -19,7 +19,9 @@
       "english": "She is bedridden with fever from illness.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15576_byounetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "The fever from the illness wouldn't go down, so hospitalization was decided.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15576_byounetsu_ex3",
@@ -35,22 +39,45 @@
       "english": "Despite suffering from fever, he continued writing his manuscript to the very end.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Composed of {病|びょう} (illness, disease) and {熱|ねつ} (heat, fever). A literary word more commonly found in novels and historical writing than in everyday conversation.\n\nIn everyday speech, simply {熱|ねつ} (fever) or {熱|ねつ}がある (to have a fever) is more common.\n\nCOMMON COLLOCATIONS:\n- {病熱|びょうねつ}に{苦|くる}しむ (to suffer from fever)\n- {病熱|びょうねつ}で{倒|たお}れる (to collapse from fever)\n- {病熱|びょうねつ}が{続|つづ}く (fever persists)\n\nSIMILAR WORDS:\n- {病熱|びょうねつ}: fever caused by illness (literary)\n- {発熱|はつねつ}: developing a fever (medical, clinical)\n- {高熱|こうねつ}: high fever (describes severity)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06297_hatsunetsu",
+      "reading": "はつねつ",
+      "headword": "{発熱|はつねつ}",
+      "label": "developing a fever (clinical)"
+    },
+    {
+      "type": "related",
+      "target_id": "14649_kounetsu",
+      "reading": "こうねつ",
+      "headword": "{高熱|こうねつ}",
+      "label": "high fever"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T11:21:01Z",
-    "modified": "2026-03-07T11:21:01Z",
+    "modified": "2026-05-01T08:11:13Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["medical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "medical"
+      ]
     }
   }
 }
