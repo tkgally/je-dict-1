@@ -19,7 +19,9 @@
       "english": "To compose a tanka.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15358_tanka_ex2",
@@ -27,7 +29,9 @@
       "english": "I submit to the newspaper's tanka column every week.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15358_tanka_ex3",
@@ -35,20 +39,34 @@
       "english": "The Man'yoshu contains approximately 4,500 tanka poems.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE: {短歌|たんか} follows a 5-7-5-7-7 mora pattern across five lines. Poems are counted with the counter {首|しゅ}. The verb for composing tanka is {詠|よ}む.\n\nThe form predates haiku; historically the upper portion (5-7-5) and lower portion (7-7) were sometimes composed by different people as a literary game. In modern times, tanka enjoys renewed popularity especially among younger poets.\n\nCOMMON COLLOCATIONS:\n- {短歌|たんか}を{詠|よ}む: to compose a tanka\n- {短歌|たんか}{集|しゅう}: a collection of tanka\n- {短歌|たんか}{欄|らん}: tanka column (in a newspaper)\n- {一首|いっしゅ}: one tanka poem\n\nSIMILAR WORDS:\n- {短歌|たんか}: 31-mora poem (5-7-5-7-7)\n- {俳句|はいく}: 17-mora poem (5-7-5)\n- {和歌|わか}: Japanese poem (classical umbrella term that includes tanka)\n- {川柳|せんりゅう}: humorous 17-mora poem (5-7-5, no seasonal word required)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00083_haiku",
+      "reading": "はいく",
+      "headword": "{俳句|はいく}",
+      "label": "17-syllable poem"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T11:46:46Z",
-    "modified": "2026-03-06T11:46:46Z",
+    "modified": "2026-05-01T06:14:09Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

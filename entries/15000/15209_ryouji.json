@@ -19,7 +19,9 @@
       "english": "I consulted the consul.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15209_ryouji_ex2",
@@ -27,7 +29,9 @@
       "english": "I applied for a visa at the Japanese consulate.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15209_ryouji_ex3",
@@ -35,21 +39,35 @@
       "english": "An event was organized for the consul general to interact with the local Japanese community.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{領事|りょうじ} is a government official stationed in a foreign city to assist citizens of their home country and handle diplomatic matters.\n\nKEY DISTINCTION:\n- {領事|りょうじ}: the consul (the person)\n- {領事館|りょうじかん}: the consulate (the building/office)\n\nCOMMON COLLOCATIONS:\n- {総|そう}{領事|りょうじ}: consul general (senior consul in a city)\n- {名誉|めいよ}{領事|りょうじ}: honorary consul\n- {領事|りょうじ}{業務|ぎょうむ}: consular services\n- {在|ざい}〜{日本|にほん}{領事館|りょうじかん}: Japanese consulate in ~\n\nCONTRAST WITH {大使|たいし}:\n- {領事|りょうじ}: consul — handles practical matters (visas, passports, citizen assistance)\n- {大使|たいし}: ambassador — the top diplomatic representative in a country\n- {領事館|りょうじかん}: consulate — often in major cities beyond the capital\n- {大使館|たいしかん}: embassy — in the capital city",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03391_taishi",
+      "reading": "たいし",
+      "headword": "{大使|たいし}",
+      "label": "ambassador"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T09:36:26Z",
-    "modified": "2026-03-30T03:38:10Z",
+    "modified": "2026-05-01T06:14:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["politics"]
+      "semantic": [
+        "politics"
+      ]
     }
   }
 }

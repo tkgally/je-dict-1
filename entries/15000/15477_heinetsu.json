@@ -19,7 +19,9 @@
       "english": "My temperature went back to normal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15477_heinetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "My normal body temperature is 36.2 degrees.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15477_heinetsu_ex3",
@@ -35,20 +39,34 @@
       "english": "After taking medicine, my fever went down and returned to normal.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION:\n{平|へい} (normal, ordinary) + {熱|ねつ} (heat, temperature).\n\nUSAGE:\nCommonly used in medical and everyday health contexts. In Japan, body temperature is measured in Celsius. Normal temperature ({平熱|へいねつ}) is generally considered to be around 36°C to 37°C.\n\nCOMMON COLLOCATIONS:\n- {平熱|へいねつ}に{戻|もど}る (to return to normal temperature)\n- {平熱|へいねつ}より{高|たか}い (higher than normal temperature)\n\nCONTRAST:\n- {高熱|こうねつ} (high fever)\n- {微熱|びねつ} (slight fever)\n- {発熱|はつねつ} (onset of fever)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "14649_kounetsu",
+      "reading": "こうねつ",
+      "headword": "{高熱|こうねつ}",
+      "label": "high fever"
+    }
+  ],
   "metadata": {
     "created": "2026-03-07T08:56:07Z",
-    "modified": "2026-03-07T08:56:07Z",
+    "modified": "2026-05-01T06:14:09Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["body-internal"]
+      "semantic": [
+        "body-internal"
+      ]
     }
   }
 }

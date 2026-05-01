@@ -19,7 +19,9 @@
       "english": "'Life is a journey' is a metaphor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15400_inyu_ex2",
@@ -27,7 +29,9 @@
       "english": "Metaphor does not use direct comparison.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15400_inyu_ex3",
@@ -35,22 +39,45 @@
       "english": "This poem contains many metaphors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{隠喩|いんゆ} is a literary and grammatical term. Unlike {直喩|ちょくゆ} (simile), which uses comparison markers like ～のような, {隠喩|いんゆ} states the comparison directly: 「A は B だ」.\n\nAlso called {暗喩|あんゆ}, which is a synonym.\n\nCONTRAST:\n{直喩|ちょくゆ} (simile) uses explicit comparison words. {隠喩|いんゆ} does not.\n\nWORD FORMATION:\n{隠|いん} (hidden) + {喩|ゆ} (comparison/metaphor) — literally \"hidden comparison.\"",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15399_chokuyu",
+      "reading": "ちょくゆ",
+      "headword": "{直喩|ちょくゆ}",
+      "label": "simile"
+    },
+    {
+      "type": "related",
+      "target_id": "13204_hiyu",
+      "reading": "ひゆ",
+      "headword": "{比喩|ひゆ}",
+      "label": "figurative speech"
+    }
+  ],
   "metadata": {
     "created": "2026-03-06T12:36:39Z",
-    "modified": "2026-03-06T12:36:39Z",
+    "modified": "2026-05-01T06:14:09Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["communication"],
-      "domain": ["academic"]
+      "semantic": [
+        "communication"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

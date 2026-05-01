@@ -19,7 +19,9 @@
       "english": "Freshly cooked rice is delicious.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15234_takitate_ex2",
@@ -27,7 +29,9 @@
       "english": "Freshly cooked rice with miso soup is all I need.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15234_takitate_ex3",
@@ -35,20 +39,35 @@
       "english": "When I opened the rice cooker, the wonderful aroma of freshly cooked rice wafted out.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "FORMATION: {炊|た}き (stem of {炊|た}く, to cook rice) + {立|た}て (suffix meaning 'freshly done'). The suffix ～{立|た}て attaches to the masu-stem of verbs to mean 'just [verb]ed.'\n\nRELATED ～{立|た}て WORDS:\n- {焼|や}き{立|た}て: freshly baked\n- {揚|あ}げ{立|た}て: freshly fried\n- {淹|い}れ{立|た}て: freshly brewed\n- {煎|い}り{立|た}て: freshly roasted\n\nCOMMON COLLOCATIONS:\n- {炊|た}き{立|た}てのご{飯|はん}: freshly cooked rice\n- {炊|た}き{立|た}てのつやつやした{白米|はくまい}: glossy freshly cooked white rice",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02127_taku",
+      "reading": "たく",
+      "headword": "{炊|た}く",
+      "label": "to cook rice"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T10:20:11Z",
-    "modified": "2026-03-05T10:20:11Z",
+    "modified": "2026-05-01T06:14:09Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }
