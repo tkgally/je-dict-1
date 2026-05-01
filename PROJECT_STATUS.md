@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 71)
+Added 20 new dictionary entries (IDs 26378-26397) from candidate_words.json. Focus on modern life, technology, culture, and daily practical vocabulary.
+
+- **Technology/digital (4)**: ダブルクリック (double-click), {相互|そうご}フォロー (mutual follow), カスタマーサポート (customer support), {番号通知|ばんごうつうち} (caller ID)
+- **Modern life (3)**: プロフィール{写真|しゃしん} (profile photo), ノマドワーカー (digital nomad), {自己出版|じこしゅっぱん} (self-publishing)
+- **Household/daily (4)**: {洗濯物干|せんたくものほ}し (drying rack/hanging laundry), {電子|でんし}レンジ{可|か} (microwave-safe), ランドリールーム (laundry room), {爪磨|つめみが}き (nail buffing)
+- **Health/admin (2)**: {接種券|せっしゅけん} (vaccination voucher), {届出書|とどけでしょ} (notification form)
+- **Culture/academic (3)**: {歳神様|としがみさま} (New Year deity), {文化人類学|ぶんかじんるいがく} (cultural anthropology), {近況文|きんきょうぶん} (status update message)
+- **Events/sports (2)**: {開始式|かいししき} (opening ceremony), {体操競技|たいそうきょうぎ} (artistic gymnastics)
+- **Commerce (2)**: {販売機|はんばいき} (vending machine), シャワーを{浴|あ}びる (to take a shower)
+- Conjugation tables auto-generated for 3 suru-verb entries
+- 19 candidates synced from candidate list
+
+Total entries: 26,170 → 26,190.
+
 ### 2026-05-01 (Vocabulary Expansion - 17 New Entries, Batch 70)
 Added 17 new dictionary entries (IDs 26361-26377) from candidate_words.json. Mixed batch covering food, clothing, transportation, environment, language, and daily life.
 
@@ -125,46 +140,5 @@ Added 30 new dictionary entries (IDs 26283-26312) from candidate_words.json. Div
 - 29 candidates synced from candidate list
 
 Total entries: 26,075 → 26,105.
-
-### 2026-04-30 (Vocabulary Expansion - 24 New Entries, Batch 66)
-Added 24 new dictionary entries (IDs 26236-26259) from candidate_words.json. Diverse batch covering employment, patterns/textiles, business, geography, culture, food, science, politics, and more.
-
-- **Employment/social (2)**: {非正規|ひせいき} (non-regular employment), {媒酌人|ばいしゃくにん} (matchmaker/go-between)
-- **Patterns/textiles (3)**: {縞模様|しまもよう} (striped pattern), {花柄|はながら} (floral pattern), {革製|かわせい} (leather-made)
-- **Business/admin (4)**: {見|み}える{化|か} (visualization), {保留中|ほりゅうちゅう} (on hold/pending), {懸案事項|けんあんじこう} (pending matter), {登録者|とうろくしゃ} (subscriber)
-- **Geography/nature (1)**: {湖岸|こがん} (lakeshore)
-- **Science/facilities (2)**: {観測所|かんそくじょ} (observatory), {接種率|せっしゅりつ} (vaccination rate)
-- **Politics/history (2)**: {中央集権|ちゅうおうしゅうけん} (centralization of power), {行政区|ぎょうせいく} (administrative district)
-- **Religion/culture (2)**: {使徒|しと} (apostle/disciple), {俗世間|ぞくせけん} (secular world)
-- **Medical/body (2)**: {拍動|はくどう} (pulsation), {律動|りつどう} (rhythm)
-- **Tourism (1)**: {誘客|ゆうきゃく} (attracting visitors)
-- **Mental health (1)**: {精神病|せいしんびょう} (mental illness)
-- **Food (2)**: {揚|あ}げかまぼこ (deep-fried fish cake), {粉乳|ふんにゅう} (powdered milk)
-- **Transportation (1)**: {通行可|つうこうか} (passable/open to traffic)
-- **Descriptive (1)**: おどろおどろしい (eerie/ghastly)
-- Conjugation tables auto-generated for 4 suru-verb and 1 i-adjective entries
-- 24 candidates synced from candidate list
-
-Total entries: 26,028 → 26,052.
-
-### 2026-04-30 (Vocabulary Expansion - 20 New Entries, Batch 65)
-Added 20 new dictionary entries (IDs 26216-26235) from candidate_words.json. Mixed batch covering language, sports, culture, geography, food, nature, and practical daily life.
-
-- **Language/grammar (1)**: {分|ぶん} (portion; share; extent)
-- **Geography (2)**: {低所|ていしょ} (low place), {異郷|いきょう} (foreign land)
-- **Photography/media (2)**: {写|うつ}り{映|ば}え (photogenic quality), {素材感|そざいかん} (texture; material feel)
-- **Sports (2)**: シュートする (to shoot), {体格差|たいかくさ} (size gap)
-- **Rankings/numbers (1)**: {三位|さんい} (third place)
-- **Communication (1)**: {空話|からばなし} (idle talk; tall tale)
-- **Daily life (3)**: {月|つき}めくり (monthly calendar), {駐車場代|ちゅうしゃじょうだい} (parking fee), {現地解散|げんちかいさん} (disbanding at venue)
-- **Business (3)**: {地元企業|じもときぎょう} (local company), {調整役|ちょうせいやく} (coordinator), {最有力|さいゆうりょく} (frontrunner)
-- **Food/commerce (2)**: {砂糖菓子|さとうがし} (sugar confection), {生産地|せいさんち} (production area)
-- **Ability (1)**: {総合力|そうごうりょく} (overall ability)
-- **Nature (1)**: {蜻蛉|かげろう} (mayfly)
-- **Games (1)**: {盤上|ばんじょう} (on the board)
-- Conjugation tables auto-generated for 2 suru-verb entries
-- 20 candidates synced from candidate list
-
-Total entries: 26,008 → 26,028.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
