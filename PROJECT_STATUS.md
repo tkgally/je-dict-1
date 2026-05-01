@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 74)
+Added 20 new dictionary entries (IDs 26430-26449) from candidate_words.json. Diverse batch covering transport, business, technology, daily life, and more.
+
+- **Transport (2)**: {降車口|こうしゃぐち} (exit door on vehicles), {軽車両|けいしゃりょう} (light vehicle/bicycle category)
+- **Business/industry (3)**: {個人客|こじんきゃく} (individual customer), {半製品|はんせいひん} (semi-finished product), {純正部品|じゅんせいぶひん} (genuine OEM parts)
+- **Technology/audio (3)**: {計測器|けいそくき} (measuring instrument), {受信|じゅしん}メール (received email), {雑音除去|ざつおんじょきょ} (noise cancellation)
+- **Daily life (4)**: {海外在住|かいがいざいじゅう} (living abroad), {卓上鏡|たくじょうきょう} (tabletop mirror), カーボン{紙|し} (carbon paper), {人数分|にんずうぶん} (enough for the group)
+- **Geography/science (2)**: {海水面|かいすいめん} (sea level), {先史時代|せんしじだい} (prehistoric era)
+- **Communication/work (2)**: {連絡板|れんらくばん} (message board), {資格証明|しかくしょうめい} (proof of qualification)
+- **Education/family (1)**: {幼児向|ようじむ}け (for young children)
+- **Policy/strategy (1)**: {路線変更|ろせんへんこう} (route change/policy shift)
+- **Expression (1)**: {生身|なまみ}の{人間|にんげん} (flesh-and-blood human being)
+- **Safety (1)**: {衝撃吸収|しょうげききゅうしゅう} (shock absorption)
+- Conjugation tables auto-generated for 2 suru-verb entries
+- 20 candidates synced from candidate list
+
+Total entries: 26,222 → 26,242.
+
 ### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 73)
 Added 20 new dictionary entries (IDs 26410-26429) from candidate_words.json. Diverse batch spanning life stages, transport, sports, linguistics, arts, science, business, and more.
 
@@ -121,46 +139,5 @@ Added 17 new dictionary entries (IDs 26361-26377) from candidate_words.json. Mix
 - 15 candidates synced; 6 stale candidates removed
 
 Total entries: 26,153 → 26,170.
-
-### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 69)
-Added 20 new dictionary entries (IDs 26341-26360) from candidate_words.json. Batch covering nature, food, culture, daily life, recreation, agriculture, and color vocabulary.
-
-- **Nature/animals (2)**: {鮒|ふな} (crucian carp), {川鵜|かわう} (great cormorant)
-- **Food/culture (3)**: ソース{焼|や}きそば (sauce yakisoba), {抹茶碗|まっちゃわん} (matcha bowl), {一飲|いちの}み (one gulp)
-- **Colors (2)**: {麦色|むぎいろ} (wheat color/golden brown), {黒茶|くろちゃ} (dark brown)
-- **Agriculture (2)**: {元肥|もとごえ} (base fertilizer), {液肥|えきひ} (liquid fertilizer)
-- **Recreation/sports (2)**: ローラースケート (roller skating), スケート{靴|ぐつ} (ice skates)
-- **Daily life (3)**: パーキングメーター (parking meter), {横見|よこみ} (sideways glance), {無帽|むぼう} (bareheaded)
-- **Education/evaluation (1)**: {百点|ひゃくてん} (perfect score)
-- **Business/finance (1)**: {月割|つきわ}り (monthly installment)
-- **Strategy (1)**: {必中|ひっちゅう} (sure hit)
-- **Society (1)**: {遅進|ちしん} (backwardness/slow progress)
-- **Traditional arts (1)**: まり (ball/temari)
-- 1 new kanji added (鮒)
-- 20 candidates synced from candidate list
-
-Total entries: 26,133 → 26,153.
-
-
-### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 67)
-Added 30 new dictionary entries (IDs 26283-26312) from candidate_words.json. Diverse batch covering daily life, science, business, culture, history, health, and more.
-
-- **Colors/body (2)**: {肌色|はだいろ} (skin color/flesh color), {毛根|もうこん} (hair root)
-- **Daily objects (2)**: {長傘|なががさ} (long umbrella), {密閉容器|みっぺいようき} (airtight container)
-- **Seasonal/calendar (3)**: {立秋|りっしゅう} (start of autumn), {立冬|りっとう} (start of winter), {凝固点|ぎょうこてん} (freezing point)
-- **Business/work (4)**: {変動費|へんどうひ} (variable costs), {未経験者|みけいけんしゃ} (inexperienced person), {現状報告|げんじょうほうこく} (status report), {個人事業主|こじんじぎょうぬし} (sole proprietor)
-- **Science/technical (4)**: {融解点|ゆうかいてん} (melting point), {定量分析|ていりょうぶんせき} (quantitative analysis), {鋳鉄|ちゅうてつ} (cast iron), {潤滑剤|じゅんかつざい} (lubricant)
-- **Geography/nature (2)**: {水系|すいけい} (water system), {分流|ぶんりゅう} (branching stream)
-- **People/roles (3)**: {撮影者|さつえいしゃ} (photographer), {当選者|とうせんしゃ} (winner/elected person), {原始人|げんしじん} (primitive man)
-- **Culture/writing (2)**: {乱筆|らんぴつ} (poor handwriting), {不忠|ふちゅう} (disloyalty)
-- **Architecture (1)**: {建築設計|けんちくせっけい} (architectural design)
-- **Security (1)**: {監視塔|かんしとう} (watchtower)
-- **General (2)**: {連続性|れんぞくせい} (continuity), {時限爆弾|じげんばくだん} (time bomb)
-- **Abstract (1)**: {無拘束|むこうそく} (unrestrained)
-- **Medical (2)**: {脱毛症|だつもうしょう} (alopecia), {外皮|がいひ} (outer skin)
-- Conjugation tables auto-generated for 3 suru-verb entries
-- 29 candidates synced from candidate list
-
-Total entries: 26,075 → 26,105.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
