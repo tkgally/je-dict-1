@@ -39,10 +39,25 @@
     }
   ],
   "notes": "USAGE: The standard term used in news reports and legal contexts for a person suspected of a crime. Japanese media follows strict terminology conventions depending on the stage of legal proceedings.\n\nLEGAL TERMINOLOGY PROGRESSION:\n- {容疑者|ようぎしゃ}: suspect (before charges are filed)\n- {被疑者|ひぎしゃ}: suspect (formal legal term, same stage)\n- {被告人|ひこくにん}: defendant (after charges are filed)\n\nCOMMON COLLOCATIONS:\n- {容疑者|ようぎしゃ}を{逮捕|たいほ}する: to arrest a suspect\n- {容疑者|ようぎしゃ}を{特定|とくてい}する: to identify a suspect\n- {容疑者|ようぎしゃ}の{身柄|みがら}を{確保|かくほ}する: to take a suspect into custody",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "22237_higisha",
+      "reading": "ひぎしゃ",
+      "headword": "{被疑者|ひぎしゃ}",
+      "label": "suspect (formal legal)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "20130_hikokunin",
+      "reading": "ひこくにん",
+      "headword": "{被告人|ひこくにん}",
+      "label": "defendant (after charges)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-05T05:39:51Z",
-    "modified": "2026-03-05T05:39:51Z",
+    "modified": "2026-05-01T05:08:10Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": ["noun"],
