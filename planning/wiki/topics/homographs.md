@@ -155,3 +155,4 @@ For near-synonym homophones (the かえる cluster, the つく cluster, etc.), c
 - [Digital Dictionary UX](../research/digital-dictionary-ux.md) — search and disambiguation interface design
 - [Definition and Gloss Strategies](../research/definition-strategies.md) — sense ordering for polysemous entries
 - [Polysemy and Sense Discrimination](../research/polysemy-sense-discrimination.md) — the polysemy-homonymy boundary and sense structure
+- [Kanji Learning and Dictionary Treatment](../research/kanji-learning-dictionaries.md) — on'yomi/kun'yomi reading assignment and kanji as a disambiguation tool

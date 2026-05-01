@@ -1,6 +1,6 @@
 # Furigana Strategy
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-05-01
 
 ## Current approach
 
@@ -45,3 +45,4 @@ Some dictionaries only annotate "difficult" kanji, but:
 
 - [Entry Design](../project/entry-design.md)
 - [Japanese Lexicography](../research/japanese-lexicography.md)
+- [Kanji Learning and Dictionary Treatment](../research/kanji-learning-dictionaries.md) — research on kanji acquisition, lookup methods, and the pedagogical role of furigana

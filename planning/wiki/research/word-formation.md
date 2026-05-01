@@ -153,6 +153,7 @@ Productive affixes and common compound-forming elements should be in the basic o
 - [Entry Design](../project/entry-design.md) — what goes in each entry
 - [Multiword Expressions](multiword-expressions.md) — how multiword units relate to morphological boundaries
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — deep dive into the gairaigo stratum: phonological adaptation, semantic shift, and dictionary treatment
+- [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji compound transparency, morphological awareness, and Mori & Nagy's research
 
 ## Sources
 

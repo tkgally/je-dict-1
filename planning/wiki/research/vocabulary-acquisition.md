@@ -112,3 +112,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — the cognate advantage for English-speaking learners and its limits
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic competence gap and why grammatical knowledge doesn't ensure appropriate language use
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — the semantic clustering debate and how learners organize vocabulary in semantic networks
+- [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — morphological awareness, compound inferencing, and kanji knowledge in vocabulary acquisition
