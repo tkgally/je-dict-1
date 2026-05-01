@@ -51,6 +51,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 73)
+Added 20 new dictionary entries (IDs 26410-26429) from candidate_words.json. Diverse batch spanning life stages, transport, sports, linguistics, arts, science, business, and more.
+
+- **Life stages/society (2)**: {壮年期|そうねんき} (middle age/prime of life), {隠居人|いんきょにん} (retired person/recluse)
+- **Transport (3)**: {牽引車|けんいんしゃ} (tow truck/tractor), {定期運行|ていきうんこう} (regular service), {副機長|ふくきちょう} (copilot)
+- **Sports (1)**: {交代選手|こうたいせんしゅ} (substitute player)
+- **Linguistics (3)**: {有声音|ゆうせいおん} (voiced sound), {無声音|むせいおん} (voiceless sound), {五七調|ごしっちょう} (five-seven meter)
+- **Arts/music (1)**: {指揮台|しきだい} (conductor's podium)
+- **Science/chemistry (1)**: {塩化物|えんかぶつ} (chloride)
+- **Urban/environment (1)**: {都市景観|としけいかん} (urban landscape/cityscape)
+- **History/politics (1)**: {植民地主義|しょくみんちしゅぎ} (colonialism)
+- **Business (1)**: {社内秘|しゃないひ} (confidential/internal use only)
+- **Publishing (1)**: {編纂者|へんさんしゃ} (compiler/editor of reference works)
+- **Medicine (1)**: {前立腺|ぜんりつせん} (prostate gland)
+- **Material (1)**: {磁器製|じきせい} (made of porcelain)
+- **Measurement (1)**: {中間点|ちゅうかんてん} (midpoint/halfway point)
+- **Nature (1)**: {造園士|ぞうえんし} (landscape gardener)
+- **Forensics (1)**: {掌紋|しょうもん} (palm print)
+- 20 candidates synced from candidate list
+
+Total entries: 26,202 → 26,222.
+
 ### 2026-05-01 (Vocabulary Expansion - 12 New Entries, Batch 72)
 Added 12 new dictionary entries (IDs 26398-26409) from candidate_words.json. Focus on practical vocabulary covering media, daily life, business, politics, and industry.
 
@@ -119,22 +141,6 @@ Added 20 new dictionary entries (IDs 26341-26360) from candidate_words.json. Bat
 
 Total entries: 26,133 → 26,153.
 
-### 2026-04-30 (Vocabulary Expansion - 28 New Entries, Batch 68)
-Added 28 new dictionary entries (IDs 26313-26340) from candidate_words.json. Varied batch covering arts, health, science, daily life, culture, and more.
-
-- **Arts/culture (4)**: {改作|かいさく} (adaptation/rewriting), {阿修羅|あしゅら} (Asura/scene of carnage), ボーイズラブ (BL/boys' love genre), はかなくなる (to pass away, euphemism)
-- **Health/body (7)**: {排尿|はいにょう} (urination), {排便|はいべん} (defecation), {低体温|ていたいおん} (hypothermia), {乳腺|にゅうせん} (mammary gland), {洗浴|せんよく} (bathing), {手肌|てはだ} (hand skin), {真菌|しんきん} (fungus)
-- **Science/technology (4)**: {核酸|かくさん} (nucleic acid), {酢酸|さくさん} (acetic acid), {解像|かいぞう} (image resolution), {線分|せんぶん} (line segment)
-- **Society/business (3)**: {転籍|てんせき} (change of domicile/company transfer), {娼婦|しょうふ} (prostitute), {従量制|じゅうりょうせい} (usage-based pricing)
-- **Daily life/food (3)**: {粉茶|こなちゃ} (powdered tea), {片耳|かたみみ} (one ear), {休室|きゅうしつ} (room closure)
-- **Language/grammar (3)**: {付|つ}き (with/per), どっちか (either one), {耽溺|たんでき} (indulgence/addiction)
-- **Nature (1)**: {幼鳥|ようちょう} (young bird)
-- **Expressions (2)**: {取|と}り{憑|つ}かれる (to be possessed/obsessed), {細|こま}かいことを{言|い}う (to nitpick)
-- 1 new kanji added (娼)
-- Conjugation tables auto-generated for 8 verb entries
-- 28 candidates synced from candidate list
-
-Total entries: 26,105 → 26,133.
 
 ### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 67)
 Added 30 new dictionary entries (IDs 26283-26312) from candidate_words.json. Diverse batch covering daily life, science, business, culture, history, health, and more.
