@@ -131,3 +131,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Audio Coverage Expansion](../ideas/audio-expansion.md) — TTS-based pronunciation audio plans
 - [Learner Lexicography](learner-lexicography.md) — pedagogical principles informing UX decisions
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — empirical research on how learners use dictionaries
+- [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup methods and the electronic dictionary revolution

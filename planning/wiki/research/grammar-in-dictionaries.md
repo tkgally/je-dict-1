@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-04-30
+**Last updated**: 2026-05-01
 
 ## Overview
 
@@ -164,7 +164,7 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 
 4. **Aspect documentation**: The polish_aspect_notes task adds ている behavior notes to verbs with non-obvious aspect, directly addressing the aspect polysemy challenge.
 
-5. **Example-based grammar teaching**: With over 104,500 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
+5. **Example-based grammar teaching**: With over 104,800 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
 
 ### Areas for potential improvement
 

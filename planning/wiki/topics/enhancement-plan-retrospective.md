@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-04-30
+**Last updated**: 2026-05-01
 
 ## Overview
 
@@ -72,7 +72,7 @@ The parallel architecture document named "regression — an agent makes a change
 
 ### 4. Consistency checker as a gate vs. a report
 
-`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,818 note-structure issues, 5,998 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
+`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,818 note-structure issues, 6,193 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
 
 ### 5. Multi-model review feedback loops
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-04-30 (26,133 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-01 (26,242 entries):
 
-| Metric | Plan target | 2026-04-29 | Notes |
+| Metric | Plan target | 2026-05-01 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | ~33% | 4,498 verbs still missing; transitivity queue slowly progressing |
+| Verbs with transitivity | 100% | ~33% | 4,505 verbs still missing; transitivity queue slowly progressing |
 | Entries with note score ≥ 60 | 80% | ~84% | Target reached |
-| Cross-reference symmetry | 98% | 42.7% | 5,998 asymmetric references; largest remaining gap |
+| Cross-reference symmetry | 98% | 42.5% | 6,193 asymmetric references; largest remaining gap |
 | Verbs with ている docs | 80% (of those needing it) | aspect-notes queue progressing | Still slow-moving |
 | Multi-model review coverage | 100% (furigana) | queue depth growing | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **104,538 total examples** |
-| Cross-references per entry | ≥ 0.5 | 0.48 | Rising steadily from 0.32 in mid-April |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **104,895 total examples** |
+| Cross-references per entry | ≥ 0.5 | 0.49 | Rising steadily from 0.32 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density continues improving** (0.48 per entry, up from 0.32 in mid-April) as the dictionary added ~3,000+ entries with cross-references since mid-April. Total cross-references have reached 12,604. Asymmetric pairs stand at 5,998 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
+Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density continues improving** (0.49 per entry, up from 0.32 in mid-April) as the dictionary added ~3,400+ entries with cross-references since mid-April. Total cross-references have reached 12,974. Asymmetric pairs stand at 6,193 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
 
 ## Implications for future maintenance sessions
 

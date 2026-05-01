@@ -93,3 +93,4 @@ Many words have multiple accepted spellings:
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Japanese-specific error patterns and L1 transfer effects
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword adaptation, semantic shift, and dictionary treatment challenges
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — indirectness, keigo pragmatics, and sentence-final particles as Japanese-specific challenges
+- [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji acquisition, lookup methods, and furigana as a learning scaffold

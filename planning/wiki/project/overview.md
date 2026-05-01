@@ -1,10 +1,10 @@
 # Project Overview
 
-**Last updated**: 2026-04-30
+**Last updated**: 2026-05-01
 
 ## What je-dict-1 is
 
-je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of late April 2026, it contains over 26,100 entries with over 104,500 example sentences and 12,600+ cross-references.
+je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of May 2026, it contains over 26,200 entries with over 104,800 example sentences and 12,900+ cross-references.
 
 The dictionary is entirely static: HTML, CSS, and JavaScript generated from JSON source files by a Python build pipeline, deployed via GitHub Pages. There is no server, no database, and no user accounts.
 
