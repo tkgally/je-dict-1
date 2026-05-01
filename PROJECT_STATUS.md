@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 69)
+Added 20 new dictionary entries (IDs 26341-26360) from candidate_words.json. Batch covering nature, food, culture, daily life, recreation, agriculture, and color vocabulary.
+
+- **Nature/animals (2)**: {鮒|ふな} (crucian carp), {川鵜|かわう} (great cormorant)
+- **Food/culture (3)**: ソース{焼|や}きそば (sauce yakisoba), {抹茶碗|まっちゃわん} (matcha bowl), {一飲|いちの}み (one gulp)
+- **Colors (2)**: {麦色|むぎいろ} (wheat color/golden brown), {黒茶|くろちゃ} (dark brown)
+- **Agriculture (2)**: {元肥|もとごえ} (base fertilizer), {液肥|えきひ} (liquid fertilizer)
+- **Recreation/sports (2)**: ローラースケート (roller skating), スケート{靴|ぐつ} (ice skates)
+- **Daily life (3)**: パーキングメーター (parking meter), {横見|よこみ} (sideways glance), {無帽|むぼう} (bareheaded)
+- **Education/evaluation (1)**: {百点|ひゃくてん} (perfect score)
+- **Business/finance (1)**: {月割|つきわ}り (monthly installment)
+- **Strategy (1)**: {必中|ひっちゅう} (sure hit)
+- **Society (1)**: {遅進|ちしん} (backwardness/slow progress)
+- **Traditional arts (1)**: まり (ball/temari)
+- 1 new kanji added (鮒)
+- 20 candidates synced from candidate list
+
+Total entries: 26,133 → 26,153.
+
 ### 2026-04-30 (Vocabulary Expansion - 28 New Entries, Batch 68)
 Added 28 new dictionary entries (IDs 26313-26340) from candidate_words.json. Varied batch covering arts, health, science, daily life, culture, and more.
 
@@ -129,45 +148,5 @@ Added 20 new dictionary entries (IDs 26216-26235) from candidate_words.json. Mix
 - 20 candidates synced from candidate list
 
 Total entries: 26,008 → 26,028.
-
-### 2026-04-30 (Vocabulary Expansion - 30 New Entries, Batch 64)
-Added 30 new dictionary entries (IDs 26186-26215) from candidate_words.json. Diverse batch covering history, business, geography, science, food, art, architecture, medicine, nature, education, entertainment, and technology.
-
-- **History/culture (3)**: {藩主|はんしゅ} (feudal domain lord), {蛮族|ばんぞく} (barbarian tribe), {公女|こうじょ} (princess/noblewoman)
-- **Business/keigo (4)**: {資金源|しきんげん} (funding source), {先方様|せんぽうさま} (the other party - honorific), {専売店|せんばいてん} (exclusive dealer), {会社名|かいしゃめい} (company name)
-- **Geography/science (3)**: {緯線|いせん} (latitude line), {西経|せいけい} (west longitude), {高層雲|こうそううん} (altostratus cloud)
-- **Food/cooking (3)**: {焼|や}き{網|あみ} (grill net), {赤|あか}ピーマン (red bell pepper), {焙煎機|ばいせんき} (coffee roaster)
-- **Architecture/urban (3)**: {超高層|ちょうこうそう} (super high-rise), {工事現場|こうじげんば} (construction site), {中央広場|ちゅうおうひろば} (central plaza)
-- **Entertainment/media (2)**: {娯楽映画|ごらくえいが} (entertainment film), ホラー{小説|しょうせつ} (horror novel)
-- **Agriculture (1)**: {施肥|せひ} (fertilization)
-- **Art/craft (2)**: {彫刻刀|ちょうこくとう} (carving chisel), {色付|いろづ}ける (to color/tint)
-- **Medicine/body (2)**: {血小板|けっしょうばん} (platelet), {低身長|ていしんちょう} (short stature)
-- **Housing (1)**: お{屋敷|やしき} (mansion)
-- **Education (1)**: {学習指導要領|がくしゅうしどうようりょう} (curriculum guidelines)
-- **Technology (1)**: {高解像度|こうかいぞうど} (high resolution)
-- **Literary (1)**: {場景|ばけい} (scene/setting)
-- **Transportation (1)**: {自動車道|じどうしゃどう} (motorway/expressway)
-- **Planning (1)**: {方案|ほうあん} (plan/proposal)
-- **Nature (1)**: {鹿角|ろっかく} (antler)
-- Conjugation table auto-generated for 1 ichidan verb entry
-- 30 candidates synced from candidate list
-
-Total entries: 25,978 → 26,008.
-
-### 2026-04-29 (Vocabulary Expansion - 15 New Entries, Batch 63)
-Added 15 new dictionary entries (IDs 26171-26185) from candidate_words.json. Diverse batch covering education, emergency services, daily life, manufacturing, medicine, nature, religion, transportation, and commerce.
-
-- **Education/documents (2)**: {教案|きょうあん} (lesson plan), {合格証|ごうかくしょう} (passing certificate)
-- **Emergency services (3)**: {救急隊|きゅうきゅうたい} (rescue squad), ポンプ{車|しゃ} (pumper truck), {誘導路|ゆうどうろ} (taxiway)
-- **Daily life (3)**: {郵便箱|ゆうびんばこ} (mailbox), {電気剃刀|でんきかみそり} (electric razor), {価格表示|かかくひょうじ} (price display)
-- **Medicine (1)**: {頓服薬|とんぷくやく} (as-needed medication)
-- **Nature/agriculture (2)**: {稲田|いなだ} (rice paddy), {留鳥|りゅうちょう} (resident bird)
-- **Manufacturing (1)**: {旋盤|せんばん} (lathe)
-- **Social/formal (2)**: {紹介者|しょうかいしゃ} (introducer/referrer), ご{労苦|ろうく} (hard work/toil)
-- **Religion (1)**: {奉献|ほうけん} (dedication/offering)
-- Removed 3 stale candidates (duplicates of existing entries)
-- 15 candidates synced from candidate list
-
-Total entries: 25,963 → 25,978.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
