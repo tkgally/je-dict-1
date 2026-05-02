@@ -19,7 +19,9 @@
       "english": "It's expected to arrive in mid-March.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11309_chuujun_ex2",
@@ -27,7 +29,9 @@
       "english": "The cherry blossoms reach full bloom around mid-April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "11309_chuujun_ex3",
@@ -35,20 +39,48 @@
       "english": "Please submit the report by the middle of next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "Japanese divides each month into three ten-day periods:\n\n- {上旬|じょうじゅん} (first ten days, roughly 1st-10th)\n- {中旬|ちゅうじゅん} (middle ten days, roughly 11th-20th)\n- {下旬|げじゅん} (last ten days, roughly 21st-end)\n\nCOMMON PATTERNS:\n- ～{月|がつ}{中旬|ちゅうじゅん} (mid-[month])\n- {中旬|ちゅうじゅん}ごろ (around mid-month)\n- {中旬|ちゅうじゅん}から{下旬|げじゅん}にかけて (from mid to late month)\n\nThis system is commonly used in weather forecasts, delivery estimates, event planning, and seasonal descriptions.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15747_shojun",
+      "reading": "しょじゅん",
+      "headword": "{初旬|しょじゅん}",
+      "label": "first ten days"
+    },
+    {
+      "type": "related",
+      "target_id": "00062_gejun",
+      "reading": "げじゅん",
+      "headword": "{下旬|げじゅん}",
+      "label": "late month"
+    },
+    {
+      "type": "related",
+      "target_id": "17767_joujun",
+      "reading": "じょうじゅん",
+      "headword": "{上旬|じょうじゅん}",
+      "label": "early month"
+    }
+  ],
   "metadata": {
     "created": "2026-02-15T22:39:42Z",
-    "modified": "2026-02-15T22:39:42Z",
+    "modified": "2026-05-02T04:22:54Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }

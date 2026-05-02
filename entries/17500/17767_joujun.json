@@ -19,7 +19,9 @@
       "english": "The cherry blossoms bloom in early April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17767_joujun_ex2",
@@ -27,7 +29,9 @@
       "english": "The product is expected to arrive in the first part of next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17767_joujun_ex3",
@@ -35,21 +39,49 @@
       "english": "The autumn leaves reach their peak from early to mid-November.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nJapanese divides each month into three periods:\n- {上旬|じょうじゅん}: days 1-10 (early)\n- {中旬|ちゅうじゅん}: days 11-20 (middle)\n- {下旬|げじゅん}: days 21-end (late)\n\nThis system is commonly used in business, weather forecasts, shipping estimates, and seasonal descriptions. More precise than saying {初|はじ}め (beginning) and very common in everyday Japanese.\n\nCOMMON COLLOCATIONS:\n- ～{月|がつ}{上旬|じょうじゅん}: early [month]\n- {上旬|じょうじゅん}から{中旬|ちゅうじゅん}にかけて: from early to mid-month\n- {上旬|じょうじゅん}ごろ: around the beginning of the month",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15747_shojun",
+      "reading": "しょじゅん",
+      "headword": "{初旬|しょじゅん}",
+      "label": "first ten days"
+    },
+    {
+      "type": "related",
+      "target_id": "11309_chuujun",
+      "reading": "ちゅうじゅん",
+      "headword": "{中旬|ちゅうじゅん}",
+      "label": "mid-month"
+    },
+    {
+      "type": "related",
+      "target_id": "00062_gejun",
+      "reading": "げじゅん",
+      "headword": "{下旬|げじゅん}",
+      "label": "late month"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T23:17:22Z",
-    "modified": "2026-03-18T23:17:22Z",
+    "modified": "2026-05-02T04:22:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }
