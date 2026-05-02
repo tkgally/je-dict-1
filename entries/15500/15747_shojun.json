@@ -19,7 +19,9 @@
       "english": "The meeting will be held in early April.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15747_shojun_ex2",
@@ -27,7 +29,9 @@
       "english": "The rainy season often begins in early June.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15747_shojun_ex3",
@@ -35,21 +39,49 @@
       "english": "The report deadline is scheduled for early next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{初旬|しょじゅん} is used in both formal and everyday contexts when specifying an approximate time within a month. It forms a set with {中旬|ちゅうじゅん} (mid-month, roughly days 11-20) and {下旬|げじゅん} (late month, roughly days 21-end).\n\nCOMMON COLLOCATIONS:\n- ～{月|がつ}{初旬|しょじゅん} (early [month])\n- {初旬|しょじゅん}に (in the early part of the month)\n- {初旬|しょじゅん}から (from the early part of the month)\n\nSIMILAR WORDS:\n{上旬|じょうじゅん} is a synonym with the same meaning. {初旬|しょじゅん} and {上旬|じょうじゅん} are interchangeable, though {上旬|じょうじゅん} is slightly more common.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11309_chuujun",
+      "reading": "ちゅうじゅん",
+      "headword": "{中旬|ちゅうじゅん}",
+      "label": "mid-month"
+    },
+    {
+      "type": "related",
+      "target_id": "00062_gejun",
+      "reading": "げじゅん",
+      "headword": "{下旬|げじゅん}",
+      "label": "late month"
+    },
+    {
+      "type": "related",
+      "target_id": "17767_joujun",
+      "reading": "じょうじゅん",
+      "headword": "{上旬|じょうじゅん}",
+      "label": "early month"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:10:05Z",
-    "modified": "2026-03-08T09:10:05Z",
+    "modified": "2026-05-02T04:22:54Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-period"]
+      "semantic": [
+        "time-period"
+      ]
     }
   }
 }
