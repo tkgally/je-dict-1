@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-02 (Vocabulary Expansion - 25 New Entries, Batch 77)
+Added 25 new dictionary entries (IDs 26475-26499) from candidate_words.json. Practical vocabulary spanning business, medical, academic, banking, and daily life domains.
+
+- **Business/commerce (4)**: {料金改定|りょうきんかいてい} (fee revision), {交換品|こうかんひん} (replacement item), {即日発送|そくじつはっそう} (same-day shipping), {仮採用|かりさいよう} (provisional hiring)
+- **Banking (2)**: {普通口座|ふつうこうざ} (ordinary savings account), {当座口座|とうざこうざ} (current/checking account)
+- **Medical (3)**: {投与量|とうよりょう} (dosage), {体外受精|たいがいじゅせい} (IVF), {分包|ぶんぽう} (individual dose packaging)
+- **Academic (3)**: {学位論文|がくいろんぶん} (degree thesis), {指導教官|しどうきょうかん} (academic advisor), {欠席率|けっせきりつ} (absence rate)
+- **Science/tech (2)**: {遺伝情報|いでんじょうほう} (genetic information), {記憶装置|きおくそうち} (storage device)
+- **Creative/media (2)**: {自主制作|じしゅせいさく} (independent production), {再撮影|さいさつえい} (reshooting)
+- **Daily life/general (5)**: {移動中|いどうちゅう} (in transit), {一組|ひとくみ} (one set/pair), {矛盾点|むじゅんてん} (point of contradiction), {事件簿|じけんぼ} (casebook), {指|ゆび}しゃぶり (thumb sucking)
+- **Political (1)**: {国家管理|こっかかんり} (state control)
+- **Art/design (2)**: {無彩色|むさいしょく} (achromatic color), {最終報告|さいしゅうほうこく} (final report)
+- **People (1)**: {促進者|そくしんしゃ} (promoter/facilitator)
+- Conjugation tables auto-generated for 2 suru-verb entries
+- 25 candidates synced from candidate list
+
+Total entries: 26,267 → 26,292.
+
 ### 2026-05-02 (Vocabulary Expansion - 25 New Entries, Batch 76)
 Added 25 new dictionary entries (IDs 26450-26474) from candidate_words.json. Diverse batch spanning science, culture, history, technology, daily life, and nature.
 
@@ -128,20 +146,5 @@ Added 12 new dictionary entries (IDs 26398-26409) from candidate_words.json. Foc
 - 12 candidates synced from candidate list; 1 stale duplicate removed
 
 Total entries: 26,190 → 26,202.
-
-### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 71)
-Added 20 new dictionary entries (IDs 26378-26397) from candidate_words.json. Focus on modern life, technology, culture, and daily practical vocabulary.
-
-- **Technology/digital (4)**: ダブルクリック (double-click), {相互|そうご}フォロー (mutual follow), カスタマーサポート (customer support), {番号通知|ばんごうつうち} (caller ID)
-- **Modern life (3)**: プロフィール{写真|しゃしん} (profile photo), ノマドワーカー (digital nomad), {自己出版|じこしゅっぱん} (self-publishing)
-- **Household/daily (4)**: {洗濯物干|せんたくものほ}し (drying rack/hanging laundry), {電子|でんし}レンジ{可|か} (microwave-safe), ランドリールーム (laundry room), {爪磨|つめみが}き (nail buffing)
-- **Health/admin (2)**: {接種券|せっしゅけん} (vaccination voucher), {届出書|とどけでしょ} (notification form)
-- **Culture/academic (3)**: {歳神様|としがみさま} (New Year deity), {文化人類学|ぶんかじんるいがく} (cultural anthropology), {近況文|きんきょうぶん} (status update message)
-- **Events/sports (2)**: {開始式|かいししき} (opening ceremony), {体操競技|たいそうきょうぎ} (artistic gymnastics)
-- **Commerce (2)**: {販売機|はんばいき} (vending machine), シャワーを{浴|あ}びる (to take a shower)
-- Conjugation tables auto-generated for 3 suru-verb entries
-- 19 candidates synced from candidate list
-
-Total entries: 26,170 → 26,190.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
