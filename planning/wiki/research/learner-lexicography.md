@@ -1,6 +1,6 @@
 # Learner Lexicography
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-02
 
 ## What is learner lexicography?
 
@@ -127,3 +127,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — lexical thresholds and dictionary sizing decisions
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic information in dictionaries and the L2 pragmatic competence gap
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonymy, antonymy, hyponymy, and their representation in dictionaries
+- [Japanese Aspect and ている](japanese-aspect-teiru.md) — per-entry aspect documentation as production support for learners

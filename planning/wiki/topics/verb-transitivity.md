@@ -1,6 +1,6 @@
 # Verb Transitivity Pairs
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-05-02
 
 ## Why transitivity matters for Japanese learners
 
@@ -52,3 +52,4 @@ Transitivity marking is a **high priority** v2 quality standard. Many older entr
 - [Grammar Information in Learner Dictionaries](../research/grammar-in-dictionaries.md) — valency, transitivity, and grammatical encoding in dictionaries
 - [Error Analysis and Learner Corpora](../research/error-analysis-japanese-l2.md) — transitivity confusion as a source of particle errors
 - [Sense Relations and Semantic Networks](../research/sense-relations-semantic-networks.md) — transitivity pairs as a Japanese-specific sense relation type
+- [Japanese Aspect and ている](../research/japanese-aspect-teiru.md) — ている resultative readings interact heavily with transitivity; てある as agent-marked resultative

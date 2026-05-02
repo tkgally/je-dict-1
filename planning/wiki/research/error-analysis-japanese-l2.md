@@ -1,6 +1,6 @@
 # Error Analysis and Learner Corpora for Japanese L2
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-02
 
 ## Overview
 
@@ -228,3 +228,4 @@ The polishing priority system (`make priorities`) currently uses note quality sc
 - [Register and Formality](../topics/register.md) — register errors in learner production
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword false friends as a source of lexical transfer errors
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic failure as a category of learner error distinct from grammatical errors
+- [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている misinterpretation as a major verb-form error category
