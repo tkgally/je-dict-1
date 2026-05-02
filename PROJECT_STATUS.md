@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-02 (Vocabulary Expansion - 18 New Entries, Batch 80)
+Added 18 new dictionary entries (IDs 26535-26552) from candidate_words.json. Diverse vocabulary spanning medical, business, technology, food culture, martial arts, and family terminology.
+
+- **Medical (2)**: {既往歴|きおうれき} (medical history), {瘢痕|はんこん} (scar tissue)
+- **Business/economics (2)**: {製造原価|せいぞうげんか} (manufacturing cost), {通貨流通|つうかりゅうつう} (currency circulation)
+- **Technology/media (3)**: {中継局|ちゅうけいきょく} (relay station), {再生画面|さいせいがめん} (playback screen), {内燃機関|ないねんきかん} (internal combustion engine)
+- **Food/drink culture (2)**: {四合瓶|よんごうびん} (720ml sake bottle), {焙煎度|ばいせんど} (coffee roast level)
+- **Society/politics (2)**: {癒着関係|ゆちゃくかんけい} (collusive relationship), {標準世帯|ひょうじゅんせたい} (standard household)
+- **Publishing (1)**: {商業出版|しょうぎょうしゅっぱん} (commercial publishing)
+- **Music (1)**: {演奏技術|えんそうぎじゅつ} (performance technique)
+- **Martial arts (1)**: {組み技|くみわざ} (grappling technique)
+- **Shopping (1)**: {新品未使用|しんぴんみしよう} (brand new, unused)
+- **Entertainment (1)**: {席種|せきしゅ} (seat category)
+- **Gardening (1)**: {追い肥|おいごえ} (additional fertilizer)
+- **Family (1)**: {長孫|ちょうそん} (eldest grandchild)
+- Conjugation tables auto-generated for 2 suru-verb entries
+- 1 new kanji added to index: 瘢 (ID 02728)
+- 18 candidates synced from candidate list
+
+Total entries: 26,327 → 26,345.
+
 ### 2026-05-02 (Vocabulary Expansion - 20 New Entries, Batch 79)
 Added 20 new dictionary entries (IDs 26515-26534) from candidate_words.json. Focused on practical vocabulary spanning business, technology, daily life, culture, and language.
 
