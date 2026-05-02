@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-02 (Vocabulary Expansion - 20 New Entries, Batch 79)
+Added 20 new dictionary entries (IDs 26515-26534) from candidate_words.json. Focused on practical vocabulary spanning business, technology, daily life, culture, and language.
+
+- **Business/legal (4)**: {実績主義|じっせきしゅぎ} (meritocracy), {秘密保持|ひみつほじ} (confidentiality), リスク{管理|かんり} (risk management), {危険管理|きけんかんり} (hazard management)
+- **Daily life (3)**: {不用品回収|ふようひんかいしゅう} (junk removal), {自宅学習|じたくがくしゅう} (home study), {貸し会議室|かしかいぎしつ} (rental conference room)
+- **Language/honorifics (1)**: お{召し上がり|めしあがり} (please help yourself — honorific)
+- **Technology (1)**: {薄型化|うすがたか} (making thinner — electronics)
+- **Character/personality (3)**: {我勝手|わがかって} (selfishness), {不忠実|ふちゅうじつ} (unfaithful), {正直一途|しょうじきいちず} (earnestly honest)
+- **Entertainment/culture (2)**: {完成披露|かんせいひろう} (premiere), {終わりよければすべてよし|おわりよければすべてよし} (all's well that ends well)
+- **Crafts/media (1)**: {嵌め込み|はめこみ} (inlay; compositing)
+- **Cognition (1)**: {読み過ぎる|よみすぎる} (to overinterpret)
+- **Society (2)**: {過密都市|かみつとし} (overcrowded city), {同胞愛|どうほうあい} (brotherly love)
+- **Psychology (1)**: {舞台恐怖症|ぶたいきょうふしょう} (stage fright)
+- **Agriculture (1)**: {有機肥料|ゆうきひりょう} (organic fertilizer)
+- Conjugation tables auto-generated for 1 ichidan verb and 1 suru-verb
+- 19 candidates synced; 4 stale duplicate candidates removed
+
+Total entries: 26,307 → 26,327.
+
 ### 2026-05-02 (Vocabulary Expansion - 15 New Entries, Batch 78)
 Added 15 new dictionary entries (IDs 26500-26514) from candidate_words.json. Mixed vocabulary spanning civil engineering, linguistics, medicine, business, photography, cultural traditions, and daily life.
 
