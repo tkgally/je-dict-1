@@ -19,7 +19,9 @@
       "english": "I collect old silver coins.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15787_ginka_ex2",
@@ -27,7 +29,9 @@
       "english": "Silver coins from the Edo period were on display at the museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15787_ginka_ex3",
@@ -35,21 +39,43 @@
       "english": "This silver coin is in excellent condition and trades at a high price among collectors.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{銀貨|ぎんか} appears frequently in historical contexts, fairy tales, and discussions of numismatics. In modern Japan, coins are made of various alloys rather than pure silver.\n\nCOMMON COLLOCATIONS:\n- {銀貨|ぎんか}を{集|あつ}める (collect silver coins)\n- {記念|きねん}{銀貨|ぎんか} (commemorative silver coin)\n\nRELATED TERMS:\n- {金貨|きんか} (gold coin)\n- {銅貨|どうか} (copper coin)\n- {硬貨|こうか} (coin, general term)\n- {貨幣|かへい} (currency, money)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14466_kinka",
+      "reading": "きんか",
+      "headword": "{金貨|きんか}",
+      "label": "gold coin"
+    },
+    {
+      "type": "related",
+      "target_id": "02745_kouka",
+      "reading": "こうか",
+      "headword": "{硬貨|こうか}",
+      "label": "coin; general"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:45:45Z",
-    "modified": "2026-03-08T09:45:45Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "history"]
+      "semantic": [
+        "money",
+        "history"
+      ]
     }
   }
 }

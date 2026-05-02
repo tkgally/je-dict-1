@@ -19,7 +19,9 @@
       "english": "The heavy rain turned the river into a muddy torrent.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15788_dakuryuu_ex2",
@@ -27,7 +29,9 @@
       "english": "The raging muddy waters swept away the bridge.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15788_dakuryuu_ex3",
@@ -35,21 +39,36 @@
       "english": "Due to the typhoon, muddy torrents surged down from the mountains and flooded the residential area.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{濁流|だくりゅう} is commonly used in news reports about floods, typhoons, and natural disasters. It conveys a sense of danger and destructive power.\n\nCOMMON COLLOCATIONS:\n- {濁流|だくりゅう}に{飲|の}まれる (be swallowed by the torrent)\n- {濁流|だくりゅう}が{押|お}し{寄|よ}せる (muddy waters surge in)\n- {濁流|だくりゅう}に{流|なが}される (be swept away by the torrent)\n\nSIMILAR WORDS:\n{激流|げきりゅう} means \"rapids\" or \"raging current\" and emphasizes speed and force without necessarily being muddy. {濁流|だくりゅう} specifically highlights the muddiness and turbidity. {鉄砲水|てっぽうみず} means \"flash flood\" and refers to a sudden surge of water.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13432_gekiryuu",
+      "reading": "げきりゅう",
+      "headword": "{激流|げきりゅう}",
+      "label": "rapids; force not muddiness"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:46:03Z",
-    "modified": "2026-03-08T09:46:03Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["nature", "weather"]
+      "semantic": [
+        "nature",
+        "weather"
+      ]
     }
   }
 }

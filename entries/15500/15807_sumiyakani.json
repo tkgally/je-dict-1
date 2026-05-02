@@ -19,7 +19,9 @@
       "english": "Please respond promptly.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15807_sumiyakani_ex2",
@@ -27,7 +29,9 @@
       "english": "If a problem occurs, report it immediately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15807_sumiyakani_ex3",
@@ -35,21 +39,42 @@
       "english": "In case of a disaster, move promptly to the designated evacuation site.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{速|すみ}やかに is the adverbial form of the na-adjective {速|すみ}やか. It is a formal word primarily used in written instructions, official announcements, and business contexts. In everyday speech, すぐに or {早|はや}く are more natural.\n\nCOMMON COLLOCATIONS:\n- {速|すみ}やかに{対応|たいおう}する (respond promptly)\n- {速|すみ}やかに{報告|ほうこく}する (report without delay)\n- {速|すみ}やかに{行動|こうどう}する (act quickly)\n- {速|すみ}やかに{退去|たいきょ}する (evacuate promptly)\n\nSIMILAR WORDS:\nすぐに is the everyday word for 'immediately.' {直|ただ}ちに is another formal alternative meaning 'at once' and is even more urgent in tone. {速|すみ}やかに falls between the two in urgency and is the standard choice in formal written instructions.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02905_suguni",
+      "reading": "すぐに",
+      "headword": "すぐに",
+      "label": "immediately; everyday"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00398_tadachini",
+      "reading": "ただちに",
+      "headword": "{直|ただ}ちに",
+      "label": "at once; more urgent"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:07:48Z",
-    "modified": "2026-03-08T10:07:48Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["time"]
+      "semantic": [
+        "time"
+      ]
     }
   }
 }

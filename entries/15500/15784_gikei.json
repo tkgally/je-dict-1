@@ -19,7 +19,9 @@
       "english": "My brother-in-law is a doctor.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15784_gikei_ex2",
@@ -27,7 +29,9 @@
       "english": "I was asked by my brother-in-law to give a speech at the wedding.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15784_gikei_ex3",
@@ -35,7 +39,9 @@
       "english": "Since my stepbrother and I are close in age, we often played together growing up.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{義兄|ぎけい} is a formal, written term. In everyday conversation, people typically say お{義兄|にい}さん or {義理|ぎり}の{兄|あに}. The {義|ぎ} prefix indicates a family relationship by marriage or adoption rather than by blood.\n\nRELATED TERMS:\n- {義弟|ぎてい} (younger brother-in-law)\n- {義姉|ぎし} (older sister-in-law)\n- {義妹|ぎまい} (younger sister-in-law)\n- {義父|ぎふ} (father-in-law)\n- {義母|ぎぼ} (mother-in-law)\n\nThe spoken form お{義兄|にい}さん uses the kun'yomi reading and is warmer and more familiar.",
@@ -46,19 +52,39 @@
       "reading": "ぎてい",
       "headword": "{義弟|ぎてい}",
       "label": "brother-in-law (younger)"
+    },
+    {
+      "type": "related",
+      "target_id": "17835_gishi",
+      "reading": "ぎし",
+      "headword": "{義姉|ぎし}",
+      "label": "sister-in-law (older)"
+    },
+    {
+      "type": "related",
+      "target_id": "18404_gimai",
+      "reading": "ぎまい",
+      "headword": "{義妹|ぎまい}",
+      "label": "sister-in-law (younger)"
     }
   ],
   "metadata": {
     "created": "2026-03-08T09:44:41Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["family"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "family"
+      ]
     }
   }
 }

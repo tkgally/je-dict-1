@@ -19,7 +19,9 @@
       "english": "Policies to expand domestic demand are needed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15797_naiju_ex2",
@@ -27,7 +29,9 @@
       "english": "The aim is economic growth led by domestic demand rather than relying on exports.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15797_naiju_ex3",
@@ -35,22 +39,45 @@
       "english": "As domestic demand shrinks due to population decline, many companies are expanding into overseas markets.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{内需|ないじゅ} is an economics term that appears frequently in news articles, government reports, and business discussions. It is the opposite of {外需|がいじゅ} (external demand / export demand).\n\nCOMMON COLLOCATIONS:\n- {内需|ないじゅ}を{拡大|かくだい}する (expand domestic demand)\n- {内需|ないじゅ}{主導|しゅどう} (domestic-demand-led)\n- {内需|ないじゅ}{関連|かんれん}{株|かぶ} (domestic-demand-related stocks)\n- {内需|ないじゅ}の{低迷|ていめい} (sluggish domestic demand)\n\nSIMILAR WORDS:\n{外需|がいじゅ} means \"external demand\" — demand driven by exports. {需要|じゅよう} means \"demand\" in general and is the broader term.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "12644_gaiju",
+      "reading": "がいじゅ",
+      "headword": "{外需|がいじゅ}",
+      "label": "external demand"
+    },
+    {
+      "type": "related",
+      "target_id": "02616_juyou",
+      "reading": "じゅよう",
+      "headword": "{需要|じゅよう}",
+      "label": "demand; general"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:49:47Z",
-    "modified": "2026-03-08T09:49:47Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["economy"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "economy"
+      ]
     }
   }
 }
