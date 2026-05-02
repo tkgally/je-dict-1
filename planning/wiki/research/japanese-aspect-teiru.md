@@ -122,9 +122,10 @@ Shirai Yasuhiro's work, including Shirai (2000) and Shirai & Kurono (1998), conf
 
 ### Sugaya and Shirai (2007)
 
-Sugaya and Shirai (2007) conducted a large-scale study of ている acquisition by English-speaking learners at multiple proficiency levels. Key findings:
+Sugaya and Shirai (2007) conducted a large-scale study comparing 26 English L1 speakers with 35 German/Slavic L1 speakers on ている acquisition. Key findings:
 
-- **Resultative is the last reading acquired**: Even advanced learners showed lower accuracy on resultative readings compared to progressive.
+- **Resultative accuracy is strikingly low**: L2 learners scored around **30% accuracy** on resultative use of ている — worse than chance — even at intermediate and advanced levels. This is the single most compelling data point for why dictionaries need per-verb aspect notes.
+- **L1 effects are secondary to universal tendencies**: Both English and German/Slavic L1 groups showed the same progressive bias, suggesting the Aspect Hypothesis's universal cognitive predisposition outweighs L1 transfer.
 - **Explicit instruction helps**: Learners who received explicit instruction on the relationship between verb class and ている meaning outperformed those who learned through exposure alone.
 - **Verb-by-verb learning**: Learners appeared to learn ている meanings verb by verb rather than acquiring a general rule and applying it. This finding directly supports the dictionary approach of documenting aspect per entry rather than relying on a single grammar explanation.
 
@@ -244,6 +245,7 @@ Reaching full coverage of non-obvious ている behavior is a tractable polishin
 - Shirai, Y. (2000). The semantics of the Japanese imperfective -teiru: An integrative approach. *Journal of Pragmatics*, 32(3), 327–361.
 - Shirai, Y., & Kurono, A. (1998). The acquisition of tense-aspect marking in Japanese as a second language. *Language Learning*, 48(2), 245–279.
 - Sugaya, N., & Shirai, Y. (2007). The acquisition of progressive and resultative meanings of the imperfective aspect marker by L2 learners of Japanese. *Studies in Second Language Acquisition*, 29(1), 1–38.
+- Ogihara, T. (1998). The ambiguity of the -te iru form in Japanese. *Journal of East Asian Linguistics*, 7(2), 87–120.
 - Vendler, Z. (1957). Verbs and times. *The Philosophical Review*, 66(2), 143–160.
 
 ## Related pages
