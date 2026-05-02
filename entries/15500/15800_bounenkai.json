@@ -19,7 +19,9 @@
       "english": "I'll attend the year-end party.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15800_bounenkai_ex2",
@@ -27,7 +29,9 @@
       "english": "The company year-end party will be held on Friday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15800_bounenkai_ex3",
@@ -35,21 +39,43 @@
       "english": "This year's year-end party will be held at the izakaya in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{忘年会|ぼうねんかい} season runs from late November through December. Workplaces, clubs, and friend groups each hold their own parties, so people may attend several during the season. The word literally means 'forget-year-gathering' ({忘|ぼう} forget + {年|ねん} year + {会|かい} gathering).\n\nCOMMON COLLOCATIONS:\n- {忘年会|ぼうねんかい}を{開|ひら}く (hold a year-end party)\n- {忘年会|ぼうねんかい}に{参加|さんか}する (attend a year-end party)\n- {忘年会|ぼうねんかい}の{幹事|かんじ} (organizer of the year-end party)\n- {忘年会|ぼうねんかい}シーズン (year-end party season)\n\nRELATED TERMS:\n- {新年会|しんねんかい} is the New Year counterpart, held in January to celebrate the beginning of the year.\n- {歓送迎会|かんそうげいかい} is a welcome/farewell party for colleagues.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "20392_shinnenkai",
+      "reading": "しんねんかい",
+      "headword": "{新年会|しんねんかい}",
+      "label": "New Year's party"
+    },
+    {
+      "type": "related",
+      "target_id": "09371_nomikai",
+      "reading": "のみかい",
+      "headword": "{飲|の}み{会|かい}",
+      "label": "drinking party; casual"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:04:58Z",
-    "modified": "2026-03-08T10:04:58Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["culture", "social"]
+      "semantic": [
+        "culture",
+        "social"
+      ]
     }
   }
 }

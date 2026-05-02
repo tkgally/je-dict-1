@@ -19,7 +19,9 @@
       "english": "The new stadium has been completed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15763_kyougijou_ex2",
@@ -27,7 +29,9 @@
       "english": "The 50,000-capacity stadium was filled to capacity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15763_kyougijou_ex3",
@@ -35,21 +39,43 @@
       "english": "The Olympic track and field events were held at the National Stadium.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{競技場|きょうぎじょう} is a general term for sports venues. It can refer to outdoor stadiums, indoor arenas, or athletic grounds. For specific sports, more specific venue names are often used.\n\nCOMMON COLLOCATIONS:\n- {陸上|りくじょう}{競技場|きょうぎじょう} (track and field stadium)\n- {国立|こくりつ}{競技場|きょうぎじょう} (National Stadium)\n- {総合|そうごう}{競技場|きょうぎじょう} (multi-purpose sports complex)\n- {競技場|きょうぎじょう}の{建設|けんせつ} (stadium construction)\n\nSIMILAR WORDS:\nスタジアム is the English loanword for \"stadium\" and is commonly used. {球場|きゅうじょう} specifically refers to a baseball stadium. {体育館|たいいくかん} is an indoor gymnasium.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "15511_kyuujou",
+      "reading": "きゅうじょう",
+      "headword": "{球場|きゅうじょう}",
+      "label": "baseball stadium"
+    },
+    {
+      "type": "related",
+      "target_id": "03111_taiikukan",
+      "reading": "たいいくかん",
+      "headword": "{体育館|たいいくかん}",
+      "label": "gymnasium; indoor"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:16:08Z",
-    "modified": "2026-03-08T09:16:08Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["building", "leisure"]
+      "semantic": [
+        "building",
+        "leisure"
+      ]
     }
   }
 }

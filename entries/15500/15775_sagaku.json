@@ -19,7 +19,9 @@
       "english": "Please pay the difference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15775_sagaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The difference between the list price and the sale price was 3,000 yen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15775_sagaku_ex3",
@@ -35,21 +39,36 @@
       "english": "When exchanging a product, there may be a price difference.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{差額|さがく} is used when comparing two specific monetary amounts or quantities. It is common in retail, accounting, and everyday transactions.\n\nCOMMON COLLOCATIONS:\n- {差額|さがく}を{払|はら}う (pay the difference)\n- {差額|さがく}を{請求|せいきゅう}する (charge the difference)\n- {差額|さがく}が{出|で}る (a difference arises)\n- {差額|さがく}ベッド (hospital room with extra charge)\n\nSIMILAR WORDS:\n{差|さ} is a general word for difference and can be used beyond monetary contexts. {残高|ざんだか} means \"balance\" in the sense of remaining funds in an account, not a price gap.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02771_sa",
+      "reading": "さ",
+      "headword": "{差|さ}",
+      "label": "difference; general"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T09:41:12Z",
-    "modified": "2026-03-08T09:41:12Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["money", "business"]
+      "semantic": [
+        "money",
+        "business"
+      ]
     }
   }
 }

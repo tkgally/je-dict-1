@@ -19,7 +19,9 @@
       "english": "I'll calculate the volume of this box.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15815_youseki_ex2",
@@ -27,7 +29,9 @@
       "english": "The capacity of the suitcase is about 80 liters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15815_youseki_ex3",
@@ -35,21 +39,43 @@
       "english": "When buying a refrigerator, it's a good idea to check not only the capacity but also the power consumption.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{容積|ようせき} refers specifically to the internal volume of a container or enclosed space. It is commonly expressed in liters or cubic meters. The word is used both in everyday product specifications and in technical or scientific writing.\n\nCOMMON COLLOCATIONS:\n- {容積|ようせき}を{測|はか}る (measure the volume)\n- {容積|ようせき}を{計算|けいさん}する (calculate the volume)\n- {容積|ようせき}{率|りつ} (floor area ratio, in urban planning)\n- {総|そう}{容積|ようせき} (total capacity)\n\nSIMILAR WORDS:\n{体積|たいせき} is the volume of a solid object itself, while {容積|ようせき} is the volume of the space inside a container. {容量|ようりょう} also means capacity but is used more broadly for data storage, battery capacity, and liquid amounts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04492_taiseki",
+      "reading": "たいせき",
+      "headword": "{体積|たいせき}",
+      "label": "volume of solid object"
+    },
+    {
+      "type": "synonym",
+      "target_id": "04887_youryou",
+      "reading": "ようりょう",
+      "headword": "{容量|ようりょう}",
+      "label": "capacity; broader"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T10:10:50Z",
-    "modified": "2026-03-08T10:10:50Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "measurement"]
+      "semantic": [
+        "science",
+        "measurement"
+      ]
     }
   }
 }

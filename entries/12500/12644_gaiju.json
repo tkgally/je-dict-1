@@ -19,7 +19,9 @@
       "english": "External demand is growing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12644_gaiju_ex2",
@@ -27,7 +29,9 @@
       "english": "The Japanese economy depends heavily on foreign demand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "12644_gaiju_ex3",
@@ -35,22 +39,38 @@
       "english": "To compensate for the decline in foreign demand, the government introduced measures to expand domestic demand.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn economics term frequently seen in news and business reporting. Contrasted with {内需|ないじゅ} (domestic demand). In economic analysis, {外需|がいじゅ} primarily refers to the net exports component of GDP.\n\nCOMMON COLLOCATIONS:\n- {外需|がいじゅ}{依存|いぞん}: dependence on external demand\n- {外需|がいじゅ}{主導|しゅどう}: led by external demand\n- {外需|がいじゅ}の{拡大|かくだい}: expansion of external demand\n- {外需|がいじゅ}と{内需|ないじゅ}: external and domestic demand",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "15797_naiju",
+      "reading": "ないじゅ",
+      "headword": "{内需|ないじゅ}",
+      "label": "domestic demand"
+    }
+  ],
   "metadata": {
     "created": "2026-02-22T05:20:11Z",
-    "modified": "2026-02-22T05:20:11Z",
+    "modified": "2026-05-02T05:13:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["business"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }
