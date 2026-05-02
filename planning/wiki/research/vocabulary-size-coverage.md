@@ -1,6 +1,6 @@
 # Vocabulary Size and Text Coverage
 
-**Last updated**: 2026-05-01
+**Last updated**: 2026-05-02
 
 ## Overview
 
@@ -162,7 +162,7 @@ The three-tier system maps loosely onto the coverage research:
 |---------------|------|-------------------|
 | Basic | 801 | First 1,000 WF — survival vocabulary, ~72–78% coverage |
 | Basic + Core | 2,783 | First 2,000–3,000 WF — ~80–90% coverage, Laufer's minimal threshold |
-| + General (all) | 26,242 | Well beyond 98% written coverage — reference completeness |
+| + General (all) | 26,345 | Well beyond 98% written coverage — reference completeness |
 
 This mapping reinforces the tier design: basic + core gives the learner enough vocabulary to read with struggle; the general tier progressively reduces the density of unknowns toward comfortable reading. The 25,000-30,000 entry target in the [growth plan](../ideas/dictionary-growth.md) for "Phase 1: learner completeness" aligns with the major English learner dictionaries' wordlists and should provide comfortable reference coverage.
 

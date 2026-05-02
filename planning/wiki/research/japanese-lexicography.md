@@ -1,6 +1,6 @@
 # Japanese Lexicography Challenges
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-02
 
 ## Overview
 
@@ -94,3 +94,4 @@ Many words have multiple accepted spellings:
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — loanword adaptation, semantic shift, and dictionary treatment challenges
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — indirectness, keigo pragmatics, and sentence-final particles as Japanese-specific challenges
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji acquisition, lookup methods, and furigana as a learning scaffold
+- [Japanese Aspect and ている](japanese-aspect-teiru.md) — the ている polysemy challenge and verb classification systems

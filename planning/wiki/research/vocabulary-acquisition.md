@@ -1,6 +1,6 @@
 # Vocabulary Acquisition
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-02
 
 ## How L2 learners acquire vocabulary
 
@@ -113,3 +113,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic competence gap and why grammatical knowledge doesn't ensure appropriate language use
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — the semantic clustering debate and how learners organize vocabulary in semantic networks
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — morphological awareness, compound inferencing, and kanji knowledge in vocabulary acquisition
+- [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis

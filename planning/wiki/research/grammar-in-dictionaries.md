@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-05-01
+**Last updated**: 2026-05-02
 
 ## Overview
 
@@ -164,7 +164,7 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 
 4. **Aspect documentation**: The polish_aspect_notes task adds ている behavior notes to verbs with non-obvious aspect, directly addressing the aspect polysemy challenge.
 
-5. **Example-based grammar teaching**: With over 104,800 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
+5. **Example-based grammar teaching**: With over 105,200 examples averaging 4.0 per entry, the dictionary provides substantial implicit grammar input through examples.
 
 ### Areas for potential improvement
 
@@ -207,3 +207,4 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 - [Multiword Expressions](multiword-expressions.md) — grammar patterns (〜について, 〜てしまう) as a category of MWE
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — structural and particle errors that grammar encoding should preempt
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic dimension of grammar (particles as discourse markers, keigo as social grammar)
+- [Japanese Aspect and ている](japanese-aspect-teiru.md) — aspect documentation as a grammar-encoding challenge; the ている polysemy problem

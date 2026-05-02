@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-01
+**Last updated**: 2026-05-02
 
 ## How this wiki is organized
 
@@ -51,6 +51,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Pragmatics and Speech Acts](research/pragmatics-speech-acts.md) — Speech act theory, Japanese indirectness, sentence-final particles, pragmatic competence gap, and dictionary treatment
 - [Sense Relations and Semantic Networks](research/sense-relations-semantic-networks.md) — Synonymy, antonymy, hyponymy, mental lexicon organization, semantic clustering debate, and dictionary treatment
 - [Kanji Learning and Dictionary Treatment](research/kanji-learning-dictionaries.md) — Kanji acquisition, L1 transfer, radical/component awareness, compound inferencing, lookup methods, and furigana scaffolding
+- [Japanese Aspect and ている](research/japanese-aspect-teiru.md) — Kindaichi's verb classification, progressive/resultative/habitual/experiential readings, L2 acquisition, and dictionary treatment of aspect
 
 ## Topics
 
