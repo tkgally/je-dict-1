@@ -51,6 +51,28 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-02 (Vocabulary Expansion - 25 New Entries, Batch 76)
+Added 25 new dictionary entries (IDs 26450-26474) from candidate_words.json. Diverse batch spanning science, culture, history, technology, daily life, and nature.
+
+- **Science/technology (3)**: {遺伝性|いでんせい} (hereditary nature), {素子|そし} (electronic element/component), {防振|ぼうしん} (vibration damping)
+- **Culture/history (5)**: {繭糸|けんし} (silk thread), {膝行|しっこう} (crawling on knees), {羅刹|らせつ} (rakshasa demon), {男色|なんしょく} (male homosexuality), {練功|れんこう} (martial arts training)
+- **Nature/agriculture (3)**: {土中|どちゅう} (in the soil), {土石|どせき} (earth and stone), {播種期|はしゅき} (sowing season)
+- **Daily life/food (3)**: {早飲|はやの}み (quick drinking), もたれ (stomach heaviness/backrest), {右党|うとう} (teetotaler)
+- **Legal/admin (1)**: {正本|せいほん} (original/official copy)
+- **Maritime (1)**: {曳航|えいこう} (towing)
+- **Sports/body (1)**: {徒手|としゅ} (bare-handed)
+- **Weather/culture (1)**: {晴|は}れ{乞|ご}い (praying for clear weather)
+- **Relationships (1)**: {仲裂|なかざ}き (estrangement)
+- **Regional/cultural (2)**: {郷土性|きょうどせい} (local character), {兄貴肌|あにきはだ} (big-brother type personality)
+- **Art (1)**: {多色|たしょく} (multiple colors)
+- **Architecture (1)**: {防塀|ぼうへい} (protective wall)
+- **Thermal science (1)**: {冷熱|れいねつ} (cold and heat)
+- **History/survival (1)**: {遺存|いそん} (surviving remains)
+- Conjugation tables auto-generated for 4 suru-verb entries
+- 25 candidates synced from candidate list; 1 new kanji (曳) added to kanji index
+
+Total entries: 26,242 → 26,267.
+
 ### 2026-05-01 (Vocabulary Expansion - 20 New Entries, Batch 74)
 Added 20 new dictionary entries (IDs 26430-26449) from candidate_words.json. Diverse batch covering transport, business, technology, daily life, and more.
 
@@ -121,23 +143,5 @@ Added 20 new dictionary entries (IDs 26378-26397) from candidate_words.json. Foc
 - 19 candidates synced from candidate list
 
 Total entries: 26,170 → 26,190.
-
-### 2026-05-01 (Vocabulary Expansion - 17 New Entries, Batch 70)
-Added 17 new dictionary entries (IDs 26361-26377) from candidate_words.json. Mixed batch covering food, clothing, transportation, environment, language, and daily life.
-
-- **Food (3)**: {粕|かす} (dregs/residue/lees), カマンベール (camembert cheese), バニラアイス (vanilla ice cream)
-- **Clothing/fashion (4)**: ルームウェア (loungewear), ナイトウェア (nightwear), ポリエステル (polyester), ペディキュア (pedicure)
-- **Transportation (1)**: ドアミラー (side mirror, wasei-eigo)
-- **Environment (1)**: リデュース (reduce, 3R movement)
-- **Business (2)**: {全品|ぜんぴん} (all items), {送付状|そうふじょう} (cover letter/transmittal)
-- **Language/education (1)**: {和文英訳|わぶんえいやく} (Japanese-to-English translation)
-- **Geography (1)**: メキシコ (Mexico)
-- **Body/movement (1)**: のけぞり (bending backward)
-- **Sound (1)**: ばたんばたん (repeated banging/slamming)
-- **Verbs (1)**: {立|た}ち{入|い}る (to enter/trespass)
-- Conjugation tables auto-generated for 2 verb entries
-- 15 candidates synced; 6 stale candidates removed
-
-Total entries: 26,153 → 26,170.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
