@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-02 (Vocabulary Expansion - 15 New Entries, Batch 78)
+Added 15 new dictionary entries (IDs 26500-26514) from candidate_words.json. Mixed vocabulary spanning civil engineering, linguistics, medicine, business, photography, cultural traditions, and daily life.
+
+- **Civil engineering (1)**: {法面|のりめん} (embankment slope)
+- **Linguistics (1)**: {廃語|はいご} (obsolete word)
+- **Medical/pharmaceutical (2)**: {満量|まんりょう} (full dose), {術前|じゅつぜん} (preoperative)
+- **Business/formal (3)**: {返答書|へんとうしょ} (written reply), {如上|じょじょう} (as stated above), {遅答|ちとう} (delayed reply)
+- **Photography/optics (1)**: {合焦|ごうしょう} (focusing)
+- **Daily life/products (2)**: {浴用|よくよう} (for bathing use), {箱|はこ}ティッシュ (box tissues)
+- **Culture/food (2)**: {春|はる}の{七草|ななくさ} (seven spring herbs), {米粉|こめこ}パン (rice flour bread)
+- **Games (1)**: {場札|ばふだ} (table card)
+- **Language/formal (2)**: {称辞|しょうじ} (words of praise), {荷受人|にうけにん} (consignee)
+- Conjugation tables auto-generated for 2 suru-verb entries
+- 15 candidates synced from candidate list
+
+Total entries: 26,292 → 26,307.
+
 ### 2026-05-02 (Vocabulary Expansion - 25 New Entries, Batch 77)
 Added 25 new dictionary entries (IDs 26475-26499) from candidate_words.json. Practical vocabulary spanning business, medical, academic, banking, and daily life domains.
 
