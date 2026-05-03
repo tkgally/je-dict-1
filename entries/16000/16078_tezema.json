@@ -19,7 +19,9 @@
       "english": "This office is cramped.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16078_tezema_ex2",
@@ -27,7 +29,9 @@
       "english": "The family grew and the house became too small.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16078_tezema_ex3",
@@ -35,21 +39,42 @@
       "english": "We decided to move the warehouse that had become too small to a larger location.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften used with になる to express that a space has become insufficient over time. Commonly describes offices, homes, and storage spaces that no longer meet needs due to growth.\n\nFORMS:\n- Predicate: {手狭|てぜま}だ (is cramped)\n- Modifier: {手狭|てぜま}な{部屋|へや} (a cramped room)\n- Change: {手狭|てぜま}になる (to become too small)\n\nSIMILAR WORDS:\n- {狭|せま}い: narrow, small — general adjective for limited space\n- {窮屈|きゅうくつ}: tight, uncomfortable — emphasizes physical discomfort from lack of space",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "00750_semai",
+      "reading": "せまい",
+      "headword": "{狭|せま}い",
+      "label": "narrow, small (general)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "06869_kyuukutsu",
+      "reading": "きゅうくつ",
+      "headword": "{窮屈|きゅうくつ}",
+      "label": "tight, uncomfortable"
+    }
+  ],
   "metadata": {
     "created": "2026-03-09T12:19:07Z",
-    "modified": "2026-03-09T12:19:07Z",
+    "modified": "2026-05-03T04:25:32Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["space"]
+      "semantic": [
+        "space"
+      ]
     }
   }
 }
