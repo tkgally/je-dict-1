@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-03 (Vocabulary Expansion - 20 New Entries, Batch 81)
+Added 20 new dictionary entries (IDs 26553-26572) from candidate_words.json. Focus on practical expressions, proverbs, daily-life vocabulary, and useful standalone words.
+
+- **Proverbs (2)**: {二兎|にと}を{追|お}う{者|もの}は{一兎|いっと}をも{得|え}ず (don't chase two goals), {急|せ}いては{事|こと}を{仕損|しそん}じる (haste makes waste)
+- **Polite expressions/greetings (4)**: お{先|さき}に (excuse me for going first), お{大事|だいじ}に (take care), おかげさまで (thanks to you), ご{覧|らん}いただく (please look — humble keigo)
+- **Grammar/formal patterns (1)**: に{先立|さきだ}って (prior to)
+- **Verbs (2)**: {溶|と}く (to dissolve/mix), {噴|ふ}く (to spout/erupt)
+- **Money/currency (2)**: {五千円札|ごせんえんさつ}, {一万円札|いちまんえんさつ}
+- **Time/scheduling (2)**: {所要時間|しょようじかん} (required time), {時間外|じかんがい} (after hours)
+- **Food/drink (2)**: {食|た}べ{頃|ごろ} (ready to eat), {飲|の}み{頃|ごろ} (ready to drink)
+- **Signs/rules (1)**: {撮影禁止|さつえいきんし} (no photography)
+- **Seasons/time (1)**: {真|ま}っ{盛|さか}り (at peak)
+- **Language study (1)**: {偏|へん} (kanji left-side radical)
+- **Counting (1)**: {一箇所|いっかしょ} (one place)
+- **Daily expression (1)**: {気|き}を{配|くば}る (to be attentive)
+- Conjugation tables auto-generated for 2 godan verbs
+- 43+ stale candidates removed during session cleanup
+- 5 candidates synced (now exist as entries)
+
+Total entries: 26,345 → 26,365.
+
 ### 2026-05-02 (Vocabulary Expansion - 18 New Entries, Batch 80)
 Added 18 new dictionary entries (IDs 26535-26552) from candidate_words.json. Diverse vocabulary spanning medical, business, technology, food culture, martial arts, and family terminology.
 
