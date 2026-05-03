@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-03 (Vocabulary Expansion - 28 New Entries, Batch 84)
+Added 28 new dictionary entries (IDs 26611-26638) from candidate_words.json. Vocabulary covers Japanese culture, science, logistics, military history, nature, and specialized domains.
+
+- **Culture/tradition (6)**: {刀鞘|かたなざや} (sword sheath), {弓弦|ゆみづる} (bowstring), {社務|しゃむ} (shrine duties), {祭殿|さいでん} (ceremonial hall), {良日|りょうじつ} (auspicious day), {馬車道|ばしゃみち} (carriage road)
+- **Performing arts/games (3)**: {立役|たてやく} (leading kabuki role), {点棒|てんぼう} (mahjong scoring sticks), {咥|くわ}え{煙草|たばこ} (cigarette dangling from mouth)
+- **Science/physics (3)**: {電導|でんどう} (electrical conduction), {導熱|どうねつ} (heat conduction), {孵卵|ふらん} (incubation)
+- **Military/historical (2)**: {兵馬|へいば} (troops and horses), {空拳|くうけん} (bare fists)
+- **Geography/nature (4)**: {海湾|かいわん} (bay/gulf), {土質|どしつ} (soil quality), {夏虫|なつむし} (summer insect), {放魚|ほうぎょ} (fish stocking)
+- **Construction/materials (3)**: {新造|しんぞう} (new construction), {芯材|しんざい} (core material), {冷温|れいおん} (cold and warm)
+- **Business/logistics (2)**: {着荷|ちゃくに} (arrival of goods), {転所|てんしょ} (facility transfer)
+- **Transportation (3)**: {手車|てぐるま} (handcart), {副翼|ふくよく} (aileron), {乱走|らんそう} (reckless driving)
+- **Food/biology (1)**: {種実|しゅじつ} (nuts and seeds)
+- **Law/sports (1)**: {誤判|ごはん} (misjudgment)
+- 2 stale duplicate candidates removed (律詩, 銅色); 28 candidates synced
+
+Total entries: 26,403 → 26,431.
+
 ### 2026-05-03 (Vocabulary Expansion - 20 New Entries, Batch 83)
 Added 20 new dictionary entries (IDs 26591-26610) from candidate_words.json. Mix of essential grammar patterns, cultural vocabulary, sports terminology, and practical words across diverse domains.
 
