@@ -1,6 +1,6 @@
 # Pragmatics and Speech Acts in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-03
 
 ## Overview
 
@@ -219,3 +219,4 @@ Based on the research, these entry types would benefit most from pragmatic annot
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — encoding grammatical and syntactic patterns
 - [Entry Consistency](../topics/entry-consistency.md) — standardizing note structure across entries
 - [Cross-Reference Design](../topics/cross-references.md) — linking related entries for browsing
+- [Register and Formality Marking](register-formality-marking.md) — diasystematic labels, the consultation gap, and register encoding strategies

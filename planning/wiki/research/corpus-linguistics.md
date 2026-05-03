@@ -1,6 +1,6 @@
 # Corpus Linguistics and Frequency Lists
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-05-03
 
 ## How corpus data informs dictionary making
 
@@ -73,3 +73,4 @@ Comparing dictionary coverage against BCCWJ frequency ranks would identify the h
 - [Beyond Flat Corpora](beyond-flat-corpora.md) — how LLMs go beyond distributional analysis
 - [LLMs as Lexicographic Corpus Replacements](../topics/llms-replacing-corpora.md) — whether LLMs can replace corpora in dictionary production
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how frequency-based vocabulary size maps to text coverage thresholds
+- [Register and Formality Marking](register-formality-marking.md) — corpus-based register assignment using genre-tagged subcorpora

@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-05-02
+**Last updated**: 2026-05-03
 
 ## Overview
 
@@ -72,7 +72,7 @@ The parallel architecture document named "regression — an agent makes a change
 
 ### 4. Consistency checker as a gate vs. a report
 
-`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,818 note-structure issues, 6,405 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
+`check_consistency.py` produces a report. It is *not* currently a CI gate. The health dashboard shows 2,818 note-structure issues, 6,562 asymmetric references, etc. — numbers that drift rather than monotonically decrease. Making the checker a gate on *new* entries (while leaving historical entries as report-only) would prevent new debt.
 
 ### 5. Multi-model review feedback loops
 
@@ -80,26 +80,26 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-02 (26,345 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-03 (26,446 entries):
 
 | Metric | Plan target | 2026-05-02 | Notes |
 |--------|-------------|------------|-------|
 | Verbs with transitivity | 100% | ~33% | 4,505 verbs still missing; transitivity queue slowly progressing |
 | Entries with note score ≥ 60 | 80% | ~84% | Target reached |
-| Cross-reference symmetry | 98% | 42.2% | 6,405 asymmetric references; largest remaining gap |
+| Cross-reference symmetry | 98% | 41.9% | 6,562 asymmetric references; largest remaining gap |
 | Verbs with ている docs | 80% (of those needing it) | aspect-notes queue progressing | Still slow-moving |
 | Multi-model review coverage | 100% (furigana) | queue depth growing | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **105,220 total examples** |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **105,577 total examples** |
 | Cross-references per entry | ≥ 0.5 | 0.51 | **Target reached**; rising steadily from 0.32 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density has reached the ≥ 0.5 target** (0.51 per entry, up from 0.32 in mid-April) as the dictionary added ~3,800+ entries with cross-references since mid-April. Total cross-references have reached 13,371. Asymmetric pairs stand at 6,405 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
+Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density has reached the ≥ 0.5 target** (0.51 per entry, up from 0.32 in mid-April) as the dictionary added ~3,800+ entries with cross-references since mid-April. Total cross-references have reached 13,619. Asymmetric pairs stand at 6,562 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
 
 ## Implications for future maintenance sessions
 
 ### For content polishing
 - The three biggest remaining gaps — transitivity, symmetry, cross-reference density — are all amenable to the queue + priority infrastructure. The next curator-directed sprint might do the same one-day push against these, now that the tooling exists.
-- Note-structure issues (2,818) and example-count gaps (344) are smaller buckets where a completionist pass is feasible.
+- Note-structure issues (2,818) and example-count gaps are smaller buckets where a completionist pass is feasible.
 
 ### For tooling
 - Wire the note quality scorer and multi-model screening results into the queue populator so prioritization uses quality signal, not just field presence/absence.

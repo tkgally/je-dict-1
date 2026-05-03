@@ -1,6 +1,6 @@
 # Semantic Prosody
 
-**Last updated**: 2026-04-29
+**Last updated**: 2026-05-03
 
 ## Overview
 
@@ -112,3 +112,4 @@ The phenomenon is subtle enough that notes about it are probably more valuable i
 - [Onomatopoeia and Mimetic Words](onomatopoeia-mimetics.md) — overlapping territory, since many mimetics carry fixed evaluative polarity
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — connotation and affect as pragmatic dimensions of meaning
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — prosody as a dimension that distinguishes near-synonyms
+- [Register and Formality Marking](register-formality-marking.md) — evaluative and register dimensions as complementary labelling concerns
