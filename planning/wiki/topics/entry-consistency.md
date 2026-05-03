@@ -1,10 +1,10 @@
 # Consistency in Form and Content Among Similar Entries
 
-**Last updated**: 2026-05-02
+**Last updated**: 2026-05-03
 
 ## Overview
 
-As the dictionary grows past 26,300 entries, inconsistencies in how similar types of entries present information become increasingly visible. This page analyzes the consistency problem, identifies the most important areas for standardization, and proposes strategies for achieving greater uniformity without losing the flexibility that makes individual entries useful. Since Phase 10 of the Enhancement Plan 2026, `build/check_consistency.py` now operationalizes several of the detection ideas below.
+As the dictionary grows past 26,400 entries, inconsistencies in how similar types of entries present information become increasingly visible. This page analyzes the consistency problem, identifies the most important areas for standardization, and proposes strategies for achieving greater uniformity without losing the flexibility that makes individual entries useful. Since Phase 10 of the Enhancement Plan 2026, `build/check_consistency.py` now operationalizes several of the detection ideas below.
 
 ## The consistency problem
 
@@ -64,7 +64,7 @@ As the dictionary grows past 26,300 entries, inconsistencies in how similar type
 
 ### 2. Cross-reference consistency
 
-**Current state**: ~12,600 cross-references across ~26,100 entries, but coverage is uneven. Some semantic clusters are well-linked; others have no cross-references at all.
+**Current state**: ~13,600 cross-references across ~26,400 entries, but coverage is uneven. Some semantic clusters are well-linked; others have no cross-references at all.
 
 **Target consistency goals**:
 - All transitivity pairs linked bidirectionally via `prominent_see_also`
