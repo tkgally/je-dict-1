@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-03 (Vocabulary Expansion - 15 New Entries, Batch 85)
+Added 15 new dictionary entries (IDs 26639-26653) from candidate_words.json. Diverse vocabulary covering news/media, architecture, education, food culture, workplace, linguistics, literature, computing, business, and color terms.
+
+- **News/media (2)**: {速報値|そくほうち} (preliminary figure), {隔週刊|かくしゅうかん} (biweekly publication)
+- **Architecture (1)**: {三階建|さんがいだ}て (three-story building)
+- **Education (1)**: {第二志望|だいにしぼう} (second choice)
+- **Food culture (1)**: {寿司盛|すしも}り (sushi platter)
+- **Workplace (1)**: {連続勤務|れんぞくきんむ} (consecutive work days)
+- **Linguistics (1)**: {新造語|しんぞうご} (neologism)
+- **Literature (2)**: {女主人公|じょしゅじんこう} (female protagonist), {通俗文学|つうぞくぶんがく} (popular literature)
+- **Computing (1)**: {再読|さいよ}み{込|こ}み (reload/refresh)
+- **Business (1)**: {一人会社|ひとりがいしゃ} (one-person company)
+- **Color terms (2)**: {薄灰色|うすはいいろ} (light gray), {濃灰色|のうはいいろ} (dark gray)
+- **Medical/daily life (1)**: {寝小便|ねしょうべん} (bedwetting)
+- **Na-adjective (1)**: {外観的|がいかんてき} (external, superficial)
+- 15 candidates synced from candidate list
+
+Total entries: 26,431 → 26,446.
+
 ### 2026-05-03 (Vocabulary Expansion - 28 New Entries, Batch 84)
 Added 28 new dictionary entries (IDs 26611-26638) from candidate_words.json. Vocabulary covers Japanese culture, science, logistics, military history, nature, and specialized domains.
 
