@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-03 (Vocabulary Expansion - 20 New Entries, Batch 83)
+Added 20 new dictionary entries (IDs 26591-26610) from candidate_words.json. Mix of essential grammar patterns, cultural vocabulary, sports terminology, and practical words across diverse domains.
+
+- **Grammar patterns/expressions (6)**: はずだ (should be/expected to), べきだ (should/ought to), ようだ (seems/like/so that), {問題|もんだい}ない (no problem), どれぐらい (how much/long), ごとし (like/as if — literary)
+- **Sports/baseball (2)**: {先発|せんぱつ}{投手|とうしゅ} (starting pitcher), {首位|しゅい}{打者|だしゃ} (batting champion)
+- **Culture/history (3)**: {縄文|じょうもん}{土器|どき} (Jomon pottery), {民俗|みんぞく}{芸能|げいのう} (folk performing arts), {記念|きねん}アルバム (commemorative album)
+- **Academic/education (3)**: {環境学|かんきょうがく} (environmental studies), {授業案|じゅぎょうあん} (lesson plan), {接続|せつぞく}{助詞|じょし} (conjunctive particle)
+- **Science (1)**: {古生物|こせいぶつ} (fossil organism)
+- **Entertainment (1)**: {名|めい}{脇役|わきやく} (great supporting actor)
+- **Physical description (1)**: {高身長|こうしんちょう} (tall stature)
+- **Food/cooking (1)**: {拍子木|ひょうしぎ}{切|ぎ}り (baton cut)
+- **Politics (1)**: {核拡散|かくかくさん} (nuclear proliferation)
+- **Legal (1)**: {在留権|ざいりゅうけん} (right of residence)
+- 20 candidates synced from candidate list
+
+Total entries: 26,383 → 26,403.
+
 ### 2026-05-03 (Vocabulary Expansion - 18 New Entries, Batch 82)
 Added 18 new dictionary entries (IDs 26573-26590) from candidate_words.json. Diverse vocabulary covering spatial terms, education, lifestyle, politics, history, crafts, culture, and technology.
 
