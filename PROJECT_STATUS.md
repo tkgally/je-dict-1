@@ -51,6 +51,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-04 (Vocabulary Expansion - 30 New Entries, Batch 88)
+Added 30 new dictionary entries (IDs 26702-26731) from candidate_words.json. Vocabulary covers shapes/math, product categories, education, transportation, culture/language, family, society, finance, stationery, and more.
+
+- **Shapes/math (2)**: {六角|ろっかく} (hexagonal), {商|しょう} (quotient)
+- **Product categories (3)**: {一般用|いっぱんよう} (for general use), {個人用|こじんよう} (for personal use), {農業用|のうぎょうよう} (for agricultural use)
+- **Education (2)**: {男子学生|だんしがくせい} (male student), {非専門|ひせんもん} (non-specialist)
+- **Transportation (1)**: {左車線|ひだりしゃせん} (left lane)
+- **Culture/entertainment (2)**: {西洋映画|せいようえいが} (Western film), {文化週間|ぶんかしゅうかん} (Culture Week)
+- **Language/writing (2)**: {和字|わじ} (Japanese-made characters), {罫線入|けいせんい}り (ruled/lined)
+- **Law/politics (2)**: {国籍法|こくせきほう} (nationality law), {再就任|さいしゅうにん} (reappointment)
+- **Society/people (4)**: {非常識人|ひじょうしきじん} (person lacking common sense), {貧困者|ひんこんしゃ} (person in poverty), {徘徊者|はいかいしゃ} (wanderer), {遭遇者|そうぐうしゃ} (witness/person who encounters)
+- **Family (1)**: {恋女房|こいにょうぼう} (beloved wife)
+- **Technology/daily life (2)**: フロアマップ (floor map), {画面|がめん}サイズ (screen size)
+- **Finance (1)**: {残高証明|ざんだかしょうめい} (balance certificate)
+- **Material (1)**: {天然皮革|てんねんひかく} (natural leather)
+- **Work (2)**: {社外活動|しゃがいかつどう} (outside-company activities), {起用法|きようほう} (personnel deployment method)
+- **Nature (1)**: {白々明|しらじらあ}ける (to dawn — literary)
+- **Health (1)**: {放屁|ほうひ} (flatulence — formal)
+- **Science (1)**: {結晶体|けっしょうたい} (crystalline body)
+- **Quantity (1)**: {数冊|すうさつ} (several books)
+- **Technology change (1)**: {精巧化|せいこうか} (increasing sophistication)
+- 1 stale candidate removed (灰色 — duplicate of existing entry)
+- 30 candidates synced from candidate list
+
+Total entries: 26,494 → 26,524.
+
 ### 2026-05-04 (Vocabulary Expansion - 18 New Entries, Batch 87)
 Added 18 new dictionary entries (IDs 26684-26701) from candidate_words.json. Diverse vocabulary covering description, environment, food/cooking, counters, daily life, entertainment, games, sports, technology, business, literature, and media.
 
@@ -145,27 +171,6 @@ Added 20 new dictionary entries (IDs 26591-26610) from candidate_words.json. Mix
 
 Total entries: 26,383 → 26,403.
 
-### 2026-05-03 (Vocabulary Expansion - 18 New Entries, Batch 82)
-Added 18 new dictionary entries (IDs 26573-26590) from candidate_words.json. Diverse vocabulary covering spatial terms, education, lifestyle, politics, history, crafts, culture, and technology.
-
-- **Spatial/direction (2)**: {下側|したがわ} (lower side), {隣側|となりがわ} (neighboring side)
-- **Education (1)**: {退園|たいえん} (leaving kindergarten/nursery)
-- **Lifestyle (1)**: {昼型|ひるがた} (daytime-type person)
-- **Statistics/data (1)**: {地域別|ちいきべつ} (by region)
-- **Nature/science (2)**: {軟体|なんたい} (soft-bodied), {水柱|すいちゅう} (water column)
-- **Psychology (1)**: {記銘|きめい} (memorization/encoding)
-- **History/politics (2)**: {虐政|ぎゃくせい} (tyrannical rule), {衆議院議員|しゅうぎいんぎいん} (House of Representatives member)
-- **Textiles (1)**: {綿糸|めんし} (cotton yarn)
-- **Skills/actions (2)**: {早技|はやわざ} (quick technique), {擦|す}り{寄|よ}せる (to bring close; reconcile)
-- **Administration (1)**: {呼名|こめい} (roll call; designation)
-- **Character/behavior (1)**: {自由勝手|じゆうかって} (acting selfishly)
-- **Technology (1)**: {常時稼働|じょうじかどう} (continuous operation)
-- **Infrastructure (1)**: {水道工事|すいどうこうじ} (plumbing work)
-- **Culture (1)**: {風車小屋|ふうしゃごや} (windmill house)
-- Conjugation tables auto-generated for 5 verb entries (4 suru, 1 ichidan)
-- 3 stale duplicate candidates removed; 17 candidates synced
-
-Total entries: 26,365 → 26,383.
 
 ### 2026-05-02 (Vocabulary Expansion - 18 New Entries, Batch 80)
 Added 18 new dictionary entries (IDs 26535-26552) from candidate_words.json. Diverse vocabulary spanning medical, business, technology, food culture, martial arts, and family terminology.
