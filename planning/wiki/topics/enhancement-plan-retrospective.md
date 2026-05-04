@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-04
 
 ## Overview
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-03 (26,446 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-04 (26,568 entries):
 
-| Metric | Plan target | 2026-05-02 | Notes |
+| Metric | Plan target | 2026-05-04 | Notes |
 |--------|-------------|------------|-------|
-| Verbs with transitivity | 100% | ~33% | 4,505 verbs still missing; transitivity queue slowly progressing |
+| Verbs with transitivity | 100% | ~33% | ~4,500 verbs still missing; transitivity queue slowly progressing |
 | Entries with note score ≥ 60 | 80% | ~84% | Target reached |
-| Cross-reference symmetry | 98% | 41.9% | 6,562 asymmetric references; largest remaining gap |
+| Cross-reference symmetry | 98% | 41.4% | 6,794 asymmetric references; largest remaining gap |
 | Verbs with ている docs | 80% (of those needing it) | aspect-notes queue progressing | Still slow-moving |
 | Multi-model review coverage | 100% (furigana) | queue depth growing | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **105,577 total examples** |
-| Cross-references per entry | ≥ 0.5 | 0.51 | **Target reached**; rising steadily from 0.32 in mid-April |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **105,952 total examples** |
+| Cross-references per entry | ≥ 0.5 | 0.53 | **Target reached**; rising steadily from 0.32 in mid-April |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Two targets have been met (note quality, examples). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Three remain well below target (transitivity, symmetry, cross-ref density) and should drive the next round of work. **Cross-reference density has reached the ≥ 0.5 target** (0.51 per entry, up from 0.32 in mid-April) as the dictionary added ~3,800+ entries with cross-references since mid-April. Total cross-references have reached 13,619. Asymmetric pairs stand at 6,562 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
+Two targets have been met (note quality, examples). Cross-reference density has now also met its target. Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Two remain well below target (transitivity, symmetry) and should drive the next round of work. **Cross-reference density has reached 0.53 per entry** (up from 0.32 in mid-April) as the dictionary added ~4,000+ entries with cross-references since mid-April. Total cross-references have reached 13,966. Asymmetric pairs stand at 6,794 (growing as new entries add unreciprocated links faster than the symmetry pass processes them).
 
 ## Implications for future maintenance sessions
 

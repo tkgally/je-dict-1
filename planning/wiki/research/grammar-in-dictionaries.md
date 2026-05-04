@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-04
 
 ## Overview
 
@@ -208,3 +208,4 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — structural and particle errors that grammar encoding should preempt
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic dimension of grammar (particles as discourse markers, keigo as social grammar)
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — aspect documentation as a grammar-encoding challenge; the ている polysemy problem
+- [Keigo: Honorific Language](keigo-honorifics.md) — keigo as a grammaticalized system; encoding honorific patterns in entries

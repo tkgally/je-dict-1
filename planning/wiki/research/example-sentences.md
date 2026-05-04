@@ -76,3 +76,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — designing examples that make pragmatic context salient
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている examples as aspect-encoding vehicles for verbs with non-obvious readings
 - [Register and Formality Marking](register-formality-marking.md) — register-appropriate examples as an alternative to metalinguistic labels
+- [Keigo: Honorific Language](keigo-honorifics.md) — keigo forms in example sentences as a vehicle for modeling social context

@@ -114,3 +114,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — the semantic clustering debate and how learners organize vocabulary in semantic networks
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — morphological awareness, compound inferencing, and kanji knowledge in vocabulary acquisition
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis
+- [Keigo: Honorific Language](keigo-honorifics.md) — keigo acquisition as a pragmatic competence challenge; L1 background effects

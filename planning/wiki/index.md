@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-04
 
 ## How this wiki is organized
 
@@ -53,6 +53,7 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Kanji Learning and Dictionary Treatment](research/kanji-learning-dictionaries.md) — Kanji acquisition, L1 transfer, radical/component awareness, compound inferencing, lookup methods, and furigana scaffolding
 - [Japanese Aspect and ている](research/japanese-aspect-teiru.md) — Kindaichi's verb classification, progressive/resultative/habitual/experiential readings, L2 acquisition, and dictionary treatment of aspect
 - [Register and Formality Marking](research/register-formality-marking.md) — Diasystematic labels, the consultation gap, Japanese stratal register, keigo marking, and encoding strategies
+- [Keigo: Honorific Language](research/keigo-honorifics.md) — The keigo system's structure, 2007 five-category reclassification, L2 acquisition challenges, uchi/soto dynamics, and dictionary treatment
 
 ## Topics
 
