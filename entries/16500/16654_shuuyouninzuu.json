@@ -19,7 +19,9 @@
       "english": "This venue has a capacity of one thousand people.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16654_shuuyouninzuu_ex2",
@@ -27,7 +29,9 @@
       "english": "It is dangerous to exceed the capacity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16654_shuuyouninzuu_ex3",
@@ -35,21 +39,35 @@
       "english": "The stadium has a capacity of fifty thousand, making it one of the largest in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed when discussing venues, buildings, stadiums, theaters, and transportation. Often appears in event planning and building regulations.\n\nCOMMON COLLOCATIONS:\n- {収容人数|しゅうようにんずう}は〜{人|にん} (has a capacity of ~ people)\n- {収容人数|しゅうようにんずう}を{超|こ}える (to exceed capacity)\n- {最大|さいだい}{収容人数|しゅうようにんずう} (maximum capacity)\n\nSIMILAR WORDS:\n- {定員|ていいん}: fixed capacity — the officially set maximum number of people",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "04532_teiin",
+      "reading": "ていいん",
+      "headword": "{定員|ていいん}",
+      "label": "capacity (official)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-03-14T02:12:10Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "I found a typo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16131_goji_ex2",
@@ -27,7 +29,9 @@
       "english": "This document has a lot of typos.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16131_goji_ex3",
@@ -35,21 +39,35 @@
       "english": "Please check for typos and omitted characters before submitting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery commonly paired with {脱字|だつじ} (omitted characters) in the set phrase {誤字|ごじ}{脱字|だつじ}, often abbreviated to {誤字|ごじ}{脱|だつ}. This combination covers both wrong characters and missing characters, similar to English \"typos and omissions.\"\n\nCOMMON COLLOCATIONS:\n- {誤字|ごじ}{脱字|だつじ} (typos and omitted characters)\n- {誤字|ごじ}を{直|なお}す (to fix a typo)\n- {誤字|ごじ}を{見|み}つける (to find a typo)\n- {誤字|ごじ}が{目立|めだ}つ (typos are noticeable)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16583_datsuji",
+      "reading": "だつじ",
+      "headword": "{脱字|だつじ}",
+      "label": "omitted character"
+    }
+  ],
   "metadata": {
     "created": "2026-03-10T06:01:12Z",
-    "modified": "2026-03-10T06:01:12Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }

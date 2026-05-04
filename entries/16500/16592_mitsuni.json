@@ -24,7 +24,9 @@
       "english": "To stay in close contact.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16592_mitsuni_ex2",
@@ -32,7 +34,9 @@
       "english": "We proceeded in close coordination with the parties involved.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16592_mitsuni_ex3",
@@ -40,7 +44,9 @@
       "english": "The two companies are closely exchanging information.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16592_mitsuni_ex4",
@@ -48,7 +54,9 @@
       "english": "They secretly made a plan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16592_mitsuni_ex5",
@@ -56,7 +64,9 @@
       "english": "It was discovered that they had been meeting in secret.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16592_mitsuni_ex6",
@@ -64,22 +74,53 @@
       "english": "The two were secretly dating without those around them knowing.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "{密|みつ}に is an adverb with two senses: closely/frequently (in coordination) and secretly/covertly. The meaning depends on context.\n\nSENSE 1 — CLOSELY:\nDescribes tight, frequent coordination. Common in business and formal writing.\n- {密|みつ}に{連絡|れんらく}を{取|と}る: to stay in close contact\n- {密|みつ}に{連携|れんけい}する: to coordinate closely\n- {密|みつ}に{情報|じょうほう}{交換|こうかん}する: to exchange information closely\n\nSENSE 2 — SECRETLY:\nDescribes hidden or covert actions. Common in news and narrative contexts.\n- {密|みつ}に{会|あ}う: to meet secretly\n- {密|みつ}に{計画|けいかく}を{立|た}てる: to make a secret plan\n- {密|みつ}に{交際|こうさい}する: to date in secret\n\nRELATED:\n- {密接|みっせつ}に: closely, intimately (formal, no \"secret\" nuance)\n- {秘密|ひみつ}に: in secret (only the \"secret\" meaning)\n- {頻繁|ひんぱん}に: frequently (neutral, no \"close\" nuance)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "12289_missetsu",
+      "reading": "みっせつ",
+      "headword": "{密接|みっせつ}",
+      "label": "close, intimate"
+    },
+    {
+      "type": "related",
+      "target_id": "02504_himitsu",
+      "reading": "ひみつ",
+      "headword": "{秘密|ひみつ}",
+      "label": "secret"
+    },
+    {
+      "type": "synonym",
+      "target_id": "08631_hinpan",
+      "reading": "ひんぱん",
+      "headword": "{頻繁|ひんぱん}",
+      "label": "frequent"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-28T07:51:23Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb"],
+      "pos": [
+        "adverb"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["communication", "secrecy"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "communication",
+        "secrecy"
+      ]
     }
   }
 }

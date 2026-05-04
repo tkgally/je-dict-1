@@ -1,0 +1,163 @@
+## Session: Add Cross-References
+Date: 2026-05-04
+
+### prominent_see_also Added
+- 16577_keibi ↔ 00208_keibi: homophones (軽微 slight / 警備 security)
+- 16578_sumasu ↔ 02064_sumasu: homophones (澄ます strain ears / 済ます finish)
+- 16578_sumasu ↔ 13370_sumu: transitive/intransitive pair (澄ます / 澄む)
+- 16601_setsubiji ↔ 16602_settouji: complementary pair (suffix / prefix)
+- 16614_angoushisan ↔ 06400_kasoutsuuka: synonym pair (暗号資産 / 仮想通貨)
+- 16647_gangu ↔ 01334_omocha: same concept different register (玩具 / おもちゃ)
+
+### cross_references Added
+- 16567_oetsu → 15038_goukyuu: synonym (wailing)
+- 16568_junji → 03522_tsugitsugi: synonym (rapid succession)
+- 16568_junji → 06174_dankaiteki: synonym (in stages)
+- 16569_musubime → 02308_musubu: related (to tie)
+- 16570_kuchidome → 03126_naisho: related (secret)
+- 16571_hitokurou → 02672_kurou: related (hardship)
+- 16571_hitokurou → 03554_tema: related (effort)
+- 16572_mokusatsu → 13473_mushi: synonym (ignoring)
+- 16572_mokusatsu → 07944_mokunin: contrast (tacit approval)
+- 16573_haishinsha → 04898_haishin: related (streaming)
+- 16574_shimetsukeru → 10057_shimeru: related (to tighten)
+- 16574_shimetsukeru → 12013_appaku: synonym (pressure)
+- 16575_yousho → 01668_youten: synonym (main point)
+- 16575_yousho → 05628_kyoten: related (base)
+- 16576_kondan → 08177_mendan: contrast (interview)
+- 16576_kondan → 02089_soudan: contrast (consultation)
+- 16576_kondan → 06639_zatsudan: contrast (casual chat)
+- 16577_keibi → 00785_karui: synonym (light, casual)
+- 16580_koakuma → 01768_akuma: related (devil)
+- 16582_hyokkori → 09379_ikinari: synonym (suddenly)
+- 16583_datsuji ↔ 16131_goji: related (wrong character / omitted character)
+- 16583_datsuji → 23110_goshoku: synonym (misprint)
+- 16585_joururi → 13156_bunraku: related (puppet theater)
+- 16586_bungeishi → 12990_bungei: related (literature)
+- 16587_kakusou → 14577_kaisou: related (social stratum)
+- 16588_mouhatsu → 02196_kami: synonym (hair casual)
+- 16588_mouhatsu → 20542_taimou: related (body hair)
+- 16591_aaiu → 21476_kouiu: related (this kind of)
+- 16591_aaiu → 09579_souiu: related (that kind of)
+- 16592_mitsuni → 12289_missetsu: synonym (close)
+- 16592_mitsuni → 02504_himitsu: related (secret)
+- 16592_mitsuni → 08631_hinpan: synonym (frequent)
+- 16593_shihaika → 01421_shihai: related (control)
+- 16594_shoujigami → 04201_shouji: related (shoji screen)
+- 16595_taimende → 10377_taimen: related (face-to-face)
+- 16597_shuushigou → 16598_gakushigou: related (bachelor's degree)
+- 16599_hikoukai → 11665_koukai: antonym (public)
+- 16600_kyoutsuugo → 07419_hougen: contrast (dialect)
+- 16603_senensatsu → 00363_shihei: related (banknote)
+- 16603_senensatsu → 02745_kouka: related (coin)
+- 16604_shussekiritsu → 02084_shusseki: related (attendance)
+- 16604_shussekiritsu → 02495_kesseki: antonym (absence)
+- 16605_shunki → 16606_shuuki: related (autumn season)
+- 16605_shunki → 00627_haru: synonym (spring casual)
+- 16606_shuuki → 02276_aki: synonym (autumn casual)
+- 16609_kansouhada → 00184_kansou: related (dryness)
+- 16613_gahaku → 02583_gaka: synonym (painter)
+- 16615_tenbaiyaa → 10558_tenbai: related (resale)
+- 16616_gachou → 04937_hakuchou: related (swan)
+- 16616_gachou → 17740_kamo: related (duck)
+- 16620_zenzengetsu → 00751_sengetsu: related (last month)
+- 16622_joubun → 18974_joukou: synonym (clause)
+- 16624_futonkabaa → 01720_futon: related (futon)
+- 16626_gomokunarabe → 18035_igo: related (go)
+- 16626_gomokunarabe → 04172_shougi: related (shogi)
+- 16627_juujitsushita → 04845_juujitsu: related (fulfillment)
+- 16628_kaatsu ↔ 24095_genatsu: antonym (pressurization / depressurization)
+- 16632_jidousho → 10429_ehon: related (picture book)
+- 16634_nisesatsu → 11521_nisemono: related (fake)
+- 16636_shakuyanin → 01907_ooya: antonym (landlord)
+- 16637_tansanwari → 16023_mizuwari: related (mixed with water)
+- 16638_sekizui → 06006_sekitsui: related (spine bones)
+- 16644_genji → 25014_heishi: related (Taira clan)
+- 16645_yuujo → 14149_geisha: contrast (geisha)
+- 16648_bakuyasu → 13373_gekiyasu: synonym (very cheap)
+- 16648_bakuyasu → 15125_kakuyasu: synonym (bargain-priced)
+- 16649_aisowarai → 08688_kushou: contrast (wry smile)
+- 16651_jousuidou → 09632_gesuidou: antonym (sewage)
+- 16651_jousuidou → 01058_suidou: related (water supply)
+- 16652_ittou → 04338_seitou: related (political party)
+- 16654_shuuyouninzuu → 04532_teiin: synonym (capacity)
+- 16656_chokuryuu → 02732_kouryuu: antonym (alternating current)
+- 16657_kyouzaihi → 12878_kyouzai: related (teaching materials)
+- 16657_kyouzaihi → 14967_jugyouryou: related (tuition)
+- 16658_jikosuisen → 03358_suisen: related (recommendation)
+- 16659_ryuujou → 13772_funmatsu: contrast (powder)
+- 16662_jimuzukue ↔ 16663_gakushuuzukue: related (office desk / study desk)
+- 16664_getsudo → 00309_nendo: related (fiscal year)
+- 16664_getsudo → 10103_shihanki: related (quarter)
+- 16666_honsekichi → 12695_koseki: related (family register)
+- 16666_honsekichi → 01430_juusho: related (address)
+- 16668_boukabi → 06428_bousui: related (waterproof)
+- 16669_tanehon → 11827_gensaku: synonym (original work)
+- 16669_tanehon → 06424_shutten: synonym (source)
+- 16671_mamedenkyuu → 03125_denkyuu: related (light bulb)
+- 16674_wadaizukuri → 03307_senden: related (publicity)
+- 16675_kakujoshi → 03351_joshi: related (particle)
+- 16677_kourigyou ↔ 16678_oroshiurigyou: antonym (retail / wholesale)
+- 16677_kourigyou → 05084_kouri: related (retail)
+- 16678_oroshiurigyou → 05083_oroshiuri: related (wholesale)
+- 16679_byousoku ↔ 16680_funsoku: related (per second / per minute)
+- 16679_byousoku → 00128_jisoku: related (per hour)
+- 16680_funsoku → 00128_jisoku: related (per hour)
+- 16683_nennensaisai → 10417_nennen: related (year by year)
+- 16684_himatsubushi → 00074_goraku: related (entertainment)
+- 16685_donjiri → 20709_saikai: synonym (last place)
+- 16686_tekishita → 01621_tekisetsu: synonym (appropriate)
+
+### References Fixed/Migrated
+- None
+
+### Entries Skipped (no cross-references needed)
+- 16579_sukebe: similar words don't exist as entries
+- 16581_oyasuminasai: similar words don't exist as entries
+- 16584_madonna: no strong cross-reference candidates
+- 16589_bakuga: no similar words in notes
+- 16590_jikanme: no strong cross-reference candidates
+- 16596_sanjuudai: no strong cross-reference candidates
+- 16607_oooku: no strong cross-reference candidates
+- 16608_biyoueki: no strong cross-reference candidates
+- 16610_indoyou: no strong cross-reference candidates
+- 16612_jufun: no strong cross-reference candidates
+- 16617_tteiuka: similar words don't exist as entries
+- 16618_anokata: no strong cross-reference candidates
+- 16619_moukinrui: no strong cross-reference candidates
+- 16621_kurimodosu: no strong cross-reference candidates
+- 16625_minzokugaku: no strong cross-reference candidates
+- 16629_shotoukyouiku: no strong cross-reference candidates
+- 16630_yosomi: no strong cross-reference candidates
+- 16631_uchitsukeru: no strong cross-reference candidates
+- 16633_kindaiteki: similar word (現代的) doesn't exist
+- 16635_nitaki: no strong cross-reference candidates
+- 16639_kakugee: no strong cross-reference candidates
+- 16640_gakuseki: no strong cross-reference candidates
+- 16641_yakimashi: no strong cross-reference candidates
+- 16642_hinankankoku: related terms don't exist as entries
+- 16643_kantongo: no strong cross-reference candidates
+- 16646_renyoukei: similar words don't exist
+- 16650_nikkeikigyou: no strong cross-reference candidates
+- 16653_chuukanhoukoku: no strong cross-reference candidates
+- 16655_senpukukikan: no strong cross-reference candidates
+- 16660_koukokubaitai: no strong cross-reference candidates
+- 16661_sansobonbe: no strong cross-reference candidates
+- 16665_iritate: no strong cross-reference candidates
+- 16667_aashite: similar word (こうして) doesn't exist
+- 16670_shidouan: no strong cross-reference candidates
+- 16672_koorigashi: no strong cross-reference candidates
+- 16673_yuwakashiki: no strong cross-reference candidates
+- 16676_sangakurenkei: no strong cross-reference candidates
+- 16681_issakujitsu: no strong cross-reference candidates
+- 16682_shoutokutaishi: no strong cross-reference candidates
+
+### Statistics
+- Entries reviewed this session: 120
+- prominent_see_also links added: 14 (7 bidirectional pairs)
+- cross_references links added: ~95
+- References fixed/migrated: 0
+- Entry range: 16567 through 16686
+
+### Next Entry
+16687

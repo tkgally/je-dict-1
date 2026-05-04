@@ -19,7 +19,9 @@
       "english": "Teaching material costs are charged separately.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16657_kyouzaihi_ex2",
@@ -27,7 +29,9 @@
       "english": "The tuition includes the cost of materials.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16657_kyouzaihi_ex3",
@@ -35,21 +39,43 @@
       "english": "Complaints arose from parents because the annual cost of teaching materials was high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCommonly appears in school and course fee breakdowns. Often listed alongside tuition ({授業料|じゅぎょうりょう}) and other fees.\n\nCOMMON COLLOCATIONS:\n- {教材費|きょうざいひ}{込|こ}み (including materials cost)\n- {教材費|きょうざいひ}{別|べつ} (materials cost separate)\n- {年間|ねんかん}{教材費|きょうざいひ} (annual materials cost)\n\nSIMILAR WORDS:\n- {授業料|じゅぎょうりょう}: tuition — the fee for the classes themselves\n- {教材|きょうざい}: teaching materials — the materials without reference to cost",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12878_kyouzai",
+      "reading": "きょうざい",
+      "headword": "{教材|きょうざい}",
+      "label": "teaching materials"
+    },
+    {
+      "type": "related",
+      "target_id": "14967_jugyouryou",
+      "reading": "じゅぎょうりょう",
+      "headword": "{授業料|じゅぎょうりょう}",
+      "label": "tuition"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education", "commerce"]
+      "semantic": [
+        "education",
+        "commerce"
+      ]
     }
   }
 }
