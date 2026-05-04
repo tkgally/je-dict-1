@@ -19,7 +19,9 @@
       "english": "She is a literary fiction author.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13983_junbungaku_ex2",
@@ -27,7 +29,9 @@
       "english": "The Akutagawa Prize is awarded to newcomers in literary fiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "13983_junbungaku_ex3",
@@ -35,21 +39,35 @@
       "english": "Recently, the boundary between literary fiction and popular fiction has been becoming blurred.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe distinction between {純文学|じゅんぶんがく} and {大衆|たいしゅう}{文学|ぶんがく} (popular fiction) is deeply embedded in Japanese literary culture. The two most prestigious literary prizes in Japan reflect this divide: the {芥川賞|あくたがわしょう} (Akutagawa Prize) for {純文学|じゅんぶんがく} and the {直木賞|なおきしょう} (Naoki Prize) for popular fiction.\n\nCOMMON COLLOCATIONS:\n- {純文学|じゅんぶんがく}の{作家|さっか}: literary fiction writer\n- {純文学|じゅんぶんがく}{雑誌|ざっし}: literary magazine\n- {純文学|じゅんぶんがく}{作品|さくひん}: work of literary fiction",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "16512_taishuubungaku",
+      "reading": "たいしゅうぶんがく",
+      "headword": "{大衆文学|たいしゅうぶんがく}",
+      "label": "popular fiction"
+    }
+  ],
   "metadata": {
     "created": "2026-02-27T08:32:38Z",
-    "modified": "2026-02-27T08:32:38Z",
+    "modified": "2026-05-04T06:23:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["education"]
+      "semantic": [
+        "education"
+      ]
     }
   }
 }
