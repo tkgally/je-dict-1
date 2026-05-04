@@ -19,7 +19,9 @@
       "english": "Could I leave a message with you?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16775_kotozuke_ex2",
@@ -27,7 +29,9 @@
       "english": "I passed along a message from my mother.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16775_kotozuke_ex3",
@@ -35,21 +39,35 @@
       "english": "They were out, so I left a message with a colleague and went home.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nCan function as a noun or as a suru verb ({言付|ことづ}ける). Also written as {託|ことづ}け. The verb form {言付|ことづ}ける means to entrust a message to someone.\n\nCOMMON COLLOCATIONS:\n- {言付|ことづ}けを{頼|たの}む (to ask someone to pass a message)\n- {言付|ことづ}けを{伝|つた}える (to relay a message)\n- {言付|ことづ}けを{預|あず}かる (to take a message)\n\nSIMILAR WORDS:\n- {伝言|でんごん}: message — more general, also used for written messages\n- メッセージ: message — the English loanword, broader in usage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03448_dengon",
+      "reading": "でんごん",
+      "headword": "{伝言|でんごん}",
+      "label": "message (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T06:28:39Z",
-    "modified": "2026-03-14T06:28:39Z",
+    "modified": "2026-05-04T10:11:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["communication"]
+      "semantic": [
+        "communication"
+      ]
     }
   }
 }
