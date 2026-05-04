@@ -129,3 +129,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic information in dictionaries and the L2 pragmatic competence gap
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonymy, antonymy, hyponymy, and their representation in dictionaries
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — per-entry aspect documentation as production support for learners
+- [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system, L2 acquisition, and dictionary treatment challenges

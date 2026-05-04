@@ -237,3 +237,4 @@ The structured register fields exist in the schema but are essentially unpopulat
 - [Learner Lexicography](learner-lexicography.md) — general principles of pedagogical dictionary design
 - [Corpus Linguistics](corpus-linguistics.md) — frequency data and corpus-based methods for label assignment
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — stratal synonymy (wago/kango/gairaigo register variants)
+- [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system in depth, L2 acquisition research, and uchi/soto dynamics

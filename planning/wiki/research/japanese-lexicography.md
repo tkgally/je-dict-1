@@ -95,3 +95,4 @@ Many words have multiple accepted spellings:
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — indirectness, keigo pragmatics, and sentence-final particles as Japanese-specific challenges
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji acquisition, lookup methods, and furigana as a learning scaffold
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — the ている polysemy challenge and verb classification systems
+- [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system, suppletive form tables, and dictionary treatment of honorifics

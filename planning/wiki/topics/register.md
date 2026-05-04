@@ -166,3 +166,4 @@ Register marking is a **medium priority** v2 quality standard. The path forward:
 - [Gairaigo: Loanwords in Japanese](../research/gairaigo-loanwords.md) — register connotations of gairaigo vs. wago/kango synonyms
 - [Pragmatics and Speech Acts](../research/pragmatics-speech-acts.md) — speech act theory, indirectness, and pragmatic competence in bilingual dictionaries
 - [Register and Formality Marking](../research/register-formality-marking.md) — diasystematic labels, the consultation gap, and encoding strategies for register information
+- [Keigo: Honorific Language](../research/keigo-honorifics.md) — keigo system structure, L2 acquisition, uchi/soto dynamics, and dictionary treatment
