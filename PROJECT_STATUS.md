@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-04 (Vocabulary Expansion - 18 New Entries, Batch 87)
+Added 18 new dictionary entries (IDs 26684-26701) from candidate_words.json. Diverse vocabulary covering description, environment, food/cooking, counters, daily life, entertainment, games, sports, technology, business, literature, and media.
+
+- **Na-adjectives (2)**: {多発的|たはつてき} (frequent; repeated), {地球的|ちきゅうてき} (global; planetary)
+- **Food/cooking (2)**: {副料理長|ふくりょうりちょう} (sous chef), すき{焼|や}き{鍋|なべ} (sukiyaki pot)
+- **Daily life (2)**: ビニールシート (vinyl sheet/tarp), {床磨|ゆかみが}き (floor polishing)
+- **Counter/question (1)**: {何個|なんこ} (how many small objects)
+- **Entertainment (1)**: クラシック{映画|えいが} (classic film)
+- **Games (1)**: {手番|てばん} (one's turn in a game)
+- **Evaluation (1)**: {見外|みはず}れ (misjudgment; disappointment)
+- **Consumer/tech (2)**: {最新|さいしん}モデル (latest model), タスク{管理|かんり} (task management)
+- **Technology/business (1)**: データ{入力|にゅうりょく} (data entry)
+- **Loanwords (2)**: ミドルエイジ (middle age), セービング (save in sports)
+- **Literature/media (1)**: あとがたり (afterword; epilogue)
+- **Sports (1)**: {真芯|ましん} (sweet spot)
+- **Expression (1)**: すました{顔|かお} (composed/straight face)
+- 1 stale candidate removed (duplicate of existing entry)
+- 17 candidates synced from candidate list
+
+Total entries: 26,476 → 26,494.
+
 ### 2026-05-04 (Vocabulary Expansion - 15 New Entries, Batch 86)
 Added 15 new dictionary entries (IDs 26669-26683) from candidate_words.json. Diverse vocabulary covering language/writing, culture, daily life, science, geopolitics, sports, and body parts.
 
