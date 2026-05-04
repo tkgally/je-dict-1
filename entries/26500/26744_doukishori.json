@@ -1,0 +1,68 @@
+{
+  "id": "26744_doukishori",
+  "headword": "{同期処理|どうきしょり}",
+  "reading": "どうきしょり",
+  "romaji": "doukishori",
+  "part_of_speech": "noun",
+  "gloss": "synchronous processing",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "synchronous processing",
+      "explanation": "A method of processing in which tasks are executed one at a time in sequence. Each task must complete before the next one begins, as opposed to asynchronous processing where tasks can run concurrently."
+    }
+  ],
+  "examples": [
+    {
+      "id": "26744_doukishori_ex1",
+      "japanese": "{同期処理|どうきしょり}では{応答|おうとう}を{待|ま}つ{必要|ひつよう}がある。",
+      "english": "In synchronous processing, you need to wait for the response.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "26744_doukishori_ex2",
+      "japanese": "{同期処理|どうきしょり}は{単純|たんじゅん}だが、{待|ま}ち{時間|じかん}が{長|なが}くなることがある。",
+      "english": "Synchronous processing is simple, but wait times can become long.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "26744_doukishori_ex3",
+      "japanese": "{大量|たいりょう}のデータを{扱|あつか}う{場合|ばあい}、{同期処理|どうきしょり}よりも{非同期処理|ひどうきしょり}のほうが{効率|こうりつ}がいい。",
+      "english": "When handling large amounts of data, asynchronous processing is more efficient than synchronous processing.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "A computing term composed of {同期|どうき} (synchronization) and {処理|しょり} (processing). In synchronous processing, operations happen in order: the program sends a request and blocks until it gets a response. This contrasts with asynchronous processing, where the program continues executing while waiting.\n\nCOMMON COLLOCATIONS:\n- {同期処理|どうきしょり}を{行|おこな}う: to perform synchronous processing\n- {同期処理|どうきしょり}と{非同期処理|ひどうきしょり}: synchronous and asynchronous processing\n- {同期処理|どうきしょり}の{問題点|もんだいてん}: issues with synchronous processing\n\nSIMILAR WORDS:\n- {非同期処理|ひどうきしょり}: asynchronous processing — the opposite approach, allowing concurrent execution\n- {逐次処理|ちくじしょり}: sequential processing — a similar concept emphasizing step-by-step execution\n- {並列処理|へいれつしょり}: parallel processing — multiple tasks running simultaneously on different processors",
+  "cross_references": [],
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
+    },
+    "created": "2026-05-04T15:33:12Z",
+    "modified": "2026-05-04T15:33:12Z"
+  }
+}
