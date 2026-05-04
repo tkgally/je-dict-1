@@ -39,10 +39,25 @@
     }
   ],
   "notes": "USAGE:\nIn Japan's weather alert system, {注意報|ちゅういほう} is a lower-level alert than {警報|けいほう} (warning), which in turn is lower than {特別警報|とくべつけいほう} (special warning). Common types include {大雨|おおあめ}{注意報|ちゅういほう} (heavy rain advisory), {強風|きょうふう}{注意報|ちゅういほう} (strong wind advisory), and {雷|かみなり}{注意報|ちゅういほう} (thunder advisory).\n\nCOMMON COLLOCATIONS:\n- {注意報|ちゅういほう}が{出|で}る (an advisory is issued)\n- {注意報|ちゅういほう}が{解除|かいじょ}される (an advisory is lifted)\n- {注意報|ちゅういほう}を{発令|はつれい}する (to issue an advisory)\n\nSIMILAR WORDS:\n- {警報|けいほう}: warning — a more severe level of alert, indicating greater danger\n- {特別警報|とくべつけいほう}: special warning — the highest level, for extraordinary danger",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09515_keihou",
+      "reading": "けいほう",
+      "headword": "{警報|けいほう}",
+      "label": "warning (more severe)"
+    },
+    {
+      "type": "related",
+      "target_id": "20800_tokubetsukeihou",
+      "reading": "とくべつけいほう",
+      "headword": "{特別警報|とくべつけいほう}",
+      "label": "special warning (highest level)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T02:01:46Z",
-    "modified": "2026-03-13T02:01:46Z",
+    "modified": "2026-05-04T04:08:05Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
