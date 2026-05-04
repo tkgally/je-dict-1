@@ -19,7 +19,9 @@
       "english": "Popular fiction is enjoyed by a wide range of readers.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16512_taishuubungaku_ex2",
@@ -27,7 +29,9 @@
       "english": "Mystery novels and period novels are classified as popular fiction.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16512_taishuubungaku_ex3",
@@ -35,21 +39,36 @@
       "english": "The boundary between literary fiction and popular fiction has become increasingly blurred over the years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nIn Japanese literary circles, {大衆文学|たいしゅうぶんがく} is distinguished from {純文学|じゅんぶんがく} (literary fiction). The {直木賞|なおきしょう} (Naoki Prize) is awarded for the best work of popular fiction, while the {芥川賞|あくたがわしょう} (Akutagawa Prize) is for literary fiction. Major authors include {松本清張|まつもとせいちょう} and {東野圭吾|ひがしのけいご}.\n\nCOMMON COLLOCATIONS:\n- {大衆文学|たいしゅうぶんがく}の{作家|さっか} (popular fiction writer)\n- {大衆文学|たいしゅうぶんがく}と{純文学|じゅんぶんがく} (popular fiction and literary fiction)\n\nSIMILAR WORDS:\n- {純文学|じゅんぶんがく}: literary fiction — works focused on artistic expression rather than entertainment\n- エンターテインメント{小説|しょうせつ}: entertainment fiction — a more recent synonym",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "13983_junbungaku",
+      "reading": "じゅんぶんがく",
+      "headword": "{純文学|じゅんぶんがく}",
+      "label": "literary fiction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-13T03:52:43Z",
-    "modified": "2026-03-13T03:52:43Z",
+    "modified": "2026-05-04T06:23:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["literature", "culture"]
+      "semantic": [
+        "literature",
+        "culture"
+      ]
     }
   }
 }

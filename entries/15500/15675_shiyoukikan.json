@@ -19,7 +19,9 @@
       "english": "The probation period is three months.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15675_shiyoukikan_ex2",
@@ -27,7 +29,9 @@
       "english": "An evaluation is conducted during the probation period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "15675_shiyoukikan_ex3",
@@ -35,22 +39,38 @@
       "english": "This software becomes paid after the trial period expires.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese employment, the {試用期間|しようきかん} typically lasts 3-6 months. During this period, the employer may terminate employment more easily than after formal hiring, though labor protections still apply after 14 days.\n\nCOMMON COLLOCATIONS:\n- {試用期間|しようきかん}{中|ちゅう} (during the probation period)\n- {試用期間|しようきかん}を{設|もう}ける (to establish a probation period)\n- {試用期間|しようきかん}{満了|まんりょう} (completion of probation period)\n\nWORD FORMATION:\n{試用|しよう} (trial use) + {期間|きかん} (period).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "16514_otameshikikan",
+      "reading": "おためしきかん",
+      "headword": "お{試|ため}し{期間|きかん}",
+      "label": "trial period (casual)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-08T06:49:16Z",
-    "modified": "2026-03-08T06:49:16Z",
+    "modified": "2026-05-04T06:23:57Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "business"
+      ]
     }
   }
 }
