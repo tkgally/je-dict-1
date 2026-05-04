@@ -51,6 +51,32 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-04 (Vocabulary Expansion - 20 New Entries, Batch 89)
+Added 20 new dictionary entries (IDs 26732-26751) from candidate_words.json. Vocabulary covers medical, military, automotive, grammar, technology, construction, textiles, computing, ecology, geology, and botany.
+
+- **Medical (1)**: {供血|きょうけつ} (blood donation)
+- **Military/sports (1)**: {復隊|ふくたい} (returning to one's unit)
+- **Automotive/technical (1)**: {防凍|ぼうとう} (antifreeze; freeze prevention)
+- **Entertainment (1)**: {早解|はやと}き (speed solving)
+- **Grammar (1)**: {已然形|いぜんけい} (realis form)
+- **Technology (2)**: バイブ (vibrate mode), {通信圏|つうしんけん} (coverage area)
+- **Business/admin (1)**: {明細欄|めいさいらん} (details column)
+- **Biology (1)**: {育児嚢|いくじのう} (marsupial pouch)
+- **Linguistics (1)**: {英略語|えいりゃくご} (English abbreviation)
+- **Legal (1)**: {空文化|くうぶんか} (becoming a dead letter)
+- **Ecology (1)**: {老齢林|ろうれいりん} (old-growth forest)
+- **Computing (2)**: {同期処理|どうきしょり} (synchronous processing), {属性値|ぞくせいち} (attribute value)
+- **Construction (2)**: {外装材|がいそうざい} (exterior material), {構造図|こうぞうず} (structural diagram)
+- **Textiles (1)**: {芯地|しんじ} (interlining)
+- **Geology (1)**: {構造線|こうぞうせん} (tectonic line)
+- **Botany (1)**: {発葉|はつよう} (leafing out)
+- **Electrical (1)**: {配電線|はいでんせん} (distribution line)
+- 1 stale candidate removed (君/くん — duplicate of existing ～君 entry)
+- 1 new kanji registered: 已 (ID 02730)
+- 20 candidates synced from candidate list
+
+Total entries: 26,524 → 26,544.
+
 ### 2026-05-04 (Vocabulary Expansion - 30 New Entries, Batch 88)
 Added 30 new dictionary entries (IDs 26702-26731) from candidate_words.json. Vocabulary covers shapes/math, product categories, education, transportation, culture/language, family, society, finance, stationery, and more.
 
