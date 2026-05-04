@@ -19,7 +19,9 @@
       "english": "A battery is a direct current power source.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16656_chokuryuu_ex2",
@@ -27,7 +29,9 @@
       "english": "DC motors have a simple structure.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16656_chokuryuu_ex3",
@@ -35,21 +39,35 @@
       "english": "Solar panels generate DC electricity, which is converted to AC by an inverter.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA technical term used in electronics, electrical engineering, and everyday discussions of batteries and power. Often contrasted with {交流|こうりゅう} (alternating current).\n\nCOMMON COLLOCATIONS:\n- {直流|ちょくりゅう}{電源|でんげん} (DC power source)\n- {直流|ちょくりゅう}モーター (DC motor)\n- {直流|ちょくりゅう}{電圧|でんあつ} (DC voltage)\n\nSIMILAR WORDS:\n- {交流|こうりゅう}: alternating current (AC) — current that periodically reverses direction",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02732_kouryuu",
+      "reading": "こうりゅう",
+      "headword": "{交流|こうりゅう}",
+      "label": "AC (alternating current)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science"]
+      "semantic": [
+        "science"
+      ]
     }
   }
 }

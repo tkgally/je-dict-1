@@ -24,7 +24,9 @@
       "english": "English is an international common language.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16600_kyoutsuugo_ex2",
@@ -32,7 +34,9 @@
       "english": "English is used as the common language of business.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16600_kyoutsuugo_ex3",
@@ -40,7 +44,9 @@
       "english": "Please speak in standard Japanese, not dialect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16600_kyoutsuugo_ex4",
@@ -48,7 +54,9 @@
       "english": "Standard Japanese spread nationwide through the spread of television.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16600_kyoutsuugo_ex5",
@@ -56,7 +64,9 @@
       "english": "Many people in the younger generation can only speak standard Japanese.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     },
     {
       "id": "16600_kyoutsuugo_ex6",
@@ -64,21 +74,36 @@
       "english": "It is not uncommon for people to switch between standard Japanese and dialect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [2]
+      "sense_numbers": [
+        2
+      ]
     }
   ],
   "notes": "USAGE:\nIn Japanese linguistics, {共通語|きょうつうご} is preferred over {標準語|ひょうじゅんご} because the latter implies a prescribed standard, while {共通語|きょうつうご} describes the naturally shared common form of the language.\n\nCOMMON COLLOCATIONS:\n- {共通語|きょうつうご}で{話|はな}す (to speak in the common language)\n- {共通語|きょうつうご}と{方言|ほうげん} (standard language and dialect)\n- {国際|こくさい}{共通語|きょうつうご} (international lingua franca)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "07419_hougen",
+      "reading": "ほうげん",
+      "headword": "{方言|ほうげん}",
+      "label": "dialect"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-14T01:36:58Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "linguistics"]
+      "semantic": [
+        "language",
+        "linguistics"
+      ]
     }
   }
 }

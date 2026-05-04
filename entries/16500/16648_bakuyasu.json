@@ -19,7 +19,9 @@
       "english": "This smartphone is dirt cheap.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16648_bakuyasu_ex2",
@@ -27,7 +29,9 @@
       "english": "I bought a lot of clothes at the blowout sale.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16648_bakuyasu_ex3",
@@ -35,21 +39,43 @@
       "english": "I found insanely cheap plane tickets online, so I booked them right away.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAn informal, colloquial word commonly used in advertising, online shopping, and casual conversation. Part of the {爆|ばく}〜 pattern where {爆|ばく} intensifies the following word.\n\nCOMMON COLLOCATIONS:\n- {爆安|ばくやす}セール (blowout sale)\n- {爆安|ばくやす}{価格|かかく} (rock-bottom price)\n- {爆安|ばくやす}で{買|か}う (to buy dirt cheap)\n\nSIMILAR WORDS:\n- {激安|げきやす}: very cheap — similar meaning but slightly less emphatic\n- {格安|かくやす}: bargain-priced — more neutral and widely used",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "13373_gekiyasu",
+      "reading": "げきやす",
+      "headword": "{激安|げきやす}",
+      "label": "very cheap"
+    },
+    {
+      "type": "synonym",
+      "target_id": "15125_kakuyasu",
+      "reading": "かくやす",
+      "headword": "{格安|かくやす}",
+      "label": "bargain-priced"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na", "noun"],
+      "pos": [
+        "adjective-na",
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["commerce"]
+      "semantic": [
+        "commerce"
+      ]
     }
   }
 }

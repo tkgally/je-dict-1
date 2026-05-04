@@ -19,7 +19,9 @@
       "english": "I had a hair analysis done.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16588_mouhatsu_ex2",
@@ -27,7 +29,9 @@
       "english": "A hair sample is required.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16588_mouhatsu_ex3",
@@ -35,22 +39,45 @@
       "english": "The amount of hair may decrease with aging.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal and technical term for head hair. In everyday speech, {髪|かみ} or {髪の毛|かみのけ} is used instead. {毛髪|もうはつ} appears in medical, scientific, and legal contexts.\n\nCOMMON COLLOCATIONS:\n- {毛髪|もうはつ}{検査|けんさ} (hair analysis/test)\n- {毛髪|もうはつ}{鑑定|かんてい} (hair forensic analysis)\n- {毛髪|もうはつ}ケア (hair care)\n\nSIMILAR WORDS:\n- {髪|かみ}: everyday word for hair on the head\n- {髪の毛|かみのけ}: everyday word, slightly more specific\n- {体毛|たいもう}: body hair in general",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02196_kami",
+      "reading": "かみ",
+      "headword": "{髪|かみ}",
+      "label": "hair (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "20542_taimou",
+      "reading": "たいもう",
+      "headword": "{体毛|たいもう}",
+      "label": "body hair"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T01:36:58Z",
-    "modified": "2026-03-14T01:36:58Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["body-part"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "body-part"
+      ]
     }
   }
 }

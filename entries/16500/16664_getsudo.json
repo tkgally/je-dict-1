@@ -19,7 +19,9 @@
       "english": "I checked this month's sales figures.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16664_getsudo_ex2",
@@ -27,7 +29,9 @@
       "english": "The monthly report is submitted at the end of each month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16664_getsudo_ex3",
@@ -35,21 +39,43 @@
       "english": "Profits increased compared to the previous month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA business and accounting term. The {月度|げつど} period may not correspond exactly to a calendar month; companies often define their own fiscal month boundaries.\n\nCOMMON COLLOCATIONS:\n- {月度|げつど}{報告|ほうこく} (monthly report)\n- {月度|げつど}{予算|よさん} (monthly budget)\n- {今月度|こんげつど} (this month's period)\n- {前月度|ぜんげつど} (previous month's period)\n\nSIMILAR WORDS:\n- {年度|ねんど}: fiscal year — the yearly equivalent of {月度|げつど}\n- {四半期|しはんき}: quarter — a three-month period",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00309_nendo",
+      "reading": "ねんど",
+      "headword": "{年度|ねんど}",
+      "label": "fiscal year"
+    },
+    {
+      "type": "related",
+      "target_id": "10103_shihanki",
+      "reading": "しはんき",
+      "headword": "{四半期|しはんき}",
+      "label": "quarter"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["business", "time"]
+      "semantic": [
+        "business",
+        "time"
+      ]
     }
   }
 }

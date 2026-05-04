@@ -19,7 +19,9 @@
       "english": "A person's walking speed is about 80 meters per minute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16680_funsoku_ex2",
@@ -27,7 +29,9 @@
       "english": "This escalator's speed is 30 meters per minute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16680_funsoku_ex3",
@@ -35,21 +39,43 @@
       "english": "In real estate ads, \"5 minutes walk from the station\" is calculated at 80 meters per minute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nLess common than {時速|じそく} or {秒速|びょうそく}, but used for measuring moderate speeds such as walking pace, elevator speed, or conveyor belt speed. In Japanese real estate, walking distance is calculated at {分速|ふんそく}80メートル by regulation.\n\nCOMMON COLLOCATIONS:\n- {分速|ふんそく}〜メートル (~ meters per minute)\n- {分速|ふんそく}で{計算|けいさん}する (to calculate in meters per minute)\n\nSIMILAR WORDS:\n- {秒速|びょうそく}: speed per second — for faster measurements\n- {時速|じそく}: speed per hour — the most common speed unit",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16679_byousoku",
+      "reading": "びょうそく",
+      "headword": "{秒速|びょうそく}",
+      "label": "per second"
+    },
+    {
+      "type": "related",
+      "target_id": "00128_jisoku",
+      "reading": "じそく",
+      "headword": "{時速|じそく}",
+      "label": "per hour"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "quantity"]
+      "semantic": [
+        "science",
+        "quantity"
+      ]
     }
   }
 }

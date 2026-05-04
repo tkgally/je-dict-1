@@ -19,7 +19,9 @@
       "english": "I wonder what the source book for this novel is.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16669_tanehon_ex2",
@@ -27,7 +29,9 @@
       "english": "I looked into the stories that served as source material for rakugo.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16669_tanehon_ex3",
@@ -35,21 +39,42 @@
       "english": "The source material for that movie is a nonfiction work based on a true story.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in literary criticism, book reviews, and discussions of creative works. Can sometimes carry a nuance of revealing that a seemingly original work was actually based on something else.\n\nCOMMON COLLOCATIONS:\n- {種本|たねほん}になる (to serve as source material)\n- {種本|たねほん}を{明|あ}かす (to reveal the source)\n\nSIMILAR WORDS:\n- {原作|げんさく}: original work — the work on which an adaptation is based\n- {出典|しゅってん}: source, reference — where a quotation or idea comes from",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "11827_gensaku",
+      "reading": "げんさく",
+      "headword": "{原作|げんさく}",
+      "label": "original work"
+    },
+    {
+      "type": "synonym",
+      "target_id": "06424_shutten",
+      "reading": "しゅってん",
+      "headword": "{出典|しゅってん}",
+      "label": "source, reference"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-03-14T02:12:10Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["literature"]
+      "semantic": [
+        "literature"
+      ]
     }
   }
 }

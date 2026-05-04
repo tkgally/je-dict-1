@@ -19,7 +19,9 @@
       "english": "Light travels at approximately 300,000 kilometers per second.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16679_byousoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The wind speed of the typhoon reached 50 meters per second.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16679_byousoku_ex3",
@@ -35,21 +39,43 @@
       "english": "The speed of sound in air is approximately 340 meters per second.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed in scientific contexts and weather reports. Wind speed in Japan is typically expressed in {秒速|びょうそく} (meters per second), unlike some countries that use kilometers per hour.\n\nCOMMON COLLOCATIONS:\n- {秒速|びょうそく}〜メートル (~ meters per second)\n- {秒速|びょうそく}〜キロメートル (~ kilometers per second)\n\nSIMILAR WORDS:\n- {時速|じそく}: speed per hour — kilometers per hour\n- {分速|ふんそく}: speed per minute — meters per minute\n- {風速|ふうそく}: wind speed — the speed of wind",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "16680_funsoku",
+      "reading": "ふんそく",
+      "headword": "{分速|ふんそく}",
+      "label": "per minute"
+    },
+    {
+      "type": "related",
+      "target_id": "00128_jisoku",
+      "reading": "じそく",
+      "headword": "{時速|じそく}",
+      "label": "per hour"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T02:12:10Z",
-    "modified": "2026-04-10T07:12:46Z",
+    "modified": "2026-05-04T08:25:28Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["science", "quantity"]
+      "semantic": [
+        "science",
+        "quantity"
+      ]
     }
   }
 }
