@@ -49,10 +49,39 @@
     }
   ],
   "notes": "USAGE:\nA formal word for boarding a ship. The opposite is {下船|げせん} (disembarking). Similar compounds exist for other vehicles: {乗車|じょうしゃ} (boarding a train/car), {搭乗|とうじょう} (boarding a plane).\n\nCOMMON COLLOCATIONS:\n- {乗船|じょうせん}{券|けん} (boarding pass for a ship)\n- {乗船|じょうせん}{手続|てつづ}き (boarding procedures)\n- {乗船|じょうせん}{時間|じかん} (boarding time)\n- {乗船|じょうせん}{名簿|めいぼ} (passenger list)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "21593_gesen",
+      "reading": "げせん",
+      "headword": "{下船|げせん}",
+      "label": "disembarkation"
+    },
+    {
+      "type": "related",
+      "target_id": "06201_jousha",
+      "reading": "じょうしゃ",
+      "headword": "{乗車|じょうしゃ}",
+      "label": "boarding a train/car"
+    },
+    {
+      "type": "related",
+      "target_id": "06200_toujou",
+      "reading": "とうじょう",
+      "headword": "{搭乗|とうじょう}",
+      "label": "boarding a plane"
+    },
+    {
+      "type": "related",
+      "target_id": "16792_kyakusen",
+      "reading": "きゃくせん",
+      "headword": "{客船|きゃくせん}",
+      "label": "passenger ship"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T10:32:03Z",
-    "modified": "2026-03-29T03:08:18Z",
+    "modified": "2026-05-05T04:05:07Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
