@@ -51,6 +51,31 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-05 (Vocabulary Expansion - 30 New Entries, Batch 95)
+Added 30 new dictionary entries (IDs 26911-26940) from candidate_words.json. Broad vocabulary covering daily life, society, culture, food, medicine, and personality.
+
+- **Childcare/Education (2)**: {保育士|ほいくし} (nursery teacher), {託児所|たくじしょ} (daycare center)
+- **Places (1)**: {大通|おおどお}り (main street)
+- **Competition/Sports (1)**: {対戦|たいせん}する (to compete against)
+- **Time/Manner (2)**: {唐突|とうとつ}に (abruptly), {早々|そうそう}に (promptly)
+- **Technical/Design (2)**: {設計|せっけい}する (to design), {構文|こうぶん} (syntax)
+- **Administrative (2)**: {転入|てんにゅう}する (to transfer in), {転出|てんしゅつ}する (to transfer out)
+- **Adjectives (4)**: {地味|じみ}な (plain), {派手|はで}な (flashy), {不利|ふり}な (disadvantageous), {潔癖|けっぺき} (fastidious)
+- **Abstract/Verbs (3)**: {調和|ちょうわ}する (to harmonize), {持続|じぞく}する (to sustain), {抗議|こうぎ}する (to protest)
+- **Sound (1)**: {叫|さけ}び{声|ごえ} (scream)
+- **Culture (1)**: {節句|せっく} (seasonal festival)
+- **Food (1)**: ざるそば (cold soba noodles)
+- **Academic (1)**: {引用|いんよう}する (to quote)
+- **Discovery (1)**: {発見|はっけん}する (to discover)
+- **Money (1)**: {先払|さきばら}い (advance payment)
+- **Medical (2)**: {感染|かんせん}する (to be infected), {治癒|ちゆ}する (to heal)
+- **People/Personality (3)**: {成功者|せいこうしゃ} (successful person), {皮肉屋|ひにくや} (cynic), {頑固者|がんこもの} (stubborn person)
+- **Events (1)**: {閉会式|へいかいしき} (closing ceremony)
+- **Expressions (1)**: {大切|たいせつ}にする (to cherish)
+- 30 candidates synced from candidate list
+
+Total entries: 26,702 → 26,732.
+
 ### 2026-05-05 (Vocabulary Expansion - 25 New Entries, Batch 94)
 Added 25 new dictionary entries (IDs 26886-26910) from candidate_words.json. Mixed vocabulary covering everyday life, culture, medicine, law, food, and more.
 
