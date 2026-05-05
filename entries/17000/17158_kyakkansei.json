@@ -19,7 +19,9 @@
       "english": "It is important to maintain objectivity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17158_kyakkansei_ex2",
@@ -27,7 +29,9 @@
       "english": "This report lacks objectivity.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17158_kyakkansei_ex3",
@@ -35,21 +39,42 @@
       "english": "Journalists are expected to provide objective reporting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {客観|きゃっかん} (objectivity) + {性|せい} (-ness, quality). Used in academic, journalistic, and professional contexts to discuss the importance of impartial judgment.\n\nCOMMON COLLOCATIONS:\n- {客観性|きゃっかんせい}を{保|たも}つ (to maintain objectivity)\n- {客観性|きゃっかんせい}に{欠|か}ける (to lack objectivity)\n- {客観性|きゃっかんせい}のある (having objectivity, objective)\n\nSIMILAR WORDS:\n- {客観的|きゃっかんてき}: objective — the na-adjective form\n- {主観性|しゅかんせい}: subjectivity — the opposite quality, based on personal views\n- {公平性|こうへいせい}: fairness, impartiality — fair treatment without bias",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05696_kyakkanteki",
+      "reading": "きゃっかんてき",
+      "headword": "{客観的|きゃっかんてき}",
+      "label": "objective (adjective form)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "11466_shukan",
+      "reading": "しゅかん",
+      "headword": "{主観|しゅかん}",
+      "label": "subjectivity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:19:02Z",
-    "modified": "2026-03-16T03:19:02Z",
+    "modified": "2026-05-05T10:11:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["abstract"]
+      "semantic": [
+        "abstract"
+      ]
     }
   }
 }
