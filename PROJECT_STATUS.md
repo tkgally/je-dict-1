@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-05 (Vocabulary Expansion - 25 New Entries, Batch 94)
+Added 25 new dictionary entries (IDs 26886-26910) from candidate_words.json. Mixed vocabulary covering everyday life, culture, medicine, law, food, and more.
+
+- **Everyday/Onomatopoeia (2)**: はっきりする (to become clear/definite), ぼーっとする (to space out)
+- **Food/Kitchen (2)**: {醤油|しょうゆ}{差|さ}し (soy sauce dispenser), {大根|だいこん}おろし (grated daikon)
+- **Media/Entertainment (1)**: {最終回|さいしゅうかい} (final episode)
+- **Medical (4)**: {医療|いりょう}{機関|きかん} (medical institution), {治療費|ちりょうひ} (medical expenses), {精神|せいしん}{障害|しょうがい} (mental disorder), {神経症|しんけいしょう} (neurosis)
+- **Work/Business (3)**: フルタイム (full-time), {理事長|りじちょう} (chairperson), {経済|けいざい}{破綻|はたん} (economic collapse)
+- **Housing (1)**: {大家|おおや}さん (landlord)
+- **Geography/Nature (3)**: {水域|すいいき} (waters), {海域|かいいき} (sea area), {四|よ}つ{辻|つじ} (crossroads)
+- **Law/Society (1)**: {贈収賄|ぞうしゅうわい} (bribery)
+- **Culture/Architecture (2)**: {欄間|らんま} (transom), {亭主関白|ていしゅかんぱく} (domineering husband)
+- **Language/Literature (2)**: {嘲弄|ちょうろう}する (to mock), {断続|だんぞく} (intermittence)
+- **Family/Heritage (1)**: {血脈|けつみゃく} (bloodline)
+- **Other (3)**: {償|つぐな}い (atonement), {欄外|らんがい} (margin), {豊漁|ほうりょう} (good catch)
+- Removed 42 stale duplicate candidates; 24 candidates synced from candidate list
+
+Total entries: 26,677 → 26,702.
+
 ### 2026-05-05 (Vocabulary Expansion - 30 New Entries, Batch 93)
 Added 30 new dictionary entries (IDs 26826-26855) from candidate_words.json. Focus on common suru verbs and useful vocabulary for intermediate learners.
 
@@ -121,34 +140,6 @@ Added 24 new dictionary entries (IDs 26752-26775) from candidate_words.json. Voc
 - 23 candidates synced from candidate list
 
 Total entries: 26,544 → 26,568.
-
-### 2026-05-04 (Vocabulary Expansion - 20 New Entries, Batch 89)
-Added 20 new dictionary entries (IDs 26732-26751) from candidate_words.json. Vocabulary covers medical, military, automotive, grammar, technology, construction, textiles, computing, ecology, geology, and botany.
-
-- **Medical (1)**: {供血|きょうけつ} (blood donation)
-- **Military/sports (1)**: {復隊|ふくたい} (returning to one's unit)
-- **Automotive/technical (1)**: {防凍|ぼうとう} (antifreeze; freeze prevention)
-- **Entertainment (1)**: {早解|はやと}き (speed solving)
-- **Grammar (1)**: {已然形|いぜんけい} (realis form)
-- **Technology (2)**: バイブ (vibrate mode), {通信圏|つうしんけん} (coverage area)
-- **Business/admin (1)**: {明細欄|めいさいらん} (details column)
-- **Biology (1)**: {育児嚢|いくじのう} (marsupial pouch)
-- **Linguistics (1)**: {英略語|えいりゃくご} (English abbreviation)
-- **Legal (1)**: {空文化|くうぶんか} (becoming a dead letter)
-- **Ecology (1)**: {老齢林|ろうれいりん} (old-growth forest)
-- **Computing (2)**: {同期処理|どうきしょり} (synchronous processing), {属性値|ぞくせいち} (attribute value)
-- **Construction (2)**: {外装材|がいそうざい} (exterior material), {構造図|こうぞうず} (structural diagram)
-- **Textiles (1)**: {芯地|しんじ} (interlining)
-- **Geology (1)**: {構造線|こうぞうせん} (tectonic line)
-- **Botany (1)**: {発葉|はつよう} (leafing out)
-- **Electrical (1)**: {配電線|はいでんせん} (distribution line)
-- 1 stale candidate removed (君/くん — duplicate of existing ～君 entry)
-- 1 new kanji registered: 已 (ID 02730)
-- 20 candidates synced from candidate list
-
-Total entries: 26,524 → 26,544.
-
-### 2026-05-04 (Vocabulary Expansion - 30 New Entries, Batch 88)
 Added 30 new dictionary entries (IDs 26702-26731) from candidate_words.json. Vocabulary covers shapes/math, product categories, education, transportation, culture/language, family, society, finance, stationery, and more.
 
 - **Shapes/math (2)**: {六角|ろっかく} (hexagonal), {商|しょう} (quotient)
