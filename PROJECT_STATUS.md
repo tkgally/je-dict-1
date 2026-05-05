@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-05 (Vocabulary Expansion - 24 New Entries, Batch 92)
+Added 24 new dictionary entries (IDs 26802-26825) from candidate_words.json. Focus on high-utility general vocabulary for intermediate learners.
+
+- **Food/Sensation (2)**: さっぱりする (to feel refreshed), こってりする (to be rich/heavy in flavor)
+- **Commerce/Daily Life (3)**: {取|と}り{寄|よ}せる (to order from afar), {常連客|じょうれんきゃく} (regular customer), {後片付|あとかたづ}け (cleanup after activity)
+- **Communication/Cognition (3)**: {納得|なっとく}する (to be convinced), {催促|さいそく}する (to urge/press), {重複|ちょうふく}する (to overlap/duplicate)
+- **Society/Change (2)**: {収束|しゅうそく}する (to converge/subside), {現実逃避|げんじつとうひ} (escapism)
+- **Personality (3)**: {綺麗好|きれいず}き (fond of cleanliness), {飽|あ}き{性|しょう} (fickle nature), {巨匠|きょしょう} (great master)
+- **Four-character compounds (2)**: {大胆不敵|だいたんふてき} (bold and fearless), {事実無根|じじつむこん} (completely groundless)
+- **Expressions (4)**: {昔|むかし}ながら (traditional), {目|め}を{離|はな}す (to take one's eyes off), {胸|むね}が{高鳴|たかな}る (heart pounds), {楽|たの}しみにする (to look forward to)
+- **Nature/Movement (3)**: うねり (swell/surge), {逃|に}げ{込|こ}む (to run into), {冬景色|ふゆげしき} (winter landscape)
+- **Culture (2)**: {袱紗|ふくさ} (ceremonial cloth), {農園|のうえん} (farm/plantation)
+- 24 candidates synced from candidate list; 3 new kanji added (紗, 綺, 袱)
+
+Total entries: 26,594 → 26,618.
+
 ### 2026-05-05 (Vocabulary Expansion - 26 New Entries, Batch 91)
 Added 26 new dictionary entries (IDs 26776-26801) from candidate_words.json. Focus on practical, broadly useful vocabulary across multiple categories.
 
