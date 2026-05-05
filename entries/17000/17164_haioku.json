@@ -19,7 +19,9 @@
       "english": "Nobody lives in that abandoned house.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17164_haioku_ex2",
@@ -27,7 +29,9 @@
       "english": "An old abandoned house remains on the outskirts of the village.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17164_haioku_ex3",
@@ -35,21 +39,42 @@
       "english": "There are many areas where depopulation is advancing and abandoned houses are increasing year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word often seen in news articles discussing rural depopulation and urban decay. Also commonly appears in horror and mystery fiction. The issue of {廃屋|はいおく} has become a social problem in Japan due to declining population.\n\nCOMMON COLLOCATIONS:\n- {廃屋|はいおく}が{増|ふ}える (abandoned houses increase)\n- {廃屋|はいおく}を{解体|かいたい}する (to demolish an abandoned house)\n- {廃屋|はいおく}{同然|どうぜん} (practically a ruin)\n\nSIMILAR WORDS:\n- {空|あ}き{家|や}: vacant house — may be temporarily unoccupied but not necessarily ruined\n- {廃墟|はいきょ}: ruins — broader term including any type of ruined structure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "12453_haikyo",
+      "reading": "はいきょ",
+      "headword": "{廃墟|はいきょ}",
+      "label": "ruins (broader)"
+    },
+    {
+      "type": "related",
+      "target_id": "03007_akiya",
+      "reading": "あきや",
+      "headword": "{空|あ}き{家|や}",
+      "label": "vacant house"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T05:39:56Z",
-    "modified": "2026-03-16T05:39:56Z",
+    "modified": "2026-05-05T10:11:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["place"]
+      "semantic": [
+        "place"
+      ]
     }
   }
 }

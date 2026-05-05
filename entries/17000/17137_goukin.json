@@ -19,7 +19,9 @@
       "english": "Bronze is an alloy of copper and tin.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17137_goukin_ex2",
@@ -27,7 +29,9 @@
       "english": "This part is made from an aluminum alloy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17137_goukin_ex3",
@@ -35,21 +39,42 @@
       "english": "Lightweight and strong alloys are used as materials for aircraft.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {合|ごう} (combine) + {金|きん} (metal). Used in scientific, industrial, and everyday contexts when discussing metal materials.\n\nCOMMON COLLOCATIONS:\n- アルミニウム{合金|ごうきん} (aluminum alloy)\n- チタン{合金|ごうきん} (titanium alloy)\n- {合金|ごうきん}{製|せい} (made of alloy)\n\nSIMILAR WORDS:\n- {金属|きんぞく}: metal — the general term for metallic elements\n- {鋼|はがね}: steel — a specific alloy of iron and carbon",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02645_kinzoku",
+      "reading": "きんぞく",
+      "headword": "{金属|きんぞく}",
+      "label": "metal (general term)"
+    },
+    {
+      "type": "related",
+      "target_id": "17138_kikinzoku",
+      "reading": "ききんぞく",
+      "headword": "{貴金属|ききんぞく}",
+      "label": "precious metals"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:07:56Z",
-    "modified": "2026-03-16T03:07:56Z",
+    "modified": "2026-05-05T10:11:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     }
   }
 }

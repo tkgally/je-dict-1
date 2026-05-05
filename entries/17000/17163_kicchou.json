@@ -19,7 +19,9 @@
       "english": "Rainbows are considered a good omen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17163_kicchou_ex2",
@@ -27,7 +29,9 @@
       "english": "Seeing a crane on New Year's is said to be an auspicious sign.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17163_kicchou_ex3",
@@ -35,21 +39,35 @@
       "english": "The weather was fine from morning, and it felt like some kind of good omen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{吉兆|きっちょう} combines {吉|きち} (good fortune) + {兆|ちょう} (sign, omen). A somewhat literary or formal word for an auspicious sign.\n\nCOMMON COLLOCATIONS:\n- {吉兆|きっちょう}とされる (to be considered a good omen)\n- {吉兆|きっちょう}の{兆|きざ}し (signs of a good omen)\n- {吉兆|きっちょう}と{見|み}なす (to regard as a good sign)\n\nTRADITIONAL GOOD OMENS IN JAPAN:\n- {鶴|つる} (cranes) — longevity and good fortune\n- {虹|にじ} (rainbows) — bridges between worlds\n- {初夢|はつゆめ}に{富士山|ふじさん} (Mt. Fuji in first dream of the year)\n\nCONTRAST:\n- {凶兆|きょうちょう}: bad omen (direct antonym)\n- {縁起|えんぎ}がいい: auspicious, lucky (everyday equivalent)\n- {吉|きち}: good fortune (used in {占|うらな}い/fortune-telling: {大吉|だいきち}, {中吉|ちゅうきち})\n\nREGISTER:\nMore formal/literary than {縁起|えんぎ}がいい. Common in written language and cultural contexts.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "20365_kyouchou",
+      "reading": "きょうちょう",
+      "headword": "{凶兆|きょうちょう}",
+      "label": "bad omen"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T05:39:36Z",
-    "modified": "2026-04-07T02:46:49Z",
+    "modified": "2026-05-05T10:11:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["culture"]
+      "semantic": [
+        "culture"
+      ]
     }
   }
 }

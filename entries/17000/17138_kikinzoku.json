@@ -19,7 +19,9 @@
       "english": "Gold is one of the precious metals.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17138_kikinzoku_ex2",
@@ -27,7 +29,9 @@
       "english": "There is a jewelry store in front of the station.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17138_kikinzoku_ex3",
@@ -35,21 +39,49 @@
       "english": "Precious metal prices are greatly influenced by global economic trends.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {貴|き} (precious, noble) + {金属|きんぞく} (metal). Refers both to the metals themselves (gold, silver, platinum, palladium) and to the jewelry industry. {貴金属|ききんぞく}{店|てん} is a common term for a jewelry store.\n\nCOMMON COLLOCATIONS:\n- {貴金属|ききんぞく}{店|てん} (jewelry store)\n- {貴金属|ききんぞく}の{買取|かいとり} (purchasing of precious metals)\n- {貴金属|ききんぞく}{相場|そうば} (precious metals market price)\n\nSIMILAR WORDS:\n- {宝石|ほうせき}: gemstone, jewel — precious stones rather than metals\n- {金属|きんぞく}: metal — the general term for metals",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02645_kinzoku",
+      "reading": "きんぞく",
+      "headword": "{金属|きんぞく}",
+      "label": "metal (general term)"
+    },
+    {
+      "type": "related",
+      "target_id": "17137_goukin",
+      "reading": "ごうきん",
+      "headword": "{合金|ごうきん}",
+      "label": "alloy"
+    },
+    {
+      "type": "related",
+      "target_id": "03619_houseki",
+      "reading": "ほうせき",
+      "headword": "{宝石|ほうせき}",
+      "label": "gemstone"
+    }
+  ],
   "metadata": {
     "created": "2026-03-16T03:08:13Z",
-    "modified": "2026-03-16T03:08:13Z",
+    "modified": "2026-05-05T10:11:30Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["material"]
+      "semantic": [
+        "material"
+      ]
     }
   }
 }
