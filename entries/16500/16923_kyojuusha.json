@@ -19,7 +19,9 @@
       "english": "This apartment building has about 200 residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16923_kyojuusha_ex2",
@@ -27,7 +29,9 @@
       "english": "Entry is prohibited for non-residents.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16923_kyojuusha_ex3",
@@ -35,22 +39,38 @@
       "english": "Special tax rules may apply to overseas residents in Japan.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal word most commonly seen in legal documents, building rules, government forms, and official notices. In everyday conversation, {住民|じゅうみん} or {住人|じゅうにん} is more natural.\n\nCOMMON COLLOCATIONS:\n- {海外|かいがい}{居住者|きょじゅうしゃ} (overseas resident)\n- {居住者|きょじゅうしゃ}{専用|せんよう} (for residents only)\n- {居住者|きょじゅうしゃ}{以外|いがい} (non-residents)\n\nSIMILAR WORDS:\n- {住民|じゅうみん}: resident — general term for people living in an area, common in everyday use\n- {住人|じゅうにん}: resident, dweller — slightly more casual, often for apartment or house residents",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03281_juumin",
+      "reading": "じゅうみん",
+      "headword": "{住民|じゅうみん}",
+      "label": "resident (general)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:11:08Z",
-    "modified": "2026-03-15T02:11:08Z",
+    "modified": "2026-05-05T05:04:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"],
-      "domain": ["legal"]
+      "semantic": [
+        "person"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }
