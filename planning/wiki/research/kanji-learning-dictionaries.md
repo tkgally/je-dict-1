@@ -1,6 +1,6 @@
 # Kanji Learning and Dictionary Treatment
 
-**Last updated**: 2026-05-01
+**Last updated**: 2026-05-05
 
 ## Overview
 
@@ -204,3 +204,4 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [Gairaigo: Loanwords](gairaigo-loanwords.md) — the third vocabulary stratum and script interaction
 - [Homographs](../topics/homographs.md) — kanji-level disambiguation strategies
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — kanji as visual connectors in the mental lexicon
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — morphological analysis of kanji compounds as a high-value vocabulary strategy

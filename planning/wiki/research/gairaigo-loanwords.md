@@ -1,6 +1,6 @@
 # Gairaigo: Loanwords in Japanese
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-05
 
 ## Overview
 
@@ -230,3 +230,4 @@ The gap between the dictionary's 6.1% gairaigo coverage and the 19% type frequen
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — stratal synonymy between wago, kango, and gairaigo
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — katakana-only gairaigo vs. kanji-based wago/kango and script interaction effects
 - [Register and Formality Marking](register-formality-marking.md) — stratal register (wago/kango/gairaigo) as a dimension of dictionary label systems
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — cognate recognition as a discovery strategy and its limitations for gairaigo

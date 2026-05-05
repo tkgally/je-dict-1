@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-05-04
+**Last updated**: 2026-05-05
 
 ## Overview
 

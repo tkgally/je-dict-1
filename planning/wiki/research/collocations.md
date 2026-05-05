@@ -1,6 +1,6 @@
 # Collocations in Learner Dictionaries
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-05-05
 
 ## What collocations are and why they matter
 
@@ -158,3 +158,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Multiword Expressions](multiword-expressions.md) — broader taxonomy of MWEs including idioms, formulaic routines, and grammar patterns
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — collocational violations as a major error category
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — how collocation patterns distinguish near-synonyms
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — collocational knowledge as productive vocabulary and its role in consolidation strategies
