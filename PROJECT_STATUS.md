@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-05 (Vocabulary Expansion - 26 New Entries, Batch 91)
+Added 26 new dictionary entries (IDs 26776-26801) from candidate_words.json. Focus on practical, broadly useful vocabulary across multiple categories.
+
+- **Communication/Technology (3)**: {送信|そうしん}する (to send/transmit), {受信|じゅしん}する (to receive signal/message), {暗唱|あんしょう}する (to recite from memory)
+- **People/Roles (5)**: {張本人|ちょうほんにん} (main culprit), {当人|とうにん} (person concerned), {第三者|だいさんしゃ} (third party), {黒子|くろこ} (stagehand/behind-the-scenes person), {仕立屋|したてや} (tailor)
+- **Culture/Society (3)**: {応援団|おうえんだん} (cheering squad), {職人気質|しょくにんかたぎ} (artisan temperament), {頭|あたま}を{下|さ}げる (to bow/apologize)
+- **Actions/Processes (5)**: {進行|しんこう}する (to progress), {衝突|しょうとつ}する (to collide/clash), {補正|ほせい}する (to correct/calibrate), {静止|せいし}する (to stand still), {忘却|ぼうきゃく}する (to forget completely)
+- **Body/Health (2)**: {息遣|いきづか}い (breathing), {胃薬|いぐすり} (stomach medicine)
+- **General (5)**: {何|なに}もかも (everything), {手助|てだす}けする (to help), {無防備|むぼうび}な (defenseless), {内向|うちむ}き (inward-looking), {外向|そとむ}き (outward-looking)
+- **Science (1)**: {波動|はどう} (wave motion)
+- **Transportation (1)**: {原付|げんつき} (moped)
+- **Food (1)**: {調理|ちょうり}する (to cook/prepare food)
+- 26 candidates synced from candidate list
+
+Total entries: 26,568 → 26,594.
+
 ### 2026-05-04 (Vocabulary Expansion - 24 New Entries, Batch 90)
 Added 24 new dictionary entries (IDs 26752-26775) from candidate_words.json. Vocabulary covers geography, culture, food, nature, language, military, performing arts, music, legal, and more.
 
