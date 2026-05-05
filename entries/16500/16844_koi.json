@@ -19,7 +19,9 @@
       "english": "I didn't break it on purpose.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16844_koi_ex2",
@@ -27,7 +29,9 @@
       "english": "Whether the offense was intentional or negligent is the point of contention.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16844_koi_ex3",
@@ -35,22 +39,45 @@
       "english": "The player who deliberately hit the opponent with the ball was ejected.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in legal, formal, and news contexts. Used adverbially as {故意|こい}に (intentionally, on purpose). In everyday speech, わざと is more common.\n\nCOMMON COLLOCATIONS:\n- {故意|こい}に (intentionally, on purpose)\n- {故意|こい}による (due to intent)\n- {故意|こい}か{過失|かしつ}か (whether intentional or negligent)\n\nSIMILAR WORDS:\n- わざと is the everyday equivalent\n- {意図的|いとてき} is formal but less legalistic than {故意|こい}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "16841_itoteki",
+      "reading": "いとてき",
+      "headword": "{意図的|いとてき}",
+      "label": "intentional (formal)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03791_wazato",
+      "reading": "わざと",
+      "headword": "わざと",
+      "label": "on purpose (casual)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-14T13:05:37Z",
-    "modified": "2026-03-14T13:05:37Z",
+    "modified": "2026-05-05T05:04:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["description"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "description"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "The moon appeared from between the clouds.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16918_sugatawoarawasu_ex2",
@@ -27,7 +29,9 @@
       "english": "The culprit has not yet shown himself.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "16918_sugatawoarawasu_ex3",
@@ -35,21 +39,35 @@
       "english": "A new high-rise building appeared in front of the station, and the scenery of the town completely changed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA set phrase combining {姿|すがた} (figure, form) with {現|あらわ}す (to reveal). Often used in narrative and news contexts to describe someone or something coming into view. The subject can be a person, animal, building, or natural phenomenon.\n\nCONTRAST:\n- {姿|すがた}を{消|け}す: to disappear — the opposite expression, meaning to vanish from sight\n- {現|あらわ}れる: to appear — a simpler, single-verb alternative without the nuance of revealing a full figure",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01870_arawareru",
+      "reading": "あらわれる",
+      "headword": "{現|あらわ}れる",
+      "label": "to appear (single verb)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-15T02:09:29Z",
-    "modified": "2026-03-15T02:09:29Z",
+    "modified": "2026-05-05T05:04:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["expression"]
+      "semantic": [
+        "expression"
+      ]
     }
   }
 }
