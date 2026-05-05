@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-05 (Vocabulary Expansion - 30 New Entries, Batch 93)
+Added 30 new dictionary entries (IDs 26826-26855) from candidate_words.json. Focus on common suru verbs and useful vocabulary for intermediate learners.
+
+- **Starting/Ending (3)**: {開始|かいし}する (to commence), {解除|かいじょ}する (to cancel/lift), {短縮|たんしゅく}する (to shorten)
+- **Safety/Emergency (3)**: {避難|ひなん}する (to evacuate), {脱出|だっしゅつ}する (to escape), {救出|きゅうしゅつ}する (to rescue)
+- **Communication/Cognition (6)**: {提示|ていじ}する (to present), {指示|しじ}する (to instruct), {解釈|かいしゃく}する (to interpret), {解明|かいめい}する (to clarify), {推理|すいり}する (to deduce), {発音|はつおん}する (to pronounce)
+- **Law/Authority (2)**: {逮捕|たいほ}する (to arrest), {命令|めいれい}する (to command)
+- **Interpersonal (3)**: {配慮|はいりょ}する (to be considerate), {訪問|ほうもん}する (to visit), {援助|えんじょ}する (to assist)
+- **Daily Life (4)**: {散歩|さんぽ}する (to take a walk), {外出|がいしゅつ}する (to go out), {着用|ちゃくよう}する (to wear), {記憶|きおく}する (to memorize)
+- **Business/Society (4)**: {改善|かいぜん}する (to improve), {重視|じゅうし}する (to emphasize), {滞在|たいざい}する (to stay), {転売|てんばい}する (to resell)
+- **Emotions/Description (3)**: {爆笑|ばくしょう}する (to burst out laughing), {馬鹿|ばか}げる (to be ridiculous), {未練|みれん}がましい (clingy)
+- **Other (2)**: {賑|にぎ}わい (bustle/prosperity), {豪華|ごうか}な (luxurious)
+- 30 candidates synced from candidate list
+
+Total entries: 26,618 → 26,648.
+
 ### 2026-05-05 (Vocabulary Expansion - 24 New Entries, Batch 92)
 Added 24 new dictionary entries (IDs 26802-26825) from candidate_words.json. Focus on high-utility general vocabulary for intermediate learners.
 
