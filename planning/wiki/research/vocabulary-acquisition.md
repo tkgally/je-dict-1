@@ -1,6 +1,6 @@
 # Vocabulary Acquisition
 
-**Last updated**: 2026-05-02
+**Last updated**: 2026-05-05
 
 ## How L2 learners acquire vocabulary
 
@@ -115,3 +115,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — morphological awareness, compound inferencing, and kanji knowledge in vocabulary acquisition
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo acquisition as a pragmatic competence challenge; L1 background effects
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — deliberate strategy choices (keyword method, word cards, morphological analysis) and how dictionary design supports them

@@ -1,6 +1,6 @@
 # Sense Relations and Semantic Networks
 
-**Last updated**: 2026-05-04
+**Last updated**: 2026-05-05
 
 ## Overview
 
@@ -143,7 +143,7 @@ As noted in [Verb Transitivity Pairs](../topics/verb-transitivity.md), Japanese 
 
 ### Cross-reference system as a sense relation network
 
-je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 13,966 cross-references across 26,568 entries (0.53 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
+je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 14,292 cross-references across 26,732 entries (0.53 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
 
 **Priorities for enrichment**:
 
@@ -200,3 +200,4 @@ The existing kanji index provides a navigable semantic network based on shared c
 - [Word Formation and Morphology](word-formation.md) — kanji-based word families and semantic transparency
 - [Digital Dictionary UX](digital-dictionary-ux.md) — interface affordances for navigating semantic networks
 - [Register and Formality Marking](register-formality-marking.md) — stratal synonymy as a register dimension and cross-reference strategy
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — the semantic clustering debate and its implications for learning vs. consolidation

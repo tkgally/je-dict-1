@@ -1,6 +1,6 @@
 # Example Sentence Design
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-05
 
 ## What makes good dictionary examples?
 
@@ -77,3 +77,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている examples as aspect-encoding vehicles for verbs with non-obvious readings
 - [Register and Formality Marking](register-formality-marking.md) — register-appropriate examples as an alternative to metalinguistic labels
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo forms in example sentences as a vehicle for modeling social context
+- [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how example design supports deep processing and the involvement load hypothesis
