@@ -19,7 +19,9 @@
       "english": "This movie has positive ratings.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17351_kouhyouka_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm looking for a highly rated restaurant.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17351_kouhyouka_ex3",
@@ -35,21 +39,42 @@
       "english": "This product has received positive reviews and its sales are doing well.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery common in modern Japanese, especially in the context of online reviews, ratings, and evaluations. Often used as a no-adjective: {高評価|こうひょうか}の.\n\nCOMMON COLLOCATIONS:\n- {高評価|こうひょうか}を{得|え}る (to receive high praise)\n- {高評価|こうひょうか}の{商品|しょうひん} (a highly rated product)\n- {高評価|こうひょうか}レビュー (positive review)\n\nSIMILAR WORDS:\n- {好評|こうひょう}: favorable reception — similar but emphasizes popularity\n- {低評価|ていひょうか}: negative rating — the opposite",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "16720_kouhyou",
+      "reading": "こうひょう",
+      "headword": "{好評|こうひょう}",
+      "label": "favorable reception"
+    },
+    {
+      "type": "related",
+      "target_id": "03583_hyouka",
+      "reading": "ひょうか",
+      "headword": "{評価|ひょうか}",
+      "label": "evaluation"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:16:22Z",
-    "modified": "2026-03-17T08:16:22Z",
+    "modified": "2026-05-06T06:14:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"]
+      "semantic": [
+        "general"
+      ]
     }
   }
 }

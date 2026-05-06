@@ -19,7 +19,9 @@
       "english": "I finally understood.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17322_gatengaiku_ex2",
@@ -27,7 +29,9 @@
       "english": "That explanation doesn't convince me.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17322_gatengaiku_ex3",
@@ -35,21 +39,42 @@
       "english": "After hearing the circumstances, I was finally able to make sense of it.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nVery often used in the negative: {合点|がてん}が{行|い}かない (I can't accept that / that doesn't make sense). The negative form expresses dissatisfaction or disagreement with an explanation or situation. The positive form {合点|がてん}が{行|い}く suggests that something has finally become clear.\n\nCOMMON COLLOCATIONS:\n- {合点|がてん}が{行|い}かない (to not be convinced, to not make sense)\n- やっと{合点|がてん}が{行|い}く (to finally understand)\n\nSIMILAR WORDS:\n- {納得|なっとく}する: to be convinced, to accept — more common in everyday speech\n- {腑|ふ}に{落|お}ちる: to make sense, to click — similar expression implying deep understanding",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "26805_nattokusuru",
+      "reading": "なっとくする",
+      "headword": "{納得|なっとく}する",
+      "label": "to be convinced"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09908_funiochiru",
+      "reading": "ふにおちる",
+      "headword": "{腑|ふ}に{落|お}ちる",
+      "label": "to make sense"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T06:01:04Z",
-    "modified": "2026-03-17T06:01:04Z",
+    "modified": "2026-05-06T06:14:35Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["cognition"]
+      "semantic": [
+        "cognition"
+      ]
     }
   }
 }
