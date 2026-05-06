@@ -19,7 +19,9 @@
       "english": "The photo is blurry.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17383_fusenmei_ex2",
@@ -27,7 +29,9 @@
       "english": "The security camera footage was too blurry to identify the perpetrator.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17383_fusenmei_ex3",
@@ -35,21 +39,36 @@
       "english": "The printing on the old document is unclear, and some characters are illegible.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal adjective formed with the negative prefix {不|ふ} and {鮮明|せんめい} (vivid, clear). Used primarily in written and technical contexts such as news, reports, and image analysis. In casual speech, {ぼやけた} or {ぼんやりした} are more natural.\n\nCOMMON COLLOCATIONS:\n- {映像|えいぞう}が{不鮮明|ふせんめい} (the footage is unclear)\n- {画像|がぞう}が{不鮮明|ふせんめい} (the image is blurry)\n- {不鮮明|ふせんめい}な{写真|しゃしん} (a blurry photo)\n- {不鮮明|ふせんめい}な{記憶|きおく} (a hazy memory)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "14686_senmei",
+      "reading": "せんめい",
+      "headword": "{鮮明|せんめい}",
+      "label": "clear, vivid"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["descriptive", "visual"]
+      "semantic": [
+        "descriptive",
+        "visual"
+      ]
     }
   }
 }

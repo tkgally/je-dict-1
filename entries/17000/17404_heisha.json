@@ -19,7 +19,9 @@
       "english": "Thank you for using our company's products.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17404_heisha_ex2",
@@ -27,7 +29,9 @@
       "english": "Our company will begin a new service starting next month.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17404_heisha_ex3",
@@ -35,22 +39,53 @@
       "english": "If you have any questions, please contact our company.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA humble ({謙譲語|けんじょうご}) term used exclusively in business contexts when referring to one's own company to outsiders. Essential in business emails, letters, and formal meetings. Never used for someone else's company.\n\nSIMILAR WORDS:\n- {当社|とうしゃ}: our company — neutral/formal, used in internal documents or press releases. Less humble than {弊社|へいしゃ}\n- {御社|おんしゃ}: your company — the honorific counterpart, used when addressing someone else's company in writing\n- {貴社|きしゃ}: your company — honorific, used in formal writing (more formal than {御社|おんしゃ})\n\nCOMMON COLLOCATIONS:\n- {弊社|へいしゃ}の{製品|せいひん} (our company's products)\n- {弊社|へいしゃ}では (at our company)\n- {弊社|へいしゃ}まで (to our company)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "keigo",
+      "target_id": "17179_onsha",
+      "reading": "おんしゃ",
+      "headword": "{御社|おんしゃ}",
+      "label": "honorific"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "humble",
-      "domain": ["business"],
-      "semantic": ["business", "organization"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "business",
+        "organization"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "17179_onsha",
+      "reading": "おんしゃ",
+      "headword": "{御社|おんしゃ}",
+      "note": "your company (honorific)"
+    },
+    {
+      "target_id": "22449_tousha",
+      "reading": "とうしゃ",
+      "headword": "{当社|とうしゃ}",
+      "note": "our company (neutral)"
+    }
+  ]
 }

@@ -19,7 +19,9 @@
       "english": "To paint a realistic picture.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17370_shajitsuteki_ex2",
@@ -27,7 +29,9 @@
       "english": "This sculpture is extremely realistic.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17370_shajitsuteki_ex3",
@@ -35,22 +39,45 @@
       "english": "Through realistic description, readers can vividly imagine the scene.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily used in art and literature criticism. Describes works that aim to faithfully reproduce reality rather than using abstract or stylized approaches.\n\nCOMMON COLLOCATIONS:\n- {写実的|しゃじつてき}な{表現|ひょうげん} (realistic expression)\n- {写実的|しゃじつてき}な{描写|びょうしゃ} (realistic depiction)\n- {写実的|しゃじつてき}な{画風|がふう} (realistic painting style)\n\nSIMILAR WORDS:\n- リアルな: realistic — loanword, more casual and broadly used\n- {現実的|げんじつてき}: realistic — for ideas, plans, and approaches, not art\n- {抽象的|ちゅうしょうてき}: abstract — the opposite in art",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "04782_chuushouteki",
+      "reading": "ちゅうしょうてき",
+      "headword": "{抽象的|ちゅうしょうてき}",
+      "label": "abstract"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04794_genjitsuteki",
+      "reading": "げんじつてき",
+      "headword": "{現実的|げんじつてき}",
+      "label": "realistic (plans, not art)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T08:22:52Z",
-    "modified": "2026-03-17T08:22:52Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["descriptive"],
-      "domain": ["academic"]
+      "semantic": [
+        "descriptive"
+      ],
+      "domain": [
+        "academic"
+      ]
     }
   }
 }

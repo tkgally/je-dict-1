@@ -19,7 +19,9 @@
       "english": "I heard a faint sound.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17409_kasukana_ex2",
@@ -27,7 +29,9 @@
       "english": "A faint light was streaming in through the window.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17409_kasukana_ex3",
@@ -35,21 +39,36 @@
       "english": "I could hear faint music from far away, so I listened carefully.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nDescribes things that are barely perceptible — sounds, light, smells, sensations, or abstract things like hope or memory. The adverbial form {微|かす}かに is also very common.\n\nCOMMON COLLOCATIONS:\n- {微|かす}かな{音|おと} (faint sound)\n- {微|かす}かな{光|ひかり} (faint light)\n- {微|かす}かな{香|かお}り (faint fragrance)\n- {微|かす}かな{望|のぞ}み (faint hope)\n- {微|かす}かな{記憶|きおく} (faint memory)\n\nSIMILAR WORDS:\n- {僅|わず}かな: emphasizes smallness in quantity or degree, while {微|かす}かな emphasizes weak perceptibility\n- {薄|うす}い: thin, pale — describes visual faintness more than sensory faintness",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17410_wazukana",
+      "reading": "わずかな",
+      "headword": "{僅|わず}かな",
+      "label": "small quantity/degree"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:13:06Z",
-    "modified": "2026-03-17T23:13:06Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["sensation", "degree"]
+      "semantic": [
+        "sensation",
+        "degree"
+      ]
     }
   }
 }

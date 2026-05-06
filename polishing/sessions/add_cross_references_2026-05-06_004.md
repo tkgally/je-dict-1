@@ -1,0 +1,171 @@
+## Session: Add Cross-References
+Date: 2026-05-06
+
+### prominent_see_also Added
+- 17356 ↔ 02843: informal/standard form (朝飯 ↔ 朝ご飯)
+- 17357 ↔ 02950: informal/standard form (昼飯 ↔ 昼ご飯)
+- 17389 ↔ 19456: noun/verb form (買い替え ↔ 買い替える)
+- 17396 ↔ 09534: brand/generic (宅急便 ↔ 宅配便)
+- 17404 ↔ 17179: humble/honorific (弊社 ↔ 御社)
+- 17404 ↔ 22449: humble/neutral (弊社 ↔ 当社)
+- 17430 ↔ 08463: literary/colloquial (空涙 ↔ 嘘泣き)
+- 17448 → 01983: passive/active (振られる → 振る)
+- 17453 → 02367: negation/base (不機嫌 → 機嫌)
+
+### cross_references Added
+- 17356 → 03122: synonym (朝食, formal)
+- 17356 → 17357: related (昼飯, same register)
+- 17356 → 19760: related (晩飯, same register)
+- 17357 → 01616: synonym (昼食, formal)
+- 17357 → 11196: synonym (ランチ, casual)
+- 17357 → 17356: related (朝飯, same register)
+- 17357 → 19760: related (晩飯, same register)
+- 17358 → 18818: antonym (遅番, late shift)
+- 17358 → 09549: related (夜勤)
+- 17358 → 18684: related (日勤)
+- 17359 → 03083: related (正解)
+- 17359 → 00447: related (解答)
+- 17360 → 09291: related (家庭教師)
+- 17360 → 03190: related (指導)
+- 17364 → 17288: contrast (無視する)
+- 17364 → 12000: synonym (取り合う)
+- 17366 → 10937: synonym (サプリメント)
+- 17366 → 01882: related (栄養)
+- 17367 → 13689: antonym (直球)
+- 17368 → 18486: related (飲酒運転)
+- 17370 → 04782: antonym (抽象的)
+- 17370 → 04794: contrast (現実的)
+- 17372 → 03190: related (指導)
+- 17373 → 21809: antonym (小技)
+- 17374 → 19044: antonym (飲み薬)
+- 17375 → 01796: related (嘘)
+- 17377 → 10517: related (ひな祭り)
+- 17378 → 09793: synonym (関節)
+- 17380 → 13491: synonym (率直)
+- 17381 → 05591: related (名物)
+- 17382 → 17165: antonym (激痛)
+- 17383 → 14686: antonym (鮮明)
+- 17386 → 08997: synonym (膨大)
+- 17386 → 03700: synonym (莫大)
+- 17387 → 04299: related (水筒)
+- 17393 → 06754: related (謝罪)
+- 17399 → 21571: related (賄賂)
+- 17399 → 01660: related (不正)
+- 17400 → 11867: related (受賞)
+- 17401 → 04631: synonym (出くわす)
+- 17401 → 14384: synonym (遭遇)
+- 17404 → 17179: keigo (御社, honorific)
+- 17409 → 17410: contrast (僅かな)
+- 17410 → 17409: contrast (微かな)
+- 17410 → 01136: synonym (少ない)
+- 17411 → 00618: synonym (暖かい)
+- 17413 → 04834: synonym (ボランティア)
+- 17414 → 03989: contrast (武士)
+- 17420 → 01601: contrast (試合)
+- 17420 → 01437: related (勝負)
+- 17421 → 13291: contrast (消火)
+- 17423 → 01688: synonym (泥棒)
+- 17423 → 02818: contrast (強盗)
+- 17425 → 11307: contrast (中年)
+- 17428 → 08400: related (窓際)
+- 17429 → 16089: contrast (射撃)
+- 17436 → 12869: contrast (文房具)
+- 17437 → 16966: antonym (上塗り)
+- 17439 → 11348: related (不審者)
+- 17442 → 12204: antonym (大都市)
+- 17443 → 09764: contrast (任命)
+- 17445 → 02208: related (恋)
+- 17446 → 06623: synonym (愚痴)
+- 17451 → 10084: antonym (青空)
+- 17452 → 00131: synonym (価値)
+- 17453 → 24293: antonym (上機嫌)
+- 17456 → 01454: contrast (尊敬)
+- 17458 → 01204: antonym (褒める)
+- 17458 → 03580: contrast (批判)
+- 17459 → 16842: synonym (優柔不断)
+- 17460 → 03989: related (武士)
+
+### Back-links Added on Target Entries
+- 02843_asagohan: prominent_see_also → 17356
+- 02950_hirugohan: prominent_see_also → 17357
+- 19760_banmeshi: cross_references → 17356, 17357
+- 18818_osoban: cross_references antonym → 17358
+- 13689_chokkyuu: cross_references antonym → 17367
+- 04782_chuushouteki: cross_references antonym → 17370
+- 21809_kowaza: cross_references antonym → 17373
+- 19044_nomigusuri: cross_references antonym → 17374
+- 17165_gekitsuu: cross_references antonym → 17382
+- 14686_senmei: cross_references antonym → 17383
+- 19456_kaikaeru: prominent_see_also → 17389
+- 09534_takuhaibin: prominent_see_also → 17396
+- 17179_onsha: prominent_see_also → 17404
+- 22449_tousha: prominent_see_also → 17404
+- 13291_shouka: cross_references contrast → 17421
+- 08463_usonaki: prominent_see_also → 17430
+- 16966_uwanuri: cross_references antonym → 17437
+- 12204_daitoshi: cross_references antonym → 17442
+- 10084_aozora: cross_references antonym → 17451
+- 24293_joukigen: cross_references antonym → 17453
+- 01204_homeru: cross_references antonym → 17458
+
+### References Fixed/Migrated
+- 18818_osoban: removed old-format `synonyms`, `antonyms`, `related` fields; replaced with proper `cross_references`
+
+### Entries Skipped (no cross-references needed)
+- 17361 (車線変更): compound with only component words as targets
+- 17362 (着信履歴): compound with only component words as targets
+- 17363 (口を利く): no strong semantic cross-ref candidates
+- 17365 (切り揃える): compound verb, components too generic
+- 17369 (鉄鋼): industry-specific, no strong candidates
+- 17371 (世捨て人): literary term, no strong candidates
+- 17376 (干上がる): no strong candidates
+- 17379 (鉛筆削り): only component word available
+- 17384 (事務職): only component word available
+- 17385 (名画): no strong candidates
+- 17388 (防寒): antonym 防暑 not in dictionary
+- 17391 (限定版): no strong candidates (通常版 not in dictionary)
+- 17392 (宝庫): no strong candidates
+- 17395 (無駄足): only component word available
+- 17397 (背骨): already has cross_references
+- 17398 (綱引き): no strong candidates
+- 17402 (武者震い): no strong candidates
+- 17403 (至福): no strong candidates
+- 17405 (半ズボン): no strong candidates
+- 17406 (我に返る): no strong candidates
+- 17407 (必着): contrast 消印有効 not in dictionary
+- 17408 (黙祷): no strong candidates
+- 17412 (ひょうきん): no strong candidates
+- 17415 (代筆): no strong candidates
+- 17416 (筆跡): no strong candidates
+- 17417 (誤差): no strong candidates
+- 17418 (案内所): only component words
+- 17419 (特派員): no strong candidates
+- 17422 (美談): no strong candidates
+- 17424 (樹脂): no strong candidates
+- 17426 (完成品): only component word
+- 17427 (水洗い): only component word
+- 17431 (安全運転): antonym 危険運転 not in dictionary
+- 17432 (接客業): only component word
+- 17433 (不法侵入): only component word
+- 17434 (誤答): antonym 正答 not in dictionary
+- 17435 (一瞥): no strong candidates
+- 17438 (中敷き): no strong candidates
+- 17440 (脳波): no strong candidates
+- 17441 (比較対象): only component words
+- 17444 (里帰り): no strong candidates
+- 17447 (真相): already has prominent_see_also
+- 17449 (天守閣): no strong candidates
+- 17450 (稲荷): no strong candidates
+- 17454 (遭遇する): already has prominent_see_also
+- 17455 (検討する): already has prominent_see_also
+- 17457 (出向く): no strong candidates
+
+### Statistics
+- Entries reviewed this session: 105
+- prominent_see_also links added: 12 (including back-links)
+- cross_references links added: 88 (including back-links)
+- References fixed/migrated: 1 (osoban old format)
+- Entry range: 17356 through 17460
+
+### Next Entry
+17461

@@ -19,7 +19,9 @@
       "english": "It's been overcast since this morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17451_kumorizora_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm worried about hanging laundry out under a cloudy sky.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17451_kumorizora_ex3",
@@ -35,21 +39,35 @@
       "english": "The overcast sky continued, but in the afternoon it suddenly cleared up and blue sky spread across.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {曇|くも}り (cloudy) and {空|そら} (sky), with {空|そら} becoming {空|ぞら} through rendaku (sequential voicing). A simple, commonly used weather word.\n\nCOMMON COLLOCATIONS:\n- {曇|くも}り{空|ぞら}が{続|つづ}く (overcast skies continue)\n- {曇|くも}り{空|ぞら}の{下|した} (under a cloudy sky)\n- どんよりした{曇|くも}り{空|ぞら} (a gloomy, overcast sky)\n\nSIMILAR WORDS:\n- {青空|あおぞら}: blue sky — the opposite\n- {夕焼|ゆうや}け{空|ぞら}: sunset sky",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10084_aozora",
+      "reading": "あおぞら",
+      "headword": "{青空|あおぞら}",
+      "label": "blue sky"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:01:43Z",
-    "modified": "2026-03-18T02:01:43Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }
