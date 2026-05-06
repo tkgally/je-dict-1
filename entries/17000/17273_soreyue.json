@@ -19,7 +19,9 @@
       "english": "He worked hard. Therefore, he succeeded.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17273_soreyue_ex2",
@@ -27,7 +29,9 @@
       "english": "The evidence is insufficient. Therefore, we will reserve judgment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17273_soreyue_ex3",
@@ -35,22 +39,45 @@
       "english": "This area gets little rain, and for that reason water shortages have become a serious problem.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal, somewhat literary conjunction. Used at the beginning of a sentence or clause to introduce a logical consequence. Can also appear mid-sentence preceded by a comma. Primarily found in written language, academic texts, and formal speech.\n\nSIMILAR WORDS:\n- だから: therefore — casual, used in everyday conversation\n- したがって: therefore/consequently — formal, common in academic and business writing\n- そのため: for that reason — neutral formality, very common in writing\n- ゆえに: therefore — more literary and archaic than それゆえ",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03819_shitagatte",
+      "reading": "したがって",
+      "headword": "したがって",
+      "label": "therefore (formal)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00924_dakara",
+      "reading": "だから",
+      "headword": "だから",
+      "label": "therefore (casual)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T04:27:32Z",
-    "modified": "2026-03-17T04:27:32Z",
+    "modified": "2026-05-06T05:09:10Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["conjunction"],
+      "pos": [
+        "conjunction"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["grammatical"],
-      "style": ["written"]
+      "semantic": [
+        "grammatical"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

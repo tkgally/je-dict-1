@@ -19,7 +19,9 @@
       "english": "The Tokyo Stock Exchange.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17223_torihikijo_ex2",
@@ -27,7 +29,9 @@
       "english": "To buy and sell stocks on an exchange.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17223_torihikijo_ex3",
@@ -35,21 +39,36 @@
       "english": "That cryptocurrency exchange has a reputation for strong security.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{取引|とりひき} (transaction, trade) + {所|じょ} (place). Literally 'a place for transactions.'\n\nCOMMON COLLOCATIONS:\n- {証券|しょうけん}{取引所|とりひきじょ} (stock exchange)\n- {商品|しょうひん}{取引所|とりひきじょ} (commodity exchange)\n- {仮想通貨|かそうつうか}{取引所|とりひきじょ} (cryptocurrency exchange)\n- {取引所|とりひきじょ}に{上場|じょうじょう}する (to list on an exchange)\n\nNOTABLE EXAMPLES:\n- {東京証券取引所|とうきょうしょうけんとりひきじょ} (Tokyo Stock Exchange, commonly abbreviated as {東証|とうしょう})\n- {大阪取引所|おおさかとりひきじょ} (Osaka Exchange)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04700_torihiki",
+      "reading": "とりひき",
+      "headword": "{取引|とりひき}",
+      "label": "transaction"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T00:13:33Z",
-    "modified": "2026-03-17T00:13:33Z",
+    "modified": "2026-05-06T05:09:10Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["finance", "business"]
+      "semantic": [
+        "finance",
+        "business"
+      ]
     }
   }
 }
