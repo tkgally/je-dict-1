@@ -19,7 +19,9 @@
       "english": "It is as stated below.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17256_saki_ex2",
@@ -27,7 +29,9 @@
       "english": "Please send it to the address below.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17256_saki_ex3",
@@ -35,21 +39,51 @@
       "english": "For details, please contact us at the address listed below.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "WORD FORMATION:\n{左|さ} (left) + {記|き} (written) = what is written to the left\n\nIn traditional vertical writing ({縦書|たてが}き), text flows from right to left, so \"to the left\" means \"what follows.\" In modern horizontal writing, {下記|かき} (below) is often used instead.\n\nCONTRAST:\n- {左記|さき}: the following (in vertical writing)\n- {右記|うき}: the preceding (in vertical writing)\n- {下記|かき}: the following (in horizontal writing)\n- {上記|じょうき}: the preceding (in horizontal writing)\n\nNOTE:\n{左記|さき} is a formal, written expression. It appears in official documents, letters, and forms. In modern horizontal documents, {下記|かき} is more standard.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "11375_jouki",
+      "reading": "じょうき",
+      "headword": "{上記|じょうき}",
+      "label": "above-mentioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "11376_kaki",
+      "reading": "かき",
+      "headword": "{下記|かき}",
+      "label": "below-mentioned"
+    },
+    {
+      "type": "contrast",
+      "target_id": "24208_uki",
+      "reading": "うき",
+      "headword": "{右記|うき}",
+      "label": "mentioned to the right"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T02:18:37Z",
-    "modified": "2026-03-17T02:18:37Z",
+    "modified": "2026-05-06T05:09:10Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["general"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "general"
+      ]
     }
   }
 }
