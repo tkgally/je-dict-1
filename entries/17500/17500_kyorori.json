@@ -19,7 +19,9 @@
       "english": "He quickly glanced around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17500_kyorori_ex2",
@@ -27,7 +29,9 @@
       "english": "The cat darted its eyes, chasing the insect.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17500_kyorori_ex3",
@@ -35,21 +39,50 @@
       "english": "Arriving at an unfamiliar place, I quickly looked around.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA mimetic word typically used with と (きょろりと). Describes a single, quick eye movement, in contrast to きょろきょろ which suggests repeated looking around. Often used in narrative writing to convey a character's visual reaction.\n\nSIMILAR WORDS:\n- きょろきょろ: looking around restlessly — repeated action, suggests nervousness or unfamiliarity\n- ちらり: a fleeting glance — a brief, often sideways look\n- じろり: a hard stare — looking with suspicion or disapproval",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "07514_kyorokyoro",
+      "reading": "きょろきょろ",
+      "headword": "きょろきょろ",
+      "label": "looking around restlessly"
+    },
+    {
+      "type": "related",
+      "target_id": "21204_chirari",
+      "reading": "ちらり",
+      "headword": "ちらり",
+      "label": "fleeting glance"
+    },
+    {
+      "type": "related",
+      "target_id": "11020_jirori",
+      "reading": "じろり",
+      "headword": "ジロリ",
+      "label": "hard stare"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:32:13Z",
-    "modified": "2026-03-18T04:32:13Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adverb", "onomatopoeia"],
+      "pos": [
+        "adverb",
+        "onomatopoeia"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["onomatopoeia"]
+      "semantic": [
+        "onomatopoeia"
+      ]
     }
   }
 }

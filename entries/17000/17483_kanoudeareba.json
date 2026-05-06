@@ -19,7 +19,9 @@
       "english": "If possible, I would like to visit tomorrow.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17483_kanoudeareba_ex2",
@@ -27,7 +29,9 @@
       "english": "If possible, could I have a reply by the morning?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17483_kanoudeareba_ex3",
@@ -35,22 +39,45 @@
       "english": "If possible, I would like everyone to attend this meeting.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed at the beginning of a sentence or clause to soften a request or suggestion. Common in business email, formal conversations, and polite requests. The であれば form (conditional of である) gives this expression a formal, written tone.\n\nSIMILAR EXPRESSIONS:\n- できれば: if possible — less formal, more conversational\n- できましたら: if you could — polite, often used in business\n- もしよろしければ: if you don't mind — politer, focuses on the listener's willingness\n\nFORMALITY SCALE:\nできれば (casual) → {可能|かのう}であれば (formal) → {可能|かのう}でございましたら (very formal)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03447_dekireba",
+      "reading": "できれば",
+      "headword": "できれば",
+      "label": "if possible (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "00175_kanou",
+      "reading": "かのう",
+      "headword": "{可能|かのう}",
+      "label": "possible"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:25:40Z",
-    "modified": "2026-03-18T04:25:40Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["expression"],
-      "style": ["written"]
+      "semantic": [
+        "expression"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }
