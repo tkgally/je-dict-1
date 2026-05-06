@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-06 (Vocabulary Expansion - 27 New Entries, Batch 98)
+Added 27 new dictionary entries (IDs 26986-27012) from candidate_words.json. Focus on common suru verbs and useful loanwords for intermediate learners.
+
+- **Business/Work (4)**: {出張|しゅっちょう}する (to go on a business trip), {倒産|とうさん}する (to go bankrupt), {請求|せいきゅう}する (to bill/demand), {委任|いにん}する (to delegate)
+- **Action/Process (5)**: {設置|せっち}する (to install/establish), {発掘|はっくつ}する (to excavate/discover), {続行|ぞっこう}する (to continue/proceed), {休止|きゅうし}する (to suspend/pause), {先送|さきおく}りする (to postpone)
+- **Society/Politics (3)**: {反発|はんぱつ}する (to oppose/rebound), {停滞|ていたい}する (to stagnate), {仲裁|ちゅうさい}する (to mediate)
+- **Cognition/Emotion (2)**: {予知|よち}する (to predict), {楽観|らっかん}する (to be optimistic)
+- **Life Events (2)**: {出産|しゅっさん}する (to give birth), {歓迎|かんげい}する (to welcome)
+- **Quantity (1)**: {急増|きゅうぞう}する (to increase rapidly)
+- **Clothing/Equipment (1)**: {着脱|ちゃくだつ}する (to attach/detach)
+- **Loanwords (5)**: マニュアル (manual), ボリューム (volume), サイレン (siren), ロビー (lobby), フェンス (fence), アドレス (email address), オブジェ (art object)
+- **Culture/Education (2)**: {年号|ねんごう} (era name), {文型|ぶんけい} (sentence pattern)
+- 27 candidates synced from candidate list
+
+Total entries: 26,777 → 26,804.
+
 ### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 97)
 Added 25 new dictionary entries (IDs 26961-26985) from candidate_words.json. Focus on practical, learner-useful vocabulary including compound verbs, suru-verbs, and culturally important nouns.
 
@@ -147,19 +163,6 @@ Added 30 new dictionary entries (IDs 26826-26855) from candidate_words.json. Foc
 
 Total entries: 26,618 → 26,648.
 
-### 2026-05-05 (Vocabulary Expansion - 24 New Entries, Batch 92)
-Added 24 new dictionary entries (IDs 26802-26825) from candidate_words.json. Focus on high-utility general vocabulary for intermediate learners.
-
-- **Food/Sensation (2)**: さっぱりする (to feel refreshed), こってりする (to be rich/heavy in flavor)
-- **Commerce/Daily Life (3)**: {取|と}り{寄|よ}せる (to order from afar), {常連客|じょうれんきゃく} (regular customer), {後片付|あとかたづ}け (cleanup after activity)
-- **Communication/Cognition (3)**: {納得|なっとく}する (to be convinced), {催促|さいそく}する (to urge/press), {重複|ちょうふく}する (to overlap/duplicate)
-- **Society/Change (2)**: {収束|しゅうそく}する (to converge/subside), {現実逃避|げんじつとうひ} (escapism)
-- **Personality (3)**: {綺麗好|きれいず}き (fond of cleanliness), {飽|あ}き{性|しょう} (fickle nature), {巨匠|きょしょう} (great master)
-- **Four-character compounds (2)**: {大胆不敵|だいたんふてき} (bold and fearless), {事実無根|じじつむこん} (completely groundless)
-- **Expressions (4)**: {昔|むかし}ながら (traditional), {目|め}を{離|はな}す (to take one's eyes off), {胸|むね}が{高鳴|たかな}る (heart pounds), {楽|たの}しみにする (to look forward to)
-- **Nature/Movement (3)**: うねり (swell/surge), {逃|に}げ{込|こ}む (to run into), {冬景色|ふゆげしき} (winter landscape)
-- **Culture (2)**: {袱紗|ふくさ} (ceremonial cloth), {農園|のうえん} (farm/plantation)
-- 24 candidates synced from candidate list; 3 new kanji added (紗, 綺, 袱)
 
 Total entries: 26,594 → 26,618.
 
