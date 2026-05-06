@@ -51,6 +51,25 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-06 (Vocabulary Expansion - 20 New Entries, Batch 96)
+Added 20 new dictionary entries (IDs 26941-26960) from candidate_words.json. Mixed vocabulary across food, daily life, culture, society, language, nature, and health.
+
+- **Onomatopoeia/Texture (2)**: サクサクする (to be crispy), カリカリする (to be crispy/irritated)
+- **Nature/Weather (2)**: ぬかるむ (to become muddy), {泥濘|でいねい} (muddy ground)
+- **Food/Cooking (3)**: ツナ{缶|かん} (canned tuna), {割烹着|かっぽうぎ} (cooking smock), {割烹料理|かっぽうりょうり} (Japanese haute cuisine)
+- **Daily Life/Housing (2)**: {電気料金|でんきりょうきん} (electricity bill), リフォームする (to renovate)
+- **Society/Crime (2)**: {裏社会|うらしゃかい} (underworld), {犯罪組織|はんざいそしき} (criminal organization)
+- **Language/Communication (2)**: {物申|ものもう}す (to speak up/protest), {戯言|ざれごと} (nonsense)
+- **Grammar/Expressions (1)**: べからず (must not)
+- **Medical (1)**: {胃潰瘍|いかいよう} (stomach ulcer)
+- **Military (1)**: ミサイル (missile)
+- **People/Character (1)**: {未熟者|みじゅくもの} (inexperienced person)
+- **Agriculture (1)**: {干|ほ}し{草|くさ} (hay)
+- **Welfare (1)**: {乳児院|にゅうじいん} (infant home)
+- 19 candidates synced; 1 new kanji added (濘)
+
+Total entries: 26,732 → 26,752.
+
 ### 2026-05-05 (Vocabulary Expansion - 30 New Entries, Batch 95)
 Added 30 new dictionary entries (IDs 26911-26940) from candidate_words.json. Broad vocabulary covering daily life, society, culture, food, medicine, and personality.
 
@@ -126,110 +145,6 @@ Added 24 new dictionary entries (IDs 26802-26825) from candidate_words.json. Foc
 - 24 candidates synced from candidate list; 3 new kanji added (紗, 綺, 袱)
 
 Total entries: 26,594 → 26,618.
-
-### 2026-05-05 (Vocabulary Expansion - 26 New Entries, Batch 91)
-Added 26 new dictionary entries (IDs 26776-26801) from candidate_words.json. Focus on practical, broadly useful vocabulary across multiple categories.
-
-- **Communication/Technology (3)**: {送信|そうしん}する (to send/transmit), {受信|じゅしん}する (to receive signal/message), {暗唱|あんしょう}する (to recite from memory)
-- **People/Roles (5)**: {張本人|ちょうほんにん} (main culprit), {当人|とうにん} (person concerned), {第三者|だいさんしゃ} (third party), {黒子|くろこ} (stagehand/behind-the-scenes person), {仕立屋|したてや} (tailor)
-- **Culture/Society (3)**: {応援団|おうえんだん} (cheering squad), {職人気質|しょくにんかたぎ} (artisan temperament), {頭|あたま}を{下|さ}げる (to bow/apologize)
-- **Actions/Processes (5)**: {進行|しんこう}する (to progress), {衝突|しょうとつ}する (to collide/clash), {補正|ほせい}する (to correct/calibrate), {静止|せいし}する (to stand still), {忘却|ぼうきゃく}する (to forget completely)
-- **Body/Health (2)**: {息遣|いきづか}い (breathing), {胃薬|いぐすり} (stomach medicine)
-- **General (5)**: {何|なに}もかも (everything), {手助|てだす}けする (to help), {無防備|むぼうび}な (defenseless), {内向|うちむ}き (inward-looking), {外向|そとむ}き (outward-looking)
-- **Science (1)**: {波動|はどう} (wave motion)
-- **Transportation (1)**: {原付|げんつき} (moped)
-- **Food (1)**: {調理|ちょうり}する (to cook/prepare food)
-- 26 candidates synced from candidate list
-
-Total entries: 26,568 → 26,594.
-
-### 2026-05-04 (Vocabulary Expansion - 24 New Entries, Batch 90)
-Added 24 new dictionary entries (IDs 26752-26775) from candidate_words.json. Vocabulary covers geography, culture, food, nature, language, military, performing arts, music, legal, and more.
-
-- **Geography (3)**: {北|きた}アメリカ (North America), {南|みなみ}アメリカ (South America), カリブ{海|かい} (Caribbean Sea)
-- **People/society (3)**: {陰謀者|いんぼうしゃ} (conspirator), {無能者|むのうしゃ} (incompetent person), ご{子息|しそく} (son — honorific)
-- **Food (2)**: {塩干物|しおひもの} (salted dried fish), {干|ほ}し{果物|くだもの} (dried fruit)
-- **Nature (3)**: {露水|つゆみず} (dew), {深|ふか}い{森|もり} (deep forest), {夏|なつ}の{終|お}わり (end of summer)
-- **Performing arts (1)**: {女役|おんなやく} (female role)
-- **Music (1)**: {佳曲|かきょく} (fine piece of music)
-- **Military (1)**: {巡洋艦|じゅんようかん} (cruiser)
-- **Legal (1)**: {罪犯|ざいはん} (criminal offense)
-- **Formal/family (1)**: {公爵夫人|こうしゃくふじん} (duchess)
-- **Time/literary (1)**: {昔年|せきねん} (former years)
-- **Transportation (1)**: {中央駅|ちゅうおうえき} (central station)
-- **Consolation/society (1)**: {慰問団|いもんだん} (consolation group)
-- **Crafts/technical (1)**: {逆反|ぎゃくぞり}り (reverse warp)
-- **Expressions (2)**: {爪|つめ}を{立|た}てる (to dig in nails), {影響|えいきょう}される (to be influenced)
-- **Adjective (1)**: {颯快|さっかい} (brisk, refreshing)
-- **Footprints (1)**: {歩跡|ほせき} (footprints, tracks)
-- 23 candidates synced from candidate list
-
-Total entries: 26,544 → 26,568.
-Added 30 new dictionary entries (IDs 26702-26731) from candidate_words.json. Vocabulary covers shapes/math, product categories, education, transportation, culture/language, family, society, finance, stationery, and more.
-
-- **Shapes/math (2)**: {六角|ろっかく} (hexagonal), {商|しょう} (quotient)
-- **Product categories (3)**: {一般用|いっぱんよう} (for general use), {個人用|こじんよう} (for personal use), {農業用|のうぎょうよう} (for agricultural use)
-- **Education (2)**: {男子学生|だんしがくせい} (male student), {非専門|ひせんもん} (non-specialist)
-- **Transportation (1)**: {左車線|ひだりしゃせん} (left lane)
-- **Culture/entertainment (2)**: {西洋映画|せいようえいが} (Western film), {文化週間|ぶんかしゅうかん} (Culture Week)
-- **Language/writing (2)**: {和字|わじ} (Japanese-made characters), {罫線入|けいせんい}り (ruled/lined)
-- **Law/politics (2)**: {国籍法|こくせきほう} (nationality law), {再就任|さいしゅうにん} (reappointment)
-- **Society/people (4)**: {非常識人|ひじょうしきじん} (person lacking common sense), {貧困者|ひんこんしゃ} (person in poverty), {徘徊者|はいかいしゃ} (wanderer), {遭遇者|そうぐうしゃ} (witness/person who encounters)
-- **Family (1)**: {恋女房|こいにょうぼう} (beloved wife)
-- **Technology/daily life (2)**: フロアマップ (floor map), {画面|がめん}サイズ (screen size)
-- **Finance (1)**: {残高証明|ざんだかしょうめい} (balance certificate)
-- **Material (1)**: {天然皮革|てんねんひかく} (natural leather)
-- **Work (2)**: {社外活動|しゃがいかつどう} (outside-company activities), {起用法|きようほう} (personnel deployment method)
-- **Nature (1)**: {白々明|しらじらあ}ける (to dawn — literary)
-- **Health (1)**: {放屁|ほうひ} (flatulence — formal)
-- **Science (1)**: {結晶体|けっしょうたい} (crystalline body)
-- **Quantity (1)**: {数冊|すうさつ} (several books)
-- **Technology change (1)**: {精巧化|せいこうか} (increasing sophistication)
-- 1 stale candidate removed (灰色 — duplicate of existing entry)
-- 30 candidates synced from candidate list
-
-Total entries: 26,494 → 26,524.
-
-### 2026-05-04 (Vocabulary Expansion - 18 New Entries, Batch 87)
-Added 18 new dictionary entries (IDs 26684-26701) from candidate_words.json. Diverse vocabulary covering description, environment, food/cooking, counters, daily life, entertainment, games, sports, technology, business, literature, and media.
-
-- **Na-adjectives (2)**: {多発的|たはつてき} (frequent; repeated), {地球的|ちきゅうてき} (global; planetary)
-- **Food/cooking (2)**: {副料理長|ふくりょうりちょう} (sous chef), すき{焼|や}き{鍋|なべ} (sukiyaki pot)
-- **Daily life (2)**: ビニールシート (vinyl sheet/tarp), {床磨|ゆかみが}き (floor polishing)
-- **Counter/question (1)**: {何個|なんこ} (how many small objects)
-- **Entertainment (1)**: クラシック{映画|えいが} (classic film)
-- **Games (1)**: {手番|てばん} (one's turn in a game)
-- **Evaluation (1)**: {見外|みはず}れ (misjudgment; disappointment)
-- **Consumer/tech (2)**: {最新|さいしん}モデル (latest model), タスク{管理|かんり} (task management)
-- **Technology/business (1)**: データ{入力|にゅうりょく} (data entry)
-- **Loanwords (2)**: ミドルエイジ (middle age), セービング (save in sports)
-- **Literature/media (1)**: あとがたり (afterword; epilogue)
-- **Sports (1)**: {真芯|ましん} (sweet spot)
-- **Expression (1)**: すました{顔|かお} (composed/straight face)
-- 1 stale candidate removed (duplicate of existing entry)
-- 17 candidates synced from candidate list
-
-Total entries: 26,476 → 26,494.
-
-### 2026-05-04 (Vocabulary Expansion - 15 New Entries, Batch 86)
-Added 15 new dictionary entries (IDs 26669-26683) from candidate_words.json. Diverse vocabulary covering language/writing, culture, daily life, science, geopolitics, sports, and body parts.
-
-- **Language/writing (3)**: {行|ぎょう} (line/row of text), {愛称語|あいしょうご} (term of endearment), {片|かた} (one of a pair — prefix)
-- **Culture/food (1)**: {三色団子|さんしょくだんご} (three-colored dango)
-- **Daily life/community (1)**: {資源回収|しげんかいしゅう} (recyclable collection)
-- **Politics/news (1)**: {投票数|とうひょうすう} (vote count)
-- **Business (1)**: {卸売価格|おろしうりかかく} (wholesale price)
-- **Science (1)**: {液体窒素|えきたいちっそ} (liquid nitrogen)
-- **Pop culture (1)**: {火星人|かせいじん} (Martian)
-- **Sports (1)**: {完封勝利|かんぷうしょうり} (shutout victory)
-- **Geopolitics (1)**: {海洋国家|かいようこっか} (maritime nation)
-- **Photography (1)**: {一眼|いちがん}カメラ (single-lens camera)
-- **People (2)**: {援助者|えんじょしゃ} (aid worker), {異国人|いこくじん} (foreigner — literary)
-- **Body part (1)**: {腓|こむら} (calf of the leg)
-- 1 new kanji added to kanji index: 腓
-- 15 candidates synced from candidate list
-
-Total entries: 26,461 → 26,476.
 
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
