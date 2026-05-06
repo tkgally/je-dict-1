@@ -41,10 +41,32 @@
     }
   ],
   "notes": "REAL ESTATE USAGE:\nCommon term in real estate transactions. Land is often sold as {更地|さらち} (cleared) or with existing structures.\n\nCOMMON EXPRESSIONS:\n・{更地|さらち}にする - to clear the land (demolish existing structures)\n・{更地|さらち}で{売|う}る - to sell as vacant land\n・{更地|さらち}{渡|わた}し - delivery as cleared land\n\nCOMPARISON:\n・{更地|さらち} - cleared/vacant lot (no structures)\n・{空|あ}き{地|ち} - empty lot (may have weeds, unused)\n・{宅地|たくち} - residential land\n・{敷地|しきち} - site, premises (for a specific purpose)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "15270_akichi",
+      "reading": "あきち",
+      "headword": "{空|あ}き{地|ち}",
+      "label": "unused lot (may have weeds)"
+    },
+    {
+      "type": "related",
+      "target_id": "21589_takuchi",
+      "reading": "たくち",
+      "headword": "{宅地|たくち}",
+      "label": "residential land"
+    },
+    {
+      "type": "related",
+      "target_id": "00365_shikichi",
+      "reading": "しきち",
+      "headword": "{敷地|しきち}",
+      "label": "site, premises"
+    }
+  ],
   "metadata": {
     "created": "2026-01-22T23:40:24Z",
-    "modified": "2026-03-18T10:11:24Z",
+    "modified": "2026-05-06T10:04:22Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
