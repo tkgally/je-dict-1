@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 99)
+Added 25 new dictionary entries (IDs 27013-27037) from candidate_words.json. Focus on practical vocabulary across finance, politics, health, culture, and daily life.
+
+- **Finance/Business (4)**: {銀行口座|ぎんこうこうざ} (bank account), {当座預金|とうざよきん} (checking account), {貸金庫|かしきんこ} (safe deposit box), {零細企業|れいさいきぎょう} (micro enterprise)
+- **Statistics/Economics (2)**: {増加率|ぞうかりつ} (rate of increase), {減少率|げんしょうりつ} (rate of decrease)
+- **Politics/Government (1)**: {閣議決定|かくぎけってい} (cabinet decision)
+- **Health/Medical (3)**: {発病|はつびょう} (onset of illness), {毒物|どくぶつ} (toxic substance), {毒薬|どくやく} (poisonous drug)
+- **Education/Training (2)**: {講習会|こうしゅうかい} (training workshop), {悪筆|あくひつ} (bad handwriting)
+- **Daily Life/Objects (2)**: {入|い}れ{物|もの} (container), {車間|しゃかん} (following distance)
+- **Culture/Tradition (2)**: {箱庭|はこにわ} (miniature garden/sandbox game), {媒酌|ばいしゃく} (matchmaking)
+- **Descriptive (5)**: {魅惑|みわく} (fascination), {無計画|むけいかく} (unplanned), {流行遅|りゅうこうおく}れ (out of fashion), {無味無臭|むみむしゅう} (tasteless/odorless), {無味乾燥|むみかんそう} (dull/dry)
+- **Verbs (2)**: せびる (to pester for money), やみくも (reckless/blind)
+- **Children/Pediatrics (1)**: {小児|しょうに} (child - medical term)
+- **Place (1)**: {礼拝堂|らいはいどう} (chapel)
+- 24 candidates synced; 23 stale candidates removed
+
+Total entries: 26,804 → 26,829.
+
 ### 2026-05-06 (Vocabulary Expansion - 27 New Entries, Batch 98)
 Added 27 new dictionary entries (IDs 26986-27012) from candidate_words.json. Focus on common suru verbs and useful loanwords for intermediate learners.
 
