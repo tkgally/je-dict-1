@@ -19,7 +19,9 @@
       "english": "I've had a fever since three days ago.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17481_sakiototoi_ex2",
@@ -27,7 +29,9 @@
       "english": "I still haven't opened the package that arrived three days ago.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17481_sakiototoi_ex3",
@@ -35,21 +39,35 @@
       "english": "Even though I just met my friend three nights ago, I already miss them.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPart of the Japanese system of relative day names: おととい (2 days ago) → {一昨昨日|さきおととい} (3 days ago). Less formal and less commonly used than simply saying {三日前|みっかまえ}. Mostly used in casual conversation.\n\nRELATED TIME WORDS:\n- {昨日|きのう}: yesterday\n- おととい / {一昨日|おととい}: day before yesterday\n- {一昨昨日|さきおととい}: three days ago\n- {明後日|あさって}: day after tomorrow\n\nNOTE:\nSome speakers say さきおとつい instead of さきおととい. Both are accepted.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00877_ototoi",
+      "reading": "おととい",
+      "headword": "おととい",
+      "label": "day before yesterday"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:24:50Z",
-    "modified": "2026-03-18T04:24:50Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

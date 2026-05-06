@@ -19,7 +19,9 @@
       "english": "Temperatures are rising year by year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17480_toshigotoni_ex2",
@@ -27,7 +29,9 @@
       "english": "Your Japanese is getting better with each passing year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17480_toshigotoni_ex3",
@@ -35,21 +39,43 @@
       "english": "The population of this town continues to decline year after year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFollows the pattern ～ごとに (every ~), applied to {年|とし} (year). Used when describing trends, gradual changes, or recurring yearly events. Common in news reporting, statistics, and personal reflection.\n\nSIMILAR WORDS:\n- {年々|ねんねん}: year after year — more literary/formal, often used in written contexts\n- {毎年|まいとし}: every year — focuses on annual recurrence rather than gradual change\n- {日|ひ}ごとに: day by day — same pattern but with a shorter time scale",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "10417_nennen",
+      "reading": "ねんねん",
+      "headword": "{年々|ねんねん}",
+      "label": "year after year (literary)"
+    },
+    {
+      "type": "related",
+      "target_id": "00731_maitoshi",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "label": "every year"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:24:32Z",
-    "modified": "2026-03-18T04:24:32Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression", "adverb"],
+      "pos": [
+        "expression",
+        "adverb"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "He summited Everest without supplemental oxygen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17505_musanso_ex2",
@@ -27,7 +29,9 @@
       "english": "Anaerobic exercise is effective for building muscle strength in a short time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17505_musanso_ex3",
@@ -35,22 +39,39 @@
       "english": "In an oxygen-free environment, only certain bacteria can survive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe prefix {無|む}～ means \"without\" and attaches to many Sino-Japanese nouns. Used in two main contexts: (1) mountaineering — climbing without supplemental oxygen ({無酸素|むさんそ}{登頂|とうちょう}), and (2) science — anaerobic conditions or exercise.\n\nCOMMON COLLOCATIONS:\n- {無酸素|むさんそ}{登頂|とうちょう} (oxygen-free summit, climbing without supplemental O₂)\n- {無酸素|むさんそ}{運動|うんどう} (anaerobic exercise)\n- {無酸素|むさんそ}{状態|じょうたい} (oxygen-free state)\n\nSIMILAR WORDS:\n- {有酸素|ゆうさんそ}: aerobic — the opposite\n- {有酸素運動|ゆうさんそうんどう}: aerobic exercise",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "23848_yuusanso",
+      "reading": "ゆうさんそ",
+      "headword": "{有酸素|ゆうさんそ}",
+      "label": "aerobic"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:34:06Z",
-    "modified": "2026-03-18T04:34:06Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-no"],
+      "pos": [
+        "noun",
+        "adjective-no"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["technical"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "technical"
+      ]
     }
   }
 }

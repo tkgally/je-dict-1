@@ -19,7 +19,9 @@
       "english": "He was arrested on suspicion of attempted murder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17491_satsujinmisui_ex2",
@@ -27,7 +29,9 @@
       "english": "The man indicted for attempted murder is denying the charges.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17491_satsujinmisui_ex3",
@@ -35,22 +39,45 @@
       "english": "Because the victim survived, the charge was changed from murder to attempted murder.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA legal term commonly appearing in crime news. Composed of {殺人|さつじん} (murder) + {未遂|みすい} (attempt, failure to complete). The ～{未遂|みすい} suffix can attach to other crimes: {強盗未遂|ごうとうみすい} (attempted robbery), {放火未遂|ほうかみすい} (attempted arson).\n\nCOMMON COLLOCATIONS:\n- {殺人未遂|さつじんみすい}の{容疑|ようぎ} (suspicion of attempted murder)\n- {殺人未遂|さつじんみすい}{罪|ざい} (the crime of attempted murder)\n- {殺人未遂|さつじんみすい}で{逮捕|たいほ} (arrest for attempted murder)\n\nRELATED TERMS:\n- {殺人|さつじん}: murder, homicide\n- {未遂|みすい}: attempted (but not completed)\n- {既遂|きすい}: completed/consummated (crime)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "13236_satsujin",
+      "reading": "さつじん",
+      "headword": "{殺人|さつじん}",
+      "label": "murder"
+    },
+    {
+      "type": "related",
+      "target_id": "13085_misui",
+      "reading": "みすい",
+      "headword": "{未遂|みすい}",
+      "label": "attempt (failed)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T04:28:59Z",
-    "modified": "2026-03-18T04:28:59Z",
+    "modified": "2026-05-06T08:07:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["general"],
-      "domain": ["legal"]
+      "semantic": [
+        "general"
+      ],
+      "domain": [
+        "legal"
+      ]
     }
   }
 }
