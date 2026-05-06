@@ -19,7 +19,9 @@
       "english": "Bandits attacked the village.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17423_touzoku_ex2",
@@ -27,7 +29,9 @@
       "english": "They say that bandits once lived in these mountains.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17423_touzoku_ex3",
@@ -35,22 +39,46 @@
       "english": "The protagonist of this story is a bandit known as a righteous thief.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA literary or historical word for thieves and robbers, especially organized groups. In modern Japanese, it appears more in fiction, historical drama, and games than in everyday conversation. For modern thieves, {泥棒|どろぼう} is more common.\n\nCOMMON COLLOCATIONS:\n- {盗賊|とうぞく}{団|だん} (band of thieves)\n- {山|やま}{盗賊|とうぞく} (mountain bandits)\n- {盗賊|とうぞく}に{襲|おそ}われる (to be attacked by bandits)\n\nSIMILAR WORDS:\n- {泥棒|どろぼう}: thief — everyday word for a common thief\n- {強盗|ごうとう}: robber — specifically someone who uses force or threats\n- {盗賊|とうぞく}: bandit — more dramatic, literary, or historical",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "01688_dorobou",
+      "reading": "どろぼう",
+      "headword": "{泥棒|どろぼう}",
+      "label": "thief (everyday)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "02818_goutou",
+      "reading": "ごうとう",
+      "headword": "{強盗|ごうとう}",
+      "label": "robber (uses force)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T23:19:15Z",
-    "modified": "2026-03-17T23:19:15Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["literary"],
-      "semantic": ["person", "crime"]
+      "style": [
+        "literary"
+      ],
+      "semantic": [
+        "person",
+        "crime"
+      ]
     }
   }
 }

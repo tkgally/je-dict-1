@@ -19,7 +19,9 @@
       "english": "The damage was enormous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17386_jindai_ex2",
@@ -27,7 +29,9 @@
       "english": "The typhoon caused tremendous damage.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17386_jindai_ex3",
@@ -35,22 +39,46 @@
       "english": "The economic impact is severe, and recovery will likely take years.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA formal adjective used almost exclusively with negative events — damage, harm, loss, or adverse effects. Very common in news reports and official statements about disasters, accidents, and crises. Not used for positive outcomes.\n\nCOMMON COLLOCATIONS:\n- {甚大|じんだい}な{被害|ひがい} (enormous damage)\n- {甚大|じんだい}な{影響|えいきょう} (tremendous impact)\n- {甚大|じんだい}な{損害|そんがい} (immense losses)\n- {甚大|じんだい}な{損失|そんしつ} (severe loss)\n\nSIMILAR WORDS:\n- {膨大|ぼうだい}: vast, enormous — used for quantity or volume, not limited to negative contexts\n- {莫大|ばくだい}: enormous, vast — used for amounts (money, costs), not limited to damage",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "08997_boudai",
+      "reading": "ぼうだい",
+      "headword": "{膨大|ぼうだい}",
+      "label": "vast (quantity/volume)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03700_bakudai",
+      "reading": "ばくだい",
+      "headword": "{莫大|ばくだい}",
+      "label": "enormous (amounts)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["adjective-na"],
+      "pos": [
+        "adjective-na"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "style": ["written"],
-      "semantic": ["size", "descriptive"]
+      "style": [
+        "written"
+      ],
+      "semantic": [
+        "size",
+        "descriptive"
+      ]
     }
   }
 }

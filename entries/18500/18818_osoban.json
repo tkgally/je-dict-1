@@ -39,9 +39,29 @@
     }
   ],
   "notes": "A work shift that starts later in the day, typically in the afternoon or evening. Common in retail, nursing, hospitality, and other service industries with rotating schedules.\n\nSHIFT SYSTEM:\n- {早番|はやばん}: early shift (morning start)\n- {中番|なかばん}: middle shift\n- {遅番|おそばん}: late shift (afternoon/evening start)\n\nCOMMON PATTERNS:\n- {遅番|おそばん}に{入|はい}る: to work the late shift\n- {遅番|おそばん}と{早番|はやばん}を{交代|こうたい}する: to alternate between late and early shifts\n\nAlso read as おそばん, not *ちばん. The kanji {遅|おそ} retains its kun'yomi reading in this compound.",
-  "synonyms": [],
-  "antonyms": ["早番"],
-  "related": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "17358_hayaban",
+      "reading": "はやばん",
+      "headword": "{早番|はやばん}",
+      "label": "early shift"
+    },
+    {
+      "type": "related",
+      "target_id": "09549_yakin",
+      "reading": "やきん",
+      "headword": "{夜勤|やきん}",
+      "label": "night shift"
+    },
+    {
+      "type": "related",
+      "target_id": "18684_nikkin",
+      "reading": "にっきん",
+      "headword": "{日勤|にっきん}",
+      "label": "day shift"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -52,6 +72,6 @@
       "semantic": ["work", "time-general"]
     },
     "created": "2026-03-23T04:44:03Z",
-    "modified": "2026-03-25T05:40:40Z"
+    "modified": "2026-05-06T07:07:17Z"
   }
 }

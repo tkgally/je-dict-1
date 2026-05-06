@@ -19,7 +19,9 @@
       "english": "What is this restaurant's signature dish?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17381_kanbanmenyuu_ex2",
@@ -27,7 +29,9 @@
       "english": "I ordered their signature tonkotsu ramen.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17381_kanbanmenyuu_ex3",
@@ -35,21 +39,36 @@
       "english": "The chef went through many prototypes to develop a new signature dish.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{看板|かんばん} literally means 'signboard' but here means 'flagship' or 'representative.' This compound is used almost exclusively for restaurants and cafes. For non-food businesses, {看板商品|かんばんしょうひん} (flagship product) is used instead.\n\nCOMMON COLLOCATIONS:\n- {看板|かんばん}メニューを{頼|たの}む (to order the signature dish)\n- {看板|かんばん}メニューを{開発|かいはつ}する (to develop a signature dish)\n\nSIMILAR WORDS:\n- {名物|めいぶつ}: local specialty — refers to a famous product or food of a region, not a specific restaurant\n- {看板商品|かんばんしょうひん}: flagship product — the non-food equivalent",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05591_meibutsu",
+      "reading": "めいぶつ",
+      "headword": "{名物|めいぶつ}",
+      "label": "local specialty"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food-cooking", "business"]
+      "semantic": [
+        "food-cooking",
+        "business"
+      ]
     }
   }
 }

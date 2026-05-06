@@ -19,7 +19,9 @@
       "english": "Apply ointment.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17374_nurigusuri_ex2",
@@ -27,7 +29,9 @@
       "english": "The doctor prescribed me a topical medicine.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17374_nurigusuri_ex3",
@@ -35,21 +39,36 @@
       "english": "Please apply this ointment to the affected area three times a day.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA general term for any medication applied externally to the skin. Covers ointments, creams, gels, and lotions.\n\nCOMMON COLLOCATIONS:\n- {塗|ぬ}り{薬|ぐすり}を{塗|ぬ}る (to apply ointment)\n- {塗|ぬ}り{薬|ぐすり}を{処方|しょほう}する (to prescribe topical medicine)\n- {塗|ぬ}り{薬|ぐすり}を{患部|かんぶ}に{付|つ}ける (to put ointment on the affected area)\n\nSIMILAR WORDS:\n- {軟膏|なんこう}: ointment — more specific medical term for thick, greasy ointments\n- {飲|の}み{薬|ぐすり}: oral medicine — medicine taken by mouth, the counterpart of {塗|ぬ}り{薬|ぐすり}",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19044_nomigusuri",
+      "reading": "のみぐすり",
+      "headword": "{飲|の}み{薬|ぐすり}",
+      "label": "oral medicine"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["medicine", "health"]
+      "semantic": [
+        "medicine",
+        "health"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "He was arrested for corruption.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17399_oshoku_ex2",
@@ -27,7 +29,9 @@
       "english": "The mayor's corruption scandal was reported in the news.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17399_oshoku_ex3",
@@ -35,22 +39,46 @@
       "english": "The government enacted a new law to prevent corruption.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {汚|お} (dirty, corrupt) and {職|しょく} (position, office). Specifically refers to corruption in public office — misuse of governmental authority for personal gain. For corporate corruption, {不正|ふせい} is more commonly used.\n\nCOMMON COLLOCATIONS:\n- {汚職|おしょく}スキャンダル (corruption scandal)\n- {汚職|おしょく}{事件|じけん} (corruption case)\n- {汚職|おしょく}{防止|ぼうし} (corruption prevention)\n- {汚職|おしょく}に{手|て}を{染|そ}める (to get involved in corruption)\n\nSIMILAR WORDS:\n- {賄賂|わいろ}: bribery — the act of giving or receiving bribes, a specific form of {汚職|おしょく}\n- {不正|ふせい}: fraud, irregularity — broader term covering dishonest acts in any context",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "21571_wairo",
+      "reading": "わいろ",
+      "headword": "{賄賂|わいろ}",
+      "label": "bribery"
+    },
+    {
+      "type": "related",
+      "target_id": "01660_fusei",
+      "reading": "ふせい",
+      "headword": "{不正|ふせい}",
+      "label": "fraud, irregularity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-17T10:34:13Z",
-    "modified": "2026-03-17T10:34:13Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "domain": ["legal"],
-      "semantic": ["politics", "law-crime"]
+      "domain": [
+        "legal"
+      ],
+      "semantic": [
+        "politics",
+        "law-crime"
+      ]
     }
   }
 }

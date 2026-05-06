@@ -19,7 +19,9 @@
       "english": "He's been in a bad mood since this morning.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17453_fukigen_ex2",
@@ -27,7 +29,9 @@
       "english": "My mother had a displeased expression, so I couldn't say anything.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17453_fukigen_ex3",
@@ -35,21 +39,44 @@
       "english": "The boss's grumpy attitude made the workplace atmosphere uncomfortable.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nThe opposite of {機嫌|きげん}がいい (being in a good mood) or {上機嫌|じょうきげん} (being in high spirits). Very common in daily conversation to describe someone's observable mood.\n\nCOMMON COLLOCATIONS:\n- {不機嫌|ふきげん}な{顔|かお} (a displeased face)\n- {不機嫌|ふきげん}な{態度|たいど} (a sulky attitude)\n- {不機嫌|ふきげん}になる (to become grumpy)\n- {不機嫌|ふきげん}そうな (looking displeased)\n\nSIMILAR WORDS:\n- {機嫌|きげん}が{悪|わる}い: in a bad mood — same meaning, more conversational\n- {不満|ふまん}: dissatisfaction — focuses on the cause, not the visible mood\n- {上機嫌|じょうきげん}: in high spirits — the opposite",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "24293_joukigen",
+      "reading": "じょうきげん",
+      "headword": "{上機嫌|じょうきげん}",
+      "label": "good mood"
+    }
+  ],
   "metadata": {
     "created": "2026-03-18T02:02:30Z",
-    "modified": "2026-03-18T02:02:30Z",
+    "modified": "2026-05-06T07:07:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["emotion"]
+      "semantic": [
+        "emotion"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02367_kigen",
+      "reading": "きげん",
+      "headword": "{機嫌|きげん}",
+      "note": "mood"
+    }
+  ]
 }
