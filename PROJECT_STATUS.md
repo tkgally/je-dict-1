@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 100)
+Added 25 new dictionary entries (IDs 27038-27062) from candidate_words.json. Diverse vocabulary across medical, cultural, legal, education, and daily life domains.
+
+- **Medical/Health (3)**: {咳止|せきど}め (cough suppressant), {気管支炎|きかんしえん} (bronchitis), {発病|はつびょう}する (to fall ill)
+- **Legal/Business (3)**: {商標権|しょうひょうけん} (trademark rights), {居住権|きょじゅうけん} (right of residence), {汚職事件|おしょくじけん} (corruption case)
+- **Culture/Tradition (3)**: {生菓子|なまがし} (fresh Japanese sweets), {障子戸|しょうじど} (shoji door), {陰暦|いんれき} (lunar calendar)
+- **Education (2)**: {全日制|ぜんにちせい} (full-time school), {夜間学校|やかんがっこう} (night school)
+- **Food/Nature (2)**: {有機食品|ゆうきしょくひん} (organic food), {青草|あおくさ} (green grass)
+- **Transportation (2)**: スクーター (scooter), {衝突事故|しょうとつじこ} (collision accident)
+- **Descriptive/Abstract (3)**: {哲学的|てつがくてき} (philosophical), {無碍|むげ} (unhindered), {遠|とお}い{昔|むかし} (distant past)
+- **People (2)**: {推薦者|すいせんしゃ} (recommender), {放火犯|ほうかはん} (arsonist)
+- **Signs/Rules (1)**: {飲酒禁止|いんしゅきんし} (no drinking allowed)
+- **Social (2)**: {例会|れいかい} (regular meeting), {飼育小屋|しいくごや} (animal shed)
+- **Verbs (2)**: {晒|さら}け{出|だ}す (to lay bare), {詠唱|えいしょう}する (to chant)
+- 25 candidates synced; 1 stale candidate removed
+
+Total entries: 26,829 → 26,854.
+
 ### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 99)
 Added 25 new dictionary entries (IDs 27013-27037) from candidate_words.json. Focus on practical vocabulary across finance, politics, health, culture, and daily life.
 
@@ -164,25 +182,5 @@ Added 25 new dictionary entries (IDs 26886-26910) from candidate_words.json. Mix
 - Removed 42 stale duplicate candidates; 24 candidates synced from candidate list
 
 Total entries: 26,677 → 26,702.
-
-### 2026-05-05 (Vocabulary Expansion - 30 New Entries, Batch 93)
-Added 30 new dictionary entries (IDs 26826-26855) from candidate_words.json. Focus on common suru verbs and useful vocabulary for intermediate learners.
-
-- **Starting/Ending (3)**: {開始|かいし}する (to commence), {解除|かいじょ}する (to cancel/lift), {短縮|たんしゅく}する (to shorten)
-- **Safety/Emergency (3)**: {避難|ひなん}する (to evacuate), {脱出|だっしゅつ}する (to escape), {救出|きゅうしゅつ}する (to rescue)
-- **Communication/Cognition (6)**: {提示|ていじ}する (to present), {指示|しじ}する (to instruct), {解釈|かいしゃく}する (to interpret), {解明|かいめい}する (to clarify), {推理|すいり}する (to deduce), {発音|はつおん}する (to pronounce)
-- **Law/Authority (2)**: {逮捕|たいほ}する (to arrest), {命令|めいれい}する (to command)
-- **Interpersonal (3)**: {配慮|はいりょ}する (to be considerate), {訪問|ほうもん}する (to visit), {援助|えんじょ}する (to assist)
-- **Daily Life (4)**: {散歩|さんぽ}する (to take a walk), {外出|がいしゅつ}する (to go out), {着用|ちゃくよう}する (to wear), {記憶|きおく}する (to memorize)
-- **Business/Society (4)**: {改善|かいぜん}する (to improve), {重視|じゅうし}する (to emphasize), {滞在|たいざい}する (to stay), {転売|てんばい}する (to resell)
-- **Emotions/Description (3)**: {爆笑|ばくしょう}する (to burst out laughing), {馬鹿|ばか}げる (to be ridiculous), {未練|みれん}がましい (clingy)
-- **Other (2)**: {賑|にぎ}わい (bustle/prosperity), {豪華|ごうか}な (luxurious)
-- 30 candidates synced from candidate list
-
-Total entries: 26,618 → 26,648.
-
-
-Total entries: 26,594 → 26,618.
-
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
