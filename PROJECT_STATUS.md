@@ -51,6 +51,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 97)
+Added 25 new dictionary entries (IDs 26961-26985) from candidate_words.json. Focus on practical, learner-useful vocabulary including compound verbs, suru-verbs, and culturally important nouns.
+
+- **Compound Verbs (6)**: {紛|まぎ}れ{込|こ}む (to slip into), {着込|きこ}む (to bundle up), {噛|か}みつく (to bite/snap at), {覚|おぼ}え{込|こ}む (to memorize thoroughly), {飲|の}み{切|き}る (to drink up), {似|に}せる (to imitate)
+- **Suru Verbs (5)**: {適応|てきおう}する (to adapt), {区別|くべつ}する (to distinguish), {継続|けいぞく}する (to continue), {一貫|いっかん}する (to be consistent), {表示|ひょうじ}する (to display)
+- **Suru Verbs - other (2)**: {命中|めいちゅう}する (to hit the mark), パリッとする (to be crisp)
+- **Expressions (1)**: {気|き}を{抜|ぬ}く (to let one's guard down)
+- **Adverb (1)**: にわかに (suddenly)
+- **Nouns - Emotion (2)**: {恐怖感|きょうふかん} (feeling of fear), {悪感情|あくかんじょう} (ill will)
+- **Nouns - Food/Culture (2)**: {会席料理|かいせきりょうり} (kaiseki cuisine), おせち{料理|りょうり} (New Year's cuisine)
+- **Nouns - Clothing (1)**: {重|かさ}ね{着|ぎ} (layering)
+- **Nouns - Other (3)**: {推薦書|すいせんしょ} (letter of recommendation), {思考法|しこうほう} (way of thinking), {未成熟|みせいじゅく} (immature)
+- **Other verbs (2)**: ざわつく (to be noisy/uneasy), {甘|あま}んじる (to resign oneself to)
+- 25 candidates synced; 6 stale candidates removed
+
+Total entries: 26,752 → 26,777.
+
 ### 2026-05-06 (Vocabulary Expansion - 20 New Entries, Batch 96)
 Added 20 new dictionary entries (IDs 26941-26960) from candidate_words.json. Mixed vocabulary across food, daily life, culture, society, language, nature, and health.
 
