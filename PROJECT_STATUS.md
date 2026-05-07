@@ -69,6 +69,21 @@ Added 22 new dictionary entries (IDs 27141-27162) from candidate_words.json. Div
 
 Total entries: 26,932 → 26,954.
 
+### 2026-05-07 (Vocabulary Expansion - 17 New Entries, Batch 105)
+Added 17 new dictionary entries (IDs 27163-27180) from candidate_words.json. Mix of useful vocabulary spanning adverbs, na-adjectives, cultural terms, and formal/academic nouns.
+
+- **Adverb (1)**: {一|ひと}つ{一|ひと}つ (one by one)
+- **Na-adjectives (5)**: {通俗的|つうぞくてき} (popular/lowbrow), {組織的|そしきてき} (organized), {実際的|じっさいてき} (practical), {習慣的|しゅうかんてき} (habitual), {非効率的|ひこうりつてき} (inefficient), {地域的|ちいきてき} (regional)
+- **Cultural/Food (2)**: {大判焼|おおばんや}き (filled cake), {粋人|すいじん} (sophisticate)
+- **Language/Linguistics (2)**: {定型句|ていけいく} (set phrase), {美化語|びかご} (beautifying language)
+- **Emotion/Social (2)**: {敵対心|てきたいしん} (hostility), {障害者|しょうがいしゃ} (person with disability)
+- **Formal/News (2)**: {負傷者|ふしょうしゃ} (injured person), {諸条件|しょじょうけん} (various conditions)
+- **Other (2)**: せどり (retail arbitrage), {突破力|とっぱりょく} (breakthrough ability), {可動式|かどうしき} (movable type)
+- 1 stale candidate removed (均一化する — already existed)
+- 18 candidates synced
+
+Total entries: 26,954 → 26,972.
+
 ### 2026-05-07 (Vocabulary Expansion - 30 New Entries, Batch 103)
 Added 30 new dictionary entries (IDs 27111-27140) from candidate_words.json. Diverse vocabulary covering cultural terms, daily life, food, travel, and workplace vocabulary.
 
@@ -119,23 +134,5 @@ Added 22 new dictionary entries (IDs 27063-27084) from candidate_words.json. Mix
 - 22 candidates synced
 
 Total entries: 26,854 → 26,876.
-
-### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 100)
-Added 25 new dictionary entries (IDs 27038-27062) from candidate_words.json. Diverse vocabulary across medical, cultural, legal, education, and daily life domains.
-
-- **Medical/Health (3)**: {咳止|せきど}め (cough suppressant), {気管支炎|きかんしえん} (bronchitis), {発病|はつびょう}する (to fall ill)
-- **Legal/Business (3)**: {商標権|しょうひょうけん} (trademark rights), {居住権|きょじゅうけん} (right of residence), {汚職事件|おしょくじけん} (corruption case)
-- **Culture/Tradition (3)**: {生菓子|なまがし} (fresh Japanese sweets), {障子戸|しょうじど} (shoji door), {陰暦|いんれき} (lunar calendar)
-- **Education (2)**: {全日制|ぜんにちせい} (full-time school), {夜間学校|やかんがっこう} (night school)
-- **Food/Nature (2)**: {有機食品|ゆうきしょくひん} (organic food), {青草|あおくさ} (green grass)
-- **Transportation (2)**: スクーター (scooter), {衝突事故|しょうとつじこ} (collision accident)
-- **Descriptive/Abstract (3)**: {哲学的|てつがくてき} (philosophical), {無碍|むげ} (unhindered), {遠|とお}い{昔|むかし} (distant past)
-- **People (2)**: {推薦者|すいせんしゃ} (recommender), {放火犯|ほうかはん} (arsonist)
-- **Signs/Rules (1)**: {飲酒禁止|いんしゅきんし} (no drinking allowed)
-- **Social (2)**: {例会|れいかい} (regular meeting), {飼育小屋|しいくごや} (animal shed)
-- **Verbs (2)**: {晒|さら}け{出|だ}す (to lay bare), {詠唱|えいしょう}する (to chant)
-- 25 candidates synced; 1 stale candidate removed
-
-Total entries: 26,829 → 26,854.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
