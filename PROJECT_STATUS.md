@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-07 (Vocabulary Expansion - 22 New Entries, Batch 104)
+Added 22 new dictionary entries (IDs 27141-27162) from candidate_words.json. Diverse vocabulary covering geography, law, arts, nature, linguistics, and abstract concepts.
+
+- **Geography/Nature (2)**: {祖国|そこく} (homeland), {湖面|こめん} (lake surface)
+- **Animals (2)**: {雄鹿|おじか} (stag), {雌鹿|めじか} (doe)
+- **Law/Politics (2)**: {罰則|ばっそく} (penal provisions), {非暴力|ひぼうりょく} (nonviolence)
+- **Arts (1)**: {油彩|ゆさい} (oil painting)
+- **Linguistics/Education (2)**: {旧字体|きゅうじたい} (old-form kanji), {新字体|しんじたい} (new-form kanji)
+- **Abstract/Formal (5)**: {錯誤|さくご} (error), {贈与|ぞうよ} (gift/donation), {取捨|しゅしゃ} (selection), {困苦|こんく} (hardship), {無策|むさく} (lack of policy)
+- **Culture/Sports (2)**: {構|かま}え (stance/posture), {稽古場|けいこば} (practice hall)
+- **Science/Technical (2)**: {気泡|きほう} (air bubble), {波形|はけい} (waveform)
+- **Description (2)**: まだら (mottled/spotted), {無毒|むどく} (nontoxic)
+- **Plants (1)**: {果樹|かじゅ} (fruit tree)
+- **Honorific (1)**: {閣下|かっか} (Your Excellency)
+- 22 candidates synced
+
+Total entries: 26,932 → 26,954.
+
 ### 2026-05-07 (Vocabulary Expansion - 30 New Entries, Batch 103)
 Added 30 new dictionary entries (IDs 27111-27140) from candidate_words.json. Diverse vocabulary covering cultural terms, daily life, food, travel, and workplace vocabulary.
 
@@ -119,39 +137,5 @@ Added 25 new dictionary entries (IDs 27038-27062) from candidate_words.json. Div
 - 25 candidates synced; 1 stale candidate removed
 
 Total entries: 26,829 → 26,854.
-
-### 2026-05-06 (Vocabulary Expansion - 25 New Entries, Batch 99)
-Added 25 new dictionary entries (IDs 27013-27037) from candidate_words.json. Focus on practical vocabulary across finance, politics, health, culture, and daily life.
-
-- **Finance/Business (4)**: {銀行口座|ぎんこうこうざ} (bank account), {当座預金|とうざよきん} (checking account), {貸金庫|かしきんこ} (safe deposit box), {零細企業|れいさいきぎょう} (micro enterprise)
-- **Statistics/Economics (2)**: {増加率|ぞうかりつ} (rate of increase), {減少率|げんしょうりつ} (rate of decrease)
-- **Politics/Government (1)**: {閣議決定|かくぎけってい} (cabinet decision)
-- **Health/Medical (3)**: {発病|はつびょう} (onset of illness), {毒物|どくぶつ} (toxic substance), {毒薬|どくやく} (poisonous drug)
-- **Education/Training (2)**: {講習会|こうしゅうかい} (training workshop), {悪筆|あくひつ} (bad handwriting)
-- **Daily Life/Objects (2)**: {入|い}れ{物|もの} (container), {車間|しゃかん} (following distance)
-- **Culture/Tradition (2)**: {箱庭|はこにわ} (miniature garden/sandbox game), {媒酌|ばいしゃく} (matchmaking)
-- **Descriptive (5)**: {魅惑|みわく} (fascination), {無計画|むけいかく} (unplanned), {流行遅|りゅうこうおく}れ (out of fashion), {無味無臭|むみむしゅう} (tasteless/odorless), {無味乾燥|むみかんそう} (dull/dry)
-- **Verbs (2)**: せびる (to pester for money), やみくも (reckless/blind)
-- **Children/Pediatrics (1)**: {小児|しょうに} (child - medical term)
-- **Place (1)**: {礼拝堂|らいはいどう} (chapel)
-- 24 candidates synced; 23 stale candidates removed
-
-Total entries: 26,804 → 26,829.
-
-### 2026-05-06 (Vocabulary Expansion - 27 New Entries, Batch 98)
-Added 27 new dictionary entries (IDs 26986-27012) from candidate_words.json. Focus on common suru verbs and useful loanwords for intermediate learners.
-
-- **Business/Work (4)**: {出張|しゅっちょう}する (to go on a business trip), {倒産|とうさん}する (to go bankrupt), {請求|せいきゅう}する (to bill/demand), {委任|いにん}する (to delegate)
-- **Action/Process (5)**: {設置|せっち}する (to install/establish), {発掘|はっくつ}する (to excavate/discover), {続行|ぞっこう}する (to continue/proceed), {休止|きゅうし}する (to suspend/pause), {先送|さきおく}りする (to postpone)
-- **Society/Politics (3)**: {反発|はんぱつ}する (to oppose/rebound), {停滞|ていたい}する (to stagnate), {仲裁|ちゅうさい}する (to mediate)
-- **Cognition/Emotion (2)**: {予知|よち}する (to predict), {楽観|らっかん}する (to be optimistic)
-- **Life Events (2)**: {出産|しゅっさん}する (to give birth), {歓迎|かんげい}する (to welcome)
-- **Quantity (1)**: {急増|きゅうぞう}する (to increase rapidly)
-- **Clothing/Equipment (1)**: {着脱|ちゃくだつ}する (to attach/detach)
-- **Loanwords (5)**: マニュアル (manual), ボリューム (volume), サイレン (siren), ロビー (lobby), フェンス (fence), アドレス (email address), オブジェ (art object)
-- **Culture/Education (2)**: {年号|ねんごう} (era name), {文型|ぶんけい} (sentence pattern)
-- 27 candidates synced from candidate list
-
-Total entries: 26,777 → 26,804.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
