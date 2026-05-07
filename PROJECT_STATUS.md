@@ -51,6 +51,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-07 (Vocabulary Expansion - 20 New Entries, Batch 106)
+Added 20 new dictionary entries (IDs 27181-27200) from candidate_words.json. Mix of workplace, weather, news, food, cultural, and daily life vocabulary.
+
+- **Workplace/Business (5)**: {無給休暇|むきゅうきゅうか} (unpaid leave), {臨時会議|りんじかいぎ} (emergency meeting), {定期会議|ていきかいぎ} (regular meeting), {内部情報|ないぶじょうほう} (insider information), {経済効果|けいざいこうか} (economic effect)
+- **Weather (3)**: {雷雲|らいうん} (thundercloud), {積乱雲|せきらんうん} (cumulonimbus), {秋雨前線|あきさめぜんせん} (autumn rain front)
+- **News/Disaster (2)**: {死傷者|ししょうしゃ} (casualties), {爆風|ばくふう} (blast wind)
+- **People/Culture (3)**: {創始者|そうししゃ} (founder), {口伝|くちづて} (word of mouth), {経済大国|けいざいたいこく} (economic superpower)
+- **Expressions/Verbs (2)**: {格好|かっこう}つける (to show off), {声|こえ}が{枯|か}れる (to become hoarse)
+- **Description (1)**: {最重要|さいじゅうよう} (most important)
+- **Daily Life (3)**: {向|む}かい{合|あ}わせ (facing each other), {防火扉|ぼうかとびら} (fire door), {野菜料理|やさいりょうり} (vegetable dish)
+- **Education (1)**: {学校制度|がっこうせいど} (school system)
+- 2 stale candidates removed; 20 candidates synced
+
+Total entries: 26,972 → 26,992.
+
 ### 2026-05-07 (Vocabulary Expansion - 22 New Entries, Batch 104)
 Added 22 new dictionary entries (IDs 27141-27162) from candidate_words.json. Diverse vocabulary covering geography, law, arts, nature, linguistics, and abstract concepts.
 
@@ -121,18 +136,5 @@ Added 26 new dictionary entries (IDs 27085-27110) from candidate_words.json. Foc
 - 20 stale duplicate candidates removed; 26 candidates synced
 
 Total entries: 26,876 → 26,902.
-
-### 2026-05-06 (Vocabulary Expansion - 22 New Entries, Batch 101)
-Added 22 new dictionary entries (IDs 27063-27084) from candidate_words.json. Mix of abstract nouns, practical loanwords, and culturally interesting vocabulary.
-
-- **Abstract nouns (心/力 compounds) (4)**: {競争心|きょうそうしん} (competitive spirit), {勝負心|しょうぶしん} (fighting spirit), {協調心|きょうちょうしん} (spirit of cooperation), {競争力|きょうそうりょく} (competitiveness)
-- **Loanwords (8)**: ピンポン (ping-pong/doorbell), クレーン (crane), ペダル (pedal), タキシード (tuxedo), フルネーム (full name), ラック (rack), ギャング (gang), ブルーレイ (Blu-ray)
-- **Business/Finance (3)**: {増資|ぞうし} (capital increase), {販売促進|はんばいそくしん} (sales promotion), リース (lease/wreath)
-- **Appearance/Fashion (2)**: {髪色|かみいろ} (hair color), ヘアカラー (hair dye)
-- **Daily life/Culture (3)**: {磯風|いそかぜ} (sea breeze), {竿竹|さおだけ} (bamboo pole), モーニング (morning set/morning coat)
-- **Technology (2)**: ツイートする (to tweet), {受取証|うけとりしょう} (receipt)
-- 22 candidates synced
-
-Total entries: 26,854 → 26,876.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
