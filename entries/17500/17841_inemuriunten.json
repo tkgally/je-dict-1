@@ -19,7 +19,9 @@
       "english": "Drowsy driving is extremely dangerous.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17841_inemuriunten_ex2",
@@ -27,7 +29,9 @@
       "english": "I caused an accident by dozing off at the wheel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17841_inemuriunten_ex3",
@@ -35,21 +39,43 @@
       "english": "On long-distance drives, it is important to take frequent breaks to prevent drowsy driving.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {居眠|いねむ}り (dozing, nodding off) and {運転|うんてん} (driving). Used in news reports, traffic safety campaigns, and everyday conversation.\n\nCOMMON COLLOCATIONS:\n- {居眠|いねむ}り{運転|うんてん}による{事故|じこ} (accident caused by drowsy driving)\n- {居眠|いねむ}り{運転|うんてん}を{防止|ぼうし}する (to prevent drowsy driving)\n- {居眠|いねむ}り{運転|うんてん}{防止|ぼうし}{装置|そうち} (drowsy driving prevention device)\n\nRELATED WORDS:\n- {飲酒|いんしゅ}{運転|うんてん}: drunk driving\n- {わき見|わきみ}{運転|うんてん}: distracted driving (looking away)\n- {あおり}{運転|うんてん}: tailgating / road rage driving",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01822_inemuri",
+      "reading": "いねむり",
+      "headword": "{居眠|いねむ}り",
+      "label": "dozing"
+    },
+    {
+      "type": "related",
+      "target_id": "18486_inshuunten",
+      "reading": "いんしゅうんてん",
+      "headword": "{飲酒|いんしゅ}{運転|うんてん}",
+      "label": "drunk driving"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:28:29Z",
-    "modified": "2026-03-19T04:28:29Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["transportation", "safety"]
+      "semantic": [
+        "transportation",
+        "safety"
+      ]
     }
   }
 }

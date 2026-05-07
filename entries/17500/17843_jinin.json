@@ -19,7 +19,9 @@
       "english": "To reduce personnel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17843_jinin_ex2",
@@ -27,7 +29,9 @@
       "english": "We don't have enough personnel.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17843_jinin_ex3",
@@ -35,22 +39,46 @@
       "english": "We need to increase personnel for disaster response.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{人員|じんいん} is a formal term for the number of people assigned to a task, project, or organization. Common in business, government, and military contexts.\n\nCOMMON COLLOCATIONS:\n- {人員|じんいん}{削減|さくげん}: staff reduction, downsizing\n- {人員|じんいん}{配置|はいち}: personnel deployment\n- {人員|じんいん}{不足|ぶそく}: shortage of staff\n- {人員|じんいん}{整理|せいり}: workforce restructuring\n- {人員|じんいん}を{確保|かくほ}する: to secure personnel\n\nSIMILAR WORDS:\n- {人数|にんずう}: number of people (general, everyday usage)\n- {人手|ひとで}: manpower, hands (focuses on labor availability)\n- {定員|ていいん}: capacity, fixed number of positions\n- スタッフ: staff (loanword, more casual)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03132_ninzuu",
+      "reading": "にんずう",
+      "headword": "{人数|にんずう}",
+      "label": "number of people"
+    },
+    {
+      "type": "related",
+      "target_id": "04532_teiin",
+      "reading": "ていいん",
+      "headword": "{定員|ていいん}",
+      "label": "capacity"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-04-04T01:54:53Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "domain": ["business"],
-      "semantic": ["people", "organization"]
+      "domain": [
+        "business"
+      ],
+      "semantic": [
+        "people",
+        "organization"
+      ]
     }
   }
 }

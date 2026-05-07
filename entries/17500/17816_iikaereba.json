@@ -19,7 +19,9 @@
       "english": "In other words, it means you agree.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17816_iikaereba_ex2",
@@ -27,7 +29,9 @@
       "english": "This is impossible. In other words, we need to think of another method.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17816_iikaereba_ex3",
@@ -35,21 +39,51 @@
       "english": "He has a cautious personality. To put it another way, he's the type who takes time to make decisions.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nTypically placed at the beginning of a sentence or clause to introduce a rephrasing. Often follows a period or comma after the original statement.\n\nSIMILAR EXPRESSIONS:\n- つまり: \"in short\" — summarizes rather than rephrases; more conversational\n- すなわち: \"namely\" — more formal and precise; used in academic writing\n- {換言|かんげん}すれば: \"to rephrase\" — very formal, used in academic or official writing",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03530_tsumari",
+      "reading": "つまり",
+      "headword": "つまり",
+      "label": "in short"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03367_sunawachi",
+      "reading": "すなわち",
+      "headword": "すなわち",
+      "label": "namely (formal)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:20:14Z",
-    "modified": "2026-03-19T04:20:14Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["language", "discourse"]
+      "semantic": [
+        "language",
+        "discourse"
+      ]
     }
-  }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "04595_iikaeru",
+      "reading": "いいかえる",
+      "headword": "{言|い}い{換|か}える",
+      "note": "base verb form"
+    }
+  ]
 }

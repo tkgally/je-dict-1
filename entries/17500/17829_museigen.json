@@ -19,7 +19,9 @@
       "english": "I switched to a plan with unlimited data.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17829_museigen_ex2",
@@ -27,7 +29,9 @@
       "english": "This buffet is all-you-can-eat with no time limit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17829_museigen_ex3",
@@ -35,21 +39,43 @@
       "english": "The unlimited exercise of power is not permitted.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed as a no-adjective ({無制限|むせいげん}の〜) or as a na-adjective ({無制限|むせいげん}な〜), and also as an adverb with に ({無制限|むせいげん}に). Very common in advertising and service descriptions.\n\nCOMMON COLLOCATIONS:\n- {時間|じかん}{無制限|むせいげん} (no time limit)\n- {無制限|むせいげん}プラン (unlimited plan)\n- {無制限|むせいげん}に{使|つか}える (can use without limits)\n\nSIMILAR WORDS:\n- {無限|むげん}: infinite — more abstract and philosophical\n- {制限|せいげん}なし: no restrictions — a more casual equivalent\n- {自由|じゆう}: free — implies permission rather than absence of limits",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "03375_seigen",
+      "reading": "せいげん",
+      "headword": "{制限|せいげん}",
+      "label": "restriction"
+    },
+    {
+      "type": "related",
+      "target_id": "00296_mugen",
+      "reading": "むげん",
+      "headword": "{無限|むげん}",
+      "label": "infinite"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:24:35Z",
-    "modified": "2026-03-19T04:24:35Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "adjective-na"],
+      "pos": [
+        "noun",
+        "adjective-na"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["quantity"]
+      "semantic": [
+        "quantity"
+      ]
     }
   }
 }
