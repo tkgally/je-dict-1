@@ -19,7 +19,9 @@
       "english": "I bought a polka-dot dress.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17832_mizutamamoyou_ex2",
@@ -27,7 +29,9 @@
       "english": "The white polka dots on the red fabric are cute.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17832_mizutamamoyou_ex3",
@@ -35,21 +39,43 @@
       "english": "My daughter loves polka dots and always picks polka-dot clothes and stationery.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nOften shortened to {水玉|みずたま} in casual speech: {水玉|みずたま}の{スカート} (polka-dot skirt). The full form {水玉模様|みずたまもよう} is used when specifying the pattern type more precisely.\n\nCOMMON COLLOCATIONS:\n- {水玉模様|みずたまもよう}の{服|ふく} (polka-dot clothes)\n- {大|おお}きな{水玉|みずたま} (large polka dots)\n- {小|ちい}さな{水玉|みずたま} (small polka dots)\n\nRELATED PATTERNS:\nOther common Japanese pattern names: {縞模様|しまもよう} (stripes), {花柄|はながら} (floral pattern), {チェック}{柄|がら} (checkered pattern).",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "26237_shimamoyou",
+      "reading": "しまもよう",
+      "headword": "{縞模様|しまもよう}",
+      "label": "stripes"
+    },
+    {
+      "type": "related",
+      "target_id": "03635_moyou",
+      "reading": "もよう",
+      "headword": "{模様|もよう}",
+      "label": "pattern"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:25:34Z",
-    "modified": "2026-03-19T04:25:34Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["fashion", "design"]
+      "semantic": [
+        "fashion",
+        "design"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "Let's leave them alone for now.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17833_sottoshiteoku_ex2",
@@ -27,7 +29,9 @@
       "english": "I left the crying child alone for a while.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17833_sottoshiteoku_ex3",
@@ -35,22 +39,45 @@
       "english": "When someone is feeling down, it's best to leave them alone rather than forcing a conversation.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA gentle expression that implies considerate non-interference. The おく part indicates doing something in advance or letting a state continue. Often used with あげる to show consideration: そっとしておいてあげる.\n\nCOMMON PATTERNS:\n- そっとしておいて (please leave me/them alone)\n- そっとしておいてあげる (to leave someone alone — with care)\n- そっとしておくのが{一番|いちばん} (it's best to leave it alone)\n\nSIMILAR WORDS:\n- {放|ほう}っておく: to leave alone — more neutral or sometimes implies neglect\n- {構|かま}わない: to not bother with — can sound more dismissive\n- {見守|みまも}る: to watch over — implies staying nearby without interfering",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "18382_houtteoku",
+      "reading": "ほうっておく",
+      "headword": "{放|ほう}っておく",
+      "label": "leave alone (neutral)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "04574_mimamoru",
+      "reading": "みまもる",
+      "headword": "{見守|みまも}る",
+      "label": "watch over"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:25:55Z",
-    "modified": "2026-03-19T04:25:55Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["expression"],
+      "pos": [
+        "expression"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "style": ["spoken"],
-      "semantic": ["interpersonal"]
+      "style": [
+        "spoken"
+      ],
+      "semantic": [
+        "interpersonal"
+      ]
     }
   }
 }

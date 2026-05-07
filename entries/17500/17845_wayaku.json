@@ -7,78 +7,6 @@
   "gloss": "Japanese translation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{和訳|わやく}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "translation into Japanese; Japanese translation",
-      "explanation": "The act of translating from a foreign language into Japanese, or the resulting translated text."
-    }
-  ],
-  "examples": [
-    {
-      "id": "17845_wayaku_ex1",
-      "japanese": "この{文|ぶん}を{和訳|わやく}してください。",
-      "english": "Please translate this sentence into Japanese.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17845_wayaku_ex2",
-      "japanese": "{英語|えいご}の{記事|きじ}の{和訳|わやく}を{読|よ}んだ。",
-      "english": "I read the Japanese translation of the English article.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "17845_wayaku_ex3",
-      "japanese": "{契約書|けいやくしょ}の{和訳|わやく}を{用意|ようい}するのに{時間|じかん}がかかった。",
-      "english": "It took time to prepare the Japanese translation of the contract.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nCan be used as a noun or as a suru verb ({和訳|わやく}する). Commonly contrasted with {英訳|えいやく} (translation into English).\n\nCOMMON COLLOCATIONS:\n- {和訳|わやく}する (to translate into Japanese)\n- {和訳|わやく}{版|ばん} (Japanese-translated version)\n- {直訳|ちょくやく}と{和訳|わやく} (literal translation and Japanese translation)\n\nSIMILAR WORDS:\n- {英訳|えいやく}: translation into English\n- {意訳|いやく}: free or liberal translation\n- {直訳|ちょくやく}: literal translation",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "target_id": "16317_eiyaku",
-      "reading": "えいやく",
-      "headword": "{英訳|えいやく}",
-      "label": "English translation"
-    }
-  ],
-  "metadata": {
-    "created": "2026-03-19T06:58:32Z",
-    "modified": "2026-05-03T08:15:02Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "language",
-        "translation"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -166,5 +94,87 @@
         "negative": "{和訳|わやく}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "translation into Japanese; Japanese translation",
+      "explanation": "The act of translating from a foreign language into Japanese, or the resulting translated text."
+    }
+  ],
+  "examples": [
+    {
+      "id": "17845_wayaku_ex1",
+      "japanese": "この{文|ぶん}を{和訳|わやく}してください。",
+      "english": "Please translate this sentence into Japanese.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17845_wayaku_ex2",
+      "japanese": "{英語|えいご}の{記事|きじ}の{和訳|わやく}を{読|よ}んだ。",
+      "english": "I read the Japanese translation of the English article.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "17845_wayaku_ex3",
+      "japanese": "{契約書|けいやくしょ}の{和訳|わやく}を{用意|ようい}するのに{時間|じかん}がかかった。",
+      "english": "It took time to prepare the Japanese translation of the contract.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nCan be used as a noun or as a suru verb ({和訳|わやく}する). Commonly contrasted with {英訳|えいやく} (translation into English).\n\nCOMMON COLLOCATIONS:\n- {和訳|わやく}する (to translate into Japanese)\n- {和訳|わやく}{版|ばん} (Japanese-translated version)\n- {直訳|ちょくやく}と{和訳|わやく} (literal translation and Japanese translation)\n\nSIMILAR WORDS:\n- {英訳|えいやく}: translation into English\n- {意訳|いやく}: free or liberal translation\n- {直訳|ちょくやく}: literal translation",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "16317_eiyaku",
+      "reading": "えいやく",
+      "headword": "{英訳|えいやく}",
+      "label": "English translation"
+    },
+    {
+      "type": "related",
+      "target_id": "17846_iyaku",
+      "reading": "いやく",
+      "headword": "{意訳|いやく}",
+      "label": "free translation"
+    },
+    {
+      "type": "related",
+      "target_id": "13629_chokuyaku",
+      "reading": "ちょくやく",
+      "headword": "{直訳|ちょくやく}",
+      "label": "literal translation"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-19T06:58:32Z",
+    "modified": "2026-05-07T08:09:41Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "language",
+        "translation"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

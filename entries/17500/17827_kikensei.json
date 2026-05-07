@@ -19,7 +19,9 @@
       "english": "The risk is high.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17827_kikensei_ex2",
@@ -27,7 +29,9 @@
       "english": "This medicine has a risk of side effects.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "17827_kikensei_ex3",
@@ -35,21 +39,42 @@
       "english": "Experts issued a warning about the risk of a tsunami caused by the earthquake.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{危険性|きけんせい} adds the suffix {性|せい} (nature, quality) to {危険|きけん} (danger), making it refer to the degree or likelihood of danger rather than danger itself. Common in news, reports, and formal discussions.\n\nCOMMON COLLOCATIONS:\n- {危険性|きけんせい}が{高|たか}い / {低|ひく}い (the risk is high / low)\n- {危険性|きけんせい}がある (there is a risk)\n- {危険性|きけんせい}を{指摘|してき}する (to point out a risk)\n- {危険性|きけんせい}を{認識|にんしき}する (to recognize the risk)\n\nSIMILAR WORDS:\n- {危険|きけん}: danger — the state of being dangerous, more concrete\n- リスク: risk — loanword, commonly used in business contexts\n- {恐|おそ}れ: fear/risk — often used in the pattern 〜の{恐|おそ}れがある (there is a risk of)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01141_kiken",
+      "reading": "きけん",
+      "headword": "{危険|きけん}",
+      "label": "danger"
+    },
+    {
+      "type": "synonym",
+      "target_id": "06752_risuku",
+      "reading": "りすく",
+      "headword": "リスク",
+      "label": "risk (loanword)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T04:23:59Z",
-    "modified": "2026-03-19T04:23:59Z",
+    "modified": "2026-05-07T08:09:41Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["safety"]
+      "semantic": [
+        "safety"
+      ]
     }
   }
 }
