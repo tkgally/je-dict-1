@@ -39,10 +39,32 @@
     }
   ],
   "notes": "USAGE:\nOften abbreviated as {原発|げんぱつ} in everyday speech and media. A major topic in Japanese politics and society, especially since the 2011 Fukushima nuclear accident.\n\nCOMMON COLLOCATIONS:\n- {原子力発電所|げんしりょくはつでんしょ} (nuclear power plant, often abbreviated {原発|げんぱつ})\n- {原子力発電|げんしりょくはつでん}の{再稼働|さいかどう} (restart of nuclear power generation)\n- {原子力発電|げんしりょくはつでん}に{反対|はんたい}する (to oppose nuclear power)\n\nRELATED WORDS:\n- {火力発電|かりょくはつでん}: thermal power generation\n- {核燃料|かくねんりょう}: nuclear fuel\n- {原発|げんぱつ}: nuclear power plant (abbreviation)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "17881_karyokuhatsuden",
+      "reading": "かりょくはつでん",
+      "headword": "{火力発電|かりょくはつでん}",
+      "label": "thermal power generation"
+    },
+    {
+      "type": "related",
+      "target_id": "04312_hatsuden",
+      "reading": "はつでん",
+      "headword": "{発電|はつでん}",
+      "label": "power generation"
+    },
+    {
+      "type": "related",
+      "target_id": "11943_genpatsu",
+      "reading": "げんぱつ",
+      "headword": "{原発|げんぱつ}",
+      "label": "nuclear power plant (abbrev.)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T08:32:25Z",
-    "modified": "2026-03-19T08:32:25Z",
+    "modified": "2026-05-07T09:10:12Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
