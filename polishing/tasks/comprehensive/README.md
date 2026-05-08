@@ -1,6 +1,6 @@
 # Comprehensive Polish
 
-The default ongoing-improvement task for je-dict-1. Each session works through a small batch of entries (3–5), applying a tiered checklist that covers everything from schema validity to note quality, and logs longer-term observations for follow-up.
+The default ongoing-improvement task for je-dict-1. Each session works through 20–30 entries (targeting roughly 70% context use), applying a tiered checklist that covers everything from schema validity to **full inline link coverage on every Japanese word in both examples and notes** to note quality, and logs longer-term observations for follow-up.
 
 See `prompts/comprehensive_polish.md` for the full instructions and `.claude/skills/polish-entries/SKILL.md` for the underlying quality standards.
 

@@ -14,12 +14,13 @@ When a polishing session starts, read this skill, then read the specific prompt 
 `prompts/comprehensive_polish.md` is the standing improvement task. Each session:
 
 1. Reads `polishing/tasks/comprehensive/progress.txt` for the next entry ID.
-2. Processes up to 5 entries, applying a tiered checklist (tier 1 must-do, tier 2 should-do, tier 3 nice-to-have).
-3. For each entry, also checks **back-link symmetry on direct neighbors** — adds a back-link on the linked entry where appropriate, but does **not** recurse.
-4. Logs words found in examples/notes that lack entries to `candidate_words.json` (these become highest-priority candidates).
-5. Logs systemic patterns and longer-horizon ideas to `polishing/observations.md`.
-6. Writes a session log to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`.
-7. Runs `make build`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md`.
+2. Processes **20–30 entries** (target ~70% context use), applying a tiered checklist (tier 1 required-for-every-entry, tier 2 should-do judgment items, tier 3 nice-to-have polish).
+3. For each entry, ensures **full inline link coverage** on every Japanese word in both examples AND notes (tier 1 requirement). Words without entries get `noentry` markers and are added to candidates.
+4. For each entry, checks **back-link symmetry on direct neighbors** — adds a back-link on the linked entry where appropriate, but does **not** recurse.
+5. Logs words found in examples/notes that lack entries to `candidate_words.json` with "seen in entry XXXXX" notes (these become highest-priority candidates).
+6. Logs systemic patterns and longer-horizon ideas to `polishing/observations.md`.
+7. Writes a session log to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`.
+8. Runs `make build`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md`.
 
 The comprehensive task subsumes the targeted polish prompts listed below. Use it unless you have a specific reason to run a focused sweep.
 

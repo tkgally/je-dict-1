@@ -7,6 +7,10 @@ description: Guidelines for adding inline cross-reference links to example sente
 
 This skill covers how to add cross-reference links within example sentences and notes. These links allow users to click on any word in an example to navigate to its dictionary entry.
 
+## Coverage policy
+
+Comprehensive polish (`prompts/comprehensive_polish.md`) requires **full inline link coverage on every Japanese word in both example sentences AND the notes field**, with `noentry` markers for words that lack entries. The rules below apply equally to Japanese text wherever it appears in an entry — there is no "examples only" carve-out anymore. The headword itself is not self-linked.
+
 ## Link Format
 
 The link format uses special Unicode delimiters:
@@ -56,16 +60,22 @@ For each word you intend to link:
 
 ## Link Guidelines
 
-### DO Link:
-- Content words (nouns, verbs, adjectives, adverbs)
-- Particles when they have dedicated entries
-- Words that appear in the dictionary
+### DO Link (every Japanese word in examples and notes):
+- Content words: nouns, verbs, adjectives, adverbs
+- Particles that have entries (は, が, を, に, で, と, から, まで, の, へ, よ, ね, etc.)
+- Demonstratives, pronouns, connectives
+- Conjugated forms — link to the dictionary form
+- Counter words attached to numerals
+- **Japanese phrases inside the notes field** — collocations, related forms, fixed expressions, contrast pairs all get the same treatment as example sentences
 
 ### DO NOT Link:
-- The headword of the entry in its own examples (no self-reference)
-- Punctuation marks (。、？！「」)
-- Words not in the dictionary - use `noentry` instead
+- The headword of the entry in its own examples or notes (no self-reference)
+- Punctuation marks (。、？！「」『』…)
+- Pattern placeholders (`〜`, `…`) — but the surrounding Japanese in a pattern like `〜に対して` should be linked
 - Names unless they have entries
+- Arabic numerals (link the attached counter, not the digit)
+
+For words that should be linked but lack an entry, use `noentry` (see below) and add the word to `candidate_words.json` with a note like "seen in entry XXXXX".
 
 ### Using `noentry`
 
@@ -76,6 +86,14 @@ For words without dictionary entries:
 ```
 
 This preserves the markup for future linking but renders as plain text.
+
+**Always pair `noentry` with a candidate**: when you mark a word `noentry`, also add it to `candidate_words.json` so the new-entry workflow can pick it up:
+
+```bash
+python3 build/manage_candidates.py add "矍鑠" "かくしゃく" "vigorous (despite age); seen in entry XXXXX"
+```
+
+This is what closes the dictionary in on itself: words that already appear get prioritized for entry creation.
 
 ## Examples
 
