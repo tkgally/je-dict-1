@@ -1,0 +1,152 @@
+## Session: Add Cross-References
+Date: 2026-05-08
+
+### prominent_see_also Added
+- 18219 ↔ 11099: 模擬試験 ↔ 模試 (full form / abbreviation)
+- 18260 ↔ 08564: 共稼ぎ ↔ 共働き (synonyms)
+- 18281 → 12419: 寄生 → 帰省 (homophone)
+- 18281 → 02598: 寄生 → 規制 (homophone)
+- 12419 → 18281: 帰省 → 寄生 (homophone back-link)
+- 02598 → 18281: 規制 → 寄生 (homophone back-link)
+- 18292 ↔ 19618: 黒砂糖 ↔ 黒糖 (full name / common alternative)
+- 18300 ↔ 03329: 造花 ↔ 増加 (homophones)
+- 18305 ↔ 13800: 休職 ↔ 給食 (homophones)
+- 18306 ↔ 13695: 治験 ↔ 知見 (homophones)
+- 18313 → 16934: 不信 → 不審 (homophone)
+- 18313 → 07771: 不信 → 不振 (homophone)
+- 16934 → 18313: 不審 → 不信 (homophone back-link)
+- 07771 → 18313: 不振 → 不信 (homophone back-link)
+- 18314 ↔ 11903: 同性 ↔ 同棲 (homophones)
+
+### cross_references Added
+- 18210 → 07580: synonym (事前 - in advance)
+- 18210 → 05734: synonym (予め - beforehand)
+- 07580 → 18210: synonym back-link
+- 05734 → 18210: synonym back-link
+- 18211 ↔ 16865: contrast (冷え性 ↔ 寒がり)
+- 18212 → 00683: synonym (後ろ - behind everyday)
+- 18212 → 02178: related (裏 - hidden side)
+- 00683 → 18212: synonym back-link
+- 18213 ↔ 04533: synonym (襟巻き ↔ マフラー)
+- 18214 ↔ 20538: antonym (往路 ↔ 復路)
+- 18214 → 02614: synonym (行き)
+- 18214 → 04111: related (往復)
+- 18216 → 03407: related (旅)
+- 18217 → 01526: related (割引)
+- 18218 → 02361: contrast (どこか)
+- 18220 → 06724: contrast (義母)
+- 18221 → 02353: synonym (穏やか)
+- 18221 → 02640: synonym (優しい)
+- 18223 → 06642: contrast (不器用)
+- 18224 → 05521: synonym (監視)
+- 18224 → 04574: contrast (見守る)
+- 18225 ↔ 14741: contrast (日本画 ↔ 洋画)
+- 18226 ↔ 20511: antonym (縦長 ↔ 横長)
+- 18227 → 09867: synonym (警備員)
+- 18230 → 01517: synonym (約束)
+- 18230 → 14178: synonym (誓い)
+- 18230 → 02698: contrast (契約)
+- 18231 ↔ 06870: contrast (所帯 ↔ 世帯)
+- 18231 → 12315: synonym (家庭)
+- 18234 → 02776: synonym (作品)
+- 18234 → 14083: synonym (著書)
+- 18237 ↔ 18238: synonym (無邪気 ↔ 純真)
+- 18238 → 08673: synonym (純粋)
+- 08673 → 18238: synonym back-link
+- 18239 → 00843: synonym (恥ずかしい)
+- 18240 → 02829: synonym (賛成)
+- 18240 → 09050: synonym (共感)
+- 18243 ↔ 06643: synonym (強情 ↔ 頑固)
+- 18245 → 02178: synonym (裏)
+- 18246 → 03017: synonym (大雪)
+- 18246 → 00040: related (吹雪)
+- 18251 → 01247: synonym (失礼)
+- 18251 → 14615: contrast (非常識)
+- 18252 → 00057: synonym (我慢)
+- 18254 ↔ 18762: synonym (感知 ↔ 検知)
+- 18254 ↔ 21208: synonym (感知 ↔ 察知)
+- 18257 → 06026: synonym (論理)
+- 18257 → 10400: synonym (道理)
+- 18258 ↔ 19651: synonym (密封 ↔ 密閉)
+- 18263 → 02088: synonym (世話)
+- 18266 → 01269: contrast (会場)
+- 18267 → 12407: synonym (巡回)
+- 18268 ↔ 08287: antonym (前売り券 ↔ 当日券)
+- 18270 → 02287: related (黙る)
+- 18273 → 01585: synonym (積極的)
+- 18274 → 11535: antonym (個室)
+- 18276 ↔ 19411: antonym (旧型 ↔ 新型)
+- 18277 → 03210: synonym (修正)
+- 18281 → 11688: antonym (共生)
+- 18282 ↔ 19946: antonym (低音 ↔ 高音)
+- 18284 → 14353: synonym (退場)
+- 18286 ↔ 10165: antonym (短時間 ↔ 長時間)
+- 18287 → 00045: related (噴火)
+- 18292 → 18293: related (角砂糖)
+- 18293 → 18292: related (黒砂糖)
+- 18297 → 18298: antonym (凡人)
+- 18297 → 09934: related (天才)
+- 18298 → 18297: antonym (秀才)
+- 18298 → 09934: antonym (天才)
+- 18302 → 16720: antonym (好評)
+- 18302 → 03586: related (評判)
+- 18305 → 04559: related (退職)
+- 18308 ↔ 20763: antonym (点線 ↔ 実線)
+- 18310 → 05954: synonym (劣等感)
+- 18314 → 13568: antonym (異性)
+
+### Entries Skipped (no cross-references needed)
+- 18215 (悠々自適): no closely related entries
+- 18222 (雲海): no closely related entries
+- 18228 (ござ): no closely related entries
+- 18232 (見損なう): no closely related entries
+- 18233 (枯らす): already has transitivity pair
+- 18235 (図解): no closely related entries
+- 18241 (善し悪し): no strong relationships
+- 18242 (一途): no target entries exist
+- 18244 (根絶): no target entries exist
+- 18247 (聞き返す): no closely related entries
+- 18248 (正夢): no target entries exist
+- 18249 (進呈): no target entries exist
+- 18250 (死別): no target entries exist
+- 18253 (人脈): no target entries exist
+- 18255 (聖地): no target entries exist
+- 18256 (しなる): no target entries exist
+- 18259 (偽名): no target entries exist
+- 18261 (主催者): no closely related entries
+- 18262 (起動): already has cross-references
+- 18264 (丸み): no closely related entries
+- 18265 (目を逸らす): no target entries exist
+- 18269 (残量): no closely related entries
+- 18271 (一団): already has cross-references
+- 18272 (億万長者): no closely related entries
+- 18275 (三連休): no closely related entries
+- 18278 (展望台): no closely related entries
+- 18279 (高圧的): no target entries exist
+- 18280 (閲覧する): no strong relationships
+- 18285 (雲行き): no target entries exist
+- 18288 (身の程): no target entries exist
+- 18289 (卓球): no closely related entries
+- 18290 (うずくまる): no target entries exist
+- 18291 (船長): no closely related entries
+- 18294 (主権): no strong relationships
+- 18295 (平易): no strong relationships
+- 18296 (裏をかく): no target entries exist
+- 18299 (残り物): no closely related entries
+- 18301 (大騒ぎ): no strong relationships
+- 18303 (愛国心): no closely related entries
+- 18304 (出願): no closely related entries
+- 18307 (骸骨): no closely related entries
+- 18309 (生垣): no closely related entries
+- 18311 (細切れ): no closely related entries
+- 18312 (至近距離): no closely related entries
+
+### Statistics
+- Entries reviewed this session: 105
+- prominent_see_also links added: 30 (15 bidirectional pairs)
+- cross_references links added: 82
+- References fixed/migrated: 0
+- Entry range: 18210 through 18314
+
+### Next Entry
+18315

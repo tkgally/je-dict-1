@@ -19,7 +19,9 @@
       "english": "I'll finish it in a short time.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18286_tanjikan_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm looking for short-hour work.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18286_tanjikan_ex3",
@@ -35,21 +39,35 @@
       "english": "The fact that we could achieve this much in such a short time is thanks to the effort of the entire team.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {短|たん} (short) + {時間|じかん} (time). Used as a noun, often followed by で (in a short time) or の (short-time ~). Very common in work contexts for part-time or reduced-hours positions.\n\nCOMMON COLLOCATIONS:\n- {短時間|たんじかん}で (in a short time)\n- {短時間|たんじかん}{勤務|きんむ} (short-hour work)\n- {短時間|たんじかん}{労働|ろうどう} (short-time work/employment)\n\nSIMILAR WORDS:\n- {長時間|ちょうじかん}: long time — the antonym\n- {短期間|たんきかん}: short period — measured in days, weeks, or months rather than hours",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "10165_choujikan",
+      "reading": "ちょうじかん",
+      "headword": "{長時間|ちょうじかん}",
+      "label": "long time"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:16:05Z",
-    "modified": "2026-03-21T01:16:05Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time"]
+      "semantic": [
+        "time"
+      ]
     }
   }
 }
