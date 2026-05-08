@@ -19,7 +19,9 @@
       "english": "I saw a Japanese painting exhibition at the art museum.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18225_nihonga_ex2",
@@ -27,7 +29,9 @@
       "english": "I'm majoring in Japanese-style painting at university.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18225_nihonga_ex3",
@@ -35,21 +39,35 @@
       "english": "Japanese-style paintings are created using natural materials such as mineral pigments and ink.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "CULTURE:\nThe term {日本画|にほんが} was coined in the Meiji period to distinguish traditional Japanese painting from newly introduced Western-style painting ({洋画|ようが}). This distinction remains important in the Japanese art world, where art departments, exhibitions, and competitions are often divided into {日本画|にほんが} and {洋画|ようが} categories.\n\nCOMMON COLLOCATIONS:\n- {日本画|にほんが}{家|か} (Japanese-style painter)\n- {日本画|にほんが}の{技法|ぎほう} (Japanese painting techniques)\n- {日本画|にほんが}{展|てん} (Japanese painting exhibition)\n- {現代|げんだい}{日本画|にほんが} (contemporary Japanese-style painting)\n\nSIMILAR WORDS:\n- {洋画|ようが}: Western-style painting — the counterpart category using oil paints, canvas, and Western techniques\n- {水墨画|すいぼくが}: ink wash painting — a specific type within {日本画|にほんが} using only black ink",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "14741_youga",
+      "reading": "ようが",
+      "headword": "{洋画|ようが}",
+      "label": "Western-style painting"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T12:23:23Z",
-    "modified": "2026-03-20T12:23:23Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["leisure"]
+      "semantic": [
+        "leisure"
+      ]
     }
   }
 }

@@ -19,7 +19,9 @@
       "english": "That child is a prodigy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18297_shuusai_ex2",
@@ -27,7 +29,9 @@
       "english": "He was a well-known prodigy even at school.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18297_shuusai_ex3",
@@ -35,7 +39,9 @@
       "english": "It was an achievement only possible because he is a born genius, not just hardworking.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nPrimarily refers to academic or intellectual brilliance rather than artistic or athletic talent. Often used to describe students who excel in school.\n\nCOMMON COLLOCATIONS:\n- {秀才|しゅうさい}タイプ (the prodigy type)\n- {秀才|しゅうさい}{肌|はだ} (of a scholarly disposition)\n\nSIMILAR WORDS:\n- {天才|てんさい}: genius — implies even higher, almost superhuman ability\n- {凡人|ぼんじん}: ordinary person — the opposite of {秀才|しゅうさい}\n- {英才|えいさい}: gifted person — more formal, often used in compounds like {英才教育|えいさいきょういく}",
@@ -46,18 +52,37 @@
       "reading": "てんさい",
       "headword": "{天才|てんさい}",
       "label": "innate genius"
+    },
+    {
+      "type": "antonym",
+      "target_id": "18298_bonjin",
+      "reading": "ぼんじん",
+      "headword": "{凡人|ぼんじん}",
+      "label": "ordinary person"
+    },
+    {
+      "type": "related",
+      "target_id": "09934_tensai",
+      "reading": "てんさい",
+      "headword": "{天才|てんさい}",
+      "label": "genius"
     }
   ],
   "metadata": {
     "created": "2026-03-21T09:04:47Z",
-    "modified": "2026-04-23T08:17:03Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person", "education"]
+      "semantic": [
+        "person",
+        "education"
+      ]
     }
   }
 }

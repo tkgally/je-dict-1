@@ -19,7 +19,9 @@
       "english": "The venue hasn't been decided yet.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18266_kaisaichi_ex2",
@@ -27,7 +29,9 @@
       "english": "It was chosen as the host city for the Olympics.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18266_kaisaichi_ex3",
@@ -35,21 +39,35 @@
       "english": "The whole world is paying attention to where the next World Cup will be held.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {開催|かいさい} (holding an event) and {地|ち} (place). Most commonly used for major events like sports tournaments, exhibitions, and international conferences.\n\nCOMMON COLLOCATIONS:\n- {開催地|かいさいち}に{選|えら}ばれる (to be selected as a host city)\n- {開催地|かいさいち}が{決|き}まる (the venue is decided)\n- {開催地|かいさいち}を{変更|へんこう}する (to change the venue)\n\nSIMILAR WORDS:\n- {会場|かいじょう}: venue — the specific building or space, not the city\n- {開催国|かいさいこく}: host country — at the national level rather than city level",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01269_kaijou",
+      "reading": "かいじょう",
+      "headword": "{会場|かいじょう}",
+      "label": "venue (building/space)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:08:48Z",
-    "modified": "2026-03-21T01:08:48Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["event"]
+      "semantic": [
+        "event"
+      ]
     }
   }
 }

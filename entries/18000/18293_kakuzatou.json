@@ -19,7 +19,9 @@
       "english": "I put a sugar cube in my coffee.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18293_kakuzatou_ex2",
@@ -27,7 +29,9 @@
       "english": "How many sugar cubes would you like?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18293_kakuzatou_ex3",
@@ -35,21 +39,35 @@
       "english": "I was surprised to hear that one bottle of juice contains the equivalent of ten sugar cubes of sugar.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {角|かく} (square, cube) + {砂糖|さとう} (sugar). Sugar cubes are often used as a unit of measurement to illustrate how much sugar is in food and drinks. Counted with {個|こ}.\n\nCOMMON COLLOCATIONS:\n- {角砂糖|かくざとう}を{入|い}れる (to add a sugar cube)\n- {角砂糖|かくざとう}～{個分|こぶん} (equivalent to ~ sugar cubes)\n\nSIMILAR WORDS:\n- {黒砂糖|くろざとう}: brown sugar — unrefined sugar with a dark color\n- {白砂糖|しろざとう}: white sugar — standard refined granulated sugar\n- グラニュー{糖|とう}: granulated sugar — fine white sugar for baking",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "18292_kurozatou",
+      "reading": "くろざとう",
+      "headword": "{黒砂糖|くろざとう}",
+      "label": "brown sugar"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:18:35Z",
-    "modified": "2026-03-21T01:18:35Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["food"]
+      "semantic": [
+        "food"
+      ]
     }
   }
 }

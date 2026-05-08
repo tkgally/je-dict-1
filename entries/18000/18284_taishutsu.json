@@ -7,69 +7,6 @@
   "gloss": "leaving; withdrawal; exit",
   "conjugation": {
     "type": "suru",
-    "prefix": "{退出|たいしゅつ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "leaving; withdrawal; exit; logging out",
-      "explanation": "The act of leaving a room, meeting, building, or online space. More formal than simply 'leaving' and often used in official or digital contexts."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18284_taishutsu_ex1",
-      "japanese": "{会議|かいぎ}から{退出|たいしゅつ}する。",
-      "english": "I leave the meeting.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18284_taishutsu_ex2",
-      "japanese": "{非常口|ひじょうぐち}から{速|すみ}やかに{退出|たいしゅつ}してください。",
-      "english": "Please exit promptly through the emergency exit.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "18284_taishutsu_ex3",
-      "japanese": "オンライン{会議|かいぎ}が{終|お}わったら、{退出|たいしゅつ}ボタンを{押|お}してください。",
-      "english": "When the online meeting is over, please press the leave button.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "USAGE:\nUsed with する to form a verb. More formal than {出|で}る and commonly appears in announcements, instructions, and digital interfaces (e.g., the \"leave meeting\" button in video conferencing).\n\nCOMMON COLLOCATIONS:\n- {退出|たいしゅつ}する (to leave, to exit)\n- {退出|たいしゅつ}ボタン (exit/leave button)\n- {途中|とちゅう}{退出|たいしゅつ} (leaving midway)\n- {強制|きょうせい}{退出|たいしゅつ} (forced exit)\n\nSIMILAR WORDS:\n- {退室|たいしつ}: leaving a room — specifically leaving a room\n- {退場|たいじょう}: exit (from a venue or stage) — used in theaters and sports\n- {退席|たいせき}: leaving one's seat — implies stepping away from a meeting or table",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-03-21T01:15:18Z",
-    "modified": "2026-03-29T03:08:58Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "movement"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -157,5 +94,72 @@
         "negative": "{退出|たいしゅつ}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "leaving; withdrawal; exit; logging out",
+      "explanation": "The act of leaving a room, meeting, building, or online space. More formal than simply 'leaving' and often used in official or digital contexts."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18284_taishutsu_ex1",
+      "japanese": "{会議|かいぎ}から{退出|たいしゅつ}する。",
+      "english": "I leave the meeting.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18284_taishutsu_ex2",
+      "japanese": "{非常口|ひじょうぐち}から{速|すみ}やかに{退出|たいしゅつ}してください。",
+      "english": "Please exit promptly through the emergency exit.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "18284_taishutsu_ex3",
+      "japanese": "オンライン{会議|かいぎ}が{終|お}わったら、{退出|たいしゅつ}ボタンを{押|お}してください。",
+      "english": "When the online meeting is over, please press the leave button.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "USAGE:\nUsed with する to form a verb. More formal than {出|で}る and commonly appears in announcements, instructions, and digital interfaces (e.g., the \"leave meeting\" button in video conferencing).\n\nCOMMON COLLOCATIONS:\n- {退出|たいしゅつ}する (to leave, to exit)\n- {退出|たいしゅつ}ボタン (exit/leave button)\n- {途中|とちゅう}{退出|たいしゅつ} (leaving midway)\n- {強制|きょうせい}{退出|たいしゅつ} (forced exit)\n\nSIMILAR WORDS:\n- {退室|たいしつ}: leaving a room — specifically leaving a room\n- {退場|たいじょう}: exit (from a venue or stage) — used in theaters and sports\n- {退席|たいせき}: leaving one's seat — implies stepping away from a meeting or table",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "14353_taijou",
+      "reading": "たいじょう",
+      "headword": "{退場|たいじょう}",
+      "label": "exit (venue/stage)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-03-21T01:15:18Z",
+    "modified": "2026-05-08T08:12:00Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "movement"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

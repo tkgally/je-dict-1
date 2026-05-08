@@ -19,7 +19,9 @@
       "english": "Having a household increases your responsibilities.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18231_shotai_ex2",
@@ -27,7 +29,9 @@
       "english": "He started a family at a young age.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18231_shotai_ex3",
@@ -35,21 +39,43 @@
       "english": "That person has started talking about nothing but domestic matters.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\n{所帯|しょたい}を{持|も}つ is a set phrase meaning to start a household or get married and settle down. The word focuses on the practical, everyday side of family life rather than the emotional bonds.\n\nCOMMON COLLOCATIONS:\n- {所帯|しょたい}を{持|も}つ (to start a household; to settle down)\n- {所帯|しょたい}じみた (domestic-looking; frumpy)\n- {所帯|しょたい}{持|も}ち (a person with a family to support)\n- {大所帯|おおじょたい} (a large group or household)\n\nNOTE ON READING:\nThe word {大所帯|おおじょたい} uses the voiced reading じょたい rather than しょたい.\n\nSIMILAR WORDS:\n- {世帯|せたい}: household — more administrative and statistical; used on official forms and in census data\n- {家庭|かてい}: home; family — emphasizes the warm, nurturing aspect of home life",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "06870_setai",
+      "reading": "せたい",
+      "headword": "{世帯|せたい}",
+      "label": "household (administrative)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "12315_katei",
+      "reading": "かてい",
+      "headword": "{家庭|かてい}",
+      "label": "home (warm/nurturing)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:42:18Z",
-    "modified": "2026-03-20T13:42:18Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["family", "general"]
+      "semantic": [
+        "family",
+        "general"
+      ]
     }
   }
 }

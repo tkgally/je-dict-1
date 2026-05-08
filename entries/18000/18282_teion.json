@@ -19,7 +19,9 @@
       "english": "His low-pitched voice is attractive.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18282_teion_ex2",
@@ -27,7 +29,9 @@
       "english": "This speaker produces good bass.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18282_teion_ex3",
@@ -35,21 +39,36 @@
       "english": "When you listen to music with deep bass, you can feel the vibrations in your body.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA compound of {低|てい} (low) + {音|おん} (sound). Used in music, audio equipment, and voice descriptions. The opposite is {高音|こうおん} (high-pitched sound).\n\nCOMMON COLLOCATIONS:\n- {低音|ていおん}の{声|こえ} (a low voice)\n- {低音|ていおん}が{響|ひび}く (the bass resonates)\n- {低音|ていおん}{域|いき} (bass range)\n- {重|おも}{低音|ていおん} (deep bass)\n\nSIMILAR WORDS:\n- {高音|こうおん}: high-pitched sound — the antonym\n- {低温|ていおん}: low temperature — a homophone with different kanji",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "19946_kouon",
+      "reading": "こうおん",
+      "headword": "{高音|こうおん}",
+      "label": "high-pitched sound"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T01:14:40Z",
-    "modified": "2026-03-21T01:14:40Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["music", "sound"]
+      "semantic": [
+        "music",
+        "sound"
+      ]
     }
   }
 }

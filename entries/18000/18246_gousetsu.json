@@ -19,7 +19,9 @@
       "english": "This year was terrible because of the heavy snowfall.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18246_gousetsu_ex2",
@@ -27,7 +29,9 @@
       "english": "In heavy-snow regions, clearing snow off roofs is essential.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18246_gousetsu_ex3",
@@ -35,21 +39,42 @@
       "english": "Record-breaking heavy snow paralyzed transportation for several days.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nFrequently appears in weather reports and news. Japan has officially designated {豪雪|ごうせつ}{地帯|ちたい} (heavy-snow zones), particularly along the Sea of Japan coast, where annual snowfall is exceptionally high.\n\nCOMMON COLLOCATIONS:\n- {豪雪|ごうせつ}{地帯|ちたい} (heavy-snow zone/region)\n- {豪雪|ごうせつ}{被害|ひがい} (damage from heavy snow)\n- {記録的|きろくてき}な{豪雪|ごうせつ} (record-breaking snowfall)\n- {豪雪|ごうせつ}に{見舞|みま}われる (to be hit by heavy snow)\n\nSIMILAR WORDS:\n- {大雪|おおゆき}: heavy snow — more everyday term for a lot of snow\n- {吹雪|ふぶき}: blizzard — specifically snow with strong wind",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "03017_ooyuki",
+      "reading": "おおゆき",
+      "headword": "{大雪|おおゆき}",
+      "label": "heavy snow (everyday)"
+    },
+    {
+      "type": "related",
+      "target_id": "00040_fubuki",
+      "reading": "ふぶき",
+      "headword": "{吹雪|ふぶき}",
+      "label": "blizzard (with wind)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T13:47:20Z",
-    "modified": "2026-03-20T13:47:20Z",
+    "modified": "2026-05-08T08:12:00Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["weather"]
+      "semantic": [
+        "weather"
+      ]
     }
   }
 }
