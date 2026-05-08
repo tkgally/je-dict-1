@@ -7,68 +7,6 @@
   "gloss": "splitting in half; going halves",
   "conjugation": {
     "type": "suru",
-    "prefix": "{折半|せっぱん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "splitting evenly; dividing in half; going halves",
-      "explanation": "Dividing something, typically a cost or expense, equally between two parties. Very commonly used when splitting a bill or sharing expenses."
-    }
-  ],
-  "examples": [
-    {
-      "id": "18510_seppan_ex1",
-      "japanese": "{費用|ひよう}を{折半|せっぱん}する。",
-      "english": "We split the cost in half.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18510_seppan_ex2",
-      "japanese": "{家賃|やちん}はルームメイトと{折半|せっぱん}している。",
-      "english": "I split the rent with my roommate.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "18510_seppan_ex3",
-      "japanese": "{旅行|りょこう}の{交通費|こうつうひ}は{二人|ふたり}で{折半|せっぱん}することにした。",
-      "english": "We decided to split the travel expenses between the two of us.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "Literally 'breaking in half.' {折半|せっぱん} always implies an exact 50-50 split between two parties.\n\nCOMMON PATTERNS:\n- {費用|ひよう}を{折半|せっぱん}する: to split the cost\n- {家賃|やちん}を{折半|せっぱん}する: to split the rent\n- ～と{折半|せっぱん}する: to go halves with someone\n\nCONTRAST WITH {割|わ}り{勘|かん}:\n- {折半|せっぱん}: general term for splitting any expense equally (rent, travel, project costs)\n- {割|わ}り{勘|かん}: specifically splitting a restaurant or drinking bill among a group (can be more than two people)\n\nUSAGE:\nCommon in both casual and business contexts. Often used for recurring shared expenses like rent or utilities, not just one-time payments.",
-  "schema_version": "2.0",
-  "metadata": {
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "general"
-      ],
-      "verb_class": "suru"
-    },
-    "created": "2026-03-22T04:37:53Z",
-    "modified": "2026-03-26T03:00:45Z"
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -156,5 +94,72 @@
         "negative": "{折半|せっぱん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "splitting evenly; dividing in half; going halves",
+      "explanation": "Dividing something, typically a cost or expense, equally between two parties. Very commonly used when splitting a bill or sharing expenses."
+    }
+  ],
+  "examples": [
+    {
+      "id": "18510_seppan_ex1",
+      "japanese": "{費用|ひよう}を{折半|せっぱん}する。",
+      "english": "We split the cost in half.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18510_seppan_ex2",
+      "japanese": "{家賃|やちん}はルームメイトと{折半|せっぱん}している。",
+      "english": "I split the rent with my roommate.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "18510_seppan_ex3",
+      "japanese": "{旅行|りょこう}の{交通費|こうつうひ}は{二人|ふたり}で{折半|せっぱん}することにした。",
+      "english": "We decided to split the travel expenses between the two of us.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Literally 'breaking in half.' {折半|せっぱん} always implies an exact 50-50 split between two parties.\n\nCOMMON PATTERNS:\n- {費用|ひよう}を{折半|せっぱん}する: to split the cost\n- {家賃|やちん}を{折半|せっぱん}する: to split the rent\n- ～と{折半|せっぱん}する: to go halves with someone\n\nCONTRAST WITH {割|わ}り{勘|かん}:\n- {折半|せっぱん}: general term for splitting any expense equally (rent, travel, project costs)\n- {割|わ}り{勘|かん}: specifically splitting a restaurant or drinking bill among a group (can be more than two people)\n\nUSAGE:\nCommon in both casual and business contexts. Often used for recurring shared expenses like rent or utilities, not just one-time payments.",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ],
+      "verb_class": "suru"
+    },
+    "created": "2026-03-22T04:37:53Z",
+    "modified": "2026-05-08T10:08:08Z"
+  },
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "08156_warikan",
+      "reading": "わりかん",
+      "headword": "{割|わ}り{勘|かん}",
+      "label": "splitting a bill"
+    }
+  ]
 }
