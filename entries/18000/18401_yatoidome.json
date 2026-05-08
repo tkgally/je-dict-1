@@ -19,7 +19,9 @@
       "english": "The contract employee had their contract not renewed.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18401_yatoidome_ex2",
@@ -27,7 +29,9 @@
       "english": "Non-renewals of contracts are increasing due to the recession.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18401_yatoidome_ex3",
@@ -35,22 +39,39 @@
       "english": "A temp worker who had worked for many years was suddenly notified of non-renewal and filed a lawsuit.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nA labor law term that became widely known during economic downturns, particularly the 2008 financial crisis. Unlike {解雇|かいこ} (dismissal/firing), {雇|やと}い{止|ど}め refers specifically to letting a contract expire without renewal — technically the employer is not \"firing\" the worker but simply not extending the contract.\n\nCOMMON COLLOCATIONS:\n- {雇|やと}い{止|ど}めにあう (to have one's contract not renewed)\n- {雇|やと}い{止|ど}めを{通告|つうこく}する (to notify of non-renewal)\n- {不当|ふとう}な{雇|やと}い{止|ど}め (unfair/wrongful non-renewal)\n- {雇|やと}い{止|ど}め{規制|きせい} (regulations on non-renewal)\n\nSIMILAR WORDS:\n- {解雇|かいこ}: Dismissal, firing — directly terminating employment, which has stronger legal protections.\n- {派遣切|はけんぎ}り: Cutting temp workers — a colloquial term for the mass non-renewal of dispatch workers.\n- リストラ: Restructuring (layoffs) — broader corporate downsizing that may include both firings and non-renewals.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04561_kaiko",
+      "reading": "かいこ",
+      "headword": "{解雇|かいこ}",
+      "label": "dismissal, firing"
+    }
+  ],
   "metadata": {
     "created": "2026-03-21T11:03:45Z",
-    "modified": "2026-03-21T11:03:45Z",
+    "modified": "2026-05-08T10:08:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["work"],
-      "domain": ["legal", "business"]
+      "semantic": [
+        "work"
+      ],
+      "domain": [
+        "legal",
+        "business"
+      ]
     }
   }
 }
