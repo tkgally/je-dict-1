@@ -19,7 +19,9 @@
       "english": "I would like to hear your opinion.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18008_kiden_ex2",
@@ -27,7 +29,9 @@
       "english": "I pray for your continued success.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18008_kiden_ex3",
@@ -35,22 +39,52 @@
       "english": "I am delighted to hear that you are in good health.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nUsed almost exclusively in formal written correspondence such as business letters, legal documents, and official notifications. Rarely used in speech. Traditionally addressed to men; for women, {貴女|きじょ} was the counterpart, though this distinction is fading.\n\nCOMMON COLLOCATIONS:\n- {貴殿|きでん}のご{意見|いけん} (your opinion)\n- {貴殿|きでん}のご{要望|ようぼう} (your request)\n- {貴殿|きでん}におかれましては (as for you — formal letter opening)\n\nSIMILAR WORDS:\n- {貴方|あなた}: you — standard polite form\n- {貴社|きしゃ}: your company — formal, used when addressing organizations\n- {各位|かくい}: everyone (formal) — used when addressing a group",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02565_anata",
+      "reading": "あなた",
+      "headword": "あなた",
+      "label": "you (standard polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "15664_kisha",
+      "reading": "きしゃ",
+      "headword": "{貴社|きしゃ}",
+      "label": "your company (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "12042_kakui",
+      "reading": "かくい",
+      "headword": "{各位|かくい}",
+      "label": "everyone (formal address)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:54:41Z",
-    "modified": "2026-03-19T11:54:41Z",
+    "modified": "2026-05-08T04:12:06Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["pronoun"],
+      "pos": [
+        "pronoun"
+      ],
       "formality": "formal",
       "politeness": "polite",
-      "semantic": ["communication"],
-      "style": ["written"]
+      "semantic": [
+        "communication"
+      ],
+      "style": [
+        "written"
+      ]
     }
   }
 }

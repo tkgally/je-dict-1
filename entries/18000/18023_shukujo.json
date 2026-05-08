@@ -16,7 +16,9 @@
       "id": "18023_shukujo_ex1",
       "japanese": "{彼女|かのじょ}は{淑女|しゅくじょ}のようにふるまった。",
       "english": "She behaved like a lady.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -24,7 +26,9 @@
       "id": "18023_shukujo_ex2",
       "japanese": "{紳士|しんし}{淑女|しゅくじょ}の{皆|みな}さま、ようこそ。",
       "english": "Ladies and gentlemen, welcome.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -32,7 +36,9 @@
       "id": "18023_shukujo_ex3",
       "japanese": "{祖母|そぼ}は{昔|むかし}から{淑女|しゅくじょ}としての{教育|きょういく}を{受|う}けてきた。",
       "english": "My grandmother was raised with the education of a lady from a young age.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -42,12 +48,39 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "formal",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     },
     "created": "2026-03-19T12:14:53Z",
-    "modified": "2026-03-29T05:14:14Z"
-  }
+    "modified": "2026-05-08T04:12:06Z"
+  },
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "18022_shinshi",
+      "reading": "しんし",
+      "headword": "{紳士|しんし}",
+      "label": "gentleman (male counterpart)"
+    },
+    {
+      "type": "related",
+      "target_id": "01617_josei",
+      "reading": "じょせい",
+      "headword": "{女性|じょせい}",
+      "label": "woman (neutral)"
+    },
+    {
+      "type": "related",
+      "target_id": "01658_fujin",
+      "reading": "ふじん",
+      "headword": "{婦人|ふじん}",
+      "label": "lady (formal)"
+    }
+  ]
 }

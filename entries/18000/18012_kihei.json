@@ -19,7 +19,9 @@
       "english": "The cavalry charged.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18012_kihei_ex2",
@@ -27,7 +29,9 @@
       "english": "Cavalry was an important fighting force on medieval battlefields.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18012_kihei_ex3",
@@ -35,21 +39,42 @@
       "english": "With the development of guns and cannons, cavalry gradually lost its role.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nAppears in historical texts, military history, fantasy fiction, and games. The related compound {騎兵|きへい}{隊|たい} (cavalry unit) is very common.\n\nCOMMON COLLOCATIONS:\n- {騎兵|きへい}{隊|たい} (cavalry unit)\n- {騎兵|きへい}{突撃|とつげき} (cavalry charge)\n- {重|じゅう}{騎兵|きへい} (heavy cavalry)\n- {軽|けい}{騎兵|きへい} (light cavalry)\n\nSIMILAR WORDS:\n- {歩兵|ほへい}: infantry — soldiers who fight on foot\n- {砲兵|ほうへい}: artillery — soldiers who operate cannons and guns",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13223_hohei",
+      "reading": "ほへい",
+      "headword": "{歩兵|ほへい}",
+      "label": "infantry"
+    },
+    {
+      "type": "contrast",
+      "target_id": "18085_houhei",
+      "reading": "ほうへい",
+      "headword": "{砲兵|ほうへい}",
+      "label": "artillery"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:56:04Z",
-    "modified": "2026-03-19T11:56:04Z",
+    "modified": "2026-05-08T04:12:06Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["person"]
+      "semantic": [
+        "person"
+      ]
     }
   }
 }

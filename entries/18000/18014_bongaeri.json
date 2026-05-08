@@ -19,7 +19,9 @@
       "english": "I plan to go home for Obon this year.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18014_bongaeri_ex2",
@@ -27,7 +29,9 @@
       "english": "The Shinkansen gets crowded during the Obon homecoming period.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "18014_bongaeri_ex3",
@@ -35,21 +39,43 @@
       "english": "To avoid the Obon homecoming rush, I decided to leave a day early.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "USAGE:\nObon (mid-August, typically August 13-16) is one of Japan's most important holiday periods. Many people return to their hometowns to visit family graves and spend time with relatives. This causes massive traffic jams and crowded transportation, similar to {正月|しょうがつ}{帰省|きせい} (New Year homecoming).\n\nCOMMON COLLOCATIONS:\n- {盆|ぼん}{帰|がえ}りラッシュ (Obon homecoming rush)\n- {盆|ぼん}{帰|がえ}りの{渋滞|じゅうたい} (Obon traffic jam)\n- {盆|ぼん}{帰|がえ}りする (to go home for Obon)\n\nSIMILAR WORDS:\n- {帰省|きせい}: homecoming — the general term for returning to one's hometown\n- {里帰|さとがえ}り: visiting one's parental home — broader, not limited to Obon",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "12419_kisei",
+      "reading": "きせい",
+      "headword": "{帰省|きせい}",
+      "label": "homecoming (general)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "17444_satogaeri",
+      "reading": "さとがえり",
+      "headword": "{里帰|さとがえ}り",
+      "label": "visiting parental home (broader)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-19T11:56:44Z",
-    "modified": "2026-03-19T11:56:44Z",
+    "modified": "2026-05-08T04:12:06Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-season", "general"]
+      "semantic": [
+        "time-season",
+        "general"
+      ]
     }
   }
 }
