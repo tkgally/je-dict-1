@@ -3,262 +3,105 @@ name: polish-entries
 description: Systematic review and improvement of dictionary entries. Use when starting a polishing session to review entries for accuracy, completeness, and consistency.
 ---
 
-# Dictionary Polishing Session
+# Dictionary Polishing
 
-This skill guides systematic review and improvement of dictionary entries. Use it to start a polishing session.
+This skill describes the polishing system used by je-dict-1. The **default ongoing task is comprehensive polish** (`prompts/comprehensive_polish.md`), which walks through entries one at a time and applies a tiered quality checklist. Several targeted polish prompts also exist for special-purpose sweeps.
 
-## Starting a Session
+When a polishing session starts, read this skill, then read the specific prompt file for the task being run.
 
-### 1. Load Current State
+## Comprehensive polish (default)
 
-Read these files to understand current progress:
+`prompts/comprehensive_polish.md` is the standing improvement task. Each session:
+
+1. Reads `polishing/tasks/comprehensive/progress.txt` for the next entry ID.
+2. Processes up to 5 entries, applying a tiered checklist (tier 1 must-do, tier 2 should-do, tier 3 nice-to-have).
+3. For each entry, also checks **back-link symmetry on direct neighbors** — adds a back-link on the linked entry where appropriate, but does **not** recurse.
+4. Logs words found in examples/notes that lack entries to `candidate_words.json` (these become highest-priority candidates).
+5. Logs systemic patterns and longer-horizon ideas to `polishing/observations.md`.
+6. Writes a session log to `polishing/sessions/comprehensive_{YYYY-MM-DD}_{NNN}.md`.
+7. Runs `make build`, commits, and creates a PR following the end-of-session workflow in `CLAUDE.md`.
+
+The comprehensive task subsumes the targeted polish prompts listed below. Use it unless you have a specific reason to run a focused sweep.
+
+## Targeted polish tasks (special-purpose)
+
+| Prompt file | Focus | Progress file |
+|---|---|---|
+| `prompts/polish_furigana_completeness.md` | Add missing furigana | `polishing/tasks/furigana-completeness/progress.txt` |
+| `prompts/polish_furigana_correctness.md` | Verify reading correctness | `polishing/tasks/furigana-correctness/progress.txt` |
+| `prompts/polish_example_sentences.md` | Example count, tier compliance, length progression | `polishing/tasks/example-sentences/progress.txt` |
+| `prompts/polish_add_inline_links.md` | Add `⟦…⟧` cross-reference links | `polishing/tasks/inline-links/progress.txt` |
+| `prompts/polish_semantic_labels.md` | Verify semantic tags | `polishing/tasks/semantic-labels/progress.txt` |
+| `prompts/polish_verb_transitivity.md` | Add transitivity tags and pair links | `polishing/tasks/verb-transitivity/progress.txt` |
+| `prompts/polish_aspect_notes.md` | Document non-obvious ている behavior | `polishing/tasks/aspect-notes/progress.txt` |
+| `prompts/expand-short-notes.md` | Expand inadequate notes | `polishing/tasks/expand-short-notes/progress.txt` |
+| `prompts/add_cross-references.md` | Add `prominent_see_also` and `cross_references` | `polishing/tasks/cross-references/` (varies) |
+| `prompts/polish_cross_model_review.md` | Apply multi-model review corrections | `polishing/tasks/cross-model-review/progress.txt` |
+
+Each targeted prompt advances its own progress pointer. They remain available for occasional focused work but are not the default workflow.
+
+## Progress files
+
+Per-task progress is a minimal text file:
+
+```
+next: 12345
+```
+
+A `last_session:` line may also be present as a hint for resumption. The format is the same across all tasks (comprehensive and targeted).
+
+## Session logs
+
+After every session, write a markdown log:
+
+```
+polishing/sessions/{task}_{YYYY-MM-DD}_{NNN}.md
+```
+
+Where `{task}` matches the task type (`comprehensive`, `furigana-completeness`, etc.) and `NNN` is the next zero-padded sequence number for that task. The log records what was processed, what changed, candidates added, observations logged, and the next entry to process.
+
+## Quality standards
+
+When polishing entries, the same quality standards used during creation apply:
+
+- All kanji have furigana in **all** fields including notes (`{漢字|かんじ}`)
+- Readings are hiragana-only (long-vowel `ー` allowed)
+- Romaji concatenates the full reading (`ketteisuru`, not `kettei_suru`)
+- POS tags use the hyphenated names (`verb-suru`, `adjective-na`, etc.)
+- All explanatory prose is in English; Japanese only appears in headwords, examples, collocations, and patterns
+- Examples have valid `sense_numbers`
+- See `entry-guidelines` skill for the full list, plus the type-specific skills (`verb-entry`, `adjective-entry`, `particle-entry`, `other-entries`)
+
+## Per-entry timestamps (CRITICAL)
+
+When you modify an entry, run `python3 build/get_timestamp.py` immediately before saving and write that exact timestamp to the `modified` field. **One entry, one timestamp** — do not reuse a timestamp across multiple entries.
+
+## Cross-reference targets that don't exist
+
+If a cross-reference points at an entry that doesn't exist yet, add the target word to candidates:
 
 ```bash
-# Required reading at session start
-cat polishing/progress.json      # See review status
-cat polishing/queue.json         # Check prioritized entries
-cat polishing/issues.json        # Review known patterns/issues
+python3 build/manage_candidates.py add "headword" "reading" "brief gloss"
 ```
 
-Also read the most recent session log in `polishing/sessions/` to get context from the previous session.
+The script checks for duplicates and refuses if the word already exists.
 
-### 2. Select Task Type
+## Polishing priority files (optional)
 
-Available review tasks (in `polishing/tasks/`):
+`build/prioritize_polishing.py` produces priority files in `polishing/priority/` (currently `cross_refs.txt`, `examples.txt`, `furigana.txt`, `notes.txt`) that order entries worst-first for the targeted polish tasks. The targeted polish prompts use these when present and fall back to sequential ID order. **Comprehensive polish does not use priority files** — it walks sequentially through the dictionary so coverage advances predictably.
 
-| Task | Focus | When to Use |
-|------|-------|-------------|
-| `full-review` | Complete entry check | General quality assurance |
-| `cross-references` | Reference validation | After batch imports |
-| `examples` | Example quality | Content improvement |
-| `notes-consistency` | Notes formatting | Standardization pass |
-| `definitions` | Definition clarity | Semantic accuracy |
-| `tags` | Tag accuracy | Metadata validation |
-| `furigana` | Furigana completeness | After new entries |
+## Long-term tracking
 
-Read the appropriate task file for detailed instructions.
+The comprehensive polish workflow logs higher-level observations to `polishing/observations.md` using tag conventions (`[pattern]`, `[wiki]`, `[article]`, `[tooling]`, `[skill]`, `[entry]`). The daily wiki-maintenance session (`planning/maintain-knowledge-base.md`) harvests this file.
 
-### 3. Select Entries
+## Parallel execution
 
-Choose entries based on priority:
+The targeted polish prompts support parallel execution when given an explicit ID range — see the "Parallel Execution Mode" section in any of the `polish_*` prompts and the "Parallel Execution" section in `CLAUDE.md`. Comprehensive polish currently runs single-agent; entry-level claim coordination for parallel comprehensive polish is planned but not yet implemented.
 
-1. **High priority**: Entries in `queue.json` high_priority
-2. **Medium priority**: Entries never reviewed
-3. **Low priority**: Entries with stale reviews (>90 days)
-4. **Random sampling**: 5% of reviewed entries for spot-checks
+## Important reminders
 
-Default batch size: 20 entries per session.
-
-## Session Workflow
-
-### Phase 1: Review Entries
-
-For each entry in the batch:
-
-1. Read the entry file
-2. Apply the task-specific checklist
-3. **Verify metadata tags are accurate**:
-   - semantic tags must match the word's actual meaning (not template defaults like "building"/"transportation" on unrelated words)
-   - formality and politeness reflect the word's inherent register
-4. **Check example sentences** against the `example-sentences` skill requirements:
-   - Verify minimum count for the entry's tier (5 for basic/core, 3 for general)
-   - Verify vocabulary restrictions for basic/core tier examples
-   - Verify progressive length (shorter to longer)
-   - Add, revise, or reorder examples as needed
-5. Make other improvements directly to the entry
-6. **CRITICAL: Update `modified` timestamp for EACH entry individually**:
-   ```bash
-   python3 build/get_timestamp.py  # Run IMMEDIATELY BEFORE saving each entry
-   ```
-   Every modified entry must have its own unique timestamp. Do NOT cache or reuse timestamps across entries.
-7. Record the review in your session notes
-
-### Phase 2: Record Changes
-
-Track all changes made:
-
-```json
-{
-  "entry_id": "00100_example",
-  "reviewed_at": "2026-01-20T10:00:00Z",
-  "status": "current",
-  "changes": [
-    "Added missing furigana to headword",
-    "Reformatted notes with section headers"
-  ],
-  "issues": [],
-  "notes": "Good entry, minor formatting fixes"
-}
-```
-
-### Phase 3: Update Tracking Files
-
-At session end, update:
-
-1. **progress.json**: Add/update entry records, update statistics
-2. **issues.json**: Add new issues, patterns, improvement ideas
-3. **queue.json**: Remove reviewed entries, add flagged entries
-4. **sessions/**: Create session log file
-
-### Phase 4: Validate, Build, and Summarize
-
-```bash
-# Run validation
-python3 build/validate.py
-python3 build/validate_tags.py
-
-# Add conjugation to any verbs/i-adjectives missing it
-python3 build/add_conjugations.py
-python3 build/add_adjective_conjugations.py
-
-# Update indexes if entries changed
-python3 build/update_indexes.py
-
-# Build static website so user can review changes
-python3 build/build_flat.py
-```
-
-Provide summary to user including:
-- Number of entries reviewed
-- Number of entries modified
-- Types of changes made
-- Issues requiring attention
-- Patterns observed
-- Recommendations for next session
-
-## Session Log Format
-
-Create a session log file: `polishing/sessions/session_YYYYMMDD_NNN.json`
-
-Include:
-- Session metadata (started, ended, task type)
-- List of entries reviewed with status
-- Changes made with descriptions
-- Issues found
-- Patterns observed
-- Continuation notes for next session
-
-See `polishing/session_template.json` for the complete format.
-
-## Quality Standards
-
-Apply these standards during review:
-
-### Required for All Entries
-- Valid ID format matching filename
-- Headword with furigana on all kanji
-- Reading in hiragana only (long vowel marker ー is also allowed)
-- Appropriate part_of_speech
-- Clear, accurate gloss
-- Complete metadata with required tags
-
-### Content Quality
-- Definitions distinguish senses clearly
-- Examples illustrate actual usage
-- Notes provide genuinely helpful information
-- Cross-references point to valid entries (or targets added to candidates)
-- No redundant or contradictory information
-
-### Example Requirements (IMPORTANT)
-
-**See `example-sentences` skill for complete guidelines.** During polishing, verify:
-
-#### Minimum Example Counts
-| Tier | Required per Sense |
-|------|-------------------|
-| Basic | 5 examples |
-| Core | 5 examples |
-| General | 3 examples |
-
-#### Progressive Length
-Examples should progress from shorter to longer within each sense.
-
-#### Vocabulary Restrictions
-| Tier | Examples 1-2 | Examples 3+ |
-|------|-------------|-------------|
-| Basic | Basic vocab only | Basic + Core only |
-| Core | Basic + Core only | No restriction |
-| General | No restriction | No restriction |
-
-#### When Examples Don't Meet Guidelines
-1. **Insufficient count**: Add new examples to meet minimum
-2. **Wrong vocabulary tier**: Revise examples to use appropriate vocabulary
-3. **No length progression**: Reorder or revise examples
-4. **Missing sense coverage**: Add examples for uncovered senses
-
-**Note:** Existing examples should be preserved if they are high quality. Add to them rather than replacing unless there are quality issues.
-
-### Cross-Reference Target Handling
-When a cross-reference points to an entry that does not exist yet, add the target to `candidate_words.json`:
-```bash
-python3 build/manage_candidates.py add "headword" "reading" "brief note"
-```
-The script automatically checks for duplicates and will refuse to add if the word already exists.
-
-### Consistency
-- Formatting matches project conventions
-- Tag usage aligns with taxonomy
-- Similar entries structured similarly
-- Terminology consistent across entries
-
-## Issue Tracking
-
-When you find issues:
-
-### Minor Issues (fix immediately)
-- Missing furigana
-- Formatting inconsistencies
-- Minor typos
-- **Example sentence deficiencies** (insufficient count, vocabulary tier violations, length progression issues)
-
-### Medium Issues (flag for review)
-- Questionable accuracy
-- Missing content
-- Broken references
-
-### Major Issues (add to issues.json)
-- Systematic patterns across entries
-- Schema or validation problems
-- Architectural concerns
-
-## Continuation Notes
-
-At session end, write clear continuation notes:
-
-```json
-{
-  "next_entry": "00120_next",
-  "pending_tasks": [
-    "Complete cross-reference validation for particle entries"
-  ],
-  "context_for_next_session": "Focused on verb entries. Many early entries lack TRANSITIVITY section. Consider batch update."
-}
-```
-
-## Commands Reference
-
-```bash
-# Validation
-python3 build/validate.py
-python3 build/validate_tags.py
-python3 build/verify_furigana.py <entry_id>
-
-# Indexes
-python3 build/update_indexes.py
-
-# Build (if needed for preview)
-python3 build/build_flat.py
-
-# Timestamp for modified field
-python3 build/get_timestamp.py
-```
-
-## Important Reminders
-
-1. **TIMESTAMPS ARE PER-ENTRY**: Run `get_timestamp.py` immediately before saving EACH modified entry. Never use the same timestamp for multiple entries—each needs a unique timestamp reflecting when it was actually modified.
-2. **Verify ALL fields, not just examples**: Check semantic tags match word meaning, formality/politeness are accurate
-3. **One entry at a time**: Review and edit each entry individually
-4. **Track everything**: All changes go in the session log
-5. **Validate frequently**: Run validation after each batch
-6. **Summarize for user**: Provide clear summary before any commits
-7. **Ask if unsure**: If accuracy is uncertain, flag for human review
+1. **One timestamp per entry** — run `get_timestamp.py` before saving each entry.
+2. **Don't recurse on neighbors** in comprehensive polish — direct neighbors only, no further hops.
+3. **Don't run `make build` mid-session** for parallel-mode runs; the coordinator handles it.
+4. **Always write a session log** before stopping — even short sessions.
+5. **End-of-session workflow** (build, commit including `docs/`, push, PR, CI watch, squash-merge, branch cleanup) is documented in `CLAUDE.md`. Follow it exactly.

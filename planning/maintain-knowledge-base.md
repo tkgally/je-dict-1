@@ -17,9 +17,26 @@ Also read `PROJECT_STATUS.md` for the latest project changes — new entries, po
 
 **Catch-up context**: The 16-item Enhancement Plan 2026 (`enhancement/enhancement-plan-2026-04-09.md`, tracked in `enhancement/tracking.md`) was completed in April 2026. That plan shipped the task queue, orchestrator, multi-model review pipeline, consistency checker, semantic fields/scenarios, priority polishing, and expository articles. When reflecting changes into the wiki, `topics/enhancement-plan-retrospective.md` is the best single entry point — it summarizes what was built, which wiki hypotheses were validated, and which targets remain unmet. `build/report.py` is the authoritative source for current counts.
 
-### 2. Choose session activities
+### 2. Harvest comprehensive-polish observations
 
-Each session should do **2-4 activities** from the list below. Vary the mix across sessions — don't do the same activities every night. Prioritize based on what seems most valuable given recent project changes.
+Read `polishing/observations.md`. Comprehensive-polish sessions append tagged notes there during their normal work — these are the closest the project has to a "user-supplied" research backlog.
+
+For each unprocessed observation:
+
+- `[wiki]` or `[wiki:page-name]` → integrate into the wiki (existing page or new) per the activities below
+- `[article]` → add to `planning/wiki/ideas/articles.md` (create if missing) for future expository article work
+- `[pattern]` → consider whether the pattern merits a dedicated wiki page or a note on an existing project-practices page; if it suggests concrete cleanup work, add to `planning/wiki/ideas/cleanup-backlog.md`
+- `[tooling]` → add to `planning/wiki/ideas/tooling-backlog.md`
+- `[skill]` → flag in your session log; do **not** modify skills from this session (knowledge-base only) — but record the recommendation
+- `[entry]` → add to `planning/wiki/ideas/entry-followups.md` so a future polishing session can pick it up
+
+After processing each observation (whether by acting on it or filing it into a backlog page), remove it from `polishing/observations.md`. Leave any observations you couldn't classify with a brief note appended explaining why.
+
+This harvest counts as one of the session's activities (effectively activity F: Analyze and synthesize).
+
+### 3. Choose additional session activities
+
+Each session should do **2-4 activities** from the list below in addition to the harvest. Vary the mix across sessions — don't do the same activities every night. Prioritize based on what seems most valuable given recent project changes.
 
 #### A. Sync with project changes
 - Check `PROJECT_STATUS.md` for recent changes not yet reflected in the wiki
@@ -64,7 +81,7 @@ Each session should do **2-4 activities** from the list below. Vary the mix acro
 - Document best practices discovered through research that should flow into entry creation guidelines
 - (Do NOT modify prompts or skills directly — just document recommendations in the wiki)
 
-### 3. Update the log
+### 4. Update the log
 
 Append an entry to `planning/wiki/log.md` recording what you did:
 
@@ -79,16 +96,16 @@ Append an entry to `planning/wiki/log.md` recording what you did:
 - [E] Fixed 3 broken cross-references
 ```
 
-### 4. Update the index
+### 5. Update the index
 
 If you created new pages, add them to `planning/wiki/index.md` in the appropriate section.
 
-### 5. Commit and merge
+### 6. Commit and merge
 
 After completing your changes:
 
-1. **Stage all wiki changes**: `git add planning/`
-2. **Commit**: Use a descriptive message like "wiki: research pitch accent, update project stats, fix cross-refs"
+1. **Stage wiki changes and the harvested observations file**: `git add planning/ polishing/observations.md`
+2. **Commit**: Use a descriptive message like "wiki: harvest observations, research pitch accent, update project stats"
 3. **Push** to your branch
 4. **Create PR, wait for CI, and squash-merge to main** following the standard end-of-session workflow in CLAUDE.md
 5. **Post-merge cleanup**: switch to main, pull, delete feature branch
@@ -113,7 +130,7 @@ A single well-researched page is more valuable than three shallow ones. If a res
 - Update "Last updated" dates
 
 ### What not to do
-- Don't modify dictionary entries, build scripts, or prompts — this is a knowledge-base-only session
+- Don't modify dictionary entries, build scripts, or prompts — this is a knowledge-base-only session. (The exception is removing harvested entries from `polishing/observations.md`, which is part of step 2.)
 - Don't fabricate research citations
 - Don't create pages with only a title and placeholder text — write substantive content or don't create the page yet
 - Don't duplicate information from CLAUDE.md or skills — instead, link to those and add analytical/contextual value

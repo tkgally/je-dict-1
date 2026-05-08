@@ -2,6 +2,18 @@
 
 Add new entries to the Japanese-English learner's dictionary from candidate_words.json.
 
+## Candidate Selection Priority
+
+Prefer candidates whose notes mention `seen in entry XXXXX` (or similar phrasing indicating the word appeared in an existing entry's examples or notes). These are added by the comprehensive-polish workflow and represent **internal-completeness gaps** — words the dictionary already references but does not yet define. Filling these closes the dictionary in on itself and is higher priority than adding brainstormed or corpus-harvested candidates.
+
+To find such candidates:
+
+```bash
+grep -B1 -A3 '"seen in entry' candidate_words.json | head -40
+```
+
+If you've worked through all "seen in entry" candidates, fall back to the standard order (oldest unprocessed candidates first).
+
 ## Session Workflow
 
 1. **Start**: Read PROJECT_CONTEXT_BRIEF.md for current counts and critical rules
