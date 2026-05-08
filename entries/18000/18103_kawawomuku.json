@@ -39,10 +39,25 @@
     }
   ],
   "notes": "USAGE:\nAn essential cooking vocabulary expression. The verb むく specifically means to peel by hand or with a knife. Different from {剥|は}がす, which means to peel off something stuck.\n\nCOMMON OBJECTS:\n- りんごの{皮|かわ}をむく (to peel an apple)\n- みかんの{皮|かわ}をむく (to peel a mandarin orange)\n- じゃがいもの{皮|かわ}をむく (to peel a potato)\n- {大根|だいこん}の{皮|かわ}をむく (to peel a daikon radish)\n\nTOOLS:\n- ピーラーで{皮|かわ}をむく (to peel with a peeler)\n- {包丁|ほうちょう}で{皮|かわ}をむく (to peel with a knife)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02305_muku",
+      "reading": "むく",
+      "headword": "{剥|む}く",
+      "label": "to peel (verb alone)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00081_hagasu",
+      "reading": "はがす",
+      "headword": "{剥|は}がす",
+      "label": "to peel off (stuck items)"
+    }
+  ],
   "metadata": {
     "created": "2026-03-20T02:43:03Z",
-    "modified": "2026-03-20T02:43:03Z",
+    "modified": "2026-05-08T05:05:08Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
