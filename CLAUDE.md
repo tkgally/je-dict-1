@@ -297,17 +297,20 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `fix_duplicate_ids.md` — resolve entries sharing the same 5-digit numeric ID
 
 **Polishing (progress-tracked):**
-- `polish_add_inline_links.md` — add ⟦...⟧ cross-reference links to examples/notes
-- `polish_example_sentences.md` — check example count, quality, and vocabulary tier compliance
-- `polish_furigana_completeness.md` — find and add missing furigana
-- `polish_furigana_correctness.md` — verify existing furigana readings are correct
-- `polish_semantic_labels.md` — verify semantic tags match word meanings
-- `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs
-- `expand-short-notes.md` — expand inadequate notes
-- `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior
-- `polish_cross_model_review.md` — process multi-model review reports and apply/reject corrections
+- `comprehensive_polish.md` — **DEFAULT scheduled task.** Walks entries one at a time and applies a tiered checklist that unifies all of the targeted polish work below. Up to 5 entries per session. Logs words missing entries to `candidate_words.json` and systemic observations to `polishing/observations.md`. Designed to be run repeatedly on a schedule.
+- `polish_add_inline_links.md` — add ⟦...⟧ cross-reference links to examples/notes (targeted)
+- `polish_example_sentences.md` — check example count, quality, and vocabulary tier compliance (targeted)
+- `polish_furigana_completeness.md` — find and add missing furigana (targeted)
+- `polish_furigana_correctness.md` — verify existing furigana readings are correct (targeted)
+- `polish_semantic_labels.md` — verify semantic tags match word meanings (targeted)
+- `polish_verb_transitivity.md` — add transitivity tags, notes, and pair links to verbs (targeted)
+- `expand-short-notes.md` — expand inadequate notes (targeted)
+- `polish_aspect_notes.md` — add ている documentation to verb entries with non-obvious aspect behavior (targeted)
+- `polish_cross_model_review.md` — process multi-model review reports and apply/reject corrections (targeted)
 
 Polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` (format: `next: XXXXX`). They automatically resume where the previous session left off. Each session should commit in batches and write a session log to `polishing/sessions/`. Use `prompts/resume-session.md` to resume a polishing task with full context from the previous session.
+
+**Comprehensive polish** (the default scheduled task) advances `polishing/tasks/comprehensive/progress.txt` sequentially through entry IDs. It also appends long-term observations (tagged `[pattern]`, `[wiki]`, `[article]`, `[tooling]`, `[skill]`, `[entry]`) to `polishing/observations.md`, which the daily wiki-maintenance session harvests.
 
 **Queue-based polishing**: `queue_polishing_template.md` — template for queue-based polishing prompts (claim/process/complete cycle)
 

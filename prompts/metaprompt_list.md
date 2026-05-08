@@ -35,42 +35,53 @@ Read prompts/polish_add_entries_for_noentry_example_words.md and follow the inst
 
 ## Polishing Tasks
 
-### Add inline word links
+### Comprehensive polish (DEFAULT — use this)
+```
+Read prompts/comprehensive_polish.md and follow the instructions.
+```
+
+This is the default ongoing-improvement task. Each session walks through up to 5 entries and applies a tiered checklist that unifies furigana, examples, inline links, cross-references, semantic labels, transitivity, aspect, and notes work. Designed to run repeatedly on a schedule.
+
+### Targeted polish prompts (special-purpose)
+
+The prompts below are kept for occasional focused sweeps. Most ongoing polishing should use `comprehensive_polish.md` instead.
+
+#### Add inline word links
 ```
 Read prompts/polish_add_inline_links.md and follow the instructions to add cross-reference links to example sentences and notes.
 ```
 
-### Polish example sentences
+#### Polish example sentences
 ```
 Read prompts/polish_example_sentences.md and follow the instructions to check and improve example sentence quality.
 ```
 
-### Check furigana completeness
+#### Check furigana completeness
 ```
 Read prompts/polish_furigana_completeness.md and follow the instructions to check for missing furigana on kanji.
 ```
 
-### Check furigana correctness
+#### Check furigana correctness
 ```
 Read prompts/polish_furigana_correctness.md and follow the instructions to verify that existing furigana readings are correct.
 ```
 
-### Check semantic labels
+#### Check semantic labels
 ```
 Read prompts/polish_semantic_labels.md and follow the instructions to verify semantic tags are accurate.
 ```
 
-### Expand short notes
+#### Expand short notes
 ```
 Read prompts/expand-short-notes.md and follow the instructions to expand the notes field for entries with inadequate notes.
 ```
 
-### Add aspect/ている notes to verbs
+#### Add aspect/ている notes to verbs
 ```
 Read prompts/polish_aspect_notes.md and follow the instructions to add ている documentation to verb entries with non-obvious aspect behavior.
 ```
 
-### Process multi-model review results
+#### Process multi-model review results
 ```
 Read prompts/polish_cross_model_review.md and follow the instructions to process review results and apply corrections.
 ```
@@ -232,8 +243,9 @@ Read enhancement/prompts/16_automated_orchestration.md and follow the instructio
 
 ## Notes
 
-- **One task per session** works best for polishing tasks — they use context tracking files to resume across sessions.
-- **Entry creation** can be done in batches of 30 per session (the default).
+- **Comprehensive polish** is the default scheduled task. It processes up to 5 entries per session, applying all polish dimensions, and is intended to be run repeatedly on a schedule.
+- **One task per session** still applies to the targeted polish prompts — they use context tracking files to resume across sessions.
+- **Entry creation** can be done in batches of 30 per session (the default). Candidates with "seen in entry XXXXX" notes are highest priority for new entry sessions, since they fill internal-completeness gaps surfaced during comprehensive polish.
 - After any task that modifies entries, always run `make build` or `make quick` before finishing.
-- The polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` — they automatically pick up where the previous session left off.
+- All polishing tasks track progress in `polishing/tasks/{task-name}/progress.txt` — they automatically pick up where the previous session left off.
 - **Enhancement prompts** are one-time implementation sessions. After running an enhancement prompt that creates a new polishing prompt, use the new polishing prompt's metaprompt for ongoing work.

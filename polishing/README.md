@@ -1,33 +1,55 @@
 # Dictionary Polishing System
 
-This directory contains the task-based polishing framework for je-dict-1. Each polishing task focuses on a single aspect of entry quality, allowing thorough review without overlooking issues.
+This directory contains the polishing framework for je-dict-1. The default ongoing task is **comprehensive polish** (`prompts/comprehensive_polish.md`), which walks entries one at a time and applies all quality dimensions in a single session. Several **targeted polish prompts** also exist for special-purpose sweeps.
 
 ## Design Philosophy
 
-- **One task, one focus**: Each polishing workflow checks only one specific feature per entry
-- **Semantic tasks**: These tasks require human/AI knowledge and cannot be automated
-- **Minimal progress tracking**: Only the next entry to process is recorded
-- **Nonstop workflow**: Uses context reset procedure to work continuously
+- **Comprehensive polish is the default scheduled workflow**: each session works on up to 5 entries with a tiered checklist (must-do / should-do / nice-to-have) and logs longer-term observations for follow-up.
+- **Targeted polish tasks remain available**: each targets one quality dimension (furigana, examples, inline links, etc.) and is useful for focused sweeps.
+- **Minimal progress tracking**: only the next entry to process is recorded per task.
+- **Long-term observations**: comprehensive polish appends `[pattern]`, `[wiki]`, `[article]`, `[tooling]`, `[skill]`, and `[entry]` notes to `polishing/observations.md` for the daily wiki-maintenance session to harvest.
 
 ## Directory Structure
 
 ```
 polishing/
 ├── README.md                           # This file
+├── observations.md                     # Long-term observations harvested by wiki maintenance
 ├── tasks/                              # Task-specific progress tracking
+│   ├── comprehensive/
+│   │   ├── progress.txt                # Next entry for comprehensive polish (DEFAULT TASK)
+│   │   └── README.md
 │   ├── furigana-completeness/
-│   │   └── progress.txt                # Next entry to check
+│   │   └── progress.txt                # Targeted task
 │   ├── furigana-correctness/
-│   │   └── progress.txt                # Next entry to check
+│   │   └── progress.txt                # Targeted task
 │   ├── example-sentences/
-│   │   └── progress.txt                # Next entry to check
+│   │   └── progress.txt                # Targeted task
 │   └── semantic-labels/
-│       └── progress.txt                # Next entry to check
+│       └── progress.txt                # Targeted task
+├── priority/                           # Priority-ordered entry lists for targeted tasks
+│   ├── cross_refs.txt
+│   ├── examples.txt
+│   ├── furigana.txt
+│   └── notes.txt
 └── sessions/                           # Session logs for context continuation
     └── {task}_{date}_{nnn}.md          # Session continuation notes
 ```
 
 ## Available Tasks
+
+### 0. Comprehensive Polish — DEFAULT (`prompts/comprehensive_polish.md`)
+
+Unified ongoing-improvement task. Each session processes up to 5 entries with a tiered checklist covering all quality dimensions and logs observations for long-term improvements. **This is the task to use unless you have a specific reason to run a targeted sweep.**
+
+**What it covers:**
+- Tier 1 (must-do): schema validity, furigana completeness, link/cross-ref resolution, sense_numbers, typo check
+- Tier 2 (should-do): example count and quality, note quality, tags, transitivity/aspect, cross-reference symmetry on direct neighbors
+- Tier 3 (nice-to-have): sentence naturalness, note expansion, inline word links
+
+**Side effects:**
+- Words found in examples/notes without entries → added to `candidate_words.json` (highest priority for new-entry sessions)
+- Systemic patterns and longer-horizon ideas → appended to `polishing/observations.md`
 
 ### 1. Furigana Completeness (`polish_furigana_completeness.md`)
 
@@ -104,6 +126,10 @@ Include:
 2. Create `progress.txt` with `next: 00001`
 3. Create prompt at `prompts/polish_{task_name}.md`
 4. Add task description to this README
+
+## Long-Term Observations
+
+`polishing/observations.md` is an append-only log used by the comprehensive polish workflow. Sessions add tagged observations (`[pattern]`, `[wiki]`, `[article]`, `[tooling]`, `[skill]`, `[entry]`) about issues that go beyond a single entry. The daily wiki-maintenance session (`planning/maintain-knowledge-base.md`) harvests this file: actionable items get filed into the wiki or scheduled as concrete work, and processed entries are pruned.
 
 ## Related Files
 
