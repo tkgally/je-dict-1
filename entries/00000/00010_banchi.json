@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "{番地|ばんち} is the lot/house number in the Japanese address system. Japanese addresses work differently from Western ones, typically going from large to small: prefecture → city → ward → district → block → lot number.\n\nAddress structure example:\n{東京都|とうきょうと}{渋谷区|しぶやく}{神宮前|じんぐうまえ}1{丁目|ちょうめ}2{番地|ばんち}3{号|ごう}\n(Tokyo, Shibuya Ward, Jingumae, 1-chome, 2-banchi, 3-go)\n\nRelated terms:\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧ (address)\n- {丁目|ちょうめ} (district number within a neighborhood)\n- {号|ごう} (building number within a lot)",
-  "cross_references": [],
+  "notes": "{番地|ばんち} is the lot/house number in the Japanese address system. Japanese addresses work differently from Western ones, typically going from large to small: prefecture → city → ward → district → block → lot number.\n\nAddress structure example:\n⟦{東京都|とうきょうと}→東京都：noentry⟧⟦{渋谷区|しぶやく}→渋谷区：noentry⟧⟦{神宮前|じんぐうまえ}→神宮前：noentry⟧1⟦{丁目|ちょうめ}→丁目：09491_choume⟧2{番地|ばんち}3⟦{号|ごう}→号：13040_gou⟧\n(Tokyo, Shibuya Ward, Jingumae, 1-chome, 2-banchi, 3-go)\n\nRelated terms:\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧ (address)\n- ⟦{丁目|ちょうめ}→丁目：09491_choume⟧ (district number within a neighborhood)\n- ⟦{号|ごう}→号：13040_gou⟧ (building number within a lot)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01430_juusho",
+      "reading": "じゅうしょ",
+      "headword": "住所",
+      "label": "address (general term)"
+    },
+    {
+      "type": "related",
+      "target_id": "09491_choume",
+      "reading": "ちょうめ",
+      "headword": "丁目",
+      "label": "district within a neighborhood"
+    },
+    {
+      "type": "related",
+      "target_id": "13040_gou",
+      "reading": "ごう",
+      "headword": "号",
+      "label": "building number within a lot"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-02-02T07:51:43Z",
+    "modified": "2026-05-08T14:02:32Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

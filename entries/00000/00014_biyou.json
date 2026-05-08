@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "00014_biyou_ex1",
-      "japanese": "{美容|びよう}{院|いん}⟦で→で：00502_de⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦もらった→もらう：00520_morau⟧。",
+      "japanese": "⟦{美容|びよう}{院|いん}→美容院：06319_biyouin⟧⟦で→で：00502_de⟧⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧⟦{切|き}って→切る：02693_kiru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had my hair cut at the beauty salon.",
       "notes": null,
       "has_audio": false,
@@ -50,7 +50,7 @@
     },
     {
       "id": "00014_biyou_ex4",
-      "japanese": "{美容|びよう}に{良|よ}い{食|た}べ{物|もの}を{選|えら}ぶようにしている。",
+      "japanese": "{美容|びよう}⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦を→を：00422_wo⟧⟦{選|えら}ぶ→選ぶ：00835_erabu⟧⟦ように→ように：10081_youni⟧⟦している→する：00392_suru⟧。",
       "english": "I try to choose foods that are good for beauty.",
       "notes": null,
       "has_audio": false,
@@ -60,7 +60,7 @@
     },
     {
       "id": "00014_biyou_ex5",
-      "japanese": "{健康|けんこう}と{美容|びよう}のために、{毎朝|まいあさ}{野菜|やさい}ジュースを{飲|の}む{習慣|しゅうかん}を{始|はじ}めた。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦と→と：00512_to⟧{美容|びよう}⟦の→の：09472_no⟧⟦ために→ために：noentry⟧、⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{野菜|やさい}→野菜：02265_yasai⟧⟦ジュース→ジュース：01033_juusu⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
       "english": "For my health and beauty, I started a habit of drinking vegetable juice every morning.",
       "notes": null,
       "has_audio": false,
@@ -69,11 +69,33 @@
       ]
     }
   ],
-  "notes": "{美容|びよう} relates to beauty and cosmetic care, often appearing in compound words related to the beauty industry.\n\nCommon compounds:\n- {美容|びよう}{院|いん}/{美容|びよう}{室|しつ} (beauty salon, hair salon)\n- {美容|びよう}{師|し} (beautician, hairdresser)\n- {美容|びよう}{整形|せいけい} (cosmetic surgery)\n- {美容|びよう}{液|えき} (beauty serum)\n\nContrast:\n- {美容|びよう}{院|いん} (beauty salon - typically for women) vs {理容|りよう}{院|いん} (barbershop - typically for men)\n\nRelated terms:\n- {健康|けんこう} (health) - often paired: {美容|びよう}と{健康|けんこう} (beauty and health)",
-  "cross_references": [],
+  "notes": "{美容|びよう} relates to beauty and cosmetic care, often appearing in compound words related to the beauty industry.\n\nCommon compounds:\n- ⟦{美容|びよう}{院|いん}→美容院：06319_biyouin⟧ / ⟦{美容|びよう}{室|しつ}→美容室：20238_biyoushitsu⟧ (beauty salon, hair salon)\n- ⟦{美容|びよう}{師|し}→美容師：15428_biyoushi⟧ (beautician, hairdresser)\n- {美容|びよう}⟦{整形|せいけい}→整形：09493_seikei⟧ (cosmetic surgery)\n- ⟦{美容|びよう}{液|えき}→美容液：16608_biyoueki⟧ (beauty serum)\n\nContrast:\n- ⟦{美容|びよう}{院|いん}→美容院：06319_biyouin⟧ (beauty salon - typically for women) vs ⟦{理容|りよう}{院|いん}→理容院：noentry⟧ (barbershop - typically for men)\n\nRelated terms:\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧ (health) - often paired: {美容|びよう}⟦と→と：00512_to⟧⟦{健康|けんこう}→健康：02706_kenkou⟧ (beauty and health)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06319_biyouin",
+      "reading": "びよういん",
+      "headword": "美容院",
+      "label": "beauty salon"
+    },
+    {
+      "type": "related",
+      "target_id": "15428_biyoushi",
+      "reading": "びようし",
+      "headword": "美容師",
+      "label": "beautician"
+    },
+    {
+      "type": "related",
+      "target_id": "02706_kenkou",
+      "reading": "けんこう",
+      "headword": "健康",
+      "label": "health (often paired with 美容)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-02-19T14:40:54Z",
+    "modified": "2026-05-08T14:02:32Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
