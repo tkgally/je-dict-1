@@ -4,11 +4,16 @@ The **default ongoing-improvement task** for je-dict-1. Each session walks throu
 
 This prompt is designed to be run repeatedly on a schedule. Each invocation picks up where the last one left off.
 
-## Per-session budget (hard limits)
+## Per-session budget
 
-- **Process up to 5 entries per session.** Stop early if context starts getting tight; doing 3 entries thoroughly is better than 5 superficially.
-- **No recursion when checking back-links.** Visit direct neighbors only (the entries listed in `cross_references` and `prominent_see_also`). Do **not** follow the neighbors' own links.
-- **Don't restructure entries that need major work.** If an entry is broken in a way that would consume the whole session (e.g., wrong POS, fundamentally misclassified), make any quick tier-1 fixes, log it as `[entry]` in `polishing/observations.md`, and move on.
+This prompt **errs on the side of doing more, not less**. Past sessions have stopped at 12% context use, leaving most of the available capacity unused.
+
+- **Target: keep working until you've used roughly 70% of your context window.** A typical session should process **20–30 entries**, not 3–5. If you've finished 10 entries and context still feels light, keep going.
+- **Stop earlier only if context is genuinely tight** — e.g., you're noticing tool outputs being truncated, or you've read enough large files that you're approaching the limit. Don't stop at "feels like enough" — that bias is what we're correcting.
+- **Take stock every 5 entries.** Briefly note (to yourself) how full context feels and decide: continue at full pace, slow down, or wrap up. Default to continuing.
+- **Hard cap: 30 entries per session.** Wrap up cleanly at 30 even if context is still light.
+- **No recursion when checking back-links.** Visit direct neighbors only (entries listed in `cross_references` and `prominent_see_also`). Do **not** follow the neighbors' own links.
+- **Don't restructure entries that need major work.** If an entry is broken in a way that would consume a large chunk of the session (wrong POS, fundamentally misclassified, conflated lemmata), make any quick tier-1 fixes, log it as `[entry]` in `polishing/observations.md`, and move on.
 
 ## Entry selection
 
@@ -22,18 +27,62 @@ This produces a steady forward sweep through the dictionary. When the sweep wrap
 
 For each entry, work through the three tiers below. **Do all of tier 1**, do as much of tier 2 as time allows (prioritizing the highest-impact items for that specific entry), and do tier 3 only if the entry is otherwise in good shape.
 
-### Tier 1 — must-do (mostly mechanical)
+### Tier 1 — required for every entry
+
+These items must be true for every entry you touch. Most are mechanical; the inline link work is semi-mechanical (the lookups are mechanical but word-boundary and homograph disambiguation require judgment).
 
 - [ ] **Schema valid**: `python3 build/validate.py --id <entry_id>`
 - [ ] **Furigana complete** in headword, examples, AND notes: `python3 build/verify_furigana.py <entry_id>`
 - [ ] **Reading is hiragana only** (long-vowel ー allowed)
 - [ ] **Romaji matches the full reading**, no internal underscores beyond schema's allowance
-- [ ] **All inline links `⟦…⟧` resolve** to real entries — check IDs against `build/word_id_lookup.json`
 - [ ] **All `cross_references` and `prominent_see_also` point to existing entries**
 - [ ] **Examples have valid `sense_numbers`**
 - [ ] **No obvious typos** in headword, reading, gloss, or English translations of examples
+- [ ] **FULL inline link coverage on every Japanese word in examples AND notes** — see the dedicated section below. This is the most labor-intensive tier-1 requirement and the main reason a comprehensive polish session is heavier than a targeted polish session.
 
 If you fix any tier-1 issue, run `python3 build/get_timestamp.py` and update the entry's `modified` timestamp before saving.
+
+#### Full inline link coverage (REQUIRED)
+
+**Goal**: every Japanese word in every example sentence AND every Japanese phrase inside the notes field has either a valid inline link or a `noentry` marker. No naked Japanese words anywhere except the headword itself.
+
+**Format** (from `.claude/skills/inline-word-links/SKILL.md`):
+```
+⟦{surface|reading}→baseform：entry_id⟧      # word with an entry
+⟦{surface|reading}→baseform：noentry⟧       # word without an entry
+```
+
+**What to link**:
+
+- **Every content word**: nouns, verbs, adjectives, adverbs
+- **Every particle** that has its own entry (は, が, を, に, で, と, から, まで, の, へ, よ, ね, etc.)
+- **Every demonstrative, pronoun, and connective**
+- **Words inside notes** — collocations, related forms, contrast pairs, fixed phrases. Treat any natural-language Japanese in the notes the same as example sentences.
+
+**What NOT to link**:
+
+- The headword of the entry itself, when it appears unconjugated in its own examples or notes (no self-references)
+- Pure punctuation (`。、？！「」『』…`)
+- Pattern placeholders (`〜`, `…`, etc.) — but the surrounding Japanese in a pattern like `〜に対して` should still be linked
+- Numerals written in arabic digits; counter words attached to them should still be linked
+
+**Workflow**:
+
+1. Use `build/word_id_lookup.json` to look up entry IDs by reading or headword. Open it once per session and grep / search it as you go — re-reading per word is wasteful.
+2. For homographs (e.g., きく → 聞く / 効く), pick the entry whose gloss matches the contextual meaning.
+3. For conjugated forms, link to the dictionary form (`食べました→食べる：00396_taberu`).
+4. For words not in the dictionary: mark `noentry` AND add to `candidate_words.json` (see "Words missing entries" below). Do not skip — every word must end up either linked or marked.
+5. Existing entries may already have partial linking; your job is to complete it. Do NOT remove correct links someone else added.
+
+**For new examples you add or new notes you write**: include full link coverage from the start, not as an afterthought.
+
+**Validation after editing**:
+
+```bash
+python3 build/validate.py --id <entry_id> 2>&1 | grep -i "word link"
+```
+
+This catches malformed links and IDs that don't resolve.
 
 ### Tier 2 — should-do (judgment, high-leverage)
 
@@ -51,7 +100,7 @@ If you fix any tier-1 issue, run `python3 build/get_timestamp.py` and update the
 
 - [ ] Example sentences sound natural and demonstrative; rewrite weak ones
 - [ ] Notes appropriately long for entry complexity (expand if too thin, trim if redundant)
-- [ ] **Inline word links** `⟦surface→base：entry_id⟧` added to interesting words in examples and notes — only when the linked entry already exists. Words that should have entries but don't go to candidates instead (see below).
+- [ ] When rewriting examples or notes, ensure the new content also has full inline link coverage (this is enforced as part of tier 1 — full coverage is required for the entry as a whole regardless of which tier added the text)
 
 ## Long-term tracking
 
@@ -94,23 +143,24 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
    ```
    ## Session: Comprehensive Polish
    Date: YYYY-MM-DD
-   Entries processed: ID1, ID2, ID3, ID4, ID5
+   Entries processed: 12345 through 12372 (24 entries)
 
    ### Per-entry changes
-   - 12345 (word): tier-1 fixes (furigana on note); expanded notes; added cross-ref to 67890
-   - 12346 (word): added 2 examples; back-link added on 11111
-   - ...
+   - 12345 (word): tier-1 fixes (furigana on note, full inline link coverage in examples and notes); expanded notes; added cross-ref to 67890
+   - 12346 (word): added inline links throughout notes (8 new links, 2 noentry); added 2 examples with full link coverage; back-link added on 11111
+   - 12347 (word): completed inline link coverage in notes; tier-1 only (entry was otherwise clean)
+   - ... (one bullet per entry)
 
    ### Candidates added
    - "新しい単語" (あたらしいたんご): seen in 12345 examples
-   - ...
+   - ... (each candidate added when a noentry marker was used)
 
    ### Observations logged
    - [pattern] ...
    - [wiki] ...
 
    ### Next entry
-   12350
+   12373
    ```
 3. **Append to `polishing/observations.md`** if you have observations (use the template in that file).
 4. **Run the full build**:
