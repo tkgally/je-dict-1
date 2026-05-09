@@ -170,12 +170,17 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
    This validates entries, updates indexes, and rebuilds the static site.
 5. **Commit and push** to the session's feature branch. Stage everything including build artifacts (`git add -A`), commit with a clear message, then `git push -u origin <branch>`. The PR must contain both source changes and rebuilt site files (`docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
 
-6. **Create the PR and let GitHub auto-merge it.** This is the step that previously broke the hourly Routine — every session created a PR, but none merged, so progress on `main` never advanced and subsequent sessions redid the same range. Follow the path that matches your environment (full details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
+6. **Create the PR, wait for CI, then merge it yourself.** This is the step that previously broke the hourly Routine — sessions created PRs but the merge never happened, so progress on `main` never advanced and subsequent sessions redid the same range. **Do not stop after creating the PR.** The full sequence (details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
 
    **Routine / unattended (default — `gh` is not authorized):**
-   - Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body).
-   - Then call `mcp__github__enable_pr_auto_merge` (`mergeMethod: "SQUASH"`). GitHub waits for CI and squash-merges by itself.
-   - **Stop here.** Do not poll CI, do not call `merge_pull_request` directly, and do not try to `git checkout main` or delete the feature branch — the session is running on that branch. The repo's "Automatically delete head branches" setting handles cleanup when auto-merge fires.
+   1. Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body). Note the PR number from the response URL.
+   2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool — it polls the GitHub API every 15 s and emits one status line per poll. CI for this repo finishes in ~60 s; the script gives up after 10 minutes.
+   3. **Merge** based on the helper's exit code:
+      - **Exit 0 (all checks green)**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is now done.
+      - **Exit non-zero**: leave the PR open, add a brief sentence to the session log explaining what the helper reported (failure / timeout / no checks), and stop. The curator will investigate.
+   4. **Do not** `git checkout main`, **do not** delete the feature branch — the session is running on that branch, and the repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
+
+   Do not call `mcp__github__enable_pr_auto_merge` — it requires the PR to already be in a "clean" mergeable state, which is not true immediately after pushing, so it usually rejects. Wait + merge is the reliable path.
 
    **Interactive (only when `gh` is on PATH):** use the `gh` path documented in `CLAUDE.md` (`gh pr create` → `gh pr checks --watch --fail-fast` → `gh pr merge --squash` → checkout-main cleanup).
 

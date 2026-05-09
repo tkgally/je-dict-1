@@ -436,11 +436,21 @@ There are two supported paths. **Pick the one that matches your environment** be
 
 **MCP path (REQUIRED for Routines and any unattended session where `gh` is not on PATH or not authorized):**
 
-4. **Create the PR**: call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, and a clear title and body.
-5. **Enable auto-merge**: call `mcp__github__enable_pr_auto_merge` with `mergeMethod: "SQUASH"`. GitHub will wait for CI and squash-merge automatically — no polling, no `Monitor`, no `sleep`.
-6. **Stop.** Do not poll CI status, do not call `merge_pull_request` directly, and do not attempt the cleanup below — the session is running on the feature branch and cannot switch off it. If auto-merge fails (e.g. the repo doesn't have "Allow auto-merge" enabled, or CI ends up red), the open PR will be visible to the curator on the next session and can be merged or closed manually.
+4. **Create the PR**: call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, and a clear title and body. Note the PR number from the response.
+5. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool. The script polls GitHub's check-runs API every 15 s using `$GITHUB_TOKEN`, prints one status line per poll, and exits with one of:
+   - `0` — all checks green → proceed to step 6.
+   - `1` — one or more checks failed.
+   - `2` — timed out (default 10 min) before all checks finished.
+   - `3` — auth/API error (e.g. `$GITHUB_TOKEN` missing).
+   - `4` — no checks ever appeared on the PR's head SHA.
+6. **Merge based on the exit code:**
+   - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
+   - **Exit non-zero**: leave the PR open, add a one-sentence note to the session log explaining what the helper reported, and stop. The curator (or the next scheduled session) will investigate.
+7. **Stop.** Do not attempt the cleanup section below — the session is running on the feature branch and cannot switch off it. The repo's "Automatically delete head branches" setting handles remote-branch cleanup when the merge fires.
 
-Auto-merge depends on two one-time repository settings: **Allow auto-merge** and **Automatically delete head branches**. Both must be enabled in repo Settings → General. Without auto-merge, step 5 fails. Without auto-delete, merged feature branches will accumulate and need a separate sweep.
+Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine. It requires the PR to already be in a "clean" mergeable state, which is rarely true in the few seconds between pushing and creating the PR — GitHub almost always rejects with `unstable`. Wait-then-merge via the helper script is the reliable path. (`enable_pr_auto_merge` remains usable from interactive sessions where the PR has had time to settle.)
+
+The only one-time repository setting required is **Automatically delete head branches** (Settings → General). Without it, merged feature branches will accumulate on origin and need a separate sweep.
 
 **`gh` path (interactive sessions where `gh` is on PATH and authorized):**
 
@@ -453,7 +463,7 @@ The git remote uses a local proxy, so **always pass `--repo tkgally/je-dict-1`**
 
 ### Post-merge cleanup
 
-**Routines / unattended sessions: skip this section entirely.** The session is running on the feature branch and must not `git checkout main` or delete its own branch. The repo's "Automatically delete head branches" setting handles remote-branch cleanup when auto-merge fires.
+**Routines / unattended sessions: skip this section entirely.** The session is running on the feature branch and must not `git checkout main` or delete its own branch. The repo's "Automatically delete head branches" setting handles remote-branch cleanup once `mcp__github__merge_pull_request` succeeds.
 
 **Interactive sessions** (after step 6 of the `gh` path):
 
