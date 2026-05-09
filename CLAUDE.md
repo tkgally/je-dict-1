@@ -432,14 +432,30 @@ All task prompts that create a PR must follow this complete workflow. The goal i
 
 ### PR, CI, and merge
 
-Use the `gh` CLI for GitHub operations. The git remote uses a local proxy, so **always pass `--repo tkgally/je-dict-1`** to `gh` commands. If GitHub MCP tools (`mcp__github__*`) are available, those work too.
+There are two supported paths. **Pick the one that matches your environment** before running any commands. The default for scheduled / Routine sessions is the MCP path because `gh` is not authorized in those environments.
+
+**MCP path (REQUIRED for Routines and any unattended session where `gh` is not on PATH or not authorized):**
+
+4. **Create the PR**: call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, and a clear title and body.
+5. **Enable auto-merge**: call `mcp__github__enable_pr_auto_merge` with `mergeMethod: "SQUASH"`. GitHub will wait for CI and squash-merge automatically — no polling, no `Monitor`, no `sleep`.
+6. **Stop.** Do not poll CI status, do not call `merge_pull_request` directly, and do not attempt the cleanup below — the session is running on the feature branch and cannot switch off it. If auto-merge fails (e.g. the repo doesn't have "Allow auto-merge" enabled, or CI ends up red), the open PR will be visible to the curator on the next session and can be merged or closed manually.
+
+Auto-merge depends on two one-time repository settings: **Allow auto-merge** and **Automatically delete head branches**. Both must be enabled in repo Settings → General. Without auto-merge, step 5 fails. Without auto-delete, merged feature branches will accumulate and need a separate sweep.
+
+**`gh` path (interactive sessions where `gh` is on PATH and authorized):**
+
+The git remote uses a local proxy, so **always pass `--repo tkgally/je-dict-1`** to `gh` commands.
 
 4. **Create the PR**: `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
 5. **Wait for CI** with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` — exits 0 when every check succeeds, non-zero on failure. **Do NOT wrap this in a hand-rolled `while`/`sleep`/`curl` polling loop**: `--watch` already handles the wait, and streaming loops get routed through the `Monitor` tool, which has its own permission grant and will deadlock an unattended (cron/scheduler) session if not pre-approved.
 6. **Squash-merge** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
 7. If CI fails: read logs with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat from step 5
 
-### Post-merge cleanup (MANDATORY)
+### Post-merge cleanup
+
+**Routines / unattended sessions: skip this section entirely.** The session is running on the feature branch and must not `git checkout main` or delete its own branch. The repo's "Automatically delete head branches" setting handles remote-branch cleanup when auto-merge fires.
+
+**Interactive sessions** (after step 6 of the `gh` path):
 
 8. **Switch to main and pull**: `git checkout main && git pull origin main`
 9. **Verify clean state**: `git status` should show nothing to commit
@@ -448,4 +464,4 @@ Use the `gh` CLI for GitHub operations. The git remote uses a local proxy, so **
 
 If `git status` on main shows uncommitted changes after pulling (this should not happen if build artifacts were included in the PR), run `make build`, commit, and push to main directly.
 
-**Why this matters**: The `docs/` directory is deployed via GitHub Pages. If build artifacts are not in the PR, the live site won't update after merge, and the next session starts with a dirty repository.
+**Why this matters**: The `docs/` directory is deployed via GitHub Pages. If build artifacts are not in the PR, the live site won't update after merge, and the next session starts with a dirty repository. If the PR is created but never merged (auto-merge disabled, or `gh pr merge` skipped), `polishing/tasks/*/progress.txt` on `main` doesn't advance, and the next scheduled session redoes the same range — producing duplicate, overlapping PRs.
