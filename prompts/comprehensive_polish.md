@@ -168,7 +168,16 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
    make build
    ```
    This validates entries, updates indexes, and rebuilds the static site.
-5. **Commit and push** following the **End-of-session PR and merge workflow** in `CLAUDE.md` (commit including `docs/` and other build artifacts, push to the feature branch, create a PR with `gh pr create --repo tkgally/je-dict-1 ...`, wait for CI with `--watch --fail-fast`, squash-merge, then clean up the local and remote branch).
+5. **Commit and push** to the session's feature branch. Stage everything including build artifacts (`git add -A`), commit with a clear message, then `git push -u origin <branch>`. The PR must contain both source changes and rebuilt site files (`docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`).
+
+6. **Create the PR and let GitHub auto-merge it.** This is the step that previously broke the hourly Routine — every session created a PR, but none merged, so progress on `main` never advanced and subsequent sessions redid the same range. Follow the path that matches your environment (full details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
+
+   **Routine / unattended (default — `gh` is not authorized):**
+   - Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body).
+   - Then call `mcp__github__enable_pr_auto_merge` (`mergeMethod: "SQUASH"`). GitHub waits for CI and squash-merges by itself.
+   - **Stop here.** Do not poll CI, do not call `merge_pull_request` directly, and do not try to `git checkout main` or delete the feature branch — the session is running on that branch. The repo's "Automatically delete head branches" setting handles cleanup when auto-merge fires.
+
+   **Interactive (only when `gh` is on PATH):** use the `gh` path documented in `CLAUDE.md` (`gh pr create` → `gh pr checks --watch --fail-fast` → `gh pr merge --squash` → checkout-main cleanup).
 
 ## Useful commands
 
