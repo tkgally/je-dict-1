@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-04-17
+**Last updated**: 2026-05-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,23 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-09 (Vocabulary Expansion - 20 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 20 new dictionary entries (IDs 27329-27348) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. Filling these closes internal-completeness gaps.
+
+- **Slang / people (1)**: バツニ (divorced twice — slang sibling of バツイチ)
+- **Sports / leisure (4)**: ベンチプレス (bench press), フォアボール (baseball walk / base on balls), スリーボール (3-ball count), ツーストライク (2-strike count)
+- **Clothing (2)**: カウボーイハット (cowboy hat), ウェディングドレス (wedding dress)
+- **Transportation / leisure (1)**: {手漕|てこ}ぎ (rowing by hand; rowboat-related)
+- **Kanji-radical names (2)**: てへん ({扌|てへん} hand radical), くさかんむり ({艹|くさかんむり} grass-crown radical)
+- **Food (3)**: パルメザンチーズ (Parmesan cheese), チーズフォンデュ (cheese fondue), デザートメニュー (dessert menu)
+- **Conjunctions (2)**: だけども (but, more emphatic variant of だけど), だけれど (but, slightly more formal than だけど)
+- **Counters / coins (3)**: {円玉|えんだま} (yen coin, used after a denomination), {二歩|にほ} (two steps; also the shogi nifu foul), {何歩|なんぽ} (how many steps)
+- **Technical (2)**: {符号化|ふごうか} (encoding — math/computing/info-theory term), {句読符号|くとうふごう} (punctuation marks — formal collective term)
+- 1 stale candidate removed (たち, kana variant of existing entry 01551 達/たち); 20 candidates synced
+- All 20 entries pass validation; 1 suru-verb received conjugation table; no new kanji introduced
+
+Total entries: 27,120 → 27,140.
 
 ### 2026-05-09 (Vocabulary Expansion - 46 New Entries, Internal-Completeness Batch)
 Added 46 new dictionary entries (IDs 27283-27328) from candidate_words.json. Prioritized "seen in entry" candidates — words referenced by existing entries' examples or notes but not yet defined. This closes internal-completeness gaps and lets cross-references resolve correctly.
