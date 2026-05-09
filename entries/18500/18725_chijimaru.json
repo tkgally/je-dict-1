@@ -134,7 +134,23 @@
       "notes": null
     }
   ],
-  "notes": "{縮|ちぢ}まる is an intransitive godan verb meaning something shrinks or contracts on its own.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pair: {縮|ちぢ}める (transitive, to shorten/reduce)\n\nCOMMON COLLOCATIONS:\n- {距離|きょり}が{縮|ちぢ}まる: the distance narrows\n- {差|さ}が{縮|ちぢ}まる: the gap narrows\n- {寿命|じゅみょう}が{縮|ちぢ}まる: lifespan shortens\n- {布|ぬの}が{縮|ちぢ}まる: fabric shrinks\n\nASPECT (ている):\n{縮|ちぢ}まっている indicates a resulting state — \"has shrunk\" or \"is contracted.\"\n\nUSAGE:\nUsed both literally (clothes shrinking in the wash, muscles contracting) and figuratively (gaps closing, differences narrowing).",
+  "notes": "{縮|ちぢ}まる is an intransitive godan verb meaning something shrinks or contracts on its own.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{縮|ちぢ}める→縮める：04245_chijimeru⟧ (transitive, to shorten/reduce)\n\nCOMMON COLLOCATIONS:\n- ⟦{距離|きょり}→距離：05331_kyori⟧⟦が→が：00051_ga⟧{縮|ちぢ}まる: the distance narrows\n- ⟦{差|さ}→差：02771_sa⟧⟦が→が：00051_ga⟧{縮|ちぢ}まる: the gap narrows\n- ⟦{寿命|じゅみょう}→寿命：12359_jumyou⟧⟦が→が：00051_ga⟧{縮|ちぢ}まる: lifespan shortens\n- ⟦{布|ぬの}→布：01489_nuno⟧⟦が→が：00051_ga⟧{縮|ちぢ}まる: fabric shrinks\n\nASPECT (ている):\n{縮|ちぢ}まっている indicates a resulting state — \"has shrunk\" or \"is contracted.\"\n\nUSAGE:\nUsed both literally (clothes shrinking in the wash, muscles contracting) and figuratively (gaps closing, differences narrowing).\n\nNear-synonym ⟦{縮|ちぢ}む→縮む：00027_chijimu⟧ is more general; {縮|ちぢ}まる emphasizes a more complete or natural contraction.",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "04245_chijimeru",
+      "reading": "ちぢめる",
+      "headword": "{縮|ちぢ}める",
+      "label": "transitive pair: to shrink something"
+    },
+    {
+      "type": "related",
+      "target_id": "00027_chijimu",
+      "reading": "ちぢむ",
+      "headword": "{縮|ちぢ}む",
+      "label": "near-synonym: more general"
+    }
+  ],
   "schema_version": "2.0",
   "metadata": {
     "vocabulary_tier": "general",
@@ -152,6 +168,6 @@
       "verb_class": "godan-ru"
     },
     "created": "2026-03-23T01:55:21Z",
-    "modified": "2026-03-27T00:47:55Z"
+    "modified": "2026-05-09T00:37:10Z"
   }
 }
