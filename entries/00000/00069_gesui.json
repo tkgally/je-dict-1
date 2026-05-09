@@ -37,7 +37,7 @@
     },
     {
       "id": "00069_gesui_ex3",
-      "japanese": "{下水|げすい}⟦{処理場|しょりじょう}→処理場：09653_shorijou⟧⟦で→で：00502_de⟧⟦{汚水|おすい}→汚水：09654_osui⟧⟦が→が：00051_ga⟧きれいにされる。",
+      "japanese": "{下水|げすい}⟦{処理場|しょりじょう}→処理場：09653_shorijou⟧⟦で→で：00502_de⟧⟦{汚水|おすい}→汚水：09654_osui⟧⟦が→が：00051_ga⟧⟦きれい→きれい：00717_kirei⟧⟦に→に：00314_ni⟧⟦される→する：00392_suru⟧。",
       "english": "Wastewater is cleaned at the sewage treatment plant.",
       "has_audio": false,
       "sense_numbers": [
@@ -115,18 +115,26 @@
       ]
     }
   ],
-  "notes": "{下水|げすい} covers both the wastewater itself (sense 1) and the system that carries it away (sense 2). A compound of {下|げ} (lower) + {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- {下水道|げすいどう}: sewer system\n- {下水|げすい}{処理|しょり}: sewage treatment\n- {下水|げすい}{処理場|しょりじょう}: sewage treatment plant\n- {下水|げすい}{工事|こうじ}: sewer construction\n- {下水|げすい}が{詰|つ}まる: sewer gets clogged\n\nCONTRAST:\n- {上水|じょうすい}: clean water supply (the opposite — {上|じょう} means \"upper/clean\")\n- {上水道|じょうすいどう}: water supply system\n\nNOTE:\n{下水道|げすいどう} (with {道|どう}) specifically means the sewer system/infrastructure, while {下水|げすい} alone can mean both the water and the system.",
+  "notes": "{下水|げすい} covers both the wastewater itself (sense 1) and the system that carries it away (sense 2). A compound of {下|げ} (lower) + {水|すい} (water).\n\nCOMMON COLLOCATIONS:\n- ⟦{下水道|げすいどう}→下水道：09632_gesuidou⟧: sewer system\n- {下水|げすい}⟦{処理|しょり}→処理：03251_shori⟧: sewage treatment\n- {下水|げすい}⟦{処理場|しょりじょう}→処理場：09653_shorijou⟧: sewage treatment plant\n- {下水|げすい}⟦{工事|こうじ}→工事：00244_kouji⟧: sewer construction\n- {下水|げすい}⟦が→が：00051_ga⟧⟦{詰|つ}まる→詰まる：02079_tsumaru⟧: sewer gets clogged\n\nCONTRAST:\n- ⟦{上水|じょうすい}→上水：20521_jousui⟧: clean water supply (the opposite — {上|じょう} means \"upper/clean\")\n- ⟦{上水道|じょうすいどう}→上水道：16651_jousuidou⟧: water supply system\n\nNOTE:\n⟦{下水道|げすいどう}→下水道：09632_gesuidou⟧ (with {道|どう}) specifically means the sewer system/infrastructure, while {下水|げすい} alone can mean both the water and the system.",
   "cross_references": [
     {
       "type": "antonym",
+      "target_id": "20521_jousui",
       "reading": "じょうすい",
       "headword": "{上水|じょうすい}",
       "label": "clean water supply"
+    },
+    {
+      "type": "related",
+      "target_id": "09632_gesuidou",
+      "reading": "げすいどう",
+      "headword": "{下水道|げすいどう}",
+      "label": "sewer system"
     }
   ],
   "metadata": {
     "created": "2026-01-13T11:15:03Z",
-    "modified": "2026-03-27T12:24:56Z",
+    "modified": "2026-05-09T01:15:34Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
