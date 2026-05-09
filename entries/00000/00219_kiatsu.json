@@ -36,18 +36,53 @@
       "id": "00219_kiatsu_ex3",
       "japanese": "{気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦で→で：00502_de⟧⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I get headaches from changes in air pressure.",
-      "notes": "[Note: Weather-related headaches are common in Japan]",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00219_kiatsu_ex4",
+      "japanese": "⟦{台風|たいふう}→台風：01455_taifuu⟧⟦が→が：00051_ga⟧⟦{近|ちか}づく→近づく：01958_chikazuku⟧⟦と→と：00512_to⟧{気圧|きあつ}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧。",
+      "english": "When a typhoon approaches, the atmospheric pressure drops.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00219_kiatsu_ex5",
+      "japanese": "{気圧|きあつ}⟦の→の：09472_no⟧⟦{急激|きゅうげき}な→急激：02633_kyuugeki⟧⟦{変化|へんか}→変化：03615_henka⟧⟦で→で：00502_de⟧⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧⟦{崩|くず}れた→崩れる：04248_kuzureru⟧。",
+      "english": "A sudden change in atmospheric pressure made me feel unwell.",
+      "notes": null,
       "has_audio": false,
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "WEATHER:\n・{高|こう}{気圧|きあつ} (high pressure system - brings clear weather)\n・{低|てい}{気圧|きあつ} (low pressure system - brings clouds/rain)\n・{気圧|きあつ}の{谷|たに} (pressure trough)\n・{気圧|きあつ}の{変化|へんか} (pressure change)\n\nUNITS:\n・hPa (ヘクトパスカル) - standard unit\n・1気圧 = 1013.25 hPa (standard atmospheric pressure)\n\nHEALTH:\n・{気圧|きあつ}の{変化|へんか}で{頭痛|ずつう} (weather-related headaches)\n・{気象病|きしょうびょう} (meteoropathy - illness affected by weather)\n\nSCIENCE:\n・{大気圧|たいきあつ} (atmospheric pressure - formal)\n・{気圧計|きあつけい} (barometer)",
-  "cross_references": [],
+  "notes": "Weather terms:\n- ⟦{高|こう}{気圧|きあつ}→高気圧：14808_koukiatsu⟧ (high pressure system — brings clear weather)\n- ⟦{低|てい}{気圧|きあつ}→低気圧：21712_teikiatsu⟧ (low pressure system — brings clouds/rain)\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{谷|たに}→谷：02223_tani⟧ (pressure trough)\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧ (pressure change)\n\nUnits:\n- hPa (ヘクトパスカル) — standard unit\n- 1{気圧|きあつ} = 1013.25 hPa (standard atmospheric pressure)\n\nHealth:\n- {気圧|きあつ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧⟦で→で：00502_de⟧⟦{頭痛|ずつう}→頭痛：03369_zutsuu⟧ (weather-related headaches)\n- ⟦{気象病|きしょうびょう}→気象病：noentry⟧ (meteoropathy — illness affected by weather)\n\nScientific terms:\n- ⟦{大気圧|たいきあつ}→大気圧：noentry⟧ (atmospheric pressure — formal)\n- ⟦{気圧計|きあつけい}→気圧計：noentry⟧ (barometer)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14808_koukiatsu",
+      "reading": "こうきあつ",
+      "headword": "{高気圧|こうきあつ}",
+      "label": "high-pressure system"
+    },
+    {
+      "type": "related",
+      "target_id": "21712_teikiatsu",
+      "reading": "ていきあつ",
+      "headword": "{低気圧|ていきあつ}",
+      "label": "low-pressure system"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-02-04T10:52:33Z",
+    "modified": "2026-05-09T21:11:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
