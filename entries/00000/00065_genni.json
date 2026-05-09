@@ -46,7 +46,7 @@
     },
     {
       "id": "00065_genni_ex4",
-      "japanese": "{景気|けいき}は{回復|かいふく}しているというが、{現|げん}に{給料|きゅうりょう}は{上|あ}がっていない。",
+      "japanese": "⟦{景気|けいき}→景気：02694_keiki⟧⟦は→は：00079_ha⟧⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧⟦という→という：noentry⟧⟦が→が：00051_ga⟧、{現|げん}に⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦は→は：00079_ha⟧⟦{上|あ}がって→上がる：00615_agaru⟧⟦いない→いる：00495_iru⟧。",
       "english": "They say the economy is recovering, but in reality, salaries haven't gone up.",
       "notes": null,
       "has_audio": false,
@@ -56,7 +56,7 @@
     },
     {
       "id": "00065_genni_ex5",
-      "japanese": "{安全|あんぜん}だと{言|い}われていたが、{現|げん}に{事故|じこ}が{起|お}きた。",
+      "japanese": "⟦{安全|あんぜん}→安全：01131_anzen⟧⟦だ→だ：09496_da⟧⟦と→と：00512_to⟧⟦{言|い}われて→言う：00515_iu⟧⟦いた→いる：00495_iru⟧⟦が→が：00051_ga⟧、{現|げん}に⟦{事故|じこ}→事故：00851_jiko⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
       "english": "It was said to be safe, but an accident actually happened.",
       "notes": null,
       "has_audio": false,
@@ -66,7 +66,7 @@
     },
     {
       "id": "00065_genni_ex6",
-      "japanese": "その{薬|くすり}は{効果|こうか}がある。{現|げん}に、{飲|の}み{始|はじ}めてから{症状|しょうじょう}が{良|よ}くなった。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{薬|くすり}→薬：00793_kusuri⟧⟦は→は：00079_ha⟧⟦{効果|こうか}→効果：02726_kouka⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。{現|げん}に、⟦{飲|の}み{始|はじ}めて→飲む：00322_nomu⟧⟦から→から：00504_kara⟧⟦{症状|しょうじょう}→症状：03234_shoujou⟧⟦が→が：00051_ga⟧⟦{良|よ}く→良い：02350_yoi⟧⟦なった→なる：01970_naru⟧。",
       "english": "That medicine is effective. As proof, my symptoms improved after I started taking it.",
       "notes": null,
       "has_audio": false,
@@ -75,18 +75,26 @@
       ]
     }
   ],
-  "notes": "{現|げん}に is an adverb used to emphasize the reality or actuality of something, often when countering doubt or providing evidence.\n\nCOMMON PATTERNS:\n- {現|げん}に～している (is actually doing ~)\n- {現|げん}に{存在|そんざい}する (actually exists)\n- {現|げん}に{起|お}きている (is actually happening)\n\nSIMILAR WORDS:\n- {現|げん}に vs. {実際|じっさい}に: {実際|じっさい}に is more general (\"actually, in practice\"); {現|げん}に emphasizes concrete evidence or current reality.\n- {現|げん}に vs. {本当|ほんとう}に: {本当|ほんとう}に is more emotional (\"truly, really\"); {現|げん}に is more objective and evidentiary.\n\nUSAGE:\n{現|げん}に is often used when presenting evidence to counter skepticism or to emphasize that something that might seem unlikely is in fact true.\n\nRegister: Neutral to slightly formal. Common in writing and formal speech.",
+  "notes": "{現|げん}に is an adverb used to emphasize the reality or actuality of something, often when countering doubt or providing evidence.\n\nCOMMON PATTERNS:\n- {現|げん}に～⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧ (is actually doing ~)\n- {現|げん}に⟦{存在|そんざい}→存在：03326_sonzai⟧⟦する→する：00392_suru⟧ (actually exists)\n- {現|げん}に⟦{起|お}きて→起きる：00521_okiru⟧⟦いる→いる：00495_iru⟧ (is actually happening)\n\nSIMILAR WORDS:\n- {現|げん}に vs. ⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧: ⟦{実際|じっさい}→実際：02502_jissai⟧⟦に→に：00314_ni⟧ is more general (\"actually, in practice\"); {現|げん}に emphasizes concrete evidence or current reality.\n- {現|げん}に vs. ⟦{本当|ほんとう}に→本当に：04714_hontouni⟧: ⟦{本当|ほんとう}に→本当に：04714_hontouni⟧ is more emotional (\"truly, really\"); {現|げん}に is more objective and evidentiary.\n\nUSAGE:\n{現|げん}に is often used when presenting evidence to counter skepticism or to emphasize that something that might seem unlikely is in fact true.\n\nRegister: Neutral to slightly formal. Common in writing and formal speech.",
   "cross_references": [
     {
       "type": "synonym",
-      "reading": "じっさいに",
-      "headword": "{実際|じっさい}に",
+      "target_id": "02502_jissai",
+      "reading": "じっさい",
+      "headword": "{実際|じっさい}",
       "label": "actually, in practice"
+    },
+    {
+      "type": "related",
+      "target_id": "04714_hontouni",
+      "reading": "ほんとうに",
+      "headword": "{本当|ほんとう}に",
+      "label": "really, truly"
     }
   ],
   "metadata": {
     "created": "2026-01-13T06:25:33Z",
-    "modified": "2026-02-19T14:46:38Z",
+    "modified": "2026-05-09T01:15:34Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
