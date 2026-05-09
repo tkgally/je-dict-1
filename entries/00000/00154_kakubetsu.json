@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00154_kakubetsu_ex1",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦カレー→カレー：02898_karee⟧⟦は→は：00079_ha⟧{格別|かくべつ}に⟦おいしい→おいしい：00740_oishii⟧。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦カレー→カレー：02898_karee⟧⟦は→は：00079_ha⟧{格別|かくべつ}⟦に→に：00314_ni⟧⟦おいしい→おいしい：00740_oishii⟧。",
       "english": "Today's curry is exceptionally delicious.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00154_kakubetsu_ex2",
-      "japanese": "{格別|かくべつ}⟦の→の：09472_no⟧ご⟦{配慮|はいりょ}→配慮：07700_hairyo⟧⟦を→を：00422_wo⟧⟦いただき→いただく：01326_itadaku⟧、⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧。",
+      "japanese": "{格別|かくべつ}⟦の→の：09472_no⟧⟦ご→ご：09882_go⟧⟦{配慮|はいりょ}→配慮：07700_hairyo⟧⟦を→を：00422_wo⟧⟦いただき→いただく：01326_itadaku⟧、⟦ありがとうございます→ありがとうございます：09886_arigatougozaimasu⟧。",
       "english": "Thank you for your special consideration.",
       "notes": "Formal/polite expression",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00154_kakubetsu_ex5",
-      "japanese": "{格別|かくべつ}に⟦{寒|さむ}い→寒い：00664_samui⟧⟦{朝|あさ}→朝：02277_asa⟧⟦だった→だ：09496_da⟧。",
+      "japanese": "{格別|かくべつ}⟦に→に：00314_ni⟧⟦{寒|さむ}い→寒い：00664_samui⟧⟦{朝|あさ}→朝：02277_asa⟧⟦だった→だ：09496_da⟧。",
       "english": "It was an exceptionally cold morning.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{格別|かくべつ} indicates something is notably different from or superior to the ordinary.\n\nUsage patterns:\n- {格別|かくべつ}に + adjective (exceptionally ~)\n- {格別|かくべつ}の + noun (special ~)\n- [noun]は{格別|かくべつ}だ (~ is exceptional)\n\nCommon in formal expressions:\n- {格別|かくべつ}のご{高配|こうはい} (your special patronage)\n- {格別|かくべつ}のお{引|ひ}き{立|た}て (your exceptional support)\n\nSimilar words:\n- {特別|とくべつ} (special - more common)\n- {別格|べっかく} (exceptional, in a class of its own)",
-  "cross_references": [],
+  "notes": "{格別|かくべつ} indicates something is notably different from or superior to the ordinary.\n\nUsage patterns:\n- {格別|かくべつ}⟦に→に：00314_ni⟧ + adjective (exceptionally ~)\n- {格別|かくべつ}⟦の→の：09472_no⟧ + noun (special ~)\n- [noun]⟦は→は：00079_ha⟧{格別|かくべつ}⟦だ→だ：09496_da⟧ (~ is exceptional)\n\nCommon in formal expressions:\n- {格別|かくべつ}⟦の→の：09472_no⟧⟦ご→ご：09882_go⟧⟦{高配|こうはい}→高配：noentry⟧ (your special patronage)\n- {格別|かくべつ}⟦の→の：09472_no⟧⟦お→お：03097_o⟧⟦{引|ひ}き{立|た}て→引き立て：noentry⟧ (your exceptional support)\n\nSimilar words:\n- ⟦{特別|とくべつ}→特別：01120_tokubetsu⟧ (special - more common)\n- ⟦{別格|べっかく}→別格：16015_bekkaku⟧ (exceptional, in a class of its own)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "とくべつ",
+      "headword": "{特別|とくべつ}",
+      "label": "special (more common)",
+      "target_id": "01120_tokubetsu"
+    },
+    {
+      "type": "related",
+      "reading": "べっかく",
+      "headword": "{別格|べっかく}",
+      "label": "exceptional, in a class of its own",
+      "target_id": "16015_bekkaku"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:17:38Z",
-    "modified": "2026-02-04T01:50:11Z",
+    "modified": "2026-05-09T18:08:03Z",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
