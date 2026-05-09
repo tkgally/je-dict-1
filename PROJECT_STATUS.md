@@ -51,6 +51,27 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-09 (Vocabulary Expansion - 46 New Entries, Internal-Completeness Batch)
+Added 46 new dictionary entries (IDs 27283-27328) from candidate_words.json. Prioritized "seen in entry" candidates — words referenced by existing entries' examples or notes but not yet defined. This closes internal-completeness gaps and lets cross-references resolve correctly.
+
+- **Verbs (3)**: {余|あま}す (to leave over — transitive pair of {余|あま}る), {凹|へこ}ます (to dent / dishearten — transitive of {凹|へこ}む), {響|ひび}かせる (to make resound — transitive of {響|ひび}く)
+- **Suru-verbs / nouns (3)**: ドレスアップ (dressing up), ホームステイ (homestay), {治水|ちすい} (flood control)
+- **Na-adjective (1)**: {地理的|ちりてき} (geographical)
+- **Adverb / noun (1)**: {通常|つうじょう} (normally; the regular state)
+- **Sports / leisure (8)**: バッター (batter), ダッグアウト (dugout), サッカーボール (soccer ball), カウボーイ (cowboy), プレイボーイ (playboy), ボーイフレンド (boyfriend), ボーイスカウト (Boy Scouts), {開会式|かいかいしき} (opening ceremony)
+- **Transportation (6)**: モーターボート (motorboat), ゴムボート (rubber dinghy), カヤック (kayak), サイドブレーキ (parking brake), フットブレーキ (foot brake), エンジンブレーキ (engine braking)
+- **Cards / shapes (2)**: ハート (heart — shape, suit, mental strength), スペード (spade — card suit)
+- **Food (4)**: クリームチーズ (cream cheese), ナチュラルチーズ (natural cheese), チーズバーガー (cheeseburger), タルト (tart)
+- **Clothing (4)**: ダウンコート (down coat), ダウンジャケット (down jacket), ドレスコード (dress code), ペンダント (pendant)
+- **Building / home (4)**: {理容院|りよういん} (barbershop), マイホーム (one's own home), {墓石|ぼせき} (gravestone), ボストンバッグ (Boston bag)
+- **Tools / objects (3)**: コイル (electrical coil), ノブ (knob), {頬紅|ほほべに} (blush)
+- **Communication / events (2)**: ドアチャイム (door chime), {時報|じほう} (time signal)
+- **Other (4)**: バイオリニスト (violinist), {古銭|こせん} (old coin), {暴風雪|ぼうふうせつ} (blizzard), {普段使|ふだんづか}い (everyday use), {彫|ほ}り{物|もの} (carving / tattoo)
+- 46 candidates synced (removed from candidate list)
+- All 46 entries pass validation; 6 verbs received conjugation tables; no new kanji introduced
+
+Total entries: 27,074 → 27,120.
+
 ### 2026-05-08 (Vocabulary Expansion - 22 New Entries, Batch 109)
 Added 22 new dictionary entries (IDs 27261-27282) from candidate_words.json. Focused on culturally significant concepts, useful expressions, and practical vocabulary for intermediate learners.
 
