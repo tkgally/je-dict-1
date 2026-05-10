@@ -4,14 +4,29 @@ The **default ongoing-improvement task** for je-dict-1. Each session walks throu
 
 This prompt is designed to be run repeatedly on a schedule. Each invocation picks up where the last one left off.
 
+## Pre-flight: sweep stranded PRs
+
+**Run this as the first step of every session, before you read any entry files or do any other work.**
+
+```bash
+python3 pipeline/sweep-stranded-prs.py
+```
+
+The script lists open PRs on `claude/*` branches, checks which entry files each one touched, and closes (with an explanatory comment) any PR whose maximum entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value on main. It also deletes the head branch via the GitHub API. PRs that don't touch entries, or that include any entry at or above the cursor, are left untouched.
+
+This makes the Routine self-healing: if a previous session ended before reaching the merge step, its now-obsolete PR and branch get cleaned up automatically when the next session starts. Don't skip this step even if you don't think there are any stranded PRs — checking is cheap (~1 API call per open PR).
+
+The script is idempotent and safe to run any time during the session, but running it first ensures the cleanup happens even if the rest of the session bails out.
+
 ## Per-session budget
 
 This prompt **errs on the side of doing more, not less**. Past sessions have stopped at 12% context use, leaving most of the available capacity unused.
 
-- **Target: keep working until you've used roughly 70% of your context window.** A typical session should process **20–30 entries**, not 3–5. If you've finished 10 entries and context still feels light, keep going.
-- **Stop earlier only if context is genuinely tight** — e.g., you're noticing tool outputs being truncated, or you've read enough large files that you're approaching the limit. Don't stop at "feels like enough" — that bias is what we're correcting.
-- **Take stock every 5 entries.** Briefly note (to yourself) how full context feels and decide: continue at full pace, slow down, or wrap up. Default to continuing.
-- **Hard cap: 30 entries per session.** Wrap up cleanly at 30 even if context is still light.
+- **Target: keep polishing until you've used roughly 60% of your context window**, then start wrapping up. A typical session should process **20–25 entries**, not 3–5. If you've finished 10 entries and context still feels light, keep going.
+- **Why 60% and not higher**: the wrap-up phase (build, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) consumes a meaningful slice of context, and review-fix-up rounds after opening the PR can eat more. Stranded PRs from previous Routine runs were caused by sessions running out of budget mid-merge. Leaving ~40% headroom is what makes the merge step reliable.
+- **Stop earlier than 60% if** tool outputs are getting truncated, you've read several large files, or you've already done a round of post-PR fix-ups. Better to wrap up with one fewer entry than to leave a stranded PR.
+- **Take stock every 5 entries.** Briefly note (to yourself) how full context feels and decide: continue at full pace, slow down, or wrap up. Default to wrapping up if you're already past 50%.
+- **Hard cap: 25 entries per session.** Wrap up cleanly at 25 even if context is still light.
 - **No recursion when checking back-links.** Visit direct neighbors only (entries listed in `cross_references` and `prominent_see_also`). Do **not** follow the neighbors' own links.
 - **Don't restructure entries that need major work.** If an entry is broken in a way that would consume a large chunk of the session (wrong POS, fundamentally misclassified, conflated lemmata), make any quick tier-1 fixes, log it as `[entry]` in `polishing/observations.md`, and move on.
 
