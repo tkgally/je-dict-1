@@ -1,6 +1,6 @@
 # Japanese Lexicography Challenges
 
-**Last updated**: 2026-05-02
+**Last updated**: 2026-05-10
 
 ## Overview
 
@@ -96,3 +96,4 @@ Many words have multiple accepted spellings:
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji acquisition, lookup methods, and furigana as a learning scaffold
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — the ている polysemy challenge and verb classification systems
 - [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system, suppletive form tables, and dictionary treatment of honorifics
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — from the 1603 Nippo Jisho through Hepburn and Kenkyusha to the modern digital landscape

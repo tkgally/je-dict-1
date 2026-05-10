@@ -1,6 +1,6 @@
 # Kanji Learning and Dictionary Treatment
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## Overview
 
@@ -205,3 +205,4 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [Homographs](../topics/homographs.md) — kanji-level disambiguation strategies
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — kanji as visual connectors in the mental lexicon
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — morphological analysis of kanji compounds as a high-value vocabulary strategy
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — Nelson, Halpern, and the kanji dictionary tradition

@@ -55,6 +55,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Register and Formality Marking](research/register-formality-marking.md) — Diasystematic labels, the consultation gap, Japanese stratal register, keigo marking, and encoding strategies
 - [Keigo: Honorific Language](research/keigo-honorifics.md) — The keigo system's structure, 2007 five-category reclassification, L2 acquisition challenges, uchi/soto dynamics, and dictionary treatment
 - [Vocabulary Learning Strategies](research/vocabulary-learning-strategies.md) — Strategy taxonomies (Oxford, Schmitt, Gu & Johnson), keyword method, word cards, morphological analysis, self-regulation, and dictionary design implications
+- [History of Japanese-English Dictionaries](research/je-dictionary-history.md) — From the 1603 Nippo Jisho through Hepburn, Kenkyusha, and JMdict to the modern digital landscape
 
 ## Topics
 

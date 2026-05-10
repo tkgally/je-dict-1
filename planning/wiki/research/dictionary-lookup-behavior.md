@@ -1,6 +1,6 @@
 # Dictionary Lookup Behavior
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## Overview
 
@@ -149,3 +149,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — how grammar codes are (under)used during lookup
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — the kanji lookup problem and electronic solutions
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — dictionary consultation as one strategy in a broader strategy repertoire
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — evolution of the kanji lookup problem across four centuries

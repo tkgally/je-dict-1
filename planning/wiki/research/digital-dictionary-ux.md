@@ -1,6 +1,6 @@
 # Digital Dictionary UX
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-05-10
 
 ## How users actually use online dictionaries
 
@@ -132,3 +132,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Learner Lexicography](learner-lexicography.md) — pedagogical principles informing UX decisions
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — empirical research on how learners use dictionaries
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup methods and the electronic dictionary revolution
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — the print-to-digital transition in JE lexicography
