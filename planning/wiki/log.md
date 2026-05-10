@@ -2,6 +2,15 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-10] maintenance | JE dictionary history research, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [B] Researched **the history of Japanese-English dictionaries** and created `research/je-dictionary-history.md`. Covers the full arc from the 1603 Nippo Jisho (日葡辞書, Jesuit missionaries in Nagasaki, 32,293 entries, first dictionary of Japanese in a European language) through the Dutch interlude (Medhurst's 1830 word list, Hori's 1862 pocket dictionary); the Hepburn era (1867 first edition, 1872 second, 1886 third with "traditional Hepburn" romanization); Brinkley's 1896 Unabridged JE Dictionary (Sanseido, 1,687 pages); the Kenkyusha era (1918 first edition by Takenobu Yoshitarō, 1931 second with George Sansom, wartime pirated editions for Harvard/British military use, 1974 fourth edition, 2003 fifth edition "Green Goddess" with ~480,000 entries); the parallel New English-Japanese Dictionary line (1927 first edition by Okakura, 2002 sixth); character dictionaries (Nelson 1962, Halpern SKIP/core meaning); and the digital revolution (Breen's EDICT 1991, JMdict 1999 XML migration, WWWJDIC mid-1990s, 214,000+ entries by 2023, Creative Commons licensing; Casio/Sharp handheld denshi jisho; Jisho.org, Weblio, Wisdom 2003). Identifies five themes: glossary-to-learner-dictionary evolution, the compiler-type shift (missionary → publisher → scholar → community → LLM), the persistent kanji lookup problem, the quality-accessibility gap between Kenkyusha and JMdict, and je-dict-1's position in the tradition. Cited Hepburn 1867, Brinkley 1896, Kenkyusha 2003, Nelson 1962, Breen 2004.
+- [A] Updated stats across wiki pages to reflect 2026-05-10 `report.py` output (27,177 entries / 24,394 general / 15,620 cross-references / 108,241 examples / 1,632 candidates / 40.4% symmetry / 7,731 asymmetric refs / 2,848 entries with inline links at 10.5%). Cross-references per entry at 0.57 (slight dip from 0.58 as rapid entry expansion dilutes the ratio). Updated pages: `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/controlled-defining-vocabulary.md`, `research/sense-relations-semantic-networks.md`.
+- [E] Ran cross-reference link checker across all wiki pages (609 internal links checked, 0 broken). Checked for orphan pages (0 found across 62 pages). Added the new JE dictionary history page to `index.md` and as a related page on `research/japanese-lexicography.md`, `research/learner-lexicography.md`, `research/digital-dictionary-ux.md`, `research/dictionary-lookup-behavior.md`, `research/kanji-learning-dictionaries.md`, `research/controlled-defining-vocabulary.md`, and `research/register-formality-marking.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-05-10] maintenance | Observation harvest, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

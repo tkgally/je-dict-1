@@ -1,6 +1,6 @@
 # Register and Formality Marking in Learner Dictionaries
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-10
 
 ## Overview
 
@@ -238,3 +238,4 @@ The structured register fields exist in the schema but are essentially unpopulat
 - [Corpus Linguistics](corpus-linguistics.md) — frequency data and corpus-based methods for label assignment
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — stratal synonymy (wago/kango/gairaigo register variants)
 - [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system in depth, L2 acquisition research, and uchi/soto dynamics
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — the Nippo Jisho's early register marking and the long tradition of usage labeling

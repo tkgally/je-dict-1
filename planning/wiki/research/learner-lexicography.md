@@ -1,6 +1,6 @@
 # Learner Lexicography
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## What is learner lexicography?
 
@@ -131,3 +131,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — per-entry aspect documentation as production support for learners
 - [Keigo: Honorific Language](keigo-honorifics.md) — the keigo system, L2 acquisition, and dictionary treatment challenges
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — strategy taxonomies and how dictionary design supports deliberate learning
+- [History of Japanese-English Dictionaries](je-dictionary-history.md) — the JE lexicographic tradition from missionaries to open-source projects
