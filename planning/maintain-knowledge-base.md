@@ -2,6 +2,27 @@
 
 Maintain and improve the project knowledge base at `planning/wiki/`. This prompt is designed for recurring sessions (nightly cron or manual invocation). Each session should leave the knowledge base richer, more accurate, and better connected.
 
+## Pre-flight: sweep stranded PRs
+
+**Run this as the first step of every session, before reading the wiki or any other project files.**
+
+```bash
+python3 pipeline/sweep-stranded-prs.py
+```
+
+The script lists open PRs on `claude/*` branches and closes any whose maximum entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value on main. It also deletes the head branch via the GitHub API. It will never close a wiki-only PR by accident — wiki PRs touch no entry files, and the script skips PRs that don't touch entries at all. Calling it here makes the wiki Routine help clean up after stranded comprehensive-polish runs in addition to its primary work.
+
+The script is idempotent and safe to run any time during the session, but running it first ensures the cleanup happens even if the rest of the session bails out.
+
+## Per-session budget
+
+This prompt is run unattended on a schedule. Plan the session so the wrap-up phase has enough context to complete reliably.
+
+- **Target: keep doing wiki work until you've used roughly 60% of your context window**, then start wrapping up. The wrap-up phase (commit, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) needs ~40% headroom.
+- **Quality over quantity**: a single well-researched page is more valuable than three shallow ones (this is also restated under "Guidelines" below).
+- **Stop earlier than 60% if** tool outputs are getting truncated, you've fetched several large web pages for research, or you're partway through a large page rewrite that would make the diff unwieldy.
+- **Take stock periodically**: after each activity from step 3, check how full context feels and decide whether to start another activity or wrap up.
+
 ## Session workflow
 
 ### 1. Orient yourself
@@ -102,13 +123,18 @@ If you created new pages, add them to `planning/wiki/index.md` in the appropriat
 
 ### 6. Commit and merge
 
-After completing your changes:
+After completing your changes, follow the end-of-session workflow in CLAUDE.md → "End-of-session PR and merge workflow." For Routine and any unattended session, use the **MCP path** — the `gh` CLI is not authorized in those environments.
 
-1. **Stage wiki changes and the harvested observations file**: `git add planning/ polishing/observations.md`
-2. **Commit**: Use a descriptive message like "wiki: harvest observations, research pitch accent, update project stats"
-3. **Push** to your branch
-4. **Create PR, wait for CI, and squash-merge to main** following the standard end-of-session workflow in CLAUDE.md
-5. **Post-merge cleanup**: switch to main, pull, delete feature branch
+1. **Stage wiki and observations changes**: `git add planning/ polishing/observations.md`. Wiki edits are markdown only and do **not** require `make build`.
+2. **Commit and push** to your branch with a descriptive message like "wiki: harvest observations, research pitch accent, update project stats".
+3. **Create the PR** with `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus a title and body). Note the PR number.
+4. **Wait for CI** by running `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool. Exit codes: 0 = all green, 1 = a check failed, 2 = timeout (default 10 min), 3 = auth/API error, 4 = no checks ever appeared.
+5. **Merge based on the exit code**:
+   - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
+   - **Any non-zero exit**: leave the PR open, add a one-line note to your session log explaining what the helper reported, and stop. The next Routine session's pre-flight `pipeline/sweep-stranded-prs.py` call will not auto-close this one (it doesn't touch entries), so the curator should look at it on the next pass.
+6. **Do not** `git checkout main`, **do not** delete the feature branch from inside this session — the session is on that branch. The repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
+
+Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine — it usually fails because the PR is in `unstable` state immediately after creation.
 
 ## Guidelines
 
