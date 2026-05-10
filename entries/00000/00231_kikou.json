@@ -43,8 +43,16 @@
       ]
     }
   ],
-  "notes": "{気候|きこう} refers to the long-term weather patterns of a region.\n\nCONTRAST WITH WEATHER:\n- {気候|きこう}: climate (long-term patterns)\n- {天気|てんき}: weather (short-term conditions)\n\nCOMMON EXPRESSIONS:\n- {気候|きこう}{変動|へんどう}: climate change\n- {温暖|おんだん}な{気候|きこう}: warm climate\n- {寒冷|かんれい}な{気候|きこう}: cold climate\n- {熱帯|ねったい}{気候|きこう}: tropical climate\n- {乾燥|かんそう}{気候|きこう}: dry/arid climate\n\nRELATED:\n- {気象|きしょう}: weather, meteorology\n- {季節|きせつ}: season\n- {環境|かんきょう}: environment",
-  "cross_references": [],
+  "notes": "{気候|きこう} refers to the long-term weather patterns of a region.\n\nCONTRAST WITH WEATHER:\n- {気候|きこう}: climate (long-term patterns)\n- ⟦{天気|てんき}→天気：00582_tenki⟧: weather (short-term conditions)\n\nCOMMON EXPRESSIONS:\n- {気候|きこう}⟦{変動|へんどう}→変動：09936_hendou⟧: climate change\n- ⟦{温暖|おんだん}→温暖：02596_ondan⟧⟦な→な：09497_na⟧{気候|きこう}: warm climate\n- ⟦{寒冷|かんれい}→寒冷：19667_kanrei⟧⟦な→な：09497_na⟧{気候|きこう}: cold climate\n- ⟦{熱帯|ねったい}→熱帯：03531_nettai⟧{気候|きこう}: tropical climate\n- ⟦{乾燥|かんそう}→乾燥：00184_kansou⟧{気候|きこう}: dry/arid climate\n\nRELATED:\n- ⟦{気象|きしょう}→気象：09943_kishou⟧: weather, meteorology\n- ⟦{季節|きせつ}→季節：01304_kisetsu⟧: season\n- ⟦{環境|かんきょう}→環境：00174_kankyou⟧: environment",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00582_tenki",
+      "reading": "てんき",
+      "headword": "{天気|てんき}",
+      "label": "weather (short-term)"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "02784_kikou",
@@ -61,7 +69,7 @@
   ],
   "metadata": {
     "created": "2026-01-10T08:42:54Z",
-    "modified": "2026-04-29T09:23:58Z",
+    "modified": "2026-05-09T23:57:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
