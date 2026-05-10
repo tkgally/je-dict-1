@@ -2,6 +2,28 @@
 
 Add new entries to the Japanese-English learner's dictionary from candidate_words.json.
 
+## Pre-flight: sweep stranded PRs
+
+**Run this as the first step of every session, before you read any candidate or entry data.**
+
+```bash
+python3 pipeline/sweep-stranded-prs.py
+```
+
+The script lists open PRs on `claude/*` branches and closes any whose maximum entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value on main. It also deletes the head branch via the GitHub API. It will never close a new-entries PR by accident — those entries always have IDs far above the comprehensive-polish cursor. Calling it here makes the new-entries Routine help clean up after stranded comprehensive-polish runs in addition to its primary work.
+
+The script is idempotent and safe to run any time during the session, but running it first ensures the cleanup happens even if the rest of the session bails out.
+
+## Per-session budget
+
+This prompt is run unattended on a schedule. Plan the session so the wrap-up phase has enough context to complete reliably.
+
+- **Target: keep creating entries until you've used roughly 60% of your context window**, then start wrapping up. The wrap-up phase (build, commit, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) needs ~40% headroom.
+- **Quality over quantity**: a small batch of well-formed entries is better than a larger batch with shortcuts.
+- **Stop earlier than 60% if** tool outputs are getting truncated, you've already done a fix-up round (e.g., resolving a duplicate after creation), or `find_missing_furigana.py` has reported issues you need to chase. Better to wrap up with fewer entries than to leave a stranded PR.
+- **Take stock periodically**: every ~10 entries, briefly check how full context feels and decide whether to continue or wrap up.
+- **No fixed entry cap**: candidate complexity varies enough that an absolute cap isn't useful here; the 60% context target is the binding constraint.
+
 ## Candidate Selection Priority
 
 Prefer candidates whose notes mention `seen in entry XXXXX` (or similar phrasing indicating the word appeared in an existing entry's examples or notes). These are added by the comprehensive-polish workflow and represent **internal-completeness gaps** — words the dictionary already references but does not yet define. Filling these closes the dictionary in on itself and is higher priority than adding brainstormed or corpus-harvested candidates.
@@ -261,22 +283,34 @@ All required fields per the `example-sentences` skill:
 
 **ID format**: `{entry_id}_ex{N}` where N is sequential (ex1, ex2, ex3...)
 
-## PR and Merge Workflow
+## PR and merge workflow
 
-Follow the complete workflow described in CLAUDE.md under "End-of-session PR and merge workflow." The key points:
+Follow the workflow described in CLAUDE.md under "End-of-session PR and merge workflow." For Routine and any unattended session, use the **MCP path** — the `gh` CLI is not authorized in those environments.
 
-1. **Run `make build` BEFORE the final commit** so that `docs/` and all build artifacts are included
-2. **`git add -A`** to stage everything (entries, docs, indexes, kanji, session logs, etc.)
-3. **Commit and push** to the feature branch
-4. **Create a PR** using `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."`
-5. **Wait for CI** with a single blocking call: `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` (exits 0 on success, non-zero on failure). Do NOT wrap this in a `while`/`sleep`/`curl` polling loop — `--watch` already waits, and hand-rolled streaming loops get routed through the `Monitor` tool, which has its own permission grant and will deadlock an unattended (cron) session.
-6. **Squash-merge the PR** once CI is green: `gh pr merge <number> --repo tkgally/je-dict-1 --squash`
-7. **If CI fails**: read the error with `gh run view <run_id> --repo tkgally/je-dict-1 --log-failed`, fix, push, and repeat
-8. **Post-merge cleanup**: switch to main, pull, verify clean state, delete feature branch locally and remotely
+### Before the PR
 
-**Tool availability**: Use the `gh` CLI for all GitHub operations (PR creation, CI checks, merging). The git remote uses a local proxy, so always pass `--repo tkgally/je-dict-1` explicitly. If GitHub MCP tools are available (e.g. `mcp__github__*`), prefer those instead.
+1. **Run `make build`** so `docs/` and all build artifacts are included.
+2. **Stage everything** with `git add -A` (entries, `docs/`, `entries_index.json`, `build/word_id_lookup.json`, `kanji/`, session logs, etc.).
+3. **Commit and push** to the feature branch.
 
-**CRITICAL**: The PR must include rebuilt `docs/` files. If you commit entry changes but not the build output, the live site won't update and the repo will be left in a dirty state for the next session.
+### MCP path (Routine / unattended default)
+
+1. Call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus a clear title and body. Note the PR number.
+2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool — it polls the GitHub API every 15 s and emits one status line per poll. Exit codes: 0 = all green, 1 = a check failed, 2 = timeout (default 10 min), 3 = auth/API error, 4 = no checks ever appeared.
+3. **Merge based on the exit code**:
+   - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
+   - **Any non-zero exit**: leave the PR open, add a one-line note to your session log explaining what the helper reported, and stop. The next Routine session's pre-flight `pipeline/sweep-stranded-prs.py` call will clean up automatically once main has advanced past the entry range.
+4. **Do not** `git checkout main`, **do not** delete the feature branch from inside this session — the session is on that branch. The repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
+
+Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine — it usually fails because the PR is in `unstable` state immediately after creation.
+
+### `gh` path (interactive sessions only)
+
+If `gh` is on PATH and authorized (only true for interactive curator sessions), the equivalent is `gh pr create --repo tkgally/je-dict-1 --head <branch> --base main --title "..." --body "..."` → `gh pr checks <number> --repo tkgally/je-dict-1 --watch --fail-fast` → `gh pr merge <number> --repo tkgally/je-dict-1 --squash`. Do not wrap `gh pr checks --watch` in a `while`/`sleep`/`curl` loop — `--watch` already waits, and hand-rolled streaming loops get routed through Monitor, which can deadlock unattended sessions.
+
+### CRITICAL — both paths
+
+The PR must include rebuilt `docs/` files. If you commit entry changes but not the build output, the live site won't update after merge and the repo will be left in a dirty state for the next session.
 
 ## If Duplicates Are Found During Validation
 
