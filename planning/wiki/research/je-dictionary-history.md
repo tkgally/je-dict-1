@@ -20,9 +20,11 @@ These Portuguese works are significant for JE lexicography because they establis
 
 During Japan's period of national seclusion (鎖国, 1639–1853), the Dutch at Dejima were the only Europeans with access to Japan. Dutch-Japanese dictionaries and vocabularies were compiled during this period, primarily for the use of official interpreters (通詞). These works served as indirect bridges: when the first English-Japanese dictionaries appeared, they were often based on Dutch-Japanese sources.
 
-**Walter H. Medhurst** — *An English and Japanese, and Japanese and English Vocabulary* (Batavia, 1830). This was the first English-Japanese bilingual wordbook, compiled by a British missionary who never visited Japan. He worked from existing Dutch-Japanese materials and Chinese sources. The work was rudimentary by later standards but established that an English-Japanese reference was possible and useful.
+**Doeff-Halma Dictionary** (ドゥーフ・ハルマ). The major Dutch-Japanese work of this period, compiled under the supervision of *opperhoofd* Hendrik Doeff, modeled on François Halma's Dutch-French dictionary (2nd ed., 1729). Doeff began compiling it privately and undertook full-scale work from 1816 at the bakufu's request. When Doeff returned to the Netherlands in 1817 he had completed entries from A through T; Dutch interpreters finished the remainder, completing the dictionary in 1833. This work proved foundational: early English-Japanese dictionaries drew heavily on Dutch-Japanese sources via dictionaries like this one.
 
-**Hori Tatsunosuke** — *A Pocket Dictionary of the English and Japanese Language* (1862). Compiled by a Japanese translator working from English-Dutch and Dutch-Japanese dictionaries, this was the first true English-Japanese dictionary compiled by a Japanese author. It illustrates the chain of transmission: Portuguese → Dutch → English, with each step mediated by existing bilingual resources.
+**Walter H. Medhurst** — *An English and Japanese, and Japanese and English Vocabulary* (Batavia, 1830). This was the first English-Japanese bilingual wordbook, compiled by a British missionary who never visited Japan — he worked from Japanese books he obtained, leveraging his knowledge of Chinese characters and existing Dutch-Japanese materials. The work was rudimentary by later standards but established that an English-Japanese reference was possible and useful.
+
+**Hori Tatsunosuke** — *Ei-Wa Taiyaku Shūchin Jisho* (英和対訳袖珍辞書, *A Pocket Dictionary of the English and Japanese Language*, 1862). Published by the Bansho Shirabesho (Institute for the Study of Barbarian Books), this was the first English-Japanese dictionary published in Japan. It was created by translating the Dutch entries of H. Picard's English-Dutch pocket dictionary into Japanese — it took an entire year to print just 200 copies. The chain of transmission is striking: Portuguese → Dutch → English, with each step mediated by existing bilingual resources.
 
 ## The Hepburn era (1867–1886)
 
@@ -50,9 +52,11 @@ Hepburn's contributions extend beyond the dictionary itself:
 
 The Brinkley dictionary is notable as the first major JE dictionary published by a Japanese publisher (Sanseido), signaling the shift from foreign missionary projects to the Japanese publishing industry.
 
+**Saito Hidesaburo** — *Saito's Idiomological English-Japanese Dictionary* (Obunsha, 1915). This pioneering work focused on collocations and word combinations; Saito wrote in the preface: "Words are nothing in themselves, and everything in combination." His emphasis on idiomatic patterns influenced Harold E. Palmer's vocabulary research and, through Palmer, modern corpus-based learner lexicography.
+
 ## The Kenkyusha era (1918–present)
 
-Kenkyūsha (研究社), founded in 1907, became the dominant publisher of JE and EJ dictionaries through the 20th century. Two parallel dictionary lines define their contribution:
+Kenkyūsha (研究社), founded in 1907 by Goichiro Kosakai, became the dominant publisher of JE and EJ dictionaries through the 20th century. Two parallel dictionary lines define their contribution:
 
 ### New Japanese-English Dictionary (新和英大辞典)
 
@@ -77,6 +81,18 @@ The first edition (1918), completed in under five years by leading scholars, was
 | 6th | 2002 | Takebayashi Shigeru |
 
 This EJ counterpart served Japanese learners of English and translators. Together, the two "New" dictionaries formed the backbone of professional JE/EJ translation work for most of the 20th century.
+
+### The OALD's Japanese origins
+
+A. S. Hornby went to Japan in 1924 to teach English. He joined Harold E. Palmer's vocabulary research program and by 1933 became editor of the Institute for Research in English Teaching's *Bulletin*. In 1937, Hornby began work with E. V. Gatenby and H. Wakefield on a new type of dictionary for foreign learners. The result, the **Idiomatic and Syntactic English Dictionary (ISED)**, was published by Kaitakusha in Tokyo in 1942 — during wartime, so Hornby himself did not see the published dictionary until 1948. Oxford University Press reprinted it in 1948 as *A Learner's Dictionary of Current English*, later renamed the **Oxford Advanced Learner's Dictionary (OALD)**. The fact that the world's most influential English learner's dictionary was born in Japan underscores the deep connection between Japanese English education and modern learner lexicography.
+
+### Other major post-war publishers
+
+**Sanseido** (三省堂, founded 1881) focused on practical, smaller dictionaries in contrast to Kenkyusha's comprehensive approach. Their *Concise English-Japanese Dictionary* was widely used from the late 1800s through mid-1900s. In monolingual lexicography, the *Sanseido Kokugo Jiten* was innovative for its emphasis on contemporary usage, with chief editor Kenbo Hidetoshi collecting word usages from newspapers and broadcasts on cards — anticipating corpus-based methods.
+
+**Shogakukan** published the **Progressive English-Japanese Dictionary** (1980, editors Konishi Tomoshichi, Minoru Yasui, Tetsuya Kunihiro), which continued through multiple editions. The companion **Progressive Japanese-English Dictionary** also became a standard reference.
+
+**Taishukan** published the **Genius English-Japanese Dictionary** (ジーニアス英和辞典, 1988–89, editors Konishi Tomoshichi and Minamide Kosei), which became "the most famous English dictionary for Japanese" and was adopted in most Japanese schools. The *Unabridged Genius* (2001) contains 255,000 headwords.
 
 ## Character dictionaries
 
@@ -120,13 +136,17 @@ Key features that distinguished electronic dictionaries from print:
 
 These devices typically bundled commercial dictionary content (Kenkyusha, Sanseido, Kōjien, etc.) that was unavailable online, making them the only portable way to access professional-grade dictionaries. The market has since contracted sharply as smartphones absorbed this function, though devices continue to be used in Japanese schools and by serious students.
 
+### Browser extensions
+
+The browser extension paradigm brought dictionary lookup directly into the reading workflow. **Rikaichan** (Firefox) pioneered popup dictionary lookup by hovering over Japanese text. **Yomichan** succeeded it with enhanced features including customizable dictionary sources, EPWING support, and Anki integration. When Yomichan was abandoned by its developer in 2023, the community forked it as **Yomitan** and **Rikaitan**. These tools draw on JMdict, KANJIDIC, and other dictionary files, representing a new mode of dictionary use: integrated into reading rather than consulted separately.
+
 ### Modern online dictionaries
 
 The current landscape reflects the convergence of open-source data, commercial content, and web/mobile platforms:
 
-- **Jisho.org** (Kim Ahlstrom): Clean, modern interface built on JMdict data; the most popular free English-language JE dictionary online
-- **Weblio**: Japanese aggregator combining multiple commercial and open dictionaries
-- **Sanseido Wisdom** (ウィズダム, 2003): Modern EJ/JE dictionary available in both print and electronic formats; represents Sanseido's current flagship alongside the older Concise series
+- **Jisho.org** (Kim Ahlstrom, Miwa Ahlstrom, Andrew Plummer): Clean, modern interface built on JMdict data; the most popular free English-language JE dictionary online
+- **Weblio** (beta 2005, launched 2006): Aggregator operated by GRAS Group, Inc., searching across 665+ dictionaries simultaneously including Kenkyusha's New Japanese-English Dictionary; English-Japanese service includes 4.16 million English words
+- **Sanseido Wisdom** (ウィズダム, 2003): Modern EJ/JE dictionary available in both print and electronic formats; represents Sanseido's current flagship
 - **dictionary.goo.ne.jp / Kotobank**: Japanese portal sites aggregating multiple dictionary sources
 - **Smartphone apps**: Imiwa, Japanese (by Renzo), Takoboto, and others — most built on JMdict data
 
@@ -134,7 +154,7 @@ The current landscape reflects the convergence of open-source data, commercial c
 
 ### From glossary to learner's dictionary
 
-The earliest JE dictionaries (Medhurst, Hori) were essentially bilingual word lists. Hepburn added usage context. Kenkyusha added extensive examples and compound words. Modern learner-focused works (including je-dict-1) add structured notes, cross-references, collocations, and register information. This trajectory mirrors the English learner lexicography tradition (OALD 1942 → LDOCE 1978 → COBUILD 1987), though JE dictionaries developed somewhat independently.
+The earliest JE dictionaries (Medhurst, Hori) were essentially bilingual word lists. Hepburn added usage context. Kenkyusha added extensive examples and compound words. Modern learner-focused works (including je-dict-1) add structured notes, cross-references, collocations, and register information. This trajectory mirrors the English learner lexicography tradition (OALD 1942 → LDOCE 1978 → COBUILD 1987) — and the connection is more than parallel: the OALD itself was born in Japan, and Saito's 1915 collocation-focused approach anticipated Palmer's work that fed directly into modern corpus-based learner lexicography.
 
 ### The compiler question
 
@@ -171,11 +191,13 @@ A notable feature of the current landscape is that the highest-quality JE dictio
 ## Key references
 
 - Breen, J. (2004). "JMdict: a Japanese-multilingual dictionary." In *Proceedings of the Workshop on Multilingual Linguistic Resources*.
+- Brinkley, F. (1896). *An Unabridged Japanese-English Dictionary*. Sanseido.
 - Hepburn, J.C. (1867). *A Japanese and English Dictionary with an English and Japanese Index*. Yokohama.
+- Hornby, A.S., Gatenby, E.V. & Wakefield, H. (1942). *Idiomatic and Syntactic English Dictionary*. Kaitakusha, Tokyo.
 - Kenkyūsha (2003). *Kenkyusha's New Japanese-English Dictionary*, 5th edition.
 - Nelson, A.N. (1962). *The Modern Reader's Japanese-English Character Dictionary*. Tuttle.
 - Nippo Jisho (1603). *Vocabvlario da Lingoa de Iapam*. Nagasaki.
-- Brinkley, F. (1896). *An Unabridged Japanese-English Dictionary*. Sanseido.
+- Saito, H. (1915). *Saito's Idiomological English-Japanese Dictionary*. Obunsha.
 
 ## Related pages
 
