@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-09
+**Last updated**: 2026-05-10
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-10 (Vocabulary Expansion - 15 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 15 new dictionary entries (IDs 27349-27363) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. Filling these closes internal-completeness gaps so cross-references can resolve.
+
+- **Volcano / disaster (3)**: {噴火口|ふんかこう} (volcanic crater/vent), {大噴火|だいふんか} (major eruption — noun + suru-verb), {見舞|みま}われる (to be struck by — passive verb of misfortune)
+- **Workplace / business (2)**: {部外|ぶがい} (outside the department; in {部外者|ぶがいしゃ}, {部外秘|ぶがいひ}), {銀行印|ぎんこういん} (bank-registered personal seal)
+- **Education (1)**: {教習|きょうしゅう} (instruction, esp. driving school)
+- **Culture / music (1)**: {雅楽|ががく} (gagaku, traditional Japanese court music)
+- **Time (1)**: {月|つき}{半|なか}ば (middle of the month)
+- **Math (1)**: {小数|しょうすう} (decimal number — distinct from homophone {少数|しょうすう} "minority")
+- **Astronomy (2)**: {自転|じてん} (rotation on its own axis), {公転|こうてん} (orbital revolution) — cross-referenced as a contrast pair
+- **Weather / atmosphere (1)**: {気流|きりゅう} (air current; in {乱気流|らんきりゅう} "turbulence")
+- **Health statistics (1)**: {患者数|かんじゃすう} (number of patients)
+- **Building / HVAC (2)**: {空調|くうちょう} (air conditioning, HVAC), {通気|つうき} (passive ventilation, breathability)
+- 15 candidates synced (removed from candidate list)
+- All 15 entries pass validation; 5 verbs received conjugation tables (4 suru + 1 ichidan); no new kanji introduced
+
+Total entries: 27,140 → 27,155.
 
 ### 2026-05-09 (Vocabulary Expansion - 20 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 20 new dictionary entries (IDs 27329-27348) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. Filling these closes internal-completeness gaps.
