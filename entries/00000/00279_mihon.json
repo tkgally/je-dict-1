@@ -37,7 +37,7 @@
       "id": "00279_mihon_ex3",
       "japanese": "{見本|みほん}⟦{市|いち}→市：10013_ichi⟧⟦で→で：00502_de⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I saw new products at the trade fair.",
-      "notes": "{見本|みほん}{市|いち} = trade fair, sample fair",
+      "notes": "{見本|みほん}⟦{市|いち}→市：10013_ichi⟧ = trade fair, sample fair",
       "has_audio": false,
       "sense_numbers": [1]
     },
@@ -66,11 +66,14 @@
       "sense_numbers": [2]
     }
   ],
-  "notes": "{見本|みほん} refers to samples, specimens, or models used as examples.\n\nCommon expressions:\n- {見本|みほん}を{見|み}せる (to show a sample)\n- {見本|みほん}{品|ひん} (sample item)\n- {見本|みほん}{市|いち} (trade fair, trade show)\n- {見本|みほん}になる (to become an example/model)\n\nBusiness context:\n- Often stamped on samples to indicate they are not for sale\n- Used in trade shows and commercial settings\n\nRelated terms:\n- サンプル (sample - loanword)\n- {標本|ひょうほん} (specimen - scientific context)\n- {手本|てほん} (model, example to follow)",
-  "cross_references": [],
+  "notes": "{見本|みほん} refers to samples, specimens, or models used as examples.\n\nCommon expressions:\n- {見本|みほん}⟦を→を：00422_wo⟧⟦{見|み}せる→見せる：01988_miseru⟧ (to show a sample)\n- {見本|みほん}⟦{品|ひん}→品：03712_hin⟧ (sample item)\n- {見本|みほん}⟦{市|いち}→市：10013_ichi⟧ (trade fair, trade show)\n- {見本|みほん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become an example/model)\n\nBusiness context:\n- Often stamped on samples to indicate they are not for sale\n- Used in trade shows and commercial settings\n\nRelated terms:\n- ⟦サンプル→サンプル：10939_sanpuru⟧ (sample - loanword)\n- ⟦{標本|ひょうほん}→標本：13174_hyouhon⟧ (specimen - scientific context)\n- ⟦{手本|てほん}→手本：10563_tehon⟧ (model, example to follow)",
+  "cross_references": [
+    {"type": "synonym", "reading": "さんぷる", "target_id": "10939_sanpuru"},
+    {"type": "related", "reading": "てほん", "target_id": "10563_tehon"}
+  ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-02-04T13:23:48Z",
+    "modified": "2026-05-10T14:08:28Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [

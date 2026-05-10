@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{未満|みまん} means 'less than' and does NOT include the number itself. This is important in legal and official contexts.\n\nContrast:\n- 10{未満|みまん} = less than 10 (9 or below)\n- 10{以下|いか} = 10 or less (10 or below)\n- 10{以上|いじょう} = 10 or more (10 or above)\n- 10を{超|こ}える = exceeding 10 (11 or above)\n\nMathematical meaning:\n- {未満|みまん} corresponds to < (strictly less than)\n- {以下|いか} corresponds to ≤ (less than or equal to)\n\nCommon usage:\n- Age restrictions: 20{歳|さい}{未満|みまん}\n- Price limits: 1000{円|えん}{未満|みまん}\n- Quantity thresholds: 100{人|にん}{未満|みまん}",
+  "notes": "{未満|みまん} means 'less than' and does NOT include the number itself. This is important in legal and official contexts.\n\nContrast:\n- 10{未満|みまん} = less than 10 (9 or below)\n- 10⟦{以下|いか}→以下：01294_ika⟧ = 10 or less (10 or below)\n- 10⟦{以上|いじょう}→以上：01308_ijou⟧ = 10 or more (10 or above)\n- 10⟦を→を：00422_wo⟧⟦{超|こ}える→超える：01942_koeru⟧ = exceeding 10 (11 or above)\n\nMathematical meaning:\n- {未満|みまん} corresponds to < (strictly less than)\n- ⟦{以下|いか}→以下：01294_ika⟧ corresponds to ≤ (less than or equal to)\n\nCommon usage:\n- Age restrictions: 20⟦{歳|さい}→歳：10017_sai⟧{未満|みまん}\n- Price limits: 1000⟦{円|えん}→円：00774_en⟧{未満|みまん}\n- Quantity thresholds: 100⟦{人|にん}→人：00658_nin⟧{未満|みまん}",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,11 +51,13 @@
       "headword": "{以下|いか}",
       "label": "or less",
       "target_id": "01294_ika"
-    }
+    },
+    {"type": "contrast", "reading": "いじょう", "target_id": "01308_ijou"},
+    {"type": "related", "reading": "こえる", "target_id": "01942_koeru"}
   ],
   "metadata": {
     "created": "2026-01-13T11:59:29Z",
-    "modified": "2026-02-04T13:23:48Z",
+    "modified": "2026-05-10T14:08:28Z",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
