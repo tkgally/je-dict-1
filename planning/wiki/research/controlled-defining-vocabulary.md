@@ -1,6 +1,6 @@
 # Controlled Defining Vocabulary
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## Overview
 
@@ -70,7 +70,7 @@ Bilingual learner dictionaries have less of a CDV tradition than monolingual one
 
 ## Defining vocabulary vs. tier system: je-dict-1's analogue
 
-je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 23,949) that plays a structurally similar role in two ways:
+je-dict-1 does not have a formal CDV because its glosses are **English translations**, not English paraphrases. What it has instead is a **three-tier vocabulary classification** (basic 801, core 1,982, general 24,357) that plays a structurally similar role in two ways:
 
 1. **Self-containment**. The guideline that higher-tier entries' examples and notes should draw their Japanese vocabulary from the same tier or below (basic entries should use basic words; core entries should use core-or-below words) is the direct analogue of CDV discipline. It ensures that a learner who has mastered the basic tier can read any basic-tier entry end-to-end without a secondary lookup.
 
