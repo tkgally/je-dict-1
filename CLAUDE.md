@@ -50,6 +50,7 @@ pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, 
   pipeline/orchestrator.py  # Launches and monitors parallel Claude CLI sessions
   pipeline/monitor.py       # Real-time monitoring dashboard for orchestration
   pipeline/budget.json      # Daily budget cap configuration (auto-updated)
+  pipeline/sweep-stranded-prs.py # Close+delete obsolete `claude/*` PRs/branches whose entry range is past main's progress
   pipeline/logs/            # Session and orchestrator log files
 planning/         # Project knowledge base and planning
   planning/wiki/        # LLM-maintained knowledge base (project docs, research, ideas)
@@ -447,6 +448,8 @@ There are two supported paths. **Pick the one that matches your environment** be
    - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
    - **Exit non-zero**: leave the PR open, add a one-sentence note to the session log explaining what the helper reported, and stop. The curator (or the next scheduled session) will investigate.
 7. **Stop.** Do not attempt the cleanup section below — the session is running on the feature branch and cannot switch off it. The repo's "Automatically delete head branches" setting handles remote-branch cleanup when the merge fires.
+
+If a Routine session does end up bailing out before merging (CI timeout, context exhaustion mid-merge, hook failure, etc.), the next session's pre-flight call to `pipeline/sweep-stranded-prs.py` will close the now-obsolete PR and delete its branch on the next run. That self-healing path is what keeps stranded `claude/*` branches from accumulating; see `prompts/comprehensive_polish.md` → "Pre-flight: sweep stranded PRs".
 
 Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine. It requires the PR to already be in a "clean" mergeable state, which is rarely true in the few seconds between pushing and creating the PR — GitHub almost always rejects with `unstable`. Wait-then-merge via the helper script is the reliable path. (`enable_pr_auto_merge` remains usable from interactive sessions where the PR has had time to settle.)
 
