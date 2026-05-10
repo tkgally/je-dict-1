@@ -1,10 +1,10 @@
 # Vocabulary Size and Text Coverage
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## Overview
 
-How many words does a learner need to know? This deceptively simple question has driven decades of vocabulary acquisition research and directly shapes decisions about dictionary size, tier boundaries, and expansion priorities. The consensus answer — "it depends on the task, the text, and what counts as 'knowing'" — is precise enough to be useful. This page synthesizes the key findings on vocabulary size thresholds, text coverage models, and their implications for a Japanese-English learner dictionary at 26,700+ entries.
+How many words does a learner need to know? This deceptively simple question has driven decades of vocabulary acquisition research and directly shapes decisions about dictionary size, tier boundaries, and expansion priorities. The consensus answer — "it depends on the task, the text, and what counts as 'knowing'" — is precise enough to be useful. This page synthesizes the key findings on vocabulary size thresholds, text coverage models, and their implications for a Japanese-English learner dictionary at 27,100+ entries.
 
 ## The text coverage model
 

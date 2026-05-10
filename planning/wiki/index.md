@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English learner's dictionary project. This wiki is written and maintained by Claude; the human curator directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-10
 
 ## How this wiki is organized
 
@@ -81,6 +81,9 @@ A persistent, LLM-maintained knowledge base for the je-dict-1 Japanese-English l
 - [Parallel Agent Architecture](ideas/parallel-agent-architecture.md) — Autonomous parallel revision and improvement system
 - [Word Discovery Strategies](ideas/word-discovery-strategies.md) — LLM brainstorming, scenario-based gaps, and other approaches for finding missing words
 - [Dictionary Growth and Long-Term Vision](ideas/dictionary-growth.md) — No maximum size, proper names, long-term expansion phases
+- [Cleanup Backlog](ideas/cleanup-backlog.md) — Systemic cleanup work surfaced during comprehensive-polish sessions
+- [Tooling Backlog](ideas/tooling-backlog.md) — Tool improvements and new script ideas from polishing observations
+- [Entry Follow-ups](ideas/entry-followups.md) — Specific entries needing work beyond a single polishing pass
 
 ## Log
 

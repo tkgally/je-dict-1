@@ -2,6 +2,20 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-10] maintenance | Observation harvest, stats sync, cross-reference lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed all unprocessed observations from `polishing/observations.md` — 5 comprehensive-polish sessions (2026-05-08 sessions 001–002, 2026-05-09 sessions 001–003, covering entries 00001–00096). Created three new wiki backlog pages:
+  - `ideas/cleanup-backlog.md` — 5 prioritized systemic cleanup items (unlinked notes in older entries, missing/broken cross-references, thematic cluster symmetry, duplicate conjugation keys, particle entry polish)
+  - `ideas/tooling-backlog.md` — 4 tool improvement proposals (duplicate JSON key pruner, verify_furigana.py inline-link fix, suggested cross-refs from linked notes, split-compound detector)
+  - `ideas/entry-followups.md` — 5 specific entries needing work (00004_aogu conflated verbs, 11124_furai missing baseball sense, 04243_shikakeru suffix-verb sense, 00051_ga particle polish, 00084_haitatsu split-compound)
+  - Noted 3 skill recommendations in this log (not modifying skills from wiki session): (1) inline-word-links skill should note compound term linking preference, (2) cross-reference-entry skill should note `transitivity_pair` is not a valid type (use `pair`), (3) cross-reference-entry skill references `formality_variant` which is not in schema
+  - Cleared all processed observations from `polishing/observations.md`
+- [A] Updated entry counts across 10 wiki pages to reflect 2026-05-10 `report.py` output (27,140 entries / 24,357 general / 15,618 cross-references / 108,084 examples / 1,669 candidates / 40.3% symmetry / 7,731 asymmetric refs / 2,848 entries with inline links at 10.5%). Cross-references per entry rose to 0.58 (from 0.53 on May 5). Symmetry rate dipped to 40.3% as new entries add unreciprocated links faster than the symmetry pass processes them. Updated pages: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `topics/enhancement-plan-retrospective.md`, `ideas/dictionary-growth.md`, `research/controlled-defining-vocabulary.md`, `research/grammar-in-dictionaries.md`, `research/vocabulary-size-coverage.md`, `research/sense-relations-semantic-networks.md`.
+- [E] Ran cross-reference link checker across all wiki pages (0 broken links across 62 pages). Checked for orphan pages (0 found). Added three new backlog pages to `index.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-05-05] maintenance | Vocabulary learning strategies research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance
