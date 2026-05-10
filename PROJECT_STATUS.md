@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-10 (Vocabulary Expansion - 22 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 27364-27385) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch addresses early-ID (entries ~00138-00205) cross-reference gaps surfaced by comprehensive-polish runs.
+
+- **Loanwords for media/design (8)**: コメンタリー (commentary), スピン (spin / spin-off), モダン (modern, stylish), カスタム (custom, customize), アングル (camera angle), モニタリング (monitoring), スイーツ (sweets/desserts), ポップ (pop / shelf-talker — three senses)
+- **Music & arts (2)**: {歌曲|かきょく} (art song), シンガーソングライター (singer-songwriter)
+- **Daily life / housing (2)**: {持|も}ち{家|いえ} (owned home), {金魚鉢|きんぎょばち} (goldfish bowl, with figurative sense)
+- **End-of-life planning (1)**: {終活|しゅうかつ} (end-of-life preparations)
+- **Weather & meteorology (3)**: {大気圧|たいきあつ} (atmospheric pressure), {気圧計|きあつけい} (barometer), {気象病|きしょうびょう} (weather-related illness)
+- **Verbs (1)**: {立|た}ち{返|かえ}る (to return to a starting point/principle — godan, intransitive)
+- **Finance / forms (5)**: {累進|るいしん} (progressive/graduated, esp. taxation), {一定額|いっていがく} (a fixed amount), {希望額|きぼうがく} (desired amount), {希望日|きぼうび} (preferred date), {水温|すいおん} (water temperature)
+
+All entries follow v2 quality standards: structured notes with bulleted sections (collocations, similar words, usage notes), 3+ examples per sense with progressive length, explicit similar-word distinctions, and full furigana coverage. Verb and suru-verb entries received full conjugation tables.
+
 ### 2026-05-10 (Vocabulary Expansion - 15 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 15 new dictionary entries (IDs 27349-27363) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. Filling these closes internal-completeness gaps so cross-references can resolve.
 
