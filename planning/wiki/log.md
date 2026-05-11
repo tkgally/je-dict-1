@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-11] maintenance | Entry-exploration synthesis: schema tag reliability, three backlog updates, stats sync
+
+**Session type**: Manual session (curator-directed: explore real entries and reflect them back into the wiki)
+
+**Activities**:
+- [F] Explored a stratified sample of dictionary entries (basic-tier verb 00001_amaru; particle 00051_ga; i-adjective 00025_chiisai; expressions 02008/02461_ikuratemo and 02524_jitsuha; counter 00620_dai; onomatopoeia 18531_gutsugutsu and 17500_kyorori; recently-added 27424_keyaki and 20199_jimotomin; suru-verb 20201_doryokusuru; polysemic kanji-variant verb 00565_toru; humble-tagged kinship 00549_haha) and ran targeted audits across the full entry set to quantify three classes of issue.
+- [D] Created `topics/schema-tag-reliability.md` — substantive new analysis page covering three recurring failure modes for `metadata.tags`:
+  - **Runaway automation**: 12 adverbial onomatopoeia entries (ぐつぐつ, こつこつ, ぱくぱく, etc.) carry full godan conjugation blocks with nonsense forms because a stale `verb_class` tag triggered `add_conjugations.py`. Lists all 12 IDs.
+  - **Categorical compression**: the four-bucket `politeness` field (plain/polite/humble/honorific) cannot represent uchi/soto referent orientation (母/お母さん), bikago vs. true honorifics (ご飯, お釣り), or familiar suffixes (〜ちゃん, 〜くん). Quantifies: ~58 non-verb entries tagged `humble`, ~49 tagged `honorific`, with several clear misclassifications. Connects to existing keigo-honorifics, register-formality-marking, and grammar-in-dictionaries research pages.
+  - **Stale auto-labels**: 02008_ikuratemo (a grammar pattern) carries `semantic: ["furniture"]`; representative case of tags that became wrong as entries evolved.
+  - Proposes detection heuristics (mismatched POS/conjugation; politeness tag with no politeness keyword in notes; semantic-tag/gloss keyword mismatch) and frames the broader implication that *tags are write-rarely, read-often* and therefore quietly accumulating debt.
+- [F/A] Updated `ideas/cleanup-backlog.md` with three new priorities (P6 onomatopoeia conjugations with full 12-entry list; P7 politeness tag conflation with sub-issues for uchi/soto, bikago, familiar suffixes; P8 unconsolidated duplicate-expression entries citing 02008/02461_ikuratemo). Linked each priority back to the new tag-reliability topic page.
+- [F/A] Updated `ideas/tooling-backlog.md` with three new tool proposals (item 5: onomatopoeia conjugation pruner + defensive guard requiring `verb-*` POS in `add_conjugations.py`; item 6: tag-drift detector with concrete heuristic rules; item 7: polysemic kanji-variant overlap detector). Cleaned up duplicated section heading from edit-in-progress.
+- [F/A] Updated `ideas/entry-followups.md` with three new specific entries: 02008/02461_ikuratemo merge proposal; the 12 onomatopoeia entries needing conjugation removal (table form); 00565_toru sense-2 overlap with 00760_toru's 撮る. Each item proposes concrete options for resolution.
+- [C] Added a new "Polysemic entries with kanji-variant senses" section to `topics/word-variants.md` — analyzes the 取る → 撮る case where one polysemic entry has a sense conventionally written with a different kanji that also has its own entry. Distinguishes this pattern from kanji-variant (orthographic) variation and from homographs. Presents four options (single-source-and-link / duplicate-explicitly / merge / status quo) with trade-offs.
+- [A] Synced entry counts on key pages from 27,177 → 27,200+ to reflect 2026-05-11 `report.py` output (27,221 entries / 24,438 general / 15,654 cross-references / 108,379 examples / 1,635 candidates / 40.4% symmetry / 7,728 asymmetric refs). Updated: `project/overview.md`, `research/je-dictionary-history.md`, `research/sense-relations-semantic-networks.md`, `topics/enhancement-plan-retrospective.md`. Updated "Last updated" dates on all modified pages.
+- [E] Added the new tag-reliability topic to `index.md`.
+- Harvest of `polishing/observations.md`: no unprocessed observations (last harvested 2026-05-10; all observations remain marked as cleared).
+
 ## [2026-05-10] maintenance | JE dictionary history research, stats sync, cross-reference lint
 
 **Session type**: Nightly maintenance

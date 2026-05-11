@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-11
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -54,6 +54,49 @@ Particle entries with extensive structured fields (e.g., 00051_ga and 00079_ha w
 
 **Affected entries**: At minimum 00051 (が), 00079 (は), and likely 00422 (を), 00314 (に), 00502 (で), 00504 (と), 00512 (から).
 
+## Priority 6: Spurious onomatopoeia conjugation tables
+
+**Source**: Wiki maintenance 2026-05-11 entry exploration
+
+Twelve adverbial onomatopoeia entries currently carry full godan conjugation blocks with nonsense forms (e.g., ぐつぐつ → ぐつぐたない, こつこつ → こつこたない). They have `pos: ["adverb", "onomatopoeia"]` (no verb POS), but a stale `verb_class: "godan-tsu"` tag triggered `add_conjugations.py` at some point in the past.
+
+**Affected entries (12):**
+05646_gyuugyuu, 05723_pakupaku, 05724_jabujabu, 05726_boubou, 06683_potsupotsu, 08432_gotsugotsu, 18531_gutsugutsu, 21888_mukumuku, 22356_gougou, 26081_pukupuku, 26864_buruburu, 27085_kotsukotsu.
+
+**Suggested actions**:
+1. One-shot pass: remove the `conjugation` field and the stray `verb_class` tag from each of the 12 entries.
+2. Defensive guard in `add_conjugations.py`: refuse to write a conjugation block unless the entry has at least one `verb-*` POS tag. Filed in [Tooling Backlog](tooling-backlog.md).
+3. See [Schema Tag Reliability](../topics/schema-tag-reliability.md) for the broader pattern.
+
+## Priority 7: Politeness tag conflation (uchi/soto, bikago, familiar suffixes)
+
+**Source**: Wiki maintenance 2026-05-11 entry exploration
+
+The `politeness` tag's four buckets (plain/polite/humble/honorific) are being applied too loosely. Three sub-issues:
+
+1. **Uchi/soto kinship terms mis-tagged as humble**: 母 (はは), 父 (ちち), 兄 (あに), 姉 (あね), 息子 (むすこ) and several similar entries are tagged `politeness: humble`. They are the plain in-group reference forms, not humble forms in the technical sense. The contrast お母さん/お父さん/お兄さん etc. (out-group reference and address forms) is uchi/soto, not the speech-level politeness scale.
+
+2. **Bikago mis-tagged as honorific**: Words where the お〜/ご〜 prefix has fused into the lexical form (ご飯, お釣り, etc.) are tagged `honorific`. They are 美化語 (bikago, beautifying language) — a separate category in the 2007 五分類 (five-category) reclassification — not productive sonkeigo.
+
+3. **Familiar suffixes mis-tagged as honorific**: 〜ちゃん, 〜くん are tagged `politeness: honorific`. They are diminutive/familiar suffixes marking intimacy or subordinate-status address, not deference.
+
+**Total affected**: ~58 entries with non-verb POS and `politeness: humble`; ~49 entries with non-verb POS and `politeness: honorific`. Not all are wrong, but a meaningful fraction is.
+
+**Suggested actions**:
+- These cases need semantic review, not a deterministic pass. They are a natural target for a polish-politeness-labels task (parallel to `polish_semantic_labels.md`).
+- In the interim, ensure the notes prose carries the correct nuance even if the tag is coarse. Most well-polished entries (e.g., 00549_haha) already do this.
+- Longer term: see [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Implications for the schema" for the structured-politeness proposal vs. its costs.
+
+## Priority 8: Unconsolidated duplicate-expression entries
+
+**Source**: Wiki maintenance 2026-05-11 entry exploration
+
+Some entries are duplicates of each other that were linked via `prominent_see_also` instead of being merged. Confirmed example: 02008_ikuratemo and 02461_ikuratemo both cover the expression いくら〜ても. The two entries have overlapping examples and similar (but not identical) notes. The link makes the relationship discoverable but two parallel sources of truth keep diverging on every polishing pass.
+
+**Suggested action**: Run `python3 build/find_merge_candidates.py --merge-only` and review the output. Merge candidates where the two entries are functionally identical. The `consolidate-entries` skill describes the process; the [Resolve Duplicates](../../.claude/skills/resolve-duplicates/SKILL.md) skill (path may differ) is the operational guide.
+
+Also: 02008_ikuratemo carries `semantic: ["furniture"]` — an obviously stale auto-label. This is a representative case for [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Stale auto-labels."
+
 ## Informational: Pre-polished cohort around 00083–00090
 
 Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花火, 00088 判事) were already fully linked — suggesting a prior polish pass touched that range. Subsequent sessions entering this area should expect occasional entries needing no work.
@@ -64,3 +107,4 @@ Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花�
 - [Entry Follow-ups](entry-followups.md) — specific entry fixes
 - [Content Pipeline](../project/content-pipeline.md) — how polishing tasks work
 - [Entry Consistency](../topics/entry-consistency.md) — consistency standards
+- [Schema Tag Reliability](../topics/schema-tag-reliability.md) — analysis of recurring tag-drift patterns (covers P6–P8 above)
