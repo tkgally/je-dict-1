@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-11 (Vocabulary Expansion - 23 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 23 new dictionary entries (IDs 27386-27408) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch fills internal-completeness gaps surfaced by early-ID comprehensive-polish runs (entries ~00149-00388).
+
+- **Loanwords for daily life (8)**: クレーム (customer complaint), スーパーマーケット (supermarket — full form of スーパー), マイクロフォン (microphone — full form of マイク), ミルクティー (milk tea), ケアレスミス (careless mistake, wasei-eigo), ノーミス (no mistakes, wasei-eigo), ビキニ (bikini), ラッシュガード (rash guard)
+- **Legal/business formal vocabulary (4)**: {重過失|じゅうかしつ} (gross negligence), {業務上|ぎょうむじょう} (professional, occupational), {申|もう}し{立|た}てる (to lodge formally — ichidan verb), {協同|きょうどう} (cooperation, partnership — distinct from {共同|きょうどう})
+- **Health / bodywork (3)**: {指圧|しあつ} (shiatsu), {整体|せいたい} (seitai — Japanese chiropractic-style bodywork), {揉|も}みほぐす (to knead and loosen — godan verb, two senses)
+- **Food & culinary (3)**: {干|ほ}し{菓子|がし} (dried sweets, tea-ceremony confections), ガリ (sushi-restaurant pickled ginger), {狙|ねら}い{目|め} (sweet spot, smart opportunity)
+- **Plants & seasonal (2)**: {水仙|すいせん} (narcissus / daffodil), {欅|けやき} (zelkova tree — new kanji 欅 added to kanji_list as 02735)
+- **Sports / leisure (2)**: フィギュアスケート (figure skating), {部員|ぶいん} (club / department member)
+- **STEM (1)**: {係数|けいすう} (coefficient — math, physics, statistics)
+
+All entries follow v2 quality standards with sectioned notes, bulleted collocations, and similar-word distinctions. Conjugation tables auto-generated for the 4 verb entries (1 ichidan, 1 godan, 2 suru).
 
 ### 2026-05-10 (Vocabulary Expansion - 22 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27364-27385) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch addresses early-ID (entries ~00138-00205) cross-reference gaps surfaced by comprehensive-polish runs.
