@@ -9,7 +9,9 @@ description: Requirements for creating nouns, counters, adverbs, and expressions
 
 Guidelines for entry types not covered by verb, adjective, or particle skills.
 
-**Important:** All notes must follow the formatting guidelines in the `vocabulary-notes` skill (line breaks between sections, bullet points for lists).
+**Important:** All notes must follow the formatting guidelines in the `vocabulary-notes` skill (line breaks between sections, bullet points for lists, and the length budgets in the POS Note Templates table).
+
+The sections listed for each entry type below are an **inventory of what notes _can_ cover**, not a checklist to clear. Most nouns, adverbs, and expressions need only one or two of them. Loanword nouns in particular do not need a "WHICH ENGLISH SOURCE WORD" block or duplicated "COMMON COMPOUNDS" + "COMMON COLLOCATIONS" lists — one bulleted list of common pairings is enough.
 
 ---
 

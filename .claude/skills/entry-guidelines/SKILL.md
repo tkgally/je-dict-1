@@ -113,11 +113,12 @@ After creating i-adjective entries, run `python3 build/add_adjective_conjugation
 4. **Prefer natural Japanese** - Avoid textbook stiffness
 5. **Highlight non-obvious distinctions** - Focus on what learners cannot infer from English
 6. **All explanations in English** - Definitions, explanations, usage notes, etymology, and cultural context must be written in English. Japanese text should only appear in example phrases, collocations, patterns, and headwords — never as explanatory prose. This is a bilingual learner's dictionary, not a monolingual one.
+7. **Concise, not maximally thorough** - Each field has a job. `gloss` is for scanning (≤8 words, semicolons), `definitions[i].explanation` carries the longer description (~150–400 chars), `notes` adds usage and collocations in 2–3 focused sections. Per-field length budgets live in `prompts/newentries.md` under "Length targets" — defer to those numbers. Bloated entries (long parenthetical glosses, six-section notes, redundant "COMMON COMPOUNDS" + "COMMON COLLOCATIONS" pairs) are a quality regression, not a quality improvement.
 
 ## Consistency Guidelines
 
-1. **Consistent depth across similar entries** - Don't over-explain one verb while under-explaining another
-2. **Consistent structure within entry types** - All verbs should have same sections
+1. **Consistent depth across similar entries** - Match the shape of recent reference entries (e.g. `entries/27000/27261_motenashi.json`, `entries/27000/27364_komentarii.json`); don't over-explain one verb while under-explaining another, and don't introduce a much denser style than neighboring entries
+2. **Consistent structure within entry types** - All verbs should use the same section headers, but a section is only included when it has something to say
 3. **Consistent terminology** - Use same labels throughout (USAGE NOTES, not sometimes Notes)
 
 ## Example Sentence Guidelines
@@ -197,10 +198,10 @@ Every entry must include:
 - `reading`: **Hiragana only** (see Reading Format below)
 - `romaji`: Must match the full reading, concatenated without internal underscores
 - `part_of_speech`: Consistent terminology
-- `gloss`: Brief English equivalent
-- `definitions`: Array with sense_number, gloss, explanation
-- `examples`: 2-3 minimum, with id, Japanese, English, sense_numbers, and optional notes
-- `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements)
+- `gloss`: Brief English equivalent — 3–8 words, semicolon-separated. **Not a definition.** No parenthetical mini-definitions, etymology, numbered clauses, or sentences. The longer description belongs in `definitions[i].explanation`.
+- `definitions`: Array with sense_number, gloss (3–10 words), and explanation (1–3 sentences, ~150–400 chars)
+- `examples`: Meet the per-sense minimum from the `example-sentences` skill (3 for general tier, 5 for basic/core). Exceeding the minimum by 0–1 is fine; exceeding by more is rarely warranted.
+- `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements and length budgets)
 - `schema_version`: Set to `"2.0"` for all new entries (top-level field, optional for existing entries)
 - `metadata`: Including vocabulary_tier (**always "general" for new entries**), created, modified timestamps
 

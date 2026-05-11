@@ -7,6 +7,12 @@ description: Requirements for formatting and structuring the notes field in je-d
 
 The `notes` field is a critical part of each entry, providing usage information, grammar patterns, cultural context, and other details that help learners deeply understand the word. As the dictionary grows, well-structured notes become increasingly important.
 
+## Length and shape (read first)
+
+Notes are **short and useful, not maximally thorough**. Aim for 2–3 focused sections; four is usually too many, six or more is always too many. The "Content Categories" list below is an **inventory of what notes _can_ cover**, not a checklist to clear. Pick what the entry actually needs, then stop.
+
+Per-field char budgets and the gloss-vs-definition rule live in `prompts/newentries.md` under "Length targets" — defer to those numbers when creating new entries. Single-sense notes typically run ~400–900 chars; multi-sense ~700–1,500 chars; hard ceilings ~1,200 / ~2,000 chars. If you cross a ceiling, cut before continuing.
+
 ## Language Requirement (CRITICAL)
 
 **All explanatory text in notes must be in English.** This includes etymology, usage explanations, cultural context, grammar notes, and any other prose. Japanese text should appear only within example phrases, collocations, pattern demonstrations, and headwords — never as explanatory sentences.
@@ -79,16 +85,18 @@ For entries with only one note or a simple explanation, a single paragraph is ac
 
 ## Content Categories
 
-Notes should include relevant information from these categories, in approximate order of priority:
+Notes should draw from this inventory — **not all of them, not even most of them**. A typical entry uses two or three. Pick categories that add something the gloss and examples don't already convey.
 
-### For All Entries
+### For All Entries (in approximate order of priority)
 
-1. **Core semantic explanation** - What the word fundamentally means beyond the gloss
-2. **Similar word distinctions** - How this word differs from near-synonyms
-3. **Common collocations** - Typical word pairings that aid natural usage
-4. **Register notes** - Formality level and situational appropriateness
-5. **Common mistakes** - What learners typically get wrong
-6. **Cultural context** - When cultural background aids understanding
+1. **Core semantic explanation** - What the word fundamentally means beyond the gloss. Skip if the gloss already captures it.
+2. **Common collocations** - Typical word pairings that aid natural usage. Usually 3–6 bulleted items, not exhaustive.
+3. **Similar word distinctions** - How this word differs from near-synonyms. Include only when learners would otherwise confuse them.
+4. **Register notes** - Formality level and situational appropriateness. Include only when the register is non-obvious or markedly different from neutral.
+5. **Common mistakes** - What learners typically get wrong. Include only when a specific, frequent error exists.
+6. **Cultural context** - When cultural background aids understanding. Include only when it's load-bearing for the meaning.
+
+Adding categories that aren't needed (e.g., a generic "USAGE NOTES" or "TYPICAL CONTEXTS" block that restates the gloss) makes notes worse, not better.
 
 ### Entry-Type-Specific Content
 
@@ -271,21 +279,23 @@ The rendering converts newlines appropriately, so focus on logical structure in 
 
 ## POS Note Templates (Machine-Readable)
 
-The expected note structure for each POS is defined in `build/note_templates.json`. This file is used by `build/score_note_quality.py` to score note quality. When writing notes, aim to include the required sections for the entry's POS:
+The expected note structure for each POS is defined in `build/note_templates.json`. This file is used by `build/score_note_quality.py` to score note quality. The minimums below are floors, not targets — most well-written notes sit comfortably above the minimum but well under the ceiling.
 
-| POS | Required Sections | Min Length |
-|-----|-------------------|------------|
-| verb-ichidan, verb-godan | transitivity, common patterns | 120 chars |
-| verb-suru, verb-irregular | common patterns | 100 chars |
-| adjective-na, adjective-i | usage | 80 chars |
-| adjective-no | usage | 60 chars |
-| noun | (none required) | 60 chars |
-| adverb | (none required) | 60 chars |
-| particle | functions | 100 chars |
-| counter | counting patterns | 80 chars |
-| expression | (none required) | 60 chars |
+| POS | Required Sections | Min Length | Typical Length | Hard Ceiling |
+|-----|-------------------|------------|----------------|--------------|
+| verb-ichidan, verb-godan | transitivity, common patterns | 120 chars | 500–1,000 | 1,500 |
+| verb-suru, verb-irregular | common patterns | 100 chars | 400–900 | 1,200 |
+| adjective-na, adjective-i | usage | 80 chars | 400–800 | 1,200 |
+| adjective-no | usage | 60 chars | 300–700 | 1,000 |
+| noun | (none required) | 60 chars | 400–900 | 1,200 |
+| adverb | (none required) | 60 chars | 300–700 | 1,000 |
+| particle | functions | 100 chars | 500–1,200 | 1,800 |
+| counter | counting patterns | 80 chars | 400–900 | 1,200 |
+| expression | (none required) | 60 chars | 300–700 | 1,000 |
 
-Optional sections (bonus quality): collocations, similar words, register, cultural context, forms, aspect, etc. See `build/note_templates.json` for the complete list per POS.
+Multi-sense entries can run roughly twice as long as single-sense entries of the same POS, capped at ~2,000 chars total. If you're near a hard ceiling, cut a section before continuing.
+
+Optional sections that may appear when they earn their place: collocations, similar words, register, cultural context, forms, aspect. **Optional does not mean "include all of them."** See `build/note_templates.json` for the complete list per POS.
 
 To check an entry's note quality score:
 ```bash

@@ -7,7 +7,7 @@ description: Requirements for creating or revising verb entries in je-dict-1. Co
 
 **Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
 
-When creating or revising VERB entries, include all of the following:
+When creating or revising VERB entries, work from the sections below as an inventory — **not** a checklist to clear every time. Verb-entry notes typically run 2–3 sections (~400–1,000 chars for single-sense entries; see `vocabulary-notes` for the full length table). Transitivity is almost always included; aspect/ている is included only when the behavior is non-obvious; medium-priority sections (register, negative usage, keigo) are included only when they add something the gloss and examples don't.
 
 ## Conjugation Field (REQUIRED)
 
@@ -34,8 +34,8 @@ TRANSITIVITY:
 
 **Pair linking**: Use `prominent_see_also` (NOT `cross_references`) to link transitive/intransitive pair verbs. The `note` field should indicate what the *target* entry is ("transitive" or "intransitive"). Always verify the back-link exists on the pair entry.
 
-### 2. Aspect/ている Behavior
-Explicitly state what ている means for this verb:
+### 2. Aspect/ている Behavior (when non-obvious)
+Explicitly state what ている means for this verb **only when it's non-obvious** — typically for stative/resultative verbs in the reference list below, or verbs where ている produces a state rather than an ongoing action. For ordinary action verbs where ている means "is doing X" in the expected way, this section can be omitted.
 
 ```
 ASPECT:
