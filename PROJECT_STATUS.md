@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-11 (Vocabulary Expansion - 20 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 20 new dictionary entries (IDs 27410-27429) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. This batch focuses on formal business correspondence vocabulary, fashion/swimwear loanwords, food loanwords, and several missing nouns. Two new kanji (憺, 欅) added to the kanji index.
+
+- **Formal business correspondence (3)**: {高配|こうはい} (kind consideration/patronage), {引|ひ}き{立|た}て (patronage/support), {業務上|ぎょうむじょう} (professional/occupational)
+- **Fashion / swimwear loanwords (4)**: ファー (fur), フェイクファー (faux fur), ビキニ (bikini), ラッシュガード (rash guard)
+- **Food loanwords (2)**: ミルクティー (milk tea), コンデンスミルク (condensed milk)
+- **Performance/evaluation loanwords (2)**: ケアレスミス (careless mistake), ノーミス (flawless run)
+- **Nouns (8)**: {惨憺|さんたん} (wretched, taru-adj), {協同|きょうどう} (cooperation), もみほぐす (to massage thoroughly, godan), {欅|けやき} (zelkova), ナット (nut fastener), {狙|ねら}い{目|め} (sweet spot/opportunity), {水仙|すいせん} (narcissus), フィギュアスケート (figure skating), クロス (cloth / cross, two-sense)
+
 ### 2026-05-11 (Vocabulary Expansion - 24 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 27386-27409) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. This batch closes early-ID (entries ~00049-00275) cross-reference gaps surfaced by comprehensive-polish runs. One new kanji (尉) added to the kanji index.
 
