@@ -150,6 +150,8 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
 
 ## Session-end workflow
 
+**Single-build rule.** Run `make build` exactly once per session. If you spot a wrong inline link, wrong homograph entry ID, or any other error after the build has completed, do NOT fix it in this session — append a one-line `[entry]` note to `polishing/observations.md` (e.g., `[entry] 00329 oginau: 合う link points to 09500_au, should be 10466_au`) and continue to the push / PR / merge sequence on the SHA you already built. Fix-up commits are the single biggest cause of stranded PRs: they force a second `make build` (which floods the session with `docs/` diff output), a second push, and a second CI wait, and the merge call usually doesn't survive the resulting context burn.
+
 1. **Update `polishing/tasks/comprehensive/progress.txt`** with the next entry ID:
    ```
    next: XXXXX
@@ -187,9 +189,11 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
 
 6. **Create the PR, wait for CI, then merge it yourself.** This is the step that previously broke the hourly Routine — sessions created PRs but the merge never happened, so progress on `main` never advanced and subsequent sessions redid the same range. **Do not stop after creating the PR.** The full sequence (details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
 
+   **Atomic-tail rule.** After `git push`, the rest of the session is exactly three tool calls in this order: `mcp__github__create_pull_request` → `Monitor` running `pipeline/wait-for-pr-checks.sh` → on exit 0, `mcp__github__merge_pull_request` with `merge_method: "squash"`. Do not interleave any other tool. If you find yourself wanting to read an entry file, edit one, or re-run a build script between push and merge, stop — log the concern and proceed to merge instead.
+
    **Routine / unattended (default — `gh` is not authorized):**
    1. Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body). Note the PR number from the response URL.
-   2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool — it polls the GitHub API every 15 s and emits one status line per poll. CI for this repo finishes in ~60 s; the script gives up after 10 minutes.
+   2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number> 30` via the `Monitor` tool — passing `30` sets the poll interval to 30 s (the default of 15 s emits a notification line every 15 s, which burns extra context during the 3–6 min that GitHub sometimes takes just to start the first check-run). CI for this repo finishes in ~60 s once it starts; the script gives up after 10 minutes.
    3. **Merge** based on the helper's exit code:
       - **Exit 0 (all checks green)**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is now done.
       - **Exit non-zero**: leave the PR open, add a brief sentence to the session log explaining what the helper reported (failure / timeout / no checks), and stop. The curator will investigate.
