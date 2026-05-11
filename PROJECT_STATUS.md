@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-11 (Vocabulary Expansion - 24 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 27386-27409) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. This batch closes early-ID (entries ~00049-00275) cross-reference gaps surfaced by comprehensive-polish runs. One new kanji (尉) added to the kanji index.
+
+- **Loanwords for daily/commercial life (10)**: ガムテープ (packing tape), ガムシロップ (gum syrup), ショッピングモール (shopping mall), グランドオープン (grand opening), シャンパン (champagne), ジョッキ (beer mug), ロックグラス (rocks glass), クレーム (complaint), スーパーマーケット (supermarket), マイクロフォン (microphone)
+- **Plants/nature (1)**: つる (vine, tendril)
+- **Verbs (2)**: {這|は}いつくばる (to prostrate oneself, godan), {申|もう}し{立|た}てる (to lodge a complaint, ichidan)
+- **Traditional culture / craft (3)**: {竹垣|たけがき} (bamboo fence), {干|ほ}し{菓子|がし} (dried sweets), ガリ (pickled ginger for sushi)
+- **Health / body (2)**: {指圧|しあつ} (shiatsu), {整体|せいたい} (chiropractic-style body adjustment)
+- **Legal / technical / formal (4)**: {重過失|じゅうかしつ} (gross negligence), {大尉|たいい} (captain rank), {係数|けいすう} (coefficient), {許|ゆる}し (forgiveness/permission)
+- **Expression (1)**: ついてない (out of luck, colloquial)
+- **Other (1)**: {部員|ぶいん} (club/department member)
+
+Total entries: 27,177 → 27,201. Candidates: 1,679 → 1,655.
 
 ### 2026-05-10 (Vocabulary Expansion - 22 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27364-27385) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch addresses early-ID (entries ~00138-00205) cross-reference gaps surfaced by comprehensive-polish runs.
