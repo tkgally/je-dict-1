@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-12] maintenance | Furigana wrapper anomalies, expanded conjugation-mismatch finding, three backlog updates
+
+**Session type**: Manual session (curator-directed: continue exploration of entry issues from the previous session)
+
+**Activities**:
+- [F] Continued the 2026-05-11 entry-exploration thread, this time running stratified audits across the full 27,221-entry set to surface two new actionable patterns:
+  - **Conjugation/POS mismatches widened from 12 to 130 entries.** The previous session's "12 onomatopoeia with bad godan conjugations" was a 9.2% subset. The full audit shows 91 adverbs (mostly く-ending forms like 著しく, すごく, ますます, おそらく, あいにく), 31 expressions (反応を見る, 場を和ませる, 頼りにする, …), 5 noun-adverbs (真っ二つ, 多く, 遠く), 2 auxiliaries, and 1 na-adj+adverb — all carrying a conjugation field while their POS tag contains no `verb-*` value. Every one of the 130 carries a stray `verb_class` tag that triggered `add_conjugations.py`. Adverbs ending in く are the cleanest case: the script generates forms like `著しきます` and `すごかない` that are not Japanese.
+  - **859 malformed furigana wrappers across 624 unique entries.** Four sub-patterns: 211 with the お-prefix inside the wrapper (`{お酒|おさけ}`), 13 with ご-prefix, 172 pure-kana wrappers (some reversed like `{ところ|所}`), and 463 with okurigana inside the wrapper (`{若い|わかい}`). Of the okurigana subset, **68 are visibly wrong on the live site** because the reading is truncated (`{やり方|かた}` paints `かた` over the entire `やり方`). Confirmed downstream impact: 01525_wakai (basic-tier 若い) is missing its conjugation table on the live site because `add_adjective_conjugations.py` couldn't parse the malformed headword.
+- [D] Created `topics/furigana-wrapper-anomalies.md` — substantive new analysis page documenting the four sub-patterns, distribution across headword/examples/notes, three downstream effects (rendering bugs, search/lookup misses, inline-link surface extraction failures), three causal hypotheses (copy-paste from external sources, LLM autocomplete drift, no validator), and a detection sketch for a `check_furigana_format.py` validator. Frames the pattern as the string-level analogue of the tag-drift pattern documented in `schema-tag-reliability.md`: slightly off-spec data parses successfully and accumulates silently because no validator checks it.
+- [C] Extended `topics/schema-tag-reliability.md` with the widened conjugation-mismatch finding. Updated the case study from "12 onomatopoeia" to "130 entries across 5 primary-POS categories" with a breakdown table and explicit examples of generated nonsense forms (`著しきます`, `反応を見らない`). Updated the detection-sketch count and cross-referenced the new wrapper-anomalies page. Last-updated date bumped to 2026-05-12.
+- [F/A] Updated `ideas/cleanup-backlog.md`: rewrote Priority 6 to cover all 130 conjugation-mismatch entries (was just 12), added the breakdown by primary POS, added a one-liner shell command to extract the full list. Added new Priority 9 for malformed furigana wrappers with the four-sub-pattern breakdown and severity ranking (68 truncated-reading cases highest-priority because they display visibly wrong furigana).
+- [F/A] Updated `ideas/tooling-backlog.md`: rewrote item 5 to cover the 130-entry scope (was 12), with explicit guidance on the expression-case ambiguity. Added new item 8 (`check_furigana_format.py` validator with severity-ranked output) and new item 9 (targeted headword fix script for the 22 malformed-headword entries that the format-validator would flag).
+- [F/A] Updated `ideas/entry-followups.md`: added 01525_wakai with the concrete repair recipe (fix headword format → re-run conjugation script) and 08261_totonoenaosu (POS mis-tagged as `verb-ichidan` but should be `verb-godan`). Noted three additional entries with the noun-form-tagged-as-verb mis-tagging pattern (17582_urazuke, 08385_moushiokuri, 08016_sashiosae).
+- [E] Added the new wrapper-anomalies topic to `index.md`. Updated index `Last updated` date.
+- Harvest of `polishing/observations.md`: no unprocessed observations (last harvested 2026-05-10; cleared on 2026-05-11). No changes to the file.
+
 ## [2026-05-11] maintenance | Entry-exploration synthesis: schema tag reliability, three backlog updates, stats sync
 
 **Session type**: Manual session (curator-directed: explore real entries and reflect them back into the wiki)

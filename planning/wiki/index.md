@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 ## How this wiki is organized
 
@@ -71,6 +71,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Deterministic vs. Semantic Tasks](topics/deterministic-vs-semantic-tasks.md) — Which editorial tasks can be automated and which require LLM judgment
 - [Enhancement Plan 2026 Retrospective](topics/enhancement-plan-retrospective.md) — What the 16-phase enhancement plan built, which targets were met, and what remains
 - [Schema Tag Reliability](topics/schema-tag-reliability.md) — Recurring cases where metadata tags drift from entry content (runaway automation, categorical compression, stale auto-labels)
+- [Furigana Wrapper Anomalies](topics/furigana-wrapper-anomalies.md) — Malformed furigana wrapper patterns: honorific-prefix-inside-wrapper, pure-kana wrappers, truncated readings, and over-wrapped okurigana (859 instances across 624 entries)
 
 ## Ideas
 

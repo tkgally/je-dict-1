@@ -46,3 +46,4 @@ Some dictionaries only annotate "difficult" kanji, but:
 - [Entry Design](../project/entry-design.md)
 - [Japanese Lexicography](../research/japanese-lexicography.md)
 - [Kanji Learning and Dictionary Treatment](../research/kanji-learning-dictionaries.md) — research on kanji acquisition, lookup methods, and the pedagogical role of furigana
+- [Furigana Wrapper Anomalies](furigana-wrapper-anomalies.md) — malformed `{kanji|reading}` patterns currently in the entry set and what to do about them

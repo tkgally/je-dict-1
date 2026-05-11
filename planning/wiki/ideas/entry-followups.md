@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -80,6 +80,24 @@ The following adverbial onomatopoeia entries have a full godan conjugation block
 | 27085_kotsukotsu | こつこつ |
 
 **Recommended fix**: Remove the `conjugation` field and the `verb_class` tag from each. Best done as a single deterministic pass (see [Tooling Backlog](tooling-backlog.md) → item 5) rather than as separate polishing-session work. Then add a defensive guard in `add_conjugations.py` so this can't regenerate.
+
+## 01525_wakai (若い) — Missing conjugation table due to malformed headword
+
+**Source**: Wiki maintenance 2026-05-12 entry exploration
+
+Basic-tier i-adjective 若い is currently on the live site **without** an i-adjective conjugation table. The cause is the headword `{若い|わかい}`: the okurigana い is inside the wrapper, so `add_adjective_conjugations.py` couldn't extract a clean stem and skipped the entry. The other 453 i-adjective entries have conjugation tables; only this one is missing because of the format issue.
+
+**Recommended fix**: Change the headword from `{若い|わかい}` to `{若|わか}い`, then re-run `python3 build/add_adjective_conjugations.py --start 1525 --end 1525` to backfill the conjugation table. The same pattern applies to the other 21 entries listed in [Tooling Backlog](tooling-backlog.md) → item 9.
+
+## 08261_totonoenaosu (整え直す) — Mis-tagged POS
+
+**Source**: Wiki maintenance 2026-05-12 entry exploration
+
+Entry 08261_totonoenaosu (整え直す) is tagged `pos: ["verb-ichidan"]` but its headword ends in す and it is in fact a godan-su verb (compound of 整える + 直す, where 直す is godan-su). The mis-tag prevents `add_conjugations.py` from generating a conjugation table: the script sees `verb-ichidan` but the form doesn't end in る, so it skips.
+
+**Recommended fix**: Change `verb-ichidan` to `verb-godan` in the POS tag, set `verb_class: "godan-su"`, then run `add_conjugations.py` on just that entry.
+
+A similar review may be needed for 17582_urazuke (裏付け), 08385_moushiokuri (申し送り), and 08016_sashiosae (差し押さえ) — these are tagged with verb POS but the headwords are noun (連用形) forms rather than verb citation forms, so the conjugation pipeline skips them. Either retag (drop the verb POS, keep noun) or replace the headword with the verb citation form.
 
 ## 00565_toru sense 2 — Overlap with 00760_toru (撮る)
 
