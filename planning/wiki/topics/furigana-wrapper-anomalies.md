@@ -1,0 +1,160 @@
+# Furigana Wrapper Anomalies
+
+**Last updated**: 2026-05-11
+
+## Overview
+
+je-dict-1 uses an in-text furigana syntax of the form `{kanji|reading}` to attach phonetic readings to kanji. The convention is that the **part before the pipe is the surface text (kanji only)** and **the part after the pipe is the hiragana reading**. Hiragana surface characters — okurigana and the honorific prefixes お・ご — should appear *outside* the wrapper:
+
+> Correct: `お{酒|さけ}`, `{若|わか}い`, `{走|はし}り{続|つづ}ける`
+> Wrong:   `{お酒|おさけ}`, `{若い|わかい}`, `{走り続ける|はしりつづける}`
+
+An entry-level audit of all 27,000+ entries surfaces **859 instances across 624 unique entries** where the kanji portion of a wrapper contains hiragana. The error categories range from "renders correctly but is non-standard" through "renders correctly visually but breaks search/lookup" to "produces visibly wrong furigana." This page enumerates the patterns and their consequences.
+
+## Counts by location and category
+
+Detected with the regex `\{([^|}{]+)\|([^}{]+)\}` over `headword`, `examples[*].japanese`, and `notes`:
+
+| Field | Instances |
+|-------|-----------|
+| Headword | 22 |
+| Examples | 253 |
+| Notes | 584 |
+| **Total** | **859** |
+
+Across **624 unique entries**.
+
+By sub-pattern:
+
+| Sub-pattern | Count | Example |
+|-------------|------:|---------|
+| o-prefix inside wrapper (`{お…\|お…}`) | 211 | `{お客様\|おきゃくさま}` |
+| go-prefix inside wrapper (`{ご…\|ご…}`) | 13 | `{ご飯\|ごはん}` |
+| Pure-kana wrapper (no kanji at all) | 172 | `{どんどん\|どんどん}` |
+| Okurigana inside wrapper (kanji + hiragana on left side) | 463 | `{若い\|わかい}`, `{未払い\|みばらい}` |
+
+## Sub-pattern 1: honorific prefix inside the wrapper (224 instances)
+
+Words like お酒, お客様, ご飯, ご縁 are commonly written with an honorific prefix お (or ご) followed by kanji. The prefix is itself a hiragana character and does **not** need furigana. The correct form is:
+
+```
+お{酒|さけ}        ご{飯|はん}
+```
+
+What appears in 224 entries is instead:
+
+```
+{お酒|おさけ}     {ご飯|ごはん}
+```
+
+This renders without visible error in most browsers — the ruby tag puts `おさけ` over `お酒`, so the visible result is **two characters with three furigana characters spread over them**, which most browsers center-align acceptably. The two downstream costs are:
+
+1. **Search/lookup mismatch.** `build/word_id_lookup.json` is keyed by the surface form. `お{酒|さけ}` produces a clean surface of `お酒` after stripping. `{お酒|おさけ}` produces the same `お酒`, so in this particular case the lookup happens to work. But `{お会|おあ}` (a partial wrap of `お会いする`) produces a surface of `お会` — not a real word — which the lookup misses.
+
+2. **Inline-link compatibility.** Inline cross-references take the form `⟦surface→base：entry_id⟧`. The polishing prompts derive `surface` by extracting the visible text from a furigana run. The over-wrapped form forces extraction logic to handle multi-character surfaces with leading hiragana, which is brittle.
+
+The fix is mechanical: replace `{お(.+?)|お(.+?)}` with `お{\1|\2}`, with the same for ご. Roughly 200 instances are clean-replaceable; the rest need spot review because the kanji portion may contain interleaved okurigana.
+
+## Sub-pattern 2: pure-kana wrapper (172 instances)
+
+```
+{どんどん|どんどん}    {いつも|いつも}    {ところ|所}    {ある|ない}
+```
+
+When the kanji portion contains **no kanji at all**, the wrapper is at best a no-op and at worst a defect:
+
+- `{どんどん|どんどん}` — surface == reading; the wrapper does nothing useful and just adds noise.
+- `{ところ|所}` — **reversed**: the hiragana `ところ` is on the surface side, and the kanji `所` is on the reading side. The renderer will display `ところ` with `所` floating above it as ruby. Visually broken.
+- `{ある|ない}` — surface `ある` and reading `ない` are **different words**. This is a pure data error.
+
+A pure-kana wrapper is never correct. Either the wrapper is unnecessary (delete it) or it has been written backwards (swap the parts), or one side is just wrong (fix the content).
+
+## Sub-pattern 3: okurigana inside the wrapper (463 instances)
+
+This is the largest category and the one where the consequences vary most.
+
+```
+{若い|わかい}        {未払い|みばらい}      {寄り合い|よりあい}
+{やり方|かた}        {セミの羽化|うか}      {しかめ面|づら}
+```
+
+Distinguish three subtypes:
+
+### 3a. Reading mirrors the okurigana (152 instances — over-wrapped but renders OK)
+
+`{若い|わかい}`, `{未払い|みばらい}`, `{連れ|つれ}`, `{寄り合い|よりあい}` — the okurigana hiragana in the surface appears at the corresponding position in the reading. A single ruby tag spans the whole word; visually correct. The only problem is style: the standard convention is to put okurigana outside the wrapper, so the canonical forms would be:
+
+```
+{若|わか}い           {未払|みばら}い        {連|つ}れ        {寄|よ}り{合|あ}い
+```
+
+### 3b. Reading shorter than surface (68 instances — visibly wrong)
+
+`{やり方|かた}`, `{さらけ出|だ}`, `{セミの羽化|うか}`, `{しかめ面|づら}` — the reading only covers the **last** kanji, but the wrapper includes preceding hiragana on the surface side. Browsers will paint the partial reading over the full surface, producing visually wrong furigana (e.g., `かた` rendered over the entire `やり方`).
+
+This is a true rendering bug. Each instance needs targeted repair: usually splitting the wrapper into a separate hiragana prefix plus a `{kanji|reading}` segment.
+
+### 3c. Other interleaving (243 instances — most render OK but non-standard)
+
+`{か所|かしょ}`, `{やる気|やるき}`, `{差し水|さしみず}`, `{決め手|きめて}` — the okurigana is in the middle or beginning of the surface, and the reading is the full phonetic version. As with 3a, the ruby span covers the whole word and renders correctly. The canonical form would be:
+
+```
+か{所|しょ}     やる{気|き}     {差|さ}し{水|みず}     {決|き}め{手|て}
+```
+
+## Effects beyond rendering
+
+Even when the rendered result is visually correct, malformed wrappers cause two downstream problems documented in the existing tooling-backlog and observations:
+
+1. **`add_adjective_conjugations.py` skips entries with malformed headwords.** Entry 01525_wakai (`{若い|わかい}`) is currently missing its conjugation table — almost certainly because the headword's furigana parser couldn't extract a clean stem. The basic-tier i-adjective 若い is on the live site without conjugations.
+
+2. **Inline-link surface extraction misfires.** Comprehensive-polish observation 2026-05-08-002 noted that `verify_furigana.py` raises false positives on certain inline link patterns. The malformed wrapper class compounds the problem: the surface text the script sees after stripping isn't the surface text the renderer displays.
+
+3. **`word_id_lookup.json` misses keys.** Lookups for partial-kanji surfaces (e.g., `お会` from `{お会|おあ}`) match nothing, so polish prompts that try to add inline links via the lookup fail silently.
+
+## Why does this happen?
+
+The pattern's frequency suggests a specific failure mode rather than a one-off error. Inspecting the affected entries by creation date does not reveal a single cohort — these errors appear across all months of entry creation. Three causal hypotheses:
+
+1. **Copy-paste from external sources.** Many dictionaries and reading-aid tools annotate the whole word (kanji + okurigana) with the whole reading as one ruby tag. When entry-creation prompts copy or paraphrase external content, the source's convention can leak through.
+
+2. **LLM autocomplete drift.** The schema's documented convention is "kanji only inside the wrapper," but entry-creation prompts don't restate this on every example. An LLM filling in a notes section may default to the more visually salient pattern (annotate the whole word) when not specifically reminded.
+
+3. **No validator.** `build/verify_furigana.py` checks for **missing** furigana (kanji without a wrapper). It does not check whether the kanji portion of a wrapper is well-formed. `build/validate.py` schema-checks structure but doesn't parse the furigana strings. Without a validator, the error pattern has no immune system.
+
+## Connection to existing wiki analyses
+
+- [Schema Tag Reliability](schema-tag-reliability.md) describes "runaway automation" — pipelines that consume bad data and produce more bad data. Malformed furigana is the same phenomenon at the **string level**: a slightly off-spec string parses successfully but breaks downstream tools (lookup, inline links, conjugation generation).
+- [Furigana Strategy](furigana-strategy.md) documents *when* to annotate kanji. This page documents *how* to format the annotation when it is present.
+- [Entry Consistency](entry-consistency.md) treats consistency in note structure. Furigana-string consistency is a parallel concern that has been less visible because the errors are mostly invisible to the eye.
+
+## Detection sketch
+
+A `build/check_furigana_format.py` script would:
+
+1. Walk every entry's headword, examples, and notes.
+2. For each `\{[^|}{]+\|[^}{]+\}` match, classify by sub-pattern (o-prefix, go-prefix, pure-kana, okurigana-in-wrap-with-mirror, okurigana-in-wrap-truncated, okurigana-in-wrap-other).
+3. Emit JSON or a fix-list of entry IDs to a polish prompt.
+
+Sub-pattern 3b (truncated readings) should be the highest-severity output bucket because those entries display visibly wrong furigana. Sub-pattern 2 (pure-kana wrappers) is next because many of those are reversed or mismatched. Sub-patterns 1 and 3a/3c are mostly cosmetic but worth a single sweep.
+
+## Implications for je-dict-1
+
+1. **Add a furigana-format validator.** A small `check_furigana_format.py` pass complements the existing `verify_furigana.py` (missing-furigana detector). Without one, the error pattern keeps recurring on every new creation batch.
+
+2. **Prioritize sub-pattern 3b (truncated readings) as a rendering bug.** 68 entries currently display visibly wrong furigana. These are not cosmetic; on the live site, learners see incorrect phonetic information.
+
+3. **Add a one-shot cleanup pass for sub-patterns 1, 2, and 3a/3c.** Mostly mechanical replacements with regex assistance, but each replacement should be validated against `build/word_id_lookup.json` to confirm the resulting surface form is recognized.
+
+4. **Restate the convention in entry-creation skills.** The `entry-guidelines` skill (and the inline `furigana strategy` notes within other skills) should explicitly state "okurigana and お/ご prefixes go outside the wrapper" with both the right and the wrong examples. The current documentation says "all kanji must have furigana" but doesn't address where exactly the wrapper boundaries should sit.
+
+5. **Document why this matters.** Malformed wrappers are mostly invisible on the surface, which is why the pattern has accumulated 859 instances without notice. The notes-prose case is particularly insidious because notes don't get re-rendered as often as examples; problems can linger forever.
+
+## Related pages
+
+- [Furigana Strategy](furigana-strategy.md) — when and how to annotate kanji with readings
+- [Schema Tag Reliability](schema-tag-reliability.md) — sibling page on metadata drift; same "no validator → silent accumulation" pattern at the tag level
+- [Entry Consistency](entry-consistency.md) — consistency standards across entries
+- [Cleanup Backlog](../ideas/cleanup-backlog.md) — actionable cleanup items
+- [Tooling Backlog](../ideas/tooling-backlog.md) — proposed scripts (including the format validator)
+- [Entry Follow-ups](../ideas/entry-followups.md) — specific entries identified

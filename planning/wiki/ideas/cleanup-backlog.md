@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -54,19 +54,46 @@ Particle entries with extensive structured fields (e.g., 00051_ga and 00079_ha w
 
 **Affected entries**: At minimum 00051 (が), 00079 (は), and likely 00422 (を), 00314 (に), 00502 (で), 00504 (と), 00512 (から).
 
-## Priority 6: Spurious onomatopoeia conjugation tables
+## Priority 6: Spurious conjugation tables on non-verb entries
 
-**Source**: Wiki maintenance 2026-05-11 entry exploration
+**Source**: Wiki maintenance 2026-05-11 (initial 12-entry onomatopoeia case) + 2026-05-12 (widened audit)
 
-Twelve adverbial onomatopoeia entries currently carry full godan conjugation blocks with nonsense forms (e.g., ぐつぐつ → ぐつぐたない, こつこつ → こつこたない). They have `pos: ["adverb", "onomatopoeia"]` (no verb POS), but a stale `verb_class: "godan-tsu"` tag triggered `add_conjugations.py` at some point in the past.
+The 2026-05-11 session identified 12 adverbial onomatopoeia entries (ぐつぐつ → ぐつぐたない etc.) carrying full godan conjugation blocks with nonsense forms. The 2026-05-12 follow-up audit shows this was a partial finding: **130 entries currently have a conjugation field while their POS tag contains no `verb-*` or `adjective-i` value**. All 130 carry a stray `verb_class` tag that triggered `add_conjugations.py`.
 
-**Affected entries (12):**
-05646_gyuugyuu, 05723_pakupaku, 05724_jabujabu, 05726_boubou, 06683_potsupotsu, 08432_gotsugotsu, 18531_gutsugutsu, 21888_mukumuku, 22356_gougou, 26081_pukupuku, 26864_buruburu, 27085_kotsukotsu.
+**Breakdown by primary POS:**
+
+| Primary POS | Count | Example | Generated nonsense |
+|-------------|------:|---------|--------------------|
+| adverb (non-onomatopoeia) | 79 | 著しく, すごく, おそらく, ますます, あいにく | `著しきます`, `すごかない` |
+| adverb + onomatopoeia | 12 | ぐつぐつ, こつこつ, ぱくぱく | `ぐつぐたない` |
+| expression | 31 | 反応を見る, 手を打つ, 場を和ませる | `反応を見らない` (mis-classifies 見る as godan) |
+| noun + adverb | 5 | 真っ二つ, 多く, 遠く | varies |
+| auxiliary | 2 | ～続ける | godan-ku forms |
+| na-adj + adverb | 1 | べらぼう | godan forms |
+| **Total** | **130** | | |
+
+The original 12-onomatopoeia list is a subset. For the full list of 130, run:
+
+```bash
+python3 -c "
+import json, glob
+for p in glob.glob('entries/*/*.json'):
+    d = json.load(open(p))
+    pos = (d.get('metadata') or {}).get('tags', {}).get('pos', []) or []
+    if d.get('conjugation') and not any(x in pos for x in ['verb-godan','verb-ichidan','verb-suru','verb-irregular','verb-kuru','adjective-i']):
+        print(d['id'])
+"
+```
+
+**Sub-pattern: adverb cases (96 of the 130)** are the cleanest demonstration of failure. These are adverbial forms of i-adjectives (著しく ← 著しい), adverbs derived from other roots (おそらく, ますます), or fixed phrases (あいにく). They have no verb morphology of their own, but `add_conjugations.py` saw the く ending and generated `godan-ku` conjugations like `著しきます` and `すごかない` — forms that are not Japanese.
+
+**Sub-pattern: expression cases (31)** are partly correct, partly broken. Expressions ending in する (頼りにする, お会いする) get suru-conjugations that happen to be correct because the script conjugates する correctly regardless of the surrounding phrase. Expressions whose final verb is ichidan but tagged godan (反応を見る where 見る is ichidan) produce nonsense like `反応を見ります`.
 
 **Suggested actions**:
-1. One-shot pass: remove the `conjugation` field and the stray `verb_class` tag from each of the 12 entries.
-2. Defensive guard in `add_conjugations.py`: refuse to write a conjugation block unless the entry has at least one `verb-*` POS tag. Filed in [Tooling Backlog](tooling-backlog.md).
-3. See [Schema Tag Reliability](../topics/schema-tag-reliability.md) for the broader pattern.
+1. **One-shot pruner** that finds every entry where `pos` contains no `verb-*` value but the entry has a `conjugation` field, prints them for review, and on confirmation removes the `conjugation` field and the stray `verb_class` tag. Replaces the narrower 12-entry list filed earlier. See [Tooling Backlog](tooling-backlog.md) → item 5.
+2. **Defensive guard in `add_conjugations.py`**: refuse to write a conjugation block unless the entry has at least one `verb-*` POS tag. Prevents regeneration.
+3. **For the 31 expression cases**: review whether they should keep a conjugation block at all. Most idioms don't conjugate as a unit; the underlying verb's conjugation is usually all the learner needs. If a conjugation block is desired, the type must match the final verb's class.
+4. See [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Runaway automation" for the broader pattern.
 
 ## Priority 7: Politeness tag conflation (uchi/soto, bikago, familiar suffixes)
 
@@ -97,6 +124,42 @@ Some entries are duplicates of each other that were linked via `prominent_see_al
 
 Also: 02008_ikuratemo carries `semantic: ["furniture"]` — an obviously stale auto-label. This is a representative case for [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Stale auto-labels."
 
+## Priority 9: Malformed furigana wrappers
+
+**Source**: Wiki maintenance 2026-05-12 entry exploration
+
+**859 instances across 624 unique entries** have hiragana inside the kanji portion of a furigana wrapper, in violation of the documented convention that `{kanji|reading}` puts kanji-only text on the left of the pipe. Distribution:
+
+| Field | Instances |
+|-------|----------:|
+| Headword | 22 |
+| Examples | 253 |
+| Notes | 584 |
+
+By sub-pattern:
+
+| Sub-pattern | Count | Example | Renders OK? |
+|-------------|------:|---------|-------------|
+| お-prefix inside wrapper | 211 | `{お酒\|おさけ}` | yes, but breaks lookups on partial wraps like `{お会\|おあ}` |
+| ご-prefix inside wrapper | 13 | `{ご飯\|ごはん}` | mostly yes |
+| Pure-kana wrapper (no kanji) | 172 | `{どんどん\|どんどん}`, `{ところ\|所}` | varies; `{ところ\|所}` is **reversed** and renders wrong |
+| Okurigana inside wrapper, reading covers full word | 152 | `{若い\|わかい}` | yes — over-wrapped only |
+| Okurigana inside wrapper, **reading truncated** | 68 | `{やり方\|かた}` | **no — visibly wrong furigana** |
+| Other interleaving | 243 | `{か所\|かしょ}`, `{差し水\|さしみず}` | yes — over-wrapped only |
+
+**Highest-severity sub-pattern: 68 entries with truncated readings.** The wrapper includes preceding hiragana on the surface side, but the reading covers only the kanji. Browsers paint the partial reading over the full surface, producing visibly wrong furigana on the live site (e.g., `かた` rendered over the entire `やり方`).
+
+**Highest-volume sub-pattern: 463 okurigana-inside-wrapper instances.** Most render correctly but are non-standard. Canonical form would be `{若|わか}い` instead of `{若い|わかい}`, etc.
+
+**Confirmed downstream impact**: 01525_wakai (basic-tier 若い) is currently missing its conjugation table on the live site because `add_adjective_conjugations.py` couldn't parse the headword `{若い|わかい}` to extract a stem.
+
+**Suggested actions**:
+1. **Targeted pass on sub-pattern 3b (68 truncated-reading instances)** — these are real rendering bugs. Manual review and repair.
+2. **Mechanical sweep** for sub-patterns 1, 2, and 3a/3c (~791 instances). Regex-driven replacements with validation against `build/word_id_lookup.json`. Mostly cosmetic but worth doing while the pattern is fresh.
+3. **Add a furigana-format validator** (`build/check_furigana_format.py`) alongside the existing `verify_furigana.py` (which checks only for *missing* furigana, not malformed wrappers). See [Tooling Backlog](tooling-backlog.md) → item 8.
+4. **Restate the convention in `entry-guidelines`** so new entries don't reintroduce the pattern. The current docs state "all kanji must have furigana" but don't address where the wrapper boundaries should sit relative to hiragana characters.
+5. See [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) for the full analysis.
+
 ## Informational: Pre-polished cohort around 00083–00090
 
 Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花火, 00088 判事) were already fully linked — suggesting a prior polish pass touched that range. Subsequent sessions entering this area should expect occasional entries needing no work.
@@ -108,3 +171,4 @@ Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花�
 - [Content Pipeline](../project/content-pipeline.md) — how polishing tasks work
 - [Entry Consistency](../topics/entry-consistency.md) — consistency standards
 - [Schema Tag Reliability](../topics/schema-tag-reliability.md) — analysis of recurring tag-drift patterns (covers P6–P8 above)
+- [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) — analysis of malformed wrapper patterns (covers P9 above)

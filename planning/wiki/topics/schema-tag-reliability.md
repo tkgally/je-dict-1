@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 
 ## Overview
 
@@ -12,9 +12,9 @@ The page is descriptive, not prescriptive. Concrete cleanup work belongs in [Cle
 
 ## Runaway automation: when a tag triggers wrong machinery
 
-### Case study: spurious onomatopoeia conjugations
+### Case study: spurious adverb and expression conjugations
 
-Twelve adverbial onomatopoeia entries — ぐつぐつ, ぱくぱく, じゃぶじゃぶ, ぼうぼう, ぽつぽつ, ごつごつ, むくむく, ごうごう, ぷくぷく, ぶるぶる, こつこつ, ぎゅうぎゅう — currently carry a full godan **conjugation block**. The block produces nonsense forms:
+The 2026-05-11 wiki session identified twelve adverbial onomatopoeia entries (ぐつぐつ, ぱくぱく, …) with full godan **conjugation blocks** producing nonsense forms:
 
 | Headword | Generated "present negative" | Generated "polite" |
 |----------|-----------------------------|--------------------|
@@ -22,19 +22,39 @@ Twelve adverbial onomatopoeia entries — ぐつぐつ, ぱくぱく, じゃぶ�
 | こつこつ | こつこたない | こつこちます |
 | ぱくぱく | ぱくぱかない | ぱくぱきます |
 
-These are not real Japanese forms. The entries themselves are correctly written as adverbs / mimetic words with `pos: ["adverb", "onomatopoeia"]` and notes that explain particle usage (`と` insertion before verbs) without claiming the word is itself a verb. The conjugation block is dead weight inherited from an upstream pipeline decision.
+A subsequent audit (2026-05-12) widened this finding considerably. **130 entries currently carry a conjugation field while their POS tag contains no `verb-*` or `adjective-i` value**, and every one of them has a stray `verb_class` tag. Distribution by primary POS:
 
-The mechanism is straightforward: `build/add_conjugations.py` looks at the entry's `metadata.tags.verb_class` and ending sound. At some point in the dictionary's history these adverbial mimetics were tagged with `verb_class: "godan-tsu"` (presumably because they end in つ) and the retrofit pass treated that tag as authoritative, generating conjugations as if the headword were a verb stem.
+| Primary POS | Entries | Sub-pattern |
+|-------------|--------:|-------------|
+| `adverb` | 91 | Mostly adverbs ending in く tagged `verb_class: godan-ku`; includes 12 onomatopoeia |
+| `expression` | 31 | Idiomatic phrases (反応を見る, 場を和ませる, 頼りにする, …) |
+| `noun` | 5 | Nouns also tagged adverbially (真っ二つ, 多く, …) |
+| `auxiliary` | 2 | ～続ける, similar |
+| `adjective-na` | 1 | べらぼう (also tagged adverb) |
 
-The lesson is broader than these twelve entries. **Tags become inputs to deterministic pipelines, and pipelines don't sanity-check their inputs.** Once a tag is wrong, every downstream tool that reads the tag inherits the error and may write further wrong data — in this case, a 17-form conjugation block.
+The adverb cases are the cleanest demonstration of the failure: 著しく ("remarkably"), すごく ("very"), 多く ("many"), 遠く ("far"), 全く ("completely"), あいにく ("unfortunately"), ますます ("more and more"), おそらく ("probably"), 漸く ("finally") — all are adverbial / fixed forms with no verb structure of their own. Their generated conjugations include constructions like:
+
+| Headword | Surface meaning | Generated "polite present" | Generated "past" |
+|----------|-----------------|----------------------------|------------------|
+| {著\|いちじる}しく | "remarkably" | {著\|いちじる}しきます | {著\|いちじる}しいた |
+| すごく | "very" | すごきます | すごいた |
+| {漸\|ようや}く | "finally" | {漸\|ようや}きます | {漸\|ようや}いた |
+
+None of these are Japanese. The closest valid forms come from the parent i-adjectives (著しい→著しかった, すごい→すごかった) — i.e., the entries should not have **verb** conjugation tables at all.
+
+The expression cases are more subtle. Some like {頼\|たよ}りにする and {場\|ば}を{和\|なご}ませる generate forms that happen to be correct because the final verb in the phrase is conjugated correctly (する → します, 和ませる → 和ませます). But others mis-classify the final verb's class: {反応\|はんのう}を{見\|み}る is tagged `godan` even though 見る is ichidan, producing nonsensical "godan-ized" forms like `反応を見らない` instead of `反応を見ない`.
+
+The mechanism is the same as for onomatopoeia: `build/add_conjugations.py` reads `metadata.tags.verb_class` and treats it as authoritative. Once a stale `verb_class` tag is present — for whatever reason — the retrofit generates a conjugation block whose forms have no relationship to actual Japanese morphology.
+
+The lesson is broader than these 130 entries. **Tags become inputs to deterministic pipelines, and pipelines don't sanity-check their inputs.** Once a tag is wrong, every downstream tool that reads the tag inherits the error and may write further wrong data — in this case, 17 generated forms per entry, ~2,200 generated forms in aggregate.
 
 This is the same dynamic that [Deterministic vs. Semantic Tasks](deterministic-vs-semantic-tasks.md) describes from the other direction: deterministic scripts can do tremendous work when the upstream data is right, but they have no judgment to push back when it isn't.
 
 ### Cleanup vs. defense in depth
 
-The narrow fix is a one-shot script that scans for `pos: [..., "onomatopoeia"]` (or any non-verb POS) co-occurring with a `conjugation` block and removes the block. This is filed in [Tooling Backlog](../ideas/tooling-backlog.md).
+The narrow fix is a one-shot script that scans for entries where `pos` contains no `verb-*` value and yet a `conjugation` block exists, then removes the block. **130 entries currently match this rule** (the original 12-onomatopoeia case was a 9.2% subset of the real scope).
 
-The broader fix is a guard inside `add_conjugations.py` itself: refuse to write a conjugation block unless the entry has at least one verb POS tag. The retrofit script becomes self-defending: if a future pass mis-tags more onomatopoeia as `verb_class: "godan-tsu"`, it still won't get a conjugation table.
+The broader fix is a guard inside `add_conjugations.py` itself: refuse to write a conjugation block unless the entry has at least one verb POS tag. The retrofit script becomes self-defending: if a future pass mis-tags more entries with a stray `verb_class`, they still won't get a conjugation table. This is filed in [Tooling Backlog](../ideas/tooling-backlog.md) → item 5.
 
 ## Categorical compression: when the schema can't represent reality
 
@@ -99,12 +119,13 @@ This phenomenon sits at the intersection of several existing topics:
 - [Keigo: Honorific Language](../research/keigo-honorifics.md) and [Register and Formality Marking](../research/register-formality-marking.md) document the multidimensional structure that the four-bucket politeness tag cannot represent.
 - [Grammar Information in Learner Dictionaries](../research/grammar-in-dictionaries.md) covers the broader tradition of grammar codes in learner dictionaries (Hornby's L,D,T codes; LDOCE's grammar patterns) — all of which face the same compression problem.
 - [Handling Homographs](homographs.md) and [Word Variants](word-variants.md) face a related issue: when one entry covers multiple kanji-variant senses (e.g., 取る's sense 2 actually written 撮る), the entry's tags can describe only one of the senses well.
+- [Furigana Wrapper Anomalies](furigana-wrapper-anomalies.md) is the string-level analogue of this page's tag-level analysis: slightly off-spec furigana wrappers parse successfully and accumulate silently because no validator checks them.
 
 ## Detection sketches
 
 These are not implementation plans, just notes on what a tag-drift detector might do.
 
-**Mismatched POS / conjugation:** Trivial — any entry with `conjugation` whose `pos` list contains no `verb-*` tag is suspicious. Twelve entries currently match.
+**Mismatched POS / conjugation:** Trivial — any entry with `conjugation` whose `pos` list contains no `verb-*` (or `adjective-i`) tag is suspicious. **130 entries currently match.** All 130 carry a stray `verb_class` tag that triggered `add_conjugations.py`.
 
 **Politeness tag vs. note prose:** Where the politeness tag is `humble` or `honorific`, the notes should contain the keyword "humble" or "honorific" (or equivalent explanation). Where they don't, either the tag is misapplied or the notes need expansion. Cheap to implement; flags both directions of error.
 
