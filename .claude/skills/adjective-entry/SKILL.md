@@ -7,7 +7,7 @@ description: Requirements for creating or revising adjective entries in je-dict-
 
 **Reminder:** Write each entry individually by hand. Do not use scripts to mass-produce entries. See `entry-guidelines` skill.
 
-When creating or revising ADJECTIVE entries (both i-adjectives and na-adjectives), include all of the following:
+When creating or revising ADJECTIVE entries (both i-adjectives and na-adjectives), work from the sections below as an inventory — **not** a checklist. Adjective notes typically run ~300–800 chars and cover two or three of: forms, predicate-vs-modifier usage, similar-word distinctions, register. Conjugation for i-adjectives lives in the structured `conjugation` field, not in notes. Include a section only when it adds something the gloss and examples don't.
 
 ## Required Sections
 

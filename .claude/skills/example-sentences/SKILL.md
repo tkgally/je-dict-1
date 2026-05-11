@@ -30,6 +30,8 @@ Every sense of every entry in the general tier must have **at least 3 example se
 
 **Multi-sense entries:** The requirements apply per sense. An entry with 3 senses in the basic tier needs at least 15 examples total (5 per sense).
 
+**Minimums are sufficient.** Exceeding the minimum by 0–1 examples per sense is fine when a useful additional collocation comes to mind, but routinely producing 5 examples for a single general-tier sense (when 3 are required) inflates the entry without adding value. Match the example count to the entry's complexity; don't pad.
+
 ---
 
 ## Progressive Length Requirement
