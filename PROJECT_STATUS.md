@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-11 (Vocabulary Expansion - 13 New Entries, Internal-Completeness "seen in entry" Batch)
+Added 13 new dictionary entries (IDs 27409-27421) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes that did not yet have entries of their own. This batch closes more internal-completeness gaps surfaced by early-ID comprehensive-polish runs (entries ~00149-00378).
+
+- **Architecture / traditional (1)**: {竹垣|たけがき} (bamboo fence — traditional garden fence; styles like {建仁寺垣|けんにんじがき})
+- **Formal business letter vocabulary (2)**: {高配|こうはい} (your kind consideration — used in 御高配を賜る), {引|ひ}き{立|た}て (patronage / personal backing — used in お引き立てを賜る)
+- **Fashion loanwords (2)**: ファー (fur — fashion material), フェイクファー (faux fur, fake fur)
+- **General nouns (1)**: {許|ゆる}し (forgiveness; permission — deverbal noun of {許|ゆる}す, two senses)
+- **Hardware loanword (1)**: ナット (mechanical nut for a bolt — disambiguated from {納豆|なっとう} food)
+- **Sports / events (1)**: ワールドカップ (World Cup — defaults to FIFA Football World Cup)
+- **Polysemous loanword (1)**: クロス (cloth / cross — two-sense entry covering both English source words; suru-verb conjugation table added)
+- **Expression (1)**: そのもの (X itself / the very embodiment of X — emphatic suffix-like construction, two senses)
+- **Food loanword (1)**: コンデンスミルク (condensed milk — interchangeable with {練乳|れんにゅう})
+- **Place names (2)**: {兵庫|ひょうご} (Hyogo Prefecture, Kansai), {奈良|なら} (Nara Prefecture and city, Japan's first permanent imperial capital)
+
+All entries follow v2 quality standards: structured notes with bulleted sections (collocations, similar words, usage notes, fixed phrases where applicable), 3+ examples per sense with progressive length, explicit similar-word distinctions, and full furigana coverage. Multi-sense entries (許し, クロス, そのもの) provide ≥3 examples per sense. 1 stale candidate removed (もみほぐす hiragana — duplicate of existing {揉|も}みほぐす kanji entry 27397). 1 suru-verb (クロス) received a conjugation table.
+
 ### 2026-05-11 (Vocabulary Expansion - 23 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 23 new dictionary entries (IDs 27386-27408) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch fills internal-completeness gaps surfaced by early-ID comprehensive-polish runs (entries ~00149-00388).
 
