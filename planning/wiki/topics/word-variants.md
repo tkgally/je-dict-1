@@ -1,6 +1,6 @@
 # Handling Words with Multiple Written Forms
 
-**Last updated**: 2026-04-06
+**Last updated**: 2026-05-11
 
 ## Overview
 
@@ -175,6 +175,46 @@ However, this is a schema change that would need migration for existing entries.
 - How should the kanji index handle variants? If a word has 障害 and 障碍 as variants, should both appear in the kanji index?
 - For reading variants (せろん/よろん), should both readings be listed at the top of the entry or explained in notes?
 - Should there be a "redirects" system where searching for a variant headword shows "Did you mean [primary form]?"
+
+## Polysemic entries with kanji-variant senses
+
+**Surfaced 2026-05-11 during entry exploration.** A distinct pattern from the variants above: a single polysemic entry has one headword (e.g., 取る) and presents multiple senses, but some of those senses are conventionally written with a *different* kanji (e.g., 撮る for photographs, 採る for harvesting/adopting). The entry's example sentences for those senses use the alternate kanji even though the headword does not.
+
+**Concrete case**: 00565_toru's headword is `{取|と}る`. Its sense 2 is glossed "to take (a photo)" with three examples that all write the verb as `{撮|と}る`, not `{取|と}る`. Meanwhile 00760_toru exists as a dedicated entry for `{撮|と}る` (to photograph), with its own examples and notes. The relationship is captured in 00565_toru's `prominent_see_also` block pointing to 00760_toru.
+
+This produces a special case the policies above don't directly address:
+
+- It is not a kanji variant of the same word (the variants section above) — 取る and 撮る are conventionally separate verbs in modern orthography.
+- It is not a pure homograph (the [Homographs page](homographs.md)) — the kanji *differs*.
+- It is a polysemy decision that the entry treats both as senses of the same lexical item (an etymological/spoken-form claim, "to take broadly construed") while modern writing splits them.
+
+### Why this happens
+
+When 取る is heard or spoken, native speakers do not separate the senses; 写真を取る is heard the same as 写真を撮る. The 取る entry's sense list reflects the *spoken* organization of the verb. The separate 撮る entry reflects the *written* convention that requires picking the right kanji per sense. A learner dictionary serves both needs simultaneously.
+
+### The cost: duplicated maintenance surface
+
+The cost is that any improvement to the photo-taking sense (added examples, refined gloss, new collocations) has to be applied in two places. Over time the two locations drift. The existing `prominent_see_also` link is navigation, not synchronization.
+
+### Options for handling
+
+| Option | Description | Trade-off |
+|--------|-------------|-----------|
+| A. **Single-source sense, link to the other** | Demote the photo-taking sense in 取る to a brief pointer ("for the 'take a photo' sense conventionally written 撮る, see entry 00760"). Remove the duplicated examples. | Cleaner maintenance; learner browsing 取る still finds 撮る; but breaks the entry's "complete list of senses" feel. |
+| B. **Duplicate explicitly, mark synchronization** | Keep the sense in both entries but mark each with a "covered also at <id>" note. Accept manual sync as the cost. | Best browsing experience; worst maintenance cost. |
+| C. **Merge into a single polysemic entry with kanji-per-sense** | Merge 撮る into 取る (or vice versa). One headword, multiple senses, each sense documenting its conventional kanji. | Conflicts with current project policy of separate entries for different kanji. Would require schema thinking about per-sense headwords. |
+| D. **Status quo** | Keep both entries and the soft cross-reference. Accept periodic drift; rely on multi-model proofreading to catch divergence. | No work; no improvement either. |
+
+Option A is closest to the [Handling Homographs](homographs.md) treatment of the かえる cluster (separate entries for 帰る, 変える, 換える, 替える, 代える with contrastive notes). Option C would be a schema change.
+
+The right answer probably depends on how frequent this pattern is across the dictionary. A scan (proposed in [Tooling Backlog](../ideas/tooling-backlog.md) → item 7) would quantify it.
+
+### Related patterns
+
+- 採る vs. 取る — 20862_toru carries the harvesting/adopting senses while 00565_toru does not, suggesting the dictionary has *already* applied option A for this branch but inconsistently across the 撮る branch.
+- 自動詞/他動詞 pairs with different kanji written for the two members (e.g., 開く あく vs. 開ける あける share the kanji; 上がる あがる vs. 上げる あげる share the kanji) — these do not have the polysemic-overlap problem because the two members have different readings, not just different senses.
+
+The kanji-per-sense pattern is genuinely specific to verbs (and a small number of nouns) where the spoken language has one word but written orthography has split it. It is not a flaw in the dictionary's design so much as a consequence of representing a bilingual stream-of-consciousness phenomenon — *one verb, several kanji* — in a structured entry schema.
 
 ## Related pages
 

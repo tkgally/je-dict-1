@@ -180,13 +180,13 @@ A notable feature of the current landscape is that the highest-quality JE dictio
 
 1. **Continuity with tradition**. je-dict-1's basic structure — Japanese headword with reading, English gloss, examples, usage notes — follows the template established by Hepburn in 1867 and refined by Kenkyusha over the 20th century. The innovation is not in the entry format but in the compilation method (LLM-assisted), the structured metadata (typed cross-references, vocabulary tiers, conjugation tables), and the distribution model (open-source static site).
 
-2. **Filling the quality-accessibility gap**. je-dict-1 occupies a space between JMdict (massive, open, but gloss-only) and Kenkyusha (deep, expert-edited, but proprietary). With 27,177 entries containing structured notes, 108,000+ examples, and 15,600+ typed cross-references, it offers editorial depth that JMdict lacks while remaining freely accessible.
+2. **Filling the quality-accessibility gap**. je-dict-1 occupies a space between JMdict (massive, open, but gloss-only) and Kenkyusha (deep, expert-edited, but proprietary). With 27,200+ entries containing structured notes, 108,000+ examples, and 15,600+ typed cross-references, it offers editorial depth that JMdict lacks while remaining freely accessible.
 
 3. **Register marking as unfinished business**. The Nippo Jisho (1603) marked register, dialect, and social variation with notable care. Four centuries later, systematic register marking remains a challenge for JE dictionaries — including je-dict-1, where only ~35% of entries have register-relevant information in their notes. The tradition shows that this has always been recognized as important but never fully solved.
 
 4. **The lookup problem is solved differently**. Historic JE dictionaries struggled with how non-readers find entries. je-dict-1 sidesteps this entirely through full-text search, furigana on all kanji, and cross-reference networks — digital-native solutions that make the traditional radical-lookup problem irrelevant.
 
-5. **Scale trajectory**. Hepburn: ~20,000 entries. Kenkyusha 5th: 130,000 headwords. JMdict: 214,000+ entries. je-dict-1's 27,177 entries are modest by headword count, but its per-entry depth (averaging 4.0 examples, structured notes, cross-references) places it closer to the Kenkyusha tradition of rich entries than to JMdict's breadth-first approach.
+5. **Scale trajectory**. Hepburn: ~20,000 entries. Kenkyusha 5th: 130,000 headwords. JMdict: 214,000+ entries. je-dict-1's 27,200+ entries are modest by headword count, but its per-entry depth (averaging 4.0 examples, structured notes, cross-references) places it closer to the Kenkyusha tradition of rich entries than to JMdict's breadth-first approach.
 
 ## Key references
 
