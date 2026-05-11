@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-10
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,35 +50,6 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
-
-### 2026-05-11 (Vocabulary Expansion - 13 New Entries, Internal-Completeness "seen in entry" Batch)
-Added 13 new dictionary entries (IDs 27409-27421) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes that did not yet have entries of their own. This batch closes more internal-completeness gaps surfaced by early-ID comprehensive-polish runs (entries ~00149-00378).
-
-- **Architecture / traditional (1)**: {竹垣|たけがき} (bamboo fence — traditional garden fence; styles like {建仁寺垣|けんにんじがき})
-- **Formal business letter vocabulary (2)**: {高配|こうはい} (your kind consideration — used in 御高配を賜る), {引|ひ}き{立|た}て (patronage / personal backing — used in お引き立てを賜る)
-- **Fashion loanwords (2)**: ファー (fur — fashion material), フェイクファー (faux fur, fake fur)
-- **General nouns (1)**: {許|ゆる}し (forgiveness; permission — deverbal noun of {許|ゆる}す, two senses)
-- **Hardware loanword (1)**: ナット (mechanical nut for a bolt — disambiguated from {納豆|なっとう} food)
-- **Sports / events (1)**: ワールドカップ (World Cup — defaults to FIFA Football World Cup)
-- **Polysemous loanword (1)**: クロス (cloth / cross — two-sense entry covering both English source words; suru-verb conjugation table added)
-- **Expression (1)**: そのもの (X itself / the very embodiment of X — emphatic suffix-like construction, two senses)
-- **Food loanword (1)**: コンデンスミルク (condensed milk — interchangeable with {練乳|れんにゅう})
-- **Place names (2)**: {兵庫|ひょうご} (Hyogo Prefecture, Kansai), {奈良|なら} (Nara Prefecture and city, Japan's first permanent imperial capital)
-
-All entries follow v2 quality standards: structured notes with bulleted sections (collocations, similar words, usage notes, fixed phrases where applicable), 3+ examples per sense with progressive length, explicit similar-word distinctions, and full furigana coverage. Multi-sense entries (許し, クロス, そのもの) provide ≥3 examples per sense. 1 stale candidate removed (もみほぐす hiragana — duplicate of existing {揉|も}みほぐす kanji entry 27397). 1 suru-verb (クロス) received a conjugation table.
-
-### 2026-05-11 (Vocabulary Expansion - 23 New Entries, Internal-Completeness "seen in entry" Batch)
-Added 23 new dictionary entries (IDs 27386-27408) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch fills internal-completeness gaps surfaced by early-ID comprehensive-polish runs (entries ~00149-00388).
-
-- **Loanwords for daily life (8)**: クレーム (customer complaint), スーパーマーケット (supermarket — full form of スーパー), マイクロフォン (microphone — full form of マイク), ミルクティー (milk tea), ケアレスミス (careless mistake, wasei-eigo), ノーミス (no mistakes, wasei-eigo), ビキニ (bikini), ラッシュガード (rash guard)
-- **Legal/business formal vocabulary (4)**: {重過失|じゅうかしつ} (gross negligence), {業務上|ぎょうむじょう} (professional, occupational), {申|もう}し{立|た}てる (to lodge formally — ichidan verb), {協同|きょうどう} (cooperation, partnership — distinct from {共同|きょうどう})
-- **Health / bodywork (3)**: {指圧|しあつ} (shiatsu), {整体|せいたい} (seitai — Japanese chiropractic-style bodywork), {揉|も}みほぐす (to knead and loosen — godan verb, two senses)
-- **Food & culinary (3)**: {干|ほ}し{菓子|がし} (dried sweets, tea-ceremony confections), ガリ (sushi-restaurant pickled ginger), {狙|ねら}い{目|め} (sweet spot, smart opportunity)
-- **Plants & seasonal (2)**: {水仙|すいせん} (narcissus / daffodil), {欅|けやき} (zelkova tree — new kanji 欅 added to kanji_list as 02735)
-- **Sports / leisure (2)**: フィギュアスケート (figure skating), {部員|ぶいん} (club / department member)
-- **STEM (1)**: {係数|けいすう} (coefficient — math, physics, statistics)
-
-All entries follow v2 quality standards with sectioned notes, bulleted collocations, and similar-word distinctions. Conjugation tables auto-generated for the 4 verb entries (1 ichidan, 1 godan, 2 suru).
 
 ### 2026-05-10 (Vocabulary Expansion - 22 New Entries, Internal-Completeness "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27364-27385) from candidate_words.json, all flagged as "seen in entry" candidates — words that already appeared in existing entries' examples or notes but had no entry of their own. This batch addresses early-ID (entries ~00138-00205) cross-reference gaps surfaced by comprehensive-polish runs.
