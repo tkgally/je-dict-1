@@ -25,4 +25,5 @@ Each session appends a section. Within each section, prefix observations with a 
 
 ---
 
-_(No unprocessed observations. Last harvested: 2026-05-10 wiki maintenance session.)_
+## 2026-05-11 — comprehensive polish session 003 (entries 00451–00461)
+- [entry] 03537_nou: semantic tag is "clothing" but should be "body" — pre-existing misclassification
