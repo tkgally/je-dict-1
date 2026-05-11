@@ -18,11 +18,61 @@ The script is idempotent and safe to run any time during the session, but runnin
 
 This prompt is run unattended on a schedule. Plan the session so the wrap-up phase has enough context to complete reliably.
 
-- **Target: keep creating entries until you've used roughly 60% of your context window**, then start wrapping up. The wrap-up phase (build, commit, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) needs ~40% headroom.
-- **Quality over quantity**: a small batch of well-formed entries is better than a larger batch with shortcuts.
-- **Stop earlier than 60% if** tool outputs are getting truncated, you've already done a fix-up round (e.g., resolving a duplicate after creation), or `find_missing_furigana.py` has reported issues you need to chase. Better to wrap up with fewer entries than to leave a stranded PR.
+- **Target: 20–25 entries per session.** Stop earlier if you reach ~60% of your context window before that — the wrap-up phase (build, commit, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) needs ~40% headroom.
+- **Match the size of recent entries — do not exceed it.** See "Length targets" below for per-field budgets. A well-formed entry in this dictionary is concise, not maximally thorough.
+- **Stop earlier than 20 entries if** tool outputs are getting truncated, you've already done a fix-up round (e.g., resolving a duplicate after creation), or `find_missing_furigana.py` has reported issues you need to chase. Better to wrap up with fewer entries than to leave a stranded PR.
 - **Take stock periodically**: every ~10 entries, briefly check how full context feels and decide whether to continue or wrap up.
-- **No fixed entry cap**: candidate complexity varies enough that an absolute cap isn't useful here; the 60% context target is the binding constraint.
+
+## Length targets (MANDATORY — read before writing any entry)
+
+Entries in this dictionary are **short by design**. The gloss is for scanning; the definition gives the longer explanation; the notes add usage and collocations. None of these fields should balloon. Match the shape of recent reference entries like `entries/27000/27261_motenashi.json` (single-sense noun, ~75 lines) or `entries/27000/27264_hokorimamire.json` (na-adjective, ~65 lines) — **not** the verbose entries from the 27386–27421 range (those were a quality regression and are not the target).
+
+### Per-field budgets
+
+| Field | Target | Hard ceiling |
+|-------|--------|--------------|
+| `gloss` (top-level) | 3–8 words, semicolon-separated | ~80 chars |
+| `definitions[i].gloss` (per sense) | 3–10 words, semicolon-separated | ~80 chars |
+| `definitions[i].explanation` | 1–3 sentences, ~150–400 chars | ~500 chars |
+| `notes` (single-sense entry) | ~400–900 chars | ~1,200 chars |
+| `notes` (multi-sense entry) | ~700–1,500 chars | ~2,000 chars |
+| `examples[].japanese` per sense | meet the per-sense minimum, exceed by 0–1 | — |
+
+If any field exceeds its hard ceiling, **cut before moving on to the next entry**. Bloat is contagious: later entries inherit the shape of earlier ones in the same session.
+
+### Gloss vs. definition (CRITICAL)
+
+The top-level `gloss` is a scanning aid, not a definition. It must NOT contain:
+
+- Parenthetical mini-definitions like `(from English "cloth")` or `(a tablecloth, cleaning cloth, or wallpaper-class wall covering)`
+- Numbered clauses like `(1) cloth — …; (2) cross — …`
+- Etymology, scope qualifications, register notes, or examples of usage
+- Complete sentences
+
+Multi-sense entries: the top-level `gloss` should be a short semicolon-joined list of the senses' headline words (e.g. `cloth; cross`), not a paragraph that explains each sense. The per-sense explanations belong in `definitions[i].explanation`.
+
+```
+✗ BAD top-level gloss:
+"(1) cloth — a tablecloth, cleaning cloth, or wallpaper-class wall covering
+(from English \"cloth\"); (2) cross — an X-shape, a crossing, a Christian
+cross, or a sports cross-pass (from English \"cross\")"
+
+✓ GOOD top-level gloss:
+"cloth; cross"
+
+✓ GOOD per-sense gloss:
+"cloth; cleaning cloth; wallpaper-class wall covering"
+```
+
+### Notes: target shape, not maximum thoroughness
+
+The `vocabulary-notes` skill lists six possible content categories. **You do not need to hit all of them.** Aim for:
+
+- One short opening sentence on core meaning (often redundant if the gloss already covers it — skip in that case).
+- One bulleted list of 3–6 collocations or common expressions.
+- One additional section if (and only if) it adds something the gloss + collocations don't: a similar-word distinction, a register note, or a brief cultural context.
+
+Three sections is the target; **four is usually too many; six or more is always too many**. Do not invent extra sections like "WHICH ENGLISH SOURCE WORD", "TYPICAL CONTEXTS", or duplicate "COMMON COMPOUNDS"/"COMMON COLLOCATIONS" pairs just to fill out the entry.
 
 ## Candidate Selection Priority
 
@@ -151,7 +201,7 @@ The `metadata.tags.pos` array must use **only** these exact values:
 
 ## Notes Field Requirements
 
-**See the `vocabulary-notes` skill for complete guidelines.** The notes field is a critical part of each entry. Short, unstructured notes are a common quality problem — follow these requirements carefully:
+**See the `vocabulary-notes` skill for complete guidelines and the "Length targets" section above for size budgets.** The notes field is short and useful — neither sparse-and-unstructured nor maximally thorough.
 
 ### Structure and Formatting (MANDATORY)
 
@@ -163,13 +213,15 @@ The `metadata.tags.pos` array must use **only** these exact values:
 | **Language** | All explanatory prose in English; Japanese only in example phrases and collocations |
 | **Furigana** | All kanji in notes must have furigana: `{漢字|かんじ}` |
 
-### Minimum Content
+### Content (target shape)
 
-Every entry's notes should include at least:
+Aim for exactly the sections the entry needs — typically two or three:
 
-1. **Core semantic explanation** — what the word fundamentally means beyond the gloss (1-2 sentences)
-2. **Collocations or common expressions** — as a bulleted list with translations
-3. **At least one additional section** from: similar word distinctions, register notes, cultural context, common mistakes, etymology, related terms
+1. **Core semantic explanation** — 1–2 sentences, only if the gloss doesn't already cover it. Skip when redundant.
+2. **Collocations or common expressions** — a bulleted list of 3–6 items with translations.
+3. **At most one additional section** from: similar word distinctions, register notes, cultural context, common mistakes. Add only if it conveys something the gloss + collocations don't.
+
+**Hard caps:** four sections is the maximum. Six or more is always too many. Total notes length should fit the "Length targets" table above (~400–900 chars for single-sense, ~700–1,500 for multi-sense; hard ceilings ~1,200 / ~2,000). If you find yourself adding a fifth section, stop and cut.
 
 ### Format Example (in JSON)
 
@@ -179,14 +231,16 @@ Every entry's notes should include at least:
 
 ### Anti-Patterns to Avoid
 
-These patterns indicate the notes field is too short or poorly structured:
-
 ```
-✗ BAD: "Composed of X + Y. Common collocations: A, B, C. Related: D."
+✗ TOO SPARSE: "Composed of X + Y. Common collocations: A, B, C. Related: D."
   (Single paragraph, no headers, inline list instead of bullets)
 
-✓ GOOD: "Composed of X + Y.\n\nCOMMON COLLOCATIONS:\n- A: translation\n- B: translation\n- C: translation\n\nRELATED TERMS:\n- D: gloss — explanation"
-  (Separated sections, headers, bullet points)
+✗ TOO VERBOSE: Six+ sections including USAGE NOTES, TYPICAL CONTEXTS,
+  WHICH ENGLISH SOURCE WORD, separate "COMMON COMPOUNDS" and "COMMON
+  COLLOCATIONS" lists, exhaustive related-terms enumeration, etc.
+
+✓ GOOD: "Composed of X + Y.\n\nCOMMON COLLOCATIONS:\n- A: translation\n- B: translation\n- C: translation\n\nSIMILAR WORDS:\n- D: gloss — explanation"
+  (Two or three focused sections, headers, bullet points, under the char budget)
 ```
 
 ## Example Sentence Requirements
