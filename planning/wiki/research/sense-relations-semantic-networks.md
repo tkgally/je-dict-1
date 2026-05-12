@@ -1,6 +1,6 @@
 # Sense Relations and Semantic Networks
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-12
 
 ## Overview
 
@@ -201,3 +201,4 @@ The existing kanji index provides a navigable semantic network based on shared c
 - [Digital Dictionary UX](digital-dictionary-ux.md) — interface affordances for navigating semantic networks
 - [Register and Formality Marking](register-formality-marking.md) — stratal synonymy as a register dimension and cross-reference strategy
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — the semantic clustering debate and its implications for learning vs. consolidation
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — dimensions of near-synonym difference, dictionary presentation strategies, and Japanese stratal register pairs

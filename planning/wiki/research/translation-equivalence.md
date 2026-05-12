@@ -69,4 +69,5 @@ Cross-references are also essential — they expose the system of related words 
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — semantic shift in loanwords as a translation equivalence challenge
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — when translation fails because the pragmatic function has no English equivalent
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — cross-linguistic asymmetry in near-synonym sets and stratal synonymy
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — why overlapping bilingual glosses obscure near-synonym distinctions
 - [Register and Formality Marking](register-formality-marking.md) — register asymmetry in translation equivalents and diasystematic labels
