@@ -181,4 +181,5 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — glossing challenges for words with semantic shift from their source language
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — glossing culturally untranslatable speech acts like よろしくお願いします
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonym discrimination and sense relation types in dictionary design
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — presentation strategies (essays, tables, contrastive examples) for distinguishing near-synonyms
 - [Register and Formality Marking](register-formality-marking.md) — COBUILD-style definitions vs. labels for encoding register

@@ -78,3 +78,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Register and Formality Marking](register-formality-marking.md) — register-appropriate examples as an alternative to metalinguistic labels
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo forms in example sentences as a vehicle for modeling social context
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how example design supports deep processing and the involvement load hypothesis
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — contrastive encoding examples as the most effective format for teaching synonym distinctions

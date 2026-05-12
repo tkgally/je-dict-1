@@ -150,3 +150,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — the kanji lookup problem and electronic solutions
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — dictionary consultation as one strategy in a broader strategy repertoire
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — evolution of the kanji lookup problem across four centuries
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — why dictionary lookup fails to resolve near-synonym choice

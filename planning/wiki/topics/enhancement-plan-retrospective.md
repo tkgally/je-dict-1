@@ -1,6 +1,6 @@
 # Enhancement Plan 2026: Retrospective and Post-Implementation State
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-12
 
 ## Overview
 
@@ -80,20 +80,20 @@ Screening results flag entries, deep review produces suggestions, the polishing 
 
 ## Quality metrics: where we are vs. where the plan aimed
 
-From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-11 (27,221 entries):
+From the 2026-04-09 plan's target table, compared against `make report` on 2026-05-12 (27,264 entries):
 
-| Metric | Plan target | 2026-05-11 | Notes |
+| Metric | Plan target | 2026-05-12 | Notes |
 |--------|-------------|------------|-------|
 | Verbs with transitivity | 100% | ~32% | ~4,687 verbs still missing; transitivity queue slowly progressing |
 | Entries with note score ≥ 60 | 80% | ~84% | Target reached |
-| Cross-reference symmetry | 98% | 40.4% | 7,728 asymmetric references; largest remaining gap |
+| Cross-reference symmetry | 98% | ~50% | 7,795 asymmetric directed refs; largest remaining gap |
 | Verbs with ている docs | 80% (of those needing it) | 17.4% | aspect-notes queue at entry 02317 |
-| Multi-model review coverage | 100% (furigana) | 0.4% (queue: 12,980) | Queue growing as entries outpace review |
-| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **108,241 total examples** |
-| Cross-references per entry | ≥ 0.5 | 0.57 | **Target reached**; rising steadily from 0.32 in mid-April |
+| Multi-model review coverage | 100% (furigana) | 0.4% (queue: 13,362) | Queue growing as entries outpace review |
+| Examples per entry (avg) | ≥ 4 | 4.0 | Target reached; **108,527 total examples** |
+| Cross-references per entry | ≥ 0.5 | 0.57 | **Target reached**; stable at 0.57 |
 | Parallel sessions | 2–4 | Infrastructure ready | Actual utilization TBD |
 
-Three targets have been met (note quality, examples, cross-reference density). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Two remain well below target (transitivity, symmetry) and should drive the next round of work. **Cross-reference density is at 0.57 per entry** (down from 0.58 as rapid entry expansion dilutes the ratio). Total cross-references have reached 15,620. Symmetry rate is at 40.4% as new entries continue to add unreciprocated links faster than the symmetry pass processes them — 7,731 asymmetric pairs remain.
+Three targets have been met (note quality, examples, cross-reference density). Three are making steady progress (aspect notes, multi-model review, priority polishing throughput). Two remain well below target (transitivity, symmetry) and should drive the next round of work. **Cross-reference density is at 0.57 per entry**, stable as new entries and cross-references grow in proportion. Total cross-references have reached 15,658. Of 15,473 directed references (hardened with target IDs), approximately half (7,678) have reciprocal back-links — 7,795 asymmetric directed references remain.
 
 ## Implications for future maintenance sessions
 

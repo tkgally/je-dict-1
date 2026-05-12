@@ -2,7 +2,7 @@
 
 **Last updated**: 2026-05-12
 
-Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Each item includes the entry ID, the issue, and a recommended fix.
+Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
 ## 00004_aogu — Conflated verbs
 
@@ -113,6 +113,34 @@ This is a representative case of the polysemic kanji-variant overlap pattern doc
 3. Merge 00760_toru into 00565_toru and pivot 00760 into a redirect-only entry.
 
 Option 1 is closest to existing project practice for kanji-variant near-synonyms; option 3 would conflict with the policy of keeping different kanji as separate entries documented in [Handling Homographs](../topics/homographs.md). Decision needed from the curator.
+
+## 03537_nou — Semantic tag "clothing" should be "body"
+
+**Source**: Comprehensive-polish 2026-05-11 session 003
+
+Entry 03537_nou ({脳|のう}, brain) has `semantic: ["clothing"]` — clearly wrong. The brain is a body part.
+
+**Recommended fix**: Change `semantic: ["clothing"]` to `semantic: ["body"]`.
+
+## 00536_itsu — Spurious godan-tsu conjugation on an adverb
+
+**Source**: Comprehensive-polish 2026-05-11 session 006
+
+Entry 00536_itsu ({何時|いつ}, when) has `part_of_speech: "adverb"` but carries a full godan-tsu conjugation block with nonsensical forms (`いちます`, `いたない`) and a stray `verb_class: "godan-tsu"` tag. This is another instance of the broader pattern documented in [Cleanup Backlog](cleanup-backlog.md) → Priority 6 (130 non-verb entries with spurious conjugations).
+
+**Recommended fix**: Remove the `conjugation` field and the `verb_class` tag. Will be covered by the one-shot pruner proposed in [Tooling Backlog](tooling-backlog.md) → item 5.
+
+## 00601_yoku and 00602_mou — Spurious godan conjugations on adverbs
+
+**Source**: Comprehensive-polish 2026-05-12 session 001
+
+Two more adverb entries carrying fabricated godan conjugation forms:
+- 00601_yoku ({良|よ}く, well/often): forms like `よかない`, `よきます`
+- 00602_mou ({もう}, already/soon): forms like `もわない`
+
+Same pattern as 00536_itsu and the 130-entry set in [Cleanup Backlog](cleanup-backlog.md) → Priority 6.
+
+**Recommended fix**: Same as 00536 — remove `conjugation` and `verb_class` tag. Will be covered by the one-shot pruner.
 
 ## Related pages
 

@@ -113,3 +113,4 @@ The phenomenon is subtle enough that notes about it are probably more valuable i
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — connotation and affect as pragmatic dimensions of meaning
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — prosody as a dimension that distinguishes near-synonyms
 - [Register and Formality Marking](register-formality-marking.md) — evaluative and register dimensions as complementary labelling concerns
+- [Near-Synonym Discrimination](near-synonym-discrimination.md) — semantic prosody as one of the key dimensions distinguishing near-synonyms

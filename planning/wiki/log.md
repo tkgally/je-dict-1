@@ -2,6 +2,23 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-12] maintenance | Near-synonym discrimination research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed all unprocessed observations from `polishing/observations.md` — 4 comprehensive-polish sessions (2026-05-11 sessions 003 and 006, 2026-05-12 backfill session, 2026-05-12 session 001). Filed:
+  - `[entry]` 03537_nou (semantic tag "clothing" → "body"), 00536_itsu (spurious godan conjugation on adverb), 00601_yoku and 00602_mou (same pattern) → `ideas/entry-followups.md`
+  - `[entry]` 00517_muzukashii (incorrect antonym cross-ref) → already fixed in the originating session, no action needed
+  - `[pattern]` Session 003 skipping entries by hallucinating prior coverage → noted as skill recommendation: add a "read progress.txt back to me" guard to comprehensive_polish.md's Entry selection section. Not modifying prompts from this wiki session.
+  - `[pattern]` Bogus godan-conjugation-on-adverb keeps surfacing → already fully documented in cleanup-backlog Priority 6 (130 entries) and tooling-backlog item 5; new examples reinforce the case for the one-shot pruner
+  - `[tooling]` `find_bogus_conjugations.py` proposal → already covered by tooling-backlog item 5; no additional update needed
+  - Cleared all processed observations from `polishing/observations.md`
+  - Skill recommendation noted: comprehensive_polish.md should have a hard "echo current next: value" guard before processing the first entry, to prevent hallucinated coverage (the backfill pattern from 2026-05-12)
+- [B] Researched **near-synonym discrimination in learner dictionaries** and created `research/near-synonym-discrimination.md`. Covers Inkpen & Hirst's (2002, 2006) dimensions of near-synonym difference (denotation, register, connotation, collocation, semantic prosody, syntax, geographic); Cruse's (1986) cognitive synonym vs. plesionym distinction; corpus-based approaches showing collocation as the primary discriminator (Kamiński 2017 on visualization, Liu 2010 on behavioral profiles, Xiao & McEnery 2006 on prosodic divergence); why learners struggle (Laufer 1990 on ease-of-activation overuse, Ahmadian & Farahani 2023 showing bilingualized dictionaries fail at synonym discrimination tasks); Japanese-specific complications (three-stratum wago/kango/gairaigo register pairs with table of 5 representative pairs, transitivity pairs that look like synonyms, keigo-linked variants); dictionary presentation strategies across four approaches (synonym essays, feature comparison tables, contrastive encoding examples per Frankenberg-Garcia 2012/2015, corpus-driven visualizations); treatment in the Big Four English learner dictionaries (OALD "Which Word?", LDOCE "Word Choice", COBUILD full-sentence + "Word Partnership", MED "Thesaurus") and in JE dictionaries (JMdict none, Kenkyusha occasional, Wisdom communication boxes); and six recommendations for je-dict-1's SIMILAR WORDS sections (explicit dimension naming, collocational evidence, contrastive examples, systematic stratal register flagging, bidirectional discrimination, dedicated polishing task). Identified six priority synonym clusters for discrimination work. Cited Ahmadian & Farahani 2023, Atkins & Rundell 2008, Cruse 1986, Frankenberg-Garcia 2012/2015, Hayakawa 1968, Inkpen & Hirst 2002/2006, Kamiński 2017, Laufer 1990, Liu 2010, Nesi & Haill 2002, Tono 2001, Xiao & McEnery 2006.
+- [A] Updated stats on `project/overview.md` (27,264 entries, 108,527 examples, 24,481 general) and `topics/enhancement-plan-retrospective.md` (refreshed metrics table to 2026-05-12 values: 15,658 cross-refs, 0.57 per entry, ~50% symmetry with 7,795 asymmetric directed refs, 108,527 examples, 13,362 review queue).
+- [E] Added near-synonym discrimination page to `index.md`. Added cross-references from `sense-relations-semantic-networks.md`, `translation-equivalence.md`, `definition-strategies.md`, `collocations.md`, `semantic-prosody.md`, `example-sentences.md`, and `dictionary-lookup-behavior.md` to the new page. Updated "Last updated" dates on modified pages.
+
 ## [2026-05-12] maintenance | Furigana wrapper anomalies, expanded conjugation-mismatch finding, three backlog updates
 
 **Session type**: Manual session (curator-directed: continue exploration of entry issues from the previous session)
