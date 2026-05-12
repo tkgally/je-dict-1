@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-12 (Vocabulary Expansion - 20 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 20 new dictionary entries (IDs 27430-27449) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID polish gaps (entries ~00255-00595). No new kanji introduced. Per-field length budgets tightened (target shape: {作|さく} or {埃|ほこり}まみれ, not the verbose 27386-27421 range).
+
+- **Verbs (2)**: {持|も}っていく (to take with one, godan; auxiliary {行|い}く is irregular — past forms fixed by hand), {誤|あやま}る (to err/misjudge, godan, formal register)
+- **Nouns — body / medical (1)**: {胸部|きょうぶ} (chest, thoracic region — clinical register)
+- **Nouns — society / society-adjacent (4)**: {被災地|ひさいち} (disaster-stricken area), {税法|ぜいほう} (tax law), {作|さく} (creative work, often as suffix), {食|た}べ{方|かた} (way of eating)
+- **School / company "{部|ぶ}" compounds (4)**: {野球部|やきゅうぶ}, {美術部|びじゅつぶ}, {文芸部|ぶんげいぶ} (school clubs), {開発部|かいはつぶ} (R&D department)
+- **Family — polite terms (3)**: お{父様|とうさま}, {弟|おとうと}さん, {妹|いもうと}さん
+- **Transportation (1)**: {各駅|かくえき} (each station; {各駅停車|かくえきていしゃ})
+- **Food (1)**: {青|あお}りんご (green apple)
+- **Adverbs / mimetics (1)**: ぞくぞく (shivering / thrilled — two-sense mimetic; auto-conjugator incorrectly tagged it as a godan-ku verb on the romaji-ending fallback; fixed by hand)
+- **Expressions / adnominals (2)**: そのもの (X itself, emphatic), ちょっとした (slight / quite a — two-sense adnominal)
+- **Stale candidate removed (1)**: 潰す (つぶす) was a duplicate of existing 00410_tsubusu; removed from candidate list during sync.
+
+Total entries: 27,221 → 27,241.
+
 ### 2026-05-11 (Vocabulary Expansion - 20 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 20 new dictionary entries (IDs 27410-27429) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. This batch focuses on formal business correspondence vocabulary, fashion/swimwear loanwords, food loanwords, and several missing nouns. Two new kanji (憺, 欅) added to the kanji index.
 
