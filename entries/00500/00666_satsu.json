@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00666_satsu_ex1",
-      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{三冊|さんさつ}⟦{買|か}いました→買う：00489_kau⟧。",
+      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{三冊|さんさつ}→三冊：noentry⟧⟦{買|か}いました→買う：00489_kau⟧。",
       "english": "I bought three books.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00666_satsu_ex2",
-      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦が→が：00051_ga⟧{何冊|なんさつ}⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{本|ほん}→本：00111_hon⟧⟦が→が：00051_ga⟧⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "How many books are there?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00666_satsu_ex3",
-      "japanese": "{一冊|いっさつ}⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{一冊|いっさつ}→一冊：23149_issatsu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "One (book), please.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00666_satsu_ex4",
-      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧{五冊|ごさつ}⟦{借|か}りる→借りる：00532_kariru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦で→で：00502_de⟧⟦{五冊|ごさつ}→五冊：noentry⟧⟦{借|か}りる→借りる：00532_kariru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "You can borrow five books at the library.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00666_satsu_ex5",
-      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧{二冊|にさつ}⟦ぐらい→ぐらい：02900_gurai⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦ようにしています→ようにする：10987_younisuru⟧。",
+      "japanese": "⟦{毎月|まいつき}→毎月：00732_maitsuki⟧⟦{二冊|にさつ}→二冊：noentry⟧⟦ぐらい→ぐらい：02900_gurai⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦ようにしています→ようにする：10987_younisuru⟧。",
       "english": "I try to read about two books every month.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "〜{冊|さつ} is the counter for bound volumes like books, magazines, and notebooks.\n\nWHAT IT COUNTS:\n- {本|ほん}: books\n- {雑誌|ざっし}: magazines\n- ノート: notebooks\n- {辞書|じしょ}: dictionaries\n\nCOUNTING FORMS:\n- {一冊|いっさつ}: 1 book (sound change: っさつ)\n- {二冊|にさつ}: 2 books\n- {三冊|さんさつ}: 3 books\n- {四冊|よんさつ}: 4 books\n- {五冊|ごさつ}: 5 books\n- {六冊|ろくさつ}: 6 books\n- {七冊|ななさつ}: 7 books\n- {八冊|はっさつ}: 8 books (sound change: っさつ)\n- {九冊|きゅうさつ}: 9 books\n- {十冊|じゅっさつ}: 10 books (sound change: っさつ)\n- {何冊|なんさつ}: how many books?\n\nDISTINCTION:\nDon't confuse with 〜{本|ほん}, which counts long cylindrical objects. 〜{冊|さつ} specifically counts bound volumes.",
+  "notes": "〜{冊|さつ} is the counter for bound volumes like books, magazines, and notebooks.\n\nWHAT IT COUNTS:\n- ⟦{本|ほん}→本：00111_hon⟧: books\n- ⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧: magazines\n- ⟦ノート→ノート：00738_nooto⟧: notebooks\n- ⟦{辞書|じしょ}→辞書：04707_jisho⟧: dictionaries\n\nCOUNTING FORMS:\n- ⟦{一冊|いっさつ}→一冊：23149_issatsu⟧: 1 book (sound change: っさつ)\n- ⟦{二冊|にさつ}→二冊：noentry⟧: 2 books\n- ⟦{三冊|さんさつ}→三冊：noentry⟧: 3 books\n- ⟦{四冊|よんさつ}→四冊：noentry⟧: 4 books\n- ⟦{五冊|ごさつ}→五冊：noentry⟧: 5 books\n- ⟦{六冊|ろくさつ}→六冊：noentry⟧: 6 books\n- ⟦{七冊|ななさつ}→七冊：noentry⟧: 7 books\n- ⟦{八冊|はっさつ}→八冊：noentry⟧: 8 books (sound change: っさつ)\n- ⟦{九冊|きゅうさつ}→九冊：noentry⟧: 9 books\n- ⟦{十冊|じゅっさつ}→十冊：noentry⟧: 10 books (sound change: っさつ)\n- ⟦{何冊|なんさつ}→何冊：08778_nansatsu⟧: how many books?\n\nDISTINCTION:\nDon't confuse with ⟦〜{本|ほん}→〜本：00688_hon⟧, which counts long cylindrical objects. 〜{冊|さつ} specifically counts bound volumes.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:50:33Z",
-    "modified": "2026-02-12T17:14:00Z",
+    "modified": "2026-05-12T15:10:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
