@@ -31,3 +31,6 @@ Each session appends a section. Within each section, prefix observations with a 
 ## 2026-05-11 — comprehensive polish session 006 (entries 00513–00537)
 - [entry] 00536_itsu: has incorrect conjugation field (godan-tsu forms applied to an adverb — forms are nonsensical like いちます, いたない) and wrong tag verb_class: "godan-tsu"; the conjugation block and that tag should be removed entirely
 - [entry] 00517_muzukashii: had incorrect antonym cross-ref to 02640_yasashii (優しい = kind/gentle, not the antonym of difficult); also had duplicate 00475_yasashii; both removed in this session, keeping only 00765_yasashii (易しい) and 00713_kantan
+
+## 2026-05-12 — comprehensive polish backfill (entries 00436–00450)
+- [pattern] 2026-05-12: session 003 (PR #2285) skipped entries 00436-00450 by hallucinating prior session coverage instead of reading progress.txt. Consider adding a hard "echo current next: value back to me before processing the first entry" guard to comprehensive_polish.md's Entry selection section.
