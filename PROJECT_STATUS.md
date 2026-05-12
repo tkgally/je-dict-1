@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-12
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-12 (Vocabulary Expansion - 23 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 23 new dictionary entries (IDs 27450-27472) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00149-00587). No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Prefectures (3)**: {兵庫|ひょうご} (Hyogo), {奈良|なら} (Nara), {新潟|にいがた} (Niigata)
+- **Time — formal variants (2)**: {明日|みょうにち} (tomorrow, formal), {昨日|さくじつ} (yesterday, formal)
+- **Currency / international (2)**: {日本円|にっぽんえん} (Japanese yen), ワールドカップ (World Cup)
+- **うわ- compounds and similar (4)**: うわべ (outward appearance), {上手|うわて} (upper hand / upstream — two senses, distinct reading from じょうず), {上向|うわむ}き (upward / upward trend — two senses), {外履|そとば}き (outdoor shoes)
+- **Adverb (1)**: わりかし (fairly, informal variant of {割|わり}と)
+- **Sailing loanwords (2)**: ヨットレース (yacht race), ヨットハーバー (marina)
+- **School (1)**: {吹奏楽部|すいそうがくぶ} (brass / wind ensemble club)
+- **Counters / quantifiers (5)**: {何位|なんい} (what place), {二位|にい} (second place), {幾日|いくにち} (how many days), {幾人|いくにん} (how many people), {全問|ぜんもん} (all questions)
+- **Geography / culture (3)**: {火口原|かこうげん} (caldera floor), {豪雪地帯|ごうせつちたい} (heavy snowfall region), {白無垢|しろむく} (white wedding kimono)
+- **Stale candidates removed (2)**: お父さま (duplicate of お父様 27446); ぞくぞくする (covered by ぞくぞく 27435)
+
+Total entries: 27,241 → 27,264.
 
 ### 2026-05-12 (Vocabulary Expansion - 20 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 20 new dictionary entries (IDs 27430-27449) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID polish gaps (entries ~00255-00595). No new kanji introduced. Per-field length budgets tightened (target shape: {作|さく} or {埃|ほこり}まみれ, not the verbose 27386-27421 range).
