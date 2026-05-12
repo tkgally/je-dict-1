@@ -6,90 +6,6 @@
   "gloss": "to wash",
   "conjugation": {
     "type": "godan",
-    "ending": "う",
-    "stem": "{洗|あら}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to wash",
-      "explanation": "Used for cleaning something with water, typically hands, dishes, clothes, or a car. The object being washed takes the particle を."
-    }
-  ],
-  "examples": [
-    {
-      "id": "00827_arau_ex1",
-      "japanese": "⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{洗|あら}って⟦ください→ください：02899_kudasai⟧。",
-      "english": "Please wash your hands.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00827_arau_ex2",
-      "japanese": "⟦{食|た}べる→食べる：00396_taberu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{洗|あら}います。",
-      "english": "I wash my hands before eating.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00827_arau_ex3",
-      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{洗|あら}いたい⟦です→です：09485_desu⟧。",
-      "english": "I want to wash the car.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00827_arau_ex4",
-      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦{起|お}きたら→起きる：00521_okiru⟧、⟦まず→まず：00796_mazu⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{洗|あら}います。",
-      "english": "When I wake up in the morning, I first wash my face.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00827_arau_ex5",
-      "japanese": "⟦ごはん→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧⟦{後|あと}→後：09580_ato⟧、⟦お{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{洗|あら}う⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦です→です：09485_desu⟧。",
-      "english": "Washing the dishes after meals is my job.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No intransitive pair. Pattern: Xを{洗|あら}う.\n\nASPECT: ている indicates ongoing action. {洗|あら}っている = 'is washing.'\n\nCOMMON PATTERNS:\n・{手|て}を{洗|あら}う (wash hands)\n・{顔|かお}を{洗|あら}う (wash face)\n・{皿|さら}を{洗|あら}う (wash dishes)\n・{車|くるま}を{洗|あら}う (wash a car)\n\nDifferent from {洗濯|せんたく}する which specifically means 'to do laundry' (wash clothes in a machine).",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-07T12:55:20Z",
-    "modified": "2026-04-10T06:41:08Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "basic",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-u"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -177,5 +93,91 @@
         "negative": "{洗|あら}うな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to wash",
+      "explanation": "Used for cleaning something with water, typically hands, dishes, clothes, or a car. The object being washed takes the particle を."
+    }
+  ],
+  "examples": [
+    {
+      "id": "00827_arau_ex1",
+      "japanese": "⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{洗|あら}って⟦ください→ください：02899_kudasai⟧。",
+      "english": "Please wash your hands.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00827_arau_ex2",
+      "japanese": "⟦{食|た}べる→食べる：00396_taberu⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{洗|あら}います。",
+      "english": "I wash my hands before eating.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00827_arau_ex3",
+      "japanese": "⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{洗|あら}いたい⟦です→です：09485_desu⟧。",
+      "english": "I want to wash the car.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00827_arau_ex4",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦{起|お}きたら→起きる：00521_okiru⟧、⟦まず→まず：00796_mazu⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{洗|あら}います。",
+      "english": "When I wake up in the morning, I first wash my face.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00827_arau_ex5",
+      "japanese": "⟦ごはん→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧⟦{後|あと}→後：09580_ato⟧、⟦お{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{洗|あら}う⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{私|わたし}→私：02988_watashi⟧⟦の→の：09472_no⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦です→です：09485_desu⟧。",
+      "english": "Washing the dishes after meals is my job.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No intransitive pair. Pattern: X⟦を→を：00422_wo⟧{洗|あら}う.\n\nASPECT: ⟦ている→ている：noentry⟧ indicates ongoing action. {洗|あら}っている = 'is washing.'\n\nCOMMON PATTERNS:\n・⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{洗|あら}う (wash hands)\n・⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{洗|あら}う (wash face)\n・⟦{皿|さら}→皿：00883_sara⟧⟦を→を：00422_wo⟧{洗|あら}う (wash dishes)\n・⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{洗|あら}う (wash a car)\n\nDifferent from ⟦{洗濯|せんたく}する→洗濯する：09656_sentakusuru⟧ which specifically means 'to do laundry' (wash clothes in a machine).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "せんたくする",
+      "headword": "{洗濯|せんたく}する",
+      "target_id": "09656_sentakusuru"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-07T12:55:20Z",
+    "modified": "2026-05-12T22:18:10Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-u"
+    }
   }
 }
