@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-13 (Vocabulary Expansion - 25 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 25 new dictionary entries (IDs 27493-27517) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00513-00806). One new kanji ({柴|しば}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Basic concepts and grammar (3)**: {会|かい} (meeting/association, two senses), {面白|おもしろ}そう (looks interesting — -そう evidential form), どうやって (how, by what method)
+- **Time / life-stage (2)**: {晩年|ばんねん} (one's later years), {先行|さきゆ}き (future prospects, business outlook)
+- **Seasons / weather (2)**: {冬物|ふゆもの} (winter clothing), {春風|はるかぜ} (spring breeze)
+- **Business / law (1)**: {有限会社|ゆうげんがいしゃ} (limited liability company — note 2006 reform)
+- **Body / family (2)**: {左足|ひだりあし} (left foot/leg), {片親|かたおや} (single parent — modern preference noted)
+- **Travel / transport (2)**: {国内線|こくないせん} (domestic flight), {国際線|こくさいせん} (international flight)
+- **Animals (2)**: {柴犬|しばいぬ} (Shiba Inu — new kanji 柴), {愛犬|あいけん} (beloved pet dog)
+- **Holiday / culture (2)**: ハロウィン (Halloween), {勤労感謝|きんろうかんしゃ} (Labor Thanksgiving)
+- **Objects / household (5)**: ブリーフケース (briefcase), {引|ひ}き{戸|ど} (sliding door), {砂時計|すなどけい} (hourglass), {一階|いっかい} (first floor), {二階|にかい} (second floor)
+- **Food / health / sound (4)**: {甘辛|あまから}い (sweet-and-savory, i-adj), {音楽家|おんがくか} (musician), {温水|おんすい} (warm/heated water), {粉薬|こなぐすり} (powdered medicine)
+
+Total entries: 27,284 → 27,309. One new kanji ({柴|しば} → 02738_sai_shiba_brushwood) assigned.
 
 ### 2026-05-12 (Vocabulary Expansion - 20 New Entries, Mixed "seen in entry" + Older Candidates)
 Added 20 new dictionary entries (IDs 27473-27492) from candidate_words.json. The first 10 are "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition (drawn from low-ID gaps ~00416-00868). The remaining 10 are older standing candidates: a formal idiom, technical/medical nouns, an everyday loanword, sports/dieting nouns, and one verb-phrase expression. No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
