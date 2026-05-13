@@ -4,11 +4,6 @@
   "reading": "うごく",
   "part_of_speech": "verb (godan)",
   "gloss": "to move",
-  "conjugation": {
-    "type": "godan",
-    "ending": "く",
-    "stem": "{動|うご}"
-  },
   "definitions": [
     {
       "sense_number": 1,
@@ -68,11 +63,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {動|うご}かす (transitive, to move something). Pattern: Xが{動|うご}く.\n\nASPECT: ている indicates ongoing action or state. {動|うご}いている = 'is moving' or 'is running/working' (for machines).\n\nCOMMON PATTERNS:\n・{電車|でんしゃ}が{動|うご}く (the train moves)\n・{時計|とけい}が{動|うご}いている (the clock is working)\n・{動|うご}かないで (don't move)\n・{動|うご}き{出|だ}す (start to move)\n\nFor machines, {動|うご}いている means 'is functioning/working.'",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{動|うご}かす→動かす：01885_ugokasu⟧ (transitive, to move something). Pattern: X⟦が→が：00051_ga⟧{動|うご}く.\n\nASPECT: ている indicates ongoing action or state. {動|うご}いている = 'is moving' or 'is running/working' (for machines).\n\nCOMMON PATTERNS:\n・⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{動|うご}く (the train moves)\n・⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{動|うご}いている (the clock is working)\n・{動|うご}かないで (don't move)\n・{動|うご}き⟦{出|だ}す→出す：01087_dasu⟧ (start to move)\n\nFor machines, {動|うご}いている means 'is functioning/working.'",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "01885_ugokasu",
+      "reading": "うごかす",
+      "headword": "{動|うご}かす",
+      "label": "transitive: to move"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:39:04Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-05-13T14:08:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
