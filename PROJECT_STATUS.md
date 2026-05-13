@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-13 (Vocabulary Expansion - 22 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 22 new dictionary entries (IDs 27518-27539) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00050-00816). Two new kanji ({捌|さば}, {閏|うるう}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Orthographic / structural (1)**: {付属|ふぞく} (more common spelling of {附属|ふぞく}; noun, verb-suru, no-adjective)
+- **Verbs (2)**: {洗|あら}い{出|だ}す (to identify / uncover, godan, two senses), {捌|さば}く (to dress fish / handle skillfully, godan, two senses — new kanji 捌)
+- **Adjective (1)**: ユーモラス (humorous, na-adjective)
+- **Time (3)**: {来学期|らいがっき} (next semester), {来春|らいしゅん} (next spring, formal), {閏年|うるうどし} (leap year — new kanji 閏)
+- **Geography (1)**: {西日本|にしにほん} (western Japan)
+- **Loanwords — drinking and dining (2)**: バーベキュー (BBQ — also verb-suru), スナック (snack / Japanese-style hostess bar, two senses)
+- **Loanwords — other (5)**: マイクロプラスチック (microplastics), ゴーストライター (ghostwriter), カーポート (carport), カーブ (curve / curveball, two senses), パブ (pub)
+- **Transportation slang (3)**: チャリ (bike, informal), ママチャリ (utility bicycle with basket), ハイヤー (chauffeured hire car)
+- **Daily / cultural (3)**: {難易度|なんいど} (difficulty level), {秋田犬|あきたいぬ} (Akita dog breed — cross-references {柴犬|しばいぬ} 27503), {土用|どよう} (doyō / 18-day seasonal period)
+- **Weather / science (1)**: {零度|れいど} (zero degrees)
+
+Total entries: 27,309 → 27,331. Two new kanji ({捌|さば} → 02739_hachi_saba_handle, {閏|うるう} → 02740_jun_uruu_intercalary) assigned.
+
 ### 2026-05-13 (Vocabulary Expansion - 25 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 25 new dictionary entries (IDs 27493-27517) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00513-00806). One new kanji ({柴|しば}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
