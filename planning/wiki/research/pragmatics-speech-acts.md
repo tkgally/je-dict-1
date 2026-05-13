@@ -1,6 +1,6 @@
 # Pragmatics and Speech Acts in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-13
 
 ## Overview
 
@@ -221,3 +221,4 @@ Based on the research, these entry types would benefit most from pragmatic annot
 - [Cross-Reference Design](../topics/cross-references.md) — linking related entries for browsing
 - [Register and Formality Marking](register-formality-marking.md) — diasystematic labels, the consultation gap, and register encoding strategies
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo system structure, L2 acquisition challenges, and dictionary treatment of honorifics
+- [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — cultural scripts, social ritual vocabulary, and the culture–language inseparability thesis

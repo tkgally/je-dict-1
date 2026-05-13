@@ -221,3 +221,4 @@ Cowie (1998) documents that modern phraseological research originated in Japan t
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — grammar patterns as MWEs
 - [Semantic Prosody](semantic-prosody.md) — evaluative colouring in collocations and expressions
 - [Register and Formality](../topics/register.md) — register variation in formulaic routines
+- [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — culturally-loaded formulaic expressions and social ritual vocabulary

@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-13
 
 
 ## How this wiki is organized
@@ -58,6 +58,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Vocabulary Learning Strategies](research/vocabulary-learning-strategies.md) — Strategy taxonomies (Oxford, Schmitt, Gu & Johnson), keyword method, word cards, morphological analysis, self-regulation, and dictionary design implications
 - [Near-Synonym Discrimination](research/near-synonym-discrimination.md) — Dimensions of near-synonym difference, learner difficulty, dictionary presentation strategies, and Japanese stratal register pairs
 - [History of Japanese-English Dictionaries](research/je-dictionary-history.md) — From the 1603 Nippo Jisho through Hepburn, Kenkyusha, and JMdict to the modern digital landscape
+- [Cultural Content in Bilingual Dictionaries](research/cultural-content-dictionaries.md) — Culture-bound terms, the encyclopedic–linguistic boundary, Japanese cultural vocabulary dimensions, and dictionary treatment strategies
 
 ## Topics
 

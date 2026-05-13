@@ -1,6 +1,6 @@
 # Vocabulary Tier System
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-13
 
 ## Overview
 
@@ -16,7 +16,7 @@ Foundational survival vocabulary. Words a learner needs from day one: numbers, c
 
 Essential vocabulary for functioning as an adult in Japanese society. Covers everyday topics: work, shopping, health, transportation, weather, food. A learner who knows all basic + core words can handle most daily situations. This tier is also frozen.
 
-### General (24,350+ entries, growing)
+### General (24,548+ entries, growing)
 
 All other vocabulary. Ranges from common words that just missed the core cutoff to specialized terms, literary vocabulary, and technical language. All new entries are added to this tier.
 
