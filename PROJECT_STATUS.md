@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-12 (Vocabulary Expansion - 20 New Entries, Mixed "seen in entry" + Older Candidates)
+Added 20 new dictionary entries (IDs 27473-27492) from candidate_words.json. The first 10 are "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition (drawn from low-ID gaps ~00416-00868). The remaining 10 are older standing candidates: a formal idiom, technical/medical nouns, an everyday loanword, sports/dieting nouns, and one verb-phrase expression. No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **"Seen in entry" — household / scissors / scenery (10)**: {上棚|うわだな} (upper shelf), {吸|す}い{物|もの}{椀|わん} (clear soup bowl), {末広|すえひろ}がり (auspicious widening shape), {裁|た}ちばさみ (fabric scissors), {爪切|つめき}りばさみ (nail scissors), {岩場|いわば} (rocky area), {岩肌|いわはだ} (rock face), {岩登|いわのぼ}り (rock climbing), {音波|おんぱ} (sound wave), {畔|ほとり} (water's edge — literary)
+- **Formal / set expressions (2)**: {病魔|びょうま}と{闘|たたか}う (to battle illness — formal/obituary register), {二|ふた}つに{割|わ}る (to split in two — literal and figurative)
+- **Technical / scientific nouns (3)**: ろ{過器|かき} (filter device), {末梢神経|まっしょうしんけい} (peripheral nerve), {含水量|がんすいりょう} (water content)
+- **Dining / sports / health (4)**: テーブルナプキン (table napkin — distinct from sanitary ナプキン), {一塁手|いちるいしゅ} (first baseman), ヨーヨー{現象|げんしょう} (yo-yo dieting effect), {着地地点|ちゃくちちてん} (landing point — literal and figurative)
+- **Transportation (1)**: {給水車|きゅうすいしゃ} (water tanker truck — disaster-relief context)
+
+Total entries: 27,264 → 27,284.
+
 ### 2026-05-12 (Vocabulary Expansion - 23 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 23 new dictionary entries (IDs 27450-27472) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00149-00587). No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
