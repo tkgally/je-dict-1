@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-13
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -27,6 +27,8 @@ Many verb entries have duplicate `"conjugation":` keys (a legacy stub plus the f
 `build/verify_furigana.py` raises false positives on inline link metadata. After `FURIGANA_PATTERN.sub('', notes)` it still sees kanji in the `→` tail of inline links like `⟦{時間|じかん}→時間：00468_jikan⟧` and reports them as unannotated. The render pipeline doesn't render that tail.
 
 **Suggested fix**: Extend the strip pattern to also consume `→…：…⟧` (and the leading `⟦`) before counting kanji. Small change.
+
+**Resurfaced**: Comprehensive-polish 2026-05-12 session 009 (entries 00776–00799) confirmed the same false-positive pattern — kanji in inline link baseforms (after `→`) are not rendered to users and should not require furigana. Continues to generate noise for entries with many inline links.
 
 ## 3. Suggested cross-references from inline-linked notes
 

@@ -182,3 +182,4 @@ je-dict-1 has 90 keigo-typed cross-references connecting base verbs to their hon
 - [Learner Lexicography](learner-lexicography.md) — pedagogical dictionary design principles
 - [Cross-Reference Design](../topics/cross-references.md) — the cross-reference system that connects base forms to keigo equivalents
 - [Example Sentence Design](example-sentences.md) — designing examples that make social context salient
+- [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — keigo as a cultural system requiring cultural notes, not just grammatical treatment
