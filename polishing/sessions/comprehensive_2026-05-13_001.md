@@ -57,5 +57,8 @@
 - C20290: スキニー (すきにー) - skinny; seen in 00123 (jiinzu) notes
 - C20291: 持っていく (もっていく) - to take/bring; seen in 00127 (jisan) notes
 
+## CI status
+wait-for-pr-checks.sh exited with code 4 (no check-runs ever appeared on the PR head SHA within 600s timeout). PR #2314 left open for curator review. Codex review also flagged a wrong link in 00140_kaiteki ex5 (noted in observations.md).
+
 ## Next entry
 00145
