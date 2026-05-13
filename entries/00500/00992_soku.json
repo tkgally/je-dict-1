@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "00992_soku_ex1",
-      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧{一|いっ}{足|そく}⟦{買|か}う→買う：00489_kau⟧。",
+      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{一|いっ}→一：00705_ichi⟧{足|そく}⟦{買|か}う→買う：00489_kau⟧。",
       "english": "To buy one pair of shoes.",
       "notes": "いっそく with small っ",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "00992_soku_ex2",
-      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧{二|に}{足|そく}⟦{買|か}いました→買う：00489_kau⟧。",
+      "japanese": "⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{二|に}→二：00736_ni⟧{足|そく}⟦{買|か}いました→買う：00489_kau⟧。",
       "english": "I bought two pairs of shoes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "00992_soku_ex3",
-      "japanese": "⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦は→は：00079_ha⟧{何|なん}{足|ぞく}⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
+      "japanese": "⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧{足|ぞく}⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "How many pairs of socks do you have?",
       "notes": "なんぞく with voiced ぞ",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "00992_soku_ex4",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧{三|さん}{足|ぞく}⟦{買|か}いました→買う：00489_kau⟧。⟦{黒|くろ}→黒：02205_kuro⟧⟦と→と：00512_to⟧⟦{白|しろ}→白：13854_shiro⟧⟦と→と：00512_to⟧⟦{茶色|ちゃいろ}→茶色：02915_chairo⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{靴|くつ}→靴：00725_kutsu⟧⟦を→を：00422_wo⟧⟦{三|さん}→三：00749_san⟧{足|ぞく}⟦{買|か}いました→買う：00489_kau⟧。⟦{黒|くろ}→黒：02205_kuro⟧⟦と→と：00512_to⟧⟦{白|しろ}→白：13854_shiro⟧⟦と→と：00512_to⟧⟦{茶色|ちゃいろ}→茶色：02915_chairo⟧⟦です→です：09485_desu⟧。",
       "english": "I bought three pairs of new shoes. Black, white, and brown.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "00992_soku_ex5",
-      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦を→を：00422_wo⟧{五|ご}{足|そく}⟦{持|も}って→持つ：00478_motsu⟧⟦いきます→行く：00119_iku⟧。⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{替|か}える→代える：11717_kaeru⟧⟦ため→ため：01145_tame⟧⟦です→です：09485_desu⟧。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{靴下|くつした}→靴下：00726_kutsushita⟧⟦を→を：00422_wo⟧⟦{五|ご}→五：00697_go⟧{足|そく}⟦{持|も}って→持つ：00478_motsu⟧⟦いきます→行く：00119_iku⟧。⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{替|か}える→代える：11717_kaeru⟧⟦ため→ため：01145_tame⟧⟦です→です：09485_desu⟧。",
       "english": "I'll bring five pairs of socks on the trip. So I can change them every day.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{足|そく} is the counter for pairs of footwear including shoes, socks, boots, and slippers.\n\nCOUNTING PATTERN:\n- {一|いっ}{足|そく}: one pair (small っ before そ)\n- {二|に}{足|そく}: two pairs\n- {三|さん}{足|ぞく}: three pairs (voiced: ぞく)\n- {何|なん}{足|ぞく}: how many pairs? (voiced: ぞく)\n\nWHAT IT COUNTS:\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes\n- ⟦{靴下|くつした}→靴下：00726_kutsushita⟧: socks\n- ⟦スリッパ→スリッパ：04531_surippa⟧: slippers\n- ⟦ブーツ→ブーツ：04529_buutsu⟧: boots\n\nNOTE: This counter emphasizes that footwear comes in pairs. For single items, use ⟦{片方|かたほう}→片方：03044_katahou⟧ (one of a pair).",
+  "notes": "{足|そく} is the counter for pairs of footwear including shoes, socks, boots, and slippers.\n\nCOUNTING PATTERN:\n- ⟦{一|いっ}→一：00705_ichi⟧{足|そく}: one pair (small っ before そ)\n- ⟦{二|に}→二：00736_ni⟧{足|そく}: two pairs\n- ⟦{三|さん}→三：00749_san⟧{足|ぞく}: three pairs (voiced: ぞく)\n- ⟦{何|なん}→何：00498_nani⟧{足|ぞく}: how many pairs? (voiced: ぞく)\n\nWHAT IT COUNTS:\n- ⟦{靴|くつ}→靴：00725_kutsu⟧: shoes\n- ⟦{靴下|くつした}→靴下：00726_kutsushita⟧: socks\n- ⟦スリッパ→スリッパ：04531_surippa⟧: slippers\n- ⟦ブーツ→ブーツ：04529_buutsu⟧: boots\n\nNOTE: This counter emphasizes that footwear comes in pairs. For single items, use ⟦{片方|かたほう}→片方：03044_katahou⟧ (one of a pair).",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-07T12:09:47Z",
-    "modified": "2026-03-25T13:27:06Z",
+    "modified": "2026-05-13T19:17:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
