@@ -69,7 +69,7 @@
     },
     {
       "id": "01167_sou_ex6",
-      "japanese": "そうじゃない⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
+      "japanese": "そう⟦じゃ→じゃ：03040_ja⟧⟦ない→ない：01118_nai⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I don't think so.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "01167_sou_ex7",
-      "japanese": "そういう⟦こと→こと：01164_koto⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
+      "japanese": "そう⟦いう→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Is that what you mean?",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "そう belongs to the ko-so-a-do demonstrative system, referring to a manner or state connected to what the listener said or what is understood from context.\n\nKO-SO-A-DO SET:\n- こう: this way (near speaker)\n- そう: that way (near listener / known from context)\n- ああ: that way (far from both)\n- どう: in what way (question)\n\nCOMMON EXPRESSIONS:\n- そうですか: Is that so? / I see\n- そうですね: That's right / Let me think...\n- そうそう: Yes, yes / That's right (emphatic agreement)\n- そうだといいですね: I hope so\n\nCOMMON PATTERNS:\n- そう{思|おも}う: to think so\n- そうする: to do so/that\n- そうなる: to turn out that way\n- そういうこと: that kind of thing / that's what it means",
+  "notes": "そう belongs to the ko-so-a-do demonstrative system, referring to a manner or state connected to what the listener said or what is understood from context.\n\nKO-SO-A-DO SET:\n- ⟦こう→こう：01157_kou⟧: this way (near speaker)\n- そう: that way (near listener / known from context)\n- ⟦ああ→ああ：01147_aa⟧: that way (far from both)\n- ⟦どう→どう：00543_dou⟧: in what way (question)\n\nCOMMON EXPRESSIONS:\n- そう⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Is that so? / I see\n- そう⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧: That's right / Let me think...\n- そうそう: Yes, yes / That's right (emphatic agreement)\n- そうだ⟦と→と：00512_to⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧: I hope so\n\nCOMMON PATTERNS:\n- そう⟦{思|おも}う→思う：00492_omou⟧: to think so\n- そう⟦する→する：00392_suru⟧: to do so/that\n- そう⟦なる→なる：01970_naru⟧: to turn out that way\n- そう⟦いう→言う：00515_iu⟧⟦こと→こと：01164_koto⟧: that kind of thing / that's what it means",
   "cross_references": [
     {
       "type": "related",
@@ -144,7 +144,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:10:59Z",
-    "modified": "2026-04-10T08:28:27Z",
+    "modified": "2026-05-14T15:12:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -155,98 +155,7 @@
       "politeness": "plain",
       "semantic": [
         "descriptive"
-      ],
-      "verb_class": "godan-u"
+      ]
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "そう",
-        "negative": "そわない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "そいます",
-        "negative": "そいません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "そった",
-        "negative": "そわなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "そいました",
-        "negative": "そいませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "そって",
-        "negative": "そわなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "そっている",
-        "negative": "そっていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "そっています",
-        "negative": "そっていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "そっていた",
-        "negative": "そっていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "そっていました",
-        "negative": "そっていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "そえば",
-        "negative": "そわなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "そったら",
-        "negative": "そわなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "そおう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "そいましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "そえる",
-        "negative": "そえない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "そわれる",
-        "negative": "そわれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "そわせる",
-        "negative": "そわせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "そえ",
-        "negative": "そうな"
-      }
-    ]
   }
 }
