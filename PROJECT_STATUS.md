@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-14 (Vocabulary Expansion - 24 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 24 new dictionary entries (IDs 27563-27586) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00659-01083). No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Direction / location (2)**: {西側|にしがわ} (west side), {端|はし}っこ (edge, informal)
+- **Wallets & money (3)**: {長財布|ながさいふ} (long wallet), がま{口|ぐち} (clasp purse), {釣|つ}り{銭|せん} (change, formal)
+- **Food / drink (5)**: {水飴|みずあめ} (starch syrup), {完熟|かんじゅく} (fully ripe, noun + verb-suru), ロゼワイン (rosé wine), スパークリングワイン (sparkling wine), {社食|しゃしょく} (company cafeteria, informal)
+- **Materials / nature (1)**: わら (straw)
+- **Discourse expressions (3)**: だからこそ (precisely because), そういえば (come to think of it), それはそうと (by the way)
+- **Time (2)**: {未明|みめい} (predawn), {学期末|がっきまつ} (end of term)
+- **Business / institutions (2)**: {常務|じょうむ} (managing director), {水道局|すいどうきょく} (water bureau)
+- **Travel & transport (3)**: メトロ (metro), カプセルホテル (capsule hotel), {乗換案内|のりかえあんない} (transfer guide)
+- **Fashion / shopping (2)**: ミニスカート (miniskirt), {特売日|とくばいび} (sale day)
+- **Education (1)**: {二年生|にねんせい} (second-year student)
+
+Total entries: 27,354 → 27,378.
+
 ### 2026-05-14 (Vocabulary Expansion - 23 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 23 new dictionary entries (IDs 27540-27562) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00612-01090). One new kanji ({燗|かん}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
