@@ -64,7 +64,7 @@
     },
     {
       "id": "01117_modoru_ex5",
-      "japanese": "⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧⟦きます→来る：00254_kuru⟧。⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧ぐらい⟦で→で：00502_de⟧{戻|もど}ります⟦から→から：00504_kara⟧、⟦{待|ま}って→待つ：00469_matsu⟧⟦いて→いる：00495_iru⟧⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧⟦{行|い}って→行く：00119_iku⟧⟦きます→来る：00254_kuru⟧。⟦{三十分|さんじゅっぷん}→三十分：09672_sanjuppun⟧⟦ぐらい→ぐらい：02900_gurai⟧⟦で→で：00502_de⟧{戻|もど}ります⟦から→から：00504_kara⟧、⟦{待|ま}って→待つ：00469_matsu⟧⟦いて→いる：00495_iru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "I'm going shopping. I'll be back in about 30 minutes, so please wait.",
       "notes": null,
       "has_audio": false,
@@ -84,7 +84,7 @@
     },
     {
       "id": "01117_modoru_ex7",
-      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{平年|へいねん}⟦に→に：00314_ni⟧{戻|もど}った。",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{平年|へいねん}→平年：24128_heinen⟧⟦に→に：00314_ni⟧{戻|もど}った。",
       "english": "The temperature returned to normal.",
       "notes": null,
       "has_audio": false,
@@ -104,7 +104,7 @@
     },
     {
       "id": "01117_modoru_ex9",
-      "japanese": "⟦{記憶|きおく}→記憶：00234_kioku⟧⟦が→が：00051_ga⟧なかなか{戻|もど}らなくて、⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談：02089_soudan⟧。",
+      "japanese": "⟦{記憶|きおく}→記憶：00234_kioku⟧⟦が→が：00051_ga⟧⟦なかなか→なかなか：01547_nakanaka⟧{戻|もど}らなくて、⟦{医者|いしゃ}→医者：02847_isha⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}した→相談：02089_soudan⟧。",
       "english": "My memory wasn't coming back, so I consulted a doctor.",
       "notes": null,
       "has_audio": false,
@@ -123,11 +123,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {戻|もど}す (transitive). Pattern: Xが{戻|もど}る (X returns).\n\nASPECT: ている indicates resulting state. {戻|もど}っている = 'has returned (is back).'\n\nCOMMON PATTERNS:\n・{家|いえ}に{戻|もど}る (return home)\n・{元|もと}に{戻|もど}る (return to original state)\n・{席|せき}に{戻|もど}る (return to seat)\n・{体調|たいちょう}が{戻|もど}る (health returns)\n\nPAIR: {戻|もど}す (transitive) - {本|ほん}を{戻|もど}す (put book back). Compare: {帰|かえ}る (return home).",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{戻|もど}す→戻す：02317_modosu⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{戻|もど}る (X returns).\n\nASPECT: ている indicates resulting state. {戻|もど}っている = 'has returned (is back).'\n\nCOMMON PATTERNS:\n・⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧{戻|もど}る (return home)\n・⟦{元|もと}→元：03878_moto⟧⟦に→に：00314_ni⟧{戻|もど}る (return to original state)\n・⟦{席|せき}→席：02215_seki⟧⟦に→に：00314_ni⟧{戻|もど}る (return to seat)\n・⟦{体調|たいちょう}→体調：04644_taichou⟧⟦が→が：00051_ga⟧{戻|もど}る (health returns)\n\nPAIR: ⟦{戻|もど}す→戻す：02317_modosu⟧ (transitive) - ⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧{戻|もど}す (put book back). Compare: ⟦{帰|かえ}る→帰る：00508_kaeru⟧ (return home).",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02317_modosu",
+      "reading": "もどす",
+      "headword": "{戻|もど}す",
+      "label": "transitive counterpart"
+    },
+    {
+      "type": "related",
+      "target_id": "00508_kaeru",
+      "reading": "かえる",
+      "headword": "{帰|かえ}る",
+      "label": "return home"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:05:41Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-05-14T13:14:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
