@@ -223,3 +223,4 @@ The kanji-per-sense pattern is genuinely specific to verbs (and a small number o
 - [Entry Design](../project/entry-design.md) — the `alternate_forms` field
 - [Entry Consistency](entry-consistency.md) — ensuring variants are handled consistently across the dictionary
 - [Open Issues](../project/open-issues.md) — loanword handling, homograph disambiguation
+- [Lemmatization and Headword Selection](../research/lemmatization-headword-selection.md) — orthographic variation as a lemmatization problem, citation form conventions

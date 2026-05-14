@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-05-13
+**Last updated**: 2026-05-14
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -29,6 +29,8 @@ Many verb entries have duplicate `"conjugation":` keys (a legacy stub plus the f
 **Suggested fix**: Extend the strip pattern to also consume `→…：…⟧` (and the leading `⟦`) before counting kanji. Small change.
 
 **Resurfaced**: Comprehensive-polish 2026-05-12 session 009 (entries 00776–00799) confirmed the same false-positive pattern — kanji in inline link baseforms (after `→`) are not rendered to users and should not require furigana. Continues to generate noise for entries with many inline links.
+
+**Resurfaced again**: Comprehensive-polish 2026-05-13 session 007 (entries 01014–01038) reports the same issue. Third independent confirmation across different entry ranges.
 
 ## 3. Suggested cross-references from inline-linked notes
 

@@ -155,6 +155,7 @@ Productive affixes and common compound-forming elements should be in the basic o
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — deep dive into the gairaigo stratum: phonological adaptation, semantic shift, and dictionary treatment
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji compound transparency, morphological awareness, and Mori & Nagy's research
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — word part analysis as one of the most effective vocabulary learning strategies
+- [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — non-inferability criterion for derived forms, entry scope for compounds
 
 ## Sources
 

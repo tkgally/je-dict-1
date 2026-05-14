@@ -134,3 +134,4 @@ The compound verb question affects multiple project concerns:
 - [Content Pipeline](../project/content-pipeline.md) — entry creation workflow
 - [Word Formation and Morphology](../research/word-formation.md) — broader context of Japanese compounding and derivation
 - [Multiword Expressions](../research/multiword-expressions.md) — compound verbs as one category in the broader MWE taxonomy
+- [Lemmatization and Headword Selection](../research/lemmatization-headword-selection.md) — entry scope criteria: when compounds merit their own entry

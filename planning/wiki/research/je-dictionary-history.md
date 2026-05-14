@@ -180,7 +180,7 @@ A notable feature of the current landscape is that the highest-quality JE dictio
 
 1. **Continuity with tradition**. je-dict-1's basic structure — Japanese headword with reading, English gloss, examples, usage notes — follows the template established by Hepburn in 1867 and refined by Kenkyusha over the 20th century. The innovation is not in the entry format but in the compilation method (LLM-assisted), the structured metadata (typed cross-references, vocabulary tiers, conjugation tables), and the distribution model (open-source static site).
 
-2. **Filling the quality-accessibility gap**. je-dict-1 occupies a space between JMdict (massive, open, but gloss-only) and Kenkyusha (deep, expert-edited, but proprietary). With 27,300+ entries containing structured notes, 108,700+ examples, and 15,600+ typed cross-references, it offers editorial depth that JMdict lacks while remaining freely accessible.
+2. **Filling the quality-accessibility gap**. je-dict-1 occupies a space between JMdict (massive, open, but gloss-only) and Kenkyusha (deep, expert-edited, but proprietary). With 27,300+ entries containing structured notes, 108,900+ examples, and 15,600+ typed cross-references, it offers editorial depth that JMdict lacks while remaining freely accessible.
 
 3. **Register marking as unfinished business**. The Nippo Jisho (1603) marked register, dialect, and social variation with notable care. Four centuries later, systematic register marking remains a challenge for JE dictionaries — including je-dict-1, where only ~35% of entries have register-relevant information in their notes. The tradition shows that this has always been recognized as important but never fully solved.
 

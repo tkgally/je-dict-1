@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-05-14
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -141,6 +141,14 @@ Two more adverb entries carrying fabricated godan conjugation forms:
 Same pattern as 00536_itsu and the 130-entry set in [Cleanup Backlog](cleanup-backlog.md) → Priority 6.
 
 **Recommended fix**: Same as 00536 — remove `conjugation` and `verb_class` tag. Will be covered by the one-shot pruner.
+
+## 01026_hashi — Example sentence word order error
+
+**Source**: Comprehensive-polish 2026-05-13 session 007
+
+Example ex5 in 01026_hashi ({箸|はし}) has a word order error: `ご飯を箸の中に立てること` should be `ご飯の中に箸を立てること` — the subjects 箸 and ご飯 are swapped. The intended meaning is "sticking chopsticks upright in rice" (a funeral taboo), so 箸 should be the object being inserted and ご飯の中 should be the location.
+
+**Recommended fix**: Swap the particles in ex5 so that 箸を is the direct object and ご飯の中に is the locative. Needs human review to confirm the exact phrasing.
 
 ## Related pages
 

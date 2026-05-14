@@ -222,3 +222,4 @@ Cowie (1998) documents that modern phraseological research originated in Japan t
 - [Semantic Prosody](semantic-prosody.md) — evaluative colouring in collocations and expressions
 - [Register and Formality](../topics/register.md) — register variation in formulaic routines
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — culturally-loaded formulaic expressions and social ritual vocabulary
+- [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — entry scope criteria, non-inferability, and where MWEs sit in the macrostructure
