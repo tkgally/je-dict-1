@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-14 (Vocabulary Expansion - 20 New Entries, Mixed "seen in entry" + Oldest-Candidates Batch)
+Added 20 new dictionary entries (IDs 27587-27606) from candidate_words.json. Mix of "seen in entry" internal-completeness candidates and oldest unprocessed candidates. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Organizations / money (4)**: {日本放送協会|にっぽんほうそうきょうかい} (NHK), {日本銀行券|にっぽんぎんこうけん} (Bank of Japan note), ゆうちょ{銀行|ぎんこう} (Japan Post Bank), {佐藤|さとう} (common surname)
+- **Food / drink (4)**: たまり{醤油|じょうゆ}, {南蛮漬|なんばんづ}け, ハイボール, カフェオレ
+- **Greetings / expressions (3)**: おかえりなさいませ (very polite welcome back), お{願|ねが}いいたします (very polite please), {始|はじ}め{良|よ}ければ{終|お}わり{良|よ}し (proverb)
+- **Grammar patterns (3)**: を{巡|めぐ}って (concerning/over), なければならない (must), なくてはいけない (must)
+- **Numbers (2)**: {二億|におく}, {一万|いちまん}
+- **Other (4)**: さみしい (variant of 寂しい), こだま (echo / Kodama Shinkansen), {十二支|じゅうにし} (zodiac), {一酸化炭素|いっさんかたんそ} (CO)
+
+No new kanji introduced. All 20 entries validated successfully; furigana checks clean for the session range.
+
 ### 2026-05-14 (Vocabulary Expansion - 24 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 24 new dictionary entries (IDs 27563-27586) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00659-01083). No new kanji introduced. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
