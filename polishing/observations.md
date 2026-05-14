@@ -27,5 +27,8 @@ Each session appends a section. Within each section, prefix observations with a 
 
 _(All observations through 2026-05-13 session 007 have been harvested by the wiki maintenance session of 2026-05-14.)_
 
+## 2026-05-14 — comprehensive polish session 005 (entries 01205–01225)
+- [entry] 01217 通う ex11: `⟦かけて→かける：00854_kakeru⟧` links to the wrong sense — 00854 covers "hang/call/put on" but not the "spend time" sense (時間をかける). Change to `⟦かけて→かける：noentry⟧`.
+
 ## 2026-05-14 — comprehensive polish session 004 (entries 01181–01204)
 - [tooling] `verify_furigana.py` false-positive: after adding inline links with kanji base forms (e.g. `⟦{踏|ふ}む→踏む：01197_fumu⟧`) to notes, the checker flags kanji in the `→baseform：` portion as "missing furigana." The script strips `{漢字|かんじ}` notation but not `⟦...→...：...⟧` inline link syntax. Fix: strip inline link brackets before furigana checking.
