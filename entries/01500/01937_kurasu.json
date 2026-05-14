@@ -6,8 +6,93 @@
   "gloss": "to live, to make a living",
   "conjugation": {
     "type": "godan",
-    "ending": "す",
-    "stem": "{暮|く}ら"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{暮|く}らす",
+        "negative": "{暮|く}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{暮|く}らします",
+        "negative": "{暮|く}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{暮|く}らした",
+        "negative": "{暮|く}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{暮|く}らしました",
+        "negative": "{暮|く}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{暮|く}らして",
+        "negative": "{暮|く}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{暮|く}らしている",
+        "negative": "{暮|く}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{暮|く}らしています",
+        "negative": "{暮|く}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{暮|く}らしていた",
+        "negative": "{暮|く}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{暮|く}らしていました",
+        "negative": "{暮|く}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{暮|く}らせば",
+        "negative": "{暮|く}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{暮|く}らしたら",
+        "negative": "{暮|く}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{暮|く}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{暮|く}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{暮|く}らせる",
+        "negative": "{暮|く}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{暮|く}らされる",
+        "negative": "{暮|く}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{暮|く}らさせる",
+        "negative": "{暮|く}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{暮|く}らせ",
+        "negative": "{暮|く}らすな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -148,11 +233,18 @@
       "reading": "せいかつ",
       "headword": "{生活|せいかつ}",
       "label": "life, livelihood (noun)"
+    },
+    {
+      "type": "related",
+      "target_id": "01184_ikiru",
+      "reading": "いきる",
+      "headword": "{生|い}きる",
+      "label": "to live (focus on existence)"
     }
   ],
   "metadata": {
     "created": "2026-01-09T12:18:02Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-14T16:10:07Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
@@ -167,95 +259,5 @@
       ],
       "verb_class": "godan-su"
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{暮|く}らす",
-        "negative": "{暮|く}らさない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{暮|く}らします",
-        "negative": "{暮|く}らしません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{暮|く}らした",
-        "negative": "{暮|く}らさなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{暮|く}らしました",
-        "negative": "{暮|く}らしませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{暮|く}らして",
-        "negative": "{暮|く}らさなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{暮|く}らしている",
-        "negative": "{暮|く}らしていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{暮|く}らしています",
-        "negative": "{暮|く}らしていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{暮|く}らしていた",
-        "negative": "{暮|く}らしていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{暮|く}らしていました",
-        "negative": "{暮|く}らしていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{暮|く}らせば",
-        "negative": "{暮|く}らさなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{暮|く}らしたら",
-        "negative": "{暮|く}らさなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{暮|く}らそう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{暮|く}らしましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{暮|く}らせる",
-        "negative": "{暮|く}らせない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{暮|く}らされる",
-        "negative": "{暮|く}らされない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{暮|く}らさせる",
-        "negative": "{暮|く}らさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{暮|く}らせ",
-        "negative": "{暮|く}らすな"
-      }
-    ]
   }
 }

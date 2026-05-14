@@ -174,7 +174,7 @@
     },
     {
       "id": "01188_sagaru_ex7",
-      "japanese": "{水位|すいい}⟦が→が：00051_ga⟧{下|さ}がってきた。",
+      "japanese": "⟦{水位|すいい}→水位：21569_suii⟧⟦が→が：00051_ga⟧{下|さ}がって⟦きた→来る：00254_kuru⟧。",
       "english": "The water level has been going down.",
       "notes": null,
       "has_audio": false,
@@ -273,13 +273,14 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {下|さ}げる (transitive, to lower). Pattern: Xが{下|さ}がる (X goes down).\n\nASPECT: ている indicates resulting state. {下|さ}がっている = 'has gone down' or 'is low.'\n\nCOMMON PATTERNS:\n・{気温|きおん}が{下|さ}がる (temperature drops)\n・{値段|ねだん}が{下|さ}がる (price drops)\n・{熱|ねつ}が{下|さ}がる (fever goes down)\n・{後|うし}ろに{下|さ}がる (step back)\n・{成績|せいせき}が{下|さ}がる (grades drop)\n\nCONTRAST:\n・{下|さ}がる (intransitive): X goes down\n・{下|さ}げる (transitive): (someone) lowers X\n\nOPPOSITE: {上|あ}がる (to go up, to rise)",
+  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: ⟦{下|さ}げる→下げる：00807_sageru⟧ (transitive, to lower). Pattern: X⟦が→が：00051_ga⟧{下|さ}がる (X goes down).\n\nASPECT: ている indicates resulting state. {下|さ}がっている = 'has gone down' or 'is low.'\n\nCOMMON PATTERNS:\n・⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧{下|さ}がる (temperature drops)\n・⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧{下|さ}がる (price drops)\n・⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧{下|さ}がる (fever goes down)\n・⟦{後|うし}ろ→後ろ：00683_ushiro⟧⟦に→に：00314_ni⟧{下|さ}がる (step back)\n・⟦{成績|せいせき}→成績：03379_seiseki⟧⟦が→が：00051_ga⟧{下|さ}がる (grades drop)\n\nCONTRAST:\n・{下|さ}がる (intransitive): X goes down\n・⟦{下|さ}げる→下げる：00807_sageru⟧ (transitive): (someone) lowers X\n\nOPPOSITE: ⟦{上|あ}がる→上がる：00615_agaru⟧ (to go up, to rise)",
   "cross_references": [
     {
       "type": "pair",
       "target_id": "00807_sageru",
       "reading": "さげる",
-      "note": "transitive counterpart"
+      "headword": "{下|さ}げる",
+      "label": "transitive counterpart"
     },
     {
       "type": "antonym",
@@ -291,7 +292,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T12:18:48Z",
-    "modified": "2026-05-12T21:10:43Z",
+    "modified": "2026-05-14T16:10:07Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
