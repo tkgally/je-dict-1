@@ -39,7 +39,7 @@
     },
     {
       "id": "01218_mousugu_ex3",
-      "japanese": "もうすぐ{十二時|じゅうにじ}だ。",
+      "japanese": "もうすぐ⟦{十二時|じゅうにじ}→十二時：10981_juuniji⟧⟦だ→だ：09496_da⟧。",
       "english": "It's almost twelve o'clock.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "01218_mousugu_ex8",
-      "japanese": "もうすぐ{三十歳|さんじゅっさい}に⟦なる→なる：01970_naru⟧。",
+      "japanese": "もうすぐ⟦{三十歳|さんじゅっさい}→三十歳：noentry⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。",
       "english": "I'm almost thirty.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "もうすぐ is an adverb meaning 'very soon' or 'almost.'\n\nComposition: もう (already/soon) + すぐ (immediately) = very soon\n\nPosition: Usually at the beginning of a sentence or before the verb.\n\n[Register: Neutral]\n\nSimilar expressions:\n- もうすぐ vs. そろそろ: もうすぐ simply states 'very soon'; そろそろ implies 'it's about time' and often suggests action.\n- もうすぐ vs. まもなく: まもなく is more formal (used in announcements); もうすぐ is conversational.\n- もうすぐ vs. もう: もう alone can mean 'already' or 'soon'; もうすぐ specifically means 'very soon.'\n\nOrthography: Usually written in hiragana. Can be written as もう{直|す}ぐ but this is rare.",
+  "notes": "もうすぐ is an adverb meaning 'very soon' or 'almost.'\n\nComposition: ⟦もう→もう：00602_mou⟧ (already/soon) + ⟦すぐ→すぐ：00814_sugu⟧ (immediately) = very soon\n\nPosition: Usually at the beginning of a sentence or before the verb.\n\n[Register: Neutral]\n\nSimilar expressions:\n- もうすぐ vs. ⟦そろそろ→そろそろ：01259_sorosoro⟧: もうすぐ simply states 'very soon'; ⟦そろそろ→そろそろ：01259_sorosoro⟧ implies 'it's about time' and often suggests action.\n- もうすぐ vs. ⟦まもなく→まもなく：02491_mamonaku⟧: ⟦まもなく→まもなく：02491_mamonaku⟧ is more formal (used in announcements); もうすぐ is conversational.\n- もうすぐ vs. ⟦もう→もう：00602_mou⟧: ⟦もう→もう：00602_mou⟧ alone can mean 'already' or 'soon'; もうすぐ specifically means 'very soon.'\n\nOrthography: Usually written in hiragana. Can be written as もう{直|す}ぐ but this is rare.",
   "cross_references": [
     {
       "type": "see_also",
@@ -135,7 +135,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T12:12:01Z",
-    "modified": "2026-04-10T08:28:27Z",
+    "modified": "2026-05-14T17:13:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -147,97 +147,7 @@
       "semantic": [
         "descriptive"
       ],
-      "verb_class": "godan-gu"
+      "verb_class": null
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "もうすぐ",
-        "negative": "もうすがない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "もうすぎます",
-        "negative": "もうすぎません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "もうすいだ",
-        "negative": "もうすがなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "もうすぎました",
-        "negative": "もうすぎませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "もうすいで",
-        "negative": "もうすがなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "もうすいでいる",
-        "negative": "もうすいでいない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "もうすいでいます",
-        "negative": "もうすいでいません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "もうすいでいた",
-        "negative": "もうすいでいなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "もうすいでいました",
-        "negative": "もうすいでいませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "もうすげば",
-        "negative": "もうすがなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "もうすいだら",
-        "negative": "もうすがなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "もうすごう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "もうすぎましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "もうすげる",
-        "negative": "もうすげない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "もうすがれる",
-        "negative": "もうすがれない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "もうすがせる",
-        "negative": "もうすがせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "もうすげ",
-        "negative": "もうすぐな"
-      }
-    ]
   }
 }

@@ -55,7 +55,7 @@
       "id": "01210_ueru_ex4",
       "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧⟦{習慣|しゅうかん}→習慣：01429_shuukan⟧⟦を→を：00422_wo⟧{植|う}えつける。",
       "english": "Instill good habits in children.",
-      "notes": "{植|う}えつける is a compound meaning 'to implant firmly'",
+      "notes": "⟦{植|う}えつける→植えつける：19913_uetsukeru⟧ is a compound meaning 'to implant firmly'",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -73,7 +73,7 @@
     },
     {
       "id": "01210_ueru_ex6",
-      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{子供|こども}→子供：00554_kodomo⟧たち⟦に→に：00314_ni⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦を→を：00422_wo⟧{植|う}えつけたい。",
+      "japanese": "⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦を→を：00422_wo⟧⟦{通|つう}じて→通じる：02289_tsuujiru⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦に→に：00314_ni⟧⟦{自信|じしん}→自信：10143_jishin⟧⟦を→を：00422_wo⟧{植|う}えつけたい。",
       "english": "I want to instill confidence in children through education.",
       "notes": null,
       "has_audio": false,
@@ -82,11 +82,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). No common intransitive pair. Pattern: Xに Yを{植|う}える (plant Y in/at X).\n\nASPECT: ている indicates resulting state. {植|う}えてある = 'has been planted' (resultative, focus on the state); {植|う}えている = 'is planting' (progressive) or 'has planted.'\n\nCOMMON PATTERNS:\n・{木|き}を{植|う}える (plant a tree)\n・{花|はな}を{植|う}える (plant flowers)\n・{種|たね}を{植|う}える (plant seeds)\n・{庭|にわ}に{植|う}える (plant in the garden)\n・{田植|たう}え (rice planting—noun form)\n\nCOMPOUND VERBS:\n・{植|う}えつける (to implant firmly)\n・{植|う}え{替|か}える (to transplant)\n\nHOMOPHONE: Don't confuse with {飢|う}える (to starve), which is pronounced the same but written differently.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No common intransitive pair. Pattern: X⟦に→に：00314_ni⟧ Y⟦を→を：00422_wo⟧{植|う}える (plant Y in/at X).\n\nASPECT: ている indicates resulting state. {植|う}えてある = 'has been planted' (resultative, focus on the state); {植|う}えている = 'is planting' (progressive) or 'has planted.'\n\nCOMMON PATTERNS:\n・⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧{植|う}える (plant a tree)\n・⟦{花|はな}→花：00523_hana⟧⟦を→を：00422_wo⟧{植|う}える (plant flowers)\n・⟦{種|たね}→種：02157_tane⟧⟦を→を：00422_wo⟧{植|う}える (plant seeds)\n・⟦{庭|にわ}→庭：02239_niwa⟧⟦に→に：00314_ni⟧{植|う}える (plant in the garden)\n・⟦{田植|たう}え→田植え：22734_taue⟧ (rice planting—noun form)\n\nCOMPOUND VERBS:\n・⟦{植|う}えつける→植えつける：19913_uetsukeru⟧ (to implant firmly)\n・⟦{植|う}え{替|か}える→植え替える：17856_uekaeru⟧ (to transplant)\n\nHOMOPHONE: Don't confuse with ⟦{飢|う}える→飢える：14625_ueru⟧ (to starve), which is pronounced the same but written differently.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14625_ueru",
+      "reading": "うえる",
+      "headword": "{飢|う}える",
+      "label": "homophone: to starve"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T10:53:41Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-14T17:13:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -148,7 +148,7 @@
     },
     {
       "id": "01220_tsutaeru_ex13",
-      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧{後世|こうせい}⟦に→に：00314_ni⟧{伝|つた}える。",
+      "japanese": "⟦{歴史|れきし}→歴史：02267_rekishi⟧⟦を→を：00422_wo⟧⟦{後世|こうせい}→後世：noentry⟧⟦に→に：00314_ni⟧{伝|つた}える。",
       "english": "To pass down history to future generations.",
       "notes": null,
       "has_audio": false,
@@ -177,11 +177,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {伝|つた}わる (intransitive, to be conveyed). Pattern: Xに Yを{伝|つた}える (convey Y to X).\n\nASPECT: ている indicates completed action. {伝|つた}えている = 'has conveyed' or 'is passing on.'\n\nCOMMON PATTERNS:\n・{気持|きも}ちを{伝|つた}える (convey feelings)\n・メッセージを{伝|つた}える (convey a message)\n・{伝統|でんとう}を{伝|つた}える (pass down tradition)\n・{言葉|ことば}で{伝|つた}える (convey in words)\n・{伝|つた}えてください (please tell [someone])\n\nCONTRAST:\n・{伝|つた}える (transitive): convey X\n・{伝|つた}わる (intransitive): X is conveyed, X gets across\n\nSIMILAR VERBS:\n・{知|し}らせる: to notify (focus on making aware)\n・{伝|つた}える: to convey (focus on the message transfer)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧ (intransitive, to be conveyed). Pattern: X⟦に→に：00314_ni⟧ Y⟦を→を：00422_wo⟧{伝|つた}える (convey Y to X).\n\nASPECT: ている indicates completed action. {伝|つた}えている = 'has conveyed' or 'is passing on.'\n\nCOMMON PATTERNS:\n・⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦を→を：00422_wo⟧{伝|つた}える (convey feelings)\n・⟦メッセージ→メッセージ：03828_messeeji⟧⟦を→を：00422_wo⟧{伝|つた}える (convey a message)\n・⟦{伝統|でんとう}→伝統：09585_dentou⟧⟦を→を：00422_wo⟧{伝|つた}える (pass down tradition)\n・⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦で→で：00502_de⟧{伝|つた}える (convey in words)\n・{伝|つた}えて⟦ください→ください：02899_kudasai⟧ (please tell [someone])\n\nCONTRAST:\n・{伝|つた}える (transitive): convey X\n・⟦{伝|つた}わる→伝わる：01961_tsutawaru⟧ (intransitive): X is conveyed, X gets across\n\nSIMILAR VERBS:\n・⟦{知|し}らせる→知らせる：01208_shiraseru⟧: to notify (focus on making aware)\n・{伝|つた}える: to convey (focus on the message transfer)",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "01961_tsutawaru",
+      "reading": "つたわる",
+      "headword": "{伝|つた}わる",
+      "label": "intransitive: to be conveyed"
+    },
+    {
+      "type": "contrast",
+      "target_id": "01208_shiraseru",
+      "reading": "しらせる",
+      "headword": "{知|し}らせる",
+      "label": "to notify, to inform"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:11:32Z",
-    "modified": "2026-04-11T02:03:14Z",
+    "modified": "2026-05-14T17:13:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

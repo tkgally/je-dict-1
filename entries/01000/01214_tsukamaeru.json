@@ -139,7 +139,7 @@
     },
     {
       "id": "01214_tsukamaeru_ex4",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧{網|あみ}⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|つか}まえようとしている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{網|あみ}→網：22587_ami⟧⟦で→で：00502_de⟧⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|つか}まえようとしている。",
       "english": "The children are trying to catch fish with a net.",
       "notes": null,
       "has_audio": false,
@@ -208,11 +208,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pair: {捕|つか}まる (intransitive, to be caught). Pattern: Xを{捕|つか}まえる (catch X).\n\nASPECT: ている indicates completed action with result. {捕|つか}まえている = 'has caught' or 'is holding.'\n\nCOMMON PATTERNS:\n・{虫|むし}を{捕|つか}まえる (catch a bug)\n・{犯人|はんにん}を{捕|つか}まえる (catch a criminal)\n・タクシーを{捕|つか}まえる (catch a taxi)\n・{魚|さかな}を{捕|つか}まえる (catch a fish)\n\nCONTRAST:\n・{捕|つか}まえる (transitive): catch X\n・{捕|つか}まる (intransitive): be caught, get caught\n\nExample pair:\n・{警察|けいさつ}が{犯人|はんにん}を{捕|つか}まえた (Police caught the criminal)\n・{犯人|はんにん}が{捕|つか}まった (The criminal was caught)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive, to be caught). Pattern: X⟦を→を：00422_wo⟧{捕|つか}まえる (catch X).\n\nASPECT: ている indicates completed action with result. {捕|つか}まえている = 'has caught' or 'is holding.'\n\nCOMMON PATTERNS:\n・⟦{虫|むし}→虫：02262_mushi⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a bug)\n・⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a criminal)\n・⟦タクシー→タクシー：00816_takushii⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a taxi)\n・⟦{魚|さかな}→魚：00499_sakana⟧⟦を→を：00422_wo⟧{捕|つか}まえる (catch a fish)\n\nCONTRAST:\n・{捕|つか}まえる (transitive): catch X\n・⟦{捕|つか}まる→捕まる：01959_tsukamaru⟧ (intransitive): be caught, get caught\n\nExample pair:\n・⟦{警察|けいさつ}→警察：01393_keisatsu⟧⟦が→が：00051_ga⟧⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦を→を：00422_wo⟧{捕|つか}まえた (Police caught the criminal)\n・⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦が→が：00051_ga⟧{捕|つか}まった (The criminal was caught)",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "01959_tsukamaru",
+      "reading": "つかまる",
+      "headword": "{捕|つか}まる",
+      "label": "intransitive: to be caught"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:35:43Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-14T17:13:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

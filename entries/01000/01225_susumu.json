@@ -203,11 +203,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {進|すす}める (transitive, to advance something). Pattern: Xが{進|すす}む (X advances).\n\nASPECT: ている indicates ongoing state or result. {進|すす}んでいる = 'is advancing' or 'has advanced.'\n\nCOMMON PATTERNS:\n・{前|まえ}に{進|すす}む (move forward)\n・{仕事|しごと}が{進|すす}む (work progresses)\n・{道|みち}を{進|すす}む (proceed along a road)\n・{進|すす}んで (willingly, voluntarily)\n・{時計|とけい}が{進|すす}む (clock is fast)\n\nCONTRAST:\n・{進|すす}む (intransitive): X advances\n・{進|すす}める (transitive): (someone) advances X\n\nOPPOSITE:\n・{遅|おく}れる (to fall behind, be late)\n・{戻|もど}る (to go back)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{進|すす}める→進める：01949_susumeru⟧ (transitive, to advance something). Pattern: X⟦が→が：00051_ga⟧{進|すす}む (X advances).\n\nASPECT: ている indicates ongoing state or result. {進|すす}んでいる = 'is advancing' or 'has advanced.'\n\nCOMMON PATTERNS:\n・⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{進|すす}む (move forward)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦が→が：00051_ga⟧{進|すす}む (work progresses)\n・⟦{道|みち}→道：00505_michi⟧⟦を→を：00422_wo⟧{進|すす}む (proceed along a road)\n・{進|すす}んで (willingly, voluntarily)\n・⟦{時計|とけい}→時計：00677_tokei⟧⟦が→が：00051_ga⟧{進|すす}む (clock is fast)\n\nCONTRAST:\n・{進|すす}む (intransitive): X advances\n・⟦{進|すす}める→進める：01949_susumeru⟧ (transitive): (someone) advances X\n\nOPPOSITE:\n・⟦{遅|おく}れる→遅れる：00741_okureru⟧ (to fall behind, be late)\n・⟦{戻|もど}る→戻る：01117_modoru⟧ (to go back)",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "01949_susumeru",
+      "reading": "すすめる",
+      "headword": "{進|すす}める",
+      "label": "transitive: to advance something"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:55:37Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-14T17:13:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
