@@ -29,3 +29,7 @@ _(All observations through 2026-05-13 session 007 have been harvested by the wik
 
 ## 2026-05-14 — comprehensive polish session 004 (entries 01181–01204)
 - [tooling] `verify_furigana.py` false-positive: after adding inline links with kanji base forms (e.g. `⟦{踏|ふ}む→踏む：01197_fumu⟧`) to notes, the checker flags kanji in the `→baseform：` portion as "missing furigana." The script strips `{漢字|かんじ}` notation but not `⟦...→...：...⟧` inline link syntax. Fix: strip inline link brackets before furigana checking.
+
+
+## 2026-05-14 — comprehensive polish session 006 (entries 01255–01282)
+- [pattern] Two adverb entries (01267 しばらく, 01281 なるべく) had bogus godan conjugation tables with nonsensical forms (e.g., しばらかない, なるべかない) and `verb_class: "godan-ku"` in tags. This was likely generated incorrectly by the AI model. Other adverb entries in the same ID range should be audited for the same issue.
