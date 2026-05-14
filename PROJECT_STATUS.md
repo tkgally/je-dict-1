@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-14 (Vocabulary Expansion - 23 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 23 new dictionary entries (IDs 27540-27562) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00612-01090). One new kanji ({燗|かん}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
+
+- **Verb (1)**: {譲|ゆず}り{受|う}ける (to inherit / take over, ichidan, transitive)
+- **Geography (4)**: {北側|きたがわ} (north side), {南側|みなみがわ} (south side), {南風|みなみかぜ} (south wind), {東北|とうほく} (Tohoku region)
+- **Food & drink (5)**: {冷酒|れいしゅ} (cold sake), {熱燗|あつかん} (hot sake — new kanji 燗), {濃口|こいくち} (dark soy sauce), {薄口|うすくち} (light soy sauce), {料理屋|りょうりや} (traditional Japanese restaurant)
+- **Home & kitchen (3)**: {野菜室|やさいしつ} (vegetable compartment), {製氷機|せいひょうき} (ice maker), ミトン (mittens / oven mitt)
+- **Work & money (3)**: {通勤費|つうきんひ} (commuting expenses), {残業時間|ざんぎょうじかん} (overtime hours), {給料日|きゅうりょうび} (payday)
+- **Education (3)**: {小|しょう}テスト (quiz), {一年生|いちねんせい} (first-year student), {三年生|さんねんせい} (third-year student)
+- **Other (4)**: うち (my home / my place, colloquial), ストライプ (stripe), {大浴場|だいよくじょう} (large communal bath), {名刺入|めいしい}れ (business card case)
+
 ### 2026-05-13 (Vocabulary Expansion - 22 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 22 new dictionary entries (IDs 27518-27539) from candidate_words.json, all flagged as "seen in entry" candidates — words referenced by existing entries' examples or notes but lacking their own definition. Drawn from low-ID gaps (entries ~00050-00816). Two new kanji ({捌|さば}, {閏|うるう}) added to the kanji index. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
