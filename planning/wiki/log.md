@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-14] maintenance | Lemmatization research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 3 unprocessed observations from `polishing/observations.md` — comprehensive-polish session 007 (entries 01014–01038):
+  - `[entry]` 01026_hashi ex5 word order error (箸 and ご飯 swapped) → added to `ideas/entry-followups.md`
+  - `[tooling]` verify_furigana.py inline-link baseform false positives → added third-resurfacing note to tooling-backlog item 2 (same bug, now confirmed by three independent sessions across different entry ranges)
+  - `[pattern]` Sparse inline links in notes for entries 01014–01038 (miso varieties, hot pot types) → reinforces existing cleanup-backlog Priority 1 (unlinked notes in older entries); no new action beyond noting the continued pattern
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **lemmatization and headword selection in learner dictionaries** and created `research/lemmatization-headword-selection.md`. Covers citation form conventions across languages (English infinitive, Latin 1sg, Arabic 3ms past, Japanese non-past plain); the word-counting-unit debate (word family vs. lemma vs. flemma per Nation 2001, Bauer & Nation 1993, McLean 2018); headword selection criteria from Atkins & Rundell (2008), Svensén (2009), Lehmann (2024) including non-inferability as the core principle; entry vs. subentry vs. run-on distinctions in print vs. digital dictionaries; five Japanese-specific challenges (orthographic variation as lemmatization problem, suru-verb combined vs. split entries, compound word entry scope using NINJAL's lexical/syntactic distinction, MWE idiomaticity tests, inflected-form indexing); how JMdict and Kenkyusha handle suru-verbs and variants; je-dict-1's current practice (flat one-entry-per-concept, combined suru-verb entries, conjugation-based search, headword_alternatives for variants); three known tensions (scope creep in compound coverage, expression entries for grammar patterns, collocation placement). Six recommendations for je-dict-1. Cited Atkins & Rundell 2008, Bauer & Nation 1993, Halpern 2010, Lehmann 2024, McLean 2018, Nation 2001, Schmitt 2010, Svensén 2009, Tono 2001.
+- [A] Updated stats across wiki pages to reflect 2026-05-14 `report.py` output (27,398 entries, 24,615 general, 15,684 cross-references, 0.57 per entry, 108,947 examples, 40.4% symmetry with 7,742 asymmetric refs, 1,636 candidates, 2,848 entries with inline links at 10.4%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `ideas/dictionary-growth.md`, `research/je-dictionary-history.md`, `research/sense-relations-semantic-networks.md`, `research/controlled-defining-vocabulary.md`. Added lemmatization page to `index.md` and as a related page on `research/word-formation.md`, `research/multiword-expressions.md`, `research/dictionary-lookup-behavior.md`, `research/vocabulary-size-coverage.md`, `research/learner-lexicography.md`, `topics/compound-verbs.md`, and `topics/word-variants.md`.
+
 ## [2026-05-13] maintenance | Cultural content research, observation harvest, stats sync, broken link fix
 
 **Session type**: Nightly maintenance

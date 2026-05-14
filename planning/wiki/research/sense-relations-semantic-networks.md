@@ -143,7 +143,7 @@ As noted in [Verb Transitivity Pairs](../topics/verb-transitivity.md), Japanese 
 
 ### Cross-reference system as a sense relation network
 
-je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 15,660+ cross-references across 27,300+ entries (0.57 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
+je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 15,680+ cross-references across 27,300+ entries (0.57 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
 
 **Priorities for enrichment**:
 
