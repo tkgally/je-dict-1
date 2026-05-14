@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {集|あつ}める (transitive, to collect/gather something). Pattern: Xが{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・{人|ひと}が{集|あつ}まる (people gather)\n・{お金|おかね}が{集|あつ}まる (money is collected)\n・{情報|じょうほう}が{集|あつ}まる (information is gathered)\n・{一|ひと}か{所|しょ}に{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use {集|あつ}める instead. {集|あつ}まる implies voluntary or natural coming together.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{集|あつ}める→集める：01170_atsumeru⟧ (transitive, to collect/gather something). Pattern: X⟦が→が：00051_ga⟧{集|あつ}まる (X gathers).\n\nASPECT: ている indicates resulting state. {集|あつ}まっている = 'are gathered' (state), not 'are in the process of gathering.'\n\nCOMMON PATTERNS:\n・⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{集|あつ}まる (people gather)\n・⟦{お金|おかね}→お金：00611_okane⟧⟦が→が：00051_ga⟧{集|あつ}まる (money is collected)\n・⟦{情報|じょうほう}→情報：03348_jouhou⟧⟦が→が：00051_ga⟧{集|あつ}まる (information is gathered)\n・⟦{一か所|いっかしょ}→一箇所：26558_ikkasho⟧⟦に→に：00314_ni⟧{集|あつ}まる (gather in one place)\n\nWHEN NOT USED: Don't use for forcibly bringing things together—use ⟦{集|あつ}める→集める：01170_atsumeru⟧ instead. {集|あつ}まる implies voluntary or natural coming together.",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "01170_atsumeru",
+      "reading": "あつめる",
+      "headword": "{集|あつ}める",
+      "label": "transitive pair"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T10:10:35Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-14T15:12:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

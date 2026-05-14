@@ -166,7 +166,7 @@
       "id": "01161_yureru_ex6",
       "japanese": "⟦ブランコ→ぶらんこ：06324_buranko⟧⟦が→が：00051_ga⟧ゆらゆら{揺|ゆ}れていて、⟦{子|こ}どもたち→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{楽|たの}しそうだった→楽しい：00817_tanoshii⟧。",
       "english": "The swings were gently swaying, and the children looked like they were having fun.",
-      "notes": "ゆらゆら is an onomatopoeia for gentle swaying",
+      "notes": "⟦ゆらゆら→ゆらゆら：04817_yurayura⟧ is an onomatopoeia for gentle swaying",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -203,11 +203,19 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive). Pair: {揺|ゆ}らす (transitive, to shake something). Pattern: Xが{揺|ゆ}れる (X shakes).\n\nASPECT: ている indicates ongoing state. {揺|ゆ}れている = 'is shaking/swaying.'\n\nCOMMON PATTERNS:\n・{地震|じしん}で{揺|ゆ}れる (shake from earthquake)\n・{風|かぜ}で{揺|ゆ}れる (sway in the wind)\n・{心|こころ}が{揺|ゆ}れる (heart wavers)\n・ゆらゆら{揺|ゆ}れる (sway gently)\n・{大|おお}きく{揺|ゆ}れる (shake greatly)\n\nCONTRAST:\n・{揺|ゆ}れる (intransitive): X shakes\n・{揺|ゆ}らす (transitive): shake X\n\nONOMATOPOEIA:\n・ゆらゆら (swaying gently)\n・グラグラ (shaking unsteadily)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive, to shake something). Pattern: X⟦が→が：00051_ga⟧{揺|ゆ}れる (X shakes).\n\nASPECT: ている indicates ongoing state. {揺|ゆ}れている = 'is shaking/swaying.'\n\nCOMMON PATTERNS:\n・⟦{地震|じしん}→地震：01608_jishin⟧⟦で→で：00502_de⟧{揺|ゆ}れる (shake from earthquake)\n・⟦{風|かぜ}→風：00641_kaze⟧⟦で→で：00502_de⟧{揺|ゆ}れる (sway in the wind)\n・⟦{心|こころ}→心：01321_kokoro⟧⟦が→が：00051_ga⟧{揺|ゆ}れる (heart wavers)\n・⟦ゆらゆら→ゆらゆら：04817_yurayura⟧{揺|ゆ}れる (sway gently)\n・⟦{大|おお}きく→大きい：00335_ookii⟧{揺|ゆ}れる (shake greatly)\n\nCONTRAST:\n・{揺|ゆ}れる (intransitive): X shakes\n・⟦{揺|ゆ}らす→揺らす：02479_yurasu⟧ (transitive): shake X\n\nONOMATOPOEIA:\n・⟦ゆらゆら→ゆらゆら：04817_yurayura⟧ (swaying gently)\n・⟦グラグラ→ぐらぐら：16211_guragura⟧ (shaking unsteadily)",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02479_yurasu",
+      "reading": "ゆらす",
+      "headword": "{揺|ゆ}らす",
+      "label": "transitive pair"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:11:06Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-14T15:12:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
