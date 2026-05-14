@@ -54,7 +54,7 @@
     },
     {
       "id": "01119_subarashii_ex5",
-      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦は→は：00079_ha⟧{素晴|すば}らしかった⟦です→です：09485_desu⟧。⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦も→も：00484_mo⟧、⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦も→も：00484_mo⟧、⟦すべて→全て：03822_subete⟧⟦が→が：00051_ga⟧⟦{感動的|かんどうてき}→感動：00167_kandou⟧⟦でした→です：09485_desu⟧。",
+      "japanese": "⟦コンサート→コンサート：01360_konsaato⟧⟦は→は：00079_ha⟧{素晴|すば}らしかった⟦です→です：09485_desu⟧。⟦{歌手|かしゅ}→歌手：00197_kashu⟧⟦の→の：09472_no⟧⟦{声|こえ}→声：02207_koe⟧⟦も→も：00484_mo⟧、⟦{音楽|おんがく}→音楽：00661_ongaku⟧⟦も→も：00484_mo⟧、⟦すべて→全て：03822_subete⟧⟦が→が：00051_ga⟧⟦{感動的|かんどうてき}→感動的：25931_kandouteki⟧⟦でした→です：09485_desu⟧。",
       "english": "The concert was wonderful. The singer's voice, the music—everything was moving.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{素晴|すば}らしい is an i-adjective expressing strong admiration—wonderful, splendid, excellent.\n\nFORMS:\n- Negative: {素晴|すば}らしくない\n- Te-form: {素晴|すば}らしくて\n- Past: {素晴|すば}らしかった\n- Adverb: {素晴|すば}らしく\n\nREGISTER:\nThis is a fairly formal word. In casual speech, すごい (amazing) or {最高|さいこう} (the best) are more common.\n\nSIMILAR WORDS:\n- すごい: amazing, awesome (casual)\n- {最高|さいこう}: the best, greatest\n- {見事|みごと}: splendid, magnificent\n- {立派|りっぱ}: fine, admirable\n\nUSAGE NOTE:\nOften used to praise someone's work or achievements: {素晴|すば}らしい{演奏|えんそう}でした (It was a wonderful performance).",
-  "cross_references": [],
+  "notes": "{素晴|すば}らしい is an i-adjective expressing strong admiration—wonderful, splendid, excellent.\n\nFORMS:\n- Negative: {素晴|すば}らしくない\n- Te-form: {素晴|すば}らしくて\n- Past: {素晴|すば}らしかった\n- Adverb: {素晴|すば}らしく\n\nREGISTER:\nThis is a fairly formal word. In casual speech, ⟦すごい→すごい：01128_sugoi⟧ (amazing) or ⟦{最高|さいこう}→最高：02637_saikou⟧ (the best) are more common.\n\nSIMILAR WORDS:\n- ⟦すごい→すごい：01128_sugoi⟧: amazing, awesome (casual)\n- ⟦{最高|さいこう}→最高：02637_saikou⟧: the best, greatest\n- ⟦{見事|みごと}→見事：03744_migoto⟧: splendid, magnificent\n- ⟦{立派|りっぱ}→立派：01093_rippa⟧: fine, admirable\n\nUSAGE NOTE:\nOften used to praise someone's work or achievements: {素晴|すば}らしい⟦{演奏|えんそう}→演奏：01896_ensou⟧⟦でした→です：09485_desu⟧ (It was a wonderful performance).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01128_sugoi",
+      "reading": "すごい",
+      "headword": "すごい",
+      "label": "amazing, awesome (more casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "01093_rippa",
+      "reading": "りっぱ",
+      "headword": "{立派|りっぱ}",
+      "label": "splendid, admirable"
+    },
+    {
+      "type": "related",
+      "target_id": "03744_migoto",
+      "reading": "みごと",
+      "headword": "{見事|みごと}",
+      "label": "splendid, magnificent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:01:16Z",
-    "modified": "2026-03-05T13:22:38Z",
+    "modified": "2026-05-14T13:14:49Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

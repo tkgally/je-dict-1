@@ -113,11 +113,40 @@
       ]
     }
   ],
-  "notes": "よう (sometimes written {様|よう}) is a grammatically versatile word with three main functions.\n\nKEY PATTERNS:\n- ～のようだ/です: it seems like ~, it appears to be ~ (conjecture)\n- ～のような + noun: a ~ -like noun (comparison)\n- ～のように: like ~, in the manner of ~\n- ～ように: so that ~, in order to ~ (purpose)\n- ～ようにする: to make sure to ~, to try to ~\n- ～ようになる: to come to be able to ~, to reach a state where ~\n\nUSAGE NOTES:\n- まるで～のよう strengthens the comparison: \"just like ~\"\n- ～ないように expresses negative purpose: \"so as not to ~\"\n- ようだ expresses soft conjecture based on evidence, softer than らしい\n\nSIMILAR WORDS:\n- よう: based on speaker's impression/evidence\n- らしい: based on hearsay or external information\n- みたい: casual equivalent of よう (more colloquial)",
-  "cross_references": [],
+  "notes": "よう (sometimes written {様|よう}) is a grammatically versatile word with three main functions.\n\nKEY PATTERNS:\n- ～⟦の→の：09472_no⟧よう⟦だ→だ：09496_da⟧/⟦です→です：09485_desu⟧: it seems like ~, it appears to be ~ (conjecture)\n- ～⟦の→の：09472_no⟧ような + noun: a ~ -like noun (comparison)\n- ～⟦の→の：09472_no⟧ように: like ~, in the manner of ~\n- ～ように: so that ~, in order to ~ (purpose)\n- ～ように⟦する→する：00392_suru⟧: to make sure to ~, to try to ~\n- ～ように⟦なる→なる：01970_naru⟧: to come to be able to ~, to reach a state where ~\n\nUSAGE NOTES:\n- ⟦まるで→まるで：03739_marude⟧～⟦の→の：09472_no⟧よう strengthens the comparison: \"just like ~\"\n- ～⟦ない→ない：01118_nai⟧ように expresses negative purpose: \"so as not to ~\"\n- よう⟦だ→だ：09496_da⟧ expresses soft conjecture based on evidence, softer than ⟦らしい→らしい：09502_rashii⟧\n\nSIMILAR WORDS:\n- よう: based on speaker's impression/evidence\n- ⟦らしい→らしい：09502_rashii⟧: based on hearsay or external information\n- ⟦みたい→みたい：10755_mitai⟧: casual equivalent of よう (more colloquial)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "09502_rashii",
+      "reading": "らしい",
+      "headword": "らしい",
+      "label": "also expresses conjecture; based on hearsay rather than direct evidence"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10755_mitai",
+      "reading": "みたい",
+      "headword": "みたい",
+      "label": "colloquial equivalent of ～のよう"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "09502_rashii",
+      "reading": "らしい",
+      "headword": "らしい",
+      "note": "also expresses conjecture"
+    },
+    {
+      "target_id": "10755_mitai",
+      "reading": "みたい",
+      "headword": "みたい",
+      "note": "colloquial equivalent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:34:19Z",
-    "modified": "2026-03-26T09:48:21Z",
+    "modified": "2026-05-14T13:14:49Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
