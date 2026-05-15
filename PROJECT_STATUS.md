@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-13
+**Last updated**: 2026-05-15
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,21 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-15 (Vocabulary Expansion - 23 New Entries, "seen in entry" + Oldest-Candidate Batch)
+Added 23 new dictionary entries (IDs 27629-27651). The first 19 were "seen in entry" candidates from `candidate_words.json` (words already referenced inside existing entries but not yet defined); the last 4 were drawn from the oldest unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, notes scoped to 2–4 sections.
+
+- **Loanwords (4)**: グランドホテル (grand hotel), ガット (racket gut/string), ルールブック (rulebook), {巨峰|きょほう} (Kyoho grape variety)
+- **Architecture / objects (1)**: {板垣|いたがき} (wooden board fence)
+- **Time / calendar (5)**: {十五日|じゅうごにち} (15th of the month), {先年|せんねん} (some years ago, formal), {二時間|にじかん} (two hours), {六十日|ろくじゅうにち} (60 days), {六|ろっ}ヶ{月|げつ} (six months)
+- **Cultural / nature (3)**: {中秋|ちゅうしゅう} (mid-autumn), {名月|めいげつ} (harvest moon), {馳走|ちそう} (feast — usually as ご{馳走|ちそう})
+- **Grammar / suffix (1)**: {気味|ぎみ} (-ish, somewhat — suffix)
+- **Counters (4)**: {一房|ひとふさ} (a bunch), {一粒|ひとつぶ} (a grain/drop), {六本|ろっぽん} (six long objects), {何階|なんかい} (what floor)
+- **Adverb / verb / state (3)**: {一度|ひとたび} (literary 'once'), {居残|いのこ}る (to stay behind, godan intransitive), {空|から} (empty — distinguished from {空|そら}/{空|くう})
+- **Polite daily-life (1)**: お{迎|むか}え (pickup / welcoming, polite)
+- **History / formal (1)**: {戦敗国|せんぱいこく} (defeated nation)
+
+Removed 4 stale candidates: 売り上げ (orthographic variant of existing 04102_uriage), 三階/さんかい (existing 27617_sangai already discusses both readings), グーテンベルク (proper noun, low learner utility), and 多目的に/ためきてきに (typo — correct reading is たもくてきに). No new kanji introduced. All 23 entries validate; furigana check clean.
 
 ### 2026-05-15 (Vocabulary Expansion - 22 New Entries, "seen in entry" Internal-Completeness Batch)
 Added 22 new dictionary entries (IDs 27607-27628) drawn from the "seen in entry" candidates in `candidate_words.json` — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, definitions and notes scoped to 2–4 sections.
