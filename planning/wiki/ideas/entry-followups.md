@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-14
+**Last updated**: 2026-05-15
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -149,6 +149,22 @@ Same pattern as 00536_itsu and the 130-entry set in [Cleanup Backlog](cleanup-ba
 Example ex5 in 01026_hashi ({箸|はし}) has a word order error: `ご飯を箸の中に立てること` should be `ご飯の中に箸を立てること` — the subjects 箸 and ご飯 are swapped. The intended meaning is "sticking chopsticks upright in rice" (a funeral taboo), so 箸 should be the object being inserted and ご飯の中 should be the location.
 
 **Recommended fix**: Swap the particles in ex5 so that 箸を is the direct object and ご飯の中に is the locative. Needs human review to confirm the exact phrasing.
+
+## 01300_gozaimasu — Conjugation table uses wrong template
+
+**Source**: Comprehensive-polish 2026-05-14 session 007
+
+Entry 01300_gozaimasu (ございます) has a conjugation table generated using the regular godan/ichidan verb template. ございます is a polite-only verb (the polite form of ある/ござる) and doesn't follow standard conjugation patterns — it has no plain form, no te-form, no imperative in normal use. The current conjugation table likely contains inappropriate forms like a dictionary form or casual negative that learners would never use.
+
+**Recommended fix**: Either (a) remove the conjugation table entirely and rely on the notes to explain the limited paradigm, or (b) create a custom conjugation template for polite-only verbs that lists only the forms actually used (ございます, ございません, ございました, ございませんでした). This is an edge case that `add_conjugations.py` doesn't handle.
+
+## 01293_yogoreru — POS misclassification (godan → ichidan)
+
+**Source**: Comprehensive-polish 2026-05-14 session 007
+
+Entry 01293_yogoreru ({汚|よご}れる) was misclassified as `verb-godan` in its POS tag and `verb_class`; the originating polish session corrected it to `verb-ichidan` and regenerated conjugations. The note recommends spot-checking other entries near this range for similar misclassifications.
+
+**Status**: Fixed in the originating session. No further action needed on this entry. Logged here to note the spot-check recommendation for nearby entries.
 
 ## Related pages
 

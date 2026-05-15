@@ -133,3 +133,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — empirical research on how learners use dictionaries
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup methods and the electronic dictionary revolution
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — the print-to-digital transition in JE lexicography
+- [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — systematic evaluation frameworks including Lew & Szarowska's online dictionary assessment model
