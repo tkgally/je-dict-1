@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "01437_shoubu_ex1",
-      "japanese": "{勝負|しょうぶ}しよう！",
+      "japanese": "{勝負|しょうぶ}⟦しよう→する：00392_suru⟧！",
       "english": "Let's have a match!",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "01437_shoubu_ex2",
-      "japanese": "{勝負|しょうぶ}⟦は→は：00079_ha⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{運|うん}→運：02143_un⟧だ。",
+      "japanese": "{勝負|しょうぶ}⟦は→は：00079_ha⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{運|うん}→運：02143_un⟧⟦だ→だ：09496_da⟧。",
       "english": "Victory and defeat depend on luck.",
       "notes": null,
       "has_audio": false,
@@ -168,7 +168,7 @@
       ]
     }
   ],
-  "notes": "{勝負|しょうぶ} means a match or contest, combining {勝|か}つ (win) and {負|ま}ける (lose).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {勝負|しょうぶ}する\n\nVERBAL USAGE:\n{勝負|しょうぶ}する means to compete, to have a match.\n\nCOMMON EXPRESSIONS:\n- {勝負|しょうぶ}しよう: Let's have a match!\n- {勝負|しょうぶ}がつく: the match is decided\n- {勝負|しょうぶ}がつかない: the match isn't decided (a draw)\n- {真剣|しんけん}{勝負|しょうぶ}: serious match\n- {一発|いっぱつ}{勝負|しょうぶ}: one-shot deal, all or nothing\n\nIDIOMS:\n- {勝負|しょうぶ}は{時|とき}の{運|うん}: Victory depends on luck\n\nRELATED WORDS:\n- {試合|しあい}: match, game (sports)\n- {対決|たいけつ}: confrontation, showdown",
+  "notes": "{勝負|しょうぶ} means a match or contest, combining ⟦{勝|か}つ→勝つ：01199_katsu⟧ (win) and ⟦{負|ま}ける→負ける：01134_makeru⟧ (lose).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {勝負|しょうぶ}⟦する→する：00392_suru⟧\n\nVERBAL USAGE:\n{勝負|しょうぶ}⟦する→する：00392_suru⟧ means to compete, to have a match.\n\nCOMMON EXPRESSIONS:\n- {勝負|しょうぶ}⟦しよう→する：00392_suru⟧: Let's have a match!\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧: the match is decided\n- {勝負|しょうぶ}⟦が→が：00051_ga⟧⟦つかない→付く：01960_tsuku⟧: the match isn't decided (a draw)\n- ⟦{真剣|しんけん}→真剣：01565_shinken⟧{勝負|しょうぶ}: serious match\n- ⟦{一発|いっぱつ}→一発：08895_ippatsu⟧{勝負|しょうぶ}: one-shot deal, all or nothing\n\nIDIOMS:\n- {勝負|しょうぶ}⟦は→は：00079_ha⟧⟦{時|とき}→時：02918_toki⟧⟦の→の：09472_no⟧⟦{運|うん}→運：02143_un⟧: Victory depends on luck\n\nRELATED WORDS:\n- ⟦{試合|しあい}→試合：01601_shiai⟧: match, game (sports)\n- ⟦{対決|たいけつ}→対決：12392_taiketsu⟧: confrontation, showdown",
   "cross_references": [
     {
       "type": "related",
@@ -187,7 +187,7 @@
   ],
   "metadata": {
     "created": "2026-01-08T12:27:18Z",
-    "modified": "2026-04-10T06:54:14Z",
+    "modified": "2026-05-15T16:27:20Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -199,9 +199,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture",
-        "leisure",
-        "tool"
+        "sport",
+        "leisure"
       ],
       "verb_class": "suru"
     }

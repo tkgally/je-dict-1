@@ -44,7 +44,7 @@
     },
     {
       "id": "01428_shachou_ex4",
-      "japanese": "{社長|しゃちょう}⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦{中|ちゅう}→〜中：09840_chuu⟧な⟦ので→ので：09501_node⟧、⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦します→する：00392_suru⟧。",
+      "japanese": "{社長|しゃちょう}⟦は→は：00079_ha⟧⟦{今|いま}→今：00945_ima⟧⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦{中|ちゅう}→〜中：09840_chuu⟧⟦な→な：09497_na⟧⟦ので→ので：09501_node⟧、⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦します→する：00392_suru⟧。",
       "english": "The president is in a meeting right now, so I'll contact them later.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{社長|しゃちょう} is the highest executive position in most Japanese companies.\n\nUSAGE:\nCan be used as a title when addressing someone: {社長|しゃちょう}! or with さん: {社長|しゃちょう}さん (less common in formal settings).\n\nCORPORATE HIERARCHY:\n- {会長|かいちょう}: chairman (often honorary/retired)\n- {社長|しゃちょう}: president/CEO\n- {副社長|ふくしゃちょう}: vice president\n- {専務|せんむ}: senior managing director\n- {常務|じょうむ}: managing director\n- {部長|ぶちょう}: department head\n- {課長|かちょう}: section chief\n\nCOMMON PATTERNS:\n- {社長|しゃちょう}に{就任|しゅうにん}する: to become president\n- {社長|しゃちょう}を{務|つと}める: to serve as president\n- うちの{社長|しゃちょう}: our company's president",
-  "cross_references": [],
+  "notes": "{社長|しゃちょう} is the highest executive position in most Japanese companies.\n\nUSAGE:\nCan be used as a title when addressing someone: {社長|しゃちょう}! or with ⟦さん→〜さん：09848_san⟧: {社長|しゃちょう}⟦さん→〜さん：09848_san⟧ (less common in formal settings).\n\nCORPORATE HIERARCHY:\n- ⟦{会長|かいちょう}→会長：11610_kaichou⟧: chairman (often honorary/retired)\n- {社長|しゃちょう}: president/CEO\n- ⟦{副社長|ふくしゃちょう}→副社長：noentry⟧: vice president\n- ⟦{専務|せんむ}→専務：19291_senmu⟧: senior managing director\n- ⟦{常務|じょうむ}→常務：27575_joumu⟧: managing director\n- ⟦{部長|ぶちょう}→部長：01017_buchou⟧: department head\n- ⟦{課長|かちょう}→課長：01075_kachou⟧: section chief\n\nCOMMON PATTERNS:\n- {社長|しゃちょう}⟦に→に：00314_ni⟧⟦{就任|しゅうにん}→就任：12368_shuunin⟧⟦する→する：00392_suru⟧: to become president\n- {社長|しゃちょう}⟦を→を：00422_wo⟧⟦{務|つと}める→務める：10446_tsutomeru⟧: to serve as president\n- ⟦うち→うち：27540_uchi⟧⟦の→の：09472_no⟧{社長|しゃちょう}: our company's president",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11610_kaichou",
+      "reading": "かいちょう",
+      "headword": "{会長|かいちょう}",
+      "label": "chairman (above president)"
+    },
+    {
+      "type": "related",
+      "target_id": "01017_buchou",
+      "reading": "ぶちょう",
+      "headword": "{部長|ぶちょう}",
+      "label": "department head (below president)"
+    },
+    {
+      "type": "related",
+      "target_id": "01075_kachou",
+      "reading": "かちょう",
+      "headword": "{課長|かちょう}",
+      "label": "section chief (below president)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:44:06Z",
-    "modified": "2026-03-11T07:12:11Z",
+    "modified": "2026-05-15T16:18:17Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
