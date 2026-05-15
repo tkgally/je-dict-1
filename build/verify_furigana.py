@@ -35,6 +35,9 @@ def check_entry_furigana(entry_path: Path) -> tuple[bool, list[str], list[str]]:
     if not notes:
         return True, [], []
 
+    # Strip inline link routing (→base：id⟧) so base forms don't cause false positives
+    notes = re.sub(r'→[^⟧]*⟧', '', notes)
+
     # Remove furigana-annotated text
     text_without_furigana = FURIGANA_PATTERN.sub('', notes)
 

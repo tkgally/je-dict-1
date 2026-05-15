@@ -26,3 +26,8 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-05-14 session 007 have been harvested by the wiki maintenance session of 2026-05-15.)_
+
+## 2026-05-15 — comprehensive polish sessions 001–007 (entries 01489–01511)
+- [tooling] verify_furigana.py and find_missing_furigana.py were producing false positives on base forms in inline links (e.g., `→縫う：00326_nuu` triggers unmatched kanji). Fixed by stripping `→[^⟧]*⟧` before furigana scan in both scripts.
+- [pattern] Several entries in the 01490–01511 range had wrong semantic tags: `furniture` applied to non-furniture items (話, 引き出し has `emotion`). Worth noting that emotion/furniture confusions may indicate a systematic labeling issue.
+- [entry] 01495_hatsumei had a Unicode replacement character (U+FFFD) in a cross-reference headword — likely introduced during a bulk edit. Check if other entries in similar ranges have corrupt cross-reference data.
