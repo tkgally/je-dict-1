@@ -1,6 +1,6 @@
 # Consistency in Form and Content Among Similar Entries
 
-**Last updated**: 2026-05-14
+**Last updated**: 2026-05-15
 
 ## Overview
 
@@ -164,3 +164,4 @@ The [multi-model proofreading](../ideas/multi-model-proofreading.md) system coul
 - [Entry Design](../project/entry-design.md) — the entry schema
 - [Multi-Model Proofreading](../ideas/multi-model-proofreading.md) — cross-model consistency checking
 - [Expository Articles](../ideas/expository-articles.md) — articles that could drive consistency improvements
+- [Dictionary Evaluation and Metalexicography](../research/dictionary-evaluation-metalexicography.md) — consistency as one dimension of systematic dictionary evaluation

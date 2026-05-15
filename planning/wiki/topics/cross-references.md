@@ -1,6 +1,6 @@
 # Cross-Reference Design
 
-**Last updated**: 2026-05-14
+**Last updated**: 2026-05-15
 
 ## Overview
 
@@ -61,7 +61,7 @@ Each cross-reference includes a `relationship` field:
 
 ## Current coverage
 
-Over 15,600 cross-references exist across 27,300+ entries (roughly 0.57 cross-references per entry on average; `report.py` measures the symmetry rate at ~40.4% as of 2026-05-14). Coverage is slowly improving, though new entries continue to add unreciprocated links faster than the symmetry pass processes them. Coverage is growing through:
+Over 15,700 cross-references exist across 27,400+ entries (roughly 0.57 cross-references per entry on average; `report.py` measures the symmetry rate at ~40.5% as of 2026-05-15). Coverage is slowly improving, though new entries continue to add unreciprocated links faster than the symmetry pass processes them. Coverage is growing through:
 - Systematic review (`prompts/add_cross-references.md`)
 - Entry creation (new entries include initial cross-refs)
 - Polishing passes

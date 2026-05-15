@@ -238,3 +238,4 @@ These are all detection tools — they expand the deterministic layer's ability 
 - [Parallel Agent Architecture](../ideas/parallel-agent-architecture.md) — running semantic agents in parallel
 - [Content Pipeline](../project/content-pipeline.md) — the overall workflow these tasks fit into
 - [Quality Standards](../project/quality-standards.md) — what the semantic tasks are trying to achieve
+- [Dictionary Evaluation and Metalexicography](../research/dictionary-evaluation-metalexicography.md) — the metalexicographic tradition that informs what "quality" means
