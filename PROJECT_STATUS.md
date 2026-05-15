@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-15 (Vocabulary Expansion - 22 New Entries, "seen in entry" Internal-Completeness Batch)
+Added 22 new dictionary entries (IDs 27607-27628) drawn from the "seen in entry" candidates in `candidate_words.json` — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, definitions and notes scoped to 2–4 sections.
+
+- **Places / facilities (3)**: {焼|や}け{跡|あと}, {各部屋|かくへや}, {釣|つ}り{堀|ぼり}
+- **Verb / adjective (2)**: {逃|に}げ{回|まわ}る (godan), {滑|すべ}りやすい (i-adj)
+- **Daily-life nouns (3)**: {逃|に}げ{道|みち}, {滑|すべ}り{止|ど}め (two senses: anti-slip + backup school), いじめっ{子|こ}
+- **Workplace / education (4)**: {企画部|きかくぶ}, {医学部|いがくぶ}, {医学生|いがくせい}, {歯学|しがく}
+- **People (2)**: {釣|つ}り{人|びと}, {田舎者|いなかもの}
+- **Onomatopoeia / expression (2)**: どしどし, あれから
+- **Numbers / counters (3)**: {三階|さんがい}, {二回|にかい}, {合|ごう} (two senses: 180 ml volume + mountain station)
+- **Culture / material (3)**: {誠|まこと}, {留袖|とめそで}, {絹糸|きぬいと}
+
+Removed stale candidate C20556 ({一回り} with the wrong reading いっかいり; correct reading ひとまわり already exists as entry 11235). No new kanji introduced. All 22 entries validate; furigana check clean.
+
 ### 2026-05-14 (Vocabulary Expansion - 20 New Entries, Mixed "seen in entry" + Oldest-Candidates Batch)
 Added 20 new dictionary entries (IDs 27587-27606) from candidate_words.json. Mix of "seen in entry" internal-completeness candidates and oldest unprocessed candidates. Per-field length budgets followed reference shape ({もてなし} 27261, {埃|ほこり}まみれ 27264).
 
