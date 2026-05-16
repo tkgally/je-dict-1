@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-16 (Vocabulary Expansion - 20 New Entries, Oldest-Candidate Batch)
+Added 20 new dictionary entries (IDs 27673-27692) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, picking genuine standalone words and skipping the many auto-harvested compound fragments. Per-field budgets followed the reference shape of {もてなし} (27261).
+
+- **Technology nouns (2)**: ハードドライブ (hard drive), ディレクトリ (directory)
+- **Loanword verb-suru / na-adjective (3)**: ウォーミングアップ (warm-up), カウントダウン (countdown), エネルギッシュ (energetic)
+- **Culture / everyday nouns (6)**: {浮世離|うきよばな}れ (being unworldly), {幕間|まくあい} (intermission), {生|う}まれ{変|か}わり (reincarnation), {冷奴|ひややっこ} (chilled tofu), {草木染|くさきぞ}め (plant dyeing), スウェットシャツ (sweatshirt)
+- **Science / nature nouns (5)**: {微生物学|びせいぶつがく} (microbiology), {剥製|はくせい} (taxidermy), {卵殻|らんかく} (eggshell), {渋柿|しぶがき} (astringent persimmon), {平原|へいげん} (plain)
+- **Health / society nouns (4)**: {恐怖症|きょうふしょう} (phobia), {神経過敏|しんけいかびん} (oversensitivity), {先駆者|せんくしゃ} (pioneer), {共謀者|きょうぼうしゃ} (co-conspirator)
+
+Removed 1 stale candidate flagged as a duplicate by the batch check: {時代遅|じだいおく}れ (already entry 12719). One new kanji ({奴|やっこ}) introduced and assigned ID 02742. All 20 entries validate; furigana check clean; conjugation tables added to the 3 verb-suru entries.
+
 ### 2026-05-16 (Vocabulary Expansion - 21 New Entries, Oldest-Candidate Batch)
 Added 21 new dictionary entries (IDs 27652-27672) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, skipping the many typos and non-words mixed into that range. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
