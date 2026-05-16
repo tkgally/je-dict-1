@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-16 (Vocabulary Expansion - 21 New Entries, Oldest-Candidate Batch)
+Added 21 new dictionary entries (IDs 27652-27672) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, skipping the many typos and non-words mixed into that range. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Expressions (4)**: を{対象|たいしょう}に (aimed at), {当|あ}てがない (to have no prospect), {私情|しじょう}を{交|まじ}える (to let personal feelings interfere), {白日|はくじつ}の{下|もと}に{晒|さら}す (to bring to light)
+- **Counter / adverb (2)**: {着|ちゃく} (counter for suits of clothing), つい{先|さき}ほど (just a moment ago)
+- **Science / technical nouns (4)**: {排泄物|はいせつぶつ} (bodily waste), {模式図|もしきず} (schematic diagram), {屈折率|くっせつりつ} (refractive index), {比重|ひじゅう} (specific gravity; relative importance — two senses)
+- **Everyday / culture nouns (7)**: {福音書|ふくいんしょ} (Gospel), {牛蒡茶|ごぼうちゃ} (burdock tea), {遠近感|えんきんかん} (sense of depth), {兵隊|へいたい} (soldier), {和牛|わぎゅう} (wagyu), {秒針|びょうしん} (second hand), {稲光|いなびかり} (flash of lightning)
+- **Society / education nouns (4)**: {収賄|しゅうわい} (bribery, verb-suru), {談判|だんぱん} (negotiation, verb-suru), {弁舌|べんぜつ} (eloquence), {課外授業|かがいじゅぎょう} (extracurricular lesson)
+
+Removed 2 stale candidates flagged as duplicates by the batch check: を巡って (already entry 27595) and 状/じょう (already entry 09878). No new kanji introduced. All 21 entries validate; furigana check clean; conjugation tables added to the 2 verb-suru entries.
+
 ### 2026-05-15 (Vocabulary Expansion - 23 New Entries, "seen in entry" + Oldest-Candidate Batch)
 Added 23 new dictionary entries (IDs 27629-27651). The first 19 were "seen in entry" candidates from `candidate_words.json` (words already referenced inside existing entries but not yet defined); the last 4 were drawn from the oldest unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, notes scoped to 2–4 sections.
 
