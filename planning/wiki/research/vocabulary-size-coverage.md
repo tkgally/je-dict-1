@@ -207,6 +207,7 @@ The coverage research clarifies that je-dict-1's size (26,700+) is not "too larg
 - [Vocabulary Acquisition](vocabulary-acquisition.md) — incremental learning, depth of processing, the lexical threshold in context
 - [Vocabulary Tier System](../project/vocabulary-tiers.md) — je-dict-1's three-tier classification and its relationship to coverage
 - [Corpus Linguistics](corpus-linguistics.md) — frequency lists and corpus-based word selection
+- [Japanese Vocabulary Grading](japanese-vocabulary-grading.md) — Japanese-specific frequency data, the word-family unit problem, and JLPT vs. corpus-based grading
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — how defining vocabulary size relates to the coverage model
 - [Corpus-Driven Entry Prioritization](../ideas/corpus-prioritization.md) — using frequency data to guide expansion
 - [Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md) — growth phases and size targets

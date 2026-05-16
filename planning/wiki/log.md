@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-16] maintenance | Japanese vocabulary grading research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 3 unprocessed observations from `polishing/observations.md` — comprehensive-polish 2026-05-15 sessions 001–007 (entries 01489–01511):
+  - `[tooling]` verify_furigana.py inline-link baseform false positives — **resolved**: the originating session fixed both scripts by stripping `→[^⟧]*⟧` before furigana scan (committed in PR #2346). Marked as RESOLVED in tooling-backlog item 2.
+  - `[pattern]` Semantic tag "furniture" misapplied to entries in 01490–01511 range (same stale-auto-label pattern as 02008_ikuratemo) → added to entry-followups with spot-check recommendation
+  - `[entry]` 01495_hatsumei Unicode replacement character (U+FFFD) in cross-reference headword → added to entry-followups with grep command for broader detection
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **Japanese vocabulary grading: frequency data and learner word lists** and created `research/japanese-vocabulary-grading.md`. Covers BCCWJ as the gold standard (104.3M tokens, balanced across registers, UniDic annotation, Maekawa/KOTONOHA project); other Japanese corpora (NWJC 25.8B tokens, CSJ, newspaper corpora, subtitle corpora); published frequency lists (Matsushita's VDRJ using BCCWJ with dispersion-adjusted frequency, Sunakawa et al.'s 日本語教育語彙表 with six corpus-based levels, Chikamatsu et al. 2000 kanji character frequency list, CEFR-J Wordlist); JLPT word lists and their seven known problems (not corpus-based, outdated, exam-focused, no dispersion weighting, arbitrary boundaries, N1 undifferentiated, no official list post-2010); the word-family unit problem for Japanese (Sino-Japanese compound productivity, verb derivation opacity, multiple readings, suru-verb compound splitting); four counting units compared (Short Unit Word, Long Unit Word, lexical item, word family); the kanji compound transparency advantage (steeper coverage curve, receptive/productive asymmetry); Japanese coverage curve findings (~5,000–6,000 lemmas for 95%, ~9,000–11,000 for 98%); the JLPT–corpus divide in pedagogical practice (table comparing both traditions); and detailed implications for je-dict-1 (tier system validation against frequency expectations, gap analysis possibilities, production-oriented dictionary design). Cited Chikamatsu et al. 2000, Matsushita 2012, Nation 2001/2006, NINJAL 2012, Sunakawa et al. 2012, Tono 2001.
+- [A] Updated stats across wiki pages to reflect 2026-05-16 `report.py` output (27,484 entries, 24,701 general, 15,782 cross-references, 0.57 per entry, 109,220 examples, 40.5% symmetry with 7,756 asymmetric refs, 1,653 candidates, 2,848 entries with inline links at 10.4%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `research/sense-relations-semantic-networks.md`, `research/controlled-defining-vocabulary.md`, `ideas/dictionary-growth.md`, `topics/cross-references.md`. Added vocabulary grading page to `index.md` and as a related page on `research/corpus-linguistics.md`, `research/vocabulary-size-coverage.md`, and `project/vocabulary-tiers.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-05-15] maintenance | Dictionary evaluation research, observation harvest, stats sync
 
 **Session type**: Nightly maintenance

@@ -74,3 +74,4 @@ Comparing dictionary coverage against BCCWJ frequency ranks would identify the h
 - [LLMs as Lexicographic Corpus Replacements](../topics/llms-replacing-corpora.md) — whether LLMs can replace corpora in dictionary production
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how frequency-based vocabulary size maps to text coverage thresholds
 - [Register and Formality Marking](register-formality-marking.md) — corpus-based register assignment using genre-tagged subcorpora
+- [Japanese Vocabulary Grading](japanese-vocabulary-grading.md) — BCCWJ-derived word lists, JLPT vs. corpus-based approaches, and Japanese-specific counting-unit challenges

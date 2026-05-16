@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-15
+**Last updated**: 2026-05-16
 
 
 ## How this wiki is organized
@@ -61,6 +61,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Cultural Content in Bilingual Dictionaries](research/cultural-content-dictionaries.md) — Culture-bound terms, the encyclopedic–linguistic boundary, Japanese cultural vocabulary dimensions, and dictionary treatment strategies
 - [Lemmatization and Headword Selection](research/lemmatization-headword-selection.md) — Citation forms, entry scope criteria, non-inferability, word-counting units, and Japanese-specific headword challenges
 - [Dictionary Evaluation and Metalexicography](research/dictionary-evaluation-metalexicography.md) — Evaluation frameworks (Wiegand, Hartmann, Tarp, Lew & Szarowska), user study methods, quality metrics, and the review–metric gap
+- [Japanese Vocabulary Grading](research/japanese-vocabulary-grading.md) — BCCWJ frequency data, JLPT vs. corpus-based word lists, the word-family unit problem for Japanese, and coverage curve findings
 
 ## Topics
 
