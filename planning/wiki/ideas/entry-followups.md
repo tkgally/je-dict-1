@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-15
+**Last updated**: 2026-05-16
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -165,6 +165,26 @@ Entry 01300_gozaimasu (ございます) has a conjugation table generated using 
 Entry 01293_yogoreru ({汚|よご}れる) was misclassified as `verb-godan` in its POS tag and `verb_class`; the originating polish session corrected it to `verb-ichidan` and regenerated conjugations. The note recommends spot-checking other entries near this range for similar misclassifications.
 
 **Status**: Fixed in the originating session. No further action needed on this entry. Logged here to note the spot-check recommendation for nearby entries.
+
+## 01495_hatsumei — Unicode replacement character in cross-reference headword
+
+**Source**: Comprehensive-polish 2026-05-15 sessions 001–007
+
+Entry 01495_hatsumei ({発明|はつめい}) has a Unicode replacement character (U+FFFD) in a cross-reference headword — likely introduced during a bulk edit. This may indicate a broader data-corruption issue in entries within similar ID ranges that were bulk-edited at the same time.
+
+**Recommended fix**: Open the entry JSON and replace or remove the U+FFFD character in the cross-reference. Also run a grep across the entry set to check for other U+FFFD occurrences:
+
+```bash
+grep -r $'\xef\xbf\xbd' entries/ | head -20
+```
+
+## Semantic tag "furniture" misapplied in 01490–01511 range
+
+**Source**: Comprehensive-polish 2026-05-15 sessions 001–007
+
+Several entries in the 01490–01511 range had wrong semantic tags: `furniture` applied to non-furniture items. This is the same stale-auto-label pattern documented in [Schema Tag Reliability](../topics/schema-tag-reliability.md) — `furniture` as a semantic tag keeps appearing on entries with no connection to furniture (cf. 02008_ikuratemo above). The polish session fixed individual entries, but this observation suggests the mislabeling may be systematic in this ID range.
+
+**Recommended fix**: Spot-check entries in the 01400–01600 range for `semantic: ["furniture"]` tags that don't match the entry content. If the pattern is widespread, it may warrant a targeted scanner or batch fix.
 
 ## Related pages
 
