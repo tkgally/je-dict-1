@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "01658_fujin_ex1",
-      "japanese": "{婦人|ふじん}⟦{服|ふく}→服：00695_fuku⟧⟦の→の：09472_no⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧ですか。",
+      "japanese": "{婦人|ふじん}⟦{服|ふく}→服：00695_fuku⟧⟦の→の：09472_no⟧⟦{売|う}り{場|ば}→売り場：01331_uriba⟧⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Where is the women's clothing section?",
       "notes": "Common in department stores",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "01658_fujin_ex2",
-      "japanese": "{婦人|ふじん}{科|か}⟦を→を：00422_wo⟧⟦{受診|じゅしん}しました→受診：11890_jushin⟧。",
+      "japanese": "{婦人|ふじん}⟦{科|か}→科：noentry⟧⟦を→を：00422_wo⟧⟦{受診|じゅしん}しました→受診：11890_jushin⟧。",
       "english": "I visited the gynecology department.",
       "notes": "{婦人|ふじん}{科|か} = gynecology",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "01658_fujin_ex3",
-      "japanese": "ご{婦人|ふじん}⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧こちら⟦へ→へ：02473_he⟧どうぞ。",
+      "japanese": "⟦ご→ご：09882_go⟧{婦人|ふじん}⟦の→の：09472_no⟧⟦{方|かた}→方：10665_kata⟧⟦は→は：00079_ha⟧⟦こちら→こちら：00960_kochira⟧⟦へ→へ：02473_he⟧⟦どうぞ→どうぞ：02920_douzo⟧。",
       "english": "Ladies, please come this way.",
       "notes": "Polite usage",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "01658_fujin_ex5",
-      "japanese": "{婦人|ふじん}{会|かい}⟦の→の：09472_no⟧⟦{会合|かいごう}→会合：02605_kaigou⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加：02498_sanka⟧。",
+      "japanese": "{婦人|ふじん}⟦{会|かい}→会：27493_kai⟧⟦の→の：09472_no⟧⟦{会合|かいごう}→会合：02605_kaigou⟧⟦に→に：00314_ni⟧⟦{参加|さんか}した→参加：02498_sanka⟧。",
       "english": "I attended a women's association meeting.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{婦人|ふじん} is a formal term for woman or lady.\n\nCOMMON PATTERNS:\n- {婦人|ふじん}{服|ふく} (women's clothing)\n- {婦人|ふじん}{科|か} (gynecology)\n- ご{婦人|ふじん} (polite: lady/ladies)\n\nSIMILAR WORDS:\n- {女性|じょせい}: woman (neutral, common)\n- {婦人|ふじん}: woman, lady (formal, somewhat dated)\n- {女|おんな}の{人|ひと}: woman (casual)\n- {淑女|しゅくじょ}: lady (refined)\n\nUSAGE NOTE:\n{婦人|ふじん} is becoming less common and may sound dated. {女性|じょせい} is now more widely used in everyday contexts.",
+  "notes": "{婦人|ふじん} is a formal term for woman or lady.\n\nCOMMON PATTERNS:\n- {婦人|ふじん}⟦{服|ふく}→服：00695_fuku⟧ (women's clothing)\n- {婦人|ふじん}⟦{科|か}→科：noentry⟧ (gynecology)\n- ⟦ご→ご：09882_go⟧{婦人|ふじん} (polite: lady/ladies)\n\nSIMILAR WORDS:\n- ⟦{女性|じょせい}→女性：01617_josei⟧: woman (neutral, common)\n- {婦人|ふじん}: woman, lady (formal, somewhat dated)\n- ⟦{女|おんな}→女：00559_onna⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧: woman (casual)\n- ⟦{淑女|しゅくじょ}→淑女：18023_shukujo⟧: lady (refined)\n\nUSAGE NOTE:\n{婦人|ふじん} is becoming less common and may sound dated. ⟦{女性|じょせい}→女性：01617_josei⟧ is now more widely used in everyday contexts.",
   "cross_references": [
     {
       "type": "synonym",
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-09T11:57:15Z",
-    "modified": "2026-04-02T05:09:13Z",
+    "modified": "2026-05-16T15:11:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
