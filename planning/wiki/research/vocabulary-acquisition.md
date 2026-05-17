@@ -111,6 +111,7 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how many words learners need and what that means for dictionary sizing
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — the cognate advantage for English-speaking learners and its limits
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic competence gap and why grammatical knowledge doesn't ensure appropriate language use
+- [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — Nation's knowledge dimensions, the breadth/depth distinction, and incremental acquisition
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — the semantic clustering debate and how learners organize vocabulary in semantic networks
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — morphological awareness, compound inferencing, and kanji knowledge in vocabulary acquisition
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis
