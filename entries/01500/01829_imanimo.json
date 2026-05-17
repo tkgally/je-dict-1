@@ -51,8 +51,16 @@
       ]
     }
   ],
-  "notes": "{今|いま}にも emphasizes that something is on the very brink of happening. It conveys a sense of tension or urgency — the event could occur at any second.\n\nGRAMMAR:\nAlmost always followed by 〜そうだ or 〜そうな, expressing that something looks like it is about to happen. The も particle adds emphasis beyond plain {今|いま}に.\n\nCOMMON PATTERNS:\n- {今|いま}にも〜そうだ (looks like it will ~ any moment)\n- {今|いま}にも〜しそうな + noun (a noun that looks about to ~)\n- {今|いま}にも{崩|くず}れそう (looks like it could crumble any second)\n\nCOMPARISON:\n- {今|いま}に: eventually, someday (less urgent)\n- {今|いま}にも: at any moment (imminent, tense)\n- もうすぐ: soon (neutral, no tension)",
-  "cross_references": [],
+  "notes": "{今|いま}にも emphasizes that something is on the very brink of happening. It conveys a sense of tension or urgency — the event could occur at any second.\n\nGRAMMAR:\nAlmost always followed by 〜そうだ or 〜そうな, expressing that something looks like it is about to happen. The ⟦も→も：00484_mo⟧ particle adds emphasis beyond plain {今|いま}に.\n\nCOMMON PATTERNS:\n- {今|いま}に⟦も→も：00484_mo⟧〜そうだ (looks like it will ~ any moment)\n- {今|いま}に⟦も→も：00484_mo⟧〜しそうな + noun (a noun that looks about to ~)\n- {今|いま}に⟦も→も：00484_mo⟧⟦{崩|くず}れそう→崩れる：04248_kuzureru⟧ (looks like it could crumble any second)\n\nCOMPARISON:\n- ⟦{今|いま}に→今に：01827_imani⟧: eventually, someday (less urgent)\n- {今|いま}にも: at any moment (imminent, tense)\n- ⟦もうすぐ→もうすぐ：01218_mousugu⟧: soon (neutral, no tension)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01827_imani",
+      "reading": "いまに",
+      "headword": "{今|いま}に",
+      "label": "eventually (less urgent)"
+    }
+  ],
   "prominent_see_also": [
     {
       "target_id": "01827_imani",
@@ -63,7 +71,7 @@
   ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-04-05T07:10:58Z",
+    "modified": "2026-05-17T13:09:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
