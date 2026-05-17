@@ -149,7 +149,7 @@
     },
     {
       "id": "01981_hirogeru_ex5",
-      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦は→は：00079_ha⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦の→の：09472_no⟧⟦{幅|はば}→幅：03565_haba⟧⟦を→を：00422_wo⟧{広|ひろ}げてくれる。",
+      "japanese": "⟦{読書|どくしょ}→読書：03484_dokusho⟧⟦は→は：00079_ha⟧⟦{知識|ちしき}→知識：01463_chishiki⟧⟦の→の：09472_no⟧⟦{幅|はば}→幅：03565_haba⟧⟦を→を：00422_wo⟧{広|ひろ}げて⟦くれる→くれる：00724_kureru⟧。",
       "english": "Reading broadens one's knowledge.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,19 @@
       ]
     }
   ],
-  "notes": "{広|ひろ}げる is a transitive ichidan verb meaning to spread, extend, or expand something.\n\nTRANSITIVITY:\n- {他動詞|たどうし} (transitive): {広|ひろ}げる - to spread something\n- {自動詞|じどうし} (intransitive): {広|ひろ}がる - something spreads\n\nASPECT (ている):\n{広|ひろ}げている indicates the action is ongoing or a resulting state.\n\nCOMMON EXPRESSIONS:\n- {地図|ちず}を{広|ひろ}げる: to spread out a map\n- {視野|しや}を{広|ひろ}げる: to broaden one's horizons\n- {手|て}を{広|ひろ}げる: to spread one's arms/hands\n- {翼|つばさ}を{広|ひろ}げる: to spread wings\n- {事業|じぎょう}を{広|ひろ}げる: to expand a business",
-  "cross_references": [],
+  "notes": "{広|ひろ}げる is a transitive ichidan verb meaning to spread, extend, or expand something.\n\nTRANSITIVITY:\n- ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive): {広|ひろ}げる - to spread something\n- ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive): ⟦{広|ひろ}がる→広がる：01980_hirogaru⟧ - something spreads\n\nASPECT (ている):\n{広|ひろ}げている indicates the action is ongoing or a resulting state.\n\nCOMMON EXPRESSIONS:\n- ⟦{地図|ちず}→地図：02914_chizu⟧⟦を→を：00422_wo⟧{広|ひろ}げる: to spread out a map\n- ⟦{視野|しや}→視野：08659_shiya⟧⟦を→を：00422_wo⟧{広|ひろ}げる: to broaden one's horizons\n- ⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧{広|ひろ}げる: to spread one's arms/hands\n- ⟦{翼|つばさ}→翼：03528_tsubasa⟧⟦を→を：00422_wo⟧{広|ひろ}げる: to spread wings\n- ⟦{事業|じぎょう}→事業：11421_jigyou⟧⟦を→を：00422_wo⟧{広|ひろ}げる: to expand a business",
+  "cross_references": [
+    {
+      "target_id": "01980_hirogaru",
+      "reading": "ひろがる",
+      "headword": "{広|ひろ}がる",
+      "type": "pair",
+      "note": "intransitive counterpart"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:40:43Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-17T20:20:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
