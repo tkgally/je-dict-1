@@ -38,7 +38,7 @@
     },
     {
       "id": "01971_niru_ex3",
-      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{染|し}みる→染みる：10354_shimiru⟧⟦まで→まで：00490_made⟧じっくり{煮|に}た⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦おいしい→美味しい：00740_oishii⟧。",
+      "japanese": "⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{染|し}みる→染みる：10354_shimiru⟧⟦まで→まで：00490_made⟧⟦じっくり→じっくり：06252_jikkuri⟧{煮|に}た⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦おいしい→美味しい：00740_oishii⟧。",
       "english": "It tastes better if you simmer it slowly until the flavor soaks in.",
       "notes": null,
       "has_audio": false,
@@ -47,11 +47,19 @@
       ]
     }
   ],
-  "notes": "{煮|に}る is an ichidan verb meaning to boil, simmer, or stew food in liquid.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {煮|に}える (intransitive, something boils/simmers)\n\nCOMMON PATTERNS:\n- {野菜|やさい}を{煮|に}る: to boil vegetables\n- {弱火|よわび}で{煮|に}る: to simmer on low heat\n- じっくり{煮|に}る: to simmer slowly\n- {味|あじ}が{染|し}みるまで{煮|に}る: to simmer until flavor soaks in\n\nRELATED COOKING TERMS:\n- {煮物|にもの}: simmered dish (common Japanese dish)\n- {煮込|にこ}む: to stew, simmer for a long time\n- {煮|に}つける: to simmer in seasoned liquid\n- {煮|に}{出|だ}す: to boil to extract (like stock)\n\nOTHER COOKING VERBS:\n- {焼|や}く: to grill, roast, bake\n- {炒|いた}める: to stir-fry\n- {蒸|む}す: to steam\n- {揚|あ}げる: to deep-fry",
-  "cross_references": [],
+  "notes": "{煮|に}る is an ichidan verb meaning to boil, simmer, or stew food in liquid.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{煮|に}える→煮える：02382_nieru⟧ (intransitive, something boils/simmers)\n\nCOMMON PATTERNS:\n- ⟦{野菜|やさい}→野菜：02265_yasai⟧⟦を→を：00422_wo⟧{煮|に}る: to boil vegetables\n- ⟦{弱火|よわび}→弱火：08168_yowabi⟧⟦で→で：00502_de⟧{煮|に}る: to simmer on low heat\n- ⟦じっくり→じっくり：06252_jikkuri⟧{煮|に}る: to simmer slowly\n- ⟦{味|あじ}→味：00826_aji⟧⟦が→が：00051_ga⟧⟦{染|し}みる→染みる：10354_shimiru⟧⟦まで→まで：00490_made⟧{煮|に}る: to simmer until flavor soaks in\n\nRELATED COOKING TERMS:\n- ⟦{煮物|にもの}→煮物：04971_nimono⟧: simmered dish (common Japanese dish)\n- ⟦{煮込|にこ}む→煮込む：05822_nikomu⟧: to stew, simmer for a long time\n- ⟦{煮|に}つける→煮つける：noentry⟧: to simmer in seasoned liquid\n- ⟦{煮|に}{出|だ}す→煮出す：noentry⟧: to boil to extract (like stock)\n\nOTHER COOKING VERBS:\n- ⟦{焼|や}く→焼く：01123_yaku⟧: to grill, roast, bake\n- ⟦{炒|いた}める→炒める：01879_itameru⟧: to stir-fry\n- ⟦{蒸|む}す→蒸す：02307_musu⟧: to steam\n- ⟦{揚|あ}げる→揚げる：16879_ageru⟧: to deep-fry",
+  "cross_references": [
+    {
+      "target_id": "02382_nieru",
+      "reading": "にえる",
+      "headword": "{煮|に}える",
+      "type": "pair",
+      "note": "intransitive counterpart"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:59:54Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-17T20:11:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
