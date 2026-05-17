@@ -82,11 +82,19 @@
       ]
     }
   ],
-  "notes": "{異動|いどう} refers to job transfers or personnel changes.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {異動|いどう}する\n\nCOMMON PATTERNS:\n- {異動|いどう}する (to be transferred)\n- {異動|いどう}になる (to get transferred)\n- {人事|じんじ}{異動|いどう} (personnel changes)\n- {異動|いどう}{届|とどけ} (transfer notification)\n\nNOTE:\n- Different from {移動|いどう} (movement, travel) - same reading, different kanji\n- {異動|いどう}: job/position changes (personnel)\n- {移動|いどう}: physical movement (travel)",
-  "cross_references": [],
+  "notes": "{異動|いどう} refers to job transfers or personnel changes.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {異動|いどう}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {異動|いどう}⟦する→する：00392_suru⟧ (to be transferred)\n- {異動|いどう}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to get transferred)\n- ⟦{人事|じんじ}→人事：00126_jinji⟧{異動|いどう} (personnel changes)\n- {異動|いどう}⟦{届|とどけ}→届け：07558_todoke⟧ (transfer notification)\n\nNOTE:\n- Different from ⟦{移動|いどう}→移動：01741_idou⟧ (movement, travel) - same reading, different kanji\n- {異動|いどう}: job/position changes (personnel)\n- ⟦{移動|いどう}→移動：01741_idou⟧: physical movement (travel)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01741_idou",
+      "reading": "いどう",
+      "headword": "{移動|いどう}",
+      "label": "physical movement (same reading, different kanji)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-04-10T06:55:14Z",
+    "modified": "2026-05-17T13:09:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

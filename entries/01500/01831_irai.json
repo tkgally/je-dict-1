@@ -138,11 +138,33 @@
       ]
     }
   ],
-  "notes": "{以来|いらい} marks a starting point in the past and implies the situation has continued from then until now. It attaches directly to a time expression or verb te-form.\n\nCOMMON PATTERNS:\n- [noun]{以来|いらい}: {卒業|そつぎょう}{以来|いらい} (since graduation)\n- 〜て{以来|いらい}: {会|あ}って{以来|いらい} (since meeting)\n- {以来|いらい}ずっと: ever since then (emphasizes continuity)\n- これ{以来|いらい}: from then on\n\nGRAMMAR:\nUnlike {後|あと} or {以後|いご}, {以来|いらい} strongly implies the state or action has continued up to the present. It connects a past event to the current moment.\n\nSIMILAR WORDS:\n- {以来|いらい}: since (continuing up to now)\n- {以後|いご}: after (forward-looking, may not continue to present)\n- {以降|いこう}: from ~ onward (formal/written)\n- {後|あと}: after (general, casual)\n\nHOMOPHONE:\nDo not confuse with {依頼|いらい} (request) — same reading, different kanji and meaning.",
-  "cross_references": [],
+  "notes": "{以来|いらい} marks a starting point in the past and implies the situation has continued from then until now. It attaches directly to a time expression or verb te-form.\n\nCOMMON PATTERNS:\n- [noun]{以来|いらい}: ⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧{以来|いらい} (since graduation)\n- 〜て{以来|いらい}: ⟦{会|あ}って→会う：00482_au⟧{以来|いらい} (since meeting)\n- {以来|いらい}⟦ずっと→ずっと：00912_zutto⟧: ever since then (emphasizes continuity)\n- ⟦これ→これ：00963_kore⟧{以来|いらい}: from then on\n\nGRAMMAR:\nUnlike ⟦{後|あと}→後：09580_ato⟧ or ⟦{以後|いご}→以後：01710_igo⟧, {以来|いらい} strongly implies the state or action has continued up to the present. It connects a past event to the current moment.\n\nSIMILAR WORDS:\n- {以来|いらい}: since (continuing up to now)\n- ⟦{以後|いご}→以後：01710_igo⟧: after (forward-looking, may not continue to present)\n- ⟦{以降|いこう}→以降：03999_ikou⟧: from ~ onward (formal/written)\n- ⟦{後|あと}→後：09580_ato⟧: after (general, casual)\n\nHOMOPHONE:\nDo not confuse with ⟦{依頼|いらい}→依頼：02594_irai⟧ (request) — same reading, different kanji and meaning.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01710_igo",
+      "reading": "いご",
+      "headword": "{以後|いご}",
+      "label": "after (forward-looking)"
+    },
+    {
+      "type": "related",
+      "target_id": "03999_ikou",
+      "reading": "いこう",
+      "headword": "{以降|いこう}",
+      "label": "from ~ onward (formal)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02594_irai",
+      "reading": "いらい",
+      "headword": "{依頼|いらい}",
+      "label": "request (different kanji)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-04-05T09:02:55Z",
+    "modified": "2026-05-17T13:09:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
