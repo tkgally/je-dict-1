@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-17 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 27693-27717) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 3 sections.
+
+- **Food / cake nouns (8)**: ショートケーキ (strawberry shortcake), チョコレートケーキ (chocolate cake), モンブラン (Mont Blanc), シフォンケーキ (chiffon cake), ポテトサラダ (potato salad), グリーンサラダ (green salad), マカロニサラダ (macaroni salad), コールスロー (coleslaw)
+- **Clothing nouns (9)**: ウールコート (wool coat), トレンチコート (trench coat), レインコート (raincoat), フリーサイズ (one size fits all), ビーチサンダル (flip-flops), ウール (wool), タートルネック (turtleneck), ブリーフ (briefs), トランクス (boxer shorts)
+- **Other nouns (8)**: ミリグラム (milligram), カツサンド (pork cutlet sandwich), リサイタル (recital), {銀幕|ぎんまく} (silver screen), モノラル (mono audio), コンポ (component stereo), {発表会|はっぴょうかい} (recital/presentation), {准看護師|じゅんかんごし} (licensed practical nurse)
+
+No new kanji introduced. All 25 entries validate; furigana check clean. No verbs or i-adjectives in this batch.
+
 ### 2026-05-16 (Vocabulary Expansion - 20 New Entries, Oldest-Candidate Batch)
 Added 20 new dictionary entries (IDs 27673-27692) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, picking genuine standalone words and skipping the many auto-harvested compound fragments. Per-field budgets followed the reference shape of {もてなし} (27261).
 
