@@ -35,3 +35,6 @@ _(All observations through 2026-05-16 sessions 001–004 have been harvested by 
 ## 2026-05-17 — comprehensive polish session 002 (entries 01833–01856)
 - [pattern] "するする" typo in TRANSITIVITY → Pattern continues in 01833–01856 range. Affected: 01833, 01835, 01837, 01839, 01841, 01843, 01845, 01847, 01849, 01851, 01852, 01855. All fixed this session.
 - [pattern] Incorrect semantic tags continue in this range: 01836 (医療: body-part/education→medical/health), 01838 (祝い: clothing/leisure→celebration/social), 01848 (引退: transportation→work/career), 01849 (入院: education→medical/health), 01855 (輸出: building/transportation→economy/trade). Pattern of wrong tags applied during batch creation.
+
+## 2026-05-17 — comprehensive polish session 009 (entries 01992–02011)
+- [pattern] Wrong semantic tags found in entries 02008_ikuratemo ("furniture") and 02011_uragiru ("electronics"). Both corrected. Pattern of batch-creation semantic tag errors continues into the 02000 range.
