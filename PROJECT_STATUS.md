@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-17 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 27718-27739) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (16)**: バスケット (basket; basketball, two senses), {生糸|きいと} (raw silk), {養蚕|ようさん} (sericulture), {見物人|けんぶつにん} (spectator), {重工業|じゅうこうぎょう} (heavy industry), {軽工業|けいこうぎょう} (light industry), {布巾|ふきん} (dish cloth), {麻|あさ} (hemp/linen), {農協|のうきょう} (agricultural cooperative), {自然史|しぜんし} (natural history), {発明品|はつめいひん} (invention), {地上波|ちじょうは} (terrestrial broadcasting), {現在地|げんざいち} (current location), {種目|しゅもく} (event/category), {既存|きそん} (existing), {公会堂|こうかいどう} (public hall)
+- **Adjectives (2)**: {文法的|ぶんぽうてき} (grammatical, na-adj), {衛生的|えいせいてき} (sanitary, na-adj)
+- **Verb (1)**: {録|と}る (to record audio/video, godan, transitive)
+- **Other (3)**: あんた (you, casual pronoun), とっくに (long ago, adverb), {久々|ひさびさ} (after a long time)
+
+Removed stale candidate 坊ちゃん (duplicate of existing 坊っちゃん, 16357). No new kanji introduced. All 22 entries validate; furigana check clean.
+
 ### 2026-05-17 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 27693-27717) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 3 sections.
 
