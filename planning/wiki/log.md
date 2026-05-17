@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-17] maintenance | Depth of vocabulary knowledge research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 2 unprocessed observations from `polishing/observations.md` — comprehensive-polish 2026-05-16 sessions 001 (entries 01603–01627) and 004 (entries 01673–01692):
+  - `[pattern]` Stub conjugation field alongside full conjugation table (entries 01624, 01626) → already documented in cleanup-backlog Priority 4 (duplicate conjugation keys); no new action needed
+  - `[pattern]` Adverb entries (01604 ますます, 01679 あいにく, 01680 遠く) with incorrect godan conjugation tables due to く-ending matching → already documented in cleanup-backlog Priority 6 (130 entries); continues to reinforce the case for the defensive guard in `add_conjugations.py`
+  - `[pattern]` Missing inline links for sentence-final です・か・ます in examples → reinforces existing inline-links polishing task (at entry 02730); no new action
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **depth of vocabulary knowledge** and created `research/depth-of-vocabulary-knowledge.md`. Covers Nation's (2001) 18-type framework (form/meaning/use × receptive/productive × 3 aspects); Paribakht & Wesche (1997) Vocabulary Knowledge Scale (five self-report levels); Read's (2000) Word Associates Test measuring paradigmatic, syntagmatic, and analytic associations; Qian (1999, 2002) on depth as a unique predictor of reading comprehension beyond breadth (~59% variance explained); Henriksen's (1999) three dimensions (precision, depth, receptive→productive); Webb (2007) on differential acquisition rates across knowledge types; Nesselhauf (2005) and Laufer & Waldman (2011) on 50% collocational error rates even among advanced learners; Japanese-specific depth dimensions (multiple readings, script choice, aspect behavior, transitivity pairs, uchi/soto register); and detailed implications for je-dict-1 mapping entry features to knowledge dimensions served. Cited Bogaards 2001, Henriksen 1999, Laufer & Waldman 2011, Nation 2001, Nesselhauf 2005, Paribakht & Wesche 1997, Qian 1999/2002, Read 2000, Read & Chapelle 2001, Schmitt 2010, Uno et al. 2021, Webb 2007.
+- [A] Updated stats across wiki pages to reflect 2026-05-17 `report.py` output (27,531 entries, 24,748 general, 15,788 cross-references, 0.57 per entry, 109,364 examples, 40.5% symmetry with 7,758 asymmetric refs, 1,641 candidates). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `topics/entry-consistency.md`, `ideas/dictionary-growth.md`, `research/je-dictionary-history.md`, `research/sense-relations-semantic-networks.md`. Added depth-of-vocabulary-knowledge page to `index.md` and as a related page on `research/vocabulary-acquisition.md`, `research/collocations.md`, `research/vocabulary-learning-strategies.md`, `research/example-sentences.md`, and `research/learner-lexicography.md`. Updated "Last updated" dates on all modified pages.
+
 ## [2026-05-16] maintenance | Japanese vocabulary grading research, observation harvest, stats sync
 
 **Session type**: Nightly maintenance

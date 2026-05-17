@@ -1,10 +1,10 @@
 # Consistency in Form and Content Among Similar Entries
 
-**Last updated**: 2026-05-15
+**Last updated**: 2026-05-17
 
 ## Overview
 
-As the dictionary grows past 27,400 entries, inconsistencies in how similar types of entries present information become increasingly visible. This page analyzes the consistency problem, identifies the most important areas for standardization, and proposes strategies for achieving greater uniformity without losing the flexibility that makes individual entries useful. Since Phase 10 of the Enhancement Plan 2026, `build/check_consistency.py` now operationalizes several of the detection ideas below.
+As the dictionary grows past 27,500 entries, inconsistencies in how similar types of entries present information become increasingly visible. This page analyzes the consistency problem, identifies the most important areas for standardization, and proposes strategies for achieving greater uniformity without losing the flexibility that makes individual entries useful. Since Phase 10 of the Enhancement Plan 2026, `build/check_consistency.py` now operationalizes several of the detection ideas below.
 
 ## The consistency problem
 

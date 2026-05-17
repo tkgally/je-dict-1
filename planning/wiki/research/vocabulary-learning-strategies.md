@@ -240,6 +240,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Word Formation and Morphology](word-formation.md) — Morphological patterns that enable word part analysis
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — Cognate recognition strategy and its limitations
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Common strategy failures by L1 background
+- [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — What "knowing a word" means across multiple dimensions (form, meaning, use)
 
 ## References
 
