@@ -47,18 +47,26 @@
       ]
     }
   ],
-  "notes": "{暖|あたた}める is an ichidan (transitive) verb meaning to warm or heat something.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {暖|あたた}まる (intransitive — to warm up by itself)\n\nKANJI VARIATION:\nBoth {暖|あたた}める and {温|あたた}める are used, with a subtle difference:\n- {暖|あたた}める: warming air, rooms, atmosphere\n- {温|あたた}める: warming food, body, water\nIn practice, they are often used interchangeably.\n\nCOMMON COLLOCATIONS:\n- {部屋|へや}を{暖|あたた}める: to warm up a room\n- スープを{温|あたた}める: to heat up soup\n- {体|からだ}を{温|あたた}める: to warm one's body\n- {心|こころ}を{温|あたた}める: to warm one's heart (figurative)",
-  "cross_references": [],
+  "notes": "{暖|あたた}める is an ichidan (transitive) verb meaning to warm or heat something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{暖|あたた}まる→暖まる：01856_atatamaru⟧ (intransitive — to warm up by itself)\n\nKANJI VARIATION:\nBoth {暖|あたた}める and ⟦{温|あたた}める→温める：02096_atatameru⟧ are used, with a subtle difference:\n- {暖|あたた}める: warming air, rooms, atmosphere\n- ⟦{温|あたた}める→温める：02096_atatameru⟧: warming food, body, water\nIn practice, they are often used interchangeably.\n\nCOMMON COLLOCATIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{暖|あたた}める: to warm up a room\n- ⟦スープ→スープ：00395_suupu⟧⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧: to heat up soup\n- ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧: to warm one's body\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦を→を：00422_wo⟧⟦{温|あたた}める→温める：02096_atatameru⟧: to warm one's heart (figurative)",
+  "cross_references": [
+    {
+      "target_id": "01856_atatamaru",
+      "type": "pair",
+      "reading": "あたたまる",
+      "headword": "{暖|あたた}まる",
+      "note": "intransitive counterpart"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:26:41Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-17T15:11:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "verb-ichidan"
       ],
-      "transitivity": "both",
+      "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
