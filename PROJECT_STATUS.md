@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-18 (Vocabulary Expansion - 25 New Entries, Oldest-Candidate Batch)
+Added 25 new dictionary entries (IDs 27740-27764) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, picking genuine standalone words and skipping the many auto-harvested compound fragments, typos, and numbers. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Geography (4)**: {西|にし}アジア (West Asia), {北|きた}アフリカ (North Africa), {中央|ちゅうおう}アメリカ (Central America), ラテンアメリカ (Latin America)
+- **Biology / nature (4)**: {脊椎|せきつい}{動物|どうぶつ} (vertebrate), {節足|せっそく}{動物|どうぶつ} (arthropod), {地衣|ちい}{類|るい} (lichen), {嫌気|けんき}{性|せい} (anaerobic)
+- **Medical / anatomy (6)**: {唾液|だえき}{腺|せん} (salivary gland), {良性|りょうせい}{腫瘍|しゅよう} (benign tumor), {夜尿|やにょう}{症|しょう} (bedwetting), {膝|しつ}{関節|かんせつ} (knee joint), {肩|けん}{関節|かんせつ} (shoulder joint), {消化|しょうか}{器官|きかん} (digestive organs)
+- **Science / technical (4)**: {気圧|きあつ}{配置|はいち} (pressure pattern), セルロース (cellulose), ゼロエミッション (zero emission), {破擦|はさつ}{音|おん} (affricate)
+- **Everyday objects / loanwords (4)**: {防錆|ぼうせい}{剤|ざい} (rust preventative), {裁断|さいだん}{機|き} (cutting machine), スウェットパーカー (hoodie), メモリースティック (memory stick)
+- **Other (3)**: {平角|へいかく} (straight angle), オンサイド (onside — sports), {問題|もんだい}をはらむ (to be fraught with problems — expression)
+
+No new kanji introduced. All 25 entries validate; furigana check clean. No verbs or i-adjectives in this batch.
+
 ### 2026-05-17 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27718-27739) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
