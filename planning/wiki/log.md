@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-18] maintenance | Observation harvest, stats sync, wiki lint
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 3 unprocessed observations from `polishing/observations.md` — comprehensive-polish 2026-05-17 sessions 001 (entries 01808–01832), 002 (entries 01833–01856), and 009 (entries 01992–02011):
+  - `[pattern]` "するする" typo in TRANSITIVITY → Pattern lines across the 01808–01856 range — new cleanup-backlog Priority 10 created. The originating sessions fixed all encountered instances; the batch may extend beyond the polished range.
+  - `[pattern]` Semantic tag "transportation" misapplied to unrelated entries in the 01808–02011 range (joining "furniture", "clothing", "electronics" as recurring mis-labels) — new cleanup-backlog Priority 11 created.
+  - `[tooling]` `validate_tags.py` extension for semantic-tag / gloss conflict detection — added as a note to tooling-backlog item 6 (tag-drift detector) as a simpler first-pass heuristic.
+  - Cleared all processed observations from `polishing/observations.md`
+- [A] Updated stats across wiki pages to reflect 2026-05-18 `report.py` output (27,581 entries, 24,798 general, 15,895 cross-references, 0.58 per entry, 109,514 examples, 40.5% symmetry with 7,785 asymmetric refs, 1,663 candidates, 2,848 entries with inline links at 10.3%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `ideas/dictionary-growth.md`, `research/je-dictionary-history.md`, `research/sense-relations-semantic-networks.md`. Updated "Last updated" dates on all modified pages plus `index.md`.
+- [E] Ran cross-reference link checker across all wiki pages (783 internal links checked across 71 pages, 0 broken links found). Checked for orphan pages (0 found). Wiki is clean.
+
 ## [2026-05-17] maintenance | Depth of vocabulary knowledge research, observation harvest, stats sync
 
 **Session type**: Nightly maintenance

@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-17
+**Last updated**: 2026-05-18
 
 
 ## How this wiki is organized
