@@ -21,7 +21,7 @@
       "id": "02231_tsura_ex1",
       "japanese": "⟦いい→いい：00118_ii⟧{面|つら}⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧だ。",
       "english": "What nerve.",
-      "notes": "{面|つら}の{皮|かわ}が{厚|あつ}い means 'thick-skinned, shameless.'",
+      "notes": "{面|つら}⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧ means 'thick-skinned, shameless.'",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -41,7 +41,7 @@
       "id": "02231_tsura_ex3",
       "japanese": "あれだけ⟦{迷惑|めいわく}→迷惑：02432_meiwaku⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧おいて、どの{面|つら}さげて⟦{来|き}た→来る：00254_kuru⟧⟦の→の：09472_no⟧⟦か→か：09473_ka⟧⟦{信|しん}じられない→信じる：01111_shinjiru⟧。",
       "english": "I can't believe they had the nerve to show up after causing so much trouble.",
-      "notes": "どの{面|つら}さげて is a set phrase meaning 'how dare you show your face.'",
+      "notes": "⟦どの→どの：00551_dono⟧{面|つら}⟦さげて→下げる：00807_sageru⟧ is a set phrase meaning 'how dare you show your face.'",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -78,11 +78,13 @@
       ]
     }
   ],
-  "notes": "{面|つら} has two senses: (1) face (colloquial/rough), and (2) surface of a material.\n\nSENSE 1 — FACE:\nMore rude than {顔|かお}. Typically used in negative or aggressive contexts.\n\nEXPRESSIONS:\n- {面|つら}の{皮|かわ}が{厚|あつ}い: shameless, thick-skinned\n- どの{面|つら}さげて: how dare you show your face\n- いい{面|つら}の{皮|かわ}だ: what nerve / serves you right\n\nSENSE 2 — SURFACE:\nRefers to the outer face of a material, especially in craftsmanship and construction.\n- {板|いた}の{面|つら}: the surface of a board\n- {壁|かべ}の{面|つら}: wall surface\n\nALTERNATE READINGS OF {面|めん}:\n- {面|めん}: mask, face (in compounds like {仮面|かめん})\n- {面|おもて}: front side, surface (formal)",
-  "cross_references": [],
+  "notes": "{面|つら} has two senses: (1) face (colloquial/rough), and (2) surface of a material.\n\nSENSE 1 — FACE:\nMore rude than ⟦{顔|かお}→顔：00558_kao⟧. Typically used in negative or aggressive contexts.\n\nEXPRESSIONS:\n- {面|つら}⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧: shameless, thick-skinned\n- ⟦どの→どの：00551_dono⟧{面|つら}⟦さげて→下げる：00807_sageru⟧: how dare you show your face\n- ⟦いい→いい：00118_ii⟧{面|つら}⟦の→の：09472_no⟧⟦{皮|かわ}→皮：02187_kawa⟧⟦だ→だ：09496_da⟧: what nerve / serves you right\n\nSENSE 2 — SURFACE:\nRefers to the outer face of a material, especially in craftsmanship and construction.\n- ⟦{板|いた}→板：01792_ita⟧⟦の→の：09472_no⟧{面|つら}: the surface of a board\n- ⟦{壁|かべ}→壁：01290_kabe⟧⟦の→の：09472_no⟧{面|つら}: wall surface\n\nALTERNATE READINGS OF ⟦{面|めん}→面：09933_men⟧:\n- ⟦{面|めん}→面：09933_men⟧: mask, face (in compounds like ⟦{仮面|かめん}→仮面：11439_kamen⟧)\n- ⟦{面|おもて}→表：01355_omote⟧: front side, surface (formal)",
+  "cross_references": [
+    {"id": "00558_kao", "reading": "かお", "target_id": "00558_kao", "type": "contrast", "note": "Standard, neutral word for face"}
+  ],
   "metadata": {
     "created": "2026-01-09T12:55:46Z",
-    "modified": "2026-03-26T13:07:00Z",
+    "modified": "2026-05-18T21:08:48Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
