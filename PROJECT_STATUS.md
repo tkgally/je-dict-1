@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-18 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 27765-27789) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (16)**: {稼|かせ}ぎ (earnings), {国中|くにじゅう} (the whole country), {雲隠|くもがく}れ (vanishing suddenly), {隠|かく}れ{蓑|みの} (cover/front), {快楽|かいらく} (pleasure), {思|おも}い{付|つ}き (whim), {売|う}れ{残|のこ}り (unsold goods), {揃|そろ}い{踏|ぶ}み (lineup), お{揃|そろ}い (matching items), {足並|あしな}み (acting in unison), {小回|こまわ}り (maneuverability), {能面|のうめん} (Noh mask), {能舞台|のうぶたい} (Noh stage), {占|うらな}い{師|し} (fortune-teller), {皮脂|ひし} (sebum), {手相|てそう} (palmistry)
+- **Verbs (7)**: {狩|か}る (to hunt, godan, transitive), {考|かんが}え{付|つ}く (to think up, godan, transitive), {轢|ひ}く (to run over, godan, transitive), {煮出|にだ}す (to brew/boil to extract, godan, transitive), {煮|に}つける (to simmer in seasoned broth, ichidan, transitive), {埋|う}め{立|た}てる (to reclaim land, ichidan, transitive), {言|い}い{及|およ}ぶ (to mention, godan, intransitive)
+- **Other (2)**: くんくん (sniff sniff, onomatopoeia), うかうか (carelessly, adverb)
+
+One new kanji introduced: {蓑|みの} (raincoat), assigned kanji ID 02743. All 25 entries validate; furigana check clean.
+
 ### 2026-05-18 (Vocabulary Expansion - 25 New Entries, Oldest-Candidate Batch)
 Added 25 new dictionary entries (IDs 27740-27764) from `candidate_words.json`. No "seen in entry" candidates remained, so selection fell back to the oldest unprocessed candidates, picking genuine standalone words and skipping the many auto-harvested compound fragments, typos, and numbers. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
