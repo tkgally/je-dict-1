@@ -4,10 +4,6 @@
   "reading": "はいけん",
   "part_of_speech": "noun (verbal)",
   "gloss": "(humble) to look at, to see",
-  "conjugation": {
-    "type": "suru",
-    "prefix": "{拝見|はいけん}"
-  },
   "definitions": [
     {
       "sense_number": 1,
@@ -67,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{拝見|はいけん}する is the humble ({謙譲語|けんじょうご}) form of {見|み}る. The speaker uses it to lower their own action of looking at or viewing something, showing respect to the person whose item they are viewing.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{拝見|はいけん}する\n\nPOLITENESS LEVELS FOR \"TO SEE\":\n- {見|み}る: neutral/plain\n- {拝見|はいけん}する: humble (lowers the speaker's action)\n- ご{覧|らん}になる: honorific (elevates the other person's action)\n\nCOMMON PATTERNS:\n- お{写真|しゃしん}を{拝見|はいけん}する: to look at (your) photo\n- {資料|しりょう}を{拝見|はいけん}する: to look at the documents\n- {拝見|はいけん}いたします: even more humble (business keigo)\n\nUSAGE:\nCommon in business settings, customer service, and formal interactions. Often used when receiving someone's business card, documents, or work. The object being viewed typically belongs to or was created by the person being shown respect.",
-  "cross_references": [],
+  "notes": "{拝見|はいけん}する is the humble (⟦{謙譲語|けんじょうご}→謙譲語：15869_kenjougo⟧) form of ⟦{見|み}る→見る：00283_miru⟧. The speaker uses it to lower their own action of looking at or viewing something, showing respect to the person whose item they are viewing.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{拝見|はいけん}する\n\nPOLITENESS LEVELS FOR \"TO SEE\":\n- ⟦{見|み}る→見る：00283_miru⟧: neutral/plain\n- {拝見|はいけん}する: humble (lowers the speaker's action)\n- ⟦ご{覧|らん}になる→ご覧になる：01311_goranninaru⟧: honorific (elevates the other person's action)\n\nCOMMON PATTERNS:\n- お⟦{写真|しゃしん}→写真：00753_shashin⟧⟦を→を：00422_wo⟧{拝見|はいけん}する: to look at (your) photo\n- ⟦{資料|しりょう}→資料：04166_shiryou⟧⟦を→を：00422_wo⟧{拝見|はいけん}する: to look at the documents\n- {拝見|はいけん}いたします: even more humble (business keigo)\n\nUSAGE:\nCommon in business settings, customer service, and formal interactions. Often used when receiving someone's business card, documents, or work. The object being viewed typically belongs to or was created by the person being shown respect.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00283_miru",
+      "reading": "みる",
+      "headword": "{見|み}る",
+      "label": "plain equivalent"
+    },
+    {
+      "type": "related",
+      "target_id": "01311_goranninaru",
+      "reading": "ごらんになる",
+      "headword": "ご{覧|らん}になる",
+      "label": "honorific equivalent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:55:06Z",
-    "modified": "2026-04-10T06:55:57Z",
+    "modified": "2026-05-18T14:17:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
