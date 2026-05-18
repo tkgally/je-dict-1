@@ -37,3 +37,5 @@
 - [pattern] Several entries had non-standard dual-reading furigana like `{村|むら/そん}` and `{蛍|ほたる/けい}` — these should be standardized to a single reading
 - [pattern] Some entries had broken furigana where the okurigana was outside the brackets (e.g., `{虫除|むしよ}け` should be `{虫除け|むしよけ}`)
 - [pattern] Two entries (02268 和紙, 02269 りんご) had clearly wrong semantic tags — quality of tag assignment varies by batch
+
+**CI note**: wait-for-pr-checks.sh timed out after 600s on PR #2389 (1 check still pending); PR left open for curator review.
