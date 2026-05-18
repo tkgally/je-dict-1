@@ -59,7 +59,7 @@
     },
     {
       "id": "02156_sumi_ex5",
-      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧{片|かた}{隅|すみ}⟦に→に：00314_ni⟧⟦{座|すわ}った→座る：00757_suwaru⟧。",
+      "japanese": "⟦{店|みせ}→店：00497_mise⟧⟦の→の：09472_no⟧⟦{片|かた}{隅|すみ}→片隅：13464_katasumi⟧⟦に→に：00314_ni⟧⟦{座|すわ}った→座る：00757_suwaru⟧。",
       "english": "I sat in a corner of the shop.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "02156_sumi_ex6",
-      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧{片|かた}{隅|すみ}⟦で→で：00502_de⟧⟦{静|しず}かに→静か：00755_shizuka⟧⟦{暮|く}らしたい→暮らす：01937_kurasu⟧。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦の→の：09472_no⟧⟦{片|かた}{隅|すみ}→片隅：13464_katasumi⟧⟦で→で：00502_de⟧⟦{静|しず}かに→静か：00755_shizuka⟧⟦{暮|く}らしたい→暮らす：01937_kurasu⟧。",
       "english": "I want to live quietly in a corner of the world.",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,14 @@
       ]
     }
   ],
-  "notes": "{角|すみ} refers to an interior corner or secluded spot.\n\nKANJI NOTE:\nOften written as {隅|すみ} (different kanji, same meaning for corner).\n\nREADINGS OF 角:\n- {角|すみ}: interior corner (of room, page, etc.)\n- {角|かど}: exterior corner (of street, building), angle\n- {角|つの}: horn (of animal)\n\nCOMMON EXPRESSIONS:\n- {部屋|へや}の{隅|すみ}: corner of a room\n- {隅々|すみずみ}: every corner, every nook and cranny\n- {隅|すみ}に{置|お}けない: not to be taken lightly, impressive\n- {片|かた}{隅|すみ}: a corner, one corner\n\n{角|すみ} VS {角|かど}:\nすみ is for interior corners (inside); かど is for exterior corners (outside).",
-  "cross_references": [],
+  "notes": "{角|すみ} refers to an interior corner or secluded spot.\n\nKANJI NOTE:\nOften written as ⟦{隅|すみ}→隅：01625_sumi⟧ (different kanji, same meaning for corner).\n\nREADINGS OF 角:\n- {角|すみ}: interior corner (of room, page, etc.)\n- ⟦{角|かど}→角：02195_kado⟧: exterior corner (of street, building), angle\n- ⟦{角|つの}→角：02158_tsuno⟧: horn (of animal)\n\nCOMMON EXPRESSIONS:\n- ⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{隅|すみ}→隅：01625_sumi⟧: corner of a room\n- ⟦{隅々|すみずみ}→隅々：16497_sumizumi⟧: every corner, every nook and cranny\n- ⟦{隅|すみ}→隅：01625_sumi⟧⟦に→に：00314_ni⟧⟦{置|お}けない→置く：01092_oku⟧: not to be taken lightly, impressive\n- ⟦{片|かた}{隅|すみ}→片隅：13464_katasumi⟧: a corner, one corner\n\n{角|すみ} VS {角|かど}:\nすみ is for interior corners (inside); かど is for exterior corners (outside).",
+  "cross_references": [
+    {"type": "contrast", "target_id": "02195_kado", "reading": "かど", "headword": "{角|かど}", "label": "exterior corner"},
+    {"type": "related", "target_id": "01625_sumi", "reading": "すみ", "headword": "{隅|すみ}", "label": "corner (alternate kanji)"}
+  ],
   "metadata": {
     "created": "2026-01-09T12:50:36Z",
-    "modified": "2026-04-05T07:46:44Z",
+    "modified": "2026-05-18T17:18:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
