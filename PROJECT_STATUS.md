@@ -52,6 +52,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-05-19 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 27812-27833) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (18)**: {民放|みんぽう} (commercial broadcasting), {夕|ゆう}ご{飯|はん} (dinner), {濁点|だくてん} (voicing mark), {詩歌|しいか} (poetry), {巣窟|そうくつ} (den/hideout), {貝柱|かいばしら} (scallop adductor muscle), {県庁|けんちょう} (prefectural government office), {県内|けんない} (within the prefecture), {新札|しんさつ} (crisp banknote), {水牛|すいぎゅう} (water buffalo), {本箱|ほんばこ} (bookcase), {肩幅|かたはば} (shoulder width), {良|よ}さ (goodness/merit), {洋酒|ようしゅ} (Western liquor), {猿真似|さるまね} (blind imitation), {山里|やまざと} (mountain village), {袖丈|そでたけ} (sleeve length), {竹刀|しない} (bamboo sword)
+- **Verbs (4)**: {言|い}い{尽|つ}くす (to express fully, godan, transitive), {使|つか}い{尽|つ}くす (to use up completely, godan, transitive), {薦|すす}める (to recommend, ichidan, transitive), {煎|せん}じる (to decoct herbs, ichidan, transitive)
+
+No new kanji introduced. All 22 entries validate; furigana check clean; conjugations added to the 4 verbs.
+
+### 2026-05-19 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch — earlier run)
 Added 22 new dictionary entries (IDs 27790-27811) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
 - **Nouns (15)**: {茅葺|かやぶ}き (thatched roof), {娘婿|むすめむこ} (son-in-law), {真夏|まなつ} (midsummer), {涙目|なみだめ} (teary eyes), {空梅雨|からつゆ} (dry rainy season), {谷間|たにま} (valley/gap), {二枚舌|にまいじた} (double-talk), {救世主|きゅうせいしゅ} (savior), {狂気|きょうき} (madness), {強度|きょうど} (strength/intensity), {慰安|いあん} (comfort/recreation), {神業|かみわざ} (superhuman feat), {旗印|はたじるし} (banner/rallying cause), {骨抜|ほねぬ}き (boning; gutting — two senses), {棋士|きし} (professional shogi/go player), {水墨画|すいぼくが} (ink wash painting)
