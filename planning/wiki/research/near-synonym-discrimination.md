@@ -162,6 +162,7 @@ Based on the research, the highest-value synonym clusters for Japanese learners 
 - [Example Sentence Design](example-sentences.md) — encoding examples for teaching synonym distinctions
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — why learners fail to extract discrimination information
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how synonym knowledge fits into broader VLS taxonomies
+- [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — why English speakers confuse wago near-synonyms that map to a single English word
 
 ## References
 

@@ -2,6 +2,20 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-05-19] maintenance | L1 transfer research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 4 unprocessed observations from `polishing/observations.md` — comprehensive-polish 2026-05-18 sessions 003 (entries 02101–02125) and 010 (entries 02251–02273):
+  - `[pattern]` Particle links (は, が, を, に, で, と) now the primary inline-link gap in pattern examples → added note to cleanup-backlog Priority 1 (unlinked notes)
+  - `[pattern]` Non-standard dual-reading furigana with slash separators (`{村|むら/そん}`, `{蛍|ほたる/けい}`) → new cleanup-backlog Priority 12 created with detection command
+  - `[pattern]` Polisher confusion about okurigana convention — session 010 reported `{虫除|むしよ}け` as "broken" and "fixed" it to `{虫除け|むしよけ}`, inadvertently introducing the over-wrapped pattern. Added as causal hypothesis 4 to `topics/furigana-wrapper-anomalies.md`. Also documented the slash-separator dual-reading pattern as a new sub-pattern.
+  - `[pattern]` Wrong semantic tags on 02268 和紙 and 02269 りんご → added update note to cleanup-backlog Priority 11 (pattern extends beyond 02011 boundary)
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **L1 transfer in Japanese L2 vocabulary acquisition** and created `research/l1-transfer-japanese-vocabulary.md`. Covers Jiang's (2000) three-stage model of L2 lexical representation (formal → L1 lemma mediation → L2 integration) and fossilization at stage 2; Odlin's (2003) cross-linguistic influence framework; the three-way L1 split (Chinese logographic, Korean syllabographic/hanja, English alphabetic) and transfer dynamics for each; Chinese learners' kanji cognate advantage and false friends (勉強/手紙/大丈夫 table), phonological interference from different character readings; Korean learners' Sino-Korean phonological proximity and grammatical alignment; English speakers' gairaigo cognate advantage and wasei-eigo false friends (マンション/スマート/バイキング table), alphabetic-L1 orthographic awareness disadvantage; the transfer-by-stratum matrix (wago/kango/gairaigo × three L1 groups); six implications for je-dict-1 (gairaigo semantic-shift flagging, morphemic gloss for kango, L1-interference notes for wago near-synonyms, furigana as alphabetic-L1 support, register stratum markers, bidirectional false-friend coverage). Cited Champ 2014, Jiang 2000, Koda 2005, Li et al. 2023, Loveday 1996, Mori 1998, Odlin 2003, Ringbom 2007, Sohn 1999.
+- [A] Updated stats across wiki pages to reflect 2026-05-19 `report.py` output (27,625 entries, 24,842 general, 15,951 cross-references, 0.58 per entry, 109,649 examples, 40.5% symmetry with 7,813 asymmetric refs, 1,716 candidates, 2,848 entries with inline links at 10.3%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `ideas/dictionary-growth.md`, `research/sense-relations-semantic-networks.md`. Added L1 transfer page to `index.md` and as a related page on `research/vocabulary-acquisition.md`, `research/gairaigo-loanwords.md`, `research/kanji-learning-dictionaries.md`, and `research/near-synonym-discrimination.md`. Updated "Last updated" dates on all modified pages plus `index.md`.
+
 ## [2026-05-18] maintenance | Observation harvest, stats sync, wiki lint
 
 **Session type**: Nightly maintenance

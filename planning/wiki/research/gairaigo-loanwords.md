@@ -231,3 +231,4 @@ The gap between the dictionary's 6.1% gairaigo coverage and the 19% type frequen
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — katakana-only gairaigo vs. kanji-based wago/kango and script interaction effects
 - [Register and Formality Marking](register-formality-marking.md) — stratal register (wago/kango/gairaigo) as a dimension of dictionary label systems
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — cognate recognition as a discovery strategy and its limitations for gairaigo
+- [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — gairaigo as cognate advantage in the broader context of L1-specific transfer dynamics
