@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-19 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 27790-27811) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (15)**: {茅葺|かやぶ}き (thatched roof), {娘婿|むすめむこ} (son-in-law), {真夏|まなつ} (midsummer), {涙目|なみだめ} (teary eyes), {空梅雨|からつゆ} (dry rainy season), {谷間|たにま} (valley/gap), {二枚舌|にまいじた} (double-talk), {救世主|きゅうせいしゅ} (savior), {狂気|きょうき} (madness), {強度|きょうど} (strength/intensity), {慰安|いあん} (comfort/recreation), {神業|かみわざ} (superhuman feat), {旗印|はたじるし} (banner/rallying cause), {骨抜|ほねぬ}き (boning; gutting — two senses), {棋士|きし} (professional shogi/go player), {水墨画|すいぼくが} (ink wash painting)
+- **Verbs (5)**: {治|おさ}まる (to subside, godan, intransitive), {巣立|すだ}つ (to leave the nest, godan, intransitive), {貯|た}める (to save up money, ichidan, transitive), {慰|なぐさ}む (to be comforted, godan, intransitive), {休|やす}まる (to feel at ease, godan, intransitive)
+- **Other (1)**: {細々|ほそぼそ}と (barely/scraping by, adverb)
+
+Two new kanji introduced: {茅|かや} (thatch, ID 02744) and {葺|ふ}く (roofing, ID 02745). All 22 entries validate; furigana check clean.
+
 ### 2026-05-18 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 27765-27789) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
