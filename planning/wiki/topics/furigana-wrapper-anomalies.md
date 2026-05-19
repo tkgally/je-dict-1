@@ -1,6 +1,6 @@
 # Furigana Wrapper Anomalies
 
-**Last updated**: 2026-05-11
+**Last updated**: 2026-05-19
 
 ## Overview
 
@@ -121,6 +121,14 @@ The pattern's frequency suggests a specific failure mode rather than a one-off e
 2. **LLM autocomplete drift.** The schema's documented convention is "kanji only inside the wrapper," but entry-creation prompts don't restate this on every example. An LLM filling in a notes section may default to the more visually salient pattern (annotate the whole word) when not specifically reminded.
 
 3. **No validator.** `build/verify_furigana.py` checks for **missing** furigana (kanji without a wrapper). It does not check whether the kanji portion of a wrapper is well-formed. `build/validate.py` schema-checks structure but doesn't parse the furigana strings. Without a validator, the error pattern has no immune system.
+
+4. **Polisher confusion about the convention.** Comprehensive-polish session 2026-05-18 (entries 02251–02273) reported `{虫除|むしよ}け` as "broken furigana with okurigana outside the brackets" and suggested the "fix" `{虫除け|むしよけ}`. In fact, `{虫除|むしよ}け` (okurigana **outside** the wrapper) is the **correct** form per project convention, and the "fix" introduces the sub-pattern 3a (okurigana inside wrapper) documented above. This suggests that some polishing sessions are inadvertently worsening furigana formatting — applying the over-wrapped pattern because it looks more "complete." The lack of a validator means neither the original convention nor the deviation is enforced, and manual polishing can push entries in either direction.
+
+## Additional sub-pattern: dual-reading slash notation
+
+Comprehensive-polish session 2026-05-18 (entries 02251–02273) also identified a previously undocumented pattern: **dual-reading furigana with slash separators**, e.g., `{村|むら/そん}`, `{蛍|ほたる/けい}`. The slash notation attempts to show both on'yomi and kun'yomi readings in a single wrapper. The furigana renderer does not parse slashes — it treats the entire string `むら/そん` as the reading, which renders incorrectly.
+
+The correct treatment is to use the contextually appropriate single reading and mention the alternative reading in notes if relevant. The scope of this pattern is unknown; see [Cleanup Backlog](../ideas/cleanup-backlog.md) → Priority 12 for the detection command.
 
 ## Connection to existing wiki analyses
 

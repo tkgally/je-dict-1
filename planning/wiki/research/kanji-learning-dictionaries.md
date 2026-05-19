@@ -206,3 +206,4 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — kanji as visual connectors in the mental lexicon
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — morphological analysis of kanji compounds as a high-value vocabulary strategy
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — Nelson, Halpern, and the kanji dictionary tradition
+- [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — how L1 writing system (logographic vs. alphabetic) shapes kanji learning strategies
