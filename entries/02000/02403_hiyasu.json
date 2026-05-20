@@ -149,7 +149,7 @@
     },
     {
       "id": "02403_hiyasu_ex5",
-      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{冷|ひ}やしてきなさい。",
+      "japanese": "⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{出|で}て→出る：00513_deru⟧⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{冷|ひ}やして⟦きなさい→くる：00254_kuru⟧。",
       "english": "Go outside for a bit and cool your head.",
       "notes": null,
       "has_audio": false,
@@ -161,14 +161,14 @@
       "id": "02403_hiyasu_ex6",
       "japanese": "⟦{肝|きも}→肝：10796_kimo⟧⟦を→を：00422_wo⟧{冷|ひ}やした。",
       "english": "I had a close call.",
-      "notes": "{肝|きも}を{冷|ひ}やす literally means \"to chill one's liver\" and is an idiom meaning to be frightened or have a scare.",
+      "notes": "⟦{肝|きも}→肝：10796_kimo⟧⟦を→を：00422_wo⟧{冷|ひ}やす literally means \"to chill one's liver\" and is an idiom meaning to be frightened or have a scare.",
       "has_audio": false,
       "sense_numbers": [
         2
       ]
     }
   ],
-  "notes": "TRANSITIVITY PAIR:\n- {冷|ひ}やす (transitive): to cool (something)\n- {冷|ひ}える (intransitive): to get cold (on its own)\n\nCOMMON EXPRESSIONS:\n- {頭|あたま}を{冷|ひ}やす: to cool one's head (calm down)\n- {肝|きも}を{冷|ひ}やす: to be frightened, have a close call\n- ビールを{冷|ひ}やす: to chill beer\n\nRELATED WORDS:\n- {冷|つめ}たい: cold (to the touch)\n- {冷|さ}める: to cool down (intrans., temperature or feelings)\n- {冷|さ}ます: to let cool, to dampen (enthusiasm)\n\nNote: {冷|ひ}やす focuses on actively cooling something, while {冷|さ}ます implies letting something cool naturally.",
+  "notes": "TRANSITIVITY PAIR:\n- {冷|ひ}やす (transitive): to cool (something)\n- ⟦{冷|ひ}える→冷える：01154_hieru⟧ (intransitive): to get cold (on its own)\n\nCOMMON EXPRESSIONS:\n- ⟦{頭|あたま}→頭：00574_atama⟧⟦を→を：00422_wo⟧{冷|ひ}やす: to cool one's head (calm down)\n- ⟦{肝|きも}→肝：10796_kimo⟧⟦を→を：00422_wo⟧{冷|ひ}やす: to be frightened, have a close call\n- ⟦ビール→ビール：01015_biiru⟧⟦を→を：00422_wo⟧{冷|ひ}やす: to chill beer\n\nRELATED WORDS:\n- ⟦{冷|つめ}たい→冷たい：00681_tsumetai⟧: cold (to the touch)\n- ⟦{冷|さ}める→冷める：02058_sameru⟧: to cool down (intrans., temperature or feelings)\n- ⟦{冷|さ}ます→冷ます：02113_samasu⟧: to let cool, to dampen (enthusiasm)\n\nNote: {冷|ひ}やす focuses on actively cooling something, while ⟦{冷|さ}ます→冷ます：02113_samasu⟧ implies letting something cool naturally.",
   "cross_references": [
     {
       "type": "contrast",
@@ -176,11 +176,18 @@
       "reading": "さます",
       "headword": "{冷|さ}ます",
       "label": "let cool naturally"
+    },
+    {
+      "type": "pair",
+      "target_id": "01154_hieru",
+      "reading": "ひえる",
+      "headword": "{冷|ひ}える",
+      "label": "intransitive: to get cold"
     }
   ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-04-10T07:00:23Z",
+    "modified": "2026-05-20T17:30:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

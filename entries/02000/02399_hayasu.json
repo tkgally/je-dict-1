@@ -4,11 +4,6 @@
   "reading": "はやす",
   "part_of_speech": "godan verb",
   "gloss": "to grow (hair, beard)",
-  "conjugation": {
-    "type": "godan",
-    "ending": "す",
-    "stem": "{生|は}や"
-  },
   "definitions": [
     {
       "sense_number": 1,
@@ -39,7 +34,7 @@
     },
     {
       "id": "02399_hayasu_ex3",
-      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧ころ⟦から→から：00504_kara⟧⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{生|は}やしている。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{若|わか}い→若い：00823_wakai⟧⟦ころ→ころ：03091_koro⟧⟦から→から：00504_kara⟧⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{生|は}やしている。",
       "english": "My father has had a beard since he was young.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +44,7 @@
     },
     {
       "id": "02399_hayasu_ex4",
-      "japanese": "⟦{爪|つめ}→爪：02159_tsume⟧⟦を→を：00422_wo⟧{生|は}やしたまま⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧しないで⟦ください→ください：02899_kudasai⟧。",
+      "japanese": "⟦{爪|つめ}→爪：02159_tsume⟧⟦を→を：00422_wo⟧{生|は}やした⟦まま→まま：02007_mama⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦を→を：00422_wo⟧⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't cook with long nails.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +54,7 @@
     },
     {
       "id": "02399_hayasu_ex5",
-      "japanese": "⟦あの→あの：00915_ano⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦は→は：00079_ha⟧⟦{役|やく}→役：12557_yaku⟧⟦の→の：09472_no⟧ために⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{生|は}やしたそうだ。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{俳優|はいゆう}→俳優：03547_haiyuu⟧⟦は→は：00079_ha⟧⟦{役|やく}→役：12557_yaku⟧⟦の→の：09472_no⟧⟦ために→ために：noentry⟧⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{生|は}やした⟦そうだ→そうだ：10076_souda⟧。",
       "english": "I heard that actor grew a beard for his role.",
       "notes": null,
       "has_audio": false,
@@ -68,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{生|は}やす is a godan verb meaning to grow (hair, beard, etc.) deliberately.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {生|は}える (intransitive: to grow naturally)\n\nCOMMON EXPRESSIONS:\n- ひげを{生|は}やす: to grow a beard\n- {髪|かみ}を{生|は}やす: to grow one's hair out\n- {爪|つめ}を{生|は}やす: to let one's nails grow long\n- {根|ね}を{生|は}やす: to put down roots (also figurative)\n\nNUANCE:\nImplies intentional or deliberate growth, unlike {生|は}える which describes natural, spontaneous growth. {生|は}やす suggests agency—the person chooses to let something grow.",
+  "notes": "{生|は}やす is a godan verb meaning to grow (hair, beard, etc.) deliberately.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{生|は}える→生える：02392_haeru⟧ (intransitive: to grow naturally)\n\nCOMMON EXPRESSIONS:\n- ⟦ひげ→ひげ：01332_hige⟧⟦を→を：00422_wo⟧{生|は}やす: to grow a beard\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦を→を：00422_wo⟧{生|は}やす: to grow one's hair out\n- ⟦{爪|つめ}→爪：02159_tsume⟧⟦を→を：00422_wo⟧{生|は}やす: to let one's nails grow long\n- ⟦{根|ね}→根：03527_ne⟧⟦を→を：00422_wo⟧{生|は}やす: to put down roots (also figurative)\n\nNUANCE:\nImplies intentional or deliberate growth, unlike ⟦{生|は}える→生える：02392_haeru⟧ which describes natural, spontaneous growth. {生|は}やす suggests agency—the person chooses to let something grow.",
   "prominent_see_also": [
     {
       "target_id": "02392_haeru",
@@ -77,10 +72,18 @@
       "note": "intransitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02392_haeru",
+      "reading": "はえる",
+      "headword": "{生|は}える",
+      "label": "intransitive: to grow naturally"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-20T17:24:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
