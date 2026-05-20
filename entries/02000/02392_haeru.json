@@ -67,11 +67,26 @@
       ]
     }
   ],
-  "notes": "{生|は}える means for something to grow or sprout naturally.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- Pair: {生|は}やす (transitive - to grow, let grow)\n\nWHAT CAN {生|は}える:\n- {草|くさ}が{生|は}える: grass grows\n- {歯|は}が{生|は}える: teeth come in\n- {髭|ひげ}が{生|は}える: beard grows\n- {髪|かみ}が{生|は}える: hair grows\n- カビが{生|は}える: mold grows\n\nCOMMON PATTERNS:\n- 〜が{生|は}えている: ~ is growing (state)\n- 〜が{生|は}えてきた: ~ has started to grow\n\nHOMOPHONE DISTINCTION:\n- {生|は}える: to grow (plants, hair, teeth)\n- {映|は}える: to look good, to stand out",
-  "cross_references": [],
+  "notes": "{生|は}える means for something to grow or sprout naturally.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- Pair: ⟦{生|は}やす→生やす：02399_hayasu⟧ (transitive - to grow, let grow)\n\nWHAT CAN {生|は}える:\n- ⟦{草|くさ}→草：02206_kusa⟧⟦が→が：00051_ga⟧{生|は}える: grass grows\n- ⟦{歯|は}→歯：00778_ha⟧⟦が→が：00051_ga⟧{生|は}える: teeth come in\n- ⟦{髭|ひげ}→ひげ：01332_hige⟧⟦が→が：00051_ga⟧{生|は}える: beard grows\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦が→が：00051_ga⟧{生|は}える: hair grows\n- ⟦カビ→カビ：07055_kabi⟧⟦が→が：00051_ga⟧{生|は}える: mold grows\n\nCOMMON PATTERNS:\n- 〜⟦が→が：00051_ga⟧{生|は}えている: ~ is growing (state)\n- 〜⟦が→が：00051_ga⟧{生|は}えてきた: ~ has started to grow\n\nHOMOPHONE DISTINCTION:\n- {生|は}える: to grow (plants, hair, teeth)\n- ⟦{映|は}える→映える：02393_haeru⟧: to look good, to stand out",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02399_hayasu",
+      "reading": "はやす",
+      "headword": "{生|は}やす",
+      "label": "to grow (transitive)"
+    },
+    {
+      "type": "homophone",
+      "target_id": "02393_haeru",
+      "reading": "はえる",
+      "headword": "{映|は}える",
+      "label": "to look good, stand out (different kanji)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:55:27Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-20T16:14:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
