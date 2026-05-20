@@ -4,11 +4,6 @@
   "reading": "むく",
   "part_of_speech": "godan verb",
   "gloss": "to peel, to skin",
-  "conjugation": {
-    "type": "godan",
-    "ending": "く",
-    "stem": "{剥|む}"
-  },
   "definitions": [
     {
       "sense_number": 1,
@@ -48,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{剥|む}く means to peel or remove the outer layer of something.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pair: {剥|む}ける (intransitive - to peel off, come off)\n\nCOMMON COLLOCATIONS:\n- {皮|かわ}を{剥|む}く: to peel skin/rind\n- りんごを{剥|む}く: to peel an apple\n- {卵|たまご}の{殻|から}を{剥|む}く: to peel an egg shell\n\nIDIOMS:\n- {目|め}を{剥|む}く: to open eyes wide (in surprise)\n- {牙|きば}を{剥|む}く: to bare one's fangs\n\nHOMOPHONE DISTINCTION:\n- {剥|む}く: to peel\n- {向|む}く: to face, to turn toward",
-  "cross_references": [],
+  "notes": "{剥|む}く means to peel or remove the outer layer of something.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Pair: ⟦{剥|む}ける→剥ける：19379_mukeru⟧ (intransitive - to peel off, come off)\n\nCOMMON COLLOCATIONS:\n- ⟦{皮|かわ}→皮：02187_kawa⟧⟦を→を：00422_wo⟧{剥|む}く: to peel skin/rind\n- ⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧{剥|む}く: to peel an apple\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦の→の：09472_no⟧⟦{殻|から}→殻：02148_kara⟧⟦を→を：00422_wo⟧{剥|む}く: to peel an egg shell\n\nIDIOMS:\n- ⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{剥|む}く: to open eyes wide (in surprise)\n- ⟦{牙|きば}→牙：16154_kiba⟧⟦を→を：00422_wo⟧{剥|む}く: to bare one's fangs\n\nHOMOPHONE DISTINCTION:\n- {剥|む}く: to peel\n- ⟦{向|む}く→向く：02304_muku⟧: to face, to turn toward",
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "19379_mukeru",
+      "reading": "むける",
+      "headword": "{剥|む}ける",
+      "label": "to peel off (intransitive)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:21:57Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-20T13:23:18Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "general",
     "tags": {
