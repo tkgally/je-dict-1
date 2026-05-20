@@ -187,7 +187,7 @@
       ]
     }
   ],
-  "notes": "{抜|ぬ}ける is an intransitive ichidan verb with multiple meanings: to come out, be missing, or pass through.\n\nTRANSITIVITY:\n- {自動詞|じどうし}: {抜|ぬ}ける (to come out/fall out)\n- {他動詞|たどうし}: {抜|ぬ}く (to pull out)\n\nIDIOMS:\n- {気|き}が{抜|ぬ}ける: to feel deflated/let down\n- {腰|こし}が{抜|ぬ}ける: legs give way (from shock)\n- {魂|たましい}が{抜|ぬ}ける: to be dazed\n\nCOMMON USES:\n- {髪|かみ}の{毛|け}が{抜|ぬ}ける: hair falls out\n- トンネルを{抜|ぬ}ける: to pass through a tunnel\n- {名前|なまえ}が{抜|ぬ}けている: a name is missing",
+  "notes": "{抜|ぬ}ける is an intransitive ichidan verb with multiple meanings: to come out, be missing, or pass through.\n\nTRANSITIVITY:\n- ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧: {抜|ぬ}ける (to come out/fall out)\n- ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧: ⟦{抜|ぬ}く→抜く：02384_nuku⟧ (to pull out)\n\nIDIOMS:\n- ⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧{抜|ぬ}ける: to feel deflated/let down\n- ⟦{腰|こし}→腰：02210_koshi⟧⟦が→が：00051_ga⟧{抜|ぬ}ける: legs give way (from shock)\n- ⟦{魂|たましい}→魂：14639_tamashii⟧⟦が→が：00051_ga⟧{抜|ぬ}ける: to be dazed\n\nCOMMON USES:\n- ⟦{髪|かみ}→髪：02196_kami⟧⟦の→の：09472_no⟧⟦{毛|け}→毛：01392_ke⟧⟦が→が：00051_ga⟧{抜|ぬ}ける: hair falls out\n- ⟦トンネル→トンネル：03865_tonneru⟧⟦を→を：00422_wo⟧{抜|ぬ}ける: to pass through a tunnel\n- ⟦{名前|なまえ}→名前：02234_namae⟧⟦が→が：00051_ga⟧{抜|ぬ}けている: a name is missing",
   "prominent_see_also": [
     {
       "target_id": "02384_nuku",
@@ -196,10 +196,18 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "02384_nuku",
+      "reading": "ぬく",
+      "headword": "{抜|ぬ}く",
+      "label": "to pull out (transitive)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T08:53:12Z",
-    "modified": "2026-04-10T06:41:08Z",
+    "modified": "2026-05-20T16:14:24Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "core",
     "tags": {
