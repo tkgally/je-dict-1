@@ -241,6 +241,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — Cognate recognition strategy and its limitations
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Common strategy failures by L1 background
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — What "knowing a word" means across multiple dimensions (form, meaning, use)
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — Dictionary consultation as a teachable skill within the strategy repertoire
 
 ## References
 

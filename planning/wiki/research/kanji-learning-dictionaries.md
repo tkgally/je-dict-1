@@ -207,3 +207,4 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — morphological analysis of kanji compounds as a high-value vocabulary strategy
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — Nelson, Halpern, and the kanji dictionary tradition
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — how L1 writing system (logographic vs. alphabetic) shapes kanji learning strategies
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — Japanese-specific lookup skill challenges including form determination and script selection

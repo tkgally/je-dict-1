@@ -134,3 +134,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup methods and the electronic dictionary revolution
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — the print-to-digital transition in JE lexicography
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — systematic evaluation frameworks including Lew & Szarowska's online dictionary assessment model
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — evolving skills from print to digital, and design that compensates for skill deficits
