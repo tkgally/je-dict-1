@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "02644_kinen_ex1",
-      "japanese": "ここ⟦は→は：00079_ha⟧{禁煙|きんえん}⟦です→です：09485_desu⟧。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦は→は：00079_ha⟧{禁煙|きんえん}⟦です→です：09485_desu⟧。",
       "english": "This is a non-smoking area.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "02644_kinen_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧{全車両|ぜんしゃりょう}{禁煙|きんえん}⟦です→です：09485_desu⟧。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{全車両|ぜんしゃりょう}→全車両：noentry⟧{禁煙|きんえん}⟦です→です：09485_desu⟧。",
       "english": "This train is non-smoking in all cars.",
       "notes": null,
       "has_audio": false,
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "{禁煙|きんえん} has two meanings: no-smoking zones and the act of quitting smoking.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {禁煙|きんえん}する\n\nNO-SMOKING MEANING:\n- {禁煙|きんえん}{席|せき} (non-smoking seat)\n- {禁煙|きんえん}{車両|しゃりょう} (non-smoking car)\n- {全面|ぜんめん}{禁煙|きんえん} (completely smoke-free)\n\nQUITTING MEANING:\n- {禁煙|きんえん}する (to quit smoking)\n- {禁煙|きんえん}に{成功|せいこう}する (to succeed in quitting)\n- {禁煙|きんえん}{中|ちゅう} (in the process of quitting)\n\nOPPOSITE:\n- {喫煙|きつえん} (smoking, smoking allowed)",
+  "notes": "{禁煙|きんえん} has two meanings: no-smoking zones and the act of quitting smoking.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {禁煙|きんえん}する\n\nNO-SMOKING MEANING:\n- {禁煙|きんえん}⟦{席|せき}→席：02215_seki⟧ (non-smoking seat)\n- {禁煙|きんえん}⟦{車両|しゃりょう}→車両：05297_sharyou⟧ (non-smoking car)\n- ⟦{全面|ぜんめん}→全面：22735_zenmen⟧{禁煙|きんえん} (completely smoke-free)\n\nQUITTING MEANING:\n- {禁煙|きんえん}する (to quit smoking)\n- {禁煙|きんえん}⟦に→に：00314_ni⟧⟦{成功|せいこう}する→成功する：02638_seikou⟧ (to succeed in quitting)\n- {禁煙|きんえん}⟦{中|ちゅう}→〜中：09840_chuu⟧ (in the process of quitting)\n\nOPPOSITE:\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧ (smoking, smoking allowed)",
   "cross_references": [
     {
       "type": "antonym",
@@ -234,8 +234,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T06:58:10Z",
-    "modified": "2026-05-02T05:13:00Z",
-    "ai_model": "claude-opus-4-5",
+    "modified": "2026-05-21T17:09:23Z",
+    "ai_model": "claude-sonnet-4-6",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
