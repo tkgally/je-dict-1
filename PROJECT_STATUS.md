@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-21 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch — second run)
+Added 24 new dictionary entries (IDs 27858-27881) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (18)**: ルーキー (rookie), ロープ (rope), {暴行|ぼうこう} (assault, noun + verb-suru), シャボン{玉|だま} (soap bubble), {蒸|む}し{焼|や}き (steam-baking), {瞳孔|どうこう} (pupil of the eye), {小判|こばん} (Edo gold coin), {黒猫|くろねこ} (black cat), {寅年|とらどし} (Year of the Tiger), {隼|はやぶさ} (peregrine falcon), {鳶|とび} (black kite), {鷹狩|たかが}り (falconry), {日本猿|にほんざる} (Japanese macaque), {桐|きり} (paulownia), {現代詩|げんだいし} (modern poetry), モップ (mop), {栄養学|えいようがく} (nutrition science), {満面|まんめん} (the whole face / beaming)
+- **Adjectives (2)**: ぐうたら (lazy, na-adj + noun), {機械的|きかいてき} (mechanical/perfunctory, na-adj)
+- **Verb (1)**: {梳|と}く (to comb hair, godan, transitive)
+- **Adverb (1)**: {虎視眈々|こしたんたん} (watching vigilantly for a chance, four-character idiom)
+- **Expressions (2)**: こんばんは (good evening), ようこそ (welcome)
+
+Five new kanji introduced: {寅|とら} (02747), {桐|きり} (02748), {眈|たん} (02749), {隼|はやぶさ} (02750), {鳶|とび} (02751). All 24 entries validate; furigana check clean; conjugations added to {梳|と}く and {暴行|ぼうこう}する.
+
 ### 2026-05-21 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 27834-27857) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
