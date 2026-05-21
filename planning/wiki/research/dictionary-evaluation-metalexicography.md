@@ -260,3 +260,4 @@ These are all **internal structural metrics** in Swanepoel's taxonomy — they m
 - [Enhancement Plan 2026 Retrospective](../topics/enhancement-plan-retrospective.md) — je-dict-1's quality metrics in context
 - [Deterministic vs. Semantic Tasks](../topics/deterministic-vs-semantic-tasks.md) — which evaluation activities can be automated
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — evaluation of treatment quality for a specific entry type
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — user-side skill assessment and the Lew & Szymańska skills framework

@@ -128,6 +128,7 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — citation forms, entry scope, and macrostructure design for learner dictionaries
 - [Register and Formality Marking](register-formality-marking.md) — usage labels, the consultation gap, and encoding strategies for register
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — lexical thresholds and dictionary sizing decisions
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — user-side skills, training evidence, and how dictionary design can compensate for skill deficits
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — pragmatic information in dictionaries and the L2 pragmatic competence gap
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — synonymy, antonymy, hyponymy, and their representation in dictionaries
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — evaluation frameworks, user study methods, and quality metrics for learner dictionaries

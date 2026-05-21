@@ -163,3 +163,4 @@ This is a significant gap for highly polysemous entries. Adding sense-number lin
 - [Vocabulary Acquisition](vocabulary-acquisition.md) — how learners acquire multi-sense knowledge
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — paradigmatic sense relations (synonymy, antonymy, hyponymy) and their dictionary treatment
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている as a case study in constructional polysemy driven by lexical aspect
+- [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — sense selection as the most common dictionary-use failure point
