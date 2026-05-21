@@ -31,3 +31,6 @@ _(All observations through 2026-05-20 session 008 have been harvested by the wik
 
 ## 2026-05-21 — comprehensive polish session 004 (entries 02604–02625)
 - [entry] 02617 (混んでいる): conjugation table is badly wrong — generated as if いる were a standalone godan verb. E.g. Past shows {混}んでいった instead of {混}んでいた; polite shows {混}んでいります instead of {混}んでいます. Needs repair.
+
+## 2026-05-21 — comprehensive polish session 007 (entries 02670–02696)
+- [pattern] Duplicate conjugation blocks (old prefix/stem/ending format + new forms array) found again in 02688 (kyouchou), 02693 (kiru), 02696 (keikoku) — same pattern extends further than the 02559–02583 range noted earlier. A batch script to detect and remove old-style blocks across all entries would be useful.
