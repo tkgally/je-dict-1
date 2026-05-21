@@ -28,3 +28,6 @@ Each session appends a section. Within each section, prefix observations with a 
 _(All observations through 2026-05-20 session 008 have been harvested by the wiki maintenance session of 2026-05-21.)_
 
 [pattern] 2026-05-21: Entries in the 02559–02583 range had duplicate `conjugation` fields — one old format (`prefix`/`stem`/`ending` keys) followed by a correct `forms`-array block. Found in 02560, 02567, 02568, 02574, 02576, 02582. Worth running a batch check across earlier and later entries for the same pattern.
+
+## 2026-05-21 — comprehensive polish session 004 (entries 02604–02625)
+- [entry] 02617 (混んでいる): conjugation table is badly wrong — generated as if いる were a standalone godan verb. E.g. Past shows {混}んでいった instead of {混}んでいた; polite shows {混}んでいります instead of {混}んでいます. Needs repair.
