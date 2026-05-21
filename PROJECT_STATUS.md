@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-21 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 27834-27857) from `candidate_words.json`, all newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Verbs (9)**: {雇|やと}い{入|い}れる (to hire, ichidan, transitive), {譲|ゆず}り{合|あ}う (to yield mutually, godan, transitive), {割|わ}り{切|き}れる (to be divisible / settle one's feelings — two senses, ichidan, intransitive), {満|み}ち{足|た}りる (to be content, ichidan, intransitive), {惹|ひ}く (to attract, godan, transitive), {修|おさ}める (to study/master, ichidan, transitive), {詰|つ}む (to be cornered/checkmated, godan, intransitive), {講|こう}じる (to take measures, ichidan, transitive), {混|ま}ぜ{合|あ}わせる (to blend, ichidan, transitive)
+- **Adjectives (4)**: {妬|ねた}ましい (enviably galling, i-adj), {物凄|ものすご}い (tremendous, i-adj), {悩|なや}ましい (vexing/seductive — two senses, i-adj), {温和|おんわ} (gentle/mild, na-adj)
+- **Nouns (11)**: {離|はな}れ{離|ばな}れ (separated), クラクション (car horn), {町外|まちはず}れ (outskirts of town), {違反者|いはんしゃ} (offender), {災|わざわ}い (disaster/misfortune), {靴磨|くつみが}き (shoeshine), {西日|にしび} (afternoon sun), ゆりかご (cradle), {体当|たいあ}たり (body slam / all-out effort — two senses, noun + verb-suru), {蛍狩|ほたるが}り (firefly viewing), {温泉|おんせん}{卵|たまご} (onsen egg)
+
+One new kanji introduced: {惹|ひ} (attract), assigned kanji ID 02746. All 24 entries validate; furigana check clean; conjugations added to the 9 verbs, the verb-suru noun, and the 3 i-adjectives.
+
 ### 2026-05-19 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27812-27833) from `candidate_words.json`, all "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
