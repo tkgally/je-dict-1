@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02905_suguni_ex1",
-      "japanese": "すぐに{来|き}てください。",
+      "japanese": "すぐに⟦{来|き}て→来る：00254_kuru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please come right away.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02905_suguni_ex2",
-      "japanese": "{電話|でんわ}があったら、すぐに{知|し}らせてください。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦が→が：00051_ga⟧⟦あったら→ある：00006_aru⟧、すぐに⟦{知|し}らせて→知らせる：01208_shiraseru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "If there's a phone call, please let me know immediately.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02905_suguni_ex3",
-      "japanese": "{駅|えき}はすぐに{見|み}つかった。",
+      "japanese": "⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧すぐに⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "I found the station right away.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02905_suguni_ex4",
-      "japanese": "{雨|あめ}が{降|ふ}ってきたので、すぐに{家|いえ}に{帰|かえ}った。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}って→降る：00839_furu⟧⟦きた→来る：00254_kuru⟧⟦ので→ので：09501_node⟧、すぐに⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "It started raining, so I went home right away.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02905_suguni_ex5",
-      "japanese": "{先生|せんせい}に{聞|き}いたら、すぐに{答|こた}えてくれた。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{聞|き}いたら→聞く：00483_kiku⟧、すぐに⟦{答|こた}えて→答える：01099_kotaeru⟧⟦くれた→くれる：00724_kureru⟧。",
       "english": "When I asked the teacher, they answered right away.",
       "notes": null,
       "has_audio": false,
@@ -63,18 +63,40 @@
       ]
     }
   ],
-  "notes": "すぐに has two core meanings: immediately (time) and right there (proximity/distance).\n\nTIME (immediately):\n- すぐに{来|き}てください: please come right away\n- すぐに{分|わ}かった: I understood immediately\n\nPROXIMITY (nearby):\n- すぐそこ: right there, very close\n- {駅|えき}はすぐそばだ: the station is right nearby\n\nVARIANT:\nすぐ can be used without に with the same meaning. すぐに is slightly more emphatic.\n\nSIMILAR EXPRESSIONS:\n- {直|ただ}ちに: immediately (formal, often used in announcements and official contexts)\n- {今|いま}すぐ: right now (more urgent than すぐに)\n- もうすぐ: soon, shortly (indicates something is about to happen, NOT immediate)\n- さっそく: promptly, without delay (implies willingness or eagerness)\n\nCOMMON MISTAKE:\nもうすぐ means \"soon\" (in the near future), while すぐに means \"immediately\" (without delay). These are not interchangeable.",
-  "cross_references": [],
+  "notes": "すぐに has two core meanings: immediately (time) and right there (proximity/distance).\n\nTIME (immediately):\n- すぐに⟦{来|き}て→来る：00254_kuru⟧⟦ください→下さい：02899_kudasai⟧: please come right away\n- すぐに⟦{分|わ}かった→分かる：00463_wakaru⟧: I understood immediately\n\nPROXIMITY (nearby):\n- ⟦すぐ→すぐ：00814_sugu⟧⟦そこ→そこ：00991_soko⟧: right there, very close\n- ⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦すぐ→すぐ：00814_sugu⟧⟦そば→そば：00989_soba⟧⟦だ→だ：09496_da⟧: the station is right nearby\n\nVARIANT:\n⟦すぐ→すぐ：00814_sugu⟧ can be used without に with the same meaning. すぐに is slightly more emphatic.\n\nSIMILAR EXPRESSIONS:\n- ⟦{直|ただ}ちに→直ちに：00398_tadachini⟧: immediately (formal, often used in announcements and official contexts)\n- ⟦{今|いま}すぐ→今すぐ：25670_imasugu⟧: right now (more urgent than すぐに)\n- ⟦もうすぐ→もうすぐ：01218_mousugu⟧: soon, shortly (indicates something is about to happen, NOT immediate)\n- ⟦さっそく→早速：04173_sassoku⟧: promptly, without delay (implies willingness or eagerness)\n\nCOMMON MISTAKE:\n⟦もうすぐ→もうすぐ：01218_mousugu⟧ means \"soon\" (in the near future), while すぐに means \"immediately\" (without delay). These are not interchangeable.",
+  "cross_references": [
+    {
+      "target_id": "00814_sugu",
+      "reading": "すぐ",
+      "headword": "すぐ",
+      "type": "related",
+      "note": "base form without に"
+    },
+    {
+      "target_id": "00398_tadachini",
+      "reading": "ただちに",
+      "headword": "直ちに",
+      "type": "contrast",
+      "note": "formal equivalent"
+    },
+    {
+      "target_id": "01218_mousugu",
+      "reading": "もうすぐ",
+      "headword": "もうすぐ",
+      "type": "contrast",
+      "note": "means soon, not immediately"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-22T21:15:09Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "descriptive"

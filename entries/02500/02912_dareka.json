@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02912_dareka_ex1",
-      "japanese": "{誰|だれ}か{来|き}ましたか。",
+      "japanese": "{誰|だれ}か⟦{来|き}ました→来る：00254_kuru⟧⟦か→か：09473_ka⟧。",
       "english": "Did someone come?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02912_dareka_ex2",
-      "japanese": "{誰|だれ}かに{聞|き}いてみよう。",
+      "japanese": "{誰|だれ}か⟦に→に：00314_ni⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦みよう→見る：00283_miru⟧。",
       "english": "Let's ask someone.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02912_dareka_ex3",
-      "japanese": "{誰|だれ}かが{電話|でんわ}している。",
+      "japanese": "{誰|だれ}か⟦が→が：00051_ga⟧⟦{電話|でんわ}している→電話する：05652_denwasuru⟧。",
       "english": "Someone is making a phone call.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02912_dareka_ex4",
-      "japanese": "{誰|だれ}かいい{人|ひと}を{知|し}りませんか。",
+      "japanese": "{誰|だれ}か⟦いい→いい：00118_ii⟧⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧⟦{知|し}りません→知る：00458_shiru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you know someone good?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02912_dareka_ex5",
-      "japanese": "{外|そと}で{誰|だれ}かが{大|おお}きい{声|こえ}で{話|はな}しているのが{聞|き}こえた。",
+      "japanese": "⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧{誰|だれ}か⟦が→が：00051_ga⟧⟦{大|おお}きい→大きい：00335_ookii⟧⟦{声|こえ}→声：02207_koe⟧⟦で→で：00502_de⟧⟦{話|はな}している→話す：00467_hanasu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{聞|き}こえた→聞こえる：01229_kikoeru⟧。",
       "english": "I could hear someone talking loudly outside.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,11 @@
       ]
     }
   ],
-  "notes": "{誰|だれ}か means \"someone\" or \"somebody\" - an unspecified person.\n\nFORMATION:\n{誰|だれ} (who) + か (question particle) = someone\n\nINDEFINITE PRONOUN PATTERN:\nQuestion word + か = indefinite:\n- {誰|だれ}か: someone\n- {何|なに}か: something\n- どこか: somewhere\n- いつか: sometime\n- {何|なん}とか: somehow\n\nNEGATIVE FORMS (with も + negative verb):\n- {誰|だれ}も〜ない: no one\n- {何|なに}も〜ない: nothing\n- どこも〜ない: nowhere\n\nCOMMON PATTERNS:\n- {誰|だれ}かいますか: Is anyone there?\n- {誰|だれ}かに{聞|き}く: to ask someone\n- {誰|だれ}か{来|き}た: Someone came",
+  "notes": "{誰|だれ}か means \"someone\" or \"somebody\" - an unspecified person.\n\nFORMATION:\n{誰|だれ} (who) + ⟦か→か：09473_ka⟧ (question particle) = someone\n\nINDEFINITE PRONOUN PATTERN:\nQuestion word + か = indefinite:\n- {誰|だれ}か: someone\n- ⟦{何|なに}か→何か：03873_nanika⟧: something\n- ⟦どこか→どこか：02361_dokoka⟧: somewhere\n- ⟦いつか→いつか：01809_itsuka⟧: sometime\n- ⟦{何|なん}とか→何とか：01126_nantoka⟧: somehow\n\nNEGATIVE FORMS (with も + negative verb):\n- {誰|だれ}⟦も→も：00484_mo⟧〜ない: no one\n- {何|なに}⟦も→も：00484_mo⟧〜ない: nothing\n- どこ⟦も→も：00484_mo⟧〜ない: nowhere\n\nCOMMON PATTERNS:\n- {誰|だれ}か⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧: Is anyone there?\n- {誰|だれ}か⟦に→に：00314_ni⟧⟦{聞|き}く→聞く：00483_kiku⟧: to ask someone\n- {誰|だれ}か⟦{来|き}た→来る：00254_kuru⟧: Someone came",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-22T21:24:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
