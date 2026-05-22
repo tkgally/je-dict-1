@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02899_kudasai_ex1",
-      "japanese": "{水|みず}を{下|くだ}さい。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{下|くだ}さい。",
       "english": "Please give me water.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "02899_kudasai_ex2",
-      "japanese": "{待|ま}って{下|くだ}さい。",
+      "japanese": "⟦{待|ま}って→待つ：00469_matsu⟧{下|くだ}さい。",
       "english": "Please wait.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "02899_kudasai_ex3",
-      "japanese": "ここに{名前|なまえ}を{書|か}いて{下|くだ}さい。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦に→に：00314_ni⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧{下|くだ}さい。",
       "english": "Please write your name here.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "02899_kudasai_ex4",
-      "japanese": "コーヒーを{下|くだ}さい。",
+      "japanese": "⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧{下|くだ}さい。",
       "english": "I'd like a coffee, please.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02899_kudasai_ex5",
-      "japanese": "もう{一度|いちど}{言|い}って{下|くだ}さい。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{一度|いちど}→一度：01312_ichido⟧⟦{言|い}って→言う：00515_iu⟧{下|くだ}さい。",
       "english": "Please say that again.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "02899_kudasai_ex6",
-      "japanese": "メニューを{下|くだ}さい。",
+      "japanese": "⟦メニュー→メニュー：11166_menyuu⟧⟦を→を：00422_wo⟧{下|くだ}さい。",
       "english": "Please give me the menu.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "02899_kudasai_ex7",
-      "japanese": "{静|しず}かにして{下|くだ}さい。",
+      "japanese": "⟦{静|しず}か→静か：00755_shizuka⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧{下|くだ}さい。",
       "english": "Please be quiet.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "02899_kudasai_ex8",
-      "japanese": "これを{二|ふた}つ{下|くだ}さい。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦を→を：00422_wo⟧⟦{二|ふた}つ→二つ：02953_futatsu⟧{下|くだ}さい。",
       "english": "Please give me two of these.",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "02899_kudasai_ex9",
-      "japanese": "{見|み}せて{下|くだ}さい。",
+      "japanese": "⟦{見|み}せて→見せる：01988_miseru⟧{下|くだ}さい。",
       "english": "Please show me.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "02899_kudasai_ex10",
-      "japanese": "お{時間|じかん}を{下|くだ}さい。",
+      "japanese": "お⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{下|くだ}さい。",
       "english": "Please give me some time.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{下|くだ}さい is the standard polite way to make requests in Japanese. It comes from the honorific verb {下|くだ}さる (to give, from a superior).\n\nPATTERNS:\n- [noun] + を + {下|くだ}さい: please give me ~ ({水|みず}を{下|くだ}さい)\n- [te-form] + {下|くだ}さい: please do ~ ({待|ま}って{下|くだ}さい)\n- お + [verb stem] + {下|くだ}さい: more formal request (お{座|すわ}り{下|くだ}さい)\n\nWRITING:\nOften written entirely in hiragana (ください) rather than with kanji, especially after te-form verbs. The kanji form {下|くだ}さい is more common for the \"please give me\" meaning.\n\nFORMALITY SCALE:\n- 〜て: casual (friends, family)\n- 〜て{下|くだ}さい: polite (standard)\n- 〜てくださいませんか: very polite (requesting a favor)",
+  "notes": "{下|くだ}さい is the standard polite way to make requests in Japanese. It comes from the honorific verb ⟦{下|くだ}さる→くださる：01305_kudasaru⟧ (to give, from a superior).\n\nPATTERNS:\n- [noun] + を + {下|くだ}さい: please give me ~ (⟦{水|みず}→水：02258_mizu⟧⟦を→を：00422_wo⟧{下|くだ}さい)\n- [te-form] + {下|くだ}さい: please do ~ (⟦{待|ま}って→待つ：00469_matsu⟧{下|くだ}さい)\n- お + [verb stem] + {下|くだ}さい: more formal request (お⟦{座|すわ}り→座る：00757_suwaru⟧{下|くだ}さい)\n\nWRITING:\nOften written entirely in hiragana (ください) rather than with kanji, especially after te-form verbs. The kanji form {下|くだ}さい is more common for the \"please give me\" meaning.\n\nFORMALITY SCALE:\n- 〜て: casual (friends, family)\n- 〜て{下|くだ}さい: polite (standard)\n- 〜てくださいませんか: very polite (requesting a favor)",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",

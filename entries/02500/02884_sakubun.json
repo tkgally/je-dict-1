@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "02884_sakubun_ex1",
-      "japanese": "{日本語|にほんご}で{作文|さくぶん}を{書|か}きました。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦で→で：00502_de⟧{作文|さくぶん}⟦を→を：00422_wo⟧⟦{書|か}きました→書く：00477_kaku⟧。",
       "english": "I wrote an essay in Japanese.",
       "notes": null,
       "has_audio": false,
@@ -28,7 +28,7 @@
     },
     {
       "id": "02884_sakubun_ex2",
-      "japanese": "{作文|さくぶん}の{宿題|しゅくだい}があります。",
+      "japanese": "{作文|さくぶん}⟦の→の：09472_no⟧⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "I have an essay homework assignment.",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "02884_sakubun_ex3",
-      "japanese": "{夏休|なつやす}みの{思|おも}い{出|で}について{作文|さくぶん}する。",
+      "japanese": "⟦{夏休|なつやす}み→夏休み：02925_natsuyasumi⟧⟦の→の：09472_no⟧⟦{思|おも}い{出|で}→思い出：00331_omoide⟧⟦について→について：03103_nitsuite⟧{作文|さくぶん}⟦する→する：00392_suru⟧。",
       "english": "To write an essay about summer vacation memories.",
       "notes": null,
       "has_audio": false,
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "notes": "{作文|さくぶん} refers to writing a composition or essay, particularly in a school setting. It combines {作|さく} (make) + {文|ぶん} (writing).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {作文|さくぶん}する\n\nCOMMON PATTERNS:\n- {作文|さくぶん}を{書|か}く: to write an essay\n- {作文|さくぶん}する: to compose, to write\n- {作文|さくぶん}{用紙|ようし}: essay writing paper (the ruled paper used in Japanese schools, typically {原稿|げんこう}{用紙|ようし})\n\nCONTEXT:\nIn Japanese schools, {作文|さくぶん} is a standard assignment where students write about topics like summer vacation, school events, or personal reflections. It is associated with elementary and middle school education.\n\nSIMILAR WORDS:\n- {文章|ぶんしょう}: text, writing (general term for written prose)\n- {論文|ろんぶん}: thesis, academic paper (formal, scholarly)\n- {小論文|しょうろんぶん}: short essay (often for entrance exams)\n- {感想文|かんそうぶん}: book report, reflection essay",
+  "notes": "{作文|さくぶん} refers to writing a composition or essay, particularly in a school setting. It combines {作|さく} (make) + {文|ぶん} (writing).\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {作文|さくぶん}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {作文|さくぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧: to write an essay\n- {作文|さくぶん}⟦する→する：00392_suru⟧: to compose, to write\n- {作文|さくぶん}⟦{用紙|ようし}→用紙：09588_youshi⟧: essay writing paper (the ruled paper used in Japanese schools, typically ⟦{原稿|げんこう}{用紙|ようし}→原稿用紙：15790_genkouyoushi⟧)\n\nCONTEXT:\nIn Japanese schools, {作文|さくぶん} is a standard assignment where students write about topics like summer vacation, school events, or personal reflections. It is associated with elementary and middle school education.\n\nSIMILAR WORDS:\n- ⟦{文章|ぶんしょう}→文章：02957_bunshou⟧: text, writing (general term for written prose)\n- ⟦{論文|ろんぶん}→論文：03787_ronbun⟧: thesis, academic paper (formal, scholarly)\n- ⟦{小論文|しょうろんぶん}→小論文：15669_shouronbun⟧: short essay (often for entrance exams)\n- ⟦{感想文|かんそうぶん}→感想文：19527_kansoubun⟧: book report, reflection essay",
   "cross_references": [
     {
       "type": "related",
@@ -62,11 +62,25 @@
       "reading": "ろんぶん",
       "headword": "{論文|ろんぶん}",
       "label": "academic paper"
+    },
+    {
+      "type": "related",
+      "target_id": "15669_shouronbun",
+      "reading": "しょうろんぶん",
+      "headword": "{小論文|しょうろんぶん}",
+      "label": "short essay"
+    },
+    {
+      "type": "related",
+      "target_id": "19527_kansoubun",
+      "reading": "かんそうぶん",
+      "headword": "{感想文|かんそうぶん}",
+      "label": "book report, reflection essay"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:35:00Z",
-    "modified": "2026-04-10T07:00:24Z",
+    "modified": "2026-05-22T20:11:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

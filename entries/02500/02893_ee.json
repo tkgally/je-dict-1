@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02893_ee_ex1",
-      "japanese": "「{日本語|にほんご}がわかりますか。」「ええ、{少|すこ}し。」",
+      "japanese": "「⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦わかります→わかる：00463_wakaru⟧⟦か→か：09473_ka⟧。」「ええ、⟦{少|すこ}し→少し：00596_sukoshi⟧。」",
       "english": "\"Do you understand Japanese?\" \"Yes, a little.\"",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02893_ee_ex2",
-      "japanese": "「{明日|あした}{来|き}ますか。」「ええ、{行|い}きます。」",
+      "japanese": "「⟦{明日|あした}→明日：00501_ashita⟧⟦{来|き}ます→来る：00254_kuru⟧⟦か→か：09473_ka⟧。」「ええ、⟦{行|い}きます→行く：00119_iku⟧。」",
       "english": "\"Will you come tomorrow?\" \"Yes, I will.\"",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02893_ee_ex3",
-      "japanese": "ええ、そうですね。",
+      "japanese": "ええ、⟦そう→そう：01167_sou⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧。",
       "english": "Yes, that's right.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02893_ee_ex4",
-      "japanese": "「この{映画|えいが}、{見|み}ましたか。」「ええ、{先週|せんしゅう}{見|み}ました。」",
+      "japanese": "「⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧、⟦{見|み}ました→みる：00283_miru⟧⟦か→か：09473_ka⟧。」「ええ、⟦{先週|せんしゅう}→先週：00752_senshuu⟧⟦{見|み}ました→みる：00283_miru⟧。」",
       "english": "\"Have you seen this movie?\" \"Yes, I saw it last week.\"",
       "sense_numbers": [
         1
@@ -54,7 +54,7 @@
     },
     {
       "id": "02893_ee_ex5",
-      "japanese": "「お{茶|ちゃ}でもいかがですか。」「ええ、いただきます。」",
+      "japanese": "「⟦お{茶|ちゃ}→お茶：00576_ocha⟧⟦でも→でも：00925_demo⟧⟦いかが→いかが：02846_ikaga⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。」「ええ、⟦いただきます→いただく：01326_itadaku⟧。」",
       "english": "\"Would you like some tea?\" \"Yes, please.\"",
       "sense_numbers": [
         1
@@ -63,11 +63,33 @@
       "notes": null
     }
   ],
-  "notes": "ええ is an affirmative interjection used to express agreement or confirmation. It's softer and more conversational than はい, commonly used in everyday speech.\n\nFORMALITY SCALE (most to least formal):\n1. はい: formal 'yes' (business, polite speech)\n2. ええ: conversational 'yes' (everyday polite conversation)\n3. うん: casual 'yeah' (friends, family)\n4. ああ: very casual acknowledgment\n\nUSAGE NOTES:\n- Often used by women more than men in formal situations\n- Can be elongated (ええー) to show hesitation or thinking\n- Works as a conversation filler showing you're listening\n- Softer tone makes it popular in customer service\n\nCOMMON PATTERNS:\n- ええ、そうです: Yes, that's right\n- ええ、{分|わ}かりました: Yes, I understand\n- ええ、まあ: Yes, well... (hesitant agreement)\n\nRELATED:\n- いいえ: no (polite)\n- ううん: no (casual)",
-  "cross_references": [],
+  "notes": "ええ is an affirmative interjection used to express agreement or confirmation. It's softer and more conversational than ⟦はい→はい：09574_hai⟧, commonly used in everyday speech.\n\nFORMALITY SCALE (most to least formal):\n1. ⟦はい→はい：09574_hai⟧: formal 'yes' (business, polite speech)\n2. ええ: conversational 'yes' (everyday polite conversation)\n3. ⟦うん→うん：01577_un⟧: casual 'yeah' (friends, family)\n4. ⟦ああ→ああ：01147_aa⟧: very casual acknowledgment\n\nUSAGE NOTES:\n- Often used by women more than men in formal situations\n- Can be elongated (ええー) to show hesitation or thinking\n- Works as a conversation filler showing you're listening\n- Softer tone makes it popular in customer service\n\nCOMMON PATTERNS:\n- ええ、⟦そう→そう：01167_sou⟧⟦です→です：09485_desu⟧: Yes, that's right\n- ええ、⟦{分|わ}かりました→わかる：00463_wakaru⟧: Yes, I understand\n- ええ、⟦まあ→まあ：03728_maa⟧: Yes, well... (hesitant agreement)\n\nRELATED:\n- ⟦いいえ→いいえ：02845_iie⟧: no (polite)\n- ⟦ううん→ううん：20371_uun⟧: no (casual)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "09574_hai",
+      "reading": "はい",
+      "headword": "はい",
+      "label": "yes (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "01577_un",
+      "reading": "うん",
+      "headword": "うん",
+      "label": "yeah (casual)"
+    },
+    {
+      "type": "related",
+      "target_id": "02845_iie",
+      "reading": "いいえ",
+      "headword": "いいえ",
+      "label": "no (polite)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-02-27T00:45:33Z",
+    "modified": "2026-05-22T20:11:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
