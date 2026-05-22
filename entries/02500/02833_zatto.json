@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "02833_zatto_ex1",
-      "japanese": "ざっと100{人|にん}",
+      "japanese": "ざっと100⟦{人|にん}→〜人：00658_nin⟧",
       "english": "Roughly 100 people.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "02833_zatto_ex2",
-      "japanese": "ざっと{目|め}を{通|とお}す。",
+      "japanese": "ざっと⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧。",
       "english": "To skim through.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "02833_zatto_ex3",
-      "japanese": "ざっと{説明|せつめい}する。",
+      "japanese": "ざっと⟦{説明|せつめい}→説明：01449_setsumei⟧⟦する→する：00392_suru⟧。",
       "english": "To explain briefly.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "02833_zatto_ex4",
-      "japanese": "{書類|しょるい}にざっと{目|め}を{通|とお}したが、{特|とく}に{問題|もんだい}はなさそうだ。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧ざっと⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{通|とお}した→通す：02300_toosu⟧⟦が→が：00051_ga⟧、⟦{特|とく}に→特に：01260_tokuni⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧なさそうだ。",
       "english": "I skimmed through the documents, and there don't seem to be any particular problems.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "02833_zatto_ex5",
-      "japanese": "ざっと{見積|みつ}もって50{万|まん}{円|えん}くらいかかる。",
+      "japanese": "ざっと⟦{見積|みつ}もって→見積もる：14132_mitsumoru⟧50⟦{万|まん}→万：00795_man⟧⟦{円|えん}→円：00774_en⟧くらいかかる。",
       "english": "Roughly estimated, it will cost about 500,000 yen.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "02833_zatto_ex6",
-      "japanese": "ざっと{計算|けいさん}しても、{費用|ひよう}は{予算|よさん}を{超|こ}えている。",
+      "japanese": "ざっと⟦{計算|けいさん}→計算：02697_keisan⟧⟦しても→する：00392_suru⟧、⟦{費用|ひよう}→費用：03588_hiyou⟧⟦は→は：00079_ha⟧⟦{予算|よさん}→予算：03663_yosan⟧⟦を→を：00422_wo⟧⟦{超|こ}えている→超える：01942_koeru⟧。",
       "english": "Even with a rough calculation, the cost exceeds the budget.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "ざっと indicates doing something roughly, quickly, or approximately — without going into detail.\n\nTWO MAIN USES:\n\n1. APPROXIMATION:\n- ざっと{百|ひゃく}{人|にん}: roughly a hundred people\n- ざっと{三万円|さんまんえん}: approximately 30,000 yen\n- ざっと{見積|みつも}もって: roughly estimating\n\n2. QUICK/CURSORY ACTION:\n- ざっと{見|み}る: to glance at, to skim\n- ざっと{目|め}を{通|とお}す: to skim through\n- ざっと{説明|せつめい}する: to explain briefly\n- ざっと{洗|あら}う: to rinse quickly\n\nSIMILAR WORDS:\n- ざっと: roughly, quickly (cursory)\n- だいたい: roughly, approximately (more common)\n- おおよそ: approximately (slightly formal)",
+  "notes": "ざっと indicates doing something roughly, quickly, or approximately — without going into detail.\n\nTWO MAIN USES:\n\n1. APPROXIMATION:\n- ざっと⟦{百|ひゃく}→百：00780_hyaku⟧⟦{人|にん}→〜人：00658_nin⟧: roughly a hundred people\n- ざっと三万円: approximately 30,000 yen\n- ざっと⟦{見積|みつも}もって→見積もる：14132_mitsumoru⟧: roughly estimating\n\n2. QUICK/CURSORY ACTION:\n- ざっと⟦{見|み}る→見る：00283_miru⟧: to glance at, to skim\n- ざっと⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{通|とお}す→通す：02300_toosu⟧: to skim through\n- ざっと⟦{説明|せつめい}→説明：01449_setsumei⟧⟦する→する：00392_suru⟧: to explain briefly\n- ざっと⟦{洗|あら}う→洗う：00827_arau⟧: to rinse quickly\n\nSIMILAR WORDS:\n- ざっと: roughly, quickly (cursory)\n- ⟦だいたい→だいたい：00831_daitai⟧: roughly, approximately (more common)\n- ⟦おおよそ→大凡：04113_ooyoso⟧: approximately (slightly formal)",
   "cross_references": [
     {
       "type": "synonym",
@@ -90,7 +90,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T09:52:23Z",
-    "modified": "2026-04-07T05:23:45Z",
+    "modified": "2026-05-22T16:32:06Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
