@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02936_hare_ex1",
-      "japanese": "{明日|あした}は{晴|は}れでしょう。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧{晴|は}れ⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "Tomorrow will be sunny.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02936_hare_ex2",
-      "japanese": "{晴|は}れの{日|ひ}が{続|つづ}く。",
+      "japanese": "{晴|は}れ⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "Sunny days continue.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02936_hare_ex3",
-      "japanese": "{天気|てんき}は{晴|は}れです。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦は→は：00079_ha⟧{晴|は}れ⟦です→です：09485_desu⟧。",
       "english": "The weather is clear.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02936_hare_ex4",
-      "japanese": "{週末|しゅうまつ}は{晴|は}れたら、{公園|こうえん}に{行|い}きましょう。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦は→は：00079_ha⟧⟦{晴|は}れたら→晴れる：00701_hareru⟧、⟦{公園|こうえん}→公園：00581_kouen⟧⟦に→に：00314_ni⟧⟦{行|い}きましょう→行く：00119_iku⟧。",
       "english": "If it's sunny this weekend, let's go to the park.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02936_hare_ex5",
-      "japanese": "{今朝|けさ}は{曇|くも}りだったけど、{午後|ごご}から{晴|は}れてきて{気持|きも}ちがいい。",
+      "japanese": "⟦{今朝|けさ}→今朝：02877_kesa⟧⟦は→は：00079_ha⟧⟦{曇|くも}り→曇り：02875_kumori⟧⟦だった→だ：09496_da⟧⟦けど→けど：09477_kedo⟧、⟦{午後|ごご}→午後：00544_gogo⟧⟦から→から：00504_kara⟧⟦{晴|は}れて→晴れる：00701_hareru⟧⟦きて→くる：00254_kuru⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "It was cloudy this morning, but it cleared up in the afternoon and feels nice.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{晴|は}れ is the noun form meaning clear or sunny weather. It is one of the basic weather terms used in forecasts and daily conversation.\n\nFORECAST EXPRESSIONS:\n- {晴|は}れのち{曇|くも}り: sunny then cloudy\n- {晴|は}れ{時々|ときどき}{曇|くも}り: sunny with occasional clouds\n- {晴|は}れ{一時|いちじ}{雨|あめ}: sunny with brief rain\n\nFIGURATIVE MEANING:\n{晴|は}れ also means \"formal\" or \"public\" in certain expressions:\n- {晴|は}れの{舞台|ぶたい}: a grand stage, a moment in the spotlight\n- {晴|は}れ{着|ぎ}: formal attire, best clothes\n\nRELATED:\n- {晴|は}れる (verb): to clear up\n- {快晴|かいせい}: perfectly clear weather\n- {曇|くも}り: cloudy (opposite weather condition)",
+  "notes": "{晴|は}れ is the noun form meaning clear or sunny weather. It is one of the basic weather terms used in forecasts and daily conversation.\n\nFORECAST EXPRESSIONS:\n- {晴|は}れ⟦のち→後：03545_nochi⟧⟦{曇|くも}り→曇り：02875_kumori⟧: sunny then cloudy\n- {晴|は}れ⟦{時々|ときどき}→時々：00600_tokidoki⟧⟦{曇|くも}り→曇り：02875_kumori⟧: sunny with occasional clouds\n- {晴|は}れ⟦{一時|いちじ}→一時：01799_ichiji⟧⟦{雨|あめ}→雨：00583_ame⟧: sunny with brief rain\n\nFIGURATIVE MEANING:\n{晴|は}れ also means \"formal\" or \"public\" in certain expressions:\n- {晴|は}れ⟦の→の：09472_no⟧⟦{舞台|ぶたい}→舞台：03606_butai⟧: a grand stage, a moment in the spotlight\n- ⟦{晴|は}れ{着|ぎ}→晴れ着：12995_haregi⟧: formal attire, best clothes\n\nRELATED:\n- ⟦{晴|は}れる→晴れる：00701_hareru⟧ (verb): to clear up\n- ⟦{快晴|かいせい}→快晴：00137_kaisei⟧: perfectly clear weather\n- ⟦{曇|くも}り→曇り：02875_kumori⟧: cloudy (opposite weather condition)",
   "cross_references": [
     {
       "type": "antonym",
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-22T22:07:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
