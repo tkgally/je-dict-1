@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02783_keiki_ex1",
-      "japanese": "これを{契機|けいき}に",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦を→を：00422_wo⟧{契機|けいき}⟦に→に：00314_ni⟧",
       "english": "Taking this opportunity; with this as a starting point.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02783_keiki_ex2",
-      "japanese": "{病気|びょうき}を{契機|けいき}に{生活|せいかつ}を{見直|みなお}した。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦を→を：00422_wo⟧{契機|けいき}⟦に→に：00314_ni⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦を→を：00422_wo⟧⟦{見直|みなお}した→見直す：04579_minaosu⟧。",
       "english": "I reconsidered my lifestyle, triggered by the illness.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02783_keiki_ex3",
-      "japanese": "{結婚|けっこん}を{契機|けいき}に{転職|てんしょく}した。",
+      "japanese": "⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦を→を：00422_wo⟧{契機|けいき}⟦に→に：00314_ni⟧⟦{転職|てんしょく}した→転職：04557_tenshoku⟧。",
       "english": "I changed jobs, taking the occasion of my marriage.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02783_keiki_ex4",
-      "japanese": "{今回|こんかい}の{失敗|しっぱい}を{契機|けいき}として、{会社|かいしゃ}は{品質|ひんしつ}{管理|かんり}の{体制|たいせい}を{大幅|おおはば}に{改善|かいぜん}した。",
+      "japanese": "⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{失敗|しっぱい}→失敗：01636_shippai⟧⟦を→を：00422_wo⟧{契機|けいき}⟦として→として：06802_toshite⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{品質|ひんしつ}→品質：09507_hinshitsu⟧⟦{管理|かんり}→管理：00178_kanri⟧⟦の→の：09472_no⟧⟦{体制|たいせい}→体制：04490_taisei⟧⟦を→を：00422_wo⟧⟦{大幅|おおはば}に→大幅：12170_oohaba⟧⟦{改善|かいぜん}した→改善：00144_kaizen⟧。",
       "english": "Taking this failure as an opportunity, the company significantly improved its quality control system.",
       "notes": null,
       "has_audio": false,
@@ -53,7 +53,7 @@
       ]
     }
   ],
-  "notes": "{契機|けいき} marks a turning point or catalyst.\n\nCOMMON PATTERNS:\n- 〜を{契機|けいき}に (taking ~ as an opportunity)\n- 〜を{契機|けいき}として (with ~ as a catalyst)\n- 〜が{契機|けいき}となって (~ became the trigger)\n\nSIMILAR WORDS:\n- {契機|けいき}: catalyst, trigger (formal)\n- きっかけ: opportunity, trigger (conversational)\n- {機会|きかい}: opportunity, chance\n\nNOTE: {契機|けいき} is more formal than きっかけ and often used in written language.",
+  "notes": "{契機|けいき} marks a turning point or catalyst.\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{契機|けいき}⟦に→に：00314_ni⟧ (taking ~ as an opportunity)\n- 〜⟦を→を：00422_wo⟧{契機|けいき}⟦として→として：06802_toshite⟧ (with ~ as a catalyst)\n- 〜⟦が→が：00051_ga⟧{契機|けいき}⟦と→と：00512_to⟧なって (~ became the trigger)\n\nSIMILAR WORDS:\n- {契機|けいき}: catalyst, trigger (formal)\n- ⟦きっかけ→きっかけ：10309_kikkake⟧: opportunity, trigger (conversational)\n- ⟦{機会|きかい}→機会：01302_kikai⟧: opportunity, chance\n\nNOTE: {契機|けいき} is more formal than ⟦きっかけ→きっかけ：10309_kikkake⟧ and often used in written language.",
   "cross_references": [
     {
       "type": "synonym",
@@ -72,7 +72,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T08:16:15Z",
-    "modified": "2026-04-06T07:33:18Z",
+    "modified": "2026-05-22T14:11:04Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -85,8 +85,7 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "building",
-        "transportation"
+        "general"
       ]
     }
   },
