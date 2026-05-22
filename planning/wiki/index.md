@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-21
+**Last updated**: 2026-05-22
 
 
 ## How this wiki is organized
@@ -65,6 +65,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Depth of Vocabulary Knowledge](research/depth-of-vocabulary-knowledge.md) — Nation's knowledge dimensions, breadth vs. depth, incremental acquisition, collocational difficulty, and implications for dictionary content
 - [L1 Transfer in Japanese L2 Vocabulary](research/l1-transfer-japanese-vocabulary.md) — Jiang's three-stage model, script-based transfer effects (Chinese/Korean/English), cognate advantage, false friends, and dictionary design implications
 - [Dictionary Skills and Reference Skills Training](research/dictionary-skills-training.md) — Lookup process models (Scholfield, Nesi, Lew), skills taxonomy, training effectiveness, sense selection failures, and compensatory dictionary design
+- [Incidental Vocabulary Acquisition Through Reading](research/incidental-vocabulary-reading.md) — Acquisition rates from unassisted reading, dictionary consultation effects, the Involvement Load Hypothesis, contextual guessing vs. lookup, and implications for dictionary design
 
 ## Topics
 

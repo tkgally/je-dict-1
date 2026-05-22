@@ -1,6 +1,6 @@
 # Vocabulary Acquisition
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-22
 
 ## How L2 learners acquire vocabulary
 
@@ -111,6 +111,7 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how many words learners need and what that means for dictionary sizing
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — the cognate advantage for English-speaking learners and its limits
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — how L1 background (Chinese/Korean/English) shapes vocabulary acquisition differently
+- [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — acquisition rates, dictionary consultation effects, and the Involvement Load Hypothesis
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic competence gap and why grammatical knowledge doesn't ensure appropriate language use
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — Nation's knowledge dimensions, the breadth/depth distinction, and incremental acquisition
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — the semantic clustering debate and how learners organize vocabulary in semantic networks

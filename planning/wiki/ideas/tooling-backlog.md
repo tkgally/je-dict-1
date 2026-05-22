@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-05-18
+**Last updated**: 2026-05-22
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -19,6 +19,8 @@ Many verb entries have duplicate `"conjugation":` keys (a legacy stub plus the f
 4. Validates the result with `json.load` before writing
 
 **Scope**: Primarily affects `conjugation` but could generalize to any duplicate key.
+
+**Update 2026-05-22**: Comprehensive-polish sessions 2026-05-21 (entries 02559–02583 and 02670–02696) confirmed the pattern extends throughout the entry range — 9 more entries identified (02560, 02567, 02568, 02574, 02576, 02582, 02688, 02693, 02696) all have the old-format stub followed by the full forms-array block. The pattern is likely pervasive across all verb entries created before the conjugation-table retrofit. A batch run of the proposed pruner would be a high-impact one-shot fix.
 
 ## 2. Fix verify_furigana.py false positives on inline links
 
