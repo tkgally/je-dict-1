@@ -184,6 +184,7 @@ No dictionary design can fully substitute for reference skills training. Two per
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and self-containment
 - [Learner Lexicography](learner-lexicography.md) — principles of pedagogical dictionary design
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — the production-side challenge
+- [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — dictionary consultation as a reading strategy and the guess-then-verify model
 
 ## References
 
