@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-22 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 27882-27906) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Verbs (9)**: {載|の}る (to appear in print, godan, intransitive), {患|わずら}う (to suffer from illness, godan, transitive), {転|ころ}げる (to roll/tumble, ichidan, intransitive), {断|た}つ (to sever/cut off, godan, transitive), {押|お}し{迫|せま}る (to be imminent, godan, intransitive), {害|がい}する (to harm, verb-suru, transitive), {煙|けむ}たがる (to find bothersome, godan, transitive), {挙|あ}げる (to cite / hold a ceremony — two senses, ichidan, transitive), {指摘|してき}する (to point out, verb-suru, transitive)
+- **Nouns (15)**: {因習|いんしゅう} (old custom), {金塊|きんかい} (gold bar), {安息|あんそく} (rest/repose), {遭難者|そうなんしゃ} (person in distress), {助教|じょきょう} (assistant professor), {源|みなもと} (source/origin), {労使|ろうし} (labor and management), {議場|ぎじょう} (assembly chamber), {大腸|だいちょう} (large intestine), {乳酸|にゅうさん} (lactic acid), {透析|とうせき} (dialysis, noun + verb-suru), {民事|みんじ} (civil law/affairs), コンビ (duo/pair), {出納|すいとう} (receipts and disbursements), {縞|しま} (stripes)
+- **Adverb (1)**: {常々|つねづね} (always/habitually)
+
+No new kanji introduced. All 25 entries validate; furigana check clean; conjugations added to the 10 verb forms (5 godan, 2 ichidan, 3 suru).
+
 ### 2026-05-21 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch — second run)
 Added 24 new dictionary entries (IDs 27858-27881) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
