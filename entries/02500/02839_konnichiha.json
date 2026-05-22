@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02839_konnichiha_ex1",
-      "japanese": "こんにちは、お{元気|げんき}ですか。",
+      "japanese": "こんにちは、⟦お→お〜：03097_o⟧⟦{元気|げんき}→元気：00696_genki⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Hello, how are you?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02839_konnichiha_ex2",
-      "japanese": "こんにちは！{久|ひさ}しぶり！",
+      "japanese": "こんにちは！⟦{久|ひさ}しぶり→久しぶり：01711_hisashiburi⟧！",
       "english": "Hi! Long time no see!",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02839_konnichiha_ex3",
-      "japanese": "{隣|となり}の{人|ひと}にこんにちはと{挨拶|あいさつ}した。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧こんにちは⟦と→と：00512_to⟧⟦{挨拶|あいさつ}した→挨拶：02505_aisatsu⟧。",
       "english": "I greeted my neighbor with 'hello.'",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02839_konnichiha_ex4",
-      "japanese": "こんにちは。{天気|てんき}がいいですね。",
+      "japanese": "こんにちは。⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦ね→ね：09474_ne⟧。",
       "english": "Hello. Nice weather, isn't it?",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02839_konnichiha_ex5",
-      "japanese": "{散歩|さんぽ}をしていたら、{知|し}らない{人|ひと}にこんにちはと{言|い}われた。",
+      "japanese": "⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦を→を：00422_wo⟧⟦していたら→する：00392_suru⟧、⟦{知|し}らない→知る：00458_shiru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧こんにちは⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "While I was taking a walk, a stranger said hello to me.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "こんにちは is a daytime greeting.\n\nTIME-BASED GREETINGS:\n- おはようございます (good morning)\n- こんにちは (good afternoon)\n- こんばんは (good evening)\n\nWRITING NOTE:\nThe は is written as は (ha) but pronounced わ (wa). This is the topic particle は in the original phrase {今日|きょう}は... (As for today...).\n\nUSAGE:\n- Used from late morning to early evening\n- Appropriate for both formal and casual situations",
-  "cross_references": [],
+  "notes": "こんにちは is a daytime greeting.\n\nTIME-BASED GREETINGS:\n- ⟦おはようございます→おはよう：05205_ohayou⟧ (good morning)\n- こんにちは (good afternoon)\n- ⟦こんばんは→こんばんは：27858_konbanha⟧ (good evening)\n\nWRITING NOTE:\nThe は is written as は (ha) but pronounced わ (wa). This is the topic particle は in the original phrase ⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧... (As for today...).\n\nUSAGE:\n- Used from late morning to early evening\n- Appropriate for both formal and casual situations",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05205_ohayou",
+      "reading": "おはよう",
+      "headword": "おはよう",
+      "label": "good morning"
+    },
+    {
+      "type": "related",
+      "target_id": "27858_konbanha",
+      "reading": "こんばんは",
+      "headword": "こんばんは",
+      "label": "good evening"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:02:00Z",
-    "modified": "2026-02-27T00:21:03Z",
+    "modified": "2026-05-22T17:10:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

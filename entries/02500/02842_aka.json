@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02842_aka_ex1",
-      "japanese": "{赤|あか}い{花|はな}",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧⟦{花|はな}→花：00523_hana⟧",
       "english": "Red flowers.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02842_aka_ex2",
-      "japanese": "{信号|しんごう}が{赤|あか}だ。",
+      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧{赤|あか}⟦だ→だ：09496_da⟧。",
       "english": "The traffic light is red.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02842_aka_ex3",
-      "japanese": "{赤|あか}いりんごを{買|か}った。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought red apples.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02842_aka_ex4",
-      "japanese": "{赤|あか}ちゃんが{泣|な}いている。",
+      "japanese": "⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧⟦が→が：00051_ga⟧⟦{泣|な}いている→泣く：00655_naku⟧。",
       "english": "The baby is crying.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02842_aka_ex5",
-      "japanese": "{秋|あき}になると{葉|は}っぱが{赤|あか}くなる。",
+      "japanese": "⟦{秋|あき}→秋：02276_aki⟧⟦に→に：00314_ni⟧⟦なると→なる：01970_naru⟧⟦{葉|は}っぱ→葉っぱ：05388_happa⟧⟦が→が：00051_ga⟧⟦{赤|あか}く→赤い：00585_akai⟧⟦なる→なる：01970_naru⟧。",
       "english": "In autumn, the leaves turn red.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{赤|あか} is one of the basic Japanese color words. Can function as a noun, no-adjective, or the base of the i-adjective {赤|あか}い.\n\nFORMS:\n- Noun: {赤|あか}が{好|す}き (I like red)\n- No-adjective: {赤|あか}の{他人|たにん} (complete stranger)\n- I-adjective: {赤|あか}い{花|はな} (red flower)\n\nCOMMON EXPRESSIONS:\n- {赤|あか}ちゃん: baby\n- {赤|あか}ワイン: red wine\n- {真|ま}っ{赤|か}: bright red; blatant (lie)\n- {赤|あか}の{他人|たにん}: complete stranger\n- {赤字|あかじ}: deficit, in the red\n\nIDIOM:\n{真|ま}っ{赤|か}な{嘘|うそ}: a blatant lie",
-  "cross_references": [],
+  "notes": "{赤|あか} is one of the basic Japanese color words. Can function as a noun, no-adjective, or the base of the i-adjective ⟦{赤|あか}い→赤い：00585_akai⟧.\n\nFORMS:\n- Noun: {赤|あか}⟦が→が：00051_ga⟧⟦{好|す}き→好き：02355_suki⟧ (I like red)\n- No-adjective: {赤|あか}⟦の→の：09472_no⟧⟦{他人|たにん}→他人：01459_tanin⟧ (complete stranger)\n- I-adjective: ⟦{赤|あか}い→赤い：00585_akai⟧⟦{花|はな}→花：00523_hana⟧ (red flower)\n\nCOMMON EXPRESSIONS:\n- ⟦{赤|あか}ちゃん→赤ちゃん：01282_akachan⟧: baby\n- ⟦{赤|あか}ワイン→赤ワイン：18930_akawain⟧: red wine\n- ⟦{真|ま}っ{赤|か}→真っ赤：03734_makka⟧: bright red; blatant (lie)\n- {赤|あか}⟦の→の：09472_no⟧⟦{他人|たにん}→他人：01459_tanin⟧: complete stranger\n- ⟦{赤字|あかじ}→赤字：04712_akaji⟧: deficit, in the red\n\nIDIOM:\n⟦{真|ま}っ{赤|か}→真っ赤：03734_makka⟧な⟦{嘘|うそ}→嘘：01796_uso⟧: a blatant lie",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00585_akai",
+      "reading": "あかい",
+      "headword": "{赤|あか}い",
+      "label": "red (i-adjective)"
+    },
+    {
+      "type": "related",
+      "target_id": "01282_akachan",
+      "reading": "あかちゃん",
+      "headword": "{赤|あか}ちゃん",
+      "label": "baby"
+    },
+    {
+      "type": "related",
+      "target_id": "03734_makka",
+      "reading": "まっか",
+      "headword": "{真|ま}っ{赤|か}",
+      "label": "bright red"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:15:30Z",
-    "modified": "2026-02-27T00:21:23Z",
+    "modified": "2026-05-22T17:10:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
