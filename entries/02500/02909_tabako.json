@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02909_tabako_ex1",
-      "japanese": "たばこを{吸|す}う。",
+      "japanese": "たばこ⟦を→を：00422_wo⟧⟦{吸|す}う→吸う：04394_suu⟧。",
       "english": "To smoke a cigarette.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02909_tabako_ex2",
-      "japanese": "ここではたばこを{吸|す}わないでください。",
+      "japanese": "⟦ここ→ここ：00961_koko⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧たばこ⟦を→を：00422_wo⟧⟦{吸|す}わないで→吸う：04394_suu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please don't smoke here.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02909_tabako_ex3",
-      "japanese": "たばこを{止|や}めたい。",
+      "japanese": "たばこ⟦を→を：00422_wo⟧⟦{止|や}めたい→やめる：00909_yameru⟧。",
       "english": "I want to quit smoking.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02909_tabako_ex4",
-      "japanese": "{父|ちち}は{去年|きょねん}たばこを{止|や}めた。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧⟦{去年|きょねん}→去年：00727_kyonen⟧たばこ⟦を→を：00422_wo⟧⟦{止|や}めた→やめる：00909_yameru⟧。",
       "english": "My father quit smoking last year.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02909_tabako_ex5",
-      "japanese": "このレストランは{禁煙|きんえん}なので、{外|そと}でたばこを{吸|す}ってください。",
+      "japanese": "⟦この→この：00962_kono⟧⟦レストラン→レストラン：01048_resutoran⟧⟦は→は：00079_ha⟧⟦{禁煙|きんえん}→禁煙：02644_kinen⟧⟦ので→ので：09501_node⟧、⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧たばこ⟦を→を：00422_wo⟧⟦{吸|す}って→吸う：04394_suu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "This restaurant is non-smoking, so please smoke outside.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "たばこ means tobacco or cigarette. Can be written in hiragana, katakana (タバコ), or kanji ({煙草|たばこ}).\n\nETYMOLOGY:\nFrom Portuguese \"tabaco.\"\n\nCOMMON EXPRESSIONS:\n- たばこを{吸|す}う: to smoke\n- たばこを{止|や}める: to quit smoking\n- たばこを{買|か}う: to buy cigarettes\n\nRELATED VOCABULARY:\n- {喫煙|きつえん}: smoking (formal term)\n- {喫煙所|きつえんじょ}: smoking area\n- {禁煙|きんえん}: no smoking\n- {灰皿|はいざら}: ashtray\n- {電子|でんし}たばこ: e-cigarette\n\nSOCIAL NOTE:\nSmoking restrictions have increased in Japan. Many public spaces are now {禁煙|きんえん} (no smoking).",
-  "cross_references": [],
+  "notes": "たばこ means tobacco or cigarette. Can be written in hiragana, katakana (タバコ), or kanji ({煙草|たばこ}).\n\nETYMOLOGY:\nFrom Portuguese \"tabaco.\"\n\nCOMMON EXPRESSIONS:\n- たばこ⟦を→を：00422_wo⟧⟦{吸|す}う→吸う：04394_suu⟧: to smoke\n- たばこ⟦を→を：00422_wo⟧⟦{止|や}める→やめる：00909_yameru⟧: to quit smoking\n- たばこ⟦を→を：00422_wo⟧⟦{買|か}う→買う：00489_kau⟧: to buy cigarettes\n\nRELATED VOCABULARY:\n- ⟦{喫煙|きつえん}→喫煙：17580_kitsuen⟧: smoking (formal term)\n- ⟦{喫煙所|きつえんじょ}→喫煙所：07043_kitsuenjo⟧: smoking area\n- ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧: no smoking\n- ⟦{灰皿|はいざら}→灰皿：02930_haizara⟧: ashtray\n- ⟦{電子|でんし}→電子：03449_denshi⟧たばこ: e-cigarette\n\nSOCIAL NOTE:\nSmoking restrictions have increased in Japan. Many public spaces are now ⟦{禁煙|きんえん}→禁煙：02644_kinen⟧ (no smoking).",
+  "cross_references": [
+    {
+      "target_id": "02644_kinen",
+      "reading": "きんえん",
+      "headword": "禁煙",
+      "type": "related",
+      "note": "no smoking; quitting smoking"
+    },
+    {
+      "target_id": "17580_kitsuen",
+      "reading": "きつえん",
+      "headword": "喫煙",
+      "type": "related",
+      "note": "smoking (formal noun)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-02-27T01:16:22Z",
+    "modified": "2026-05-22T21:21:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
