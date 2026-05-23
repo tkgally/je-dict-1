@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02990_rekoodo_ex1",
-      "japanese": "レコードを{聴|き}く。",
+      "japanese": "レコード⟦を→を：00422_wo⟧⟦{聴|き}く→聞く：00483_kiku⟧。",
       "english": "To listen to a record.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02990_rekoodo_ex2",
-      "japanese": "レコードを{集|あつ}めている。",
+      "japanese": "レコード⟦を→を：00422_wo⟧⟦{集|あつ}めている→集める：01170_atsumeru⟧。",
       "english": "I collect records.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02990_rekoodo_ex3",
-      "japanese": "{古|ふる}いレコードを{見|み}つけたので、{聴|き}いてみた。",
+      "japanese": "⟦{古|ふる}い→古い：00488_furui⟧レコード⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧⟦ので→ので：09501_node⟧、⟦{聴|き}いてみた→聞く：00483_kiku⟧。",
       "english": "I found an old record, so I gave it a listen.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "Loanword from English \"record.\" In Japanese, primarily refers to vinyl records, but can also mean a record/achievement.\n\nMEANINGS:\n1. Vinyl record (music): レコードを{聴|き}く (listen to a record)\n2. Record/achievement: {世界|せかい}レコード (world record), レコードを{更新|こうしん}する (break a record)\n\nCOMMON COLLOCATIONS:\n- レコードプレーヤー: record player\n- レコード{店|てん}: record shop\n- レコードを{集|あつ}める: to collect records\n- レコードをかける: to play a record\n\nRELATED TERMS:\n- CD (シーディー): compact disc\n- アナログ{盤|ばん}: analog record\n- LP (エルピー): long-playing record\n\nVinyl records have experienced a revival in Japan, with many {中古|ちゅうこ}レコード{店|てん} (secondhand record shops) in areas like Shimokitazawa.",
-  "cross_references": [],
+  "notes": "Loanword from English \"record.\" In Japanese, primarily refers to vinyl records, but can also mean a record/achievement.\n\nMEANINGS:\n1. Vinyl record (music): レコード⟦を→を：00422_wo⟧⟦{聴|き}く→聞く：00483_kiku⟧ (listen to a record)\n2. Record/achievement: ⟦{世界|せかい}→世界：01447_sekai⟧レコード (world record), レコード⟦を→を：00422_wo⟧⟦{更新|こうしん}する→更新する：noentry⟧ (break a record)\n\nCOMMON COLLOCATIONS:\n- レコード⟦プレーヤー→プレーヤー：noentry⟧: record player\n- レコード⟦{店|てん}→店：10011_ten⟧: record shop\n- レコード⟦を→を：00422_wo⟧⟦{集|あつ}める→集める：01170_atsumeru⟧: to collect records\n- レコード⟦を→を：00422_wo⟧⟦かける→かける：00854_kakeru⟧: to play a record\n\nRELATED TERMS:\n- ⟦CD→CD：08847_shiidii⟧ (⟦シーディー→CD：08847_shiidii⟧): compact disc\n- ⟦アナログ→アナログ：06443_anarogu⟧⟦{盤|ばん}→盤：18576_ban⟧: analog record\n- ⟦LP→LP：noentry⟧ (⟦エルピー→LP：noentry⟧): long-playing record\n\nVinyl records have experienced a revival in Japan, with many ⟦{中古|ちゅうこ}→中古：03479_chuuko⟧レコード⟦{店|てん}→店：10011_ten⟧ (secondhand record shops) in areas like Shimokitazawa.",
+  "cross_references": [
+    {
+      "target_id": "08847_shiidii",
+      "reading": "しーでぃー",
+      "headword": "CD",
+      "type": "related",
+      "note": "compact disc; modern successor to the vinyl record"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-03-28T10:56:41Z",
+    "modified": "2026-05-23T14:11:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

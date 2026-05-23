@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02995_keredomo_ex1",
-      "japanese": "{高|たか}いけれども、{買|か}う。",
+      "japanese": "⟦{高|たか}い→高い：00500_takai⟧けれども、⟦{買|か}う→買う：00489_kau⟧。",
       "english": "It's expensive, but I'll buy it.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02995_keredomo_ex2",
-      "japanese": "{雨|あめ}が{降|ふ}っているけれども、{出|で}かける。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧けれども、⟦{出|で}かける→出かける：00833_dekakeru⟧。",
       "english": "It's raining, but I'm going out.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02995_keredomo_ex3",
-      "japanese": "{難|むずか}しいけれども、{頑張|がんば}る。",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧けれども、⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧。",
       "english": "It's difficult, but I'll try hard.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02995_keredomo_ex4",
-      "japanese": "{時間|じかん}はあるけれども、お{金|かね}がない。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧けれども、お⟦{金|かね}→金：02618_kane⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
       "english": "I have time, but I don't have money.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02995_keredomo_ex5",
-      "japanese": "{日本語|にほんご}は{少|すこ}し{話|はな}せるけれども、{漢字|かんじ}を{読|よ}むのはまだ{難|むずか}しいです。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{話|はな}せる→話す：00467_hanasu⟧けれども、⟦{漢字|かんじ}→漢字：09480_kanji⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦まだ→まだ：00603_mada⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦です→です：09485_desu⟧。",
       "english": "I can speak a little Japanese, but reading kanji is still difficult.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "けれども is a formal conjunction meaning \"but\" or \"however\".\n\nFORMALITY LEVELS:\n- けれども: formal\n- けれど: semi-formal\n- けど: casual\n\nUSAGE:\n- Attached after verbs, adjectives, or nouns+だ\n- Can be used mid-sentence or at sentence end\n\nSENTENCE-FINAL USAGE:\nEnding with けれども/けど softens the statement or implies there's more to say.\n- {行|い}きたいんですけど... (I want to go, but... [implying hesitation])\n\nNote: In formal writing, が or しかし are preferred.",
-  "cross_references": [],
+  "notes": "けれども is a formal conjunction meaning \"but\" or \"however\".\n\nFORMALITY LEVELS:\n- けれども: formal\n- ⟦けれど→けれど：01990_keredo⟧: semi-formal\n- ⟦けど→けど：09477_kedo⟧: casual\n\nUSAGE:\n- Attached after verbs, adjectives, or nouns+⟦だ→だ：09496_da⟧\n- Can be used mid-sentence or at sentence end\n\nSENTENCE-FINAL USAGE:\nEnding with けれども/⟦けど→けど：09477_kedo⟧ softens the statement or implies there's more to say.\n- ⟦{行|い}きたいんです→行く：00119_iku⟧⟦けど→けど：09477_kedo⟧... (I want to go, but... [implying hesitation])\n\nNote: In formal writing, ⟦が→が：00051_ga⟧ or ⟦しかし→しかし：00986_shikashi⟧ are preferred.",
+  "cross_references": [
+    {
+      "target_id": "01990_keredo",
+      "reading": "けれど",
+      "headword": "けれど",
+      "type": "related",
+      "note": "semi-formal variant"
+    },
+    {
+      "target_id": "09477_kedo",
+      "reading": "けど",
+      "headword": "けど",
+      "type": "related",
+      "note": "casual variant"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:33:28Z",
+    "modified": "2026-05-23T14:20:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
