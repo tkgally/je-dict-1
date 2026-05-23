@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02967_marui_ex1",
-      "japanese": "{地球|ちきゅう}は{丸|まる}い。",
+      "japanese": "⟦{地球|ちきゅう}→地球：03461_chikyuu⟧⟦は→は：00079_ha⟧{丸|まる}い。",
       "english": "The Earth is round.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02967_marui_ex2",
-      "japanese": "{丸|まる}いテーブルがあります。",
+      "japanese": "{丸|まる}い⟦テーブル→テーブル：04488_teeburu⟧⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧。",
       "english": "There is a round table.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02967_marui_ex3",
-      "japanese": "{丸|まる}い{顔|かお}をしている。",
+      "japanese": "{丸|まる}い⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧。",
       "english": "He/She has a round face.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02967_marui_ex4",
-      "japanese": "{月|つき}が{丸|まる}くてきれいだ。",
+      "japanese": "⟦{月|つき}→月：02230_tsuki⟧⟦が→が：00051_ga⟧{丸|まる}くて⟦きれいだ→きれい：00717_kirei⟧。",
       "english": "The moon is full and beautiful.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02967_marui_ex5",
-      "japanese": "{子供|こども}たちが{丸|まる}い{形|かたち}のクッキーを{作|つく}っています。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧{丸|まる}い⟦{形|かたち}→形：02193_katachi⟧⟦の→の：09472_no⟧⟦クッキー→クッキー：10798_kukkii⟧⟦を→を：00422_wo⟧⟦{作|つく}って→作る：00481_tsukuru⟧⟦います→いる：00495_iru⟧。",
       "english": "The children are making round cookies.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{丸|まる}い is an i-adjective meaning round, circular, or spherical.\n\nKANJI VARIANTS:\n- {丸|まる}い: most common\n- {円|まる}い: alternative kanji\n\nFORMS:\n- {丸|まる}い: round (basic form)\n- {丸|まる}く: roundly (adverb)\n- {丸|まる}さ: roundness (noun)\n\nCOMMON PATTERNS:\n- {丸|まる}い{顔|かお}: round face\n- {丸|まる}いテーブル: round table\n- {丸|まる}い{目|め}: round eyes\n- {丸|まる}くなる: to become round\n\nFIGURATIVE USES:\n- {丸|まる}く{収|おさ}まる: to be settled peacefully\n- {角|かど}が{取|と}れて{丸|まる}くなる: to become mellow (personality)\n\nOPPOSITE SHAPES:\n- {四角|しかく}い: square\n- {三角|さんかく}の: triangular",
+  "notes": "{丸|まる}い is an i-adjective meaning round, circular, or spherical.\n\nKANJI VARIANTS:\n- {丸|まる}い: most common\n- {円|まる}い: alternative kanji\n\nFORMS:\n- {丸|まる}い: round (basic form)\n- {丸|まる}く: roundly (adverb)\n- {丸|まる}さ: roundness (noun)\n\nCOMMON PATTERNS:\n- {丸|まる}い⟦{顔|かお}→顔：00558_kao⟧: round face\n- {丸|まる}い⟦テーブル→テーブル：04488_teeburu⟧: round table\n- {丸|まる}い⟦{目|め}→目：00525_me⟧: round eyes\n- {丸|まる}く⟦なる→なる：01970_naru⟧: to become round\n\nFIGURATIVE USES:\n- {丸|まる}く⟦{収|おさ}まる→収まる：11858_osamaru⟧: to be settled peacefully\n- ⟦{角|かど}→角：02195_kado⟧⟦が→が：00051_ga⟧⟦{取|と}れて→取れる：02376_toreru⟧{丸|まる}く⟦なる→なる：01970_naru⟧: to become mellow (personality)\n\nOPPOSITE SHAPES:\n- ⟦{四角|しかく}い→四角い：05917_shikakui⟧: square\n- ⟦{三角|さんかく}→三角：04177_sankaku⟧⟦の→の：09472_no⟧: triangular",
   "cross_references": [
     {
       "type": "contrast",
@@ -75,8 +75,9 @@
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-04-02T08:34:40Z",
+    "modified": "2026-05-23T13:13:36Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [

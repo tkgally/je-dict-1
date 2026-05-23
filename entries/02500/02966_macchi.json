@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02966_macchi_ex1",
-      "japanese": "マッチで{火|ひ}をつける。",
+      "japanese": "マッチ⟦で→で：00502_de⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧。",
       "english": "To light a fire with a match.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02966_macchi_ex2",
-      "japanese": "マッチを{擦|す}る。",
+      "japanese": "マッチ⟦を→を：00422_wo⟧⟦{擦|す}る→擦る：04262_kosuru⟧。",
       "english": "To strike a match.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02966_macchi_ex3",
-      "japanese": "マッチがありますか。",
+      "japanese": "マッチ⟦が→が：00051_ga⟧⟦あります→ある：00006_aru⟧⟦か→か：09473_ka⟧。",
       "english": "Do you have matches?",
       "notes": null,
       "has_audio": false,
@@ -43,12 +43,20 @@
       ]
     }
   ],
-  "notes": "マッチ is from English \"match\" - the small stick used to light fire. Less common now due to lighters.\n\nCOMMON EXPRESSIONS:\n- マッチを{擦|す}る: to strike a match\n- マッチで{火|ひ}をつける: to light with a match\n- マッチ{箱|ばこ}: matchbox\n- マッチ{棒|ぼう}: matchstick\n\nHOMOPHONE NOTE:\nマッチ can also mean:\n- match (sports competition): サッカーのマッチ\n- match (pairing): お{似合|にあ}いのマッチ\nContext determines the meaning.\n\nRELATED WORDS:\n- ライター: lighter (more common now)\n- {火|ひ}: fire\n- {着火|ちゃっか}する: to ignite\n\nCULTURAL NOTE:\nマッチ{売|う}りの{少女|しょうじょ} (The Little Match Girl) is the famous fairy tale by Hans Christian Andersen.",
-  "cross_references": [],
+  "notes": "マッチ is from English \"match\" - the small stick used to light fire. Less common now due to lighters.\n\nCOMMON EXPRESSIONS:\n- マッチ⟦を→を：00422_wo⟧⟦{擦|す}る→擦る：04262_kosuru⟧: to strike a match\n- マッチ⟦で→で：00502_de⟧⟦{火|ひ}→火：02248_hi⟧⟦を→を：00422_wo⟧⟦つける→つける：00562_tsukeru⟧: to light with a match\n- マッチ⟦{箱|ばこ}→箱：02162_hako⟧: matchbox\n- マッチ⟦{棒|ぼう}→棒：03726_bou⟧: matchstick\n\nHOMOPHONE NOTE:\nマッチ can also mean:\n- match (sports competition): ⟦サッカー→サッカー：04726_sakkaa⟧⟦の→の：09472_no⟧マッチ\n- match (pairing): ⟦お→お〜：03097_o⟧⟦{似合|にあ}い→似合う：02134_niau⟧⟦の→の：09472_no⟧マッチ\nContext determines the meaning.\n\nRELATED WORDS:\n- ⟦ライター→ライター：00350_raitaa⟧: lighter (more common now)\n- ⟦{火|ひ}→火：02248_hi⟧: fire\n- ⟦{着火|ちゃっか}する→着火する：noentry⟧: to ignite\n\nCULTURAL NOTE:\nマッチ⟦{売|う}り→売り：12159_uri⟧⟦の→の：09472_no⟧⟦{少女|しょうじょ}→少女：03233_shoujo⟧ (The Little Match Girl) is the famous fairy tale by Hans Christian Andersen.",
+  "cross_references": [
+    {
+      "entry_id": "00350_raitaa",
+      "reading": "らいたー",
+      "type": "related",
+      "note": "lighter; modern alternative to matches"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-01-19T12:17:41.936948Z",
+    "modified": "2026-05-23T13:13:36Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -57,7 +65,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture",
+        "household",
         "tool"
       ]
     }
