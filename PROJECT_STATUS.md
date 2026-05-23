@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-23 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 27907-27928) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (21)**: ソフトドリンク (soft drink), ソフトボール (softball), ブルーベリー (blueberry), あんず (apricot), カフェイン (caffeine), {子牛|こうし} (calf), {渦巻|うずま}き (spiral/swirl), {渦潮|うずしお} (tidal whirlpool), {雑木林|ぞうきばやし} (mixed-tree thicket), {松林|まつばやし} (pine grove), {科学館|かがくかん} (science museum), {喫煙者|きつえんしゃ} (smoker), {創造力|そうぞうりょく} (creativity), {鵜飼|うか}い (cormorant fishing), はとこ (second cousin), {美|うつく}しさ (beauty), ゴシップ (gossip), りんご{狩|が}り (apple picking), {弱|よわ}さ (weakness), {幼|おさな}さ (childishness/youthfulness), カナリア (canary)
+- **Verb (1)**: ぬかる (to become muddy, godan, intransitive)
+
+Removed stale candidate C20695 (親父), a kanji variant of the existing kana entry おやじ (10249). No new kanji introduced. All 22 entries validate; furigana check clean; conjugation added to ぬかる.
+
 ### 2026-05-22 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 27882-27906) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short, notes scoped to 2-3 sections.
 
