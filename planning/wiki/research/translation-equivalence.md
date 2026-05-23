@@ -1,6 +1,6 @@
 # Translation Equivalence
 
-**Last updated**: 2026-05-13
+**Last updated**: 2026-05-23
 
 ## The core problem
 
@@ -72,3 +72,4 @@ Cross-references are also essential — they expose the system of related words 
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — why overlapping bilingual glosses obscure near-synonym distinctions
 - [Register and Formality Marking](register-formality-marking.md) — register asymmetry in translation equivalents and diasystematic labels
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — culture-bound terms where translation equivalence breaks down entirely
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — why false equivalence risk does not make bilingual dictionaries inferior

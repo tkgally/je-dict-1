@@ -123,3 +123,4 @@ The pilot **expository articles** feature (see `ideas/expository-articles.md`) w
 - [Entry Design](../project/entry-design.md) — the required-fields structure into which notes (and thus CDV-controlled prose) fit
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how the tier system supports selective attention and planning strategies
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — historical context for the CDV approach in JE lexicography
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — the CDV as an inherently monolingual concept, and why bilingual dictionaries don't need one

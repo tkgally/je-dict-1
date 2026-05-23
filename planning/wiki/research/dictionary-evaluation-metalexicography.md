@@ -261,3 +261,4 @@ These are all **internal structural metrics** in Swanepoel's taxonomy — they m
 - [Deterministic vs. Semantic Tasks](../topics/deterministic-vs-semantic-tasks.md) — which evaluation activities can be automated
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — evaluation of treatment quality for a specific entry type
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — user-side skill assessment and the Lew & Szymańska skills framework
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — evaluation studies comparing dictionary types as a core metalexicographic question

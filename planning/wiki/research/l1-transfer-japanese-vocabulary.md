@@ -174,3 +174,4 @@ The dictionary already has a research page on gairaigo that covers English→Jap
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — Nation's knowledge dimensions and incremental acquisition
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — strategy taxonomies and dictionary design implications
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and its relationship to the tier system
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how persistent L1 activation supports bilingual dictionary use
