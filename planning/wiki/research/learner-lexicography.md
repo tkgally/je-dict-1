@@ -1,6 +1,6 @@
 # Learner Lexicography
 
-**Last updated**: 2026-05-15
+**Last updated**: 2026-05-23
 
 ## What is learner lexicography?
 
@@ -39,7 +39,7 @@ Entries for high-frequency polysemous words require careful sense ordering, typi
 
 ## The monolingual vs. bilingual debate
 
-A long-standing debate in language pedagogy concerns whether learners should use monolingual (L2-L2) or bilingual (L1-L2) dictionaries. Research has increasingly challenged the traditional teaching orthodoxy that monolingual dictionaries are inherently superior.
+A long-standing debate in language pedagogy concerns whether learners should use monolingual (L2-L2) or bilingual (L1-L2) dictionaries. Research has increasingly challenged the traditional teaching orthodoxy that monolingual dictionaries are inherently superior. See [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) for a comprehensive treatment.
 
 ### Key findings
 
@@ -137,3 +137,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — strategy taxonomies and how dictionary design supports deliberate learning
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — the JE lexicographic tradition from missionaries to open-source projects
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — the encyclopedic–linguistic boundary, culture-bound terms, and how dictionaries handle cultural information
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — full treatment of the evidence on dictionary types, bilingualized dictionaries, and je-dict-1's hybrid position

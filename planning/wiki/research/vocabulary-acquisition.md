@@ -119,3 +119,4 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo acquisition as a pragmatic competence challenge; L1 background effects
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — deliberate strategy choices (keyword method, word cards, morphological analysis) and how dictionary design supports them
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how dictionary type interacts with vocabulary acquisition across proficiency levels

@@ -155,3 +155,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — the reading–lookup interaction and how dictionary use affects retention
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — the evaluation frameworks that use lookup studies as evidence
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — teachable skills, training effectiveness, and compensatory dictionary design
+- [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how dictionary type affects lookup behavior and outcomes
