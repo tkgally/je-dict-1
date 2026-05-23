@@ -6,90 +6,6 @@
   "gloss": "to be concerned with, to be involved",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{関|かか}わ"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to be concerned with, to be involved",
-      "explanation": "To have a connection or involvement with something."
-    }
-  ],
-  "examples": [
-    {
-      "id": "03020_kakawaru_ex1",
-      "japanese": "{仕事|しごと}に{関|かか}わる。",
-      "english": "To be involved with work.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03020_kakawaru_ex2",
-      "japanese": "{命|いのち}に{関|かか}わる{問題|もんだい}。",
-      "english": "A matter of life and death.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03020_kakawaru_ex3",
-      "japanese": "{深|ふか}く{関|かか}わっている。",
-      "english": "Deeply involved.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03020_kakawaru_ex4",
-      "japanese": "{仕事|しごと}に{関|かか}わる{問題|もんだい}が{起|お}きた。",
-      "english": "A problem related to work arose.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "03020_kakawaru_ex5",
-      "japanese": "この{計画|けいかく}には{多|おお}くの{人|ひと}が{関|かか}わっている。",
-      "english": "Many people are involved in this plan.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{関|かか}わる is an intransitive verb meaning to be connected or involved with.\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n\nPARTICLE USAGE:\n- 〜に{関|かか}わる (to be involved with ~)\n- 〜に{関|かか}わらず (regardless of ~)\n\nCOMMON PATTERNS:\n- {仕事|しごと}に{関|かか}わる (be involved in work)\n- {命|いのち}に{関|かか}わる (a matter of life and death)\n- {深|ふか}く{関|かか}わる (be deeply involved)\n\nRELATED VERBS:\n- {関係|かんけい}する: to be related to\n- {携|たずさ}わる: to be engaged in (more formal)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-04-10T06:37:10Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "core",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -177,5 +93,84 @@
         "negative": "{関|かか}わるな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to be concerned with, to be involved",
+      "explanation": "To have a connection or involvement with something."
+    }
+  ],
+  "examples": [
+    {
+      "id": "03020_kakawaru_ex1",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{関|かか}わる。",
+      "english": "To be involved with work.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03020_kakawaru_ex2",
+      "japanese": "⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{関|かか}わる⟦{問題|もんだい}→問題：00797_mondai⟧。",
+      "english": "A matter of life and death.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03020_kakawaru_ex3",
+      "japanese": "⟦{深|ふか}く→深い：01211_fukai⟧{関|かか}わっている。",
+      "english": "Deeply involved.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03020_kakawaru_ex4",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{関|かか}わる⟦{問題|もんだい}→問題：00797_mondai⟧⟦が→が：00051_ga⟧⟦{起|お}きた→起きる：00521_okiru⟧。",
+      "english": "A problem related to work arose.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "03020_kakawaru_ex5",
+      "japanese": "⟦この→この：00962_kono⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{多|おお}く→多い：01127_ooi⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{関|かか}わっている。",
+      "english": "Many people are involved in this plan.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{関|かか}わる is an intransitive verb meaning to be connected or involved with.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n\nPARTICLE USAGE:\n- 〜⟦に→に：00314_ni⟧{関|かか}わる (to be involved with ~)\n- 〜⟦に→に：00314_ni⟧{関|かか}わらず (regardless of ~)\n\nCOMMON PATTERNS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{関|かか}わる (be involved in work)\n- ⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧{関|かか}わる (a matter of life and death)\n- ⟦{深|ふか}く→深い：01211_fukai⟧{関|かか}わる (be deeply involved)\n\nRELATED VERBS:\n- ⟦{関係|かんけい}→関係：01298_kankei⟧⟦する→する：00392_suru⟧: to be related to\n- ⟦{携|たずさ}わる→携わる：09333_tazusawaru⟧: to be engaged in (more formal)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-11T10:41:41Z",
+    "modified": "2026-05-23T15:11:59Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "core",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
+    }
   }
 }

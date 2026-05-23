@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03019_kaishuu_ex1",
-      "japanese": "ゴミを{回収|かいしゅう}する。",
+      "japanese": "⟦ゴミ→ごみ：00840_gomi⟧⟦を→を：00422_wo⟧{回収|かいしゅう}⟦する→する：00392_suru⟧。",
       "english": "To collect garbage.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03019_kaishuu_ex2",
-      "japanese": "{資源|しげん}{回収|かいしゅう}の{日|ひ}は{火曜日|かようび}だ。",
+      "japanese": "⟦{資源|しげん}→資源：03167_shigen⟧{回収|かいしゅう}⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧⟦だ→だ：09496_da⟧。",
       "english": "Resource collection day is Tuesday.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03019_kaishuu_ex3",
-      "japanese": "{費用|ひよう}を{回収|かいしゅう}する。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{回収|かいしゅう}⟦する→する：00392_suru⟧。",
       "english": "To recover costs.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{回収|かいしゅう} is a noun/suru-verb meaning to collect or retrieve items.\n\nCOMMON PATTERNS:\n- {回収|かいしゅう}する (to collect)\n- ゴミの{回収|かいしゅう} (garbage collection)\n- {資源|しげん}{回収|かいしゅう} (resource recovery/recycling)\n- {費用|ひよう}を{回収|かいしゅう}する (recover costs)\n- {回収|かいしゅう}{日|び} (collection day)\n\nMEANINGS:\n1. Physical collection: garbage, recyclables\n2. Business: recover costs, investments\n3. Recall: product recall ({商品|しょうひん}{回収|かいしゅう})",
+  "notes": "{回収|かいしゅう} is a noun/suru-verb meaning to collect or retrieve items.\n\nCOMMON PATTERNS:\n- {回収|かいしゅう}⟦する→する：00392_suru⟧ (to collect)\n- ⟦ゴミ→ごみ：00840_gomi⟧⟦の→の：09472_no⟧{回収|かいしゅう} (garbage collection)\n- ⟦{資源|しげん}→資源：03167_shigen⟧{回収|かいしゅう} (resource recovery/recycling)\n- ⟦{費用|ひよう}→費用：03588_hiyou⟧⟦を→を：00422_wo⟧{回収|かいしゅう}⟦する→する：00392_suru⟧ (recover costs)\n- {回収|かいしゅう}⟦{日|び}→日：02249_hi⟧ (collection day)\n\nMEANINGS:\n1. Physical collection: garbage, recyclables\n2. Business: recover costs, investments\n3. Recall: ⟦{商品|しょうひん}→商品：01436_shouhin⟧{回収|かいしゅう} (product recall)",
   "cross_references": [],
+  "prominent_see_also": [
+    {
+      "target_id": "12924_kaishuu",
+      "reading": "かいしゅう",
+      "headword": "{改修|かいしゅう}",
+      "note": "renovation (改修)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:38:42Z",
+    "modified": "2026-05-23T15:11:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -63,13 +71,5 @@
         "general"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "12924_kaishuu",
-      "reading": "かいしゅう",
-      "headword": "{改修|かいしゅう}",
-      "note": "renovation (改修)"
-    }
-  ]
+  }
 }

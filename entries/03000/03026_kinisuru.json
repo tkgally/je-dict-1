@@ -2,7 +2,7 @@
   "id": "03026_kinisuru",
   "headword": "{気|き}にする",
   "reading": "きにする",
-  "part_of_speech": "godan verb",
+  "part_of_speech": "suru verb",
   "gloss": "to mind, to care about",
   "conjugation": {
     "type": "suru",
@@ -114,7 +114,7 @@
     },
     {
       "id": "03026_kinisuru_ex2",
-      "japanese": "{人|ひと}の{目|め}を{気|き}にする。",
+      "japanese": "⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{気|き}にする。",
       "english": "To care about what others think.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03026_kinisuru_ex3",
-      "japanese": "{細|こま}かいことを{気|き}にする。",
+      "japanese": "⟦{細|こま}かい→細かい：01245_komakai⟧⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧{気|き}にする。",
       "english": "To fuss over small details.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "03026_kinisuru_ex4",
-      "japanese": "{他|ほか}の{人|ひと}の{目|め}を{気|き}にしすぎないでください。",
+      "japanese": "⟦{他|ほか}→他：04129_hoka⟧⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{気|き}にし⟦すぎないでください→すぎる：01219_sugiru⟧。",
       "english": "Please don't worry too much about what others think.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "03026_kinisuru_ex5",
-      "japanese": "{彼女|かのじょ}は{小|ちい}さなことを{気|き}にする{性格|せいかく}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦こと→こと：01164_koto⟧⟦を→を：00422_wo⟧{気|き}にする⟦{性格|せいかく}→性格：03371_seikaku⟧⟦だ→だ：09496_da⟧。",
       "english": "She has a personality that worries about small things.",
       "notes": null,
       "has_audio": false,
@@ -153,16 +153,24 @@
       ]
     }
   ],
-  "notes": "{気|き}にする means to actively mind or care about something.\n\nCOMMON PATTERNS:\n- {気|き}にしないで (don't worry about it)\n- {気|き}にしない (not to care)\n- 〜を{気|き}にする (to care about ~)\n- {人|ひと}の{目|め}を{気|き}にする (care about others' opinions)\n\nCONTRAST WITH {気|き}になる:\n- {気|き}にする: actively choosing to worry/care (volitional)\n- {気|き}になる: something weighing on mind (non-volitional)\n\nCOMMON PHRASE:\n{気|き}にしないで is a common way to say \"don't worry\" or \"never mind\".",
-  "cross_references": [],
+  "notes": "{気|き}にする means to actively mind or care about something.\n\nCOMMON PATTERNS:\n- {気|き}にしないで (don't worry about it)\n- {気|き}にしない (not to care)\n- 〜⟦を→を：00422_wo⟧{気|き}にする (to care about ~)\n- ⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧{気|き}にする (care about others' opinions)\n\nCONTRAST WITH ⟦{気|き}になる→気になる：03027_kininaru⟧:\n- {気|き}にする: actively choosing to worry/care (volitional)\n- {気|き}になる: something weighing on mind (non-volitional)\n\nCOMMON PHRASE:\n{気|き}にしないで is a common way to say \"don't worry\" or \"never mind\".",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03027_kininaru",
+      "reading": "きになる",
+      "headword": "{気|き}になる",
+      "label": "to be on one's mind (non-volitional)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-04-02T08:34:40Z",
+    "modified": "2026-05-23T15:11:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
-        "verb-godan"
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
