@@ -14,9 +14,9 @@
   "examples": [
     {
       "id": "03089_garu_ex1",
-      "japanese": "{子供|こども}が{怖|こわ}がっている。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{怖|こわ}がっている。",
       "english": "The child is showing signs of being scared.",
-      "notes": "{怖|こわ}い → {怖|こわ}がる",
+      "notes": "⟦{怖|こわ}い→怖い：00864_kowai⟧ → {怖|こわ}がる",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -24,9 +24,9 @@
     },
     {
       "id": "03089_garu_ex2",
-      "japanese": "{猫|ねこ}が{寒|さむ}がって{布団|ふとん}に{入|はい}ってきた。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{寒|さむ}がって⟦{布団|ふとん}→布団：01720_futon⟧⟦に→に：00314_ni⟧⟦{入|はい}って→入る：00494_hairu⟧⟦きた→来る：00254_kuru⟧。",
       "english": "The cat seemed cold and got into the futon.",
-      "notes": "{寒|さむ}い → {寒|さむ}がる",
+      "notes": "⟦{寒|さむ}い→寒い：00664_samui⟧ → {寒|さむ}がる",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,16 +34,16 @@
     },
     {
       "id": "03089_garu_ex3",
-      "japanese": "あの{人|ひと}はいつも{新|あたら}しいものを{欲|ほ}しがる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧⟦いつも→いつも：00599_itsumo⟧⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦もの→物：02259_mono⟧⟦を→を：00422_wo⟧{欲|ほ}しがる。",
       "english": "That person always wants new things.",
-      "notes": "{欲|ほ}しい → {欲|ほ}しがる",
+      "notes": "⟦{欲|ほ}しい→欲しい：01107_hoshii⟧ → {欲|ほ}しがる",
       "has_audio": false,
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "FORMATION: Attach がる to adjective stems.\n- I-adjectives: drop い, add がる ({怖|こわ}い → {怖|こわ}がる)\n- Na-adjectives: add がる ({嫌|いや} → {嫌|いや}がる)\n- {欲|ほ}しい → {欲|ほ}しがる (to want)\n- 〜たい → 〜たがる (to want to do)\n\nUSAGE NOTE: Cannot be used for the speaker's own feelings (use the plain adjective instead). Creates a godan verb that conjugates normally: がる → がって → がった → がらない.\n\nCOMMON PATTERNS:\n- {怖|こわ}がる (to be scared)\n- {寒|さむ}がる (to feel cold)\n- {暑|あつ}がる (to feel hot)\n- {嫌|いや}がる (to dislike, show aversion)\n- {欲|ほ}しがる (to want)\n- {食|た}べたがる (to want to eat)\n\nThe suffix creates objective descriptions of others' emotional states, respecting Japanese norms about not claiming to know others' inner feelings directly.",
+  "notes": "FORMATION: Attach がる to adjective stems.\n- I-adjectives: drop い, add がる (⟦{怖|こわ}い→怖い：00864_kowai⟧ → {怖|こわ}がる)\n- Na-adjectives: add がる (⟦{嫌|いや}→嫌：10232_iya⟧ → ⟦{嫌|いや}がる→嫌がる：03041_iyagaru⟧)\n- ⟦{欲|ほ}しい→欲しい：01107_hoshii⟧ → {欲|ほ}しがる (to want)\n- 〜たい → 〜たがる (to want to do)\n\nUSAGE NOTE: Cannot be used for the speaker's own feelings (use the plain adjective instead). Creates a godan verb that conjugates normally: がる → がって → がった → がらない.\n\nCOMMON PATTERNS:\n- {怖|こわ}がる (to be scared)\n- {寒|さむ}がる (to feel cold)\n- ⟦{暑|あつ}→暑い：00619_atsui⟧がる (to feel hot)\n- ⟦{嫌|いや}がる→嫌がる：03041_iyagaru⟧ (to dislike, show aversion)\n- {欲|ほ}しがる (to want)\n- ⟦{食|た}べ→食べる：00396_taberu⟧たがる (to want to eat)\n\nThe suffix creates objective descriptions of others' emotional states, respecting Japanese norms about not claiming to know others' inner feelings directly.",
   "cross_references": [
     {
       "type": "related",
@@ -54,7 +54,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:54:02Z",
-    "modified": "2026-01-19T12:17:42.028074Z",
+    "modified": "2026-05-23T20:12:09Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,8 +65,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "communication",
-        "electronics"
+        "general"
       ]
     }
   }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03090_gawa_ex1",
-      "japanese": "{右|みぎ}{側|がわ}を{歩|ある}いてください。",
+      "japanese": "⟦{右|みぎ}→右：02257_migi⟧{側|がわ}⟦を→を：00422_wo⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please walk on the right side.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03090_gawa_ex2",
-      "japanese": "{窓|まど}{側|がわ}の{席|せき}がいいです。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧{側|がわ}⟦の→の：09472_no⟧⟦{席|せき}→席：02215_seki⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧。",
       "english": "I'd like a seat on the window side.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03090_gawa_ex3",
-      "japanese": "{会社|かいしゃ}{側|がわ}は{反対|はんたい}している。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧{側|がわ}⟦は→は：00079_ha⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦して→する：00392_suru⟧⟦いる→いる：00495_iru⟧。",
       "english": "The company side is opposed.",
       "notes": "Abstract use indicating perspective",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COMBINATIONS:\n- {右|みぎ}{側|がわ} (right side)\n- {左|ひだり}{側|がわ} (left side)\n- {向|む}こう{側|がわ} (the other side, opposite side)\n- こちら{側|がわ} (this side)\n- {窓|まど}{側|がわ} (window side)\n- {通路|つうろ}{側|がわ} (aisle side)\n- {山|やま}{側|がわ} (mountain side)\n- {海|うみ}{側|がわ} (sea side)\n\nABSTRACT USES:\n- {客|きゃく}{側|がわ} (customer's side/perspective)\n- {会社|かいしゃ}{側|がわ} (company's side)\n- {親|おや}{側|がわ} (parents' side)\n\nRELATED: {裏側|うらがわ} (back side, reverse), {表側|おもてがわ} (front side).",
+  "notes": "COMMON COMBINATIONS:\n- ⟦{右|みぎ}→右：02257_migi⟧{側|がわ} (right side)\n- ⟦{左|ひだり}→左：00628_hidari⟧{側|がわ} (left side)\n- ⟦{向|む}こう→向こう：00971_mukou⟧{側|がわ} (the other side, opposite side)\n- ⟦こちら→こちら：00960_kochira⟧{側|がわ} (this side)\n- ⟦{窓|まど}→窓：02254_mado⟧{側|がわ} (window side)\n- ⟦{通路|つうろ}→通路：04062_tsuuro⟧{側|がわ} (aisle side)\n- ⟦{山|やま}→山：02168_yama⟧{側|がわ} (mountain side)\n- ⟦{海|うみ}→海：00556_umi⟧{側|がわ} (sea side)\n\nABSTRACT USES:\n- ⟦{客|きゃく}→客：00865_kyaku⟧{側|がわ} (customer's side/perspective)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧{側|がわ} (company's side)\n- ⟦{親|おや}→親：01357_oya⟧{側|がわ} (parents' side)\n\nRELATED: ⟦{裏側|うらがわ}→裏側：03042_uragawa⟧ (back side, reverse), ⟦{表側|おもてがわ}→表側：25112_omotegawa⟧ (front side).",
   "cross_references": [
     {
       "type": "related",
@@ -54,7 +54,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:48:49Z",
-    "modified": "2026-01-19T11:37:01.826337Z",
+    "modified": "2026-05-23T20:12:09Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

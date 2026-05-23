@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03087_setsumeikai_ex1",
-      "japanese": "{会社|かいしゃ}{説明会|せつめいかい}に{参加|さんか}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧{説明会|せつめいかい}⟦に→に：00314_ni⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦した→する：00392_suru⟧。",
       "english": "I attended a company information session.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03087_setsumeikai_ex2",
-      "japanese": "{新|あたら}しいシステムの{説明会|せつめいかい}が{開|ひら}かれる。",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦システム→システム：08428_shisutemu⟧⟦の→の：09472_no⟧{説明会|せつめいかい}⟦が→が：00051_ga⟧⟦{開|ひら}かれる→開く：01979_hiraku⟧。",
       "english": "An information session about the new system will be held.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03087_setsumeikai_ex3",
-      "japanese": "{入学|にゅうがく}{説明会|せつめいかい}は4{月|がつ}にあります。",
+      "japanese": "⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧{説明会|せつめいかい}⟦は→は：00079_ha⟧4⟦{月|がつ}→月：02230_tsuki⟧⟦に→に：00314_ni⟧⟦あります→ある：00006_aru⟧。",
       "english": "The enrollment information session is in April.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{説明会|せつめいかい} combines {説明|せつめい} (explanation) + {会|かい} (meeting/gathering).\n\nCOMMON TYPES:\n- {会社|かいしゃ}/{企業|きぎょう}{説明会|せつめいかい} (company information session for job seekers)\n- {入学|にゅうがく}/{学校|がっこう}{説明会|せつめいかい} (school enrollment information session)\n- {商品|しょうひん}{説明会|せつめいかい} (product briefing)\n- {住民|じゅうみん}{説明会|せつめいかい} (residents' briefing)\n\nUSAGE NOTES:\n- Very common in Japanese business and academic contexts\n- Company {説明会|せつめいかい} are an important part of the job hunting ({就活|しゅうかつ}) process",
+  "notes": "{説明会|せつめいかい} combines ⟦{説明|せつめい}→説明：01449_setsumei⟧ (explanation) + ⟦{会|かい}→会：27493_kai⟧ (meeting/gathering).\n\nCOMMON TYPES:\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧/⟦{企業|きぎょう}→企業：00225_kigyou⟧{説明会|せつめいかい} (company information session for job seekers)\n- ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧/⟦{学校|がっこう}→学校：00055_gakkou⟧{説明会|せつめいかい} (school enrollment information session)\n- ⟦{商品|しょうひん}→商品：01436_shouhin⟧{説明会|せつめいかい} (product briefing)\n- ⟦{住民|じゅうみん}→住民：03281_juumin⟧{説明会|せつめいかい} (residents' briefing)\n\nUSAGE NOTES:\n- Very common in Japanese business and academic contexts\n- Company {説明会|せつめいかい} are an important part of the job hunting (⟦{就活|しゅうかつ}→就活：05832_shuukatsu⟧) process",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-01-24T07:38:50Z",
+    "modified": "2026-05-23T20:12:09Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -69,7 +70,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "action"
       ]
     }
   }

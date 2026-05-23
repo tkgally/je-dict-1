@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03081_jouhin_ex1",
-      "japanese": "{彼女|かのじょ}は{上品|じょうひん}な{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{上品|じょうひん}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧⟦だ→だ：09496_da⟧。",
       "english": "She is an elegant person.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03081_jouhin_ex2",
-      "japanese": "{上品|じょうひん}な{話|はな}し{方|かた}をする。",
+      "japanese": "{上品|じょうひん}⟦な→な：09497_na⟧⟦{話|はな}し{方|かた}→話し方：15767_hanashikata⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "She speaks in a refined manner.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03081_jouhin_ex3",
-      "japanese": "この{服|ふく}は{上品|じょうひん}なデザインだ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{服|ふく}→服：00695_fuku⟧⟦は→は：00079_ha⟧{上品|じょうひん}⟦な→な：09497_na⟧⟦デザイン→デザイン：03860_dezain⟧⟦だ→だ：09496_da⟧。",
       "english": "This outfit has an elegant design.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{上品|じょうひん} combines {上|じょう} (upper/superior) + {品|ひん} (quality/class).\n\nFORMS:\n- {上品|じょうひん}な + noun (elegant ~)\n- {上品|じょうひん}に + verb (elegantly)\n- {上品|じょうひん}さ (elegance - noun)\n\nCOMMON PATTERNS:\n- {上品|じょうひん}な{人|ひと} (elegant person)\n- {上品|じょうひん}な{味|あじ} (refined taste)\n- {上品|じょうひん}な{雰囲気|ふんいき} (elegant atmosphere)\n\nSIMILAR/OPPOSITE WORDS:\n- {上品|じょうひん}: elegant, refined\n- {下品|げひん}: vulgar, crude (antonym)\n- {優雅|ゆうが}: graceful, elegant\n- {品|ひん}がある: to have class",
+  "notes": "{上品|じょうひん} combines ⟦{上|じょう}→上：00682_ue⟧ (upper/superior) + ⟦{品|ひん}→品：03712_hin⟧ (quality/class).\n\nFORMS:\n- {上品|じょうひん}⟦な→な：09497_na⟧ + noun (elegant ~)\n- {上品|じょうひん}⟦に→に：00314_ni⟧ + verb (elegantly)\n- {上品|じょうひん}さ (elegance - noun)\n\nCOMMON PATTERNS:\n- {上品|じょうひん}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (elegant person)\n- {上品|じょうひん}⟦な→な：09497_na⟧⟦{味|あじ}→味：00826_aji⟧ (refined taste)\n- {上品|じょうひん}⟦な→な：09497_na⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧ (elegant atmosphere)\n\nSIMILAR/OPPOSITE WORDS:\n- {上品|じょうひん}: elegant, refined\n- ⟦{下品|げひん}→下品：00060_gehin⟧: vulgar, crude (antonym)\n- ⟦{優雅|ゆうが}→優雅：11532_yuuga⟧: graceful, elegant\n- ⟦{品|ひん}→品：03712_hin⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧: to have class",
   "cross_references": [
     {
       "type": "antonym",
@@ -83,7 +83,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-04-30T10:37:17Z",
+    "modified": "2026-05-23T20:12:09Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -91,7 +92,7 @@
         "adjective-na",
         "noun"
       ],
-      "formality": "vulgar",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "leisure"

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03082_jojo_ex1",
-      "japanese": "{天気|てんき}が{徐々|じょじょ}に{回復|かいふく}してきた。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧{徐々|じょじょ}⟦に→に：00314_ni⟧⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦して→する：00392_suru⟧⟦きた→来る：00254_kuru⟧。",
       "english": "The weather gradually improved.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03082_jojo_ex2",
-      "japanese": "{徐々|じょじょ}に{日本語|にほんご}が{上手|じょうず}になった。",
+      "japanese": "{徐々|じょじょ}⟦に→に：00314_ni⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "I gradually got better at Japanese.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03082_jojo_ex3",
-      "japanese": "{彼|かれ}は{徐々|じょじょ}に{信頼|しんらい}を{得|え}ていった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{徐々|じょじょ}⟦に→に：00314_ni⟧⟦{信頼|しんらい}→信頼：03268_shinrai⟧⟦を→を：00422_wo⟧⟦{得|え}て→得る：02014_eru⟧⟦いった→行く：00119_iku⟧。",
       "english": "He gradually gained trust.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{徐々|じょじょ} uses the kanji {徐|じょ} (slow/gradual) repeated.\n\nCOMMON PATTERNS:\n- {徐々|じょじょ}に + verb (gradually ~)\n- {徐々|じょじょ}に{変|か}わる (to change gradually)\n- {徐々|じょじょ}に{増|ふ}える/{減|へ}る (to gradually increase/decrease)\n\nSIMILAR WORDS:\n- {徐々|じょじょ}に: gradually (formal, written)\n- だんだん: gradually (casual)\n- {次第|しだい}に: gradually (formal)\n- {少|すこ}しずつ: little by little\n\nUSAGE NOTES:\n- More formal/literary than だんだん\n- Can also be used as a no-adjective: {徐々|じょじょ}の{変化|へんか} (gradual change)",
+  "notes": "{徐々|じょじょ} uses the kanji ⟦{徐|じょ}→徐：noentry⟧ (slow/gradual) repeated.\n\nCOMMON PATTERNS:\n- {徐々|じょじょ}⟦に→に：00314_ni⟧ + verb (gradually ~)\n- {徐々|じょじょ}⟦に→に：00314_ni⟧⟦{変|か}わる→変わる：00714_kawaru⟧ (to change gradually)\n- {徐々|じょじょ}⟦に→に：00314_ni⟧⟦{増|ふ}える→増える：01183_fueru⟧/⟦{減|へ}る→減る：01985_heru⟧ (to gradually increase/decrease)\n\nSIMILAR WORDS:\n- {徐々|じょじょ}⟦に→に：00314_ni⟧: gradually (formal, written)\n- ⟦だんだん→だんだん：00832_dandan⟧: gradually (casual)\n- ⟦{次第|しだい}に→次第に：05531_shidaini⟧: gradually (formal)\n- ⟦{少|すこ}しずつ→少しずつ：20047_sukoshizutsu⟧: little by little\n\nUSAGE NOTES:\n- More formal/literary than ⟦だんだん→だんだん：00832_dandan⟧\n- Can also be used as a no-adjective: {徐々|じょじょ}⟦の→の：09472_no⟧⟦{変化|へんか}→変化：03615_henka⟧ (gradual change)",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,7 +55,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T11:16:00Z",
-    "modified": "2026-01-19T12:17:42.022405Z",
+    "modified": "2026-05-23T20:12:09Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
