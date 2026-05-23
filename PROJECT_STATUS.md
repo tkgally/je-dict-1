@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-23 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch — later run)
+Added 25 new dictionary entries (IDs 27929-27953) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (23)**: サービス{料|りょう} (service charge), ハンドタオル (hand towel), セロテープ (cellophane tape), カセットテープ (cassette tape), マスキングテープ (masking/washi tape), ケーブルテレビ (cable TV), {薄型|うすがた}テレビ (flat-screen TV), {園長|えんちょう} (kindergarten principal), {文鳥|ぶんちょう} (Java sparrow), {作|つく}り{方|かた} (way of making), {柔道着|じゅうどうぎ} (judo uniform), ステーション (station/hub), {治療法|ちりょうほう} (treatment method), {報知器|ほうちき} (alarm device), {犬|いぬ}かき (dog paddle), {善玉|ぜんだま} (good guy / good bacteria — two senses), {悪玉|あくだま} (bad guy / bad bacteria — two senses), {貸|か}し{借|か}り (lending and borrowing), {生殖|せいしょく} (reproduction), {計算式|けいさんしき} (calculation formula), {投票権|とうひょうけん} (right to vote), {歴史劇|れきしげき} (historical drama), ギプス (plaster cast), {探検家|たんけんか} (explorer)
+- **Verb (1)**: {合格|ごうかく}する (to pass an exam, verb-suru, intransitive)
+
+No new kanji introduced. All 25 entries validate; furigana check clean; conjugation added to {合格|ごうかく}する.
+
 ### 2026-05-23 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 27907-27928) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
