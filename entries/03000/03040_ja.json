@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "03040_ja_ex1",
-      "japanese": "じゃ、{行|い}きましょう。",
+      "japanese": "じゃ、⟦{行|い}きましょう→行く：00119_iku⟧。",
       "english": "Well then, let's go.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "03040_ja_ex2",
-      "japanese": "じゃ、また{明日|あした}。",
+      "japanese": "じゃ、⟦また→また：00969_mata⟧⟦{明日|あした}→明日：00501_ashita⟧。",
       "english": "Well, see you tomorrow.",
       "notes": "Common farewell expression",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "03040_ja_ex3",
-      "japanese": "{雨|あめ}が{降|ふ}っている。じゃ、{傘|かさ}を{持|も}っていこう。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧。じゃ、⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}っていこう→持っていく：27431_motteiku⟧。",
       "english": "It's raining. In that case, let's take an umbrella.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "03040_ja_ex4",
-      "japanese": "じゃ、{始|はじ}めましょうか。",
+      "japanese": "じゃ、⟦{始|はじ}めましょうか→始める：00531_hajimeru⟧。",
       "english": "Well, shall we begin?",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "03040_ja_ex5",
-      "japanese": "{時間|じかん}がない。じゃ、{急|いそ}ごう。",
+      "japanese": "⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。じゃ、⟦{急|いそ}ごう→急ぐ：01191_isogu⟧。",
       "english": "There's no time. In that case, let's hurry.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "03040_ja_ex6",
-      "japanese": "じゃあね、{元気|げんき}でね。",
+      "japanese": "⟦じゃあ→じゃあ：02989_jaa⟧⟦ね→ね：09474_ne⟧、⟦{元気|げんき}→元気：00696_genki⟧⟦で→で：00502_de⟧⟦ね→ね：09474_ne⟧。",
       "english": "Well, bye then, take care.",
       "notes": null,
       "has_audio": false,
@@ -79,7 +79,7 @@
     },
     {
       "id": "03040_ja_ex7",
-      "japanese": "{彼|かれ}は{来|こ}ない。じゃ、{私|わたし}たちだけで{行|い}こう。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00254_kuru⟧。じゃ、⟦{私|わたし}→私：02988_watashi⟧⟦たち→達：01551_tachi⟧⟦だけ→〜だけ：03093_dake⟧⟦で→で：00502_de⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "He's not coming. In that case, let's go just us.",
       "notes": null,
       "has_audio": false,
@@ -89,7 +89,7 @@
     },
     {
       "id": "03040_ja_ex8",
-      "japanese": "じゃ、お{先|さき}に{失礼|しつれい}します。",
+      "japanese": "じゃ、⟦お{先|さき}に→お先に：26563_osakini⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧⟦します→する：00392_suru⟧。",
       "english": "Well, I'll be leaving now.",
       "notes": null,
       "has_audio": false,
@@ -99,7 +99,7 @@
     },
     {
       "id": "03040_ja_ex9",
-      "japanese": "{安|やす}い。じゃ、{買|か}おうか。",
+      "japanese": "⟦{安|やす}い→安い：00464_yasui⟧。じゃ、⟦{買|か}おうか→買う：00489_kau⟧。",
       "english": "It's cheap. Then let's buy it.",
       "notes": null,
       "has_audio": false,
@@ -109,7 +109,7 @@
     },
     {
       "id": "03040_ja_ex10",
-      "japanese": "じゃ、そろそろ{帰|かえ}ります。",
+      "japanese": "じゃ、⟦そろそろ→そろそろ：01259_sorosoro⟧⟦{帰|かえ}ります→帰る：00508_kaeru⟧。",
       "english": "Well, I should be heading home soon.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "03040_ja_ex11",
-      "japanese": "{電車|でんしゃ}がないなら、じゃ、{歩|ある}いて{行|い}こう。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦なら→なら：09575_nara⟧、じゃ、⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{行|い}こう→行く：00119_iku⟧。",
       "english": "If there's no train, then let's walk.",
       "notes": null,
       "has_audio": false,
@@ -128,7 +128,7 @@
       ]
     }
   ],
-  "notes": "じゃ is the casual contraction of では.\n\nCOMMON EXPRESSIONS:\n- じゃ、また (well, see you later)\n- じゃあね (bye then - casual)\n- じゃ、そういうことで (well, that's how it is)\n\nFORMALITY:\n- じゃ: casual\n- では: formal/polite\n- じゃあ: casual (variant with lengthened vowel)\n\nUSAGE NOTES:\n- Very common in everyday conversation\n- Often used when parting or transitioning topics\n- Can also connect sentences showing logical consequence",
+  "notes": "じゃ is the casual contraction of ⟦では→では：02945_deha⟧.\n\nCOMMON EXPRESSIONS:\n- じゃ、⟦また→また：00969_mata⟧ (well, see you later)\n- ⟦じゃあ→じゃあ：02989_jaa⟧⟦ね→ね：09474_ne⟧ (bye then - casual)\n- じゃ、⟦そういうことで→そういうことで：noentry⟧ (well, that's how it is)\n\nFORMALITY:\n- じゃ: casual\n- ⟦では→では：02945_deha⟧: formal/polite\n- ⟦じゃあ→じゃあ：02989_jaa⟧: casual (variant with lengthened vowel)\n\nUSAGE NOTES:\n- Very common in everyday conversation\n- Often used when parting or transitioning topics\n- Can also connect sentences showing logical consequence",
   "cross_references": [
     {
       "type": "related",
@@ -140,7 +140,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T11:12:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-23T16:16:19Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

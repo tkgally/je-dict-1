@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03043_kashidashi_ex1",
-      "japanese": "{図書館|としょかん}の{貸出|かしだし}{期間|きかん}は2{週間|しゅうかん}です。",
+      "japanese": "⟦{図書館|としょかん}→図書館：00580_toshokan⟧⟦の→の：09472_no⟧{貸出|かしだし}⟦{期間|きかん}→期間：00229_kikan⟧⟦は→は：00079_ha⟧2⟦{週間|しゅうかん}→週間：00988_shuukan⟧⟦です→です：09485_desu⟧。",
       "english": "The library lending period is two weeks.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03043_kashidashi_ex2",
-      "japanese": "この{本|ほん}は{貸出|かしだし}{中|ちゅう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧{貸出|かしだし}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦です→です：09485_desu⟧。",
       "english": "This book is currently on loan.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03043_kashidashi_ex3",
-      "japanese": "{貸出|かしだし}カードを{作|つく}りたいのですが。",
+      "japanese": "{貸出|かしだし}⟦カード→カード：03836_kaado⟧⟦を→を：00422_wo⟧⟦{作|つく}りたい→作る：00481_tsukuru⟧⟦の→の：09472_no⟧⟦です→です：09485_desu⟧⟦が→が：00051_ga⟧。",
       "english": "I'd like to make a library card.",
       "notes": "Literally 'lending card'",
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{貸出|かしだし} is a compound noun from {貸|か}す (to lend) + {出|だ}す (to put out).\n\nCOMMON COMPOUNDS:\n- {貸出|かしだし}{中|ちゅう} (currently on loan)\n- {貸出|かしだし}{期間|きかん} (lending period)\n- {貸出|かしだし}カード (library card)\n- {貸出|かしだし}{冊数|さっすう} (number of books that can be borrowed)\n\nUSAGE NOTES:\n- Most commonly used in library contexts\n- Also used for equipment rental in offices\n\nRELATED WORDS:\n- {返却|へんきゃく} (return) - antonym\n- {貸|か}す (to lend) - base verb\n- {借|か}りる (to borrow) - opposite action",
+  "notes": "{貸出|かしだし} is a compound noun from ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) + ⟦{出|だ}す→出す：01087_dasu⟧ (to put out).\n\nCOMMON COMPOUNDS:\n- {貸出|かしだし}⟦{中|ちゅう}→〜中：09840_chuu⟧ (currently on loan)\n- {貸出|かしだし}⟦{期間|きかん}→期間：00229_kikan⟧ (lending period)\n- {貸出|かしだし}⟦カード→カード：03836_kaado⟧ (library card)\n- {貸出|かしだし}⟦{冊数|さっすう}→冊数：noentry⟧ (number of books that can be borrowed)\n\nUSAGE NOTES:\n- Most commonly used in library contexts\n- Also used for equipment rental in offices\n\nRELATED WORDS:\n- ⟦{返却|へんきゃく}→返却：03149_henkyaku⟧ (return) - antonym\n- ⟦{貸|か}す→貸す：00537_kasu⟧ (to lend) - base verb\n- ⟦{借|か}りる→借りる：00532_kariru⟧ (to borrow) - opposite action",
   "cross_references": [
     {
       "type": "antonym",
@@ -159,7 +159,8 @@
   ],
   "metadata": {
     "created": "2026-01-11T11:12:00Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-05-23T16:16:19Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
