@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02972_minna_ex1",
-      "japanese": "みんなで{行|い}きましょう。",
+      "japanese": "みんな⟦で→で：00502_de⟧⟦{行|い}きましょう→行く：00119_iku⟧。",
       "english": "Let's all go together.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02972_minna_ex2",
-      "japanese": "みんな{来|き}ましたか。",
+      "japanese": "みんな⟦{来|き}ましたか→来る：00254_kuru⟧。",
       "english": "Has everyone arrived?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02972_minna_ex3",
-      "japanese": "みんなに{知|し}らせる。",
+      "japanese": "みんな⟦に→に：00314_ni⟧⟦{知|し}らせる→知らせる：01208_shiraseru⟧。",
       "english": "To inform everyone.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02972_minna_ex4",
-      "japanese": "みんなで{一緒|いっしょ}に{食|た}べよう。",
+      "japanese": "みんな⟦で→で：00502_de⟧⟦{一緒|いっしょ}→一緒：02848_issho⟧⟦に→に：00314_ni⟧⟦{食|た}べよう→食べる：00396_taberu⟧。",
       "english": "Let's all eat together.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02972_minna_ex5",
-      "japanese": "みんなが{帰|かえ}った{後|あと}、{一人|ひとり}で{片|かた}づけをした。",
+      "japanese": "みんな⟦が→が：00051_ga⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧⟦{後|あと}→後：09580_ato⟧、⟦{一人|ひとり}→一人：00630_hitori⟧⟦で→で：00502_de⟧⟦{片|かた}づけ→片付け：02625_katazuke⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "After everyone left, I cleaned up by myself.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "みんな means \"everyone\" or \"all.\" A casual, everyday word.\n\nPOLITENESS SCALE:\n- みんな: casual/informal\n- {皆|みな}さん: polite\n- {皆様|みなさま}: very polite/formal/honorific\n\nCOMMON PATTERNS:\n- みんなで: all together, with everyone\n- みんなに: to everyone\n- みんなが: everyone (subject)\n- みんなの: everyone's\n\nCOMMON EXPRESSIONS:\n- みんなで{行|い}こう: Let's all go together\n- みんな{知|し}っている: Everyone knows\n- みんなに{伝|つた}える: to tell everyone\n- みんなで{協力|きょうりょく}する: to cooperate together\n\nKANJI:\nCan also be written as {皆|みんな} with kanji, though hiragana is more common in casual writing.",
+  "notes": "みんな means \"everyone\" or \"all.\" A casual, everyday word.\n\nPOLITENESS SCALE:\n- みんな: casual/informal\n- ⟦{皆|みな}さん→皆さん：02971_minasan⟧: polite\n- ⟦{皆様|みなさま}→皆様：15860_minasama⟧: very polite/formal/honorific\n\nCOMMON PATTERNS:\n- みんな⟦で→で：00502_de⟧: all together, with everyone\n- みんな⟦に→に：00314_ni⟧: to everyone\n- みんな⟦が→が：00051_ga⟧: everyone (subject)\n- みんな⟦の→の：09472_no⟧: everyone's\n\nCOMMON EXPRESSIONS:\n- みんな⟦で→で：00502_de⟧⟦{行|い}こう→行く：00119_iku⟧: Let's all go together\n- みんな⟦{知|し}って→知る：00458_shiru⟧⟦いる→いる：00495_iru⟧: Everyone knows\n- みんな⟦に→に：00314_ni⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧: to tell everyone\n- みんな⟦で→で：00502_de⟧⟦{協力|きょうりょく}する→協力する：25370_kyouryokusuru⟧: to cooperate together\n\nKANJI:\nCan also be written as {皆|みんな} with kanji, though hiragana is more common in casual writing.",
   "prominent_see_also": [
     {
       "target_id": "01810_mina",
@@ -81,14 +81,15 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-23T13:13:36Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "politeness": "plain",
       "semantic": [
         "general"

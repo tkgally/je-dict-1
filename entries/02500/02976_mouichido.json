@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02976_mouichido_ex1",
-      "japanese": "もう{一度|いちど}{言|い}ってください。",
+      "japanese": "もう{一度|いちど}⟦{言|い}って→言う：00515_iu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please say it once more.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02976_mouichido_ex2",
-      "japanese": "もう{一度|いちど}{会|あ}いたいです。",
+      "japanese": "もう{一度|いちど}⟦{会|あ}いたい→会う：00482_au⟧⟦です→です：09485_desu⟧。",
       "english": "I want to meet again.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02976_mouichido_ex3",
-      "japanese": "もう{一度|いちど}{確認|かくにん}する。",
+      "japanese": "もう{一度|いちど}⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check once more.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02976_mouichido_ex4",
-      "japanese": "もう{一度|いちど}やり{直|なお}したい。",
+      "japanese": "もう{一度|いちど}⟦やり{直|なお}したい→やり直す：03172_yarinaosu⟧。",
       "english": "I want to do it over one more time.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02976_mouichido_ex5",
-      "japanese": "{分|わ}からなかったので、もう{一度|いちど}{先生|せんせい}に{聞|き}きました。",
+      "japanese": "⟦{分|わ}からなかった→分かる：00463_wakaru⟧⟦ので→ので：09501_node⟧、もう{一度|いちど}⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{聞|き}きました→聞く：00483_kiku⟧。",
       "english": "I didn't understand, so I asked the teacher once more.",
       "notes": null,
       "has_audio": false,
@@ -63,19 +63,17 @@
       ]
     }
   ],
-  "notes": "もう{一度|いちど} means \"once more\" or \"one more time.\" Very common in everyday conversation.\n\nCOMPONENTS:\n- もう: another, more, again\n- {一度|いちど}: one time\n\nCOMMON PATTERNS:\n- もう{一度|いちど}{言|い}ってください: Please say it again\n- もう{一度|いちど}{確認|かくにん}する: to check once more\n- もう{一度|いちど}だけ: just one more time\n- もう{一度|いちど}{最初|さいしょ}から: once more from the beginning\n\nSIMILAR EXPRESSIONS:\n- また: again (general repetition)\n- もう{一回|いっかい}: one more time (interchangeable, slightly more casual)\n- {再|ふたた}び: again (literary/formal)\n- {改|あらた}めて: anew, afresh (starting over)\n\nNUANCE:\nもう{一度|いちど} emphasizes \"one more\" specific attempt, while また suggests general repetition without counting.",
+  "notes": "もう{一度|いちど} means \"once more\" or \"one more time.\" Very common in everyday conversation.\n\nCOMPONENTS:\n- もう: another, more, again\n- {一度|いちど}: one time\n\nCOMMON PATTERNS:\n- もう{一度|いちど}⟦{言|い}って→言う：00515_iu⟧⟦ください→下さい：02899_kudasai⟧: Please say it again\n- もう{一度|いちど}⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧: to check once more\n- もう{一度|いちど}⟦だけ→〜だけ：03093_dake⟧: just one more time\n- もう{一度|いちど}⟦{最初|さいしょ}→最初：00882_saisho⟧⟦から→から：00504_kara⟧: once more from the beginning\n\nSIMILAR EXPRESSIONS:\n- ⟦また→また：00969_mata⟧: again (general repetition)\n- ⟦もう→もう：00602_mou⟧⟦{一回|いっかい}→一回：08925_ikkai⟧: one more time (interchangeable, slightly more casual)\n- ⟦{再|ふたた}び→再び：03600_futatabi⟧: again (literary/formal)\n- ⟦{改|あらた}めて→改めて：08526_aratamete⟧: anew, afresh (starting over)\n\nNUANCE:\nもう{一度|いちど} emphasizes \"one more\" specific attempt, while ⟦また→また：00969_mata⟧ suggests general repetition without counting.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-02-27T02:35:39Z",
+    "modified": "2026-05-23T13:13:36Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "adverb"
-      ],
-      "style": [
-        "literary"
       ],
       "formality": "neutral",
       "politeness": "plain",

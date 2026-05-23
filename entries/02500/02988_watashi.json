@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02988_watashi_ex1",
-      "japanese": "{私|わたし}は{学生|がくせい}です。",
+      "japanese": "{私|わたし}⟦は→は：00079_ha⟧⟦{学生|がくせい}→学生：00610_gakusei⟧⟦です→です：09485_desu⟧。",
       "english": "I am a student.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02988_watashi_ex2",
-      "japanese": "{私|わたし}の{名前|なまえ}は{山田|やまだ}です。",
+      "japanese": "{私|わたし}⟦の→の：09472_no⟧⟦{名前|なまえ}→名前：02234_namae⟧⟦は→は：00079_ha⟧⟦{山田|やまだ}→山田：noentry⟧⟦です→です：09485_desu⟧。",
       "english": "My name is Yamada.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02988_watashi_ex3",
-      "japanese": "{私|わたし}も{行|い}きたいです。",
+      "japanese": "{私|わたし}⟦も→も：00484_mo⟧⟦{行|い}きたい→行く：00119_iku⟧⟦です→です：09485_desu⟧。",
       "english": "I want to go too.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02988_watashi_ex4",
-      "japanese": "{私|わたし}が{作|つく}ったケーキを{食|た}べてください。",
+      "japanese": "{私|わたし}⟦が→が：00051_ga⟧⟦{作|つく}った→作る：00481_tsukuru⟧⟦ケーキ→ケーキ：01356_keeki⟧⟦を→を：00422_wo⟧⟦{食|た}べて→食べる：00396_taberu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please eat the cake I made.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02988_watashi_ex5",
-      "japanese": "{私|わたし}は{毎朝|まいあさ}6{時|じ}に{起|お}きて、{学校|がっこう}に{行|い}く{前|まえ}に{少|すこ}し{勉強|べんきょう}します。",
+      "japanese": "{私|わたし}⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧6⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧⟦{起|お}きて→起きる：00521_okiru⟧、⟦{学校|がっこう}→学校：00055_gakkou⟧⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{勉強|べんきょう}します→勉強する：00527_benkyousuru⟧。",
       "english": "I wake up at 6 every morning and study a little before going to school.",
       "notes": null,
       "has_audio": false,
@@ -63,19 +63,23 @@
       ]
     }
   ],
-  "notes": "{私|わたし} is the most standard and versatile first-person pronoun in Japanese, appropriate for nearly all situations. Used by both men and women.\n\nREADINGS:\n- わたし: standard polite form\n- わたくし: very formal (business, speeches, ceremonies)\n\nFIRST-PERSON PRONOUN HIERARCHY:\n- {私|わたくし}: very formal, both genders\n- {私|わたし}: polite/neutral, both genders (safest default)\n- あたし: casual, mainly female\n- {僕|ぼく}: casual, male (softer tone)\n- {俺|おれ}: very casual, male (rough/masculine)\n\nUSAGE NOTES:\n- In formal writing and business, {私|わたし} or {私|わたくし} is always appropriate\n- In casual conversation, men often switch to {僕|ぼく} or {俺|おれ}\n- Japanese often drops the subject entirely when context makes it clear, so {私|わたし} is used less frequently than \"I\" in English",
+  "notes": "{私|わたし} is the most standard and versatile first-person pronoun in Japanese, appropriate for nearly all situations. Used by both men and women.\n\nREADINGS:\n- わたし: standard polite form\n- わたくし: very formal (business, speeches, ceremonies)\n\nFIRST-PERSON PRONOUN HIERARCHY:\n- ⟦{私|わたくし}→私：02987_watakushi⟧: very formal, both genders\n- {私|わたし}: polite/neutral, both genders (safest default)\n- ⟦あたし→あたし：noentry⟧: casual, mainly female\n- ⟦{僕|ぼく}→僕：01729_boku⟧: casual, male (softer tone)\n- ⟦{俺|おれ}→俺：02185_ore⟧: very casual, male (rough/masculine)\n\nUSAGE NOTES:\n- In formal writing and business, {私|わたし} or ⟦{私|わたくし}→私：02987_watakushi⟧ is always appropriate\n- In casual conversation, men often switch to ⟦{僕|ぼく}→僕：01729_boku⟧ or ⟦{俺|おれ}→俺：02185_ore⟧\n- Japanese often drops the subject entirely when context makes it clear, so {私|わたし} is used less frequently than \"I\" in English",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-05-23T13:13:36Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "pronoun"
       ],
-      "formality": "formal",
-      "politeness": "plain"
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "general"
+      ]
     }
   },
   "prominent_see_also": [
