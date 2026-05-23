@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03027_kininaru_ex1",
-      "japanese": "{結果|けっか}が{気|き}になる。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{気|き}になる。",
       "english": "I'm worried about the results.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03027_kininaru_ex2",
-      "japanese": "あの{人|ひと}が{気|き}になる。",
+      "japanese": "⟦あの→あの：00915_ano⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{気|き}になる。",
       "english": "I'm interested in that person.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03027_kininaru_ex3",
-      "japanese": "{気|き}になることがある。",
+      "japanese": "{気|き}になる⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's something on my mind.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "03027_kininaru_ex4",
-      "japanese": "{隣|となり}の{部屋|へや}の{音|おと}が{気|き}になって{眠|ねむ}れない。",
+      "japanese": "⟦{隣|となり}→隣：01003_tonari⟧⟦の→の：09472_no⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧{気|き}になって⟦{眠|ねむ}れない→眠る：01181_nemuru⟧。",
       "english": "The noise from the next room bothers me and I can't sleep.",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "03027_kininaru_ex5",
-      "japanese": "{最近|さいきん}オープンした{店|みせ}が{気|き}になっているので、{今度|こんど}{行|い}ってみたい。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦オープン→オープン：noentry⟧⟦した→する：00392_suru⟧⟦{店|みせ}→店：00497_mise⟧⟦が→が：00051_ga⟧{気|き}になっている⟦ので→ので：09501_node⟧、⟦{今度|こんど}→今度：01327_kondo⟧⟦{行|い}ってみたい→行く：00119_iku⟧。",
       "english": "I'm curious about a shop that recently opened, so I want to try going there.",
       "notes": null,
       "has_audio": false,
@@ -153,11 +153,19 @@
       ]
     }
   ],
-  "notes": "{気|き}になる is an idiomatic expression meaning to be on one's mind or to bother someone.\n\nMEANINGS:\n1. To worry about: {結果|けっか}が{気|き}になる (worried about results)\n2. To be interested in: あの{人|ひと}が{気|き}になる (interested in that person)\n3. To be bothered by: {音|おと}が{気|き}になる (bothered by a sound)\n\nCONTRAST WITH {気|き}にする:\n- {気|き}になる: something weighs on your mind (unintentional)\n- {気|き}にする: to actively worry about or care about (intentional)\n\nNote: The subject is the thing that concerns you, marked with が.",
-  "cross_references": [],
+  "notes": "{気|き}になる is an idiomatic expression meaning to be on one's mind or to bother someone.\n\nMEANINGS:\n1. To worry about: ⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧{気|き}になる (worried about results)\n2. To be interested in: ⟦あの→あの：00915_ano⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧{気|き}になる (interested in that person)\n3. To be bothered by: ⟦{音|おと}→音：00743_oto⟧⟦が→が：00051_ga⟧{気|き}になる (bothered by a sound)\n\nCONTRAST WITH ⟦{気|き}にする→気にする：03026_kinisuru⟧:\n- {気|き}になる: something weighs on your mind (unintentional)\n- {気|き}にする: to actively worry about or care about (intentional)\n\nNote: The subject is the thing that concerns you, marked with ⟦が→が：00051_ga⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03026_kinisuru",
+      "reading": "きにする",
+      "headword": "{気|き}にする",
+      "label": "to mind, to care about (volitional)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-04-02T08:34:40Z",
+    "modified": "2026-05-23T15:11:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

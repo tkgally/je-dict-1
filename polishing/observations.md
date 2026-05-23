@@ -26,3 +26,11 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-05-21 session 007 have been harvested by the wiki maintenance session of 2026-05-22.)_
+
+## 2026-05-23 Session 003
+
+[pattern] Semantic tag "general" appears frequently across entries 03011–03035 where more specific tags apply (time-general, transportation, work, weather, etc.). This is a systematic quality gap; a targeted pass to replace "general" semantic tags would improve searchability.
+
+[pattern] Katakana words (メール, バス, ネット) are stored with hiragana readings in word_id_lookup.json (めーる, ばす, ねっと). Lookups for katakana headwords must use the `by_headword` key, not `by_reading` with the katakana string.
+
+[pattern] 03032 doukyuusei (同級生): examples 2 and 3 are nearly identical ("I ran into a high school classmate" vs "I met a classmate"). Needs a more diverse example set — one could be replaced with a context showing 同級生 used for reunion or nostalgia.
