@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-23 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch — third run)
+Added 22 new dictionary entries (IDs 27954-27975) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (21)**: ヘアブラシ (hairbrush), スポーツタオル (sports towel), ユーロ (euro), ポンド (British pound / pound weight — two senses), キャスター (newscaster / caster — two senses), レポーター (on-scene reporter), コメンテーター (commentator), ナレーター (narrator), {単車|たんしゃ} (motorcycle), {企画案|きかくあん} (project proposal), {改善案|かいぜんあん} (improvement proposal), キャリーバッグ (wheeled bag), ハンバーガー (hamburger), {飽|あ}き{飽|あ}き (being fed up, noun + verb-suru), {籾|もみ} (unhulled rice), {水稲|すいとう} (paddy rice), {鋤|すき} (spade/plow), スーパーコンピュータ (supercomputer), グラフィックス (graphics), {商学部|しょうがくぶ} (faculty of commerce), {二人乗|ふたりの}り (riding double)
+- **Verb (1)**: {怒|いか}る (to be angry — literary reading of 怒る, godan, intransitive)
+
+Removed stale candidate C20687 (細工 ざいく), a typo-reading duplicate of the existing entry {細工|さいく} (13790). Added two new kanji to the index: {籾|もみ} (02752) and {鋤|すき} (02753). All 22 entries validate; furigana check clean; conjugations added to {怒|いか}る and {飽|あ}き{飽|あ}きする.
+
 ### 2026-05-23 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch — later run)
 Added 25 new dictionary entries (IDs 27929-27953) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
