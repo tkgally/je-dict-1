@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03155_mama_ex1",
-      "japanese": "ママ、お{腹|なか}{空|す}いた。",
+      "japanese": "ママ、⟦お{腹|なか}→お腹：00805_onaka⟧⟦{空|す}いた→すく：00756_suku⟧。",
       "english": "Mom, I'm hungry.",
       "notes": "Child's speech",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03155_mama_ex2",
-      "japanese": "ママに{聞|き}いてみて。",
+      "japanese": "ママ⟦に→に：00314_ni⟧⟦{聞|き}いてみて→聞く：00483_kiku⟧。",
       "english": "Try asking mom.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03155_mama_ex3",
-      "japanese": "うちのママは{料理|りょうり}が{上手|じょうず}だ。",
+      "japanese": "⟦うち→うち：27540_uchi⟧⟦の→の：09472_no⟧ママ⟦は→は：00079_ha⟧⟦{料理|りょうり}→料理：01523_ryouri⟧⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦だ→だ：09496_da⟧。",
       "english": "My mom is good at cooking.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "LOANWORD from English \"mama.\"\n\nFAMILY TERMS FOR MOTHER:\n- ママ (mama - casual, children's speech)\n- お{母|かあ}さん (mother - polite, common)\n- お{袋|ふくろ} (mother - casual, typically male speakers)\n- {母|はは} (mother - humble, formal)\n- {母親|ははおや} (mother - neutral, objective)\n\nUSAGE: ママ is commonly used by young children. Some adults continue using it in casual family settings, while others switch to お{母|かあ}さん as they grow older.\n\nPAIR: パパ (papa, dad)",
+  "notes": "LOANWORD from English \"mama.\"\n\nFAMILY TERMS FOR MOTHER:\n- ママ (mama - casual, children's speech)\n- ⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ (mother - polite, common)\n- ⟦お{袋|ふくろ}→おふくろ：10246_ofukuro⟧ (mother - casual, typically male speakers)\n- ⟦{母|はは}→母：00549_haha⟧ (mother - humble, formal)\n- ⟦{母親|ははおや}→母親：03564_hahaoya⟧ (mother - neutral, objective)\n\nUSAGE: ママ is commonly used by young children. Some adults continue using it in casual family settings, while others switch to ⟦お{母|かあ}さん→お母さん：02851_okaasan⟧ as they grow older.\n\nPAIR: ⟦パパ→パパ：01788_papa⟧ (papa, dad)",
   "prominent_see_also": [
     {
       "target_id": "01788_papa",
@@ -63,15 +63,15 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:49:25Z",
-    "modified": "2026-04-07T05:56:34Z",
+    "modified": "2026-05-23T23:14:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "politeness": "humble",
+      "formality": "informal",
+      "politeness": "plain",
       "semantic": [
         "general"
       ]
