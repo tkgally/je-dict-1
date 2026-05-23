@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02989_jaa_ex1",
-      "japanese": "じゃあ、{行|い}こうか。",
+      "japanese": "じゃあ、⟦{行|い}こう→行く：00119_iku⟧⟦か→か：09473_ka⟧。",
       "english": "Well then, shall we go?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02989_jaa_ex2",
-      "japanese": "じゃあ、また{明日|あした}。",
+      "japanese": "じゃあ、⟦また→また：00969_mata⟧⟦{明日|あした}→明日：00501_ashita⟧。",
       "english": "Well then, see you tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02989_jaa_ex3",
-      "japanese": "じゃあね。",
+      "japanese": "じゃあ⟦ね→ね：09474_ne⟧。",
       "english": "See you!",
       "notes": "Very casual farewell",
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02989_jaa_ex4",
-      "japanese": "じゃあ、{私|わたし}はこれで{帰|かえ}ります。",
+      "japanese": "じゃあ、⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦これ→これ：00963_kore⟧⟦で→で：00502_de⟧⟦{帰|かえ}ります→帰る：00508_kaeru⟧。",
       "english": "Well then, I'll head home now.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02989_jaa_ex5",
-      "japanese": "{雨|あめ}が{降|ふ}っているの？じゃあ、{傘|かさ}を{持|も}っていこう。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}っている→降る：00839_furu⟧⟦の→の：09472_no⟧？じゃあ、⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}っていこう→持っていく：27431_motteiku⟧。",
       "english": "It's raining? Well then, let's take an umbrella.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "じゃあ is a casual contraction of では. One of the most commonly used words in spoken Japanese for transitions, conclusions, and farewells.\n\nFORMALITY SCALE:\n- では: formal (speeches, business)\n- それでは: polite (meetings, formal conversation)\n- じゃあ: casual (everyday conversation)\n- じゃ: even more casual\n\nMAIN FUNCTIONS:\n1. Transition: じゃあ、{始|はじ}めましょう (Well then, let's begin)\n2. Consequence: じゃあ、{傘|かさ}を{持|も}っていこう (Then let's take an umbrella)\n3. Farewell: じゃあね / じゃあ、また (See you! / See you later)\n\nNOTE:\nVery frequently used at the start of sentences. Almost never used in formal writing — use では or それでは instead.",
+  "notes": "じゃあ is a casual contraction of ⟦では→では：02945_deha⟧. One of the most commonly used words in spoken Japanese for transitions, conclusions, and farewells.\n\nFORMALITY SCALE:\n- ⟦では→では：02945_deha⟧: formal (speeches, business)\n- ⟦それでは→それでは：02944_soredeha⟧: polite (meetings, formal conversation)\n- じゃあ: casual (everyday conversation)\n- ⟦じゃ→じゃ：03040_ja⟧: even more casual\n\nMAIN FUNCTIONS:\n1. Transition: じゃあ、⟦{始|はじ}めましょう→始める：00531_hajimeru⟧ (Well then, let's begin)\n2. Consequence: じゃあ、⟦{傘|かさ}→傘：00639_kasa⟧⟦を→を：00422_wo⟧⟦{持|も}っていこう→持っていく：27431_motteiku⟧ (Then let's take an umbrella)\n3. Farewell: じゃあ⟦ね→ね：09474_ne⟧ / じゃあ、⟦また→また：00969_mata⟧ (See you! / See you later)\n\nNOTE:\nVery frequently used at the start of sentences. Almost never used in formal writing — use ⟦では→では：02945_deha⟧ or ⟦それでは→それでは：02944_soredeha⟧ instead.",
   "cross_references": [
     {
       "target_id": "02904_saa",
@@ -75,14 +75,14 @@
   ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-05-22T21:13:33Z",
+    "modified": "2026-05-23T14:08:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "interjection"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "politeness": "plain",
       "semantic": [
         "expression"

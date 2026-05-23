@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02997_koutougakkou_ex1",
-      "japanese": "{高等学校|こうとうがっこう}に{入学|にゅうがく}する。",
+      "japanese": "{高等学校|こうとうがっこう}⟦に→に：00314_ni⟧⟦{入学|にゅうがく}する→入学する：01851_nyuugakusuru⟧。",
       "english": "To enter high school.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02997_koutougakkou_ex2",
-      "japanese": "{高等学校|こうとうがっこう}を{卒業|そつぎょう}した。",
+      "japanese": "{高等学校|こうとうがっこう}⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}した→卒業：01643_sotsugyou⟧。",
       "english": "I graduated from high school.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02997_koutougakkou_ex3",
-      "japanese": "{兄|あに}は{県立|けんりつ}の{高等学校|こうとうがっこう}に{通|かよ}っている。",
+      "japanese": "⟦{兄|あに}→兄：00570_ani⟧⟦は→は：00079_ha⟧⟦{県立|けんりつ}→県立：21885_kenritsu⟧⟦の→の：09472_no⟧{高等学校|こうとうがっこう}⟦に→に：00314_ni⟧⟦{通|かよ}っている→通う：01217_kayou⟧。",
       "english": "My older brother attends a prefectural high school.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "02997_koutougakkou_ex4",
-      "japanese": "{高等学校|こうとうがっこう}の3{年間|ねんかん}はあっという{間|ま}だった。",
+      "japanese": "{高等学校|こうとうがっこう}⟦の→の：09472_no⟧3⟦{年間|ねんかん}→年間：00974_nenkan⟧⟦は→は：00079_ha⟧⟦あっという{間|ま}→あっという間：10426_attoiuma⟧⟦だった→だ：09496_da⟧。",
       "english": "The three years of high school flew by.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "02997_koutougakkou_ex5",
-      "japanese": "{日本|にほん}では{中学校|ちゅうがっこう}までが{義務|ぎむ}{教育|きょういく}で、{高等学校|こうとうがっこう}からは{任意|にんい}です。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦では→では：02945_deha⟧⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧⟦まで→まで：00490_made⟧⟦が→が：00051_ga⟧⟦{義務|ぎむ}→義務：02647_gimu⟧⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦で→で：00502_de⟧、{高等学校|こうとうがっこう}⟦から→から：00504_kara⟧⟦は→は：00079_ha⟧⟦{任意|にんい}→任意：16038_nini⟧⟦です→です：09485_desu⟧。",
       "english": "In Japan, education is compulsory through junior high, and high school is optional.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{高等学校|こうとうがっこう} is the formal term for high school (grades 10-12).\n\nABBREVIATION:\n- {高校|こうこう}: common abbreviation for {高等学校|こうとうがっこう}\n- 〜{高|こう}: suffix for school names (e.g., {都立|とりつ}A{高|こう})\n\nJAPAN SCHOOL SYSTEM:\n- {小学校|しょうがっこう}: elementary school (6 years)\n- {中学校|ちゅうがっこう}: junior high (3 years)\n- {高等学校|こうとうがっこう}: high school (3 years)\n\nNote: {高等学校|こうとうがっこう} is used in formal/official contexts; {高校|こうこう} is used in everyday speech.",
-  "cross_references": [],
+  "notes": "{高等学校|こうとうがっこう} is the formal term for high school (grades 10-12).\n\nABBREVIATION:\n- ⟦{高校|こうこう}→高校：01083_koukou⟧: common abbreviation for {高等学校|こうとうがっこう}\n- 〜⟦{高|こう}→高校：01083_koukou⟧: suffix for school names (e.g., ⟦{都立|とりつ}→都立：noentry⟧A⟦{高|こう}→高校：01083_koukou⟧)\n\nJAPAN SCHOOL SYSTEM:\n- ⟦{小学校|しょうがっこう}→小学校：01055_shougakkou⟧: elementary school (6 years)\n- ⟦{中学校|ちゅうがっこう}→中学校：01465_chuugakkou⟧: junior high (3 years)\n- {高等学校|こうとうがっこう}: high school (3 years)\n\nNote: {高等学校|こうとうがっこう} is used in formal/official contexts; ⟦{高校|こうこう}→高校：01083_koukou⟧ is used in everyday speech.",
+  "cross_references": [
+    {
+      "target_id": "01083_koukou",
+      "reading": "こうこう",
+      "headword": "高校",
+      "type": "related",
+      "note": "common abbreviation"
+    },
+    {
+      "target_id": "01465_chuugakkou",
+      "reading": "ちゅうがっこう",
+      "headword": "中学校",
+      "type": "related",
+      "note": "junior high school; previous level in school system"
+    },
+    {
+      "target_id": "01055_shougakkou",
+      "reading": "しょうがっこう",
+      "headword": "小学校",
+      "type": "related",
+      "note": "elementary school; earlier level in school system"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:33:28Z",
+    "modified": "2026-05-23T14:24:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "02991_ashioto_ex1",
-      "japanese": "{足音|あしおと}が{聞|き}こえる。",
+      "japanese": "{足音|あしおと}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧。",
       "english": "I can hear footsteps.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "02991_ashioto_ex2",
-      "japanese": "{足音|あしおと}を{立|た}てないで。",
+      "japanese": "{足音|あしおと}⟦を→を：00422_wo⟧⟦{立|た}てないで→立てる：01196_tateru⟧。",
       "english": "Don't make noise with your footsteps.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "02991_ashioto_ex3",
-      "japanese": "{夜中|よなか}に{廊下|ろうか}で{足音|あしおと}がして、{目|め}が{覚|さ}めた。",
+      "japanese": "⟦{夜中|よなか}→夜中：01008_yonaka⟧⟦に→に：00314_ni⟧⟦{廊下|ろうか}→廊下：05005_rouka⟧⟦で→で：00502_de⟧{足音|あしおと}⟦が→が：00051_ga⟧⟦して→する：00392_suru⟧、⟦{目|め}→目：00525_me⟧⟦が→が：00051_ga⟧⟦{覚|さ}めた→覚める：02058_sameru⟧。",
       "english": "I heard footsteps in the hallway in the middle of the night and woke up.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{足音|あしおと} is a compound of {足|あし} (foot) + {音|おと} (sound).\n\nCOMMON PATTERNS:\n- {足音|あしおと}が{聞|き}こえる (hear footsteps)\n- {足音|あしおと}を{立|た}てる (make footstep sounds)\n- {足音|あしおと}を{忍|しの}ばせる (muffle one's footsteps)\n\nNOTE: Often used in context of detecting someone approaching or describing quiet/loud walking.",
-  "cross_references": [],
+  "notes": "{足音|あしおと} is a compound of ⟦{足|あし}→足：00575_ashi⟧ (foot) + ⟦{音|おと}→音：00743_oto⟧ (sound).\n\nCOMMON PATTERNS:\n- {足音|あしおと}⟦が→が：00051_ga⟧⟦{聞|き}こえる→聞こえる：01229_kikoeru⟧ (hear footsteps)\n- {足音|あしおと}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (make footstep sounds)\n- {足音|あしおと}⟦を→を：00422_wo⟧⟦{忍|しの}ばせる→忍ばせる：12680_shinobaseru⟧ (muffle one's footsteps)\n\nNOTE: Often used in context of detecting someone approaching or describing quiet/loud walking.",
+  "cross_references": [
+    {
+      "target_id": "00575_ashi",
+      "reading": "あし",
+      "headword": "足",
+      "type": "related",
+      "note": "component: foot/leg"
+    },
+    {
+      "target_id": "00743_oto",
+      "reading": "おと",
+      "headword": "音",
+      "type": "related",
+      "note": "component: sound"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:41:41Z",
-    "modified": "2026-02-27T10:33:28Z",
+    "modified": "2026-05-23T14:12:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
