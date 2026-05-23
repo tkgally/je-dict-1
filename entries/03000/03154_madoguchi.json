@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "03154_madoguchi_ex1",
-      "japanese": "{窓口|まどぐち}で{切符|きっぷ}を{買|か}った。",
+      "japanese": "{窓口|まどぐち}⟦で→で：00502_de⟧⟦{切符|きっぷ}→切符：00643_kippu⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a ticket at the counter.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "03154_madoguchi_ex2",
-      "japanese": "{三番|さんばん}{窓口|まどぐち}にお{越|こ}しください。",
+      "japanese": "⟦{三番|さんばん}→三番：noentry⟧{窓口|まどぐち}⟦に→に：00314_ni⟧⟦お{越|こ}しください→越す：02282_kosu⟧。",
       "english": "Please come to counter number 3.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "03154_madoguchi_ex3",
-      "japanese": "{銀行|ぎんこう}の{窓口|まどぐち}で{手続|てつづ}きをする。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{窓口|まどぐち}⟦で→で：00502_de⟧⟦{手続|てつづ}き→手続き：05453_tetsuzuki⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To do the paperwork at the bank counter.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "03154_madoguchi_ex4",
-      "japanese": "お{客様|きゃくさま}{窓口|まどぐち}にお{問|と}い{合|あ}わせください。",
+      "japanese": "⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧{窓口|まどぐち}⟦に→に：00314_ni⟧⟦お{問|と}い{合|あ}わせください→問い合わせ：06131_toiawase⟧。",
       "english": "Please inquire at customer service.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "03154_madoguchi_ex5",
-      "japanese": "{田中|たなか}さんがこのプロジェクトの{窓口|まどぐち}です。",
+      "japanese": "{田中|たなか}さん⟦が→が：00051_ga⟧⟦この→この：00962_kono⟧⟦プロジェクト→プロジェクト：noentry⟧⟦の→の：09472_no⟧{窓口|まどぐち}⟦です→です：09485_desu⟧。",
       "english": "Mr. Tanaka is the contact person for this project.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "03154_madoguchi_ex6",
-      "japanese": "{苦情|くじょう}の{窓口|まどぐち}はどこですか。",
+      "japanese": "⟦{苦情|くじょう}→苦情：00252_kujou⟧⟦の→の：09472_no⟧{窓口|まどぐち}⟦は→は：00079_ha⟧⟦どこ→どこ：00539_doko⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Where is the complaints contact point?",
       "notes": null,
       "has_audio": false,
@@ -78,11 +78,11 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {窓|まど} (window) + {口|ぐち} (opening, mouth)\n\nCOMMON TYPES:\n- {切符|きっぷ}の{窓口|まどぐち} (ticket counter)\n- {銀行|ぎんこう}の{窓口|まどぐち} (bank counter)\n- {受付|うけつけ}{窓口|まどぐち} (reception counter)\n- お{客様|きゃくさま}{窓口|まどぐち} (customer service)\n- {相談|そうだん}{窓口|まどぐち} (consultation counter)\n\nMODERN CONTEXT: While many transactions have moved online, {窓口|まどぐち} services remain important for complex transactions and for those who prefer face-to-face service.",
+  "notes": "COMPOUND: ⟦{窓|まど}→窓：02254_mado⟧ (window) + ⟦{口|ぐち}→口：00560_kuchi⟧ (opening, mouth)\n\nCOMMON TYPES:\n- ⟦{切符|きっぷ}→切符：00643_kippu⟧⟦の→の：09472_no⟧{窓口|まどぐち} (ticket counter)\n- ⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦の→の：09472_no⟧{窓口|まどぐち} (bank counter)\n- ⟦{受付|うけつけ}→受付：01325_uketsuke⟧{窓口|まどぐち} (reception counter)\n- ⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧{窓口|まどぐち} (customer service)\n- ⟦{相談|そうだん}→相談：02089_soudan⟧{窓口|まどぐち} (consultation counter)\n\nMODERN CONTEXT: While many transactions have moved online, {窓口|まどぐち} services remain important for complex transactions and for those who prefer face-to-face service.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-11T12:28:58Z",
-    "modified": "2026-02-27T12:58:35Z",
+    "modified": "2026-05-23T23:14:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -92,7 +92,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "location",
+        "service"
       ]
     }
   }
