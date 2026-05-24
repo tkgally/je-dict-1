@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-24 (Vocabulary Expansion - 22 New Entries)
+Added 22 new dictionary entries (IDs 28023-28044) from `candidate_words.json`. No "seen in entry" candidates remained, so candidates were drawn from the older unprocessed list, skipping the many noisy fragments and dubious-gloss entries in favor of clean, useful words. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (19)**: ギリシャヨーグルト (Greek yogurt), インフルエンザワクチン (flu vaccine), タクシー{運転手|うんてんしゅ} (taxi driver), バイキング{形式|けいしき} (buffet style), エネルギー{資源|しげん} (energy resources), {必需物資|ひつじゅぶっし} (essential supplies), {先発隊|せんぱつたい} (advance party), {戦前派|せんぜんは} (prewar generation), クロロフィル (chlorophyll), {艦載機|かんさいき} (carrier-based aircraft), {幾何平均|きかへいきん} (geometric mean), {杖術|じょうじゅつ} (jojutsu/staff fighting), {窃視|せっし} (voyeurism), {横断面|おうだんめん} (cross section), {美肌効果|びはだこうか} (skin-beautifying effect), {美白剤|びはくざい} (skin-whitening agent), {発生頻度|はっせいひんど} (frequency of occurrence), {通算成績|つうさんせいせき} (career stats), {燃料油|ねんりょうゆ} (fuel oil)
+- **Expressions (3)**: {一瞬|いっしゅん}で (in an instant), {遠|とお}い{将来|しょうらい} (the distant future), つい{昨日|きのう} (just yesterday)
+
+All 22 entries validate; furigana check clean; no new kanji; no verbs/i-adjectives needing conjugation tables. Candidate list synced.
+
 ### 2026-05-24 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
 Added 23 new dictionary entries (IDs 28000-28022) from `candidate_words.json`, drawn from the newest candidates (most flagged "seen in entry" — words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
