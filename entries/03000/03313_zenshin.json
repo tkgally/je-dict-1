@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03313_zenshin_ex1",
-      "japanese": "{全身|ぜんしん}が{痛|いた}い。",
+      "japanese": "{全身|ぜんしん}⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "My whole body hurts.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03313_zenshin_ex2",
-      "japanese": "{全身|ぜんしん}{鏡|かがみ}で{確認|かくにん}した。",
+      "japanese": "{全身|ぜんしん}⟦{鏡|かがみ}→鏡：02190_kagami⟧⟦で→で：00502_de⟧⟦{確認|かくにん}した→確認する：00158_kakunin⟧。",
       "english": "I checked in the full-length mirror.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03313_zenshin_ex3",
-      "japanese": "{全身|ぜんしん}の{力|ちから}を{込|こ}めて{投|な}げた。",
+      "japanese": "{全身|ぜんしん}⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧⟦を→を：00422_wo⟧⟦{込|こ}めて→込める：01945_komeru⟧⟦{投|な}げた→投げる：01135_nageru⟧。",
       "english": "I threw with all my might.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03313_zenshin_ex4",
-      "japanese": "{雨|あめ}に{降|ふ}られて{全身|ぜんしん}びしょ{濡|ぬ}れになった。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦に→に：00314_ni⟧⟦{降|ふ}られて→降る：00839_furu⟧{全身|ぜんしん}⟦びしょ→びしょ：noentry⟧⟦{濡|ぬ}れ→濡れる：00800_nureru⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "I got caught in the rain and was soaked from head to toe.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03313_zenshin_ex5",
-      "japanese": "{運動|うんどう}した{後|あと}は{全身|ぜんしん}の{筋肉|きんにく}が{疲|つか}れて、{動|うご}くのもつらかった。",
+      "japanese": "⟦{運動|うんどう}した→運動する：00821_undou⟧⟦{後|あと}→後：09580_ato⟧⟦は→は：00079_ha⟧{全身|ぜんしん}⟦の→の：09472_no⟧⟦{筋肉|きんにく}→筋肉：02646_kinniku⟧⟦が→が：00051_ga⟧⟦{疲|つか}れて→疲れる：00901_tsukareru⟧、⟦{動|うご}く→動く：00904_ugoku⟧⟦の→の：09472_no⟧⟦も→も：00484_mo⟧⟦つらかった→つらい：01112_tsurai⟧。",
       "english": "After exercising, my whole body's muscles were tired, and it was hard even to move.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{全身|ぜんしん} refers to the entire body.\n\nCOMMON COLLOCATIONS:\n- {全身|ぜんしん}{鏡|かがみ} (full-length mirror)\n- {全身|ぜんしん}{麻酔|ますい} (general anesthesia)\n- {全身|ぜんしん}{写真|しゃしん} (full-body photo)\n- {全身|ぜんしん}の{力|ちから} (all one's strength)\n- {全身|ぜんしん}{運動|うんどう} (full-body exercise)\n- {全身|ぜんしん}ずぶ{濡|ぬ}れ (soaked from head to toe)\n\nHOMOPHONE:\n{全身|ぜんしん} (whole body) vs {前進|ぜんしん} (advance) - same reading, different meaning.",
+  "notes": "{全身|ぜんしん} refers to the entire body.\n\nCOMMON COLLOCATIONS:\n- {全身|ぜんしん}⟦{鏡|かがみ}→鏡：02190_kagami⟧ (full-length mirror)\n- {全身|ぜんしん}⟦{麻酔|ますい}→麻酔：10581_masui⟧ (general anesthesia)\n- {全身|ぜんしん}⟦{写真|しゃしん}→写真：00753_shashin⟧ (full-body photo)\n- {全身|ぜんしん}⟦の→の：09472_no⟧⟦{力|ちから}→力：01661_chikara⟧ (all one's strength)\n- {全身|ぜんしん}⟦{運動|うんどう}→運動：00821_undou⟧ (full-body exercise)\n- {全身|ぜんしん}ずぶ⟦{濡|ぬ}れ→濡れる：00800_nureru⟧ (soaked from head to toe)\n\nHOMOPHONE:\n{全身|ぜんしん} (whole body) vs ⟦{前進|ぜんしん}→前進：03758_zenshin⟧ (advance) - same reading, different meaning.",
   "cross_references": [
     {
       "type": "related",
@@ -73,10 +73,19 @@
       "label": "body (formal)"
     }
   ],
+  "prominent_see_also": [
+    {
+      "target_id": "11910_zenshin",
+      "reading": "ぜんしん",
+      "headword": "{前身|ぜんしん}",
+      "note": "predecessor"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T01:13:15Z",
-    "modified": "2026-04-02T09:04:24Z",
+    "modified": "2026-05-24T21:27:48Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
@@ -85,16 +94,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "transportation"
+        "general"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "11910_zenshin",
-      "reading": "ぜんしん",
-      "headword": "{前身|ぜんしん}",
-      "note": "predecessor"
-    }
-  ]
+  }
 }

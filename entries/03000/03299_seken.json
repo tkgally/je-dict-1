@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03299_seken_ex1",
-      "japanese": "{世間|せけん}は{狭|せま}いものだ。",
+      "japanese": "{世間|せけん}⟦は→は：00079_ha⟧⟦{狭|せま}い→狭い：00750_semai⟧⟦もの→もの：02259_mono⟧⟦だ→だ：09496_da⟧。",
       "english": "It's a small world.",
       "notes": "Common expression when unexpectedly meeting someone",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03299_seken_ex2",
-      "japanese": "{世間|せけん}の{目|め}を{気|き}にしすぎる。",
+      "japanese": "{世間|せけん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧⟦を→を：00422_wo⟧⟦{気|き}にし→気にする：03026_kinisuru⟧⟦すぎる→すぎる：01219_sugiru⟧。",
       "english": "You worry too much about what others think.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03299_seken_ex3",
-      "japanese": "{世間|せけん}{知|し}らずだと{言|い}われた。",
+      "japanese": "{世間|せけん}⟦{知|し}らず→知る：00458_shiru⟧⟦だ→だ：09496_da⟧⟦と→と：00512_to⟧⟦{言|い}われた→言う：00515_iu⟧。",
       "english": "I was told I don't know the ways of the world.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{世間|せけん} refers to society as experienced personally, emphasizing social perception and opinion.\n\nCOMMON EXPRESSIONS:\n- {世間|せけん}は{狭|せま}い (It's a small world)\n- {世間|せけん}の{目|め} (public eye, what people think)\n- {世間|せけん}{体|てい} (keeping up appearances)\n- {世間|せけん}{話|ばなし} (small talk, gossip)\n- {世間|せけん}{知|し}らず (naïve, ignorant of the world)\n\nCOMPARISON:\n- {世間|せけん}: society (personal sphere, social judgment)\n- {社会|しゃかい}: society (formal, institutional)\n- {世界|せかい}: world (global, physical world)",
+  "notes": "{世間|せけん} refers to society as experienced personally, emphasizing social perception and opinion.\n\nCOMMON EXPRESSIONS:\n- {世間|せけん}⟦は→は：00079_ha⟧⟦{狭|せま}い→狭い：00750_semai⟧ (It's a small world)\n- {世間|せけん}⟦の→の：09472_no⟧⟦{目|め}→目：00525_me⟧ (public eye, what people think)\n- ⟦{世間|せけん}{体|てい}→世間体：09157_sekentei⟧ (keeping up appearances)\n- ⟦{世間|せけん}{話|ばなし}→世間話：07021_sekenbanashi⟧ (small talk, gossip)\n- ⟦{世間|せけん}{知|し}らず→世間知らず：22674_sekenshirazu⟧ (naïve, ignorant of the world)\n\nCOMPARISON:\n- {世間|せけん}: society (personal sphere, social judgment)\n- ⟦{社会|しゃかい}→社会：01427_shakai⟧: society (formal, institutional)\n- ⟦{世界|せかい}→世界：01447_sekai⟧: world (global, physical world)",
   "cross_references": [
     {
       "type": "contrast",
@@ -51,18 +51,26 @@
       "headword": "{社会|しゃかい}",
       "label": "society (formal)",
       "target_id": "01427_shakai"
+    },
+    {
+      "type": "contrast",
+      "reading": "せかい",
+      "headword": "{世界|せかい}",
+      "label": "world (broader scope)",
+      "target_id": "01447_sekai"
     }
   ],
   "metadata": {
     "created": "2026-01-12T01:12:05Z",
-    "modified": "2026-01-19T12:17:42.184902Z",
+    "modified": "2026-05-24T21:08:47Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "general"
