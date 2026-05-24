@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-24 (Vocabulary Expansion - 24 New Entries)
+Added 24 new dictionary entries (IDs 27976-27999) from `candidate_words.json`, drawn from the newest candidates (many flagged "seen in entry" — words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (17)**: {天国|てんごく} (heaven/paradise), {半日|はんにち} (half a day), {生姜焼|しょうがや}き (ginger pork), エキスパート (expert), {空域|くういき} (airspace), {海沿|うみぞ}い (along the coast), {冊数|さっすう} (number of books), {毎週末|まいしゅうまつ} (every weekend), {一昨夜|いっさくや} (the night before last), {都立|とりつ} (metropolitan-run), {夫婦喧嘩|ふうふげんか} (marital quarrel), {将校|しょうこう} (military officer), {自衛官|じえいかん} (SDF member), {私事|わたくしごと} (private matter), ディナー (dinner), {平方|へいほう} (square), {筆|ふで}ペン (brush pen)
+- **Counter (1)**: {坪|つぼ} (tsubo, unit of area ~3.3 m²)
+- **Na-adjective (1)**: {遅|おそ}め (somewhat late)
+- **Pre-noun adjectival (1)**: {見知|みし}らぬ (unfamiliar/unknown)
+- **Verbs (4)**: {降|ふ}り{止|や}む (to stop raining, godan, intransitive), ぎょっとする (to be startled, suru), {更新|こうしん}する (to update/renew/break a record, suru), {着火|ちゃっか}する (to ignite, suru)
+
+Added one new kanji to the index: {坪|つぼ} (02754). All 24 entries validate; furigana check clean; conjugations added to the four verbs. Candidate list synced (1753→1729).
+
 ### 2026-05-23 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch — third run)
 Added 22 new dictionary entries (IDs 27954-27975) from `candidate_words.json`, drawn from "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
