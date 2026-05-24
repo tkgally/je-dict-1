@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03306_sentaku_ex1",
-      "japanese": "{難|むずか}しい{選択|せんたく}を{迫|せま}られた。",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧{選択|せんたく}⟦を→を：00422_wo⟧⟦{迫|せま}られた→迫る：03928_semaru⟧。",
       "english": "I was forced to make a difficult choice.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03306_sentaku_ex2",
-      "japanese": "{選択|せんたく}{肢|し}が{多|おお}すぎる。",
+      "japanese": "⟦{選択|せんたく}{肢|し}→選択肢：14418_sentakushi⟧⟦が→が：00051_ga⟧⟦{多|おお}→多い：01127_ooi⟧⟦すぎる→すぎる：01219_sugiru⟧。",
       "english": "There are too many options.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03306_sentaku_ex3",
-      "japanese": "これが{最良|さいりょう}の{選択|せんたく}だと{思|おも}う。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦が→が：00051_ga⟧⟦{最良|さいりょう}→最良：18491_sairyou⟧⟦の→の：09472_no⟧{選択|せんたく}⟦だ→だ：09496_da⟧⟦と→と：00512_to⟧⟦{思|おも}う→思う：00492_omou⟧。",
       "english": "I think this is the best choice.",
       "notes": null,
       "has_audio": false,
@@ -43,12 +43,29 @@
       ]
     }
   ],
-  "notes": "{選択|せんたく}する is used as a する-verb meaning \"to choose\" or \"to select.\"\n\nCOMMON COLLOCATIONS:\n- {選択|せんたく}する (to select, to choose)\n- {選択|せんたく}{肢|し} (option, alternative)\n- {選択|せんたく}の{余地|よち} (room for choice)\n- {選択|せんたく}{科目|かもく} (elective subject)\n- {選択|せんたく}を{迫|せま}られる (to be forced to choose)\n\nHOMOPHONE NOTE:\n{選択|せんたく} (selection) vs {洗濯|せんたく} (laundry) - same reading, different kanji and meaning.",
-  "cross_references": [],
+  "notes": "{選択|せんたく}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to choose\" or \"to select.\"\n\nCOMMON COLLOCATIONS:\n- {選択|せんたく}⟦する→する：00392_suru⟧ (to select, to choose)\n- ⟦{選択|せんたく}{肢|し}→選択肢：14418_sentakushi⟧ (option, alternative)\n- {選択|せんたく}⟦の→の：09472_no⟧⟦{余地|よち}→余地：07612_yochi⟧ (room for choice)\n- {選択|せんたく}⟦{科目|かもく}→科目：00163_kamoku⟧ (elective subject)\n- {選択|せんたく}⟦を→を：00422_wo⟧⟦{迫|せま}られる→迫る：03928_semaru⟧ (to be forced to choose)\n\nHOMOPHONE NOTE:\n{選択|せんたく} (selection) vs ⟦{洗濯|せんたく}→洗濯：13283_sentaku⟧ (laundry) - same reading, different kanji and meaning.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14418_sentakushi",
+      "reading": "せんたくし",
+      "headword": "{選択肢|せんたくし}",
+      "label": "option, alternative"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "13283_sentaku",
+      "reading": "せんたく",
+      "headword": "{洗濯|せんたく}",
+      "note": "laundry"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T01:12:40Z",
-    "modified": "2026-01-19T12:17:42.189469Z",
+    "modified": "2026-05-24T21:17:06Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -60,13 +77,5 @@
         "general"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "13283_sentaku",
-      "reading": "せんたく",
-      "headword": "{洗濯|せんたく}",
-      "note": "laundry"
-    }
-  ]
+  }
 }

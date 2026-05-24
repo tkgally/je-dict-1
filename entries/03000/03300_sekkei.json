@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03300_sekkei_ex1",
-      "japanese": "{建物|たてもの}の{設計|せっけい}を{担当|たんとう}した。",
+      "japanese": "⟦{建物|たてもの}→建物：01458_tatemono⟧⟦の→の：09472_no⟧{設計|せっけい}⟦を→を：00422_wo⟧⟦{担当|たんとう}した→担当する：02567_tantou⟧。",
       "english": "I was in charge of the building's design.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03300_sekkei_ex2",
-      "japanese": "{設計|せっけい}{図|ず}を{確認|かくにん}してください。",
+      "japanese": "{設計|せっけい}⟦{図|ず}→図：03368_zu⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}して→確認する：00158_kakunin⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please check the design drawing.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03300_sekkei_ex3",
-      "japanese": "この{製品|せいひん}は{日本|にほん}で{設計|せっけい}された。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{製品|せいひん}→製品：01445_seihin⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦で→で：00502_de⟧{設計|せっけい}⟦された→する：00392_suru⟧。",
       "english": "This product was designed in Japan.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{設計|せっけい}する is used as a する-verb meaning \"to design.\"\n\nCOMMON COLLOCATIONS:\n- {設計|せっけい}{図|ず} (blueprint, design drawing)\n- {設計|せっけい}{者|しゃ} (designer, architect)\n- {建築|けんちく}{設計|せっけい} (architectural design)\n- {設計|せっけい}{事務所|じむしょ} (design office)\n- {回路|かいろ}{設計|せっけい} (circuit design)\n\nCOMPARISON:\n- {設計|せっけい}: design (technical, engineering)\n- デザイン: design (visual, aesthetic)\n- {計画|けいかく}: plan (general)",
+  "notes": "{設計|せっけい}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to design.\"\n\nCOMMON COLLOCATIONS:\n- {設計|せっけい}⟦{図|ず}→図：03368_zu⟧ (blueprint, design drawing)\n- ⟦{設計|せっけい}{者|しゃ}→設計者：23284_sekkeisha⟧ (designer, architect)\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧{設計|せっけい} (architectural design)\n- {設計|せっけい}⟦{事務所|じむしょ}→事務所：01032_jimusho⟧ (design office)\n- ⟦{回路|かいろ}→回路：12038_kairo⟧{設計|せっけい} (circuit design)\n\nCOMPARISON:\n- {設計|せっけい}: design (technical, engineering)\n- ⟦デザイン→デザイン：03860_dezain⟧: design (visual, aesthetic)\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧: plan (general)",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,8 +55,9 @@
   ],
   "metadata": {
     "created": "2026-01-12T01:12:10Z",
-    "modified": "2026-04-03T00:02:52Z",
+    "modified": "2026-05-24T21:10:50Z",
     "ai_model": "claude-opus-4-5",
+    "schema_version": "2.0",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
@@ -68,9 +69,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "communication",
-        "education",
-        "transportation"
+        "general"
       ]
     }
   }
