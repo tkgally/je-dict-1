@@ -48,6 +48,7 @@ Added full inline word links (⟦...⟧) to all Japanese text in examples and no
 ## Issues found
 
 - Note: PR #2449 on another branch covers 03211–03230; started from 03231 to avoid conflicts.
+- CI note: pipeline/wait-for-pr-checks.sh returned exit 4 (no check-runs registered on PR #2450 head SHA after 600s timeout); PR left open for curator review.
 - Several entries had wrong semantic tags ("electronics", "body-part", "geography") — all corrected to "general".
 - 03231: removed antonym cross-ref for 正夜 (no entry in dictionary).
 - 03243: spurious furigana `{つける|つける}` on plain hiragana word — removed.
