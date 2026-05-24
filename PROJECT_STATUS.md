@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-24 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
+Added 23 new dictionary entries (IDs 28000-28022) from `candidate_words.json`, drawn from the newest candidates (most flagged "seen in entry" — words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (21)**: {食事券|しょくじけん} (meal voucher), {旅行券|りょこうけん} (travel voucher), {赤旗|あかはた} (red flag), {犬猿|けんえん} (dog and monkey — bitter enemies), {赤土|あかつち} (red clay/soil), {足長蜂|あしながばち} (paper wasp), かゆみ{止|ど}め (anti-itch medicine), {母性愛|ぼせいあい} (maternal love), インスタ (Instagram), {脇芽|わきめ} (side shoot), {絵描|えか}き (painter), {閉所|へいしょ} (enclosed space), {梵鐘|ぼんしょう} (temple bell), {軽度|けいど} (mild — noun/adjective-no), {煙霧|えんむ} (haze/smog), {公用|こうよう} (official use), {国語力|こくごりょく} (Japanese language ability), {会期|かいき} (legislative session), {最中|もなか} (monaka sweet), {白地図|はくちず} (blank map), {自由研究|じゆうけんきゅう} (independent study project)
+- **Noun + verb-suru (2)**: {授受|じゅじゅ} (giving and receiving), {全治|ぜんち} (complete recovery)
+
+Removed stale candidate C20998 ({農作物|のうさくもつ}), a variant-reading duplicate of the existing entry {農作物|のうさくぶつ} (15271). Added one new kanji to the index: {梵|ぼん} (02755). All 23 entries validate; furigana check clean (no verbs/i-adjectives needing conjugation tables). Candidate list synced (1729→1705).
+
 ### 2026-05-24 (Vocabulary Expansion - 24 New Entries)
 Added 24 new dictionary entries (IDs 27976-27999) from `candidate_words.json`, drawn from the newest candidates (many flagged "seen in entry" — words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
