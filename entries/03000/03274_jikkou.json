@@ -2,7 +2,7 @@
   "id": "03274_jikkou",
   "headword": "{実行|じっこう}",
   "reading": "じっこう",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru-verb",
   "gloss": "execution, implementation",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03274_jikkou_ex1",
-      "japanese": "{計画|けいかく}を{実行|じっこう}に{移|うつ}した。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{実行|じっこう}⟦に→に：00314_ni⟧⟦{移|うつ}した→移す：10122_utsusu⟧。",
       "english": "I put the plan into action.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03274_jikkou_ex2",
-      "japanese": "{言|い}ったことは{必|かなら}ず{実行|じっこう}する。",
+      "japanese": "⟦{言|い}った→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦は→は：00079_ha⟧⟦{必|かなら}ず→必ず：01249_kanarazu⟧{実行|じっこう}⟦する→する：00392_suru⟧。",
       "english": "I always follow through on what I say.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03274_jikkou_ex3",
-      "japanese": "プログラムを{実行|じっこう}してください。",
+      "japanese": "⟦プログラム→プログラム：01540_puroguramu⟧⟦を→を：00422_wo⟧{実行|じっこう}⟦して→する：00392_suru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please execute the program.",
       "notes": "Used in computing contexts",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{実行|じっこう}する is used as a する-verb meaning \"to execute\" or \"to carry out.\"\n\nCOMMON COLLOCATIONS:\n- {実行|じっこう}する (to execute, to carry out)\n- {実行|じっこう}に{移|うつ}す (to put into action)\n- {実行|じっこう}{力|りょく} (ability to act, executive ability)\n- {実行|じっこう}{委員|いいん}{会|かい} (executive committee)\n- {実行|じっこう}{中|ちゅう} (in progress, executing)\n\nCOMPUTING:\nIn computer science, {実行|じっこう} means \"to run\" or \"execute\" a program.",
+  "notes": "{実行|じっこう}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to execute\" or \"to carry out.\"\n\nCOMMON COLLOCATIONS:\n- {実行|じっこう}⟦する→する：00392_suru⟧ (to execute, to carry out)\n- {実行|じっこう}⟦に→に：00314_ni⟧⟦{移|うつ}す→移す：10122_utsusu⟧ (to put into action)\n- {実行|じっこう}⟦{力|りょく}→力：noentry⟧ (ability to act, executive ability)\n- {実行|じっこう}⟦{委員|いいん}{会|かい}→委員会：12234_iinkai⟧ (executive committee)\n- {実行|じっこう}⟦{中|ちゅう}→〜中：09840_chuu⟧ (in progress, executing)\n\nCOMPUTING:\nIn computer science, {実行|じっこう} means \"to run\" or \"execute\" a program.",
   "cross_references": [
     {
       "type": "related",
@@ -55,18 +55,20 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:56:15Z",
-    "modified": "2026-01-19T12:17:42.166344Z",
+    "modified": "2026-05-24T19:07:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
-      ]
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }

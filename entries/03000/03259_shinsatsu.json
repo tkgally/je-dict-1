@@ -2,7 +2,7 @@
   "id": "03259_shinsatsu",
   "headword": "{診察|しんさつ}",
   "reading": "しんさつ",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru-verb",
   "gloss": "medical examination",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03259_shinsatsu_ex1",
-      "japanese": "{診察|しんさつ}{室|しつ}でお{待|ま}ちください。",
+      "japanese": "⟦{診察|しんさつ}{室|しつ}→診察室：15666_shinsatsushitsu⟧⟦で→で：00502_de⟧⟦お{待|ま}ち→待つ：00469_matsu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please wait in the examination room.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03259_shinsatsu_ex2",
-      "japanese": "{先生|せんせい}が{丁寧|ていねい}に{診察|しんさつ}してくださった。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦が→が：00051_ga⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧{診察|しんさつ}⟦して→する：00392_suru⟧⟦くださった→くださる：01305_kudasaru⟧。",
       "english": "The doctor examined me carefully.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03259_shinsatsu_ex3",
-      "japanese": "{午前|ごぜん}{中|ちゅう}に{診察|しんさつ}の{予約|よやく}を{取|と}った。",
+      "japanese": "⟦{午前|ごぜん}{中|ちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧{診察|しんさつ}⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧。",
       "english": "I made an appointment for a morning examination.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{診察|しんさつ}する is used as a する-verb meaning \"to examine (a patient).\"\n\nCOMMON COLLOCATIONS:\n- {診察|しんさつ}を{受|う}ける (to receive an examination)\n- {診察|しんさつ}{室|しつ} (examination room)\n- {診察|しんさつ}{時間|じかん} (consultation hours)\n- {診察|しんさつ}{券|けん} (patient registration card)\n- {診察|しんさつ}{料|りょう} (consultation fee)\n\nRELATED MEDICAL TERMS:\n- {初診|しょしん} (first visit/examination)\n- {再診|さいしん} (follow-up visit)\n- {問診|もんしん} (medical interview)",
+  "notes": "{診察|しんさつ}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to examine (a patient).\"\n\nCOMMON COLLOCATIONS:\n- {診察|しんさつ}⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧ (to receive an examination)\n- ⟦{診察|しんさつ}{室|しつ}→診察室：15666_shinsatsushitsu⟧ (examination room)\n- {診察|しんさつ}⟦{時間|じかん}→時間：00468_jikan⟧ (consultation hours)\n- ⟦{診察|しんさつ}{券|けん}→診察券：09709_shinsatsuken⟧ (patient registration card)\n- {診察|しんさつ}⟦{料|りょう}→料：noentry⟧ (consultation fee)\n\nRELATED MEDICAL TERMS:\n- ⟦{初診|しょしん}→初診：11090_shoshin⟧ (first visit/examination)\n- ⟦{再診|さいしん}→再診：23254_saishin⟧ (follow-up visit)\n- ⟦{問診|もんしん}→問診：11070_monshin⟧ (medical interview)",
   "cross_references": [
     {
       "type": "related",
@@ -69,12 +69,13 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:55:00Z",
-    "modified": "2026-04-30T05:18:10Z",
+    "modified": "2026-05-24T19:07:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "domain": [
         "medical"
@@ -82,9 +83,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part",
-        "geography"
-      ]
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }

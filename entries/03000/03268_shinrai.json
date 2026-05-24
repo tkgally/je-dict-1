@@ -2,7 +2,7 @@
   "id": "03268_shinrai",
   "headword": "{信頼|しんらい}",
   "reading": "しんらい",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru-verb",
   "gloss": "trust, reliance",
   "definitions": [
     {
@@ -14,9 +14,9 @@
   "examples": [
     {
       "id": "03268_shinrai_ex1",
-      "japanese": "{上司|じょうし}からの{信頼|しんらい}が{厚|あつ}い。",
+      "japanese": "⟦{上司|じょうし}→上司：03286_joushi⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{信頼|しんらい}⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧。",
       "english": "He is highly trusted by his boss.",
-      "notes": "信頼が厚い means 'to be deeply trusted'",
+      "notes": "{信頼|しんらい}が{厚|あつ}い means 'to be deeply trusted'",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "03268_shinrai_ex2",
-      "japanese": "{信頼|しんらい}できる{人|ひと}に{相談|そうだん}した。",
+      "japanese": "{信頼|しんらい}⟦できる→できる：00557_dekiru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦した→する：00392_suru⟧。",
       "english": "I consulted with someone I trust.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03268_shinrai_ex3",
-      "japanese": "{信頼|しんらい}{関係|かんけい}を{築|きず}くには{時間|じかん}がかかる。",
+      "japanese": "{信頼|しんらい}⟦{関係|かんけい}→関係：01298_kankei⟧⟦を→を：00422_wo⟧⟦{築|きず}く→築く：02046_kizuku⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "It takes time to build a relationship of trust.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{信頼|しんらい} implies a deeper level of trust than {信用|しんよう}.\n\nCOMMON COLLOCATIONS:\n- {信頼|しんらい}する (to trust, to rely on)\n- {信頼|しんらい}できる (trustworthy, reliable)\n- {信頼|しんらい}{関係|かんけい} (relationship of trust)\n- {信頼|しんらい}を{裏切|うらぎ}る (to betray trust)\n- {信頼|しんらい}が{厚|あつ}い (to be deeply trusted)\n- {信頼|しんらい}を{置|お}く (to place trust in)\n\nCOMPARISON:\n- {信頼|しんらい}: trust (in character, deeper relationship)\n- {信用|しんよう}: trust (more practical, credit-related)",
+  "notes": "{信頼|しんらい} implies a deeper level of trust than ⟦{信用|しんよう}→信用：03267_shinyou⟧.\n\nCOMMON COLLOCATIONS:\n- {信頼|しんらい}⟦する→する：00392_suru⟧ (to trust, to rely on)\n- {信頼|しんらい}⟦できる→できる：00557_dekiru⟧ (trustworthy, reliable)\n- {信頼|しんらい}⟦{関係|かんけい}→関係：01298_kankei⟧ (relationship of trust)\n- {信頼|しんらい}⟦を→を：00422_wo⟧⟦{裏切|うらぎ}る→裏切る：02011_uragiru⟧ (to betray trust)\n- {信頼|しんらい}⟦が→が：00051_ga⟧⟦{厚|あつ}い→厚い：00690_atsui⟧ (to be deeply trusted)\n- {信頼|しんらい}⟦を→を：00422_wo⟧⟦{置|お}く→置く：01092_oku⟧ (to place trust in)\n\nCOMPARISON:\n- {信頼|しんらい}: trust (in character, deeper relationship)\n- ⟦{信用|しんよう}→信用：03267_shinyou⟧: trust (more practical, credit-related)",
   "cross_references": [
     {
       "type": "related",
@@ -55,18 +55,20 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:55:45Z",
-    "modified": "2026-01-19T12:17:42.161887Z",
+    "modified": "2026-05-24T19:07:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "emotion"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }

@@ -2,7 +2,7 @@
   "id": "03273_jikken",
   "headword": "{実験|じっけん}",
   "reading": "じっけん",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru-verb",
   "gloss": "experiment",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03273_jikken_ex1",
-      "japanese": "{化学|かがく}の{実験|じっけん}をした。",
+      "japanese": "⟦{化学|かがく}→化学：05336_kagaku_chem⟧⟦の→の：09472_no⟧{実験|じっけん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I did a chemistry experiment.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03273_jikken_ex2",
-      "japanese": "{実験|じっけん}{結果|けっか}をレポートにまとめた。",
+      "japanese": "{実験|じっけん}⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦レポート→レポート：01543_repooto⟧⟦に→に：00314_ni⟧⟦まとめた→まとめる：02424_matomeru⟧。",
       "english": "I compiled the experimental results into a report.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03273_jikken_ex3",
-      "japanese": "{動物|どうぶつ}{実験|じっけん}に{反対|はんたい}する{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{動物|どうぶつ}→動物：01480_doubutsu⟧{実験|じっけん}⟦に→に：00314_ni⟧⟦{反対|はんたい}→反対：01497_hantai⟧⟦する→する：00392_suru⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "The number of people opposed to animal testing is increasing.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{実験|じっけん}する is used as a する-verb meaning \"to experiment.\"\n\nCOMMON COLLOCATIONS:\n- {実験|じっけん}する (to experiment)\n- {実験|じっけん}{室|しつ} (laboratory)\n- {実験|じっけん}{結果|けっか} (experimental results)\n- {実験|じっけん}{台|だい} (experimental subject, test bench)\n- {実験|じっけん}{動物|どうぶつ} (laboratory animal)\n- {実験|じっけん}{的|てき} (experimental)\n\nCOMPARISON:\n- {実験|じっけん}: experiment (scientific testing)\n- {研究|けんきゅう}: research (broader investigation)",
+  "notes": "{実験|じっけん}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to experiment.\"\n\nCOMMON COLLOCATIONS:\n- {実験|じっけん}⟦する→する：00392_suru⟧ (to experiment)\n- ⟦{実験|じっけん}{室|しつ}→実験室：25411_jikkenshitsu⟧ (laboratory)\n- {実験|じっけん}⟦{結果|けっか}→結果：02486_kekka⟧ (experimental results)\n- {実験|じっけん}⟦{台|だい}→〜台：00620_dai⟧ (experimental subject, test bench)\n- {実験|じっけん}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (laboratory animal)\n- {実験|じっけん}⟦{的|てき}→〜的：09839_teki⟧ (experimental)\n\nCOMPARISON:\n- {実験|じっけん}: experiment (scientific testing)\n- ⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧: research (broader investigation)",
   "cross_references": [
     {
       "type": "related",
@@ -55,18 +55,20 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:56:10Z",
-    "modified": "2026-01-19T12:17:42.165697Z",
+    "modified": "2026-05-24T19:07:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "general"
-      ]
+      ],
+      "verb_class": "suru"
     }
   }
 }
