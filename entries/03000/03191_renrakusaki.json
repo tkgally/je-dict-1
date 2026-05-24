@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03191_renrakusaki_ex1",
-      "japanese": "{連絡先|れんらくさき}を{教|おし}えてください。",
+      "japanese": "{連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{教|おし}えてください→教える：00526_oshieru⟧。",
       "english": "Please give me your contact information.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03191_renrakusaki_ex2",
-      "japanese": "{連絡先|れんらくさき}を{交換|こうかん}した。",
+      "japanese": "{連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦した→する：00392_suru⟧。",
       "english": "We exchanged contact information.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03191_renrakusaki_ex3",
-      "japanese": "{緊急|きんきゅう}{連絡先|れんらくさき}を{記入|きにゅう}してください。",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦してください→する：00392_suru⟧。",
       "english": "Please fill in your emergency contact.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {連絡|れんらく} (contact) + {先|さき} (destination, address)\n\nCOMMON EXPRESSIONS:\n- {連絡先|れんらくさき}を{教|おし}える (give contact info)\n- {連絡先|れんらくさき}を{交換|こうかん}する (exchange contact info)\n- {連絡先|れんらくさき}を{記入|きにゅう}する (write down contact info)\n- {緊急|きんきゅう}{連絡先|れんらくさき} (emergency contact)\n\nINCLUDES:\n- {電話番号|でんわばんごう} (phone number)\n- メールアドレス (email address)\n- {住所|じゅうしょ} (address)\n- LINE ID, etc.",
+  "notes": "COMPOUND: ⟦{連絡|れんらく}→連絡：01524_renraku⟧ (contact) + ⟦{先|さき}→先：02883_saki⟧ (destination, address)\n\nCOMMON EXPRESSIONS:\n- {連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧ (give contact info)\n- {連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{交換|こうかん}→交換：02746_koukan⟧⟦する→する：00392_suru⟧ (exchange contact info)\n- {連絡先|れんらくさき}⟦を→を：00422_wo⟧⟦{記入|きにゅう}→記入：02624_kinyuu⟧⟦する→する：00392_suru⟧ (write down contact info)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{連絡先|れんらくさき} (emergency contact)\n\nINCLUDES:\n- ⟦{電話番号|でんわばんごう}→電話番号：10159_denwabangou⟧ (phone number)\n- ⟦メールアドレス→メールアドレス：23540_meeruadoresu⟧ (email address)\n- ⟦{住所|じゅうしょ}→住所：01430_juusho⟧ (address)\n- LINE ID, etc.",
   "cross_references": [
     {
       "type": "related",
@@ -54,7 +54,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T12:14:37Z",
-    "modified": "2026-01-19T12:17:42.105116Z",
+    "modified": "2026-05-24T13:38:45Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,7 +64,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "communication"
       ]
     }
   }

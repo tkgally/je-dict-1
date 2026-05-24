@@ -18,7 +18,7 @@
   "examples": [
     {
       "id": "03183_shitsubou_ex1",
-      "japanese": "{試験|しけん}に{落|お}ちて{失望|しつぼう}した。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦に→に：00314_ni⟧⟦{落|お}ちて→落ちる：01242_ochiru⟧{失望|しつぼう}⟦した→する：00392_suru⟧。",
       "english": "I was disappointed when I failed the exam.",
       "notes": null,
       "has_audio": false,
@@ -28,7 +28,7 @@
     },
     {
       "id": "03183_shitsubou_ex2",
-      "japanese": "{彼|かれ}の{態度|たいど}には{失望|しつぼう}させられた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{失望|しつぼう}⟦させられた→する：00392_suru⟧。",
       "english": "I was disappointed by his attitude.",
       "notes": null,
       "has_audio": false,
@@ -38,7 +38,7 @@
     },
     {
       "id": "03183_shitsubou_ex3",
-      "japanese": "{期待|きたい}が{大|おお}きかっただけに、{失望|しつぼう}も{大|おお}きかった。{何|なに}も{言|い}えずに{黙|だま}ってその{場|ば}を{離|はな}れた。",
+      "japanese": "⟦{期待|きたい}→期待：00238_kitai⟧⟦が→が：00051_ga⟧⟦{大|おお}きかった→大きい：00335_ookii⟧⟦だけに→だけに：noentry⟧、{失望|しつぼう}⟦も→も：00484_mo⟧⟦{大|おお}きかった→大きい：00335_ookii⟧。⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦{言|い}えずに→言う：00515_iu⟧⟦{黙|だま}って→黙る：02287_damaru⟧⟦その→その：00993_sono⟧⟦{場|ば}→場：03699_ba⟧⟦を→を：00422_wo⟧⟦{離|はな}れた→離れる：02397_hanareru⟧。",
       "english": "Because my expectations were high, my disappointment was equally great. Unable to say anything, I quietly left the place.",
       "notes": null,
       "has_audio": false,
@@ -47,7 +47,7 @@
       ]
     }
   ],
-  "notes": "{失望|しつぼう} expresses disappointment or loss of hope, typically when expectations are not met.\n\nCOMMON PATTERNS:\n- {失望|しつぼう}する (to be disappointed)\n- {失望|しつぼう}させる (to disappoint someone)\n- {失望|しつぼう}を{感|かん}じる (to feel disappointment)\n- 〜に{失望|しつぼう}する (to be disappointed in/by ~)\n\nSIMILAR WORDS:\n- {失望|しつぼう}: disappointment (formal, stronger emotion)\n- がっかり: disappointment (casual, everyday expression)\n- {落胆|らくたん}: discouragement, dejection (written/formal)\n\nREGISTER: Somewhat formal. In casual conversation, がっかりする is more common.",
+  "notes": "{失望|しつぼう} expresses disappointment or loss of hope, typically when expectations are not met.\n\nCOMMON PATTERNS:\n- {失望|しつぼう}⟦する→する：00392_suru⟧ (to be disappointed)\n- {失望|しつぼう}⟦させる→する：00392_suru⟧ (to disappoint someone)\n- {失望|しつぼう}⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧ (to feel disappointment)\n- 〜⟦に→に：00314_ni⟧{失望|しつぼう}⟦する→する：00392_suru⟧ (to be disappointed in/by ~)\n\nSIMILAR WORDS:\n- {失望|しつぼう}: disappointment (formal, stronger emotion)\n- ⟦がっかり→がっかり：00054_gakkari⟧: disappointment (casual, everyday expression)\n- ⟦{落胆|らくたん}→落胆：04860_rakutan⟧: discouragement, dejection (written/formal)\n\nREGISTER: Somewhat formal. In casual conversation, ⟦がっかり→がっかり：00054_gakkari⟧⟦する→する：00392_suru⟧ is more common.",
   "cross_references": [
     {
       "type": "synonym",
@@ -73,7 +73,7 @@
   ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-04-10T12:45:13Z",
+    "modified": "2026-05-24T13:31:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -84,9 +84,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "electronics",
-        "emotion",
-        "time-general"
+        "emotion"
       ],
       "verb_class": "suru"
     }
