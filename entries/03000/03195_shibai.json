@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "03195_shibai_ex1",
-      "japanese": "{週末|しゅうまつ}に{芝居|しばい}を{見|み}に{行|い}った。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧{芝居|しばい}⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to see a play on the weekend.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "03195_shibai_ex2",
-      "japanese": "{彼|かれ}の{涙|なみだ}は{芝居|しばい}だった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{涙|なみだ}→涙：02235_namida⟧⟦は→は：00079_ha⟧{芝居|しばい}⟦だった→だ：09496_da⟧。",
       "english": "His tears were just an act.",
       "notes": "芝居 = pretense, fake display",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "03195_shibai_ex3",
-      "japanese": "この{劇団|げきだん}の{芝居|しばい}は{評判|ひょうばん}が{良|よ}く、いつも{満席|まんせき}になる。{今回|こんかい}の{公演|こうえん}のチケットも{発売|はつばい}{日|び}に{完売|かんばい}した。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{劇団|げきだん}→劇団：20045_gekidan⟧⟦の→の：09472_no⟧{芝居|しばい}⟦は→は：00079_ha⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦が→が：00051_ga⟧⟦{良|よ}く→良い：02350_yoi⟧、⟦いつも→いつも：00599_itsumo⟧⟦{満席|まんせき}→満席：07585_manseki⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧。⟦{今回|こんかい}→今回：01409_konkai⟧⟦の→の：09472_no⟧⟦{公演|こうえん}→公演：11639_kouen⟧⟦の→の：09472_no⟧⟦チケット→チケット：11014_chiketto⟧⟦も→も：00484_mo⟧⟦{発売|はつばい}→発売：04315_hatsubai⟧⟦{日|び}→日：02249_hi⟧⟦に→に：00314_ni⟧⟦{完売|かんばい}→完売：18954_kanbai⟧⟦した→する：00392_suru⟧。",
       "english": "This theater company's plays have a good reputation and are always sold out. Tickets for this performance also sold out on the day they went on sale.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "03195_shibai_ex4",
-      "japanese": "{芝居|しばい}をするのはやめてほしい。",
+      "japanese": "{芝居|しばい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦やめ→やめる：00909_yameru⟧て⟦ほしい→欲しい：01107_hoshii⟧。",
       "english": "I want you to stop putting on an act.",
       "notes": "{芝居|しばい}をする = to put on an act, to pretend",
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "03195_shibai_ex5",
-      "japanese": "{下手|へた}な{芝居|しばい}はすぐにばれる。",
+      "japanese": "⟦{下手|へた}→下手：00703_heta⟧⟦な→な：09497_na⟧{芝居|しばい}⟦は→は：00079_ha⟧⟦すぐに→すぐに：02905_suguni⟧⟦ばれる→ばれる：06721_bareru⟧。",
       "english": "Bad acting is quickly found out.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "03195_shibai_ex6",
-      "japanese": "{彼女|かのじょ}は{病気|びょうき}の{芝居|しばい}をして{学校|がっこう}を{休|やす}んだ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧{芝居|しばい}⟦を→を：00422_wo⟧⟦し→する：00392_suru⟧て⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧⟦{休|やす}んだ→休む：00606_yasumu⟧。",
       "english": "She pretended to be sick and skipped school.",
       "notes": null,
       "has_audio": false,
@@ -78,21 +78,31 @@
       ]
     }
   ],
-  "notes": "{芝居|しばい} originally referred to theatrical performances, but it's also commonly used to mean fake behavior or pretense.\n\nMEANING 1 - THEATER:\n- {芝居|しばい}を{見|み}る (to watch a play)\n- {芝居|しばい}を{打|う}つ (to put on a play)\n- {芝居小屋|しばいごや} (theater, playhouse)\n\nMEANING 2 - ACT/PRETENSE:\n- {芝居|しばい}をする (to put on an act)\n- {猿|さる}{芝居|しばい} (monkey business, transparent trick)\n- {下手|へた}な{芝居|しばい} (bad acting, unconvincing act)\n\nRELATED TERMS:\n- {演劇|えんげき} (drama, theater - more formal)\n- {劇|げき} (drama, play)\n- {歌舞伎|かぶき} (kabuki)\n- {役者|やくしゃ} (actor)",
-  "cross_references": [],
+  "notes": "{芝居|しばい} originally referred to theatrical performances, but it's also commonly used to mean fake behavior or pretense.\n\nMEANING 1 - THEATER:\n- {芝居|しばい}⟦を→を：00422_wo⟧⟦{見|み}る→見る：00283_miru⟧ (to watch a play)\n- {芝居|しばい}⟦を→を：00422_wo⟧⟦{打|う}つ→打つ：01221_utsu⟧ (to put on a play)\n- ⟦{芝居小屋|しばいごや}→芝居小屋：noentry⟧ (theater, playhouse)\n\nMEANING 2 - ACT/PRETENSE:\n- {芝居|しばい}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to put on an act)\n- ⟦{猿|さる}→猿：02213_saru⟧{芝居|しばい} (monkey business, transparent trick)\n- ⟦{下手|へた}→下手：00703_heta⟧⟦な→な：09497_na⟧{芝居|しばい} (bad acting, unconvincing act)\n\nRELATED TERMS:\n- ⟦{演劇|えんげき}→演劇：04106_engeki⟧ (drama, theater - more formal)\n- ⟦{劇|げき}→劇：02713_geki⟧ (drama, play)\n- ⟦{歌舞伎|かぶき}→歌舞伎：04455_kabuki⟧ (kabuki)\n- ⟦{役者|やくしゃ}→役者：05113_yakusha⟧ (actor)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "えんげき",
+      "headword": "{演劇|えんげき}",
+      "target_id": "04106_engeki"
+    },
+    {
+      "type": "related",
+      "reading": "げき",
+      "headword": "{劇|げき}",
+      "target_id": "02713_geki"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T13:40:30Z",
-    "modified": "2026-02-27T14:03:07Z",
+    "modified": "2026-05-24T14:16:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
-      "domain": [
-        "business"
-      ],
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "leisure"
