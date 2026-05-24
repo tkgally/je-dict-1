@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03332_shinri_ex1",
-      "japanese": "{犯人|はんにん}の{心理|しんり}を{分析|ぶんせき}する。",
+      "japanese": "⟦{犯人|はんにん}→犯人：03572_hannin⟧⟦の→の：09472_no⟧{心理|しんり}⟦を→を：00422_wo⟧⟦{分析|ぶんせき}→分析：03610_bunseki⟧⟦する→する：00392_suru⟧。",
       "english": "Analyze the criminal's psychology.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03332_shinri_ex2",
-      "japanese": "{心理|しんり}{学|がく}を{専攻|せんこう}している。",
+      "japanese": "{心理|しんり}⟦{学|がく}→〜学：09846_gaku⟧⟦を→を：00422_wo⟧⟦{専攻|せんこう}→専攻：01587_senkou⟧⟦している→する：00392_suru⟧。",
       "english": "I'm majoring in psychology.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03332_shinri_ex3",
-      "japanese": "{消費者|しょうひしゃ}{心理|しんり}を{理解|りかい}することがマーケティングの{基本|きほん}だ。",
+      "japanese": "⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧{心理|しんり}⟦を→を：00422_wo⟧⟦{理解|りかい}→理解：03674_rikai⟧⟦する→する：00392_suru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦マーケティング→マーケティング：05222_maaketingu⟧⟦の→の：09472_no⟧⟦{基本|きほん}→基本：00226_kihon⟧⟦だ→だ：09496_da⟧。",
       "english": "Understanding consumer psychology is fundamental to marketing.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,19 @@
       ]
     }
   ],
-  "notes": "{心理|しんり} refers to the inner workings of the mind — a person's mental processes, emotional states, and psychological tendencies. It can also refer to psychology as a field of study.\n\nCOMMON COMPOUNDS:\n- {心理|しんり}{学|がく}: psychology (academic discipline)\n- {心理|しんり}{的|てき}: psychological\n- {心理|しんり}{状態|じょうたい}: mental/psychological state\n- {心理|しんり}{テスト|てすと}: psychological test\n- {消費者|しょうひしゃ}{心理|しんり}: consumer psychology\n- {犯罪|はんざい}{心理|しんり}: criminal psychology\n\nHOMOPHONE:\n{真理|しんり} (truth, ultimate truth) is pronounced identically. Context usually makes the meaning clear, but in speech they can cause momentary ambiguity.",
+  "notes": "{心理|しんり} refers to the inner workings of the mind — a person's mental processes, emotional states, and psychological tendencies. It can also refer to psychology as a field of study.\n\nCOMMON COMPOUNDS:\n- {心理|しんり}⟦{学|がく}→〜学：09846_gaku⟧: psychology (academic discipline)\n- {心理|しんり}⟦{的|てき}→〜的：09839_teki⟧: psychological\n- {心理|しんり}⟦{状態|じょうたい}→状態：03345_joutai⟧: mental/psychological state\n- {心理|しんり}⟦テスト→テスト：01065_tesuto⟧: psychological test\n- ⟦{消費者|しょうひしゃ}→消費者：09866_shouhisha⟧{心理|しんり}: consumer psychology\n- ⟦{犯罪|はんざい}→犯罪：03569_hanzai⟧{心理|しんり}: criminal psychology\n\nHOMOPHONE:\n⟦{真理|しんり}→真理：03333_shinri⟧ (truth, ultimate truth) is pronounced identically. Context usually makes the meaning clear, but in speech they can cause momentary ambiguity.",
   "cross_references": [
     {
-      "type": "contrast",
+      "type": "homophone",
       "reading": "しんり",
       "headword": "{真理|しんり}",
-      "label": "homophone - truth",
+      "label": "truth, ultimate truth",
       "target_id": "03333_shinri"
     }
   ],
   "metadata": {
     "created": "2026-01-12T06:30:30Z",
-    "modified": "2026-04-03T12:43:54Z",
+    "modified": "2026-05-24T23:40:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,8 +65,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "education",
-        "geography"
+        "general"
       ]
     }
   },

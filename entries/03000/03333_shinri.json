@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03333_shinri_ex1",
-      "japanese": "{科学|かがく}は{真理|しんり}を{追求|ついきゅう}する。",
+      "japanese": "⟦{科学|かがく}→科学：01277_kagaku⟧⟦は→は：00079_ha⟧{真理|しんり}⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦する→する：00392_suru⟧。",
       "english": "Science pursues the truth.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03333_shinri_ex2",
-      "japanese": "{永遠|えいえん}の{真理|しんり}を{求|もと}める。",
+      "japanese": "⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧{真理|しんり}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧。",
       "english": "Seek eternal truth.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03333_shinri_ex3",
-      "japanese": "それが{真理|しんり}であることは{誰|だれ}も{否定|ひてい}できない。",
+      "japanese": "⟦それ→それ：00994_sore⟧⟦が→が：00051_ga⟧{真理|しんり}⟦で→で：00502_de⟧⟦ある→ある：00006_aru⟧⟦こと→こと：01164_koto⟧⟦は→は：00079_ha⟧⟦{誰|だれ}→誰：00534_dare⟧⟦も→も：00484_mo⟧⟦{否定|ひてい}→否定：03707_hitei⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "No one can deny that it is the truth.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,19 @@
       ]
     }
   ],
-  "notes": "{真理|しんり} refers to fundamental, philosophical, or religious truth.\n\nCOMMON COLLOCATIONS:\n- {真理|しんり}を{追求|ついきゅう}する (pursue the truth)\n- {永遠|えいえん}の{真理|しんり} (eternal truth)\n- {普遍的|ふへんてき}な{真理|しんり} (universal truth)\n\nSIMILAR WORDS:\n- {真理|しんり}: philosophical/universal truth\n- {事実|じじつ}: fact, actual happening\n- {本当|ほんとう}: truth (everyday usage), reality\n\nHOMOPHONES:\n- {真理|しんり}: truth/ultimate truth\n- {心理|しんり}: psychology/mental state",
+  "notes": "{真理|しんり} refers to fundamental, philosophical, or religious truth.\n\nCOMMON COLLOCATIONS:\n- {真理|しんり}⟦を→を：00422_wo⟧⟦{追求|ついきゅう}→追求：14401_tsuikyuu⟧⟦する→する：00392_suru⟧ (pursue the truth)\n- ⟦{永遠|えいえん}→永遠：01873_eien⟧⟦の→の：09472_no⟧{真理|しんり} (eternal truth)\n- ⟦{普遍的|ふへんてき}→普遍的：13026_fuhenteki⟧⟦な→な：09497_na⟧{真理|しんり} (universal truth)\n\nSIMILAR WORDS:\n- {真理|しんり}: philosophical/universal truth\n- ⟦{事実|じじつ}→事実：03271_jijitsu⟧: fact, actual happening\n- ⟦{本当|ほんとう}→本当：00779_hontou⟧: truth (everyday usage), reality\n\nHOMOPHONES:\n- {真理|しんり}: truth/ultimate truth\n- ⟦{心理|しんり}→心理：03332_shinri⟧: psychology/mental state",
   "cross_references": [
     {
-      "type": "contrast",
+      "type": "homophone",
       "reading": "しんり",
       "headword": "{心理|しんり}",
-      "label": "homophone - psychology",
+      "label": "psychology, mental state",
       "target_id": "03332_shinri"
     }
   ],
   "metadata": {
     "created": "2026-01-12T06:30:45Z",
-    "modified": "2026-01-19T12:17:42.209571Z",
+    "modified": "2026-05-24T23:42:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +65,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "general"
       ]
     }
   },

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03324_soretomo_ex1",
-      "japanese": "{コーヒー|こーひー}にしますか、それとも{紅茶|こうちゃ}にしますか。",
+      "japanese": "⟦{コーヒー|こーひー}→コーヒー：00789_koohii⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧、それとも⟦{紅茶|こうちゃ}→紅茶：02878_koucha⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "Would you like coffee, or would you like tea?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03324_soretomo_ex2",
-      "japanese": "{電車|でんしゃ}で{行|い}きますか、それとも{車|くるま}で{行|い}きますか。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦で→で：00502_de⟧⟦{行|い}きます→行く：00119_iku⟧⟦か→か：09473_ka⟧、それとも⟦{車|くるま}→車：00516_kuruma⟧⟦で→で：00502_de⟧⟦{行|い}きます→行く：00119_iku⟧⟦か→か：09473_ka⟧。",
       "english": "Will you go by train, or will you go by car?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03324_soretomo_ex3",
-      "japanese": "{今日|きょう}{会|あ}いますか、それとも{明日|あした}にしますか。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦{会|あ}います→会う：00482_au⟧⟦か→か：09473_ka⟧、それとも⟦{明日|あした}→明日：00501_ashita⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。",
       "english": "Shall we meet today, or shall we make it tomorrow?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03324_soretomo_ex4",
-      "japanese": "{肉|にく}にしますか、それとも{魚|さかな}にしますか。{好|す}きなほうを{選|えら}んでください。",
+      "japanese": "⟦{肉|にく}→肉：02240_niku⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧、それとも⟦{魚|さかな}→魚：00499_sakana⟧⟦に→に：00314_ni⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。⟦{好|す}き→好き：02355_suki⟧⟦な→な：09497_na⟧⟦ほう→方：01139_hou⟧⟦を→を：00422_wo⟧⟦{選|えら}んで→選ぶ：00835_erabu⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Would you like meat, or would you like fish? Please choose whichever you prefer.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03324_soretomo_ex5",
-      "japanese": "{映画|えいが}を{見|み}に{行|い}きますか、それとも{家|いえ}でゆっくりしますか。{天気|てんき}が{悪|わる}いから、{家|いえ}にいたほうがいいかもしれない。",
+      "japanese": "⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}きます→行く：00119_iku⟧⟦か→か：09473_ka⟧、それとも⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦ゆっくり→ゆっくり：00910_yukkuri⟧⟦します→する：00392_suru⟧⟦か→か：09473_ka⟧。⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦から→から：00504_kara⟧、⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦いた→いる：00495_iru⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦かもしれない→かもしれない：00164_kamoshirenai⟧。",
       "english": "Shall we go see a movie, or shall we relax at home? The weather is bad, so it might be better to stay home.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nそれとも is used between two options in questions to offer an alternative. It connects two complete question clauses.\n\nPATTERN:\nOption A + か、それとも + Option B + か\n\nCOMPARISON:\n- それとも: or (in questions, between two alternatives)\n- または: or (formal, in statements or questions)\n- あるいは: or, possibly (formal, literary)\n- か: or (simple alternative marker)\n\nNOTE:\nそれとも is primarily used in questions. For statements, use または or あるいは.",
+  "notes": "USAGE:\nそれとも is used between two options in questions to offer an alternative. It connects two complete question clauses.\n\nPATTERN:\nOption A + ⟦か→か：09473_ka⟧、それとも + Option B + ⟦か→か：09473_ka⟧\n\nCOMPARISON:\n- それとも: or (in questions, between two alternatives)\n- ⟦または→または：01808_mataha⟧: or (formal, in statements or questions)\n- ⟦あるいは→あるいは：03825_aruiha⟧: or, possibly (formal, literary)\n- ⟦か→か：09473_ka⟧: or (simple alternative marker)\n\nNOTE:\nそれとも is primarily used in questions. For statements, use または or あるいは.",
   "cross_references": [
     {
       "type": "contrast",
@@ -75,17 +75,14 @@
   ],
   "metadata": {
     "created": "2026-01-12T01:14:10Z",
-    "modified": "2026-04-03T00:02:52Z",
+    "modified": "2026-05-24T23:25:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "conjunction"
       ],
-      "formality": "formal",
-      "style": [
-        "literary"
-      ],
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "grammatical"
