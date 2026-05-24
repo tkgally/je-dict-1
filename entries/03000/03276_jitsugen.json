@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03276_jitsugen_ex1",
-      "japanese": "{夢|ゆめ}を{実現|じつげん}させたい。",
+      "japanese": "⟦{夢|ゆめ}→夢：01519_yume⟧⟦を→を：00422_wo⟧{実現|じつげん}⟦させたい→させる：noentry⟧。",
       "english": "I want to make my dream come true.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03276_jitsugen_ex2",
-      "japanese": "{計画|けいかく}の{実現|じつげん}に{向|む}けて{努力|どりょく}している。",
+      "japanese": "⟦{計画|けいかく}→計画：01172_keikaku⟧⟦の→の：09472_no⟧{実現|じつげん}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧⟦{努力|どりょく}→努力：03490_doryoku⟧⟦している→する：00392_suru⟧。",
       "english": "I'm working toward realizing the plan.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03276_jitsugen_ex3",
-      "japanese": "{世界|せかい}{平和|へいわ}の{実現|じつげん}は{難|むずか}しい。",
+      "japanese": "⟦{世界|せかい}→世界：01447_sekai⟧⟦{平和|へいわ}→平和：01507_heiwa⟧⟦の→の：09472_no⟧{実現|じつげん}⟦は→は：00079_ha⟧⟦{難|むずか}しい→難しい：00517_muzukashii⟧。",
       "english": "Achieving world peace is difficult.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{実現|じつげん}する is used as a する-verb meaning \"to realize\" or \"to come true.\"\n\nCOMMON COLLOCATIONS:\n- {実現|じつげん}する (to come true, to be realized)\n- {実現|じつげん}させる (to make something come true)\n- {夢|ゆめ}の{実現|じつげん} (realization of a dream)\n- {実現|じつげん}{可能|かのう} (feasible, realizable)\n- {実現|じつげん}に{向|む}けて (toward realization)\n- {実現|じつげん}{性|せい} (feasibility)\n\nTRANSITIVITY:\n- {実現|じつげん}する: intransitive (something realizes/comes true)\n- {実現|じつげん}させる: transitive causative (to make something realize)",
-  "cross_references": [],
+  "notes": "{実現|じつげん}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to realize\" or \"to come true.\"\n\nCOMMON COLLOCATIONS:\n- {実現|じつげん}⟦する→する：00392_suru⟧ (to come true, to be realized)\n- {実現|じつげん}⟦させる→させる：noentry⟧ (to make something come true)\n- ⟦{夢|ゆめ}→夢：01519_yume⟧⟦の→の：09472_no⟧{実現|じつげん} (realization of a dream)\n- {実現|じつげん}⟦{可能|かのう}→可能：00175_kanou⟧ (feasible, realizable)\n- {実現|じつげん}⟦に→に：00314_ni⟧⟦{向|む}けて→向ける：02306_mukeru⟧ (toward realization)\n- {実現|じつげん}⟦{性|せい}→性：09880_sei⟧ (feasibility)\n\nTRANSITIVITY:\n- {実現|じつげん}⟦する→する：00392_suru⟧: intransitive (something realizes/comes true)\n- {実現|じつげん}⟦させる→させる：noentry⟧: transitive causative (to make something realize)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "たっせい",
+      "headword": "{達成|たっせい}",
+      "label": "achievement",
+      "target_id": "04816_tassei"
+    },
+    {
+      "type": "related",
+      "reading": "せいこう",
+      "headword": "{成功|せいこう}",
+      "label": "success",
+      "target_id": "02638_seikou"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T00:56:25Z",
-    "modified": "2026-01-19T12:17:42.167784Z",
+    "modified": "2026-05-24T20:07:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

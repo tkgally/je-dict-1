@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03290_seichou_ex1",
-      "japanese": "{子供|こども}の{成長|せいちょう}は{早|はや}い。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{成長|せいちょう}⟦は→は：00079_ha⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "Children grow fast.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03290_seichou_ex2",
-      "japanese": "{経済|けいざい}{成長|せいちょう}が{続|つづ}いている。",
+      "japanese": "⟦{経済|けいざい}→経済：01394_keizai⟧{成長|せいちょう}⟦が→が：00051_ga⟧⟦{続|つづ}いている→続く：00903_tsuzuku⟧。",
       "english": "Economic growth continues.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03290_seichou_ex3",
-      "japanese": "この{経験|けいけん}で{大|おお}きく{成長|せいちょう}できた。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{経験|けいけん}→経験：01179_keiken⟧⟦で→で：00502_de⟧⟦{大|おお}きく→大きい：00335_ookii⟧{成長|せいちょう}⟦できた→できる：00557_dekiru⟧。",
       "english": "I was able to grow a lot from this experience.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "{成長|せいちょう}する is used as a する-verb meaning \"to grow.\"\n\nCOMMON COLLOCATIONS:\n- {成長|せいちょう}する (to grow, to develop)\n- {経済|けいざい}{成長|せいちょう} (economic growth)\n- {成長|せいちょう}{率|りつ} (growth rate)\n- {成長|せいちょう}{期|き} (growth period)\n- {成長|せいちょう}{産業|さんぎょう} (growth industry)\n- {人間|にんげん}{的|てき}{成長|せいちょう} (personal growth)\n\nCOMPARISON:\n- {成長|せいちょう}: growth (of people, economy, abstract)\n- {発育|はついく}: growth (physical development of children/organisms)",
-  "cross_references": [],
+  "notes": "{成長|せいちょう}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to grow.\"\n\nCOMMON COLLOCATIONS:\n- {成長|せいちょう}⟦する→する：00392_suru⟧ (to grow, to develop)\n- ⟦{経済|けいざい}→経済：01394_keizai⟧{成長|せいちょう} (economic growth)\n- {成長|せいちょう}⟦{率|りつ}→率：03802_ritsu⟧ (growth rate)\n- {成長|せいちょう}⟦{期|き}→期：noentry⟧ (growth period)\n- {成長|せいちょう}⟦{産業|さんぎょう}→産業：01419_sangyou⟧ (growth industry)\n- ⟦{人間|にんげん}→人間：03523_ningen⟧⟦{的|てき}→的：09839_teki⟧{成長|せいちょう} (personal growth)\n\nCOMPARISON:\n- {成長|せいちょう}: growth (of people, economy, abstract)\n- ⟦{発育|はついく}→発育：25326_hatsuiku⟧: growth (physical development of children/organisms)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "はついく",
+      "headword": "{発育|はついく}",
+      "label": "physical growth (children/organisms)",
+      "target_id": "25326_hatsuiku"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T01:11:20Z",
-    "modified": "2026-01-19T12:17:42.178268Z",
+    "modified": "2026-05-24T20:31:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
