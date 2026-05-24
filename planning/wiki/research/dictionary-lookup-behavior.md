@@ -156,3 +156,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — the evaluation frameworks that use lookup studies as evidence
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — teachable skills, training effectiveness, and compensatory dictionary design
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how dictionary type affects lookup behavior and outcomes
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — production-oriented lookup as distinct from decoding lookup

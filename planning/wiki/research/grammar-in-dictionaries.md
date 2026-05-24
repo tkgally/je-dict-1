@@ -209,3 +209,4 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 - [Pragmatics and Speech Acts](pragmatics-speech-acts.md) — the pragmatic dimension of grammar (particles as discourse markers, keigo as social grammar)
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — aspect documentation as a grammar-encoding challenge; the ている polysemy problem
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo as a grammaticalized system; encoding honorific patterns in entries
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — syntactic patterns as a critical encoding-dictionary information category
