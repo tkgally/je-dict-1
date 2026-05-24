@@ -147,3 +147,4 @@ The research consensus is that depth of knowledge — not just breadth — predi
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — a Japanese-specific depth dimension
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — grammatical depth in entries
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — how different knowledge dimensions accumulate at different rates through reading exposure
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — the receptive–productive gap and what dictionaries must provide for production

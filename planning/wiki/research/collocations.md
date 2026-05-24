@@ -161,3 +161,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — collocation as the primary discriminating dimension between near-synonyms
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — collocational knowledge as productive vocabulary and its role in consolidation strategies
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — collocation as the hardest dimension to acquire (Nesselhauf 2005, Laufer & Waldman 2011)
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — collocation as a critical encoding-dictionary information category

@@ -237,3 +237,4 @@ This makes je-dict-1 effectively a bilingualized dictionary viewed from the lear
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — evaluation frameworks that compare dictionary types
 - [Digital Dictionary UX](digital-dictionary-ux.md) — how digital formats blur the bilingual/monolingual boundary
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — dictionary consultation as a strategy, and how dictionary type affects strategy choice
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — how dictionary type affects production outcomes (Laufer's "Bilingual Dictionary Plus")

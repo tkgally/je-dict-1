@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-22
+**Last updated**: 2026-05-24
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -195,6 +195,14 @@ Entry 02617_kondeiru ({混|こ}んでいる, "to be crowded") has a badly wrong 
 **Recommended fix**: Either (a) remove the conjugation table and rely on the notes to explain that this is a ている stative form of {混|こ}む (godan), or (b) manually write a custom conjugation table that treats the いる portion as ichidan rather than godan. Option (a) is simpler and more consistent with how other compound-ている entries are handled. Cross-reference to the base verb {混|こ}む for full conjugation.
 
 **Connection**: This is an edge case for `add_conjugations.py` — the script cannot correctly conjugate entries whose headword is a compound ている form. Similar to the 01300_gozaimasu issue (polite-only verb template).
+
+## 03032_doukyuusei (同級生) — Near-duplicate example sentences
+
+**Source**: Comprehensive-polish 2026-05-23 session 003
+
+Entry 03032_doukyuusei ({同級生|どうきゅうせい}, classmate) has examples 2 and 3 that are nearly identical ("I ran into a high school classmate" vs. "I met a classmate"). The examples don't offer enough variety to demonstrate different usage contexts.
+
+**Recommended fix**: Replace one of the near-duplicate examples with a sentence showing 同級生 in a different context — e.g., a reunion, nostalgia, comparing professional trajectories, or childhood memories. Maintain progressive length.
 
 ## Related pages
 

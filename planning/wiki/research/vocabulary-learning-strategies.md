@@ -243,6 +243,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — What "knowing a word" means across multiple dimensions (form, meaning, use)
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — Dictionary consultation as a teachable skill within the strategy repertoire
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — Incidental and intentional learning as complementary strategies, and the ILH framework
+- [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — How dictionaries support the production side of vocabulary knowledge
 
 ## References
 

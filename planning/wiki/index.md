@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-23
+**Last updated**: 2026-05-24
 
 
 ## How this wiki is organized
@@ -67,6 +67,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Dictionary Skills and Reference Skills Training](research/dictionary-skills-training.md) — Lookup process models (Scholfield, Nesi, Lew), skills taxonomy, training effectiveness, sense selection failures, and compensatory dictionary design
 - [Incidental Vocabulary Acquisition Through Reading](research/incidental-vocabulary-reading.md) — Acquisition rates from unassisted reading, dictionary consultation effects, the Involvement Load Hypothesis, contextual guessing vs. lookup, and implications for dictionary design
 - [Bilingual vs. Monolingual Dictionary Debate](research/bilingual-monolingual-debate.md) — Teacher orthodoxy vs. empirical evidence, bilingualized dictionaries, the Revised Hierarchical Model, proficiency effects, and je-dict-1's hybrid position
+- [Productive Vocabulary and Encoding Support](research/productive-vocabulary-encoding.md) — Receptive–productive gap, encoding vs. decoding dictionaries, production-oriented features, and Japanese-specific encoding challenges
 
 ## Topics
 
