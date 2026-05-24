@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03280_juutaku_ex1",
-      "japanese": "{住宅|じゅうたく}ローンを{組|く}んで{家|いえ}を{買|か}った。",
+      "japanese": "{住宅|じゅうたく}⟦ローン→ローン：06579_roon⟧⟦を→を：00422_wo⟧⟦{組|く}んで→組む：02050_kumu⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I took out a housing loan and bought a house.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03280_juutaku_ex2",
-      "japanese": "この{地域|ちいき}は{住宅|じゅうたく}{街|がい}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧{住宅|じゅうたく}⟦{街|がい}→街：17306_machi⟧⟦だ→だ：09496_da⟧。",
       "english": "This area is a residential district.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03280_juutaku_ex3",
-      "japanese": "{住宅|じゅうたく}{価格|かかく}が{上昇|じょうしょう}している。",
+      "japanese": "{住宅|じゅうたく}⟦{価格|かかく}→価格：00147_kakaku⟧⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}→上昇：11296_joushou⟧⟦している→する：00392_suru⟧。",
       "english": "Housing prices are rising.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "{住宅|じゅうたく} is a formal term for residence or housing.\n\nCOMMON COLLOCATIONS:\n- {住宅|じゅうたく}ローン (housing loan, mortgage)\n- {住宅|じゅうたく}{街|がい} (residential area)\n- {住宅|じゅうたく}{価格|かかく} (housing prices)\n- {公営|こうえい}{住宅|じゅうたく} (public housing)\n- {集合|しゅうごう}{住宅|じゅうたく} (apartment complex)\n- {一戸建|いっこだ}て{住宅|じゅうたく} (detached house)\n\nCOMPARISON:\n- {住宅|じゅうたく}: housing (formal, often for policy/statistics)\n- {家|いえ}/{住|す}まい: home, residence (general)",
-  "cross_references": [],
+  "notes": "{住宅|じゅうたく} is a formal term for residence or housing.\n\nCOMMON COLLOCATIONS:\n- {住宅|じゅうたく}⟦ローン→ローン：06579_roon⟧ (housing loan, mortgage)\n- {住宅|じゅうたく}⟦{街|がい}→街：17306_machi⟧ (residential area)\n- {住宅|じゅうたく}⟦{価格|かかく}→価格：00147_kakaku⟧ (housing prices)\n- ⟦{公営|こうえい}→公営：22485_kouei⟧{住宅|じゅうたく} (public housing)\n- ⟦{集合|しゅうごう}→集合：03068_shuugou⟧{住宅|じゅうたく} (apartment complex)\n- ⟦{一戸建|いっこだ}て→一戸建て：19687_ikkodate⟧{住宅|じゅうたく} (detached house)\n\nCOMPARISON:\n- {住宅|じゅうたく}: housing (formal, often for policy/statistics)\n- ⟦{家|いえ}→家：00612_ie⟧/⟦{住|す}まい→住まい：11555_sumai⟧: home, residence (general)",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "いえ",
+      "headword": "{家|いえ}",
+      "label": "home, house",
+      "target_id": "00612_ie"
+    },
+    {
+      "type": "related",
+      "reading": "すまい",
+      "headword": "{住|す}まい",
+      "label": "residence, dwelling",
+      "target_id": "11555_sumai"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T01:10:30Z",
-    "modified": "2026-01-19T12:17:42.170602Z",
+    "modified": "2026-05-24T20:11:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
