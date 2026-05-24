@@ -2,7 +2,7 @@
   "id": "03265_shinpo",
   "headword": "{進歩|しんぽ}",
   "reading": "しんぽ",
-  "part_of_speech": "noun",
+  "part_of_speech": "noun, suru-verb",
   "gloss": "progress, advancement",
   "definitions": [
     {
@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03265_shinpo_ex1",
-      "japanese": "{科学|かがく}{技術|ぎじゅつ}は{目覚|めざ}ましく{進歩|しんぽ}した。",
+      "japanese": "⟦{科学|かがく}{技術|ぎじゅつ}→科学技術：20794_kagakugijutsu⟧⟦は→は：00079_ha⟧⟦{目覚|めざ}ましく→目覚ましい：13628_mezamashii⟧{進歩|しんぽ}⟦した→する：00392_suru⟧。",
       "english": "Science and technology have made remarkable progress.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03265_shinpo_ex2",
-      "japanese": "{彼|かれ}の{日本語|にほんご}は{大|おお}きく{進歩|しんぽ}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦は→は：00079_ha⟧⟦{大|おお}きく→大きい：00335_ookii⟧{進歩|しんぽ}⟦した→する：00392_suru⟧。",
       "english": "His Japanese has improved greatly.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03265_shinpo_ex3",
-      "japanese": "{進歩|しんぽ}{的|てき}な{考|かんが}え{方|かた}を{持|も}っている。",
+      "japanese": "⟦{進歩|しんぽ}{的|てき}→進歩的：22246_shinpoteki⟧な⟦{考|かんが}え{方|かた}→考え方：10169_kangaekata⟧⟦を→を：00422_wo⟧⟦{持|も}っている→持つ：00478_motsu⟧。",
       "english": "He has progressive ideas.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{進歩|しんぽ}する is used as a する-verb meaning \"to progress\" or \"to advance.\"\n\nCOMMON COLLOCATIONS:\n- {進歩|しんぽ}する (to progress, to advance)\n- {進歩|しんぽ}{的|てき} (progressive)\n- {目覚|めざ}ましい{進歩|しんぽ} (remarkable progress)\n- {技術|ぎじゅつ}の{進歩|しんぽ} (technological progress)\n- {進歩|しんぽ}を{遂|と}げる (to achieve progress)\n\nCOMPARISON:\n- {進歩|しんぽ}: progress (improvement, development)\n- {進行|しんこう}: progression (moving forward)\n- {発展|はってん}: development (growth, expansion)",
+  "notes": "{進歩|しんぽ}⟦する→する：00392_suru⟧ is used as a する-verb meaning \"to progress\" or \"to advance.\"\n\nCOMMON COLLOCATIONS:\n- {進歩|しんぽ}⟦する→する：00392_suru⟧ (to progress, to advance)\n- ⟦{進歩|しんぽ}{的|てき}→進歩的：22246_shinpoteki⟧ (progressive)\n- ⟦{目覚|めざ}ましい→目覚ましい：13628_mezamashii⟧{進歩|しんぽ} (remarkable progress)\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦の→の：09472_no⟧{進歩|しんぽ} (technological progress)\n- {進歩|しんぽ}⟦を→を：00422_wo⟧⟦{遂|と}げる→遂げる：14323_togeru⟧ (to achieve progress)\n\nCOMPARISON:\n- {進歩|しんぽ}: progress (improvement, development)\n- ⟦{進行|しんこう}→進行：03686_shinkou⟧: progression (moving forward)\n- ⟦{発展|はってん}→発展：03561_hatten⟧: development (growth, expansion)",
   "cross_references": [
     {
       "type": "related",
@@ -62,18 +62,20 @@
   ],
   "metadata": {
     "created": "2026-01-12T00:55:30Z",
-    "modified": "2026-05-01T07:30:21Z",
+    "modified": "2026-05-24T19:07:01Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
-        "noun"
+        "noun",
+        "verb-suru"
       ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "transportation"
-      ]
+        "action"
+      ],
+      "verb_class": "suru"
     }
   }
 }
