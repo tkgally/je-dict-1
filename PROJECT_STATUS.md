@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-25 (Vocabulary Expansion - 21 New Entries)
+Added 21 new dictionary entries (IDs 28069-28089) from `candidate_words.json`. No "seen in entry" candidates remained, so candidates were drawn from the older unprocessed list, skipping the many noisy fragments and dubious-gloss entries in favor of clean, useful words. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (14)**: ご{迷惑|めいわく} (trouble/inconvenience, polite), {速|はや}さ (speed), {話|はな}し{手|て} (speaker), ドイツ{語|ご} (German language), {老人|ろうじん}ホーム (nursing home), {介護|かいご}{施設|しせつ} (care facility), {推理|すいり}{小説|しょうせつ} (detective novel), {広告|こうこく}{代理店|だいりてん} (advertising agency), {昭和|しょうわ} (Showa era), {明治|めいじ}{時代|じだい} (Meiji period), {残|のこ}り{時間|じかん} (remaining time), つり{手|て} (train strap), {経過|けいか}{時間|じかん} (elapsed time), {飲|の}み{歩|ある}き (bar-hopping), {見送|みおく}り{人|にん} (well-wisher at a departure)
+- **Noun + verb-suru (2)**: {立体視|りったいし} (stereoscopic vision), {経歴|けいれき}{詐称|さしょう} (resume fraud)
+- **Adverb (1)**: {楽|らく}に (easily/comfortably)
+- **Adjective-i (1)**: エロい (erotic/lewd, slang)
+- **Expressions (2)**: チャックを{閉|し}める (to zip up), {見返|みかえ}りを{求|もと}める (to expect something in return)
+
+Added one new kanji to the index: {昭|しょう} (02756). All 21 entries validate; furigana check clean; conjugation tables added to the 2 suru-verbs and 1 i-adjective. Candidate list synced (1695→1674).
+
 ### 2026-05-25 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 28045-28068) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
