@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "03465_chikoku_ex1",
-      "japanese": "{遅刻|ちこく}しないでください。",
+      "japanese": "{遅刻|ちこく}⟦しないで→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please don't be late.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "03465_chikoku_ex2",
-      "japanese": "{電車|でんしゃ}が{遅|おく}れて、{会社|かいしゃ}に{遅刻|ちこく}した。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{遅|おく}れて→遅れる：00741_okureru⟧、⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦に→に：00314_ni⟧{遅刻|ちこく}⟦した→する：00392_suru⟧。",
       "english": "The train was delayed, so I was late for work.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "03465_chikoku_ex3",
-      "japanese": "{彼|かれ}は{毎朝|まいあさ}{遅刻|ちこく}する。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧{遅刻|ちこく}⟦する→する：00392_suru⟧。",
       "english": "He is late every morning.",
       "notes": null,
       "has_audio": false,
@@ -133,18 +133,19 @@
       ]
     }
   ],
-  "notes": "{遅刻|ちこく} means arriving after the scheduled or expected time. Functions as both a noun and a suru verb.\n\nCOMMON PATTERNS:\n- 〜に{遅刻|ちこく}する: to be late for ~\n- {遅刻|ちこく}の{理由|りゆう}: reason for being late\n- {遅刻|ちこく}{届|とどけ}: late arrival notice (at school/work)\n- {遅刻|ちこく}{常習|じょうしゅう}: habitual lateness\n\nCULTURAL NOTE:\nPunctuality is highly valued in Japan. Being late ({遅刻|ちこく}) — even by a few minutes — is taken seriously at school and in the workplace. An apology or explanation is typically expected.\n\nSIMILAR WORDS:\n- {遅|おく}れる: to be late/delayed (more general — can apply to trains, deliveries, etc.)\n- {遅刻|ちこく}: specifically a person arriving late for a scheduled event",
+  "notes": "{遅刻|ちこく} means arriving after the scheduled or expected time. Functions as both a noun and a suru verb.\n\nCOMMON PATTERNS:\n- 〜⟦に→に：00314_ni⟧{遅刻|ちこく}⟦する→する：00392_suru⟧: to be late for ~\n- {遅刻|ちこく}⟦の→の：09472_no⟧⟦{理由|りゆう}→理由：01102_riyuu⟧: reason for being late\n- {遅刻|ちこく}⟦{届|とどけ}→届け：07558_todoke⟧: late arrival notice (at school/work)\n- {遅刻|ちこく}⟦{常習|じょうしゅう}→常習：noentry⟧: habitual lateness\n\nCULTURAL NOTE:\nPunctuality is highly valued in Japan. Being late ({遅刻|ちこく}) — even by a few minutes — is taken seriously at school and in the workplace. An apology or explanation is typically expected.\n\nSIMILAR WORDS:\n- ⟦{遅|おく}れる→遅れる：00741_okureru⟧: to be late/delayed (more general — can apply to trains, deliveries, etc.)\n- {遅刻|ちこく}: specifically a person arriving late for a scheduled event",
   "cross_references": [
     {
       "type": "antonym",
-      "reading": "じかん",
+      "reading": "じかんどおり",
       "headword": "{時間|じかん}どおり",
-      "label": "on time"
+      "label": "on time",
+      "target_id": "20620_jikandoori"
     }
   ],
   "metadata": {
     "created": "2026-01-12T09:16:00Z",
-    "modified": "2026-03-29T07:30:48Z",
+    "modified": "2026-05-25T19:11:11Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
