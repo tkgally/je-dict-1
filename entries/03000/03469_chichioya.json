@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03469_chichioya_ex1",
-      "japanese": "{彼|かれ}の{父親|ちちおや}は{医者|いしゃ}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{父親|ちちおや}⟦は→は：00079_ha⟧⟦{医者|いしゃ}→医者：02847_isha⟧⟦だ→だ：09496_da⟧。",
       "english": "His father is a doctor.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03469_chichioya_ex2",
-      "japanese": "{父親|ちちおや}として、{子|こ}どもの{将来|しょうらい}が{心配|しんぱい}だ。",
+      "japanese": "{父親|ちちおや}⟦として→として：06802_toshite⟧、⟦{子|こ}ども→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{将来|しょうらい}→将来：01438_shourai⟧⟦が→が：00051_ga⟧⟦{心配|しんぱい}→心配：00811_shinpai⟧⟦だ→だ：09496_da⟧。",
       "english": "As a father, I worry about my children's future.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03469_chichioya_ex3",
-      "japanese": "{彼女|かのじょ}は{父親|ちちおや}に{似|に}ている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{父親|ちちおや}⟦に→に：00314_ni⟧⟦{似|に}て→似る：01159_niru⟧⟦いる→いる：00495_iru⟧。",
       "english": "She resembles her father.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03469_chichioya_ex4",
-      "japanese": "{父親|ちちおや}の{背中|せなか}を{見|み}て{育|そだ}った。",
+      "japanese": "{父親|ちちおや}⟦の→の：09472_no⟧⟦{背中|せなか}→背中：00810_senaka⟧⟦を→を：00422_wo⟧⟦{見|み}て→見る：00283_miru⟧⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "I grew up watching my father's back (learning from his example).",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03469_chichioya_ex5",
-      "japanese": "{彼|かれ}は{二人|ふたり}の{子供|こども}の{父親|ちちおや}だ。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{二人|ふたり}→二人：00622_futari⟧⟦の→の：09472_no⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧{父親|ちちおや}⟦だ→だ：09496_da⟧。",
       "english": "He is the father of two children.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{父親|ちちおや}: Formal, objective term for 'father' used when discussing fathers in general or describing family relationships\n・{父|ちち}: Humble term used to refer to one's own father when speaking to others\n・お{父|とう}さん: Polite/familiar term used to address one's father or refer to someone else's father\n・パパ: Casual, childish term for 'daddy'\n\nCOMMON PATTERNS:\n・{父親|ちちおや}として (as a father)\n・{父親|ちちおや}になる (to become a father)\n・{父親|ちちおや}らしい (fatherly)",
+  "notes": "SIMILAR WORDS:\n・{父親|ちちおや}: Formal, objective term for 'father' used when discussing fathers in general or describing family relationships\n・⟦{父|ちち}→父：00566_chichi⟧: Humble term used to refer to one's own father when speaking to others\n・⟦お{父|とう}さん→お父さん：02855_otousan⟧: Polite/familiar term used to address one's father or refer to someone else's father\n・⟦パパ→パパ：01788_papa⟧: Casual, childish term for 'daddy'\n\nCOMMON PATTERNS:\n・{父親|ちちおや}⟦として→として：06802_toshite⟧ (as a father)\n・{父親|ちちおや}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become a father)\n・{父親|ちちおや}⟦らしい→らしい：09502_rashii⟧ (fatherly)",
   "cross_references": [
     {
       "type": "antonym",
@@ -82,9 +82,10 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:17:00Z",
-    "modified": "2026-02-28T23:29:34Z",
+    "modified": "2026-05-25T20:06:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
+    "schema_version": "2.0",
     "tags": {
       "pos": [
         "noun"

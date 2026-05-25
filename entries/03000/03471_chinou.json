@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03471_chinou_ex1",
-      "japanese": "{知能|ちのう}テストを{受|う}けた。",
+      "japanese": "{知能|ちのう}⟦テスト→テスト：01065_tesuto⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "I took an intelligence test.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03471_chinou_ex2",
-      "japanese": "イルカは{知能|ちのう}が{高|たか}い{動物|どうぶつ}だ。",
+      "japanese": "⟦イルカ→海豚：04313_iruka⟧⟦は→は：00079_ha⟧{知能|ちのう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧⟦{動物|どうぶつ}→動物：01480_doubutsu⟧⟦だ→だ：09496_da⟧。",
       "english": "Dolphins are highly intelligent animals.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03471_chinou_ex3",
-      "japanese": "{人工|じんこう}{知能|ちのう}の{研究|けんきゅう}が{進|すす}んでいる。",
+      "japanese": "⟦{人工|じんこう}{知能|ちのう}→人工知能：04878_jinkouchinou⟧⟦の→の：09472_no⟧⟦{研究|けんきゅう}→研究：01396_kenkyuu⟧⟦が→が：00051_ga⟧⟦{進|すす}んで→進む：01225_susumu⟧⟦いる→いる：00495_iru⟧。",
       "english": "Research on artificial intelligence is progressing.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{知能|ちのう} refers to the innate capacity for learning, reasoning, and problem-solving — mental ability rather than acquired knowledge.\n\nCOMMON COMPOUNDS:\n- {人工|じんこう}{知能|ちのう} (AI, artificial intelligence)\n- {知能|ちのう}テスト (intelligence test, IQ test)\n- {知能|ちのう}{指数|しすう} (intelligence quotient, IQ)\n- {知能|ちのう}{犯|はん} (intellectual crime, white-collar crime)\n- {高|こう}{知能|ちのう} (high intelligence)\n\nCOMMON PATTERNS:\n- {知能|ちのう}が{高|たか}い/{低|ひく}い (intelligence is high/low)\n- {知能|ちのう}を{持|も}つ (to possess intelligence)\n\nSIMILAR WORDS:\n- {知識|ちしき}: knowledge — information one has learned\n- {知恵|ちえ}: wisdom — practical, experience-based intelligence\n- {頭脳|ずのう}: brains, intellect — focuses on thinking power\n- {知性|ちせい}: intellect — refined, cultured intelligence",
+  "notes": "{知能|ちのう} refers to the innate capacity for learning, reasoning, and problem-solving — mental ability rather than acquired knowledge.\n\nCOMMON COMPOUNDS:\n- ⟦{人工|じんこう}{知能|ちのう}→人工知能：04878_jinkouchinou⟧ (AI, artificial intelligence)\n- {知能|ちのう}⟦テスト→テスト：01065_tesuto⟧ (intelligence test, IQ test)\n- {知能|ちのう}⟦{指数|しすう}→指数：20414_shisuu⟧ (intelligence quotient, IQ)\n- {知能|ちのう}⟦{犯|はん}→犯：noentry⟧ (intellectual crime, white-collar crime)\n- ⟦{高|こう}→高：noentry⟧{知能|ちのう} (high intelligence)\n\nCOMMON PATTERNS:\n- {知能|ちのう}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{低|ひく}い→低い：02947_hikui⟧ (intelligence is high/low)\n- {知能|ちのう}⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to possess intelligence)\n\nSIMILAR WORDS:\n- ⟦{知識|ちしき}→知識：01463_chishiki⟧: knowledge — information one has learned\n- ⟦{知恵|ちえ}→知恵：03428_chie⟧: wisdom — practical, experience-based intelligence\n- ⟦{頭脳|ずのう}→頭脳：00438_zunou⟧: brains, intellect — focuses on thinking power\n- ⟦{知性|ちせい}→知性：13690_chisei⟧: intellect — refined, cultured intelligence",
   "cross_references": [
     {
       "type": "related",
@@ -69,9 +69,10 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:17:30Z",
-    "modified": "2026-04-29T07:15:05Z",
+    "modified": "2026-05-25T20:06:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
+    "schema_version": "2.0",
     "tags": {
       "pos": [
         "noun"

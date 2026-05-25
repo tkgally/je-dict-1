@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03479_chuuko_ex1",
-      "japanese": "{中古|ちゅうこ}の{車|くるま}を{買|か}った。",
+      "japanese": "{中古|ちゅうこ}⟦の→の：09472_no⟧⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought a used car.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03479_chuuko_ex2",
-      "japanese": "この{店|みせ}は{中古|ちゅうこ}のゲームを{売|う}っている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{店|みせ}→店：00497_mise⟧⟦は→は：00079_ha⟧{中古|ちゅうこ}⟦の→の：09472_no⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦を→を：00422_wo⟧⟦{売|う}って→売る：00906_uru⟧⟦いる→いる：00495_iru⟧。",
       "english": "This store sells used games.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03479_chuuko_ex3",
-      "japanese": "{中古|ちゅうこ}でもいいから、{安|やす}いパソコンが{欲|ほ}しい。",
+      "japanese": "{中古|ちゅうこ}⟦でも→でも：00925_demo⟧⟦いい→いい：00118_ii⟧⟦から→から：00504_kara⟧、⟦{安|やす}い→安い：00464_yasui⟧⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧⟦{欲|ほ}しい→欲しい：01107_hoshii⟧。",
       "english": "I want a cheap computer, even if it's used.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SIMILAR WORDS:\n・{中古|ちゅうこ}: Used, secondhand (standard term for pre-owned goods)\n・{古|ふる}い: Old (general adjective, not specifically 'used')\n・お{古|ふる}: Hand-me-down (especially clothes passed to younger siblings)\n\nCOMMON COLLOCATIONS:\n・{中古|ちゅうこ}{車|しゃ}/{車|くるま} (used car)\n・{中古|ちゅうこ}{品|ひん} (used goods, secondhand items)\n・{中古|ちゅうこ}マンション (pre-owned apartment/condo)\n・{中古|ちゅうこ}{住宅|じゅうたく} (pre-owned house)\n\nUSAGE NOTE:\n{中古|ちゅうこ} is neutral and commonly used in commerce. For something very old or antique, {骨董品|こっとうひん} is used instead.",
+  "notes": "SIMILAR WORDS:\n・{中古|ちゅうこ}: Used, secondhand (standard term for pre-owned goods)\n・⟦{古|ふる}い→古い：00488_furui⟧: Old (general adjective, not specifically 'used')\n・⟦お{古|ふる}→お古：noentry⟧: Hand-me-down (especially clothes passed to younger siblings)\n\nCOMMON COLLOCATIONS:\n・{中古|ちゅうこ}⟦{車|しゃ}→車：09874_sha⟧/⟦{車|くるま}→車：00516_kuruma⟧ (used car)\n・{中古|ちゅうこ}⟦{品|ひん}→品：03712_hin⟧ (used goods, secondhand items)\n・{中古|ちゅうこ}⟦マンション→マンション：01035_manshon⟧ (pre-owned apartment/condo)\n・{中古|ちゅうこ}⟦{住宅|じゅうたく}→住宅：03280_juutaku⟧ (pre-owned house)\n\nUSAGE NOTE:\n{中古|ちゅうこ} is neutral and commonly used in commerce. For something very old or antique, ⟦{骨董品|こっとうひん}→骨董品：06990_kottouhin⟧ is used instead.",
   "cross_references": [
     {
       "type": "antonym",
@@ -62,9 +62,10 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:19:30Z",
-    "modified": "2026-04-11T01:25:09Z",
+    "modified": "2026-05-25T20:06:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
+    "schema_version": "2.0",
     "tags": {
       "pos": [
         "noun",
