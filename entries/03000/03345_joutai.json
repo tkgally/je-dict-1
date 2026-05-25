@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03345_joutai_ex1",
-      "japanese": "{患者|かんじゃ}の{状態|じょうたい}は{安定|あんてい}している。",
+      "japanese": "⟦{患者|かんじゃ}→患者：00170_kanja⟧⟦の→の：09472_no⟧{状態|じょうたい}⟦は→は：00079_ha⟧⟦{安定|あんてい}している→安定：01703_antei⟧。",
       "english": "The patient's condition is stable.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03345_joutai_ex2",
-      "japanese": "{道路|どうろ}の{状態|じょうたい}が{悪|わる}い。",
+      "japanese": "⟦{道路|どうろ}→道路：01481_douro⟧⟦の→の：09472_no⟧{状態|じょうたい}⟦が→が：00051_ga⟧⟦{悪|わる}い→悪い：00908_warui⟧。",
       "english": "The road conditions are bad.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03345_joutai_ex3",
-      "japanese": "{緊急|きんきゅう}{状態|じょうたい}が{発生|はっせい}した。",
+      "japanese": "⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{状態|じょうたい}⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生：03133_hassei⟧。",
       "english": "An emergency situation has occurred.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{状態|じょうたい} describes the current condition or state of things.\n\nCOMMON COLLOCATIONS:\n- {状態|じょうたい}が{良|よ}い/{悪|わる}い (in good/bad condition)\n- {健康|けんこう}{状態|じょうたい} (health condition)\n- {緊急|きんきゅう}{状態|じょうたい} (state of emergency)\n- {精神|せいしん}{状態|じょうたい} (mental state)\n- {現在|げんざい}の{状態|じょうたい} (current state)\n\nSIMILAR WORDS:\n- {状態|じょうたい}: condition, state (of health, objects, situations)\n- {状況|じょうきょう}: situation, circumstances (broader context)\n- {様子|ようす}: appearance, state (observable condition)",
+  "notes": "{状態|じょうたい} describes the current condition or state of things.\n\nCOMMON COLLOCATIONS:\n- {状態|じょうたい}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (in good/bad condition)\n- ⟦{健康|けんこう}→健康：02706_kenkou⟧{状態|じょうたい} (health condition)\n- ⟦{緊急|きんきゅう}→緊急：11327_kinkyuu⟧{状態|じょうたい} (state of emergency)\n- ⟦{精神|せいしん}→精神：03377_seishin⟧{状態|じょうたい} (mental state)\n- ⟦{現在|げんざい}→現在：01556_genzai⟧⟦の→の：09472_no⟧{状態|じょうたい} (current state)\n\nSIMILAR WORDS:\n- {状態|じょうたい}: condition, state (of health, objects, situations)\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧: situation, circumstances (broader context)\n- ⟦{様子|ようす}→様子：01521_yousu⟧: appearance, state (observable condition)",
   "cross_references": [
     {
       "type": "synonym",
@@ -69,7 +69,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T06:33:45Z",
-    "modified": "2026-04-07T06:58:52Z",
+    "modified": "2026-05-25T13:14:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -79,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "geography"
+        "state",
+        "condition"
       ]
     }
   }
