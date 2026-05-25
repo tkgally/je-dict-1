@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-25 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28090-28111) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (17)**: {登竜門|とうりゅうもん} (gateway to success), {一等|いっとう} (first prize/class), エリート (elite), とんかつ (breaded pork cutlet), もも (thigh), {切|き}り{花|ばな} (cut flowers), {黒板|こくばん}{拭|ふ}き (blackboard eraser), {辛|つら}さ (hardship), {手玉|てだま} (beanbag; 手玉に取る), {筒|つつ} (tube/cylinder), お{湯|ゆ}{割|わ}り (drink with hot water), {眼|まなこ} (eye, literary), {腰紐|こしひも} (kimono waist cord), {国字|こくじ} (Japanese-made kanji), {地所|じしょ} (plot of land), {藺草|いぐさ} (rush for tatami), {四畳半|よじょうはん} (4.5-mat room), {玉|たま}{入|い}れ (ball-toss game), {五行|ごぎょう} (the five elements)
+- **Pre-noun-adjectival (1)**: {明|あ}くる (the following/next)
+- **Onomatopoeia/adverb (2)**: ぐーぐー (snoring soundly), ころっと (suddenly/completely)
+
+Added one new kanji to the index: {藺|い} (02757). All 22 entries validate; furigana check clean; no verbs/i-adjectives needing conjugation tables. Removed 3 stale candidates (reading-format variants of words created this session). Candidate list synced (1674→1651).
+
 ### 2026-05-25 (Vocabulary Expansion - 21 New Entries)
 Added 21 new dictionary entries (IDs 28069-28089) from `candidate_words.json`. No "seen in entry" candidates remained, so candidates were drawn from the older unprocessed list, skipping the many noisy fragments and dubious-gloss entries in favor of clean, useful words. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
