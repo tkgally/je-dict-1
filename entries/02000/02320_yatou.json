@@ -6,92 +6,6 @@
   "gloss": "to employ, to hire",
   "conjugation": {
     "type": "godan",
-    "ending": "う",
-    "stem": "{雇|やと}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to employ, to hire",
-      "explanation": "To engage someone for work or services."
-    }
-  ],
-  "examples": [
-    {
-      "id": "02320_yatou_ex1",
-      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{雇|やと}う。",
-      "english": "To hire a new employee.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02320_yatou_ex2",
-      "japanese": "⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧{雇|やと}う。",
-      "english": "To hire a part-timer.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "02320_yatou_ex3",
-      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{新卒|しんそつ}→新卒：12871_shinsotsu⟧⟦を→を：00422_wo⟧{雇|やと}っている。",
-      "english": "This company hires new graduates every year.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{雇|やと}う is a godan verb meaning to hire or employ someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: 〜⟦を→を：00422_wo⟧{雇|やと}う\n\nCOMMON PATTERNS:\n- ⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire an employee\n- ⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire a part-timer\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire someone\n- ⟦{正社員|せいしゃいん}→正社員：13194_seishain⟧⟦として→として：06802_toshite⟧{雇|やと}う: to hire as a full-time employee\n\nCOMPOUNDS:\n- ⟦{雇用|こよう}→雇用：04840_koyou⟧: employment\n- ⟦{雇|やと}い{主|ぬし}→雇い主：14964_yatoinushi⟧: employer\n- ⟦{雇|やと}い{入|い}れる→雇い入れる：noentry⟧: to take on, hire\n\nSIMILAR WORDS:\n- ⟦{採用|さいよう}→採用：04563_saiyou⟧⟦する→する：00392_suru⟧: to hire (more formal, often for new graduates)\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧⟦する→する：00392_suru⟧: to fire, dismiss (opposite)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "target_id": "04561_kaiko",
-      "reading": "かいこ",
-      "headword": "{解雇|かいこ}",
-      "label": "dismissal, firing"
-    },
-    {
-      "type": "synonym",
-      "target_id": "04563_saiyou",
-      "reading": "さいよう",
-      "headword": "{採用|さいよう}",
-      "label": "formal hiring"
-    },
-    {
-      "type": "related",
-      "target_id": "04840_koyou",
-      "reading": "こよう",
-      "headword": "{雇用|こよう}",
-      "label": "employment (noun)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-09T08:21:57Z",
-    "modified": "2026-05-20T14:12:34Z",
-    "ai_model": "claude-opus-4-6",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "transitive",
-      "formality": "formal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-u"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -179,5 +93,86 @@
         "negative": "{雇|やと}うな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to employ, to hire",
+      "explanation": "To engage someone for work or services."
+    }
+  ],
+  "examples": [
+    {
+      "id": "02320_yatou_ex1",
+      "japanese": "⟦{新|あたら}しい→新しい：00506_atarashii⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{雇|やと}う。",
+      "english": "To hire a new employee.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02320_yatou_ex2",
+      "japanese": "⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧{雇|やと}う。",
+      "english": "To hire a part-timer.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "02320_yatou_ex3",
+      "japanese": "⟦この→この：00962_kono⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{新卒|しんそつ}→新卒：12871_shinsotsu⟧⟦を→を：00422_wo⟧{雇|やと}っている。",
+      "english": "This company hires new graduates every year.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{雇|やと}う is a godan verb meaning to hire or employ someone.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: 〜⟦を→を：00422_wo⟧{雇|やと}う\n\nCOMMON PATTERNS:\n- ⟦{社員|しゃいん}→社員：03065_shain⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire an employee\n- ⟦アルバイト→アルバイト：01528_arubaito⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire a part-timer\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{雇|やと}う: to hire someone\n- ⟦{正社員|せいしゃいん}→正社員：13194_seishain⟧⟦として→として：06802_toshite⟧{雇|やと}う: to hire as a full-time employee\n\nCOMPOUNDS:\n- ⟦{雇用|こよう}→雇用：04840_koyou⟧: employment\n- ⟦{雇|やと}い{主|ぬし}→雇い主：14964_yatoinushi⟧: employer\n- ⟦{雇|やと}い{入|い}れる→雇い入れる：noentry⟧: to take on, hire\n\nSIMILAR WORDS:\n- ⟦{採用|さいよう}→採用：04563_saiyou⟧⟦する→する：00392_suru⟧: to hire (more formal, often for new graduates)\n- ⟦{解雇|かいこ}→解雇：04561_kaiko⟧⟦する→する：00392_suru⟧: to fire, dismiss (opposite)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "04561_kaiko",
+      "reading": "かいこ",
+      "headword": "{解雇|かいこ}",
+      "label": "dismissal, firing"
+    },
+    {
+      "type": "synonym",
+      "target_id": "04563_saiyou",
+      "reading": "さいよう",
+      "headword": "{採用|さいよう}",
+      "label": "formal hiring"
+    },
+    {
+      "type": "related",
+      "target_id": "04840_koyou",
+      "reading": "こよう",
+      "headword": "{雇用|こよう}",
+      "label": "employment (noun)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T08:21:57Z",
+    "modified": "2026-05-20T14:12:34Z",
+    "ai_model": "claude-opus-4-6",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "transitive",
+      "formality": "formal",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-u"
+    }
   }
 }

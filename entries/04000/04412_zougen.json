@@ -6,91 +6,6 @@
   "gloss": "increase and decrease, fluctuation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{増減|ぞうげん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "increase and decrease, fluctuation",
-      "explanation": "Changes in quantity, going up or down; variation in numbers or amounts."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04412_zougen_ex1",
-      "japanese": "{人口|じんこう}の{増減|ぞうげん}を{調|しら}べる。",
-      "english": "To investigate the increase and decrease in population.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04412_zougen_ex2",
-      "japanese": "{売上|うりあげ}の{増減|ぞうげん}が{激|はげ}しい。",
-      "english": "The fluctuation in sales is significant.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04412_zougen_ex3",
-      "japanese": "{体重|たいじゅう}の{増減|ぞうげん}は{健康|けんこう}に{影響|えいきょう}する。",
-      "english": "Weight fluctuation affects health.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{増減|ぞうげん} describes both increases and decreases—the overall variation or fluctuation in quantity.\n\nCOMPONENTS:\n- {増|ぞう}/{増|ふ}える: increase\n- {減|げん}/{減|へ}る: decrease\n\nCOMMON CONTEXTS:\n- {人口|じんこう}の{増減|ぞうげん}: population changes\n- {売上|うりあげ}の{増減|ぞうげん}: sales fluctuation\n- {体重|たいじゅう}の{増減|ぞうげん}: weight fluctuation\n- {在庫|ざいこ}の{増減|ぞうげん}: inventory changes\n\nRELATED WORDS:\n- {増加|ぞうか}: increase (only)\n- {減少|げんしょう}: decrease (only)\n- {変動|へんどう}: fluctuation, change\n- {上下|じょうげ}: ups and downs",
-  "cross_references": [
-    {
-      "type": "related",
-      "target_id": "03329_zouka",
-      "reading": "ぞうか",
-      "headword": "{増加|ぞうか}",
-      "label": "increase only"
-    },
-    {
-      "type": "related",
-      "target_id": "02719_genshou",
-      "reading": "げんしょう",
-      "headword": "{減少|げんしょう}",
-      "label": "decrease only"
-    },
-    {
-      "type": "synonym",
-      "target_id": "09936_hendou",
-      "reading": "へんどう",
-      "headword": "{変動|へんどう}",
-      "label": "fluctuation, change"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-04-08T02:02:20Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "body-part"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -178,5 +93,86 @@
         "negative": "{増減|ぞうげん}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "increase and decrease, fluctuation",
+      "explanation": "Changes in quantity, going up or down; variation in numbers or amounts."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04412_zougen_ex1",
+      "japanese": "{人口|じんこう}の{増減|ぞうげん}を{調|しら}べる。",
+      "english": "To investigate the increase and decrease in population.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04412_zougen_ex2",
+      "japanese": "{売上|うりあげ}の{増減|ぞうげん}が{激|はげ}しい。",
+      "english": "The fluctuation in sales is significant.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04412_zougen_ex3",
+      "japanese": "{体重|たいじゅう}の{増減|ぞうげん}は{健康|けんこう}に{影響|えいきょう}する。",
+      "english": "Weight fluctuation affects health.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{増減|ぞうげん} describes both increases and decreases—the overall variation or fluctuation in quantity.\n\nCOMPONENTS:\n- {増|ぞう}/{増|ふ}える: increase\n- {減|げん}/{減|へ}る: decrease\n\nCOMMON CONTEXTS:\n- {人口|じんこう}の{増減|ぞうげん}: population changes\n- {売上|うりあげ}の{増減|ぞうげん}: sales fluctuation\n- {体重|たいじゅう}の{増減|ぞうげん}: weight fluctuation\n- {在庫|ざいこ}の{増減|ぞうげん}: inventory changes\n\nRELATED WORDS:\n- {増加|ぞうか}: increase (only)\n- {減少|げんしょう}: decrease (only)\n- {変動|へんどう}: fluctuation, change\n- {上下|じょうげ}: ups and downs",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03329_zouka",
+      "reading": "ぞうか",
+      "headword": "{増加|ぞうか}",
+      "label": "increase only"
+    },
+    {
+      "type": "related",
+      "target_id": "02719_genshou",
+      "reading": "げんしょう",
+      "headword": "{減少|げんしょう}",
+      "label": "decrease only"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09936_hendou",
+      "reading": "へんどう",
+      "headword": "{変動|へんどう}",
+      "label": "fluctuation, change"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-13T22:31:30Z",
+    "modified": "2026-04-08T02:02:20Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body-part"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

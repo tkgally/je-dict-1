@@ -6,7 +6,93 @@
   "gloss": "to support, to hold up",
   "conjugation": {
     "type": "ichidan",
-    "stem": "{支|ささ}え"
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "{支|ささ}える",
+        "negative": "{支|ささ}えない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "{支|ささ}えます",
+        "negative": "{支|ささ}えません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "{支|ささ}えた",
+        "negative": "{支|ささ}えなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "{支|ささ}えました",
+        "negative": "{支|ささ}えませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "{支|ささ}えて",
+        "negative": "{支|ささ}えなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "{支|ささ}えている",
+        "negative": "{支|ささ}えていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "{支|ささ}えています",
+        "negative": "{支|ささ}えていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "{支|ささ}えていた",
+        "negative": "{支|ささ}えていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "{支|ささ}えていました",
+        "negative": "{支|ささ}えていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "{支|ささ}えれば",
+        "negative": "{支|ささ}えなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "{支|ささ}えたら",
+        "negative": "{支|ささ}えなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "{支|ささ}えよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "{支|ささ}えましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "{支|ささ}えられる",
+        "negative": "{支|ささ}えられない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "{支|ささ}えられる",
+        "negative": "{支|ささ}えられない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "{支|ささ}えさせる",
+        "negative": "{支|ささ}えさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "{支|ささ}えろ",
+        "negative": "{支|ささ}えるな"
+      }
+    ]
   },
   "definitions": [
     {
@@ -134,9 +220,27 @@
   ],
   "notes": "{支|ささ}える is an ichidan transitive verb meaning to support, hold up, or sustain.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes を particle: 〜⟦を→を：00422_wo⟧{支|ささ}える\n\nUSAGE TYPES:\n1. Physical: ⟦{体|からだ}→体：00784_karada⟧⟦を→を：00422_wo⟧{支|ささ}える (support one's body)\n2. Financial: ⟦{家族|かぞく}→家族：00552_kazoku⟧⟦を→を：00422_wo⟧{支|ささ}える (support a family)\n3. Emotional: ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦に→に：00314_ni⟧{支|ささ}えられる (be supported by friends)\n4. Structural: ⟦{柱|はしら}→柱：05009_hashira⟧⟦が→が：00051_ga⟧⟦{屋根|やね}→屋根：02264_yane⟧⟦を→を：00422_wo⟧{支|ささ}える (pillars support the roof)\n\nCOMMON PATTERNS:\n- 〜⟦を→を：00422_wo⟧{支|ささ}える: to support ~\n- 〜⟦に→に：00314_ni⟧{支|ささ}えられる: to be supported by ~\n- {支|ささ}え⟦{合|あ}う→合う：10466_au⟧: to support each other\n\nRELATED WORDS:\n- ⟦{支|ささ}え→支え：13038_sasae⟧: support (noun)\n- ⟦{支援|しえん}→支援：07778_shien⟧: assistance, support (formal)\n- ⟦{援助|えんじょ}→援助：01892_enjo⟧: aid, assistance",
   "cross_references": [
-    {"type": "related", "target_id": "07778_shien", "reading": "しえん", "headword": "支援", "label": "more formal/institutional support"},
-    {"type": "related", "target_id": "01892_enjo", "reading": "えんじょ", "headword": "援助", "label": "aid, assistance"},
-    {"type": "related", "target_id": "13038_sasae", "reading": "ささえ", "headword": "支え", "label": "support (noun form)"}
+    {
+      "type": "related",
+      "target_id": "07778_shien",
+      "reading": "しえん",
+      "headword": "支援",
+      "label": "more formal/institutional support"
+    },
+    {
+      "type": "related",
+      "target_id": "01892_enjo",
+      "reading": "えんじょ",
+      "headword": "援助",
+      "label": "aid, assistance"
+    },
+    {
+      "type": "related",
+      "target_id": "13038_sasae",
+      "reading": "ささえ",
+      "headword": "支え",
+      "label": "support (noun form)"
+    }
   ],
   "metadata": {
     "created": "2026-01-09T12:58:22Z",
@@ -155,95 +259,5 @@
       ],
       "verb_class": "ichidan"
     }
-  },
-  "conjugation": {
-    "type": "ichidan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "{支|ささ}える",
-        "negative": "{支|ささ}えない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "{支|ささ}えます",
-        "negative": "{支|ささ}えません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "{支|ささ}えた",
-        "negative": "{支|ささ}えなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "{支|ささ}えました",
-        "negative": "{支|ささ}えませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "{支|ささ}えて",
-        "negative": "{支|ささ}えなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "{支|ささ}えている",
-        "negative": "{支|ささ}えていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "{支|ささ}えています",
-        "negative": "{支|ささ}えていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "{支|ささ}えていた",
-        "negative": "{支|ささ}えていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "{支|ささ}えていました",
-        "negative": "{支|ささ}えていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "{支|ささ}えれば",
-        "negative": "{支|ささ}えなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "{支|ささ}えたら",
-        "negative": "{支|ささ}えなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "{支|ささ}えよう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "{支|ささ}えましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "{支|ささ}えられる",
-        "negative": "{支|ささ}えられない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "{支|ささ}えられる",
-        "negative": "{支|ささ}えられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "{支|ささ}えさせる",
-        "negative": "{支|ささ}えさせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "{支|ささ}えろ",
-        "negative": "{支|ささ}えるな"
-      }
-    ]
   }
 }

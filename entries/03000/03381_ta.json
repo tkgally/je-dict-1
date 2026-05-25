@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03381_ta_ex1",
-      "japanese": "{他|た}に{質問|しつもん}はありますか。",
+      "japanese": "{他|た}⟦に→に：00314_ni⟧⟦{質問|しつもん}→質問：00888_shitsumon⟧⟦は→は：00079_ha⟧⟦ありますか→ある：00104_aru⟧。",
       "english": "Are there any other questions?",
       "notes": "他に = besides this, in addition",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03381_ta_ex2",
-      "japanese": "{他|た}の{人|ひと}に{聞|き}いてみてください。",
+      "japanese": "{他|た}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦みて→見る：00283_miru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please try asking someone else.",
       "notes": "他の + noun = other/another",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03381_ta_ex3",
-      "japanese": "この{問題|もんだい}は{他|た}にも{影響|えいきょう}する。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦は→は：00079_ha⟧{他|た}⟦に→に：00314_ni⟧⟦も→も：00484_mo⟧⟦{影響|えいきょう}→影響：01877_eikyou⟧⟦する→する：00392_suru⟧。",
       "english": "This problem affects other things as well.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03381_ta_ex4",
-      "japanese": "その{他|た}のことは{明日|あした}{話|はな}しましょう。",
+      "japanese": "⟦その→その：00993_sono⟧{他|た}⟦の→の：09472_no⟧⟦こと→こと：01164_koto⟧⟦は→は：00079_ha⟧⟦{明日|あした}→明日：00501_ashita⟧⟦{話|はな}しましょう→話す：00467_hanasu⟧。",
       "english": "Let's talk about the rest tomorrow.",
       "notes": "その他 = the rest, and others",
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03381_ta_ex5",
-      "japanese": "{自分|じぶん}のことだけでなく、{他|た}の{人|ひと}の{気持|きも}ちも{考|かんが}えたほうがいい。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦の→の：09472_no⟧⟦こと→こと：01164_koto⟧⟦だけでなく→〜だけでなく：18373_dakedenaku⟧、{他|た}⟦の→の：09472_no⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦も→も：00484_mo⟧⟦{考|かんが}えた→考える：00856_kangaeru⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "You should think about other people's feelings, not just your own.",
       "notes": null,
       "has_audio": false,
@@ -63,18 +63,19 @@
       ]
     }
   ],
-  "notes": "GRAMMAR PATTERNS:\n- {他|た}に: besides, in addition, else\n- {他|た}の + noun: other/another (noun)\n- その{他|た}: and others, etc.\n\nSIMILAR WORDS:\n- {他|た}: Refers to 'other' in general (places, things, matters)\n- {別|べつ}: Emphasizes 'different' or 'separate'\n- {外|ほか}: Often interchangeable with {他|た}, but slightly more casual\n\nCOMMON EXPRESSIONS:\n- {他|た}でもない (none other than)\n- {他|た}ならぬ (no other than, the very)",
+  "notes": "GRAMMAR PATTERNS:\n- {他|た}⟦に→に：00314_ni⟧: besides, in addition, else\n- {他|た}⟦の→の：09472_no⟧ + noun: other/another (noun)\n- ⟦その→その：00993_sono⟧{他|た}: and others, etc.\n\nSIMILAR WORDS:\n- {他|た}: Refers to 'other' in general (places, things, matters)\n- ⟦{別|べつ}→別：01216_betsu⟧: Emphasizes 'different' or 'separate'\n- ⟦{外|ほか}→他：04129_hoka⟧: Often interchangeable with {他|た}, but slightly more casual\n\nCOMMON EXPRESSIONS:\n- {他|た}でもない (none other than)\n- {他|た}ならぬ (no other than, the very)",
   "cross_references": [
     {
       "type": "related",
       "reading": "ほか",
       "headword": "{外|ほか}",
-      "label": "similar meaning"
+      "label": "similar meaning",
+      "target_id": "04129_hoka"
     }
   ],
   "metadata": {
     "created": "2026-01-12T14:01:00Z",
-    "modified": "2026-02-28T06:11:05Z",
+    "modified": "2026-05-25T14:40:37Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

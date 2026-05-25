@@ -6,85 +6,6 @@
   "gloss": "settlement; payment",
   "conjugation": {
     "type": "suru",
-    "prefix": "{決済|けっさい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "settlement; payment; transaction completion",
-      "explanation": "The completion of a financial transaction or payment."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05466_kessai_ex1",
-      "japanese": "クレジットカードで{決済|けっさい}する。",
-      "english": "To pay by credit card.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05466_kessai_ex2",
-      "japanese": "{電子|でんし}{決済|けっさい}が{普及|ふきゅう}している。",
-      "english": "Electronic payments are becoming widespread.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05466_kessai_ex3",
-      "japanese": "{決済|けっさい}が{完了|かんりょう}しました。",
-      "english": "The payment has been completed.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "The completion of a financial transaction. A compound of {決|けつ} (settle) + {済|さい} (finish). More formal and technical than {支払|しはら}い (payment).\n\nCOMMON EXPRESSIONS:\n- {決済|けっさい}{方法|ほうほう}: payment method\n- {電子|でんし}{決済|けっさい}: electronic payment\n- キャッシュレス{決済|けっさい}: cashless payment\n- {決済|けっさい}{完了|かんりょう}: payment completed\n- {決済|けっさい}する: to complete a payment\n\nMODERN USAGE:\nVery common in e-commerce, fintech, and POS systems. QRコード{決済|けっさい} (QR code payment) has become widespread in Japan.\n\nHOMOPHONE:\n{決裁|けっさい} means \"approval/authorization\" (different kanji, different meaning).",
-  "cross_references": [
-    {
-      "type": "synonym",
-      "target_id": "02116_shiharau",
-      "reading": "しはらう",
-      "headword": "{支払|しはら}う",
-      "label": "to pay (everyday)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T07:41:01Z",
-    "modified": "2026-04-14T06:33:24Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "leisure"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "11100_kessai",
-      "reading": "けっさい",
-      "headword": "{決裁|けっさい}",
-      "note": "approval, authorization"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -172,5 +93,80 @@
         "negative": "{決済|けっさい}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "settlement; payment; transaction completion",
+      "explanation": "The completion of a financial transaction or payment."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05466_kessai_ex1",
+      "japanese": "クレジットカードで{決済|けっさい}する。",
+      "english": "To pay by credit card.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05466_kessai_ex2",
+      "japanese": "{電子|でんし}{決済|けっさい}が{普及|ふきゅう}している。",
+      "english": "Electronic payments are becoming widespread.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05466_kessai_ex3",
+      "japanese": "{決済|けっさい}が{完了|かんりょう}しました。",
+      "english": "The payment has been completed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "The completion of a financial transaction. A compound of {決|けつ} (settle) + {済|さい} (finish). More formal and technical than {支払|しはら}い (payment).\n\nCOMMON EXPRESSIONS:\n- {決済|けっさい}{方法|ほうほう}: payment method\n- {電子|でんし}{決済|けっさい}: electronic payment\n- キャッシュレス{決済|けっさい}: cashless payment\n- {決済|けっさい}{完了|かんりょう}: payment completed\n- {決済|けっさい}する: to complete a payment\n\nMODERN USAGE:\nVery common in e-commerce, fintech, and POS systems. QRコード{決済|けっさい} (QR code payment) has become widespread in Japan.\n\nHOMOPHONE:\n{決裁|けっさい} means \"approval/authorization\" (different kanji, different meaning).",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02116_shiharau",
+      "reading": "しはらう",
+      "headword": "{支払|しはら}う",
+      "label": "to pay (everyday)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T07:41:01Z",
+    "modified": "2026-04-14T06:33:24Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "leisure"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "11100_kessai",
+      "reading": "けっさい",
+      "headword": "{決裁|けっさい}",
+      "note": "approval, authorization"
+    }
+  ]
 }

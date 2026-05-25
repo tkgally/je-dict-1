@@ -6,94 +6,6 @@
   "gloss": "arbitration; mediation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{仲裁|ちゅうさい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "arbitration; mediation",
-      "explanation": "The process of intervening between two disputing parties to help resolve their conflict. Can refer to formal legal arbitration or informal mediation."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05907_chuusai_ex1",
-      "japanese": "{国際|こくさい}{仲裁|ちゅうさい}{裁判所|さいばんしょ}に{訴|うった}えた。",
-      "english": "They appealed to the international arbitration court.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05907_chuusai_ex2",
-      "japanese": "{友人|ゆうじん}が{二人|ふたり}の{喧嘩|けんか}を{仲裁|ちゅうさい}してくれた。",
-      "english": "A friend mediated the argument between the two.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05907_chuusai_ex3",
-      "japanese": "{仲裁|ちゅうさい}に{入|はい}って{紛争|ふんそう}を{解決|かいけつ}した。",
-      "english": "They stepped in to mediate and resolved the dispute.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{仲裁|ちゅうさい} means intervening between disputing parties to help resolve a conflict. It covers both formal legal arbitration and informal mediation between people.\n\nWORD FORMATION:\n{仲|ちゅう} (between, intermediary) + {裁|さい} (judge, decide)\n\nCOMMON COLLOCATIONS:\n- {仲裁|ちゅうさい}に{入|はい}る: to step in as mediator\n- {仲裁|ちゅうさい}を{求|もと}める: to seek arbitration\n- {仲裁|ちゅうさい}{裁判所|さいばんしょ}: arbitration court/tribunal\n- {仲裁|ちゅうさい}{人|にん}: arbitrator\n- {仲裁|ちゅうさい}{判断|はんだん}: arbitral decision\n\nSIMILAR WORDS:\n- {仲裁|ちゅうさい}: arbitration (a third party helps decide the outcome)\n- {調停|ちょうてい}: mediation, conciliation (a third party facilitates discussion)\n- {和解|わかい}: settlement, reconciliation (the parties reach agreement)\n- {仲直|なかなお}り: making up (informal, between friends/family)\n\nREGISTER:\nThe legal sense is formal. In everyday speech, {仲裁|ちゅうさい}に{入|はい}る is used casually to mean stepping in to break up an argument.",
-  "cross_references": [
-    {
-      "type": "synonym",
-      "target_id": "14251_choutei",
-      "reading": "ちょうてい",
-      "headword": "{調停|ちょうてい}",
-      "label": "mediation, conciliation"
-    },
-    {
-      "type": "synonym",
-      "target_id": "10578_wakai",
-      "reading": "わかい",
-      "headword": "{和解|わかい}",
-      "label": "settlement, reconciliation"
-    },
-    {
-      "type": "related",
-      "target_id": "03127_nakanaori",
-      "reading": "なかなおり",
-      "headword": "{仲直|なかなお}り",
-      "label": "making up (informal)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-04-17T14:07:51Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "informal",
-      "domain": [
-        "legal"
-      ],
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -181,5 +93,89 @@
         "negative": "{仲裁|ちゅうさい}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "arbitration; mediation",
+      "explanation": "The process of intervening between two disputing parties to help resolve their conflict. Can refer to formal legal arbitration or informal mediation."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05907_chuusai_ex1",
+      "japanese": "{国際|こくさい}{仲裁|ちゅうさい}{裁判所|さいばんしょ}に{訴|うった}えた。",
+      "english": "They appealed to the international arbitration court.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05907_chuusai_ex2",
+      "japanese": "{友人|ゆうじん}が{二人|ふたり}の{喧嘩|けんか}を{仲裁|ちゅうさい}してくれた。",
+      "english": "A friend mediated the argument between the two.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05907_chuusai_ex3",
+      "japanese": "{仲裁|ちゅうさい}に{入|はい}って{紛争|ふんそう}を{解決|かいけつ}した。",
+      "english": "They stepped in to mediate and resolved the dispute.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{仲裁|ちゅうさい} means intervening between disputing parties to help resolve a conflict. It covers both formal legal arbitration and informal mediation between people.\n\nWORD FORMATION:\n{仲|ちゅう} (between, intermediary) + {裁|さい} (judge, decide)\n\nCOMMON COLLOCATIONS:\n- {仲裁|ちゅうさい}に{入|はい}る: to step in as mediator\n- {仲裁|ちゅうさい}を{求|もと}める: to seek arbitration\n- {仲裁|ちゅうさい}{裁判所|さいばんしょ}: arbitration court/tribunal\n- {仲裁|ちゅうさい}{人|にん}: arbitrator\n- {仲裁|ちゅうさい}{判断|はんだん}: arbitral decision\n\nSIMILAR WORDS:\n- {仲裁|ちゅうさい}: arbitration (a third party helps decide the outcome)\n- {調停|ちょうてい}: mediation, conciliation (a third party facilitates discussion)\n- {和解|わかい}: settlement, reconciliation (the parties reach agreement)\n- {仲直|なかなお}り: making up (informal, between friends/family)\n\nREGISTER:\nThe legal sense is formal. In everyday speech, {仲裁|ちゅうさい}に{入|はい}る is used casually to mean stepping in to break up an argument.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "14251_choutei",
+      "reading": "ちょうてい",
+      "headword": "{調停|ちょうてい}",
+      "label": "mediation, conciliation"
+    },
+    {
+      "type": "synonym",
+      "target_id": "10578_wakai",
+      "reading": "わかい",
+      "headword": "{和解|わかい}",
+      "label": "settlement, reconciliation"
+    },
+    {
+      "type": "related",
+      "target_id": "03127_nakanaori",
+      "reading": "なかなおり",
+      "headword": "{仲直|なかなお}り",
+      "label": "making up (informal)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T14:51:32Z",
+    "modified": "2026-04-17T14:07:51Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "informal",
+      "domain": [
+        "legal"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

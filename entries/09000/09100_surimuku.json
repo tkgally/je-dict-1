@@ -6,71 +6,6 @@
   "gloss": "to scrape, to graze",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "すりむ"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to scrape, to graze, to skin",
-      "explanation": "To scrape skin off by friction, typically from falling down. A very common childhood experience."
-    }
-  ],
-  "examples": [
-    {
-      "id": "09100_surimuku_ex1",
-      "japanese": "{膝|ひざ}をすりむいた。",
-      "english": "I scraped my knee.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "09100_surimuku_ex2",
-      "japanese": "{転|ころ}んで{肘|ひじ}をすりむいた。",
-      "english": "I fell and scraped my elbow.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    },
-    {
-      "id": "09100_surimuku_ex3",
-      "japanese": "{子供|こども}が{遊|あそ}んでいて{手|て}をすりむいてしまった。",
-      "english": "The child scraped their hand while playing.",
-      "sense_numbers": [
-        1
-      ],
-      "has_audio": false,
-      "notes": null
-    }
-  ],
-  "notes": "すりむく means to scrape or graze the skin, typically from falling down or rubbing against a rough surface.\n\nKANJI:\nCan be written as {擦|す}り{剥|む}く, though usually written in kana.\n\nWORD FORMATION:\n{擦|す}る (to rub) + {剥|む}く (to peel) — literally 'to rub off skin.'\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: [body part]をすりむく\n\nASPECT (ている):\nすりむいている describes the resulting state: the skin is scraped/grazed.\n\nCOMMON COLLOCATIONS:\n- {膝|ひざ}をすりむく (scrape one's knee)\n- {肘|ひじ}をすりむく (scrape one's elbow)\n- {手|て}をすりむく (scrape one's hand)\n- {転|ころ}んですりむく (fall and scrape oneself)\n\nRELATED:\n- すり{傷|きず} (scrape, graze — the resulting wound)\n- {擦|す}りむける (intransitive: skin comes off from friction)",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-31T04:25:12Z",
-    "modified": "2026-04-10T06:37:10Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "body",
-        "injury"
-      ],
-      "verb_class": "godan-ku"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -158,5 +93,65 @@
         "negative": "すりむくな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to scrape, to graze, to skin",
+      "explanation": "To scrape skin off by friction, typically from falling down. A very common childhood experience."
+    }
+  ],
+  "examples": [
+    {
+      "id": "09100_surimuku_ex1",
+      "japanese": "{膝|ひざ}をすりむいた。",
+      "english": "I scraped my knee.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09100_surimuku_ex2",
+      "japanese": "{転|ころ}んで{肘|ひじ}をすりむいた。",
+      "english": "I fell and scraped my elbow.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "09100_surimuku_ex3",
+      "japanese": "{子供|こども}が{遊|あそ}んでいて{手|て}をすりむいてしまった。",
+      "english": "The child scraped their hand while playing.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "すりむく means to scrape or graze the skin, typically from falling down or rubbing against a rough surface.\n\nKANJI:\nCan be written as {擦|す}り{剥|む}く, though usually written in kana.\n\nWORD FORMATION:\n{擦|す}る (to rub) + {剥|む}く (to peel) — literally 'to rub off skin.'\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Pattern: [body part]をすりむく\n\nASPECT (ている):\nすりむいている describes the resulting state: the skin is scraped/grazed.\n\nCOMMON COLLOCATIONS:\n- {膝|ひざ}をすりむく (scrape one's knee)\n- {肘|ひじ}をすりむく (scrape one's elbow)\n- {手|て}をすりむく (scrape one's hand)\n- {転|ころ}んですりむく (fall and scrape oneself)\n\nRELATED:\n- すり{傷|きず} (scrape, graze — the resulting wound)\n- {擦|す}りむける (intransitive: skin comes off from friction)",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-31T04:25:12Z",
+    "modified": "2026-04-10T06:37:10Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "body",
+        "injury"
+      ],
+      "verb_class": "godan-ku"
+    }
   }
 }

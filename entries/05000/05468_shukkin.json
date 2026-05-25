@@ -6,85 +6,6 @@
   "gloss": "withdrawal; disbursement",
   "conjugation": {
     "type": "suru",
-    "prefix": "{出金|しゅっきん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "withdrawal; disbursement; cash withdrawal",
-      "explanation": "Money going out of an account or being withdrawn."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05468_shukkin_ex1",
-      "japanese": "ATMで{出金|しゅっきん}する。",
-      "english": "To withdraw money from an ATM.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05468_shukkin_ex2",
-      "japanese": "{出金|しゅっきん}{履歴|りれき}を{確認|かくにん}する。",
-      "english": "To check the withdrawal history.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05468_shukkin_ex3",
-      "japanese": "{一日|いちにち}の{出金|しゅっきん}{限度額|げんどがく}は50{万|まん}{円|えん}です。",
-      "english": "The daily withdrawal limit is 500,000 yen.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{出金|しゅっきん} refers to money leaving an account — whether through ATM withdrawal, bank transfer, or disbursement. Used in banking, accounting, and financial contexts.\n\nCOMMON EXPRESSIONS:\n- {出金|しゅっきん}{手数料|てすうりょう}: withdrawal fee\n- {出金|しゅっきん}{限度額|げんどがく}: withdrawal limit\n- {出金|しゅっきん}{履歴|りれき}: withdrawal history\n- {出金|しゅっきん}{伝票|でんぴょう}: withdrawal slip\n\nCONTRAST:\n- {出金|しゅっきん}: money going out (withdrawal/disbursement)\n- {入金|にゅうきん}: money coming in (deposit/payment received)\n\nHOMOPHONE NOTE:\nSame reading as {出勤|しゅっきん} (going to work) — different kanji, completely different meaning.",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "target_id": "05467_nyuukin",
-      "reading": "にゅうきん",
-      "headword": "{入金|にゅうきん}",
-      "label": "deposit, payment received"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T07:41:01Z",
-    "modified": "2026-04-14T05:01:22Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "04548_shukkin",
-      "reading": "しゅっきん",
-      "headword": "{出勤|しゅっきん}",
-      "note": "going to work"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -172,5 +93,80 @@
         "negative": "{出金|しゅっきん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "withdrawal; disbursement; cash withdrawal",
+      "explanation": "Money going out of an account or being withdrawn."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05468_shukkin_ex1",
+      "japanese": "ATMで{出金|しゅっきん}する。",
+      "english": "To withdraw money from an ATM.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05468_shukkin_ex2",
+      "japanese": "{出金|しゅっきん}{履歴|りれき}を{確認|かくにん}する。",
+      "english": "To check the withdrawal history.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05468_shukkin_ex3",
+      "japanese": "{一日|いちにち}の{出金|しゅっきん}{限度額|げんどがく}は50{万|まん}{円|えん}です。",
+      "english": "The daily withdrawal limit is 500,000 yen.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{出金|しゅっきん} refers to money leaving an account — whether through ATM withdrawal, bank transfer, or disbursement. Used in banking, accounting, and financial contexts.\n\nCOMMON EXPRESSIONS:\n- {出金|しゅっきん}{手数料|てすうりょう}: withdrawal fee\n- {出金|しゅっきん}{限度額|げんどがく}: withdrawal limit\n- {出金|しゅっきん}{履歴|りれき}: withdrawal history\n- {出金|しゅっきん}{伝票|でんぴょう}: withdrawal slip\n\nCONTRAST:\n- {出金|しゅっきん}: money going out (withdrawal/disbursement)\n- {入金|にゅうきん}: money coming in (deposit/payment received)\n\nHOMOPHONE NOTE:\nSame reading as {出勤|しゅっきん} (going to work) — different kanji, completely different meaning.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "05467_nyuukin",
+      "reading": "にゅうきん",
+      "headword": "{入金|にゅうきん}",
+      "label": "deposit, payment received"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T07:41:01Z",
+    "modified": "2026-04-14T05:01:22Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "04548_shukkin",
+      "reading": "しゅっきん",
+      "headword": "{出勤|しゅっきん}",
+      "note": "going to work"
+    }
+  ]
 }

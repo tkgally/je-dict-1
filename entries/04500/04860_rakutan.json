@@ -6,86 +6,6 @@
   "gloss": "disappointment, dejection",
   "conjugation": {
     "type": "suru",
-    "prefix": "{落胆|らくたん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "disappointment, dejection, discouragement",
-      "explanation": "Loss of hope or enthusiasm; being discouraged by failure."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04860_rakutan_ex1",
-      "japanese": "{結果|けっか}に{落胆|らくたん}した。",
-      "english": "I was disappointed by the results.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04860_rakutan_ex2",
-      "japanese": "{落胆|らくたん}を{隠|かく}せなかった。",
-      "english": "I couldn't hide my disappointment.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04860_rakutan_ex3",
-      "japanese": "{落胆|らくたん}している{場合|ばあい}ではない。",
-      "english": "This is not the time to be dejected.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{落胆|らくたん} expresses disappointment or discouragement, typically at a deeper level than casual disappointment.\n\nWORD FORMATION:\n{落|らく} (fall) + {胆|たん} (courage/spirit) — literally \"one's spirit falls\"\n\nCOMMON PATTERNS:\n- 〜に{落胆|らくたん}する: to be disappointed by ~\n- {落胆|らくたん}を{隠|かく}せない: unable to hide disappointment\n- {落胆|らくたん}している{場合|ばあい}ではない: no time to be dejected\n\nREGISTER:\nMore formal and literary than がっかり. Common in news reports, written language, and formal speech.\n\nSIMILAR WORDS:\n- がっかり: disappointed (casual, everyday)\n- {失望|しつぼう}: disappointment (also formal)",
-  "cross_references": [
-    {
-      "type": "synonym",
-      "reading": "がっかり",
-      "headword": "がっかり",
-      "label": "colloquial",
-      "target_id": "00054_gakkari"
-    },
-    {
-      "type": "synonym",
-      "target_id": "03183_shitsubou",
-      "reading": "しつぼう",
-      "headword": "{失望|しつぼう}",
-      "label": "disappointment (formal)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-15T23:59:03Z",
-    "modified": "2026-04-10T12:45:13Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "style": [
-        "written"
-      ],
-      "politeness": "plain",
-      "semantic": [
-        "electronics",
-        "emotion",
-        "time-general"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -173,5 +93,81 @@
         "negative": "{落胆|らくたん}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "disappointment, dejection, discouragement",
+      "explanation": "Loss of hope or enthusiasm; being discouraged by failure."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04860_rakutan_ex1",
+      "japanese": "{結果|けっか}に{落胆|らくたん}した。",
+      "english": "I was disappointed by the results.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04860_rakutan_ex2",
+      "japanese": "{落胆|らくたん}を{隠|かく}せなかった。",
+      "english": "I couldn't hide my disappointment.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04860_rakutan_ex3",
+      "japanese": "{落胆|らくたん}している{場合|ばあい}ではない。",
+      "english": "This is not the time to be dejected.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{落胆|らくたん} expresses disappointment or discouragement, typically at a deeper level than casual disappointment.\n\nWORD FORMATION:\n{落|らく} (fall) + {胆|たん} (courage/spirit) — literally \"one's spirit falls\"\n\nCOMMON PATTERNS:\n- 〜に{落胆|らくたん}する: to be disappointed by ~\n- {落胆|らくたん}を{隠|かく}せない: unable to hide disappointment\n- {落胆|らくたん}している{場合|ばあい}ではない: no time to be dejected\n\nREGISTER:\nMore formal and literary than がっかり. Common in news reports, written language, and formal speech.\n\nSIMILAR WORDS:\n- がっかり: disappointed (casual, everyday)\n- {失望|しつぼう}: disappointment (also formal)",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "reading": "がっかり",
+      "headword": "がっかり",
+      "label": "colloquial",
+      "target_id": "00054_gakkari"
+    },
+    {
+      "type": "synonym",
+      "target_id": "03183_shitsubou",
+      "reading": "しつぼう",
+      "headword": "{失望|しつぼう}",
+      "label": "disappointment (formal)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-15T23:59:03Z",
+    "modified": "2026-04-10T12:45:13Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "style": [
+        "written"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "electronics",
+        "emotion",
+        "time-general"
+      ],
+      "verb_class": "suru"
+    }
   }
 }
