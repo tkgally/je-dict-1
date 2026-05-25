@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03474_doushi_ex1",
-      "japanese": "{男|おとこ}{同士|どうし}の{会話|かいわ}だ。",
+      "japanese": "⟦{男|おとこ}→男：00561_otoko⟧{同士|どうし}⟦の→の：09472_no⟧⟦{会話|かいわ}→会話：01271_kaiwa⟧⟦だ→だ：09496_da⟧。",
       "english": "It's a conversation between men.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03474_doushi_ex2",
-      "japanese": "{仲間|なかま}{同士|どうし}で{助|たす}け{合|あ}おう。",
+      "japanese": "⟦{仲間|なかま}→仲間：03498_nakama⟧{同士|どうし}⟦で→で：00502_de⟧⟦{助|たす}け{合|あ}おう→助け合う：04654_tasukeau⟧。",
       "english": "Let's help each other as comrades.",
       "notes": null,
       "has_audio": false,
@@ -34,16 +34,16 @@
     },
     {
       "id": "03474_doushi_ex3",
-      "japanese": "{友達|ともだち}{同士|どうし}で{旅行|りょこう}に{行|い}った。",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧{同士|どうし}⟦で→で：00502_de⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went on a trip with friends.",
-      "notes": "友達同士 = among friends",
+      "notes": "⟦{友達|ともだち}→友達：01478_tomodachi⟧{同士|どうし} = among friends",
       "has_audio": false,
       "sense_numbers": [
         1
       ]
     }
   ],
-  "notes": "USAGE: {同士|どうし} is often used as a suffix attached to nouns to mean 'among ~' or '~ with each other'. It emphasizes shared membership in a group.\n\nCOMMON PATTERNS:\n・〜{同士|どうし} (among ~, between ~)\n・{友達|ともだち}{同士|どうし} (among friends)\n・{仲間|なかま}{同士|どうし} (among companions)\n・{男|おとこ}/{女|おんな}{同士|どうし} (among men/women)\n・{恋人|こいびと}{同士|どうし} (as lovers)\n・{親子|おやこ}{同士|どうし} (between parent and child)\n\nHOMOPHONE:\n・{動詞|どうし} (verb) - same reading, different meaning\n\nSIMILAR WORDS:\n・{仲間|なかま} (companion, colleague)\n・{同僚|どうりょう} (colleague at work)\n・お{互|たが}い (each other, mutual)",
+  "notes": "USAGE: {同士|どうし} is often used as a suffix attached to nouns to mean 'among ~' or '~ with each other'. It emphasizes shared membership in a group.\n\nCOMMON PATTERNS:\n・〜{同士|どうし} (among ~, between ~)\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧{同士|どうし} (among friends)\n・⟦{仲間|なかま}→仲間：03498_nakama⟧{同士|どうし} (among companions)\n・⟦{男|おとこ}→男：00561_otoko⟧/⟦{女|おんな}→女：00559_onna⟧{同士|どうし} (among men/women)\n・⟦{恋人|こいびと}→恋人：02724_koibito⟧{同士|どうし} (as lovers)\n・⟦{親子|おやこ}→親子：10430_oyako⟧{同士|どうし} (between parent and child)\n\nHOMOPHONE:\n・⟦{動詞|どうし}→動詞：03472_doushi⟧ (verb) - same reading, different meaning\n\nSIMILAR WORDS:\n・⟦{仲間|なかま}→仲間：03498_nakama⟧ (companion, colleague)\n・⟦{同僚|どうりょう}→同僚：01023_douryou⟧ (colleague at work)\n・⟦お{互|たが}い→お互い：00336_otagai⟧ (each other, mutual)",
   "cross_references": [
     {
       "type": "contrast",
@@ -62,9 +62,10 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:52:00Z",
-    "modified": "2026-03-01T00:20:50Z",
+    "modified": "2026-05-25T20:06:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
+    "schema_version": "2.0",
     "tags": {
       "pos": [
         "noun",
