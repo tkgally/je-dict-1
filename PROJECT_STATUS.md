@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-25 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 28045-28068) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (16)**: {日本中|にほんじゅう} (all over Japan), {冷暖房|れいだんぼう} (climate control), {滑|すべ}り{出|だ}し (start/outset), {神経科|しんけいか} (neurology dept), {水物|みずもの} (matter of chance), {男児|だんじ} (male child), {商売人|しょうばいにん} (businessperson), {新薬|しんやく} (new drug), {女児|じょじ} (female child), ハローワーク (Hello Work), {夏場|なつば} (summertime), メリーゴーランド (carousel), テーマパーク (theme park), {思想家|しそうか} (thinker), {劇作家|げきさっか} (playwright), トレッキング (trekking), {一行|いっこう} (party/group), {立法権|りっぽうけん} (legislative power)
+- **Noun/adjective-no (1)**: {無症状|むしょうじょう} (asymptomatic)
+- **Na-adjectives (2)**: {誇大|こだい} (exaggerated), {尚早|しょうそう} (premature)
+- **Verbs (3)**: {惑|まど}わす (to mislead — godan), {高|たか}ぶる (to get worked up — godan), {負傷|ふしょう}する (to be injured — suru)
+
+Removed stale candidate (シミ, orthographic variant of existing {染|し}み, 05426). All 24 entries validate; furigana check clean; no new kanji; conjugation tables added to the 3 verbs. Candidate list synced.
+
 ### 2026-05-24 (Vocabulary Expansion - 22 New Entries)
 Added 22 new dictionary entries (IDs 28023-28044) from `candidate_words.json`. No "seen in entry" candidates remained, so candidates were drawn from the older unprocessed list, skipping the many noisy fragments and dubious-gloss entries in favor of clean, useful words. Per-field budgets followed the reference shape of {もてなし} (27261); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
