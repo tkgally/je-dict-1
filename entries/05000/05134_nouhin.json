@@ -6,84 +6,6 @@
   "gloss": "delivery (of goods)",
   "conjugation": {
     "type": "suru",
-    "prefix": "{納品|のうひん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "delivery, supplying goods",
-      "explanation": "The act of delivering ordered goods or products to a customer or client."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05134_nouhin_ex1",
-      "japanese": "{明日|あした}{納品|のうひん}する{予定|よてい}です。",
-      "english": "We are scheduled to deliver tomorrow.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05134_nouhin_ex2",
-      "japanese": "{納品|のうひん}{日|び}を{確認|かくにん}してください。",
-      "english": "Please confirm the delivery date.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05134_nouhin_ex3",
-      "japanese": "{納品|のうひん}{書|しょ}にサインをお{願|ねが}いします。",
-      "english": "Please sign the delivery note.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{納品|のうひん} means delivering ordered goods to a client or customer. The kanji break down as {納|のう} (deliver/supply) + {品|ひん} (goods). It functions as a noun and する verb, and is primarily used in business contexts.\n\nCOMMON COLLOCATIONS:\n- {納品|のうひん}する: to deliver goods\n- {納品|のうひん}{日|び}/{納品|のうひん}{期日|きじつ}: delivery date/deadline\n- {納品|のうひん}{書|しょ}: delivery slip/invoice\n- {納品|のうひん}{先|さき}: delivery destination\n- {納品|のうひん}{期限|きげん}に{間|ま}に{合|あ}う: to make the delivery deadline\n\nCONTRAST:\n- {配達|はいたつ}: general delivery (mail, packages to individuals)\n- {出荷|しゅっか}: shipping (sending goods from a warehouse)\n- {納品|のうひん}: formal delivery of ordered goods to a business client\n\n{納品|のうひん} implies a business transaction where ordered goods are formally handed over.",
-  "cross_references": [
-    {
-      "type": "related",
-      "target_id": "05135_shukka",
-      "reading": "しゅっか",
-      "headword": "{出荷|しゅっか}",
-      "label": "shipping"
-    },
-    {
-      "type": "related",
-      "target_id": "00084_haitatsu",
-      "reading": "はいたつ",
-      "headword": "{配達|はいたつ}",
-      "label": "delivery (general)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-13T03:56:25Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "communication"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -171,5 +93,79 @@
         "negative": "{納品|のうひん}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "delivery, supplying goods",
+      "explanation": "The act of delivering ordered goods or products to a customer or client."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05134_nouhin_ex1",
+      "japanese": "{明日|あした}{納品|のうひん}する{予定|よてい}です。",
+      "english": "We are scheduled to deliver tomorrow.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05134_nouhin_ex2",
+      "japanese": "{納品|のうひん}{日|び}を{確認|かくにん}してください。",
+      "english": "Please confirm the delivery date.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05134_nouhin_ex3",
+      "japanese": "{納品|のうひん}{書|しょ}にサインをお{願|ねが}いします。",
+      "english": "Please sign the delivery note.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{納品|のうひん} means delivering ordered goods to a client or customer. The kanji break down as {納|のう} (deliver/supply) + {品|ひん} (goods). It functions as a noun and する verb, and is primarily used in business contexts.\n\nCOMMON COLLOCATIONS:\n- {納品|のうひん}する: to deliver goods\n- {納品|のうひん}{日|び}/{納品|のうひん}{期日|きじつ}: delivery date/deadline\n- {納品|のうひん}{書|しょ}: delivery slip/invoice\n- {納品|のうひん}{先|さき}: delivery destination\n- {納品|のうひん}{期限|きげん}に{間|ま}に{合|あ}う: to make the delivery deadline\n\nCONTRAST:\n- {配達|はいたつ}: general delivery (mail, packages to individuals)\n- {出荷|しゅっか}: shipping (sending goods from a warehouse)\n- {納品|のうひん}: formal delivery of ordered goods to a business client\n\n{納品|のうひん} implies a business transaction where ordered goods are formally handed over.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05135_shukka",
+      "reading": "しゅっか",
+      "headword": "{出荷|しゅっか}",
+      "label": "shipping"
+    },
+    {
+      "type": "related",
+      "target_id": "00084_haitatsu",
+      "reading": "はいたつ",
+      "headword": "{配達|はいたつ}",
+      "label": "delivery (general)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T02:32:54Z",
+    "modified": "2026-04-13T03:56:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

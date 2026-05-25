@@ -6,91 +6,6 @@
   "gloss": "login; log in",
   "conjugation": {
     "type": "suru",
-    "prefix": "ログイン"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "login; log in",
-      "explanation": "The process of gaining access to a computer system or website by entering credentials."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05276_roguin_ex1",
-      "japanese": "アカウントにログインする。",
-      "english": "To log in to an account.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05276_roguin_ex2",
-      "japanese": "ログインできない{場合|ばあい}はパスワードをリセットしてください。",
-      "english": "If you can't log in, please reset your password.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05276_roguin_ex3",
-      "japanese": "ログイン{情報|じょうほう}を{入力|にゅうりょく}する。",
-      "english": "Enter your login information.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "ログイン is a loanword from English \"login,\" used for accessing accounts on computers, websites, and apps. It functions as a noun and する verb.\n\nCOMMON PATTERNS:\n- ログインする: to log in\n- ログイン{画面|がめん}: login screen\n- ログイン{情報|じょうほう}: login credentials\n- {自動|じどう}ログイン: automatic login\n- ログイン{状態|じょうたい}: logged-in state\n- ログインできない: unable to log in\n\nRELATED IT TERMS:\n- ログアウト: logout (opposite)\n- サインイン: sign in (alternative, often used by Microsoft)\n- パスワード: password\n- アカウント: account\n- {認証|にんしょう}: authentication\n\nNOTE:\nIn Japanese IT contexts, ログイン/ログアウト is the most common pair. サインイン/サインアウト is also used, especially on certain platforms.",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "ろぐあうと",
-      "headword": "ログアウト",
-      "label": "logout",
-      "target_id": "08795_roguauto"
-    },
-    {
-      "type": "related",
-      "reading": "ぱすわーど",
-      "headword": "パスワード",
-      "label": "password",
-      "target_id": "05277_pasuwaado"
-    },
-    {
-      "type": "related",
-      "target_id": "05103_akaunto",
-      "reading": "あかうんと",
-      "headword": "アカウント",
-      "label": "account"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -178,5 +93,86 @@
         "negative": "ログインするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "login; log in",
+      "explanation": "The process of gaining access to a computer system or website by entering credentials."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05276_roguin_ex1",
+      "japanese": "アカウントにログインする。",
+      "english": "To log in to an account.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05276_roguin_ex2",
+      "japanese": "ログインできない{場合|ばあい}はパスワードをリセットしてください。",
+      "english": "If you can't log in, please reset your password.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05276_roguin_ex3",
+      "japanese": "ログイン{情報|じょうほう}を{入力|にゅうりょく}する。",
+      "english": "Enter your login information.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "ログイン is a loanword from English \"login,\" used for accessing accounts on computers, websites, and apps. It functions as a noun and する verb.\n\nCOMMON PATTERNS:\n- ログインする: to log in\n- ログイン{画面|がめん}: login screen\n- ログイン{情報|じょうほう}: login credentials\n- {自動|じどう}ログイン: automatic login\n- ログイン{状態|じょうたい}: logged-in state\n- ログインできない: unable to log in\n\nRELATED IT TERMS:\n- ログアウト: logout (opposite)\n- サインイン: sign in (alternative, often used by Microsoft)\n- パスワード: password\n- アカウント: account\n- {認証|にんしょう}: authentication\n\nNOTE:\nIn Japanese IT contexts, ログイン/ログアウト is the most common pair. サインイン/サインアウト is also used, especially on certain platforms.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "ろぐあうと",
+      "headword": "ログアウト",
+      "label": "logout",
+      "target_id": "08795_roguauto"
+    },
+    {
+      "type": "related",
+      "reading": "ぱすわーど",
+      "headword": "パスワード",
+      "label": "password",
+      "target_id": "05277_pasuwaado"
+    },
+    {
+      "type": "related",
+      "target_id": "05103_akaunto",
+      "reading": "あかうんと",
+      "headword": "アカウント",
+      "label": "account"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T05:20:28Z",
+    "modified": "2026-03-29T03:04:32Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

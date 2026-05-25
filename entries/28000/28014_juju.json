@@ -17,7 +17,9 @@
       "id": "28014_juju_ex1",
       "japanese": "{金銭|きんせん}の{授受|じゅじゅ}があった。",
       "english": "There was an exchange of money.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -25,7 +27,9 @@
       "id": "28014_juju_ex2",
       "japanese": "{書類|しょるい}の{授受|じゅじゅ}は{受付|うけつけ}で{行|おこな}ってください。",
       "english": "Please hand over and receive documents at the reception desk.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -33,7 +37,9 @@
       "id": "28014_juju_ex3",
       "japanese": "{違法|いほう}な{資金|しきん}の{授受|じゅじゅ}が{行|おこな}われていた{疑|うたが}いがある。",
       "english": "There is suspicion that an illegal transfer of funds was taking place.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -43,13 +49,110 @@
   "metadata": {
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun", "verb-suru"],
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
       "formality": "formal",
       "politeness": null,
-      "semantic": ["communication", "business"],
-      "domain": []
+      "semantic": [
+        "communication",
+        "business"
+      ],
+      "domain": [],
+      "verb_class": "suru"
     },
     "created": "2026-05-24T03:09:30Z",
     "modified": "2026-05-24T03:09:30Z"
+  },
+  "conjugation": {
+    "type": "suru",
+    "forms": [
+      {
+        "label": "Present",
+        "affirmative": "授受する",
+        "negative": "授受しない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "授受します",
+        "negative": "授受しません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "授受した",
+        "negative": "授受しなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "授受しました",
+        "negative": "授受しませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "授受して",
+        "negative": "授受しなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "授受している",
+        "negative": "授受していない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "授受しています",
+        "negative": "授受していません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "授受していた",
+        "negative": "授受していなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "授受していました",
+        "negative": "授受していませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "授受すれば",
+        "negative": "授受しなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "授受したら",
+        "negative": "授受しなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "授受しよう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "授受しましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "授受できる",
+        "negative": "授受できない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "授受される",
+        "negative": "授受されない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "授受させる",
+        "negative": "授受させない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "授受しろ",
+        "negative": "授受するな"
+      }
+    ]
   }
 }

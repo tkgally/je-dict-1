@@ -6,84 +6,6 @@
   "gloss": "click (computer)",
   "conjugation": {
     "type": "suru",
-    "prefix": "クリック"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "click",
-      "explanation": "The action of pressing a mouse button to select or activate something on a computer."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05275_kurikku_ex1",
-      "japanese": "ここをクリックしてください。",
-      "english": "Please click here.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05275_kurikku_ex2",
-      "japanese": "リンクをクリックすると{新|あたら}しいページが{開|ひら}く。",
-      "english": "Clicking the link opens a new page.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05275_kurikku_ex3",
-      "japanese": "ダブルクリックでファイルを{開|ひら}く。",
-      "english": "Double-click to open the file.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "クリック is a loanword from English \"click,\" used as both a noun and a する verb in computing contexts.\n\nCOMMON PATTERNS:\n- クリックする: to click\n- ダブルクリック: double-click\n- {右|みぎ}クリック: right-click\n- {左|ひだり}クリック: left-click\n- クリック{率|りつ}: click rate / click-through rate\n\nRELATED TERMS:\n- タップ: tap (for touchscreens and smartphones)\n- ドラッグ: drag\n- スクロール: scroll\n- {選択|せんたく}する: to select\n\nUSAGE:\nクリック primarily refers to mouse actions on a computer. For touchscreen devices, タップ is used instead. In casual speech, ポチる (from the onomatopoeia ポチ for a button press) is a slang alternative meaning \"to click\" or \"to order online.\"",
-  "cross_references": [
-    {
-      "type": "related",
-      "reading": "たっぷ",
-      "headword": "タップ",
-      "label": "tap (touchscreen)",
-      "target_id": "05395_tappu"
-    },
-    {
-      "type": "related",
-      "target_id": "06183_sukurooru",
-      "reading": "すくろーる",
-      "headword": "スクロール",
-      "label": "scroll"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-04-14T01:59:28Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -171,5 +93,79 @@
         "negative": "クリックするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "click",
+      "explanation": "The action of pressing a mouse button to select or activate something on a computer."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05275_kurikku_ex1",
+      "japanese": "ここをクリックしてください。",
+      "english": "Please click here.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05275_kurikku_ex2",
+      "japanese": "リンクをクリックすると{新|あたら}しいページが{開|ひら}く。",
+      "english": "Clicking the link opens a new page.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05275_kurikku_ex3",
+      "japanese": "ダブルクリックでファイルを{開|ひら}く。",
+      "english": "Double-click to open the file.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "クリック is a loanword from English \"click,\" used as both a noun and a する verb in computing contexts.\n\nCOMMON PATTERNS:\n- クリックする: to click\n- ダブルクリック: double-click\n- {右|みぎ}クリック: right-click\n- {左|ひだり}クリック: left-click\n- クリック{率|りつ}: click rate / click-through rate\n\nRELATED TERMS:\n- タップ: tap (for touchscreens and smartphones)\n- ドラッグ: drag\n- スクロール: scroll\n- {選択|せんたく}する: to select\n\nUSAGE:\nクリック primarily refers to mouse actions on a computer. For touchscreen devices, タップ is used instead. In casual speech, ポチる (from the onomatopoeia ポチ for a button press) is a slang alternative meaning \"to click\" or \"to order online.\"",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "たっぷ",
+      "headword": "タップ",
+      "label": "tap (touchscreen)",
+      "target_id": "05395_tappu"
+    },
+    {
+      "type": "related",
+      "target_id": "06183_sukurooru",
+      "reading": "すくろーる",
+      "headword": "スクロール",
+      "label": "scroll"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T05:20:28Z",
+    "modified": "2026-04-14T01:59:28Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

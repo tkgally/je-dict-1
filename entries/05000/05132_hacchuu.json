@@ -6,84 +6,6 @@
   "gloss": "ordering, placing an order",
   "conjugation": {
     "type": "suru",
-    "prefix": "{発注|はっちゅう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "ordering, placing an order",
-      "explanation": "The act of placing an order for goods or services with a supplier or manufacturer."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05132_hacchuu_ex1",
-      "japanese": "{部品|ぶひん}を{発注|はっちゅう}した。",
-      "english": "I placed an order for parts.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05132_hacchuu_ex2",
-      "japanese": "{発注|はっちゅう}{書|しょ}を{送|おく}る。",
-      "english": "To send a purchase order.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05132_hacchuu_ex3",
-      "japanese": "{在庫|ざいこ}が{少|すく}なくなったので、{追加|ついか}{発注|はっちゅう}をした。",
-      "english": "Since the inventory was running low, I placed an additional order.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than {注文|ちゅうもん}, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}する: to place an order\n- {発注|はっちゅう}{書|しょ}: purchase order (document)\n- {発注|はっちゅう}{先|さき}: supplier, vendor\n- {追加|ついか}{発注|はっちゅう}: additional order\n- {大量|たいりょう}{発注|はっちゅう}: bulk order\n\nCONTRAST:\n- {注文|ちゅうもん}: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- {受注|じゅちゅう}: receiving an order (the opposite side of the transaction)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "じゅちゅう",
-      "headword": "{受注|じゅちゅう}",
-      "label": "receiving orders",
-      "target_id": "05133_juchuu"
-    },
-    {
-      "type": "contrast",
-      "target_id": "03485_chuumon",
-      "reading": "ちゅうもん",
-      "headword": "{注文|ちゅうもん}",
-      "label": "order (general)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-13T03:56:25Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -171,5 +93,79 @@
         "negative": "{発注|はっちゅう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "ordering, placing an order",
+      "explanation": "The act of placing an order for goods or services with a supplier or manufacturer."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05132_hacchuu_ex1",
+      "japanese": "{部品|ぶひん}を{発注|はっちゅう}した。",
+      "english": "I placed an order for parts.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05132_hacchuu_ex2",
+      "japanese": "{発注|はっちゅう}{書|しょ}を{送|おく}る。",
+      "english": "To send a purchase order.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05132_hacchuu_ex3",
+      "japanese": "{在庫|ざいこ}が{少|すく}なくなったので、{追加|ついか}{発注|はっちゅう}をした。",
+      "english": "Since the inventory was running low, I placed an additional order.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than {注文|ちゅうもん}, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}する: to place an order\n- {発注|はっちゅう}{書|しょ}: purchase order (document)\n- {発注|はっちゅう}{先|さき}: supplier, vendor\n- {追加|ついか}{発注|はっちゅう}: additional order\n- {大量|たいりょう}{発注|はっちゅう}: bulk order\n\nCONTRAST:\n- {注文|ちゅうもん}: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- {受注|じゅちゅう}: receiving an order (the opposite side of the transaction)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "じゅちゅう",
+      "headword": "{受注|じゅちゅう}",
+      "label": "receiving orders",
+      "target_id": "05133_juchuu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03485_chuumon",
+      "reading": "ちゅうもん",
+      "headword": "{注文|ちゅうもん}",
+      "label": "order (general)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T02:32:54Z",
+    "modified": "2026-04-13T03:56:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

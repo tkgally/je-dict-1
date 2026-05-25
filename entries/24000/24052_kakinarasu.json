@@ -9,23 +9,91 @@
   "conjugation": {
     "type": "godan",
     "forms": [
-      {"label": "Present", "affirmative": "かき{鳴|な}らす", "negative": "かき{鳴|な}らさない"},
-      {"label": "Present polite", "affirmative": "かき{鳴|な}らします", "negative": "かき{鳴|な}らしません"},
-      {"label": "Past", "affirmative": "かき{鳴|な}らした", "negative": "かき{鳴|な}らさなかった"},
-      {"label": "Past polite", "affirmative": "かき{鳴|な}らしました", "negative": "かき{鳴|な}らしませんでした"},
-      {"label": "て form", "affirmative": "かき{鳴|な}らして", "negative": "かき{鳴|な}らさなくて"},
-      {"label": "ている present", "affirmative": "かき{鳴|な}らしている", "negative": "かき{鳴|な}らしていない"},
-      {"label": "ている polite", "affirmative": "かき{鳴|な}らしています", "negative": "かき{鳴|な}らしていません"},
-      {"label": "ている past", "affirmative": "かき{鳴|な}らしていた", "negative": "かき{鳴|な}らしていなかった"},
-      {"label": "ている past polite", "affirmative": "かき{鳴|な}らしていました", "negative": "かき{鳴|な}らしていませんでした"},
-      {"label": "Conditional ば", "affirmative": "かき{鳴|な}らせば", "negative": "かき{鳴|な}らさなければ"},
-      {"label": "Conditional たら", "affirmative": "かき{鳴|な}らしたら", "negative": "かき{鳴|な}らさなかったら"},
-      {"label": "Volitional", "affirmative": "かき{鳴|な}らそう", "negative": null},
-      {"label": "Volitional polite", "affirmative": "かき{鳴|な}らしましょう", "negative": null},
-      {"label": "Potential", "affirmative": "かき{鳴|な}らせる", "negative": "かき{鳴|な}らせない"},
-      {"label": "Passive", "affirmative": "かき{鳴|な}らされる", "negative": "かき{鳴|な}らされない"},
-      {"label": "Causative", "affirmative": "かき{鳴|な}らさせる", "negative": "かき{鳴|な}らさせない"},
-      {"label": "Imperative", "affirmative": "かき{鳴|な}らせ", "negative": "かき{鳴|な}らすな"}
+      {
+        "label": "Present",
+        "affirmative": "かき{鳴|な}らす",
+        "negative": "かき{鳴|な}らさない"
+      },
+      {
+        "label": "Present polite",
+        "affirmative": "かき{鳴|な}らします",
+        "negative": "かき{鳴|な}らしません"
+      },
+      {
+        "label": "Past",
+        "affirmative": "かき{鳴|な}らした",
+        "negative": "かき{鳴|な}らさなかった"
+      },
+      {
+        "label": "Past polite",
+        "affirmative": "かき{鳴|な}らしました",
+        "negative": "かき{鳴|な}らしませんでした"
+      },
+      {
+        "label": "て form",
+        "affirmative": "かき{鳴|な}らして",
+        "negative": "かき{鳴|な}らさなくて"
+      },
+      {
+        "label": "ている present",
+        "affirmative": "かき{鳴|な}らしている",
+        "negative": "かき{鳴|な}らしていない"
+      },
+      {
+        "label": "ている polite",
+        "affirmative": "かき{鳴|な}らしています",
+        "negative": "かき{鳴|な}らしていません"
+      },
+      {
+        "label": "ている past",
+        "affirmative": "かき{鳴|な}らしていた",
+        "negative": "かき{鳴|な}らしていなかった"
+      },
+      {
+        "label": "ている past polite",
+        "affirmative": "かき{鳴|な}らしていました",
+        "negative": "かき{鳴|な}らしていませんでした"
+      },
+      {
+        "label": "Conditional ば",
+        "affirmative": "かき{鳴|な}らせば",
+        "negative": "かき{鳴|な}らさなければ"
+      },
+      {
+        "label": "Conditional たら",
+        "affirmative": "かき{鳴|な}らしたら",
+        "negative": "かき{鳴|な}らさなかったら"
+      },
+      {
+        "label": "Volitional",
+        "affirmative": "かき{鳴|な}らそう",
+        "negative": null
+      },
+      {
+        "label": "Volitional polite",
+        "affirmative": "かき{鳴|な}らしましょう",
+        "negative": null
+      },
+      {
+        "label": "Potential",
+        "affirmative": "かき{鳴|な}らせる",
+        "negative": "かき{鳴|な}らせない"
+      },
+      {
+        "label": "Passive",
+        "affirmative": "かき{鳴|な}らされる",
+        "negative": "かき{鳴|な}らされない"
+      },
+      {
+        "label": "Causative",
+        "affirmative": "かき{鳴|な}らさせる",
+        "negative": "かき{鳴|な}らさせない"
+      },
+      {
+        "label": "Imperative",
+        "affirmative": "かき{鳴|な}らせ",
+        "negative": "かき{鳴|な}らすな"
+      }
     ]
   },
   "definitions": [
@@ -40,7 +108,9 @@
       "id": "24052_kakinarasu_ex1",
       "japanese": "ギターをかき{鳴|な}らす。",
       "english": "To strum a guitar.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -48,7 +118,9 @@
       "id": "24052_kakinarasu_ex2",
       "japanese": "{彼|かれ}はステージでギターを{激|はげ}しくかき{鳴|な}らした。",
       "english": "He strummed his guitar wildly on the stage.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -56,7 +128,9 @@
       "id": "24052_kakinarasu_ex3",
       "japanese": "{夜|よる}、{公園|こうえん}で{誰|だれ}かがギターをかき{鳴|な}らしているのが{聞|き}こえた。",
       "english": "At night, I could hear someone strumming a guitar in the park.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -64,7 +138,9 @@
       "id": "24052_kakinarasu_ex4",
       "japanese": "{琵琶|びわ}をかき{鳴|な}らしながら{物語|ものがたり}を{語|かた}る{盲目|もうもく}の{法師|ほうし}の{姿|すがた}が{描|えが}かれている。",
       "english": "The scene depicts a blind monk telling tales while strumming a biwa.",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
@@ -84,11 +160,16 @@
     "modified": "2026-04-16T23:27:39Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["verb-godan"],
+      "pos": [
+        "verb-godan"
+      ],
       "transitivity": "transitive",
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["action", "leisure"],
+      "semantic": [
+        "action",
+        "leisure"
+      ],
       "verb_class": "godan-su"
     }
   }

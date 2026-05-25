@@ -6,78 +6,6 @@
   "gloss": "to be surprised",
   "conjugation": {
     "type": "godan",
-    "ending": "く",
-    "stem": "{驚|おどろ}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to be surprised, to be astonished",
-      "explanation": "To experience a sudden feeling of wonder or shock due to something unexpected."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01255_odoroku_ex1",
-      "japanese": "⟦その→その：00993_sono⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧{驚|おどろ}いた。",
-      "english": "I was surprised by the news.",
-      "notes": "に marks the cause of surprise",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01255_odoroku_ex2",
-      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧{驚|おどろ}きました。",
-      "english": "I was astonished by his success.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01255_odoroku_ex3",
-      "japanese": "{驚|おどろ}く⟦ほど→程：01724_hodo⟧⟦{安|やす}かった→安い：00464_yasui⟧。",
-      "english": "It was surprisingly cheap.",
-      "notes": "{驚|おどろ}く⟦ほど→程：01724_hodo⟧ = to a surprising degree",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{驚|おどろ}かす→驚かす：01918_odorokasu⟧ (transitive, to surprise someone). Pattern: X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {驚|おどろ}いている = 'is surprised' (in a state of surprise).\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X)\n・{驚|おどろ}く⟦ほど→程：01724_hodo⟧ (surprisingly, to a surprising degree)\n・{驚|おどろ}く⟦べき→べき：10016_beki⟧ (surprising, astonishing—attributive)\n・{驚|おどろ}いた⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (to my surprise)\n\nSIMILAR WORDS:\n・⟦びっくりする→びっくりする：01178_bikkurisuru⟧: more casual, sudden surprise\n・{驚|おどろ}く: general surprise/astonishment\n・⟦{仰天|ぎょうてん}→仰天：17515_gyouten⟧⟦する→する：00392_suru⟧: extreme shock (more dramatic)",
-  "prominent_see_also": [
-    {
-      "target_id": "01918_odorokasu",
-      "reading": "おどろかす",
-      "headword": "{驚|おどろ}かす",
-      "note": "transitive"
-    }
-  ],
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-08T12:41:43Z",
-    "modified": "2026-05-14T20:09:47Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ku"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -165,5 +93,72 @@
         "negative": "{驚|おどろ}くな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to be surprised, to be astonished",
+      "explanation": "To experience a sudden feeling of wonder or shock due to something unexpected."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01255_odoroku_ex1",
+      "japanese": "⟦その→その：00993_sono⟧⟦{知|し}らせ→知らせ：03252_shirase⟧⟦に→に：00314_ni⟧{驚|おどろ}いた。",
+      "english": "I was surprised by the news.",
+      "notes": "に marks the cause of surprise",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01255_odoroku_ex2",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{成功|せいこう}→成功：02638_seikou⟧⟦に→に：00314_ni⟧{驚|おどろ}きました。",
+      "english": "I was astonished by his success.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01255_odoroku_ex3",
+      "japanese": "{驚|おどろ}く⟦ほど→程：01724_hodo⟧⟦{安|やす}かった→安い：00464_yasui⟧。",
+      "english": "It was surprisingly cheap.",
+      "notes": "{驚|おどろ}く⟦ほど→程：01724_hodo⟧ = to a surprising degree",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{驚|おどろ}かす→驚かす：01918_odorokasu⟧ (transitive, to surprise someone). Pattern: X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {驚|おどろ}いている = 'is surprised' (in a state of surprise).\n\nCOMMON PATTERNS:\n・X⟦に→に：00314_ni⟧{驚|おどろ}く (be surprised at X)\n・{驚|おどろ}く⟦ほど→程：01724_hodo⟧ (surprisingly, to a surprising degree)\n・{驚|おどろ}く⟦べき→べき：10016_beki⟧ (surprising, astonishing—attributive)\n・{驚|おどろ}いた⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (to my surprise)\n\nSIMILAR WORDS:\n・⟦びっくりする→びっくりする：01178_bikkurisuru⟧: more casual, sudden surprise\n・{驚|おどろ}く: general surprise/astonishment\n・⟦{仰天|ぎょうてん}→仰天：17515_gyouten⟧⟦する→する：00392_suru⟧: extreme shock (more dramatic)",
+  "prominent_see_also": [
+    {
+      "target_id": "01918_odorokasu",
+      "reading": "おどろかす",
+      "headword": "{驚|おどろ}かす",
+      "note": "transitive"
+    }
+  ],
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-08T12:41:43Z",
+    "modified": "2026-05-14T20:09:47Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ku"
+    }
   }
 }

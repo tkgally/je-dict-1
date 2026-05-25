@@ -6,90 +6,6 @@
   "gloss": "to be troubled, to be in difficulty",
   "conjugation": {
     "type": "godan",
-    "ending": "る",
-    "stem": "{困|こま}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "to be troubled, to have difficulty",
-      "explanation": "To be in a difficult situation, to face a problem, or to not know what to do. Expresses distress or being at a loss."
-    }
-  ],
-  "examples": [
-    {
-      "id": "00861_komaru_ex1",
-      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧{困|こま}っています。",
-      "english": "I'm in trouble because I don't have money.",
-      "notes": "ている form for ongoing state",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00861_komaru_ex2",
-      "japanese": "{困|こま}った⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦あったら→ある：00006_aru⟧、⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
-      "english": "If you have any trouble, please tell me.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00861_komaru_ex3",
-      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}りました。",
-      "english": "I was troubled because I didn't know the way.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00861_komaru_ex4",
-      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まって→止まる：00555_tomaru⟧、{困|こま}っています。",
-      "english": "The train has stopped and I'm in trouble.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00861_komaru_ex5",
-      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}っていたら、⟦{親切|しんせつ}な→親切：01144_shinsetsu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦くれました→くれる：00724_kureru⟧。",
-      "english": "When I was having trouble because I didn't understand Japanese, a kind person helped me.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{困|こま}る (be troubled by X) or X⟦で→で：00502_de⟧{困|こま}る.\n\nASPECT: ている indicates ongoing state. {困|こま}っている = 'is in trouble/difficulty.'\n\nCOMMON PATTERNS:\n・{困|こま}っている (am in trouble)\n・〜なくて{困|こま}る (be troubled because there's no ~)\n・{困|こま}った (exclamation: this is a problem!)\n・{困|こま}った⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (unfortunately)\n\n{困|こま}った can function as an adjective meaning 'troublesome.'",
-  "cross_references": [],
-  "metadata": {
-    "created": "2026-01-07T12:52:57Z",
-    "modified": "2026-05-12T23:06:47Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "basic",
-    "tags": {
-      "pos": [
-        "verb-godan"
-      ],
-      "transitivity": "intransitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "godan-ru"
-    }
-  },
-  "conjugation": {
-    "type": "godan",
     "forms": [
       {
         "label": "Present",
@@ -177,5 +93,84 @@
         "negative": "{困|こま}るな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "to be troubled, to have difficulty",
+      "explanation": "To be in a difficult situation, to face a problem, or to not know what to do. Expresses distress or being at a loss."
+    }
+  ],
+  "examples": [
+    {
+      "id": "00861_komaru_ex1",
+      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦なくて→ない：01118_nai⟧{困|こま}っています。",
+      "english": "I'm in trouble because I don't have money.",
+      "notes": "ている form for ongoing state",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00861_komaru_ex2",
+      "japanese": "{困|こま}った⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦あったら→ある：00006_aru⟧、⟦{言|い}って→言う：00515_iu⟧⟦ください→ください：02899_kudasai⟧。",
+      "english": "If you have any trouble, please tell me.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00861_komaru_ex3",
+      "japanese": "⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}りました。",
+      "english": "I was troubled because I didn't know the way.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00861_komaru_ex4",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まって→止まる：00555_tomaru⟧、{困|こま}っています。",
+      "english": "The train has stopped and I'm in trouble.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00861_komaru_ex5",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦が→が：00051_ga⟧⟦わからなくて→分かる：00463_wakaru⟧{困|こま}っていたら、⟦{親切|しんせつ}な→親切：01144_shinsetsu⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{助|たす}けて→助ける：00895_tasukeru⟧⟦くれました→くれる：00724_kureru⟧。",
+      "english": "When I was having trouble because I didn't understand Japanese, a kind person helped me.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{困|こま}る (be troubled by X) or X⟦で→で：00502_de⟧{困|こま}る.\n\nASPECT: ている indicates ongoing state. {困|こま}っている = 'is in trouble/difficulty.'\n\nCOMMON PATTERNS:\n・{困|こま}っている (am in trouble)\n・〜なくて{困|こま}る (be troubled because there's no ~)\n・{困|こま}った (exclamation: this is a problem!)\n・{困|こま}った⟦こと→こと：01164_koto⟧⟦に→に：00314_ni⟧ (unfortunately)\n\n{困|こま}った can function as an adjective meaning 'troublesome.'",
+  "cross_references": [],
+  "metadata": {
+    "created": "2026-01-07T12:52:57Z",
+    "modified": "2026-05-12T23:06:47Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "basic",
+    "tags": {
+      "pos": [
+        "verb-godan"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "godan-ru"
+    }
   }
 }

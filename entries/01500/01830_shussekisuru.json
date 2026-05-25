@@ -6,86 +6,6 @@
   "gloss": "attendance",
   "conjugation": {
     "type": "suru",
-    "prefix": "{出席|しゅっせき}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "attendance, presence",
-      "explanation": "Being present at a meeting, class, or event."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01830_shussekisuru_ex1",
-      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}しました。",
-      "english": "I attended the meeting.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01830_shussekisuru_ex2",
-      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧⟦は→は：00079_ha⟧⟦{何人|なんにん}→何人：17593_nannin⟧です⟦か→か：09473_ka⟧。",
-      "english": "How many people are present today?",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01830_shussekisuru_ex3",
-      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦できません→できる：00557_dekiru⟧。",
-      "english": "I cannot attend the wedding.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{出席|しゅっせき} refers to being present at a meeting, class, event, or ceremony.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}⟦する→する：00392_suru⟧\n\nPARTICLE USAGE:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a meeting\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a wedding\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧: attendee\n- {出席|しゅっせき}⟦{率|りつ}→率：03802_ritsu⟧: attendance rate\n- {出席|しゅっせき}⟦{日数|にっすう}→日数：12953_nissuu⟧: number of days attended\n- ご{出席|しゅっせき}: attendance (honorific, used in formal invitations)\n\nOPPOSITE:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence). ⟦{欠席|けっせき}→欠席：02495_kesseki⟧⟦する→する：00392_suru⟧ means to be absent.",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "けっせき",
-      "headword": "{欠席|けっせき}",
-      "label": "absence",
-      "target_id": "02495_kesseki"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-09T12:27:30Z",
-    "modified": "2026-05-17T13:09:03Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "intransitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "02084_shusseki",
-      "reading": "しゅっせき",
-      "headword": "{出席|しゅっせき}",
-      "note": "noun form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -173,5 +93,81 @@
         "negative": "{出席|しゅっせき}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "attendance, presence",
+      "explanation": "Being present at a meeting, class, or event."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01830_shussekisuru_ex1",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}しました。",
+      "english": "I attended the meeting.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01830_shussekisuru_ex2",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧⟦は→は：00079_ha⟧⟦{何人|なんにん}→何人：17593_nannin⟧です⟦か→か：09473_ka⟧。",
+      "english": "How many people are present today?",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01830_shussekisuru_ex3",
+      "japanese": "⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦できません→できる：00557_dekiru⟧。",
+      "english": "I cannot attend the wedding.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{出席|しゅっせき} refers to being present at a meeting, class, event, or ceremony.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {出席|しゅっせき}⟦する→する：00392_suru⟧\n\nPARTICLE USAGE:\n- ⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a meeting\n- ⟦{結婚式|けっこんしき}→結婚式：05493_kekkonshiki⟧⟦に→に：00314_ni⟧{出席|しゅっせき}⟦する→する：00392_suru⟧: to attend a wedding\n\nCOMMON EXPRESSIONS:\n- {出席|しゅっせき}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to take attendance\n- {出席|しゅっせき}⟦{者|しゃ}→〜者：04662_sha⟧: attendee\n- {出席|しゅっせき}⟦{率|りつ}→率：03802_ritsu⟧: attendance rate\n- {出席|しゅっせき}⟦{日数|にっすう}→日数：12953_nissuu⟧: number of days attended\n- ご{出席|しゅっせき}: attendance (honorific, used in formal invitations)\n\nOPPOSITE:\n⟦{欠席|けっせき}→欠席：02495_kesseki⟧ (absence). ⟦{欠席|けっせき}→欠席：02495_kesseki⟧⟦する→する：00392_suru⟧ means to be absent.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "けっせき",
+      "headword": "{欠席|けっせき}",
+      "label": "absence",
+      "target_id": "02495_kesseki"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:27:30Z",
+    "modified": "2026-05-17T13:09:03Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02084_shusseki",
+      "reading": "しゅっせき",
+      "headword": "{出席|しゅっせき}",
+      "note": "noun form"
+    }
+  ]
 }

@@ -6,91 +6,6 @@
   "gloss": "hatred, animosity",
   "conjugation": {
     "type": "suru",
-    "prefix": "{憎悪|ぞうお}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "hatred, animosity, loathing",
-      "explanation": "Intense dislike or hostility toward someone or something."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04865_zouo_ex1",
-      "japanese": "{憎悪|ぞうお}を{抱|いだ}く。",
-      "english": "To harbor hatred.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04865_zouo_ex2",
-      "japanese": "{憎悪|ぞうお}に{満|み}ちた{目|め}で{見|み}つめた。",
-      "english": "They gazed with eyes full of hatred.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04865_zouo_ex3",
-      "japanese": "{憎悪|ぞうお}が{憎悪|ぞうお}を{生|う}む。",
-      "english": "Hatred breeds hatred.",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{憎悪|ぞうお} is a formal, literary word expressing intense hatred or loathing—stronger than everyday words like {嫌|きら}い.\n\nUSAGE AS VERB:\n{憎悪|ぞうお}する: to hate intensely, to loathe\n\nCOMMON PATTERNS:\n- {憎悪|ぞうお}を{抱|いだ}く: to harbor hatred\n- {憎悪|ぞうお}に{満|み}ちた: filled with hatred\n- {憎悪|ぞうお}が{生|う}まれる: hatred arises\n\nCOMPOUNDS:\n- {憎悪犯罪|ぞうおはんざい}: hate crime\n- {人種|じんしゅ}{憎悪|ぞうお}: racial hatred\n\nSIMILAR WORDS:\n- {憎悪|ぞうお}: intense hatred (formal, literary)\n- {憎|にく}む: to hate (neutral verb)\n- {嫌|きら}い: dislike (casual)\n- {恨|うら}み: grudge, resentment",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "target_id": "02370_ai",
-      "reading": "あい",
-      "headword": "{愛|あい}",
-      "label": "love"
-    },
-    {
-      "type": "synonym",
-      "target_id": "00318_nikumu",
-      "reading": "にくむ",
-      "headword": "{憎|にく}む",
-      "label": "to hate (verb)"
-    },
-    {
-      "type": "related",
-      "target_id": "00414_urami",
-      "reading": "うらみ",
-      "headword": "{恨|うら}み",
-      "label": "grudge, resentment"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-15T23:59:46Z",
-    "modified": "2026-04-10T12:45:13Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "formal",
-      "style": [
-        "literary"
-      ],
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -178,5 +93,86 @@
         "negative": "{憎悪|ぞうお}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "hatred, animosity, loathing",
+      "explanation": "Intense dislike or hostility toward someone or something."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04865_zouo_ex1",
+      "japanese": "{憎悪|ぞうお}を{抱|いだ}く。",
+      "english": "To harbor hatred.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04865_zouo_ex2",
+      "japanese": "{憎悪|ぞうお}に{満|み}ちた{目|め}で{見|み}つめた。",
+      "english": "They gazed with eyes full of hatred.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04865_zouo_ex3",
+      "japanese": "{憎悪|ぞうお}が{憎悪|ぞうお}を{生|う}む。",
+      "english": "Hatred breeds hatred.",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{憎悪|ぞうお} is a formal, literary word expressing intense hatred or loathing—stronger than everyday words like {嫌|きら}い.\n\nUSAGE AS VERB:\n{憎悪|ぞうお}する: to hate intensely, to loathe\n\nCOMMON PATTERNS:\n- {憎悪|ぞうお}を{抱|いだ}く: to harbor hatred\n- {憎悪|ぞうお}に{満|み}ちた: filled with hatred\n- {憎悪|ぞうお}が{生|う}まれる: hatred arises\n\nCOMPOUNDS:\n- {憎悪犯罪|ぞうおはんざい}: hate crime\n- {人種|じんしゅ}{憎悪|ぞうお}: racial hatred\n\nSIMILAR WORDS:\n- {憎悪|ぞうお}: intense hatred (formal, literary)\n- {憎|にく}む: to hate (neutral verb)\n- {嫌|きら}い: dislike (casual)\n- {恨|うら}み: grudge, resentment",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "02370_ai",
+      "reading": "あい",
+      "headword": "{愛|あい}",
+      "label": "love"
+    },
+    {
+      "type": "synonym",
+      "target_id": "00318_nikumu",
+      "reading": "にくむ",
+      "headword": "{憎|にく}む",
+      "label": "to hate (verb)"
+    },
+    {
+      "type": "related",
+      "target_id": "00414_urami",
+      "reading": "うらみ",
+      "headword": "{恨|うら}み",
+      "label": "grudge, resentment"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-15T23:59:46Z",
+    "modified": "2026-04-10T12:45:13Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "formal",
+      "style": [
+        "literary"
+      ],
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

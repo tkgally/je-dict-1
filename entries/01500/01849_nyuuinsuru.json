@@ -6,87 +6,6 @@
   "gloss": "hospitalization",
   "conjugation": {
     "type": "suru",
-    "prefix": "{入院|にゅういん}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "hospitalization, admission to hospital",
-      "explanation": "Being admitted to a hospital for treatment."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01849_nyuuinsuru_ex1",
-      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧{入院|にゅういん}しました。",
-      "english": "My grandmother was hospitalized.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01849_nyuuinsuru_ex2",
-      "japanese": "2⟦{週間|しゅうかん}→週間：00988_shuukan⟧{入院|にゅういん}していました。",
-      "english": "I was hospitalized for two weeks.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01849_nyuuinsuru_ex3",
-      "japanese": "{入院|にゅういん}⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
-      "english": "Hospital admission costs are expensive.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{入院|にゅういん} refers to being admitted to and staying in a hospital for treatment. As a する verb: {入院|にゅういん}する (to be hospitalized).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {入院|にゅういん}する\n\nCOMMON EXPRESSIONS:\n- {入院|にゅういん}する: to be hospitalized\n- {入院|にゅういん}⟦{中|ちゅう}→〜中：09840_chuu⟧: during hospitalization\n- {入院|にゅういん}⟦{費|ひ}→費：09877_hi⟧: hospital/admission expenses\n- {入院|にゅういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧: inpatient\n- {入院|にゅういん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life in the hospital\n\nCONTRAST:\n- {入院|にゅういん}: hospitalization (staying overnight)\n- ⟦{退院|たいいん}→退院：01847_taiinsuru⟧: discharge from hospital\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visit (going to the hospital without staying)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "target_id": "01847_taiinsuru",
-      "reading": "たいいんする",
-      "headword": "{退院|たいいん}する",
-      "label": "discharge"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-09T12:58:37Z",
-    "modified": "2026-05-17T14:07:10Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "intransitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "medical",
-        "health"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "02091_nyuuin",
-      "reading": "にゅういん",
-      "headword": "{入院|にゅういん}",
-      "note": "noun form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -174,5 +93,82 @@
         "negative": "{入院|にゅういん}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "hospitalization, admission to hospital",
+      "explanation": "Being admitted to a hospital for treatment."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01849_nyuuinsuru_ex1",
+      "japanese": "⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦が→が：00051_ga⟧{入院|にゅういん}しました。",
+      "english": "My grandmother was hospitalized.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01849_nyuuinsuru_ex2",
+      "japanese": "2⟦{週間|しゅうかん}→週間：00988_shuukan⟧{入院|にゅういん}していました。",
+      "english": "I was hospitalized for two weeks.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01849_nyuuinsuru_ex3",
+      "japanese": "{入院|にゅういん}⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧。",
+      "english": "Hospital admission costs are expensive.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{入院|にゅういん} refers to being admitted to and staying in a hospital for treatment. As a する verb: {入院|にゅういん}する (to be hospitalized).\n\nTRANSITIVITY:\n- Type: {自動詞|じどうし} (intransitive)\n- No standard transitive pair\n- Pattern: {入院|にゅういん}する\n\nCOMMON EXPRESSIONS:\n- {入院|にゅういん}する: to be hospitalized\n- {入院|にゅういん}⟦{中|ちゅう}→〜中：09840_chuu⟧: during hospitalization\n- {入院|にゅういん}⟦{費|ひ}→費：09877_hi⟧: hospital/admission expenses\n- {入院|にゅういん}⟦{患者|かんじゃ}→患者：00170_kanja⟧: inpatient\n- {入院|にゅういん}⟦{生活|せいかつ}→生活：01443_seikatsu⟧: life in the hospital\n\nCONTRAST:\n- {入院|にゅういん}: hospitalization (staying overnight)\n- ⟦{退院|たいいん}→退院：01847_taiinsuru⟧: discharge from hospital\n- ⟦{通院|つういん}→通院：05975_tsuuin⟧: outpatient visit (going to the hospital without staying)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "01847_taiinsuru",
+      "reading": "たいいんする",
+      "headword": "{退院|たいいん}する",
+      "label": "discharge"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:58:37Z",
+    "modified": "2026-05-17T14:07:10Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "intransitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "medical",
+        "health"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02091_nyuuin",
+      "reading": "にゅういん",
+      "headword": "{入院|にゅういん}",
+      "note": "noun form"
+    }
+  ]
 }

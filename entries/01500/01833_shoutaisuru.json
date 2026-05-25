@@ -6,86 +6,6 @@
   "gloss": "invitation",
   "conjugation": {
     "type": "suru",
-    "prefix": "{招待|しょうたい}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "invitation",
-      "explanation": "Asking someone to come to an event or gathering; treating someone as a guest."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01833_shoutaisuru_ex1",
-      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{パーティー|ぱーてぃー}→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧{招待|しょうたい}しました。",
-      "english": "I invited my friends to the party.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01833_shoutaisuru_ex2",
-      "japanese": "{招待|しょうたい}⟦{状|じょう}→状：09878_jou⟧⟦を→を：00422_wo⟧⟦{送|おく}りました→送る：00742_okuru⟧。",
-      "english": "I sent an invitation.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01833_shoutaisuru_ex3",
-      "japanese": "⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦に→に：00314_ni⟧{招待|しょうたい}されました。",
-      "english": "I was invited to dinner.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{招待|しょうたい} means formally inviting someone to an event, gathering, or meal. More formal than ⟦{誘|さそ}う→誘う：01947_sasou⟧.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{招待|しょうたい}する\n\nCOMMON COLLOCATIONS:\n- {招待|しょうたい}する: to invite\n- {招待|しょうたい}される: to be invited\n- {招待|しょうたい}{状|じょう}: invitation card/letter\n- {招待|しょうたい}{客|きゃく}: invited guest\n- ご{招待|しょうたい}: invitation (polite/honorific)\n\nPATTERN:\n（{人|ひと}）を（イベント）に{招待|しょうたい}する\n\nCONTRAST:\n- {招待|しょうたい}する: to invite formally (parties, weddings, events)\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite casually (lunch, movies, hanging out)\n- ⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call/invite someone over (informal, to your home)",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "target_id": "01947_sasou",
-      "reading": "さそう",
-      "headword": "{誘|さそ}う",
-      "label": "invite casually"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-09T12:11:49Z",
-    "modified": "2026-05-17T14:07:10Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "transitive",
-      "formality": "informal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "01435_shoutai",
-      "reading": "しょうたい",
-      "headword": "{招待|しょうたい}",
-      "note": "noun form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -173,5 +93,81 @@
         "negative": "{招待|しょうたい}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "invitation",
+      "explanation": "Asking someone to come to an event or gathering; treating someone as a guest."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01833_shoutaisuru_ex1",
+      "japanese": "⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧⟦{パーティー|ぱーてぃー}→パーティー：02946_paatii⟧⟦に→に：00314_ni⟧{招待|しょうたい}しました。",
+      "english": "I invited my friends to the party.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01833_shoutaisuru_ex2",
+      "japanese": "{招待|しょうたい}⟦{状|じょう}→状：09878_jou⟧⟦を→を：00422_wo⟧⟦{送|おく}りました→送る：00742_okuru⟧。",
+      "english": "I sent an invitation.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01833_shoutaisuru_ex3",
+      "japanese": "⟦{夕食|ゆうしょく}→夕食：03006_yuushoku⟧⟦に→に：00314_ni⟧{招待|しょうたい}されました。",
+      "english": "I was invited to dinner.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{招待|しょうたい} means formally inviting someone to an event, gathering, or meal. More formal than ⟦{誘|さそ}う→誘う：01947_sasou⟧.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- No standard intransitive pair\n- Pattern: [noun]を{招待|しょうたい}する\n\nCOMMON COLLOCATIONS:\n- {招待|しょうたい}する: to invite\n- {招待|しょうたい}される: to be invited\n- {招待|しょうたい}{状|じょう}: invitation card/letter\n- {招待|しょうたい}{客|きゃく}: invited guest\n- ご{招待|しょうたい}: invitation (polite/honorific)\n\nPATTERN:\n（{人|ひと}）を（イベント）に{招待|しょうたい}する\n\nCONTRAST:\n- {招待|しょうたい}する: to invite formally (parties, weddings, events)\n- ⟦{誘|さそ}う→誘う：01947_sasou⟧: to invite casually (lunch, movies, hanging out)\n- ⟦{呼|よ}ぶ→呼ぶ：00766_yobu⟧: to call/invite someone over (informal, to your home)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "01947_sasou",
+      "reading": "さそう",
+      "headword": "{誘|さそ}う",
+      "label": "invite casually"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:11:49Z",
+    "modified": "2026-05-17T14:07:10Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "transitive",
+      "formality": "informal",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "01435_shoutai",
+      "reading": "しょうたい",
+      "headword": "{招待|しょうたい}",
+      "note": "noun form"
+    }
+  ]
 }

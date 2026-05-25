@@ -6,77 +6,6 @@
   "gloss": "chat",
   "conjugation": {
     "type": "suru",
-    "prefix": "チャット"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "chat, instant messaging",
-      "explanation": "Real-time text-based communication, especially via apps or online."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04436_chatto_ex1",
-      "japanese": "{友達|ともだち}とチャットしている。",
-      "english": "I'm chatting with a friend.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04436_chatto_ex2",
-      "japanese": "チャットで{連絡|れんらく}を{取|と}る。",
-      "english": "I keep in touch via chat.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04436_chatto_ex3",
-      "japanese": "グループチャットに{参加|さんか}する。",
-      "english": "I'll join the group chat.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "From English 'chat.' Refers specifically to text-based real-time communication via apps or the internet, not face-to-face chatting.\n\nCOMMON COLLOCATIONS:\n- チャットする: to chat (online)\n- チャットで{話|はな}す: to talk via chat\n- グループチャット: group chat\n- ビデオチャット: video chat\n- チャットアプリ: chat app\n- チャットルーム: chat room\n\nUSAGE IN JAPAN:\nLINE is the dominant messaging app in Japan, so {日本語|にほんご} speakers often say LINEする (to LINE someone) rather than チャットする in daily conversation. チャット is used more broadly or when not referring to a specific app.\n\nREGISTER:\nNeutral to casual. Widely understood across all age groups.",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "target_id": "04435_meeru",
-      "reading": "めーる",
-      "headword": "メール",
-      "label": "email"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-14T14:59:53Z",
-    "modified": "2026-04-08T02:02:20Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "informal",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -164,5 +93,72 @@
         "negative": "チャットするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "chat, instant messaging",
+      "explanation": "Real-time text-based communication, especially via apps or online."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04436_chatto_ex1",
+      "japanese": "{友達|ともだち}とチャットしている。",
+      "english": "I'm chatting with a friend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04436_chatto_ex2",
+      "japanese": "チャットで{連絡|れんらく}を{取|と}る。",
+      "english": "I keep in touch via chat.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04436_chatto_ex3",
+      "japanese": "グループチャットに{参加|さんか}する。",
+      "english": "I'll join the group chat.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "From English 'chat.' Refers specifically to text-based real-time communication via apps or the internet, not face-to-face chatting.\n\nCOMMON COLLOCATIONS:\n- チャットする: to chat (online)\n- チャットで{話|はな}す: to talk via chat\n- グループチャット: group chat\n- ビデオチャット: video chat\n- チャットアプリ: chat app\n- チャットルーム: chat room\n\nUSAGE IN JAPAN:\nLINE is the dominant messaging app in Japan, so {日本語|にほんご} speakers often say LINEする (to LINE someone) rather than チャットする in daily conversation. チャット is used more broadly or when not referring to a specific app.\n\nREGISTER:\nNeutral to casual. Widely understood across all age groups.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04435_meeru",
+      "reading": "めーる",
+      "headword": "メール",
+      "label": "email"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-14T14:59:53Z",
+    "modified": "2026-04-08T02:02:20Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "informal",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

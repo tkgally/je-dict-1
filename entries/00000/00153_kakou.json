@@ -6,88 +6,6 @@
   "gloss": "decline; descent; fall",
   "conjugation": {
     "type": "suru",
-    "prefix": "{下降|かこう}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "descent; going down; decline; fall",
-      "explanation": "The act of moving downward or decreasing. Used for physical descent, declining numbers, or decreasing trends."
-    }
-  ],
-  "examples": [
-    {
-      "id": "00153_kakou_ex1",
-      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{下降|かこう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
-      "english": "The airplane began its descent.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00153_kakou_ex2",
-      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧⟦に→に：00314_ni⟧{下降|かこう}している。",
-      "english": "The temperature is dropping rapidly.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "00153_kakou_ex3",
-      "japanese": "⟦{売|う}り{上|あ}げ→売上：04102_uriage⟧⟦が→が：00051_ga⟧{下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
-      "english": "Sales are on a declining trend.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "HOMOPHONE: ⟦{火口|かこう}→火口：00448_kakou⟧ (crater) has the same reading.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {下降|かこう}⟦する→する：00392_suru⟧\n\nPATTERNS:\n・{下降|かこう}⟦する→する：00392_suru⟧ (to descend, to decline)\n・{下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧ (declining trend)\n・{下降|かこう}⟦{気流|きりゅう}→気流：noentry⟧ (downdraft)\n・⟦{急|きゅう}→急：13042_kyuu⟧{下降|かこう} (sharp decline)\n\nANTONYM:\n・⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, ascent)\n\nSIMILAR WORDS:\n・⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease - for quality, levels)\n・⟦{降下|こうか}→降下：21547_kouka⟧ (descent - more technical)\n・⟦{減少|げんしょう}→減少：02719_genshou⟧ (decrease - for quantities)",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "じょうしょう",
-      "headword": "{上昇|じょうしょう}",
-      "label": "rise/ascent",
-      "target_id": "11296_joushou"
-    },
-    {
-      "type": "contrast",
-      "reading": "かこう",
-      "headword": "{火口|かこう}",
-      "label": "crater (homophone)",
-      "target_id": "00448_kakou"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-13T10:53:53Z",
-    "modified": "2026-05-09T18:06:22Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "intransitive",
-      "domain": [
-        "technical"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "action"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -175,5 +93,83 @@
         "negative": "{下降|かこう}するな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "descent; going down; decline; fall",
+      "explanation": "The act of moving downward or decreasing. Used for physical descent, declining numbers, or decreasing trends."
+    }
+  ],
+  "examples": [
+    {
+      "id": "00153_kakou_ex1",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{下降|かこう}⟦を→を：00422_wo⟧⟦{始|はじ}めた→始める：00531_hajimeru⟧。",
+      "english": "The airplane began its descent.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00153_kakou_ex2",
+      "japanese": "⟦{気温|きおん}→気温：00235_kion⟧⟦が→が：00051_ga⟧⟦{急激|きゅうげき}→急激：02633_kyuugeki⟧⟦に→に：00314_ni⟧{下降|かこう}している。",
+      "english": "The temperature is dropping rapidly.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "00153_kakou_ex3",
+      "japanese": "⟦{売|う}り{上|あ}げ→売上：04102_uriage⟧⟦が→が：00051_ga⟧{下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦に→に：00314_ni⟧⟦ある→ある：00006_aru⟧。",
+      "english": "Sales are on a declining trend.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "HOMOPHONE: ⟦{火口|かこう}→火口：00448_kakou⟧ (crater) has the same reading.\n\nTRANSITIVITY:\n- Type: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive)\n- No standard transitive pair\n- Pattern: {下降|かこう}⟦する→する：00392_suru⟧\n\nPATTERNS:\n・{下降|かこう}⟦する→する：00392_suru⟧ (to descend, to decline)\n・{下降|かこう}⟦{傾向|けいこう}→傾向：02695_keikou⟧ (declining trend)\n・{下降|かこう}⟦{気流|きりゅう}→気流：noentry⟧ (downdraft)\n・⟦{急|きゅう}→急：13042_kyuu⟧{下降|かこう} (sharp decline)\n\nANTONYM:\n・⟦{上昇|じょうしょう}→上昇：11296_joushou⟧ (rise, ascent)\n\nSIMILAR WORDS:\n・⟦{低下|ていか}→低下：04065_teika⟧ (decline, decrease - for quality, levels)\n・⟦{降下|こうか}→降下：21547_kouka⟧ (descent - more technical)\n・⟦{減少|げんしょう}→減少：02719_genshou⟧ (decrease - for quantities)",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "じょうしょう",
+      "headword": "{上昇|じょうしょう}",
+      "label": "rise/ascent",
+      "target_id": "11296_joushou"
+    },
+    {
+      "type": "contrast",
+      "reading": "かこう",
+      "headword": "{火口|かこう}",
+      "label": "crater (homophone)",
+      "target_id": "00448_kakou"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-13T10:53:53Z",
+    "modified": "2026-05-09T18:06:22Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "intransitive",
+      "domain": [
+        "technical"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "action"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

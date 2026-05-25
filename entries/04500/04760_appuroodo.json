@@ -6,77 +6,6 @@
   "gloss": "upload",
   "conjugation": {
     "type": "suru",
-    "prefix": "アップロード"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "upload",
-      "explanation": "The act of transferring data from a local device to a remote system."
-    }
-  ],
-  "examples": [
-    {
-      "id": "04760_appuroodo_ex1",
-      "japanese": "{写真|しゃしん}をアップロードする。",
-      "english": "Upload a photo.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04760_appuroodo_ex2",
-      "japanese": "ファイルのアップロードに{時間|じかん}がかかる。",
-      "english": "It takes time to upload the file.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "04760_appuroodo_ex3",
-      "japanese": "{動画|どうが}をサイトにアップロードした。",
-      "english": "I uploaded a video to the site.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "アップロード means to transfer data from a local device to a server or cloud.\n\nUSAGE:\n- アップロードする: to upload\n- アップする: to upload (casual abbreviation)\n\nCOMMON EXPRESSIONS:\n- ファイルをアップロードする: to upload a file\n- {写真|しゃしん}をアップロードする: to upload a photo\n- {動画|どうが}をアップロードする: to upload a video\n- アップロード{中|ちゅう}: uploading (in progress)\n- アップロード{速度|そくど}: upload speed\n\nCONTRAST:\n- アップロード: upload (local → server)\n- ダウンロード: download (server → local)\n\nCAUSAL SPEECH:\nOften shortened to アップ: 「{写真|しゃしん}アップした」 (I uploaded a photo).",
-  "cross_references": [
-    {
-      "type": "antonym",
-      "reading": "だうんろーど",
-      "headword": "ダウンロード",
-      "label": "download",
-      "target_id": "04725_daunroodo"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T00:22:52Z",
-    "modified": "2026-03-29T03:04:32Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "informal",
-      "politeness": "plain",
-      "semantic": [
-        "electronics"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -164,5 +93,72 @@
         "negative": "アップロードするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "upload",
+      "explanation": "The act of transferring data from a local device to a remote system."
+    }
+  ],
+  "examples": [
+    {
+      "id": "04760_appuroodo_ex1",
+      "japanese": "{写真|しゃしん}をアップロードする。",
+      "english": "Upload a photo.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04760_appuroodo_ex2",
+      "japanese": "ファイルのアップロードに{時間|じかん}がかかる。",
+      "english": "It takes time to upload the file.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "04760_appuroodo_ex3",
+      "japanese": "{動画|どうが}をサイトにアップロードした。",
+      "english": "I uploaded a video to the site.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "アップロード means to transfer data from a local device to a server or cloud.\n\nUSAGE:\n- アップロードする: to upload\n- アップする: to upload (casual abbreviation)\n\nCOMMON EXPRESSIONS:\n- ファイルをアップロードする: to upload a file\n- {写真|しゃしん}をアップロードする: to upload a photo\n- {動画|どうが}をアップロードする: to upload a video\n- アップロード{中|ちゅう}: uploading (in progress)\n- アップロード{速度|そくど}: upload speed\n\nCONTRAST:\n- アップロード: upload (local → server)\n- ダウンロード: download (server → local)\n\nCAUSAL SPEECH:\nOften shortened to アップ: 「{写真|しゃしん}アップした」 (I uploaded a photo).",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "だうんろーど",
+      "headword": "ダウンロード",
+      "label": "download",
+      "target_id": "04725_daunroodo"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T00:22:52Z",
+    "modified": "2026-03-29T03:04:32Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "informal",
+      "politeness": "plain",
+      "semantic": [
+        "electronics"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

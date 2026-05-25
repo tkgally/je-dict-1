@@ -6,78 +6,6 @@
   "gloss": "update",
   "conjugation": {
     "type": "suru",
-    "prefix": "アップデート"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "update (software/system)",
-      "explanation": "The process of updating software, applications, or operating systems to a newer version."
-    }
-  ],
-  "examples": [
-    {
-      "id": "05108_appudeeto_ex1",
-      "japanese": "アプリのアップデートが{来|き}ている。",
-      "english": "There's an app update available.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05108_appudeeto_ex2",
-      "japanese": "システムをアップデートする。",
-      "english": "To update the system.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "05108_appudeeto_ex3",
-      "japanese": "{自動|じどう}アップデートを{有効|ゆうこう}にしている。",
-      "english": "I have automatic updates enabled.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "From English \"update.\" Used primarily in technology contexts for software, apps, and system updates.\n\nCOMMON COLLOCATIONS:\n- アップデートする: to update\n- アップデートが{来|き}る/ある: an update is available\n- {自動|じどう}アップデート: automatic update\n- アップデートを{確認|かくにん}する: to check for updates\n- セキュリティアップデート: security update\n- {最新|さいしん}のアップデート: the latest update\n\nSIMILAR WORDS:\n- {更新|こうしん}: update (native Japanese word, broader in scope — also used for renewing licenses, contracts, etc.)\n- アップグレード: upgrade (implies a larger improvement or version change)\n\nThe shorter form アプデ is used informally, especially in online and gaming contexts.",
-  "cross_references": [
-    {
-      "type": "synonym",
-      "target_id": "04765_koushin",
-      "reading": "こうしん",
-      "headword": "{更新|こうしん}",
-      "label": "update (native term)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-13T03:56:25Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "electronics",
-        "time-general"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -165,5 +93,73 @@
         "negative": "アップデートするな"
       }
     ]
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "update (software/system)",
+      "explanation": "The process of updating software, applications, or operating systems to a newer version."
+    }
+  ],
+  "examples": [
+    {
+      "id": "05108_appudeeto_ex1",
+      "japanese": "アプリのアップデートが{来|き}ている。",
+      "english": "There's an app update available.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05108_appudeeto_ex2",
+      "japanese": "システムをアップデートする。",
+      "english": "To update the system.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "05108_appudeeto_ex3",
+      "japanese": "{自動|じどう}アップデートを{有効|ゆうこう}にしている。",
+      "english": "I have automatic updates enabled.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "From English \"update.\" Used primarily in technology contexts for software, apps, and system updates.\n\nCOMMON COLLOCATIONS:\n- アップデートする: to update\n- アップデートが{来|き}る/ある: an update is available\n- {自動|じどう}アップデート: automatic update\n- アップデートを{確認|かくにん}する: to check for updates\n- セキュリティアップデート: security update\n- {最新|さいしん}のアップデート: the latest update\n\nSIMILAR WORDS:\n- {更新|こうしん}: update (native Japanese word, broader in scope — also used for renewing licenses, contracts, etc.)\n- アップグレード: upgrade (implies a larger improvement or version change)\n\nThe shorter form アプデ is used informally, especially in online and gaming contexts.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "04765_koushin",
+      "reading": "こうしん",
+      "headword": "{更新|こうしん}",
+      "label": "update (native term)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-16T02:32:54Z",
+    "modified": "2026-04-13T03:56:25Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "electronics",
+        "time-general"
+      ],
+      "verb_class": "suru"
+    }
   }
 }

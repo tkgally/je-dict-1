@@ -6,86 +6,6 @@
   "gloss": "postponement, delay",
   "conjugation": {
     "type": "suru",
-    "prefix": "{延期|えんき}"
-  },
-  "definitions": [
-    {
-      "sense_number": 1,
-      "gloss": "postponement, delay",
-      "explanation": "Putting off an event to a later time."
-    }
-  ],
-  "examples": [
-    {
-      "id": "01888_enki_ex1",
-      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧{延期|えんき}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
-      "english": "The match was postponed.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01888_enki_ex2",
-      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦に→に：00314_ni⟧{延期|えんき}⟦する→する：00392_suru⟧。",
-      "english": "To postpone the meeting to next week.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
-      "id": "01888_enki_ex3",
-      "japanese": "⟦{雨天|うてん}→雨天：15325_uten⟧{延期|えんき}。",
-      "english": "Postponed in case of rain.",
-      "notes": "Common notice",
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    }
-  ],
-  "notes": "{延期|えんき} means postponement — putting off a planned event or deadline to a later date. A compound of {延|えん} (extend) + {期|き} (period).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{延期|えんき}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {延期|えんき}⟦する→する：00392_suru⟧: to postpone\n- {延期|えんき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be postponed\n- 〜⟦に→に：00314_ni⟧{延期|えんき}⟦する→する：00392_suru⟧: to postpone to (a date)\n- {延期|えんき}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide on a postponement\n\nSIMILAR WORDS:\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧: cancellation (not postponed, but cancelled entirely)\n- ⟦{順延|じゅんえん}→順延：15354_junen⟧: postponement to the next available day (especially for outdoor events due to rain)\n- ⟦{先送|さきおく}り→先送り：08030_sakiokuri⟧: putting off, deferring (often implies avoidance)\n\nUSAGE:\nCommon for meetings, events, sports games, and deadlines. ⟦{雨天|うてん}→雨天：15325_uten⟧{延期|えんき} (postponed due to rain) is a set phrase.",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "target_id": "03481_chuushi",
-      "reading": "ちゅうし",
-      "headword": "{中止|ちゅうし}",
-      "label": "cancellation (not rescheduled)"
-    }
-  ],
-  "metadata": {
-    "created": "2026-01-09T12:30:00Z",
-    "modified": "2026-05-17T16:13:11Z",
-    "ai_model": "claude-opus-4-5",
-    "vocabulary_tier": "general",
-    "tags": {
-      "pos": [
-        "noun",
-        "verb-suru"
-      ],
-      "transitivity": "transitive",
-      "formality": "neutral",
-      "politeness": "plain",
-      "semantic": [
-        "communication"
-      ],
-      "verb_class": "suru"
-    }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "02517_enkisuru",
-      "reading": "えんきする",
-      "headword": "{延期|えんき}する",
-      "note": "verb form"
-    }
-  ],
-  "conjugation": {
-    "type": "suru",
     "forms": [
       {
         "label": "Present",
@@ -173,5 +93,81 @@
         "negative": "{延期|えんき}するな"
       }
     ]
-  }
+  },
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "postponement, delay",
+      "explanation": "Putting off an event to a later time."
+    }
+  ],
+  "examples": [
+    {
+      "id": "01888_enki_ex1",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧{延期|えんき}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
+      "english": "The match was postponed.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01888_enki_ex2",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦に→に：00314_ni⟧{延期|えんき}⟦する→する：00392_suru⟧。",
+      "english": "To postpone the meeting to next week.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
+      "id": "01888_enki_ex3",
+      "japanese": "⟦{雨天|うてん}→雨天：15325_uten⟧{延期|えんき}。",
+      "english": "Postponed in case of rain.",
+      "notes": "Common notice",
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    }
+  ],
+  "notes": "{延期|えんき} means postponement — putting off a planned event or deadline to a later date. A compound of {延|えん} (extend) + {期|き} (period).\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- No standard intransitive pair\n- Pattern: [noun]⟦を→を：00422_wo⟧{延期|えんき}⟦する→する：00392_suru⟧\n\nCOMMON PATTERNS:\n- {延期|えんき}⟦する→する：00392_suru⟧: to postpone\n- {延期|えんき}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧: to be postponed\n- 〜⟦に→に：00314_ni⟧{延期|えんき}⟦する→する：00392_suru⟧: to postpone to (a date)\n- {延期|えんき}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧: to decide on a postponement\n\nSIMILAR WORDS:\n- ⟦{中止|ちゅうし}→中止：03481_chuushi⟧: cancellation (not postponed, but cancelled entirely)\n- ⟦{順延|じゅんえん}→順延：15354_junen⟧: postponement to the next available day (especially for outdoor events due to rain)\n- ⟦{先送|さきおく}り→先送り：08030_sakiokuri⟧: putting off, deferring (often implies avoidance)\n\nUSAGE:\nCommon for meetings, events, sports games, and deadlines. ⟦{雨天|うてん}→雨天：15325_uten⟧{延期|えんき} (postponed due to rain) is a set phrase.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03481_chuushi",
+      "reading": "ちゅうし",
+      "headword": "{中止|ちゅうし}",
+      "label": "cancellation (not rescheduled)"
+    }
+  ],
+  "metadata": {
+    "created": "2026-01-09T12:30:00Z",
+    "modified": "2026-05-17T16:13:11Z",
+    "ai_model": "claude-opus-4-5",
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun",
+        "verb-suru"
+      ],
+      "transitivity": "transitive",
+      "formality": "neutral",
+      "politeness": "plain",
+      "semantic": [
+        "communication"
+      ],
+      "verb_class": "suru"
+    }
+  },
+  "prominent_see_also": [
+    {
+      "target_id": "02517_enkisuru",
+      "reading": "えんきする",
+      "headword": "{延期|えんき}する",
+      "note": "verb form"
+    }
+  ]
 }
