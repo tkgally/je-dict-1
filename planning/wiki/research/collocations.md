@@ -1,6 +1,6 @@
 # Collocations in Learner Dictionaries
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-25
 
 ## What collocations are and why they matter
 
@@ -162,3 +162,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — collocational knowledge as productive vocabulary and its role in consolidation strategies
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — collocation as the hardest dimension to acquire (Nesselhauf 2005, Laufer & Waldman 2011)
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — collocation as a critical encoding-dictionary information category
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — the broader psycholinguistic context: processing advantages, fluency benefits, and L2 acquisition of prefabricated sequences

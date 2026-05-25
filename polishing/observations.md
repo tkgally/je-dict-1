@@ -25,8 +25,4 @@ Each session appends a section. Within each section, prefix observations with a 
 
 ---
 
-_(All observations through 2026-05-23 session 005 have been harvested by the wiki maintenance session of 2026-05-24.)_
-
-## 2026-05-24 — comprehensive polish session 011 (entries 03211–03230)
-- [pattern] Several suru-verb entries (03214, 03216, 03218, 03220, 03222) had a duplicate lightweight conjugation stub (type+prefix format) placed before `definitions` AND a full conjugation table at the end. The stubs were removed. Future sessions should watch for this pattern.
-- [pattern] 03218 手術: semantic tags "body-part" and "time-general" are wrong for this word; should be "medical" or "action". Flagged for tag-polishing session.
+_(All observations through 2026-05-24 session 011 have been harvested by the wiki maintenance session of 2026-05-25.)_

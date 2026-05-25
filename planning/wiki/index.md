@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-24
+**Last updated**: 2026-05-25
 
 
 ## How this wiki is organized
@@ -68,6 +68,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Incidental Vocabulary Acquisition Through Reading](research/incidental-vocabulary-reading.md) — Acquisition rates from unassisted reading, dictionary consultation effects, the Involvement Load Hypothesis, contextual guessing vs. lookup, and implications for dictionary design
 - [Bilingual vs. Monolingual Dictionary Debate](research/bilingual-monolingual-debate.md) — Teacher orthodoxy vs. empirical evidence, bilingualized dictionaries, the Revised Hierarchical Model, proficiency effects, and je-dict-1's hybrid position
 - [Productive Vocabulary and Encoding Support](research/productive-vocabulary-encoding.md) — Receptive–productive gap, encoding vs. decoding dictionaries, production-oriented features, and Japanese-specific encoding challenges
+- [Formulaic Language and Phraseological Competence](research/formulaic-language-phraseological-competence.md) — Prefabricated sequences, processing advantages, formulaic competence and L2 fluency, Japanese formulaic categories, and dictionary treatment
 
 ## Topics
 

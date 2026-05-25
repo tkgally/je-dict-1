@@ -1,6 +1,6 @@
 # Learner Lexicography
 
-**Last updated**: 2026-05-23
+**Last updated**: 2026-05-25
 
 ## What is learner lexicography?
 
@@ -138,3 +138,4 @@ OALD (Oxford), LDOCE (Longman), COBUILD (Collins), CALD (Cambridge), MALD (Macmi
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — the JE lexicographic tradition from missionaries to open-source projects
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — the encyclopedic–linguistic boundary, culture-bound terms, and how dictionaries handle cultural information
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — full treatment of the evidence on dictionary types, bilingualized dictionaries, and je-dict-1's hybrid position
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — psycholinguistic evidence for holistic storage, processing advantages, and how dictionaries can support formulaic competence

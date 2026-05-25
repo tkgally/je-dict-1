@@ -1,6 +1,6 @@
 # Cultural Content in Bilingual Dictionaries
 
-**Last updated**: 2026-05-13
+**Last updated**: 2026-05-25
 
 ## Overview
 
@@ -183,3 +183,4 @@ Based on Newmark's categories and the Japanese-specific dimensions above, the hi
 - [Definition and Gloss Strategies](definition-strategies.md) — equivalence types and sense ordering
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — dimensions of synonym difference including register
 - [Multiword Expressions](multiword-expressions.md) — culturally-loaded idioms and set phrases
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — ritual and social formulas (aisatsu, keigo routines) as culturally-loaded formulaic sequences

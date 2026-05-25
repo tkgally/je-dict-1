@@ -1,6 +1,6 @@
 # Keigo: Honorific Language Acquisition and Dictionary Treatment
 
-**Last updated**: 2026-05-04
+**Last updated**: 2026-05-25
 
 ## Overview
 
@@ -183,3 +183,4 @@ je-dict-1 has 90 keigo-typed cross-references connecting base verbs to their hon
 - [Cross-Reference Design](../topics/cross-references.md) — the cross-reference system that connects base forms to keigo equivalents
 - [Example Sentence Design](example-sentences.md) — designing examples that make social context salient
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — keigo as a cultural system requiring cultural notes, not just grammatical treatment
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — keigo formulas as a major category of Japanese formulaic language; holistic storage and retrieval
