@@ -1,6 +1,6 @@
 # Depth of Vocabulary Knowledge
 
-**Last updated**: 2026-05-17
+**Last updated**: 2026-05-25
 
 ## Overview
 
@@ -148,3 +148,4 @@ The research consensus is that depth of knowledge — not just breadth — predi
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — grammatical depth in entries
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — how different knowledge dimensions accumulate at different rates through reading exposure
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — the receptive–productive gap and what dictionaries must provide for production
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — formulaic knowledge as a dimension of depth: knowing a word's conventional multi-word contexts

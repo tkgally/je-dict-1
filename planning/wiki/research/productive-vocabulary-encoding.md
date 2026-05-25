@@ -1,6 +1,6 @@
 # Productive Vocabulary Knowledge and Encoding Support in Dictionaries
 
-**Last updated**: 2026-05-24
+**Last updated**: 2026-05-25
 
 ## Overview
 
@@ -184,3 +184,4 @@ je-dict-1 is positioned as a hybrid dictionary: bilingual in direction (J→E) b
 - [Translation Equivalence](translation-equivalence.md) — The bilingual mapping problem
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — Valency, conjugation, and pattern information
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — L1-specific encoding challenges
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — the recognition–production gap for formulaic sequences and why production support requires situation-based access

@@ -1,6 +1,6 @@
 # Multiword Expressions in Learner Dictionaries
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-05-25
 
 ## What multiword expressions are
 
@@ -223,3 +223,4 @@ Cowie (1998) documents that modern phraseological research originated in Japan t
 - [Register and Formality](../topics/register.md) — register variation in formulaic routines
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — culturally-loaded formulaic expressions and social ritual vocabulary
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — entry scope criteria, non-inferability, and where MWEs sit in the macrostructure
+- [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — the psycholinguistic dimension: holistic storage, processing advantages, and formulaic competence in L2 fluency
