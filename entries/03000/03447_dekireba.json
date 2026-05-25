@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03447_dekireba_ex1",
-      "japanese": "できれば、{明日|あした}{来|き}てほしい。",
+      "japanese": "できれば、⟦{明日|あした}→明日：00501_ashita⟧⟦{来|き}て→来る：00254_kuru⟧⟦ほしい→欲しい：01107_hoshii⟧。",
       "english": "If possible, I'd like you to come tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03447_dekireba_ex2",
-      "japanese": "できれば{今週中|こんしゅうちゅう}に{返事|へんじ}をください。",
+      "japanese": "できれば⟦{今週中|こんしゅうちゅう}→今週中：noentry⟧⟦に→に：00314_ni⟧⟦{返事|へんじ}→返事：00844_henji⟧⟦を→を：00422_wo⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please reply within this week if possible.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03447_dekireba_ex3",
-      "japanese": "できれば{日本語|にほんご}で{話|はな}したい。",
+      "japanese": "できれば⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦で→で：00502_de⟧⟦{話|はな}したい→話す：00467_hanasu⟧。",
       "english": "I'd like to speak in Japanese if possible.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03447_dekireba_ex4",
-      "japanese": "できれば{電車|でんしゃ}ではなく{歩|ある}いて{行|い}きたい。",
+      "japanese": "できれば⟦{電車|でんしゃ}→電車：00522_densha⟧⟦ではなく→ではなく：09578_dehanaku⟧⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "If possible, I'd like to walk rather than take the train.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03447_dekireba_ex5",
-      "japanese": "できれば{午前中|ごぜんちゅう}に{届|とど}けてもらえると{助|たす}かります。",
+      "japanese": "できれば⟦{午前中|ごぜんちゅう}→午前中：11495_gozenchuu⟧⟦に→に：00314_ni⟧⟦{届|とど}けて→届ける：01248_todokeru⟧⟦もらえる→もらう：00520_morau⟧⟦と→と：00512_to⟧⟦{助|たす}かります→助かる：01956_tasukaru⟧。",
       "english": "It would be helpful if you could deliver it in the morning, if possible.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: できれば is a polite way to make requests or express preferences without being too demanding. It acknowledges that the request may not be feasible.\n\nSIMILAR EXPRESSIONS:\n・できたら - slightly more casual than できれば\n・できることなら - more emphatic, 'if at all possible'\n・{可能|かのう}であれば - more formal, 'if it is possible'\n・なるべく - 'as much as possible'\n・もし{可能|かのう}なら - 'if possible' (more formal)\n\nGRAMMAR: できれば is the ば-conditional form of できる. It literally means 'if it can be done' but functions as a set phrase meaning 'if possible'.\n\nNOTE: Using できれば softens requests and makes them less direct, which is important in Japanese communication.",
+  "notes": "USAGE: できれば is a polite way to make requests or express preferences without being too demanding. It acknowledges that the request may not be feasible.\n\nSIMILAR EXPRESSIONS:\n・⟦できたら→できる：00557_dekiru⟧ - slightly more casual than できれば\n・できることなら - more emphatic, 'if at all possible'\n・⟦{可能|かのう}→可能：00175_kanou⟧であれば - more formal, 'if it is possible'\n・⟦なるべく→なるべく：01281_narubeku⟧ - 'as much as possible'\n・もし⟦{可能|かのう}→可能：00175_kanou⟧なら - 'if possible' (more formal)\n\nGRAMMAR: できれば is the ば-conditional form of ⟦できる→できる：00557_dekiru⟧. It literally means 'if it can be done' but functions as a set phrase meaning 'if possible'.\n\nNOTE: Using できれば softens requests and makes them less direct, which is important in Japanese communication.",
   "cross_references": [
     {
       "type": "related",
@@ -82,14 +82,14 @@
   ],
   "metadata": {
     "created": "2026-01-12T09:32:00Z",
-    "modified": "2026-04-02T11:57:29Z",
+    "modified": "2026-05-25T17:33:10Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "expression"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "expression"
