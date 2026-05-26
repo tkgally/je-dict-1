@@ -23,5 +23,8 @@ None — no naked Japanese words found without entries.
 ### Observations logged
 None.
 
+### CI / merge status
+PR #2474 created but NOT merged. `pipeline/wait-for-pr-checks.sh 2474` timed out after 600s with zero check-runs ever appearing on the head SHA — GitHub Actions did not trigger. Curator should investigate and merge manually if appropriate.
+
 ### Next entry
 03537
