@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-26 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
+Added 20 new dictionary entries (IDs 28155-28174) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (16)**: タオルハンカチ (towel handkerchief), ブラインドタッチ (touch typing), {薬学部|やくがくぶ} (faculty of pharmacy), {教育学部|きょういくがくぶ} (faculty of education), {特別区|とくべつく} (special ward), {便|びん} (flight/scheduled service), {過払|かはら}い{金|きん} (overpayment), {単位制|たんいせい} (credit system), {代金引換|だいきんひきかえ} (cash on delivery), {官房長官|かんぼうちょうかん} (Chief Cabinet Secretary), {外相|がいしょう} (Foreign Minister), {全校|ぜんこう} (whole school), {百円玉|ひゃくえんだま} (100-yen coin), {感動作|かんどうさく} (moving work), {業|ごう} (karma), {座|ざ} (seat/position)
+- **Suffix (1)**: {料|りょう} (fee/charge; 手数料, 使用料)
+- **Noun/suffix (1)**: {級|きゅう} (grade/rank)
+- **Bound nouns (2)**: {不全|ふぜん} (failure/insufficiency; 心不全), {相乗|そうじょう} (synergy; 相乗効果)
+
+All 20 entries validate; furigana clean (verify_furigana OK; find_missing_furigana's flag on the 代金引換 headword is a known false positive for set compounds with omitted okurigana). No verbs/i-adjectives, no new kanji. Removed 1 stale candidate (トナカイ, duplicate of 28135). Candidate list synced (1635→1614).
+
 ### 2026-05-26 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
 Added 23 new dictionary entries (IDs 28132-28154) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, notes scoped to 2-3 sections.
 
