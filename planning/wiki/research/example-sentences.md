@@ -1,6 +1,6 @@
 # Example Sentence Design
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-05-26
 
 ## What makes good dictionary examples?
 
@@ -80,5 +80,6 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how example design supports deep processing and the involvement load hypothesis
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — contrastive encoding examples as the most effective format for teaching synonym distinctions
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — progressive examples serve learners at different stages of incremental acquisition
+- [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — examples as chunk exposure opportunities in a vocabulary-centred methodology
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — how example sentences create incidental learning opportunities and re-encounter contexts
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — encoding examples vs. decoding examples (Frankenberg-Garcia 2015)

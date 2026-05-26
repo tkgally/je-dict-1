@@ -1,6 +1,6 @@
 # Controlled Defining Vocabulary
 
-**Last updated**: 2026-05-16
+**Last updated**: 2026-05-26
 
 ## Overview
 
@@ -124,3 +124,4 @@ The pilot **expository articles** feature (see `ideas/expository-articles.md`) w
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how the tier system supports selective attention and planning strategies
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — historical context for the CDV approach in JE lexicography
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — the CDV as an inherently monolingual concept, and why bilingual dictionaries don't need one
+- [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — Willis's COBUILD-based frequency grading as a precursor to CDV-informed syllabi

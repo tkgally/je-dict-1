@@ -1,6 +1,6 @@
 # Corpus Linguistics and Frequency Lists
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-05-26
 
 ## How corpus data informs dictionary making
 
@@ -75,3 +75,4 @@ Comparing dictionary coverage against BCCWJ frequency ranks would identify the h
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — how frequency-based vocabulary size maps to text coverage thresholds
 - [Register and Formality Marking](register-formality-marking.md) — corpus-based register assignment using genre-tagged subcorpora
 - [Japanese Vocabulary Grading](japanese-vocabulary-grading.md) — BCCWJ-derived word lists, JLPT vs. corpus-based approaches, and Japanese-specific counting-unit challenges
+- [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — Willis's COBUILD-based lexical syllabus and corpus-driven vocabulary selection
