@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "03595_fukou_ex1",
-      "japanese": "{不幸|ふこう}な{子供|こども}{時代|じだい}を{過|す}ごした。",
+      "japanese": "{不幸|ふこう}な⟦{子供|こども}→子供：00554_kodomo⟧⟦{時代|じだい}→時代：01424_jidai⟧⟦を→を：00422_wo⟧⟦{過|す}ごした→過ごす：02062_sugosu⟧。",
       "english": "I spent an unhappy childhood.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03595_fukou_ex2",
-      "japanese": "{彼女|かのじょ}は{不幸|ふこう}な{結婚|けっこん}{生活|せいかつ}に{苦|くる}しんでいた。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{不幸|ふこう}な⟦{結婚|けっこん}→結婚：02514_kekkon⟧⟦{生活|せいかつ}→生活：01443_seikatsu⟧⟦に→に：00314_ni⟧⟦{苦|くる}しんで→苦しむ：01938_kurushimu⟧⟦いた→いる：00495_iru⟧。",
       "english": "She was suffering from an unhappy marriage.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03595_fukou_ex3",
-      "japanese": "{お金|かね}があっても{不幸|ふこう}な{人|ひと}はたくさんいる。",
+      "japanese": "⟦お{金|かね}→お金：00611_okane⟧⟦が→が：00051_ga⟧⟦あって→ある：00006_aru⟧⟦も→も：00484_mo⟧{不幸|ふこう}な⟦{人|ひと}→人：00476_hito⟧⟦は→は：00079_ha⟧たくさん⟦いる→いる：00495_iru⟧。",
       "english": "There are many people who are unhappy even though they have money.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03595_fukou_ex4",
-      "japanese": "{彼|かれ}には{不幸|ふこう}が{続|つづ}いた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{不幸|ふこう}⟦が→が：00051_ga⟧⟦{続|つづ}いた→続く：00903_tsuzuku⟧。",
       "english": "Misfortune continued to befall him.",
       "notes": null,
       "has_audio": false,
@@ -64,9 +64,9 @@
     },
     {
       "id": "03595_fukou_ex5",
-      "japanese": "{不幸|ふこう}にも、{事故|じこ}で{大|おお}けがをした。",
+      "japanese": "{不幸|ふこう}にも、⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{大|おお}けが→大けが：noentry⟧をした。",
       "english": "Unfortunately, I was seriously injured in an accident.",
-      "notes": "不幸にも = unfortunately",
+      "notes": "{不幸|ふこう}にも = unfortunately",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -74,9 +74,9 @@
     },
     {
       "id": "03595_fukou_ex6",
-      "japanese": "{不幸中|ふこうちゅう}の{幸|さいわ}いで、{命|いのち}に{別状|べつじょう}はなかった。",
+      "japanese": "{不幸|ふこう}{中|ちゅう}の⟦{幸|さいわ}い→幸い：02774_saiwai⟧⟦で→で：00502_de⟧、⟦{命|いのち}→命：02371_inochi⟧⟦に→に：00314_ni⟧⟦{別状|べつじょう}→別状：noentry⟧⟦は→は：00079_ha⟧なかった。",
       "english": "As a silver lining, there was no danger to life.",
-      "notes": "不幸中の幸い = a blessing in disguise, silver lining",
+      "notes": "{不幸|ふこう}{中|ちゅう}の⟦{幸|さいわ}い→幸い：02774_saiwai⟧ = a silver lining",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -84,7 +84,7 @@
     },
     {
       "id": "03595_fukou_ex7",
-      "japanese": "{家族|かぞく}に{不幸|ふこう}があり、{欠席|けっせき}します。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{不幸|ふこう}⟦が→が：00051_ga⟧あり、⟦{欠席|けっせき}→欠席：02495_kesseki⟧します。",
       "english": "I will be absent due to a death in the family.",
       "notes": "Euphemism for death in the family",
       "has_audio": false,
@@ -94,7 +94,7 @@
     },
     {
       "id": "03595_fukou_ex8",
-      "japanese": "{不幸|ふこう}があったので、{旅行|りょこう}は{中止|ちゅうし}にした。",
+      "japanese": "{不幸|ふこう}⟦が→が：00051_ga⟧あったので、⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦は→は：00079_ha⟧⟦{中止|ちゅうし}→中止：03481_chuushi⟧にした。",
       "english": "There was a death in the family, so I canceled the trip.",
       "notes": "Euphemistic usage",
       "has_audio": false,
@@ -104,16 +104,16 @@
     },
     {
       "id": "03595_fukou_ex9",
-      "japanese": "{同僚|どうりょう}のご{家族|かぞく}に{不幸|ふこう}があったと{聞|き}いて、お{悔|く}やみの{言葉|ことば}を{伝|つた}えた。",
+      "japanese": "⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦の→の：09472_no⟧ご⟦{家族|かぞく}→家族：00552_kazoku⟧⟦に→に：00314_ni⟧{不幸|ふこう}⟦が→が：00051_ga⟧あったと⟦{聞|き}いて→聞く：00483_kiku⟧、お⟦{悔|く}やみ→お悔やみ：15866_okuyami⟧⟦の→の：09472_no⟧⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧⟦{伝|つた}えた→伝える：01220_tsutaeru⟧。",
       "english": "I heard that there was a death in a colleague's family and offered my condolences.",
-      "notes": "お悔やみ = condolences",
+      "notes": "お⟦{悔|く}やみ→お悔やみ：15866_okuyami⟧ = condolences",
       "has_audio": false,
       "sense_numbers": [
         3
       ]
     }
   ],
-  "notes": "{不幸|ふこう} covers three related meanings: general unhappiness, misfortune/bad luck, and (as a euphemism) a death in the family.\n\nCOMMON PATTERNS:\n- {不幸|ふこう}な{出来事|できごと}: unfortunate event\n- {不幸|ふこう}に{見舞|みま}われる: to be struck by misfortune\n- {不幸|ふこう}にも: unfortunately\n- {不幸中|ふこうちゅう}の{幸|さいわ}い: a silver lining\n\nEUPHEMISTIC USE:\n{家族|かぞく}に{不幸|ふこう}があった means 'there was a death in the family.' This is the standard polite way to explain absences due to bereavement in workplace and social contexts.\n\nCONTRAST:\n- {幸福|こうふく}: happiness (direct antonym)\n- {不運|ふうん}: bad luck (focuses on luck rather than emotional state)\n- {災難|さいなん}: calamity, disaster (a specific unfortunate event)",
+  "notes": "{不幸|ふこう} covers three related meanings: general unhappiness, misfortune/bad luck, and (as a euphemism) a death in the family.\n\nCOMMON PATTERNS:\n- {不幸|ふこう}な⟦{出来事|できごと}→出来事：03446_dekigoto⟧: unfortunate event\n- {不幸|ふこう}⟦に→に：00314_ni⟧⟦{見舞|みま}われる→見舞われる：27351_mimawareru⟧: to be struck by misfortune\n- {不幸|ふこう}にも: unfortunately\n- {不幸|ふこう}{中|ちゅう}の⟦{幸|さいわ}い→幸い：02774_saiwai⟧: a silver lining\n\nEUPHEMISTIC USE:\n⟦{家族|かぞく}→家族：00552_kazoku⟧に{不幸|ふこう}があった means 'there was a death in the family.' This is the standard polite way to explain absences due to bereavement in workplace and social contexts.\n\nCONTRAST:\n- ⟦{幸福|こうふく}→幸福：02750_koufuku⟧: happiness (direct antonym)\n- ⟦{不運|ふうん}→不運：00049_fuun⟧: bad luck (focuses on luck rather than emotional state)\n- ⟦{災難|さいなん}→災難：04161_sainan⟧: calamity, disaster (a specific unfortunate event)",
   "cross_references": [
     {
       "type": "antonym",
@@ -146,7 +146,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T15:32:00Z",
-    "modified": "2026-04-11T01:39:00Z",
+    "modified": "2026-05-26T17:11:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -157,7 +157,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics"
+        "general"
       ]
     }
   }
