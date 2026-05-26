@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03642_yaya_ex1",
-      "japanese": "{今日|きょう}はやや{寒|さむ}い。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧やや⟦{寒|さむ}い→寒い：00664_samui⟧。",
       "english": "It's somewhat cold today.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03642_yaya_ex2",
-      "japanese": "{値段|ねだん}がやや{高|たか}めだ。",
+      "japanese": "⟦{値段|ねだん}→値段：00871_nedan⟧⟦が→が：00051_ga⟧やや⟦{高|たか}め→高め：14861_takame⟧だ。",
       "english": "The price is slightly on the high side.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03642_yaya_ex3",
-      "japanese": "{彼|かれ}の{説明|せつめい}はやや{分|わ}かりにくかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦は→は：00079_ha⟧やや⟦{分|わ}かり→分かる：00463_wakaru⟧⟦にくかった→にくい：02005_nikui⟧。",
       "english": "His explanation was somewhat difficult to understand.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "やや is a formal adverb meaning \"slightly\" or \"somewhat.\" It is more commonly used in written language, news reports, and formal speech than in casual conversation.\n\nCOMMON PATTERNS:\n- やや{高|たか}い: slightly high/expensive\n- やや{多|おお}い: somewhat many\n- やや{遅|おく}れて: slightly late\n- やや{難|むずか}しい: somewhat difficult\n\nCONTRAST WITH SIMILAR WORDS:\n- やや: slightly (formal, written)\n- ちょっと: a little (casual, spoken)\n- {少|すこ}し: a little (neutral, versatile)\n- いくぶん: somewhat (formal, literary)\n- {若干|じゃっかん}: slightly (formal, often in data/statistics)\n\nUSAGE:\nTypically modifies adjectives or verbs. Very common in news: {景気|けいき}はやや{回復|かいふく}した (the economy recovered slightly).",
+  "notes": "やや is a formal adverb meaning \"slightly\" or \"somewhat.\" It is more commonly used in written language, news reports, and formal speech than in casual conversation.\n\nCOMMON PATTERNS:\n- やや⟦{高|たか}い→高い：00500_takai⟧: slightly high/expensive\n- やや⟦{多|おお}い→多い：01127_ooi⟧: somewhat many\n- やや⟦{遅|おく}れて→遅れる：00741_okureru⟧: slightly late\n- やや⟦{難|むずか}しい→難しい：00517_muzukashii⟧: somewhat difficult\n\nCONTRAST WITH SIMILAR WORDS:\n- やや: slightly (formal, written)\n- ⟦ちょっと→ちょっと：00595_chotto⟧: a little (casual, spoken)\n- ⟦{少|すこ}し→少し：00596_sukoshi⟧: a little (neutral, versatile)\n- ⟦いくぶん→いくぶん：04098_ikubun⟧: somewhat (formal, literary)\n- ⟦{若干|じゃっかん}→若干：05530_jakkan⟧: slightly (formal, often in data/statistics)\n\nUSAGE:\nTypically modifies adjectives or verbs. Very common in news: ⟦{景気|けいき}→景気：02694_keiki⟧⟦は→は：00079_ha⟧やや⟦{回復|かいふく}した→回復する：21330_kaifukusuru⟧ (the economy recovered slightly).",
   "metadata": {
     "created": "2026-01-12T16:02:00Z",
-    "modified": "2026-03-26T06:22:34Z",
+    "modified": "2026-05-26T20:08:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -62,5 +62,11 @@
         "descriptive"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {"type": "contrast", "target_id": "00595_chotto", "reading": "ちょっと", "headword": "ちょっと", "note": "a little (casual, spoken)"},
+    {"type": "contrast", "target_id": "00596_sukoshi", "reading": "すこし", "headword": "{少|すこ}し", "note": "a little (neutral)"},
+    {"type": "contrast", "target_id": "04098_ikubun", "reading": "いくぶん", "headword": "いくぶん", "note": "somewhat (formal, literary)"},
+    {"type": "contrast", "target_id": "05530_jakkan", "reading": "じゃっかん", "headword": "{若干|じゃっかん}", "note": "slightly (formal, data/statistics)"}
+  ]
 }
