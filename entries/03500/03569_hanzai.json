@@ -14,9 +14,9 @@
   "examples": [
     {
       "id": "03569_hanzai_ex1",
-      "japanese": "{犯罪|はんざい}を{犯|おか}してはいけない。",
+      "japanese": "{犯罪|はんざい}⟦を→を：00422_wo⟧⟦{犯|おか}して→犯す：10059_okasu⟧⟦は→は：00079_ha⟧⟦いけない→いけない：02335_ikenai⟧。",
       "english": "You must not commit crimes.",
-      "notes": "犯罪を犯す = to commit a crime",
+      "notes": "{犯罪|はんざい}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ = to commit a crime",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "03569_hanzai_ex2",
-      "japanese": "{犯罪|はんざい}{率|りつ}が{低|ひく}い{国|くに}。",
+      "japanese": "{犯罪|はんざい}⟦{率|りつ}→率：03802_ritsu⟧⟦が→が：00051_ga⟧⟦{低|ひく}い→低い：02947_hikui⟧⟦{国|くに}→国：02204_kuni⟧。",
       "english": "A country with a low crime rate.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03569_hanzai_ex3",
-      "japanese": "サイバー{犯罪|はんざい}が{増|ふ}えている。",
+      "japanese": "⟦サイバー→サイバー：noentry⟧{犯罪|はんざい}⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Cybercrime is increasing.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {犯罪|はんざい} is the general term for crime in legal and everyday contexts.\n\nCOMMON PATTERNS:\n・{犯罪|はんざい}を{犯|おか}す (to commit a crime)\n・{犯罪|はんざい}に{手|て}を{染|そ}める (to turn to crime)\n・{犯罪|はんざい}を{防|ふせ}ぐ (to prevent crime)\n・{犯罪|はんざい}に{巻|ま}き{込|こ}まれる (to get caught up in crime)\n\nCOMMON COMPOUNDS:\n・{犯罪|はんざい}{者|しゃ} (criminal)\n・{犯罪|はんざい}{率|りつ} (crime rate)\n・{犯罪|はんざい}{捜査|そうさ} (criminal investigation)\n・{犯罪|はんざい}{防止|ぼうし} (crime prevention)\n・{凶悪|きょうあく}{犯罪|はんざい} (violent crime)\n・サイバー{犯罪|はんざい} (cybercrime)\n・{組織|そしき}{犯罪|はんざい} (organized crime)",
+  "notes": "USAGE: {犯罪|はんざい} is the general term for crime in legal and everyday contexts.\n\nCOMMON PATTERNS:\n・{犯罪|はんざい}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a crime)\n・{犯罪|はんざい}⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦を→を：00422_wo⟧⟦{染|そ}める→染める：04253_someru⟧ (to turn to crime)\n・{犯罪|はんざい}⟦を→を：00422_wo⟧⟦{防|ふせ}ぐ→防ぐ：02409_fusegu⟧ (to prevent crime)\n・{犯罪|はんざい}⟦に→に：00314_ni⟧⟦{巻|ま}き{込|こ}まれる→巻き込まれる：21634_makikomareru⟧ (to get caught up in crime)\n\nCOMMON COMPOUNDS:\n・⟦{犯罪|はんざい}{者|しゃ}→犯罪者：19219_hanzaisha⟧ (criminal)\n・{犯罪|はんざい}⟦{率|りつ}→率：03802_ritsu⟧ (crime rate)\n・{犯罪|はんざい}⟦{捜査|そうさ}→捜査：03688_sousa⟧ (criminal investigation)\n・{犯罪|はんざい}⟦{防止|ぼうし}→防止：14571_boushi⟧ (crime prevention)\n・⟦{凶悪|きょうあく}→凶悪：noentry⟧{犯罪|はんざい} (violent crime)\n・⟦サイバー→サイバー：noentry⟧{犯罪|はんざい} (cybercrime)\n・⟦{組織|そしき}→組織：03320_soshiki⟧{犯罪|はんざい} (organized crime)",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T11:48:00Z",
-    "modified": "2026-01-19T12:17:42.386157Z",
+    "modified": "2026-05-26T16:18:44Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
