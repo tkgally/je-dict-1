@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-26 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
+Added 23 new dictionary entries (IDs 28132-28154) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short, notes scoped to 2-3 sections.
+
+- **Nouns (12)**: {籾殻|もみがら} (rice husk), {貝塚|かいづか} (shell mound), {横浜|よこはま} (Yokohama), {札幌|さっぽろ} (Sapporo), {自民党|じみんとう} (LDP), {青森県|あおもりけん} (Aomori Prefecture), オーストラリア (Australia), トナカイ (reindeer), ばあちゃん (granny), おとうちゃん (dad), {冷|ひ}や (cold water / room-temp sake), スプレッド (food spread), {大発見|だいはっけん} (great discovery)
+- **Noun pair w/ antonym cross-refs**: {旧式|きゅうしき} (old-style) ↔ {新式|しんしき} (new-style)
+- **Noun+verb-suru (1)**: ペイント (paint; ペイントする)
+- **Noun/prefix (1)**: {万年|まんねん} (perpetual; 万年雪, 万年筆)
+- **Pronoun (1)**: あたし (casual female "I")
+- **Interjections (2)**: うーん (hmm), あっ (oh!/oops!)
+- **Pre-noun adjectival (1)**: どういう (what kind of)
+- **Expressions (2)**: ここだけ (just between us), おいくつ (how old?, polite)
+
+All 23 entries validate; furigana check clean; conjugation table added to ペイント (suru). Two new kanji assigned IDs: 塚 (02758_chou_tsuka_mound), 幌 (02759_kou_horo_canopy). Candidate list synced.
+
 ### 2026-05-26 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
 Added 20 new dictionary entries (IDs 28112-28131) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
