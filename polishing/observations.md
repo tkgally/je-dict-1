@@ -35,3 +35,6 @@ _(All observations through 2026-05-25 sessions 012 and 021 have been harvested b
 ## 2026-05-26 — comprehensive polish session 008 (entries 03662–03676)
 - [pattern] Continued finding misassigned "electronics" semantic tags in 03600–03700 range: 喜び (03672) and 理解 (03674) both tagged "electronics" — corrected to "emotion" and "general" respectively. Same systematic error noted in session 004 persists further through this range.
 - [pattern] Compound entries (天気予報 01678, 予防接種 11068) should be linked as units when they appear in examples/notes rather than linking individual components. The compound has its own entry so the full compound is the right link target.
+
+## 2026-05-26 — comprehensive polish session 009 (entries 03677–03698)
+- [pattern] Multiple entries in the 03686–03698 range had clearly wrong semantic tags (像 03691 tagged "animal-mammal", 班 03697 tagged "food", 進行 03686 tagged "body-part"/"transportation", 操縦 03689 tagged "body-part"/"occupation"/"time-general"/"transportation", 羽根 03696 tagged "transportation"). These appear to be systematic tagging errors from original AI generation, likely from confusion with homophones or unrelated words. A dedicated semantic-tag validation pass over the 03500–03800 range may be warranted.
