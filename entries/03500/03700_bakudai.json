@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03700_bakudai_ex1",
-      "japanese": "{莫大|ばくだい}な{費用|ひよう}がかかった。",
+      "japanese": "{莫大|ばくだい}⟦な→な：09497_na⟧⟦{費用|ひよう}→費用：03588_hiyou⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It cost an enormous amount of money.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03700_bakudai_ex2",
-      "japanese": "{彼|かれ}は{莫大|ばくだい}な{財産|ざいさん}を{相続|そうぞく}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{莫大|ばくだい}⟦な→な：09497_na⟧⟦{財産|ざいさん}→財産：01635_zaisan⟧⟦を→を：00422_wo⟧⟦{相続|そうぞく}した→相続：03690_souzoku⟧。",
       "english": "He inherited a vast fortune.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03700_bakudai_ex3",
-      "japanese": "{莫大|ばくだい}な{借金|しゃっきん}を{抱|かか}えている。",
+      "japanese": "{莫大|ばくだい}⟦な→な：09497_na⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧⟦を→を：00422_wo⟧⟦{抱|かか}えて→抱える：02031_kakaeru⟧⟦いる→いる：00495_iru⟧。",
       "english": "They are burdened with an enormous debt.",
       "notes": null,
       "has_audio": false,
@@ -43,8 +43,15 @@
       ]
     }
   ],
-  "notes": "Used to describe extremely large amounts, especially of money, resources, or abstract quantities.\n\nFORMS:\n・{莫大|ばくだい}な + noun\n・{莫大|ばくだい}に + verb (rarely used)\n\nCOMMON COLLOCATIONS:\n・{莫大|ばくだい}な{費用|ひよう} (enormous cost)\n・{莫大|ばくだい}な{財産|ざいさん} (vast fortune)\n・{莫大|ばくだい}な{借金|しゃっきん} (huge debt)\n・{莫大|ばくだい}な{利益|りえき} (enormous profit)\n・{莫大|ばくだい}な{損害|そんがい} (tremendous damage)\n\nSIMILAR WORDS:\n・{膨大|ぼうだい} - immense (often for volume or data)\n・{巨大|きょだい} - huge (physical size)\n・{莫大|ばくだい} - enormous (typically for amounts, money)",
+  "notes": "Used to describe extremely large amounts, especially of money, resources, or abstract quantities.\n\nFORMS:\n・{莫大|ばくだい}⟦な→な：09497_na⟧ + noun\n・{莫大|ばくだい}⟦に→に：00314_ni⟧ + verb (rarely used)\n\nCOMMON COLLOCATIONS:\n・{莫大|ばくだい}⟦な→な：09497_na⟧⟦{費用|ひよう}→費用：03588_hiyou⟧ (enormous cost)\n・{莫大|ばくだい}⟦な→な：09497_na⟧⟦{財産|ざいさん}→財産：01635_zaisan⟧ (vast fortune)\n・{莫大|ばくだい}⟦な→な：09497_na⟧⟦{借金|しゃっきん}→借金：03203_shakkin⟧ (huge debt)\n・{莫大|ばくだい}⟦な→な：09497_na⟧⟦{利益|りえき}→利益：03673_rieki⟧ (enormous profit)\n・{莫大|ばくだい}⟦な→な：09497_na⟧⟦{損害|そんがい}→損害：02615_songai⟧ (tremendous damage)\n\nSIMILAR WORDS:\n・⟦{膨大|ぼうだい}→膨大：08997_boudai⟧ - immense (often for volume or data)\n・⟦{巨大|きょだい}→巨大：02586_kyodai⟧ - huge (physical size)\n・{莫大|ばくだい} - enormous (typically for amounts, money)",
   "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "ぼうだい",
+      "headword": "{膨大|ぼうだい}",
+      "label": "immense (volume/data)",
+      "target_id": "08997_boudai"
+    },
     {
       "type": "related",
       "reading": "きょだい",
@@ -55,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T12:24:37Z",
-    "modified": "2026-01-19T12:17:42.481474Z",
+    "modified": "2026-05-26T23:09:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
