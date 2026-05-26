@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-24
+**Last updated**: 2026-05-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -203,6 +203,14 @@ Entry 02617_kondeiru ({混|こ}んでいる, "to be crowded") has a badly wrong 
 Entry 03032_doukyuusei ({同級生|どうきゅうせい}, classmate) has examples 2 and 3 that are nearly identical ("I ran into a high school classmate" vs. "I met a classmate"). The examples don't offer enough variety to demonstrate different usage contexts.
 
 **Recommended fix**: Replace one of the near-duplicate examples with a sentence showing 同級生 in a different context — e.g., a reunion, nostalgia, comparing professional trajectories, or childhood memories. Maintain progressive length.
+
+## 03370_zureru — Verb conjugation class misclassification (godan → ichidan)
+
+**Source**: Comprehensive-polish 2026-05-25 session 012
+
+Entry 03370_zureru ({ずれる}) was classified as godan but is actually ichidan (ズレる follows the ichidan pattern: ずれない, ずれます, ずれて). The originating polish session corrected the classification. This is the same class of error as 01293_yogoreru (also misclassified godan → ichidan). Both are -eru ending verbs where the godan/ichidan distinction is ambiguous from the romaji alone.
+
+**Recommended action**: Spot-check other -eru/-iru ending verbs in the 03300–03500 range for godan/ichidan misclassification. The pattern suggests batch creation may have defaulted to godan for ambiguous endings.
 
 ## Related pages
 
