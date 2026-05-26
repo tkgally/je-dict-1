@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-26 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
+Added 20 new dictionary entries (IDs 28112-28131) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (14)**: {満潮|みちしお} (high tide, native reading), {飛行機雲|ひこうきぐも} (contrail), {歯痛|しつう} (toothache), {部隊|ぶたい} (military unit), {弾|たま} (bullet/ammunition), {陽子|ようし} (proton), {中性子|ちゅうせいし} (neutron), {常習|じょうしゅう} (habitual practice), {賜物|たまもの} (gift/fruits of effort), {道端|みちばた} (roadside), {漢数字|かんすうじ} (kanji numerals), {初段|しょだん} (first dan), {華氏|かし} (Fahrenheit), {体育着|たいいくぎ} (gym clothes)
+- **Verbs (5)**: {逝|い}く (to pass away, godan), かざす (to hold up/tap a card, godan), {決意|けつい}する (to resolve, suru), {語|かた}りかける (to speak to, ichidan), {入力|にゅうりょく}する (to input, suru)
+- **Interjection (1)**: いざ (now; come on; いざという時)
+
+All 20 entries validate; furigana check clean; conjugation tables added to the 5 verbs (逝く correctly received the irregular て-form 逝って). No new kanji needed. Removed 4 stale candidates (イルカ/クジラ/バラ duplicate existing kanji entries 海豚/鯨/薔薇; 気持ちよい duplicates 気持ちいい 09583). Candidate list synced (1681→1677).
+
 ### 2026-05-25 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28090-28111) from `candidate_words.json`, drawn from the newest "seen in entry" candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264); top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
