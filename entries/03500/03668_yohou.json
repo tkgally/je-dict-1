@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03668_yohou_ex1",
-      "japanese": "{天気|てんき}{予報|よほう}によると、{明日|あした}は{雨|あめ}だ。",
+      "japanese": "⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧⟦に→に：00314_ni⟧⟦よると→よる：09857_yoru⟧、⟦{明日|あした}→明日：00501_ashita⟧⟦は→は：00079_ha⟧⟦{雨|あめ}→雨：00583_ame⟧⟦だ→だ：09496_da⟧。",
       "english": "According to the weather forecast, it will rain tomorrow.",
       "notes": "天気予報 = weather forecast",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03668_yohou_ex2",
-      "japanese": "{予報|よほう}が{外|はず}れた。",
+      "japanese": "{予報|よほう}⟦が→が：00051_ga⟧⟦{外|はず}れた→外れる：02395_hazureru⟧。",
       "english": "The forecast was wrong.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03668_yohou_ex3",
-      "japanese": "{週間|しゅうかん}{予報|よほう}をチェックする。",
+      "japanese": "⟦{週間|しゅうかん}→週間：00988_shuukan⟧{予報|よほう}⟦を→を：00422_wo⟧⟦チェック→チェック：03000_chekku⟧⟦する→する：00392_suru⟧。",
       "english": "To check the weekly forecast.",
       "notes": "週間予報 = weekly forecast",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {予報|よほう} is most commonly used for weather forecasts ({天気|てんき}{予報|よほう}), but can also be used for other types of official predictions.\n\nCOMMON PATTERNS:\n・{天気|てんき}{予報|よほう} (weather forecast)\n・{週間|しゅうかん}{予報|よほう} (weekly forecast)\n・{予報|よほう}{士|し} (weather forecaster)\n・{予報|よほう}が{当|あ}たる (forecast is accurate)\n・{予報|よほう}が{外|はず}れる (forecast is wrong)\n\nRELATED:\n・{予測|よそく} - prediction (analytical)\n・{予想|よそう} - expectation, prediction",
+  "notes": "USAGE: {予報|よほう} is most commonly used for weather forecasts (⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧), but can also be used for other types of official predictions.\n\nCOMMON PATTERNS:\n・⟦{天気|てんき}{予報|よほう}→天気予報：01678_tenkiyohou⟧ (weather forecast)\n・⟦{週間|しゅうかん}→週間：00988_shuukan⟧{予報|よほう} (weekly forecast)\n・{予報|よほう}⟦{士|し}→士：noentry⟧ (weather forecaster)\n・{予報|よほう}⟦が→が：00051_ga⟧⟦{当|あ}たる→当たる：01860_ataru⟧ (forecast is accurate)\n・{予報|よほう}⟦が→が：00051_ga⟧⟦{外|はず}れる→外れる：02395_hazureru⟧ (forecast is wrong)\n\nRELATED:\n・⟦{予測|よそく}→予測：03665_yosoku⟧ - prediction (analytical)\n・⟦{予想|よそう}→予想：03664_yosou⟧ - expectation, prediction",
   "cross_references": [
     {
       "type": "synonym",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T16:07:00Z",
-    "modified": "2026-04-07T08:42:12Z",
+    "modified": "2026-05-26T21:15:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
