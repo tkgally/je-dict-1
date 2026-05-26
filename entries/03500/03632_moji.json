@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03632_moji_ex1",
-      "japanese": "この{文字|もじ}は{何|なん}と{読|よ}みますか。",
+      "japanese": "⟦この→この：00962_kono⟧{文字|もじ}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦と→と：00512_to⟧⟦{読|よ}みますか→読む：00426_yomu⟧。",
       "english": "How do you read this character?",
       "notes": null,
       "has_audio": false,
@@ -24,9 +24,9 @@
     },
     {
       "id": "03632_moji_ex2",
-      "japanese": "{日本語|にほんご}には{三|みっ}つの{文字|もじ}{体系|たいけい}がある。",
+      "japanese": "⟦{日本語|にほんご}→日本語：00614_nihongo⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧{文字|もじ}⟦{体系|たいけい}→体系：04487_taikei⟧⟦が→が：00051_ga⟧ある。",
       "english": "Japanese has three writing systems.",
-      "notes": "ひらがな, カタカナ, 漢字",
+      "notes": "ひらがな, カタカナ, ⟦{漢字|かんじ}→漢字：09480_kanji⟧",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "03632_moji_ex3",
-      "japanese": "{文字|もじ}を{大|おお}きく{書|か}いてください。",
+      "japanese": "{文字|もじ}⟦を→を：00422_wo⟧⟦{大|おお}きく→大きく：noentry⟧⟦{書|か}いてください→書く：00477_kaku⟧。",
       "english": "Please write the characters larger.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "{文字|もじ} is the general term for any written character or letter, regardless of writing system.\n\nREADINGS:\n- もじ: the standard reading\n- もんじ: a less common variant reading (same meaning)\n\nJAPANESE WRITING SYSTEMS:\n- {漢字|かんじ}: kanji (Chinese characters)\n- ひらがな: hiragana\n- カタカナ: katakana\n- アルファベット: alphabet (Latin letters)\n- {数字|すうじ}: numerals\n\nCOMMON COMPOUNDS:\n- {文字|もじ}{通|どお}り: literally\n- {文字|もじ}{化|か}け: garbled text (encoding errors)\n- {絵|え}{文字|もじ}: emoji, pictograph\n- {文字|もじ}{数|すう}: character count\n- {大文字|おおもじ}: uppercase letter\n- {小文字|こもじ}: lowercase letter\n\nCOMMON COLLOCATIONS:\n- {文字|もじ}を{書|か}く: to write characters\n- {文字|もじ}を{読|よ}む: to read characters\n- {文字|もじ}が{小|ちい}さい: the characters are small",
+  "notes": "{文字|もじ} is the general term for any written character or letter, regardless of writing system.\n\nREADINGS:\n- もじ: the standard reading\n- もんじ: a less common variant reading (same meaning)\n\nJAPANESE WRITING SYSTEMS:\n- ⟦{漢字|かんじ}→漢字：09480_kanji⟧: kanji (Chinese characters)\n- ひらがな: hiragana\n- カタカナ: katakana\n- アルファベット: alphabet (Latin characters)\n\nSEE ALSO: ⟦{文字|もんじ}→文字：00290_monji⟧ (alternative reading/form)",
   "metadata": {
     "created": "2026-01-12T16:49:59Z",
-    "modified": "2026-05-10T14:31:00Z",
+    "modified": "2026-05-26T19:11:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
