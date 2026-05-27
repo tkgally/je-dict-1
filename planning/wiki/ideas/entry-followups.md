@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-26
+**Last updated**: 2026-05-27
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -211,6 +211,28 @@ Entry 03032_doukyuusei ({同級生|どうきゅうせい}, classmate) has exampl
 Entry 03370_zureru ({ずれる}) was classified as godan but is actually ichidan (ズレる follows the ichidan pattern: ずれない, ずれます, ずれて). The originating polish session corrected the classification. This is the same class of error as 01293_yogoreru (also misclassified godan → ichidan). Both are -eru ending verbs where the godan/ichidan distinction is ambiguous from the romaji alone.
 
 **Recommended action**: Spot-check other -eru/-iru ending verbs in the 03300–03500 range for godan/ichidan misclassification. The pattern suggests batch creation may have defaulted to godan for ambiguous endings.
+
+## 03591_fuukei — Furigana error with 描 kanji; check other entries
+
+**Source**: Comprehensive-polish 2026-05-26 session 004
+
+Entry 03591_fuukei ({風景|ふうけい}) had the furigana error `{描|か}く` (wrong reading for 描 in the "depict" sense) — corrected to `{描|えが}く` (egaku). Worth checking other entries that use 描 kanji, as the wrong reading か is from the homograph 書く/描く ambiguity (かく = "to write/draw" vs. えがく = "to depict/portray").
+
+**Recommended fix**: Grep for `{描|か}` across all entries and verify each instance uses the correct reading for context: かく for informal "to draw" and えがく for "to depict/portray."
+
+## 03707_hitei — Duplicate example sentences
+
+**Source**: Comprehensive-polish 2026-05-26 session 010
+
+Entry 03707_hitei ({否定|ひてい}) has ex2 and ex4 as identical Japanese sentences: both read `{否定|ひてい}{形|けい}を{使|つか}って{文|ぶん}を{作|つく}りなさい。` One should be replaced with a different example showing 否定 in another context (e.g., denying a rumor, negative attitude, negation in logic).
+
+## Compound entries as inline link targets (observation)
+
+**Source**: Comprehensive-polish 2026-05-26 session 008
+
+When compound entries like 天気予報 (01678) or 予防接種 (11068) appear in examples or notes, they should be linked as whole compounds pointing to their own entry, not as separate links to individual components. This is a general linking principle: if a compound has its own entry, the compound is the right link target.
+
+**Status**: Not a single-entry fix but a principle for inline-link polishing sessions to follow.
 
 ## Related pages
 

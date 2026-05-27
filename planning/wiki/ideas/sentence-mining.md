@@ -1,6 +1,6 @@
 # Sentence Mining Integration
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-05-27
 
 ## Concept
 
@@ -37,3 +37,4 @@ Low. Interesting for power users but adds significant complexity. The dictionary
 
 - [Vocabulary Acquisition](../research/vocabulary-acquisition.md)
 - [Digital Dictionary UX](../research/digital-dictionary-ux.md)
+- [Spaced Repetition and Dictionary Design](../research/spaced-repetition-dictionary-design.md) — research on spacing, retrieval practice, and how dictionaries feed SRS workflows
