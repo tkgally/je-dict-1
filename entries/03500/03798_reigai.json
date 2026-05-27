@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03798_reigai_ex1",
-      "japanese": "{例外|れいがい}なく{全員|ぜんいん}が{参加|さんか}した。",
+      "japanese": "{例外|れいがい}⟦なく→ない：01118_nai⟧⟦{全員|ぜんいん}→全員：03310_zenin⟧⟦が→が：00051_ga⟧⟦{参加|さんか}した→参加：02498_sanka⟧。",
       "english": "Everyone participated without exception.",
       "notes": "例外なく = without exception",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03798_reigai_ex2",
-      "japanese": "これは{例外|れいがい}{的|てき}なケースだ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{例外|れいがい}⟦{的|てき}→〜的：09839_teki⟧な⟦ケース→ケース：03841_keesu⟧⟦だ→だ：09496_da⟧。",
       "english": "This is an exceptional case.",
       "notes": "例外的 = exceptional",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03798_reigai_ex3",
-      "japanese": "{例外|れいがい}を{認|みと}めることはできない。",
+      "japanese": "{例外|れいがい}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧⟦こと→こと：01164_koto⟧⟦は→は：00079_ha⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "We cannot allow any exceptions.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,19 @@
       ]
     }
   ],
-  "notes": "USAGE: {例外|れいがい} refers to something that deviates from a rule or standard pattern.\n\nCOMMON PATTERNS:\n・{例外|れいがい}なく (without exception)\n・{例外|れいがい}を{設|もう}ける (to make an exception)\n・{例外|れいがい}を{認|みと}める (to allow an exception)\n・{例外|れいがい}{的|てき} (exceptional - na-adjective)\n・{例外|れいがい}{処理|しょり} (exception handling - programming term)\n\nCONTRAST:\n・{例外|れいがい} - exception (to a rule)\n・{特例|とくれい} - special case, special exemption",
+  "notes": "USAGE: {例外|れいがい} refers to something that deviates from a rule or standard pattern.\n\nCOMMON PATTERNS:\n・{例外|れいがい}⟦なく→ない：01118_nai⟧ (without exception)\n・{例外|れいがい}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧ (to make an exception)\n・{例外|れいがい}⟦を→を：00422_wo⟧⟦{認|みと}める→認める：02429_mitomeru⟧ (to allow an exception)\n・{例外|れいがい}⟦{的|てき}→〜的：09839_teki⟧ (exceptional - na-adjective)\n・{例外|れいがい}⟦{処理|しょり}→処理：03251_shori⟧ (exception handling - programming term)\n\nCONTRAST:\n・{例外|れいがい} - exception (to a rule)\n・⟦{特例|とくれい}→特例：13500_tokurei⟧ - special case, special exemption",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "13500_tokurei",
+      "reading": "とくれい",
+      "headword": "{特例|とくれい}",
+      "note": "special case, exemption granted"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-01-19T12:17:42.552900Z",
+    "modified": "2026-05-27T18:23:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
