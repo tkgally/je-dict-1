@@ -26,3 +26,7 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-05-26 sessions 004, 008, 009, and 010 have been harvested by the wiki maintenance session of 2026-05-27.)_
+
+## 2026-05-27 — comprehensive polish session 009 (entries 03877–03888)
+- [entry] 03881 (釘/くぎ) has semantic tag "body-part" — should be "tool"
+- [entry] 03883 (屑/くず) has semantic tag "furniture" — does not match meaning; should be "general" or another appropriate tag
