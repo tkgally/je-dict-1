@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-27 (Vocabulary Expansion - 20 New Entries)
+Added 20 new dictionary entries (IDs 28224-28243) from `candidate_words.json`. No "seen in entry" candidates remained, so words were drawn from the older unprocessed list, skipping the heavy corpus noise (fragments, dubious compounds) in favor of clean, useful standalone vocabulary. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (13)**: {国防|こくぼう} (national defense), {審査員|しんさいん} (judge/examiner), {髪飾|かみかざ}り (hair ornament), {改札機|かいさつき} (ticket gate), {避難訓練|ひなんくんれん} (evacuation drill), {古典文学|こてんぶんがく} (classical literature), {流行歌|りゅうこうか} (popular song), {空想家|くうそうか} (dreamer), {抱|だ}き{合|あ}わせ (bundling/tie-in sale), {植生|しょくせい} (vegetation), {畜産業|ちくさんぎょう} (livestock industry), {命中率|めいちゅうりつ} (hit rate)
+- **Noun+verb-suru (4)**: {減額|げんがく} (reduction in amount), {再評価|さいひょうか} (reevaluation), {発動|はつどう} (activation/invoking), {再審理|さいしんり} (retrial, legal)
+- **Noun+adjective-no (1)**: {最優秀|さいゆうしゅう} (best/most excellent)
+- **Verb-godan (1)**: {飲|の}み{尽|つ}くす (to drink up entirely)
+- **Verb-ichidan (1)**: {書|か}き{忘|わす}れる (to forget to write)
+- **Na-adjective (1)**: {夢想的|むそうてき} (dreamy/visionary)
+
+All 20 entries validate; furigana clean; conjugation tables added to the 4 suru-verbs, the godan verb, and the ichidan verb. No new kanji. Candidate list synced.
+
 ### 2026-05-27 (Vocabulary Expansion - 25 New Entries)
 Added 25 new dictionary entries (IDs 28199-28223) from `candidate_words.json`, drawn from the newest "seen in entry" candidates (words already referenced inside existing entries). The earlier candidate ranges are dominated by corpus noise; the recent C21xxx block is the cleanest source. Per-field budgets followed the reference shape of {もてなし} (27261): short top-level glosses, notes scoped to 2-3 sections.
 
