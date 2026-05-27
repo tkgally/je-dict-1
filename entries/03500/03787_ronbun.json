@@ -14,9 +14,9 @@
   "examples": [
     {
       "id": "03787_ronbun_ex1",
-      "japanese": "{卒業|そつぎょう}{論文|ろんぶん}を{書|か}いている。",
+      "japanese": "⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧{論文|ろんぶん}⟦を→を：00422_wo⟧⟦{書|か}いている→書く：00477_kaku⟧。",
       "english": "I'm writing my graduation thesis.",
-      "notes": "卒業論文 = graduation thesis",
+      "notes": "⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧{論文|ろんぶん} = graduation thesis",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -24,7 +24,7 @@
     },
     {
       "id": "03787_ronbun_ex2",
-      "japanese": "{論文|ろんぶん}を{学会|がっかい}で{発表|はっぴょう}した。",
+      "japanese": "{論文|ろんぶん}⟦を→を：00422_wo⟧⟦{学会|がっかい}→学会：04139_gakkai⟧⟦で→で：00502_de⟧⟦{発表|はっぴょう}した→発表：03562_happyou⟧。",
       "english": "I presented my paper at an academic conference.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03787_ronbun_ex3",
-      "japanese": "この{論文|ろんぶん}は{学術|がくじゅつ}{雑誌|ざっし}に{掲載|けいさい}された。",
+      "japanese": "⟦この→この：00962_kono⟧{論文|ろんぶん}⟦は→は：00079_ha⟧⟦{学術|がくじゅつ}→学術：12280_gakujutsu⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦に→に：00314_ni⟧⟦{掲載|けいさい}された→掲載：08993_keisai⟧。",
       "english": "This paper was published in an academic journal.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {論文|ろんぶん} specifically refers to academic or scholarly papers, theses, and dissertations.\n\nCOMMON PATTERNS:\n・{論文|ろんぶん}を{書|か}く (to write a paper)\n・{論文|ろんぶん}を{発表|はっぴょう}する (to present a paper)\n・{卒業|そつぎょう}{論文|ろんぶん} (graduation thesis)\n・{修士|しゅうし}{論文|ろんぶん} (master's thesis)\n・{博士|はくし}{論文|ろんぶん} (doctoral dissertation)\n・{学術|がくじゅつ}{論文|ろんぶん} (academic paper)\n\nCONTRAST:\n・{論文|ろんぶん} - academic paper, formal research\n・{作文|さくぶん} - essay, composition (school level)\n・{記事|きじ} - article (journalism)",
+  "notes": "USAGE: {論文|ろんぶん} specifically refers to academic or scholarly papers, theses, and dissertations.\n\nCOMMON PATTERNS:\n・{論文|ろんぶん}⟦を→を：00422_wo⟧⟦{書|か}く→書く：00477_kaku⟧ (to write a paper)\n・{論文|ろんぶん}⟦を→を：00422_wo⟧⟦{発表|はっぴょう}する→発表：03562_happyou⟧ (to present a paper)\n・⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧{論文|ろんぶん} (graduation thesis)\n・⟦{修士|しゅうし}→修士：11098_shuushi⟧{論文|ろんぶん} (master's thesis)\n・⟦{博士|はくし}→博士：03551_hakase⟧{論文|ろんぶん} (doctoral dissertation)\n・⟦{学術|がくじゅつ}→学術：12280_gakujutsu⟧{論文|ろんぶん} (academic paper)\n\nCONTRAST:\n・{論文|ろんぶん} - academic paper, formal research\n・⟦{作文|さくぶん}→作文：02884_sakubun⟧ - essay, composition (school level)\n・⟦{記事|きじ}→記事：00227_kiji⟧ - article (journalism)",
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-05-15T21:28:00Z",
+    "modified": "2026-05-27T17:08:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

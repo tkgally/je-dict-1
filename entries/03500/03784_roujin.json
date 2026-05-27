@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03784_roujin_ex1",
-      "japanese": "{老人|ろうじん}に{席|せき}を{譲|ゆず}った。",
+      "japanese": "{老人|ろうじん}⟦に→に：00314_ni⟧⟦{席|せき}→席：02215_seki⟧⟦を→を：00422_wo⟧⟦{譲|ゆず}った→譲る：02323_yuzuru⟧。",
       "english": "I gave up my seat to an elderly person.",
       "notes": null,
       "has_audio": false,
@@ -24,9 +24,9 @@
     },
     {
       "id": "03784_roujin_ex2",
-      "japanese": "{老人|ろうじん}ホームで{働|はたら}いている。",
+      "japanese": "{老人|ろうじん}⟦ホーム→ホーム：00113_hoomu⟧⟦で→で：00502_de⟧⟦{働|はたら}いている→働く：00503_hataraku⟧。",
       "english": "I work at a nursing home.",
-      "notes": "老人ホーム = nursing home, retirement home",
+      "notes": "{老人|ろうじん}⟦ホーム→ホーム：00113_hoomu⟧ = nursing home, retirement home",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -34,7 +34,7 @@
     },
     {
       "id": "03784_roujin_ex3",
-      "japanese": "{日本|にほん}は{老人|ろうじん}{人口|じんこう}が{増|ふ}えている。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦は→は：00079_ha⟧{老人|ろうじん}⟦{人口|じんこう}→人口：01618_jinkou⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Japan's elderly population is increasing.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "03784_roujin_ex4",
-      "japanese": "{近所|きんじょ}の{老人|ろうじん}が{毎朝|まいあさ}{公園|こうえん}を{散歩|さんぽ}している。",
+      "japanese": "⟦{近所|きんじょ}→近所：01318_kinjo⟧⟦の→の：09472_no⟧{老人|ろうじん}⟦が→が：00051_ga⟧⟦{毎朝|まいあさ}→毎朝：00966_maiasa⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦を→を：00422_wo⟧⟦{散歩|さんぽ}→散歩：02885_sanpo⟧⟦している→する：00392_suru⟧。",
       "english": "An elderly person in the neighborhood takes a walk in the park every morning.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "03784_roujin_ex5",
-      "japanese": "この{地域|ちいき}では{老人|ろうじん}の{一人暮|ひとりぐ}らしが{大|おお}きな{問題|もんだい}になっている。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦では→では：02945_deha⟧{老人|ろうじん}⟦の→の：09472_no⟧⟦{一人暮|ひとりぐ}らし→一人暮らし：03142_hitorigurashi⟧⟦が→が：00051_ga⟧⟦{大|おお}きな→大きな：02849_ookina⟧⟦{問題|もんだい}→問題：00797_mondai⟧⟦になっている→なる：01970_naru⟧。",
       "english": "In this area, elderly people living alone has become a major problem.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {老人|ろうじん} is a neutral term for elderly people. In more polite or formal contexts, {高齢者|こうれいしゃ} (senior citizen) or お{年寄|としよ}り (elderly person, polite) may be preferred.\n\nCOMMON PATTERNS:\n・{老人|ろうじん}ホーム (nursing home)\n・{老人|ろうじん}{福祉|ふくし} (elderly welfare)\n・{老人|ろうじん}{介護|かいご} (elderly care)\n\nCONTRAST:\n・{老人|ろうじん} - neutral, somewhat clinical\n・お{年寄|としよ}り - polite, softer\n・{高齢者|こうれいしゃ} - formal, administrative term",
+  "notes": "USAGE: {老人|ろうじん} is a neutral term for elderly people. In more polite or formal contexts, ⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ (senior citizen) or お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ (elderly person, polite) may be preferred.\n\nCOMMON PATTERNS:\n・{老人|ろうじん}⟦ホーム→ホーム：00113_hoomu⟧ (nursing home)\n・{老人|ろうじん}⟦{福祉|ふくし}→福祉：13748_fukushi⟧ (elderly welfare)\n・{老人|ろうじん}⟦{介護|かいご}→介護：04805_kaigo⟧ (elderly care)\n\nCONTRAST:\n・{老人|ろうじん} - neutral, somewhat clinical\n・お⟦{年寄|としよ}り→年寄り：03460_toshiyori⟧ - polite, softer\n・⟦{高齢者|こうれいしゃ}→高齢者：15649_koureisha⟧ - formal, administrative term",
   "cross_references": [
     {
       "type": "related",
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-03-02T00:36:25Z",
+    "modified": "2026-05-27T17:08:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
