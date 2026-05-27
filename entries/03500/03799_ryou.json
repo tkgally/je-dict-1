@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03799_ryou_ex1",
-      "japanese": "{食事|しょくじ}の{量|りょう}を{減|へ}らす。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧{量|りょう}⟦を→を：00422_wo⟧⟦{減|へ}らす→減らす：02414_herasu⟧。",
       "english": "To reduce the amount of food.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03799_ryou_ex2",
-      "japanese": "{仕事|しごと}の{量|りょう}が{多|おお}すぎる。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{量|りょう}⟦が→が：00051_ga⟧⟦{多|おお}すぎる→多い：01127_ooi⟧。",
       "english": "The amount of work is too much.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03799_ryou_ex3",
-      "japanese": "{質|しつ}より{量|りょう}だ。",
+      "japanese": "⟦{質|しつ}→質：01425_shitsu⟧⟦より→より：09476_yori⟧{量|りょう}⟦だ→だ：09496_da⟧。",
       "english": "It's about quantity over quality.",
       "notes": "Common expression contrasting 質 (quality) and 量 (quantity)",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {量|りょう} refers to measurable quantities of things, both physical and abstract.\n\nCOMMON PATTERNS:\n・{量|りょう}を{増|ふ}やす/{減|へ}らす (to increase/decrease the amount)\n・{大量|たいりょう} (large quantity)\n・{少量|しょうりょう} (small quantity)\n・{適量|てきりょう} (appropriate amount)\n・{質|しつ}より{量|りょう} (quantity over quality)\n\nCONTRAST:\n・{量|りょう} - quantity, amount (abstract measurement)\n・{数|かず} - number, count (discrete items)\n・{質|しつ} - quality (antonym concept)",
+  "notes": "USAGE: {量|りょう} refers to measurable quantities of things, both physical and abstract.\n\nCOMMON PATTERNS:\n・{量|りょう}⟦を→を：00422_wo⟧⟦{増|ふ}やす→増やす：02410_fuyasu⟧/⟦{減|へ}らす→減らす：02414_herasu⟧ (to increase/decrease the amount)\n・⟦{大量|たいりょう}→大量：03112_tairyou⟧ (large quantity)\n・⟦{少量|しょうりょう}→少量：12436_shouryou⟧ (small quantity)\n・⟦{適量|てきりょう}→適量：14383_tekiryou⟧ (appropriate amount)\n・⟦{質|しつ}→質：01425_shitsu⟧⟦より→より：09476_yori⟧{量|りょう} (quantity over quality)\n\nCONTRAST:\n・{量|りょう} - quantity, amount (abstract measurement)\n・⟦{数|かず}→数：00204_kazu⟧ - number, count (discrete items)\n・⟦{質|しつ}→質：01425_shitsu⟧ - quality (antonym concept)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "headword": "{質|しつ}",
       "label": "quality",
       "target_id": "01425_shitsu"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00204_kazu",
+      "reading": "かず",
+      "headword": "{数|かず}",
+      "note": "number, count of discrete items"
     }
   ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-01-19T12:17:42.553739Z",
+    "modified": "2026-05-27T18:25:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

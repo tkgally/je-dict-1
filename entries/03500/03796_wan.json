@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03796_wan_ex1",
-      "japanese": "{東京|とうきょう}{湾|わん}は{大|おお}きな{湾|わん}だ。",
+      "japanese": "⟦{東京|とうきょう}→東京：09564_toukyou⟧{湾|わん}⟦は→は：00079_ha⟧⟦{大|おお}きな→大きな：02849_ookina⟧{湾|わん}⟦だ→だ：09496_da⟧。",
       "english": "Tokyo Bay is a large bay.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03796_wan_ex2",
-      "japanese": "{湾|わん}に{船|ふね}が{浮|う}かんでいる。",
+      "japanese": "{湾|わん}⟦に→に：00314_ni⟧⟦{船|ふね}→船：00775_fune⟧⟦が→が：00051_ga⟧⟦{浮|う}かんでいる→浮かぶ：03916_ukabu⟧。",
       "english": "Ships are floating in the bay.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03796_wan_ex3",
-      "japanese": "{湾岸|わんがん}{地域|ちいき}は{発展|はってん}している。",
+      "japanese": "⟦{湾岸|わんがん}→湾岸：13396_wangan⟧⟦{地域|ちいき}→地域：01461_chiiki⟧⟦は→は：00079_ha⟧⟦{発展|はってん}→発展：03561_hatten⟧⟦している→する：00392_suru⟧。",
       "english": "The coastal area is developing.",
       "notes": "湾岸 = coast, waterfront",
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "USAGE: {湾|わん} refers to a geographical feature where the sea curves into the land. It's often used in proper nouns for specific bays.\n\nCOMMON PATTERNS:\n・{東京|とうきょう}{湾|わん} (Tokyo Bay)\n・{大阪|おおさか}{湾|わん} (Osaka Bay)\n・{湾岸|わんがん} (bay coast, waterfront)\n・{湾岸|わんがん}{戦争|せんそう} (Gulf War)\n\nCONTRAST:\n・{湾|わん} - bay (partially enclosed by land)\n・{海|うみ} - sea, ocean (open water)\n・{入江|いりえ} - inlet, cove (smaller than bay)",
+  "notes": "USAGE: {湾|わん} refers to a geographical feature where the sea curves into the land. It's often used in proper nouns for specific bays.\n\nCOMMON PATTERNS:\n・⟦{東京|とうきょう}→東京：09564_toukyou⟧{湾|わん} (Tokyo Bay)\n・⟦{大阪|おおさか}→大阪：09779_oosaka⟧{湾|わん} (Osaka Bay)\n・⟦{湾岸|わんがん}→湾岸：13396_wangan⟧ (bay coast, waterfront)\n・⟦{湾岸|わんがん}→湾岸：13396_wangan⟧⟦{戦争|せんそう}→戦争：01450_sensou⟧ (Gulf War)\n\nCONTRAST:\n・{湾|わん} - bay (partially enclosed by land)\n・⟦{海|うみ}→海：00556_umi⟧ - sea, ocean (open water)\n・⟦{入江|いりえ}→入江：05040_irie⟧ - inlet, cove (smaller than bay)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "00556_umi",
+      "reading": "うみ",
+      "headword": "{海|うみ}",
+      "note": "open sea/ocean"
+    },
+    {
+      "type": "contrast",
+      "target_id": "05040_irie",
+      "reading": "いりえ",
+      "headword": "{入江|いりえ}",
+      "note": "smaller than a bay"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T13:34:27Z",
-    "modified": "2026-01-19T12:17:42.551408Z",
+    "modified": "2026-05-27T18:19:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
