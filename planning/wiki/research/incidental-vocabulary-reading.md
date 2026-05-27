@@ -1,6 +1,6 @@
 # Incidental Vocabulary Acquisition Through Reading
 
-**Last updated**: 2026-05-22
+**Last updated**: 2026-05-27
 
 ## Overview
 
@@ -201,3 +201,4 @@ The notes field in je-dict-1 entries functions as a rich gloss system. Rather th
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — what it means to "know" a word
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and tier-based vocabulary control
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — how learners develop lookup proficiency
+- [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — how spaced review combats single-exposure forgetting
