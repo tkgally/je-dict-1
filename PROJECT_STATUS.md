@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-15
+**Last updated**: 2026-05-27
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-27 (Vocabulary Expansion - 25 New Entries)
+Added 25 new dictionary entries (IDs 28199-28223) from `candidate_words.json`, drawn from the newest "seen in entry" candidates (words already referenced inside existing entries). The earlier candidate ranges are dominated by corpus noise; the recent C21xxx block is the cleanest source. Per-field budgets followed the reference shape of {もてなし} (27261): short top-level glosses, notes scoped to 2-3 sections.
+
+- **Nouns (20)**: カエル (frog), {大敵|たいてき} (great enemy/nemesis), {働|はたら}き{盛|ざか}り (prime working years), {働|はたら}き{過|す}ぎ (overwork), {悪気|わるぎ} (ill will), パーマ (perm), {数年|すうねん} (several years), {振|ふ}り{幅|はば} (range of swing), {値幅|ねはば} (price range), {縫|ぬ}い{針|ばり} (sewing needle), {編|あ}み{針|ばり} (knitting needle), {釣|つ}り{針|ばり} (fishhook), {範囲外|はんいがい} (out of range/scope), {反省点|はんせいてん} (areas for improvement), {最多|さいた} (the most), {四|よ}つ{子|ご} (quadruplets), {持|も}ち{方|かた} (way of holding), {今年度|こんねんど} (this fiscal year), {来年度|らいねんど} (next fiscal year), {陸路|りくろ} (overland route), はやり (fad/trend)
+- **Na-adjectives (2)**: {不順|ふじゅん} (unsettled/irregular), {悲劇的|ひげきてき} (tragic)
+- **Noun+adjective-no (1)**: {放射性|ほうしゃせい} (radioactive)
+- **Verb-ichidan (1)**: {振|ふ}り{切|き}れる (to go off the scale) — linked to its transitive pair {振|ふ}り{切|き}る (06703) with reciprocal `prominent_see_also`
+
+All 25 entries validate; furigana clean; conjugation table added to the ichidan verb. No new kanji. Candidate list synced (1671→1646).
 
 ### 2026-05-27 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 28175-28198) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
