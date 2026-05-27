@@ -104,9 +104,9 @@
   "examples": [
     {
       "id": "03861_deeto_ex1",
-      "japanese": "{週末|しゅうまつ}にデートする{予定|よてい}だ。",
+      "japanese": "⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧⟦に→に：00314_ni⟧デートする⟦{予定|よてい}→予定：00824_yotei⟧⟦だ→だ：09496_da⟧。",
       "english": "I have a date planned for the weekend.",
-      "notes": "デートする = to go on a date",
+      "notes": "デート⟦する→する：00392_suru⟧ = to go on a date",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -114,9 +114,9 @@
     },
     {
       "id": "03861_deeto_ex2",
-      "japanese": "{初|はじ}めてのデートは{映画|えいが}を{見|み}に{行|い}った。",
+      "japanese": "⟦{初|はじ}めての→初めて：02932_hajimete⟧デート⟦は→は：00079_ha⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦を→を：00422_wo⟧⟦{見|み}→見る：00283_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "For our first date, we went to see a movie.",
-      "notes": "初デート = first date",
+      "notes": "⟦{初|はつ}→初：10632_hatsu⟧デート = first date",
       "has_audio": false,
       "sense_numbers": [
         1
@@ -124,7 +124,7 @@
     },
     {
       "id": "03861_deeto_ex3",
-      "japanese": "どこにデートに{行|い}きたい？",
+      "japanese": "⟦どこ→どこ：00539_doko⟧⟦に→に：00314_ni⟧デート⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧？",
       "english": "Where would you like to go on a date?",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "From English \"date.\" In Japanese, デート only refers to romantic outings — never calendar dates ({日付|ひづけ}).\n\nCOMMON PATTERNS:\n- デートする: to go on a date\n- デートに{行|い}く: to go on a date\n- デートに{誘|さそ}う: to ask someone on a date\n- {初|はつ}デート: first date\n- デートスポット: date spot, romantic location\n\nRELATED EXPRESSIONS:\n- {告白|こくはく}: confession of love (precedes dating in Japan)\n- {付|つ}き{合|あ}う: to go out with, to date (ongoing relationship)\n- {合|ごう}コン: group date/matchmaking party\n\nCULTURAL NOTE:\nIn Japan, relationships often begin with a {告白|こくはく} (confession) before going on formal dates. デート implies romantic intent.",
+  "notes": "From English \"date.\" In Japanese, デート only refers to romantic outings — never calendar dates (⟦{日付|ひづけ}→日付：03706_hizuke⟧).\n\nCOMMON PATTERNS:\n- デート⟦する→する：00392_suru⟧: to go on a date\n- デート⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧: to go on a date\n- デート⟦に→に：00314_ni⟧⟦{誘|さそ}う→誘う：01947_sasou⟧: to ask someone on a date\n- ⟦{初|はつ}→初：10632_hatsu⟧デート: first date\n- デート⟦スポット→スポット：11578_supotto⟧: date spot, romantic location\n\nRELATED EXPRESSIONS:\n- ⟦{告白|こくはく}→告白：06742_kokuhaku⟧: confession of love (precedes dating in Japan)\n- ⟦{付|つ}き{合|あ}う→付き合う：02291_tsukiau⟧: to go out with, to date (ongoing relationship)\n- ⟦{合|ごう}コン→合コン：10273_goukon⟧: group date/matchmaking party\n\nCULTURAL NOTE:\nIn Japan, relationships often begin with a ⟦{告白|こくはく}→告白：06742_kokuhaku⟧ (confession) before going on formal dates. デート implies romantic intent.",
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-03-30T04:48:32Z",
+    "modified": "2026-05-27T21:10:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -147,7 +147,7 @@
       "formality": "informal",
       "politeness": "plain",
       "semantic": [
-        "time-general"
+        "interpersonal"
       ],
       "verb_class": "suru"
     }
