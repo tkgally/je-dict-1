@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "03751_mushiatsui_ex1",
-      "japanese": "{日本|にほん}の{夏|なつ}は{蒸|む}し{暑|あつ}い。",
+      "japanese": "⟦{日本|にほん}→日本：03876_nihon⟧⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{蒸|む}し{暑|あつ}い。",
       "english": "Summers in Japan are hot and humid.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "03751_mushiatsui_ex2",
-      "japanese": "{蒸|む}し{暑|あつ}くて{眠|ねむ}れない。",
+      "japanese": "{蒸|む}し{暑|あつ}くて⟦{眠|ねむ}れない→眠る：01181_nemuru⟧。",
       "english": "It's so muggy I can't sleep.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "03751_mushiatsui_ex3",
-      "japanese": "{梅雨|つゆ}の{時期|じき}は{特|とく}に{蒸|む}し{暑|あつ}い。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧⟦{特|とく}に→特に：01260_tokuni⟧{蒸|む}し{暑|あつ}い。",
       "english": "It's especially humid during the rainy season.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,26 @@
       ]
     }
   ],
-  "notes": "Compound adjective: {蒸|む}す (to steam) + {暑|あつ}い (hot)\n\nRELATED WEATHER TERMS:\n・{暑|あつ}い (hot)\n・{湿度|しつど}が{高|たか}い (high humidity)\n・{じめじめする (damp, humid - onomatopoeia)\n・{梅雨|つゆ} (rainy season)\n\n・{蒸|む}し{暑|あつ}くない (not humid)\n・{蒸|む}し{暑|あつ}かった (was humid)\n・{蒸|む}し{暑|あつ}くて (humid, and...)\n\nCULTURAL NOTE:\nJapan's summer, especially during {梅雨|つゆ} (rainy season from June to July), is known for being {蒸|む}し{暑|あつ}い. This is why air conditioning and fans are essential.",
+  "notes": "Compound adjective: ⟦{蒸|む}す→蒸す：02307_musu⟧ (to steam) + ⟦{暑|あつ}い→暑い：00619_atsui⟧ (hot)\n\nRELATED WEATHER TERMS:\n・⟦{暑|あつ}い→暑い：00619_atsui⟧ (hot)\n・⟦{湿度|しつど}→湿度：03181_shitsudo⟧⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧ (high humidity)\n・⟦じめじめ→じめじめ：05789_jimejime⟧⟦する→する：00392_suru⟧ (damp, humid - onomatopoeia)\n・⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season)\n\n・{蒸|む}し{暑|あつ}くない (not humid)\n・{蒸|む}し{暑|あつ}かった (was humid)\n・{蒸|む}し{暑|あつ}くて (humid, and...)\n\nCULTURAL NOTE:\nJapan's summer, especially during ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season from June to July), is known for being {蒸|む}し{暑|あつ}い. This is why air conditioning and fans are essential.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00619_atsui",
+      "reading": "あつい",
+      "headword": "{暑|あつ}い",
+      "label": "hot (weather)"
+    },
+    {
+      "type": "related",
+      "target_id": "02232_tsuyu",
+      "reading": "つゆ",
+      "headword": "{梅雨|つゆ}",
+      "label": "rainy season"
+    }
+  ],
   "metadata": {
     "created": "2026-01-12T12:48:00Z",
-    "modified": "2026-01-19T12:17:42.519363Z",
+    "modified": "2026-05-27T15:21:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
