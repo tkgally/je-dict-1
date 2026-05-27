@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-27 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 28175-28198) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (15)**: {宇宙飛行士|うちゅうひこうし} (astronaut), {宝石店|ほうせきてん} (jewelry store), {殺|ころ}し{文句|もんく} (killer line), {名場面|めいばめん} (famous scene), {人波|ひとなみ} (wave of people), {三|み}つ{子|ご} (triplets/three-year-old, 2 senses), {双生児|そうせいじ} (twins, formal), {利器|りき} (useful device), {方向性|ほうこうせい} (direction/orientation), {反省会|はんせいかい} (review meeting), {反抗心|はんこうしん} (rebellious spirit), {真犯人|しんはんにん} (real culprit), {白票|はくひょう} (blank/white ballot, 2 senses), {旅行先|りょこうさき} (travel destination), {風景画|ふうけいが} (landscape painting), {張力|ちょうりょく} (tension), {農法|のうほう} (farming method)
+- **Na-adjectives (2)**: {凶悪|きょうあく} (atrocious/heinous), {奇跡的|きせきてき} (miraculous)
+- **Noun+na-adjective (1)**: {不精|ぶしょう} (laziness/not bothering)
+- **Verb-ichidan (1)**: かき{分|わ}ける (to push through a crowd)
+- **Noun+verb-suru (3)**: {換金|かんきん} (conversion to cash), {廃絶|はいぜつ} (abolition/eradication), {家庭訪問|かていほうもん} (home visit by a teacher)
+
+All 24 entries validate; furigana clean; conjugation tables added to the ichidan verb and 3 suru-verbs. No new kanji. Candidate list synced (1695→1671).
+
 ### 2026-05-26 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
 Added 20 new dictionary entries (IDs 28155-28174) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates — words already referenced inside existing entries but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
