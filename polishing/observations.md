@@ -26,3 +26,6 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-05-27 session 009 have been harvested by the wiki maintenance session of 2026-05-28.)_
+
+## 2026-05-28 — comprehensive polish session 003 (entries 03970–03990)
+- [pattern] Multiple entries in the range 03971–03988 had clearly wrong semantic tags (e.g., "furniture", "electronics", "leisure", "animal-insect", "occupation", "time-general" on words like 我が〜, 器具, 基地, 弟子, 父母). This appears to be a systematic batch-creation error. Nearby entries outside this session's range (03991 onward) may have similar mismatches and should be watched.
