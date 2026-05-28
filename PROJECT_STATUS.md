@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-28 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28244-28265) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C21xxx block (words already referenced inside existing entries). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
+
+- **Verb-ichidan (3)**: はぐれる (to get separated from), {赤|あか}らめる (to blush) — linked to intransitive pair {赤|あか}らむ (20843), {貼|は}り{合|あ}わせる (to paste together)
+- **Verb-godan (4)**: {切|き}り{替|か}わる (to switch over) — linked to transitive pair {切|き}り{替|か}える (04239), とかす (to comb hair) — homophone link to {溶|と}かす (08264), {伝|つた}う (to run/flow along a surface), {蹴|け}り{込|こ}む (to kick into)
+- **Na-adjectives (3)**: {聡明|そうめい} (wise/clear-headed), {厳正|げんせい} (strict/impartial), {涼|すず}しげ (cool-looking)
+- **Adverbs (2)**: ふっくら (plump/soft), {余儀|よぎ}なく (unavoidably)
+- **Nouns (10)**: {米粒|こめつぶ} (grain of rice), {虹色|にじいろ} (rainbow colors), {枕元|まくらもと} (bedside), {風呂釜|ふろがま} (bath heater), {杉林|すぎばやし} (cedar forest), {土俵入|どひょうい}り (sumo ring-entering ceremony), {招待客|しょうたいきゃく} (invited guest), {注射針|ちゅうしゃばり} (injection needle), {板塀|いたべい} (wooden fence), {危惧種|きぐしゅ} (endangered species)
+
+All 22 entries validate; furigana clean; conjugation tables added to the 7 verbs. Reciprocal `prominent_see_also` back-links added to pair entries 04239 and 20843. One new kanji (聡, ID 02760) assigned readings/gloss and indexed. Candidate list synced (1669→1647).
+
 ### 2026-05-27 (Vocabulary Expansion - 20 New Entries)
 Added 20 new dictionary entries (IDs 28224-28243) from `candidate_words.json`. No "seen in entry" candidates remained, so words were drawn from the older unprocessed list, skipping the heavy corpus noise (fragments, dubious compounds) in favor of clean, useful standalone vocabulary. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
