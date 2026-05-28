@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-28 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
+Added 20 new dictionary entries (IDs 28289-28308) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates. Length followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Verbs (6)**: {載|の}せる (kanji variant of 乗せる — load/publish), {延|の}ばす (kanji variant of 伸ばす — postpone/extend), {計|はか}る (measure time / plan), {量|はか}る (weigh / volume), {全否定|ぜんひてい}する (deny completely), {自己否定|じこひてい}する (self-denial)
+- **Nouns (11)**: {荷|に} (load/burden), {禁|きん} (ban/prohibition), {乳|にゅう} (milk on'yomi), {米|べい} (US prefix), {中国|ちゅうごく} (China / Chugoku region), {永劫|えいごう} (eternity), そり (sled), {否定文|ひていぶん} (negative sentence), {保護活動|ほごかつどう} (conservation activities), {色紙|いろがみ} (craft paper), {帰|かえ}り{先|さき} (return destination)
+- **Other (3)**: ロング (long-style modifier), {人的|じんてき} (na-adjective, personnel/human), かどうか (whether-or-not expression)
+
+Many entries cross-reference existing same-kanji or homophone entries (e.g. 計る↔測る↔図る; 米べい↔米こめ; 色紙いろがみ↔色紙しきし).
+
 ### 2026-05-28 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
 Added 23 new dictionary entries (IDs 28266-28288) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C20xxx-C21xxx range (words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
