@@ -150,3 +150,4 @@ The research consensus is that depth of knowledge — not just breadth — predi
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — the receptive–productive gap and what dictionaries must provide for production
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — how spaced retrieval practice deepens vocabulary knowledge over time
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — formulaic knowledge as a dimension of depth: knowing a word's conventional multi-word contexts
+- [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — figurative knowledge as a depth dimension: knowing a word's metaphorical extensions

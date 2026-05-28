@@ -201,6 +201,8 @@ This is the same category of stale-auto-label error as the `furniture` tag in th
 
 The wrong-tag categories now include at least eleven distinct labels: transportation, furniture, electronics, clothing, body-part, tool, leisure, time-general, weather, animal-mammal, and food. The pattern spans 01490s through 03700s. A dedicated semantic-tag validation pass over the 03500–03800 range is warranted, as the density of wrong tags in this range appears higher than in earlier ranges.
 
+**Update 2026-05-28**: Two more entries in the 03877–03888 range: 03881 釘 (nail) has "body-part" (should be "tool"), 03883 屑 (scrap/waste) has "furniture" (meaningless for this word). Confirmed range now extends through the 03800s. Added to [Entry Follow-ups](entry-followups.md).
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)

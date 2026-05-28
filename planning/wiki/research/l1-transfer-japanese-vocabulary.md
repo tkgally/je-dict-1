@@ -175,3 +175,4 @@ The dictionary already has a research page on gairaigo that covers English→Jap
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — strategy taxonomies and dictionary design implications
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and its relationship to the tier system
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how persistent L1 activation supports bilingual dictionary use
+- [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — cross-linguistic transfer effects on idiom comprehension (Irujo 1986)

@@ -184,3 +184,4 @@ Based on Newmark's categories and the Japanese-specific dimensions above, the hi
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — dimensions of synonym difference including register
 - [Multiword Expressions](multiword-expressions.md) — culturally-loaded idioms and set phrases
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — ritual and social formulas (aisatsu, keigo routines) as culturally-loaded formulaic sequences
+- [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — culturally embedded figurative expressions and their dictionary treatment
