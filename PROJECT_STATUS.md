@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-28 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
+Added 23 new dictionary entries (IDs 28266-28288) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C20xxx-C21xxx range (words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (16)**: {十姉妹|じゅうしまつ} (society finch), {四年生|よねんせい} (fourth-year student), {琴棋書画|きんきしょが} (four classical arts), {首紐|くびひも} (neck strap), {右足|みぎあし} (right foot/leg), {家庭内|かていない} (within the home), {数百万円|すうひゃくまんえん} (several million yen), {五段|ごだん} (fifth dan / godan verb, 2 senses), LP (vinyl record), {男優|だんゆう} (male actor), {一丸|いちがん} (unity), {柏手|かしわで} (Shinto ritual clapping), {上|あ}げ{幅|はば} (range of increase), {爆発物|ばくはつぶつ} (explosives), イギリス (UK/Britain), {時制|じせい} (grammatical tense), {命令文|めいれいぶん} (imperative sentence), {希少種|きしょうしゅ} (rare species), {公案|こうあん} (Zen koan), {盆休|ぼんやす}み (Obon holidays)
+- **Number (1)**: {千万|せんまん} (ten million)
+- **Expression (1)**: {異存|いぞん}ない (no objection)
+- **Prefix (1)**: サイバー (cyber-)
+
+All 23 entries validate; furigana clean. No verbs/i-adjectives, no new kanji. Candidate list synced (1647→1624).
+
 ### 2026-05-28 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28244-28265) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C21xxx block (words already referenced inside existing entries). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
 
