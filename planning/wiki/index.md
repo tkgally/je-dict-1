@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-27
+**Last updated**: 2026-05-28
 
 
 ## How this wiki is organized
@@ -71,6 +71,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Formulaic Language and Phraseological Competence](research/formulaic-language-phraseological-competence.md) — Prefabricated sequences, processing advantages, formulaic competence and L2 fluency, Japanese formulaic categories, and dictionary treatment
 - [The Lexical Approach and Vocabulary-Centered Teaching](research/lexical-approach-vocabulary-teaching.md) — Lewis's chunk taxonomy, Sinclair's idiom principle, Willis's frequency-based syllabus, empirical evidence, criticisms, and dictionary design implications
 - [Spaced Repetition and Dictionary Design](research/spaced-repetition-dictionary-design.md) — Forgetting curve, spacing effect, retrieval practice, SRS systems, sentence mining, and dictionary features that support spaced learning
+- [Figurative Language and Idiom Processing in L2](research/figurative-language-idiom-processing.md) — Processing models (literal salience, graded salience, dual representation), metaphorical competence, Japanese figurative categories, and dictionary treatment
 
 ## Topics
 

@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-27
+**Last updated**: 2026-05-28
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -233,6 +233,22 @@ Entry 03707_hitei ({否定|ひてい}) has ex2 and ex4 as identical Japanese sen
 When compound entries like 天気予報 (01678) or 予防接種 (11068) appear in examples or notes, they should be linked as whole compounds pointing to their own entry, not as separate links to individual components. This is a general linking principle: if a compound has its own entry, the compound is the right link target.
 
 **Status**: Not a single-entry fix but a principle for inline-link polishing sessions to follow.
+
+## 03881_kugi — Semantic tag "body-part" should be "tool"
+
+**Source**: Comprehensive-polish 2026-05-27 session 009
+
+Entry 03881_kugi ({釘|くぎ}, nail) has `semantic: ["body-part"]` — clearly wrong. A nail is a tool/hardware item.
+
+**Recommended fix**: Change `semantic: ["body-part"]` to `semantic: ["tool"]`. Another instance of the wrong-semantic-tag pattern documented in [Cleanup Backlog](cleanup-backlog.md) → Priority 11, extending the confirmed range into the 03800s.
+
+## 03883_kuzu — Semantic tag "furniture" misapplied
+
+**Source**: Comprehensive-polish 2026-05-27 session 009
+
+Entry 03883_kuzu ({屑|くず}, scrap/waste/worthless person) has `semantic: ["furniture"]` — does not match meaning. The word refers to scraps, waste material, or (derogatorily) a worthless person.
+
+**Recommended fix**: Change `semantic: ["furniture"]` to `semantic: ["general"]` or a more appropriate tag. Another instance of the stale-auto-label pattern in [Cleanup Backlog](cleanup-backlog.md) → Priority 11.
 
 ## Related pages
 

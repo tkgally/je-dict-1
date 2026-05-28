@@ -1,6 +1,6 @@
 # Formulaic Language and Phraseological Competence
 
-**Last updated**: 2026-05-26
+**Last updated**: 2026-05-28
 
 ## Overview
 
@@ -211,3 +211,4 @@ The recognition-production gap documented by Bardovi-Harlig (2009) suggests that
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — the grammar–vocabulary boundary and pattern-as-lexis approaches
 - [Semantic Prosody](semantic-prosody.md) — evaluative colouring in formulaic sequences
 - [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — Lewis's pedagogical methodology built on chunk acquisition, with direct connections to formulaic language research
+- [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — idiom processing models, literal salience in L2, and metaphorical competence
