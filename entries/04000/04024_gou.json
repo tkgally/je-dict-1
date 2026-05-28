@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "04024_gou_ex1",
-      "japanese": "{新幹線|しんかんせん}のぞみ{3号|さんごう}に{乗|の}る。",
+      "japanese": "⟦{新幹線|しんかんせん}→新幹線：01053_shinkansen⟧のぞみ{3号|さんごう}⟦に→に：00314_ni⟧⟦{乗|の}る→乗る：00511_noru⟧。",
       "english": "To ride the Nozomi No. 3 Shinkansen.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "04024_gou_ex2",
-      "japanese": "{今月|こんげつ}{号|ごう}の{雑誌|ざっし}を{買|か}った。",
+      "japanese": "⟦{今月|こんげつ}→今月：00720_kongetsu⟧{号|ごう}⟦の→の：09472_no⟧⟦{雑誌|ざっし}→雑誌：00686_zasshi⟧⟦を→を：00422_wo⟧⟦{買|か}った→買う：00489_kau⟧。",
       "english": "I bought this month's issue of the magazine.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "04024_gou_ex3",
-      "japanese": "{会議室|かいぎしつ}{5号|ごごう}で{待|ま}っています。",
+      "japanese": "⟦{会議室|かいぎしつ}→会議室：01265_kaigishitsu⟧{5号|ごごう}⟦で→で：00502_de⟧⟦{待|ま}っています→待つ：00469_matsu⟧。",
       "english": "I'm waiting in meeting room No. 5.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "04024_gou_ex4",
-      "japanese": "タイタニック{号|ごう}は{有名|ゆうめい}な{船|ふね}だ。",
+      "japanese": "タイタニック{号|ごう}⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧な⟦{船|ふね}→船：00775_fune⟧⟦だ→だ：09496_da⟧。",
       "english": "The Titanic is a famous ship.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04024_gou_ex5",
-      "japanese": "アポロ{11号|じゅういちごう}が{月|つき}に{着陸|ちゃくりく}した。",
+      "japanese": "アポロ{11号|じゅういちごう}⟦が→が：00051_ga⟧⟦{月|つき}→月：02230_tsuki⟧⟦に→に：00314_ni⟧⟦{着陸|ちゃくりく}した→着陸：05982_chakuriku⟧。",
       "english": "Apollo 11 landed on the moon.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "04024_gou_ex6",
-      "japanese": "その{探査機|たんさき}は「はやぶさ{2号|にごう}」と{名付|なづ}けられ、{小惑星|しょうわくせい}を{目指|めざ}して{飛|と}び{立|た}った。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{探査機|たんさき}→探査機：25715_tansaki⟧⟦は→は：00079_ha⟧「はやぶさ{2号|にごう}」⟦と→と：00512_to⟧⟦{名付|なづ}けられ→名付ける：11998_nazukeru⟧、⟦{小惑星|しょうわくせい}→小惑星：05244_shouwakusei⟧⟦を→を：00422_wo⟧⟦{目指|めざ}して→目指す：10528_mezasu⟧⟦{飛|と}び{立|た}った→飛び立つ：19322_tobitatsu⟧。",
       "english": "The probe was named Hayabusa 2 and launched toward an asteroid.",
       "notes": null,
       "has_audio": false,
@@ -78,18 +78,19 @@
       ]
     }
   ],
-  "notes": "〜{号|ごう} is a suffix used to assign a number to items in a named series. Unlike 〜{番|ばん}, which numbers items in ordered sequences, {号|ごう} is used for named vehicles, publications, and designated spaces.\n\nCOUNTING:\n- {1号|いちごう}, {2号|にごう}, {3号|さんごう}...\n- {何号|なんごう}: what number?\n\nCOMMON USES:\n- Trains/buses: のぞみ{1号|いちごう} (Nozomi No. 1)\n- Magazine issues: {5月号|ごがつごう} (May issue)\n- Room numbers: {3号室|さんごうしつ} (Room No. 3)\n- Ships: タイタニック{号|ごう} (the Titanic)\n- Spacecraft: アポロ{11号|じゅういちごう} (Apollo 11)\n- Typhoons: {台風|たいふう}{10号|じゅうごう} (Typhoon No. 10)\n\nCONTRAST WITH 〜{番|ばん}:\n{号|ごう} labels items in a named series (trains, issues, ships), while {番|ばん} numbers items in ordered sequences ({1番|いちばん}, {2番|にばん}). For example, a train might be のぞみ{3号|さんごう}, but a ticket window would be {3番|さんばん}{窓口|まどぐち}.",
+  "notes": "〜{号|ごう} is a suffix used to assign a number to items in a named series. Unlike 〜⟦{番|ばん}→番：09873_ban⟧, which numbers items in ordered sequences, {号|ごう} is used for named vehicles, publications, and designated spaces.\n\nCOUNTING:\n- {1号|いちごう}, {2号|にごう}, {3号|さんごう}...\n- ⟦{何|なん}→何：03100_nan⟧{号|ごう}: what number?\n\nCOMMON USES:\n- Trains/buses: のぞみ{1号|いちごう} (Nozomi No. 1)\n- Magazine issues: ⟦{今月|こんげつ}→今月：00720_kongetsu⟧{号|ごう} / 5⟦{月|がつ}→五月：00625_gogatsu⟧{号|ごう} (May issue)\n- Room numbers: 3{号|ごう}⟦{室|しつ}→室：09946_shitsu⟧ (Room No. 3)\n- Ships: タイタニック{号|ごう} (the Titanic)\n- Spacecraft: アポロ{11号|じゅういちごう} (Apollo 11)\n- Typhoons: ⟦{台風|たいふう}→台風：01455_taifuu⟧{10号|じゅうごう} (Typhoon No. 10)\n\nCONTRAST WITH 〜⟦{番|ばん}→番：09873_ban⟧:\n{号|ごう} labels items in a named series (trains, issues, ships), while ⟦{番|ばん}→番：09873_ban⟧ numbers items in ordered sequences (1⟦{番|ばん}→番：09873_ban⟧, 2⟦{番|ばん}→番：09873_ban⟧). For example, a train might be のぞみ{3号|さんごう}, but a ticket window would be 3⟦{番|ばん}→番：09873_ban⟧⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧.",
   "cross_references": [
     {
       "type": "contrast",
       "reading": "ばん",
       "headword": "〜{番|ばん}",
-      "label": "number/turn"
+      "label": "number/turn",
+      "target_id": "09873_ban"
     }
   ],
   "metadata": {
     "created": "2026-01-13T07:50:37Z",
-    "modified": "2026-04-03T03:01:14Z",
+    "modified": "2026-05-28T18:09:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
