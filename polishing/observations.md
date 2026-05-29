@@ -32,3 +32,7 @@ _(All observations through 2026-05-27 session 009 have been harvested by the wik
 
 ## 2026-05-29 — comprehensive polish session 001 (entries 04031–04042)
 - [pattern] Continued evidence of batch-creation semantic tag errors in the 04000s range: 04038 台詞 had 5 wrong tags ("building", "electronics", "geography", "leisure" in addition to correct "communication"); 04039 扇子 had "electronics"; 04035 地盤 had "education". The misassignment pattern persists well past the 03970–03988 range flagged previously — likely affects many entries in the 04000+ range.
+
+## 2026-05-29 — comprehensive polish session 006 (entries 04126–04149)
+- [pattern] Continued batch-creation semantic tag errors in the 04100–04149 range: 04134 液体 has "body-part"; 04135 応用 has "electronics"; 04141 系統 has "furniture"; 04146 交替 has "emotion" and "geography"; 04148 肯定 has "electronics", "furniture", "geography"; 04149 鉱物 has "time-general". Pattern persists; many more entries in this range likely affected.
+- [entry] 04141 keitou ex6: 犬種 (いぬしゅ, dog breed) marked noentry; added as candidate C21275.

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04140_kijun_ex1",
-      "japanese": "{合格|ごうかく}の{規準|きじゅん}は{何|なん}ですか。",
+      "japanese": "⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦の→の：09472_no⟧{規準|きじゅん}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "What are the criteria for passing?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04140_kijun_ex2",
-      "japanese": "この{規準|きじゅん}に{基|もと}づいて{判断|はんだん}する。",
+      "japanese": "⟦この→この：00962_kono⟧{規準|きじゅん}⟦に→に：00314_ni⟧⟦{基|もと}づいて→基づく：02315_motozuku⟧⟦{判断|はんだん}する→判断する：06062_handansuru⟧。",
       "english": "I will judge based on this standard.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04140_kijun_ex3",
-      "japanese": "{国際|こくさい}{規準|きじゅん}を{満|み}たす{必要|ひつよう}がある。",
+      "japanese": "⟦{国際|こくさい}→国際：01406_kokusai⟧{規準|きじゅん}⟦を→を：00422_wo⟧⟦{満|み}たす→満たす：09889_mitasu⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "It needs to meet international standards.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,34 @@
       ]
     }
   ],
-  "notes": "{規準|きじゅん} means a standard, criterion, or norm used as a basis for judgment or comparison.\n\nKANJI NOTE:\nAlso very commonly written as {基準|きじゅん}. Both spellings are read きじゅん and are largely interchangeable. {基準|きじゅん} (with {基|き} = foundation) is more common in everyday use; {規準|きじゅん} (with {規|き} = rule) emphasizes an established rule or regulation.\n\nCOMMON COLLOCATIONS:\n- {規準|きじゅん}を{設|もう}ける: to establish a standard\n- {規準|きじゅん}を{満|み}たす: to meet a standard\n- {規準|きじゅん}に{基|もと}づく: to be based on a standard\n- {判断|はんだん}の{規準|きじゅん}: criterion for judgment\n- {国際|こくさい}{規準|きじゅん}: international standard\n\nRELATED TERMS:\n- {標準|ひょうじゅん}: standard (more general, as in \"standard level\")\n- {水準|すいじゅん}: level, standard (often for quality or economic level)",
+  "notes": "{規準|きじゅん} means a standard, criterion, or norm used as a basis for judgment or comparison.\n\nKANJI NOTE:\nAlso very commonly written as ⟦{基準|きじゅん}→基準：00228_kijun⟧. Both spellings are read きじゅん and are largely interchangeable. {基準|きじゅん} (with {基|き} = foundation) is more common in everyday use; {規準|きじゅん} (with {規|き} = rule) emphasizes an established rule or regulation.\n\nCOMMON COLLOCATIONS:\n- {規準|きじゅん}⟦を→を：00422_wo⟧⟦{設|もう}ける→設ける：14220_moukeru⟧: to establish a standard\n- {規準|きじゅん}⟦を→を：00422_wo⟧⟦{満|み}たす→満たす：09889_mitasu⟧: to meet a standard\n- {規準|きじゅん}⟦に→に：00314_ni⟧⟦{基|もと}づく→基づく：02315_motozuku⟧: to be based on a standard\n- ⟦{判断|はんだん}→判断：03571_handan⟧⟦の→の：09472_no⟧{規準|きじゅん}: criterion for judgment\n- ⟦{国際|こくさい}→国際：01406_kokusai⟧{規準|きじゅん}: international standard\n\nRELATED TERMS:\n- ⟦{標準|ひょうじゅん}→標準：04832_hyoujun⟧: standard (more general, as in \"standard level\")\n- ⟦{水準|すいじゅん}→水準：03357_suijun⟧: level, standard (often for quality or economic level)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04832_hyoujun",
+      "reading": "ひょうじゅん",
+      "headword": "{標準|ひょうじゅん}",
+      "label": "standard (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "03357_suijun",
+      "reading": "すいじゅん",
+      "headword": "{水準|すいじゅん}",
+      "label": "level, standard"
+    }
+  ],
+  "prominent_see_also": [
+    {
+      "target_id": "00228_kijun",
+      "reading": "きじゅん",
+      "headword": "{基準|きじゅん}",
+      "note": "standard (基準)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T14:00:55Z",
-    "modified": "2026-03-26T06:22:34Z",
+    "modified": "2026-05-29T18:08:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -59,13 +83,5 @@
         "general"
       ]
     }
-  },
-  "prominent_see_also": [
-    {
-      "target_id": "00228_kijun",
-      "reading": "きじゅん",
-      "headword": "{基準|きじゅん}",
-      "note": "standard (基準)"
-    }
-  ]
+  }
 }

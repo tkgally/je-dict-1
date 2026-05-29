@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04126_gairon_ex1",
-      "japanese": "{経済学|けいざいがく}{概論|がいろん}の{授業|じゅぎょう}を{取|と}っている。",
+      "japanese": "⟦{経済学|けいざいがく}→経済学：19376_keizaigaku⟧{概論|がいろん}⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦を→を：00422_wo⟧⟦{取|と}っている→取る：00565_toru⟧。",
       "english": "I'm taking an Introduction to Economics class.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04126_gairon_ex2",
-      "japanese": "まず{概論|がいろん}を{読|よ}んでから{詳細|しょうさい}を{学|まな}ぼう。",
+      "japanese": "⟦まず→まず：00796_mazu⟧{概論|がいろん}⟦を→を：00422_wo⟧⟦{読|よ}んで→読む：00426_yomu⟧⟦から→から：00504_kara⟧⟦{詳細|しょうさい}→詳細：02523_shousai⟧⟦を→を：00422_wo⟧⟦{学|まな}ぼう→学ぶ：01987_manabu⟧。",
       "english": "Let's first read the introduction and then study the details.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04126_gairon_ex3",
-      "japanese": "この{本|ほん}は{日本|にほん}{史|し}{概論|がいろん}として{最適|さいてき}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{本|ほん}→本：00111_hon⟧⟦は→は：00079_ha⟧⟦{日本|にほん}→日本：03876_nihon⟧⟦{史|し}→史：noentry⟧{概論|がいろん}⟦として→として：06802_toshite⟧⟦{最適|さいてき}→最適：13010_saiteki⟧⟦だ→だ：09496_da⟧。",
       "english": "This book is ideal as an introduction to Japanese history.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,33 @@
       ]
     }
   ],
-  "notes": "USAGE: {概論|がいろん} is commonly used in academic contexts for introductory courses and texts.\n\nCOMMON COMPOUNDS:\n・{経済学|けいざいがく}{概論|がいろん} (Introduction to Economics)\n・{法学|ほうがく}{概論|がいろん} (Introduction to Law)\n・{心理学|しんりがく}{概論|がいろん} (Introduction to Psychology)\n・{哲学|てつがく}{概論|がいろん} (Introduction to Philosophy)\n\nACADEMIC USE: University introductory courses often have {概論|がいろん} in their titles, indicating they provide a general overview suitable for beginners.\n\nRELATED:\n・{入門|にゅうもん} - introduction (for beginners)\n・{序論|じょろん} - introduction (to a text)\n・{総論|そうろん} - general discussion",
+  "notes": "USAGE: {概論|がいろん} is commonly used in academic contexts for introductory courses and texts.\n\nCOMMON COMPOUNDS:\n・⟦{経済学|けいざいがく}→経済学：19376_keizaigaku⟧{概論|がいろん} (Introduction to Economics)\n・⟦{法学|ほうがく}→法学：noentry⟧{概論|がいろん} (Introduction to Law)\n・⟦{心理学|しんりがく}→心理学：12666_shinrigaku⟧{概論|がいろん} (Introduction to Psychology)\n・⟦{哲学|てつがく}→哲学：03548_tetsugaku⟧{概論|がいろん} (Introduction to Philosophy)\n\nACADEMIC USE: University introductory courses often have {概論|がいろん} in their titles, indicating they provide a general overview suitable for beginners.\n\nRELATED:\n・⟦{入門|にゅうもん}→入門：11643_nyuumon⟧ - introduction (for beginners)\n・⟦{序論|じょろん}→序論：23169_joron⟧ - introduction (to a text)\n・⟦{総論|そうろん}→総論：24125_souron⟧ - general discussion",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "11643_nyuumon",
+      "reading": "にゅうもん",
+      "headword": "{入門|にゅうもん}",
+      "label": "introduction (for beginners)"
+    },
+    {
+      "type": "related",
+      "target_id": "23169_joron",
+      "reading": "じょろん",
+      "headword": "{序論|じょろん}",
+      "label": "introduction (to a text)"
+    },
+    {
+      "type": "related",
+      "target_id": "24125_souron",
+      "reading": "そうろん",
+      "headword": "{総論|そうろん}",
+      "label": "general discussion"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-01-19T12:17:42.768211Z",
+    "modified": "2026-05-29T18:08:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
