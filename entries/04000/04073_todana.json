@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04073_todana_ex1",
-      "japanese": "{食器|しょっき}は{戸棚|とだな}に{入|い}れてください。",
+      "japanese": "⟦{食器|しょっき}→食器：04204_shokki⟧⟦は→は：00079_ha⟧{戸棚|とだな}⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put the dishes in the cupboard.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04073_todana_ex2",
-      "japanese": "{戸棚|とだな}の{上|うえ}の{棚|たな}に{手|て}が{届|とど}かない。",
+      "japanese": "{戸棚|とだな}⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦の→の：09472_no⟧⟦{棚|たな}→棚：01650_tana⟧⟦に→に：00314_ni⟧⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧⟦{届|とど}かない→届く：00899_todoku⟧。",
       "english": "I can't reach the top shelf of the cupboard.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04073_todana_ex3",
-      "japanese": "{台所|だいどころ}の{戸棚|とだな}を{整理|せいり}した。",
+      "japanese": "⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦の→の：09472_no⟧{戸棚|とだな}⟦を→を：00422_wo⟧⟦{整理|せいり}→整理：03297_seiri⟧⟦した→する：00392_suru⟧。",
       "english": "I organized the kitchen cupboard.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "TYPES OF STORAGE FURNITURE:\n- {戸棚|とだな} - cupboard with doors (general)\n- {食器棚|しょっきだな} - dish cupboard\n- {本棚|ほんだな} - bookshelf\n- {棚|たな} - shelf (open)\n- {タンス} - chest of drawers (for clothes)\n- {押入れ|おしいれ} - Japanese-style closet\n\nETYMOLOGY: {戸|と} (door) + {棚|たな} (shelf) = shelves with doors\n\nCOMMON USAGE:\n- {台所|だいどころ}の{戸棚|とだな} (kitchen cupboard)\n- {戸棚|とだな}にしまう (to put away in the cupboard)",
+  "notes": "TYPES OF STORAGE FURNITURE:\n- {戸棚|とだな} - cupboard with doors (general)\n- ⟦{食器棚|しょっきだな}→食器棚：07097_shokkidana⟧ - dish cupboard\n- ⟦{本棚|ほんだな}→本棚：04489_hondana⟧ - bookshelf\n- ⟦{棚|たな}→棚：01650_tana⟧ - shelf (open)\n- ⟦タンス→タンス：05012_tansu⟧ - chest of drawers (for clothes)\n- ⟦{押入れ|おしいれ}→押入れ：01345_oshiire⟧ - Japanese-style closet\n\nETYMOLOGY: ⟦{戸|と}→戸：noentry⟧ (door) + ⟦{棚|たな}→棚：01650_tana⟧ (shelf) = shelves with doors\n\nCOMMON USAGE:\n- ⟦{台所|だいどころ}→台所：01021_daidokoro⟧⟦の→の：09472_no⟧{戸棚|とだな} (kitchen cupboard)\n- {戸棚|とだな}⟦に→に：00314_ni⟧⟦しまう→しまう：03064_shimau⟧ (to put away in the cupboard)",
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-01-19T12:17:42.729966Z",
+    "modified": "2026-05-29T15:08:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,7 +56,6 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "animal-mammal",
         "furniture"
       ]
     }

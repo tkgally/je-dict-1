@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04076_naika_ex1",
-      "japanese": "{風邪|かぜ}をひいたので{内科|ないか}に{行|い}った。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦ひいた→ひく：01978_hiku⟧⟦ので→ので：09501_node⟧{内科|ないか}⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to the internal medicine clinic because I caught a cold.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04076_naika_ex2",
-      "japanese": "{内科|ないか}の{先生|せんせい}に{診|み}てもらった。",
+      "japanese": "{内科|ないか}⟦の→の：09472_no⟧⟦{先生|せんせい}→先生：00609_sensei⟧⟦に→に：00314_ni⟧⟦{診|み}て→診る：09798_miru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I was examined by an internist.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04076_naika_ex3",
-      "japanese": "この{病院|びょういん}の{内科|ないか}は{評判|ひょうばん}がいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{病院|びょういん}→病院：00577_byouin⟧⟦の→の：09472_no⟧{内科|ないか}⟦は→は：00079_ha⟧⟦{評判|ひょうばん}→評判：03586_hyouban⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧。",
       "english": "This hospital's internal medicine department has a good reputation.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "HOSPITAL DEPARTMENTS (common):\n- {内科|ないか} (internal medicine)\n- {外科|げか} (surgery)\n- {小児科|しょうにか} (pediatrics)\n- {産婦人科|さんふじんか} (obstetrics & gynecology)\n- {眼科|がんか} (ophthalmology)\n- {耳鼻科|じびか} (ENT - ear, nose, throat)\n- {皮膚科|ひふか} (dermatology)\n- {精神科|せいしんか} (psychiatry)\n\nSUBSPECIALTIES:\n- {消化器|しょうかき}{内科|ないか} (gastroenterology)\n- {循環器|じゅんかんき}{内科|ないか} (cardiology)\n- {呼吸器|こきゅうき}{内科|ないか} (pulmonology)\n\nCONTRAST:\n- {内科|ないか} - treats with medication, non-invasive\n- {外科|げか} - treats with surgery",
+  "notes": "HOSPITAL DEPARTMENTS (common):\n- {内科|ないか} (internal medicine)\n- ⟦{外科|げか}→外科：03983_geka⟧ (surgery)\n- ⟦{小児科|しょうにか}→小児科：08652_shounika⟧ (pediatrics)\n- ⟦{産婦人科|さんふじんか}→産婦人科：16784_sanfujinka⟧ (obstetrics & gynecology)\n- ⟦{眼科|がんか}→眼科：11071_ganka⟧ (ophthalmology)\n- ⟦{耳鼻科|じびか}→耳鼻科：22874_jibika⟧ (ENT - ear, nose, throat)\n- ⟦{皮膚科|ひふか}→皮膚科：11073_hifuka⟧ (dermatology)\n- ⟦{精神科|せいしんか}→精神科：21587_seishinka⟧ (psychiatry)\n\nSUBSPECIALTIES:\n- ⟦{消化器|しょうかき}→消化器：06012_shoukaki⟧{内科|ないか} (gastroenterology)\n- ⟦{循環器|じゅんかんき}→循環器：06013_junkanki⟧{内科|ないか} (cardiology)\n- ⟦{呼吸器|こきゅうき}→呼吸器：06011_kokyuuki⟧{内科|ないか} (pulmonology)\n\nCONTRAST:\n- {内科|ないか} - treats with medication, non-invasive\n- ⟦{外科|げか}→外科：03983_geka⟧ - treats with surgery",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-01-19T12:17:42.732033Z",
+    "modified": "2026-05-29T15:08:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,8 +65,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part",
-        "education"
+        "health",
+        "general"
       ]
     }
   }
