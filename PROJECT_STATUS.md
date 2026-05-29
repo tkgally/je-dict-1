@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-29 (Vocabulary Expansion - 24 New Entries, Bound Morphemes & Grammar)
+Added 24 new dictionary entries (IDs 28331-28354) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates. This batch focused on bound morphemes (productive suffixes/prefixes) and grammar expressions that the dictionary already referenced without defining. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
+
+- **Suffixes (9)**: 〜{代|だい} (fee/bill), 〜{性|しょう} (personal disposition), 〜{化|か} (-ification), 〜{物|ぶつ} (object/substance), 〜{家|か} (expert/-ist), 〜{賃|ちん} (fare/wage), 〜{戦|せん} (match/tournament), 〜{材|ざい} (material/talent), 〜{士|し} (licensed professional)
+- **Prefix (1)**: {全|ぜん}〜 (all/total)
+- **Pronouns (3)**: {我|わ} (oneself, literary), {己|おのれ} (oneself, literary), {私|わたし}たち (we/us)
+- **Expressions (4)**: ために (for the sake of / because of), だけに (precisely because), による (due to / by means of / according to), からこそ (precisely because)
+- **Adverb (1)**: {誠|まこと}に (truly/sincerely, formal)
+- **Particle (1)**: とも (both/all of a small group)
+- **Nouns (4)**: {百戦|ひゃくせん} (a hundred battles, literary), {実|じつ} (real/biological, in 実の〜), {幸|さち} (blessing / mountain-sea bounty, two senses), {背景|はいけい} (background/context, two senses), {不能|ふのう} (impossibility/unable)
+
+Also removed 4 stale candidates (C20642 カセットテープ, C21010 〜目, C21054 〜費, C21118 かしわで) that already existed as entries under variant readings or kanji forms.
+
 ### 2026-05-29 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28309-28330) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C21xxx block (words already referenced inside existing entries). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
