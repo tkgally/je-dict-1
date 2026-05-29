@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04060_tsuika_ex1",
-      "japanese": "{注文|ちゅうもん}を{追加|ついか}してもいいですか。",
+      "japanese": "⟦{注文|ちゅうもん}→注文：03485_chuumon⟧⟦を→を：00422_wo⟧{追加|ついか}⟦して→する：00392_suru⟧⟦も→も：00484_mo⟧⟦いい→いい：00118_ii⟧ですか。",
       "english": "Can I add to my order?",
       "notes": "Common in restaurants",
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04060_tsuika_ex2",
-      "japanese": "{予算|よさん}の{追加|ついか}が{必要|ひつよう}だ。",
+      "japanese": "⟦{予算|よさん}→予算：03663_yosan⟧⟦の→の：09472_no⟧{追加|ついか}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "An additional budget is needed.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04060_tsuika_ex3",
-      "japanese": "{追加|ついか}{料金|りょうきん}なしで{サービス}を{受|う}けられる。",
+      "japanese": "{追加|ついか}⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦なし→無し：03779_nashi⟧⟦で→で：00502_de⟧⟦{サービス}→サービス：01531_saabisu⟧⟦を→を：00422_wo⟧⟦{受|う}けられる→受ける：01215_ukeru⟧。",
       "english": "You can receive the service without additional charges.",
       "notes": "追加料金 = additional fee/charge",
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {追加|ついか}する (to add)\n- {追加|ついか}{注文|ちゅうもん} (additional order)\n- {追加|ついか}{料金|りょうきん} (additional charge/fee)\n- {追加|ついか}{予算|よさん} (supplementary budget)\n- {追加|ついか}{機能|きのう} (additional feature)\n- {追加|ついか}{情報|じょうほう} (additional information)\n\nCOMPUTER/TECH USAGE:\n- ファイルを{追加|ついか}する (to add a file)\n- {機能|きのう}を{追加|ついか}する (to add a feature)\n\nRELATED:\n- {付|つ}け{加|くわ}える (to add, append - verb)\n- {増|ふ}やす (to increase - verb)",
+  "notes": "COMMON COLLOCATIONS:\n- {追加|ついか}⟦する→する：00392_suru⟧ (to add)\n- {追加|ついか}⟦{注文|ちゅうもん}→注文：03485_chuumon⟧ (additional order)\n- {追加|ついか}⟦{料金|りょうきん}→料金：03797_ryoukin⟧ (additional charge/fee)\n- {追加|ついか}⟦{予算|よさん}→予算：03663_yosan⟧ (supplementary budget)\n- {追加|ついか}⟦{機能|きのう}→機能：13165_kinou⟧ (additional feature)\n- {追加|ついか}⟦{情報|じょうほう}→情報：03348_jouhou⟧ (additional information)\n\nCOMPUTER/TECH USAGE:\n- ⟦ファイル→ファイル：05280_fairu⟧⟦を→を：00422_wo⟧{追加|ついか}⟦する→する：00392_suru⟧ (to add a file)\n- ⟦{機能|きのう}→機能：13165_kinou⟧⟦を→を：00422_wo⟧{追加|ついか}⟦する→する：00392_suru⟧ (to add a feature)\n\nRELATED:\n- ⟦{付|つ}け{加|くわ}える→付け加える：11520_tsukekuwaeru⟧ (to add, append - verb)\n- ⟦{増|ふ}やす→増やす：02410_fuyasu⟧ (to increase - verb)",
   "metadata": {
     "created": "2026-01-13T11:35:35Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-05-29T14:12:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -147,7 +147,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics"
+        "general"
       ],
       "verb_class": "suru"
     }
