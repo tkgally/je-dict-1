@@ -29,3 +29,6 @@ _(All observations through 2026-05-27 session 009 have been harvested by the wik
 
 ## 2026-05-28 — comprehensive polish session 003 (entries 03970–03990)
 - [pattern] Multiple entries in the range 03971–03988 had clearly wrong semantic tags (e.g., "furniture", "electronics", "leisure", "animal-insect", "occupation", "time-general" on words like 我が〜, 器具, 基地, 弟子, 父母). This appears to be a systematic batch-creation error. Nearby entries outside this session's range (03991 onward) may have similar mismatches and should be watched.
+
+## 2026-05-29 — comprehensive polish session 001 (entries 04031–04042)
+- [pattern] Continued evidence of batch-creation semantic tag errors in the 04000s range: 04038 台詞 had 5 wrong tags ("building", "electronics", "geography", "leisure" in addition to correct "communication"); 04039 扇子 had "electronics"; 04035 地盤 had "education". The misassignment pattern persists well past the 03970–03988 range flagged previously — likely affects many entries in the 04000+ range.
