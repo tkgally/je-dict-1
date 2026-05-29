@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04134_ekitai_ex1",
-      "japanese": "{水|みず}は{液体|えきたい}の{一種|いっしゅ}だ。",
+      "japanese": "⟦{水|みず}→水：02258_mizu⟧⟦は→は：00079_ha⟧{液体|えきたい}⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧⟦だ→だ：09496_da⟧。",
       "english": "Water is a type of liquid.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04134_ekitai_ex2",
-      "japanese": "この{液体|えきたい}は{何|なん}ですか。",
+      "japanese": "⟦この→この：00962_kono⟧{液体|えきたい}⟦は→は：00079_ha⟧⟦{何|なん}→何：00498_nani⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "What is this liquid?",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04134_ekitai_ex3",
-      "japanese": "{液体|えきたい}を{容器|ようき}に{入|い}れてください。",
+      "japanese": "{液体|えきたい}⟦を→を：00422_wo⟧⟦{容器|ようき}→容器：03656_youki⟧⟦に→に：00314_ni⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please put the liquid in the container.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04134_ekitai_ex4",
-      "japanese": "{飛行機|ひこうき}には{液体|えきたい}の{持|も}ち{込|こ}みに{制限|せいげん}がある。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{液体|えきたい}⟦の→の：09472_no⟧⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧⟦に→に：00314_ni⟧⟦{制限|せいげん}→制限：03375_seigen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are restrictions on carrying liquids onto airplanes.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04134_ekitai_ex5",
-      "japanese": "{氷|こおり}が{溶|と}けて{液体|えきたい}になった。",
+      "japanese": "⟦{氷|こおり}→氷：02753_koori⟧⟦が→が：00051_ga⟧⟦{溶|と}けて→溶ける：02302_tokeru⟧{液体|えきたい}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "The ice melted and became liquid.",
       "notes": null,
       "has_audio": false,
@@ -63,10 +63,26 @@
       ]
     }
   ],
-  "notes": "{液体|えきたい} refers to liquid or fluid, one of the three states of matter.\n\nSTATES OF MATTER:\n- {固体|こたい}: solid\n- {液体|えきたい}: liquid\n- {気体|きたい}: gas\n\nCOMMON COLLOCATIONS:\n- {液体|えきたい}{窒素|ちっそ}: liquid nitrogen\n- {液体|えきたい}{燃料|ねんりょう}: liquid fuel\n- {液体|えきたい}{洗剤|せんざい}: liquid detergent\n- {液体|えきたい}{石鹸|せっけん}: liquid soap\n\nTRAVEL NOTE:\nAt Japanese airports, {液体|えきたい}{持|も}ち{込|こ}み{制限|せいげん} (liquid carry-on restrictions) apply, limiting liquids to 100ml containers.",
+  "notes": "{液体|えきたい} refers to liquid or fluid, one of the three states of matter.\n\nSTATES OF MATTER:\n- ⟦{固体|こたい}→固体：14852_kotai⟧: solid\n- {液体|えきたい}: liquid\n- ⟦{気体|きたい}→気体：02632_kitai⟧: gas\n\nCOMMON COLLOCATIONS:\n- {液体|えきたい}⟦{窒素|ちっそ}→窒素：11106_chisso⟧: liquid nitrogen\n- {液体|えきたい}⟦{燃料|ねんりょう}→燃料：13461_nenryou⟧: liquid fuel\n- {液体|えきたい}⟦{洗剤|せんざい}→洗剤：03304_senzai⟧: liquid detergent\n- {液体|えきたい}⟦{石鹸|せっけん}→石鹸：04981_sekken⟧: liquid soap\n\nTRAVEL NOTE:\nAt Japanese airports, {液体|えきたい}⟦{持|も}ち{込|こ}み→持ち込み：08293_mochikomi⟧⟦{制限|せいげん}→制限：03375_seigen⟧ (liquid carry-on restrictions) apply, limiting liquids to 100ml containers.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14852_kotai",
+      "reading": "こたい",
+      "headword": "{固体|こたい}",
+      "label": "solid (state of matter)"
+    },
+    {
+      "type": "related",
+      "target_id": "02632_kitai",
+      "reading": "きたい",
+      "headword": "{気体|きたい}",
+      "label": "gas (state of matter)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-13T14:00:11Z",
-    "modified": "2026-03-03T02:56:56Z",
+    "modified": "2026-05-29T18:08:43Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
