@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04110_outai_ex1",
-      "japanese": "{電話|でんわ}の{応対|おうたい}は{丁寧|ていねい}にしてください。",
+      "japanese": "⟦{電話|でんわ}→電話：01471_denwa⟧⟦の→の：09472_no⟧{応対|おうたい}⟦は→は：00079_ha⟧⟦{丁寧|ていねい}→丁寧：00896_teinei⟧⟦に→に：00314_ni⟧⟦して→する：00392_suru⟧⟦ください→くださる：01305_kudasaru⟧。",
       "english": "Please handle phone calls politely.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04110_outai_ex2",
-      "japanese": "お{客|きゃく}さまへの{応対|おうたい}が{上手|じょうず}だ。",
+      "japanese": "⟦お{客|きゃく}さま→お客様：08780_okyakusama⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{応対|おうたい}⟦が→が：00051_ga⟧⟦{上手|じょうず}→上手：00707_jouzu⟧⟦だ→だ：09496_da⟧。",
       "english": "She's good at dealing with customers.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04110_outai_ex3",
-      "japanese": "{忙|いそが}しくて{応対|おうたい}が{雑|ざつ}になってしまった。",
+      "japanese": "⟦{忙|いそが}しくて→忙しい：00591_isogashii⟧{応対|おうたい}⟦が→が：00051_ga⟧⟦{雑|ざつ}→雑：14582_zatsu⟧⟦に→に：00314_ni⟧⟦なって→なる：01970_naru⟧⟦しまった→仕舞う：03064_shimau⟧。",
       "english": "I was busy and my handling became sloppy.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {応対|おうたい} focuses on how one responds to or deals with people, often emphasizing manner and quality of interaction.\n\nCOMMON PATTERNS:\n・{応対|おうたい}する (to deal with, to respond to)\n・{応対|おうたい}が{良|よ}い/{悪|わる}い (good/bad service)\n・{電話|でんわ}{応対|おうたい} (telephone reception)\n・{窓口|まどぐち}{応対|おうたい} (counter service)\n\nSIMILAR WORDS:\n・{応接|おうせつ} - receiving guests (more formal, hospitality)\n・{対応|たいおう} - response, handling (broader, includes non-personal situations)\n・{接客|せっきゃく} - customer service",
+  "notes": "USAGE: {応対|おうたい} focuses on how one responds to or deals with people, often emphasizing manner and quality of interaction.\n\nCOMMON PATTERNS:\n・{応対|おうたい}⟦する→する：00392_suru⟧ (to deal with, to respond to)\n・{応対|おうたい}⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧/⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad service)\n・⟦{電話|でんわ}→電話：01471_denwa⟧{応対|おうたい} (telephone reception)\n・⟦{窓口|まどぐち}→窓口：03154_madoguchi⟧{応対|おうたい} (counter service)\n\nSIMILAR WORDS:\n・⟦{応接|おうせつ}→応接：04109_ousetsu⟧ - receiving guests (more formal, hospitality)\n・⟦{対応|たいおう}→対応：02510_taiou⟧ - response, handling (broader, includes non-personal situations)\n・⟦{接客|せっきゃく}→接客：12882_sekkyaku⟧ - customer service",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-05-29T17:08:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -151,5 +151,28 @@
       ],
       "verb_class": "suru"
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "04109_ousetsu",
+      "reading": "おうせつ",
+      "headword": "{応接|おうせつ}",
+      "label": "receiving guests (formal)"
+    },
+    {
+      "type": "related",
+      "target_id": "02510_taiou",
+      "reading": "たいおう",
+      "headword": "{対応|たいおう}",
+      "label": "response, handling"
+    },
+    {
+      "type": "related",
+      "target_id": "12882_sekkyaku",
+      "reading": "せっきゃく",
+      "headword": "{接客|せっきゃく}",
+      "label": "customer service"
+    }
+  ]
 }
