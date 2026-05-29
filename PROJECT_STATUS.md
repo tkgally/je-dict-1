@@ -51,6 +51,20 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-29 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28355-28376) from `candidate_words.json`, drawn primarily from the "seen in entry" internal-completeness candidates in the C20xxx-C21xxx range. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (12)**: {遊園|ゆうえん} (pleasure garden), {派|は} (faction/school), {対人|たいじん} (interpersonal), {無根|むこん} (groundless), {節回|ふしまわ}し (melodic style), {入賞者|にゅうしょうしゃ} (prize winner), {三密|さんみつ} (three Cs, COVID), {死火山|しかざん} (extinct volcano), {差損|さそん} (exchange loss), {色鉛筆|いろえんぴつ} (colored pencil), {睡眠時間|すいみんじかん} (sleep duration), ブロック{塀|べい} (concrete block wall), {石塀|いしべい} (stone wall)
+- **Suffixes (3)**: 〜ぶり (first time in), 〜{年目|ねんめ} (Nth year), 〜{主義者|しゅぎしゃ} (-ist)
+- **Prefix (1)**: {純|じゅん}〜 (pure/net)
+- **Pronoun (1)**: いくつか (several)
+- **Adverb (1)**: うっそうと (densely, of vegetation)
+- **Number (1)**: {十|とお} (ten, native counting)
+- **Verb-godan (1)**: {走|はし}り{切|き}る (run all the way through)
+- **Verb-ichidan (1)**: {縛|しば}り{付|つ}ける (to tie down)
+
+Also removed 6 stale candidates that already existed as entries (C20637 カセットテープ, C20955 性, C20988 全, C21120 賃, C21175 士, C21224 材 — covered by suffix/prefix entries 27932/28334/28337/28343/28352/28347). All 22 entries validate; furigana clean; conjugation tables added to the 2 verbs. No new kanji. Candidate list synced.
+
 ### 2026-05-29 (Vocabulary Expansion - 24 New Entries, Bound Morphemes & Grammar)
 Added 24 new dictionary entries (IDs 28331-28354) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates. This batch focused on bound morphemes (productive suffixes/prefixes) and grammar expressions that the dictionary already referenced without defining. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
 
