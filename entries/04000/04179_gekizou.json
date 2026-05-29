@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04179_gekizou_ex1",
-      "japanese": "{観光客|かんこうきゃく}が{激増|げきぞう}している。",
+      "japanese": "⟦{観光客|かんこうきゃく}→観光客：03022_kankoukyaku⟧⟦が→が：00051_ga⟧{激増|げきぞう}⟦している→する：00392_suru⟧。",
       "english": "The number of tourists is surging.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04179_gekizou_ex2",
-      "japanese": "インターネット{利用者|りようしゃ}の{激増|げきぞう}により、サーバーが{混雑|こんざつ}した。",
+      "japanese": "⟦インターネット→インターネット：04723_intaanetto⟧⟦{利用者|りようしゃ}→利用者：03189_riyousha⟧⟦の→の：09472_no⟧{激増|げきぞう}⟦に→に：00314_ni⟧⟦より→より：09476_yori⟧、⟦サーバー→サーバー：04755_saabaa⟧⟦が→が：00051_ga⟧⟦{混雑|こんざつ}→混雑：02809_konzatsu⟧⟦した→する：00392_suru⟧。",
       "english": "The server became congested due to the sharp increase in internet users.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04179_gekizou_ex3",
-      "japanese": "{感染者|かんせんしゃ}{数|すう}が{激増|げきぞう}したため、{対策|たいさく}が{必要|ひつよう}になった。",
+      "japanese": "⟦{感染者|かんせんしゃ}→感染者：noentry⟧⟦{数|すう}→数：03360_suu⟧⟦が→が：00051_ga⟧{激増|げきぞう}⟦した→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{対策|たいさく}→対策：02511_taisaku⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "Countermeasures became necessary because the number of infected people surged.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "RELATED WORDS:\n・{急増|きゅうぞう} - rapid increase (similar but slightly less dramatic)\n・{増加|ぞうか} - increase (neutral, general term)\n・{増大|ぞうだい} - enlargement, growth\n\n{激増|げきぞう} emphasizes both speed and magnitude of increase.\n\nOPPOSITE:\n・{激減|げきげん} - sharp decrease, dramatic drop\n\nCOMMON PATTERNS:\n・〜が{激増|げきぞう}する (something surges)\n・{激増|げきぞう}している (is surging)\n\n[Register: Neutral to Formal, often used in news/reports]",
+  "notes": "RELATED WORDS:\n・⟦{急増|きゅうぞう}→急増：12671_kyuuzou⟧ - rapid increase (similar but slightly less dramatic)\n・⟦{増加|ぞうか}→増加：03329_zouka⟧ - increase (neutral, general term)\n・⟦{増大|ぞうだい}→増大：04486_zoudai⟧ - enlargement, growth\n\n{激増|げきぞう} emphasizes both speed and magnitude of increase.\n\nOPPOSITE:\n・⟦{激減|げきげん}→激減：15241_gekigen⟧ - sharp decrease, dramatic drop\n\nCOMMON PATTERNS:\n・〜⟦が→が：00051_ga⟧{激増|げきぞう}⟦する→する：00392_suru⟧ (something surges)\n・{激増|げきぞう}⟦している→する：00392_suru⟧ (is surging)\n\n[Register: Neutral to Formal, often used in news/reports]",
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-04-07T10:12:38Z",
+    "modified": "2026-05-29T20:23:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -147,8 +147,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "furniture",
-        "leisure"
+        "abstract"
       ],
       "verb_class": "suru"
     }
