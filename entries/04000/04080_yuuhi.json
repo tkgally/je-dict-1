@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04080_yuuhi_ex1",
-      "japanese": "{夕日|ゆうひ}が{海|うみ}に{沈|しず}んでいく。",
+      "japanese": "{夕日|ゆうひ}⟦が→が：00051_ga⟧⟦{海|うみ}→海：00556_umi⟧⟦に→に：00314_ni⟧⟦{沈|しず}んで→沈む：02061_shizumu⟧⟦いく→行く：00119_iku⟧。",
       "english": "The setting sun is sinking into the sea.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04080_yuuhi_ex2",
-      "japanese": "{夕日|ゆうひ}に{染|そ}まった{空|そら}が{美|うつく}しかった。",
+      "japanese": "{夕日|ゆうひ}⟦に→に：00314_ni⟧⟦{染|そ}まった→染まる：04254_somaru⟧⟦{空|そら}→空：02216_sora⟧⟦が→が：00051_ga⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The sky dyed by the evening sun was beautiful.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04080_yuuhi_ex3",
-      "japanese": "{丘|おか}の{上|うえ}から{夕日|ゆうひ}を{眺|なが}めた。",
+      "japanese": "⟦{丘|おか}→丘：02183_oka⟧⟦の→の：09472_no⟧⟦{上|うえ}→上：00682_ue⟧⟦から→から：00504_kara⟧{夕日|ゆうひ}⟦を→を：00422_wo⟧⟦{眺|なが}めた→眺める：02132_nagameru⟧。",
       "english": "I watched the sunset from the top of the hill.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04080_yuuhi_ex4",
-      "japanese": "{窓|まど}から{見|み}える{夕日|ゆうひ}が{部屋|へや}の{中|なか}をオレンジ{色|いろ}に{照|て}らしていた。",
+      "japanese": "⟦{窓|まど}→窓：02254_mado⟧⟦から→から：00504_kara⟧⟦{見|み}える→見える：01165_mieru⟧{夕日|ゆうひ}⟦が→が：00051_ga⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦オレンジ→オレンジ：01044_orenji⟧⟦{色|いろ}→色：00849_iro⟧⟦に→に：00314_ni⟧⟦{照|て}らして→照らす：04669_terasu⟧⟦いた→いる：00495_iru⟧。",
       "english": "The setting sun visible from the window lit up the room in orange.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04080_yuuhi_ex5",
-      "japanese": "{旅行|りょこう}{先|さき}の{海岸|かいがん}で{見|み}た{夕日|ゆうひ}は、{今|いま}までで{一番|いちばん}{美|うつく}しかった。",
+      "japanese": "⟦{旅行|りょこう}{先|さき}→旅行先：28195_ryokousaki⟧⟦の→の：09472_no⟧⟦{海岸|かいがん}→海岸：00852_kaigan⟧⟦で→で：00502_de⟧⟦{見|み}た→見る：00283_miru⟧{夕日|ゆうひ}⟦は→は：00079_ha⟧⟦{今|いま}まで→今まで：11546_imamade⟧⟦で→で：00502_de⟧⟦{一番|いちばん}→一番：01140_ichiban⟧⟦{美|うつく}しかった→美しい：01121_utsukushii⟧。",
       "english": "The sunset I saw at the beach on my trip was the most beautiful one ever.",
       "notes": null,
       "has_audio": false,
@@ -63,22 +63,20 @@
       ]
     }
   ],
-  "notes": "USAGE: {夕日|ゆうひ} specifically refers to the sun during the evening hours. It evokes imagery of beauty and tranquility in Japanese culture.\n\nCOMMON PATTERNS:\n・{夕日|ゆうひ}が{沈|しず}む (the sun sets)\n・{夕日|ゆうひ}を{浴|あ}びる (to bathe in the evening sun)\n・{夕日|ゆうひ}に{染|そ}まる (to be dyed by the sunset)\n\nRELATED:\n・{朝日|あさひ} - morning sun, sunrise (opposite)\n・{夕焼|ゆうや}け - evening glow, sunset colors\n・{日没|にちぼつ} - sunset (more technical)",
+  "notes": "USAGE: {夕日|ゆうひ} specifically refers to the sun during the evening hours. It evokes imagery of beauty and tranquility in Japanese culture.\n\nCOMMON PATTERNS:\n・{夕日|ゆうひ}⟦が→が：00051_ga⟧⟦{沈|しず}む→沈む：02061_shizumu⟧ (the sun sets)\n・{夕日|ゆうひ}⟦を→を：00422_wo⟧⟦{浴|あ}びる→浴びる：02844_abiru⟧ (to bathe in the evening sun)\n・{夕日|ゆうひ}⟦に→に：00314_ni⟧⟦{染|そ}まる→染まる：04254_somaru⟧ (to be dyed by the sunset)\n\nRELATED:\n・⟦{朝日|あさひ}→朝日：23495_asahi⟧ - morning sun, sunrise (opposite)\n・⟦{夕焼|ゆうや}け→夕焼け：05045_yuuyake⟧ - evening glow, sunset colors\n・⟦{日没|にちぼつ}→日没：04657_nichibotsu⟧ - sunset (more technical)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-04-03T00:02:52Z",
+    "modified": "2026-05-29T15:08:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "noun"
       ],
-      "domain": [
-        "technical"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "nature",
         "general"
       ]
     }
@@ -88,7 +86,8 @@
       "type": "antonym",
       "reading": "あさひ",
       "headword": "{朝日|あさひ}",
-      "label": "morning sun"
+      "label": "morning sun",
+      "target_id": "23495_asahi"
     }
   ]
 }

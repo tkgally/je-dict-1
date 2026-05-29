@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04084_yusou_ex1",
-      "japanese": "{貨物|かもつ}の{輸送|ゆそう}にはトラックを{使|つか}う。",
+      "japanese": "⟦{貨物|かもつ}→貨物：00165_kamotsu⟧⟦の→の：09472_no⟧{輸送|ゆそう}⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦トラック→トラック：03863_torakku⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "We use trucks for transporting cargo.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04084_yusou_ex2",
-      "japanese": "{輸送|ゆそう}コストを{削減|さくげん}する{必要|ひつよう}がある。",
+      "japanese": "{輸送|ゆそう}⟦コスト→コスト：06666_kosuto⟧⟦を→を：00422_wo⟧⟦{削減|さくげん}→削減：11789_sakugen⟧⟦する→する：00392_suru⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "We need to reduce transportation costs.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04084_yusou_ex3",
-      "japanese": "{大量|たいりょう}の{物資|ぶっし}が{被災地|ひさいち}に{輸送|ゆそう}された。",
+      "japanese": "⟦{大量|たいりょう}→大量：03112_tairyou⟧⟦の→の：09472_no⟧⟦{物資|ぶっし}→物資：07863_busshi⟧⟦が→が：00051_ga⟧⟦{被災地|ひさいち}→被災地：27434_hisaichi⟧⟦に→に：00314_ni⟧{輸送|ゆそう}⟦された→する：00392_suru⟧。",
       "english": "Large quantities of supplies were transported to the disaster area.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {輸送|ゆそう} typically refers to large-scale or commercial transportation, rather than personal travel.\n\nCOMMON PATTERNS:\n・{輸送|ゆそう}する (to transport)\n・{輸送|ゆそう}コスト (transportation cost)\n・{輸送|ゆそう}{手段|しゅだん} (means of transport)\n・{輸送|ゆそう}{業者|ぎょうしゃ} (transport company)\n\nCOMPOUNDS:\n・{海上|かいじょう}{輸送|ゆそう} (sea transport)\n・{航空|こうくう}{輸送|ゆそう} (air transport)\n・{陸上|りくじょう}{輸送|ゆそう} (land transport)\n\nRELATED:\n・{運送|うんそう} - shipping, delivery\n・{運搬|うんぱん} - conveyance, transport",
+  "notes": "USAGE: {輸送|ゆそう} typically refers to large-scale or commercial transportation, rather than personal travel.\n\nCOMMON PATTERNS:\n・{輸送|ゆそう}⟦する→する：00392_suru⟧ (to transport)\n・{輸送|ゆそう}⟦コスト→コスト：06666_kosuto⟧ (transportation cost)\n・{輸送|ゆそう}⟦{手段|しゅだん}→手段：03219_shudan⟧ (means of transport)\n・{輸送|ゆそう}⟦{業者|ぎょうしゃ}→業者：13130_gyousha⟧ (transport company)\n\nCOMPOUNDS:\n・⟦{海上|かいじょう}→海上：09799_kaijou⟧{輸送|ゆそう} (sea transport)\n・⟦{航空|こうくう}→航空：02798_koukuu⟧{輸送|ゆそう} (air transport)\n・⟦{陸上|りくじょう}→陸上：09245_rikujou⟧{輸送|ゆそう} (land transport)\n\nRELATED:\n・⟦{運送|うんそう}→運送：09791_unsou⟧ - shipping, delivery\n・⟦{運搬|うんぱん}→運搬：09231_unpan⟧ - conveyance, transport",
   "cross_references": [
     {
       "type": "related",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-04-07T10:12:38Z",
+    "modified": "2026-05-29T15:08:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,7 +156,6 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "building",
         "transportation"
       ],
       "verb_class": "suru"
