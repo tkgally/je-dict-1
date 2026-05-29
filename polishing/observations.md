@@ -37,6 +37,9 @@ _(All observations through 2026-05-27 session 009 have been harvested by the wik
 - [pattern] Continued batch-creation semantic tag errors in the 04100–04149 range: 04134 液体 has "body-part"; 04135 応用 has "electronics"; 04141 系統 has "furniture"; 04146 交替 has "emotion" and "geography"; 04148 肯定 has "electronics", "furniture", "geography"; 04149 鉱物 has "time-general". Pattern persists; many more entries in this range likely affected.
 - [entry] 04141 keitou ex6: 犬種 (いぬしゅ, dog breed) marked noentry; added as candidate C21275.
 
+## 2026-05-29 — comprehensive polish session 009 (entries 04185–04204)
+- [pattern] Batch-creation semantic tag errors continue into 04185–04204: fixed "clothing" on 04198 車輪 (→ transportation), "communication"/"education" on 04201 障子 (→ building). Pattern of spurious tags (clothing, furniture, electronics, communication, education applied to unrelated words) persists throughout the 04000+ range and likely requires a systematic bulk audit.
+
 ## 2026-05-29 — comprehensive polish session 007 (entries 04150–04169)
 - [pattern] Batch-creation semantic tag errors continue into 04150–04169: fixed "geography" on 04154 混合, "geography" on 04158 祭日, "furniture" on 04166 資料, and "furniture" on 04167 公式. The spurious tags (furniture, geography, electronics, etc.) appear systematically across many entries in this range; a bulk audit/fix of semantic tags across the 04000+ range would be valuable.
 - [entry] 04162 shimekiri ex6/ex7: 今月末 (こんげつまつ) marked noentry; added as candidate C21278.
