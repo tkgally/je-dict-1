@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04118_kaikai_ex1",
-      "japanese": "{会議|かいぎ}は{十時|じゅうじ}に{開会|かいかい}した。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦は→は：00079_ha⟧⟦{十時|じゅうじ}→十時：noentry⟧⟦に→に：00314_ni⟧{開会|かいかい}⟦した→する：00392_suru⟧。",
       "english": "The meeting commenced at 10 o'clock.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04118_kaikai_ex2",
-      "japanese": "{開会|かいかい}の{挨拶|あいさつ}をお{願|ねが}いします。",
+      "japanese": "{開会|かいかい}⟦の→の：09472_no⟧⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧⟦を→を：00422_wo⟧お⟦{願|ねが}います→願う：02387_negau⟧。",
       "english": "Please give the opening remarks.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04118_kaikai_ex3",
-      "japanese": "オリンピックの{開会|かいかい}{式|しき}を{見|み}た。",
+      "japanese": "⟦オリンピック→オリンピック：09899_orinpikku⟧⟦の→の：09472_no⟧{開会|かいかい}⟦{式|しき}→〜式：02000_shiki⟧⟦を→を：00422_wo⟧⟦{見|み}た→見る：00283_miru⟧。",
       "english": "I watched the Olympic opening ceremony.",
       "notes": null,
       "has_audio": false,
@@ -133,10 +133,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {開会|かいかい} is used for formal beginnings of meetings, assemblies, and events.\n\nCOMMON COMPOUNDS:\n・{開会|かいかい}{式|しき} (opening ceremony)\n・{開会|かいかい}の{辞|じ}/{挨拶|あいさつ} (opening address/remarks)\n・{開会|かいかい}を{宣言|せんげん}する (to declare the opening)\n・{開会|かいかい}{時間|じかん} (opening time)\n\nPOLITICAL USE:\n・{国会|こっかい}の{開会|かいかい} (opening of the Diet/Parliament)\n・{開会|かいかい}{中|ちゅう} (while in session)\n\nCONTRAST:\n・{閉会|へいかい} - closing (of a meeting) - opposite",
+  "notes": "USAGE: {開会|かいかい} is used for formal beginnings of meetings, assemblies, and events.\n\nCOMMON COMPOUNDS:\n・{開会|かいかい}⟦{式|しき}→〜式：02000_shiki⟧ (opening ceremony)\n・{開会|かいかい}⟦の→の：09472_no⟧⟦{辞|じ}→辞：noentry⟧/⟦{挨拶|あいさつ}→挨拶：02505_aisatsu⟧ (opening address/remarks)\n・{開会|かいかい}⟦を→を：00422_wo⟧⟦{宣言|せんげん}→宣言：12284_sengen⟧⟦する→する：00392_suru⟧ (to declare the opening)\n・{開会|かいかい}⟦{時間|じかん}→時間：00468_jikan⟧ (opening time)\n\nPOLITICAL USE:\n・⟦{国会|こっかい}→国会：02761_kokkai⟧⟦の→の：09472_no⟧{開会|かいかい} (opening of the Diet/Parliament)\n・{開会|かいかい}⟦{中|ちゅう}→〜中：09840_chuu⟧ (while in session)\n\nCONTRAST:\n・⟦{閉会|へいかい}→閉会：23962_heikai⟧ - closing (of a meeting) - opposite",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-04-07T10:12:38Z",
+    "modified": "2026-05-29T17:08:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -155,6 +155,7 @@
   "cross_references": [
     {
       "type": "antonym",
+      "target_id": "23962_heikai",
       "reading": "へいかい",
       "headword": "{閉会|へいかい}",
       "label": "closing (of meeting)"
