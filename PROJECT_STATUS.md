@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-29 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28309-28330) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C21xxx block (words already referenced inside existing entries). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
+
+- **Nouns (18)**: {温泉地|おんせんち} (hot spring resort area), くぐり{戸|ど} (low doorway/wicket door), {耳元|みみもと} (right next to the ear), {農耕|のうこう} (farming/agriculture), ダイヤル (dial — also verb-suru), {干|ほ}し{柿|がき} (dried persimmon), クリスマスツリー (Christmas tree), {血痕|けっこん} (bloodstain), {盗品|とうひん} (stolen goods, legal domain), {蕎麦殻|そばがら} (buckwheat hulls), {高枕|たかまくら} (high pillow / sleeping in peace — two senses), {紙垂|しで} (Shinto paper streamers), {変更線|へんこうせん} (International Date Line), {電磁場|でんじば} (electromagnetic field), {重力場|じゅうりょくば} (gravitational field), {指示器|しじき} (turn signal/indicator), {爆発音|ばくはつおん} (explosion sound), {銃声|じゅうせい} (gunshot), ばらつき (variation/scatter), {休火山|きゅうかざん} (dormant volcano)
+- **Verb-godan (1)**: {売|う}りさばく (to sell off — transitive)
+- **Expression (1)**: {抜|ぬ}け{目|め}がない (shrewd, not missing a trick)
+
+All 22 entries validate; furigana clean; conjugation tables added to the godan verb and the suru-noun ダイヤル. No new kanji. Removed 1 stale candidate (タバコ, katakana variant of existing 02909_tabako). Candidate list synced (1626→1604).
+
 ### 2026-05-28 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
 Added 20 new dictionary entries (IDs 28289-28308) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates. Length followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses kept short (3-8 words), notes scoped to 2-3 sections.
 
