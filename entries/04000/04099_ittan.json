@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "04099_ittan_ex1",
-      "japanese": "{一旦|いったん}{決|き}めたら{最後|さいご}までやる。",
+      "japanese": "{一旦|いったん}⟦{決|き}めたら→決める：00858_kimeru⟧⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦やる→やる：02980_yaru⟧。",
       "english": "Once I've decided, I see it through to the end.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "04099_ittan_ex2",
-      "japanese": "{一旦|いったん}{休憩|きゅうけい}しましょう。",
+      "japanese": "{一旦|いったん}⟦{休憩|きゅうけい}しましょう→休憩：00262_kyuukei⟧。",
       "english": "Let's take a break for now.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "04099_ittan_ex3",
-      "japanese": "{一旦|いったん}{火|ひ}がつくと、なかなか{消|き}えない。",
+      "japanese": "{一旦|いったん}⟦{火|ひ}→火：02248_hi⟧⟦が→が：00051_ga⟧⟦つく→付く：01960_tsuku⟧⟦と→と：00512_to⟧、⟦なかなか→なかなか：01547_nakanaka⟧⟦{消|き}えない→消える：02520_kieru⟧。",
       "english": "Once it catches fire, it's hard to put out.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "04099_ittan_ex4",
-      "japanese": "{一旦|いったん}{約束|やくそく}したことは{守|まも}るべきだ。",
+      "japanese": "{一旦|いったん}⟦{約束|やくそく}した→約束する：05643_yakusokusuru⟧⟦こと→こと：01164_koto⟧⟦は→は：00079_ha⟧⟦{守|まも}るべきだ→守る：01986_mamoru⟧。",
       "english": "You should keep a promise once you've made it.",
       "notes": null,
       "has_audio": false,
@@ -58,18 +58,8 @@
       ]
     },
     {
-      "id": "04099_ittan_ex5",
-      "japanese": "{一旦|いったん}{休憩|きゅうけい}しましょう。",
-      "english": "Let's take a break for now.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        2
-      ]
-    },
-    {
       "id": "04099_ittan_ex6",
-      "japanese": "{一旦|いったん}{帰|かえ}ってから{出直|でなお}します。",
+      "japanese": "{一旦|いったん}⟦{帰|かえ}って→帰る：00508_kaeru⟧⟦から→から：00504_kara⟧⟦{出直|でなお}します→出直す：06346_denaosu⟧。",
       "english": "I'll go home first and then come back.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +68,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {一旦|いったん} has two main uses:\n\n1. CONDITIONAL (once...): Often followed by と or ば\n・{一旦|いったん}〜と/ば (once ~ happens)\n・Emphasizes that something triggers an irreversible or significant change\n\n2. TEMPORARY (for now): Indicates a pause before continuing\n・{一旦|いったん}{止|と}める (to stop temporarily)\n・{一旦|いったん}{保留|ほりゅう}にする (to put on hold for now)\n\nCOMMON PATTERNS:\n・{一旦|いったん}〜したら (once you do ~)\n・{一旦|いったん}{家|いえ}に{帰|かえ}る (to go home first)\n・{一旦|いったん}{落|お}ち{着|つ}く (to calm down for a moment)",
+  "notes": "USAGE: {一旦|いったん} has two main uses:\n\n1. CONDITIONAL (once...): Often followed by と or ば\n・{一旦|いったん}〜⟦と→と：00512_to⟧/ば (once ~ happens)\n・Emphasizes that something triggers an irreversible or significant change\n\n2. TEMPORARY (for now): Indicates a pause before continuing\n・{一旦|いったん}⟦{止|と}める→止める：00678_tomeru⟧ (to stop temporarily)\n・{一旦|いったん}⟦{保留|ほりゅう}→保留：08364_horyuu⟧⟦に→に：00314_ni⟧⟦する→する：00392_suru⟧ (to put on hold for now)\n\nCOMMON PATTERNS:\n・{一旦|いったん}〜したら (once you do ~)\n・{一旦|いったん}⟦{家|いえ}→家：00612_ie⟧⟦に→に：00314_ni⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧ (to go home first)\n・{一旦|いったん}⟦{落|お}ち{着|つ}く→落ち着く：04670_ochitsuku⟧ (to calm down for a moment)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-03-03T02:17:21Z",
+    "modified": "2026-05-29T16:31:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

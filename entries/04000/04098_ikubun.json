@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "04098_ikubun_ex1",
-      "japanese": "{今日|きょう}は{幾分|いくぶん}{暖|あたた}かい。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧{幾分|いくぶん}⟦{暖|あたた}かい→暖かい：00618_atatakai⟧。",
       "english": "It's somewhat warm today.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "04098_ikubun_ex2",
-      "japanese": "{薬|くすり}を{飲|の}んで{幾分|いくぶん}{楽|らく}になった。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{飲|の}んで→飲む：00322_nomu⟧{幾分|いくぶん}⟦{楽|らく}→楽：02169_raku⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "I feel somewhat better after taking the medicine.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "04098_ikubun_ex3",
-      "japanese": "{彼女|かのじょ}の{態度|たいど}は{幾分|いくぶん}{冷|つめ}たかった。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{態度|たいど}→態度：03396_taido⟧⟦は→は：00079_ha⟧{幾分|いくぶん}⟦{冷|つめ}たかった→冷たい：00681_tsumetai⟧。",
       "english": "Her attitude was somewhat cold.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "04098_ikubun_ex4",
-      "japanese": "{給料|きゅうりょう}の{幾分|いくぶん}かを{貯金|ちょきん}している。",
+      "japanese": "⟦{給料|きゅうりょう}→給料：01086_kyuuryou⟧⟦の→の：09472_no⟧{幾分|いくぶん}⟦か→か：09473_ka⟧⟦を→を：00422_wo⟧⟦{貯金|ちょきん}している→貯金：03497_chokin⟧。",
       "english": "I save a portion of my salary.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04098_ikubun_ex5",
-      "japanese": "{利益|りえき}の{幾分|いくぶん}かは{社員|しゃいん}に{還元|かんげん}される。",
+      "japanese": "⟦{利益|りえき}→利益：03673_rieki⟧⟦の→の：09472_no⟧{幾分|いくぶん}⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦{社員|しゃいん}→社員：03065_shain⟧⟦に→に：00314_ni⟧⟦{還元|かんげん}される→還元：08021_kangen⟧。",
       "english": "A portion of the profits is returned to the employees.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "04098_ikubun_ex6",
-      "japanese": "{費用|ひよう}の{幾分|いくぶん}かは{会社|かいしゃ}が{負担|ふたん}してくれる。",
+      "japanese": "⟦{費用|ひよう}→費用：03588_hiyou⟧⟦の→の：09472_no⟧{幾分|いくぶん}⟦か→か：09473_ka⟧⟦は→は：00079_ha⟧⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦が→が：00051_ga⟧⟦{負担|ふたん}して→負担：09752_futan⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "The company covers a portion of the costs.",
       "notes": null,
       "has_audio": false,
@@ -78,10 +78,10 @@
       ]
     }
   ],
-  "notes": "USAGE: {幾分|いくぶん} is a slightly formal adverb indicating a moderate degree. It's softer than {少|すこ}し and more formal.\n\nPOSITION: Usually appears before the word it modifies.\n\nREGISTER: Slightly formal; more common in written language.\n\nSIMILAR WORDS:\n・{少|すこ}し - a little (more casual, common)\n・やや - slightly (similar formality)\n・{多少|たしょう} - more or less, somewhat\n・いくらか - somewhat (similar meaning)",
+  "notes": "USAGE: {幾分|いくぶん} is a slightly formal adverb indicating a moderate degree. It's softer than ⟦{少|すこ}し→少し：00596_sukoshi⟧ and more formal.\n\nPOSITION: Usually appears before the word it modifies.\n\nREGISTER: Slightly formal; more common in written language.\n\nSIMILAR WORDS:\n・⟦{少|すこ}し→少し：00596_sukoshi⟧ - a little (more casual, common)\n・⟦やや→やや：03642_yaya⟧ - slightly (similar formality)\n・⟦{多少|たしょう}→多少：01647_tashou⟧ - more or less, somewhat\n・⟦いくらか→いくらか：21790_ikuraka⟧ - somewhat (similar meaning)",
   "metadata": {
     "created": "2026-01-13T12:42:08Z",
-    "modified": "2026-03-03T02:17:21Z",
+    "modified": "2026-05-29T16:30:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -95,8 +95,7 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "building",
-        "transportation"
+        "general"
       ]
     }
   }
