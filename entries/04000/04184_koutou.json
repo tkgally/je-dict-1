@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04184_koutou_ex1",
-      "japanese": "{高等|こうとう}{学校|がっこう}を{卒業|そつぎょう}した。",
+      "japanese": "{高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧⟦を→を：00422_wo⟧⟦{卒業|そつぎょう}→卒業：01643_sotsugyou⟧⟦した→する：00392_suru⟧。",
       "english": "I graduated from high school.",
       "notes": "高等学校 = high school (formal term)",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04184_koutou_ex2",
-      "japanese": "{高等|こうとう}{教育|きょういく}を{受|う}ける{機会|きかい}が{増|ふ}えた。",
+      "japanese": "{高等|こうとう}⟦{教育|きょういく}→教育：01313_kyouiku⟧⟦を→を：00422_wo⟧⟦{受|う}ける→受ける：01215_ukeru⟧⟦{機会|きかい}→機会：01302_kikai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧。",
       "english": "Opportunities to receive higher education have increased.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04184_koutou_ex3",
-      "japanese": "これは{高等|こうとう}な{技術|ぎじゅつ}が{必要|ひつよう}な{仕事|しごと}だ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧{高等|こうとう}⟦な→な：09497_na⟧⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦な→な：09497_na⟧⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦だ→だ：09496_da⟧。",
       "english": "This is work that requires advanced skills.",
       "notes": null,
       "has_audio": false,
@@ -43,10 +43,10 @@
       ]
     }
   ],
-  "notes": "COMMON COMPOUNDS:\n・{高等|こうとう}{学校|がっこう} (high school, often abbreviated to {高校|こうこう})\n・{高等|こうとう}{教育|きょういく} (higher education)\n・{高等|こうとう}{裁判所|さいばんしょ} (high court)\n・{高等|こうとう}{動物|どうぶつ} (higher animals)\n\nOPPOSITE:\n・{初等|しょとう} (elementary, primary)\n・{中等|ちゅうとう} (intermediate, secondary)\n\nNOTE: In everyday speech, {高校|こうこう} is much more common than {高等|こうとう}{学校|がっこう}.\n\n[Register: Formal]",
+  "notes": "COMMON COMPOUNDS:\n・{高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧ (high school, often abbreviated to ⟦{高校|こうこう}→高校：01083_koukou⟧)\n・{高等|こうとう}⟦{教育|きょういく}→教育：01313_kyouiku⟧ (higher education)\n・{高等|こうとう}⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧ (high court)\n・{高等|こうとう}⟦{動物|どうぶつ}→動物：01480_doubutsu⟧ (higher animals)\n\nOPPOSITE:\n・⟦{初等|しょとう}→初等：noentry⟧ (elementary, primary)\n・⟦{中等|ちゅうとう}→中等：22279_chuutou⟧ (intermediate, secondary)\n\nNOTE: In everyday speech, ⟦{高校|こうこう}→高校：01083_koukou⟧ is much more common than {高等|こうとう}⟦{学校|がっこう}→学校：00055_gakkou⟧.\n\n[Register: Formal]",
   "metadata": {
     "created": "2026-01-13T13:58:45Z",
-    "modified": "2026-01-19T12:17:42.812449Z",
+    "modified": "2026-05-29T20:29:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +57,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "transportation"
+        "education"
       ]
     }
   }
