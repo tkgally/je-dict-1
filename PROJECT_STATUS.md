@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-30 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 28396-28420) from `candidate_words.json`, drawn from the "seen in entry" / "noentry in" internal-completeness candidates in the C20xxx-C21xxx range (words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (12)**: {古人|こじん} (people of old / sages), {二軒隣|にけんどなり} (two doors down), {農学部|のうがくぶ} (faculty of agriculture), {百年|ひゃくねん} (a hundred years), {恐|おそ}ろしさ (fearfulness, さ-derived), {可愛|かわい}らしさ (cuteness, さ-derived), {日本文化|にほんぶんか} (Japanese culture), {術語|じゅつご} (technical term), {裏表紙|うらびょうし} (back cover), {法学|ほうがく} (jurisprudence), {戸外|こがい} (outdoors, literary), {犬種|いぬしゅ} (dog breed), {出生率|しゅっせいりつ} (birth rate), {非|ひ} (fault/wrong), {著述|ちょじゅつ} (writing/authorship — also verb-suru)
+- **Expressions (4)**: うちに (while/before), につれて (as/in proportion to), ようになる (come to / become able to, 2 senses), そういうことで (well, that being the case), いらない (don't need, informal)
+- **Adjective-na (1)**: {超巨大|ちょうきょだい} (super-huge)
+- **Adjective-i (1)**: {大人|おとな}げない (childish, unbecoming of an adult)
+- **Verbs (3)**: {論|ろん}ずる (to discuss, zuru-class), {読|よ}み{比|くら}べる (read and compare), {張|は}り{替|か}える (re-cover, re-paper)
+
+Also removed 1 stale candidate (C21006 ぶり — already covered by 28358_buri). All 25 entries validate; furigana clean; conjugation tables added to verbs and i-adjective. No new kanji. Candidate list synced (1576→1550).
+
 ### 2026-05-30 (Vocabulary Expansion - 19 New Entries, "seen in entry" Batch)
 Added 19 new dictionary entries (IDs 28377-28395) from `candidate_words.json`, fully working through the "seen in entry" internal-completeness candidates in the C0xxx block (words referenced inside existing entries 02615, 03179, and 04032-04193 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
