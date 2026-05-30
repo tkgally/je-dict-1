@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04272_juken_ex1",
-      "japanese": "{来年|らいねん}、{大学|だいがく}{受験|じゅけん}をする{予定|よてい}です。",
+      "japanese": "⟦{来年|らいねん}→来年：00745_rainen⟧、⟦{大学|だいがく}→大学：00608_daigaku⟧{受験|じゅけん}⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
       "english": "I plan to take university entrance exams next year.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04272_juken_ex2",
-      "japanese": "{受験|じゅけん}{勉強|べんきょう}で{毎日|まいにち}{忙|いそが}しい。",
+      "japanese": "{受験|じゅけん}⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦で→で：00502_de⟧⟦{毎日|まいにち}→毎日：00729_mainichi⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm busy every day with exam preparation.",
       "notes": "受験勉強 = studying for entrance exams",
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04272_juken_ex3",
-      "japanese": "{彼女|かのじょ}は{三|みっ}つの{大学|だいがく}を{受験|じゅけん}して、{全部|ぜんぶ}{合格|ごうかく}した。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{三|みっ}つ→三つ：02970_mittsu⟧⟦の→の：09472_no⟧⟦{大学|だいがく}→大学：00608_daigaku⟧⟦を→を：00422_wo⟧{受験|じゅけん}して、⟦{全部|ぜんぶ}→全部：02888_zenbu⟧⟦{合格|ごうかく}した→合格：02816_goukaku⟧。",
       "english": "She took entrance exams for three universities and passed all of them.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{受験|じゅけん} is commonly used in the context of entrance examinations for schools, universities, and professional certifications. In Japan, exam-taking is a significant cultural event.\n\nCOMMON COMPOUNDS:\n- {受験|じゅけん}{生|せい}: exam student/candidate\n- {受験|じゅけん}{勉強|べんきょう}: studying for exams\n- {受験|じゅけん}{番号|ばんごう}: examinee number\n- {受験|じゅけん}{票|ひょう}: exam admission ticket\n- {受験|じゅけん}{地獄|じごく}: exam hell (the intense pressure of exam season)\n\nRELATED WORDS:\n- {試験|しけん}: exam/test (the test itself)\n- {入試|にゅうし}: entrance examination (abbreviation of {入学|にゅうがく}{試験|しけん})",
+  "notes": "{受験|じゅけん} is commonly used in the context of entrance examinations for schools, universities, and professional certifications. In Japan, exam-taking is a significant cultural event.\n\nCOMMON COMPOUNDS:\n- {受験|じゅけん}⟦{生|せい}→〜生：noentry⟧: exam student/candidate\n- {受験|じゅけん}⟦{勉強|べんきょう}→勉強：00770_benkyou⟧: studying for exams\n- {受験|じゅけん}⟦{番号|ばんごう}→番号：02939_bangou⟧: examinee number\n- {受験|じゅけん}⟦{票|ひょう}→票：03582_hyou⟧: exam admission ticket\n- {受験|じゅけん}⟦{地獄|じごく}→地獄：12053_jigoku⟧: exam hell (the intense pressure of exam season)\n\nRELATED WORDS:\n- ⟦{試験|しけん}→試験：01422_shiken⟧: exam/test (the test itself)\n- ⟦{入試|にゅうし}→入試：04705_nyuushi⟧: entrance examination (abbreviation of ⟦{入学|にゅうがく}→入学：02092_nyuugaku⟧⟦{試験|しけん}→試験：01422_shiken⟧)",
   "cross_references": [
     {
       "type": "related",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-04-08T00:49:11Z",
+    "modified": "2026-05-30T16:12:37Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -156,8 +156,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part",
-        "geography"
+        "education"
       ],
       "verb_class": "suru"
     }
