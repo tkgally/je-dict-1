@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04289_nittei_ex1",
-      "japanese": "{旅行|りょこう}の{日程|にってい}を{決|き}めましょう。",
+      "japanese": "⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦の→の：09472_no⟧{日程|にってい}⟦を→を：00422_wo⟧⟦{決|き}めましょう→決める：00858_kimeru⟧。",
       "english": "Let's decide on the travel schedule.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04289_nittei_ex2",
-      "japanese": "{日程|にってい}が{合|あ}わなくて{参加|さんか}できない。",
+      "japanese": "{日程|にってい}⟦が→が：00051_ga⟧⟦{合|あ}わなくて→合う：10466_au⟧⟦{参加|さんか}→参加：02498_sanka⟧⟦できない→できる：00557_dekiru⟧。",
       "english": "I can't participate because the schedule doesn't work for me.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04289_nittei_ex3",
-      "japanese": "{会議|かいぎ}の{日程|にってい}{調整|ちょうせい}をお{願|ねが}いします。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{日程|にってい}⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦を→を：00422_wo⟧⟦お{願|ねが}いします→願う：02387_negau⟧。",
       "english": "Please help coordinate the meeting schedule.",
       "notes": "Business context",
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {日程|にってい} refers to schedules organized by days/dates, commonly used for trips, meetings, and events.\n\nCOMMON PATTERNS:\n- {日程|にってい}を{決|き}める (to set a schedule)\n- {日程|にってい}を{調整|ちょうせい}する (to coordinate schedules)\n- {日程|にってい}が{合|あ}う (schedules match)\n- {日程|にってい}{通|どお}り (according to schedule)\n\nCOMMON COMPOUNDS:\n- {日程|にってい}{表|ひょう} (schedule chart, timetable)\n- {日程|にってい}{調整|ちょうせい} (schedule coordination)\n- {旅行|りょこう}{日程|にってい} (travel itinerary)\n\nSIMILAR WORDS:\n- スケジュール - schedule (loanword, more casual)\n- {予定|よてい} - plan, arrangement (broader)\n- {行程|こうてい} - itinerary, route",
+  "notes": "USAGE: {日程|にってい} refers to schedules organized by days/dates, commonly used for trips, meetings, and events.\n\nCOMMON PATTERNS:\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{決|き}める→決める：00858_kimeru⟧ (to set a schedule)\n- {日程|にってい}⟦を→を：00422_wo⟧⟦{調整|ちょうせい}→調整：14839_chousei⟧⟦する→する：00392_suru⟧ (to coordinate schedules)\n- {日程|にってい}⟦が→が：00051_ga⟧⟦{合|あ}う→合う：10466_au⟧ (schedules match)\n- {日程|にってい}⟦{通|どお}り→通り：09884_doori⟧ (according to schedule)\n\nCOMMON COMPOUNDS:\n- {日程|にってい}⟦{表|ひょう}→表：19354_hyou⟧ (schedule chart, timetable)\n- {日程|にってい}⟦{調整|ちょうせい}→調整：14839_chousei⟧ (schedule coordination)\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧{日程|にってい} (travel itinerary)\n\nSIMILAR WORDS:\n- ⟦スケジュール→スケジュール：03850_sukejuuru⟧ - schedule (loanword, more casual)\n- ⟦{予定|よてい}→予定：00824_yotei⟧ - plan, arrangement (broader)\n- ⟦{行程|こうてい}→行程：19186_koutei⟧ - itinerary, route",
   "cross_references": [
     {
       "type": "synonym",
@@ -55,17 +55,16 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-04-08T00:49:11Z",
+    "modified": "2026-05-30T19:09:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "informal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics",
         "time-general"
       ]
     }
