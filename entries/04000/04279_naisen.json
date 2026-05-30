@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "04279_naisen_ex1",
-      "japanese": "{内線|ないせん}{番号|ばんごう}は{何番|なんばん}ですか。",
+      "japanese": "{内線|ないせん}⟦{番号|ばんごう}→番号：02939_bangou⟧⟦は→は：00079_ha⟧⟦{何番|なんばん}→何番：09490_nanban⟧⟦ですか→です：09485_desu⟧。",
       "english": "What is your extension number?",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "04279_naisen_ex2",
-      "japanese": "{内線|ないせん}で{担当者|たんとうしゃ}に{繋|つな}ぎます。",
+      "japanese": "{内線|ないせん}⟦で→で：00502_de⟧⟦{担当者|たんとうしゃ}→担当者：09676_tantousha⟧⟦に→に：00314_ni⟧⟦{繋|つな}ぎます→繋ぐ：01962_tsunagu⟧。",
       "english": "I'll connect you to the person in charge via the internal line.",
       "notes": "Business context",
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "04279_naisen_ex3",
-      "japanese": "{内線|ないせん}1234{番|ばん}にかけてください。",
+      "japanese": "{内線|ないせん}1234⟦{番|ばん}→番：09873_ban⟧⟦に→に：00314_ni⟧⟦かけてください→かける：00854_kakeru⟧。",
       "english": "Please call extension 1234.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "04279_naisen_ex4",
-      "japanese": "その{国|くに}は{長|なが}い{内線|ないせん}に{苦|くる}しんだ。",
+      "japanese": "⟦その→その：00993_sono⟧⟦{国|くに}→国：02204_kuni⟧⟦は→は：00079_ha⟧⟦{長|なが}い→長い：00491_nagai⟧{内線|ないせん}⟦に→に：00314_ni⟧⟦{苦|くる}しんだ→苦しむ：01938_kurushimu⟧。",
       "english": "That country suffered through a long civil war.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04279_naisen_ex5",
-      "japanese": "{内線|ないせん}が{終|お}わった{後|あと}、{国|くに}の{復興|ふっこう}が{始|はじ}まった。",
+      "japanese": "{内線|ないせん}⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧⟦{後|あと}→後：09580_ato⟧、⟦{国|くに}→国：02204_kuni⟧⟦の→の：09472_no⟧⟦{復興|ふっこう}→復興：07590_fukkou⟧⟦が→が：00051_ga⟧⟦{始|はじ}まった→始まる：00841_hajimaru⟧。",
       "english": "After the civil war ended, the country's reconstruction began.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "04279_naisen_ex6",
-      "japanese": "{内線|ないせん}により{多|おお}くの{人々|ひとびと}が{国外|こくがい}に{逃|に}げた。",
+      "japanese": "{内線|ないせん}⟦により→により：noentry⟧⟦{多|おお}く→多く：18752_ooku⟧⟦の→の：09472_no⟧⟦{人々|ひとびと}→人々：03141_hitobito⟧⟦が→が：00051_ga⟧⟦{国外|こくがい}→国外：20936_kokugai⟧⟦に→に：00314_ni⟧⟦{逃|に}げた→逃げる：01151_nigeru⟧。",
       "english": "Many people fled the country due to the civil war.",
       "notes": null,
       "has_audio": false,
@@ -78,8 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {内線|ないせん} most commonly refers to telephone extensions in offices and organizations. The second meaning (civil war) is used in historical and political contexts.\n\nCOMMON PATTERNS:\n- {内線|ないせん}{番号|ばんごう} (extension number)\n- {内線|ないせん}で{電話|でんわ}する (to call on the internal line)\n- {内線|ないせん}XXXX{番|ばん} (extension number XXXX)\n\nCONTRAST:\n- {内線|ないせん} - internal line (within organization)\n- {外線|がいせん} - external line (outside calls)",
-  "cross_references": [],
+  "notes": "USAGE: {内線|ないせん} most commonly refers to telephone extensions in offices and organizations. The second meaning (civil war) is used in historical and political contexts.\n\nCOMMON PATTERNS:\n- {内線|ないせん}⟦{番号|ばんごう}→番号：02939_bangou⟧ (extension number)\n- {内線|ないせん}⟦で→で：00502_de⟧⟦{電話|でんわ}→電話：01471_denwa⟧⟦する→する：00392_suru⟧ (to call on the internal line)\n- {内線|ないせん}XXXX⟦{番|ばん}→番：09873_ban⟧ (extension number XXXX)\n\nCONTRAST:\n- {内線|ないせん} - internal line (within organization)\n- ⟦{外線|がいせん}→外線：15004_gaisen⟧ - external line (outside calls)",
   "cross_references": [
     {
       "type": "antonym",
@@ -98,7 +97,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-04-11T00:58:17Z",
+    "modified": "2026-05-30T16:12:37Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -108,7 +107,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "emotion"
+        "communication"
       ]
     }
   }
