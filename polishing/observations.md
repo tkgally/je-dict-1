@@ -26,3 +26,13 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-05-29 session 009 have been harvested by the wiki maintenance session of 2026-05-30.)_
+
+---
+
+## 2026-05-30 session 001 (04205–04222)
+
+[pattern] Several entries in this range had incorrect semantic domain tags: "electronics" used for 申請 (administration context), "body-part" for 診断 (medical context), "education" for 実績 (general business). Worth checking nearby entries for similar mismatches.
+
+[pattern] Compound verbs 取り出す/取り入れる/取り除く (04220-04222) follow a consistent note structure: "formed from 取る + X". These patterns make inline linking straightforward but need careful handling of self-reference (entire compound = headword, including conjugated forms).
+
+[wiki] 挙げる (27889) is distinct from 上げる (02443) — separate entries with different meanings (to cite/name vs. to raise/give). Worth documenting in wiki to avoid future confusion during linking.
