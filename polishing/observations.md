@@ -52,3 +52,9 @@ _(All observations through 2026-05-29 session 009 have been harvested by the wik
 [entry] 04312 発電: semantic tags include "geography" and "time-general" which appear incorrect for a power-generation entry. Should be "action" or similar neutral tag.
 
 [entry] 04316 鮫: semantic tag is "general" but neighboring entries 04319 烏賊 and 04323 蛸 use "animal-fish". Consider updating 04316 to "animal-fish" for consistency.
+
+## 2026-05-30 session 006 (04327–04349)
+
+[pattern] Range 04327–04349: several entries had clearly wrong semantic tags assigned by the AI model. Fixed: 04327 反映 ("body-part"→"action"), 04336 売買 ("leisure"→"business"), 04338 政党 ("education","leisure"→"politics"), 04342 引算 ("leisure"→"education"). Pattern continues: model tags based on example content rather than word's semantic domain.
+
+[entry] 04347 鹿 ex2: unusual furigana {あげ|あげ}た — already hiragana text with hiragana reading, redundant. Likely should be {上|あ}げた. Should be corrected in a future polish pass.
