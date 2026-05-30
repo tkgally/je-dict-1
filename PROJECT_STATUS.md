@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-30 (Vocabulary Expansion - 19 New Entries, "seen in entry" Batch)
+Added 19 new dictionary entries (IDs 28377-28395) from `candidate_words.json`, fully working through the "seen in entry" internal-completeness candidates in the C0xxx block (words referenced inside existing entries 02615, 03179, and 04032-04193 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (17)**: {数十億円|すうじゅうおくえん} (several billion yen), {安定所|あんていじょ} (employment office / Hello Work), {死骸|しがい} (carcass), {整備士|せいびし} (licensed mechanic), {日本舞踊|にほんぶよう} (traditional Japanese dance), {数種類|すうしゅるい} (several kinds), {町中|まちじゅう} (throughout the town — contrasted with まちなか), {今月末|こんげつまつ} (end of this month), {惨事|さんじ} (catastrophe), カメラマン (photographer/cameraman, wasei-eigo), {感染者|かんせんしゃ} (infected person), {木工芸|もっこうげい} (woodcraft), {国有|こくゆう} (state-owned, noun + adjective-no), {角材|かくざい} (square lumber), {材木商|ざいもくしょう} (lumber merchant), {浅草|あさくさ} (Asakusa), {上野|うえの} (Ueno), {両国|りょうごく} (Ryōgoku)
+- **Verb-godan (1)**: {降|ふ}りかかる (to fall onto / to befall — two senses, intransitive)
+
+All 19 entries validate; furigana clean (one missing furigana on a section header in 28392 fixed pre-build); conjugation table added to {降|ふ}りかかる. No new kanji. Candidate list synced (1595→1576).
+
 ### 2026-05-29 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28355-28376) from `candidate_words.json`, drawn primarily from the "seen in entry" internal-completeness candidates in the C20xxx-C21xxx range. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
 
