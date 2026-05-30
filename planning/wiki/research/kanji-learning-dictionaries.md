@@ -1,6 +1,6 @@
 # Kanji Learning and Dictionary Treatment
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-30
 
 ## Overview
 
@@ -208,3 +208,4 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — Nelson, Halpern, and the kanji dictionary tradition
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — how L1 writing system (logographic vs. alphabetic) shapes kanji learning strategies
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — Japanese-specific lookup skill challenges including form determination and script selection
+- [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — MT bypasses the kanji lookup barrier for decoding, but furigana-rich dictionaries teach readings that MT hides

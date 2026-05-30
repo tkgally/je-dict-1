@@ -1,6 +1,6 @@
 # Vocabulary Learning Strategies
 
-**Last updated**: 2026-05-28
+**Last updated**: 2026-05-30
 
 ## Overview
 
@@ -247,6 +247,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — Incidental and intentional learning as complementary strategies, and the ILH framework
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — How dictionaries support the production side of vocabulary knowledge
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — chunking as a learning mechanism, formulaic sequences as fluency building blocks, and the rote-to-rule developmental path
+- [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — how MT changes learner strategy choices and when dictionary consultation remains the more effective strategy
 
 ## References
 

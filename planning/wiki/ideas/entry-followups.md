@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-28
+**Last updated**: 2026-05-30
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 

@@ -1,6 +1,6 @@
 # The Bilingual vs. Monolingual Dictionary Debate
 
-**Last updated**: 2026-05-23
+**Last updated**: 2026-05-30
 
 ## Overview
 
@@ -238,3 +238,4 @@ This makes je-dict-1 effectively a bilingualized dictionary viewed from the lear
 - [Digital Dictionary UX](digital-dictionary-ux.md) — how digital formats blur the bilingual/monolingual boundary
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — dictionary consultation as a strategy, and how dictionary type affects strategy choice
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — how dictionary type affects production outcomes (Laufer's "Bilingual Dictionary Plus")
+- [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — MT as a third option alongside bilingual and monolingual dictionaries, and je-dict-1's hybrid position

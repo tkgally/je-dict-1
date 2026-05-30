@@ -1,6 +1,6 @@
 # Dictionary Lookup Behavior
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-05-30
 
 ## Overview
 
@@ -157,3 +157,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — teachable skills, training effectiveness, and compensatory dictionary design
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how dictionary type affects lookup behavior and outcomes
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — production-oriented lookup as distinct from decoding lookup
+- [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — how MT is replacing dictionary consultation for decoding and what lookup behaviors remain dictionary-dependent
