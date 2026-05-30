@@ -44,3 +44,7 @@ All 18 entries received full inline ⟦...⟧ link coverage on examples and note
 [pattern] Several entries (04288_chou, 04297_katatsumuri, 04289_nittei) had incorrect `domain` tags applied to the main entry when the domain label belonged only to a variant or related word. Watch for incorrect domain propagation from variant-word notes to main entry tags.
 
 [pattern] Entry 04293_suitei had `"semantic": ["furniture"]` — a clearly erroneous tag, likely a template copy-paste error. Worth a systematic audit of entries with unusual/mismatched semantic tags.
+
+## CI Note
+
+`pipeline/wait-for-pr-checks.sh 2528 30` timed out after 600s with no check runs ever appearing (exit 4). PR #2528 left open for curator review and manual merge.

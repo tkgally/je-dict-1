@@ -44,3 +44,7 @@ _(All observations through 2026-05-29 session 009 have been harvested by the wik
 [entry] 04239 切り替える: furigana error {会社|がいしゃ} in ex5 — should be {会社|かいしゃ}. Corrected.
 
 [entry] 04238 切り取る: スクリーンショット appears in ex9 as noentry — added to candidates.
+
+[entry] 04299_suitou notes: `⟦{水|すい}→水：02258_mizu⟧` links on'yomi すい to みず entry — misleading for learners; should be plain furigana `{水|すい}` with no link. Fix next session.
+
+[entry] 04288_chou notes: second `蝶々` lost furigana ちょうちょ when first instance was linked; should be `{蝶々|ちょうちょ}` (noentry). Fix next session.
