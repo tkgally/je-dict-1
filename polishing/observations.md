@@ -46,3 +46,9 @@ _(All observations through 2026-05-29 session 009 have been harvested by the wik
 [entry] 04238 切り取る: スクリーンショット appears in ex9 as noentry — added to candidates.
 
 [pattern] Range 04282–04306: several entries had wrong semantic tags attached. Common errors: "electronics" on transport/work entries, "building" on 乗換 (should be transportation), "clothing" on 歯車 (should be general), "movement" on 蛙 (should be animal-insect), "furniture" on 推定 (should be general), "leisure" on 水産 (should be nature-environment). Pattern: AI model assigns tags based on example topics rather than the headword's semantic domain.
+
+## 2026-05-30 session 005 (04307–04326)
+
+[entry] 04312 発電: semantic tags include "geography" and "time-general" which appear incorrect for a power-generation entry. Should be "action" or similar neutral tag.
+
+[entry] 04316 鮫: semantic tag is "general" but neighboring entries 04319 烏賊 and 04323 蛸 use "animal-fish". Consider updating 04316 to "animal-fish" for consistency.
