@@ -36,3 +36,11 @@ _(All observations through 2026-05-29 session 009 have been harvested by the wik
 [pattern] Compound verbs 取り出す/取り入れる/取り除く (04220-04222) follow a consistent note structure: "formed from 取る + X". These patterns make inline linking straightforward but need careful handling of self-reference (entire compound = headword, including conjugated forms).
 
 [wiki] 挙げる (27889) is distinct from 上げる (02443) — separate entries with different meanings (to cite/name vs. to raise/give). Worth documenting in wiki to avoid future confusion during linking.
+
+## 2026-05-30 session 002 (04223–04243)
+
+[pattern] Multiple entries in range 04223–04243 had overly narrow semantic tags: "electronics" (切り替える, should be "action"), "communication" (振り向く, 見送る, should be "action"), "food"/"tool" (振る舞う). The "electronics" tag seems applied when an entry has digital/device examples but the verb itself is neutral.
+
+[entry] 04239 切り替える: furigana error {会社|がいしゃ} in ex5 — should be {会社|かいしゃ}. Corrected.
+
+[entry] 04238 切り取る: スクリーンショット appears in ex9 as noentry — added to candidates.
