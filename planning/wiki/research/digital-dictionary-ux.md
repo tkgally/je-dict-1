@@ -1,6 +1,6 @@
 # Digital Dictionary UX
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-05-31
 
 ## How users actually use online dictionaries
 
@@ -137,3 +137,4 @@ Audio files were removed in early 2026. Future TTS-based audio (see [Audio Cover
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — evolving skills from print to digital, and design that compensates for skill deficits
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — browsing-oriented design as a form of desirable difficulty that supports spaced re-encounters
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — the shifting role of dictionaries when MT handles basic decoding, and UX implications
+- [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — layered information presentation, progressive disclosure, and how digital-era transformations reshape entry structure

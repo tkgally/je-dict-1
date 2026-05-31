@@ -1,6 +1,6 @@
 # Polysemy and Sense Discrimination
 
-**Last updated**: 2026-05-02
+**Last updated**: 2026-05-31
 
 ## Overview
 
@@ -165,3 +165,4 @@ This is a significant gap for highly polysemous entries. Adding sense-number lin
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている as a case study in constructional polysemy driven by lexical aspect
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — sense selection as the most common dictionary-use failure point
 - [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — literal-to-figurative sense extension and metaphorical polysemy
+- [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — sense ordering principles, navigation devices, and entry-internal organization
