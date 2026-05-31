@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04355_seireki_ex1",
-      "japanese": "{西暦|せいれき}で{書|か}いてください。",
+      "japanese": "{西暦|せいれき}⟦で→で：00502_de⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please write it in the Western calendar.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04355_seireki_ex2",
-      "japanese": "{西暦|せいれき}2024{年|ねん}は{令和|れいわ}6{年|ねん}です。",
+      "japanese": "{西暦|せいれき}2024⟦{年|ねん}→年：09876_nen⟧⟦は→は：00079_ha⟧⟦{令和|れいわ}→令和：11181_reiwa⟧6⟦{年|ねん}→年：09876_nen⟧⟦です→です：09485_desu⟧。",
       "english": "The year 2024 (Western calendar) is Reiwa 6.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04355_seireki_ex3",
-      "japanese": "{西暦|せいれき}と{和暦|われき}、どちらで{書|か}けばいいですか。",
+      "japanese": "{西暦|せいれき}⟦と→と：00512_to⟧⟦{和暦|われき}→和暦：noentry⟧、⟦どちら→どちら：00927_dochira⟧⟦で→で：00502_de⟧⟦{書|か}けば→書く：00477_kaku⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Should I write it in the Western calendar or Japanese era?",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04355_seireki_ex4",
-      "japanese": "{書類|しょるい}には{西暦|せいれき}で{日付|ひづけ}を{書|か}いてください。",
+      "japanese": "⟦{書類|しょるい}→書類：01103_shorui⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧{西暦|せいれき}⟦で→で：00502_de⟧⟦{日付|ひづけ}→日付：03706_hizuke⟧⟦を→を：00422_wo⟧⟦{書|か}いて→書く：00477_kaku⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please write the date using the Western calendar on the documents.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04355_seireki_ex5",
-      "japanese": "{国際的|こくさいてき}なやりとりでは{西暦|せいれき}を{使|つか}うのが{一般的|いっぱんてき}だ。",
+      "japanese": "⟦{国際的|こくさいてき}→国際的：06457_kokusaiteki⟧⟦な→な：09497_na⟧⟦やりとり→やり取り：07702_yaritori⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧{西暦|せいれき}⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{一般的|いっぱんてき}→一般的：04784_ippanteki⟧⟦だ→だ：09496_da⟧。",
       "english": "In international exchanges, using the Western calendar is standard.",
       "notes": null,
       "has_audio": false,
@@ -63,18 +63,11 @@
       ]
     }
   ],
-  "notes": "Japan uses two calendar systems: {西暦|せいれき} (Western/Gregorian calendar) and {和暦|われき} (Japanese era calendar based on imperial reigns).\n\nCALENDAR SYSTEMS IN JAPAN:\n- {西暦|せいれき}: Western calendar (2024, 2025, etc.)\n- {和暦|われき}: Japanese era calendar ({令和|れいわ}, {平成|へいせい}, {昭和|しょうわ}, etc.)\n\nUSAGE:\n- International contexts, business, younger generations often prefer {西暦|せいれき}\n- Government documents, traditional contexts often use {和暦|われき}\n- Many forms accept either\n\nABBREVIATIONS:\n- A.D. / C.E. correspond to {西暦|せいれき} (though B.C./B.C.E. would be {紀元前|きげんぜん})",
-  "cross_references": [
-    {
-      "type": "contrast",
-      "reading": "われき",
-      "headword": "{和暦|われき}",
-      "label": "Japanese era calendar"
-    }
-  ],
+  "notes": "Japan uses two calendar systems: {西暦|せいれき} (Western/Gregorian calendar) and ⟦{和暦|われき}→和暦：noentry⟧ (Japanese era calendar based on imperial reigns).\n\nCALENDAR SYSTEMS IN JAPAN:\n- {西暦|せいれき}: Western calendar (2024, 2025, etc.)\n- ⟦{和暦|われき}→和暦：noentry⟧: Japanese era calendar (⟦{令和|れいわ}→令和：11181_reiwa⟧, ⟦{平成|へいせい}→平成：11180_heisei⟧, ⟦{昭和|しょうわ}→昭和：28079_shouwa⟧, etc.)\n\nUSAGE:\n- International contexts, business, younger generations often prefer {西暦|せいれき}\n- Government documents, traditional contexts often use ⟦{和暦|われき}→和暦：noentry⟧\n- Many forms accept either\n\nABBREVIATIONS:\n- A.D. / C.E. correspond to {西暦|せいれき} (though B.C./B.C.E. would be ⟦{紀元前|きげんぜん}→紀元前：13831_kigenzen⟧)",
+  "cross_references": [],
   "metadata": {
     "created": "2026-01-13T22:31:30Z",
-    "modified": "2026-04-03T11:29:47Z",
+    "modified": "2026-05-31T13:06:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
