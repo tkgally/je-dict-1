@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "04514_dassen_ex1",
-      "japanese": "{電車|でんしゃ}が{脱線|だっせん}した。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧{脱線|だっせん}した。",
       "english": "The train derailed.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "04514_dassen_ex2",
-      "japanese": "{話|はなし}が{脱線|だっせん}してしまった。",
+      "japanese": "⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{脱線|だっせん}⟦してしまった→〜てしまう：03102_teshimau⟧。",
       "english": "The conversation went off topic.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "04514_dassen_ex3",
-      "japanese": "{脱線|だっせん}{事故|じこ}で{遅延|ちえん}が{発生|はっせい}した。",
+      "japanese": "{脱線|だっせん}⟦{事故|じこ}→事故：00851_jiko⟧⟦で→で：00502_de⟧⟦{遅延|ちえん}→遅延：06749_chien⟧⟦が→が：00051_ga⟧⟦{発生|はっせい}した→発生する：25529_hasseisuru⟧。",
       "english": "A derailment accident caused delays.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "04514_dassen_ex4",
-      "japanese": "すみません、{話|はなし}が{脱線|だっせん}しましたが、{本題|ほんだい}に{戻|もど}りましょう。",
+      "japanese": "⟦すみません→すみません：00998_sumimasen⟧、⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{脱線|だっせん}⟦しました→する：00392_suru⟧が、⟦{本題|ほんだい}→本題：12877_hondai⟧⟦に→に：00314_ni⟧⟦{戻|もど}りましょう→戻る：01117_modoru⟧。",
       "english": "Sorry, I got off topic, but let's get back to the main subject.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "04514_dassen_ex5",
-      "japanese": "{先生|せんせい}の{授業|じゅぎょう}はよく{脱線|だっせん}するが、その{話|はなし}が{面白|おもしろ}い。",
+      "japanese": "⟦{先生|せんせい}→先生：00609_sensei⟧⟦の→の：09472_no⟧⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧{脱線|だっせん}するが、⟦その→その：00993_sono⟧⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧⟦{面白|おもしろ}い→面白い：00589_omoshiroi⟧。",
       "english": "The teacher often goes off topic in class, but those digressions are interesting.",
       "notes": null,
       "has_audio": false,
@@ -68,7 +68,7 @@
       ]
     }
   ],
-  "notes": "{脱線|だっせん} has both literal (train derailment) and figurative (going off topic) meanings.\n\nCOMMON EXPRESSIONS:\n- {脱線|だっせん}する: to derail, to go off topic\n- {脱線|だっせん}{事故|じこ}: derailment accident\n- {話|はなし}が{脱線|だっせん}する: the conversation goes off topic\n\nUSAGE NOTE:\nThe figurative use is very common in casual conversation when someone strays from the main topic.\n\n[Register: Neutral]",
+  "notes": "{脱線|だっせん} has both literal (train derailment) and figurative (going off topic) meanings.\n\nCOMMON EXPRESSIONS:\n- {脱線|だっせん}⟦する→する：00392_suru⟧: to derail, to go off topic\n- {脱線|だっせん}⟦{事故|じこ}→事故：00851_jiko⟧: derailment accident\n- ⟦{話|はなし}→話：01496_hanashi⟧⟦が→が：00051_ga⟧{脱線|だっせん}⟦する→する：00392_suru⟧: the conversation goes off topic\n\nUSAGE NOTE:\nThe figurative use is very common in casual conversation when someone strays from the main topic.\n\n[Register: Neutral]",
   "cross_references": [
     {
       "type": "related",
@@ -80,7 +80,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-04-19T06:26:07Z",
+    "modified": "2026-05-31T21:07:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -90,7 +90,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "time-general"
+        "transportation"
       ]
     }
   }
