@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-31 (Vocabulary Expansion - 19 New Entries, "seen in entry" Batch)
+Added 19 new dictionary entries (IDs 28466-28484) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2064x–C2131x range. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
+
+- **Suffixes (7)**: 〜{系|けい} (lineage/-type/-style), 〜{書|しょ} (document/written record), 〜{展|てん} (exhibition), 〜{間|かん} (duration of), 〜{引|び}き (off/discount of), 〜{史|し} (history of), 〜{編|へん} (volume/section)
+- **Nouns (8)**: {平屋|ひらや}{建|だ}て (single-story house), {五階建|ごかいだ}て (five-story building), {十|じゅう}{人|にん} (ten people), {三猿|さんざる} (the three wise monkeys), {縁|へり} (edge/border/trim), {土地代|とちだい} (land price), {三文|さんもん} (three mon / a pittance), {致傷|ちしょう} (causing injury — legal)
+- **Expression (1)**: じゃない (informal negative copula; tag question, 2 senses)
+- **Verbs (2)**: {交|ま}ざる (intransitive godan, kanji variant of 02420 混ざる for mingling), {交|ま}ぜる (transitive ichidan, kanji variant of 02423 混ぜる)
+- **Noun (1 katakana)**: オール (oar; all — 2 senses)
+
+Also removed 5 stale candidates that already exist as entries (C20937 化→28335, C21039 年目→28359, C21176 純→28361, C21005 とお→28376, C20646 矢理 fragment). All 19 entries validate; furigana clean (one fix on 28482 致傷 notes pre-build); conjugation tables added to {交|ま}ざる and {交|ま}ぜる. No new kanji. Candidate list synced.
+
 ### 2026-05-31 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
 Added 23 new dictionary entries (IDs 28443-28465) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C2068x-C2131x range (words referenced inside existing entries 01763, 01767, 02000, 02216, 02220, 02228, 02594, 03716, 04066, 04209, 04210, 04215, 04227, 04229 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
