@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-27
+**Last updated**: 2026-05-31
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-05-31 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28421-28442) from `candidate_words.json`, drawing primarily from the "seen in entry" internal-completeness candidates in the C21309–C21325 range plus a handful of recent unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (15)**: {多|おお}め (a bit more, also adjective-na), {恥|は}ずかしさ (embarrassment, さ-derived), ツボ (pressure point / key point, two senses), ハイヒール (high heels), {歩|ある}き{方|かた} (way of walking), {噛|か}み{合|あ}わせ (bite / gear meshing, two senses), {上巻|じょうかん} (first volume), {下巻|げかん} (second volume), {皮革|ひかく} (leather, formal), {参列者|さんれつしゃ} (ceremony attendee), スクリーンショット (screenshot), {出没|しゅつぼつ} (sudden appearances — also verb-suru), {卑怯者|ひきょうもの} (coward), {飲食物|いんしょくぶつ} (food and drink), {大部屋|おおべや} (large/shared room), {砂鉄|さてつ} (iron sand)
+- **Verbs (6)**: {歪|ゆが}める (to distort, transitive ichidan), ひび{割|わ}れる (to crack, intransitive ichidan), {擦|こす}れる (to chafe/be worn, intransitive ichidan), ひそめる (to furrow brows, transitive ichidan), {描|か}く (to draw, transitive godan — colloquial reading of 描く, distinct from 02013 えがく), {波立|なみだ}つ (to ripple / be disturbed, intransitive godan, two senses)
+
+All 22 entries validate; furigana clean (one missing furigana on 顰 in 28429 fixed pre-build); conjugation tables added to all 6 verbs. No new kanji. Candidate list synced (1581→1560).
 
 ### 2026-05-30 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 28396-28420) from `candidate_words.json`, drawn from the "seen in entry" / "noentry in" internal-completeness candidates in the C20xxx-C21xxx range (words already referenced inside existing entries but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
