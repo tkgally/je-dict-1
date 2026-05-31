@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-05-31 (Vocabulary Expansion - 23 New Entries, "seen in entry" Batch)
+Added 23 new dictionary entries (IDs 28443-28465) from `candidate_words.json`, drawn from the "seen in entry" internal-completeness candidates in the C2068x-C2131x range (words referenced inside existing entries 01763, 01767, 02000, 02216, 02220, 02228, 02594, 03716, 04066, 04209, 04210, 04215, 04227, 04229 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (22)**: {杭|くい} (stake/pile/post), ゴルフボール (golf ball), {弁当屋|べんとうや} (bento shop), レプリカ (replica), {診断書|しんだんしょ} (medical certificate), {縁者|えんじゃ} (relatives/connections), {新案|しんあん} (new idea / utility model), {複文|ふくぶん} (complex sentence — grammar), {主文|しゅぶん} (main clause; operative part of ruling — 2 senses), {再販制度|さいはんせいど} (resale price maintenance system), {青竹|あおだけ} (green bamboo), {竹|たけ}ざお (bamboo pole), {日本製|にほんせい} (made in Japan), {中国製|ちゅうごくせい} (made in China), {金属製|きんぞくせい} (made of metal), {中央|ちゅうおう}アジア (Central Asia), {三倍|さんばい} (triple/threefold), {五日|いつか} (5th of month / five days — 2 senses), {西洋式|せいようしき} (Western-style), {日本式|にほんしき} (Japanese-style), {威|い} (authority/prestige — literary), {天|てん} (heaven/sky / Heaven as fate — 2 senses), {竹取|たけとり} (bamboo cutter)
+
+Also removed 1 stale candidate (C21316 ひびわれる — kana variant of existing 28425 ひび{割|わ}れる). All 23 entries validate; furigana clean (four entries had missing furigana in notes — 28448 親戚/身内, 28453 竹, 28454 売り, 28460 何時 — fixed pre-build). No verbs/i-adjectives. One new kanji ({杭|くい}, ID 02761) assigned readings (kou/kui) and gloss (stake) and indexed. Candidate list synced.
+
 ### 2026-05-31 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28421-28442) from `candidate_words.json`, drawing primarily from the "seen in entry" internal-completeness candidates in the C21309–C21325 range plus a handful of recent unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
