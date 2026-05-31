@@ -109,7 +109,7 @@
   "examples": [
     {
       "id": "04399_nameru_ex1",
-      "japanese": "{犬|いぬ}が{顔|かお}を{舐|な}めた。",
+      "japanese": "⟦{犬|いぬ}→犬：00632_inu⟧⟦が→が：00051_ga⟧⟦{顔|かお}→顔：00558_kao⟧⟦を→を：00422_wo⟧{舐|な}めた。",
       "english": "The dog licked my face.",
       "notes": null,
       "has_audio": false,
@@ -119,7 +119,7 @@
     },
     {
       "id": "04399_nameru_ex2",
-      "japanese": "{飴|あめ}を{舐|な}めている。",
+      "japanese": "⟦{飴|あめ}→飴：00687_ame⟧⟦を→を：00422_wo⟧{舐|な}めている。",
       "english": "I'm sucking on a candy.",
       "notes": null,
       "has_audio": false,
@@ -129,7 +129,7 @@
     },
     {
       "id": "04399_nameru_ex3",
-      "japanese": "{俺|おれ}を{舐|な}めるな！",
+      "japanese": "⟦{俺|おれ}→俺：02185_ore⟧⟦を→を：00422_wo⟧{舐|な}めるな！",
       "english": "Don't underestimate me!",
       "notes": null,
       "has_audio": false,
@@ -139,7 +139,7 @@
     },
     {
       "id": "04399_nameru_ex4",
-      "japanese": "{猫|ねこ}が{傷口|きずぐち}を{舐|な}めている。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧⟦{傷口|きずぐち}→傷口：09517_kizuguchi⟧⟦を→を：00422_wo⟧{舐|な}めている。",
       "english": "The cat is licking its wound.",
       "notes": null,
       "has_audio": false,
@@ -149,7 +149,7 @@
     },
     {
       "id": "04399_nameru_ex5",
-      "japanese": "{試験|しけん}を{舐|な}めていたら{落|お}ちた。",
+      "japanese": "⟦{試験|しけん}→試験：01422_shiken⟧⟦を→を：00422_wo⟧{舐|な}めていたら⟦{落|お}ちた→落ちる：01242_ochiru⟧。",
       "english": "I failed the exam because I didn't take it seriously.",
       "notes": null,
       "has_audio": false,
@@ -159,7 +159,7 @@
     },
     {
       "id": "04399_nameru_ex6",
-      "japanese": "{相手|あいて}を{舐|な}めてかかると{痛|いた}い{目|め}にあう。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦を→を：00422_wo⟧{舐|な}めて⟦かかる→かかる：noentry⟧⟦と→と：00512_to⟧⟦{痛|いた}い→痛い：01108_itai⟧⟦{目|め}→目：00525_me⟧⟦に→に：00314_ni⟧⟦あう→合う：10466_au⟧。",
       "english": "If you underestimate your opponent, you'll pay for it.",
       "notes": null,
       "has_audio": false,
@@ -168,11 +168,11 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{舐|な}める (to lick X).\n\nASPECT: ている indicates ongoing action. {舐|な}めている = 'is licking.'\n\nCOMMON PATTERNS:\n- Xを{舐|な}める (to lick X)\n- {飴|あめ}を{舐|な}める (to suck on candy)\n- {傷|きず}を{舐|な}める (to lick a wound)\n- {人|ひと}を{舐|な}める (to look down on someone)\n\nCOLLOQUIAL USAGE (Sense 2):\n- {舐|な}めるな！ (Don't underestimate me!)\n- {舐|な}めてる (underestimating, not taking seriously)\n- {舐|な}められている (being looked down on)\n\nNOTE: The 'underestimate' meaning is very colloquial and often used in confrontational contexts.",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{舐|な}める (to lick X).\n\nASPECT: ている indicates ongoing action. {舐|な}めている = 'is licking.'\n\nCOMMON PATTERNS:\n- X⟦を→を：00422_wo⟧{舐|な}める (to lick X)\n- ⟦{飴|あめ}→飴：00687_ame⟧⟦を→を：00422_wo⟧{舐|な}める (to suck on candy)\n- ⟦{傷|きず}→傷：02201_kizu⟧⟦を→を：00422_wo⟧{舐|な}める (to lick a wound)\n- ⟦{人|ひと}→人：00476_hito⟧⟦を→を：00422_wo⟧{舐|な}める (to look down on someone)\n\nCOLLOQUIAL USAGE (Sense 2):\n- {舐|な}めるな！ (Don't underestimate me!)\n- {舐|な}めてる (underestimating, not taking seriously)\n- {舐|な}められている (being looked down on)\n\nNOTE: The 'underestimate' meaning is very colloquial and often used in confrontational contexts.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-31T15:08:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -186,7 +186,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "furniture"
+        "action"
       ],
       "verb_class": "ichidan"
     }

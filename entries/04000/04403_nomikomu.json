@@ -114,7 +114,7 @@
   "examples": [
     {
       "id": "04403_nomikomu_ex1",
-      "japanese": "{薬|くすり}を{水|みず}で{飲|の}み{込|こ}む。",
+      "japanese": "⟦{薬|くすり}→薬：00793_kusuri⟧⟦を→を：00422_wo⟧⟦{水|みず}→水：02258_mizu⟧⟦で→で：00502_de⟧{飲|の}み{込|こ}む。",
       "english": "Swallow the medicine with water.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04403_nomikomu_ex2",
-      "japanese": "{状況|じょうきょう}を{飲|の}み{込|こ}むのに{時間|じかん}がかかった。",
+      "japanese": "⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}む⟦のに→のに：10529_noni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took time to grasp the situation.",
       "notes": null,
       "has_audio": false,
@@ -134,7 +134,7 @@
     },
     {
       "id": "04403_nomikomu_ex3",
-      "japanese": "{言葉|ことば}を{飲|の}み{込|こ}んだ。",
+      "japanese": "⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}んだ。",
       "english": "I swallowed my words (held back what I was going to say).",
       "notes": null,
       "has_audio": false,
@@ -144,7 +144,7 @@
     },
     {
       "id": "04403_nomikomu_ex4",
-      "japanese": "よく{噛|か}んでから{飲|の}み{込|こ}んでね。",
+      "japanese": "⟦よく→よく：00601_yoku⟧⟦{噛|か}んで→噛む：01205_kamu⟧⟦から→から：00504_kara⟧{飲|の}み{込|こ}んで⟦ね→ね：09474_ne⟧。",
       "english": "Chew well before swallowing.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "04403_nomikomu_ex5",
-      "japanese": "{唾|つば}を{飲|の}み{込|こ}んだ。",
+      "japanese": "⟦{唾|つば}→唾：09110_tsuba⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}んだ。",
       "english": "I swallowed my saliva.",
       "notes": null,
       "has_audio": false,
@@ -164,7 +164,7 @@
     },
     {
       "id": "04403_nomikomu_ex6",
-      "japanese": "{説明|せつめい}を{聞|き}いてやっと{飲|の}み{込|こ}めた。",
+      "japanese": "⟦{説明|せつめい}→説明：01449_setsumei⟧⟦を→を：00422_wo⟧⟦{聞|き}いて→聞く：00483_kiku⟧⟦やっと→やっと：01561_yatto⟧{飲|の}み{込|こ}めた。",
       "english": "After hearing the explanation, I finally understood.",
       "notes": null,
       "has_audio": false,
@@ -174,9 +174,9 @@
     },
     {
       "id": "04403_nomikomu_ex7",
-      "japanese": "{彼|かれ}は{飲|の}み{込|こ}みが{早|はや}い。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{飲|の}み{込|こ}み⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧。",
       "english": "He's a quick learner.",
-      "notes": "飲み込みが早い = to be quick to understand/learn",
+      "notes": "{飲|の}み{込|こ}み⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧ = to be quick to understand/learn",
       "has_audio": false,
       "sense_numbers": [
         2
@@ -184,7 +184,7 @@
     },
     {
       "id": "04403_nomikomu_ex8",
-      "japanese": "{涙|なみだ}を{飲|の}み{込|こ}んで{笑顔|えがお}を{見|み}せた。",
+      "japanese": "⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}んで⟦{笑顔|えがお}→笑顔：01884_egao⟧⟦を→を：00422_wo⟧⟦{見|み}せた→見せる：01988_miseru⟧。",
       "english": "She held back her tears and showed a smile.",
       "notes": null,
       "has_audio": false,
@@ -194,7 +194,7 @@
     },
     {
       "id": "04403_nomikomu_ex9",
-      "japanese": "{不満|ふまん}を{飲|の}み{込|こ}んで{従|したが}った。",
+      "japanese": "⟦{不満|ふまん}→不満：02497_fuman⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}んで⟦{従|したが}った→従う：02059_shitagau⟧。",
       "english": "I swallowed my dissatisfaction and complied.",
       "notes": null,
       "has_audio": false,
@@ -203,11 +203,11 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {他動詞|たどうし} (transitive). Pattern: Xを{飲|の}み{込|こ}む (to swallow X).\n\nASPECT: ている indicates completed action or state. {飲|の}み{込|こ}んでいる = 'has swallowed/understands.'\n\nCOMMON PATTERNS:\n- {食|た}べ{物|もの}を{飲|の}み{込|こ}む (to swallow food)\n- {状況|じょうきょう}を{飲|の}み{込|こ}む (to grasp the situation)\n- {涙|なみだ}を{飲|の}み{込|こ}む (to hold back tears)\n- {言葉|ことば}を{飲|の}み{込|こ}む (to swallow one's words)\n\nMULTIPLE MEANINGS:\n1. Physical swallowing\n2. Mental comprehension\n3. Emotional suppression\n\nCOMPOUND VERB: {飲|の}む (to drink) + {込|こ}む (to put in, intensifier)",
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: X⟦を→を：00422_wo⟧{飲|の}み{込|こ}む (to swallow X).\n\nASPECT: ている indicates completed action or state. {飲|の}み{込|こ}んでいる = 'has swallowed/understands.'\n\nCOMMON PATTERNS:\n- ⟦{食|た}べ{物|もの}→食べ物：02890_tabemono⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}む (to swallow food)\n- ⟦{状況|じょうきょう}→状況：01576_joukyou⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}む (to grasp the situation)\n- ⟦{涙|なみだ}→涙：02235_namida⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}む (to hold back tears)\n- ⟦{言葉|ことば}→言葉：02880_kotoba⟧⟦を→を：00422_wo⟧{飲|の}み{込|こ}む (to swallow one's words)\n\nMULTIPLE MEANINGS:\n1. Physical swallowing\n2. Mental comprehension\n3. Emotional suppression\n\nCOMPOUND VERB: ⟦{飲|の}む→飲む：00322_nomu⟧ (to drink) + ⟦{込|こ}む→込む：00719_komu⟧ (to go into, intensifier)",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-14T00:58:16Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-05-31T15:08:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
