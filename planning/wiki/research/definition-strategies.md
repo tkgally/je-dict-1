@@ -1,6 +1,6 @@
 # Definition and Gloss Strategies in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-05-23
+**Last updated**: 2026-05-31
 
 ## Overview
 
@@ -186,4 +186,5 @@ je-dict-1 already uses several evidence-based strategies effectively:
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — presentation strategies (essays, tables, contrastive examples) for distinguishing near-synonyms
 - [Register and Formality Marking](register-formality-marking.md) — COBUILD-style definitions vs. labels for encoding register
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — glossing culture-bound terms where translation equivalence fails
+- [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — where definitions sit in the entry's information hierarchy, and how the Big Four structure their entries
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how glossing strategies differ between bilingual and monolingual traditions

@@ -1,6 +1,6 @@
 # Entry Design
 
-**Last updated**: 2026-04-05
+**Last updated**: 2026-05-31
 
 ## Schema overview
 
@@ -90,3 +90,4 @@ All kanji must have furigana in all fields: `{漢字|かんじ}`. This is enforc
 - [Furigana Strategy](../topics/furigana-strategy.md)
 - [Cross-Reference Design](../topics/cross-references.md)
 - [Grammar Information in Learner Dictionaries](../research/grammar-in-dictionaries.md) — research context for grammar encoding
+- [Dictionary Microstructure and Information Architecture](../research/dictionary-microstructure.md) — how je-dict-1's JSON schema maps to Wiegand's structural framework

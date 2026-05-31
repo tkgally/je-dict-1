@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-05-31
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -249,6 +249,38 @@ Entry 03881_kugi ({釘|くぎ}, nail) has `semantic: ["body-part"]` — clearly 
 Entry 03883_kuzu ({屑|くず}, scrap/waste/worthless person) has `semantic: ["furniture"]` — does not match meaning. The word refers to scraps, waste material, or (derogatorily) a worthless person.
 
 **Recommended fix**: Change `semantic: ["furniture"]` to `semantic: ["general"]` or a more appropriate tag. Another instance of the stale-auto-label pattern in [Cleanup Backlog](cleanup-backlog.md) → Priority 11.
+
+## 04312_hatsuden — Semantic tags "geography"/"time-general" incorrect
+
+**Source**: Comprehensive-polish 2026-05-30 session 005
+
+Entry 04312_hatsuden ({発電|はつでん}, power generation) has semantic tags "geography" and "time-general" — neither fits a power-generation entry. Should be "action" or "technology" or a similar neutral tag.
+
+**Recommended fix**: Replace the semantic tags with something appropriate for the entry's domain.
+
+## 04316_same — Semantic tag "general" should be "animal-fish"
+
+**Source**: Comprehensive-polish 2026-05-30 session 005
+
+Entry 04316_same ({鮫|さめ}, shark) has `semantic: ["general"]` while neighboring entries 04319_ika (squid) and 04323_tako (octopus) use `"animal-fish"`. Should be updated for consistency with the same cluster.
+
+**Recommended fix**: Change `semantic: ["general"]` to `semantic: ["animal-fish"]`.
+
+## 04347_shika — Redundant/wrong furigana in example sentence
+
+**Source**: Comprehensive-polish 2026-05-30 session 006
+
+Entry 04347_shika ({鹿|しか}, deer) has ex2 with the unusual furigana `{あげ|あげ}た` — already-hiragana text wrapped in a furigana wrapper with the same reading. Likely should be `{上|あ}げた`. Should be corrected in a future polish pass.
+
+**Recommended fix**: Change `{あげ|あげ}た` to `{上|あ}げた` or simply leave as bare hiragana `あげた`.
+
+## 挙げる (27889) vs 上げる (02443) — Distinct entries, linking awareness
+
+**Source**: Comprehensive-polish 2026-05-30 session 001
+
+挙げる (27889, "to cite/name") is distinct from 上げる (02443, "to raise/give"). Both exist as separate entries with different meanings. Future inline-linking sessions should be aware of the distinction to avoid linking to the wrong entry when either かな form あげる appears in examples or notes.
+
+**Status**: Informational — no entry fix needed, but noting for linking-session awareness.
 
 ## Related pages
 
