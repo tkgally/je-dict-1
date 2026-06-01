@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-01 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
+Added 20 new dictionary entries (IDs 28509-28528) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates (C21381-C21405). These are words already referenced by existing entries 04462-04524 but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (16)**: フルーティスト (flutist), {義太夫|ぎだゆう} (gidayū chanting for bunraku), {長唄|ながうた} (nagauta shamisen genre), {虚無僧|こむそう} (komusō shakuhachi monk), フィルハーモニー (philharmonic), {器械体操|きかいたいそう} (artistic gymnastics), {泡立|あわだ}ち (lathering/foaming), {雑菌|ざっきん} (germs/bacteria), {打|う}ち{水|みず} (sprinkling water for cooling), {濡|ぬ}れ{縁|えん} (uncovered veranda), {老木|ろうぼく} (old tree), {御神木|ごしんぼく} (sacred shrine tree), シャワールーム (shower stall), バスローブ (bathrobe), {音姫|おとひめ} (toilet sound-masking device), {名手|めいしゅ} (master/virtuoso), {短編集|たんぺんしゅう} (short story collection)
+- **Suru-verb nouns (2)**: {閉山|へいざん} (end of climbing season / mine closure, 2 senses, 6 examples), {洗浄|せんじょう} (washing/cleansing)
+- **Godan verb (1)**: {切|き}り{倒|たお}す (to fell a tree)
+
+All 20 entries validate; furigana fixed pre-build for two entries (吹禅 and 雑 in explanatory prose). Three verbs received full conjugation tables. One new kanji ({唄|うた}, ID 02763, gloss "song") assigned readings and indexed. Candidate list synced (1579→1559); one stale candidate (バスローブ with typo reading ばするおーぶ) removed before sync. Three traditional-arts entries (28510, 28511, 28512) had invalid `domain: ["traditional-arts"]` / `["history"]` tags corrected to `domain: []`.
+
 ### 2026-06-01 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 28485-28508) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2132x–C2138x range (words already referenced inside existing entries 04355, 04371, 04372, 04377-04395, 04457-04466 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
