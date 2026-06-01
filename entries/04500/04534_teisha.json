@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04534_teisha_ex1",
-      "japanese": "この{電車|でんしゃ}は{各駅|かくえき}{停車|ていしゃ}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{電車|でんしゃ}→電車：00522_densha⟧⟦は→は：00079_ha⟧⟦{各駅|かくえき}→各駅：27449_kakueki⟧{停車|ていしゃ}⟦です→です：09485_desu⟧。",
       "english": "This train stops at every station.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04534_teisha_ex2",
-      "japanese": "{急|きゅう}ブレーキで{急|きゅう}{停車|ていしゃ}した。",
+      "japanese": "⟦{急|きゅう}→急：13042_kyuu⟧⟦ブレーキ→ブレーキ：00022_bureeki⟧⟦で→で：00502_de⟧⟦{急|きゅう}→急：13042_kyuu⟧{停車|ていしゃ}⟦した→する：00392_suru⟧。",
       "english": "The train made an emergency stop.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04534_teisha_ex3",
-      "japanese": "{次|つぎ}の{停車|ていしゃ}{駅|えき}は{東京|とうきょう}です。",
+      "japanese": "⟦{次|つぎ}→次：00819_tsugi⟧⟦の→の：09472_no⟧{停車|ていしゃ}⟦{駅|えき}→駅：02180_eki⟧⟦は→は：00079_ha⟧⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦です→です：09485_desu⟧。",
       "english": "The next stop is Tokyo.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04534_teisha_ex4",
-      "japanese": "{信号|しんごう}が{赤|あか}になったので、{車|くるま}を{停車|ていしゃ}させた。",
+      "japanese": "⟦{信号|しんごう}→信号：03258_shingou⟧⟦が→が：00051_ga⟧⟦{赤|あか}→赤：02842_aka⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦ので→ので：09501_node⟧、⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{停車|ていしゃ}させた。",
       "english": "I stopped the car because the traffic light turned red.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04534_teisha_ex5",
-      "japanese": "この{特急|とっきゅう}は{途中|とちゅう}{停車|ていしゃ}しないので、{終点|しゅうてん}まで{早|はや}く{着|つ}きます。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{特急|とっきゅう}→特急：01476_tokkyuu⟧⟦は→は：00079_ha⟧⟦{途中|とちゅう}→途中：01684_tochuu⟧{停車|ていしゃ}しない⟦ので→ので：09501_node⟧、⟦{終点|しゅうてん}→終点：05457_shuuten⟧⟦まで→まで：00490_made⟧⟦{早|はや}く→早い：00514_hayai⟧⟦{着|つ}きます→着く：00680_tsuku⟧。",
       "english": "This express train doesn't stop along the way, so it arrives at the final station quickly.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,26 @@
       ]
     }
   ],
-  "notes": "{停車|ていしゃ} is used for vehicles, especially trains, stopping.\n\nCOMMON EXPRESSIONS:\n- {停車|ていしゃ}する: to stop (of a vehicle)\n- {各駅|かくえき}{停車|ていしゃ}: local train (stopping at all stations)\n- {急|きゅう}{停車|ていしゃ}: sudden stop, emergency stop\n- {停車|ていしゃ}{駅|えき}: stop, station where the train stops\n\nCONTRAST:\n- {停車|ていしゃ}: stopping (of a vehicle)\n- {発車|はっしゃ}: departure (of a vehicle)\n- {通過|つうか}: passing through\n\n[Register: Neutral]",
-  "cross_references": [],
+  "notes": "{停車|ていしゃ} is used for vehicles, especially trains, stopping.\n\nCOMMON EXPRESSIONS:\n- {停車|ていしゃ}⟦する→する：00392_suru⟧: to stop (of a vehicle)\n- ⟦{各駅|かくえき}→各駅：27449_kakueki⟧{停車|ていしゃ}: local train (stopping at all stations)\n- ⟦{急|きゅう}→急：13042_kyuu⟧{停車|ていしゃ}: sudden stop, emergency stop\n- {停車|ていしゃ}⟦{駅|えき}→駅：02180_eki⟧: stop, station where the train stops\n\nCONTRAST:\n- {停車|ていしゃ}: stopping (of a vehicle)\n- ⟦{発車|はっしゃ}→発車：03694_hassha⟧: departure (of a vehicle)\n- ⟦{通過|つうか}→通過：03506_tsuuka⟧: passing through\n\n[Register: Neutral]",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "03694_hassha",
+      "reading": "はっしゃ",
+      "headword": "{発車|はっしゃ}",
+      "label": "departure (of a vehicle)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "03506_tsuuka",
+      "reading": "つうか",
+      "headword": "{通過|つうか}",
+      "label": "passing through without stopping"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-03-05T01:52:33Z",
+    "modified": "2026-06-01T13:09:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
