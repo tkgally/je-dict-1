@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-01 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28529-28550) from `candidate_words.json`, prioritizing "seen in entry" internal-completeness candidates (C21349-C21412) — words already referenced inside existing entries 04417-04524 but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Clothing/fabric (6)**: アイロンがけ (ironing — also suru-verb), シルク (silk), スウェット (sweatshirt/sweats), ブレザー (blazer), カットソー (cut-and-sewn knit top), フード (hood; food — 2 senses)
+- **Tech/cameras (4)**: フェーズ (project phase), デジカメ (digital camera, casual abbrev), デジタルカメラ (digital camera), ビデオカメラ (video camera/camcorder), 写メ (phone photo, casual/dated)
+- **Society/news (3)**: 外出先 (place when out), 行方不明者 (missing person), 警察犬 (police dog)
+- **Health/medical (5)**: アルツハイマー (Alzheimer's), グループホーム (group home), 心電図 (ECG), 心不全 (heart failure), 狭心症 (angina)
+- **Other (3)**: エース (ace — sports + card, 2 senses), 美術品 (work of art), 非常用 (for emergency use)
+
+All 22 entries validate after a fix-up round: アイロンがけ romaji corrected (`aironkake` → `airongake`); three `formality: "casual"` values fixed to `"informal"`; one invalid `domain: ["news"]` cleared; one bare 和製 in カットソー notes given furigana. アイロンがけ received a suru conjugation table. No new kanji. Candidate list synced (1559→1537).
+
 ### 2026-06-01 (Vocabulary Expansion - 20 New Entries, "seen in entry" Batch)
 Added 20 new dictionary entries (IDs 28509-28528) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates (C21381-C21405). These are words already referenced by existing entries 04462-04524 but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
