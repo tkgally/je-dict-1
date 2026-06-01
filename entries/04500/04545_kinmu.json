@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04545_kinmu_ex1",
-      "japanese": "{勤務|きんむ}{時間|じかん}は9{時|じ}から5{時|じ}までです。",
+      "japanese": "{勤務|きんむ}⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧9⟦{時|じ}→時：09869_ji⟧⟦から→から：00504_kara⟧5⟦{時|じ}→時：09869_ji⟧⟦まで→まで：00490_made⟧⟦です→です：09485_desu⟧。",
       "english": "Working hours are from 9 to 5.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04545_kinmu_ex2",
-      "japanese": "{彼|かれ}は{銀行|ぎんこう}に{勤務|きんむ}している。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧⟦に→に：00314_ni⟧{勤務|きんむ}している。",
       "english": "He works at a bank.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04545_kinmu_ex3",
-      "japanese": "{夜勤|やきん}{勤務|きんむ}は{体|からだ}に{辛|つら}い。",
+      "japanese": "⟦{夜勤|やきん}→夜勤：09549_yakin⟧{勤務|きんむ}⟦は→は：00079_ha⟧⟦{体|からだ}→体：00784_karada⟧⟦に→に：00314_ni⟧⟦{辛|つら}い→辛い：01112_tsurai⟧。",
       "english": "Night shift work is hard on the body.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{勤務|きんむ} refers to working or serving at a job, especially formal employment. As a suru-verb, it means \"to work (at)\", \"to be employed (at)\".\n\nCommon compounds:\n- {勤務|きんむ}{時間|じかん} (working hours)\n- {勤務|きんむ}{先|さき} (place of work)\n- {勤務|きんむ}{態度|たいど} (work attitude)\n- {交代|こうたい}{勤務|きんむ} (shift work)\n- {夜勤|やきん} / {夜間|やかん}{勤務|きんむ} (night shift)\n- {在宅|ざいたく}{勤務|きんむ} (working from home)\n\nRelated terms:\n- {出勤|しゅっきん} (going to work)\n- {退勤|たいきん} (leaving work)\n- {欠勤|けっきん} (absence from work)",
+  "notes": "{勤務|きんむ} refers to working or serving at a job, especially formal employment. As a suru-verb, it means \"to work (at)\", \"to be employed (at)\".\n\nCommon compounds:\n- {勤務|きんむ}⟦{時間|じかん}→時間：00468_jikan⟧ (working hours)\n- {勤務|きんむ}⟦{先|さき}→先：02883_saki⟧ (place of work)\n- {勤務|きんむ}⟦{態度|たいど}→態度：03396_taido⟧ (work attitude)\n- ⟦{交代|こうたい}→交代：14943_koutai⟧{勤務|きんむ} (shift work)\n- ⟦{夜勤|やきん}→夜勤：09549_yakin⟧ / ⟦{夜間|やかん}→夜間：04133_yakan⟧{勤務|きんむ} (night shift)\n- ⟦{在宅|ざいたく}→在宅：07696_zaitaku⟧{勤務|きんむ} (working from home)\n\nRelated terms:\n- ⟦{出勤|しゅっきん}→出勤：04548_shukkin⟧ (going to work)\n- ⟦{退勤|たいきん}→退勤：04550_taikin⟧ (leaving work)\n- ⟦{欠勤|けっきん}→欠勤：07732_kekkin⟧ (absence from work)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,18 @@
       "reading": "しゅっきん",
       "headword": "{出勤|しゅっきん}",
       "label": "going to work"
+    },
+    {
+      "type": "related",
+      "target_id": "04550_taikin",
+      "reading": "たいきん",
+      "headword": "{退勤|たいきん}",
+      "label": "leaving work"
     }
   ],
   "metadata": {
     "created": "2026-01-14T19:01:55Z",
-    "modified": "2026-04-08T02:45:29Z",
+    "modified": "2026-06-01T13:09:35Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04552_yuukyuu_ex1",
-      "japanese": "{有給|ゆうきゅう}を{取|と}って{旅行|りょこう}に{行|い}った。",
+      "japanese": "{有給|ゆうきゅう}⟦を→を：00422_wo⟧⟦{取|と}って→取る：00565_toru⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I took paid leave and went on a trip.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04552_yuukyuu_ex2",
-      "japanese": "{有給|ゆうきゅう}が{残|のこ}っているか{確認|かくにん}した。",
+      "japanese": "{有給|ゆうきゅう}⟦が→が：00051_ga⟧⟦{残|のこ}っている→残る：01187_nokoru⟧⟦か→か：09473_ka⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦した→する：00392_suru⟧。",
       "english": "I checked how much paid leave I have left.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04552_yuukyuu_ex3",
-      "japanese": "{有給|ゆうきゅう}{消化|しょうか}が{義務化|ぎむか}されている。",
+      "japanese": "{有給|ゆうきゅう}⟦{消化|しょうか}→消化：04200_shouka⟧⟦が→が：00051_ga⟧⟦{義務化|ぎむか}→義務化：noentry⟧⟦されている→する：00392_suru⟧。",
       "english": "Using paid leave has become mandatory.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04552_yuukyuu_ex4",
-      "japanese": "{有給|ゆうきゅう}を{使|つか}って{子|こ}どもの{運動会|うんどうかい}に{行|い}きたい。",
+      "japanese": "{有給|ゆうきゅう}⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{子|こ}ども→子供：00554_kodomo⟧⟦の→の：09472_no⟧⟦{運動会|うんどうかい}→運動会：03013_undoukai⟧⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to use my paid leave to go to my child's sports day.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04552_yuukyuu_ex5",
-      "japanese": "うちの{会社|かいしゃ}は{有給|ゆうきゅう}が{取|と}りやすい{雰囲気|ふんいき}なので、{助|たす}かっている。",
+      "japanese": "うちの⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧{有給|ゆうきゅう}⟦が→が：00051_ga⟧⟦{取|と}り→取る：00565_toru⟧⟦やすい→～やすい：18367_yasui⟧⟦{雰囲気|ふんいき}→雰囲気：03604_funiki⟧なので、⟦{助|たす}かっている→助かる：01956_tasukaru⟧。",
       "english": "Our company has an atmosphere where it's easy to take paid leave, which is a big help.",
       "notes": null,
       "has_audio": false,
@@ -63,11 +63,19 @@
       ]
     }
   ],
-  "notes": "{有給|ゆうきゅう} is short for {有給休暇|ゆうきゅうきゅうか} (paid vacation/leave). It refers to paid time off from work.\n\nFull form: {有給休暇|ゆうきゅうきゅうか}\n\nCommon expressions:\n- {有給|ゆうきゅう}を{取|と}る (take paid leave)\n- {有給|ゆうきゅう}を{使|つか}う (use paid leave)\n- {有給|ゆうきゅう}{消化|しょうか} (using up paid leave)\n- {有給|ゆうきゅう}{残日数|ざんにっすう} (remaining paid leave days)\n\nCultural note:\nJapanese workers often hesitate to use their paid leave due to workplace culture. Recent labor laws require companies to ensure employees take at least 5 days of paid leave annually.",
-  "cross_references": [],
+  "notes": "{有給|ゆうきゅう} is short for ⟦{有給休暇|ゆうきゅうきゅうか}→有給休暇：06996_yuukyuukyuuka⟧ (paid vacation/leave). It refers to paid time off from work.\n\nFull form: ⟦{有給休暇|ゆうきゅうきゅうか}→有給休暇：06996_yuukyuukyuuka⟧\n\nCommon expressions:\n- {有給|ゆうきゅう}を⟦{取|と}る→取る：00565_toru⟧ (take paid leave)\n- {有給|ゆうきゅう}を⟦{使|つか}う→使う：00473_tsukau⟧ (use paid leave)\n- {有給|ゆうきゅう}⟦{消化|しょうか}→消化：04200_shouka⟧ (using up paid leave)\n- {有給|ゆうきゅう}⟦{残日数|ざんにっすう}→残日数：noentry⟧ (remaining paid leave days)\n\nCultural note:\nJapanese workers often hesitate to use their paid leave due to workplace culture. Recent labor laws require companies to ensure employees take at least 5 days of paid leave annually.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06996_yuukyuukyuuka",
+      "reading": "ゆうきゅうきゅうか",
+      "headword": "{有給休暇|ゆうきゅうきゅうか}",
+      "label": "paid leave (full form)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T19:01:55Z",
-    "modified": "2026-03-05T01:54:59Z",
+    "modified": "2026-06-01T13:09:35Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "core",
     "tags": {

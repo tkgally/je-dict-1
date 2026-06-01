@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04539_nekkuresu_ex1",
-      "japanese": "{真珠|しんじゅ}のネックレスを{身|み}につけた。",
+      "japanese": "⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧ネックレス⟦を→を：00422_wo⟧⟦{身|み}につけた→身につける：03158_minitsukeru⟧。",
       "english": "I wore a pearl necklace.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04539_nekkuresu_ex2",
-      "japanese": "{母|はは}の{誕生日|たんじょうび}にネックレスを{贈|おく}った。",
+      "japanese": "⟦{母|はは}→母：00549_haha⟧⟦の→の：09472_no⟧⟦{誕生日|たんじょうび}→誕生日：02910_tanjoubi⟧⟦に→に：00314_ni⟧ネックレス⟦を→を：00422_wo⟧⟦{贈|おく}った→贈る：09862_okuru⟧。",
       "english": "I gave my mother a necklace for her birthday.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04539_nekkuresu_ex3",
-      "japanese": "このネックレスは{祖母|そぼ}の{形見|かたみ}です。",
+      "japanese": "⟦この→この：00962_kono⟧ネックレス⟦は→は：00079_ha⟧⟦{祖母|そぼ}→祖母：00813_sobo⟧⟦の→の：09472_no⟧⟦{形見|かたみ}→形見：12505_katami⟧⟦です→です：09485_desu⟧。",
       "english": "This necklace is a keepsake from my grandmother.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "ネックレス (from English \"necklace\") is an ornamental chain or string worn around the neck.\n\nCommon types:\n- {真珠|しんじゅ}のネックレス (pearl necklace)\n- {金|きん}のネックレス (gold necklace)\n- チョーカー (choker)\n- ペンダント (pendant necklace)\n\nRelated accessories:\n- ブレスレット (bracelet)\n- イヤリング (clip-on earrings)\n- ピアス (pierced earrings)\n- {指輪|ゆびわ} (ring)\n\nCommon expressions:\n- ネックレスをする / ネックレスを{身|み}につける (wear a necklace)\n- ネックレスを{外|はず}す (remove a necklace)",
-  "cross_references": [],
+  "notes": "ネックレス (from English \"necklace\") is an ornamental chain or string worn around the neck.\n\nCommon types:\n- ⟦{真珠|しんじゅ}→真珠：19873_shinju⟧⟦の→の：09472_no⟧ネックレス (pearl necklace)\n- ⟦{金|きん}→金：02666_kin⟧⟦の→の：09472_no⟧ネックレス (gold necklace)\n- ⟦チョーカー→チョーカー：noentry⟧ (choker)\n- ⟦ペンダント→ペンダント：27325_pendanto⟧ (pendant necklace)\n\nRelated accessories:\n- ⟦ブレスレット→ブレスレット：04892_buresuretto⟧ (bracelet)\n- ⟦イヤリング→イヤリング：04684_iyaringu⟧ (clip-on earrings)\n- ⟦ピアス→ピアス：04685_piasu⟧ (pierced earrings)\n- ⟦{指輪|ゆびわ}→指輪：01744_yubiwa⟧ (ring)\n\nCommon expressions:\n- ネックレス⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ / ネックレス⟦を→を：00422_wo⟧⟦{身|み}につける→身につける：03158_minitsukeru⟧ (wear a necklace)\n- ネックレス⟦を→を：00422_wo⟧⟦{外|はず}す→外す：02394_hazusu⟧ (remove a necklace)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "27325_pendanto",
+      "reading": "ぺんだんと",
+      "headword": "ペンダント",
+      "label": "pendant necklace"
+    },
+    {
+      "type": "related",
+      "target_id": "04892_buresuretto",
+      "reading": "ぶれすれっと",
+      "headword": "ブレスレット",
+      "label": "bracelet"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T19:00:32Z",
-    "modified": "2026-01-19T12:17:43.070129Z",
+    "modified": "2026-06-01T13:09:35Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
