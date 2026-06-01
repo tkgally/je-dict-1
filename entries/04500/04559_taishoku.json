@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "04559_taishoku_ex1",
-      "japanese": "3{月|がつ}{末|まつ}で{退職|たいしょく}する{予定|よてい}です。",
+      "japanese": "3⟦{月|がつ}→月：02230_tsuki⟧⟦{末|まつ}→末：03362_sue⟧⟦で→で：00502_de⟧{退職|たいしょく}する⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
       "english": "I plan to resign at the end of March.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "04559_taishoku_ex2",
-      "japanese": "{退職届|たいしょくとどけ}を{提出|ていしゅつ}した。",
+      "japanese": "⟦{退職届|たいしょくとどけ}→退職届：15695_taishokutodoke⟧⟦を→を：00422_wo⟧⟦{提出|ていしゅつ}した→提出：03542_teishutsu⟧。",
       "english": "I submitted my resignation letter.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "04559_taishoku_ex3",
-      "japanese": "{定年|ていねん}{退職|たいしょく}まであと5{年|ねん}だ。",
+      "japanese": "⟦{定年|ていねん}→定年：07500_teinen⟧{退職|たいしょく}⟦まで→まで：00490_made⟧⟦あと→あと：09580_ato⟧5⟦{年|ねん}→年：09876_nen⟧⟦だ→だ：09496_da⟧。",
       "english": "I have 5 more years until mandatory retirement.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{退職|たいしょく} means leaving one's job, whether by resignation or retirement.\n\nCommon types:\n- {定年|ていねん}{退職|たいしょく} (mandatory retirement)\n- {自己|じこ}{都合|つごう}{退職|たいしょく} (voluntary resignation)\n- {会社|かいしゃ}{都合|つごう}{退職|たいしょく} (company-initiated separation)\n- {早期|そうき}{退職|たいしょく} (early retirement)\n\nCommon expressions:\n- {退職届|たいしょくとどけ} / {退職願|たいしょくねがい} (resignation letter)\n- {退職金|たいしょくきん} (severance pay, retirement allowance)\n- {退職|たいしょく}{代行|だいこう} (resignation proxy service)\n\nNote: {退職届|たいしょくとどけ} is a formal notification, while {退職願|たいしょくねがい} is a request that can be withdrawn.",
+  "notes": "{退職|たいしょく} means leaving one's job, whether by resignation or retirement.\n\nCommon types:\n- ⟦{定年|ていねん}→定年：07500_teinen⟧{退職|たいしょく} (mandatory retirement)\n- ⟦{自己|じこ}→自己：23357_jiko⟧⟦{都合|つごう}→都合：01672_tsugou⟧{退職|たいしょく} (voluntary resignation)\n- ⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦{都合|つごう}→都合：01672_tsugou⟧{退職|たいしょく} (company-initiated separation)\n- ⟦{早期|そうき}→早期：09568_souki⟧{退職|たいしょく} (early retirement)\n\nCommon expressions:\n- ⟦{退職届|たいしょくとどけ}→退職届：15695_taishokutodoke⟧ / ⟦{退職願|たいしょくねがい}→退職願：noentry⟧ (resignation letter)\n- ⟦{退職金|たいしょくきん}→退職金：07959_taishokukin⟧ (severance pay, retirement allowance)\n- {退職|たいしょく}⟦{代行|だいこう}→代行：11433_daikou⟧ (resignation proxy service)\n\nNote: ⟦{退職届|たいしょくとどけ}→退職届：15695_taishokutodoke⟧ is a formal notification, while ⟦{退職願|たいしょくねがい}→退職願：noentry⟧ is a request that can be withdrawn.",
   "cross_references": [
     {
       "type": "antonym",
@@ -166,7 +166,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T19:02:47Z",
-    "modified": "2026-04-26T07:25:09Z",
+    "modified": "2026-06-01T14:19:50Z",
     "ai_model": "claude-opus-4-5-20251101",
     "vocabulary_tier": "general",
     "tags": {
@@ -177,9 +177,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "communication",
-        "geography",
-        "transportation",
+        "occupation",
         "work"
       ],
       "verb_class": "suru"

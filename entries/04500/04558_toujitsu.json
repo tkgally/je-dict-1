@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04558_toujitsu_ex1",
-      "japanese": "{当日|とうじつ}は{晴|は}れるでしょう。",
+      "japanese": "{当日|とうじつ}⟦は→は：00079_ha⟧⟦{晴|は}れる→晴れる：00701_hareru⟧⟦でしょう→でしょう：09887_deshou⟧。",
       "english": "It will probably be sunny on that day.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04558_toujitsu_ex2",
-      "japanese": "{当日|とうじつ}{券|けん}を{購入|こうにゅう}する。",
+      "japanese": "{当日|とうじつ}⟦{券|けん}→券：02150_ken⟧⟦を→を：00422_wo⟧⟦{購入|こうにゅう}→購入：03057_kounyuu⟧⟦する→する：00392_suru⟧。",
       "english": "I will purchase a same-day ticket.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04558_toujitsu_ex3",
-      "japanese": "{当日|とうじつ}キャンセルは{料金|りょうきん}がかかる。",
+      "japanese": "{当日|とうじつ}⟦キャンセル→キャンセル：06776_kyanseru⟧⟦は→は：00079_ha⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦かかる→かかる：00711_kakaru⟧。",
       "english": "Same-day cancellations incur a fee.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{当|とう} (this, the relevant) + {日|じつ} (day)\n\nUSAGE:\nRefers to the specific day being discussed or the day of an event. Can mean \"that day\" (referring to a past event) or \"on the day\" (same-day, as opposed to in advance).\n\nCOMMON COLLOCATIONS:\n- {当日|とうじつ}{券|けん}: same-day ticket\n- {当日|とうじつ}{予約|よやく}: same-day reservation\n- {当日|とうじつ}キャンセル: same-day cancellation\n- イベント{当日|とうじつ}: the day of the event\n- {当日|とうじつ}{受付|うけつけ}: on-site registration\n\nDAY SEQUENCE:\n- {前日|ぜんじつ}: the day before\n- {当日|とうじつ}: that day, the day of\n- {翌日|よくじつ}: the next day, the following day",
-  "cross_references": [],
+  "notes": "WORD FORMATION:\n{当|とう} (this, the relevant) + {日|じつ} (day)\n\nUSAGE:\nRefers to the specific day being discussed or the day of an event. Can mean \"that day\" (referring to a past event) or \"on the day\" (same-day, as opposed to in advance).\n\nCOMMON COLLOCATIONS:\n- {当日|とうじつ}⟦{券|けん}→券：02150_ken⟧: same-day ticket\n- {当日|とうじつ}⟦{予約|よやく}→予約：01522_yoyaku⟧: same-day reservation\n- {当日|とうじつ}⟦キャンセル→キャンセル：06776_kyanseru⟧: same-day cancellation\n- ⟦イベント→イベント：09594_ibento⟧{当日|とうじつ}: the day of the event\n- {当日|とうじつ}⟦{受付|うけつけ}→受付：01325_uketsuke⟧: on-site registration\n\nDAY SEQUENCE:\n- ⟦{前日|ぜんじつ}→前日：03108_zenjitsu⟧: the day before\n- {当日|とうじつ}: that day, the day of\n- ⟦{翌日|よくじつ}→翌日：17960_yokujitsu⟧: the next day, the following day",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ぜんじつ",
+      "headword": "{前日|ぜんじつ}",
+      "label": "the day before",
+      "target_id": "03108_zenjitsu"
+    },
+    {
+      "type": "related",
+      "reading": "よくじつ",
+      "headword": "{翌日|よくじつ}",
+      "label": "the following day",
+      "target_id": "17960_yokujitsu"
+    }
+  ],
   "metadata": {
     "created": "2026-01-14T00:33:36Z",
-    "modified": "2026-03-30T06:07:33Z",
+    "modified": "2026-06-01T14:16:36Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics"
+        "time-general"
       ]
     }
   }
