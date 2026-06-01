@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-01
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-01 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 28485-28508) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2132x–C2138x range (words already referenced inside existing entries 04355, 04371, 04372, 04377-04395, 04457-04466 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nouns (21)**: {和暦|われき} (Japanese era calendar), {禁止令|きんしれい} (ban/prohibition order), {飛散量|ひさんりょう} (pollen dispersal amount), {無洗米|むせんまい} (no-wash rice), {銀杏|ぎんなん} (ginkgo nut, different reading from existing 04379_いちょう), {個人情報流出|こじんじょうほうりゅうしゅつ} (personal data leak), {白桃|はくとう} (white peach), {甘栗|あまぐり} (sweet roasted chestnuts), {毬栗|いがぐり} (chestnut burr / buzz cut — 2 senses), きんとん (sweetened chestnut paste), {芍薬|しゃくやく} (peony — herbaceous), {一箱|ひとはこ} (one box; also counter), {落語家|らくごか} (rakugo performer), コント (sketch comedy), {掛|か}け{合|あ}い (banter / call-and-response), {面白|おもしろ}さ (fun/appeal — さ-derived), ギタリスト (guitarist), {弾|ひ}き{語|がた}り (solo play-and-sing), ピッコロ (piccolo), リコーダー (recorder), {室内楽|しつないがく} (chamber music), ドラマー (drummer), {交響楽団|こうきょうがくだん} (symphony orchestra)
+- **Adverb (1)**: ぴょんぴょん (hop-hop, mimetic)
+
+All 24 entries validate; furigana clean (10 entries had bare-kanji references in notes — fixed pre-build); one formality value fixed (`casual` → `informal` on 28488). No verbs / i-adjectives. One new kanji ({芍|しゃく}, ID 02762, gloss "peony") assigned readings and indexed. Candidate list synced (1603→1579).
 
 ### 2026-05-31 (Vocabulary Expansion - 19 New Entries, "seen in entry" Batch)
 Added 19 new dictionary entries (IDs 28466-28484) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2064x–C2131x range. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 sections.
