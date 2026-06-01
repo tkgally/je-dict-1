@@ -1,6 +1,6 @@
 # Polysemy and Sense Discrimination
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-31
 
 ## Overview
 
@@ -166,3 +166,4 @@ This is a significant gap for highly polysemous entries. Adding sense-number lin
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — sense selection as the most common dictionary-use failure point
 - [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — literal-to-figurative sense extension and metaphorical polysemy
 - [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — sense ordering principles, navigation devices, and entry-internal organization
+- [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — particles as a paradigm case of polysemy in function words; cognitive-linguistic prototype approaches

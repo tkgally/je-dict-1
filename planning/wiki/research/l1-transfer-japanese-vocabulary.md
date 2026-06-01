@@ -1,6 +1,6 @@
 # L1 Transfer in Japanese L2 Vocabulary Acquisition
 
-**Last updated**: 2026-05-19
+**Last updated**: 2026-06-01
 
 ## Overview
 
@@ -176,3 +176,4 @@ The dictionary already has a research page on gairaigo that covers English→Jap
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and its relationship to the tier system
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how persistent L1 activation supports bilingual dictionary use
 - [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — cross-linguistic transfer effects on idiom comprehension (Irujo 1986)
+- [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — L1-specific particle acquisition patterns (Korean > English > Chinese for case markers)

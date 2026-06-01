@@ -1,6 +1,6 @@
 # Pragmatics and Speech Acts in Bilingual Learner Dictionaries
 
-**Last updated**: 2026-05-25
+**Last updated**: 2026-06-01
 
 ## Overview
 
@@ -223,3 +223,4 @@ Based on the research, these entry types would benefit most from pragmatic annot
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo system structure, L2 acquisition challenges, and dictionary treatment of honorifics
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — cultural scripts, social ritual vocabulary, and the culture–language inseparability thesis
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — pragmatic routines as a major category of formulaic language; the recognition–production gap for conventional expressions
+- [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — sentence-final particles (ね, よ, よね) as pragmatic markers; discourse function of は/が

@@ -1,6 +1,6 @@
 # Error Analysis and Learner Corpora for Japanese L2
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-06-01
 
 ## Overview
 
@@ -231,3 +231,4 @@ The polishing priority system (`make priorities`) currently uses note quality sc
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — ている misinterpretation as a major verb-form error category
 - [Register and Formality Marking](register-formality-marking.md) — labels and encoding strategies for register, relevant to register-mixing errors
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo acquisition challenges, common error patterns, and L1 background effects
+- [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — particle substitution, omission, and addition errors; L1 transfer effects on case particle acquisition
