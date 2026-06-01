@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-01
 
 
 ## How this wiki is organized
@@ -74,6 +74,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Figurative Language and Idiom Processing in L2](research/figurative-language-idiom-processing.md) — Processing models (literal salience, graded salience, dual representation), metaphorical competence, Japanese figurative categories, and dictionary treatment
 - [Dictionary Use in the Age of Machine Translation](research/dictionary-and-machine-translation.md) — MT prevalence, depth-of-processing costs, what dictionaries provide that MT cannot, complementary-tools framework, and Japanese-specific considerations
 - [Dictionary Microstructure and Information Architecture](research/dictionary-microstructure.md) — Entry-internal organization, Wiegand's structural framework, information categories, sense ordering, navigation devices, and digital-era transformations
+- [Japanese Particles in L2 Acquisition](research/japanese-particles-l2.md) — Particle classification, は/が interface problem, acquisition order, L1 transfer effects, error patterns, cognitive-linguistic pedagogy, and dictionary treatment
 
 ## Topics
 

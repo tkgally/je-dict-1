@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-01
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -220,6 +220,12 @@ The confirmed range now extends from the 01490s through at least the 04300s. All
 - 04327–04349: "body-part" on 反映, "leisure" on 売買, "education"/"leisure" on 政党, "leisure" on 引算
 
 A recurring diagnostic: the AI model assigns semantic tags based on example sentence topics rather than the headword's semantic domain.
+
+**Update 2026-06-01**: Two more comprehensive-polish sessions (2026-05-31, entries 04371–04395 and 04457–04466) confirmed the pattern continues into the 04400–04500 range:
+- 04371–04395: Nature/food nouns (04383 全般, 04384 柿, 04387 栗, 04389 葬式) had template defaults "time-general", "transportation", "tool" — corrected in session.
+- 04457–04466: Performing arts and musical instrument entries had wrong tags: 04459 脚本 "electronics", 04460 演出 "communication"/"education"/"furniture"/"leisure", 04462 フルート "body-part", 04464 三味線 "food", 04465 尺八 "body-part". All corrected to "leisure".
+
+The confirmed range now extends from the 01490s through at least the 04500s. The wrong-tag category set remains at fourteen distinct labels.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

@@ -1,6 +1,6 @@
 # Grammar Information in Learner Dictionaries
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-01
 
 ## Overview
 
@@ -211,3 +211,4 @@ je-dict-1's particle pattern documentation in entry notes functions as an inform
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo as a grammaticalized system; encoding honorific patterns in entries
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — syntactic patterns as a critical encoding-dictionary information category
 - [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — where grammar information fits in Wiegand's form/semantic comment framework
+- [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — particle polysemy, predicate-governed selection, and dictionary treatment of function words
