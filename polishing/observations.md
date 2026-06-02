@@ -26,3 +26,5 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-06-01 session 003 have been harvested by the wiki maintenance session of 2026-06-02.)_
+
+[entry] 04730_foroo had incorrect semantic tags "building", "transportation" — corrected to "communication", "action".
