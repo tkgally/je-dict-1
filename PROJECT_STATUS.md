@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-01
+**Last updated**: 2026-06-02
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-02 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28551-28572) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2141x-C2144x range (words referenced inside existing entries 04533-04632 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Loanword nouns (7)**: ショール (shawl), ネックウォーマー (neck warmer, wasei-eigo), スマートウォッチ (smartwatch), チョーカー (choker), ライフル (rifle), スコア (score), タイムカード (time card)
+- **Native nouns (8)**: {偏光|へんこう} (polarization), {内輪|うちわ} (insider/private), {上皇|じょうこう} (Emperor Emeritus), {打刻|だこく} (clock-in/out — also suru), {退職願|たいしょくねがい} (resignation request letter), {通行人|つうこうにん} (passerby), {老廃物|ろうはいぶつ} (metabolic waste), {檻|おり} (cage)
+- **Verbs (5)**: {取|と}り{押|お}さえる (ichidan, to restrain/apprehend), {果|は}てる (ichidan, to come to an end — 2 senses), {閉|し}め{切|き}る (godan, to keep closed), {揺|ゆ}り{起|お}こす (godan, to shake awake), {知|し}らしめる (ichidan, to make widely known)
+- **Adverbs (2)**: {頑|がん}として (stubbornly), {軽々|かるがる}と (effortlessly)
+
+All 22 entries validate after a fix-up round: 28554 romaji corrected (sumaatowotchi→sumaatowocchi); two invalid domain tags fixed (physics→technical, medicine→medical); three furigana fixes ({対|たい}, {押|お}, {終|お}). Five verbs received conjugation tables. One new kanji ({檻|かん}/おり, ID 02764, gloss "cage") assigned readings and indexed. Candidate list synced (1592→1570).
 
 ### 2026-06-01 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28529-28550) from `candidate_words.json`, prioritizing "seen in entry" internal-completeness candidates (C21349-C21412) — words already referenced inside existing entries 04417-04524 but not yet defined. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
