@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-02] maintenance | L2 writing research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 2 unprocessed observation blocks from `polishing/observations.md` — comprehensive-polish 2026-06-01 sessions 001 (entries 04533–04553) and 003 (entries 04574–04594):
+  - `[pattern]` Both sessions documented continued wrong semantic tag errors extending the confirmed range into the 04590s. Session 001 found dekoboko/densen/taikin/sangurasu/teppou/uchiwa with wrong tags; session 003 found kikitoru/hayamaru/kareru/omoikiru similarly mislabeled. Updated cleanup-backlog P11 with expanded range (now 01490s through 04590s).
+  - `[pattern]` New cleanup items: P15 — `{ている}` furigana brace artifact in ASPECT notes (49 entries); P16 — `[Register: Neutral]` legacy artifact at end of notes (188 entries). Both are mechanical sweep candidates.
+  - `[entry]` 上皇 (じょうこう) already exists as entry 28559 (created after observation was logged); no entry-followup needed.
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **L2 writing and dictionary consultation** and created `research/l2-writing-dictionary-consultation.md`. Covers the encoding–decoding distinction (Svensén 1993, Rundell 1999); empirical findings on how L2 writers use dictionaries (Atkins & Varantola 1997 observational study with 71 participants, Elola et al. 2008 verbal protocols showing dictionary use beyond vocabulary gaps, Kozlova & Presas 2013/2016 finding corrections implemented in only one-third of detected problems); Christianson's (1997) corpus study showing 42% of dictionary-looked-up words used incorrectly by Japanese EFL students; Nesi & Haill's (2002) five-type taxonomy of dictionary-induced errors; collocation as the primary productive challenge (Laufer & Waldman 2011, Rundell 2010); Frankenberg-Garcia's (2012, 2015) experimental findings on encoding examples (multiple examples significantly better for production, learners prefer examples over explicit rules); cognitive dimensions including interruption cost (Hayes & Flower 1980 process model) and L1 mediation bottleneck (Jiang 2000 three-stage model); Japanese-specific considerations (script complexity and lookup cost, particle selection, transitivity pair selection, register stratification across wago/kango/gairaigo); and five implications for je-dict-1 (encoding-oriented example evaluation, collocation fields as highest-impact encoding feature, particle pattern documentation, similar-words sections for encoding support, fast access and clear layout). Added page to `index.md` and as a related page on `productive-vocabulary-encoding.md`, `collocations.md`, `dictionary-lookup-behavior.md`, `example-sentences.md`, `near-synonym-discrimination.md`, `dictionary-and-machine-translation.md`, `bilingual-monolingual-debate.md`, and `register-formality-marking.md`.
+- [A] Updated stats across wiki pages to reflect 2026-06-02 `report.py` output (28,403 entries, 25,620 general, 16,265 cross-references, 0.57 per entry, ~112,108 total examples, 41.1% symmetry with 7,824 asymmetric refs, 1,532 candidates, 4,799 entries with inline links at 16.9%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/sense-relations-semantic-networks.md`. Updated "Last updated" dates on all modified pages plus `index.md`.
+
 ## [2026-06-01] maintenance | Japanese particles L2 research, observation harvest, stats sync
 
 **Session type**: Nightly maintenance
