@@ -1,6 +1,6 @@
 # Example Sentence Design
 
-**Last updated**: 2026-05-27
+**Last updated**: 2026-06-02
 
 ## What makes good dictionary examples?
 
@@ -84,3 +84,4 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — examples as chunk exposure opportunities in a vocabulary-centred methodology
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — how example sentences create incidental learning opportunities and re-encounter contexts
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — encoding examples vs. decoding examples (Frankenberg-Garcia 2015)
+- [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — multiple examples as significantly more helpful for production than single examples (Frankenberg-Garcia 2015)

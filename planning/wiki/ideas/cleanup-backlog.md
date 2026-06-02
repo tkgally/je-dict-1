@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-01
+**Last updated**: 2026-06-02
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -227,6 +227,12 @@ A recurring diagnostic: the AI model assigns semantic tags based on example sent
 
 The confirmed range now extends from the 01490s through at least the 04500s. The wrong-tag category set remains at fourteen distinct labels.
 
+**Update 2026-06-02**: Two more comprehensive-polish sessions (2026-06-01, entries 04533–04553 and 04574–04594) confirmed the pattern continues through the 04590s:
+- 04533–04553: 04547 凸凹 "furniture"/"tool"→"general", 04549 伝染 "body-part"→"general", 04550 大金 "time-general"/"tool"→"work", 04535 サングラス "general"→"clothing", 04540 鉄砲 "general"→"weapon", 04544 団扇 "electronics"→"tool"
+- 04574–04594: 04583 聞き取る "geography"/"work"→"communication"/"action", 04585 早まる "electronics"/"time-general"→"action", 04589 枯れる "furniture"→"nature"/"action", 04590 思い切る "communication"→"action"
+
+The confirmed range now extends from the 01490s through at least the 04590s.
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)
@@ -262,6 +268,30 @@ This is a different failure mode from semantic tag drift: the note *text itself*
 **Detection**: No simple grep — this requires semantic comparison between note content and entry headword/gloss. A lightweight heuristic: extract English words from notes, compare against gloss keywords, flag entries with zero overlap. False-positive-heavy but could surface the worst cases.
 
 **Suggested action**: Low priority as a batch — comprehensive-polish catches these case by case. Worth a targeted spot-check of entries in the same batch cohort as 03500 (roughly 03400–03600).
+
+## Priority 15: `{ている}` furigana brace artifact in ASPECT notes
+
+**Source**: Comprehensive-polish 2026-06-01 session 003 (entries 04574–04594)
+
+Multiple verb entries use `{ている}` (furigana brace syntax) instead of plain `ている` or `(ている)` in their ASPECT section headers or notes. The furigana brace syntax `{X|Y}` is intended for kanji with readings, not for hiragana-only strings. The wrapped `{ている}` is a template artifact from batch entry creation.
+
+**Scope**: 49 entries confirmed across the entry set — concentrated in the 00000–00500 and 03500–04600 ranges.
+
+**Detection**: `grep -rl '{ている}' entries/ | wc -l`
+
+**Suggested action**: Simple regex replacement: `{ている}` → `ている` across all entries. Pure text substitution, no semantic judgment needed. Low risk.
+
+## Priority 16: `[Register: Neutral]` legacy artifact in notes
+
+**Source**: Comprehensive-polish 2026-06-01 session 003 (entries 04574–04594)
+
+Multiple entries have `[Register: Neutral]` or similar `[Register: ...]` strings at the end of their notes field. These are template artifacts from batch creation — the register information should be expressed via the `formality` metadata field rather than as trailing text in notes.
+
+**Scope**: 188 entries confirmed.
+
+**Detection**: `grep -rc '\[Register: ' entries/ | grep -v ':0$' | wc -l`
+
+**Suggested action**: Remove the `[Register: ...]` trailing lines from notes. Cross-check against the entry's `formality` field to ensure the information isn't lost. Mechanical sweep with validation.
 
 ## Informational: Pre-polished cohort around 00083–00090
 

@@ -1,6 +1,6 @@
 # Dictionary Lookup Behavior
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-02
 
 ## Overview
 
@@ -159,3 +159,4 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — production-oriented lookup as distinct from decoding lookup
 - [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — how entry-internal organization affects scanning, sense selection, and lookup success
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — how MT is replacing dictionary consultation for decoding and what lookup behaviors remain dictionary-dependent
+- [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — how L2 writers use dictionaries during the writing process, consultation strategies, and dictionary-induced errors

@@ -1,6 +1,6 @@
 # Dictionary Use in the Age of Machine Translation
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-06-02
 
 ## Overview
 
@@ -181,3 +181,4 @@ MT is inherently transactional: question in, answer out. A browsable dictionary 
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — where dictionaries uniquely add value
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — furigana as learning aid for alphabetic-L1 learners
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup challenges and furigana scaffolding
+- [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — production support as the strongest differentiator between dictionaries and MT
