@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-02 (Vocabulary Expansion - 15 New Entries, "seen in entry" Batch)
+Added 15 new dictionary entries (IDs 28573-28587) from `candidate_words.json`, covering all remaining "seen in entry" internal-completeness candidates (words already referenced inside existing entries 04535-04650 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
+
+- **Loanword nouns (4)**: グラサン (sunglasses, casual slang), ホットスポット (hotspot — biodiversity/Wi-Fi/figurative), スポットライト (spotlight, literal + figurative), 〜{感|かん} (sense/feel suffix)
+- **Native nouns (8)**: {戦|いくさ} (war, classical/literary), {式|しき} (formula; ceremony — 2 senses, 6 examples), {古今|ここん} (all ages, literary), {東大|とうだい} (Tokyo University abbreviation), {来賓|らいひん} (guest of honor), {旅行中|りょこうちゅう} (during a trip), {地熱|ちねつ} (geothermal heat), {栄養分|えいようぶん} (nutrients), {種|しゅ} (species, biology)
+- **Other (2)**: {躁鬱病|そううつびょう} (bipolar disorder), にほかならない (is nothing but — expression)
+
+All 15 entries validate on first pass; one furigana fix-up ({躁|そう}/{鬱|うつ} in 28587's explanation). One new kanji ({躁|そう}, ID 02765, gloss "manic") assigned readings and indexed. Candidate list synced (1570→1556).
+
 ### 2026-06-02 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28551-28572) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates in the C2141x-C2144x range (words referenced inside existing entries 04533-04632 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
