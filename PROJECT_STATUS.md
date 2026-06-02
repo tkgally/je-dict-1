@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-02 (Vocabulary Expansion - 24 New Entries, Everyday/Commerce Batch)
+Added 24 new dictionary entries (IDs 28588-28611) from `candidate_words.json`. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264). Concise glosses, 2–3 note sections each.
+
+- **Work and commerce (5)**: {教|おし}え{方|かた}, {月給制|げっきゅうせい}, {週給|しゅうきゅう}, {取締役会|とりしまりやくかい}, {義務化|ぎむか}
+- **Clothing and household (5)**: {晴雨兼用|せいうけんよう}, {厚手|あつで}, {膝下|ひざした}, {伝線|でんせん}, {追|お}いかけっこ
+- **Food (4)**: {無塩|むえん}, {有塩|ゆうえん}, スムージー, {七輪|しちりん}
+- **Vehicles (4)**: ボンネット, ホイール, {前輪|ぜんりん}, {後輪|こうりん}
+- **Other (6)**: {国際会議|こくさいかいぎ}, {有田焼|ありたやき}, ワイヤー, {予備軍|よびぐん} (2 senses), マウスパッド, {垂|た}れ{下|さ}がる (verb)
+
 ### 2026-06-02 (Vocabulary Expansion - 15 New Entries, "seen in entry" Batch)
 Added 15 new dictionary entries (IDs 28573-28587) from `candidate_words.json`, covering all remaining "seen in entry" internal-completeness candidates (words already referenced inside existing entries 04535-04650 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
 
