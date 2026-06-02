@@ -28,3 +28,6 @@ Each session appends a section. Within each section, prefix observations with a 
 _(All observations through 2026-06-01 session 003 have been harvested by the wiki maintenance session of 2026-06-02.)_
 
 [entry] 04730_foroo had incorrect semantic tags "building", "transportation" — corrected to "communication", "action".
+
+## 2026-06-02 — comprehensive polish session 002 (entries 04741–04760)
+- [pattern] Multiple entries had incorrect semantic tags: 04742 決勝 had "furniture"/"tool" (corrected to "sports"/"competition"); 04747 やばい had "weather" (corrected to "descriptive"); 04757 クラウド had "weather" (corrected to "technology"). These appear to be early entries created before tag conventions were established. A targeted semantic-tag audit of entries in the 04700–05000 range may be worthwhile.
