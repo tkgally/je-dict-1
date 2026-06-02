@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04862_kougaku_ex1",
-      "japanese": "{工学部|こうがくぶ}で{学|まな}んでいる。",
+      "japanese": "{工学部|こうがくぶ}⟦で→で：00502_de⟧⟦{学|まな}んでいる→学ぶ：01987_manabu⟧。",
       "english": "I'm studying in the engineering department.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04862_kougaku_ex2",
-      "japanese": "{電気|でんき}{工学|こうがく}を{専攻|せんこう}している。",
+      "japanese": "⟦{電気|でんき}→電気：09780_denki⟧{工学|こうがく}⟦を→を：00422_wo⟧⟦{専攻|せんこう}している→専攻：01587_senkou⟧。",
       "english": "I'm majoring in electrical engineering.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04862_kougaku_ex3",
-      "japanese": "{工学|こうがく}{博士|はかせ}を{取得|しゅとく}した。",
+      "japanese": "{工学|こうがく}⟦{博士|はかせ}→博士：03551_hakase⟧⟦を→を：00422_wo⟧⟦{取得|しゅとく}した→取得：11947_shutoku⟧。",
       "english": "I obtained a PhD in engineering.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{工学|こうがく} refers to engineering, the application of science and math to design practical solutions.\n\nCOMPONENTS:\n{工|こう} (craft, industry) + {学|がく} (study) = engineering studies\n\nCOMMON BRANCHES:\n- {機械|きかい}{工学|こうがく}: mechanical engineering\n- {電気|でんき}{工学|こうがく}: electrical engineering\n- {土木|どぼく}{工学|こうがく}: civil engineering\n- {情報|じょうほう}{工学|こうがく}: information/computer engineering\n- {化学|かがく}{工学|こうがく}: chemical engineering\n- {建築|けんちく}{工学|こうがく}: architectural engineering\n\nACADEMIC TERMS:\n- {工学部|こうがくぶ}: engineering department/faculty\n- {工学|こうがく}{博士|はかせ}: PhD in engineering\n- {工学|こうがく}{修士|しゅうし}: Master's in engineering\n\nCONTRAST:\n{理学|りがく} (science) focuses on theoretical understanding, while {工学|こうがく} (engineering) focuses on practical applications.",
+  "notes": "{工学|こうがく} refers to engineering, the application of science and math to design practical solutions.\n\nCOMPONENTS:\n{工|こう} (craft, industry) + {学|がく} (study) = engineering studies\n\nCOMMON BRANCHES:\n- ⟦{機械|きかい}→機械：02366_kikai⟧{工学|こうがく}: mechanical engineering\n- ⟦{電気|でんき}→電気：09780_denki⟧{工学|こうがく}: electrical engineering\n- ⟦{土木|どぼく}→土木：20599_doboku⟧{工学|こうがく}: civil engineering\n- ⟦{情報|じょうほう}→情報：03348_jouhou⟧{工学|こうがく}: information/computer engineering\n- ⟦{化学|かがく}→化学：05336_kagaku_chem⟧{工学|こうがく}: chemical engineering\n- ⟦{建築|けんちく}→建築：02709_kenchiku⟧{工学|こうがく}: architectural engineering\n\nACADEMIC TERMS:\n- {工学部|こうがくぶ}: engineering department/faculty\n- {工学|こうがく}⟦{博士|はかせ}→博士：03551_hakase⟧: PhD in engineering\n- {工学|こうがく}⟦{修士|しゅうし}→修士：11098_shuushi⟧: Master's in engineering\n\nCONTRAST:\n⟦{理学|りがく}→理学：noentry⟧ (science) focuses on theoretical understanding, while {工学|こうがく} (engineering) focuses on practical applications.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-16T00:32:18Z",
-    "modified": "2026-02-03T04:07:40Z",
+    "modified": "2026-06-02T20:10:05Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -60,8 +60,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "education",
-        "transportation"
+        "education"
       ]
     }
   }
