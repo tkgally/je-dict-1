@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-03] maintenance | Vocabulary testing research, observation harvest, stats sync
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 4 unprocessed observation blocks from `polishing/observations.md` — one standalone entry note about 04730_foroo and comprehensive-polish 2026-06-02 sessions 002 (entries 04741–04760), 003 (entries 04761–04782), and 004 (entries 04783–04801):
+  - `[pattern]` All three sessions documented continued wrong semantic tag errors extending the confirmed range into the 04700–05000 area. Session 002 found 決勝 with "furniture"/"tool", やばい with "weather", クラウド with "weather". Session 003 found "furniture" on yojijukugo entries 一期一会 and 四苦八苦 — confirming "furniture" as a template artifact in expression entries. Session 004 found 関数/魅力的/内閣 with "electronics"/"furniture". Updated cleanup-backlog P11 with expanded range (now 01490s through 04800s).
+  - `[pattern]` Furigana reading error: 04770 十人十色 had `{好|す}み` (wrong reading, should be `{好|この}み`). Filed to entry-followups as a spot-check candidate for wrong on'yomi/kun'yomi choice in this range.
+  - `[entry]` 04730_foroo had "building"/"transportation" tags corrected to "communication"/"action" in originating session. Filed to entry-followups (already fixed).
+  - Cleared all processed observations from `polishing/observations.md`
+- [B] Researched **vocabulary testing and assessment** and created `research/vocabulary-testing-assessment.md`. Covers Nation's (2001) nine-aspect vocabulary knowledge framework (form/meaning/use × receptive/productive = 18 cells); the breadth–depth–fluency trichotomy (Qian 2002, Kremmel & Schmitt 2016); six major vocabulary tests — VLT (Nation 1983, Schmitt/Schmitt/Clapham 2001, Webb/Sasao/Balance 2017 update with BNC/COCA word lists), VST (Nation & Beglar 2007, 140 items across 14 frequency levels, Rasch reliability .96), Yes/No test (Meara 1992, pseudoword correction formulas, overestimation bias research by Pellicer-Sánchez & Schmitt 2012 and Zhang/Liu/Ai 2020), VKS (Wesche & Paribakht 1996, five-stage self-report + performance scale, Read 2000 critique), PVLT (Laufer & Nation 1999, sentence completion with initial letters, .83–.89 reliability), WAT (Read 1993/1998, synonym + collocate selection, Batty 2012 bifactor analysis); Japanese-specific challenges (word-family counting problem for kanji compounds, script complexity and test design decisions, JLPT vs. J-CAT, absence of standard frequency-based Japanese vocabulary tests); and seven implications for je-dict-1 (entry structure maps to Nation's framework, depth features as differentiator, progressive information density serves VKS stages, three-tier system parallels frequency-level testing, cross-references function as WAT-style association network, productive gap motivates encoding features, no standard Japanese VST as both gap and opportunity). Added page to `index.md` and as a related page on `vocabulary-acquisition.md`, `depth-of-vocabulary-knowledge.md`, `productive-vocabulary-encoding.md`, `japanese-vocabulary-grading.md`, `vocabulary-learning-strategies.md`, and `vocabulary-size-coverage.md`.
+- [A] Updated stats across wiki pages to reflect 2026-06-03 `report.py` output (28,465 entries, 25,682 general, 16,275 cross-references, 0.57 per entry, ~112,322 total examples, 41.1% symmetry with 7,832 asymmetric refs, 1,507 candidates, 4,967 entries with inline links at 17.4%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/sense-relations-semantic-networks.md`. Updated "Last updated" dates on all modified pages plus `index.md`.
+
 ## [2026-06-02] maintenance | L2 writing research, observation harvest, stats sync
 
 **Session type**: Nightly maintenance

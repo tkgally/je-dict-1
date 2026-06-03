@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-02
+**Last updated**: 2026-06-03
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -231,7 +231,13 @@ The confirmed range now extends from the 01490s through at least the 04500s. The
 - 04533–04553: 04547 凸凹 "furniture"/"tool"→"general", 04549 伝染 "body-part"→"general", 04550 大金 "time-general"/"tool"→"work", 04535 サングラス "general"→"clothing", 04540 鉄砲 "general"→"weapon", 04544 団扇 "electronics"→"tool"
 - 04574–04594: 04583 聞き取る "geography"/"work"→"communication"/"action", 04585 早まる "electronics"/"time-general"→"action", 04589 枯れる "furniture"→"nature"/"action", 04590 思い切る "communication"→"action"
 
-The confirmed range now extends from the 01490s through at least the 04590s.
+**Update 2026-06-03**: Four more comprehensive-polish sessions (2026-06-02, entries 04730–04801) confirmed the pattern extends into the 04700–05000 range:
+- 04730 フォロー had "building"/"transportation"→"communication"/"action"
+- 04741–04760: 04742 決勝 "furniture"/"tool"→"sports"/"competition"; 04747 やばい "weather"→"descriptive"; 04757 クラウド "weather"→"technology"
+- 04761–04782: 04768 一期一会 and 04773 四苦八苦 both had "furniture"→"expression". The "furniture" tag now confirmed as a template artifact that crept into yojijukugo and expression entries created in bulk.
+- 04783–04801: 04796 関数 "electronics"→"general" (mathematics); 04799 魅力的 "furniture"→"general" (appearance); 04800 内閣 "furniture"→"general" (government)
+
+The confirmed range now extends from the 01490s through at least the 04800s. A targeted semantic-tag audit of the 04700–05000 range is warranted.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

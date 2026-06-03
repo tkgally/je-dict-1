@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-02
+**Last updated**: 2026-06-03
 
 
 ## How this wiki is organized
@@ -76,6 +76,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Dictionary Microstructure and Information Architecture](research/dictionary-microstructure.md) — Entry-internal organization, Wiegand's structural framework, information categories, sense ordering, navigation devices, and digital-era transformations
 - [Japanese Particles in L2 Acquisition](research/japanese-particles-l2.md) — Particle classification, は/が interface problem, acquisition order, L1 transfer effects, error patterns, cognitive-linguistic pedagogy, and dictionary treatment
 - [L2 Writing and Dictionary Consultation](research/l2-writing-dictionary-consultation.md) — How L2 writers use dictionaries, dictionary-induced errors, encoding challenges, collocation support, and Japanese-specific production problems
+- [Vocabulary Testing and Assessment](research/vocabulary-testing-assessment.md) — Major vocabulary tests (VLT, VST, VKS, PVLT, WAT), knowledge dimension frameworks, Japanese-specific challenges, and dictionary design implications
 
 ## Topics
 

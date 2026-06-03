@@ -188,3 +188,4 @@ The kanji compound transparency finding reinforces that je-dict-1's rich entry s
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — entry scope and counting-unit decisions
 - [Word Formation and Morphology](word-formation.md) — Japanese compounding and derivation patterns
 - [Corpus-Driven Entry Prioritization](../ideas/corpus-prioritization.md) — using frequency data to guide dictionary expansion
+- [Vocabulary Testing and Assessment](vocabulary-testing-assessment.md) — frequency-based vocabulary tests (VLT, VST) and the word-family counting problem for Japanese

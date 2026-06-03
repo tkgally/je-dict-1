@@ -152,3 +152,4 @@ The research consensus is that depth of knowledge — not just breadth — predi
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — formulaic knowledge as a dimension of depth: knowing a word's conventional multi-word contexts
 - [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — figurative knowledge as a depth dimension: knowing a word's metaphorical extensions
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — why MT cannot develop depth of knowledge: it delivers one translation, not the full knowledge dimensions
+- [Vocabulary Testing and Assessment](vocabulary-testing-assessment.md) — how breadth and depth are measured by different instruments (VLT, VST, WAT, VKS) and what the testing–dictionary alignment gap reveals

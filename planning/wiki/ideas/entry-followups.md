@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-03
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -281,6 +281,22 @@ Entry 04347_shika ({鹿|しか}, deer) has ex2 with the unusual furigana `{あ�
 挙げる (27889, "to cite/name") is distinct from 上げる (02443, "to raise/give"). Both exist as separate entries with different meanings. Future inline-linking sessions should be aware of the distinction to avoid linking to the wrong entry when either かな form あげる appears in examples or notes.
 
 **Status**: Informational — no entry fix needed, but noting for linking-session awareness.
+
+## 04730_foroo — Semantic tags "building"/"transportation" incorrect
+
+**Source**: Comprehensive-polish 2026-06-02 session (entry 04730)
+
+Entry 04730_foroo (フォロー) had semantic tags "building" and "transportation" — corrected to "communication" and "action" during the polishing session. Another instance of the wrong-semantic-tag pattern in [Cleanup Backlog](cleanup-backlog.md) → Priority 11, extending the confirmed range into the 04700s.
+
+**Status**: Already fixed in the originating session.
+
+## 04770 十人十色 — Furigana reading error pattern ({好|す}み → {好|この}み)
+
+**Source**: Comprehensive-polish 2026-06-02 session 003
+
+Entry 04770 十人十色 had `{好|す}み` — the wrong reading for 好み (should be このみ from 好む = このむ, not すみ). This type of error (wrong on'yomi/kun'yomi choice for a kanji in context) may appear elsewhere in the 04700–05000 range.
+
+**Status**: Already fixed in the originating session. Worth a spot-check for similar wrong-reading furigana errors in neighboring entries.
 
 ## Related pages
 

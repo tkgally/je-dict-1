@@ -188,3 +188,4 @@ je-dict-1 is positioned as a hybrid dictionary: bilingual in direction (J→E) b
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — production support as the strongest differentiator between dictionaries and MT
 - [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — particle selection as a critical encoding challenge; predicate lists and contrast information for production
 - [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — how L2 writers use dictionaries for production, dictionary-induced errors, and encoding challenges in practice
+- [Vocabulary Testing and Assessment](vocabulary-testing-assessment.md) — the PVLT measures the 20–50% receptive–productive gap that encoding dictionary features address
