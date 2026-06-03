@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04907_hikiwake_ex1",
-      "japanese": "{試合|しあい}は{引|ひ}き{分|わ}けに{終|お}わった。",
+      "japanese": "⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{引|ひ}き{分|わ}け⟦に→に：00314_ni⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The match ended in a draw.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04907_hikiwake_ex2",
-      "japanese": "１対１の{引|ひ}き{分|わ}けだった。",
+      "japanese": "１⟦{対|たい}→対：noentry⟧１⟦の→の：09472_no⟧{引|ひ}き{分|わ}け⟦だった→だ：noentry⟧。",
       "english": "It was a 1-1 tie.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04907_hikiwake_ex3",
-      "japanese": "{引|ひ}き{分|わ}けで{勝|か}ち{点|てん}１を{得|え}た。",
+      "japanese": "{引|ひ}き{分|わ}け⟦で→で：00502_de⟧⟦{勝|か}ち→勝ち：02540_kachi⟧⟦{点|てん}→点：01553_ten⟧１⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "We got one point from the draw.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "04907_hikiwake_ex4",
-      "japanese": "{今日|きょう}の{試合|しあい}は{引|ひ}き{分|わ}けになりそうだ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦は→は：00079_ha⟧{引|ひ}き{分|わ}け⟦に→に：00314_ni⟧⟦なり→なる：01970_naru⟧⟦そうだ→そう：01167_sou⟧。",
       "english": "Today's match looks like it will end in a draw.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "04907_hikiwake_ex5",
-      "japanese": "{三|さん}{連|れん}{引|ひ}き{分|わ}けが{続|つづ}いていて、{選手|せんしゅ}たちは{勝|か}ちたがっている。",
+      "japanese": "３⟦{連|れん}→連続：03783_renzoku⟧{引|ひ}き{分|わ}け⟦が→が：00051_ga⟧⟦{続|つづ}いて→続く：00903_tsuzuku⟧⟦いて→いる：00495_iru⟧、⟦{選手|せんしゅ}→選手：03823_senshu⟧たち⟦は→は：00079_ha⟧⟦{勝|か}ちたがって→勝つ：01199_katsu⟧⟦いる→いる：00495_iru⟧。",
       "english": "Three draws in a row have continued, and the players are eager to win.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{引|ひ}き{分|わ}け describes a tie or draw in competitions where neither side wins.\n\nWORD FORMATION:\n{引|ひ}く (to pull) + {分|わ}ける (to divide) — both sides pull equally\n\nCOMMON EXPRESSIONS:\n- {引|ひ}き{分|わ}けに{終|お}わる: to end in a draw\n- {引|ひ}き{分|わ}けに{持|も}ち{込|こ}む: to force a draw\n- 〇{対|たい}〇の{引|ひ}き{分|わ}け: a ~-~ tie\n\nSPORTS RESULTS:\n- {勝|か}ち: win\n- {負|ま}け: loss\n- {引|ひ}き{分|わ}け: draw/tie\n\nNOTE:\nIn league standings, often abbreviated as {分|ふん} or {分|わけ}.",
+  "notes": "{引|ひ}き{分|わ}け describes a tie or draw in competitions where neither side wins.\n\nWORD FORMATION:\n⟦{引|ひ}く→引く：01978_hiku⟧ (to pull) + ⟦{分|わ}ける→分ける：02333_wakeru⟧ (to divide) — both sides pull equally\n\nCOMMON EXPRESSIONS:\n- {引|ひ}き{分|わ}け⟦に→に：00314_ni⟧⟦{終|お}わる→終わる：00567_owaru⟧: to end in a draw\n- {引|ひ}き{分|わ}け⟦に→に：00314_ni⟧⟦{持|も}ち{込|こ}む→持ち込む：04226_mochikomu⟧: to force a draw\n\nSPORTS RESULTS:\n- ⟦{勝|か}ち→勝ち：02540_kachi⟧: win\n- ⟦{負|ま}け→負け：02569_make⟧: loss\n- {引|ひ}き{分|わ}け: draw/tie",
   "cross_references": [
     {
       "type": "related",
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T00:35:11Z",
-    "modified": "2026-04-03T12:09:30Z",
+    "modified": "2026-06-03T14:07:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,7 +85,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "clothing"
+        "leisure"
       ]
     }
   }
