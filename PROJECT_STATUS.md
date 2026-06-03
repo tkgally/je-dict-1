@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-02
+**Last updated**: 2026-06-03
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-03 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 28631-28655) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04417-04856. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses, notes scoped to 2-3 focused sections.
+
+- **Tech / loanwords (7)**: {実装|じっそう} (implementation, also suru), ブロードバンド, インスタントカメラ, コストパフォーマンス, {内課金|ないかきん} (in-app purchase), ハイパーインフレ, デフレーション
+- **Sports / leisure (5)**: フットサル, フットボール, ホットヨガ, ヨガウェア, {打|う}ちっ{放|ぱな}し (2 senses: driving range / exposed concrete), {会員権|かいいんけん} (membership), {正捕手|せいほしゅ} (starting catcher)
+- **Medical (3)**: {弁膜症|べんまくしょう} (valvular heart disease), {痴呆症|ちほうしょう} (old/offensive term for dementia), {見当識|けんとうしき} (orientation)
+- **Economics / formal (3)**: {年利|ねんり} (annual interest rate), {恐慌|きょうこう} (depression / panic, 2 senses), {高層建|こうそうだ}て (high-rise building)
+- **Philosophy / emotion (3)**: {虚無主義|きょむしゅぎ} (nihilism), {虚無的|きょむてき} (nihilistic, na-adj), {屈辱的|くつじょくてき} (humiliating, na-adj)
+- **Verbs (2)**: {苛|さいな}む (godan, to torment), {脱|だっ}する (suru, to escape from)
+
+All 25 entries validate. One romaji fix-up pre-build (yogauea → yogawea, since ウェ → we). Two `domain: ["computing"]` tags corrected to `"technical"`. Conjugation tables added to 2 verbs (1 godan + 1 suru) plus 28631_jissou's suru pattern. No new kanji. Candidate list synced (1560→1535).
 
 ### 2026-06-03 (Vocabulary Expansion - 19 New Entries, Internal-Completeness Batch)
 Added 19 new entries (IDs 28612-28630) filling internal-completeness gaps — words that already appeared in other entries' examples or notes but lacked their own entries. Concise per-field budgets following {もてなし} (27261) shape.
