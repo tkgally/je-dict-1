@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05044_hinata_ex1",
-      "japanese": "{猫|ねこ}が{日向|ひなた}で{気持|きも}ちよさそうに{寝|ね}ている。",
+      "japanese": "⟦{猫|ねこ}→猫：02237_neko⟧⟦が→が：00051_ga⟧{日向|ひなた}⟦で→で：00502_de⟧⟦{気持|きも}ちよさそうに→気持ちいい：09583_kimochiii⟧⟦{寝|ね}ている→寝る：00470_neru⟧。",
       "english": "The cat is sleeping contentedly in the sunny spot.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "05044_hinata_ex2",
-      "japanese": "{冬|ふゆ}は{日向|ひなた}で{本|ほん}を{読|よ}むのが{好|す}きだ。",
+      "japanese": "⟦{冬|ふゆ}→冬：00623_fuyu⟧⟦は→は：00079_ha⟧{日向|ひなた}⟦で→で：00502_de⟧⟦{本|ほん}→本：00111_hon⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{好|す}きだ→好き：02355_suki⟧。",
       "english": "In winter, I like reading books in the sunshine.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "05044_hinata_ex3",
-      "japanese": "{洗濯物|せんたくもの}を{日向|ひなた}に{干|ほ}す。",
+      "japanese": "⟦{洗濯物|せんたくもの}→洗濯物：09533_sentakumono⟧⟦を→を：00422_wo⟧{日向|ひなた}⟦に→に：00314_ni⟧⟦{干|ほ}す→干す：00115_hosu⟧。",
       "english": "I hang the laundry out in the sun.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "{日向|ひなた} refers to a sunny spot or place in the sun. {日|ひ} means 'sun' and {向|なた} relates to direction/facing.\n\nCOMMON EXPRESSIONS:\n- {日向|ひなた}で{干|ほ}す: to dry in the sun\n- {日向|ひなた}ぼっこ: sunbathing, basking in the sun\n- {日向|ひなた}の{匂|にお}い: the smell of sunshine (on dried clothes/bedding)\n- {日向|ひなた}と{日陰|ひかげ}: sunny and shady spots\n\nOPPOSITE:\n- {日陰|ひかげ}: shady spot, shade\n\nAS NAME:\n- {日向|ひなた} is a common given name (unisex)\n- {日向|ひゅうが}: old name for Miyazaki Prefecture\n\nIDIOMATIC:\n- {日向|ひなた}に{出|で}る: to come into the light/spotlight",
+  "notes": "{日向|ひなた} refers to a sunny spot or place in the sun. {日|ひ} means 'sun' and {向|なた} relates to direction/facing.\n\nCOMMON EXPRESSIONS:\n- {日向|ひなた}⟦で→で：00502_de⟧⟦{干|ほ}す→干す：00115_hosu⟧: to dry in the sun\n- ⟦{日向|ひなた}ぼっこ→日向ぼっこ：18018_hinatabokko⟧: sunbathing, basking in the sun\n- {日向|ひなた}⟦の→の：09472_no⟧⟦{匂|にお}い→匂い：00874_nioi⟧: the smell of sunshine (on dried clothes/bedding)\n- {日向|ひなた}⟦と→と：00512_to⟧⟦{日陰|ひかげ}→日陰：00100_hikage⟧: sunny and shady spots\n\nOPPOSITE:\n- ⟦{日陰|ひかげ}→日陰：00100_hikage⟧: shady spot, shade\n\nAS NAME:\n- {日向|ひなた} is a common given name (unisex)\n- ⟦{日向|ひゅうが}→日向：noentry⟧: old name for Miyazaki Prefecture\n\nIDIOMATIC:\n- {日向|ひなた}⟦に→に：00314_ni⟧⟦{出|で}る→出る：00513_deru⟧: to come into the light/spotlight",
   "metadata": {
     "created": "2026-01-14T10:37:17Z",
-    "modified": "2026-04-02T04:29:40Z",
+    "modified": "2026-06-03T21:11:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -64,6 +64,13 @@
       "reading": "ひかげ",
       "headword": "{日陰|ひかげ}",
       "label": "shade"
+    },
+    {
+      "type": "related",
+      "target_id": "05043_kokage",
+      "reading": "こかげ",
+      "headword": "{木陰|こかげ}",
+      "label": "shade of a tree"
     }
   ]
 }
