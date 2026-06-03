@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-03 (Vocabulary Expansion - 18 New Entries, Common Expressions Batch)
+Added 18 new dictionary entries (IDs 28657-28674) from `candidate_words.json`, focusing on common expressions, particles, prefixes, and colloquial vocabulary that had accumulated as older candidates. One initial attempt at {超|ちょう}〜 was discarded mid-session as a duplicate of 28619 (created earlier the same day). Per-field budgets followed the reference shape of {もてなし} (27261) — short top-level glosses, notes scoped to 2-3 focused sections.
+
+- **Prefixes / conjunctions (3)**: {既|き}〜 (pre-/already-), ましては (let alone — formal), 〜だけで (just by; merely from)
+- **Adverbs / postpositions (2)**: {先|さき}に (first; earlier — 2 senses, 6 examples), {向|む}かって (facing; toward)
+- **Expressions (5)**: やってしまう (to finish / to mess up — 2 senses, 6 examples), {山|やま}のよう (a mountain of), オチがつく (to come to a punchline), ぎこちなくなる (to turn awkward), {尾|お}ひれをつける (to embellish a story)
+- **Casual / colloquial (4)**: おっしゃ (Alright! — masculine interjection), {腹|はら}{痛|いた}い (stomachache / so funny it hurts — 2 senses, 6 examples), どっちでもいい (either is fine — casual), どちらか (either one of two)
+- **Verbs (2)**: {習|なら}い{慣|な}れる (ichidan, to grow accustomed through practice), {間抜|まぬ}ける (ichidan, to be silly / vacant-witted)
+- **Nouns (2)**: うつむき{加減|かげん} (head slightly bowed), {癖字|くせじ} (idiosyncratic handwriting)
+
+All 18 entries validate after a fix-up round: five `formality: "casual"` values corrected to `"informal"`; one romaji corrected (mashitewa → mashiteha for ましては); one furigana fix ({自分|じぶん} in 28663). Two ichidan verbs and one i-adjective received full conjugation tables. No new kanji. Eight stale candidates removed during pre-flight duplicate scan (七 suffix-duplicates plus 〜つつ, 注ぐ, 超 which already existed as 28619).
+
 ### 2026-06-03 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 28631-28655) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04417-04856. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses, notes scoped to 2-3 focused sections.
 
