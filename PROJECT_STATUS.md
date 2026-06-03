@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-03 (Vocabulary Expansion - 19 New Entries, Internal-Completeness Batch)
+Added 19 new entries (IDs 28612-28630) filling internal-completeness gaps — words that already appeared in other entries' examples or notes but lacked their own entries. Concise per-field budgets following {もてなし} (27261) shape.
+
+- **People / appearance (3)**: {美女|びじょ}, {塩顔|しおがお}, {戦略家|せんりゃくか}
+- **Tax / commerce suffixes (4)**: {込|こ}み, {税率|ぜいりつ}, {税別|ぜいべつ}, {超|ちょう}〜
+- **Society / time (3)**: {現代的|げんだいてき}, {少子|しょうし}, {戦時中|せんじちゅう}
+- **Chemistry (2)**: {酸|さん}, アルカリ
+- **Onomatopoeia / sensation (5)**: むっつり, むっとする, ぷるぷる, ぷにぷに, ばさばさ
+- **Verbs / adjectives (2)**: とろける, {未練|みれん}たらしい
+
+Cross-references added between 酸 ↔ アルカリ, 税別 → 税込, 戦時中 ↔ 戦前/戦後, 現代的 ↔ 伝統的, 未練たらしい ↔ 未練がましい. Also removed 2 stale candidates (感, 士) that already existed as suffix entries.
+
 ### 2026-06-02 (Vocabulary Expansion - 24 New Entries, Everyday/Commerce Batch)
 Added 24 new dictionary entries (IDs 28588-28611) from `candidate_words.json`. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264). Concise glosses, 2–3 note sections each.
 
