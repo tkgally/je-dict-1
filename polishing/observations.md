@@ -26,3 +26,5 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-06-02 session 004 have been harvested by the wiki maintenance session of 2026-06-03.)_
+
+[pattern] 2026-06-03 session 006: Wrong semantic tags found on household/food entries — 04985 浴槽 had "animal-mammal", 04988 洗面台 had "animal-mammal" and "transportation", 04992 前菜 had "electronics". These appear to be bulk-assignment errors from initial entry creation. When polishing entries in the 04800-05200 range, check semantic tags in addition to inline links. Running `python3 build/validate_tags.py` after polishing batches would help catch these.
