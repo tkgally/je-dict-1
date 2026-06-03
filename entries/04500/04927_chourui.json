@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04927_chourui_ex1",
-      "japanese": "{鳥類|ちょうるい}は{羽毛|うもう}を{持|も}っています。",
+      "japanese": "{鳥類|ちょうるい}⟦は→は：00079_ha⟧⟦{羽毛|うもう}→羽毛：13915_umou⟧⟦を→を：00422_wo⟧⟦{持|も}っています→持つ：00478_motsu⟧。",
       "english": "Birds have feathers.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04927_chourui_ex2",
-      "japanese": "ペンギンも{鳥類|ちょうるい}の{一種|いっしゅ}です。",
+      "japanese": "⟦ペンギン→ペンギン：06500_pengin⟧⟦も→も：00484_mo⟧{鳥類|ちょうるい}⟦の→の：09472_no⟧⟦{一種|いっしゅ}→一種：01628_isshu⟧⟦です→です：09485_desu⟧。",
       "english": "Penguins are also a type of bird.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04927_chourui_ex3",
-      "japanese": "{鳥類|ちょうるい}の{多|おお}くは{空|そら}を{飛|と}ぶことができます。",
+      "japanese": "{鳥類|ちょうるい}⟦の→の：09472_no⟧⟦{多|おお}く→多く：18752_ooku⟧⟦は→は：00079_ha⟧⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦できます→できる：00557_dekiru⟧。",
       "english": "Most birds can fly.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{鳥類|ちょうるい} is the scientific classification term for birds.\n\n{鳥|ちょう} means \"bird\" and {類|るい} means \"class/category.\"\n\nNote: In everyday speech, {鳥|とり} is used. {鳥類|ちょうるい} is more formal/scientific.\n\nCharacteristics of birds:\n- {羽毛|うもう} (feathers)\n- {嘴|くちばし} (beak)\n- {卵|たまご}を{産|う}む (lay eggs)\n\nRelated classification terms:\n- {哺乳類|ほにゅうるい} (mammals)\n- {爬虫類|はちゅうるい} (reptiles)\n- {魚類|ぎょるい} (fish)",
+  "notes": "{鳥類|ちょうるい} is the scientific classification term for birds.\n\n⟦{鳥|ちょう}→鳥：00679_tori⟧ means \"bird\" and ⟦{類|るい}→類：15121_rui⟧ means \"class/category.\"\n\nNote: In everyday speech, ⟦{鳥|とり}→鳥：00679_tori⟧ is used. {鳥類|ちょうるい} is more formal/scientific.\n\nCharacteristics of birds:\n- ⟦{羽毛|うもう}→羽毛：13915_umou⟧ (feathers)\n- ⟦{嘴|くちばし}→くちばし：18626_kuchibashi⟧ (beak)\n- ⟦{卵|たまご}→卵：02222_tamago⟧⟦を→を：00422_wo⟧⟦{産|う}む→産む：01899_umu⟧ (lay eggs)\n\nRelated classification terms:\n- ⟦{哺乳類|ほにゅうるい}→哺乳類：04920_honyuurui⟧ (mammals)\n- ⟦{爬虫類|はちゅうるい}→爬虫類：04921_hachuurui⟧ (reptiles)\n- ⟦{魚類|ぎょるい}→魚類：04925_gyorui⟧ (fish)",
   "cross_references": [
     {
       "type": "related",
@@ -76,7 +76,7 @@
   ],
   "metadata": {
     "created": "2026-01-14T13:31:53Z",
-    "modified": "2026-04-10T12:45:13Z",
+    "modified": "2026-06-03T15:10:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -86,7 +86,7 @@
       "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "animal-general"
       ]
     }
   }

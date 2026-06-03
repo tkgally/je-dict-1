@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "04917_dashi_ex1",
-      "japanese": "{出汁|だし}を{取|と}る。",
+      "japanese": "{出汁|だし}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧。",
       "english": "To make soup stock.",
       "notes": "出汁を取る is the standard expression for making/extracting dashi",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "04917_dashi_ex2",
-      "japanese": "{昆布|こんぶ}と{鰹節|かつおぶし}で{出汁|だし}を{作|つく}りました。",
+      "japanese": "⟦{昆布|こんぶ}→昆布：04934_konbu⟧⟦と→と：00512_to⟧⟦{鰹節|かつおぶし}→鰹節：04935_katsuobushi⟧⟦で→で：00502_de⟧{出汁|だし}⟦を→を：00422_wo⟧⟦{作|つく}りました→作る：00481_tsukuru⟧。",
       "english": "I made dashi from kelp and dried bonito flakes.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "04917_dashi_ex3",
-      "japanese": "この{味噌汁|みそしる}は{出汁|だし}が{効|き}いていて{美味|おい}しい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧⟦は→は：00079_ha⟧{出汁|だし}⟦が→が：00051_ga⟧⟦{効|き}いていて→効く：01932_kiku⟧⟦{美味|おい}しい→美味しい：00740_oishii⟧。",
       "english": "This miso soup tastes good because the dashi flavor comes through well.",
       "notes": "出汁が効く means the dashi flavor is prominent",
       "has_audio": false,
@@ -43,11 +43,11 @@
       ]
     }
   ],
-  "notes": "{出汁|だし} is the foundational flavoring liquid in Japanese cooking, essential to {味噌汁|みそしる}, {煮物|にもの}, and many other dishes. It provides the umami base that defines Japanese cuisine.\n\nCOMMON TYPES:\n- {昆布|こんぶ}{出汁|だし}: kelp stock\n- {鰹|かつお}{出汁|だし}: bonito stock\n- {合|あ}わせ{出汁|だし}: combination stock (kelp + bonito)\n- {煮干|にぼ}し{出汁|だし}: dried sardine stock\n\nCOMMON EXPRESSIONS:\n- {出汁|だし}を{取|と}る: to make/extract stock\n- {出汁|だし}が{効|き}いている: the dashi flavor comes through well\n- {顆粒|かりゅう}だし: instant dashi granules\n\nWRITING:\nAlso written as だし or ダシ in casual contexts. The kanji {出汁|だし} is an {当|あ}て{字|じ} (kanji applied for phonetic value).\n\nCULTURE:\nMaking dashi from scratch is considered a key skill in Japanese cooking, though instant granules are widely used for everyday meals.",
+  "notes": "{出汁|だし} is the foundational flavoring liquid in Japanese cooking, essential to ⟦{味噌汁|みそしる}→味噌汁：04954_misoshiru⟧, ⟦{煮物|にもの}→煮物：04971_nimono⟧, and many other dishes. It provides the umami base that defines Japanese cuisine.\n\nCOMMON TYPES:\n- ⟦{昆布|こんぶ}→昆布：04934_konbu⟧{出汁|だし}: kelp stock\n- ⟦{鰹|かつお}→鰹：06106_katsuo⟧{出汁|だし}: bonito stock\n- ⟦{合|あ}わせ→合わせる：01872_awaseru⟧{出汁|だし}: combination stock (kelp + bonito)\n- ⟦{煮干|にぼ}し→煮干し：13408_niboshi⟧{出汁|だし}: dried sardine stock\n\nCOMMON EXPRESSIONS:\n- {出汁|だし}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧: to make/extract stock\n- {出汁|だし}⟦が→が：00051_ga⟧⟦{効|き}いている→効く：01932_kiku⟧: the dashi flavor comes through well\n- ⟦{顆粒|かりゅう}→顆粒：24069_karyuu⟧だし: instant dashi granules\n\nWRITING:\nAlso written as だし or ダシ in casual contexts. The kanji {出汁|だし} is an ⟦{当|あ}て{字|じ}→当て字：12539_ateji⟧ (kanji applied for phonetic value).\n\nCULTURE:\nMaking dashi from scratch is considered a key skill in Japanese cooking, though instant granules are widely used for everyday meals.",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-14T12:48:25Z",
-    "modified": "2026-03-28T07:51:23Z",
+    "modified": "2026-06-03T15:10:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,8 +57,7 @@
       "formality": "informal",
       "politeness": "plain",
       "semantic": [
-        "food",
-        "work"
+        "food"
       ]
     }
   }
