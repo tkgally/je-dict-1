@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-03
+**Last updated**: 2026-06-04
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -297,6 +297,16 @@ Entry 04730_foroo (フォロー) had semantic tags "building" and "transportatio
 Entry 04770 十人十色 had `{好|す}み` — the wrong reading for 好み (should be このみ from 好む = このむ, not すみ). This type of error (wrong on'yomi/kun'yomi choice for a kanji in context) may appear elsewhere in the 04700–05000 range.
 
 **Status**: Already fixed in the originating session. Worth a spot-check for similar wrong-reading furigana errors in neighboring entries.
+
+## 05037_kyoukoku — 浸食 vs 侵食 kanji variant in notes
+
+**Source**: Comprehensive-polish 2026-06-03 session 008
+
+Entry 05037_kyoukoku ({峡谷|きょうこく}, canyon/gorge) uses `{浸食|しんしょく}` (浸 kanji, "soak/permeate") in its notes, but the dictionary only has entry 10927_shinshoku for {侵食|しんしょく} (侵 kanji, "erode/encroach"). The entry was marked `noentry` for 浸食.
+
+Both kanji are used for しんしょく in geological contexts (浸食 emphasizes water seepage, 侵食 emphasizes erosion/encroachment), but 侵食 is the standard geological term. The two are near-synonyms with overlapping usage.
+
+**Recommended fix**: Either (a) add 浸食 as a kanji-variant cross-reference or note in entry 10927_shinshoku, or (b) create a separate entry for 浸食 if the distinction between water-driven erosion (浸食) and general encroachment (侵食) is pedagogically valuable. Option (a) is simpler and aligns with the dictionary's handling of other kanji variants.
 
 ## Related pages
 

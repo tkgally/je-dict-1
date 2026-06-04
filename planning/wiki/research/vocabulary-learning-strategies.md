@@ -1,6 +1,6 @@
 # Vocabulary Learning Strategies
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-06-04
 
 ## Overview
 
@@ -235,6 +235,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — How learners navigate the lookup process
 - [Sense Relations and Semantic Networks](sense-relations-semantic-networks.md) — Paradigmatic relations and the clustering debate
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — Kanji acquisition and morphological awareness
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Collocations in Learner Dictionaries](collocations.md) — Collocation knowledge as productive vocabulary
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — The tier system as a strategy support mechanism
 - [Word Formation and Morphology](word-formation.md) — Morphological patterns that enable word part analysis
