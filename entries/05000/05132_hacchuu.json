@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05132_hacchuu_ex1",
-      "japanese": "{部品|ぶひん}を{発注|はっちゅう}した。",
+      "japanese": "⟦{部品|ぶひん}→部品：00020_buhin⟧⟦を→を：00422_wo⟧{発注|はっちゅう}⟦した→する：00392_suru⟧。",
       "english": "I placed an order for parts.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05132_hacchuu_ex2",
-      "japanese": "{発注|はっちゅう}{書|しょ}を{送|おく}る。",
+      "japanese": "⟦{発注|はっちゅう}{書|しょ}→発注書：08069_hacchuusho⟧⟦を→を：00422_wo⟧⟦{送|おく}る→送る：00742_okuru⟧。",
       "english": "To send a purchase order.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05132_hacchuu_ex3",
-      "japanese": "{在庫|ざいこ}が{少|すく}なくなったので、{追加|ついか}{発注|はっちゅう}をした。",
+      "japanese": "⟦{在庫|ざいこ}→在庫：04701_zaiko⟧⟦が→が：00051_ga⟧⟦{少|すく}なく→少ない：01136_sukunai⟧⟦なった→なる：01970_naru⟧⟦ので→ので：09501_node⟧、⟦{追加|ついか}→追加：04060_tsuika⟧{発注|はっちゅう}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "Since the inventory was running low, I placed an additional order.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than {注文|ちゅうもん}, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}する: to place an order\n- {発注|はっちゅう}{書|しょ}: purchase order (document)\n- {発注|はっちゅう}{先|さき}: supplier, vendor\n- {追加|ついか}{発注|はっちゅう}: additional order\n- {大量|たいりょう}{発注|はっちゅう}: bulk order\n\nCONTRAST:\n- {注文|ちゅうもん}: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- {受注|じゅちゅう}: receiving an order (the opposite side of the transaction)",
+  "notes": "{発注|はっちゅう} is a business term for placing an order with a supplier or manufacturer. More formal and specific than ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧, which covers general ordering including at restaurants.\n\nCOMMON COLLOCATIONS:\n- {発注|はっちゅう}⟦する→する：00392_suru⟧: to place an order\n- ⟦{発注|はっちゅう}{書|しょ}→発注書：08069_hacchuusho⟧: purchase order (document)\n- {発注|はっちゅう}⟦{先|さき}→先：02883_saki⟧: supplier, vendor\n- ⟦{追加|ついか}→追加：04060_tsuika⟧{発注|はっちゅう}: additional order\n- ⟦{大量|たいりょう}→大量：03112_tairyou⟧{発注|はっちゅう}: bulk order\n\nCONTRAST:\n- ⟦{注文|ちゅうもん}→注文：03485_chuumon⟧: general term for ordering (restaurants, online shopping, etc.)\n- {発注|はっちゅう}: specifically placing orders with suppliers in a business context\n- ⟦{受注|じゅちゅう}→受注：05133_juchuu⟧: receiving an order (the opposite side of the transaction)",
   "cross_references": [
     {
       "type": "antonym",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-13T03:56:25Z",
+    "modified": "2026-06-04T16:09:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
