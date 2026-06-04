@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05154_kabuka_ex1",
-      "japanese": "{株価|かぶか}が{急落|きゅうらく}した。",
+      "japanese": "{株価|かぶか}⟦が→が：00051_ga⟧⟦{急落|きゅうらく}した→急落：09399_kyuuraku⟧。",
       "english": "The stock price plummeted.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05154_kabuka_ex2",
-      "japanese": "{今日|きょう}の{株価|かぶか}を{確認|かくにん}する。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦の→の：09472_no⟧{株価|かぶか}⟦を→を：00422_wo⟧⟦{確認|かくにん}する→確認する：25332_kakuninsuru⟧。",
       "english": "To check today's stock prices.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05154_kabuka_ex3",
-      "japanese": "{株価|かぶか}が{上昇|じょうしょう}して{利益|りえき}が{出|で}た。",
+      "japanese": "{株価|かぶか}⟦が→が：00051_ga⟧⟦{上昇|じょうしょう}して→上昇する：21681_joushousuru⟧⟦{利益|りえき}→利益：03673_rieki⟧⟦が→が：00051_ga⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I made a profit because the stock price rose.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{株価|かぶか} is the price of a single share of stock on the market. A compound of {株|かぶ} (stock) + {価|か} (price). Frequently appears in news and financial reporting.\n\nCOMMON COLLOCATIONS:\n- {株価|かぶか}が{上|あ}がる: stock price rises\n- {株価|かぶか}が{下|さ}がる: stock price falls\n- {株価|かぶか}が{暴落|ぼうらく}する: stock price crashes\n- {株価|かぶか}{指数|しすう}: stock price index\n- {株価|かぶか}{変動|へんどう}: stock price fluctuation\n\nRELATED TERMS:\n- {株|かぶ}: stock, share (basic term)\n- {株式|かぶしき}: stocks, shares (formal)\n- {株主|かぶぬし}: shareholder\n- {相場|そうば}: market price (general)",
+  "notes": "{株価|かぶか} is the price of a single share of stock on the market. A compound of ⟦{株|かぶ}→株：02592_kabu⟧ (stock) + ⟦{価|か}→価：noentry⟧ (price). Frequently appears in news and financial reporting.\n\nCOMMON COLLOCATIONS:\n- {株価|かぶか}⟦が→が：00051_ga⟧⟦{上|あ}がる→上がる：00615_agaru⟧: stock price rises\n- {株価|かぶか}⟦が→が：00051_ga⟧⟦{下|さ}がる→下がる：01188_sagaru⟧: stock price falls\n- {株価|かぶか}⟦が→が：00051_ga⟧⟦{暴落|ぼうらく}する→暴落：09401_bouraku⟧: stock price crashes\n- {株価|かぶか}⟦{指数|しすう}→指数：20414_shisuu⟧: stock price index\n- {株価|かぶか}⟦{変動|へんどう}→変動：09936_hendou⟧: stock price fluctuation\n\nRELATED TERMS:\n- ⟦{株|かぶ}→株：02592_kabu⟧: stock, share (basic term)\n- ⟦{株式|かぶしき}→株式：04772_kabushiki⟧: stocks, shares (formal)\n- ⟦{株主|かぶぬし}→株主：15274_kabunushi⟧: shareholder\n- ⟦{相場|そうば}→相場：07668_souba⟧: market price (general)",
   "cross_references": [
     {
       "type": "related",
@@ -83,7 +83,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-22T08:43:07Z",
+    "modified": "2026-06-04T17:10:30Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -93,7 +93,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "finance"
       ]
     }
   }
