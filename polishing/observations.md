@@ -48,3 +48,7 @@ _(All observations through 2026-06-03 session 008 have been harvested by the wik
 [pattern] Adverb entries 05173_nurunuru and 05175_tsurutsuru had spurious `verb_class: "godan-ru"` in their tags and a full conjugation table (forms like ぬるぬらない, つるつらない) — nonsensical since they are mimetic adverbs, not verbs. This suggests a batch-generation bug where some adverb entries were processed by the verb-conjugation pipeline. Worth running a targeted scan across adverb entries for the presence of `verb_class` tags or `conjugation` fields, and removing them.
 
 [entry] 05176_gorogoro notes: 河原 (riverbed, かわら) appears as noentry because 03902_kawara is 瓦 (roof tile, also かわら) — a different word. 河原 needs its own entry.
+
+## 2026-06-04 — comprehensive polish session 017 (entries 05211–05230)
+
+[pattern] Multiple entries in the 05211–05230 range had severely wrong semantic tags (e.g., 取材 tagged as "building, education, transportation"; 忍耐 tagged as "clothing, time-general"; 広報 tagged as "geography"). Fixed four entries this session (05212, 05221, 05227, 05228). A bulk scan of semantic tags in the 05000–05500 range may find more systematic misclassifications from the same batch-generation run.
