@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05134_nouhin_ex1",
-      "japanese": "{明日|あした}{納品|のうひん}する{予定|よてい}です。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧{納品|のうひん}⟦する→する：00392_suru⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦です→です：09485_desu⟧。",
       "english": "We are scheduled to deliver tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05134_nouhin_ex2",
-      "japanese": "{納品|のうひん}{日|び}を{確認|かくにん}してください。",
+      "japanese": "{納品|のうひん}⟦{日|び}→日：02249_hi⟧⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦して→する：00392_suru⟧⟦ください→下さい：02899_kudasai⟧。",
       "english": "Please confirm the delivery date.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05134_nouhin_ex3",
-      "japanese": "{納品|のうひん}{書|しょ}にサインをお{願|ねが}いします。",
+      "japanese": "⟦{納品|のうひん}{書|しょ}→納品書：06594_nouhinsho⟧⟦に→に：00314_ni⟧⟦サイン→サイン：03846_sain⟧⟦を→を：00422_wo⟧⟦お{願|ねが}い→お願い：10299_onegai⟧⟦します→する：00392_suru⟧。",
       "english": "Please sign the delivery note.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "{納品|のうひん} means delivering ordered goods to a client or customer. The kanji break down as {納|のう} (deliver/supply) + {品|ひん} (goods). It functions as a noun and する verb, and is primarily used in business contexts.\n\nCOMMON COLLOCATIONS:\n- {納品|のうひん}する: to deliver goods\n- {納品|のうひん}{日|び}/{納品|のうひん}{期日|きじつ}: delivery date/deadline\n- {納品|のうひん}{書|しょ}: delivery slip/invoice\n- {納品|のうひん}{先|さき}: delivery destination\n- {納品|のうひん}{期限|きげん}に{間|ま}に{合|あ}う: to make the delivery deadline\n\nCONTRAST:\n- {配達|はいたつ}: general delivery (mail, packages to individuals)\n- {出荷|しゅっか}: shipping (sending goods from a warehouse)\n- {納品|のうひん}: formal delivery of ordered goods to a business client\n\n{納品|のうひん} implies a business transaction where ordered goods are formally handed over.",
+  "notes": "{納品|のうひん} means delivering ordered goods to a client or customer. The kanji break down as {納|のう} (deliver/supply) + {品|ひん} (goods). It functions as a noun and する verb, and is primarily used in business contexts.\n\nCOMMON COLLOCATIONS:\n- {納品|のうひん}⟦する→する：00392_suru⟧: to deliver goods\n- {納品|のうひん}⟦{日|び}→日：02249_hi⟧/⟦{納品|のうひん}{期日|きじつ}→納品期日：noentry⟧: delivery date/deadline\n- ⟦{納品|のうひん}{書|しょ}→納品書：06594_nouhinsho⟧: delivery slip/invoice\n- {納品|のうひん}⟦{先|さき}→先：02883_saki⟧: delivery destination\n- {納品|のうひん}⟦{期限|きげん}→期限：12861_kigen⟧⟦に→に：00314_ni⟧⟦{間|ま}に{合|あ}う→間に合う：01142_maniau⟧: to make the delivery deadline\n\nCONTRAST:\n- ⟦{配達|はいたつ}→配達：00084_haitatsu⟧: general delivery (mail, packages to individuals)\n- ⟦{出荷|しゅっか}→出荷：05135_shukka⟧: shipping (sending goods from a warehouse)\n- {納品|のうひん}: formal delivery of ordered goods to a business client\n\n{納品|のうひん} implies a business transaction where ordered goods are formally handed over.",
   "cross_references": [
     {
       "type": "related",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T02:32:54Z",
-    "modified": "2026-04-13T03:56:25Z",
+    "modified": "2026-06-04T16:09:35Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
