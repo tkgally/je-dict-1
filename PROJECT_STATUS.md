@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-04 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 28697-28721) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04885-04949. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Loanwords / household (4)**: ドアホン (door phone), アクリル (acrylic), テラバイト (terabyte), ミリリットル (milliliter)
+- **Animals / nature (7)**: {変温動物|へんおんどうぶつ} (cold-blooded animal), ガマ (toad), {山椒魚|さんしょううお} (salamander), おたまじゃくし (tadpole — 2 senses: animal + musical note), えら (gills), {淡水魚|たんすいぎょ} (freshwater fish), サバンナ (savanna)
+- **Cooking / food (8)**: ふるい (sieve), とろみ (sauce thickness), {馬鈴薯|ばれいしょ} (formal: potato), エビフライ (fried shrimp), からし (Japanese mustard), シナモン (cinnamon), ししとう (shishito pepper), {竜田|たつた}{揚|あ}げ (tatsuta-age), {貫|かん} (sushi counter)
+- **Plants (1)**: {松|まつ}ぼっくり (pine cone)
+- **Verbs (2)**: {肥|こ}やす (godan, 3 senses: enrich soil / fatten livestock / 私腹を肥やす), {捕|と}る (godan, to catch a moving target)
+- **Other (3)**: {小便|しょうべん} (urine — 2 senses incl. slang "backing out"), {何百|なんびゃく} (hundreds of — expression)
+
+All 25 entries validate after a fix-up round: 3 invalid tag values corrected (`domain: science`/`computing` → `academic`/`technical`; `formality: casual` → `informal`); 4 bare-kanji furigana slips fixed in notes (五段, 百, 貫); romaji on {変温動物} corrected (hen-ondoubutsu → henondoubutsu, no hyphens allowed); headword on {竜田|たつた}{揚|あ}げ split into clean kanji-by-kanji pairs. Two godan verbs received full conjugation tables. No new kanji. Candidate list synced (1568→1545).
+
 ### 2026-06-04 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28675-28696) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04939-05047. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
