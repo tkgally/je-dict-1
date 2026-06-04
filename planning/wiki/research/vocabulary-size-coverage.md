@@ -1,6 +1,6 @@
 # Vocabulary Size and Text Coverage
 
-**Last updated**: 2026-05-10
+**Last updated**: 2026-06-04
 
 ## Overview
 
@@ -213,4 +213,5 @@ The coverage research clarifies that je-dict-1's size (26,700+) is not "too larg
 - [Dictionary Growth and Long-Term Vision](../ideas/dictionary-growth.md) — growth phases and size targets
 - [Digital Dictionary UX](digital-dictionary-ux.md) — how dictionary design serves both quick lookup and deep exploration
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — the word-family vs. lemma counting-unit debate and its implications for dictionary sizing
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Vocabulary Testing and Assessment](vocabulary-testing-assessment.md) — size estimation instruments (VST, VLT) and the counting-unit problem for Japanese

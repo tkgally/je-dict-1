@@ -1,6 +1,6 @@
 # Dictionary Lookup Behavior
 
-**Last updated**: 2026-06-02
+**Last updated**: 2026-06-04
 
 ## Overview
 
@@ -152,6 +152,7 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — evolution of the kanji lookup problem across four centuries
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — why dictionary lookup fails to resolve near-synonym choice
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — citation forms, inflected-form lookup, and the lookup-failure problem
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — the reading–lookup interaction and how dictionary use affects retention
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — the evaluation frameworks that use lookup studies as evidence
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — teachable skills, training effectiveness, and compensatory dictionary design

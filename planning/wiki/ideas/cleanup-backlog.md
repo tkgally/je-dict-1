@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-03
+**Last updated**: 2026-06-04
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -238,6 +238,12 @@ The confirmed range now extends from the 01490s through at least the 04500s. The
 - 04783–04801: 04796 関数 "electronics"→"general" (mathematics); 04799 魅力的 "furniture"→"general" (appearance); 04800 内閣 "furniture"→"general" (government)
 
 The confirmed range now extends from the 01490s through at least the 04800s. A targeted semantic-tag audit of the 04700–05000 range is warranted.
+
+**Update 2026-06-04**: Three more comprehensive-polish sessions (2026-06-03, entries 04985–05037) confirmed the pattern extends into the 05000+ range:
+- 04985–04992: 04985 浴槽 "animal-mammal" (→ building/household); 04988 洗面台 "animal-mammal"/"transportation" (→ building/household); 04992 前菜 "electronics" (→ food)
+- 05018–05032: Health/medical entries had emotion/weather/time-general tags: 05018 凍傷 "weather" (→ health); 05019 腹痛 "body-part"/"emotion" (→ health); 05020 腰痛 "emotion" (→ health); 05028 内臓 "time-general" (→ body)
+
+A sub-pattern emerged: health/medical vocabulary is systematically receiving emotion, weather, and time-general tags — three categories with no semantic connection to medical content. The confirmed range now extends from the 01490s through at least the 05000s.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

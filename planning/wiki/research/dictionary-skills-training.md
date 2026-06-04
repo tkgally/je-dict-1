@@ -1,6 +1,6 @@
 # Dictionary Skills and Reference Skills Training
 
-**Last updated**: 2026-05-31
+**Last updated**: 2026-06-04
 
 ## Overview
 
@@ -183,6 +183,7 @@ No dictionary design can fully substitute for reference skills training. Two per
 - [Translation Equivalence](translation-equivalence.md) — the bilingual mapping problem
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and self-containment
 - [Learner Lexicography](learner-lexicography.md) — principles of pedagogical dictionary design
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — the production-side challenge
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — dictionary consultation as a reading strategy and the guess-then-verify model
 - [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — how sense navigation devices (signposts, menus) improve sense selection accuracy

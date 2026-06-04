@@ -1,6 +1,6 @@
 # Vocabulary Acquisition
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-06-04
 
 ## How L2 learners acquire vocabulary
 
@@ -122,6 +122,7 @@ The dictionary's expression entries, collocation sections, and inline links to r
 - [Japanese Aspect and ている](japanese-aspect-teiru.md) — how lexical aspect interacts with L2 acquisition; the Aspect Hypothesis
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — how prefabricated sequences are acquired, their processing advantages, and the chunking-to-grammar developmental path
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo acquisition as a pragmatic competence challenge; L1 background effects
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — deliberate strategy choices (keyword method, word cards, morphological analysis) and how dictionary design supports them
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how dictionary type interacts with vocabulary acquisition across proficiency levels
 - [Vocabulary Testing and Assessment](vocabulary-testing-assessment.md) — how vocabulary knowledge is measured; breadth/depth/fluency dimensions and their dictionary design implications

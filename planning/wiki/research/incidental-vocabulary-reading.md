@@ -1,6 +1,6 @@
 # Incidental Vocabulary Acquisition Through Reading
 
-**Last updated**: 2026-05-30
+**Last updated**: 2026-06-04
 
 ## Overview
 
@@ -197,6 +197,7 @@ The notes field in je-dict-1 entries functions as a rich gloss system. Rather th
 - [Example Sentence Design](example-sentences.md) — how example sentences support learning
 - [Digital Dictionary UX](digital-dictionary-ux.md) — interface design and user behavior
 - [Dictionary Lookup Behavior](dictionary-lookup-behavior.md) — the lookup process itself
+- [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — strategy taxonomies including dictionary use
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — what it means to "know" a word
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — the CDV tradition and tier-based vocabulary control
