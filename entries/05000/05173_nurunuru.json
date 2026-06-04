@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05173_nurunuru_ex1",
-      "japanese": "{魚|さかな}がぬるぬるして{持|も}ちにくい。",
+      "japanese": "⟦{魚|さかな}→魚：00499_sakana⟧⟦が→が：00051_ga⟧ぬるぬる⟦して→する：00392_suru⟧⟦{持|も}ちにくい→持つ：00478_motsu⟧。",
       "english": "The fish is slimy and hard to hold.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05173_nurunuru_ex2",
-      "japanese": "お{風呂|ふろ}の{床|ゆか}がぬるぬるしている。",
+      "japanese": "⟦お{風呂|ふろ}→風呂：14633_furo⟧⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧⟦が→が：00051_ga⟧ぬるぬる⟦している→する：00392_suru⟧。",
       "english": "The bathroom floor is slimy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05173_nurunuru_ex3",
-      "japanese": "ぬるぬるの{海藻|かいそう}を{触|さわ}った。",
+      "japanese": "ぬるぬる⟦の→の：09472_no⟧⟦{海藻|かいそう}→海藻：06750_kaisou⟧⟦を→を：00422_wo⟧⟦{触|さわ}った→触る：00808_sawaru⟧。",
       "english": "I touched the slimy seaweed.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "An onomatopoeic word ({擬態語|ぎたいご}) describing a wet, slimy, slippery texture. Often carries a slightly unpleasant nuance — the feel of algae, raw fish, or a grimy surface.\n\nCOMMON PATTERNS:\n- ぬるぬるする: to be/feel slimy\n- ぬるぬるした: slimy (adjective-like)\n- ぬるぬるの〜: slimy ~ (noun modifier)\n\nTYPICAL THINGS DESCRIBED:\n- {魚|さかな}: fish\n- {海藻|かいそう}: seaweed\n- お{風呂|ふろ}の{床|ゆか}: bathroom floor\n- {石鹸|せっけん}: soap\n\nSIMILAR TEXTURE WORDS:\n- ねばねば: sticky, gooey (like natto)\n- つるつる: smooth and slippery (positive nuance)\n- べたべた: sticky (like sugar or sweat)\n- ぬめぬめ: slimy (very close synonym, slightly milder)",
+  "notes": "An onomatopoeic word (⟦{擬態語|ぎたいご}→擬態語：22468_gitaigo⟧) describing a wet, slimy, slippery texture. Often carries a slightly unpleasant nuance — the feel of algae, raw fish, or a grimy surface.\n\nCOMMON PATTERNS:\n- ぬるぬる⟦する→する：00392_suru⟧: to be/feel slimy\n- ぬるぬる⟦した→する：00392_suru⟧: slimy (adjective-like)\n- ぬるぬる⟦の→の：09472_no⟧〜: slimy ~ (noun modifier)\n\nTYPICAL THINGS DESCRIBED:\n- ⟦{魚|さかな}→魚：00499_sakana⟧: fish\n- ⟦{海藻|かいそう}→海藻：06750_kaisou⟧: seaweed\n- ⟦お{風呂|ふろ}→風呂：14633_furo⟧⟦の→の：09472_no⟧⟦{床|ゆか}→床：03652_yuka⟧: bathroom floor\n- ⟦{石鹸|せっけん}→石鹸：04981_sekken⟧: soap\n\nSIMILAR TEXTURE WORDS:\n- ⟦ねばねば→ねばねば：05258_nebaneba⟧: sticky, gooey (like natto)\n- ⟦つるつる→つるつる：05175_tsurutsuru⟧: smooth and slippery (positive nuance)\n- ⟦べたべた→べたべた：05171_betabeta⟧: sticky (like sugar or sweat)\n- ⟦ぬめぬめ→ぬめぬめ：06845_numenume⟧: slimy (very close synonym, slightly milder)",
   "cross_references": [
     {
       "type": "related",
@@ -69,7 +69,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T03:19:06Z",
-    "modified": "2026-04-13T08:54:17Z",
+    "modified": "2026-06-04T18:09:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -79,99 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "clothing"
-      ],
-      "verb_class": "godan-ru"
+        "descriptive"
+      ]
     }
-  },
-  "conjugation": {
-    "type": "godan",
-    "forms": [
-      {
-        "label": "Present",
-        "affirmative": "ぬるぬる",
-        "negative": "ぬるぬらない"
-      },
-      {
-        "label": "Present polite",
-        "affirmative": "ぬるぬります",
-        "negative": "ぬるぬりません"
-      },
-      {
-        "label": "Past",
-        "affirmative": "ぬるぬった",
-        "negative": "ぬるぬらなかった"
-      },
-      {
-        "label": "Past polite",
-        "affirmative": "ぬるぬりました",
-        "negative": "ぬるぬりませんでした"
-      },
-      {
-        "label": "て form",
-        "affirmative": "ぬるぬって",
-        "negative": "ぬるぬらなくて"
-      },
-      {
-        "label": "ている present",
-        "affirmative": "ぬるぬっている",
-        "negative": "ぬるぬっていない"
-      },
-      {
-        "label": "ている polite",
-        "affirmative": "ぬるぬっています",
-        "negative": "ぬるぬっていません"
-      },
-      {
-        "label": "ている past",
-        "affirmative": "ぬるぬっていた",
-        "negative": "ぬるぬっていなかった"
-      },
-      {
-        "label": "ている past polite",
-        "affirmative": "ぬるぬっていました",
-        "negative": "ぬるぬっていませんでした"
-      },
-      {
-        "label": "Conditional ば",
-        "affirmative": "ぬるぬれば",
-        "negative": "ぬるぬらなければ"
-      },
-      {
-        "label": "Conditional たら",
-        "affirmative": "ぬるぬったら",
-        "negative": "ぬるぬらなかったら"
-      },
-      {
-        "label": "Volitional",
-        "affirmative": "ぬるぬろう",
-        "negative": null
-      },
-      {
-        "label": "Volitional polite",
-        "affirmative": "ぬるぬりましょう",
-        "negative": null
-      },
-      {
-        "label": "Potential",
-        "affirmative": "ぬるぬれる",
-        "negative": "ぬるぬれない"
-      },
-      {
-        "label": "Passive",
-        "affirmative": "ぬるぬられる",
-        "negative": "ぬるぬられない"
-      },
-      {
-        "label": "Causative",
-        "affirmative": "ぬるぬらせる",
-        "negative": "ぬるぬらせない"
-      },
-      {
-        "label": "Imperative",
-        "affirmative": "ぬるぬれ",
-        "negative": "ぬるぬるな"
-      }
-    ]
   }
 }
