@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-04 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28675-28696) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04939-05047. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Nature / scenery (6)**: {月夜|つきよ} (moonlit night), {流木|りゅうぼく} (driftwood), {良港|りょうこう} (good harbor), {石浜|いしはま} (pebble beach), {夕顔|ゆうがお} (moonflower / bottle gourd), {昼顔|ひるがお} (bindweed)
+- **Plants / animals (4)**: {鈴虫|すずむし} (bell cricket), {葛|くず} (kudzu — 2 senses, plant + starch), もずく (mozuku seaweed), {小魚|こざかな} (small fish)
+- **Health / medical (4)**: {歯周病|ししゅうびょう} (periodontal disease), {睡眠薬|すいみんやく} (sleeping pill), つわり (morning sickness), {重度|じゅうど} (severe degree)
+- **Food / culture (5)**: {日本茶|にほんちゃ} (Japanese green tea), {茶漉|ちゃこ}し (tea strainer), {酢味噌|すみそ} (vinegar-miso dressing), {端午|たんご} (Tango Festival, May 5), {昆虫採集|こんちゅうさいしゅう} (insect collecting)
+- **Verbs (2)**: {黄昏|たそが}れる (ichidan, 3 senses: dusk / decline / look pensive), {打|う}ち{寄|よ}せる (ichidan, waves wash up)
+- **Other (1)**: {豆鉄砲|まめでっぽう} (peashooter — survives in idiom {鳩|はと}が{豆鉄砲|まめでっぽう}を{食|く}ったよう)
+
+All 22 entries validate. Furigana fix-up round corrected ~11 bare-kanji slips in note/explanation prose (e.g., raw 暗くなる → {暗|くら}くなる, 鳩が豆鉄砲を食ったよう → fully annotated). Two ichidan verbs received full conjugation tables. No new kanji. Candidate list synced (1590→1568).
+
 ### 2026-06-03 (Vocabulary Expansion - 18 New Entries, Common Expressions Batch)
 Added 18 new dictionary entries (IDs 28657-28674) from `candidate_words.json`, focusing on common expressions, particles, prefixes, and colloquial vocabulary that had accumulated as older candidates. One initial attempt at {超|ちょう}〜 was discarded mid-session as a duplicate of 28619 (created earlier the same day). Per-field budgets followed the reference shape of {もてなし} (27261) — short top-level glosses, notes scoped to 2-3 focused sections.
 
