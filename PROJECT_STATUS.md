@@ -52,6 +52,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 ## Recent Changes
 
 ### 2026-06-04 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 28722-28746) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04918-05045. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Cooking ingredients / techniques (10)**: {本|ほん}みりん (true mirin), {回|まわ}しかける (to drizzle in a circular motion — ichidan), {太白|たいはく}ごま{油|あぶら} (unroasted sesame oil), {中力粉|ちゅうりきこ} (all-purpose flour), {揚|あ}がる (to be deep-fried — godan), {餡|あん}かけ (ankake sauce), {素|もと} (base/mix, e.g. だしの素), {天|てん}つゆ (tempura dipping sauce), {上新粉|じょうしんこ} (non-glutinous rice flour), ペッパー (pepper)
+- **Wagashi (2)**: {練|ね}り{切|き}り (shaped white-bean-paste wagashi), {半生菓子|はんなまがし} (semi-dry wagashi)
+- **Animals (4)**: コガネムシ (scarab beetle), ゲンゴロウ (diving beetle), {白鷺|しらさぎ} (white egret), {青鷺|あおさぎ} (grey heron)
+- **Plants (3)**: {唐松|からまつ} (Japanese larch), {杜若|かきつばた} (rabbitear iris), {花菖蒲|はなしょうぶ} (Japanese iris)
+- **Place / proper noun (2)**: {水戸|みと} (Mito city), インド (India)
+- **Body part / idiom (4)**: {脚|あし} (leg, 2 senses: limb / furniture leg), {奮迅|ふんじん} (furious energy, in 獅子奮迅), {子|こ}{落|お}とし (tough love, in 獅子の子落とし), こやけ (afterglow, in 夕焼けこやけ)
+
+All 25 entries validate after a fix-up round: 8 bare-kanji furigana slips in notes were annotated (e.g., 本みりん, 中力粉, 青鷺 と 白鷺, 四字熟語, 半生菓子, 練り切り, 花菖蒲, plus rice-flour terms). Two verbs (1 godan + 1 ichidan) received full conjugation tables. No new kanji. Three stale candidates removed during pre-flight (蝦蟇/がま duplicate of 28705_gama, 鰓/えら duplicate of 28708_era, 一頭/いっとう just 一+counter). Candidate list synced (1545→1517).
+
+### 2026-06-04 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 28697-28721) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04885-04949. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
 - **Loanwords / household (4)**: ドアホン (door phone), アクリル (acrylic), テラバイト (terabyte), ミリリットル (milliliter)
