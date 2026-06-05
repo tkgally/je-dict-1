@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05301_yokushitsu_ex1",
-      "japanese": "{浴室|よくしつ}を{掃除|そうじ}する。",
+      "japanese": "{浴室|よくしつ}⟦を→を：00422_wo⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦する→する：00392_suru⟧。",
       "english": "To clean the bathroom.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05301_yokushitsu_ex2",
-      "japanese": "{浴室|よくしつ}に{換気扇|かんきせん}がある。",
+      "japanese": "{浴室|よくしつ}⟦に→に：00314_ni⟧⟦{換気扇|かんきせん}→換気扇：04678_kankisen⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There is a ventilation fan in the bathroom.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05301_yokushitsu_ex3",
-      "japanese": "{浴室|よくしつ}と{洗面所|せんめんじょ}が{別|べつ}になっている。",
+      "japanese": "{浴室|よくしつ}⟦と→と：00512_to⟧⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧⟦が→が：00051_ga⟧⟦{別|べつ}→別：01216_betsu⟧⟦に→に：00314_ni⟧⟦なっている→なる：01970_naru⟧。",
       "english": "The bathroom and washroom are separate.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "05301_yokushitsu_ex4",
-      "japanese": "{浴室|よくしつ}にカビが{生|は}えた。",
+      "japanese": "{浴室|よくしつ}⟦に→に：00314_ni⟧⟦カビ→カビ：07055_kabi⟧⟦が→が：00051_ga⟧⟦{生|は}えた→生える：02392_haeru⟧。",
       "english": "Mold has grown in the bathroom.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "05301_yokushitsu_ex5",
-      "japanese": "このホテルの{浴室|よくしつ}は{広|ひろ}くて{気持|きも}ちいい。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ホテル→ホテル：01027_hoteru⟧⟦の→の：09472_no⟧{浴室|よくしつ}⟦は→は：00079_ha⟧⟦{広|ひろ}くて→広い：00704_hiroi⟧⟦{気持|きも}ちいい→気持ちいい：09583_kimochiii⟧。",
       "english": "This hotel's bathroom is spacious and nice.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{浴室|よくしつ} is composed of {浴|よく} (bath) + {室|しつ} (room). It specifically means the room for bathing, not the toilet. In casual speech, お{風呂|ふろ} is far more common.\n\nJAPANESE BATHROOM LAYOUT:\nJapanese bathrooms are typically separate from the toilet room. The {浴室|よくしつ} contains a {浴槽|よくそう} (bathtub), a shower, and a washing area outside the tub where you wash before soaking.\n\nREGISTER:\n{浴室|よくしつ} is used in formal contexts — real estate listings, hotel descriptions, and written language. In daily conversation, お{風呂|ふろ} or {風呂場|ふろば} is preferred.\n\nRELATED TERMS:\n- お{風呂|ふろ}: bath (casual)\n- {風呂場|ふろば}: bathroom (casual)\n- {洗面所|せんめんじょ}: washroom/vanity area\n- {脱衣所|だついじょ}: changing room (adjacent to bath)",
+  "notes": "{浴室|よくしつ} is composed of {浴|よく} (bath) + {室|しつ} (room). It specifically means the room for bathing, not the toilet. In casual speech, お⟦{風呂|ふろ}→風呂：14633_furo⟧ is far more common.\n\nJAPANESE BATHROOM LAYOUT:\nJapanese bathrooms are typically separate from the toilet room. The {浴室|よくしつ} contains a ⟦{浴槽|よくそう}→浴槽：04985_yokusou⟧ (bathtub), a shower, and a washing area outside the tub where you wash before soaking.\n\nREGISTER:\n{浴室|よくしつ} is used in formal contexts — real estate listings, hotel descriptions, and written language. In daily conversation, お⟦{風呂|ふろ}→風呂：14633_furo⟧ or ⟦{風呂場|ふろば}→風呂場：noentry⟧ is preferred.\n\nRELATED TERMS:\n- お⟦{風呂|ふろ}→風呂：14633_furo⟧: bath (casual)\n- ⟦{風呂場|ふろば}→風呂場：noentry⟧: bathroom (casual)\n- ⟦{洗面所|せんめんじょ}→洗面所：17618_senmenjo⟧: washroom/vanity area\n- ⟦{脱衣所|だついじょ}→脱衣所：17619_datsuijo⟧: changing room (adjacent to bath)",
   "cross_references": [
     {
       "type": "related",
@@ -82,17 +82,17 @@
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-04-04T02:26:11Z",
+    "modified": "2026-06-05T16:10:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "informal",
+      "formality": "formal",
       "politeness": "plain",
       "semantic": [
-        "animal-mammal"
+        "general"
       ]
     }
   }
