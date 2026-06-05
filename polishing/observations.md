@@ -34,3 +34,9 @@ _(All observations through 2026-06-04 session 017 have been harvested by the wik
 ## Session 022 — 2026-06-05
 
 [entry] 05318_tairyoku (体力, physical strength): semantic tags include "leisure" which is clearly wrong for physical stamina. Should be something like "health" or "body". Check similar entries (気力, 精力, 忍耐力) for similar tagging errors.
+
+## 2026-06-05 Session 023
+
+[pattern] Entries 05332-05335 (足し算, 引き算, 掛け算, 割り算) all had wrong semantic tags: tags like "body-part", "furniture", "time-general" instead of "mathematics". These were created by claude-opus-4-5 with modified date 2026-04-14. Suggests a batch creation run had cross-contamination of semantic tag data. Watch for similar wrong tags in nearby ID ranges (05300-05400).
+
+[pattern] Entry 05344_kogeru (焦げる) had semantic tag "body-part" instead of "action" — same model/date as above (claude-opus-4-5, 2026-04-14). Likely same batch run.
