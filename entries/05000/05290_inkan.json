@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05290_inkan_ex1",
-      "japanese": "ここに{印鑑|いんかん}を{押|お}してください。",
+      "japanese": "ここに{印鑑|いんかん}⟦を→を：00422_wo⟧⟦{押|お}して→押す：02854_osu⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please stamp your seal here.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05290_inkan_ex2",
-      "japanese": "{銀行|ぎんこう}で{口座|こうざ}を{開|ひら}くには{印鑑|いんかん}が{必要|ひつよう}だ。",
+      "japanese": "⟦{銀行|ぎんこう}→銀行：00578_ginkou⟧で⟦{口座|こうざ}→口座：05419_kouza⟧⟦を→を：00422_wo⟧⟦{開|ひら}くには→開く：01979_hiraku⟧{印鑑|いんかん}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "You need a personal seal to open a bank account.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05290_inkan_ex3",
-      "japanese": "{印鑑|いんかん}{登録|とうろく}をする。",
+      "japanese": "{印鑑|いんかん}⟦{登録|とうろく}→登録：05703_touroku⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "To register your personal seal.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{印鑑|いんかん} is essential for official documents in Japan.\n\nTYPES OF SEALS:\n- {認印|みとめいん}: everyday seal (for packages, informal use)\n- {銀行印|ぎんこういん}: bank seal\n- {実印|じついん}: registered seal (for important legal documents)\n\nUSAGE:\n- {印鑑|いんかん}を{押|お}す: to stamp a seal\n- {印鑑|いんかん}{登録|とうろく}: seal registration (at city hall)\n- {印鑑|いんかん}{証明|しょうめい}: seal certificate\n\nMODERN TREND:\n- Digital signatures are increasingly accepted, reducing reliance on physical seals",
+  "notes": "{印鑑|いんかん} is essential for official documents in Japan.\n\nTYPES OF SEALS:\n- ⟦{認印|みとめいん}→認印：07489_mitomein⟧: everyday seal (for packages, informal use)\n- ⟦{銀行印|ぎんこういん}→銀行印：27357_ginkouin⟧: bank seal\n- ⟦{実印|じついん}→実印：07490_jitsuin⟧: registered seal (for important legal documents)\n\nUSAGE:\n- {印鑑|いんかん}⟦を→を：00422_wo⟧⟦{押|お}す→押す：02854_osu⟧: to stamp a seal\n- {印鑑|いんかん}⟦{登録|とうろく}→登録：05703_touroku⟧: seal registration (at city hall)\n- {印鑑|いんかん}⟦{証明|しょうめい}→証明：03242_shoumei⟧: seal certificate\n\nMODERN TREND:\n- Digital signatures are increasingly accepted, reducing reliance on physical seals",
   "prominent_see_also": [
     {
       "target_id": "00089_hanko",
@@ -63,7 +63,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-04-14T01:59:28Z",
+    "modified": "2026-06-05T14:18:02Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -76,7 +76,7 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "animal-mammal"
+        "tool"
       ]
     }
   }
