@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "05307_darui_ex1",
-      "japanese": "{風邪|かぜ}を{引|ひ}いて{体|からだ}がだるい。",
+      "japanese": "⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いて→引く：01978_hiku⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧だるい。",
       "english": "I have a cold and feel sluggish.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "05307_darui_ex2",
-      "japanese": "{今日|きょう}はなんかだるいな。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦なんか→なんか：05309_nanka⟧だるいな。",
       "english": "I feel kind of listless today.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "05307_darui_ex3",
-      "japanese": "{熱|ねつ}が{出|で}て{体|からだ}がだるくなった。",
+      "japanese": "⟦{熱|ねつ}→熱：01690_netsu⟧⟦が→が：00051_ga⟧⟦{出|で}て→出る：00513_deru⟧⟦{体|からだ}→体：00784_karada⟧⟦が→が：00051_ga⟧だるく⟦なった→なる：01970_naru⟧。",
       "english": "I got a fever and my body felt sluggish.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "05307_darui_ex4",
-      "japanese": "{宿題|しゅくだい}だるい。",
+      "japanese": "⟦{宿題|しゅくだい}→宿題：00812_shukudai⟧だるい。",
       "english": "Homework is such a drag.",
       "notes": "Casual/slang usage",
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "05307_darui_ex5",
-      "japanese": "{会議|かいぎ}が{長|なが}くてだるかった。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦が→が：00051_ga⟧⟦{長|なが}くて→長い：00491_nagai⟧だるかった。",
       "english": "The meeting was long and tedious.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "05307_darui_ex6",
-      "japanese": "{朝|あさ}から{掃除|そうじ}なんてだるい。",
+      "japanese": "⟦{朝|あさ}→朝：02277_asa⟧⟦から→から：00504_kara⟧⟦{掃除|そうじ}→掃除：02889_souji⟧⟦なんて→なんて：06918_nante⟧だるい。",
       "english": "Cleaning in the morning is such a pain.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "だるい is an i-adjective describing physical heaviness or, in casual speech, tedium and reluctance.\n\nFORMS:\n- Adverbial: だるく\n- Noun form: だるさ (sluggishness, lethargy)\n\nPHYSICAL MEANING (sense 1):\n- {体|からだ}がだるい: body feels heavy/sluggish\n- Often used when sick, fatigued, or after exercise\n- Medical/formal equivalent: {倦怠感|けんたいかん} (lethargy)\n\nCASUAL/SLANG MEANING (sense 2):\n- Similar to \"tedious\" or \"can't be bothered\"\n- Very common among younger speakers\n- だるいなー / だりー: \"what a drag\" (だりー is slang contraction)\n\nSIMILAR WORDS:\n- {眠|ねむ}い: sleepy (more specific)\n- かったるい: sluggish, tedious (slightly stronger, also casual)\n- {面倒|めんどう}くさい: bothersome (focused on inconvenience rather than physical feeling)",
+  "notes": "だるい is an i-adjective describing physical heaviness or, in casual speech, tedium and reluctance.\n\nFORMS:\n- Adverbial: だるく\n- Noun form: だるさ (sluggishness, lethargy)\n\nPHYSICAL MEANING (sense 1):\n- ⟦{体|からだ}→体：00784_karada⟧がだるい: body feels heavy/sluggish\n- Often used when sick, fatigued, or after exercise\n- Medical/formal equivalent: ⟦{倦怠感|けんたいかん}→倦怠感：05023_kentaikan⟧ (lethargy)\n\nCASUAL/SLANG MEANING (sense 2):\n- Similar to \"tedious\" or \"can't be bothered\"\n- Very common among younger speakers\n- だるいなー / だりー: \"what a drag\" (だりー is slang contraction)\n\nSIMILAR WORDS:\n- ⟦{眠|ねむ}い→眠い：00872_nemui⟧: sleepy (more specific)\n- かったるい: sluggish, tedious (slightly stronger, also casual)\n- ⟦{面倒|めんどう}くさい→面倒くさい：05308_mendokusai⟧: bothersome (focused on inconvenience rather than physical feeling)",
   "cross_references": [
     {
       "type": "synonym",
@@ -111,21 +111,21 @@
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-04-18T08:05:14Z",
+    "modified": "2026-06-05T16:10:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-i"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "style": [
         "slang"
       ],
       "politeness": "plain",
       "semantic": [
-        "animal-insect",
-        "transportation"
+        "health",
+        "emotion"
       ]
     }
   },

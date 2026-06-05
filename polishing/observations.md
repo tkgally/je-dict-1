@@ -26,3 +26,5 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-06-04 session 017 have been harvested by the wiki maintenance session of 2026-06-05.)_
+
+[pattern] Several entries in the 05291–05312 range had completely wrong semantic tags (e.g., "transportation" for だるい/面倒くさい, "animal-mammal" for 浴室, "animal-insect" for だるい, "furniture/tool" for 叶う). This suggests a systematic tagging error in a batch of entries around this range. Worth a tooling audit for semantic tags that are obviously mismatched with the POS or gloss. (2026-06-05)
