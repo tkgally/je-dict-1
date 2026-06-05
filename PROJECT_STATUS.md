@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-03
+**Last updated**: 2026-06-05
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-05 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
+Added 22 new dictionary entries (IDs 28771-28792) from `candidate_words.json`, drawn from the most recent "seen in entry" internal-completeness candidates (words referenced inside existing entries 05071-05249 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Loanwords / tech (7)**: オゾン (ozone), ウェットスーツ (wetsuit), タッチスクリーン (touchscreen), フリック (flick gesture), ショートカット (2 senses: keyboard shortcut + women's short hair, 6 examples), ツーリング (motorcycle touring, also suru), ヘアアイロン (hair iron / straightener)
+- **Nature / science (5)**: {鉱脈|こうみゃく} (ore vein), {葉脈|ようみゃく} (leaf vein), {円周率|えんしゅうりつ} (pi), {対数|たいすう} (logarithm), {不織布|ふしょくふ} (non-woven fabric)
+- **Food / daily life (4)**: メロンパン (melon bread), {紅生姜|べにしょうが} (pickled red ginger), かっぱ{巻|ま}き (cucumber sushi roll), {飴色|あめいろ} (amber / caramel color)
+- **Society / abstract (4)**: {原語|げんご} (original / source language), {記録的|きろくてき} (record-breaking — na-adj), {皺寄|しわよ}せ (burden shifted onto others), {矛|ほこ} (spear — chiefly historical/idiomatic)
+- **Animal / adjective (2)**: たてがみ (mane of a lion or horse), ぼろい (i-adj, shabby / worn out)
+
+All 22 entries validate after a fix-up round: one romaji slip (`tatchisukuriin` → `tacchisukuriin`, since っち uses cch). One i-adjective (28785_boroi) and one suru verb (28790_tsuuringu) received full conjugation tables. No new kanji. Two unrelated false-positive add_conjugations.py modifications on adverb entries 05173/05175 were reverted before commit. Candidate list synced.
 
 ### 2026-06-05 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
 Added 24 new dictionary entries (IDs 28747-28770) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 05051-05246 (astronomy, traditional/Western music, sports, environment, plus a few onomatopoeia and one verb). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
