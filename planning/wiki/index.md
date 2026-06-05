@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-04
+**Last updated**: 2026-06-05
 
 
 ## How this wiki is organized
@@ -78,6 +78,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [L2 Writing and Dictionary Consultation](research/l2-writing-dictionary-consultation.md) — How L2 writers use dictionaries, dictionary-induced errors, encoding challenges, collocation support, and Japanese-specific production problems
 - [Vocabulary Testing and Assessment](research/vocabulary-testing-assessment.md) — Major vocabulary tests (VLT, VST, VKS, PVLT, WAT), knowledge dimension frameworks, Japanese-specific challenges, and dictionary design implications
 - [Lexical Inferencing and Guessing from Context](research/lexical-inferencing.md) — Knowledge source taxonomies, success rates, morphological vs. contextual strategies, Japanese kanji compound inferencing, and dictionary design implications
+- [Input Processing, Noticing, and Depth of Processing](research/input-processing-noticing-vocabulary.md) — Schmidt's Noticing Hypothesis, Levels of Processing, Involvement Load Hypothesis, Barcroft's TOPRA model, input enhancement, and dictionary design implications
 
 ## Topics
 

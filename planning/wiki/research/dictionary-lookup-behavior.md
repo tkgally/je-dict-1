@@ -150,6 +150,7 @@ For a digital dictionary like je-dict-1, this suggests value in providing "how t
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — the kanji lookup problem and electronic solutions
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — dictionary consultation as one strategy in a broader strategy repertoire
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — evolution of the kanji lookup problem across four centuries
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — how dictionary consultation creates involvement load and deeper processing
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — why dictionary lookup fails to resolve near-synonym choice
 - [Lemmatization and Headword Selection](lemmatization-headword-selection.md) — citation forms, inflected-form lookup, and the lookup-failure problem
 - [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications

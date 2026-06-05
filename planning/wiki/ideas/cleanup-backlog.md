@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-04
+**Last updated**: 2026-06-05
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -102,6 +102,8 @@ for p in glob.glob('entries/*/*.json'):
 2. **Defensive guard in `add_conjugations.py`**: refuse to write a conjugation block unless the entry has at least one `verb-*` POS tag. Prevents regeneration.
 3. **For the 31 expression cases**: review whether they should keep a conjugation block at all. Most idioms don't conjugate as a unit; the underlying verb's conjugation is usually all the learner needs. If a conjugation block is desired, the type must match the final verb's class.
 4. See [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Runaway automation" for the broader pattern.
+
+**Update 2026-06-05**: Comprehensive-polish session 015 (entries 05165–05184) found two more adverb entries (05173_nurunuru, 05175_tsurutsuru) with spurious `verb_class: "godan-ru"` tags and full conjugation tables producing nonsensical forms like ぬるぬらない, つるつらない. These are mimetic adverbs, not verbs. Reinforces the case for the batch pruner and defensive guard. A targeted scan of adverb entries for `verb_class` tags or `conjugation` fields would catch all remaining instances.
 
 ## Priority 7: Politeness tag conflation (uchi/soto, bikago, familiar suffixes)
 
@@ -244,6 +246,13 @@ The confirmed range now extends from the 01490s through at least the 04800s. A t
 - 05018–05032: Health/medical entries had emotion/weather/time-general tags: 05018 凍傷 "weather" (→ health); 05019 腹痛 "body-part"/"emotion" (→ health); 05020 腰痛 "emotion" (→ health); 05028 内臓 "time-general" (→ body)
 
 A sub-pattern emerged: health/medical vocabulary is systematically receiving emotion, weather, and time-general tags — three categories with no semantic connection to medical content. The confirmed range now extends from the 01490s through at least the 05000s.
+
+**Update 2026-06-05**: Three more comprehensive-polish sessions (2026-06-04, entries 05095–05141 and 05211–05230) confirmed the pattern extends well into the 05200+ range:
+- 05095–05120: cosmetics tagged "electronics", sunscreen tagged "electronics", ガイド tagged "tool", 姑 tagged "animal-insect"
+- 05121–05141: 05134 納品 (delivery) tagged "communication" — delivery of goods is not communication; should be "action" or logistics-related
+- 05211–05230: 05212 取材 tagged "building"/"education"/"transportation"; 05221 忍耐 tagged "clothing"/"time-general"; 05227 広報 tagged "geography"; 05228 tagged incorrectly
+
+The confirmed range now extends from the 01490s through at least the 05230s. A targeted bulk audit of the 05000–05500 range is warranted.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

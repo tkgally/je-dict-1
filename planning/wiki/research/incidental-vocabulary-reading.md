@@ -204,3 +204,4 @@ The notes field in je-dict-1 entries functions as a rich gloss system. Rather th
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — how learners develop lookup proficiency
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — how spaced review combats single-exposure forgetting
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — the Involvement Load Hypothesis applied to MT vs. dictionary consultation during reading
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — the Involvement Load Hypothesis framework and attention-mediated acquisition
