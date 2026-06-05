@@ -44,3 +44,8 @@ _(All observations through 2026-06-04 session 017 have been harvested by the wik
 ## 2026-06-05 Session 024
 
 [pattern] Mimetic adverbs in range 05349–05373 had two systemic problems from claude-opus-4-5 batch creation (modified 2026-04-14): (1) spurious `conjugation` fields and `verb_class` tags (godan-ku, godan-ru, godan-tsu) applied to adverbs — confirmed in 05352, 05364, 05372, 05373; and (2) completely wrong semantic tags (food, furniture, body-part, electronics, animal-mammal, building, leisure) instead of "descriptive". Both issues affect the same model/date batch as seen in sessions 022/023. Likely extends into adjacent ranges (05374+). Consider a bulk scan script to identify adverbs with `verb_class` tags or non-descriptive semantic tags.
+
+## 2026-06-05 — comprehensive polish session 025 (entries 05374–05389)
+- [pattern] Semantic tag errors continue in the 05374–05389 range: health entries (下痢, 便秘, インフルエンザ, 包帯, 絆創膏) were tagged "general" or "body-part" instead of "health"; education entries (生徒会, 職員室) tagged "general" instead of "education". A tooling audit to flag entries where semantic tag mismatches gloss would be valuable.
+- [entry] 05381 図書室: ex1 and ex4 are identical Japanese sentences — one should be replaced with a different example.
+- [pattern] Double-brace furigana notation `{{word|reading}phrase|compound-reading}` appeared in 05379 and 05380. This is invalid; each kanji compound should have its own `{漢字|かんじ}` annotation rather than nesting.
