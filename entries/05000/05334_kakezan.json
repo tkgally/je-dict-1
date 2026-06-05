@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05334_kakezan_ex1",
-      "japanese": "{掛|か}け{算|ざん}の{九九|くく}を{覚|おぼ}える。",
+      "japanese": "{掛|か}け{算|ざん}⟦の→の：09472_no⟧⟦{九九|くく}→九九：05700_kuku⟧⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧。",
       "english": "To memorize the multiplication table.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05334_kakezan_ex2",
-      "japanese": "3{掛|か}ける4は12だ。",
+      "japanese": "3⟦{掛|か}ける→掛ける：00854_kakeru⟧4⟦は→は：00079_ha⟧12⟦だ→だ：09496_da⟧。",
       "english": "3 times 4 is 12.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05334_kakezan_ex3",
-      "japanese": "{掛|か}け{算|ざん}で{面積|めんせき}を{求|もと}める。",
+      "japanese": "{掛|か}け{算|ざん}⟦で→で：00502_de⟧⟦{面積|めんせき}→面積：05330_menseki⟧⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧。",
       "english": "To find the area using multiplication.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{掛|か}け{算|ざん} is multiplication. Composed of {掛|か}ける (to multiply) + {算|さん} (calculation).\n\nEXPRESSING MULTIPLICATION:\n- 3{掛|か}ける4は12: 3 times 4 is 12\n- 3×4=12: read as 3{掛|か}ける4は12\n\nMULTIPLICATION TABLE ({九九|くく}):\nJapanese children learn the times table (1-9) as {九九|くく}, reciting it rhythmically:\n- 2×2=4 → {二|に}{二|に}が{四|し}\n- 2×3=6 → {二三|にさん}が{六|ろく}\n\nOTHER OPERATIONS:\n- {足|た}し{算|ざん}: addition\n- {引|ひ}き{算|ざん}: subtraction\n- {割|わ}り{算|ざん}: division",
+  "notes": "{掛|か}け{算|ざん} is multiplication. Composed of ⟦{掛|か}ける→掛ける：00854_kakeru⟧ (to multiply) + ⟦{算|さん}→算：noentry⟧ (calculation).\n\nEXPRESSING MULTIPLICATION:\n- 3⟦{掛|か}ける→掛ける：00854_kakeru⟧4⟦は→は：00079_ha⟧12: 3 times 4 is 12\n- 3×4=12: read as 3⟦{掛|か}ける→掛ける：00854_kakeru⟧4⟦は→は：00079_ha⟧12\n\nMULTIPLICATION TABLE (⟦{九九|くく}→九九：05700_kuku⟧):\nJapanese children learn the times table (1-9) as ⟦{九九|くく}→九九：05700_kuku⟧, reciting it rhythmically:\n- 2×2=4 → {二|に}{二|に}⟦が→が：00051_ga⟧{四|し}\n- 2×3=6 → {二三|にさん}⟦が→が：00051_ga⟧{六|ろく}\n\nOTHER OPERATIONS:\n- ⟦{足|た}し{算|ざん}→足し算：05332_tashizan⟧: addition\n- ⟦{引|ひ}き{算|ざん}→引き算：05333_hikizan⟧: subtraction\n- ⟦{割|わ}り{算|ざん}→割り算：05335_warizan⟧: division",
   "cross_references": [
     {
       "type": "antonym",
@@ -69,7 +69,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-04-14T03:00:59Z",
+    "modified": "2026-06-05T18:06:14Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -79,9 +79,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part",
-        "furniture",
-        "time-general"
+        "mathematics"
       ]
     }
   }
