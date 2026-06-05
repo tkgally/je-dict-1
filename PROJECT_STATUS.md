@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-05 (Vocabulary Expansion - 24 New Entries, "seen in entry" Batch)
+Added 24 new dictionary entries (IDs 28747-28770) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 05051-05246 (astronomy, traditional/Western music, sports, environment, plus a few onomatopoeia and one verb). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Astronomy / science (4)**: ブラックホール (black hole), {海王星|かいおうせい} (Neptune), {冥王星|めいおうせい} (Pluto, now dwarf planet), フロンガス (CFCs)
+- **Society / abstract (3)**: {都市伝説|としでんせつ} (urban legend), {正義感|せいぎかん} (sense of justice), {世代間|せだいかん} (intergenerational)
+- **Onomatopoeia / adverbs (3)**: てんでんばらばら (each going their own way, na-adj), ぐしゃぐしゃ (crumpled/soggy — 2 senses, 6 examples), ごろん (with a thud, single action)
+- **Food / daily life (3)**: そうめん (thin wheat noodles), ワックス (wax — floor/car/hair), {河原|かわら} (riverbed/dry riverside area)
+- **Traditional/Western music (5)**: {笙|しょう} (sho, gagaku mouth organ), {篠笛|しのぶえ} (shinobue bamboo flute), {洋楽器|ようがっき} (Western instruments — antonym link to 05231_wagakki), オペラ (opera), {重唱|じゅうしょう} (vocal ensemble)
+- **Sports (5)**: リング (boxing/wrestling ring; ring shape — 2 senses, 6 examples), プロレス (pro wrestling), サーファー (surfer), サーフボード (surfboard), ダイバー (diver)
+- **Verb (1)**: くたびれる (ichidan, to get tired/be worn out — 2 senses, 6 examples)
+
+All 24 entries validate after a fix-up round: 2 invalid `domain: "traditional"` values cleared on the two traditional-instrument entries (28760, 28761); 1 bare-kanji furigana fix in 28755 explanation (raw 疲れる → {疲|つか}れる). One ichidan verb (28755_kutabireru) received its conjugation table. Two new kanji assigned readings and indexed: {笙|しょう} (ID 02766, gloss "sho") and {篠|しの} (ID 02767, gloss "bamboo"). One stale candidate removed during pre-flight (C21614 大規模/おおきぼ — incorrect reading; 大規模 is だいきぼ, already entry 12185). Candidate list synced (1581→1557).
+
 ### 2026-06-04 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 28722-28746) from `candidate_words.json`, drawn from "seen in entry" internal-completeness candidates referenced inside existing entries 04918-05045. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
