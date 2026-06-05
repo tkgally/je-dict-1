@@ -40,3 +40,7 @@ _(All observations through 2026-06-04 session 017 have been harvested by the wik
 [pattern] Entries 05332-05335 (足し算, 引き算, 掛け算, 割り算) all had wrong semantic tags: tags like "body-part", "furniture", "time-general" instead of "mathematics". These were created by claude-opus-4-5 with modified date 2026-04-14. Suggests a batch creation run had cross-contamination of semantic tag data. Watch for similar wrong tags in nearby ID ranges (05300-05400).
 
 [pattern] Entry 05344_kogeru (焦げる) had semantic tag "body-part" instead of "action" — same model/date as above (claude-opus-4-5, 2026-04-14). Likely same batch run.
+
+## 2026-06-05 Session 024
+
+[pattern] Mimetic adverbs in range 05349–05373 had two systemic problems from claude-opus-4-5 batch creation (modified 2026-04-14): (1) spurious `conjugation` fields and `verb_class` tags (godan-ku, godan-ru, godan-tsu) applied to adverbs — confirmed in 05352, 05364, 05372, 05373; and (2) completely wrong semantic tags (food, furniture, body-part, electronics, animal-mammal, building, leisure) instead of "descriptive". Both issues affect the same model/date batch as seen in sessions 022/023. Likely extends into adjacent ranges (05374+). Consider a bulk scan script to identify adverbs with `verb_class` tags or non-descriptive semantic tags.
