@@ -51,6 +51,22 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-05 (Vocabulary Expansion - 20 New Entries, "seen in entry" + Food Batch)
+Added 20 new dictionary entries (IDs 28793-28812) from `candidate_words.json`. The first 15 came from the most recent "seen in entry" internal-completeness candidates (words referenced inside existing entries 02213-05249 but not yet defined); the final 5 are oldest unprocessed food/education candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Place / proper noun (1)**: {東照宮|とうしょうぐう} (Toshogu Shrine)
+- **Animals / nature (1)**: {朱鷺|とき} (Japanese crested ibis)
+- **Arts / music (2)**: コンクール (competition), {混声|こんせい} (mixed voices, choral)
+- **Household / appliances (2)**: スチーム (steam, appliance function), テラス (terrace)
+- **Medical / health (4)**: {副反応|ふくはんのう} (vaccine side effect), {風疹|ふうしん} (rubella), コロナ (COVID), {救急病院|きゅうきゅうびょういん} (emergency hospital)
+- **Public services (2)**: {出動|しゅつどう} (dispatch, suru-verb), パトロールカー (patrol car)
+- **Tech / communication (1)**: ビデオチャット (video chat)
+- **Food (5)**: {春|はる}キャベツ (spring cabbage), わけぎ (wakegi/bunching onion), パンケーキ (pancakes), {肉|にく}まん (steamed pork bun), {蒸|む}しパン (steamed cake)
+- **Counting / measurement (1)**: {件数|けんすう} (number of cases)
+- **Education (1)**: {短大|たんだい} (junior college)
+
+All 20 entries validate. One initial schema slip on 28796_konsei (`domain: "music"` not in enum) fixed by clearing the domain. One suru-verb (28803_shutsudou) received its full conjugation table via add_conjugations.py. Two stale candidates removed during pre-flight (C21523 洗濯機/せんたっき is the colloquial reading of existing 04969_sentakuki せんたくき; C21640 長葱/ながねぎ is a kanji variant of existing 14827_naganegi 長ねぎ). No new kanji. Candidate list synced (1533→1513).
+
 ### 2026-06-05 (Vocabulary Expansion - 22 New Entries, "seen in entry" Batch)
 Added 22 new dictionary entries (IDs 28771-28792) from `candidate_words.json`, drawn from the most recent "seen in entry" internal-completeness candidates (words referenced inside existing entries 05071-05249 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
