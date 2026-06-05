@@ -78,6 +78,7 @@ je-dict-1 requires a minimum of 3 examples per sense. This aligns with research 
 - [Register and Formality Marking](register-formality-marking.md) — register-appropriate examples as an alternative to metalinguistic labels
 - [Keigo: Honorific Language](keigo-honorifics.md) — keigo forms in example sentences as a vehicle for modeling social context
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — how example design supports deep processing and the involvement load hypothesis
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — progressive examples as staged involvement load
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — how examples serve as SRS card content via sentence mining
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — contrastive encoding examples as the most effective format for teaching synonym distinctions
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — progressive examples serve learners at different stages of incremental acquisition

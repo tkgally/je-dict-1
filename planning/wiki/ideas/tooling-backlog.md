@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-05-25
+**Last updated**: 2026-06-05
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -151,6 +151,16 @@ A subset of item 8 with stricter scope: just headwords. The malformed-headword s
 **Scope**: A small script that loads each of the 22 entries, fixes the headword to the canonical form (move okurigana outside, split honorific prefix, etc.), validates the result with `validate.py`, and writes back. Then re-runs `add_conjugations.py` / `add_adjective_conjugations.py` on the modified entries to backfill the missing conjugation data.
 
 **Affected entries** (full list from the audit): 17611_dowasure, 17879_uonome, 22070_hashiritsuzukeru, 22079_imamadedoori, 22061_jidouhikiotoshi, 22078_izendoori, 22058_ichidokiri, 22069_mizubukure, 22059_nomisugi, 22080_chakusouwoeru, 01514_mukae, 01525_wakai, 01516_mukou, 16520_makunouchibentou, 01420_shiawase, 01498_hikidashi, 01475_toori, 01462_chikaku, 01385_kimochi, 24896_kirimochi, 24593_kegare, 10668_konoha.
+
+## 10. add_conjugations.py false-positive suru detection on godan verbs ending in する
+
+**Source**: Comprehensive-polish 2026-06-04 session 013 (entries 05121–05141)
+
+`add_conjugations.py` falsely detects godan verbs whose reading ends in する (e.g., すする 05127_susuru, "to slurp/sip") as suru compounds, generating malformed forms like `{啜|すす}るする`. The script checks for する at the end of the reading but doesn't verify whether the verb_class is explicitly `verb-suru` before applying suru-compound logic.
+
+**Suggested fix**: Before applying suru-compound detection, check whether the entry's `verb_class` tag is explicitly `"godan-*"`. If so, skip the suru detection entirely — godan verbs ending in する (すする, くすくすする if it existed) are not suru compounds. This is a one-line guard near the top of the conjugation-generation function.
+
+**Workaround**: Manual conjugation was required for 05127_susuru. Other godan verbs whose readings happen to end in する may also be affected.
 
 ## Related pages
 

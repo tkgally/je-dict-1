@@ -240,6 +240,7 @@ The VLS research literature suggests several concrete ways a learner dictionary 
 - [Controlled Defining Vocabulary](controlled-defining-vocabulary.md) — The tier system as a strategy support mechanism
 - [Word Formation and Morphology](word-formation.md) — Morphological patterns that enable word part analysis
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — Cognate recognition strategy and its limitations
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — how attention and depth of processing mediate strategy effectiveness
 - [Error Analysis and Learner Corpora](error-analysis-japanese-l2.md) — Common strategy failures by L1 background
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — spacing effect research, SRS systems, and dictionary features that support spaced learning
 - [Depth of Vocabulary Knowledge](depth-of-vocabulary-knowledge.md) — What "knowing a word" means across multiple dimensions (form, meaning, use)

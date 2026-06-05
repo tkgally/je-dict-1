@@ -148,6 +148,7 @@ The research consensus is that depth of knowledge — not just breadth — predi
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — grammatical depth in entries
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — how different knowledge dimensions accumulate at different rates through reading exposure
 - [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — Levels of Processing framework and staged acquisition model
 - [Productive Vocabulary and Encoding Support](productive-vocabulary-encoding.md) — the receptive–productive gap and what dictionaries must provide for production
 - [Spaced Repetition and Dictionary Design](spaced-repetition-dictionary-design.md) — how spaced retrieval practice deepens vocabulary knowledge over time
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — formulaic knowledge as a dimension of depth: knowing a word's conventional multi-word contexts

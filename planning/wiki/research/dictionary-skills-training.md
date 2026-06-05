@@ -186,6 +186,7 @@ No dictionary design can fully substitute for reference skills training. Two per
 - [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Near-Synonym Discrimination](near-synonym-discrimination.md) — the production-side challenge
 - [Incidental Vocabulary Acquisition Through Reading](incidental-vocabulary-reading.md) — dictionary consultation as a reading strategy and the guess-then-verify model
+- [Input Processing, Noticing, and Depth of Processing](input-processing-noticing-vocabulary.md) — dictionary consultation as a mechanism for creating involvement load
 - [Dictionary Microstructure and Information Architecture](dictionary-microstructure.md) — how sense navigation devices (signposts, menus) improve sense selection accuracy
 
 ## References

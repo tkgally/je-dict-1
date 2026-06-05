@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-04
+**Last updated**: 2026-06-05
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -307,6 +307,38 @@ Entry 05037_kyoukoku ({峡谷|きょうこく}, canyon/gorge) uses `{浸食|し�
 Both kanji are used for しんしょく in geological contexts (浸食 emphasizes water seepage, 侵食 emphasizes erosion/encroachment), but 侵食 is the standard geological term. The two are near-synonyms with overlapping usage.
 
 **Recommended fix**: Either (a) add 浸食 as a kanji-variant cross-reference or note in entry 10927_shinshoku, or (b) create a separate entry for 浸食 if the distinction between water-driven erosion (浸食) and general encroachment (侵食) is pedagogically valuable. Option (a) is simpler and aligns with the dictionary's handling of other kanji variants.
+
+## 05124_shiwa — Furigana reading error ({笑|え}い → {笑|わら}い)
+
+**Source**: Comprehensive-polish 2026-06-04 session 013
+
+Entry 05124_shiwa ({皺|しわ}, wrinkle) notes contain `{笑|え}い{皺|じわ}` — the reading え for 笑 looks wrong. In 笑い皺 (laugh lines/crow's feet), the correct reading is `{笑|わら}い{皺|じわ}` (from 笑う = わらう). The え reading of 笑 does not apply in this compound.
+
+**Recommended fix**: Change `{笑|え}い{皺|じわ}` to `{笑|わら}い{皺|じわ}` in the notes field.
+
+## 05134_nouhin — Semantic tag "communication" incorrect
+
+**Source**: Comprehensive-polish 2026-06-04 session 013
+
+Entry 05134_nouhin ({納品|のうひん}, delivery of goods) has semantic tag "communication" — delivery of goods is logistics/action, not communication. Part of the business/logistics cluster (05132–05138: 受注, 発注, 納品, 出荷, 関税, 物流, 流通).
+
+**Recommended fix**: Replace "communication" with "action" or a logistics-appropriate tag.
+
+## 05173/05175 — Spurious verb_class and conjugation on mimetic adverbs
+
+**Source**: Comprehensive-polish 2026-06-04 session 015
+
+Entries 05173_nurunuru (ぬるぬる) and 05175_tsurutsuru (つるつる) had spurious `verb_class: "godan-ru"` and full conjugation tables producing nonsense like ぬるぬらない and つるつらない. These are mimetic adverbs, not verbs.
+
+**Status**: Instances of the broader P6 pattern in [Cleanup Backlog](cleanup-backlog.md). Will be addressed by the batch pruner proposed in [Tooling Backlog](tooling-backlog.md) → item 5.
+
+## 05176_gorogoro — 河原 (riverbed) noentry resolved
+
+**Source**: Comprehensive-polish 2026-06-04 session 015
+
+Entry 05176_gorogoro noted that 河原 (かわら, riverbed) appeared as noentry because 03902_kawara is 瓦 (roof tile), a different word.
+
+**Status**: Resolved — 河原 was created as a new entry in the 2026-06-05 vocabulary expansion batch.
 
 ## Related pages
 
