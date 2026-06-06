@@ -117,9 +117,19 @@ English version on every polishing pass — the same "two parallel sources of tr
 diverging" failure already documented for duplicate entries in
 [Cleanup Backlog](cleanup-backlog.md) → Priority 8.
 
+> The sketch in this section is now worked out concretely — the normalization-and-hashing
+> procedure, the four-state staleness machine (fresh / stale / missing / orphan), the
+> re-translation queue format, and a `report.py` coverage block — in the companion page
+> **[Translation Sidecar Design](translation-sidecar-design.md) §4**.
+
 ## 3. Schema and storage options
 
-Three broad architectures. The recommendation is **Option B (sidecar files)**.
+Three broad architectures. The recommendation is **Option B (sidecar files)**. A worked-out
+version of the recommended option — a concrete sidecar JSON shape, the six referential-integrity
+rules a `translation_schema.json` would enforce, the field-by-field invariant/translatable
+partition keyed to the real `schema.json`, and the build-time join contract — now lives in
+**[Translation Sidecar Design](translation-sidecar-design.md)**. The summary below states the
+options and the recommendation; that page is the design.
 
 ### Option A — Nested fields in the canonical entry
 
@@ -226,7 +236,11 @@ OpenRouter access to other frontier models for cross-checking, exactly as the ex
 multi-model review pipeline does. Per-language feasibility is partly a question of *which
 models are good at that pair* — Chinese and Korean are well-served; lower-resource targets
 (e.g. Vietnamese, and later Thai/Indonesian) need a calibration pass before committing, just
-as `reviews/calibration_report.md` calibrated the furigana reviewers.
+as `reviews/calibration_report.md` calibrated the furigana reviewers. The published evidence
+behind these feasibility claims — high-resource status for ja/zh/ko, the junior-translator
+quality yardstick, and the documented LLM weakness on the *false-friend* items this dictionary
+cares about most — is now assembled in
+[LLM Translation Quality for Japanese Language Pairs](../research/llm-translation-quality-japanese-pairs.md).
 
 ### Human-in-the-loop
 
@@ -387,7 +401,11 @@ help assemble:
   (country ≠ L1; cohort-type fit; triennial lag).
 - **Feasibility**: high-resource pairs (Chinese, Korean) are low-risk for current LLMs;
   lower-resource pairs need a calibration sample before committing. The calibration step is
-  a direct analogue of `reviews/calibration_report.md`.
+  a direct analogue of `reviews/calibration_report.md`. The MT-evaluation evidence is now
+  collected in [LLM Translation Quality for Japanese Language Pairs](../research/llm-translation-quality-japanese-pairs.md),
+  which confirms ja/zh/ko are all high-resource (feasibility "green" for the first two
+  targets) but warns that the per-item risk concentrates on exactly the false-friend content
+  the Chinese brief targets — so demand and feasibility agree on Chinese-first, Korean-second.
 
 ## 8. Build-script and pipeline adaptations (inventory)
 
@@ -415,6 +433,10 @@ throughout.
 The inline-link system is a quiet win: because links resolve on invariant `entry_id`, the
 entire cross-reference graph is **shared across all languages for free** — only any
 human-readable label needs translating, and labels are short.
+
+The new files in this table — `translation_schema.json`, the sidecar layout, the staleness
+checker, and the build-time join — are specified concretely in
+[Translation Sidecar Design](translation-sidecar-design.md).
 
 ## 9. Phasing / rollout
 
@@ -468,7 +490,12 @@ A staged plan that de-risks before scaling:
   existing review/queue/orchestrator infrastructure is the right shape to reuse.
 - The **single highest-leverage early decision** is the source-of-truth + staleness design.
   Get that right and translations stay honest as the English version evolves; get it wrong
-  and the project accrues silent divergence on every polishing pass.
+  and the project accrues silent divergence on every polishing pass. This decision is now
+  developed into a concrete, critique-able proposal in
+  [Translation Sidecar Design](translation-sidecar-design.md) — a fixed sidecar shape, six
+  referential-integrity rules, a four-state staleness machine with a normalizer, the queue
+  format, and a field-level fallback contract — so the next step toward it is the calibration
+  sample, not more design.
 - The **first concrete deliverable** should be small and advisor-reviewed: a ~50-entry
   Chinese calibration sample that measures raw LLM quality and human-edit rate. Everything
   else scales from what that reveals.
@@ -476,15 +503,21 @@ A staged plan that de-risks before scaling:
   [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — seeded
   from the false-friend table above and expanded with the 文化庁 S/O/D/N triage, sourced D/O
   tables, calque/POS production hazards, L1-specific `common_mistakes`, and a what-to-drop table.
-  Future sessions can still productively develop: the **demand/feasibility ranking** for later
-  languages (a research pass over JLPT/JF learner-population statistics), the **per-language
-  static vs. client-side rendering** trade-off, a worked **sidecar schema** draft, or the
+  Both halves of the **demand × feasibility** gate now have dedicated pages
+  ([demand](../research/japanese-learner-demand-by-l1.md) and
+  [feasibility](../research/llm-translation-quality-japanese-pairs.md)), and the **sidecar
+  schema** is now a worked draft ([Translation Sidecar Design](translation-sidecar-design.md)).
+  Future sessions can still productively develop: the **per-language static vs. client-side
+  rendering** trade-off (the one major design question still only sketched, in §6); the
+  simplified/traditional (`zh-Hans`/`zh-Hant`) handling as its own worked design; or the
   parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different contents).
 
 ## Related pages
 
+- [Translation Sidecar Design](translation-sidecar-design.md) — the worked design for the recommended storage option (§3) and staleness mechanism (§2): concrete sidecar shape, referential-integrity rules, hashing/queue, fallback contract
 - [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — the developed per-language brief for the first additional language (S/O/D/N triage, false-friend tables, L1-specific mistakes, what to drop)
 - [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) — JF 2021 learner-population data re-read by L1, supplying the §7 demand ranking
+- [LLM Translation Quality for Japanese Language Pairs](../research/llm-translation-quality-japanese-pairs.md) — the feasibility half of the §7 demand × feasibility gate: ja/zh/ko all high-resource, but per-item false-friend risk concentrated
 - [L1 Transfer in Japanese L2 Vocabulary](../research/l1-transfer-japanese-vocabulary.md) — the research backbone for note adaptation (Chinese/Korean/English false friends, transfer by stratum)
 - [Translation Equivalence](../research/translation-equivalence.md) — the bilingual mapping problem, now multiplied across languages
 - [Definition and Gloss Strategies](../research/definition-strategies.md) — gloss-writing techniques that each language version must re-apply

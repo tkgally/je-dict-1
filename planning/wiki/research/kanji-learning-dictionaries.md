@@ -1,6 +1,6 @@
 # Kanji Learning and Dictionary Treatment
 
-**Last updated**: 2026-06-04
+**Last updated**: 2026-06-06
 
 ## Overview
 
@@ -178,6 +178,71 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 
 4. **L1 background diversity requires flexibility**: Chinese-background and non-kanji-background learners use kanji dictionaries differently. The current design (reading-based search as primary, with kanji index as supplement) serves both groups, though different features will be more valuable to each.
 
+### Implications for multilingual versions
+
+This page is the clearest case in the wiki where the research **inverts** depending on the
+learner's L1 — and the [Multilingual Dictionary](../ideas/multilingual-dictionary.md) plan makes
+that inversion operational. Almost everything above is written for a learner whose L1 is
+alphabetic (English). For the plan's **first additional target language, Chinese**, the kanji
+story is nearly the reverse, and the dictionary's treatment shifts accordingly.
+
+- **The lookup problem largely dissolves for a hanzi-background learner.** The "fundamental
+  access problem" of §"The lookup problem" — *you cannot pronounce an unknown character, so
+  pronunciation-based lookup fails* — is an alphabetic-L1 problem. A Chinese learner already
+  knows the character's shape and a Mandarin reading; they can read the kanji *as hanzi* on
+  sight. Koda's (2005) "procedural divergence" and Chikamatsu's (1996) faster L1-Chinese kanji
+  recognition are the upside. The Chinese version's value is therefore *not* in teaching the
+  character form (already known) but in teaching the **reading** (unknown and unrelated to
+  Mandarin) and flagging where the **meaning diverges**.
+
+- **Furigana changes function, not just audience.** For an English speaker furigana is a
+  decoding scaffold for an unfamiliar glyph. For a Chinese speaker the glyph is familiar but
+  its *reading* is the whole difficulty — furigana becomes the primary content, the thing
+  being taught, because the on'yomi/kun'yomi bears no relation to the hanzi pronunciation the
+  learner will instinctively supply. This is the "reading interference" the plan's Chinese
+  adaptation notes call out: the shared character meaning can be leaned on while the reading is
+  explicitly marked as *unrelated to Mandarin*. Universal furigana is even more clearly the
+  right default for this audience than for English speakers.
+
+- **Halpern's "core meaning" gloss is redundant-to-harmful for a Chinese reader, and must be
+  adapted.** The kanji index's English keyword gloss (学 → "learn") implements Halpern's
+  core-meaning concept to support *morphological inferencing for someone who does not read
+  hanzi*. A Chinese reader does not need 学 glossed as "learn" — they read it directly. What
+  they need instead is the **divergence flag**: the subset of characters and compounds whose
+  Japanese meaning departs from the Chinese one (the 同形異義語 false friends). So the kanji
+  index's translated layer for Chinese is not a translation of the English glosses but a
+  *different artifact* — a same-form/different-meaning warning layer. This is the kanji-index
+  parallel of the notes-field principle "translate the universal, replace the L1-contrastive."
+
+- **The "false-friend characters" risk Chikamatsu (1996) names is the headline content, not a
+  footnote.** §"L1 background effects" notes that L1-Chinese learners "sometimes made errors
+  due to false-friend characters." For an English audience that is a minor research aside; for
+  the Chinese version it is the *central* adaptation, fully developed in the
+  [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) (the 文化庁 S/O/D/N
+  triage and the sourced 同形異義語 table). The compound-transparency examples above
+  (大丈夫 = big + strong + man → "all right") are doubly instructive here: they are opaque to an
+  English learner *and* a false friend for a Chinese learner (大丈夫 = "a real man" in Chinese).
+
+- **"Phonetic component patterns" transfer differently by L1.** Toyoda's (2009) phonetic-radical
+  awareness (清/晴/精 sharing 青 → セイ) is something a Chinese learner partly *already has* from
+  hanzi phonetic series — but the series **map to different sounds** (the Mandarin and the
+  on'yomi phonetic series only partially align). A Chinese-facing note can exploit the
+  existing awareness while warning that the sound target is the on'yomi, not the Mandarin.
+
+- **The enrichment opportunities re-prioritize.** Of the proposed kanji-index enrichments
+  above, *radical/stroke-count/lookup aids* drop in value for a Chinese audience (who can
+  already access characters), while *reading-pattern* data and *false-friend flagging* rise to
+  the top. The index enrichment roadmap is therefore itself L1-dependent — another instance of
+  the plan's general finding that the invariant Japanese spine is shared but the *pedagogical
+  framing* around it is per-language.
+
+In short: the kanji index and furigana policy are part of the **invariant spine** (the
+characters and readings do not change), but their *pedagogical justification and the translated
+gloss layer* are exactly the kind of content the multilingual plan adapts per L1. For Korean
+(Sino-Korean readings, systematic on'yomi correspondences) the picture is intermediate; for
+Vietnamese (Hán-Việt cognates but Latin script, no character bridge) it sits between Chinese and
+English — see the plan's [§5 "Generalizing to later languages"](../ideas/multilingual-dictionary.md#5-how-notes-adapt-per-target-language).
+
 ## References
 
 - Breen, J. (2004). Multiple indexing in an electronic kanji dictionary. In *Proceedings of the Workshop on Enhancing and Using Electronic Dictionaries* (COLING 2004).
@@ -207,6 +272,8 @@ Japanese publishing conventions tie furigana to the jōyō kanji list: newspaper
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — morphological analysis of kanji compounds as a high-value vocabulary strategy
 - [History of Japanese-English Dictionaries](je-dictionary-history.md) — Nelson, Halpern, and the kanji dictionary tradition
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — how L1 writing system (logographic vs. alphabetic) shapes kanji learning strategies
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the plan whose per-L1 adaptation makes this page's kanji-learning inversion operational (Chinese first)
+- [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — the 同形異義語 false-friend layer that becomes the headline kanji content for a hanzi-background audience
 - [Lexical Inferencing and Guessing from Context](lexical-inferencing.md) — knowledge source taxonomies, success rates, and dictionary design implications
 - [Dictionary Skills and Reference Skills Training](dictionary-skills-training.md) — Japanese-specific lookup skill challenges including form determination and script selection
 - [Dictionary Use in the Age of Machine Translation](dictionary-and-machine-translation.md) — MT bypasses the kanji lookup barrier for decoding, but furigana-rich dictionaries teach readings that MT hides
