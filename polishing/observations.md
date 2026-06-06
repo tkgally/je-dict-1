@@ -30,3 +30,7 @@ _(All observations through 2026-06-05 session 025 have been harvested by the wik
 ## 2026-06-06 — comprehensive polish session 029 (entries 05468–05482)
 - [pattern] Three entries in this range (05474 分量, 05475 重量, 05476 金槌) had obviously wrong semantic/formality tags: 分量 had ["building","transportation"], 重量 had formality "informal", 金槌 had semantic ["food","tool"]. This continues the tag-drift pattern seen earlier; entries in the 05400–05500 range appear to be a batch generated with tag errors. A targeted scan of semantic and formality tags for this range would be worthwhile.
 - [entry] 05478 ドライバー notes mention a "MEANING 4 - COMPUTING" (device driver) but sense 4 is not listed in the definitions array. Either add a definition for the computing sense or remove the note.
+
+## 2026-06-06 — comprehensive polish session 030 (entries 05483–05502)
+- [pattern] Continued tag-drift pattern: 05484 体温計 (time-general,tool,weather→health,tool), 05485 体重計 (animal-mammal,tool→health,tool), 05486-05489 plants (general→plant,nature), 05491-05492 office tools (general→tool,office), 05493-05494 ceremonies (general→ritual,social), 05496 ジャングル (general→nature,geography), 05497 高原 (food→geography,nature), 05498 海辺 (general→geography,nature), 05499 群島 (tool→geography,nature), 05500 本土 (general→geography), 05502 秘書 (removed domain:medical).
+- [entry] 05501 写真家: notes link ⟦カメラマン→カメラマン：noentry⟧ but 28387_kameraman exists — should be updated to link properly.
