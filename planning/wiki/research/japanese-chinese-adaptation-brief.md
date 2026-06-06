@@ -268,6 +268,8 @@ recurrent patterns.
 ## Related pages
 
 - [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the hub plan this brief serves; see §5 (note adaptation) and §4 (pipeline)
+- [Translation Sidecar Design](../ideas/translation-sidecar-design.md) — how the pipeline consumes this brief as a routing signal (D/O headwords → deep/advisor pass) and preserves the *added* false-friend Japanese fragments
+- [LLM Translation Quality for Japanese Language Pairs](llm-translation-quality-japanese-pairs.md) — the MT-eval evidence that the false friends this brief targets are exactly where LLMs are weakest, justifying the deep/advisor routing
 - [Japanese-Learner Demand by L1](japanese-learner-demand-by-l1.md) — the demand data (JF 2021) that makes Chinese the highest-priority first language
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — the research backbone (Jiang's model, the wago/kango/gairaigo transfer matrix, the seed false-friend table)
 - [Gairaigo: Loanwords in Japanese](gairaigo-loanwords.md) — the English-side false friends this brief mostly *drops* for Chinese

@@ -117,6 +117,7 @@ as the plan specifies; the data simply confirms the ranking rather than overturn
 ## Related pages
 
 - [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the plan whose §7 demand/feasibility ranking this page supplies data for
+- [LLM Translation Quality for Japanese Language Pairs](llm-translation-quality-japanese-pairs.md) — the *feasibility* half of the same demand × feasibility gate this page supplies the *demand* half of
 - [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — the first-language brief justified by this demand ranking
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — why each L1 group needs different note adaptation (the feasibility/quality axis is partly about how distinct each L1's needs are)
 - [Vocabulary Size and Text Coverage](vocabulary-size-coverage.md) — the other sizing axis (how big the dictionary must be), complementary to how many languages it serves
