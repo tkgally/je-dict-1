@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-05
+**Last updated**: 2026-06-06
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-06 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
+Added 25 new dictionary entries (IDs 28813-28837) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates (words referenced inside existing entries 05272-05389 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Loanwords / tech (4)**: ドラッグ (drag — computing, also suru), ショッピング (shopping, also suru), クリアファイル (clear plastic folder, wasei-eigo), ガーゼ (gauze, from German)
+- **Mimetics / adverbs (4)**: ひやっとする (sudden chill, suru-verb), つぶつぶ (grainy bumps), よたよた (tottering), ぺたんと (with a flat plop)
+- **Measurement (2)**: ミリ (millimeter / milli- prefix — 2 senses, 6 examples), ヘクタール (hectare)
+- **Food / daily life (3)**: {春巻|はるま}き (spring roll), {食|た}べ{過|す}ぎ (overeating), {風呂場|ふろば} (bathroom)
+- **School clubs / governance (5)**: {運動部|うんどうぶ} (sports club), {文化部|ぶんかぶ} (cultural club), {児童会|じどうかい} (elementary student council), {学生会|がくせいかい} (university student government), {養護教諭|ようごきょうゆ} (school nurse)
+- **Health / medical (4)**: {便秘薬|べんぴやく} (consumer term for laxative), {下剤|げざい} (medical-register laxative — pair with 28831), お{通|つう}じ (polite term for bowel movement), {喚起|かんき} (arousing attention; formal, also suru)
+- **Other (3)**: {眉唾|まゆつば} (fishy / dubious story), {最寄|もよ}り (nearest — esp. station), {押|お}し{花|ばな} (pressed flower)
+
+All 25 entries validate after a fix-up round: one initial `formality: "polite"` value on お{通|つう}じ corrected to `"neutral"` (polite isn't in the enum); one ミリ reading fixed from katakana to hiragana per project rules; one typo in ミリ ex3 ({部品|ひんぶん} → {部品|ぶひん}); one bare-kanji 部 in {文化部|ぶんかぶ} notes given furigana. Four suru-verbs (ひやっとする, ドラッグ, ショッピング, {喚起|かんき}) received full conjugation tables via add_conjugations.py. No new kanji. Candidate list synced (1548→1523).
 
 ### 2026-06-05 (Vocabulary Expansion - 20 New Entries, "seen in entry" + Food Batch)
 Added 20 new dictionary entries (IDs 28793-28812) from `candidate_words.json`. The first 15 came from the most recent "seen in entry" internal-completeness candidates (words referenced inside existing entries 02213-05249 but not yet defined); the final 5 are oldest unprocessed food/education candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
