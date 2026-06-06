@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-06 (Vocabulary Expansion - 24 New Entries, "seen in entry" + Backlog Batch)
+Added 24 new dictionary entries (IDs 28861-28884) from `candidate_words.json`. The first three filled "seen in entry" internal-completeness gaps (referenced in 03477, 03792, 03417); the rest came from the oldest-unprocessed and recent backlog. Per-field budgets followed the reference shape of {もてなし} (27261) — short top-level glosses (3-8 words), 2-3 focused note sections.
+
+- **Time-period set (4)**: {三年間|さんねんかん} (three years), {二年|にねん} (two years, 2 senses), {一年間|いちねんかん} (one year), {二年間|にねんかん} (two years)
+- **Government / academic (4)**: {文部科学|もんぶかがく} (MEXT prefix), {四則|しそく} (four arithmetic operations), {線形|せんけい} (linear), {理学|りがく} (natural science)
+- **Martial arts (2)**: {小手|こて} (kendo gauntlet / strike, 2 senses), {組|く}み{手|て} (sparring)
+- **Daily life (5)**: {失|な}くし{物|もの} (lost item), {湯加減|ゆかげん} (bath temperature), リビングルーム (living room), {両側|りょうがわ} (both sides), {式場|しきじょう} (ceremony hall)
+- **Hobbies / culture (3)**: {藤棚|ふじだな} (wisteria trellis), {珠算|しゅざん} (abacus calculation), {塗|ぬ}り{絵|え} (coloring page)
+- **Other (6)**: むちゃくちゃ (na-adj / adverb, 2 senses), {猪突猛進|ちょとつもうしん} (charging recklessly), {各紙|かくし} (each newspaper), {大喜|おおよろこ}び (great joy), お{詫|わ}びする (to apologize, polite), {真|しん} (truth / true prefix, 2 senses)
+
+Also removed one stale candidate (C21676 打ち明ける/ぶちあける — duplicates 04230_uchiakeru).
+
 ### 2026-06-06 (Vocabulary Expansion - 23 New Entries, "seen in entry" + Backlog Batch)
 Added 23 new dictionary entries (IDs 28838-28860) from `candidate_words.json`. The first 9 came from the most recent "seen in entry" internal-completeness candidates referenced inside existing entries 05259-05389; the next 14 are higher-quality oldest-unprocessed candidates from May/early June. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
