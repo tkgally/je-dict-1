@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05493_kekkonshiki_ex1",
-      "japanese": "{結婚式|けっこんしき}は{来月|らいげつ}です。",
+      "japanese": "{結婚式|けっこんしき}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦です→です：09485_desu⟧。",
       "english": "The wedding is next month.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05493_kekkonshiki_ex2",
-      "japanese": "{結婚式|けっこんしき}に{招待|しょうたい}された。",
+      "japanese": "{結婚式|けっこんしき}⟦に→に：00314_ni⟧⟦{招待|しょうたい}された→招待：01435_shoutai⟧。",
       "english": "I was invited to the wedding.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05493_kekkonshiki_ex3",
-      "japanese": "{教会|きょうかい}で{結婚式|けっこんしき}を{挙|あ}げた。",
+      "japanese": "⟦{教会|きょうかい}→教会：01387_kyoukai⟧⟦で→で：00502_de⟧{結婚式|けっこんしき}⟦を→を：00422_wo⟧⟦{挙|あ}げた→挙げる：02443_ageru⟧。",
       "english": "We had our wedding ceremony at a church.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{結婚式|けっこんしき} refers to the formal wedding ceremony itself. In Japan, the ceremony ({結婚式|けっこんしき}) is usually followed by a reception ({披露宴|ひろうえん}), which are often treated as separate events.\n\nCOMMON PATTERNS:\n- {結婚式|けっこんしき}を{挙|あ}げる: to hold a wedding ceremony\n- {結婚式|けっこんしき}に{出席|しゅっせき}する: to attend a wedding\n- {結婚式|けっこんしき}に{招待|しょうたい}する: to invite to a wedding\n- {結婚式場|けっこんしきじょう}: wedding venue\n\nTYPES:\n- {神前式|しんぜんしき}: Shinto-style wedding (at a shrine)\n- {教会式|きょうかいしき}: church-style wedding (most popular style)\n- {人前式|じんぜんしき}: secular ceremony (vows before guests)\n\nRELATED TERMS:\n- {披露宴|ひろうえん}: wedding reception (formal banquet)\n- {二次会|にじかい}: casual after-party\n- ご{祝儀|しゅうぎ}: monetary gift (typically given in odd-numbered amounts like 30,000 or 50,000 yen)",
+  "notes": "{結婚式|けっこんしき} refers to the formal wedding ceremony itself. In Japan, the ceremony ({結婚式|けっこんしき}) is usually followed by a reception (⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧), which are often treated as separate events.\n\nCOMMON PATTERNS:\n- {結婚式|けっこんしき}⟦を→を：00422_wo⟧⟦{挙|あ}げる→挙げる：02443_ageru⟧: to hold a wedding ceremony\n- {結婚式|けっこんしき}⟦に→に：00314_ni⟧⟦{出席|しゅっせき}する→出席：02084_shusseki⟧: to attend a wedding\n- {結婚式|けっこんしき}⟦に→に：00314_ni⟧⟦{招待|しょうたい}する→招待：01435_shoutai⟧: to invite to a wedding\n- ⟦{結婚式場|けっこんしきじょう}→結婚式場：noentry⟧: wedding venue\n\nTYPES:\n- ⟦{神前式|しんぜんしき}→神前式：noentry⟧: Shinto-style wedding (at a shrine)\n- ⟦{教会式|きょうかいしき}→教会式：noentry⟧: church-style wedding (most popular style)\n- ⟦{人前式|じんぜんしき}→人前式：noentry⟧: secular ceremony (vows before guests)\n\nRELATED TERMS:\n- ⟦{披露宴|ひろうえん}→披露宴：05636_hirouen⟧: wedding reception (formal banquet)\n- ⟦{二次会|にじかい}→二次会：08355_nijikai⟧: casual after-party\n- ⟦ご{祝儀|しゅうぎ}→祝儀：06225_shuugi⟧: monetary gift (typically given in odd-numbered amounts like 30,000 or 50,000 yen)",
   "cross_references": [
     {
       "type": "related",
@@ -76,7 +76,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T07:44:56Z",
-    "modified": "2026-04-14T06:33:24Z",
+    "modified": "2026-06-06T18:06:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -86,7 +86,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "ritual",
+        "social"
       ]
     }
   }
