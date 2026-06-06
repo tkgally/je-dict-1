@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05475_juuryou_ex1",
-      "japanese": "{荷物|にもつ}の{重量|じゅうりょう}を{確認|かくにん}する。",
+      "japanese": "⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{重量|じゅうりょう}⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦する→する：00392_suru⟧。",
       "english": "To check the weight of the luggage.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05475_juuryou_ex2",
-      "japanese": "{重量|じゅうりょう}{制限|せいげん}は20キロです。",
+      "japanese": "{重量|じゅうりょう}⟦{制限|せいげん}→制限：03375_seigen⟧⟦は→は：00079_ha⟧20⟦キロ→キロ：01350_kiro⟧⟦です→です：09485_desu⟧。",
       "english": "The weight limit is 20 kilograms.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05475_juuryou_ex3",
-      "japanese": "{重量|じゅうりょう}オーバーで{追加|ついか}{料金|りょうきん}がかかった。",
+      "japanese": "{重量|じゅうりょう}⟦オーバー→オーバー：01529_oobaa⟧⟦で→で：00502_de⟧⟦{追加|ついか}→追加：04060_tsuika⟧⟦{料金|りょうきん}→料金：03797_ryoukin⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "There was an extra charge for being overweight.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{重量|じゅうりょう} means weight, typically used in technical or formal contexts.\n\nCOMPONENTS:\n- {重|じゅう}: heavy, weight\n- {量|りょう}: amount, quantity\n\nCOMMON EXPRESSIONS:\n- {重量|じゅうりょう}{制限|せいげん}: weight limit\n- {重量|じゅうりょう}オーバー: overweight\n- {総|そう}{重量|じゅうりょう}: total weight\n- {正味|しょうみ}{重量|じゅうりょう}: net weight\n\nRELATED WORDS:\n- {重|おも}さ: weight (casual, everyday)\n- {体重|たいじゅう}: body weight\n- {軽量|けいりょう}: lightweight\n\nCONTEXT:\nCommonly used for luggage limits ({荷物|にもつ}の{重量|じゅうりょう}), shipping, and technical specifications. For everyday use, {重|おも}さ is more natural.",
+  "notes": "{重量|じゅうりょう} means weight, typically used in technical or formal contexts.\n\nCOMPONENTS:\n- {重|じゅう}: heavy, weight\n- {量|りょう}: amount, quantity\n\nCOMMON EXPRESSIONS:\n- {重量|じゅうりょう}⟦{制限|せいげん}→制限：03375_seigen⟧: weight limit\n- {重量|じゅうりょう}⟦オーバー→オーバー：01529_oobaa⟧: overweight\n- ⟦{総|そう}→総：03958_sou⟧{重量|じゅうりょう}: total weight\n- ⟦{正味|しょうみ}→正味：04202_shoumi⟧{重量|じゅうりょう}: net weight\n\nRELATED WORDS:\n- ⟦{重|おも}さ→重さ：14444_omosa⟧: weight (casual, everyday)\n- ⟦{体重|たいじゅう}→体重：03395_taijuu⟧: body weight\n- ⟦{軽量|けいりょう}→軽量：19124_keiryou⟧: lightweight\n\nCONTEXT:\nCommonly used for luggage limits (⟦{荷物|にもつ}→荷物：00737_nimotsu⟧⟦の→の：09472_no⟧{重量|じゅうりょう}), shipping, and technical specifications. For everyday use, ⟦{重|おも}さ→重さ：14444_omosa⟧ is more natural.",
   "cross_references": [
     {
       "type": "synonym",
@@ -69,14 +69,14 @@
   ],
   "metadata": {
     "created": "2026-01-16T07:41:48Z",
-    "modified": "2026-04-14T06:33:24Z",
+    "modified": "2026-06-06T17:03:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "informal",
+      "formality": "formal",
       "politeness": "plain",
       "semantic": [
         "general"

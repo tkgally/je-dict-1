@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05471_tanka_ex1",
-      "japanese": "{単価|たんか}が{上|あ}がった。",
+      "japanese": "{単価|たんか}⟦が→が：00051_ga⟧⟦{上|あ}がった→上がる：00615_agaru⟧。",
       "english": "The unit price went up.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05471_tanka_ex2",
-      "japanese": "{客|きゃく}{単価|たんか}を{上|あ}げる{戦略|せんりゃく}を{考|かんが}える。",
+      "japanese": "⟦{客|きゃく}→客：00865_kyaku⟧{単価|たんか}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：00546_ageru⟧⟦{戦略|せんりゃく}→戦略：04869_senryaku⟧⟦を→を：00422_wo⟧⟦{考|かんが}える→考える：00856_kangaeru⟧。",
       "english": "To think of strategies to increase customer spending.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05471_tanka_ex3",
-      "japanese": "{一|ひと}つあたりの{単価|たんか}は200{円|えん}だ。",
+      "japanese": "⟦{一|ひと}つ→一つ：02948_hitotsu⟧⟦あたり→あたり：01770_atari⟧⟦の→の：09472_no⟧{単価|たんか}⟦は→は：00079_ha⟧200⟦{円|えん}→円：00774_en⟧⟦だ→だ：09496_da⟧。",
       "english": "The unit price is 200 yen each.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{単価|たんか} refers to the price of a single unit or item. It is primarily used in business, retail, and manufacturing contexts rather than everyday conversation.\n\nCOMMON EXPRESSIONS:\n- {客|きゃく}{単価|たんか}: average spending per customer (a key retail metric)\n- {単価|たんか}が{高|たか}い/{安|やす}い: high/low unit price\n- {単価|たんか}を{上|あ}げる/{下|さ}げる: to raise/lower the unit price\n- {原価|げんか}{単価|たんか}: unit cost (manufacturing)\n\nCOMPONENTS:\n{単|たん} (single) + {価|か} (price). Related terms include {定価|ていか} (list price), {原価|げんか} (cost price), and {時価|じか} (market price).\n\nUSAGE:\nIn business discussions, {客|きゃく}{単価|たんか} (customer unit price) is a key performance metric meaning the average amount each customer spends per visit or transaction.",
+  "notes": "{単価|たんか} refers to the price of a single unit or item. It is primarily used in business, retail, and manufacturing contexts rather than everyday conversation.\n\nCOMMON EXPRESSIONS:\n- ⟦{客|きゃく}→客：00865_kyaku⟧{単価|たんか}: average spending per customer (a key retail metric)\n- {単価|たんか}⟦が→が：00051_ga⟧⟦{高|たか}い→高い：00500_takai⟧/⟦{安|やす}い→安い：00464_yasui⟧: high/low unit price\n- {単価|たんか}⟦を→を：00422_wo⟧⟦{上|あ}げる→上げる：00546_ageru⟧/⟦{下|さ}げる→下げる：00807_sageru⟧: to raise/lower the unit price\n- ⟦{原価|げんか}→原価：05470_genka⟧{単価|たんか}: unit cost (manufacturing)\n\nCOMPONENTS:\n{単|たん} (single) + {価|か} (price). Related terms include ⟦{定価|ていか}→定価：04066_teika⟧ (list price), ⟦{原価|げんか}→原価：05470_genka⟧ (cost price), and ⟦{時価|じか}→時価：12969_jika⟧ (market price).\n\nUSAGE:\nIn business discussions, ⟦{客|きゃく}→客：00865_kyaku⟧{単価|たんか} (customer unit price) is a key performance metric meaning the average amount each customer spends per visit or transaction.",
   "cross_references": [
     {
       "type": "related",
@@ -69,7 +69,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T07:41:48Z",
-    "modified": "2026-04-14T06:33:24Z",
+    "modified": "2026-06-06T17:03:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
