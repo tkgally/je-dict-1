@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-05
+**Last updated**: 2026-06-06
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -339,6 +339,28 @@ Entries 05173_nurunuru (ぬるぬる) and 05175_tsurutsuru (つるつる) had sp
 Entry 05176_gorogoro noted that 河原 (かわら, riverbed) appeared as noentry because 03902_kawara is 瓦 (roof tile), a different word.
 
 **Status**: Resolved — 河原 was created as a new entry in the 2026-06-05 vocabulary expansion batch.
+
+## 05318_tairyoku (体力) — Semantic tag "leisure" should be health/body
+
+**Source**: Comprehensive-polish 2026-06-05 session 022
+
+Entry 05318_tairyoku ({体力|たいりょく}, physical strength/stamina) carries `semantic: ["leisure"]`, which does not fit physical stamina. Should be "health" or "body".
+
+**Recommended fix**: Replace "leisure" with "health" (or "body"). Also check the related 〜力 cluster — 気力, 精力, 忍耐力 — for the same misapplied tag, since they were likely created in the same batch.
+
+## 05332–05335 (足し算, 引き算, 掛け算, 割り算) — Math cluster mis-tagged
+
+**Source**: Comprehensive-polish 2026-06-05 session 023
+
+The four arithmetic-operation entries (addition, subtraction, multiplication, division) all carry wrong semantic tags ("body-part", "furniture", "time-general") instead of "mathematics". Created by claude-opus-4-5, modified 2026-04-14 — the same cross-contaminated batch documented in [Cleanup Backlog](cleanup-backlog.md) → Priority 11.
+
+**Recommended fix**: Set `semantic: ["mathematics"]` on all four. Best handled as a small cluster fix.
+
+## 05381_toshoshitsu (図書室) — Duplicate example sentences
+
+**Source**: Comprehensive-polish 2026-06-05 session 025
+
+Entry 05381 ({図書室|としょしつ}, library room) has ex1 and ex4 as identical Japanese sentences. One should be replaced with a different example showing 図書室 in another context (e.g., school library use, quiet-study rules, borrowing). Maintain progressive length.
 
 ## Related pages
 

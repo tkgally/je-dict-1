@@ -107,3 +107,4 @@ This distinguishes je-dict-1 from reference dictionaries (which assume native-sp
 - [Content Pipeline](../project/content-pipeline.md) — how entries flow from discovery to publication
 - [Vocabulary Size and Text Coverage](../research/vocabulary-size-coverage.md) — research on how many words learners need and dictionary sizing
 - [Project Overview](../project/overview.md) — what the dictionary is and who it's for
+- [Multilingual Dictionary](multilingual-dictionary.md) — the other major expansion axis: more target languages rather than more entries
