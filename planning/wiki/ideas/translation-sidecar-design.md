@@ -350,6 +350,7 @@ instead of blocking on 100%.
 
 - [Multilingual Dictionary](multilingual-dictionary.md) — the hub plan this page develops (§2 staleness, §3 storage); see its §3 and "Implications" for why a worked sidecar/staleness design was the flagged next step
 - [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — supplies the D/O false-friend classes that justify the "superset, not equality" preservation rule and the priority routing
+- [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md) — why the example `target_lang` here is `zh-Hans` (not bare `zh`), and how a future `zh-Hant` becomes a parallel additive sidecar tree
 - [LLM Translation Quality for Japanese Language Pairs](../research/llm-translation-quality-japanese-pairs.md) — the feasibility evidence for *whether* the model passes that feed this pipeline are good enough, and where (false friends) they are weakest
 - [Content Pipeline](../project/content-pipeline.md) — the daily polishing flow that produces the staleness obligation this mechanism answers
 - [Cleanup Backlog](cleanup-backlog.md) — Priority 8 (parallel sources of truth diverging) is the failure this design prevents; Priority 9 (nested furigana wrappers) is the edge case the preservation extractor must tolerate

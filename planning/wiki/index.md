@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-06 (added the Translation Sidecar Design and LLM Translation Quality for Japanese Language Pairs pages; swept Kanji Learning for multilingual relevance — continuing the multilingual expansion)
+**Last updated**: 2026-06-06 (recorded the curator's simplified-Chinese-first decision: added the Chinese Simplified/Traditional Handling worked-design page and propagated `zh-Hans`-first through the multilingual hub and the Chinese adaptation brief — continuing the multilingual expansion)
 
 
 ## How this wiki is organized
@@ -98,6 +98,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Enhancement Plan 2026 Retrospective](topics/enhancement-plan-retrospective.md) — What the 16-phase enhancement plan built, which targets were met, and what remains
 - [Schema Tag Reliability](topics/schema-tag-reliability.md) — Recurring cases where metadata tags drift from entry content (runaway automation, categorical compression, stale auto-labels)
 - [Furigana Wrapper Anomalies](topics/furigana-wrapper-anomalies.md) — Malformed furigana wrapper patterns: honorific-prefix-inside-wrapper, pure-kana wrappers, truncated readings, and over-wrapped okurigana (859 instances across 624 entries)
+- [Chinese Simplified/Traditional Handling](topics/chinese-simplified-traditional.md) — Worked design for the multilingual plan's (now-resolved) simplified-first decision: `zh-Hans`/`zh-Hant` BCP-47 code space, why simplified→traditional conversion is lossy (one-to-many merges + vocabulary norms), the OpenCC-seed-plus-human-review path for adding traditional later, and font/search/UI consequences
 
 ## Ideas
 
