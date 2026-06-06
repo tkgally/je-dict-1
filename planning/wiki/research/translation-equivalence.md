@@ -1,6 +1,6 @@
 # Translation Equivalence
 
-**Last updated**: 2026-05-23
+**Last updated**: 2026-06-06
 
 ## The core problem
 
@@ -58,6 +58,34 @@ The "similar words" sections (a v2 quality standard) are particularly valuable f
 
 Cross-references are also essential — they expose the system of related words rather than treating each entry in isolation.
 
+## Implications for multilingual versions
+
+Every category of non-equivalence on this page is **target-language-specific**: it is defined
+against English, and it changes when the target language is not English. The
+[Multilingual Dictionary](../ideas/multilingual-dictionary.md) plan is, in one sense, this page
+multiplied across languages. Concretely:
+
+- **Lexical gaps move.** 先輩/後輩 is a hard *English* gap, but Korean lexicalizes it directly
+  (선배/후배) and Chinese has close matches (前辈/学长/学姐). お疲れ様 and 空気を読む are gaps for
+  some target languages and near-matches for others. A note that says "no English equivalent"
+  is **English-specific content** and must be re-evaluated, not translated, for each language —
+  exactly the boundary the
+  [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) draws.
+- **Semantic asymmetries differ.** The giving verbs (あげる/くれる/もらう) and the 着る/履く/被る
+  "wear" split are genuine asymmetries against English; against a different L1 the contrast may be
+  sharper or already present, so the *amount* of explanation needed varies by audience.
+- **The asymmetry can flip to a false friend.** For a Chinese learner, the dominant
+  equivalence hazard is not the lexical gap but the **同形異義語** — a shared kanji compound that
+  *looks* like a perfect equivalent and is not (手紙 ≠ "letter" for a Chinese reader who reads it
+  as 手纸 "toilet paper"). English has no analogue of this class because English shares no
+  characters with Japanese. This is the single biggest structural difference between an
+  English-target and a Chinese-target version of the same entry.
+
+The practical rule for the translation pipeline: the **explanation of what the Japanese word
+means in its own context** (the meaning-based definition) is largely universal and translates
+cleanly; the **contrastive usage notes** ("unlike English X…") are the part this page is really
+about, and they are the part that must be adapted per target language.
+
 ## Related pages
 
 - [Definition Strategies](definition-strategies.md) — practical techniques for writing effective glosses (complementary to this page)
@@ -73,3 +101,5 @@ Cross-references are also essential — they expose the system of related words 
 - [Register and Formality Marking](register-formality-marking.md) — register asymmetry in translation equivalents and diasystematic labels
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — culture-bound terms where translation equivalence breaks down entirely
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — why false equivalence risk does not make bilingual dictionaries inferior
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — non-equivalence multiplied across target languages; what is invariant vs. adapted
+- [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — the first per-language working-out of which equivalence notes adapt and which translate

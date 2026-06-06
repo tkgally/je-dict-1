@@ -1,6 +1,6 @@
 # L1 Transfer in Japanese L2 Vocabulary Acquisition
 
-**Last updated**: 2026-06-01
+**Last updated**: 2026-06-06
 
 ## Overview
 
@@ -151,6 +151,8 @@ The wago/kango/gairaigo distinction often tracks register (wago = native/casual,
 
 The dictionary already has a research page on gairaigo that covers English→Japanese false friends. The same treatment would be valuable for Chinese→Japanese and Korean→Japanese false friends if the dictionary expands its audience. Even for the current English-speaker audience, noting when a kango compound has a different meaning in Chinese can be useful cultural context.
 
+This is no longer hypothetical: the [Multilingual Dictionary](../ideas/multilingual-dictionary.md) plan makes Chinese the first additional target language, and the [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) develops the Chinese-side false friends (the 文化庁 S/O/D/N triage, an expanded 同形異義語 table, the L1-specific `common_mistakes`) into an operational reference for the translation pipeline and the human advisor. The Chinese/Korean/English transfer dynamics analyzed on this page are the research backbone those per-language briefs draw on; the briefs are where the analysis becomes per-entry note content.
+
 ## Key references
 
 - Champ, R. (2014). Gairaigo in Japanese foreign language learning: A tool for native English speakers? *New Voices in Japanese Studies*, 6, 26-44.
@@ -177,3 +179,5 @@ The dictionary already has a research page on gairaigo that covers English→Jap
 - [Bilingual vs. Monolingual Dictionary Debate](bilingual-monolingual-debate.md) — how persistent L1 activation supports bilingual dictionary use
 - [Figurative Language and Idiom Processing in L2](figurative-language-idiom-processing.md) — cross-linguistic transfer effects on idiom comprehension (Irujo 1986)
 - [Japanese Particles in L2 Acquisition](japanese-particles-l2.md) — L1-specific particle acquisition patterns (Korean > English > Chinese for case markers)
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the plan that turns this transfer research into per-language note adaptation
+- [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — the first per-language brief built on this page's Chinese transfer analysis
