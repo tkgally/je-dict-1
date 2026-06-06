@@ -1,6 +1,6 @@
 # Multilingual Dictionary: Adding Target Languages Beyond English
 
-**Last updated**: 2026-06-06
+**Last updated**: 2026-06-06 (added the Multilingual Rendering and Delivery Architecture worked design for §6; the GitHub Pages 1 GB ceiling binds at the first additional language)
 
 ## Overview
 
@@ -357,7 +357,12 @@ adaptation drivers for a Japanese→Chinese version:
      per-entry language JSON) and swap text via JS on toggle. Lighter to build, weaker SEO,
      larger initial payload.
   A hybrid is likely best: per-language static pages for SEO with a client-side toggle that
-  navigates between them and remembers the preference. This needs a dedicated design pass.
+  navigates between them and remembers the preference. This now has its dedicated design pass —
+  **[Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md)** —
+  which brings Google's separate-URL/`hreflang` guidance and the **GitHub Pages 1 GB ceiling**
+  (reached, per measured numbers, at the *first* additional language) to bear and recommends the
+  size-controlled hybrid above, while naming the hosting decision that scaling past two languages
+  forces.
 - **Search index per language**: `search_index_builder.py` builds a JS index over
   headwords, readings, glosses, and tags (see
   [Architecture](../project/architecture.md#search)). Glosses and tag display names are
@@ -454,10 +459,15 @@ checker, and the build-time join — are specified concretely in
 
 A staged plan that de-risks before scaling:
 
-1. **Design lock-in**: resolve the storage option ([§3](#3-schema-and-storage-options)) and the
-   staleness mechanism ([§2](#2-source-of-truth-and-the-staleness-problem)). The
-   simplified/traditional question is **already resolved** — simplified (`zh-Hans`) first
-   ([§7](#7-per-language-considerations)) — so the remaining lock-in is storage + staleness.
+1. **Design lock-in**: resolve the storage option ([§3](#3-schema-and-storage-options)), the
+   staleness mechanism ([§2](#2-source-of-truth-and-the-staleness-problem)), and — newly
+   promoted to *early* lock-in — the rendering/hosting approach
+   ([§6](#6-ui-storage-and-delivery), worked out in
+   [Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md)),
+   because the GitHub Pages 1 GB ceiling binds at the first additional language rather than at
+   scale. The simplified/traditional question is **already resolved** — simplified (`zh-Hans`)
+   first ([§7](#7-per-language-considerations)) — so the remaining lock-in is storage +
+   staleness + rendering/hosting.
 2. **Calibration sample**: translate ~50 entries (spanning a verb, a na-adjective, a
    culturally loaded noun, a particle, a false-friend kanji compound) into Chinese with the
    pipeline; have the advisor review; write a calibration report. This tells us the real
@@ -488,8 +498,13 @@ A staged plan that de-risks before scaling:
   the control surface.
 - **Embedded-Japanese preservation** — translation must not touch furigana wrappers or
   `⟦…⟧` links; enforce by post-validation, not by trusting the model.
-- **Per-language page explosion** — N × 12,000 static pages has build-time and repo-size
-  cost; measure before committing to full per-language static rendering.
+- **Per-language page explosion** — *now measured* in
+  [Multilingual Rendering and Delivery Architecture §3](../topics/multilingual-rendering-architecture.md#3-the-size-force-the-github-pages-1-gb-ceiling-is-hit-at-the-second-language):
+  the live site is already ~492 MB / 31,454 pages, so the **GitHub Pages 1 GB hard limit is hit
+  at the *first* additional language**, and a *second* additional language is impossible on
+  GitHub Pages without size controls or a host migration. This binds immediately, not in a
+  distant future — so the rendering/hosting choice is an *early* design lock-in (cf. step 1),
+  not a late one.
 - **Quality accountability** — for languages with no human advisor, what review bar ships?
   The multi-model cross-check pattern is the fallback, but it is weaker than a native
   reviewer.
@@ -526,14 +541,19 @@ A staged plan that de-risks before scaling:
   The **simplified/traditional (`zh-Hans`/`zh-Hant`) handling** is now a worked design too
   ([Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md)),
   recording the curator's simplified-first decision and the OpenCC-seed-plus-review path for
-  traditional. Future sessions can still productively develop: the **per-language static vs.
-  client-side rendering** trade-off (the one major design question still only sketched, in §6);
-  or the parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different
-  contents).
+  traditional. The **per-language static vs. client-side rendering** trade-off — previously the
+  one major design question still only sketched in §6 — is now a worked design too
+  ([Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md)),
+  which found the GitHub Pages 1 GB ceiling binds at the *first* additional language and
+  recommends a size-controlled hybrid. Future sessions can still productively develop: the
+  parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different contents);
+  the **i18n label-map** design for tag/conjugation display names; the **human-advisor review
+  UI/workflow**; or the **~50-entry calibration-sample** design.
 
 ## Related pages
 
 - [Translation Sidecar Design](translation-sidecar-design.md) — the worked design for the recommended storage option (§3) and staleness mechanism (§2): concrete sidecar shape, referential-integrity rules, hashing/queue, fallback contract
+- [Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md) — the worked design for §6's delivery layer (the previously-only-sketched static-vs-client-side question): Google's separate-URL/`hreflang` guidance, the measured GitHub Pages 1 GB ceiling (hit at the first additional language), and the recommended size-controlled hybrid + hosting decision
 - [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md) — the worked design for §7's (now-resolved) simplified-first decision: `zh-Hans`/`zh-Hant` code space, why conversion is lossy, the OpenCC-seed-plus-review path for adding traditional later, font/search/UI consequences
 - [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — the developed per-language brief for the first additional language (S/O/D/N triage, false-friend tables, L1-specific mistakes, what to drop)
 - [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) — JF 2021 learner-population data re-read by L1, supplying the §7 demand ranking

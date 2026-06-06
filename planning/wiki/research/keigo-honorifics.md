@@ -1,6 +1,6 @@
 # Keigo: Honorific Language Acquisition and Dictionary Treatment
 
-**Last updated**: 2026-05-25
+**Last updated**: 2026-06-06 (added "Implications for multilingual versions" — keigo as the reframing species of note adaptation, distinct from the false-friend addition species)
 
 ## Overview
 
@@ -156,6 +156,57 @@ je-dict-1 has 90 keigo-typed cross-references connecting base verbs to their hon
 
 **7. L1-aware notes**: Where space permits, note that Korean speakers may transfer their L1 honorific intuitions to Japanese — sometimes accurately, sometimes not. For forms where the Japanese and Korean systems diverge (particularly uchi/soto handling), a brief contrastive note would be valuable.
 
+### Implications for multilingual versions
+
+Keigo is one of the clearest cases in the wiki where note adaptation for the planned
+[multilingual expansion](../ideas/multilingual-dictionary.md) is **not** about false-friend
+*additions* (the [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md)'s
+headline concern) but about **reframing the explanatory scaffolding** by the learner's L1
+honorific system. The keigo *forms* are invariant Japanese spine — 参る, 召し上がる, the お〜になる
+pattern are identical for every audience. What changes per L1 is the *framing* of the
+explanation, and the §"L1 background effects" above already supplies the contrastive content:
+
+- **For an English-L1 reader** (the current notes' implicit audience), the framing "a verb's
+  form changes based on social relationship is a foreign concept with no L1 scaffold" is
+  *correct* and should stay. This is the universal-by-default content.
+- **For a Korean-L1 reader**, that framing is actively *wrong*: Korean 존댓말/반말 is a
+  grammaticalized honorific system with subject-honorific marking, humble forms, and
+  addressee-level endings. The Korean notes should *drop* the "foreign concept" framing and
+  *lead* with the **divergence** — Japanese keigo keys on situational uchi/soto where Korean
+  keys more on absolute age-hierarchy, so the canonical error a Korean learner makes is
+  precisely the JP-specific case (humbling one's own boss to an outsider). This is the
+  "translate the universal, replace the L1-contrastive" principle applied not to a gloss but to
+  a whole explanatory stance.
+- **For a Chinese-L1 reader**, keigo is the rare place where the kanji bridge is a genuine
+  *advantage* rather than a false-friend trap: suppletive compound forms (拝見, 拝借, 頂戴) are
+  transparently readable via hanzi, and classical Chinese honorific vocabulary plus modern 您
+  give a partial anchor — while the productive grammatical patterns and the uchi/soto social
+  calculus remain the gap. The Chinese notes can lean on hanzi recognition for the vocabulary
+  layer and concentrate the explanatory effort on the grammar/pragmatics the characters do not
+  reveal.
+
+Two consequences for the multilingual design:
+
+1. **Recommendation #7 above ("L1-aware notes … where space permits") inverts from an optional
+   aside into first-class per-language content.** In the English version the keigo↔L1 contrast
+   is largely absent (correctly); in the Korean version it is the *main* adaptive payload of a
+   keigo entry; in the Chinese version it is the kanji-recognition note. The per-language
+   adaptation brief is where each L1's keigo stance is specified, exactly as the Chinese brief
+   specifies false-friend stances.
+2. **Keigo `common_mistakes` are L1-specific in their *source*, even when the surface error
+   looks the same.** Sonkeigo/kenjōgo reversal and uchi/soto miscalculation are near-universal
+   learner errors, but *why* they happen differs (no-scaffold confusion for English speakers vs.
+   L1-transfer of a divergent honorific calculus for Korean speakers), so the
+   error-preempting notes should be reframed, not merely translated — the same conclusion the
+   plan reaches for `common_mistakes` generally
+   ([multilingual §5](../ideas/multilingual-dictionary.md#5-how-notes-adapt-per-target-language)).
+
+So keigo defines a **second species of note adaptation** alongside the false-friend species:
+*reframing* (same facts, different L1-relative emphasis and stance) as distinct from *addition*
+(new L1-specific warning content). Both are "largely the same notes, with targeted adaptation,"
+but they adapt in different ways, and a translation pipeline that only looks for false-friend
+additions would miss the keigo reframing entirely.
+
 ## Key references
 
 - Bunkachō (Agency for Cultural Affairs). 2007. *Keigo no Shishin* (敬語の指針). Report of the Council for Cultural Affairs subcommittee on the Japanese language.
@@ -184,3 +235,5 @@ je-dict-1 has 90 keigo-typed cross-references connecting base verbs to their hon
 - [Example Sentence Design](example-sentences.md) — designing examples that make social context salient
 - [Cultural Content in Bilingual Dictionaries](cultural-content-dictionaries.md) — keigo as a cultural system requiring cultural notes, not just grammatical treatment
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — keigo formulas as a major category of Japanese formulaic language; holistic storage and retrieval
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the planned multilingual expansion; keigo notes are the "reframing" species of per-L1 note adaptation
+- [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — the per-language brief framework; keigo defines a reframing-adaptation case alongside its false-friend addition cases

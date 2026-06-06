@@ -298,7 +298,9 @@ canonical entry with the requested sidecar:
    and/or ship the sidecar fields for a client-side toggle. The static-vs-client trade-off is
    its own design question ([multilingual §6](multilingual-dictionary.md#6-ui-storage-and-delivery))
    and is **out of scope here** — this page is about the data layer the renderer consumes,
-   not the delivery layer.
+   not the delivery layer. That delivery layer is now worked out in
+   [Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md),
+   which consumes this join and reuses the field-level fallback contract below.
 
 The key contract for the renderer: **field-level fallback, never entry-level.** A Chinese page
 for an entry with a translated `gloss` but a stale `notes` shows Chinese gloss + English notes,
@@ -355,4 +357,5 @@ instead of blocking on 100%.
 - [Content Pipeline](../project/content-pipeline.md) — the daily polishing flow that produces the staleness obligation this mechanism answers
 - [Cleanup Backlog](cleanup-backlog.md) — Priority 8 (parallel sources of truth diverging) is the failure this design prevents; Priority 9 (nested furigana wrappers) is the edge case the preservation extractor must tolerate
 - [Multi-Model Proofreading](multi-model-proofreading.md) — the `review_runner.py` queue/two-pass shape the translation pipeline reuses
+- [Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md) — the delivery layer that consumes this join (§6) and the field-level fallback contract; the static-vs-client-side question this page scoped out
 - [Architecture and Build System](../project/architecture.md) — the build pipeline `--lang` mode extends
