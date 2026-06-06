@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-06
+**Last updated**: 2026-06-06 (added the Japanese→Chinese Adaptation Brief and Japanese-Learner Demand by L1 research pages for the multilingual expansion)
 
 
 ## How this wiki is organized
@@ -64,6 +64,8 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Japanese Vocabulary Grading](research/japanese-vocabulary-grading.md) — BCCWJ frequency data, JLPT vs. corpus-based word lists, the word-family unit problem for Japanese, and coverage curve findings
 - [Depth of Vocabulary Knowledge](research/depth-of-vocabulary-knowledge.md) — Nation's knowledge dimensions, breadth vs. depth, incremental acquisition, collocational difficulty, and implications for dictionary content
 - [L1 Transfer in Japanese L2 Vocabulary](research/l1-transfer-japanese-vocabulary.md) — Jiang's three-stage model, script-based transfer effects (Chinese/Korean/English), cognate advantage, false friends, and dictionary design implications
+- [Japanese→Chinese Adaptation Brief](research/japanese-chinese-adaptation-brief.md) — the per-language brief for the multilingual plan's first additional language: 文化庁 S/O/D/N triage, sourced 同形異義語 false-friend tables, calque/POS production hazards, L1-specific common mistakes, and what to drop from the English notes
+- [Japanese-Learner Demand by L1](research/japanese-learner-demand-by-l1.md) — Japan Foundation 2021 learner-population data re-read by L1/target language, supplying the demand half of the language-priority ranking (confirms Chinese first, Korean second)
 - [Dictionary Skills and Reference Skills Training](research/dictionary-skills-training.md) — Lookup process models (Scholfield, Nesi, Lew), skills taxonomy, training effectiveness, sense selection failures, and compensatory dictionary design
 - [Incidental Vocabulary Acquisition Through Reading](research/incidental-vocabulary-reading.md) — Acquisition rates from unassisted reading, dictionary consultation effects, the Involvement Load Hypothesis, contextual guessing vs. lookup, and implications for dictionary design
 - [Bilingual vs. Monolingual Dictionary Debate](research/bilingual-monolingual-debate.md) — Teacher orthodoxy vs. empirical evidence, bilingualized dictionaries, the Revised Hierarchical Model, proficiency effects, and je-dict-1's hybrid position

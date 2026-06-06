@@ -1,6 +1,6 @@
 # Gairaigo: Loanwords in Japanese
 
-**Last updated**: 2026-05-05
+**Last updated**: 2026-06-06
 
 ## Overview
 
@@ -200,6 +200,35 @@ The gap between the dictionary's 6.1% gairaigo coverage and the 19% type frequen
 2. **False-friend gairaigo** — the words most likely to cause errors deserve entries even if individually low-frequency
 3. **Wasei-eigo** — the most opaque category for all learners
 
+## Implications for multilingual versions
+
+Gairaigo is the stratum where the **cognate advantage inverts by L1**, which makes it a clean
+test case for the [Multilingual Dictionary](../ideas/multilingual-dictionary.md) plan's
+"translate the universal, adapt the L1-contrastive" rule:
+
+- **The gairaigo false-friend warnings are the prime "drop for Chinese" candidate.** マンション ≠
+  "mansion", ナイーブ ≠ "naive", サービス ≠ "service" are warnings against the *English* source
+  word's meaning. A Chinese learner who does not carry that English belief does not have the
+  false friend, so these notes are largely dead weight in a Chinese version — keep them only
+  where the loanword is genuinely common, and demote them otherwise. This is documented as the
+  canonical drop case in the
+  [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) → "What to drop."
+- **The cognate advantage itself is English-specific here.** Gairaigo is the English speaker's
+  main bridge into Japanese vocabulary; for a Chinese speaker the bridge is kango (shared kanji),
+  and gairaigo is closer to opaque new vocabulary (it must be decoded through katakana, not
+  through the source language). So a "recognizable from English" difficulty rating — proposed
+  above for the English audience — is meaningless for a Chinese audience and should not be
+  surfaced in that language version.
+- **The `source_language` metadata, by contrast, is invariant** (it is a fact about the Japanese
+  word, not about the learner), so it can be shared across all language versions even though the
+  *notes* built on top of it diverge.
+
+The general principle: gairaigo content that is *about the Japanese word* (phonological
+adaptation, register stratum, source language) is universal; gairaigo content that is *about the
+English source word* (false-friend warnings, cognate ratings) is English-specific and adapts or
+drops per target language. This is the mirror image of the kango case, where the shared-character
+content is what a Chinese version adds and an English version mostly lacks.
+
 ## Sources
 
 - Daulton, F. E. (2008). *Japan's Built-in Lexicon of English-based Loanwords*. Multilingual Matters.
@@ -232,3 +261,5 @@ The gap between the dictionary's 6.1% gairaigo coverage and the 19% type frequen
 - [Register and Formality Marking](register-formality-marking.md) — stratal register (wago/kango/gairaigo) as a dimension of dictionary label systems
 - [Vocabulary Learning Strategies](vocabulary-learning-strategies.md) — cognate recognition as a discovery strategy and its limitations for gairaigo
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — gairaigo as cognate advantage in the broader context of L1-specific transfer dynamics
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the plan in which gairaigo false-friend warnings are the canonical "drop for Chinese" case
+- [Japanese→Chinese Adaptation Brief](japanese-chinese-adaptation-brief.md) — where gairaigo content is demoted and kango false friends take its place

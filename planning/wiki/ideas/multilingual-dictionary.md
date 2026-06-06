@@ -264,7 +264,16 @@ phenomena to watch for.
 
 ### Chinese-specific adaptation (the first language)
 
-The wiki already contains the research backbone for this in
+The fully developed version of this section now lives in its own page:
+**[Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md)** — the
+operational reference for the Chinese pipeline and the human advisor. It expands the seed table
+below into the 文化庁 S/O/D/N triage, a sourced false-friend (同形異義語) table, the
+partial-overlap (O) and calque/part-of-speech production hazards, the L1-specific
+`common_mistakes` to substitute (の-overgeneralization from 的, transitivity-pair confusion), and
+a "what to drop from the English notes" table. The summary below is the seed; the brief is the
+working document.
+
+The wiki also contains the research backbone for this in
 [L1 Transfer in Japanese L2 Vocabulary](../research/l1-transfer-japanese-vocabulary.md). Key
 adaptation drivers for a Japanese→Chinese version:
 
@@ -368,10 +377,14 @@ the glossary.
 The curator will choose later languages by demand × LLM feasibility. Inputs the wiki can
 help assemble:
 
-- **Demand**: Chinese and Korean speakers are by far the largest Japanese-learner
-  populations worldwide; Vietnamese, Indonesian, Thai, and Burmese learner numbers have
-  grown sharply with technical-intern and study programs. (Quantify from JF/JLPT
-  application statistics in a future research pass — do not fabricate figures here.)
+- **Demand**: now quantified in
+  [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) from the Japan
+  Foundation's 2021 survey (~3.79M learners worldwide). Re-read by L1 and dropping the
+  already-served English populations, **Chinese is the largest unserved group (~1.2M, China +
+  Taiwan), then Indonesian (~712K), then Korean (~470K)**, with Thai and Vietnamese growing via
+  technical-intern and study programs. The data confirms "Chinese first" and points to Korean as
+  the strongest second candidate; see that page for the country→L1 mapping and the caveats
+  (country ≠ L1; cohort-type fit; triennial lag).
 - **Feasibility**: high-resource pairs (Chinese, Korean) are low-risk for current LLMs;
   lower-resource pairs need a calibration sample before committing. The calibration step is
   a direct analogue of `reviews/calibration_report.md`.
@@ -459,14 +472,19 @@ A staged plan that de-risks before scaling:
 - The **first concrete deliverable** should be small and advisor-reviewed: a ~50-entry
   Chinese calibration sample that measures raw LLM quality and human-edit rate. Everything
   else scales from what that reveals.
-- Future wiki-maintenance sessions can productively develop any of: the per-language
-  **adaptation brief** for Chinese (a research page seeded from the false-friend table
-  above), the **demand/feasibility ranking** for later languages (a research pass over JLPT/JF
-  learner-population statistics), the **per-language static vs. client-side rendering**
-  trade-off, or a worked **sidecar schema** draft.
+- The per-language **adaptation brief** for Chinese now exists as a developed page —
+  [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — seeded
+  from the false-friend table above and expanded with the 文化庁 S/O/D/N triage, sourced D/O
+  tables, calque/POS production hazards, L1-specific `common_mistakes`, and a what-to-drop table.
+  Future sessions can still productively develop: the **demand/feasibility ranking** for later
+  languages (a research pass over JLPT/JF learner-population statistics), the **per-language
+  static vs. client-side rendering** trade-off, a worked **sidecar schema** draft, or the
+  parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different contents).
 
 ## Related pages
 
+- [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — the developed per-language brief for the first additional language (S/O/D/N triage, false-friend tables, L1-specific mistakes, what to drop)
+- [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) — JF 2021 learner-population data re-read by L1, supplying the §7 demand ranking
 - [L1 Transfer in Japanese L2 Vocabulary](../research/l1-transfer-japanese-vocabulary.md) — the research backbone for note adaptation (Chinese/Korean/English false friends, transfer by stratum)
 - [Translation Equivalence](../research/translation-equivalence.md) — the bilingual mapping problem, now multiplied across languages
 - [Definition and Gloss Strategies](../research/definition-strategies.md) — gloss-writing techniques that each language version must re-apply
