@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-06 (Vocabulary Expansion - 23 New Entries, "seen in entry" + Backlog Batch)
+Added 23 new dictionary entries (IDs 28838-28860) from `candidate_words.json`. The first 9 came from the most recent "seen in entry" internal-completeness candidates referenced inside existing entries 05259-05389; the next 14 are higher-quality oldest-unprocessed candidates from May/early June. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **School / health / first aid (5)**: {出席停止|しゅっせきていし} (school attendance suspension), {季節性|きせつせい} (seasonality), {三角巾|さんかくきん} (triangular bandage / cooking head scarf — 2 senses, 6 examples), {傷薬|きずぐすり} (wound medicine), ボクサー (boxer — athlete)
+- **Outdoor recreation (2)**: {磯遊|いそあそ}び (tide pool exploration), {磯釣|いそづ}り (rock fishing)
+- **Cooking / kitchen (3)**: {包丁|ほうちょう}さばき (knife skills), {蒸籠|せいろ} (bamboo steamer), {切|き}り{方|かた} (way of cutting)
+- **Verbs (2)**: かわす (godan, dodge / deflect — 2 senses, 6 examples), {擦|す}れる (ichidan, rub / wear thin / become jaded — 3 senses, 9 examples)
+- **Nature / culture (3)**: {水草|みずくさ} (water plant), {笹団子|ささだんご} (Niigata mugwort dumpling), {笹飾|ささかざ}り (Tanabata bamboo decoration)
+- **Society / politics (4)**: {仕事人|しごとにん} (dedicated professional), {税制|ぜいせい} (tax system), ステレオタイプ (stereotype), {総辞職|そうじしょく} (cabinet en bloc resignation — also suru)
+- **Other (4)**: よけ (suffix, repellent / guard), {思|おも}い{入|い}れ (emotional attachment), {両輪|りょうりん} (two essential elements — 2 senses, 4 examples), {単機能|たんきのう} (single-function appliance)
+
+All 23 entries validate after a fix-up round: one romaji slip on {磯釣|いそづ}り (`isodzuri` → `isozuri` per the validator's づ→z mapping) and one bare-kanji 水草 → {水草|みずくさ} in {水草|みずくさ}'s SIMILAR WORDS section. Conjugation tables added: 1 godan (かわす), 1 ichidan ({擦|す}れる), 1 suru ({総辞職|そうじしょく}). No new kanji. Candidate list synced (1523→1501). C21676 打ち明ける/ぶちあける skipped pre-flight as a reading variant of existing 04230_uchiakeru.
+
 ### 2026-06-06 (Vocabulary Expansion - 25 New Entries, "seen in entry" Batch)
 Added 25 new dictionary entries (IDs 28813-28837) from `candidate_words.json`, all drawn from "seen in entry" internal-completeness candidates (words referenced inside existing entries 05272-05389 but not yet defined). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
 
