@@ -29,10 +29,13 @@ revisited:
    false friends, cultural differences, and other L1-specific issues. They are not
    re-authored from scratch per language; they are translated and then selectively adapted.
 3. **Glosses, definitions, explanations, and notes are rendered in the target language.**
-4. **Chinese is the first additional language.** A native Chinese teacher of Japanese has
-   agreed to advise. It is not yet known whether she is from the mainland (→ simplified,
-   Putonghua norms) or Taiwan (→ traditional, Guoyu norms) — see
-   [§7 Per-language considerations](#7-per-language-considerations).
+4. **Chinese is the first additional language, and Simplified Chinese (簡体字, `zh-Hans`)
+   ships first.** A native Chinese teacher of Japanese has agreed to advise; she works in
+   simplified script and Putonghua (mainland) norms, which resolves the script question for the
+   first deliverable. Traditional Chinese (`zh-Hant`) is **deferred, not cancelled** — the
+   design keeps a clean slot for it. See
+   [§7 Per-language considerations](#7-per-language-considerations) and the worked design in
+   [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md).
 5. **Further languages are demand- and feasibility-driven.** Add a language when (a) there
    is real learner demand from that L1 group and (b) current LLMs can produce acceptable
    quality for that language pair.
@@ -363,28 +366,37 @@ adaptation drivers for a Japanese→Chinese version:
   search is shared.
 - **`hreflang` / SEO**: per-language pages should declare `hreflang` alternates so search
   engines serve the right language version.
-- **Font and rendering**: simplified vs. traditional Chinese, Korean, and Vietnamese
-  diacritics all have font-stack implications in `styles.css`.
+- **Font and rendering**: simplified vs. traditional Chinese (different default fonts, plus a
+  few Han-unification glyph-shape differences under one codepoint), Korean, and Vietnamese
+  diacritics all have font-stack implications in `styles.css` — keyed per `lang`/`hreflang`,
+  which is trivial once the code is `zh-Hans` vs. `zh-Hant`. See
+  [Chinese Simplified/Traditional Handling §5](../topics/chinese-simplified-traditional.md#5-font-search-and-ui-consequences).
 
 ## 7. Per-language considerations
 
-### Chinese: simplified vs. traditional (open decision)
+### Chinese: simplified vs. traditional (RESOLVED — simplified first)
 
-The advisor's origin (mainland vs. Taiwan) is unknown. This is not a cosmetic choice:
+**Decision (curator, 2026-06): Simplified Chinese (簡体字, `zh-Hans`) ships first**, because the
+native-speaker advisor works in simplified script and Putonghua (mainland) norms. Traditional
+(`zh-Hant`) is deferred, not cancelled. This was previously the project's single biggest open
+language question; it is now settled for the first deliverable. The reasoning, the full
+language-code space, and the assisted-conversion-plus-review path for adding traditional later
+are worked out in **[Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md)**.
+The essentials:
 
-- **Script**: simplified (mainland, Singapore) vs. traditional (Taiwan, Hong Kong).
-- **Vocabulary and norms**: 软件/軟體 (software), 信息/資訊 (information), and many everyday
-  terms differ between Putonghua and Guoyu norms beyond mere character simplification.
-- **Conversion is not purely mechanical**: simplified↔traditional has one-to-many mappings
-  (e.g. 后/後) that need context, so auto-converting one into the other is lossy.
-
-**Recommendation**: treat "Chinese (Simplified)" and "Chinese (Traditional)" as potentially
-*two* target languages (`zh-Hans`, `zh-Hant`) rather than one, even if only one ships first.
-Pick the advisor's variant as the first deliverable; design the language code space so the
-other variant can be added later (possibly seeded by assisted conversion + human review
-rather than full re-translation). **This question should be resolved with the advisor before
-the Chinese pipeline is built**, since it affects the language code, the model prompt, and
-the glossary.
+- **Why this is not cosmetic**: simplified↔traditional is not a 1:1 transcode. Simplified→
+  traditional is the *lossy* direction (one-to-many merges: 干→干/乾/幹, 后→后/後, 发→發/髮),
+  and mainland/Taiwan **vocabulary** diverges beyond script (软件/軟體 software, 信息/資訊
+  information, 网络/網路 network). So `zh-Hans` and `zh-Hant` are genuinely *two* target
+  languages at the data layer, even though they share ~100% of the *adaptation content*.
+- **Forward-compatibility cost is one naming choice**: store the first sidecar tree under
+  `zh-Hans` (BCP-47 script subtag), **not** bare `zh`. That single decision keeps `zh-Hant`
+  (realistically `zh-Hant-TW`) a purely additive later sidecar tree rather than a retrofit.
+- **Traditional, when prioritized, is seeded — not re-translated**: OpenCC `s2twp`
+  (phrase/region-aware, handles 软件→軟體) produces a draft, then a traditional-script reviewer
+  corrects it, working a tier-ordered queue. The script-neutral
+  [adaptation brief](../research/japanese-chinese-adaptation-brief.md) means all the costly
+  editorial content is authored once and inherited by both variants.
 
 ### Demand- and feasibility-ranking for later languages
 
@@ -442,9 +454,10 @@ checker, and the build-time join — are specified concretely in
 
 A staged plan that de-risks before scaling:
 
-1. **Design lock-in**: resolve the storage option ([§3](#3-schema-and-storage-options)), the
-   staleness mechanism ([§2](#2-source-of-truth-and-the-staleness-problem)), and the
-   simplified/traditional question with the advisor ([§7](#7-per-language-considerations)).
+1. **Design lock-in**: resolve the storage option ([§3](#3-schema-and-storage-options)) and the
+   staleness mechanism ([§2](#2-source-of-truth-and-the-staleness-problem)). The
+   simplified/traditional question is **already resolved** — simplified (`zh-Hans`) first
+   ([§7](#7-per-language-considerations)) — so the remaining lock-in is storage + staleness.
 2. **Calibration sample**: translate ~50 entries (spanning a verb, a na-adjective, a
    culturally loaded noun, a particle, a false-friend kanji compound) into Chinese with the
    pipeline; have the advisor review; write a calibration report. This tells us the real
@@ -462,7 +475,10 @@ A staged plan that de-risks before scaling:
 ## 10. Open questions and risks
 
 - **Storage option** — sidecar (recommended) vs. nested; lock before building.
-- **Simplified vs. traditional Chinese** — resolve with the advisor; design for both codes.
+- **Simplified vs. traditional Chinese** — *resolved*: simplified (`zh-Hans`) ships first
+  (advisor works in simplified). Residual risk is only forward-compatibility: store under
+  `zh-Hans`, not bare `zh`, so `zh-Hant` stays an additive later tree. See
+  [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md).
 - **Staleness at scale** — every English polish invalidates translations; the hash-queue must
   exist from day one or the versions diverge permanently (cf.
   [Cleanup Backlog](cleanup-backlog.md) → Priority 8).
@@ -507,14 +523,18 @@ A staged plan that de-risks before scaling:
   ([demand](../research/japanese-learner-demand-by-l1.md) and
   [feasibility](../research/llm-translation-quality-japanese-pairs.md)), and the **sidecar
   schema** is now a worked draft ([Translation Sidecar Design](translation-sidecar-design.md)).
-  Future sessions can still productively develop: the **per-language static vs. client-side
-  rendering** trade-off (the one major design question still only sketched, in §6); the
-  simplified/traditional (`zh-Hans`/`zh-Hant`) handling as its own worked design; or the
-  parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different contents).
+  The **simplified/traditional (`zh-Hans`/`zh-Hant`) handling** is now a worked design too
+  ([Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md)),
+  recording the curator's simplified-first decision and the OpenCC-seed-plus-review path for
+  traditional. Future sessions can still productively develop: the **per-language static vs.
+  client-side rendering** trade-off (the one major design question still only sketched, in §6);
+  or the parallel **Korean** and **Vietnamese** adaptation briefs (same structure, different
+  contents).
 
 ## Related pages
 
 - [Translation Sidecar Design](translation-sidecar-design.md) — the worked design for the recommended storage option (§3) and staleness mechanism (§2): concrete sidecar shape, referential-integrity rules, hashing/queue, fallback contract
+- [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md) — the worked design for §7's (now-resolved) simplified-first decision: `zh-Hans`/`zh-Hant` code space, why conversion is lossy, the OpenCC-seed-plus-review path for adding traditional later, font/search/UI consequences
 - [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — the developed per-language brief for the first additional language (S/O/D/N triage, false-friend tables, L1-specific mistakes, what to drop)
 - [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) — JF 2021 learner-population data re-read by L1, supplying the §7 demand ranking
 - [LLM Translation Quality for Japanese Language Pairs](../research/llm-translation-quality-japanese-pairs.md) — the feasibility half of the §7 demand × feasibility gate: ja/zh/ko all high-resource, but per-item false-friend risk concentrated

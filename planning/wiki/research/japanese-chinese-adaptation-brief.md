@@ -221,14 +221,19 @@ background (with framing tweaks), and most register/keigo guidance (largely univ
 
 This brief is written script-neutrally on purpose. The false-friend *phenomena* are the same for
 mainland and Taiwan learners, but the **rendering** is not: the Chinese glosses above appear here
-in simplified, and several diverge in traditional (経理→經理, 検討→檢討) and in vocabulary norms
-(软件/軟體, 信息/資訊). Per the plan's
-[§7](../ideas/multilingual-dictionary.md#7-per-language-considerations), `zh-Hans` and `zh-Hant`
-should be treated as separate language codes seeded from one another by assisted conversion +
-human review, **not** by mechanical character substitution (the mappings are one-to-many, e.g.
-后/後). The adaptation *content* in this brief is shared across both variants; only the surface
-form and a handful of norm-divergent terms differ. **Resolve the advisor's variant before the
-Chinese pipeline is built**, since it sets the glossary and the model prompt.
+in simplified, and several diverge in traditional (经理→經理, 检讨→檢討) and in vocabulary norms
+(软件/軟體, 信息/資訊).
+
+**The script question is now resolved: Simplified Chinese (`zh-Hans`) ships first**, because the
+native-speaker advisor works in simplified script and Putonghua norms (curator decision, 2026-06).
+The simplified glosses in the tables above are therefore the live form. Traditional (`zh-Hant`) is
+deferred; when it ships it will be **seeded by assisted conversion + human review** (OpenCC
+`s2twp`, which handles both the one-to-many character merges and the 软件→軟體 vocabulary norms),
+**not** mechanical character substitution. The adaptation *content* in this brief is shared across
+both variants — which is exactly why keeping it script-neutral pays off: `zh-Hant` inherits all
+the editorial decisions and pays only for surface conversion plus a lighter review. The full
+worked design is in
+[Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md).
 
 ## How the pipeline should consume this brief
 
@@ -268,6 +273,7 @@ recurrent patterns.
 ## Related pages
 
 - [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the hub plan this brief serves; see §5 (note adaptation) and §4 (pipeline)
+- [Chinese Simplified/Traditional Handling](../topics/chinese-simplified-traditional.md) — the script-variant design that consumes this (script-neutral) brief: simplified-first decision, OpenCC-seed path for traditional
 - [Translation Sidecar Design](../ideas/translation-sidecar-design.md) — how the pipeline consumes this brief as a routing signal (D/O headwords → deep/advisor pass) and preserves the *added* false-friend Japanese fragments
 - [LLM Translation Quality for Japanese Language Pairs](llm-translation-quality-japanese-pairs.md) — the MT-eval evidence that the false friends this brief targets are exactly where LLMs are weakest, justifying the deep/advisor routing
 - [Japanese-Learner Demand by L1](japanese-learner-demand-by-l1.md) — the demand data (JF 2021) that makes Chinese the highest-priority first language
