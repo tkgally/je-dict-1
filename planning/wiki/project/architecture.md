@@ -1,6 +1,6 @@
 # Architecture and Build System
 
-**Last updated**: 2026-04-13
+**Last updated**: 2026-06-06
 
 ## Overview
 
@@ -155,6 +155,36 @@ GitHub Actions (`.github/workflows/validate.yml`) runs `validate.py` on every pu
 
 Client-side search built on a pre-generated JavaScript index. The search index includes headwords, readings, glosses, and tags. Search is implemented in `build/templates/search.js` and `build/templates/tag-search.js`. See [Digital Dictionary UX](../research/digital-dictionary-ux.md) for the proposed search enhancements.
 
+## Implications for multilingual versions
+
+The proposed Japanese→multilingual expansion ([Multilingual Dictionary](../ideas/multilingual-dictionary.md))
+extends this architecture rather than replacing it; the current static-from-JSON shape is
+unusually well suited to it because the schema isolates the invariant Japanese spine from the
+translatable fields. The concrete points where this build system would change:
+
+- **Source layer stays put.** `entries/**` remains the English/invariant canonical source.
+  Translations live in a parallel **sidecar** tree (`translations/<lang>/…`), validated by a
+  new `translation_schema.json` and a `validate.py --lang` mode — the worked design is
+  [Translation Sidecar Design](../ideas/translation-sidecar-design.md).
+- **Build pipeline gains a language axis.** `build_flat.py --lang`/`--all-langs` joins
+  canonical + sidecar; `entry_renderer.py` renders the chosen language with English field-level
+  fallback and emits the `hreflang` cluster + language toggle; `search_index_builder.py` splits
+  into a shared spine index + per-language gloss overlay; `page_generators.py` decides which
+  navigation pages get per-language variants.
+- **The static-host constraint is the binding one.** This site is already **~492 MB / ~31,454
+  HTML files** (measured 2026-06-06), and GitHub Pages caps published sites at **1 GB**. Full
+  per-language static rendering therefore reaches the ceiling at the *first* additional
+  language — so the delivery design ([Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md))
+  recommends a size-controlled hybrid and flags a hosting decision before a third language.
+- **A staleness obligation joins the pipeline.** Because the English entry is the pivot and is
+  polished daily ([Content Pipeline](content-pipeline.md)), a `check_translation_staleness.py`
+  step and a per-language re-translation queue become part of the maintenance loop, and
+  `report.py` gains a TRANSLATION COVERAGE block — all modeled on the existing review-queue /
+  dashboard patterns above.
+
+None of this is built; it is recorded here so the architecture page reflects the planned
+extension and points at the worked designs.
+
 ## Related pages
 
 - [Entry Design](entry-design.md)
@@ -162,3 +192,6 @@ Client-side search built on a pre-generated JavaScript index. The search index i
 - [Parallel Agent Architecture](../ideas/parallel-agent-architecture.md) — the design document that motivated the queue/orchestrator layer
 - [Multi-Model Proofreading](../ideas/multi-model-proofreading.md) — the design document behind the review pipeline
 - [Deterministic vs. Semantic Tasks](../topics/deterministic-vs-semantic-tasks.md) — which parts of the pipeline are programmatic and which require LLM judgment
+- [Multilingual Dictionary](../ideas/multilingual-dictionary.md) — the planned Japanese→multilingual expansion this build system would extend
+- [Translation Sidecar Design](../ideas/translation-sidecar-design.md) — the sidecar storage + staleness layer the build pipeline would join against
+- [Multilingual Rendering and Delivery Architecture](../topics/multilingual-rendering-architecture.md) — the per-language rendering/delivery design and the GitHub Pages size constraint that binds it

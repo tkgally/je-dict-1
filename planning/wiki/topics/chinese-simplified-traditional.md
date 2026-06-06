@@ -244,6 +244,7 @@ job.
 - [Japanese→Chinese Adaptation Brief](../research/japanese-chinese-adaptation-brief.md) — the script-neutral adaptation content that both variants share; its §7 points here
 - [Translation Sidecar Design](../ideas/translation-sidecar-design.md) — the sidecar tree (`translations/zh-Hans/…`), the per-language i18n map, and the embedded-fragment preservation rule the converter must respect
 - [Japanese-Learner Demand by L1](../research/japanese-learner-demand-by-l1.md) — the demand data that gates whether/when traditional ships
+- [Multilingual Rendering and Delivery Architecture](multilingual-rendering-architecture.md) — generalizes this page's §5 font-stack and per-language search-index split into the full delivery design (separate URLs, `hreflang`, the GitHub Pages 1 GB ceiling); the language toggle lists 中文（简体） now and 中文（繁體） later as ordinary sibling codes
 - [Architecture and Build System](../project/architecture.md) — the per-language search index and build join these codes parameterize
 
 ## References
