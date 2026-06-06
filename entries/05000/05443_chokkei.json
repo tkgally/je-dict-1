@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05443_chokkei_ex1",
-      "japanese": "この{円|えん}の{直径|ちょっけい}は10センチです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{円|えん}→円：00774_en⟧⟦の→の：09472_no⟧{直径|ちょっけい}⟦は→は：00079_ha⟧10⟦センチ→センチ：01372_senchi⟧⟦です→です：09485_desu⟧。",
       "english": "The diameter of this circle is 10 centimeters.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05443_chokkei_ex2",
-      "japanese": "{直径|ちょっけい}は{半径|はんけい}の2{倍|ばい}だ。",
+      "japanese": "{直径|ちょっけい}⟦は→は：00079_ha⟧⟦{半径|はんけい}→半径：04331_hankei⟧⟦の→の：09472_no⟧2⟦{倍|ばい}→倍：01492_bai⟧⟦だ→だ：09496_da⟧。",
       "english": "The diameter is twice the radius.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05443_chokkei_ex3",
-      "japanese": "{直径|ちょっけい}30センチのピザを{注文|ちゅうもん}した。",
+      "japanese": "{直径|ちょっけい}30⟦センチ→センチ：01372_senchi⟧⟦の→の：09472_no⟧⟦ピザ→ピザ：06769_piza⟧⟦を→を：00422_wo⟧⟦{注文|ちゅうもん}した→注文する：21390_chuumon⟧。",
       "english": "I ordered a pizza with a 30-centimeter diameter.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "{直径|ちょっけい} is the diameter - a line passing through the center of a circle connecting two points on the edge.\n\nKANJI BREAKDOWN:\n- {直|ちょく}: straight, direct\n- {径|けい}: path, diameter\n\nMATHEMATICAL RELATIONSHIPS:\n- {直径|ちょっけい} = {半径|はんけい} × 2 (diameter = radius × 2)\n- {円周|えんしゅう} = {直径|ちょっけい} × π (circumference = diameter × π)\n- {面積|めんせき} = π × ({半径|はんけい})² (area formula)\n\nCOMMON EXPRESSIONS:\n- {直径|ちょっけい}〜センチ: ~ cm in diameter\n- {直径|ちょっけい}を{測|はか}る: to measure the diameter\n\nRELATED GEOMETRY TERMS:\n- {半径|はんけい}: radius\n- {円周|えんしゅう}: circumference\n- {円|えん}: circle\n- {球|きゅう}: sphere",
+  "notes": "{直径|ちょっけい} is the diameter - a line passing through the center of a circle connecting two points on the edge.\n\nKANJI BREAKDOWN:\n- ⟦{直|ちょく}→直：noentry⟧: straight, direct\n- ⟦{径|けい}→径：noentry⟧: path, diameter\n\nMATHEMATICAL RELATIONSHIPS:\n- {直径|ちょっけい} = ⟦{半径|はんけい}→半径：04331_hankei⟧ × 2 (diameter = radius × 2)\n- ⟦{円周|えんしゅう}→円周：05442_enshuu⟧ = {直径|ちょっけい} × π (circumference = diameter × π)\n- ⟦{面積|めんせき}→面積：05330_menseki⟧ = π × (⟦{半径|はんけい}→半径：04331_hankei⟧)² (area formula)\n\nCOMMON EXPRESSIONS:\n- {直径|ちょっけい}〜⟦センチ→センチ：01372_senchi⟧: ~ cm in diameter\n- {直径|ちょっけい}⟦を→を：00422_wo⟧⟦{測|はか}る→測る：01977_hakaru⟧: to measure the diameter\n\nRELATED GEOMETRY TERMS:\n- ⟦{半径|はんけい}→半径：04331_hankei⟧: radius\n- ⟦{円周|えんしゅう}→円周：05442_enshuu⟧: circumference\n- ⟦{円|えん}→円：00774_en⟧: circle\n- ⟦{球|きゅう}→球：noentry⟧: sphere",
   "cross_references": [
     {
       "type": "related",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T07:37:08Z",
-    "modified": "2026-04-14T06:33:24Z",
+    "modified": "2026-06-06T15:06:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +72,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "tool"
+        "mathematics"
       ]
     }
   }
