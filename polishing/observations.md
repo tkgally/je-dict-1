@@ -25,27 +25,4 @@ Each session appends a section. Within each section, prefix observations with a 
 
 ---
 
-_(All observations through 2026-06-04 session 017 have been harvested by the wiki maintenance session of 2026-06-05.)_
-
-[pattern] Several entries in the 05291–05312 range had completely wrong semantic tags (e.g., "transportation" for だるい/面倒くさい, "animal-mammal" for 浴室, "animal-insect" for だるい, "furniture/tool" for 叶う). This suggests a systematic tagging error in a batch of entries around this range. Worth a tooling audit for semantic tags that are obviously mismatched with the POS or gloss. (2026-06-05)
-
----
-
-## Session 022 — 2026-06-05
-
-[entry] 05318_tairyoku (体力, physical strength): semantic tags include "leisure" which is clearly wrong for physical stamina. Should be something like "health" or "body". Check similar entries (気力, 精力, 忍耐力) for similar tagging errors.
-
-## 2026-06-05 Session 023
-
-[pattern] Entries 05332-05335 (足し算, 引き算, 掛け算, 割り算) all had wrong semantic tags: tags like "body-part", "furniture", "time-general" instead of "mathematics". These were created by claude-opus-4-5 with modified date 2026-04-14. Suggests a batch creation run had cross-contamination of semantic tag data. Watch for similar wrong tags in nearby ID ranges (05300-05400).
-
-[pattern] Entry 05344_kogeru (焦げる) had semantic tag "body-part" instead of "action" — same model/date as above (claude-opus-4-5, 2026-04-14). Likely same batch run.
-
-## 2026-06-05 Session 024
-
-[pattern] Mimetic adverbs in range 05349–05373 had two systemic problems from claude-opus-4-5 batch creation (modified 2026-04-14): (1) spurious `conjugation` fields and `verb_class` tags (godan-ku, godan-ru, godan-tsu) applied to adverbs — confirmed in 05352, 05364, 05372, 05373; and (2) completely wrong semantic tags (food, furniture, body-part, electronics, animal-mammal, building, leisure) instead of "descriptive". Both issues affect the same model/date batch as seen in sessions 022/023. Likely extends into adjacent ranges (05374+). Consider a bulk scan script to identify adverbs with `verb_class` tags or non-descriptive semantic tags.
-
-## 2026-06-05 — comprehensive polish session 025 (entries 05374–05389)
-- [pattern] Semantic tag errors continue in the 05374–05389 range: health entries (下痢, 便秘, インフルエンザ, 包帯, 絆創膏) were tagged "general" or "body-part" instead of "health"; education entries (生徒会, 職員室) tagged "general" instead of "education". A tooling audit to flag entries where semantic tag mismatches gloss would be valuable.
-- [entry] 05381 図書室: ex1 and ex4 are identical Japanese sentences — one should be replaced with a different example.
-- [pattern] Double-brace furigana notation `{{word|reading}phrase|compound-reading}` appeared in 05379 and 05380. This is invalid; each kanji compound should have its own `{漢字|かんじ}` annotation rather than nesting.
+_(All observations through 2026-06-05 session 025 have been harvested by the wiki maintenance session of 2026-06-06. The recurring semantic-tag-drift pattern was consolidated into Cleanup Backlog Priority 11 (Update 2026-06-06); the mimetic-adverb spurious-conjugation cluster into Priority 6; the new nested/double-brace furigana sub-pattern into Priority 9; and specific entries — 05318 体力, the 05332–05335 math cluster, 05381 図書室 — into Entry Follow-ups.)_

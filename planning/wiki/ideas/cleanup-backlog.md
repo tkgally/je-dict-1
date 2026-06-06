@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-05
+**Last updated**: 2026-06-06
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -105,6 +105,8 @@ for p in glob.glob('entries/*/*.json'):
 
 **Update 2026-06-05**: Comprehensive-polish session 015 (entries 05165–05184) found two more adverb entries (05173_nurunuru, 05175_tsurutsuru) with spurious `verb_class: "godan-ru"` tags and full conjugation tables producing nonsensical forms like ぬるぬらない, つるつらない. These are mimetic adverbs, not verbs. Reinforces the case for the batch pruner and defensive guard. A targeted scan of adverb entries for `verb_class` tags or `conjugation` fields would catch all remaining instances.
 
+**Update 2026-06-06**: Comprehensive-polish session 024 (entries 05349–05373) confirmed a dense cluster of mimetic adverbs with spurious `conjugation` fields and `verb_class` tags (godan-ku, godan-ru, godan-tsu) — confirmed in 05352, 05364, 05372, 05373, likely extending into 05374+. Same claude-opus-4-5 / 2026-04-14 batch signature as the Priority 11 semantic-tag errors, so the two cleanups can be scoped together. Reinforces the case for a defensive guard in `add_conjugations.py` (Tooling Backlog item 5).
+
 ## Priority 7: Politeness tag conflation (uchi/soto, bikago, familiar suffixes)
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
@@ -169,6 +171,8 @@ By sub-pattern:
 3. **Add a furigana-format validator** (`build/check_furigana_format.py`) alongside the existing `verify_furigana.py` (which checks only for *missing* furigana, not malformed wrappers). See [Tooling Backlog](tooling-backlog.md) → item 8.
 4. **Restate the convention in `entry-guidelines`** so new entries don't reintroduce the pattern. The current docs state "all kanji must have furigana" but don't address where the wrapper boundaries should sit relative to hiragana characters.
 5. See [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) for the full analysis.
+
+**Update 2026-06-06 (new sub-pattern: nested/double braces)**: Comprehensive-polish session 025 (entries 05374–05389) found a *nested* furigana wrapper form, `{{word|reading}phrase|compound-reading}`, in 05379 and 05380. This is invalid — each kanji compound should carry its own `{漢字|かんじ}` annotation rather than nesting one wrapper inside another. The furigana renderer expects a flat `{kanji|reading}` and will misrender or drop the nested form. **Detection**: `grep -rl '{{' entries/` (the literal `{{` opening is the tell). Scope unknown; this is the first range where the nested form has been observed, so a one-shot scan across all entries is warranted. The format validator proposed in [Tooling Backlog](tooling-backlog.md) → item 8 should add a "nested wrapper" check alongside its other rules.
 
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
@@ -253,6 +257,16 @@ A sub-pattern emerged: health/medical vocabulary is systematically receiving emo
 - 05211–05230: 05212 取材 tagged "building"/"education"/"transportation"; 05221 忍耐 tagged "clothing"/"time-general"; 05227 広報 tagged "geography"; 05228 tagged incorrectly
 
 The confirmed range now extends from the 01490s through at least the 05230s. A targeted bulk audit of the 05000–05500 range is warranted.
+
+**Update 2026-06-06**: Five comprehensive-polish sessions (2026-06-05, sessions 021–025, entries 05291–05389) confirmed the pattern saturates the 05300s, with a clear common origin: most of the wrong-tagged entries were created by **claude-opus-4-5 with modified date 2026-04-14**, pointing to a single batch run whose semantic-tag data was cross-contaminated.
+- 05291–05312: "transportation" on だるい/面倒くさい, "animal-mammal" on 浴室, "animal-insect" on だるい, "furniture" on 叶う
+- 05318 体力: "leisure" (→ health/body); check the 気力/精力/忍耐力 cluster
+- 05332–05335 (足し算, 引き算, 掛け算, 割り算): "body-part"/"furniture"/"time-general" instead of "mathematics"
+- 05344 焦げる: "body-part" (→ action)
+- 05349–05373 (mimetic adverbs): wrong semantic tags (food, furniture, body-part, electronics, animal-mammal, building, leisure) instead of "descriptive" — plus the spurious-conjugation problem logged under Priority 6
+- 05374–05389: health entries (下痢, 便秘, インフルエンザ, 包帯, 絆創膏) tagged "general"/"body-part" instead of "health"; education entries (生徒会, 職員室) tagged "general" instead of "education"
+
+The 2026-04-14 claude-opus-4-5 modified-date signature gives a concrete way to scope the eventual bulk fix: the tag-validation pass (Tooling Backlog item 6) could prioritize entries carrying that creation signature.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

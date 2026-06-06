@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-05
+**Last updated**: 2026-06-06
 
 
 ## How this wiki is organized
@@ -107,6 +107,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Parallel Agent Architecture](ideas/parallel-agent-architecture.md) — Autonomous parallel revision and improvement system
 - [Word Discovery Strategies](ideas/word-discovery-strategies.md) — LLM brainstorming, scenario-based gaps, and other approaches for finding missing words
 - [Dictionary Growth and Long-Term Vision](ideas/dictionary-growth.md) — No maximum size, proper names, long-term expansion phases
+- [Multilingual Dictionary](ideas/multilingual-dictionary.md) — Adding target languages beyond English (Chinese first): schema, AI translation pipeline, note adaptation, UI toggle, build changes
 - [Cleanup Backlog](ideas/cleanup-backlog.md) — Systemic cleanup work surfaced during comprehensive-polish sessions
 - [Tooling Backlog](ideas/tooling-backlog.md) — Tool improvements and new script ideas from polishing observations
 - [Entry Follow-ups](ideas/entry-followups.md) — Specific entries needing work beyond a single polishing pass
