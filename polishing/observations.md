@@ -26,3 +26,7 @@ Each session appends a section. Within each section, prefix observations with a 
 ---
 
 _(All observations through 2026-06-06 session 033 have been harvested by the wiki maintenance session of 2026-06-07. Tag-drift updates consolidated into Cleanup Backlog Priority 11 (Update 2026-06-07); redundant CONJUGATION notes sections added as a sub-pattern under Priority 4; entry-specific items — 05478 ドライバー sense mismatch, 05501 写真家 stale noentry link — filed to Entry Follow-ups.)_
+
+## 2026-06-07 — comprehensive polish session 037 (entries 05617–05635)
+- [pattern] Semantic tag errors: several entries in this range had badly wrong domain tags (懸念→electronics, 端末→building/transportation, 促進→emotion/time/work, 七夕→animal-mammal); a targeted semantic audit of nearby entries may be warranted
+- [entry] 05629 shushi: ex2 and ex3 are near-duplicates (both about understanding the shushi of a document); diversify in a future session
