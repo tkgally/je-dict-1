@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-06 (added the Multilingual Rendering and Delivery Architecture worked-design page — the previously-only-sketched §6 delivery layer; the GitHub Pages 1 GB ceiling binds at the first additional language — and swept the architecture and keigo pages for multilingual implications, continuing the multilingual expansion)
+**Last updated**: 2026-06-07 (nightly maintenance: harvested observations 029/030/033, synced stats to 28,743 entries, updated content-pipeline page, wiki link audit — all 1,323 internal links valid)
 
 
 ## How this wiki is organized

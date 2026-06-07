@@ -1,6 +1,6 @@
 # Content Pipeline
 
-**Last updated**: 2026-04-13
+**Last updated**: 2026-06-07
 
 ## Overview
 
@@ -21,19 +21,22 @@ New words are identified and added to `candidate_words.json`. The primary method
 - **Corpus harvesting** — processing frequency lists to find missing common words (`prompts/corpus_harvesting.md`); an earlier approach that has been largely superseded by brainstorming
 - **Systematic search** — scanning for words in specific semantic domains (`prompts/newcandidates.md`)
 - **Cross-reference gaps** — words mentioned in existing entries but lacking their own entry
-- **No-entry link detection** — words marked `noentry` in inline links
+- **No-entry link detection** — words marked `noentry` in inline links (`prompts/polish_add_entries_for_noentry_example_words.md`)
+- **"Seen in entry" internal-completeness candidates** — words already referenced inside existing entries (examples, notes, collocations) but lacking their own entry. These are flagged when candidates are added with a `seen_in_entry` field and are prioritized during entry creation because filling them improves internal cross-linking. As of June 2026, this is one of the most productive candidate sources.
 
 Candidates are managed via `build/manage_candidates.py` (add, check, sync, stats).
 
 ## Stage 2: Entry creation
 
-Entries are created in batch sessions of ~30 entries each, following `prompts/newentries.md`:
+Entries are created in batch sessions of ~20-25 entries each, following `prompts/newentries.md`:
 
 1. Duplicate check (`check_duplicate.py`)
-2. Get next ID (`get_next_id.py`)
+2. Get next ID (`get_next_id.py`) — run fresh before every entry
 3. Get timestamp (`get_timestamp.py`)
 4. Write entry JSON following the appropriate skill (verb-entry, adjective-entry, etc.)
 5. Post-batch validation, conjugation generation, index update, site build
+
+Per-field budgets follow a compact reference shape: top-level glosses 3-8 words, notes scoped to 2-3 focused sections. As of June 2026, entry creation sessions typically produce 20-25 entries and prioritize "seen in entry" internal-completeness candidates.
 
 ## Stage 3: Polishing
 
@@ -47,6 +50,7 @@ Current polishing tasks:
 
 | Task | Prompt | What it does |
 |------|--------|-------------|
+| **Comprehensive** | `comprehensive_polish.md` | **Default scheduled task.** Unified checklist covering all the targeted tasks below. Up to 5 entries per session. Logs observations to `polishing/observations.md`. |
 | Inline links | `polish_add_inline_links.md` | Add ⟦...⟧ cross-reference links |
 | Example sentences | `polish_example_sentences.md` | Check count, quality, tier compliance |
 | Furigana completeness | `polish_furigana_completeness.md` | Find and add missing furigana |
@@ -56,6 +60,8 @@ Current polishing tasks:
 | Verb transitivity | `polish_verb_transitivity.md` | Add transitivity tags, notes, and pair links |
 | Aspect notes | `polish_aspect_notes.md` | Document non-obvious ている behavior |
 | Cross-model review | `polish_cross_model_review.md` | Apply or reject multi-model proofreading suggestions |
+
+The comprehensive polish task walks entries sequentially from its progress file (`polishing/tasks/comprehensive/progress.txt`) and applies a tiered checklist that subsumes the individual targeted tasks. It also captures long-term observations (tagged `[pattern]`, `[wiki]`, `[tooling]`, `[skill]`, `[entry]`, `[article]`) in `polishing/observations.md`, which the wiki-maintenance session harvests nightly.
 
 **Priority ordering**: `make priorities` writes ordered ID lists to `polishing/priority/{task}.txt`. When a priority file exists, polishing prompts process entries worst-first rather than sequentially by ID.
 

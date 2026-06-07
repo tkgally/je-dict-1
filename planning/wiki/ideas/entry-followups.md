@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-06
+**Last updated**: 2026-06-07
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -361,6 +361,22 @@ The four arithmetic-operation entries (addition, subtraction, multiplication, di
 **Source**: Comprehensive-polish 2026-06-05 session 025
 
 Entry 05381 ({図書室|としょしつ}, library room) has ex1 and ex4 as identical Japanese sentences. One should be replaced with a different example showing 図書室 in another context (e.g., school library use, quiet-study rules, borrowing). Maintain progressive length.
+
+## 05478_doraibaa (ドライバー) — Notes reference non-existent sense 4
+
+**Source**: Comprehensive-polish 2026-06-06 session 029
+
+Entry 05478_doraibaa (ドライバー) notes mention a "MEANING 4 - COMPUTING" (device driver) but sense 4 is not listed in the definitions array. Either add a computing sense (device driver) as a fourth definition, or remove the dangling reference from the notes.
+
+**Recommended fix**: If the device-driver sense is worth covering (it is a common meaning of ドライバー), add it as sense 4. If not, remove the notes section that references it.
+
+## 05501_shashinka (写真家) — Stale noentry link for カメラマン
+
+**Source**: Comprehensive-polish 2026-06-06 session 030
+
+Entry 05501_shashinka ({写真家|しゃしんか}) notes contain `⟦カメラマン→カメラマン：noentry⟧` but entry 28387_kameraman now exists. The inline link should be updated to point to the correct entry ID.
+
+**Recommended fix**: Update the inline link from `noentry` to `28387`.
 
 ## Related pages
 

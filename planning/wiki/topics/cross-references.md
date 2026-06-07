@@ -1,6 +1,6 @@
 # Cross-Reference Design
 
-**Last updated**: 2026-06-05
+**Last updated**: 2026-06-07
 
 ## Overview
 
@@ -61,7 +61,7 @@ Each cross-reference includes a `relationship` field:
 
 ## Current coverage
 
-Over 16,200 cross-references exist across 28,600+ entries (roughly 0.57 cross-references per entry on average; `report.py` measures the symmetry rate at ~41.1% as of 2026-06-05). Coverage is slowly improving, though new entries continue to add unreciprocated links faster than the symmetry pass processes them. Coverage is growing through:
+Over 16,300 cross-references exist across 28,700+ entries (roughly 0.57 cross-references per entry on average; `report.py` measures the symmetry rate at ~41.1% as of 2026-06-07). Coverage is slowly improving, though new entries continue to add unreciprocated links faster than the symmetry pass processes them. Coverage is growing through:
 - Systematic review (`prompts/add_cross-references.md`)
 - Entry creation (new entries include initial cross-refs)
 - Polishing passes
@@ -78,7 +78,7 @@ Over 16,200 cross-references exist across 28,600+ entries (roughly 0.57 cross-re
 
 ### Higher coverage targets
 
-The current ratio of ~0.57 cross-references per entry has surpassed the initial ≥ 0.5 target but is still well below 1.0. Most entries have zero or one cross-reference. A reasonable next target might be an average of 1-2 cross-references per entry, which would mean 28,600-57,200 total. Priority should go to:
+The current ratio of ~0.57 cross-references per entry has surpassed the initial ≥ 0.5 target but is still well below 1.0. Most entries have zero or one cross-reference. A reasonable next target might be an average of 1-2 cross-references per entry, which would mean 28,700-57,400 total. Priority should go to:
 - **Verbs without transitivity pair links** — these are the most pedagogically critical
 - **Near-synonyms** — words that learners commonly confuse
 - **Semantic field clusters** — groups of related words (colors, emotions, family terms) that should all link to each other
