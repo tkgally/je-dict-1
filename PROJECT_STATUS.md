@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-07 (Vocabulary Expansion - 22 New Entries, Recent Candidates Batch)
+Added 22 new dictionary entries (IDs 28931-28952) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from recent unprocessed candidates favoring concrete everyday vocabulary (citrus varieties, hot-pot dishes, wedding styles, lighting, prefecture). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to 2-3 focused sections.
+
+- **Citrus / food (7)**: {温州|うんしゅう}みかん (satsuma mandarin), ポンカン (ponkan), デコポン (dekopon / sumo orange), {合|あ}わせ{味噌|みそ} (blended miso), {両手鍋|りょうてなべ} (two-handled pot), もつ{鍋|なべ} (offal hot pot), キムチ{鍋|なべ} (kimchi hot pot)
+- **Lighting / clothing (3)**: タンクトップ (tank top), フラッシュライト (flashlight, loanword), ペンライト (penlight — 2 senses incl. idol concert stick, 6 examples)
+- **Wedding ceremony set (3)**: {神前式|しんぜんしき} (Shinto), {教会式|きょうかいしき} (Christian), {人前式|じんぜんしき} (secular)
+- **People / occupation (2)**: {盗掘者|とうくつしゃ} (grave robber / tomb raider), フォトグラファー (photographer, freelance/commercial register)
+- **Daily life / housing (3)**: {本宅|ほんたく} (main residence, formal), ショッピングセンター (shopping center), ガス{料金|りょうきん} (gas bill)
+- **Health / geography / culture (4)**: {筋肉量|きんにくりょう} (muscle mass), ペアリング (matching ring / pairing — 2 senses, 6 examples), {国技館|こくぎかん} (sumo arena), {富山県|とやまけん} (Toyama Prefecture)
+
+Two romaji slips fixed pre-build (loanwords ending in ー needed `aa` rather than `a`: フォトグラファー → fotogurafaa, ショッピングセンター → shoppingusentaa); eight bare-kanji slips in notes annotated. Three stale candidates removed during pre-flight (C21493 躱す/かわす — kanji variant of existing 28851_kawasu; C21180 〜主義者 — already entry 28362; C21328 猪突猛進 — already entry 28872). No new kanji. No verbs / i-adjectives in this batch, so no conjugation tables needed. Candidate list synced (1470→1448).
+
 ### 2026-06-07 (Vocabulary Expansion - 25 New Entries, Recent Candidates Batch)
 Added 25 new dictionary entries (IDs 28906-28930) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from the most recently added candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to two or three focused sections.
 
