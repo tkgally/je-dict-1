@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-06
+**Last updated**: 2026-06-07
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -53,6 +53,8 @@ Many verb entries have two `"conjugation":` top-level keys: a legacy stub (e.g.,
 **Update 2026-05-23**: Session 005 (entries 03056–03077) found the same pattern in entries 03057, 03064, 03072, 03077 — an incomplete object `{type, prefix}` or `{type, ending, stem}` appearing before the full forms array. Python's `json.load` silently uses the last occurrence, so runtime behavior is correct, but the dead first object is malformed (duplicate keys). Continues to confirm the pattern is pervasive across the entire pre-retrofit entry range.
 
 **Update 2026-05-25**: Session 011 (entries 03211–03230) found the same pattern in 5 suru-verb entries (03214, 03216, 03218, 03220, 03222) — a lightweight conjugation stub (type+prefix format) placed before `definitions` alongside a full conjugation table at the end. The stubs were removed during polishing. Reinforces the pervasive pre-retrofit scope.
+
+**Related sub-pattern (notes-level duplication)**: Comprehensive-polish session 033 (entries 05540–05559) found entries 05542, 05543, 05544, 05546 with redundant CONJUGATION prose sections in their `notes` field even though the entry already had a proper `conjugation` JSON field with all forms. The notes-only CONJUGATION block is a batch artifact from a period when conjugation data lived in notes rather than in a structured field. These are distinct from the duplicate-JSON-key pattern above — the notes text is well-formed but redundant once the structured conjugation field exists. Comprehensive-polish removes them case-by-case, but a one-shot scan for `CONJUGATION` headers in notes of entries that also have a `conjugation` field would catch all remaining instances.
 
 ## Priority 5: Particle entry polish
 
@@ -267,6 +269,13 @@ The confirmed range now extends from the 01490s through at least the 05230s. A t
 - 05374–05389: health entries (下痢, 便秘, インフルエンザ, 包帯, 絆創膏) tagged "general"/"body-part" instead of "health"; education entries (生徒会, 職員室) tagged "general" instead of "education"
 
 The 2026-04-14 claude-opus-4-5 modified-date signature gives a concrete way to scope the eventual bulk fix: the tag-validation pass (Tooling Backlog item 6) could prioritize entries carrying that creation signature.
+
+**Update 2026-06-07**: Three more comprehensive-polish sessions (2026-06-06, sessions 029/030/033, entries 05468–05559) confirmed the tag-drift pattern extends into the 05500+ range:
+- 05468–05482: 05474 分量 "building"/"transportation" (→ measurement), 05475 重量 formality "informal" (→ neutral), 05476 金槌 "food"/"tool" (→ tool only)
+- 05483–05502: 05484 体温計 "time-general"/"tool"/"weather" (→ health/tool), 05485 体重計 "animal-mammal"/"tool" (→ health/tool), 05486–05489 plants "general" (→ plant/nature), 05496 ジャングル "general" (→ nature/geography), 05497 高原 "food" (→ geography/nature), 05498 海辺 "general" (→ geography/nature), 05499 群島 "tool" (→ geography/nature), 05500 本土 "general" (→ geography)
+- 05540–05559: 05551 えんちゅう "body-part", 05556 ないがい "electronics"/"furniture", 05557 だいしょう "building" — all fixed to "general"
+
+The confirmed range now extends from the 01490s through at least the 05559. The pattern shows no sign of abating.
 
 ## Priority 12: Dual-reading furigana with slash separators
 

@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-07] maintenance | Observation harvest, stats sync, content pipeline update, wiki link audit
+
+**Session type**: Nightly maintenance
+
+**Activities**:
+- [F/Harvest] Processed 3 unprocessed observation blocks from `polishing/observations.md` — comprehensive-polish 2026-06-06 sessions 029 (entries 05468–05482), 030 (entries 05483–05502), and 033 (entries 05540–05559):
+  - `[pattern]` Three sessions documented continued tag-drift extending the confirmed range into 05559. Updated cleanup-backlog P11 with the expanded range and specific examples (分量 "building"/"transportation", 体温計 "time-general"/"weather", えんちゅう "body-part", ないがい "electronics"/"furniture").
+  - `[pattern]` Session 033 found redundant CONJUGATION prose sections in notes alongside existing `conjugation` JSON fields (05542, 05543, 05544, 05546). Added as a notes-level duplication sub-pattern under cleanup-backlog P4.
+  - `[entry]` 05478 ドライバー notes reference non-existent sense 4 (device driver). Filed to entry-followups.
+  - `[entry]` 05501 写真家 has stale `noentry` inline link for カメラマン — 28387 now exists. Filed to entry-followups.
+  - Cleared all harvested observations from `polishing/observations.md`.
+- [A] Updated stats across wiki pages to reflect 2026-06-07 `report.py` output (28,743 entries, 25,960 general, 16,306 cross-references, 0.57 per entry, ~113,230 total examples, 41.1% symmetry with 7,835 asymmetric refs, 1,448 candidates, 5,638 entries with inline links at 19.6%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/sense-relations-semantic-networks.md`.
+- [A/C] Updated `project/content-pipeline.md` (stale since 2026-04-13) — added comprehensive polish as the default scheduled polishing task in the tasks table, added "seen in entry" as a major candidate source, updated batch sizes to match current practice (20-25 entries), noted the observation-harvesting loop between comprehensive polish and wiki maintenance.
+- [E] Wiki link audit: scanned all 94 markdown files for broken internal cross-references across 1,323 total links — all valid. No orphan pages, no contradictions found.
+- Updated "Last updated" dates on all modified pages plus `index.md`.
+
 ## [2026-06-06] maintenance | Multilingual: rendering/delivery worked design (the GitHub Pages 1 GB ceiling binds at the first language); architecture + keigo sweeps
 
 **Session type**: Manual session (curator-directed; theme = multilingual expansion plan, research-and-exploration phase). Continues the same-day multilingual sessions below. This session picked the threads those sessions flagged as next: the **per-language static-vs-client-side rendering trade-off** the hub repeatedly named as "the one major design question still only sketched" (§6), plus two un-swept pages directly adjacent to it.
