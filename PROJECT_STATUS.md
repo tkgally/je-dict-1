@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-07 (Vocabulary Expansion - 21 New Entries, "seen in entry" + Backlog Batch)
+Added 21 new dictionary entries (IDs 28885-28905) from `candidate_words.json`. The first 18 cleared the full "seen in entry" internal-completeness backlog (words already referenced inside existing entries 02217 and 05294-05554 but not yet defined); the final 3 came from recent unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
+
+- **Math / geometry (6)**: {球|きゅう} (sphere), {角錐|かくすい} (pyramid solid), {表面積|ひょうめんせき} (surface area), {角柱|かくちゅう} (prism / square pillar), {六角形|ろっかくけい} (hexagon), {内角|ないかく} (interior angle / inside corner — 2 senses, 6 examples)
+- **Tech / loanwords (5)**: アイコン (icon / profile picture), {長押|なが}し (long press), シュノーケリング (snorkeling), コーン (cone — geometric / ice cream / traffic), キャンドル (decorative candle)
+- **Geography / culture (3)**: ギリシャ (Greece), {他国|たこく} (other country), {洋|よう} (Western-style prefix)
+- **Other (7)**: {多生|たしょう} (Buddhist many-rebirths, in 袖振り合うも多生の縁), ひら (flat side / palm), {美|び} (abstract beauty / aesthetic), お{決|き}まり (the usual / standard order), {一例|いちれい} (one example), {多肉植物|たにくしょくぶつ} (succulent plant), ステープラー (formal-register stapler)
+
+All 21 entries validate on first pass; furigana clean. No verbs / i-adjectives, so no conjugation tables needed. No new kanji. Candidate list synced (1519→1498).
+
 ### 2026-06-06 (Vocabulary Expansion - 24 New Entries, "seen in entry" + Backlog Batch)
 Added 24 new dictionary entries (IDs 28861-28884) from `candidate_words.json`. The first three filled "seen in entry" internal-completeness gaps (referenced in 03477, 03792, 03417); the rest came from the oldest-unprocessed and recent backlog. Per-field budgets followed the reference shape of {もてなし} (27261) — short top-level glosses (3-8 words), 2-3 focused note sections.
 
