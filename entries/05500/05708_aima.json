@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05708_aima_ex1",
-      "japanese": "{仕事|しごと}の{合間|あいま}にコーヒーを{飲|の}む。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{合間|あいま}⟦に→に：00314_ni⟧⟦コーヒー→コーヒー：00789_koohii⟧⟦を→を：00422_wo⟧⟦{飲|の}む→飲む：00322_nomu⟧。",
       "english": "I drink coffee between work tasks.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "05708_aima_ex2",
-      "japanese": "{授業|じゅぎょう}の{合間|あいま}に{友達|ともだち}と{話|はな}した。",
+      "japanese": "⟦{授業|じゅぎょう}→授業：00781_jugyou⟧⟦の→の：09472_no⟧{合間|あいま}⟦に→に：00314_ni⟧⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦と→と：00512_to⟧⟦{話|はな}した→話す：00467_hanasu⟧。",
       "english": "I talked with friends between classes.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "05708_aima_ex3",
-      "japanese": "{合間|あいま}を{見|み}つけて{勉強|べんきょう}する。",
+      "japanese": "{合間|あいま}⟦を→を：00422_wo⟧⟦{見|み}つけて→見つける：01180_mitsukeru⟧⟦{勉強|べんきょう}する→勉強する：00527_benkyousuru⟧。",
       "english": "I study whenever I find spare moments.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,7 +40,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n- {仕事|しごと}の{合間|あいま}に: between work tasks\n- {合間|あいま}を{見|み}つける: to find spare time\n- {合間|あいま}を{縫|ぬ}って: squeezing in between (activities)\n- ちょっとした{合間|あいま}に: during a brief interval\n\nNUANCE:\n{合間|あいま} emphasizes using small pockets of time productively or for brief activities.\n\nSIMILAR WORDS:\n- {間|あいだ}: between, interval (more general)\n- {休憩|きゅうけい}: break, rest\n- {隙間|すきま}: gap, crack (physical)",
+  "notes": "COMMON COLLOCATIONS:\n- ⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{合間|あいま}⟦に→に：00314_ni⟧: between work tasks\n- {合間|あいま}⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧: to find spare time\n- {合間|あいま}⟦を→を：00422_wo⟧⟦{縫|ぬ}って→縫う：00326_nuu⟧: squeezing in between (activities)\n- ちょっとした{合間|あいま}に: during a brief interval\n\nNUANCE:\n{合間|あいま} emphasizes using small pockets of time productively or for brief activities.\n\nSIMILAR WORDS:\n- ⟦{間|あいだ}→間：00914_aida⟧: between, interval (more general)\n- ⟦{休憩|きゅうけい}→休憩：00262_kyuukei⟧: break, rest\n- ⟦{隙間|すきま}→隙間：00389_sukima⟧: gap, crack (physical)",
   "cross_references": [
     {
       "type": "synonym",
@@ -59,7 +59,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T09:40:00Z",
-    "modified": "2026-04-16T02:09:37Z",
+    "modified": "2026-06-07T20:04:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
