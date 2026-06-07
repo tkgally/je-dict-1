@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-06
+**Last updated**: 2026-06-07
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-07 (Vocabulary Expansion - 25 New Entries, Recent Candidates Batch)
+Added 25 new dictionary entries (IDs 28906-28930) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from the most recently added candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to two or three focused sections.
+
+- **Verbs (6)**: {照|て}り{返|かえ}す (to reflect light/heat), {尖|とが}らせる (to sharpen / purse lips / set nerves on edge), {乞|こ}う (literary "to beg"), {潰|つい}える (dreams/plans collapse), {屈|かが}める (to bend one's body), {苦悶|くもん}する (to writhe in agony, noun + suru)
+- **Food / cooking (6)**: {湯割|ゆわ}り (spirits cut with hot water), {薄皮|うすかわ} (thin skin/peel), {白味噌|しろみそ} (white miso), {赤味噌|あかみそ} (red miso), {水炊|みずた}き (mizutaki hot pot), {片手鍋|かたてなべ} (saucepan)
+- **People / family (3)**: {子息|しそく} (another's son, formal), {一人息子|ひとりむすこ} (only son), {武者|むしゃ} (warrior, samurai)
+- **Daily life / society (5)**: タワーマンション (high-rise condo), {積立金|つみたてきん} (reserve fund / installment savings), {等級|とうきゅう} (grade/rank), {内地|ないち} (Japanese mainland, 2 senses, 6 examples), {両足|りょうあし} (both feet/legs)
+- **Other (5)**: {恨|うら}み{言|ごと} (words of resentment), {酸性雨|さんせいう} (acid rain), {弱酸性|じゃくさんせい} (mildly acidic), {手前味噌|てまえみそ} (self-praise idiom), {大志|たいし} (great ambition, Clark quote)
+
+Conjugation tables added by `add_conjugations.py` for all six verb entries. All 25 entries validated, no missing furigana, no new kanji needed indexing.
 
 ### 2026-06-07 (Vocabulary Expansion - 21 New Entries, "seen in entry" + Backlog Batch)
 Added 21 new dictionary entries (IDs 28885-28905) from `candidate_words.json`. The first 18 cleared the full "seen in entry" internal-completeness backlog (words already referenced inside existing entries 02217 and 05294-05554 but not yet defined); the final 3 came from recent unprocessed candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): short top-level glosses (3-8 words), notes scoped to 2-3 focused sections.
