@@ -30,3 +30,7 @@ _(All observations through 2026-06-06 session 033 have been harvested by the wik
 ## 2026-06-07 — comprehensive polish session 037 (entries 05617–05635)
 - [pattern] Semantic tag errors: several entries in this range had badly wrong domain tags (懸念→electronics, 端末→building/transportation, 促進→emotion/time/work, 七夕→animal-mammal); a targeted semantic audit of nearby entries may be warranted
 - [entry] 05629 shushi: ex2 and ex3 are near-duplicates (both about understanding the shushi of a document); diversify in a future session
+
+## 2026-06-07 — comprehensive polish session 042 (entries 05715–05734)
+- [pattern] Several adverb/onomatopoeia entries (e.g., 05715 ぽたぽた, 05716 ぶんぶん, 05719 かちかち, 05720 ばりばり, 05724 じゃぶじゃぶ, 05726 ぼうぼう) have spurious verb conjugation tables in their JSON — they are tagged as adverbs or onomatopoeia but include godan conjugation forms. These should be removed; a targeted cleanup pass for adverb entries with `"conjugation"` fields would be worth adding as a tooling check
+- [entry] 05728_mareni: notes refer to めったに as "more common" than まれに — this register note is correct and worth keeping as-is
