@@ -31,3 +31,7 @@ _(All observations through 2026-06-07 session 042 have been harvested by the wik
 ## 2026-06-08 — comprehensive polish session 045 (entries 05784–05804)
 - [pattern] Semantic tag drift: 5 wrong tags corrected in this range — "electronics" on 風呂敷 (05798), "animal-fish" on じめじめ (05789), "food" on こそこそ (05792), "communication+education+tool" on 提灯 (05800), "furniture" on 暖簾 (05803). The tags "furniture" and "tool" appear loosely applied in the 05500–06000 range; worth a targeted semantic tag audit pass.
 - [entry] 05747_kirisuteru semantic tag "body-part" → "action" (carried forward)
+
+## 2026-06-08 — comprehensive polish session 049 (entries 05891–05915)
+- [pattern] Multiple wrong semantic tags in 05891–05915: "electronics" on るんるん (05894), "furniture" on 淡々 (05897), "tool" on 刻々 (05898), wrong formality "informal" on 仲裁 (05907). Tag drift continues through this range.
+- [entry] ロック (08116_rokku) covers only rock music; a lock/locking sense is missing. The entry should be expanded to cover the tech/social media "lock" sense, or a separate entry created.
