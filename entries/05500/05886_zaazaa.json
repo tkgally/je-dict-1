@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05886_zaazaa_ex1",
-      "japanese": "{雨|あめ}がざあざあ{降|ふ}っている。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧ざあざあ⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "The rain is pouring down.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05886_zaazaa_ex2",
-      "japanese": "ざあざあ{降|ふ}りの{中|なか}を{走|はし}って{帰|かえ}った。",
+      "japanese": "ざあざあ⟦{降|ふ}り→降る：00839_furu⟧⟦の→の：09472_no⟧⟦{中|なか}→中：00654_naka⟧⟦を→を：00422_wo⟧⟦{走|はし}って→走る：00519_hashiru⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
       "english": "I ran home through the pouring rain.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05886_zaazaa_ex3",
-      "japanese": "{外|そと}はざあざあ{降|ふ}りだから、{出|で}かけるのはやめよう。",
+      "japanese": "⟦{外|そと}→外：00671_soto⟧⟦は→は：00079_ha⟧ざあざあ⟦{降|ふ}り→降る：00839_furu⟧⟦だ→だ：09496_da⟧⟦から→から：00504_kara⟧、⟦{出|で}かける→出かける：00833_dekakeru⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦やめよう→やめる：00909_yameru⟧。",
       "english": "It's pouring outside, so let's not go out.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ざあざあ is an onomatopoeia ({擬音語|ぎおんご}) representing the sound of heavy, intense rain. The voiced consonant ざ conveys force and volume, making it one of the strongest rain-sound words.\n\nCOMMON PATTERNS:\n- ざあざあ{降|ふ}る: to pour (rain)\n- ざあざあ{降|ふ}り: pouring rain (used as a noun modifier)\n- {雨|あめ}がざあざあ: rain is pouring\n\nCONTRAST WITH OTHER RAIN WORDS:\n- ぽつぽつ: scattered, occasional drops (lightest)\n- しとしと: gentle, quiet, steady drizzle\n- ざあざあ: heavy, loud downpour\n- {土砂降|どしゃぶ}り: torrential downpour (strongest; a noun, not onomatopoeia)\n\nUSAGE:\nAlmost exclusively used with {雨|あめ} (rain) or {降|ふ}る (to fall). Can also describe the sound of running water, as in {水|みず}がざあざあ{流|なが}れる (water gushing/flowing noisily).",
+  "notes": "ざあざあ is an onomatopoeia (⟦{擬音語|ぎおんご}→擬音語：22536_giongo⟧) representing the sound of heavy, intense rain. The voiced consonant ざ conveys force and volume, making it one of the strongest rain-sound words.\n\nCOMMON PATTERNS:\n- ざあざあ⟦{降|ふ}る→降る：00839_furu⟧: to pour (rain)\n- ざあざあ⟦{降|ふ}り→降る：00839_furu⟧: pouring rain (used as a noun modifier)\n- ⟦{雨|あめ}→雨：00583_ame⟧がざあざあ: rain is pouring\n\nCONTRAST WITH OTHER RAIN WORDS:\n- ⟦ぽつぽつ→ぽつぽつ：06683_potsupotsu⟧: scattered, occasional drops (lightest)\n- ⟦しとしと→しとしと：05885_shitoshito⟧: gentle, quiet, steady drizzle\n- ざあざあ: heavy, loud downpour\n- ⟦{土砂降|どしゃぶ}り→土砂降り：07680_doshaburi⟧: torrential downpour (strongest; a noun, not onomatopoeia)\n\nUSAGE:\nAlmost exclusively used with ⟦{雨|あめ}→雨：00583_ame⟧ (rain) or ⟦{降|ふ}る→降る：00839_furu⟧ (to fall). Can also describe the sound of running water, as in ⟦{水|みず}→水：02258_mizu⟧がざあざあ⟦{流|なが}れる→流れる：01969_nagareru⟧ (water gushing/flowing noisily).",
   "cross_references": [
     {
       "type": "contrast",
@@ -62,7 +62,8 @@
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-07T21:09:00Z",
+    "modified": "2026-06-08T19:25:34Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
