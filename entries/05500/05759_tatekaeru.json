@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05759_tatekaeru_ex1",
-      "japanese": "{代金|だいきん}を{立|た}て{替|か}えておきました。",
+      "japanese": "⟦{代金|だいきん}→代金：03416_daikin⟧⟦を→を：00422_wo⟧{立|た}て{替|か}えて⟦おきました→置く：01092_oku⟧。",
       "english": "I paid in advance for you.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05759_tatekaeru_ex2",
-      "japanese": "{交通費|こうつうひ}を{立|た}て{替|か}えてもらえますか。",
+      "japanese": "⟦{交通費|こうつうひ}→交通費：03056_koutsuuhi⟧⟦を→を：00422_wo⟧{立|た}て{替|か}えて⟦もらえますか→もらう：00520_morau⟧。",
       "english": "Could you front my transportation costs?",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05759_tatekaeru_ex3",
-      "japanese": "{立|た}て{替|か}えた{分|ぶん}は{後|あと}で{請求|せいきゅう}します。",
+      "japanese": "{立|た}て{替|か}えた⟦{分|ぶん}→分：26216_bun⟧⟦は→は：00079_ha⟧⟦{後|あと}→後：09580_ato⟧⟦で→で：00502_de⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧⟦します→する：00392_suru⟧。",
       "english": "I'll bill you later for what I fronted.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,26 @@
       ]
     }
   ],
-  "notes": "{立|た}て{替|か}える means to pay for something on someone else's behalf, with the expectation of being reimbursed later.\n\nTRANSITIVITY:\n- Type: {他動詞|たどうし} (transitive)\n- Takes を for the expense being paid\n\nCOMPOUND VERB:\nFormed from {立|た}てる (to set up) + {替|か}える (to replace). The meaning relates to temporarily \"standing in\" for someone financially.\n\nCOMMON PATTERNS:\n- ～を{立|た}て{替|か}える: to front the cost of ~\n- {立|た}て{替|か}えておく: to pay in advance (and keep the receipt)\n- {立|た}て{替|か}えてもらう: to have someone front the money\n\nNOUN FORM:\n{立|た}て{替|か}え: advance payment, fronting money\n- {立|た}て{替|か}え{払|ばら}い: payment on someone's behalf\n\nCOMMON CONTEXTS:\n- Business expenses reimbursed by the company\n- Friends paying for each other temporarily\n- Travel and transportation costs",
-  "cross_references": [],
+  "notes": "{立|た}て{替|か}える means to pay for something on someone else's behalf, with the expectation of being reimbursed later.\n\nTRANSITIVITY:\n- Type: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive)\n- Takes ⟦を→を：00422_wo⟧ for the expense being paid\n\nCOMPOUND VERB:\nFormed from ⟦{立|た}てる→立てる：01196_tateru⟧ (to set up) + ⟦{替|か}える→替える：13399_kaeru⟧ (to replace). The meaning relates to temporarily \"standing in\" for someone financially.\n\nCOMMON PATTERNS:\n- ～⟦を→を：00422_wo⟧{立|た}て{替|か}える: to front the cost of ~\n- {立|た}て{替|か}えて⟦おく→置く：01092_oku⟧: to pay in advance (and keep the receipt)\n- {立|た}て{替|か}えて⟦もらう→もらう：00520_morau⟧: to have someone front the money\n\nNOUN FORM:\n⟦{立|た}て{替|か}え→立替え：10197_tatekae⟧: advance payment, fronting money\n- ⟦{立|た}て{替|か}え{払|ばら}い→立替え払い：23347_tatekaebarai⟧: payment on someone's behalf\n\nCOMMON CONTEXTS:\n- Business expenses reimbursed by the company\n- Friends paying for each other temporarily\n- Travel and transportation costs",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10197_tatekae",
+      "reading": "たてかえ",
+      "headword": "{立|た}て{替|か}え",
+      "label": "noun form: advance payment"
+    },
+    {
+      "type": "related",
+      "target_id": "23347_tatekaebarai",
+      "reading": "たてかえばらい",
+      "headword": "{立|た}て{替|か}え{払|ばら}い",
+      "label": "paying on someone's behalf"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T08:43:51Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-06-08T14:06:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -148,7 +163,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "transportation"
+        "payment"
       ],
       "verb_class": "ichidan"
     }
