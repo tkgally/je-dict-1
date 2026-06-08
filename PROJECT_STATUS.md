@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-08 (Vocabulary Expansion - 26 New Entries, "Seen in Entry" Backlog)
+Added 26 new entries (IDs 28953-28978) drawn from "seen in entry" internal-completeness candidates — words the dictionary already referenced in its examples or notes but did not yet define. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
+
+- **Visual / abstract (5)**: コントラスト (contrast), {陰陽|いんよう} (yin-yang), {正邪|せいじゃ} (right and wrong), {常|つね} (norm), {主旨|しゅし} (alt. kanji for {趣旨|しゅし}, cross-referenced)
+- **Time / weather (2)**: {朝晩|あさばん} (morning and evening), {温度差|おんどさ} (temperature difference / enthusiasm gap)
+- **Wedding / matchmaking (5)**: {新郎新婦|しんろうしんぷ} (bride and groom), {余興|よきょう} (reception entertainment), お{色直|いろなお}し (costume change), {結婚相談所|けっこんそうだんじょ} (marriage agency), {釣書|つりがき} (matchmaking profile)
+- **Buddhist memorial (2)**: {七回忌|ななかいき} (7th-year service), {十三回忌|じゅうさんかいき} (13th-year service)
+- **Action / verbs (4)**: {投|な}げかける (to pose/cast, 3 senses), {切|き}り{落|お}とす (to lop off), {斬|き}る (to cut down with blade / to skewer, 2 senses), すっぱり (cleanly / completely, adverb)
+- **Business / society (4)**: {保持者|ほじしゃ} (record holder), アウトソーシング (outsourcing), {紹介料|しょうかいりょう} (referral fee), {満場一致|まんじょういっち} (unanimous)
+- **Misc (4)**: {七夕飾|たなばたかざ}り (Tanabata decorations), {編|あ}み{目|め} (knit stitch), {無我|むが} (selflessness / no-self, 2 senses), {非協力的|ひきょうりょくてき} (uncooperative, na-adj)
+
+Pre-flight sweep closed 0 stranded PRs. All entries validate; no missing furigana; no new kanji introduced. Session log: `polishing/sessions/newentries_2026-06-08_001.md`.
+
 ### 2026-06-08 (Maintenance - Spurious Non-Verb Conjugation Cleanup)
 One-time deterministic cleanup (`prompts/fix_spurious_conjugations.md`). Stripped fabricated verb conjugation tables and stray `verb_class` tags from **133 non-verb entries** (101 adverbs/onomatopoeia/noun-adverbs/na-adjectives/nouns/auxiliaries + 32 reviewed expressions — idioms, proverbs, adverbial phrases, and two compound-ている forms). Examples of the nonsense removed: ぐつぐつ (adverb) had `ぐつぐたない`/`ぐつぐちます`; 空いている had `空いていらない`/`空いていった`.
 
