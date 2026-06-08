@@ -404,6 +404,12 @@ Entry 05501_shashinka ({写真家|しゃしんか}) notes contain `⟦カメラ�
 
 **Recommended fix**: Update the inline link from `noentry` to `28387`.
 
+## 05629_shushi (主旨) — Near-duplicate example sentences
+
+**Source**: Comprehensive-polish 2026-06-07 session 037
+
+Entry 05629 has ex2 and ex3 as near-duplicates — both illustrate "understanding the 主旨 of a document." One should be rewritten to show 主旨 in a different context (e.g., the gist of a speech or proposal, the main point of an argument, restating a meeting's purpose). Maintain progressive length.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
