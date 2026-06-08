@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05888_tsuyatsuya_ex1",
-      "japanese": "{彼女|かのじょ}の{髪|かみ}はつやつやしている。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{髪|かみ}→髪：02196_kami⟧⟦は→は：00079_ha⟧つやつや⟦している→する：00392_suru⟧。",
       "english": "Her hair is glossy and shiny.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05888_tsuyatsuya_ex2",
-      "japanese": "つやつやの{肌|はだ}を{保|たも}つために{保湿|ほしつ}が{大切|たいせつ}だ。",
+      "japanese": "つやつや⟦の→の：09472_no⟧⟦{肌|はだ}→肌：02243_hada⟧⟦を→を：00422_wo⟧⟦{保|たも}つ→保つ：10134_tamotsu⟧⟦ために→ために：28332_tameni⟧⟦{保湿|ほしつ}→保湿：11617_hoshitsu⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "Moisturizing is important to maintain glossy skin.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05888_tsuyatsuya_ex3",
-      "japanese": "{炊|た}きたてのご{飯|はん}はつやつやして{美味|おい}しそうだ。",
+      "japanese": "⟦{炊|た}きたて→炊き立て：15234_takitate⟧⟦の→の：09472_no⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦は→は：00079_ha⟧つやつや⟦して→する：00392_suru⟧⟦{美味|おい}しそう→美味しい：00740_oishii⟧⟦だ→だ：09496_da⟧。",
       "english": "Freshly cooked rice looks delicious with its glossy shine.",
       "notes": null,
       "has_audio": false,
@@ -133,11 +133,12 @@
       ]
     }
   ],
-  "notes": "つやつや describes a healthy, attractive luster that implies good condition, freshness, or vitality. It is always positive — unlike some shine words that can suggest greasiness.\n\nFORMS:\n- つやつやの〜: modifier (つやつやの{髪|かみ})\n- つやつやした〜: modifier (つやつやした{肌|はだ})\n- つやつやしている: is glossy/lustrous\n- つやつやな〜: na-adjective modifier\n\nCOMMON COLLOCATIONS:\n- つやつやの{髪|かみ}: glossy hair\n- つやつやの{肌|はだ}: lustrous skin\n- つやつやしたご{飯|はん}: shiny rice (sign of freshly cooked, good quality)\n- つやつやの{林檎|りんご}: shiny apple\n\nCONTRAST WITH OTHER SHINE WORDS:\n- ぴかぴか: sparkling clean (polished surfaces, new items)\n- きらきら: glittering, twinkling (like stars or jewelry)\n- てかてか: oily/greasy shine (often negative)\n- すべすべ: smooth to the touch (texture, not visual shine)",
+  "notes": "つやつや describes a healthy, attractive luster that implies good condition, freshness, or vitality. It is always positive — unlike some shine words that can suggest greasiness.\n\nFORMS:\n- つやつやの〜: modifier (つやつや⟦の→の：09472_no⟧⟦{髪|かみ}→髪：02196_kami⟧)\n- つやつやした〜: modifier (つやつや⟦した→する：00392_suru⟧⟦{肌|はだ}→肌：02243_hada⟧)\n- つやつやしている: is glossy/lustrous\n- つやつやな〜: na-adjective modifier\n\nCOMMON COLLOCATIONS:\n- つやつや⟦の→の：09472_no⟧⟦{髪|かみ}→髪：02196_kami⟧: glossy hair\n- つやつや⟦の→の：09472_no⟧⟦{肌|はだ}→肌：02243_hada⟧: lustrous skin\n- つやつや⟦した→する：00392_suru⟧⟦ご{飯|はん}→ご飯：00776_gohan⟧: shiny rice (sign of freshly cooked, good quality)\n- つやつや⟦の→の：09472_no⟧⟦{林檎|りんご}→りんご：02269_ringo⟧: shiny apple\n\nCONTRAST WITH OTHER SHINE WORDS:\n- ⟦ぴかぴか→ぴかぴか：05155_pikapika⟧: sparkling clean (polished surfaces, new items)\n- ⟦きらきら→きらきら：05159_kirakira⟧: glittering, twinkling (like stars or jewelry)\n- ⟦てかてか→てかてか：05360_tekateka⟧: oily/greasy shine (often negative)\n- ⟦すべすべ→すべすべ：05163_subesube⟧: smooth to the touch (texture, not visual shine)",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-04-02T08:18:51Z",
+    "modified": "2026-06-08T19:25:34Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -149,7 +150,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "work"
+        "descriptive"
       ],
       "verb_class": "suru"
     }

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05885_shitoshito_ex1",
-      "japanese": "{雨|あめ}がしとしと{降|ふ}っている。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧しとしと⟦{降|ふ}っている→降る：00839_furu⟧。",
       "english": "The rain is falling softly.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05885_shitoshito_ex2",
-      "japanese": "しとしとと{降|ふ}る{雨|あめ}の{音|おと}を{聞|き}きながら{眠|ねむ}った。",
+      "japanese": "しとしと⟦と→と：00512_to⟧⟦{降|ふ}る→降る：00839_furu⟧⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{音|おと}→音：00743_oto⟧⟦を→を：00422_wo⟧⟦{聞|き}き→聞く：00483_kiku⟧⟦ながら→ながら：10530_nagara⟧⟦{眠|ねむ}った→眠る：01181_nemuru⟧。",
       "english": "I fell asleep listening to the sound of the gently falling rain.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05885_shitoshito_ex3",
-      "japanese": "{梅雨|つゆ}の{時期|じき}はしとしと{雨|あめ}が{続|つづ}く。",
+      "japanese": "⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧⟦は→は：00079_ha⟧しとしと⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{続|つづ}く→続く：00903_tsuzuku⟧。",
       "english": "During the rainy season, light drizzle continues.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "しとしと is an onomatopoeia specifically for gentle, quiet rain. It evokes a calm, often melancholic atmosphere and is frequently used in literary contexts.\n\nCOMMON PATTERNS:\n- しとしと{降|ふ}る: to fall gently (rain)\n- しとしとと: variant with と particle for emphasis\n\nCONTRAST WITH OTHER RAIN SOUNDS:\n- ぽつぽつ: scattered drops just starting\n- ざあざあ: heavy, pouring rain\n- ぱらぱら: light, sporadic rain",
+  "notes": "しとしと is an onomatopoeia specifically for gentle, quiet rain. It evokes a calm, often melancholic atmosphere and is frequently used in literary contexts.\n\nCOMMON PATTERNS:\n- しとしと⟦{降|ふ}る→降る：00839_furu⟧: to fall gently (rain)\n- しとしと⟦と→と：00512_to⟧: variant with と particle for emphasis\n\nCONTRAST WITH OTHER RAIN SOUNDS:\n- ⟦ぽつぽつ→ぽつぽつ：06683_potsupotsu⟧: scattered drops just starting\n- ⟦ざあざあ→ざあざあ：05886_zaazaa⟧: heavy, pouring rain\n- ⟦ぱらぱら→ぱらぱら：19924_parapara⟧: light, sporadic rain",
   "cross_references": [
     {
       "type": "contrast",
@@ -55,7 +55,8 @@
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-01-19T12:17:44.026143Z",
+    "modified": "2026-06-08T19:23:00Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

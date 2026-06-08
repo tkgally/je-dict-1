@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05890_kossori_ex1",
-      "japanese": "こっそり{部屋|へや}を{出|で}た。",
+      "japanese": "こっそり⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧⟦{出|で}た→出る：00513_deru⟧。",
       "english": "I slipped out of the room quietly.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05890_kossori_ex2",
-      "japanese": "{彼|かれ}はこっそり{手紙|てがみ}を{読|よ}んでいた。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧こっそり⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦を→を：00422_wo⟧⟦{読|よ}んでいた→読む：00426_yomu⟧。",
       "english": "He was reading the letter secretly.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05890_kossori_ex3",
-      "japanese": "{親|おや}に{見|み}つからないようにこっそりお{菓子|かし}を{食|た}べた。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦に→に：00314_ni⟧⟦{見|み}つからないように→見つかる：01173_mitsukaru⟧こっそり⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{食|た}べた→食べる：00396_taberu⟧。",
       "english": "I ate snacks on the sly so my parents wouldn't find out.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "こっそり describes doing something secretly or stealthily, deliberately trying not to be noticed. The tone is relatively mild — it can describe innocent secrecy, not just wrongdoing.\n\nCOMMON PATTERNS:\n- こっそり〜する: to do something secretly\n- こっそりと: variant with と particle (slightly more literary)\n- こっそり{抜|ぬ}け{出|だ}す: to sneak out\n- こっそり{食|た}べる: to eat on the sly\n\nSIMILAR EXPRESSIONS:\n- こそこそ: sneakily (more negative, implies suspicious behavior)\n- ひそかに: secretly (literary, can mean \"inwardly\")\n- {内緒|ないしょ}で: in secret, confidentially\n- {密|ひそ}かに: in secret (formal/written)\n\nUSAGE:\nこっそり often appears in lighthearted contexts: こっそりお{菓子|かし}を{食|た}べる (sneaking a snack). こそこそ sounds more suspicious and negative.",
+  "notes": "こっそり describes doing something secretly or stealthily, deliberately trying not to be noticed. The tone is relatively mild — it can describe innocent secrecy, not just wrongdoing.\n\nCOMMON PATTERNS:\n- こっそり〜する: to do something secretly\n- こっそり⟦と→と：00512_to⟧: variant with と particle (slightly more literary)\n- こっそり⟦{抜|ぬ}け{出|だ}す→抜け出す：06040_nukedasu⟧: to sneak out\n- こっそり⟦{食|た}べる→食べる：00396_taberu⟧: to eat on the sly\n\nSIMILAR EXPRESSIONS:\n- ⟦こそこそ→こそこそ：05792_kosokoso⟧: sneakily (more negative, implies suspicious behavior)\n- ⟦ひそかに→密かに：05727_hisokani⟧: secretly (literary, can mean \"inwardly\")\n- ⟦{内緒|ないしょ}→内緒：03126_naisho⟧で: in secret, confidentially\n- ⟦{密|ひそ}かに→密かに：05727_hisokani⟧: in secret (formal/written)\n\nUSAGE:\nこっそり often appears in lighthearted contexts: こっそり⟦お{菓子|かし}→お菓子：02852_okashi⟧⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧ (sneaking a snack). ⟦こそこそ→こそこそ：05792_kosokoso⟧ sounds more suspicious and negative.",
   "cross_references": [
     {
       "type": "contrast",
@@ -62,20 +62,18 @@
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-04-24T07:04:04Z",
+    "modified": "2026-06-08T19:25:34Z",
+    "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "style": [
-        "literary"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "food"
+        "descriptive"
       ]
     }
   }
