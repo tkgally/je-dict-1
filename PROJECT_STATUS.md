@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-08 (Vocabulary Expansion - 22 New Entries, Mixed Candidates Batch)
+Added 22 new entries (IDs 29001-29022) from `candidate_words.json`. The "seen in entry" backlog had been cleared earlier in the day, so this session drew from the broader candidate list — common compound nouns, formal vocabulary, two new prefectures, and a kabuki term. Per-field budgets followed the reference shape of {もてなし} (27261).
+
+- **Daily / register nouns (6)**: {自慢話|じまんばなし} (boastful talk), インドカレー (Indian curry), えぐみ (acrid taste), {見得|みえ} (kabuki pose / bold declaration), {少|すこ}し{前|まえ} (a little while ago), {背|せ}の{高|たか}さ (height as everyday noun phrase)
+- **Geography (2)**: {愛媛県|えひめけん} (Ehime), {和歌山県|わかやまけん} (Wakayama). New kanji: 媛 (02769_en_hime_beauty).
+- **Adverb / formal (2)**: みだりに (without good reason), {近況伺|きんきょううかが}い (formal "checking in")
+- **Industry / tech / safety (6)**: {縦横比|たてよこひ} (aspect ratio), {均質性|きんしつせい} (homogeneity), {倉庫業|そうこぎょう} (warehousing industry), {倉庫番|そうこばん} (warehouse keeper / Sokoban), {容器包装|ようきほうそう} (containers and packaging), {送信先|そうしんさき} (email recipient), {危険地帯|きけんちたい} (danger zone), {防毒|ぼうどく}マスク (gas mask)
+- **Expressions (2)**: {聞|き}き{応|ごた}えがある (worth listening to), {何|なん}のために (for what purpose)
+- **Math / housing (2)**: {無理数|むりすう} (irrational number), {築|ちく} (prefix for years-since-construction)
+
+Three stale candidates removed during pre-flight/post-creation: C21780 (kana なんといっても — already 28992_nantoittemo), C21781 (kana うそっぽい — already 28993_usoppoi), C21619 (日照り/ひでり — already 06189_hideri). Two romaji slips caught by the validator and renamed before build (29003 indokare→indokaree, 29011 kinkyoukagai→kinkyouukagai); one bare-kanji 宛 in notes was annotated. No verbs / i-adjectives in this batch.
+
 ### 2026-06-08 (Vocabulary Expansion - 22 New Entries, "Seen in Entry" Backlog)
 Added 22 new entries (IDs 28979-29000) continuing the "seen in entry" internal-completeness work — words the dictionary already referenced in examples or notes but had not yet defined. Followed the per-field shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264). One new kanji added: 趨 (02768).
 
