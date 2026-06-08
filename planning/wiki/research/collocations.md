@@ -165,3 +165,4 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 - [Formulaic Language and Phraseological Competence](formulaic-language-phraseological-competence.md) — the broader psycholinguistic context: processing advantages, fluency benefits, and L2 acquisition of prefabricated sequences
 - [The Lexical Approach and Vocabulary-Centered Teaching](lexical-approach-vocabulary-teaching.md) — the pedagogical methodology that puts collocations at the centre of language instruction
 - [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — collocation as the primary productive challenge in L2 writing, and collocation dictionary consultation behavior
+- [Example Sentence Design](example-sentences.md) — collocational typicality as a core criterion for example quality

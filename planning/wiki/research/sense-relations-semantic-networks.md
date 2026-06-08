@@ -1,6 +1,6 @@
 # Sense Relations and Semantic Networks
 
-**Last updated**: 2026-06-07
+**Last updated**: 2026-06-08
 
 ## Overview
 
@@ -143,7 +143,7 @@ As noted in [Verb Transitivity Pairs](../topics/verb-transitivity.md), Japanese 
 
 ### Cross-reference system as a sense relation network
 
-je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 16,306 cross-references across 28,743 entries (0.57 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
+je-dict-1's cross-reference system already implements a basic sense relation network with typed relationships: `synonym`, `antonym`, `related`, `contrast`, `hypernym`, `hyponym`, `transitive pair`, `intransitive pair`, `honorific form`, `humble form`, and others. With 16,323 cross-references across 28,769 entries (0.57 per entry), the network is growing but still sparse compared to what a learner-focused sense relation system could provide.
 
 **Priorities for enrichment**:
 
