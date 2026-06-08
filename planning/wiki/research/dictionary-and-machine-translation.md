@@ -182,3 +182,4 @@ MT is inherently transactional: question in, answer out. A browsable dictionary 
 - [L1 Transfer in Japanese L2 Vocabulary](l1-transfer-japanese-vocabulary.md) — furigana as learning aid for alphabetic-L1 learners
 - [Kanji Learning and Dictionary Treatment](kanji-learning-dictionaries.md) — kanji lookup challenges and furigana scaffolding
 - [L2 Writing and Dictionary Consultation](l2-writing-dictionary-consultation.md) — production support as the strongest differentiator between dictionaries and MT
+- [Example Sentence Design](example-sentences.md) — examples as depth-of-processing assets that MT cannot replicate

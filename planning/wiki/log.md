@@ -2,6 +2,18 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-08] maintenance | Stats sync, deepened example-sentences research page
+
+**Session type**: Nightly maintenance
+
+**Pre-flight**: Ran `pipeline/sweep-stranded-prs.py` — 0 open PRs, nothing stranded (main progress `next: 05735`).
+
+**Activities**:
+- [F/Harvest] Checked `polishing/observations.md` — still fully harvested through 2026-06-08 session 042. No new observation blocks. No change to the file.
+- [A] Updated stats across wiki pages to reflect 2026-06-08 `report.py` output (28,769 entries, 25,986 general, 16,323 cross-references, 0.57 per entry, ~113,326 total examples, 41.2% symmetry with 7,822 asymmetric refs, 1,475 candidates, 5,813 entries with inline links at 20.2%). Updated: `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/sense-relations-semantic-networks.md`.
+- [C] **Deepened `research/example-sentences.md`** (~700 → ~2,800 words). The page was the thinnest core research page relative to its importance (example sentences are the most-consulted feature in learner dictionaries and are created in every entry-building session). Added: the GDEX framework (Kilgarriff et al. 2008) formalizing the four Atkins–Rundell criteria into a scorable system with five weighted features (sentence length, word frequency, main-clause position, anaphor avoidance, topic safety); the **encoding vs. decoding example** distinction (Frankenberg-Garcia 2012, 2015) — decoding examples sorted by sense, encoding examples sorted by lexico-grammatical pattern, with the experimental finding that multiple pattern-sorted examples significantly improve production accuracy; the LLM-generated examples research (Patel et al. 2024 NAACL — OxfordEval metric, 80% win rate over Oxford examples; Haider et al. 2024 — quality degradation for lower-resource languages, informativeness as the hardest criterion; Takahashi et al. 2025 — diversity as a key dimension for Japanese L2 examples); Japanese-specific considerations (script-choice register signal, sentence-final expressions as pragmatic encoding, particle-pattern coverage as a critical encoding function, topic–comment structure requiring longer examples); a proper References section with 15 cited works; and six actionable implications for je-dict-1 (encoding-aware polishing, BCCWJ collocation comparison, automated vocabulary control, progressive-complexity enforcement, LLM example risk mitigation, particle-pattern coverage in verb polishing). Added reciprocal links from `collocations.md`, `dictionary-microstructure.md`, and `dictionary-and-machine-translation.md`.
+- Updated "Last updated" dates on all modified pages plus `index.md`.
+
 ## [2026-06-08] maintenance | Whole-wiki survey: deepened four thin/stale flagship pages
 
 **Session type**: Manual session (curator-directed; theme = survey the wiki as a whole, find incomplete/thin/stale pages, revise and deepen them)

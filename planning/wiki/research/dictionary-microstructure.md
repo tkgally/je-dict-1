@@ -227,6 +227,7 @@ je-dict-1's JSON-based entry schema is itself a microstructure specification. Th
 - [Grammar Information in Learner Dictionaries](grammar-in-dictionaries.md) — grammatical codes and patterns
 - [Dictionary Evaluation and Metalexicography](dictionary-evaluation-metalexicography.md) — Wiegand's broader framework
 - [Schema Tag Reliability](../topics/schema-tag-reliability.md) — tag quality issues in je-dict-1's metadata
+- [Example Sentence Design](example-sentences.md) — example placement and sequencing within entry structure
 
 ## References
 
