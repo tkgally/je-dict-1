@@ -176,7 +176,7 @@ Some of je-dict-1's expression entries are grammar patterns (なければなら�
 
 ### 6. Production-oriented formula access
 
-The recognition-production gap documented by Bardovi-Harlig (2009) suggests that learners need ways to find formulas from situations, not just from forms. je-dict-1's semantic tagging and scenario-based coverage analysis (see the [Learner Scenarios](../../build/data/learner_scenarios/) system) provide a framework for organizing formula access by communicative need. Ensuring that ritual and social formulas are tagged with relevant scenarios (greeting, apology, request, farewell, condolence) would improve production-oriented access.
+The recognition-production gap documented by Bardovi-Harlig (2009) suggests that learners need ways to find formulas from situations, not just from forms. je-dict-1's semantic tagging and scenario-based coverage analysis (the Learner Scenarios system, `build/data/learner_scenarios/`, audited by `analyze_scenarios.py`) provide a framework for organizing formula access by communicative need. Ensuring that ritual and social formulas are tagged with relevant scenarios (greeting, apology, request, farewell, condolence) would improve production-oriented access.
 
 ## References
 

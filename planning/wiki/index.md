@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-08 (one-time spurious-conjugation cleanup: stripped fabricated verb tables + stray `verb_class` tags from 133 non-verb entries, added exact-enum verb-POS guard to `add_conjugations.py`, built `prune_nonverb_conjugations.py`; resolved Cleanup Backlog P6, Tooling Backlog item 5, and five Entry Follow-ups sections)
+**Last updated**: 2026-06-08 (whole-wiki survey: deepened four thin/stale flagship pages — `topics/furigana-strategy.md` (completeness-vs-correctness split + the multi-model review pipeline), `topics/verb-transitivity.md` (real coverage numbers: 11% of verbs fully complete), `project/quality-standards.md` (measured progress + QA tooling; verbs are the quality frontier), and `ideas/corpus-prioritization.md` (repositioned honestly vs. brainstorming/internal-completeness); harvested observation sessions 037/042; lint pass fixed an invalid date + a broken source link)
 
 
 ## How this wiki is organized

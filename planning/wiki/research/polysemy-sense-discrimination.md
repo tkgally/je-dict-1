@@ -1,6 +1,6 @@
 # Polysemy and Sense Discrimination
 
-**Last updated**: 2026-06-31
+**Last updated**: 2026-06-30
 
 ## Overview
 
