@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-08 (Vocabulary Expansion - 22 New Entries, "Seen in Entry" Backlog)
+Added 22 new entries (IDs 28979-29000) continuing the "seen in entry" internal-completeness work — words the dictionary already referenced in examples or notes but had not yet defined. Followed the per-field shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264). One new kanji added: 趨 (02768).
+
+- **Formal nouns (4)**: {趨勢|すうせい} (trend), {見地|けんち} (standpoint), {壁画|へきが} (mural), {干拓|かんたく} (land reclamation by draining)
+- **Daily/cultural nouns (4)**: {卒業証書|そつぎょうしょうしょ} (diploma), {迎|むか}え{火|び} (Obon welcoming fire), {喫茶|きっさ} (tea/cafe compounds), {広島|ひろしま} (Hiroshima)
+- **Onomatopoeia (8)**: ぼたぼた (heavy drops), たらたら (trickling; griping), ぶうぶう (oinking; grumbling), ぶーん (sustained buzz), コチコチ (stiff; ticking), ぼりぼり (crunching; scratching), ぱくっと (one big bite), ばしゃばしゃ (light splashing), ぴちゃぴちゃ (lapping), ぼさぼさ (messy hair; idle)
+- **Other (3)**: なにせ (after all, casual), {何|なん}といっても (above all), うそっぽい (fishy), ヒール (heel/villain)
+
+Stale candidate C21762 (お色直し with reading いろなおし) removed — duplicates existing 28967_oironaoshi (おいろなおし).
+
 ### 2026-06-08 (Vocabulary Expansion - 26 New Entries, "Seen in Entry" Backlog)
 Added 26 new entries (IDs 28953-28978) drawn from "seen in entry" internal-completeness candidates — words the dictionary already referenced in its examples or notes but did not yet define. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264).
 
