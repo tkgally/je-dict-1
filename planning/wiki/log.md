@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-08] maintenance | Spurious non-verb conjugation cleanup
+
+**Session type**: Manual one-time task (`prompts/fix_spurious_conjugations.md`)
+
+**Pre-flight**: Ran `pipeline/sweep-stranded-prs.py` — 0 open PRs, nothing stranded (main progress `next: 05735`).
+
+**Activities**:
+- Added an exact-enum verb-POS guard to `build/add_conjugations.py`, replacing the substring test `if not any('verb' in p for p in ([pos] + pos_tags))`. Root cause: `'verb' in 'adverb'` is `True` (the string "adverb" contains "verb"), so adverbs passed the old guard and a stray `verb_class: "godan-*"` tag drove godan-table generation. The new guard checks membership in `{verb-godan, verb-ichidan, verb-suru, verb-kuru, verb-irregular}` over `metadata.tags.pos`. `add_adjective_conjugations.py` was already correctly guarded and had zero spurious tables, so it needed no change.
+- Built `build/prune_nonverb_conjugations.py` (reusable audit tool; dry-runs by default, skips `expression` entries for review unless `--include-expressions`).
+- Pruned **133 non-verb entries** (101 non-expression non-verbs — adverbs, onomatopoeia, noun-adverbs, na-adjectives, nouns, auxiliaries — + 32 reviewed expressions), removing the `conjugation` field and stray `verb_class` tag from each. All 32 expressions were confirmed multi-word idioms/proverbs/adverbial phrases or compound-ている forms (none a single mis-tagged verb); the borderline keigo case お会いする (22190) was stripped and logged for curator review.
+- Verified: all 28,743 entries valid; re-running both retrofits re-adds nothing; the Priority-6 spurious-conjugation detector and the stray-`verb_class` detector both return **0**.
+- Resolved Cleanup Backlog P6, Tooling Backlog item 5, the Schema Tag Reliability "Cleanup vs. defense in depth" note, and five Entry Follow-ups sections (Twelve onomatopoeia, 00536_itsu, 00601_yoku/00602_mou, 05173/05175, 02617_kondeiru). Added resolved sections for the compound-ている sibling 02525_suiteiru and a curator follow-up for 22190_oaisuru. Left the genuinely out-of-scope items open (00004_aogu, 08261_totonoenaosu, 01300_gozaimasu, 01525_wakai, 17582/08385/08016) — these are wrong-class/missing-table cases, not spurious tables.
+
 ## [2026-06-07] maintenance | Observation harvest, stats sync, content pipeline update, wiki link audit
 
 **Session type**: Nightly maintenance

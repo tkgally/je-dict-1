@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-05-12
+**Last updated**: 2026-06-08
 
 ## Overview
 
@@ -55,6 +55,8 @@ This is the same dynamic that [Deterministic vs. Semantic Tasks](deterministic-v
 The narrow fix is a one-shot script that scans for entries where `pos` contains no `verb-*` value and yet a `conjugation` block exists, then removes the block. **130 entries currently match this rule** (the original 12-onomatopoeia case was a 9.2% subset of the real scope).
 
 The broader fix is a guard inside `add_conjugations.py` itself: refuse to write a conjugation block unless the entry has at least one verb POS tag. The retrofit script becomes self-defending: if a future pass mis-tags more entries with a stray `verb_class`, they still won't get a conjugation table. This is filed in [Tooling Backlog](../ideas/tooling-backlog.md) → item 5.
+
+**Resolved (2026-06-08).** Both fixes shipped: `build/prune_nonverb_conjugations.py` cleaned **133 entries** and an exact-enum verb-POS guard now defends `add_conjugations.py`. The decisive root cause turned out to sharpen this section's lesson rather than merely confirm it. The guard *did* exist — `if not any('verb' in p for p in ([pos] + pos_tags))` — but it used a **substring** test, and `'verb' in 'adverb'` is `True` because the literal string "adverb" contains "verb". So the failure wasn't only "a deterministic pipeline trusted a stale tag"; the guard meant to gate the pipeline **mis-parsed the POS itself**, silently classifying every adverb as verb-like. A stray `verb_class: "godan-*"` then did the rest. The lesson compounds: when a tag feeds a pipeline, sanity-check the *input*, but also make the gate test an **exact membership check against a known enum**, never a substring match — substring matches over a controlled vocabulary are a latent bug waiting for the first value that contains another as a prefix/substring (`adverb` ⊃ `verb`, and similarly `noun`/`pronoun`, etc.). `add_adjective_conjugations.py` was already written with the correct exact-membership form (`'adjective-i' not in pos_tags`) and had zero spurious tables — a useful contrast showing the right pattern was already in the codebase.
 
 ## Categorical compression: when the schema can't represent reality
 

@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-07
+**Last updated**: 2026-06-08
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -59,6 +59,8 @@ Additionally, 02008_ikuratemo carries `semantic: ["furniture"]` — a clearly st
 See also: [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Stale auto-labels" for the broader pattern.
 
 ## Twelve onomatopoeia entries — Strip spurious godan conjugations
+
+**Status (resolved 2026-06-08):** The spurious `conjugation` field and stray `verb_class` tag were removed from all twelve by the one-time non-verb conjugation sweep (`build/prune_nonverb_conjugations.py`; 133 entries cleaned in total). Eleven were stripped by this sweep; 05646_gyuugyuu had already been cleaned by the 2026-06-07 comprehensive-polish session. The exact-enum verb-POS guard now in `build/add_conjugations.py` prevents regeneration (the old guard's `'verb' in p` substring test matched "adverb"). See [Cleanup Backlog](cleanup-backlog.md) → Priority 6 and [Tooling Backlog](tooling-backlog.md) → item 5.
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
 
@@ -124,6 +126,8 @@ Entry 03537_nou ({脳|のう}, brain) has `semantic: ["clothing"]` — clearly w
 
 ## 00536_itsu — Spurious godan-tsu conjugation on an adverb
 
+**Status (resolved 2026-06-08):** The `conjugation` field and stray `verb_class` tag were removed by the one-time non-verb conjugation sweep, and the new exact-enum verb-POS guard in `add_conjugations.py` prevents regeneration.
+
 **Source**: Comprehensive-polish 2026-05-11 session 006
 
 Entry 00536_itsu ({何時|いつ}, when) has `part_of_speech: "adverb"` but carries a full godan-tsu conjugation block with nonsensical forms (`いちます`, `いたない`) and a stray `verb_class: "godan-tsu"` tag. This is another instance of the broader pattern documented in [Cleanup Backlog](cleanup-backlog.md) → Priority 6 (130 non-verb entries with spurious conjugations).
@@ -131,6 +135,8 @@ Entry 00536_itsu ({何時|いつ}, when) has `part_of_speech: "adverb"` but carr
 **Recommended fix**: Remove the `conjugation` field and the `verb_class` tag. Will be covered by the one-shot pruner proposed in [Tooling Backlog](tooling-backlog.md) → item 5.
 
 ## 00601_yoku and 00602_mou — Spurious godan conjugations on adverbs
+
+**Status (resolved 2026-06-08):** The `conjugation` field and stray `verb_class` tag were removed from both by the one-time non-verb conjugation sweep, and the new exact-enum verb-POS guard in `add_conjugations.py` prevents regeneration.
 
 **Source**: Comprehensive-polish 2026-05-12 session 001
 
@@ -188,6 +194,8 @@ Several entries in the 01490–01511 range had wrong semantic tags: `furniture` 
 
 ## 02617_kondeiru (混んでいる) — Conjugation table generated incorrectly
 
+**Status (resolved 2026-06-08):** The one-time non-verb conjugation sweep applied **option (a)** — the bogus `conjugation` table and stray `verb_class` tag were removed. The entry already links its base verb {混|こ}む (00719_komu) in both the notes and a `related` cross-reference labeled "(base verb)", which carries the real conjugation, so no further linking was needed. The exact-enum verb-POS guard in `add_conjugations.py` now skips `expression`-tagged compound-ている entries. (Edge-case note retained below for the curator: a custom ている template for these compounds remains a possible future enhancement, but option (a) is the project-standard handling.)
+
 **Source**: Comprehensive-polish 2026-05-21 session 004
 
 Entry 02617_kondeiru ({混|こ}んでいる, "to be crowded") has a badly wrong conjugation table. The conjugation was generated as if いる were a standalone godan verb rather than recognizing the entry as a compound ている form. Results include forms like {混}んでいった (past) instead of {混}んでいた, and {混}んでいります (polite) instead of {混}んでいます.
@@ -195,6 +203,22 @@ Entry 02617_kondeiru ({混|こ}んでいる, "to be crowded") has a badly wrong 
 **Recommended fix**: Either (a) remove the conjugation table and rely on the notes to explain that this is a ている stative form of {混|こ}む (godan), or (b) manually write a custom conjugation table that treats the いる portion as ichidan rather than godan. Option (a) is simpler and more consistent with how other compound-ている entries are handled. Cross-reference to the base verb {混|こ}む for full conjugation.
 
 **Connection**: This is an edge case for `add_conjugations.py` — the script cannot correctly conjugate entries whose headword is a compound ている form. Similar to the 01300_gozaimasu issue (polite-only verb template).
+
+## 02525_suiteiru (空いている) — Spurious conjugation on a compound-ている expression
+
+**Source**: One-time non-verb conjugation sweep 2026-06-08
+
+Entry 02525_suiteiru ({空|す}いている, "to be empty/uncrowded") is the known sibling of 02617_kondeiru: it had a bogus godan table generated as if it were a `godan-ru` verb (forms like {空}いていらない, {空}いていります, {空}いていった) plus a stray `verb_class: "godan-ru"` tag. It is tagged `pos: ["expression"]`.
+
+**Status (resolved 2026-06-08):** The one-time sweep removed the `conjugation` field and the stray `verb_class` tag (option (a), matching 02617). The base verb {空|す}く (00756_suku) — which carries the real conjugation — is already linked in the notes ("BASE VERB:" section and inline) and the entry has antonym cross-references, so no further linking was needed. The new verb-POS guard in `add_conjugations.py` prevents regeneration.
+
+## 22190_oaisuru (お会いする) — Humble keigo expression stripped; possible re-tag
+
+**Source**: One-time non-verb conjugation sweep 2026-06-08
+
+Entry 22190_oaisuru (お{会|あ}いする, the humble form of {会|あ}う) is tagged `pos: ["expression"]` and had a generated `suru` conjugation table plus a stray `verb_class` tag, both removed by the sweep. Unlike the other 31 swept expressions (multi-word idioms, proverbs, adverbial phrases, and two compound-ている forms), this one is a fixed honorific お〜する construction that *does* inflate like a する verb (お会いします, お会いした). The sweep stripped it (per the prompt's "when unsure, strip and log") rather than re-tagging it `verb-suru`.
+
+**Recommended action (curator):** decide whether お会いする (and any sibling お〜する humble entries) should stay `expression` with the paradigm explained in notes, or be re-tagged `verb-suru` + `verb_class: "suru"` and given a real (correct) conjugation table. The project convention so far treats keigo constructions as expressions, which is why the table was removed rather than regenerated.
 
 ## 03032_doukyuusei (同級生) — Near-duplicate example sentences
 
@@ -325,6 +349,8 @@ Entry 05134_nouhin ({納品|のうひん}, delivery of goods) has semantic tag "
 **Recommended fix**: Replace "communication" with "action" or a logistics-appropriate tag.
 
 ## 05173/05175 — Spurious verb_class and conjugation on mimetic adverbs
+
+**Status (resolved 2026-06-08):** The stray `verb_class` tag and `conjugation` field were removed from both by the one-time non-verb conjugation sweep, and the new exact-enum verb-POS guard in `add_conjugations.py` prevents regeneration.
 
 **Source**: Comprehensive-polish 2026-06-04 session 015
 

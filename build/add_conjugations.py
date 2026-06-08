@@ -220,7 +220,14 @@ def _detect_verb_type(entry: dict) -> tuple:
     verb_class = tags.get('verb_class', '')
     pos_tags = tags.get('pos', [])
 
-    if not any('verb' in p for p in ([pos] + pos_tags)):
+    # Defensive guard: only generate conjugations for entries explicitly tagged
+    # with a verb POS in metadata.tags.pos. The previous check used the substring
+    # 'verb', which matches "adverb" (it contains "verb") and let adverbs with a
+    # stray verb_class tag generate nonsense godan tables. See planning/wiki
+    # tooling-backlog.md item 5 and schema-tag-reliability.md "Runaway automation".
+    VERB_POS_TAGS = {'verb-godan', 'verb-ichidan', 'verb-suru',
+                     'verb-kuru', 'verb-irregular'}
+    if not any(p in VERB_POS_TAGS for p in pos_tags):
         return None, None
 
     # Check for ある specifically
