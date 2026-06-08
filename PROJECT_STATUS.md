@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-07
+**Last updated**: 2026-06-08
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-08 (Maintenance - Spurious Non-Verb Conjugation Cleanup)
+One-time deterministic cleanup (`prompts/fix_spurious_conjugations.md`). Stripped fabricated verb conjugation tables and stray `verb_class` tags from **133 non-verb entries** (101 adverbs/onomatopoeia/noun-adverbs/na-adjectives/nouns/auxiliaries + 32 reviewed expressions — idioms, proverbs, adverbial phrases, and two compound-ている forms). Examples of the nonsense removed: ぐつぐつ (adverb) had `ぐつぐたない`/`ぐつぐちます`; 空いている had `空いていらない`/`空いていった`.
+
+- **Root-cause fix**: replaced the guard in `build/add_conjugations.py` (`if not any('verb' in p ...)`) with an exact-enum verb-POS membership test. The old substring check matched `"adverb"` (it contains "verb"), letting adverbs with a stray `verb_class` tag generate godan tables. `add_adjective_conjugations.py` was already correctly guarded.
+- **New tool**: built `build/prune_nonverb_conjugations.py` (reusable audit/pruner; dry-runs by default, holds back `expression` entries for review).
+- **Verified**: all 28,743 entries valid; re-running both retrofits re-adds nothing; spurious-conjugation and stray-`verb_class` detectors both return 0.
+- **Knowledge base**: resolved Cleanup Backlog P6, Tooling Backlog item 5, the Schema Tag Reliability "defense in depth" note, and five Entry Follow-ups sections; logged 02525_suiteiru (resolved) and a curator follow-up for お会いする (22190). Out-of-scope wrong-class/missing-table cases left open.
 
 ### 2026-06-07 (Vocabulary Expansion - 22 New Entries, Recent Candidates Batch)
 Added 22 new dictionary entries (IDs 28931-28952) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from recent unprocessed candidates favoring concrete everyday vocabulary (citrus varieties, hot-pot dishes, wedding styles, lighting, prefecture). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to 2-3 focused sections.
