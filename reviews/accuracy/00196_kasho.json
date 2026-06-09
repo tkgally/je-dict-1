@@ -1,0 +1,44 @@
+{
+  "entry_id": "00196_kasho",
+  "headword": "{箇所|かしょ}",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T07:43:28Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'number' is incorrect for '箇所'. While it can be used with numbers as a counter, '箇所' itself does not mean 'number'.",
+      "suggestion": "Remove the 'number' tag. Consider adding 'location' or 'spatial' if appropriate."
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "warn",
+      "concern": "The top-level gloss is slightly incomplete as it misses 'section' which is present in the detailed sense gloss.",
+      "suggestion": "Add 'section' to the top-level gloss: 'place; point; part; spot; section'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].explanation",
+      "severity": "warn",
+      "concern": "The explanation states 'Often used as a counter for places or points.' but the headword is also tagged as 'counter'. This redundancy could be streamlined.",
+      "suggestion": "Remove 'Often used as a counter for places or points.' from the explanation, as 'counter' is already a POS tag."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "warn",
+      "concern": "The English translation 'There are three mistakes in the text.' is a natural rendering, but '箇所' specifically refers to 'places' or 'points' where the mistakes are. A more precise translation might reflect this nuance.",
+      "suggestion": "Change to 'There are three places/points with mistakes in the text.' or 'There are three mistaken parts in the text.'"
+    }
+  ]
+}

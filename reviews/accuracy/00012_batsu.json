@@ -1,0 +1,44 @@
+{
+  "entry_id": "00012_batsu",
+  "headword": "×/バツ",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T07:38:29Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The top-level gloss 'wrong' is misleading as it suggests the headword itself means 'wrong' as an adjective, rather than a mark indicating wrongness or the state of being wrong.",
+      "suggestion": "Change 'wrong' to 'wrongness' or 'incorrectness' to better reflect the noun form, or rephrase to 'mark for wrong answers/incorrectness'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and doesn't capture the specific semantic categories of the headword, especially for sense 2 which is colloquial and specific to marital status.",
+      "suggestion": "Add more specific semantic tags. For sense 1, 'symbols', 'education', 'assessment'. For sense 2, 'colloquialisms', 'relationships', 'marital status'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "warn",
+      "concern": "The English translation 'I got three answers wrong on the test' is a natural rendering, but it loses the nuance of 'バツが付いた' which literally means 'three X marks were attached/given'. While the meaning is conveyed, it's not a direct translation of the 'mark' aspect.",
+      "suggestion": "Consider 'I got three X marks on the test' or 'Three answers were marked wrong on the test' to retain the 'mark' aspect, though the current translation is acceptable for naturalness."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[6]",
+      "severity": "warn",
+      "concern": "The translation 'It's marked as unavailable today' is a plausible interpretation but '×になっています' can also simply mean 'it's wrong/incorrect today' or 'it's a no-go today' depending on context. 'Unavailable' might be too specific without further context.",
+      "suggestion": "Consider a more general translation like 'It's a no-go today' or 'It's marked as incorrect/not possible today' to cover broader contexts, or add a note about context dependency."
+    }
+  ]
+}
