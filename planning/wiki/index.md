@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-08 (stats sync to 28,769 entries; deepened `research/example-sentences.md` from ~700 to ~2,800 words — added encoding/decoding distinction (Frankenberg-Garcia), GDEX criteria (Kilgarriff), LLM-generated examples research (Patel 2024, Haider 2024, Takahashi 2025), Japanese-specific considerations, and six actionable implications)
+**Last updated**: 2026-06-09 (stats sync to 28,833 entries; harvested 16 observations from sessions 045/049/050/accuracy-001; extended Cleanup Backlog P11 to 05953; added P17 (formality over-tagging in early entries); filed 3 entry follow-ups; added 3 candidates; updated `topics/schema-tag-reliability.md` with formality and semantic-over-application patterns)
 
 
 ## How this wiki is organized

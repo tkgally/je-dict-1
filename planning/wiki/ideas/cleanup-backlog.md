@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-09
+**Last updated**: 2026-06-09 (P11 extended through 05953; added P17 formality misassignment)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -283,6 +283,11 @@ The confirmed range now extends from the 01490s through at least the 05559. The 
 
 **Update 2026-06-08**: Comprehensive-polish session 037 (entries 05617–05635) surfaced four more wrong-tag instances at the leading edge of the polished range: 懸念 "electronics" (→ emotion/cognition), 端末 "building"/"transportation" (→ technology/general), 促進 "emotion"/"time-general"/"work" (→ action), 七夕 "animal-mammal" (→ culture/event). The confirmed range now extends from the 01490s through at least the 05635, tracking the comprehensive-polish frontier (main progress `next: 05735` as of this session). The signature is unchanged — example-sentence-topic contamination on a single 2026-04-14 claude-opus-4-5 batch — and the case for the Tooling Backlog item 6 tag-validation pass (scoped by that creation signature) only strengthens. Note that the comprehensive-polish frontier has now nearly reached the **upper** bound of the originally-flagged batch; once polishing passes ~05735 the live tag-drift reports should taper, leaving the *un-polished* high-ID ranges (anything from that 2026-04-14 batch sitting above the polish frontier) as the remaining audit surface — an argument for running the batch-signature audit pass rather than waiting for sequential polishing to reach every contaminated entry.
 
+**Update 2026-06-09**: Three comprehensive-polish sessions (sessions 045, 049, 050, entries 05784–05953) confirmed the tag-drift pattern continues through the 05900s:
+- 05784–05804: "electronics" on 風呂敷, "animal-fish" on じめじめ, "food" on こそこそ, "communication+education+tool" on 提灯, "furniture" on 暖簾. The "furniture" and "tool" tags appear loosely applied across the 05500–06000 range.
+- 05891–05915: "electronics" on るんるん, "furniture" on 淡々, "tool" on 刻々, plus a wrong formality "informal" on 仲裁 (corrected to "neutral"). Tag drift continues unabated.
+- 05936–05953: "animal-fish" on じとじと (→ "descriptive"), "animal-insect" on のそのそ (→ ["action", "descriptive"]). These are mimetic adverbs/descriptives — the same sub-pattern seen in the 05349–05373 range. The comprehensive-polish frontier now sits at entry 05954; the contaminated batch signature extends at least this far. **Cross-model accuracy-review (session 001)** independently found semantic misassignment in early entries (00016–00200) — different creation cohort, different failure mode (over-applied domain tags on multi-sense polysemous words), documented under the new Priority 17 (formality) and in [Entry Follow-ups](entry-followups.md).
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)
@@ -342,6 +347,30 @@ Multiple entries have `[Register: Neutral]` or similar `[Register: ...]` strings
 **Detection**: `grep -rc '\[Register: ' entries/ | grep -v ':0$' | wc -l`
 
 **Suggested action**: Remove the `[Register: ...]` trailing lines from notes. Cross-check against the entry's `formality` field to ensure the information isn't lost. Mechanical sweep with validation.
+
+## Priority 17: "formal" formality tag over-applied in early entries
+
+**Source**: Cross-model accuracy-review session 001 (entries 00001–00200), 2026-06-09
+
+The accuracy-review pipeline flagged `formality: "formal"` applied to neutral/everyday words across the early entry range (00016–00200). Words confirmed incorrectly tagged formal include: ボーイ (00016, waiter), 近頃 (00028, recently), 近々 (00029, soon), ドレス (00037, dress), 吹雪 (00040, blizzard), 普段 (00041, usually), 行事 (00078, event), 筆記 (00101, writing), 方々 (00116, various people), 格別 (00154, exceptional), 貸家 (00195, rental house), 各自 (00157, each person). Nine entries were corrected in the accuracy-review session; more are likely in the 00100–00500 range.
+
+The pattern: early batch entry creation defaulted to `"formal"` for any word that was not obviously colloquial — treating "not slang" as equivalent to "formal." The correct value for most of these words is `"neutral"`. This is distinct from the politeness-tag mis-bucketing documented in Priority 7 (which concerns the `politeness` field about keigo system categories, not the `formality` field about register level).
+
+**Scope**: Likely 00001–00500+. The accuracy-review started from entry 1, so the 00001–00200 sub-range is now partially cleaned.
+
+**Detection**:
+```bash
+python3 -c "
+import json, glob
+for p in sorted(glob.glob('entries/0000*/*.json') + glob.glob('entries/0050*/*.json')):
+    d = json.load(open(p))
+    tags = (d.get('metadata') or {}).get('tags', {})
+    if tags.get('formality') == 'formal':
+        print(d['id'], d.get('headword',''), d.get('reading',''), d.get('gloss','')[:40])
+" | head -40
+```
+
+**Suggested action**: Review all `formality: "formal"` entries in the 00001–00500 range and change to `"neutral"` where the word is used in everyday/neutral contexts. Requires semantic judgment, not a mechanical sweep — "formal" is genuinely correct for a small subset (legal terms, bureaucratic vocabulary). The accuracy-review mode is well-suited to this pass, since the cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals.
 
 ## Informational: Pre-polished cohort around 00083–00090
 
