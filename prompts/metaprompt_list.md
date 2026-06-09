@@ -4,6 +4,25 @@ Copy-paste any of these prompts to start a task. Each one tells Claude to read t
 
 ---
 
+## Scheduled Routine (default unattended task)
+
+### Unified improvement Routine — schedule THIS
+```
+Read prompts/routine.md and follow the instructions.
+```
+
+This is the single task to schedule as a Routine (and the default for unattended runs). Each run a deterministic selector picks ONE focus — `polish`, `new-entries`, `accuracy-review`, `wiki`, or (Phase 2) `systemic-fix` — by tunable weights with health nudges, follows that mode's prompt, captures candidates/observations, and merges its own PR. It replaces scheduling comprehensive polish, new-entries, and wiki maintenance separately. Tune the mix in `pipeline/routine-config.json`. Useful checks:
+
+```
+python3 pipeline/routine_next.py --explain      # why the next run would pick a given mode
+python3 pipeline/routine_next.py --simulate 60  # mode distribution over 60 runs
+python3 pipeline/routine_next.py --force-mode polish   # force one mode for manual testing
+```
+
+The prompts below remain runnable manually for targeted work.
+
+---
+
 ## Dictionary Building Tasks
 
 ### Create new entries (from candidates)

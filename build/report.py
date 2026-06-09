@@ -765,6 +765,50 @@ def report_review_coverage(project_root: Path, total_entries: int) -> None:
     print()
 
 
+def report_routine_status(project_root: Path) -> None:
+    """Show what the unified Routine's next run would pick (selector dry-run)."""
+    import json
+    import subprocess
+
+    selector = project_root / "pipeline" / "routine_next.py"
+    state_file = project_root / "pipeline" / "routine-state.json"
+    if not selector.exists():
+        return
+
+    print("UNIFIED ROUTINE")
+    print("-" * 40)
+    try:
+        out = subprocess.run(
+            [sys.executable, str(selector), "--dry-run"],
+            capture_output=True, text=True, timeout=60,
+        )
+        data = json.loads(out.stdout)
+    except (subprocess.SubprocessError, json.JSONDecodeError, ValueError):
+        print("  selector unavailable")
+        print()
+        return
+
+    orr = data.get("openrouter", {})
+    sig = data.get("signals", {})
+    print(f"  Next run would pick:   {data.get('mode'):>6}")
+    print(f"  Reason:                {data.get('reason', '')}")
+    print(f"  OpenRouter today:      ${orr.get('spent_today_usd', 0):.2f} / "
+          f"${orr.get('daily_cap_usd', 0):.2f}  (remaining ${orr.get('remaining_usd', 0):.2f})")
+    print(f"  Open backlog items:    {sig.get('open_backlog_items', 0)}")
+    print(f"  Candidates:            {sig.get('candidate_count', 0)} "
+          f"({sig.get('seen_in_entry_count', 0)} seen-in-entry)")
+
+    try:
+        state = json.loads(state_file.read_text(encoding="utf-8"))
+        tally = state.get("day_tally", {})
+        if tally.get("date"):
+            modes = ", ".join(f"{k}={v}" for k, v in tally.items() if k != "date")
+            print(f"  Today's runs ({tally['date']}): {modes or 'none yet'}")
+    except (FileNotFoundError, json.JSONDecodeError):
+        pass
+    print()
+
+
 def main():
     """Main entry point."""
     script_dir = Path(__file__).parent
@@ -799,6 +843,7 @@ def main():
     report_pos_completeness(entries)
     report_queue_and_agents(project_root)
     report_review_coverage(project_root, len(entries))
+    report_routine_status(project_root)
     report_polishing_progress(project_root)
     report_candidate_health(project_root)
     report_consistency_summary(project_root)

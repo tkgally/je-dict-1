@@ -203,6 +203,21 @@ python3 build/review_runner.py --pass screening --budget 5.00    # Screen with c
 python3 build/review_runner.py --pass deep --range 1 1000        # Pass 2: deep review of flagged
 python3 build/review_runner.py --pass deep                       # Deep review all flagged entries
 
+# Cross-model accuracy review — glosses, example translations, semantic tags (requires OPENROUTER_API_KEY)
+python3 build/review_accuracy.py --range 5800 5900 --budget 1.00  # Review a range (writes reviews/accuracy/)
+python3 build/review_accuracy.py --ids 05907 --dimensions tags --dry-run  # Preview one entry's tag-review prompt
+python3 build/review_accuracy.py --report                         # Summarize accuracy reviews
+
+# Systemic-fix detectors — READ-ONLY review queues for the Routine's systemic-fix mode
+python3 build/check_furigana_format.py --summary   # Malformed furigana wrappers (Cleanup P9/P12)
+python3 build/check_artifacts.py --summary         # [Register:]/{ている}/dup-conjugation/missing target_id (P16/P15/P10/P4/P2)
+python3 build/check_tag_drift.py --summary         # conjugation-no-verb-pos, politeness, sole-general, semantic-mismatch (P6/P7/P13/P11)
+
+# Unified Routine selector
+python3 pipeline/routine_next.py --explain         # Why the next Routine run would pick a given mode
+python3 pipeline/routine_next.py --simulate 60     # Mode distribution over 60 runs
+python3 pipeline/routine_next.py --force-mode polish  # Force a mode (manual testing; no persist)
+
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build
@@ -285,6 +300,9 @@ If `find_missing_furigana.py` shows entries from the current session, fix them b
 
 The `prompts/` directory contains detailed instructions for each type of session task. Start a task by reading the prompt file (e.g., "Read prompts/newentries.md and follow the instructions"). Shell runner scripts in `prompts/batch/` automate tasks for non-interactive `claude --print` execution. `prompts/metaprompt_list.md` is a reference listing all available prompts with usage examples.
 
+**Scheduled Routine (the single unattended driver):**
+- `routine.md` — **the one task to schedule as a Routine.** Each run a deterministic selector (`pipeline/routine_next.py`, weighted rotation + health nudges) picks ONE focus — `polish`, `new-entries`, `accuracy-review` (cross-model furigana review via OpenRouter, $5/day ledger in `pipeline/openrouter-ledger.json`), `wiki`, or (Phase 2) `systemic-fix` — and the Routine follows that mode's existing prompt below, plus always-on candidate/observation capture, then merges its own PR. It **replaces** running comprehensive polish, new-entries, and wiki maintenance as separate scheduled tasks. Tune the mix in `pipeline/routine-config.json`. The individual prompts below remain runnable manually. Design: `enhancement/unified-routine-plan-2026-06-09.md`.
+
 **Dictionary building:**
 - `newentries.md` — create 30 entries from candidate_words.json
 - `newcandidates.md` — find new candidate words to add
@@ -298,7 +316,7 @@ The `prompts/` directory contains detailed instructions for each type of session
 - `fix_duplicate_ids.md` — resolve entries sharing the same 5-digit numeric ID
 
 **Polishing (progress-tracked):**
-- `comprehensive_polish.md` — **DEFAULT scheduled task.** Walks entries one at a time and applies a tiered checklist that unifies all of the targeted polish work below. Up to 5 entries per session. Logs words missing entries to `candidate_words.json` and systemic observations to `polishing/observations.md`. Designed to be run repeatedly on a schedule.
+- `comprehensive_polish.md` — the **`polish` mode** of the unified Routine (and still runnable on its own). Walks entries one at a time and applies a tiered checklist that unifies all of the targeted polish work below. Logs words missing entries to `candidate_words.json` and systemic observations to `polishing/observations.md`. Designed to be run repeatedly on a schedule.
 - `polish_add_inline_links.md` — add ⟦...⟧ cross-reference links to examples/notes (targeted)
 - `polish_example_sentences.md` — check example count, quality, and vocabulary tier compliance (targeted)
 - `polish_furigana_completeness.md` — find and add missing furigana (targeted)
