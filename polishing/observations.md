@@ -30,3 +30,15 @@ _(All observations through 2026-06-09 session 050 and accuracy-review session 00
 ## Session 007 (2026-06-09, entries 05970–05989)
 
 [pattern] Systematic semantic tag errors in the medical cluster (05975–05979: 通院, 処方, 感染, 炎症, 健康診断) and aviation cluster (05981–05982: 離陸, 着陸): tags were clearly wrong (body-part/clothing/furniture/leisure/geography) — AI generation artifacts where the model copied tags from an unrelated entry. Fixed in this session. Pattern suggests the range ~05970–05990 may have more such errors worth a targeted audit with check_tag_drift.py.
+
+## accuracy-review session 002 (2026-06-09, entries 00201–00450)
+
+[pattern] Semantic tag errors found by cross-model review in the low-ID core/basic range 00201–00450. Specific confirmed false tags fixed:
+- 00281 醜い: food/leisure/slang/colloquial tags → emotion/appearance/literary
+- 00299 虫歯: body-part tag → health (虫歯 is a dental condition, not a body part)  
+- 00240 小〜: grammatical tag → size (semantic prefix, not grammatical particle)
+- 00232 記念: "memory" gloss → "memorial" (記念=commemoration/memorial, not mental faculty)
+[pattern] The 'descriptive' semantic tag appears to be applied broadly to many entries in this range where it doesn't fit (謙虚, 懸命, 無限, もしかすると, 自ら). Candidate for systematic review via check_tag_drift.py.
+[pattern] 'formal' formality tag over-applied to neutral words (清い, なお, 年月, 日時, 稀). Many of these should be 'neutral'. See Cleanup Backlog.
+[pattern] 'body-part' semantic tag misapplied to conditions/diseases in early-ID entries (虫歯 fixed; others may exist).
+[wiki] The 'descriptive' tag is problematic — it appears to mean "can describe something" rather than a genuine semantic category. Wiki page on semantic tag standards should address when 'descriptive' is appropriate.
