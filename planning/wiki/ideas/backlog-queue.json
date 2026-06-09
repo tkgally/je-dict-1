@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-09",
+  "updated": "2026-06-09T15:36:00Z",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -13,10 +13,11 @@
       "verify": "per-entry",
       "priority": 1,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 74,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "error",
-      "notes": "The reading covers only part of the surface (e.g. {やり方|かた} should be やりかた). Browsers paint the partial reading over the whole word. Read each entry, confirm the full reading, and rewrap canonically."
+      "resolved_date": "2026-06-09",
+      "notes": "RESOLVED 2026-06-09: Fixed 74 reading-truncated entries (e.g. {やり方|かた}→やり{方|かた}), 9 pure-kana reversed, and 7 nested brace patterns. 130 slash-reading entries remain under the separate furigana-slash-reading item (priority 4)."
     },
     {
       "id": "artifact-teiru-brace",

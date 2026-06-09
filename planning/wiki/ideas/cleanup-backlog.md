@@ -167,6 +167,8 @@ By sub-pattern:
 
 **Highest-severity sub-pattern: 68 entries with truncated readings.** The wrapper includes preceding hiragana on the surface side, but the reading covers only the kanji. Browsers paint the partial reading over the full surface, producing visibly wrong furigana on the live site (e.g., `かた` rendered over the entire `やり方`).
 
+**Update 2026-06-09 (RESOLVED)**: Routine systemic-fix session fixed all 74 reading-truncated entries, 9 pure-kana reversed entries, and 7 nested-brace entries. 0 remain for these sub-patterns. The 130 slash-reading entries ({七|なな/しち} style) remain open under Priority 12.
+
 **Highest-volume sub-pattern: 463 okurigana-inside-wrapper instances.** Most render correctly but are non-standard. Canonical form would be `{若|わか}い` instead of `{若い|わかい}`, etc.
 
 **Confirmed downstream impact**: 01525_wakai (basic-tier 若い) is currently missing its conjugation table on the live site because `add_adjective_conjugations.py` couldn't parse the headword `{若い|わかい}` to extract a stem.
