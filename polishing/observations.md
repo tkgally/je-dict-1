@@ -41,3 +41,9 @@ _(All observations through 2026-06-07 session 042 have been harvested by the wik
 - [entry] 空前絶後 (くうぜんぜつご) — referenced in 05949 cross_references but no entry exists; added as inline noentry link. Should be created as a 4-character yojijukugo entry.
 - [entry] 史上初 (しじょうはつ) — referenced in 05949 notes, no entry exists; added noentry. May warrant a candidate.
 - [entry] 悪事 (あくじ) — referenced in 05948, not in dictionary; added noentry. Common enough to warrant an entry.
+
+## 2026-06-09 — accuracy-review session 001 (entries 00001–00200)
+- [pattern] Formality tag misassignments in entries 00016–00200: "formal" incorrectly applied to neutral/everyday words including ボーイ (00016), 近頃 (00028), 近々 (00029), ドレス (00037), 吹雪 (00040), 普段 (00041), 行事 (00078), 筆記 (00101), 方々 (00116), 格別 (00154), 貸家 (00195), 各自 (00157). Pattern suggests early entry creation defaulted "formal" for any moderately literary word. 9 entries fixed this session; more likely exist throughout 00100–00500 range.
+- [pattern] Semantic tags "leisure", "food", "clothing" over-applied to entries with multiple unrelated senses: ボール (00017) leisure only covered sports senses not bowl; グラス (00076) food didn't cover eyewear; ぼろ (00019) clothing didn't cover flaw/fault sense. Fixed 5 entries by changing to "general".
+- [pattern] Semantic "action" used for stative/adjectival words: 快適 (00140) emotion→descriptive, 乾燥 (00184) has both action+descriptive already. Cross-model review flagged "action" on several intransitive stative verbs; the dictionary's broad use of "action" for all verbs may warrant a systematic review.
+- [pattern] Semantic "greeting" misapplied to words that are primarily apologies/expressions: ごめん (00072). Words with one sense that might function as greetings should be tagged by their primary meaning.

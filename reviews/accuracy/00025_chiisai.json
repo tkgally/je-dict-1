@@ -1,0 +1,23 @@
+{
+  "entry_id": "00025_chiisai",
+  "headword": "{小|ちい}さい",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T07:38:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[6]",
+      "severity": "warn",
+      "concern": "The English translation is a bit unnatural.",
+      "suggestion": "Speak more quietly. / Speak in a quieter voice. (The original 'Speak in a quieter voice' is acceptable, but 'Speak more quietly' is more common and natural.)"
+    }
+  ]
+}
