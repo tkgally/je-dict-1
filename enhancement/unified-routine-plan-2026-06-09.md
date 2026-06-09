@@ -22,6 +22,28 @@ This plan reflects four design decisions confirmed with the curator on
    existing furigana reviewer; build gloss/definition/translation review as a
    fast-follow).
 
+**Refinements confirmed 2026-06-09 (build kickoff):**
+
+- **Prerequisites met** — `OPENROUTER_API_KEY` is present and the environment has
+  full network egress, so `accuracy-review` launches at full weight.
+- **`systemic-fix` is semantic-verification-first** — the Routine opens and
+  confirms each flagged entry before changing it. Purely-mechanical application
+  (transform every match without reading the entry) is reserved for
+  transformations that *provably* cannot introduce an error, and even those are
+  validated and spot-checked. This is deliberate: the project's worst regressions
+  since January 2026 came from overly-ambitious mechanical sweeps, so we err on
+  the side of the semantic verification the curator trusts.
+- **Candidates are topped up manually** by the curator. The Routine **never**
+  auto-routes to candidate discovery; when candidates run low it lowers the
+  `new-entries` weight and logs a `[pattern]` note. It continues always-on
+  "seen in entry" capture (adding words it sees in examples/notes that lack
+  entries).
+- **Cadence**: 6 runs/day to start; the curator tunes scheduling manually and
+  will also run the Routine manually during the initial testing period.
+
+**Phase 1 (this PR) is built** — selector, config/state/ledger, dispatcher
+prompt, and tests. See §10.
+
 ---
 
 ## 1. Why a dispatcher, not a "do-everything" prompt
@@ -263,12 +285,9 @@ This keeps the dictionary's *Claude* session spend (governed separately by
 `pipeline/budget.json`, $50/day, for the orchestrator) cleanly distinct from the
 *OpenRouter* second-opinion spend ($5/day, this ledger).
 
-**Prerequisites to verify before launch** (environment configuration, not code):
-
-- `OPENROUTER_API_KEY` is present in the Routine's execution environment.
-- The environment's **network policy** permits outbound `openrouter.ai`. If the
-  policy is restrictive, `accuracy-review` runs will fail fast — in that case
-  launch with `accuracy-review` weight 0 and revisit once egress is allowed.
+**Launch prerequisites (confirmed met 2026-06-09):** `OPENROUTER_API_KEY` is
+present in the Routine environment and the environment has full network egress to
+`openrouter.ai`, so `accuracy-review` launches at full weight.
 
 ---
 
@@ -295,10 +314,14 @@ from `planning/wiki/ideas/cleanup-backlog.md` and `…/tooling-backlog.md`):
    batch-ready** item not recently touched.
 2. If its detector script doesn't exist yet, build it (the wiki already
    specifies detection rules for each), commit it, and run it.
-3. Fix a **bounded batch** of flagged entries this session — *all* of them if the
-   fix is purely mechanical and validation-checkable (e.g. `{ている}`,
-   `[Register:]`, `するする`); a capped batch (respecting the 60% context rule) if
-   the fix needs per-entry judgment (e.g. tag drift, politeness).
+3. Fix a **bounded, semantically-verified batch** this session: open each
+   flagged entry, confirm the fix is correct *for that specific entry*, then apply
+   it. Cap the batch by the 60%-context rule (so every `systemic-fix` run is
+   sized like semantic work, never an unbounded sweep). **Purely-mechanical
+   application — transforming every match without reading the entry — is reserved
+   for transformations that provably cannot introduce an error**, and even those
+   are validated and spot-checked before commit. When in doubt, verify. (Rationale
+   in the build-kickoff refinements above.)
 4. Update the item's status/scope in `backlog-queue.json` **and** the prose
    backlog page (mark RESOLVED or record remaining scope), so `wiki` mode and the
    curator see live state.
@@ -321,10 +344,10 @@ select deterministically:
 }
 ```
 
-Mechanical items are low-risk, dictionary-wide wins; semantic items become a
-recurring `systemic-fix` target until drained. Either way the wiki's accumulated
-knowledge is converted into measurable site improvements instead of sitting in
-prose.
+Each item is drained over recurring `systemic-fix` runs with per-entry
+verification, converting the wiki's accumulated knowledge into measurable site
+improvements instead of leaving it in prose — without the mechanical-sweep risk
+that has bitten the project before.
 
 **Wiki consultation in every mode** (not just `systemic-fix`): before working a
 range or topic, a run glances at the relevant wiki page(s) — e.g.
@@ -496,22 +519,20 @@ We revisit this only after the curator has run the JA→EN Routine for a while.
 
 ---
 
-## 12. Open questions for the curator (non-blocking)
+## 12. Decisions (resolved 2026-06-09)
 
-These don't block Phase 1; defaults are proposed so the Routine can launch and be
-tuned later by editing `routine-config.json`.
+All three previously-open questions are now decided; each is encoded as a default
+in `routine-config.json` and remains tunable there.
 
-1. **Runs per day**: the plan assumes ~6. Fewer means each run should lean
-   slightly heavier (more entries/range per run); more means lighter runs.
-   `runs_per_day_hint` tunes per-run sizing.
-2. **systemic-fix aggressiveness**: should purely-mechanical, validation-checkable
-   sweeps (e.g. `{ている}`) be allowed to fix **all** flagged entries in one run
-   (potentially a large diff), or stay capped like semantic work? Default:
-   mechanical = uncapped (still one `make build`, still 60% context), semantic =
-   capped.
-3. **new-entries vs. corpus harvesting**: when candidates run low, should the
-   Routine auto-route to candidate discovery (`newcandidates.md` /
-   `corpus_harvesting.md`), or just lower `new-entries` weight and let the
-   curator top up candidates? Default: lower the weight + log a `[pattern]`
-   note; keep discovery a manual/curated step for now.
+1. **Runs per day** — **6** to start. The curator tunes Routine scheduling
+   manually (watching token usage and wall-clock per run) and will run the
+   Routine manually a few times during initial testing. `runs_per_day_hint`
+   informs per-run sizing.
+2. **systemic-fix aggressiveness** — **semantic-verification-first** (see the
+   build-kickoff refinements and §6 step 3). Every run is capped like semantic
+   work; fully-mechanical application only for provably-safe transformations.
+3. **Low-candidate behavior** — **lower the `new-entries` weight and log a
+   `[pattern]` note; never auto-discover.** The curator tops up
+   `candidate_words.json` manually. Always-on "seen in entry" capture continues
+   regardless of mode.
 ```
