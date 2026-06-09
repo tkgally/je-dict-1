@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05965_kikyaku_ex1",
-      "japanese": "{訴|うった}えは{棄却|ききゃく}された。",
+      "japanese": "⟦{訴|うった}え→訴え：14187_uttae⟧⟦は→は：00079_ha⟧{棄却|ききゃく}⟦された→する：00392_suru⟧。",
       "english": "The lawsuit was dismissed.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05965_kikyaku_ex2",
-      "japanese": "{控訴|こうそ}が{棄却|ききゃく}されたため、{判決|はんけつ}が{確定|かくてい}した。",
+      "japanese": "⟦{控訴|こうそ}→控訴：05966_kouso⟧⟦が→が：00051_ga⟧{棄却|ききゃく}⟦された→する：00392_suru⟧⟦ため→ため：01145_tame⟧、⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{確定|かくてい}→確定：13707_kakutei⟧⟦した→する：00392_suru⟧。",
       "english": "Since the appeal was dismissed, the verdict was finalized.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05965_kikyaku_ex3",
-      "japanese": "{裁判所|さいばんしょ}は{原告|げんこく}の{請求|せいきゅう}を{棄却|ききゃく}した。",
+      "japanese": "⟦{裁判所|さいばんしょ}→裁判所：09665_saibansho⟧⟦は→は：00079_ha⟧⟦{原告|げんこく}→原告：11085_genkoku⟧⟦の→の：09472_no⟧⟦{請求|せいきゅう}→請求：03374_seikyuu⟧⟦を→を：00422_wo⟧{棄却|ききゃく}⟦した→する：00392_suru⟧。",
       "english": "The court dismissed the plaintiff's claim.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "LEGAL CONTEXT:\n{棄却|ききゃく} is used when a court rejects a case or appeal without ruling on its merits, often due to:\n- Lack of standing\n- Procedural errors\n- Insufficient evidence\n- Missed deadlines\n\nRELATED TERMS:\n- {却下|きゃっか}: rejection (administrative; not reaching trial)\n- {控訴|こうそ}: appeal (to higher court)\n- {上訴|じょうそ}: appeal (general term)\n\nDIFFERENCE FROM {却下|きゃっか}:\n- {棄却|ききゃく}: Court examined but rejected the claim\n- {却下|きゃっか}: Rejected without examination (procedural)",
+  "notes": "LEGAL CONTEXT:\n{棄却|ききゃく} is used when a court rejects a case or appeal without ruling on its merits, often due to:\n- Lack of standing\n- Procedural errors\n- Insufficient evidence\n- Missed deadlines\n\nRELATED TERMS:\n- ⟦{却下|きゃっか}→却下：05908_kyakka⟧: rejection (administrative; not reaching trial)\n- ⟦{控訴|こうそ}→控訴：05966_kouso⟧: appeal (to higher court)\n- ⟦{上訴|じょうそ}→上訴：05967_jouso⟧: appeal (general term)\n\nDIFFERENCE FROM ⟦{却下|きゃっか}→却下：05908_kyakka⟧:\n- {棄却|ききゃく}: Court examined but rejected the claim\n- ⟦{却下|きゃっか}→却下：05908_kyakka⟧: Rejected without examination (procedural)",
   "cross_references": [
     {
       "type": "related",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:29:19Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-06-09T13:10:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -166,8 +166,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "clothing",
-        "education"
+        "general"
       ],
       "verb_class": "suru"
     }
