@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-08
+**Last updated**: 2026-06-09
 
 ## Overview
 
@@ -109,6 +109,10 @@ Some tags were plausible at creation but became wrong as the entry evolved (or w
 **Stale verb_class tags after POS clarification.** The onomatopoeia conjugation case (above) is essentially this: at some point the entries had a verb_class tag that survived a later POS reclassification.
 
 **Domain tags that overstate specificity.** A handful of entries carry domain tags that are technically correct but mislead — e.g., a general action verb domain-tagged with a narrow specialty because one of its example sentences happens to use specialty vocabulary.
+
+**Formality "formal" over-applied in early entries (new finding, 2026-06-09).** The cross-model accuracy-review pipeline (session 001, entries 00001–00200) independently surfaced a systematic formality-tag error in the earliest creation cohort: `formality: "formal"` applied to neutral/everyday words including 近頃 (recently), ドレス (dress), 吹雪 (blizzard), 普段 (usually), 行事 (event). Nine entries were corrected; the pattern likely extends through the 00100–00500 range. The failure mode: early batch creation defaulted to `"formal"` for any word that was not obviously slang or colloquial — treating "not informal" as equivalent to "formal." For the `formality` field (which has three values: `informal`, `neutral`, `formal`) this is a systematic third-bucket over-assignment. The correct label for general-register vocabulary is `"neutral"`. This is distinct from the politeness-tag mis-bucketing in the "Categorical compression" section above (which concerns the `politeness` field's inability to represent uchi/soto, bikago, and familiar suffixes). Both the `politeness` and `formality` fields suffer from over-assignment in the high-status direction, but for different reasons and in different cohorts. See [Cleanup Backlog](../ideas/cleanup-backlog.md) → Priority 17 for the actionable cleanup plan.
+
+**Semantic over-application on polysemous entries.** A related stale-label pattern, also surfaced by the accuracy-review in the 00001–00200 range: entries covering multiple unrelated senses carry a domain tag that is correct for one sense but wrong for the others. Examples: ボール (00017) was tagged `semantic: ["leisure"]` (correct for the ball sense), but the entry also covers a bowl sense — leisure has nothing to do with bowls. グラス (00076) was tagged `semantic: ["food"]` for its drinking-glass sense, ignoring the eyewear sense. This is a structural limitation: the current schema applies semantic tags at the entry level, not the sense level. Well-handled polysemous entries use `semantic: ["general"]` when no single domain covers all senses. The fix is per-entry semantic review rather than a mechanical sweep.
 
 The general pattern is that tags are **write-rarely, read-often**. Once written, they participate in every downstream lookup. The dictionary lacks a systematic re-check pass: there is no tool that compares an entry's current notes/glosses/examples against its tags and flags inconsistencies.
 

@@ -2,6 +2,30 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-09] maintenance | Observation harvest (16 items), stats sync, schema-tag-reliability update
+
+**Session type**: Unified Routine — `wiki` mode (highest scheduler debt; 16 unharvested observations)
+
+**Pre-flight**: Ran `pipeline/sweep-stranded-prs.py` — 0 open PRs, nothing stranded. Routine lock held stale by dead process (PID 4257, no open PRs on holding branch); acquired with `--force`.
+
+**Selector reason**: "wiki: highest scheduler debt among eligible modes"
+
+**Activities**:
+- [F/Harvest] Processed all 16 unprocessed observation items from `polishing/observations.md` — spanning sessions 045 (entries 05784–05804), 049 (entries 05891–05915), 050 (entries 05936–05953), and accuracy-review session 001 (entries 00001–00200):
+  - `[pattern]` Sessions 045/049/050: semantic tag drift continues through 05953. Updated Cleanup Backlog P11 with range extension through 05953 and three specific session updates.
+  - `[pattern]` Accuracy-review session 001: `formality: "formal"` systematically over-applied to neutral/everyday words in early entries (ボーイ, 近頃, ドレス, 普段, etc.). Created new **Cleanup Backlog P17** for this pattern.
+  - `[pattern]` Accuracy-review session 001: semantic tags over-applied to polysemous entries (domain tag correct for one sense, wrong for others). Added as a new subsection to `topics/schema-tag-reliability.md`.
+  - `[entry]` 05747_kirisuteru body-part tag → action: filed to Entry Follow-ups.
+  - `[entry]` 08116_rokku missing lock/locking sense: filed to Entry Follow-ups.
+  - `[entry]` 空前絶後 (missing yojijukugo entry): filed to Entry Follow-ups; added as candidate C21844.
+  - `[entry]` 史上初 (no entry): added as candidate C21845.
+  - `[entry]` 悪事 (no entry): added as candidate C21846.
+  - Cleared all harvested content from `polishing/observations.md`.
+- [A] Stats sync to 28,833 entries (from 28,769). Updated `project/overview.md`, `project/vocabulary-tiers.md`, `topics/enhancement-plan-retrospective.md`, `topics/cross-references.md`, `research/sense-relations-semantic-networks.md`. New numbers: 28,833 entries; 26,050 general; 16,343 cross-references; 113,542 examples; 41.3% symmetry; 7,820 asymmetric refs; 1,462 candidates; 6,032 entries with inline links (20.9%).
+- [F] Updated `topics/schema-tag-reliability.md` with two new "Stale auto-labels" subsections: (1) formality "formal" over-applied in early entries (new P17 pattern from accuracy-review); (2) semantic over-application on polysemous entries (entry-level tags can't serve all senses). Updated "Last updated" dates on all modified pages and `index.md`.
+
+**Next cursor**: observations.md cleared through session 050 and accuracy-review session 001.
+
 ## [2026-06-08] maintenance | Stats sync, deepened example-sentences research page
 
 **Session type**: Nightly maintenance

@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-08
+**Last updated**: 2026-06-09
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -409,6 +409,30 @@ Entry 05501_shashinka ({写真家|しゃしんか}) notes contain `⟦カメラ�
 **Source**: Comprehensive-polish 2026-06-07 session 037
 
 Entry 05629 has ex2 and ex3 as near-duplicates — both illustrate "understanding the 主旨 of a document." One should be rewritten to show 主旨 in a different context (e.g., the gist of a speech or proposal, the main point of an argument, restating a meeting's purpose). Maintain progressive length.
+
+## 05747_kirisuteru (切り捨てる) — Wrong semantic tag "body-part"
+
+**Source**: Comprehensive-polish sessions 2026-06-08 (sessions 045 and pre-session standalone)
+
+Entry 05747_kirisuteru ({切|き}り{捨|す}てる, "to cut down/discard/round down") carries `semantic: ["body-part"]` — incorrect. The word means to lop off, discard, or abandon, and in math contexts to round down. None of these senses relate to body parts.
+
+**Recommended fix**: Replace `"body-part"` with `"action"` (or remove if the entry already has a more appropriate semantic tag). Standard P11 pattern — wrong tag from a 2026-04-14 batch run.
+
+## 08116_rokku (ロック) — Missing lock/locking sense
+
+**Source**: Comprehensive-polish session 049 (entries 05891–05915), 2026-06-08
+
+Entry 08116_rokku (ロック) currently covers only the rock music sense. A lock/locking sense (as in a door lock, phone screen lock, social media account lock) is missing. These senses are frequent in everyday Japanese (鍵をロックする, スマホがロックされた, アカウントがロックされた).
+
+**Recommended fix**: Expand 08116 to include a second sense covering the lock/locking meaning, with examples across door locks, digital locks, and account locks. This is distinct from the rock-music sense and from any existing 錠前 (jōmae) lock entry, since ロック specifically marks the loanword usage.
+
+## 空前絶後 (くうぜんぜつご) — Missing yojijukugo entry
+
+**Source**: Comprehensive-polish session 050 (entries 05936–05953), 2026-06-09
+
+The four-character compound 空前絶後 (unprecedented and never to be repeated) was referenced in the cross_references field of entry 05949. No entry exists; a noentry inline link was added.
+
+**Recommended fix**: Create an entry for 空前絶後 as a yojijukugo expression. It appears in formal writing and news media to describe historic firsts or unprecedented events. Added as candidate C21844.
 
 ## Related pages
 
