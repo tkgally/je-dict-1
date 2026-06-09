@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05959_omikuji_ex1",
-      "japanese": "{初詣|はつもうで}で{御神籤|おみくじ}を{引|ひ}いた。",
+      "japanese": "⟦{初詣|はつもうで}→初詣：05804_hatsumoude⟧⟦で→で：00502_de⟧{御神籤|おみくじ}⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧。",
       "english": "I drew an omikuji fortune during my New Year's shrine visit.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05959_omikuji_ex2",
-      "japanese": "{御神籤|おみくじ}は{大吉|だいきち}だった。",
+      "japanese": "{御神籤|おみくじ}⟦は→は：00079_ha⟧⟦{大吉|だいきち}→大吉：19336_daikichi⟧⟦だった→だ：09496_da⟧。",
       "english": "My fortune was 'great blessing.'",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05959_omikuji_ex3",
-      "japanese": "{凶|きょう}の{御神籤|おみくじ}は{木|き}に{結|むす}んで{帰|かえ}る。",
+      "japanese": "⟦{凶|きょう}→凶：19345_kyou⟧⟦の→の：09472_no⟧{御神籤|おみくじ}⟦は→は：00079_ha⟧⟦{木|き}→木：00524_ki⟧⟦に→に：00314_ni⟧⟦{結|むす}んで→結ぶ：02308_musubu⟧⟦{帰|かえ}る→帰る：00508_kaeru⟧。",
       "english": "You tie a bad fortune to a tree before leaving.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORTUNE RANKINGS (best to worst):\n- {大吉|だいきち}: Great blessing\n- {中吉|ちゅうきち}: Middle blessing\n- {小吉|しょうきち}: Small blessing\n- {吉|きち}: Blessing\n- {末吉|すえきち}: Future blessing\n- {凶|きょう}: Bad luck\n- {大凶|だいきょう}: Great bad luck\n\nCATEGORIES:\nOMIKUJI typically include predictions for:\n- {願事|ねがいごと}: Wishes\n- {待人|まちびと}: Person you're waiting for\n- {失|うせ}せ{物|もの}: Lost items\n- {旅行|りょこう}: Travel\n- {商売|しょうばい}: Business\n- {学問|がくもん}: Studies\n- {恋愛|れんあい}: Romance\n\nCUSTOM:\n- Good fortunes: Keep or tie to a tree\n- Bad fortunes: Tie to a tree to leave the bad luck behind",
+  "notes": "FORTUNE RANKINGS (best to worst):\n- ⟦{大吉|だいきち}→大吉：19336_daikichi⟧: Great blessing\n- ⟦{中吉|ちゅうきち}→中吉：noentry⟧: Middle blessing\n- ⟦{小吉|しょうきち}→小吉：noentry⟧: Small blessing\n- ⟦{吉|きち}→吉：19344_kichi⟧: Blessing\n- ⟦{末吉|すえきち}→末吉：noentry⟧: Future blessing\n- ⟦{凶|きょう}→凶：19345_kyou⟧: Bad luck\n- ⟦{大凶|だいきょう}→大凶：25063_daikyou⟧: Great bad luck\n\nCATEGORIES:\nOMIKUJI typically include predictions for:\n- ⟦{願事|ねがいごと}→願い事：14621_negaigoto⟧: Wishes\n- ⟦{待人|まちびと}→待人：noentry⟧: Person you're waiting for\n- ⟦{失|うせ}せ{物|もの}→失せ物：23031_usemono⟧: Lost items\n- ⟦{旅行|りょこう}→旅行：00748_ryokou⟧: Travel\n- ⟦{商売|しょうばい}→商売：03239_shoubai⟧: Business\n- ⟦{学問|がくもん}→学問：02604_gakumon⟧: Studies\n- ⟦{恋愛|れんあい}→恋愛：12634_renai⟧: Romance\n\nCUSTOM:\n- Good fortunes: Keep or tie to a tree\n- Bad fortunes: Tie to a tree to leave the bad luck behind",
   "cross_references": [
     {
       "type": "related",
@@ -62,21 +62,18 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:26:22Z",
-    "modified": "2026-01-19T12:17:44.079878Z",
+    "modified": "2026-06-09T13:00:17Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "domain": [
-        "business"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "communication",
-        "education"
+        "religion",
+        "culture"
       ]
     }
   }

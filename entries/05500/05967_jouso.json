@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05967_jouso_ex1",
-      "japanese": "{被告人|ひこくにん}は{上訴|じょうそ}する{権利|けんり}がある。",
+      "japanese": "⟦{被告人|ひこくにん}→被告人：20130_hikokunin⟧⟦は→は：00079_ha⟧{上訴|じょうそ}⟦する→する：00392_suru⟧⟦{権利|けんり}→権利：02711_kenri⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "The defendant has the right to appeal.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05967_jouso_ex2",
-      "japanese": "{上訴|じょうそ}{期間|きかん}が{過|す}ぎると{判決|はんけつ}が{確定|かくてい}する。",
+      "japanese": "{上訴|じょうそ}⟦{期間|きかん}→期間：00229_kikan⟧⟦が→が：00051_ga⟧⟦{過|す}ぎると→過ぎる：01219_sugiru⟧⟦{判決|はんけつ}→判決：05906_hanketsu⟧⟦が→が：00051_ga⟧⟦{確定|かくてい}→確定：13707_kakutei⟧⟦する→する：00392_suru⟧。",
       "english": "Once the appeal period passes, the verdict is finalized.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05967_jouso_ex3",
-      "japanese": "{上訴|じょうそ}を{断念|だんねん}した。",
+      "japanese": "{上訴|じょうそ}⟦を→を：00422_wo⟧⟦{断念|だんねん}→断念：18938_dannen⟧⟦した→する：00392_suru⟧。",
       "english": "They gave up on appealing.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "TYPES OF APPEAL IN JAPAN:\n{上訴|じょうそ} is the general term encompassing:\n- {控訴|こうそ}: Appeal to High Court (from District Court)\n- {上告|じょうこく}: Appeal to Supreme Court (from High Court)\n- {抗告|こうこく}: Appeal against court decisions/rulings\n\nRELATED TERMS:\n- {上訴権|じょうそけん}: right to appeal\n- {上訴期間|じょうそきかん}: appeal period\n- {上訴審|じょうそしん}: appellate court\n\nLEGAL PROCESS:\n{地裁|ちさい} → {控訴|こうそ} → {高裁|こうさい} → {上告|じょうこく} → {最高裁|さいこうさい}",
+  "notes": "TYPES OF APPEAL IN JAPAN:\n{上訴|じょうそ} is the general term encompassing:\n- ⟦{控訴|こうそ}→控訴：05966_kouso⟧: Appeal to High Court (from District Court)\n- ⟦{上告|じょうこく}→上告：14864_joukoku⟧: Appeal to Supreme Court (from High Court)\n- ⟦{抗告|こうこく}→抗告：noentry⟧: Appeal against court decisions/rulings\n\nRELATED TERMS:\n- ⟦{上訴権|じょうそけん}→上訴権：noentry⟧: right to appeal\n- ⟦{上訴期間|じょうそきかん}→上訴期間：noentry⟧: appeal period\n- ⟦{上訴審|じょうそしん}→上訴審：noentry⟧: appellate court\n\nLEGAL PROCESS:\n⟦{地裁|ちさい}→地裁：noentry⟧ → ⟦{控訴|こうそ}→控訴：05966_kouso⟧ → ⟦{高裁|こうさい}→高裁：noentry⟧ → ⟦{上告|じょうこく}→上告：14864_joukoku⟧ → ⟦{最高裁|さいこうさい}→最高裁：noentry⟧",
   "cross_references": [
     {
       "type": "related",
@@ -145,7 +145,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:29:19Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-06-09T13:14:52Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -159,7 +159,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics"
+        "general"
       ],
       "verb_class": "suru"
     }

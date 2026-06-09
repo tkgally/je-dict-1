@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05956_torii_ex1",
-      "japanese": "{赤|あか}い{鳥居|とりい}が{山道|さんどう}に{並|なら}んでいた。",
+      "japanese": "⟦{赤|あか}い→赤い：00585_akai⟧{鳥居|とりい}⟦が→が：00051_ga⟧⟦{参道|さんどう}→参道：11980_sandou⟧⟦に→に：00314_ni⟧⟦{並|なら}んでいた→並ぶ：00605_narabu⟧。",
       "english": "Red torii gates lined the mountain path.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05956_torii_ex2",
-      "japanese": "{鳥居|とりい}をくぐる{前|まえ}に{一礼|いちれい}するのが{礼儀|れいぎ}だ。",
+      "japanese": "{鳥居|とりい}⟦を→を：00422_wo⟧⟦くぐる→くぐる：10314_kuguru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧⟦{一礼|いちれい}→一礼：15889_ichirei⟧⟦する→する：00392_suru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧⟦{礼儀|れいぎ}→礼儀：03780_reigi⟧⟦だ→だ：09496_da⟧。",
       "english": "It's proper etiquette to bow before passing through a torii.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05956_torii_ex3",
-      "japanese": "{伏見稲荷|ふしみいなり}の{千本鳥居|せんぼんとりい}は{有名|ゆうめい}だ。",
+      "japanese": "⟦{伏見稲荷|ふしみいなり}→伏見稲荷：noentry⟧⟦の→の：09472_no⟧⟦{千本鳥居|せんぼんとりい}→千本鳥居：noentry⟧⟦は→は：00079_ha⟧⟦{有名|ゆうめい}→有名：01106_yuumei⟧⟦だ→だ：09496_da⟧。",
       "english": "The thousand torii gates at Fushimi Inari are famous.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "SYMBOLISM:\nThe {鳥居|とりい} marks the boundary between the sacred (shrine) and profane (everyday world). Passing through it purifies visitors.\n\nETYMOLOGY:\nLiterally \"bird perch\" ({鳥|とり} bird + {居|い} perch), though the exact origin is debated.\n\nCOLORS:\n- {朱色|しゅいろ} (vermilion): Most common, especially at Inari shrines\n- {白|しろ} (white): Plain or weathered wood\n- {黒|くろ} (black): Some regional variations\n\nFAMOUS EXAMPLES:\n- {伏見稲荷大社|ふしみいなりたいしゃ}: Thousands of vermilion torii\n- {厳島神社|いつくしまじんじゃ}: Floating torii in the sea\n\nETIQUETTE:\n- Bow slightly before entering\n- Walk on the sides, not the center (reserved for gods)",
+  "notes": "SYMBOLISM:\nThe {鳥居|とりい} marks the boundary between the sacred (shrine) and profane (everyday world). Passing through it purifies visitors.\n\nETYMOLOGY:\nLiterally \"bird perch\" (⟦{鳥|とり}→鳥：00679_tori⟧ bird + ⟦{居|い}→居：noentry⟧ perch), though the exact origin is debated.\n\nCOLORS:\n- ⟦{朱色|しゅいろ}→朱色：20098_shuiro⟧ (vermilion): Most common, especially at Inari shrines\n- ⟦{白|しろ}→白：13854_shiro⟧ (white): Plain or weathered wood\n- ⟦{黒|くろ}→黒：02205_kuro⟧ (black): Some regional variations\n\nFAMOUS EXAMPLES:\n- ⟦{伏見稲荷大社|ふしみいなりたいしゃ}→伏見稲荷大社：noentry⟧: Thousands of vermilion torii\n- ⟦{厳島神社|いつくしまじんじゃ}→厳島神社：noentry⟧: Floating torii in the sea\n\nETIQUETTE:\n- Bow slightly before entering\n- Walk on the sides, not the center (reserved for gods)",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:26:22Z",
-    "modified": "2026-01-19T12:17:44.077541Z",
+    "modified": "2026-06-09T12:55:13Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +65,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "religion",
+        "culture"
       ]
     }
   }
