@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "05979_kenkoushindan_ex1",
-      "japanese": "{年|ねん}に{一度|いちど}{健康診断|けんこうしんだん}を{受|う}けている。",
+      "japanese": "⟦{年|ねん}→年：09876_nen⟧⟦に→に：00314_ni⟧⟦{一度|いちど}→一度：01312_ichido⟧{健康診断|けんこうしんだん}⟦を→を：00422_wo⟧⟦{受|う}けている→受ける：01215_ukeru⟧。",
       "english": "I get a health checkup once a year.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "05979_kenkoushindan_ex2",
-      "japanese": "{健康診断|けんこうしんだん}で{異常|いじょう}が{見|み}つかった。",
+      "japanese": "{健康診断|けんこうしんだん}⟦で→で：00502_de⟧⟦{異常|いじょう}→異常：01716_ijou⟧⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧。",
       "english": "An abnormality was found in my health checkup.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "05979_kenkoushindan_ex3",
-      "japanese": "{会社|かいしゃ}の{健康診断|けんこうしんだん}は{来週|らいしゅう}だ。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦の→の：09472_no⟧{健康診断|けんこうしんだん}⟦は→は：00079_ha⟧⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦だ→だ：09496_da⟧。",
       "english": "The company health checkup is next week.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "JAPANESE HEALTHCARE SYSTEM:\nIn Japan, annual {健康診断|けんこうしんだん} is mandatory for:\n- Employees (required by employers)\n- Students (school health checkups)\n- Adults over 40 ({特定健診|とくていけんしん})\n\nABBREVIATIONS:\n- {健診|けんしん}: shortened form\n- {人間ドック|にんげんどっく}: comprehensive health checkup\n\nTYPICAL TESTS:\n- {身長|しんちょう}・{体重|たいじゅう}: height and weight\n- {血圧|けつあつ}: blood pressure\n- {血液検査|けつえきけんさ}: blood test\n- {尿検査|にょうけんさ}: urine test\n- {視力|しりょく}・{聴力|ちょうりょく}: vision and hearing\n- {胸部|きょうぶ}レントゲン: chest X-ray",
+  "notes": "JAPANESE HEALTHCARE SYSTEM:\nIn Japan, annual {健康診断|けんこうしんだん} is mandatory for:\n- Employees (required by employers)\n- Students (school health checkups)\n- Adults over 40 (⟦{特定健診|とくていけんしん}→特定健診：noentry⟧)\n\nABBREVIATIONS:\n- ⟦{健診|けんしん}→健診：07679_kenshin⟧: shortened form\n- ⟦{人間ドック|にんげんどっく}→人間ドック：23310_ningendokku⟧: comprehensive health checkup\n\nTYPICAL TESTS:\n- ⟦{身長|しんちょう}→身長：03263_shinchou⟧・⟦{体重|たいじゅう}→体重：03395_taijuu⟧: height and weight\n- ⟦{血圧|けつあつ}→血圧：00218_ketsuatsu⟧: blood pressure\n- ⟦{血液検査|けつえきけんさ}→血液検査：23299_ketsuekikensa⟧: blood test\n- ⟦{尿検査|にょうけんさ}→尿検査：noentry⟧: urine test\n- ⟦{視力|しりょく}→視力：05033_shiryoku⟧・⟦{聴力|ちょうりょく}→聴力：05034_chouryoku⟧: vision and hearing\n- ⟦{胸部|きょうぶ}→胸部：27436_kyoubu⟧⟦レントゲン→レントゲン：11219_rentogen⟧: chest X-ray",
   "cross_references": [
     {
       "type": "related",
@@ -55,7 +55,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:32:04Z",
-    "modified": "2026-01-19T12:17:44.094539Z",
+    "modified": "2026-06-09T19:48:27Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,8 +65,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "body-part",
-        "geography"
+        "action"
       ]
     }
   }

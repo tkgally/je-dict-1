@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "05981_ririku_ex1",
-      "japanese": "{飛行機|ひこうき}が{離陸|りりく}する。",
+      "japanese": "⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧⟦が→が：00051_ga⟧{離陸|りりく}する。",
       "english": "The airplane takes off.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "05981_ririku_ex2",
-      "japanese": "{離陸|りりく}{時|じ}にはシートベルトを{締|し}めてください。",
+      "japanese": "{離陸|りりく}⟦{時|じ}→時：noentry⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦シートベルト→シートベルト：noentry⟧⟦を→を：00422_wo⟧⟦{締|し}めて→締める：10057_shimeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please fasten your seatbelt during takeoff.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "05981_ririku_ex3",
-      "japanese": "{悪天候|あくてんこう}で{離陸|りりく}が{遅|おく}れた。",
+      "japanese": "⟦{悪天候|あくてんこう}→悪天候：16184_akutenkou⟧⟦で→で：00502_de⟧{離陸|りりく}⟦が→が：00051_ga⟧⟦{遅|おく}れた→遅れる：00741_okureru⟧。",
       "english": "Takeoff was delayed due to bad weather.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "COMPONENTS:\n{離|り} (leave; separate) + {陸|りく} (land)\nLiterally: \"leaving the land\"\n\nFLIGHT PHASES:\n1. {離陸|りりく}: takeoff\n2. {上昇|じょうしょう}: climb\n3. {巡航|じゅんこう}: cruise\n4. {降下|こうか}: descent\n5. {着陸|ちゃくりく}: landing\n\nRELATED TERMS:\n- {離陸速度|りりくそくど}: takeoff speed\n- {離陸重量|りりくじゅうりょう}: takeoff weight\n- {垂直離陸|すいちょくりりく}: vertical takeoff\n\nANNOUNCEMENTS:\nAirline announcements: 「まもなく{離陸|りりく}いたします」(We will be taking off shortly)",
+  "notes": "COMPONENTS:\n{離|り} (leave; separate) + {陸|りく} (land)\nLiterally: \"leaving the land\"\n\nFLIGHT PHASES:\n1. {離陸|りりく}: takeoff\n2. ⟦{上昇|じょうしょう}→上昇：11296_joushou⟧: climb\n3. ⟦{巡航|じゅんこう}→巡航：noentry⟧: cruise\n4. ⟦{降下|こうか}→降下：noentry⟧: descent\n5. ⟦{着陸|ちゃくりく}→着陸：05982_chakuriku⟧: landing\n\nRELATED TERMS:\n- ⟦{離陸速度|りりくそくど}→離陸速度：noentry⟧: takeoff speed\n- ⟦{離陸重量|りりくじゅうりょう}→離陸重量：noentry⟧: takeoff weight\n- ⟦{垂直|すいちょく}→垂直：05446_suichoku⟧{離陸|りりく} (垂直離陸): vertical takeoff\n\nANNOUNCEMENTS:\nAirline announcements: 「⟦まもなく→まもなく：02491_mamonaku⟧{離陸|りりく}⟦いたします→いたす：01314_itasu⟧」(We will be taking off shortly)",
   "cross_references": [
     {
       "type": "antonym",
@@ -152,7 +152,7 @@
   ],
   "metadata": {
     "created": "2026-01-16T17:33:22Z",
-    "modified": "2026-03-29T03:04:32Z",
+    "modified": "2026-06-09T19:51:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -163,7 +163,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "leisure"
+        "action"
       ],
       "verb_class": "suru"
     }
