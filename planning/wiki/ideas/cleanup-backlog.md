@@ -1,8 +1,10 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-08
+**Last updated**: 2026-06-09
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
+
+**As of 2026-06-09**, the batch-addressable items here are also indexed in machine-readable form at [`backlog-queue.json`](backlog-queue.json), which the unified Routine's `systemic-fix` mode (`prompts/routine.md` §B) drains one bounded, per-entry-verified batch at a time. Read-only detectors back the queue: `build/check_furigana_format.py` (P9, P12), `build/check_artifacts.py` (P16, P15, P10, P4, P2), and `build/check_tag_drift.py` (P6, P7, P13; P11 detector experimental). Keep `backlog-queue.json` in sync with this page during wiki maintenance.
 
 ## Priority 1: Unlinked notes in older entries
 

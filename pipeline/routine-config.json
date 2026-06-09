@@ -1,7 +1,7 @@
 {
-  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine.md). Edit weights, nudges, and openrouter caps here. 'enabled_modes' controls which modes the selector may pick; 'systemic-fix' is enabled in Phase 2. See enhancement/unified-routine-plan-2026-06-09.md.",
+  "_doc": "Tuning knobs for the unified improvement Routine (prompts/routine.md). Edit weights, nudges, and openrouter caps here. 'enabled_modes' controls which modes the selector may pick. systemic-fix self-suppresses when planning/wiki/ideas/backlog-queue.json has no open batch-ready item. See enhancement/unified-routine-plan-2026-06-09.md.",
   "runs_per_day_hint": 6,
-  "enabled_modes": ["polish", "accuracy-review", "new-entries", "wiki"],
+  "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"],
   "weights": {
     "polish": 0.35,
     "systemic-fix": 0.10,

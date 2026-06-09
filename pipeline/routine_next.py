@@ -45,12 +45,13 @@ OBSERVATIONS_FILE = PROJECT_ROOT / "polishing" / "observations.md"
 COMPREHENSIVE_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "comprehensive" / "progress.txt"
 XMODEL_PROGRESS = PROJECT_ROOT / "polishing" / "tasks" / "cross-model-review" / "progress.txt"
 REVIEWS_DIR = PROJECT_ROOT / "reviews"
+BACKLOG_QUEUE = PROJECT_ROOT / "planning" / "wiki" / "ideas" / "backlog-queue.json"
 
 ALL_MODES = ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"]
 
 DEFAULT_CONFIG = {
     "runs_per_day_hint": 6,
-    "enabled_modes": ["polish", "accuracy-review", "new-entries", "wiki"],
+    "enabled_modes": ["polish", "systemic-fix", "accuracy-review", "new-entries", "wiki"],
     "weights": {
         "polish": 0.35,
         "systemic-fix": 0.10,
@@ -132,6 +133,19 @@ def parse_next(path):
     return int(m.group(1)) if m else None
 
 
+def load_backlog_queue():
+    return load_json(BACKLOG_QUEUE, {"items": []})
+
+
+def select_backlog_item(queue):
+    """Return the highest-priority open, batch-ready backlog item, or None."""
+    items = [it for it in queue.get("items", [])
+             if it.get("status") == "open" and it.get("batch_ready")]
+    if not items:
+        return None
+    return sorted(items, key=lambda it: it.get("priority", 9999))[0]
+
+
 # --------------------------------------------------------------------------- #
 # Health signals (all cheap, read from files already on disk)
 # --------------------------------------------------------------------------- #
@@ -164,6 +178,10 @@ def compute_signals():
 
     reviewed = len(glob.glob(str(REVIEWS_DIR / "*.json")))
 
+    queue = load_backlog_queue()
+    open_backlog = sum(1 for it in queue.get("items", [])
+                       if it.get("status") == "open" and it.get("batch_ready"))
+
     return {
         "candidate_count": candidate_count,
         "seen_in_entry_count": seen,
@@ -172,6 +190,7 @@ def compute_signals():
         "cross_model_review_next": parse_next(XMODEL_PROGRESS),
         "unharvested_observations": unharvested,
         "reviewed_entries": reviewed,
+        "open_backlog_items": open_backlog,
     }
 
 
@@ -252,6 +271,11 @@ def compute_multipliers(signals, config, remaining):
         mult["accuracy-review"] = 0.0
         reasons["accuracy-review"].append("OpenRouter daily cap reached")
 
+    # systemic-fix: hard suppression when there is no open, batch-ready backlog
+    if signals.get("open_backlog_items", 0) <= 0:
+        mult["systemic-fix"] = 0.0
+        reasons["systemic-fix"].append("no open batch-ready backlog items")
+
     return mult, reasons
 
 
@@ -314,10 +338,14 @@ def build_params(choice, signals, config, remaining):
     if choice == "wiki":
         return {}
     if choice == "systemic-fix":
-        return {
-            "note": "Phase 2: pick the top open batch-ready item from "
-                    "planning/wiki/ideas/backlog-queue.json; verify each entry."
-        }
+        item = select_backlog_item(load_backlog_queue())
+        if not item:
+            return {"backlog_item": None,
+                    "note": "No open batch-ready backlog item."}
+        return {"backlog_item": {k: item.get(k) for k in
+                                 ("id", "title", "detect", "filter", "fix_type",
+                                  "verify", "source", "severity", "scope_estimate",
+                                  "notes")}}
     return {}
 
 

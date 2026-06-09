@@ -61,7 +61,7 @@ steps 4–5, so there is no conflict. Process the range/params the selector gave
 | `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". If `params.candidates_low` is true, create what you sensibly can, then append `- [pattern] candidate_words.json running low — curator restock requested` to `polishing/observations.md`. **Never** auto-route to corpus harvesting or candidate discovery; the curator tops up candidates manually. |
 | `accuracy-review` | Follow **§A** below (furigana cross-model review within budget, then apply corrections). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`** (harvest `polishing/observations.md`, then 2–4 wiki activities). Also keep `planning/wiki/ideas/backlog-queue.json` in sync if it exists (Phase 2). |
-| `systemic-fix` | Follow **§B** below. (Disabled in Phase 1 — the selector will not emit it yet. If you ever see it, follow §B's semantic-verification-first rules.) |
+| `systemic-fix` | Follow **§B** below, working `params.backlog_item`. Semantic-verification-first: verify every flagged entry before changing it. |
 
 **Wiki consultation (all modes).** Before working a range or topic, glance at the
 wiki page(s) relevant to what you're touching — e.g.
@@ -184,25 +184,32 @@ the selector and per-day by the ledger.
    un-reviewed entry id. Then wrap up (step 5). The ledger JSON is committed with
    the run.
 
-## §B. systemic-fix playbook (enabled in Phase 2 — semantic-verification-first)
+## §B. systemic-fix playbook (semantic-verification-first)
 
 Turns one accumulated wiki insight into a dictionary-wide correction. **The default
 is per-entry semantic verification**, because the project's worst regressions came
 from overly-ambitious mechanical sweeps.
 
-1. Read `planning/wiki/ideas/backlog-queue.json` and pick `params.backlog_item`
-   (or the top open, batch-ready item). Cross-check its prose source in
+1. Use `params.backlog_item` (the selector already picked the top open,
+   batch-ready item from `planning/wiki/ideas/backlog-queue.json`). Read its
+   `notes`/`verify` fields and cross-check its prose `source` in
    `planning/wiki/ideas/cleanup-backlog.md` / `tooling-backlog.md`.
-2. If the item needs a detector that doesn't exist yet, build it (the wiki
-   specifies detection rules), commit it, and run it to produce a flagged list.
+2. Run the item's `detect` command and apply its `filter` if present. The
+   detectors — `build/check_furigana_format.py`, `build/check_artifacts.py`,
+   `build/check_tag_drift.py` — are **read-only** and emit a JSON review queue
+   (`--json`); they never modify entries. (If a future item ever needs a detector
+   that doesn't exist, build it from the wiki's detection rules, commit it, then
+   run it.)
 3. **Fix a bounded, semantically-verified batch** (sized by the 60%-context rule):
    open each flagged entry, confirm the fix is correct *for that entry*, then apply
-   it. **Purely-mechanical application — transforming every match without reading
-   the entry — is reserved for transformations that provably cannot introduce an
-   error**, and even those are validated and spot-checked before commit. When in
-   doubt, verify.
-4. Update the item's status/scope in `backlog-queue.json` **and** its prose backlog
-   page (mark RESOLVED or record remaining scope), then wrap up (step 5).
+   it and update its `modified` timestamp. For furigana rewraps, validate against
+   `build/word_id_lookup.json` so inline-link lookups still resolve. **Purely-
+   mechanical application — transforming every match without reading the entry — is
+   reserved for transformations that provably cannot introduce an error**, and even
+   those are validated and spot-checked before commit. When in doubt, verify.
+4. Update the item's `status`/`scope_estimate` in `backlog-queue.json` **and** its
+   prose backlog page (mark RESOLVED or record remaining scope), then wrap up
+   (step 5).
 
 ---
 

@@ -477,10 +477,19 @@ directory alone.
 
 ### Phase 2 — fast-follow
 
-- [ ] `systemic-fix` mode + `planning/wiki/ideas/backlog-queue.json` + the
-      first 2–3 mechanical batch scripts the backlog already specifies
-      (`[Register:]`/`{ている}`/`するする` cleaners; duplicate-conjugation-key
-      pruner; `check_furigana_format.py`; `check_tag_drift.py`).
+- [x] **`systemic-fix` mode shipped (2026-06-09).** `enabled_modes` now includes
+      `systemic-fix`; the selector picks the top open, batch-ready item from
+      `planning/wiki/ideas/backlog-queue.json` and self-suppresses when none
+      remain. Backed by **read-only** detectors (review-queue generators, never
+      autofixers — per the semantic-verification-first steer):
+      `build/check_furigana_format.py` (P9/P12), `build/check_artifacts.py`
+      (P16/P15/P10/P4/P2), `build/check_tag_drift.py` (P6/P7/P13).
+      `prompts/routine.md` §B drives per-entry verification.
+- [ ] **Tighten the P11 `semantic-mismatch` heuristic** (richer keyword maps or
+      an LLM-judged pass), then flip its `backlog-queue.json` item to
+      `batch_ready`. It ships now as `status: detector-experimental` because the
+      keyword heuristic is noisy (flags boat=transportation, school=building).
+      **Top remaining follow-up** — P11 is the most pervasive tag-drift problem.
 - [ ] Extend `review_runner.py` to cross-check **glosses/definitions** and
       **example-sentence translations** (new prompt templates + response
       parsing), with a small calibration pass mirroring the furigana

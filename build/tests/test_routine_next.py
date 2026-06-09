@@ -35,7 +35,8 @@ def fresh_state():
 
 
 def neutral_signals():
-    # candidate_count between low/high thresholds -> no nudges triggered
+    # candidate_count between low/high thresholds -> no nudges triggered;
+    # open_backlog_items > 0 so systemic-fix is active.
     return {
         "candidate_count": 200,
         "seen_in_entry_count": 0,
@@ -44,6 +45,7 @@ def neutral_signals():
         "cross_model_review_next": 1,
         "unharvested_observations": 0,
         "reviewed_entries": 10,
+        "open_backlog_items": 5,
     }
 
 
@@ -91,11 +93,39 @@ class TestScheduler(unittest.TestCase):
             )
             self.assertGreater(tally.get(m, 0), 0)
 
-    def test_disabled_mode_never_selected(self):
-        cfg = base_config()
-        self.assertNotIn("systemic-fix", cfg["enabled_modes"])
+    def test_removed_mode_never_selected(self):
+        cfg = base_config(enabled=["polish", "accuracy-review", "new-entries", "wiki"])
         tally, _ = simulate(cfg, neutral_signals(), remaining=5.0, n=2000)
         self.assertNotIn("systemic-fix", tally)
+
+    def test_systemic_fix_suppressed_when_no_backlog(self):
+        cfg = base_config()  # systemic-fix enabled
+        sig = neutral_signals()
+        sig["open_backlog_items"] = 0
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
+        self.assertNotIn("systemic-fix", tally)
+        for m in ("polish", "new-entries", "wiki"):
+            self.assertGreater(tally.get(m, 0), 0)
+
+    def test_systemic_fix_runs_when_backlog_present(self):
+        cfg = base_config()
+        sig = neutral_signals()
+        sig["open_backlog_items"] = 3
+        tally, _ = simulate(cfg, sig, remaining=5.0, n=2000)
+        self.assertGreater(tally.get("systemic-fix", 0), 0)
+
+    def test_select_backlog_item_picks_highest_priority_open_ready(self):
+        queue = {"items": [
+            {"id": "low", "priority": 9, "status": "open", "batch_ready": True},
+            {"id": "experimental", "priority": 1, "status": "detector-experimental", "batch_ready": False},
+            {"id": "top", "priority": 2, "status": "open", "batch_ready": True},
+            {"id": "done", "priority": 1, "status": "resolved", "batch_ready": True},
+        ]}
+        self.assertEqual(rn.select_backlog_item(queue)["id"], "top")
+        # Nothing open+ready -> None
+        self.assertIsNone(rn.select_backlog_item({"items": [
+            {"id": "x", "priority": 1, "status": "detector-experimental", "batch_ready": False},
+        ]}))
 
     def test_budget_suppression_blocks_accuracy_review(self):
         cfg = base_config()
