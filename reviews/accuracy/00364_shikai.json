@@ -1,0 +1,30 @@
+{
+  "entry_id": "00364_shikai",
+  "headword": "{司会|しかい}",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T22:09:21Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "warn",
+      "concern": "The top-level gloss 'host, emcee, chairperson' is incomplete as it only covers the noun senses and doesn't reflect the 'verb-suru' aspect of the headword.",
+      "suggestion": "Add verb forms to the top-level gloss, e.g., 'host, emcee, chairperson; to host, to emcee, to chair'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[8]",
+      "severity": "warn",
+      "concern": "The English translation 'Hosting and facilitating is hard work' for '司会進行の仕事は大変だ' adds 'and facilitating' which is not explicitly present in the Japanese. While '進行' implies facilitation, '司会進行' is often treated as a compound noun for 'hosting/emceeing'.",
+      "suggestion": "Change the translation to 'Hosting is hard work.' or 'The work of hosting is hard.'"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "entry_id": "00214_kengaku",
+  "headword": "{見学|けんがく}",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T22:04:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'action' is too broad and not very informative for an intermediate learner.",
+      "suggestion": "Consider more specific semantic tags like 'education', 'travel', or 'observation'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "warn",
+      "concern": "The English translation 'Visitors are prohibited from taking photos' is grammatically correct but slightly unnatural. 'Visitors are not allowed to take photos' or 'No photography for visitors' would be more common.",
+      "suggestion": "Change to 'Visitors are not allowed to take photos.' or 'No photography for visitors.'"
+    }
+  ]
+}

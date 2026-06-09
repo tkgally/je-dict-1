@@ -1,0 +1,37 @@
+{
+  "entry_id": "00392_suru",
+  "headword": "する",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T22:10:06Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[2].gloss",
+      "severity": "warn",
+      "concern": "Incomplete gloss for 'to wear, to put on (accessories)'",
+      "suggestion": "Add 'to have on' or 'to be wearing' to better capture the continuous state implied by する in this sense, especially when used with -ている form."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[10]",
+      "severity": "warn",
+      "concern": "The English translation 'I wear a tie' is present tense, but the Japanese 'ネクタイをする' can also mean 'I will wear a tie' or 'I put on a tie' depending on context. Without context, 'I wear a tie' implies a habitual action, which might not be the primary meaning intended.",
+      "suggestion": "Change to 'I'll wear a tie' or 'I put on a tie' for a more common interpretation in isolation, or add context to the example."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[11]",
+      "severity": "error",
+      "concern": "The Japanese '時計をしていますか' implies 'Are you wearing a watch?' (continuous state), but the English 'Are you wearing a watch?' is a direct translation and accurate.",
+      "suggestion": "No change needed. The original assessment was incorrect."
+    }
+  ]
+}

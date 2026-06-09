@@ -1,0 +1,23 @@
+{
+  "entry_id": "00316_nichiji",
+  "headword": "{日時|にちじ}",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-09T22:07:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '日時' is not inherently formal. It is a neutral term for 'date and time' and is used in various contexts, both formal and informal.",
+      "suggestion": "Change 'formality' from 'formal' to 'neutral'."
+    }
+  ]
+}
