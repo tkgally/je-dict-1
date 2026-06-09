@@ -35,3 +35,9 @@ _(All observations through 2026-06-07 session 042 have been harvested by the wik
 ## 2026-06-08 — comprehensive polish session 049 (entries 05891–05915)
 - [pattern] Multiple wrong semantic tags in 05891–05915: "electronics" on るんるん (05894), "furniture" on 淡々 (05897), "tool" on 刻々 (05898), wrong formality "informal" on 仲裁 (05907). Tag drift continues through this range.
 - [entry] ロック (08116_rokku) covers only rock music; a lock/locking sense is missing. The entry should be expanded to cover the tech/social media "lock" sense, or a separate entry created.
+
+## 2026-06-09 — comprehensive polish session 050 (entries 05936–05953)
+- [pattern] Wrong semantic tags on onomatopoeia entries: "animal-fish" on じとじと (05939) corrected to "descriptive"; "animal-insect" on のそのそ (05942) corrected to ["action", "descriptive"]. Tag drift in the 05900s continues the pattern seen in sessions 045 and 049 — spurious domain tags assigned from templates during entry creation.
+- [entry] 空前絶後 (くうぜんぜつご) — referenced in 05949 cross_references but no entry exists; added as inline noentry link. Should be created as a 4-character yojijukugo entry.
+- [entry] 史上初 (しじょうはつ) — referenced in 05949 notes, no entry exists; added noentry. May warrant a candidate.
+- [entry] 悪事 (あくじ) — referenced in 05948, not in dictionary; added noentry. Common enough to warrant an entry.
