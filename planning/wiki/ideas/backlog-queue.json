@@ -144,7 +144,7 @@
       "status": "detector-experimental",
       "scope_estimate": 977,
       "severity": "warn",
-      "notes": "P11 is the most pervasive tag-drift problem, BUT the current keyword heuristic is noisy (flags boat=transportation, school=building as mismatches). NOT batch_ready until the detector's precision improves (richer keyword maps or an LLM-judged pass). Use --check semantic-mismatch for manual audits only for now. This is the top systemic-fix follow-up."
+      "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path is now the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics) and is validated to flag e.g. body-part on 切り捨てる. This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it."
     }
   ]
 }

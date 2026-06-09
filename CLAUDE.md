@@ -203,6 +203,21 @@ python3 build/review_runner.py --pass screening --budget 5.00    # Screen with c
 python3 build/review_runner.py --pass deep --range 1 1000        # Pass 2: deep review of flagged
 python3 build/review_runner.py --pass deep                       # Deep review all flagged entries
 
+# Cross-model accuracy review — glosses, example translations, semantic tags (requires OPENROUTER_API_KEY)
+python3 build/review_accuracy.py --range 5800 5900 --budget 1.00  # Review a range (writes reviews/accuracy/)
+python3 build/review_accuracy.py --ids 05907 --dimensions tags --dry-run  # Preview one entry's tag-review prompt
+python3 build/review_accuracy.py --report                         # Summarize accuracy reviews
+
+# Systemic-fix detectors — READ-ONLY review queues for the Routine's systemic-fix mode
+python3 build/check_furigana_format.py --summary   # Malformed furigana wrappers (Cleanup P9/P12)
+python3 build/check_artifacts.py --summary         # [Register:]/{ている}/dup-conjugation/missing target_id (P16/P15/P10/P4/P2)
+python3 build/check_tag_drift.py --summary         # conjugation-no-verb-pos, politeness, sole-general, semantic-mismatch (P6/P7/P13/P11)
+
+# Unified Routine selector
+python3 pipeline/routine_next.py --explain         # Why the next Routine run would pick a given mode
+python3 pipeline/routine_next.py --simulate 60     # Mode distribution over 60 runs
+python3 pipeline/routine_next.py --force-mode polish  # Force a mode (manual testing; no persist)
+
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
 make quick                                # validate + update_indexes + incremental build

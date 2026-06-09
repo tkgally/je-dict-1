@@ -139,30 +139,43 @@ only what's directly applicable; don't read the whole wiki.
 
 ---
 
-## §A. accuracy-review playbook (Phase 1: furigana)
+## §A. accuracy-review playbook (furigana + glosses/translations/tags)
 
-Goal: get a **second model's** opinion on furigana correctness, then apply only the
-corrections you independently agree with. The OpenRouter spend is capped per-run by
-the selector and per-day by the ledger.
+Goal: get a **second model's** opinion on the dimensions another model is best
+placed to catch, then apply only the corrections you independently agree with.
+Spend is capped per-run by the selector (`params.openrouter_session_budget_usd`)
+and per-day by the ledger.
 
-1. **Budget.** Use `params.openrouter_session_budget_usd` (already = the smaller of
+1. **Budget.** Read `params.openrouter_session_budget_usd` (already = the smaller of
    the per-session cap and the remaining daily budget). If it is `0` or missing, the
-   daily cap is spent — **do not call OpenRouter**; pick up by re-running
-   `routine_next.py` is not needed (the selector won't choose this mode when the cap
-   is reached). In the rare case you still got here with $0, log a note and stop.
-2. **Screen + deep-review a range** starting at `params.start_id`:
+   daily cap is spent — **do not call OpenRouter**; log a note and stop. Otherwise
+   split it across the two reviewers below (a rough 50/50 is fine; both report an
+   `Est. cost: $X` you'll sum for the ledger).
+2. **Furigana correctness** — `build/review_runner.py` over a range starting at
+   `params.start_id`:
    ```bash
-   python3 build/review_runner.py --pass screening --range <start> <end> --budget <session_budget>
-   python3 build/review_runner.py --pass deep --range <start> <end> --budget <remaining_session_budget>
+   python3 build/review_runner.py --pass screening --range <start> <end> --budget <half_budget>
+   python3 build/review_runner.py --pass deep --range <start> <end> --budget <remaining_half>
    ```
-   Choose `<end>` to stay within budget (screening is cheap; deep covers only
-   flagged entries). `review_runner.py` prints an `Est. cost: $X` total.
-3. **Apply corrections** by following **`prompts/polish_cross_model_review.md`**:
-   read each flagged entry, evaluate with your own knowledge of Japanese, and
-   **APPLY / REJECT / FLAG**. Never apply a single low-confidence flag; consult
-   `reviews/calibration_report.md` for known false-positive patterns; FLAG genuine
-   uncertainty for the curator. Update `modified` timestamps on entries you change.
-4. **Record spend in the ledger** (so the daily $5 cap is enforced across runs):
+   Screening is cheap; deep covers only flagged entries.
+3. **Glosses, example translations, and semantic tags** — `build/review_accuracy.py`
+   over the same range. The **tags** dimension is the scalable fix for the pervasive
+   tag-drift problem (Cleanup P11): it judges each semantic tag against the
+   *headword*, not the example topics.
+   ```bash
+   python3 build/review_accuracy.py --range <start> <end> --budget <remaining_budget>
+   ```
+   Each entry's issues land in `reviews/accuracy/{id}.json`.
+4. **Apply corrections with judgment.** For furigana, follow
+   **`prompts/polish_cross_model_review.md`** (consult `reviews/calibration_report.md`
+   for known false positives). For each `reviews/accuracy/{id}.json`, evaluate every
+   issue with your own knowledge and decide **APPLY / REJECT / FLAG**:
+   - **APPLY** a clear gloss/translation fix or a clearly-wrong semantic/register tag;
+     update the entry's `modified` timestamp.
+   - **REJECT** stylistic nits or cases where the model is wrong (the entry stays).
+   - **FLAG** genuine uncertainty for the curator (append to `reviews/needs_curator.txt`).
+   Never apply blindly; never add inline links in this mode.
+5. **Record spend in the ledger** (so the daily $5 cap is enforced across runs):
    ```bash
    python3 - "$EST_COST" <<'PY'
    import json, sys, datetime, pathlib
@@ -179,10 +192,11 @@ the selector and per-day by the ledger.
    print("ledger spent_usd:", L["spent_usd"])
    PY
    ```
-   Replace `$EST_COST` with the number `review_runner.py` reported.
-5. **Cursor.** Set `polishing/tasks/cross-model-review/progress.txt` to the next
-   un-reviewed entry id. Then wrap up (step 5). The ledger JSON is committed with
-   the run.
+   Replace `$EST_COST` with the **combined** `Est. cost` reported by
+   `review_runner.py` and `review_accuracy.py`.
+6. **Cursor.** Set `polishing/tasks/cross-model-review/progress.txt` to the next
+   un-reviewed entry id. Then wrap up (step 5). The ledger and any `reviews/` files
+   are committed with the run.
 
 ## §B. systemic-fix playbook (semantic-verification-first)
 

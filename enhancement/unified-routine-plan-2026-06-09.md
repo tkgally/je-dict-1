@@ -485,17 +485,24 @@ directory alone.
       `build/check_furigana_format.py` (P9/P12), `build/check_artifacts.py`
       (P16/P15/P10/P4/P2), `build/check_tag_drift.py` (P6/P7/P13).
       `prompts/routine.md` §B drives per-entry verification.
-- [ ] **Tighten the P11 `semantic-mismatch` heuristic** (richer keyword maps or
-      an LLM-judged pass), then flip its `backlog-queue.json` item to
-      `batch_ready`. It ships now as `status: detector-experimental` because the
-      keyword heuristic is noisy (flags boat=transportation, school=building).
-      **Top remaining follow-up** — P11 is the most pervasive tag-drift problem.
-- [ ] Extend `review_runner.py` to cross-check **glosses/definitions** and
-      **example-sentence translations** (new prompt templates + response
-      parsing), with a small calibration pass mirroring the furigana
-      calibration (`reviews/calibration_report.md`).
-- [ ] Fold a "selector health" line into `make report` so the curator sees what
-      the next run would pick.
+- [x] **P11 tag drift solved via an LLM tag pass (2026-06-09).** Rather than
+      chase the noisy keyword heuristic, the new `build/review_accuracy.py`
+      `tags` dimension asks a cheap model whether each semantic tag fits the
+      *headword* (not the example topics). Validated on real calls (correctly
+      flags `body-part` on 切り捨てる as an error). The keyword detector stays
+      `detector-experimental` as a free manual-audit aid only. accuracy-review
+      mode sweeps ID ranges, so this scales across the dictionary over time.
+- [x] **Gloss/definition + example-translation review shipped (2026-06-09).**
+      `build/review_accuracy.py` covers all three dimensions (gloss, translation,
+      tags) in one model call per entry (~$0.0004 each on gemini-2.5-flash),
+      writes `reviews/accuracy/{id}.json`, and is wired into `routine.md` §A
+      alongside the furigana reviewer, applied with APPLY/REJECT/FLAG judgment.
+- [x] **`make report` "UNIFIED ROUTINE" line shipped (2026-06-09)** — shows what
+      the next run would pick, OpenRouter spend vs. cap, open backlog items, and
+      today's mode tally (via a non-persisting selector dry-run).
+
+Phase 2 is complete. Remaining nice-to-have (non-blocking): a calibration pass for
+`review_accuracy.py` mirroring `reviews/calibration_report.md`.
 
 ### Validation before scheduling
 
