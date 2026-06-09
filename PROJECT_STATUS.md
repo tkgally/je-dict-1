@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-08
+**Last updated**: 2026-06-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog)
+Added 20 new entries (IDs 29023–29042) drawn exclusively from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05785–05944 but not yet defined. All entries followed the concise per-field shape of recent reference entries.
+
+- **Expressions / grammar (1)**: だったら (casual conditional expression)
+- **Mimetics / adverbs (5)**: さらっと (smooth and dry; casually), べちゃべちゃ (soggy, drenched), ぱちん (single snap/click), ぱんぱん (stuffed full, bulging), ほっそり (slender, slim)
+- **Loanword nouns (4)**: フライドポテト (french fries), ヒップ (hips/hip measurement), パイ (pie/pastry), ビー玉 (glass marble)
+- **Native nouns (6)**: {創業者|そうぎょうしゃ} (company founder), {正当性|せいとうせい} (legitimacy), {握|にぎ}りこぶし (clenched fist), {無認可|むにんか} (unlicensed), {乳糖|にゅうとう} (lactose), {混|ま}ぜご{飯|はん} (mixed rice)
+- **Verbs (2)**: しょげる (ichidan, to be crestfallen), {臨|のぞ}む (godan, to face/tackle/overlook)
+- **Compound nouns — harassment terms (2)**: アカハラ (academic harassment), アルハラ (alcohol harassment)
+
+All 20 entries passed validation; no missing furigana; conjugation tables added for the 2 verbs; 20 candidates removed from candidate_words.json; no new kanji.
+
 ### 2026-06-08 (Vocabulary Expansion - 22 New Entries, Mixed Candidates Batch)
 Added 22 new entries (IDs 29001-29022) from `candidate_words.json`. The "seen in entry" backlog had been cleared earlier in the day, so this session drew from the broader candidate list — common compound nouns, formal vocabulary, two new prefectures, and a kabuki term. Per-field budgets followed the reference shape of {もてなし} (27261).
 
@@ -93,18 +105,6 @@ One-time deterministic cleanup (`prompts/fix_spurious_conjugations.md`). Strippe
 - **New tool**: built `build/prune_nonverb_conjugations.py` (reusable audit/pruner; dry-runs by default, holds back `expression` entries for review).
 - **Verified**: all 28,743 entries valid; re-running both retrofits re-adds nothing; spurious-conjugation and stray-`verb_class` detectors both return 0.
 - **Knowledge base**: resolved Cleanup Backlog P6, Tooling Backlog item 5, the Schema Tag Reliability "defense in depth" note, and five Entry Follow-ups sections; logged 02525_suiteiru (resolved) and a curator follow-up for お会いする (22190). Out-of-scope wrong-class/missing-table cases left open.
-
-### 2026-06-07 (Vocabulary Expansion - 22 New Entries, Recent Candidates Batch)
-Added 22 new dictionary entries (IDs 28931-28952) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from recent unprocessed candidates favoring concrete everyday vocabulary (citrus varieties, hot-pot dishes, wedding styles, lighting, prefecture). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to 2-3 focused sections.
-
-- **Citrus / food (7)**: {温州|うんしゅう}みかん (satsuma mandarin), ポンカン (ponkan), デコポン (dekopon / sumo orange), {合|あ}わせ{味噌|みそ} (blended miso), {両手鍋|りょうてなべ} (two-handled pot), もつ{鍋|なべ} (offal hot pot), キムチ{鍋|なべ} (kimchi hot pot)
-- **Lighting / clothing (3)**: タンクトップ (tank top), フラッシュライト (flashlight, loanword), ペンライト (penlight — 2 senses incl. idol concert stick, 6 examples)
-- **Wedding ceremony set (3)**: {神前式|しんぜんしき} (Shinto), {教会式|きょうかいしき} (Christian), {人前式|じんぜんしき} (secular)
-- **People / occupation (2)**: {盗掘者|とうくつしゃ} (grave robber / tomb raider), フォトグラファー (photographer, freelance/commercial register)
-- **Daily life / housing (3)**: {本宅|ほんたく} (main residence, formal), ショッピングセンター (shopping center), ガス{料金|りょうきん} (gas bill)
-- **Health / geography / culture (4)**: {筋肉量|きんにくりょう} (muscle mass), ペアリング (matching ring / pairing — 2 senses, 6 examples), {国技館|こくぎかん} (sumo arena), {富山県|とやまけん} (Toyama Prefecture)
-
-Two romaji slips fixed pre-build (loanwords ending in ー needed `aa` rather than `a`: フォトグラファー → fotogurafaa, ショッピングセンター → shoppingusentaa); eight bare-kanji slips in notes annotated. Three stale candidates removed during pre-flight (C21493 躱す/かわす — kanji variant of existing 28851_kawasu; C21180 〜主義者 — already entry 28362; C21328 猪突猛進 — already entry 28872). No new kanji. No verbs / i-adjectives in this batch, so no conjugation tables needed. Candidate list synced (1470→1448).
 
 ### 2026-06-07 (Vocabulary Expansion - 25 New Entries, Recent Candidates Batch)
 Added 25 new dictionary entries (IDs 28906-28930) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from the most recently added candidates. Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to two or three focused sections.
