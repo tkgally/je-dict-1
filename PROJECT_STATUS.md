@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog, IDs 29043–29062)
+Added 20 new entries (IDs 29043–29062) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05794–05963 but not yet defined.
+
+- **Loanword nouns (2)**: オリジナリティ (originality), プレゼンテーション (presentation)
+- **I-adjective (1)**: {苛立|いらだ}たしい (irritating, frustrating)
+- **Nouns (8)**: {妊活|にんかつ} (fertility efforts), {鉄拳|てっけん} (iron fist), {五円玉|ごえんだま} (5-yen coin), {産後|さんご} (postnatal period), {相談所|そうだんじょ} (consultation center), {悪事|あくじ} (wrongdoing), {街区|がいく} (city block), {防止法|ぼうしほう} (prevention law)
+- **Na-adjective (1)**: {薄|うす}め (slightly thin/light)
+- **Mimetics / onomatopoeia (4)**: すーすー (cool draft), ひやっと (sudden chill), ばくばく (large bites; heart pounding), がさごそ (rummaging)
+- **Verbs (4)**: {倒|たお}れ{込|こ}む (godan), {丸|まる}まる (godan), {言|い}い{続|つづ}ける (ichidan), {入|はい}ってくる (kuru)
+
+All 20 valid; conjugation tables added for 4 verbs + 1 i-adjective; 20 candidates removed.
+
 ### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog)
 Added 20 new entries (IDs 29023–29042) drawn exclusively from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05785–05944 but not yet defined. All entries followed the concise per-field shape of recent reference entries.
 
