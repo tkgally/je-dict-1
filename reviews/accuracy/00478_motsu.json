@@ -1,0 +1,30 @@
+{
+  "entry_id": "00478_motsu",
+  "headword": "{持|も}つ",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:51:52Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The 'existence' tag is too broad and doesn't accurately capture the core meanings of '持つ'.",
+      "suggestion": "Remove 'existence'. Consider more specific tags like 'possession', 'physical action', or 'duration' if applicable to the headword itself, not just example topics."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "warn",
+      "concern": "The English translation 'buildings with old history' is unnatural.",
+      "suggestion": "Change 'buildings with old history' to 'historic buildings' or 'buildings with a long history'."
+    }
+  ]
+}

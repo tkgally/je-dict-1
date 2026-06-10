@@ -1,0 +1,37 @@
+{
+  "entry_id": "00490_made",
+  "headword": "まで",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:52:16Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "warn",
+      "concern": "The top-level gloss is incomplete as it doesn't cover the 'by (a certain time)' meaning.",
+      "suggestion": "Add 'by' to the top-level gloss, e.g., 'until, to, as far as, by'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[4].gloss",
+      "severity": "error",
+      "concern": "Sense 4's gloss 'to the extent of' is not a natural or common English equivalent for まで in this usage.",
+      "suggestion": "Change the gloss to 'until (a certain state/degree)' or 'to the point of'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[14]",
+      "severity": "warn",
+      "concern": "The English translation 'I'll never forget until I die' is grammatically awkward and unnatural. 'Until I die' implies the forgetting happens *before* death, which contradicts 'never forget'.",
+      "suggestion": "Change to 'I'll never forget it as long as I live' or 'I'll never forget it until the day I die'."
+    }
+  ]
+}

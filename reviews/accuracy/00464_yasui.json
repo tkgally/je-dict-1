@@ -1,0 +1,23 @@
+{
+  "entry_id": "00464_yasui",
+  "headword": "{安|やす}い",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:51:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'descriptive' is too broad and doesn't add specific semantic information for '安い'.",
+      "suggestion": "Remove 'descriptive' or replace it with a more specific semantic tag if applicable (e.g., 'price', 'value')."
+    }
+  ]
+}
