@@ -1,0 +1,24 @@
+{
+  "entry_id": "06017_shijuukunichi",
+  "headword": "{四十九日|しじゅうくにち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T15:53:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by including 'forty-nine days' as an alternative meaning. While the term literally means '49 days', in the context of a memorial, it specifically refers to the 49th day memorial service, not just any period of 49 days.",
+      "suggestion": "Remove 'forty-nine days' from the main gloss."
+    }
+  ]
+}
