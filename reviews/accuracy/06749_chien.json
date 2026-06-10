@@ -1,0 +1,23 @@
+{
+  "entry_id": "06749_chien",
+  "headword": "{遅延|ちえん}",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T00:57:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' does not fit the headword's meaning.",
+      "suggestion": "Remove 'action' tag. '遅延' (chien) refers to a state or an event of being delayed, not an action performed by a subject."
+    }
+  ]
+}
