@@ -55,8 +55,8 @@ DEFAULT_CONFIG = {
     "weights": {
         "polish": 0.35,
         "systemic-fix": 0.10,
-        "accuracy-review": 0.20,
-        "new-entries": 0.20,
+        "accuracy-review": 0.25,
+        "new-entries": 0.15,
         "wiki": 0.15,
     },
     "nudges": {
@@ -69,7 +69,8 @@ DEFAULT_CONFIG = {
     },
     "anti_repeat_modes": ["new-entries", "accuracy-review", "systemic-fix"],
     "anti_repeat_override_multiplier": 1.8,
-    "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 1.5},
+    "openrouter": {"daily_cap_usd": 5.0, "per_session_cap_usd": 2.5,
+                   "self_check_cap_usd": 0.25},
 }
 
 STATE_DOC = "Auto-managed by pipeline/routine_next.py. Do not hand-edit."
