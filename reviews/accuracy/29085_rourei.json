@@ -1,0 +1,24 @@
+{
+  "entry_id": "29085_rourei",
+  "headword": "{老齢|ろうれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T12:40:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'life' is not a valid tag.",
+      "suggestion": "Replace 'life' with a valid tag from the provided list, such as 'time-period' or 'general'."
+    }
+  ]
+}
