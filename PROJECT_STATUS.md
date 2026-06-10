@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29083–29102)
+Added 20 new entries (IDs 29083–29102) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries (IDs 05981–29082) but not yet defined.
+
+- **Loanword nouns (3)**: シートベルト (seat belt), ホームシック (homesickness), ノーコメント (no comment)
+- **Native nouns (7)**: {老齢|ろうれい} (old age), {倦怠期|けんたいき} (relationship rut), {鶯|うぐいす} (Japanese bush warbler), {史上初|しじょうはつ} (first in history), {延発|えんぱつ} (delayed departure), {摘出|てきしゅつ} (surgical removal, also suru), {潰瘍|かいよう} (ulcer)
+- **Medical (4)**: {心音|しんおん} (heart sounds), {触診|しょくしん} (palpation, also suru), {胆汁|たんじゅう} (bile), {胆石|たんせき} (gallstone)
+- **Onomatopoeia (6)**: ちゃぷちゃぷ (gentle splashing), ざぶん (single big splash), どすどす (heavy thumping footsteps), カクカク (jerky/choppy), チュンチュン (sparrow chirping), ホーホケキョ (bush warbler's call)
+
+§4 self-verification: 19 model flags across 17 entries → **1 applied** (鶯 tags: `animals` → `animal-bird`), **18 rejected** (bulk-rejected: reviewer flagged schema-free semantic tags as invalid; all tags are legitimately used across the dictionary). Decisions logged to `reviews/decisions.jsonl`. New kanji 鶯 (02771_ou_uguisu_bush-warbler). Conjugation tables added for 摘出 and 触診 (suru).
+
 ### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29063–29082)
 Added 20 new entries (IDs 29063–29082) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05807–06662 but not yet defined. **First Routine run exercising the v2 §4 self-verification gate**: all 20 new entries were sent to an independent model (`review_accuracy.py`) before the single build.
 
