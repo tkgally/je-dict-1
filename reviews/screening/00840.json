@@ -1,0 +1,10 @@
+{
+  "entry_id": "00840",
+  "screened_at": "2026-06-10T13:23:02Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry is for ゴミ (ごみ) as a noun. The provided pairs are for various words related to \"gomi\" (trash). The fourth pair, \"塵 → ごみ\", is a direct mapping of the kanji 塵 to the reading ごみ, which is the noun itself. This is not an error in the context of the entry, but rather a direct definition. However, the prompt asks to check furigana readings from a dictionary entry for errors, and the format is {kanji|reading}okurigana. In this case, 塵 is the kanji and ごみ is its reading. This is a correct mapping for the word \"gomi\" when written with kanji. The prompt also states \"Do NOT flag partial readings as errors — they are correct by design.\" and \"Standalone noun readings that differ from compound readings: 話→はなし as a noun.\" This case is similar to the latter, where 塵 is a standalone noun with the reading ごみ. Therefore, it should not be flagged as an error."
+  ],
+  "confidence": 0.8
+}
