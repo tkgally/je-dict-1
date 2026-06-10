@@ -1,0 +1,31 @@
+{
+  "entry_id": "00927_dochira",
+  "headword": "どちら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:51:41Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'direction' is too narrow for the headword 'どちら', which also functions as a pronoun for 'which (of two)' and 'who (polite)'.",
+      "suggestion": "Add 'general' or 'cognition' to reflect its broader usage as an interrogative pronoun."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. 'どちら' is polite, but not necessarily 'formal' in all its uses. It's the polite equivalent of 'どっち', making it more 'neutral' or 'polite' rather than strictly 'formal'.",
+      "suggestion": "Change 'formal' to 'neutral' or 'polite'."
+    }
+  ]
+}

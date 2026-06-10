@@ -1,0 +1,24 @@
+{
+  "entry_id": "00846_hitsuyou",
+  "headword": "{必要|ひつよう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:50:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general for '必要'.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entry_id": "00960_kochira",
+  "headword": "こちら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:52:29Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss for the headword is incomplete and misleading as it omits the 'I/we' meaning, which is a significant usage of こちら.",
+      "suggestion": "this way, this person (polite), I/we (humble)"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While こちら is more polite than ここ/これ, it is not strictly 'formal' in the sense of technical or highly official language. It's polite, but commonly used in everyday polite interactions.",
+      "suggestion": "polite"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect. While こちら is generally polite, its usage in sense 3 ('I, we') is explicitly humble, not just polite. The headword encompasses both polite and humble uses.",
+      "suggestion": "polite/humble"
+    }
+  ]
+}

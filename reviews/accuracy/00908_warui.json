@@ -1,0 +1,24 @@
+{
+  "entry_id": "00908_warui",
+  "headword": "{悪|わる}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:51:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'sorry' for sense 2 is too narrow and misleading. While it can be used to apologize, it also means 'bad' or 'wrong' in a moral sense, as shown in examples 8 and 9.",
+      "suggestion": "Change gloss to 'wrong, bad (morally)' or similar."
+    }
+  ]
+}

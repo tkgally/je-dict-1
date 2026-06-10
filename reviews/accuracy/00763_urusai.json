@@ -1,0 +1,24 @@
+{
+  "entry_id": "00763_urusai",
+  "headword": "うるさい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:48:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'annoying, bothersome' is too narrow and misses a key meaning of うるさい, which is 'fussy' or 'picky' as shown in example 8.",
+      "suggestion": "annoying, bothersome, fussy"
+    }
+  ]
+}

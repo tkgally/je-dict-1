@@ -1,0 +1,38 @@
+{
+  "entry_id": "01092_oku",
+  "headword": "{置|お}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:55:33Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the nuance of the Japanese. 「〜て置く」 in this context means to do something in advance or for future use, not just 'should read'.",
+      "suggestion": "You should read the textbook in advance before the exam."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[8]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the nuance of the Japanese. 「〜て置く」 in this context means to do something in advance or for future use, not just 'had bought'.",
+      "suggestion": "I used the vegetables I had bought in advance."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the nuance of the Japanese. 「〜て置く」 in this context means to do something in advance or for future use, not just 'I'll make a reservation'.",
+      "suggestion": "I'll make a reservation in advance."
+    }
+  ]
+}

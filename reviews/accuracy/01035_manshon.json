@@ -1,0 +1,24 @@
+{
+  "entry_id": "01035_manshon",
+  "headword": "マンション",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:54:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The translation uses 'building' instead of 'condominium' or 'apartment building', which is less specific and could mislead a learner about the meaning of マンション.",
+      "suggestion": "This condominium is 10 stories tall."
+    }
+  ]
+}

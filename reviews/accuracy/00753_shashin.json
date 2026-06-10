@@ -1,0 +1,24 @@
+{
+  "entry_id": "00753_shashin",
+  "headword": "{写真|しゃしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:48:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow for '写真' (photograph). While photography can be a leisure activity, '写真' itself is a general noun referring to a photograph, which can be used in many contexts beyond leisure (e.g., professional, documentary, scientific).",
+      "suggestion": "Replace 'leisure' with 'general' or 'creation' (as it's a created image)."
+    }
+  ]
+}
