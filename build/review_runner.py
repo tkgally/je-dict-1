@@ -196,6 +196,13 @@ Format: {{kanji|reading}}okurigana — the reading covers ONLY the kanji portion
 Example: {{走|はし}}る means 走=はし (correct), る is okurigana outside the markup.
 Do NOT flag partial readings as errors — they are correct by design.
 
+Known-correct patterns — do NOT flag any of these:
+- Rendaku (sequential voicing) in compounds and suffixes: 会社→がいしゃ inside 株式会社, 好き→ずき in the 〜好き suffix (甘いもの好き), 小屋→ごや in 山小屋.
+- Standalone noun readings that differ from compound readings: 話→はなし as a noun.
+- Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき).
+- Counter and numeral sound changes: 一本→いっぽん, 三階→さんがい.
+If you are not confident a reading is actually wrong, do not flag it.
+
 Pairs:
 {pairs_text}
 
@@ -237,21 +244,10 @@ def save_screening_result(result):
 
 def parse_screening_response(response_data):
     """Extract screening JSON from model response."""
-    if not response_data:
+    content = extract_message_text(response_data)
+    if content is None:
         return None
-    try:
-        content = response_data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError):
-        return None
-
-    content = content.strip()
-    if content.startswith("```json"):
-        content = content[7:]
-    elif content.startswith("```"):
-        content = content[3:]
-    if content.endswith("```"):
-        content = content[:-3]
-    content = content.strip()
+    content = strip_code_fences(content)
 
     try:
         return json.loads(content)
@@ -590,38 +586,68 @@ def call_openrouter(api_key, model, prompt, timeout=60):
     return None
 
 
-def parse_model_response(response_data):
-    """Extract JSON array from the model's response text."""
+def extract_message_text(response_data):
+    """Return the model's text output, or None.
+
+    Defensive against the failure modes observed in production:
+    - 2026-06-09: content is None (gemini null response) -> .strip() crashed.
+    - 2026-06-10: gemini-2.5-pro returns empty content with the actual text in
+      the message's 'reasoning' field via OpenRouter.
+    """
     if not response_data:
         return None
-
     try:
-        content = response_data["choices"][0]["message"]["content"]
-    except (KeyError, IndexError):
+        msg = response_data["choices"][0]["message"]
+    except (KeyError, IndexError, TypeError):
         return None
+    if not isinstance(msg, dict):
+        return None
+    content = msg.get("content")
+    if not isinstance(content, str) or not content.strip():
+        content = msg.get("reasoning")
+    if not isinstance(content, str) or not content.strip():
+        return None
+    return content.strip()
 
-    # Strip markdown code blocks if present
-    content = content.strip()
+
+def strip_code_fences(content):
     if content.startswith("```json"):
         content = content[7:]
     elif content.startswith("```"):
         content = content[3:]
     if content.endswith("```"):
         content = content[:-3]
-    content = content.strip()
+    return content.strip()
 
+
+def parse_model_response(response_data):
+    """Extract JSON array from the model's response text."""
+    content = extract_message_text(response_data)
+    if content is None:
+        print("  Failed to parse response: empty or missing content", file=sys.stderr)
+        return None
+    content = strip_code_fences(content)
+
+    parsed = None
     try:
-        return json.loads(content)
+        parsed = json.loads(content)
     except json.JSONDecodeError:
         # Try to find JSON array in the text
         match = re.search(r'\[.*\]', content, re.DOTALL)
         if match:
             try:
-                return json.loads(match.group())
+                parsed = json.loads(match.group())
             except json.JSONDecodeError:
                 pass
+    if parsed is None:
         print(f"  Failed to parse response: {content[:200]}...", file=sys.stderr)
         return None
+    # Some models wrap the array in an object despite instructions.
+    if isinstance(parsed, dict):
+        for key in ("results", "issues", "pairs"):
+            if isinstance(parsed.get(key), list):
+                return parsed[key]
+    return parsed
 
 
 def classify_severity(results_by_model, unique_pairs):
@@ -893,7 +919,25 @@ def main():
     if args.review_pass == "deep":
         api_key = None if args.dry_run else get_api_key()
         models = [args.model] if args.model else DEEP_MODELS
-        entry_ids = resolve_entry_ids(args) if (args.range or args.ids) else []
+        if args.ids:
+            # Explicit IDs are reviewed as given.
+            entry_ids = resolve_entry_ids(args)
+        elif args.range:
+            # A range restricts the screening-flagged set — it does NOT deep-
+            # review every entry in the range (that burned ~10x the intended
+            # budget in the 2026-06-10 test run before being caught).
+            lo, hi = args.range
+            flagged = get_flagged_entry_ids()
+            entry_ids = [e for e in flagged
+                         if e.isdigit() and lo <= int(e) <= hi]
+            print(f"Deep pass over range {lo}-{hi}: "
+                  f"{len(entry_ids)} screening-flagged entries")
+            if not entry_ids:
+                print("No screening-flagged entries in range. "
+                      "Run the screening pass first, or use --ids.")
+                return
+        else:
+            entry_ids = []
         run_deep_pass(entry_ids, api_key, models, dry_run=args.dry_run, budget=args.budget)
         return
 

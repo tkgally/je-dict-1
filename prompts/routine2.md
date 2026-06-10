@@ -105,7 +105,7 @@ PR/CI/merge discipline** — they are the same disciplines this Routine uses in
 
 | `mode` | Do this |
 |---|---|
-| `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing); skip IDs **below** the comprehensive frontier (already polished) and IDs with no entry file. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, and regenerate priorities at wrap-up (`make priorities`, before `make build`). Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
+| `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing). Skip only IDs with no entry file and entries whose `modified` date is within the last 30 days — worst-scoring entries are eligible **regardless of the comprehensive frontier**: a low-ID entry that was polished long ago but still scores at the bottom is exactly what this lane is for. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, regenerate priorities at wrap-up (`make priorities`, before `make build`), and reset the priority cursor to `line: 1` (regeneration re-ranks, so old line numbers are meaningless). Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
 | `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what you sensibly can, then append `- [pattern] candidate_words.json running low — curator restock requested` to `polishing/observations.md`. **Never** auto-route to corpus harvesting or candidate discovery; the curator tops up candidates manually. |
 | `accuracy-review` | Follow **§A** below (cross-model review of furigana + glosses/translations/tags within budget, apply corrections, maintain the review queue). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`** (harvest `polishing/observations.md`, then 2–4 wiki activities). Keep `planning/wiki/ideas/backlog-queue.json` in sync with the prose backlog pages. **Metrics trend activity**: if `pipeline/metrics-history.jsonl` has ≥10 lines newer than the last update of `planning/wiki/topics/quality-metrics.md` (or that page doesn't exist yet), create/update it with a dated trend table (entry count, flags applied/rejected by dimension from `reviews/decisions.jsonl`, review-queue depth, OpenRouter spend) and log any metric moving the wrong way as a `[pattern]` observation. |
@@ -170,56 +170,18 @@ round (no ping-pong loops).
 ## 5. Metrics snapshot (every run, including wiki-only runs)
 
 Append one line to `pipeline/metrics-history.jsonl` just before the session
-log is written. If `pipeline/metrics_snapshot.py` exists, prefer it:
+log is written:
 
 ```bash
-python3 pipeline/metrics_snapshot.py --mode <mode> --changed <n> --applied <n> --rejected <n> --flagged <n>
+python3 pipeline/metrics_snapshot.py --mode <mode> --changed <entries changed this run>
 ```
 
-Until that script ships, use this inline fallback (fill the five values:
-mode, entries changed, flags applied / rejected / sent-to-curator this run):
-
-```bash
-python3 - "<mode>" "<changed>" "<applied>" "<rejected>" "<flagged>" <<'PY'
-import json, sys, datetime, pathlib, re
-mode = sys.argv[1]
-changed, applied, rejected, flagged = (int(x) for x in sys.argv[2:6])
-root = pathlib.Path(".")
-def count_lines(p):
-    f = root / p
-    return sum(1 for _ in f.open(encoding="utf-8")) if f.exists() else 0
-try:
-    cands = len(json.loads((root / "candidate_words.json").read_text(encoding="utf-8")).get("candidates", []))
-except Exception:
-    cands = None
-try:
-    entries = len(json.loads((root / "entries_index.json").read_text(encoding="utf-8")).get("entries", []))
-except Exception:
-    entries = None
-try:
-    led = json.loads((root / "pipeline/openrouter-ledger.json").read_text(encoding="utf-8"))
-    spent = led.get("spent_usd") if led.get("date") == datetime.datetime.now(datetime.timezone.utc).date().isoformat() else 0.0
-except Exception:
-    spent = None
-m = re.search(r"next:\s*(\d+)", (root / "polishing/tasks/comprehensive/progress.txt").read_text(encoding="utf-8"))
-row = {
-    "ts": datetime.datetime.now(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
-    "mode": mode, "entries_changed": changed,
-    "flags_applied": applied, "flags_rejected": rejected, "flags_to_curator": flagged,
-    "entries_total": entries, "candidates": cands,
-    "review_queue_len": count_lines("reviews/queue.txt"),
-    "observations_lines": count_lines("polishing/observations.md"),
-    "comprehensive_next": int(m.group(1)) if m else None,
-    "openrouter_spent_today_usd": spent,
-}
-with (root / "pipeline/metrics-history.jsonl").open("a", encoding="utf-8") as f:
-    f.write(json.dumps(row, ensure_ascii=False) + "\n")
-print("metrics:", row)
-PY
-```
-
-This costs seconds and gives the curator (and the weekly wiki trend review) a
-real time series instead of impressions.
+Flag tallies are derived automatically from today's `reviews/decisions.jsonl`
+lines (pass `--applied/--rejected/--flagged` only to override), and detector
+queue depths are collected automatically about once a week. If the script is
+missing or errors, note that in the session log and continue — never let
+metrics block the wrap-up. This costs seconds and gives the curator (and the
+weekly wiki trend review) a real time series instead of impressions.
 
 ## 6. Budget & context discipline (inherited from v1 — do not relax)
 
@@ -309,17 +271,20 @@ converging instead of growing. Spend is capped per-run by the selector
 1. **Budget.** Read `params.openrouter_session_budget_usd` (already = the
    smaller of the per-session cap and the remaining daily budget). If it is
    `0` or missing, the daily cap is spent — **do not call OpenRouter**; log a
-   note and stop. Otherwise size this run's ID range so the estimated spend
-   uses most of the session budget: the test runs covered ~200–250 entries for
-   ~$0.50 all-in, i.e. **~$2 per 1,000 entries** — scale accordingly.
+   note and stop. Otherwise size this run's ID range to the budget: screening
+   + accuracy cost **~$0.5 per 1,000 entries**; the deep furigana pass is the
+   expensive part (~$0.01/entry × flagged), so **cap deep spend at roughly
+   one-third of the session budget**. Target ~400–600 entries per run. The
+   binding constraint is usually adjudication effort, not dollars — shrink the
+   range if step 4 is running long.
 2. **Furigana correctness** — `build/review_runner.py` over a range starting
    at `params.start_id`:
    ```bash
    python3 build/review_runner.py --pass screening --range <start> <end> --budget <part>
-   python3 build/review_runner.py --pass deep --range <start> <end> --budget <part>
+   python3 build/review_runner.py --pass deep --range <start> <end> --budget <deep_cap>
    ```
-   Screening is cheap; deep covers only flagged entries. **Resilience:** the
-   runner has a known crash on null API responses (observed 2026-06-09). If it
+   Screening is cheap; `--pass deep --range` deep-reviews **only the
+   screening-flagged entries inside the range**. **Resilience:** if the runner
    exits abnormally mid-pass, keep the per-entry results already written,
    append a `[tooling]` observation, and continue with step 3 — do not retry
    the whole pass.
@@ -341,7 +306,15 @@ converging instead of growing. Spend is capped per-run by the selector
    - **FLAG** genuine uncertainty for the curator
      (append to `reviews/needs_curator.txt`).
    Never apply blindly; never add inline links in this mode. **Log every
-   decision to `reviews/decisions.jsonl`** (§C).
+   decision to `reviews/decisions.jsonl`** (§C). **Adjudication effort scales
+   with flag quality** (measured 2026-06-10: error-severity flags ~4–13%
+   applicable, warn-severity ~1%): work every `error`-severity issue
+   individually; for `warn`-severity issues, sample ~10 per dimension, and if
+   a recurring noise family emerges (same rejection reason repeating),
+   bulk-reject the rest of that family with ONE aggregated §C line instead of
+   reading hundreds of items. If more than ~20% of entries come back flagged,
+   that is reviewer noise, not dictionary error — log a `[tooling]`
+   observation with examples so the reviewer prompt can be tuned further.
 5. **Record spend in the ledger** (enforces the daily $5 cap across runs).
    Replace the three arguments with the combined `Est. cost` reported by the
    review scripts, the phase label, and the entry count:
@@ -386,10 +359,10 @@ regressions came from overly-ambitious mechanical sweeps.
    `planning/wiki/ideas/cleanup-backlog.md` / `tooling-backlog.md`.
 2. Run the item's `detect` command and apply its `filter` if present. The
    detectors — `build/check_furigana_format.py`, `build/check_artifacts.py`,
-   `build/check_tag_drift.py` — are **read-only** and emit a JSON review queue
-   (`--json`); they never modify entries. (If a future item needs a detector
-   that doesn't exist, build it from the wiki's detection rules, commit it,
-   then run it.)
+   `build/check_tag_drift.py`, `build/check_example_headword.py` — are
+   **read-only** and emit a JSON review queue (`--json`); they never modify
+   entries. (If a future item needs a detector that doesn't exist, build it
+   from the wiki's detection rules, commit it, then run it.)
 3. **Fix a bounded, semantically-verified batch** (sized by the §6 context
    rule): open each flagged entry, confirm the fix is correct *for that
    entry*, then apply it and update its `modified` timestamp. For furigana
@@ -418,6 +391,16 @@ append mode; never rewrite the file):
 - `dim`: `gloss` | `translation` | `tags` | `furigana`
 - `decision`: `apply` | `reject` | `flag`
 - `note`: ≤10 words, telegraphic.
+
+When bulk-rejecting a recurring noise family (§A step 4), write ONE aggregated
+line with an `"n"` count and no `"entry"` field:
+
+```json
+{"ts":"2026-06-10T03:12:00Z","src":"accuracy","dim":"translation","sev":"warn","decision":"reject","n":57,"note":"family: stylistic rewording suggestions"}
+```
+
+Aggregated lines keep precision statistics countable without spending context
+on items already known to be noise.
 
 This is what makes reviewer-flag **precision** measurable per dimension over
 weeks (e.g. "translation flags: 80% applied; tags flags: 35% applied"). The

@@ -38,6 +38,7 @@ Audio readings for example sentences will be added in the future.
 - **Claude Code skills** for consistent entry creation and revision
 - **Entry tracking system** with `entries_index.json` for current entries and `candidate_words.json` for future additions
 - **Automated pipeline** for batch dictionary maintenance tasks
+- **Unattended improvement Routine** (`prompts/routine2.md`) — scheduled Claude sessions that rotate between polishing, entry creation, cross-model accuracy review (via OpenRouter, budget-capped), systemic fixes, and knowledge-base maintenance; each run verifies its own entry changes with an independent model, records quality metrics, and merges its own PR
 - **Robust build system** with atomic builds, XSS protection, and comprehensive validation
 - **CI/CD** with GitHub Actions for validation and automated pipeline runs
 
@@ -247,6 +248,9 @@ je-dict-1/
 │   ├── update-status.py  # Pipeline status tracking and reporting
 │   ├── update-brief.py   # Regenerates PROJECT_CONTEXT_BRIEF.md
 │   ├── recommend-tasks.py      # Task scheduler recommendations
+│   ├── routine_next.py   # Unified Routine mode selector (weighted rotation + health nudges)
+│   ├── metrics_snapshot.py     # Per-run quality metrics → metrics-history.jsonl
+│   ├── openrouter-ledger.json  # Daily OpenRouter spend ledger ($5/day cap)
 │   └── pipeline-config.json    # Active pipeline configuration
 ├── polishing/            # Progress tracking for polishing tasks
 ├── prompts/              # Task prompts (interactive and batch/)

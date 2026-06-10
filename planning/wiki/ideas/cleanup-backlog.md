@@ -417,6 +417,38 @@ grammatical, which surfaces the clearest mismatches.
 `descriptive` on an abstract/grammatical word with the right domain tag, or drop
 it in favour of `general`.
 
+## Priority 19: Noun examples that never contain their headword
+
+**Source**: Curator review of 00472 仕様 (2026-06-10) + systematic scan
+
+The curator-flagged case: 00472 仕様 (しよう) carried the example
+こんなに{壊|こわ}れたら{直|なお}しようがない — but 直しようがない is
+直し + よう(様) + がない; the string しよう only appears **across a morpheme
+boundary**. The example taught the wrong word. (A second example in the same
+entry showed どうしようもない, its own lexeme at 18862.) Both replaced
+2026-06-10 with genuine 仕様がない／…の仕様がない examples.
+
+A systematic scan (`build/check_example_headword.py`, read-only) of entries
+whose POS is exactly `noun` and whose headword contains kanji found **143
+suspect examples in 94 entries**, in two tiers:
+
+- **reading-only** (14): the kana reading appears but the kanji form doesn't.
+  Either a cross-boundary misparse (the 仕様 case) or legitimate kana
+  orthography (ごちそう for ご馳走, おむすび for お結び) — per-entry judgment.
+- **headword-absent** (129): neither form appears. The example may illustrate a
+  related compound (東経 in the 経度 entry), a verb form of the nominal
+  (仕組まれた in the 仕組み entry, 炙って in 炙り), a suffix usage (犯罪歴 in
+  the 歴史 entry, 食べ方 in the 仕方 entry), or simply the wrong word
+  (目玉焼き in the 卵 entry).
+
+**Detection**: `python3 build/check_example_headword.py --summary` (or `--json`
+for the systemic-fix review queue).
+
+**Suggested action**: systemic-fix batches with per-entry verification. Replace
+each bad example with a genuine example of the headword (full inline links), or
+delete it when the entry has examples to spare; skip legitimate kana-orthography
+cases. Queued as `example-headword-missing` in `backlog-queue.json`.
+
 ## Informational: Pre-polished cohort around 00083–00090
 
 Four entries in the 00074–00096 range (00083 俳句, 00086 発揮, 00087 花火, 00088 判事) were already fully linked — suggesting a prior polish pass touched that range. Subsequent sessions entering this area should expect occasional entries needing no work.

@@ -294,7 +294,35 @@ for a human.
 one extra fix round per content run; 1–3 extra MCP calls in pre-flight; two
 new append-only JSONL files to track. All bounded, all visible in the metrics.
 
-## 9. Out of scope now — multilingual hook (unchanged from v1)
+## 9. Post-test revisions (2026-06-10, after the five forced-mode runs)
+
+All five manual test runs (PRs #2666–#2670, one per mode) executed and
+**self-merged cleanly**; every v2 mechanism worked on first contact (priority
+lane, new-entry gate, queue maintenance, decision ledger, metrics snapshot,
+§0a rescue check, wiki trend page). The runs also produced the first hard
+data, which drove these same-day revisions:
+
+| Finding (evidence) | Revision |
+|---|---|
+| **Reviewer-flag noise dominates**: run 003 adjudicated 417 flags to apply 6; ledger shows warn-severity flags 0.7–2.1% applicable, error-severity 4–13%. Rejection families were predictable: style rewordings, project conventions (politeness "plain", suru-verb "action" tag, kinship "humble"), invented tags outside the schema enum. | `review_accuracy.py` prompt v2 (`PROMPT_VERSION = 2`): embeds the `VALID_SEMANTIC` vocabulary, states project conventions as do-not-flag, raises the materiality bar ("expected response is []"), defines severities. Review files now record `prompt_version` so calibration can compare. |
+| **Deep furigana pass = 83% of run cost, 0 applies**: $0.4461 for 45 entries; its 4 flags were 3 documented FP-family rejects + 1 curator escalation. Both deep models agreed on the FPs, so consensus did not filter them. | Screening prompt gains a known-correct-patterns block (rendaku incl. 〜好き→ずき, standalone noun readings, compound splits, counter sound changes). §A caps deep spend at ~⅓ of session budget. |
+| **`--pass deep --range` bug**: deep-reviewed the whole range, not the screening-flagged subset; run 003 caught it mid-burn and recovered with `--ids`. | Fixed in `review_runner.py`: a range now intersects with screening flags (explicit `--ids` unchanged). |
+| **Model-response parse failures**: gemini-2.5-pro returns empty `content` with text in `reasoning` (06-10), and null content crashed the runner (06-09). | Shared `extract_message_text()` guard: tolerates null/empty content, falls back to `reasoning`, accepts object-wrapped arrays. |
+| **Priority lane skipped 105 of its first 110 lines** chasing the below-frontier exclusion — yet the worst-scoring entries *are* mostly below the frontier (scored after their long-ago polish) and the 6 lane entries it did process yielded real fixes. | Lane rule changed: worst-first regardless of frontier; skip only missing entries and entries modified in the last 30 days; cursor resets to `line: 1` when priorities are regenerated. |
+| **Adjudication effort, not dollars, is the binding constraint** on review-range size. | §A guidance: ~400–600 entries/run; work `error` flags individually, sample `warn` flags and bulk-reject recurring noise families with one aggregated §C line (`"n"` count); >20% entries flagged ⇒ treat as reviewer noise and file `[tooling]`. |
+| **Manual metrics heredoc is clumsy** (sessions hand-counted flags). | `pipeline/metrics_snapshot.py` shipped: derives flag tallies from today's `decisions.jsonl`, adds weekly detector-depth collectors; §5 slimmed to one command. |
+| **Queue convergence concern** (wiki run filed it: 19,602 → 19,450 in a day). | Root cause is sweep throughput, addressed by the cost fixes above + `per_session_cap_usd` 1.5 → 2.5: ~1,000+ entries/day ⇒ queue drains in ~3–5 weeks of normal rotation. Re-adds from content runs (~+15/day) are noise against that. |
+| Proposed weight shift (plan §4 item 4). | Applied: accuracy-review 0.20 → 0.25, new-entries 0.20 → 0.15. |
+
+Still deliberately deferred: `pipeline/rescue-merge.py` (§0a's manual MCP steps
+were a clean no-op in all five runs; codify later), selector signal additions,
+`--from-queue` convenience flags, and the inline-link **target-correctness**
+gate (`validate.py` verifies link IDs resolve but not that the baseform matches
+the target entry — run 001 caught a データ→クラウド mislink only by hand; filed
+as Tooling Backlog item 11, best built as a read-only `check_link_targets.py`
+detector feeding `systemic-fix`).
+
+## 10. Out of scope now — multilingual hook (unchanged from v1)
 
 Per the curator, this Routine targets **Japanese→English only**. The v1 seams
 are preserved untouched: a future `language` dimension in the selector config,

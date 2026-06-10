@@ -37,6 +37,7 @@ from review_runner import (  # noqa: E402  (sibling module, tested plumbing)
     call_openrouter, parse_model_response, estimate_cost, rough_token_count,
     get_api_key,
 )
+from validate_tags import VALID_SEMANTIC  # noqa: E402
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = PROJECT_ROOT / "entries"
@@ -44,6 +45,13 @@ OUT_DIR = PROJECT_ROOT / "reviews" / "accuracy"
 
 DEFAULT_MODEL = "google/gemini-2.5-flash"
 DIMENSIONS = ("gloss", "translation", "tags")
+
+# Prompt revision marker, recorded in each review file so calibration stats can
+# be segmented by prompt version. v1 (2026-06-09) produced ~1.5% flag precision
+# on basic-tier entries (413 issues -> 6 applies in 00451-00650); v2 (2026-06-10)
+# embeds project conventions + the valid tag vocabulary and raises the
+# materiality bar. See reviews/decisions.jsonl for the evidence.
+PROMPT_VERSION = 2
 
 FURIGANA_RE = re.compile(r"\{([^|]+)\|[^}]+\}")
 LINK_TAIL_RE = re.compile(r"→[^⟧]*⟧")
@@ -107,26 +115,56 @@ def build_prompt(entry, dimensions):
     payload = entry_payload(entry)
     checks = []
     if "gloss" in dimensions:
-        checks.append('- "gloss": the top-level gloss or a sense gloss/explanation '
-                      'inaccurately, misleadingly, or incompletely renders the '
-                      'headword\'s meaning for an English-speaking learner.')
+        checks.append('- "gloss": the gloss or explanation states a WRONG or '
+                      'misleading meaning (e.g. says "borrow" for a word meaning '
+                      '"lend", or "wink" for a word meaning "blink"). Do NOT '
+                      'report glosses that are merely brief, incomplete, or '
+                      'phrased differently than you would phrase them — concise '
+                      '3-8 word glosses are this dictionary\'s house style, and '
+                      'sense restructuring is out of scope.')
     if "translation" in dimensions:
-        checks.append('- "translation": an example\'s English is not a faithful, '
-                      'natural rendering of its Japanese (mistranslation, dropped '
-                      'or added meaning, or unnatural English). Use the example '
+        checks.append('- "translation": an example\'s English MISREPRESENTS the '
+                      'Japanese (wrong meaning, dropped or added information) or '
+                      'is so unnatural that a learner would mislearn the English '
+                      'expression. Do NOT report phrasing preferences or minor '
+                      'literalness when the meaning is correct. Use the example '
                       'index "i".')
     if "tags" in dimensions:
-        checks.append('- "tags": a SEMANTIC tag does not fit the HEADWORD\'s own '
-                      'meaning. Judge the tag against the headword and gloss, NOT '
-                      'against the topics of the example sentences (tags are often '
-                      'wrongly copied from example topics). Also flag a clearly '
-                      'wrong formality/politeness label.')
+        checks.append('- "tags": a SEMANTIC tag is clearly wrong for the '
+                      'HEADWORD\'s own meaning (e.g. "clothing" on a word for a '
+                      'bag, "food" on an onomatopoeia). Judge the tag against the '
+                      'headword and gloss, NOT against the topics of the example '
+                      'sentences (tags are often wrongly copied from example '
+                      'topics). Suggested replacement tags MUST come from the '
+                      'valid tag list below — never invent a tag. Also flag a '
+                      'clearly wrong formality label (e.g. a formal/technical '
+                      'term labeled "informal").')
     return f"""You are a meticulous bilingual (Japanese-English) lexicographer reviewing one \
-entry of a Japanese-English dictionary for intermediate learners. Be CONSERVATIVE: \
-only report clear, defensible problems — not stylistic preferences.
+entry of a Japanese-English dictionary for intermediate learners. Your job is to catch \
+REAL ERRORS that would mislead a learner — not to suggest improvements. Most entries \
+you see are correct: the EXPECTED response is the empty array []. Report an issue only \
+when you are confident something is factually wrong.
 
 Report an issue ONLY for these cases:
 {chr(10).join(checks)}
+
+Project conventions — these are deliberate; do NOT report them as issues:
+- politeness "plain" is the default for ordinary (non-keigo) vocabulary.
+- formality "neutral" is the default; many everyday words carry it.
+- Kinship terms (母, 父, 兄, 姉 …) are tagged politeness "humble" by design \
+(they are the in-group reference forms).
+- suru-verbs and action nouns carry the semantic tag "action" by convention.
+- "general", "descriptive", "expression", "onomatopoeia", "grammatical" are \
+legitimate fallback tags for words that fit no concrete category.
+- Glosses are deliberately concise; explanations target intermediate learners; \
+example translations favor natural English over word-for-word renderings.
+
+Valid semantic tags (the ONLY allowed values):
+{", ".join(sorted(VALID_SEMANTIC))}
+
+Severity: use "error" for issues that would actively mislead a learner (wrong \
+meaning, wrong tag). Use "warn" SPARINGLY — only when something is likely wrong \
+but you cannot be certain. Do not use "warn" for style.
 
 Entry (JSON):
 {json.dumps(payload, ensure_ascii=False, indent=2)}
@@ -161,6 +199,7 @@ def save_review(entry, model, dimensions, issues):
         "entry_id": eid,
         "headword": entry.get("headword"),
         "model": model,
+        "prompt_version": PROMPT_VERSION,
         "dimensions": list(dimensions),
         "reviewed_at": datetime.now(timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"),
         "summary": {"flagged": len(issues)},

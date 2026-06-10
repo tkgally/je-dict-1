@@ -199,6 +199,7 @@ Every entry must include:
 - `romaji`: Must match the full reading, concatenated without internal underscores
 - `part_of_speech`: Consistent terminology
 - `gloss`: Brief English equivalent — 3–8 words, semicolon-separated. **Not a definition.** No parenthetical mini-definitions, etymology, numbered clauses, or sentences. The longer description belongs in `definitions[i].explanation`.
+  - **Negative-polarity items** (words or senses used only with negatives — めったに, ちっとも, 必ずしも, しか, the way/method sense of 仕様, etc.): append the marker `(with negative)` to the gloss, and render the English with `(not) …` where that reads naturally — e.g. `rarely, seldom (with negative)`, `(not) properly; (not) satisfactorily (with negative)`, `(no) way, means (with negative)`. If only one sense is negative-only, mark that sense's gloss (and the corresponding part of the top-level gloss), and say so in the explanation.
 - `definitions`: Array with sense_number, gloss (3–10 words), and explanation (1–3 sentences, ~150–400 chars)
 - `examples`: Meet the per-sense minimum from the `example-sentences` skill (3 for general tier, 5 for basic/core). Exceeding the minimum by 0–1 is fine; exceeding by more is rarely warranted.
 - `notes`: Usage notes, grammar patterns, common mistakes (see `vocabulary-notes` skill for formatting requirements and length budgets)

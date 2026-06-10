@@ -147,6 +147,20 @@
       "scope_estimate": 977,
       "severity": "warn",
       "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path is now the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics) and is validated to flag e.g. body-part on 切り捨てる. This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it."
+    },
+    {
+      "id": "example-headword-missing",
+      "title": "Noun examples that never contain their headword (misparses, wrong-word examples)",
+      "source": "ideas/cleanup-backlog.md#priority-19",
+      "detect": "python3 build/check_example_headword.py --json",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 3,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 143,
+      "severity": "warn",
+      "notes": "Two tiers: 'reading-only' (14 — kana reading present without the kanji form; either a cross-boundary misparse like 仕様 inside 直しようがない, or legitimate kana orthography like ごちそう — judge per entry) and 'headword-absent' (129 — example may show a related compound, a verb form of the nominal, or simply the wrong word, e.g. 目玉焼き in the 卵 entry). Replace bad examples with genuine headword examples carrying full inline links, or remove if the entry has examples to spare. Motivating case 00472 仕様 fixed 2026-06-10 (curator-directed)."
     }
   ]
 }
