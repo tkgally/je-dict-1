@@ -1,0 +1,24 @@
+{
+  "entry_id": "06020_nisokusanmon",
+  "headword": "{二束三文|にそくさんもん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T21:53:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'commerce' is not in the allowed list of tags.",
+      "suggestion": "Replace 'commerce' with a valid tag like 'general' or 'descriptive'."
+    }
+  ]
+}
