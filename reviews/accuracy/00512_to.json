@@ -1,0 +1,51 @@
+{
+  "entry_id": "00512_to",
+  "headword": "と",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:52:56Z",
+  "summary": {
+    "flagged": 5
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "warn",
+      "concern": "The top-level gloss is incomplete. It misses the 'if/when' and 'as' meanings.",
+      "suggestion": "Add 'if/when' and 'as' to the top-level gloss: 'and, with, (quotation), if/when, as'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[4].gloss",
+      "severity": "warn",
+      "concern": "The gloss 'as (comparison/manner)' is too broad and doesn't fully capture the nuance of と in this sense, which is often about perception, naming, or comparison with a standard.",
+      "suggestion": "Refine the gloss to 'as (comparison/perception)' or 'as (comparison/naming)' to better reflect the usage in the explanation and examples."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "warn",
+      "concern": "The English translation 'Which would you like, coffee or tea?' implies a choice between two items, which is correct, but the Japanese 'コーヒーと紅茶' uses と to list them, not to present them as alternatives in the same way 'or' does in English. While natural, it slightly misrepresents the function of と here.",
+      "suggestion": "A more literal and accurate translation that still sounds natural could be 'Coffee and tea, which would you prefer?' or 'Between coffee and tea, which would you prefer?'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "warn",
+      "concern": "The Japanese '山田と申します' is a set phrase for introducing oneself, meaning 'My name is Yamada.' The added '(formal)' tag in the English translation is redundant as the formality is inherent in the Japanese phrase 申します and not directly a function of と.",
+      "suggestion": "Remove '(formal)' from the English translation: 'My name is Yamada.'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[24]",
+      "severity": "warn",
+      "concern": "The English translation 'It was the result as I thought.' is grammatically awkward. 'As I thought' is a clause, not a noun phrase that 'as' would typically precede in this structure.",
+      "suggestion": "Change the translation to 'It was the result I expected.' or 'It was the result just as I thought it would be.'"
+    }
+  ]
+}

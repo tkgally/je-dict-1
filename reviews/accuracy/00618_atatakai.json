@@ -1,0 +1,23 @@
+{
+  "entry_id": "00618_atatakai",
+  "headword": "{暖|あたた}かい",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:56:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The 'weather' tag is too narrow for the headword, which also describes feelings and personalities.",
+      "suggestion": "Add 'emotions' or 'personality' to the semantic tags, or remove 'weather' and use a more general tag like 'general'."
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "entry_id": "00586_aoi",
+  "headword": "{青|あお}い",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:55:11Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].explanation",
+      "severity": "warn",
+      "concern": "The explanation for 'blue' is too narrow and doesn't cover all uses of blue.",
+      "suggestion": "Expand the explanation to include other blue objects like the sea or eyes, or remove the explanation if it's not meant to be exhaustive."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].explanation",
+      "severity": "warn",
+      "concern": "The explanation for 'green' is slightly misleading by stating 'Traditionally used for green things like traffic lights and unripe fruit.' This implies it's an archaic or less common usage, when it's a standard and current usage.",
+      "suggestion": "Rephrase the explanation to 'Used for green things like traffic lights and unripe fruit, as well as vegetation.'"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "warn",
+      "concern": "The English translation 'In Japan, they call the green light 'blue'' is slightly unnatural. 'In Japan, the green light is referred to as 'blue'' or 'In Japan, the green light is called 'blue'' would be more natural.",
+      "suggestion": "Change 'In Japan, they call the green light 'blue'' to 'In Japan, the green light is called 'blue'' or 'In Japan, the green light is referred to as 'blue'.'"
+    }
+  ]
+}

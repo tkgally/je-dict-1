@@ -1,0 +1,37 @@
+{
+  "entry_id": "00599_itsumo",
+  "headword": "いつも",
+  "model": "google/gemini-2.5-flash",
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T02:55:37Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The top-level gloss 'always' is incomplete as 'itsumo' also frequently means 'usually'.",
+      "suggestion": "Change gloss to 'always; usually'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The Japanese 'いつもの電車に乗る' uses 'いつもの' as an adjectival phrase, meaning 'the usual train'. The English translation 'To take the usual train' is correct, but this example is not a good fit for the headword 'いつも' as an adverb.",
+      "suggestion": "Remove or replace this example, or add a note about 'いつもの' as an adjectival use."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[8]",
+      "severity": "error",
+      "concern": "The Japanese 'いつもの席に座ります' uses 'いつもの' as an adjectival phrase, meaning 'my usual seat'. The English translation 'I sit in my usual seat' is correct, but this example is not a good fit for the headword 'いつも' as an adverb.",
+      "suggestion": "Remove or replace this example, or add a note about 'いつもの' as an adjectival use."
+    }
+  ]
+}
