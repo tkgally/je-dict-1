@@ -3,12 +3,12 @@
   "headword": "{仕様|しよう}",
   "reading": "しよう",
   "part_of_speech": "noun",
-  "gloss": "way, method; specifications",
+  "gloss": "(no) way, means (with negative); specifications",
   "definitions": [
     {
       "sense_number": 1,
-      "gloss": "way, method, means",
-      "explanation": "A way or method of doing something."
+      "gloss": "(no) way, method, means (with negative)",
+      "explanation": "A way or method of doing something. In modern Japanese this sense survives almost only in negative expressions: {仕様|しよう}がない (it can't be helped) and …の{仕様|しよう}がない (there is no way to do …)."
     },
     {
       "sense_number": 2,
@@ -49,8 +49,8 @@
     },
     {
       "id": "00472_shiyou_ex4",
-      "japanese": "⟦どうしようもない→どうしようもない：18862_doushiyoumonai⟧⟦こと→こと：01164_koto⟧⟦だ→だ：09496_da⟧。",
-      "english": "It's something that can't be helped.",
+      "japanese": "⟦ほか→他：04129_hoka⟧⟦に→に：00314_ni⟧{仕様|しよう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧⟦ので→ので：09501_node⟧、⟦{歩|ある}いて→歩く：00538_aruku⟧⟦{帰|かえ}った→帰る：00508_kaeru⟧。",
+      "english": "There was no other way, so I walked home.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -59,8 +59,8 @@
     },
     {
       "id": "00472_shiyou_ex5",
-      "japanese": "⟦こんなに→こんなに：02812_konnani⟧⟦{壊|こわ}れたら→壊れる：00791_kowareru⟧⟦{直|なお}し→直す：00869_naosu⟧よう⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧。",
-      "english": "If it's this broken, there's no way to fix it.",
+      "japanese": "⟦{急|きゅう}に→急に：00263_kyuuni⟧⟦{聞|き}かれて→聞く：00483_kiku⟧、⟦{返事|へんじ}→返事：00844_henji⟧⟦の→の：09472_no⟧{仕様|しよう}⟦が→が：00051_ga⟧⟦なかった→ない：01118_nai⟧。",
+      "english": "Asked out of the blue, I had no way to reply.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "{仕様|しよう} has two main uses:\n\n1. WAY/METHOD:\n- {仕様|しよう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: it can't be helped, there's no way\n- ⟦どうしようもない→どうしようもない：18862_doushiyoumonai⟧: there's nothing to be done (related expression)\n\n2. SPECIFICATIONS (technical):\n- ⟦{仕様|しよう}{書|しょ}→仕様書：07485_shiyousho⟧: specification document, specs\n- ⟦{製品|せいひん}→製品：01445_seihin⟧{仕様|しよう}: product specifications\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{仕様|しよう}: technical specifications\n\nNOTE: This is a homophone with ⟦{私用|しよう}→私用：00459_shiyou⟧ (personal use) and ⟦{使用|しよう}→使用：01637_shiyou⟧ (use).",
+  "notes": "{仕様|しよう} has two main uses:\n\n1. WAY/METHOD (only with negatives):\n- {仕様|しよう}⟦が→が：00051_ga⟧⟦ない→ない：01118_nai⟧: it can't be helped, there's no way — often contracted to ⟦しょうがない→しょうがない：07381_shouganai⟧ in speech\n- ⟦{返事|へんじ}→返事：00844_henji⟧の{仕様|しよう}がない: there is no way to reply (…の{仕様|しよう}がない = no way to do …)\n- ⟦どうしようもない→どうしようもない：18862_doushiyoumonai⟧: there's nothing to be done (related expression)\n- After a verb stem, 〜ようがない (e.g. ⟦{直|なお}し→直す：00869_naosu⟧ようがない: there's no way to fix it) uses the suffix ⟦よう→よう：01114_you⟧ (様), not {仕様|しよう}.\n\n2. SPECIFICATIONS (technical):\n- ⟦{仕様|しよう}{書|しょ}→仕様書：07485_shiyousho⟧: specification document, specs\n- ⟦{製品|せいひん}→製品：01445_seihin⟧{仕様|しよう}: product specifications\n- ⟦{技術|ぎじゅつ}→技術：01389_gijutsu⟧{仕様|しよう}: technical specifications\n\nNOTE: This is a homophone with ⟦{私用|しよう}→私用：00459_shiyou⟧ (personal use) and ⟦{使用|しよう}→使用：01637_shiyou⟧ (use).",
   "cross_references": [
     {
       "type": "related",
@@ -86,11 +86,18 @@
       "headword": "{使用|しよう}",
       "label": "use",
       "target_id": "01637_shiyou"
+    },
+    {
+      "type": "related",
+      "reading": "しょうがない",
+      "headword": "しょうがない",
+      "label": "colloquial contraction",
+      "target_id": "07381_shouganai"
     }
   ],
   "metadata": {
     "created": "2026-01-12T23:49:28Z",
-    "modified": "2026-05-11T16:12:13Z",
+    "modified": "2026-06-10T07:17:57Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

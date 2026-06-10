@@ -6,17 +6,18 @@ Copy-paste any of these prompts to start a task. Each one tells Claude to read t
 
 ## Scheduled Routine (default unattended task)
 
-### Unified improvement Routine — schedule THIS
+### Unified improvement Routine v2 — schedule THIS
 ```
-Read prompts/routine.md and follow the instructions.
+Read prompts/routine2.md and follow it end to end as an unattended run: complete the pre-flight, execute the mode the selector picks, then finish the full §7 wrap-up — build if needed, commit, push, create the PR, wait for CI, squash-merge it yourself, and release the lock. If the pre-flight lock is held by another active run, stop quietly.
 ```
 
-This is the single task to schedule as a Routine (and the default for unattended runs). Each run a deterministic selector picks ONE focus — `polish`, `new-entries`, `accuracy-review`, `wiki`, or (Phase 2) `systemic-fix` — by tunable weights with health nudges, follows that mode's prompt, captures candidates/observations, and merges its own PR. It replaces scheduling comprehensive polish, new-entries, and wiki maintenance separately. Tune the mix in `pipeline/routine-config.json`. Useful checks:
+This is the single task to schedule as a Routine (and the default for unattended runs). Each run a deterministic selector picks ONE focus — `polish` (priority lane + frontier), `new-entries`, `accuracy-review`, `wiki`, or `systemic-fix` — by tunable weights with health nudges, follows that mode's prompt, captures candidates/observations, **self-verifies its own entry changes with an independent model**, appends a quality-metrics line, and merges its own PR. It replaces scheduling comprehensive polish, new-entries, and wiki maintenance separately. (`prompts/routine.md` is the superseded v1 — don't schedule it alongside v2.) Tune the mix in `pipeline/routine-config.json`. Useful checks:
 
 ```
 python3 pipeline/routine_next.py --explain      # why the next run would pick a given mode
 python3 pipeline/routine_next.py --simulate 60  # mode distribution over 60 runs
 python3 pipeline/routine_next.py --force-mode polish   # force one mode for manual testing
+python3 pipeline/metrics_snapshot.py --mode polish --changed 0 --dry-run  # preview a metrics row
 ```
 
 The prompts below remain runnable manually for targeted work.

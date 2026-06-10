@@ -102,6 +102,12 @@ Each session should do **2-4 activities** from the list below in addition to the
 - Document best practices discovered through research that should flow into entry creation guidelines
 - (Do NOT modify prompts or skills directly — just document recommendations in the wiki)
 
+#### H. Review quality-metrics trends
+- Read `pipeline/metrics-history.jsonl` (one line per Routine run) and `reviews/decisions.jsonl` (every APPLY/REJECT/FLAG on an external-model flag)
+- Update `planning/wiki/topics/quality-metrics.md`: refresh the dated trend table (entry totals, flags applied/rejected, review-queue depth, OpenRouter spend, detector queue depths) and the flag-precision-by-dimension stats (segment by `prompt_version` where present)
+- Log any metric moving the wrong way as a `[pattern]` observation so the next harvest picks it up
+- Do this when ≥10 new metrics lines have accumulated since the page's last update (roughly weekly at current cadence)
+
 ### 4. Update the log
 
 Append an entry to `planning/wiki/log.md` recording what you did:

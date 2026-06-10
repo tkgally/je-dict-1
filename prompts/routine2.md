@@ -359,10 +359,10 @@ regressions came from overly-ambitious mechanical sweeps.
    `planning/wiki/ideas/cleanup-backlog.md` / `tooling-backlog.md`.
 2. Run the item's `detect` command and apply its `filter` if present. The
    detectors — `build/check_furigana_format.py`, `build/check_artifacts.py`,
-   `build/check_tag_drift.py` — are **read-only** and emit a JSON review queue
-   (`--json`); they never modify entries. (If a future item needs a detector
-   that doesn't exist, build it from the wiki's detection rules, commit it,
-   then run it.)
+   `build/check_tag_drift.py`, `build/check_example_headword.py` — are
+   **read-only** and emit a JSON review queue (`--json`); they never modify
+   entries. (If a future item needs a detector that doesn't exist, build it
+   from the wiki's detection rules, commit it, then run it.)
 3. **Fix a bounded, semantically-verified batch** (sized by the §6 context
    rule): open each flagged entry, confirm the fix is correct *for that
    entry*, then apply it and update its `modified` timestamp. For furigana

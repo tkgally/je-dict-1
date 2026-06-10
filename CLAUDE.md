@@ -51,6 +51,11 @@ pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, 
   pipeline/monitor.py       # Real-time monitoring dashboard for orchestration
   pipeline/budget.json      # Daily budget cap configuration (auto-updated)
   pipeline/sweep-stranded-prs.py # Close+delete obsolete `claude/*` PRs/branches whose entry range is past main's progress
+  pipeline/routine_next.py  # Unified Routine mode selector (deterministic weighted rotation + health nudges)
+  pipeline/routine-config.json   # Routine tuning knobs (mode weights, OpenRouter caps)
+  pipeline/openrouter-ledger.json # Daily OpenRouter spend ledger ($5/day cap, auto-reset)
+  pipeline/metrics_snapshot.py   # Appends one quality-metrics line per Routine run
+  pipeline/metrics-history.jsonl # Per-run quality metrics time series (auto-appended)
   pipeline/logs/            # Session and orchestrator log files
 planning/         # Project knowledge base and planning
   planning/wiki/        # LLM-maintained knowledge base (project docs, research, ideas)
@@ -72,7 +77,10 @@ reviews/          # Multi-model review reports (furigana correctness)
   reviews/calibration_report.md  # Phase 1 calibration results
   reviews/{entry_id}.json        # Per-entry deep review reports
   reviews/screening/             # Pass 1 screening results (cheap model)
-  reviews/queue.txt              # Entries queued for review (auto-updated by CI)
+  reviews/accuracy/              # Gloss/translation/tag accuracy reviews (review_accuracy.py)
+  reviews/queue.txt              # Entries queued for review (auto-updated by CI; drained by accuracy-review runs)
+  reviews/decisions.jsonl        # APPLY/REJECT/FLAG ledger for external-model flags (precision tracking)
+  reviews/needs_curator.txt      # Flags escalated to the curator by Routine runs
 candidate_words.json   # Words queued for future entry creation
 entries_index.json     # Master index of all entries (rebuilt by update_indexes.py)
 build/word_id_lookup.json  # Pre-built word→entry_id map (for inline link lookups)
@@ -212,11 +220,13 @@ python3 build/review_accuracy.py --report                         # Summarize ac
 python3 build/check_furigana_format.py --summary   # Malformed furigana wrappers (Cleanup P9/P12)
 python3 build/check_artifacts.py --summary         # [Register:]/{ている}/dup-conjugation/missing target_id (P16/P15/P10/P4/P2)
 python3 build/check_tag_drift.py --summary         # conjugation-no-verb-pos, politeness, sole-general, semantic-mismatch (P6/P7/P13/P11)
+python3 build/check_example_headword.py --summary  # Noun examples that never contain their headword (P19)
 
-# Unified Routine selector
+# Unified Routine selector and metrics
 python3 pipeline/routine_next.py --explain         # Why the next Routine run would pick a given mode
 python3 pipeline/routine_next.py --simulate 60     # Mode distribution over 60 runs
 python3 pipeline/routine_next.py --force-mode polish  # Force a mode (manual testing; no persist)
+python3 pipeline/metrics_snapshot.py --mode polish --changed 16  # Append per-run quality metrics line
 
 # Makefile shortcuts (recommended)
 make build                                # validate + update_indexes + full build
@@ -301,7 +311,7 @@ If `find_missing_furigana.py` shows entries from the current session, fix them b
 The `prompts/` directory contains detailed instructions for each type of session task. Start a task by reading the prompt file (e.g., "Read prompts/newentries.md and follow the instructions"). Shell runner scripts in `prompts/batch/` automate tasks for non-interactive `claude --print` execution. `prompts/metaprompt_list.md` is a reference listing all available prompts with usage examples.
 
 **Scheduled Routine (the single unattended driver):**
-- `routine.md` — **the one task to schedule as a Routine.** Each run a deterministic selector (`pipeline/routine_next.py`, weighted rotation + health nudges) picks ONE focus — `polish`, `new-entries`, `accuracy-review` (cross-model furigana review via OpenRouter, $5/day ledger in `pipeline/openrouter-ledger.json`), `wiki`, or (Phase 2) `systemic-fix` — and the Routine follows that mode's existing prompt below, plus always-on candidate/observation capture, then merges its own PR. It **replaces** running comprehensive polish, new-entries, and wiki maintenance as separate scheduled tasks. Tune the mix in `pipeline/routine-config.json`. The individual prompts below remain runnable manually. Design: `enhancement/unified-routine-plan-2026-06-09.md`.
+- `routine2.md` — **the one task to schedule as a Routine** (v2, "Verified Routine"; supersedes `routine.md`, which remains in the repo as the v1 reference — never schedule both). Each run a deterministic selector (`pipeline/routine_next.py`, weighted rotation + health nudges) picks ONE focus — `polish` (priority lane + sequential frontier), `new-entries`, `accuracy-review` (cross-model furigana/gloss/translation/tag review via OpenRouter, $5/day ledger in `pipeline/openrouter-ledger.json`), `wiki`, or `systemic-fix` — and the Routine follows that mode's existing prompt below, plus always-on candidate/observation capture. v2 additions: every run that changes entries **self-verifies exactly those entries with an independent model before the PR**, every flag adjudication is logged to `reviews/decisions.jsonl`, and every run appends a quality-metrics line via `pipeline/metrics_snapshot.py`. Each run merges its own PR. It **replaces** running comprehensive polish, new-entries, and wiki maintenance as separate scheduled tasks. Tune the mix in `pipeline/routine-config.json`. The individual prompts below remain runnable manually. Design: `enhancement/routine2-plan-2026-06-10.md` (v1: `enhancement/unified-routine-plan-2026-06-09.md`).
 
 **Dictionary building:**
 - `newentries.md` — create 30 entries from candidate_words.json
