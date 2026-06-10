@@ -1,0 +1,24 @@
+{
+  "entry_id": "01038_nabe",
+  "headword": "{鍋|なべ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:54:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for the headword '鍋' (nabe) which primarily refers to a cooking utensil. While it can refer to a dish, the primary meaning is the utensil.",
+      "suggestion": "tool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "00735_naoru",
+  "headword": "{直|なお}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:47:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general for a word that specifically describes a state of being fixed or recovering. While 'action' is a fallback, a more precise tag is available.",
+      "suggestion": "existence"
+    }
+  ]
+}

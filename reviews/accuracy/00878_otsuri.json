@@ -1,0 +1,24 @@
+{
+  "entry_id": "00878_otsuri",
+  "headword": "お{釣|つ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:50:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'honorific' is incorrect for お釣り. While お is an honorific prefix, the word itself is not used to show respect to the listener or the subject of the sentence in the way that true honorifics (keigo) are. It's a common noun that happens to have an honorific prefix.",
+      "suggestion": "plain"
+    }
+  ]
+}

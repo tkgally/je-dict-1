@@ -1,0 +1,24 @@
+{
+  "entry_id": "01098_ireru",
+  "headword": "{入|い}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T13:55:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "error",
+      "concern": "The English translation 'Please push with force' for '力を入れて押してください。' is misleading. While '力を入れる' can mean 'to put effort into', in this context, it means 'to push hard' or 'to apply strength'. 'Push with force' is not a natural or common English expression.",
+      "suggestion": "Please push hard."
+    }
+  ]
+}
