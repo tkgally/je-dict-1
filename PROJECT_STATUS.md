@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-09
+**Last updated**: 2026-06-10
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -50,6 +50,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 3. **Keigo references** - Link to honorific forms
 
 ## Recent Changes
+
+### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29063–29082)
+Added 20 new entries (IDs 29063–29082) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05807–06662 but not yet defined. **First Routine run exercising the v2 §4 self-verification gate**: all 20 new entries were sent to an independent model (`review_accuracy.py`) before the single build.
+
+- **Medical / anatomy (7)**: {聴診|ちょうしん} (auscultation, also suru), {頸動脈|けいどうみゃく} (carotid artery), {冠動脈|かんどうみゃく} (coronary artery), {膵臓癌|すいぞうがん} (pancreatic cancer), {胆嚢|たんのう} (gallbladder), {十二指腸|じゅうにしちょう} (duodenum), {飛沫|ひまつ} (droplets / spray)
+- **Longevity milestones / omikuji fortunes (5)**: {古希|こき} (70th birthday), {喜寿|きじゅ} (77th birthday), {中吉|ちゅうきち} (middle blessing), {小吉|しょうきち} (small blessing), {末吉|すえきち} (future blessing) — cross-referenced to existing {大吉|だいきち} (19336) and おみくじ (05959)
+- **Business / transport nouns (3)**: {監査役|かんさやく} (statutory auditor), {駐機場|ちゅうきじょう} (airport apron), {延着|えんちゃく} (delayed arrival, also suru)
+- **Verbs (2)**: つぶる (godan, to close one's eyes), {言|い}い{張|は}る (godan, to insist)
+- **Yojijukugo / onomatopoeia (3)**: {空前絶後|くうぜんぜつご} (unprecedented and unrepeatable), べらべら (chattering / fluent), どたどた (heavy clumsy footsteps)
+
+§4 self-verification: 33 model flags across 17 entries adjudicated → **5 applied** (2 gloss age-sense additions for 古希/喜寿, 1 stubbornness nuance for 言い張る, 1 over-literal translation fix for 空前絶後, 1 tag fix), **28 rejected** (stylistic nits, model misreadings, house-style conflicts e.g. "blessing" matching existing 大吉), **0 flagged to curator**. Decisions logged to `reviews/decisions.jsonl`; metrics line appended to `pipeline/metrics-history.jsonl`. Also retagged the 4 anatomy entries to semantic `["body-internal"]` to match the dictionary's internal-organ convention (心臓/胃/腎臓). New kanji 頸 (02770_kei_kubi_neck). 8 words captured as candidates (心音, 触診, 胆汁, 胆石, 摘出, 潰瘍, 延発, どすどす). All 20 valid; conjugation tables added for 4 verbs/suru; 20 candidates removed.
 
 ### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog, IDs 29043–29062)
 Added 20 new entries (IDs 29043–29062) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05794–05963 but not yet defined.
