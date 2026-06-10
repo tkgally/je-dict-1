@@ -346,7 +346,7 @@ Multiple verb entries use `{ている}` (furigana brace syntax) instead of plain
 
 **Suggested action**: Simple regex replacement: `{ている}` → `ている` across all entries. Pure text substitution, no semantic judgment needed. Low risk.
 
-## Priority 16: `[Register: Neutral]` legacy artifact in notes
+## Priority 16: `[Register: Neutral]` legacy artifact in notes — RESOLVED 2026-06-10
 
 **Source**: Comprehensive-polish 2026-06-01 session 003 (entries 04574–04594)
 
@@ -356,7 +356,7 @@ Multiple entries have `[Register: Neutral]` or similar `[Register: ...]` strings
 
 **Detection**: `grep -rc '\[Register: ' entries/ | grep -v ':0$' | wc -l`
 
-**Suggested action**: Remove the `[Register: ...]` trailing lines from notes. Cross-check against the entry's `formality` field to ensure the information isn't lost. Mechanical sweep with validation.
+**Resolution (2026-06-10)**: All 188 entries fixed in one systemic-fix Routine run. Per-entry verification confirmed all `formality` fields already carried the equivalent register info. Schema has no "polite" value (→ "neutral" is correct); "Casual" in trailer maps to "informal" in schema. Furigana self-check on all 188 IDs found 5 flags, all rejected as pre-existing false positives. Detector now reports 0.
 
 ## Priority 17: "formal" formality tag over-applied in early entries
 
