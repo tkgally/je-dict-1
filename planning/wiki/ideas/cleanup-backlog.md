@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-09 (P11 extended through 05953; added P17 formality misassignment)
+**Last updated**: 2026-06-10 (P11 extended through 05990 + low-ID accuracy-review fixes; P17 extended to 00450; added P18 'descriptive' catch-all tag; P4 notes-level sub-pattern extended to 06xxx compound verbs)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -57,6 +57,8 @@ Many verb entries have two `"conjugation":` top-level keys: a legacy stub (e.g.,
 **Update 2026-05-25**: Session 011 (entries 03211–03230) found the same pattern in 5 suru-verb entries (03214, 03216, 03218, 03220, 03222) — a lightweight conjugation stub (type+prefix format) placed before `definitions` alongside a full conjugation table at the end. The stubs were removed during polishing. Reinforces the pervasive pre-retrofit scope.
 
 **Related sub-pattern (notes-level duplication)**: Comprehensive-polish session 033 (entries 05540–05559) found entries 05542, 05543, 05544, 05546 with redundant CONJUGATION prose sections in their `notes` field even though the entry already had a proper `conjugation` JSON field with all forms. The notes-only CONJUGATION block is a batch artifact from a period when conjugation data lived in notes rather than in a structured field. These are distinct from the duplicate-JSON-key pattern above — the notes text is well-formed but redundant once the structured conjugation field exists. Comprehensive-polish removes them case-by-case, but a one-shot scan for `CONJUGATION` headers in notes of entries that also have a `conjugation` field would catch all remaining instances.
+
+**Update 2026-06-10 (compound-verb range)**: Routine v2 polish session found the same notes-level conjugation duplication in three 06xxx godan compound verbs — 06852_hourikomu (放り込む), 06858_ukabiagaru (浮かび上がる), 06735_sashikakaru (差し掛かる) — each of whose notes opened with a redundant negative / te-form / past bullet list duplicating the structured `conjugation` table. Removed in session; the 06xxx compound-verb cohort likely holds more. **Detector gap**: `build/check_artifacts.py --issue dup-conjugation` targets the *duplicate-JSON-key* form (P4 above) and currently returns 0 — it does **not** detect this *notes-prose* duplication. So this sub-pattern is not yet covered by any read-only detector; either extend `check_artifacts.py` with a `notes-conjugation-prose` check (CONJUGATION header **or** a leading negative/te/past bullet list in `notes` of an entry that already has a `conjugation` field) or keep handling it case-by-case in comprehensive-polish. The former would make it backlog-queue-eligible for a systemic-fix batch.
 
 ## Priority 5: Particle entry polish
 
@@ -290,6 +292,10 @@ The confirmed range now extends from the 01490s through at least the 05559. The 
 - 05891–05915: "electronics" on るんるん, "furniture" on 淡々, "tool" on 刻々, plus a wrong formality "informal" on 仲裁 (corrected to "neutral"). Tag drift continues unabated.
 - 05936–05953: "animal-fish" on じとじと (→ "descriptive"), "animal-insect" on のそのそ (→ ["action", "descriptive"]). These are mimetic adverbs/descriptives — the same sub-pattern seen in the 05349–05373 range. The comprehensive-polish frontier now sits at entry 05954; the contaminated batch signature extends at least this far. **Cross-model accuracy-review (session 001)** independently found semantic misassignment in early entries (00016–00200) — different creation cohort, different failure mode (over-applied domain tags on multi-sense polysemous words), documented under the new Priority 17 (formality) and in [Entry Follow-ups](entry-followups.md).
 
+**Update 2026-06-10**: Two more confirmations from Routine v2 runs.
+- **Comprehensive-polish session 007 (entries 05970–05989)** found dense tag errors at the leading edge of the contaminated batch: a medical cluster (05975–05979: 通院, 処方, 感染, 炎症, 健康診断) and an aviation cluster (05981–05982: 離陸, 着陸) carried body-part/clothing/furniture/leisure/geography tags — the model had copied tags from an unrelated entry. Fixed in session; the 05970–05990 range likely holds more.
+- **Cross-model accuracy-review session 002 (entries 00201–00450)** confirmed the same wrong-tag class in the *low-ID core/basic* range (a different cohort from the 2026-04-14 batch): 00281 醜い (food/leisure/slang/colloquial → emotion/appearance/literary), 00299 虫歯 (body-part → health — a dental condition, not a body part), 00240 小〜 (grammatical → size), 00232 記念 ("memory" → "memorial"). A recurring **sub-pattern** here is `body-part` misapplied to conditions/diseases (虫歯; cf. 03218 手術, 05019 腹痛 in earlier updates). The authoritative remediation path is now the accuracy-review mode's LLM `tags` pass — the [Quality Metrics Trend](../topics/quality-metrics.md) snapshot shows `tags` is the highest-precision review dimension (6.8% apply rate vs ~2% for gloss/translation), i.e. the dimension actually worth driving a fix from.
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)
@@ -375,6 +381,41 @@ for p in sorted(glob.glob('entries/0000*/*.json') + glob.glob('entries/0050*/*.j
 ```
 
 **Suggested action**: Review all `formality: "formal"` entries in the 00001–00500 range and change to `"neutral"` where the word is used in everyday/neutral contexts. Requires semantic judgment, not a mechanical sweep — "formal" is genuinely correct for a small subset (legal terms, bureaucratic vocabulary). The accuracy-review mode is well-suited to this pass, since the cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals.
+
+**Update 2026-06-10**: Cross-model accuracy-review session 002 (entries 00201–00450) extended the confirmed range. More neutral words tagged `formal`: 清い, なお, 年月, 日時, 稀. The pattern now spans at least 00016–00450, consistent with "early batch creation defaulted to formal for anything not obviously colloquial." The accuracy-review mode is fixing these as it advances through the low-ID range.
+
+## Priority 18: "descriptive" semantic tag over-applied as a catch-all
+
+**Source**: Cross-model accuracy-review session 002 (entries 00201–00450), 2026-06-10
+
+A new tag-drift mode distinct from the wrong-specific-tag (P11) and the
+sole-`general` under-specification (P13) patterns: the `semantic: ["descriptive"]`
+tag is being applied broadly to words it doesn't characterise — confirmed on 謙虚
+(humble), 懸命 (earnest), 無限 (infinite), もしかすると (perhaps), 自ら (oneself).
+The reviewer reads `descriptive` as meaning "this word can describe something,"
+which is true of almost any adjective or adverb and therefore carries no
+classifying information. It has become a second catch-all alongside `general`.
+
+This is partly a *correct* destination tag — mimetic adverbs genuinely are
+`descriptive` (P11 updates routinely retag じとじと/のそのそ to `descriptive`), so
+the value is not itself wrong. The problem is that it is applied as a default to
+abstract/grammatical words where a more specific or simply *no* domain tag fits
+better. The underlying issue is that `descriptive` is under-defined: the tag
+vocabulary doesn't state what semantic content it asserts. See
+[Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Stale auto-labels"
+for the analysis and the proposed criterion (reserve `descriptive` for mimetics
+and manner/quality words; do not use it for abstract nouns, grammatical words, or
+words that already have a real domain).
+
+**Detection**: No clean grep — like P11, this needs the headword-vs-tag judgment
+the accuracy-review `tags` dimension provides. A first-pass audit aid: list
+entries whose only semantic tag is `descriptive` and whose POS is noun or
+grammatical, which surfaces the clearest mismatches.
+
+**Suggested action**: Lower urgency than P11/P17 — fold into the accuracy-review
+`tags` pass rather than a dedicated sweep. When reviewing, replace a stray
+`descriptive` on an abstract/grammatical word with the right domain tag, or drop
+it in favour of `general`.
 
 ## Informational: Pre-polished cohort around 00083–00090
 

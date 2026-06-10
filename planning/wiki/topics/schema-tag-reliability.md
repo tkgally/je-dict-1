@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-09
+**Last updated**: 2026-06-10 (added the "undefined tag semantics" pattern — `descriptive` catch-all and `body-internal` convention — and an empirical precision section from `reviews/decisions.jsonl`)
 
 ## Overview
 
@@ -114,6 +114,42 @@ Some tags were plausible at creation but became wrong as the entry evolved (or w
 
 **Semantic over-application on polysemous entries.** A related stale-label pattern, also surfaced by the accuracy-review in the 00001–00200 range: entries covering multiple unrelated senses carry a domain tag that is correct for one sense but wrong for the others. Examples: ボール (00017) was tagged `semantic: ["leisure"]` (correct for the ball sense), but the entry also covers a bowl sense — leisure has nothing to do with bowls. グラス (00076) was tagged `semantic: ["food"]` for its drinking-glass sense, ignoring the eyewear sense. This is a structural limitation: the current schema applies semantic tags at the entry level, not the sense level. Well-handled polysemous entries use `semantic: ["general"]` when no single domain covers all senses. The fix is per-entry semantic review rather than a mechanical sweep.
 
+### Undefined tag semantics: when the value itself isn't pinned down
+
+A distinct cause of drift is not that a tag went stale, but that the tag's
+*meaning was never written down*, so creation passes and reviewers reinvent it
+inconsistently. Two cases surfaced in 2026-06-10 Routine runs.
+
+**The `descriptive` catch-all.** Cross-model accuracy-review (session 002,
+entries 00201–00450) found `semantic: ["descriptive"]` applied to 謙虚 (humble),
+懸命 (earnest), 無限 (infinite), もしかすると (perhaps), and 自ら (oneself). The
+reviewer was reading `descriptive` as "this word can describe something" — true
+of nearly any adjective or adverb, and therefore empty as a classifier.
+`descriptive` has quietly become a *second* catch-all alongside `general`. The
+nuance is that `descriptive` is a perfectly good destination for some words: the
+P11 cleanup routinely retags mimetic adverbs (じとじと, のそのそ) **to**
+`descriptive`, which is correct — they describe manner/quality and belong to no
+concrete domain. So the value isn't wrong; it's *under-defined*. A workable
+criterion: **reserve `descriptive` for mimetics and manner/quality words that
+genuinely lack a concrete domain; do not apply it to abstract nouns, grammatical
+words, or words that already have a real domain tag.** Tracked for cleanup as
+[Cleanup Backlog](../ideas/cleanup-backlog.md) → Priority 18.
+
+**The `body-internal` vs `body-part`/`health` convention.** Routine v2's
+new-entries run created four anatomy entries (頸動脈 carotid artery, 冠動脈
+coronary artery, 胆嚢 gallbladder, 十二指腸 duodenum) and initially tagged them
+`["body-part", "health"]`. The §4 self-check flagged the redundant `health` tag,
+and the correct value turned out to be `["body-internal"]` — which is exactly
+what the *existing* organ entries already use (心臓 03262, 胃 01706, 腎臓 13953).
+The convention is real and consistently followed in the data, but it is **not
+documented** in `entry-guidelines` or `other-entries`, so it gets reinvented at
+creation time. (`health` stays correct for diseases and procedures — 膵臓癌, 聴診
+— just not for the organs themselves.) This is a `[skill]` recommendation:
+document, in the tag vocabulary reference, that internal organs use
+`body-internal`, external/surface anatomy uses `body-part`, and `health` is for
+conditions/procedures, not anatomy. Pinning the value down is cheaper than
+re-catching the same redundancy every time anatomy vocabulary is added.
+
 The general pattern is that tags are **write-rarely, read-often**. Once written, they participate in every downstream lookup. The dictionary lacks a systematic re-check pass: there is no tool that compares an entry's current notes/glosses/examples against its tags and flags inconsistencies.
 
 ## Connection to existing wiki analyses
@@ -139,6 +175,40 @@ These are not implementation plans, just notes on what a tag-drift detector migh
 
 **Cross-entry tag consistency:** Across entries linked by `cross_references` of type `synonym` or `antonym`, the semantic tags should largely agree. Big divergences flag either a wrong cross-reference or a wrong tag.
 
+## What review-flag precision tells us (first measured, 2026-06-10)
+
+For most of this page's life, "tag drift is the highest-yield thing to re-check"
+was a hypothesis from entry-level inspection. The Routine v2 decision ledger
+(`reviews/decisions.jsonl`) now puts a number on it. Of 485 external-model flags
+adjudicated on 2026-06-10, the **apply rate by review dimension** was:
+
+| Dimension | Flags | Applied | Apply rate |
+|-----------|------:|--------:|-----------:|
+| **tags** | 88 | 6 | **6.8%** |
+| translation | 166 | 4 | 2.4% |
+| gloss | 222 | 4 | 1.8% |
+| furigana | 9 | 0 | 0% |
+
+The `tags` dimension's apply rate is **3–4× the gloss/translation rate**. Two
+things follow. First, it confirms the thesis: among the content dimensions, the
+tag layer is where a cross-model reviewer most often finds a *genuine* error —
+because the batch tag-drift documented above (P11) is real and pervasive, and
+because a tag is a discrete claim against the headword that adjudicates cleanly
+("body-part on a verb meaning 'to discard'" is decidable), whereas gloss and
+translation flags are mostly stylistic "could be fuller" nits on deliberately
+concise basic/core glosses. Second, it tells the Routine *which* knob to turn:
+the authoritative remediation for P11/P18 is the accuracy-review mode's `tags`
+pass (`review_accuracy.py --dimensions tags`), which judges each tag against the
+headword rather than the example topics — not the noisy keyword detector
+(`check_tag_drift.py --check semantic-mismatch`, kept experimental/non-batch).
+
+Even at 6.8%, tag flags are far from auto-applicable — they are a manual-review
+queue, not an autofix. But a reviewer dimension worth ~3–4× the others is worth
+weighting accordingly. The full breakdown, the precision-by-*source* split
+(self-check on a run's own changes adjudicates at ~13% vs ~1.5% for the
+whole-dictionary sweep), and the trend over time live in
+[Quality Metrics Trend](quality-metrics.md).
+
 ## Implications for je-dict-1
 
 1. **Treat tags as cached judgments, not ground truth.** When a polish pass updates an entry, the tags should be re-evaluated against the polished content, not assumed correct. The polish prompts currently don't ask for this.
@@ -153,6 +223,7 @@ These are not implementation plans, just notes on what a tag-drift detector migh
 
 ## Related pages
 
+- [Quality Metrics Trend](quality-metrics.md) — the measured per-dimension and per-source flag precision that quantifies this page's thesis
 - [Deterministic vs. Semantic Tasks](deterministic-vs-semantic-tasks.md) — broader frame for where automation reliably works and where it doesn't
 - [Entry Consistency](entry-consistency.md) — consistency in notes structure and cross-references
 - [Keigo: Honorific Language](../research/keigo-honorifics.md) — the full structure that the politeness tag compresses

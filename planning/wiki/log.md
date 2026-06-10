@@ -2,6 +2,33 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-10] maintenance | Observation harvest (4 Routine runs), created quality-metrics.md (v2 metrics-trend page)
+
+**Session type**: Unified Routine v2 — `wiki` mode (forced via `--force-mode wiki` for a manual test of the metrics-trend activity; `state_persisted: false`)
+
+**Pre-flight**: §0a found 0 open PRs (nothing to rescue). `pipeline/sweep-stranded-prs.py` — 0 open PRs, nothing stranded (main progress `next: 06000`). Routine lock acquired cleanly.
+
+**Selector reason**: "wiki: forced via --force-mode". Signals at run: 14 unharvested observations, 1,464 candidates, comprehensive_next 6000, cross_model_review_next 651, 7 open backlog items.
+
+**Activities**:
+- [F/Harvest] Processed all observations from the four 2026-06-10 Routine v2 runs (polish session 007, accuracy-review session 002, and the routine v2 polish/new-entries/systemic-fix sessions):
+  - `[pattern]` Tag drift (P11): filed Cleanup Backlog P11 update — medical/aviation clusters 05975–05982 (polish session 007) and low-ID accuracy-review fixes 00201–00450 (00281 醜い, 00299 虫歯→health, 00240 小〜→size, 00232 記念→memorial), plus the body-part-on-diseases sub-pattern.
+  - `[pattern]` Formality (P17): extended the confirmed range to 00450 (清い, なお, 年月, 日時, 稀).
+  - `[pattern]`/`[wiki]` The `descriptive` semantic tag is applied as a second catch-all (謙虚, 懸命, 無限, もしかすると, 自ら). Created **Cleanup Backlog Priority 18** and a "Undefined tag semantics" subsection in `topics/schema-tag-reliability.md` with an appropriateness criterion (reserve for mimetics/manner-quality words).
+  - `[pattern]` Notes-level conjugation duplication in 06xxx compound verbs (06852/06858/06735): filed as a Cleanup Backlog P4 sub-pattern update, noting that `check_artifacts.py --issue dup-conjugation` targets the JSON-key form (returns 0) and does NOT detect the notes-prose form — a detector gap.
+  - `[tooling]` Filed Tooling Backlog item 11 (validate.py inline-link target-id resolution gate — high value), item 12 (review_runner `--pass deep --range` reviews the whole range, not just flagged), item 13 (review_runner response-parsing robustness: null-response crash + gemini bare-array).
+  - `[entry]` Filed Entry Follow-ups: 01385/02485 気持ち duplicate pair (with tier conflict + malformed-headword overlap with Tooling item 9); 〜込む / 掛かる "be about to" compound-verb morpheme gaps.
+  - `[skill]` Anatomy internal organs use `semantic: ["body-internal"]`, not `["body-part","health"]` (caught by the new-entries §4 self-check). **Recommendation recorded here for a curator skill update** (`entry-guidelines`/`other-entries`); the convention itself is now documented in `topics/schema-tag-reliability.md`. Not modifying skills from a wiki session.
+  - Pruned all harvested sections from `polishing/observations.md`; left one new `[pattern]` (review-queue convergence) for the next harvest.
+- [D] **Created `topics/quality-metrics.md`** — the Routine v2 metrics-trend page (the behavior under manual test this run). Built from `pipeline/metrics-history.jsonl` (4 runs) and `reviews/decisions.jsonl` (485 adjudicated flags). Includes: a run-by-run snapshot table; flag precision by dimension (tags 6.8% ≫ translation 2.4% ≈ gloss 1.8% ≫ furigana 0%) and by source (self-check 12.7% vs whole-dictionary accuracy sweep 1.5%); six findings; implications (weight reviewer dimensions by precision; keep §4 self-check as the primary instrument; consider a consensus gate for the 0%-precision furigana dimension; treat the review queue as surveillance). Noted the ledger-consistency cross-check (the metrics applied/rejected/curator columns sum to 14/467/4, exactly matching the decisions ledger). Added to `index.md` Topics.
+- [C] **Deepened `topics/schema-tag-reliability.md`** — new "Undefined tag semantics" subsection (`descriptive` catch-all + the undocumented `body-internal` convention) and a "What review-flag precision tells us (first measured, 2026-06-10)" section that grounds the page's central thesis in the decision-ledger numbers (tags flags apply at ~3–4× the gloss/translation rate). Cross-linked to the new metrics page.
+- [E] Updated `index.md` "Last updated" line and Topics list; updated "Last updated" dates on all modified pages.
+- [§5 metrics] Appended the wiki-run line to `pipeline/metrics-history.jsonl` (mode=wiki, 0 entries changed) per Routine v2 §5 — exercised the inline fallback (no `pipeline/metrics_snapshot.py` yet).
+
+**Metric flagged the wrong way**: review queue not converging (~19,450; net −152 across the day; only accuracy-review drains it). Logged as a `[pattern]` observation for the next harvest.
+
+**Next cursor**: `observations.md` harvested through the 2026-06-10 Routine runs; one fresh `[pattern]` (review-queue convergence) remains.
+
 ## [2026-06-09] maintenance | Observation harvest (16 items), stats sync, schema-tag-reliability update
 
 **Session type**: Unified Routine — `wiki` mode (highest scheduler debt; 16 unharvested observations)

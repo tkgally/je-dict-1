@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-09
+**Last updated**: 2026-06-10
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -433,6 +433,53 @@ Entry 08116_rokku (ロック) currently covers only the rock music sense. A lock
 The four-character compound 空前絶後 (unprecedented and never to be repeated) was referenced in the cross_references field of entry 05949. No entry exists; a noentry inline link was added.
 
 **Recommended fix**: Create an entry for 空前絶後 as a yojijukugo expression. It appears in formal writing and news media to describe historic firsts or unprecedented events. Added as candidate C21844.
+
+## 01385_kimochi & 02485_kimochi (気持ち) — Duplicate entries needing consolidation
+
+**Source**: Routine v2 polish session, 2026-06-10
+
+Two entries cover 気持ち (きもち, "feeling, mood"): **01385_kimochi** (basic tier,
+gloss "feeling, sensation", headword `{気持ち|きもち}`) and **02485_kimochi** (core
+tier, gloss "feeling, emotion", headword `{気持|きも}ち`). They are the same word
+with the same reading and near-identical glosses — almost certainly a duplicate
+pair that should be consolidated rather than maintained as two diverging sources
+of truth (cf. the いくら〜ても pair in [Cleanup Backlog](cleanup-backlog.md) → P8).
+
+Two complications to resolve during the merge:
+- **Tier conflict**: one is `basic`, the other `core` — both closed tiers. The
+  curator should decide which entry survives; the lower ID (01385) is basic.
+  Inline-link polishing this session pointed links at 01385.
+- **Malformed headword on 01385**: `{気持ち|きもち}` has the okurigana inside the
+  wrapper (non-canonical; should be `{気持|きも}ち`, which is exactly what 02485
+  already uses). 01385 is on the [Tooling Backlog](tooling-backlog.md) → item 9
+  headword-fix list for this reason. If 01385 is kept, fix the headword as part
+  of the same edit.
+
+**Recommended fix**: Follow the `consolidate-entries` / `resolve-duplicates`
+skills. Run `python3 build/find_merge_candidates.py --merge-only` to confirm and
+check for sibling duplicates, pick the survivor, transfer unique
+examples/notes/cross-refs, fix the survivor's headword to canonical form, and
+delete the other. Curator decision needed on which tier/ID survives.
+
+## Compound-verb morpheme gaps: 〜込む suffix and 掛かる "be about to" sense
+
+**Source**: Routine v2 polish session, 2026-06-10
+
+Inline-link polishing of 06xxx godan compound verbs hit two recurring `noentry`
+gaps in FORMATION glosses:
+- **Productive suffix 〜込む** ("into / thoroughly", as in 放り込む, 浮かび上がる's
+  neighbours): only the standalone verb 込む ("to be crowded; to cost / take
+  time") has an entry, so the compound-forming suffix sense can't be linked.
+- **掛かる "to hang over / be about to (do)" sense**: the existing かかる entry
+  covers "to be crowded / to cost / take," not the 差し掛かる-style "be on the
+  verge of" sense, forcing `noentry`.
+
+These are the compound-verb-morpheme linkability question — see
+[Compound Verb Representation](../topics/compound-verbs.md) for the
+entry-vs-pattern design context. If the project wants compound-verb morphemes to
+be linkable, candidate additions would be a suffix entry for 〜込む and an added
+sense (or grammar-pattern entry) for the 掛かる "be about to" meaning. Otherwise
+this is informational — the `noentry` markers are correct given current scope.
 
 ## Related pages
 

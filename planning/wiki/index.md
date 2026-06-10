@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-09 (stats sync to 28,833 entries; harvested 16 observations from sessions 045/049/050/accuracy-001; extended Cleanup Backlog P11 to 05953; added P17 (formality over-tagging in early entries); filed 3 entry follow-ups; added 3 candidates; updated `topics/schema-tag-reliability.md` with formality and semantic-over-application patterns)
+**Last updated**: 2026-06-10 (created `topics/quality-metrics.md` — the v2 metrics-trend page — from `pipeline/metrics-history.jsonl` + `reviews/decisions.jsonl`; harvested 14 observations from 4 Routine v2 runs; extended Cleanup Backlog P11/P17 + P4 notes sub-pattern, added P18 'descriptive' catch-all; added Tooling Backlog items 11–13; filed 2 entry follow-ups; deepened `topics/schema-tag-reliability.md` with undefined-tag-semantics + empirical flag precision; ~28,873 entries)
 
 
 ## How this wiki is organized
@@ -97,6 +97,7 @@ A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner
 - [Deterministic vs. Semantic Tasks](topics/deterministic-vs-semantic-tasks.md) — Which editorial tasks can be automated and which require LLM judgment
 - [Enhancement Plan 2026 Retrospective](topics/enhancement-plan-retrospective.md) — What the 16-phase enhancement plan built, which targets were met, and what remains
 - [Schema Tag Reliability](topics/schema-tag-reliability.md) — Recurring cases where metadata tags drift from entry content (runaway automation, categorical compression, stale auto-labels)
+- [Quality Metrics Trend](topics/quality-metrics.md) — Time series from the Routine v2 metrics and decision ledgers: per-run snapshots, flag precision by review dimension and source, and what each instrument is worth
 - [Furigana Wrapper Anomalies](topics/furigana-wrapper-anomalies.md) — Malformed furigana wrapper patterns: honorific-prefix-inside-wrapper, pure-kana wrappers, truncated readings, and over-wrapped okurigana (859 instances across 624 entries)
 - [Chinese Simplified/Traditional Handling](topics/chinese-simplified-traditional.md) — Worked design for the multilingual plan's (now-resolved) simplified-first decision: `zh-Hans`/`zh-Hant` BCP-47 code space, why simplified→traditional conversion is lossy (one-to-many merges + vocabulary norms), the OpenCC-seed-plus-human-review path for adding traditional later, and font/search/UI consequences
 - [Multilingual Rendering and Delivery Architecture](topics/multilingual-rendering-architecture.md) — Worked design for the multilingual plan's §6 delivery layer (the previously-only-sketched static-vs-client-side question): Google's separate-URL/`hreflang` guidance, the measured GitHub Pages 1 GB ceiling (hit at the *first* additional language), and the recommended size-controlled hybrid with the hosting decision it forces before language #3
