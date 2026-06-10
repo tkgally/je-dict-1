@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06916_ze_ex1",
-      "japanese": "{俺|おれ}に{任|まか}せろぜ。",
+      "japanese": "⟦{俺|おれ}→俺：02185_ore⟧⟦に→に：00314_ni⟧⟦{任|まか}せろ→任せる：02417_makaseru⟧ぜ。",
       "english": "Leave it to me!",
       "sense_numbers": [
         1
@@ -22,7 +22,7 @@
     },
     {
       "id": "06916_ze_ex2",
-      "japanese": "これはすごいぜ。",
+      "japanese": "⟦これ→これ：00963_kore⟧⟦は→は：00079_ha⟧⟦すごい→すごい：01128_sugoi⟧ぜ。",
       "english": "This is amazing, I tell you.",
       "sense_numbers": [
         1
@@ -30,7 +30,7 @@
     },
     {
       "id": "06916_ze_ex3",
-      "japanese": "{今日|きょう}は{勝|か}つぜ。",
+      "japanese": "⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{勝|か}つ→勝つ：01199_katsu⟧ぜ。",
       "english": "We're gonna win today!",
       "sense_numbers": [
         1
@@ -38,7 +38,7 @@
     },
     {
       "id": "06916_ze_ex4",
-      "japanese": "{行|い}くぜ！",
+      "japanese": "⟦{行|い}く→行く：00119_iku⟧ぜ！",
       "english": "Let's go!",
       "sense_numbers": [
         1
@@ -48,7 +48,7 @@
     },
     {
       "id": "06916_ze_ex5",
-      "japanese": "よし、{最後|さいご}まで{頑張|がんば}るぜ。{絶対|ぜったい}に{負|ま}けないぜ。",
+      "japanese": "⟦よし→よし：10741_yoshi⟧、⟦{最後|さいご}→最後：01413_saigo⟧⟦まで→まで：00490_made⟧⟦{頑張|がんば}る→頑張る：01222_ganbaru⟧ぜ。⟦{絶対|ぜったい}→絶対：00435_zettai⟧⟦に→に：00314_ni⟧⟦{負|ま}けない→負ける：01134_makeru⟧ぜ。",
       "english": "Alright, I'll give it my all to the end. I'm definitely not going to lose!",
       "sense_numbers": [
         1
@@ -57,17 +57,26 @@
       "notes": null
     }
   ],
-  "notes": "GENDER: Strongly masculine. Used almost exclusively by male speakers or in masculine speech styles (anime, manga characters).\n\nREGISTER: Casual to rough. Never used in formal situations.\n\nNUANCE: Conveys:\n- Confidence or bravado\n- Excitement or enthusiasm\n- Assertiveness\n- A \"cool\" or tough image\n\nCOMPARISON WITH ぞ:\n- ぜ: lighter, more casual confidence\n- ぞ: stronger emphasis, can be warning or threat\n\nMEDIA USAGE: Extremely common in:\n- Shounen manga/anime (action heroes)\n- Sports contexts\n- Characters with confident personalities\n\nCAUTION: Using ぜ as a non-native speaker may sound like you're imitating anime characters. Use with awareness of context.\n\nFEMALE EQUIVALENT: Women might use わよ or のよ for similar emphasis, though these have different nuances.",
+  "notes": "GENDER: Strongly masculine. Used almost exclusively by male speakers or in masculine speech styles (anime, manga characters).\n\nREGISTER: Casual to rough. Never used in formal situations.\n\nNUANCE: Conveys:\n- Confidence or bravado\n- Excitement or enthusiasm\n- Assertiveness\n- A \"cool\" or tough image\n\nCOMPARISON WITH ⟦ぞ→ぞ：06917_zo⟧:\n- ぜ: lighter, more casual confidence\n- ⟦ぞ→ぞ：06917_zo⟧: stronger emphasis, can be warning or threat\n\nMEDIA USAGE: Extremely common in:\n- Shounen manga/anime (action heroes)\n- Sports contexts\n- Characters with confident personalities\n\nCAUTION: Using ぜ as a non-native speaker may sound like you're imitating anime characters. Use with awareness of context.\n\nFEMALE EQUIVALENT: Women might use ⟦わよ→わよ：noentry⟧ or ⟦のよ→のよ：noentry⟧ for similar emphasis, though these have different nuances.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "ぞ",
+      "headword": "ぞ",
+      "label": "stronger assertion particle",
+      "target_id": "06917_zo"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T10:29:28Z",
-    "modified": "2026-03-14T13:26:55Z",
+    "modified": "2026-06-10T21:35:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
       "pos": [
         "particle"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "politeness": "plain",
       "semantic": [
         "grammatical"
