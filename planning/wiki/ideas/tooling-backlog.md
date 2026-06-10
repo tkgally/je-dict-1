@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-08
+**Last updated**: 2026-06-10 (added items 11 validate.py link-resolution gate, 12 review_runner deep-range scoping, 13 review_runner response-parsing robustness)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -173,6 +173,76 @@ A subset of item 8 with stricter scope: just headwords. The malformed-headword s
 **Suggested fix**: Before applying suru-compound detection, check whether the entry's `verb_class` tag is explicitly `"godan-*"`. If so, skip the suru detection entirely — godan verbs ending in する (すする, くすくすする if it existed) are not suru compounds. This is a one-line guard near the top of the conjugation-generation function.
 
 **Workaround**: Manual conjugation was required for 05127_susuru. Other godan verbs whose readings happen to end in する may also be affected.
+
+## 11. Inline-link target-id resolution gate in validate.py (or pre-commit/CI)
+
+**Source**: Routine v2 polish session, 2026-06-10 (high value — hit live this session)
+
+`build/validate.py` (both `--id` and `--range`) validates an entry against the
+schema but does **not** verify that the `entry_id` inside each inline link
+`⟦surface→base：entry_id⟧` actually resolves to an existing entry. An entry whose
+note linked to `04757_deeta` reported "Entry is valid!" even though 04757 is
+クラウド (cloud) and the intended target was データ (03944). The wrong-ID link
+renders as a dead/incorrect cross-reference on the live site, and nothing in the
+normal validate → build pipeline catches it. The error was found only by an
+ad-hoc script that resolves every `⟦…：id⟧` against the on-disk entry set.
+
+**Suggested implementation**: A check that, for every inline link in
+`headword`/`definitions`/`examples`/`notes`, extracts the trailing `：<entry_id>`
+and confirms the file `entries/<range>/<entry_id>_*.json` exists (and, ideally,
+that its reading/headword matches the link's base form). `noentry` is a valid
+sentinel and must be skipped. Wire it into `validate.py` as a non-schema check
+(so `make validate` and CI catch it), or add a dedicated
+`build/check_inline_links.py` sibling and a pre-commit/CI gate. This closes a
+whole class of silent linking errors that inline-link polishing can introduce.
+
+**Scope**: A full-corpus scan would also surface how many such broken links
+already exist; worth running once the gate is built.
+
+## 12. review_runner.py `--pass deep --range` deep-reviews the whole range, not just flagged
+
+**Source**: Routine v2 new-entries / accuracy-review sessions, 2026-06-10
+
+In `build/review_runner.py`, `--pass deep --range A B` deep-reviews **every**
+entry in `[A, B]` rather than only the entries the screening pass flagged.
+`resolve_entry_ids()` returns the full range and bypasses
+`get_flagged_entry_ids()`, so the deep (expensive) pass blows past its intended
+scope: a 2026-06-10 accuracy-review run over 451–650 deep-reviewed 199 entries
+instead of the ~45 the screen had flagged — a ~4× cost/time overrun.
+
+**Routine §A already documents the workaround** ("deep covers only flagged"):
+pass `--ids <flagged-list>` to the deep pass instead of `--range`. But the
+`--pass deep --range` combination is a footgun that contradicts the screening →
+deep funnel design.
+
+**Suggested fix**: When `--pass deep` is combined with `--range`, intersect the
+range with `get_flagged_entry_ids()` (or require `--ids`/`--all-in-range` to opt
+into reviewing every entry). Emit a one-line notice of how many of the range were
+flagged vs. skipped.
+
+## 13. review_runner.py response-parsing robustness
+
+**Source**: accuracy-review §A note (routine2) + Routine v2 sessions, 2026-06-10
+
+Two distinct failure modes when an OpenRouter model returns something unexpected:
+
+1. **Null-response crash (known, 2026-06-09)**: the runner can exit abnormally
+   mid-pass on a null API response. Routine §A's documented resilience is to keep
+   the per-entry results already written and continue — but the crash itself
+   should be caught per-entry so one bad response doesn't abort the pass.
+2. **Bare-array parse failure (2026-06-10)**: in the deep pass,
+   `google/gemini-2.5-pro` intermittently returns a bare JSON **array** instead of
+   the expected object, producing "Failed to parse response" for that entry.
+   `gpt-4.1` still returns valid data, so the entry is reviewed single-model and
+   the pass exits 0 — reduced redundancy, not a crash, but it silently drops one
+   model's vote on those entries.
+
+**Suggested fix**: Wrap per-entry response handling so any single
+unparseable/null response is logged and skipped (entry reviewed by whatever
+models did parse) rather than crashing or silently dropping. For the bare-array
+case, accept a top-level array and coerce it to the expected shape (or take the
+first element) before parsing. Both are small, localized hardening changes that
+make multi-model review more reliable under the daily budget.
 
 ## Related pages
 
