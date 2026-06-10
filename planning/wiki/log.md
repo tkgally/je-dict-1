@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-10] maintenance | Stats sync, content-pipeline.md v2 Routine update, backlog-queue.json P17/P18 sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded. Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed the 1 remaining observation from the previous wiki run: `[pattern]` review-queue-convergence — already fully reflected in `topics/quality-metrics.md` (finding #5 + implications); no new backlog item needed. Cleared from `polishing/observations.md`.
+- [A] Stats sync: updated `project/overview.md` (example count 113,500→113,600; general tier 26,050→26,090; date 2026-06-10) and `project/vocabulary-tiers.md` (26,050→26,090; date 2026-06-10).
+- [C] Deepened `project/content-pipeline.md` (last updated 2026-06-07, pre-v2-Routine): added a "Unified Improvement Routine v2 (the scheduled driver)" subsection documenting the 5 modes, §4 self-verification gate, §5 metrics snapshot, selector/ledger machinery, and a "Review queue" subsection explaining the ~19,400-entry queue as structural surveillance (not a convergence target). Renamed the polishing-task table to "Targeted polishing tasks (still runnable manually)."
+- [E] Synced `planning/wiki/ideas/backlog-queue.json` with prose cleanup-backlog.md: added `tag-formality-over-applied` (P17, batch_ready:false, accuracy-review-driven) and `tag-descriptive-overuse` (P18, batch_ready:false, accuracy-review-driven). Updated timestamp.
+
+**§4 self-check**: Not applicable (0 entries changed).
+**Metrics**: appended wiki run line to `pipeline/metrics-history.jsonl` (6 lines total; ≥10 threshold for metrics-trend activity not yet reached).
+**Next cursor**: observations.md fully cleared through all 2026-06-10 Routine runs.
+
 ## [2026-06-10] maintenance | Observation harvest (4 Routine runs), created quality-metrics.md (v2 metrics-trend page)
 
 **Session type**: Unified Routine v2 — `wiki` mode (forced via `--force-mode wiki` for a manual test of the metrics-trend activity; `state_persisted: false`)

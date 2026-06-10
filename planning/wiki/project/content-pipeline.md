@@ -1,6 +1,6 @@
 # Content Pipeline
 
-**Last updated**: 2026-06-07
+**Last updated**: 2026-06-10
 
 ## Overview
 
@@ -46,11 +46,30 @@ Created entries are improved through iterative polishing passes. There are two c
 
 **Queue mode** (post-enhancement) — tasks are placed on `pipeline/task_queue.json` by `pipeline/task_queue.py populate`. Sessions `claim` a batch of tasks, process them, then `complete`. This avoids conflicts when multiple sessions run in parallel. See `queue_polishing_template.md`.
 
-Current polishing tasks:
+### Unified Improvement Routine v2 (the scheduled driver)
+
+As of June 2026, the **primary scheduled task** is `prompts/routine2.md` — the "Verified Routine" — which supersedes running `comprehensive_polish.md` directly on a schedule. Each Routine run does **one focused unit of work** chosen by a deterministic selector (`pipeline/routine_next.py`), currently rotating among five modes:
+
+| Mode | What it does |
+|------|-------------|
+| `polish` | Comprehensive polish in two lanes: **priority lane** (worst-scoring entries first, from `polishing/priority/notes.txt`) then **frontier lane** (sequential from `comprehensive_polish.md` progress file). Typically ~20–30 entries per run. |
+| `new-entries` | Creates ~20 entries from `candidate_words.json`, preferring "seen in entry" candidates. |
+| `accuracy-review` | Runs `review_runner.py` + `review_accuracy.py` over a range; applies/rejects flags; drains `reviews/queue.txt`. |
+| `systemic-fix` | Works one open item from `planning/wiki/ideas/backlog-queue.json` with per-entry semantic verification. |
+| `wiki` | Harvests `polishing/observations.md`, runs 2–4 wiki activities, maintains the knowledge base. |
+
+The Routine adds two quality gates absent from the individual prompts:
+
+1. **§4 self-verification** — every run that creates or modifies entries sends exactly those entries to an independent model (via OpenRouter, ~$0.01/25 entries) before the single `make build`. Issues are adjudicated (APPLY / REJECT / FLAG) and logged to `reviews/decisions.jsonl`.
+2. **§5 metrics snapshot** — every run appends one line to `pipeline/metrics-history.jsonl` (mode, entries changed, flags applied/rejected, dictionary-wide counters, OpenRouter spend). This makes quality trends measurable over weeks. See [Quality Metrics Trend](../topics/quality-metrics.md).
+
+The selector persists its rotation state in `pipeline/routine-state.json`; tuning knobs (mode weights, OpenRouter caps) are in `pipeline/routine-config.json`. Daily OpenRouter spend is capped at $5 via `pipeline/openrouter-ledger.json`.
+
+### Targeted polishing tasks (still runnable manually)
 
 | Task | Prompt | What it does |
 |------|--------|-------------|
-| **Comprehensive** | `comprehensive_polish.md` | **Default scheduled task.** Unified checklist covering all the targeted tasks below. Up to 5 entries per session. Logs observations to `polishing/observations.md`. |
+| **Comprehensive** | `comprehensive_polish.md` | Unified checklist; up to 5 entries per session; run by Routine `polish` mode. Logs observations to `polishing/observations.md`. |
 | Inline links | `polish_add_inline_links.md` | Add ⟦...⟧ cross-reference links |
 | Example sentences | `polish_example_sentences.md` | Check count, quality, tier compliance |
 | Furigana completeness | `polish_furigana_completeness.md` | Find and add missing furigana |
@@ -61,9 +80,11 @@ Current polishing tasks:
 | Aspect notes | `polish_aspect_notes.md` | Document non-obvious ている behavior |
 | Cross-model review | `polish_cross_model_review.md` | Apply or reject multi-model proofreading suggestions |
 
-The comprehensive polish task walks entries sequentially from its progress file (`polishing/tasks/comprehensive/progress.txt`) and applies a tiered checklist that subsumes the individual targeted tasks. It also captures long-term observations (tagged `[pattern]`, `[wiki]`, `[tooling]`, `[skill]`, `[entry]`, `[article]`) in `polishing/observations.md`, which the wiki-maintenance session harvests nightly.
-
 **Priority ordering**: `make priorities` writes ordered ID lists to `polishing/priority/{task}.txt`. When a priority file exists, polishing prompts process entries worst-first rather than sequentially by ID.
+
+### Review queue
+
+`reviews/queue.txt` lists entries that have changed since their last cross-model review (maintained by CI — every push re-adds changed entry paths). As of June 2026, the queue holds ~19,400 entries (~67% of the dictionary). This is **structural, not a convergence target**: every polishing or creation session adds new entries to the queue, while `accuracy-review` runs drain roughly 150–200 entries per run. The queue is best understood as a surveillance instrument that ensures every recently-changed entry eventually gets a second opinion, not a backlog that polishing will burn down. See [Quality Metrics Trend](../topics/quality-metrics.md) for the measured drain rate.
 
 ## Stage 4: Consolidation
 
