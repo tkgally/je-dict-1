@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29103–29122)
+Added 20 new entries (IDs 29103–29122) drawn from all 13 "seen in entry" candidates and 7 regular candidates.
+
+- **Mourning cluster (3)**: {喪|も}, {服|ふく}す, {忌明|きあ}け — filling noentry links in 06017 (四十九日)
+- **Shrine/exam culture (3)**: {学業成就|がくぎょうじょうじゅ}, {合格祈願|ごうかくきがん}, {出雲大社|いずもたいしゃ}, {御影石|みかげいし}
+- **Cultural (2)**: {紅白歌合戦|こうはくうたがっせん}, {各部署|かくぶしょ}
+- **Verbs (2)**: {噛|か}み{殺|ころ}す (godan), {出|で}てくる (kuru)
+- **Onomatopoeia (6)**: コケコッコー, カーカー, にんまり, どかどか, すかすか, バチバチ
+- **General (4)**: {悪人|あくにん}, イルミネーション, レゴ, {御影石|みかげいし}
+
+§4 self-check: 11 applied (semantic tags: `descriptive` for 6 onomatopoeia, `culture` for mourning cluster, `person`/`emotion` corrections), 6 bulk-rejected (model falsely claimed valid tags invalid). Conjugation tables added for 3 verbs. No new kanji.
+
 ### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29083–29102)
 Added 20 new entries (IDs 29083–29102) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries (IDs 05981–29082) but not yet defined.
 

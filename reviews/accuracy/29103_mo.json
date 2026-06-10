@@ -1,0 +1,24 @@
+{
+  "entry_id": "29103_mo",
+  "headword": "{喪|も}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-10T19:44:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'life-events' is not in the valid tag list.",
+      "suggestion": "Replace 'life-events' with a valid tag like 'general' or 'existence'."
+    }
+  ]
+}
