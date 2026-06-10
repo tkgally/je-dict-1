@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-09T15:36:00Z",
+  "updated": "2026-06-10T04:16:48Z",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -28,10 +28,11 @@
       "verify": "per-entry",
       "priority": 2,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 49,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Brace syntax {X|Y} is for kanji+reading only. Replace {ている} with plain ている. Safe, but still open the entry and confirm the surrounding text reads correctly before saving."
+      "resolved_date": "2026-06-10",
+      "notes": "RESOLVED 2026-06-10: All 49 entries fixed ({ている} → plain ている in the ASPECT (...) section headers). Each entry opened and confirmed per-entry before saving; furigana self-check screened the 49 changed IDs (5 flags, all rejected as partial-reading false positives, none related to the edit). Detector now reports 0. Brace syntax {X|Y} is for kanji+reading only; {ている} is pure kana so the removal drops no reading."
     },
     {
       "id": "artifact-register-trailer",
