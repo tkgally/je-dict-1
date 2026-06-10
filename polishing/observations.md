@@ -42,3 +42,10 @@ _(All observations through 2026-06-09 session 050 and accuracy-review session 00
 [pattern] 'formal' formality tag over-applied to neutral words (清い, なお, 年月, 日時, 稀). Many of these should be 'neutral'. See Cleanup Backlog.
 [pattern] 'body-part' semantic tag misapplied to conditions/diseases in early-ID entries (虫歯 fixed; others may exist).
 [wiki] The 'descriptive' tag is problematic — it appears to mean "can describe something" rather than a genuine semantic category. Wiki page on semantic tag standards should address when 'descriptive' is appropriate.
+
+## routine v2 polish session (2026-06-10, priority lane 06485/06749/06852/06858/06662/06735 + frontier 05990–05999)
+
+- [tooling] `build/validate.py` (both `--id` and `--range`) does NOT verify inline-link target resolution. It reported "Entry is valid!" for an entry whose link pointed at `04757_deeta` (a wrong ID — 04757 is クラウド; データ is 03944). The error was caught only by an ad-hoc check that resolves every `⟦…：id⟧` entry_id against the on-disk entry set. A link-resolution gate in validate.py (or a pre-commit/CI hook) would catch this whole class of silent linking errors. High value — hit it this session.
+- [pattern] "dup-conjugation" notes artifact in compound-verb entries: 06852_hourikomu, 06858_ukabiagaru, and 06735_sashikakaru each opened their notes with a redundant negative/te-form/past bullet list duplicating the `conjugation` table. Removed this session. The 06xxx godan-compound range likely holds many more; `check_artifacts.py` (P10) is the right detector for a systemic-fix sweep.
+- [entry] Duplicate 気持ち entries: 01385_kimochi (basic) and 02485_kimochi (core), both glossed "feeling, mood". Almost certainly a duplicate pair needing consolidation. Inline links this session pointed to 01385 (basic).
+- [pattern] Productive compound-verb suffix 〜込む ("into/thoroughly", as in 放り込む) and the 掛かる "to hang over / be about to" sense have no entry (only 込む/かかる "to be crowded / to cost / take" exist), forcing `noentry` in FORMATION glosses. Possible suffix/sense candidates if the project wants compound-verb morphemes linkable.
