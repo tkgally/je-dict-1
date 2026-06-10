@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-10T04:16:48Z",
+  "updated": "2026-06-10T09:35:00Z",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -133,6 +133,34 @@
       "scope_estimate": 3876,
       "severity": "info",
       "notes": "Low-urgency enrichment, not an error. Only replace 'general' when a specific tag clearly applies from the gloss; otherwise leave it. Large scope — drain slowly."
+    },
+    {
+      "id": "tag-formality-over-applied",
+      "title": "formality=formal over-applied to neutral/everyday words in early entries (P17)",
+      "source": "ideas/cleanup-backlog.md#priority-17",
+      "detect": "python3 -c \"import json,glob; [print(d['id']) for p in glob.glob('entries/*/*.json') for d in [json.load(open(p))] if (d.get('metadata',{}).get('tags',{}).get('formality')=='formal') and (int(d['id'])<500)]\"",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 17,
+      "batch_ready": false,
+      "status": "accuracy-review-driven",
+      "scope_estimate": 50,
+      "severity": "warn",
+      "notes": "batch_ready:false — the accuracy-review mode's formality-dimension pass is the right instrument (cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals). The accuracy-review frontier is currently fixing these as it advances through the 00001–00500 range; confirmed range through 00450. Once accuracy-review passes 00500, reassess if a standalone systemic-fix batch is warranted."
+    },
+    {
+      "id": "tag-descriptive-overuse",
+      "title": "'descriptive' semantic tag as catch-all on non-mimetic words (P18)",
+      "source": "ideas/cleanup-backlog.md#priority-18",
+      "detect": "python3 -c \"import json,glob; [print(d['id']) for p in glob.glob('entries/*/*.json') for d in [json.load(open(p))] if d.get('metadata',{}).get('tags',{}).get('semantic')==['descriptive'] and d.get('metadata',{}).get('tags',{}).get('pos',[''])[0] in ('noun','adjective-na','adverb','conjunction','expression')]\"",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 18,
+      "batch_ready": false,
+      "status": "accuracy-review-driven",
+      "scope_estimate": 80,
+      "severity": "info",
+      "notes": "batch_ready:false — fold into the accuracy-review tags pass rather than a dedicated sweep. When reviewing, replace a stray 'descriptive' on an abstract/grammatical word with the right domain tag, or drop it in favour of 'general'. Reserve 'descriptive' for mimetics and manner-quality words. See topics/schema-tag-reliability.md → Undefined tag semantics."
     },
     {
       "id": "tag-semantic-mismatch",
