@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-10T09:35:00Z",
+  "updated": "2026-06-10T17:35:00Z",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -43,10 +43,11 @@
       "verify": "per-entry",
       "priority": 3,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 188,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Register info belongs in the formality metadata field, not as trailing notes text. Confirm the formality field already carries the same register (or set it), THEN remove the trailer."
+      "resolved_date": "2026-06-10",
+      "notes": "RESOLVED 2026-06-10: All 188 entries fixed. Per-entry verification confirmed all formality fields already carried the equivalent register information (formality field has no 'polite' value — 'neutral' is correct; 'casual' in the trailer maps to 'informal' in the schema). Furigana self-check screened all 188 changed IDs: 5 flags, all rejected as pre-existing false positives unrelated to the edit (rendaku misread, data-extraction artifact, cross-ref without furigana in unrelated notes). Detector now reports 0."
     },
     {
       "id": "furigana-slash-reading",
