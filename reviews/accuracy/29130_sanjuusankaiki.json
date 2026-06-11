@@ -1,0 +1,31 @@
+{
+  "entry_id": "29130_sanjuusankaiki",
+  "headword": "{三十三回忌|さんじゅうさんかいき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T11:46:05Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'religion'.",
+      "suggestion": "Replace 'religion' with 'general' or a more specific valid tag if applicable."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'culture'.",
+      "suggestion": "Replace 'culture' with 'general' or a more specific valid tag if applicable."
+    }
+  ]
+}
