@@ -1,0 +1,191 @@
+{
+  "entry_id": "01365",
+  "word": "サンダル",
+  "reading": "さんだる",
+  "reviewed_at": "2026-06-11T04:38:20Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 9,
+  "issues": [
+    {
+      "field": "examples[0].japanese",
+      "kanji": "夏",
+      "reading": "なつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "夏",
+      "reading": "なつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "履",
+      "reading": "は",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "履",
+      "reading": "は",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "新",
+      "reading": "あたら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "新",
+      "reading": "あたら",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "買",
+      "reading": "か",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "買",
+      "reading": "か",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "歩",
+      "reading": "ある",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "歩",
+      "reading": "ある",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "脱",
+      "reading": "ぬ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "脱",
+      "reading": "ぬ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "履",
+      "reading": "ば",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "履",
+      "reading": "ば",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading for 履 in the context of {履|?}き (from the verb 履く) should be は (ha), not ば (ba). The full word is 履き (haki).",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "健康",
+      "reading": "けんこう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "健康",
+      "reading": "けんこう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "草履",
+      "reading": "ぞうり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "草履",
+      "reading": "ぞうり",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 9,
+    "flagged": 1,
+    "ok": 8,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "01365",
+    "screened_at": "2026-06-11T03:55:54Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 履 in pair 7 is given as ば, but the standard reading for 履 when followed by き (as in 履き) is は. This appears to be a rendaku error, as 履く is はく, and 履き would be はき. While rendaku can occur, it's not typical for 履き to become ばき in this context without a preceding element to trigger it."
+    ],
+    "confidence": 0.9
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "01153_yamu",
+  "headword": "{止|や}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T04:45:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation for example 4 is incorrect. '止むを得ない' is an idiom meaning 'unavoidable' or 'cannot be helped', not 'won't stop'. The current translation implies 'The meeting was canceled because the unavoidable circumstances wouldn't stop', which is nonsensical.",
+      "suggestion": "The meeting was canceled due to unavoidable circumstances."
+    }
+  ]
+}
