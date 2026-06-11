@@ -1,0 +1,24 @@
+{
+  "entry_id": "06730_kakitomeru",
+  "headword": "{書|か}き{留|と}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T08:10:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 書き留める. It is a neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}
