@@ -1,0 +1,24 @@
+{
+  "entry_id": "06059_rikaisuru",
+  "headword": "{理解|りかい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T20:16:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for '理解する'. This verb is neutral in formality and can be used in a wide range of contexts, including formal ones.",
+      "suggestion": "neutral"
+    }
+  ]
+}
