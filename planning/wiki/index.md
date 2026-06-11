@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-11 (curator tag-policy decision: VALID_SEMANTIC expanded with 30 established tags; corrected `topics/schema-tag-reliability.md` false-positive analysis; Tooling Backlog item 14 resolved; Cleanup Backlog P20 + `unknown-semantic-tags` queue item added; routine.md deleted — routine2.md is the only Routine prompt)
+**Last updated**: 2026-06-11 (wiki run 2: Cleanup Backlog P21 + Tooling Backlog item 15 added for compound-verb inline-link gaps; quality-metrics.md refreshed with 18-run dataset; stats sync; curator: VALID_SEMANTIC expanded with 30 tags, Cleanup P20, Tooling item 14 resolved, routine.md deleted)
 
 
 ## How this wiki is organized

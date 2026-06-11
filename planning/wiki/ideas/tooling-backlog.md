@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-11 (item 14 RESOLVED via the tag-policy decision + review_accuracy.py prompt v3; corrected its premise — the reviewer had the valid-tag list all along)
+**Last updated**: 2026-06-11 (added item 15: unlinked 自動詞/他動詞 lint rule; item 14 RESOLVED via the tag-policy decision + review_accuracy.py prompt v3; corrected its premise — the reviewer had the valid-tag list all along)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -279,6 +279,32 @@ Both patterns inflate the flags-per-applied ratio for the `tags` dimension, dilu
 - For tags that appear valid but borderline, suggest "REJECT unless the tag is clearly wrong for the headword's primary meaning."
 
 **Impact**: The `tags` dimension has the highest apply rate of any review dimension (~7–9%), but only ~9% of flags in session 003 were genuinely applicable (11 of 121). Better prompt scoping would reduce the bulk-rejection workload by roughly 10× while preserving the real catches.
+
+## 15. Lint rule: unlinked 自動詞/他動詞 labels in notes fields
+
+**Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
+
+Compound-verb notes from the 2026-04-10 creation cohort use `{自動詞|じどうし}` and
+`{他動詞|たどうし}` in TRANSITIVITY lines without enclosing `⟦...⟧` inline-link wrappers.
+The full scope of this pattern is unknown, but the observation estimates hundreds of
+entries in the 06000–09000 range.
+
+**Detection approach**: Scan all `*.json` entry files for the pattern
+`{自動詞|` or `{他動詞|` (i.e. a furigana-wrapped form) that is *not* preceded by `⟦`.
+A regex like `(?<!⟦)\{(?:自動詞|他動詞)\|` should identify all occurrences.
+
+**Suggested implementation**: Either:
+1. A new check in `build/check_artifacts.py --issue unlinked-transitivity-label`
+   (consistent with the existing artifact-detection pattern), or
+2. A standalone script `build/check_inline_link_gaps.py` that can also detect
+   unlinked particles in Pattern lines and content words in COMMON PATTERNS bullets
+   (the full three-sub-pattern problem documented in Cleanup Backlog P21).
+
+The detector should emit JSON with entry ID, field name, and the unlinked string,
+so the systemic-fix mode can work through the queue per-entry.
+
+**Impact**: Would quantify the scope of Cleanup Backlog P21 and convert it from
+`batch_ready:false` to `batch_ready:true` once the detector exists.
 
 ## Related pages
 
