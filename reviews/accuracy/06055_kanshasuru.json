@@ -1,0 +1,24 @@
+{
+  "entry_id": "06055_kanshasuru",
+  "headword": "{感謝|かんしゃ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T20:16:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '感謝する' is not inherently formal; it is a neutral verb for 'to thank' or 'to be grateful'. Its formality depends on context and accompanying particles/verb endings.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

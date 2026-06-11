@@ -1,0 +1,24 @@
+{
+  "entry_id": "06064_yosousuru",
+  "headword": "{予想|よそう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T20:16:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '予想する'. While the concept of prediction can be used in formal contexts, the verb itself is neutral in formality and commonly used in everyday speech.",
+      "suggestion": "neutral"
+    }
+  ]
+}
