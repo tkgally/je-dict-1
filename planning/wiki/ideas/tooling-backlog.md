@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-11 (added item 14 accuracy-review prompt: valid-tag list and semantically-plausible guidance)
+**Last updated**: 2026-06-11 (item 14 RESOLVED via the tag-policy decision + review_accuracy.py prompt v3; corrected its premise — the reviewer had the valid-tag list all along)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -245,6 +245,23 @@ first element) before parsing. Both are small, localized hardening changes that
 make multi-model review more reliable under the daily budget.
 
 ## 14. accuracy-review prompt: include valid-tag list and semantically-plausible guidance
+
+**RESOLVED (2026-06-11)** — with a factual correction to this item's premise.
+The reviewer prompt **already embedded** the full `VALID_SEMANTIC` list
+(`review_accuracy.py` prompt v2); the "invalid tag" flags were the reviewer
+correctly enforcing it against a dictionary whose de-facto tag vocabulary had
+drifted (17,762 out-of-taxonomy instances — `schema.json` has no semantic-tag
+enum, so "defined in schema.json" below was wrong). The fixes shipped: (1)
+curator tag-policy decision — 30 established tags blessed into
+`VALID_SEMANTIC`, near-duplicate migration map in `check_tag_drift.py --check
+unknown-semantic`, long tail tracked as Cleanup Backlog P20; (2)
+`review_accuracy.py` prompt v3 — flags out-of-list tags as migration
+candidates, forbids "too narrow/too broad" substitutions between in-list tags,
+restricts formality flags to unambiguous register contradictions; (3) the
+standing adjudication rule in `prompts/routine2.md` §A (a not-in-list flag is
+correct by definition — apply the migration). See
+[Schema Tag Reliability](../topics/schema-tag-reliability.md) → "The
+tag-vocabulary contradiction and its resolution."
 
 **Source**: accuracy-review session 003 (entries 01151–01650), 2026-06-11; corroborated by accuracy-review sessions 001–002
 

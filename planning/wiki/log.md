@@ -2,6 +2,36 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-11] curator session | Tag-policy decision recorded; corrected schema-tag-reliability.md; item 14 resolved; Cleanup P20 added
+
+**Session type**: Curator-directed review of the first Routine v2 runs (not a scheduled wiki run)
+
+**Context**: The curator reviewed the first 17 Routine v2 runs and resolved the
+semantic-tag source-of-truth contradiction (runs were adjudicating identical
+"invalid tag" flags in opposite directions). Decision: **expand, then enforce**
+— 30 established-by-usage tags blessed into `VALID_SEMANTIC`; near-duplicates
+get a 1:1 migration map; the ~9,000-instance long tail migrates gradually.
+
+**Activities**:
+- **Corrected** `topics/schema-tag-reliability.md`: the 2026-06-11 "reviewer
+  false positives" analysis had the facts backwards (the reviewer was enforcing
+  the documented taxonomy, which its prompt embeds; `schema.json` has no tag
+  enum). Replaced with "The tag-vocabulary contradiction and its resolution",
+  recording the policy decision and the standing adjudication rule.
+- **Resolved** Tooling Backlog item 14 (with premise correction); the shipped
+  fix is `review_accuracy.py` prompt v3 + the policy, not adding a list the
+  prompt already had.
+- **Added** Cleanup Backlog **Priority 20** (out-of-taxonomy tag migration,
+  9,036 instances / 7,292 entries) and queued `unknown-semantic-tags` in
+  `backlog-queue.json` (priority 9; `tag-sole-general` moved to 10) backed by
+  the new `check_tag_drift.py --check unknown-semantic` detector.
+- Updated Routine references after `prompts/routine.md` was deleted
+  (routine2.md is now the only Routine prompt).
+
+**Note for future runs**: the `tag_drift` detector queue-depth metric jumps
+(~4.9k → ~13.9k) because the new unknown-semantic check is included — new
+instrument, not a regression.
+
 ## [2026-06-11] maintenance | Observation harvest (4 items), stats sync, deepened schema-tag-reliability.md
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

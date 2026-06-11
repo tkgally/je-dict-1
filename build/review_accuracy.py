@@ -50,8 +50,12 @@ DIMENSIONS = ("gloss", "translation", "tags")
 # be segmented by prompt version. v1 (2026-06-09) produced ~1.5% flag precision
 # on basic-tier entries (413 issues -> 6 applies in 00451-00650); v2 (2026-06-10)
 # embeds project conventions + the valid tag vocabulary and raises the
-# materiality bar. See reviews/decisions.jsonl for the evidence.
-PROMPT_VERSION = 2
+# materiality bar. v3 (2026-06-11) follows the taxonomy expansion (30 established
+# tags blessed into VALID_SEMANTIC): out-of-list tags are flagged as migration
+# candidates, in-list tags are never flagged for narrowness/breadth, and
+# formality flags require contradiction by the entry's own notes. See
+# reviews/decisions.jsonl for the evidence.
+PROMPT_VERSION = 3
 
 FURIGANA_RE = re.compile(r"\{([^|]+)\|[^}]+\}")
 LINK_TAIL_RE = re.compile(r"→[^⟧]*⟧")
@@ -135,10 +139,18 @@ def build_prompt(entry, dimensions):
                       'bag, "food" on an onomatopoeia). Judge the tag against the '
                       'headword and gloss, NOT against the topics of the example '
                       'sentences (tags are often wrongly copied from example '
-                      'topics). Suggested replacement tags MUST come from the '
-                      'valid tag list below — never invent a tag. Also flag a '
-                      'clearly wrong formality label (e.g. a formal/technical '
-                      'term labeled "informal").')
+                      'topics). Also flag (severity "warn") any tag that is NOT '
+                      'in the valid tag list below, suggesting the best in-list '
+                      'replacement. Suggested replacements MUST come from the '
+                      'valid tag list — never invent a tag. Do NOT flag an '
+                      'in-list tag merely as "too narrow" or "too broad": if the '
+                      'tag is in the list and plausible for the headword, it is '
+                      'correct. Flag a formality label ONLY when it is '
+                      'unambiguously wrong for the headword\'s register (e.g. a '
+                      'rough/slangy interjection labeled "formal", a technical '
+                      'legal term labeled "informal"); do NOT dispute "neutral" '
+                      'on everyday vocabulary or quibble between adjacent '
+                      'levels.')
     return f"""You are a meticulous bilingual (Japanese-English) lexicographer reviewing one \
 entry of a Japanese-English dictionary for intermediate learners. Your job is to catch \
 REAL ERRORS that would mislead a learner — not to suggest improvements. Most entries \

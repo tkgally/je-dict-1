@@ -1,5 +1,11 @@
 # Verified Improvement Routine (v2) — Plan (2026-06-10)
 
+> **Status update (2026-06-11)**: adopted. `prompts/routine2.md` is the
+> scheduled Routine; the v1 prompt (`prompts/routine.md`) was deleted (no
+> rename — routine2.md keeps its name). The taxonomy-expansion tag policy and
+> reviewer prompt v3 followed from the first two days of v2 runs; see
+> `planning/wiki/topics/schema-tag-reliability.md`.
+
 A revision of the unified Routine, prepared one day after v1
 (`enhancement/unified-routine-plan-2026-06-09.md`, `prompts/routine.md`)
 shipped and ran its first nine test sessions. v2 is **an evolution, not a

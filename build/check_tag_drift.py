@@ -11,6 +11,8 @@ Priorities 7, 11, and 13. Two confidence tiers:
     politeness-unsupported   politeness humble/honorific but notes contain none
                              of the supporting keywords (Cleanup P7)            [warn]
     sole-general             semantic == ["general"] (under-specified, P13)     [info]
+    unknown-semantic         a semantic tag outside VALID_SEMANTIC (Cleanup P20
+                             — migrate to the suggested/best in-list tag)       [warn]
 
   HEURISTIC (review queue — false positives expected, VERIFY each)
     semantic-mismatch        a concrete-domain semantic tag (furniture,
@@ -33,6 +35,24 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = PROJECT_ROOT / "entries"
+
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from validate_tags import VALID_SEMANTIC  # noqa: E402
+
+# 1:1 migrations for the common out-of-taxonomy tags that were NOT blessed in
+# the 2026-06-11 taxonomy expansion (near-duplicates of existing tags). Tags
+# absent from this map need a per-entry choice of the best VALID_SEMANTIC tag.
+TAG_MIGRATION = {
+    "time": "time-general",
+    "people": "person",
+    "social": "society",
+    "description": "descriptive",
+    "medical": "health",
+    "medicine": "health",
+    "transport": "transportation",
+    "animals": "animal-general",
+    "economy": "economics",
+}
 
 VERB_OR_IADJ = {"verb-godan", "verb-ichidan", "verb-suru", "verb-kuru",
                 "verb-irregular", "adjective-i"}
@@ -145,6 +165,18 @@ def scan(id_range=None, only=None):
                     "Replace with a specific semantic tag if one clearly applies.",
                     tag="general")
 
+        if only in (None, "unknown-semantic"):
+            for tag in semantic:
+                if tag not in VALID_SEMANTIC:
+                    target = TAG_MIGRATION.get(tag)
+                    add(eid, rel, "unknown-semantic",
+                        f"semantic tag {tag!r} is not in VALID_SEMANTIC"
+                        + (f" (suggested: {target!r})" if target else ""),
+                        "warn",
+                        "Replace with the suggested 1:1 migration target, or "
+                        "choose the best VALID_SEMANTIC tag for this headword.",
+                        tag=tag)
+
         if only in (None, "semantic-mismatch"):
             etext = None
             for tag in semantic:
@@ -168,7 +200,8 @@ def main():
     ap.add_argument("--json", action="store_true", help="Emit the full JSON review queue.")
     ap.add_argument("--summary", action="store_true", help="Print counts only.")
     ap.add_argument("--check", choices=["conjugation-no-verb-pos", "politeness-unsupported",
-                                        "sole-general", "semantic-mismatch"],
+                                        "sole-general", "semantic-mismatch",
+                                        "unknown-semantic"],
                     help="Filter to one check.")
     ap.add_argument("--range", nargs=2, type=int, metavar=("START", "END"))
     ap.add_argument("--limit", type=int, default=25)
@@ -186,7 +219,7 @@ def main():
         entries.add(r["entry_id"])
     print(f"Tag drift: {len(records)} flags across {len(entries)} entries")
     for chk in ("conjugation-no-verb-pos", "politeness-unsupported",
-                "semantic-mismatch", "sole-general"):
+                "semantic-mismatch", "unknown-semantic", "sole-general"):
         if chk in by_check:
             print(f"  {chk:26} {by_check[chk]}")
     if not args.summary and records:

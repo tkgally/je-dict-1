@@ -199,6 +199,38 @@ The `metadata.tags.pos` array must use **only** these exact values:
 - **Noun usable with の**: `["noun", "adjective-no"]`
 - **Expression**: `["expression"]`
 
+## ⚠️ Semantic Tag Values (closed taxonomy — anything else is flagged by validate_tags.py and the §4 self-check)
+
+`metadata.tags.semantic` must use **only** tags from `VALID_SEMANTIC` in `build/validate_tags.py` (authoritative; expanded 2026-06-11):
+
+| Group | Valid values |
+|----------|-------------|
+| **Time** | `time-day-of-week`, `time-month`, `time-season`, `time-period`, `time-general` |
+| **Nature** | `animal-mammal`, `animal-bird`, `animal-fish`, `animal-insect`, `animal-general`, `plant-tree`, `plant-flower`, `plant-general`, `weather`, `geography`, `nature` |
+| **Human** | `body-part`, `body-internal`, `family`, `occupation`, `person`, `personality`, `appearance` |
+| **Abstract** | `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `abstract`, `change`, `evaluation` |
+| **Objects** | `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`, `money` |
+| **Actions** | `movement`, `communication`, `cognition`, `existence`, `creation`, `consumption` |
+| **Social life** | `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking` |
+| **Fields & topics** | `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military` |
+| **Special** | `proverb`, `idiom` |
+| **Fallbacks** | `general`, `action`, `descriptive`, `grammatical`, `expression`, `onomatopoeia` |
+
+### Common mistakes to avoid:
+```
+✗ "time"                 → use "time-general"
+✗ "people"               → use "person"
+✗ "social"               → use "society"
+✗ "medical"/"medicine"   → use "health" (medical is a domain tag, not semantic)
+✗ "transport"            → use "transportation"
+✗ "description"          → use "descriptive"
+✗ "animals"              → use "animal-general"
+✗ "economy"              → use "economics"
+✗ "object"/"place"/"body" → too vague; pick the specific in-list tag
+```
+
+Fallback conventions: internal organs use `body-internal`; external anatomy uses `body-part`; `health` is for conditions/procedures. Mimetic adverbs use `descriptive`. Suru-verbs and action nouns carry `action`. Domain tags (`metadata.tags.domain`) have their own closed list: `business`, `academic`, `technical`, `legal`, `medical`, `colloquial`, `internet`.
+
 ## Notes Field Requirements
 
 **See the `vocabulary-notes` skill for complete guidelines and the "Length targets" section above for size budgets.** The notes field is short and useful — neither sparse-and-unstructured nor maximally thorough.

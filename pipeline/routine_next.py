@@ -3,7 +3,7 @@
 
 Picks ONE focus ("mode") for the current Routine run using a deterministic
 debt-based weighted scheduler with bounded health nudges, then emits the choice
-as JSON on stdout for prompts/routine.md to act on.
+as JSON on stdout for prompts/routine2.md to act on.
 
 Modes: polish, systemic-fix, accuracy-review, new-entries, wiki.
 (`systemic-fix` ships disabled in Phase 1 via routine-config.json enabled_modes.)

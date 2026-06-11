@@ -3,6 +3,18 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog, IDs 29043–29062)
+Added 20 new entries (IDs 29043–29062) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05794–05963 but not yet defined.
+
+- **Loanword nouns (2)**: オリジナリティ (originality), プレゼンテーション (presentation)
+- **I-adjective (1)**: {苛立|いらだ}たしい (irritating, frustrating)
+- **Nouns (8)**: {妊活|にんかつ} (fertility efforts), {鉄拳|てっけん} (iron fist), {五円玉|ごえんだま} (5-yen coin), {産後|さんご} (postnatal period), {相談所|そうだんじょ} (consultation center), {悪事|あくじ} (wrongdoing), {街区|がいく} (city block), {防止法|ぼうしほう} (prevention law)
+- **Na-adjective (1)**: {薄|うす}め (slightly thin/light)
+- **Mimetics / onomatopoeia (4)**: すーすー (cool draft), ひやっと (sudden chill), ばくばく (large bites; heart pounding), がさごそ (rummaging)
+- **Verbs (4)**: {倒|たお}れ{込|こ}む (godan), {丸|まる}まる (godan), {言|い}い{続|つづ}ける (ichidan), {入|はい}ってくる (kuru)
+
+All 20 valid; conjugation tables added for 4 verbs + 1 i-adjective; 20 candidates removed.
+
 ### 2026-06-07 (Vocabulary Expansion - 22 New Entries, Recent Candidates Batch)
 Added 22 new dictionary entries (IDs 28931-28952) from `candidate_words.json`. No "seen in entry" candidates remained in the queue, so the session drew from recent unprocessed candidates favoring concrete everyday vocabulary (citrus varieties, hot-pot dishes, wedding styles, lighting, prefecture). Per-field budgets followed the reference shape of {もてなし} (27261) and {埃|ほこり}まみれ (27264): top-level glosses 3-8 words, notes scoped to 2-3 focused sections.
 
