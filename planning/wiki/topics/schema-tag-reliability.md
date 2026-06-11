@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-10 (added the "undefined tag semantics" pattern — `descriptive` catch-all and `body-internal` convention — and an empirical precision section from `reviews/decisions.jsonl`)
+**Last updated**: 2026-06-11 (added reviewer false-positive patterns from accuracy-review sessions 002–003: false "invalid tag" claims and "too narrow/broad" noise)
 
 ## Overview
 
@@ -208,6 +208,41 @@ weighting accordingly. The full breakdown, the precision-by-*source* split
 (self-check on a run's own changes adjudicates at ~13% vs ~1.5% for the
 whole-dictionary sweep), and the trend over time live in
 [Quality Metrics Trend](quality-metrics.md).
+
+### Reviewer false positives: two patterns observed in sessions 002–003 (2026-06-10/11)
+
+Across accuracy-review sessions covering entries 01151–01650 (session 003) and
+earlier ranges, two additional failure modes for the `tags` reviewer have been
+characterized:
+
+**1. False "invalid tag" claims.** `google/gemini-2.5-flash` frequently asserts
+that well-established semantic tags — `culture`, `religion`, `entertainment`,
+`business`, `nature`, among others — are "not in the schema" or "invalid." These
+tags each have 100+ uses in the dictionary and are all valid values in
+`build/schema.json`. The model produces the claim with apparent confidence, which
+makes it easy to miss without ground-truth checking. Session 003 bulk-rejected
+approximately 120 such flags. This is a *factual* error by the reviewer, distinct
+from a stylistic preference disagreement — the tag is real, in-schema, and used
+widely; the reviewer simply doesn't know the tag vocabulary.
+
+**2. Subjective "too narrow/too broad" substitutions.** The reviewer also
+suggests replacing specific-but-defensible tags (`education`, `communication`,
+`work`, `art`) with broader ones (`cognition`, `general`, `action`). These are
+editorial preference nits, not errors: the project convention explicitly accepts
+`general`, `descriptive`, `action`, and `expression` as legitimate fallback tags,
+and replacing a more specific tag with one of these is usually a regression toward
+less information. Session 003 bulk-rejected ~10 such suggestions per session.
+
+**Why this matters for the precision numbers.** The 6.8%–9% apply rate for the
+`tags` dimension (first measured 2026-06-10, confirmed 2026-06-11) is being held
+down by these two noise families. The *genuinely applicable* catches (batch
+tag-drift like `clothing` on a particle entry, `body-part` on a verb, a
+wrong-domain tag on an anatomy entry) are real and valuable — but they are buried
+in roughly 10× the volume of noise flags. Until the accuracy-review prompt is
+improved (see [Tooling Backlog](../ideas/tooling-backlog.md) → item 14), a useful
+heuristic during adjudication is: **reject immediately if the flag says the tag
+is invalid or "not in the schema"** — trust `build/schema.json` over the
+reviewer's assertions about the tag vocabulary.
 
 ## Implications for je-dict-1
 

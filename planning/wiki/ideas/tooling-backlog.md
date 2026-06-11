@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-10 (added items 11 validate.py link-resolution gate, 12 review_runner deep-range scoping, 13 review_runner response-parsing robustness)
+**Last updated**: 2026-06-11 (added item 14 accuracy-review prompt: valid-tag list and semantically-plausible guidance)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -243,6 +243,25 @@ models did parse) rather than crashing or silently dropping. For the bare-array
 case, accept a top-level array and coerce it to the expected shape (or take the
 first element) before parsing. Both are small, localized hardening changes that
 make multi-model review more reliable under the daily budget.
+
+## 14. accuracy-review prompt: include valid-tag list and semantically-plausible guidance
+
+**Source**: accuracy-review session 003 (entries 01151–01650), 2026-06-11; corroborated by accuracy-review sessions 001–002
+
+Two related failure modes have accumulated across accuracy-review sessions, both producing high false-positive rates on the `tags` dimension:
+
+1. **False "invalid tag" claims.** `google/gemini-2.5-flash` consistently flags valid semantic tags — `culture`, `religion`, `entertainment`, `business`, `nature`, and others — as "not in the schema" or "invalid." These tags each have 100+ uses in the dictionary and are defined in `build/schema.json`. The model asserts they don't exist rather than judging whether they are well-chosen for the entry in question. Accuracy-review session 003 observed this pattern on entries 01151–01650 and bulk-rejected ~120 such flags.
+
+2. **Subjective "too narrow/too broad" flagging.** The reviewer also flags tags like `education`, `communication`, `work` as "too narrow for the headword," suggesting replacements like `cognition`, `general`, `action`. These suggestions are matters of editorial preference, not factual error — the current project convention explicitly accepts `general`, `descriptive`, `action`, and `expression` as legitimate fallback tags; replacing a more specific tag with `general` is usually a regression. Accuracy-review session 003 bulk-rejected ~10 of these per run.
+
+Both patterns inflate the flags-per-applied ratio for the `tags` dimension, diluting the signal from the genuinely applicable catches (batch tag-drift, wrong-domain tags on anatomy entries, etc.).
+
+**Suggested prompt improvements** for `build/review_accuracy.py` (tags dimension prompt):
+- Provide a sample of the ~80 valid semantic tags (or the top ~30 most common), so the model cannot claim that widely-used tags are invalid.
+- Add an explicit instruction: "Do not flag a tag as wrong merely because a different tag would also be defensible. Flag only clear factual mismatches between the tag's semantic domain and the headword's primary meaning. `general`, `descriptive`, `action`, and `expression` are valid fallback tags — do not flag entries for using them."
+- For tags that appear valid but borderline, suggest "REJECT unless the tag is clearly wrong for the headword's primary meaning."
+
+**Impact**: The `tags` dimension has the highest apply rate of any review dimension (~7–9%), but only ~9% of flags in session 003 were genuinely applicable (11 of 121). Better prompt scoping would reduce the bulk-rejection workload by roughly 10× while preserving the real catches.
 
 ## Related pages
 

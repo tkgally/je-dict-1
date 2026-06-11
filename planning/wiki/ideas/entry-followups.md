@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-10
+**Last updated**: 2026-06-11 (added 06917_zo)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -480,6 +480,16 @@ entry-vs-pattern design context. If the project wants compound-verb morphemes to
 be linkable, candidate additions would be a suffix entry for 〜込む and an added
 sense (or grammar-pattern entry) for the 掛かる "be about to" meaning. Otherwise
 this is informational — the `noentry` markers are correct given current scope.
+
+## 06917_zo — wrong formality tag and wrong semantic tags for a sentence-final particle
+
+**Source**: accuracy-review session 003 (2026-06-11)
+
+Entry `06917_zo` (ぞ, sentence-final particle) has two tag errors:
+- `formality: "formal"` — the notes explicitly say "Casual to rough. Never used in formal situations." This is a P17 error (over-applied `formal` to an informal/rough word).
+- `semantic: ["clothing", "time-general", "tool"]` — these tags make no sense for a sentence-final particle. Likely batch tag-drift from an adjacent entry or a creation-time error.
+
+**Recommended fix**: Set `formality: "informal"` (or `"rough"`/`"casual"` if the schema supports it — otherwise `"informal"`). Replace the semantic tags with something appropriate for a masculine/emphatic sentence-final particle (e.g., `["expression"]` or `["grammar"]`). Update the `modified` timestamp.
 
 ## Related pages
 
