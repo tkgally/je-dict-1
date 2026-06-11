@@ -1,0 +1,24 @@
+{
+  "entry_id": "02001_sei",
+  "headword": "〜{製|せい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:37:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'furniture' and 'geography' are incorrect for the headword '〜製'.",
+      "suggestion": "The headword '〜製' indicates 'made in' or 'made of', which is a descriptive quality. The appropriate tag would be 'descriptive'."
+    }
+  ]
+}

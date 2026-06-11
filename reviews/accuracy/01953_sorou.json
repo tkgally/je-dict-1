@@ -1,0 +1,24 @@
+{
+  "entry_id": "01953_sorou",
+  "headword": "{揃|そろ}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:36:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'clothing', 'furniture', and 'tool' are too specific and do not represent the general meaning of '揃う'.",
+      "suggestion": "Replace with 'general' or 'descriptive'."
+    }
+  ]
+}

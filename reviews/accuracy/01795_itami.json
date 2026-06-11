@@ -1,0 +1,24 @@
+{
+  "entry_id": "01795_itami",
+  "headword": "{痛|いた}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:34:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '痛み' has three distinct senses, only one of which (sense 2: emotional pain) is accurately described by the 'emotion' tag. Sense 1 (physical pain) is better described by 'descriptive' or 'general', and sense 3 (damage/wear) is not related to emotion at all.",
+      "suggestion": "Remove 'emotion' tag. Add 'general' or 'descriptive' as a more encompassing tag for the headword, or add 'descriptive' and 'existence' to cover the physical and damage senses."
+    }
+  ]
+}

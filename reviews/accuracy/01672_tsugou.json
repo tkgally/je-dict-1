@@ -1,0 +1,24 @@
+{
+  "entry_id": "01672_tsugou",
+  "headword": "{都合|つごう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:32:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is too narrow and misleading for '都合'.",
+      "suggestion": "Replace 'time-general' with 'general' or 'cognition' or 'expression'."
+    }
+  ]
+}
