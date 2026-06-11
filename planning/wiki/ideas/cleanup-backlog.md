@@ -1,10 +1,10 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-10 (P11 extended through 05990 + low-ID accuracy-review fixes; P17 extended to 00450; added P18 'descriptive' catch-all tag; P4 notes-level sub-pattern extended to 06xxx compound verbs)
+**Last updated**: 2026-06-11 (added P20 out-of-taxonomy semantic-tag migration, following the curator's taxonomy-expansion decision; updated Routine prompt references to routine2.md)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
-**As of 2026-06-09**, the batch-addressable items here are also indexed in machine-readable form at [`backlog-queue.json`](backlog-queue.json), which the unified Routine's `systemic-fix` mode (`prompts/routine.md` §B) drains one bounded, per-entry-verified batch at a time. Read-only detectors back the queue: `build/check_furigana_format.py` (P9, P12), `build/check_artifacts.py` (P16, P15, P10, P4, P2), and `build/check_tag_drift.py` (P6, P7, P13; P11 detector experimental). Keep `backlog-queue.json` in sync with this page during wiki maintenance.
+**As of 2026-06-09**, the batch-addressable items here are also indexed in machine-readable form at [`backlog-queue.json`](backlog-queue.json), which the unified Routine's `systemic-fix` mode (`prompts/routine2.md` §B) drains one bounded, per-entry-verified batch at a time. Read-only detectors back the queue: `build/check_furigana_format.py` (P9, P12), `build/check_artifacts.py` (P16, P15, P10, P4, P2), and `build/check_tag_drift.py` (P6, P7, P13, P20; P11 detector experimental). Keep `backlog-queue.json` in sync with this page during wiki maintenance.
 
 ## Priority 1: Unlinked notes in older entries
 
@@ -448,6 +448,39 @@ for the systemic-fix review queue).
 each bad example with a genuine example of the headword (full inline links), or
 delete it when the entry has examples to spare; skip legitimate kana-orthography
 cases. Queued as `example-headword-missing` in `backlog-queue.json`.
+
+## Priority 20: Out-of-taxonomy semantic tags (post-expansion migration)
+
+**Source**: Curator tag-policy decision 2026-06-11 (see
+[Schema Tag Reliability](../topics/schema-tag-reliability.md) → "The
+tag-vocabulary contradiction and its resolution")
+
+A 2026-06-11 audit found 17,762 semantic-tag instances across 1,204 distinct
+tags outside `VALID_SEMANTIC` — the root cause of the contradictory tag
+adjudications in the first Routine v2 runs. The taxonomy was expanded with 30
+established categories (≥100 uses each), legitimizing ~49% of those instances.
+What remains to migrate (measured at expansion time): **9,036 instances across
+7,292 entries**.
+
+- **Near-duplicates with 1:1 targets** (~2,060 instances): `time`→`time-general`,
+  `people`→`person`, `social`→`society`, `description`→`descriptive`,
+  `medical`/`medicine`→`health`, `transport`→`transportation`,
+  `animals`→`animal-general`, `economy`→`economics`. The detector suggests the
+  target; still verify per entry (a word tagged `medical` may be better served
+  by `body-internal`, etc.).
+- **Long tail** (~7,000 instances, 1,160+ distinct tags, 889 of them used <5
+  times): no automatic target — choose the best `VALID_SEMANTIC` tag per entry.
+
+**Detection**: `python3 build/check_tag_drift.py --check unknown-semantic
+--summary` (or `--json` for the systemic-fix review queue; each record carries
+the offending tag and, for near-duplicates, the suggested target).
+
+**Suggested action**: systemic-fix batches with per-entry verification,
+starting with the 1:1 near-duplicates (highest confidence). The
+accuracy-review mode also drains this organically — reviewer prompt v3 flags
+out-of-list tags with suggested in-list replacements, and the standing
+adjudication rule (routine2.md §A) is to apply them. Queued as
+`unknown-semantic-tags` in `backlog-queue.json`.
 
 ## Informational: Pre-polished cohort around 00083–00090
 

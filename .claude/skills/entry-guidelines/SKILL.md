@@ -399,24 +399,37 @@ Valid values: `noun`, `verb-godan`, `verb-ichidan`, `verb-suru`, `verb-kuru`, `v
 
 ### Semantic Categories
 
-Choose the most appropriate category(ies) for the word's meaning:
+Choose the most appropriate category(ies) for the word's meaning. The closed
+taxonomy lives in `VALID_SEMANTIC` in `build/validate_tags.py` (authoritative;
+expanded 2026-06-11 with established-by-usage categories). **Use only tags from
+this list** — anything else produces an "Unknown semantic tag" warning and gets
+flagged by cross-model review:
 
 **Specific categories** (use when applicable):
 - Time: `time-day-of-week`, `time-month`, `time-season`, `time-period`, `time-general`
-- Nature: `animal-mammal`, `animal-bird`, `animal-fish`, `animal-insect`, `animal-general`, `plant-tree`, `plant-flower`, `plant-general`, `weather`, `geography`
-- Human: `body-part`, `body-internal`, `family`, `person`, `occupation`
-- Objects: `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`
-- Abstract: `emotion`, `color`, `number`, `direction`, `size`, `quantity`
-- Actions: `movement`, `communication`, `cognition`, `existence`, `consumption`
-- Social: `greeting`, `education`, `work`, `leisure`
+- Nature: `animal-mammal`, `animal-bird`, `animal-fish`, `animal-insect`, `animal-general`, `plant-tree`, `plant-flower`, `plant-general`, `weather`, `geography`, `nature`
+- Human: `body-part`, `body-internal`, `family`, `person`, `occupation`, `personality`, `appearance`
+- Objects: `food`, `clothing`, `building`, `transportation`, `tool`, `furniture`, `electronics`, `money`
+- Abstract: `emotion`, `color`, `number`, `direction`, `size`, `quantity`, `abstract`, `change`, `evaluation`
+- Actions: `movement`, `communication`, `cognition`, `existence`, `creation`, `consumption`
+- Social life: `greeting`, `education`, `work`, `leisure`, `daily-life`, `shopping`, `travel`, `cooking`
+- Fields & topics: `business`, `economics`, `finance`, `law`, `politics`, `society`, `culture`, `religion`, `history`, `science`, `technology`, `health`, `language`, `media`, `music`, `art`, `entertainment`, `sports`, `military`
+- Special: `proverb`, `idiom`
 
 **Fallback categories** (when no specific category fits):
 - `general`: For nouns without a specific semantic category
 - `action`: For verbs not fitting other action categories
-- `descriptive`: For adjectives and adverbs
+- `descriptive`: For adjectives, adverbs, and mimetic manner/quality words
 - `grammatical`: For particles and conjunctions
 - `expression`: For fixed expressions and interjections
 - `onomatopoeia`: For mimetic words
+
+**Conventions**: internal organs use `body-internal`; external anatomy uses
+`body-part`; `health` is for conditions/procedures, not anatomy. Common
+near-misses: use `time-general` (not `time`), `person` (not `people`),
+`society` (not `social`), `health` (not `medical`/`medicine` — `medical` is a
+domain tag), `transportation` (not `transport`), `animal-general` (not
+`animals`), `economics` (not `economy`).
 
 ### Optional Tag Categories
 

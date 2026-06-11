@@ -1,5 +1,11 @@
 # Unified Improvement Routine — Plan (2026-06-09)
 
+> **Historical note (2026-06-11)**: the v1 prompt this plan produced
+> (`prompts/routine.md`) was removed after `prompts/routine2.md` (the Verified
+> Routine) took over scheduling. This document remains as the design rationale
+> for the foundations v2 kept (selector, modes, capture, merge discipline).
+> Current design: `enhancement/routine2-plan-2026-06-10.md`.
+
 A single scheduled prompt that, run unattended several times a day, makes steady,
 balanced improvements to the dictionary's **quality, accuracy, consistency, and
 usefulness** — drawing on insights accumulated in the knowledge wiki — while

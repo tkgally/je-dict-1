@@ -1,7 +1,6 @@
 # Unified Improvement Routine v2 — the Verified Routine
 
-**The single scheduled task for je-dict-1** (successor to `prompts/routine.md` —
-schedule ONE of the two, never both). Each run does ONE focused unit of
+**The single scheduled task for je-dict-1.** Each run does ONE focused unit of
 high-quality work chosen by a deterministic selector, **verifies its own changes
 with an independent model before merging them**, records a one-line quality
 metrics snapshot, then reliably merges its own PR. Designed to run unattended
@@ -105,8 +104,8 @@ PR/CI/merge discipline** — they are the same disciplines this Routine uses in
 
 | `mode` | Do this |
 |---|---|
-| `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing). Skip only IDs with no entry file and entries whose `modified` date is within the last 30 days — worst-scoring entries are eligible **regardless of the comprehensive frontier**: a low-ID entry that was polished long ago but still scores at the bottom is exactly what this lane is for. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, regenerate priorities at wrap-up (`make priorities`, before `make build`), and reset the priority cursor to `line: 1` (regeneration re-ranks, so old line numbers are meaningless). Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
-| `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what you sensibly can, then append `- [pattern] candidate_words.json running low — curator restock requested` to `polishing/observations.md`. **Never** auto-route to corpus harvesting or candidate discovery; the curator tops up candidates manually. |
+| `polish` | Apply **`prompts/comprehensive_polish.md`**'s per-entry checklist in **two lanes**. **Priority lane first**: if `polishing/priority/notes.txt` exists and is less than 14 days old, spend roughly the first 40% of your entry budget on IDs taken from it in order, starting at the line recorded in `polishing/tasks/comprehensive/priority-cursor.txt` (create the file with `line: 1` if missing). Skip only IDs with no entry file and entries whose `modified` date is within the last 30 days — worst-scoring entries are eligible **regardless of the comprehensive frontier**: a low-ID entry that was polished long ago but still scores at the bottom is exactly what this lane is for. **Frontier lane second**: spend the rest of the budget sequentially from `params.start_id` as in v1. Update both cursors at wrap-up. If the priority file is missing or stale, run frontier-only, regenerate priorities at wrap-up (`make priorities`, before `make build`), and reset the priority cursor to `line: 1` (regeneration re-ranks, so old line numbers are meaningless). **Also regenerate + reset at wrap-up if more than half of the priority-lane entries you processed turned out to need no changes** — that means the rankings have gone stale relative to recent polishing. Skip comprehensive_polish.md's own pre-flight sweep (already done in §0). |
+| `new-entries` | Follow **`prompts/newentries.md`**. Create ~`params.approx_count` (≈20) entries; prefer candidates whose notes say "seen in entry". **Tag from the closed lists**: semantic tags MUST come from `VALID_SEMANTIC` and domain tags from `VALID_DOMAIN` in `build/validate_tags.py` (newentries.md has the table) — after validation, `python3 build/validate_tags.py` must report no "Unknown semantic tag" warnings for your new IDs. After the post-creation validation sequence and **before** the single build, run the §4 self-verification on the new entry IDs — this is the new-entry quality gate. If `params.candidates_low` is true, create what you sensibly can, then append `- [pattern] candidate_words.json running low — curator restock requested` to `polishing/observations.md`. **Never** auto-route to corpus harvesting or candidate discovery; the curator tops up candidates manually. |
 | `accuracy-review` | Follow **§A** below (cross-model review of furigana + glosses/translations/tags within budget, apply corrections, maintain the review queue). |
 | `wiki` | Follow **`planning/maintain-knowledge-base.md`** (harvest `polishing/observations.md`, then 2–4 wiki activities). Keep `planning/wiki/ideas/backlog-queue.json` in sync with the prose backlog pages. **Metrics trend activity**: if `pipeline/metrics-history.jsonl` has ≥10 lines newer than the last update of `planning/wiki/topics/quality-metrics.md` (or that page doesn't exist yet), create/update it with a dated trend table (entry count, flags applied/rejected by dimension from `reviews/decisions.jsonl`, review-queue depth, OpenRouter spend) and log any metric moving the wrong way as a `[pattern]` observation. |
 | `systemic-fix` | Follow **§B** below, working `params.backlog_item`. Semantic-verification-first: verify every flagged entry before changing it. |
@@ -160,7 +159,9 @@ round (no ping-pong loops).
 4. **Adjudicate every reported issue with your own judgment** per §C:
    **APPLY** clear errors (your own slips, and pre-existing errors the model
    caught); **REJECT** stylistic nits and model misreadings; **FLAG** genuine
-   uncertainty by appending to `reviews/needs_curator.txt`. Log every decision
+   uncertainty by appending to `reviews/needs_curator.txt`. Tag-vocabulary
+   flags follow the semantic-tag policy in §A step 4 (not-in-list = apply the
+   migration; in-list narrowness nit = reject). Log every decision
    per §C. Update the `modified` timestamp on any entry you fix.
 5. **Record spend in the ledger** using the snippet in §A step 5, with
    `phase: "self-check"`.
@@ -284,7 +285,13 @@ converging instead of growing. Spend is capped per-run by the selector
    python3 build/review_runner.py --pass deep --range <start> <end> --budget <deep_cap>
    ```
    Screening is cheap; `--pass deep --range` deep-reviews **only the
-   screening-flagged entries inside the range**. **Resilience:** if the runner
+   screening-flagged entries inside the range**. **Known-noise shortcut:** if
+   every screening flag falls within the documented false-positive families
+   (rendaku in compounds, okurigana/compound reading splits, readings the
+   entry itself discusses — see `reviews/calibration_report.md`), bulk-reject
+   them with one aggregated §C line and **skip the deep pass** (measured
+   2026-06-10/11: screening over already-polished ranges ran 0–5% precision).
+   **Resilience:** if the runner
    exits abnormally mid-pass, keep the per-entry results already written,
    append a `[tooling]` observation, and continue with step 3 — do not retry
    the whole pass.
@@ -305,6 +312,16 @@ converging instead of growing. Spend is capped per-run by the selector
    - **REJECT** stylistic nits or cases where the model is wrong.
    - **FLAG** genuine uncertainty for the curator
      (append to `reviews/needs_curator.txt`).
+   **Semantic-tag policy (2026-06-11):** `VALID_SEMANTIC` in
+   `build/validate_tags.py` is the single source of truth for tag vocabulary —
+   the reviewer prompt embeds it. A flag that a tag is **not in the list is
+   correct by definition**: APPLY it by migrating to the suggested or best
+   in-list tag (`build/check_tag_drift.py` has the 1:1 migration map). Never
+   reject such a flag on the grounds that the tag is "widely used" — usage
+   counts are not the standard, and `schema.json` deliberately has no tag enum.
+   Conversely, REJECT "too narrow/too broad" substitutions between in-list
+   tags, and APPLY a formality flag only when the entry's own notes/register
+   description contradicts the label.
    Never apply blindly; never add inline links in this mode. **Log every
    decision to `reviews/decisions.jsonl`** (§C). **Adjudication effort scales
    with flag quality** (measured 2026-06-10: error-severity flags ~4–13%
@@ -391,6 +408,10 @@ append mode; never rewrite the file):
 - `dim`: `gloss` | `translation` | `tags` | `furigana`
 - `decision`: `apply` | `reject` | `flag`
 - `note`: ≤10 words, telegraphic.
+
+Use **exactly these lowercase values** — mixed-case (`APPLY`) or ad-hoc `src`
+values (`accuracy-review`) break the precision statistics. (Both drifts were
+observed in the first week's ledger.)
 
 When bulk-rejecting a recurring noise family (§A step 4), write ONE aggregated
 line with an `"n"` count and no `"entry"` field:

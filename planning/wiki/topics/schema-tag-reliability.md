@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-11 (added reviewer false-positive patterns from accuracy-review sessions 002–003: false "invalid tag" claims and "too narrow/broad" noise)
+**Last updated**: 2026-06-11 (CORRECTED the reviewer-false-positive analysis — the "invalid tag" flags were enforcing the documented taxonomy, not hallucinating; recorded the curator's expand-then-enforce tag-policy decision: 30 established tags blessed into VALID_SEMANTIC, near-duplicate migration map, ~9,000-instance long tail tracked as Cleanup P20)
 
 ## Overview
 
@@ -209,40 +209,58 @@ weighting accordingly. The full breakdown, the precision-by-*source* split
 whole-dictionary sweep), and the trend over time live in
 [Quality Metrics Trend](quality-metrics.md).
 
-### Reviewer false positives: two patterns observed in sessions 002–003 (2026-06-10/11)
+### The tag-vocabulary contradiction and its resolution (2026-06-11 policy decision)
 
-Across accuracy-review sessions covering entries 01151–01650 (session 003) and
-earlier ranges, two additional failure modes for the `tags` reviewer have been
-characterized:
+**CORRECTION (2026-06-11).** An earlier version of this section claimed that
+the reviewer's "invalid tag" flags on `culture`, `religion`, `business`,
+`nature`, etc. were *reviewer hallucinations*, because those tags "are all
+valid values in `build/schema.json`." That analysis was wrong on the facts:
+`schema.json` deliberately has **no enum for semantic tags** (free strings),
+and the closed taxonomy that the project actually documents — in
+`VALID_SEMANTIC` in `build/validate_tags.py`, in the `entry-guidelines` skill,
+and **embedded in the reviewer's own prompt** by `review_accuracy.py` — did
+not contain those tags. The reviewer was correctly enforcing the list it was
+given. "The tag has hundreds of uses" was never the standard: a 2026-06-11
+audit found **17,762 tag instances across 1,204 distinct out-of-taxonomy
+tags**, i.e. the de-facto vocabulary had drifted far from the documented one,
+and adjudication flip-flopped between runs depending on which source a session
+consulted (one run bulk-rejected ~120 such flags as "false positives"; the
+next run applied 57 migrations for the same flag type).
 
-**1. False "invalid tag" claims.** `google/gemini-2.5-flash` frequently asserts
-that well-established semantic tags — `culture`, `religion`, `entertainment`,
-`business`, `nature`, among others — are "not in the schema" or "invalid." These
-tags each have 100+ uses in the dictionary and are all valid values in
-`build/schema.json`. The model produces the claim with apparent confidence, which
-makes it easy to miss without ground-truth checking. Session 003 bulk-rejected
-approximately 120 such flags. This is a *factual* error by the reviewer, distinct
-from a stylistic preference disagreement — the tag is real, in-schema, and used
-widely; the reviewer simply doesn't know the tag vocabulary.
+**The resolution (curator decision, 2026-06-11): expand, then enforce.** The
+taxonomy was expanded with 30 established-by-usage categories (each had 100+
+uses: `business`, `culture`, `abstract`, `nature`, `daily-life`, `society`,
+`health`, `technology`, `science`, `politics`, `personality`, `sports`,
+`evaluation`, `language`, `law`, `travel`, `religion`, `history`, `finance`,
+`appearance`, `money`, `music`, `cooking`, `change`, `media`, `shopping`,
+`entertainment`, `art`, `military`, `economics`), legitimizing ~49% of the
+out-of-taxonomy instances at a stroke. Near-duplicates were deliberately NOT
+blessed and carry 1:1 migrations (`time`→`time-general`, `people`→`person`,
+`social`→`society`, `description`→`descriptive`, `medical`/`medicine`→`health`,
+`transport`→`transportation`, `animals`→`animal-general`,
+`economy`→`economics` — the map lives in `build/check_tag_drift.py`). The
+remaining **~9,000 instances across ~7,300 entries** (measured at expansion
+time) are tracked by the new `unknown-semantic` detector check and migrate
+gradually via accuracy-review and systemic-fix
+([Cleanup Backlog](../ideas/cleanup-backlog.md) → Priority 20). Note: the
+`tag_drift` queue-depth metric in `pipeline/metrics-history.jsonl` jumps when
+the new check lands — that is the new instrument, not a regression.
 
-**2. Subjective "too narrow/too broad" substitutions.** The reviewer also
-suggests replacing specific-but-defensible tags (`education`, `communication`,
-`work`, `art`) with broader ones (`cognition`, `general`, `action`). These are
-editorial preference nits, not errors: the project convention explicitly accepts
-`general`, `descriptive`, `action`, and `expression` as legitimate fallback tags,
-and replacing a more specific tag with one of these is usually a regression toward
-less information. Session 003 bulk-rejected ~10 such suggestions per session.
+**The standing adjudication rule** (now also in `prompts/routine2.md` §A):
+`VALID_SEMANTIC` is the **single source of truth**. A reviewer flag that a tag
+is not in the list is *correct by definition* — apply it by migrating to the
+best in-list tag. Never reject such a flag because the tag is widely used.
 
-**Why this matters for the precision numbers.** The 6.8%–9% apply rate for the
-`tags` dimension (first measured 2026-06-10, confirmed 2026-06-11) is being held
-down by these two noise families. The *genuinely applicable* catches (batch
-tag-drift like `clothing` on a particle entry, `body-part` on a verb, a
-wrong-domain tag on an anatomy entry) are real and valuable — but they are buried
-in roughly 10× the volume of noise flags. Until the accuracy-review prompt is
-improved (see [Tooling Backlog](../ideas/tooling-backlog.md) → item 14), a useful
-heuristic during adjudication is: **reject immediately if the flag says the tag
-is invalid or "not in the schema"** — trust `build/schema.json` over the
-reviewer's assertions about the tag vocabulary.
+**Subjective "too narrow/too broad" substitutions remain noise.** The reviewer
+also suggests replacing specific-but-defensible in-list tags (`education`,
+`communication`, `work`, `art`) with broader ones (`cognition`, `general`,
+`action`). These are editorial preference nits, not errors, and replacing a
+specific tag with a fallback is usually a regression toward less information.
+Reject them. Prompt v3 of `review_accuracy.py` (2026-06-11) instructs the
+reviewer not to produce them (and to restrict formality flags to unambiguous
+register contradictions), so this family should shrink in the precision data —
+`reviews/decisions.jsonl` segments by `prompt_version` via the review files if
+it doesn't.
 
 ## Implications for je-dict-1
 

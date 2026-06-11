@@ -72,7 +72,17 @@ VALID_SEMANTIC = {
     # Special
     "proverb", "idiom",
     # Linguistic fallback categories (Phase 5)
-    "general", "action", "descriptive", "grammatical", "expression", "onomatopoeia"
+    "general", "action", "descriptive", "grammatical", "expression", "onomatopoeia",
+    # Established-by-usage categories blessed 2026-06-11 (curator tag-policy
+    # decision: each had 100+ uses in the dictionary; see
+    # planning/wiki/topics/schema-tag-reliability.md). Out-of-list tags remain
+    # warnings; near-duplicates and the long tail are migrated gradually via
+    # build/check_tag_drift.py --check unknown-semantic.
+    "business", "culture", "abstract", "nature", "daily-life", "society",
+    "health", "technology", "science", "politics", "personality", "sports",
+    "evaluation", "language", "law", "travel", "religion", "history",
+    "finance", "appearance", "money", "music", "cooking", "change",
+    "media", "shopping", "entertainment", "art", "military", "economics",
 }
 
 # Verb class must match POS

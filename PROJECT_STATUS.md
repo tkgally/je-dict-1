@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-11 (Curator session: Routine v2 assessment, semantic-tag policy decision, routine.md removed)
+Reviewed the first 17 Routine v2 runs (all PRs merged cleanly; §4 self-verification catching real errors at ~$0.01/run) and resolved the semantic-tag source-of-truth contradiction that had runs adjudicating identical "invalid tag" flags in opposite directions.
+
+- **Tag policy (curator decision)**: expand-then-enforce. `VALID_SEMANTIC` in `build/validate_tags.py` expanded with 30 established-by-usage tags (`business`, `culture`, `nature`, `health`, …); near-duplicates get a 1:1 migration map (`time`→`time-general`, `people`→`person`, …) in `build/check_tag_drift.py`; the remaining 9,036 out-of-taxonomy instances (7,292 entries) are tracked by the new `check_tag_drift.py --check unknown-semantic` detector and Cleanup Backlog P20 / `unknown-semantic-tags` queue item.
+- **Reviewer prompt v3** (`build/review_accuracy.py`): out-of-list tags flagged as migration candidates; no "too narrow/broad" substitutions between in-list tags; formality flags only on unambiguous register contradictions.
+- **Tag guidance at creation time**: semantic-tag closed list added to `prompts/newentries.md` (mirroring the POS table) and refreshed in the `entry-guidelines` skill — ends the create-then-§4-patch loop seen in every new-entries run.
+- **routine2.md tweaks**: standing tag-adjudication rule (§A); furigana-screening known-noise shortcut (bulk-reject documented false-positive families, skip the deep pass); stale-priority-lane regeneration rule; §C exact-lowercase ledger values.
+- **routine.md deleted** — routine2.md is the only Routine prompt; references updated in CLAUDE.md, metaprompt_list.md, routine_next.py, routine-config.json, and the wiki. Corrected the wrong adjudication heuristic in `planning/wiki/topics/schema-tag-reliability.md`; Tooling Backlog item 14 resolved.
+
 ### 2026-06-11 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29123–29142)
 Added 20 new entries (IDs 29123–29142): all 8 "seen in entry" candidates plus 12 regular candidates.
 
@@ -99,18 +108,5 @@ Added 20 new entries (IDs 29063–29082) drawn from "seen in entry" internal-com
 - **Yojijukugo / onomatopoeia (3)**: {空前絶後|くうぜんぜつご} (unprecedented and unrepeatable), べらべら (chattering / fluent), どたどた (heavy clumsy footsteps)
 
 §4 self-verification: 33 model flags across 17 entries adjudicated → **5 applied** (2 gloss age-sense additions for 古希/喜寿, 1 stubbornness nuance for 言い張る, 1 over-literal translation fix for 空前絶後, 1 tag fix), **28 rejected** (stylistic nits, model misreadings, house-style conflicts e.g. "blessing" matching existing 大吉), **0 flagged to curator**. Decisions logged to `reviews/decisions.jsonl`; metrics line appended to `pipeline/metrics-history.jsonl`. Also retagged the 4 anatomy entries to semantic `["body-internal"]` to match the dictionary's internal-organ convention (心臓/胃/腎臓). New kanji 頸 (02770_kei_kubi_neck). 8 words captured as candidates (心音, 触診, 胆汁, 胆石, 摘出, 潰瘍, 延発, どすどす). All 20 valid; conjugation tables added for 4 verbs/suru; 20 candidates removed.
-
-### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog, IDs 29043–29062)
-Added 20 new entries (IDs 29043–29062) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05794–05963 but not yet defined.
-
-- **Loanword nouns (2)**: オリジナリティ (originality), プレゼンテーション (presentation)
-- **I-adjective (1)**: {苛立|いらだ}たしい (irritating, frustrating)
-- **Nouns (8)**: {妊活|にんかつ} (fertility efforts), {鉄拳|てっけん} (iron fist), {五円玉|ごえんだま} (5-yen coin), {産後|さんご} (postnatal period), {相談所|そうだんじょ} (consultation center), {悪事|あくじ} (wrongdoing), {街区|がいく} (city block), {防止法|ぼうしほう} (prevention law)
-- **Na-adjective (1)**: {薄|うす}め (slightly thin/light)
-- **Mimetics / onomatopoeia (4)**: すーすー (cool draft), ひやっと (sudden chill), ばくばく (large bites; heart pounding), がさごそ (rummaging)
-- **Verbs (4)**: {倒|たお}れ{込|こ}む (godan), {丸|まる}まる (godan), {言|い}い{続|つづ}ける (ichidan), {入|はい}ってくる (kuru)
-
-All 20 valid; conjugation tables added for 4 verbs + 1 i-adjective; 20 candidates removed.
-
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
