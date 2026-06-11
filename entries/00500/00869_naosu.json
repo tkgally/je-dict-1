@@ -209,10 +209,18 @@
     }
   ],
   "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pair: ⟦{直|なお}る→直る：00735_naoru⟧ (intransitive). Pattern: X⟦を→を：00422_wo⟧{直|なお}す (fix X).\n\nASPECT: ている indicates ongoing action or result. {直|なお}している = 'is fixing' or 'has fixed.'\n\nCOMMON PATTERNS:\n・⟦{車|くるま}→車：00516_kuruma⟧⟦を→を：00422_wo⟧{直|なお}す (fix a car)\n・⟦{間違|まちが}い→間違い：03733_machigai⟧⟦を→を：00422_wo⟧{直|なお}す (correct mistakes)\n・⟦{癖|くせ}→癖：03814_kuse⟧⟦を→を：00422_wo⟧{直|なお}す (correct a habit)\n・⟦{書|か}き{直|なお}す→書き直す：04597_kakinaosu⟧ (rewrite)\n\nPAIR: ⟦{直|なお}る→直る：00735_naoru⟧ (intransitive) - ⟦パソコン→パソコン：01538_pasokon⟧⟦が→が：00051_ga⟧⟦{直|なお}った→直る：00735_naoru⟧ (computer got fixed). As suffix: V-stem + {直|なお}す = redo.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "pair",
+      "reading": "なおる",
+      "headword": "{直|なお}る",
+      "target_id": "00735_naoru",
+      "label": "intransitive"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:24:12Z",
-    "modified": "2026-05-12T23:06:47Z",
+    "modified": "2026-06-11T14:27:31Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

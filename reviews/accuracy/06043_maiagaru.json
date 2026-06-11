@@ -1,0 +1,24 @@
+{
+  "entry_id": "06043_maiagaru",
+  "headword": "{舞|ま}い{上|あ}がる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T14:38:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for the headword '舞い上がる'. The word means 'to soar up' or 'to get carried away', neither of which relates to body parts.",
+      "suggestion": "Replace 'body-part' with a more appropriate tag like 'movement' or 'emotion', or 'general' if no specific tag fits both senses well."
+    }
+  ]
+}
