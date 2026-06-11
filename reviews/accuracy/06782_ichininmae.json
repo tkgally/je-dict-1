@@ -1,0 +1,24 @@
+{
+  "entry_id": "06782_ichininmae",
+  "headword": "{一人前|いちにんまえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T23:41:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'building' and 'transportation' are incorrect for the headword '一人前' (one serving; full-fledged adult).",
+      "suggestion": "Replace 'building' and 'transportation' with 'food' and 'person' or 'daily-life'."
+    }
+  ]
+}

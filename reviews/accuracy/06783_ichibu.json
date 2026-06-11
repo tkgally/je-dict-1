@@ -1,0 +1,24 @@
+{
+  "entry_id": "06783_ichibu",
+  "headword": "{一部|いちぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T23:41:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'building', 'communication', 'tool', and 'transportation' are incorrect for the headword '一部' (part; portion; one copy).",
+      "suggestion": "Replace with 'quantity' or 'general'."
+    }
+  ]
+}
