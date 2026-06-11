@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-11] maintenance | Observation harvest (2 items), metrics-trend refresh (18 runs), stats sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded (main `next: 06048`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 2 observations from the 2026-06-11 routine v2 polish session (entries 06038–06047):
+  - `[pattern]` compound verb inline-link gaps (自動詞/他動詞 in TRANSITIVITY lines, particles in Pattern lines, content words in COMMON PATTERNS bullets not wrapped as ⟦...⟧; affects 06038+ cohort and lower-ID entries) → new **Cleanup Backlog P21**.
+  - `[tooling]` lint rule for unlinked {自動詞|じどうし}/{他動詞|たどうし} in notes fields → new **Tooling Backlog item 15**.
+  - Cleared both observations from `polishing/observations.md`.
+- [H] Metrics-trend refresh: updated `topics/quality-metrics.md` with all 18 runs (2026-06-10 through 2026-06-11, 874 adjudicated flags). Key findings updated: (1) `tags` apply rate now 35.8% all-time but split by policy change — pre-policy ~6.8%, post-policy ~45–100%; (2) review queue IS converging (−923 net over 18 runs, reversing day-1 finding); (3) self-check at 34.3% remains most precise; (4) accuracy sweep improved from 1.5% to 17.6%; (5) noted 62 early `accuracy-review` src entries (non-standard, ledger-only cosmetic issue). No `[pattern]` observations logged — no metrics trending wrong.
+- [A] Stats sync: updated `project/overview.md` and `project/vocabulary-tiers.md` (general tier 26,130→26,150).
+
+**§4 self-check**: Not applicable (0 entry files changed).
+**Metrics**: Appended wiki run line via `pipeline/metrics_snapshot.py` (19 lines total).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-11 Routine runs so far.
+
 ## [2026-06-11] curator session | Tag-policy decision recorded; corrected schema-tag-reliability.md; item 14 resolved; Cleanup P20 added
 
 **Session type**: Curator-directed review of the first Routine v2 runs (not a scheduled wiki run)

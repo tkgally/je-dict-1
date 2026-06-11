@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-11 (added P20 out-of-taxonomy semantic-tag migration, following the curator's taxonomy-expansion decision; updated Routine prompt references to routine2.md)
+**Last updated**: 2026-06-11 (added P21 compound-verb inline-link gaps; added P20 out-of-taxonomy semantic-tag migration, following the curator's taxonomy-expansion decision; updated Routine prompt references to routine2.md)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -481,6 +481,38 @@ accuracy-review mode also drains this organically — reviewer prompt v3 flags
 out-of-list tags with suggested in-list replacements, and the standing
 adjudication rule (routine2.md §A) is to apply them. Queued as
 `unknown-semantic-tags` in `backlog-queue.json`.
+
+## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
+
+**Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
+
+Compound verb entries created in the ~2026-04-10 batch era (06038+ range) have a
+systemic inline-link gap distinct from the general P1 unlinked-notes pattern.
+Three sub-patterns:
+
+1. **Unlinked transitivity labels**: `{自動詞|じどうし}` and `{他動詞|たどうし}` in
+   TRANSITIVITY lines are furigana-wrapped but not enclosed in `⟦...⟧` inline-link
+   wrappers. These should be `⟦{自動詞|じどうし}→自動詞：xxxxx⟧` pointing to the
+   entry for 自動詞 or 他動詞.
+2. **Unlinked particles**: Particles (を、が、から、に、で) in `Pattern:` bullets are
+   bare rather than wrapped as `⟦を→を：xxxxx⟧`.
+3. **Unlinked content words**: Content words in `COMMON PATTERNS` bullets lack both
+   content-word links and particle links.
+
+The same sub-patterns appear at lower ID ranges (confirmed: 00735_naoru, 00739_oboeru range) —
+P1's inline-links polishing task will eventually reach them, but the 06038+ cohort
+is beyond its current frontier and will not be addressed for months under sequential
+processing.
+
+**Scope**: Likely affects hundreds of compound verb entries in the 06000–09000 range
+(the 2026-03 through 2026-04 creation cohort). The tooling-backlog item 15
+(`check_artifacts.py` lint rule for unlinked 自動詞/他動詞) would establish the
+exact count.
+
+**Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
+exists. Once it exists, this becomes a systemic-fix candidate with per-entry
+semantic verification (the TRANSITIVITY/Pattern/COMMON PATTERNS context must be
+read to supply the correct entry ID for each link).
 
 ## Informational: Pre-polished cohort around 00083–00090
 
