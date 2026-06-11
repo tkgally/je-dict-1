@@ -1,0 +1,24 @@
+{
+  "entry_id": "06039_uridasu",
+  "headword": "{売|う}り{出|だ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T14:38:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '売り出す' (to put on sale, to launch) is primarily related to business and commerce, not just a general 'action'.",
+      "suggestion": "Add 'business' and 'shopping' to the semantic tags."
+    }
+  ]
+}

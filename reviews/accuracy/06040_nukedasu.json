@@ -1,0 +1,24 @@
+{
+  "entry_id": "06040_nukedasu",
+  "headword": "{抜|ぬ}け{出|だ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T14:38:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for '抜け出す'. The word describes an action of slipping out or escaping, not a geographical concept.",
+      "suggestion": "action"
+    }
+  ]
+}
