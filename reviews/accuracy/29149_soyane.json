@@ -1,0 +1,24 @@
+{
+  "entry_id": "29149_soyane",
+  "headword": "そやね",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T21:55:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'grammatical' is incorrect for this headword. 'そやね' is an expression of agreement or acknowledgement, not a grammatical particle or structure.",
+      "suggestion": "Remove 'grammatical' and add 'communication' or 'expression' (which is already present as a POS tag, but could also be a semantic tag)."
+    }
+  ]
+}
