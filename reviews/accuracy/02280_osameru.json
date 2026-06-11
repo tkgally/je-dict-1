@@ -1,0 +1,24 @@
+{
+  "entry_id": "02280_osameru",
+  "headword": "{納|おさ}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T18:07:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow and misleading for the headword's primary meanings of 'to pay' and 'to dedicate'. While 'to supply' can relate to work, the other senses are not inherently tied to it.",
+      "suggestion": "Replace 'work' with 'action' as a more general and appropriate tag for a verb with diverse applications."
+    }
+  ]
+}

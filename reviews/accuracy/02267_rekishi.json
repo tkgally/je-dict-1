@@ -1,0 +1,24 @@
+{
+  "entry_id": "02267_rekishi",
+  "headword": "{歴史|れきし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T18:07:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow for the headword '歴史' (history), which is a broad concept encompassing past events, records, and backgrounds, not just the academic field.",
+      "suggestion": "Replace 'education' with 'history' or 'general'."
+    }
+  ]
+}

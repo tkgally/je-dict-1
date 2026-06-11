@@ -1,0 +1,24 @@
+{
+  "entry_id": "02131_daku",
+  "headword": "{抱|だ}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T18:01:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'clothing' and 'leisure' are incorrect for the headword '抱く' (to embrace, to hug, to hold).",
+      "suggestion": "Remove 'clothing' and 'leisure'. Add 'action' and 'body-part' (or 'movement' if 'body-part' is too specific)."
+    }
+  ]
+}

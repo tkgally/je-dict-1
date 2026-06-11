@@ -1,0 +1,31 @@
+{
+  "entry_id": "02240_niku",
+  "headword": "{肉|にく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T18:06:12Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation 'I lost flesh' for '肉が落ちた' is unnatural and misleading. While '肉' can mean 'flesh', in this context, '肉が落ちた' implies losing weight or body fat, not literally losing a piece of flesh.",
+      "suggestion": "The English translation should be 'I lost weight' or 'I lost body fat'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[7]",
+      "severity": "error",
+      "concern": "The English translation 'As you get older, you tend to lose body mass more easily' for '歳を取ると体の肉が落ちやすくなる' is unnatural and misleading. 'Body mass' is too scientific and doesn't capture the nuance of '肉が落ちる' in this context, which refers to losing weight or body fat.",
+      "suggestion": "The English translation should be 'As you get older, you tend to lose weight more easily' or 'As you get older, you tend to lose body fat more easily'."
+    }
+  ]
+}

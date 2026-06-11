@@ -1,0 +1,24 @@
+{
+  "entry_id": "02358_fushigi",
+  "headword": "{不思議|ふしぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T18:09:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for the headword '不思議'. While '不思議' can evoke emotion, its core meaning is about strangeness, mystery, or wonder, which are cognitive or descriptive states rather than emotions themselves.",
+      "suggestion": "Replace 'emotion' with 'cognition' or 'descriptive'."
+    }
+  ]
+}
