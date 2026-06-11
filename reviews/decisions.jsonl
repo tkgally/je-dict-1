@@ -573,3 +573,27 @@
 {"ts": "2026-06-10T19:46:18Z", "entry": "29120", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "nature → descriptive, consistent with pachipachi"}
 {"ts": "2026-06-10T19:46:18Z", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "n": 6, "note": "family: model claimed culture/religion/business/entertainment/nature are invalid — all have 100+ uses"}
 {"ts": "2026-06-10T21:54:06Z", "entry": "06020", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "commerce not a valid tag; replaced with general"}
+{"ts":"2026-06-11T04:46:21Z","entry":"01470","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"encoding corruption: びじゅつか�� → びじゅつかん in cross_ref headword"}
+{"ts":"2026-06-11T04:46:21Z","entry":"01166","src":"furigana","dim":"furigana","sev":"error","decision":"reject","note":"rendaku: {聞|ぎ}き is correct in 盗み聞き (ぬすみぎき)"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01273","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"added to hear (humble) sense missing from main gloss"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01300","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"ございます is polite not humble; removed /humble from gloss"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01322","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"参る: added to visit (shrine or temple) to main gloss"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01326","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"いただく: added auxiliary verb sense to main gloss"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01352","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"クーラー: removed misleading cooler; AC is primary meaning in Japanese"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01380","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"看護婦: added (dated term) to gloss to reflect modern usage shift"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01294","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"以下 ex6: half or less (≤) not less than half (<)"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01309","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"着物 ex3-5: clothes→kimono; 着物 means kimono not generic clothes"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01600","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"美人proverb: fades→bore you; 飽きる is bore not fade"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01614","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"十分: very→sufficiently; 十分 means sufficient not intensely much"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01247","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"失礼: formal→neutral; used across formality levels"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01153","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"entry already has correct translation; reviewer misread current text"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01173","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"passive vs active: both translations natural; current is acceptable"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01188","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"sun goes down vs sets: both correct"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01242","src":"accuracy","dim":"translation","sev":"error","decision":"reject","n":5,"note":"family: stylistic rewording; current translations all acceptable"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01558","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"has problems vs unfeasible: both acceptable for 無理がある"}
+{"ts":"2026-06-11T04:56:45Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":120,"note":"family: too narrow/too broad for headword — subjective tag precision, not errors"}
+{"ts":"2026-06-11T04:56:45Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":10,"note":"family: formality formal→neutral for 尋ねる/訪ねる/etc — notes confirm slightly formal, tag defensible"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01196","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"gloss too narrow: broader glosses are editorial preference, not error"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01294","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"redundant brevity: stylistic, current gloss is correct"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01324","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"humble/regional phrasing minor; skip as stylistic"}
+{"ts":"2026-06-11T04:56:45Z","entry":"01328","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"among: acceptable gloss for this sense of 内"}

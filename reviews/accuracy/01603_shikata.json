@@ -1,0 +1,24 @@
+{
+  "entry_id": "01603_shikata",
+  "headword": "{仕方|しかた}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T04:50:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for '仕方'. The word primarily refers to a 'way' or 'method', not communication.",
+      "suggestion": "action"
+    }
+  ]
+}
