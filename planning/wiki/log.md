@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-11] maintenance | Observation harvest (4 items), stats sync, deepened schema-tag-reliability.md
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded (main `next: 06028`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 4 observations from accuracy-review sessions 002 (2026-06-10) and 003 (2026-06-11, entries 01151–01650):
+  - `[pattern]` + `[tooling]` × 2 (false "invalid tag" claims + "too narrow/broad" noise from gemini-2.5-flash) → filed as new **Tooling Backlog item 14** (accuracy-review prompt improvements: add valid-tag list and semantically-plausible guidance; ~120 flags/session bulk-rejected due to prompt gap).
+  - `[entry]` 06917_zo (wrong formality "formal" + wrong semantic tags on sentence-final particle ぞ) → added to **Entry Follow-ups**.
+  - Cleared all 4 items from `polishing/observations.md`.
+- [A] Stats sync: updated `project/overview.md` (28,913 entries, 26,130 general, 113,785 examples) and `project/vocabulary-tiers.md` (general 26,130).
+- [C] Deepened `topics/schema-tag-reliability.md`: added "Reviewer false positives: two patterns" subsection documenting (1) false "invalid tag" claims from gemini (confabulates that valid tags are not in the schema — immediately rejectable); (2) subjective "too narrow/broad" substitutions (editorial preference, not factual error). Practical heuristic: trust `build/schema.json` over the reviewer.
+- [E] Updated `index.md` "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed).
+**Metrics**: Will append wiki run line via `pipeline/metrics_snapshot.py` at wrap-up. Note: metrics-trend activity NOT triggered (7 new lines since last update; threshold ≥10; ~3 more Routine runs needed).
+**Next cursor**: `observations.md` fully cleared through accuracy-review session 003.
+
 ## [2026-06-10] maintenance | Stats sync, content-pipeline.md v2 Routine update, backlog-queue.json P17/P18 sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
