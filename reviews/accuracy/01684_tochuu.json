@@ -1,0 +1,24 @@
+{
+  "entry_id": "01684_tochuu",
+  "headword": "{途中|とちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:32:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[9]",
+      "severity": "error",
+      "concern": "The English translation 'I dropped my wallet on the trip' does not accurately convey the meaning of '旅行の途中で財布を落とした'. The Japanese implies the wallet was lost *during* the trip, not necessarily that it was physically dropped.",
+      "suggestion": "I lost my wallet during the trip."
+    }
+  ]
+}

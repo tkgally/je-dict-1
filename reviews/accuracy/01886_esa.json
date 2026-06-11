@@ -1,0 +1,24 @@
+{
+  "entry_id": "01886_esa",
+  "headword": "{餌|えさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 2,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-11T10:35:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword '餌' which also means 'bait' and 'prey'.",
+      "suggestion": "Add 'action' to the semantic tags, as '餌' can also refer to the act of feeding or being fed, especially in the context of 'prey'."
+    }
+  ]
+}
