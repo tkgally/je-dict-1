@@ -306,6 +306,65 @@ so the systemic-fix mode can work through the queue per-entry.
 **Impact**: Would quantify the scope of Cleanup Backlog P21 and convert it from
 `batch_ready:false` to `batch_ready:true` once the detector exists.
 
+## 16. UTF-8 replacement-character repair script for corrupted furigana wrappers
+
+**Source**: 2026-06-12 systemic-fix run (surfaced via `check_example_headword.py` output)
+
+Approximately 246 entry files in the 20000–29000+ range (and possibly some earlier)
+have UTF-8 replacement characters (U+FFFD, `�`) embedded in furigana wrappers —
+either in the kanji component or the reading component of `{漢字|よみ}` markup.
+Root cause is unknown but likely a batch-creation episode where UTF-8 multi-byte
+sequences were corrupted (mojibake at write time). The `check_example_headword.py`
+detector correctly flags these entries because the expected headword kanji can't be
+found in the corrupted text.
+
+**Detection**: Run `python3 build/check_example_headword.py --json` and filter for
+entries where the issue is a FFFD character in a furigana wrapper (not a genuine
+headword-absent example). Alternatively, grep: `grep -rl $'�' entries/`.
+
+**Suggested repair approach**: For each affected file, identify the corrupted
+character by context — the surrounding intact kanji characters plus the furigana
+reading in the wrapper make the missing character unambiguous in most cases. Apply
+manually or with a semi-automated script that proposes a fix for curator confirmation.
+Scope: ~246 files, estimated 1–3 corrupted characters per file.
+
+**Impact**: Fixes a silent data-quality problem that makes headword-search fail for
+affected entries and causes `check_example_headword.py` to produce false positives,
+obscuring genuine headword-absent examples.
+
+## 17. accuracy-review prompt: suppress `general`-tag-noise false positives
+
+**Source**: 2026-06-12 accuracy-review run (entries 03301–03800), 54.6% flag rate
+
+The reviewer flagged 273 of 500 entries, far above the 20% noise threshold. The
+primary noise family: the model flags any entry carrying the `general` semantic tag
+as needing a more specific replacement, even though `general` is a valid `VALID_SEMANTIC`
+tag and the standing adjudication rule in `routine2.md §A` says to reject "too
+narrow/too broad" substitutions between in-list tags. One run's bulk-reject tally was
+180 flags from this family alone (`"family: too-broad/too-narrow in-list tag
+substitutions (general→specific, descriptive→evaluation, etc.)"`).
+
+A secondary noise family: `formal` tags on words whose notes don't explicitly
+contradict the label — many of these are genuine applies, but there are false positives
+when the model assumes a word is neutral without reading the notes.
+
+**Root cause**: Prompt v3 (2026-06-11) added "do not flag too-narrow/too-broad
+substitutions between in-list tags", but the reviewer still treats `general` as a
+sign of under-tagging rather than a legitimate editorial choice. The standing
+instruction is not strong enough to suppress the pattern.
+
+**Suggested fix**: Add to the `review_accuracy.py` tags-dimension prompt:
+- Explicit exception: "Do not flag entries tagged `general`, `descriptive`, `action`,
+  or `expression` as needing a more specific tag. These are valid fallback tags.
+  Flag only when the tag's domain is factually wrong for the headword."
+- For `formal` tags: "Flag `formal` only when the entry's own notes or example
+  sentences contradict the formal-register label; do not infer formality from word
+  frequency or perceived neutrality alone."
+
+**Impact**: Reduces per-run adjudication cost by ~180 bulk rejections (removing noise
+that currently dominates the review queue). Precision on the `tags` dimension would
+increase from ~30% to potentially >60% once the `general`-noise family is suppressed.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — patterns these tools would address

@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-12] maintenance | Observation harvest (2 items), quality-metrics refresh (34 runs / 2,038 flags)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded. Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 2 unharvested observations:
+  - `[tooling]` UTF-8 replacement characters (U+FFFD) in 246 furigana wrappers (20000–29000+ range) → **Tooling Backlog item 16** (repair script needed)
+  - `[tooling]` 54.6% flag rate on accuracy-review 03301–03800 (`general`-tag false positives, 180 bulk-rejections per run) → **Tooling Backlog item 17** (prompt exception for fallback tags)
+  - Cleared both from `polishing/observations.md`
+- [H] Metrics-trend update: regenerated `topics/quality-metrics.md` to cover 16 new runs (34 total, 2,038 adjudicated flags):
+  - Added 2026-06-11 continuation run table (5 runs, daily peak spend $1.038) and 2026-06-12 run table (11 runs, review queue net −1,004 — biggest single-day convergence)
+  - Updated all-time precision tables: tags 51.2%, gloss 14.1%, translation 15.2%, furigana 0.5%
+  - Added period-comparison table showing gloss/translation apply rates jumped from ~7% to 54–64% post-prompt-v3
+  - Added Finding §8: `general`-tag false-positive noise emerging as P20 backlog drains
+  - Updated Findings §1–§7 with corrected all-time figures and queue/spend data
+
+**§4 self-check**: Not applicable (0 entry files changed).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-12 Routine runs so far.
+
 ## [2026-06-12] maintenance | Observation harvest (2 items), stats sync, deepened compound-verbs.md
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
