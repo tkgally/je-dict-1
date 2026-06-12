@@ -2,29 +2,15 @@
   "entry_id": "06485_mabataki",
   "headword": "{瞬|まばた}き",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:36Z",
+  "reviewed_at": "2026-06-12T21:50:13Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'wink' is misleading as 瞬き primarily refers to blinking, not winking (which implies intentionality and often a specific message). While a wink is a type of blink, 瞬き doesn't inherently carry the 'intentional signal' meaning of 'wink'.",
-      "suggestion": "Remove 'wink' from the main gloss. If 'wink' is to be included, it should be in a separate sense with appropriate explanation or context, but for an intermediate learner, it's better to keep it focused on the primary meaning."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and not very informative for an intermediate learner. While blinking is an action, this tag doesn't add much specific semantic value.",
-      "suggestion": "Consider more specific semantic tags like 'body_movement' or 'physiology' if available in the tag set, or remove it if no more specific tag is appropriate and 'action' is deemed too generic to be helpful."
-    }
-  ]
+  "issues": []
 }

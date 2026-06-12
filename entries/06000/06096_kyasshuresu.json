@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06096_kyasshuresu_ex1",
-      "japanese": "キャッシュレス{決済|けっさい}が{増|ふ}えている。",
+      "japanese": "キャッシュレス⟦{決済|けっさい}→決済：05466_kessai⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Cashless payments are increasing.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06096_kyasshuresu_ex2",
-      "japanese": "キャッシュレス{社会|しゃかい}に{移行|いこう}しつつある。",
+      "japanese": "キャッシュレス⟦{社会|しゃかい}→社会：01427_shakai⟧⟦に→に：00314_ni⟧⟦{移行|いこう}し→移行：13776_ikou⟧⟦つつある→つつある：noentry⟧。",
       "english": "We are transitioning to a cashless society.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06096_kyasshuresu_ex3",
-      "japanese": "このお{店|みせ}はキャッシュレス{対応|たいおう}です。",
+      "japanese": "⟦この→この：00962_kono⟧⟦お{店|みせ}→お店：21164_omise⟧⟦は→は：00079_ha⟧キャッシュレス⟦{対応|たいおう}→対応：02510_taiou⟧⟦です→です：09485_desu⟧。",
       "english": "This shop accepts cashless payments.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "USAGE:\nキャッシュレス refers to payment systems that don't require physical cash. Japan has been promoting cashless payments, though cash remains more prevalent than in many other developed countries.\n\nCOMMON PATTERNS:\n・キャッシュレス{決済|けっさい} (cashless payment)\n・キャッシュレス{社会|しゃかい} (cashless society)\n・キャッシュレス{対応|たいおう} (cashless-compatible)\n・キャッシュレス{化|か} (going cashless)\n\nPAYMENT METHODS:\n・クレジットカード (credit card)\n・ICカード (IC card - Suica, PASMO, etc.)\n・QRコード{決済|けっさい} (QR code payment - PayPay, LINE Pay, etc.)\n・{電子|でんし}マネー (electronic money)",
-  "cross_references": [],
+  "notes": "USAGE:\nキャッシュレス refers to payment systems that don't require physical cash. Japan has been promoting cashless payments, though cash remains more prevalent than in many other developed countries.\n\nCOMMON PATTERNS:\n・キャッシュレス⟦{決済|けっさい}→決済：05466_kessai⟧ (cashless payment)\n・キャッシュレス⟦{社会|しゃかい}→社会：01427_shakai⟧ (cashless society)\n・キャッシュレス⟦{対応|たいおう}→対応：02510_taiou⟧ (cashless-compatible)\n・キャッシュレス⟦{化|か}→化：noentry⟧ (going cashless)\n\nPAYMENT METHODS:\n・⟦クレジットカード→クレジットカード：06968_kurejittokaado⟧ (credit card)\n・⟦ICカード→ICカード：23527_aishiikaado⟧ (IC card - Suica, PASMO, etc.)\n・⟦QRコード→QRコード：06403_kyuuaarukoodo⟧⟦{決済|けっさい}→決済：05466_kessai⟧ (QR code payment - PayPay, LINE Pay, etc.)\n・⟦{電子|でんし}マネー→電子マネー：06694_denshimanee⟧ (electronic money)",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02716_genkin",
+      "reading": "げんきん",
+      "headword": "{現金|げんきん}",
+      "label": "cash (physical money)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-01-19T12:17:44.179729Z",
+    "modified": "2026-06-12T21:44:12Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06100_genmai_ex1",
-      "japanese": "{玄米|げんまい}を{食|た}べる。",
+      "japanese": "{玄米|げんまい}⟦を→を：00422_wo⟧⟦{食|た}べる→食べる：00396_taberu⟧。",
       "english": "To eat brown rice.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06100_genmai_ex2",
-      "japanese": "{玄米|げんまい}ご{飯|はん}を{炊|た}く。",
+      "japanese": "{玄米|げんまい}⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧。",
       "english": "To cook brown rice.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06100_genmai_ex3",
-      "japanese": "{健康|けんこう}のために{玄米|げんまい}を{食|た}べている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧⟦ため→ため：01145_tame⟧⟦に→に：00314_ni⟧{玄米|げんまい}⟦を→を：00422_wo⟧⟦{食|た}べている→食べる：00396_taberu⟧。",
       "english": "I eat brown rice for my health.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "06100_genmai_ex4",
-      "japanese": "{玄米|げんまい}は{白米|はくまい}より{栄養|えいよう}が{豊富|ほうふ}だ。",
+      "japanese": "{玄米|げんまい}⟦は→は：00079_ha⟧⟦{白米|はくまい}→白米：06101_hakumai⟧⟦より→より：09476_yori⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦が→が：00051_ga⟧⟦{豊富|ほうふ}→豊富：03620_houfu⟧⟦だ→だ：09496_da⟧。",
       "english": "Brown rice is more nutritious than white rice.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "06100_genmai_ex5",
-      "japanese": "{最近|さいきん}は{白米|はくまい}に{玄米|げんまい}を{混|ま}ぜて{炊|た}く{人|ひと}が{増|ふ}えている。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{白米|はくまい}→白米：06101_hakumai⟧⟦に→に：00314_ni⟧{玄米|げんまい}⟦を→を：00422_wo⟧⟦{混|ま}ぜて→混ぜる：02423_mazeru⟧⟦{炊|た}く→炊く：02127_taku⟧⟦{人|ひと}→人：00476_hito⟧⟦が→が：00051_ga⟧⟦{増|ふ}えている→増える：01183_fueru⟧。",
       "english": "Recently, more people are cooking white rice mixed with brown rice.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{玄米|げんまい} is rice that has only had its husk removed, retaining the bran ({糠|ぬか}) and germ. It requires longer cooking time and more water than white rice.\n\nCOMMON PATTERNS:\n・{玄米|げんまい}ご{飯|はん} (cooked brown rice)\n・{玄米|げんまい}を{炊|た}く (cook brown rice)\n・{玄米|げんまい}{食|しょく} (brown rice diet)\n\nRELATED TERMS:\n・{発芽|はつが}{玄米|げんまい} (germinated brown rice - GABA rice)\n・{精米|せいまい} (rice polishing)\n・{分|ぶ}づき{米|まい} (partially polished rice)",
+  "notes": "USAGE:\n{玄米|げんまい} is rice that has only had its husk removed, retaining the bran (⟦{糠|ぬか}→糠：noentry⟧) and germ. It requires longer cooking time and more water than white rice.\n\nCOMMON PATTERNS:\n・{玄米|げんまい}⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked brown rice)\n・{玄米|げんまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook brown rice)\n・{玄米|げんまい}⟦{食|しょく}→食：noentry⟧ (brown rice diet)\n\nRELATED TERMS:\n・⟦{発芽|はつが}→発芽：18956_hatsuga⟧{玄米|げんまい} (germinated brown rice - GABA rice)\n・⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing)\n・⟦{分|ぶ}づき{米|まい}→分づき米：noentry⟧ (partially polished rice)",
   "cross_references": [
     {
       "type": "related",
@@ -75,7 +75,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-03-12T00:42:12Z",
+    "modified": "2026-06-12T21:50:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -85,7 +85,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "food"
       ]
     }
   }
