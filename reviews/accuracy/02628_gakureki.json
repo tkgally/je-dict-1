@@ -1,0 +1,24 @@
+{
+  "entry_id": "02628_gakureki",
+  "headword": "{学歴|がくれき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T03:52:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '学歴' (gakureki) is a common, everyday term in Japanese, not specifically formal. While it might appear in formal documents, the word itself doesn't carry a formal register.",
+      "suggestion": "neutral"
+    }
+  ]
+}
