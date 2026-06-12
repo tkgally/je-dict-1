@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-12 (Routine v2: new-entries — 18 New Entries, IDs 29163–29180)
+Added 18 new entries (IDs 29163–29180) from candidates, prioritizing 2 seen-in-entry gaps.
+
+- **Seen-in-entry (2)**: {殊更|ことさら} (deliberately; particularly), {返|かえ}る (to be returned; revert)
+- **Grammar expressions (6)**: べく (in order to — formal), べし (should — archaic), 〜ねばならない (must — literary), 〜なきゃならない (must — colloquial), 〜ように言う (to tell someone to), はい、どうぞ (here you are; please go ahead)
+- **Pronouns/interjections (5)**: どこどこ (such-and-such a place), どなた様 (who — very polite), なんだよ (what the heck), {何|なん}だって (what?! really?!), いいやん (it's fine — Kansai)
+- **Adverbs (1)**: すでにして (already; even at this stage — formal)
+- **Expressions (2)**: {功|こう}{成|な}り{名|な}{遂|と}げる (to achieve fame and success), {該当|がいとう}する (to apply; be applicable)
+- **Nouns (2)**: {学究|がっきゅう}{肌|はだ} (scholarly temperament), {中産|ちゅうさん}{階級|かいきゅう} (middle class)
+
+§4 self-check: 2 applied (29165 formality formal→neutral, semantic greeting→expression; 29172 semantic greeting→person, politeness humble→honorific), 0 rejected, 0 flagged.
+
 ### 2026-06-11 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29143–29162)
 Added 20 new entries (IDs 29143–29162) from candidates.
 
