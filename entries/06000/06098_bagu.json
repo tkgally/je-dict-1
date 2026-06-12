@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "06098_bagu_ex1",
-      "japanese": "バグを{見|み}つけた。",
+      "japanese": "バグ⟦を→を：00422_wo⟧⟦{見|み}つけた→見つける：01180_mitsukeru⟧。",
       "english": "I found a bug.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "06098_bagu_ex2",
-      "japanese": "バグを{修正|しゅうせい}する。",
+      "japanese": "バグ⟦を→を：00422_wo⟧⟦{修正|しゅうせい}する→修正：03210_shuusei⟧。",
       "english": "To fix a bug.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "06098_bagu_ex3",
-      "japanese": "プログラムにバグが{見|み}つかったので、{急|いそ}いで{直|なお}した。",
+      "japanese": "⟦プログラム→プログラム：01540_puroguramu⟧⟦に→に：00314_ni⟧バグ⟦が→が：00051_ga⟧⟦{見|み}つかった→見つかる：01173_mitsukaru⟧⟦ので→ので：09501_node⟧、⟦{急|いそ}いで→急ぐ：01191_isogu⟧⟦{直|なお}した→直す：00869_naosu⟧。",
       "english": "A bug was found in the program, so I fixed it right away.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "06098_bagu_ex4",
-      "japanese": "このゲームにはバグが{多|おお}い。",
+      "japanese": "⟦この→この：00962_kono⟧⟦ゲーム→ゲーム：03842_geemu⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧バグ⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "This game has many bugs.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "06098_bagu_ex5",
-      "japanese": "アプリがバグで{動|うご}かなくなった。",
+      "japanese": "⟦アプリ→アプリ：04722_apuri⟧⟦が→が：00051_ga⟧バグ⟦で→で：00502_de⟧⟦{動|うご}かなく→動く：00904_ugoku⟧⟦なった→なる：01970_naru⟧。",
       "english": "The app stopped working because of a bug.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "06098_bagu_ex6",
-      "japanese": "アップデートの{後|あと}にバグが{発生|はっせい}して、データが{消|き}えてしまった。",
+      "japanese": "⟦アップデート→アップデート：05108_appudeeto⟧⟦の→の：09472_no⟧⟦{後|あと}→後：09580_ato⟧⟦に→に：00314_ni⟧バグ⟦が→が：00051_ga⟧⟦{発生|はっせい}して→発生する：03133_hassei⟧、⟦データ→データ：03944_deeta⟧⟦が→が：00051_ga⟧⟦{消|き}えて→消える：02520_kieru⟧⟦しまった→仕舞う：03064_shimau⟧。",
       "english": "A bug occurred after the update, and the data was lost.",
       "notes": null,
       "has_audio": false,
@@ -78,7 +78,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nバグ is a loanword from English 'bug'. The term originated from an actual moth found in an early computer causing a malfunction.\n\nCOMMON PATTERNS:\n・バグを{見|み}つける (find a bug)\n・バグを{修正|しゅうせい}する (fix a bug)\n・バグを{直|なお}す (fix a bug - casual)\n・バグが{発生|はっせい}する (a bug occurs)\n・バグ{報告|ほうこく} (bug report)\n\nRELATED TERMS:\n・デバッグ (debug)\n・エラー (error)\n・{不具合|ふぐあい} (malfunction - more formal)\n・バグる (to glitch - slang verb form)",
+  "notes": "USAGE:\nバグ is a loanword from English 'bug'. The term originated from an actual moth found in an early computer causing a malfunction.\n\nCOMMON PATTERNS:\n・バグ⟦を→を：00422_wo⟧⟦{見|み}つける→見つける：01180_mitsukeru⟧ (find a bug)\n・バグ⟦を→を：00422_wo⟧⟦{修正|しゅうせい}する→修正：03210_shuusei⟧ (fix a bug)\n・バグ⟦を→を：00422_wo⟧⟦{直|なお}す→直す：00869_naosu⟧ (fix a bug - casual)\n・バグ⟦が→が：00051_ga⟧⟦{発生|はっせい}する→発生する：03133_hassei⟧ (a bug occurs)\n・バグ⟦{報告|ほうこく}→報告：03618_houkoku⟧ (bug report)\n\nRELATED TERMS:\n・⟦デバッグ→デバッグ：06151_debaggu⟧ (debug)\n・⟦エラー→エラー：08429_eraa⟧ (error)\n・⟦{不具合|ふぐあい}→不具合：06413_fuguai⟧ (malfunction - more formal)\n・⟦バグる→バグる：09299_baguru⟧ (to glitch - slang verb form)",
   "cross_references": [
     {
       "type": "related",
@@ -86,18 +86,32 @@
       "headword": "デバッグ",
       "label": "debug",
       "target_id": "06151_debaggu"
+    },
+    {
+      "type": "related",
+      "target_id": "06413_fuguai",
+      "reading": "ふぐあい",
+      "headword": "{不具合|ふぐあい}",
+      "label": "malfunction (more formal term)"
+    },
+    {
+      "type": "related",
+      "target_id": "08429_eraa",
+      "reading": "えらー",
+      "headword": "エラー",
+      "label": "error"
     }
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-03-12T00:37:18Z",
+    "modified": "2026-06-12T21:50:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "style": [
         "slang"
       ],
