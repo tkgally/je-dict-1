@@ -1,0 +1,24 @@
+{
+  "entry_id": "03639_yachin",
+  "headword": "{家賃|やちん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T18:19:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific financial term like 'rent'.",
+      "suggestion": "finance"
+    }
+  ]
+}

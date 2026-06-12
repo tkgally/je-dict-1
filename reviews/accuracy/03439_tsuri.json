@@ -1,0 +1,24 @@
+{
+  "entry_id": "03439_tsuri",
+  "headword": "{釣|つ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T18:16:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '釣り' has two distinct meanings, one of which is 'change (money)'. The current semantic tag 'leisure' only applies to the 'fishing' meaning and is misleading for the 'change (money)' meaning.",
+      "suggestion": "Add 'money' to the semantic tags to cover the second meaning of '釣り'."
+    }
+  ]
+}

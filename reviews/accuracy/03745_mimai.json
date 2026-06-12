@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T12:46:13Z",
+  "reviewed_at": "2026-06-12T18:21:03Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.formality",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The headword '見舞い' is not formal; it's a common, everyday word.",
-      "suggestion": "neutral"
+      "concern": "The gloss 'condolence call' is misleading. While 見舞い can be for someone in trouble, 'condolence call' specifically implies a visit after a death, which is not the primary or typical meaning of 見舞い.",
+      "suggestion": "Change 'condolence call' to something like 'visit to someone in trouble' or 'sympathy visit'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a more specific meaning related to visiting and showing concern for someone's well-being or misfortune.",
+      "suggestion": "Replace 'general' with 'daily-life' or 'social'."
     }
   ]
 }
