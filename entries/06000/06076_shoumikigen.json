@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06076_shoumikigen_ex1",
-      "japanese": "{賞味期限|しょうみきげん}を{確認|かくにん}してから{買|か}う。",
+      "japanese": "{賞味期限|しょうみきげん}⟦を→を：00422_wo⟧⟦{確認|かくにん}→確認：00158_kakunin⟧⟦してから→する：00392_suru⟧⟦{買|か}う→買う：00489_kau⟧。",
       "english": "I check the best-before date before buying.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06076_shoumikigen_ex2",
-      "japanese": "{賞味期限|しょうみきげん}が{切|き}れている。",
+      "japanese": "{賞味期限|しょうみきげん}⟦が→が：00051_ga⟧⟦{切|き}れている→切れる：01936_kireru⟧。",
       "english": "The best-before date has passed.",
       "notes": "Common expression",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06076_shoumikigen_ex3",
-      "japanese": "{賞味期限|しょうみきげん}は{来月|らいげつ}までです。",
+      "japanese": "{賞味期限|しょうみきげん}⟦は→は：00079_ha⟧⟦{来月|らいげつ}→来月：00744_raigetsu⟧⟦まで→まで：00490_made⟧⟦です→です：09485_desu⟧。",
       "english": "The best-before date is until next month.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "06076_shoumikigen_ex4",
-      "japanese": "{賞味期限|しょうみきげん}が{近|ちか}い{商品|しょうひん}は{安|やす}くなっている。",
+      "japanese": "{賞味期限|しょうみきげん}⟦が→が：00051_ga⟧⟦{近|ちか}い→近い：00530_chikai⟧⟦{商品|しょうひん}→商品：01436_shouhin⟧⟦は→は：00079_ha⟧⟦{安|やす}くなっている→安い：00464_yasui⟧。",
       "english": "Products near their best-before date are discounted.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "06076_shoumikigen_ex5",
-      "japanese": "{賞味期限|しょうみきげん}を{過|す}ぎても、すぐに{食|た}べられなくなるわけではない。",
+      "japanese": "{賞味期限|しょうみきげん}⟦を→を：00422_wo⟧⟦{過|す}ぎても→過ぎる：01219_sugiru⟧、⟦すぐ→すぐ：00814_sugu⟧⟦に→に：00314_ni⟧⟦{食|た}べられなくなる→食べる：00396_taberu⟧⟦わけではない→わけ：01095_wake⟧。",
       "english": "Just because the best-before date has passed doesn't mean the food is immediately inedible.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {賞味|しょうみ} (appreciation of taste) + {期限|きげん} (time limit)\n\nCOMMON PATTERNS:\n・{賞味期限|しょうみきげん}が{切|き}れる (best-before date expires)\n・{賞味期限|しょうみきげん}{内|ない}に{食|た}べる (eat within the best-before date)\n・{賞味期限|しょうみきげん}が{近|ちか}い (best-before date is approaching)\n\nDISTINCTION: {賞味期限|しょうみきげん} (best-before) refers to quality, while {消費期限|しょうひきげん} (use-by) refers to safety. Products past their {賞味期限|しょうみきげん} may still be safe but may have reduced quality.",
+  "notes": "COMPOUND: {賞味|しょうみ} (appreciation of taste) + ⟦{期限|きげん}→期限：12861_kigen⟧ (time limit)\n\nCOMMON PATTERNS:\n・{賞味期限|しょうみきげん}が⟦{切|き}れる→切れる：01936_kireru⟧ (best-before date expires)\n・{賞味期限|しょうみきげん}⟦{内|ない}→内：09853_nai⟧に⟦{食|た}べる→食べる：00396_taberu⟧ (eat within the best-before date)\n・{賞味期限|しょうみきげん}が⟦{近|ちか}い→近い：00530_chikai⟧ (best-before date is approaching)\n\nDISTINCTION: {賞味期限|しょうみきげん} (best-before) refers to quality, while ⟦{消費期限|しょうひきげん}→消費期限：06077_shouhikigen⟧ (use-by) refers to safety. Products past their {賞味期限|しょうみきげん} may still be safe but may have reduced quality.",
   "cross_references": [
     {
       "type": "contrast",
@@ -74,7 +74,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-03-11T12:38:02Z",
+    "modified": "2026-06-12T01:39:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -84,7 +84,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "time-general"
+        "food"
       ]
     }
   }

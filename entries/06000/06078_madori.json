@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06078_madori_ex1",
-      "japanese": "この{部屋|へや}の{間取|まど}りは2LDKです。",
+      "japanese": "⟦この→この：00962_kono⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦の→の：09472_no⟧{間取|まど}り⟦は→は：00079_ha⟧2LDK⟦です→です：09485_desu⟧。",
       "english": "The floor plan of this apartment is 2LDK.",
       "notes": "2LDK = 2 rooms + Living/Dining/Kitchen",
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06078_madori_ex2",
-      "japanese": "{間取|まど}り{図|ず}を{見|み}せてください。",
+      "japanese": "{間取|まど}り⟦{図|ず}→図：03368_zu⟧⟦を→を：00422_wo⟧⟦{見|み}せてください→見せる：01988_miseru⟧。",
       "english": "Please show me the floor plan.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06078_madori_ex3",
-      "japanese": "{使|つか}いやすい{間取|まど}りの{家|いえ}を{探|さが}している。",
+      "japanese": "⟦{使|つか}いやすい→使う：00473_tsukau⟧{間取|まど}り⟦の→の：09472_no⟧⟦{家|いえ}→家：00612_ie⟧⟦を→を：00422_wo⟧⟦{探|さが}している→探す：00493_sagasu⟧。",
       "english": "I'm looking for a house with a practical layout.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMPOUND: {間|ま} (space, room) + {取|と}り (arrangement)\n\nJAPANESE HOUSING ABBREVIATIONS:\n・1K = 1 room + Kitchen\n・1DK = 1 room + Dining Kitchen\n・1LDK = 1 room + Living Dining Kitchen\n・2LDK = 2 rooms + Living Dining Kitchen\n・3LDK = 3 rooms + Living Dining Kitchen\n\nCOMMON PATTERNS:\n・{間取|まど}り{図|ず} (floor plan diagram)\n・{広|ひろ}い{間取|まど}り (spacious layout)\n・{間取|まど}りを{変|か}える (change the layout)\n\nNOTE: {間取|まど}り is essential vocabulary when apartment hunting in Japan.",
+  "notes": "COMPOUND: {間|ま} (space, room) + {取|と}り (arrangement)\n\nJAPANESE HOUSING ABBREVIATIONS:\n・1K = 1 room + Kitchen\n・1DK = 1 room + Dining Kitchen\n・1LDK = 1 room + Living Dining Kitchen\n・2LDK = 2 rooms + Living Dining Kitchen\n・3LDK = 3 rooms + Living Dining Kitchen\n\nCOMMON PATTERNS:\n・{間取|まど}り⟦{図|ず}→図：03368_zu⟧ (floor plan diagram)\n・⟦{広|ひろ}い→広い：00704_hiroi⟧{間取|まど}り (spacious layout)\n・{間取|まど}りを⟦{変|か}える→変える：01089_kaeru⟧ (change the layout)\n\nNOTE: {間取|まど}り is essential vocabulary when apartment hunting in Japan.",
   "cross_references": [
     {
       "type": "related",
@@ -62,7 +62,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T02:09:14Z",
-    "modified": "2026-04-17T14:07:51Z",
+    "modified": "2026-06-12T01:39:16Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
