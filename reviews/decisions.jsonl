@@ -1054,3 +1054,23 @@
 {"ts": "2026-06-12T10:10:12Z", "entry": "02801-03300", "src": "furigana-screening", "dim": "furigana", "sev": "warning", "decision": "reject", "note": "bulk reject ~17 flags in range 2801-3300; all in known-noise families: (1) cross_references/prominent_see_also headword readings misread as errors, (2) inline link → separator misread as furigana, (3) allophonic readings (ろっ for 六), (4) compound kanji read as separate pairs, (5) お腹 なか reading flagged (valid), (6) 空→す in 空いた (valid), (7) 定食 vs 定職 confusion from cross-refs"}
 {"ts": "2026-06-12T10:10:12Z", "entry": "02801-03300", "src": "accuracy", "dim": "tags", "sev": "warning", "decision": "reject", "note": "bulk reject ~60 flags for tags that are valid per VALID_SEMANTIC/VALID_POLITENESS; model flagged in-list tags as too broad/narrow (policy: reject if both current and proposed are in list)"}
 {"ts": "2026-06-12T10:10:12Z", "entry": "02801-03300", "src": "accuracy", "dim": "gloss", "sev": "warning", "decision": "reject", "note": "bulk reject ~20 accuracy review gloss flags where proposed changes are stylistic rather than corrective (current glosses are accurate)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "00209", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→geography for longitude"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "01474", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "formality formal→neutral for telegram"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "03735", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "removed clothing tag; politeness polite→plain for matsuri"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "03745", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "formality formal→neutral for mimai"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "03880", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→cooking for kama"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "05809", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→culture for yakudoshi"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "06323", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "tool→sports for jump rope"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "06540", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→sports for enchousen"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "07466", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→work for shuwan"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "08078", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "housing/construction/energy→building/science (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "08715", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "apply", "note": "literature→art (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "08919", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "object/quantity→food/general (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "09724", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "apply", "note": "convenience_store→shopping (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "10046", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "legal→law, comparison→evaluation (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "18097", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→finance for financial policy"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "19198", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "general→technology/law for data leak"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "22403", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "body→body-part (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "23896", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "apply", "note": "linguistics/poetry→language/art (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "24134", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "apply", "note": "buildings→building (not-in-list migration)"}
+{"ts": "2026-06-12T12:42:00Z", "entry": "24709", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "reject", "note": "idiomatic examples removed; animal-fish correct for fish tail"}

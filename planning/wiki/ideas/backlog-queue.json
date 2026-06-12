@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-11T13:53:31Z",
+  "updated": "2026-06-12T12:41:12Z",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -187,9 +187,9 @@
       "priority": 3,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 128,
+      "scope_estimate": 88,
       "severity": "warn",
-      "notes": "Two tiers: 'reading-only' (14 — kana reading present without the kanji form; either a cross-boundary misparse like 仕様 inside 直しようがない, or legitimate kana orthography like ごちそう — judge per entry) and 'headword-absent' (129 — example may show a related compound, a verb form of the nominal, or simply the wrong word, e.g. 目玉焼き in the 卵 entry). Replace bad examples with genuine headword examples carrying full inline links, or remove if the entry has examples to spare. Motivating case 00472 仕様 fixed 2026-06-10 (curator-directed). Partial fix 2026-06-11: 9 entries corrected (16 bad examples fixed/removed); remaining scope ~128 examples, many of which are legitimate suffix/compound/kana-variant patterns."
+      "notes": "Two tiers: 'reading-only' (14 — kana reading present without the kanji form; either a cross-boundary misparse like 仕様 inside 直しようがない, or legitimate kana orthography like ごちそう — judge per entry) and 'headword-absent' (129 — example may show a related compound, a verb form of the nominal, or simply the wrong word, e.g. 目玉焼き in the 卵 entry). Replace bad examples with genuine headword examples carrying full inline links, or remove if the entry has examples to spare. Motivating case 00472 仕様 fixed 2026-06-10 (curator-directed). Partial fix 2026-06-11: 9 entries corrected (16 bad examples fixed/removed). Run 2026-06-12_007: 40 more entries fixed (25 removals + 15 replacements); ~45 bad examples removed or replaced. 246 encoding-corrupted entries (U+FFFD in furigana, mostly 20000-29000+) excluded from scope — need a dedicated tooling pass. Remaining scope ~88."
     },
     {
       "id": "unknown-semantic-tags",
