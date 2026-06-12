@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-12] maintenance | Observation harvest (2 items), stats sync, deepened compound-verbs.md
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded (main `next: 06079`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 2 observations from the 2026-06-11 routine v2 polish session (entries 06048–06067):
+  - `[pattern]` compound/suru-verb semantic tag errors (object-category tags instead of action/cognition/emotion) → added **Cleanup Backlog P11 update 2026-06-12** documenting this sub-pattern in the 06048–06067 range and its remediation path (P20 detector + accuracy-review `tags` pass).
+  - `[pattern]` general inline-link absence in 06000 cohort → added context note to **Cleanup Backlog P21** clarifying that the broader P1 problem (zero inline links) underlies the more specific P21 structural sub-patterns.
+  - Cleared both observations from `polishing/observations.md`.
+- [A] Stats sync: updated `project/overview.md` (entries "over 28,900" → "nearly 29,000"; examples 113,700 → 113,900; general tier 26,150 → 26,170).
+- [C] Deepened `topics/compound-verbs.md` (last updated 2026-04-23): added new section "Known quality patterns in compound verb entries" covering (1) object-category semantic tag errors on action verbs, (2) inline link gaps in the 06000-range cohort (P21 structural positions), (3) notes-level conjugation duplication. Added "Implications for compound-verb polishing" sub-section with actionable guidance. No new pages created.
+- [E] Updated `index.md` "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed).
+**Metrics-trend activity**: Not triggered (7 new metrics lines since last update; threshold ≥10).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-12 Routine runs so far.
+
 ## [2026-06-11] maintenance | Observation harvest (2 items), metrics-trend refresh (18 runs), stats sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

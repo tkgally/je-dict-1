@@ -1,6 +1,6 @@
 # Compound Verb Representation
 
-**Last updated**: 2026-04-23
+**Last updated**: 2026-06-12
 
 ## Overview
 
@@ -115,6 +115,77 @@ This resource could inform which compound verbs je-dict-1 should prioritize for 
 2. **Cross-reference network** — Link compound verb entries back to their V1 and V2 components, and link V2 pattern verbs forward to notable compound verb entries.
 3. **Candidate identification** — Use NINJAL data or corpus frequency to identify high-priority compound verbs missing from the dictionary.
 4. **Search improvement** — Consider whether the search system could recognize compound verb patterns and suggest the V2 entry when no exact match is found.
+
+## Known quality patterns in compound verb entries (polishing findings)
+
+Comprehensive-polish sessions through 2026 have identified several recurring
+quality issues in compound verb entries, particularly in the 06000–09000 range
+(the 2026-03 through 2026-04 creation cohort). These inform polishing priorities
+and backlog items.
+
+### Semantic tag errors: object-category tags on action verbs
+
+The most systemic compound-verb quality problem is **wrong semantic tag category**.
+Compound verbs and suru verbs have been assigned object-domain tags
+(electronics, clothing, tool, furniture, animal-mammal, occupation, body-part)
+instead of the process/action tags appropriate for their meanings
+(action, cognition, communication, emotion, movement).
+
+Root cause: the AI that created these entries applied semantic tags based on
+*example sentence topic* rather than the *headword's semantic domain*. A compound
+verb about a computer task received "electronics"; one about a body movement received
+"body-part". The fix is straightforward: select the semantic tag that characterizes
+the verb's core meaning (action, cognition, communication, etc.), not the domain of
+its example sentences.
+
+Confirmed in multiple comprehensive-polish sessions from the 01490s through the
+06000s. The `check_tag_drift.py --check unknown-semantic` detector (Cleanup Backlog
+P20) catches out-of-vocabulary tags; the correct-vocabulary-but-wrong-category
+sub-pattern (e.g. "action" on a cognition verb) requires per-entry judgment via the
+accuracy-review `tags` pass or comprehensive-polish. See also
+[Schema Tag Reliability](schema-tag-reliability.md) → "Stale auto-labels" and
+[Cleanup Backlog](../ideas/cleanup-backlog.md) → P11.
+
+### Inline link gaps in the 06000-range cohort
+
+The 06000–09000 creation cohort was built before inline-link (`⟦...⟧`) polishing
+was standard practice. Many entries have no inline links in either examples or
+notes. Within notes specifically, three structural positions are systematically
+unlinked (Cleanup Backlog P21):
+
+1. **Transitivity labels**: `{自動詞|じどうし}` / `{他動詞|たどうし}` in TRANSITIVITY
+   lines have furigana wrappers but no `⟦...⟧` link to the 自動詞/他動詞 entries.
+2. **Particles in pattern examples**: `を`, `が`, `から`, `に`, `で` in `Pattern:`
+   bullets are bare rather than linked.
+3. **Content words in COMMON PATTERNS**: noun and verb arguments in collocation
+   bullets lack both content-word links and particle links.
+
+These are candidates for a systemic-fix batch once the Tooling Backlog item 15
+detector (`check_artifacts.py` lint rule for unlinked 自動詞/他動詞) is built.
+
+### Notes-level conjugation duplication
+
+A subset of godan compound verbs in the 06xxx range have redundant CONJUGATION
+prose sections in their `notes` field even though the entry already has a proper
+`conjugation` JSON field with all forms. This is a batch artifact from a period
+when conjugation data lived in notes rather than in a structured field. Examples
+found: 06852_hourikomu, 06858_ukabiagaru, 06735_sashikakaru. Comprehensive-polish
+removes these case-by-case; a one-shot scanner is proposed in [Tooling Backlog](../ideas/tooling-backlog.md)
+(extension to `check_artifacts.py --issue dup-conjugation`). See also
+[Cleanup Backlog](../ideas/cleanup-backlog.md) → P4 "notes-level duplication"
+sub-pattern.
+
+### Implications for compound-verb polishing
+
+- **Semantic tag review**: When polishing a compound verb entry, always verify that
+  the semantic tag reflects the verb's own action/process domain, not the domain of
+  its example sentence topics.
+- **Inline link audit**: Entries in the 06000+ range should be assumed to have
+  incomplete inline links until verified. The P21 structural positions are the
+  highest-priority gaps.
+- **Notes prose cleanup**: Check whether the notes open with a conjugation table
+  (negative/te/past bullets) that duplicates the structured `conjugation` field;
+  remove if present.
 
 ## Implications for je-dict-1
 
