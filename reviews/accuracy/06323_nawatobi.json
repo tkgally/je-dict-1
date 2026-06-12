@@ -1,0 +1,24 @@
+{
+  "entry_id": "06323_nawatobi",
+  "headword": "{縄跳|なわと}び",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T12:46:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '縄跳び' refers to both the object (jump rope) and the activity (jumping rope). The current tag 'tool' only covers the object, not the activity.",
+      "suggestion": "Add 'sports' or 'daily-life' to reflect the activity aspect. 'sports' is more specific and appropriate given the examples."
+    }
+  ]
+}

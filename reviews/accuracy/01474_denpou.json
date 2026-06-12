@@ -2,29 +2,22 @@
   "entry_id": "01474_denpou",
   "headword": "{電報|でんぽう}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:49:10Z",
+  "reviewed_at": "2026-06-12T12:45:59Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'general' is too broad for a specific communication method.",
-      "suggestion": "communication"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. While telegrams are less common now, the word itself is neutral in formality.",
+      "concern": "The headword '電報' (denpō) meaning 'telegram' is not inherently formal. While telegrams themselves might be associated with formal communication in some contexts, the word itself is a neutral noun.",
       "suggestion": "neutral"
     }
   ]
