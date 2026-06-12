@@ -6,12 +6,12 @@ Quick-reference for AI assistants at session start. For full history, see [PROJE
 
 | Metric | Value |
 |--------|-------|
-| Total entries | 28,971 |
+| Total entries | 28,991 |
 | Basic tier | 801 (closed) |
 | Core tier | 1,982 (closed) |
 | General tier | 26,188 (open — all new entries here) |
-| Next entry ID | 29181 |
-| Candidate words | 1,382 |
+| Next entry ID | 29201 |
+| Candidate words | 1,362 |
 | Cross-references | ~16,300 |
 | Example sentences | ~113,900 |
 
@@ -40,7 +40,7 @@ python3 build/check_duplicate.py "word" "reading" # Duplicate check
 ## File Placement
 
 - Path: `entries/{range}/{id}_{romaji}.json`
-- Range = ID rounded down to nearest 500 (e.g., 29181 → `entries/29000/`)
+- Range = ID rounded down to nearest 500 (e.g., 29201 → `entries/29000/`)
 - Use `python3 build/get_entry_path.py <reading> <id>` to confirm
 
 ## Vocabulary Tier Policy
