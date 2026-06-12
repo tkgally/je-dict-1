@@ -1,0 +1,31 @@
+{
+  "entry_id": "29165_haidouzo",
+  "headword": "はい、どうぞ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:02:32Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The expression 'はい、どうぞ' is not formal. It is polite but generally neutral in formality.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'greeting' is incorrect. 'はい、どうぞ' is not a greeting.",
+      "suggestion": "expression"
+    }
+  ]
+}

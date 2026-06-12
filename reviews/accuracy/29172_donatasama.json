@@ -1,0 +1,31 @@
+{
+  "entry_id": "29172_donatasama",
+  "headword": "どなた{様|さま}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:02:38Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'greeting' is incorrect for 'どなた様'.",
+      "suggestion": "Replace 'greeting' with 'person' or 'communication'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for 'どなた様'.",
+      "suggestion": "Replace 'humble' with 'honorific' or 'respectful'."
+    }
+  ]
+}
