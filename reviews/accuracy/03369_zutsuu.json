@@ -1,0 +1,24 @@
+{
+  "entry_id": "03369_zutsuu",
+  "headword": "{頭痛|ずつう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T18:14:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for '頭痛' (headache). While a headache is experienced in a body part, it is not a body part itself. It is a health condition or symptom.",
+      "suggestion": "health"
+    }
+  ]
+}
