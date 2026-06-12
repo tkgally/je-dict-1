@@ -1,0 +1,24 @@
+{
+  "entry_id": "06089_fumitsukeru",
+  "headword": "{踏|ふ}みつける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T15:51:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '踏みつける' is not formal. It is a common verb used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}
