@@ -1,0 +1,24 @@
+{
+  "entry_id": "02741_keiji",
+  "headword": "{刑事|けいじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T03:54:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss combines two distinct meanings of the headword, which can be confusing. 'criminal affairs' is not a direct synonym for 'detective'.",
+      "suggestion": "Split the gloss into two distinct meanings or prioritize the most common one."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "02704_ketsuron",
+  "headword": "{結論|けつろん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T03:53:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. '結論から言うと' means 'to conclude' or 'to put it concisely', not 'to put it simply'.",
+      "suggestion": "To conclude, it was a failure."
+    }
+  ]
+}
