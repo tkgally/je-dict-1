@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-11 (added P21 compound-verb inline-link gaps; added P20 out-of-taxonomy semantic-tag migration, following the curator's taxonomy-expansion decision; updated Routine prompt references to routine2.md)
+**Last updated**: 2026-06-12 (P11 update 2026-06-12: compound/suru-verb object-category tag sub-pattern in 06048–06067; P21 update: broader general inline-link absence in 06000 cohort)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -296,6 +296,8 @@ The confirmed range now extends from the 01490s through at least the 05559. The 
 - **Comprehensive-polish session 007 (entries 05970–05989)** found dense tag errors at the leading edge of the contaminated batch: a medical cluster (05975–05979: 通院, 処方, 感染, 炎症, 健康診断) and an aviation cluster (05981–05982: 離陸, 着陸) carried body-part/clothing/furniture/leisure/geography tags — the model had copied tags from an unrelated entry. Fixed in session; the 05970–05990 range likely holds more.
 - **Cross-model accuracy-review session 002 (entries 00201–00450)** confirmed the same wrong-tag class in the *low-ID core/basic* range (a different cohort from the 2026-04-14 batch): 00281 醜い (food/leisure/slang/colloquial → emotion/appearance/literary), 00299 虫歯 (body-part → health — a dental condition, not a body part), 00240 小〜 (grammatical → size), 00232 記念 ("memory" → "memorial"). A recurring **sub-pattern** here is `body-part` misapplied to conditions/diseases (虫歯; cf. 03218 手術, 05019 腹痛 in earlier updates). The authoritative remediation path is now the accuracy-review mode's LLM `tags` pass — the [Quality Metrics Trend](../topics/quality-metrics.md) snapshot shows `tags` is the highest-precision review dimension (6.8% apply rate vs ~2% for gloss/translation), i.e. the dimension actually worth driving a fix from.
 
+**Update 2026-06-12**: Comprehensive-polish session (entries 06048–06067) confirmed a **compound-verb / suru-verb sub-pattern** at the leading edge of the contaminated batch: compound verbs and suru verbs were systematically assigned object-category tags (electronics, clothing, tool, furniture, animal-mammal, occupation, body-part) instead of the action/cognition/communication/emotion tags appropriate for their meanings. Confirmed instances: 06051 clothing→movement, 06052 [food,leisure,tool]→action, 06053 [communication,furniture]→cognition, 06055 electronics→emotion, 06056 electronics→communication, 06058 animal-mammal→communication, 06060 electronics→cognition, 06062 occupation→cognition, 06066 action→emotion, 06067 action→emotion. Root cause: original AI generation applied topic-domain tags based on example sentence context rather than the verb's own semantic domain. The `check_tag_drift.py` unknown-semantic detector (P20) will flag the out-of-vocabulary cases; the correct-vocabulary-but-wrong-category cases (e.g. "action" on a cognition verb) are not detectable mechanically and require the accuracy-review `tags` pass or per-entry polishing. The 06000 range likely holds further instances of this sub-pattern.
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)
@@ -503,6 +505,8 @@ The same sub-patterns appear at lower ID ranges (confirmed: 00735_naoru, 00739_o
 P1's inline-links polishing task will eventually reach them, but the 06038+ cohort
 is beyond its current frontier and will not be addressed for months under sequential
 processing.
+
+**Broader context (2026-06-12)**: The 06048–06067 polish session found the **general** inline-link gap is even wider — the 06000 range batch was created before inline-link polishing was standard practice, so many entries in this cohort have no `⟦...⟧` markup in either examples or notes, not just the three specific sub-patterns enumerated above. The P21 sub-patterns are the most systemic-fix-amenable slice (they occur in a predictable structural location); the general inline-link absence is the broader P1 problem for this cohort and will be addressed as comprehensive-polish advances through the 06000 range.
 
 **Scope**: Likely affects hundreds of compound verb entries in the 06000–09000 range
 (the 2026-03 through 2026-04 creation cohort). The tooling-backlog item 15
