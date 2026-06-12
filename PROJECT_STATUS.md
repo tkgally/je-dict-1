@@ -51,6 +51,19 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-12 (Routine v2: new-entries — 20 New Entries, IDs 29181–29200)
+Added 20 new entries (IDs 29181–29200) from candidates, processing all 4 seen-in-entry gaps.
+
+- **Seen-in-entry (4)**: {一級建築士|いっきゅうけんちくし} (first-class architect), {二級建築士|にきゅうけんちくし} (second-class architect), {脱サラ|だつさら} (leaving salaried employment to go independent), {演奏家|えんそうか} (professional musician)
+- **Social/political (3)**: {社会運動|しゃかいうんどう} (social movement), {平和運動|へいわうんどう} (peace movement), {人権活動|じんけんかつどう} (human rights activities)
+- **Abstract/society (2)**: {自我意識|じがいしき} (self-awareness), {知識階級|ちしきかいきゅう} (intelligentsia)
+- **Culture/daily life (5)**: {絹織物|きぬおりもの} (silk fabric), {飯炊き|めしだき} (cooking rice; historical cook), {日|ひ}めくりカレンダー (tear-off calendar), UFOキャッチャー (claw machine), ファッションデザイナー (fashion designer)
+- **Education/work (1)**: {職業訓練校|しょくぎょうくんれんこう} (vocational training school)
+- **Sports/health (4)**: {体幹|たいかん}トレーニング (core training), {水泳帽|すいえいぼう} (swimming cap), {水泳選手|すいえいせんしゅ} (competitive swimmer), {抗ウイルス薬|こうういるすやく} (antiviral drug)
+- **Facility (1)**: {入館者|にゅうかんしゃ} (visitor to a facility)
+
+§4 self-check: 1 applied (29193 gloss clarified historical usage of cook meaning), 0 rejected, 0 flagged.
+
 ### 2026-06-12 (Routine v2: new-entries — 18 New Entries, IDs 29163–29180)
 Added 18 new entries (IDs 29163–29180) from candidates, prioritizing 2 seen-in-entry gaps.
 
