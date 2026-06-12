@@ -1,0 +1,24 @@
+{
+  "entry_id": "03095_nado",
+  "headword": "〜など",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:59:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for 〜など. While it can be used in informal contexts, it is a neutral particle and is used across all levels of formality, including formal writing and speech. It is not inherently informal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

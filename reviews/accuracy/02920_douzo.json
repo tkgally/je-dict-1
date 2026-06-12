@@ -1,0 +1,24 @@
+{
+  "entry_id": "02920_douzo",
+  "headword": "どうぞ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:56:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'greeting' is too narrow and misleading for 'どうぞ'. While it can be used in greetings, its primary function is an adverb expressing 'please' or 'here you are' in various contexts, not exclusively greetings.",
+      "suggestion": "Replace 'greeting' with 'expression' or 'general' to better reflect its broad usage."
+    }
+  ]
+}
