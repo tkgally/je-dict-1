@@ -1,0 +1,24 @@
+{
+  "entry_id": "02941_kopiisuru",
+  "headword": "コピーする",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:56:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 'コピーする'. This is an everyday verb and is neutral in formality.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "02980_yaru",
+  "headword": "やる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:57:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'やる' is not inherently informal. While it can be used informally, it also has neutral and even slightly formal uses depending on context and nuance (e.g., in certain fixed expressions or when referring to 'doing' something in a general sense without implying rudeness). Labeling it strictly 'informal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

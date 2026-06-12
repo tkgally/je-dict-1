@@ -1,0 +1,24 @@
+{
+  "entry_id": "02969_mikka",
+  "headword": "{三日|みっか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:57:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "warn",
+      "concern": "The tag 'time' is too broad. A more specific tag is available.",
+      "suggestion": "time-general"
+    }
+  ]
+}

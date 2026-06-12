@@ -1,0 +1,24 @@
+{
+  "entry_id": "02983_youka",
+  "headword": "{八日|ようか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:57:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad. A more specific tag is available.",
+      "suggestion": "time-general"
+    }
+  ]
+}

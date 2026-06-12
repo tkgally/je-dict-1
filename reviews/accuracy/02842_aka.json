@@ -1,0 +1,24 @@
+{
+  "entry_id": "02842_aka",
+  "headword": "{赤|あか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-12T09:55:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The example sentence uses 赤ちゃん (akachan), which means 'baby', not 赤 (aka), which means 'red'. The translation is correct for 赤ちゃん, but the example is not relevant to the headword.",
+      "suggestion": "Remove or replace this example sentence with one that uses 赤 (aka) in the sense of 'red'."
+    }
+  ]
+}
