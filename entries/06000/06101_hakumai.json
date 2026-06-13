@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06101_hakumai_ex1",
-      "japanese": "{白米|はくまい}を{炊|た}く。",
+      "japanese": "{白米|はくまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧。",
       "english": "To cook white rice.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06101_hakumai_ex2",
-      "japanese": "{白米|はくまい}を{三合|さんごう}{研|と}ぐ。",
+      "japanese": "{白米|はくまい}⟦を→を：00422_wo⟧⟦{三合|さんごう}→三合：noentry⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧。",
       "english": "To wash three cups of white rice.",
       "notes": "{研|と}ぐ means to rinse rice before cooking",
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06101_hakumai_ex3",
-      "japanese": "{日本人|にほんじん}の{主食|しゅしょく}は{白米|はくまい}だ。",
+      "japanese": "⟦{日本人|にほんじん}→日本人：10112_nihonjin⟧⟦の→の：09472_no⟧⟦{主食|しゅしょく}→主食：11408_shushoku⟧⟦は→は：00079_ha⟧{白米|はくまい}⟦だ→だ：09496_da⟧。",
       "english": "White rice is the staple food of Japanese people.",
       "notes": null,
       "has_audio": false,
@@ -44,7 +44,7 @@
     },
     {
       "id": "06101_hakumai_ex4",
-      "japanese": "{炊|た}きたての{白米|はくまい}はとてもおいしい。",
+      "japanese": "⟦{炊|た}きたて→炊きたて：15234_takitate⟧⟦の→の：09472_no⟧{白米|はくまい}⟦は→は：00079_ha⟧⟦とても→とても：00593_totemo⟧⟦おいしい→おいしい：00740_oishii⟧。",
       "english": "Freshly cooked white rice is very delicious.",
       "notes": null,
       "has_audio": false,
@@ -54,7 +54,7 @@
     },
     {
       "id": "06101_hakumai_ex5",
-      "japanese": "{白米|はくまい}は{玄米|げんまい}に{比|くら}べると{栄養|えいよう}は{少|すく}ないが、{食|た}べやすくて{人気|にんき}がある。",
+      "japanese": "{白米|はくまい}⟦は→は：00079_ha⟧⟦{玄米|げんまい}→玄米：06100_genmai⟧⟦に→に：00314_ni⟧⟦{比|くら}べると→比べる：01237_kuraberu⟧⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦は→は：00079_ha⟧⟦{少|すく}ない→少ない：01136_sukunai⟧⟦が→が：00051_ga⟧、⟦{食|た}べやすくて→食べやすい：21799_tabeyasui⟧⟦{人気|にんき}→人気：01488_ninki⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "White rice has less nutrition than brown rice, but it's easy to eat and popular.",
       "notes": null,
       "has_audio": false,
@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{白米|はくまい} is polished rice, the most common form of rice eaten in Japan. The word {精白米|せいはくまい} is a more formal/technical term.\n\nCOMMON PATTERNS:\n・{白米|はくまい}を{炊|た}く (cook white rice)\n・{白米|はくまい}を{研|と}ぐ (rinse white rice)\n・{炊|た}きたての{白米|はくまい} (freshly cooked white rice)\n\nRELATED TERMS:\n・ご{飯|はん} (cooked rice - everyday word)\n・{米|こめ} (uncooked rice - general)\n・{精米|せいまい} (rice polishing/polished rice)",
+  "notes": "USAGE:\n{白米|はくまい} is polished rice, the most common form of rice eaten in Japan. The word ⟦{精白米|せいはくまい}→精白米：noentry⟧ is a more formal/technical term.\n\nCOMMON PATTERNS:\n・{白米|はくまい}⟦を→を：00422_wo⟧⟦{炊|た}く→炊く：02127_taku⟧ (cook white rice)\n・{白米|はくまい}⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (rinse white rice)\n・⟦{炊|た}きたて→炊きたて：15234_takitate⟧⟦の→の：09472_no⟧{白米|はくまい} (freshly cooked white rice)\n\nRELATED TERMS:\n・⟦ご{飯|はん}→ご飯：00776_gohan⟧ (cooked rice - everyday word)\n・⟦{米|こめ}→米：01323_kome⟧ (uncooked rice - general)\n・⟦{精米|せいまい}→精米：06615_seimai⟧ (rice polishing/polished rice)",
   "cross_references": [
     {
       "type": "related",
@@ -82,7 +82,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T03:13:44Z",
-    "modified": "2026-03-12T00:42:12Z",
+    "modified": "2026-06-13T06:38:32Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -95,7 +95,7 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "general"
+        "food"
       ]
     }
   }
