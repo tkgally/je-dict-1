@@ -1,0 +1,24 @@
+{
+  "entry_id": "06102_hiryou",
+  "headword": "{肥料|ひりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T06:56:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '肥料' (fertilizer).",
+      "suggestion": "plant-general"
+    }
+  ]
+}
