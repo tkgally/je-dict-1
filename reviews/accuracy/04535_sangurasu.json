@@ -1,0 +1,24 @@
+{
+  "entry_id": "04535_sangurasu",
+  "headword": "サングラス",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:05:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 'サングラス' is a common loanword and is not considered informal. It is a neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

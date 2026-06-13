@@ -1134,3 +1134,27 @@
 {"timestamp": "2026-06-13T06:57:58Z", "entry_id": "06103", "dimension": "tags", "decision": "APPLY", "note": "geography correct for ranch/farm as a location type"}
 {"timestamp": "2026-06-13T06:57:58Z", "entry_id": "06104", "dimension": "tags", "decision": "APPLY", "note": "work correct for dairy farming as an occupation/industry"}
 {"timestamp": "2026-06-13T06:57:58Z", "entry_id": "01327", "dimension": "gloss", "decision": "REJECT", "note": "soon is a legitimate gloss for 今度 in future-reference contexts (next time, soon are synonymous)"}
+{"ts":"2026-06-13T13:03:12Z","src":"furigana","dim":"furigana","sev":"error","decision":"apply","entry":"04526","note":"流行っている: りゅうこう→はや (verb vs noun reading)"}
+{"ts":"2026-06-13T13:03:12Z","src":"furigana","dim":"furigana","sev":"error","decision":"apply","entry":"04755","note":"inline link 建てる→立てる target_id fix"}
+{"ts":"2026-06-13T13:03:12Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":16,"note":"family: rendaku/okurigana/alt-readings/model-self-corrects/conf<0.5"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04300","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tag animal-insect for frog→animal-general (frog is amphibian"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04312","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tags geography+time-general for power generation→technology"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04319","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tag animal-fish for squid→animal-general (squid is mollusk)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04323","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tag animal-fish for octopus→animal-general (octopus is mollu"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04325","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tag animal-fish for crab→animal-general (crab is crustacean)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04335","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"existence→survival for 生存 in disaster context"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04355","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"tool tag removed from 西暦 (calendar system, not a tool)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04361","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"emotion→descriptive for 折角 (adverb of effort, not emotion)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04399","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"sucking→licking for 舐める (to lick not to suck)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04404","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"economy (not in VALID_SEMANTIC) → finance"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04418","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"body-part→health for 心臓病 (disease not a body part)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04633","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"met→went to meet for 出迎える x2 (includes going out)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04635","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"removed recyclable from 再生可能 (means renewable not recyclable"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04643","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"rolling→lying down for 寝転ぶ x5 (to sprawl not to roll)"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04665","src":"accuracy","dim":"tags","sev":"error","decision":"apply","note":"animal-insect→occupation for 〜長 suffix (chief/head, not inse"}
+{"ts":"2026-06-13T13:17:57Z","entry":"04683","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"removed leotards from タイツ (tights not leotards)"}
+{"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":71,"note":"family: 'general' tag too broad nits (in-list narrowness substitutions)"}
+{"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":27,"note":"family: formality informal/formal→neutral (all in-list, noise)"}
+{"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":95,"note":"family: other in-list narrowness/wrong-context tag nits"}
+{"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"translation","sev":"error","decision":"reject","n":10,"note":"family: translation nuance nits (correct sense, minor phrasing)"}
+{"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","n":8,"note":"family: gloss completeness nits (suggest adding alternate senses)"}

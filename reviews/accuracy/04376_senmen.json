@@ -1,0 +1,24 @@
+{
+  "entry_id": "04376_senmen",
+  "headword": "{洗面|せんめん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:03:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'washroom' for 洗面所 is misleading. While a washroom can contain a washbasin, 洗面所 specifically refers to the room where one washes their face and hands, often containing a washbasin and mirror, but not necessarily a toilet. 'Restroom' or 'bathroom' would be more appropriate if it includes a toilet, but 'washroom' alone is too broad and can imply a toilet is present when it might not be the primary focus.",
+      "suggestion": "Change 'washroom' to 'washbasin room' or 'powder room' (if applicable) or 'restroom' if it implies a toilet is present. Given the context of 洗面, 'washbasin room' or 'vanity room' might be more precise."
+    }
+  ]
+}

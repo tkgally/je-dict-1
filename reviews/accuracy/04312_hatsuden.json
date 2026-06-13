@@ -1,0 +1,24 @@
+{
+  "entry_id": "04312_hatsuden",
+  "headword": "{発電|はつでん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:02:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'geography' and 'time-general' are incorrect for 'power generation'.",
+      "suggestion": "Replace 'geography' and 'time-general' with 'technology' or 'science'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "04692_gekkyuu",
+  "headword": "{月給|げっきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:08:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-general' is incorrect for '月給'.",
+      "suggestion": "Remove 'time-general'."
+    }
+  ]
+}
