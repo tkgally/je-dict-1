@@ -2,37 +2,23 @@
   "entry_id": "00958_kanai",
   "headword": "{家内|かない}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:52:26Z",
+  "reviewed_at": "2026-06-13T15:47:15Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'humble' is incorrect for 家内. While it is used to refer to one's own wife in a humble way, the term itself is not humble language (謙譲語). It is a neutral term for 'my wife' when speaking to others, often used by men.",
+      "concern": "The politeness tag 'humble' is incorrect for the headword '家内'. While '家内' is used to humbly refer to one's own wife, the term itself is not inherently humble in the same way as true humble language (謙譲語). It's a neutral term for 'my wife' when speaking to others, implying humility by referring to one's own family member in a less elevated way, but it's not humble language in the grammatical sense.",
       "suggestion": "neutral"
-    },
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss 'wife (humble)' is misleading. While it refers to one's own wife in a humble context, the word itself is not humble language. It's a neutral term for 'my wife' when speaking to others.",
-      "suggestion": "my wife (when speaking to others)"
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss 'wife (humble)' is misleading. While it refers to one's own wife in a humble context, the word itself is not humble language. It's a neutral term for 'my wife' when speaking to others.",
-      "suggestion": "my wife (when speaking to others)"
     }
   ]
 }

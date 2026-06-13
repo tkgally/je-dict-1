@@ -2,43 +2,15 @@
   "entry_id": "00550_asobu",
   "headword": "{遊|あそ}ぶ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:07Z",
+  "reviewed_at": "2026-06-13T15:47:11Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete. 'To visit' is a common meaning of 遊ぶ, especially in the context of visiting someone's home or location for leisure, which is not fully captured by 'to play' or 'to hang out'.",
-      "suggestion": "Add 'to visit' to the top-level gloss, e.g., 'to play, to hang out, to visit'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "warn",
-      "concern": "A third sense for 'to visit' is missing, which is distinct from merely 'hanging out' and is clearly present in examples 2 and 7.",
-      "suggestion": "Add a third definition sense: { 'sense': 3, 'gloss': 'to visit (for leisure/socializing)', 'explanation': 'To go to someone's home or location for social interaction or leisure activities.' }"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'Please come visit (to hang out)' is a bit clunky and could be more natural. The parenthetical explanation is helpful but makes the translation less fluid.",
-      "suggestion": "Change the English translation to 'Please come visit' or 'Please come over'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'Can I come hang out next time?' is a bit informal for '遊びに行っていい？' which can also imply a more general 'visit'.",
-      "suggestion": "Change the English translation to 'Can I come visit next time?' or 'Can I come over next time?'"
-    }
-  ]
+  "issues": []
 }

@@ -2,43 +2,23 @@
   "entry_id": "00500_takai",
   "headword": "{高|たか}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:33Z",
+  "reviewed_at": "2026-06-13T15:47:11Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "semantic_tags",
       "severity": "error",
-      "concern": "The tag 'size' is too narrow for the headword '高い'. While '高い' can refer to physical size (height), it also encompasses concepts like cost, degree, and intensity, which are not covered by 'size'.",
-      "suggestion": "Remove 'size' and add more comprehensive semantic tags such as 'degree', 'cost', 'intensity', or 'level' to better reflect the full range of meanings of '高い'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'high, tall, expensive' is incomplete as it misses the 'high (in level/degree)' sense, which is explicitly defined in sense 3 and appears in several examples.",
-      "suggestion": "Add 'high (in level/degree)' to the top-level gloss, e.g., 'high, tall, expensive, high (in level/degree)'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'I have a high fever' for '熱が高いです。' is natural but slightly adds a pronoun ('I') that isn't explicitly present in the Japanese, which is more impersonal. While common, a more literal translation might be preferred for an intermediate learner to understand the structure.",
-      "suggestion": "Consider 'The fever is high.' or 'One has a high fever.' to be more faithful to the Japanese structure, or acknowledge the common English idiom."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'This school is very popular.' for 'この学校は人気が高いです。' adds 'very' which is not present in the Japanese. While '人気が高い' implies high popularity, 'very' is an intensification not explicitly stated.",
-      "suggestion": "Change the translation to 'This school is popular.' or 'This school has high popularity.' to be more faithful to the original Japanese."
+      "concern": "The headword '高い' has multiple meanings beyond just 'size'. It also refers to cost and level/degree, which are not covered by 'size'.",
+      "suggestion": "Add 'money' and 'descriptive' to the semantic tags."
     }
   ]
 }
