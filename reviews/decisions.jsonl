@@ -1158,3 +1158,11 @@
 {"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":95,"note":"family: other in-list narrowness/wrong-context tag nits"}
 {"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"translation","sev":"error","decision":"reject","n":10,"note":"family: translation nuance nits (correct sense, minor phrasing)"}
 {"ts":"2026-06-13T13:17:57Z","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","n":8,"note":"family: gloss completeness nits (suggest adding alternate senses)"}
+{"entry_id": "00500_takai", "dimension": "tags", "decision": "REJECT", "reason": "size is valid tag for i-adjective meaning tall/high; per policy, don't add tags just because they could be there", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "00592_hima", "dimension": "tags", "decision": "REJECT", "reason": "descriptive is appropriate convention for na-adjective; time-general also valid but descriptive is project standard", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "00958_kanai", "dimension": "tags", "decision": "REJECT", "reason": "per project convention, in-group kinship/spouse terms use politeness=humble; this is by design", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "06112_kakekomu", "dimension": "tags", "decision": "APPLY", "reason": "time-general was wrong for an action verb; fixed to action", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "06114_kakenukeru", "dimension": "tags", "decision": "APPLY", "reason": "leisure and time-general were wrong for compound action verb; fixed to action", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "06115_seitenhekireki", "dimension": "tags", "decision": "PENDING", "reason": "need to check", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "06120_zabuton", "dimension": "tags", "decision": "APPLY", "reason": "fixed formality formal→neutral (everyday item) and semantic general→furniture", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}
+{"entry_id": "06115_seitenhekireki", "dimension": "tags", "decision": "APPLY", "reason": "tool tag was wrong for an idiom; fixed to expression", "session": "claude/admiring-rubin-cyj3b3", "date": "2026-06-13"}

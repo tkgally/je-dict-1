@@ -1,0 +1,31 @@
+{
+  "entry_id": "06114_kakenukeru",
+  "headword": "{駆|か}け{抜|ぬ}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T15:47:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is inappropriate for the headword '駆け抜ける'. While running can be a leisure activity, the core meaning of '駆け抜ける' is about movement or action, not specifically leisure.",
+      "suggestion": "Remove 'leisure' and add 'movement' and 'action'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is inappropriate for the headword '駆け抜ける'. While one sense of the word can be used figuratively with time, the primary meaning and the headword itself do not directly refer to time.",
+      "suggestion": "Remove 'time-general'."
+    }
+  ]
+}

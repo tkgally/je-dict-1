@@ -2,36 +2,15 @@
   "entry_id": "00118_ii",
   "headword": "いい",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:41:26Z",
+  "reviewed_at": "2026-06-13T15:47:10Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "Unnatural English phrasing.",
-      "suggestion": "It's nice weather. -> The weather is nice. / It's good weather."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation omits the meaning of 'いいです' from the Japanese sentence.",
-      "suggestion": "This restaurant has good food and the staff are friendly. -> This restaurant has good food and the staff are friendly, which is nice. / This restaurant has good food and the staff are friendly, so it's good."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[13]",
-      "severity": "warn",
-      "concern": "The English translation for 'はい、いいです' is not a natural rendering in this context.",
-      "suggestion": "Do you need a receipt? —No, I'm fine. -> Do you need a receipt? —No, that's fine. / Do you need a receipt? —No, you can keep it."
-    }
-  ]
+  "issues": []
 }
