@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T12:46:14Z",
+  "reviewed_at": "2026-06-13T02:25:36Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a specific item like '釜'.",
-      "suggestion": "cooking"
+      "concern": "The gloss includes 'kettle', which is misleading as 釜 (kama) does not typically refer to a kettle for boiling water.",
+      "suggestion": "Remove 'kettle' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 2 includes 'boiler', which is misleading. While 釜 can be part of words like 蒸気釜 (steam boiler), it doesn't mean 'boiler' on its own.",
+      "suggestion": "Remove 'boiler' from the gloss for sense 2."
     }
   ]
 }

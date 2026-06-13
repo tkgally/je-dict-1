@@ -1121,3 +1121,9 @@
 {"ts":"2026-06-12T21:50:42Z","entry":"06098","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"formality formal->neutral for tech slang"}
 {"ts":"2026-06-12T21:50:42Z","entry":"06100","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"semantic general->food for rice item"}
 {"ts":"2026-06-12T21:50:42Z","entry":"24408","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"semantic body not in valid list->body-part"}
+{"ts":"2026-06-13T02:23:53Z","entry":"03884","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"三桁 read みけた wrong; corrected to さんけた"}
+{"ts":"2026-06-13T02:23:53Z","entry":"04162","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"日前 read かまえ wrong; corrected to 三日前/みっかまえ matching English"}
+{"ts":"2026-06-13T02:23:53Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":27,"note":"family: okurigana/rendaku/multi-reading/inline-link-confusion noise"}
+{"ts":"2026-06-13T02:35:00Z","src":"accuracy-review","dim":"tags","sev":"error","decision":"reject","n":252,"note":"reviewer noise: model treats 'general' semantic tag as too broad (valid catch-all in this dictionary); does not understand tag taxonomy"}
+{"ts":"2026-06-13T02:35:00Z","src":"accuracy-review","dim":"translation","sev":"warn","decision":"reject","n":19,"note":"reviewer noise: minor phrasing quibbles not warranting changes"}
+{"ts":"2026-06-13T02:35:00Z","src":"accuracy-review","dim":"gloss","sev":"warn","decision":"reject","n":14,"note":"reviewer noise: gloss variation suggestions not warranting changes"}

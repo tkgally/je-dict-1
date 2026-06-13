@@ -1,0 +1,24 @@
+{
+  "entry_id": "03898_makura",
+  "headword": "{枕|まくら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T02:25:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '枕' (pillow). A pillow is not a part of the body.",
+      "suggestion": "Remove 'body-part'."
+    }
+  ]
+}
