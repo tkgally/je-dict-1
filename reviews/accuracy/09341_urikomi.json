@@ -1,0 +1,24 @@
+{
+  "entry_id": "09341_urikomi",
+  "headword": "{売|う}り{込|こ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T18:29:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sales' is not in the valid tag list.",
+      "suggestion": "business"
+    }
+  ]
+}

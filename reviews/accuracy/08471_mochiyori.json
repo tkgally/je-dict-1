@@ -1,0 +1,24 @@
+{
+  "entry_id": "08471_mochiyori",
+  "headword": "{持|も}ち{寄|よ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T18:29:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}
