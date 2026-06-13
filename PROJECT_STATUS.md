@@ -51,6 +51,26 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29201–29220)
+Added 20 new entries (IDs 29201–29220): 2 seen-in-entry gaps plus 18 regular candidates.
+
+- **Seen-in-entry (2)**: {空撮|くうさつ} (aerial photography/drone shot), {糠|ぬか} (rice bran)
+- **Everyday objects (1)**: たわし (scrubbing brush; scouring pad)
+- **Education/person (1)**: {初級者|しょきゅうしゃ} (beginner; novice)
+- **Person (1)**: {愛好者|あいこうしゃ} (enthusiast; aficionado)
+- **Culture/leisure (1)**: {祝祭|しゅくさい} (celebration; festivity)
+- **Media (2)**: {映像化|えいぞうか} (film/visual adaptation), {速報性|そくほうせい} (timeliness; breaking news quality)
+- **Work/business (2)**: {新卒採用|しんそつさいよう} (new graduate hiring), ファシリテーション (facilitation)
+- **Language (1)**: {異体字|いたいじ} (variant kanji form)
+- **Health/law (1)**: {障害者手帳|しょうがいしゃてちょう} (disability certificate)
+- **Abstract (3)**: {落ち込み|おちこみ} (depression; slump), {駆動力|くどうりょく} (driving force), {停滞感|ていたいかん} (sense of stagnation)
+- **Society (1)**: {競争社会|きょうそうしゃかい} (competitive society)
+- **Shopping (1)**: {高級店|こうきゅうてん} (high-class shop; upscale establishment)
+- **Weather (1)**: {雷光|らいこう} (lightning flash)
+- **Adverbs (2)**: {急激|きゅうげき}に (rapidly; sharply), {猛烈|もうれつ}に (fiercely; intensely)
+
+§4 self-check: 3 applied (29208/29210 formality formal→neutral; 29216 removed food semantic tag), 0 rejected, 0 flagged.
+
 ### 2026-06-12 (Routine v2: new-entries — 20 New Entries, IDs 29181–29200)
 Added 20 new entries (IDs 29181–29200) from candidates, processing all 4 seen-in-entry gaps.
 
@@ -97,43 +117,5 @@ Reviewed the first 17 Routine v2 runs (all PRs merged cleanly; §4 self-verifica
 - **Tag guidance at creation time**: semantic-tag closed list added to `prompts/newentries.md` (mirroring the POS table) and refreshed in the `entry-guidelines` skill — ends the create-then-§4-patch loop seen in every new-entries run.
 - **routine2.md tweaks**: standing tag-adjudication rule (§A); furigana-screening known-noise shortcut (bulk-reject documented false-positive families, skip the deep pass); stale-priority-lane regeneration rule; §C exact-lowercase ledger values.
 - **routine.md deleted** — routine2.md is the only Routine prompt; references updated in CLAUDE.md, metaprompt_list.md, routine_next.py, routine-config.json, and the wiki. Corrected the wrong adjudication heuristic in `planning/wiki/topics/schema-tag-reliability.md`; Tooling Backlog item 14 resolved.
-
-### 2026-06-11 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29123–29142)
-Added 20 new entries (IDs 29123–29142): all 8 "seen in entry" candidates plus 12 regular candidates.
-
-- **Grammar suffix (1)**: 〜がち (tending to, prone to) — filling noentry link in 07441
-- **Sports cluster (3)**: {喫|きっ}する (suffer defeat), スランプ (slump), {一勝|いっしょう} (one win), ビハインド (deficit) — from 06529 and 07006
-- **Cultural objects (1)**: {草鞋|わらじ} (straw sandals) — from 06020
-- **Commerce (1)**: {捨|す}て{値|ね} (throwaway price) — from 06020
-- **Buddhist memorial (1)**: {三十三回忌|さんじゅうさんかいき} (33rd death anniversary service) — from 06018
-- **Medical / health (3)**: {乳糖不耐症|にゅうとうふたいしょう} (lactose intolerance), {鼻汁|びじゅう} (nasal discharge), {体組成計|たいそせいけい} (body composition analyzer)
-- **Abstract nouns (3)**: {優先度|ゆうせんど} (priority level), {確実性|かくじつせい} (certainty), {順応性|じゅんのうせい} (adaptability)
-- **Cultural / social (4)**: {快気内祝|かいきうちいわ}い (get-well return gift), {自動二輪車|じどうにりんしゃ} (motorcycle formal term), パンティストッキング (pantyhose), {亭主元気|ていしゅげんき}で{留守|るす}がいい (proverb)
-- **Multi-sense noun (1)**: {利|り} (profit; interest)
-- **Expression (1)**: {活気|かっき}がない (lacking energy)
-
-§4 self-check: **16 applied** (all semantic tag fixes — tags like `sports`, `culture`, `history`, `health`, `social` not in valid taxonomy; replaced with `leisure`, `clothing`, `body-internal`, `work`, `emotion`, etc.), **0 rejected**, **0 flagged**. New kanji 鞋 (02772_kai_kutsu_sandal). Conjugation tables added for 喫する (suru). 20 candidates removed.
-
-### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29103–29122)
-Added 20 new entries (IDs 29103–29122) drawn from all 13 "seen in entry" candidates and 7 regular candidates.
-
-- **Mourning cluster (3)**: {喪|も}, {服|ふく}す, {忌明|きあ}け — filling noentry links in 06017 (四十九日)
-- **Shrine/exam culture (3)**: {学業成就|がくぎょうじょうじゅ}, {合格祈願|ごうかくきがん}, {出雲大社|いずもたいしゃ}, {御影石|みかげいし}
-- **Cultural (2)**: {紅白歌合戦|こうはくうたがっせん}, {各部署|かくぶしょ}
-- **Verbs (2)**: {噛|か}み{殺|ころ}す (godan), {出|で}てくる (kuru)
-- **Onomatopoeia (6)**: コケコッコー, カーカー, にんまり, どかどか, すかすか, バチバチ
-- **General (4)**: {悪人|あくにん}, イルミネーション, レゴ, {御影石|みかげいし}
-
-§4 self-check: 11 applied (semantic tags: `descriptive` for 6 onomatopoeia, `culture` for mourning cluster, `person`/`emotion` corrections), 6 bulk-rejected (model falsely claimed valid tags invalid). Conjugation tables added for 3 verbs. No new kanji.
-
-### 2026-06-10 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29083–29102)
-Added 20 new entries (IDs 29083–29102) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries (IDs 05981–29082) but not yet defined.
-
-- **Loanword nouns (3)**: シートベルト (seat belt), ホームシック (homesickness), ノーコメント (no comment)
-- **Native nouns (7)**: {老齢|ろうれい} (old age), {倦怠期|けんたいき} (relationship rut), {鶯|うぐいす} (Japanese bush warbler), {史上初|しじょうはつ} (first in history), {延発|えんぱつ} (delayed departure), {摘出|てきしゅつ} (surgical removal, also suru), {潰瘍|かいよう} (ulcer)
-- **Medical (4)**: {心音|しんおん} (heart sounds), {触診|しょくしん} (palpation, also suru), {胆汁|たんじゅう} (bile), {胆石|たんせき} (gallstone)
-- **Onomatopoeia (6)**: ちゃぷちゃぷ (gentle splashing), ざぶん (single big splash), どすどす (heavy thumping footsteps), カクカク (jerky/choppy), チュンチュン (sparrow chirping), ホーホケキョ (bush warbler's call)
-
-§4 self-verification: 19 model flags across 17 entries → **1 applied** (鶯 tags: `animals` → `animal-bird`), **18 rejected** (bulk-rejected: reviewer flagged schema-free semantic tags as invalid; all tags are legitimately used across the dictionary). Decisions logged to `reviews/decisions.jsonl`. New kanji 鶯 (02771_ou_uguisu_bush-warbler). Conjugation tables added for 摘出 and 触診 (suru).
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

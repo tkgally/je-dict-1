@@ -1,0 +1,24 @@
+{
+  "entry_id": "29208_shinsotsusaiyou",
+  "headword": "{新卒採用|しんそつさいよう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T03:47:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '新卒採用' is not inherently formal; it's a standard business term.",
+      "suggestion": "neutral"
+    }
+  ]
+}
