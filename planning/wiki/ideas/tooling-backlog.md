@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-11 (added item 15: unlinked 自動詞/他動詞 lint rule; item 14 RESOLVED via the tag-policy decision + review_accuracy.py prompt v3; corrected its premise — the reviewer had the valid-tag list all along)
+**Last updated**: 2026-06-13 (item 17 update: same `general`-tag false-positive noise confirmed in 03801–04300 range)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -364,6 +364,14 @@ instruction is not strong enough to suppress the pattern.
 **Impact**: Reduces per-run adjudication cost by ~180 bulk rejections (removing noise
 that currently dominates the review queue). Precision on the `tags` dimension would
 increase from ~30% to potentially >60% once the `general`-noise family is suppressed.
+
+**Update 2026-06-13**: The same `general`-tag noise pattern persists in the 03801–04300
+accuracy-review run: 246/492 entries (50%) flagged, with 252 tag flags of which 222
+(88%) were `general` flagged as "too broad." The broader 285-flag run was bulk-rejected
+(`reviews/decisions.jsonl`). Two genuine furigana fixes were found via screening (0%
+false-positive rate for screening vs. ~88% for the tags dimension on this range). The
+proposed prompt fix remains unimplemented; the noise family is now confirmed across the
+03301–04300 range (two consecutive 500-entry runs, consistent ~50% flag rates).
 
 ## Related pages
 

@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-13] maintenance | Observation harvest (4 items), stats sync, schema-tag-reliability deepened
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs. Sweep: 0 stranded. Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 4 unharvested observations from 2026-06-13 accuracy-review and polish sessions:
+  - `[tooling]` accuracy-review 03801–04300: 50% flag rate, 88% of tag flags = `general` "too broad" → **Tooling Backlog item 17 updated** with new data point (same pattern, consistent 50% rate across 03301–04300 range).
+  - `[pattern]` `transportation` on 06107_junshu (compliance/observance) → **Cleanup Backlog P11 update 2026-06-13** (range now confirmed to 06100s).
+  - `[pattern]` `general`-instead-of-specific on 06101_hakumai / 06106_katsuo → same P11 update.
+  - `[entry]` 06109_karorii needs inline links → **Entry Follow-ups** (new item added).
+  - Cleared all four from `polishing/observations.md`.
+- [A] Stats sync: updated `project/overview.md` (entries "nearly 29,000" → "over 29,000"; examples 113,900 → 114,000; cross-refs 16,300 → 16,400; general tier ~26,170 → ~26,210).
+- [C] Deepened `topics/schema-tag-reliability.md`: added subsection on the `general`-tag **reverse-direction noise** in the accuracy-review tool (88% of tag flags in 03301–04300 flag `general` as "too broad"; ~180 bulk rejections/run dominate adjudication workload; fix tracked in Tooling Backlog item 17). Updated "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed).
+**Metrics**: Appended wiki run line (40 lines total in metrics-history.jsonl).
+**Metrics-trend activity**: Not triggered (5 new metrics lines since last update; threshold ≥10).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-13 Routine runs so far.
+
 ## [2026-06-12] maintenance | Observation harvest (2 items), quality-metrics refresh (34 runs / 2,038 flags)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-12 (wiki: harvest 2 observations → Tooling Backlog items 16–17; quality-metrics.md refreshed to 34 runs / 2,038 flags with Finding §8 on general-tag noise)
+**Last updated**: 2026-06-13 (wiki: harvest 4 observations → Tooling Backlog item 17 update, Cleanup Backlog P11 update, Entry Follow-ups 06109; stats sync; schema-tag-reliability.md deepened with general-tag reverse-direction noise finding)
 
 
 ## How this wiki is organized
