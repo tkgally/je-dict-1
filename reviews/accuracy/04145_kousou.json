@@ -1,0 +1,24 @@
+{
+  "entry_id": "04145_kousou",
+  "headword": "{高層|こうそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T02:29:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with specific meanings related to height and buildings/atmosphere.",
+      "suggestion": "Add 'building' and 'weather' or 'nature' to better reflect the senses."
+    }
+  ]
+}

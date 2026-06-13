@@ -1,0 +1,31 @@
+{
+  "entry_id": "03989_bushi",
+  "headword": "{武士|ぶし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T02:27:05Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific historical and cultural term like '武士'.",
+      "suggestion": "person"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "warn",
+      "concern": "The formality tag 'formal' seems slightly off. While '武士' refers to a historical concept, the word itself isn't inherently formal in everyday Japanese; it's simply the correct term. 'Neutral' might be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

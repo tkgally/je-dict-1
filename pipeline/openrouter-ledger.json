@@ -1,99 +1,22 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-06-12",
+  "date": "2026-06-13",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.6957,
+  "spent_usd": 0.2741,
   "calls": [
     {
-      "ts": "2026-06-12T04:03:22Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 197,
-      "est_usd": 0.0871
-    },
-    {
-      "ts": "2026-06-12T04:03:22Z",
+      "ts": "2026-06-13T02:24:30Z",
       "mode": "accuracy-review",
       "phase": "screening",
-      "entries": 259,
-      "est_usd": 0.026
+      "entries": 432,
+      "est_usd": 0.0556
     },
     {
-      "ts": "2026-06-12T07:52:32Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 1,
-      "est_usd": 0.0004
-    },
-    {
-      "ts": "2026-06-12T09:03:30Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 18,
-      "est_usd": 0.0079
-    },
-    {
-      "ts": "2026-06-12T10:10:12Z",
+      "ts": "2026-06-13T02:35:00Z",
       "mode": "accuracy-review",
-      "phase": "furigana-screening",
-      "entries": 500,
-      "est_usd": 0.05
-    },
-    {
-      "ts": "2026-06-12T10:10:12Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 500,
-      "est_usd": 0.22
-    },
-    {
-      "ts": "2026-06-12T12:49:23Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 40,
-      "est_usd": 0.0175
-    },
-    {
-      "ts": "2026-06-12T13:46:19Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 20,
-      "est_usd": 0.0087
-    },
-    {
-      "ts": "2026-06-12T15:55:26Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 11,
-      "est_usd": 0.0049
-    },
-    {
-      "ts": "2026-06-12T18:12:55Z",
-      "mode": "accuracy-review",
-      "phase": "furigana-screening",
-      "entries": 500,
-      "est_usd": 0.0423
-    },
-    {
-      "ts": "2026-06-12T18:28:46Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 500,
-      "est_usd": 0.2206
-    },
-    {
-      "ts": "2026-06-12T18:30:08Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 2,
-      "est_usd": 0.0009
-    },
-    {
-      "ts": "2026-06-12T21:51:10Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 21,
-      "est_usd": 0.0094
+      "phase": "deep",
+      "entries": 492,
+      "est_usd": 0.2185
     }
   ]
 }
