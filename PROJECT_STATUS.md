@@ -51,6 +51,24 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29221–29240)
+Added 20 new entries (IDs 29221–29240): 2 seen-in-entry gaps plus 18 regular candidates. Removed 3 stale candidates (すぎる, ような, ノマドワーカー already in dictionary).
+
+- **Seen-in-entry (2)**: {麸|ふすま} (wheat bran; new kanji 麸 assigned ID 02773), {航空法|こうくうほう} (Civil Aeronautics Act)
+- **Food/culture (3)**: {蒲焼き|かばやき} (kabayaki grilled eel), たたき (tataki seared fish), {食文化|しょくぶんか} (food culture)
+- **Food products (2)**: プロセスチーズ (processed cheese), バニラエッセンス (vanilla essence)
+- **Daily life (3)**: ヘルスメーター (bathroom scale), スリープウェア (sleepwear), {脱毛剤|だつもうざい} (hair removal cream)
+- **Building (1)**: {階建て|かいだて} (~-story building suffix)
+- **Health (1)**: {授乳中|じゅにゅうちゅう} (while breastfeeding)
+- **Traffic safety (2)**: {酒気帯び運転|しゅきおびうんてん} (DUI), {蛇行運転|だこううんてん} (reckless weaving driving)
+- **Commerce (2)**: {無着色|むちゃくしょく} (no artificial coloring), {希望小売価格|きぼうこうりかかく} (MSRP)
+- **Technology (1)**: {電気回路|でんきかいろ} (electric circuit)
+- **Travel/history (1)**: {遺跡群|いせきぐん} (ruins complex)
+- **Language (1)**: ポルトガル{語|ご} (Portuguese)
+- **Transportation (1)**: {最高速|さいこうそく} (top speed)
+
+§4 self-check: CLEAN (0 issues across 20 entries, $0.0088).
+
 ### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29201–29220)
 Added 20 new entries (IDs 29201–29220): 2 seen-in-entry gaps plus 18 regular candidates.
 
@@ -108,14 +126,5 @@ Added 20 new entries (IDs 29143–29162) from candidates.
 - **Misc nouns / expressions (5)**: 力ずく (brute force), 砂ぼこり (swirling dust), 利用規約 (terms of service), 湯炊き (boil-and-drain cooking), 口先三寸 (smooth talk), 読み済み (already read), すっとんと (with a thud)
 
 §4 self-check: 2 applied (29149 `grammatical`→`communication` tag; 29154 "clink"→"thud" translation), 1 rejected (29159 communication tag adequate). Post-creation fixes: 5 entries had invalid "colloquial" formality tag → changed to "informal"; 1 entry had invalid underscore in romaji ID → renamed; 9 entries had missing furigana → fixed.
-
-### 2026-06-11 (Curator session: Routine v2 assessment, semantic-tag policy decision, routine.md removed)
-Reviewed the first 17 Routine v2 runs (all PRs merged cleanly; §4 self-verification catching real errors at ~$0.01/run) and resolved the semantic-tag source-of-truth contradiction that had runs adjudicating identical "invalid tag" flags in opposite directions.
-
-- **Tag policy (curator decision)**: expand-then-enforce. `VALID_SEMANTIC` in `build/validate_tags.py` expanded with 30 established-by-usage tags (`business`, `culture`, `nature`, `health`, …); near-duplicates get a 1:1 migration map (`time`→`time-general`, `people`→`person`, …) in `build/check_tag_drift.py`; the remaining 9,036 out-of-taxonomy instances (7,292 entries) are tracked by the new `check_tag_drift.py --check unknown-semantic` detector and Cleanup Backlog P20 / `unknown-semantic-tags` queue item.
-- **Reviewer prompt v3** (`build/review_accuracy.py`): out-of-list tags flagged as migration candidates; no "too narrow/broad" substitutions between in-list tags; formality flags only on unambiguous register contradictions.
-- **Tag guidance at creation time**: semantic-tag closed list added to `prompts/newentries.md` (mirroring the POS table) and refreshed in the `entry-guidelines` skill — ends the create-then-§4-patch loop seen in every new-entries run.
-- **routine2.md tweaks**: standing tag-adjudication rule (§A); furigana-screening known-noise shortcut (bulk-reject documented false-positive families, skip the deep pass); stale-priority-lane regeneration rule; §C exact-lowercase ledger values.
-- **routine.md deleted** — routine2.md is the only Routine prompt; references updated in CLAUDE.md, metaprompt_list.md, routine_next.py, routine-config.json, and the wiki. Corrected the wrong adjudication heuristic in `planning/wiki/topics/schema-tag-reliability.md`; Tooling Backlog item 14 resolved.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
