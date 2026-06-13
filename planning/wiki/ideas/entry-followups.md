@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-11 (added 06917_zo)
+**Last updated**: 2026-06-13 (added 06109_karorii)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -490,6 +490,18 @@ Entry `06917_zo` (ぞ, sentence-final particle) has two tag errors:
 - `semantic: ["clothing", "time-general", "tool"]` — these tags make no sense for a sentence-final particle. Likely batch tag-drift from an adjacent entry or a creation-time error.
 
 **Recommended fix**: Set `formality: "informal"` (or `"rough"`/`"casual"` if the schema supports it — otherwise `"informal"`). Replace the semantic tags with something appropriate for a masculine/emphatic sentence-final particle (e.g., `["expression"]` or `["grammar"]`). Update the `modified` timestamp.
+
+## 06109_karorii (カロリー) — Inline links needed
+
+**Source**: 2026-06-13 polish session 008 (entry encountered but not processed)
+
+Entry 06109_karorii (カロリー, calorie) was identified during the session covering
+entries 06101–06110 but was not processed in that session. It likely needs ⟦...⟧
+inline-link wrappers added to content words in its examples and notes.
+
+**Recommended fix**: Review examples and notes for words that have dictionary entries
+and add inline links. This is standard tier-2 polishing work; no structural changes
+expected.
 
 ## Related pages
 

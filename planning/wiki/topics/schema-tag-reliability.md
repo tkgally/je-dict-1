@@ -1,6 +1,6 @@
 # Schema Tag Reliability: When Metadata Drifts from Reality
 
-**Last updated**: 2026-06-11 (CORRECTED the reviewer-false-positive analysis — the "invalid tag" flags were enforcing the documented taxonomy, not hallucinating; recorded the curator's expand-then-enforce tag-policy decision: 30 established tags blessed into VALID_SEMANTIC, near-duplicate migration map, ~9,000-instance long tail tracked as Cleanup P20)
+**Last updated**: 2026-06-13 (added `general`-tag reverse-direction noise finding to "The tag-vocabulary contradiction" section: ~88% of tag flags in the 03301–04300 range flag `general` as "too broad"; bulk-rejected; fix tracked in Tooling Backlog item 17)
 
 ## Overview
 
@@ -261,6 +261,23 @@ reviewer not to produce them (and to restrict formality flags to unambiguous
 register contradictions), so this family should shrink in the precision data —
 `reviews/decisions.jsonl` segments by `prompt_version` via the review files if
 it doesn't.
+
+**The `general`-tag reverse-direction noise (new, 2026-06-12/13).** A
+symmetrically opposite noise family has emerged in the 03301–04300 range: the
+reviewer flags entries tagged `general` as needing more specific replacements —
+the *reverse* of the specific→broad substitution above. The 03301–03800 run
+showed a 54.6% flag rate; the 03801–04300 run showed a 50% flag rate; in both
+cases, ~88% of tag flags were of this form. `general` is a valid
+`VALID_SEMANTIC` tag and an intentional editorial choice for words that don't
+fit a narrower domain — flagging it as "too broad" is the same noise category as
+the specific→broad substitution, just pointing in the other direction. The
+standing adjudication rule (REJECT "too narrow/too broad" substitutions between
+in-list tags) covers both directions. The challenge is volume: ~180 bulk
+rejections per run dominate the adjudication workload and obscure the genuine
+catches. The fix — adding an explicit instruction "Do not flag entries tagged
+`general`, `descriptive`, `action`, or `expression` as needing a more specific
+tag; these are valid fallback tags" — is tracked in
+[Tooling Backlog](../ideas/tooling-backlog.md) → item 17.
 
 ## Implications for je-dict-1
 
