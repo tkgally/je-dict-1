@@ -1,0 +1,24 @@
+{
+  "entry_id": "11431_shikiri",
+  "headword": "{仕切|しき}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T18:29:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'housing' is too narrow for the headword's meaning, especially considering sense 2.",
+      "suggestion": "Remove 'housing' and keep 'general' or add 'action' for sense 2."
+    }
+  ]
+}

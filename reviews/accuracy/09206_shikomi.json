@@ -1,0 +1,24 @@
+{
+  "entry_id": "09206_shikomi",
+  "headword": "{仕込|しこ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T18:29:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too narrow and misleading for the headword's overall meaning, which includes 'training' in a broader sense beyond just food preparation.",
+      "suggestion": "Remove 'food'."
+    }
+  ]
+}

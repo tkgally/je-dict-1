@@ -1,0 +1,24 @@
+{
+  "entry_id": "27681_umarekawari",
+  "headword": "{生|う}まれ{変|か}わり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T18:29:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. 'rebirth' is too strong and doesn't capture the nuance of '生まれ変わり' in this context, which is more about a significant transformation or renewal rather than literal reincarnation.",
+      "suggestion": "The renovated shop became completely bright, as if it had been reborn."
+    }
+  ]
+}
