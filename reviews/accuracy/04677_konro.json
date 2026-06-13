@@ -1,0 +1,24 @@
+{
+  "entry_id": "04677_konro",
+  "headword": "コンロ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:08:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'コンロ' (stove/burner) is not inherently an electronic device. While some stoves are electric, many are gas-powered. 'Electronics' is too specific and potentially misleading.",
+      "suggestion": "Remove 'electronics' tag."
+    }
+  ]
+}

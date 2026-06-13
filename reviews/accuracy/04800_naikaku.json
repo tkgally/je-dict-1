@@ -1,0 +1,24 @@
+{
+  "entry_id": "04800_naikaku",
+  "headword": "{内閣|ないかく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:09:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'government' is not in the valid tag list.",
+      "suggestion": "politics"
+    }
+  ]
+}

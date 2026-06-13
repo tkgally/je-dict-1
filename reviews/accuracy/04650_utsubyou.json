@@ -1,0 +1,24 @@
+{
+  "entry_id": "04650_utsubyou",
+  "headword": "{鬱病|うつびょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:07:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '鬱病' (depression), which is a medical condition.",
+      "suggestion": "health"
+    }
+  ]
+}

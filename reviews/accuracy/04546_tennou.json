@@ -1,0 +1,24 @@
+{
+  "entry_id": "04546_tennou",
+  "headword": "{天皇|てんのう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:06:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and misleading for a specific title like 'Emperor'.",
+      "suggestion": "politics"
+    }
+  ]
+}

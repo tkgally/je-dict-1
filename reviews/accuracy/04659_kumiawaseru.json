@@ -1,0 +1,24 @@
+{
+  "entry_id": "04659_kumiawaseru",
+  "headword": "{組|く}み{合|あ}わせる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:07:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tags 'furniture' and 'tool' are incorrect for the headword '組み合わせる'. The word means 'to combine' or 'to put together' and is a general action, not specifically related to furniture or tools.",
+      "suggestion": "Replace 'furniture' and 'tool' with 'action' and 'general'."
+    }
+  ]
+}

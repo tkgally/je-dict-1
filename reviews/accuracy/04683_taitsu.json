@@ -1,0 +1,24 @@
+{
+  "entry_id": "04683_taitsu",
+  "headword": "タイツ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:08:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'leotards', which is incorrect. タイツ refers specifically to tights or pantyhose, not leotards.",
+      "suggestion": "Remove 'leotards' from the gloss."
+    }
+  ]
+}

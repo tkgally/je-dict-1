@@ -1,0 +1,24 @@
+{
+  "entry_id": "04429_dengen",
+  "headword": "{電源|でんげん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:04:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'power switch' is misleading. While 電源 can refer to the act of turning power on/off, or the power source itself, it doesn't typically refer to the physical switch component.",
+      "suggestion": "power on/off, turning on/off"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "04517_burausu",
+  "headword": "ブラウス",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:05:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 'ブラウス'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

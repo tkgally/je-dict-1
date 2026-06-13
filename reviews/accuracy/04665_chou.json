@@ -1,0 +1,24 @@
+{
+  "entry_id": "04665_chou",
+  "headword": "〜{長|ちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-13T13:07:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'animal-insect' is incorrect for the headword '〜長'.",
+      "suggestion": "Replace 'animal-insect' with 'person' or 'occupation'."
+    }
+  ]
+}
