@@ -53,3 +53,5 @@ _(2026-06-14 wiki (Routine v2) harvest: processed 6 observations from the two 20
 
 - [tooling] accuracy reviewer over-flags `general` semantic tag as "too broad" (~120/496 entries in 4983-5482) and suggests in-list substitutions; `general` is a valid VALID_SEMANTIC tag, so these are noise per the semantic-tag policy. Prompt could be told `general` is an accepted fallback and not to flag narrowness between in-list tags. (Routine 2026-06-14)
 - [pattern] Entries ~5000-5300 carry many genuine clearly-wrong semantic tags (body-part/communication on 柱, emotion on 箪笥, time-general on ベランダ/わさび, food on コック/ウェイター, body-part on mimetic adverbs). 26 fixed this run. Also widespread formality/politeness data errors in this range (e.g. 茶漬け politeness=honorific, 羊羹 formality=formal) left for a dedicated register-tag pass. (Routine 2026-06-14)
+
+- [pattern] formality "formal" mistakenly applied to everyday godan/ichidan compound action verbs (e.g. 06135 突き飛ばす, 06136 投げ捨てる) whose own REGISTER notes say "Neutral"; worth a check_tag_drift-style sweep over -飛ばす/-捨てる/-出す compound verbs. (seen 2026-06-14 routine polish)
