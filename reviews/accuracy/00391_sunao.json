@@ -2,50 +2,15 @@
   "entry_id": "00391_sunao",
   "headword": "{素直|すなお}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:10:03Z",
+  "reviewed_at": "2026-06-14T00:39:00Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'obedient, honest, docile' is a bit redundant with the more detailed sense glosses and doesn't fully capture the nuance of '素直' as 'uncomplicated' or 'unaffected' in some contexts, especially when referring to things or situations.",
-      "suggestion": "Consider adding 'uncomplicated' or 'unaffected' to the top-level gloss, or refining the existing terms to better reflect the breadth of meaning across both senses."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'honest, straightforward, frank' for sense 2 is good, but 'frank' can sometimes carry a connotation of bluntness or even rudeness, which isn't always present in '素直'.",
-      "suggestion": "Consider replacing 'frank' with a term like 'open' or 'sincere' to better align with the nuance of '素直' in this sense."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation 'He apologized honestly/without resistance.' is a bit clunky with the slash. While it attempts to cover both senses, it's not a natural English phrasing.",
-      "suggestion": "Split into two possible translations or choose the most likely interpretation in context. For example, 'He apologized readily.' or 'He apologized sincerely.' or 'He apologized without making excuses.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'There's a part of me that can't honestly feel happy.' is a bit awkward. 'Honestly feel happy' isn't the most natural phrasing.",
-      "suggestion": "Rephrase to something like 'There's a part of me that can't genuinely be happy.' or 'I can't bring myself to be truly happy.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'She's liked for her obedient personality.' uses 'obedient', which, while a possible meaning of 素直, can sound a bit odd when describing a general 'personality' in English, implying a lack of independent thought rather than a positive trait of being agreeable or open.",
-      "suggestion": "Consider 'She's liked for her agreeable personality.' or 'She's liked for her open and honest personality.' or 'She's liked for her straightforward personality.'"
-    }
-  ]
+  "issues": []
 }
