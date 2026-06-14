@@ -1,0 +1,24 @@
+{
+  "entry_id": "04976_houchou",
+  "headword": "{包丁|ほうちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-14T03:48:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'building' is incorrect for '包丁' (kitchen knife).",
+      "suggestion": "Replace 'building' with 'tool'."
+    }
+  ]
+}
