@@ -1,0 +1,300 @@
+{
+  "entry_id": "04989",
+  "word": "{稲妻|いなずま}",
+  "reading": "いなずま",
+  "reviewed_at": "2026-06-14T16:14:08Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 15,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "稲妻",
+      "reading": "いなずま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "稲妻",
+      "reading": "いなずま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "光",
+      "reading": "ひか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "光",
+      "reading": "ひか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "後",
+      "reading": "あと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "後",
+      "reading": "あと",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "雷",
+      "reading": "かみなり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "雷",
+      "reading": "かみなり",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鳴",
+      "reading": "な",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鳴",
+      "reading": "な",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "速",
+      "reading": "はや",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "速",
+      "reading": "はや",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "稲",
+      "reading": "いな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "稲",
+      "reading": "いな",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "妻",
+      "reading": "つま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "妻",
+      "reading": "つま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "電",
+      "reading": "いなずま",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard readings for 電 are でん (on'yomi) and いなずま is not a recognized reading for this kanji alone.",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "電",
+      "reading": "いなずま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "電光",
+      "reading": "いなずま",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 電光 is でんこう. いなずま is not a recognized reading for this compound.",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "電光",
+      "reading": "いなずま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "落雷",
+      "reading": "らくらい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "落雷",
+      "reading": "らくらい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "雷光",
+      "reading": "らいこう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "雷光",
+      "reading": "らいこう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "稲光",
+      "reading": "いなびかり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "稲光",
+      "reading": "いなびかり",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "走",
+      "reading": "はし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "走",
+      "reading": "はし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "型",
+      "reading": "がた",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "型",
+      "reading": "がた",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 15,
+    "flagged": 2,
+    "ok": 13,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "04989",
+    "screened_at": "2026-06-14T15:17:33Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for {電|いなずま} is incorrect. 電 (den) means electricity, and its reading is typically 'den' or 'inazuma' when combined with other kanji to form words like 'inazuma' (lightning). However, 'inazuma' is not a direct reading for the single kanji 電. It seems to be a misattribution of the full word's reading to a single kanji.",
+      "The reading for {電光|いなずま} is incorrect. 電光 (denkou) means 'flash of lightning' or 'electric light'. While 'inazuma' also means lightning, 'denkou' is a distinct word with its own reading. The reading 'inazuma' is not the standard reading for the compound 電光."
+    ],
+    "confidence": 0.9
+  }
+}

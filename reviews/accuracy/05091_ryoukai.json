@@ -1,0 +1,24 @@
+{
+  "entry_id": "05091_ryoukai",
+  "headword": "{了解|りょうかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-14T16:46:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for '了解'.",
+      "suggestion": "Change 'humble' to 'neutral'."
+    }
+  ]
+}

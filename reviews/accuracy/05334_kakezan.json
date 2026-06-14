@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T23:41:08Z",
+  "reviewed_at": "2026-06-14T16:49:15Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'mathematics' is not in the valid tag list.",
-      "suggestion": "science"
+      "severity": "error",
+      "concern": "The tag 'science' is too broad and misleading for a basic mathematical operation.",
+      "suggestion": "Replace 'science' with 'number' or 'cognition'."
     }
   ]
 }

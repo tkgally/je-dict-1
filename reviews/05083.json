@@ -1,0 +1,173 @@
+{
+  "entry_id": "05083",
+  "word": "{卸売|おろしうり}",
+  "reading": "おろしうり",
+  "reviewed_at": "2026-06-14T16:21:34Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 16,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "卸売",
+      "reading": "おろしうり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "野菜",
+      "reading": "やさい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "価格",
+      "reading": "かかく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "仕入",
+      "reading": "しい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "市場",
+      "reading": "しじょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "魚",
+      "reading": "さかな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "買",
+      "reading": "か",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "小売",
+      "reading": "こうり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "業",
+      "reading": "ぎょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "業者",
+      "reading": "ぎょうしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "問屋",
+      "reading": "とんや",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "卸",
+      "reading": "おろし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "卸",
+      "reading": "おろ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "売",
+      "reading": "う",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "prominent_see_also[0].headword",
+      "kanji": "卸売",
+      "reading": "おろしう",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The reading 'おろしう' only covers '卸売' up to 'う', omitting the final 'り'. The correct reading for '卸売' as a compound is 'おろしうり'.",
+      "severity": "error"
+    }
+  ],
+  "summary": {
+    "total_checked": 16,
+    "flagged": 1,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "05083",
+    "screened_at": "2026-06-14T15:27:53Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 卸売 is given as おろしう in entry 16, but the full reading for 卸売 is おろしうり. The reading should cover the kanji portion, so it should be おろしうり, not just おろしう."
+    ],
+    "confidence": 0.9
+  }
+}
