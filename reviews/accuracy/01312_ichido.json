@@ -2,13 +2,13 @@
   "entry_id": "01312_ichido",
   "headword": "{一度|いちど}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:47:16Z",
+  "reviewed_at": "2026-06-14T00:39:06Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The headword '一度' has two distinct meanings, one of which is 'one degree (temperature/angle)'. The current semantic tag 'time-general' only covers the 'once; one time' meaning. It needs an additional tag to cover the 'degree' meaning.",
-      "suggestion": "Add 'quantity' to the semantic tags."
+      "concern": "The headword has two distinct meanings, but only one semantic tag is provided. The second meaning (degree of temperature/angle) is not covered by 'time-general'.",
+      "suggestion": "Add 'science' or 'measurement' (if 'measurement' were a valid tag) to cover the second meaning. Since 'measurement' is not a valid tag, 'science' is the best fit for 'degree (temperature/angle)'."
     }
   ]
 }
