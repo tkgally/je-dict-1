@@ -2,6 +2,29 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-14] maintenance | Observation harvest (6 items), quality-metrics third refresh (46 runs)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06129`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 6 observations from the two 2026-06-14 Routine runs (polish 06121–06128 + low-ID priority lanes; accuracy-review 4801–4982):
+  - `[pattern]` semantic tag errors in the 06121–06128 cultural-vocabulary cohort (hibachi `clothing`→`daily-life`, kouden `time-general`→`culture`, souryou `communication`→`shopping`) → **Cleanup Backlog P11 update 2026-06-14**.
+  - `[pattern]` zero inline links across all eight 06121–06128 nouns → **Cleanup Backlog P21 update 2026-06-14** (noun-cohort counterpart of the compound-verb gap; range reaches 06120s).
+  - `[pattern]` low-ID priority-lane defects: **furigana inside inline-link base forms** (`⟦花→{花|はな}：⟧` should be `⟦花→花：⟧`, breaks `word_id_lookup.json` matching) + missing particle/function-word links → documented as a new malformation sub-pattern under **P21** with a proposed detector (scan for `→` followed by `{` inside `⟦...⟧`).
+  - `[tooling]` `review_accuracy.py` tag over-flag now at **error** severity (73 error-level tag flags in 4801–4982, only 13 genuine) → **Tooling Backlog item 17 update 2026-06-14**, proposing a severity rule (a more-specific in-list tag existing is never an `error`) on top of the existing fallback-tag exception.
+  - `[entry]` 06127_kouden references 不祝儀袋 (noentry) → added as **candidate C21925** (always-on capture).
+  - `[pattern]` furigana screening 0% precision on the already-polished 4801–4982 range → consistent with documented calibration note; no new wiki page.
+  - Cleared all six from `polishing/observations.md`.
+- [H] Metrics-trend third refresh of `topics/quality-metrics.md` (12 new runs → 46 total, 2,733 adjudicated flags). Added 2026-06-12 continuation, 2026-06-13, and 2026-06-14 run tables; recomputed all-time precision (normalising the ledger's mixed legacy schemas). **Headline finding: the `tags` apply rate collapsed from 61.5% (runs 19–34) to 8.2% (runs 35–46), confirming Finding §1's prediction that the dimension reverts to low yield once the P20 migration drains — the residual is now `general`-noise.** Updated Findings §1 (prediction confirmed), §2 (self-check 49.3% all-time, now clearly the top instrument), §3 (sweep 27.2%, fell from 36.9%), §5 (queue −3,190 from peak), §6 (spend trending down), §7 (new `dimension`/`verdict` legacy-schema note), §8 (now-confirmed, error-severity escalation), and the Implications section. The wrong-direction metric (rising tag-flag noise) is already tracked by Tooling Backlog item 17, so no duplicate `[pattern]` observation was logged.
+- [A] Stats sync: `project/overview.md` general-tier parenthetical ~26,210 → ~26,230 (actual 26,228); prose totals (over 29,000 entries / 114,000 examples / 16,400 cross-refs) still accurate. Date bumped.
+- [E] Updated `index.md` "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed; wiki/markdown only).
+**Metrics**: Appended wiki run line (47 lines total in metrics-history.jsonl).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-14 Routine runs so far. `backlog-queue.json` unchanged (P11/P21/item-17 were updates, no readiness change).
+
 ## [2026-06-13] maintenance | Observation harvest (4 items), stats sync, schema-tag-reliability deepened
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

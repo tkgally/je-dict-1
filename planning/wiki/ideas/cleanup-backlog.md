@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-13 (P11 update 2026-06-13: tag errors in 06100s — `transportation` on 06107_junshu, `general`-instead-of-specific on 06101/06106)
+**Last updated**: 2026-06-14 (P11 update: tag errors in 06121–06128 cultural cohort; P21 update: inline-link absence reaches 06120s + new furigana-in-link-base-form malformation sub-pattern)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -298,6 +298,8 @@ The confirmed range now extends from the 01490s through at least the 05559. The 
 
 **Update 2026-06-13**: Comprehensive-polish session 008 (entries 06101–06110) found three more instances in the 06100s: 06107_junshu (遵守, compliance/observance) had `semantic: ["transportation"]` — corrected to `["action"]` (same wrong-specific-tag pattern as the rest of P11); 06101_hakumai (白米) had `semantic: ["general"]` instead of `["food"]`; 06106_katsuo (鰹, bonito) had `semantic: ["general"]` instead of `["animal-fish"]`. Note that the food/ingredient instances are the P13 under-specification pattern (correct fallback applied where a specific tag was available), while 06107 is the classic P11 wrong-specific-tag error. The contaminated range now extends at least to the 06100s. These are a different creation cohort than the 2026-04-14 claude-opus-4-5 batch that dominates the 01490–06100 range.
 
+**Update 2026-06-14**: Comprehensive-polish session (frontier entries 06121–06128, all cultural-vocabulary nouns) found three more wrong-tag instances in this cohort: 06121_hibachi (火鉢) had `clothing` (→ `daily-life`), 06127_kouden (香典) had `time-general` (→ `culture`), and souryou (送料, shipping charge) had `communication` (→ `shopping`). Same example-topic-contamination signature as the rest of P11, now confirmed at the 06120s frontier. The session recommended a semantic-tag audit of the whole 2026-early cultural-vocabulary cohort (roughly 06100–06130), since the errors cluster tightly by creation batch rather than by word meaning.
+
 **Update 2026-06-12**: Comprehensive-polish session (entries 06048–06067) confirmed a **compound-verb / suru-verb sub-pattern** at the leading edge of the contaminated batch: compound verbs and suru verbs were systematically assigned object-category tags (electronics, clothing, tool, furniture, animal-mammal, occupation, body-part) instead of the action/cognition/communication/emotion tags appropriate for their meanings. Confirmed instances: 06051 clothing→movement, 06052 [food,leisure,tool]→action, 06053 [communication,furniture]→cognition, 06055 electronics→emotion, 06056 electronics→communication, 06058 animal-mammal→communication, 06060 electronics→cognition, 06062 occupation→cognition, 06066 action→emotion, 06067 action→emotion. Root cause: original AI generation applied topic-domain tags based on example sentence context rather than the verb's own semantic domain. The `check_tag_drift.py` unknown-semantic detector (P20) will flag the out-of-vocabulary cases; the correct-vocabulary-but-wrong-category cases (e.g. "action" on a cognition verb) are not detectable mechanically and require the accuracy-review `tags` pass or per-entry polishing. The 06000 range likely holds further instances of this sub-pattern.
 
 ## Priority 12: Dual-reading furigana with slash separators
@@ -514,6 +516,21 @@ processing.
 (the 2026-03 through 2026-04 creation cohort). The tooling-backlog item 15
 (`check_artifacts.py` lint rule for unlinked 自動詞/他動詞) would establish the
 exact count.
+
+**Update 2026-06-14**: The 06121–06128 frontier polish session confirmed the
+general inline-link absence reaches the 06120s — all eight cultural-vocabulary
+nouns (火鉢, 掛軸, 手拭い, 硯, お中元, お歳暮, 香典, 送料) had **zero** `⟦...⟧` links in
+both examples and notes. This is the noun-cohort counterpart of the compound-verb
+gap above (same pre-inline-link-polishing creation batch). The same session also
+surfaced a distinct **malformed-link sub-pattern** in the low-ID priority-lane
+entries it polished (00391, 00717, 01312, 00908, 00478, 00964): inline-link **base
+forms carry leftover furigana** — e.g. `⟦花→{花|はな}：xxxxx⟧` where the base after
+the arrow should be bare kanji (`⟦花→花：xxxxx⟧`). Furigana belongs only on the
+*surface* form before the arrow; a base form with `{...|...}` braces will not match
+the `word_id_lookup.json` key and breaks the lookup. This is a different defect
+class from the P9 furigana-wrapper anomalies (it is in the link *target* segment,
+not the furigana wrapper) and would be cheap for a detector to catch: scan for
+`→` followed by `{` inside a `⟦...⟧` span.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry
