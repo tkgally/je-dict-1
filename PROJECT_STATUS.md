@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-14 (Routine v2: new-entries — 17 New Entries, IDs 29241–29257)
+Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-picked standalone words. The candidate pool's oldest band is largely corpus-harvest noise (numbers, compositional phrases, dubious glosses), so picks were curated for genuine dictionary-worthiness. Added 水引 (decorative gift cords) as a candidate from entry 29243's example.
+
+- **Seen-in-entry (6)**: {和柄|わがら} (traditional Japanese pattern), {配送料|はいそうりょう} (delivery fee), {不祝儀袋|ふしゅうぎぶくろ} (condolence-money envelope), フォーム (form/posture; web form — 2 senses), {解約金|かいやくきん} (cancellation fee), {自発|じはつ} (spontaneity)
+- **Real estate/building (3)**: {鉄骨造|てっこつぞう} (steel-frame construction), {事務棟|じむとう} (office building/wing), {内装材|ないそうざい} (interior finishing material)
+- **Daily life/objects (4)**: {現在時刻|げんざいじこく} (current time), パンティーストッキング (pantyhose), {印刷用紙|いんさつようし} (printer paper), {時限式|じげんしき} (time-delayed type)
+- **Other (4)**: {工業革命|こうぎょうかくめい} (Industrial Revolution), {光学|こうがく}ディスク (optical disc), {右車線|みぎしゃせん} (right lane), {栄養教育|えいようきょういく} (nutrition education)
+
+§4 self-check: 2 flagged, both REJECTED (フォーム 'technology' tag valid for web-form sense; 印刷用紙 'tool' tag consistent with ノート precedent). $0.0074.
+
 ### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29221–29240)
 Added 20 new entries (IDs 29221–29240): 2 seen-in-entry gaps plus 18 regular candidates. Removed 3 stale candidates (すぎる, ような, ノマドワーカー already in dictionary).
 
@@ -113,18 +123,5 @@ Added 18 new entries (IDs 29163–29180) from candidates, prioritizing 2 seen-in
 - **Nouns (2)**: {学究|がっきゅう}{肌|はだ} (scholarly temperament), {中産|ちゅうさん}{階級|かいきゅう} (middle class)
 
 §4 self-check: 2 applied (29165 formality formal→neutral, semantic greeting→expression; 29172 semantic greeting→person, politeness humble→honorific), 0 rejected, 0 flagged.
-
-### 2026-06-11 (Routine v2: new-entries — 20 New Entries + self-verification gate, IDs 29143–29162)
-Added 20 new entries (IDs 29143–29162) from candidates.
-
-- **Grammar particle (1)**: って (casual quotation/hearsay/topic, 3 senses)
-- **Grammar expressions (2)**: みたいだ (seems like; comparison), につきまして (formal "regarding")
-- **Kansai dialect (3)**: そうや (that's right), そやね (yeah right), ええなあ (nice/lucky you)
-- **Cultural / literary (2)**: 七五調 (7-5 syllabic meter), 六曜 (six-day calendar cycle)
-- **Everyday objects (3)**: 生理用ナプキン (sanitary napkin), 除毛クリーム (hair removal cream), ミシン目 (perforation)
-- **Social / legal (2)**: 風俗店 (adult entertainment establishment), 有期懲役 (fixed-term imprisonment)
-- **Misc nouns / expressions (5)**: 力ずく (brute force), 砂ぼこり (swirling dust), 利用規約 (terms of service), 湯炊き (boil-and-drain cooking), 口先三寸 (smooth talk), 読み済み (already read), すっとんと (with a thud)
-
-§4 self-check: 2 applied (29149 `grammatical`→`communication` tag; 29154 "clink"→"thud" translation), 1 rejected (29159 communication tag adequate). Post-creation fixes: 5 entries had invalid "colloquial" formality tag → changed to "informal"; 1 entry had invalid underscore in romaji ID → renamed; 9 entries had missing furigana → fixed.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
