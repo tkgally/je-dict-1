@@ -1,0 +1,24 @@
+{
+  "entry_id": "06136_nagesuteru",
+  "headword": "{投|な}げ{捨|す}てる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-14T18:31:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. '投げ捨てる' is a common verb used in everyday conversation and writing, not typically reserved for formal contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

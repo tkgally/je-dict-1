@@ -184,10 +184,18 @@
     }
   ],
   "notes": "{痛|いた}み is the noun form of ⟦{痛|いた}い→痛い：01108_itai⟧ (painful). It covers physical pain, emotional suffering, and material damage/deterioration.\n\nPHYSICAL PAIN PATTERNS:\n- {痛|いた}み⟦を→を：00422_wo⟧⟦{感|かん}じる→感じる：02044_kanjiru⟧: to feel pain\n- {痛|いた}み⟦が→が：00051_ga⟧⟦{走|はし}る→走る：00519_hashiru⟧: a sharp pain runs through\n- {痛|いた}み⟦が→が：00051_ga⟧⟦{引|ひ}く→引く：01978_hiku⟧: pain subsides\n- {痛|いた}み⟦を→を：00422_wo⟧⟦{和|やわ}らげる→和らげる：07897_yawarageru⟧: to ease the pain\n- {痛|いた}み⟦を→を：00422_wo⟧⟦{伴|ともな}う→伴う：10389_tomonau⟧: accompanied by pain\n\nEMOTIONAL PAIN:\n- ⟦{心|こころ}→心：01321_kokoro⟧⟦の→の：09472_no⟧{痛|いた}み: heartache\n- {痛|いた}み⟦を→を：00422_wo⟧⟦{分|わ}かち{合|あ}う→分かち合う：18203_wakachiau⟧: to share someone's pain\n\nDAMAGE/SPOILAGE:\n- {痛|いた}み⟦が→が：00051_ga⟧⟦{早|はや}い→早い：00514_hayai⟧: spoils quickly\n- {痛|いた}み⟦やすい→やすい：18367_yasui⟧: perishable, easily damaged",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "いたい",
+      "headword": "{痛|いた}い",
+      "label": "painful, sore (adjective)",
+      "target_id": "01108_itai"
+    }
+  ],
   "metadata": {
     "created": "2026-01-09T12:15:00Z",
-    "modified": "2026-05-16T23:20:17Z",
+    "modified": "2026-06-14T18:20:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -197,6 +205,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
+        "health",
         "emotion"
       ]
     }
