@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-13 (item 17 update: same `general`-tag false-positive noise confirmed in 03801–04300 range)
+**Last updated**: 2026-06-14 (item 17 update: `general`-tag narrowness nits now emitted at error severity in 4801–4982 run; proposed severity rule for the prompt)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -372,6 +372,22 @@ accuracy-review run: 246/492 entries (50%) flagged, with 252 tag flags of which 
 false-positive rate for screening vs. ~88% for the tags dimension on this range). The
 proposed prompt fix remains unimplemented; the noise family is now confirmed across the
 03301–04300 range (two consecutive 500-entry runs, consistent ~50% flag rates).
+
+**Update 2026-06-14**: The 4801–4982 accuracy-review run shows the noise now appears at
+**error severity**, not just warn: 73 error-severity tag flags across 182 entries (42%
+of entries), but only 13 were genuine wrong-category AI-artifact mis-tags (`body-part`
+on 手当, `geography` on 容量/発信, `animal-mammal` on 焼き物/まな板, `leisure` on 反応/合唱)
+plus 1 not-in-list (`economy`→`finance`). The other ~60 were the same "`general` is too
+broad, use plant-tree/finance/food/society" in-list narrowness nits — but emitted as
+`error`, which defeats the existing "work every error-severity flag individually" triage
+rule (it forces full per-item adjudication on what is known noise). This sharpens the
+fix: the prompt needs not only the fallback-tag exception already proposed, but an
+explicit **severity rule** — "a more-specific in-list tag existing is never an `error`;
+reserve `error` for tags whose domain is factually wrong for the headword." Estimated to
+cut tag-flag volume ~80% and, more importantly, restore the error/warn severity split as
+a usable triage signal. Furigana screening over this already-polished range was again 0%
+precision (all 9 screening + deep flags were rendaku/compound-onyomi false positives),
+consistent with the documented note.
 
 ## Related pages
 
