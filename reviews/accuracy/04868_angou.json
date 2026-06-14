@@ -1,0 +1,31 @@
+{
+  "entry_id": "04868_angou",
+  "headword": "{暗号|あんごう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-14T03:47:09Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss 'encryption' is too narrow and misleading as the primary meaning. 暗号 (angou) primarily means 'code' or 'cipher', which can then be used for encryption.",
+      "suggestion": "Change to 'code, cipher'"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a more specific technical meaning.",
+      "suggestion": "Change to 'technology' or 'communication'"
+    }
+  ]
+}

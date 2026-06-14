@@ -1,0 +1,24 @@
+{
+  "entry_id": "04887_youryou",
+  "headword": "{容量|ようりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-14T03:47:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for '容量' (capacity/volume).",
+      "suggestion": "Replace 'geography' with 'quantity' or 'technology' (given the examples)."
+    }
+  ]
+}
