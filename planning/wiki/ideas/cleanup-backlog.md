@@ -455,6 +455,20 @@ each bad example with a genuine example of the headword (full inline links), or
 delete it when the entry has examples to spare; skip legitimate kana-orthography
 cases. Queued as `example-headword-missing` in `backlog-queue.json`.
 
+**Status 2026-06-14 (clean-entry frontier exhausted, `batch_ready` → false)**:
+The 2026-06-14 routine run adjudicated all 31 then-flagged entries (53 examples)
+and found only **one** genuine fix (00472-style verb-form misparse): 22875 出回り
+had a verb example (出回る) replaced with the noun collocation 出回りの時期. Every
+other flagged entry is now either (a) U+FFFD-corrupted, which the detector
+mis-flags because the kanji headword is mojibake — these are owned by
+**tooling-backlog #16** (the replacement-character repair pass), or (b) a
+legitimate detector false positive: kana/katakana orthography of the headword
+(ごちそう, おむすび, ヤギ, シミ, カツオ, カキ, しわ寄せ), documented compound forms
+(退職届/婚姻届 in 届け), the radical sense (うかんむり in 冠), or a ～-prefix headword
+(〜時) whose plain-kanji examples the matcher can't bind. So `batch_ready` is set
+false: genuine cases now hiding behind mojibake will re-surface for this lane only
+after tooling-backlog #16 repairs the corrupted text.
+
 ## Priority 20: Out-of-taxonomy semantic tags (post-expansion migration)
 
 **Source**: Curator tag-policy decision 2026-06-11 (see
