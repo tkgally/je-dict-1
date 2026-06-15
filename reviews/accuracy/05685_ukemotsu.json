@@ -1,0 +1,24 @@
+{
+  "entry_id": "05685_ukemotsu",
+  "headword": "{受|う}け{持|も}つ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-15T18:47:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. '受け持つ' is a neutral verb commonly used in everyday and professional contexts without conveying a sense of formality.",
+      "suggestion": "neutral"
+    }
+  ]
+}
