@@ -81,6 +81,52 @@ def load_schema(schema_path: Path) -> dict:
         return json.load(f)
 
 
+# --- U+FFFD mojibake guard -------------------------------------------------
+# Hard regression guard against the 2026-06 batch-creation corruption episode
+# (see build/check_mojibake.py and planning/wiki/ideas/tooling-backlog.md #16).
+# Any entry whose text carries a U+FFFD replacement character is a hard error so
+# CI rejects reintroduction of the corruption. MOJIBAKE_ALLOWLIST holds entry IDs
+# that are knowingly, temporarily exempt (e.g. a handful escalated to the curator
+# because their original character was genuinely unrecoverable). Keep it empty
+# whenever possible.
+REPLACEMENT_CHAR = '�'
+MOJIBAKE_ALLOWLIST: set[str] = set()
+
+
+def _walk_strings(obj, prefix=""):
+    """Yield (field_path, string) for every string value in a nested structure."""
+    if isinstance(obj, str):
+        yield prefix or "(root)", obj
+    elif isinstance(obj, dict):
+        for k, v in obj.items():
+            child = f"{prefix}.{k}" if prefix else str(k)
+            yield from _walk_strings(v, child)
+    elif isinstance(obj, list):
+        for i, v in enumerate(obj):
+            yield from _walk_strings(v, f"{prefix}[{i}]")
+
+
+def find_mojibake_errors(entry: dict) -> list[str]:
+    """Return an error per field containing a U+FFFD replacement character.
+
+    Returns [] for allow-listed entry IDs so the guard can stay green while a
+    small number of genuinely-ambiguous corruptions await curator review.
+    """
+    if not isinstance(entry, dict):
+        return []
+    if entry.get('id') in MOJIBAKE_ALLOWLIST:
+        return []
+    errors = []
+    for field_path, text in _walk_strings(entry):
+        if REPLACEMENT_CHAR in text:
+            count = text.count(REPLACEMENT_CHAR)
+            errors.append(
+                f"U+FFFD mojibake: {count} replacement char(s) in field '{field_path}' "
+                f"(corrupted text — reconstruct via build/check_mojibake.py)"
+            )
+    return errors
+
+
 def validate_cross_ref_types_sync(schema: dict) -> list[str]:
     """
     Validate that CROSS_REF_TYPES in constants.py matches the enum in schema.json.
@@ -149,6 +195,11 @@ def validate_entry_file(file_path: Path, schema: dict, all_ids: set, validator: 
             entry = json.load(f)
     except json.JSONDecodeError as e:
         return [f"Invalid JSON: {e}"], None
+
+    # Hard guard: reject any U+FFFD mojibake corruption. Checked before schema
+    # validation so the corruption is always reported, even if the entry also
+    # has an unrelated schema error.
+    errors.extend(find_mojibake_errors(entry))
 
     # Validate against schema - reuse validator if provided
     if validator is None:
