@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-14 (item 17 update: `general`-tag narrowness nits now emitted at error severity in 4801–4982 run; proposed severity rule for the prompt)
+**Last updated**: 2026-06-15 (item 17 update: `general`-noise confirmed continuous across 03301–05482; new items 18 check_example_headword false-positive reduction, 19 stale-`noentry` link detector, 20 notes-priority ranking staleness filter)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -395,6 +395,91 @@ cut tag-flag volume ~80% and, more importantly, restore the error/warn severity 
 a usable triage signal. Furigana screening over this already-polished range was again 0%
 precision (all 9 screening + deep flags were rendaku/compound-onyomi false positives),
 consistent with the documented note.
+
+**Update 2026-06-15**: Two more accuracy-review runs confirm the `general`-noise family
+is now the steady-state dominant cost on already-polished mid-ID ranges:
+- **4301–4800**: 44% flag rate (221/500). Breakdown: "`general` too broad" (71, all
+  in-list nits), formality tags (27), misc narrowness (95). Genuine errors were
+  animal-taxonomy mismatches (`animal-fish` for squid/octopus/crab, `animal-insect`
+  for frog and 〜長), wrong-category (`geography`/`time-general` for 発電; `economy` for
+  損得), and factual gloss errors (recyclable for 再生可能, leotards for タイツ,
+  rolling-vs-lying for 寝転ぶ). Applied 18, rejected 211.
+- **4983–5482**: ~120/496 entries flagged on the same `general`-too-broad family with
+  in-list substitution suggestions.
+Across both runs the genuine-error rate sits at ~4–8% of flags while the `general`/
+narrowness noise dominates adjudication, exactly the profile the proposed prompt fix
+(fallback-tag exception + severity rule) targets. The fix remains unimplemented; the
+noise is now confirmed continuous across the 03301–05482 band.
+
+## 18. check_example_headword.py false-positive reduction
+
+**Source**: 2026-06-14/15 routine runs (example-headword-missing systemic-fix lane)
+
+Once the clean-entry frontier is exhausted (P19 `batch_ready: false`), the
+`build/check_example_headword.py` queue is dominated by detector false positives rather
+than genuine cases. Two families:
+
+1. **U+FFFD-corrupted entries** — the kanji headword was mojibake, so it could never
+   match its examples. **Now moot**: tooling-backlog item 16 shipped (`check_mojibake.py`
+   + a one-time repair to zero U+FFFD), so these no longer pollute the queue, but the
+   detector should still defensively skip any entry containing U+FFFD.
+2. **Legitimate orthographic false positives** — kana/katakana orthography of the
+   headword (ごちそう for ご馳走, ヤギ, シミ, カツオ, カキ, しわ寄せ), documented compound
+   forms (退職届/婚姻届 in 届け), the radical sense (うかんむり in 冠), and ～-prefix
+   headwords (〜時) whose plain-kanji examples the matcher can't bind.
+
+**Suggested fix**: Teach the detector to (a) skip entries containing U+FFFD, (b) strip a
+leading ～/〜 from the headword before matching, and (c) treat katakana of the reading as
+a headword match for animal/seafood/loanword nouns. Estimated to cut the residual queue
+from ~31 entries to near zero, which would let the P19 lane re-open to find genuine
+verb-form-misparse cases (the 00472 仕様 / 22875 出回り class) without manual de-noising.
+
+## 19. Stale-`noentry` inline-link detector
+
+**Source**: 2026-06-14/15 routine runs (multiple stale-`noentry` sightings)
+
+Inline links written as `⟦surface→base：noentry⟧` are correct at creation time when no
+entry exists, but they become stale once an entry is later created for that word — the
+link silently stays `noentry` instead of pointing at the now-existing ID. Confirmed
+stale cases this week:
+- 00012_batsu notes mark バツニ as `noentry`, but 27329_batsuni now exists.
+- 05528/05530 had `⟦潰える…：noentry⟧` / `⟦大志…：noentry⟧`, but 28923_tsuieru and
+  28925_taishi now exist.
+- (Earlier: 05501_shashinka カメラマン→`noentry`, now 28387_kameraman — Entry Follow-ups.)
+
+**Detection approach**: For every `⟦…：noentry⟧` span, extract the base form and look it
+up in `build/word_id_lookup.json` (`by_headword` and `by_reading`). If a unique entry
+exists, the marker is stale and should be re-resolved to that ID. This is a cheap,
+fully-mechanical, self-healing scan — a strong systemic-fix candidate because the fix
+(swap `noentry` for the resolved ID) is deterministic and low-risk where the lookup is
+unambiguous.
+
+**Suggested implementation**: A new `build/check_noentry_links.py` (read-only `--json`
+review queue) sibling to `check_inline_links.py` (proposed in item 11), emitting
+`{entry_id, field, surface, base, resolved_id}` for each stale marker. Ambiguous lookups
+(multiple candidate IDs for one reading) go to the queue for per-entry judgment rather
+than auto-resolution.
+
+## 20. Notes-priority ranking excludes recently-polished / structurally-passing entries
+
+**Source**: 2026-06-14 routine polish session 004 (priority "notes" lane)
+
+The `prioritize_polishing.py` "notes" ranking surfaced high-frequency basic/core
+adjectives (00469_matsu, 00039_erai, 01112_tsurai, 01133_kusai, 00585_akai) that came
+back **already fully polished** — complete inline links, valid in-list tags,
+well-structured notes. 5 of 7 priority entries needed no changes, which forced a
+mid-run priority regeneration + cursor reset. The notes-quality ranking appears to go
+stale for long-settled entries: a once-thin note that has since been expanded still
+ranks high because the score isn't recomputed against the current text, or the score
+threshold admits notes that are already adequate.
+
+**Suggested fix**: Exclude from the notes priority ranking any entry whose `modified`
+date is recent (e.g. within 30 days) **or** whose note already passes a structural
+adequacy threshold (has the expected sections / minimum length / link density), so the
+lane targets genuinely thin notes instead of re-surfacing settled ones. The Routine's
+polish mode already regenerates + resets when >half the priority-lane entries need no
+changes (routine2.md §2), but that is a reactive backstop; filtering at ranking time
+would stop wasting the priority lane's budget on no-op entries in the first place.
 
 ## Related pages
 

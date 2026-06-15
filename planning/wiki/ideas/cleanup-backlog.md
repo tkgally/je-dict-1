@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-14 (P11 update: tag errors in 06121–06128 cultural cohort; P21 update: inline-link absence reaches 06120s + new furigana-in-link-base-form malformation sub-pattern)
+**Last updated**: 2026-06-15 (P11 update: frontier 06129–06149 tag errors + 05000–05300 pocket; P17 update: `formal` over-applied to 06xxx compound verbs + 05000–05300 register pocket; P21 update: inline-link absence reaches 06140s + new hiragana-base-form orthography sub-pattern)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -300,6 +300,13 @@ The confirmed range now extends from the 01490s through at least the 05559. The 
 
 **Update 2026-06-14**: Comprehensive-polish session (frontier entries 06121–06128, all cultural-vocabulary nouns) found three more wrong-tag instances in this cohort: 06121_hibachi (火鉢) had `clothing` (→ `daily-life`), 06127_kouden (香典) had `time-general` (→ `culture`), and souryou (送料, shipping charge) had `communication` (→ `shopping`). Same example-topic-contamination signature as the rest of P11, now confirmed at the 06120s frontier. The session recommended a semantic-tag audit of the whole 2026-early cultural-vocabulary cohort (roughly 06100–06130), since the errors cluster tightly by creation batch rather than by word meaning.
 
+**Update 2026-06-15**: Three more Routine runs confirmed the pattern persists at the comprehensive-polish frontier and re-confirmed a dense pocket in the 05000–05300 range:
+- **Frontier 06129–06132** (consumer/business suru-noun cohort): 06129_kaiyaku had `geography,work` (→ business), 06130_henkin had `action` (→ money). Zero inline links plus template-default tags — same signature as the 06121–06128 cohort.
+- **Frontier 06137–06149** (idioms / proverbs / yojijukugo): inaccurate default tags — 06139 `body-part` (→ movement), 06140 `occupation` (→ proverb), 06142 `communication`/`furniture` (→ proverb). A targeted tag-drift + inline-link pass over 06140–06170 would clean a coherent block.
+- **05000–05300 pocket** (polish session): many genuine clearly-wrong tags fixed (26 in one run) — `body-part`/`communication` on 柱, `emotion` on 箪笥, `time-general` on ベランダ/わさび, `food` on コック/ウェイター, `body-part` on mimetic adverbs. This range also carries widespread **formality/politeness** data errors (茶漬け `politeness: honorific`, 羊羹 `formality: formal`) left for a dedicated register-tag pass — see P17.
+
+The contaminated frontier now tracks to the 06140s; the 05000–05300 pocket shows the same 2026-04-14-batch signature as the rest of P11.
+
 **Update 2026-06-12**: Comprehensive-polish session (entries 06048–06067) confirmed a **compound-verb / suru-verb sub-pattern** at the leading edge of the contaminated batch: compound verbs and suru verbs were systematically assigned object-category tags (electronics, clothing, tool, furniture, animal-mammal, occupation, body-part) instead of the action/cognition/communication/emotion tags appropriate for their meanings. Confirmed instances: 06051 clothing→movement, 06052 [food,leisure,tool]→action, 06053 [communication,furniture]→cognition, 06055 electronics→emotion, 06056 electronics→communication, 06058 animal-mammal→communication, 06060 electronics→cognition, 06062 occupation→cognition, 06066 action→emotion, 06067 action→emotion. Root cause: original AI generation applied topic-domain tags based on example sentence context rather than the verb's own semantic domain. The `check_tag_drift.py` unknown-semantic detector (P20) will flag the out-of-vocabulary cases; the correct-vocabulary-but-wrong-category cases (e.g. "action" on a cognition verb) are not detectable mechanically and require the accuracy-review `tags` pass or per-entry polishing. The 06000 range likely holds further instances of this sub-pattern.
 
 ## Priority 12: Dual-reading furigana with slash separators
@@ -389,6 +396,10 @@ for p in sorted(glob.glob('entries/0000*/*.json') + glob.glob('entries/0050*/*.j
 **Suggested action**: Review all `formality: "formal"` entries in the 00001–00500 range and change to `"neutral"` where the word is used in everyday/neutral contexts. Requires semantic judgment, not a mechanical sweep — "formal" is genuinely correct for a small subset (legal terms, bureaucratic vocabulary). The accuracy-review mode is well-suited to this pass, since the cross-model signal helps distinguish genuinely formal vocabulary from over-tagged neutrals.
 
 **Update 2026-06-10**: Cross-model accuracy-review session 002 (entries 00201–00450) extended the confirmed range. More neutral words tagged `formal`: 清い, なお, 年月, 日時, 稀. The pattern now spans at least 00016–00450, consistent with "early batch creation defaulted to formal for anything not obviously colloquial." The accuracy-review mode is fixing these as it advances through the low-ID range.
+
+**Update 2026-06-15 (the pattern is not just low-ID)**: Two 2026-06-15 polish runs found `formality: "formal"` over-applied well beyond the early-entry range:
+- **Everyday compound action verbs at the frontier**: 06135 突き飛ばす, 06136 投げ捨てる carry `formal` even though their own REGISTER notes say "Neutral." This is a distinct cohort from the early-batch low-ID entries — it suggests the `formal` default also contaminated the 06xxx compound-verb creation batch. Worth a `check_tag_drift`-style sweep over -飛ばす/-捨てる/-出す compound verbs (the contradiction between a `formal` tag and a "Neutral" REGISTER note is mechanically detectable).
+- **05000–05300 register pocket**: widespread formality/politeness errors (茶漬け `politeness: honorific`, 羊羹 `formality: formal`) noted but left for a dedicated register-tag pass (see P11 Update 2026-06-15). The mechanically-detectable slice (tag contradicts the entry's own REGISTER note) is the natural systemic-fix candidate; the rest needs semantic review.
 
 ## Priority 18: "descriptive" semantic tag over-applied as a catch-all
 
@@ -545,6 +556,19 @@ the `word_id_lookup.json` key and breaks the lookup. This is a different defect
 class from the P9 furigana-wrapper anomalies (it is in the link *target* segment,
 not the furigana wrapper) and would be cheap for a detector to catch: scan for
 `→` followed by `{` inside a `⟦...⟧` span.
+
+**Update 2026-06-15**: The general inline-link absence continues to track the
+comprehensive-polish frontier — the 06129–06132 consumer/business suru-noun cohort
+and the 06137–06149 idiom/proverb/yojijukugo cohort both had **zero** `⟦...⟧` links
+in examples and notes (same pre-inline-link-polishing creation batch). A new
+**base-form orthography sub-pattern** also surfaced: entries created by
+**claude-opus-4-6** (e.g. 00740 oishii) use the **hiragana reading** as the inline-link
+base form (`⟦魚→さかな：xxxxx⟧`) instead of the kanji headword (`⟦魚→魚：xxxxx⟧`). Unlike
+the furigana-in-base-form malformation above, this one is **cosmetic only** — the
+links still resolve via `word_id_lookup.json` (which keys on both readings and
+headwords) — but it is inconsistent with the kanji-base convention and a detector
+could normalise it (scan for a `→` followed by all-hiragana before `：` where the
+surface form contains kanji).
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

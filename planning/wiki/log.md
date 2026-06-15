@@ -2,6 +2,32 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-15] maintenance | Observation harvest (15 items), 3 new Tooling Backlog items, stats sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06143`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed 15 observations — the orphaned 4301-4800 accuracy-review note, all of 2026-06-14 routine polish session 004, and the two 2026-06-15 routine polish runs:
+  - `[pattern]` frontier tag errors (06129–06132 + 06137–06149) and a 05000–05300 wrong-tag pocket (26 fixed) → **Cleanup Backlog P11 update 2026-06-15**.
+  - `[pattern]` `formal` over-applied to everyday 06xxx compound action verbs (06135/06136 contradicting their own "Neutral" REGISTER notes) + 05000–05300 register pocket → **Cleanup Backlog P17 update 2026-06-15**, noting the mechanically-detectable slice (tag contradicts REGISTER note).
+  - `[pattern]` zero inline links across the 06129–06149 cohorts + a new **hiragana-base-form** inline-link orthography sub-pattern (claude-opus-4-6 entries) → **Cleanup Backlog P21 update 2026-06-15**.
+  - `[tooling]` `general`-tag noise on 4301-4800 (44%) and 4983-5482 (~120 flags) → **Tooling Backlog item 17 update** (noise now confirmed continuous across 03301–05482).
+  - `[tooling]` check_example_headword.py false-positive families → **new Tooling Backlog item 18**.
+  - `[tooling]`/`[entry]` stale-`noentry` markers (00012_batsu→27329, 05528/05530→28923/28925) → **new Tooling Backlog item 19** (deterministic self-healing detector against word_id_lookup.json).
+  - `[pattern]` notes-priority lane re-surfacing already-polished entries (5 of 7 no-ops) → **new Tooling Backlog item 20** (ranking-time staleness filter).
+  - `[entry]` 06131_toiawase noun-headword-vs-verb-lemma mismatch → **Entry Follow-ups**.
+  - **Cleared 2 mojibake observations as already RESOLVED**: Tooling Backlog item 16 shipped 2026-06-15 (`build/check_mojibake.py` + a sweep to zero U+FFFD + a validate.py guard); verified 0 U+FFFD remaining this session.
+  - Cleared all 15 from `polishing/observations.md`.
+- [A] Stats sync: `project/overview.md` general-tier parenthetical ~26,230 → ~26,240 (actual general ≈ 26,240 of 29,058 total; basic 801). Prose totals (over 29,000 / 114,000 / 16,400) still accurate. Date bumped.
+- [E] Updated `index.md` "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed; wiki/markdown only).
+**Metrics-trend activity (H)**: Not triggered — 8 new metrics lines since the last quality-metrics.md refresh (threshold ≥10).
+**Metrics**: Appended wiki run line (56 lines total in metrics-history.jsonl).
+**Next cursor**: `observations.md` fully cleared through all 2026-06-15 Routine runs so far. `backlog-queue.json` unchanged (all harvest items were prose-page updates or new tooling items without detectors yet; none changed batch-readiness).
+
 ## [2026-06-14] maintenance | Observation harvest (6 items), quality-metrics third refresh (46 runs)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

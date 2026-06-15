@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-13 (added 06109_karorii)
+**Last updated**: 2026-06-15 (added 06131_toiawase noun-vs-verb-lemma restructure)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -502,6 +502,23 @@ inline-link wrappers added to content words in its examples and notes.
 **Recommended fix**: Review examples and notes for words that have dictionary entries
 and add inline links. This is standard tier-2 polishing work; no structural changes
 expected.
+
+## 06131_toiawase (問い合わせ) — Noun headword but verb-lemma examples and conjugation
+
+**Source**: 2026-06-14 routine polish session 004
+
+Entry 06131_toiawase has the **noun** headword 問い合わせ (inquiry), but both ex1 and ex2
+demonstrate the **compound verb** 問い合わせる (a separate entry, 17737_toiawaseru), and the
+conjugation table lists the unnatural 問い合わせする (suru) paradigm — 問い合わせ is a 連用形
+noun, not a する-verb. The polish session linked the verb forms to 17737, but the entry
+would benefit from restructuring: either separate the noun headword cleanly from the verb
+lemma (give the noun its own noun-appropriate examples) or point the verb examples
+explicitly at 17737 and drop the spurious 問い合わせする conjugation.
+
+**Recommended fix**: Remove the suru conjugation table (問い合わせ as a noun doesn't conjugate;
+the verb lives at 17737). Replace the verb-form examples with genuine noun examples of
+問い合わせ (e.g. お問い合わせはこちら, 問い合わせが殺到する) or, if kept, ensure they link to
+17737. Needs per-entry judgment.
 
 ## Related pages
 
