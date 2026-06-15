@@ -1,0 +1,24 @@
+{
+  "entry_id": "06140_sarumokikaraochiru",
+  "headword": "{猿|さる}も{木|き}から{落|お}ちる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-15T06:37:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for a proverb. Proverbial expressions do not inherently carry a humble politeness level.",
+      "suggestion": "neutral"
+    }
+  ]
+}
