@@ -51,6 +51,18 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-15 (Routine v2: new-entries — 18 New Entries, IDs 29268–29285)
+Added 18 new entries: all 3 seen-in-entry gaps plus 15 hand-picked standalone words. The oldest candidate band remains heavily corpus-harvest noise (numbers, transparent compounds, dubious coinages), so picks were curated for genuine dictionary-worthiness. Added 水性絵具 (water-based paint) as a candidate from entry 29284's notes.
+
+- **Seen-in-entry (3)**: {張|は}り{上|あ}げる (to raise one's voice; ichidan), {金棒|かなぼう} (iron rod/club; the 鬼に金棒 idiom), {大海|たいかい} (the open sea)
+- **Business/society (2)**: {多国籍企業|たこくせききぎょう} (multinational corporation), {受領者|じゅりょうしゃ} (recipient/payee)
+- **Science/materials (3)**: {有機化合物|ゆうきかごうぶつ} (organic compound), {炭素鋼|たんそこう} (carbon steel), {雨量計|うりょうけい} (rain gauge)
+- **Health/body (2)**: リンパ{腺|せん} (lymph node), {栄養補助食品|えいようほじょしょくひん} (dietary supplement)
+- **Language/history (3)**: {形態素|けいたいそ} (morpheme), {農業革命|のうぎょうかくめい} (agricultural revolution), {直轄地|ちょっかつち} (directly controlled territory)
+- **Other (5)**: {油|あぶら}かす (oil cake/fertilizer), {卓球台|たっきゅうだい} (table tennis table), {翻訳機|ほんやくき} (translation device), {油性絵具|ゆせいえのぐ} (oil paint), {壁材|かべざい} (wall material)
+
+§4 self-check: 1 flagged, REJECTED (油かす 'nature' tag valid in-list fallback; suggested 'agriculture' not in taxonomy, 'food' wrong for primary fertilizer sense). $0.0078.
+
 ### 2026-06-15 (Routine v2: new-entries — 10 New Entries, IDs 29258–29267)
 Added 10 new entries, all from the priority "seen-in-entry" candidate band (internal-completeness gaps the dictionary already referenced). The remaining candidate pool was almost entirely corpus-harvest noise (compositional phrases, dubious or wrong glosses such as 怒燥/アンパッサン), so the run stayed focused on the 10 verified real words rather than padding to ~20. New kanji 弘 (コウ; broad) assigned ID 02774.
 
@@ -108,18 +120,5 @@ Added 20 new entries (IDs 29201–29220): 2 seen-in-entry gaps plus 18 regular c
 - **Adverbs (2)**: {急激|きゅうげき}に (rapidly; sharply), {猛烈|もうれつ}に (fiercely; intensely)
 
 §4 self-check: 3 applied (29208/29210 formality formal→neutral; 29216 removed food semantic tag), 0 rejected, 0 flagged.
-
-### 2026-06-12 (Routine v2: new-entries — 20 New Entries, IDs 29181–29200)
-Added 20 new entries (IDs 29181–29200) from candidates, processing all 4 seen-in-entry gaps.
-
-- **Seen-in-entry (4)**: {一級建築士|いっきゅうけんちくし} (first-class architect), {二級建築士|にきゅうけんちくし} (second-class architect), {脱サラ|だつさら} (leaving salaried employment to go independent), {演奏家|えんそうか} (professional musician)
-- **Social/political (3)**: {社会運動|しゃかいうんどう} (social movement), {平和運動|へいわうんどう} (peace movement), {人権活動|じんけんかつどう} (human rights activities)
-- **Abstract/society (2)**: {自我意識|じがいしき} (self-awareness), {知識階級|ちしきかいきゅう} (intelligentsia)
-- **Culture/daily life (5)**: {絹織物|きぬおりもの} (silk fabric), {飯炊き|めしだき} (cooking rice; historical cook), {日|ひ}めくりカレンダー (tear-off calendar), UFOキャッチャー (claw machine), ファッションデザイナー (fashion designer)
-- **Education/work (1)**: {職業訓練校|しょくぎょうくんれんこう} (vocational training school)
-- **Sports/health (4)**: {体幹|たいかん}トレーニング (core training), {水泳帽|すいえいぼう} (swimming cap), {水泳選手|すいえいせんしゅ} (competitive swimmer), {抗ウイルス薬|こうういるすやく} (antiviral drug)
-- **Facility (1)**: {入館者|にゅうかんしゃ} (visitor to a facility)
-
-§4 self-check: 1 applied (29193 gloss clarified historical usage of cook meaning), 0 rejected, 0 flagged.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
