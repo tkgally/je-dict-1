@@ -308,6 +308,13 @@ so the systemic-fix mode can work through the queue per-entry.
 
 ## 16. UTF-8 replacement-character repair script for corrupted furigana wrappers
 
+**SHIPPED (2026-06-15)** — `build/check_mojibake.py` is built (read-only; `--json`,
+`--summary`, `--range`, per-entry/-field U+FFFD counts with context windows) and indexed
+in `backlog-queue.json` as `mojibake-ufffd`. A dedicated sweep reconstructed all 234
+corrupted entries (1225 U+FFFD chars) to zero, and `build/validate.py` now carries a hard
+U+FFFD guard (covered by `build/tests/test_validate_mojibake.py`) so CI rejects any future
+entry that reintroduces the corruption. The notes below are retained for historical context.
+
 **Source**: 2026-06-12 systemic-fix run (surfaced via `check_example_headword.py` output)
 
 Approximately 246 entry files in the 20000–29000+ range (and possibly some earlier)
