@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-15 (Routine v2: new-entries — 10 New Entries, IDs 29258–29267)
+Added 10 new entries, all from the priority "seen-in-entry" candidate band (internal-completeness gaps the dictionary already referenced). The remaining candidate pool was almost entirely corpus-harvest noise (compositional phrases, dubious or wrong glosses such as 怒燥/アンパッサン), so the run stayed focused on the 10 verified real words rather than padding to ~20. New kanji 弘 (コウ; broad) assigned ID 02774.
+
+- **Noun (2)**: {水引|みずひき} (decorative paper gift cords), ビジネスモデル (business model)
+- **Godan verbs (5)**: {痛|いた}がる (to show signs of pain), {踏|ふ}みとどまる (to stand one's ground; hold back — 2 senses), {殴|なぐ}り{飛|と}ばす (to punch and send flying), {滲|にじ}み{出|だ}す (to ooze out; show through — 2 senses), {噴|ふ}き{出|だ}す (to gush out; burst out laughing — 2 senses, cross-ref to 06342)
+- **Particle (1)**: なあ (sentence-final emotion/emphasis)
+- **Proverbs (2)**: {弘法|こうぼう}も{筆|ふで}の{誤|あやま}り and {河童|かっぱ}の{川流|かわなが}れ (both "even experts make mistakes"; cross-referenced to each other)
+
+§4 self-check: clean — 0 issues across all 10 entries (independent accuracy review).
+
 ### 2026-06-14 (Routine v2: new-entries — 17 New Entries, IDs 29241–29257)
 Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-picked standalone words. The candidate pool's oldest band is largely corpus-harvest noise (numbers, compositional phrases, dubious glosses), so picks were curated for genuine dictionary-worthiness. Added 水引 (decorative gift cords) as a candidate from entry 29243's example.
 
@@ -111,17 +121,5 @@ Added 20 new entries (IDs 29181–29200) from candidates, processing all 4 seen-
 - **Facility (1)**: {入館者|にゅうかんしゃ} (visitor to a facility)
 
 §4 self-check: 1 applied (29193 gloss clarified historical usage of cook meaning), 0 rejected, 0 flagged.
-
-### 2026-06-12 (Routine v2: new-entries — 18 New Entries, IDs 29163–29180)
-Added 18 new entries (IDs 29163–29180) from candidates, prioritizing 2 seen-in-entry gaps.
-
-- **Seen-in-entry (2)**: {殊更|ことさら} (deliberately; particularly), {返|かえ}る (to be returned; revert)
-- **Grammar expressions (6)**: べく (in order to — formal), べし (should — archaic), 〜ねばならない (must — literary), 〜なきゃならない (must — colloquial), 〜ように言う (to tell someone to), はい、どうぞ (here you are; please go ahead)
-- **Pronouns/interjections (5)**: どこどこ (such-and-such a place), どなた様 (who — very polite), なんだよ (what the heck), {何|なん}だって (what?! really?!), いいやん (it's fine — Kansai)
-- **Adverbs (1)**: すでにして (already; even at this stage — formal)
-- **Expressions (2)**: {功|こう}{成|な}り{名|な}{遂|と}げる (to achieve fame and success), {該当|がいとう}する (to apply; be applicable)
-- **Nouns (2)**: {学究|がっきゅう}{肌|はだ} (scholarly temperament), {中産|ちゅうさん}{階級|かいきゅう} (middle class)
-
-§4 self-check: 2 applied (29165 formality formal→neutral, semantic greeting→expression; 29172 semantic greeting→person, politeness humble→honorific), 0 rejected, 0 flagged.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
