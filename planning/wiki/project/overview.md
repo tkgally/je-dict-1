@@ -1,6 +1,6 @@
 # Project Overview
 
-**Last updated**: 2026-06-14
+**Last updated**: 2026-06-15
 
 ## What je-dict-1 is
 
@@ -20,7 +20,7 @@ Rather than using JLPT levels (which are exam-oriented and have well-known probl
 
 - **Basic** (801 entries) — foundational words needed for survival communication. Closed tier.
 - **Core** (~1,982 entries) — essential vocabulary for adult communication. Closed tier.
-- **General** (25,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: ~26,230.)
+- **General** (25,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: ~26,240.)
 
 See [Vocabulary Tier System](vocabulary-tiers.md) for details.
 
