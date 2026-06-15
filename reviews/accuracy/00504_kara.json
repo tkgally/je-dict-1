@@ -2,50 +2,23 @@
   "entry_id": "00504_kara",
   "headword": "から",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:43Z",
+  "reviewed_at": "2026-06-15T06:36:53Z",
   "summary": {
-    "flagged": 5
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The top-level gloss is incomplete and misleading as it omits the 'after' and 'made from' meanings, which are significant senses of 'から'.",
-      "suggestion": "Change 'from, because' to 'from, because, after, made from'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "error",
-      "concern": "The gloss for sense 1 is incomplete. It covers 'starting point' but misses 'source/origin' (e.g., receiving from someone, seeing from somewhere).",
-      "suggestion": "Change 'from (starting point)' to 'from (starting point, source)'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "error",
-      "concern": "The explanation for sense 1 is incomplete. It only mentions 'starting point in space or time' but misses 'source/origin' (e.g., receiving from someone, seeing from somewhere).",
-      "suggestion": "Change 'Marks the starting point in space or time.' to 'Marks the starting point in space or time, or the source/origin.'"
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[3].gloss",
-      "severity": "error",
-      "concern": "The gloss for sense 4 is incomplete. It only mentions 'made from' but misses 'made of' (when the material is still recognizable).",
-      "suggestion": "Change 'made from (material/origin)' to 'made from/of (material/origin)'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[3].explanation",
-      "severity": "error",
-      "concern": "The explanation for sense 4 is incomplete. It only mentions 'especially when transformed' but 'から' can also indicate material when it's not transformed (e.g., '木から家を作る' - make a house *of* wood).",
-      "suggestion": "Change 'Indicates the source material (especially when transformed).' to 'Indicates the source material or origin.'"
+      "concern": "The main gloss is missing a key meaning of から, which is 'from (source/agent)'. This is distinct from 'from (starting point)' and 'made from'.",
+      "suggestion": "Add 'from (source)' to the main gloss."
     }
   ]
 }

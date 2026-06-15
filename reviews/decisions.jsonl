@@ -1286,3 +1286,7 @@
 {"ts": "2026-06-15T03:34:25Z", "entry": "05517", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "in-list general narrowness"}
 {"ts": "2026-06-15T03:38:07Z", "entry": "05526", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "apply", "note": "corrected: real U+FFFD mojibake, prior reject wrong"}
 {"ts": "2026-06-15T03:38:07Z", "entry": "05527", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "apply", "note": "corrected: real U+FFFD mojibake, prior reject wrong"}
+{"ts":"2026-06-15T06:38:07Z","entry":"00504","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"source sense already covered by sense1+receiving_source"}
+{"ts":"2026-06-15T06:38:07Z","entry":"00763","src":"self-check","dim":"translation","sev":"error","decision":"apply","note":"reversed order: shut up then be quiet"}
+{"ts":"2026-06-15T06:38:07Z","entry":"06137","src":"self-check","dim":"translation","sev":"error","decision":"reject","note":"model misread passive; dog is agent"}
+{"ts":"2026-06-15T06:38:07Z","entry":"06140","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"humble politeness wrong for proverb -> plain"}
