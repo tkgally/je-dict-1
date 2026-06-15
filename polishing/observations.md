@@ -54,3 +54,6 @@ _(2026-06-15 wiki (Routine v2) harvest: processed the orphaned 4301-4800 accurac
 All 15 observations cleared.)_
 
 - [pattern] Yojijukugo / proverb entries in the 06143–06149 range (created Jan 2026, e.g. 06143_oninikanabou) have ZERO inline-link coverage in examples and notes — naked Japanese throughout. Likely a whole cohort of idiom entries from that creation batch needs link backfill. (seen 2026-06-15 routine polish)
+
+- [tooling] accuracy-review tags dimension over 5521-5703: 39% of entries flagged (72/183), but most are "general/descriptive too broad → narrower" narrowness nits between in-list tags (rejected per semantic-tag policy). High flag rate is reviewer noise, not dictionary error. Consider tuning the tags-review prompt to suppress narrowness substitutions and only flag (a) not-in-list tags and (b) category-error tags. (seen 2026-06-15)
+- [pattern] Systematic semantic-tag drift in the 0552x-0570x range: four-character idioms (起死回生, 七転八起, 自画自賛, 油断大敵) tagged 'furniture'/'leisure'/'emotion'; 〜的/〜性 abstract adjectives (協力的, 歴史的, 政治的, 主観的, 全面的) tagged 'time-general'/'education'; concrete nouns mis-tagged (天秤='clothing', 苦楽/寒暖='body-part', 頷く='work'). Looks like an old auto-tagging pass produced category errors. Candidate for a systemic-fix sweep via check_tag_drift.py across the whole dictionary. (seen 2026-06-15)
