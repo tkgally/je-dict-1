@@ -52,3 +52,5 @@ _(2026-06-15 wiki (Routine v2) harvest: processed the orphaned 4301-4800 accurac
 - **Entry Follow-ups**: 06131_toiawase noun-headword-vs-verb-lemma restructure.
 - **Cleared as already RESOLVED**: the two U+FFFD mojibake `[tooling]`/`[entry]` observations (05528/05530 + the dictionary-wide 244-entry note) — Tooling Backlog item 16 shipped 2026-06-15 (`build/check_mojibake.py` + a sweep to zero U+FFFD + a validate.py guard); confirmed 0 remaining this session.
 All 15 observations cleared.)_
+
+- [pattern] Yojijukugo / proverb entries in the 06143–06149 range (created Jan 2026, e.g. 06143_oninikanabou) have ZERO inline-link coverage in examples and notes — naked Japanese throughout. Likely a whole cohort of idiom entries from that creation batch needs link backfill. (seen 2026-06-15 routine polish)
