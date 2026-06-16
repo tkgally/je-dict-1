@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T20:16:25Z",
+  "reviewed_at": "2026-06-16T06:36:22Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for '理解する'. This verb is neutral in formality and can be used in a wide range of contexts, including formal ones.",
-      "suggestion": "neutral"
+      "concern": "The semantic tag 'action' is too general and doesn't capture the specific meaning of '理解する'.",
+      "suggestion": "cognition"
     }
   ]
 }

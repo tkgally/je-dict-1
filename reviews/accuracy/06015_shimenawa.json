@@ -2,23 +2,15 @@
   "entry_id": "06015_shimenawa",
   "headword": "{注連縄|しめなわ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T15:53:03Z",
+  "reviewed_at": "2026-06-16T06:35:36Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'tool' is incorrect for '注連縄' (shimenawa). A shimenawa is a sacred object used in Shinto rituals, not a tool.",
-      "suggestion": "The most appropriate tag would be 'general' or 'expression' if a more specific religious tag is not available. 'general' is a safe fallback."
-    }
-  ]
+  "issues": []
 }

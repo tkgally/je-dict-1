@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T15:51:41Z",
+  "reviewed_at": "2026-06-16T06:36:49Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for '楽観的'.",
-      "suggestion": "Change 'informal' to 'neutral'."
+      "concern": "The semantic tag 'descriptive' is too general for '楽観的'. A more specific tag related to personality or cognition would be more appropriate.",
+      "suggestion": "cognition"
     }
   ]
 }

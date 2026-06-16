@@ -1,0 +1,24 @@
+{
+  "entry_id": "05726_boubou",
+  "headword": "ぼうぼう",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T06:29:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is too narrow and misleading for a word that also describes fire and general vegetation. It only applies to one sense.",
+      "suggestion": "Replace 'body-part' with 'descriptive' or 'general'."
+    }
+  ]
+}
