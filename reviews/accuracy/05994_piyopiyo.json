@@ -2,36 +2,23 @@
   "entry_id": "05994_piyopiyo",
   "headword": "ぴよぴよ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:26Z",
+  "reviewed_at": "2026-06-16T06:34:55Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is a bit redundant with the definition and could be more concise.",
-      "suggestion": "Change 'chirp chirp; peep peep' to 'chirping; peeping sound' or similar, to better reflect the adverbial nature."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss is redundant with the explanation.",
-      "suggestion": "Remove 'chirping; peeping' from the sense gloss, as the explanation already covers it."
-    },
-    {
       "dimension": "tags",
-      "location": "pos",
-      "severity": "warn",
-      "concern": "While 'adverb' is common for onomatopoeia, 'onomatopoeia' or 'mimetic word' would be more precise as a primary part of speech for this type of word.",
-      "suggestion": "Add 'onomatopoeia' or 'mimetic word' to the 'pos' array, or consider it as the primary tag."
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is an onomatopoeia, not merely descriptive.",
+      "suggestion": "onomatopoeia"
     }
   ]
 }

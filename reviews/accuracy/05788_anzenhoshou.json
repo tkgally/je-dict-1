@@ -1,0 +1,24 @@
+{
+  "entry_id": "05788_anzenhoshou",
+  "headword": "{安全保障|あんぜんほしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T06:30:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for '安全保障' (security; national security).",
+      "suggestion": "Replace 'geography' with 'politics' or 'military'."
+    }
+  ]
+}

@@ -2,43 +2,23 @@
   "entry_id": "05991_pechapecha",
   "headword": "ぺちゃぺちゃ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:20Z",
+  "reviewed_at": "2026-06-16T06:34:46Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is a bit too brief and could be more descriptive of the onomatopoeic nature.",
-      "suggestion": "Change 'chattering; smacking lips' to 'chattering (noisily); smacking lips (noisily)' or similar to better reflect the sound aspect."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation for example 4 is a bit clunky and could be more natural.",
-      "suggestion": "Change 'Even before the meeting started, the chatter from the back seats wouldn't stop.' to 'Even before the meeting started, the chatter from the back seats was incessant.' or 'Even before the meeting started, the chatter from the back seats didn't stop.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation for example 7 is slightly unnatural.",
-      "suggestion": "Change 'I wish they would stop smacking their gum.' to 'I wish they would stop chewing gum noisily.' or 'I wish they would stop smacking their gum so loudly.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "warn",
-      "concern": "The English translation for example 9 is a bit clunky and could be more natural.",
-      "suggestion": "Change 'It can't be helped if children eat noisily, but I wish adults would mind their manners.' to 'It's understandable if children eat noisily, but I wish adults would mind their manners.' or 'While it's unavoidable for children to eat noisily, I wish adults would be more mindful of their manners.'"
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'ぺちゃぺちゃ' is an onomatopoeia, but the tag 'onomatopoeia' is missing.",
+      "suggestion": "Add 'onomatopoeia' to the semantic tags."
     }
   ]
 }

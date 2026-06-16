@@ -2,36 +2,15 @@
   "entry_id": "05993_zabuzabu",
   "headword": "ざぶざぶ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:23Z",
+  "reviewed_at": "2026-06-16T06:34:54Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete and could be misleading without the 'sound' aspect.",
-      "suggestion": "Change to 'splashing sound or action; wading through water'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss is incomplete and could be misleading without the 'sound' aspect.",
-      "suggestion": "Change to 'splashing sound or action; wading'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation 'with splashing water' is a bit unnatural and could be improved for flow.",
-      "suggestion": "Change to 'I wash the laundry vigorously/with a lot of water' or 'I vigorously wash the laundry'."
-    }
-  ]
+  "issues": []
 }

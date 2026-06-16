@@ -2,22 +2,15 @@
   "entry_id": "05999_katsubou",
   "headword": "{渇望|かつぼう}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:33Z",
+  "reviewed_at": "2026-06-16T06:35:01Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The headword '渇望' (katsubou) is a noun/verb-suru meaning 'craving; longing; yearning'. While these are often associated with emotions, '渇望' itself describes a strong desire or need, which is more accurately categorized as 'desire' rather than 'emotion'. While desire can be an emotion, 'emotion' is too broad and less precise for this specific term.",
-      "suggestion": "Change 'emotion' to 'desire'."
-    }
-  ]
+  "issues": []
 }
