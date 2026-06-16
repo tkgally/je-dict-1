@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-10
+**Last updated**: 2026-06-16
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-16 (Routine v2: new-entries — 16 New Entries, IDs 29286–29301)
+Added 16 new entries: all 11 priority seen-in-entry gaps plus 5 hand-picked standalone words. The oldest candidate band remains overwhelmingly corpus-harvest noise (transparent compounds, dubious coinages), so standalone picks were curated for genuine dictionary-worthiness rather than padding to 20.
+
+- **Seen-in-entry (11)**: {水性|すいせい}{絵具|えのぐ} (water-based paint), {公金|こうきん} (public funds), {許|ゆる}し{難|がた}い (unforgivable; i-adj), {論外|ろんがい} (out of the question), {自然|しぜん}{災害|さいがい} (natural disaster), {大災害|だいさいがい} (catastrophe), やけ (reckless despair), モットー (motto), {不言実行|ふげんじっこう} (action before words), {言行一致|げんこういっち} (words matching deeds), {天地万物|てんちばんぶつ} (all of creation)
+- **Academic/technical (5)**: {中国学|ちゅうごくがく} (Chinese studies), {整数論|せいすうろん} (number theory), {受任者|じゅにんしゃ} (mandatary; legal), {多色|たしょく}{刷|ず}り (multicolor printing), {給排水|きゅうはいすい} (water supply and drainage)
+
+§4 self-check: 2 applied (29286 gloss — "watercolor-type"/"water-soluble" too specific for 水性絵具), 2 rejected (29288 formality `formal` upheld — ～難い literary register, consistent with sibling 信じ難い; 29291 `nature` in-list narrowness nit). $0.0069.
+
 ### 2026-06-15 (Routine v2: new-entries — 18 New Entries, IDs 29268–29285)
 Added 18 new entries: all 3 seen-in-entry gaps plus 15 hand-picked standalone words. The oldest candidate band remains heavily corpus-harvest noise (numbers, transparent compounds, dubious coinages), so picks were curated for genuine dictionary-worthiness. Added 水性絵具 (water-based paint) as a candidate from entry 29284's notes.
 
@@ -100,25 +108,5 @@ Added 20 new entries (IDs 29221–29240): 2 seen-in-entry gaps plus 18 regular c
 - **Transportation (1)**: {最高速|さいこうそく} (top speed)
 
 §4 self-check: CLEAN (0 issues across 20 entries, $0.0088).
-
-### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29201–29220)
-Added 20 new entries (IDs 29201–29220): 2 seen-in-entry gaps plus 18 regular candidates.
-
-- **Seen-in-entry (2)**: {空撮|くうさつ} (aerial photography/drone shot), {糠|ぬか} (rice bran)
-- **Everyday objects (1)**: たわし (scrubbing brush; scouring pad)
-- **Education/person (1)**: {初級者|しょきゅうしゃ} (beginner; novice)
-- **Person (1)**: {愛好者|あいこうしゃ} (enthusiast; aficionado)
-- **Culture/leisure (1)**: {祝祭|しゅくさい} (celebration; festivity)
-- **Media (2)**: {映像化|えいぞうか} (film/visual adaptation), {速報性|そくほうせい} (timeliness; breaking news quality)
-- **Work/business (2)**: {新卒採用|しんそつさいよう} (new graduate hiring), ファシリテーション (facilitation)
-- **Language (1)**: {異体字|いたいじ} (variant kanji form)
-- **Health/law (1)**: {障害者手帳|しょうがいしゃてちょう} (disability certificate)
-- **Abstract (3)**: {落ち込み|おちこみ} (depression; slump), {駆動力|くどうりょく} (driving force), {停滞感|ていたいかん} (sense of stagnation)
-- **Society (1)**: {競争社会|きょうそうしゃかい} (competitive society)
-- **Shopping (1)**: {高級店|こうきゅうてん} (high-class shop; upscale establishment)
-- **Weather (1)**: {雷光|らいこう} (lightning flash)
-- **Adverbs (2)**: {急激|きゅうげき}に (rapidly; sharply), {猛烈|もうれつ}に (fiercely; intensely)
-
-§4 self-check: 3 applied (29208/29210 formality formal→neutral; 29216 removed food semantic tag), 0 rejected, 0 flagged.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
