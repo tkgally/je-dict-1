@@ -1,0 +1,24 @@
+{
+  "entry_id": "06268_kiritsumeru",
+  "headword": "{切|き}り{詰|つ}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:30:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for this headword. '切り詰める' is a neutral verb that can be used in various contexts without conveying informality.",
+      "suggestion": "neutral"
+    }
+  ]
+}

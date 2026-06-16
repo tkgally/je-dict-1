@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T18:27:20Z",
+  "reviewed_at": "2026-06-16T21:28:19Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "semantic_tags",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a word with specific meanings related to business and technology.",
-      "suggestion": "business"
+      "concern": "The headword has two distinct meanings, one of which is not covered by the 'business' tag.",
+      "suggestion": "Add 'technology' to the semantic tags."
     }
   ]
 }

@@ -1,0 +1,24 @@
+{
+  "entry_id": "06167_setsunai",
+  "headword": "{切|せつ}ない",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for the headword '切ない'.",
+      "suggestion": "Remove 'body-part'."
+    }
+  ]
+}

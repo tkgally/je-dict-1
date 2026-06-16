@@ -1,0 +1,24 @@
+{
+  "entry_id": "06175_sougouteki",
+  "headword": "{総合的|そうごうてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for '総合的'.",
+      "suggestion": "Replace 'time-general' with 'general' or 'descriptive'."
+    }
+  ]
+}

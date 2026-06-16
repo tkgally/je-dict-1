@@ -1,0 +1,24 @@
+{
+  "entry_id": "06303_teitou",
+  "headword": "{抵当|ていとう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:30:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for '抵当' (mortgage/collateral).",
+      "suggestion": "Replace 'time-general' with 'finance' or 'law'."
+    }
+  ]
+}

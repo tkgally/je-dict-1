@@ -1,0 +1,24 @@
+{
+  "entry_id": "06288_kosan",
+  "headword": "{古参|こさん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:30:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are completely unrelated to the headword's meaning.",
+      "suggestion": "Replace with 'person' or 'society'."
+    }
+  ]
+}

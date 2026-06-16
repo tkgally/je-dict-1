@@ -1,0 +1,24 @@
+{
+  "entry_id": "06339_zettaizetsumei",
+  "headword": "{絶体絶命|ぜったいぜつめい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:31:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are incorrect for the headword's meaning.",
+      "suggestion": "Replace 'geography' and 'time-general' with 'expression' or 'existence'."
+    }
+  ]
+}

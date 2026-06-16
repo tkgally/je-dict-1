@@ -1,0 +1,24 @@
+{
+  "entry_id": "06164_hikitoru",
+  "headword": "{引|ひ}き{取|と}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '引き取る' is not formal. It is a neutral verb used in everyday conversation.",
+      "suggestion": "neutral"
+    }
+  ]
+}

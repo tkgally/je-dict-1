@@ -1,0 +1,24 @@
+{
+  "entry_id": "06309_neta",
+  "headword": "ネタ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:30:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' is incorrect for the headword 'ネタ'.",
+      "suggestion": "Remove 'furniture'."
+    }
+  ]
+}

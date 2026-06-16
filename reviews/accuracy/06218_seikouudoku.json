@@ -1,0 +1,24 @@
+{
+  "entry_id": "06218_seikouudoku",
+  "headword": "{晴耕雨読|せいこううどく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:29:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '晴耕雨読'.",
+      "suggestion": "Replace 'emotion' with 'daily-life' or 'general'."
+    }
+  ]
+}

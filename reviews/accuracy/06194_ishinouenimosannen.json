@@ -1,0 +1,24 @@
+{
+  "entry_id": "06194_ishinouenimosannen",
+  "headword": "{石|いし}の{上|うえ}にも{三年|さんねん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is incorrect for this headword.",
+      "suggestion": "Remove 'clothing' and add 'proverb' as it is a well-known Japanese proverb."
+    }
+  ]
+}

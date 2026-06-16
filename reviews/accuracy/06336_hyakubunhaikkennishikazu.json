@@ -1,0 +1,24 @@
+{
+  "entry_id": "06336_hyakubunhaikkennishikazu",
+  "headword": "{百聞|ひゃくぶん}は{一見|いっけん}に{如|し}かず",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:31:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are completely irrelevant to the headword's meaning.",
+      "suggestion": "Remove 'building', 'communication', 'education', 'transportation'. The 'expression' tag is sufficient for this proverb."
+    }
+  ]
+}
