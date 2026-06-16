@@ -1,0 +1,24 @@
+{
+  "entry_id": "06168_wazurawashii",
+  "headword": "{煩|わずら}わしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '煩わしい'. It is a common adjective used in everyday conversation and writing, not exclusively in formal contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

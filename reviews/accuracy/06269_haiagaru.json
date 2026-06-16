@@ -1,0 +1,24 @@
+{
+  "entry_id": "06269_haiagaru",
+  "headword": "{這|は}い{上|あ}がる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:30:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'animal-fish' and 'food' are completely unrelated to the headword '這い上がる' (to crawl up, to clamber up).",
+      "suggestion": "Replace 'animal-fish' and 'food' with more appropriate tags like 'movement' or 'action'."
+    }
+  ]
+}

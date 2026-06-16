@@ -1,0 +1,24 @@
+{
+  "entry_id": "06327_sentei",
+  "headword": "{剪定|せんてい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:31:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific action like pruning.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

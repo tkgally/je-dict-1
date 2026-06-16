@@ -1,0 +1,24 @@
+{
+  "entry_id": "06337_isogabamaware",
+  "headword": "{急|いそ}がば{回|まわ}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:31:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'food' and 'leisure' are completely unrelated to the headword's meaning.",
+      "suggestion": "Remove 'food' and 'leisure'. The tag 'expression' is already present and appropriate for a proverb."
+    }
+  ]
+}

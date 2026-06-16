@@ -1,0 +1,24 @@
+{
+  "entry_id": "06334_kouteiteki",
+  "headword": "{肯定的|こうていてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:31:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' is incorrect for '肯定的'.",
+      "suggestion": "Replace 'furniture' with 'cognition' or 'descriptive'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "06214_butanishinju",
+  "headword": "{豚|ぶた}に{真珠|しんじゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:29:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for the headword '豚に真珠' (pearls before swine). This is an idiom, not related to food.",
+      "suggestion": "idiom"
+    }
+  ]
+}

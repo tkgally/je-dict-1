@@ -1,0 +1,24 @@
+{
+  "entry_id": "06190_ofuda",
+  "headword": "お{札|ふだ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:28:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are completely wrong for the headword 'お札' (paper charm/talisman).",
+      "suggestion": "Replace 'animal-mammal', 'communication', 'education' with 'religion', 'culture'."
+    }
+  ]
+}

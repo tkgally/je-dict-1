@@ -1,0 +1,24 @@
+{
+  "entry_id": "06215_nekonotemokaritai",
+  "headword": "{猫|ねこ}の{手|て}も{借|か}りたい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:29:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for this headword.",
+      "suggestion": "Replace 'time-general' with 'expression' or 'descriptive'."
+    }
+  ]
+}

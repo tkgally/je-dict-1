@@ -1,0 +1,24 @@
+{
+  "entry_id": "06220_gadeninsui",
+  "headword": "{我田引水|がでんいんすい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T21:29:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is incorrect for '我田引水'.",
+      "suggestion": "Replace 'leisure' with 'cognition' or 'descriptive'."
+    }
+  ]
+}
