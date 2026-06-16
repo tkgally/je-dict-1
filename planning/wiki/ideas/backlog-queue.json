@@ -75,10 +75,11 @@
    "verify": "per-entry",
    "priority": 4,
    "batch_ready": true,
-   "status": "open",
-   "scope_estimate": 130,
+   "status": "resolved",
+   "scope_estimate": 0,
    "severity": "error",
-   "notes": "{村|むら/そん} style is non-standard and misrenders. Pick the correct single reading for the context; mention the alternate reading in notes if useful."
+   "resolved_date": "2026-06-16",
+   "notes": "RESOLVED 2026-06-16: all 118 entries (131 slash-reading wrappers) fixed in one systemic-fix run. Each wrapper replaced with the single reading the kanji actually takes in its headword/compound (rendaku'd form where applicable, e.g. {袋|ぶくろ}, {顔|がお}), the inline-link target's reading where inside a ⟦…⟧ link ({毎年|まいとし}), or the primary reading for standalone/related words ({梅雨|つゆ}). Two malformed English-in-reading wrappers also repaired (28654 {課金|billing/charging}→{課金|かきん}). Per-entry verified against the headword before saving; modified timestamps bumped. Detector now returns 0 slash-reading. Furigana self-check screened 59/118 IDs before the 540s timeout cut it short (logged as a [tooling] observation): 11 flags, all rejected as rendaku/okurigana/partial-reading and screener-truncation false positives, 0 applied."
   },
   {
    "id": "artifact-missing-target-id",
