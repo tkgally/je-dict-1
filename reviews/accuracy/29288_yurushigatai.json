@@ -1,0 +1,24 @@
+{
+  "entry_id": "29288_yurushigatai",
+  "headword": "{許|ゆる}し{難|がた}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-16T15:27:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 許し難い. While it's not casual, it's more neutral or slightly elevated than strictly formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}
