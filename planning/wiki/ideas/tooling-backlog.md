@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-15 (item 17 update: `general`-noise confirmed continuous across 03301–05482; new items 18 check_example_headword false-positive reduction, 19 stale-`noentry` link detector, 20 notes-priority ranking staleness filter)
+**Last updated**: 2026-06-16 (item 17 update: `general`/narrowness noise confirmed continuous up to 05703 — fifth consecutive sweep with ~40–55% flag rate from in-list narrowness nits)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -410,6 +410,17 @@ Across both runs the genuine-error rate sits at ~4–8% of flags while the `gene
 narrowness noise dominates adjudication, exactly the profile the proposed prompt fix
 (fallback-tag exception + severity rule) targets. The fix remains unimplemented; the
 noise is now confirmed continuous across the 03301–05482 band.
+
+**Update 2026-06-16**: A 2026-06-15 accuracy-review observation extends the band
+upward into **05521–05703**: 39% of entries flagged (72/183), but most were
+`general`/`descriptive`-too-broad narrowness substitutions between in-list tags
+(rejected per the semantic-tag policy). The genuine-error fraction stays in the same
+~4–8% range. The contributing run also recorded its bulk rejections as one aggregated
+§C line (`family: in-list narrowness/defensible substitutions`, n=38). The noise family
+is now confirmed continuous from 03301 to ~05700 — five consecutive ~500-entry sweeps
+with the same ~40–55% flag rate driven by in-list narrowness nits. This is the
+fifth independent confirmation; the fallback-tag exception + severity rule remains the
+single highest-leverage unshipped reviewer-prompt fix.
 
 ## 18. check_example_headword.py false-positive reduction
 
