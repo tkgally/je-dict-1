@@ -2,23 +2,37 @@
   "entry_id": "01153_yamu",
   "headword": "{止|や}む",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:45:30Z",
+  "reviewed_at": "2026-06-16T00:26:58Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to cease, to stop' is too broad and misleading for the primary meaning of 止む, which specifically refers to natural phenomena or ongoing conditions coming to an end, not general stopping of actions or objects.",
+      "suggestion": "to stop (of natural phenomena, pain, etc.)"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to stop, to cease' is too broad and misleading for the primary meaning of 止む, which specifically refers to natural phenomena or ongoing conditions coming to an end, not general stopping of actions or objects.",
+      "suggestion": "to stop (of natural phenomena, pain, etc.)"
+    },
     {
       "dimension": "translation",
       "location": "examples[4]",
       "severity": "error",
-      "concern": "The English translation for example 4 is incorrect. '止むを得ない' is an idiom meaning 'unavoidable' or 'cannot be helped', not 'won't stop'. The current translation implies 'The meeting was canceled because the unavoidable circumstances wouldn't stop', which is nonsensical.",
-      "suggestion": "The meeting was canceled due to unavoidable circumstances."
+      "concern": "The example sentence '止むを得ない事情で会議は中止となりました。' uses '止むを得ない' which is an idiom meaning 'unavoidable' or 'cannot be helped', and is not a direct usage of the verb 止む in its primary sense of 'to stop'. Including this example without explanation or a separate sense for the idiom is misleading for an intermediate learner.",
+      "suggestion": "Remove this example or add a separate sense for the idiom 止むを得ない."
     }
   ]
 }
