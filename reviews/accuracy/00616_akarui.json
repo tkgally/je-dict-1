@@ -2,29 +2,15 @@
   "entry_id": "00616_akarui",
   "headword": "{明|あか}るい",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:14Z",
+  "reviewed_at": "2026-06-16T18:27:14Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'bright, cheerful' is incomplete. It misses a common meaning related to 'light-colored' or 'vivid'.",
-      "suggestion": "Add 'light-colored' or 'vivid' to the top-level gloss, e.g., 'bright, cheerful, light-colored'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'They're always smiling cheerfully' is a bit unnatural. 'They always smile cheerfully' or 'They're always cheerfully smiling' would be more natural.",
-      "suggestion": "Change 'They're always smiling cheerfully' to 'They always smile cheerfully'."
-    }
-  ]
+  "issues": []
 }
