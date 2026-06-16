@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-15 (P11 update: frontier 06129–06149 tag errors + 05000–05300 pocket; P17 update: `formal` over-applied to 06xxx compound verbs + 05000–05300 register pocket; P21 update: inline-link absence reaches 06140s + new hiragana-base-form orthography sub-pattern)
+**Last updated**: 2026-06-16 (P11 update: in-list-but-wrong-category tag drift across 0552x–0570x — yojijukugo→furniture, 〜的/〜性→time-general/education, concrete nouns mis-tagged; P21 update: 06143–06149 yojijukugo cohort zero inline links)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -309,6 +309,12 @@ The contaminated frontier now tracks to the 06140s; the 05000–05300 pocket sho
 
 **Update 2026-06-12**: Comprehensive-polish session (entries 06048–06067) confirmed a **compound-verb / suru-verb sub-pattern** at the leading edge of the contaminated batch: compound verbs and suru verbs were systematically assigned object-category tags (electronics, clothing, tool, furniture, animal-mammal, occupation, body-part) instead of the action/cognition/communication/emotion tags appropriate for their meanings. Confirmed instances: 06051 clothing→movement, 06052 [food,leisure,tool]→action, 06053 [communication,furniture]→cognition, 06055 electronics→emotion, 06056 electronics→communication, 06058 animal-mammal→communication, 06060 electronics→cognition, 06062 occupation→cognition, 06066 action→emotion, 06067 action→emotion. Root cause: original AI generation applied topic-domain tags based on example sentence context rather than the verb's own semantic domain. The `check_tag_drift.py` unknown-semantic detector (P20) will flag the out-of-vocabulary cases; the correct-vocabulary-but-wrong-category cases (e.g. "action" on a cognition verb) are not detectable mechanically and require the accuracy-review `tags` pass or per-entry polishing. The 06000 range likely holds further instances of this sub-pattern.
 
+**Update 2026-06-16**: A 2026-06-15 routine polish observation documented a dense pocket of the *in-list-but-wrong-category* tag drift across the **0552x–0570x range** (a different ID band from the 06xxx frontier but the same failure mode), with three recognisable sub-clusters:
+- **Four-character idioms / yojijukugo** tagged with object domains: 起死回生, 七転八起, 自画自賛 → `furniture`; 油断大敵 → `leisure`/`emotion` (should be `expression`/`proverb`). Same artifact as the 04768 一期一会 / 04773 四苦八苦 → `furniture` cases noted in the 2026-06-03 update.
+- **〜的 / 〜性 abstract adjectives/nouns** tagged with unrelated domains: 協力的, 歴史的, 政治的, 主観的, 全面的 → `time-general`/`education`.
+- **Concrete nouns mis-tagged**: 天秤 → `clothing`; 苦楽/寒暖 → `body-part`; 頷く → `work`.
+These are all `VALID_SEMANTIC` tags applied to the wrong domain, so the `check_tag_drift.py` unknown-semantic detector (P20) will **not** catch them — they need the accuracy-review `tags` pass or per-entry polish. The band sits just below the comprehensive-polish frontier (`next: 06147`), so sequential polishing has not yet reached it; the contaminated batch signature is consistent with the 2026-04-14 claude-opus-4-5 run that dominates the rest of P11.
+
 ## Priority 12: Dual-reading furigana with slash separators
 
 **Source**: Comprehensive-polish 2026-05-18 session 010 (entries 02251–02273)
@@ -569,6 +575,16 @@ links still resolve via `word_id_lookup.json` (which keys on both readings and
 headwords) — but it is inconsistent with the kanji-base convention and a detector
 could normalise it (scan for a `→` followed by all-hiragana before `：` where the
 surface form contains kanji).
+
+**Update 2026-06-16**: A 2026-06-15 routine polish observation re-confirmed the
+idiom-cohort gap with a concrete instance — the yojijukugo/proverb entries in the
+**06143–06149** range (created Jan 2026, e.g. 06143_oninikanabou 鬼に金棒) carry
+**zero** `⟦...⟧` links in either examples or notes (naked Japanese throughout). This
+is the same pre-inline-link-polishing creation batch as the 06137–06149 cohort noted
+above, so the whole 06140s idiom block should be backfilled together. The idiom cohort
+differs from the compound-verb/noun cohorts only in that its notes carry fewer
+structured TRANSITIVITY/Pattern lines, so the backfill is mostly example-sentence and
+free-prose links rather than the P21 sub-pattern labels.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

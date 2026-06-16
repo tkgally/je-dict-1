@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-16] maintenance | Observation harvest (3 items) + metrics-trend fourth refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06147`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed the 3 observations from the 2026-06-15 routine polish/accuracy-review runs:
+  - `[pattern]` in-list-but-wrong-category semantic-tag drift across 0552x–0570x (yojijukugo→furniture/leisure, 〜的/〜性→time-general/education, concrete nouns 天秤/苦楽/頷く mis-tagged) → **Cleanup Backlog P11 update 2026-06-16**, noting these in-list tags evade the P20 unknown-semantic detector and need the accuracy-review `tags` pass.
+  - `[pattern]` 06143–06149 yojijukugo cohort (e.g. 06143_oninikanabou) zero inline links → **Cleanup Backlog P21 update 2026-06-16** (same pre-inline-link creation batch as the already-noted 06137–06149 cohort).
+  - `[tooling]` accuracy-review tags noise over 5521–5703 (39% flagged, mostly in-list narrowness nits) → **Tooling Backlog item 17 update 2026-06-16** (noise now confirmed continuous from 03301 up to ~05703; fifth consecutive sweep with the same profile).
+  - Cleared all 3 from `polishing/observations.md`.
+- [H/Metrics-trend] Fourth refresh of `topics/quality-metrics.md` (14 new metrics lines since the third refresh, threshold ≥10). Tabulated runs 47–60 (2026-06-14 continuation + full 2026-06-15 + 2026-06-16 partial); recomputed all-time precision (60 runs, 3,167 flags) and added a runs 47–60 period column. **Headline**: the `tags` apply rate did not keep collapsing — it rebounded to 23.0% in runs 47–60 (vs. 8.2% in runs 35–46) because two of three accuracy-review sweeps hit un-polished ranges with genuine wrong-category errors (60.6%/38.6% apply) while one was the `general`-noise case (9.3%). Updated Findings §1–§6 + Implications. Review queue −3,714 from peak; spend ≤$0.82/day.
+- [E] Updated `index.md` "Last updated" line.
+
+**§4 self-check**: Not applicable (0 entry files changed; wiki/markdown only).
+**Metrics**: Appended wiki run line to `metrics-history.jsonl`.
+**No metric moving the wrong way**: queue converging, tags rebounded, spend low — no new `[pattern]` observation logged. `backlog-queue.json` unchanged (harvest items were prose-page updates; no batch-readiness change).
+
 ## [2026-06-15] maintenance | Observation harvest (15 items), 3 new Tooling Backlog items, stats sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
