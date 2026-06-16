@@ -2,15 +2,30 @@
   "entry_id": "01253_daiji",
   "headword": "{大事|だいじ}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:46:33Z",
+  "reviewed_at": "2026-06-16T18:27:17Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[12]",
+      "severity": "error",
+      "concern": "The English translation 'I'll take it easy and rest today' for '大事を取って今日は休みます。' is misleading. '大事を取る' means to take precautions or play it safe, not simply to 'take it easy'.",
+      "suggestion": "I'll play it safe and rest today. / I'll take precautions and rest today."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[14]",
+      "severity": "error",
+      "concern": "The English translation 'I caught a cold, so I took care and went to bed early.' for '風邪をひいたので、大事を取って早めに寝た。' is misleading. '大事を取る' means to take precautions or play it safe, not simply to 'take care' in this context.",
+      "suggestion": "I caught a cold, so I played it safe and went to bed early. / I caught a cold, so I took precautions and went to bed early."
+    }
+  ]
 }
