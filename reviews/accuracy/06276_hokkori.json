@@ -4,13 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T21:30:17Z",
+  "reviewed_at": "2026-06-17T01:35:20Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and doesn't cover the physical warmth aspect of the word.",
+      "suggestion": "Add 'descriptive' to cover both emotional and physical descriptions."
+    }
+  ]
 }

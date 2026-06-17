@@ -302,7 +302,12 @@ converging instead of growing. Spend is capped per-run by the selector
    ```bash
    python3 build/review_accuracy.py --range <start> <end> --budget <remaining>
    ```
-   Each entry's issues land in `reviews/accuracy/{id}.json`.
+   Each entry's issues land in `reviews/accuracy/{id}.json`. To front-load the
+   contaminated P11 block (5700–6340 and the residue above the polish frontier),
+   **`prompts/fix_semantic_tag_drift.md`** Phase 2 walks
+   `polishing/tasks/semantic-tag-drift/progress.txt` with `--dimensions tags` —
+   it is the authoritative path for the single-sole-wrong-category tags
+   (朱肉→`animal-mammal`) that the deterministic checks cannot see.
 4. **Apply corrections with judgment.** For furigana, follow
    **`prompts/polish_cross_model_review.md`** (consult
    `reviews/calibration_report.md` for known false positives). For each
@@ -379,7 +384,11 @@ regressions came from overly-ambitious mechanical sweeps.
    `build/check_tag_drift.py`, `build/check_example_headword.py` — are
    **read-only** and emit a JSON review queue (`--json`); they never modify
    entries. (If a future item needs a detector that doesn't exist, build it
-   from the wiki's detection rules, commit it, then run it.)
+   from the wiki's detection rules, commit it, then run it.) For the two
+   high-precision P11 tag-drift items (`tag-proverb-idiom-mismatch`,
+   `tag-concrete-noun-domain-mismatch`), follow **`prompts/fix_semantic_tag_drift.md`**
+   — it has the per-check fix recipe (correct destination tag, the
+   polysemy false-positive family to reject) and the cursor.
 3. **Fix a bounded, semantically-verified batch** (sized by the §6 context
    rule): open each flagged entry, confirm the fix is correct *for that
    entry*, then apply it and update its `modified` timestamp. For furigana
