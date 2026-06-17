@@ -1,0 +1,24 @@
+{
+  "entry_id": "06823_kogekusai",
+  "headword": "{焦|こ}げ{臭|くさ}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for '焦げ臭い' (burnt-smelling).",
+      "suggestion": "Replace 'body-part' with a more appropriate tag like 'descriptive' or 'daily-life'."
+    }
+  ]
+}

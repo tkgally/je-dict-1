@@ -1,0 +1,24 @@
+{
+  "entry_id": "06681_kotteri",
+  "headword": "こってり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:06:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is completely unrelated to the meaning of 'こってり'.",
+      "suggestion": "Remove 'electronics' and add 'food' and 'descriptive'."
+    }
+  ]
+}

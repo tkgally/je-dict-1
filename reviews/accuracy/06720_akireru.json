@@ -1,0 +1,24 @@
+{
+  "entry_id": "06720_akireru",
+  "headword": "{呆|あき}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:07:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is incorrect for the headword '呆れる' (to be amazed/appalled).",
+      "suggestion": "Replace 'electronics' with a more appropriate tag like 'emotion' or 'descriptive'."
+    }
+  ]
+}

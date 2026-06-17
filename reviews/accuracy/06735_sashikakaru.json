@@ -2,22 +2,15 @@
   "entry_id": "06735_sashikakaru",
   "headword": "{差|さ}し{掛|か}かる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T00:57:40Z",
+  "reviewed_at": "2026-06-17T19:07:36Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation 'a beautiful view opened up' is a bit unnatural for '美しい景色が見えた'.",
-      "suggestion": "Change to 'we saw a beautiful view' or 'a beautiful view came into sight'."
-    }
-  ]
+  "issues": []
 }

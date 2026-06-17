@@ -1,0 +1,24 @@
+{
+  "entry_id": "06753_gensou",
+  "headword": "{幻想|げんそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:07:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is incorrect for '幻想' (illusion/fantasy).",
+      "suggestion": "Replace 'electronics' with a more appropriate tag like 'cognition' or 'abstract'."
+    }
+  ]
+}

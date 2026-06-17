@@ -1,0 +1,24 @@
+{
+  "entry_id": "06692_tsuishiken",
+  "headword": "{追試験|ついしけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:06:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is incorrect for '追試験' (makeup exam).",
+      "suggestion": "education"
+    }
+  ]
+}

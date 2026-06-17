@@ -1,0 +1,31 @@
+{
+  "entry_id": "06802_toshite",
+  "headword": "として",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for the headword 'として'.",
+      "suggestion": "Replace 'geography' with 'grammatical' or 'expression'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for the headword 'として'.",
+      "suggestion": "Replace 'formal' with 'neutral'."
+    }
+  ]
+}

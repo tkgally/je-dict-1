@@ -1,0 +1,24 @@
+{
+  "entry_id": "06825_narenareshii",
+  "headword": "{馴|な}れ{馴|な}れしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is completely unrelated to the meaning of '馴れ馴れしい'.",
+      "suggestion": "Replace 'electronics' with 'descriptive' or 'personality'."
+    }
+  ]
+}

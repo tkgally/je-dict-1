@@ -1,0 +1,24 @@
+{
+  "entry_id": "06633_kizashi",
+  "headword": "{兆|きざ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:05:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for '兆し' (kizashi). '兆し' refers to a sign or indication, not an act of communication.",
+      "suggestion": "Replace 'communication' with 'general' or 'existence'."
+    }
+  ]
+}

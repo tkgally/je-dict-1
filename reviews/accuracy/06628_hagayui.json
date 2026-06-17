@@ -1,0 +1,24 @@
+{
+  "entry_id": "06628_hagayui",
+  "headword": "{歯|は}がゆい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:05:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for '歯がゆい'. While it describes a personal feeling, the word itself is not inherently informal or slangy. It can be used in various contexts without sounding overly casual or rude.",
+      "suggestion": "neutral"
+    }
+  ]
+}

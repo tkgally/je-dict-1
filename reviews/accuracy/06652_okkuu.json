@@ -1,0 +1,24 @@
+{
+  "entry_id": "06652_okkuu",
+  "headword": "{億劫|おっくう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:05:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'transportation' is incorrect for the headword '億劫'.",
+      "suggestion": "Replace 'transportation' with a more appropriate tag like 'emotion' or 'descriptive'."
+    }
+  ]
+}

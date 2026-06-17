@@ -1,0 +1,31 @@
+{
+  "entry_id": "06551_dasshuboodo",
+  "headword": "ダッシュボード",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:02:26Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'animal-mammal' is incorrect for 'dashboard'.",
+      "suggestion": "Replace 'animal-mammal' with 'transportation'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "Formality 'formal' is incorrect for 'dashboard'.",
+      "suggestion": "Replace 'formal' with 'neutral'."
+    }
+  ]
+}

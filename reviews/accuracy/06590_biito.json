@@ -1,0 +1,24 @@
+{
+  "entry_id": "06590_biito",
+  "headword": "ビート",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:04:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word specifically related to music. A more precise tag is available.",
+      "suggestion": "music"
+    }
+  ]
+}

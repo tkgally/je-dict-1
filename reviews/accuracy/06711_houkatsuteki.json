@@ -1,0 +1,24 @@
+{
+  "entry_id": "06711_houkatsuteki",
+  "headword": "{包括的|ほうかつてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:07:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'tool' is incorrect for '包括的'.",
+      "suggestion": "Replace 'tool' with 'descriptive' or 'general'."
+    }
+  ]
+}

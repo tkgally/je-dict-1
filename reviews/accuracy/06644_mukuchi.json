@@ -1,0 +1,24 @@
+{
+  "entry_id": "06644_mukuchi",
+  "headword": "{無口|むくち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:05:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '無口' is not formal; it's a common, neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

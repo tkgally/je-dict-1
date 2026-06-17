@@ -1,0 +1,24 @@
+{
+  "entry_id": "06564_dasha",
+  "headword": "{打者|だしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:02:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'animal-mammal' is incorrect for '打者' (batter).",
+      "suggestion": "Replace 'animal-mammal' with 'sports' or 'person'."
+    }
+  ]
+}

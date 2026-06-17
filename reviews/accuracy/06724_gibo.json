@@ -1,0 +1,24 @@
+{
+  "entry_id": "06724_gibo",
+  "headword": "{義母|ぎぼ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:07:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'animal-insect' and 'education' are incorrect for '義母' (mother-in-law; stepmother).",
+      "suggestion": "Replace 'animal-insect' and 'education' with 'family'."
+    }
+  ]
+}
