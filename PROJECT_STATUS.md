@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-17 (Routine v2: new-entries — 10 New Entries, IDs 29302–29311)
+Added 10 new entries: all 5 priority seen-in-entry gaps plus 5 hand-picked common standalone words. The candidate pool remains overwhelmingly corpus-harvest noise (numerals/counters, transparent 〜化/〜性/〜器 compounds, proper nouns, typos), so standalone picks were curated for genuine learner-usefulness rather than padding to ~20; logged a [pattern] observation requesting curator restock/cleanup. Removed stale candidate 許しがたい (kana variant of existing 29288 許し難い). Added 人災 (じんさい) as a candidate from entry 29302's contrast note.
+
+- **Seen-in-entry (5)**: {天災|てんさい} (natural disaster), {委任者|いにんしゃ} (mandator; legal), {問題外|もんだいがい} (out of the question), {掛|か}け{持|も}ち (juggling several jobs/roles; noun + suru), {一身上|いっしんじょう} (personal circumstances; esp. 〜の都合)
+- **Standalone (5)**: {文法書|ぶんぽうしょ} (grammar book), スポンジケーキ (sponge cake), スケートリンク (skating rink), バイオマス (biomass), カードケース (card case)
+
+§4 self-check: CLEAN — 0 issues across all 10 entries (independent accuracy review, $0.0043).
+
 ### 2026-06-16 (Routine v2: new-entries — 16 New Entries, IDs 29286–29301)
 Added 16 new entries: all 11 priority seen-in-entry gaps plus 5 hand-picked standalone words. The oldest candidate band remains overwhelmingly corpus-harvest noise (transparent compounds, dubious coinages), so standalone picks were curated for genuine dictionary-worthiness rather than padding to 20.
 
@@ -90,23 +98,5 @@ Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-
 - **Other (4)**: {工業革命|こうぎょうかくめい} (Industrial Revolution), {光学|こうがく}ディスク (optical disc), {右車線|みぎしゃせん} (right lane), {栄養教育|えいようきょういく} (nutrition education)
 
 §4 self-check: 2 flagged, both REJECTED (フォーム 'technology' tag valid for web-form sense; 印刷用紙 'tool' tag consistent with ノート precedent). $0.0074.
-
-### 2026-06-13 (Routine v2: new-entries — 20 New Entries, IDs 29221–29240)
-Added 20 new entries (IDs 29221–29240): 2 seen-in-entry gaps plus 18 regular candidates. Removed 3 stale candidates (すぎる, ような, ノマドワーカー already in dictionary).
-
-- **Seen-in-entry (2)**: {麸|ふすま} (wheat bran; new kanji 麸 assigned ID 02773), {航空法|こうくうほう} (Civil Aeronautics Act)
-- **Food/culture (3)**: {蒲焼き|かばやき} (kabayaki grilled eel), たたき (tataki seared fish), {食文化|しょくぶんか} (food culture)
-- **Food products (2)**: プロセスチーズ (processed cheese), バニラエッセンス (vanilla essence)
-- **Daily life (3)**: ヘルスメーター (bathroom scale), スリープウェア (sleepwear), {脱毛剤|だつもうざい} (hair removal cream)
-- **Building (1)**: {階建て|かいだて} (~-story building suffix)
-- **Health (1)**: {授乳中|じゅにゅうちゅう} (while breastfeeding)
-- **Traffic safety (2)**: {酒気帯び運転|しゅきおびうんてん} (DUI), {蛇行運転|だこううんてん} (reckless weaving driving)
-- **Commerce (2)**: {無着色|むちゃくしょく} (no artificial coloring), {希望小売価格|きぼうこうりかかく} (MSRP)
-- **Technology (1)**: {電気回路|でんきかいろ} (electric circuit)
-- **Travel/history (1)**: {遺跡群|いせきぐん} (ruins complex)
-- **Language (1)**: ポルトガル{語|ご} (Portuguese)
-- **Transportation (1)**: {最高速|さいこうそく} (top speed)
-
-§4 self-check: CLEAN (0 issues across 20 entries, $0.0088).
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
