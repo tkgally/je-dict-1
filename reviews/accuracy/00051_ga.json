@@ -2,36 +2,23 @@
   "entry_id": "00051_ga",
   "headword": "が",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:39:30Z",
+  "reviewed_at": "2026-06-17T21:31:25Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "gloss",
-      "location": "gloss",
+      "location": "definitions[2].gloss",
       "severity": "error",
-      "concern": "The top-level gloss 'subject marker' is incomplete as が also functions as an object marker and a conjunction.",
-      "suggestion": "Change the top-level gloss to reflect all primary functions, e.g., 'subject marker; object marker; but, although'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'grammatical' is too broad and doesn't capture the specific semantic functions of が, especially its contrastive/concessive use.",
-      "suggestion": "Add more specific semantic tags like 'contrastive', 'concessive', or 'emphasis' to reflect the various uses of が."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[11]",
-      "severity": "warn",
-      "concern": "The English translation 'Excuse me, but could you tell me the way?' for 'すみませんが、道を教えてください。' is a bit redundant with 'but' given 'Excuse me' already implies a slight imposition. While not strictly wrong, it could be more natural.",
-      "suggestion": "Change the translation to 'Excuse me, could you tell me the way?' or 'Sorry, but could you tell me the way?'"
+      "concern": "The gloss 'but, although (conjunction)' is misleading. While が can function as a conjunction meaning 'but' or 'although', this entry is for the particle が, which is not a conjunction in its primary uses (subject/object marker). The conjunction が is a separate lexical item, even if homophonous.",
+      "suggestion": "Remove this sense from the entry for the particle が, or create a separate entry for the conjunction が."
     }
   ]
 }
