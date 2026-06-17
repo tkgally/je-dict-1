@@ -2,6 +2,31 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-17] maintenance | Observation harvest (9 items) from 2026-06-16 runs
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06154`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all 9 unharvested observations from the 2026-06-16 routine polish, accuracy-review, and systemic-fix runs, filing them into four backlog pages:
+  - **Cleanup Backlog P11 update 2026-06-17** — the dense semantic tag-drift block across 5700–6340: ~50 wrong/out-of-taxonomy concrete-domain tags in 5700–6100 (missing `onomatopoeia`; invalid `payment`/`body`/`death`) and ~30% garbage tags in 6140–6340 (61 fixed in one accuracy-review run; 朱肉→animal-mammal, proverbs→clothing/animal-insect). Highest-density pocket measured to date; recommends a semantic-tag-vs-headword detector.
+  - **Cleanup Backlog P9 update 2026-06-17** — new no-pipe brace-span + stray-trailing-brace furigana sub-pattern (06147_jiboujiki), likely across the 06140s yojijukugo batch; passes coverage checks because there is no pipe.
+  - **Cleanup Backlog P21 update 2026-06-17** — partial inline-link backfill of the 06140s idiom cohort (06147–06150 done, 06151+ pending).
+  - **Tooling Backlog item 6 update** — proverb/yojijukugo lacking `proverb`/`idiom` as a high-precision drift signal.
+  - **Tooling Backlog item 8 enhancement** — extend `check_furigana_format.py` to flag no-pipe `{...}` spans and unbalanced braces (shipped regex requires a pipe and misses them).
+  - **Tooling Backlog item 17 update 2026-06-17** — sixth confirmation of the in-list-narrowness `tags` noise family (5704–6139, 31% flagged).
+  - **Tooling Backlog item 20 update 2026-06-17** — notes-quality scorer ranks comprehensive particle/function entries (が/は/ぐらい) as "worst notes" because it ignores structured fields.
+  - **Tooling Backlog new item 21** — chunk review_runner/screening into ~50–100-ID sub-ranges (two timeout truncations this week).
+  - **Entry Follow-ups** — stale `noentry` links 05803 創業者→29027, 05720 ぼりぼり→28996.
+  - All 9 observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [A/Sync] Checked `PROJECT_STATUS.md` — counts are self-labelled approximate (`make report` is authoritative); no wiki sync needed.
+- [E/Lint] Verified 0 broken cross-references in the four pages edited; refreshed `index.md` "Last updated" line.
+
+**Metrics-trend (H)**: Not triggered — only 7 new `metrics-history.jsonl` lines since `quality-metrics.md`'s last refresh (60 runs), below the ≥10 threshold.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-16] maintenance | Observation harvest (3 items) + metrics-trend fourth refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

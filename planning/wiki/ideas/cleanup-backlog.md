@@ -184,6 +184,8 @@ By sub-pattern:
 
 **Update 2026-06-06 (new sub-pattern: nested/double braces)**: Comprehensive-polish session 025 (entries 05374–05389) found a *nested* furigana wrapper form, `{{word|reading}phrase|compound-reading}`, in 05379 and 05380. This is invalid — each kanji compound should carry its own `{漢字|かんじ}` annotation rather than nesting one wrapper inside another. The furigana renderer expects a flat `{kanji|reading}` and will misrender or drop the nested form. **Detection**: `grep -rl '{{' entries/` (the literal `{{` opening is the tell). Scope unknown; this is the first range where the nested form has been observed, so a one-shot scan across all entries is warranted. The format validator proposed in [Tooling Backlog](tooling-backlog.md) → item 8 should add a "nested wrapper" check alongside its other rules.
 
+**Update 2026-06-17 (new sub-pattern: no-pipe brace spans + stray trailing brace)**: A 2026-06-16 routine polish session found a furigana-brace malformation in **06147_jiboujiki** distinct from all the sub-patterns above: the `{...}` (kanji|reading) syntax applied to a **whole kana phrase with no `|` separator at all** (`{やけになる}`) and a valid wrapper followed by a **stray trailing `}`** (`{投|な}げやりになる}`). Both render as literal braces on the live site and — because there is no pipe — they slip past furigana-*coverage* checks entirely (those only look for kanji lacking a reading, not for degenerate wrappers). This is likely present across the **same early-2026 yojijukugo batch** (06140s idiom cohort under P21). **Detection / tool side**: extend `build/check_furigana_format.py` to flag (a) `{...}` spans that contain no `|`, and (b) unbalanced braces in a field — see [Tooling Backlog](tooling-backlog.md) → item 8. Fixed in 06147 during the originating session; the rest of the batch is unswept.
+
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
@@ -314,6 +316,10 @@ The contaminated frontier now tracks to the 06140s; the 05000–05300 pocket sho
 - **〜的 / 〜性 abstract adjectives/nouns** tagged with unrelated domains: 協力的, 歴史的, 政治的, 主観的, 全面的 → `time-general`/`education`.
 - **Concrete nouns mis-tagged**: 天秤 → `clothing`; 苦楽/寒暖 → `body-part`; 頷く → `work`.
 These are all `VALID_SEMANTIC` tags applied to the wrong domain, so the `check_tag_drift.py` unknown-semantic detector (P20) will **not** catch them — they need the accuracy-review `tags` pass or per-entry polish. The band sits just below the comprehensive-polish frontier (`next: 06147`), so sequential polishing has not yet reached it; the contaminated batch signature is consistent with the 2026-04-14 claude-opus-4-5 run that dominates the rest of P11.
+
+**Update 2026-06-17**: Two 2026-06-16 Routine runs (an accuracy-review pass over 5704–6139 and a second accuracy-review pass over 6140–6340) re-confirmed the density of this pattern across the **5700–6340 block** and quantified it for the first time at the frontier:
+- **5700–6100 block** (accuracy-review observation): ~50 entries carried genuinely-wrong or out-of-taxonomy concrete-domain tags — `electronics`/`furniture`/`weather`/`body-part`/`geography`/`leisure` misapplied, `onomatopoeia` **missing** on clearly mimetic words, plus invalid (out-of-list) `payment`/`body`/`death` tags. The invalid ones are P20 (unknown-semantic) territory; the misapplied in-list ones are the core P11 wrong-category failure.
+- **6140–6340 range** (accuracy-review run): ~30% of entries carried categorically-wrong auto-assigned tags — 朱肉 (vermilion ink-pad) tagged `animal-mammal`, proverbs tagged `clothing`/`animal-insect`, idioms tagged `time-general`/`leisure`. **61 entries fixed in that single run.** The run noted that proverbs/yojijukugo should carry `proverb`/`idiom` (cf. the 04768/04773/0552x yojijukugo→`furniture` cases above) and recommended a dedicated **semantic-tag-vs-headword sanity detector** (proverbs/yojijukugo → `proverb`/`idiom`; concrete-noun headword vs concrete-domain tag mismatch) to clear the rest faster — see Tooling Backlog item 6. This is the same batch-creation signature as the rest of P11; the 5700–6340 block is the highest-density pocket measured to date and is a strong candidate for a scoped accuracy-review `tags` sweep ahead of the sequential polish frontier.
 
 ## Priority 12: Dual-reading furigana with slash separators — RESOLVED 2026-06-16
 
@@ -587,6 +593,15 @@ above, so the whole 06140s idiom block should be backfilled together. The idiom 
 differs from the compound-verb/noun cohorts only in that its notes carry fewer
 structured TRANSITIVITY/Pattern lines, so the backfill is mostly example-sentence and
 free-prose links rather than the P21 sub-pattern labels.
+
+**Update 2026-06-17**: A 2026-06-16 routine polish session began backfilling the
+06140s idiom cohort by hand — full inline-link coverage was added to **06147, 06148,
+06149** (idioms/proverbs) and **06150** (コーディング) in that run. **06151 onward in
+the same pre-inline-link creation batch remain pending.** This confirms the backfill
+is tractable per-entry (mostly example-sentence and free-prose links, few P21
+sub-pattern labels, as predicted in the 2026-06-16 update) but that sequential
+hand-polishing will be slow over the whole 06140–06170+ block; the detector (Tooling
+item 15) is still the prerequisite for a systemic-fix batch.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

@@ -520,6 +520,20 @@ the verb lives at 17737). Replace the verb-form examples with genuine noun examp
 問い合わせ (e.g. お問い合わせはこちら, 問い合わせが殺到する) or, if kept, ensure they link to
 17737. Needs per-entry judgment.
 
+## 05803_sougyousha & 05720 — Stale `noentry` inline links (now resolvable)
+
+**Source**: 2026-06-16 accuracy-review run
+
+Two more stale `⟦…：noentry⟧` markers surfaced during review, the same class as the
+05528/05530/00012 cases under [Tooling Backlog](tooling-backlog.md) → item 19:
+- **05803** links `創業者→noentry`, but the entry now exists: **29027_sougyousha** (founder).
+- **05720** links `ぼりぼり→noentry`, but the entry now exists: **28996_boribori**.
+
+**Recommended fix**: Re-resolve both markers to the existing IDs (a deterministic
+lookup against `build/word_id_lookup.json`). These are concrete instances for the
+proposed `check_noentry_links.py` self-healing scan (Tooling item 19); until that ships,
+fix them in the next inline-link refresh pass that touches the 0570x–0580x range.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
