@@ -113,6 +113,8 @@ Each check is cheap. A combined `check_tag_drift.py` script could emit a JSON re
 
 **Connection**: [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Detection sketches" lists the specific check rules.
 
+**Update 2026-06-17 (proverb/yojijukugo signal)**: The 2026-06-16 accuracy-review run over 6140–6340 (which fixed 61 garbage-tagged entries; Cleanup P11 update 2026-06-17) suggested a cheap, high-precision addition to the `semantic-mismatch` heuristic: **proverbs and yojijukugo headwords that lack a `proverb`/`idiom` tag are almost always mis-tagged** (the run found idioms tagged `clothing`/`animal-insect`/`time-general`/`leisure`). A headword detectable as a four-character compound (kanji-only length 4) or marked as a saying, carrying a concrete-object semantic tag instead of `proverb`/`idiom`/`expression`, is a strong drift signal worth flagging deterministically — and complements the noisy keyword-map check rather than relying on it.
+
 ## 7. Polysemic kanji-variant overlap detector
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
@@ -150,6 +152,8 @@ For each `\{([^|}{]+)\|([^}{]+)\}` match in headword / examples / notes:
 **Scope**: New script `build/check_furigana_format.py`, sibling to `verify_furigana.py` and `check_consistency.py`. Possibly fold a summary into `report.py`.
 
 **Connection**: see [Furigana Wrapper Anomalies](../topics/furigana-wrapper-anomalies.md) for the full analysis and [Cleanup Backlog](cleanup-backlog.md) → Priority 9 for the planned remediation.
+
+**Enhancement 2026-06-17 (no-pipe / unbalanced-brace detection)**: The shipped detector keys on `\{([^|}{]+)\|([^}{]+)\}` — a regex that **requires a pipe**, so it cannot see degenerate wrappers that contain no `|` at all (`{やけになる}`) or fields with an unbalanced/stray closing brace (`{投|な}げやりになる}`). Both were found in 06147_jiboujiki (a 2026-06 routine polish observation, now Cleanup P9 update 2026-06-17) and render as literal braces on the live site while passing furigana-*coverage* checks. Add two rules: (a) flag any `{` … `}` span whose interior contains no `|`; (b) flag any field whose `{` and `}` counts are unequal. Likely present across the same early-2026 yojijukugo batch (06140s).
 
 ## 9. Headword furigana format fix script
 
@@ -422,6 +426,16 @@ with the same ~40–55% flag rate driven by in-list narrowness nits. This is the
 fifth independent confirmation; the fallback-tag exception + severity rule remains the
 single highest-leverage unshipped reviewer-prompt fix.
 
+**Update 2026-06-17**: A 2026-06-16 accuracy-review run over **5704–6139** flagged
+137/436 entries (31%) — above the 20% noise threshold but lower than the 40–55% of the
+03301–05700 band, because this higher range carries more genuine wrong-category tags
+(see Cleanup P11 update 2026-06-17). The dominant noise family was again "in-list
+semantic tag too broad/narrow" (general→specific domain), ~60 flags rejected per policy.
+The run reiterated that the `tags` prompt should suppress in-list narrowness
+substitutions and flag only out-of-taxonomy or genuinely-wrong-domain tags — the precise
+slice where this run's precision was high. Sixth consecutive confirmation; fix still
+unshipped.
+
 ## 18. check_example_headword.py false-positive reduction
 
 **Source**: 2026-06-14/15 routine runs (example-headword-missing systemic-fix lane)
@@ -491,6 +505,47 @@ lane targets genuinely thin notes instead of re-surfacing settled ones. The Rout
 polish mode already regenerates + resets when >half the priority-lane entries need no
 changes (routine2.md §2), but that is a reactive backstop; filtering at ranking time
 would stop wasting the priority lane's budget on no-op entries in the first place.
+
+**Update 2026-06-17 (structured-field blind spot)**: A 2026-06-16 routine polish run
+exposed a second, sharper cause of the same no-op problem: `score_note_quality.py` /
+`prioritize_polishing.py` rank **structured particle/function-word entries** at the very
+top of `priority/notes.txt` — が (00051, score 30), は (00079, score 35), ぐらい (02900,
+score 50) — even though those entries are *comprehensive*. Their content lives in
+dedicated structured fields (`predicates_requiring`, `particle_contrasts`,
+`information_structure`, `fixed_patterns`, `common_mistakes`) that the scorer ignores
+while measuring only the `notes` string. Result: the priority lane keeps surfacing
+already-excellent function-word entries as "worst notes" (4 of 7 priority entries needed
+no changes for this reason in the originating run). **Fix**: have the scorer credit
+those structured fields toward the note-quality score, or skip particle/function entries
+that populate them. This is complementary to the recency/adequacy filter above — both
+should land together so the notes lane stops re-surfacing settled and structurally-rich
+entries.
+
+## 21. Chunk the review/screening runners to fit the session timeout
+
+**Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
+
+`review_runner.py --pass screening` is killed by the session's `timeout` wrapper on
+large ID sets, because gemini-2.5-flash runs ~9 s/entry and the runner processes one
+entry at a time with no internal checkpoint against the wall clock. Two confirmed
+truncations this week:
+- A systemic-fix self-check over **118 IDs** was killed at ~59/118 by the 540 s wrapper.
+- A furigana screen over **6140–6650** was killed at 580 s having covered only
+  6140–6223 (84 entries).
+
+In both cases the partial results that *were* written are usable (the runner is
+incremental), and all flags from the truncated portions were the documented furigana
+false-positive families (rendaku-in-compound, okurigana/partial-reading "correct by
+design", screener input-truncation artifacts), so no coverage was lost in practice — but
+the abnormal exit is noise in the logs and risks a half-finished pass being mistaken for
+a complete one.
+
+**Suggested fix (any of):** (a) have callers (routine2.md §4 self-check, §A furigana
+pass) **batch into ~50–100-ID sub-ranges** and loop, so each invocation finishes well
+inside the timeout; (b) add a `--max-seconds` / batch-size guard inside `review_runner.py`
+that stops cleanly and prints how far it got, instead of being SIGKILLed; (c) raise the
+wrapper timeout for screening-only passes. Option (a) is the smallest change and is
+already the documented workaround in `polishing/observations.md`.
 
 ## Related pages
 
