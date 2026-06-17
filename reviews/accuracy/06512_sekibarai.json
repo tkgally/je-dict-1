@@ -1,0 +1,31 @@
+{
+  "entry_id": "06512_sekibarai",
+  "headword": "{咳払|せきばら}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:26:29Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '咳払い' (clearing one's throat). '咳払い' is an action, not a body part.",
+      "suggestion": "Replace 'body-part' with 'action'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-general' is incorrect for '咳払い' (clearing one's throat). '咳払い' is not a concept related to time.",
+      "suggestion": "Remove 'time-general'."
+    }
+  ]
+}

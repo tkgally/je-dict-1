@@ -1,0 +1,24 @@
+{
+  "entry_id": "06499_kenage",
+  "headword": "{健気|けなげ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:26:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is incorrect for the headword '健気'.",
+      "suggestion": "Replace 'clothing' with a more appropriate tag like 'emotion', 'personality', or 'descriptive'."
+    }
+  ]
+}

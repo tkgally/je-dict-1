@@ -1,0 +1,24 @@
+{
+  "entry_id": "06521_kappa",
+  "headword": "{河童|かっぱ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:26:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is incorrect for '河童'.",
+      "suggestion": "Replace 'electronics' with 'mythology' or 'culture'."
+    }
+  ]
+}

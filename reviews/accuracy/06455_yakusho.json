@@ -1,0 +1,31 @@
+{
+  "entry_id": "06455_yakusho",
+  "headword": "{役所|やくしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for '役所'. It is a neutral term.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '役所'. A more specific tag is available.",
+      "suggestion": "society"
+    }
+  ]
+}

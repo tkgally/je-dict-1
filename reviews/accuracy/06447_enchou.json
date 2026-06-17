@@ -1,0 +1,38 @@
+{
+  "entry_id": "06447_enchou",
+  "headword": "{延長|えんちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:16Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'building' is inappropriate for the headword '延長'.",
+      "suggestion": "Remove 'building'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion' is inappropriate for the headword '延長'.",
+      "suggestion": "Remove 'emotion'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'transportation' is inappropriate for the headword '延長'.",
+      "suggestion": "Remove 'transportation'."
+    }
+  ]
+}

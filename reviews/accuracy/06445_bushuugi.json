@@ -1,0 +1,24 @@
+{
+  "entry_id": "06445_bushuugi",
+  "headword": "{不祝儀|ぶしゅうぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'electronics' and 'time-general' are incorrect for the headword '不祝儀'.",
+      "suggestion": "Replace 'electronics' and 'time-general' with 'culture' or 'society' or 'daily-life'."
+    }
+  ]
+}
