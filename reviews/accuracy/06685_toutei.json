@@ -1,0 +1,31 @@
+{
+  "entry_id": "06685_toutei",
+  "headword": "{到底|とうてい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:06:39Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 'utterly' is used with a negative, but it can also be used positively (e.g., 'utterly beautiful'). The Japanese word 到底 is almost exclusively used with negative predicates.",
+      "suggestion": "utterly (with negative) should be removed or rephrased to clarify its negative-only usage."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 'utterly impossible' is a standalone meaning, but 'utterly' is an adverb modifying 'impossible'. The Japanese word 到底 is an adverb that modifies a negative predicate.",
+      "suggestion": "utterly impossible (with negative) should be rephrased to clarify that 'utterly' modifies a negative predicate, not that 'utterly impossible' is a direct translation."
+    }
+  ]
+}

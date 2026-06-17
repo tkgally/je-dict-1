@@ -1,0 +1,31 @@
+{
+  "entry_id": "06815_kabureru",
+  "headword": "かぶれる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:23Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is inappropriate for the headword 'かぶれる'.",
+      "suggestion": "Remove 'leisure'. The word's meanings (getting a rash, being influenced) do not directly relate to leisure activities."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is inappropriate for the headword 'かぶれる'.",
+      "suggestion": "Remove 'body-part'. While one sense relates to a rash on the body, the word itself is a verb describing an action/state, not a body part."
+    }
+  ]
+}

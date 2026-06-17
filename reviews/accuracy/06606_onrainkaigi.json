@@ -1,0 +1,24 @@
+{
+  "entry_id": "06606_onrainkaigi",
+  "headword": "オンライン{会議|かいぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:04:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is inappropriate for 'オンライン会議' (online meeting). Online meetings are primarily associated with work or business, not leisure activities.",
+      "suggestion": "Remove 'leisure' and add 'work' or 'business' if appropriate, or leave it as 'electronics' and 'communication'."
+    }
+  ]
+}

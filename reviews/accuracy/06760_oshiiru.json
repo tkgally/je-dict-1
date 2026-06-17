@@ -1,0 +1,24 @@
+{
+  "entry_id": "06760_oshiiru",
+  "headword": "{押|お}し{入|い}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this verb. '押し入る' is a neutral verb used in various contexts, including news reports and everyday speech, and does not carry a particularly formal nuance.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1559,3 +1559,124 @@
 {"ts": "2026-06-17T09:34:37Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 19, "note": "family: context-truncation/okurigana/rendaku/standalone-vs-compound FPs; deep pass skipped"}
 {"ts":"2026-06-17T16:41:34Z","entry":"14488","src":"self-check","dim":"furigana","sev":"error","decision":"apply","note":"五山 ございん->ござん gozan"}
 {"ts":"2026-06-17T16:41:34Z","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: partial/compound-split/rendaku furigana false positives"}
+{"ts": "2026-06-17T19:02:21Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 43, "note": "family: context-truncation/okurigana-split/rendaku/standalone-vs-compound/parse-fail FPs; deep skipped"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06543", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06547", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['tool']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06550", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['communication']->['transportation']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06551", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-mammal']->['transportation']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06554", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-mammal']->['leisure']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06555", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-mammal', 'leisure']->['leisure']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06563", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06564", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-mammal']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06566", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure']->['music']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06568", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion']->['building']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06572", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['occupation']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06573", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['food', 'leisure']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06576", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography', 'work']->['finance']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06578", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['work']->['finance']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06579", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['work']->['finance']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06581", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education']->['law']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06584", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06586", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06587", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06588", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06596", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06601", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['transportation']->['technology']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06606", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'leisure']->['communication', 'electronics']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06608", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure', 'time-general']->['leisure']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06611", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['abstract']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06612", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education']->['law']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06614", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion', 'food', 'leisure']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06618", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education', 'transportation']->['building', 'work']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06621", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['society']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06624", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['work']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06629", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'time-general']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06630", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure']->['general']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06631", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'leisure']->['cognition']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06632", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['communication', 'transportation']->['communication']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06639", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building']->['communication']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06643", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06646", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06647", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06649", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion', 'time-general', 'tool']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06651", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion', 'time-general', 'tool']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06652", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['transportation']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06655", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'emotion']->['cognition', 'emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06656", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'food', 'time-general', 'weather']->['food', "}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06660", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['furniture']->['food', 'descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06665", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['general']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06668", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'time-general']->['daily-life']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06669", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['furniture']->['weather']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06672", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06673", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing', 'emotion', 'food']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06675", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06677", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06681", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['food', 'descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06682", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['food']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06684", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['time-general']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06688", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['time-general']->['cognition']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06691", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part', 'geography']->['education']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06692", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['education']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06693", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['tool']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06707", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06709", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing', 'emotion', 'food']->['emotion', 'descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06711", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['tool']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06720", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06722", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part', 'time-general']->['work']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06724", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-insect', 'education']->['family']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06725", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education']->['family']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06726", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography', 'tool']->['geography']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06727", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'transportation']->['quantity']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06728", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06738", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['food']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06742", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education', 'emotion']->['communication', 'emotion']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06743", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['communication', 'geography', 'tool']->['business']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06744", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'communication', 'education', 'geography', 'tran"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06750", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion', 'food']->['food', 'plant-general']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06753", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['cognition']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06756", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['clothing']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06762", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion', 'time-general']->['emotion', 'action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06771", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['building']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06772", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['building']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06775", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['animal-mammal', 'leisure']->['sports', 'leisure']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06777", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['food']->['business']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06784", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06785", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['cognition']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06786", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['education']->['history']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06788", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['time-general']->['general']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06790", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['food', 'tool']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06797", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics', 'time-general']->['electronics']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06798", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['transportation']->['action']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06800", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure']->['grammatical']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06802", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['grammatical']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06807", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part', 'building', 'time-general', 'transportation', '"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06810", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['work']->['family']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06811", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part', 'electronics', 'time-general', 'work']->['work'"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06813", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['building', 'electronics', 'geography']->['cognition', 'emot"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06814", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['existence']->['health']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06815", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part', 'leisure']->['health']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06820", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06821", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['furniture']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06823", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['body-part']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06825", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['electronics']->['personality']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06830", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['furniture', 'leisure']->['descriptive']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06831", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['emotion']->['work']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06832", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['transportation', 'work']->['work']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06839", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['leisure']->['change']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06840", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "category-error sem ['geography']->['sports']"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06667", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality formal->informal (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06668", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality formal->informal (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06719", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality formal->informal (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06741", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality vulgar->neutral (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06759", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality formal->informal (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06816", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "formality formal->informal (notes contradict)"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06746", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "apply", "note": "removed misleading 'exploitation'"}
+{"ts": "2026-06-17T19:18:07Z", "entry": "06557", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "apply", "note": "clarified takeuma-no-tomo idiom gloss"}
+{"ts": "2026-06-17T19:18:39Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 28, "note": "family: general/fallback->more-specific substitution (policy: valid fallback)"}
+{"ts": "2026-06-17T19:18:39Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 4, "note": "family: in-list too-narrow/broad substitution"}
+{"ts": "2026-06-17T19:18:39Z", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "reject", "n": 41, "note": "family: formal->neutral, notes do not contradict label"}
+{"ts": "2026-06-17T19:18:39Z", "entry": "06548", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "'vice' is valid British spelling of the tool"}
+{"ts": "2026-06-17T19:18:39Z", "entry": "06557", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "'stilts' is standard gloss; matches examples"}
+{"ts": "2026-06-17T19:18:39Z", "entry": "06615", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "n": 6, "note": "family: action/product nuance; gloss carries both senses"}
+{"ts": "2026-06-17T19:18:39Z", "entry": "06685", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "gloss already marks '(with negative)'"}
+{"ts": "2026-06-17T19:18:39Z", "entry": "06770", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "aisu is not frozen-water ice (=koori); model wrong"}

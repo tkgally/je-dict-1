@@ -1,0 +1,24 @@
+{
+  "entry_id": "06813_mousou",
+  "headword": "{妄想|もうそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are completely wrong for the headword '妄想' (delusion, fantasy).",
+      "suggestion": "Replace 'building', 'electronics', 'geography' with 'cognition', 'emotion', 'action'."
+    }
+  ]
+}

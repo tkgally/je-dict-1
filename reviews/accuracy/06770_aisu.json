@@ -1,0 +1,31 @@
+{
+  "entry_id": "06770_aisu",
+  "headword": "アイス",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:21Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'ice cream; iced' is misleading because 'iced' is an adjective, not a noun, and 'アイス' as a standalone noun can mean 'ice' (as in frozen water), not just 'ice cream'.",
+      "suggestion": "ice cream; ice; iced"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[2].gloss",
+      "severity": "error",
+      "concern": "The gloss 'ice; iced (as in iced coffee)' is misleading because 'iced' is an adjective, not a noun. 'アイス' can mean 'ice' (the frozen water) as a noun, but the gloss implies it's only 'iced' when used in compounds.",
+      "suggestion": "ice; iced (as in iced coffee)"
+    }
+  ]
+}

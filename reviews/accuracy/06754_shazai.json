@@ -1,0 +1,24 @@
+{
+  "entry_id": "06754_shazai",
+  "headword": "{謝罪|しゃざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "Politeness tag 'humble' is incorrect for this headword.",
+      "suggestion": "neutral"
+    }
+  ]
+}

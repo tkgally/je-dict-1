@@ -1,0 +1,24 @@
+{
+  "entry_id": "06797_toritsukeru",
+  "headword": "{取|と}り{付|つ}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-general' is incorrect for the headword '取り付ける'. The word does not relate to time.",
+      "suggestion": "Remove 'time-general'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "06788_mattan",
+  "headword": "{末端|まったん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:08:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is incorrect for '末端'.",
+      "suggestion": "Replace 'time-general' with 'general' or 'body-part' (given examples)."
+    }
+  ]
+}

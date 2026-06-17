@@ -1,0 +1,24 @@
+{
+  "entry_id": "06677_kogasu",
+  "headword": "{焦|こ}がす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:06:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for the headword '焦がす'. The word means 'to burn' or 'to scorch', which is an action, not a body part.",
+      "suggestion": "action"
+    }
+  ]
+}

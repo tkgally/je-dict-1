@@ -1,0 +1,24 @@
+{
+  "entry_id": "06840_haitai",
+  "headword": "{敗退|はいたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for the headword '敗退' (defeat, elimination).",
+      "suggestion": "Replace 'geography' with 'sports' or 'action'."
+    }
+  ]
+}

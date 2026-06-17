@@ -1,0 +1,24 @@
+{
+  "entry_id": "06691_chuukanshiken",
+  "headword": "{中間試験|ちゅうかんしけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:06:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'body-part' and 'geography' are clearly wrong for '中間試験' (midterm exam).",
+      "suggestion": "Replace 'body-part' and 'geography' with 'education'."
+    }
+  ]
+}

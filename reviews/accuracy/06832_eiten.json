@@ -1,0 +1,24 @@
+{
+  "entry_id": "06832_eiten",
+  "headword": "{栄転|えいてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:09:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'transportation' is incorrect for '栄転'.",
+      "suggestion": "Remove 'transportation'."
+    }
+  ]
+}

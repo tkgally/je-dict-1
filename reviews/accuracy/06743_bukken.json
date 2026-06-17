@@ -1,0 +1,45 @@
+{
+  "entry_id": "06743_bukken",
+  "headword": "{物件|ぶっけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T19:07:43Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for '物件'.",
+      "suggestion": "Remove 'communication'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'geography' is not appropriate for '物件'.",
+      "suggestion": "Remove 'geography'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'tool' is not appropriate for '物件'.",
+      "suggestion": "Remove 'tool'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing appropriate semantic tags for '物件'.",
+      "suggestion": "Add 'business', 'daily-life', 'law', 'shopping'."
+    }
+  ]
+}
