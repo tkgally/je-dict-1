@@ -66,3 +66,8 @@ _(2026-06-17 wiki (Routine v2) harvest: processed all 9 observations from the 20
 - **Tooling Backlog new item 21**: chunk review_runner/screening into ~50–100-ID sub-ranges (two timeout truncations this week: 118-ID self-check and 6140–6650 screen).
 - **Entry Follow-ups**: stale `noentry` links 05803 創業者→29027 and 05720 ぼりぼり→28996.
 All 9 observations cleared.)_
+
+## 2026-06-17 — routine polish session (priority lane 00xxx; frontier 06154–06156)
+- [pattern] Priority lane (notes ranking) again surfaced already-clean basic particle/adjective entries: of 8 checked (00051_ga, 00079_ha, 00733_mazui, 02900_gurai, 00740_oishii, 00484_mo, 00864_kowai, 00025_chiisai), 7 needed no changes — confirms structured-field blind spot (existing item 20). Regenerated priorities + reset cursor this run.
+- [tooling] verify_furigana correctly catches unwrapped kanji in particle structured fields (00484_mo had 数量/一 unwrapped in both `fixed_patterns` and `notes`), but these slip past casual review since the example/notes prose looked complete. Worth a targeted sweep of `fixed_patterns`/`particle_behavior`/`question_word_patterns` pattern strings across all particle entries for furigana completeness.
+- [pattern] Frontier 06154–06156 (loanword + 出社/退社 cluster) had ZERO inline-link coverage in examples and notes despite being created entries — recent-vintage general entries are systematically missing inline links. 06156 was modified 2026-06-16 yet still had no links, so a prior touch did not add them.
