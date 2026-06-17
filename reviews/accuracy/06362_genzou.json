@@ -1,0 +1,24 @@
+{
+  "entry_id": "06362_genzou",
+  "headword": "{現像|げんぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:23:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing semantic tag for the specific domain of the word.",
+      "suggestion": "Add 'photography' or 'art' (if photography is considered a sub-category of art in the tag list) to the semantic tags."
+    }
+  ]
+}

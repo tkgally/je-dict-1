@@ -1,0 +1,24 @@
+{
+  "entry_id": "06480_yobikakeru",
+  "headword": "{呼|よ}びかける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:26:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is incorrect for the headword '呼びかける'.",
+      "suggestion": "Replace 'electronics' with 'communication' or 'action'."
+    }
+  ]
+}

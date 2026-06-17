@@ -1,0 +1,24 @@
+{
+  "entry_id": "06442_youkya",
+  "headword": "{陽|よう}キャ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is explicitly labeled as 'slang' in the gloss, but the formality tag is 'formal'. This is contradictory.",
+      "suggestion": "Change 'formal' to 'informal' or 'slang'."
+    }
+  ]
+}

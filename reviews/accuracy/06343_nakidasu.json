@@ -1,0 +1,24 @@
+{
+  "entry_id": "06343_nakidasu",
+  "headword": "{泣|な}き{出|だ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:23:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for '泣き出す'.",
+      "suggestion": "Replace 'food' with 'emotion' or 'action'."
+    }
+  ]
+}

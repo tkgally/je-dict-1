@@ -1,0 +1,31 @@
+{
+  "entry_id": "06475_yuuchuubaa",
+  "headword": "ユーチューバー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific occupation. 'person' or 'occupation' would be more appropriate.",
+      "suggestion": "occupation"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term 'ユーチューバー' is a modern, informal loanword, not formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "06471_taihi",
+  "headword": "{堆肥|たいひ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T09:25:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'communication' is incorrect for '堆肥' (compost).",
+      "suggestion": "Replace 'communication' with 'agriculture' or 'nature'."
+    }
+  ]
+}
