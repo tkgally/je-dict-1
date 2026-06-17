@@ -180,13 +180,13 @@
       "example_english": "Would you like to have some coffee or something?"
     },
     {
-      "pattern": "数量 + も",
+      "pattern": "{数量|すうりょう} + も",
       "meaning": "as many/much as (emphasis)",
       "example": "{三回|さんかい}も{失敗|しっぱい}した",
       "example_english": "failed as many as three times"
     },
     {
-      "pattern": "一〜も + negative",
+      "pattern": "{一|いち}〜も + negative",
       "meaning": "not even one",
       "example": "{一人|ひとり}も{来|こ}なかった",
       "example_english": "not even one person came"
@@ -373,7 +373,7 @@
       "explanation": "{誰|だれ}も with negative = nobody; for 'everyone' use {皆|みんな} or {誰|だれ}でも"
     }
   ],
-  "notes": "も is a versatile particle meaning 'also/too/even.' It interacts with other particles in specific ways.\n\nPARTICLE BEHAVIOR:\n- Replaces ⟦は→は：00079_ha⟧, ⟦が→が：00051_ga⟧, ⟦を→を：00422_wo⟧: ⟦{私|わたし}→私：02988_watashi⟧も⟦{行|い}く→行く：00119_iku⟧\n- Attaches after ⟦に→に：00314_ni⟧, ⟦で→で：00502_de⟧, ⟦と→と：00512_to⟧, ⟦から→から：00504_kara⟧, ⟦まで→まで：00490_made⟧: ⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧も⟦{行|い}った→行く：00119_iku⟧\n\nQUESTION WORD + も + NEGATIVE:\n- ⟦{誰|だれ}→誰：00534_dare⟧も...⟦ない→ない：01118_nai⟧: nobody\n- ⟦{何|なに}→何：00498_nani⟧も...⟦ない→ない：01118_nai⟧: nothing\n- ⟦どこ→どこ：00539_doko⟧も...⟦ない→ない：01118_nai⟧: nowhere\n- ⟦いつも→いつも：00599_itsumo⟧: always (exception - positive)\n\nKEY PATTERNS:\n- AもBも: both A and B\n- AもBも + negative: neither A nor B\n- 数量+も: as many as (emphasis)\n- 一〜も + negative: not even one",
+  "notes": "も is a versatile particle meaning 'also/too/even.' It interacts with other particles in specific ways.\n\nPARTICLE BEHAVIOR:\n- Replaces ⟦は→は：00079_ha⟧, ⟦が→が：00051_ga⟧, ⟦を→を：00422_wo⟧: ⟦{私|わたし}→私：02988_watashi⟧も⟦{行|い}く→行く：00119_iku⟧\n- Attaches after ⟦に→に：00314_ni⟧, ⟦で→で：00502_de⟧, ⟦と→と：00512_to⟧, ⟦から→から：00504_kara⟧, ⟦まで→まで：00490_made⟧: ⟦{東京|とうきょう}→東京：09564_toukyou⟧⟦に→に：00314_ni⟧も⟦{行|い}った→行く：00119_iku⟧\n\nQUESTION WORD + も + NEGATIVE:\n- ⟦{誰|だれ}→誰：00534_dare⟧も...⟦ない→ない：01118_nai⟧: nobody\n- ⟦{何|なに}→何：00498_nani⟧も...⟦ない→ない：01118_nai⟧: nothing\n- ⟦どこ→どこ：00539_doko⟧も...⟦ない→ない：01118_nai⟧: nowhere\n- ⟦いつも→いつも：00599_itsumo⟧: always (exception - positive)\n\nKEY PATTERNS:\n- AもBも: both A and B\n- AもBも + negative: neither A nor B\n- {数量|すうりょう}+も: as many as (emphasis)\n- {一|いち}〜も + negative: not even one",
   "cross_references": [
     {
       "type": "see_also",
@@ -390,7 +390,7 @@
   ],
   "metadata": {
     "created": "2026-01-05T12:58:49Z",
-    "modified": "2026-02-07T10:54:25Z",
+    "modified": "2026-06-17T03:18:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
