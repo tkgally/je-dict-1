@@ -34,6 +34,8 @@ Two related sub-issues:
 - Consider `validate.py --strict` mode promoting "missing target_id" notes to errors
 - Confirm `check_consistency.py` flags entries lacking the `cross_references` field
 
+**Update 2026-06-17 (systemic-fix run)**: `build/check_artifacts.py --issue missing-target-id` now exists as the scanner (190 dangling refs across 180 entries at run start). This run filled `target_id` on the 54 refs whose **headword AND reading both** uniquely match an existing entry — the provably-correct subset where a real link had simply lost its id (antonym pairs like 12053_jigoku→天国, transitivity pairs like 00001_amaru→27283_amasu, same-kanji homophone triplets like 20859_atsui→厚い/暑い/熱い). Detector down to 136. **Caution learned this run**: a `by_reading` fallback is unsafe (homophone confusions: 有限/ゆうげん matched 幽玄, 小学/しょうがく matched 少額) — only fill `target_id` on exact headword+reading matches. The remaining 136 are "headword has no entry" cases; some are *deliberate* homophone/contrast pointers (e.g. 00250_kufuu → 工夫/こうふ "laborer (homophone)") that should be kept, not dropped. A future run must verify each before dropping.
+
 ## Priority 3: Cross-reference symmetry on thematic clusters
 
 **Source**: Comprehensive-polish 2026-05-09 session 002

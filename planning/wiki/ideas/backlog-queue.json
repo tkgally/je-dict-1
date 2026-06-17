@@ -91,9 +91,9 @@
    "priority": 5,
    "batch_ready": true,
    "status": "open",
-   "scope_estimate": 183,
+   "scope_estimate": 136,
    "severity": "warn",
-   "notes": "A dangling reference object lacks target_id. Resolve the intended entry id (build/word_id_lookup.json), or drop the reference if no entry exists."
+   "notes": "A dangling reference object lacks target_id. Resolve the intended entry id (build/word_id_lookup.json), or drop the reference if no entry exists. PROGRESS 2026-06-17: detector down 190->136 (180->130 entries). Filled target_id on the 54 refs whose headword AND reading both uniquely match an existing entry (provably-correct exact-match resolution; structural diff confirmed only target_id+modified changed). The remaining 136 are 'headword has no entry' cases that need the drop-or-keep judgment per ref (homophone notes like 00250 工夫/こうふ 'laborer' are deliberately labeled pointers to no-entry words; do NOT bulk-drop). Future runs: verify each, drop only genuine dangling refs, leave intentional homophone/contrast notes."
   },
   {
    "id": "tag-conjugation-no-verb-pos",

@@ -1557,3 +1557,5 @@
 {"ts": "2026-06-17T09:34:37Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 19, "note": "family: formality reclass not contradicted by notes"}
 {"ts": "2026-06-17T09:34:37Z", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "reject", "n": 1, "note": "family: stylistic translation rewording"}
 {"ts": "2026-06-17T09:34:37Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 19, "note": "family: context-truncation/okurigana/rendaku/standalone-vs-compound FPs; deep pass skipped"}
+{"ts":"2026-06-17T16:41:34Z","entry":"14488","src":"self-check","dim":"furigana","sev":"error","decision":"apply","note":"五山 ございん->ござん gozan"}
+{"ts":"2026-06-17T16:41:34Z","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: partial/compound-split/rendaku furigana false positives"}
