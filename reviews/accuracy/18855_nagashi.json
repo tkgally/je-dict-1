@@ -1,0 +1,22 @@
+{
+  "entry_id": "18855_nagashi",
+  "headword": "{流|なが}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T01:35:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' only applies to sense 1. Sense 2 ('cruising (for customers)') is not furniture.",
+      "suggestion": "Remove 'furniture' from the top-level semantic tags. Semantic tags should apply to all senses or be moved to individual senses if they only apply to one."
+    }
+  ]
+}

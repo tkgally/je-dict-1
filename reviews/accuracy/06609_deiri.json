@@ -1,0 +1,22 @@
+{
+  "entry_id": "06609_deiri",
+  "headword": "{出入|でい}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T01:35:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '出入り' is not formal. It is a common, everyday word.",
+      "suggestion": "neutral"
+    }
+  ]
+}

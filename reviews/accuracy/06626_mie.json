@@ -1,0 +1,22 @@
+{
+  "entry_id": "06626_mie",
+  "headword": "{見栄|みえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-06-17T01:35:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'personality' is too narrow and misleading for a word that also describes a specific theatrical pose.",
+      "suggestion": "Add 'art' to reflect the kabuki sense, and 'general' or 'descriptive' could also be considered as a broader tag for the 'showing off' sense if 'personality' is deemed too specific."
+    }
+  ]
+}

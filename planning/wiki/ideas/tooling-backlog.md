@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-16 (item 17 update: `general`/narrowness noise confirmed continuous up to 05703 — fifth consecutive sweep with ~40–55% flag rate from in-list narrowness nits)
+**Last updated**: 2026-06-17 (item 6: two high-precision P11 tag-drift checks SHIPPED — `proverb-idiom-mismatch` ~93%, `concrete-noun-domain-mismatch` ~77%; remediation prompt `fix_semantic_tag_drift.md`)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -114,6 +114,12 @@ Each check is cheap. A combined `check_tag_drift.py` script could emit a JSON re
 **Connection**: [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Detection sketches" lists the specific check rules.
 
 **Update 2026-06-17 (proverb/yojijukugo signal)**: The 2026-06-16 accuracy-review run over 6140–6340 (which fixed 61 garbage-tagged entries; Cleanup P11 update 2026-06-17) suggested a cheap, high-precision addition to the `semantic-mismatch` heuristic: **proverbs and yojijukugo headwords that lack a `proverb`/`idiom` tag are almost always mis-tagged** (the run found idioms tagged `clothing`/`animal-insect`/`time-general`/`leisure`). A headword detectable as a four-character compound (kanji-only length 4) or marked as a saying, carrying a concrete-object semantic tag instead of `proverb`/`idiom`/`expression`, is a strong drift signal worth flagging deterministically — and complements the noisy keyword-map check rather than relying on it.
+
+**SHIPPED (2026-06-17)** — two high-precision checks added to `build/check_tag_drift.py`, both read-only (`--json`/`--summary`/`--check`/`--range`/`--cohort`) and registered in `backlog-queue.json`:
+- **`proverb-idiom-mismatch`** implements exactly the signal above (yojijukugo / POS `expression` / gloss idiom-marker, carrying a physical-object/creature domain with no keyword support, lacking `proverb`/`idiom`). **~93% measured precision.** Deliberately excludes tool/geography/weather/building/transportation/body-part from the flagged domain set — those legitimately apply to compositional 4-kanji compounds (懐中電灯, 都道府県, 直射日光), and including them dropped early drafts below the noise floor.
+- **`concrete-noun-domain-mismatch`** flags a non-verb headword carrying ≥2 mutually-distant hard physical-object domains (横断歩道 → animal-mammal+clothing+transportation; 油絵 → body-part+tool). It is *structural* (counts incompatible domain clusters) rather than keyword-based, so it beats the `semantic-mismatch` noise floor: the broad keyword cross-domain variant measured ~5% precision (516 flags, mostly correct bench→furniture/school→building) and was rejected; the shipped structural version measured **~77% clear precision**.
+
+The two checks are the batch-ready slices of P11; the keyword `semantic-mismatch` stays experimental, and the in-list-but-wrong-category long tail (朱肉→animal-mammal *sole* tag) remains accuracy-review territory. Remediation prompt: `prompts/fix_semantic_tag_drift.md`. Unit tests in `build/tests/test_detectors.py`. First batch fixed 35 entries (Cleanup P11 update 2026-06-17).
 
 ## 7. Polysemic kanji-variant overlap detector
 

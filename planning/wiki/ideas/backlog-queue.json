@@ -1,7 +1,7 @@
 {
  "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
  "version": 1,
- "updated": "2026-06-15T00:00:00Z",
+ "updated": "2026-06-17T00:00:00Z",
  "items": [
   {
    "id": "furigana-reading-truncated",
@@ -192,7 +192,37 @@
    "status": "detector-experimental",
    "scope_estimate": 977,
    "severity": "warn",
-   "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path is now the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics) and is validated to flag e.g. body-part on 切り捨てる. This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it."
+   "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path for the in-list-but-wrong-category long tail is the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics). For the MECHANICALLY-detectable slices, two high-precision checks were carved out of this noisy heuristic 2026-06-17 and ARE batch_ready: tag-proverb-idiom-mismatch and tag-concrete-noun-domain-mismatch (below). This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it; use the two high-precision checks or the accuracy-review tags pass. Remediation prompt: prompts/fix_semantic_tag_drift.md."
+  },
+  {
+   "id": "tag-concrete-noun-domain-mismatch",
+   "title": "Concrete noun carrying >=2 semantically-distant physical-object domains (P11 garbage multi-tag)",
+   "source": "ideas/cleanup-backlog.md#priority-11",
+   "detect": "python3 build/check_tag_drift.py --check concrete-noun-domain-mismatch --json",
+   "filter": "optionally add --cohort to restrict to the claude-opus-4-5 batch (highest-density P11 surface)",
+   "fix_type": "verify",
+   "verify": "per-entry",
+   "priority": 11,
+   "batch_ready": true,
+   "status": "open",
+   "scope_estimate": 6,
+   "severity": "warn",
+   "notes": "High-precision STRUCTURAL slice of P11: a non-verb headword tagged with two or more mutually-distant hard physical-object domains is the batch garbage multi-tag signature (横断歩道 -> animal-mammal+clothing+transportation; 油絵 -> body-part+tool). Independent of keyword completeness, so it sidesteps the semantic-mismatch noise floor. Measured ~77% clear precision on the first batch (2026-06-17); 18 entries fixed. The residual ~6 are loanword/accessory/fixture polysemy where the dual tag is correct on review (マウス animal+device, 腕時計, ショルダーバッグ, 車席, 電話ボックス, 化粧ポーチ) — VERIFY per entry and KEEP defensible duals; do not force a single tag. Remediation: prompts/fix_semantic_tag_drift.md."
+  },
+  {
+   "id": "tag-proverb-idiom-mismatch",
+   "title": "Proverb/yojijukugo/set-expression tagged with a physical-object domain (P11 furniture family)",
+   "source": "ideas/cleanup-backlog.md#priority-11",
+   "detect": "python3 build/check_tag_drift.py --check proverb-idiom-mismatch --json",
+   "filter": "optionally add --cohort to restrict to the claude-opus-4-5 batch",
+   "fix_type": "verify",
+   "verify": "per-entry",
+   "priority": 12,
+   "batch_ready": true,
+   "status": "open",
+   "scope_estimate": 0,
+   "severity": "warn",
+   "notes": "High-precision DETERMINISTIC slice of P11: a proverb/yojijukugo/set-expression headword tagged with a physical-object/creature domain (furniture, clothing, electronics, food, animal-*) with no keyword support — the 一期一会/四苦八苦/起死回生 -> furniture family. Measured ~93% precision (2026-06-17); 14 entries fixed and the detector now returns 0 dictionary-wide. Kept open as a STANDING check (new entries can reintroduce it). Replace the object-domain tag with 'idiom'/'proverb' (or 'expression') after confirming the headword is a set phrase. Remediation: prompts/fix_semantic_tag_drift.md."
   },
   {
    "id": "example-headword-missing",

@@ -91,6 +91,12 @@ Read prompts/polish_furigana_correctness.md and follow the instructions to verif
 Read prompts/polish_semantic_labels.md and follow the instructions to verify semantic tags are accurate.
 ```
 
+#### Fix semantic tag drift (P11 — detector-driven)
+```
+Read prompts/fix_semantic_tag_drift.md and follow the instructions to drain the high-precision semantic-tag-drift detectors and the accuracy-review tags pass.
+```
+Pairs two high-precision `check_tag_drift.py` checks (`proverb-idiom-mismatch`, `concrete-noun-domain-mismatch`) with the cross-model `tags` pass for the cases detectors can't catch. Slots into the Routine as a `systemic-fix` lane (per backlog item) or an `accuracy-review` lane (cursor-driven over the 5700–6340 block). Cursor: `polishing/tasks/semantic-tag-drift/progress.txt`.
+
 #### Expand short notes
 ```
 Read prompts/expand-short-notes.md and follow the instructions to expand the notes field for entries with inadequate notes.
