@@ -1,0 +1,24 @@
+{
+  "entry_id": "06877_shinmai",
+  "headword": "{新米|しんまい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with two distinct, concrete meanings. '新米' refers to either a 'person' or 'food'.",
+      "suggestion": "Add 'person' and 'food' to the semantic tags."
+    }
+  ]
+}

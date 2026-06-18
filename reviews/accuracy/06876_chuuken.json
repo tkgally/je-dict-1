@@ -1,0 +1,24 @@
+{
+  "entry_id": "06876_chuuken",
+  "headword": "{中堅|ちゅうけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '中堅' is not inherently formal. It's a neutral term used in various contexts, including business and sports.",
+      "suggestion": "neutral"
+    }
+  ]
+}
