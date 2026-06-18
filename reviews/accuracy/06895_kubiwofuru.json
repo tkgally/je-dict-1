@@ -1,0 +1,24 @@
+{
+  "entry_id": "06895_kubiwofuru",
+  "headword": "{首|くび}を{振|ふ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 2 is misleading. 'to nod (when vertical)' implies that '首を振る' itself means 'to nod' when vertical, which is incorrect. '首を振る' means 'to shake one's head', and the vertical movement is specified by '縦に'.",
+      "suggestion": "Change to 'to nod (when specified as vertical movement)' or similar, to clarify that '縦に' is the key."
+    }
+  ]
+}

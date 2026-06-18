@@ -81,3 +81,5 @@ _(2026-06-18 wiki (Routine v2) harvest: processed all observations from the 2026
 - **Already filed (no new action)**: the `by_reading` homophone-false-match caveat is already documented in Cleanup P2 update 2026-06-17; the 28 lazy-default `general` observation folded into the P13 policy question above.
 - **Activity H (metrics trend)**: refreshed `topics/quality-metrics.md` to 77 runs / 3,863 flags (tags apply 51.2% runs 61–77, queue −3,980 from peak).
 All observations cleared.)_
+
+- [pattern] Tag contamination extends into 6840–6925: concrete-topic semantic tags (transportation/electronics/furniture/clothing/body-part/time-general) on unrelated words, and casual particles/fillers/idioms (ぞ, なんて, やっぱ, よね, かしら, っていう, えーと, etc.) systematically mis-tagged formality=formal. accuracy-review applied 30 fixes in this range; the P11 contamination zone (5700–6340) clearly leaks past 6800. Curator may want a targeted tag-drift sweep of 6340–6925. (routine accuracy-review 2026-06-18)

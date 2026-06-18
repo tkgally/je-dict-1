@@ -1,0 +1,31 @@
+{
+  "entry_id": "06898_ashiwohakobu",
+  "headword": "{足|あし}を{運|はこ}ぶ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The expression is not inherently formal; it can be used in various contexts, including polite but not strictly formal ones. The 'formal' tag is misleading.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "While it can be used humbly, the expression itself is not inherently 'humble' in the same way kinship terms are. It's more about politeness or showing effort. 'Humble' is too strong and specific a politeness level for the headword itself.",
+      "suggestion": "polite"
+    }
+  ]
+}

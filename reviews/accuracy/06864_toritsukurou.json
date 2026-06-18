@@ -1,0 +1,24 @@
+{
+  "entry_id": "06864_toritsukurou",
+  "headword": "{取|と}り{繕|つくろ}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'electronics' is incorrect for the headword '取り繕う'. The word means 'to patch up' or 'to keep up appearances', neither of which is inherently related to electronics.",
+      "suggestion": "Remove 'electronics'. Add 'action' as it is a verb describing an action."
+    }
+  ]
+}

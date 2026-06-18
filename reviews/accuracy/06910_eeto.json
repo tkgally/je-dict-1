@@ -1,0 +1,24 @@
+{
+  "entry_id": "06910_eeto",
+  "headword": "えーと",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:29:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'えーと' is an informal filler word, not formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

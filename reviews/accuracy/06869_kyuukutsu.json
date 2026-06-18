@@ -1,0 +1,24 @@
+{
+  "entry_id": "06869_kyuukutsu",
+  "headword": "{窮屈|きゅうくつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:28:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and misleading for the headword '窮屈'. While it can describe an emotional state, it primarily refers to a physical or situational state of being cramped, tight, or constrained, which then *leads* to discomfort or a feeling of being constrained. The primary meaning is not an emotion itself.",
+      "suggestion": "Replace 'emotion' with 'descriptive' or 'general' as it describes a state or condition, or 'appearance' if focusing on the physical aspect of being tight/cramped."
+    }
+  ]
+}

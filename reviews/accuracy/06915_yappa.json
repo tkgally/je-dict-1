@@ -1,0 +1,24 @@
+{
+  "entry_id": "06915_yappa",
+  "headword": "やっぱ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-18T09:29:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'やっぱ' is an informal contraction of 'やはり' or 'やっぱり', and should not be tagged as 'formal'.",
+      "suggestion": "informal"
+    }
+  ]
+}
