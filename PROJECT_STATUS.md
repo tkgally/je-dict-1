@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-18 (Routine v2: new-entries — 12 New Entries, IDs 29312–29323)
+Added 12 new entries: all 4 remaining priority seen-in-entry gaps plus 8 curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise, so standalone picks were hand-selected for genuine dictionary-worthiness. Removed stale candidate ネジ (orthographic katakana variant of existing 00307_neji ねじ "screw"). Logged a [pattern] observation requesting curator restock of higher-quality candidates.
+
+- **Seen-in-entry (4)**: {人災|じんさい} (man-made disaster; contrast 天災), {辞職願|じしょくねがい} (letter of resignation), {配属先|はいぞくさき} (place of assignment/posting), コロナ{禍|か} (the COVID-19 pandemic)
+- **Standalone (8)**: {核|かく}ミサイル (nuclear missile), {距離計|きょりけい} (rangefinder), {昆虫類|こんちゅうるい} (insects/the insect class), {神在月|かみありづき} (tenth lunar month, Izumo name), {限界速度|げんかいそくど} (critical/limiting speed), {主要部|しゅようぶ} (main part), {重要語|じゅうようご} (key word/term), {厨房機器|ちゅうぼうきき} (commercial kitchen equipment)
+
+§4 self-check: CLEAN — 0 issues across all 12 entries (independent accuracy review, $0.0052).
+
 ### 2026-06-17 (Routine v2: new-entries — 10 New Entries, IDs 29302–29311)
 Added 10 new entries: all 5 priority seen-in-entry gaps plus 5 hand-picked common standalone words. The candidate pool remains overwhelmingly corpus-harvest noise (numerals/counters, transparent 〜化/〜性/〜器 compounds, proper nouns, typos), so standalone picks were curated for genuine learner-usefulness rather than padding to ~20; logged a [pattern] observation requesting curator restock/cleanup. Removed stale candidate 許しがたい (kana variant of existing 29288 許し難い). Added 人災 (じんさい) as a candidate from entry 29302's contrast note.
 
@@ -88,15 +96,5 @@ Added 10 new entries, all from the priority "seen-in-entry" candidate band (inte
 - **Proverbs (2)**: {弘法|こうぼう}も{筆|ふで}の{誤|あやま}り and {河童|かっぱ}の{川流|かわなが}れ (both "even experts make mistakes"; cross-referenced to each other)
 
 §4 self-check: clean — 0 issues across all 10 entries (independent accuracy review).
-
-### 2026-06-14 (Routine v2: new-entries — 17 New Entries, IDs 29241–29257)
-Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-picked standalone words. The candidate pool's oldest band is largely corpus-harvest noise (numbers, compositional phrases, dubious glosses), so picks were curated for genuine dictionary-worthiness. Added 水引 (decorative gift cords) as a candidate from entry 29243's example.
-
-- **Seen-in-entry (6)**: {和柄|わがら} (traditional Japanese pattern), {配送料|はいそうりょう} (delivery fee), {不祝儀袋|ふしゅうぎぶくろ} (condolence-money envelope), フォーム (form/posture; web form — 2 senses), {解約金|かいやくきん} (cancellation fee), {自発|じはつ} (spontaneity)
-- **Real estate/building (3)**: {鉄骨造|てっこつぞう} (steel-frame construction), {事務棟|じむとう} (office building/wing), {内装材|ないそうざい} (interior finishing material)
-- **Daily life/objects (4)**: {現在時刻|げんざいじこく} (current time), パンティーストッキング (pantyhose), {印刷用紙|いんさつようし} (printer paper), {時限式|じげんしき} (time-delayed type)
-- **Other (4)**: {工業革命|こうぎょうかくめい} (Industrial Revolution), {光学|こうがく}ディスク (optical disc), {右車線|みぎしゃせん} (right lane), {栄養教育|えいようきょういく} (nutrition education)
-
-§4 self-check: 2 flagged, both REJECTED (フォーム 'technology' tag valid for web-form sense; 印刷用紙 'tool' tag consistent with ノート precedent). $0.0074.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
