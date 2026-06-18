@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-18] maintenance | Observation harvest, second run (4 items from later 2026-06-18 runs)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06177`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed the 4 unharvested observations from the later 2026-06-18 routine accuracy-review / polish / new-entries runs (those that landed after this morning's first harvest):
+  - **Cleanup Backlog P11 update 2026-06-18 (second)** — tag contamination extends past the 6840 boundary to **6925**: concrete-topic semantic tags on unrelated words, **30 fixes applied** over 6840–6925. Confirms a dense band 6157–6925; proactive `tags`-sweep recommendation widened accordingly.
+  - **Cleanup Backlog P17 update 2026-06-18 (second)** — the inverse `formal` over-tag family extends from slang neologisms to **casual sentence-final particles / fillers / idioms** (ぞ, なんて, やっぱ, よね, かしら, っていう, えーと) carrying `formality: formal`; same gloss/notes-slang-marker-vs-`formal` detector slice.
+  - **Cleanup Backlog P21 update 2026-06-18 (second)** — the **06169–06176 〜的 cluster** (実質的/比較的/定期的/段階的/総合的/保守的) was Jan-2026-created with zero inline links in examples *and* notes; working hypothesis that most 06000–07000 entries will need full tier-1 inline linking as the frontier climbs the Jan-2026 band.
+  - **Tooling Backlog item 20 update 2026-06-18** — traced the recurring notes-priority no-ops to **two concrete `score_note_quality.py` bugs** (inline-link baseforms counted as un-furiganaed kanji → entries with links score furigana=0; `required_sections` matcher misses valid headers → required=0), the root cause the recency/structured-field filters only paper over.
+  - **Tooling Backlog item 23 update 2026-06-18** — two more candidate-junk families (non-lexical compound fragments; decomposable/ad-hoc phrases); reinforcement of the already-filed <10%-signal candidate-quality finding, no new action.
+  - All 4 observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [E/Lint] Refreshed "Last updated" on the two edited backlog pages; verified all 11 relative cross-references in both files resolve (incl. the new P11/item-20 → quality-metrics references).
+
+**Next cursor**: n/a (wiki mode). Metrics-trend (Activity H) not due — only 5 new metrics lines since the fifth refresh (≥10 threshold). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-18] maintenance | Observation harvest (2026-06-17/18 runs) + metrics-trend fifth refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

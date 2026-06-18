@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-18 (harvest: P11 residue quantified to ~6840 [50 + 104 fixed]; P13 curator policy question [general→clearly-correct-specific]; P17 slang-neologism `formal` over-tag; P21 06154–06160 zero-inline-link frontier)
+**Last updated**: 2026-06-18 (second harvest: P11 residue extends to 6925 [30 applied]; P17 casual particles/fillers/idioms tagged `formal`; P21 06169–06176 〜的 cluster zero-inline-link + Jan-2026-band hypothesis)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -334,6 +334,8 @@ The two checks are registered in `backlog-queue.json` (`tag-concrete-noun-domain
 - **6541–6840**: **104 of 300** entries had clearly-wrong category tags (animal-mammal on ダッシュボード/打者, building+transportation on soccer-position loanwords, electronics/furniture/food on abstract nouns and adjectives). The reviewer's `tags` dimension caught these cleanly at error severity.
 Both ranges sit *above* the comprehensive-polish frontier (`next: 06163`) and carry the same batch-creation signature as the rest of P11. A scoped accuracy-review `tags` sweep of **6157–~7500** ahead of the sequential frontier would keep yielding ~17–35% apply rates (these two runs drove the runs-61–77 `tags` apply rate to 51.2% — see [Quality Metrics Trend](../topics/quality-metrics.md)). This is the strongest remaining argument for running the band's `tags` sweep proactively rather than waiting for sequential polishing.
 
+**Update 2026-06-18 (second — the residue extends to 6925)**: A 2026-06-18 accuracy-review `tags` sweep over **6840–6925** confirmed the contamination zone leaks past the 6840 boundary measured the day before: concrete-topic semantic tags (transportation / electronics / furniture / clothing / body-part / time-general) on unrelated words, **30 fixes applied in this range**. The same run also caught the formality half of the artifact — casual particles, fillers, and idioms (ぞ, なんて, やっぱ, よね, かしら, っていう, えーと) systematically mis-tagged `formality: formal` (see P17 update below). The proactive-sweep recommendation now extends to at least **6157–6925** as a confirmed dense band; the upper bound is still open.
+
 ## Priority 12: Dual-reading furigana with slash separators — RESOLVED 2026-06-16
 
 **RESOLVED (2026-06-16).** A systemic-fix Routine run fixed all **118 entries** (131 slash-reading wrappers) flagged by `build/check_furigana_format.py` (`subpattern == 'slash-reading'`). Each `{漢字|よみ1/よみ2}` wrapper was replaced, per-entry, with the single reading the kanji actually takes in context: the rendaku'd compound reading where the wrapper decomposes the headword ({歩|ぽ} in 散歩, {袋|ぶくろ} in 寝袋, {顔|がお} in ドヤ顔), the inline-link target's reading where the wrapper sat inside a ⟦…⟧ link ({毎年|まいとし}→00731_maitoshi), or the primary reading for standalone/related words ({梅雨|つゆ}, {買春|ばいしゅん}). Notes that explicitly discuss the reading variation (e.g. 七 なな/しち, 分 ふん/ぷん) kept their prose explanation; the wrapper just dropped to one reading. Two malformed English-in-reading wrappers were also repaired (28654 アプリ内課金: `{課金|billing/charging}`→`{課金|かきん}`, `{内|inside}`→`{内|ない}`). The detector now returns **0** slash-reading instances. A furigana self-check screened 59 of the 118 changed IDs before the 540 s `timeout` wrapper killed `review_runner.py` (logged as a `[tooling]` observation); its 11 flags were all false positives (rendaku-in-compound, okurigana/partial readings "correct by design", and screener input-truncation artifacts), 0 applied. Tracked as `furigana-slash-reading` in `backlog-queue.json`.
@@ -431,6 +433,8 @@ for p in sorted(glob.glob('entries/0000*/*.json') + glob.glob('entries/0050*/*.j
 - **05000–05300 register pocket**: widespread formality/politeness errors (茶漬け `politeness: honorific`, 羊羹 `formality: formal`) noted but left for a dedicated register-tag pass (see P11 Update 2026-06-15). The mechanically-detectable slice (tag contradicts the entry's own REGISTER note) is the natural systemic-fix candidate; the rest needs semantic review.
 
 **Update 2026-06-18 (the inverse error — slang/colloquial neologisms tagged `formal`)**: A 2026-06-17 accuracy-review sweep over 6341–6540 found a distinct sub-family: casual/slang neologisms systematically mis-tagged `formality: formal` despite their own glosses labeling them slang — 陰キャ, 陽キャ, リア充, コミュ障. This is the same "default landed on `formal`" artifact as the early-entry over-tagging above, but applied to vocabulary that is the *opposite* of formal, so it is more clearly wrong (gloss contradicts the tag). Like the 06135/06136 "Neutral REGISTER note vs `formal` tag" case, the mechanically-detectable slice is **gloss/notes contain a slang/casual marker while `formality == formal`** — a high-precision detector signal worth adding to a register-tag drift check. The accuracy-review `tags`/formality pass catches them when it reaches the range; they cluster in the 6157–~7000 neologism-heavy band.
+
+**Update 2026-06-18 (second — casual particles/fillers/idioms too)**: A 2026-06-18 accuracy-review sweep over 6840–6925 extended this inverse-error family beyond neologisms to **casual sentence-final particles, fillers, and idioms** mis-tagged `formality: formal` — ぞ, なんて, やっぱ, よね, かしら, っていう, えーと. These are register-defining *casual* markers, so the `formal` tag is the maximally-wrong value; the same gloss/notes-slang-marker-vs-`formal` detector slice catches them (a sentence-final particle or filler glossed as colloquial/casual should never carry `formal`). Confirms the artifact runs the full length of the 6157–6925 contaminated band, not just its neologism pockets.
 
 ## Priority 18: "descriptive" semantic tag over-applied as a catch-all
 
@@ -633,6 +637,18 @@ inline links — i.e. the gap is not self-healing through ordinary polishing. Th
 inline-link sweep focused on the *notes* glossaries (the heavy, partly-noentry part) is
 the remaining work after examples are linked. Still gated on the Tooling item 15 detector
 for a systemic-fix batch.
+
+**Update 2026-06-18 (second — the 〜的 cluster, and the Jan-2026 band hypothesis)**: A
+2026-06-18 routine polish run reached the **06169–06176 〜的 adjective/adverb cluster**
+(実質的, 比較的, 定期的, 段階的, 総合的, 保守的) and found it created in **January 2026 with zero
+inline-link coverage in examples *or* notes** — it predates the inline-link polishing step
+entirely. This is the same pre-inline-link cohort as the 06150–06170 band above, now
+confirmed to continue through the 06176 〜的 sub-cluster. The working hypothesis from the
+observing run: as the sequential frontier climbs into the Jan-2026 creation band, **most
+06000–07000 entries will need full tier-1 inline linking** (examples *and* notes), so the
+inline-link gap is the dominant remaining tier-1 deficit for the whole 06xxx frontier — not
+an occasional miss. Argues for either a dedicated inline-link sweep of 06150–07000 or
+budgeting extra inline-link time into each frontier polish run until the band is cleared.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry
