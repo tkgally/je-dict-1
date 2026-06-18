@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-17 (item 6: two high-precision P11 tag-drift checks SHIPPED — `proverb-idiom-mismatch` ~93%, `concrete-noun-domain-mismatch` ~77%; remediation prompt `fix_semantic_tag_drift.md`)
+**Last updated**: 2026-06-18 (harvest: new items 22 [particle structured-field furigana sweep], 23 [candidate-pool pre-filter]; items 17/20/21 updates — tags signal/noise flips on un-polished ranges, particle no-op recurrence, §4 self-check screening truncation)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -442,6 +442,8 @@ substitutions and flag only out-of-taxonomy or genuinely-wrong-domain tags — t
 slice where this run's precision was high. Sixth consecutive confirmation; fix still
 unshipped.
 
+**Update 2026-06-18 (signal/noise flips on *un-polished* ranges — fix is still worth shipping)**: Two 2026-06-17 accuracy-review sweeps over **6341–6540** (50 applied) and **6541–6840** (104 applied of 300) show the opposite profile from the 03301–05700 band: these *un-polished* ranges carry genuine wrong-category tags at error severity, so the `tags` apply rate jumped to **51.2%** across runs 61–77 (285 applied of 557 — see [Quality Metrics Trend](../topics/quality-metrics.md)). This is **not** evidence the noise family is gone — it is range-state dependence (genuine catches above the polish frontier; `general`/narrowness noise on already-polished ranges). The prompt fix (fallback-tag exception + severity rule) is still the right change: it would suppress the noise on polished ranges *without* touching the genuine wrong-domain catches on un-polished ones (those are out-of-domain, not in-list narrowness). Shipping it would let a proactive `tags` sweep of 6157–~7500 (Cleanup P11 update 2026-06-18) run at high precision instead of dragging the `general`-noise tail.
+
 ## 18. check_example_headword.py false-positive reduction
 
 **Source**: 2026-06-14/15 routine runs (example-headword-missing systemic-fix lane)
@@ -527,6 +529,8 @@ that populate them. This is complementary to the recency/adequacy filter above �
 should land together so the notes lane stops re-surfacing settled and structurally-rich
 entries.
 
+**Update 2026-06-18 (third and fourth confirmations — same particle set keeps recurring)**: Two more 2026-06-17 routine polish runs hit the identical no-op pattern: one checked 8 priority-lane entries (00051_が, 00079_は, 00733_まずい, 02900_ぐらい, 00740_おいしい, 00484_も, 00864_こわい, 00025_ちいさい) and found **7 of 8 needed no changes**; the other found **3 of 4** clean (が 00051, は 00079, まずい 00733 again). Both runs were forced into the reactive regenerate-priorities + cursor-reset backstop. The same handful of closed-tier particle/adjective entries (が, は, まずい, ぐらい) keep re-surfacing at the top of `priority/notes.txt` across runs, wasting ~40% of the priority lane's budget each time. This strengthens the case to **exclude the closed basic/core particle+function set from the notes ranking entirely** (the cleanest fix, since those tiers are closed and their structured fields are already comprehensive) in addition to crediting structured fields toward the score.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -552,6 +556,69 @@ inside the timeout; (b) add a `--max-seconds` / batch-size guard inside `review_
 that stops cleanly and prints how far it got, instead of being SIGKILLed; (c) raise the
 wrapper timeout for screening-only passes. Option (a) is the smallest change and is
 already the documented workaround in `polishing/observations.md`.
+
+**Update 2026-06-18 (third truncation — §4 self-check now also affected)**: A 2026-06-17
+systemic-fix run's §4 furigana self-check screened only **24 of 51** changed entries
+before the 500 s background timeout (a 2026-06-16 run similarly got 59/118). The serial
+per-entry calls to gemini-2.5-flash dominate. This is the third confirmed truncation in a
+week and the second hitting the §4 self-check specifically — the self-check is the
+highest-value review pass (49.6% all-time precision) and should not be the one silently
+cut short. Option (a) — have §4 batch its changed-ID list into ~25-ID sub-ranges and loop
+— is the smallest fix and would make a typical systemic-fix batch's furigana self-check
+complete. Partial results are still written per-entry, so coverage is incomplete but not
+lost.
+
+## 22. Particle structured-field furigana-completeness sweep
+
+**Source**: 2026-06-17 routine polish session (priority lane, 00484_も)
+
+`verify_furigana.py` correctly catches unwrapped kanji inside particle **structured
+fields** — 00484_も had 数量 / 一 unwrapped in both `fixed_patterns` and `notes` — but
+these slip past casual human review because the example/notes *prose* looks complete, so
+the gap is only found when the verifier is run on the specific entry. The structured
+fields particle entries carry (`fixed_patterns`, `particle_behavior`,
+`question_word_patterns`, `predicates_requiring`, `particle_contrasts`,
+`common_mistakes`) contain many short Japanese phrase fragments that were never furigana-
+checked at creation time.
+
+**Suggested implementation**: A targeted sweep that runs the furigana-completeness check
+over *every* string value inside the structured fields of all particle/function-word
+entries (not just `examples`/`notes`), and emits a JSON queue of `{entry_id, field, path,
+unwrapped_kanji}`. This is a scoped extension of `verify_furigana.py` /
+`find_missing_furigana.py` to recurse into the structured-field subtree rather than only
+the top-level prose fields. Low entry count (the closed particle set is ~30 entries) but
+high per-entry value, since these are the most-consulted entries in the dictionary. The
+fix per hit is mechanical (wrap the bare kanji), so once the queue exists it is a clean
+systemic-fix or one-shot batch.
+
+## 23. Candidate-pool pre-filter for corpus harvesting / manage_candidates
+
+**Source**: 2026-06-17 + 2026-06-18 routine new-entries sessions (recurring)
+
+`candidate_words.json` is dominated by low-quality corpus-harvest noise: across the
+oldest ~160 candidates and mid-range samples, **fewer than ~10%** are well-formed
+standalone learner vocabulary. The junk families are predictable and mechanically
+recognisable:
+
+- **Bare numeral + counter** forms (二百, 三歳) — compositional, not lexical.
+- **Single-suffix productive derivations** (〜化, 〜性, 〜率, 〜器 compounds) — productive
+  morphology, inferable from the base.
+- **Place names and proper nouns** (incl. transcriptions like スポンジボブ).
+- **Transcription typos / errors** (怒燥 for 怒涛, アンパッサン glossed "ice cream sundae").
+
+The only consistently good candidates are the recent **"seen in entry"** additions. The
+practical effect is that new-entries runs find few genuinely useful headwords beyond the
+seen-in-entry set (5 useful candidates in one 2026-06-17 run; only the seen-in-entry ones
+in another), forcing them to either pad from junk or under-produce against the ~20 target.
+
+**Suggested implementation**: A pre-filter in `manage_candidates.py add` (and any corpus-
+harvesting path) that **rejects or quarantines** (a) bare numeral+counter forms, (b)
+single productive-suffix derivations where the base is itself a likely entry, and (c)
+obvious proper nouns / non-Japanese transcriptions. Combined with a one-time cleanup pass
+over the existing Feb–May 2026 corpus/brainstorm batches, this would raise the candidate-
+pool signal substantially and let new-entries runs hit their target without padding. **Note**:
+the curator restock is the complementary human-side fix (see Open Issues → candidate-pool
+quality); the pre-filter keeps the pool from re-accumulating noise after a restock.
 
 ## Related pages
 

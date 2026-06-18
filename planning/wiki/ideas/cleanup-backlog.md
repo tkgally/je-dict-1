@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-17 (P11 update: semantic-tag-vs-headword detector SHIPPED — `check_tag_drift.py` `proverb-idiom-mismatch` ~93% + `concrete-noun-domain-mismatch` ~77% precision; remediation prompt `fix_semantic_tag_drift.md`; first batch fixed 35 entries)
+**Last updated**: 2026-06-18 (harvest: P11 residue quantified to ~6840 [50 + 104 fixed]; P13 curator policy question [general→clearly-correct-specific]; P17 slang-neologism `formal` over-tag; P21 06154–06160 zero-inline-link frontier)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -329,6 +329,11 @@ These are all `VALID_SEMANTIC` tags applied to the wrong domain, so the `check_t
 
 The two checks are registered in `backlog-queue.json` (`tag-concrete-noun-domain-mismatch`, `tag-proverb-idiom-mismatch`) and drained by the reusable prompt **`prompts/fix_semantic_tag_drift.md`** (deterministic checks first, then the accuracy-review `tags` pass for the in-list-but-wrong-category cases that are NOT mechanically detectable — e.g. 朱肉→animal-mammal as a *sole* tag, which keyword/structural checks cannot catch). The single-sole-wrong-tag family remains accuracy-review territory. First worked batch (2026-06-17) hand-verified and fixed **35 entries**: all 14 proverb-idiom flags, 18 concrete-noun flags, and 3 not-mechanically-detectable stragglers found by hand-walking the 5700–6340 block (臓器→body-internal, ぼうぼう→descriptive, ほっこり drop food). The 5700–6340 block itself was already clean of detector flags (the 2026-06-16 accuracy-review swept it), confirming the detector's residual value is *above* the sequential polish frontier (6375–7431) and as a standing guard on new entries. Cursor: `polishing/tasks/semantic-tag-drift/progress.txt`.
 
+**Update 2026-06-18 (the P11 residue extends to ~6840, quantified at two more ranges)**: Two 2026-06-17 accuracy-review `tags` sweeps measured the *single-sole-wrong-category* density above the documented 5700–6340 block — the in-list-but-wrong-domain failure the deterministic detectors cannot see, so each is an accuracy-review apply:
+- **6341–6540**: ~50 entries carried a flatly-wrong single semantic tag (取捨選択→body-part, どうせ→furniture, 乱視→furniture, 家畜→work, 憤慨→geography, アンチ→electronics, 健気→clothing). **50 fixes applied in one run** — category errors, not narrowness.
+- **6541–6840**: **104 of 300** entries had clearly-wrong category tags (animal-mammal on ダッシュボード/打者, building+transportation on soccer-position loanwords, electronics/furniture/food on abstract nouns and adjectives). The reviewer's `tags` dimension caught these cleanly at error severity.
+Both ranges sit *above* the comprehensive-polish frontier (`next: 06163`) and carry the same batch-creation signature as the rest of P11. A scoped accuracy-review `tags` sweep of **6157–~7500** ahead of the sequential frontier would keep yielding ~17–35% apply rates (these two runs drove the runs-61–77 `tags` apply rate to 51.2% — see [Quality Metrics Trend](../topics/quality-metrics.md)). This is the strongest remaining argument for running the band's `tags` sweep proactively rather than waiting for sequential polishing.
+
 ## Priority 12: Dual-reading furigana with slash separators — RESOLVED 2026-06-16
 
 **RESOLVED (2026-06-16).** A systemic-fix Routine run fixed all **118 entries** (131 slash-reading wrappers) flagged by `build/check_furigana_format.py` (`subpattern == 'slash-reading'`). Each `{漢字|よみ1/よみ2}` wrapper was replaced, per-entry, with the single reading the kanji actually takes in context: the rendaku'd compound reading where the wrapper decomposes the headword ({歩|ぽ} in 散歩, {袋|ぶくろ} in 寝袋, {顔|がお} in ドヤ顔), the inline-link target's reading where the wrapper sat inside a ⟦…⟧ link ({毎年|まいとし}→00731_maitoshi), or the primary reading for standalone/related words ({梅雨|つゆ}, {買春|ばいしゅん}). Notes that explicitly discuss the reading variation (e.g. 七 なな/しち, 分 ふん/ぷん) kept their prose explanation; the wrapper just dropped to one reading. Two malformed English-in-reading wrappers were also repaired (28654 アプリ内課金: `{課金|billing/charging}`→`{課金|かきん}`, `{内|inside}`→`{内|ない}`). The detector now returns **0** slash-reading instances. A furigana self-check screened 59 of the 118 changed IDs before the 540 s `timeout` wrapper killed `review_runner.py` (logged as a `[tooling]` observation); its 11 flags were all false positives (rendaku-in-compound, okurigana/partial readings "correct by design", and screener input-truncation artifacts), 0 applied. Tracked as `furigana-slash-reading` in `backlog-queue.json`.
@@ -354,6 +359,8 @@ Session 003 noted the pattern in the 03011–03035 range. Session 005 confirmed 
 **Detection**: `python3 -c "import json, glob; [print(json.load(open(p))['id']) for p in sorted(glob.glob('entries/*/*.json')) if json.load(open(p)).get('metadata',{}).get('tags',{}).get('semantic') == ['general']]" | wc -l`
 
 **Suggested action**: A targeted sweep replacing `["general"]` with more specific semantic tags. This overlaps with the tag-drift detector proposal in [Tooling Backlog](tooling-backlog.md) → item 6 — a semantic-tag/gloss keyword matcher could prioritize entries where "general" is the sole tag and suggest a replacement based on the English gloss. Unlike Priorities 10–12 (wrong specific tags), this is a classification gap rather than an active error, so it is lower urgency.
+
+**Update 2026-06-18 (curator policy question — `general` → *clearly-correct* specific)**: Two 2026-06-17 accuracy-review sweeps (6341–6540 and 6541–6840) surfaced ~51 + ~28 "general → more-specific in-list tag" suggestions where the specific tag is **unambiguous and obviously correct** (害虫/蜜蜂→animal-insect, 踝→body-part, 経理→business, chisel→tool, stag beetle→animal-insect, cosmos→plant-flower, USB drive→electronics, carbon→science). The standing semantic-tag policy (2026-06-11, §A) rejects all in-list narrowness substitutions to suppress the `general`-too-broad reviewer noise (Tooling item 17), so **all were rejected** — but the observing runs flagged that many of these are *lazy-default* `general` on single-domain nouns, not a deliberate fallback, and the policy currently can't distinguish the two. **This is a curator decision, not a Routine one**: should `general` → a *clearly-correct single-domain* specific tag be an APPLY case (distinct from the leisure-vs-daily-life churn the policy rightly rejects)? If yes, it would need a tightened reviewer instruction (apply only when exactly one specific domain is unambiguous) to avoid reopening the noise floor. Logged here for the curator; no Routine action until policy is set. Related: P11 (wrong-category, already APPLY) vs. this (under-specification, currently REJECT).
 
 ## Priority 14: Notes content copied from wrong entry
 
@@ -422,6 +429,8 @@ for p in sorted(glob.glob('entries/0000*/*.json') + glob.glob('entries/0050*/*.j
 **Update 2026-06-15 (the pattern is not just low-ID)**: Two 2026-06-15 polish runs found `formality: "formal"` over-applied well beyond the early-entry range:
 - **Everyday compound action verbs at the frontier**: 06135 突き飛ばす, 06136 投げ捨てる carry `formal` even though their own REGISTER notes say "Neutral." This is a distinct cohort from the early-batch low-ID entries — it suggests the `formal` default also contaminated the 06xxx compound-verb creation batch. Worth a `check_tag_drift`-style sweep over -飛ばす/-捨てる/-出す compound verbs (the contradiction between a `formal` tag and a "Neutral" REGISTER note is mechanically detectable).
 - **05000–05300 register pocket**: widespread formality/politeness errors (茶漬け `politeness: honorific`, 羊羹 `formality: formal`) noted but left for a dedicated register-tag pass (see P11 Update 2026-06-15). The mechanically-detectable slice (tag contradicts the entry's own REGISTER note) is the natural systemic-fix candidate; the rest needs semantic review.
+
+**Update 2026-06-18 (the inverse error — slang/colloquial neologisms tagged `formal`)**: A 2026-06-17 accuracy-review sweep over 6341–6540 found a distinct sub-family: casual/slang neologisms systematically mis-tagged `formality: formal` despite their own glosses labeling them slang — 陰キャ, 陽キャ, リア充, コミュ障. This is the same "default landed on `formal`" artifact as the early-entry over-tagging above, but applied to vocabulary that is the *opposite* of formal, so it is more clearly wrong (gloss contradicts the tag). Like the 06135/06136 "Neutral REGISTER note vs `formal` tag" case, the mechanically-detectable slice is **gloss/notes contain a slang/casual marker while `formality == formal`** — a high-precision detector signal worth adding to a register-tag drift check. The accuracy-review `tags`/formality pass catches them when it reaches the range; they cluster in the 6157–~7000 neologism-heavy band.
 
 ## Priority 18: "descriptive" semantic tag over-applied as a catch-all
 
@@ -610,6 +619,20 @@ is tractable per-entry (mostly example-sentence and free-prose links, few P21
 sub-pattern labels, as predicted in the 2026-06-16 update) but that sequential
 hand-polishing will be slow over the whole 06140–06170+ block; the detector (Tooling
 item 15) is still the prerequisite for a systemic-fix batch.
+
+**Update 2026-06-18**: Two 2026-06-17 routine polish runs continued the hand-backfill at
+the frontier and re-confirmed the gap reaches the loanword/suru-noun cohort above the
+idiom block: **06154–06156** (loanword + 出社/退社 cluster) and **06157–06160** had
+**zero** `⟦...⟧` links in examples *and* notes. The example links were added per-entry in
+those runs, but the dense glossary-style notes (COMPONENTS / CONTRAST WITH RELATED TERMS /
+COMMON COLLOCATIONS sections + loanword synonym lists) of the 06157+ batch remain
+unlinked — and partly `noentry` (loanword synonyms). Notable: **06156 was modified
+2026-06-16 yet still had no links**, so a prior touch advanced the entry without adding
+inline links — i.e. the gap is not self-healing through ordinary polishing. The whole
+06150–06170+ band is the same pre-inline-link 2026-01-17 creation batch; a dedicated
+inline-link sweep focused on the *notes* glossaries (the heavy, partly-noentry part) is
+the remaining work after examples are linked. Still gated on the Tooling item 15 detector
+for a systemic-fix batch.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

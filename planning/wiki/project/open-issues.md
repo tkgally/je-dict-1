@@ -1,6 +1,6 @@
 # Open Issues
 
-**Last updated**: 2026-04-26
+**Last updated**: 2026-06-18 (candidate-pool quality: quantified <10% signal, recurring new-entries throughput impact, pre-filter proposal)
 
 A running list of known problems, design questions, and unresolved edge cases. Items here are candidates for future work sessions or discussion.
 
@@ -16,11 +16,26 @@ Entries created before v2 standards often have brief, unstructured notes (single
 Many semantically related entries aren't linked. The `add_cross-references.md` task and `find_merge_candidates.py` tool help, but systematic coverage would require reviewing all entries.
 
 ### Candidate list quality
-`candidate_words.json` contains ~2,100 candidates, but some are:
+`candidate_words.json` (~1,285 candidates as of 2026-06-18) contains a high fraction of
+low-quality corpus-harvest noise:
 - Duplicates of existing entries (variant readings)
-- Too obscure for intermediate learners
-- Compound words better handled as collocations in existing entries
-Periodic cleanup (`clean_up_candidates_list.md`) addresses this.
+- Bare numeral + counter forms (二百, 三歳) and single-suffix productive derivations
+  (〜化, 〜性, 〜率, 〜器) — compositional, not lexical
+- Place names, proper nouns, and non-Japanese transcriptions (スポンジボブ)
+- Transcription typos / errors (怒燥 for 怒涛; アンパッサン glossed "ice cream sundae")
+- Too obscure for intermediate learners; compounds better handled as collocations
+
+**Quantified and recurring (2026-06-17/18 new-entries runs)**: across the oldest ~160
+candidates and mid-range samples, **fewer than ~10%** are well-formed standalone learner
+vocabulary. The only consistently good candidates are the recent **"seen in entry"**
+additions. The practical impact is that `new-entries` Routine runs find few genuinely
+useful headwords beyond the seen-in-entry set and are forced to under-produce against
+their ~20 target rather than pad from junk. **Two complementary fixes**: (1) curator
+restock with vetted, common, learner-relevant words (human side); (2) a mechanical
+pre-filter in `manage_candidates.py` / corpus harvesting that rejects the predictable
+junk families (see [Tooling Backlog](../ideas/tooling-backlog.md) → item 23) so the pool
+doesn't re-accumulate noise after a restock. Periodic cleanup
+(`clean_up_candidates_list.md`) addresses the existing backlog.
 
 ## Design questions
 

@@ -2,6 +2,31 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-18] maintenance | Observation harvest (2026-06-17/18 runs) + metrics-trend fifth refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06163`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-17 routine polish / new-entries / accuracy-review / systemic-fix runs and the 2026-06-18 new-entries run:
+  - **Cleanup Backlog P11 update 2026-06-18** — the wrong-category tag residue quantified above the 5700–6340 block: 6341–6540 (~50 single-sole-wrong tags, 50 applied) and 6541–6840 (104/300 wrong-category applied). Recommends a proactive accuracy-review `tags` sweep of 6157–~7500 ahead of the sequential polish frontier (these sweeps drove the runs 61–77 `tags` apply rate to 51.2%).
+  - **Cleanup Backlog P13 update 2026-06-18** — the recurring `general`→clearly-correct-specific suggestions (~51+28) recorded as a **curator policy question** (lazy-default `general` on single-domain nouns vs. the current reject-all-narrowness policy). No Routine action until policy is set.
+  - **Cleanup Backlog P17 update 2026-06-18** — slang/colloquial neologisms (陰キャ/陽キャ/リア充/コミュ障) mis-tagged `formality: formal`; mechanically detectable as gloss-slang-marker vs `formal`.
+  - **Cleanup Backlog P21 update 2026-06-18** — 06154–06160 zero-inline-link frontier (examples linked per-entry; notes glossaries pending; 06156 modified 2026-06-16 yet still unlinked → gap not self-healing through ordinary polishing).
+  - **Tooling Backlog item 17 update 2026-06-18** — the `tags` signal/noise flips on un-polished ranges; prompt fix still worth shipping to keep a proactive sweep high-precision.
+  - **Tooling Backlog item 20 update 2026-06-18** — third/fourth confirmation of the particle/function no-op recurrence (7/8 and 3/4 clean); recommends excluding the closed particle set from the notes ranking.
+  - **Tooling Backlog item 21 update 2026-06-18** — third screener truncation, now hitting the §4 self-check (24/51); batch into ~25-ID sub-ranges.
+  - **Tooling Backlog new item 22** — particle structured-field furigana-completeness sweep (00484_も had unwrapped 数量/一 in `fixed_patterns`/`notes`).
+  - **Tooling Backlog new item 23** — candidate-pool pre-filter rejecting numeral+counter / single-suffix / proper-noun junk.
+  - **Open Issues → Candidate list quality** — rewritten with the quantified <10%-signal finding and the new-entries throughput impact.
+  - **Already filed (no new action)** — `by_reading` homophone-false-match caveat already in Cleanup P2 update 2026-06-17; the 28 lazy-default `general` observation folded into the P13 policy question.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [H/Metrics-trend] **Fifth refresh** of `topics/quality-metrics.md` (17 new metrics lines ≥ 10 threshold): 77 runs / 3,863 adjudicated flags. Added the 2026-06-16 (full day), 2026-06-17, 2026-06-18 run tables; recomputed all-time + runs 61–77 precision (tags 51.2% this period, **37.3% all-time**; accuracy source 30.8% all-time; self-check 47.6%); updated Findings §1/§3/§5/§6 and the implications. Headline: the `tags` dimension is range-state dependent — its highest period reading (51.2%) came from sweeping the un-polished 6341–6840 P11 residue. Queue −3,980 from peak; 2026-06-17 showed the first small net daily uptick (+24) near the structural floor.
+- [E/Lint] Refreshed "Last updated" lines on the five edited pages; verified the new cross-references (P11↔quality-metrics, P13↔§A policy, item 23↔open-issues) resolve.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-17] maintenance | Observation harvest (9 items) from 2026-06-16 runs
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
