@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-18 (harvest: new items 22 [particle structured-field furigana sweep], 23 [candidate-pool pre-filter]; items 17/20/21 updates — tags signal/noise flips on un-polished ranges, particle no-op recurrence, §4 self-check screening truncation)
+**Last updated**: 2026-06-18 (second harvest: item 20 update — concrete `score_note_quality.py` scorer bugs [inline-link baseforms counted as bare kanji → furigana=0; required_sections matcher misses headers] behind the notes-priority no-ops; item 23 update — two more junk families [non-lexical compound fragments, decomposable/ad-hoc phrases])
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -531,6 +531,24 @@ entries.
 
 **Update 2026-06-18 (third and fourth confirmations — same particle set keeps recurring)**: Two more 2026-06-17 routine polish runs hit the identical no-op pattern: one checked 8 priority-lane entries (00051_が, 00079_は, 00733_まずい, 02900_ぐらい, 00740_おいしい, 00484_も, 00864_こわい, 00025_ちいさい) and found **7 of 8 needed no changes**; the other found **3 of 4** clean (が 00051, は 00079, まずい 00733 again). Both runs were forced into the reactive regenerate-priorities + cursor-reset backstop. The same handful of closed-tier particle/adjective entries (が, は, まずい, ぐらい) keep re-surfacing at the top of `priority/notes.txt` across runs, wasting ~40% of the priority lane's budget each time. This strengthens the case to **exclude the closed basic/core particle+function set from the notes ranking entirely** (the cleanest fix, since those tiers are closed and their structured fields are already comprehensive) in addition to crediting structured fields toward the score.
 
+**Update 2026-06-18 (a concrete scorer bug behind the no-ops, not just staleness)**: A
+2026-06-18 routine polish run traced the recurring top-of-list no-ops (00025_chiisai,
+00530_chikai, 00533_osoi, etc. — all already clean) to **two false signals inside
+`score_note_quality.py` itself**, distinct from the staleness/structured-field causes
+above:
+1. **`has_bare_kanji` counts inline-link baseforms as un-furiganaed kanji.** The baseform
+   inside an inline link — e.g. the `小さな` in `⟦{小|ちい}さな→小さな：02913_chiisana⟧` — is
+   matched as bare kanji, so **any entry with inline links in its notes scores
+   furigana=0**, the exact opposite of reality (links are the polished state). The scorer
+   should strip `⟦…⟧` link baseforms (the `→base：id` segment) before the bare-kanji check.
+2. **The `required_sections` matcher misses valid section headers**, giving required=0 to
+   notes that *do* carry the expected sections — penalising well-structured notes for a
+   matcher gap.
+Together these systematically depress the scores of fully-polished entries, so the top
+~30 notes-priority entries are exactly the ones that need no work. This is the **root
+cause** the recency/structured-field filters above only paper over: fixing the two scorer
+bugs would clean the ranking at the source. Smallest high-value fix in this item.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -619,6 +637,16 @@ over the existing Feb–May 2026 corpus/brainstorm batches, this would raise the
 pool signal substantially and let new-entries runs hit their target without padding. **Note**:
 the curator restock is the complementary human-side fix (see Open Issues → candidate-pool
 quality); the pre-filter keeps the pool from re-accumulating noise after a restock.
+
+**Update 2026-06-18 (two more junk families to add to the filter)**: A 2026-06-18 routine
+new-entries run (which curated 13 quality words rather than padding from the oldest-first
+junk) named two families not yet in the reject list above: **non-lexical compound
+fragments** (倍率差, 機成り, 些道, 多角的一面) and **transparent decomposable compounds /
+ad-hoc phrases** (給水槽, 排水処理, あらかじめ準備する, 用につき) — both inferable from their parts
+and not standalone learner headwords. The pre-filter's productive-suffix rule should be
+widened to a general "decomposable compound" / "ad-hoc phrase" heuristic. Reconfirms the
+<10%-genuine signal rate and the throughput hit (a strict oldest-first run would have
+produced low-value entries).
 
 ## Related pages
 
