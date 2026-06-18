@@ -3,6 +3,16 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-14 (Routine v2: new-entries — 17 New Entries, IDs 29241–29257)
+Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-picked standalone words. The candidate pool's oldest band is largely corpus-harvest noise (numbers, compositional phrases, dubious glosses), so picks were curated for genuine dictionary-worthiness. Added 水引 (decorative gift cords) as a candidate from entry 29243's example.
+
+- **Seen-in-entry (6)**: {和柄|わがら} (traditional Japanese pattern), {配送料|はいそうりょう} (delivery fee), {不祝儀袋|ふしゅうぎぶくろ} (condolence-money envelope), フォーム (form/posture; web form — 2 senses), {解約金|かいやくきん} (cancellation fee), {自発|じはつ} (spontaneity)
+- **Real estate/building (3)**: {鉄骨造|てっこつぞう} (steel-frame construction), {事務棟|じむとう} (office building/wing), {内装材|ないそうざい} (interior finishing material)
+- **Daily life/objects (4)**: {現在時刻|げんざいじこく} (current time), パンティーストッキング (pantyhose), {印刷用紙|いんさつようし} (printer paper), {時限式|じげんしき} (time-delayed type)
+- **Other (4)**: {工業革命|こうぎょうかくめい} (Industrial Revolution), {光学|こうがく}ディスク (optical disc), {右車線|みぎしゃせん} (right lane), {栄養教育|えいようきょういく} (nutrition education)
+
+§4 self-check: 2 flagged, both REJECTED (フォーム 'technology' tag valid for web-form sense; 印刷用紙 'tool' tag consistent with ノート precedent). $0.0074.
+
 ### 2026-06-09 (Routine: new-entries — 20 New Entries, "Seen in Entry" Backlog, IDs 29043–29062)
 Added 20 new entries (IDs 29043–29062) drawn from "seen in entry" internal-completeness candidates — words referenced inside existing entries 05794–05963 but not yet defined.
 
