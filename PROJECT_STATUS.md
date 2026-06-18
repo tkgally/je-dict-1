@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-18 (Routine v2: new-entries — 13 New Entries, IDs 29324–29336)
+Added 13 curated standalone entries plus the 2 priority seen-in-entry gaps. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numbers/counters, non-lexical fragments, transparent 〜率/〜化/〜性 compounds, ad-hoc phrases), so standalone picks were hand-selected for genuine dictionary-worthiness rather than padding to ~20. Dropped 段ボール箱 (transparent compound already covered by 18885 段ボール). Added 軸受け (じくうけ) as a candidate from 29330's similar-words note. Logged a [pattern] observation requesting a curator cleanup/restock of candidate_words.json.
+
+- **Seen-in-entry (2)**: {捨|す}て{猫|ねこ} (abandoned/stray cat), {寝顔|ねがお} (sleeping face)
+- **Standalone (11)**: メモ{用紙|ようし} (memo paper), {駐車|ちゅうしゃ}スペース (parking space), {似顔絵|にがおえ}{師|し} (portrait artist/caricaturist), {三角錐|さんかくすい} (triangular pyramid), ベアリング (mechanical bearing), {乳搾|ちちしぼ}り (milking), {麻雀|まーじゃん}{牌|ぱい} (mahjong tile), プリンアラモード (pudding à la mode), {南|みなみ}アジア (South Asia), アフリカ{大陸|たいりく} (African continent), {害獣|がいじゅう}{駆除|くじょ} (pest/vermin control)
+
+§4 self-check: 1 applied (29333 gloss — opaque "pudding à la mode" clarified to descriptive form), 4 rejected (29329 `science` upheld — suggested "mathematics" not in taxonomy; 29333 ×3 translation — model wanted romaji "purin" in English, less clear). $0.0056.
+
 ### 2026-06-18 (Routine v2: new-entries — 12 New Entries, IDs 29312–29323)
 Added 12 new entries: all 4 remaining priority seen-in-entry gaps plus 8 curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise, so standalone picks were hand-selected for genuine dictionary-worthiness. Removed stale candidate ネジ (orthographic katakana variant of existing 00307_neji ねじ "screw"). Logged a [pattern] observation requesting curator restock of higher-quality candidates.
 
@@ -86,15 +94,5 @@ Added 18 new entries: all 3 seen-in-entry gaps plus 15 hand-picked standalone wo
 - **Other (5)**: {油|あぶら}かす (oil cake/fertilizer), {卓球台|たっきゅうだい} (table tennis table), {翻訳機|ほんやくき} (translation device), {油性絵具|ゆせいえのぐ} (oil paint), {壁材|かべざい} (wall material)
 
 §4 self-check: 1 flagged, REJECTED (油かす 'nature' tag valid in-list fallback; suggested 'agriculture' not in taxonomy, 'food' wrong for primary fertilizer sense). $0.0078.
-
-### 2026-06-15 (Routine v2: new-entries — 10 New Entries, IDs 29258–29267)
-Added 10 new entries, all from the priority "seen-in-entry" candidate band (internal-completeness gaps the dictionary already referenced). The remaining candidate pool was almost entirely corpus-harvest noise (compositional phrases, dubious or wrong glosses such as 怒燥/アンパッサン), so the run stayed focused on the 10 verified real words rather than padding to ~20. New kanji 弘 (コウ; broad) assigned ID 02774.
-
-- **Noun (2)**: {水引|みずひき} (decorative paper gift cords), ビジネスモデル (business model)
-- **Godan verbs (5)**: {痛|いた}がる (to show signs of pain), {踏|ふ}みとどまる (to stand one's ground; hold back — 2 senses), {殴|なぐ}り{飛|と}ばす (to punch and send flying), {滲|にじ}み{出|だ}す (to ooze out; show through — 2 senses), {噴|ふ}き{出|だ}す (to gush out; burst out laughing — 2 senses, cross-ref to 06342)
-- **Particle (1)**: なあ (sentence-final emotion/emphasis)
-- **Proverbs (2)**: {弘法|こうぼう}も{筆|ふで}の{誤|あやま}り and {河童|かっぱ}の{川流|かわなが}れ (both "even experts make mistakes"; cross-referenced to each other)
-
-§4 self-check: clean — 0 issues across all 10 entries (independent accuracy review).
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
