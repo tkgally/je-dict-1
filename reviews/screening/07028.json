@@ -1,0 +1,10 @@
+{
+  "entry_id": "07028",
+  "screened_at": "2026-06-18T21:29:16Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `お客` is `おきゃく`, but the following text `さんが{次々|つぎつ)` suggests that `次々` is being read as `つぎつ` which is an incomplete reading. However, the instruction states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors\". Given this, the reading for `次々` as `つぎつ` is technically a partial reading of `つぎつぎ` and thus, according to the rules, should not be flagged as an error. Re-evaluating based on the strict interpretation of the rules, there are no incorrect kanji-reading mappings."
+  ],
+  "confidence": 0.5
+}
