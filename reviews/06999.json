@@ -1,0 +1,155 @@
+{
+  "entry_id": "06999",
+  "word": "{飛|と}び{跳|は}ねる",
+  "reading": "とびはねる",
+  "reviewed_at": "2026-06-18T21:54:27Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 14,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "飛",
+      "reading": "と",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "跳",
+      "reading": "は",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "子供",
+      "reading": "こども",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "野原",
+      "reading": "のはら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "合格",
+      "reading": "ごうかく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "知",
+      "reading": "し",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "嬉",
+      "reading": "うれ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "油",
+      "reading": "あぶら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "水",
+      "reading": "みず",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "靴",
+      "reading": "くつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "濡",
+      "reading": "ぬ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "服",
+      "reading": "ふく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "元気",
+      "reading": "げんき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "跳",
+      "reading": "と",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The kanji 跳 in the verb 跳ぶ is read as 'は' (as in はねる or はね), not 'と'. 'と' is the reading for 飛, not 跳. This appears to be a mix-up.",
+      "severity": "error"
+    }
+  ],
+  "summary": {
+    "total_checked": 14,
+    "flagged": 1,
+    "ok": 13,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "06999",
+    "screened_at": "2026-06-18T21:25:52Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for '跳' in pair 14 is 'と', but the dictionary entry for '飛び跳ねる' suggests 'は' for '跳'. While '跳ぶ' is a valid word, the provided reading 'と' for '跳' in '跳ぶ' is incorrect. The correct reading for '跳' in '跳ぶ' should be 'と' for the entire kanji '跳', not just 'と' for '跳' followed by 'ぶ'. If '跳' is read as 'と', then '跳ぶ' would be 'とぶ'. However, the entry is for '飛び跳ねる' where '跳' is read as 'は'. The pair 14 seems to be a different word '跳ぶ' (to hop) and the reading 'と' for '跳' is correct in that context, but it's not consistent with the '跳' in '飛び跳ねる' which is 'は'. Given the context of checking furigana for the entry '飛び跳ねる', this pair seems out of place or incorrectly read if it's meant to be related to '飛び跳ねる'. If it's a separate word '跳ぶ', then the reading 'と' for '跳' is correct."
+    ],
+    "confidence": 0.8
+  }
+}
