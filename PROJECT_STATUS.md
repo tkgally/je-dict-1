@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-19 (Routine v2: new-entries — 15 New Entries, IDs 29337–29351)
+Added all 15 remaining priority seen-in-entry candidates — a coherent batch of internal-completeness gaps, most of them antonym/counterpart pairs whose partner already had an entry, so each new entry adds a back-reference (target_id) to its existing partner. All are general-tier nouns (two also verb-suru). Added 大食漢 (たいしょくかん, big eater) as a candidate from 29348's notes.
+
+- **Antonym pairs (8)**: {有限|ゆうげん} (finite ↔ {無限|むげん}), {低温|ていおん} (low temperature ↔ {高温|こうおん}), {高地|こうち} (highland ↔ {低地|ていち}), {能動|のうどう} (active ↔ {受動|じゅどう}), {好天|こうてん} (fine weather ↔ {悪天候|あくてんこう}), {大食|たいしょく} (big appetite ↔ {小食|しょうしょく}), {実名|じつめい} (real name ↔ {匿名|とくめい}), {車外|しゃがい} (outside the vehicle ↔ {車内|しゃない})
+- **Counterpart/related (7)**: {軸|じく}{受|う}け (mechanical bearing; native term for ベアリング), {父性|ふせい} (fatherhood; cf {母性|ぼせい}), {答申|とうしん} (formal report/reply; cf {諮問|しもん}; verb-suru), {近刊|きんかん} (forthcoming publication), {避寒|ひかん} (escaping the winter cold; cf {避暑|ひしょ}; verb-suru), {独創|どくそう} (originality), {小学|しょうがく} (elementary-school level; cf {中学|ちゅうがく})
+
+§4 self-check: 0 applied, 2 rejected (29339 `weather` upheld for 低温 — keeps the 高温 pair consistent, in-list narrowness nit; 29345 `general` upheld for 能動 — 能動的 is behavioral, not purely grammatical). $0.0065.
+
 ### 2026-06-18 (Routine v2: new-entries — 13 New Entries, IDs 29324–29336)
 Added 13 curated standalone entries plus the 2 priority seen-in-entry gaps. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numbers/counters, non-lexical fragments, transparent 〜率/〜化/〜性 compounds, ad-hoc phrases), so standalone picks were hand-selected for genuine dictionary-worthiness rather than padding to ~20. Dropped 段ボール箱 (transparent compound already covered by 18885 段ボール). Added 軸受け (じくうけ) as a candidate from 29330's similar-words note. Logged a [pattern] observation requesting a curator cleanup/restock of candidate_words.json.
 
@@ -82,17 +90,5 @@ Added 16 new entries: all 11 priority seen-in-entry gaps plus 5 hand-picked stan
 - **Academic/technical (5)**: {中国学|ちゅうごくがく} (Chinese studies), {整数論|せいすうろん} (number theory), {受任者|じゅにんしゃ} (mandatary; legal), {多色|たしょく}{刷|ず}り (multicolor printing), {給排水|きゅうはいすい} (water supply and drainage)
 
 §4 self-check: 2 applied (29286 gloss — "watercolor-type"/"water-soluble" too specific for 水性絵具), 2 rejected (29288 formality `formal` upheld — ～難い literary register, consistent with sibling 信じ難い; 29291 `nature` in-list narrowness nit). $0.0069.
-
-### 2026-06-15 (Routine v2: new-entries — 18 New Entries, IDs 29268–29285)
-Added 18 new entries: all 3 seen-in-entry gaps plus 15 hand-picked standalone words. The oldest candidate band remains heavily corpus-harvest noise (numbers, transparent compounds, dubious coinages), so picks were curated for genuine dictionary-worthiness. Added 水性絵具 (water-based paint) as a candidate from entry 29284's notes.
-
-- **Seen-in-entry (3)**: {張|は}り{上|あ}げる (to raise one's voice; ichidan), {金棒|かなぼう} (iron rod/club; the 鬼に金棒 idiom), {大海|たいかい} (the open sea)
-- **Business/society (2)**: {多国籍企業|たこくせききぎょう} (multinational corporation), {受領者|じゅりょうしゃ} (recipient/payee)
-- **Science/materials (3)**: {有機化合物|ゆうきかごうぶつ} (organic compound), {炭素鋼|たんそこう} (carbon steel), {雨量計|うりょうけい} (rain gauge)
-- **Health/body (2)**: リンパ{腺|せん} (lymph node), {栄養補助食品|えいようほじょしょくひん} (dietary supplement)
-- **Language/history (3)**: {形態素|けいたいそ} (morpheme), {農業革命|のうぎょうかくめい} (agricultural revolution), {直轄地|ちょっかつち} (directly controlled territory)
-- **Other (5)**: {油|あぶら}かす (oil cake/fertilizer), {卓球台|たっきゅうだい} (table tennis table), {翻訳機|ほんやくき} (translation device), {油性絵具|ゆせいえのぐ} (oil paint), {壁材|かべざい} (wall material)
-
-§4 self-check: 1 flagged, REJECTED (油かす 'nature' tag valid in-list fallback; suggested 'agriculture' not in taxonomy, 'food' wrong for primary fertilizer sense). $0.0078.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
