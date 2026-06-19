@@ -1,0 +1,31 @@
+{
+  "entry_id": "07659_tamawaru",
+  "headword": "{賜|たまわ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:36:53Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading. While it can mean 'to receive' in a humble context, it also means 'to give' (honorific). The current gloss only covers the 'receive' aspect.",
+      "suggestion": "to receive (humble); to give (honorific)"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 is misleading. While it can mean 'to receive' in a humble context, it also means 'to give' (honorific). The current gloss only covers the 'receive' aspect.",
+      "suggestion": "to receive (humble); to be granted; to be bestowed; to give (honorific)"
+    }
+  ]
+}

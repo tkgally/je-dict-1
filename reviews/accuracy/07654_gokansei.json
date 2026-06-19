@@ -1,0 +1,24 @@
+{
+  "entry_id": "07654_gokansei",
+  "headword": "{互換性|ごかんせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:36:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'computing' is not in the valid tag list.",
+      "suggestion": "technology"
+    }
+  ]
+}

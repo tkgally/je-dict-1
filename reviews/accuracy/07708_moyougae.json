@@ -1,0 +1,31 @@
+{
+  "entry_id": "07708_moyougae",
+  "headword": "{模様替|もようが}え",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:37:34Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'household'",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'home'",
+      "suggestion": "daily-life"
+    }
+  ]
+}

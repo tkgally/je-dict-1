@@ -1,0 +1,24 @@
+{
+  "entry_id": "07661_habikoru",
+  "headword": "{蔓延|はびこ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:36:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'spread' is not in the valid tag list.",
+      "suggestion": "change to 'movement' or 'change'"
+    }
+  ]
+}

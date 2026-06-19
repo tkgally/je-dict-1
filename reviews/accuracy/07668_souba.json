@@ -1,0 +1,24 @@
+{
+  "entry_id": "07668_souba",
+  "headword": "{相場|そうば}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:37:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'speculation' is misleading as a primary gloss for the headword. While 相場 can refer to the market itself where speculation occurs, or the act of speculating, 'speculation' alone is not its most direct or common meaning. It's a secondary sense, and its inclusion in the main gloss without qualification could confuse learners.",
+      "suggestion": "Remove 'speculation' from the main gloss or rephrase it to clarify its secondary nature, e.g., 'market price; going rate; (financial) market/speculation'."
+    }
+  ]
+}

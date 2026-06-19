@@ -1,0 +1,24 @@
+{
+  "entry_id": "07746_esupii",
+  "headword": "SP",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:38:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'security' is not in the valid tag list.",
+      "suggestion": "Replace 'security' with 'society' or 'occupation' or 'politics' depending on the nuance."
+    }
+  ]
+}
