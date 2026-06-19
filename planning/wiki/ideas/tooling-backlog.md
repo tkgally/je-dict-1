@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-18 (second harvest: item 20 update — concrete `score_note_quality.py` scorer bugs [inline-link baseforms counted as bare kanji → furigana=0; required_sections matcher misses headers] behind the notes-priority no-ops; item 23 update — two more junk families [non-lexical compound fragments, decomposable/ad-hoc phrases])
+**Last updated**: 2026-06-19 (harvest: item 13 update — deep furigana pass aborts after entry 1 with exit 0; item 21 update — measured screening rate ⇒ size furigana ranges to ~200/run; item 20 update — fresh-priority basic/core no-ops; new item 24 — non-hiragana-reading lint + screener pair-extraction truncation; new item 25 — cross-reference target-id resolution: detector over-count, build reading fallback, `id`-vs-`target_id` drift)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -253,6 +253,20 @@ models did parse) rather than crashing or silently dropping. For the bare-array
 case, accept a top-level array and coerce it to the expected shape (or take the
 first element) before parsing. Both are small, localized hardening changes that
 make multi-model review more reliable under the daily budget.
+
+**Update 2026-06-19 (deep furigana pass aborts after the first entry, exit 0)**: A
+2026-06-18 accuracy-review furigana phase over 06926–07139 (session 007) hit a third,
+worse variant: `review_runner.py --pass deep` queried both `openai/gpt-4.1` **and**
+`google/gemini-2.5-pro` for the first flagged entry (06930), then **exited 0 with no
+result files written and nothing logged** — the whole deep pass produced zero output and
+gave no error. The screening pass (gemini-2.5-flash) ran fine for ~214 entries. This is
+the silent-drop failure mode (#2 above) escalated to an *aborted pass*: a single
+bad/slow gemini-2.5-pro response on entry one appears to be swallowed and to take the
+loop down with it. The per-entry try/except hardening proposed above would fix this too
+(skip 06930, continue the pass) — and the abort should at minimum be logged rather than
+exiting 0. **Cross-reference**: the same session is the throughput observation under
+item 21 (screening is ~10 entries/min, so a 518-entry furigana range cannot finish a
+25-min wrapper regardless).
 
 ## 14. accuracy-review prompt: include valid-tag list and semantically-plausible guidance
 
@@ -549,6 +563,23 @@ Together these systematically depress the scores of fully-polished entries, so t
 cause** the recency/structured-field filters above only paper over: fixing the two scorer
 bugs would clean the ranking at the source. Smallest high-value fix in this item.
 
+**Update 2026-06-19 (fresh priority file, still all no-ops — now on basic/core content
+words)**: A 2026-06-19 routine polish run worked priority-lane line 57 and found **all 8
+eligible entries already fully polished** (01092 億, 02350 良い, 00642 金曜日, 01003 隣,
+01006 腕, 02006 ばかり, 02007 まま, 00765 優しい) — complete inline links, good notes,
+examples — needing **zero** changes. This was *not* a stale-file artifact in the usual
+sense (the run regenerated priorities + reset the cursor as the §2 >half-no-op backstop
+requires), and the entries are ordinary basic/core content words, not the
+structured-particle blind spot of the 2026-06-17 update. The observing run's diagnosis
+matches scorer-bug #1/#2 above: these are settled basic/core entries the scorer still
+ranks as "worst notes" on note *length* while the notes are actually complete. Net: the
+notes-priority ranking remains low-yield even *immediately after regeneration* until the
+two `score_note_quality.py` scorer bugs are fixed — the recency/structured-field/closed-set
+filters do not help here because these are open-tier content words that genuinely look
+thin to the length heuristic but are not. Reinforces that the scorer-bug fix (strip
+inline-link baseforms before the bare-kanji check; fix the `required_sections` matcher) is
+the binding fix, not just the ranking filters.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -585,6 +616,17 @@ cut short. Option (a) — have §4 batch its changed-ID list into ~25-ID sub-ran
 — is the smallest fix and would make a typical systemic-fix batch's furigana self-check
 complete. Partial results are still written per-entry, so coverage is incomplete but not
 lost.
+
+**Update 2026-06-19 (measured screening rate ⇒ size furigana ranges to ~200/run)**: The
+2026-06-18 accuracy-review furigana phase (session 007) puts a number on the screening
+throughput: gemini-2.5-flash screened ~214 entries before the wrapper limit at **~10
+entries/min**, so a single furigana screening invocation should be sized to **~200 IDs**
+to finish inside a ~25-min wrapper. This is the §A-furigana-pass counterpart to the §4
+self-check ~25-ID batching above (option (a)): the binding rate is the same serial
+per-entry gemini-2.5-flash latency. Concretely, the selector / §A range sizing for the
+furigana screen should cap at ~200 IDs/run rather than the ~400–600 used for the
+combined screening+accuracy budget math, because the furigana screen alone is the
+throughput-bound part.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -647,6 +689,79 @@ and not standalone learner headwords. The pre-filter's productive-suffix rule sh
 widened to a general "decomposable compound" / "ad-hoc phrase" heuristic. Reconfirms the
 <10%-genuine signal rate and the throughput hit (a strict oldest-first run would have
 produced low-value entries).
+
+## 24. Non-hiragana-reading lint (cheap replacement for the furigana screener's true-positive class)
+
+**Source**: 2026-06-18 accuracy-review furigana phase (entries 06926–07139), session 007
+
+The expensive multi-model furigana **screener** earns its keep on already-polished ranges
+at roughly **0–5% precision** (documented in `reviews/calibration_report.md`), and session
+007 measured **39/40 false positives** (~2.5%) over 06926–07139. The false positives this
+range were dominated by the runner's own **pair-extraction truncating long compound
+readings** before showing them to the model: 入場料→「にゅうじ」, 電話→「でん」, 電気技師→「でんき」,
+観客席→「かんきゃ」 were all flagged as "incomplete reading," but the actual entries hold the
+correct full readings (`{入場料|にゅうじょうりょう}` etc.). So a large slice of screener noise is
+an **extraction bug in `review_runner.py`**, not a model error — worth fixing on its own
+(stop truncating the reading passed to the screener), and it would lift measured screener
+precision without any model change.
+
+The lone **true positive** in the range (06952) was a genuine non-furigana signal — Latin
+letters ("uu") leaked into a reading. That class — *a reading field containing any
+non-hiragana character* — is exactly what a **deterministic lint** would catch for free,
+far more cheaply and reliably than paying gemini-2.5-flash per entry. 
+
+**Suggested implementation**: A read-only `build/check_reading_charset.py` (or a rule in an
+existing furigana checker) that flags any furigana **reading** component (the `…` in
+`{kanji|…}`) containing a character outside hiragana + the small allowed set
+(ー長音 where appropriate, ・ in some compounds) — i.e. stray katakana, Latin letters, digits,
+or U+FFFD. This converts the screener's one real value-add on polished ranges into a
+deterministic check, leaving the (expensive, low-precision) multi-model screener for ranges
+that have never been reviewed. Pairs naturally with item 16's U+FFFD guard (same "reading
+contains an illegal character" family) and the item-13/item-21 hardening (which addresses
+the *abort* and *throughput* of the screener, while this addresses its *low precision*).
+
+## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
+
+**Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
+
+A 2026-06-19 systemic-fix run draining `check_artifacts.py --issue missing-target-id`
+surfaced three related defects in how cross-reference targets are detected, resolved, and
+stored. They share a root concern — *which entry a cross-reference actually points at* —
+and are best fixed together.
+
+1. **`check_artifacts.py --issue missing-target-id` over-counts intentional target-less
+   refs.** Of 136 flagged refs, only **40 were genuinely resolvable** (fixed this run →
+   96 remain), and the residual ~96 are mostly **legitimate, permanent** target-less
+   pointers: homophone / contrast / antonym **display labels** for words that have no
+   entry and never will (e.g. 00250 工夫/こうふ "laborer (homophone)", 17797 侯爵 "marquis
+   (homophone)", 00296 有限 "finite"). Because they can never resolve, they re-flag every
+   run and the queue never converges. **Fix**: teach the detector to **exclude** a ref whose
+   `type` is `homophone`/`contrast` (or that carries an explanatory `label`/`note`) **and**
+   whose reading has no entry — those are intentional and should not be in the fix queue.
+
+2. **Build-time by-reading fallback can resolve to the wrong sense.** 04026_hatsu's antonym
+   `〜着` (arrival sense, ちゃく) has no entry; the build's by-reading fallback would resolve
+   it to **27655_chaku (着 = counter for suits of clothing)** — a homophone of the wrong
+   sense. (`target_id` was left unset this run to avoid the mis-link.) This is the same
+   homophone-false-match hazard documented in Cleanup Backlog P2 (2026-06-17). **Fix**: the
+   reading-fallback resolver should require a **headword-surface match**, not reading-only,
+   before binding a `target_id` — reading alone is not enough to pick the right homophone.
+
+3. **Vestigial non-schema `id` field instead of `target_id`.** 26 of the 136 dangling refs
+   carried a legacy `id` field (the renderer reads `target_id` only, so these rendered as
+   dead refs); 4 of those `id`s were **stale pre-renumber values** (01040_shinjin,
+   02032_tenkin, 00373_ondo, 00213_gaikokujin). All 26 were promoted/repointed to
+   `target_id` this run. The forward-looking concern: **newer entry-creation may still emit
+   `id` instead of `target_id`** — worth a deterministic check (`check_artifacts.py` or
+   `validate.py`: flag any cross-reference/see-also object carrying an `id` key) so the drift
+   self-heals, and a look at the **entry-creation skill/templates** to stop emitting `id` at
+   the source (flagged as a `[skill]` recommendation in the 2026-06-19 wiki session log; not
+   actioned from the knowledge-base session).
+
+**Impact**: (1) makes the missing-target-id queue converge instead of permanently
+re-flagging ~96 intentional pointers; (2) closes a silent wrong-sense mis-link class at
+build time; (3) stops dead `id`-only refs from being created and provides a self-healing
+detector for the existing ones.
 
 ## Related pages
 

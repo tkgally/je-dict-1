@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-18 (second harvest: P11 residue extends to 6925 [30 applied]; P17 casual particles/fillers/idioms tagged `formal`; P21 06169–06176 〜的 cluster zero-inline-link + Jan-2026-band hypothesis)
+**Last updated**: 2026-06-19 (harvest: P21 update — 06177–06189 frontier blocks zero-inline-link despite recent `modified` timestamps; gap not self-healing; dedicated ~06150–07000 sweep recommendation restated)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -651,6 +651,20 @@ observing run: as the sequential frontier climbs into the Jan-2026 creation band
 inline-link gap is the dominant remaining tier-1 deficit for the whole 06xxx frontier — not
 an occasional miss. Argues for either a dedicated inline-link sweep of 06150–07000 or
 budgeting extra inline-link time into each frontier polish run until the band is cleared.
+
+**Update 2026-06-19**: Two 2026-06-19 routine polish runs carried the frontier through
+the next slice of the same Jan-2026 pre-inline-link band: **06177–06183** (onomatopoeia
+adverbs + tech loanwords) and **06184–06189** both had **zero** inline-link coverage in
+examples *and* notes — and crucially **despite some recent `modified` timestamps** in the
+06177–06183 block, confirming again (cf. 06156 in the second 2026-06-18 update) that the
+gap is **not self-healing through ordinary polishing**: an entry can be touched without
+its links being added. Both observing runs reached the same conclusion — a large
+pre-inline-link cohort sits unbroken between the sequential polish frontier (now ~06190)
+and ~07000, and the per-entry hand-backfill at the frontier is doing genuine net-new work
+(no duplication of prior polish) but cannot outpace the band's width. **Recommendation
+restated with more force**: a dedicated inline-link sweep of the whole ~06150–07000 band
+(examples *and* the heavy notes glossaries) is the right shape of work, still gated on the
+Tooling item 15 detector for a verified systemic-fix batch.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-19] maintenance | Observation harvest (8 items) + sixth metrics-trend refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06190`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all 8 unharvested observations from the 2026-06-18 accuracy-review furigana phase (session 007) and the three 2026-06-19 routine polish / systemic-fix runs:
+  - **Cleanup Backlog P21 update 2026-06-19** — 06177–06189 frontier blocks (onomatopoeia adverbs + tech loanwords + Jan-2026 batch) have **zero** inline-link coverage in examples *and* notes **despite some recent `modified` timestamps**, re-confirming the gap is **not self-healing** through ordinary polishing; restated the dedicated ~06150–07000 inline-link sweep recommendation (still gated on the Tooling item 15 detector).
+  - **Tooling Backlog item 13 update 2026-06-19** — `review_runner.py --pass deep` aborted after the first entry (06930) with exit 0, no result files, no error: the silent-drop failure mode escalated to an aborted pass; the proposed per-entry try/except hardening would fix it.
+  - **Tooling Backlog item 21 update 2026-06-19** — measured screening rate ~10 entries/min ⇒ size furigana-screening ranges to ~200 IDs/run (the §A furigana-pass counterpart to the §4 ~25-ID batching).
+  - **Tooling Backlog new item 24** — non-hiragana-reading lint (deterministic catch for the screener's one true-positive class — Latin "uu" in 06952) + the screener's pair-extraction reading-truncation false-positive family (39/40 FP this range, ~2.5% precision; truncation is a `review_runner.py` extraction bug, not a model error).
+  - **Tooling Backlog new item 25** — cross-reference target-id resolution cluster: (a) `check_artifacts.py --issue missing-target-id` over-counts ~96 intentional target-less refs (homophone/contrast display labels for entry-less words) so the queue never converges; (b) build-time by-reading fallback resolves to the wrong homophone sense (04026 〜着→27655 着 counter), should require a surface match; (c) 26 vestigial `id`-instead-of-`target_id` fields promoted this run (4 stale pre-renumber), with entry-creation possibly still emitting `id`.
+  - **Tooling Backlog item 20 update 2026-06-19** — a fresh (post-regeneration) priority file *still* produced all-no-ops on line 57's basic/core content words (01092 億, 02350 良い, 00642 金曜日, 01003 隣, 01006 腕, 02006 ばかり, 02007 まま, 00765 優しい), reinforcing that the `score_note_quality.py` scorer-bug fix — not the ranking filters — is the binding fix.
+  - All 8 observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [Skill recommendation — logged, not actioned] Check the **entry-creation skill/templates** for emitting `id` instead of `target_id` on cross-references / see-also objects (the `[pattern]` source of item 25(c)). Per maintenance policy, knowledge-base sessions do not modify skills; recorded here for a future skill/entry session and captured in Tooling item 25.
+- [H/Metrics-trend] **Sixth refresh** of `topics/quality-metrics.md` (12 new metrics lines, 77→89 runs / 4,016 adjudicated flags). Added the full 2026-06-18 run table and a new 2026-06-19 section; recomputed all-time + a new runs 78–89 period column from `reviews/decisions.jsonl` (verified against the prior refresh by reproducing the runs 61–77 numbers exactly). Headline: the **range-state thesis held a third consecutive period** — `tags` ran 66.7% (32/48) and the accuracy source 83.3% (n=36) because the sweeps stayed pointed ahead of the polish frontier (run 80 over 6926+ applied 30 wrong-category catches); the only large flag volume was furigana screening (115 flags, 112 rejected = 2.6%), the runner's reading-truncation noise now filed as item 24. Queue −4,232 from peak; spend ≤$0.13/day. No metric judged to be moving the wrong way (queue slowdown is the expected approach to the structural floor), so no new `[pattern]` observation was logged.
+- [E/Lint] Refreshed "Last updated" on the three edited pages (cleanup-backlog, tooling-backlog, quality-metrics) and the wiki index; spot-checked that the new cross-references (P21↔Tooling item 15, items 24/25↔Cleanup P2 / items 15/16/21, quality-metrics↔Tooling items 17/24 + Cleanup P11) resolve.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-18] maintenance | Observation harvest, second run (4 items from later 2026-06-18 runs)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
