@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-18 (wiki, second run: harvest 4 later-2026-06-18 observations → Cleanup Backlog P11 [residue extends to 6925, 30 applied], P17 [casual particles/fillers tagged `formal`], P21 [06169–06176 〜的 cluster + Jan-2026-band hypothesis] updates; Tooling Backlog item 20 update [concrete score_note_quality.py scorer bugs], item 23 update [two more candidate-junk families])
+**Last updated**: 2026-06-19 (wiki: harvest 8 observations from 2026-06-18 accuracy-review + three 2026-06-19 polish/systemic-fix runs → Cleanup Backlog P21 [06177–06189 zero-inline-link, not self-healing]; Tooling Backlog item 13 [deep furigana pass aborts after entry 1], item 21 [size furigana screen ~200/run], item 20 [fresh-priority basic/core no-ops], new item 24 [non-hiragana reading lint + screener truncation FPs], new item 25 [cross-reference target-id: detector over-count, reading fallback, `id`-vs-`target_id`]; Activity H sixth metrics refresh [89 runs, 4,016 flags])
 
 
 ## How this wiki is organized
