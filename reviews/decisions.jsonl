@@ -1751,3 +1751,10 @@
 {"ts": "2026-06-19T09:22:00Z", "entry": "06188", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "general->weather too-broad, in-list"}
 {"ts": "2026-06-19T09:22:00Z", "entry": "06189", "src": "self-check", "dim": "gloss", "sev": "error", "decision": "apply", "note": "gloss missed sense2 sunshine"}
 {"ts": "2026-06-19T09:22:00Z", "entry": "06189", "src": "self-check", "dim": "translation", "sev": "error", "decision": "reject", "note": "stylistic proverb rewording"}
+{"ts":"2026-06-19T13:10:00Z","entry":"07152","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"latin m in reading omo"}
+{"ts":"2026-06-19T13:10:00Z","entry":"07513","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"wrong kanji 無闘 should be 無闇"}
+{"ts":"2026-06-19T13:10:00Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":30,"note":"family: partial readings before okurigana"}
+{"ts":"2026-06-19T13:10:00Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":12,"note":"family: rendaku/gemination in compounds correct"}
+{"ts":"2026-06-19T13:10:00Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":8,"note":"family: valid alternate/homograph readings"}
+{"ts":"2026-06-19T13:10:00Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":5,"note":"family: semantic/translation noise misfiled"}
+{"ts":"2026-06-19T13:10:00Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":3,"note":"family: model misread/hallucination/parse-glitch"}
