@@ -1742,3 +1742,5 @@
 {"ts":"2026-06-18T21:56:26Z","src":"furigana","dim":"furigana","sev":"error","decision":"reject","n":2,"note":"deep-pass FPs 06949/06999 (extraction-trunc + 跳ぶ=とぶ); corroborates direct verify"}
 {"ts":"2026-06-19T03:30:19Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":5,"note":"family: partial-reading by design (06674,07148,25698,25792,26648)"}
 {"ts":"2026-06-19T03:30:19Z","entry":"03409","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"model misparsed gloss fragment; furigana correct"}
+{"ts":"2026-06-19T07:44:59Z","entry":"29339","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"weather fits temp pair w/ kouon; in-list narrowness nit"}
+{"ts":"2026-06-19T07:44:59Z","entry":"29345","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general ok fallback; noudouteki is behavioral not grammatical"}
