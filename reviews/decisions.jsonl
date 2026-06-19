@@ -1744,3 +1744,10 @@
 {"ts":"2026-06-19T03:30:19Z","entry":"03409","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"model misparsed gloss fragment; furigana correct"}
 {"ts":"2026-06-19T07:44:59Z","entry":"29339","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"weather fits temp pair w/ kouon; in-list narrowness nit"}
 {"ts":"2026-06-19T07:44:59Z","entry":"29345","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general ok fallback; noudouteki is behavioral not grammatical"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06184", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "formality formal->neutral; notes say neutral"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06184", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "general->cognition too-narrow, in-list"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06185", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "formality flag, no notes contradiction"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06187", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "formality flag, no notes contradiction"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06188", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "general->weather too-broad, in-list"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06189", "src": "self-check", "dim": "gloss", "sev": "error", "decision": "apply", "note": "gloss missed sense2 sunshine"}
+{"ts": "2026-06-19T09:22:00Z", "entry": "06189", "src": "self-check", "dim": "translation", "sev": "error", "decision": "reject", "note": "stylistic proverb rewording"}
