@@ -1,0 +1,24 @@
+{
+  "entry_id": "07669_hyoutenka",
+  "headword": "{氷点下|ひょうてんか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:37:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'temperature' is not in the valid tag list.",
+      "suggestion": "weather"
+    }
+  ]
+}

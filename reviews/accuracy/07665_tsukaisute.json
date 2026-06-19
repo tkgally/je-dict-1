@@ -1,0 +1,31 @@
+{
+  "entry_id": "07665_tsukaisute",
+  "headword": "{使|つか}い{捨|す}て",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:36:58Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'environment' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'consumer' is not in the valid tag list.",
+      "suggestion": "shopping"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entry_id": "07715_oobii",
+  "headword": "OB",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:37:43Z",
+  "summary": {
+    "flagged": 6
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "society"
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss specifies 'male alumnus; male graduate', but the term 'OB' in Japanese is commonly used for both male and female alumni, especially in a general context or when referring to a group. The English origin 'old boy' is misleading for the current Japanese usage.",
+      "suggestion": "alumnus; graduate"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss specifies 'male alumnus; male graduate', but the term 'OB' in Japanese is commonly used for both male and female alumni, especially in a general context or when referring to a group. The English origin 'old boy' is misleading for the current Japanese usage.",
+      "suggestion": "alumnus; graduate"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses 'OB' which, while originating from 'old boy', is often used in a gender-neutral way in modern Japanese. The English translation 'Alumni visited the school' correctly reflects this broader usage, but the headword's gloss and definition restrict it to 'male alumnus'. This creates a contradiction for the learner.",
+      "suggestion": "The gloss and definition should be updated to reflect the gender-neutral usage of OB in Japanese, or the example translation should be adjusted to 'Male alumni visited the school' if the 'male' restriction is to be maintained."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses 'OB' which, while originating from 'old boy', is often used in a gender-neutral way in modern Japanese. The English translation 'Baseball club alumni came to coach' correctly reflects this broader usage, but the headword's gloss and definition restrict it to 'male alumnus'. This creates a contradiction for the learner.",
+      "suggestion": "The gloss and definition should be updated to reflect the gender-neutral usage of OB in Japanese, or the example translation should be adjusted to 'Male baseball club alumni came to coach' if the 'male' restriction is to be maintained."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses 'OB' which, while originating from 'old boy', is often used in a gender-neutral way in modern Japanese. The English translation 'I attended the alumni association meeting' correctly reflects this broader usage, but the headword's gloss and definition restrict it to 'male alumnus'. This creates a contradiction for the learner.",
+      "suggestion": "The gloss and definition should be updated to reflect the gender-neutral usage of OB in Japanese, or the example translation should be adjusted to 'I attended the male alumni association meeting' if the 'male' restriction is to be maintained."
+    }
+  ]
+}

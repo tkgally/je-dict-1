@@ -1,0 +1,24 @@
+{
+  "entry_id": "07680_doshaburi",
+  "headword": "{土砂降|どしゃぶ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-19T21:37:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'rain' is not in the valid tag list.",
+      "suggestion": "weather"
+    }
+  ]
+}
