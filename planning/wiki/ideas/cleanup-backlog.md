@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-19 (harvest: P21 update — 06177–06189 frontier blocks zero-inline-link despite recent `modified` timestamps; gap not self-healing; dedicated ~06150–07000 sweep recommendation restated)
+**Last updated**: 2026-06-20 (harvest: P21 update — zero-inline-link band confirmed unbroken ~06150→06209, priority/notes lane 6/6 no-op = ranking points away from the real frontier gap; P9 update — 06xxx cosmetic o-prefix/pure-kana wrappers + new empty-reading `{X|}` degenerate, 06000–06400 sweep candidate)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -191,6 +191,8 @@ By sub-pattern:
 **Update 2026-06-06 (new sub-pattern: nested/double braces)**: Comprehensive-polish session 025 (entries 05374–05389) found a *nested* furigana wrapper form, `{{word|reading}phrase|compound-reading}`, in 05379 and 05380. This is invalid — each kanji compound should carry its own `{漢字|かんじ}` annotation rather than nesting one wrapper inside another. The furigana renderer expects a flat `{kanji|reading}` and will misrender or drop the nested form. **Detection**: `grep -rl '{{' entries/` (the literal `{{` opening is the tell). Scope unknown; this is the first range where the nested form has been observed, so a one-shot scan across all entries is warranted. The format validator proposed in [Tooling Backlog](tooling-backlog.md) → item 8 should add a "nested wrapper" check alongside its other rules.
 
 **Update 2026-06-17 (new sub-pattern: no-pipe brace spans + stray trailing brace)**: A 2026-06-16 routine polish session found a furigana-brace malformation in **06147_jiboujiki** distinct from all the sub-patterns above: the `{...}` (kanji|reading) syntax applied to a **whole kana phrase with no `|` separator at all** (`{やけになる}`) and a valid wrapper followed by a **stray trailing `}`** (`{投|な}げやりになる}`). Both render as literal braces on the live site and — because there is no pipe — they slip past furigana-*coverage* checks entirely (those only look for kanji lacking a reading, not for degenerate wrappers). This is likely present across the **same early-2026 yojijukugo batch** (06140s idiom cohort under P21). **Detection / tool side**: extend `build/check_furigana_format.py` to flag (a) `{...}` spans that contain no `|`, and (b) unbalanced braces in a field — see [Tooling Backlog](tooling-backlog.md) → item 8. Fixed in 06147 during the originating session; the rest of the batch is unswept.
+
+**Update 2026-06-20 (cosmetic-wrapper batch confirmed at the 06xxx frontier; a new empty-reading degenerate)**: A 2026-06-20 routine polish observation found the early-2026 06xxx creation batch carries two of the documented cosmetic sub-patterns — an **お-prefix-inside wrapper** (`{お年寄|としよ}り`-style, sub-pattern 1) and a **pure-kana / empty-reading wrapper** (sub-pattern 3) — plus a previously-unlisted degenerate form: a **valid kanji left, *empty* reading right** of the pipe (`{きつい|}`-style, i.e. `{X|}` with nothing after `|`). These render OK or near-OK (warn/info severity, not the high-severity reading-truncation class already RESOLVED in the 2026-06-09 update), but they are non-standard and cluster in the Jan-2026 06xxx batch. Current dict-wide detector counts (`build/check_furigana_format.py --summary`): **o-go-prefix = 228, pure-kana = 888, over-wrapped = 452, nested = 1** (1,569 total across 1,127 entries). The o-prefix and pure-kana sub-patterns *are* caught by the detector, so a **scoped mechanical sweep of the 06000–06400 slice** (validated against `build/word_id_lookup.json`, per the existing suggested-action #2) is a ready systemic-fix candidate. **Open tooling question**: confirm the detector flags the **empty-reading-after-pipe** form `{X|}` — if it does not, add it to [Tooling Backlog](tooling-backlog.md) → item 8 alongside the no-pipe-span and unbalanced-brace checks (the 2026-06-17 update), since `{X|}` is the natural third degenerate-wrapper case (no reading at all, vs. no pipe at all).
 
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
@@ -667,6 +669,20 @@ and ~07000, and the per-entry hand-backfill at the frontier is doing genuine net
 restated with more force**: a dedicated inline-link sweep of the whole ~06150–07000 band
 (examples *and* the heavy notes glossaries) is the right shape of work, still gated on the
 Tooling item 15 detector for a verified systemic-fix batch.
+
+**Update 2026-06-20**: Two 2026-06-20 routine polish runs carried the frontier through
+the next contiguous slice and re-confirmed the band is **unbroken**: **06190–06196**
+(nouns/proverbs, Jan-2026) and **06204–06209** (general nouns 車掌/序文/付録/栄養素/炭水化物/太陽光)
+both had **zero** `⟦...⟧` links in examples *and* notes despite being otherwise
+schema-valid and furigana-complete — the gap is purely inline-link coverage, not a
+content defect. Both runs hand-linked their frontier entries (06194 was also pointed at
+01385_kimochi, the surviving 気持ち sense). Crucially, the **priority/notes.txt lane ran
+6/6 no-op in the same session** (basic-tier particles/adjectives already fully linked),
+so the notes-quality ranking is pointing away from the real frontier deficit: the
+binding tier-1 gap on the 06xxx general-tier frontier is inline-link coverage (this
+P21 band), not note quality. The unbroken zero-link band is now confirmed from ~06150
+(idiom cohort) through **06209** without interruption — reinforcing the dedicated
+~06150–07000 inline-link-sweep recommendation (still gated on the Tooling item 15 detector).
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

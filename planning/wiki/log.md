@@ -2,6 +2,26 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-20] maintenance | Observation harvest (P21/P9/items 20,25) + overview count refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06210`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-19 routine polish session 006 and the two 2026-06-20 routine polish / systemic-fix runs:
+  - **Cleanup Backlog P21 update 2026-06-20** — the zero-inline-link frontier band is now confirmed **unbroken from ~06150 through 06209**: 06190–06196 (nouns/proverbs) and 06204–06209 (general nouns 車掌/序文/付録/栄養素/炭水化物/太陽光) both had **zero** `⟦...⟧` links in examples *and* notes despite being schema-valid + furigana-complete (both runs hand-linked their frontier entries; 06194 also pointed at 01385_kimochi). The same session's **priority/notes lane ran 6/6 no-op**, so the notes ranking is pointing *away* from the real frontier deficit (inline-link coverage, not note quality).
+  - **Cleanup Backlog P9 update 2026-06-20** — the 06xxx Jan-2026 creation batch carries cosmetic **o-prefix-inside** + **pure-kana** wrappers (detector dict-wide: o-go-prefix=228, pure-kana=888, 1,569 total/1,127 entries) plus a previously-unlisted **empty-reading `{X|}` degenerate** (valid kanji left, nothing after the pipe). The o-prefix/pure-kana sub-patterns are detector-caught → a scoped **06000–06400 mechanical sweep** (validated vs. `word_id_lookup.json`) is a ready systemic-fix candidate; left an open tooling question on whether the detector flags the empty-reading form (else add to Tooling item 8 alongside the no-pipe/unbalanced-brace checks).
+  - **Tooling Backlog item 20 update 2026-06-20** — **seventh** consecutive priority-lane 6/6 no-op (00025/00533/00304/01092/00642/01003), now juxtaposed against the same run's zero-link 06190s/06204–06209 frontier: clearest single-session evidence the notes-quality scorer is anti-correlated with real need; the `score_note_quality.py` scorer-bug fix (strip inline-link baseforms before the bare-kanji check; fix `required_sections` matcher) remains the binding fix.
+  - **Tooling Backlog item 25 update 2026-06-20** — missing-target-id trajectory quantified across four runs (**190→136→96→82**); the queue is **hovering near 80, not converging**, because the residual ~80 are intentional permanent homophone/contrast/antonym display labels — exactly what fix (1) (exclude `type=homophone`/`contrast`/labeled no-entry refs) addresses. Already filed; quantitative reinforcement only.
+  - **Already filed (no new action)**: the `[entry]` 気持ち duplicate (01385/02485) is already in [Entry Follow-ups](ideas/entry-followups.md) → "01385_kimochi & 02485_kimochi"; the `[tooling]` detector-exclusion request is already Tooling item 25(1) + Cleanup P2 update 2026-06-20.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [A/Sync] Refreshed the **General-tier count** on `project/overview.md` (~26,370 of **29,155** total as of 2026-06-20; the line had read ~26,240). `overview.md` line-7 headline ("over 29,000 entries") was already current. PROJECT_STATUS.md's Content-Status table is stale (~19,088) but is the new-entries mode's artifact and out of wiki scope.
+- [E/Lint] Refreshed "Last updated" on the two edited backlog pages (cleanup-backlog, tooling-backlog), overview, and the wiki index; the new cross-references (P21↔Tooling item 15, P9↔Tooling item 8, item 20↔Cleanup P21, item 25↔Cleanup P2) all resolve to existing anchors.
+- **Activity H (metrics-trend) not due** this run — only 8 new `metrics-history.jsonl` lines (97 total) since the page's last refresh at 89 runs; the ≥10-line threshold is not met.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-19] maintenance | Observation harvest (8 items) + sixth metrics-trend refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
