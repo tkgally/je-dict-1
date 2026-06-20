@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-20 (Routine v2: new-entries — 13 New Entries, IDs 29352–29364)
+Added all 7 remaining priority seen-in-entry candidates (a coherent Japanese seasonal-customs/foods cluster tied to entries 06185–06196 and 29348) plus 6 hand-curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numerals/counters, transparent 〜化/〜性/〜槽 compounds, conjugated fragments, dubious coinages), so standalone picks were curated for genuine dictionary-worthiness rather than padding to ~20. Added おはぎ (autumn counterpart of 牡丹餅) as a candidate from 29357's notes.
+
+- **Seen-in-entry (7)**: {大食漢|たいしょくかん} (big eater/glutton), {千歳飴|ちとせあめ} (Shichi-Go-San candy), なので (so/therefore; because-it-is connective), お{焚|た}き{上|あ}げ (ritual burning of charms), {乾物屋|かんぶつや} (dried-goods store), {牡丹餅|ぼたもち} (botamochi), {棚|たな}ぼた (windfall; abbrev. of 棚から牡丹餅)
+- **Standalone (6)**: {味|あじ}わい{深|ぶか}い (deeply flavorful; profound — i-adj), あしらい (handling/treatment; garnish), {塩入|しおい}れ (salt container), {戸襖|とぶすま} (fusuma-style sliding door), {売春婦|ばいしゅんふ} (prostitute), つり{輪|わ} (the rings, gymnastics)
+
+§4 self-check: 12 CLEAN; 1 flagged (なので, 2 gloss issues, both rejected — sense 2 deliberately documents the copula-な + ので bundle, so "because (it) is" is accurate; model misread an intentional design). $0.0057.
+
 ### 2026-06-19 (Routine v2: new-entries — 15 New Entries, IDs 29337–29351)
 Added all 15 remaining priority seen-in-entry candidates — a coherent batch of internal-completeness gaps, most of them antonym/counterpart pairs whose partner already had an entry, so each new entry adds a back-reference (target_id) to its existing partner. All are general-tier nouns (two also verb-suru). Added 大食漢 (たいしょくかん, big eater) as a candidate from 29348's notes.
 
@@ -82,13 +90,5 @@ Added 10 new entries: all 5 priority seen-in-entry gaps plus 5 hand-picked commo
 - **Standalone (5)**: {文法書|ぶんぽうしょ} (grammar book), スポンジケーキ (sponge cake), スケートリンク (skating rink), バイオマス (biomass), カードケース (card case)
 
 §4 self-check: CLEAN — 0 issues across all 10 entries (independent accuracy review, $0.0043).
-
-### 2026-06-16 (Routine v2: new-entries — 16 New Entries, IDs 29286–29301)
-Added 16 new entries: all 11 priority seen-in-entry gaps plus 5 hand-picked standalone words. The oldest candidate band remains overwhelmingly corpus-harvest noise (transparent compounds, dubious coinages), so standalone picks were curated for genuine dictionary-worthiness rather than padding to 20.
-
-- **Seen-in-entry (11)**: {水性|すいせい}{絵具|えのぐ} (water-based paint), {公金|こうきん} (public funds), {許|ゆる}し{難|がた}い (unforgivable; i-adj), {論外|ろんがい} (out of the question), {自然|しぜん}{災害|さいがい} (natural disaster), {大災害|だいさいがい} (catastrophe), やけ (reckless despair), モットー (motto), {不言実行|ふげんじっこう} (action before words), {言行一致|げんこういっち} (words matching deeds), {天地万物|てんちばんぶつ} (all of creation)
-- **Academic/technical (5)**: {中国学|ちゅうごくがく} (Chinese studies), {整数論|せいすうろん} (number theory), {受任者|じゅにんしゃ} (mandatary; legal), {多色|たしょく}{刷|ず}り (multicolor printing), {給排水|きゅうはいすい} (water supply and drainage)
-
-§4 self-check: 2 applied (29286 gloss — "watercolor-type"/"water-soluble" too specific for 水性絵具), 2 rejected (29288 formality `formal` upheld — ～難い literary register, consistent with sibling 信じ難い; 29291 `nature` in-list narrowness nit). $0.0069.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
