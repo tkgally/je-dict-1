@@ -1,0 +1,24 @@
+{
+  "entry_id": "07855_shoukyuushi",
+  "headword": "{小休止|しょうきゅうし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing semantic tag for the headword's meaning.",
+      "suggestion": "action"
+    }
+  ]
+}

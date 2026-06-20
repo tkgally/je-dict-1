@@ -1,0 +1,31 @@
+{
+  "entry_id": "07831_taiyoukouhatsuden",
+  "headword": "{太陽光発電|たいようこうはつでん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:53Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'energy' is not in the valid tag list.",
+      "suggestion": "technology"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'environment' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

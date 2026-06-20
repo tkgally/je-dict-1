@@ -1,0 +1,31 @@
+{
+  "entry_id": "07804_kurisage",
+  "headword": "{繰|く}り{下|さ}げ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:35Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'scheduling' is not a valid tag.",
+      "suggestion": "Replace 'time' and 'scheduling' with 'time-general' and 'action'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'scheduling' is not in the valid tag list.",
+      "suggestion": "Replace 'scheduling' with 'action'."
+    }
+  ]
+}

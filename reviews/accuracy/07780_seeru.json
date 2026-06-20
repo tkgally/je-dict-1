@@ -1,0 +1,24 @@
+{
+  "entry_id": "07780_seeru",
+  "headword": "セール",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for 'セール' which specifically refers to a commercial event.",
+      "suggestion": "shopping"
+    }
+  ]
+}

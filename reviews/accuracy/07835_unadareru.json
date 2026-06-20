@@ -1,0 +1,24 @@
+{
+  "entry_id": "07835_unadareru",
+  "headword": "{項垂|うなだ}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing semantic tag for an action verb.",
+      "suggestion": "action"
+    }
+  ]
+}

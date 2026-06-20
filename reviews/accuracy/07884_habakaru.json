@@ -1,0 +1,24 @@
+{
+  "entry_id": "07884_habakaru",
+  "headword": "{憚|はばか}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to dominate; to hold sway' is misleading for sense 2. While the explanation mentions 'exercise power or influence without restraint', the examples for this sense (3, 4, 5) clearly show the meaning is about *not hesitating* or *not being intimidated* by something, rather than actively dominating or holding sway over it. The phrase '憚ることなく' means 'without hesitation/reserve/being intimidated', not 'without dominating'.",
+      "suggestion": "Change gloss to 'to not hesitate; to not be intimidated; to speak/act freely'."
+    }
+  ]
+}

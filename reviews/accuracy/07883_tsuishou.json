@@ -1,0 +1,24 @@
+{
+  "entry_id": "07883_tsuishou",
+  "headword": "{追従|ついしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'social' is not in the valid tag list.",
+      "suggestion": "Replace 'social' with 'society' or 'communication'."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "07946_batteki",
+  "headword": "{抜擢|ばってき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:47:21Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'career' is not in the valid tag list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'recognition' is not in the valid tag list.",
+      "suggestion": "evaluation"
+    }
+  ]
+}

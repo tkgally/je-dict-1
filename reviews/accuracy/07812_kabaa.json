@@ -1,0 +1,24 @@
+{
+  "entry_id": "07812_kabaa",
+  "headword": "カバー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'objects' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

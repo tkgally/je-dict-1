@@ -1,0 +1,24 @@
+{
+  "entry_id": "07859_sewanin",
+  "headword": "{世話人|せわにん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing semantic tag for '世話人'",
+      "suggestion": "person"
+    }
+  ]
+}

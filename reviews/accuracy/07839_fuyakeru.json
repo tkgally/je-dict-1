@@ -1,0 +1,24 @@
+{
+  "entry_id": "07839_fuyakeru",
+  "headword": "ふやける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'get wrinkly' for 'ふやける' in the context of fingers after a long bath is misleading. While fingers do get wrinkly, 'ふやける' specifically refers to the skin becoming soft and swollen from water absorption, which is a more accurate description than just wrinkly.",
+      "suggestion": "If you stay in the bath too long, your fingers get waterlogged/pruney/soft and swollen."
+    }
+  ]
+}
