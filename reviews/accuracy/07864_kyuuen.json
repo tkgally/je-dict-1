@@ -1,0 +1,24 @@
+{
+  "entry_id": "07864_kyuuen",
+  "headword": "{救援|きゅうえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'emergency' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

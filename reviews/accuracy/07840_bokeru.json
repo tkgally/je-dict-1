@@ -1,0 +1,24 @@
+{
+  "entry_id": "07840_bokeru",
+  "headword": "ぼける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing semantic tags for the headword's meanings.",
+      "suggestion": "Add 'health' for sense 1, 'art' or 'technology' for sense 2, and 'communication' or 'entertainment' for sense 3."
+    }
+  ]
+}

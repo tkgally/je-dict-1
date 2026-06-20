@@ -1,0 +1,24 @@
+{
+  "entry_id": "07932_ozomashii",
+  "headword": "おぞましい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:47:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 'おぞましい'. While it conveys strong negative emotion, it's not typically considered a formal word in Japanese. It's more accurately described as neutral or perhaps slightly literary/emphatic.",
+      "suggestion": "neutral"
+    }
+  ]
+}

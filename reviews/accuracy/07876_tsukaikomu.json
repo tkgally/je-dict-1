@@ -1,0 +1,24 @@
+{
+  "entry_id": "07876_tsukaikomu",
+  "headword": "{使|つか}い{込|こ}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'finance' is too narrow for the second sense of the word, which is about using something until it becomes familiar or broken in. The tag 'general' is too broad and doesn't add much specific meaning.",
+      "suggestion": "Remove 'finance' and 'general'. Add 'action' and 'daily-life' to cover both senses of the word more appropriately."
+    }
+  ]
+}

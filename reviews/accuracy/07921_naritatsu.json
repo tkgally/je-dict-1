@@ -1,0 +1,31 @@
+{
+  "entry_id": "07921_naritatsu",
+  "headword": "{成|な}り{立|た}つ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'composition' is not in the valid tag list.",
+      "suggestion": "Replace 'composition' with 'general' or 'existence'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'validity' is not in the valid tag list.",
+      "suggestion": "Replace 'validity' with 'general' or 'existence'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07807_puragu",
+  "headword": "プラグ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'automotive' is too specific for the headword 'プラグ' which also refers to general electrical plugs.",
+      "suggestion": "Remove 'automotive' as a semantic tag for the headword. The 'technology' tag is sufficient, and the automotive sense is covered by the second definition."
+    }
+  ]
+}

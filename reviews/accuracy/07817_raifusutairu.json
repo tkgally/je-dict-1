@@ -1,0 +1,24 @@
+{
+  "entry_id": "07817_raifusutairu",
+  "headword": "ライフスタイル",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'lifestyle' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

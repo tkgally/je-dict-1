@@ -1,0 +1,24 @@
+{
+  "entry_id": "07844_monoganashii",
+  "headword": "{物悲|ものがな}しい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing semantic tag for '物悲しい'.",
+      "suggestion": "emotion"
+    }
+  ]
+}

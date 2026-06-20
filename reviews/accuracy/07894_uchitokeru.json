@@ -1,0 +1,24 @@
+{
+  "entry_id": "07894_uchitokeru",
+  "headword": "{打|う}ち{解|と}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:46:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'interpersonal' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

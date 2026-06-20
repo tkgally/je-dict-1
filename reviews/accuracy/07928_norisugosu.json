@@ -1,0 +1,24 @@
+{
+  "entry_id": "07928_norisugosu",
+  "headword": "{乗|の}り{過|す}ごす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:47:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'mistake' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07838_kasureru",
+  "headword": "かすれる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-20T09:45:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing semantic tags for the headword's meaning.",
+      "suggestion": "Add 'health' or 'body-part' for sense 1, and 'descriptive' or 'appearance' for sense 2."
+    }
+  ]
+}
