@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-19 (wiki: harvest 8 observations from 2026-06-18 accuracy-review + three 2026-06-19 polish/systemic-fix runs → Cleanup Backlog P21 [06177–06189 zero-inline-link, not self-healing]; Tooling Backlog item 13 [deep furigana pass aborts after entry 1], item 21 [size furigana screen ~200/run], item 20 [fresh-priority basic/core no-ops], new item 24 [non-hiragana reading lint + screener truncation FPs], new item 25 [cross-reference target-id: detector over-count, reading fallback, `id`-vs-`target_id`]; Activity H sixth metrics refresh [89 runs, 4,016 flags])
+**Last updated**: 2026-06-20 (wiki: harvest observations from 2026-06-19 polish session 006 + two 2026-06-20 polish/systemic-fix runs → Cleanup Backlog P21 [zero-inline-link band unbroken ~06150→06209; priority lane points away from the real gap], P9 [06xxx cosmetic wrappers + new empty-reading `{X|}` degenerate, 06000–06400 sweep candidate]; Tooling Backlog item 20 [seventh 6/6 priority no-op vs same-run zero-link frontier], item 25 [missing-target-id 190→136→96→82, hovering not converging]; Activity A overview General-tier count refresh)
 
 
 ## How this wiki is organized

@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-19 (harvest: item 13 update — deep furigana pass aborts after entry 1 with exit 0; item 21 update — measured screening rate ⇒ size furigana ranges to ~200/run; item 20 update — fresh-priority basic/core no-ops; new item 24 — non-hiragana-reading lint + screener pair-extraction truncation; new item 25 — cross-reference target-id resolution: detector over-count, build reading fallback, `id`-vs-`target_id` drift)
+**Last updated**: 2026-06-20 (harvest: item 20 update — seventh 6/6 priority-lane no-op, now juxtaposed against the same run's zero-link frontier; item 25 update — missing-target-id trajectory 190→136→96→82, queue hovering near 80 not converging)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -580,6 +580,17 @@ thin to the length heuristic but are not. Reinforces that the scorer-bug fix (st
 inline-link baseforms before the bare-kanji check; fix the `required_sections` matcher) is
 the binding fix, not just the ranking filters.
 
+**Update 2026-06-20 (seventh confirmation — 6/6 no-op, now juxtaposed against the real frontier gap)**: A
+2026-06-20 routine polish run worked **6 priority-lane entries (00025 ちいさい, 00533 おそい, 00304 なんでも,
+01092 億, 00642 金曜日, 01003 隣) and found all 6 already complete** (full inline links, example sets, notes,
+cross-refs) — zero changes, the seventh consecutive run to hit this. What sharpens the case this time: the
+*same* run's frontier lane found 06190–06196 and 06204–06209 with **zero** inline links (see
+[Cleanup Backlog](cleanup-backlog.md) → P21 update 2026-06-20). So the priority lane spent ~40% of its budget
+re-confirming settled basic/core entries while the genuine tier-1 deficit — inline-link coverage on the
+general-tier frontier — sat untouched in the frontier lane, invisible to the notes ranking. Clearest
+single-session evidence that the notes-quality scorer is anti-correlated with real need; the scorer-bug fix
+remains the binding fix.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -762,6 +773,16 @@ and are best fixed together.
 re-flagging ~96 intentional pointers; (2) closes a silent wrong-sense mis-link class at
 build time; (3) stops dead `id`-only refs from being created and provides a self-healing
 detector for the existing ones.
+
+**Update 2026-06-20 (the convergence-failure quantified across four runs)**: A 2026-06-20
+systemic-fix observation gave the detector's run-over-run trajectory: **190 → 136 → 96 → 82**.
+Each run only drains the handful of refs whose referenced word gained an entry since the last
+run (this run filled 13 whose targets were created as 29338–29351 — see Cleanup Backlog P2
+update 2026-06-20); the residual ~80 are the **intentional, permanent** target-less
+homophone/contrast/antonym display labels that re-flag every run. The queue is therefore
+**hovering near 80 instead of converging to 0** — exactly the behaviour fix (1) above
+(exclude `type=homophone`/`contrast`/`label`-bearing refs whose reading has no entry)
+exists to correct. Already filed; this is quantitative reinforcement, no new action.
 
 ## Related pages
 
