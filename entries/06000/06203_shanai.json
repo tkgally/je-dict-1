@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06203_shanai_ex1",
-      "japanese": "{車内|しゃない}では{静|しず}かにしてください。",
+      "japanese": "{車内|しゃない}⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{静|しず}かに→静か：00755_shizuka⟧⟦して→する：00392_suru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please be quiet inside the train.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06203_shanai_ex2",
-      "japanese": "{車内|しゃない}アナウンスが{流|なが}れた。",
+      "japanese": "{車内|しゃない}⟦アナウンス→アナウンス：10700_anaunsu⟧⟦が→が：00051_ga⟧⟦{流|なが}れた→流れる：01969_nagareru⟧。",
       "english": "An in-train announcement was made.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06203_shanai_ex3",
-      "japanese": "{車内|しゃない}で{飲食|いんしょく}は{禁止|きんし}です。",
+      "japanese": "{車内|しゃない}⟦で→で：00502_de⟧⟦{飲食|いんしょく}→飲食：03010_inshoku⟧⟦は→は：00079_ha⟧⟦{禁止|きんし}→禁止：02643_kinshi⟧⟦です→です：09485_desu⟧。",
       "english": "Eating and drinking inside the vehicle is prohibited.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,19 @@
       ]
     }
   ],
-  "notes": "USAGE: {車内|しゃない} commonly refers to the inside of trains and buses in public transportation contexts.\n\nCOMMON COLLOCATIONS:\n・{車内|しゃない}アナウンス (in-train announcement)\n・{車内|しゃない}{放送|ほうそう} (in-train broadcast)\n・{車内|しゃない}{販売|はんばい} (on-train sales, like snacks and drinks)\n・{車内|しゃない}マナー (train etiquette)\n・{車内|しゃない}{広告|こうこく} (in-train advertisement)\n\nCONTRAST:\n・{車外|しゃがい} - outside the vehicle\n・{社内|しゃない} - inside the company (different kanji, same reading)\n\nNOTE: The kanji {車|くるま} refers to vehicles, while {社|しゃ} refers to companies. Context usually makes the meaning clear.",
+  "notes": "USAGE: {車内|しゃない} commonly refers to the inside of trains and buses in public transportation contexts.\n\nCOMMON COLLOCATIONS:\n・{車内|しゃない}⟦アナウンス→アナウンス：10700_anaunsu⟧ (in-train announcement)\n・{車内|しゃない}⟦{放送|ほうそう}→放送：02093_housou⟧ (in-train broadcast)\n・{車内|しゃない}⟦{販売|はんばい}→販売：03573_hanbai⟧ (on-train sales, like snacks and drinks)\n・{車内|しゃない}⟦マナー→マナー：11139_manaa⟧ (train etiquette)\n・{車内|しゃない}⟦{広告|こうこく}→広告：02747_koukoku⟧ (in-train advertisement)\n\nCONTRAST:\n・⟦{車外|しゃがい}→車外：29350_shagai⟧ - outside the vehicle\n・⟦{社内|しゃない}→社内：13731_shanai⟧ - inside the company (different kanji, same reading)\n\nNOTE: The kanji ⟦{車|くるま}→車：00516_kuruma⟧ refers to vehicles, while {社|しゃ} refers to companies. Context usually makes the meaning clear.",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "しゃがい",
       "headword": "{車外|しゃがい}",
-      "label": "outside vehicle"
+      "label": "outside vehicle",
+      "target_id": "29350_shagai"
     }
   ],
   "metadata": {
     "created": "2026-01-17T04:49:53Z",
-    "modified": "2026-01-19T12:14:27.249078Z",
+    "modified": "2026-06-20T03:21:40Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
