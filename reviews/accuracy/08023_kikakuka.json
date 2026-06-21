@@ -1,0 +1,31 @@
+{
+  "entry_id": "08023_kikakuka",
+  "headword": "{規格化|きかくか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:48:08Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'manufacturing' is not in the valid tag list.",
+      "suggestion": "technology"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'process' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

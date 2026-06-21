@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:47:08Z",
+  "reviewed_at": "2026-06-21T00:54:44Z",
   "summary": {
     "flagged": 1
   },
@@ -17,7 +15,7 @@
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for 'おぞましい'. While it conveys strong negative emotion, it's not typically considered a formal word in Japanese. It's more accurately described as neutral or perhaps slightly literary/emphatic.",
+      "concern": "The formality tag 'formal' is incorrect for 'おぞましい'. While it conveys strong negative emotion, it's not typically considered a formal word in Japanese. It's more often used in descriptive contexts to express strong personal feelings of revulsion or horror, which aligns more with a neutral or even slightly informal register depending on context.",
       "suggestion": "neutral"
     }
   ]

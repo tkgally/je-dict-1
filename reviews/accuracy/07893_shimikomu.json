@@ -4,11 +4,9 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:46:36Z",
+  "reviewed_at": "2026-06-21T00:54:36Z",
   "summary": {
     "flagged": 1
   },
@@ -16,9 +14,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'physical' is not in the valid tag list.",
-      "suggestion": "general"
+      "severity": "warn",
+      "concern": "The tag 'cooking' is too specific for the general meaning of 'to soak in; to permeate'. While it appears in examples, it's not a core meaning of the headword itself.",
+      "suggestion": "Remove 'cooking' tag."
     }
   ]
 }

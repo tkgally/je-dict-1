@@ -1,0 +1,31 @@
+{
+  "entry_id": "07995_hakkutsu",
+  "headword": "{発掘|はっくつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:47:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'archaeology' is not in the valid tag list.",
+      "suggestion": "history"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'discovery' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:46:40Z",
+  "reviewed_at": "2026-06-21T00:54:38Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'aesthetics' is not in the valid tag list.",
-      "suggestion": "general"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for this word.",
-      "suggestion": "neutral"
+      "concern": "The formality tag 'formal' is incorrect for '儚い'.",
+      "suggestion": "Change 'formal' to 'neutral'."
     }
   ]
 }

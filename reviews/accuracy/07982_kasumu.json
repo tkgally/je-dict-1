@@ -1,0 +1,22 @@
+{
+  "entry_id": "07982_kasumu",
+  "headword": "{翳|かす}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:54:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'weather' is too narrow and misleading for a word that also describes vision and comparison.",
+      "suggestion": "Remove 'weather' and add 'cognition' for the senses related to vision, and 'evaluation' or 'abstract' for the sense of being overshadowed."
+    }
+  ]
+}

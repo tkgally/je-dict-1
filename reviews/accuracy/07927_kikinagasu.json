@@ -4,49 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:47:03Z",
+  "reviewed_at": "2026-06-21T00:54:42Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'hearing' is too broad and not specific enough for the headword's meaning, which implies a specific way of hearing (ignoring or half-listening).",
-      "suggestion": "Remove 'hearing'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'ignoring' is too broad and not specific enough for the headword's meaning, which implies a specific way of ignoring (ignoring what one hears).",
-      "suggestion": "Remove 'ignoring'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'coping' is not directly related to the meaning of '聞き流す', which is about how one listens or processes auditory information, not about dealing with difficulties.",
-      "suggestion": "Remove 'coping'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The headword is a verb describing an action related to listening. 'action' would be a more appropriate and standard tag.",
-      "suggestion": "Add 'action'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The headword describes a cognitive process related to attention and perception of sound. 'cognition' would be a relevant tag.",
-      "suggestion": "Add 'cognition'."
-    }
-  ]
+  "issues": []
 }
