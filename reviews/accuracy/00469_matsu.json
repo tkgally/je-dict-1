@@ -2,29 +2,15 @@
   "entry_id": "00469_matsu",
   "headword": "{待|ま}つ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:32Z",
+  "reviewed_at": "2026-06-21T15:31:01Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'to look forward to, to await' for sense 2 is slightly incomplete without mentioning the nuance of 'expecting' or 'anticipating' something positive.",
-      "suggestion": "Change gloss to 'to look forward to, to await (with expectation)' or 'to anticipate, to look forward to'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'I await your reply' for example 7 is a bit too formal and less natural than 'I am awaiting your reply' or 'I look forward to your reply' given the Japanese 'お待ちしております' which is polite but not overly archaic.",
-      "suggestion": "Change translation to 'I am awaiting your reply.' or 'I look forward to your reply.'"
-    }
-  ]
+  "issues": []
 }
