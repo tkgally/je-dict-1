@@ -1,0 +1,24 @@
+{
+  "entry_id": "08107_kamoi",
+  "headword": "{鴨居|かもい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags are not from the valid list.",
+      "suggestion": "Replace 'architecture', 'traditional', 'Japanese house' with 'building'."
+    }
+  ]
+}

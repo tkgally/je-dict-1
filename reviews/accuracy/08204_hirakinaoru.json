@@ -1,0 +1,24 @@
+{
+  "entry_id": "08204_hirakinaoru",
+  "headword": "{開|ひら}き{直|なお}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:57:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'behavior' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

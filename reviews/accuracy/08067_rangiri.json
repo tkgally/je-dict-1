@@ -1,0 +1,31 @@
+{
+  "entry_id": "08067_rangiri",
+  "headword": "{乱切|らんぎ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:23Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'technique' is not in the valid tag list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'food-preparation' is not in the valid tag list.",
+      "suggestion": "cooking"
+    }
+  ]
+}

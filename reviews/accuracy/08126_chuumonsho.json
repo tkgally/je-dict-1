@@ -1,0 +1,31 @@
+{
+  "entry_id": "08126_chuumonsho",
+  "headword": "{注文書|ちゅうもんしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:20Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'documents' is not in the valid tag list.",
+      "suggestion": "Replace 'documents' with 'general' or 'work'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'commerce' is not in the valid tag list.",
+      "suggestion": "Replace 'commerce' with 'business' or 'economics'."
+    }
+  ]
+}

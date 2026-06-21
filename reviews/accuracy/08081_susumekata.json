@@ -1,0 +1,31 @@
+{
+  "entry_id": "08081_susumekata",
+  "headword": "{進|すす}め{方|かた}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:37Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'method' is not in the valid tag list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'process' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

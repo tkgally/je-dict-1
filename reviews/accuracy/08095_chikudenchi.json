@@ -1,0 +1,38 @@
+{
+  "entry_id": "08095_chikudenchi",
+  "headword": "{蓄電池|ちくでんち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:50Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'energy' is not in the valid tag list.",
+      "suggestion": "technology"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'electricity' is not in the valid tag list.",
+      "suggestion": "technology"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'equipment' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

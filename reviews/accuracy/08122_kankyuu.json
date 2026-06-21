@@ -1,0 +1,31 @@
+{
+  "entry_id": "08122_kankyuu",
+  "headword": "{緩急|かんきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:17Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss combines two distinct meanings without clear separation, which could confuse a learner. 'Slow and fast; modulation' is one sense, and 'emergency' is a completely different sense.",
+      "suggestion": "Separate the two distinct meanings in the main gloss, perhaps using a semicolon or 'or' to indicate separate senses, or by listing the primary sense first."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 緩急 is not inherently 'formal'. While it appears in some formal contexts, it's also used in everyday sports and music discussions. 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

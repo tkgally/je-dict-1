@@ -1,0 +1,24 @@
+{
+  "entry_id": "08180_koru",
+  "headword": "{凝|こ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T13:07:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is not appropriate for the headword '凝る'. While one sense can relate to hobbies, 'leisure' as a general category doesn't capture the core meaning of 'to be absorbed in' or 'to be elaborate'.",
+      "suggestion": "Remove 'leisure' and add 'cognition' or 'action' to reflect the mental state or effort involved in the second sense."
+    }
+  ]
+}

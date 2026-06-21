@@ -1,0 +1,38 @@
+{
+  "entry_id": "08118_tororokonbu",
+  "headword": "とろろ{昆布|こんぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:13Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'ingredient' is not in the valid tag list.",
+      "suggestion": "food"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'traditional' is not in the valid tag list.",
+      "suggestion": "culture"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'seaweed' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

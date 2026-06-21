@@ -1,0 +1,24 @@
+{
+  "entry_id": "08132_kanshitsu",
+  "headword": "{乾湿|かんしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'measurement' is not in the valid tag list.",
+      "suggestion": "Replace 'measurement' with a valid tag from the list, such as 'quantity' or 'science' (if it refers to scientific measurement)."
+    }
+  ]
+}
