@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-21 (Routine v2: new-entries — 11 New Entries, IDs 29379–29389)
+Created 11 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced (from polish frontier entries 06211–06221 plus 管理栄養士 from 29375). Removed stale candidate C22001 (ぼたもち): it is a kana variant of existing entry 29357 牡丹餅, not a new word. The fallback "oldest unprocessed" lane was skipped again — those candidates remain largely low-quality compositional phrases and OCR artifacts (権使, 些道, 怒燥, 火虫), so the run stayed focused on the 11 high-quality gaps rather than padding to ~20.
+
+- **Nouns**: {管理|かんり}{栄養士|えいようし} (registered dietitian), {対戦|たいせん}{相手|あいて} (opponent), {決算|けっさん}{期|き} (fiscal closing period), てんてこ{舞|ま}い (frantically busy), {話|はなし}{半分|はんぶん} (take with a grain of salt), ジレンマ (dilemma)
+- **Verbs**: {売|う}りつける (to foist on; ichidan), {突|つ}き{倒|たお}す (to push down; godan), {騒|さわ}ぎ{立|た}てる (to make a fuss; ichidan), {大同団結|だいどうだんけつ} (to join forces; verb-suru)
+- **Proverb**: {猫|ねこ}に{小判|こばん} (casting pearls before swine)
+
+§4 self-check: all 11 CLEAN (0 issues). $0.0048.
+
 ### 2026-06-20 (Routine v2: new-entries — 14 New Entries, IDs 29365–29378)
 Created all 14 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced but had not defined (several are antonym/counterpart partners of existing entries: 悪徳↔美徳, 急減↔急増, 軟質↔硬質, 一神教↔多神教, 降機↔搭乗). The fallback "oldest unprocessed" lane was skipped: those Feb-2026 candidates are largely typos/non-words (権使, 些道, 個尊, 怒燥), so the run stayed focused on the 14 high-quality gaps rather than padding to ~20. Added ぼたもち and 管理栄養士 as new candidates from the new entries' notes; logged a [pattern] observation requesting a candidate-list cleanup and a [tooling] note on a reviewer false positive.
 
