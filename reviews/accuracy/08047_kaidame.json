@@ -1,0 +1,24 @@
+{
+  "entry_id": "08047_kaidame",
+  "headword": "{買|か}いだめ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emergency' is not a valid semantic tag.",
+      "suggestion": "Remove 'emergency' or replace it with a valid tag if appropriate (e.g., 'daily-life' or 'economics' could cover aspects of emergency preparedness or price increases)."
+    }
+  ]
+}

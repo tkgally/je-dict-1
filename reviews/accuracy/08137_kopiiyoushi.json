@@ -1,0 +1,38 @@
+{
+  "entry_id": "08137_kopiiyoushi",
+  "headword": "コピー{用紙|ようし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:30Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'office' is not in the valid tag list.",
+      "suggestion": "Replace 'office' with 'work'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'stationery' is not in the valid tag list.",
+      "suggestion": "Replace 'stationery' with 'tool'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'materials' is not in the valid tag list.",
+      "suggestion": "Replace 'materials' with 'general'."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "08069_hacchuusho",
+  "headword": "{発注書|はっちゅうしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:26Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'document' is not in the valid tag list.",
+      "suggestion": "Replace 'document' with 'general' or 'business'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'commerce' is not in the valid tag list.",
+      "suggestion": "Replace 'commerce' with 'business' or 'economics'."
+    }
+  ]
+}

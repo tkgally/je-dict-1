@@ -1953,3 +1953,29 @@
 {"ts": "2026-06-21T00:57:11Z", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "reject", "n": 118, "note": "family: in-list narrowness/stylistic tag nits (warn-only entries)"}
 {"ts": "2026-06-21T00:57:11Z", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "n": 6, "note": "family: in-list narrowness nits on migrated tags"}
 {"ts": "2026-06-21T00:57:11Z", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "n": 2, "note": "family: formality nits; notes dont contradict"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08073", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "eating->consumption; drop vague behavior"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08085", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "drinking->consumption; satisfaction->emotion"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08100", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "anatomy->body-internal medical->health biology->science"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08101", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "anatomy->body-internal medical->health biology->science"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08104", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "gardening/agriculture->plant-general"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08111", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "speech->communication; figurative->expression"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08114", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "instrument/equipment->music,tool"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08154", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "terrain->geography; description->descriptive"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08180", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "body->body-part; hobby->leisure"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08181", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "body->health"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08194", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "body->health (dedup)"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08217", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "body->movement"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08231", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "gardening/plants->plant-general"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08114", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "apply", "note": "raised->waved (振る=wave)"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08122", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "reject", "note": "senses already separated in definitions"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08158", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "apply", "note": "malformed {全部食|ぜんぶた}->{全部|ぜんぶ}{食|た}"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08162", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "apply", "note": "malformed {メガ盛|も}->メガ{盛|も}"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08162", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "note": "腹->なか correct in お腹"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08047", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "reject", "note": "買->が correct rendaku in まとめ買い"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08189", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "note": "買->が correct rendaku in まとめ買い"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08143", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "note": "各->かく correct; model index-confusion"}
+{"ts": "2026-06-21T13:03:45Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 11, "note": "family: screening FPs rendaku/okurigana/compound-split (known noise)"}
+{"ts": "2026-06-21T13:03:45Z", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "flag", "n": 240, "note": "family: out-of-list tags deferred to P20 systemic sweep 7000-8500"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08085", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "removed weak emotion tag (my mapping slip)"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08162", "src": "self-check", "dim": "tags", "sev": "warn", "decision": "apply", "note": "restaurant->consumption (pre-existing out-of-list)"}
+{"ts": "2026-06-21T13:03:45Z", "entry": "08180", "src": "self-check", "dim": "tags", "sev": "error", "decision": "reject", "note": "leisure defensible; in-list->in-list substitution"}

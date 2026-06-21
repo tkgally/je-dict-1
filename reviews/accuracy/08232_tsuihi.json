@@ -1,0 +1,31 @@
+{
+  "entry_id": "08232_tsuihi",
+  "headword": "{追肥|ついひ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:57:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'gardening' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'agriculture' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

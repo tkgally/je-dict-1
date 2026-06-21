@@ -1,0 +1,38 @@
+{
+  "entry_id": "08113_kurumafu",
+  "headword": "{車麩|くるまふ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:08Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'ingredient' is not in the valid tag list.",
+      "suggestion": "food"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'regional' is not in the valid tag list.",
+      "suggestion": "culture"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'traditional' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entry_id": "08098_naedoko",
+  "headword": "{苗床|なえどこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:53Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'gardening' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'agriculture' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'plants' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

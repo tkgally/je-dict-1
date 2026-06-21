@@ -1,0 +1,24 @@
+{
+  "entry_id": "08109_hyakuman",
+  "headword": "{百万|ひゃくまん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'mathematics' is not in the valid tag list.",
+      "suggestion": "number"
+    }
+  ]
+}

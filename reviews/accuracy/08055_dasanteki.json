@@ -1,0 +1,24 @@
+{
+  "entry_id": "08055_dasanteki",
+  "headword": "{打算的|ださんてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'criticism' is not in the valid tag list.",
+      "suggestion": "Remove 'criticism' or replace it with a valid tag if appropriate (e.g., 'evaluation' if the word is used to evaluate something negatively)."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "08066_awadateki",
+  "headword": "{泡立|あわだ}て{器|き}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:55:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'kitchen' is not in the valid tag list.",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'utensil' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

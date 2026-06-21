@@ -1,0 +1,31 @@
+{
+  "entry_id": "08225_kakikaeru",
+  "headword": "{書|か}き{換|か}える",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:57:41Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'writing' is not in the valid tag list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'documents' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

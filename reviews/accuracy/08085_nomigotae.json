@@ -1,0 +1,24 @@
+{
+  "entry_id": "08085_nomigotae",
+  "headword": "{飲|の}みごたえ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T13:07:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion' is incorrect for the headword '飲みごたえ'. While drinking can evoke emotions, the word itself describes a physical quality of the drink, not an emotion.",
+      "suggestion": "Remove 'emotion'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "08127_temawashi",
+  "headword": "{手回|てまわ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'mechanical' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

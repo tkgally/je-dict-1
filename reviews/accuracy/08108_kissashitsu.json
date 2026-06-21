@@ -1,0 +1,38 @@
+{
+  "entry_id": "08108_kissashitsu",
+  "headword": "{喫茶室|きっさしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:03Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "tag 'food and drink' is not in the valid tag list",
+      "suggestion": "consumption"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "tag 'facility' is not in the valid tag list",
+      "suggestion": "building"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "tag 'establishment' is not in the valid tag list",
+      "suggestion": "business"
+    }
+  ]
+}

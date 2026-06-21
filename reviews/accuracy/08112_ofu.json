@@ -1,0 +1,24 @@
+{
+  "entry_id": "08112_ofu",
+  "headword": "お{麩|ふ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T12:56:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'traditional' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

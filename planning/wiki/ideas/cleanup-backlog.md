@@ -583,6 +583,24 @@ the adjacent ~7000–8500 creation cohort** that appears to share the origin. Th
 is the highest-yield migration target measured to date and is queued under the
 existing `unknown-semantic-tags` backlog item.
 
+**Update 2026-06-21 (the cohort continues unbroken into 8038–8237 — even denser)**:
+A 2026-06-21 accuracy-review run over **8038–8237** (cross-model-review cursor;
+phase furigana) ran the same deterministic `VALID_SEMANTIC` scan and found **177
+of 200 entries (88%)** carrying ≥1 out-of-taxonomy semantic tag — **305 instances
+across 162 distinct out-of-list tags** — confirming the free-form creation cohort
+extends contiguously from 7815 through at least 8237 and is *denser* here than the
+7815–8037 block (88% vs 73%). New distinct families seen this block beyond those
+already enumerated: `loanword`, `household`, `instrument`/`equipment` (→`tool`/`music`),
+`competition`, `office`/`stationery`/`documents`/`writing`, `kitchen`/`ingredient`/
+`food-preparation`, `perception`/`clarity`/`meaning`/`vision` (→`cognition`),
+`gardening`/`agriculture`/`plants` (→`plant-general`), `anatomy` (→`body-internal`),
+`body` (→`body-part`/`health` per sense). The run migrated only a **14-entry
+hand-verified slice** of the highest-confidence near-duplicates (per-entry verified,
+logged in `reviews/decisions.jsonl`) and **deferred the ~240-instance long tail to
+the systemic sweep** — reconfirming this is systemic-fix territory, not per-run
+accuracy-review. The recommended 7000–8500 sweep should now be scoped to **at least
+7815–8237** (and likely the full 7000–8500 band).
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
