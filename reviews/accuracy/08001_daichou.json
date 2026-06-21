@@ -1,0 +1,31 @@
+{
+  "entry_id": "08001_daichou",
+  "headword": "{台帳|だいちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:47:50Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'records' is not in the valid tag list.",
+      "suggestion": "Replace 'records' with 'business' or 'general'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'administration' is not in the valid tag list.",
+      "suggestion": "Replace 'administration' with 'business' or 'general'."
+    }
+  ]
+}

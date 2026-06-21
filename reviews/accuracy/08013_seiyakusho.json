@@ -1,0 +1,31 @@
+{
+  "entry_id": "08013_seiyakusho",
+  "headword": "{誓約書|せいやくしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:47:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'document' is not in the valid tag list.",
+      "suggestion": "law"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'agreement' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "07983_geigou",
+  "headword": "{迎合|げいごう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-21T00:47:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tags 'behavior' and 'social-relations' are not in the valid tag list.",
+      "suggestion": "Replace 'behavior' with 'action' and 'social-relations' with 'society'."
+    }
+  ]
+}

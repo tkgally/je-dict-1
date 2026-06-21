@@ -4,28 +4,19 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
-    "gloss",
-    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T09:46:58Z",
+  "reviewed_at": "2026-06-21T00:54:41Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'sound' is not in the valid tag list.",
-      "suggestion": "Replace 'sound' with 'descriptive' or 'onomatopoeia'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'crowd' is not in the valid tag list.",
-      "suggestion": "Replace 'crowd' with 'society' or 'general'."
+      "concern": "The tag 'nature' is too narrow and potentially misleading for a word that also describes human sounds and social reactions.",
+      "suggestion": "Remove 'nature' and add 'descriptive' as a more general tag for words describing sounds or states."
     }
   ]
 }
