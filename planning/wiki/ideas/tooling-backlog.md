@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-20 (harvest: item 20 update — seventh 6/6 priority-lane no-op, now juxtaposed against the same run's zero-link frontier; item 25 update — missing-target-id trajectory 190→136→96→82, queue hovering near 80 not converging)
+**Last updated**: 2026-06-21 (harvest: item 6 update — expand `check_tag_drift.py` migration map for the 73%-out-of-taxonomy 7000–8500 cohort; item 20 update — eighth 6/6 priority-lane no-op; item 23 update — two consecutive new-entries runs skipped the junk fallback lane; new item 26 — embed the valid `formality` enum in the accuracy-review prompt)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -120,6 +120,13 @@ Each check is cheap. A combined `check_tag_drift.py` script could emit a JSON re
 - **`concrete-noun-domain-mismatch`** flags a non-verb headword carrying ≥2 mutually-distant hard physical-object domains (横断歩道 → animal-mammal+clothing+transportation; 油絵 → body-part+tool). It is *structural* (counts incompatible domain clusters) rather than keyword-based, so it beats the `semantic-mismatch` noise floor: the broad keyword cross-domain variant measured ~5% precision (516 flags, mostly correct bench→furniture/school→building) and was rejected; the shipped structural version measured **~77% clear precision**.
 
 The two checks are the batch-ready slices of P11; the keyword `semantic-mismatch` stays experimental, and the in-list-but-wrong-category long tail (朱肉→animal-mammal *sole* tag) remains accuracy-review territory. Remediation prompt: `prompts/fix_semantic_tag_drift.md`. Unit tests in `build/tests/test_detectors.py`. First batch fixed 35 entries (Cleanup P11 update 2026-06-17).
+
+**Update 2026-06-21 (expand the `unknown-semantic` migration map for the 7000–8500 cohort)**: A 2026-06-21 accuracy-review run measured **73% out-of-taxonomy semantic tags (163/223 entries) across 7815–8037** — a different, denser creation cohort than the 2026-04-14 P11 batch, and the highest migration yield seen to date (Cleanup P20 update 2026-06-21). The drift families are large and mostly **1:1-mappable**, so the scalable fix is to extend `check_tag_drift.py`'s `TAG_MIGRATION` map (the `--check unknown-semantic` source) rather than drain it one accuracy-review pass at a time:
+- **Free-form domain words** needing new 1:1 targets: `career`/`employment`/`personnel`→`work`(or `business`); `lifestyle`→`daily-life`; `place`→`geography`(context-dependent); `document`→`communication`; `accommodation`→`building`; `commerce`→`business`; `accounting`→`economics`; `logistics`→`transportation`. (Verify per entry — several are context-dependent.)
+- **Underscore/space variants** (pure normalisation, mechanically safe): `daily_life`/`daily life`→`daily-life`; `Japanese_cuisine`/`Japanese cuisine`→drop (entries already carry `food`).
+- **Body/health splits**: `body`→`body-part`; `sleep`→`health`; `injury`→`health`.
+
+Once the map covers these, a deterministic+spot-checked systemic-fix sweep over 7815–8037 and the adjacent ~7000–8500 cohort would clear the bulk; per-entry verification on the context-dependent free-form mappings (`place`, `document`, `logistics`). Queued under the existing `unknown-semantic-tags` backlog item.
 
 ## 7. Polysemic kanji-variant overlap detector
 
@@ -591,6 +598,18 @@ general-tier frontier — sat untouched in the frontier lane, invisible to the n
 single-session evidence that the notes-quality scorer is anti-correlated with real need; the scorer-bug fix
 remains the binding fix.
 
+**Update 2026-06-21 (eighth confirmation — two more 6/6 no-op runs on the same closed-tier set)**: Two
+2026-06-21 routine polish runs each ran their priority/notes lane 6/6 no-op on the same already-polished
+basic-tier words (へ, 小さい, 遅い, 何でも, 隣, 腕) — full inline links, cross-refs, conjugation tables, needing
+zero changes — while both runs' frontier lanes found genuine zero-link gaps (06210–06213 compound verbs and
+the 06214+ proverb/yojijukugo block; [Cleanup Backlog](cleanup-backlog.md) → P21 update 2026-06-21). This is
+the eighth consecutive priority-lane no-op session and again juxtaposes the wasted ~40% priority budget against
+the untouched real frontier deficit. No new diagnosis — pure reinforcement that the two `score_note_quality.py`
+scorer bugs (strip inline-link baseforms before the bare-kanji check; fix the `required_sections` matcher), not
+the ranking filters, are the binding fix. The observing runs additionally suggest a recency/coverage guard in
+`prioritize_polishing.py` so heavily-polished basic entries stop dominating the lane — the same closed-set
+exclusion recommended in the 2026-06-18 update.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -700,6 +719,38 @@ and not standalone learner headwords. The pre-filter's productive-suffix rule sh
 widened to a general "decomposable compound" / "ad-hoc phrase" heuristic. Reconfirms the
 <10%-genuine signal rate and the throughput hit (a strict oldest-first run would have
 produced low-value entries).
+
+**Update 2026-06-21 (two consecutive runs skipped the fallback lane entirely)**: The
+2026-06-20 and 2026-06-21 new-entries runs **both abandoned the oldest-unprocessed
+fallback lane** and stayed under the ~20 target because the pre-March candidate vintage
+(Feb-2026, e.g. C06045 権使, C08195 些道, C09223 個尊, C10277 怒燥, plus 火虫/黒手) is
+dominated by typos, dialect fragments, proper nouns, and OCR artifacts — the same
+<10%-signal families as above. The "seen in entry" pool was uniformly high quality in
+both runs. This is the throughput cost made concrete: with the fallback lane unusable,
+new-entries production is now effectively capped at the seen-in-entry inflow. Both the
+**pre-filter** (this item) and a **one-time curator triage/restock** of the pre-March
+batches (Open Issues → candidate-pool quality) are needed; the observing runs explicitly
+recommend running `clean_up_candidates_list.md` to purge the pre-March junk so the
+fallback lane becomes usable again.
+
+## 26. accuracy-review prompt: embed the valid `formality` enum (formal/neutral/informal/vulgar)
+
+**Source**: 2026-06-20 routine new-entries self-check (gemini-2.5-flash, `tags` dimension)
+
+A §4 self-check flagged 炭水 with `formality: "informal"` as an error and suggested
+**`"colloquial"`** as the replacement — but `colloquial` is not a valid `formality` value
+(schema enum: `formal` / `neutral` / `informal` / `vulgar`); it reads more like a domain
+label. This is the **formality-field analogue of the now-resolved item 14 `VALID_SEMANTIC`
+gap**: the reviewer's `tags`-dimension prompt embeds the valid *semantic* vocabulary (item
+14, prompt v3) but does **not** embed the valid *formality* enum, so the model invents
+out-of-enum formality suggestions that can never be applied. Each such flag is a guaranteed
+false positive that still costs adjudication time.
+
+**Suggested implementation**: Embed the four-value `formality` enum (and likewise the
+`politeness` enum) in `review_accuracy.py`'s tags/register prompt, with an instruction to
+suggest only in-enum values — exactly as `VALID_SEMANTIC` is embedded for semantic tags.
+Cheap, high-leverage, and symmetric with the item-14 fix that already suppressed the
+out-of-list *semantic*-tag false positives.
 
 ## 24. Non-hiragana-reading lint (cheap replacement for the furigana screener's true-positive class)
 

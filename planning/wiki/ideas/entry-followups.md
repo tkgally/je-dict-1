@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-15 (added 06131_toiawase noun-vs-verb-lemma restructure)
+**Last updated**: 2026-06-21 (added 00304_nandemo sense-3 "by all means / at any cost" dubious-usage review)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -533,6 +533,23 @@ Two more stale `⟦…：noentry⟧` markers surfaced during review, the same cl
 lookup against `build/word_id_lookup.json`). These are concrete instances for the
 proposed `check_noentry_links.py` self-healing scan (Tooling item 19); until that ships,
 fix them in the next inline-link refresh pass that touches the 0570x–0580x range.
+
+## 00304_nandemo (何でも) — sense 3 "by all means / at any cost" likely not standard usage
+
+**Source**: 2026-06-20 routine polish session (inline-link pass over the priority lane)
+
+00304 何でも carries a sense 3 glossed "by all means / at any cost" (examples ex11–15)
+that rests on 何でも **alone** carrying an adverbial "at any cost" meaning. That reading
+is dubious as standard usage: the natural phrasings for "at any cost" are 何が何でも or
+どうしても, where the force comes from the fuller idiom, not from 何でも by itself. 何でも
+on its own means "anything / everything" (sense 1) and "I hear that… / apparently"
+(sense 2, 何でも〜らしい).
+
+**Recommended action**: a deeper review of sense 3 — likely either remove it or
+re-scope it as the fixed idiom 何が何でも (and add/point to a 何が何でも entry if warranted).
+Out of scope for a link-only polish pass; needs a sense-level editorial decision, so
+parked here rather than fixed inline. If sense 3 is removed, re-check that ex11–15 are
+relocated or dropped, and that no cross-reference points at sense 3.
 
 ## Related pages
 

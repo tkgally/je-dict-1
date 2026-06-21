@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-20 (harvest: P21 update — zero-inline-link band confirmed unbroken ~06150→06209, priority/notes lane 6/6 no-op = ranking points away from the real frontier gap; P9 update — 06xxx cosmetic o-prefix/pure-kana wrappers + new empty-reading `{X|}` degenerate, 06000–06400 sweep candidate)
+**Last updated**: 2026-06-21 (harvest: P20 update — new 7815–8037 creation cohort is 73% out-of-taxonomy [120 entries remain], enumerated 1:1-mappable free-form/variant/body-health families, recommend expanding `check_tag_drift.py` migration map + a 7000–8500 systemic-fix sweep; P21 update — zero-inline-link band now unbroken ~06150→06214+, 06200–06250 compound-verb/idiom block backfill candidate)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -554,6 +554,35 @@ out-of-list tags with suggested in-list replacements, and the standing
 adjudication rule (routine2.md §A) is to apply them. Queued as
 `unknown-semantic-tags` in `backlog-queue.json`.
 
+**Update 2026-06-21 (the drift extends to a dense 7815–8037 block — a new
+creation cohort, 73% out-of-taxonomy)**: A 2026-06-21 accuracy-review run over
+**7815–8037** ran a deterministic scan against `build/validate_tags.VALID_SEMANTIC`
+and found **163 of 223 entries (73%)** carrying at least one out-of-taxonomy
+semantic tag — a far higher density than the 01490–06925 batch P11 documents, and
+a different creation cohort (the 7000–8500 band appears to share a free-form
+tagging origin, distinct from the 2026-04-14 claude-opus-4-5 batch). The run
+migrated only the **43** that the cross-model accuracy reviewer flagged at `error`
+severity (architecture/house→building, social/speech→communication,
+economy→economics, progress / 'change of state'→change); **120 entries still carry
+invalid tags.** The drift families are large and mostly **1:1-mappable**, so this
+is **systemic-fix territory, not per-run accuracy-review** (the reviewer surfaces
+only a fraction per pass and at high adjudication cost; the deterministic detector
+is the scalable instrument):
+- **Free-form domain words** (no current 1:1 entry in the migration map):
+  `career`, `lifestyle`, `place`, `document`, `accommodation`, `commerce`,
+  `accounting`, `employment`, `logistics`, `personnel`.
+- **Underscore/space variants**: `daily_life` / `daily life` → `daily-life`;
+  `Japanese_cuisine` / `Japanese cuisine` → drop (entries already carry `food`).
+- **Body/health splits**: `body` → `body-part`, `sleep` → `health`,
+  `injury` → `health`.
+
+**Recommended next action**: expand `build/check_tag_drift.py`'s migration map
+(Tooling item 6) to cover these families, commit it, then run a
+deterministic+spot-checked systemic-fix sweep over the whole 7815–8037 block **and
+the adjacent ~7000–8500 creation cohort** that appears to share the origin. This
+is the highest-yield migration target measured to date and is queued under the
+existing `unknown-semantic-tags` backlog item.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -683,6 +712,19 @@ binding tier-1 gap on the 06xxx general-tier frontier is inline-link coverage (t
 P21 band), not note quality. The unbroken zero-link band is now confirmed from ~06150
 (idiom cohort) through **06209** without interruption — reinforcing the dedicated
 ~06150–07000 inline-link-sweep recommendation (still gated on the Tooling item 15 detector).
+
+**Update 2026-06-21**: Two 2026-06-21 routine polish runs carried the frontier
+through **06210–06213** (compound verbs すりおろす/誘い込む/殴り倒す, created 2026-01-17,
+last touched 2026-04-10 by claude-opus-4-5) and into the **06214+ proverb/yojijukugo
+block** — both had **zero** `⟦...⟧` links in examples *or* notes, again **despite
+06214+ carrying recent (2026-06-16) `modified` timestamps** (those bumps were not
+comprehensive polish — the same not-self-healing signature as 06156 and the
+06177–06183 block in prior updates). Both runs hand-linked their frontier entries.
+The unbroken zero-link band is now confirmed continuous from ~06150 through
+**06214+** without interruption. One observing run added a sharper recommendation:
+the whole 06200–06250 band (compound verbs + four-character idioms/proverbs)
+predates the inline-link polishing step and should be backfilled as a block; the
+furigana and structure are otherwise clean, so the work is purely link coverage.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry
