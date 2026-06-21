@@ -29,14 +29,57 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ENTRIES_DIR = PROJECT_ROOT / "entries"
+WORD_LOOKUP = PROJECT_ROOT / "build" / "word_id_lookup.json"
 
 CONJ_KEY_RE = re.compile(r'"conjugation"\s*:')
+FURIGANA_RE = re.compile(r"\{([^|}]+)\|([^}]+)\}")
 ISSUES = ["register-trailer", "teiru-brace", "surusuru", "dup-conjugation", "missing-target-id"]
 
 
 def numeric_id(entry_id):
     m = re.match(r"(\d+)", str(entry_id))
     return int(m.group(1)) if m else None
+
+
+def strip_furigana(text):
+    """`{漢字|かんじ}の{人|ひと}` -> `漢字の人` (the surface form)."""
+    return FURIGANA_RE.sub(lambda m: m.group(1), text or "")
+
+
+def furigana_reading(text):
+    """`{漢字|かんじ}の{人|ひと}` -> `かんじのひと` (kanji readings + plain kana)."""
+    return FURIGANA_RE.sub(lambda m: m.group(2), text or "")
+
+
+def load_word_lookup():
+    """Return the by_reading map, or None if the lookup is unavailable.
+
+    None means "cannot determine resolvability" — the missing-target-id check
+    then falls back to flagging every target-less ref (the pre-2026-06 behavior).
+    """
+    try:
+        return json.loads(WORD_LOOKUP.read_text(encoding="utf-8")).get("by_reading")
+    except (FileNotFoundError, json.JSONDecodeError, OSError):
+        return None
+
+
+def ref_is_resolvable(ref, by_reading):
+    """True if the referenced word has an existing entry we could link to.
+
+    A target-less cross-reference is only a *defect* when the word it points to
+    actually has an entry (so target_id can be filled). Refs to words with no
+    entry — homophone notes, antonym/contrast display labels, transitivity-pair
+    pointers awaiting an entry — are intentional and never resolvable, so the
+    detector should not re-surface them every run. Resolvable = some entry
+    shares both the referenced reading and the referenced surface (headword).
+    """
+    if by_reading is None:
+        return True  # cannot tell; keep the conservative (flag-all) default
+    headword = ref.get("headword") or ""
+    surface = strip_furigana(headword)
+    reading = furigana_reading(headword) or (ref.get("reading") or "")
+    candidates = by_reading.get(reading, [])
+    return any(c.get("headword") == surface for c in candidates)
 
 
 def iter_entries(id_range=None):
@@ -60,8 +103,9 @@ def context(text, needle, width=36):
     return text[start:i + len(needle) + width // 2].replace("\n", "\\n")
 
 
-def scan(id_range=None, only=None):
+def scan(id_range=None, only=None, include_intentional=False):
     records = []
+    by_reading = None if include_intentional else load_word_lookup()
 
     def add(eid, rel, issue, field, ctx, severity="warn", verify=None):
         records.append({
@@ -100,6 +144,8 @@ def scan(id_range=None, only=None):
             for fld in ("cross_references", "prominent_see_also"):
                 for j, ref in enumerate(data.get(fld, []) or []):
                     if isinstance(ref, dict) and not ref.get("target_id"):
+                        if not (include_intentional or ref_is_resolvable(ref, by_reading)):
+                            continue  # referenced word has no entry — intentional pointer
                         label = ref.get("headword") or ref.get("reading") or "?"
                         add(eid, rel, "missing-target-id", f"{fld}[{j}]", label,
                             verify="Resolve the intended entry id, or drop the dangling reference.")
@@ -114,9 +160,13 @@ def main():
     ap.add_argument("--issue", choices=ISSUES, help="Filter to one issue type.")
     ap.add_argument("--range", nargs=2, type=int, metavar=("START", "END"))
     ap.add_argument("--limit", type=int, default=25)
+    ap.add_argument("--include-intentional", action="store_true",
+                    help="For missing-target-id, also list refs whose word has no entry "
+                         "(intentional pointers) — for curator audit, off by default.")
     args = ap.parse_args()
 
-    records = scan(tuple(args.range) if args.range else None, only=args.issue)
+    records = scan(tuple(args.range) if args.range else None, only=args.issue,
+                   include_intentional=args.include_intentional)
 
     if args.json:
         print(json.dumps(records, ensure_ascii=False, indent=2))
