@@ -2,6 +2,28 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-21] maintenance | Observation harvest (P20/P21, items 6/20/23/26, 00304) + seventh metrics-trend refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06222`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-20 routine(polish) session and the three 2026-06-21 accuracy-review / polish / new-entries runs:
+  - **Cleanup Backlog P20 update 2026-06-21** — the headline: a **new 7815–8037 creation cohort measured 73% out-of-taxonomy (163/223 entries)**, denser and distinct from the 01490–06925 P11 batch. The 2026-06-21 accuracy-review migrated 43 error-severity flags; **120 entries still carry invalid tags**. Enumerated the large 1:1-mappable drift families (free-form domain words, underscore/space variants, body/health splits) and recommended a systemic-fix sweep over 7815–8037 + the adjacent ~7000–8500 cohort once the migration map is expanded.
+  - **Tooling Backlog item 6 update 2026-06-21** — concrete `check_tag_drift.py` `TAG_MIGRATION` expansions to make that 7000–8500 sweep deterministic (the scalable instrument vs. draining one accuracy-review pass at a time).
+  - **Tooling Backlog new item 26** — embed the valid `formality` enum (and `politeness` enum) in `review_accuracy.py`'s reviewer prompt; the formality analogue of the resolved item-14 `VALID_SEMANTIC` gap (a §4 self-check saw the reviewer suggest out-of-enum "colloquial" for a formality flag — a guaranteed false positive).
+  - **Cleanup Backlog P21 update 2026-06-21** — zero-inline-link frontier band now confirmed **unbroken ~06150→06214+** (06210–06213 compound verbs + the 06214+ proverb/yojijukugo block, again recent-but-unlinked `modified` timestamps); 06200–06250 backfill-as-a-block recommendation.
+  - **Tooling Backlog item 20 update 2026-06-21** — **eighth** consecutive 6/6 priority-lane no-op (two runs this period), juxtaposed again against genuine zero-link frontier gaps; the `score_note_quality.py` scorer-bug fix remains binding, plus a recency/coverage guard in `prioritize_polishing.py`.
+  - **Tooling Backlog item 23 update 2026-06-21** — two consecutive new-entries runs skipped the oldest-first junk fallback lane entirely and stayed under target; recommends running `clean_up_candidates_list.md` to purge the pre-March junk (curator side) alongside the proposed pre-filter.
+  - **Entry Follow-ups** — 00304_nandemo sense 3 ("by all means / at any cost") rests on 何でも alone carrying a dubious adverbial meaning (natural forms 何が何でも / どうしても); flagged for a sense-level editorial decision.
+  - **Reinforcement only (no new action)**: the 2026-06-21 furigana-screener ~0% precision over 7815–8037 is the documented known-noise family (item 24 / calibration); the candidate-backlog-junk `[pattern]` is the already-filed <10%-signal finding.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [H/Metrics-trend] **Seventh refresh** of `topics/quality-metrics.md` (14 new metrics lines, 89→103 runs / 4,431 adjudicated flags). Added the run-by-run continuation (rest of 2026-06-19, full 2026-06-20, partial 2026-06-21), recomputed all-time + a new runs 90–103 period column from `reviews/decisions.jsonl` (window apply=164/reject=250/flag=1, verified to match the metrics-history flag sums exactly). Headline: the **range-state thesis held a fourth consecutive period** — `tags` ran **49.4%** (157/318) on the *largest* `tags` sample of any period, driven by the 2026-06-21 sweep over the 73%-contaminated 7815–8037 cohort and the 2026-06-19 21:45 sweep (103 applies). The **review queue reached its structural floor** (range-bound 15,298–15,436, net −33 over the period), so I rewrote Finding §5 and the queue implication to read queue depth as a floor indicator rather than a convergence signal. No metric judged to be moving the wrong way, so no new `[pattern]` observation logged.
+- [E/Lint] Refreshed "Last updated" on the four edited pages (cleanup-backlog, tooling-backlog, entry-followups, quality-metrics) and the wiki index; the new cross-references (P20↔Tooling item 6, item 26↔item 14, P21↔Tooling item 15) resolve to existing anchors.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-20] maintenance | Observation harvest (P21/P9/items 20,25) + overview count refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

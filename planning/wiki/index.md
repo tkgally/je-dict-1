@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-20 (wiki: harvest observations from 2026-06-19 polish session 006 + two 2026-06-20 polish/systemic-fix runs → Cleanup Backlog P21 [zero-inline-link band unbroken ~06150→06209; priority lane points away from the real gap], P9 [06xxx cosmetic wrappers + new empty-reading `{X|}` degenerate, 06000–06400 sweep candidate]; Tooling Backlog item 20 [seventh 6/6 priority no-op vs same-run zero-link frontier], item 25 [missing-target-id 190→136→96→82, hovering not converging]; Activity A overview General-tier count refresh)
+**Last updated**: 2026-06-21 (wiki: harvest observations from the 2026-06-20 polish + 2026-06-21 accuracy-review/polish/new-entries runs → Cleanup Backlog P20 [new 7815–8037 cohort 73% out-of-taxonomy, 120 entries remain, expand migration map + 7000–8500 sweep], P21 [zero-inline-link band unbroken ~06150→06214+]; Tooling Backlog item 6 [migration-map expansion], item 20 [eighth 6/6 priority no-op], item 23 [fallback lane skipped two runs running], new item 26 [embed formality enum in reviewer prompt]; Entry Follow-ups 00304_nandemo sense 3; Activity H seventh metrics-trend refresh → 103 runs)
 
 
 ## How this wiki is organized
