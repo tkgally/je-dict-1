@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-21",
+  "updated": "2026-06-22",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -118,10 +118,10 @@
       "verify": "per-entry",
       "priority": 7,
       "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 2,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "warn",
-      "notes": "Distinguish true keigo from uchi/soto reference forms and bikago. Fix the tag or add the explanation; do not bulk-retag."
+      "notes": "Distinguish true keigo from uchi/soto reference forms and bikago. Fix the tag or add the explanation; do not bulk-retag. PROGRESS 2026-06-22: RESOLVED. Detector down 2->0. Verified both flagged entries (23570 つまらないものですが humble; 27145 閣下 honorific); both tags are correct keigo, so added an explicit register sentence to each notes field (謙譲/尊敬) rather than retagging. Self-check (review_accuracy) on the 2: 23570 clean for the register edit but caught a pre-existing not-in-list semantic tag 'social' -> migrated to 'society' (1:1 map); 27145 clean. Kept as a standing check; if new flags appear, re-verify per entry."
     },
     {
       "id": "furigana-cosmetic-wrappers",

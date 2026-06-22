@@ -142,6 +142,8 @@ The `politeness` tag's four buckets (plain/polite/humble/honorific) are being ap
 - In the interim, ensure the notes prose carries the correct nuance even if the tag is coarse. Most well-polished entries (e.g., 00549_haha) already do this.
 - Longer term: see [Schema Tag Reliability](../topics/schema-tag-reliability.md) → "Implications for the schema" for the structured-politeness proposal vs. its costs.
 
+**Progress 2026-06-22 (detector slice RESOLVED)**: The mechanically-detectable slice — `check_tag_drift.py --check politeness-unsupported`, which flags `humble`/`honorific` entries whose notes contain none of the keigo support keywords — is at **0** dictionary-wide. The 2 then-open flags were verified and fixed: 23570 つまらないものですが (humble, correct — added a 謙譲 register sentence) and 27145 閣下 (honorific, correct — added a 尊敬 clause). Both tags were right; the notes simply lacked the supporting wording, so the fix was to document the register, not retag. The `backlog-queue.json` item `tag-politeness-unsupported` is marked resolved (kept as a standing check). The **broader** semantic review above (uchi/soto kinship terms, bikago, familiar suffixes mis-tagged) is NOT covered by this detector — those entries do carry supporting notes — and remains an open polish-politeness-labels task.
+
 ## Priority 8: Unconsolidated duplicate-expression entries
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
