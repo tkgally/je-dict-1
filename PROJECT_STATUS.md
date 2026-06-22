@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-22 (Routine v2: new-entries — 20 New Entries, IDs 29409–29428)
+Created the 5 remaining priority "seen in entry" candidates (反対語, 襖絵, 茶席, けんちん汁, 骨子 — internal-completeness gaps referenced from entries 06231/06233/29399/29405/29406) plus 15 hand-curated standalone general-tier nouns. The fallback "oldest unprocessed" candidate lane stays largely corpus-harvest noise (bare numerals/counters, transparent 〜化/〜性 compounds, OCR artifacts), so standalone picks were curated for genuine dictionary-worthiness rather than padding from the raw queue. No new kanji. §4 self-check: all 20 CLEAN (0 issues), $0.0086.
+
+- **Seen-in-entry (5)**: {反対語|はんたいご} (antonym), {襖絵|ふすまえ} (fusuma painting), {茶席|ちゃせき} (tea gathering), けんちん{汁|じる} (kenchin soup), {骨子|こっし} (gist/outline)
+- **Standalone nouns (15)**: {段|だん}ボール{箱|ばこ} (cardboard box), {速度計|そくどけい} (speedometer), {文例|ぶんれい} (model sentence), {定型表現|ていけいひょうげん} (fixed expression), {控除額|こうじょがく} (deduction amount), {黄褐色|おうかっしょく} (yellowish brown), {音楽理論|おんがくりろん} (music theory), {展望塔|てんぼうとう} (observation tower), {尾翼|びよく} (aircraft tail), {舗装道路|ほそうどうろ} (paved road), {工業団地|こうぎょうだんち} (industrial park), {共同研究|きょうどうけんきゅう} (joint research), {職務経歴|しょくむけいれき} (work history), {挨拶文|あいさつぶん} (greeting message), {保護具|ほごぐ} (protective gear)
+
 ### 2026-06-22 (Routine v2: new-entries — 19 New Entries, IDs 29390–29408)
 Created all 19 priority "seen in entry" candidates (C22013–C22031) — internal-completeness gaps the dictionary already referenced from polish-frontier entries (06222, 06226–06229, 06797, 17173, 17276, 17278, 17755, etc.). New kanji 罷 (from 罷免) was assigned ID 02775. §4 self-check (cross-model accuracy review of all 19) came back clean except 29401 取り付く, where "to set about" was demoted from the headline gloss to the explanation as an extended sense (1 applied). Added 3 new candidates encountered in notes (反対語, 襖絵, 茶席).
 
@@ -83,13 +89,5 @@ Added all 7 remaining priority seen-in-entry candidates (a coherent Japanese sea
 - **Standalone (6)**: {味|あじ}わい{深|ぶか}い (deeply flavorful; profound — i-adj), あしらい (handling/treatment; garnish), {塩入|しおい}れ (salt container), {戸襖|とぶすま} (fusuma-style sliding door), {売春婦|ばいしゅんふ} (prostitute), つり{輪|わ} (the rings, gymnastics)
 
 §4 self-check: 12 CLEAN; 1 flagged (なので, 2 gloss issues, both rejected — sense 2 deliberately documents the copula-な + ので bundle, so "because (it) is" is accurate; model misread an intentional design). $0.0057.
-
-### 2026-06-19 (Routine v2: new-entries — 15 New Entries, IDs 29337–29351)
-Added all 15 remaining priority seen-in-entry candidates — a coherent batch of internal-completeness gaps, most of them antonym/counterpart pairs whose partner already had an entry, so each new entry adds a back-reference (target_id) to its existing partner. All are general-tier nouns (two also verb-suru). Added 大食漢 (たいしょくかん, big eater) as a candidate from 29348's notes.
-
-- **Antonym pairs (8)**: {有限|ゆうげん} (finite ↔ {無限|むげん}), {低温|ていおん} (low temperature ↔ {高温|こうおん}), {高地|こうち} (highland ↔ {低地|ていち}), {能動|のうどう} (active ↔ {受動|じゅどう}), {好天|こうてん} (fine weather ↔ {悪天候|あくてんこう}), {大食|たいしょく} (big appetite ↔ {小食|しょうしょく}), {実名|じつめい} (real name ↔ {匿名|とくめい}), {車外|しゃがい} (outside the vehicle ↔ {車内|しゃない})
-- **Counterpart/related (7)**: {軸|じく}{受|う}け (mechanical bearing; native term for ベアリング), {父性|ふせい} (fatherhood; cf {母性|ぼせい}), {答申|とうしん} (formal report/reply; cf {諮問|しもん}; verb-suru), {近刊|きんかん} (forthcoming publication), {避寒|ひかん} (escaping the winter cold; cf {避暑|ひしょ}; verb-suru), {独創|どくそう} (originality), {小学|しょうがく} (elementary-school level; cf {中学|ちゅうがく})
-
-§4 self-check: 0 applied, 2 rejected (29339 `weather` upheld for 低温 — keeps the 高温 pair consistent, in-list narrowness nit; 29345 `general` upheld for 能動 — 能動的 is behavioral, not purely grammatical). $0.0065.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
