@@ -3,6 +3,22 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-18 (Routine v2: new-entries — 13 New Entries, IDs 29324–29336)
+Added 13 curated standalone entries plus the 2 priority seen-in-entry gaps. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numbers/counters, non-lexical fragments, transparent 〜率/〜化/〜性 compounds, ad-hoc phrases), so standalone picks were hand-selected for genuine dictionary-worthiness rather than padding to ~20. Dropped 段ボール箱 (transparent compound already covered by 18885 段ボール). Added 軸受け (じくうけ) as a candidate from 29330's similar-words note. Logged a [pattern] observation requesting a curator cleanup/restock of candidate_words.json.
+
+- **Seen-in-entry (2)**: {捨|す}て{猫|ねこ} (abandoned/stray cat), {寝顔|ねがお} (sleeping face)
+- **Standalone (11)**: メモ{用紙|ようし} (memo paper), {駐車|ちゅうしゃ}スペース (parking space), {似顔絵|にがおえ}{師|し} (portrait artist/caricaturist), {三角錐|さんかくすい} (triangular pyramid), ベアリング (mechanical bearing), {乳搾|ちちしぼ}り (milking), {麻雀|まーじゃん}{牌|ぱい} (mahjong tile), プリンアラモード (pudding à la mode), {南|みなみ}アジア (South Asia), アフリカ{大陸|たいりく} (African continent), {害獣|がいじゅう}{駆除|くじょ} (pest/vermin control)
+
+§4 self-check: 1 applied (29333 gloss — opaque "pudding à la mode" clarified to descriptive form), 4 rejected (29329 `science` upheld — suggested "mathematics" not in taxonomy; 29333 ×3 translation — model wanted romaji "purin" in English, less clear). $0.0056.
+
+### 2026-06-18 (Routine v2: new-entries — 12 New Entries, IDs 29312–29323)
+Added 12 new entries: all 4 remaining priority seen-in-entry gaps plus 8 curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise, so standalone picks were hand-selected for genuine dictionary-worthiness. Removed stale candidate ネジ (orthographic katakana variant of existing 00307_neji ねじ "screw"). Logged a [pattern] observation requesting curator restock of higher-quality candidates.
+
+- **Seen-in-entry (4)**: {人災|じんさい} (man-made disaster; contrast 天災), {辞職願|じしょくねがい} (letter of resignation), {配属先|はいぞくさき} (place of assignment/posting), コロナ{禍|か} (the COVID-19 pandemic)
+- **Standalone (8)**: {核|かく}ミサイル (nuclear missile), {距離計|きょりけい} (rangefinder), {昆虫類|こんちゅうるい} (insects/the insect class), {神在月|かみありづき} (tenth lunar month, Izumo name), {限界速度|げんかいそくど} (critical/limiting speed), {主要部|しゅようぶ} (main part), {重要語|じゅうようご} (key word/term), {厨房機器|ちゅうぼうきき} (commercial kitchen equipment)
+
+§4 self-check: CLEAN — 0 issues across all 12 entries (independent accuracy review, $0.0052).
+
 ### 2026-06-14 (Routine v2: new-entries — 17 New Entries, IDs 29241–29257)
 Added 17 new entries (IDs 29241–29257): all 6 seen-in-entry gaps plus 11 hand-picked standalone words. The candidate pool's oldest band is largely corpus-harvest noise (numbers, compositional phrases, dubious glosses), so picks were curated for genuine dictionary-worthiness. Added 水引 (decorative gift cords) as a candidate from entry 29243's example.
 
