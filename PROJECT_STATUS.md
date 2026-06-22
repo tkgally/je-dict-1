@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-22 (Routine v2: new-entries — 19 New Entries, IDs 29390–29408)
+Created all 19 priority "seen in entry" candidates (C22013–C22031) — internal-completeness gaps the dictionary already referenced from polish-frontier entries (06222, 06226–06229, 06797, 17173, 17276, 17278, 17755, etc.). New kanji 罷 (from 罷免) was assigned ID 02775. §4 self-check (cross-model accuracy review of all 19) came back clean except 29401 取り付く, where "to set about" was demoted from the headline gloss to the explanation as an extended sense (1 applied). Added 3 new candidates encountered in notes (反対語, 襖絵, 茶席).
+
+- **Nouns**: {制震|せいしん} (seismic damping), {欠礼|けつれい} (omission of courtesy), {罷免|ひめん} (dismissal from office), {悪者|わるもの} (villain), {対義語|たいぎご} (antonym), {年賀状|ねんがじょう}じまい (ending one's New Year's card custom), {金屏風|きんびょうぶ}/{銀屏風|ぎんびょうぶ} (gold/silver folding screen), {屏風絵|びょうぶえ} (folding-screen painting), {風炉先屏風|ふろさきびょうぶ} (tea-ceremony screen), ちゃぶ{台|だい}{返|がえ}し (table-flip reversal), {頑固親父|がんこおやじ} (stubborn old man)
+- **Suru-verbs**: {妊娠|にんしん}する (to become pregnant), {創造|そうぞう}する (to create), {肯定|こうてい}する (to affirm), {推薦|すいせん}する (to recommend), {企画|きかく}する (to plan)
+- **Other verbs**: {鎮|しず}める (to quell; ichidan, paired with {鎮|しず}まる), {取|と}り{付|つ}く (to cling to; godan)
+
 ### 2026-06-21 (Routine v2: new-entries — 11 New Entries, IDs 29379–29389)
 Created 11 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced (from polish frontier entries 06211–06221 plus 管理栄養士 from 29375). Removed stale candidate C22001 (ぼたもち): it is a kana variant of existing entry 29357 牡丹餅, not a new word. The fallback "oldest unprocessed" lane was skipped again — those candidates remain largely low-quality compositional phrases and OCR artifacts (権使, 些道, 怒燥, 火虫), so the run stayed focused on the 11 high-quality gaps rather than padding to ~20.
 
@@ -84,21 +91,5 @@ Added all 15 remaining priority seen-in-entry candidates — a coherent batch of
 - **Counterpart/related (7)**: {軸|じく}{受|う}け (mechanical bearing; native term for ベアリング), {父性|ふせい} (fatherhood; cf {母性|ぼせい}), {答申|とうしん} (formal report/reply; cf {諮問|しもん}; verb-suru), {近刊|きんかん} (forthcoming publication), {避寒|ひかん} (escaping the winter cold; cf {避暑|ひしょ}; verb-suru), {独創|どくそう} (originality), {小学|しょうがく} (elementary-school level; cf {中学|ちゅうがく})
 
 §4 self-check: 0 applied, 2 rejected (29339 `weather` upheld for 低温 — keeps the 高温 pair consistent, in-list narrowness nit; 29345 `general` upheld for 能動 — 能動的 is behavioral, not purely grammatical). $0.0065.
-
-### 2026-06-18 (Routine v2: new-entries — 13 New Entries, IDs 29324–29336)
-Added 13 curated standalone entries plus the 2 priority seen-in-entry gaps. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numbers/counters, non-lexical fragments, transparent 〜率/〜化/〜性 compounds, ad-hoc phrases), so standalone picks were hand-selected for genuine dictionary-worthiness rather than padding to ~20. Dropped 段ボール箱 (transparent compound already covered by 18885 段ボール). Added 軸受け (じくうけ) as a candidate from 29330's similar-words note. Logged a [pattern] observation requesting a curator cleanup/restock of candidate_words.json.
-
-- **Seen-in-entry (2)**: {捨|す}て{猫|ねこ} (abandoned/stray cat), {寝顔|ねがお} (sleeping face)
-- **Standalone (11)**: メモ{用紙|ようし} (memo paper), {駐車|ちゅうしゃ}スペース (parking space), {似顔絵|にがおえ}{師|し} (portrait artist/caricaturist), {三角錐|さんかくすい} (triangular pyramid), ベアリング (mechanical bearing), {乳搾|ちちしぼ}り (milking), {麻雀|まーじゃん}{牌|ぱい} (mahjong tile), プリンアラモード (pudding à la mode), {南|みなみ}アジア (South Asia), アフリカ{大陸|たいりく} (African continent), {害獣|がいじゅう}{駆除|くじょ} (pest/vermin control)
-
-§4 self-check: 1 applied (29333 gloss — opaque "pudding à la mode" clarified to descriptive form), 4 rejected (29329 `science` upheld — suggested "mathematics" not in taxonomy; 29333 ×3 translation — model wanted romaji "purin" in English, less clear). $0.0056.
-
-### 2026-06-18 (Routine v2: new-entries — 12 New Entries, IDs 29312–29323)
-Added 12 new entries: all 4 remaining priority seen-in-entry gaps plus 8 curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise, so standalone picks were hand-selected for genuine dictionary-worthiness. Removed stale candidate ネジ (orthographic katakana variant of existing 00307_neji ねじ "screw"). Logged a [pattern] observation requesting curator restock of higher-quality candidates.
-
-- **Seen-in-entry (4)**: {人災|じんさい} (man-made disaster; contrast 天災), {辞職願|じしょくねがい} (letter of resignation), {配属先|はいぞくさき} (place of assignment/posting), コロナ{禍|か} (the COVID-19 pandemic)
-- **Standalone (8)**: {核|かく}ミサイル (nuclear missile), {距離計|きょりけい} (rangefinder), {昆虫類|こんちゅうるい} (insects/the insect class), {神在月|かみありづき} (tenth lunar month, Izumo name), {限界速度|げんかいそくど} (critical/limiting speed), {主要部|しゅようぶ} (main part), {重要語|じゅうようご} (key word/term), {厨房機器|ちゅうぼうきき} (commercial kitchen equipment)
-
-§4 self-check: CLEAN — 0 issues across all 12 entries (independent accuracy review, $0.0052).
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
