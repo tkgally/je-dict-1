@@ -1984,3 +1984,9 @@
 {"ts":"2026-06-21T18:21:00Z","entry":"13899","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"model misread; 大切 furigana is correct"}
 {"ts":"2026-06-22T01:56:58Z","entry":"29401","src":"self-check","dim":"gloss","sev":"error","decision":"apply","note":"set-about demoted to extended sense"}
 {"ts": "2026-06-22T03:44:51Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 30, "note": "family: truncated-example artifact + okurigana splits"}
+{"ts":"2026-06-22T12:39:09Z","entry":"08474","src":"furigana","dim":"furigana","sev":"warn","decision":"apply","note":"moved honorific お outside kanji wrapper"}
+{"ts":"2026-06-22T12:39:09Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":21,"note":"family: screening truncated-context/compound-rendaku false positives"}
+{"ts":"2026-06-22T13:06:39Z","entry":"08464","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"caught tears -> moved to tears"}
+{"ts":"2026-06-22T13:06:39Z","entry":"08464","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"catching tears from each other -> moved to tears"}
+{"ts":"2026-06-22T13:06:39Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":26,"note":"family: not-in-list/missing semantic tags migrated to VALID_SEMANTIC"}
+{"ts":"2026-06-22T13:06:39Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":110,"note":"family: not-in-list semantic tags migrated to VALID_SEMANTIC"}

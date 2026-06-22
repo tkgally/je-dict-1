@@ -1,0 +1,24 @@
+{
+  "entry_id": "08499_dokodemo",
+  "headword": "どこでも",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-22T12:40:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'indefinite pronoun' is not a valid semantic tag. 'どこでも' is an adverb.",
+      "suggestion": "Remove 'indefinite pronoun'."
+    }
+  ]
+}
