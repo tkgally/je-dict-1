@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-21 (harvest: item 6 update — expand `check_tag_drift.py` migration map for the 73%-out-of-taxonomy 7000–8500 cohort; item 20 update — eighth 6/6 priority-lane no-op; item 23 update — two consecutive new-entries runs skipped the junk fallback lane; new item 26 — embed the valid `formality` enum in the accuracy-review prompt)
+**Last updated**: 2026-06-22 (harvest: item 20 update — ninth no-op confirmation + the concrete descriptive-header strings behind scorer-bug #2; item 21 update — fourth screening truncation [221/601], reconfirms ~200-ID furigana sizing; item 24 update — truncation FP family hit 100% + a new grouping-error class the screener misses; item 25 update — fix (1) IMPLEMENTED, detector converged. Prior 2026-06-21: item 6 migration-map expansion, item 23, new item 26)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -610,6 +610,18 @@ the ranking filters, are the binding fix. The observing runs additionally sugges
 `prioritize_polishing.py` so heavily-polished basic entries stop dominating the lane — the same closed-set
 exclusion recommended in the 2026-06-18 update.
 
+**Update 2026-06-22 (ninth confirmation — concrete header names behind scorer-bug #2)**: Two more 2026-06-21
+routine polish runs ran their notes lanes effectively all-no-op — one found **all 12 eligible priority entries**
+(一緒, 小さい, 遅い, 何でも, 金曜日, 隣, 腕, ばかり, まま, 優しい, 好き, 青) already fully linked, furigana-complete,
+and well-structured, needing zero changes. The sharper new detail is on **scorer-bug #2 (the `required_sections`
+matcher gap)**: `score_note_quality.py` only credits the literal `usage`/`functions` keyword its POS template
+expects, so well-formed adjective/particle/noun notes that use **descriptive section headers** — `TWO MEANINGS`,
+`FORMS`, `DEGREES OF LIKING`, `PATTERN 1/2/3` — score **50–58 despite being complete and correctly formatted**
+(00025 ちいさい, 00533 おそい, 02355 すき, 00765 やさしい, 02006 ばかり, 02007 まま). The concrete fix is to broaden
+`find_sections` variant matching — treat any header followed by a bulleted pattern/meaning list as satisfying the
+`usage`/`functions` requirement — so the priority ranking stops penalising descriptive-but-complete notes. This is
+the same scorer-bug #2 as the 2026-06-18 update, now with the exact header strings that trip the matcher.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -657,6 +669,17 @@ per-entry gemini-2.5-flash latency. Concretely, the selector / §A range sizing 
 furigana screen should cap at ~200 IDs/run rather than the ~400–600 used for the
 combined screening+accuracy budget math, because the furigana screen alone is the
 throughput-bound part.
+
+**Update 2026-06-22 (fourth truncation — measured ~6 s/entry, cursor stranded mid-range)**: A 2026-06-22
+accuracy-review furigana phase sized its screening range to **8238–8838 (601 IDs)** and was **SIGKILLed by the
+25-min wrapper after completing only 221/601 entries** (~6 s/entry against google/gemini-2.5-flash in this
+environment — faster than the 2026-06-19 ~10 entries/min figure but still far short of 601 IDs in 25 min).
+Per-entry results for the 221 covered IDs were kept and used, and the **cursor advanced only to 8459** (the
+covered frontier), so no work was lost — but the run had to leave ~380 IDs of the intended range unscreened. This
+is the fourth confirmed truncation and reconfirms the 2026-06-19 prescription exactly: **size a single furigana
+screening invocation to ~200 IDs** (option (a)), which at ~6 s/entry finishes in ~20 min, comfortably inside the
+ceiling. The selector / §A range sizing for the furigana pass should cap at ~200 IDs rather than the ~400–600 used
+for the combined screening+accuracy budget math.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -782,6 +805,31 @@ that have never been reviewed. Pairs naturally with item 16's U+FFFD guard (same
 contains an illegal character" family) and the item-13/item-21 hardening (which addresses
 the *abort* and *throughput* of the screener, while this addresses its *low precision*).
 
+**Update 2026-06-22 (truncation artifact reconfirmed at 100% FP; plus a new grouping-error class the screener
+*misses*)**: Two 2026-06-21/22 accuracy-review furigana phases over the 8038–8458 structured cohort give the
+sharpest evidence yet for both halves of this item.
+- **The extraction-truncation false positives reached 100%.** Over **8238–8458, ALL 30 screening flags were false
+  positives**, dominated by the same `review_runner.py` pair-extraction truncation documented above: the screening
+  model is shown example text cut off mid-word and flags the truncated reading as "incomplete" — 昇格→「しょ」,
+  最高→「さい」, 視聴率→「しちょうり」, 永久凍土→「えいき」, 復号→「ふく」 — while the actual entries hold the correct
+  full readings. A telling new detail: several truncated concerns even show a stray `)` where the entry has `}`,
+  i.e. the extractor is mangling the wrapper delimiter, not just the reading length. The fix is unchanged and
+  reinforced: **send the example/reading fields to the screener untruncated (or truncate only at furigana-pair
+  boundaries)**, which would erase this dominant noise family without any model change. (The 8038–8237 phase
+  similarly logged all 16 of its flags as documented FP families.) Both runs bulk-rejected the family as one
+  aggregated `decisions.jsonl` line.
+- **A genuine true-positive class the LLM screener does NOT flag: furigana *grouping* errors.** The 8038–8237
+  deep pass surfaced **two real malformed-grouping errors** — `{全部食|ぜんぶた}` (should split to
+  `{全部|ぜんぶ}{食|た}`) and `{メガ盛|も}` (should be `メガ{盛|も}`, katakana orphan pulled under the wrapper).
+  These are *grouping* defects (multiple tokens, or a leading katakana/okurigana orphan, crammed under one
+  furigana span), not reading errors, and the screener flags none of them. A cheap deterministic detector — flag
+  any `{kanji…|reading}` span where the left side contains **more than one kanji token with intervening
+  okurigana**, or a **leading katakana/kana character pulled inside the wrapper** — would catch this whole class
+  for free, exactly the inverse trade-off of the truncation FPs above (the screener wastes money flagging
+  non-errors while missing these real ones). This extends item 24's thesis: convert the furigana-correctness
+  classes the screener handles badly — both its low-precision noise and its blind spots — into deterministic
+  checks, and reserve the multi-model screener for never-reviewed ranges only.
+
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
 **Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
@@ -834,6 +882,20 @@ homophone/contrast/antonym display labels that re-flag every run. The queue is t
 **hovering near 80 instead of converging to 0** — exactly the behaviour fix (1) above
 (exclude `type=homophone`/`contrast`/`label`-bearing refs whose reading has no entry)
 exists to correct. Already filed; this is quantitative reinforcement, no new action.
+
+**Update 2026-06-21 (fix (1) IMPLEMENTED — the detector now converges)**: A 2026-06-21
+systemic-fix run shipped fix (1). `check_artifacts.py --issue missing-target-id` now flags
+**only refs whose referenced word actually has an entry** (resolvable = some entry shares
+the ref's reading *and* furigana-stripped surface); the intentional, permanent target-less
+pointers — homophone notes, antonym/contrast display labels, transitivity-pair pointers to
+words with no entry — are **no longer re-surfaced every run**. `--include-intentional`
+restores the full audit list (**77** such pointers as of that run). With the last 5
+resolvable refs also filled (curator restock 29368–29383), the detector reports **0**
+resolvable refs dictionary-wide and the queue has converged; the `artifact-missing-target-id`
+backlog item is marked `resolved` in `backlog-queue.json` (and Cleanup Backlog P2 is marked
+RESOLVED). It will only re-open automatically if a future ref's referenced word gains an
+entry. **Fixes (2) (build-time by-reading fallback should require a surface match) and (3)
+(deterministic `id`-vs-`target_id` drift check + entry-creation skill audit) remain open.**
 
 ## Related pages
 

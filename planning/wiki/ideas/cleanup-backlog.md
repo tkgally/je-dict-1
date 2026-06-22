@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-21 (harvest: P20 update — new 7815–8037 creation cohort is 73% out-of-taxonomy [120 entries remain], enumerated 1:1-mappable free-form/variant/body-health families, recommend expanding `check_tag_drift.py` migration map + a 7000–8500 systemic-fix sweep; P21 update — zero-inline-link band now unbroken ~06150→06214+, 06200–06250 compound-verb/idiom block backfill candidate)
+**Last updated**: 2026-06-22 (harvest: P21 update — zero-inline-link band extends through ~06222–06230 with `・` nakaguro bullets in notes, now unbroken ~06150→06230. Prior 2026-06-21 harvest: P20 update — new 7815–8037 creation cohort is 73% out-of-taxonomy [120 entries remain] + 8038–8237 even denser [88%], enumerated 1:1-mappable free-form/variant/body-health families, recommend expanding `check_tag_drift.py` migration map + a 7000–8500 systemic-fix sweep)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -745,6 +745,16 @@ The unbroken zero-link band is now confirmed continuous from ~06150 through
 the whole 06200–06250 band (compound verbs + four-character idioms/proverbs)
 predates the inline-link polishing step and should be backfilled as a block; the
 furigana and structure are otherwise clean, so the work is purely link coverage.
+
+**Update 2026-06-22**: A 2026-06-21 routine polish run carried the frontier through
+**~06222–06230** and re-confirmed the band is still unbroken: these entries were
+created with **zero** inline links in examples *and* with **`・` (nakaguro) bullets**
+in their notes lists (the older bullet convention, in place of the current
+`⟦...⟧`-linked list items). The frontier lane is fixing these one block at a time as
+it advances. The nakaguro-bullet detail is the same pre-inline-link-polishing creation
+signature already documented across 06150–06214 — the band now runs unbroken from
+~06150 through **06230**. No new diagnosis; the dedicated ~06150–07000 inline-link
+sweep recommendation (still gated on the Tooling item 15 detector) stands.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

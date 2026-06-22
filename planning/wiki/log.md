@@ -2,6 +2,26 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-22] maintenance | Observation harvest (P21, items 20/21/24/25)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06231`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-21 accuracy-review (8038–8237) / polish runs and the 2026-06-22 accuracy-review furigana phase (8238–8458):
+  - **Cleanup Backlog P21 update 2026-06-22** — the zero-inline-link frontier band extends through **~06222–06230** (created with zero `⟦...⟧` links in examples and `・` nakaguro bullets in notes, the older bullet convention); band now unbroken **~06150→06230**. Dedicated ~06150–07000 inline-link sweep recommendation stands (gated on Tooling item 15).
+  - **Tooling Backlog item 20 update 2026-06-22 (ninth confirmation)** — two more priority-lane no-op runs (one 12/12 clean) plus the concrete header strings behind **scorer-bug #2**: `score_note_quality.py`'s `required_sections` matcher only credits the literal `usage`/`functions` keyword, so descriptive headers (TWO MEANINGS / FORMS / DEGREES OF LIKING / PATTERN 1/2/3) score complete notes at 50–58 (00025/00533/02355/00765/02006/02007). Broaden `find_sections` variant matching.
+  - **Tooling Backlog item 21 update 2026-06-22 (fourth truncation)** — review_runner screening over 8238–8838 (601 IDs) SIGKILLed at **221/601** (~6 s/entry); cursor advanced only to 8459, partial results kept, no work lost; reconfirms the **~200-IDs-per-furigana-screen** sizing.
+  - **Tooling Backlog item 24 update 2026-06-22** — (a) the pair-extraction **truncation false-positive family reached 100%** (all 30 flags FP over 8238–8458; 昇格→しょ, 視聴率→しちょうり, some showing a stray `)` for `}`) → send fields untruncated; (b) **NEW true-positive class the LLM screener *misses*** — furigana *grouping* errors ({全部食|ぜんぶた}, {メガ盛|も}) — a deterministic multi-token / leading-kana-orphan detector would catch them.
+  - **Tooling Backlog item 25 update 2026-06-21** — **fix (1) IMPLEMENTED**: `check_artifacts.py --issue missing-target-id` now flags only resolvable refs; the 77 intentional target-less pointers are excluded (`--include-intentional` restores them); detector converged to 0 resolvable, `backlog-queue.json` item `resolved`. Fixes (2) and (3) remain open.
+  - **Already filed (no new action)**: the P20 88% 8038–8237 cohort finding was already in Cleanup P20 (update 2026-06-21); the missing-target-id convergence/RESOLVED status was already in Cleanup P2 + `backlog-queue.json`; the review_accuracy `tags`-dimension hallucination caveat is covered by item 17 / quality-metrics dimension precision.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [E/Lint] Refreshed "Last updated" on the two edited backlog pages (cleanup-backlog, tooling-backlog) and the wiki index; new cross-references (item 25↔Cleanup P2, item 24 inter-references) resolve to existing anchors. Verified `backlog-queue.json` `artifact-missing-target-id` is already `resolved` (in sync with the prose).
+- **Activity H (metrics-trend) not due** — only 7 new `metrics-history.jsonl` lines (110 total) since the page's last refresh at 103 runs; the ≥10-line threshold is not met.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-21] maintenance | Observation harvest (P20/P21, items 6/20/23/26, 00304) + seventh metrics-trend refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

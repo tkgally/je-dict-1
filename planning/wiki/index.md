@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-21 (wiki: harvest observations from the 2026-06-20 polish + 2026-06-21 accuracy-review/polish/new-entries runs → Cleanup Backlog P20 [new 7815–8037 cohort 73% out-of-taxonomy, 120 entries remain, expand migration map + 7000–8500 sweep], P21 [zero-inline-link band unbroken ~06150→06214+]; Tooling Backlog item 6 [migration-map expansion], item 20 [eighth 6/6 priority no-op], item 23 [fallback lane skipped two runs running], new item 26 [embed formality enum in reviewer prompt]; Entry Follow-ups 00304_nandemo sense 3; Activity H seventh metrics-trend refresh → 103 runs)
+**Last updated**: 2026-06-22 (wiki: harvest observations from the 2026-06-21 accuracy-review [8038–8237] / polish runs + the 2026-06-22 accuracy-review furigana phase [8238–8458] → Cleanup Backlog P21 [zero-inline-link band extends ~06222→06230 with nakaguro bullets]; Tooling Backlog item 20 [ninth no-op + descriptive-header strings behind scorer-bug #2], item 21 [fourth screening truncation, ~200-ID sizing], item 24 [truncation FP family at 100% + new grouping-error class the screener misses], item 25 [fix (1) IMPLEMENTED — detector converged]; Activity H not due, 110 runs)
 
 
 ## How this wiki is organized
