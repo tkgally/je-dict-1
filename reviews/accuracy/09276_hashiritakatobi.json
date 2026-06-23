@@ -1,0 +1,24 @@
+{
+  "entry_id": "09276_hashiritakatobi",
+  "headword": "{走|はし}り{高跳|たかと}び",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:47:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too broad and misleading for a specific sport. While sports can be a leisure activity, 'leisure' itself doesn't accurately describe 'high jump'.",
+      "suggestion": "sports"
+    }
+  ]
+}

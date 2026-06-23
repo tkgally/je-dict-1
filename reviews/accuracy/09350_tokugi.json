@@ -1,0 +1,24 @@
+{
+  "entry_id": "09350_tokugi",
+  "headword": "{特技|とくぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:49:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tags 'ability' and 'talent' are not in the valid tag list.",
+      "suggestion": "Replace 'ability' and 'talent' with 'cognition' or 'general'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "09407_sogo",
+  "headword": "{齟齬|そご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:50:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'relationship' is not in the valid tag list.",
+      "suggestion": "Replace 'relationship' with 'society' or 'communication' or 'general'."
+    }
+  ]
+}

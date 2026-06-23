@@ -1,0 +1,24 @@
+{
+  "entry_id": "09273_hougannage",
+  "headword": "{砲丸投|ほうがんな}げ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:47:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is incorrect for '砲丸投げ' (shot put).",
+      "suggestion": "Replace 'leisure' with 'sports'."
+    }
+  ]
+}

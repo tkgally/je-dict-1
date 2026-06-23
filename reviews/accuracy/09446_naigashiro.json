@@ -1,0 +1,31 @@
+{
+  "entry_id": "09446_naigashiro",
+  "headword": "{蔑|ないがしろ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:50:55Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'behavior' is not in the valid list.",
+      "suggestion": "action"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'interpersonal' is not in the valid list.",
+      "suggestion": "society"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "09356_kattarui",
+  "headword": "かったるい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:49:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'physical-state' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

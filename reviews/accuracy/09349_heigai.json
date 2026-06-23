@@ -1,0 +1,31 @@
+{
+  "entry_id": "09349_heigai",
+  "headword": "{弊害|へいがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:48:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'effects' is not in the valid tag list.",
+      "suggestion": "Replace 'effects' with 'change' or 'general'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'social' is not in the valid tag list.",
+      "suggestion": "Replace 'social' with 'society'."
+    }
+  ]
+}

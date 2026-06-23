@@ -1,0 +1,31 @@
+{
+  "entry_id": "09393_kanrakugai",
+  "headword": "{歓楽街|かんらくがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:50:13Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'location' is not in the valid tag list.",
+      "suggestion": "geography"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'urban' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}
