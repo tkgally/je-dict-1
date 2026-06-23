@@ -2,6 +2,29 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-23] maintenance | Observation harvest (P21/P20/P9, items 20/21/24, new 27/28) + eighth metrics refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep: 0 stranded (main `next: 06247`). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-22 routine polish / systemic-fix runs and the 2026-06-23 accuracy-review (8633–9239) / polish runs:
+  - **Cleanup Backlog P21 update 2026-06-23** — zero-inline-link frontier band extended through **06246** (06231–06236 nouns + 06241–06244 〜的 + 06245–06246 idioms, all zero `⟦...⟧`), now unbroken ~06150→06246.
+  - **Cleanup Backlog P20 update 2026-06-23** — dict-wide unknown-semantic at **8,698 flags**; the 8633–9239 long tail (496 tags / 323 entries) has **no 1:1 migration target**, so the run applied 102 safe migrations and **escalated 394 judgment-dependent tags to the curator** (635 →curator this window with the 2026-06-21 240). Recommends a curated-migration systemic-fix pass + a CI gate (new item 27).
+  - **Cleanup Backlog P9 update 2026-06-23** — 06231 frontier instance: kana-inside-kanji-group (`{お吸|す}い{物|もの}`) + nested braces (`{とん{汁|じる}}`), both detector-caught.
+  - **Tooling Backlog item 20 update (tenth/eleventh confirmation)** — 6/6 and 8/8 priority-lane no-op; **regeneration proven not to help** (file regenerated 06-22, same basic words re-top 06-23); scorer-bug fix is binding.
+  - **Tooling Backlog item 21 update (fifth truncation)** — 8459–8632 screen killed at 174/500 (~7 s/entry); reconfirms ~200-ID sizing.
+  - **Tooling Backlog item 24 update** — 22/174 screen flags over 8459–8632 all FP except one お-prefix case (08474).
+  - **Tooling Backlog new item 27** — promote unknown-semantic to a CI error/gate (sequenced after the P20 curated-migration drain).
+  - **Tooling Backlog new item 28** — systemic-fix selector should skip scope-0 standing checks (the 2026-06-22 run had to hand-cascade off `tag-conjugation-no-verb-pos`).
+  - **Entry Follow-ups** — 00642_kinyoubi missing weekday `cross_references` → six-way thematic-cluster back-link pass.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [H/Metrics-trend] **Eighth refresh** of `topics/quality-metrics.md` (15 new metrics lines, 103→118 runs / ~5,520 adjudicated flags). Recomputed all-time + a new runs 104–118 period column from `reviews/decisions.jsonl` (verified against `metrics-history.jsonl`: window apply=273 / reject=158 / →curator=635, exact match). Headline: **the first large curator-escalation event** — runs 104–118 escalated 635 `tags` flags (240 + 394) on the unknown-semantic long tail that has no 1:1 map; the runs applied only provably-safe migrations and escalated the rest. Added "Apply ÷ decided" columns so the escalation distortion is legible (tags 89.9% apply-among-decided this period despite 27.9% ÷total), a new Finding §9 on the escalation event, and updated the queue/source narratives (queue dipped to a new low of 15,024). No metric judged to be moving the wrong way in a way not already filed — the escalation backlog is captured as Cleanup P20 + Tooling item 27.
+- [E/Lint] Refreshed "Last updated" on the four edited backlog/topic pages (cleanup-backlog, tooling-backlog, entry-followups, quality-metrics) and the wiki index; new cross-references (P20↔item 27, item 28↔backlog-queue, P9↔06231) resolve to existing anchors.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-22] maintenance | Observation harvest (P21, items 20/21/24/25)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

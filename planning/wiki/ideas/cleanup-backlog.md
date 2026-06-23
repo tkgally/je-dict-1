@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-22 (harvest: P21 update — zero-inline-link band extends through ~06222–06230 with `・` nakaguro bullets in notes, now unbroken ~06150→06230. Prior 2026-06-21 harvest: P20 update — new 7815–8037 creation cohort is 73% out-of-taxonomy [120 entries remain] + 8038–8237 even denser [88%], enumerated 1:1-mappable free-form/variant/body-health families, recommend expanding `check_tag_drift.py` migration map + a 7000–8500 systemic-fix sweep)
+**Last updated**: 2026-06-23 (harvest: P21 update — zero-inline-link band extends through 06246 [06231–06236 nouns + 06241–06246 〜的/idioms], now unbroken ~06150→06246; P20 update — dict-wide unknown-semantic at 8,698 flags, 8633–9239 long tail [496 tags/323 entries] has no 1:1 map, 102 migrated + 394 escalated to curator, recommend curated migration table + promoting unknown-semantic to a CI error [Tooling item 27]; P9 update — 06231 frontier kana-inside-group + nested-brace instances. Prior 2026-06-22: P21 ~06222–06230 nakaguro bullets)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -197,6 +197,17 @@ By sub-pattern:
 **Update 2026-06-17 (new sub-pattern: no-pipe brace spans + stray trailing brace)**: A 2026-06-16 routine polish session found a furigana-brace malformation in **06147_jiboujiki** distinct from all the sub-patterns above: the `{...}` (kanji|reading) syntax applied to a **whole kana phrase with no `|` separator at all** (`{やけになる}`) and a valid wrapper followed by a **stray trailing `}`** (`{投|な}げやりになる}`). Both render as literal braces on the live site and — because there is no pipe — they slip past furigana-*coverage* checks entirely (those only look for kanji lacking a reading, not for degenerate wrappers). This is likely present across the **same early-2026 yojijukugo batch** (06140s idiom cohort under P21). **Detection / tool side**: extend `build/check_furigana_format.py` to flag (a) `{...}` spans that contain no `|`, and (b) unbalanced braces in a field — see [Tooling Backlog](tooling-backlog.md) → item 8. Fixed in 06147 during the originating session; the rest of the batch is unswept.
 
 **Update 2026-06-20 (cosmetic-wrapper batch confirmed at the 06xxx frontier; a new empty-reading degenerate)**: A 2026-06-20 routine polish observation found the early-2026 06xxx creation batch carries two of the documented cosmetic sub-patterns — an **お-prefix-inside wrapper** (`{お年寄|としよ}り`-style, sub-pattern 1) and a **pure-kana / empty-reading wrapper** (sub-pattern 3) — plus a previously-unlisted degenerate form: a **valid kanji left, *empty* reading right** of the pipe (`{きつい|}`-style, i.e. `{X|}` with nothing after `|`). These render OK or near-OK (warn/info severity, not the high-severity reading-truncation class already RESOLVED in the 2026-06-09 update), but they are non-standard and cluster in the Jan-2026 06xxx batch. Current dict-wide detector counts (`build/check_furigana_format.py --summary`): **o-go-prefix = 228, pure-kana = 888, over-wrapped = 452, nested = 1** (1,569 total across 1,127 entries). The o-prefix and pure-kana sub-patterns *are* caught by the detector, so a **scoped mechanical sweep of the 06000–06400 slice** (validated against `build/word_id_lookup.json`, per the existing suggested-action #2) is a ready systemic-fix candidate. **Open tooling question**: confirm the detector flags the **empty-reading-after-pipe** form `{X|}` — if it does not, add it to [Tooling Backlog](tooling-backlog.md) → item 8 alongside the no-pipe-span and unbalanced-brace checks (the 2026-06-17 update), since `{X|}` is the natural third degenerate-wrapper case (no reading at all, vs. no pipe at all).
+
+**Update 2026-06-23 (frontier instances at 06231 — kana-inside-group + nested braces)**: A
+2026-06-22 routine polish run found **06231** carrying two of the documented malformed
+forms together: a **non-kanji character inside the kanji-left group** (`{お吸|す}い{物|もの}`,
+the お-prefix-inside sub-pattern 1 → should be `お{吸|す}い{物|もの}`) and **nested braces**
+(`{とん{汁|じる}}`, `{けんちん{汁|じる}}`, the sub-pattern from the 2026-06-06 update → should
+be `とん{汁|じる}` / けんちん{汁|じる}). Both pass schema and furigana-*coverage* checks but
+render wrong. They are detector-caught (`o-go-prefix` and `nested` classes), so the 06231
+instance reconfirms the 06xxx Jan-2026 batch carries these in its notes and that the scoped
+**06000–06400 mechanical sweep** (validated vs. `word_id_lookup.json`, suggested-action #2)
+would clean them along with the o-prefix/pure-kana wrappers already noted at this frontier.
 
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
@@ -605,6 +616,35 @@ the systemic sweep** — reconfirming this is systemic-fix territory, not per-ru
 accuracy-review. The recommended 7000–8500 sweep should now be scoped to **at least
 7815–8237** (and likely the full 7000–8500 band).
 
+**Update 2026-06-23 (dict-wide scale quantified; the long tail has no 1:1 target and is
+now being mass-escalated)**: Two findings sharpen the scope and the remedy.
+- **Dict-wide count**: as of 2026-06-22, `check_tag_drift.py --check unknown-semantic`
+  reports **8,698 unknown-semantic flags** dictionary-wide. A 2026-06-22 routine polish
+  observation spot-measured **8459–8632 at ~95 of 174 entries (55%)** carrying
+  non-`VALID_SEMANTIC` tags (ability, medical, kitchen, baseball, psychology, train, …) —
+  the free-form creation cohort continues unbroken above 8237.
+- **The long tail is judgment-dependent, not mechanically mappable**: a 2026-06-23
+  accuracy-review over **8633–9239** found **496 not-in-list semantic tags across 323 of
+  607 entries (~180 distinct off-list names**: positive, body, medical, object, aesthetics,
+  quality, psychology, concept, childcare, …). Critically, `check_tag_drift`'s
+  `unknown-semantic` map returns `-> None` for nearly all of them (no 1:1 target), so they
+  need **per-word judgment, not a mechanical migration**. That run applied **102
+  provably-safe 1:1 migrations** (plural/synonym/strict-subdomain: emotions→emotion,
+  train→transportation, medical→health, etc.) across 91 entries and **escalated 394
+  judgment-dependent tags across 288 entries to the curator/systemic-fix lane** (logged in
+  `reviews/decisions.jsonl`). Combined with the 2026-06-21 240-flag escalation, the
+  decision ledger now carries **635 flags →curator this metrics window** — the first
+  large escalation event in the project (all-time →curator was 16 before 2026-06-21).
+
+**Recommended next action (updated)**: the per-run accuracy-review budget cannot drain an
+8,698-flag dict-wide backlog one ~600-entry range at a time, and the bulk of it has no 1:1
+map. This needs (a) a **dedicated systemic-fix/curator pass with an expanded *curated*
+migration table** (more than the deterministic 1:1 families now in `check_tag_drift.py`),
+and (b) **promoting unknown-semantic from a `validate_tags.py` warning to a CI error /
+pre-commit gate** so new entries stop adding to the backlog (see
+[Tooling Backlog](tooling-backlog.md) → item 27). Without (b), the systemic-fix pass drains
+a backlog that new-entry creation keeps refilling.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -757,6 +797,17 @@ it advances. The nakaguro-bullet detail is the same pre-inline-link-polishing cr
 signature already documented across 06150–06214 — the band now runs unbroken from
 ~06150 through **06230**. No new diagnosis; the dedicated ~06150–07000 inline-link
 sweep recommendation (still gated on the Tooling item 15 detector) stands.
+
+**Update 2026-06-23**: Two routine polish frontier lanes (2026-06-22 over **06231–06236**
+and 2026-06-23 over **06241–06246**) carried the band further: the 06231–06236 cohort
+(nouns) and the 06241–06244 〜的 na-adjectives + 06245–06246 four-character idioms all
+shipped with **zero** `⟦...⟧` links in examples *and* notes despite otherwise-complete
+content (good notes, cross-refs, conjugation). Both runs hand-linked their frontier
+entries. The unbroken zero-link band is now confirmed continuous from ~06150 through
+**06246**. Same diagnosis, same recommendation: the sequential frontier lane is where the
+real link backlog lives, and a one-off bulk inline-link sweep of the 06000+ general range
+(still gated on the Tooling item 15 detector) would clear it far faster than per-entry
+frontier polishing.
 
 **Batch readiness**: `batch_ready: false` until the Tooling Backlog item 15 detector
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry

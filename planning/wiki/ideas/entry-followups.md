@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-21 (added 00304_nandemo sense-3 "by all means / at any cost" dubious-usage review)
+**Last updated**: 2026-06-23 (added 00642_kinyoubi missing weekday cross_references — six-way thematic-cluster back-link pass)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -550,6 +550,22 @@ re-scope it as the fixed idiom 何が何でも (and add/point to a 何が何で�
 Out of scope for a link-only polish pass; needs a sense-level editorial decision, so
 parked here rather than fixed inline. If sense 3 is removed, re-check that ex11–15 are
 relocated or dropped, and that no cross-reference points at sense 3.
+
+## 00642_kinyoubi (金曜日, Friday) — no cross_references to the other weekdays
+
+**Source**: 2026-06-22 routine polish session (priority lane)
+
+00642 金曜日 has **no `cross_references` field populated** — it does not link to any of the
+other six weekday entries (日曜日 / 月曜日 / 火曜日 / 水曜日 / 木曜日 / 土曜日). Days of the week
+are a tight closed thematic cluster and are exactly the kind of set a learner browses
+laterally, so each weekday should `cross_references` the other six (the
+[Cross-Reference Design](../topics/cross-references.md) thematic-cluster case). The polish
+run left it untouched to avoid a **6-entry back-link cascade** in a single-entry pass.
+
+**Recommended action**: a small one-shot pass that adds the symmetric six-way back-links
+across all seven weekday entries at once (find them by reading 〜ようび / gloss "…day"),
+rather than fixing one in isolation. This is the same thematic-cluster symmetry work as
+[Cleanup Backlog](cleanup-backlog.md) → Priority 3.
 
 ## Related pages
 
