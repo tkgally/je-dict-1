@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-23 (Routine v2: new-entries — 14 New Entries, IDs 29429–29442)
+Created the 6 remaining priority "seen in entry" candidates (internal-completeness gaps referenced from polish-frontier entries 06239/06240/06243/06244) plus 8 hand-curated, lexicalized standalone nouns. §4 cross-model self-check came back **CLEAN on all 14** (0 issues, $0.0061). Logged a `[pattern]` observation: candidate_words.json is now largely exhausted of genuine standalone gaps — ~600 surveyed + ~25 extracted base words probed, and nearly every common base word (曖昧, 無難, ぎこちない, 巧み, 速やか, 潔い, 仲良し, 無邪気…) already exists as an entry; remaining pool is mostly transparent compounds, inflected fragments, numeral/counter compounds, and rare coinages. Recommend a curator clean_up_candidates pass + quality restock.
+
+- **Seen-in-entry (6)**: {社風|しゃふう} (company culture), {能率的|のうりつてき} (efficient; na-adj), {守備的|しゅびてき} (defensive; na-adj), プレー (play, sports; noun+suru), {書|か}き{続|つづ}ける (to keep writing; ichidan), {仲良|なかよ}い (on good terms; i-adj)
+- **Standalone nouns (8)**: アクション{映画|えいが} (action movie), {走行距離計|そうこうきょりけい} (odometer), {冷却材|れいきゃくざい} (coolant), {肉体労働者|にくたいろうどうしゃ} (manual laborer), {国語教育|こくごきょういく} (Japanese-language education), {加盟団体|かめいだんたい} (member organization), {輸送機関|ゆそうきかん} (means of transport), {糖尿病患者|とうにょうびょうかんじゃ} (diabetic patient)
+
 ### 2026-06-22 (Routine v2: new-entries — 20 New Entries, IDs 29409–29428)
 Created the 5 remaining priority "seen in entry" candidates (反対語, 襖絵, 茶席, けんちん汁, 骨子 — internal-completeness gaps referenced from entries 06231/06233/29399/29405/29406) plus 15 hand-curated standalone general-tier nouns. The fallback "oldest unprocessed" candidate lane stays largely corpus-harvest noise (bare numerals/counters, transparent 〜化/〜性 compounds, OCR artifacts), so standalone picks were curated for genuine dictionary-worthiness rather than padding from the raw queue. No new kanji. §4 self-check: all 20 CLEAN (0 issues), $0.0086.
 
@@ -81,13 +87,5 @@ Created all 14 priority "seen in entry" candidates — internal-completeness gap
 - **Travel/work/text**: {降機|こうき} (disembarking; verb-suru), {栄養士|えいようし} (nutritionist), {緒言|しょげん} (preface, academic), はじめに (to begin with / Introduction), {三大|さんだい} (the three major ~; prefix), {摂|と}る (to ingest/consume; verb-godan)
 
 §4 self-check: 13 CLEAN; 1 flagged (29378 炭水 — model wanted formality "colloquial", but that is a domain value, not a valid formality; "informal" upheld and domain colloquial already set; rejected). $0.0061.
-
-### 2026-06-20 (Routine v2: new-entries — 13 New Entries, IDs 29352–29364)
-Added all 7 remaining priority seen-in-entry candidates (a coherent Japanese seasonal-customs/foods cluster tied to entries 06185–06196 and 29348) plus 6 hand-curated standalone words. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numerals/counters, transparent 〜化/〜性/〜槽 compounds, conjugated fragments, dubious coinages), so standalone picks were curated for genuine dictionary-worthiness rather than padding to ~20. Added おはぎ (autumn counterpart of 牡丹餅) as a candidate from 29357's notes.
-
-- **Seen-in-entry (7)**: {大食漢|たいしょくかん} (big eater/glutton), {千歳飴|ちとせあめ} (Shichi-Go-San candy), なので (so/therefore; because-it-is connective), お{焚|た}き{上|あ}げ (ritual burning of charms), {乾物屋|かんぶつや} (dried-goods store), {牡丹餅|ぼたもち} (botamochi), {棚|たな}ぼた (windfall; abbrev. of 棚から牡丹餅)
-- **Standalone (6)**: {味|あじ}わい{深|ぶか}い (deeply flavorful; profound — i-adj), あしらい (handling/treatment; garnish), {塩入|しおい}れ (salt container), {戸襖|とぶすま} (fusuma-style sliding door), {売春婦|ばいしゅんふ} (prostitute), つり{輪|わ} (the rings, gymnastics)
-
-§4 self-check: 12 CLEAN; 1 flagged (なので, 2 gloss issues, both rejected — sense 2 deliberately documents the copula-な + ので bundle, so "because (it) is" is accurate; model misread an intentional design). $0.0057.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
