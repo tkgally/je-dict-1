@@ -1991,3 +1991,25 @@
 {"ts":"2026-06-22T13:06:39Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":26,"note":"family: not-in-list/missing semantic tags migrated to VALID_SEMANTIC"}
 {"ts":"2026-06-22T13:06:39Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":110,"note":"family: not-in-list semantic tags migrated to VALID_SEMANTIC"}
 {"ts":"2026-06-22T21:19:30Z","entry":"23570","src":"self-check","dim":"tags","sev":"warn","decision":"apply","note":"social not in list; migrated to society"}
+{"ts":"2026-06-23T01:28:23Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":55,"note":"family: okurigana-split/rendaku/display-truncation/multi-reading FPs, polished range"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08657","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"added odd sense to main gloss"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08721","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"removed misleading either; both/neither"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08721","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"fixed awkward both arent bad"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08759","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"expanded for abstract that-one use"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08775","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"broadened to in-vehicle announcement"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08922","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"fixed wrong a-bit-somewhat sense"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08955","src":"accuracy","dim":"gloss","sev":"error","decision":"apply","note":"clarified SLR/mirrorless camera"}
+{"ts":"2026-06-23T01:42:00Z","entry":"09089","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"idiom: caught red-handed not trail"}
+{"ts":"2026-06-23T01:42:00Z","entry":"09123","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"sun clouded over not overcast"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08657","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"no joke is fine for hanpa janai"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08985","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","note":"model confused hinichi date with hibi"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08951","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"stylistic; next-level-up acceptable"}
+{"ts":"2026-06-23T01:42:00Z","entry":"09038","src":"accuracy","dim":"translation","sev":"error","decision":"reject","note":"stylistic imperative rendering fine"}
+{"ts":"2026-06-23T01:42:00Z","entry":"09123","src":"accuracy","dim":"translation","sev":"warn","decision":"reject","note":"behind-mountains rendering natural"}
+{"ts":"2026-06-23T01:42:00Z","entry":"08989","src":"accuracy","dim":"gloss","sev":"error","decision":"flag","note":"shaseki non-standard word+bad examples; curator"}
+{"ts":"2026-06-23T01:42:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":102,"note":"family: provably-safe 1:1 not-in-list migrations (plural/subdomain)"}
+{"ts":"2026-06-23T01:42:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"flag","n":394,"note":"family: not-in-list tags needing judgment; deferred to systemic-fix, 288 entries 8633-9239"}
+{"ts":"2026-06-23T01:42:00Z","src":"accuracy","dim":"tags","sev":"warn","decision":"reject","n":27,"note":"family: missing-tag enrichment suggestions, not errors"}
+{"ts":"2026-06-23T01:45:00Z","entry":"08955","src":"self-check","dim":"gloss","sev":"error","decision":"reject","note":"model contradicts pass1; notes confirm shorthand usage"}
+{"ts":"2026-06-23T01:45:00Z","entry":"08955","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"electronics in-list; narrowness nit"}
+{"ts":"2026-06-23T01:45:00Z","entry":"09089","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"animals->animal-general, body->body-part"}

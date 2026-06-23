@@ -1,0 +1,24 @@
+{
+  "entry_id": "09050_kyoukan",
+  "headword": "{共感|きょうかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'psychology' is not in the valid tag list.",
+      "suggestion": "Remove 'psychology' or replace with a valid tag if appropriate (e.g., 'cognition' or 'abstract')."
+    }
+  ]
+}

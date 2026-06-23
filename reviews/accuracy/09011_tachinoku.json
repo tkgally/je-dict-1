@@ -1,0 +1,24 @@
+{
+  "entry_id": "09011_tachinoku",
+  "headword": "{立|た}ち{退|の}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'housing'",
+      "suggestion": "building"
+    }
+  ]
+}

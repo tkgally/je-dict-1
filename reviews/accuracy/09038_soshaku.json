@@ -1,0 +1,38 @@
+{
+  "entry_id": "09038_soshaku",
+  "headword": "{咀嚼|そしゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:22Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'medical' is not in the valid tag list.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'Chew your food well before eating.' implies a command or instruction, but the Japanese 'よく咀嚼して食べる。' is a statement meaning 'eat by chewing well' or 'chew well and eat'.",
+      "suggestion": "Eat by chewing well."
+    }
+  ]
+}

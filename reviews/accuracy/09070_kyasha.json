@@ -1,0 +1,24 @@
+{
+  "entry_id": "09070_kyasha",
+  "headword": "{華奢|きゃしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "Remove 'aesthetics' or replace with a valid tag if appropriate (e.g., 'descriptive')."
+    }
+  ]
+}

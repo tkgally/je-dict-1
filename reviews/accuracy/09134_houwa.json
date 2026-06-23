@@ -1,0 +1,24 @@
+{
+  "entry_id": "09134_houwa",
+  "headword": "{飽和|ほうわ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:34:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a technical term like '飽和'.",
+      "suggestion": "science"
+    }
+  ]
+}

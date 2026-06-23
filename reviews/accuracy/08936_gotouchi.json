@@ -1,0 +1,24 @@
+{
+  "entry_id": "08936_gotouchi",
+  "headword": "ご{当地|とうち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The headword 'ご当地' is not inherently polite. The 'ご' is an honorific prefix, but in this context, it's part of a fixed expression referring to 'this locality' or 'local', not directly indicating politeness towards a person or action. It's more of a respectful or formal way to refer to a place, but not 'polite' in the sense of keigo.",
+      "suggestion": "neutral"
+    }
+  ]
+}
