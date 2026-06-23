@@ -2,7 +2,7 @@
 
 A persistent, LLM-maintained knowledge base for the TKG Japanese-English Learner’s Dictionary project (je-dict-1). This wiki is written and maintained by Claude; the human curator (Tom Gally) directs research, asks questions, and guides priorities.
 
-**Last updated**: 2026-06-22 (wiki: harvest observations from the 2026-06-21 accuracy-review [8038–8237] / polish runs + the 2026-06-22 accuracy-review furigana phase [8238–8458] → Cleanup Backlog P21 [zero-inline-link band extends ~06222→06230 with nakaguro bullets]; Tooling Backlog item 20 [ninth no-op + descriptive-header strings behind scorer-bug #2], item 21 [fourth screening truncation, ~200-ID sizing], item 24 [truncation FP family at 100% + new grouping-error class the screener misses], item 25 [fix (1) IMPLEMENTED — detector converged]; Activity H not due, 110 runs)
+**Last updated**: 2026-06-23 (wiki: harvest observations from the 2026-06-22 polish/systemic-fix runs + the 2026-06-23 accuracy-review [8633–9239] / polish runs → Cleanup Backlog P21 [zero-inline-link band extends to 06246], P20 [dict-wide unknown-semantic 8,698 flags; long tail has no 1:1 map, 102 migrated + 394 escalated], P9 [06231 kana-inside-group + nested braces]; Tooling Backlog item 20 [tenth/eleventh no-op, regeneration proven not to help], item 21 [fifth truncation], item 24 [22/174 all-FP-but-one], **new item 27** [unknown-semantic CI gate], **new item 28** [selector skips scope-0 standing checks]; Entry Follow-ups [00642 weekday cross-refs]; **Activity H eighth refresh — 118 runs, first large curator-escalation event of 635 flags])
 
 
 ## How this wiki is organized

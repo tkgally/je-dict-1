@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-22 (harvest: item 20 update — ninth no-op confirmation + the concrete descriptive-header strings behind scorer-bug #2; item 21 update — fourth screening truncation [221/601], reconfirms ~200-ID furigana sizing; item 24 update — truncation FP family hit 100% + a new grouping-error class the screener misses; item 25 update — fix (1) IMPLEMENTED, detector converged. Prior 2026-06-21: item 6 migration-map expansion, item 23, new item 26)
+**Last updated**: 2026-06-23 (harvest: item 20 — tenth/eleventh no-op confirmation, regeneration proven not to help; item 21 — fifth screening truncation [174/500 over 8459–8632]; item 24 — 22/174 screen flags all FP except one お-prefix case [08474]; **new item 27** — promote unknown-semantic to a CI error/gate [8,698 dict-wide flags, accuracy-review can't outpace inflow]; **new item 28** — systemic-fix selector should skip scope-0 standing checks. Prior 2026-06-22: item 20 ninth confirmation, items 21/24/25)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -622,6 +622,22 @@ expects, so well-formed adjective/particle/noun notes that use **descriptive sec
 `usage`/`functions` requirement — so the priority ranking stops penalising descriptive-but-complete notes. This is
 the same scorer-bug #2 as the 2026-06-18 update, now with the exact header strings that trip the matcher.
 
+**Update 2026-06-23 (tenth/eleventh confirmation — regeneration is now proven not to help)**:
+Two more routine polish runs ran their priority/notes lanes effectively all-no-op: a
+2026-06-22 run found **6/6 eligible** clean (02848 一緒, 02947 低い, 00025 小さい, 00533 遅い,
+00304 何でも, 00642 金曜日) and a 2026-06-23 run found **all 8 eligible** clean (03095 など,
+02947 低い, 00025 小さい, 00533 遅い, 00304 何でも, 03093 だけ, 00642 金曜日, 01003 隣) — full
+inline links, furigana-complete, well-structured, needing zero changes. The 2026-06-23 run
+followed the §2 >half-no-op rule and regenerated priorities + reset the cursor, but noted
+this is now a **near-no-op corrective**: the file had *already* been regenerated the day
+before (2026-06-22), and the same unchanged basic/function entries re-top the ranking each
+time because the scorer re-derives the same low scores from unchanged text. This is the
+direct confirmation of the 2026-06-19 update's point — regeneration does not break the loop
+because the binding defect is the `score_note_quality.py` scorer (strip inline-link
+baseforms before the bare-kanji check; broaden the `required_sections` matcher), not the
+ranking freshness. Eleventh consecutive priority-lane no-op session; the scorer-bug fix
+remains the only thing that will break it.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -680,6 +696,13 @@ is the fourth confirmed truncation and reconfirms the 2026-06-19 prescription ex
 screening invocation to ~200 IDs** (option (a)), which at ~6 s/entry finishes in ~20 min, comfortably inside the
 ceiling. The selector / §A range sizing for the furigana pass should cap at ~200 IDs rather than the ~400–600 used
 for the combined screening+accuracy budget math.
+
+**Update 2026-06-23 (fifth truncation — same ~6–7 s/entry profile)**: A 2026-06-22
+accuracy-review furigana phase over **8459–8632** was **killed at 174/500 by the 20-min
+wrapper** (~7 s/entry against gemini-2.5-flash), the fifth confirmed truncation in two
+weeks. Per-entry results for the 174 covered IDs were kept and used. Reconfirms the
+~200-IDs-per-furigana-screen sizing prescription exactly — no new diagnosis, pure
+reinforcement that the §A furigana range should cap at ~200 IDs rather than 500.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -830,6 +853,16 @@ sharpest evidence yet for both halves of this item.
   classes the screener handles badly — both its low-precision noise and its blind spots — into deterministic
   checks, and reserve the multi-model screener for never-reviewed ranges only.
 
+**Update 2026-06-23 (the one screener true-positive class is exactly the deterministic lint's target)**: A
+2026-06-22 accuracy-review screen over **8459–8632** flagged **22 of 174** entries; on adjudication **all were
+truncation/display false positives (stray `)` for `}`, latin-char artifacts like "まちga", "じ)") except one** —
+**08474**, a genuine **お-prefix-inside-wrapper** case. So on an already-polished structured range the screener's
+entire net value was a single hit that a deterministic furigana-format/charset check (`check_furigana_format.py`
+o-go-prefix class, or the proposed `check_reading_charset.py`) would have caught for free, while the model cost
+174 paid calls to surface 21 FPs. This is the cleanest single-range demonstration of item 24's core trade — retire
+the screener's furigana-correctness role on reviewed ranges to deterministic checks and reserve the multi-model
+screener for never-reviewed ranges.
+
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
 **Source**: 2026-06-19 routine systemic-fix run (missing-target-id lane)
@@ -896,6 +929,55 @@ backlog item is marked `resolved` in `backlog-queue.json` (and Cleanup Backlog P
 RESOLVED). It will only re-open automatically if a future ref's referenced word gains an
 entry. **Fixes (2) (build-time by-reading fallback should require a surface match) and (3)
 (deterministic `id`-vs-`target_id` drift check + entry-creation skill audit) remain open.**
+
+## 27. Promote unknown-semantic tags from a `validate_tags.py` warning to a CI error
+
+**Source**: 2026-06-22 + 2026-06-23 routine runs (recurring, two independent observations)
+
+`validate_tags.py` treats out-of-`VALID_SEMANTIC` semantic tags as **warnings, not
+errors**, so unknown-semantic drift accumulates silently as new entries are created:
+`check_tag_drift.py --check unknown-semantic` reports **8,698 flags dictionary-wide** as
+of 2026-06-22, and fresh creation cohorts keep adding to it (the free-form 7815–9239 band
+runs 55–88% out-of-taxonomy; see [Cleanup Backlog](cleanup-backlog.md) → P20). Routine
+accuracy-review (tags dimension) is currently the **only** thing draining the backlog, and
+its per-run budget cannot keep pace with the inflow — much of the long tail has no 1:1
+migration target and must be escalated to the curator (394 escalated in one 2026-06-23 run
+alone). Draining a backlog that new-entry creation keeps refilling is a losing race.
+
+**Suggested implementation**: promote unknown-semantic to a **CI error** (or a pre-commit
+gate) so a new entry cannot introduce an off-list semantic tag — exactly parallel to the
+U+FFFD guard shipped with item 16 and the inline-link target-id gate proposed in item 11.
+The valid vocabulary is already centralised in `build/validate_tags.VALID_SEMANTIC`
+(`schema.json` deliberately has no semantic-tag enum), so the gate is a small addition:
+fail validation if any `metadata.tags.semantic` value is not in `VALID_SEMANTIC`, with the
+existing `check_tag_drift.py` migration map surfaced as the suggested fix. **Sequencing
+note**: a hard gate should land *with or after* the curated-migration systemic-fix pass
+(Cleanup P20), or it would block legitimate work on the 8,698 existing entries; the cleanest
+order is (1) curated migration sweep to drain the backlog, then (2) flip the gate to error so
+it can't re-accumulate. Until then, keep it a warning but watch the dict-wide count.
+
+## 28. systemic-fix selector should skip scope-0 standing checks
+
+**Source**: 2026-06-22 routine systemic-fix run (selector landed on a no-op item)
+
+The `routine_next.py` selector handed a 2026-06-22 systemic-fix run the backlog item
+`tag-conjugation-no-verb-pos` (priority 6) as its top pick, but that detector returns **0**
+— it is a deliberately-kept **scope-0 standing check** (the P6 cleanup is RESOLVED; the
+check stays only to catch regressions). The run was therefore a no-op for its assigned item
+and had to **cascade manually** to the next actionable item (`tag-politeness-unsupported`,
+priority 7, 2 flags, resolved). Two scope-0 standing checks —
+`tag-conjugation-no-verb-pos` and `proverb-idiom-mismatch` — currently sit at the top of
+the open / `batch_ready` queue **ahead of genuinely-actionable items**, so a systemic-fix
+run can be handed a guaranteed no-op and must hand-cascade to find real work.
+
+**Suggested fix (either)**: (a) give standing checks a distinct `status` (e.g.
+`standing`/`monitoring`) that the selector skips when their current `scope_estimate == 0`,
+reverting to `open` automatically if the detector ever flags again; or (b) have the selector
+**sort open `batch_ready` items by `scope_estimate > 0` before priority**, so it always
+lands on an item with actual work and never burns a run on a scope-0 check. Option (b) is
+the smaller change (a sort key in the selector) and needs no schema change to
+`backlog-queue.json`. Either prevents the manual-cascade waste and keeps systemic-fix runs
+landing on real work.
 
 ## Related pages
 
