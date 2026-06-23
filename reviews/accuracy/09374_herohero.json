@@ -1,0 +1,31 @@
+{
+  "entry_id": "09374_herohero",
+  "headword": "へろへろ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:49:25Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'physical-state' is not in the valid tag list.",
+      "suggestion": "Replace 'physical-state' with 'health' or 'descriptive'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'mimetic' is not in the valid tag list.",
+      "suggestion": "Replace 'mimetic' with 'onomatopoeia' or 'descriptive'."
+    }
+  ]
+}

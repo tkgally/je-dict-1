@@ -1,0 +1,24 @@
+{
+  "entry_id": "09404_azen",
+  "headword": "{唖然|あぜん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:50:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'state' is not in the valid tag list.",
+      "suggestion": "Remove 'state' or replace with a valid tag if appropriate."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "09336_jinryoku",
+  "headword": "{尽力|じんりょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:48:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'effort' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

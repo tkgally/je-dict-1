@@ -1,0 +1,24 @@
+{
+  "entry_id": "09386_magarikado",
+  "headword": "{曲|ま}がり{角|かど}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:49:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'location' is not in the valid tag list.",
+      "suggestion": "geography"
+    }
+  ]
+}

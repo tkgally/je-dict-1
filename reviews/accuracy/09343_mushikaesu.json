@@ -1,0 +1,24 @@
+{
+  "entry_id": "09343_mushikaesu",
+  "headword": "{蒸|む}し{返|かえ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:48:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'discussion' is not in the valid tag list.",
+      "suggestion": "communication"
+    }
+  ]
+}

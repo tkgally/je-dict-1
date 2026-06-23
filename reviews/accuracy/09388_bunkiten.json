@@ -1,0 +1,24 @@
+{
+  "entry_id": "09388_bunkiten",
+  "headword": "{分岐点|ぶんきてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:50:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'location'.",
+      "suggestion": "Replace 'location' with 'general' or 'geography' if referring to a physical place, or 'abstract' if referring to a conceptual point."
+    }
+  ]
+}

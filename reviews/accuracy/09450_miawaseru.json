@@ -1,0 +1,24 @@
+{
+  "entry_id": "09450_miawaseru",
+  "headword": "{見合|みあ}わせる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T15:51:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not appropriate for the headword '見合わせる'. While one sense relates to postponing (which involves time), the word itself does not denote a unit or concept of time.",
+      "suggestion": "Remove 'time'."
+    }
+  ]
+}
