@@ -1,0 +1,31 @@
+{
+  "entry_id": "09066_hatan",
+  "headword": "{破綻|はたん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'failure' is not in the valid tag list.",
+      "suggestion": "abstract"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'relationships' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

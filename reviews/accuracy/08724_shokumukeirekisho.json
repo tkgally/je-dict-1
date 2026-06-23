@@ -1,0 +1,31 @@
+{
+  "entry_id": "08724_shokumukeirekisho",
+  "headword": "{職務|しょくむ}{経歴|けいれき}{書|しょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:29:24Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'employment' is not in the valid tag list.",
+      "suggestion": "business"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'documents' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

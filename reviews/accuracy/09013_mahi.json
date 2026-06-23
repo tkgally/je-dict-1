@@ -1,0 +1,31 @@
+{
+  "entry_id": "09013_mahi",
+  "headword": "{麻痺|まひ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:01Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'medical'.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'system'.",
+      "suggestion": "general"
+    }
+  ]
+}

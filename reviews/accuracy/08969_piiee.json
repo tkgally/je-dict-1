@@ -1,0 +1,24 @@
+{
+  "entry_id": "08969_piiee",
+  "headword": "PA",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too broad and misleading for a specific sports term.",
+      "suggestion": "sports"
+    }
+  ]
+}

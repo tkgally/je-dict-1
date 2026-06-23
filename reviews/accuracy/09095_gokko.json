@@ -1,0 +1,31 @@
+{
+  "entry_id": "09095_gokko",
+  "headword": "ごっこ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:34:13Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'play' is not in the valid tag list.",
+      "suggestion": "leisure"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'childhood' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

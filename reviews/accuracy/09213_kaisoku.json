@@ -1,0 +1,24 @@
+{
+  "entry_id": "09213_kaisoku",
+  "headword": "{快速|かいそく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:35:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'train' is not in the valid tag list.",
+      "suggestion": "transportation"
+    }
+  ]
+}

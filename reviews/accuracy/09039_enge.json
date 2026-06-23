@@ -1,0 +1,31 @@
+{
+  "entry_id": "09039_enge",
+  "headword": "{嚥下|えんげ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:23Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-internal"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'medical' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

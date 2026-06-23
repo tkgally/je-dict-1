@@ -1,0 +1,31 @@
+{
+  "entry_id": "09072_omomuki",
+  "headword": "{趣|おもむき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:53Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'atmosphere' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

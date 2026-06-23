@@ -1,0 +1,24 @@
+{
+  "entry_id": "08869_jougen",
+  "headword": "{上弦|じょうげん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:31:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'weather' is incorrect for '上弦' (first quarter moon).",
+      "suggestion": "Replace 'weather' with 'nature' or 'time-general'."
+    }
+  ]
+}

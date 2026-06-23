@@ -1,0 +1,24 @@
+{
+  "entry_id": "09073_kyoushu",
+  "headword": "{興趣|きょうしゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "Replace 'aesthetics' with a valid tag like 'art' or 'descriptive'."
+    }
+  ]
+}

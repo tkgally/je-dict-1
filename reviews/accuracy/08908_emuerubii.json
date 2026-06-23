@@ -1,0 +1,24 @@
+{
+  "entry_id": "08908_emuerubii",
+  "headword": "MLB",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:31:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "sports"
+    }
+  ]
+}

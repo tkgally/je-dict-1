@@ -1,0 +1,24 @@
+{
+  "entry_id": "08988_opereetingushisutemu",
+  "headword": "オペレーティングシステム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term 'operating system' is a common technical term and not inherently formal in English or Japanese. 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "09081_jukuren",
+  "headword": "{熟練|じゅくれん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:34:00Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'skill' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'expertise' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

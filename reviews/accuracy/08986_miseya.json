@@ -1,0 +1,24 @@
+{
+  "entry_id": "08986_miseya",
+  "headword": "{店屋|みせや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '店屋' itself does not mean 'person'. While one sense refers to a shopkeeper, the primary meaning is 'store/shop'. The tag 'person' is misleading for the headword.",
+      "suggestion": "Remove 'person' tag."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "08905_aishii",
+  "headword": "IC",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:31:39Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'object' is not in the valid tag list.",
+      "suggestion": "electronics"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'location' is not in the valid tag list.",
+      "suggestion": "geography"
+    }
+  ]
+}

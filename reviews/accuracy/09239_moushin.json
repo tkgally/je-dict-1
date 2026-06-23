@@ -1,0 +1,31 @@
+{
+  "entry_id": "09239_moushin",
+  "headword": "{盲信|もうしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:35:50Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'mental-state' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'belief' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entry_id": "09079_kurouto",
+  "headword": "{玄人|くろうと}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:33:59Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'skill' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'profession' is not in the valid tag list.",
+      "suggestion": "occupation"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'expertise' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

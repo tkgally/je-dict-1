@@ -1,0 +1,24 @@
+{
+  "entry_id": "09003_entai",
+  "headword": "{延滞|えんたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:32:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '延滞' (entai) means 'arrears; overdue; delinquency' and is a noun. While it often relates to finance, it can also apply to other obligations like returning library books or submitting assignments. Therefore, 'finance' is too narrow and misleading as the sole semantic tag.",
+      "suggestion": "Replace 'finance' with 'action' or 'general' to better reflect its broader applicability as a noun describing a state of being late."
+    }
+  ]
+}

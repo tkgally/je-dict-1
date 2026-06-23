@@ -1,0 +1,24 @@
+{
+  "entry_id": "09199_karei",
+  "headword": "{華麗|かれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:35:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

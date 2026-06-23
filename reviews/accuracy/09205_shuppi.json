@@ -1,0 +1,24 @@
+{
+  "entry_id": "09205_shuppi",
+  "headword": "{出費|しゅっぴ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-23T01:35:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}
