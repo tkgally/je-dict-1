@@ -2,6 +2,29 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-24] maintenance | Observation harvest (P20 9240–9456, new P22 + item 29 part_of_speech, items 20/23/24)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep (`sweep-stranded-prs.py`) exited on an HTTP 403 (direct GitHub API, no token in this environment), but §0a had already confirmed 0 open PRs so the sweep was a no-op — noted and continued. Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-23 routine_005 / frontier-6250 polish runs, the 2026-06-23 accuracy-review (9240–9456), and the 2026-06-24 new-entries (29443–29462) run:
+  - **Cleanup Backlog P20 update 2026-06-24** — the free-form pre-March general-tier tag cohort continues unbroken into **9240–9456** (~121/217 = 56% out-of-list; 35 error-flags migrated, ~86 residual: location×11, behavior×10, urban×5, …). Mirrored in `backlog-queue.json` (`unknown-semantic-tags`). Reinforces the dict-wide check_tag_drift sweep + Tooling item 27 CI gate over per-range accuracy-review.
+  - **Cleanup Backlog new Priority 22** + **Tooling Backlog new item 29** + **backlog-queue.json `part_of_speech-normalize`** (`batch_ready:false`, `needs-detector`) — the free-text `part_of_speech` display field is inconsistent dict-wide (`adjective (i-adjective)` 98 vs `i-adjective` 256; four suru-verb spellings) while `metadata.tags.pos` is canonical and is what the renderer/search use. Filed a normalizer/detector driven by `tags.pos`, gated on a curator-agreed canonical display map (display-only, low risk, thousands of header pages).
+  - **Tooling Backlog item 20 update (twelfth/thirteenth confirmation)** — two 2026-06-23 polish runs ran priority lanes 0/8 and 0/4 no-op on closed basic/core function words; reinforces the binding `score_note_quality.py` scorer-bug fix and the `prioritize_polishing.py` <30-day recency pre-filter.
+  - **Tooling Backlog item 23 update** + **Open Issues candidate-quality update** — the selector's `seen_in_entry_count` reached **0** (both candidate lanes now exhausted); added new junk families (place-name readings mis-glossed as common words 尾張/三重; niche jargon 尾椎/腋窩/網点; coinages 権使/個尊/些道) to the pre-filter spec; raised the curator restock + `clean_up_candidates_list.md` purge in priority ahead of the next new-entries run.
+  - **Tooling Backlog item 24 update** — the `review_runner.py` pair-extraction truncation FP family reconfirmed on the never-reviewed 9240–9456 (駐輪場→ちゅうり, 分岐点→ぶんきて, 実体経済→じった — ~8 verified, all FP); not range-state-dependent, a pure extraction bug → send reading fields untruncated.
+  - **No action (session-log only)** — the `[tooling] find_missing_furigana.py correctly flags cited Japanese terms in explanation/notes prose` observation confirmed the tool working as intended; recorded as a creation-time reminder, no tool change.
+  - All observations pruned from `polishing/observations.md` (harvest summary recorded there).
+- [A/Sync] Refreshed Open Issues candidate count (~1,232) and the candidate-junk family list.
+- [E/Lint] Refreshed "Last updated" on the three edited backlog/issue pages (cleanup-backlog, tooling-backlog, open-issues) and the wiki index; bumped `backlog-queue.json` `updated`; new cross-references (P20↔item 27, P22↔item 29↔queue) resolve to existing anchors; JSON re-validated.
+- **Activity H (metrics trend) not due** — only 6 new `metrics-history.jsonl` lines (124 total) since the page's last refresh at 118 runs (threshold ≥10).
+
+**§4 self-check**: n/a — wiki-only run, no entries created or modified.
+
+**Next cursor**: n/a (wiki mode). Metrics snapshot appended via `metrics_snapshot.py`.
+
 ## [2026-06-23] maintenance | Observation harvest (P21/P20/P9, items 20/21/24, new 27/28) + eighth metrics refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
