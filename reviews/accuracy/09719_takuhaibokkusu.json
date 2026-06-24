@@ -1,0 +1,24 @@
+{
+  "entry_id": "09719_takuhaibokkusu",
+  "headword": "{宅配|たくはい}ボックス",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:30:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'housing' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

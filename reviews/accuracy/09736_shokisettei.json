@@ -1,0 +1,24 @@
+{
+  "entry_id": "09736_shokisettei",
+  "headword": "{初期|しょき}{設定|せってい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:31:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'device' is not in the valid tag list.",
+      "suggestion": "technology"
+    }
+  ]
+}

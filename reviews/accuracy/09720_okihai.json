@@ -1,0 +1,31 @@
+{
+  "entry_id": "09720_okihai",
+  "headword": "{置|お}き{配|はい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:31:00Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'delivery' is not in the valid tag list.",
+      "suggestion": "transportation"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'service' is not in the valid tag list.",
+      "suggestion": "business"
+    }
+  ]
+}

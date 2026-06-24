@@ -1,0 +1,24 @@
+{
+  "entry_id": "09726_oshibori",
+  "headword": "おしぼり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:31:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tags 'restaurant' and 'service' are not in the valid tag list.",
+      "suggestion": "Replace 'restaurant' with 'daily-life' or 'consumption', and 'service' with 'daily-life' or 'business'."
+    }
+  ]
+}

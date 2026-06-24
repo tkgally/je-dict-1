@@ -1,0 +1,24 @@
+{
+  "entry_id": "09698_heiten",
+  "headword": "{閉店|へいてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:30:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for the headword's primary meaning, which is about the act or state of a store closing, not a general concept of time.",
+      "suggestion": "Remove 'time'. The 'business' tag is sufficient, and the 'time' aspect is covered by the 'closing time' glosses."
+    }
+  ]
+}
