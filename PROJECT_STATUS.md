@@ -51,6 +51,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-24 (Routine v2: new-entries — 20 New Entries, IDs 29443–29462)
+Created 20 hand-curated standalone general-tier nouns. The selector reported `seen_in_entry_count` 0, so there was no priority lane; the fallback "oldest unprocessed" candidate pool is heavily polluted (compositional phrases, bare numerals/counters, place-name misglosses, and coinages/wrong glosses — e.g. アンパッサン glossed "ice cream sundae" for *en passant*; 怒燥 for 怒涛), so all 20 were cherry-picked for genuine dictionary-worthiness after surveying ~300 candidates. Removed 2 stale variant candidates (油粕 = variant of existing 油かす 29276; 分速/ぶんそく = wrong-reading dup of 分速/ふんそく 16680). Added 9 referenced words as new "seen in entry" candidates. §4 cross-model self-check: **19 CLEAN; 1 flagged** — 29451 塁打, where the model correctly caught that the entry conflated 塁打 ("total bases") with 安打 ("a hit"); the entry was rewritten and all 4 issues applied. $0.0087.
+
+- **Entries (20)**: {語学力|ごがくりょく} (language ability), {湿地帯|しっちたい} (wetland), {公有地|こうゆうち} (public land), {所有地|しょゆうち} (owned land), {着手金|ちゃくしゅきん} (retainer fee), {虜囚|りょしゅう} (captive), {銘刻|めいこく} (inscription; verb-suru), {講義録|こうぎろく} (lecture notes), {塁打|るいだ} (total bases, baseball), {猿人|さるじん} (early hominid), {指数関数|しすうかんすう} (exponential function), {借入金|かりいれきん} (borrowed money), {漁獲量|ぎょかくりょう} (fish catch), {受水槽|じゅすいそう} (water tank), {速読法|そくどくほう} (speed reading), {末期症状|まっきしょうじょう} (terminal symptoms), {燕尾|えんび} (swallowtail), {預金利率|よきんりりつ} (deposit interest rate), {送信機|そうしんき} (transmitter), {結晶質|けっしょうしつ} (crystalline; adj-no)
+
 ### 2026-06-23 (Routine v2: new-entries — 14 New Entries, IDs 29429–29442)
 Created the 6 remaining priority "seen in entry" candidates (internal-completeness gaps referenced from polish-frontier entries 06239/06240/06243/06244) plus 8 hand-curated, lexicalized standalone nouns. §4 cross-model self-check came back **CLEAN on all 14** (0 issues, $0.0061). Logged a `[pattern]` observation: candidate_words.json is now largely exhausted of genuine standalone gaps — ~600 surveyed + ~25 extracted base words probed, and nearly every common base word (曖昧, 無難, ぎこちない, 巧み, 速やか, 潔い, 仲良し, 無邪気…) already exists as an entry; remaining pool is mostly transparent compounds, inflected fragments, numeral/counter compounds, and rare coinages. Recommend a curator clean_up_candidates pass + quality restock.
 
@@ -78,14 +83,5 @@ Created 11 priority "seen in entry" candidates — internal-completeness gaps th
 - **Proverb**: {猫|ねこ}に{小判|こばん} (casting pearls before swine)
 
 §4 self-check: all 11 CLEAN (0 issues). $0.0048.
-
-### 2026-06-20 (Routine v2: new-entries — 14 New Entries, IDs 29365–29378)
-Created all 14 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced but had not defined (several are antonym/counterpart partners of existing entries: 悪徳↔美徳, 急減↔急増, 軟質↔硬質, 一神教↔多神教, 降機↔搭乗). The fallback "oldest unprocessed" lane was skipped: those Feb-2026 candidates are largely typos/non-words (権使, 些道, 個尊, 怒燥), so the run stayed focused on the 14 high-quality gaps rather than padding to ~20. Added ぼたもち and 管理栄養士 as new candidates from the new entries' notes; logged a [pattern] observation requesting a candidate-list cleanup and a [tooling] note on a reviewer false positive.
-
-- **Foods/objects**: おはぎ (ohagi), {芋類|いもるい} (tubers/starches), {炭水|たんすい} (carbs, casual abbrev.), シルバーシート (silver/priority seat)
-- **Abstract/society**: {悪徳|あくとく} (vice/corruption), {急減|きゅうげん} (sharp decrease; verb-suru), {軟質|なんしつ} (soft quality; adj-no), {一神教|いっしんきょう} (monotheism)
-- **Travel/work/text**: {降機|こうき} (disembarking; verb-suru), {栄養士|えいようし} (nutritionist), {緒言|しょげん} (preface, academic), はじめに (to begin with / Introduction), {三大|さんだい} (the three major ~; prefix), {摂|と}る (to ingest/consume; verb-godan)
-
-§4 self-check: 13 CLEAN; 1 flagged (29378 炭水 — model wanted formality "colloquial", but that is a domain value, not a valid formality; "informal" upheld and domain colloquial already set; rejected). $0.0061.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
