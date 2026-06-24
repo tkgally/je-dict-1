@@ -1,0 +1,24 @@
+{
+  "entry_id": "09475_yo",
+  "headword": "よ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:55:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The example sentence uses 'ね' (ne) at the end, not 'よ' (yo). The translation reflects 'ね' rather than 'よ'.",
+      "suggestion": "Change the Japanese example to use 'よ' or remove this example if it's meant to illustrate 'ね'."
+    }
+  ]
+}

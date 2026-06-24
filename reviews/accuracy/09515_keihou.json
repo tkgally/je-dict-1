@@ -1,0 +1,24 @@
+{
+  "entry_id": "09515_keihou",
+  "headword": "{警報|けいほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:56:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'weather' is too narrow for the headword '警報'. While '警報' is often used for weather warnings, it also applies to other types of warnings like volcanic eruptions, which is shown in example 2.",
+      "suggestion": "Replace 'weather' with a more general tag like 'general' or 'society' or 'communication'."
+    }
+  ]
+}

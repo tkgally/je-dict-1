@@ -1,0 +1,24 @@
+{
+  "entry_id": "09628_juuminhyou",
+  "headword": "{住民票|じゅうみんひょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:58:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific administrative document. 'Law' or 'society' would be more appropriate.",
+      "suggestion": "law"
+    }
+  ]
+}

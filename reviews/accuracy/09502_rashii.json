@@ -1,0 +1,31 @@
+{
+  "entry_id": "09502_rashii",
+  "headword": "らしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:55:51Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'I heard that' is misleading for sense 1. While らしい can convey hearsay, it primarily indicates inference based on observation or evidence, not just reported information. 'I heard that' is more strongly associated with そうだ (hearsay).",
+      "suggestion": "Remove 'I heard that' from the gloss for sense 1. Focus on 'seems like, apparently'."
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The top-level gloss 'I heard that' is misleading. While らしい can convey hearsay, it primarily indicates inference based on observation or evidence, not just reported information. 'I heard that' is more strongly associated with そうだ (hearsay).",
+      "suggestion": "Remove 'I heard that' from the top-level gloss. Focus on 'seems like, apparently'."
+    }
+  ]
+}

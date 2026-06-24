@@ -1,0 +1,24 @@
+{
+  "entry_id": "09607_kakehashi",
+  "headword": "{架|か}け{橋|はし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:57:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word that clearly refers to a 'bridge' (literal and figurative).",
+      "suggestion": "Add 'building' for the literal sense and 'abstract' for the figurative sense, or 'general' if a single tag is required."
+    }
+  ]
+}

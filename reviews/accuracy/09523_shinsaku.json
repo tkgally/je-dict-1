@@ -1,0 +1,24 @@
+{
+  "entry_id": "09523_shinsaku",
+  "headword": "{新作|しんさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:56:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for '新作'. '新作' specifically refers to a newly created work or product.",
+      "suggestion": "creation"
+    }
+  ]
+}

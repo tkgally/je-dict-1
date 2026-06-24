@@ -1,0 +1,24 @@
+{
+  "entry_id": "09544_suidoudai",
+  "headword": "{水道代|すいどうだい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:56:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for '水道代'.",
+      "suggestion": "finance"
+    }
+  ]
+}
