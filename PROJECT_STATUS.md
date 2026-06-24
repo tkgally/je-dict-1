@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-24 (Routine v2: new-entries — 16 New Entries, IDs 29463–29478)
+Created the 16 priority "seen in entry" candidates remaining in the queue — internal-completeness gaps the dictionary already referenced from polish-frontier entries (06258/06259/06261) and the 29445–29455 financial/legal/baseball cluster. Nine financial/legal/STEM/sports nouns plus seven loanword/slang modifiers (ヘビー, コア, eスポーツ, ストリーマー, エキサイティング, センセーショナル, あざとかわいい). Added 4 referenced contrast words as new "seen in entry" candidates (猿人/えんじん, 旧人, 単打, 頭金). §4 cross-model self-check: **content CLEAN on all 16**; 2 tag-narrowness flags (29468 science→"mathematics" not in-list; 29469 general→action in-list substitution) both REJECTED per the semantic-tag policy. $0.0070. Logged an `[entry]` observation: existing 29452 猿人 carries the non-standard reading さるじん where えんじん is expected (curator to reconcile against the new candidate).
+
+- **Nouns**: {国有地|こくゆうち} (state-owned land), {成功報酬|せいこうほうしゅう} (contingency fee), {手付金|てつけきん} (deposit/earnest money), {長打|ちょうだ} (extra-base hit), {原人|げんじん} (early human/Homo erectus), {対数関数|たいすうかんすう} (logarithmic function), {刻印|こくいん} (engraved mark; verb-suru), {収穫量|しゅうかくりょう} (harvest yield), {貸付金|かしつけきん} (loan, lender side), eスポーツ (esports), ストリーマー (streamer)
+- **Na-adjectives / modifiers**: ヘビー (heavy/intense), コア (core; noun+adj-na), エキサイティング (exciting), センセーショナル (sensational)
+- **I-adjective (slang)**: あざとかわいい (calculatedly cute)
+
 ### 2026-06-24 (Routine v2: new-entries — 20 New Entries, IDs 29443–29462)
 Created 20 hand-curated standalone general-tier nouns. The selector reported `seen_in_entry_count` 0, so there was no priority lane; the fallback "oldest unprocessed" candidate pool is heavily polluted (compositional phrases, bare numerals/counters, place-name misglosses, and coinages/wrong glosses — e.g. アンパッサン glossed "ice cream sundae" for *en passant*; 怒燥 for 怒涛), so all 20 were cherry-picked for genuine dictionary-worthiness after surveying ~300 candidates. Removed 2 stale variant candidates (油粕 = variant of existing 油かす 29276; 分速/ぶんそく = wrong-reading dup of 分速/ふんそく 16680). Added 9 referenced words as new "seen in entry" candidates. §4 cross-model self-check: **19 CLEAN; 1 flagged** — 29451 塁打, where the model correctly caught that the entry conflated 塁打 ("total bases") with 安打 ("a hit"); the entry was rewritten and all 4 issues applied. $0.0087.
 
@@ -74,14 +81,5 @@ Created all 19 priority "seen in entry" candidates (C22013–C22031) — interna
 - **Nouns**: {制震|せいしん} (seismic damping), {欠礼|けつれい} (omission of courtesy), {罷免|ひめん} (dismissal from office), {悪者|わるもの} (villain), {対義語|たいぎご} (antonym), {年賀状|ねんがじょう}じまい (ending one's New Year's card custom), {金屏風|きんびょうぶ}/{銀屏風|ぎんびょうぶ} (gold/silver folding screen), {屏風絵|びょうぶえ} (folding-screen painting), {風炉先屏風|ふろさきびょうぶ} (tea-ceremony screen), ちゃぶ{台|だい}{返|がえ}し (table-flip reversal), {頑固親父|がんこおやじ} (stubborn old man)
 - **Suru-verbs**: {妊娠|にんしん}する (to become pregnant), {創造|そうぞう}する (to create), {肯定|こうてい}する (to affirm), {推薦|すいせん}する (to recommend), {企画|きかく}する (to plan)
 - **Other verbs**: {鎮|しず}める (to quell; ichidan, paired with {鎮|しず}まる), {取|と}り{付|つ}く (to cling to; godan)
-
-### 2026-06-21 (Routine v2: new-entries — 11 New Entries, IDs 29379–29389)
-Created 11 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced (from polish frontier entries 06211–06221 plus 管理栄養士 from 29375). Removed stale candidate C22001 (ぼたもち): it is a kana variant of existing entry 29357 牡丹餅, not a new word. The fallback "oldest unprocessed" lane was skipped again — those candidates remain largely low-quality compositional phrases and OCR artifacts (権使, 些道, 怒燥, 火虫), so the run stayed focused on the 11 high-quality gaps rather than padding to ~20.
-
-- **Nouns**: {管理|かんり}{栄養士|えいようし} (registered dietitian), {対戦|たいせん}{相手|あいて} (opponent), {決算|けっさん}{期|き} (fiscal closing period), てんてこ{舞|ま}い (frantically busy), {話|はなし}{半分|はんぶん} (take with a grain of salt), ジレンマ (dilemma)
-- **Verbs**: {売|う}りつける (to foist on; ichidan), {突|つ}き{倒|たお}す (to push down; godan), {騒|さわ}ぎ{立|た}てる (to make a fuss; ichidan), {大同団結|だいどうだんけつ} (to join forces; verb-suru)
-- **Proverb**: {猫|ねこ}に{小判|こばん} (casting pearls before swine)
-
-§4 self-check: all 11 CLEAN (0 issues). $0.0048.
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

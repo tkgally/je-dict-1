@@ -3,6 +3,15 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-21 (Routine v2: new-entries — 11 New Entries, IDs 29379–29389)
+Created 11 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced (from polish frontier entries 06211–06221 plus 管理栄養士 from 29375). Removed stale candidate C22001 (ぼたもち): it is a kana variant of existing entry 29357 牡丹餅, not a new word. The fallback "oldest unprocessed" lane was skipped again — those candidates remain largely low-quality compositional phrases and OCR artifacts (権使, 些道, 怒燥, 火虫), so the run stayed focused on the 11 high-quality gaps rather than padding to ~20.
+
+- **Nouns**: {管理|かんり}{栄養士|えいようし} (registered dietitian), {対戦|たいせん}{相手|あいて} (opponent), {決算|けっさん}{期|き} (fiscal closing period), てんてこ{舞|ま}い (frantically busy), {話|はなし}{半分|はんぶん} (take with a grain of salt), ジレンマ (dilemma)
+- **Verbs**: {売|う}りつける (to foist on; ichidan), {突|つ}き{倒|たお}す (to push down; godan), {騒|さわ}ぎ{立|た}てる (to make a fuss; ichidan), {大同団結|だいどうだんけつ} (to join forces; verb-suru)
+- **Proverb**: {猫|ねこ}に{小判|こばん} (casting pearls before swine)
+
+§4 self-check: all 11 CLEAN (0 issues). $0.0048.
+
 ### 2026-06-18 (Routine v2: new-entries — 13 New Entries, IDs 29324–29336)
 Added 13 curated standalone entries plus the 2 priority seen-in-entry gaps. The candidate pool outside the seen-in-entry set remains overwhelmingly corpus-harvest noise (bare numbers/counters, non-lexical fragments, transparent 〜率/〜化/〜性 compounds, ad-hoc phrases), so standalone picks were hand-selected for genuine dictionary-worthiness rather than padding to ~20. Dropped 段ボール箱 (transparent compound already covered by 18885 段ボール). Added 軸受け (じくうけ) as a candidate from 29330's similar-words note. Logged a [pattern] observation requesting a curator cleanup/restock of candidate_words.json.
 
