@@ -1,0 +1,24 @@
+{
+  "entry_id": "09696_ranchitaimu",
+  "headword": "ランチタイム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:30:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'restaurant' is not a valid semantic tag.",
+      "suggestion": "Replace 'restaurant' with 'consumption' or 'daily-life'."
+    }
+  ]
+}

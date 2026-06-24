@@ -1,0 +1,24 @@
+{
+  "entry_id": "09727_tsuikachuumon",
+  "headword": "{追加|ついか}{注文|ちゅうもん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:31:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'restaurant' is not in the valid tag list.",
+      "suggestion": "consumption"
+    }
+  ]
+}

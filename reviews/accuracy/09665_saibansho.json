@@ -1,0 +1,24 @@
+{
+  "entry_id": "09665_saibansho",
+  "headword": "{裁判所|さいばんしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:29:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '裁判所' refers to both the physical building and the institution. The tag 'building' only covers the former, making it incomplete and potentially misleading for the latter meaning.",
+      "suggestion": "Add 'law' to the semantic tags."
+    }
+  ]
+}

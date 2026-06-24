@@ -1,0 +1,10 @@
+{
+  "entry_id": "09683",
+  "screened_at": "2026-06-24T18:20:36Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 披露 in item 10 is given as ひろ, but the full reading for 披露 is ひろう. This is a partial reading, but the instructions state 'Do NOT flag partial readings as errors — they are correct by design.' However, the context 'め is a pol' suggests that 'ひろめ' might be the intended word, which would make 'ひろ' a partial reading of '披露め'. If '披露' itself is the word, then 'ひろ' is an incomplete reading. Given the instruction 'the reading covers ONLY the kanji portion', and '披露' is the kanji portion, 'ひろ' is an incomplete reading for '披露'."
+  ],
+  "confidence": 0.8
+}

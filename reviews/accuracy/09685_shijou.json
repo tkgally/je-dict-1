@@ -1,0 +1,24 @@
+{
+  "entry_id": "09685_shijou",
+  "headword": "{市場|しじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T18:29:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is too narrow and misleading for '市場' (market), which primarily refers to an economic system or place of exchange, not just 'work'.",
+      "suggestion": "Replace 'work' with 'economics' or 'business'."
+    }
+  ]
+}
