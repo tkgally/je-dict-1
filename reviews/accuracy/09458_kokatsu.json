@@ -1,0 +1,24 @@
+{
+  "entry_id": "09458_kokatsu",
+  "headword": "{枯渇|こかつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:55:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'resource' is not in the valid tag list.",
+      "suggestion": "Replace 'resource' with a valid tag like 'general' or 'economics' depending on the primary context."
+    }
+  ]
+}

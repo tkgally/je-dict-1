@@ -1,0 +1,24 @@
+{
+  "entry_id": "09489_biora",
+  "headword": "ビオラ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:55:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too broad and misleading for a specific musical instrument. 'Music' is a more accurate and specific tag.",
+      "suggestion": "music"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "09581_kotoni",
+  "headword": "ことに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:57:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The top-level gloss combines two distinct meanings without indicating they are separate senses.",
+      "suggestion": "especially, particularly; ironically"
+    }
+  ]
+}

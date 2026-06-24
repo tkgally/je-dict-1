@@ -1,0 +1,24 @@
+{
+  "entry_id": "09517_kizuguchi",
+  "headword": "{傷口|きずぐち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:56:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect. A wound is not a body part.",
+      "suggestion": "health"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "09591_yozora",
+  "headword": "{夜空|よぞら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:57:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'weather' is incorrect for 'night sky'.",
+      "suggestion": "nature"
+    }
+  ]
+}

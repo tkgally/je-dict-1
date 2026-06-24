@@ -1,0 +1,24 @@
+{
+  "entry_id": "09501_node",
+  "headword": "ので",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-24T06:55:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect for ので. ので itself does not carry a politeness level; it's a conjunction that can be used in both plain and polite contexts depending on the verb ending.",
+      "suggestion": "Change 'polite' to 'plain' or remove the politeness tag if it's not applicable."
+    }
+  ]
+}
