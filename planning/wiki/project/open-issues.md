@@ -1,6 +1,6 @@
 # Open Issues
 
-**Last updated**: 2026-06-18 (candidate-pool quality: quantified <10% signal, recurring new-entries throughput impact, pre-filter proposal)
+**Last updated**: 2026-06-24 (candidate-pool quality: seen-in-entry lane now drained to 0, both candidate lanes exhausted, curator restock raised in priority; new junk families — place-name misglosses, niche jargon, coinages)
 
 A running list of known problems, design questions, and unresolved edge cases. Items here are candidates for future work sessions or discussion.
 
@@ -16,13 +16,17 @@ Entries created before v2 standards often have brief, unstructured notes (single
 Many semantically related entries aren't linked. The `add_cross-references.md` task and `find_merge_candidates.py` tool help, but systematic coverage would require reviewing all entries.
 
 ### Candidate list quality
-`candidate_words.json` (~1,285 candidates as of 2026-06-18) contains a high fraction of
+`candidate_words.json` (~1,232 candidates as of 2026-06-24) contains a high fraction of
 low-quality corpus-harvest noise:
 - Duplicates of existing entries (variant readings)
-- Bare numeral + counter forms (二百, 三歳) and single-suffix productive derivations
-  (〜化, 〜性, 〜率, 〜器) — compositional, not lexical
-- Place names, proper nouns, and non-Japanese transcriptions (スポンジボブ)
-- Transcription typos / errors (怒燥 for 怒涛; アンパッサン glossed "ice cream sundae")
+- Bare numeral + counter forms (二百, 三歳, 三桁/四桁/五桁) and single-suffix productive
+  derivations (〜化, 〜性, 〜率, 〜器) — compositional, not lexical
+- Place names, proper nouns, and non-Japanese transcriptions (スポンジボブ); **place-name
+  readings mis-glossed as common words** (尾張 おわり glossed "end, finish"; 三重 みえ glossed
+  "triple")
+- Niche technical jargon (尾椎, 腋窩, 網点, 受水槽)
+- Transcription typos / errors and coinages / non-words (怒燥 for 怒涛; アンパッサン glossed
+  "ice cream sundae" — actually *en passant*; 権使, 個尊, 些道, 解退, 自紹介)
 - Too obscure for intermediate learners; compounds better handled as collocations
 
 **Quantified and recurring (2026-06-17/18 new-entries runs)**: across the oldest ~160
@@ -30,7 +34,18 @@ candidates and mid-range samples, **fewer than ~10%** are well-formed standalone
 vocabulary. The only consistently good candidates are the recent **"seen in entry"**
 additions. The practical impact is that `new-entries` Routine runs find few genuinely
 useful headwords beyond the seen-in-entry set and are forced to under-produce against
-their ~20 target rather than pad from junk. **Two complementary fixes**: (1) curator
+their ~20 target rather than pad from junk.
+
+**Update (2026-06-24): the seen-in-entry safety lane is now empty.** The 2026-06-24
+new-entries run reported the selector's `seen_in_entry_count` at **0** — the high-quality
+seen-in-entry pool that the last several runs leaned on has been fully drained, while the
+2026-06-23 run independently found nearly every common, dictionary-worthy *base* word in the
+remaining pool (曖昧, 無難, ぎこちない, 巧み, 速やか, 仲良し, 無邪気…) **already exists as an
+entry**. So both lanes are now exhausted: the seen-in-entry inflow is the only reliable
+source of quality candidates and it has dried up. Without a curator restock, the next
+new-entries run is forced to mine transparent compositional compounds (排水処理, 工業製品,
+短距離ミサイル) — explicitly out of scope for a learner headword. This raises the priority of
+fix (1) (curator restock) ahead of the next `new-entries`-mode Routine run. **Two complementary fixes**: (1) curator
 restock with vetted, common, learner-relevant words (human side); (2) a mechanical
 pre-filter in `manage_candidates.py` / corpus harvesting that rejects the predictable
 junk families (see [Tooling Backlog](../ideas/tooling-backlog.md) → item 23) so the pool

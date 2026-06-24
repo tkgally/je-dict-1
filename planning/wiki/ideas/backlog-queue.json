@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-22",
+  "updated": "2026-06-24",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -251,7 +251,21 @@
       "status": "open",
       "scope_estimate": 9036,
       "severity": "warn",
-      "notes": "Curator tag-policy decision 2026-06-11: VALID_SEMANTIC expanded with 30 established tags (>=100 uses); remaining 9,036 instances across 7,292 entries migrate to in-list tags. Near-duplicates carry suggested targets (TAG_MIGRATION map in check_tag_drift.py) but still verify per entry. accuracy-review prompt v3 also drains this organically. See topics/schema-tag-reliability.md."
+      "notes": "Curator tag-policy decision 2026-06-11: VALID_SEMANTIC expanded with 30 established tags (>=100 uses); remaining 9,036 instances across 7,292 entries migrate to in-list tags. Near-duplicates carry suggested targets (TAG_MIGRATION map in check_tag_drift.py) but still verify per entry. accuracy-review prompt v3 also drains this organically. See topics/schema-tag-reliability.md. UPDATE 2026-06-24: free-form cohort continues unbroken into 9240-9456 (~56% out-of-list; 35 error-flags migrated, ~86 residual). Dict-wide ~8,698 flags; per-range accuracy-review cannot drain it alone."
+    },
+    {
+      "id": "part_of_speech-normalize",
+      "title": "Inconsistent free-text part_of_speech display field (normalize from canonical tags.pos)",
+      "source": "ideas/cleanup-backlog.md#priority-22",
+      "detect": "TODO: build a read-only detector listing entries whose part_of_speech text != canonical display string for its tags.pos (see tooling-backlog.md#29)",
+      "fix_type": "mechanical-safe",
+      "verify": "spot-check",
+      "priority": 22,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": null,
+      "severity": "info",
+      "notes": "Display-text only: tags.pos is canonical and is what renderer/search use, so no functional bug. part_of_speech surface variants coexist dict-wide (adjective (i-adjective) 98 vs i-adjective 256; four suru-verb spellings). batch_ready:false until the normalizer/detector (tooling item 29) exists and the curator agrees the canonical tags.pos -> display-string map (the one editorial choice). Then it becomes a safe text-substitution systemic-fix validated against the structured tag. Changes visible header text on thousands of pages -> spot-check, curator sign-off on the map."
     }
   ]
 }

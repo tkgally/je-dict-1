@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-23 (harvest: item 20 — tenth/eleventh no-op confirmation, regeneration proven not to help; item 21 — fifth screening truncation [174/500 over 8459–8632]; item 24 — 22/174 screen flags all FP except one お-prefix case [08474]; **new item 27** — promote unknown-semantic to a CI error/gate [8,698 dict-wide flags, accuracy-review can't outpace inflow]; **new item 28** — systemic-fix selector should skip scope-0 standing checks. Prior 2026-06-22: item 20 ninth confirmation, items 21/24/25)
+**Last updated**: 2026-06-24 (harvest: item 20 — twelfth/thirteenth no-op confirmation + recency-filter reinforcement; item 23 — seen-in-entry lane now empty + new junk families [place-name misglosses 尾張/三重, niche jargon, coinages]; item 24 — truncation FP family reconfirmed on never-reviewed 9240–9456; **new item 29** — `part_of_speech` display-field normalizer driven by canonical `tags.pos`. Prior 2026-06-23: item 20 tenth/eleventh, item 21 fifth truncation, item 24, new items 27/28)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -638,6 +638,19 @@ baseforms before the bare-kanji check; broaden the `required_sections` matcher),
 ranking freshness. Eleventh consecutive priority-lane no-op session; the scorer-bug fix
 remains the only thing that will break it.
 
+**Update 2026-06-24 (twelfth/thirteenth confirmation — closed-tier function words again top the list)**:
+Two 2026-06-23 routine polish runs ran their priority/notes lanes effectively all-no-op:
+one found **0 of 8** sampled entries needing any change (already-polished basic-tier function
+words — particles, basic i-adjectives 小さい/遅い/低い, など/だけ), and a frontier-lane run
+corroborated with **0 of 4** (03095 など, 02947 低い, 00025 小さい, 00533 遅い — all with full
+links, structured notes, conjugation, cross-refs). Both runs reiterate the same two
+complementary fixes already filed: (a) the binding `score_note_quality.py` scorer-bug fix
+(strip inline-link baseforms before the bare-kanji check; broaden the `required_sections`
+matcher), and (b) a `prioritize_polishing.py` ranking-time **pre-filter that excludes entries
+modified within the last ~30 days** so recently-polished entries stop re-surfacing in the
+priority lane. No new diagnosis — twelfth/thirteenth consecutive no-op, pure reinforcement
+that the scorer is anti-correlated with real need on the closed basic/core tiers.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -779,6 +792,25 @@ batches (Open Issues → candidate-pool quality) are needed; the observing runs 
 recommend running `clean_up_candidates_list.md` to purge the pre-March junk so the
 fallback lane becomes usable again.
 
+**Update 2026-06-24 (selector now has no high-priority lane to fall back on; new junk families)**: A
+2026-06-24 routine new-entries run (29443–29462) sampled ~300 candidates plus probed ~25 extracted base
+words to find 20 entry-worthy headwords, and reported the selector's `seen_in_entry_count` had reached
+**0** — so the high-quality seen-in-entry lane that earlier runs leaned on is now empty, leaving only the
+polluted backlog (the oldest unprocessed block ~C06000–C16000 is the worst). Two **junk families to add
+to the pre-filter** beyond those above:
+- **Place-name readings mis-glossed as common words** — 尾張 (おわり) glossed "end, finish"; 三重 (みえ)
+  glossed "triple". These are proper nouns whose kana reading collides with a common word, so a naive
+  reading-based gloss is wrong; the pre-filter's proper-noun rule should catch the surface even when the
+  gloss looks lexical.
+- **Niche technical jargon** (尾椎, 腋窩, 網点, 受水槽) and **outright coinages / non-words / wrong glosses**
+  (権使, 個尊, 些道, 解退, 消痛, 自紹介, 内疎外内; 怒燥 どとう glossed "raging waves" — should be 怒涛;
+  アンパッサン glossed "ice cream sundae" — actually *en passant*).
+This reconfirms the <10%-signal rate and sharpens the throughput finding: with both the seen-in-entry lane
+empty **and** the fallback lane unusable, new-entries production now requires scanning hundreds and
+cherry-picking. Both the **pre-filter** (this item) and a **curator restock + `clean_up_candidates_list.md`
+purge** (Open Issues → candidate-pool quality) are needed before the next new-entries-mode run, otherwise it
+will be forced to mine transparent compounds.
+
 ## 26. accuracy-review prompt: embed the valid `formality` enum (formal/neutral/informal/vulgar)
 
 **Source**: 2026-06-20 routine new-entries self-check (gemini-2.5-flash, `tags` dimension)
@@ -862,6 +894,16 @@ o-go-prefix class, or the proposed `check_reading_charset.py`) would have caught
 174 paid calls to surface 21 FPs. This is the cleanest single-range demonstration of item 24's core trade — retire
 the screener's furigana-correctness role on reviewed ranges to deterministic checks and reserve the multi-model
 screener for never-reviewed ranges.
+
+**Update 2026-06-24 (truncation FP family reconfirmed on a fresh, never-reviewed range)**: A 2026-06-23
+accuracy-review furigana screen over **9240–9456** again produced the `review_runner.py` pair-extraction
+truncation false positives on long all-kanji compounds — 駐輪場→「ちゅうり」 (actual ちゅうりんじょう), 分岐点→
+「ぶんきて」 (ぶんきてん), 実体経済→「じった」 (じったいけいざい) — all flagged as "incomplete reading" while the
+entries hold the correct full readings (~8 verified, all FP). This is the same extraction bug (the screener is
+shown the reading cut off mid-word), now observed on a *never-reviewed* range rather than a polished one, so it is
+not range-state-dependent — it is a pure `review_runner.py` context-extraction defect. Reinforces the unchanged
+fix: **send the example/reading fields to the screener untruncated (or truncate only at furigana-pair
+boundaries)**, which would erase this dominant noise family on every range without any model change.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -978,6 +1020,28 @@ lands on an item with actual work and never burns a run on a scope-0 check. Opti
 the smaller change (a sort key in the selector) and needs no schema change to
 `backlog-queue.json`. Either prevents the manual-cascade waste and keeps systemic-fix runs
 landing on real work.
+
+## 29. `part_of_speech` display-field normalizer (driven by canonical `tags.pos`)
+
+**Source**: 2026-06-23 routine polish run (frontier 6250–6254)
+
+The free-text `part_of_speech` field (the human-readable POS string in the entry-page header)
+is inconsistent dictionary-wide — `adjective (i-adjective)` (98) vs `i-adjective` (256), and
+four spellings of suru-verb (`noun, suru verb` / `noun / suru-verb` / `noun, verb-suru` /
+`verb (suru)`) coexisting. This is display text only; the validated `metadata.tags.pos`
+(`adjective-i`, `verb-suru`, …) is canonical and is what the renderer/search use. See
+[Cleanup Backlog](cleanup-backlog.md) → Priority 22 for the entry-level pattern.
+
+**Suggested implementation**: a small read-only **detector** that lists every entry whose
+`part_of_speech` text is not the agreed canonical display string for its `tags.pos` value,
+plus a **normalizer** that rewrites the field to the canonical string (validated against the
+structured tag, `modified` bumped). Because `tags.pos` already encodes the category
+unambiguously, the detector is a deterministic table lookup and the transform is a safe
+text substitution — once the canonical `tags.pos → display-string` map is agreed with the
+curator (the one editorial choice). Read-only `--json` queue + a separate `--apply` pass,
+sibling to `check_artifacts.py`; this is what would convert Cleanup P22 from a prose item to
+a `batch_ready` systemic-fix item. Low risk (display-only), but it changes visible header
+text on thousands of pages, so spot-check after the canonical map is fixed.
 
 ## Related pages
 

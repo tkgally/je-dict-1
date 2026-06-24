@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-23 (harvest: P21 update — zero-inline-link band extends through 06246 [06231–06236 nouns + 06241–06246 〜的/idioms], now unbroken ~06150→06246; P20 update — dict-wide unknown-semantic at 8,698 flags, 8633–9239 long tail [496 tags/323 entries] has no 1:1 map, 102 migrated + 394 escalated to curator, recommend curated migration table + promoting unknown-semantic to a CI error [Tooling item 27]; P9 update — 06231 frontier kana-inside-group + nested-brace instances. Prior 2026-06-22: P21 ~06222–06230 nakaguro bullets)
+**Last updated**: 2026-06-24 (harvest: P20 update — free-form tag cohort continues unbroken into 9240–9456 [56%, 35 error-flags migrated, ~86 residual out-of-list]; **new Priority 22** — inconsistent free-text `part_of_speech` display field, normalize from the canonical `tags.pos`. Prior 2026-06-23: P21 band through 06246; P20 8,698 dict-wide flags, 8633–9239 long tail has no 1:1 map; P9 06231 kana-inside-group + nested braces)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -645,6 +645,21 @@ pre-commit gate** so new entries stop adding to the backlog (see
 [Tooling Backlog](tooling-backlog.md) → item 27). Without (b), the systemic-fix pass drains
 a backlog that new-entry creation keeps refilling.
 
+**Update 2026-06-24 (the free-form cohort continues unbroken into 9240–9456)**: A 2026-06-23
+accuracy-review over **9240–9456** ran the deterministic `VALID_SEMANTIC` scan and found
+**~121 of 217 entries (56%)** carrying out-of-list semantic tags — confirming the pre-March
+general-tier creation cohort runs contiguously above 9239 at the same ~55% density. The run
+**migrated the 35 error-severity-flagged entries** to in-list tags (5 track-and-field events
+`leisure`→`sports`; `place`/`manner`/`behavior`/`location`/`physical-state`→best in-list) and
+left **~86 entries still carrying out-of-list tags** (top residual offenders: `location`×11,
+`behavior`×10, `urban`×5, `state`/`manner`/`social`/`place`/`degree`×4 each). The observing
+run reiterates the standing recommendation: a **dictionary-wide `check_tag_drift` sweep over
+the whole pre-March general range** would clear this far faster than per-range accuracy-review,
+which migrates only the error-severity flags it surfaces each pass. This is the same
+`unknown-semantic-tags` backlog item; the per-run accuracy-review lane is keeping the frontier
+honest but cannot drain the dict-wide 8,698-flag backlog one ~200-entry range at a time
+(reinforces the [Tooling item 27](tooling-backlog.md) CI-gate sequencing).
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -813,6 +828,33 @@ frontier polishing.
 exists. Once it exists, this becomes a systemic-fix candidate with per-entry
 semantic verification (the TRANSITIVITY/Pattern/COMMON PATTERNS context must be
 read to supply the correct entry ID for each link).
+
+## Priority 22: Inconsistent free-text `part_of_speech` display field
+
+**Source**: 2026-06-23 routine polish run (frontier 6250–6254)
+
+The free-text `part_of_speech` field — the human-readable POS string shown in the
+entry-page header — is **wildly inconsistent dictionary-wide**, with many surface variants
+for the same grammatical category: e.g. `adjective (i-adjective)` (98 entries) vs
+`i-adjective` (256); and `noun, suru verb` / `noun / suru-verb` / `noun, verb-suru` /
+`verb (suru)` all coexisting for suru-verbs. This is a **display-text** inconsistency only:
+the validated structured tag `metadata.tags.pos` (e.g. `adjective-i`, `verb-suru`) is
+correct and canonical, and the renderer/search rely on `tags.pos`, not the free-text field.
+So there is no functional bug — but the entry-page headers read inconsistently across
+otherwise-parallel entries.
+
+**Suggested action**: a one-time normalization pass that maps the long tail of
+`part_of_speech` surface variants onto a **canonical display string per `tags.pos` value**
+(driven by the structured tag, which is the source of truth). Because `tags.pos` already
+encodes the category unambiguously, the mapping is deterministic — the only design choice is
+the canonical display wording (e.g. pick `i-adjective` over `adjective (i-adjective)`,
+`noun, suru verb` over the other three suru-verb spellings). This is **systemic-fix
+territory once a normalizer/detector exists** (see
+[Tooling Backlog](tooling-backlog.md) → item 29): the detector lists every entry whose
+`part_of_speech` text is not the canonical string for its `tags.pos`, and the transform is
+a safe text substitution validated against the structured tag. Low risk (display-only), and
+the canonical map should be agreed with the curator before a bulk run since it changes
+visible header text on thousands of pages.
 
 ## Informational: Pre-polished cohort around 00083–00090
 
