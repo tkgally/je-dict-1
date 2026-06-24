@@ -104,10 +104,11 @@
       "verify": "per-entry",
       "priority": 6,
       "batch_ready": true,
-      "status": "open",
+      "status": "resolved",
       "scope_estimate": 0,
       "severity": "error",
-      "notes": "Mostly resolved (P6) and guarded against regeneration; kept as a standing check. If any appear, confirm POS, then strip the spurious conjugation field and stray verb_class tag."
+      "resolved_date": "2026-06-24",
+      "notes": "RESOLVED: P6 one-time sweep (133 entries, 2026-06-08) plus the exact-enum verb-POS guard in add_conjugations.py make this self-healing. Detector re-confirmed 0 dictionary-wide on 2026-06-24; status flipped open->resolved (matching the politeness-unsupported standing-check precedent) so the selector advances instead of re-picking a clean item. check_tag_drift.py --check conjugation-no-verb-pos stays indexed as a standing guard; if any appear, confirm POS, then strip the spurious conjugation field and stray verb_class tag."
     },
     {
       "id": "tag-politeness-unsupported",
