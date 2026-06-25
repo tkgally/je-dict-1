@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-25] maintenance | Observation harvest (P20 ~9657–9740, new item 30 sweep-403, items 20/28, 29452 follow-up) + metrics ninth refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a found 0 open PRs to rescue. Sweep (`sweep-stranded-prs.py`) again exited on HTTP 403 hitting api.github.com directly under the agent proxy — but §0a's MCP rescue check had already confirmed 0 open PRs, so the sweep was a no-op; filed the 403 as Tooling new item 30 (the strand-sweep net is silently down from the Routine environment). Lock acquired cleanly.
+
+**Activities**:
+- [F/Harvest] Processed all 6 unharvested observations from the 2026-06-24 routine polish/new-entries/systemic-fix runs and the 2026-06-25 routine polish run:
+  - **Cleanup Backlog P20 update 2026-06-25** — a denser daily-life/errands sub-batch at **~9657–9740** (48/84 = 57% out-of-taxonomy tags: `daily_life` underscore form + restaurant/delivery/medical/housing/payment/service/lifestyle/real_estate/device/phone), migrated this run; recommended a confirming `check_tag_drift.py --check unknown-semantic` sweep over **9600–9800** (same `unknown-semantic-tags` item; the cohort is themed in contiguous blocks).
+  - **Tooling Backlog item 20 update (fourteenth/fifteenth confirmation)** — two more priority-lane no-op runs + the new diagnosis that the 30-day recency skip and the `score_note_quality.py` scorer bug now *stack* against the lane (the top band is basic-tier entries modified <30 days ago, so the skip thins the eligible set down to a handful that are *also* no-ops). Binding fix unchanged (scorer-bug pair) + a generation-time recency/coverage down-weight.
+  - **Tooling Backlog item 28 update (second confirmation)** — a 2026-06-24 systemic-fix run again landed on scope-0 `tag-conjugation-no-verb-pos` and flipped it to `resolved` in `backlog-queue.json`; `tag-proverb-idiom-mismatch` remains open/scope-0 (next latent no-op). Reinforces the selector skip-scope-0 / mark-guards-resolved fix.
+  - **Tooling Backlog new item 30** — `sweep-stranded-prs.py` 403 against api.github.com under the agent proxy; the strand-sweep safety net silently never fires from the Routine env. Fix: route through HTTPS_PROXY/MCP, or at least fail loudly.
+  - **Entry Follow-ups** — 29452_sarujin 猿人 created with reading さるじん vs standard えんじん (parallel to 原人/旧人/新人); candidate C22059 added the correct reading — curator to reconcile (reading is ID/filename-romaji-affecting).
+- [H/Metrics trend] **Ninth refresh** of `topics/quality-metrics.md` (14 new metrics lines, 118→132 runs / ~5,726 adjudicated flags). Added the 2026-06-23 full-day, 2026-06-24, and 2026-06-25-partial run tables; new 132-run total. **Headline: the curator-escalation event ended** — runs 119–132 escalated **0** flags (vs 635 in runs 104–118); the spike was a two-day, two-sweep property of the no-1:1-map 8633–9239 band. On the 9240–9800 general-tier cohort the `tags` dimension reverted to fix-mode (apply-among-decided 111/149 = 74.5%; all-dimension 119/207 = 57%). Furigana screening stayed noise (1/45). Review queue set a new floor at 14,915 (2026-06-24). No metric moving the wrong way → no new `[pattern]` observation.
+- [A/Sync] Refreshed `project/overview.md` General-tier count (~26,466 of 29,269 total as of 2026-06-25).
+
 ## [2026-06-24] maintenance | Observation harvest (P20 9240–9456, new P22 + item 29 part_of_speech, items 20/23/24)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

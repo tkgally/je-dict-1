@@ -1,6 +1,6 @@
 # Cleanup Backlog
 
-**Last updated**: 2026-06-24 (harvest: P20 update — free-form tag cohort continues unbroken into 9240–9456 [56%, 35 error-flags migrated, ~86 residual out-of-list]; **new Priority 22** — inconsistent free-text `part_of_speech` display field, normalize from the canonical `tags.pos`. Prior 2026-06-23: P21 band through 06246; P20 8,698 dict-wide flags, 8633–9239 long tail has no 1:1 map; P9 06231 kana-inside-group + nested braces)
+**Last updated**: 2026-06-25 (harvest: P20 update — denser daily-life/errands sub-batch at ~9657–9740 [48/84 = 57% invalid tags, migrated; recommend a confirming 9600–9800 `check_tag_drift` sweep]. Prior 2026-06-24: P20 free-form cohort into 9240–9456 [56%, ~86 residual]; **new Priority 22** — inconsistent free-text `part_of_speech` display field; 2026-06-23: P21 band through 06246; P20 8,698 dict-wide flags, 8633–9239 long tail has no 1:1 map; P9 06231 kana-inside-group + nested braces)
 
 Concrete cleanup work items surfaced during comprehensive-polish sessions. Each item describes a systemic pattern that affects multiple entries and could be addressed by a dedicated batch pass.
 
@@ -661,6 +661,18 @@ which migrates only the error-severity flags it surfaces each pass. This is the 
 `unknown-semantic-tags` backlog item; the per-run accuracy-review lane is keeping the frontier
 honest but cannot drain the dict-wide 8,698-flag backlog one ~200-entry range at a time
 (reinforces the [Tooling item 27](tooling-backlog.md) CI-gate sequencing).
+
+**Update 2026-06-25 (the cohort reaches a denser daily-life/errands sub-batch at ~9657–9740)**: A 2026-06-24
+routine polish run reported a distinct, even-denser pocket of the same free-form creation cohort: the
+**~09689–09740 daily-life/errands batch** (delivery, dining, medical, housing, mobile themes) was created with an
+ad-hoc out-of-taxonomy semantic vocabulary, and **48 of 84 entries in 9657–9740 (57%)** carried invalid tags —
+`daily_life` underscore form plus `restaurant`/`delivery`/`medical`/`housing`/`payment`/`service`/`lifestyle`/
+`real_estate`/`device`/`phone`. The run migrated that batch to the controlled vocabulary, but the observing run
+flagged that **adjacent ID ranges from the same thematic creation batch likely carry the same drift** and
+recommended a confirming `check_tag_drift.py --check unknown-semantic` sweep over **9600–9800**. This is the same
+`unknown-semantic-tags` backlog item — a further data point that the pre-March general-tier cohort is themed in
+contiguous blocks (each errands/daily-life sub-batch shares one ad-hoc tag vocabulary), which is exactly the shape
+a dictionary-wide `check_tag_drift` migration (vs. per-range accuracy-review) is best suited to drain.
 
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
