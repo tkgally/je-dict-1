@@ -211,6 +211,21 @@ instance reconfirms the 06xxx Jan-2026 batch carries these in its notes and that
 **06000–06400 mechanical sweep** (validated vs. `word_id_lookup.json`, suggested-action #2)
 would clean them along with the o-prefix/pure-kana wrappers already noted at this frontier.
 
+**Update 2026-06-25 (06000–06400 slice swept)**: A routine systemic-fix run worked the
+predicted scoped slice end-to-end, per-entry verified, fixing **18 instances across 16
+entries** (`detect` total 1565 → 1547): pure-kana wrappers around katakana loanwords
+(`{リーダー|りーだー}`, `{ボランティア|ぼらんてぃあ}`, `{タバコ|たばこ}`, `{メガネ|めがね}`,
+`{ブラッドムーン|…}`, `{サインポール|…}`, `{タッチ|たっち}`, `{おかわり|おかわり}`,
+`{すぐ|すぐ}`, `{ばさみ|はさみ}`) de-wrapped to bare kana; お/ご-prefix wrappers
+repositioned (`{お問|おと}`→`お{問|と}`, `{ご飯|ごはん}`→`ご{飯|はん}`); over-wrapped
+okurigana/compounds split with the correct rendaku reading (`{数え|かぞえ}`→`{数|かぞ}え`,
+`{どん底|どんぞこ}`→`どん{底|ぞこ}`, `{流れ星|ながれぼし}`→`{流|なが}れ{星|ぼし}`,
+`{横ずれ断層|よこずれだんそう}`→`{横|よこ}ずれ{断層|だんそう}`). Inline-link surfaces were
+preserved (links resolve by explicit `：entry_id`), validation and furigana-coverage stayed
+clean, and a furigana self-check screened the changed IDs with **0 flags**. The item stays
+**open** — it is dictionary-wide (remaining ~1546 across the o-go-prefix/pure-kana/over-wrapped
+sub-patterns); the next ready slice is 06400+ and the larger pre-06000 backlog.
+
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
