@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-24",
+  "updated": "2026-06-25",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -135,9 +135,9 @@
       "priority": 8,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 1525,
+      "scope_estimate": 1546,
       "severity": "info",
-      "notes": "Mostly cosmetic (canonical form: お{酒|さけ}, {若|わか}い). Lower priority. Verify each rewrap against build/word_id_lookup.json so inline-link lookups still resolve."
+      "notes": "Mostly cosmetic (canonical form: お{酒|さけ}, {若|わか}い). Lower priority. Verify each rewrap against build/word_id_lookup.json so inline-link lookups still resolve. 2026-06-25 routine swept the 06000-06400 slice (18 instances / 16 entries: pure-kana katakana de-wraps, o/go-prefix repositions, over-wrapped okurigana splits incl. rendaku readings ぞこ/ぼし); detector total 1565->1547. Next ready slice: 06400+ and the larger pre-06000 backlog."
     },
     {
       "id": "tag-sole-general",
