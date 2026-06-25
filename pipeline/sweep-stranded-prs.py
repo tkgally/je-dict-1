@@ -22,14 +22,20 @@ Designed to be run as the first step of a Routine session so stranded
 branches don't accumulate. Idempotent: a second run sees no stranded
 PRs left to close.
 
-Requires GITHUB_TOKEN in the environment.
+Requires GITHUB_TOKEN and direct api.github.com access. In the Routine / web
+execution environment direct REST is blocked (HTTP 403 "GitHub access is not
+enabled for this session"); there this script is a clean no-op and the Routine
+sweeps via the GitHub MCP server instead (CLAUDE.md -> "Sweep stranded PRs via
+MCP", routine2.md §0b). It still works in interactive sessions where a real
+token + direct REST are available.
 
 Usage:
   python3 pipeline/sweep-stranded-prs.py            # close + delete
   python3 pipeline/sweep-stranded-prs.py --dry-run  # report only
 
 Exit codes:
-  0  ran to completion (zero or more PRs closed)
+  0  ran to completion (zero or more PRs closed), OR direct REST is blocked here
+     (no-op — message on stderr)
   3  GITHUB_TOKEN missing or progress.txt unreadable
 """
 
@@ -50,6 +56,16 @@ PROGRESS_RE = re.compile(r"^\s*next:\s*(\d{5})\s*$", re.MULTILINE)
 HEAD_PREFIX = "claude/"
 
 
+class DirectApiBlocked(Exception):
+    """The agent proxy refused a direct GitHub REST call (HTTP 403 policy).
+
+    In the Routine / web execution environment, direct api.github.com access is
+    not provided — the proxy returns 403 "GitHub access is not enabled for this
+    session". Only the GitHub MCP server reaches GitHub there, so the Routine
+    runs this sweep via MCP instead (CLAUDE.md → "Sweep stranded PRs via MCP").
+    """
+
+
 def gh_api(path, method="GET", data=None):
     token = os.environ.get("GITHUB_TOKEN")
     if not token:
@@ -65,11 +81,22 @@ def gh_api(path, method="GET", data=None):
     if body is not None:
         headers["Content-Type"] = "application/json"
     req = urllib.request.Request(url, data=body, headers=headers, method=method)
-    with urllib.request.urlopen(req) as resp:
-        text = resp.read().decode()
-        if resp.status == 204 or not text:
-            return None
-        return json.loads(text)
+    try:
+        with urllib.request.urlopen(req) as resp:
+            text = resp.read().decode()
+            if resp.status == 204 or not text:
+                return None
+            return json.loads(text)
+    except urllib.error.HTTPError as e:
+        if e.code == 403:
+            err_body = ""
+            try:
+                err_body = e.read().decode()
+            except Exception:
+                pass
+            if "access is not enabled" in err_body:
+                raise DirectApiBlocked(err_body) from None
+        raise
 
 
 def get_progress_next_from_main():
@@ -172,4 +199,16 @@ def main():
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    try:
+        sys.exit(main())
+    except DirectApiBlocked:
+        print(
+            "sweep-stranded-prs.py: direct GitHub REST is blocked here (HTTP 403 "
+            "'GitHub access is not enabled for this session'); this script is a "
+            "no-op in this environment, not an error.\n"
+            "The Routine sweeps stranded PRs via the GitHub MCP server instead — "
+            "see CLAUDE.md → 'Sweep stranded PRs via MCP' and routine2.md §0b. "
+            "No action taken.",
+            file=sys.stderr,
+        )
+        sys.exit(0)

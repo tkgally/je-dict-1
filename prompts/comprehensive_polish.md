@@ -6,24 +6,20 @@ This prompt is designed to be run repeatedly on a schedule. Each invocation pick
 
 ## Pre-flight: sweep stranded PRs
 
-**Run this as the first step of every session, before you read any entry files or do any other work.**
+**Run this as the first step of every session, before you read any entry files or do any other work.** (When this prompt runs as the Routine's `polish` mode, the sweep already happened in `routine2.md` §0 — skip it here.)
 
-```bash
-python3 pipeline/sweep-stranded-prs.py
-```
+Perform the stranded-PR sweep **via MCP**, as described in `CLAUDE.md` → "Sweep stranded PRs via MCP": list open `claude/*` PRs (`mcp__github__list_pull_requests`), and for each, take the maximum entry ID among the `entries/.../NNNNN_*.json` files it touches (`mcp__github__pull_request_read` `method: "get_files"`); if that maximum is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value, the PR is superseded — comment (`mcp__github__add_issue_comment`) and close it (`mcp__github__update_pull_request` `state: "closed"`). PRs that don't touch entries, or that include any entry at or above the cursor, are left untouched.
 
-The script lists open PRs on `claude/*` branches, checks which entry files each one touched, and closes (with an explanatory comment) any PR whose maximum entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value on main. It also deletes the head branch via the GitHub API. PRs that don't touch entries, or that include any entry at or above the cursor, are left untouched.
+This makes the Routine self-healing: if a previous session ended before reaching the merge step, its now-obsolete PR gets cleaned up when the next session starts. Checking is cheap (~1 MCP call per open PR).
 
-This makes the Routine self-healing: if a previous session ended before reaching the merge step, its now-obsolete PR and branch get cleaned up automatically when the next session starts. Don't skip this step even if you don't think there are any stranded PRs — checking is cheap (~1 API call per open PR).
-
-The script is idempotent and safe to run any time during the session, but running it first ensures the cleanup happens even if the rest of the session bails out.
+**Do not run `pipeline/sweep-stranded-prs.py`** — direct GitHub REST returns HTTP 403 in the Routine/web environment, so the script is a no-op there (it now exits cleanly with a pointer to this MCP procedure). It still works in interactive sessions where a real token + direct REST are available.
 
 ## Per-session budget
 
 This prompt **errs on the side of doing more, not less**. Past sessions have stopped at 12% context use, leaving most of the available capacity unused.
 
 - **Target: keep polishing until you've used roughly 60% of your context window**, then start wrapping up. A typical session should process **20–25 entries**, not 3–5. If you've finished 10 entries and context still feels light, keep going.
-- **Why 60% and not higher**: the wrap-up phase (build, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) consumes a meaningful slice of context, and review-fix-up rounds after opening the PR can eat more. Stranded PRs from previous Routine runs were caused by sessions running out of budget mid-merge. Leaving ~40% headroom is what makes the merge step reliable.
+- **Why 60% and not higher**: the wrap-up phase (build, push, PR creation, up-to-~8-minute MCP CI-poll wait, merge call) consumes a meaningful slice of context, and review-fix-up rounds after opening the PR can eat more. Stranded PRs from previous Routine runs were caused by sessions running out of budget mid-merge. Leaving ~40% headroom is what makes the merge step reliable.
 - **Stop earlier than 60% if** tool outputs are getting truncated, you've read several large files, or you've already done a round of post-PR fix-ups. Better to wrap up with one fewer entry than to leave a stranded PR.
 - **Take stock every 5 entries.** Briefly note (to yourself) how full context feels and decide: continue at full pace, slow down, or wrap up. Default to wrapping up if you're already past 50%.
 - **Hard cap: 25 entries per session.** Wrap up cleanly at 25 even if context is still light.
@@ -189,14 +185,15 @@ Before starting, glance at `planning/wiki/index.md` for any wiki page relevant t
 
 6. **Create the PR, wait for CI, then merge it yourself.** This is the step that previously broke the hourly Routine — sessions created PRs but the merge never happened, so progress on `main` never advanced and subsequent sessions redid the same range. **Do not stop after creating the PR.** The full sequence (details in `CLAUDE.md` → "End-of-session PR and merge workflow"):
 
-   **Atomic-tail rule.** After `git push`, the rest of the session is exactly three tool calls in this order: `mcp__github__create_pull_request` → `Monitor` running `pipeline/wait-for-pr-checks.sh` → on exit 0, `mcp__github__merge_pull_request` with `merge_method: "squash"`. Do not interleave any other tool. If you find yourself wanting to read an entry file, edit one, or re-run a build script between push and merge, stop — log the concern and proceed to merge instead.
+   **Atomic-tail rule.** After `git push`, the rest of the session is exactly: `mcp__github__create_pull_request` → poll `mcp__github__pull_request_read` (`method: "get_check_runs"`) until green, spacing polls with a backgrounded `sleep 30` → `mcp__github__merge_pull_request` with `merge_method: "squash"`. Do not interleave any other tool. If you find yourself wanting to read an entry file, edit one, or re-run a build script between push and merge, stop — log the concern and proceed to merge instead.
 
    **Routine / unattended (default — `gh` is not authorized):**
    1. Call `mcp__github__create_pull_request` (`owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus title and body). Note the PR number from the response URL.
-   2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number> 30` via the `Monitor` tool — passing `30` sets the poll interval to 30 s (the default of 15 s emits a notification line every 15 s, which burns extra context during the 3–6 min that GitHub sometimes takes just to start the first check-run). CI for this repo finishes in ~60 s once it starts; the script gives up after 10 minutes.
-   3. **Merge** based on the helper's exit code:
-      - **Exit 0 (all checks green)**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is now done.
-      - **Exit non-zero**: leave the PR open, add a brief sentence to the session log explaining what the helper reported (failure / timeout / no checks), and stop. The curator will investigate.
+   2. **Wait for CI by polling check-runs over MCP** (`pipeline/wait-for-pr-checks.sh` returns HTTP 403 in this environment — do not use it; full loop in `CLAUDE.md` → "MCP path" step 5). Call `mcp__github__pull_request_read` with `method: "get_check_runs"` (**not** `get_status`, which is blind to Actions checks and always reads `pending` here). Classify: *green* = `total_count >= 1` and every run `completed` with `conclusion` `success`/`neutral`/`skipped`; *failed* = any other completed conclusion; *pending* = otherwise. While pending, wait with a backgrounded `sleep 30` (Bash `run_in_background: true`, since foreground `sleep` is disabled) and re-poll, up to ~16 times (~8 min — CI often takes 3–6 min just to start, then ~60 s).
+   3. **Merge** based on the result:
+      - **green**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is now done.
+      - **failed**: leave the PR open, add a brief sentence to the session log naming the failed check, and stop. The curator will investigate.
+      - **still pending at the cap**: leave the PR open and stop; the next run's §0a rescue merges it once green.
    4. **Do not** `git checkout main`, **do not** delete the feature branch — the session is running on that branch, and the repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
 
    Do not call `mcp__github__enable_pr_auto_merge` — it requires the PR to already be in a "clean" mergeable state, which is not true immediately after pushing, so it usually rejects. Wait + merge is the reliable path.

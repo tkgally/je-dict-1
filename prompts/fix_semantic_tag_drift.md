@@ -204,8 +204,9 @@ block the wrap-up — note and continue if it errors.
    self-check outcome, and the next cursor value.
 4. **Build, commit, PR, merge** — the standard atomic tail (`routine2.md` §7, MCP
    path): `make build` once → `git add -A && git commit` → push → create PR →
-   `pipeline/wait-for-pr-checks.sh <pr> 30 1200` via the **Monitor** tool → on exit
-   0 squash-merge. Leave the PR open on any non-green result; the next run's §0a
+   poll `mcp__github__pull_request_read` `method: "get_check_runs"` until green
+   (backgrounded `sleep 30` between polls; `wait-for-pr-checks.sh` 403s here) →
+   squash-merge. Leave the PR open on any non-green result; the next run's §0a
    rescue completes it.
 
 ---

@@ -49,10 +49,13 @@ previous run's CI-timeout strand instead of leaving it for the curator):
    `repo: "je-dict-1"`, `state: "open"`).
 2. For each open PR whose head branch starts with `claude/` AND whose title
    starts with `routine`: fetch its state with `mcp__github__pull_request_read`
-   (methods `get` and `get_status`). **Rescue it** — call
+   (methods `get` and `get_check_runs` — use `get_check_runs`, **not**
+   `get_status`, which is blind to GitHub Actions check-runs and always reports
+   `state: "pending"`, `total_count: 0` here). **Rescue it** — call
    `mcp__github__merge_pull_request` with `merge_method: "squash"` — only if
    ALL of the following hold:
-   - every check on its head SHA concluded **successfully**;
+   - `get_check_runs` shows `total_count >= 1` and every run `completed` with a
+     `conclusion` of `success`, `neutral`, or `skipped`;
    - the PR is mergeable (no conflicts with main);
    - no human has commented on or reviewed the PR (a curator comment means
      the curator owns it now — leave it).
@@ -64,17 +67,22 @@ previous run's CI-timeout strand instead of leaving it for the curator):
 4. Anything not rescuable (failed checks, conflicts, human comments): leave it
    open and mention it in your session log.
 
-**0b. Sweep and lock** (same as v1):
+**0b. Sweep and lock:**
 
-```bash
-python3 pipeline/sweep-stranded-prs.py
-python3 pipeline/routine_lock.py acquire --session "$(git rev-parse --abbrev-ref HEAD)"
-```
-
-- The sweep closes obsolete `claude/*` PRs whose entry range is already on main.
-- If `routine_lock.py acquire` exits non-zero, another Routine run appears
-  active — **stop now**. Otherwise you hold the lock; release it at the very
-  end (§7).
+- **Sweep superseded strands via MCP.** Perform the stranded-PR sweep described
+  in `CLAUDE.md` → "Sweep stranded PRs via MCP": reuse the open-PR list from §0a,
+  and for any `claude/*` PR you did **not** rescue, close it (with an explanatory
+  comment via `mcp__github__add_issue_comment` + `mcp__github__update_pull_request`
+  `state: "closed"`) when the maximum entry ID among the entry files it touches is
+  below `polishing/tasks/comprehensive/progress.txt`'s `next:` value. **Do not run
+  `pipeline/sweep-stranded-prs.py`** — direct GitHub REST 403s in this environment,
+  so the script is a no-op here; the MCP sweep is the working safety net.
+- **Acquire the lock:**
+  ```bash
+  python3 pipeline/routine_lock.py acquire --session "$(git rev-parse --abbrev-ref HEAD)"
+  ```
+  If it exits non-zero, another Routine run appears active — **stop now**.
+  Otherwise you hold the lock; release it at the very end (§7).
 
 ## 1. Select this run's mode
 
@@ -236,18 +244,20 @@ weekly wiki trend review) a real time series instead of impressions.
       `repo: "je-dict-1"`, `head: <branch>`, `base: "main"`, title
       `routine(<mode>): …`, body summarizing the run incl. the §4 outcome).
       Note the PR number.
-   2. Run `pipeline/wait-for-pr-checks.sh <pr_number> 30 1200` via the
-      **Monitor** tool (30 s polls, 20-minute ceiling — the 10-minute default
-      stranded a test-day PR whose CI was merely slow). Exit 0 = all green;
-      1 = a check failed; 2 = timeout; 3 = auth/API error; 4 = no checks
-      appeared.
-   3. **Exit 0** → `mcp__github__merge_pull_request` with
-      `merge_method: "squash"`.
-      **Exit 2** → run the helper once more (`… 30 300`); if it exits 0,
-      merge; otherwise leave the PR open — the next run's §0a rescue will
-      merge it once green.
-      **Exit 1/3/4** → leave the PR open, add a one-line note to the session
-      log explaining what the helper reported, and stop.
+   2. **Wait for CI by polling check-runs over MCP** (full loop in `CLAUDE.md`
+      → "MCP path" step 5; `pipeline/wait-for-pr-checks.sh` 403s here and is not
+      used). Call `mcp__github__pull_request_read` with `method: "get_check_runs"`
+      (**not** `get_status`, which is blind to Actions checks). Classify: *green*
+      = `total_count >= 1` and every run `completed` with `conclusion`
+      `success`/`neutral`/`skipped`; *failed* = any other completed conclusion;
+      *pending* = otherwise. While pending, wait with a backgrounded `sleep 30`
+      (Bash `run_in_background: true`, since foreground `sleep` is disabled) and
+      re-poll, up to ~16 times (~8 min).
+   3. **green** → `mcp__github__merge_pull_request` with `merge_method: "squash"`.
+      **failed** → leave the PR open, add a one-line note to the session log
+      naming the failed check, and stop.
+      **still pending at the cap** → leave the PR open and stop; the next run's
+      §0a rescue merges it once green.
    - Do **not** `mcp__github__enable_pr_auto_merge` (it rejects on the
      `unstable` state right after creation). Do **not** `git checkout main` or
      delete the branch — the session is on that branch; the repo's
@@ -443,8 +453,8 @@ to tune which dimensions deserve trust, consensus checks, or retirement.
 
 ```bash
 # Pre-flight
-mcp__github__list_pull_requests                         # §0a rescue check (MCP)
-python3 pipeline/sweep-stranded-prs.py                  # §0b sweep
+mcp__github__list_pull_requests                         # §0a rescue check + §0b sweep source (MCP)
+# §0b sweep: for un-rescued claude/* PRs, get_files → close superseded via MCP (sweep-stranded-prs.py 403s here)
 python3 pipeline/routine_lock.py acquire --session X    # §0b lock (exit 1 = stop)
 python3 pipeline/routine_next.py                        # §1 pick mode (persists state)
 python3 pipeline/routine_next.py --explain              # why this mode (no persist)
@@ -457,6 +467,7 @@ python3 pipeline/metrics_snapshot.py --mode M --changed N ...         # §5 (or 
 
 # Wrap-up
 make build                                              # once, at wrap-up (skip wiki-only)
-pipeline/wait-for-pr-checks.sh <pr> 30 1200             # via Monitor; retry once on timeout
+mcp__github__pull_request_read method=get_check_runs    # §7 CI gate: poll until green (Bash run_in_background sleep 30 between polls)
+mcp__github__merge_pull_request merge_method=squash     # §7 merge once green
 python3 pipeline/routine_lock.py release --session X    # at the very end
 ```

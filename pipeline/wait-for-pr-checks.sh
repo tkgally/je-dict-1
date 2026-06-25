@@ -1,6 +1,15 @@
 #!/usr/bin/env bash
 # Poll GitHub for completion of CI check-runs on a PR's head SHA.
-# Designed to be invoked via the Monitor tool from a Routine session: stdout
+#
+# NOTE: this helper needs direct api.github.com access, which is BLOCKED in the
+# Routine / web execution environment (HTTP 403 "GitHub access is not enabled
+# for this session"). There the Routine polls CI via the GitHub MCP server
+# instead — mcp__github__pull_request_read method=get_check_runs (CLAUDE.md ->
+# "MCP path" step 5). This script is for interactive sessions where a real token
+# + direct REST work; in the blocked environment it now exits 3 immediately with
+# a pointer rather than looping.
+#
+# Designed to be invoked via the Monitor tool from such a session: stdout
 # emits one status line per poll, and the exit code reports the final state.
 #
 # Usage: wait-for-pr-checks.sh <pr_number> [interval_seconds] [timeout_seconds]
@@ -37,6 +46,23 @@ curl_gh() {
        -H "X-GitHub-Api-Version: 2022-11-28" \
        "$@"
 }
+
+# Direct GitHub REST is blocked in the Routine / web execution environment: the
+# agent proxy returns HTTP 403 "GitHub access is not enabled for this session".
+# Detect that up front and exit 3 with a clear pointer rather than looping or
+# emitting a confusing "could not resolve SHA". There the Routine polls CI via
+# the GitHub MCP server instead — mcp__github__pull_request_read with
+# method=get_check_runs (see CLAUDE.md -> "MCP path" step 5).
+PROBE=$(curl -sS -o /dev/null -w '%{http_code}' \
+     -H "Authorization: Bearer $GITHUB_TOKEN" \
+     -H "Accept: application/vnd.github+json" \
+     "$API" 2>/dev/null || true)
+if [[ "$PROBE" == "403" ]]; then
+  echo "error: direct GitHub REST is blocked here (HTTP 403 'GitHub access is not enabled for this session')." >&2
+  echo "This helper does not work in the Routine/web environment; poll CI via MCP:" >&2
+  echo "  mcp__github__pull_request_read method=get_check_runs  (see CLAUDE.md -> 'MCP path')." >&2
+  exit 3
+fi
 
 SHA=$(curl_gh "$API/pulls/$PR" | jq -r '.head.sha')
 if [[ -z "$SHA" || "$SHA" == "null" ]]; then
