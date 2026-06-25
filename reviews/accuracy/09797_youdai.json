@@ -1,0 +1,24 @@
+{
+  "entry_id": "09797_youdai",
+  "headword": "{容態|ようだい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-25T09:29:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word specifically referring to a patient's condition.",
+      "suggestion": "health"
+    }
+  ]
+}

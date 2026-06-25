@@ -1,0 +1,24 @@
+{
+  "entry_id": "09775_kasabuta",
+  "headword": "かさぶた",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-25T09:28:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "A scab is not a body part; it's a temporary formation on the skin during healing.",
+      "suggestion": "health"
+    }
+  ]
+}

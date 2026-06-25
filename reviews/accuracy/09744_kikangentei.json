@@ -1,0 +1,24 @@
+{
+  "entry_id": "09744_kikangentei",
+  "headword": "{期間|きかん}{限定|げんてい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-25T09:27:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'promotion' is not in the valid tag list.",
+      "suggestion": "shopping"
+    }
+  ]
+}

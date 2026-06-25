@@ -1,0 +1,31 @@
+{
+  "entry_id": "09812_shachihata",
+  "headword": "シャチハタ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-25T09:29:38Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'stationery'",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'administrative'",
+      "suggestion": "society"
+    }
+  ]
+}
