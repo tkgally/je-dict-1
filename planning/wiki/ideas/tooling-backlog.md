@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-24 (harvest: item 20 — twelfth/thirteenth no-op confirmation + recency-filter reinforcement; item 23 — seen-in-entry lane now empty + new junk families [place-name misglosses 尾張/三重, niche jargon, coinages]; item 24 — truncation FP family reconfirmed on never-reviewed 9240–9456; **new item 29** — `part_of_speech` display-field normalizer driven by canonical `tags.pos`. Prior 2026-06-23: item 20 tenth/eleventh, item 21 fifth truncation, item 24, new items 27/28)
+**Last updated**: 2026-06-25 (harvest: item 20 — fourteenth/fifteenth no-op confirmation + the recency-skip/scorer-bug-stacking diagnosis; item 28 — second confirmation [2026-06-24 systemic-fix run again landed on scope-0 `tag-conjugation-no-verb-pos`, flipped it to `resolved`; `tag-proverb-idiom-mismatch` still open/scope-0]; **new item 30** — `sweep-stranded-prs.py` 403 against api.github.com under the agent proxy [strand-sweep safety net silently never fires]. Prior 2026-06-24: item 20 twelfth/thirteenth + recency-filter, item 23 seen-in-entry lane empty + junk families, item 24 truncation FP on 9240–9456, **new item 29** `part_of_speech` normalizer)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -651,6 +651,21 @@ modified within the last ~30 days** so recently-polished entries stop re-surfaci
 priority lane. No new diagnosis — twelfth/thirteenth consecutive no-op, pure reinforcement
 that the scorer is anti-correlated with real need on the closed basic/core tiers.
 
+**Update 2026-06-25 (fourteenth/fifteenth confirmation — the recency filter and the scorer bug now stack against the lane)**:
+Two more routine polish runs (2026-06-24, 2026-06-25) hit the same no-op wall, and the 2026-06-25 run added a
+sharper diagnosis of **how the recency skip and the scorer bug interact to defeat the lane**: the
+2026-06-24-generated `priority/notes.txt` is dominated at the top by already-fully-polished **basic-tier
+adjectives/particles** (03095 など, 02947 低い, 00025 小さい, 00533 遅い, だって, etc.) scoring ~50–57 purely from
+POS-template conformance, and **most of that top band was modified within the last 30 days**, so routine2.md §2's
+30-day skip rule *skips most of them* — and the few that survive the skip (だって, 低い, 遅い, 隣) come back needing
+zero changes anyway. The two filters are thus stacked against the lane: the scorer keeps thoroughly-polished basic
+entries perennially at the top (scorer-bugs #1/#2), and the 30-day skip then thins the eligible set down to a
+handful that are *also* no-ops. The fix ordering is unchanged and reinforced — the binding fix is still the
+`score_note_quality.py` scorer-bug pair (strip inline-link baseforms before the bare-kanji check; broaden the
+`required_sections` matcher), and a **generation-time recency/coverage down-weight in `prioritize_polishing.py`**
+(rank by staleness, not just length) would surface genuinely-stale entries instead of recently-polished basic ones.
+Fifteenth consecutive priority-lane no-op session.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -1021,6 +1036,18 @@ the smaller change (a sort key in the selector) and needs no schema change to
 `backlog-queue.json`. Either prevents the manual-cascade waste and keeps systemic-fix runs
 landing on real work.
 
+**Update 2026-06-24 (second confirmation — a systemic-fix run again landed on a scope-0 standing check)**: A
+2026-06-24 routine systemic-fix run was again handed `tag-conjugation-no-verb-pos` (priority 6), a scope-0 standing
+check whose detector has returned 0 since the 2026-06-08 P6 sweep + the `add_conjugations.py` regeneration guard.
+The run **flipped that item to `status: resolved`** in `backlog-queue.json` (the read-only detector stays indexed
+as a regression guard) so it stops topping the open/`batch_ready` queue — but the observing run noted the **same
+latent no-op risk still applies to `tag-proverb-idiom-mismatch`** (priority 12, also scope-0/`status: open`/standing
+check). This is the convention half of the fix in action (mark guarded clean checks `resolved` rather than `open`)
+and is exactly why option (a)/(b) above is still worth shipping: a selector rule that skips open items whose detector
+currently returns 0 would make the convention self-enforcing instead of relying on each systemic-fix run to notice
+and hand-flip. Confirmed in `backlog-queue.json`: `tag-conjugation-no-verb-pos` is now `resolved` (scope 0);
+`tag-proverb-idiom-mismatch` remains `open` (scope 0) and is the next one a systemic-fix run could waste a turn on.
+
 ## 29. `part_of_speech` display-field normalizer (driven by canonical `tags.pos`)
 
 **Source**: 2026-06-23 routine polish run (frontier 6250–6254)
@@ -1042,6 +1069,33 @@ curator (the one editorial choice). Read-only `--json` queue + a separate `--app
 sibling to `check_artifacts.py`; this is what would convert Cleanup P22 from a prose item to
 a `batch_ready` systemic-fix item. Low risk (display-only), but it changes visible header
 text on thousands of pages, so spot-check after the canonical map is fixed.
+
+## 30. `sweep-stranded-prs.py` fails with HTTP 403 against api.github.com under the agent proxy
+
+**Source**: 2026-06-25 routine pre-flight (wiki run)
+
+The Routine's §0b pre-flight step `python3 pipeline/sweep-stranded-prs.py` **fails with HTTP 403** in the
+agent-proxy execution environment. The traceback is in `get_progress_next_from_main()` →
+`gh_api("/contents/{PROGRESS_PATH}?ref=main")`: the script makes a **direct `urllib` request to
+`api.github.com`**, which the agent proxy blocks (the proxy only permits the routed MCP/`HTTPS_PROXY` paths).
+`GITHUB_TOKEN` is present (len 40), so this is a transport/routing problem, not an auth-credential problem —
+the same 403 the proxy README documents for tools that bypass it.
+
+**Why it matters**: the sweep is the project's self-healing mechanism for stranded `claude/*` PRs (CLAUDE.md →
+"If a Routine session does end up bailing out before merging … the next session's pre-flight call to
+`sweep-stranded-prs.py` will close the now-obsolete PR and delete its branch"). If the script can never reach
+GitHub from the Routine environment, that safety net **silently never fires** — stranded PRs would accumulate
+unnoticed. It was a no-op on 2026-06-25 only because there happened to be zero open PRs (the §0a MCP rescue check
+confirmed this independently), so no strand was masked *this* run — but a real strand would be.
+
+**Suggested fix (any of)**: (a) route the script's GitHub calls through `HTTPS_PROXY` / the proxy CA bundle the
+rest of the Routine uses (read `os.environ["HTTPS_PROXY"]` and the `/root/.ccr/ca-bundle.crt` bundle), so the
+existing `urllib` path works behind the proxy; (b) reimplement the script's three API calls (list PRs, read
+`progress.txt` on main, delete branch) against the **GitHub MCP server**, matching the rest of routine2.md's MCP
+path; or (c) at minimum, have the script **exit non-zero with a clear "could not reach GitHub — strand sweep
+skipped" message** instead of a bare traceback, and have the Routine note it in the session log (as this run did)
+so the curator knows the net is down. Until fixed, the §0a MCP-based rescue check (which *does* work) is the only
+working strand-detection path in the Routine pre-flight.
 
 ## Related pages
 
