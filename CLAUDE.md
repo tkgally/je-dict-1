@@ -50,7 +50,7 @@ pipeline/         # Automated task pipeline (run-pipeline.sh, validation gates, 
   pipeline/orchestrator.py  # Launches and monitors parallel Claude CLI sessions
   pipeline/monitor.py       # Real-time monitoring dashboard for orchestration
   pipeline/budget.json      # Daily budget cap configuration (auto-updated)
-  pipeline/sweep-stranded-prs.py # Close+delete obsolete `claude/*` PRs/branches whose entry range is past main's progress
+  pipeline/sweep-stranded-prs.py # Close+delete obsolete `claude/*` PRs/branches whose entry range is past main's progress (direct-REST only; Routines sweep via MCP — see PR/merge workflow)
   pipeline/routine_next.py  # Unified Routine mode selector (deterministic weighted rotation + health nudges)
   pipeline/routine-config.json   # Routine tuning knobs (mode weights, OpenRouter caps)
   pipeline/openrouter-ledger.json # Daily OpenRouter spend ledger ($5/day cap, auto-reset)
@@ -121,6 +121,8 @@ Makefile               # Build runner (make validate, make build, make quick, et
 # Validation and building
 python3 build/validate.py                 # Validate all entries against schema
 python3 build/validate_tags.py            # Validate semantic/POS tag consistency
+python3 build/validate_tags.py --check-no-new-unknown   # CI ratchet: fail if an entry adds an off-vocab semantic tag (vs baseline)
+python3 build/validate_tags.py --write-unknown-baseline # Regenerate build/data/unknown_semantic_baseline.json (run after migrating off-vocab tags)
 python3 build/update_indexes.py           # Update entries_index.json, candidate list, word lookup
 python3 build/build_flat.py               # Full rebuild of the static site
 python3 build/build_flat.py --quick       # Incremental build — only changed entries
@@ -465,21 +467,36 @@ There are two supported paths. **Pick the one that matches your environment** be
 
 **MCP path (REQUIRED for Routines and any unattended session where `gh` is not on PATH or not authorized):**
 
+> **Direct GitHub REST is blocked in this environment.** `gh` and any
+> `curl https://api.github.com` call — including the `pipeline/wait-for-pr-checks.sh`
+> and `pipeline/sweep-stranded-prs.py` helpers — return HTTP 403 *"GitHub access is
+> not enabled for this session"* from the agent proxy (it's a platform policy
+> response, not a network or token problem). Only the GitHub **MCP** server reaches
+> GitHub here, so the CI gate and the strand sweep run through MCP tools, **not**
+> those shell/Python helpers. (The helpers remain valid in interactive sessions
+> where a real token + direct REST work; they now exit cleanly with a pointer here
+> instead of crashing when they hit the 403.)
+
 4. **Create the PR**: call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, and a clear title and body. Note the PR number from the response.
-5. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool. The script polls GitHub's check-runs API every 15 s using `$GITHUB_TOKEN`, prints one status line per poll, and exits with one of:
-   - `0` — all checks green → proceed to step 6.
-   - `1` — one or more checks failed.
-   - `2` — timed out (default 10 min) before all checks finished.
-   - `3` — auth/API error (e.g. `$GITHUB_TOKEN` missing).
-   - `4` — no checks ever appeared on the PR's head SHA.
-6. **Merge based on the exit code:**
-   - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
-   - **Exit non-zero**: leave the PR open, add a one-sentence note to the session log explaining what the helper reported, and stop. The curator (or the next scheduled session) will investigate.
+5. **Wait for CI by polling the check-runs over MCP** (do not call the shell helper). Loop:
+   1. Call `mcp__github__pull_request_read` with `method: "get_check_runs"` (`owner: "tkgally"`, `repo: "je-dict-1"`, `pullNumber: <n>`). **Use `get_check_runs`, never `get_status`** — this repo's CI is a GitHub Actions check-run, and the legacy combined-status API that `get_status` reads reports `state: "pending"`, `total_count: 0` for it (a false negative that would strand every PR).
+   2. Classify the `check_runs` array:
+      - **green** — `total_count >= 1`, every run has `status == "completed"`, and every `conclusion` is `success`, `neutral`, or `skipped`.
+      - **failed** — any completed run whose `conclusion` is none of those (`failure`, `cancelled`, `timed_out`, `action_required`, …).
+      - **pending** — otherwise (`total_count == 0`, or a run still `queued`/`in_progress`).
+   3. **green** → step 6. **failed** → leave the PR open, note the failed check name in the session log, and stop (the curator or the next run will investigate). **pending** → wait one interval, then re-poll: run `sleep 30` via the **Bash tool with `run_in_background: true`** (foreground `sleep` is disabled), and when it returns, go back to 5.1. Poll at most ~16 times (~8 min) — CI here often takes 3–6 min just to *start*, then ~60 s. Still pending at the cap → leave the PR open and stop; the next run's §0a rescue merges it once green.
+6. **Merge**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
 7. **Stop.** Do not attempt the cleanup section below — the session is running on the feature branch and cannot switch off it. The repo's "Automatically delete head branches" setting handles remote-branch cleanup when the merge fires.
 
-If a Routine session does end up bailing out before merging (CI timeout, context exhaustion mid-merge, hook failure, etc.), the next session's pre-flight call to `pipeline/sweep-stranded-prs.py` will close the now-obsolete PR and delete its branch on the next run. That self-healing path is what keeps stranded `claude/*` branches from accumulating; see `prompts/comprehensive_polish.md` → "Pre-flight: sweep stranded PRs".
+**Sweep stranded PRs via MCP** (pre-flight safety net; replaces `pipeline/sweep-stranded-prs.py`, which 403s here). A "stranded" PR is an older `claude/*` PR a previous run left open. Close the ones main has already passed:
+1. `mcp__github__list_pull_requests` (`owner: "tkgally"`, `repo: "je-dict-1"`, `state: "open"`).
+2. Read the cutoff: the `next:` value in `polishing/tasks/comprehensive/progress.txt` in your working tree (it equals main at pre-flight; re-read it after any §0a rescue that merged main locally).
+3. For each open PR whose head branch starts with `claude/` that you did **not** just rescue: call `mcp__github__pull_request_read` with `method: "get_files"`, take the maximum 5-digit ID among the `entries/.../NNNNN_*.json` files it touches, and if it touches entry files **and** that maximum is `< cutoff`, it is superseded — `mcp__github__add_issue_comment` explaining why, then `mcp__github__update_pull_request` with `state: "closed"`. Leave anything else open.
+   - Branch deletion needs direct REST, so under MCP a closed PR's branch lingers harmlessly ("Automatically delete head branches" only fires on *merge*); the curator can prune closed branches in bulk.
 
-Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine. It requires the PR to already be in a "clean" mergeable state, which is rarely true in the few seconds between pushing and creating the PR — GitHub almost always rejects with `unstable`. Wait-then-merge via the helper script is the reliable path. (`enable_pr_auto_merge` remains usable from interactive sessions where the PR has had time to settle.)
+If a Routine session bails out before merging (CI timeout, context exhaustion mid-merge, hook failure), the next session's pre-flight MCP sweep closes the now-obsolete PR once main has advanced past its entry range. That self-healing path keeps stranded `claude/*` PRs from accumulating; see `prompts/routine2.md` §0.
+
+Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine. It requires the PR to already be in a "clean" mergeable state, which is rarely true in the few seconds between pushing and creating the PR — GitHub almost always rejects with `unstable`. Poll-then-merge via MCP is the reliable path. (`enable_pr_auto_merge` remains usable from interactive sessions where the PR has had time to settle.)
 
 The only one-time repository setting required is **Automatically delete head branches** (Settings → General). Without it, merged feature branches will accumulate on origin and need a separate sweep.
 

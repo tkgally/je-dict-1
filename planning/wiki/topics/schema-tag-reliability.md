@@ -279,6 +279,40 @@ catches. The fix — adding an explicit instruction "Do not flag entries tagged
 tag; these are valid fallback tags" — is tracked in
 [Tooling Backlog](../ideas/tooling-backlog.md) → item 17.
 
+**Enforcement gate: the off-vocabulary ratchet (2026-06-25).** "Expand, then
+enforce" had no actual *enforce* step until now: `validate_tags.py` emitted
+off-vocab semantic tags only as **warnings**, and CI
+(`.github/workflows/validate.yml`) ran only `validate.py` (schema), so a new
+entry could introduce yet another out-of-taxonomy tag and nothing would fail —
+the off-vocab cohort passed CI silently. A 2026-06-25 recount measured the live
+scope at **8,267 off-vocab instances across 6,759 entries / 1,109 distinct
+tags**: the gradual-migration lane (accuracy-review + systemic-fix) was roughly
+keeping pace but could be silently outrun by new drift. The gap is now closed
+with a **baseline ratchet** — not a mass migration, which would contradict the
+gradual-migration policy and turn CI red on ~56% of the dictionary:
+
+- `build/data/unknown_semantic_baseline.json` records every off-vocab semantic
+  tag each entry already carries (keyed by file path, so duplicate-ID entries
+  are tracked independently). Regenerate with
+  `python3 build/validate_tags.py --write-unknown-baseline`.
+- `python3 build/validate_tags.py --check-no-new-unknown` (a new CI step) fails
+  only when an entry carries an off-vocab tag **absent from the baseline** — a
+  net-new one. The tolerated set can therefore only shrink (as migrations remove
+  tags), never grow.
+- Existing migration work is unaffected: removing an off-vocab tag keeps CI
+  green, and the polish / accuracy-review lanes never *add* off-vocab tags. A
+  brand-new entry with an off-vocab tag fails the gate — which is exactly the
+  `routine2.md` §2 "no Unknown semantic tag warnings on new IDs" rule, finally
+  enforced rather than merely requested.
+- After a migration batch, regenerate the baseline so the gate stays tight.
+- Scope: semantic tags only. There are currently **no** off-vocab `domain` tags
+  (that field's controlled list is already clean and already error-gated inside
+  `validate_tags.py`).
+
+This is deterministic-defense-at-the-boundary (Implication 2, below) applied to
+the semantic field: the controlled vocabulary is enforced at PR time for new
+content, while the legacy tail stays on the gradual lane.
+
 ## Implications for je-dict-1
 
 1. **Treat tags as cached judgments, not ground truth.** When a polish pass updates an entry, the tags should be re-evaluated against the polished content, not assumed correct. The polish prompts currently don't ask for this.

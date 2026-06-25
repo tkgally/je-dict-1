@@ -18,6 +18,7 @@ Options:
 """
 
 import json
+import re
 import sys
 from collections import defaultdict
 from dataclasses import dataclass, field
@@ -248,6 +249,127 @@ def validate_all_tags(project_root: Path) -> TagValidationResult:
     return result
 
 
+# ---------------------------------------------------------------------------
+# Off-vocabulary semantic-tag ratchet
+#
+# VALID_SEMANTIC is a controlled vocabulary, but ~6,700 legacy entries carry
+# semantic tags outside it (1,100+ distinct values). Per the 2026-06-11 tag
+# policy these stay warnings and are migrated gradually (build/check_tag_drift.py
+# --check unknown-semantic). That left a gap: a NEW entry or edit could introduce
+# yet another off-vocab tag and nothing — not validate.py, not CI — would fail.
+#
+# The ratchet closes that gap without forcing a mass migration. A baseline file
+# records every off-vocab tag each entry already carries; `--check-no-new-unknown`
+# (run in CI) fails only when an entry gains an off-vocab tag absent from the
+# baseline. The tolerated set can therefore only shrink (via migration), never
+# grow. Regenerate the baseline after a migration with `--write-unknown-baseline`.
+# ---------------------------------------------------------------------------
+
+DEFAULT_UNKNOWN_BASELINE = "build/data/unknown_semantic_baseline.json"
+
+
+def _id_from_relpath(relpath: str) -> str:
+    """Pull the 5-digit entry ID out of an entries/.../NNNNN_*.json path."""
+    m = re.search(r"/(\d{5})_", "/" + relpath.replace("\\", "/"))
+    return m.group(1) if m else relpath
+
+
+def collect_unknown_semantic(project_root: Path) -> dict:
+    """Map entry file (relative path) -> sorted off-vocabulary semantic tags.
+
+    Keyed by file path rather than entry ID so duplicate-ID entries are tracked
+    independently. Only entries with at least one off-vocab semantic tag appear.
+    """
+    entries_dir = project_root / "entries"
+    out = {}
+    for file_path in sorted(entries_dir.glob("**/*.json")):
+        try:
+            with open(file_path, "r", encoding="utf-8") as f:
+                entry = json.load(f)
+        except (json.JSONDecodeError, IOError):
+            continue
+        semantic = ((entry.get("metadata") or {}).get("tags") or {}).get("semantic") or []
+        unknown = sorted({s for s in semantic if s not in VALID_SEMANTIC})
+        if unknown:
+            out[str(file_path.relative_to(project_root))] = unknown
+    return out
+
+
+def write_unknown_baseline(project_root: Path, baseline_path: Path) -> int:
+    """Regenerate the off-vocab semantic-tag baseline from the current entries."""
+    data = collect_unknown_semantic(project_root)
+    baseline_path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "_comment": (
+            "Ratchet baseline for off-vocabulary (not-in-VALID_SEMANTIC) semantic "
+            "tags. Maps entry file path -> the off-vocab semantic tags it already "
+            "carried when generated. `build/validate_tags.py --check-no-new-unknown` "
+            "(run in CI) fails if any entry gains an off-vocab tag absent from its "
+            "list here, so the off-vocab set can only shrink via gradual migration, "
+            "never grow. Regenerate after a migration: "
+            "python3 build/validate_tags.py --write-unknown-baseline"
+        ),
+        "tags": data,
+    }
+    with open(baseline_path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2, sort_keys=True)
+        f.write("\n")
+    total = sum(len(v) for v in data.values())
+    print(f"Wrote {baseline_path.relative_to(project_root)}: "
+          f"{len(data)} entries, {total} tolerated off-vocab semantic-tag use(s).")
+    return 0
+
+
+def check_no_new_unknown(project_root: Path, baseline_path: Path) -> int:
+    """CI gate: fail if any entry carries an off-vocab tag not in the baseline."""
+    if not baseline_path.exists():
+        print(f"error: baseline not found: {baseline_path}", file=sys.stderr)
+        print("Generate it with: python3 build/validate_tags.py --write-unknown-baseline",
+              file=sys.stderr)
+        return 3
+    try:
+        with open(baseline_path, "r", encoding="utf-8") as f:
+            baseline = (json.load(f) or {}).get("tags", {})
+    except (json.JSONDecodeError, IOError) as e:
+        print(f"error: cannot read baseline {baseline_path}: {e}", file=sys.stderr)
+        return 3
+
+    current = collect_unknown_semantic(project_root)
+    violations = []  # (relpath, tag)
+    for relpath, tags in sorted(current.items()):
+        tolerated = set(baseline.get(relpath, []))
+        for tag in tags:
+            if tag not in tolerated:
+                violations.append((relpath, tag))
+
+    if not violations:
+        print(f"No new off-vocabulary semantic tags. ({len(current)} entries still "
+              "carry baselined off-vocab tags — migrate with "
+              "build/check_tag_drift.py --check unknown-semantic.)")
+        return 0
+
+    # Optional 1:1 migration hints, reusing check_tag_drift's map if importable.
+    try:
+        from check_tag_drift import TAG_MIGRATION
+    except Exception:
+        TAG_MIGRATION = {}
+
+    print(f"ERROR: {len(violations)} off-vocabulary semantic tag(s) not in the "
+          "baseline (introduced by this change):\n")
+    for relpath, tag in violations:
+        suggested = TAG_MIGRATION.get(tag)
+        hint = f"  (try '{suggested}')" if suggested else ""
+        print(f"  {_id_from_relpath(relpath)} ({relpath}): "
+              f"semantic tag '{tag}' is not in VALID_SEMANTIC{hint}")
+    print("\nSemantic tags must come from VALID_SEMANTIC in build/validate_tags.py.")
+    print("Fix one of these ways:")
+    print("  - use an in-list tag, or migrate via build/check_tag_drift.py "
+          "(--check unknown-semantic prints 1:1 targets); or")
+    print("  - if the curator has blessed a new tag, add it to VALID_SEMANTIC and "
+          "regenerate the baseline (python3 build/validate_tags.py --write-unknown-baseline).")
+    return 1
+
+
 def main():
     """Main entry point."""
     import argparse
@@ -268,11 +390,36 @@ def main():
         type=str,
         help="Validate a single entry by path or ID"
     )
+    parser.add_argument(
+        "--write-unknown-baseline",
+        action="store_true",
+        help="Regenerate build/data/unknown_semantic_baseline.json from the current entries and exit"
+    )
+    parser.add_argument(
+        "--check-no-new-unknown",
+        action="store_true",
+        help="Fail (exit 1) if any entry carries an off-vocabulary semantic tag absent from the baseline (regression gate; run in CI)"
+    )
+    parser.add_argument(
+        "--baseline",
+        type=str,
+        default=None,
+        help=f"Path to the off-vocab semantic-tag baseline (default: {DEFAULT_UNKNOWN_BASELINE})"
+    )
     args = parser.parse_args()
 
     # Determine project root
     script_dir = Path(__file__).parent
     project_root = script_dir.parent
+
+    # Off-vocabulary semantic-tag ratchet (independent of the schema/tag checks
+    # below, so it stays green even while pre-existing verb_class errors exist).
+    baseline_path = (Path(args.baseline) if args.baseline
+                     else project_root / DEFAULT_UNKNOWN_BASELINE)
+    if args.write_unknown_baseline:
+        return write_unknown_baseline(project_root, baseline_path)
+    if args.check_no_new_unknown:
+        return check_no_new_unknown(project_root, baseline_path)
 
     # Single entry mode
     if args.entry:

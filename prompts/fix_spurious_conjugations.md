@@ -17,17 +17,14 @@ sections) is resolved.
 
 **Run this as the first step of the session, before any other work.**
 
-```bash
-python3 pipeline/sweep-stranded-prs.py
-```
-
-The script lists open PRs on `claude/*` branches and closes any whose maximum
-entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s
-`next:` value on main, deleting the head branch via the GitHub API. It is
-idempotent and safe to run any time, but running it first makes the session
-self-healing if it bails out before the merge step. This task will not be
-auto-closed by accident — it touches build scripts and wiki pages, not just a
-narrow entry range.
+Perform the stranded-PR sweep **via MCP**, as described in `CLAUDE.md` → "Sweep
+stranded PRs via MCP": `mcp__github__list_pull_requests`, and for each open
+`claude/*` PR, close (with a comment) the ones whose maximum entry ID is below
+`polishing/tasks/comprehensive/progress.txt`'s `next:` value. This task will not
+be auto-closed by accident — it touches build scripts and wiki pages, not just a
+narrow entry range. **Do not run `pipeline/sweep-stranded-prs.py`** — direct
+GitHub REST returns HTTP 403 here, so it's a no-op (it now exits cleanly with a
+pointer to the MCP procedure).
 
 ## Background — why this task exists
 
@@ -400,18 +397,22 @@ git push -u origin <your-branch>
 ```
 
 **PR + merge — MCP path (Routine / unattended default; `gh` is not authorized).**
-After `git push`, the tail is exactly three tool calls, in order, with nothing
-interleaved:
+After `git push`, the tail is exactly: create PR → poll check-runs over MCP until
+green → squash-merge, with nothing interleaved (full loop in `CLAUDE.md` → "MCP
+path" step 5):
 
 1. `mcp__github__create_pull_request` — `owner: "tkgally"`, `repo: "je-dict-1"`,
    `head: "<your branch>"`, `base: "main"`, with a clear title/body. Note the PR
    number.
-2. Run `pipeline/wait-for-pr-checks.sh <pr_number> 30` via the **Monitor** tool.
-   Exit codes: 0 = all green, 1 = a check failed, 2 = timeout (10 min),
-   3 = auth/API error, 4 = no checks appeared.
-3. On **exit 0**: `mcp__github__merge_pull_request` with `merge_method: "squash"`.
-   On any **non-zero** exit: leave the PR open, add a one-line note to the wiki
-   log / PROJECT_STATUS explaining what the helper reported, and stop.
+2. Poll `mcp__github__pull_request_read` with `method: "get_check_runs"` (**not**
+   `get_status`; `pipeline/wait-for-pr-checks.sh` 403s here). *green* =
+   `total_count >= 1` and every run `completed` with `conclusion`
+   `success`/`neutral`/`skipped`; *failed* = any other completed conclusion;
+   *pending* = otherwise. While pending, wait with a backgrounded `sleep 30`
+   (Bash `run_in_background: true`) and re-poll, up to ~16 times (~8 min).
+3. On **green**: `mcp__github__merge_pull_request` with `merge_method: "squash"`.
+   On **failed** or **still pending at the cap**: leave the PR open, add a
+   one-line note to the wiki log / PROJECT_STATUS, and stop.
 
 Do **not** call `mcp__github__enable_pr_auto_merge` from an unattended session,
 and do **not** `git checkout main` or delete the feature branch from inside the

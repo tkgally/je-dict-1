@@ -6,19 +6,15 @@ Add new entries to the Japanese-English learner's dictionary from candidate_word
 
 **Run this as the first step of every session, before you read any candidate or entry data.**
 
-```bash
-python3 pipeline/sweep-stranded-prs.py
-```
+Perform the stranded-PR sweep **via MCP**, as described in `CLAUDE.md` → "Sweep stranded PRs via MCP" (`mcp__github__list_pull_requests` → for each open `claude/*` PR, `mcp__github__pull_request_read` `method: "get_files"` → close the ones whose maximum entry ID is below `polishing/tasks/comprehensive/progress.txt`'s `next:` value). It will never close a new-entries PR by accident — those entries always have IDs far above the comprehensive-polish cursor.
 
-The script lists open PRs on `claude/*` branches and closes any whose maximum entry ID is strictly less than `polishing/tasks/comprehensive/progress.txt`'s `next:` value on main. It also deletes the head branch via the GitHub API. It will never close a new-entries PR by accident — those entries always have IDs far above the comprehensive-polish cursor. Calling it here makes the new-entries Routine help clean up after stranded comprehensive-polish runs in addition to its primary work.
-
-The script is idempotent and safe to run any time during the session, but running it first ensures the cleanup happens even if the rest of the session bails out.
+**Do not run `pipeline/sweep-stranded-prs.py`** — direct GitHub REST returns HTTP 403 in the Routine/web environment, so it's a no-op there (it now exits cleanly with a pointer to the MCP procedure).
 
 ## Per-session budget
 
 This prompt is run unattended on a schedule. Plan the session so the wrap-up phase has enough context to complete reliably.
 
-- **Target: 20–25 entries per session.** Stop earlier if you reach ~60% of your context window before that — the wrap-up phase (build, commit, push, PR creation, up-to-10-minute CI wait via Monitor, merge call) needs ~40% headroom.
+- **Target: 20–25 entries per session.** Stop earlier if you reach ~60% of your context window before that — the wrap-up phase (build, commit, push, PR creation, up-to-~8-minute MCP CI-poll wait, merge call) needs ~40% headroom.
 - **Match the size of recent entries — do not exceed it.** See "Length targets" below for per-field budgets. A well-formed entry in this dictionary is concise, not maximally thorough.
 - **Stop earlier than 20 entries if** tool outputs are getting truncated, you've already done a fix-up round (e.g., resolving a duplicate after creation), or `find_missing_furigana.py` has reported issues you need to chase. Better to wrap up with fewer entries than to leave a stranded PR.
 - **Take stock periodically**: every ~10 entries, briefly check how full context feels and decide whether to continue or wrap up.
@@ -382,10 +378,10 @@ Follow the workflow described in CLAUDE.md under "End-of-session PR and merge wo
 ### MCP path (Routine / unattended default)
 
 1. Call `mcp__github__create_pull_request` with `owner: "tkgally"`, `repo: "je-dict-1"`, `head: "<your branch>"`, `base: "main"`, plus a clear title and body. Note the PR number.
-2. **Wait for CI to finish.** Run `pipeline/wait-for-pr-checks.sh <pr_number>` via the `Monitor` tool — it polls the GitHub API every 15 s and emits one status line per poll. Exit codes: 0 = all green, 1 = a check failed, 2 = timeout (default 10 min), 3 = auth/API error, 4 = no checks ever appeared.
-3. **Merge based on the exit code**:
-   - **Exit 0**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
-   - **Any non-zero exit**: leave the PR open, add a one-line note to your session log explaining what the helper reported, and stop. The next Routine session's pre-flight `pipeline/sweep-stranded-prs.py` call will clean up automatically once main has advanced past the entry range.
+2. **Wait for CI by polling check-runs over MCP** (`pipeline/wait-for-pr-checks.sh` 403s here — do not use it; full loop in `CLAUDE.md` → "MCP path" step 5). Call `mcp__github__pull_request_read` with `method: "get_check_runs"` (**not** `get_status`). *green* = `total_count >= 1` and every run `completed` with `conclusion` `success`/`neutral`/`skipped`; *failed* = any other completed conclusion; *pending* = otherwise. While pending, wait with a backgrounded `sleep 30` (Bash `run_in_background: true`) and re-poll, up to ~16 times (~8 min).
+3. **Merge based on the result**:
+   - **green**: call `mcp__github__merge_pull_request` with `merge_method: "squash"`. The session is done.
+   - **failed / still pending at the cap**: leave the PR open, add a one-line note to your session log, and stop. The next Routine session's pre-flight MCP sweep cleans up once main has advanced past the entry range.
 4. **Do not** `git checkout main`, **do not** delete the feature branch from inside this session — the session is on that branch. The repo's "Automatically delete head branches" setting handles remote cleanup once the merge fires.
 
 Do **not** call `mcp__github__enable_pr_auto_merge` from a Routine — it usually fails because the PR is in `unstable` state immediately after creation.

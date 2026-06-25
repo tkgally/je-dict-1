@@ -22,3 +22,9 @@ jobs:
       - name: Validate entries
         working-directory: build
         run: python3 validate.py
+
+      - name: Check for new off-vocabulary semantic tags
+        # Ratchet gate: fails only if an entry introduces a semantic tag outside
+        # VALID_SEMANTIC that isn't already in build/data/unknown_semantic_baseline.json.
+        # The legacy off-vocab tail stays tolerated; new drift is blocked at CI.
+        run: python3 build/validate_tags.py --check-no-new-unknown
