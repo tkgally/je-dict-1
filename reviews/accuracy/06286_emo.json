@@ -8,24 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T21:30:26Z",
+  "reviewed_at": "2026-06-26T12:29:31Z",
   "summary": {
     "flagged": 2
   },
   "issues": [
     {
       "dimension": "translation",
-      "location": "examples[3]",
+      "location": "examples[4]",
       "severity": "error",
-      "concern": "The English translation 'This sunset is too beautiful for words' misrepresents the Japanese '夕焼けがエモすぎる。'. While 'エモい' can imply beauty, the core meaning is about evoking strong emotions, nostalgia, or a particular vibe, not just beauty. The 'すぎる' (too much) also implies an overwhelming emotional impact.",
-      "suggestion": "This sunset is too emotional/moving/nostalgic."
+      "concern": "The English translation 'aesthetic photo' for 'エモい写真' is misleading. While 'エモい' can relate to aesthetics, 'aesthetic photo' in English often implies a specific, curated visual style, which isn't the primary meaning of 'エモい' here. It's more about evoking emotion or nostalgia.",
+      "suggestion": "I took a moving/nostalgic/evocative photo."
     },
     {
       "dimension": "translation",
-      "location": "examples[4]",
+      "location": "examples[5]",
       "severity": "error",
-      "concern": "The English translation 'I took an aesthetic photo' for 'エモい写真が撮れた。' is too narrow. While 'aesthetic' is part of the meaning of エモい, it misses the emotional, nostalgic, or moving aspect that is central to the word.",
-      "suggestion": "I took a really moving/nostalgic/vibe-filled photo."
+      "concern": "The English translation 'aesthetic vibe' for 'エモい雰囲気' is misleading. Similar to example 4, 'aesthetic vibe' in English has a more specific, often curated, visual connotation than the broader emotional/nostalgic sense of 'エモい'.",
+      "suggestion": "The combination of the nighttime ocean and city lights had a moving/nostalgic/evocative atmosphere."
     }
   ]
 }
