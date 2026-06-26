@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-26] maintenance (second run) | Harvest 5 polish observations (P21 06282–06300, P9 nested-honorific auto-fix, item 20 17th/18th no-op) + tenth metrics refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- [F/Harvest] Processed all **5** unharvested observations from the two 2026-06-26 routine polish runs (frontier 06282–06287 and session 007 over 06288–06293):
+  - **Cleanup Backlog P21 update 2026-06-26 (second)** — the zero-inline-link create-era band reaches the casual/slang & conjunction cohort (06282–06287: とはいえ/てか/ワンチャン/エモ/界隈) and the cultural-noun + proverb cohort (06288–06300), both with naked examples AND notes; band now unbroken ~06150→06300; concrete next target a dedicated ~06294–06600 inline-link sweep (gated on Tooling item 15).
+  - **Cleanup Backlog P9 update 2026-06-26** + **Tooling Backlog item 8 enhancement** — the nested-honorific wrapper `{お{香|こう}}` / `{お{土産|みやげ}}` at 06295/06296 has a single provably-safe rewrite `{お{KANJI|reading}}` → `お{KANJI|reading}`; filed as a candidate `--fix` mode for `check_furigana_format.py` (the cleanest auto-fixable P9 sub-pattern).
+  - **Tooling Backlog item 20 update 2026-06-26 (17th/18th confirmation)** — two more priority/notes lanes ran 5/5 and 8/8 no-op on already-polished basic/core function words; regeneration reproduces the same ordering; one run framed the binding filter as "skip if note already at structural floor for POS." Binding fix unchanged (scorer-bug pair + recency/structural-floor down-weight).
+- [H/Metrics trend] **Tenth refresh** of `topics/quality-metrics.md` (12 new metrics lines, 132→144 runs / ~5,847 adjudicated flags). Added the tenth-refresh callout, the 2026-06-25 continuation + 2026-06-26 run tables, the 144-run total, and refreshed the all-time precision-by-dimension and by-source tables. Headline: **second consecutive escalation-free refresh** (runs 133–144 escalated 0), `tags` held fix-mode at 60.7% apply-among-decided on the 9741–9849 free-form cohort, furigana screening pure noise (0/54), review queue set a new floor at **14,622**. No metric moving the wrong way → no new `[pattern]` observation logged.
+- [A/Light sync] Refreshed `project/overview.md` General-tier count (~26,494 of 29,297 total).
+
+**Not done**: no new research/topic pages this run (the metrics refresh was the substantive activity; quality over quantity per the maintenance guidelines). `backlog-queue.json` needed no edits — all harvested items were incremental updates under existing entries with unchanged status/batch-readiness.
+
 ## [2026-06-26] maintenance | Observation harvest (P20 9741–9849 + enforce-side ratchet, P21 06271–06281, items 30 RESOLVED / 27 PARTIAL / 21 / 20, 29452 resolved + new 書き替える)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
