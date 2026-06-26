@@ -168,6 +168,8 @@ For each `\{([^|}{]+)\|([^}{]+)\}` match in headword / examples / notes:
 
 **Enhancement 2026-06-17 (no-pipe / unbalanced-brace detection)**: The shipped detector keys on `\{([^|}{]+)\|([^}{]+)\}` — a regex that **requires a pipe**, so it cannot see degenerate wrappers that contain no `|` at all (`{やけになる}`) or fields with an unbalanced/stray closing brace (`{投|な}げやりになる}`). Both were found in 06147_jiboujiki (a 2026-06 routine polish observation, now Cleanup P9 update 2026-06-17) and render as literal braces on the live site while passing furigana-*coverage* checks. Add two rules: (a) flag any `{` … `}` span whose interior contains no `|`; (b) flag any field whose `{` and `}` counts are unequal. Likely present across the same early-2026 yojijukugo batch (06140s).
 
+**Enhancement 2026-06-26 (an `--fix` mode for the `{お{…|…}}` nested-honorific shape)**: The detector currently emits a read-only review queue only; every fix is hand-applied. A 2026-06-26 routine polish run (frontier 06288–06300) found 06295/06296 carrying the nested-honorific wrapper `{お{香|こう}}` / `{お{土産|みやげ}}` (the `nested` + `o-go-prefix` classes together) and observed that this specific shape has a **single deterministic, provably-safe rewrite** — `{お{KANJI|reading}}` → `お{KANJI|reading}` (and the `{ご{…|…}}` analogue) — which alters only wrapper boundaries, never the surface text or reading. Add an opt-in `--fix` mode scoped to *this* transform (and the other provably-safe sub-patterns: bare-kana de-wrap, o/go-prefix lift), validated against `word_id_lookup.json` so inline-link surfaces still resolve, so the recurring 06200s–06300s honorific-batch instances (Cleanup P9 update 2026-06-26) can be cleaned mechanically instead of one entry at a time. Keep the default read-only; `--fix` writes only the sub-patterns whitelisted as never-error.
+
 ## 9. Headword furigana format fix script
 
 **Source**: Wiki maintenance 2026-05-12 entry exploration
@@ -677,6 +679,19 @@ non-no-op being a *cross-reference* fix (which the notes scorer does not measure
 ranking is not just noisy, it is measuring the wrong axis. Binding fix unchanged — the `score_note_quality.py`
 scorer-bug pair plus the generation-time recency/coverage down-weight in `prioritize_polishing.py`. Sixteenth
 consecutive effectively-no-op priority-lane session.
+
+**Update 2026-06-26 (seventeenth/eighteenth confirmation — two all-no-op runs back-to-back)**: Two more
+2026-06-26 routine polish runs ran their priority/notes lanes **5/5** (00642 金曜日, 01003 隣, 01006 腕, 02006 ばかり,
+02007 まま) and **8/8** (だって, 低い, 小さい, 遅い, だけ, 金曜日, 隣, 腕) no-op — all basic/core function words and
+adjectives already fully inline-linked and tier-1 clean, needing zero changes. The 8/8 run hit the §2 >half-no-op
+rule and regenerated priorities + reset the cursor, and the observing run confirmed (as on 2026-06-23/25) that
+**regeneration produces an identical ordering** because the scorer re-derives the same low scores from the same
+unchanged text. One run added a concrete framing of the binding constraint as a generation-time filter: *"skip if
+note already at structural floor for POS"* — i.e. a basic-tier function word whose note is already as short-and-clean
+as its POS template allows should not be surfaced as "worst notes" at all. This is the closed-set/structural-adequacy
+exclusion already filed (2026-06-18 update), restated from the frontier. Seventeenth/eighteenth consecutive
+effectively-no-op priority-lane session; the `score_note_quality.py` scorer-bug pair plus a generation-time
+recency/coverage (or structural-floor) down-weight in `prioritize_polishing.py` remain the binding fix.
 
 ## 21. Chunk the review/screening runners to fit the session timeout
 
