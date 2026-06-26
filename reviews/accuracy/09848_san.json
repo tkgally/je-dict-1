@@ -1,0 +1,24 @@
+{
+  "entry_id": "09848_san",
+  "headword": "〜さん",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-26T03:24:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect for 'さん'. While 'さん' is a polite suffix, the politeness level of the word itself is 'neutral' in the context of Japanese grammar and usage. 'Polite' would typically refer to keigo forms.",
+      "suggestion": "neutral"
+    }
+  ]
+}
