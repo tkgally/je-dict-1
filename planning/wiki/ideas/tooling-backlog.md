@@ -1,6 +1,6 @@
 # Tooling Backlog
 
-**Last updated**: 2026-06-25 (harvest: item 20 — fourteenth/fifteenth no-op confirmation + the recency-skip/scorer-bug-stacking diagnosis; item 28 — second confirmation [2026-06-24 systemic-fix run again landed on scope-0 `tag-conjugation-no-verb-pos`, flipped it to `resolved`; `tag-proverb-idiom-mismatch` still open/scope-0]; **new item 30** — `sweep-stranded-prs.py` 403 against api.github.com under the agent proxy [strand-sweep safety net silently never fires]. Prior 2026-06-24: item 20 twelfth/thirteenth + recency-filter, item 23 seen-in-entry lane empty + junk families, item 24 truncation FP on 9240–9456, **new item 29** `part_of_speech` normalizer)
+**Last updated**: 2026-06-26 (harvest: **item 30 RESOLVED** — strand-sweep + CI-gate routed through MCP, scripts now exit cleanly on the platform-policy 403, and the latent `get_status`→`get_check_runs` rescue bug fixed; **item 27 PARTIAL** — the inflow gate shipped as a baseline ratchet [`--check-no-new-unknown` + `unknown_semantic_baseline.json`, now a CI step]; item 21 — sixth truncation [560-ID screen timed out at ~74/560 → ≤~100 IDs/run]; item 20 — sixteenth no-op confirmation [the lone non-no-op was a cross-reference fix the scorer doesn't measure]. Prior 2026-06-25: item 20 — fourteenth/fifteenth no-op confirmation + the recency-skip/scorer-bug-stacking diagnosis; item 28 — second confirmation [2026-06-24 systemic-fix run again landed on scope-0 `tag-conjugation-no-verb-pos`, flipped it to `resolved`; `tag-proverb-idiom-mismatch` still open/scope-0]; **new item 30** — `sweep-stranded-prs.py` 403 against api.github.com under the agent proxy [strand-sweep safety net silently never fires]. Prior 2026-06-24: item 20 twelfth/thirteenth + recency-filter, item 23 seen-in-entry lane empty + junk families, item 24 truncation FP on 9240–9456, **new item 29** `part_of_speech` normalizer)
 
 Tool improvements and new script ideas surfaced during comprehensive-polish sessions. Each item includes the rationale, suggested approach, and source observation.
 
@@ -666,6 +666,18 @@ handful that are *also* no-ops. The fix ordering is unchanged and reinforced —
 (rank by staleness, not just length) would surface genuinely-stale entries instead of recently-polished basic ones.
 Fifteenth consecutive priority-lane no-op session.
 
+**Update 2026-06-26 (sixteenth confirmation — and the first non-no-op is itself diagnostic)**: A 2026-06-26 routine
+polish run processed **6 eligible priority-lane entries** (だって / 低い / 小さい / 遅い / 何でも / だけ — all basic-tier
+particles and adjectives, from a `notes.txt` regenerated that same day) and found **5 needing zero changes**; only
+00304 何でも got real work (でも-series cross-refs 誰でも/いつでも/どこでも + back-links — a cross-reference gap, *not*
+the note-quality deficit the scorer claims to rank). Per routine2.md §2's >half-no-op rule the run regenerated
+priorities and reset the cursor — but, exactly as the 2026-06-23/25 updates predicted, regeneration re-surfaces the
+same closed-tier function words because the scorer re-derives the same low scores from unchanged text. The single
+non-no-op being a *cross-reference* fix (which the notes scorer does not measure at all) sharpens the point: the
+ranking is not just noisy, it is measuring the wrong axis. Binding fix unchanged — the `score_note_quality.py`
+scorer-bug pair plus the generation-time recency/coverage down-weight in `prioritize_polishing.py`. Sixteenth
+consecutive effectively-no-op priority-lane session.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -731,6 +743,15 @@ wrapper** (~7 s/entry against gemini-2.5-flash), the fifth confirmed truncation 
 weeks. Per-entry results for the 174 covered IDs were kept and used. Reconfirms the
 ~200-IDs-per-furigana-screen sizing prescription exactly — no new diagnosis, pure
 reinforcement that the §A furigana range should cap at ~200 IDs rather than 500.
+
+**Update 2026-06-26 (sixth truncation — and the prescription tightened to ≤~100 IDs)**: A 2026-06-25
+accuracy-review furigana phase sized its screening range to **9741–10300 (560 IDs)** and **timed out at ~74
+entries in ~9 min** (~7 s/entry against single-stream gemini-2.5-flash), the sixth confirmed truncation in three
+weeks. The observing run's prescription is **≤~100 IDs/run** (slightly tighter than the standing ~200 figure,
+reflecting the shorter wall budget some runs get) **or add batching/concurrency** so the furigana pass completes
+inside the Routine's time budget. No new diagnosis — the binding constraint remains the serial per-entry
+gemini-2.5-flash latency; option (a) (size the range to the budget) is still the smallest fix, with internal
+batching/concurrency (option b/d) the durable one if furigana screening is to cover large ranges in one run.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -1013,6 +1034,18 @@ note**: a hard gate should land *with or after* the curated-migration systemic-f
 order is (1) curated migration sweep to drain the backlog, then (2) flip the gate to error so
 it can't re-accumulate. Until then, keep it a warning but watch the dict-wide count.
 
+**Update 2026-06-26 (PARTIAL — the inflow gate shipped as a baseline ratchet)**: A 2026-06-25 tooling-fix
+session shipped the **inflow half** of this item without blocking the legacy tail — the correctly-sequenced
+intermediate the note above asks for. It added `validate_tags.py --check-no-new-unknown` (now a CI step) backed
+by `build/data/unknown_semantic_baseline.json`, which **fails CI only when an entry introduces a *new*
+off-`VALID_SEMANTIC` tag**, while the pre-existing legacy tail (re-measured at **8,267 instances / 6,759 entries
+/ 1,109 distinct tags**) passes. This is exactly step (1.5): new entries can no longer add to the backlog (closing
+the "draining a backlog new creation keeps refilling" losing race), but legitimate work on the 6,759 existing
+entries is not blocked. Regenerate the baseline after each migration batch with `--write-unknown-baseline`.
+**Remaining work for this item**: the full step-(2) flip to a hard *error* on any off-list tag, to be done after
+the curated-migration systemic-fix drain (Cleanup P20) brings the legacy count to zero (or near it). Documented in
+[Schema Tag Reliability](../topics/schema-tag-reliability.md).
+
 ## 28. systemic-fix selector should skip scope-0 standing checks
 
 **Source**: 2026-06-22 routine systemic-fix run (selector landed on a no-op item)
@@ -1070,7 +1103,24 @@ sibling to `check_artifacts.py`; this is what would convert Cleanup P22 from a p
 a `batch_ready` systemic-fix item. Low risk (display-only), but it changes visible header
 text on thousands of pages, so spot-check after the canonical map is fixed.
 
-## 30. `sweep-stranded-prs.py` fails with HTTP 403 against api.github.com under the agent proxy
+## 30. `sweep-stranded-prs.py` fails with HTTP 403 against api.github.com under the agent proxy — RESOLVED 2026-06-26
+
+**Status (resolved 2026-06-25 tooling-fix session, harvested 2026-06-26)**: Fixed via **option (b) + (c)
+combined** — the strand-sweep and CI-gate are now done through the GitHub **MCP** server, and the legacy direct-REST
+scripts exit cleanly instead of crashing. The session diagnosed the 403 precisely: it is **not** a token/network/egress
+problem (unauthenticated reads return 200, the CONNECT tunnel succeeds, only *authenticated* REST is refused — a
+platform policy 403 "GitHub access is not enabled for this session"), so "fix the auth" was the wrong framing; the real
+fix was to **stop depending on direct REST**. The Routine now sweeps strands via `list_pull_requests` + `get_files` +
+`update_pull_request`(close) and gates CI via `pull_request_read method=get_check_runs`, and both
+`pipeline/sweep-stranded-prs.py` and `pipeline/wait-for-pr-checks.sh` now detect the 403 and exit cleanly with a
+pointer (sweep = no-op exit 0, wait = exit 3) rather than a bare traceback. CLAUDE.md, routine2.md,
+comprehensive_polish.md, newentries.md, fix_spurious_conjugations.md, and fix_semantic_tag_drift.md were updated to make
+the MCP path authoritative. **A latent rescue bug was fixed in the same session**: §0a's rescue gate and several prompts
+used `pull_request_read method=get_status`, but the legacy combined-status API is blind to GitHub Actions check-runs
+(it returns `state:"pending", total_count:0` for a PR whose `validate` check actually succeeded — verified on PR 2808),
+so a `get_status`-based rescue could never confirm green; all CI-status checks were switched to `method=get_check_runs`
+(green = `total_count≥1` AND every run completed with conclusion `success`/`neutral`/`skipped`). The original bug report
+is retained below for context.
 
 **Source**: 2026-06-25 routine pre-flight (wiki run)
 
