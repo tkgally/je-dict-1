@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-26] maintenance | Observation harvest (P20 9741–9849 + enforce-side ratchet, P21 06271–06281, items 30 RESOLVED / 27 PARTIAL / 21 / 20, 29452 resolved + new 書き替える)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep. Lock acquired cleanly. (The legacy `sweep-stranded-prs.py` 403 path is no longer exercised — the §0b sweep runs via MCP, per the 2026-06-25 item-30 fix.)
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (nothing to verify, OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- [F/Harvest] Processed all **12** unharvested observations from the 2026-06-25 accuracy-review (9741–9814) / tooling-fix / new-entries runs and the 2026-06-26 routine polish run (frontier 06275–06281):
+  - **Cleanup Backlog P20 — two updates** — (a) the daily-life/errands free-form tag cohort continues into **9741–9814** (14/70 = 20%; subscriptions/services 9741–9748 + civil-paperwork 9809–9814, migrated) and a *new, denser* shopping/tech cohort at **9815–9849** (21/35 = 60%, migrated by the new-entries run; recommends a new-entry-skill note). (b) **enforce-side shipped** — documented the 2026-06-25 off-vocab **baseline ratchet** (`validate_tags.py --check-no-new-unknown` + `unknown_semantic_baseline.json`, now a CI step; live scope re-measured 8,267 instances / 6,759 entries / 1,109 distinct tags) that gates *new* drift while leaving the legacy tail to the gradual lane.
+  - **Cleanup Backlog P21 update** — the zero-inline-link create-era band reaches the **06271–06281** mimetic / yojijukugo / 拝〜-keigo cohort (not just onomatopoeia — 06275–06281 had fully naked examples AND notes); band now unbroken ~06150→06281; recommends a dedicated **~06275–06600** inline-link sweep.
+  - **Tooling Backlog item 30 RESOLVED** — strand-sweep + CI-gate routed through MCP, scripts now exit cleanly on the platform-policy 403; **latent rescue bug fixed in the same session** (`get_status`, blind to Actions check-runs, → `get_check_runs` across §0a and five prompts).
+  - **Tooling Backlog item 27 PARTIAL** — the inflow gate shipped as the item-30-session baseline ratchet (correctly-sequenced step 1.5; the full hard-error flip still waits on the curated-migration P20 drain).
+  - **Tooling Backlog item 21 update (sixth truncation)** — a 560-ID furigana screen (9741–10300) timed out at ~74 entries in ~9 min → tighten to ≤~100 IDs/run or add batching/concurrency.
+  - **Tooling Backlog item 20 update (sixteenth no-op confirmation)** — 5/6 priority-lane entries no-op; the lone non-no-op (00304 何でも) was a *cross-reference* fix the notes scorer doesn't measure (the ranking is on the wrong axis).
+  - **Entry Follow-ups** — **29452 猿人 RESOLVED** (reading corrected さるじん→えんじん, file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run; drop redundant candidate C22059); **new** 書き替える (C22065) — 替-variant of 08225 書き換える, fold as alternate orthography rather than create a fresh entry.
+  - **Reinforcement only** — the candidate-quality `[pattern]` (low-signal corpus tail; ~8 safe words/run) is the already-filed Tooling item 23 + Open Issues finding; recommends a curator-side `clean_up_candidates_list.md` purge.
+- [A/Sync] Refreshed `project/overview.md` General-tier count (~26,496 of 29,279 total as of 2026-06-26).
+- [H/Metrics trend] **Not due** — only 7 new `metrics-history.jsonl` lines (139 total) since the page's last refresh at 132 runs (threshold ≥10).
+
 ## [2026-06-25] maintenance | Observation harvest (P20 ~9657–9740, new item 30 sweep-403, items 20/28, 29452 follow-up) + metrics ninth refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")

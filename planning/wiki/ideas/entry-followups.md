@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-25 (added 29452_sarujin 猿人 wrong-reading さるじん vs standard えんじん — curator reconcile with candidate C22059. Prior 2026-06-23: 00642_kinyoubi missing weekday cross_references)
+**Last updated**: 2026-06-26 (29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -567,7 +567,16 @@ across all seven weekday entries at once (find them by reading 〜ようび / gl
 rather than fixing one in isolation. This is the same thematic-cluster symmetry work as
 [Cleanup Backlog](cleanup-backlog.md) → Priority 3.
 
-## 29452_sarujin (猿人) — wrong reading さるじん (standard is えんじん)
+## 29452 (猿人) — wrong reading さるじん → corrected to えんじん — RESOLVED 2026-06-25
+
+**Status (resolved 2026-06-25 routine new-entries run, harvested 2026-06-26)**: A 2026-06-25 new-entries
+run corrected the entry: **reading → えんじん**, the headword and examples were re-furiganaed (the old
+headword was also bare/unwrapped), and the file was renamed **29452_sarujin → 29452_enjin**. The standard
+reading was confirmed by entry **29467 原人**, which cross-references 猿人 / えんじん. The run took the
+filename-romaji change (URL change on the `_sarujin`→`_enjin` suffix; the five-digit ID is unchanged).
+Candidate **C22059** (猿人 / えんじん) is now redundant and should be dropped on the next candidate sync.
+The observing run flagged a follow-on watch item: **other rare-reading slips may exist in the 29400+
+corpus-harvest block** — worth a spot-check as polishing/review reaches that range.
 
 **Source**: 2026-06-24 new-entries run (flagged by the 2026-06-24 routine, harvested 2026-06-25)
 
@@ -577,13 +586,19 @@ is **えんじん** ("ape-man"), parallel to the established series 原人 (げ�
 run added candidate **猿人 / えんじん (C22059)** with the correct reading, so the dictionary now has the
 word queued twice under two readings.
 
-**Recommended action (curator)**: reconcile the two — either **correct 29452's reading** to えんじん
-(headword, all furigana wrappers, the romaji in the ID/filename, and `conjugation`-free so no table to
-regenerate) **and drop candidate C22059** as now-redundant, **or** confirm whether さるじん is an
-attested colloquial variant worth keeping as a second reading. Because changing the reading changes the
-romaji portion of the filename/ID, this is an ID-affecting edit that needs the curator's sign-off rather
-than an in-pass fix (the five-digit ID stays; only the `_sarujin`→`_enjin` romaji suffix would change,
-which is itself a URL change — confirm the renumber/rename policy before acting).
+## 書き替える (かきかえる, candidate C22065) — 替-orthography variant of 08225 書き換える, not a distinct word
+
+**Source**: 2026-06-25 routine new-entries run
+
+A new-entries run hit candidate **書き替える (かきかえる, C22065)** and recognised it as a 替-kanji
+orthographic variant of the existing entry **08225 書き換える (書き*換*える)** — the same word, same
+reading (かきかえる), differing only in the 替/換 kanji choice. The run **skipped it** rather than create
+a near-duplicate entry.
+
+**Recommended action (curator)**: fold 書き替える into 08225 as an **alternate-orthography note / variant
+headword** (the dictionary's standard handling of kanji variants — see
+[Word Variants](../topics/word-variants.md)), then drop candidate C22065 on the next sync. Until then the
+candidate is parked for the curator; it should **not** be drawn as a fresh entry by a future new-entries run.
 
 ## Related pages
 
