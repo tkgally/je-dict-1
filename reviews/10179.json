@@ -1,0 +1,173 @@
+{
+  "entry_id": "10179",
+  "word": "{出力装置|しゅつりょくそうち}",
+  "reading": "しゅつりょくそうち",
+  "reviewed_at": "2026-06-26T16:51:14Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 8,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "出力装置",
+      "reading": "しゅつりょくそうち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "出力装置",
+      "reading": "しゅつりょくそうち",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "問題",
+      "reading": "もんだい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "問題",
+      "reading": "もんだい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "代表的",
+      "reading": "だいひょうてき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "代表的",
+      "reading": "だいひょうてき",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading 'しゅつ' only covers the first kanji '出', not the entire compound '出力装置'. The correct reading for the full compound is 'しゅつりょくそうち'.",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "出力",
+      "reading": "しゅつりょく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "出力",
+      "reading": "しゅつりょく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "装置",
+      "reading": "そうち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "装置",
+      "reading": "そうち",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "入力装置",
+      "reading": "にゅうりょくそうち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "入力装置",
+      "reading": "にゅうりょくそうち",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "記憶装置",
+      "reading": "きおくそうち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "記憶装置",
+      "reading": "きおくそうち",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "周辺機器",
+      "reading": "しゅうへんきき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "周辺機器",
+      "reading": "しゅうへんきき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 8,
+    "flagged": 1,
+    "ok": 7,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "10179",
+    "screened_at": "2026-06-26T15:55:55Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for \"出力装置\" in entry 3 is incomplete. It should be \"しゅつりょくそうち\" but is given as \"しゅつ\"."
+    ],
+    "confidence": 1.0
+  }
+}

@@ -1,0 +1,164 @@
+{
+  "entry_id": "10177",
+  "word": "{外部機器|がいぶきき}",
+  "reading": "がいぶきき",
+  "reviewed_at": "2026-06-26T16:50:39Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 15,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "外部機器",
+      "reading": "がいぶきき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "接続",
+      "reading": "せつぞく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "認識",
+      "reading": "にんしき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "パソコン",
+      "reading": "ぱそこん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "複数",
+      "reading": "ふくすう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "同時",
+      "reading": "どうじ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "使",
+      "reading": "つか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "外部",
+      "reading": "がいぶ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "機器",
+      "reading": "きき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "取",
+      "reading": "と",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "外",
+      "reading": "はず",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "外付",
+      "reading": "そとづ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "周辺機器",
+      "reading": "しゅうへんきき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "入力機器",
+      "reading": "にゅうりょくきき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "出力機器",
+      "reading": "しゅつりょくきき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 15,
+    "flagged": 0,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "10177",
+    "screened_at": "2026-06-26T15:55:40Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for \"複数\" is given as \"ふくすう\" but the following text shows \"の{外部機器|がいぶ)\". This implies that \"複数\" is being read as \"ふくすう\" but the following kanji \"の\" is not part of the reading, which is correct. However, the reading for \"外部機器\" is given as \"がいぶ\" which is incomplete. The full reading should be \"がいぶきき\"."
+    ],
+    "confidence": 0.8
+  }
+}

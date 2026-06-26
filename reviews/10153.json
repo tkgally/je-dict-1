@@ -1,0 +1,137 @@
+{
+  "entry_id": "10153",
+  "word": "{声援|せいえん}",
+  "reading": "せいえん",
+  "reviewed_at": "2026-06-26T16:49:49Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 12,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "声援",
+      "reading": "せいえん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "観客",
+      "reading": "かんきゃく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "選手",
+      "reading": "せんしゅ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "送",
+      "reading": "おく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "後押",
+      "reading": "あとお",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "優勝",
+      "reading": "ゆうしょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "応",
+      "reading": "こた",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "熱",
+      "reading": "あつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "声",
+      "reading": "こえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "援",
+      "reading": "えん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "応援",
+      "reading": "おうえん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "歓声",
+      "reading": "かんせい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 12,
+    "flagged": 0,
+    "ok": 12,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "10153",
+    "screened_at": "2026-06-26T15:52:46Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 選手 is given as せんしゅ, but the following text is たちに{声援|せいえ), implying that the reading for 選手 should be せんしゅたちに. However, the instruction states that the reading covers ONLY the kanji portion, and partial readings are correct by design. Therefore, this is not an error."
+    ],
+    "confidence": 0.5
+  }
+}
