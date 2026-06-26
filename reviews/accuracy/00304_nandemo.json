@@ -2,50 +2,15 @@
   "entry_id": "00304_nandemo",
   "headword": "{何|なん}でも",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:07:24Z",
+  "reviewed_at": "2026-06-26T00:28:05Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'descriptive' does not fit the headword's meaning.",
-      "suggestion": "Remove the 'descriptive' tag. '何でも' is not primarily descriptive."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'by all means; at any cost' is slightly incomplete for this sense.",
-      "suggestion": "Add 'no matter what' or 'come what may' to better capture the nuance of determination."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation is a bit too strong for 'らしい'.",
-      "suggestion": "Change 'I hear it's going to rain.' to 'I hear it seems to be rain.' or 'Apparently it's going to rain.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation is a bit too strong for 'らしい'.",
-      "suggestion": "Change 'I hear he's changing jobs.' to 'I hear he seems to be changing jobs.' or 'Apparently he's changing jobs.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "warn",
-      "concern": "The English translation is a bit too strong for 'らしい'.",
-      "suggestion": "Change 'I hear those two have been friends since high school.' to 'I hear those two seem to have been friends since high school.' or 'Apparently those two have been friends since high school.'"
-    }
-  ]
+  "issues": []
 }
