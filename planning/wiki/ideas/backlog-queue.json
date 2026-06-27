@@ -135,9 +135,9 @@
       "priority": 8,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 1546,
+      "scope_estimate": 1517,
       "severity": "info",
-      "notes": "Mostly cosmetic (canonical form: お{酒|さけ}, {若|わか}い). Lower priority. Verify each rewrap against build/word_id_lookup.json so inline-link lookups still resolve. 2026-06-25 routine swept the 06000-06400 slice (18 instances / 16 entries: pure-kana katakana de-wraps, o/go-prefix repositions, over-wrapped okurigana splits incl. rendaku readings ぞこ/ぼし); detector total 1565->1547. Next ready slice: 06400+ and the larger pre-06000 backlog."
+      "notes": "Mostly cosmetic (canonical form: お{酒|さけ}, {若|わか}い). Lower priority. Verify each rewrap against build/word_id_lookup.json so inline-link lookups still resolve. 2026-06-25 routine swept the 06000-06400 slice (18 instances / 16 entries; 1565->1547). 2026-06-27 routine swept the 06400-06650 slice (30 instances / 24 entries; 1547->1517): katakana-loanword de-wraps, o-prefix repositions (お{寺|てら}), over-wrapped okurigana splits ({余|あま}り, やり{方|かた}, {引|ひ}っ{越|こ}), numeral de-wraps (20/10/4), symbol/letter readings to parentheticals (#（シャープ）, V2（ブイツー）), and one English-gloss-as-reading bug ({ゴマフアザラシ|spotted seal} -> ゴマフアザラシ (spotted seal)). Next ready slice: 06650+ and the larger pre-06000 backlog."
     },
     {
       "id": "tag-sole-general",

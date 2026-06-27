@@ -228,6 +228,23 @@ clean, and a furigana self-check screened the changed IDs with **0 flags**. The 
 **open** — it is dictionary-wide (remaining ~1546 across the o-go-prefix/pure-kana/over-wrapped
 sub-patterns); the next ready slice is 06400+ and the larger pre-06000 backlog.
 
+
+**Update 2026-06-27 (06400–06650 slice swept)**: A routine systemic-fix run worked the
+next scoped slice per-entry, fixing **30 instances across 24 entries** (`detect` total 1547 →
+1517): katakana-loanword de-wraps (リフォーム/カード/メイク/バレーボール/キック/プル/ボール/エース/
+パワーフォワード/スモールフォワード/オフィス — hiragana ruby over katakana is redundant), o-prefix
+repositions (`{お寺|おてら}` → `お{寺|てら}`, `{お正月|しょうがつ}` → `お{正月|しょうがつ}`),
+over-wrapped okurigana splits (`{余り|あまり}` → `{余|あま}り`, `{やり方|やりかた}` → `やり{方|かた}`,
+`{引っ越|ひっこ}` → `{引|ひ}っ{越|こ}`, `{瞬き|まばたき}` → `{瞬|まばた}き`), numeral de-wraps to bare
+digits (`{20|にじゅう}` → `20`, etc.), and symbol/letter readings converted to standard parenthetical
+form to drop the malformed wrapper while preserving the reading (`{#|シャープ}` → `#（シャープ）`,
+`{V2|ブイツー}` → `V2（ブイツー）`). One genuine **bug** also fixed: an English gloss sitting where the
+reading belongs — `{ゴマフアザラシ|spotted seal}` rendered "spotted seal" as ruby — corrected to
+`ゴマフアザラシ (spotted seal)`. This **English-text-after-pipe** form is a degenerate wrapper the
+detector currently lumps into `pure-kana`; a dedicated check (right side contains Latin letters /
+is an English phrase) would surface the class cleanly — see [Tooling Backlog](tooling-backlog.md) →
+item 8. §4 furigana self-screen: 2 model flags, both rejected (okurigana び of 喜ぶ; katakana プロ
+takes no furigana). Next ready slice: 06650+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
