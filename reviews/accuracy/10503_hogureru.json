@@ -1,0 +1,31 @@
+{
+  "entry_id": "10503_hogureru",
+  "headword": "ほぐれる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T03:40:31Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'state-change' is not in the valid tag list.",
+      "suggestion": "change"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion-feeling' is not in the valid tag list.",
+      "suggestion": "emotion"
+    }
+  ]
+}

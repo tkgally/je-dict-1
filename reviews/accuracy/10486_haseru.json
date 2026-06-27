@@ -1,0 +1,45 @@
+{
+  "entry_id": "10486_haseru",
+  "headword": "{馳|は}せる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T03:40:11Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'thought-emotion' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to send one's thoughts afar' is misleading as it implies a physical sending, whereas the meaning is about directing one's thoughts or imagination. The second sense is more accurately 'to direct one's thoughts/imagination to something distant'.",
+      "suggestion": "to rush; to direct one's thoughts afar"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to send one's thoughts afar' is misleading as it implies a physical sending, whereas the meaning is about directing one's thoughts or imagination. The second sense is more accurately 'to direct one's thoughts/imagination to something distant'.",
+      "suggestion": "to direct one's thoughts afar, to let one's mind wander"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'I rushed over' for '馳せた' is too generic and loses the nuance of '駆け付けるように' (as if to rush to the scene/come running).",
+      "suggestion": "Upon hearing the news, I rushed over as if to come running."
+    }
+  ]
+}
