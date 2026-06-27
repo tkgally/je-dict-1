@@ -3,6 +3,25 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-23 (Routine v2: new-entries — 14 New Entries, IDs 29429–29442)
+Created the 6 remaining priority "seen in entry" candidates (internal-completeness gaps referenced from polish-frontier entries 06239/06240/06243/06244) plus 8 hand-curated, lexicalized standalone nouns. §4 cross-model self-check came back **CLEAN on all 14** (0 issues, $0.0061). Logged a `[pattern]` observation: candidate_words.json is now largely exhausted of genuine standalone gaps — ~600 surveyed + ~25 extracted base words probed, and nearly every common base word (曖昧, 無難, ぎこちない, 巧み, 速やか, 潔い, 仲良し, 無邪気…) already exists as an entry; remaining pool is mostly transparent compounds, inflected fragments, numeral/counter compounds, and rare coinages. Recommend a curator clean_up_candidates pass + quality restock.
+
+- **Seen-in-entry (6)**: {社風|しゃふう} (company culture), {能率的|のうりつてき} (efficient; na-adj), {守備的|しゅびてき} (defensive; na-adj), プレー (play, sports; noun+suru), {書|か}き{続|つづ}ける (to keep writing; ichidan), {仲良|なかよ}い (on good terms; i-adj)
+- **Standalone nouns (8)**: アクション{映画|えいが} (action movie), {走行距離計|そうこうきょりけい} (odometer), {冷却材|れいきゃくざい} (coolant), {肉体労働者|にくたいろうどうしゃ} (manual laborer), {国語教育|こくごきょういく} (Japanese-language education), {加盟団体|かめいだんたい} (member organization), {輸送機関|ゆそうきかん} (means of transport), {糖尿病患者|とうにょうびょうかんじゃ} (diabetic patient)
+
+### 2026-06-22 (Routine v2: new-entries — 20 New Entries, IDs 29409–29428)
+Created the 5 remaining priority "seen in entry" candidates (反対語, 襖絵, 茶席, けんちん汁, 骨子 — internal-completeness gaps referenced from entries 06231/06233/29399/29405/29406) plus 15 hand-curated standalone general-tier nouns. The fallback "oldest unprocessed" candidate lane stays largely corpus-harvest noise (bare numerals/counters, transparent 〜化/〜性 compounds, OCR artifacts), so standalone picks were curated for genuine dictionary-worthiness rather than padding from the raw queue. No new kanji. §4 self-check: all 20 CLEAN (0 issues), $0.0086.
+
+- **Seen-in-entry (5)**: {反対語|はんたいご} (antonym), {襖絵|ふすまえ} (fusuma painting), {茶席|ちゃせき} (tea gathering), けんちん{汁|じる} (kenchin soup), {骨子|こっし} (gist/outline)
+- **Standalone nouns (15)**: {段|だん}ボール{箱|ばこ} (cardboard box), {速度計|そくどけい} (speedometer), {文例|ぶんれい} (model sentence), {定型表現|ていけいひょうげん} (fixed expression), {控除額|こうじょがく} (deduction amount), {黄褐色|おうかっしょく} (yellowish brown), {音楽理論|おんがくりろん} (music theory), {展望塔|てんぼうとう} (observation tower), {尾翼|びよく} (aircraft tail), {舗装道路|ほそうどうろ} (paved road), {工業団地|こうぎょうだんち} (industrial park), {共同研究|きょうどうけんきゅう} (joint research), {職務経歴|しょくむけいれき} (work history), {挨拶文|あいさつぶん} (greeting message), {保護具|ほごぐ} (protective gear)
+
+### 2026-06-22 (Routine v2: new-entries — 19 New Entries, IDs 29390–29408)
+Created all 19 priority "seen in entry" candidates (C22013–C22031) — internal-completeness gaps the dictionary already referenced from polish-frontier entries (06222, 06226–06229, 06797, 17173, 17276, 17278, 17755, etc.). New kanji 罷 (from 罷免) was assigned ID 02775. §4 self-check (cross-model accuracy review of all 19) came back clean except 29401 取り付く, where "to set about" was demoted from the headline gloss to the explanation as an extended sense (1 applied). Added 3 new candidates encountered in notes (反対語, 襖絵, 茶席).
+
+- **Nouns**: {制震|せいしん} (seismic damping), {欠礼|けつれい} (omission of courtesy), {罷免|ひめん} (dismissal from office), {悪者|わるもの} (villain), {対義語|たいぎご} (antonym), {年賀状|ねんがじょう}じまい (ending one's New Year's card custom), {金屏風|きんびょうぶ}/{銀屏風|ぎんびょうぶ} (gold/silver folding screen), {屏風絵|びょうぶえ} (folding-screen painting), {風炉先屏風|ふろさきびょうぶ} (tea-ceremony screen), ちゃぶ{台|だい}{返|がえ}し (table-flip reversal), {頑固親父|がんこおやじ} (stubborn old man)
+- **Suru-verbs**: {妊娠|にんしん}する (to become pregnant), {創造|そうぞう}する (to create), {肯定|こうてい}する (to affirm), {推薦|すいせん}する (to recommend), {企画|きかく}する (to plan)
+- **Other verbs**: {鎮|しず}める (to quell; ichidan, paired with {鎮|しず}まる), {取|と}り{付|つ}く (to cling to; godan)
+
 ### 2026-06-21 (Routine v2: new-entries — 11 New Entries, IDs 29379–29389)
 Created 11 priority "seen in entry" candidates — internal-completeness gaps the dictionary already referenced (from polish frontier entries 06211–06221 plus 管理栄養士 from 29375). Removed stale candidate C22001 (ぼたもち): it is a kana variant of existing entry 29357 牡丹餅, not a new word. The fallback "oldest unprocessed" lane was skipped again — those candidates remain largely low-quality compositional phrases and OCR artifacts (権使, 些道, 怒燥, 火虫), so the run stayed focused on the 11 high-quality gaps rather than padding to ~20.
 
