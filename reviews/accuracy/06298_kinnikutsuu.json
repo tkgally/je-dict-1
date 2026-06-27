@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T21:30:38Z",
+  "reviewed_at": "2026-06-27T12:26:42Z",
   "summary": {
     "flagged": 2
   },
@@ -17,14 +17,14 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'emotion' is incorrect for '筋肉痛'.",
-      "suggestion": "Remove 'emotion' and add 'health'."
+      "concern": "The tag 'body-part' is incorrect for '筋肉痛' (muscle pain). '筋肉痛' refers to a sensation or condition, not a body part itself.",
+      "suggestion": "Remove 'body-part'."
     },
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality 'informal' is incorrect for '筋肉痛'.",
+      "concern": "The formality tag 'informal' is incorrect. '筋肉痛' is a neutral, common medical term, not informal.",
       "suggestion": "Change 'informal' to 'neutral'."
     }
   ]
