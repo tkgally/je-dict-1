@@ -51,6 +51,11 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-27 (Routine v2: new-entries — 15 New Entries, IDs 29517–29531)
+Created 15 general-tier entries, all from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06294–06302, 29514). §4 cross-model self-check: **15 CLEAN, 0 flagged**. $0.0065.
+
+- **Seen-in-entry (15)**: {巻積雲|けんせきうん} (cirrocumulus), {要注意|ようちゅうい} (requiring caution), {貸衣装|かしいしょう} (rental costume), {黒留袖|くろとめそで} (black formal kimono), {油紙|あぶらがみ} (oilpaper), {香道|こうどう} (way of incense), {仏事|ぶつじ} (Buddhist service), {仏前|ぶつぜん} (before the altar), {聞香|もんこう} (appreciating incense), てんかん (epilepsy), こむら{返|がえ}り (calf cramp), {電解質|でんかいしつ} (electrolyte), {胸痛|きょうつう} (chest pain), {今期|こんき} (this term), {生|う}む (to produce/generate; verb-godan, cross-ref {産|う}む)
+
 ### 2026-06-27 (Routine v2: new-entries — 10 New Entries, IDs 29507–29516)
 Created the 4 genuine "seen in entry" priority candidates plus 6 hand-curated standalone general-tier words. The non-seen candidate tail is still overwhelmingly corpus-harvest noise (transparent compounds, bare numerals/counters, dialect fragments, misglosses — e.g. アンパッサン "ice cream sundae"), so the 6 standalone picks were vetted individually for genuine dictionary-worthiness rather than padded from the oldest queue; logged a `[pattern]` observation requesting curator restock/pruning. **Created 書き替える** (替-variant of existing 08225 書き換える) — the prior two runs deferred it to the curator, but as a real "seen in entry" candidate (referenced from 06270) it is now a single-sense v2.0 entry cross-referenced to 08225 as alternate orthography. Conjugation table added to the one verb; no new kanji. §4 cross-model self-check on all 10 changed entries: **9 fully clean; 0 applied; 1 rejected** (29515 脱色剤: model flagged semantic `daily-life`→`health`, but `health` is wrong for a household/hair bleach and `daily-life` is in `VALID_SEMANTIC` — in-list breadth nit, rejected per the semantic-tag policy). $0.0043. Captured 巻積雲 (けんせきうん) as a new "seen in entry" candidate referenced from the new 高積雲 entry.
 
@@ -76,10 +81,5 @@ Created the 16 priority "seen in entry" candidates remaining in the queue — in
 - **Nouns**: {国有地|こくゆうち} (state-owned land), {成功報酬|せいこうほうしゅう} (contingency fee), {手付金|てつけきん} (deposit/earnest money), {長打|ちょうだ} (extra-base hit), {原人|げんじん} (early human/Homo erectus), {対数関数|たいすうかんすう} (logarithmic function), {刻印|こくいん} (engraved mark; verb-suru), {収穫量|しゅうかくりょう} (harvest yield), {貸付金|かしつけきん} (loan, lender side), eスポーツ (esports), ストリーマー (streamer)
 - **Na-adjectives / modifiers**: ヘビー (heavy/intense), コア (core; noun+adj-na), エキサイティング (exciting), センセーショナル (sensational)
 - **I-adjective (slang)**: あざとかわいい (calculatedly cute)
-
-### 2026-06-24 (Routine v2: new-entries — 20 New Entries, IDs 29443–29462)
-Created 20 hand-curated standalone general-tier nouns. The selector reported `seen_in_entry_count` 0, so there was no priority lane; the fallback "oldest unprocessed" candidate pool is heavily polluted (compositional phrases, bare numerals/counters, place-name misglosses, and coinages/wrong glosses — e.g. アンパッサン glossed "ice cream sundae" for *en passant*; 怒燥 for 怒涛), so all 20 were cherry-picked for genuine dictionary-worthiness after surveying ~300 candidates. Removed 2 stale variant candidates (油粕 = variant of existing 油かす 29276; 分速/ぶんそく = wrong-reading dup of 分速/ふんそく 16680). Added 9 referenced words as new "seen in entry" candidates. §4 cross-model self-check: **19 CLEAN; 1 flagged** — 29451 塁打, where the model correctly caught that the entry conflated 塁打 ("total bases") with 安打 ("a hit"); the entry was rewritten and all 4 issues applied. $0.0087.
-
-- **Entries (20)**: {語学力|ごがくりょく} (language ability), {湿地帯|しっちたい} (wetland), {公有地|こうゆうち} (public land), {所有地|しょゆうち} (owned land), {着手金|ちゃくしゅきん} (retainer fee), {虜囚|りょしゅう} (captive), {銘刻|めいこく} (inscription; verb-suru), {講義録|こうぎろく} (lecture notes), {塁打|るいだ} (total bases, baseball), {猿人|さるじん} (early hominid), {指数関数|しすうかんすう} (exponential function), {借入金|かりいれきん} (borrowed money), {漁獲量|ぎょかくりょう} (fish catch), {受水槽|じゅすいそう} (water tank), {速読法|そくどくほう} (speed reading), {末期症状|まっきしょうじょう} (terminal symptoms), {燕尾|えんび} (swallowtail), {預金利率|よきんりりつ} (deposit interest rate), {送信機|そうしんき} (transmitter), {結晶質|けっしょうしつ} (crystalline; adj-no)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
