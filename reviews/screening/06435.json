@@ -1,8 +1,10 @@
 {
   "entry_id": "06435",
-  "screened_at": "2026-06-17T09:33:45Z",
+  "screened_at": "2026-06-27T09:24:11Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
-  "confidence": 1.0
+  "flagged": true,
+  "concerns": [
+    "The reading for '大喜' is 'おおよろこび', but the provided reading 'おおよろこ' is missing the final 'び' which is part of the kanji reading, not okurigana."
+  ],
+  "confidence": 0.9
 }
