@@ -1,0 +1,38 @@
+{
+  "entry_id": "10659_datsuryoku",
+  "headword": "{脱力|だつりょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:48Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'state' is not in the valid tag list.",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'style' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

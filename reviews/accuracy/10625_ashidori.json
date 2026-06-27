@@ -1,0 +1,24 @@
+{
+  "entry_id": "10625_ashidori",
+  "headword": "{足取|あしど}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'investigation' is not a valid semantic tag.",
+      "suggestion": "cognition"
+    }
+  ]
+}

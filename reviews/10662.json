@@ -1,0 +1,200 @@
+{
+  "entry_id": "10662",
+  "word": "{巡礼|じゅんれい}",
+  "reading": "じゅんれい",
+  "reviewed_at": "2026-06-27T15:50:59Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 19,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "巡礼",
+      "reading": "じゅんれい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "四国",
+      "reading": "しこく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "出",
+      "reading": "で",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "八十八",
+      "reading": "はちじゅうはち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "所",
+      "reading": "しょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "達成",
+      "reading": "たっせい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "者",
+      "reading": "しゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "白装束",
+      "reading": "しろしょうぞく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "歩",
+      "reading": "ある",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "聖地",
+      "reading": "せいち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "映画",
+      "reading": "えいが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "訪",
+      "reading": "おとず",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "地方",
+      "reading": "ちほう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "観光",
+      "reading": "かんこう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "貢献",
+      "reading": "こうけん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "増",
+      "reading": "ふ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "四国八十八",
+      "reading": "しこくはちじゅうはち",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "巡",
+      "reading": "めぐ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "弘法大師",
+      "reading": "こうぼうだいし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 19,
+    "flagged": 0,
+    "ok": 19,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "10662",
+    "screened_at": "2026-06-27T15:30:10Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for item 18, {巡|めぐ}, is incorrect. The kanji 巡 in the context of \"Shikoku Hachijūhachi-kasho Meguri\" (四国八十八ヶ所巡り) should be read as めぐり, but the provided reading only covers 巡 as めぐ. The 'り' is part of the kanji's reading in this context, not okurigana."
+    ],
+    "confidence": 0.9
+  }
+}

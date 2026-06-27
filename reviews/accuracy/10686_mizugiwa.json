@@ -1,0 +1,31 @@
+{
+  "entry_id": "10686_mizugiwa",
+  "headword": "{水際|みずぎわ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T16:00:15Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature-water' is not in the valid tag list.",
+      "suggestion": "nature"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'society-policy' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

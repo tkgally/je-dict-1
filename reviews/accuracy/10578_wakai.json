@@ -1,0 +1,24 @@
+{
+  "entry_id": "10578_wakai",
+  "headword": "{和解|わかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:58:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '和解' (wakai) means 'settlement, reconciliation' and is a suru-verb. The tag 'communication' is too narrow and does not fully capture the meaning of resolving disputes or reaching agreements. 'Action' is a more appropriate tag for suru-verbs.",
+      "suggestion": "Replace 'communication' with 'action'."
+    }
+  ]
+}
