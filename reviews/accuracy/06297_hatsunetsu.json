@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T21:30:37Z",
+  "reviewed_at": "2026-06-27T06:29:08Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
+      "location": "tags.formality",
       "severity": "error",
-      "concern": "The tag 'body-part' is incorrect for '発熱' (fever/generating heat).",
-      "suggestion": "Replace 'body-part' with 'health' or 'science' (depending on the sense)."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'time-general' is incorrect for '発熱' (fever/generating heat).",
-      "suggestion": "Remove 'time-general'."
+      "concern": "The headword '発熱' is not formal. It is a neutral term used in everyday conversation and medical contexts.",
+      "suggestion": "neutral"
     }
   ]
 }
