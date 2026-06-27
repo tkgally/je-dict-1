@@ -1,0 +1,24 @@
+{
+  "entry_id": "10525_mabara",
+  "headword": "まばら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T03:40:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'quantity-amount' is not appropriate for 'まばら'.",
+      "suggestion": "Replace 'quantity-amount' with 'descriptive'."
+    }
+  ]
+}

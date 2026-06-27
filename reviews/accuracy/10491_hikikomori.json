@@ -1,0 +1,24 @@
+{
+  "entry_id": "10491_hikikomori",
+  "headword": "{引|ひ}きこもり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T03:40:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'society-social-issue' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

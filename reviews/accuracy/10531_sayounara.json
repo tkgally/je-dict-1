@@ -1,0 +1,38 @@
+{
+  "entry_id": "10531_sayounara",
+  "headword": "さようなら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T03:41:03Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'goodbye' is misleading as it implies a general farewell, but the explanation clarifies it's for extended periods, which is a crucial distinction for learners.",
+      "suggestion": "goodbye (for an extended period)"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'goodbye' is misleading as it implies a general farewell, but the explanation clarifies it's for extended periods, which is a crucial distinction for learners.",
+      "suggestion": "goodbye (for an extended period)"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect. While 'sayounara' is more formal than 'jaane' or 'baibai', it is not considered a polite expression in modern Japanese. It can even sound somewhat cold or final, especially when used casually.",
+      "suggestion": "plain"
+    }
+  ]
+}
