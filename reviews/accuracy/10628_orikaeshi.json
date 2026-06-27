@@ -1,0 +1,24 @@
+{
+  "entry_id": "10628_orikaeshi",
+  "headword": "{折|お}り{返|かえ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'direction' is not appropriate for the headword '折り返し'. While some examples involve 'turnaround point', the core meaning of '折り返し' is about returning or folding, not direction itself.",
+      "suggestion": "Remove 'direction'."
+    }
+  ]
+}

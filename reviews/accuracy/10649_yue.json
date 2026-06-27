@@ -1,0 +1,24 @@
+{
+  "entry_id": "10649_yue",
+  "headword": "{故|ゆえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'logic' is not appropriate for '故 (ゆえ)'. While 'reason' is correct, 'logic' implies a formal system of reasoning, which is not the primary meaning or usage of this word.",
+      "suggestion": "Remove 'logic'."
+    }
+  ]
+}

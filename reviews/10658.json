@@ -1,0 +1,182 @@
+{
+  "entry_id": "10658",
+  "word": "{便宜|べんぎ}",
+  "reading": "べんぎ",
+  "reviewed_at": "2026-06-27T15:50:11Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 17,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "便宜",
+      "reading": "べんぎ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "便宜上",
+      "reading": "べんぎじょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "分",
+      "reading": "わ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "名前",
+      "reading": "なまえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "使",
+      "reading": "つか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "説明",
+      "reading": "せつめい",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The reading 'べんぎじ' only covers 便宜上 as 'べんぎじ', but the correct reading for 便宜上 is 'べんぎじょう'. The reading is incomplete.",
+      "severity": "error"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "簡単",
+      "reading": "かんたん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "例",
+      "reading": "れい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "話",
+      "reading": "はな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "図",
+      "reading": "はか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "知人",
+      "reading": "ちじん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "公務員",
+      "reading": "こうむいん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "特定",
+      "reading": "とくてい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "業者",
+      "reading": "ぎょうしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "問題",
+      "reading": "もんだい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "供与",
+      "reading": "きょうよ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "便利",
+      "reading": "べんり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 17,
+    "flagged": 1,
+    "ok": 16,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "10658",
+    "screened_at": "2026-06-27T15:29:41Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for `便宜上` is `べんぎじ` but the full reading should be `べんぎじょう`."
+    ],
+    "confidence": 0.9
+  }
+}

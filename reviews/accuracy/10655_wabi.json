@@ -1,0 +1,31 @@
+{
+  "entry_id": "10655_wabi",
+  "headword": "{侘|わ}び",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:42Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'aesthetics' is not in the valid tag list.",
+      "suggestion": "art"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'philosophy' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "10642_kimiwarui",
+  "headword": "{気味悪|きみわる}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-27T15:59:26Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'fear' is not in the valid tag list.",
+      "suggestion": "emotion"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'atmosphere' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

@@ -2280,3 +2280,19 @@
 {"ts":"2026-06-27T12:28:12Z","entry":"06300","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"general to health; medical symptom"}
 {"ts":"2026-06-27T12:28:12Z","entry":"06301","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"general to health; medical symptom"}
 {"ts":"2026-06-27T12:28:12Z","entry":"06302","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"work to finance; revenue not labor"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10556","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"会社 がいしゃ->かいしゃ, no rendaku trigger"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10561","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"感銘深い ぶか is correct rendaku"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10573","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"纏わる まつ reading correct"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10592","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"的を射る まと correct; model confused 逆説的"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10610","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"準/擬 なぞら correct rare kun"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10658","src":"furigana","dim":"furigana","sev":"error","decision":"reject","note":"便宜上 べんぎじょう correct, index confusion"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10683","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"すぶり practice-swing reading correct"}
+{"ts":"2026-06-27T15:57:27Z","entry":"10715","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","note":"軍艦巻き okurigana split correct"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":18,"note":"family: off-vocab semantic tag -> in-list migration"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":3,"note":"factual category mismatch (body-part/animal-fish)"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":43,"note":"family: off-vocab semantic tag -> in-list migration"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":12,"note":"family: in-list narrowness/breadth substitution"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","entry":"10567","note":"formality: notes affirm formal register"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","entry":"10671","note":"formality: notes affirm formal register"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","entry":"10675","note":"formality: notes affirm formal register"}
+{"ts":"2026-06-27T16:06:51Z","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","n":2,"note":"10693 documents both senses, ordered correctly"}
