@@ -2,6 +2,19 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-28] maintenance (second run) | Harvest 5 observations of 2026-06-28 runs (P20 10700–11000 katakana/loanword band, P13 06309–06340 placeholder-general, item 8 o-go-prefix mis-suggestion, item 20 21st no-op) + eleventh metrics refresh (160 runs)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested observations + metrics-trend due were the top debt signals)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 5 unharvested observations: **Cleanup P20** new update (10700–11000 katakana/slang/loanword cohort, 10716–10947, two observations consolidated; 10550–10715 reviewer-miss diagnostic) + `backlog-queue.json` `unknown-semantic-tags` note synced; **Cleanup P13** update (06309–06340 placeholder-`general`/`science` frontier signature); **Tooling item 8** enhancement (the `o-go-prefix` suggestion mis-rewrites fixed kana words like おむつ — flag valid, suggestion unreliable); **Tooling item 20** twenty-first no-op confirmation appended to the existing 2026-06-28 update.
+- **[H] Metrics trend — eleventh refresh** of `topics/quality-metrics.md` (16 new lines, 144→160 runs): added 2026-06-27/28 run tables, the 160-run total, updated the all-time dimension + source precision tables, and a runs 119–160 range-state note. Headline: `tags` 76.1% apply-among-decided on the un-reviewed 10xxx cohort, third consecutive escalation-free refresh, review queue new floor 14,572, OpenRouter ≤$0.52/day. No metric moving the wrong way → no new `[pattern]` observation logged.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (~26,539 of 29,342 total).
+
 ## [2026-06-28] maintenance | Harvest all 2026-06-27 observations (P20 10400–10700 band, P21 06294–06308 heavy cohort, P17 verb-suru formal, item 8 two degenerate wrappers, item 20 19th/20th no-op) + sweep 6 orphan bullets
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 23 unharvested observations was the top debt signal)
