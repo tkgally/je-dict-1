@@ -2,22 +2,15 @@
   "entry_id": "00642_kinyoubi",
   "headword": "{金曜日|きんようび}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:45Z",
+  "reviewed_at": "2026-06-28T15:24:14Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for '金' (gold/metal) and its relation to Venus is interesting but not directly relevant to understanding '金曜日' as 'Friday' for an intermediate learner. It adds unnecessary complexity.",
-      "suggestion": "Remove the explanation: 'The kanji 金 means 'gold/metal' and relates to Venus (the 'metal planet' in East Asian tradition).'"
-    }
-  ]
+  "issues": []
 }
