@@ -1,0 +1,31 @@
+{
+  "entry_id": "10930_shiitake",
+  "headword": "シイタケ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T18:46:28Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'food-ingredient' is not in the valid tag list.",
+      "suggestion": "food"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'nature-plant' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

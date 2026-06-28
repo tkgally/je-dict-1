@@ -1,0 +1,24 @@
+{
+  "entry_id": "10923_otoshiana",
+  "headword": "{落|お}とし{穴|あな}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T18:46:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'abstract-concept' is incorrect for the headword '落とし穴'. While it can be used metaphorically (sense 2), its primary meaning (sense 1) is a physical object.",
+      "suggestion": "Replace 'abstract-concept' with 'general' or 'tool' (as a trap)."
+    }
+  ]
+}
