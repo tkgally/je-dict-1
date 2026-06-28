@@ -2,6 +2,28 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-28] maintenance | Harvest all 2026-06-27 observations (P20 10400–10700 band, P21 06294–06308 heavy cohort, P17 verb-suru formal, item 8 two degenerate wrappers, item 20 19th/20th no-op) + sweep 6 orphan bullets
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 23 unharvested observations was the top debt signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- [F/Harvest] Processed all unharvested observations from the 2026-06-27 routine polish / accuracy-review / new-entries / systemic-fix runs, **and swept 6 orphan bullets** that the 2026-06-25 harvest marker recorded as cleared but a prior session left in `observations.md` (the two 2026-06-24 tooling notes-priority/scope-0 items, the 09689–09740 daily-life tag pattern, the 29452 猿人 reading entry, the 2026-06-25 sweep-403 + priority-lane items — all already filed; removed as cleanup). Filed:
+  - **Cleanup Backlog P20 update 2026-06-28** — the free-form out-of-taxonomy tag cohort reaches the **10400–10700 band** (~50/100 invalid in 10450–10549; pushes the mapped cohort above the prior ~9849 ceiling), and a 10550–10715 accuracy-review **migrated 64 but missed ~9** off-vocab tags → the reviewer-driven mode leaves residue even in "reviewed" ranges, so the deterministic `check_tag_drift` sweep is still required there.
+  - **Cleanup Backlog P21 update 2026-06-28** — the zero-inline-link create-era band reaches the heavy **06294–06308** cultural/medical/finance cohort (15–50 links/entry, much `noentry`); band unbroken ~06150→06308; the heaviest slices yet, strengthening the dedicated ~06304–06600 sweep case.
+  - **Cleanup Backlog P17 update 2026-06-28** — a third over-`formal` sub-family: **verb-suru** template default (06307 仲直りする contradicts its own register notes; Gemini-flagged at §4 self-check).
+  - **Cleanup Backlog P13 update 2026-06-28** — the under-specified `general`/`work` on the 06298–06303 medical/finance batch is itself a create-era batch signature (4/5 applied as clearly-correct single-domain; a data point for the open `general`→specific curator policy question).
+  - **Tooling Backlog item 8 enhancement 2026-06-28** — two more degenerate wrappers masked as `pure-kana`: **English-after-pipe** (`{ゴマフアザラシ|spotted seal}` at 06561, severity=error) and **katakana-only-no-pipe** (`{ビル}`/`{モード}` at 06308); both `--fix`-able.
+  - **Tooling Backlog item 20 update 2026-06-28 (19th/20th confirmation)** — two priority/notes lanes ran 6/6 and 5/5 no-op; the regenerate+reset loop now demonstrably **repeats within a single day** (the 5/5 set matched an earlier same-day run). Binding fix unchanged (scorer-bug pair + recency/structural-floor down-weight).
+  - **Tooling Backlog item 21 update 2026-06-28 (seventh truncation-class)** — `review_runner.py` screening+deep ~160 entries/~20 min exceeds one run's wall budget on a full directory; ≤~100–200 IDs/run or a faster screening model.
+  - Reinforcement only: the candidate corpus-harvest-noise `[pattern]` is the already-filed <10%-signal finding (Tooling item 23 + Open Issues).
+- [A/Light sync] Refreshed `project/overview.md` General-tier count (~26,519 of 29,322 total).
+
+**Not done**: Activity H (metrics trend) **not due** — only 9 new `metrics-history.jsonl` lines (153 total) since the page's last refresh at 144 runs (threshold ≥10). No new research/topic pages this run (the harvest was large; quality over quantity). `backlog-queue.json` needed no edits — all harvested items were incremental updates under existing entries with unchanged status/batch-readiness.
+
 ## [2026-06-26] maintenance (second run) | Harvest 5 polish observations (P21 06282–06300, P9 nested-honorific auto-fix, item 20 17th/18th no-op) + tenth metrics refresh
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes")
