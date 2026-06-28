@@ -245,6 +245,26 @@ detector currently lumps into `pure-kana`; a dedicated check (right side contain
 is an English phrase) would surface the class cleanly — see [Tooling Backlog](tooling-backlog.md) →
 item 8. §4 furigana self-screen: 2 model flags, both rejected (okurigana び of 喜ぶ; katakana プロ
 takes no furigana). Next ready slice: 06650+ and the larger pre-06000 backlog.
+
+**Update 2026-06-28 (06650–07300 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **34 instances across 26 entries** (`detect` total 1517 → 1485):
+katakana-loanword de-wraps (コミュニケーション/チーム/コーヒー/クリニック/タオル/ゴキブリ/トイレ/
+ラベンダー/シニア/プレゼント/ベビーチェア/オストメイト/イクメン/カビ/ブランド — hiragana ruby over
+katakana is redundant), pure-kana de-wraps (やっぱり/しまう/めまい/ふらふら/ひょっとこ/きっかけ),
+numeral de-wraps in a ratio example (`{3|さん}対{2|に}` → `3対2`), o-prefix repositions
+(`{お元気|おげんき}` → `お{元気|げんき}`, similarly お{客|きゃく}/お{経|きょう}/お{盆|ぼん}), and
+over-wrapped okurigana splits (`{旨み|うまみ}` → `{旨|うま}み`, `{卸し金|おろしがね}` → `{卸|おろ}し{金|がね}`,
+`{下ろし金|おろしがね}` → `{下|お}ろし{金|がね}`). One detector **mis-suggestion** was caught and
+corrected by hand: `{おむつ替|か}` (in 07140) was flagged `o-go-prefix` with suggestion `お{むつ替|か}`,
+but おむつ is a fixed kana word (not honorific お + むつ) and the only kanji is 替, so the correct
+rewrap is `おむつ{替|か}` — a reminder that the detector's `o-go-prefix` suggestion assumes the お is
+honorific and must be verified per-entry. The 06860 ブランド de-wrap sat inside an inline link
+(`⟦{ブランド|ぶらんど}→ブランド：05221_burando⟧` → `⟦ブランド→ブランド：05221_burando⟧`); it resolves by
+explicit `：entry_id`, so the link still works. Validation and furigana-coverage stayed clean.
+§4 furigana self-screen: 3 model flags, **all rejected** — each was a screener compound-reading-split
+false positive (`{次々|つぎつぎ}`, `{入場料|にゅうじょうりょう}`, `{低血圧|ていけつあつ}` reported as
+truncated although correct in the entry), and none touched the edited furigana. Next ready slice:
+07300+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
