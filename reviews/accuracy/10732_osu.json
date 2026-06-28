@@ -1,0 +1,24 @@
+{
+  "entry_id": "10732_osu",
+  "headword": "{雄|おす}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T03:39:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is incomplete and misleading given the explanation.",
+      "suggestion": "male (animal, plug, connector)"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "10783_kuso",
+  "headword": "くそ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T03:39:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The headword 'くそ' has two distinct meanings (interjection and prefix), but only one semantic tag 'emotion-reaction' is provided. The prefix usage (sense 2) is not covered by this tag.",
+      "suggestion": "Add 'descriptive' or 'expression' to cover the intensifying prefix usage."
+    }
+  ]
+}

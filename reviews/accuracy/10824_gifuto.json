@@ -1,0 +1,24 @@
+{
+  "entry_id": "10824_gifuto",
+  "headword": "ギフト",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T03:40:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a concrete noun like 'gift'.",
+      "suggestion": "shopping"
+    }
+  ]
+}
