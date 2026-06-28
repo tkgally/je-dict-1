@@ -1,0 +1,24 @@
+{
+  "entry_id": "10777_tamego",
+  "headword": "タメ{語|ご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T03:39:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'social-behavior'",
+      "suggestion": "society"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "10796_kimo",
+  "headword": "{肝|きも}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-28T03:40:10Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'abstract-concept' is not in the valid tag list.",
+      "suggestion": "abstract"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-organ' is not in the valid tag list.",
+      "suggestion": "body-internal"
+    }
+  ]
+}
