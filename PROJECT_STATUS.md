@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-28 (Routine v2: new-entries — 20 New Entries, IDs 29532–29551)
+Created 20 general-tier entries from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06304–06314). Four themed clusters — solar/lunar eclipses, night-sky objects, hand tools, and a business/energy set. §4 cross-model self-check on all 20 changed entries: **20 CLEAN, 0 flagged**. $0.0087. Conjugation table added to the one verb ({割|わ}り{引|び}く); no new kanji.
+
+- **Eclipses (5)**: {皆既日食|かいきにっしょく} (total solar eclipse), {部分日食|ぶぶんにっしょく} (partial solar eclipse), {金環日食|きんかんにっしょく} (annular solar eclipse), {部分月食|ぶぶんげっしょく} (partial lunar eclipse), {半影月食|はんえいげっしょく} (penumbral lunar eclipse)
+- **Sky objects (3)**: ブラッドムーン (blood moon), {北斗七星|ほくとしちせい} (Big Dipper), {南十字星|みなみじゅうじせい} (Southern Cross)
+- **Tools (4)**: {工具箱|こうぐばこ} (toolbox), ニッパー (nippers), ラジオペンチ (needle-nose pliers), プライヤー (pliers)
+- **Business / energy / other (8)**: {不渡|ふわた}り (dishonored check), {割|わ}り{引|び}く (to discount; verb-godan), {当座|とうざ} (the time being; current account), マネー (money), {省|しょう}エネルギー (energy conservation), クールビズ (Cool Biz), ウォームビズ (Warm Biz), {早見表|はやみひょう} (quick-reference chart)
+
 ### 2026-06-27 (Routine v2: new-entries — 15 New Entries, IDs 29517–29531)
 Created 15 general-tier entries, all from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06294–06302, 29514). §4 cross-model self-check: **15 CLEAN, 0 flagged**. $0.0065.
 
@@ -74,12 +82,5 @@ Created the 6 genuine "seen in entry" priority candidates plus 4 hand-curated st
 
 - **Seen-in-entry (6)**: {字数|じすう} (character count), {頭金|あたまきん} (down payment), {話|はな}し{声|ごえ} (speaking voice), {単打|たんだ} (single, baseball), {旧人|きゅうじん} (archaic humans), {考|かんが}え{詰|つ}める (to brood over; ichidan)
 - **Standalone nouns (4)**: {工業製品|こうぎょうせいひん} (industrial product), {発送人|はっそうにん} (sender/shipper), {弱小国|じゃくしょうこく} (minor power), {四輪車|よんりんしゃ} (four-wheeled vehicle)
-
-### 2026-06-24 (Routine v2: new-entries — 16 New Entries, IDs 29463–29478)
-Created the 16 priority "seen in entry" candidates remaining in the queue — internal-completeness gaps the dictionary already referenced from polish-frontier entries (06258/06259/06261) and the 29445–29455 financial/legal/baseball cluster. Nine financial/legal/STEM/sports nouns plus seven loanword/slang modifiers (ヘビー, コア, eスポーツ, ストリーマー, エキサイティング, センセーショナル, あざとかわいい). Added 4 referenced contrast words as new "seen in entry" candidates (猿人/えんじん, 旧人, 単打, 頭金). §4 cross-model self-check: **content CLEAN on all 16**; 2 tag-narrowness flags (29468 science→"mathematics" not in-list; 29469 general→action in-list substitution) both REJECTED per the semantic-tag policy. $0.0070. Logged an `[entry]` observation: existing 29452 猿人 carries the non-standard reading さるじん where えんじん is expected (curator to reconcile against the new candidate).
-
-- **Nouns**: {国有地|こくゆうち} (state-owned land), {成功報酬|せいこうほうしゅう} (contingency fee), {手付金|てつけきん} (deposit/earnest money), {長打|ちょうだ} (extra-base hit), {原人|げんじん} (early human/Homo erectus), {対数関数|たいすうかんすう} (logarithmic function), {刻印|こくいん} (engraved mark; verb-suru), {収穫量|しゅうかくりょう} (harvest yield), {貸付金|かしつけきん} (loan, lender side), eスポーツ (esports), ストリーマー (streamer)
-- **Na-adjectives / modifiers**: ヘビー (heavy/intense), コア (core; noun+adj-na), エキサイティング (exciting), センセーショナル (sensational)
-- **I-adjective (slang)**: あざとかわいい (calculatedly cute)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
