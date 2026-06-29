@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T21:31:16Z",
+  "reviewed_at": "2026-06-29T21:24:59Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'clothing' is incorrect for 'ハンドル'.",
-      "suggestion": "Remove 'clothing'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'time-general' is incorrect for 'ハンドル'.",
-      "suggestion": "Remove 'time-general'."
+      "concern": "The headword 'ハンドル' can refer to a general handle, not just transportation-related ones.",
+      "suggestion": "Add 'tool' or 'daily-life' to the semantic tags."
     }
   ]
 }
