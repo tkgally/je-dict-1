@@ -1,0 +1,24 @@
+{
+  "entry_id": "11194_rentaru",
+  "headword": "レンタル",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:43:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that clearly refers to a specific type of transaction or service.",
+      "suggestion": "action"
+    }
+  ]
+}

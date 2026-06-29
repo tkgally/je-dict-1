@@ -1,0 +1,24 @@
+{
+  "entry_id": "11233_issetsu",
+  "headword": "{一説|いっせつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:44:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '一説' is not formal. It is a neutral term used in various contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11251_rea",
+  "headword": "レア",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:44:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too specific for the headword 'レア' which primarily means 'rare, uncommon' in a general sense, and only secondarily refers to food preparation.",
+      "suggestion": "Remove 'food' tag. The 'descriptive' tag is sufficient for the general meaning, and the specific 'food' sense is covered by the definition."
+    }
+  ]
+}

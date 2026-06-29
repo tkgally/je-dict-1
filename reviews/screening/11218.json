@@ -1,11 +1,11 @@
 {
   "entry_id": "11218",
-  "screened_at": "2026-06-29T06:32:22Z",
+  "screened_at": "2026-06-29T15:26:14Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for {管理職|かんりし} is incomplete. It should be {管理職|かんりしょく}.",
-    "The reading for {少|すく} is correct, but the context implies it's part of a larger word like 少ない (すくない). The provided reading 'すく' is only for the kanji '少' and is correct in that sense."
+    "The reading for 女性 is じょせい, but the provided reading is じょせいの. The の is not part of the kanji 女性 and should not be included in the reading.",
+    "The reading for 管理職 is かんりしょく, but the provided reading is かんりし. The ょく is missing from the reading."
   ],
-  "confidence": 0.8
+  "confidence": 1.0
 }
