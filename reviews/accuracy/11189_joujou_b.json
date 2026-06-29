@@ -1,0 +1,24 @@
+{
+  "entry_id": "11189_joujou_b",
+  "headword": "{上場|じょうじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:43:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too general and does not accurately reflect the specific meaning of '上場'.",
+      "suggestion": "finance"
+    }
+  ]
+}

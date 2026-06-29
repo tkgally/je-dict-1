@@ -1,0 +1,24 @@
+{
+  "entry_id": "11208_rankuin",
+  "headword": "ランクイン",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:43:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that specifically refers to ranking or charting. 'action' would be more appropriate given it's a suru-verb and describes an action.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11288_harasumento",
+  "headword": "ハラスメント",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T15:45:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is too narrow for the headword 'ハラスメント'. While harassment often occurs in the workplace, the term itself is not limited to work contexts.",
+      "suggestion": "abstract"
+    }
+  ]
+}
