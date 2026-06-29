@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-29 (Routine v2: new-entries — 12 New Entries, IDs 29569–29580)
+Created 12 general-tier entries: all 8 remaining "seen in entry" priority candidates (a children's-outdoor-play and gardening cluster referenced from existing entries 06323–06327) plus 4 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (misglosses and transparent compounds — e.g. 権使, 些道, 怒燥, 三千代 "three thousand yen note?"), so the 4 supplements were chosen individually for genuine dictionary-worthiness, not padded from the oldest queue. Conjugation table added to the one verb ({滑|すべ}り{降|お}りる); no new kanji. §4 cross-model self-check on all 12 changed entries: **12 CLEAN, 0 flagged**. $0.0052.
+
+- **Seen-in-entry (8)**: {二重|にじゅう}{跳|と}び (double under, jump rope), {大|おお}{縄|なわ}{跳|と}び (group long-rope jumping), {滑|すべ}り{降|お}りる (to slide down; verb-ichidan), {泥|どろ}{団子|だんご} (mud ball), {剪定|せんてい}ばさみ (pruning shears), {植木|うえき}{屋|や} (gardener), シーソー (seesaw), ジャングルジム (jungle gym)
+- **Standalone (4)**: スーパーボールすくい (superball scooping, festival game), バラ{科|か} (rose family / Rosaceae), ユリ{科|か} (lily family / Liliaceae), {足|そく}{関節|かんせつ} (ankle joint; medical, distinguished from 足首)
+
 ### 2026-06-29 (Routine v2: new-entries — 17 New Entries, IDs 29552–29568)
 Created 17 general-tier entries entirely from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06311–06321). Dominated by the 12-sign Western zodiac set referenced from 06313 ({星座|せいざ}), plus an eclipse term and a barbershop/grooming/childhood-game cluster. Two homophone candidates dropped as duplicates of existing entries (髭 → 01332 ひげ; 髭そり → 22892 {髭剃|ひげそ}り). Two new kanji assigned IDs ({蝕|しょく}, {蠍|さそり}); no new verbs. §4 cross-model self-check on all 17 changed entries: **13 fully clean; 0 applied, 4 rejected** (3 zodiac signs flagged semantic `culture`→`science`/astronomy — model conflated the astrological sign with the constellation, and the horoscope-framed entries are correctly `culture`; 29567 {理容店|りようてん} flagged formality `formal`→`neutral`, but the entry's own register note confirms `formal`). $0.0074.
 
@@ -75,18 +81,5 @@ Created the 4 genuine "seen in entry" priority candidates plus 6 hand-curated st
 
 - **Seen-in-entry (4)**: {書|か}き{替|か}える (to rewrite/transfer a registration; ichidan), {雌|め}しべ (pistil), そうは{言|い}っても (having said that; expression), {兵|へい} (soldier)
 - **Standalone words (6)**: リスナー (listener/audience), そっち{側|がわ} (that side; your side), {肘関節|ひじかんせつ} (elbow joint), {高積雲|こうせきうん} (altocumulus), {脱色剤|だっしょくざい} (decolorizing agent; hair bleach), {鮭缶|さけかん} (canned salmon)
-
-### 2026-06-26 (Routine v2: new-entries — 18 New Entries, IDs 29489–29506)
-Created the 4 remaining genuine "seen in entry" priority candidates (文字数, 二足歩行, 短慮, 篤実 — internal-completeness gaps referenced from 29479/29483/06278/06279) plus 14 hand-curated standalone general-tier words. The non-seen candidate tail is still heavy corpus-harvest noise (place names, bare numerals/counters, misglosses — e.g. アンパッサン "ice cream sundae", 怒燥), so the 14 were vetted individually for genuine dictionary-worthiness rather than padded from the oldest queue. Skipped candidate 書き替える (替-variant of existing 08225 書き換える, kept for the curator as alternate orthography). Conjugation tables added to the 6 noun+verb-suru entries; no new kanji (used the kana orthography 雄しべ to avoid the rare 蕊/葯). §4 cross-model self-check on all 18 changed entries: **17 fully clean; 0 applied; 1 rejected** (29498 歌集: model flagged semantic `art`→`literature`, but `literature` is not in `VALID_SEMANTIC` and `art` is the best in-list home for a poetry anthology — narrowness substitution, rejected per the semantic-tag policy). $0.0078. Added 雌しべ (めしべ, pistil) as a new "seen in entry" candidate pairing with the new 雄しべ entry.
-
-- **Seen-in-entry (4)**: {文字数|もじすう} (character count), {二足歩行|にそくほこう} (bipedal walking; verb-suru), {短慮|たんりょ} (rashness; noun/adj-na), {篤実|とくじつ} (sincere, faithful; adj-na/noun)
-- **Nouns (9)**: {博覧会|はくらんかい} (exposition), {借家|しゃくや} (rented house), {散髪屋|さんぱつや} (barbershop), {議事堂|ぎじどう} (assembly hall), {所有物|しょゆうぶつ} (belongings), {歌集|かしゅう} (poetry anthology), {本論|ほんろん} (main argument), {雪山|ゆきやま} (snowy mountain), {雄|お}しべ (stamen)
-- **Noun+verb-suru (5)**: {受精|じゅせい} (fertilization), {整合|せいごう} (consistency), {偶発|ぐうはつ} (chance occurrence), {近接|きんせつ} (proximity), {発布|はっぷ} (promulgation)
-
-### 2026-06-25 (Routine v2: new-entries — 10 New Entries, IDs 29479–29488 + 猿人 reading fix)
-Created the 6 genuine "seen in entry" priority candidates plus 4 hand-curated standalone general-tier nouns; the non-seen-in candidate tail remains heavy corpus-harvest noise (transparent compounds, conjugated fragments, wrong readings — e.g. 強大国 glossed きょうたいこく vs correct きょうだいこく), so picks were vetted individually rather than padded toward 20. **Resolved the long-standing 猿人 reading defect**: existing entry 29452 stored さるじん where the standard anthropology reading is えんじん (confirmed by 29467 原人, which cross-references 猿人/えんじん); corrected reading + headword/example furigana (the headword was also bare/unwrapped) and renamed the file 29452_sarujin→29452_enjin, so 猿人 is no longer created as a duplicate. Skipped candidate 書き替える (替-variant of existing 08225 書き換える) — logged for the curator to fold in as an alternate orthography. §4 cross-model self-check on all 11 changed entries: **9 fully clean; 2 applied** (29479 字数: removed misleading "word count" — 字数 = character count, not 語数 — from the def gloss and fixed the matching example translation); **3 rejected** (in-list tag-narrowness swaps on 29452 science→person and 29485 business→economics; one stylistic gloss trim). $0.0048. Added 文字数 and 二足歩行 as new "seen in entry" candidates.
-
-- **Seen-in-entry (6)**: {字数|じすう} (character count), {頭金|あたまきん} (down payment), {話|はな}し{声|ごえ} (speaking voice), {単打|たんだ} (single, baseball), {旧人|きゅうじん} (archaic humans), {考|かんが}え{詰|つ}める (to brood over; ichidan)
-- **Standalone nouns (4)**: {工業製品|こうぎょうせいひん} (industrial product), {発送人|はっそうにん} (sender/shipper), {弱小国|じゃくしょうこく} (minor power), {四輪車|よんりんしゃ} (four-wheeled vehicle)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
