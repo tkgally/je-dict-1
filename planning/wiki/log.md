@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-29] maintenance | Harvest 5 observations of 2026-06-29 routine runs (P21 06323–06328 zero-link frontier, P13 06323–06340 placeholder-general cluster, item 17 11088–11187 general-too-broad noise, item 20 22nd/23rd no-op) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested observations was the top debt signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 5 unharvested observations from the 2026-06-29 routine polish / accuracy-review runs (the two loose 2026-06-29 tooling bullets + the 2026-06-29 routine-polish session block):
+  - **Cleanup P21 update 2026-06-29** — zero-inline-link create-era band reaches the **06323–06328** playground/gardening/car-parts frontier (band now unbroken ~06150→06328); the not-self-healing signature reconfirmed on entries with recent `modified` dates (06327 剪定 2026-06-25; 06331/06332 2026-06-16, still fully naked).
+  - **Cleanup P13 update 2026-06-29** — the placeholder-`general` create-era signature continues into the **06323–06340** cluster (self-check flagged 06324–06328 `general`-too-broad, rejected as in-list nits); third concrete cohort (06298–06340) for the open 2026-06-18 curator-policy question.
+  - **Tooling item 17 update 2026-06-29 (seventh confirmation, now range-independent)** — accuracy-review 11088–11187 ran 23% flagged, 19/23 = `general`-too-broad in-list nits in the 11000s; the noise appears wherever the `general` fallback tag is used, not just on polished low ranges.
+  - **Tooling item 20 update 2026-06-29 (22nd/23rd confirmation)** — two polish runs ran priority lanes 5/6 and 6/6 no-op on the closed-tier basic/function set; both restated scorer-bug #1's mechanism (link-baseforms counted as bare kanji → polished entries score furigana=0), one juxtaposed against the genuine zero-link 06323–06328 frontier gap.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (~26,556 of 29,359 total).
+
+**Not done**: **Activity H (metrics trend) not due** — only 5 new `metrics-history.jsonl` lines (165 total) since the page's last refresh at 160 runs (threshold ≥10). No new research/topic pages this run (quality over quantity). `backlog-queue.json` needed no edits — all harvested items were incremental updates under existing open entries with unchanged status/batch-readiness.
+
 ## [2026-06-28] maintenance (second run) | Harvest 5 observations of 2026-06-28 runs (P20 10700–11000 katakana/loanword band, P13 06309–06340 placeholder-general, item 8 o-go-prefix mis-suggestion, item 20 21st no-op) + eleventh metrics refresh (160 runs)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested observations + metrics-trend due were the top debt signals)

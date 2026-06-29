@@ -20,7 +20,7 @@ Rather than using JLPT levels (which are exam-oriented and have well-known probl
 
 - **Basic** (801 entries) — foundational words needed for survival communication. Closed tier.
 - **Core** (~1,982 entries) — essential vocabulary for adult communication. Closed tier.
-- **General** (26,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: ~26,539, of 29,342 total as of 2026-06-28.)
+- **General** (26,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: ~26,556, of 29,359 total as of 2026-06-29.)
 
 See [Vocabulary Tier System](vocabulary-tiers.md) for details.
 
