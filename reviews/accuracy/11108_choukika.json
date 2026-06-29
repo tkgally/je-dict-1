@@ -1,0 +1,24 @@
+{
+  "entry_id": "11108_choukika",
+  "headword": "{長期化|ちょうきか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T06:51:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word that specifically describes a change in duration. 'Change' is a more appropriate and specific tag.",
+      "suggestion": "change"
+    }
+  ]
+}

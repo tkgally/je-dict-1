@@ -1,0 +1,24 @@
+{
+  "entry_id": "11104_haisui",
+  "headword": "{排水|はいすい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T06:51:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a specific meaning related to water management.",
+      "suggestion": "Replace 'general' with 'daily-life' or 'technology' or 'nature' or 'environment'."
+    }
+  ]
+}
