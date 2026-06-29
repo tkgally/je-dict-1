@@ -1,0 +1,24 @@
+{
+  "entry_id": "11124_furai",
+  "headword": "フライ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T06:51:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'フライ' has two distinct meanings, one related to food and one to baseball. The semantic tag 'food' only covers one of these meanings, making it incomplete and potentially misleading for the other sense.",
+      "suggestion": "Add 'sports' to the semantic tags to cover the baseball meaning."
+    }
+  ]
+}

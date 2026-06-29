@@ -1,0 +1,24 @@
+{
+  "entry_id": "11120_baburu",
+  "headword": "バブル",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-29T06:51:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings like 'bubble' (physical) and 'economic bubble'.",
+      "suggestion": "Add 'economics' and 'nature' (for physical bubbles) or 'abstract' (for the concept of a bubble)."
+    }
+  ]
+}

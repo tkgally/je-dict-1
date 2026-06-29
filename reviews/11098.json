@@ -1,0 +1,318 @@
+{
+  "entry_id": "11098",
+  "word": "{修士|しゅうし}",
+  "reading": "しゅうし",
+  "reviewed_at": "2026-06-29T06:43:03Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 16,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "修士",
+      "reading": "しゅうし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "修士",
+      "reading": "しゅうし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "課程",
+      "reading": "かてい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "課程",
+      "reading": "かてい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "進学",
+      "reading": "しんがく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "進学",
+      "reading": "しんがく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "予定",
+      "reading": "よてい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "予定",
+      "reading": "よてい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "論文",
+      "reading": "ろんぶん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "論文",
+      "reading": "ろんぶん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "決",
+      "reading": "き",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "決",
+      "reading": "き",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "号",
+      "reading": "ごう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "号",
+      "reading": "ごう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "取得",
+      "reading": "しゅとく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "取得",
+      "reading": "しゅとく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "就職",
+      "reading": "しゅうしょく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "就職",
+      "reading": "しゅうしょく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "博士",
+      "reading": "はかせ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "博士",
+      "reading": "はかせ",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "In the compound `博士課程` (doctoral course), the correct reading for `博士` is `はくし`, not `はかせ`. `はかせ` refers to the person (a doctor/PhD holder), while `はくし` refers to the degree or is used in compounds like this.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "進",
+      "reading": "すす",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "進",
+      "reading": "すす",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "迷",
+      "reading": "まよ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "迷",
+      "reading": "まよ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "学士",
+      "reading": "がくし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "学士",
+      "reading": "がくし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "博士",
+      "reading": "はくし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "博士",
+      "reading": "はくし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "修",
+      "reading": "しゅう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "修",
+      "reading": "しゅう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "修了",
+      "reading": "しゅうりょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "修了",
+      "reading": "しゅうりょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 16,
+    "flagged": 1,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "11098",
+    "screened_at": "2026-06-29T06:18:04Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 博士 in pair 10 is given as はかせ, which is a valid reading for 'doctor' (medical doctor or a person with a doctorate). However, in pair 14, the reading for 博士 is given as はくし, which is the standard reading for 'doctoral degree' or 'doctor' (academic title). While both are technically correct readings for the kanji 博士, the context of '博士課程' (doctoral course) in pair 10 strongly suggests はくし would be the more appropriate and consistent reading, aligning with pair 14. The dictionary entry might be using はかせ to refer to the person, but in the context of '博士課程', はくし is more common for the degree itself.",
+      "The reading for 博士 in pair 14 is given as はくし, which is the standard reading for 'doctoral degree' or 'doctor' (academic title). This is correct. However, it contrasts with the reading はかせ for 博士 in pair 10, which, while also a valid reading, is less common in the context of '博士課程' (doctoral course). This inconsistency might be an error depending on the intended nuance of the dictionary entry."
+    ],
+    "confidence": 0.8
+  }
+}
