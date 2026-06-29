@@ -2,15 +2,23 @@
   "entry_id": "02006_bakari",
   "headword": "〜ばかり",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T10:37:29Z",
+  "reviewed_at": "2026-06-29T21:24:55Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The particle ばかり is not inherently informal; it can be used in various contexts, including formal ones, especially in its 'just/only' senses. Labeling it 'informal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
 }
