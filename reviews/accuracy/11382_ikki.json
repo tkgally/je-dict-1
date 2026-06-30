@@ -1,0 +1,24 @@
+{
+  "entry_id": "11382_ikki",
+  "headword": "{一揆|いっき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:24:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a specific historical and political meaning.",
+      "suggestion": "politics"
+    }
+  ]
+}
