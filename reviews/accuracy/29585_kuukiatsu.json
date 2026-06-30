@@ -1,0 +1,24 @@
+{
+  "entry_id": "29585_kuukiatsu",
+  "headword": "{空気圧|くうきあつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T09:26:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'transportation' is too narrow for '空気圧' (air pressure), which can apply to many contexts beyond just transportation (e.g., industrial, scientific).",
+      "suggestion": "Replace 'transportation' with 'science' or 'general'."
+    }
+  ]
+}
