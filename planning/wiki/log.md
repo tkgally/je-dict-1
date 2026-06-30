@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-06-30] maintenance | Harvest 8 observations of 2026-06-29/30 routine runs (P20 11300s off-vocab cluster, P21 06338–06343 zero-link, item 17 eighth confirmation, item 20 24th/25th no-op, new item 31 OpenRouter request-hang) + twelfth metrics refresh (174 runs)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observations + metrics-trend due were the top debt signals)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 8 unharvested observations from the 2026-06-29 accuracy-review/polish runs and the 2026-06-30 systemic-fix/accuracy-review/polish/new-entries runs:
+  - **Cleanup P20 update 2026-06-30** — the off-vocab semantic-tag cohort reaches the **11300s** (不-/中-/下-/両- compounds); 1:1-mappable families (quality→descriptive, position-direction→direction, people→person, place→geography); the 06-30 06:29 accuracy-review migrated the genuine cluster (24/35). Recommends folding into `check_tag_drift.py`'s map for a deterministic sweep.
+  - **Cleanup P21 update 2026-06-30** — the zero-inline-link create-era band reaches the **06338–06343** four-char-idiom/compound-verb cohort (2026-01-17 batch); band now unbroken ~06150→06343; gap concentrated in this mid-ID batch → ~06338–06500 sweep.
+  - **Tooling item 17 update 2026-06-30 (eighth confirmation)** — accuracy-review 11188–11300 flagged 20/113 (~18%), all in-list `general`/`work`-too-broad narrowness nits rejected per §A; range-independent into the 11000s katakana-loanword/business band.
+  - **Tooling item 20 update 2026-06-30 (24th/25th confirmation)** — two polish runs ran priority lanes 3/4 and 6/6 no-op on recently-modified basic/core entries; recency-stacking framing restated.
+  - **Tooling new item 31** — `review_runner.py`/`review_accuracy.py` can hang indefinitely on a single OpenRouter request and *survive the outer `timeout` wrapper* (child workers in a separate process group; 06-30 screening stalled at ~33/500, SIGKILL by name); distinct from item 21 — root fix is a per-request HTTP timeout + retry cap.
+  - **Tooling item 23 update 2026-06-30 (reinforcement)** — 12 seen-in-entry candidates (29581–29592) good, oldest-first fallback still unusable; <10%-signal finding reconfirmed.
+- **[H] Metrics trend — twelfth refresh** of `topics/quality-metrics.md` (14 new lines, 160→174 runs): added the 2026-06-29/30 run tables + the run-161 continuation, the 174-run total, updated the all-time dimension + source precision tables, and a twelfth-refresh blockquote. Headline: `tags` apply-among-decided dipped to **30.4%** as two 06-29 sweeps rejected in-list `general`-noise on the already-tagged 11088–11300 band (item-17) while the 06-30 sweep applied the genuine 11300s off-vocab cluster (24/35) — range-state within one ID band, not a regression; fourth near-zero-escalation refresh (2 escalated); review queue new floor **14,565**. No metric moving the wrong way that is not already filed.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (~26,580 of 29,363 total).
+
+**Not done**: No new research/topic pages this run (the harvest + metrics refresh were the budget; quality over quantity). `backlog-queue.json` needed no edits — all harvested items were incremental updates under existing open entries with unchanged status/batch-readiness, and new item 31 is a client-side tooling fix (not a content systemic-fix), so it does not enter the systemic-fix queue.
+
 ## [2026-06-29] maintenance | Harvest 5 observations of 2026-06-29 routine runs (P21 06323–06328 zero-link frontier, P13 06323–06340 placeholder-general cluster, item 17 11088–11187 general-too-broad noise, item 20 22nd/23rd no-op) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested observations was the top debt signal)
