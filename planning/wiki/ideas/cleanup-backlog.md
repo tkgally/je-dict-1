@@ -265,6 +265,22 @@ explicit `：entry_id`, so the link still works. Validation and furigana-coverag
 false positive (`{次々|つぎつぎ}`, `{入場料|にゅうじょうりょう}`, `{低血圧|ていけつあつ}` reported as
 truncated although correct in the entry), and none touched the edited furigana. Next ready slice:
 07300+ and the larger pre-06000 backlog.
+
+**Update 2026-06-30 (07300–07600 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **24 instances across 18 entries** (`detect` total 1488 → 1463):
+pure-kana katakana/kana de-wraps (プロジェクト/スキルアップ/メンバー/チーム/バー/リストラ/タオル/
+ティッシュ/ボールペン/エコバッグ/ノベルティ/データ/イメージ×2/ボケ — hiragana ruby over katakana is
+redundant), o-prefix repositions (`{お金|かね}` → `お{金|かね}`, `{お茶屋|おちゃや}` → `お{茶屋|ちゃや}`,
+`{お菓子|おかし}` → `お{菓子|かし}`), and over-wrapped okurigana splits (`{取り消し|とりけし}` →
+`{取|と}り{消|け}し`, `{女の子|おんなのこ}` → `{女|おんな}の{子|こ}`, `{すり身|すりみ}` → `すり{身|み}`,
+`{届け出|とどけで}` → `{届|とど}け{出|で}`, `{太っ腹|ふとっぱら}` → `{太|ふと}っ{腹|ぱら}`). Two
+non-format fixes of malformed wrappers: `{できる|できない}` (surface≠reading) → `できる/できない` to
+restore the can/cannot contrast its gloss describes, and `{どこ|}` (empty reading) → `どこ`. No edit
+sat inside an inline link. Validation and furigana-coverage stayed clean. §4 furigana self-screen:
+2 model flags, **both rejected** — 07459's `{一見|いっけん}` is the entry's own "NOTE ON READING"
+contrast with いちげん (correct, not an inconsistency), and 07364 was a model misreading ("to sing"
+read as "to sin"; the 歌=うた furigana is correct). Neither touched the edited furigana. Next ready
+slice: 07600+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
