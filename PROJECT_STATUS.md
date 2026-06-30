@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-06-30 (Routine v2: new-entries — 12 New Entries, IDs 29581–29592)
+Created 12 general-tier entries, all from the high-priority "seen in entry" pool — internal-completeness gaps referenced by existing entries 06329–06337 (a gardening/flowerpot cluster, a driving/tire cluster, and three encyclopedic terms cited from proverb entries). All were `noentry` or near-`noentry` inline-link targets, so each closes a self-reference. The non-seen candidate tail remains heavy corpus-harvest/OCR noise (些道, 個尊, 怒燥, 権使, アンパッサン misglossed "ice cream sundae"; potential/negated verb forms; bare counters), so no padding from the oldest queue — logged a `[pattern]` observation requesting a curator cleanup pass. Two new kanji assigned IDs (琵, 琶 from {琵琶湖|びわこ}); all 12 are single-sense nouns, no new verbs. §4 cross-model self-check on all 12 changed entries: **11 fully clean; 0 applied, 1 rejected** (29585 {空気圧|くうきあつ} flagged semantic `transportation`→`science`/`general`, an in-list narrowness nit rejected per the semantic-tag policy — the entry's explanation and all three examples are framed on tire pressure). $0.0052.
+
+- **Gardening cluster (4)**: {鉢|はち} (bowl/pot/basin), {鉢皿|はちざら} (pot saucer), {培養土|ばいようど} (potting soil), {鉢底石|はちぞこいし} (drainage stones)
+- **Driving cluster (4)**: {空気圧|くうきあつ} (air/tire pressure), スタッドレスタイヤ (studless winter tire), {踏|ふ}み{間違|まちが}え (pedal misapplication), {全開|ぜんかい} (fully open; full throttle)
+- **Other (4)**: ハンドルネーム (online handle), {文|もん} (mon, old currency unit), {漢書|かんじょ} (Book of Han), {琵琶湖|びわこ} (Lake Biwa)
+
 ### 2026-06-29 (Routine v2: new-entries — 12 New Entries, IDs 29569–29580)
 Created 12 general-tier entries: all 8 remaining "seen in entry" priority candidates (a children's-outdoor-play and gardening cluster referenced from existing entries 06323–06327) plus 4 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (misglosses and transparent compounds — e.g. 権使, 些道, 怒燥, 三千代 "three thousand yen note?"), so the 4 supplements were chosen individually for genuine dictionary-worthiness, not padded from the oldest queue. Conjugation table added to the one verb ({滑|すべ}り{降|お}りる); no new kanji. §4 cross-model self-check on all 12 changed entries: **12 CLEAN, 0 flagged**. $0.0052.
 
@@ -75,11 +82,5 @@ Created 20 general-tier entries from the high-priority "seen in entry" pool (int
 Created 15 general-tier entries, all from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06294–06302, 29514). §4 cross-model self-check: **15 CLEAN, 0 flagged**. $0.0065.
 
 - **Seen-in-entry (15)**: {巻積雲|けんせきうん} (cirrocumulus), {要注意|ようちゅうい} (requiring caution), {貸衣装|かしいしょう} (rental costume), {黒留袖|くろとめそで} (black formal kimono), {油紙|あぶらがみ} (oilpaper), {香道|こうどう} (way of incense), {仏事|ぶつじ} (Buddhist service), {仏前|ぶつぜん} (before the altar), {聞香|もんこう} (appreciating incense), てんかん (epilepsy), こむら{返|がえ}り (calf cramp), {電解質|でんかいしつ} (electrolyte), {胸痛|きょうつう} (chest pain), {今期|こんき} (this term), {生|う}む (to produce/generate; verb-godan, cross-ref {産|う}む)
-
-### 2026-06-27 (Routine v2: new-entries — 10 New Entries, IDs 29507–29516)
-Created the 4 genuine "seen in entry" priority candidates plus 6 hand-curated standalone general-tier words. The non-seen candidate tail is still overwhelmingly corpus-harvest noise (transparent compounds, bare numerals/counters, dialect fragments, misglosses — e.g. アンパッサン "ice cream sundae"), so the 6 standalone picks were vetted individually for genuine dictionary-worthiness rather than padded from the oldest queue; logged a `[pattern]` observation requesting curator restock/pruning. **Created 書き替える** (替-variant of existing 08225 書き換える) — the prior two runs deferred it to the curator, but as a real "seen in entry" candidate (referenced from 06270) it is now a single-sense v2.0 entry cross-referenced to 08225 as alternate orthography. Conjugation table added to the one verb; no new kanji. §4 cross-model self-check on all 10 changed entries: **9 fully clean; 0 applied; 1 rejected** (29515 脱色剤: model flagged semantic `daily-life`→`health`, but `health` is wrong for a household/hair bleach and `daily-life` is in `VALID_SEMANTIC` — in-list breadth nit, rejected per the semantic-tag policy). $0.0043. Captured 巻積雲 (けんせきうん) as a new "seen in entry" candidate referenced from the new 高積雲 entry.
-
-- **Seen-in-entry (4)**: {書|か}き{替|か}える (to rewrite/transfer a registration; ichidan), {雌|め}しべ (pistil), そうは{言|い}っても (having said that; expression), {兵|へい} (soldier)
-- **Standalone words (6)**: リスナー (listener/audience), そっち{側|がわ} (that side; your side), {肘関節|ひじかんせつ} (elbow joint), {高積雲|こうせきうん} (altocumulus), {脱色剤|だっしょくざい} (decolorizing agent; hair bleach), {鮭缶|さけかん} (canned salmon)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
