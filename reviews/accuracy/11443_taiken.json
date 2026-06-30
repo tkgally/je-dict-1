@@ -1,0 +1,24 @@
+{
+  "entry_id": "11443_taiken",
+  "headword": "{体験|たいけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a more specific meaning.",
+      "suggestion": "action"
+    }
+  ]
+}

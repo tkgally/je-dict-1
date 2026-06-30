@@ -1,0 +1,24 @@
+{
+  "entry_id": "11419_jijitsujou",
+  "headword": "{事実上|じじつじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '事実上' is not inherently formal; it is commonly used in various contexts, including everyday speech and writing, to describe situations where something is 'in effect' or 'virtually' true, regardless of official status. While it can appear in formal contexts, its usage is not restricted to them, making 'neutral' a more accurate formality tag.",
+      "suggestion": "neutral"
+    }
+  ]
+}

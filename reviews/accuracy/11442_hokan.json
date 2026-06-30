@@ -1,0 +1,24 @@
+{
+  "entry_id": "11442_hokan",
+  "headword": "{保管|ほかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a clear action meaning.",
+      "suggestion": "action"
+    }
+  ]
+}

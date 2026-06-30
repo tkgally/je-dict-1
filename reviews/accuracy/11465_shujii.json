@@ -1,0 +1,24 @@
+{
+  "entry_id": "11465_shujii",
+  "headword": "{主治医|しゅじい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:39:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medical' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

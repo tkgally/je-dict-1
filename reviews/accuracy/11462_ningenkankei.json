@@ -1,0 +1,24 @@
+{
+  "entry_id": "11462_ningenkankei",
+  "headword": "{人間関係|にんげんかんけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'relationship' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11411_jouyousha",
+  "headword": "{乗用車|じょうようしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:37:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '乗用車'. While it's a specific term, it's not formal in the sense of being used in highly official or ceremonial contexts. It's a standard, neutral term for a passenger car.",
+      "suggestion": "neutral"
+    }
+  ]
+}
