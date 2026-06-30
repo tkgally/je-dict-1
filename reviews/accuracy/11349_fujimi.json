@@ -1,0 +1,24 @@
+{
+  "entry_id": "11349_fujimi",
+  "headword": "{不死身|ふじみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:23:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and 'people-description' is not a valid tag.",
+      "suggestion": "Replace 'body' with 'health' or 'appearance' if applicable, and replace 'people-description' with 'descriptive' or 'personality'."
+    }
+  ]
+}

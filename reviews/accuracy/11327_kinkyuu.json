@@ -1,0 +1,24 @@
+{
+  "entry_id": "11327_kinkyuu",
+  "headword": "{緊急|きんきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:23:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a more specific meaning.",
+      "suggestion": "action"
+    }
+  ]
+}

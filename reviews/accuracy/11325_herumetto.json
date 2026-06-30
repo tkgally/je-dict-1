@@ -1,0 +1,24 @@
+{
+  "entry_id": "11325_herumetto",
+  "headword": "ヘルメット",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:22:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'clothing' is misleading for 'helmet'. While worn, its primary function is protection, not covering the body like clothing.",
+      "suggestion": "Replace 'clothing' with 'tool' or 'health' or 'daily-life'."
+    }
+  ]
+}

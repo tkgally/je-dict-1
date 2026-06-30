@@ -1,0 +1,24 @@
+{
+  "entry_id": "11339_koushitsu",
+  "headword": "{皇室|こうしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:23:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and misleading for a specific term like '皇室'.",
+      "suggestion": "Replace 'general' with 'society' or 'politics' as it refers to a specific institution within society/politics."
+    }
+  ]
+}

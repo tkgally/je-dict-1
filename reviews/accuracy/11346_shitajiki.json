@@ -1,0 +1,31 @@
+{
+  "entry_id": "11346_shitajiki",
+  "headword": "{下敷|したじ}き",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:23:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'object-stationery' is not in the valid tag list.",
+      "suggestion": "Replace 'object-stationery' with 'tool'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'disaster' is not in the valid tag list.",
+      "suggestion": "Replace 'disaster' with 'general' or remove it as it's not a direct semantic tag for the headword itself."
+    }
+  ]
+}

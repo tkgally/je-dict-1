@@ -1,0 +1,24 @@
+{
+  "entry_id": "11354_kushikatsu",
+  "headword": "{串|くし}カツ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T06:23:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The main gloss is too narrow, only mentioning meat and vegetables, while the definition clarifies it can also include seafood.",
+      "suggestion": "deep-fried skewered meat, seafood, or vegetables"
+    }
+  ]
+}
