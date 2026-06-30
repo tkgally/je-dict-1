@@ -1,0 +1,24 @@
+{
+  "entry_id": "11453_rannyuu",
+  "headword": "{乱入|らんにゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a specific meaning related to movement and action.",
+      "suggestion": "action"
+    }
+  ]
+}

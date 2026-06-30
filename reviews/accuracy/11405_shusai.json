@@ -1,0 +1,24 @@
+{
+  "entry_id": "11405_shusai",
+  "headword": "{主催|しゅさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:37:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'event' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

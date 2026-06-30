@@ -1,0 +1,24 @@
+{
+  "entry_id": "11478_kousaku",
+  "headword": "{交錯|こうさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:39:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word that specifically describes mixing or entanglement. The word is an action noun/suru-verb, and its meaning is about change or movement.",
+      "suggestion": "action"
+    }
+  ]
+}

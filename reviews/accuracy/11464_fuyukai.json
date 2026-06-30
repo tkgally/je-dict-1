@@ -1,0 +1,24 @@
+{
+  "entry_id": "11464_fuyukai",
+  "headword": "{不愉快|ふゆかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:39:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. 'I felt unpleasant' implies the speaker themselves was unpleasant, not that they felt an unpleasant emotion.",
+      "suggestion": "I felt unpleasant (or uncomfortable/displeased)."
+    }
+  ]
+}

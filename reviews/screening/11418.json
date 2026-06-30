@@ -1,0 +1,13 @@
+{
+  "entry_id": "11418",
+  "screened_at": "2026-06-30T18:26:11Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `電話対応` is `でんわたいおう`, but the provided reading `でんわ` only covers `電話` and not `対応`. The entry should be `{電話対応|でんわたいおう}` or `{電話|でんわ}{対応|たいおう}`.",
+    "The reading for `手続` is `てつづ`, but the full word is `手続き` and the reading `てつづ` only covers `手続` and not `き`. The entry should be `{手続|てつづ}` followed by `き` or `{手続き|てつづき}`.",
+    "The reading for `取` is `と`, but the full word is `取る` and the reading `と` only covers `取` and not `る`. The entry should be `{取|と}` followed by `る` or `{取る|とる}`.",
+    "The reading for `的` is `てき`, but the full word is `的な` and the reading `てき` only covers `的` and not `な`. The entry should be `{的|てき}` followed by `な` or `{的な|てきな}`."
+  ],
+  "confidence": 0.9
+}

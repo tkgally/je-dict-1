@@ -1,0 +1,31 @@
+{
+  "entry_id": "11440_shinnyuu",
+  "headword": "{侵入|しんにゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:34Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'crime' is too narrow for the headword's meaning, which also covers non-criminal invasions (e.g., viruses, invasive species).",
+      "suggestion": "Remove 'crime' and add 'action' as it is a suru-verb."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'general' is too broad and doesn't add much specific information.",
+      "suggestion": "Replace 'general' with 'action' as it is a suru-verb."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11455_tatazumu",
+  "headword": "{佇|たたず}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '佇む' is not formal. It is a literary word, but not formal in the sense of polite or stiff language. It is often used in descriptive contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

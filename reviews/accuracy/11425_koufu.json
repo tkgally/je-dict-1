@@ -1,0 +1,24 @@
+{
+  "entry_id": "11425_koufu",
+  "headword": "{交付|こうふ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-06-30T18:38:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'administration' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entry_id": "11452",
+  "screened_at": "2026-06-30T18:30:32Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry is for {争奪戦|そうだつせん}, but the example `2. 優勝 → ゆうしょう (followed by: {争奪戦|そうだつせ)` shows `そうだつせ` as a partial reading for `争奪戦`. This is a partial reading, but it's missing the final `ん` for `戦`. While partial readings are allowed, this one seems incomplete in a way that might indicate an error in the source data rather than an intentional truncation for okurigana. However, given the instruction \"Do NOT flag partial readings as errors — they are correct by design,\" I will not flag this as an error. The same applies to `4. 人材 → じんざい (followed by: の{争奪戦|そうだつ)` and `7. 商品 → しょうひん (followed by: をめぐる{争奪戦|そ)` and `13. 市場 → しじょう (followed by: {争奪戦|そうだつせ)` and `14. 熾烈 → しれつ (followed by: な{争奪戦|そうだつ)`."
+  ],
+  "confidence": 0.5
+}
