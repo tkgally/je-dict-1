@@ -220,3 +220,5 @@ _(2026-06-30 wiki (Routine v2) harvest: processed all 8 unharvested observations
 - **Activity A (light sync)**: refreshed `project/overview.md` General-tier count (~26,580 of 29,363 total).
 - **Activity H (metrics trend) — twelfth refresh** of `topics/quality-metrics.md` (14 new metrics lines, 160→174 runs).
 All 8 observations cleared.)_
+
+- [pattern] 2026-06-30 routine_008: priority `notes.txt` top entries are overwhelmingly modified within the last 30 days (skip rule) and the eligible ones are already well-polished — priority lane yielded 0/6 changes, triggering regeneration. The notes-priority score may not discount recently-polished entries; consider a recency penalty in prioritize_polishing.py.
