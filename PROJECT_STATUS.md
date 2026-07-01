@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-01 (Routine v2: new-entries — 17 New Entries, IDs 29613–29629)
+Created 17 general-tier entries: all 7 remaining "seen in entry" priority candidates plus 10 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (compositional phrases, bare counters/numbers/dates, typos, dialect fragments), so the 10 supplements were each chosen for genuine dictionary-worthiness rather than padded from the oldest queue. Conjugation table added to the one new verb ({イラつく}); no new kanji. §4 cross-model self-check on all 17 changed entries: **14 fully clean; 1 applied, 2 rejected** — applied 29625 {皮膚感覚|ひふかんかく} `body-part`→removed (a sensation/faculty, not anatomy; kept `cognition`); rejected 29616 {楕円形|だえんけい} `general`→`size` (no "shape" tag exists; `size` is wrong, `general` is the correct fallback) and 29622 {神曲|しんきょく} formality `informal`→`slang` (`slang` is not a valid formality enum value). $0.0073. Captured 3 referenced-but-missing words as candidates ({肌感覚|はだかんかく}, {堆積|たいせき}, {野史|やし}).
+
+- **Seen-in-entry (7)**: {年少|ねんしょう} (young; junior in age; antonym of 年長), {正史|せいし} (official dynastic history), {イラつく} (to get irritated; verb-godan, slang), {楕円形|だえんけい} (ellipse; oval shape), {円軌道|えんきどう} (circular orbit), {楕円軌道|だえんきどう} (elliptical orbit), {静止軌道|せいしきどう} (geostationary orbit)
+- **Standalone (10)**: ナンパ{師|し} (pick-up artist), {非|ひ}リア{充|じゅう} (person without a fulfilling offline life), {神曲|しんきょく} (masterpiece song; slang), コードリール (cord reel), カニ{缶|かん} (canned crab), {皮膚感覚|ひふかんかく} (cutaneous sensation; intuitive feel), {侵食作用|しんしょくさよう} (erosion), {風化作用|ふうかさよう} (weathering), トナーカートリッジ (toner cartridge), ピアス{穴|あな} (piercing hole)
+
 ### 2026-07-01 (Routine v2: new-entries — 20 New Entries, IDs 29593–29612)
 Created 20 general-tier entries: all 8 remaining "seen in entry" priority candidates plus 12 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (compositional phrases, bare counters/numbers, typos, dialect fragments), so the 12 supplements were each chosen for genuine dictionary-worthiness rather than padded from the oldest queue — logged a `[pattern]` observation. Also added the reciprocal antonym cross-ref to the pre-existing {全開|ぜんかい} (29588) so the 全開↔全閉 pair is symmetric. Conjugation tables added to the 2 new verbs and 3 suru-nouns; no new kanji. §4 cross-model self-check on all 21 changed entries: **20 fully clean; 0 applied, 1 rejected** (29593 {腐葉土|ふようど} flagged semantic `daily-life`→`plant-general`, an in-list narrowness nit rejected — leaf mold is a soil product, not a plant, and `daily-life` mirrors sibling {培養土|ばいようど}). $0.0091. Captured 2 referenced-but-missing words as candidates ({年少|ねんしょう}, {正史|せいし}).
 
@@ -75,13 +81,5 @@ Created 17 general-tier entries entirely from the high-priority "seen in entry" 
 
 - **Zodiac signs (12)**: {牡羊座|おひつじざ} (Aries), {牡牛座|おうしざ} (Taurus), {双子座|ふたござ} (Gemini), {蟹座|かにざ} (Cancer), {獅子座|ししざ} (Leo), {乙女座|おとめざ} (Virgo), {天秤座|てんびんざ} (Libra), {蠍座|さそりざ} (Scorpio), {射手座|いてざ} (Sagittarius), {山羊座|やぎざ} (Capricorn), {水瓶座|みずがめざ} (Aquarius), {魚座|うおざ} (Pisces)
 - **Other (5)**: {蝕|しょく} (eclipse; literary), トリートメント (hair treatment), {顔|かお}そり (face shaving), {理容店|りようてん} (barbershop; formal), {缶|かん}{蹴|け}り (kick the can)
-
-### 2026-06-28 (Routine v2: new-entries — 20 New Entries, IDs 29532–29551)
-Created 20 general-tier entries from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06304–06314). Four themed clusters — solar/lunar eclipses, night-sky objects, hand tools, and a business/energy set. §4 cross-model self-check on all 20 changed entries: **20 CLEAN, 0 flagged**. $0.0087. Conjugation table added to the one verb ({割|わ}り{引|び}く); no new kanji.
-
-- **Eclipses (5)**: {皆既日食|かいきにっしょく} (total solar eclipse), {部分日食|ぶぶんにっしょく} (partial solar eclipse), {金環日食|きんかんにっしょく} (annular solar eclipse), {部分月食|ぶぶんげっしょく} (partial lunar eclipse), {半影月食|はんえいげっしょく} (penumbral lunar eclipse)
-- **Sky objects (3)**: ブラッドムーン (blood moon), {北斗七星|ほくとしちせい} (Big Dipper), {南十字星|みなみじゅうじせい} (Southern Cross)
-- **Tools (4)**: {工具箱|こうぐばこ} (toolbox), ニッパー (nippers), ラジオペンチ (needle-nose pliers), プライヤー (pliers)
-- **Business / energy / other (8)**: {不渡|ふわた}り (dishonored check), {割|わ}り{引|び}く (to discount; verb-godan), {当座|とうざ} (the time being; current account), マネー (money), {省|しょう}エネルギー (energy conservation), クールビズ (Cool Biz), ウォームビズ (Warm Biz), {早見表|はやみひょう} (quick-reference chart)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

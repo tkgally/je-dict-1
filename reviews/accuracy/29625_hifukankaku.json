@@ -1,0 +1,24 @@
+{
+  "entry_id": "29625_hifukankaku",
+  "headword": "{皮膚感覚|ひふかんかく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T18:29:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for the headword '皮膚感覚' (cutaneous sensation/tactile sense). While it relates to the body, the headword itself refers to a 'sense' or 'sensation', which is a cognitive or physiological function, not a physical body part.",
+      "suggestion": "Remove 'body-part'. The tag 'cognition' is appropriate for the 'sense' aspect, and 'health' or 'general' could also be considered if a more specific physiological tag is desired, but 'body-part' is definitively wrong."
+    }
+  ]
+}
