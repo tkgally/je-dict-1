@@ -1,0 +1,24 @@
+{
+  "entry_id": "11601_riido",
+  "headword": "リード",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T21:27:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that has specific meanings related to competition/leadership and pet control. 'action' would be appropriate for the verb sense, and 'tool' for the leash sense.",
+      "suggestion": "action, tool"
+    }
+  ]
+}

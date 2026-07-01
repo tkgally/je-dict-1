@@ -1,8 +1,10 @@
 {
   "entry_id": "11643",
-  "screened_at": "2026-07-01T09:34:17Z",
+  "screened_at": "2026-07-01T21:25:42Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
-  "confidence": 1.0
+  "flagged": true,
+  "concerns": [
+    "The reading for `入門` in pair 6 is `にゅうも` which is a partial reading. While the instructions state not to flag partial readings as errors, this specific instance is problematic because the full reading for `入門` is `にゅうもん`. The provided reading `にゅうも` is missing the final `ん`. This is not a case of splitting before okurigana, but rather an incomplete reading of the kanji itself."
+  ],
+  "confidence": 0.8
 }
