@@ -1,0 +1,24 @@
+{
+  "entry_id": "11512_zairyouhi",
+  "headword": "{材料費|ざいりょうひ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T09:44:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is too broad and doesn't accurately reflect the specific meaning of '材料費' (material cost).",
+      "suggestion": "finance"
+    }
+  ]
+}
