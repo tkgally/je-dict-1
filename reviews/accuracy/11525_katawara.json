@@ -1,0 +1,31 @@
+{
+  "entry_id": "11525_katawara",
+  "headword": "{傍|かたわ}ら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T09:44:53Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'location' is not in the valid tag list.",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not in the valid tag list.",
+      "suggestion": "time-general"
+    }
+  ]
+}

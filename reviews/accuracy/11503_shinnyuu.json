@@ -1,0 +1,24 @@
+{
+  "entry_id": "11503_shinnyuu",
+  "headword": "{新入|しんにゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T09:44:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word that specifically refers to new members or entrants. 'person' or 'society' would be more appropriate given the context of joining organizations or groups.",
+      "suggestion": "person"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11502_teirei",
+  "headword": "{定例|ていれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T09:44:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '定例'. While it often appears in formal contexts, the word itself is neutral in formality, describing something that is regular or routine. It's not inherently formal language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

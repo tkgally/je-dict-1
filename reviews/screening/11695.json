@@ -1,0 +1,10 @@
+{
+  "entry_id": "11695",
+  "screened_at": "2026-07-01T09:40:34Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 今日 has two different readings: こんにち and きょう. While both are valid readings for 今日, the dictionary entry format specifies that the reading covers ONLY the kanji portion and implies a single, consistent reading for a given entry. The first instance {今日|こんにち} is consistent with the provided example {今日|こんにち} (こんにち) in the prompt's dictionary entry. However, the 16th entry {今日|きょう} presents a different reading for the same kanji, which might be an error in the context of a single dictionary entry's definition, or it could indicate that the dictionary entry itself is poorly formatted if it's trying to represent multiple readings for the same kanji without clear distinction."
+  ],
+  "confidence": 0.8
+}

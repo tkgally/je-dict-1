@@ -1,0 +1,31 @@
+{
+  "entry_id": "11529_souryo",
+  "headword": "{僧侶|そうりょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T09:45:00Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'religion-buddhism' is not in the valid tag list.",
+      "suggestion": "religion"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'person-occupation' is not in the valid tag list.",
+      "suggestion": "occupation"
+    }
+  ]
+}
