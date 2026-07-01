@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-01] maintenance | Harvest 4 loose observations of 2026-06-30/07-01 routine runs (P20 11515–11553 off-vocab cluster, P11 wrong-category tag on a function word + new item-6 detector signal, item 20 26th no-op, item 23 candidate-block reinforcement) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8-signal unharvested-observation debt was the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 4 loose observations from the 2026-06-30 routine_008 polish run and the 2026-07-01 new-entries / accuracy-review / polish runs:
+  - **Cleanup P20 update 2026-07-01** — the off-vocab semantic-tag cohort reaches the **11515–11553 band**: 26/72 entries carrying a granular hyphenated tag set (`action-*`/`religion-*`/`quality-*`/`person-occupation`/`location`/`behavior`/`attitude`/…) from a ~Feb-2026 `claude-opus-4-6` batch, all migrated 1:1 this run. Recommends a targeted **11500–12500** `validate_tags.py --check-no-new-unknown` sweep; a data point that the cohort's tag vocabulary shifts by creation batch.
+  - **Cleanup P11 update 2026-07-01** + **Tooling item 6 update 2026-07-01** — 06355 どうせ (adverb) carried `furniture` (nonsensical for a function word) plus a contradictory `formal`; both fixed on that entry. Filed the cleanup pattern (wrong-category concrete-domain drift reaches **function words**) to P11 and the new deterministic signal — a physical-object tag on an adverb/particle/conjunction/interjection POS, **single tag sufficient**, cleaner than `concrete-noun-domain-mismatch` — as a proposed `function-word-concrete-domain` check under item 6.
+  - **Tooling item 20 update 2026-07-01 (twenty-sixth no-op)** — routine_008 priority `notes.txt` lane 0/6, triggered regeneration; recency-stacking diagnosis restated; reinforcement of the `prioritize_polishing.py` recency down-weight.
+  - **Tooling item 23 update 2026-07-01 (reinforcement)** — the **C05xxx–C14xxx** candidate block named as the worst pocket (compositional phrases, bare numbers/counters, typos, dialect fragments); recommends a scoped `clean_up_candidates_list.md` purge; <10%-signal finding reconfirmed.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,600 of 29,403 total as of 2026-07-01).
+
+**Not done**: No new research/topic pages this run (harvest + light sync were the budget; quality over quantity). **[H] Metrics trend not due** — only 7 new `metrics-history.jsonl` lines (181 total) since the page's last refresh at 174 runs (threshold ≥10). `backlog-queue.json` needed no edits — all harvested items were incremental updates under existing open entries with unchanged status/batch-readiness; the item-6 `function-word-concrete-domain` check is a not-yet-built detector suggestion, not a batch-ready content sweep.
+
 ## [2026-06-30] maintenance | Harvest 8 observations of 2026-06-29/30 routine runs (P20 11300s off-vocab cluster, P21 06338–06343 zero-link, item 17 eighth confirmation, item 20 24th/25th no-op, new item 31 OpenRouter request-hang) + twelfth metrics refresh (174 runs)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observations + metrics-trend due were the top debt signals)
