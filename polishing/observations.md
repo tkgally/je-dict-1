@@ -223,3 +223,5 @@ All 8 observations cleared.)_
 
 - [pattern] 2026-06-30 routine_008: priority `notes.txt` top entries are overwhelmingly modified within the last 30 days (skip rule) and the eligible ones are already well-polished — priority lane yielded 0/6 changes, triggering regeneration. The notes-priority score may not discount recently-polished entries; consider a recency penalty in prioritize_polishing.py.
 - [pattern] new-entries: the oldest non-"seen in entry" candidates (C05xxx–C14xxx block) are largely corpus noise — compositional phrases (図書センター, 情報提供者), bare numbers/counters (二通, 六歳, 四桁), typos, and dialect fragments (どういうことや). Runs must hand-curate for genuine dictionary-worthy words; a clean_up_candidates_list pass on that block would raise new-entries throughput. (2026-07-01)
+
+- [pattern] 06355 douse: had semantic tag `furniture` (nonsensical for an adverb) and formality `formal` contradicting its own notes ("Informal ... inappropriate in polite or formal speech"). Copy/template-error tags like `furniture` on function words may exist elsewhere — worth a targeted scan of adverbs/particles for physical-object semantic tags. (routine polish 2026-07-01)
