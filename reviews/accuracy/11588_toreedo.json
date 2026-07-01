@@ -1,0 +1,24 @@
+{
+  "entry_id": "11588_toreedo",
+  "headword": "トレード",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T21:27:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'leisure' is too narrow and misleading for the headword 'トレード'. While some examples relate to leisure activities (trading cards, game items), the primary meaning (sense 1) is about professional sports player trades, which is a business/work activity. The general meaning of 'trade' or 'exchange' also extends beyond leisure.",
+      "suggestion": "Replace 'leisure' with 'business' or 'action' to better reflect the core meaning of 'trade' and 'exchange' in both professional sports and general contexts. 'action' is a good fallback for suru-verbs."
+    }
+  ]
+}

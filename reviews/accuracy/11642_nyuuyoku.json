@@ -1,0 +1,24 @@
+{
+  "entry_id": "11642_nyuuyoku",
+  "headword": "{入浴|にゅうよく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T21:28:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'consumption' is incorrect for '入浴'.",
+      "suggestion": "Replace 'consumption' with 'daily-life' or 'health'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11619_koko",
+  "headword": "{個々|ここ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T21:27:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '個々' is not formal. It is a neutral term used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}
