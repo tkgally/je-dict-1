@@ -281,6 +281,20 @@ sat inside an inline link. Validation and furigana-coverage stayed clean. §4 fu
 contrast with いちげん (correct, not an inconsistency), and 07364 was a model misreading ("to sing"
 read as "to sin"; the 歌=うた furigana is correct). Neither touched the edited furigana. Next ready
 slice: 07600+ and the larger pre-06000 backlog.
+
+**Update 2026-07-01 (07600–07900 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **27 instances across 22 entries** (`detect` total 1463 → 1436):
+pure-kana katakana/kana de-wraps (グループ×2/シーン×2/キャラ/サービス×2/コンセント/
+デジタルトランスフォーメーション/オン/オフ/エンゲージメント/コンプライアンス/ネイル/ネオン/やおい/
+わきまえる×2 — hiragana ruby over katakana/kana is redundant), over-wrapped okurigana splits
+(`{素っ気|そっけ}ない` → `{素|そ}っ{気|け}ない`, `{肩凝り|かたこり}` → `{肩|かた}{凝|こ}り`,
+`{肩こり|かたこり}` → `{肩|かた}こり`, `{か細|かぼそ}い` → `か{細|ぼそ}い`), and o-prefix repositions
+(`{お互|たが}` → `お{互|たが}`, `{お世辞|おせじ}` → `お{世辞|せじ}` ×3). Two entries (07715 OB, 07716 OG)
+misused the furigana wrapper for an English-source gloss (`{old girl|オールドガール}`,
+`{old boy|オールドボーイ}` — base=English, reading=katakana, which renders wrong); rewritten to plain
+`'old girl'`/`'old boy'` since the etymology line already gives the katakana origin. No edit sat inside
+an inline link. Validation and furigana-coverage stayed clean. §4 furigana self-screen: 21 screened,
+**0 flags**, 1 skipped. Next ready slice: 07900+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
