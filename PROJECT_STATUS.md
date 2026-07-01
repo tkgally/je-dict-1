@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-01 (Routine v2: new-entries — 20 New Entries, IDs 29593–29612)
+Created 20 general-tier entries: all 8 remaining "seen in entry" priority candidates plus 12 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (compositional phrases, bare counters/numbers, typos, dialect fragments), so the 12 supplements were each chosen for genuine dictionary-worthiness rather than padded from the oldest queue — logged a `[pattern]` observation. Also added the reciprocal antonym cross-ref to the pre-existing {全開|ぜんかい} (29588) so the 全開↔全閉 pair is symmetric. Conjugation tables added to the 2 new verbs and 3 suru-nouns; no new kanji. §4 cross-model self-check on all 21 changed entries: **20 fully clean; 0 applied, 1 rejected** (29593 {腐葉土|ふようど} flagged semantic `daily-life`→`plant-general`, an in-list narrowness nit rejected — leaf mold is a soil product, not a plant, and `daily-life` mirrors sibling {培養土|ばいようど}). $0.0091. Captured 2 referenced-but-missing words as candidates ({年少|ねんしょう}, {正史|せいし}).
+
+- **Seen-in-entry (8)**: {腐葉土|ふようど} (leaf mold), {軽石|かるいし} (pumice), {全閉|ぜんぺい} (fully closed; antonym of 全開), {史記|しき} (Records of the Grand Historian), {間欠泉|かんけつせん} (geyser), {怒|おこ}り{出|だ}す (to flare up; verb-godan), {邪気|じゃき} (malice; evil spirit), {聞|き}き{分|わ}ける (to distinguish by ear; verb-ichidan)
+- **Standalone (12)**: {年長|ねんちょう} (senior in age), {湿度計|しつどけい} (hygrometer), {非通知|ひつうち} (withheld number), {切削|せっさく} (cutting/machining; suru), {旋削|せんさく} (lathe turning; suru), {絹布|けんぷ} (silk cloth), {尾根筋|おねすじ} (ridge line), {遊女屋|ゆうじょや} (brothel; historical), {係助詞|かかりじょし} (binding particle), {炭化物|たんかぶつ} (carbide), {情報提供|じょうほうていきょう} (provision of information; suru), {黄緑色|きみどりいろ} (yellow-green)
+
 ### 2026-06-30 (Routine v2: new-entries — 12 New Entries, IDs 29581–29592)
 Created 12 general-tier entries, all from the high-priority "seen in entry" pool — internal-completeness gaps referenced by existing entries 06329–06337 (a gardening/flowerpot cluster, a driving/tire cluster, and three encyclopedic terms cited from proverb entries). All were `noentry` or near-`noentry` inline-link targets, so each closes a self-reference. The non-seen candidate tail remains heavy corpus-harvest/OCR noise (些道, 個尊, 怒燥, 権使, アンパッサン misglossed "ice cream sundae"; potential/negated verb forms; bare counters), so no padding from the oldest queue — logged a `[pattern]` observation requesting a curator cleanup pass. Two new kanji assigned IDs (琵, 琶 from {琵琶湖|びわこ}); all 12 are single-sense nouns, no new verbs. §4 cross-model self-check on all 12 changed entries: **11 fully clean; 0 applied, 1 rejected** (29585 {空気圧|くうきあつ} flagged semantic `transportation`→`science`/`general`, an in-list narrowness nit rejected per the semantic-tag policy — the entry's explanation and all three examples are framed on tire pressure). $0.0052.
 
@@ -77,10 +83,5 @@ Created 20 general-tier entries from the high-priority "seen in entry" pool (int
 - **Sky objects (3)**: ブラッドムーン (blood moon), {北斗七星|ほくとしちせい} (Big Dipper), {南十字星|みなみじゅうじせい} (Southern Cross)
 - **Tools (4)**: {工具箱|こうぐばこ} (toolbox), ニッパー (nippers), ラジオペンチ (needle-nose pliers), プライヤー (pliers)
 - **Business / energy / other (8)**: {不渡|ふわた}り (dishonored check), {割|わ}り{引|び}く (to discount; verb-godan), {当座|とうざ} (the time being; current account), マネー (money), {省|しょう}エネルギー (energy conservation), クールビズ (Cool Biz), ウォームビズ (Warm Biz), {早見表|はやみひょう} (quick-reference chart)
-
-### 2026-06-27 (Routine v2: new-entries — 15 New Entries, IDs 29517–29531)
-Created 15 general-tier entries, all from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06294–06302, 29514). §4 cross-model self-check: **15 CLEAN, 0 flagged**. $0.0065.
-
-- **Seen-in-entry (15)**: {巻積雲|けんせきうん} (cirrocumulus), {要注意|ようちゅうい} (requiring caution), {貸衣装|かしいしょう} (rental costume), {黒留袖|くろとめそで} (black formal kimono), {油紙|あぶらがみ} (oilpaper), {香道|こうどう} (way of incense), {仏事|ぶつじ} (Buddhist service), {仏前|ぶつぜん} (before the altar), {聞香|もんこう} (appreciating incense), てんかん (epilepsy), こむら{返|がえ}り (calf cramp), {電解質|でんかいしつ} (electrolyte), {胸痛|きょうつう} (chest pain), {今期|こんき} (this term), {生|う}む (to produce/generate; verb-godan, cross-ref {産|う}む)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

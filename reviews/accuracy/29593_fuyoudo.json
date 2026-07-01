@@ -1,0 +1,24 @@
+{
+  "entry_id": "29593_fuyoudo",
+  "headword": "{腐葉土|ふようど}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-01T00:30:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'daily-life' is too broad and misleading for a specific gardening/horticulture term.",
+      "suggestion": "plant-general"
+    }
+  ]
+}
