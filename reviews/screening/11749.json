@@ -1,0 +1,10 @@
+{
+  "entry_id": "11749",
+  "screened_at": "2026-07-02T06:29:50Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 壊滅的 is given as かいめつてき, but the furigana provided is かいめつ. This is a partial reading, but the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, the example given for partial readings is '先行→さきゆ followed by き (先行き=さきゆき)', where the okurigana is outside the markup. In this case, the 'てき' part of 壊滅的 is part of the word, not okurigana. Therefore, the furigana should cover the entire kanji portion, which is 壊滅的, and the reading should be かいめつてき. The provided furigana かいめつ only covers 壊滅."
+  ],
+  "confidence": 0.8
+}

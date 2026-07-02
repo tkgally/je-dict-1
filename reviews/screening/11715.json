@@ -1,0 +1,10 @@
+{
+  "entry_id": "11715",
+  "screened_at": "2026-07-02T06:25:42Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '信号' is 'しんごう', but the provided context 'は{人工衛星|じんこ)' suggests an incomplete reading 'じんこ' for '人工衛星'. This is not an error in '信号' itself, but an observation about the surrounding text's formatting. However, the instruction is to check the furigana readings from the dictionary entry, and '信号 → しんごう' is correct. The issue is with the subsequent entry for '人工衛星' which is cut off. Since the task is to check the *given pairs*, and '信号 → しんごう' is correct, I should not flag it. The same applies to '数千 → すうせん' where the following '人工衛星' is cut off. The instruction states 'Do NOT flag partial readings as errors — they are correct by design.' This applies to the *reading* of the kanji, not the surrounding context. The readings for '信号' and '数千' are complete and correct for their respective kanji. The issue is with the *following* kanji being cut off, which is not part of the current pair's reading check."
+  ],
+  "confidence": 0.9
+}

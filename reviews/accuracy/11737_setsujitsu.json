@@ -1,0 +1,24 @@
+{
+  "entry_id": "11737_setsujitsu",
+  "headword": "{切実|せつじつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:36:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '切実' is not exclusively formal; it is commonly used in everyday contexts to describe earnest feelings or pressing issues.",
+      "suggestion": "neutral"
+    }
+  ]
+}

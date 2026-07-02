@@ -1,0 +1,24 @@
+{
+  "entry_id": "11668_kaneru",
+  "headword": "{兼|か}ねる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:34:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '兼ねる' has two distinct meanings, one of which is a grammatical function (suffix). The current tag 'action' only covers the first meaning. The second meaning is a grammatical function.",
+      "suggestion": "Add 'grammatical' to the semantic tags."
+    }
+  ]
+}

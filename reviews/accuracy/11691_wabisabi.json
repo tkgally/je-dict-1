@@ -1,0 +1,24 @@
+{
+  "entry_id": "11691_wabisabi",
+  "headword": "{侘|わ}び{寂|さ}び",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:35:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific aesthetic concept. 'Culture' or 'art' would be more appropriate.",
+      "suggestion": "culture"
+    }
+  ]
+}
