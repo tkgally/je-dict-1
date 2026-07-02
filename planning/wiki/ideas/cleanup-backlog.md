@@ -295,6 +295,20 @@ misused the furigana wrapper for an English-source gloss (`{old girl|オール�
 `'old girl'`/`'old boy'` since the etymology line already gives the katakana origin. No edit sat inside
 an inline link. Validation and furigana-coverage stayed clean. §4 furigana self-screen: 21 screened,
 **0 flags**, 1 skipped. Next ready slice: 07900+ and the larger pre-06000 backlog.
+
+**Update 2026-07-02 (07900–08300 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **31 instances across 25 entries** (`detect` total 1436 → 1405):
+pure-kana katakana/kana de-wraps (ささみ/アナウンス/ゆうパック/パレード/プロ/ステンレス/アルミ/データ/
+マッサージ/ステーキ/Wi-Fi/バッテリー/エアコン/テレビ/アルバイト/デザイン/パスポート/サラダ/つま/
+チョコレート/チーズ×2/もう — hiragana ruby over katakana/kana/Latin is redundant), over-wrapped
+okurigana splits (`{振り分|ふりわ}` → `{振|ふ}り{分|わ}`, `{抜てき|ばってき}` → `{抜|ばっ}てき`,
+`{認め印|みとめいん}` → `{認|みと}め{印|いん}`, `{御負け|おまけ}` → `{御|お}{負|ま}け`), and
+o-/go-prefix repositions (`{お土産|おみやげ}` → `お{土産|みやげ}`, `{ご飯|はん}` → `ご{飯|はん}` ×3).
+The legit whole-compound `{認印|みとめいん}` was left untouched (no internal kana). No edit sat inside
+an inline link. Validation and furigana-coverage stayed clean. §4 furigana self-screen: 16 screened,
+**1 flag rejected** (07950 `{代引|だいび}き` — model wanted き folded into the reading, but き is genuine
+okurigana of 引き; documented okurigana false-positive family, and untouched by the edits), 9 skipped.
+Next ready slice: 08300+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)

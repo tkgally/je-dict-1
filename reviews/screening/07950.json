@@ -1,11 +1,10 @@
 {
   "entry_id": "07950",
-  "screened_at": "2026-06-21T00:32:28Z",
+  "screened_at": "2026-07-02T15:19:54Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 込 is こ, but the full word is 込み. This is a partial reading, but the provided example for partial readings (先行→さきゆ followed by き) shows the okurigana immediately after the kanji reading. Here, the okurigana み is separated from こ by a space, which is unusual for a direct okurigana split. However, the instructions state 'Do NOT flag partial readings as errors — they are correct by design.' and 'Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき)'. Given this, it's technically not an error based on the rules, but it's an unusual split.",
-    "The reading for 代引 is だいび, but the full word is 代引き. This is a partial reading, but similar to 込, the okurigana き is separated from だいび by a colon, which is not a direct okurigana split as shown in the example. However, the instructions state 'Do NOT flag partial readings as errors — they are correct by design.' and 'Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき)'. Given this, it's technically not an error based on the rules, but it's an unusual split."
+    "The reading for 16. 代引 is だいび, but it should be だいびき. The 'き' is part of the kanji reading, not okurigana."
   ],
-  "confidence": 0.7
+  "confidence": 0.9
 }
