@@ -1,0 +1,209 @@
+{
+  "entry_id": "11824",
+  "word": "{効力|こうりょく}",
+  "reading": "こうりょく",
+  "reviewed_at": "2026-07-02T21:36:47Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 10,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "効力",
+      "reading": "こうりょく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "効力",
+      "reading": "こうりょく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "薬",
+      "reading": "くすり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "薬",
+      "reading": "くすり",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "契約",
+      "reading": "けいやく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "契約",
+      "reading": "けいやく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "来月",
+      "reading": "らいげつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "来月",
+      "reading": "らいげつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "発生",
+      "reading": "はっせい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "発生",
+      "reading": "はっせい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "法律",
+      "reading": "ほうりつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "法律",
+      "reading": "ほうりつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "失",
+      "reading": "うしな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "失",
+      "reading": "うしな",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "効果",
+      "reading": "こうか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "効果",
+      "reading": "こうか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "発揮",
+      "reading": "はっき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "発揮",
+      "reading": "はっき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "法的",
+      "reading": "ほうてき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "法的",
+      "reading": "ほうてき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 10,
+    "flagged": 0,
+    "ok": 10,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "11824",
+    "screened_at": "2026-07-02T21:23:59Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for {法律|ほうりつ} is given as ほうりつ, but in the context \"法律はすでに{効力|こう)\", the reading for 効力 is given as こう. This is a partial reading, but it's not clear if it's intentional or an error. Given the instruction \"Do NOT flag partial readings as errors — they are correct by design.\", I will not flag this as an error. However, the reading for {失|うしな} is given as うしな, which is a partial reading of 失う. This is also not an error based on the instructions. The reading for {効力|こうりょく} is given as こうりょく, which is correct. The reading for {薬|くすり} is given as くすり, which is correct. The reading for {契約|けいやく} is given as けいやく, which is correct. The reading for {来月|らいげつ} is given as らいげつ, which is correct. The reading for {発生|はっせい} is given as はっせい, which is correct. The reading for {効果|こうか} is given as こうか, which is correct. The reading for {発揮|はっき} is given as はっき, which is correct. The reading for {法的|ほうてき} is given as ほうてき, which is correct. All readings seem to follow the given rules."
+    ],
+    "confidence": 0.8
+  }
+}
