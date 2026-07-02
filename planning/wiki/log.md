@@ -2,6 +2,23 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-02] maintenance | Harvest 3 loose observations of 2026-07-01/02 routine runs (P11 in-list-wrong-category drift into the 11500s, item 20 27th/28th no-op with the sharpest scorer-not-recency evidence) + thirteenth metrics refresh (186 runs) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation debt + metrics-trend-due were the top signals)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 3 unharvested observations from the 2026-07-01 routine polish session 006 and the 2026-07-02 polish run:
+  - **Tooling item 20 update 2026-07-02 (twenty-seventh/twenty-eighth no-op confirmation)** — the sharpest scorer-not-recency evidence yet: session 006 found all 6 *eligible* entries past the §2 30-day skip (だって/まあ/低い/小さい/遅い/曜日) already fully polished yet `score_note_quality.py` scores them 30–70. Folded a new **"structured-note credit"** recommendation into item 20 (credit ・-bulleted forms/collocation blocks and inline links as quality signal).
+  - **Cleanup P11 update 2026-07-02** — in-list-but-wrong-category tag drift persists into the 11500s (11573–11646 accuracy-review, 5/14 genuine: トレード/作画→`leisure`, 入浴→`consumption`); invisible to P20/`concrete-noun-domain-mismatch`; recommends a targeted katakana/suru-noun `tags` sweep.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,617 of 29,420 total as of 2026-07-02).
+- **[H] Metrics trend — thirteenth refresh** of `topics/quality-metrics.md` (12 new metrics lines, 174→186 runs / ~6,392 adjudicated flags). Runs 175–186 adjudicated 130 flags (58 applied / 71 rejected / **1 escalated** — fifth near-zero-escalation refresh); `tags` recovered to **57.1%** apply-among-decided on a mixed-band window; furigana screening pure noise (0/29); review queue **new floor 14,553**; entry total →29,420; OpenRouter peak ~$0.23/day. No metric moving the wrong way → no new `[pattern]` observation.
+
+**Not done**: no new research/topic pages (harvest + light sync + due metrics refresh were the budget). `backlog-queue.json` needed no edits — harvested items are an incremental P11 update (not deterministically detectable → not batch-ready) and a Tooling item-20 improvement, no status/batch-readiness change.
+
 ## [2026-07-01] maintenance | Harvest 4 loose observations of 2026-06-30/07-01 routine runs (P20 11515–11553 off-vocab cluster, P11 wrong-category tag on a function word + new item-6 detector signal, item 20 26th no-op, item 23 candidate-block reinforcement) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8-signal unharvested-observation debt was the top signal)
