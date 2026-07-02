@@ -1,0 +1,24 @@
+{
+  "entry_id": "29634_negatibu",
+  "headword": "ネガティブ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T12:25:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'technology' is not appropriate for the headword 'ネガティブ' as a whole. While one sense relates to photographic negatives, the primary meaning is about attitude/outlook, which is not technology.",
+      "suggestion": "Remove 'technology' from the semantic tags."
+    }
+  ]
+}
