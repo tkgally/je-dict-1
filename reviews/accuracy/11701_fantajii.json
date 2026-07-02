@@ -1,0 +1,24 @@
+{
+  "entry_id": "11701_fantajii",
+  "headword": "ファンタジー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:35:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is too narrow and misleading for 'ファンタジー'.",
+      "suggestion": "Replace 'leisure' with 'art' or 'general'."
+    }
+  ]
+}

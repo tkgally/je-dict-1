@@ -1,0 +1,24 @@
+{
+  "entry_id": "11759_kooritsuku",
+  "headword": "{凍|こお}りつく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:36:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'weather' is not appropriate for the headword's meaning, which is about freezing, not weather itself. While freezing is related to weather, the word itself describes the state or action of freezing.",
+      "suggestion": "Remove 'weather' and add 'change' or 'nature' if a broader category is needed, or 'descriptive' as a fallback."
+    }
+  ]
+}

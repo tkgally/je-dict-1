@@ -1,0 +1,24 @@
+{
+  "entry_id": "11731_reizou",
+  "headword": "{冷蔵|れいぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:36:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword '冷蔵'. While often used for food, '冷蔵' applies to any item that needs refrigeration, as shown in example 2 with medicine.",
+      "suggestion": "Replace 'food' with 'daily-life' or 'general' to better reflect its broader application."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11689_naimen",
+  "headword": "{内面|ないめん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:35:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '内面' has two distinct senses, one related to 'emotion' and another to 'physical interior'. The current semantic tag 'emotion' only covers the first sense, making it incomplete and potentially misleading for the second sense.",
+      "suggestion": "Add 'general' or 'descriptive' to cover the broader meaning of 'inner surface/inside' for physical objects, or split the entry into two headwords if the dictionary allows for it. Given the current structure, 'general' would be the most appropriate addition to encompass both meanings without being overly specific."
+    }
+  ]
+}

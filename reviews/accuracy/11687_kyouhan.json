@@ -1,0 +1,24 @@
+{
+  "entry_id": "11687_kyouhan",
+  "headword": "{共犯|きょうはん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-02T06:35:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a specific legal meaning.",
+      "suggestion": "law"
+    }
+  ]
+}
