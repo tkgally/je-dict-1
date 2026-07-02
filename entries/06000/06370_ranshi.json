@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06370_ranshi_ex1",
-      "japanese": "{乱視|らんし}があるので、コンタクトレンズは{特注|とくちゅう}が{必要|ひつよう}だ。",
+      "japanese": "{乱視|らんし}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧⟦ので→ので：09501_node⟧、⟦コンタクトレンズ→コンタクトレンズ：17011_kontakutorenzu⟧⟦は→は：00079_ha⟧⟦{特注|とくちゅう}→特注：13486_tokuchuu⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "Because I have astigmatism, I need custom-made contact lenses.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06370_ranshi_ex2",
-      "japanese": "{乱視|らんし}を{矯正|きょうせい}するメガネをかけている。",
+      "japanese": "{乱視|らんし}⟦を→を：00422_wo⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧⟦する→する：00392_suru⟧⟦メガネ→眼鏡：00651_megane⟧⟦を→を：00422_wo⟧⟦かけて→かける：00854_kakeru⟧⟦いる→いる：00495_iru⟧。",
       "english": "I wear glasses that correct my astigmatism.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06370_ranshi_ex3",
-      "japanese": "{検眼|けんがん}で{乱視|らんし}の{度合|どあ}いを{調|しら}べた。",
+      "japanese": "⟦{検眼|けんがん}→検眼：noentry⟧⟦で→で：00502_de⟧{乱視|らんし}⟦の→の：09472_no⟧⟦{度合|どあ}い→度合い：12456_doai⟧⟦を→を：00422_wo⟧⟦{調|しら}べた→調べる：01213_shiraberu⟧。",
       "english": "The eye exam measured the degree of my astigmatism.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE: {乱視|らんし} literally means \"disordered vision.\" It can occur along with nearsightedness or farsightedness.\n\nCOMMON COLLOCATIONS:\n・{乱視|らんし}がある (to have astigmatism)\n・{乱視|らんし}を{矯正|きょうせい}する (to correct astigmatism)\n・{乱視用|らんしよう}コンタクト (toric contact lenses)\n・{乱視|らんし}の{度数|どすう} (astigmatism prescription)\n\nOTHER VISION CONDITIONS:\n・{近視|きんし} - nearsightedness (myopia)\n・{遠視|えんし} - farsightedness (hyperopia)\n・{老眼|ろうがん} - presbyopia\n\nTREATMENT: {乱視|らんし} is typically corrected with glasses ({眼鏡|めがね}), toric contact lenses, or refractive surgery ({屈折矯正手術|くっせつきょうせいしゅじゅつ}).",
+  "notes": "USAGE: {乱視|らんし} literally means \"disordered vision.\" It can occur along with nearsightedness or farsightedness.\n\nCOMMON COLLOCATIONS:\n・{乱視|らんし}⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have astigmatism)\n・{乱視|らんし}⟦を→を：00422_wo⟧⟦{矯正|きょうせい}→矯正：14784_kyousei⟧⟦する→する：00392_suru⟧ (to correct astigmatism)\n・{乱視|らんし}⟦{用|よう}→〜用：09842_you⟧⟦コンタクト→コンタクト：10860_kontakuto⟧ (toric contact lenses)\n・{乱視|らんし}⟦の→の：09472_no⟧⟦{度数|どすう}→度数：19737_dosuu⟧ (astigmatism prescription)\n\nOTHER VISION CONDITIONS:\n・⟦{近視|きんし}→近視：02683_kinshi⟧ - nearsightedness (myopia)\n・⟦{遠視|えんし}→遠視：07105_enshi⟧ - farsightedness (hyperopia)\n・⟦{老眼|ろうがん}→老眼：06369_rougan⟧ - presbyopia\n\nTREATMENT: {乱視|らんし} is typically corrected with glasses (⟦{眼鏡|めがね}→眼鏡：00651_megane⟧), toric contact lenses, or refractive surgery (⟦{屈折矯正手術|くっせつきょうせいしゅじゅつ}→屈折矯正手術：noentry⟧).",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{老眼|ろうがん}",
       "label": "presbyopia",
       "target_id": "06369_rougan"
+    },
+    {
+      "type": "related",
+      "reading": "きんし",
+      "headword": "{近視|きんし}",
+      "label": "nearsightedness (myopia)",
+      "target_id": "02683_kinshi"
+    },
+    {
+      "type": "related",
+      "reading": "えんし",
+      "headword": "{遠視|えんし}",
+      "label": "farsightedness (hyperopia)",
+      "target_id": "07105_enshi"
     }
   ],
   "metadata": {
     "created": "2026-01-17T11:32:56Z",
-    "modified": "2026-06-17T09:34:37Z",
+    "modified": "2026-07-02T09:21:25Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
