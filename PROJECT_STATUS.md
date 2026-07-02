@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-06-16
+**Last updated**: 2026-07-02
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-02 (Routine v2: new-entries — 12 New Entries, IDs 29630–29641)
+Created 12 general-tier entries, all from the high-priority "seen in entry" pool — internal-completeness gaps referenced by existing entries (a photography cluster from 06362, geology terms, an optometry/vision-surgery cluster from 06370/06366, and single terms cited from the {正史|せいし}, {威圧的|いあつてき}, and {大器晩成|たいきばんせい} entries). This **cleared the entire remaining seen-in-entry queue** (12 candidates). The non-seen candidate tail remains heavy corpus-harvest noise ({小鼻|こばな}を{挟|はさ}む, 権使, がまま, 些道, 個尊, 怒燥, compositional phrases, bare counters), so no padding from the oldest queue. Conjugation tables added to the 3 new suru-verbs ({堆積|たいせき}, {褶曲|しゅうきょく}, {検眼|けんがん}); one new kanji assigned an ID ({褶|しゅう} from 褶曲 → 02780). §4 cross-model self-check on all 12 changed entries: **10 fully clean; 2 applied, 0 rejected** — applied 29634 ネガティブ semantic `technology` removed (core sense is attitude; kept `evaluation`) and 29640 {強圧的|きょうあつてき} semantic `personality`→`descriptive` (matches near-synonym {威圧的|いあつてき} and the -teki adjective convention; the model's `action` suggestion was not used). $0.0052.
+
+- **Photography (2)**: {現像液|げんぞうえき} (developer / developing solution), ネガティブ (negative — attitude; photographic negative)
+- **Geology (2)**: {堆積|たいせき} (deposition; sedimentation; suru), {褶曲|しゅうきょく} (geological fold; suru)
+- **Vision (2)**: {検眼|けんがん} (eye examination; suru), {屈折矯正手術|くっせつきょうせいしゅじゅつ} (refractive surgery)
+- **Other (6)**: {肌感覚|はだかんかく} (gut feeling; intuitive sense), {野史|やし} (unofficial history), {使用料|しようりょう} (usage fee), ロイヤリティ (royalty; licensing fee), {強圧的|きょうあつてき} (coercive; high-handed), {大器|たいき} (person of great talent)
+
 ### 2026-07-01 (Routine v2: new-entries — 17 New Entries, IDs 29613–29629)
 Created 17 general-tier entries: all 7 remaining "seen in entry" priority candidates plus 10 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (compositional phrases, bare counters/numbers/dates, typos, dialect fragments), so the 10 supplements were each chosen for genuine dictionary-worthiness rather than padded from the oldest queue. Conjugation table added to the one new verb ({イラつく}); no new kanji. §4 cross-model self-check on all 17 changed entries: **14 fully clean; 1 applied, 2 rejected** — applied 29625 {皮膚感覚|ひふかんかく} `body-part`→removed (a sensation/faculty, not anatomy; kept `cognition`); rejected 29616 {楕円形|だえんけい} `general`→`size` (no "shape" tag exists; `size` is wrong, `general` is the correct fallback) and 29622 {神曲|しんきょく} formality `informal`→`slang` (`slang` is not a valid formality enum value). $0.0073. Captured 3 referenced-but-missing words as candidates ({肌感覚|はだかんかく}, {堆積|たいせき}, {野史|やし}).
 
@@ -75,11 +83,5 @@ Created 12 general-tier entries: all 8 remaining "seen in entry" priority candid
 
 - **Seen-in-entry (8)**: {二重|にじゅう}{跳|と}び (double under, jump rope), {大|おお}{縄|なわ}{跳|と}び (group long-rope jumping), {滑|すべ}り{降|お}りる (to slide down; verb-ichidan), {泥|どろ}{団子|だんご} (mud ball), {剪定|せんてい}ばさみ (pruning shears), {植木|うえき}{屋|や} (gardener), シーソー (seesaw), ジャングルジム (jungle gym)
 - **Standalone (4)**: スーパーボールすくい (superball scooping, festival game), バラ{科|か} (rose family / Rosaceae), ユリ{科|か} (lily family / Liliaceae), {足|そく}{関節|かんせつ} (ankle joint; medical, distinguished from 足首)
-
-### 2026-06-29 (Routine v2: new-entries — 17 New Entries, IDs 29552–29568)
-Created 17 general-tier entries entirely from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06311–06321). Dominated by the 12-sign Western zodiac set referenced from 06313 ({星座|せいざ}), plus an eclipse term and a barbershop/grooming/childhood-game cluster. Two homophone candidates dropped as duplicates of existing entries (髭 → 01332 ひげ; 髭そり → 22892 {髭剃|ひげそ}り). Two new kanji assigned IDs ({蝕|しょく}, {蠍|さそり}); no new verbs. §4 cross-model self-check on all 17 changed entries: **13 fully clean; 0 applied, 4 rejected** (3 zodiac signs flagged semantic `culture`→`science`/astronomy — model conflated the astrological sign with the constellation, and the horoscope-framed entries are correctly `culture`; 29567 {理容店|りようてん} flagged formality `formal`→`neutral`, but the entry's own register note confirms `formal`). $0.0074.
-
-- **Zodiac signs (12)**: {牡羊座|おひつじざ} (Aries), {牡牛座|おうしざ} (Taurus), {双子座|ふたござ} (Gemini), {蟹座|かにざ} (Cancer), {獅子座|ししざ} (Leo), {乙女座|おとめざ} (Virgo), {天秤座|てんびんざ} (Libra), {蠍座|さそりざ} (Scorpio), {射手座|いてざ} (Sagittarius), {山羊座|やぎざ} (Capricorn), {水瓶座|みずがめざ} (Aquarius), {魚座|うおざ} (Pisces)
-- **Other (5)**: {蝕|しょく} (eclipse; literary), トリートメント (hair treatment), {顔|かお}そり (face shaving), {理容店|りようてん} (barbershop; formal), {缶|かん}{蹴|け}り (kick the can)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_

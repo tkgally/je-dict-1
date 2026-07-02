@@ -3,6 +3,12 @@
 This file contains the historical change log entries that have been moved from PROJECT_STATUS.md.
 For current status, see [PROJECT_STATUS.md](PROJECT_STATUS.md).
 
+### 2026-06-29 (Routine v2: new-entries — 17 New Entries, IDs 29552–29568)
+Created 17 general-tier entries entirely from the high-priority "seen in entry" pool (internal-completeness gaps referenced by existing entries 06311–06321). Dominated by the 12-sign Western zodiac set referenced from 06313 ({星座|せいざ}), plus an eclipse term and a barbershop/grooming/childhood-game cluster. Two homophone candidates dropped as duplicates of existing entries (髭 → 01332 ひげ; 髭そり → 22892 {髭剃|ひげそ}り). Two new kanji assigned IDs ({蝕|しょく}, {蠍|さそり}); no new verbs. §4 cross-model self-check on all 17 changed entries: **13 fully clean; 0 applied, 4 rejected** (3 zodiac signs flagged semantic `culture`→`science`/astronomy — model conflated the astrological sign with the constellation, and the horoscope-framed entries are correctly `culture`; 29567 {理容店|りようてん} flagged formality `formal`→`neutral`, but the entry's own register note confirms `formal`). $0.0074.
+
+- **Zodiac signs (12)**: {牡羊座|おひつじざ} (Aries), {牡牛座|おうしざ} (Taurus), {双子座|ふたござ} (Gemini), {蟹座|かにざ} (Cancer), {獅子座|ししざ} (Leo), {乙女座|おとめざ} (Virgo), {天秤座|てんびんざ} (Libra), {蠍座|さそりざ} (Scorpio), {射手座|いてざ} (Sagittarius), {山羊座|やぎざ} (Capricorn), {水瓶座|みずがめざ} (Aquarius), {魚座|うおざ} (Pisces)
+- **Other (5)**: {蝕|しょく} (eclipse; literary), トリートメント (hair treatment), {顔|かお}そり (face shaving), {理容店|りようてん} (barbershop; formal), {缶|かん}{蹴|け}り (kick the can)
+
 ### 2026-06-23 (Routine v2: new-entries — 14 New Entries, IDs 29429–29442)
 Created the 6 remaining priority "seen in entry" candidates (internal-completeness gaps referenced from polish-frontier entries 06239/06240/06243/06244) plus 8 hand-curated, lexicalized standalone nouns. §4 cross-model self-check came back **CLEAN on all 14** (0 issues, $0.0061). Logged a `[pattern]` observation: candidate_words.json is now largely exhausted of genuine standalone gaps — ~600 surveyed + ~25 extracted base words probed, and nearly every common base word (曖昧, 無難, ぎこちない, 巧み, 速やか, 潔い, 仲良し, 無邪気…) already exists as an entry; remaining pool is mostly transparent compounds, inflected fragments, numeral/counter compounds, and rare coinages. Recommend a curator clean_up_candidates pass + quality restock.
 
