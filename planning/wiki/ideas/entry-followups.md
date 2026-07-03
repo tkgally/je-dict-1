@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-06-26 (29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
+**Last updated**: 2026-07-03 (added **07105 遠視** — no inline links + weak sole `general` tag where siblings 近視/乱視 use `health`, needs a full frontier polish; **06372 引き伸ばす** — dubious 書き伸ばす/押し伸ばす in its RELATED ～伸ばす note, revise to standard compounds. Prior 2026-06-26: 29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -599,6 +599,29 @@ a near-duplicate entry.
 headword** (the dictionary's standard handling of kanji variants — see
 [Word Variants](../topics/word-variants.md)), then drop candidate C22065 on the next sync. Until then the
 candidate is parked for the curator; it should **not** be drawn as a fresh entry by a future new-entries run.
+
+## 07105_enshi (遠視) — no inline links + weak `general` tag, needs a full frontier polish
+
+**Source**: 2026-07-02 routine polish session 004
+
+07105 遠視 (farsightedness) predates the inline-link polishing step: its examples and notes carry **no
+`⟦...⟧` links at all**, and its sole semantic tag is the weak catch-all **`general`**, whereas its
+sibling ophthalmic-condition entries 近視 (nearsightedness) and 乱視 (astigmatism) use **`health`**. The
+observing run only touched it for a back-link (per the no-recurse rule) and did not do the full pass.
+
+**Recommended action**: a full frontier-style polish — add inline links to examples and notes, and
+re-tag `general`→`health` to match the 近視/乱視 siblings.
+
+## 06372_hikinobasu (引き伸ばす) — dubious related-compound list in notes
+
+**Source**: 2026-07-02 routine polish session 004
+
+The "RELATED ～伸ばす COMPOUND VERBS" note in 06372 引き伸ばす lists **書き伸ばす** and **押し伸ばす**, which
+appear non-standard/rare — neither has an entry and both are dubious as real dictionary words. They were
+left marked `noentry` without candidates (correctly, since they may not be real words).
+
+**Recommended action**: revise the note's related-compound list to more common, genuinely-standard
+～伸ばす compounds (e.g. 引き伸ばす's actual near-relatives), or drop the questionable entries from the list.
 
 ## Related pages
 

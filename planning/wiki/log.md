@@ -2,6 +2,28 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-03] maintenance | Harvest loose observations of 2026-07-02/03 routine runs (P21 zero-link band reaches 06376–06388, item 17 ninth general-too-broad confirmation, item 20 29th–31st no-op with the advance-cursor workaround, item 21 eighth truncation) + compound-verbs bound-suffix convention + two Entry Follow-ups + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation debt was the top signal — 16 signalled)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all loose observations from the 2026-07-02 accuracy-review / routine polish sessions 004 and 007, the 2026-07-03 new-entries note, and 2026-07-03 routine polish session 008:
+  - **Cleanup P21 update 2026-07-03** — the zero-inline-link create-era band reaches **06376–06388** (three consecutive frontier runs — sessions 004/007/008 over 06370–06388 — all fully naked in examples *and* notes); band now unbroken ~06150→06388, the 06300–06400+ range confirmed a contiguous un-linked zone → dedicated ~06300–06500 sweep restated.
+  - **Tooling item 17 update 2026-07-02 (ninth confirmation)** — 11647–11765 accuracy-review 29/118 (~25%), ~23 in-list "too broad/narrow" swaps rejected (13 = "`general` too broad" alone); only genuine applies were off-list migrations (time→time-general ×2, death→law) + one 代名詞 education→grammatical category error. Prescription sharpened to "flag only off-list tags + clear category errors."
+  - **Tooling item 20 update 2026-07-03 (29th/30th/31st no-op)** — three priority-lane runs all-no-op on the same closed-tier set (30–70 scored yet fully polished); sessions 007/008 advanced the cursor (line 35, then 35→71) rather than the futile regenerate+reset — the advance-past-examined-lines workaround is now de-facto standing practice.
+  - **Tooling item 21 update 2026-07-03 (eighth truncation-class)** — 11766–11893 furigana screen overran the 900 s wrapper at ~126 entries at ~9 entries/min → size furigana screening to ~150 IDs/run.
+  - **[skill] recommendation (session-log only, per harvest rules)** — add a note to the `inline-word-links` skill on treating bound compound-verb suffixes (込む etc.) in decomposition prose as unlinked; recorded in compound-verbs.md, not applied to the skill.
+  - Reinforcement only: the candidate-pool corpus-harvest-pollution `[pattern]` is the already-filed <10%-signal finding (Tooling item 23 + Open Issues); session 008's 14 "seen in entry 0638x" candidates were captured by that run.
+- **[C/D] Deepen** — added "Bound suffix morphemes in decomposition prose" to `topics/compound-verbs.md` (leave bound V2 suffixes like 込む unlinked in COMPOUND VERB / RELATED ～X prose, since the compound suffix sense has no standalone entry — both 込む entries gloss "to be crowded", so linking 00719_komu would be semantically wrong; consistent with 拝/的 handling).
+- **[Entry Follow-ups]** — filed **07105 遠視** (no inline links + weak sole `general` tag where siblings 近視/乱視 use `health`) and **06372 引き伸ばす** (dubious 書き伸ばす/押し伸ばす in its RELATED ～伸ばす note).
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,642 of 29,425 total as of 2026-07-03).
+
+**Not done**: no new research pages; **[H] metrics-trend not due** (9 new `metrics-history.jsonl` lines, 195 total, since the thirteenth refresh at 186 — threshold ≥10). `backlog-queue.json` needed no edits — all harvested items are incremental updates under existing open entries with unchanged status/batch-readiness.
+
 ## [2026-07-02] maintenance | Harvest 3 loose observations of 2026-07-01/02 routine runs (P11 in-list-wrong-category drift into the 11500s, item 20 27th/28th no-op with the sharpest scorer-not-recency evidence) + thirteenth metrics refresh (186 runs) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation debt + metrics-trend-due were the top signals)
