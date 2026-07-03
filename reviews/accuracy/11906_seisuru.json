@@ -1,0 +1,24 @@
+{
+  "entry_id": "11906_seisuru",
+  "headword": "{制|せい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-03T09:25:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '制する' is not inherently formal; it's a neutral verb that can be used in various contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}
