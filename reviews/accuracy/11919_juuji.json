@@ -1,0 +1,24 @@
+{
+  "entry_id": "11919_juuji",
+  "headword": "{十字|じゅうじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-03T09:26:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation says 'X-shape' but the Japanese refers to a cross shape (+).",
+      "suggestion": "Change 'X-shape' to 'cross shape' or 'plus sign shape'."
+    }
+  ]
+}

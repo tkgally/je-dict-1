@@ -1,0 +1,24 @@
+{
+  "entry_id": "11905_sousetsu",
+  "headword": "{創設|そうせつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-03T09:25:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a clear meaning related to creation or establishment.",
+      "suggestion": "action"
+    }
+  ]
+}

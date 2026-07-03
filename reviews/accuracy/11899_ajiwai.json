@@ -1,0 +1,31 @@
+{
+  "entry_id": "11899_ajiwai",
+  "headword": "{味|あじ}わい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-03T09:25:49Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'food-drink'.",
+      "suggestion": "food"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'quality-evaluation'.",
+      "suggestion": "evaluation"
+    }
+  ]
+}
