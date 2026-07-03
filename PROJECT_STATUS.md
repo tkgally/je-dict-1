@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-03 (Routine v2: new-entries — 13 New Entries, IDs 29642–29654)
+Created 13 general-tier noun entries. The one remaining "seen in entry" candidate was created first ({規則遵守|きそくじゅんしゅ}, rule compliance, cited from 06379); the rest are genuinely real, useful vocabulary hand-picked from the noisy candidate tail — the oldest/non-seen candidates are dominated by corpus-harvest garbage (fabricated words, compositional compounds, wrong glosses), so only ~13 defensible entries could be responsibly sourced rather than padding to 20. Picks skew to loanwords and news vocabulary: business franchise pair (フランチャイザー/フランチャイジー), a missile-range set ({誘導|ゆうどう}/{短距離|たんきょり}/{長距離|ちょうきょり}ミサイル), and everyday loanwords (アクションゲーム, フルカラー, コンペティション, マイナーリーグ, ハンドセット, ディップソース, プレイメーカー). §4 cross-model self-check on all 13: **12 clean; 0 applied, 1 rejected** — rejected a tag flag on コンペティション (`leisure`→`action`; in-list narrowness nit and "action" is a worse fit for a contest noun). Logged a `[pattern]` observation requesting a curator restock/cleanup of the polluted candidate list. $0.0056.
+
+- **Business (3)**: {規則遵守|きそくじゅんしゅ} (rule compliance), フランチャイザー (franchisor), フランチャイジー (franchisee)
+- **Military/news (3)**: {誘導|ゆうどう}ミサイル (guided missile), {短距離|たんきょり}ミサイル (short-range missile), {長距離|ちょうきょり}ミサイル (long-range missile)
+- **Everyday loanwords (7)**: アクションゲーム (action game), フルカラー (full color), コンペティション (competition; contest), マイナーリーグ (minor league), ハンドセット (handset), ディップソース (dipping sauce; dip), プレイメーカー (playmaker)
+
 ### 2026-07-02 (Routine v2: new-entries — 12 New Entries, IDs 29630–29641)
 Created 12 general-tier entries, all from the high-priority "seen in entry" pool — internal-completeness gaps referenced by existing entries (a photography cluster from 06362, geology terms, an optometry/vision-surgery cluster from 06370/06366, and single terms cited from the {正史|せいし}, {威圧的|いあつてき}, and {大器晩成|たいきばんせい} entries). This **cleared the entire remaining seen-in-entry queue** (12 candidates). The non-seen candidate tail remains heavy corpus-harvest noise ({小鼻|こばな}を{挟|はさ}む, 権使, がまま, 些道, 個尊, 怒燥, compositional phrases, bare counters), so no padding from the oldest queue. Conjugation tables added to the 3 new suru-verbs ({堆積|たいせき}, {褶曲|しゅうきょく}, {検眼|けんがん}); one new kanji assigned an ID ({褶|しゅう} from 褶曲 → 02780). §4 cross-model self-check on all 12 changed entries: **10 fully clean; 2 applied, 0 rejected** — applied 29634 ネガティブ semantic `technology` removed (core sense is attitude; kept `evaluation`) and 29640 {強圧的|きょうあつてき} semantic `personality`→`descriptive` (matches near-synonym {威圧的|いあつてき} and the -teki adjective convention; the model's `action` suggestion was not used). $0.0052.
 
@@ -77,11 +84,5 @@ Created 12 general-tier entries, all from the high-priority "seen in entry" pool
 - **Gardening cluster (4)**: {鉢|はち} (bowl/pot/basin), {鉢皿|はちざら} (pot saucer), {培養土|ばいようど} (potting soil), {鉢底石|はちぞこいし} (drainage stones)
 - **Driving cluster (4)**: {空気圧|くうきあつ} (air/tire pressure), スタッドレスタイヤ (studless winter tire), {踏|ふ}み{間違|まちが}え (pedal misapplication), {全開|ぜんかい} (fully open; full throttle)
 - **Other (4)**: ハンドルネーム (online handle), {文|もん} (mon, old currency unit), {漢書|かんじょ} (Book of Han), {琵琶湖|びわこ} (Lake Biwa)
-
-### 2026-06-29 (Routine v2: new-entries — 12 New Entries, IDs 29569–29580)
-Created 12 general-tier entries: all 8 remaining "seen in entry" priority candidates (a children's-outdoor-play and gardening cluster referenced from existing entries 06323–06327) plus 4 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (misglosses and transparent compounds — e.g. 権使, 些道, 怒燥, 三千代 "three thousand yen note?"), so the 4 supplements were chosen individually for genuine dictionary-worthiness, not padded from the oldest queue. Conjugation table added to the one verb ({滑|すべ}り{降|お}りる); no new kanji. §4 cross-model self-check on all 12 changed entries: **12 CLEAN, 0 flagged**. $0.0052.
-
-- **Seen-in-entry (8)**: {二重|にじゅう}{跳|と}び (double under, jump rope), {大|おお}{縄|なわ}{跳|と}び (group long-rope jumping), {滑|すべ}り{降|お}りる (to slide down; verb-ichidan), {泥|どろ}{団子|だんご} (mud ball), {剪定|せんてい}ばさみ (pruning shears), {植木|うえき}{屋|や} (gardener), シーソー (seesaw), ジャングルジム (jungle gym)
-- **Standalone (4)**: スーパーボールすくい (superball scooping, festival game), バラ{科|か} (rose family / Rosaceae), ユリ{科|か} (lily family / Liliaceae), {足|そく}{関節|かんせつ} (ankle joint; medical, distinguished from 足首)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
