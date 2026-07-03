@@ -1,6 +1,6 @@
 # Compound Verb Representation
 
-**Last updated**: 2026-06-12
+**Last updated**: 2026-07-03 (added "Bound suffix morphemes in decomposition prose" — the convention to leave bound V2 suffixes like 込む unlinked, since their compound sense has no standalone entry)
 
 ## Overview
 
@@ -162,6 +162,23 @@ unlinked (Cleanup Backlog P21):
 
 These are candidates for a systemic-fix batch once the Tooling Backlog item 15
 detector (`check_artifacts.py` lint rule for unlinked 自動詞/他動詞) is built.
+
+### Bound suffix morphemes in decomposition prose (linking convention)
+
+Compound-verb notes frequently contain a decomposition line such as
+`COMPOUND VERB: 流し + 込む ("into")` and a `RELATED ～込む COMPOUND VERBS` header.
+A recurring per-session question (2026-07-03 routine polish, entries 06381–06388)
+is whether the bound V2 suffix in such prose should be inline-linked. The answer
+is **no**: the suffix *sense* the compound relies on has no matching standalone
+entry. For 込む, both existing 込む entries gloss as "to be crowded" — the
+directional/completive suffix sense ("into / thoroughly") is a different morpheme,
+so a link to `00719_komu` would be **semantically wrong**, not merely imprecise.
+The established convention (consistent with how the 拝〜 humble prefix and the 〜的
+suffix are handled) is to **leave bound compound-verb suffixes unlinked** in
+decomposition prose and `RELATED ～X` headers, linking only the free V1 element and
+any standalone content words. This is a candidate for an explicit note in the
+`inline-word-links` skill so future sessions don't re-derive it each time (logged
+as a `[skill]` recommendation, 2026-07-03).
 
 ### Notes-level conjugation duplication
 
