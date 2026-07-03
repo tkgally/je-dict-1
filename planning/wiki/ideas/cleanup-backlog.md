@@ -309,6 +309,22 @@ an inline link. Validation and furigana-coverage stayed clean. §4 furigana self
 **1 flag rejected** (07950 `{代引|だいび}き` — model wanted き folded into the reading, but き is genuine
 okurigana of 引き; documented okurigana false-positive family, and untouched by the edits), 9 skipped.
 Next ready slice: 08300+ and the larger pre-06000 backlog.
+
+**Update 2026-07-03 (08300–08700 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **21 instances across 17 entries** (`detect` total 1405 → 1384):
+pure-kana katakana/kana de-wraps (エンドツーエンド/ワンケー/おもちゃ/マンション/ライター/ハイアーチ/
+サポート/ドア — hiragana ruby over katakana/kana is redundant), over-wrapped okurigana splits
+(`{暑さ|あつさ}` → `{暑|あつ}さ`, `{突き当たり|つきあたり}` → `{突|つ}き{当|あ}たり`,
+`{忘れ物|わすれもの}` → `{忘|わす}れ{物|もの}` ×2, `{その後|そのご}`/`{その前|そのまえ}`/`{その間|そのあいだ}`
+→ `その{後|ご}`/`その{前|まえ}`/`その{間|あいだ}`, `{横ばい|よこばい}` → `{横|よこ}ばい`,
+`{しめ鯖|しめさば}` → `しめ{鯖|さば}`), o-prefix repositions (`{お腹|おなか}` → `お{腹|なか}`,
+`{お願|ねが}` → `お{願|ねが}`, `{お返|かえ}` → `お{返|かえ}`), and one kana-prefix correction
+(`{おせち料理|りょうり}` → `おせち{料理|りょうり}`, since おせち is kana, not the honorific お prefix —
+analogous to the earlier おむつ{替|か} correction). No edit sat inside an inline link. Validation and
+furigana-coverage stayed clean. §4 furigana self-screen: 14 screened, **1 flag rejected** (08399
+`{行|い}き{止|ど}まり` — model wanted 止=と, but ど is genuine rendaku in いきどまり; documented
+rendaku false-positive family, and untouched by the edits), 3 skipped.
+Next ready slice: 08700+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
