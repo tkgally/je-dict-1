@@ -1,0 +1,11 @@
+{
+  "entry_id": "11935",
+  "screened_at": "2026-07-04T00:18:10Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '目玉焼' is given as 'めだまや', but the full word is '目玉焼き'. The reading 'めだまや' is a partial reading, which is allowed by the rules, but it's followed by 'きは{半熟|はんじゅ)', implying 'き' is okurigana. However, 'き' is part of the kanji '焼' in '焼き'. Therefore, the reading should cover '焼' as 'やき', or at least 'や' if 'き' is considered okurigana. The current mapping '目玉焼 → めだまや' is incorrect because '焼' should be read as 'やき' or 'や' with 'き' as okurigana, not just 'や'. If 'き' is okurigana, then '焼' should be 'や'. If 'き' is part of the kanji, then '焼' should be 'やき'. The current mapping 'めだまや' for '目玉焼' is incomplete for the kanji portion.",
+    "The reading for '半熟' in the context of 'きは{半熟|はんじゅ)' is given as 'はんじゅ'. This is a partial reading of '半熟' which is 'はんじゅく'. While partial readings are allowed, the example given for partial readings is '先行→さきゆ' followed by 'き' (先行き=さきゆき), where 'き' is okurigana. In this case, 'く' is part of the kanji '熟', not okurigana. Therefore, '半熟' should be 'はんじゅく', not 'はんじゅ'. The reading 'はんじゅ' for '半熟' is an incomplete reading of the kanji portion."
+  ],
+  "confidence": 0.9
+}

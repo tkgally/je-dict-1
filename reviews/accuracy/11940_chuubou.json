@@ -1,0 +1,24 @@
+{
+  "entry_id": "11940_chuubou",
+  "headword": "{厨房|ちゅうぼう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:27:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 厨房. While it is more formal than 台所, it is not a 'formal' word in the general sense. It's more of a technical or specialized term for a commercial kitchen, but not formal in the way keigo or highly academic language is.",
+      "suggestion": "neutral"
+    }
+  ]
+}

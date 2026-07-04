@@ -1,0 +1,24 @@
+{
+  "entry_id": "11942_genbaku",
+  "headword": "{原爆|げんばく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:27:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific historical and military item.",
+      "suggestion": "military"
+    }
+  ]
+}
