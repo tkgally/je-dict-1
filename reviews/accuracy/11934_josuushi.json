@@ -1,0 +1,24 @@
+{
+  "entry_id": "11934_josuushi",
+  "headword": "{助数詞|じょすうし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:27:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '助数詞'.",
+      "suggestion": "Replace 'education' with 'language' or 'grammatical'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11978_genan",
+  "headword": "{原案|げんあん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:28:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '原案' is not inherently formal. While it can appear in formal contexts, it is also used in everyday discussions about plans or creative works. 'Neutral' would be more appropriate.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "11956_nadakai",
+  "headword": "{名高|なだか}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:28:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '名高い' is not formal. It is a neutral adjective.",
+      "suggestion": "neutral"
+    }
+  ]
+}

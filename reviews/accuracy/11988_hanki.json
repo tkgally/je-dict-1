@@ -1,0 +1,24 @@
+{
+  "entry_id": "11988_hanki",
+  "headword": "{反旗|はんき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T00:28:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with such a specific meaning related to rebellion and conflict.",
+      "suggestion": "politics"
+    }
+  ]
+}
