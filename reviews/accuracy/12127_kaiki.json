@@ -1,0 +1,31 @@
+{
+  "entry_id": "12127_kaiki",
+  "headword": "{回忌|かいき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:36:12Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The translation for 七回忌 is incorrect given the explanation of the counting system. 七回忌 should be the sixth anniversary, not the seventh.",
+      "suggestion": "We will hold my grandmother's sixth memorial service."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation for 十三回忌 is incorrect given the explanation of the counting system. 十三回忌 should be the twelfth anniversary, not the thirteenth.",
+      "suggestion": "More and more families are stopping memorial services after the twelfth anniversary."
+    }
+  ]
+}

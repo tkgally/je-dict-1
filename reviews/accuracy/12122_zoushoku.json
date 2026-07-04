@@ -1,0 +1,24 @@
+{
+  "entry_id": "12122_zoushoku",
+  "headword": "{増殖|ぞうしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:36:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a specific meaning related to increase or reproduction.",
+      "suggestion": "change to 'change'"
+    }
+  ]
+}

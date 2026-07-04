@@ -1,0 +1,31 @@
+{
+  "entry_id": "12077_ina",
+  "headword": "{否|いな}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:35:21Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'no' is misleading as the primary meaning of '否' (いな) is not a simple 'no' like いいえ. It primarily functions in 'whether or not' constructions or as a corrective 'nay/rather'.",
+      "suggestion": "Remove 'no;' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'yes or no' is misleading for this sense. While it relates to a binary choice, 'yes or no' implies a direct answer, which '否' in this sense does not provide. It's about the *condition* of 'whether or not'.",
+      "suggestion": "Change 'yes or no' to 'or not'."
+    }
+  ]
+}

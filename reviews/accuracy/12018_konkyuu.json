@@ -1,0 +1,24 @@
+{
+  "entry_id": "12018_konkyuu",
+  "headword": "{困窮|こんきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:34:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'society' is too broad and doesn't directly describe the headword's meaning.",
+      "suggestion": "Replace 'society' with 'economics' or 'finance' as the primary semantic tag, as the word directly relates to financial difficulty."
+    }
+  ]
+}
