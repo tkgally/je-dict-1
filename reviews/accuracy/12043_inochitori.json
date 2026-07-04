@@ -1,0 +1,24 @@
+{
+  "entry_id": "12043_inochitori",
+  "headword": "{命取|いのちと}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:34:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'fatal, fatal mistake' is misleading. While 'fatal' is correct, 'fatal mistake' implies it's always a mistake, which isn't true. It can refer to any fatal thing or situation.",
+      "suggestion": "fatal, deadly, ruinous"
+    }
+  ]
+}

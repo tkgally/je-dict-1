@@ -1,0 +1,24 @@
+{
+  "entry_id": "12017_kokusan",
+  "headword": "{国産|こくさん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-04T09:34:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}
