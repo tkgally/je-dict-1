@@ -2,6 +2,29 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-04] maintenance (second run) | Harvest 6 loose observations of 2026-07-04 routine runs (P21 zero-link band crosses into the 6400s modern-vocab/loanword cluster 06398–06404, item 17 twelfth general-too-broad confirmation into 12002–12134, item 20 34th/35th no-op) + **new finding**: a 20-entry block 29181–29200 missing `metadata.vocabulary_tier` → new Cleanup Priority 23 + backlog-queue item + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 10-signal unharvested-observation debt was the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-eof115`).
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown + one JSON backlog-index only).
+
+**Activities**:
+- **[F] Harvest** — processed all 6 loose observations from the 2026-07-04 routine polish / accuracy-review / new-entries runs:
+  - **Cleanup P21 update 2026-07-04 (second)** — the zero-inline-link create-era band **crosses into the 6400s modern-vocab/loanword cluster** (06398–06401 マインドセット/ワークショップ/仮想通貨/ブロックチェーン + 06402–06404 電子決済/QRコード/ロボット, a Jan-2026 batch; 06402–06404 hand-linked at the frontier, cursor → next:6405); band now unbroken ~06150→06404, character shifting from four-char idioms to loanword/tech vocab.
+  - **Tooling item 17 update 2026-07-04 (second) (twelfth confirmation)** — 12002–12134 accuracy-review 43/133 = 32% flagged, almost all in-list `general`→narrower REJECTs (増税→economics/国政→politics/変容→change); genuine applies = off-vocab migrations + one wago education→language + one 回忌 translation fix; family now continuous through 12134, range-independent.
+  - **Tooling item 20 update 2026-07-04 (second) (thirty-fourth/thirty-fifth confirmation)** — two priority `notes.txt` lanes again all-no-op on the same closed-tier set (ない/だって/低い/小さい/遅い/曜日/まあ, scored 33–57 yet content-complete with full inline links); one lane 5/6 clean + regenerate/reset, the other restated the rigid-POS-template root cause + cross-run-loop risk.
+  - Reinforcement only: the candidate_words.json fallback-pool contamination `[pattern]` (typos/coinages/wrong glosses) is the already-filed <10%-signal finding (Tooling item 23 + Open Issues).
+- **[E] Lint / new finding** — a tier-count light sync surfaced a **20-entry block 29181–29200 (a 2026-06-12 new-entries batch) missing `metadata.vocabulary_tier` entirely** (schema-optional → validates, CI blind; audit_tiers.py under-counts General by 20). Filed as **new Cleanup Priority 23** + **backlog-queue.json `entry-missing-vocabulary-tier`** (`batch_ready:true`, mechanical-safe, scope 20); durable follow-up = a validate.py/pre-commit warn on missing `vocabulary_tier`.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,669 tagged `general` + the 20 untiered 29181–29200, of 29,472 total).
+
+**backlog-queue.json**: `updated` → 2026-07-04; one new open item (`entry-missing-vocabulary-tier`). Other harvested items were incremental updates under existing open entries (P21, items 17/20).
+
+**Not done**: no new research pages; **[H] metrics-trend not due** (5 new `metrics-history.jsonl` lines, 207 total, since the fourteenth refresh at 202 runs — threshold ≥10).
+
+**Cursor/state**: selector advanced `pipeline/routine-state.json` in §1. Observations file pruned to the 2026-07-04 second-run harvest marker.
+
 ## [2026-07-04] maintenance | Harvest 5 loose observations of 2026-07-03 routine runs (P21 zero-link band reaches 06389–06393, item 17 tenth/eleventh general-too-broad confirmation + a formality-downgrade register sub-fix, item 20 32nd/33rd no-op with a POS-misclassification detail) + fourteenth quality-metrics refresh + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested observations signalled)

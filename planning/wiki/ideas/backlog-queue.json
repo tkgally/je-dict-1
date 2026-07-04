@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-06-30",
+  "updated": "2026-07-04",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -267,6 +267,20 @@
       "scope_estimate": null,
       "severity": "info",
       "notes": "Display-text only: tags.pos is canonical and is what renderer/search use, so no functional bug. part_of_speech surface variants coexist dict-wide (adjective (i-adjective) 98 vs i-adjective 256; four suru-verb spellings). batch_ready:false until the normalizer/detector (tooling item 29) exists and the curator agrees the canonical tags.pos -> display-string map (the one editorial choice). Then it becomes a safe text-substitution systemic-fix validated against the structured tag. Changes visible header text on thousands of pages -> spot-check, curator sign-off on the map."
+    },
+    {
+      "id": "entry-missing-vocabulary-tier",
+      "title": "20 entries (29181-29200) missing metadata.vocabulary_tier",
+      "source": "ideas/cleanup-backlog.md#priority-23",
+      "detect": "python3 -c \"import json,glob; [print(json.load(open(f)).get('id')) for f in glob.glob('entries/*/[0-9]*.json') if json.load(open(f)).get('metadata',{}).get('vocabulary_tier') not in ('basic','core','general')]\"",
+      "fix_type": "mechanical-safe",
+      "verify": "spot-check",
+      "priority": 23,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 20,
+      "severity": "warn",
+      "notes": "A single 2026-06-12 new-entries batch (IDs 29181-29200) shipped with no metadata.vocabulary_tier field at all (absent, not null). schema.json makes the field optional (enum includes null; not in metadata.required) so all 20 validate cleanly and CI never caught them; audit_tiers.py buckets them as unknown, under-counting General by 20. Per CLAUDE.md all new entries are general, and the 20 headwords are ordinary general-tier vocabulary (kenchikushi/datsusara/ensouka/UFO-catcher/etc.), so the correct tier is unambiguous for the whole block. Fix: set vocabulary_tier=general on the 20 IDs, bump modified, rebuild -- no per-entry semantic judgment needed (spot-check the block). Not an ongoing regression: surrounding batches carry the field. Durable follow-up: have validate.py / pre-commit warn on a missing vocabulary_tier (the null-permissive enum lets the omission through silently)."
     }
   ]
 }
