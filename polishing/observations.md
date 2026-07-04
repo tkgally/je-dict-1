@@ -254,3 +254,6 @@ _(2026-07-04 wiki (Routine v2) harvest: processed all 5 loose observations from 
 - **Cleanup Backlog P21 update 2026-07-04**: the zero-inline-link create-era band reaches the **06389–06393** four-character-idiom cluster (壊滅的/抱腹絶倒/傍若無人/意気投合/厚顔無恥, all furigana-complete but zero `⟦...⟧` links, some despite recent `modified` dates); band now unbroken ~06150→06393, inline-link completion still lagging other edits across 06000+.
 - **Activity H (metrics trend) — fourteenth refresh** of `topics/quality-metrics.md` (16 new metrics lines, 186→202 runs).
 All 5 observations cleared.)_
+
+- [pattern] Priority `notes.txt` rankings are stale: of ~55 top-ranked lines from line 35, nearly all eligible entries were already polished within 30 days (basic/core adjectives). Priority lane yielded 5/6 clean. Regenerated + reset cursor to line 1 this run.
+- [pattern] Jan-2026 katakana/business loanword batch (06398-06401: マインドセット, ワークショップ, 仮想通貨, ブロックチェーン) had ZERO inline links in examples AND notes — predates the linking polish. Likely a systematic backfill target for the loanword ranges created Jan 2026.
