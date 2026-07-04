@@ -2,6 +2,26 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-04] maintenance | Harvest 5 loose observations of 2026-07-03 routine runs (P21 zero-link band reaches 06389–06393, item 17 tenth/eleventh general-too-broad confirmation + a formality-downgrade register sub-fix, item 20 32nd/33rd no-op with a POS-misclassification detail) + fourteenth quality-metrics refresh + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested observations signalled)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only).
+
+**Activities**:
+- **[F] Harvest** — processed all 5 loose observations from the 2026-07-03 accuracy-review / routine polish runs:
+  - **Cleanup P21 update 2026-07-04** — the zero-inline-link create-era band reaches the **06389–06393** four-character-idiom cluster (壊滅的/抱腹絶倒/傍若無人/意気投合/厚顔無恥, all furigana-complete but zero `⟦...⟧` links, some despite recent `modified` dates — 06392 was 2026-06-25); band now unbroken ~06150→06393; inline-link completion still lagging other edits across 06000+.
+  - **Tooling item 17 update 2026-07-04 (tenth/eleventh confirmation)** — the `general`-too-broad in-list-narrowness family carried into the low 12000s (11894–11923 general→action/law nits rejected; 11924–12001 20/78 flagged, 6 applied) **plus a `formal→neutral` downgrade sub-family** (厨房/名高い/厭う/原案/喜ばしい) the reviewer emitted against entries' own formal-register notes → sharpened the register sub-fix (consult register notes before any formality flag). Genuine applies were off-list migrations + 助数詞 education→grammatical / 古びる existence→change category errors.
+  - **Tooling item 20 update 2026-07-04 (32nd/33rd no-op)** — two priority lanes all-no-op on already-polished entries (02007/04376/04767/02355/00765 and だって/まあ/低い/小さい/遅い); new **POS-misclassification detail** pinning scorer-bug #2 (まあ scored as `verb-godan`, wrong template applied — derive POS from `tags.pos` before choosing the section template).
+- **[H] Metrics trend — fourteenth refresh** of topics/quality-metrics.md (16 new metrics lines, 186→202 runs / ~6,510 adjudicated flags): runs 187–202 adjudicated 118 flags (22 applied / 95 rejected / 1 escalated) — sixth near-zero-escalation refresh; `tags` apply-among-decided fell to 30.9% (from 57.1%) as the window's accuracy sweeps hit already-`general`-tagged general-tier bands (item-17 noise-mode, range-state thesis again); furigana screening pure noise (1/44); review queue set a new floor at 14,501; entry total 29,420→29,460; OpenRouter ≤~$0.33/day. No metric moving the wrong way that isn't already filed → no new `[pattern]` observation.
+- **[A] Light sync** — refreshed project/overview.md General-tier count (26,677 of 29,460 total as of 2026-07-04).
+
+**backlog-queue.json**: no edits — all harvested items were incremental updates under existing open entries (items 17/20, P21) with unchanged status/batch-readiness.
+
+**Cursor/state**: selector advanced `pipeline/routine-state.json` in §1. Observations file pruned to the 2026-07-04 harvest marker.
+
 ## [2026-07-03] maintenance | Harvest loose observations of 2026-07-02/03 routine runs (P21 zero-link band reaches 06376–06388, item 17 ninth general-too-broad confirmation, item 20 29th–31st no-op with the advance-cursor workaround, item 21 eighth truncation) + compound-verbs bound-suffix convention + two Entry Follow-ups + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation debt was the top signal — 16 signalled)
