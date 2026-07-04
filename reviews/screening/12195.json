@@ -1,0 +1,11 @@
+{
+  "entry_id": "12195",
+  "screened_at": "2026-07-04T21:23:32Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for `超` is `こ`, but the following text `えたため{失格|しっ)` suggests the full reading should be `こえ` (超え). The provided reading `こ` is a partial reading, which is allowed by the rules, but the context implies a missing `え` for the full verb form. However, the rules state \"Do NOT flag partial readings as errors — they are correct by design.\" So, this is technically not an error based on the rules, but it's worth noting the context implies a longer reading.",
+    "The entry for `出場` is `しゅつじょう`, but the following text `できなかった。` suggests the full reading should be `しゅつじょう` (出場). The provided reading `しゅつじょ` is a partial reading, which is allowed by the rules, but the context implies a missing `う` for the full word. However, the rules state \"Do NOT flag partial readings as errors — they are correct by design.\" So, this is technically not an error based on the rules, but it's worth noting the context implies a longer reading."
+  ],
+  "confidence": 0.8
+}

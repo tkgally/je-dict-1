@@ -1,0 +1,10 @@
+{
+  "entry_id": "12205",
+  "screened_at": "2026-07-04T21:24:42Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for \"大人気\" has two distinct readings: \"だいにんき\" and \"おとなげ\". While both are valid readings for the kanji, the provided entry format implies a single reading for the kanji portion. The first instance correctly maps to \"だいにんき\", but the eleventh instance maps \"大人気\" to \"おとなげ\". This is not an error in the reading itself, but rather an ambiguity in how the dictionary entry is presented if it's meant to represent a single entry with multiple meanings and readings. However, given the prompt's focus on kanji-reading mappings, and the fact that \"大人気\" can indeed be read as \"おとなげ\" (meaning immaturity/childishness), this is a valid, albeit different, reading for the same kanji. The prompt asks to flag *incorrect* mappings. This is not incorrect, but rather a different word using the same kanji. If the dictionary entry is for *one* word, then having two different readings for the *same* kanji string within that single entry might be considered an error in the entry's structure, but not in the reading itself. Given the context of the prompt, I will not flag this as an error in the *mapping* but rather note the potential for confusion if this is a single dictionary entry."
+  ],
+  "confidence": 0.9
+}
