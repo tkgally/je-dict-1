@@ -1,0 +1,24 @@
+{
+  "entry_id": "12308_taryou",
+  "headword": "{多量|たりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:46:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '多量' is not inherently formal. It is a neutral term for 'large quantity' and can be used in various contexts without conveying formality.",
+      "suggestion": "neutral"
+    }
+  ]
+}

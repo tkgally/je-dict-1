@@ -1,0 +1,24 @@
+{
+  "entry_id": "12449_eto",
+  "headword": "{干支|えと}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '干支'.",
+      "suggestion": "Replace 'time' with 'time-general' or 'time-period' to be more specific, or remove it if 'culture' is sufficient."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "12481_tenpo",
+  "headword": "{店舗|てんぽ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:49:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes a formality tag that should be part of the entry's metadata, not the gloss itself.",
+      "suggestion": "Remove '(formal)' from the gloss."
+    }
+  ]
+}

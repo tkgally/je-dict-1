@@ -1,0 +1,24 @@
+{
+  "entry_id": "12316_youi",
+  "headword": "{容易|ようい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:46:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '容易' is tagged as 'formal', but it is commonly used in everyday speech and writing, making 'neutral' a more appropriate formality level.",
+      "suggestion": "neutral"
+    }
+  ]
+}

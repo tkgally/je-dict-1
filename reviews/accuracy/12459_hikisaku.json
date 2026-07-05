@@ -1,0 +1,24 @@
+{
+  "entry_id": "12459_hikisaku",
+  "headword": "{引|ひ}き{裂|さ}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:49:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for the headword '引き裂く'. While the act of tearing can be driven by emotion or cause emotional distress, the word itself does not describe an emotion.",
+      "suggestion": "Remove 'emotion'."
+    }
+  ]
+}

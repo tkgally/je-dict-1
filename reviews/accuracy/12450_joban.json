@@ -1,0 +1,24 @@
+{
+  "entry_id": "12450_joban",
+  "headword": "{序盤|じょばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too general and 'games' is too specific for the headword's meaning, which is about the initial phase of any activity, not just games. The explanation explicitly states it's 'now widely used for any activity with distinct phases.'",
+      "suggestion": "Replace 'time' and 'games' with 'general' or 'expression' as it refers to a general concept of an initial phase."
+    }
+  ]
+}

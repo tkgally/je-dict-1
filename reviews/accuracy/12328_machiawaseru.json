@@ -1,0 +1,24 @@
+{
+  "entry_id": "12328_machiawaseru",
+  "headword": "{待|ま}ち{合|あ}わせる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:46:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a verb with a specific meaning related to social interaction.",
+      "suggestion": "action"
+    }
+  ]
+}

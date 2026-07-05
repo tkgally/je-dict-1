@@ -1,0 +1,24 @@
+{
+  "entry_id": "12437_kousaku",
+  "headword": "{工作|こうさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'craft' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

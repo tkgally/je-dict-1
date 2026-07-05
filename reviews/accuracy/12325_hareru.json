@@ -1,0 +1,24 @@
+{
+  "entry_id": "12325_hareru",
+  "headword": "{腫|は}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:46:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for the verb '腫れる'. While the verb describes a state of a body part, the verb itself is not a body part.",
+      "suggestion": "Replace 'body-part' with 'health'."
+    }
+  ]
+}
