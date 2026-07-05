@@ -1,0 +1,24 @@
+{
+  "entry_id": "12502_dangan",
+  "headword": "{弾丸|だんがん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:49:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'tool' is incorrect for '弾丸' (bullet).",
+      "suggestion": "Replace 'tool' with 'military' or 'weapon'."
+    }
+  ]
+}

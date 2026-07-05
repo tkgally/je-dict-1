@@ -1,0 +1,24 @@
+{
+  "entry_id": "12401_tenji",
+  "headword": "{展示|てんじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'culture' is too broad and not the primary meaning.",
+      "suggestion": "action"
+    }
+  ]
+}

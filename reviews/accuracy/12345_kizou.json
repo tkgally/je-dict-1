@@ -1,0 +1,24 @@
+{
+  "entry_id": "12345_kizou",
+  "headword": "{寄贈|きぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:47:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with a specific meaning related to giving or donating. 'Action' is also appropriate as it is a suru-verb.",
+      "suggestion": "action, society"
+    }
+  ]
+}

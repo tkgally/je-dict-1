@@ -1,0 +1,24 @@
+{
+  "entry_id": "12452_teien",
+  "headword": "{庭園|ていえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'architecture' is not in the valid tag list.",
+      "suggestion": "Remove 'architecture' or replace with a valid tag if appropriate (e.g., 'building' or 'art' if it refers to the design aspect)."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "12413_sanseki",
+  "headword": "{山積|さんせき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '山積' (piling up, accumulation) is a suru-verb and action noun, but it lacks the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
+}

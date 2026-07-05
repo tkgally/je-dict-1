@@ -1,0 +1,31 @@
+{
+  "entry_id": "12490_hikitsuzuki",
+  "headword": "{引|ひ}き{続|つづ}き",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:49:29Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '引き続き' is not inherently formal. While it can be used in formal contexts, it is also very common in everyday speech and writing, making 'neutral' a more appropriate formality tag.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[3]",
+      "severity": "error",
+      "concern": "The English translation 'Next, we bring you the news.' for '引き続き、ニュースをお伝えします。' is misleading. While '引き続き' can mean 'subsequently' or 'following that', in this context, it implies a continuation of the broadcast, not just a transition to the next segment. A more accurate translation would convey the sense of 'continuing with the news' or 'we will continue to bring you the news'.",
+      "suggestion": "We will continue to bring you the news."
+    }
+  ]
+}

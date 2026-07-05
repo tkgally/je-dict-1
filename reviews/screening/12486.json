@@ -1,0 +1,10 @@
+{
+  "entry_id": "12486",
+  "screened_at": "2026-07-05T12:41:37Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `予定通` should be `よていどお` (yoteidoo), but the provided reading is `よていどお` (yoteidoo). This is a partial reading, but it seems to be missing the final `り` (ri) from `予定通り` (yoteidoori). The instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example `先行→さきゆ` followed by `き` (先行き=さきゆき) implies that the partial reading should be for the kanji portion only. In this case, `予定通` is the kanji, and `り` is okurigana. So, `予定通` should be `よていどお`."
+  ],
+  "confidence": 0.8
+}

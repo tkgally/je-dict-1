@@ -1,0 +1,24 @@
+{
+  "entry_id": "12446_heion",
+  "headword": "{平穏|へいおん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-05T12:48:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'state' is not a valid semantic tag.",
+      "suggestion": "Replace 'state' with a valid tag from the provided list. 'general' or 'descriptive' might be appropriate given the gloss."
+    }
+  ]
+}
