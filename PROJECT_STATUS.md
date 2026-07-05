@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-05 (Routine v2: new-entries — 9 New Entries, IDs 29682–29690)
+Created 9 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22206–C22214, cited from entries 06402–06406 and 29680) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (9 candidates). A robotics / fintech / facilities cluster: several were `noentry` inline-link targets inside the ロボット (06404) and coworking (06405/06406) entries. Conjugation table added to the 1 new suru-verb ({配膳|はいぜん}); no new kanji. §4 cross-model self-check on all 9 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0039. The non-"seen in entry" candidate tail remains heavily contaminated (fabricated/nonexistent words like 権使・些道・個尊・怒燥, compositional compounds, bare counters), so no padding from the oldest queue; captured アンドロイド as a referenced-but-missing candidate.
+
+- **Robotics (4)**: {人型|ひとがた} (humanoid; human-shaped; noun/adjective-no), ヒューマノイド (humanoid robot), アーム (mechanical/robot arm; not the body part {腕|うで}), {配膳|はいぜん} (serving food; setting out dishes; suru)
+- **Fintech (2)**: デビットカード (debit card), スマートコントラクト (smart contract; blockchain)
+- **Facilities/work (3)**: ラウンジ (lounge; hotel/airport lounge), ワーカー (worker; loanword suffix), ドロップイン (drop-in; day use of a coworking space)
+
 ### 2026-07-04 (Routine v2: new-entries — 12 New Entries, IDs 29670–29681)
 Created 12 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22194–C22205, cited from entries 06394–06401) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (12 candidates). A coherent crowdfunding / crypto / ideation cluster. Conjugation tables added to the 3 conjugating entries (1 verb-kuru {付|つ}いてくる, 2 suru-verbs ブレスト and マイニング); no new kanji. §4 cross-model self-check on all 12 changed entries: **11 clean; 0 applied, 1 rejected** — rejected a tag flag on ウォレット (`finance`→`technology`; in-list narrowness nit, and `finance` is well-justified since a wallet holds money/crypto). $0.0052. The non-"seen in entry" candidate tail remains heavily contaminated (typos, coined compounds, wrong glosses), so no padding from the oldest queue; logged a `[pattern]` observation and captured スマートコントラクト as a referenced-but-missing candidate.
 
@@ -80,11 +87,5 @@ Created 12 general-tier entries, all from the high-priority "seen in entry" pool
 - **Geology (2)**: {堆積|たいせき} (deposition; sedimentation; suru), {褶曲|しゅうきょく} (geological fold; suru)
 - **Vision (2)**: {検眼|けんがん} (eye examination; suru), {屈折矯正手術|くっせつきょうせいしゅじゅつ} (refractive surgery)
 - **Other (6)**: {肌感覚|はだかんかく} (gut feeling; intuitive sense), {野史|やし} (unofficial history), {使用料|しようりょう} (usage fee), ロイヤリティ (royalty; licensing fee), {強圧的|きょうあつてき} (coercive; high-handed), {大器|たいき} (person of great talent)
-
-### 2026-07-01 (Routine v2: new-entries — 17 New Entries, IDs 29613–29629)
-Created 17 general-tier entries: all 7 remaining "seen in entry" priority candidates plus 10 hand-vetted standalone words. The non-seen candidate tail remains heavy corpus-harvest noise (compositional phrases, bare counters/numbers/dates, typos, dialect fragments), so the 10 supplements were each chosen for genuine dictionary-worthiness rather than padded from the oldest queue. Conjugation table added to the one new verb ({イラつく}); no new kanji. §4 cross-model self-check on all 17 changed entries: **14 fully clean; 1 applied, 2 rejected** — applied 29625 {皮膚感覚|ひふかんかく} `body-part`→removed (a sensation/faculty, not anatomy; kept `cognition`); rejected 29616 {楕円形|だえんけい} `general`→`size` (no "shape" tag exists; `size` is wrong, `general` is the correct fallback) and 29622 {神曲|しんきょく} formality `informal`→`slang` (`slang` is not a valid formality enum value). $0.0073. Captured 3 referenced-but-missing words as candidates ({肌感覚|はだかんかく}, {堆積|たいせき}, {野史|やし}).
-
-- **Seen-in-entry (7)**: {年少|ねんしょう} (young; junior in age; antonym of 年長), {正史|せいし} (official dynastic history), {イラつく} (to get irritated; verb-godan, slang), {楕円形|だえんけい} (ellipse; oval shape), {円軌道|えんきどう} (circular orbit), {楕円軌道|だえんきどう} (elliptical orbit), {静止軌道|せいしきどう} (geostationary orbit)
-- **Standalone (10)**: ナンパ{師|し} (pick-up artist), {非|ひ}リア{充|じゅう} (person without a fulfilling offline life), {神曲|しんきょく} (masterpiece song; slang), コードリール (cord reel), カニ{缶|かん} (canned crab), {皮膚感覚|ひふかんかく} (cutaneous sensation; intuitive feel), {侵食作用|しんしょくさよう} (erosion), {風化作用|ふうかさよう} (weathering), トナーカートリッジ (toner cartridge), ピアス{穴|あな} (piercing hole)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
