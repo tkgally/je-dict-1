@@ -325,6 +325,19 @@ furigana-coverage stayed clean. §4 furigana self-screen: 14 screened, **1 flag 
 `{行|い}き{止|ど}まり` — model wanted 止=と, but ど is genuine rendaku in いきどまり; documented
 rendaku false-positive family, and untouched by the edits), 3 skipped.
 Next ready slice: 08700+ and the larger pre-06000 backlog.
+
+**Update 2026-07-05 (08700–08999 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **33 instances across 23 entries** (`detect` filtered total 1384 → 1350):
+mostly pure-kana katakana/loanword de-wraps in acronym entries — hiragana ruby over katakana is
+redundant (テスト/キャンペーン/ボタン/ポケット/カーナビ/データ/メモリー/ケーブル ×2/タイプ/ライト/
+プレーヤー ×2/ショップ/ボックス/カット ×2/ケア/ペナルティキック/ラジオ/ワイドFM/リアル/ファイナル/
+パネル/プラズマ/スタッフ/ゆるキャラ), one pure-hiragana de-wrap (`{なぜなら|なぜなら}` → `なぜなら` ×2),
+and over-wrapped okurigana splits (`{うつ病|うつびょう}` → `うつ{病|びょう}`,
+`{一人っ子|ひとりっこ}` → `{一人|ひとり}っ{子|こ}`, `{日にち|ひにち}` → `{日|ひ}にち`).
+No edit sat inside an inline link. Validation stayed clean (300/300 in range). §4 furigana
+self-screen: 23 entries submitted, all skipped (kana-only acronym/loanword entries carry no
+kanji ruby to screen), **0 flags**.
+Next ready slice: 09000+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
