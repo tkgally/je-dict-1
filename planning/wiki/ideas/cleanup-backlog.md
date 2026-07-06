@@ -338,6 +338,20 @@ No edit sat inside an inline link. Validation stayed clean (300/300 in range). �
 self-screen: 23 entries submitted, all skipped (kana-only acronym/loanword entries carry no
 kanji ruby to screen), **0 flags**.
 Next ready slice: 09000+ and the larger pre-06000 backlog.
+
+**Update 2026-07-06 (09000–09400 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **25 instances across 21 entries** (`detect` filtered total 1350 → 1325):
+mostly pure-kana katakana/loanword de-wraps (アメリカ/リスク ×2/サイレン ×3/イメージ/エネルギー/
+ムード/ライオン/セキュリティ/プロ ×2/チャンス/デザイン/バグ), pure-hiragana de-wraps
+(`{わかりやすく|わかりやすく}` → `わかりやすく`, `{ようやく|ようやく}` → `ようやく`, `{この|この}` → `この`),
+katakana サ変動詞 de-wraps (`{サ|さ}` → `サ` in 09142/09168 — katakana サ referring to the サ-row
+conjugation class takes no ruby), o-prefix repositions (`{お化|おば}` → `お{化|ば}`,
+`{お金|おかね}` → `お{金|かね}`), and over-wrapped compound splits
+(`{侘び寂び|わびさび}` → `{侘|わ}び{寂|さ}び`, `{天の邪鬼|あまのじゃく}` → `{天|あま}の{邪|じゃ}{鬼|く}`).
+No edit sat inside an inline link. Validation stayed clean (401/401 in range). §4 furigana
+self-screen: 21 entries submitted, 1 screened, 20 skipped (kana/loanword entries carry no ruby
+to screen), **0 flags**.
+Next ready slice: 09400+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
