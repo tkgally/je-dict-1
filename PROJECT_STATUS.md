@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-06 (Routine v2: new-entries — 13 New Entries, IDs 29707–29719)
+Created 13 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22231–C22243, cited from entries 05432, 06423, 06424, 06426) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (13 candidates). Three coherent clusters: casual tag-question endings (じゃないか, やん), page-annotation terms ({頭注|とうちゅう}/{傍注|ぼうちゅう}/{巻末注|かんまつちゅう}/{後注|こうちゅう}, siblings of {脚注|きゃくちゅう}) plus source-citation nouns ({典拠|てんきょ}, {原典|げんてん}), and exterior/interior-wall materials ({内壁|ないへき}, サイディング, モルタル, タイル, siblings of {外壁|がいへき}). Conjugation table added to the 1 new ichidan verb ({剥|は}げる, intransitive; pair {剥|は}がす); no new kanji. §4 cross-model self-check on all 13 changed entries: **10 clean, 3 flagged; 0 applied, 3 rejected** — all three were identical in-list `general`→`building` breadth nits on the wall/material nouns, rejected per the semantic-tag policy (reject too-broad substitutions between in-list tags) and for consistency with the sibling {外壁|がいへき}/コンクリート entries, which also use `general`. $0.0056. The non-"seen in entry" candidate tail remains heavily contaminated (derived compounds, bare numerals/counters, mis-glossed items), so no padding from the oldest queue; logged a `[pattern]` observation.
+
+- **Casual endings (2)**: じゃないか (isn't it?; tag-question, expression), やん (isn't it?; Kansai particle)
+- **Annotation/citation (6)**: {頭注|とうちゅう} (headnote), {傍注|ぼうちゅう} (marginal note), {巻末注|かんまつちゅう} (endnote), {後注|こうちゅう} (endnote), {典拠|てんきょ} (documentary authority), {原典|げんてん} (original text)
+- **Walls/materials (5)**: {内壁|ないへき} (interior wall), サイディング (siding), モルタル (mortar), タイル (tile), {剥|は}げる (to peel off; to fade; ichidan)
+
 ### 2026-07-06 (Routine v2: new-entries — 16 New Entries, IDs 29691–29706)
 Created 16 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22215–C22230, cited from entries 06411–06421 and 29684) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (16 candidates). A tech / green-economy / childcare / dessert-baking cluster. Conjugation tables added to the 3 new suru-verbs (アシスト, リコール, {結婚活動|けっこんかつどう}); no new kanji. §4 cross-model self-check on all 16 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0070. The non-"seen in entry" candidate tail remains heavily contaminated (fabricated words, compositional compounds, bare counters), so no padding from the oldest queue.
 
@@ -80,12 +87,5 @@ Created 15 general-tier entries, all from the high-priority "seen in entry" pool
 - **Money/bills (3)**: {飲食代|いんしょくだい} (food and drink bill), {飲|の}み{代|だい} (drinking expenses; bar tab), ツケ (tab; running account; deferred payment)
 - **Other nouns (6)**: {宿主|しゅくしゅ} (host of a parasite/virus), {海里|かいり} (nautical mile), {使用権|しようけん} (right to use; license), {論理和|ろんりわ} (logical OR), {洗面器|せんめんき} (wash basin), {意気|いき} (spirit; morale; drive)
 - **Adjective (1)**: {差別的|さべつてき} (discriminatory; na-adjective)
-
-### 2026-07-03 (Routine v2: new-entries — 13 New Entries, IDs 29642–29654)
-Created 13 general-tier noun entries. The one remaining "seen in entry" candidate was created first ({規則遵守|きそくじゅんしゅ}, rule compliance, cited from 06379); the rest are genuinely real, useful vocabulary hand-picked from the noisy candidate tail — the oldest/non-seen candidates are dominated by corpus-harvest garbage (fabricated words, compositional compounds, wrong glosses), so only ~13 defensible entries could be responsibly sourced rather than padding to 20. Picks skew to loanwords and news vocabulary: business franchise pair (フランチャイザー/フランチャイジー), a missile-range set ({誘導|ゆうどう}/{短距離|たんきょり}/{長距離|ちょうきょり}ミサイル), and everyday loanwords (アクションゲーム, フルカラー, コンペティション, マイナーリーグ, ハンドセット, ディップソース, プレイメーカー). §4 cross-model self-check on all 13: **12 clean; 0 applied, 1 rejected** — rejected a tag flag on コンペティション (`leisure`→`action`; in-list narrowness nit and "action" is a worse fit for a contest noun). Logged a `[pattern]` observation requesting a curator restock/cleanup of the polluted candidate list. $0.0056.
-
-- **Business (3)**: {規則遵守|きそくじゅんしゅ} (rule compliance), フランチャイザー (franchisor), フランチャイジー (franchisee)
-- **Military/news (3)**: {誘導|ゆうどう}ミサイル (guided missile), {短距離|たんきょり}ミサイル (short-range missile), {長距離|ちょうきょり}ミサイル (long-range missile)
-- **Everyday loanwords (7)**: アクションゲーム (action game), フルカラー (full color), コンペティション (competition; contest), マイナーリーグ (minor league), ハンドセット (handset), ディップソース (dipping sauce; dip), プレイメーカー (playmaker)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
