@@ -1,0 +1,24 @@
+{
+  "entry_id": "12577_etai",
+  "headword": "{得体|えたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:41:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'abstract-concept' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}

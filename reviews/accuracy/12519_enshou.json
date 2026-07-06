@@ -1,0 +1,24 @@
+{
+  "entry_id": "12519_enshou",
+  "headword": "{延焼|えんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:40:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific concept like 'spread of fire'.",
+      "suggestion": "Replace 'general' with 'disaster' or 'nature'."
+    }
+  ]
+}

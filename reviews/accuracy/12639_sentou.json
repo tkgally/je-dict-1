@@ -1,0 +1,24 @@
+{
+  "entry_id": "12639_sentou",
+  "headword": "{戦闘|せんとう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:43:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'action' is too general for a word specifically about combat. 'Military' or 'war' would be more appropriate.",
+      "suggestion": "military"
+    }
+  ]
+}

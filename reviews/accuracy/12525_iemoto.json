@@ -1,0 +1,24 @@
+{
+  "entry_id": "12525_iemoto",
+  "headword": "{家元|いえもと}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:40:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'culture-traditional-arts' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

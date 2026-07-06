@@ -1,0 +1,24 @@
+{
+  "entry_id": "12510_gojitsu",
+  "headword": "{後日|ごじつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:39:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While 後日 can be used in formal contexts, it is not exclusively formal and is commonly used in neutral or even slightly informal settings.",
+      "suggestion": "neutral"
+    }
+  ]
+}

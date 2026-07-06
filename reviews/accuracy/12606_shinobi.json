@@ -1,0 +1,24 @@
+{
+  "entry_id": "12606_shinobi",
+  "headword": "{忍|しの}び",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:42:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is redundant and less specific than 'person' and 'action' (for sense 1).",
+      "suggestion": "Remove 'general'. Add 'action' for sense 1."
+    }
+  ]
+}

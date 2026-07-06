@@ -1,0 +1,24 @@
+{
+  "entry_id": "12529_sanzoku",
+  "headword": "{山賊|さんぞく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:40:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'person-role' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

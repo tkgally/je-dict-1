@@ -1,0 +1,24 @@
+{
+  "entry_id": "12545_taibou",
+  "headword": "{待望|たいぼう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:40:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion-anticipation' is not in the valid tag list. The headword is a suru-verb and action noun, so 'action' is appropriate. It also relates to 'emotion'.",
+      "suggestion": "emotion, action"
+    }
+  ]
+}
