@@ -2,6 +2,28 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-06] maintenance | Harvest 4 loose observations of 2026-07-05 routine polish runs (P21 zero-link band reaches the 06405–06417 loanword/business cohort + a P13/systemic-fix retag-sweep recommendation, item 20 36th/37th priority-lane no-op) + fifteenth quality-metrics refresh (first fully escalation-free window since the tenth) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observations was the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-z6ykkr`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → §4 self-verification skipped (OpenRouter untouched); §5 metrics line appended; no `make build` (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 4 loose observations from the two 2026-07-05 routine polish runs:
+  - **Cleanup P21 update 2026-07-06** — the zero-inline-link create-era band reaches the **06405–06417 early-2026 loanword/business cohort** (06405–06410 ノマド/コワーキング/イノベーション/ベンチャー/ソリューション/脱炭素 + 06411–06417 further recent loanword/business vocab, zero `⟦...⟧` in examples *and* notes, several with sole-`general` tags); band now unbroken ~06150→06417.
+  - **Cleanup P13 + systemic-fix recommendation 2026-07-06** — the 06405–06410 katakana business/tech entries pair the naked-link gap with the placeholder sole-`general` tag signature; recommends a targeted link-completeness + sole-`general` retag sweep over the ~06400+ band as higher-yield than the sequential frontier crawl.
+  - **Tooling item 20 update 2026-07-06 (thirty-sixth/thirty-seventh confirmation)** — two 2026-07-05 priority `notes.txt` lanes ran all-no-op (5/5 and 8/8) on the same closed-tier basic/core set (01118/03095/02947/00025/00533/03877/01003/04376), fully polished with structured notes + full inline links; one run regenerated priorities. Same binding fix (scorer-bug pair + structured-note credit + `prioritize_polishing.py` down-weight).
+- **[H] Metrics trend — fifteenth refresh** of `topics/quality-metrics.md` (12 new `metrics-history.jsonl` lines, 202→214 runs / ~6,666 adjudicated flags): the 12-run window (203–214) adjudicated **156 flags — 42 applied, 114 rejected, 0 escalated**, the **first fully escalation-free window since the tenth refresh**; `tags` apply-among-decided recovered to **42.2%** (38/90) as the 2026-07-05 accuracy sweeps hit a genuinely-contaminated 12300s–12500s cohort (real off-vocab/wrong-category migration: craft→art, architecture→building, time→time-general, body-part→health/action) rather than a polished `general` band; furigana screening pure noise (0/55); review queue new floor **14,242**; OpenRouter ≤$0.30/day. No metric moving the wrong way → no new `[pattern]` observation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,678 tagged `general` + the 20 untiered 29181–29200, of 29,481 total).
+
+**backlog-queue.json**: no edits — all harvested items were incremental updates under existing open entries (P21, P13, item 20) with unchanged status/batch-readiness.
+
+**Not done**: no new research pages.
+
+**Cursor/state**: selector advanced `pipeline/routine-state.json` in §1. Observations file pruned to the 2026-07-06 harvest marker.
+
 ## [2026-07-04] maintenance (second run) | Harvest 6 loose observations of 2026-07-04 routine runs (P21 zero-link band crosses into the 6400s modern-vocab/loanword cluster 06398–06404, item 17 twelfth general-too-broad confirmation into 12002–12134, item 20 34th/35th no-op) + **new finding**: a 20-entry block 29181–29200 missing `metadata.vocabulary_tier` → new Cleanup Priority 23 + backlog-queue item + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 10-signal unharvested-observation debt was the top signal)
