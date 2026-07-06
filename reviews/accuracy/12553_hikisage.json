@@ -1,0 +1,24 @@
+{
+  "entry_id": "12553_hikisage",
+  "headword": "{引|ひ}き{下|さ}げ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:41:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing 'action' tag for a suru-verb noun.",
+      "suggestion": "Add 'action' to semantic_tags."
+    }
+  ]
+}

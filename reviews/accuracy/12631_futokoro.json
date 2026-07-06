@@ -1,0 +1,24 @@
+{
+  "entry_id": "12631_futokoro",
+  "headword": "{懐|ふところ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:43:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is misleading for the headword '懐' (futokoro). While it can refer to the area near the chest, its primary meaning and common usage, especially in the figurative senses, extend beyond a literal body part to include the space within clothing or one's finances. 'Body-part' suggests a direct anatomical reference, which is not the main or only meaning.",
+      "suggestion": "Remove 'body-part'. The word is more about a 'space' or 'finances' than a literal body part. 'general' or 'abstract' might be more appropriate if a concrete tag isn't suitable for the primary meaning, but given the glosses, 'general' is probably best as a fallback."
+    }
+  ]
+}

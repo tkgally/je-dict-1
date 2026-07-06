@@ -1,0 +1,24 @@
+{
+  "entry_id": "12558_keitai",
+  "headword": "{形態|けいたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-06T12:41:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'abstract-concept' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}
