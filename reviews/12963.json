@@ -1,0 +1,218 @@
+{
+  "entry_id": "12963",
+  "word": "{映|うつ}す",
+  "reading": "うつす",
+  "reviewed_at": "2026-07-08T16:45:50Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 21,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "映",
+      "reading": "うつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "鏡",
+      "reading": "かがみ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "顔",
+      "reading": "かお",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "湖",
+      "reading": "みずうみ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "山",
+      "reading": "やま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "姿",
+      "reading": "すがた",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "美",
+      "reading": "うつく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "水面",
+      "reading": "すいめん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "夕焼",
+      "reading": "ゆうや",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "幻想的",
+      "reading": "げんそうてき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "写真",
+      "reading": "しゃしん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "事故",
+      "reading": "じこ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "瞬間",
+      "reading": "しゅんかん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "資料",
+      "reading": "しりょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "説明",
+      "reading": "せつめい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "進",
+      "reading": "すす",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "他動詞",
+      "reading": "たどうし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "写",
+      "reading": "うつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "移",
+      "reading": "うつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "投影",
+      "reading": "とうえい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "prominent_see_also[2].headword",
+      "kanji": "映",
+      "reading": "は",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The kanji 映 does not have the reading は. Standard readings are えい (on'yomi), うつ (kun'yomi), or ば (rendaku).",
+      "severity": "error"
+    }
+  ],
+  "summary": {
+    "total_checked": 21,
+    "flagged": 1,
+    "ok": 20,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "12963",
+    "screened_at": "2026-07-08T15:53:16Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 映 in pair 21 is given as \"は\" (ha), but the entry is for {映|うつ}す (utsusu). While 映 can be read as \"は\" in other contexts (e.g., 映える - haeru), within the context of the provided entry for {映|うつ}す, this reading is inconsistent. The instruction states the reading covers ONLY the kanji portion, and the entry is specifically for the verb \"utsusu\". Therefore, \"は\" for 映 in this context is an error."
+    ],
+    "confidence": 0.9
+  }
+}

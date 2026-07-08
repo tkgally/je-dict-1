@@ -1,0 +1,24 @@
+{
+  "entry_id": "13029_shinsetsu",
+  "headword": "{新設|しんせつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'abstract' is too broad and misleading for '新設'. The word refers to the act of creating or establishing something new, which is an 'action'.",
+      "suggestion": "action"
+    }
+  ]
+}

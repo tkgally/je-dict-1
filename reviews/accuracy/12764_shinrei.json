@@ -1,0 +1,24 @@
+{
+  "entry_id": "12764_shinrei",
+  "headword": "{心霊|しんれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:10:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'supernatural' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}

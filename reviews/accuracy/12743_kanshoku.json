@@ -1,0 +1,31 @@
+{
+  "entry_id": "12743_kanshoku",
+  "headword": "{感触|かんしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:09:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sensation' is not in the valid tag list.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    }
+  ]
+}

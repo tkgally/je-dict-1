@@ -1,0 +1,24 @@
+{
+  "entry_id": "12992_souban",
+  "headword": "{早晩|そうばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '早晩'.",
+      "suggestion": "time-general"
+    }
+  ]
+}

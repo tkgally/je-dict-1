@@ -13,3 +13,44 @@
 2026-06-30T06:29:13Z 11325 ヘルメット: semantic tag 'clothing' for helmet — reviewer suggests tool/health; curator decide (clothing vs tool)
 11431 仕切り — off-vocab semantic tag 'housing' needs in-list target (partition/divider; building? furniture?); reviewed 2026-06-30
 11695 (今日/こんにち): examples[0] "今日はここまでにしましょう" and examples[1] "今日の会議はこれで終了いたします" force こんにち onto sentences that read naturally as きょう ("Let's call it a day for today", "today's meeting"). こんにちの会議 is not idiomatic. Replace with genuine こんにち (formal/nowadays) examples. Flagged by accuracy-review 2026-07-02.
+
+# routine accuracy-review 2026-07-08 range 12674-13199 — off-list-tag flags needing per-entry migration + 2 content flags
+12677	tags	off-list ['disaster'] (sem=['disaster']); reviewer: Replace 'disaster' with 'general' or 'abstract'.
+12678	tags	off-list ['name'] (sem=['language', 'name']); reviewer: language
+12698	tags	off-list ['reputation'] (sem=['reputation']); reviewer: general
+12743	tags	off-list ['sensation', 'body'] (sem=['sensation', 'body']); reviewer: health | body-part
+12746	tags	off-list ['place', 'war'] (sem=['place', 'war']); reviewer: geography
+12749	tags	off-list ['place'] (sem=['place']); reviewer: geography
+12756	tags	off-list ['crime'] (sem=['crime']); reviewer: action
+12758	tags	off-list ['sensation'] (sem=['sensation']); reviewer: descriptive
+12764	tags	off-list ['supernatural'] (sem=['supernatural']); reviewer: abstract
+12929	tags	off-list ['place', 'transport'] (sem=['place', 'transport']); reviewer: Replace 'transport' with 'transportation'.
+13008	tags	off-list ['place'] (sem=['culture', 'food', 'place']); reviewer: daily-life
+13017	tags	off-list ['material'] (sem=['material', 'nature']); reviewer: Replace 'material' with 'general' or 'building'.
+13025	tags	off-list ['crime'] (sem=['society', 'crime']); reviewer: Consider replacing 'crime' with 'law' or 'society' | The term 暴力団 is the official and legal term, makin
+13073	tags	off-list ['quality'] (sem=['quality']); reviewer: evaluation
+13079	tags	off-list ['quality'] (sem=['quality']); reviewer: abstract
+13080	tags	off-list ['quality'] (sem=['quality']); reviewer: evaluation
+13083	tags	off-list ['material'] (sem=['material']); reviewer: general
+13088	tags	off-list ['place'] (sem=['place']); reviewer: geography
+13097	tags	off-list ['document'] (sem=['document']); reviewer: general
+13099	tags	off-list ['degree'] (sem=['degree']); reviewer: Replace 'degree' with 'expression' or 'general'.
+13100	tags	off-list ['object'] (sem=['object']); reviewer: general
+13103	tags	off-list ['object'] (sem=['object']); reviewer: building
+13112	tags	off-list ['degree'] (sem=['degree']); reviewer: quantity
+13114	tags	off-list ['position'] (sem=['position']); reviewer: general
+13116	tags	off-list ['place-school'] (sem=['place-school']); reviewer: building
+13123	tags	off-list ['nature-plant', 'place'] (sem=['nature-plant', 'place']); reviewer: plant-general
+13135	tags	off-list ['household'] (sem=['household']); reviewer: tool
+13139	tags	off-list ['achievement'] (sem=['achievement']); reviewer: action
+13140	tags	off-list ['degree'] (sem=['degree']); reviewer: quantity
+13141	tags	off-list ['degree'] (sem=['degree']); reviewer: quantity
+13146	tags	off-list ['spatial'] (sem=['spatial']); reviewer: movement
+13150	tags	off-list ['degree'] (sem=['science', 'degree']); reviewer: Replace 'degree' with a valid tag. 'quantity' or '
+13151	tags	off-list ['conflict'] (sem=['conflict']); reviewer: military
+13152	tags	off-list ['conflict'] (sem=['conflict']); reviewer: action
+13161	tags	off-list ['degree'] (sem=['degree']); reviewer: general
+13162	tags	off-list ['information'] (sem=['information']); reviewer: abstract
+13179	tags	off-list ['information'] (sem=['information']); reviewer: cognition
+13019	translation	有無を言わさず idiom example — keep with note, or replace? (13019_umu ex2)
+12735	example	嘘を突く (ex2) uses 突く for 嘘をつく (properly 吐く/kana) — relabel/replace?

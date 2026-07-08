@@ -1,0 +1,24 @@
+{
+  "entry_id": "12988_danzetsu",
+  "headword": "{断絶|だんぜつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:14:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a more specific meaning related to relationships and change.",
+      "suggestion": "change, society"
+    }
+  ]
+}

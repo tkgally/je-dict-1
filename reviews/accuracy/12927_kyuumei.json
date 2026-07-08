@@ -1,0 +1,24 @@
+{
+  "entry_id": "12927_kyuumei",
+  "headword": "{救命|きゅうめい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:13:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medical' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

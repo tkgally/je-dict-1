@@ -1,0 +1,534 @@
+{
+  "entry_id": "13174",
+  "word": "{標本|ひょうほん}",
+  "reading": "ひょうほん",
+  "reviewed_at": "2026-07-08T17:06:12Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 28,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "標本",
+      "reading": "ひょうほん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "標本",
+      "reading": "ひょうほん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "昆虫",
+      "reading": "こんちゅう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "昆虫",
+      "reading": "こんちゅう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "作",
+      "reading": "つく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "作",
+      "reading": "つく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "博物館",
+      "reading": "はくぶつかん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "博物館",
+      "reading": "はくぶつかん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "珍",
+      "reading": "めずら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "珍",
+      "reading": "めずら",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鉱物",
+      "reading": "こうぶつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "鉱物",
+      "reading": "こうぶつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "展示",
+      "reading": "てんじ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "展示",
+      "reading": "てんじ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "祖父",
+      "reading": "そふ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "祖父",
+      "reading": "そふ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "集",
+      "reading": "あつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "集",
+      "reading": "あつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "蝶",
+      "reading": "ちょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "蝶",
+      "reading": "ちょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "受",
+      "reading": "う",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "受",
+      "reading": "う",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "継",
+      "reading": "つ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "継",
+      "reading": "つ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "調査",
+      "reading": "ちょうさ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "調査",
+      "reading": "ちょうさ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "行",
+      "reading": "おこな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "行",
+      "reading": "おこな",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "数",
+      "reading": "かず",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "数",
+      "reading": "かず",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "少",
+      "reading": "すく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "少",
+      "reading": "すく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "正確",
+      "reading": "せいかく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "正確",
+      "reading": "せいかく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "結果",
+      "reading": "けっか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "結果",
+      "reading": "けっか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "得",
+      "reading": "え",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "得",
+      "reading": "え",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "無作為",
+      "reading": "むさくい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "無作為",
+      "reading": "むさくい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "選",
+      "reading": "えら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "選",
+      "reading": "えら",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "分析",
+      "reading": "ぶんせき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "分析",
+      "reading": "ぶんせき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "標",
+      "reading": "ひょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "標",
+      "reading": "ひょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "本",
+      "reading": "ほん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "本",
+      "reading": "ほん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "見本",
+      "reading": "みほん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "見本",
+      "reading": "みほん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "植物",
+      "reading": "しょくぶつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "植物",
+      "reading": "しょくぶつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "採取",
+      "reading": "さいしゅ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "採取",
+      "reading": "さいしゅ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "抽出",
+      "reading": "ちゅうしゅつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "抽出",
+      "reading": "ちゅうしゅつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 28,
+    "flagged": 0,
+    "ok": 28,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "13174",
+    "screened_at": "2026-07-08T16:18:57Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 無作為 is given as むさくい, but the standard reading is むさくゐ or むさくい (with the 'ゐ' being a historical kana usage that is now typically 'い'). However, the more common modern reading for 無作為 is むさくい. The provided reading is acceptable.",
+      "The reading for 標本 is given as ひょうほ in item 21, but the full reading is ひょうほん. This is a partial reading, which is allowed by the rules."
+    ],
+    "confidence": 0.5
+  }
+}

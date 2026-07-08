@@ -1,0 +1,218 @@
+{
+  "entry_id": "12734",
+  "word": "{者|もの}",
+  "reading": "もの",
+  "reviewed_at": "2026-07-08T16:28:45Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 21,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "者",
+      "reading": "もの",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "関係",
+      "reading": "かんけい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "入室",
+      "reading": "にゅうしつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "可",
+      "reading": "か",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "希望",
+      "reading": "きぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "受付",
+      "reading": "うけつけ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "申",
+      "reading": "もう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "出",
+      "reading": "で",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "事件",
+      "reading": "じけん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "容疑者",
+      "reading": "ようぎしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "捕",
+      "reading": "つか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].notes",
+      "kanji": "者",
+      "reading": "しゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "物",
+      "reading": "もの",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "医者",
+      "reading": "いしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "学者",
+      "reading": "がくしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "記者",
+      "reading": "きしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "患者",
+      "reading": "かんじゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "希望者",
+      "reading": "きぼうしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "関係者",
+      "reading": "かんけいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "若者",
+      "reading": "わかもの",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "人",
+      "reading": "ひと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 21,
+    "flagged": 0,
+    "ok": 21,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "12734",
+    "screened_at": "2026-07-08T15:24:45Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The entry for \"者\" has two different readings: \"もの\" and \"しゃ\". While both are valid readings for the kanji, the dictionary entry provides \"もの\" as the primary reading for the standalone kanji, and then later uses \"しゃ\" in compounds. The prompt states that the reading covers ONLY the kanji portion and that partial readings are correct by design. However, the prompt also states that the entry is for \"{者|もの} (もの) - noun, suffix\". This implies that \"もの\" is the expected reading for the standalone kanji in this context. The later instances of \"者\" being read as \"しゃ\" in compounds like \"医者\" and \"学者\" are correct for those compounds, but the standalone entry for \"者\" as \"もの\" is then contradicted by the later standalone entry \"者 → しゃ\". This inconsistency in the primary reading for the standalone kanji \"者\" is a concern."
+    ],
+    "confidence": 0.7
+  }
+}

@@ -1,0 +1,299 @@
+{
+  "entry_id": "13188",
+  "word": "{横書|よこが}き",
+  "reading": "よこがき",
+  "reviewed_at": "2026-07-08T17:07:46Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 15,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "横書",
+      "reading": "よこが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "横書",
+      "reading": "よこが",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "文書",
+      "reading": "ぶんしょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "文書",
+      "reading": "ぶんしょ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "場合",
+      "reading": "ばあい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "場合",
+      "reading": "ばあい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "数字",
+      "reading": "すうじ",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The reading is cut off as 'す' instead of 'すう'. The correct reading for 数字 is 'すう' for the kanji portion.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "数字",
+      "reading": "すうじ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "使",
+      "reading": "つか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "使",
+      "reading": "つか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "教科書",
+      "reading": "きょうかしょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "教科書",
+      "reading": "きょうかしょ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "理系",
+      "reading": "りけい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "理系",
+      "reading": "りけい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "文系",
+      "reading": "ぶんけい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "文系",
+      "reading": "ぶんけい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "縦書",
+      "reading": "たてが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "縦書",
+      "reading": "たてが",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "多",
+      "reading": "おお",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "多",
+      "reading": "おお",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "横",
+      "reading": "よこ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "横",
+      "reading": "よこ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "書",
+      "reading": "が",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The kanji 書 is not read as 'が'. In this context, it should be 'がき' for '書き' (writing), but only 'が' is given. The standard kun'yomi readings are 'か' or 'がき' (with okurigana).",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "書",
+      "reading": "が",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "書",
+      "reading": "か",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "書",
+      "reading": "か",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "文章",
+      "reading": "ぶんしょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "文章",
+      "reading": "ぶんしょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "用",
+      "reading": "よう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "用",
+      "reading": "よう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 15,
+    "flagged": 2,
+    "ok": 13,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "13188",
+    "screened_at": "2026-07-08T16:20:39Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for {書|が} in pair 12 is unusual. While 'が' can be a part of a compound reading like '書き方' (かきかた) where '書' is read as 'か', or '書物' (しょもつ) where it's 'しょ', 'が' by itself for '書' is not a standard reading. Given the context of '横書き' (よこがき), '書' is typically read as 'か' or 'がき' (with rendaku). The provided reading 'が' seems to be an incomplete or incorrect representation of the 'がき' part."
+    ],
+    "confidence": 0.8
+  }
+}

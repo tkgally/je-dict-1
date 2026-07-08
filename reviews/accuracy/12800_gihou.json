@@ -1,0 +1,24 @@
+{
+  "entry_id": "12800_gihou",
+  "headword": "{技法|ぎほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:11:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'education' is too narrow and misleading for '技法'.",
+      "suggestion": "action"
+    }
+  ]
+}

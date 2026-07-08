@@ -1,0 +1,24 @@
+{
+  "entry_id": "13167_kakeru",
+  "headword": "{欠|か}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:18:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is not appropriate for '欠ける' (to chip, to be lacking).",
+      "suggestion": "change"
+    }
+  ]
+}

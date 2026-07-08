@@ -1,0 +1,24 @@
+{
+  "entry_id": "13195_ayumi",
+  "headword": "{歩|あゆ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:18:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '歩み' is not formal. It is a literary or slightly elevated term, but not 'formal' in the sense of keigo or highly technical/official language. It's more 'neutral' or 'literary'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

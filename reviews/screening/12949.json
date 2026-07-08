@@ -1,0 +1,11 @@
+{
+  "entry_id": "12949",
+  "screened_at": "2026-07-08T15:51:30Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for {寝込|ねこ} is incomplete. The full reading should be ねこむ, but only ねこ is provided for 寝込. This is a partial reading, but the instruction states 'Do NOT flag partial readings as errors — they are correct by design.' Therefore, this is not an error according to the given rules.",
+    "The reading for {目的地|もくてきち} is missing the final 'ち' for 地. The full reading should be もくてきち, but the provided reading is もくてき. This is a partial reading, but the instruction states 'Do NOT flag partial readings as errors — they are correct by design.' Therefore, this is not an error according to the given rules."
+  ],
+  "confidence": 0.8
+}

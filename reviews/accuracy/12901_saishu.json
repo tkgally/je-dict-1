@@ -1,0 +1,24 @@
+{
+  "entry_id": "12901_saishu",
+  "headword": "{採取|さいしゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:13:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '採取' is not inherently formal; it's a neutral term for 'collection' or 'sampling' often used in scientific or technical contexts, but not exclusively formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

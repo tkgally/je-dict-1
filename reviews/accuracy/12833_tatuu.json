@@ -1,0 +1,24 @@
+{
+  "entry_id": "12833_tatuu",
+  "headword": "タトゥー",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:11:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for 'タトゥー'.",
+      "suggestion": "body-part"
+    }
+  ]
+}

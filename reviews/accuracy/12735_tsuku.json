@@ -1,0 +1,31 @@
+{
+  "entry_id": "12735_tsuku",
+  "headword": "{突|つ}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:09:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The headword gloss 'to poke, to thrust, to prop' is incomplete and misleading because it omits a very common and distinct meaning of 'つく' (to tell a lie, to utter). This meaning is present in example 1 but not reflected in the main gloss or definitions.",
+      "suggestion": "Add 'to tell (a lie)' or similar to the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to poke, to thrust, to stab' for sense 1 is incomplete and misleading because it omits a very common and distinct meaning of 'つく' (to tell a lie, to utter). This meaning is present in example 1 but not reflected in the main gloss or definitions.",
+      "suggestion": "This definition should be split, or a new definition added, to account for 'to tell (a lie)'."
+    }
+  ]
+}

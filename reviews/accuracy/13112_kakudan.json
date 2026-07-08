@@ -1,0 +1,24 @@
+{
+  "entry_id": "13112_kakudan",
+  "headword": "{格段|かくだん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:17:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'degree' is not in the valid tag list.",
+      "suggestion": "quantity"
+    }
+  ]
+}

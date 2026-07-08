@@ -1,0 +1,31 @@
+{
+  "entry_id": "13025_bouryokudan",
+  "headword": "{暴力団|ぼうりょくだん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:39Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'crime' is not in the valid tag list.",
+      "suggestion": "Consider replacing 'crime' with 'law' or 'society' if applicable, or removing it if no suitable replacement exists."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword.",
+      "suggestion": "The term 暴力団 is the official and legal term, making its formality 'neutral' or 'technical' rather than 'formal' in the sense of polite language."
+    }
+  ]
+}

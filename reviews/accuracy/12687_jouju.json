@@ -1,0 +1,24 @@
+{
+  "entry_id": "12687_jouju",
+  "headword": "{成就|じょうじゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:08:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'religion' is too narrow and potentially misleading for a word that primarily means 'fulfillment' or 'accomplishment' in a general sense, even if it can be used in religious contexts. The explanation itself states 'Often used for significant aspirations such as love, prayers, or life ambitions', indicating broader usage.",
+      "suggestion": "Remove 'religion'. The word is not exclusively or primarily religious. 'action' is appropriate."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13123_sakuranamiki",
+  "headword": "{桜並木|さくらなみき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:17:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'nature-plant' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

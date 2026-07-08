@@ -1,0 +1,10 @@
+{
+  "entry_id": "12870",
+  "screened_at": "2026-07-08T15:41:29Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `通行止` is `つうこうど` but the full word is `通行止め` (つうこうどめ). The reading `つうこうど` is a partial reading, but the problem description states that the reading covers ONLY the kanji portion. In this case, `通行止` is the kanji portion, and `め` is okurigana. Therefore, the reading should be `つうこうどめ` for `通行止` if `め` is considered part of the kanji reading, or `つうこうど` if `め` is okurigana. Given the example `先行→さきゆ` followed by `き` (先行き=さきゆき), where `き` is okurigana, it seems `め` should be okurigana. However, `通行止め` is a single word, and `止` is read as `どめ` in this context. If `止` is read as `ど`, then `め` would be okurigana. But `通行止` as a kanji portion is typically read as `つうこうどめ` when it means \"closed to traffic\". If `止` is meant to be read as `ど`, then `め` is okurigana. The problem statement says \"the reading covers ONLY the kanji portion\". If `通行止` is the kanji portion, and the full word is `通行止め`, then `止` should be read as `どめ`. If `め` is okurigana, then `止` should be read as `ど`. The provided reading `つうこうど` implies `め` is okurigana, which is consistent with the example `先行→さきゆ` followed by `き`. However, `通行止` itself is not typically read as `つうこうど` in isolation; it's usually `つうこうどめ` as a compound. This is a tricky case. Given the instruction \"Do NOT flag partial readings as errors — they are correct by design\" and \"Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき)\", `つうこうど` for `通行止` followed by `め` is consistent with the rules. Therefore, this is not an error."
+  ],
+  "confidence": 0.5
+}

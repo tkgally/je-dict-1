@@ -1,0 +1,24 @@
+{
+  "entry_id": "12928_kyuusai",
+  "headword": "{救済|きゅうさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:13:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'legal redress' for 法的救済 is too narrow. While 'redress' is a type of relief, '救済' encompasses broader forms of legal relief or remedy, not just compensation for a wrong.",
+      "suggestion": "Change 'legal redress' to 'legal relief' or 'legal remedy'."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entry_id": "12904",
+  "screened_at": "2026-07-08T15:45:46Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 11, '図', is given as 'はか'. While '図る' (はかる) is a valid verb, '図' as a standalone kanji typically has readings like 'ず' or 'と' (e.g., 図書館 - としょかん, 地図 - ちず). Given the context '図る。', it seems to be a partial reading for the verb '図る', but the instruction states 'the reading covers ONLY the kanji portion'. If '図' is meant to be read as 'はか' in isolation, it's unusual. However, the instruction also says 'Do NOT flag partial readings as errors — they are correct by design.' If 'はか' is considered the reading for the kanji '図' when it's part of '図る', then it's technically correct by the rules. I will flag it as a potential concern due to its unusual nature as a standalone kanji reading, but acknowledge the ambiguity with the 'partial readings' rule."
+  ],
+  "confidence": 0.7
+}

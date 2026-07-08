@@ -1,0 +1,24 @@
+{
+  "entry_id": "12831_sukippu",
+  "headword": "スキップ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:11:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'スキップ' has two distinct meanings, one of which is 'omit' or 'pass over'. The current semantic tag 'movement' only covers the 'skipping (gait)' meaning. The 'omit' meaning is not covered by 'movement'.",
+      "suggestion": "Add 'action' to the semantic tags to cover the 'omit' meaning. 'movement' is still appropriate for the gait meaning."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13086_suenagaku",
+  "headword": "{末永|すえなが}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:16:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '末永く'. While often used in formal contexts like weddings, the word itself is not inherently formal in its register. It can be used in various contexts without sounding overly stiff or polite.",
+      "suggestion": "neutral"
+    }
+  ]
+}
