@@ -1,0 +1,24 @@
+{
+  "entry_id": "12839_piisu",
+  "headword": "ピース",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:11:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'peace; piece' is misleading because the Japanese word ピース (piisu) does not directly mean 'peace' in the sense of 'absence of conflict' as a standalone word. It primarily refers to 'piece' or the 'peace sign' gesture. The 'peace' meaning only appears in compounds like 世界ピース (sekai piisu, world peace) or ピースサイン (peace sign). Presenting 'peace' as a direct, standalone gloss for ピース is inaccurate and could confuse learners.",
+      "suggestion": "Change the gloss to 'piece; peace sign'."
+    }
+  ]
+}

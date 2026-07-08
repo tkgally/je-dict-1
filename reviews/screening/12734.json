@@ -1,0 +1,10 @@
+{
+  "entry_id": "12734",
+  "screened_at": "2026-07-08T15:24:45Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for \"者\" has two different readings: \"もの\" and \"しゃ\". While both are valid readings for the kanji, the dictionary entry provides \"もの\" as the primary reading for the standalone kanji, and then later uses \"しゃ\" in compounds. The prompt states that the reading covers ONLY the kanji portion and that partial readings are correct by design. However, the prompt also states that the entry is for \"{者|もの} (もの) - noun, suffix\". This implies that \"もの\" is the expected reading for the standalone kanji in this context. The later instances of \"者\" being read as \"しゃ\" in compounds like \"医者\" and \"学者\" are correct for those compounds, but the standalone entry for \"者\" as \"もの\" is then contradicted by the later standalone entry \"者 → しゃ\". This inconsistency in the primary reading for the standalone kanji \"者\" is a concern."
+  ],
+  "confidence": 0.7
+}

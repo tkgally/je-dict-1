@@ -1,0 +1,31 @@
+{
+  "entry_id": "13037_kanyou",
+  "headword": "{慣用|かんよう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:55Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'idiomatic' is misleading as 慣用 (kanyou) refers to common usage or convention, not necessarily idiom. While idiomatic expressions are a type of 慣用表現 (kanyou hyougen), 慣用 itself is broader.",
+      "suggestion": "common usage, convention"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'idiomatic' is misleading as 慣用 (kanyou) refers to common usage or convention, not necessarily idiom. While idiomatic expressions are a type of 慣用表現 (kanyou hyougen), 慣用 itself is broader.",
+      "suggestion": "common usage, conventional"
+    }
+  ]
+}

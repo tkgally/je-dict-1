@@ -1,0 +1,24 @@
+{
+  "entry_id": "12742_ishi",
+  "headword": "{意思|いし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:09:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'thought' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

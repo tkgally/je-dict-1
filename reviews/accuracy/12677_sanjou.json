@@ -1,0 +1,24 @@
+{
+  "entry_id": "12677_sanjou",
+  "headword": "{惨状|さんじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:08:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'disaster' is not in the valid tag list.",
+      "suggestion": "Replace 'disaster' with 'general' or 'abstract'."
+    }
+  ]
+}

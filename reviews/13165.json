@@ -1,0 +1,407 @@
+{
+  "entry_id": "13165",
+  "word": "{機能|きのう}",
+  "reading": "きのう",
+  "reviewed_at": "2026-07-08T17:04:21Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 21,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "機能",
+      "reading": "きのう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "機能",
+      "reading": "きのう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "心臓",
+      "reading": "しんぞう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "心臓",
+      "reading": "しんぞう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "低下",
+      "reading": "ていか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "低下",
+      "reading": "ていか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "組織",
+      "reading": "そしき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "組織",
+      "reading": "そしき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "正常",
+      "reading": "せいじょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "正常",
+      "reading": "せいじょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "脳",
+      "reading": "のう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "脳",
+      "reading": "のう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "研究",
+      "reading": "けんきゅう",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "学者 is read as がくしゃ, but only がく is given. The reading should cover both kanji or be split as {学|がく}{者|しゃ} if partial readings are used.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "研究",
+      "reading": "けんきゅう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "学者",
+      "reading": "がくしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "学者",
+      "reading": "がくしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "多",
+      "reading": "おお",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "多",
+      "reading": "おお",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "便利",
+      "reading": "べんり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "便利",
+      "reading": "べんり",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "新",
+      "reading": "あたら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "新",
+      "reading": "あたら",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "追加",
+      "reading": "ついか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "追加",
+      "reading": "ついか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "文字",
+      "reading": "もじ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "文字",
+      "reading": "もじ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "読",
+      "reading": "よ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "読",
+      "reading": "よ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "取",
+      "reading": "と",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "取",
+      "reading": "と",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "機",
+      "reading": "き",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "機",
+      "reading": "き",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "能",
+      "reading": "のう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "能",
+      "reading": "のう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "昨日",
+      "reading": "きのう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "昨日",
+      "reading": "きのう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "果",
+      "reading": "は",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "果",
+      "reading": "は",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "高機能",
+      "reading": "こうきのう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "高機能",
+      "reading": "こうきのう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "多機能",
+      "reading": "たきのう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "多機能",
+      "reading": "たきのう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 21,
+    "flagged": 1,
+    "ok": 20,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "13165",
+    "screened_at": "2026-07-08T16:17:49Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The entry is for {機能|きのう} (きのう). However, pair 18, {昨日|きのう}, is a different word with the same reading. While the reading for 昨日 is correct, it is not the word being defined in the entry. This might be an error in the provided context rather than the reading itself."
+    ],
+    "confidence": 0.7
+  }
+}

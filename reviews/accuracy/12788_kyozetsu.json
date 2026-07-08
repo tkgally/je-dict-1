@@ -1,0 +1,24 @@
+{
+  "entry_id": "12788_kyozetsu",
+  "headword": "{拒絶|きょぜつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:10:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is too narrow for '拒絶'. While refusal can involve communication, the core meaning of '拒絶' is about the act of rejecting or refusing, which is an action or a state, not solely communication.",
+      "suggestion": "action"
+    }
+  ]
+}

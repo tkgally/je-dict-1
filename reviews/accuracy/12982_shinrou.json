@@ -1,0 +1,24 @@
+{
+  "entry_id": "12982_shinrou",
+  "headword": "{新郎|しんろう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:14:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'ceremony'",
+      "suggestion": "Replace 'ceremony' with 'daily-life' or 'culture'"
+    }
+  ]
+}

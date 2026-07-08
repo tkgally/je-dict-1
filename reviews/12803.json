@@ -1,0 +1,245 @@
+{
+  "entry_id": "12803",
+  "word": "{折|お}り{畳|たた}む",
+  "reading": "おりたたむ",
+  "reviewed_at": "2026-07-08T16:30:39Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 12,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "折",
+      "reading": "お",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "折",
+      "reading": "お",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "畳",
+      "reading": "たた",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "畳",
+      "reading": "たた",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "傘",
+      "reading": "かさ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "傘",
+      "reading": "かさ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "洗濯物",
+      "reading": "せんたくもの",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "洗濯物",
+      "reading": "せんたくもの",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "自転車",
+      "reading": "じてんしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "自転車",
+      "reading": "じてんしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "電車",
+      "reading": "でんしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "電車",
+      "reading": "でんしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "持",
+      "reading": "も",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "持",
+      "reading": "も",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "込",
+      "reading": "こ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "込",
+      "reading": "こ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "五段動詞",
+      "reading": "ごだんどうし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "五段動詞",
+      "reading": "ごだんどうし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "式",
+      "reading": "しき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "式",
+      "reading": "しき",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "傘",
+      "reading": "がさ",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 傘 is かさ, not がさ. 'がさ' is not a recognized reading for this kanji in standard Japanese.",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "傘",
+      "reading": "がさ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "椅子",
+      "reading": "いす",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "椅子",
+      "reading": "いす",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 12,
+    "flagged": 1,
+    "ok": 11,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "12803",
+    "screened_at": "2026-07-08T15:33:07Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 傘 in pair 11 is がさ, which is a rendaku form. While rendaku is generally allowed, the context \"(folding )\" suggests it might be a standalone noun or part of a compound where the base form かさ would be expected, unless it's specifically referring to a 'folding umbrella' where the rendaku applies to the compound itself. However, without the full compound, it's ambiguous. If it's meant to be the standalone noun 'umbrella', then かさ would be the primary reading. If it's part of a compound like 折り畳み傘 (おりたたみ傘), then がさ would be correct for the second kanji. Given the instruction to not flag rendaku, and the ambiguity, I will lean towards it being potentially correct in a compound context, but it's the most suspicious one."
+    ],
+    "confidence": 0.7
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "12676_joukei",
+  "headword": "{情景|じょうけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:08:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'perception' is not in the valid list.",
+      "suggestion": "general"
+    }
+  ]
+}

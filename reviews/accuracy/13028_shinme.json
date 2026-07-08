@@ -1,0 +1,31 @@
+{
+  "entry_id": "13028_shinme",
+  "headword": "{新芽|しんめ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'plant' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation for example 2 misrepresents the Japanese. '新芽' refers to new buds/sprouts, not specifically 'new tea leaves'. While tea leaves are a type of new sprout, the translation is too specific and loses the general meaning of '新芽'.",
+      "suggestion": "New sprouts of tea are picked to make shincha (first-harvest tea)."
+    }
+  ]
+}

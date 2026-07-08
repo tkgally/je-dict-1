@@ -1,0 +1,24 @@
+{
+  "entry_id": "12789_tousai",
+  "headword": "{搭載|とうさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:10:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a specific meaning related to equipping or loading technology/vehicles.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13043_kousei",
+  "headword": "{恒星|こうせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:16:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'geography' is incorrect for '恒星' (fixed star/star). Stars are objects of astronomy, not geography.",
+      "suggestion": "science"
+    }
+  ]
+}

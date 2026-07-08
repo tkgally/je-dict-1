@@ -1,0 +1,192 @@
+{
+  "entry_id": "12925",
+  "word": "{攻防|こうぼう}",
+  "reading": "こうぼう",
+  "reviewed_at": "2026-07-08T16:43:05Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 18,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "攻防",
+      "reading": "こうぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "激",
+      "reading": "はげ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "続",
+      "reading": "つづ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "両",
+      "reading": "りょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "見応",
+      "reading": "みごた",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "国会",
+      "reading": "こっかい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "与野党",
+      "reading": "よやとう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "連日",
+      "reading": "れんじつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "報道",
+      "reading": "ほうどう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "攻",
+      "reading": "こう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "防",
+      "reading": "ぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "戦",
+      "reading": "せん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "繰",
+      "reading": "く",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "広",
+      "reading": "ひろ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "工房",
+      "reading": "こうぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "興亡",
+      "reading": "こうぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[1].headword",
+      "kanji": "攻撃",
+      "reading": "こうげき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[2].headword",
+      "kanji": "防御",
+      "reading": "ぼうぎょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 18,
+    "flagged": 0,
+    "ok": 18,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "12925",
+    "screened_at": "2026-07-08T15:48:25Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for item 4, \"両 → りょう (followed by: チームの{攻防|こう))\", is incomplete. The furigana for 攻防 is split, but the reading for 両 is complete. The context suggests that the furigana for 攻防 is being provided, not that 両 is part of a larger word with a partial reading.",
+      "The reading for item 14, \"広 → ひろ (followed by: げる: to wag)\", is incomplete. The kanji 広 should be read as ひろ when followed by げる to form 広げる (ひろげる). The provided reading 'ひろ' is correct for the kanji portion."
+    ],
+    "confidence": 0.9
+  }
+}

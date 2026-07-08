@@ -1,0 +1,155 @@
+{
+  "entry_id": "12870",
+  "word": "{斜面|しゃめん}",
+  "reading": "しゃめん",
+  "reviewed_at": "2026-07-08T16:37:05Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 14,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "斜面",
+      "reading": "しゃめん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "急",
+      "reading": "きゅう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "登",
+      "reading": "のぼ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "雪",
+      "reading": "ゆき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "滑",
+      "reading": "すべ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "降",
+      "reading": "お",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "大雨",
+      "reading": "おおあめ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "影響",
+      "reading": "えいきょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "崩",
+      "reading": "くず",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "道路",
+      "reading": "どうろ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "通行止",
+      "reading": "つうこうど",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 通行止 is つうこうどめ, with 止 read as 'どめ'. 'つうこうど' is incomplete.",
+      "severity": "error"
+    },
+    {
+      "field": "notes",
+      "kanji": "緩",
+      "reading": "ゆる",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "坂",
+      "reading": "さか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "傾斜",
+      "reading": "けいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 14,
+    "flagged": 1,
+    "ok": 13,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "12870",
+    "screened_at": "2026-07-08T15:41:29Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for `通行止` is `つうこうど` but the full word is `通行止め` (つうこうどめ). The reading `つうこうど` is a partial reading, but the problem description states that the reading covers ONLY the kanji portion. In this case, `通行止` is the kanji portion, and `め` is okurigana. Therefore, the reading should be `つうこうどめ` for `通行止` if `め` is considered part of the kanji reading, or `つうこうど` if `め` is okurigana. Given the example `先行→さきゆ` followed by `き` (先行き=さきゆき), where `き` is okurigana, it seems `め` should be okurigana. However, `通行止め` is a single word, and `止` is read as `どめ` in this context. If `止` is read as `ど`, then `め` would be okurigana. But `通行止` as a kanji portion is typically read as `つうこうどめ` when it means \"closed to traffic\". If `止` is meant to be read as `ど`, then `め` is okurigana. The problem statement says \"the reading covers ONLY the kanji portion\". If `通行止` is the kanji portion, and the full word is `通行止め`, then `止` should be read as `どめ`. If `め` is okurigana, then `止` should be read as `ど`. The provided reading `つうこうど` implies `め` is okurigana, which is consistent with the example `先行→さきゆ` followed by `き`. However, `通行止` itself is not typically read as `つうこうど` in isolation; it's usually `つうこうどめ` as a compound. This is a tricky case. Given the instruction \"Do NOT flag partial readings as errors — they are correct by design\" and \"Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき)\", `つうこうど` for `通行止` followed by `め` is consistent with the rules. Therefore, this is not an error."
+    ],
+    "confidence": 0.5
+  }
+}

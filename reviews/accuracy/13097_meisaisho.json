@@ -1,0 +1,24 @@
+{
+  "entry_id": "13097_meisaisho",
+  "headword": "{明細書|めいさいしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:16:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'document' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

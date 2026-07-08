@@ -1,0 +1,318 @@
+{
+  "entry_id": "13025",
+  "word": "{暴力団|ぼうりょくだん}",
+  "reading": "ぼうりょくだん",
+  "reviewed_at": "2026-07-08T16:50:30Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 16,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "暴力団",
+      "reading": "ぼうりょくだん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "暴力団",
+      "reading": "ぼうりょくだん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "関係",
+      "reading": "かんけい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "関係",
+      "reading": "かんけい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "発覚",
+      "reading": "はっかく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "発覚",
+      "reading": "はっかく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "排除",
+      "reading": "はいじょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "排除",
+      "reading": "はいじょ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "条例",
+      "reading": "じょうれい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "条例",
+      "reading": "じょうれい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "全国",
+      "reading": "ぜんこく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "全国",
+      "reading": "ぜんこく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "施行",
+      "reading": "しこう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "施行",
+      "reading": "しこう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "警察",
+      "reading": "けいさつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "警察",
+      "reading": "けいさつ",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading ぼうりょ is for 暴力, not 暴力団. The correct reading for 暴力団 is ぼうりょくだん.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "構成員",
+      "reading": "こうせいいん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "構成員",
+      "reading": "こうせいいん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "逮捕",
+      "reading": "たいほ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "逮捕",
+      "reading": "たいほ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "暴力",
+      "reading": "ぼうりょく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "暴力",
+      "reading": "ぼうりょく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "団",
+      "reading": "だん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "団",
+      "reading": "だん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "暴",
+      "reading": "ぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "暴",
+      "reading": "ぼう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "対策法",
+      "reading": "たいさくほう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "対策法",
+      "reading": "たいさくほう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "関係者",
+      "reading": "かんけいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "関係者",
+      "reading": "かんけいしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "指定",
+      "reading": "してい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "指定",
+      "reading": "してい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 16,
+    "flagged": 1,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "13025",
+    "screened_at": "2026-07-08T16:00:49Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 暴力団 in entry 8 is given as ぼうりょ, which is a partial reading. While partial readings are generally allowed, in this specific context, it seems to be an error because the full kanji 暴力団 is present, and the reading should ideally cover the entire kanji sequence. The full reading should be ぼうりょくだん.",
+      "The reading for 暴力団 in entry 16 is given as ぼうりょく, which is a partial reading. Similar to entry 8, the full kanji 暴力団 is present, and the reading should ideally cover the entire kanji sequence. The full reading should be ぼうりょくだん."
+    ],
+    "confidence": 0.9
+  }
+}

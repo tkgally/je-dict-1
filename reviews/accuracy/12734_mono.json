@@ -1,0 +1,31 @@
+{
+  "entry_id": "12734_mono",
+  "headword": "{者|もの}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:09:41Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss states 'person (formal/written)', which is misleading. While it can be used formally, it is not exclusively formal or written. It is also used in neutral and sometimes informal contexts, especially in compounds or as a suffix.",
+      "suggestion": "person, one who"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 is 'person, one who'. The explanation then states 'Refers to a person, typically in formal or written contexts.' This contradicts the headword's gloss and is an overgeneralization. While it can be formal, it's not 'typically' so in all uses.",
+      "suggestion": "person, one who"
+    }
+  ]
+}

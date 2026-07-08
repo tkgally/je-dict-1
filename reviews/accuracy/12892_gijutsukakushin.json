@@ -1,0 +1,24 @@
+{
+  "entry_id": "12892_gijutsukakushin",
+  "headword": "{技術革新|ぎじゅつかくしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:12:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for '技術革新'.",
+      "suggestion": "Replace 'general' with 'technology' or 'business'."
+    }
+  ]
+}

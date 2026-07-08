@@ -1,0 +1,182 @@
+{
+  "entry_id": "13033",
+  "word": "{本体|ほんたい}",
+  "reading": "ほんたい",
+  "reviewed_at": "2026-07-08T16:52:50Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 17,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "本体",
+      "reading": "ほんたい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "価格",
+      "reading": "かかく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "含",
+      "reading": "ふく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "税",
+      "reading": "ぜい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "抜",
+      "reading": "ぬ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "表示",
+      "reading": "ひょうじ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "敵",
+      "reading": "てき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "事件",
+      "reading": "じけん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "見",
+      "reading": "み",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "地下",
+      "reading": "ちか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "研究所",
+      "reading": "けんきゅうじょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "隠",
+      "reading": "かく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "本",
+      "reading": "ほん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "体",
+      "reading": "たい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "機",
+      "reading": "き",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "本質",
+      "reading": "ほんしつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "実体",
+      "reading": "じったい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 17,
+    "flagged": 0,
+    "ok": 17,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "13033",
+    "screened_at": "2026-07-08T16:01:49Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 研究所 is given as けんきゅうじょ, but the provided context `けんきゅ` suggests a partial reading. If the full reading is `けんきゅうじょ`, then `けんきゅ` is a partial reading and should be flagged as an error if the intention was to provide the full reading for the kanji portion. However, the instructions state \"Do NOT flag partial readings as errors\". Given the context `けんきゅ` followed by `に{隠|かく}されて`, it's highly probable that `けんきゅうじょ` is the full reading for 研究所, and `けんきゅ` is indeed a partial reading. If the intention was to provide the full reading for the kanji, then `けんきゅうじょ` is correct, but the provided `けんきゅ` is incomplete. If `けんきゅ` is the intended partial reading, then it's not an error. I will assume the full reading for 研究所 is `けんきゅうじょ` and the provided `けんきゅ` is an incomplete reading for the kanji portion."
+    ],
+    "confidence": 0.7
+  }
+}

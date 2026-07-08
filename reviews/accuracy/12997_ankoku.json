@@ -1,0 +1,24 @@
+{
+  "entry_id": "12997_ankoku",
+  "headword": "{暗黒|あんこく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:15:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is not appropriate for '暗黒' (darkness, pitch-black, dark (figurative)). While darkness can occur in nature, the word itself is not primarily a 'nature' concept in the same way 'mountain' or 'river' would be. It's more of a descriptive state or condition.",
+      "suggestion": "Remove 'nature'."
+    }
+  ]
+}

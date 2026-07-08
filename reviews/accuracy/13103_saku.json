@@ -1,0 +1,24 @@
+{
+  "entry_id": "13103_saku",
+  "headword": "{柵|さく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:17:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

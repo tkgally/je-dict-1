@@ -1,0 +1,24 @@
+{
+  "entry_id": "12746_senjou",
+  "headword": "{戦場|せんじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:09:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'place' is not in the valid tag list.",
+      "suggestion": "geography"
+    }
+  ]
+}

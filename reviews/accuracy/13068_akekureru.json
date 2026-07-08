@@ -1,0 +1,24 @@
+{
+  "entry_id": "13068_akekureru",
+  "headword": "{明|あ}け{暮|く}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-08T17:16:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for '明け暮れる'.",
+      "suggestion": "Replace 'existence' with 'action' or 'daily-life'."
+    }
+  ]
+}
