@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-08] maintenance | Harvest the 2026-07-06/07/08 loose observations (all reinforcements — P21 band unbroken ~06150→06430, P20 off-vocab cohort reaches 12507–13199 with 37 curator escalations, P13 sole-general applied at frontier, item 17 13th + item 20 38th–40th confirmations, item 23 reinforcement, a [skill] carve-out) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 17 unharvested observation lines was the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-m67udi`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.08 unchanged); §5 metrics line appended; **no `make build`** (markdown/JSON-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all loose observations from the 2026-07-06 routine polish / accuracy-review / new-entries runs, the 2026-07-07 routine polish run, and the 2026-07-08 accuracy-review run; every one a reinforcement of an already-filed pattern:
+  - **Cleanup P21 update 2026-07-08** — the zero-inline-link create-era band is now confirmed unbroken **~06150 → 06430** (06418–06422 保活/泡立てる/ハッシュタグ/インフルエンサー/飼育; ~6423–6426 academic + construction nouns; 06427–06430 断熱/防水/灌漑/害虫), all hand-linked at the frontier as the comprehensive cursor advanced to `next: 6431`; new datum — frontier link **yield is high** (dense collocation/composition note blocks full of domain compounds that now have entries: 排水/撥水/防塵/益虫/殺虫剤…).
+  - **Cleanup P20 update 2026-07-08** — the out-of-taxonomy tag cohort reaches the **12507–13199** band (12520–12577 systematic compound off-vocab tags; 12674–13199 65/526 genuinely off-list); two accuracy-review runs migrated 39+28 provably-safe hyponym→parent tags but escalated **37** judgment-dependent ones to `reviews/needs_curator.txt` → recommends a systemic-fix pass with an **expanded migration map** (degree→quantity/general, place→geography/building, quality→evaluation, information→cognition/communication). Mirrored in `backlog-queue.json` (`unknown-semantic-tags` notes).
+  - **Cleanup P13 update 2026-07-08** — the placeholder sole-`general` create-era signature applied **at the frontier** as clearly-correct single-domain (06420→technology, 06430 害虫→animal-insect); recommends a `check_tag_drift` sweep over 06427–06600.
+  - **Tooling item 17 update 2026-07-08 (thirteenth confirmation)** — `general`-too-broad in-list noise into 12507–13199; the 12674–13199 run ran ~23% precision (28 apply / 121 flagged), so on a contaminated band the reviewer overstates work ~4× and the deterministic migration map, not the reviewer, must drive the P20 sweep.
+  - **Tooling item 20 update 2026-07-08 (thirty-eighth–fortieth no-op confirmation)** — 2026-07-06 5-entry lane (only 05432 じゃん a real note-link fix) + 2026-07-07 8-entry lane (6 no-op, 2 fixes: 04376 洗面 stale-`noentry`, 02355 好き naked です); the two genuine gaps are of a kind the notes scorer does not measure — further evidence the ranking is on the wrong axis. Same binding fix.
+  - **Tooling item 23 / Open Issues (reinforcement)** — a 2026-07-06 new-entries run reconfirmed the <10%-signal fallback-pool noise (derived compounds / bare numerals / phrase fragments / mis-glosses & typos); standing `clean_up_candidates_list.md` purge recommendation.
+  - **[skill] carve-out recorded (no skill edit)** — bound component kanji (断/灌/漑/潅) and headword variants (潅漑) in COMPOSITION/kanji-breakdown lines have no standalone entry and are not candidate-worthy, so they were marked `noentry` without adding a candidate; the `inline-word-links` skill's "always pair a `noentry` link with a candidate" rule should carve out bound morphemes/kanji-citation glosses (extends the 2026-07-03 compound-verb-suffix carve-out already in compound-verbs.md). Knowledge-base sessions do not edit skills — logged in cleanup-backlog.md P21 and here for the curator.
+  - **Reinforcement only (no action)** — the accuracy-review furigana deep pass ran **0/16** precision on 12674–13199 (okurigana/compound-split/rendaku/see-also FPs), the documented calibration / Tooling item 24 known-noise family.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,707 tagged `general` + the 20 untiered 29181–29200, of 29,510 total).
+- **[H] Metrics trend — not due**: only 9 new `metrics-history.jsonl` lines (223 total) since the page's fifteenth refresh at 214 runs (threshold ≥10).
+
 ## [2026-07-06] maintenance | Harvest 4 loose observations of 2026-07-05 routine polish runs (P21 zero-link band reaches the 06405–06417 loanword/business cohort + a P13/systemic-fix retag-sweep recommendation, item 20 36th/37th priority-lane no-op) + fifteenth quality-metrics refresh (first fully escalation-free window since the tenth) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observations was the top signal)
