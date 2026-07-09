@@ -1,0 +1,24 @@
+{
+  "entry_id": "13328_yougan",
+  "headword": "{溶岩|ようがん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T12:24:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'nature-geology' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

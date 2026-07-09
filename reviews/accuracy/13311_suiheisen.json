@@ -1,0 +1,24 @@
+{
+  "entry_id": "13311_suiheisen",
+  "headword": "{水平線|すいへいせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T12:23:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'nature-weather' is incorrect for '水平線'.",
+      "suggestion": "Remove 'nature-weather' and add 'nature'."
+    }
+  ]
+}

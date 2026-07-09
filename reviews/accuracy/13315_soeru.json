@@ -1,0 +1,24 @@
+{
+  "entry_id": "13315_soeru",
+  "headword": "{添|そ}える",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T12:23:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'action-general'",
+      "suggestion": "action"
+    }
+  ]
+}

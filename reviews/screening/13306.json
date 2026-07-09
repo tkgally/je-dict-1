@@ -1,0 +1,10 @@
+{
+  "entry_id": "13306",
+  "screened_at": "2026-07-09T12:18:07Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 深読 is ふかよ, but the full word is 深読み (ふかよみ). The reading ふかよ is correct for the kanji portion, but the example provided in the prompt for 深読|ふかよみ (ふかよみ) suggests that the reading should cover the entire kanji portion. However, the prompt also states that 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' Given these conflicting instructions, and the fact that ふかよ is indeed the reading for 深読 when followed by み, I will not flag this as an error based on the 'partial readings are correct' rule. However, the example in the prompt itself is inconsistent with this rule."
+  ],
+  "confidence": 0.7
+}
