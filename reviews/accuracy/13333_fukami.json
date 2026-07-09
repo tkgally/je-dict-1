@@ -1,0 +1,31 @@
+{
+  "entry_id": "13333_fukami",
+  "headword": "{深|ふか}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T15:26:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'quality' is not in the valid tag list.",
+      "suggestion": "Replace 'quality' with a valid tag like 'descriptive' or 'abstract'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'spatial' is not in the valid tag list.",
+      "suggestion": "Replace 'spatial' with a valid tag like 'general' or 'descriptive'."
+    }
+  ]
+}

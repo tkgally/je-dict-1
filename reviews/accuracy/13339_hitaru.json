@@ -1,0 +1,24 @@
+{
+  "entry_id": "13339_hitaru",
+  "headword": "{浸|ひた}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T15:27:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for this verb. '浸る' describes a state of being immersed or absorbed, which is an action or a state, not merely existence.",
+      "suggestion": "Replace 'existence' with 'action' or 'descriptive'."
+    }
+  ]
+}
