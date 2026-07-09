@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-09 (Routine v2: new-entries — 12 New Entries, IDs 29735–29746)
+Created 12 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22259–C22270, cited from entries 06433–06437 and 29724) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (12 candidates). Two coherent clusters: a nuclear/hydro energy set ({調湿|ちょうしつ}, {再稼働|さいかどう}, {廃炉|はいろ}, {揚水|ようすい}, siblings of {原子力|げんしりょく}/{水力|すいりょく}) and an arm-anatomy/fitness set ({上腕|じょうわん}, {前腕|ぜんわん}, たるみ, エクササイズ, ダンベル, cited from {二|に}の{腕|うで} 06437), plus {乱舞|らんぶ} and {有頂天|うちょうてん}/{慨嘆|がいたん} (emotion siblings of {狂喜|きょうき}). Conjugation tables added to the 6 new suru-verbs; no i-adjectives, no new kanji. §4 cross-model self-check on all 12 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0052. Added バーベル, 加湿, 鉄アレイ, and 上腕二頭筋 as referenced-but-missing candidates. The non-"seen in entry" candidate tail remains heavily contaminated (transparent compounds, numeral+counter combos, phrase fragments, dubious coinages), so no padding from the oldest queue; logged a `[pattern]` observation.
+
+- **Nuclear/hydro energy (4)**: {調湿|ちょうしつ} (humidity regulation; suru), {再稼働|さいかどう} (restart of a plant/reactor; suru), {廃炉|はいろ} (reactor decommissioning), {揚水|ようすい} (pumping water up; pumped storage; suru)
+- **Arm anatomy/fitness (5)**: {上腕|じょうわん} (upper arm; anatomical), {前腕|ぜんわん} (forearm), たるみ (sagging; slack; flab), エクササイズ (exercise; workout; suru), ダンベル (dumbbell)
+- **Emotion/movement (3)**: {乱舞|らんぶ} (wild dancing; whirling; suru), {有頂天|うちょうてん} (ecstasy; being on cloud nine), {慨嘆|がいたん} (lamentation; deploring; formal, suru)
+
 ### 2026-07-09 (Routine v2: new-entries — 15 New Entries, IDs 29720–29734)
 Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22244–C22258, cited from entries 06427–06432) — internal-completeness gaps referenced by existing entries in the energy/insulation and agriculture domains. This **cleared the entire remaining seen-in-entry queue** (15 candidates). Coherent clusters: home-insulation materials (グラスウール, ウレタンフォーム, セルロースファイバー, plus {遮熱|しゃねつ} and {冷暖房費|れいだんぼうひ}, siblings of {断熱|だんねつ}), agricultural water ({用水|ようすい}, {溜|た}め{池|いけ}, {水利|すいり}, siblings of {灌漑|かんがい}), crop/structural pests (シロアリ, アブラムシ, ウンカ, siblings of {害虫|がいちゅう}), and renewable-energy terms ({発電機|はつでんき}, {洋上|ようじょう}, クリーン). No verbs or i-adjectives, so no conjugation tables; no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. Added 調湿 (ちょうしつ) as a new candidate (referenced in a note but not yet an entry). The non-"seen in entry" candidate tail remains heavily contaminated (rare coinages, dubious readings, proper nouns), so no padding from the oldest queue.
 
@@ -80,12 +87,5 @@ Created 9 general-tier entries, all from the high-priority "seen in entry" pool 
 - **Robotics (4)**: {人型|ひとがた} (humanoid; human-shaped; noun/adjective-no), ヒューマノイド (humanoid robot), アーム (mechanical/robot arm; not the body part {腕|うで}), {配膳|はいぜん} (serving food; setting out dishes; suru)
 - **Fintech (2)**: デビットカード (debit card), スマートコントラクト (smart contract; blockchain)
 - **Facilities/work (3)**: ラウンジ (lounge; hotel/airport lounge), ワーカー (worker; loanword suffix), ドロップイン (drop-in; day use of a coworking space)
-
-### 2026-07-04 (Routine v2: new-entries — 12 New Entries, IDs 29670–29681)
-Created 12 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22194–C22205, cited from entries 06394–06401) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (12 candidates). A coherent crowdfunding / crypto / ideation cluster. Conjugation tables added to the 3 conjugating entries (1 verb-kuru {付|つ}いてくる, 2 suru-verbs ブレスト and マイニング); no new kanji. §4 cross-model self-check on all 12 changed entries: **11 clean; 0 applied, 1 rejected** — rejected a tag flag on ウォレット (`finance`→`technology`; in-list narrowness nit, and `finance` is well-justified since a wallet holds money/crypto). $0.0052. The non-"seen in entry" candidate tail remains heavily contaminated (typos, coined compounds, wrong glosses), so no padding from the oldest queue; logged a `[pattern]` observation and captured スマートコントラクト as a referenced-but-missing candidate.
-
-- **Crowdfunding (3)**: クラファン (crowdfunding; casual abbr.), リターン (return/yield; crowdfunding reward), ブレスト (brainstorming; casual abbr., suru)
-- **Crypto (5)**: ウォレット (digital/crypto wallet), マイニング (mining; suru), ビットコイン (Bitcoin), イーサリアム (Ethereum), {分散型|ぶんさんがた} (distributed; decentralized)
-- **Other (4)**: {付|つ}いてくる (to follow along; verb-kuru), {発想法|はっそうほう} (ideation technique), ゲストハウス (guest house; budget shared lodging), ポジティブ (positive; upbeat; na-adjective)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
