@@ -1,0 +1,24 @@
+{
+  "entry_id": "13241_kison",
+  "headword": "{毀損|きそん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:37:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'crime' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

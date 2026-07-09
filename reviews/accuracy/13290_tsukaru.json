@@ -1,0 +1,24 @@
+{
+  "entry_id": "13290_tsukaru",
+  "headword": "{浸|つ}かる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:38:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for '浸かる'.",
+      "suggestion": "The word describes an action or state of being immersed, not merely existence. 'action' or 'descriptive' would be more appropriate."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13276_kasen",
+  "headword": "{河川|かせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:38:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "河川敷 (kasenjiki) means 'riverbank' or 'riverbed', but the English translation uses 'riverbed' which is only one aspect of it. 'Riverbank' is more common for recreational activities.",
+      "suggestion": "More people are having barbecues on the riverbank."
+    }
+  ]
+}

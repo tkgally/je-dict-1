@@ -1,0 +1,24 @@
+{
+  "entry_id": "13236_satsujin",
+  "headword": "{殺人|さつじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:37:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'crime' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

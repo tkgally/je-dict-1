@@ -1,0 +1,24 @@
+{
+  "entry_id": "13209_tsuide",
+  "headword": "{次|つ}いで",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:37:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '次いで'. While it's not informal, 'neutral' is a more accurate description for its common usage in written and spoken Japanese.",
+      "suggestion": "neutral"
+    }
+  ]
+}

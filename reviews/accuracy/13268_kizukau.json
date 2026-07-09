@@ -1,0 +1,24 @@
+{
+  "entry_id": "13268_kizukau",
+  "headword": "{気遣|きづか}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:38:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and potentially misleading for '気遣う'. While it involves emotion, the core meaning is about action and consideration.",
+      "suggestion": "action"
+    }
+  ]
+}
