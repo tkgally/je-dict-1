@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-03
+**Last updated**: 2026-07-09
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-09 (Routine v2: new-entries — 15 New Entries, IDs 29720–29734)
+Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22244–C22258, cited from entries 06427–06432) — internal-completeness gaps referenced by existing entries in the energy/insulation and agriculture domains. This **cleared the entire remaining seen-in-entry queue** (15 candidates). Coherent clusters: home-insulation materials (グラスウール, ウレタンフォーム, セルロースファイバー, plus {遮熱|しゃねつ} and {冷暖房費|れいだんぼうひ}, siblings of {断熱|だんねつ}), agricultural water ({用水|ようすい}, {溜|た}め{池|いけ}, {水利|すいり}, siblings of {灌漑|かんがい}), crop/structural pests (シロアリ, アブラムシ, ウンカ, siblings of {害虫|がいちゅう}), and renewable-energy terms ({発電機|はつでんき}, {洋上|ようじょう}, クリーン). No verbs or i-adjectives, so no conjugation tables; no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. Added 調湿 (ちょうしつ) as a new candidate (referenced in a note but not yet an entry). The non-"seen in entry" candidate tail remains heavily contaminated (rare coinages, dubious readings, proper nouns), so no padding from the oldest queue.
+
+- **Insulation/energy-saving (5)**: {冷暖房費|れいだんぼうひ} (heating and cooling costs), {遮熱|しゃねつ} (heat shielding), グラスウール (glass wool), ウレタンフォーム (urethane foam), セルロースファイバー (cellulose fiber)
+- **Agricultural water (3)**: {用水|ようすい} (service/irrigation water), {溜|た}め{池|いけ} (reservoir pond), {水利|すいり} (water use/rights)
+- **Pests (3)**: シロアリ (termite), アブラムシ (aphid), ウンカ (planthopper)
+- **Health/energy (4)**: {伝染病|でんせんびょう} (infectious disease), {発電機|はつでんき} (generator), {洋上|ようじょう} (on the open sea; offshore), クリーン (clean; na-adjective)
+
 ### 2026-07-06 (Routine v2: new-entries — 13 New Entries, IDs 29707–29719)
 Created 13 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22231–C22243, cited from entries 05432, 06423, 06424, 06426) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (13 candidates). Three coherent clusters: casual tag-question endings (じゃないか, やん), page-annotation terms ({頭注|とうちゅう}/{傍注|ぼうちゅう}/{巻末注|かんまつちゅう}/{後注|こうちゅう}, siblings of {脚注|きゃくちゅう}) plus source-citation nouns ({典拠|てんきょ}, {原典|げんてん}), and exterior/interior-wall materials ({内壁|ないへき}, サイディング, モルタル, タイル, siblings of {外壁|がいへき}). Conjugation table added to the 1 new ichidan verb ({剥|は}げる, intransitive; pair {剥|は}がす); no new kanji. §4 cross-model self-check on all 13 changed entries: **10 clean, 3 flagged; 0 applied, 3 rejected** — all three were identical in-list `general`→`building` breadth nits on the wall/material nouns, rejected per the semantic-tag policy (reject too-broad substitutions between in-list tags) and for consistency with the sibling {外壁|がいへき}/コンクリート entries, which also use `general`. $0.0056. The non-"seen in entry" candidate tail remains heavily contaminated (derived compounds, bare numerals/counters, mis-glossed items), so no padding from the oldest queue; logged a `[pattern]` observation.
 
@@ -79,13 +87,5 @@ Created 12 general-tier entries, all from the high-priority "seen in entry" pool
 - **Crowdfunding (3)**: クラファン (crowdfunding; casual abbr.), リターン (return/yield; crowdfunding reward), ブレスト (brainstorming; casual abbr., suru)
 - **Crypto (5)**: ウォレット (digital/crypto wallet), マイニング (mining; suru), ビットコイン (Bitcoin), イーサリアム (Ethereum), {分散型|ぶんさんがた} (distributed; decentralized)
 - **Other (4)**: {付|つ}いてくる (to follow along; verb-kuru), {発想法|はっそうほう} (ideation technique), ゲストハウス (guest house; budget shared lodging), ポジティブ (positive; upbeat; na-adjective)
-
-### 2026-07-03 (Routine v2: new-entries — 15 New Entries, IDs 29655–29669)
-Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22178–C22193, cited from entries 06382–06392 and 04376) — internal-completeness gaps referenced by existing entries. The one katakana squirrel candidate (リス) was dropped as a variant duplicate of the existing {栗鼠|りす} (04352_risu) before creation. Conjugation tables added to the 5 new verbs (2 godan, 2 ichidan, 1 suru-verb {侵犯|しんぱん}); no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065.
-
-- **Verbs (5)**: {流|なが}し{込|こ}む (to pour into; to wash down; godan), {吹|ふ}き{流|なが}す (to blow away; godan), {押|お}し{止|と}める (to hold back by force; ichidan), {呼|よ}び{止|と}める (to call out and stop; to hail; ichidan), {侵犯|しんぱん} (violation; infringement; suru)
-- **Money/bills (3)**: {飲食代|いんしょくだい} (food and drink bill), {飲|の}み{代|だい} (drinking expenses; bar tab), ツケ (tab; running account; deferred payment)
-- **Other nouns (6)**: {宿主|しゅくしゅ} (host of a parasite/virus), {海里|かいり} (nautical mile), {使用権|しようけん} (right to use; license), {論理和|ろんりわ} (logical OR), {洗面器|せんめんき} (wash basin), {意気|いき} (spirit; morale; drive)
-- **Adjective (1)**: {差別的|さべつてき} (discriminatory; na-adjective)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
