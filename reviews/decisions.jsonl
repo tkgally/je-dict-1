@@ -2792,3 +2792,31 @@
 {"src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 6, "note": "family: 'general too broad' in-list swap (13200/13251/13253/13277/13289/13299)", "ts": "2026-07-09T00:44:29Z"}
 {"ts":"2026-07-09T06:21:00Z","entry":"06433","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general->science in-list narrowness nit"}
 {"ts":"2026-07-09T06:21:00Z","entry":"06434","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"suggested energy not in VALID_SEMANTIC; general valid"}
+{"ts":"2026-07-09T15:26:08Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: okurigana/compound splits+parse fail 13311/13326/13327/13329"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13310", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "nature-water off-vocab->nature; drop location"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13311", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "nature-water/nature-weather off-vocab->nature"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13314", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13315", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "action-general off-vocab->action"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13316", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "nature-water off-vocab->nature; quality->descriptive"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13317", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "nature-water off-vocab->nature"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13319", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "nature-plant->plant-general"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13319", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "season->time-season"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13322", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "house off-vocab->building"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13323", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "state off-vocab->descriptive; nature-weather->weather"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13324", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13326", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13327", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13328", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "nature-geology off-vocab->nature"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13330", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "action-general off-vocab->action"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13332", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "conflict off-vocab->action"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13333", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "quality off-vocab->abstract"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13333", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "spatial off-vocab->size"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13334", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "nature-water off-vocab->nature"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13335", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "state off-vocab->abstract"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13336", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13338", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "motion off-vocab->movement"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13338", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "nature-water off-vocab->nature"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13300", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "descriptive->law in-list narrowness nit"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13303", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "general->health in-list narrowness nit"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13339", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "existence->action in-list swap"}
+{"ts": "2026-07-09T15:31:23Z", "entry": "13340", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "note": "action->religion in-list swap"}
