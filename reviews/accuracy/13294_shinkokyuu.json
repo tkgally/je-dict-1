@@ -1,0 +1,24 @@
+{
+  "entry_id": "13294_shinkokyuu",
+  "headword": "{深呼吸|しんこきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:38:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '深呼吸' (deep breath/breathing). '深呼吸' is an action or a state, not a body part.",
+      "suggestion": "Remove 'body-part'."
+    }
+  ]
+}

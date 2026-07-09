@@ -1,0 +1,24 @@
+{
+  "entry_id": "13244_bujutsu",
+  "headword": "{武術|ぶじゅつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-09T00:37:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'martial-arts'",
+      "suggestion": "sports"
+    }
+  ]
+}
