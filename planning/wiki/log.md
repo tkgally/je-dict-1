@@ -2,6 +2,26 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-09] maintenance | Harvest the 3 loose 2026-07-08/09 observations (all reinforcements — item 6 gains six 13200–13299 1:1 tag mappings, P20 same, item 20 41st no-op confirmation, P21 band reaches 06433–06434 with paired candidate harvest) + sixteenth metrics refresh + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested observation lines was the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-oj9234`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.93 unchanged); §5 metrics line appended; **no `make build`** (markdown/JSON-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 3 loose observations from the 2026-07-08/09 accuracy-review and 2026-07-09 routine polish runs; every one a reinforcement of an already-filed pattern:
+  - **Tooling item 6 + Cleanup P20 updates 2026-07-09** (+ `backlog-queue.json` note) — a 13200–13299 death/crime/martial-arts accuracy-review surfaced six clean, context-independent 1:1 tag mappings **not** yet in `check_tag_drift.py`'s `TAG_MIGRATION` (`death`→existence, `crime`→law, `martial-arts`→sports, `writing`→language, `sport`→sports; `body`→body-part already listed 2026-06-21) — fold into the map so the systemic-fix mode auto-migrates them dict-wide (recurred across 13224–13248).
+  - **Tooling item 20 update 2026-07-09 (forty-first no-op confirmation)** — the notes-priority lane surfaced richly-structured **core adjectives** as "worst notes" (3/5 clean: 05337 映える, 00039 偉い, 01133 臭い); the no-op set has moved off the closed function-word band onto content adjectives, evidence scorer-bug #1 hits ordinary well-structured adjective notes too. Same binding fix.
+  - **Cleanup P21 update 2026-07-09** — the zero-inline-link create-era band reaches **06433–06434** (renewable/nuclear-energy compound nouns, zero `⟦...⟧` in examples AND notes); the notes' nuclear-policy vocab lacks entries (再稼働/廃炉/揚水) → added as candidates C22260–C22262; energy/infra 06xxx clusters need paired link-sweep + candidate-harvest.
+- **[H] Metrics trend — sixteenth refresh** of `topics/quality-metrics.md` (14 new metrics lines, 214→228 runs / ~6,932 adjudicated flags): the escalation-free streak ended as expected (runs 215–228 escalated **21**, all the 12674–13199 no-1:1-map judgment-dependent tail — documented P20/item-6 work, not a new problem); `tags` apply-among-decided rose to **48.3%** (84/174) on the genuinely-contaminated 12507–13299 cohort; furigana screening pure noise (0/55); review queue **new floor 13,906**; entry total 29,481→29,525; OpenRouter peaked ~$0.92/day (2026-07-08), ≤$0.11 otherwise; detectors (2026-07-08) `tag_drift` 12,426. No metric moving the wrong way → no new `[pattern]` observation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,742 tagged `general` + the 20 untiered 29181–29200, of 29,525 total).
+
+**Metrics snapshot (§5)**: `pipeline/metrics_snapshot.py --mode wiki --changed 0` appended.
+
+**Next**: no new pages (no `index.md` catalog change); all harvested items were incremental updates under existing open backlog entries. All 3 observations cleared.
+
 ## [2026-07-08] maintenance | Harvest the 2026-07-06/07/08 loose observations (all reinforcements — P21 band unbroken ~06150→06430, P20 off-vocab cohort reaches 12507–13199 with 37 curator escalations, P13 sole-general applied at frontier, item 17 13th + item 20 38th–40th confirmations, item 23 reinforcement, a [skill] carve-out) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 17 unharvested observation lines was the top signal)
