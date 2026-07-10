@@ -366,6 +366,18 @@ ID regardless of the display surface, so the de-wrap is safe. Validation stayed 
 range). §4 furigana self-screen: 22 entries submitted, 10 screened, 12 skipped (kana/loanword
 entries carry no ruby to screen), **0 flags**.
 Next ready slice: 10000+ and the larger pre-06000 backlog.
+
+**Update 2026-07-10 (10000–10499 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **18 instances across 14 entries** (`detect` filtered total 1301 → 1283):
+pure-kana katakana/loanword de-wraps (テレビ ×2/コンビニ/スーパー/メモ/パリ/デザイン/
+コミュニケーション ×2/パソコン/チャージ/トイレ/サイズ), o-prefix repositions
+(`{お浸|ひた}し` → `お{浸|ひた}し`, `{お袋|おふくろ}` → `お{袋|ふくろ}`, `{お礼|おれい}` → `お{礼|れい}`),
+and one over-wrapped okurigana split (`{乗り越し|のりこし}` → `{乗|の}り{越|こ}し`). Also corrected
+10232's `cross_references` headword `{嫌い|きらい}` → `{嫌|きら}い` to match target entry 02871's
+canonical headword form. No inline links were touched. Validation stayed clean (485/485 in range).
+§4 furigana self-screen: 14 entries submitted, all skipped (kana/loanword/already-polished entries
+carry no ruby to screen), **0 flags**.
+Next ready slice: 10500+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
