@@ -1,0 +1,31 @@
+{
+  "entry_id": "13379_kasou",
+  "headword": "{火葬|かそう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:13Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'death' is not in the valid tag list.",
+      "suggestion": "culture"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'culture-custom' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13457_aku",
+  "headword": "{灰汁|あく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:00:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'lye' is misleading. While 'lye' (水酸化ナトリウム) can be used in some food preparation (e.g., pretzels, olives), it is not the primary or common meaning of 灰汁 (aku) in the context of cooking, which refers to scum/foam or harsh/bitter taste. The dictionary's own definitions clarify this. Including 'lye' as a primary gloss is likely to confuse learners.",
+      "suggestion": "Remove 'lye' from the main gloss."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13451_teuchi",
+  "headword": "{手打|てう}ち",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:00:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and doesn't accurately reflect the specific meanings of '手打ち'.",
+      "suggestion": "Remove 'general' and add 'action' for the 'settlement' sense."
+    }
+  ]
+}

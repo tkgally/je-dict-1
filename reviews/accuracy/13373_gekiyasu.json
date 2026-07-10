@@ -1,0 +1,24 @@
+{
+  "entry_id": "13373_gekiyasu",
+  "headword": "{激安|げきやす}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'money-price' is not in the valid tag list.",
+      "suggestion": "shopping"
+    }
+  ]
+}

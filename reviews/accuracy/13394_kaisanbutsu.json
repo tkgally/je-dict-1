@@ -1,0 +1,24 @@
+{
+  "entry_id": "13394_kaisanbutsu",
+  "headword": "{海産物|かいさんぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'nature-ocean' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

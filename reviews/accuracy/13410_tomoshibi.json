@@ -1,0 +1,24 @@
+{
+  "entry_id": "13410_tomoshibi",
+  "headword": "{灯|ともしび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'general' is too broad for a word that specifically refers to light sources or figurative light.",
+      "suggestion": "Replace 'general' with 'nature' or 'abstract' (for the figurative sense)."
+    }
+  ]
+}

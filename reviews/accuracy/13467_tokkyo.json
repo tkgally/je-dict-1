@@ -1,0 +1,24 @@
+{
+  "entry_id": "13467_tokkyo",
+  "headword": "{特許|とっきょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:00:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'law-intellectual-property' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

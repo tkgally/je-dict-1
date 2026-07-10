@@ -2830,3 +2830,10 @@
 {"ts":"2026-07-10T03:57:43Z","entry":"13443","src":"furigana","dim":"furigana","sev":"error","decision":"apply","note":"note read saitakane; canonical entry 22055 saikoune"}
 {"ts":"2026-07-10T03:57:43Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":11,"note":"family: prompt-truncated incomplete-reading false positives"}
 {"ts":"2026-07-10T03:57:43Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":13,"note":"family: valid rendaku/okurigana/alt readings"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"tags","sev":"warn","decision":"apply","n":42,"note":"family: off-vocab semantic tag -> in-list migration"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"apply","n":2,"note":"family: misapplied in-list tag corrected (13355,13361)"}
+{"ts":"2026-07-10T04:36:00Z","entry":"13525","src":"accuracy","dim":"translation","sev":"error","decision":"apply","note":"oikko rendered 'boy' not 'nephew'"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"tags","sev":"warn","decision":"reject","n":18,"note":"family: in-list narrowness (general-too-broad) nits"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"tags","sev":"error","decision":"reject","n":3,"note":"family: formality label supported by entry notes"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"gloss","sev":"error","decision":"reject","n":3,"note":"family: acceptable noun gloss / valid sense (gekiha, aku)"}
+{"ts":"2026-07-10T04:36:00Z","src":"accuracy","dim":"translation","sev":"error","decision":"reject","n":2,"note":"family: faithful to Japanese source (tansan)"}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13525_oi",
+  "headword": "{甥|おい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:01:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation uses 'boy' instead of 'nephew', which misrepresents the Japanese '甥っ子' (oikko), a diminutive form of 'nephew'.",
+      "suggestion": "My sister's nephew has grown up and is already a high school student."
+    }
+  ]
+}

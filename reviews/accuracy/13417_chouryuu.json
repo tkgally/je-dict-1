@@ -1,0 +1,24 @@
+{
+  "entry_id": "13417_chouryuu",
+  "headword": "{潮流|ちょうりゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword has two distinct meanings, one of which is figurative and not geographic. The current tag 'geography' only covers one sense.",
+      "suggestion": "Add 'general' or 'abstract' to cover the figurative sense of 'trend, tide (of events)'."
+    }
+  ]
+}

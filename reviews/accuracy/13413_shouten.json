@@ -1,0 +1,24 @@
+{
+  "entry_id": "13413_shouten",
+  "headword": "{焦点|しょうてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific technical and abstract meanings. 'Cognition' or 'abstract' would be more appropriate given the glosses.",
+      "suggestion": "cognition"
+    }
+  ]
+}
