@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-10] maintenance | Harvest the 6 loose 2026-07-09/10 observations (all reinforcements — Cleanup P20 [13300–13549 block ~40%/23% off-vocab, single-batch systemic-fix-sweep case], P21 [band → 06438–06440 + candidates C22275–C22280], P13 [frontier sole-general applied 06438/06439]; Tooling item 17 [14th confirmation, contaminated-band flag rate mostly legit drift], item 20 [42nd no-op] + item 19 [two more stale-noentry markers]) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 6 unharvested observation lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-vus94g`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.88 unchanged); §5 metrics line appended; **no `make build`** (markdown/JSON-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 6 loose observations from the 2026-07-09 accuracy-review/polish runs and the 2026-07-10 routine polish session 002 + accuracy-review 13350–13549 run; every one a reinforcement of an already-filed pattern:
+  - **Cleanup P20 update 2026-07-10** (+ `backlog-queue.json` `unknown-semantic-tags` note) — two accuracy-review runs measured the **13300–13549** block at a uniform high off-vocab tag density (13300–13349 20/50 = 40%; 13350–13549 46/200 = 23%), all 1:1-mappable to in-list tags (motion→movement, nature-*→nature, house→building, season→time-season, action-general→action, quality→abstract/descriptive, spatial→size, conflict→action, food-cooking→food, *-concept/*-speech); both runs conclude the whole 13xxx block is a single mostly-1:1-mappable off-vocab creation batch best cleared by a dedicated `check_tag_drift --check unknown-semantic` systemic-fix sweep, not per-range review; cohort now contiguous through 13549.
+  - **Cleanup P21 update 2026-07-10** — the zero-inline-link create-era band reaches **06438–06440** (手の甲/経理/タイムライン, zero `⟦...⟧` in examples AND dense notes, ~20–40 links/entry yield once hand-linked); paired candidate harvest ひび割れ/足の甲/仕訳/マネージャー/フィード/もごもご (C22275–C22280); band now unbroken ~06150→06440.
+  - **Cleanup P13 update 2026-07-10** — the frontier-applied high-precision sole-`general`→specific family persists past 06430 (06438 手の甲→body-part, 06439 経理→business, applied in-run), distinct from the accuracy-review lane's rejected too-broad narrowness noise.
+  - **Tooling item 17 update 2026-07-10 (fourteenth confirmation)** — on the genuinely-contaminated 13350–13549 block the ~32% flag rate is mostly *legitimate* off-vocab drift (44 not-in-list flags applied 1:1) with only ~18/200 `general`-too-broad noise rejected → net genuine-error well under 20%; the tuned-prompt prescription cleanly separates the two regimes.
+  - **Tooling item 20 update 2026-07-10 (forty-second confirmation)** + **item 19 reinforcement** — priority lane lines 36–83 ran 4/6 no-op on 遅い/涼しい/曜日/隣 (two the *identical* 2026-07-09 no-ops → regeneration futile again); the 2 real fixes were stale-`noentry` markers (05766 にやにや→29117, 05775 もぐもぐ→C22280), off the scorer's axis, filed as item-19 detector reinforcement.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,734 tagged `general` + the 20 untiered 29181–29200, of 29,537 total, per `build/report.py`).
+
+**Metrics snapshot (§5)**: `pipeline/metrics_snapshot.py --mode wiki --changed 0` appended. **Activity H (metrics trend) not due** — only 7 new `metrics-history.jsonl` lines (235 total) since the sixteenth refresh at 228 runs (threshold ≥10).
+
+**Next**: no new pages (no `index.md` catalog change); all harvested items were incremental updates under existing open backlog entries. All 6 observations cleared.
+
 ## [2026-07-09] maintenance | Harvest the 3 loose 2026-07-08/09 observations (all reinforcements — item 6 gains six 13200–13299 1:1 tag mappings, P20 same, item 20 41st no-op confirmation, P21 band reaches 06433–06434 with paired candidate harvest) + sixteenth metrics refresh + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested observation lines was the top signal)
