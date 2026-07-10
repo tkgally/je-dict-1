@@ -1,0 +1,24 @@
+{
+  "entry_id": "13575_itan",
+  "headword": "{異端|いたん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:23:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes an adjective ('unorthodox') which is not a noun, while the headword is listed as a noun.",
+      "suggestion": "heresy, heterodoxy"
+    }
+  ]
+}

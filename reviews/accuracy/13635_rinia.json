@@ -1,0 +1,24 @@
+{
+  "entry_id": "13635_rinia",
+  "headword": "リニア",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:27:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'リニア' has two distinct meanings, one of which is 'linear' (sense 2), which is not covered by the 'transportation' tag.",
+      "suggestion": "Add 'general' or 'abstract' to cover the 'linear' meaning."
+    }
+  ]
+}

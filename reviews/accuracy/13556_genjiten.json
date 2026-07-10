@@ -1,0 +1,24 @@
+{
+  "entry_id": "13556_genjiten",
+  "headword": "{現時点|げんじてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:22:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '現時点' is not exclusively formal. While it can be used in formal contexts, it is also commonly used in neutral everyday speech and writing.",
+      "suggestion": "neutral"
+    }
+  ]
+}

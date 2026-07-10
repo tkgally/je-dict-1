@@ -1,0 +1,24 @@
+{
+  "entry_id": "13639_hassuru",
+  "headword": "{発|はっ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:27:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '発する' is not inherently formal. It is a neutral verb that can be used in both formal and informal contexts depending on the surrounding sentence structure and particles. Labeling it as 'formal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

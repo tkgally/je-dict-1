@@ -1,0 +1,24 @@
+{
+  "entry_id": "13566_seikan",
+  "headword": "{生還|せいかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:23:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for '生還'.",
+      "suggestion": "The most appropriate tag would be 'movement' or 'action' given the meaning of 'returning alive' or 'survival' (which implies an action of surviving/returning)."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13585_danshaku",
+  "headword": "{男爵|だんしゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:23:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for the headword '男爵' (baron). While one sense refers to a potato variety, the headword itself primarily means 'baron' (a person). The potato variety is a shortened form of '男爵いも'.",
+      "suggestion": "Remove 'food' from the semantic tags. The tag 'person' is correct for the primary meaning."
+    }
+  ]
+}
