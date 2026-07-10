@@ -1,0 +1,24 @@
+{
+  "entry_id": "13520_hanahadashii",
+  "headword": "{甚|はなは}だしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:01:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '甚だしい' is not formal; it is a somewhat stiff or literary word, but not formal in the sense of keigo or highly polite language. It's more neutral or slightly elevated.",
+      "suggestion": "neutral"
+    }
+  ]
+}

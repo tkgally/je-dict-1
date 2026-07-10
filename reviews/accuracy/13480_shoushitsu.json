@@ -1,0 +1,24 @@
+{
+  "entry_id": "13480_shoushitsu",
+  "headword": "{焼失|しょうしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T04:01:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'disaster-fire' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

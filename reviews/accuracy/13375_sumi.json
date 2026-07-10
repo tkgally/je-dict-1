@@ -1,0 +1,31 @@
+{
+  "entry_id": "13375_sumi",
+  "headword": "{炭|すみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:07Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'material' is not in the valid tag list.",
+      "suggestion": "Replace 'material' with 'general' or 'tool'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'food-cooking' is not in the valid tag list.",
+      "suggestion": "Replace 'food-cooking' with 'cooking' or 'food'."
+    }
+  ]
+}

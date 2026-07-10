@@ -1,0 +1,24 @@
+{
+  "entry_id": "13355_genryou",
+  "headword": "{減量|げんりょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:58:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '減量' (weight reduction).",
+      "suggestion": "Replace 'body-part' with 'health' or 'action'."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entry_id": "13377",
+  "screened_at": "2026-07-10T03:24:15Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 炊 in entry 10 is given as すい, but the typical reading for 炊 when it means \"to cook\" is たく (as in 炊く). While すい is part of the compound 炊飯 (すいはん), as a standalone reading for the kanji 炊 meaning \"to cook\", it's incorrect. The prompt specifies that the reading covers ONLY the kanji portion and not to flag partial readings, but this seems to be a standalone entry for 炊 with an incorrect reading for its meaning."
+  ],
+  "confidence": 0.9
+}

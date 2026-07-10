@@ -1,0 +1,24 @@
+{
+  "entry_id": "13374_noushuku",
+  "headword": "{濃縮|のうしゅく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T03:59:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-cooking' is too specific and misleading for the headword's general meaning of 'concentration' or 'condensation', which applies to many fields beyond food. The headword itself is not inherently about food or cooking.",
+      "suggestion": "Remove 'food-cooking'. The 'science' tag already covers the technical aspect, and 'action' would cover the verb-suru aspect."
+    }
+  ]
+}
