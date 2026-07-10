@@ -1,0 +1,24 @@
+{
+  "entry_id": "13630_hasshou",
+  "headword": "{発祥|はっしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:26:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a clear semantic meaning related to beginnings and origins.",
+      "suggestion": "history"
+    }
+  ]
+}

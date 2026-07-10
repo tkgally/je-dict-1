@@ -1,0 +1,31 @@
+{
+  "entry_id": "13610_yamai",
+  "headword": "{病|やまい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-10T15:24:34Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with such specific meanings as 'illness' and 'bad habit'.",
+      "suggestion": "Replace 'general' with 'health' and 'cognition' or 'personality' to better reflect the headword's meanings."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While the explanation states it's 'more literary and formal than 病気', the word itself is not inherently formal in all contexts. It's often used in proverbs and set phrases, which can be quite common, and the second sense ('bad habit') is not exclusively formal.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}
