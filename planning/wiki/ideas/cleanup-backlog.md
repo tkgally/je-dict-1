@@ -352,6 +352,20 @@ No edit sat inside an inline link. Validation stayed clean (401/401 in range). �
 self-screen: 21 entries submitted, 1 screened, 20 skipped (kana/loanword entries carry no ruby
 to screen), **0 flags**.
 Next ready slice: 09400+ and the larger pre-06000 backlog.
+
+**Update 2026-07-10 (09400–09999 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **24 instances across 22 entries** (`detect` filtered total 1325 → 1301):
+pure-kana katakana/loanword/numeral de-wraps (これ/パーティー/ニュース/ゴミ/プログラム/ファン/オン/
+なし/すぐ/エリア ×2/クーポン/ある, and numerals `{30|さんじゅっ}` → `30`, `{1|いち}` → `1` ×2),
+o/go-prefix repositions (`{お金|おかね}` → `お{金|かね}` ×2, `{ご来店|ごらいてん}` → `ご{来店|らいてん}`,
+`{お好|この}` → `お{好|この}`, `{お伝|つた}` → `お{伝|つた}`, `{お腹|おなか}` → `お{腹|なか}`), and
+over-wrapped okurigana splits (`{日替り|ひがわり}` → `{日|ひ}{替|がわ}り`,
+`{警備する|けいびする}` → `{警備|けいび}する`). Three pure-kana de-wraps sat inside inline links
+carrying explicit `entry_id`s (パーティー→02946, ニュース→04437, プログラム→01540), which resolve by
+ID regardless of the display surface, so the de-wrap is safe. Validation stayed clean (595/595 in
+range). §4 furigana self-screen: 22 entries submitted, 10 screened, 12 skipped (kana/loanword
+entries carry no ruby to screen), **0 flags**.
+Next ready slice: 10000+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)

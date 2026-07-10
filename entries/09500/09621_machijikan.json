@@ -14,10 +14,12 @@
   "examples": [
     {
       "id": "09621_machijikan_ex1",
-      "japanese": "{待|ま}ち{時間|じかん}は{30|さんじゅっ}{分|ぷん}です。",
+      "japanese": "{待|ま}ち{時間|じかん}は30{分|ぷん}です。",
       "english": "The wait time is 30 minutes.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -25,7 +27,9 @@
       "japanese": "{人気|にんき}のレストランは{待|ま}ち{時間|じかん}が{長|なが}い。",
       "english": "Popular restaurants have long wait times.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -33,7 +37,9 @@
       "japanese": "アプリで{待|ま}ち{時間|じかん}を{確認|かくにん}できる。",
       "english": "You can check the wait time on the app.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     }
   ],
@@ -41,14 +47,18 @@
   "cross_references": [],
   "metadata": {
     "created": "2026-02-03T02:36:27Z",
-    "modified": "2026-03-28T01:54:11Z",
+    "modified": "2026-07-10T00:20:58Z",
     "ai_model": "opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["noun"],
+      "pos": [
+        "noun"
+      ],
       "formality": "neutral",
       "politeness": "plain",
-      "semantic": ["time-general"]
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }
