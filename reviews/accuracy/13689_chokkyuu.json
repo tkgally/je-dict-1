@@ -1,0 +1,24 @@
+{
+  "entry_id": "13689_chokkyuu",
+  "headword": "{直球|ちょっきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T09:35:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for the headword '直球' itself. While the figurative sense relates to direct communication, the word itself does not primarily denote communication.",
+      "suggestion": "Remove 'communication'."
+    }
+  ]
+}

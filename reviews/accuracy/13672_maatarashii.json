@@ -1,0 +1,24 @@
+{
+  "entry_id": "13672_maatarashii",
+  "headword": "{真新|まあたら}しい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T09:34:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'quality'.",
+      "suggestion": "appearance"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "13718_ryakushiki",
+  "headword": "{略式|りゃくしき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T09:35:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '略式' is labeled as 'formal', but its meaning 'informal, simplified' suggests it describes something less formal. This is a contradiction.",
+      "suggestion": "Change 'formal' to 'neutral' or 'informal' depending on the typical usage context, but 'neutral' is likely more appropriate as it describes a type of formality rather than being formal itself."
+    }
+  ]
+}

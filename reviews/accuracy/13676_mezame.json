@@ -1,0 +1,24 @@
+{
+  "entry_id": "13676_mezame",
+  "headword": "{目覚|めざ}め",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T09:35:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and misleading for '目覚め'. While it relates to the body's state, it's not a body part or internal organ.",
+      "suggestion": "Replace 'body' with 'health' or 'daily-life' as it pertains to the state of waking or general daily activities."
+    }
+  ]
+}

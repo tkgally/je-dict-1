@@ -1,0 +1,24 @@
+{
+  "entry_id": "13663_yasaki",
+  "headword": "{矢先|やさき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T09:34:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and doesn't capture the specific nuance of '矢先'.",
+      "suggestion": "time-general"
+    }
+  ]
+}
