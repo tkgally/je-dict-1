@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-09
+**Last updated**: 2026-07-11
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,13 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-11 (Routine v2: new-entries — 12 New Entries, IDs 29762–29773)
+Created 12 general-tier entries. The four highest-priority "seen in entry" candidates (C22286–C22289, cited from entries 06445/06447 — funeral-vocabulary and sports gaps) were created first: {関係性|かんけいせい} (relationship, relatedness), {薄墨|うすずみ} (pale sumi ink; funeral custom), {御仏前|ごぶつぜん} (before the Buddha; condolence-envelope inscription), ホームチーム (home team). The remaining eight are hand-picked genuine standalone lexemes from the general candidate pool: an honorific ({御令息|ごれいそく}), a math/figurative antonym pair ({低次元|ていじげん}/{高次元|こうじげん}, both noun + na-adjective, two senses each), and single-sense technical/topical nouns ({甜菜糖|てんさいとう} beet sugar, {網点|あみてん} halftone dot, {駆動軸|くどうじく} drive shaft, {地域研究|ちいきけんきゅう} area studies, {熱伝達|ねつでんたつ} heat transfer). No verbs/i-adjectives, so no conjugation tables; one new kanji ({甜|てん}) assigned ID 02781. §4 cross-model self-check on all 12 changed entries: **11 clean, 1 flagged — 1 applied, 1 rejected** — applied a 49th-day gloss-timing precision fix on {御仏前|ごぶつぜん} ("after"→"from"), rejected a "def gloss too restrictive" misread. $0.0053. Added {御令嬢|ごれいじょう}, {冷媒|れいばい}, {濃墨|こずみ} as referenced-but-missing candidates. The general candidate pool is heavily contaminated with compositional/derivable junk, so ~600 candidates were surveyed to find these; logged a `[pattern]` observation recommending a candidate-cleanup pass. The seen-in-entry queue is empty again.
+
+- **Seen-in-entry priority (4)**: {関係性|かんけいせい} (relationship, relatedness), {薄墨|うすずみ} (pale ink; funeral custom), {御仏前|ごぶつぜん} (before the Buddha; condolence inscription), ホームチーム (home team)
+- **Honorific / dimension pair (3)**: {御令息|ごれいそく} (your son; honorific), {低次元|ていじげん} (low-dimensional; petty), {高次元|こうじげん} (high-dimensional; high-level)
+- **Technical / topical nouns (5)**: {甜菜糖|てんさいとう} (beet sugar), {網点|あみてん} (halftone dot), {駆動軸|くどうじく} (drive shaft), {地域研究|ちいきけんきゅう} (area studies), {熱伝達|ねつでんたつ} (heat transfer)
+
 ### 2026-07-10 (Routine v2: new-entries — 15 New Entries, IDs 29747–29761)
 Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22271–C22285, cited from entries 05775, 06438–06444, 29735, 29742, 29746) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (15 candidates). Three clusters: weight-training/anatomy (バーベル, {鉄|てつ}アレイ, {上腕二頭筋|じょうわんにとうきん}, siblings of the existing ダンベル/エクササイズ fitness set, plus {加湿|かしつ}), streaming/social media (フィード, ネットショッピング, スーパーチャット + abbreviation スパチャ, マネージャー), and everyday nouns/mimetic (もごもご, ひび{割|わ}れ, {足|あし}の{甲|こう}, {仕訳|しわけ}, {大道芸人|だいどうげいにん}, ギターケース). Conjugation tables added to the 5 new suru-verbs; no i-adjectives, no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. No new candidates or observations captured (examples reuse existing vocabulary). The non-"seen in entry" candidate tail remains heavily contaminated, so no padding from the oldest queue; the seen-in-entry queue is empty again and awaits curator/polish restock.
 
@@ -79,20 +86,5 @@ Created 13 general-tier entries, all from the high-priority "seen in entry" pool
 - **Casual endings (2)**: じゃないか (isn't it?; tag-question, expression), やん (isn't it?; Kansai particle)
 - **Annotation/citation (6)**: {頭注|とうちゅう} (headnote), {傍注|ぼうちゅう} (marginal note), {巻末注|かんまつちゅう} (endnote), {後注|こうちゅう} (endnote), {典拠|てんきょ} (documentary authority), {原典|げんてん} (original text)
 - **Walls/materials (5)**: {内壁|ないへき} (interior wall), サイディング (siding), モルタル (mortar), タイル (tile), {剥|は}げる (to peel off; to fade; ichidan)
-
-### 2026-07-06 (Routine v2: new-entries — 16 New Entries, IDs 29691–29706)
-Created 16 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22215–C22230, cited from entries 06411–06421 and 29684) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (16 candidates). A tech / green-economy / childcare / dessert-baking cluster. Conjugation tables added to the 3 new suru-verbs (アシスト, リコール, {結婚活動|けっこんかつどう}); no new kanji. §4 cross-model self-check on all 16 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0070. The non-"seen in entry" candidate tail remains heavily contaminated (fabricated words, compositional compounds, bare counters), so no padding from the oldest queue.
-
-- **Tech/robots (3)**: アンドロイド (android; human-like robot), ニュートラル (neutral; impartial; gear neutral; na-adj), インスタグラマー (Instagrammer)
-- **Green economy (3)**: カーボンオフセット (carbon offset), {炭素中立|たんそちゅうりつ} (carbon neutrality; native term), リコール (product recall; official recall; suru)
-- **Everyday/childcare (5)**: キックボード (kick scooter), アシスト (assistance; sports assist; suru), {永年|えいねん} (many years; long service), ローテンション (low-energy; subdued; na-adj), {認可外|にんかがい} (unlicensed; esp. daycare), {結婚活動|けっこんかつどう} (marriage hunting; full form of {婚活|こんかつ}; suru)
-- **Dessert baking (4)**: メレンゲ (meringue), ハンドミキサー (hand mixer), {七分立|しちぶだ}て (whipped to soft peaks), {八分立|はちぶだ}て (whipped to firm peaks)
-
-### 2026-07-05 (Routine v2: new-entries — 9 New Entries, IDs 29682–29690)
-Created 9 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22206–C22214, cited from entries 06402–06406 and 29680) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (9 candidates). A robotics / fintech / facilities cluster: several were `noentry` inline-link targets inside the ロボット (06404) and coworking (06405/06406) entries. Conjugation table added to the 1 new suru-verb ({配膳|はいぜん}); no new kanji. §4 cross-model self-check on all 9 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0039. The non-"seen in entry" candidate tail remains heavily contaminated (fabricated/nonexistent words like 権使・些道・個尊・怒燥, compositional compounds, bare counters), so no padding from the oldest queue; captured アンドロイド as a referenced-but-missing candidate.
-
-- **Robotics (4)**: {人型|ひとがた} (humanoid; human-shaped; noun/adjective-no), ヒューマノイド (humanoid robot), アーム (mechanical/robot arm; not the body part {腕|うで}), {配膳|はいぜん} (serving food; setting out dishes; suru)
-- **Fintech (2)**: デビットカード (debit card), スマートコントラクト (smart contract; blockchain)
-- **Facilities/work (3)**: ラウンジ (lounge; hotel/airport lounge), ワーカー (worker; loanword suffix), ドロップイン (drop-in; day use of a coworking space)
 
 _(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
