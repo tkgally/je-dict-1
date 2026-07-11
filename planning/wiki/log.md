@@ -2,6 +2,30 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-11] maintenance | Harvest the 9 loose 2026-07-10/11 observations (all reinforcements — Cleanup P21 [band → 06441–06447 + candidates C22281–C22289], P20 [off-list tags 13650–13724, whole 13650–14149 block a check_tag_drift sweep candidate]; Tooling item 17 [15th confirmation], item 20 [43rd/44th no-op], item 21/31 [screener slow/unreliable], item 23 [candidate junk]) + seventeenth metrics refresh + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 13 unharvested observation lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-fodclw`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.95 unchanged); §5 metrics line appended; **no `make build`** (markdown/JSON-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 9 loose observations from the 2026-07-10 routine polish runs 004/006, the 2026-07-11 new-entries run, and the 2026-07-10/11 accuracy-review runs; every one a reinforcement of an already-filed pattern:
+  - **Cleanup P21 update 2026-07-11** — the zero-inline-link create-era band extends through **06441–06447** (06441–06444 陰キャ/陽キャ/アナログ/投げ銭 + 06445–06447 不祝儀/クーポン/延長, zero `⟦...⟧` in examples AND dense notes at birth, Jan-2026 create-era; both runs hand-linked their frontier entries); band now unbroken ~06150→06447; paired candidate harvest C22281–C22289.
+  - **Cleanup P20 update 2026-07-11** (+ `backlog-queue.json` `unknown-semantic-tags` note; scope_estimate refreshed 9,036→7,689 from the fresh detector sample) — off-list tags cluster densely in **13650–13724** (20/75 off-list, migrated in-run); whole **13650–14149** block likely predates closed-vocabulary enforcement → next contiguous `check_tag_drift` sweep target.
+  - **Tooling item 17 update 2026-07-11 (fifteenth confirmation)** — a 13550–13649 accuracy-review ran 26/99 = 26% flagged, dominant family the rejected `general`-too-broad in-list noise (n=12), genuine applies the two not-in-list migrations (legal→law 13640, body→body-part 13649) + one existence→health (病む 13611).
+  - **Tooling item 20 update 2026-07-11 (forty-third/forty-fourth no-op confirmation)** — two 2026-07-10 polish runs ran priority lanes 5/6 and 4/4 no-op on the same closed-tier basic/function set; regeneration proven futile a third time same day, both runs advanced the cursor past the examined no-ops.
+  - **Tooling item 21 / item 31 update 2026-07-11** — `review_runner.py` furigana screening remains ~8 s/entry with multi-minute stalls (scoped to a 27-entry sub-range this run); reinforces item 21 range-sizing + item 31 per-request timeout/retry cap.
+  - **Tooling item 23 update 2026-07-11 (reinforcement)** — a 2026-07-11 new-entries run surveyed ~600 candidates to pick ~12 genuine lexemes; candidate list heavily diluted (number+counter combos, transparent compounds, particle-phrases, mis-glosses like アンパッサン "ice cream sundae"); standing `clean_up_candidates_list.md` purge recommendation.
+  - **No follow-up** — the 06444 nagesen をする/する duplicate artifact was cleaned in-run.
+- **[H] Metrics trend — seventeenth refresh** of `topics/quality-metrics.md` (16 new metrics lines, 228→244 runs / ~7,136 adjudicated flags): the escalation-free window **resumes** (runs 229–244 escalated **0** after the sixteenth refresh's one-off 21-flag blip); `tags` apply-among-decided recovered to **62.8%** (93/148) on the genuinely-contaminated 13xxx off-vocab batch (13550–13724, real not-in-list migrations); **furigana screening broke its pure-noise streak** with **3 applied of 42** (frontier お-prefix true positives, ~7% precision); review queue **new floor 13,830**; entry total 29,525→29,564; OpenRouter ≤~$0.19/day; detectors 2026-07-11 `furigana_format` 1,284 / `artifacts` 13 / `tag_drift` unknown-semantic 7,689. No metric moving the wrong way → no new `[pattern]` observation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,761 tagged `general` + the 20 untiered 29181–29200, of 29,564 total, per `build/audit_tiers.py`).
+
+**Metrics snapshot (§5)**: `pipeline/metrics_snapshot.py --mode wiki --changed 0` appended.
+
+**Next**: no new pages (no `index.md` catalog change); all harvested items were incremental updates under existing open backlog entries. All 9 observations cleared.
+
 ## [2026-07-10] maintenance | Harvest the 6 loose 2026-07-09/10 observations (all reinforcements — Cleanup P20 [13300–13549 block ~40%/23% off-vocab, single-batch systemic-fix-sweep case], P21 [band → 06438–06440 + candidates C22275–C22280], P13 [frontier sole-general applied 06438/06439]; Tooling item 17 [14th confirmation, contaminated-band flag rate mostly legit drift], item 20 [42nd no-op] + item 19 [two more stale-noentry markers]) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 6 unharvested observation lines the top signal)
