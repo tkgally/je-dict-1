@@ -1,0 +1,24 @@
+{
+  "entry_id": "13833_soya",
+  "headword": "{粗野|そや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:28:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '粗野' is not formal. It is a neutral descriptive term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

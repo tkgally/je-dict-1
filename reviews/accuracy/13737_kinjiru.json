@@ -1,0 +1,24 @@
+{
+  "entry_id": "13737_kinjiru",
+  "headword": "{禁|きん}じる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:26:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for the headword '禁じる'. The word primarily means 'to prohibit' or 'to suppress emotions', which are actions or states of being, not forms of communication.",
+      "suggestion": "Replace 'communication' with 'action'."
+    }
+  ]
+}
