@@ -1,0 +1,31 @@
+{
+  "entry_id": "13843_shibari",
+  "headword": "{縛|しば}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:28:33Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses '縛りにする' which means 'to make into a binding' or 'to make something a binding', but the English translation 'Bind the hands and feet with a rope' implies the verb 'to bind' directly. The Japanese is ungrammatical for this meaning.",
+      "suggestion": "Japanese should be: ロープで手足を縛る。 or ロープで手足を縛りつける。"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese '地縛り' (jibari) is a specific term referring to being bound to a place, often spiritually or supernaturally, like a 'ground-bound spirit' or 'haunted by a place'. The English 'I'm bound to this place' is too general and doesn't capture the nuance of '地縛り' as a noun here, which implies a state of being 'ground-bound' or 'place-bound'. The sentence structure '地縛りになっていて' means 'having become jibari'.",
+      "suggestion": "The English translation should reflect the specific meaning of '地縛り' as a state of being bound to a place, often implying a supernatural or inescapable attachment. A more accurate translation might be: 'I'm bound to this spot/place and can't move freely.' or 'I'm stuck to this place and can't move freely.' (if 'stuck' is acceptable for the nuance of 'jibari'). However, the Japanese sentence itself is a bit unusual for a common expression. If '地縛り' is intended as a general 'being tied to the ground', it's still a bit awkward. If it refers to '地縛霊' (jibakurei - a spirit bound to a place), then the sentence is even more off. Given the context of '縛り', it's likely trying to use '地縛り' in a more general sense of being 'ground-bound' or 'stuck to the ground/place'. The current translation is not entirely wrong but misses the specific noun usage."
+    }
+  ]
+}

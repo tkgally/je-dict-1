@@ -1,0 +1,24 @@
+{
+  "entry_id": "13747_mokurei",
+  "headword": "{目礼|もくれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:26:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '目礼' is not formal. It is a neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

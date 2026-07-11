@@ -1,0 +1,24 @@
+{
+  "entry_id": "13845_soujite",
+  "headword": "{総|そう}じて",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:28:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '総じて' is not formal. It is a neutral adverb.",
+      "suggestion": "neutral"
+    }
+  ]
+}

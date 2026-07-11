@@ -1,0 +1,24 @@
+{
+  "entry_id": "13730_shakaijin",
+  "headword": "{社会人|しゃかいじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:26:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'people'.",
+      "suggestion": "person"
+    }
+  ]
+}

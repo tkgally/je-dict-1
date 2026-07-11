@@ -1,0 +1,24 @@
+{
+  "entry_id": "13788_shoujin",
+  "headword": "{精進|しょうじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:27:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'cognition' is not appropriate for the headword's meaning of 'devotion, diligence' or 'vegetarian cuisine'.",
+      "suggestion": "Replace 'cognition' with 'action' for the 'devotion/diligence' sense and 'religion' for the 'vegetarian cuisine' sense, or 'general' if a single tag is needed."
+    }
+  ]
+}

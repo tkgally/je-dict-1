@@ -1,0 +1,31 @@
+{
+  "entry_id": "13844_zecchou",
+  "headword": "{絶頂|ぜっちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-11T18:28:46Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'climax' which, while technically a possible meaning, is overwhelmingly associated with sexual climax in English and would mislead an intermediate learner without context. The Japanese word 絶頂 (zecchou) can refer to orgasm, but it's a specific, often euphemistic, usage not covered by the general gloss or examples provided.",
+      "suggestion": "Remove 'climax' from the main gloss to avoid misleading learners into thinking it's a common, neutral synonym for 'peak' or 'zenith' in English."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[2].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 2 includes 'climax' for the same reason as the main gloss. While 絶頂 can mean orgasm, this dictionary entry does not explain or exemplify that specific usage, making its inclusion misleading for an intermediate learner.",
+      "suggestion": "Remove 'climax' from the gloss for sense 2."
+    }
+  ]
+}
