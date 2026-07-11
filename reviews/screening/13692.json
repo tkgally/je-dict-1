@@ -1,0 +1,10 @@
+{
+  "entry_id": "13692",
+  "screened_at": "2026-07-11T09:28:32Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 美 is given as お, but the full word is 美味しさ (oishisa). The reading お only covers the first kanji, but the kanji 美 itself is not read as お in this context. It should be おいしさ for 美味しさ, or if it's just 美, it would be び or み. The current mapping {美|お} is incorrect."
+  ],
+  "confidence": 0.9
+}
