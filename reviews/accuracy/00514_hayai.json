@@ -2,22 +2,15 @@
   "entry_id": "00514_hayai",
   "headword": "{速|はや}い／{早|はや}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:03Z",
+  "reviewed_at": "2026-07-11T15:29:41Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "error",
-      "concern": "The English translation 'Tomorrow is early' is unnatural and doesn't accurately convey the nuance of the Japanese '明日は早いから'.",
-      "suggestion": "Change the English translation to 'I have an early start tomorrow, so I'm going to bed now.' or 'I have to get up early tomorrow, so I'm going to bed now.'"
-    }
-  ]
+  "issues": []
 }
