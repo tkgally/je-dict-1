@@ -493,6 +493,8 @@ unshipped.
 
 **Update 2026-07-10 (fourteenth confirmation — on a genuinely-contaminated band the high raw flag rate is mostly legitimate drift, not noise)**: A 2026-07-10 accuracy-review over the genuinely-contaminated **13350–13549** block flagged **~32%** of entries — above the 20% "noise" line — yet the flag mix inverts the usual reading: the **not-in-list tag flags are high-precision and correct-by-definition** (44 applied as 1:1 migrations, per the §A tag policy), and the reviewer-noise residue was the familiar **`general`-too-broad→narrower in-list** family (~18/200, rejected) plus a few "faithful-translation misread" gloss/translation nits. Net genuine-error rate is well **under** the 20% threshold; the high *raw* rate was mostly legitimate off-vocab tag-drift the run migrated (see [Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration) 2026-07-10), not reviewer over-flagging. This sharpens the standing interpretation: on **already-polished/already-`general`-tagged** ranges a >20% flag rate is the in-list-narrowness noise this item tracks, but on a **genuinely-off-vocab creation batch** the same raw rate is real drift the not-in-list flag catches correctly — the prescription (suppress "too broad against valid in-list tags"; flag only off-list tags + clear category errors) cleanly separates the two, and this run's 44-apply/18-reject split is exactly what the tuned prompt should produce. Fourteenth independent confirmation; prescription unchanged.
 
+**Update 2026-07-12 (sixteenth confirmation — 13725–13874, the two-regime split holds)**: A 2026-07-12 accuracy-review over **13725–13874** flagged **37 of 150 entries (~25%)**, again above the 20% noise line, and the mix was the now-standard two-regime split: the dominant family was the rejected **`general`-too-broad → narrower in-list** narrowness nit (**21 entries**, all REJECTs per the §A policy), plus a **formality-nit false-positive family** on entries whose own notes *support* the `formal` label (the register-note-ignored sub-family, cf. the 2026-07-04 update); the only genuine applies were **4 not-in-list tag migrations** (~11% applicable). Sixteenth independent confirmation; prescription unchanged and now well-worn — suppress "too broad against valid in-list tags," consult the entry's register notes before any formality flag, and flag only off-list tags + clear category errors. (The furigana-screener false positives over this range were again all the model's reading-truncation family — [item 24](#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class).)
+
 ## 18. check_example_headword.py false-positive reduction
 
 **Source**: 2026-06-14/15 routine runs (example-headword-missing systemic-fix lane)
@@ -543,6 +545,8 @@ review queue) sibling to `check_inline_links.py` (proposed in item 11), emitting
 than auto-resolution.
 
 **Update 2026-07-10 (two more stale markers found incidentally in the priority lane — the recurrence keeps confirming the detector's value)**: A 2026-07-10 routine polish priority lane fixed two more stale-`noentry` markers as its only genuine changes among 6 examined mimetic entries — **05766 にやにや** (`noentry` → now 29117) and **05775 もぐもぐ** (a naked もごもご → `noentry`, the mirror case: a base whose entry does not yet exist, harvested as candidate C22280). The observing run explicitly flagged stale `noentry` markers whose referent now has an entry as "a distinct, tractable signal a detector could catch" — an independent restatement of this item's premise. The recurrence pattern is now well-established: these markers surface one or two at a time through incidental polishing, which is exactly why the cheap mechanical self-healing scan (re-resolve every `⟦…：noentry⟧` against `word_id_lookup.json`) would clear them in bulk instead of waiting for a polish run to stumble across each one.
+
+**Update 2026-07-12 (three more stale markers surfaced incidentally in already-"polished" entries — "likely hundreds dictionary-wide")**: A 2026-07-12 routine polish run found **three** more stale `⟦…：noentry⟧` markers whose base now resolves in `word_id_lookup.json`, all in entries that had already been through polishing: **06484 噛み殺す → 29106**, **06731 御影石 → 29109**, and **07006 ビハインド → 29128**. The observing run made the scale estimate explicit — *"likely hundreds dictionary-wide"* — and restated this item's exact premise: a read-only detector that scans example/note `：noentry⟧` markers and reports any whose (surface/base reading) now resolves in `word_id_lookup.json` would convert these into a single cheap systemic-fix batch instead of the current one-or-two-per-run incidental drip. Reinforces the still-unbuilt `check_noentry_links.py` (unambiguous single-ID resolutions auto-swap; ambiguous readings go to the per-entry judgment queue).
 
 ## 20. Notes-priority ranking excludes recently-polished / structurally-passing entries
 
@@ -742,6 +746,8 @@ recency/coverage (or structural-floor) down-weight in `prioritize_polishing.py` 
 **Update 2026-07-09 (forty-first confirmation — richly-structured core adjectives surfaced as "worst notes")**: A 2026-07-09 routine polish run's notes-priority lane (`priority/notes.txt`, gen 2026-07-06) examined 5 eligible entries at lines 100–107 — 05337 映える, 00039 偉い, 01112 辛い, 01133 臭い, 03805 飯 — and found **3 of 5** (映える / 偉い / 臭い) already carrying complete, richly-structured notes needing no change; >half clean forced the §2 regenerate-priorities + cursor-reset backstop. Same diagnosis as the whole item-20 chain: `score_note_quality.py` under-ranks entries whose notes are *already thorough* (structured blocks + inline-link density read as low quality), so the ranking drifts stale relative to actual polishing state. Pure reinforcement — no new mechanism — but notable that the no-op set has moved off the closed basic/core function-word band (が/は/だって/まあ) onto **content adjectives** (偉い/辛い/臭い/映える), showing the scorer defect is not confined to the particle/function template mismatch (scorer-bug #2) but also hits ordinary well-structured adjective notes (scorer-bug #1, the inline-link-baseform bare-kanji miscount). Binding fix unchanged (`score_note_quality.py` scorer-bug pair + structured-note credit + `prioritize_polishing.py` recency/structural-floor down-weight). Forty-first consecutive effectively-no-op priority-lane session.
 
 **Update 2026-07-10 (forty-second confirmation — same no-op set, same-day regeneration proven futile once more, and the genuine gaps are again off-axis)**: A 2026-07-10 routine polish priority lane (`priority/notes.txt` lines 36–83) examined 6 notes-priority entries and found **4 no-op** — 00533 遅い, 00674 涼しい, 03877 曜日, 01003 隣 — all richly-structured, fully-linked basic/core entries the scorer keeps ranking as "worst"; **00533 and 00674 are the identical no-ops the 2026-07-09 run flagged**, directly confirming the 2026-07-09 prediction that regeneration re-ranks these to the top identically (deterministic scorer). The 2 genuine fixes were again **off the axis the notes scorer measures** — both stale-`noentry` markers in mimetic entries (05766 にやにや → 29117, 05775 もぐもぐ → a new candidate), the same "incidental to the ranking" signal as the 2026-07-08 update. The observing run reiterated that regenerate+reset per §2 is a **no-op holding action** and that the durable fix is the `prioritize_polishing.py` down-weight of full-inline-link-coverage + recently-modified entries, not ranking freshness. Forty-second consecutive effectively-no-op priority-lane session; binding fix unchanged (scorer-bug pair + structured-note credit + `prioritize_polishing.py` recency/structural-floor down-weight). The recurring stale-`noentry` hits are filed as reinforcement under [item 19](#19-stale-noentry-inline-link-detector).
+
+**Update 2026-07-12 (forty-fifth/forty-sixth confirmation — the real defects are structural, off the scorer's axis)**: Two routine polish priority lanes reconfirm the pattern and sharpen the "wrong axis" diagnosis. (1) The 2026-07-11 lane examined **7** entries (ない, 速い, 軽い, まあ, 執筆, 一切, 視聴) and found **only 2 real fixes**, *both* of a kind `score_note_quality.py` does not measure: 00514 速い's frozen **conjugation table** (the slash-variant bug now filed as [item 32](#32-add_adjective_conjugationspy-mishandles-slash-variant-i-adjective-headwords)) and 執筆's stale `者：noentry` (者 = 04662_sha — an [item 19](#19-stale-noentry-inline-link-detector) hit); the other 5 were closed-tier/complete no-ops, and the run advanced the cursor past the examined lines rather than regenerate. (2) The 2026-07-12 lane ran **7/7 clean** — 4 needing no change and 3 only incidental stale-`noentry` fixes — which crossed the >half-no-op threshold, so it regenerated priorities + reset the cursor per §2. The through-line both runs draw explicitly: the notes-quality scorer keeps surfacing content-complete basic/core entries as "worst notes," while the genuine defects it does *not* rank are **structural** (a broken conjugation table, stale inline links), not note-length or section-shape — the clearest statement yet that the ranking axis is mismatched to real need. Binding fix unchanged (the `score_note_quality.py` scorer-bug pair + structured-note credit + a `prioritize_polishing.py` recency/structural-floor down-weight). Forty-fifth/forty-sixth consecutive effectively-no-op priority-lane session.
 
 ## 21. Chunk the review/screening runners to fit the session timeout
 
@@ -1245,6 +1251,35 @@ them. Both are small, localized client-side changes and would make the OpenRoute
 review modes reliably bounded under the Routine's time budget. Cross-reference
 [item 13](#13-review_runnerpy-response-parsing-robustness) (per-entry robustness) and
 item 21 (range sizing).
+
+## 32. `add_adjective_conjugations.py` mishandles slash-variant i-adjective headwords
+
+**Source**: 2026-07-11 routine polish run (priority lane, 00514_hayai)
+
+For a slash-variant i-adjective headword like `{速|はや}い／{早|はや}い`,
+`add_adjective_conjugations.py` treats the entire string as a single stem and
+conjugates only the **trailing** variant, leaving the first variant frozen in
+dictionary form across every inflected form (Present-negative / Past / て / ば /
+たら). For example the Past-negative comes out
+`{速|はや}い／{早|はや}くなかった` (first variant un-conjugated) instead of the
+correct `{速|はや}くなかった／{早|はや}くなかった`. Running with `--force`
+reproduces the bug.
+
+**Scope**: only **2** slash-variant i-adjectives exist in the dictionary —
+00475_yasashii (`{優|やさ}しい／{易|やさ}しい`) and 00514_hayai
+(`{速|はや}い／{早|はや}い`) — and **both** carried the frozen-first-variant
+tables. Both were hand-fixed in the 2026-07-11 run, so the current live scope is
+zero. This is filed as a latent-defect / regression-guard item, not a backlog of
+broken entries: any future slash-variant i-adjective created and run through the
+tool would silently inherit the bug, and the conjugation tables are a live-site
+feature.
+
+**Suggested fix**: split the headword on the full-width slash `／`, conjugate each
+variant independently through the existing single-headword path, then rejoin the
+conjugated forms with `／`. Add a regression test covering a two-variant headword
+so the per-variant conjugation is asserted on every form category. (The verb-side
+`add_conjugations.py` should be checked for the same slash-headword assumption if
+any slash-variant verbs exist or are later added.)
 
 ## Related pages
 
