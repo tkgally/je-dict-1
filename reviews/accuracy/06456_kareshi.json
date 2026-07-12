@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T09:25:23Z",
+  "reviewed_at": "2026-07-12T00:30:17Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The word '彼氏' (kareshi) is commonly used in casual to neutral contexts, not formal ones. The 'formal' tag is misleading.",
-      "suggestion": "neutral"
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.politeness",
-      "severity": "error",
-      "concern": "The word '彼氏' (kareshi) is not an honorific term. It is a plain, everyday word for 'boyfriend'.",
-      "suggestion": "plain"
+      "concern": "The semantic tag 'general' is too broad for a specific term like 'boyfriend'.",
+      "suggestion": "person"
     }
   ]
 }
