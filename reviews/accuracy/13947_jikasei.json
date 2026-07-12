@@ -1,0 +1,24 @@
+{
+  "entry_id": "13947_jikasei",
+  "headword": "{自家製|じかせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:29:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword '自家製'. While often applied to food, the word itself means 'homemade' or 'house-made' and can apply to many other items (e.g., crafts, clothes, furniture).",
+      "suggestion": "Replace 'food' with 'general' or 'daily-life'."
+    }
+  ]
+}

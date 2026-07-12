@@ -1,0 +1,24 @@
+{
+  "entry_id": "13929_sakana",
+  "headword": "{肴|さかな}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:29:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword has two distinct senses, only one of which is 'food'. The semantic tag 'food' is too narrow for the headword's full meaning.",
+      "suggestion": "Add 'cognition' or 'communication' to reflect the second sense of the word, or change 'food' to 'general' if a single tag is preferred."
+    }
+  ]
+}

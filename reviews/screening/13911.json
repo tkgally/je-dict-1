@@ -1,0 +1,11 @@
+{
+  "entry_id": "13911",
+  "screened_at": "2026-07-12T12:22:00Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 聴覚 in pair 4 is given as ちょう, but the full reading should be ちょうかく. This is a partial reading, but the instructions state 'Do NOT flag partial readings as errors — they are correct by design.' However, the example given for partial readings is '先行→さきゆ followed by き (先行き=さきゆき)', where the partial reading is for the kanji portion only, and the okurigana follows. In pair 4, the reading 'ちょう' is for '聴覚', and the 'かく' is missing, not an okurigana. This is a truncation of the kanji reading itself, not a split before okurigana. Therefore, it should be flagged.",
+    "The reading for 自然 in pair 7 is given as しぜ, but the full reading should be しぜん. Similar to the previous concern, this is a truncation of the kanji reading itself, not a split before okurigana."
+  ],
+  "confidence": 0.9
+}
