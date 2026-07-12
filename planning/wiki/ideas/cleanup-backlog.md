@@ -378,6 +378,19 @@ canonical headword form. No inline links were touched. Validation stayed clean (
 §4 furigana self-screen: 14 entries submitted, all skipped (kana/loanword/already-polished entries
 carry no ruby to screen), **0 flags**.
 Next ready slice: 10500+ and the larger pre-06000 backlog.
+
+**Update 2026-07-12 (10500–10999 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **22 instances across 9 entries** (`detect` filtered total 1283 → 1262):
+pure-kana katakana/loanword de-wraps (ドア ×2/おでん/おこわ/おはぎ/ディレクター [empty-reading `{X|}`]/
+ヘアバンド/ヘアゴム/ぬかるむ), one o-prefix reposition (`{お菓子|おかし}` → `お{菓子|かし}`), and one
+over-wrapped compound split — `{木の葉|このは}` → `{木|こ}の{葉|は}` across 10668_konoha's headword and
+all examples/notes, plus `{葉っぱ|はっぱ}` → `{葉|は}っぱ`. The 10668 headword rewrap is safe for its three
+inbound inline links (02241_ha, 05985_zawazawa, 00524_ki), which reference it as `→木の葉：10668_konoha`
+and resolve by `entry_id` regardless of the display surface. No inline-link surfaces inside the
+10500–10999 range were touched. Validation stayed clean (500/500 in range). §4 furigana self-screen:
+9 entries submitted, 7 screened, 1 flag **rejected** (10619 model misread 紙芝居's reading; the ruby is
+correct `{紙芝居|かみしばい}` and untouched by the edit), 2 skipped.
+Next ready slice: 11000+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
