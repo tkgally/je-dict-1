@@ -320,3 +320,10 @@ _(2026-07-12 wiki (Routine v2) harvest: processed all 8 loose observations from 
 - **Reinforcement only (no new action)**: the candidate_words.json fallback-pool noise `[pattern]` (transparent compounds 三年前/図書センター/カルシウム不足, phrase fragments, wrong-kanji/dubious glosses 剥れる→はぐれる, アンパッサン="ice cream sundae", proper nouns — ~10 genuine per several-hundred scanned) is the already-filed <10%-signal finding (Tooling item 23 + Open Issues → Candidate list quality); curator restock + `clean_up_candidates_list.md` purge remains the standing recommendation.
 - **Activity A (light sync)**: refreshed `project/overview.md` General-tier count (26,779 tagged `general` + the 20 untiered 29181–29200, of 29,582 total as of 2026-07-12, per `build/audit_tiers.py`). **Activity H (metrics trend) not due**: only 5 new `metrics-history.jsonl` lines (249 total) since the page's seventeenth refresh at 244 runs (threshold ≥10).
 All 8 observations cleared.)_
+
+- [pattern] 2026-07-12 (routine polish 6457-6462): General-tier entries created before the
+  full-notes-inline-linking standard consistently have bare `{漢字|かな}` furigana in notes
+  collocation/pattern/related-terms lists (no ⟦...⟧ links), while their examples are fully linked.
+  Priority "notes" ranking does not surface these (it ranks already-polished basic adjectives at
+  the top). A dedicated detector for "notes contain furigana tokens outside ⟦...⟧" would target this
+  backlog far better than the current notes-priority heuristic. [tooling]
