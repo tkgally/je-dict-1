@@ -2,6 +2,28 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-12] maintenance | Harvest the 8 loose 2026-07-11/12 observations (reinforcements + one new tooling item — Tooling **new item 32** [add_adjective_conjugations.py slash-variant i-adjective bug], item 19 [3 more stale-noentry markers], item 17 [16th confirmation], item 20 [45th/46th no-op]; Cleanup **P21** [band → 06451–06456 + candidates C22295–C22299 + a frontier throughput datum]) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observation lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly (`claude/modest-keller-w27aod`). Branch level with `origin/main`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.9969 unchanged); §5 metrics line appended; **no `make build`** (markdown/JSON-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 8 loose observations from the 2026-07-11 routine polish run (priority lines 5–61 + frontier 06451–06452) and the 2026-07-12 routine polish run (priority lines 63–76 + frontier 06453–06456):
+  - **Tooling new item 32** — `add_adjective_conjugations.py` mishandles **slash-variant i-adjective headwords** (`{速|はや}い／{早|はや}い`): it treats the whole string as one stem and conjugates only the trailing variant, freezing the first variant in dictionary form across every inflected form (`--force` reproduces it). Only 2 slash i-adjectives exist (00475_yasashii, 00514_hayai); both were buggy and hand-fixed in-run → live scope zero, filed as a regression-guard item. Fix: split on `／`, conjugate each variant, rejoin.
+  - **Tooling item 20 update (forty-fifth/forty-sixth no-op)** — the 2026-07-11 lane's 2 real fixes (of 7 examined) were both off the notes-scorer's axis (速い's conjugation table + a stale `者：noentry`); the 2026-07-12 lane ran 7/7 clean and regenerated + reset per §2. Clearest statement yet that the ranking axis (note length/shape) is mismatched to the real defects (structural: conjugation tables, stale links).
+  - **Tooling item 19 update** — three more stale `：noentry` markers in already-polished entries (06484 噛み殺す→29106, 06731 御影石→29109, 07006 ビハインド→29128); observing run estimates "likely hundreds dict-wide" and restates the read-only `check_noentry_links.py` detector as a cheap systemic-fix batch.
+  - **Tooling item 17 update (sixteenth confirmation)** — a 13725–13874 accuracy-review flagged 37/150 ≈25%, dominated by 21 rejected `general`-too-broad in-list nits + formality FPs on entries whose notes support `formal`; only 4 applicable (all not-in-list migrations). Two-regime prescription unchanged.
+  - **Cleanup P21 update** — the zero-inline-link create-era band extends unbroken through **06451–06456** (06451/06452 hand-linked ~22/~19 links, 06453–06456 at the frontier, cursor → next:06457); paired candidate harvest C22295–C22299; **throughput datum** — dense-note 06450s entries are ~15–25 lookups each → ~4–5/run vs 20–25 on partially-linked ranges (frontier budgeting note).
+  - **Reinforcement only (no new action)** — the candidate_words.json fallback-pool `[pattern]` (transparent compounds / phrase fragments / wrong-kanji or dubious glosses / proper nouns; ~10 genuine per several-hundred scanned) is the already-filed <10%-signal finding (Tooling item 23 + Open Issues → Candidate list quality); curator restock + `clean_up_candidates_list.md` purge remains the standing recommendation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,779 tagged `general` + the 20 untiered 29181–29200, of 29,582 total, per `build/audit_tiers.py`).
+
+**Metrics snapshot (§5)**: `pipeline/metrics_snapshot.py --mode wiki --changed 0` appended. **Activity H (metrics trend) not due** — only 5 new `metrics-history.jsonl` lines (249 total) since the seventeenth refresh at 244 runs (threshold ≥10).
+
+**Next**: no new pages (no `index.md` catalog change); all harvested items were incremental updates under existing open backlog entries plus one new tooling item (32). All 8 observations cleared.
+
 ## [2026-07-11] maintenance | Harvest the 9 loose 2026-07-10/11 observations (all reinforcements — Cleanup P21 [band → 06441–06447 + candidates C22281–C22289], P20 [off-list tags 13650–13724, whole 13650–14149 block a check_tag_drift sweep candidate]; Tooling item 17 [15th confirmation], item 20 [43rd/44th no-op], item 21/31 [screener slow/unreliable], item 23 [candidate junk]) + seventeenth metrics refresh + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 13 unharvested observation lines the top signal)
