@@ -1,0 +1,24 @@
+{
+  "entry_id": "13899_bitoku",
+  "headword": "{美徳|びとく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:28:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'values' is not in the valid tag list.",
+      "suggestion": "Replace 'values' with 'general' or 'cognition'."
+    }
+  ]
+}

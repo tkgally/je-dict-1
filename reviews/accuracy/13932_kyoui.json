@@ -1,0 +1,24 @@
+{
+  "entry_id": "13932_kyoui",
+  "headword": "{脅威|きょうい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:29:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a specific meaning like 'threat' or 'menace'.",
+      "suggestion": "Replace 'general' with 'politics' or 'society' or 'existence'."
+    }
+  ]
+}

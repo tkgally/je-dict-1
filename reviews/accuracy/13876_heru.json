@@ -1,0 +1,24 @@
+{
+  "entry_id": "13876_heru",
+  "headword": "{経|へ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:28:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '経る' is not inherently formal. It is a neutral verb that can be used in both formal and informal contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

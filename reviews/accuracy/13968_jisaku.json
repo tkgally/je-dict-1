@@ -1,0 +1,24 @@
+{
+  "entry_id": "13968_jisaku",
+  "headword": "{自作|じさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-12T12:30:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word that specifically means 'self-made' or 'one's own work'.",
+      "suggestion": "action"
+    }
+  ]
+}
