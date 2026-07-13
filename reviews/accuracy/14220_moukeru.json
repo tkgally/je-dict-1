@@ -1,0 +1,24 @@
+{
+  "entry_id": "14220_moukeru",
+  "headword": "{設|もう}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:53:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '設ける' is not inherently formal. It is a neutral verb that can be used in both formal and informal contexts depending on the surrounding language and situation. Labeling it as 'formal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

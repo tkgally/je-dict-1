@@ -1,0 +1,38 @@
+{
+  "entry_id": "14373_shuukan",
+  "headword": "{週刊|しゅうかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:58:47Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'weekly publication' is misleading as 週刊 itself means 'weekly' or 'weekly issue', not necessarily the publication itself. It's often used as an adjective or adverb.",
+      "suggestion": "weekly; weekly issue"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'weekly publication; weekly' is misleading as 週刊 itself means 'weekly' or 'weekly issue', not necessarily the publication itself. It's often used as an adjective or adverb.",
+      "suggestion": "weekly; weekly issue"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'This manga is serialized weekly.' is correct, but the Japanese '週刊連載されている' implies 'serialized in a weekly publication' or 'serialized on a weekly basis', not just 'serialized weekly' in a general sense. The nuance of 'weekly publication' is lost.",
+      "suggestion": "This manga is serialized in a weekly publication."
+    }
+  ]
+}

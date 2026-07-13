@@ -1,0 +1,10 @@
+{
+  "entry_id": "14219",
+  "screened_at": "2026-07-13T15:27:10Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 強 in entry 12 should be づよ, but the provided reading is づよ. This is a partial reading, but the okurigana is missing. The full word is 粘り強く, where 強 is read as づよ. The provided entry is {強|づよ}く, which means 強=づよ, and く is okurigana. This is correct according to the rules. However, the prompt states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" This implies that if the reading is a partial reading, it should be explicitly marked as such, or the okurigana should be outside the markup. In this case, the reading づよ is for 強, and く is okurigana. This is consistent with the example {走|はし}る where 走=はし and る is okurigana. Therefore, this entry is actually correct."
+  ],
+  "confidence": 0.5
+}

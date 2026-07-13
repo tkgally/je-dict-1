@@ -1,0 +1,24 @@
+{
+  "entry_id": "14323_togeru",
+  "headword": "{遂|と}げる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:57:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '遂げる' is not formal. It is a neutral verb.",
+      "suggestion": "neutral"
+    }
+  ]
+}

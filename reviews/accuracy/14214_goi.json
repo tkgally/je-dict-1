@@ -1,0 +1,24 @@
+{
+  "entry_id": "14214_goi",
+  "headword": "{語彙|ごい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:53:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow for 'vocabulary'. While vocabulary is important in education, the word itself is not exclusively an education term.",
+      "suggestion": "Replace 'education' with 'language' or 'cognition' or 'general'."
+    }
+  ]
+}

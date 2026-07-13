@@ -1,0 +1,31 @@
+{
+  "entry_id": "14333_gyakusatsu",
+  "headword": "{虐殺|ぎゃくさつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:57:27Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with such a specific and grave meaning.",
+      "suggestion": "Replace 'general' with 'society' or 'politics' or 'history' or 'law' or 'action'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation uses 'mass slaughter' for '大量虐殺', which is more accurately translated as 'genocide'. The gloss already includes 'genocide' as a meaning for 虐殺.",
+      "suggestion": "Change 'mass slaughter' to 'genocide' in the English translation for example 2."
+    }
+  ]
+}

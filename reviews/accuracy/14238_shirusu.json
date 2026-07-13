@@ -1,0 +1,24 @@
+{
+  "entry_id": "14238_shirusu",
+  "headword": "{記|しる}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:54:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '記す' is not 'formal' in its formality. It is a standard, neutral verb for 'to write down' or 'to record', often used in written contexts but not inherently formal in the way keigo or highly specialized vocabulary would be.",
+      "suggestion": "neutral"
+    }
+  ]
+}
