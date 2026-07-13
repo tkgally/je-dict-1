@@ -1,0 +1,24 @@
+{
+  "entry_id": "14289_nokinami",
+  "headword": "{軒並|のきな}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:56:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'quantity' is incorrect for the headword '軒並み'. While it can imply 'all' or 'without exception', its core meaning is not about numerical quantity but rather about the manner or extent of something happening to all items in a group, or a physical arrangement of items.",
+      "suggestion": "Replace 'quantity' with 'descriptive' or 'expression'."
+    }
+  ]
+}

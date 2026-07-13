@@ -1,0 +1,10 @@
+{
+  "entry_id": "14328",
+  "screened_at": "2026-07-13T15:41:40Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for \"連\" is given as \"れん\", which is correct. However, the reading for \"日\" is given as \"じつ\", which is also correct in isolation, but when combined as \"連日\", the reading is \"れんじつ\". The dictionary entry itself provides the correct combined reading {連日|れんじつ}. The individual readings \"れん\" for \"連\" and \"じつ\" for \"日\" are correct, but the way they are presented in items 10 and 11 suggests they are individual components of the word \"連日\" being read separately, which is not an error in itself, but the prompt asks to check kanji-reading mappings. The mapping for \"連日\" as a whole is correct in item 1. The individual mappings for \"連\" and \"日\" are also correct. This is not an error."
+  ],
+  "confidence": 0.8
+}

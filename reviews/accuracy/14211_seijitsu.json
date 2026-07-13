@@ -1,0 +1,24 @@
+{
+  "entry_id": "14211_seijitsu",
+  "headword": "{誠実|せいじつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:53:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'descriptive' is too general for a word describing a personal quality. A more specific tag exists.",
+      "suggestion": "personality"
+    }
+  ]
+}

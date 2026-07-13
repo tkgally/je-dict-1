@@ -1,0 +1,24 @@
+{
+  "entry_id": "14244_gobi",
+  "headword": "{語尾|ごび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-13T15:54:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow and potentially misleading for '語尾'. While '語尾' is taught in education, its core meaning is a linguistic concept.",
+      "suggestion": "language"
+    }
+  ]
+}
