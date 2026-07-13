@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-11
+**Last updated**: 2026-07-13
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,12 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-13 (Routine v2: new-entries — 15 New Entries, IDs 29804–29818)
+Created 15 general-tier entries. The **8 "seen in entry" candidates** (C22312–C22319, cited from entries 00788, 06463–06465, 06470, 29796) were created first — internal-completeness gaps the dictionary already referenced: {抄本|しょうほん} (abstract copy of a register; legal, counterpart of {謄本|とうほん}), {八重|やえ} (multi-petaled/multi-layered) and {八重桜|やえざくら} (double cherry blossom), {奥二重|おくぶたえ} (inner double eyelid; the 一重/二重 eyelid cluster), {汚|きたな}らしい (filthy, grimy; intensified 汚い, previously a `noentry` inline-link target in 00788), and three gaming/youth-slang terms — チルする (to chill; suru), エンジョイ{勢|ぜい} (casual player; counterpart of ガチ勢), {重課金勢|じゅうかきんぜい} (heavy spender/"whale"). This **cleared the seen-in-entry queue**. The other 7 are hand-picked genuine standalone lexemes: {三桁|さんけた} (three-digit number), {融雪|ゆうせつ} (snowmelt/thaw), {写|うつ}り{具合|ぐあい} (how a photo comes out), {数台|すうだい} (several vehicles/machines; the 数〜 pattern), シャッター{通|どお}り (shuttered shopping street), {洗浄剤|せんじょうざい} (cleaning agent), {資料室|しりょうしつ} (reference/archive room). Conjugation tables added to the 1 new suru-verb and 1 new i-adjective; no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. Added {微課金|びかきん}, {数回|すうかい}, むさ{苦|くる}しい as referenced-but-missing candidates. The old corpus-harvested candidate block remains heavily polluted with OCR/hallucination non-words; logged a `[pattern]` observation recommending a cleanup pass.
+
+- **Seen-in-entry priority (8)**: {抄本|しょうほん} (abstract copy; legal), {八重|やえ} (multi-petaled), {八重桜|やえざくら} (double cherry blossom), {奥二重|おくぶたえ} (inner double eyelid), {汚|きたな}らしい (filthy; adj-i), チルする (to chill; slang suru), エンジョイ{勢|ぜい} (casual player; slang), {重課金勢|じゅうかきんぜい} (heavy spender; slang)
+- **Standalone lexemes (7)**: {三桁|さんけた} (three digits), {融雪|ゆうせつ} (snowmelt), {写|うつ}り{具合|ぐあい} (photographic result), {数台|すうだい} (several machines), シャッター{通|どお}り (shuttered street), {洗浄剤|せんじょうざい} (cleaning agent), {資料室|しりょうしつ} (reference room)
+
 ### 2026-07-12 (Routine v2: new-entries — 12 New Entries, IDs 29792–29803)
 Created 12 general-tier entries, **all 12 from the "seen in entry" priority queue** (candidates C22300–C22311, cited from entries 06453–06460) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. Two clusters plus a tail: a fire-safety set (from 06454 {消防署|しょうぼうしょ}) — {消防隊員|しょうぼうたいいん} (firefighter), {消火栓|しょうかせん} (fire hydrant), {消防団|しょうぼうだん} (volunteer fire corps); and mutual/relationship verbs — {付|つ}き{合|あ}い{始|はじ}める (to start dating; ichidan), {送|おく}り{合|あ}う (to send to each other; godan). Plus standalone lexemes: チームメンバー (team member), {謄本|とうほん} (certified copy of a register; legal), {国際化|こくさいか} (internationalization; suru), {暗中|あんちゅう} (in the dark; literary, from 暗中模索), {名実|めいじつ} (name and reality; from 有名無実), {化|か}す (to turn into; literary godan variant of 化する), {非|ひ}リア (person without a fulfilling real life; internet slang, antonym of リア充). Conjugation tables added to the 4 new verbs (1 ichidan, 2 godan, 1 suru); no i-adjectives, no new kanji. §4 cross-model self-check on all 12 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0052. Added {抄本|しょうほん} (abstract copy) as a referenced-but-missing candidate. The seen-in-entry queue is empty again and awaits curator/polish restock.
 
@@ -79,19 +85,3 @@ Created 15 general-tier entries, all from the high-priority "seen in entry" pool
 - **Streaming/social media (5)**: フィード (feed), ネットショッピング (online shopping; suru), スーパーチャット (Super Chat), スパチャ (Super Chat; abbreviation; suru), マネージャー (manager)
 - **Everyday nouns/mimetic (6)**: もごもご (mumbling; mimetic), ひび{割|わ}れ (crack; chapping), {足|あし}の{甲|こう} (instep), {仕訳|しわけ} (journal entry; accounting; suru), {大道芸人|だいどうげいにん} (street performer), ギターケース (guitar case)
 
-### 2026-07-09 (Routine v2: new-entries — 12 New Entries, IDs 29735–29746)
-Created 12 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22259–C22270, cited from entries 06433–06437 and 29724) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (12 candidates). Two coherent clusters: a nuclear/hydro energy set ({調湿|ちょうしつ}, {再稼働|さいかどう}, {廃炉|はいろ}, {揚水|ようすい}, siblings of {原子力|げんしりょく}/{水力|すいりょく}) and an arm-anatomy/fitness set ({上腕|じょうわん}, {前腕|ぜんわん}, たるみ, エクササイズ, ダンベル, cited from {二|に}の{腕|うで} 06437), plus {乱舞|らんぶ} and {有頂天|うちょうてん}/{慨嘆|がいたん} (emotion siblings of {狂喜|きょうき}). Conjugation tables added to the 6 new suru-verbs; no i-adjectives, no new kanji. §4 cross-model self-check on all 12 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0052. Added バーベル, 加湿, 鉄アレイ, and 上腕二頭筋 as referenced-but-missing candidates. The non-"seen in entry" candidate tail remains heavily contaminated (transparent compounds, numeral+counter combos, phrase fragments, dubious coinages), so no padding from the oldest queue; logged a `[pattern]` observation.
-
-- **Nuclear/hydro energy (4)**: {調湿|ちょうしつ} (humidity regulation; suru), {再稼働|さいかどう} (restart of a plant/reactor; suru), {廃炉|はいろ} (reactor decommissioning), {揚水|ようすい} (pumping water up; pumped storage; suru)
-- **Arm anatomy/fitness (5)**: {上腕|じょうわん} (upper arm; anatomical), {前腕|ぜんわん} (forearm), たるみ (sagging; slack; flab), エクササイズ (exercise; workout; suru), ダンベル (dumbbell)
-- **Emotion/movement (3)**: {乱舞|らんぶ} (wild dancing; whirling; suru), {有頂天|うちょうてん} (ecstasy; being on cloud nine), {慨嘆|がいたん} (lamentation; deploring; formal, suru)
-
-### 2026-07-09 (Routine v2: new-entries — 15 New Entries, IDs 29720–29734)
-Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22244–C22258, cited from entries 06427–06432) — internal-completeness gaps referenced by existing entries in the energy/insulation and agriculture domains. This **cleared the entire remaining seen-in-entry queue** (15 candidates). Coherent clusters: home-insulation materials (グラスウール, ウレタンフォーム, セルロースファイバー, plus {遮熱|しゃねつ} and {冷暖房費|れいだんぼうひ}, siblings of {断熱|だんねつ}), agricultural water ({用水|ようすい}, {溜|た}め{池|いけ}, {水利|すいり}, siblings of {灌漑|かんがい}), crop/structural pests (シロアリ, アブラムシ, ウンカ, siblings of {害虫|がいちゅう}), and renewable-energy terms ({発電機|はつでんき}, {洋上|ようじょう}, クリーン). No verbs or i-adjectives, so no conjugation tables; no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. Added 調湿 (ちょうしつ) as a new candidate (referenced in a note but not yet an entry). The non-"seen in entry" candidate tail remains heavily contaminated (rare coinages, dubious readings, proper nouns), so no padding from the oldest queue.
-
-- **Insulation/energy-saving (5)**: {冷暖房費|れいだんぼうひ} (heating and cooling costs), {遮熱|しゃねつ} (heat shielding), グラスウール (glass wool), ウレタンフォーム (urethane foam), セルロースファイバー (cellulose fiber)
-- **Agricultural water (3)**: {用水|ようすい} (service/irrigation water), {溜|た}め{池|いけ} (reservoir pond), {水利|すいり} (water use/rights)
-- **Pests (3)**: シロアリ (termite), アブラムシ (aphid), ウンカ (planthopper)
-- **Health/energy (4)**: {伝染病|でんせんびょう} (infectious disease), {発電機|はつでんき} (generator), {洋上|ようじょう} (on the open sea; offshore), クリーン (clean; na-adjective)
-
-_(Older change logs are in [PROJECT_STATUS-archive.md](PROJECT_STATUS-archive.md).)_
