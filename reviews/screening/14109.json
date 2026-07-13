@@ -1,0 +1,10 @@
+{
+  "entry_id": "14109",
+  "screened_at": "2026-07-13T03:33:02Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 要領 is given as {kanji|reading} (reading), but the provided example {kanji|reading}okurigana implies that the reading should only cover the kanji portion. In this case, 要領 is a noun and has no okurigana, so the reading ようりょう should be fully contained within the curly braces. The entry {要領|ようりょう} (ようりょう) is redundant in its current format, as the reading outside the braces is identical to the reading inside. If the intent is to show the full reading of the word, then the format should be consistent. However, based on the provided example {走|はし}る, the reading inside the braces should be the complete reading for the kanji portion. Therefore, {要領|ようりょう} is correct for the kanji portion."
+  ],
+  "confidence": 0.7
+}
