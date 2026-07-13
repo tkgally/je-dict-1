@@ -391,6 +391,22 @@ and resolve by `entry_id` regardless of the display surface. No inline-link surf
 9 entries submitted, 7 screened, 1 flag **rejected** (10619 model misread 紙芝居's reading; the ruby is
 correct `{紙芝居|かみしばい}` and untouched by the edit), 2 skipped.
 Next ready slice: 11000+ and the larger pre-06000 backlog.
+
+**Update 2026-07-13 (11000–12999 slice swept)**: A routine systemic-fix run worked the next
+scoped slice per-entry, fixing **32 instances across 31 entries** (`detect` filtered total 1262 → 1230).
+The 11000–12999 band is sparse (density had dropped to ~5–10 flags per 500-ID block), so the run took a
+2,000-ID slice to reach a batch comparable to earlier 500-ID sweeps. Fixes: pure-kana katakana/loanword
+de-wraps (クリア/チェーン/プライバシー/ストレス/エース/レスラー), pure-kana hiragana de-wraps
+(おもてなし/なす/こだわり/おいしい/まるで/もてなし/すぐ), numeral/symbol de-wraps (`{１|いち}` → １,
+`{30|さんじゅう}` → 30, `{＆|あんど}` → ＆), o/go-prefix repositions (`お{弁当|べんとう}`, `お{坊|ぼう}`,
+`お{七夜|しちや}`, `お{盆|ぼん}`, `お{願|ねが}`, `お{化|ば}`), and over-wrapped okurigana/compound splits
+(`{連|つ}れ{合|あ}い`, `{鯉|こい}のぼり`, `{入|い}り{交|ま}じる`, `{交|ま}じる`, `{付|つ}け{根|ね}`,
+`まさに{地獄|じごく}`, `{幼|おさな}なじみ`, `ほうれん{草|そう}`, `{当|あ}て{字|じ}`). No inline-link
+surfaces touched; every fix preserves the display surface, so `word_id_lookup.json` keys are unaffected.
+Validation stayed clean (1999/1999 in range). §4 furigana self-screen: all 31 entries screened across two
+passes (the runner hit its 2-min wall-clock twice but wrote per-entry results each time — a recurring
+`[tooling]` friction), **0 flags**.
+Next ready slice: 13000+ and the larger pre-06000 backlog.
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
