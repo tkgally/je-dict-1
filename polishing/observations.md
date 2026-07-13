@@ -327,3 +327,5 @@ All 8 observations cleared.)_
   Priority "notes" ranking does not surface these (it ranks already-polished basic adjectives at
   the top). A dedicated detector for "notes contain furigana tokens outside ⟦...⟧" would target this
   backlog far better than the current notes-priority heuristic. [tooling]
+
+- [tooling] score_note_quality.py `has_bare_kanji` strips furigana `{漢|かん}` but not inline-link base forms `⟦{犬|いぬ}→犬：id⟧`, so the base-form kanji after `→` counts as "bare kanji" → any note with inline links loses the 5-pt furigana credit (false positive). This inflates the `notes` priority ranking with already-clean entries (00335, 00464, 00617 seen 2026-07-13). Fix: strip `⟦…⟧` link markup before the bare-kanji test, or test only the surface (pre-`→`) segment. (seen while polishing basic i-adjectives)
