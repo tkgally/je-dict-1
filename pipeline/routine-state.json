@@ -1,17 +1,13 @@
 {
   "_doc": "Auto-managed by pipeline/routine_next.py. Do not hand-edit.",
   "debt": {
-    "polish": -0.31,
-    "systemic-fix": -0.24,
-    "accuracy-review": 0.525,
-    "new-entries": -0.145,
-    "wiki": 0.17
+    "polish": 0.04,
+    "systemic-fix": -0.14,
+    "accuracy-review": -0.27,
+    "new-entries": 0.05,
+    "wiki": 0.32
   },
   "history": [
-    {
-      "at": "2026-07-10T06:16:31+00:00",
-      "mode": "wiki"
-    },
     {
       "at": "2026-07-10T09:16:41+00:00",
       "mode": "polish"
@@ -87,11 +83,16 @@
     {
       "at": "2026-07-13T02:09:18+00:00",
       "mode": "polish"
+    },
+    {
+      "at": "2026-07-13T03:16:43+00:00",
+      "mode": "accuracy-review"
     }
   ],
-  "last_run_mode": "polish",
+  "last_run_mode": "accuracy-review",
   "day_tally": {
     "date": "2026-07-13",
-    "polish": 1
+    "polish": 1,
+    "accuracy-review": 1
   }
 }

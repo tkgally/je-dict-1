@@ -329,3 +329,6 @@ All 8 observations cleared.)_
   backlog far better than the current notes-priority heuristic. [tooling]
 
 - [tooling] score_note_quality.py `has_bare_kanji` strips furigana `{漢|かん}` but not inline-link base forms `⟦{犬|いぬ}→犬：id⟧`, so the base-form kanji after `→` counts as "bare kanji" → any note with inline links loses the 5-pt furigana credit (false positive). This inflates the `notes` priority ranking with already-clean entries (00335, 00464, 00617 seen 2026-07-13). Fix: strip `⟦…⟧` link markup before the bare-kanji test, or test only the surface (pre-`→`) segment. (seen while polishing basic i-adjectives)
+
+- [tooling] review_runner.py screening pass timed out at 25 min on a 526-entry range (13975–14500), completing only 214 entries (13975–14186) before SIGTERM. Consider a smaller default range (~200) or per-entry timeout/checkpointing for the screening pass so a Routine run reliably finishes its OpenRouter budget. Partial results were kept and adjudicated per §A resilience.
+- [pattern] Furigana screening precision on already-polished range 13975–14186 was ~1/22 flagged entries genuine (~4.5%), matching the documented 0–5% on polished ranges (reviews/calibration_report.md). Only genuine error: 14102 いしょ→いしょう in 衣装替え. All others were partial-reading extraction artifacts, compound rendaku (14020 茶屋/ぢゃや), or model misreads (14488 already correct ござん).
