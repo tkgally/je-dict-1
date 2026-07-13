@@ -2,6 +2,27 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-13] maintenance | Harvest the 4 loose 2026-07-12/13 observations (all reinforcements — Cleanup **P21** [band → 06457–06462, gap now characterized as notes-only]; Tooling item 15 [notes-outside-⟦⟧ detector, the highest-signal generalization], item 20 [scorer-bug #1 on 00335/00464/00617], item 21 [9th truncation, 526-ID screen killed at 214], item 24 [~4.5% screener precision on 13975–14186]) + **eighteenth metrics refresh** + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observation lines / highest scheduler debt the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Branch `claude/modest-keller-t44r83` reset to `origin/main` (its prior PR was already merged; 0 commits ahead). Lock acquired cleanly.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.8886 unchanged); §5 metrics line appended; **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 4 loose observations from the 2026-07-12 routine polish run (frontier 06457–06462) and the 2026-07-12/13 accuracy-review furigana runs, all reinforcements of already-filed patterns:
+  - **Cleanup P21 update + Tooling item 15 update** — the create-era inline-link gap sharpened to **notes-only** (examples fully linked, notes glossaries carry bare `{漢字|かな}` furigana with no `⟦...⟧`); band now unbroken ~06150→06462. Filed the embedded detector idea to item 15 as the highest-signal generalization of its option-2 standalone detector ("`notes` field contains a `{…|…}` token outside `⟦…⟧`") — the single highest-leverage unblock for both P21 (`batch_ready:false→true`) and the item-20 notes-ranking no-op loop.
+  - **Tooling item 20 update** — scorer-bug #1 (`has_bare_kanji` miscounts inline-link base forms as bare kanji → inline-link-dense notes lose the furigana credit and rank as "worst") reproduced on three fresh basic-i-adjective IDs (00335, 00464, 00617); pure reinforcement.
+  - **Tooling item 21 update (ninth truncation-class)** — a 526-ID furigana screen (13975–14500) SIGTERM-killed at 214/526 after 25 min (~9 entries/min); partial results kept, cursor → 14186; reconfirms the ~150–200-ID sizing.
+  - **Tooling item 24 update** — furigana-screener precision on the already-polished 13975–14186 ran ~4.5% (1/22 genuine, only 14102 衣装替え いしょ→いしょう applied), matching the documented calibration figure; the rest the truncation/rendaku/misread FP family.
+- **[H] Metrics trend — eighteenth refresh** of `topics/quality-metrics.md` (12 new lines, 244→256 runs / ~7,244 adjudicated flags): escalation-light steady state holds (runs 245–256 escalated **1** — the 13843 ungrammatical-example translation flag → curator); `tags` apply-among-decided fell to **25.8%** (17/66) as the window's accuracy sweeps re-worked the already-reviewed 13725–14186 bands (residual flags dominated by the standing in-list `general`-too-broad narrowness noise); furigana screening returned to documented polished-range precision (3/38 ≈8%); review queue set a new floor at **13,632**; detectors 2026-07-13 `furigana_format` 1,263 / `artifacts` 13 / `tag_drift` unknown-semantic 7,677 across 6,268 entries. No metric moving the wrong way → no new `[pattern]` observation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,791 tagged `general` + the 20 untiered 29181–29200, of 29,594 total, per `build/audit_tiers.py`).
+
+**Metrics snapshot (§5)**: `pipeline/metrics_snapshot.py --mode wiki --changed 0` appended.
+
+**Next**: no new pages (no `index.md` catalog change); all harvested items were incremental updates under existing open backlog entries with unchanged status/batch-readiness (no `backlog-queue.json` edit needed). All 4 observations cleared.
+
 ## [2026-07-12] maintenance | Harvest the 8 loose 2026-07-11/12 observations (reinforcements + one new tooling item — Tooling **new item 32** [add_adjective_conjugations.py slash-variant i-adjective bug], item 19 [3 more stale-noentry markers], item 17 [16th confirmation], item 20 [45th/46th no-op]; Cleanup **P21** [band → 06451–06456 + candidates C22295–C22299 + a frontier throughput datum]) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observation lines the top signal)

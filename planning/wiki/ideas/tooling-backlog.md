@@ -351,6 +351,22 @@ so the systemic-fix mode can work through the queue per-entry.
 **Impact**: Would quantify the scope of Cleanup Backlog P21 and convert it from
 `batch_ready:false` to `batch_ready:true` once the detector exists.
 
+**Update 2026-07-13 (the highest-signal generalization: "furigana tokens outside `⟦…⟧` in the `notes` field")**:
+A 2026-07-12 routine polish run (frontier 06457–06462) sharpened both the target and the query for
+option 2's standalone detector. The residual create-era gap above the polish frontier is specifically a
+**notes-field** link gap — the entries' *example* sentences are fully linked, but their notes glossaries
+(collocation / pattern / related-terms lists) still carry **bare `{漢字|かな}` furigana with no `⟦...⟧`
+wrappers** (see Cleanup P21 update 2026-07-13). The observing run's proposed query is therefore the most
+direct form of this detector: **flag any `notes` field containing a furigana token `{…|…}` that is not
+inside a `⟦…⟧` inline link** (regex like `(?<!⟦[^⟧]*)\{[^}|]+\|[^}]+\}` restricted to the `notes` string,
+or simpler: strip all `⟦…⟧` spans first, then look for any surviving `{…|…}`). This is broader than the
+自動詞/他動詞-label slice above (it catches all unlinked content words in notes, the dominant P21 residue)
+and is the query the notes-priority ranking has repeatedly *failed* to surface (Tooling item 20): a
+dedicated "notes contain furigana outside `⟦…⟧`" detector would target the P21 backlog far better than the
+`score_note_quality.py` heuristic, which keeps ranking already-polished basic adjectives at the top instead.
+Building this detector is the single highest-leverage unblock for both P21 (`batch_ready:false → true`) and
+the item-20 no-op loop (it replaces the mis-firing notes ranking for the frontier-link backlog).
+
 ## 16. UTF-8 replacement-character repair script for corrupted furigana wrappers
 
 **SHIPPED (2026-06-15)** — `build/check_mojibake.py` is built (read-only; `--json`,
@@ -749,6 +765,20 @@ recency/coverage (or structural-floor) down-weight in `prioritize_polishing.py` 
 
 **Update 2026-07-12 (forty-fifth/forty-sixth confirmation — the real defects are structural, off the scorer's axis)**: Two routine polish priority lanes reconfirm the pattern and sharpen the "wrong axis" diagnosis. (1) The 2026-07-11 lane examined **7** entries (ない, 速い, 軽い, まあ, 執筆, 一切, 視聴) and found **only 2 real fixes**, *both* of a kind `score_note_quality.py` does not measure: 00514 速い's frozen **conjugation table** (the slash-variant bug now filed as [item 32](#32-add_adjective_conjugationspy-mishandles-slash-variant-i-adjective-headwords)) and 執筆's stale `者：noentry` (者 = 04662_sha — an [item 19](#19-stale-noentry-inline-link-detector) hit); the other 5 were closed-tier/complete no-ops, and the run advanced the cursor past the examined lines rather than regenerate. (2) The 2026-07-12 lane ran **7/7 clean** — 4 needing no change and 3 only incidental stale-`noentry` fixes — which crossed the >half-no-op threshold, so it regenerated priorities + reset the cursor per §2. The through-line both runs draw explicitly: the notes-quality scorer keeps surfacing content-complete basic/core entries as "worst notes," while the genuine defects it does *not* rank are **structural** (a broken conjugation table, stale inline links), not note-length or section-shape — the clearest statement yet that the ranking axis is mismatched to real need. Binding fix unchanged (the `score_note_quality.py` scorer-bug pair + structured-note credit + a `prioritize_polishing.py` recency/structural-floor down-weight). Forty-fifth/forty-sixth consecutive effectively-no-op priority-lane session.
 
+**Update 2026-07-13 (scorer-bug #1 reproduced with three fresh entry IDs)**: A 2026-07-13 routine polish
+run polishing basic i-adjectives named **00335, 00464, 00617** as concrete instances where the
+`priority/notes.txt` ranking surfaced **already-clean** entries: `score_note_quality.py`'s `has_bare_kanji`
+strips furigana `{漢|かん}` but **not** inline-link base forms `⟦{犬|いぬ}→犬：id⟧`, so the base-form kanji
+after the `→` is counted as "bare kanji," costing any note that contains inline links the 5-point furigana
+credit (a false positive) and inflating its worst-first rank. This is the exact scorer-bug #1 filed in the
+2026-06-18 / 2026-07-04 updates, now with three more reproductions on ordinary basic-adjective notes. The
+minimal fix is unchanged and precise: **strip `⟦…⟧` link markup (or test only the pre-`→` surface segment)
+before the bare-kanji test.** No new mechanism — pure reinforcement that scorer-bug #1, not recency, keeps
+inline-link-dense notes at the top of the ranking. Binding fix unchanged (the `score_note_quality.py`
+scorer-bug pair + structured-note credit + the `prioritize_polishing.py` recency/structural-floor
+down-weight). See also the item-15 update 2026-07-13: a dedicated "notes contain furigana outside `⟦…⟧`"
+detector would replace this mis-firing ranking for the frontier-link backlog it is meant to surface.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -827,6 +857,8 @@ batching/concurrency (option b/d) the durable one if furigana screening is to co
 **Update 2026-06-28 (seventh confirmation — combined screening+deep over a full directory exceeds one run's wall budget)**: A 2026-06-27 routine accuracy-review observation reconfirmed the wall-clock bound from the other direction: `build/review_runner.py`'s screening + deep furigana passes run at roughly **160 entries / ~20 min**, which exceeds the Routine's per-step wall-clock and times out mid-pass when a run tries to cover a full ~450-entry directory in one invocation. Same binding constraint (serial per-entry gemini-2.5-flash latency), same prescription — size a single furigana invocation to the budget (≤~100–200 IDs/run per the 2026-06-26 tightening) or add internal batching/concurrency; consider a faster screening model so a single run can finish furigana over a whole directory. Seventh confirmed truncation-class observation in roughly a month.
 
 **Update 2026-07-03 (eighth confirmation — ~9 entries/min reconfirmed; ≤~150 IDs/run)**: A 2026-07-02 routine furigana screening (`review_runner.py --pass screening`) over the **11766–11893** direction processed at roughly **9 entries/min** and **overran the 900 s (15-min) run wrapper at ~126 entries**, the eighth confirmed truncation-class observation in about six weeks. Per-entry results for the covered IDs were kept. The observing run's prescription is **size furigana screening ranges to ~150 IDs per run** so the pass completes cleanly rather than being SIGTERM-killed — consistent with the standing ≤~100–200 ID band (the exact cap tracks the wall budget a given run receives). Same binding constraint (serial per-entry gemini-2.5-flash latency), same two fixes — size the range to the budget (smallest fix) or add internal batching/concurrency (durable fix), plus a faster screening model as the durable way to cover a whole directory in one run.
+
+**Update 2026-07-13 (ninth confirmation — a 526-ID screen SIGTERM-killed at 214/526 after 25 min)**: A 2026-07-12 accuracy-review furigana screening pass over **13975–14500 (526 IDs)** was killed by the run wrapper at **25 min having completed only 214 entries (13975–14186)**, the ninth truncation-class observation in about seven weeks. Per §A resilience the 214 covered results were kept and adjudicated (the range's cursor advanced only to 14186). At the observed ~9 entries/min this is the same serial per-entry latency, and the prescription is unchanged: **size a single furigana screening invocation to ~150–200 IDs** (the exact cap tracks the wall budget a run receives) or add per-entry timeout/checkpointing + internal batching/concurrency so a Routine run reliably spends its OpenRouter budget instead of being SIGTERM-killed mid-pass. A faster/cheaper screening model remains the durable way to cover a whole directory in one run.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -1019,6 +1051,8 @@ shown the reading cut off mid-word), now observed on a *never-reviewed* range ra
 not range-state-dependent — it is a pure `review_runner.py` context-extraction defect. Reinforces the unchanged
 fix: **send the example/reading fields to the screener untruncated (or truncate only at furigana-pair
 boundaries)**, which would erase this dominant noise family on every range without any model change.
+
+**Update 2026-07-13 (~4.5% precision reconfirmed on the already-polished 13975–14186; the one true positive was a genuine reading error, not a grouping/charset defect)**: A 2026-07-12 furigana screening pass over **13975–14186** (the completed slice of the truncated 13975–14500 screen, see item 21) flagged **~22 entries with only 1 genuine** (~4.5% precision), matching the documented **0–5% on already-polished ranges** (`reviews/calibration_report.md`). The sole real error was **14102 いしょ→いしょう** in 衣装替え (an incomplete/incorrect reading, applied in-run); every other flag was the standing FP family — the runner's pair-extraction reading-truncation artifact, compound rendaku (14020 茶屋/ぢゃや), or a model misread of a correct wrapper (14488 ござん). Pure reinforcement of the calibration figure and of both this item's theses: (a) the truncation FP family is range-state-independent and would be erased by sending untruncated fields, and (b) on a polished range the screener's entire net value was again a single hit — here a reading error rather than the item-16/charset or grouping classes — underscoring that the deterministic charset/grouping lints proposed above would leave only the genuine-reading-error residue for the (expensive) model, which should be reserved for never-reviewed ranges.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
