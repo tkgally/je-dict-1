@@ -1,0 +1,24 @@
+{
+  "entry_id": "14982_shitauchi",
+  "headword": "{舌打|したう}ち",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:58:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for the headword '舌打ち'. '舌打ち' refers to the action of clicking one's tongue, not the body part itself.",
+      "suggestion": "Remove 'body-part'."
+    }
+  ]
+}

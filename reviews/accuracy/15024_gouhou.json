@@ -1,0 +1,24 @@
+{
+  "entry_id": "15024_gouhou",
+  "headword": "{合法|ごうほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:02:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with a specific legal meaning.",
+      "suggestion": "law"
+    }
+  ]
+}

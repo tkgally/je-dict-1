@@ -1,0 +1,24 @@
+{
+  "entry_id": "14969_dokushinsha",
+  "headword": "{独身者|どくしんしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:58:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 独身者. While it's not informal, 'neutral' is a more accurate description for this common term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

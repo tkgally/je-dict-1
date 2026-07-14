@@ -1,0 +1,10 @@
+{
+  "entry_id": "15053",
+  "screened_at": "2026-07-14T15:45:51Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 燃焼 is {燃焼|ねんしょう} (ねんしょう). The furigana ねんしょう correctly maps to 燃焼. However, the example provided in the prompt is {燃焼|ねんしょう} (ねんしょう) — noun, suru verb. This implies that the reading for 燃焼 is ねんしょう, which is correct. But then in pair 11, it says {燃焼|ね} which is a partial reading. This is not an error according to the rules, but it is inconsistent with the full reading provided in the entry. However, the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, I will not flag this as an error."
+  ],
+  "confidence": 0.9
+}

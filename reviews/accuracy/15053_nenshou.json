@@ -1,0 +1,24 @@
+{
+  "entry_id": "15053_nenshou",
+  "headword": "{燃焼|ねんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:03:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with clear scientific and physical meanings.",
+      "suggestion": "Replace 'general' with 'science' and 'health'."
+    }
+  ]
+}

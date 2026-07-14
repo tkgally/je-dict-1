@@ -1,0 +1,24 @@
+{
+  "entry_id": "15083_moratoriamu",
+  "headword": "モラトリアム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:04:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'モラトリアム' is a loanword from English and is commonly used in both formal and informal contexts in Japanese, especially in the psychological sense. Labeling it as 'formal' is misleading as it implies a restricted usage that doesn't fully reflect its commonality.",
+      "suggestion": "neutral"
+    }
+  ]
+}

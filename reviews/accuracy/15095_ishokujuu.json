@@ -1,0 +1,24 @@
+{
+  "entry_id": "15095_ishokujuu",
+  "headword": "{衣食住|いしょくじゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:04:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'daily life' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

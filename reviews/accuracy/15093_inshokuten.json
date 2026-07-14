@@ -1,0 +1,24 @@
+{
+  "entry_id": "15093_inshokuten",
+  "headword": "{飲食店|いんしょくてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:04:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 飲食店. It is a neutral, everyday term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

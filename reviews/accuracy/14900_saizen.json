@@ -1,0 +1,24 @@
+{
+  "entry_id": "14900_saizen",
+  "headword": "{最善|さいぜん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:55:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general and doesn't accurately capture the meaning of '最善'.",
+      "suggestion": "Replace 'descriptive' with 'evaluation' or 'abstract'."
+    }
+  ]
+}

@@ -3006,3 +3006,12 @@
 {"ts":"2026-07-14T06:30:53Z","entry":"29835","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"daily-life in-list; narrowness nit"}
 {"ts":"2026-07-14T06:30:53Z","entry":"29837","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"food apt for food additive; narrowness nit"}
 {"ts":"2026-07-14T12:31:00Z","entry":"06486","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"general->body-part; ankle, matches siblings"}
+{"ts":"2026-07-14T15:55:40Z","src":"furigana","dim":"furigana","sev":"warn","decision":"reject","n":21,"note":"family: screener display-truncation/rendaku/okurigana/name; entries verified correct"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "14982", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "removed body-part; word is action not organ"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "15023", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "off-list medical -> health"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "15088", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "off-list manners -> society"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "15092", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "note": "off-list body -> expression"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "15095", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "off-list 'daily life' -> daily-life"}
+{"ts": "2026-07-14T16:08:45Z", "entry": "15099", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "off-list people -> person"}
+{"ts": "2026-07-14T16:08:45Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 21, "note": "family: in-list general->specific narrowness nits; tags valid"}
+{"ts": "2026-07-14T16:08:45Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 5, "note": "family: formality formal->neutral; notes support/dont contradict"}
