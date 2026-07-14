@@ -1,0 +1,24 @@
+{
+  "entry_id": "29837_sankaboushizai",
+  "headword": "{酸化防止剤|さんかぼうしざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T06:30:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for '酸化防止剤' (antioxidant). While often used in food, antioxidants have broader applications (e.g., cosmetics, industrial uses).",
+      "suggestion": "Remove 'food' and add 'science' or 'chemistry' (if available) or 'general' as a more appropriate tag."
+    }
+  ]
+}

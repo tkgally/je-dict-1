@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-13
+**Last updated**: 2026-07-14
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-14 (Routine v2: new-entries — 20 New Entries, IDs 29819–29838)
+Created 20 general-tier entries, **all 20 from the "seen in entry" priority queue** (candidates C22320–C22341, cited from entries 06471–06479, 29808/29811/29815) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. One stale candidate (きたならしい, the kana form of the existing {汚|きたな}らしい at 29808) was removed rather than created. Two thematic clusters plus a tail: a composting/gardening set (mostly from 06471) and a packaged-food-label set (from 06479); plus streaming/app terms and a handful of everyday words including one i-adjective (むさ{苦|くる}しい). Conjugation tables added to the 2 new suru-verbs and 1 new i-adjective; no new kanji. §4 cross-model self-check on all 20 changed entries: **18 clean, 2 flagged — 0 applied, 2 rejected** — both were in-list semantic-tag narrowness nits (daily-life on {不使用|ふしよう}, food on {酸化防止剤|さんかぼうしざい}), rejected per the in-list-narrowness policy. $0.0086. The seen-in-entry queue is empty again and awaits curator/polish restock.
+
+- **Composting/gardening (4)**: コンポスト (compost, compost bin), {刈|か}り{草|くさ} (grass clippings), {枯|か}れ{枝|えだ} (dead branch), {堆肥化|たいひか} (composting; suru)
+- **Food-label terms (4)**: {不使用|ふしよう} (X-free; non-use), {乳化剤|にゅうかざい} (emulsifier), {酸化防止剤|さんかぼうしざい} (antioxidant), {原材料名|げんざいりょうめい} (ingredients list)
+- **Streaming/app terms (7)**: プロフ (profile; casual), {実況者|じっきょうしゃ} (streamer, commentator), Vチューバー (VTuber), プッシュ (push, notify; suru), リマインダー (reminder), {通知音|つうちおん} (notification sound), {微課金|びかきん} (light in-app spending; slang)
+- **Everyday & other (5)**: {数回|すうかい} (several times), むさ{苦|くる}しい (squalid, shabby; adj-i), {果物|くだもの}{狩|が}り (fruit picking), {登録料|とうろくりょう} (registration fee), スポーツジム (fitness gym)
+
 ### 2026-07-13 (Routine v2: new-entries — 15 New Entries, IDs 29804–29818)
 Created 15 general-tier entries. The **8 "seen in entry" candidates** (C22312–C22319, cited from entries 00788, 06463–06465, 06470, 29796) were created first — internal-completeness gaps the dictionary already referenced: {抄本|しょうほん} (abstract copy of a register; legal, counterpart of {謄本|とうほん}), {八重|やえ} (multi-petaled/multi-layered) and {八重桜|やえざくら} (double cherry blossom), {奥二重|おくぶたえ} (inner double eyelid; the 一重/二重 eyelid cluster), {汚|きたな}らしい (filthy, grimy; intensified 汚い, previously a `noentry` inline-link target in 00788), and three gaming/youth-slang terms — チルする (to chill; suru), エンジョイ{勢|ぜい} (casual player; counterpart of ガチ勢), {重課金勢|じゅうかきんぜい} (heavy spender/"whale"). This **cleared the seen-in-entry queue**. The other 7 are hand-picked genuine standalone lexemes: {三桁|さんけた} (three-digit number), {融雪|ゆうせつ} (snowmelt/thaw), {写|うつ}り{具合|ぐあい} (how a photo comes out), {数台|すうだい} (several vehicles/machines; the 数〜 pattern), シャッター{通|どお}り (shuttered shopping street), {洗浄剤|せんじょうざい} (cleaning agent), {資料室|しりょうしつ} (reference/archive room). Conjugation tables added to the 1 new suru-verb and 1 new i-adjective; no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. Added {微課金|びかきん}, {数回|すうかい}, むさ{苦|くる}しい as referenced-but-missing candidates. The old corpus-harvested candidate block remains heavily polluted with OCR/hallucination non-words; logged a `[pattern]` observation recommending a cleanup pass.
 
@@ -77,11 +85,3 @@ Created 12 general-tier entries. The four highest-priority "seen in entry" candi
 - **Seen-in-entry priority (4)**: {関係性|かんけいせい} (relationship, relatedness), {薄墨|うすずみ} (pale ink; funeral custom), {御仏前|ごぶつぜん} (before the Buddha; condolence inscription), ホームチーム (home team)
 - **Honorific / dimension pair (3)**: {御令息|ごれいそく} (your son; honorific), {低次元|ていじげん} (low-dimensional; petty), {高次元|こうじげん} (high-dimensional; high-level)
 - **Technical / topical nouns (5)**: {甜菜糖|てんさいとう} (beet sugar), {網点|あみてん} (halftone dot), {駆動軸|くどうじく} (drive shaft), {地域研究|ちいきけんきゅう} (area studies), {熱伝達|ねつでんたつ} (heat transfer)
-
-### 2026-07-10 (Routine v2: new-entries — 15 New Entries, IDs 29747–29761)
-Created 15 general-tier entries, all from the high-priority "seen in entry" pool (candidates C22271–C22285, cited from entries 05775, 06438–06444, 29735, 29742, 29746) — internal-completeness gaps referenced by existing entries. This **cleared the entire remaining seen-in-entry queue** (15 candidates). Three clusters: weight-training/anatomy (バーベル, {鉄|てつ}アレイ, {上腕二頭筋|じょうわんにとうきん}, siblings of the existing ダンベル/エクササイズ fitness set, plus {加湿|かしつ}), streaming/social media (フィード, ネットショッピング, スーパーチャット + abbreviation スパチャ, マネージャー), and everyday nouns/mimetic (もごもご, ひび{割|わ}れ, {足|あし}の{甲|こう}, {仕訳|しわけ}, {大道芸人|だいどうげいにん}, ギターケース). Conjugation tables added to the 5 new suru-verbs; no i-adjectives, no new kanji. §4 cross-model self-check on all 15 changed entries: **fully clean — 0 flagged, 0 applied, 0 rejected**. $0.0065. No new candidates or observations captured (examples reuse existing vocabulary). The non-"seen in entry" candidate tail remains heavily contaminated, so no padding from the oldest queue; the seen-in-entry queue is empty again and awaits curator/polish restock.
-
-- **Weight-training/anatomy (4)**: バーベル (barbell), {鉄|てつ}アレイ (dumbbell, traditional term), {上腕二頭筋|じょうわんにとうきん} (biceps), {加湿|かしつ} (humidification; suru)
-- **Streaming/social media (5)**: フィード (feed), ネットショッピング (online shopping; suru), スーパーチャット (Super Chat), スパチャ (Super Chat; abbreviation; suru), マネージャー (manager)
-- **Everyday nouns/mimetic (6)**: もごもご (mumbling; mimetic), ひび{割|わ}れ (crack; chapping), {足|あし}の{甲|こう} (instep), {仕訳|しわけ} (journal entry; accounting; suru), {大道芸人|だいどうげいにん} (street performer), ギターケース (guitar case)
-
