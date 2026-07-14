@@ -64,10 +64,18 @@
     }
   ],
   "notes": "PRONUNCIATION: Usually voiced as ごろ after most words, but ころ in some expressions like ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧ころ.\n\nCOMMON PATTERNS:\n- ⟦{何|なん}→何：noentry⟧⟦{時|じ}→時：09869_ji⟧ごろ (around what time)\n- ⟦いつ→いつ：00536_itsu⟧ごろ (around when)\n- ⟦{今|いま}→今：00945_ima⟧ごろ (around now, by now)\n- ⟦あの→あの：00915_ano⟧ころ (around that time, those days)\n- そのころ (around that time)\n- ⟦{子供|こども}→子供：00554_kodomo⟧⟦の→の：09472_no⟧ころ (when [I was] a child)\n- ⟦{昔|むかし}→昔：01515_mukashi⟧⟦の→の：09472_no⟧ころ (in the old days)\n\nNOTE: Different from ⟦くらい→ぐらい：02900_gurai⟧/⟦ぐらい→ぐらい：02900_gurai⟧ which indicates approximate quantity or extent, not specifically time. 〜ごろ is specifically for time.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02900_gurai",
+      "reading": "ぐらい",
+      "headword": "ぐらい",
+      "label": "about, approximately"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T12:15:41Z",
-    "modified": "2026-05-23T20:12:09Z",
+    "modified": "2026-07-14T21:20:38Z",
     "schema_version": "2.0",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
@@ -76,7 +84,10 @@
         "suffix"
       ],
       "formality": "neutral",
-      "politeness": "plain"
+      "politeness": "plain",
+      "semantic": [
+        "time-general"
+      ]
     }
   }
 }

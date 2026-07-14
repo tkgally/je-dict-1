@@ -1,0 +1,24 @@
+{
+  "entry_id": "28483_janai",
+  "headword": "じゃない",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T21:28:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'grammar' is not in the valid tag list.",
+      "suggestion": "grammatical"
+    }
+  ]
+}
