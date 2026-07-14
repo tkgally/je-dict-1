@@ -1,0 +1,24 @@
+{
+  "entry_id": "14702_takaraka",
+  "headword": "{高|たか}らか",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:27:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '高らか' is not 'formal'. It is a neutral adjective often used in descriptive contexts, but not specifically formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

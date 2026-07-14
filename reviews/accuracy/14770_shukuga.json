@@ -1,0 +1,24 @@
+{
+  "entry_id": "14770_shukuga",
+  "headword": "{祝賀|しゅくが}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:28:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with a more specific meaning related to celebration or congratulation.",
+      "suggestion": "action"
+    }
+  ]
+}

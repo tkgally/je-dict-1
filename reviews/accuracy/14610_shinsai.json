@@ -1,0 +1,24 @@
+{
+  "entry_id": "14610_shinsai",
+  "headword": "{震災|しんさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:25:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific concept like 'earthquake disaster'.",
+      "suggestion": "nature"
+    }
+  ]
+}

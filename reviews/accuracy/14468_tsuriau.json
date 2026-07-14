@@ -1,0 +1,24 @@
+{
+  "entry_id": "14468_tsuriau",
+  "headword": "{釣|つ}り{合|あ}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:23:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is incorrect for '釣り合う'.",
+      "suggestion": "Replace 'existence' with 'evaluation' or 'descriptive'."
+    }
+  ]
+}

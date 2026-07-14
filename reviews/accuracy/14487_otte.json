@@ -1,0 +1,24 @@
+{
+  "entry_id": "14487_otte",
+  "headword": "{追|お}っ{手|て}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:23:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'conflict' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

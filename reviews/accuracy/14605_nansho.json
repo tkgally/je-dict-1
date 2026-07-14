@@ -1,0 +1,24 @@
+{
+  "entry_id": "14605_nansho",
+  "headword": "{難所|なんしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:25:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '難所' can refer to a difficult point in a task or challenge, not just a geographical location. The 'geography' tag is too narrow and misleading.",
+      "suggestion": "general"
+    }
+  ]
+}

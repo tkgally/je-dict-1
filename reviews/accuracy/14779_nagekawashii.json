@@ -1,0 +1,24 @@
+{
+  "entry_id": "14779_nagekawashii",
+  "headword": "{嘆|なげ}かわしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:29:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word.",
+      "suggestion": "neutral"
+    }
+  ]
+}

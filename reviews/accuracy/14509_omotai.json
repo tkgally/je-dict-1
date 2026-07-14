@@ -1,0 +1,24 @@
+{
+  "entry_id": "14509_omotai",
+  "headword": "{重|おも}たい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:24:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect. While '重たい' is a colloquial variant of '重い', it is not inherently informal in the same way slang or very casual language would be. It's more about subjective emphasis than a strict formality level.",
+      "suggestion": "neutral"
+    }
+  ]
+}

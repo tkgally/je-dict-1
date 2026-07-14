@@ -1,0 +1,24 @@
+{
+  "entry_id": "14436_sakaya",
+  "headword": "{酒屋|さかや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:22:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '酒屋' (sakaya) refers to a 'liquor store' or 'sake shop', which is a type of business or establishment, not a 'building' in the sense of a physical structure itself. While a liquor store is housed in a building, the word primarily denotes the commercial entity or place of business.",
+      "suggestion": "Replace 'building' with 'business' or 'shopping'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "14872_fusagaru",
+  "headword": "{塞|ふさ}がる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is not appropriate for '塞がる'.",
+      "suggestion": "action"
+    }
+  ]
+}

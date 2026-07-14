@@ -1,0 +1,24 @@
+{
+  "entry_id": "14643_sendo",
+  "headword": "{鮮度|せんど}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:26:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword, which can also refer to the freshness of information or ideas.",
+      "suggestion": "abstract"
+    }
+  ]
+}

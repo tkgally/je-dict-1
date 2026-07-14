@@ -1,0 +1,24 @@
+{
+  "entry_id": "14554_michisugara",
+  "headword": "{道|みち}すがら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:24:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '道すがら' is not formal. It is an older, somewhat literary expression, but not formal in the sense of keigo or highly polite language. It's more neutral or slightly archaic/poetic.",
+      "suggestion": "neutral"
+    }
+  ]
+}

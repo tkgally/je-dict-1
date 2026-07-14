@@ -1,0 +1,24 @@
+{
+  "entry_id": "14718_kuidaore",
+  "headword": "{食|く}い{倒|だお}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:27:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '食い倒れ' itself does not mean 'food' or 'culture'. It refers to the act of eating oneself into ruin or the reputation of a city for food. While related to food and culture, these are not direct semantic tags for the word itself.",
+      "suggestion": "Remove 'food' and 'culture'. Add 'action' for the first sense (eating oneself into ruin) and 'society' or 'general' for the second sense (Osaka's reputation)."
+    }
+  ]
+}
