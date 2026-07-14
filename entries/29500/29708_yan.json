@@ -18,7 +18,9 @@
       "id": "29708_yan_ex1",
       "japanese": "ええやん。",
       "english": "That's fine, isn't it?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -26,7 +28,9 @@
       "id": "29708_yan_ex2",
       "japanese": "もう{時間|じかん}ないやん。",
       "english": "We're out of time, aren't we?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     },
@@ -34,23 +38,39 @@
       "id": "29708_yan_ex3",
       "japanese": "{昨日|きのう}{約束|やくそく}したやん、{忘|わす}れたん？",
       "english": "You promised yesterday, didn't you? Did you forget?",
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "has_audio": false,
       "notes": null
     }
   ],
   "notes": "A sentence-ending particle characteristic of Kansai (western Japan) speech. It attaches to plain forms and works like standard じゃない or Tokyo-area じゃん, either seeking the listener's agreement or drawing attention to something the speaker finds obvious.\n\nCOMMON PATTERNS:\n- ええやん: that's good, isn't it? (ええ = Kansai for いい)\n- できるやん: you can do it, can't you!\n- {知|し}らんやん: you don't know, do you?\n\nSIMILAR WORDS:\n- じゃん: the Kanto/Tokyo casual equivalent\n- じゃないか: the standard casual tag-question ending\n- なあ: Kansai-flavored confirmation, softer and less pointed",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05432_jan",
+      "reading": "じゃん",
+      "headword": "じゃん",
+      "label": "isn't it (casual, Kanto)"
+    }
+  ],
   "metadata": {
     "created": "2026-07-06T21:18:51Z",
-    "modified": "2026-07-06T21:18:51Z",
+    "modified": "2026-07-14T21:20:38Z",
     "vocabulary_tier": "general",
     "tags": {
-      "pos": ["particle"],
+      "pos": [
+        "particle"
+      ],
       "formality": "informal",
       "politeness": "plain",
-      "semantic": ["grammatical"],
-      "domain": ["colloquial"]
+      "semantic": [
+        "grammatical"
+      ],
+      "domain": [
+        "colloquial"
+      ]
     }
   }
 }

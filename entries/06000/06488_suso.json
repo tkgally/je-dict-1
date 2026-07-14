@@ -19,7 +19,7 @@
   "examples": [
     {
       "id": "06488_suso_ex1",
-      "japanese": "スカートの{裾|すそ}が{長|なが}すぎる。",
+      "japanese": "⟦スカート→スカート：01060_sukaato⟧⟦の→の：09472_no⟧{裾|すそ}⟦が→が：00051_ga⟧⟦{長|なが}→長い：00491_nagai⟧⟦すぎる→すぎる：01219_sugiru⟧。",
       "english": "The hem of the skirt is too long.",
       "notes": null,
       "has_audio": false,
@@ -29,7 +29,7 @@
     },
     {
       "id": "06488_suso_ex2",
-      "japanese": "ズボンの{裾|すそ}を{上|あ}げてもらった。",
+      "japanese": "⟦ズボン→ズボン：01072_zubon⟧⟦の→の：09472_no⟧{裾|すそ}⟦を→を：00422_wo⟧⟦{上|あ}げて→上げる：02443_ageru⟧⟦もらった→もらう：00520_morau⟧。",
       "english": "I had the pants hemmed.",
       "notes": null,
       "has_audio": false,
@@ -39,7 +39,7 @@
     },
     {
       "id": "06488_suso_ex3",
-      "japanese": "{山|やま}の{裾|すそ}に{小|ちい}さな{村|むら}がある。",
+      "japanese": "⟦{山|やま}→山：02168_yama⟧⟦の→の：09472_no⟧{裾|すそ}⟦に→に：00314_ni⟧⟦{小|ちい}さな→小さな：02913_chiisana⟧⟦{村|むら}→村：02261_mura⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There's a small village at the foot of the mountain.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "06488_suso_ex4",
-      "japanese": "{裾|すそ}を{引|ひ}きずって{歩|ある}く。",
+      "japanese": "{裾|すそ}⟦を→を：00422_wo⟧⟦{引|ひ}きずって→引きずる：06045_hikizuru⟧⟦{歩|ある}く→歩く：00538_aruku⟧。",
       "english": "To walk dragging one's hem.",
       "notes": null,
       "has_audio": false,
@@ -59,7 +59,7 @@
     },
     {
       "id": "06488_suso_ex5",
-      "japanese": "{富士山|ふじさん}の{裾野|すその}には{広|ひろ}い{草原|そうげん}が{広|ひろ}がっている。",
+      "japanese": "⟦{富士山|ふじさん}→富士山：09514_fujisan⟧⟦の→の：09472_no⟧⟦{裾野|すその}→裾野：10376_susono⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{草原|そうげん}→草原：05035_sougen⟧⟦が→が：00051_ga⟧⟦{広|ひろ}がっている→広がる：01980_hirogaru⟧。",
       "english": "Wide grasslands stretch out at the foot of Mount Fuji.",
       "notes": null,
       "has_audio": false,
@@ -69,7 +69,7 @@
     },
     {
       "id": "06488_suso_ex6",
-      "japanese": "{裾野|すその}が{広|ひろ}い{山|やま}なので、{登|のぼ}り{始|はじ}めるまでに{時間|じかん}がかかった。",
+      "japanese": "⟦{裾野|すその}→裾野：10376_susono⟧⟦が→が：00051_ga⟧⟦{広|ひろ}い→広い：00704_hiroi⟧⟦{山|やま}→山：02168_yama⟧な⟦ので→ので：09501_node⟧、⟦{登|のぼ}り→登る：00660_noboru⟧⟦{始|はじ}める→始める：00531_hajimeru⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "The mountain has such wide slopes at the base that it took a long time just to reach the start of the climb.",
       "notes": null,
       "has_audio": false,
@@ -90,7 +90,7 @@
   ],
   "metadata": {
     "created": "2026-01-17T18:41:26Z",
-    "modified": "2026-03-14T00:11:38Z",
+    "modified": "2026-07-14T21:20:38Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -100,7 +100,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "clothing",
+        "geography"
       ]
     }
   }
