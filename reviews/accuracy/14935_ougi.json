@@ -1,0 +1,24 @@
+{
+  "entry_id": "14935_ougi",
+  "headword": "{奥義|おうぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:57:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow and misleading for '奥義'. While it can be learned, its core meaning is about the 'essence' or 'secrets' of an art/skill, not the act of education itself.",
+      "suggestion": "Replace 'education' with 'cognition' or 'abstract' or 'general'."
+    }
+  ]
+}

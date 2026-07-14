@@ -1,0 +1,10 @@
+{
+  "entry_id": "15065",
+  "screened_at": "2026-07-14T15:47:28Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 鮮 is given as あざ, but the full reading for 鮮やか is あざやか. The provided reading is a partial reading, but the instruction states that partial readings are correct by design. However, the instruction also states that the reading covers ONLY the kanji portion. In this case, 鮮 is read as あざ, but the full word is 鮮やか. If the okurigana is やか, then the reading for 鮮 should be あざ. If the okurigana is か, then the reading for 鮮や should be あざや. Given the context, it seems like 鮮やか is the word, and 鮮 is read as あざ. This is a partial reading, which is allowed. However, the example given for partial readings is 先行→さきゆ followed by き (先行き=さきゆき), where the okurigana is clearly separated. In this case, 鮮やか is a single word, and the reading for 鮮 is あざ. This is a borderline case. I will flag it for review."
+  ],
+  "confidence": 0.6
+}

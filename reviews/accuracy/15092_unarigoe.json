@@ -1,0 +1,24 @@
+{
+  "entry_id": "15092_unarigoe",
+  "headword": "{唸|うな}り{声|ごえ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T16:04:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body' is not in the valid tag list.",
+      "suggestion": "expression"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "14970_ryuushi",
+  "headword": "{粒子|りゅうし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:58:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a scientific/technical term like '粒子'.",
+      "suggestion": "science"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "14974_fushinbutsu",
+  "headword": "{不審物|ふしんぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T15:58:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '不審物'. While it's often used in formal announcements, the word itself is neutral in formality.",
+      "suggestion": "neutral"
+    }
+  ]
+}
