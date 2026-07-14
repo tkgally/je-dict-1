@@ -1,0 +1,24 @@
+{
+  "entry_id": "14887_tansei",
+  "headword": "{端正|たんせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general and does not capture the specific meaning of '端正' as described in the gloss and explanation. The word primarily describes appearance.",
+      "suggestion": "appearance"
+    }
+  ]
+}

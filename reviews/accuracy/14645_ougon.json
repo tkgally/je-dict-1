@@ -1,0 +1,24 @@
+{
+  "entry_id": "14645_ougon",
+  "headword": "{黄金|おうごん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:26:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '黄金' (gold) is a noun referring to a precious metal, not primarily a color. While it can describe a color, its core meaning is the metal itself. The tag 'color' is too narrow and misleading as the primary semantic tag.",
+      "suggestion": "Add 'general' or 'money' or 'resource' to better reflect its primary meaning as a metal/valuable commodity. 'color' could remain as a secondary tag if desired, but not as the sole tag."
+    }
+  ]
+}

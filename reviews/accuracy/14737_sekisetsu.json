@@ -1,0 +1,24 @@
+{
+  "entry_id": "14737_sekisetsu",
+  "headword": "{積雪|せきせつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:28:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '積雪'. While it can appear in formal contexts like weather reports, the word itself is not inherently formal and is used in everyday conversation.",
+      "suggestion": "neutral"
+    }
+  ]
+}

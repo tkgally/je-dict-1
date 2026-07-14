@@ -1,0 +1,24 @@
+{
+  "entry_id": "14843_hitteki",
+  "headword": "{匹敵|ひってき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'cognition' is incorrect for '匹敵'.",
+      "suggestion": "The word '匹敵' means 'to rival' or 'to be comparable to', which describes an action or state of being equal, not a cognitive process. The appropriate tag would be 'action' or 'evaluation'."
+    }
+  ]
+}

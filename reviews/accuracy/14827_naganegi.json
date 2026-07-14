@@ -1,0 +1,31 @@
+{
+  "entry_id": "14827_naganegi",
+  "headword": "{長|なが}ねぎ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:29:51Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'leek' which is a different vegetable (Allium ampeloprasum) than naganegi (Allium fistulosum). While both are alliums, they are distinct and 'leek' is misleading for an intermediate learner.",
+      "suggestion": "Remove 'leek' from the gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'leek' which is a different vegetable (Allium ampeloprasum) than naganegi (Allium fistulosum). While both are alliums, they are distinct and 'leek' is misleading for an intermediate learner.",
+      "suggestion": "Remove 'leek' from the gloss."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "14805_sekkeizu",
+  "headword": "{設計図|せっけいず}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:29:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a specific concept like 'blueprint'.",
+      "suggestion": "Replace 'general' with 'architecture' or 'technology' or 'art'."
+    }
+  ]
+}

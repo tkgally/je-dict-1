@@ -1,0 +1,24 @@
+{
+  "entry_id": "14532_kakuri",
+  "headword": "{隔離|かくり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:24:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word with such specific meanings related to separation and health.",
+      "suggestion": "health"
+    }
+  ]
+}

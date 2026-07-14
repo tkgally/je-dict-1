@@ -1,0 +1,24 @@
+{
+  "entry_id": "14777_fuubi",
+  "headword": "{風靡|ふうび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:28:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word with a specific meaning related to popularity and trends.",
+      "suggestion": "Replace 'general' with 'society' or 'change'."
+    }
+  ]
+}

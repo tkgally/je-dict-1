@@ -1,0 +1,24 @@
+{
+  "entry_id": "14395_tenshin",
+  "headword": "{転身|てんしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:21:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'turning around' is misleading and does not fit the primary meaning of 転身 as career change.",
+      "suggestion": "Remove 'turning around' from the main gloss."
+    }
+  ]
+}

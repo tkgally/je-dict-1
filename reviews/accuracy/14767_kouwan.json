@@ -1,0 +1,24 @@
+{
+  "entry_id": "14767_kouwan",
+  "headword": "{港湾|こうわん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:28:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'building' is too narrow and misleading for '港湾' (harbor/port), which encompasses more than just structures.",
+      "suggestion": "geography"
+    }
+  ]
+}

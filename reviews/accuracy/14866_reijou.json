@@ -1,0 +1,24 @@
+{
+  "entry_id": "14866_reijou",
+  "headword": "{霊場|れいじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'building' is incorrect for '霊場'.",
+      "suggestion": "Replace 'building' with 'religion'."
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "entry_id": "14458_bui",
+  "headword": "{部位|ぶい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:22:59Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss incorrectly limits '部位' to only the body, while the word can also refer to parts of objects.",
+      "suggestion": "part; site; region"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss incorrectly limits '部位' to only the body or an object, while the word can also refer to parts of objects.",
+      "suggestion": "part; site; region (of the body or an object)"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is too narrow. While '部位' is often used for body parts, it can also refer to parts of objects, as indicated in the definition and examples.",
+      "suggestion": "general"
+    }
+  ]
+}

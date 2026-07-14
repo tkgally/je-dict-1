@@ -1,0 +1,24 @@
+{
+  "entry_id": "14393_gunkan",
+  "headword": "{軍艦|ぐんかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:21:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'transport' is too broad and misleading for '軍艦' (warship). While a warship is a type of transport, its primary function is military, not general transportation.",
+      "suggestion": "Replace 'transport' with 'military'."
+    }
+  ]
+}

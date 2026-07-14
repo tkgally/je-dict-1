@@ -1,0 +1,24 @@
+{
+  "entry_id": "14437_you",
+  "headword": "{酔|よ}う",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:22:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The tag 'consumption' is too narrow and misleading for a word that also means 'to get motion sick' and 'to be entranced'.",
+      "suggestion": "action"
+    }
+  ]
+}

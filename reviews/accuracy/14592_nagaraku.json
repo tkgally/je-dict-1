@@ -1,0 +1,24 @@
+{
+  "entry_id": "14592_nagaraku",
+  "headword": "{長|なが}らく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:25:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The headword '長らく' itself does not carry politeness. Its politeness is determined by the surrounding sentence structure and verbs.",
+      "suggestion": "plain"
+    }
+  ]
+}

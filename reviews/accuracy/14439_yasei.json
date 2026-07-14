@@ -1,0 +1,24 @@
+{
+  "entry_id": "14439_yasei",
+  "headword": "{野生|やせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:22:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for '野生'.",
+      "suggestion": "Replace 'general' with 'nature' or 'animal-general' and 'plant-general'."
+    }
+  ]
+}

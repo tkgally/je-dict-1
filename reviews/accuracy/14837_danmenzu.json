@@ -1,0 +1,24 @@
+{
+  "entry_id": "14837_danmenzu",
+  "headword": "{断面図|だんめんず}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for a specific type of diagram.",
+      "suggestion": "art"
+    }
+  ]
+}

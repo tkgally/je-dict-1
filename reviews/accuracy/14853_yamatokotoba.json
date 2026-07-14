@@ -1,0 +1,24 @@
+{
+  "entry_id": "14853_yamatokotoba",
+  "headword": "{大和言葉|やまとことば}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:30:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '大和言葉'.",
+      "suggestion": "The most appropriate tag would be 'language' as it refers to a category of words within the Japanese language."
+    }
+  ]
+}

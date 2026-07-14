@@ -1,0 +1,24 @@
+{
+  "entry_id": "14455_muhon",
+  "headword": "{謀反|むほん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-14T01:22:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and misleading for a word with such a specific historical and political meaning.",
+      "suggestion": "politics"
+    }
+  ]
+}
