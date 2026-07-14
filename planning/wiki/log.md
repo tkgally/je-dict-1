@@ -2,6 +2,32 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-14] maintenance | Harvest the 20 loose 2026-07-13/14 observations (all reinforcements + one new cluster — Cleanup **P11** [new: the ～ハラ/harassment noun cluster's four inconsistent tag treatments → a harassment-cluster `tags` pass to `society`], **P21** [band → 06465–06479, 06400–06500 a contiguous unlinked zone], **P20** [off-vocab cohort into the 14000s, ~6,235 dict-wide residue], **P17** [katakana-loanword formality drift both directions], **P13** [placeholder `general` + 入会金→`education` at the 06475–06479 cohort], **P9** [wrapper backlog thins above ID ~11000 → reprioritize sweeps]; Tooling **item 20** [47th/48th no-op + consolidated scorer-bug root-cause], **item 17** [17th/18th confirmation across 14187–14899], **item 21/31** [10th truncation-class], **item 23** [C06000–C14000 corpus noise], **item 6** [14387–14899 1:1 migration]) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 20 unharvested observation lines / highest scheduler debt the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-ju007d`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, `remaining_usd` 4.7025 unchanged); §5 metrics line appended; **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 20 loose observations from four 2026-07-13/14 routine polish runs (sessions 004/007 + the 06471–06474 and 06475–06479 frontier runs), the 2026-07-13 furigana-cosmetic-wrappers systemic-fix run, and the 2026-07-13 accuracy-review sweeps. All reinforcements of well-established patterns except one genuinely-new cluster:
+  - **Cleanup P11 (new cluster)** — the ～ハラ/harassment nouns carry four inconsistent tag treatments (08788 マタハラ off-vocab `social-issues`, 06466 モラハラ wrong-category `emotion`, 05904 パワハラ / 05905 セクハラ both placeholder `general`); recommends a targeted harassment-cluster `tags` pass settling on `society`.
+  - **Cleanup P21** — the zero-inline-link create-era band runs unbroken through **06465–06479** across four runs; the whole 06400–06500 confirmed a contiguous unlinked zone; band now ~06150→06479.
+  - **Cleanup P20** — the off-vocab tag cohort confirmed contiguous into the **14000s** (systemic-fix run migrated 19 legacy off-vocab tags over 14387–14899); dict-wide residue ~**6,235 entries** → deterministic `check_tag_drift` sweep still beats per-range review.
+  - **Cleanup P17** — a fourth formality sub-family: everyday katakana loanwords auto-tagged `informal`/`formal` against their own neutral register (06474 プロフィール `informal`→neutral, 06475 `formal` vs its Neutral note).
+  - **Cleanup P13** — the placeholder sole-`general` + occasional plain-wrong tag (入会金→`education`) reaches the 06475–06479 tech/loanword cohort; a ~06400–07000 tags sweep pairs with the P21 link sweep.
+  - **Cleanup P9** — the cosmetic-furigana-wrapper backlog thins sharply above ID ~11000 (~8 flags/500-ID block vs 18–33 lower); remaining bulk in the 23000–29999 + pre-06000 blocks → reprioritize wrapper sweeps by density.
+  - **Tooling item 20** — 47th/48th no-op confirmation + session 007's consolidated root-cause statement of both `score_note_quality.py` scorer bugs (inline-link-baseform bare-kanji miscount; literal-header `usage` matcher) with concrete IDs/header strings.
+  - **Tooling item 17** — 17th/18th confirmation across three 14187–14899 accuracy-review sweeps (~17–24.5% flag rate, mostly in-list-narrowness/formality-nit noise; genuine applies all off-vocab migrations).
+  - **Tooling item 21/31** — 10th truncation-class (screening ~2-min wall-clock ceiling on 20–30-entry batches → 2+ invocations per self-check; recommends a `--resume` flag).
+  - **Tooling item 23** — reinforcement (the C06000–C14000 corpus block enumerated as OCR/hallucination non-words + compositional phrases).
+  - **Tooling item 6** — the 14387–14899 migration (19 tags, all 1:1-mappable) confirms the cohort stays deterministic-migratable into the 14000s.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,826 tagged `general` + the 20 untiered 29181–29200, of 29,629 total, per `build/audit_tiers.py`).
+- **[H] Metrics trend — not due** (only 9 new `metrics-history.jsonl` lines, 265 total, since the eighteenth refresh at 256 runs; threshold ≥10). `backlog-queue.json` needed no status/batch-readiness changes — all harvested items were incremental updates under existing open entries.
+
+**Wrap-up**: metrics snapshot appended (`--mode wiki --changed 0`); no new wiki pages → no `index.md` change; committed markdown + `pipeline/` state; PR created, CI polled to green via MCP, squash-merged; lock released.
+
 ## [2026-07-13] maintenance | Harvest the 4 loose 2026-07-12/13 observations (all reinforcements — Cleanup **P21** [band → 06457–06462, gap now characterized as notes-only]; Tooling item 15 [notes-outside-⟦⟧ detector, the highest-signal generalization], item 20 [scorer-bug #1 on 00335/00464/00617], item 21 [9th truncation, 526-ID screen killed at 214], item 24 [~4.5% screener precision on 13975–14186]) + **eighteenth metrics refresh** + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observation lines / highest scheduler debt the top signal)
