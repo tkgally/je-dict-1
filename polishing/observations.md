@@ -354,3 +354,5 @@ _(2026-07-15 wiki (Routine v2) harvest: processed all 7 loose observations from 
 - **Activity H (metrics trend) — nineteenth refresh** of `topics/quality-metrics.md` (14 new metrics lines, 256→270 runs).
 - **Activity A (light sync)**: refreshed `project/overview.md` General-tier count.
 All 7 observations cleared.)_
+
+- [pattern] Entry block 15100–15153: ~30/54 entries carried off-vocabulary semantic tags (people, body, degree, sensation, manner, behavior, place, state, substance, classification, housing, and many compound coinages like administrative-procedure/achievement-success/social-behavior). Migrated to in-list tags this run. This range predates the closed-vocabulary tag policy; a systemic-fix sweep of nearby ranges (15000–15500) via check_tag_drift.py would likely find more. (accuracy-review 2026-07-15)

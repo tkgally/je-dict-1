@@ -1,0 +1,24 @@
+{
+  "entry_id": "15120_youeki",
+  "headword": "{溶液|ようえき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'substance' is not in the valid tag list.",
+      "suggestion": "Remove 'substance' or replace with a valid tag if appropriate (e.g., 'chemistry' if available, or 'general' if no specific fit)."
+    }
+  ]
+}

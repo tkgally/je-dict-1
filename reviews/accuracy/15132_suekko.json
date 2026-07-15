@@ -1,0 +1,24 @@
+{
+  "entry_id": "15132_suekko",
+  "headword": "{末|すえ}っ{子|こ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}
