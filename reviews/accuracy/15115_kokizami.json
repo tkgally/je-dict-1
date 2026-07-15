@@ -1,0 +1,24 @@
+{
+  "entry_id": "15115_kokizami",
+  "headword": "{小刻|こきざ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'manner' and 'degree' are not in the valid tag list.",
+      "suggestion": "Replace 'manner' and 'degree' with appropriate tags from the valid list. 'descriptive' or 'general' might be suitable given the gloss."
+    }
+  ]
+}

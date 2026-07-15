@@ -1,0 +1,31 @@
+{
+  "entry_id": "15147_shoukou",
+  "headword": "{昇降|しょうこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:58Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'movement-direction' is not in the valid tag list. The headword's meaning is about movement.",
+      "suggestion": "movement"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation for example 0 is misleading. 昇降口 (shoukouguchi) specifically refers to an entrance/exit for going up and down, like a boarding gate or an entrance to a building with stairs/elevators, not just any entrance/exit.",
+      "suggestion": "Where is the boarding gate/entrance for going up and down?"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15131_rougo",
+  "headword": "{老後|ろうご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'time' is too broad; a more specific tag exists.",
+      "suggestion": "time-period"
+    }
+  ]
+}

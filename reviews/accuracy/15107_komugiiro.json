@@ -1,0 +1,24 @@
+{
+  "entry_id": "15107_komugiiro",
+  "headword": "{小麦色|こむぎいろ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:25:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "Remove 'body' or replace with a valid tag if applicable (e.g., 'appearance' or 'health' if referring to tanned skin)."
+    }
+  ]
+}

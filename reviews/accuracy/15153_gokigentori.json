@@ -1,0 +1,24 @@
+{
+  "entry_id": "15153_gokigentori",
+  "headword": "ご{機嫌|きげん}{取|と}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T03:26:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social-behavior' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

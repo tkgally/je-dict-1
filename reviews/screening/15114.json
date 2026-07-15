@@ -1,0 +1,10 @@
+{
+  "entry_id": "15114",
+  "screened_at": "2026-07-15T03:18:41Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 悪影響 is given as あくえいきょう, but the provided context only shows あくえい. This is a partial reading, but the instructions state 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, the example {走|はし}る implies that the reading should cover the entire kanji portion. If the full reading for 悪影響 is あくえいきょう, then あくえい is an incomplete reading for the kanji portion. Given the example, it seems the reading should cover all kanji. If the intention was to only provide the reading for 悪影, then it would be correct. But if it's for 悪影響, it's incomplete."
+  ],
+  "confidence": 0.8
+}
