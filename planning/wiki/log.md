@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-15] maintenance | Harvest the 9 loose 2026-07-15 observations (eight reinforcements + one genuinely-new tool bug — Cleanup **P20** [off-vocab cohort reaches the 15100s], **P21** [zero-link band → 06490–06499, notes-linking cost tracks note density], **P17** [fifth formality sub-family: colloquial i-adjectives auto-`formal`]; Tooling **item 17** [20th confirmation, `general`-too-broad on the frontier §4 self-check], **item 20** [51st/52nd no-op], **item 6** [cheap `adjective-i`+`formal` cut], **new item 33** [`prioritize_polishing.py --task notes` crashes `KeyError: 'furigana'`]) + Activity A (overview tier sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observation lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-auw8bs`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched); §5 metrics line appended; **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 9 loose observations from the two 2026-07-15 routine polish runs (frontier 06490–06494 and frontier 06495–06499 + priority-lane 7 basics) and the 2026-07-15 accuracy-review run. Eight reinforcements of well-established patterns + one genuinely-new tool bug:
+  - **Cleanup P20** — the free-form/off-vocab semantic-tag creation-batch cohort reaches the **15100s** (a 15100–15153 accuracy-review migrated ~30/54 off-vocab tags in-run: people/body/degree/sensation/manner/behavior/place/state/substance/classification/housing + compound coinages); recommends a `check_tag_drift --check unknown-semantic` sweep over 15000–15500 (mirrored in `backlog-queue.json`).
+  - **Cleanup P21** — the zero-inline-link band reaches **06490–06499** with the tractability datum that **example-linking is uniformly cheap while notes-linking cost tracks note density** (dense 加湿器/除湿機/踏切 appliance-composition glossaries deferred; ordinary 06495–06499 notes completed in-run + candidates added); band now ~06150→06499.
+  - **Cleanup P17 + Tooling item 6** — a fifth formality sub-family (everyday colloquial i-adjectives auto-`formal`, 06498 しつこい `formal`→`neutral`), plus a cheap high-precision `adjective-i` POS + `formality: formal` deterministic drift cut for `check_tag_drift.py`.
+  - **Tooling item 17** — twentieth confirmation: the `general`-too-broad in-list-narrowness noise family now surfaces on the **create-era frontier §4 self-check** too (3/5 rejected over 06490–06494), not just the whole-range accuracy sweeps.
+  - **Tooling item 20** — fifty-first/fifty-second no-op confirmation (two priority lanes all-no-op on already-polished closed-tier basics; priorities regenerated + cursor reset per §2); pure reinforcement of the two `score_note_quality.py` scorer bugs.
+  - **Tooling new item 33** — `build/prioritize_polishing.py --task notes` crashes with `KeyError: 'furigana'` (single-task branch indexes the hard-coded `results['furigana']`; only arg-less `make priorities` works, so the `CLAUDE.md`-documented per-task flag is broken).
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,863 tagged `general` + the 20 untiered 29181–29200, of 29,666 total as of 2026-07-15, per `build/audit_tiers.py`).
+- **[H] Metrics trend — not due**: only 7 new `metrics-history.jsonl` lines (277 total) since the page's nineteenth refresh at 270 runs (threshold ≥10).
+
 ## [2026-07-15] maintenance | Harvest the 7 loose 2026-07-14 observations (six reinforcements + one new Entry Follow-up — Cleanup **P21** [band → 06480–06489, per-entry spottiness in the 06480s + notes-glossary residue mostly a cross-ref opportunity]; **Entry Follow-ups** [new: 04265 踵 `clothing`→`body-part`]; Tooling **item 17** [19th confirmation, 14900–15099 32/199 two-regime split into the 15000s], **item 20** [49th/50th no-op], **item 24** [14900–15099 furigana screen 0/200]) + Activity H (nineteenth metrics refresh) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observation lines the top signal)
