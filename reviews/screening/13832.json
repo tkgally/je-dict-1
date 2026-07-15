@@ -1,0 +1,15 @@
+{
+  "entry_id": "13832",
+  "screened_at": "2026-07-15T09:21:29Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '箇条書' is 'かじょうが' but the full word is '箇条書き'. The reading 'かじょうが' only covers '箇条書' and omits the 'き' which is part of the kanji portion, not okurigana. This is a partial reading error.",
+    "The reading for '箇条' is 'かじょう' but it is followed by 'きでまとめる。' which implies '箇条書き'. The reading 'かじょう' only covers '箇条' and omits the 'き' which is part of the kanji portion, not okurigana. This is a partial reading error.",
+    "The reading for '御誓文' is 'ごせいも' but the full word is '御誓文'. The reading 'ごせいも' only covers '御誓文' and omits the 'ん' which is part of the kanji portion, not okurigana. This is a partial reading error.",
+    "The reading for '基本方針' is 'きほん' but the full word is '基本方針'. The reading 'きほん' only covers '基本' and omits 'ほうしん' which is part of the kanji portion, not okurigana. This is a partial reading error.",
+    "The reading for 'ヶ条' is 'かじょう' but it is followed by ' or か{条|じょ)'. The reading 'かじょう' covers 'ヶ条' but the alternative reading 'か{条|じょ)' suggests that 'ヶ' is read as 'か' and '条' as 'じょ'. This is a partial reading error.",
+    "The reading for '条' is 'じょう' but it is followed by '. The {箇|か)'. This implies that '条' is part of a larger word like '箇条' where '箇' is read as 'か' and '条' as 'じょう'. The reading 'じょう' for '条' is correct, but the context suggests a partial reading error."
+  ],
+  "confidence": 0.9
+}
