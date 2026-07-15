@@ -1,0 +1,24 @@
+{
+  "entry_id": "15163_fujunbutsu",
+  "headword": "{不純物|ふじゅんぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:45:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'science-chemistry' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

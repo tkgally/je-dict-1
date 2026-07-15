@@ -1,0 +1,24 @@
+{
+  "entry_id": "15233_nikuya",
+  "headword": "{肉屋|にくや}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:47:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'place' is not in the valid tag list.",
+      "suggestion": "Replace 'place' with 'building' or 'daily-life' depending on the intended nuance."
+    }
+  ]
+}

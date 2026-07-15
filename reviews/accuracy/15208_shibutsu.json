@@ -1,0 +1,24 @@
+{
+  "entry_id": "15208_shibutsu",
+  "headword": "{私物|しぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:46:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is too narrow and misleading for '私物' (personal belongings). While often encountered in a work context, the word itself is not inherently related to 'work' as a semantic category. It refers to personal items in general, regardless of context.",
+      "suggestion": "Replace 'work' with 'general' or 'daily-life' as '私物' describes a common concept applicable across various situations, not just work."
+    }
+  ]
+}

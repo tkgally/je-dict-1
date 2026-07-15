@@ -1,0 +1,10 @@
+{
+  "entry_id": "15195",
+  "screened_at": "2026-07-15T18:36:03Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for \"推薦状\" is given as \"{推薦状|すいせんじょう}\", but the example sentence shows \"{推薦状|すいせん)\" and \"{推薦状|すいせ)\". This indicates an inconsistency in how the reading for 推薦状 is presented, specifically that the reading is sometimes truncated. While the prompt states \"Do NOT flag partial readings as errors — they are correct by design,\" the initial entry for the word itself should ideally be complete. However, given the instruction, I will not flag the partial readings in the examples as errors, but note the inconsistency in the main entry vs. example usage."
+  ],
+  "confidence": 0.8
+}

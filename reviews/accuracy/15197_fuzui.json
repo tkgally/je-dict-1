@@ -1,0 +1,24 @@
+{
+  "entry_id": "15197_fuzui",
+  "headword": "{付随|ふずい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:46:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '付随' is not inherently formal. While it can appear in formal contexts, its meaning of 'accompanying' or 'incidental' is neutral and can be used in various registers without sounding overly formal or informal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15167_maiyuu",
+  "headword": "{毎夕|まいゆう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:45:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'time-daily'",
+      "suggestion": "time-general"
+    }
+  ]
+}

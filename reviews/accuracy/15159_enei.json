@@ -1,0 +1,24 @@
+{
+  "entry_id": "15159_enei",
+  "headword": "{遠泳|えんえい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:45:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'sports-swimming' is not in the valid tag list.",
+      "suggestion": "sports"
+    }
+  ]
+}

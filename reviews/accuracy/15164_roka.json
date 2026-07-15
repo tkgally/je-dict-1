@@ -1,0 +1,24 @@
+{
+  "entry_id": "15164_roka",
+  "headword": "ろ{過|か}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:45:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'science-chemistry' is too specific and not in the valid tag list. 'ろ過' (filtration) is a broader concept used in various fields beyond just chemistry.",
+      "suggestion": "science"
+    }
+  ]
+}
