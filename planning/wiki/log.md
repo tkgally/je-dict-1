@@ -2,6 +2,26 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-15] maintenance | Harvest the 7 loose 2026-07-14 observations (six reinforcements + one new Entry Follow-up — Cleanup **P21** [band → 06480–06489, per-entry spottiness in the 06480s + notes-glossary residue mostly a cross-ref opportunity]; **Entry Follow-ups** [new: 04265 踵 `clothing`→`body-part`]; Tooling **item 17** [19th confirmation, 14900–15099 32/199 two-regime split into the 15000s], **item 20** [49th/50th no-op], **item 24** [14900–15099 furigana screen 0/200]) + Activity H (nineteenth metrics refresh) + overview tier sync
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested observation lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-hyt76q`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched); §5 metrics line appended; **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 7 loose observations from the two 2026-07-14 routine polish runs (frontier 06480–06486 and priority-lane 03095–02900 + frontier 06487–06489) and the 2026-07-14 accuracy-review run. Six reinforcements of well-established patterns + one genuinely-new Entry Follow-up:
+  - **Cleanup P21** — the zero-inline-link create-era band reaches **06480–06489**, adding (a) per-entry spottiness in the 06480s (06484 あくび / 06485 まばたき already linked amid naked neighbors) and (b) the finding that the ~06400–06500 notes-glossary residue is mostly a **cross-ref/link opportunity, not a candidate gap** (襟元/襟足/裾野 already have entries); band now ~06150→06489.
+  - **Entry Follow-ups (new)** — **04265_kakato (踵)** carries `clothing` where siblings 足首/爪先/踝 use `body-part`; trivial re-tag + a `check_tag_drift` semantic-mismatch candidate.
+  - **Tooling item 17** — 19th confirmation (14900–15099 accuracy-review 32/199 on `tags`, 21 in-list-narrowness + 5 formality nits rejected, 6 genuine incl. `body-part` on 舌打ち); two-regime split now range-independent into the 15000s.
+  - **Tooling item 20** — 49th/50th no-op confirmation (two priority lanes all-no-op on already-polished closed-tier entries); pure reinforcement of the two `score_note_quality.py` scorer bugs.
+  - **Tooling item 24** — the 14900–15099 furigana screen ran **21/200 at 0% precision** (all display-truncation/rendaku/okurigana-split/name-reading FPs); reconfirms the untruncated-field fix + deterministic-lint thesis.
+- **[H] Metrics trend — nineteenth refresh** of `topics/quality-metrics.md` (14 new `metrics-history.jsonl` lines, 256→270 runs / ~7,563 adjudicated flags): **escalation-free window resumes** (runs 257–270 escalated **0** after the eighteenth's lone 13843 flag; 60 applied / 259 rejected / 0 escalated), `tags` apply-among-decided held in the noise-heavy low at **24.3%** [51/210] as the three accuracy sweeps re-worked the already-reviewed/mixed 14187–15099 bands (in-list `general`-too-broad narrowness dominating rejects), furigana screening back to near-pure noise [**1/94** ≈1%; the 14900–15099 screen 0/21], review queue new floor **13,227**, entry total 29,594→29,646, OpenRouter ≤~$0.43/day. Detectors sampled 2026-07-15: `furigana_format` 1,231, `artifacts` 12, `tag_drift` unknown-semantic 7,637. No metric moving the wrong way → no new `[pattern]` observation logged.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,843 tagged `general` + the 20 untiered 29181–29200, of 29,646 total, per `build/audit_tiers.py`).
+
+**Wrap-up**: metrics snapshot appended (`--mode wiki --changed 0`); no new wiki pages → no `index.md` change; committed markdown + `pipeline/` state; PR created, CI polled to green via MCP, squash-merged; lock released.
+
 ## [2026-07-14] maintenance | Harvest the 20 loose 2026-07-13/14 observations (all reinforcements + one new cluster — Cleanup **P11** [new: the ～ハラ/harassment noun cluster's four inconsistent tag treatments → a harassment-cluster `tags` pass to `society`], **P21** [band → 06465–06479, 06400–06500 a contiguous unlinked zone], **P20** [off-vocab cohort into the 14000s, ~6,235 dict-wide residue], **P17** [katakana-loanword formality drift both directions], **P13** [placeholder `general` + 入会金→`education` at the 06475–06479 cohort], **P9** [wrapper backlog thins above ID ~11000 → reprioritize sweeps]; Tooling **item 20** [47th/48th no-op + consolidated scorer-bug root-cause], **item 17** [17th/18th confirmation across 14187–14899], **item 21/31** [10th truncation-class], **item 23** [C06000–C14000 corpus noise], **item 6** [14387–14899 1:1 migration]) + overview tier sync
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 20 unharvested observation lines / highest scheduler debt the top signal)

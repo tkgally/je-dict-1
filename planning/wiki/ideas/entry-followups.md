@@ -623,6 +623,18 @@ left marked `noentry` without candidates (correctly, since they may not be real 
 **Recommended action**: revise the note's related-compound list to more common, genuinely-standard
 ～伸ばす compounds (e.g. 引き伸ばす's actual near-relatives), or drop the questionable entries from the list.
 
+## 04265_kakato (踵, heel) — semantic tag `clothing` should be `body-part`
+
+**Source**: 2026-07-14 routine polish (frontier 06480–06486)
+
+04265 踵 (heel) carries the semantic tag **`clothing`**, which is wrong — it is a body part. Its sibling
+body-part entries 足首 (ankle), 爪先 (toe), and 踝 (ankle bone) all use **`body-part`**. The observing run
+noticed this while polishing an unrelated frontier range and flagged it as out of scope for that run.
+
+**Recommended action**: re-tag 04265 踵 `clothing`→`body-part` to match the 足首/爪先/踝 siblings, and bump
+`modified`. A trivial single-entry fix; also a good candidate for a `check_tag_drift` semantic-mismatch
+catch (a `clothing` tag on a body-part word).
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
