@@ -1,0 +1,24 @@
+{
+  "entry_id": "15199_sekitori",
+  "headword": "{関取|せきとり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-15T18:46:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation implies 'ranked division' rather than 'ranked wrestler'.",
+      "suggestion": "That wrestler was finally promoted to a ranked sumo wrestler."
+    }
+  ]
+}
