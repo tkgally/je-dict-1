@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-15T06:36:55Z",
+  "reviewed_at": "2026-07-16T00:31:03Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
-      "dimension": "translation",
-      "location": "examples[1]",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The English translation 'Be quiet! Shut up!' for 'うるさい！静かにして！' is too strong for '静かにして！'. While 'うるさい！' can be translated as 'Shut up!', '静かにして！' is more accurately 'Be quiet!' or 'Please be quiet!'. The combined translation misrepresents the nuance.",
-      "suggestion": "Change 'Be quiet! Shut up!' to 'Shut up! Be quiet!'"
+      "concern": "The main gloss is missing a key meaning of 'fussy/picky'.",
+      "suggestion": "noisy, annoying, fussy"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "This sense is missing the 'fussy/picky' meaning, which is distinct from 'noisy' or 'annoying'.",
+      "suggestion": "noisy, loud, fussy"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "This sense is missing the 'fussy/picky' meaning, which is distinct from 'noisy' or 'annoying'.",
+      "suggestion": "annoying, bothersome, picky"
     }
   ]
 }

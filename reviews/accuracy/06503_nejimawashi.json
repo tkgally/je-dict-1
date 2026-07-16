@@ -8,30 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T09:26:20Z",
+  "reviewed_at": "2026-07-16T00:31:08Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'occupation' is incorrect for 'ねじ回し' (screwdriver). A screwdriver is a tool, not an occupation.",
-      "suggestion": "Remove 'occupation'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'transportation' is incorrect for 'ねじ回し' (screwdriver). A screwdriver is a tool, not a mode of transportation.",
-      "suggestion": "Remove 'transportation'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for 'ねじ回し'. This is a neutral term for a common tool.",
+      "concern": "The formality tag 'informal' is incorrect for 'ねじ回し'.",
       "suggestion": "Change 'informal' to 'neutral'."
     }
   ]
