@@ -1,0 +1,24 @@
+{
+  "entry_id": "29901_kirigirisu",
+  "headword": "キリギリス",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T21:26:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The Japanese 'キリギリス' (kirigirisu) in this context refers to a grasshopper, not a katydid. The English translation 'grasshopper' is correct for the story, but the headword's primary meaning is katydid/bush cricket.",
+      "suggestion": "The story 'アリとキリギリス' is commonly translated as 'The Ant and the Grasshopper'. While 'kirigirisu' can refer to a grasshopper in some contexts, especially in fables, the primary gloss for the headword is 'katydid; bush cricket'. This example uses 'kirigirisu' in a way that contradicts the main gloss. It should be noted that in this specific fable, 'kirigirisu' is understood as a grasshopper."
+    }
+  ]
+}

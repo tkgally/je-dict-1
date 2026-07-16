@@ -1,0 +1,31 @@
+{
+  "entry_id": "29903_tonosamabatta",
+  "headword": "トノサマバッタ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T21:26:41Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'migratory locust' is misleading because トノサマバッタ (Tonosama-batta) is a specific species of grasshopper (Locusta migratoria), not just any migratory locust. While it is a migratory locust, the common English name is 'Oriental migratory locust' or simply 'migratory locust' when context is clear, but the Japanese term refers to a specific species, not a general category.",
+      "suggestion": "Oriental migratory locust"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'migratory locust' is misleading because トノサマバッタ (Tonosama-batta) is a specific species of grasshopper (Locusta migratoria), not just any migratory locust. While it is a migratory locust, the common English name is 'Oriental migratory locust' or simply 'migratory locust' when context is clear, but the Japanese term refers to a specific species, not a general category.",
+      "suggestion": "Oriental migratory locust"
+    }
+  ]
+}
