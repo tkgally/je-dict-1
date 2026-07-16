@@ -1,0 +1,10 @@
+{
+  "entry_id": "15562",
+  "screened_at": "2026-07-16T12:22:50Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `占星術` in pair 7 is `せんせいじ` but the full word is `占星術`. This is a partial reading, but the instruction says \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example `先行→さきゆ` followed by `き (先行き=さきゆき)` implies that the partial reading should be for a word that is then completed by okurigana. In pair 7, `占星術` is a complete word, and `せんせいじ` is not its full reading. It seems like an incomplete reading for the entire kanji word, not a partial reading for a kanji followed by okurigana. If `占星術` is the kanji, its reading should be `せんせいじゅつ`."
+  ],
+  "confidence": 0.8
+}
