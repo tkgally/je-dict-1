@@ -369,3 +369,9 @@ All 9 observations cleared.)_
 - [tooling] The `notes` priority ranking (polishing/priority/notes.txt) is stale relative to recent polishing: 7 of 8 priority-lane entries processed (kiiro, ookii, yasui, kurai, karui, yowai, kiiroi — all already-polished basic-tier adjectives) needed no changes; only 00763 urusai had a real fix (a なあ noentry marker that should have resolved to 29262_naa). prioritize_polishing.py appears to keep ranking well-structured basic-tier adjective notes near the top. Consider down-weighting entries whose `modified` is recent OR whose note already has full inline-link coverage. Priorities regenerated + cursor reset at this session's wrap-up per routine2 §2.
 - [pattern] Frontier entries in the 06500 block (created 2026-01-17, e.g. 06500 pengin, 06501 roji, 06502 oudanhodou, 06503 nejimawashi, 06508 nabeshiki) systematically have ZERO inline-link coverage — examples and notes are entirely naked Japanese despite complete furigana. This whole Jan-2026 creation block predates the inline-linking polish pass. A dedicated inline-link sweep of 06500–06999 (and likely adjacent ranges) would be high-value; the sequential frontier will otherwise reach them one at a time.
 - [entry] 06500 pengin, 06501 roji, 06508 nabeshiki notes contain katakana species/material names with no entries (アデリーペンギン etc., シリコン, 籐, コースター, ナチュラル) — marked noentry this session; the lexical (non-species) ones added to candidate_words.json.
+
+- [pattern] Notes priority lane is exhausted (2026-07-16): the top notes-priority
+  IDs (03095_nado, 02870_kiiro, 00335_ookii, 00464_yasui, 00510_mijikai,
+  00514_hayai) all score ~50-53 and need no note work — `score_note_quality.py
+  --below 30` now returns nothing. Consider retiring or reweighting the notes
+  priority lane toward cross_refs/other dimensions where real gaps remain.

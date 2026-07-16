@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06504_baree_ex1",
-      "japanese": "{娘|むすめ}は{五歳|ごさい}からバレエを{習|なら}っている。",
+      "japanese": "⟦{娘|むすめ}→娘：02263_musume⟧⟦は→は：00079_ha⟧⟦{五歳|ごさい}→歳：10017_sai⟧⟦から→から：00504_kara⟧バレエ⟦を→を：00422_wo⟧⟦{習|なら}って→習う：00479_narau⟧⟦いる→いる：00495_iru⟧。",
       "english": "My daughter has been taking ballet lessons since she was five.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06504_baree_ex2",
-      "japanese": "「{白鳥|はくちょう}の{湖|みずうみ}」のバレエ{公演|こうえん}を{観|み}に{行|い}った。",
+      "japanese": "「⟦{白鳥|はくちょう}→白鳥：04937_hakuchou⟧⟦の→の：09472_no⟧⟦{湖|みずうみ}→湖：00867_mizuumi⟧」⟦の→の：09472_no⟧バレエ⟦{公演|こうえん}→公演：11639_kouen⟧⟦を→を：00422_wo⟧⟦{観|み}→観る：22793_miru⟧⟦に→に：00314_ni⟧⟦{行|い}った→行く：00119_iku⟧。",
       "english": "I went to see a ballet performance of Swan Lake.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06504_baree_ex3",
-      "japanese": "バレエダンサーになるには{厳|きび}しい{訓練|くんれん}が{必要|ひつよう}だ。",
+      "japanese": "バレエ⟦ダンサー→ダンサー：08801_dansaa⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{厳|きび}しい→厳しい：01125_kibishii⟧⟦{訓練|くんれん}→訓練：02673_kunren⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "Rigorous training is required to become a ballet dancer.",
       "notes": null,
       "has_audio": false,
@@ -44,10 +44,18 @@
     }
   ],
   "notes": "SPELLING NOTE: バレエ is the standard spelling for ballet. バレー (with long ー) typically refers to volleyball (バレーボール).\n\nFAMOUS BALLETS:\n・「{白鳥|はくちょう}の{湖|みずうみ}」(Swan Lake)\n・「くるみ{割|わ}り{人形|にんぎょう}」(The Nutcracker)\n・「{眠|ねむ}れる{森|もり}の{美女|びじょ}」(Sleeping Beauty)\n・「ロメオとジュリエット」(Romeo and Juliet)\n\nRELATED VOCABULARY:\n・バレエ{団|だん} (ballet company)\n・バレエ{教室|きょうしつ} (ballet class/studio)\n・バレエダンサー (ballet dancer)\n・プリマバレリーナ (prima ballerina)\n・トウシューズ (pointe shoes)\n・チュチュ (tutu)\n\nCOMMON COLLOCATIONS:\n・バレエを{習|なら}う (to take ballet lessons)\n・バレエを{踊|おど}る (to dance ballet)\n・バレエ{公演|こうえん} (ballet performance)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "04728_bareebooru",
+      "reading": "ばれーぼーる",
+      "headword": "バレーボール",
+      "label": "volleyball (バレー, easily confused spelling)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T20:54:10Z",
-    "modified": "2026-06-27T09:20:37Z",
+    "modified": "2026-07-16T09:21:18Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
