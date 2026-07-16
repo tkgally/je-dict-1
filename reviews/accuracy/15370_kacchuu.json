@@ -1,0 +1,24 @@
+{
+  "entry_id": "15370_kacchuu",
+  "headword": "{甲冑|かっちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:54:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '甲冑' (armor and helmet).",
+      "suggestion": "military"
+    }
+  ]
+}

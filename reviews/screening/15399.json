@@ -1,0 +1,10 @@
+{
+  "entry_id": "15399",
+  "screened_at": "2026-07-16T06:36:41Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 白 is given as しろ, but in the context of 「白い」, the kanji 白 should be read as しろ (the stem of the adjective). The provided reading しろ is correct for the kanji itself, but the entry implies it's part of a larger word where the okurigana is not included in the reading. However, the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' Given this, しろ for 白 is technically correct as a partial reading for 白い. Re-evaluating based on the strict rules, this is not an error."
+  ],
+  "confidence": 0.5
+}

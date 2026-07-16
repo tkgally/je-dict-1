@@ -1,0 +1,13 @@
+{
+  "entry_id": "15432",
+  "screened_at": "2026-07-16T06:40:59Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry is for 薄味 (うすあじ), but in pair 4, 薄味 is given the reading うす. This is a partial reading, but it's not followed by okurigana. It's followed by a closing brace, indicating the reading should cover the entire kanji portion. Therefore, 薄味 should be うすあじ, not うす.",
+    "In pair 11, 濃 is given the reading こ. While こ is a valid reading for 濃, the context \"濃い味\" suggests that 濃い is the intended word, and 濃 should be read as こい. However, since the instruction states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors\", this might be considered correct if 濃 is treated as a standalone kanji. But given the context, it's ambiguous. If 濃い is the intended word, then 濃 should be こい. If 濃 is just the kanji, then こ is a valid reading. Given the following \"い味\", it's highly likely that 濃い is the intended word, making 濃=こ an incomplete reading for the word 濃い.",
+    "In pair 13, 仕上 is given the reading しあ. This is a partial reading, but it's not followed by okurigana. It's followed by a closing brace, indicating the reading should cover the entire kanji portion. Therefore, 仕上 should be しあげ, not しあ.",
+    "In pair 14, 味付 is given the reading あじつ. This is a partial reading, but it's not followed by okurigana. It's followed by a closing brace, indicating the reading should cover the entire kanji portion. Therefore, 味付 should be あじつけ, not あじつ."
+  ],
+  "confidence": 0.9
+}

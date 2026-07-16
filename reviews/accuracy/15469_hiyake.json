@@ -1,0 +1,24 @@
+{
+  "entry_id": "15469_hiyake",
+  "headword": "{日焼|ひや}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:56:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for the headword '日焼け'. '日焼け' refers to the *effect* of sun exposure on skin or materials, not a body part itself.",
+      "suggestion": "Remove 'body-part'. The tag 'appearance' or 'health' (for sunburn) could be considered, but 'general' is also acceptable if no more specific tag fits perfectly."
+    }
+  ]
+}

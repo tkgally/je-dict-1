@@ -1,0 +1,24 @@
+{
+  "entry_id": "15474_issakunen",
+  "headword": "{一昨年|いっさくねん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:56:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is marked as 'formal', but the explanation states it is 'more formal than the colloquial おととし', implying that 'いっさくねん' itself is not strictly formal but rather a neutral or slightly elevated alternative to a more casual term. It is not a formal word in the same way as, for example, legal or academic terminology.",
+      "suggestion": "neutral"
+    }
+  ]
+}

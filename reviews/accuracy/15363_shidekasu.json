@@ -1,0 +1,31 @@
+{
+  "entry_id": "15363_shidekasu",
+  "headword": "{仕|し}でかす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:54:13Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too broad and misses the nuance of 'pulling off' something bad, which is a key aspect of the word.",
+      "suggestion": "to pull off (something bad); to make a blunder; to cause trouble"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is too broad and misses the nuance of 'pulling off' something bad, which is a key aspect of the word.",
+      "suggestion": "to pull off (something bad); to make a blunder; to cause trouble"
+    }
+  ]
+}

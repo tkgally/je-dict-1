@@ -1,0 +1,24 @@
+{
+  "entry_id": "15323_koshikake",
+  "headword": "{腰掛|こしか}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:53:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'work' is not appropriate for the headword '腰掛け'. While one sense refers to a temporary job, the word itself does not directly mean 'work' as a general concept.",
+      "suggestion": "Remove 'work'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15319_kaijin",
+  "headword": "{灰燼|かいじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:53:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'destruction' is not in the valid tag list.",
+      "suggestion": "change to 'change' or 'general'"
+    }
+  ]
+}
