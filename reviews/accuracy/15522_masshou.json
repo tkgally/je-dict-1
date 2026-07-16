@@ -1,0 +1,24 @@
+{
+  "entry_id": "15522_masshou",
+  "headword": "{抹消|まっしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T15:28:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with a specific meaning like '抹消'.",
+      "suggestion": "action"
+    }
+  ]
+}
