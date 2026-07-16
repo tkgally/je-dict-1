@@ -1,0 +1,24 @@
+{
+  "entry_id": "15431_tekichuusuru",
+  "headword": "{的中|てきちゅう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:55:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a suru-verb that clearly denotes an action.",
+      "suggestion": "action"
+    }
+  ]
+}

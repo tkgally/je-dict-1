@@ -1,0 +1,38 @@
+{
+  "entry_id": "15316_futoku",
+  "headword": "{不徳|ふとく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:53:16Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'moral' is not in the valid tag list.",
+      "suggestion": "ethics"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'apology' is not in the valid tag list.",
+      "suggestion": "communication"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for the headword '不徳'. While often used in humble expressions, the word itself is not inherently humble language.",
+      "suggestion": "plain"
+    }
+  ]
+}

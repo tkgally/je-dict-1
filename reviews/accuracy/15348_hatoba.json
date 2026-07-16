@@ -1,0 +1,31 @@
+{
+  "entry_id": "15348_hatoba",
+  "headword": "{波止場|はとば}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:53:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'place' is not in the valid tag list.",
+      "suggestion": "geography"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sea' is not in the valid tag list.",
+      "suggestion": "nature"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15447_fuminijiru",
+  "headword": "{踏|ふ}みにじる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:56:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation 'betrayed the people's trust' for '国民の信頼を踏みにじった' is too strong and misrepresents the nuance of '踏みにじる' in this context. While 'trample on' or 'violate' trust implies a betrayal, 'betrayed' specifically suggests a breach of loyalty or confidence, which isn't the primary meaning conveyed by '踏みにじる' here. 'Trampled on' or 'violated' would be more accurate.",
+      "suggestion": "Harsh criticism was directed at the politician who trampled on the people's trust."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15466_toritomeru",
+  "headword": "{取|と}り{留|と}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:56:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is not appropriate for '取り留める'. The word primarily describes an action of saving or surviving, not a state of being or existence.",
+      "suggestion": "action"
+    }
+  ]
+}

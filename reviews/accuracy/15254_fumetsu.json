@@ -1,0 +1,24 @@
+{
+  "entry_id": "15254_fumetsu",
+  "headword": "{不滅|ふめつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:51:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '不滅', which specifically refers to something that lasts forever or cannot be destroyed, not just a general concept of time.",
+      "suggestion": "existence"
+    }
+  ]
+}

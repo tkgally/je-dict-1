@@ -1,0 +1,24 @@
+{
+  "entry_id": "15458_juuraidoori",
+  "headword": "{従来通|じゅうらいどお}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:56:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While 従来通り can be used in formal contexts, it is also very commonly used in neutral and even slightly informal settings to simply state 'as usual' or 'as before' without implying a high degree of formality. It's not exclusively formal language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

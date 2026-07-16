@@ -1,0 +1,24 @@
+{
+  "entry_id": "15493_tachiifurumai",
+  "headword": "{立|た}ち{居振|いふ}る{舞|ま}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:57:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word is not formal, but rather neutral or slightly elevated.",
+      "suggestion": "neutral"
+    }
+  ]
+}

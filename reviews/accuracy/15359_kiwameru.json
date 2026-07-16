@@ -1,0 +1,24 @@
+{
+  "entry_id": "15359_kiwameru",
+  "headword": "{究|きわ}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-16T06:54:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While the word implies serious pursuit, it is not inherently formal in register.",
+      "suggestion": "neutral"
+    }
+  ]
+}

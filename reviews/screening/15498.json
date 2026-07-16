@@ -1,0 +1,10 @@
+{
+  "entry_id": "15498",
+  "screened_at": "2026-07-16T06:48:56Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry provides {数多|あまた} as the primary reading. However, item 15 suggests an alternative reading {数多|すうた} which is not explicitly listed in the main entry's furigana. While the prompt states 'Do NOT flag partial readings as errors — they are correct by design' and 'Do NOT flag standalone noun readings that differ from compound readings', this case is about an alternative reading for the same kanji compound, not a partial reading or a standalone noun. The prompt also states 'If you are not confident a reading is actually wrong, do not flag it.' Given that the entry itself provides 'あまた' as the reading, and 'すうた' is presented as an alternative in a 'followed by' context, it's ambiguous whether 'すうた' is considered an 'incorrect' mapping or simply an unlisted alternative. However, since the task is to check 'kanji-reading mappings' and 'すうた' is presented as a reading for '数多', it should ideally be reflected in the main entry's furigana if it's a valid reading for the term itself, rather than just a contextual note. Without further context on how 'すうた' is used for '数多' (e.g., if it's a different meaning or a less common reading), it's difficult to definitively say it's 'incorrect', but it is a discrepancy with the primary reading provided."
+  ],
+  "confidence": 0.6
+}

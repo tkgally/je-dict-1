@@ -1,0 +1,11 @@
+{
+  "entry_id": "15485",
+  "screened_at": "2026-07-16T06:47:21Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 恩知 is given as おんし, but the full word is 恩知らず (おんしらず). This implies 知 is read as し, which is correct. However, the entry itself is {恩知|おんし}らず, meaning 恩知 is read as おんし. This is a partial reading, but it's not clear if it's an error or a stylistic choice for the dictionary entry. Given the instruction to not flag partial readings, and that 知 can be read as し, this might be acceptable. However, if the intention was to show the reading of 恩知 as a compound, it would typically be おんち. The provided reading おんし is unusual for 恩知 as a compound, though 知 can be し. This is borderline, but I will flag it for review due to the unusual compound reading.",
+    "The reading for 恩返 is given as おんがえ, but the full word is 恩返し (おんがえし). This implies 返 is read as がえ, which is incorrect. 返 is read as かえ. The rendaku rule would apply to the entire compound, not just the first part of the second kanji. The correct reading for 恩返し is おんがえし. Therefore, おんがえ is an incorrect partial reading for 恩返."
+  ],
+  "confidence": 0.8
+}

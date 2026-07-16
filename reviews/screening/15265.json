@@ -1,0 +1,10 @@
+{
+  "entry_id": "15265",
+  "screened_at": "2026-07-16T06:20:06Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '生徒' is 'せいと', but the provided furigana 'せいと' is followed by 'たちが{校庭|こうて)', implying 'せいと' is the reading for '生徒' and 'たちが' is separate. This is correct. However, the next entry '校庭' has furigana 'こうてい' but is followed by 'に{整列|せいれつ}'. This implies 'こうて' is the reading for '校庭' and 'い' is okurigana, which is incorrect. The full reading for '校庭' is 'こうてい'. The provided furigana 'こうてい' is correct for the kanji '校庭', but the context 'こうて' suggests a partial reading. This is a formatting issue rather than a reading error. The same applies to '乗客' where 'じょうきゃく' is the reading, but the context 'じょうきゃ' suggests a partial reading. The same applies to '旅行者' where 'りょこうしゃ' is the reading, but the context 'りょ' suggests a partial reading. The same applies to 'きちんと' where 'きちんと' is the reading, but the context 'きちん' suggests a partial reading. These are not errors in the reading itself, but rather in how the context is presented, making it seem like the reading is partial when it is not."
+  ],
+  "confidence": 0.8
+}
