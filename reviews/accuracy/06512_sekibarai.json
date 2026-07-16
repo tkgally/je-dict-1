@@ -8,24 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T09:26:29Z",
+  "reviewed_at": "2026-07-16T18:32:33Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body-part' is incorrect for '咳払い' (clearing one's throat). '咳払い' is an action, not a body part.",
-      "suggestion": "Replace 'body-part' with 'action'."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'time-general' is incorrect for '咳払い' (clearing one's throat). '咳払い' is not a concept related to time.",
-      "suggestion": "Remove 'time-general'."
-    }
-  ]
+  "issues": []
 }
