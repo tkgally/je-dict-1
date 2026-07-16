@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-24T09:31:21Z",
+  "reviewed_at": "2026-07-16T09:26:10Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.formality",
+      "dimension": "gloss",
+      "location": "definitions[2].gloss",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for 〜など. While it can be used in informal contexts, it is a neutral particle and is used across all levels of formality, including formal writing and speech. It is not inherently informal.",
-      "suggestion": "neutral"
+      "concern": "The gloss for sense 3 is misleading. While it can be used to humble oneself, it doesn't inherently mean '(something) like' in a dismissive way. It's more about downplaying the importance or quality of the preceding noun.",
+      "suggestion": "downplaying, trivializing"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[11]",
+      "severity": "error",
+      "concern": "The English translation 'I don't need something like this.' for 'こんなものなど要りません。' is too literal and misses the dismissive nuance of など in this context. It's more about 'I don't need this kind of thing at all' or 'This kind of thing is unnecessary.'",
+      "suggestion": "I don't need this kind of thing at all."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[13]",
+      "severity": "error",
+      "concern": "The English translation 'Please don't worry about something like that.' for 'そんなことなど気にしないでください。' is too literal and doesn't fully capture the dismissive or trivializing nuance of など. It's more like 'Please don't worry about such a trivial thing.' or 'Don't even bother with that.'",
+      "suggestion": "Please don't worry about such a trivial thing."
     }
   ]
 }
