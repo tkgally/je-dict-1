@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-14
+**Last updated**: 2026-07-17
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-17 (Routine v2: new-entries — 18 New Entries, IDs 29906–29923)
+Created 18 general-tier noun entries, **all 18 from the "seen in entry" priority queue** (candidates C22381–C22398, cited from entries 06517–06525, 29891, 29905) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. Three thematic clusters plus a tail: a road-safety set (from 06517/06518) — {中央分離帯|ちゅうおうぶんりたい} (median strip), ガードパイプ (pipe guardrail), ガードケーブル (cable barrier), {単管|たんかん} (steel scaffolding pipe); a first-aid set (from 06519) — {心肺蘇生|しんぱいそせい} (CPR), {救命講習|きゅうめいこうしゅう} (lifesaving course), {応急手当|おうきゅうてあて} (emergency first aid); a rock-paper-scissors set (from 06520) — グー (rock), チョキ (scissors), パー (paper), {後出|あとだ}し (showing one's hand late); plus religion ({山伏|やまぶし} yamabushi, {修験道|しゅげんどう} Shugendo, from 06522), and singletons {保護色|ほごしょく} (protective coloration), {口直|くちなお}し (palate cleanser), {水|みず}かき (webbing), {世界一周|せかいいっしゅう} (round-the-world trip), {研|と}ぎ{師|し} (blade sharpener). All plain nouns — no new verbs, i-adjectives, or kanji. No duplicates. §4 cross-model self-check on all 18 changed entries: **clean — 18/18, 0 flagged, 0 applied, 0 rejected**. $0.0078. The seen-in-entry queue is empty again and awaits curator/polish restock.
+
+- **Road safety (4)**: {中央分離帯|ちゅうおうぶんりたい} (median strip), ガードパイプ (pipe guardrail), ガードケーブル (cable barrier), {単管|たんかん} (steel scaffolding pipe)
+- **First aid (3)**: {心肺蘇生|しんぱいそせい} (CPR), {救命講習|きゅうめいこうしゅう} (lifesaving course), {応急手当|おうきゅうてあて} (emergency first aid)
+- **Rock-paper-scissors (4)**: グー (rock), チョキ (scissors), パー (paper), {後出|あとだ}し (showing one's hand late)
+- **Religion / nature / everyday (7)**: {山伏|やまぶし} (yamabushi), {修験道|しゅげんどう} (Shugendo), {保護色|ほごしょく} (protective coloration), {口直|くちなお}し (palate cleanser), {水|みず}かき (webbing), {世界一周|せかいいっしゅう} (round-the-world trip), {研|と}ぎ{師|し} (blade sharpener)
+
 ### 2026-07-16 (Routine v2: new-entries — 18 New Entries, IDs 29888–29905)
 Created 18 general-tier entries, **all 18 from the "seen in entry" priority queue** (candidates C22361/C22363–C22372/C22374–C22380, cited from entries 29878/29881/29883 and the 06505–06516 nature block) — internal-completeness gaps the dictionary already referenced. Of the 20 seen-in-entry candidates, **2 were duplicates removed rather than created**: テントウムシ (= existing てんとう{虫|むし} at 06497) and アシナガバチ (= existing {足長蜂|あしながばち} at 28005). This **cleared the seen-in-entry queue**. The bulk is a nature/insect cluster drawn from the 06513–06516 entries — {擬態|ぎたい} (mimicry; noun/suru), {女王蜂|じょおうばち} (queen bee), {働|はたら}き{蜂|ばち} (worker bee), クマバチ (carpenter bee), キリギリス (katydid), コオロギ (cricket), トノサマバッタ (migratory locust), オランウータン (orangutan), シルバーバック (silverback), {前足|まえあし} (foreleg), {草|くさ}むら (grassy thicket) — plus a handful of science/medical/weather/food/time singletons. Conjugation tables added to the 1 new suru-verb ({擬態|ぎたい}) and 1 new i-adjective (わざとらしい); 1 new kanji ({珪|けい} → 02785_kei_none_silica, from {珪素|けいそ}). §4 cross-model self-check on all 18 changed entries: **12 clean, 6 flagged — 0 applied, 6 rejected** — all in-list semantic-tag breadth nits (health→okubi, +nature/animal-general→擬態), a gloss-broadening nit (working-bee figurative sense, already in the definition), a narrower-species gloss (Oriental migratory locust vs migratory locust), a translation "contradiction" already explained in the notes (アリとキリギリス = The Ant and the Grasshopper), and one null flag (suggestion equalled the current gloss); rejected per the in-list-narrowness policy. $0.0078. Removed 2 stale duplicate candidates (C22362, C22373); added {保護色|ほごしょく} (protective coloration) and {口直|くちなお}し (palate cleanser) as referenced-but-missing candidates. The seen-in-entry queue is empty again and awaits curator/polish restock.
 
@@ -81,12 +89,4 @@ Created 17 general-tier entries. The **5 "seen in entry" candidates** (C22324/C2
 - **Religion / people (4)**: {異教徒|いきょうと} (pagan), {異教|いきょう} (paganism), {衛兵|えいへい} (sentry), {統率者|とうそつしゃ} (leader/commander)
 - **State / abstract nouns (5)**: {偏愛|へんあい} (favoritism; suru), {困憊|こんぱい} (utter exhaustion; suru), {停滞期|ていたいき} (period of stagnation), {自然観|しぜんかん} (view of nature), {宇宙観|うちゅうかん} (view of the universe)
 - **Other (3)**: {消防隊|しょうぼうたい} (fire brigade), {他郷|たきょう} (place away from home; literary), {無価値|むかち} (worthless; na-adjective)
-
-### 2026-07-14 (Routine v2: new-entries — 20 New Entries, IDs 29819–29838)
-Created 20 general-tier entries, **all 20 from the "seen in entry" priority queue** (candidates C22320–C22341, cited from entries 06471–06479, 29808/29811/29815) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. One stale candidate (きたならしい, the kana form of the existing {汚|きたな}らしい at 29808) was removed rather than created. Two thematic clusters plus a tail: a composting/gardening set (mostly from 06471) and a packaged-food-label set (from 06479); plus streaming/app terms and a handful of everyday words including one i-adjective (むさ{苦|くる}しい). Conjugation tables added to the 2 new suru-verbs and 1 new i-adjective; no new kanji. §4 cross-model self-check on all 20 changed entries: **18 clean, 2 flagged — 0 applied, 2 rejected** — both were in-list semantic-tag narrowness nits (daily-life on {不使用|ふしよう}, food on {酸化防止剤|さんかぼうしざい}), rejected per the in-list-narrowness policy. $0.0086. The seen-in-entry queue is empty again and awaits curator/polish restock.
-
-- **Composting/gardening (4)**: コンポスト (compost, compost bin), {刈|か}り{草|くさ} (grass clippings), {枯|か}れ{枝|えだ} (dead branch), {堆肥化|たいひか} (composting; suru)
-- **Food-label terms (4)**: {不使用|ふしよう} (X-free; non-use), {乳化剤|にゅうかざい} (emulsifier), {酸化防止剤|さんかぼうしざい} (antioxidant), {原材料名|げんざいりょうめい} (ingredients list)
-- **Streaming/app terms (7)**: プロフ (profile; casual), {実況者|じっきょうしゃ} (streamer, commentator), Vチューバー (VTuber), プッシュ (push, notify; suru), リマインダー (reminder), {通知音|つうちおん} (notification sound), {微課金|びかきん} (light in-app spending; slang)
-- **Everyday & other (5)**: {数回|すうかい} (several times), むさ{苦|くる}しい (squalid, shabby; adj-i), {果物|くだもの}{狩|が}り (fruit picking), {登録料|とうろくりょう} (registration fee), スポーツジム (fitness gym)
 
