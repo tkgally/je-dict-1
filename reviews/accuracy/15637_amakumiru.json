@@ -1,0 +1,24 @@
+{
+  "entry_id": "15637_amakumiru",
+  "headword": "{甘|あま}く{見|み}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-17T12:44:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'attitude' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

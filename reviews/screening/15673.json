@@ -1,0 +1,10 @@
+{
+  "entry_id": "15673",
+  "screened_at": "2026-07-17T12:29:10Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for {遮|さえぎ} in pair 13 is incorrect. The kanji 遮 is read さえぎ when followed by る to form 遮る (さえぎる). However, the provided reading is just さえぎ, which is a partial reading. While partial readings are generally allowed, in this specific context, it seems like an incomplete representation of the verb's reading. The instruction states 'the reading covers ONLY the kanji portion', and 'Do NOT flag partial readings as errors — they are correct by design.' However, the example given for partial readings is '先行→さきゆ followed by き (先行き=さきゆき)', where さきゆ is a valid part of さきゆき. In this case, さえぎ is not a standalone reading of 遮, but rather part of さえぎる. If the intention was to show the reading for the verb 遮る, then {遮|さえぎ}る would be more appropriate. Given the context 'る: to bloc', it strongly suggests the verb 遮る. Therefore, {遮|さえぎ} is an incomplete and potentially misleading partial reading for the verb form."
+  ],
+  "confidence": 0.8
+}

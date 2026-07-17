@@ -1,0 +1,31 @@
+{
+  "entry_id": "15611_kurikoshi",
+  "headword": "{繰|く}り{越|こ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-17T12:42:54Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '繰り越し'. While it's often used in business contexts, the word itself is neutral and commonly used in everyday situations (e.g., unused data, vacation days).",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and misleading. '繰り越し' specifically refers to financial or administrative actions related to transferring balances or entitlements.",
+      "suggestion": "finance"
+    }
+  ]
+}

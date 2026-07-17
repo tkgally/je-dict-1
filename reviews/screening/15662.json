@@ -1,0 +1,10 @@
+{
+  "entry_id": "15662",
+  "screened_at": "2026-07-17T12:27:55Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {半月|はんつき} is followed by (はんつき), which is redundant. However, the reading itself is correct for the first definition of 半月. The 10th entry for 半月 is given as はんげつ, which is also a correct reading for the second definition of 半月. The prompt asks to flag incorrect kanji-reading mappings, and both はんつき and はんげつ are valid readings for 半月 depending on the context. Given the context of a dictionary entry, it's common for a single kanji combination to have multiple readings and meanings. Therefore, neither of these is strictly 'incorrect' as a mapping. However, the prompt also states 'Entry: {半月|はんつき} (はんつき) — noun', which implies that the primary reading for the entry is はんつき. The subsequent appearance of {半月|はんげつ} suggests a different reading for the same kanji, which is not an error in itself but rather a different valid reading. Without more context on how multiple readings for the same kanji are handled in this dictionary format, it's hard to definitively flag it as an 'error' in mapping. However, if the expectation is that the initial entry defines the *only* reading for that specific entry, then the later appearance of a different reading might be considered an inconsistency in the provided data structure, but not necessarily an incorrect mapping of kanji to reading."
+  ],
+  "confidence": 0.6
+}

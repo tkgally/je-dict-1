@@ -1,0 +1,24 @@
+{
+  "entry_id": "15719_hitokugiri",
+  "headword": "{一区切|ひとくぎ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-17T12:46:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for this headword. While it relates to periods, it's more about a 'stopping point' or 'milestone' within a period, not 'time' itself.",
+      "suggestion": "Remove 'time' and replace it with 'general' or 'abstract' if a more specific tag isn't available."
+    }
+  ]
+}
