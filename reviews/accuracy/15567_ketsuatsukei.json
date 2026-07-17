@@ -1,0 +1,24 @@
+{
+  "entry_id": "15567_ketsuatsukei",
+  "headword": "{血圧計|けつあつけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-17T12:41:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'object' is not in the valid list.",
+      "suggestion": "tool"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15728_zenryokuwotsukusu",
+  "headword": "{全力|ぜんりょく}を{尽|つ}くす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-17T12:46:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'effort' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}
