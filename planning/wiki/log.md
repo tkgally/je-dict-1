@@ -2,6 +2,21 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-17] maintenance | Harvest the 5 loose 2026-07-16 observations (four reinforcements + one genuinely-new escalation — Tooling **item 20** [53rd no-op confirmation AND the notes priority lane is now **exhausted**: `score_note_quality.py --below 30` returns nothing dictionary-wide → escalate the scorer-bug-pair fix + recommend retiring/repurposing the notes lane toward cross_refs/links]; Cleanup **P21** [zero-link create-era band crosses into the 06500 Jan-2026 block, unbroken ~06150→06508, species/material `noentry` carve-out reconfirmed]) + Activity H (twentieth metrics refresh) + Activity A (overview tier sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested-observation-lines signal = 4 permanent template bullets + 5 real loose observations)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-1slpby`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched); §5 metrics line appended; **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 5 loose observations from the 2026-07-16 routine polish run (priority lane 00335–00959 + frontier 06500–06508):
+  - **Tooling item 20** — fifty-third no-op confirmation (7/8 priority-lane no-op on the same closed-tier basic i-adjective set; lone real fix 00763 うるさい stale-`noentry` なあ→29262_naa, off the scorer's axis). **Genuinely-new escalation**: `score_note_quality.py --below 30` now returns **nothing dictionary-wide** (independently confirmed this session) — the notes lane has hit its floor with only scorer false-positives left. Escalated the scorer-bug-pair fix and added a recommendation to **retire/repurpose the notes lane toward cross_refs/links**, where the real frontier gaps (Cleanup P21 inline links + item-19 stale `noentry`) actually are.
+  - **Cleanup P21** — the zero-inline-link create-era band crosses into the **06500 Jan-2026 creation block** (06500 ペンギン / 06501 路地 / 06502 横断歩道 / 06503 ねじ回し / 06508 鍋敷き, zero `⟦...⟧` in examples AND notes despite complete furigana); band now unbroken ~06150→06508. The [entry] datum (06500/06501/06508 katakana species/material-name citations left `noentry`) reconfirmed the 2026-07-03/07-08 species/material/bound-morpheme carve-out — not a candidate gap.
+- **[H] Metrics trend — twentieth refresh** of `topics/quality-metrics.md` (16 new metrics lines, 270→286 runs / ~7,839 adjudicated flags): the escalation-free window holds a **second consecutive refresh** (runs 271–286 escalated **0**), `tags` apply-among-decided **recovered to 62.5%** (115/184) on the genuinely-contaminated 15xxx off-vocab creation batch (15100–15563, real 1:1 not-in-list migrations), furigana screening **pure noise (0/75)**, review queue **held just above its 13,227 floor** (range-bound 13,239–13,330 — first refresh in several with no new floor, +50 new-entry inflow balancing the drain), OpenRouter peaked ~$0.21/day, detectors `furigana_format` 1,195 / `artifacts` 12 / `tag_drift` unknown-semantic 7,505. No metric moving the wrong way → no new `[pattern]` observation logged.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,893 tagged `general` + the 20 untiered 29181–29200, of 29,696 total as of 2026-07-16, per `build/audit_tiers.py`).
+
 ## [2026-07-15] maintenance | Harvest the 9 loose 2026-07-15 observations (eight reinforcements + one genuinely-new tool bug — Cleanup **P20** [off-vocab cohort reaches the 15100s], **P21** [zero-link band → 06490–06499, notes-linking cost tracks note density], **P17** [fifth formality sub-family: colloquial i-adjectives auto-`formal`]; Tooling **item 17** [20th confirmation, `general`-too-broad on the frontier §4 self-check], **item 20** [51st/52nd no-op], **item 6** [cheap `adjective-i`+`formal` cut], **new item 33** [`prioritize_polishing.py --task notes` crashes `KeyError: 'furigana'`]) + Activity A (overview tier sync)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested observation lines the top signal)
