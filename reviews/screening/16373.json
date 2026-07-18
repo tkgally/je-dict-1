@@ -1,0 +1,10 @@
+{
+  "entry_id": "16373",
+  "screened_at": "2026-07-18T04:40:26Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "5. 弾 → ひ: The reading 'ひ' for 弾 is a partial reading, but the provided context \"くとき\" suggests the full reading should be 'ひく'. The instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example given for partial reading is \"先行→さきゆ followed by き (先行き=さきゆき)\", where the okurigana is explicitly outside the markup. In this case, 'く' is part of the word '弾く', and 'ひ' is only part of the kanji's reading. If the intention was to mark only the kanji, then '弾|ひ' is correct, but it's ambiguous given the context. If the full word '弾く' was intended to be marked, then '弾|ひく' would be expected. Given the strict rule about partial readings, I will not flag this as an error, but it's a point of ambiguity in the instructions."
+  ],
+  "confidence": 0.8
+}
