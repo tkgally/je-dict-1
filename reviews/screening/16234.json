@@ -1,0 +1,12 @@
+{
+  "entry_id": "16234",
+  "screened_at": "2026-07-18T21:24:17Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {実技|じつぎ} (じつぎ) is followed by a partial reading {実技|じ) in pair 8. This is an incomplete furigana reading for the kanji.",
+    "The entry for {実|じつ} (actual, ) and {技|ぎ} (skill, t) are partial readings of the kanji. While partial readings are allowed, the context provided (actual, ) and (skill, t) suggests these might be definitions or explanations rather than just partial readings within a larger word. However, given the instruction to NOT flag partial readings, and the format {kanji|reading}okurigana, these are technically correct as partial readings. I will not flag them as errors based on the instructions.",
+    "The entry for {科目|かもく} (practica) and {指導|しどう} (practica) are followed by a word in parentheses that seems to be an English translation or explanation rather than part of the Japanese text or okurigana. This is not an error in the kanji-reading mapping itself, but rather an unusual formatting choice if it's meant to be part of the Japanese text. However, since the instruction is to check kanji-reading mappings, and the mapping itself is correct, I will not flag it as an error."
+  ],
+  "confidence": 0.8
+}
