@@ -2,6 +2,24 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-18] maintenance (second run) | Harvest the 7 loose 2026-07-18 observations (six reinforcements — Cleanup **P20** [off-vocab cohort contiguous through 16166, two accuracy-reviews migrated 85+60 tags at ~39%/~30%], **P21** [frontier drains 06527–06532: examples+tags done in-run, dense notes deferred], **P13** [frontier-applied sole-`general`→specific on the swimming/tide/appetite cohort]; Tooling **item 20** [55th/56th no-op confirmation — two independent modes name inline-link coverage as the un-credited axis in one run-day], **item 23** [<10%-signal reconfirmed, ~12–15 usable of ~600 sampled]) + Activity H (**twenty-first** metrics refresh) + Activity A (overview tier sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 11 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-3yeoza`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 7 loose observations from the two 2026-07-18 accuracy-review runs (15767–15966, 15967–16166) and the 2026-07-18 routine polish session 006 (frontier 06527–06532):
+  - **Cleanup P20 (second 2026-07-18 update)** + `backlog-queue.json` `unknown-semantic-tags` (scope 7,689→7,323) — off-vocab creation-batch cohort confirmed contiguous through **16166** (85 tags/76 entries ~39% + 60/199 ~30%, all 1:1-migratable `claude-opus-4-6` pre-enforcement bands); dedicated 15000–17000 `check_tag_drift --check unknown-semantic` systemic-fix sweep recommended.
+  - **Cleanup P21 (second 2026-07-18 update)** — the sequential frontier drains through **06527–06532**: examples inline-linked + sole-`general` tags fixed in-run, dense notes deferred for candidate triage; sharpens the notes-only residue into the frontier lane's two-phase workflow.
+  - **Cleanup P13 (2026-07-18 update)** — the frontier-applied high-precision sole-`general`→specific family reaches the 06527–06532 swimming/tide/appetite cohort (背泳ぎ→sports, 満潮/干潮→nature, 空腹→health, applied in-run).
+  - **Tooling item 20 (55th/56th confirmation)** — two independent modes (accuracy-review + polish session 006) each diagnosed the notes-priority no-op loop in one run-day, both landing on inline-link coverage as the missing signal; recommend a link-coverage credit / `prioritize_polishing.py` full-`⟦⟧`-coverage down-weight.
+  - **Tooling item 23 (reinforcement)** — the 2026-07-18 new-entries run sampled ~600 of 1,116 candidates, only ~12–15 usable, seen-in-entry lane near-empty (3); standing `clean_up_candidates_list.md` purge + restock recommendation, doubly urgent.
+- **[H] Metrics trend — twenty-first refresh** of `topics/quality-metrics.md` (12 new metrics lines, 286→298 runs / ~8,130 adjudicated flags): **third consecutive fully escalation-free refresh** (runs 287–298 escalated **0**), `tags` apply-among-decided a **series-high 81.3%** (183/225) on the genuinely-contaminated 15767–16166 batch (an 85-tag/76-entry bulk off-list→in-list migration dominating the applies), furigana screening near-pure noise (**1 applied of 58** ≈1.7%), review queue set a **new floor at 13,076**, OpenRouter peaked ~$0.52/day, detectors 2026-07-18 `furigana_format` 1,169 / `artifacts` 12 / `tag_drift` unknown-semantic 7,323. No metric moving the wrong way → no new `[pattern]` observation logged.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,923 tagged `general` + the 20 untiered 29181–29200, of 29,726 total as of 2026-07-18, per `build/audit_tiers.py`).
+
 ## [2026-07-18] maintenance | Harvest the 3 loose 2026-07-17 observations (all reinforcements — Cleanup **P21** [sequential frontier begins *draining* the 06500 Jan-2026 block: 06517–06520 got full ⟦...⟧ coverage, first entries of the flagged block to be linked], **P20** [off-vocab cohort extends into 15567–15766, 28% flag rate, ~45 migrations]; Tooling **item 17** [21st confirmation of the two-regime split], **item 24** [100% furigana-screen FP on 15567–15766], **item 20** [54th no-op confirmation + a precise per-POS restatement of scorer-bug #2 for adjective-i]) + Activity A (overview tier sync) + Activity E (wiki cross-ref lint, 0 broken)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation-lines the top signal)
