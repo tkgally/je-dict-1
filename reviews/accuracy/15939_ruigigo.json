@@ -1,0 +1,24 @@
+{
+  "entry_id": "15939_ruigigo",
+  "headword": "{類義語|るいぎご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:49:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is too narrow for '類義語' (synonym). While synonyms are used in education, the word itself is a linguistic concept, not solely an educational one.",
+      "suggestion": "language"
+    }
+  ]
+}

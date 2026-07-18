@@ -1,0 +1,10 @@
+{
+  "entry_id": "15962",
+  "screened_at": "2026-07-18T03:44:37Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 筆記用具 is given as {筆記用具|ひっきようぐ} (ひっきようぐ). The format specifies that the reading covers ONLY the kanji portion. In this case, the reading `ひっきようぐ` covers all kanji `筆記用具`. However, the example {走|はし}る shows that `はし` is the reading for `走`, and `る` is okurigana. The entry for 筆記用具 does not have okurigana. Therefore, the reading `ひっきようぐ` for `筆記用具` is correct according to the format. The problem is in the example given in the prompt, which is confusing. The example {走|はし}る means 走=はし (correct), る is okurigana outside the markup. This implies that if there is no okurigana, the reading should cover all kanji. The entry for 筆記用具 is {筆記用具|ひっきようぐ}, which means 筆記用具=ひっきようぐ. This is consistent with the rule that the reading covers ONLY the kanji portion. The example {走|はし}る is for a verb with okurigana. The entry for 筆記用具 is a noun without okurigana. So, the reading `ひっきようぐ` for `筆記用具` is correct. The prompt's example is not directly applicable to this case."
+  ],
+  "confidence": 0.8
+}

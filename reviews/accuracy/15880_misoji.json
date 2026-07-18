@@ -1,0 +1,31 @@
+{
+  "entry_id": "15880_misoji",
+  "headword": "{三十路|みそじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:48:55Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'age' is not in the valid tag list.",
+      "suggestion": "time-general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

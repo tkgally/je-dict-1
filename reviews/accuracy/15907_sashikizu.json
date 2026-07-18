@@ -1,0 +1,31 @@
+{
+  "entry_id": "15907_sashikizu",
+  "headword": "{刺|さ}し{傷|きず}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:49:23Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medical' is not in the valid tag list.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '刺し傷' (puncture/stab wound) is not a body part.",
+      "suggestion": "Remove 'body-part'"
+    }
+  ]
+}

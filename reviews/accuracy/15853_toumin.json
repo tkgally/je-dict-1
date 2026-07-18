@@ -1,0 +1,24 @@
+{
+  "entry_id": "15853_toumin",
+  "headword": "{冬眠|とうみん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:48:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is too broad and not specific enough for the headword's primary meaning.",
+      "suggestion": "animal-mammal"
+    }
+  ]
+}

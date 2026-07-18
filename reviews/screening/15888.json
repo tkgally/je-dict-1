@@ -1,0 +1,10 @@
+{
+  "entry_id": "15888",
+  "screened_at": "2026-07-18T03:36:08Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '試' should be 'ため' when followed by 'してみる' or 'ためす'. 'こころみる' is a valid reading for '試みる', but the provided context '試 → こころ (followed by: みる (to att))' suggests '試みる' which would be {試|こころ}みる. However, the entry format specifies that the reading covers ONLY the kanji portion, and 'こころ' is a partial reading for '試みる'. If the full word is '試みる', then 'こころ' is a correct partial reading. If the full word is '試す', then 'ため' would be the correct reading. Given the context 'みる (to att)', it's likely '試みる', making 'こころ' a correct partial reading. Re-evaluating, the instruction 'Do NOT flag partial readings as errors — they are correct by design.' means 'こころ' for '試' is acceptable if it's part of a larger word like '試みる'. Therefore, this is not an error."
+  ],
+  "confidence": 0.5
+}

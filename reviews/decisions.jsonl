@@ -3240,3 +3240,11 @@
 {"ts": "2026-07-17T12:57:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 15, "note": "family: in-list too-broad/vague general->specific substitution"}
 {"ts": "2026-07-17T12:57:00Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 19, "note": "family: okurigana/compound splits + prompt-context truncation"}
 {"ts": "2026-07-17T15:31:00Z", "entry": "06524", "src": "self-check", "dim": "tags", "sev": "error", "decision": "apply", "note": "sole-general placeholder -> leisure (dice)"}
+{"ts": "2026-07-18T04:12:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "apply", "n": 85, "note": "family: off-list semantic tag -> in-list migration (76 entries)"}
+{"ts": "2026-07-18T04:12:00Z", "entry": "15786", "src": "accuracy", "dim": "translation", "sev": "error", "decision": "apply", "note": "ex3 refugees->fugitives; headword is fugitive"}
+{"ts": "2026-07-18T04:12:00Z", "entry": "15895", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "apply", "note": "'to exhaust' ambiguous -> 'to use up'"}
+{"ts": "2026-07-18T04:12:00Z", "entry": "15945", "src": "accuracy", "dim": "gloss", "sev": "error", "decision": "apply", "note": "removed 'high tide' (=満潮); 高潮 is storm surge"}
+{"ts": "2026-07-18T04:12:00Z", "entry": "15946", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "apply", "note": "明るみ あき->あか"}
+{"ts": "2026-07-18T04:12:00Z", "src": "accuracy", "dim": "tags", "sev": "error", "decision": "reject", "n": 7, "note": "family: formality flag; entry notes support/neutral-not-contradicted"}
+{"ts": "2026-07-18T04:12:00Z", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "reject", "n": 9, "note": "family: in-list too-broad/narrow & general->specific substitution"}
+{"ts": "2026-07-18T04:12:00Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 8, "note": "family: jukujikun/entry-discussed/rendaku/okurigana-split/index-confusion FP"}

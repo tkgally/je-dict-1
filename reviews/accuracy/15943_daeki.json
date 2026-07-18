@@ -1,0 +1,24 @@
+{
+  "entry_id": "15943_daeki",
+  "headword": "{唾液|だえき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:49:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '唾液' is not 'formal'; it is the standard, neutral term for saliva in Japanese.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

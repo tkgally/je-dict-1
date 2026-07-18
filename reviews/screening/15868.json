@@ -1,0 +1,11 @@
+{
+  "entry_id": "15868",
+  "screened_at": "2026-07-18T03:33:32Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 親 (oya) is given as した (shita) in pair 5, which is incorrect. The correct reading for 親 in this context (親しい友人) should be した (shita) for 親しい, but 親 itself is read as おや (oya) or しん (shin) in compounds. The reading 'した' belongs to the adjective '親しい' (shitashii), not the kanji '親' alone.",
+    "The reading for 合 (a) is given as あ (a) in pair 8. While 'あ' is part of the reading for '合っている' (atteiru), the kanji '合' itself is typically read as 'ごう' (gou) or 'あ' (a) in compounds. In this case, 'あ' is the correct reading for the kanji '合' when it's part of the verb '合う' (au), but the provided context '合っている' implies that 'あ' is the reading for the kanji '合' and 'っている' is okurigana. This is technically correct based on the rule 'the reading covers ONLY the kanji portion', but it's a common point of confusion. Given the example '走=はし (correct), る is okurigana outside the markup', this is likely intended to be correct."
+  ],
+  "confidence": 0.8
+}

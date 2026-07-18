@@ -1,0 +1,24 @@
+{
+  "entry_id": "15846_tenteki",
+  "headword": "{天敵|てんてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:48:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'relationship' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

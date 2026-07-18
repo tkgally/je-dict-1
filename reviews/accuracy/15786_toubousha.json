@@ -1,0 +1,24 @@
+{
+  "entry_id": "15786_toubousha",
+  "headword": "{逃亡者|とうぼうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:47:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation uses 'refugees' which has a different connotation than 'fugitives' or 'runaways'. While some refugees might be 'fugitives' in a broader sense, the Japanese '逃亡者' in this context refers to someone fleeing danger, aligning more with 'fugitives' or 'escapees' rather than the specific legal/humanitarian status of 'refugees'.",
+      "suggestion": "During wartime, many fugitives crossed the border seeking a safe place."
+    }
+  ]
+}

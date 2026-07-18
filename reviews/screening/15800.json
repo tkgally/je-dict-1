@@ -1,0 +1,10 @@
+{
+  "entry_id": "15800",
+  "screened_at": "2026-07-18T03:25:31Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for `会社` has `{忘年会|ぼうねん)` where `忘年会` is the kanji and `ぼうねん` is the reading. This is a partial reading, but the instructions state \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example given for partial readings is `先行→さきゆ` followed by `き (先行き=さきゆき)`, where the partial reading `さきゆ` is for `先行`. In the current case, `ぼうねん` is a partial reading of `忘年会`, not `会社`. This seems like an error in how the furigana is applied, as `ぼうねん` should be the reading for `忘年` if it were a partial reading of a compound, or `ぼうねんかい` for `忘年会`. The furigana `ぼうねん` is applied to the entire `忘年会` kanji, but it's only a partial reading of it. This is inconsistent with the example of partial readings provided."
+  ],
+  "confidence": 0.8
+}
