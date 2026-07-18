@@ -1,0 +1,24 @@
+{
+  "entry_id": "16148_yoshin",
+  "headword": "{余震|よしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T12:23:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'weather' is incorrect for '余震' (aftershock). Aftershocks are geological phenomena, not weather-related.",
+      "suggestion": "geography"
+    }
+  ]
+}

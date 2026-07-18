@@ -1,0 +1,10 @@
+{
+  "entry_id": "16098",
+  "screened_at": "2026-07-18T12:35:13Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `情熱的` is `じょうねつてき`, but the provided reading is `じょうね` which is a partial reading. While partial readings are generally allowed, in this specific case, the partial reading `じょうね` is followed by `つてき` outside the furigana, making the full word `情熱的` read as `じょうねつてき`. The instruction states that the reading covers ONLY the kanji portion. Therefore, `情熱的` should be `じょうねつてき` if the entire kanji is covered, or `情熱` should be `じょうねつ` if only that part is covered. The current split `情熱的|じょうね` is problematic because `的` is part of the kanji and is not covered by the furigana."
+  ],
+  "confidence": 0.8
+}

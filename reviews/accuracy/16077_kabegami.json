@@ -1,0 +1,24 @@
+{
+  "entry_id": "16077_kabegami",
+  "headword": "{壁紙|かべがみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T12:22:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'house' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

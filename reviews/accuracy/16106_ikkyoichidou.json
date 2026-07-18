@@ -1,0 +1,24 @@
+{
+  "entry_id": "16106_ikkyoichidou",
+  "headword": "{一挙一動|いっきょいちどう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T12:23:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'actions' is not in the valid list.",
+      "suggestion": "action"
+    }
+  ]
+}
