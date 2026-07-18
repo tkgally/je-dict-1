@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-18] maintenance | Harvest the 3 loose 2026-07-17 observations (all reinforcements — Cleanup **P21** [sequential frontier begins *draining* the 06500 Jan-2026 block: 06517–06520 got full ⟦...⟧ coverage, first entries of the flagged block to be linked], **P20** [off-vocab cohort extends into 15567–15766, 28% flag rate, ~45 migrations]; Tooling **item 17** [21st confirmation of the two-regime split], **item 24** [100% furigana-screen FP on 15567–15766], **item 20** [54th no-op confirmation + a precise per-POS restatement of scorer-bug #2 for adjective-i]) + Activity A (overview tier sync) + Activity E (wiki cross-ref lint, 0 broken)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; unharvested-observation-lines the top signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-v909r5`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 3 loose observations from the 2026-07-17 routine polish run (frontier 06517–06520 + notes priority lane) and the 2026-07-17 accuracy-review (15567–15766):
+  - **Cleanup P21** — the sequential frontier begins **draining** the flagged 06500 Jan-2026 creation block: 06517 ガードレール / 06518 足場 / 06519 応急処置 / 06520 じゃんけん received full `⟦...⟧` coverage in examples AND notes (first entries of the 06500 block to be linked, previously flagged naked 2026-07-16); ~15 candidates harvested from their `noentry` glossaries. Band drained sequentially from the cursor, but the dedicated 06500–06999 sweep remains higher-throughput (gated on Tooling item 15).
+  - **Cleanup P20 + Tooling item 17 (21st confirmation)** — the 15567–15766 accuracy-review flagged 56/200 = 28% on `tags`, the standard two-regime split (~45 genuine off-vocab migrations in this ~2026-03 pre-closed-vocabulary band vs ~15 rejected in-list `general`-too-broad narrowness nits); cohort extends into the 15700s.
+  - **Tooling item 24** — the 15567–15766 furigana screen ran 19/191 at 100% FP (all documented okurigana-split/truncation/contextual-reading families; deep pass skipped per the known-noise shortcut) — tag drift and furigana quality confirmed independent per range.
+  - **Tooling item 20 (54th no-op confirmation)** — the priority lane ran 5/6 no-op on closed-tier basics (lone fix 00959 an off-scorer-axis kana-in-furigana wrapper), priorities regenerated + cursor reset to line 1 per §2; plus a precise per-POS restatement of scorer-bug #2 (`adjective-i` `required_sections=['usage']` misses an unheadered opening usage paragraph → credit it in `find_sections`, or drop `'usage'` from `adjective-i` required sections).
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,911 tagged `general` + the 20 untiered 29181–29200, of 29,714 total as of 2026-07-18, per `build/audit_tiers.py`).
+- **[E] Lint** — scanned all relative cross-references across the wiki (`*.md`): **0 broken file links**, validating the item-17/20/24 + P20 links added this session.
+
+**Activity H (metrics trend) not due**: only 5 new `metrics-history.jsonl` lines (291 → 292 with this run's) since the twentieth refresh at 286 runs (threshold ≥10).
+
 ## [2026-07-17] maintenance | Harvest the 5 loose 2026-07-16 observations (four reinforcements + one genuinely-new escalation — Tooling **item 20** [53rd no-op confirmation AND the notes priority lane is now **exhausted**: `score_note_quality.py --below 30` returns nothing dictionary-wide → escalate the scorer-bug-pair fix + recommend retiring/repurposing the notes lane toward cross_refs/links]; Cleanup **P21** [zero-link create-era band crosses into the 06500 Jan-2026 block, unbroken ~06150→06508, species/material `noentry` carve-out reconfirmed]) + Activity H (twentieth metrics refresh) + Activity A (overview tier sync)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 9 unharvested-observation-lines signal = 4 permanent template bullets + 5 real loose observations)
