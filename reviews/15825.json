@@ -1,0 +1,156 @@
+{
+  "entry_id": "15825",
+  "word": "{音読|おんどく}",
+  "reading": "おんどく",
+  "reviewed_at": "2026-07-18T03:54:40Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 14,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "音読",
+      "reading": "おんどく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "教科書",
+      "reading": "きょうかしょ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "語学",
+      "reading": "ごがく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "学習",
+      "reading": "がくしゅう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "効果的",
+      "reading": "こうかてき",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "言",
+      "reading": "い",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "毎朝",
+      "reading": "まいあさ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "子供",
+      "reading": "こども",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "教室",
+      "reading": "きょうしつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "練習",
+      "reading": "れんしゅう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "音読",
+      "reading": "おんよ",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 音読 is おんどく, not おんよ.",
+      "severity": "error"
+    },
+    {
+      "field": "notes",
+      "kanji": "発表",
+      "reading": "はっぴょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "黙読",
+      "reading": "もくどく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "朗読",
+      "reading": "ろうどく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 14,
+    "flagged": 1,
+    "ok": 13,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "15825",
+    "screened_at": "2026-07-18T03:28:13Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for {音読|おんよ} in pair 11 is incomplete. It should be {音読|おんどく} or {音読|おんよみ} if it refers to the noun form.",
+      "The reading for {効果的|こうかて} in pair 4 is incomplete. It should be {効果的|こうかてき}."
+    ],
+    "confidence": 0.9
+  }
+}

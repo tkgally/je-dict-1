@@ -1,0 +1,10 @@
+{
+  "entry_id": "15784",
+  "screened_at": "2026-07-18T03:23:50Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 義兄 in pair 11 is given as にい, but the full word is 義兄 (gikei). While にい is a common reading for 兄, it is not the reading for the compound 義兄. It seems to be a partial reading for 兄 within the compound, but the instruction states that the reading covers ONLY the kanji portion, and 義兄 is a single kanji portion here. If the intention was to read only 兄, it should have been marked as {兄|にい} within the context of 義兄. As it stands, {義兄|にい} is incorrect because 義兄 is not read as にい."
+  ],
+  "confidence": 0.9
+}

@@ -1,0 +1,10 @@
+{
+  "entry_id": "15915",
+  "screened_at": "2026-07-18T03:39:06Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 早送 (hayaoku) in pair 10 is incorrect. The correct reading for 早送り is はやおくり (hayaokuri), so 早送 should be はやおく (hayaoku) if the okurigana is り. However, the provided reading is はやおく, which is correct for 早送 if り is the okurigana. The issue is that the common reading for 早送り is はやおくり, not はやおく. If the entry is for 早送, then はやおく is correct. If it's for 早送り, then はやおく is correct for the kanji part. Let's re-evaluate. The prompt states '早送 → はやおく (followed by: り)'. This means 早送 is read as はやおく, and り is okurigana. This is correct. My initial thought was that 早送り is a single word, but the format specifies kanji-reading mapping. So, 早送=はやおく is correct. No error here."
+  ],
+  "confidence": 0.9
+}

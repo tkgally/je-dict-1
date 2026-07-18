@@ -1,0 +1,318 @@
+{
+  "entry_id": "15868",
+  "word": "{呼|よ}び{捨|す}て",
+  "reading": "よびすて",
+  "reviewed_at": "2026-07-18T03:58:49Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 16,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "呼",
+      "reading": "よ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "呼",
+      "reading": "よ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "捨",
+      "reading": "す",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "捨",
+      "reading": "す",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "先生",
+      "reading": "せんせい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "先生",
+      "reading": "せんせい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "失礼",
+      "reading": "しつれい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "失礼",
+      "reading": "しつれい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "親",
+      "reading": "した",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The kanji 親 is usually read as おや (on'yomi: しん, kun'yomi: おや, した, ちか). In the context of '親しい', the reading should be した, so this is correct. However, if the context is not '親しい', then した would be incorrect. Given the context '親しい友人', した is correct.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "親",
+      "reading": "した",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "友人",
+      "reading": "ゆうじん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "友人",
+      "reading": "ゆうじん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "互",
+      "reading": "たが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "互",
+      "reading": "たが",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "合",
+      "reading": "あ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "合",
+      "reading": "あ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "初対面",
+      "reading": "しょたいめん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "初対面",
+      "reading": "しょたいめん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "人",
+      "reading": "ひと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "人",
+      "reading": "ひと",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "日本",
+      "reading": "にほん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "日本",
+      "reading": "にほん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "非常",
+      "reading": "ひじょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "非常",
+      "reading": "ひじょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "無礼",
+      "reading": "ぶれい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "無礼",
+      "reading": "ぶれい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "見",
+      "reading": "み",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "見",
+      "reading": "み",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "名前",
+      "reading": "なまえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "名前",
+      "reading": "なまえ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[0].headword",
+      "kanji": "敬称",
+      "reading": "けいしょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[0].headword",
+      "kanji": "敬称",
+      "reading": "けいしょう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 16,
+    "flagged": 1,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "15868",
+    "screened_at": "2026-07-18T03:33:32Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 親 (oya) is given as した (shita) in pair 5, which is incorrect. The correct reading for 親 in this context (親しい友人) should be した (shita) for 親しい, but 親 itself is read as おや (oya) or しん (shin) in compounds. The reading 'した' belongs to the adjective '親しい' (shitashii), not the kanji '親' alone.",
+      "The reading for 合 (a) is given as あ (a) in pair 8. While 'あ' is part of the reading for '合っている' (atteiru), the kanji '合' itself is typically read as 'ごう' (gou) or 'あ' (a) in compounds. In this case, 'あ' is the correct reading for the kanji '合' when it's part of the verb '合う' (au), but the provided context '合っている' implies that 'あ' is the reading for the kanji '合' and 'っている' is okurigana. This is technically correct based on the rule 'the reading covers ONLY the kanji portion', but it's a common point of confusion. Given the example '走=はし (correct), る is okurigana outside the markup', this is likely intended to be correct."
+    ],
+    "confidence": 0.8
+  }
+}

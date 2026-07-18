@@ -1,0 +1,209 @@
+{
+  "entry_id": "15915",
+  "word": "{巻|ま}き{戻|もど}す",
+  "reading": "まきもどす",
+  "reviewed_at": "2026-07-18T04:04:03Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 10,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "巻",
+      "reading": "ま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "巻",
+      "reading": "ま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "戻",
+      "reading": "もど",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "戻",
+      "reading": "もど",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "動画",
+      "reading": "どうが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "動画",
+      "reading": "どうが",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "少",
+      "reading": "すこ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "少",
+      "reading": "すこ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "一度",
+      "reading": "いちど",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "一度",
+      "reading": "いちど",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "見",
+      "reading": "み",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "見",
+      "reading": "み",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "時間",
+      "reading": "じかん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "時間",
+      "reading": "じかん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "違",
+      "reading": "ちが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "違",
+      "reading": "ちが",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "選択",
+      "reading": "せんたく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "選択",
+      "reading": "せんたく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[0].headword",
+      "kanji": "早送",
+      "reading": "はやおく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[0].headword",
+      "kanji": "早送",
+      "reading": "はやおく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 10,
+    "flagged": 0,
+    "ok": 10,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "15915",
+    "screened_at": "2026-07-18T03:39:06Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The reading for 早送 (hayaoku) in pair 10 is incorrect. The correct reading for 早送り is はやおくり (hayaokuri), so 早送 should be はやおく (hayaoku) if the okurigana is り. However, the provided reading is はやおく, which is correct for 早送 if り is the okurigana. The issue is that the common reading for 早送り is はやおくり, not はやおく. If the entry is for 早送, then はやおく is correct. If it's for 早送り, then はやおく is correct for the kanji part. Let's re-evaluate. The prompt states '早送 → はやおく (followed by: り)'. This means 早送 is read as はやおく, and り is okurigana. This is correct. My initial thought was that 早送り is a single word, but the format specifies kanji-reading mapping. So, 早送=はやおく is correct. No error here."
+    ],
+    "confidence": 0.9
+  }
+}

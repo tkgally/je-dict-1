@@ -1,0 +1,293 @@
+{
+  "entry_id": "15965",
+  "word": "{彫|ほ}り{師|し}",
+  "reading": "ほりし",
+  "reviewed_at": "2026-07-18T04:06:42Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 29,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "彫",
+      "reading": "ほ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "師",
+      "reading": "し",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "有名",
+      "reading": "ゆうめい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "和彫",
+      "reading": "わぼ",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 和彫 is わぼり, where 彫 is read as ぼり (with okurigana り). The reading 'わぼ' omits the okurigana and is incomplete.",
+      "severity": "error"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "技術",
+      "reading": "ぎじゅつ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "高",
+      "reading": "たか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "評価",
+      "reading": "ひょうか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "受",
+      "reading": "う",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "何年",
+      "reading": "なんねん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "修行",
+      "reading": "しゅぎょう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "必要",
+      "reading": "ひつよう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "版画",
+      "reading": "はんが",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "木版",
+      "reading": "もくはん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "細",
+      "reading": "こま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "模様",
+      "reading": "もよう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[3].japanese",
+      "kanji": "刻",
+      "reading": "きざ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "江戸時代",
+      "reading": "えどじだい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "浮世絵",
+      "reading": "うきよえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "重要",
+      "reading": "じゅうよう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "役割",
+      "reading": "やくわり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[4].japanese",
+      "kanji": "果",
+      "reading": "は",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "印鑑",
+      "reading": "いんかん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "一",
+      "reading": "ひと",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "手彫",
+      "reading": "てぼ",
+      "model": "openai/gpt-4.1",
+      "correct": false,
+      "concern": "The standard reading for 手彫 is てぼり, where 彫 is read as ぼり (with okurigana り). The reading 'てぼ' omits the okurigana and is incomplete.",
+      "severity": "error"
+    },
+    {
+      "field": "examples[5].japanese",
+      "kanji": "仕上",
+      "reading": "しあ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "号",
+      "reading": "ごう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "彫",
+      "reading": "ほり",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "腕",
+      "reading": "うで",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "刺青",
+      "reading": "いれずみ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 29,
+    "flagged": 2,
+    "ok": 27,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "15965",
+    "screened_at": "2026-07-18T03:45:00Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "Pair 4: 和彫 → わぼ. The reading for 彫 should be ぼり, not ぼ. The full reading for 和彫 is わぼり.",
+      "Pair 9: 修行 → しゅぎょ. The reading for 行 should be ぎょう, not ぎょ. The full reading for 修行 is しゅぎょう.",
+      "Pair 24: 手彫 → てぼ. The reading for 彫 should be ぼり, not ぼ. The full reading for 手彫 is てぼり.",
+      "Pair 27: 彫 → ほり. This reading is correct for the kanji 彫 when it stands alone or is the final part of a compound, but in the context of the entry {彫|ほ}り{師|し}, the reading for 彫 is given as ほ. This pair seems to be a standalone example, but it's inconsistent with the main entry's breakdown if it's meant to be part of the same word. However, given the instruction 'Do NOT flag partial readings as errors — they are correct by design', and '彫|ほ' in the main entry, '彫|ほり' as a standalone reading for 彫 is also correct. The issue is the inconsistency if this is meant to be part of the same word as the main entry. If it's a separate example, it's fine. Given the context 'such as', it's likely a separate example, so it's not an error in itself, but it's worth noting the difference from the main entry's partial reading."
+    ],
+    "confidence": 0.9
+  }
+}

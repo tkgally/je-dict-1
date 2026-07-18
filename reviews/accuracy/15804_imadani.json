@@ -1,0 +1,24 @@
+{
+  "entry_id": "15804_imadani",
+  "headword": "{未|いま}だに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:47:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '未だに'. While it implies a certain level of seriousness due to its nuance of 'still/even now' with a sense of surprise or frustration, it is not inherently a formal word. It is commonly used in both formal and informal contexts, making 'neutral' a more appropriate classification.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "15863_kokufukusuru",
+  "headword": "{克服|こくふく}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:48:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'abstract' is too broad and doesn't capture the core meaning of '克服する'.",
+      "suggestion": "Replace 'abstract' with 'action'."
+    }
+  ]
+}

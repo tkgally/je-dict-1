@@ -1,0 +1,24 @@
+{
+  "entry_id": "15868_yobisute",
+  "headword": "{呼|よ}び{捨|す}て",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T03:48:42Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

@@ -1,0 +1,317 @@
+{
+  "entry_id": "15800",
+  "word": "{忘年会|ぼうねんかい}",
+  "reading": "ぼうねんかい",
+  "reviewed_at": "2026-07-18T03:51:02Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 16,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "忘年会",
+      "reading": "ぼうねんかい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "忘年会",
+      "reading": "ぼうねんかい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "参加",
+      "reading": "さんか",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "参加",
+      "reading": "さんか",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading 'ぼうねん' only covers the kanji '忘年', but the markup includes '会'. The correct reading for '忘年会' is 'ぼうねんかい'.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "金曜日",
+      "reading": "きんようび",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "金曜日",
+      "reading": "きんようび",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "開",
+      "reading": "ひら",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "開",
+      "reading": "ひら",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "今年",
+      "reading": "ことし",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "今年",
+      "reading": "ことし",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "駅前",
+      "reading": "えきまえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "駅前",
+      "reading": "えきまえ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "居酒屋",
+      "reading": "いざかや",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "居酒屋",
+      "reading": "いざかや",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "行",
+      "reading": "おこな",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "行",
+      "reading": "おこな",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "忘",
+      "reading": "ぼう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "忘",
+      "reading": "ぼう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "年",
+      "reading": "ねん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "年",
+      "reading": "ねん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "会",
+      "reading": "かい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "会",
+      "reading": "かい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "幹事",
+      "reading": "かんじ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "幹事",
+      "reading": "かんじ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "新年会",
+      "reading": "しんねんかい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "新年会",
+      "reading": "しんねんかい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "歓送迎会",
+      "reading": "かんそうげいかい",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "歓送迎会",
+      "reading": "かんそうげいかい",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[1].headword",
+      "kanji": "飲",
+      "reading": "の",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "cross_references[1].headword",
+      "kanji": "飲",
+      "reading": "の",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 16,
+    "flagged": 1,
+    "ok": 15,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "15800",
+    "screened_at": "2026-07-18T03:25:31Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The entry for `会社` has `{忘年会|ぼうねん)` where `忘年会` is the kanji and `ぼうねん` is the reading. This is a partial reading, but the instructions state \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example given for partial readings is `先行→さきゆ` followed by `き (先行き=さきゆき)`, where the partial reading `さきゆ` is for `先行`. In the current case, `ぼうねん` is a partial reading of `忘年会`, not `会社`. This seems like an error in how the furigana is applied, as `ぼうねん` should be the reading for `忘年` if it were a partial reading of a compound, or `ぼうねんかい` for `忘年会`. The furigana `ぼうねん` is applied to the entire `忘年会` kanji, but it's only a partial reading of it. This is inconsistent with the example of partial readings provided."
+    ],
+    "confidence": 0.8
+  }
+}
