@@ -1,0 +1,31 @@
+{
+  "entry_id": "16090_chikusan",
+  "headword": "{畜産|ちくさん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T12:22:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'agriculture' is not in the valid tag list.",
+      "suggestion": "Replace 'agriculture' with 'general' or 'work'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'industry' is not in the valid tag list.",
+      "suggestion": "Replace 'industry' with 'business' or 'work'."
+    }
+  ]
+}

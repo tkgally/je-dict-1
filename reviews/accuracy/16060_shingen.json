@@ -1,0 +1,45 @@
+{
+  "entry_id": "16060_shingen",
+  "headword": "{震源|しんげん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-18T12:22:15Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss conflates 'epicenter' and 'hypocenter' as if they are interchangeable, but they refer to distinct points related to an earthquake's origin.",
+      "suggestion": "epicenter; hypocenter; seismic origin"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss conflates 'epicenter' and 'hypocenter' as if they are interchangeable, but they refer to distinct points related to an earthquake's origin.",
+      "suggestion": "epicenter; hypocenter; seismic origin"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence uses 震源 (shingen) which can refer to either the hypocenter or epicenter. Given the context 'under the sea', 'epicenter' is a possible interpretation, but 'hypocenter' is also plausible if the quake originated beneath the seabed. The English translation 'The epicenter was under the sea' implies the epicenter itself was under the sea, which is technically incorrect as the epicenter is on the surface. If the origin was under the sea, the hypocenter was under the sea, and the epicenter would be on the sea surface directly above it.",
+      "suggestion": "The earthquake's origin was under the sea. (or 'The hypocenter was under the sea.')"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation uses 'epicenter' in a figurative sense for 'source of trouble', which is not a common or natural usage in English. 'Epicenter' is almost exclusively used for earthquakes or similar physical phenomena. 'Source' or 'root' would be more natural.",
+      "suggestion": "That department is the source of internal trouble."
+    }
+  ]
+}
