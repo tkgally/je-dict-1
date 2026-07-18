@@ -2,29 +2,23 @@
   "entry_id": "00335_ookii",
   "headword": "{大|おお}きい",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:08:30Z",
+  "reviewed_at": "2026-07-18T09:31:43Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 is incomplete. It states that '大きい' is used for 'anything that can be measured by size,' but it also applies to abstract concepts like dreams, as shown in example 4.",
-      "suggestion": "Expand the explanation to include abstract concepts or qualities that can be considered 'big' in a non-physical sense, such as dreams, plans, or impact."
-    },
-    {
       "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'Louder, please.' is a natural rendering, but it omits the direct translation of '声で' (with voice), which is present in the Japanese. While contextually understood, for an intermediate learner, a more literal translation might be beneficial to show the structure.",
-      "suggestion": "Change the translation to 'Louder with your voice, please.' or 'Speak louder, please.' to more directly reflect the Japanese structure, or add a note about the implied 'speak'."
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation for example 4 is misleading. While 'big' can sometimes be used for dreams, 'grand' or 'ambitious' would be more natural and accurate in this context, especially given the aspiration to travel the world. 'Big' here implies size, which isn't the primary meaning for dreams in English.",
+      "suggestion": "His dreams are grand—he says he wants to travel around the world someday."
     }
   ]
 }

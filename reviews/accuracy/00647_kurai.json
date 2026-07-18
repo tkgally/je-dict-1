@@ -2,22 +2,15 @@
   "entry_id": "00647_kurai",
   "headword": "{暗|くら}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:52Z",
+  "reviewed_at": "2026-07-18T09:31:48Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "Incomplete explanation for 'dark' sense.",
-      "suggestion": "Add 'or dark in color' to the explanation for sense 1, as '暗い' can also describe dark colors, not just lack of light."
-    }
-  ]
+  "issues": []
 }
