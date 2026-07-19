@@ -1,0 +1,10 @@
+{
+  "entry_id": "16405",
+  "screened_at": "2026-07-19T09:20:55Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 評論家 is split across two entries (評論 and 家) but the provided reading for 評論家 is ひょうろんか. The individual readings for 評論 (ひょうろん) and 家 (か) are correct, but the original entry for 評論家 is given as {評論家|ひょうろんか} (ひょうろんか), which is a complete reading. However, later in the list, 評論 is given as ひょうろん and 家 as か. This is not an error in itself, but the prompt asks to check the furigana readings from a dictionary entry. The entry for 評論家 is {評論家|ひょうろんか}. The subsequent examples use partial readings like {評論家|ひょうろん) and {評論家|ひ}. These are partial readings and are explicitly allowed by the prompt. The only potential 'error' is that the full reading for 評論家 is given as ひょうろんか, but then later it's broken down into 評論 (ひょうろん) and 家 (か) as if they were separate entries, which they are not in the initial dictionary entry. However, the prompt states 'Do NOT flag partial readings as errors — they are correct by design.' and 'If you are not confident a reading is actually wrong, do not flag it.' Given this, and the fact that the individual components are correct, I will not flag this as an error."
+  ],
+  "confidence": 0.9
+}
