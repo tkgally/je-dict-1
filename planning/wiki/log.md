@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-19] maintenance | Harvest the 3 loose 2026-07-18/19 observations (all reinforcements — Cleanup **P21** [sequential frontier drains 06533–06536 and 06542–06545 with full examples+notes linking in one pass; "June-17 tag-only touch left examples/notes naked" sub-pattern pinned to 06542/06543/06547], **P13** [frontier-applied sole-`general`→`sports` on the 06544/06545 swimming loanwords]; Tooling **item 20** [57th no-op confirmation — 8/8 clean on a mixed particle+adjective band, reinforcing the notes-lane-retirement escalation]) + Activity A (overview tier sync) + Activity E (backlog-queue sync + anchor lint, 0 issues)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-l182d0`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 3 loose observations from the 2026-07-18 routine polish session 009 and the 2026-07-19 routine polish frontier run:
+  - **Cleanup P21 (2026-07-19 update)** — the sequential frontier drains further into the 06500 Jan-2026 block: session 009 through **06533–06536** (満腹/眠気/図々しい/気まずい) and the 2026-07-19 run through **06542–06545** (打席/完封/バタフライ/クロール), both with **full ⟦...⟧ coverage in examples AND notes in a single pass**; new datum — 06542/06543/06547 were tag-touched 2026-06-17 but never inline-linked, pinning the not-self-healing "recent-`modified` but unlinked" signature to a specific tag-only batch. Band drained sequentially through 06545; ~16 noentry lexical gaps harvested.
+  - **Cleanup P13 (2026-07-19 update)** — the frontier-applied sole-`general`→specific family continues onto the 06544 バタフライ / 06545 クロール swimming loanwords (both migrated general→`sports`), continuous with the 06527–06532 swimming/tide cohort.
+  - **Tooling item 20 (57th no-op confirmation)** — session 009's priority notes-lane ran **8/8 no-op** on a mixed closed-tier particle+adjective band (まあ/から/大事/汚い/茶色い/低い/も/と); the particle+adjective mix reconfirms the scorer floats any content-complete closed-tier entry. Pure reinforcement of the standing notes-lane-retirement / inline-link-coverage-credit escalation.
+- **[A] Light sync** — refreshed `project/overview.md` General-tier count (26,939 tagged `general` + the 20 untiered 29181–29200, of 29,742 total as of 2026-07-19, per `build/audit_tiers.py`).
+- **[E] Lint/sync** — verified `backlog-queue.json` matches the prose pages I touched (all harvest items were incremental updates under existing open entries: P21 under `unlinked-compound-verb-notes` gated on Tooling item 15, P13 under `tag-sole-general`, no status/batch-readiness changes) and the Priority 13/21 anchor targets I linked resolve. **Activity H (metrics trend) not due**: only 8 new `metrics-history.jsonl` lines (306 total) since the twenty-first refresh at 298 runs (threshold ≥10).
+
 ## [2026-07-18] maintenance (second run) | Harvest the 7 loose 2026-07-18 observations (six reinforcements — Cleanup **P20** [off-vocab cohort contiguous through 16166, two accuracy-reviews migrated 85+60 tags at ~39%/~30%], **P21** [frontier drains 06527–06532: examples+tags done in-run, dense notes deferred], **P13** [frontier-applied sole-`general`→specific on the swimming/tide/appetite cohort]; Tooling **item 20** [55th/56th no-op confirmation — two independent modes name inline-link coverage as the un-credited axis in one run-day], **item 23** [<10%-signal reconfirmed, ~12–15 usable of ~600 sampled]) + Activity H (**twenty-first** metrics refresh) + Activity A (overview tier sync)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 11 unharvested-observation-lines signal)
