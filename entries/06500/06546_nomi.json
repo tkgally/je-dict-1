@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06546_nomi_ex1",
-      "japanese": "のみと{槌|つち}を{使|つか}って{木|き}を{彫|ほ}る。",
+      "japanese": "のみ⟦と→と：00512_to⟧⟦{槌|つち}→槌：noentry⟧⟦を→を：00422_wo⟧⟦{使|つか}って→使う：00473_tsukau⟧⟦{木|き}→木：00524_ki⟧⟦を→を：00422_wo⟧⟦{彫|ほ}る→彫る：00114_horu⟧。",
       "english": "I carve wood using a chisel and mallet.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06546_nomi_ex2",
-      "japanese": "{大工|だいく}さんがのみで{溝|みぞ}を{掘|ほ}った。",
+      "japanese": "⟦{大工|だいく}→大工：04051_daiku⟧⟦さん→〜さん：09848_san⟧⟦が→が：00051_ga⟧のみ⟦で→で：00502_de⟧⟦{溝|みぞ}→溝：09410_mizo⟧⟦を→を：00422_wo⟧⟦{掘|ほ}った→掘る：00442_horu⟧。",
       "english": "The carpenter cut a groove with a chisel.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06546_nomi_ex3",
-      "japanese": "のみの{刃|は}を{砥石|といし}で{研|と}いだ。",
+      "japanese": "のみ⟦の→の：09472_no⟧⟦{刃|は}→刃：09865_ha⟧⟦を→を：00422_wo⟧⟦{砥石|といし}→砥石：06525_toishi⟧⟦で→で：00502_de⟧⟦{研|と}いだ→研ぐ：04377_togu⟧。",
       "english": "I sharpened the chisel blade on a whetstone.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "KANJI WRITING:\n・{鑿|のみ} (rarely used, complex kanji)\n・Usually written in hiragana\n\nTYPES OF CHISELS:\n・{追入|おいいれ}のみ (paring chisel - for fine work)\n・{叩|たた}きのみ (firmer chisel - struck with mallet)\n・{丸|まる}のみ (gouge - curved blade)\n・{平|ひら}のみ (flat chisel)\n\nRELATED TOOLS:\n・{槌|つち}/{木槌|きづち} (mallet)\n・かんな (plane)\n・{砥石|といし} (whetstone)\n・たがね (cold chisel - for metal)\n\nCOLLOCATIONS:\n・のみを{入|い}れる (to apply the chisel)\n・のみで{削|けず}る (to shave with a chisel)\n・のみで{彫|ほ}る (to carve with a chisel)\n・のみを{研|と}ぐ (to sharpen a chisel)",
+  "notes": "KANJI WRITING:\n・{鑿|のみ} (rarely used, complex kanji)\n・Usually written in hiragana\n\nTYPES OF CHISELS:\n・⟦{追入|おいいれ}→追入：noentry⟧のみ (paring chisel - for fine work)\n・⟦{叩|たた}き→叩く：02072_tataku⟧のみ (firmer chisel - struck with mallet)\n・⟦{丸|まる}→丸：02167_maru⟧のみ (gouge - curved blade)\n・⟦{平|ひら}→ひら：28886_hira⟧のみ (flat chisel)\n\nRELATED TOOLS:\n・⟦{槌|つち}→槌：noentry⟧/⟦{木槌|きづち}→木槌：noentry⟧ (mallet)\n・⟦かんな→かんな：06549_kanna⟧ (plane)\n・⟦{砥石|といし}→砥石：06525_toishi⟧ (whetstone)\n・⟦たがね→たがね：06547_tagane⟧ (cold chisel - for metal)\n\nCOLLOCATIONS:\n・のみ⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to apply the chisel)\n・のみ⟦で→で：00502_de⟧⟦{削|けず}る→削る：03922_kezuru⟧ (to shave with a chisel)\n・のみ⟦で→で：00502_de⟧⟦{彫|ほ}る→彫る：00114_horu⟧ (to carve with a chisel)\n・のみ⟦を→を：00422_wo⟧⟦{研|と}ぐ→研ぐ：04377_togu⟧ (to sharpen a chisel)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{砥石|といし}",
       "label": "whetstone",
       "target_id": "06525_toishi"
+    },
+    {
+      "type": "contrast",
+      "reading": "たがね",
+      "headword": "たがね",
+      "label": "cold chisel (for metal)",
+      "target_id": "06547_tagane"
+    },
+    {
+      "type": "related",
+      "reading": "かんな",
+      "headword": "かんな",
+      "label": "plane (woodworking tool)",
+      "target_id": "06549_kanna"
     }
   ],
   "metadata": {
     "created": "2026-01-17T23:52:54Z",
-    "modified": "2026-01-19T12:17:44.513360Z",
+    "modified": "2026-07-19T21:21:58Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +79,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "tool"
       ]
     }
   }

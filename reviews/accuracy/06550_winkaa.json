@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:02:24Z",
+  "reviewed_at": "2026-07-19T21:33:07Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'communication' is incorrect for 'ウィンカー'.",
-      "suggestion": "Replace 'communication' with 'transportation'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for 'ウィンカー'.",
-      "suggestion": "Replace 'formal' with 'neutral'."
+      "concern": "The word 'ウィンカー' is a loanword and is commonly used in everyday conversation, making 'neutral' a more appropriate formality tag than 'formal'.",
+      "suggestion": "neutral"
     }
   ]
 }
