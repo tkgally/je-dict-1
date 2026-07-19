@@ -1,0 +1,24 @@
+{
+  "entry_id": "16384_kyouki",
+  "headword": "{凶器|きょうき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-19T09:26:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'tool' is misleading for '凶器' (deadly weapon). While a weapon can be a tool, '凶器' specifically implies a harmful or dangerous object, which is better captured by 'law' or 'crime' related tags.",
+      "suggestion": "Replace 'tool' with 'law' or 'crime' (if available in the valid tag list). If not, 'general' might be a better fallback than 'tool'."
+    }
+  ]
+}

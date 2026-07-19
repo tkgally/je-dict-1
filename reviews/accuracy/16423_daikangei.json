@@ -1,0 +1,24 @@
+{
+  "entry_id": "16423_daikangei",
+  "headword": "{大歓迎|だいかんげい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-19T09:26:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'greeting' is incorrect for '大歓迎'. While a welcome can be a form of greeting, '大歓迎' specifically refers to the act or state of welcoming, not the greeting itself.",
+      "suggestion": "Replace 'greeting' with 'action' or 'daily-life'."
+    }
+  ]
+}
