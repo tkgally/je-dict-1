@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:02:16Z",
+  "reviewed_at": "2026-07-19T03:30:32Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a specific concept like 'foul' or 'violation'.",
-      "suggestion": "sports"
+      "concern": "The headword '反則' can be used outside of sports contexts, for example, to refer to a violation of rules in a game or even a social norm. The tag 'sports' is too narrow and misleading as the sole semantic tag.",
+      "suggestion": "Add 'action' and 'law' (or 'society' if 'law' is too strong) to reflect broader applicability."
     }
   ]
 }
