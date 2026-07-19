@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06541_hansoku_ex1",
-      "japanese": "{相手|あいて}の{反則|はんそく}でフリーキックを{得|え}た。",
+      "japanese": "⟦{相手|あいて}→相手：01677_aite⟧⟦の→の：09472_no⟧{反則|はんそく}⟦で→で：00502_de⟧⟦フリーキック→フリーキック：noentry⟧⟦を→を：00422_wo⟧⟦{得|え}た→得る：02014_eru⟧。",
       "english": "We got a free kick from the opponent's foul.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06541_hansoku_ex2",
-      "japanese": "{悪質|あくしつ}な{反則|はんそく}で{一発|いっぱつ}レッドカードを{受|う}けた。",
+      "japanese": "⟦{悪質|あくしつ}な→悪質：20553_akushitsu⟧{反則|はんそく}⟦で→で：00502_de⟧⟦{一発|いっぱつ}→一発：08895_ippatsu⟧⟦レッドカード→レッドカード：noentry⟧⟦を→を：00422_wo⟧⟦{受|う}けた→受ける：01215_ukeru⟧。",
       "english": "He received a straight red card for a flagrant foul.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06541_hansoku_ex3",
-      "japanese": "{反則|はんそく}{負|ま}けで{試合|しあい}が{終|お}わった。",
+      "japanese": "{反則|はんそく}⟦{負|ま}け→負け：02569_make⟧⟦で→で：00502_de⟧⟦{試合|しあい}→試合：01601_shiai⟧⟦が→が：00051_ga⟧⟦{終|お}わった→終わる：00567_owaru⟧。",
       "english": "The match ended with a loss by disqualification.",
       "notes": null,
       "has_audio": false,
@@ -43,24 +43,21 @@
       ]
     }
   ],
-  "notes": "TYPES OF FOULS BY SPORT:\n・サッカー: ファウル、ハンド (handball)\n・バスケ: パーソナルファウル、テクニカルファウル\n・{相撲|すもう}: {反則|はんそく}{技|わざ} ({禁|きん}じ{手|て})\n・{野球|やきゅう}: {守備|しゅび}{妨害|ぼうがい} (interference)\n\nCOMMON COLLOCATIONS:\n・{反則|はんそく}を{取|と}る (to call a foul)\n・{反則|はんそく}を{犯|おか}す (to commit a foul)\n・{反則|はんそく}{負|ま}け (loss by disqualification)\n・{反則|はんそく}{勝|が}ち (win by opponent's disqualification)\n・{悪質|あくしつ}な{反則|はんそく} (flagrant foul)\n\nRELATED TERMS:\n・ルール{違反|いはん} (rule violation - more general)\n・{違法|いほう} (illegal - legal contexts)\n・ペナルティ (penalty)",
+  "notes": "TYPES OF FOULS BY SPORT:\n・⟦サッカー→サッカー：04726_sakkaa⟧: ⟦ファウル→ファウル：06584_fauru⟧、⟦ハンド→ハンド：noentry⟧ (handball)\n・⟦バスケ→バスケ：06773_basuke⟧: ⟦パーソナルファウル→パーソナルファウル：noentry⟧、⟦テクニカルファウル→テクニカルファウル：noentry⟧\n・⟦{相撲|すもう}→相撲：00390_sumou⟧: {反則|はんそく}⟦{技|わざ}→技：02172_waza⟧ (⟦{禁|きん}じ{手|て}→禁じ手：noentry⟧)\n・⟦{野球|やきゅう}→野球：04727_yakyuu⟧: ⟦{守備|しゅび}→守備：15509_shubi⟧⟦{妨害|ぼうがい}→妨害：07632_bougai⟧ (interference)\n\nCOMMON COLLOCATIONS:\n・{反則|はんそく}⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to call a foul)\n・{反則|はんそく}⟦を→を：00422_wo⟧⟦{犯|おか}す→犯す：10059_okasu⟧ (to commit a foul)\n・{反則|はんそく}⟦{負|ま}け→負け：02569_make⟧ (loss by disqualification)\n・{反則|はんそく}⟦{勝|が}ち→勝ち：02540_kachi⟧ (win by opponent's disqualification)\n・⟦{悪質|あくしつ}な→悪質：20553_akushitsu⟧{反則|はんそく} (flagrant foul)\n\nRELATED TERMS:\n・⟦ルール→ルール：00354_ruuru⟧⟦{違反|いはん}→違反：01824_ihan⟧ (rule violation - more general)\n・⟦{違法|いほう}→違法：09687_ihou⟧ (illegal - legal contexts)\n・⟦ペナルティ→ペナルティ：noentry⟧ (penalty)",
   "cross_references": [],
   "metadata": {
     "created": "2026-01-17T23:51:31Z",
-    "modified": "2026-01-19T12:17:44.509464Z",
+    "modified": "2026-07-19T03:20:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "domain": [
-        "legal"
-      ],
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "sports"
       ]
     }
   }

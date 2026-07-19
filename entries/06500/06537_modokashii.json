@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06537_modokashii_ex1",
-      "japanese": "{言|い}いたいことが{上手|うま}く{伝|つた}わらなくてもどかしい。",
+      "japanese": "⟦{言|い}いたい→言う：00515_iu⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{上手|うま}く→うまい：01279_umai⟧⟦{伝|つた}わらなくて→伝わる：01961_tsutawaru⟧もどかしい。",
       "english": "It's frustrating when I can't convey what I want to say properly.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06537_modokashii_ex2",
-      "japanese": "{回復|かいふく}が{遅|おそ}くてもどかしい{思|おも}いをしている。",
+      "japanese": "⟦{回復|かいふく}→回復：03812_kaifuku⟧⟦が→が：00051_ga⟧⟦{遅|おそ}くて→遅い：00533_osoi⟧もどかしい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I'm feeling frustrated because my recovery is slow.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06537_modokashii_ex3",
-      "japanese": "{結果|けっか}を{待|ま}つのがもどかしい。",
+      "japanese": "⟦{結果|けっか}→結果：02486_kekka⟧⟦を→を：00422_wo⟧⟦{待|ま}つ→待つ：00469_matsu⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧もどかしい。",
       "english": "It's frustrating to wait for the results.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "FORMS:\n・もどかしい (plain form)\n・もどかしく (adverbial form)\n・もどかしさ (noun form - frustration)\n\nNUANCE:\n・Unlike {苛々|いらいら}する (irritated), もどかしい often implies being unable to do anything about the situation\n・Contains a sense of helplessness or powerlessness\n・Can describe both self-directed frustration and frustration watching others\n\nCOMMON CONTEXTS:\n・Communication difficulties (language barriers, etc.)\n・Watching someone struggle when you can't help\n・Slow progress in recovery, learning, etc.\n・Waiting for results or outcomes\n・Romantic situations where feelings can't be expressed\n\nSIMILAR WORDS:\n・{歯|は}がゆい (similar meaning - frustrating)\n・じれったい (similar - frustrating/impatient)\n・やきもきする (anxious/restless)\n・{苛立|いらだ}つ (to be irritated)\n\nEXPRESSIONS:\n・もどかしい{思|おも}いをする (to feel frustrated)\n・もどかしい{気持|きも}ち (frustrated feeling)\n\nCOLLOCATIONS:\n・もどかしい{思|おも}い (frustrated feeling)\n・もどかしい{状況|じょうきょう} (frustrating situation)\n・もどかしいほど{遅|おそ}い (frustratingly slow)",
-  "cross_references": [],
+  "notes": "FORMS:\n・もどかしい (plain form)\n・もどかしく (adverbial form)\n・もどかしさ (noun form - frustration)\n\nNUANCE:\n・Unlike ⟦{苛々|いらいら}→いらいら：01834_iraira⟧⟦する→する：00392_suru⟧ (irritated), もどかしい often implies being unable to do anything about the situation\n・Contains a sense of helplessness or powerlessness\n・Can describe both self-directed frustration and frustration watching others\n\nCOMMON CONTEXTS:\n・Communication difficulties (language barriers, etc.)\n・Watching someone struggle when you can't help\n・Slow progress in recovery, learning, etc.\n・Waiting for results or outcomes\n・Romantic situations where feelings can't be expressed\n\nSIMILAR WORDS:\n・⟦{歯|は}がゆい→歯がゆい：06628_hagayui⟧ (similar meaning - frustrating)\n・⟦じれったい→じれったい：22590_jirettai⟧ (similar - frustrating/impatient)\n・⟦やきもきする→やきもきする：noentry⟧ (anxious/restless)\n・⟦{苛立|いらだ}つ→苛立つ：07912_iradatsu⟧ (to be irritated)\n\nEXPRESSIONS:\n・もどかしい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to feel frustrated)\n・もどかしい⟦{気持|きも}ち→気持ち：01385_kimochi⟧ (frustrated feeling)\n\nCOLLOCATIONS:\n・もどかしい⟦{思|おも}い→思い：10248_omoi⟧ (frustrated feeling)\n・もどかしい⟦{状況|じょうきょう}→状況：01576_joukyou⟧ (frustrating situation)\n・もどかしい⟦ほど→程：01724_hodo⟧⟦{遅|おそ}い→遅い：00533_osoi⟧ (frustratingly slow)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "06628_hagayui",
+      "reading": "はがゆい",
+      "headword": "歯がゆい",
+      "label": "frustrating; vexing"
+    },
+    {
+      "type": "related",
+      "target_id": "22590_jirettai",
+      "reading": "じれったい",
+      "headword": "じれったい",
+      "label": "frustrating; exasperating"
+    }
+  ],
   "metadata": {
     "created": "2026-01-17T23:13:14Z",
-    "modified": "2026-06-17T09:34:37Z",
+    "modified": "2026-07-19T03:20:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
