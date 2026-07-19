@@ -398,3 +398,9 @@ _(2026-07-19 wiki (Routine v2) harvest: processed all 3 loose observations from 
 All 3 observations cleared.)_
 
 - [pattern] "seen in entry" candidates nearly exhausted after this run — only バタ足 and ノーヒットノーラン (both baseball/swimming, seen in 06542/06543) remain unbuilt. Comprehensive-polish frontier (next: 06546) will need to advance to generate more internal-completeness candidates; curator may want to restock brainstormed/corpus candidates for new-entries mode.
+
+## 2026-07-19 — routine polish session (frontier 06546–06552, priority lane top-8)
+- [tooling] score_note_quality.py ranks already-polished core/basic function words at the very top of polishing/priority/notes.txt (00510 mijikai, 00512 to, 00504 kara, 03728 maa, 01253 daiji, 00484 mo, etc.). All 8 eligible top-priority entries this run validated clean with comprehensive, fully-linked notes and needed zero changes. The scorer's heuristic over-penalizes short-but-adequate function-word notes; consider damping by (recently_modified AND example_count high AND inline-link-complete) so the priority lane surfaces genuinely-thin entries instead.
+- [pattern] The 06546–06552 tool / car-part frontier block had ZERO inline links in examples and notes despite otherwise complete content — the inline-linking sweep has not reached ~6500. Contiguous unlinked ranges likely continue above 06552.
+- [pattern] Several general-tier katakana loanword nouns in this block were batch-mistagged: formality "formal" on everyday loanwords (06550 winkaa, 06551 dasshuboodo — fixed to neutral this run) and sole-"general" semantic on obvious tools (06546 nomi — fixed to "tool"). A targeted sweep of katakana-loanword entries for formality/semantic template defaults would be high-precision.
+- [entry] 06553 kuracchi onward (car-parts cluster) still need full inline-link coverage; next frontier run continues from 06553.
