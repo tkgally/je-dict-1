@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06568_zouchiku_ex1",
-      "japanese": "{家族|かぞく}が{増|ふ}えたので{部屋|へや}を{増築|ぞうちく}した。",
+      "japanese": "⟦{家族|かぞく}→家族：00552_kazoku⟧⟦が→が：00051_ga⟧⟦{増|ふ}えた→増える：01183_fueru⟧⟦ので→ので：09501_node⟧⟦{部屋|へや}→部屋：00507_heya⟧⟦を→を：00422_wo⟧{増築|ぞうちく}⟦した→する：00392_suru⟧。",
       "english": "We added an extension because our family grew.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06568_zouchiku_ex2",
-      "japanese": "{二階|にかい}を{増築|ぞうちく}する{計画|けいかく}がある。",
+      "japanese": "⟦{二階|にかい}→二階：27513_nikai⟧⟦を→を：00422_wo⟧{増築|ぞうちく}⟦する→する：00392_suru⟧⟦{計画|けいかく}→計画：01172_keikaku⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "There are plans to add a second floor.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06568_zouchiku_ex3",
-      "japanese": "{増築|ぞうちく}{工事|こうじ}には{許可|きょか}が{必要|ひつよう}だ。",
+      "japanese": "{増築|ぞうちく}⟦{工事|こうじ}→工事：00244_kouji⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧⟦{許可|きょか}→許可：00259_kyoka⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "A permit is required for extension construction.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\n{増|ぞう} (increase, add) + {築|ちく} (construction, building)\n\nVERB FORM:\n・{増築|ぞうちく}する (to extend, add to a building)\n\nRELATED CONSTRUCTION TERMS:\n・{新築|しんちく} (new construction)\n・{改築|かいちく} (renovation, structural alteration)\n・{修繕|しゅうぜん} (repair)\n・{建|た}て{増|ま}し (building addition - more casual)\n・リフォーム (remodeling - loanword)\n\nPERMIT REQUIREMENTS:\nIn Japan, {増築|ぞうちく} often requires:\n・{建築確認申請|けんちくかくにんしんせい} (building permit application)\n・Verification of {建|けん}ぺい{率|りつ} (building coverage ratio)\n・Verification of {容積率|ようせきりつ} (floor area ratio)\n\nCOMMON COLLOCATIONS:\n・{増築|ぞうちく}{工事|こうじ} (extension work/construction)\n・{増築|ぞうちく}{部分|ぶぶん} (extended portion)\n・{増築|ぞうちく}{費用|ひよう} (extension costs)\n・{増築|ぞうちく}の{許可|きょか} (building extension permit)",
+  "notes": "ETYMOLOGY:\n{増|ぞう} (increase, add) + {築|ちく} (construction, building)\n\nVERB FORM:\n・{増築|ぞうちく}⟦する→する：00392_suru⟧ (to extend, add to a building)\n\nRELATED CONSTRUCTION TERMS:\n・⟦{新築|しんちく}→新築：06567_shinchiku⟧ (new construction)\n・⟦{改築|かいちく}→改築：06224_kaichiku⟧ (renovation, structural alteration)\n・⟦{修繕|しゅうぜん}→修繕：06569_shuuzen⟧ (repair)\n・⟦{建|た}て{増|ま}し→建て増し：noentry⟧ (building addition - more casual)\n・⟦リフォーム→リフォーム：08821_rifoomu⟧ (remodeling - loanword)\n\nPERMIT REQUIREMENTS:\nIn Japan, {増築|ぞうちく} often requires:\n・⟦{建築確認申請|けんちくかくにんしんせい}→建築確認申請：noentry⟧ (building permit application)\n・Verification of ⟦{建|けん}ぺい{率|りつ}→建ぺい率：noentry⟧ (building coverage ratio)\n・Verification of ⟦{容積率|ようせきりつ}→容積率：noentry⟧ (floor area ratio)\n\nCOMMON COLLOCATIONS:\n・{増築|ぞうちく}⟦{工事|こうじ}→工事：00244_kouji⟧ (extension work/construction)\n・{増築|ぞうちく}⟦{部分|ぶぶん}→部分：03715_bubun⟧ (extended portion)\n・{増築|ぞうちく}⟦{費用|ひよう}→費用：03588_hiyou⟧ (extension costs)\n・{増築|ぞうちく}⟦の→の：09472_no⟧⟦{許可|きょか}→許可：00259_kyoka⟧ (building extension permit)",
   "cross_references": [
     {
       "type": "related",
@@ -62,14 +62,14 @@
   ],
   "metadata": {
     "created": "2026-01-18T00:34:30Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-20T21:25:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "informal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "building"

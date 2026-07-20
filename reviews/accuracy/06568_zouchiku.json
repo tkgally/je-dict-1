@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:03:10Z",
+  "reviewed_at": "2026-07-20T21:33:05Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'emotion' is incorrect for '増築' (building extension).",
-      "suggestion": "Replace 'emotion' with 'building'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for '増築'. This is a neutral term.",
-      "suggestion": "Replace 'informal' with 'neutral'."
+      "concern": "The formality tag 'informal' is incorrect for '増築'. This is a neutral, everyday term.",
+      "suggestion": "neutral"
     }
   ]
 }
