@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-20] maintenance | Harvest the 10 loose 2026-07-19/20 observations (nine reinforcements + one genuinely-new cluster — Cleanup **P21** [zero-inline-link band drains 06546–06558 across two frontier runs, tool/car-parts + traditional-games/yōkai cohorts, band unbroken ~06150→06558], **P20** [off-vocab tag cohort reaches 16424–16623, dense 92/200 pocket migrated in-run; detector unknown-semantic 7,323→7,211], **P17** [`formal`-template-default on katakana loanwords 06550/06551 + game noun 06555 くじ引き], **P13** [frontier-applied sole-`general`→`tool`/`leisure` on 06546/06556/06557], **new P3 cluster** [traditional children's-games entries co-cite but lack mutual `related` cross-refs]; Tooling **item 20** [58th/59th no-op confirmation, no-op set moves onto basic content adjectives], **item 23** [seen-in-entry lane effectively exhausted]) + **Activity H** (twenty-second metrics-trend refresh) + Activity A (overview tier sync) + Activity E (backlog-queue scope sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 14 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-0k3ykd`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 10 loose observations from the 2026-07-19 routine polish session (frontier 06546–06552), the 2026-07-20 accuracy-review (16424–16623), and the 2026-07-20 routine polish session (frontier 06553–06558). Nine were reinforcements of already-filed patterns (Cleanup P21/P20/P17/P13, Tooling item 20/item 23), filed as dated updates on the existing prose backlog entries. One was genuinely new: the traditional children's-games cross-reference cluster (お手玉/けん玉/竹馬/独楽/凧揚げ/あみだくじ/くじ引き co-cite in notes but lack mutual `related` cross_references) — filed as a Cleanup **P3** update with the seven-member list enumerated for a bounded one-shot back-link pass.
+- **[H] Metrics trend** — twenty-second refresh of `topics/quality-metrics.md` (14 new metrics lines, runs 298→312): fourth consecutive fully escalation-free refresh (299–312 escalated 0); `tags` apply-among-decided a new series high **82.1%** (101/22), driven by the single 2026-07-20 accuracy-review over the genuinely-contaminated 16424–16623 off-vocab batch (98 applied that run); furigana screening pure noise (0/29); review queue new floor **12,875**; entry total 29,726→29,783; OpenRouter ≤$0.57/day; detectors furigana_format 1,143 / artifacts 12 / tag_drift unknown-semantic 7,211. No metric moving the wrong way → no new `[pattern]` observation.
+- **[A] Sync** — refreshed `project/overview.md` General-tier count (26,980 tagged `general` + 20 untiered 29181–29200, of 29,783 total as of 2026-07-20).
+- **[E] Maintain** — refreshed the `unknown-semantic-tags` `scope_estimate` in `backlog-queue.json` (7,323→7,211) to match the current detector reading; no other status/batch-readiness changes (all harvested items were incremental updates under existing open entries).
+
+---
+
 ## [2026-07-19] maintenance | Harvest the 3 loose 2026-07-18/19 observations (all reinforcements — Cleanup **P21** [sequential frontier drains 06533–06536 and 06542–06545 with full examples+notes linking in one pass; "June-17 tag-only touch left examples/notes naked" sub-pattern pinned to 06542/06543/06547], **P13** [frontier-applied sole-`general`→`sports` on the 06544/06545 swimming loanwords]; Tooling **item 20** [57th no-op confirmation — 8/8 clean on a mixed particle+adjective band, reinforcing the notes-lane-retirement escalation]) + Activity A (overview tier sync) + Activity E (backlog-queue sync + anchor lint, 0 issues)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 7 unharvested-observation-lines signal)
