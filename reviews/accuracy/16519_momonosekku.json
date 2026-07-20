@@ -1,0 +1,24 @@
+{
+  "entry_id": "16519_momonosekku",
+  "headword": "{桃|もも}の{節句|せっく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:22:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'season-spring'",
+      "suggestion": "time-season"
+    }
+  ]
+}

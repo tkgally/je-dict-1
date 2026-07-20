@@ -1,0 +1,24 @@
+{
+  "entry_id": "16460_ichimoudajin",
+  "headword": "{一網打尽|いちもうだじん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:21:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'crime' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

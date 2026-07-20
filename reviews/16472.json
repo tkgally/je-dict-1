@@ -1,0 +1,247 @@
+{
+  "entry_id": "16472",
+  "word": "{思案|しあん}",
+  "reading": "しあん",
+  "reviewed_at": "2026-07-20T00:50:36Z",
+  "models_used": [
+    "openai/gpt-4.1",
+    "google/gemini-2.5-pro"
+  ],
+  "furigana_pairs_checked": 12,
+  "issues": [
+    {
+      "field": "headword",
+      "kanji": "思案",
+      "reading": "しあん",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "headword",
+      "kanji": "思案",
+      "reading": "しあん",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "暮",
+      "reading": "く",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[0].japanese",
+      "kanji": "暮",
+      "reading": "く",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading for 暮 in the verb 暮れる (kureru) should be くれ, not く.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "方法",
+      "reading": "ほうほう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "examples[1].japanese",
+      "kanji": "方法",
+      "reading": "ほうほう",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading for 思案 is しあん. The provided reading しあ is incomplete. The ん should be part of the reading inside the braces.",
+      "severity": "warning"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "転職",
+      "reading": "てんしょく",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "転職",
+      "reading": "てんしょく",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "末",
+      "reading": "すえ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "末",
+      "reading": "すえ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "今",
+      "reading": "いま",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "今",
+      "reading": "いま",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "会社",
+      "reading": "かいしゃ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "残",
+      "reading": "のこ",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "examples[2].japanese",
+      "kanji": "残",
+      "reading": "のこ",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "投",
+      "reading": "な",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "投",
+      "reading": "な",
+      "model": "google/gemini-2.5-pro",
+      "correct": false,
+      "concern": "The reading for 投 in the compound 投げ首 (nagekubi) should be なげ, not な.",
+      "severity": "warning"
+    },
+    {
+      "field": "notes",
+      "kanji": "首",
+      "reading": "くび",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "首",
+      "reading": "くび",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "熟考",
+      "reading": "じゅっこう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "熟考",
+      "reading": "じゅっこう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "検討",
+      "reading": "けんとう",
+      "model": "openai/gpt-4.1",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    },
+    {
+      "field": "notes",
+      "kanji": "検討",
+      "reading": "けんとう",
+      "model": "google/gemini-2.5-pro",
+      "correct": true,
+      "concern": null,
+      "severity": "ok"
+    }
+  ],
+  "summary": {
+    "total_checked": 12,
+    "flagged": 3,
+    "ok": 9,
+    "models_agreeing_on_flags": 0
+  },
+  "screening": {
+    "entry_id": "16472",
+    "screened_at": "2026-07-20T00:26:13Z",
+    "model": "google/gemini-2.5-flash",
+    "flagged": true,
+    "concerns": [
+      "The entry for {思案|しあん} is followed by (しあん), which is redundant and not part of the specified format for kanji-reading mappings. It should be removed.",
+      "The entry for {方法|ほうほう} is followed by がないか{思案|しあ), where the reading for 思案 is incomplete (しあ instead of しあん).",
+      "The entry for {転職|てんしょく} is followed by するかどうか{思案|), where the reading for 思案 is missing entirely."
+    ],
+    "confidence": 1.0
+  }
+}

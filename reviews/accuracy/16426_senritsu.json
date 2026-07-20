@@ -1,0 +1,24 @@
+{
+  "entry_id": "16426_senritsu",
+  "headword": "{戦慄|せんりつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:20:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'thrill' is misleading. While '戦慄' can describe an intense physical reaction, it is almost exclusively associated with negative emotions like fear or horror, not positive excitement or thrill.",
+      "suggestion": "Remove 'thrill' from the gloss."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "16558_chuudoku",
+  "headword": "{中毒|ちゅうどく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:23:32Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings like 'poisoning' and 'addiction'.",
+      "suggestion": "action"
+    }
+  ]
+}

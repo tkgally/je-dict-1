@@ -1,0 +1,24 @@
+{
+  "entry_id": "16528_haraimodosu",
+  "headword": "{払|はら}い{戻|もど}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:23:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation implies the subject performed the refunding action, but the Japanese sentence is more naturally interpreted as the subject receiving the refund.",
+      "suggestion": "I got a refund for the ticket price."
+    }
+  ]
+}

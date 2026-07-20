@@ -1,0 +1,24 @@
+{
+  "entry_id": "16561_taikei",
+  "headword": "{体型|たいけい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:23:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for '体型' (body type/build). '体型' refers to the overall shape or build of the body, not a specific part.",
+      "suggestion": "Replace 'body-part' with 'appearance' or 'body-general'."
+    }
+  ]
+}
