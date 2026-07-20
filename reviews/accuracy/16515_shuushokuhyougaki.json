@@ -1,0 +1,24 @@
+{
+  "entry_id": "16515_shuushokuhyougaki",
+  "headword": "{就職氷河期|しゅうしょくひょうがき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:22:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'employment' is not in the valid tag list.",
+      "suggestion": "work"
+    }
+  ]
+}

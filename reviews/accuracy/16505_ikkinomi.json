@@ -1,0 +1,31 @@
+{
+  "entry_id": "16505_ikkinomi",
+  "headword": "{一気飲|いっきの}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T00:22:32Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-drink' is not a valid semantic tag. It should be 'consumption' or 'food'.",
+      "suggestion": "consumption"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'social' is not a valid semantic tag. It should be 'society'.",
+      "suggestion": "society"
+    }
+  ]
+}

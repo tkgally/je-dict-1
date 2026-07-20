@@ -1,0 +1,10 @@
+{
+  "entry_id": "16511",
+  "screened_at": "2026-07-20T00:30:40Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 役割 is given as やくわり, but the following text indicates it's part of a larger phrase {重要|じゅ}. This suggests the reading for 役割 should be やくわり, and the reading for 重要 should be じゅうよう. The provided reading for 役割 is correct for the kanji portion, but the context implies a potential truncation or error in the subsequent furigana for 重要. However, based on the rule 'the reading covers ONLY the kanji portion', 役割 → やくわり is correct. The issue is with the subsequent {重要|じゅ} where 'じゅ' is a partial reading for 重要. This is explicitly allowed by the rule 'Do NOT flag partial readings as errors — they are correct by design.' Therefore, there are no errors in this pair."
+  ],
+  "confidence": 0.8
+}
