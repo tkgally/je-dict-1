@@ -1,0 +1,24 @@
+{
+  "entry_id": "16707_zouen",
+  "headword": "{造園|ぞうえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:18:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'nature' is too broad and misleading for '造園' (landscaping), which is an action/activity related to design and creation, not nature itself.",
+      "suggestion": "action"
+    }
+  ]
+}

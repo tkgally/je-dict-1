@@ -1,0 +1,31 @@
+{
+  "entry_id": "16679_byousoku",
+  "headword": "{秒速|びょうそく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:15:16Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'meters per second' is too specific and misleading. While often used with meters, the term itself means 'speed per second' regardless of the unit of distance.",
+      "suggestion": "speed per second"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'meters per second' is too specific and misleading. While often used with meters, the term itself means 'speed per second' regardless of the unit of distance.",
+      "suggestion": "speed per second"
+    }
+  ]
+}

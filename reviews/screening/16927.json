@@ -1,0 +1,10 @@
+{
+  "entry_id": "16927",
+  "screened_at": "2026-07-20T12:58:29Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The furigana for 御朱印 in pair 2 is given as ごしゅい, but the full reading for 御朱印 is ごしゅいん. This is a partial reading, but it's missing the final 'ん' which is part of the kanji portion. The instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, a partial reading should still be a valid part of the full kanji reading. In this case, 'ごしゅい' is not a standard partial reading for '御朱印' if 'ん' is part of the kanji reading. If 'ん' is considered okurigana, then the entry format should reflect that, but the main entry {御朱印|ごしゅいん} indicates 'ん' is part of the kanji reading. This inconsistency suggests a potential error in the partial reading provided."
+  ],
+  "confidence": 0.8
+}
