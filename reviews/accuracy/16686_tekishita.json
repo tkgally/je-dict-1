@@ -1,0 +1,24 @@
+{
+  "entry_id": "16686_tekishita",
+  "headword": "{適|てき}した",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:15:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '適した' is not inherently formal. It is a common adjective derived from a verb and can be used in various contexts, including informal ones. Labeling it 'formal' is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

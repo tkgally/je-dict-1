@@ -1,0 +1,31 @@
+{
+  "entry_id": "16673_yuwakashiki",
+  "headword": "{湯沸|ゆわ}かし{器|き}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:14:39Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "tool"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'household' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "16647_gangu",
+  "headword": "{玩具|がんぐ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:12:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'object'",
+      "suggestion": "tool"
+    }
+  ]
+}

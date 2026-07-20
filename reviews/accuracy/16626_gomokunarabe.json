@@ -1,0 +1,31 @@
+{
+  "entry_id": "16626_gomokunarabe",
+  "headword": "{五目並|ごもくなら}べ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-20T13:10:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'game' is not in the valid tag list.",
+      "suggestion": "Replace 'game' with 'leisure' or 'entertainment'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'culture-traditional' is not in the valid tag list.",
+      "suggestion": "Replace 'culture-traditional' with 'culture'."
+    }
+  ]
+}
