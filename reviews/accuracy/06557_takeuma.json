@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:02:33Z",
+  "reviewed_at": "2026-07-20T03:32:20Z",
   "summary": {
     "flagged": 3
   },
@@ -17,22 +17,22 @@
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss 'stilts' is too broad and potentially misleading. While 'takeuma' can refer to stilts in general, its primary and most common meaning, especially in the context of the Japanese word, refers specifically to bamboo stilts, which are a traditional Japanese toy. The current gloss doesn't capture this nuance and could lead a learner to believe it refers to any type of stilts.",
-      "suggestion": "bamboo stilts"
+      "concern": "The main gloss 'stilts' is too narrow and misleading given the third example sentence.",
+      "suggestion": "Add 'childhood friend' or similar to the main gloss."
     },
     {
       "dimension": "gloss",
       "location": "definitions[0].gloss",
       "severity": "error",
-      "concern": "The gloss 'stilts' is too broad and potentially misleading. While 'takeuma' can refer to stilts in general, its primary and most common meaning, especially in the context of the Japanese word, refers specifically to bamboo stilts, which are a traditional Japanese toy. The current gloss doesn't capture this nuance and could lead a learner to believe it refers to any type of stilts.",
-      "suggestion": "bamboo stilts"
+      "concern": "The gloss 'stilts' for sense 1 is too narrow and misleading given the third example sentence.",
+      "suggestion": "This definition only covers the 'stilts' meaning. A new sense should be added for 'childhood friend'."
     },
     {
       "dimension": "translation",
       "location": "examples[2]",
       "severity": "error",
-      "concern": "The English translation 'Childhood stilt friend' means a childhood friend is unnatural and misrepresents the Japanese. The phrase '竹馬の友' (takeuma no tomo) is an idiom meaning 'childhood friend' or 'friend from childhood', and the literal translation 'childhood stilt friend' is not a recognized English idiom and would confuse a learner.",
-      "suggestion": "The idiom 'takeuma no tomo' means a childhood friend."
+      "concern": "The English translation for example 2 is misleading. 'Takeuma no tomo' is not the word for childhood friend, but rather a phrase meaning 'childhood friend'. The Japanese sentence is explaining the meaning of the phrase.",
+      "suggestion": "The translation should be '“Takeuma no tomo” means a childhood friend.' or 'The phrase “takeuma no tomo” refers to a childhood friend.'"
     }
   ]
 }
