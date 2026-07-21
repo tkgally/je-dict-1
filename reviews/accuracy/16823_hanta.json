@@ -1,0 +1,24 @@
+{
+  "entry_id": "16823_hanta",
+  "headword": "{繁多|はんた}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:34:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'state' is not in the valid tag list.",
+      "suggestion": "Replace 'state' with a valid tag like 'descriptive' or 'existence'."
+    }
+  ]
+}

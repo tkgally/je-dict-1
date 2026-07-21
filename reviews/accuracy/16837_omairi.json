@@ -1,0 +1,31 @@
+{
+  "entry_id": "16837_omairi",
+  "headword": "お{参|まい}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:34:27Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow and misleading. 'Worship' is too strong and 'visiting a shrine or temple' excludes visiting graves, which is a common use of お参り.",
+      "suggestion": "visiting a shrine, temple, or grave; paying respects"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is too narrow and misleading. 'Worship' is too strong and 'visiting a shrine or temple' excludes visiting graves, which is a common use of お参り.",
+      "suggestion": "visiting a shrine, temple, or grave; paying respects; pilgrimage"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "16783_jizokuteki",
+  "headword": "{持続的|じぞくてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:33:04Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'description' is not a valid semantic tag. It should be 'descriptive'.",
+      "suggestion": "descriptive"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for the meaning of '持続的'. The word describes a characteristic of something, not a unit or concept of time itself.",
+      "suggestion": "general"
+    }
+  ]
+}

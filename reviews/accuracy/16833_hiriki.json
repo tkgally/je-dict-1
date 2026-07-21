@@ -1,0 +1,31 @@
+{
+  "entry_id": "16833_hiriki",
+  "headword": "{非力|ひりき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:34:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'description' is not a valid semantic tag. It should be 'descriptive'.",
+      "suggestion": "descriptive"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not a valid semantic tag. It should be 'body-part' or 'body-internal'. Given the gloss, 'body-part' is more appropriate.",
+      "suggestion": "body-part"
+    }
+  ]
+}

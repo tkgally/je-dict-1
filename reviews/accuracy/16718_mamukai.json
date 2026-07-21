@@ -1,0 +1,24 @@
+{
+  "entry_id": "16718_mamukai",
+  "headword": "{真向|まむ}かい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:31:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'position'",
+      "suggestion": "direction"
+    }
+  ]
+}

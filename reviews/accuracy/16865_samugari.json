@@ -1,0 +1,24 @@
+{
+  "entry_id": "16865_samugari",
+  "headword": "{寒|さむ}がり",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:35:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

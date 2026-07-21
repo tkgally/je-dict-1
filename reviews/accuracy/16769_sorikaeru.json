@@ -1,0 +1,24 @@
+{
+  "entry_id": "16769_sorikaeru",
+  "headword": "{反|そ}り{返|かえ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:32:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "Replace 'body' with a valid tag like 'body-part' or 'general' if no specific body part is implied."
+    }
+  ]
+}

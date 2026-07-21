@@ -1,0 +1,24 @@
+{
+  "entry_id": "16729_sessei",
+  "headword": "{節制|せっせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:31:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '節制' (moderation, self-restraint) is tagged 'health', but its primary meaning is about controlling desires or habits, which is a broader concept than just health. While often applied to health, it's not exclusively a health term.",
+      "suggestion": "Replace 'health' with 'action' or 'cognition' or 'daily-life' or 'general'."
+    }
+  ]
+}
