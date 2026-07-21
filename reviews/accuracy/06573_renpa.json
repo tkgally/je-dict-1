@@ -8,23 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:03:16Z",
+  "reviewed_at": "2026-07-21T12:33:48Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Semantic tags 'food' and 'leisure' are incorrect for '連覇' (consecutive championship).",
-      "suggestion": "Replace 'food' and 'leisure' with 'sports' and 'achievement' (if 'achievement' were a valid tag, otherwise 'general' or 'descriptive'). Given the valid tags, 'sports' is the most appropriate."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "Formality tag 'informal' is incorrect for '連覇'.",
+      "concern": "The formality tag 'informal' is incorrect for '連覇'.",
       "suggestion": "Change 'informal' to 'neutral'."
     }
   ]
