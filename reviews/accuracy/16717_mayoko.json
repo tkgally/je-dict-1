@@ -1,0 +1,24 @@
+{
+  "entry_id": "16717_mayoko",
+  "headword": "{真横|まよこ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:31:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'position' is not in the valid tag list.",
+      "suggestion": "direction"
+    }
+  ]
+}

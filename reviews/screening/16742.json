@@ -1,10 +1,10 @@
 {
   "entry_id": "16742",
-  "screened_at": "2026-07-20T12:32:18Z",
+  "screened_at": "2026-07-21T06:20:18Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for 老 in entry 13 is given as 'お', but the standard reading for 老いる is 'おい'. The provided reading 'お' is a partial reading, but it's missing the 'い' sound that is part of the kanji's reading before the okurigana 'る'. This is not a case of okurigana being outside the markup, as the 'い' is part of the kanji's reading."
+    "The entry is for {老|ふ}ける, but in item 13, 老 is mapped to お. While 老いる is a valid reading for 老, it's not consistent with the provided entry's reading for 老 in the context of ふける."
   ],
   "confidence": 0.9
 }

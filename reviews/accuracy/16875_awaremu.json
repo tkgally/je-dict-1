@@ -1,0 +1,24 @@
+{
+  "entry_id": "16875_awaremu",
+  "headword": "{憐|あわ}れむ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-21T06:35:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '憐れむ' is not formal. It is a standard verb.",
+      "suggestion": "neutral"
+    }
+  ]
+}
