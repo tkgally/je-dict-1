@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-21] maintenance | Harvest the loose 2026-07-21 accuracy-review + 2026-07-20 polish observations (reinforcements + one genuinely-new tooling gap — Cleanup **P20** [off-vocab tag cohort contiguous through 16900; 16711–16900 the densest pocket measured, 92/173 ~53%, 54 auto-migrated 1:1 + 47 judgment-dependent with no 1:1 target → 16700–17250 systemic-fix sweep; detector unknown-semantic 7,211→7,103], **P21** [frontier drains 06559–06568, 06563–06600 all-38 zero-linked, + **new open tooling gap**: note-field furigana *reading* errors unchecked by any tool — 06563 投手 `{中継|ちゅうけい}ぎ`→なかつぎ fixed in-run]; Tooling **item 20** [60th/61st no-op + concrete kana-headword root cause: scorer infers POS from romaji shape not `tags.pos`, 03728_maa scored verb-godan=30], **item 31** [two more indefinite OpenRouter hangs in one run-window, bug live/recurring]) + Activity A (overview tier sync) + Activity E (backlog-queue scope sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 14 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-6o0n00`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all loose observations from the 2026-07-21 accuracy-review (16624–16900) and the two 2026-07-20 routine polish runs (frontier 06559–06568 + priority notes-lanes). All but one were reinforcements of already-filed patterns, filed as dated updates on the existing prose backlog entries (Cleanup P20/P21, Tooling item 20/31). The one genuinely-new item: **note-field furigana can carry outright *reading* errors** (not just missing/malformed wrappers), and **no automated check validates readings inside `notes`** — `verify_furigana.py` and `review_runner.py` scan headword/examples only. Filed as an open tooling gap under the Cleanup P21 2026-07-21 update (distinct from P9 format wrappers and Tooling item 22 completeness), surfaced when the frontier link sweep fixed 06563 投手's `{中継|ちゅうけい}ぎ`→なかつぎ + a malformed `{クローザー}` wrapper.
+- **[A] Sync** — refreshed `project/overview.md` General-tier count (27,000 tagged `general` + the 20 untiered 29181–29200, of 29,803 total as of 2026-07-21, per `build/audit_tiers.py`).
+- **[E] Maintain** — refreshed the `unknown-semantic-tags` `scope_estimate` in `backlog-queue.json` (7,211→7,103) and appended a dated UPDATE to its notes to match the current detector reading (7,103 flags / 5,764 entries). No other status/batch-readiness changes — all harvested items were incremental updates under existing open entries.
+- **[H] Metrics trend not due**: only 7 new `metrics-history.jsonl` lines (319 total) since the twenty-second refresh at 312 runs (threshold ≥10).
+
+---
+
 ## [2026-07-20] maintenance | Harvest the 10 loose 2026-07-19/20 observations (nine reinforcements + one genuinely-new cluster — Cleanup **P21** [zero-inline-link band drains 06546–06558 across two frontier runs, tool/car-parts + traditional-games/yōkai cohorts, band unbroken ~06150→06558], **P20** [off-vocab tag cohort reaches 16424–16623, dense 92/200 pocket migrated in-run; detector unknown-semantic 7,323→7,211], **P17** [`formal`-template-default on katakana loanwords 06550/06551 + game noun 06555 くじ引き], **P13** [frontier-applied sole-`general`→`tool`/`leisure` on 06546/06556/06557], **new P3 cluster** [traditional children's-games entries co-cite but lack mutual `related` cross-refs]; Tooling **item 20** [58th/59th no-op confirmation, no-op set moves onto basic content adjectives], **item 23** [seen-in-entry lane effectively exhausted]) + **Activity H** (twenty-second metrics-trend refresh) + Activity A (overview tier sync) + Activity E (backlog-queue scope sync)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 14 unharvested-observation-lines signal)
