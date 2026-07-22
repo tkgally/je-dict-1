@@ -1,0 +1,24 @@
+{
+  "entry_id": "17182_bidanshi",
+  "headword": "{美男子|びだんし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:35:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '美男子'. While it's not an everyday casual word, it's not strictly 'formal' in the sense of official or academic language. It's more 'neutral' or slightly 'literary'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

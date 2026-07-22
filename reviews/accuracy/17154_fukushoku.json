@@ -1,0 +1,24 @@
+{
+  "entry_id": "17154_fukushoku",
+  "headword": "{副食|ふくしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:35:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '副食'. While it's not an everyday casual word, it's commonly used in contexts like nutrition, school lunches, or dietary discussions, making 'neutral' a more appropriate formality level.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "17093_subayai",
+  "headword": "{素早|すばや}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:33:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'motion' is not in the valid tag list.",
+      "suggestion": "movement"
+    }
+  ]
+}

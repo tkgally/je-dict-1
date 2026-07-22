@@ -1,0 +1,24 @@
+{
+  "entry_id": "17183_sekizou",
+  "headword": "{石像|せきぞう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:35:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

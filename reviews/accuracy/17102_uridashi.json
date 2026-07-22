@@ -1,0 +1,24 @@
+{
+  "entry_id": "17102_uridashi",
+  "headword": "{売|う}り{出|だ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:33:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'entertainment' is not appropriate for the headword '売り出し'. While 'debut' can be related to entertainment, the core meaning of '売り出し' (sale, launch, rise to prominence) is not inherently 'entertainment'.",
+      "suggestion": "Remove 'entertainment'."
+    }
+  ]
+}
