@@ -1,0 +1,31 @@
+{
+  "entry_id": "17051_torizara",
+  "headword": "{取|と}り{皿|ざら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:24:10Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-drink' is not in the valid tag list.",
+      "suggestion": "Replace 'food-drink' with 'food'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'utensil' is not in the valid tag list.",
+      "suggestion": "Replace 'utensil' with 'tool'."
+    }
+  ]
+}

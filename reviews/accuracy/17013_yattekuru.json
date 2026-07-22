@@ -1,0 +1,24 @@
+{
+  "entry_id": "17013_yattekuru",
+  "headword": "やって{来|く}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:23:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not a valid semantic tag.",
+      "suggestion": "Remove 'time' or replace with a valid tag if appropriate (e.g., 'time-general' if the headword specifically refers to time concepts, but 'movement' is sufficient here)."
+    }
+  ]
+}

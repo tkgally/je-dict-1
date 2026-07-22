@@ -1,0 +1,24 @@
+{
+  "entry_id": "16965_arehateru",
+  "headword": "{荒|あ}れ{果|は}てる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:22:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'overgrown' for 荒れ果てていた is too narrow and doesn't fully capture the meaning of 'ruined' or 'desolate' implied by 荒れ果てる. While a garden can be overgrown, the Japanese implies a more general state of neglect and ruin.",
+      "suggestion": "The garden was completely ruined/neglected/desolate."
+    }
+  ]
+}

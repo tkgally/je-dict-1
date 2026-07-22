@@ -1,0 +1,24 @@
+{
+  "entry_id": "16985_kanben",
+  "headword": "{簡便|かんべん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:22:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 簡便. While it can be used in formal contexts, it is not inherently a formal word and is commonly used in everyday language to describe convenience or simplicity.",
+      "suggestion": "neutral"
+    }
+  ]
+}

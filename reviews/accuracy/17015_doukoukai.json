@@ -1,0 +1,31 @@
+{
+  "entry_id": "17015_doukoukai",
+  "headword": "{同好会|どうこうかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:23:25Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'hobby' is not in the valid tag list.",
+      "suggestion": "leisure"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'community' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}
