@@ -1,0 +1,24 @@
+{
+  "entry_id": "17145_zensei",
+  "headword": "{全盛|ぜんせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:34:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '全盛'. While it refers to a period, the core meaning is about a state of being at a peak, not just a duration of time.",
+      "suggestion": "Replace 'time' with 'existence' or 'descriptive' to better reflect the meaning of being at a peak or in a flourishing state."
+    }
+  ]
+}

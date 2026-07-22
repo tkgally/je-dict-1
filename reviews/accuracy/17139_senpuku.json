@@ -1,0 +1,24 @@
+{
+  "entry_id": "17139_senpuku",
+  "headword": "{潜伏|せんぷく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:34:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'law' is too narrow and misleading for the general concept of 'hiding' or 'concealment' as described in sense 1, which can apply to various contexts beyond legal ones. The tag 'medicine' is also too narrow for the general concept of 'latency' or 'incubation' as described in sense 2, which can apply to other fields like computer science or psychology.",
+      "suggestion": "Replace 'law' with 'action' or 'general' for sense 1, and replace 'medicine' with 'time-period' or 'general' for sense 2. Given the existing glosses and explanations, 'action' and 'time-period' are more appropriate. Or, if a single tag is desired for the headword, 'general' or 'action' would be more fitting."
+    }
+  ]
+}

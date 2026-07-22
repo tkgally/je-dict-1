@@ -1,0 +1,24 @@
+{
+  "entry_id": "17146_bessatsu",
+  "headword": "{別冊|べっさつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T18:35:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'literature' is too narrow and misleading for '別冊'.",
+      "suggestion": "Replace 'literature' with 'media' or 'publication'."
+    }
+  ]
+}
