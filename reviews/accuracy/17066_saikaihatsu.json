@@ -1,0 +1,24 @@
+{
+  "entry_id": "17066_saikaihatsu",
+  "headword": "{再開発|さいかいはつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:24:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'building' is too narrow and potentially misleading for '再開発' (redevelopment), which refers to the process and planning of urban renewal rather than a specific building.",
+      "suggestion": "Remove 'building' and add 'action' as '再開発' is a suru-verb and action noun. 'society' or 'politics' could also be considered given the explanation about urban planning and resident opposition."
+    }
+  ]
+}

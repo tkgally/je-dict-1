@@ -1,0 +1,24 @@
+{
+  "entry_id": "16995_hyouhaku",
+  "headword": "{漂白|ひょうはく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:23:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'household' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

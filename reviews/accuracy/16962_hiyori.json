@@ -1,0 +1,24 @@
+{
+  "entry_id": "16962_hiyori",
+  "headword": "{日和|ひより}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:22:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '日和' has a second meaning related to opportunism/fence-sitting, which is not covered by the 'weather' tag.",
+      "suggestion": "Add 'cognition' or 'descriptive' to cover the second sense."
+    }
+  ]
+}

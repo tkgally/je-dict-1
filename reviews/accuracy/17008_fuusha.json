@@ -1,0 +1,24 @@
+{
+  "entry_id": "17008_fuusha",
+  "headword": "{風車|ふうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:23:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'architecture' is not appropriate for '風車' (windmill/wind turbine). While windmills are structures, 'architecture' typically refers to the art or practice of designing and constructing buildings, not individual machines or devices, even large ones.",
+      "suggestion": "Remove 'architecture'. 'energy' is appropriate, and 'building' could be considered if a broader structural tag is desired, but 'architecture' is too specific and misleading."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "17082_shoyuuken",
+  "headword": "{所有権|しょゆうけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:24:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific legal concept.",
+      "suggestion": "law"
+    }
+  ]
+}

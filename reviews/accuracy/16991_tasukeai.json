@@ -1,0 +1,24 @@
+{
+  "entry_id": "16991_tasukeai",
+  "headword": "{助|たす}け{合|あ}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:22:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'community' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

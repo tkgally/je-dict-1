@@ -1,0 +1,24 @@
+{
+  "entry_id": "17054_tsuitotsu",
+  "headword": "{追突|ついとつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-22T03:24:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'accident' is not in the valid tag list.",
+      "suggestion": "Replace 'accident' with 'general' or 'daily-life'."
+    }
+  ]
+}

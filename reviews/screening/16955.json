@@ -1,11 +1,11 @@
 {
   "entry_id": "16955",
-  "screened_at": "2026-07-20T13:02:44Z",
+  "screened_at": "2026-07-22T03:19:43Z",
   "model": "google/gemini-2.5-flash",
   "flagged": true,
   "concerns": [
-    "The reading for '教科書' is 'きょうかしょ', but the furigana provided for '中級' in the following text is 'ちゅうきゅ', which is incomplete. It should be 'ちゅうきゅう'.",
-    "The reading for '初級' is 'しょきゅう', but the furigana provided for '中級' in the following text is 'ちゅうき', which is incomplete. It should be 'ちゅうきゅう'."
+    "The reading for 教科書 is given as きょうかしょ, but the context shows it's followed by は{中級|ちゅうきゅ. This implies that the reading for 教科書 should be きょうかしょは, or the reading for 教科書 should be きょうかしょ and the は is a separate particle. Given the format, the reading should only cover the kanji portion. The provided reading for 教科書 is correct for the kanji alone, but the subsequent context suggests a potential misinterpretation of the full phrase's reading. However, based on the rule \"the reading covers ONLY the kanji portion,\" きょうかしょ for 教科書 is correct. The issue is with the subsequent {中級|ちゅうきゅ which is an incomplete reading for 中級. This is not an error in the 教科書 reading itself, but an error in the subsequent entry's reading.",
+    "The reading for 中級 is given as ちゅうきゅ, but it is an incomplete reading. The full reading should be ちゅうきゅう."
   ],
-  "confidence": 0.5
+  "confidence": 0.9
 }
