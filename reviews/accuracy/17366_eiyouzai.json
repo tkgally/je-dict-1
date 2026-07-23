@@ -1,0 +1,24 @@
+{
+  "entry_id": "17366_eiyouzai",
+  "headword": "{栄養|えいよう}{剤|ざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:53:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow and potentially misleading for '栄養剤' (nutritional supplement/tonic). While some nutritional supplements might be food-like, the term encompasses a broader range of products, including medicines or health products.",
+      "suggestion": "Replace 'food' with 'health' or 'medicine'."
+    }
+  ]
+}

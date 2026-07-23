@@ -1,0 +1,24 @@
+{
+  "entry_id": "17471_yotsunbai",
+  "headword": "{四|よ}つん{這|ば}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:55:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect for '四つん這い'. '四つん這い' describes a posture or action, not a body part.",
+      "suggestion": "movement"
+    }
+  ]
+}

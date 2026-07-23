@@ -1,0 +1,24 @@
+{
+  "entry_id": "17351_kouhyouka",
+  "headword": "{高評価|こうひょうか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:53:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word that specifically refers to evaluation or assessment.",
+      "suggestion": "evaluation"
+    }
+  ]
+}

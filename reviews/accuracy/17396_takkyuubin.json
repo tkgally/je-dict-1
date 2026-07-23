@@ -1,0 +1,24 @@
+{
+  "entry_id": "17396_takkyuubin",
+  "headword": "{宅急便|たっきゅうびん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:54:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'service' is not in the valid tag list.",
+      "suggestion": "Replace 'service' with 'business'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "17401_hachiawaseru",
+  "headword": "{鉢合|はちあ}わせる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:54:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social-interaction' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

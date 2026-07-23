@@ -1,0 +1,24 @@
+{
+  "entry_id": "17551_atarisawari",
+  "headword": "{当|あ}たり{障|さわ}り",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:57:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'social' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}
