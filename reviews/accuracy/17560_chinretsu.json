@@ -1,0 +1,24 @@
+{
+  "entry_id": "17560_chinretsu",
+  "headword": "{陳列|ちんれつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:57:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tags 'display' and 'retail' are not in the valid tag list.",
+      "suggestion": "Replace 'display' with 'action' or 'art' or 'business' and 'retail' with 'business' or 'shopping'."
+    }
+  ]
+}

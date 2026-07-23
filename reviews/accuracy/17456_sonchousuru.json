@@ -1,0 +1,24 @@
+{
+  "entry_id": "17456_sonchousuru",
+  "headword": "{尊重|そんちょう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:55:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to value highly' is misleading. While 尊重する implies valuing, 'value highly' suggests a stronger degree of appreciation than is always present. The primary meaning is 'to respect' or 'to esteem'.",
+      "suggestion": "to respect; to esteem; to value"
+    }
+  ]
+}

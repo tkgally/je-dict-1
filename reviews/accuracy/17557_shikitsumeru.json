@@ -1,0 +1,31 @@
+{
+  "entry_id": "17557_shikitsumeru",
+  "headword": "{敷|し}き{詰|つ}める",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T18:57:20Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'covering' is not in the valid tag list.",
+      "suggestion": "Replace 'covering' with 'action'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'construction' is not in the valid tag list.",
+      "suggestion": "Replace 'construction' with 'action'."
+    }
+  ]
+}
