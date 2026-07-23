@@ -3676,3 +3676,8 @@
 {"ts": "2026-07-23T06:29:20Z", "entry": "17266", "src": "accuracy", "dim": "tags", "sev": "warn", "decision": "apply", "note": "off-vocab semantic tag migrated in-list"}
 {"ts": "2026-07-23T06:33:21Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 11, "note": "family: screener truncation/rendaku/okurigana-split/index FPs"}
 {"ts":"2026-07-23T12:24:00Z","entry":"19877","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","note":"harness truncation FP; readings correct, not edited pair"}
+{"ts":"2026-07-23T15:35:33Z","entry":"06601","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"formality informal->neutral; notes say standard term"}
+{"ts":"2026-07-23T15:35:33Z","entry":"06600","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general->science too-broad nit, both in-list"}
+{"ts":"2026-07-23T15:35:33Z","entry":"06603","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general->technology too-broad nit, both in-list"}
+{"ts":"2026-07-23T15:35:33Z","entry":"06604","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"general->sports too-broad nit, both in-list"}
+{"ts":"2026-07-23T15:35:33Z","entry":"06602","src":"self-check","dim":"tags","sev":"error","decision":"reject","note":"parse-fail; same general-too-broad family"}
