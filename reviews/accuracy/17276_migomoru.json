@@ -1,0 +1,24 @@
+{
+  "entry_id": "17276_migomoru",
+  "headword": "{身籠|みごも}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T06:21:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is marked as 'formal', but the explanation states it is 'somewhat literary or formal' and 'more refined than the common 妊娠する'. This suggests a higher level of formality than 'formal' alone, possibly 'literary' or 'archaic' if such tags existed, but given the options, 'formal' might be an understatement for its nuance.",
+      "suggestion": "Consider if 'formal' adequately captures the 'literary' and 'refined' nuance described in the explanation. If there's a tag for 'literary' or 'archaic', it might be more appropriate. Otherwise, 'formal' is the closest available."
+    }
+  ]
+}

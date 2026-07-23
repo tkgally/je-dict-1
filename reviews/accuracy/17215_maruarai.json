@@ -1,0 +1,24 @@
+{
+  "entry_id": "17215_maruarai",
+  "headword": "{丸洗|まるあら}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T06:20:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'cleaning' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

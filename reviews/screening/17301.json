@@ -1,0 +1,10 @@
+{
+  "entry_id": "17301",
+  "screened_at": "2026-07-23T06:29:42Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 落葉 (おちば) is followed by \"read as お\", which implies the reading for 落葉 is just お, but the full reading is おちば. This is a partial reading issue, but the instruction says \"Do NOT flag partial readings as errors\". However, the instruction also says \"the reading covers ONLY the kanji portion\". In this case, the reading for 落葉 is given as おちば, but the context implies only 'お' is the reading for 落葉, which is incorrect. If the intention was to show the reading for just '落', then it should be {落|お}ちば. As it stands, {落葉|おちば} followed by \"read as お\" is contradictory and confusing. Given the instruction \"the reading covers ONLY the kanji portion\", and the example {走|はし}る where 走=はし, then {落葉|おちば} means 落葉=おちば. The subsequent text \"read as お\" is problematic. If the intention was to show the reading for just '落', it should be {落|お} followed by ちば. If the intention was to show the reading for '落葉' as 'おちば', then 'read as お' is misleading. I will flag this as a concern because the additional text 'read as お' makes the reading ambiguous and potentially incorrect based on the given format rules."
+  ],
+  "confidence": 0.8
+}
