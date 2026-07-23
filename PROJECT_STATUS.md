@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-19
+**Last updated**: 2026-07-23
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,14 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-23 (Routine v2: new-entries — 13 New Entries, IDs 30064–30076)
+Created 13 general-tier entries, **all 13 from the "seen in entry" priority queue** (candidates C22502–C22514, cited from entries 06590, 06599–06604, 30055, 30062) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. Clusters: computing/AI — {自然|しぜん}{言語|げんご}{処理|しょり} (NLP), {畳|たた}み{込|こ}み (convolution), ニューラルネットワーク (neural network), クラウドストレージ (cloud storage), {内蔵|ないぞう} (built-in; verb-suru), {置|お}き{換|か}わる (to be replaced; verb-godan, paired with {置|お}き{換|か}える); energy/electronics — リチウムイオン{電池|でんち} (lithium-ion battery), {配電|はいでん} (power distribution; verb-suru), スマートグリッド (smart grid); music — {拍|はく} (beat; counter), グルーブ (groove); science/folklore — {状態変化|じょうたいへんか} (change of state; verb-suru), {浮遊霊|ふゆうれい} (wandering spirit). Conjugation tables added to the 3 new suru-verbs and 1 godan verb; no new kanji. The C22505 グルーヴ candidate was created under the equally-standard グルーブ spelling (the ゔ form is not romanizable by the ID toolchain) and C22515 部 was dropped as already covered by the 〜部 suffix entry (00440_bu). §4 cross-model self-check on all 13 changed entries: **clean — 13/13, 0 flagged, 0 applied, 0 rejected**. $0.0056. The seen-in-entry queue is empty again and awaits curator/polish restock.
+
+- **Computing / AI (6)**: {自然|しぜん}{言語|げんご}{処理|しょり} (NLP), {畳|たた}み{込|こ}み (convolution), ニューラルネットワーク (neural network), クラウドストレージ (cloud storage), {内蔵|ないぞう} (built-in; verb), {置|お}き{換|か}わる (to be replaced; verb)
+- **Energy / electronics (3)**: リチウムイオン{電池|でんち} (lithium-ion battery), {配電|はいでん} (power distribution; verb), スマートグリッド (smart grid)
+- **Music (2)**: {拍|はく} (beat; counter), グルーブ (groove)
+- **Science / folklore (2)**: {状態変化|じょうたいへんか} (change of state; verb), {浮遊霊|ふゆうれい} (wandering spirit)
+
 ### 2026-07-23 (Routine v2: new-entries — 15 New Entries, IDs 30049–30063)
 Created 15 general-tier entries. The **13 "seen in entry" candidates** (C22489–C22501, cited from entries 30031–30048 and 06583–06591) were created first — internal-completeness gaps the dictionary already referenced; this **cleared the seen-in-entry queue**. The 5 business/finance words were the ones flagged as referenced-but-missing by the 2026-07-22 run: {入金|にゅうきん}{済|ず}み (payment received), {比較表|ひかくひょう} (comparison table), {借入額|かりいれがく} (amount borrowed), {社用車|しゃようしゃ} (company car), plus {通電|つうでん} (energizing; verb-suru). A soccer-position set filled the 06587–06589 gaps: サブ (sub/backup), センターバック (center back), サイドバック (fullback), ボランチ (defensive midfielder), サイドハーフ (side midfielder). Plus {遺恨|いこん} (grudge), {地縛霊|じばくれい} (earthbound spirit; folklore), {炭化水素|たんかすいそ} (hydrocarbon). The 2 remaining are hand-picked standalone lexemes, since the non-seen candidate pool stays **heavily polluted** (transparent compounds, corpus fragments, wrong readings): {相変化|そうへんか} (phase change; verb-suru), {索引語|さくいんご} (index term). Conjugation tables added to the 2 new suru-verbs ({通電|つうでん}, {相変化|そうへんか}); no new kanji. §4 cross-model self-check on all 15 changed entries: **14 clean, 1 flagged — 1 applied (2 issues), 0 rejected** — dropped "principal" from {借入額|かりいれがく}'s gloss (借入額 is the amount borrowed, not 元金 principal proper). $0.0065. Added {浮遊霊|ふゆうれい} (wandering spirit) and {状態変化|じょうたいへんか} (change of state) as referenced-but-missing candidates. The seen-in-entry queue is empty again and awaits curator/polish restock.
 
@@ -81,13 +89,4 @@ Created 20 general-tier entries, **all 20 from the "seen in entry" priority queu
 - **Nature / animals (10)**: {逃|に}げ{水|みず} (road mirage), ボノボ (bonobo), アシカ (sea lion), オットセイ (fur seal), {鰭|ひれ} (fin), ゴマフアザラシ (spotted seal), {鍬形|くわがた} (helmet crest), オオクワガタ (giant stag beetle), ノコギリクワガタ (sawtooth stag beetle), ミヤマクワガタ (deep-mountain stag beetle)
 - **Baseball (7)**: {中継|なかつ}ぎ (middle reliever), {抑|おさ}え (closer; restraint), クローザー (closer), {奪三振|だつさんしん} (strikeouts), {好打者|こうだしゃ} (good hitter), {打|う}ち{取|と}る (to retire a batter; verb), {四番|よんばん} (cleanup hitter)
 - **Music (3)**: {聴|き}く (to listen attentively; verb), コンダクター (conductor), マエストロ (maestro)
-
-### 2026-07-20 (Routine v2: new-entries — 21 New Entries, IDs 29972–29992)
-Created 21 general-tier entries, **all 21 from the "seen in entry" priority queue** (candidates C22427–C22447, cited from entries 06543–06556, 29954–29962) — internal-completeness gaps the dictionary already referenced. This **cleared the seen-in-entry queue**. Clusters: sports — バタ{足|あし} (flutter kick), ノーヒットノーラン (no-hitter), イエローカード (yellow card), コーナーキック (corner kick), ペナルティキック (penalty kick); tools — {槌|つち} (mallet), {木槌|きづち} (wooden mallet), グラインダー (grinder); vehicle — {方向指示器|ほうこうしじき} (turn signal, formal), ギア (gear), エンスト (engine stall), オートマ (automatic car), {発進|はっしん} (moving off), {放|はな}す (to let go; verb-godan); school/lottery — {席替|せきが}え (changing seats), {二等|にとう} (second prize/class), {参加賞|さんかしょう} (participation prize), スクラッチ (scratch card); plant/traditional — {数珠玉|じゅずだま} (Job's tears), {俵|たわら} (straw bale); plus {新装開店|しんそうかいてん} (grand reopening). Conjugation tables added to the 4 new suru-verbs ({新装開店|しんそうかいてん}, エンスト, {発進|はっしん}, {席替|せきが}え) and 1 godan verb ({放|はな}す); no new kanji. §4 cross-model self-check on all 21 changed entries: **20 clean, 1 flagged — 0 applied, 1 rejected** — on ペナルティキック, where the model's suggested translation was identical to the existing one (misread its own concern; ペナルティキック{戦|せん} = "penalty shootout" is correct). $0.0091. The seen-in-entry queue is empty again and awaits curator/polish restock.
-
-- **Sports (5)**: バタ{足|あし} (flutter kick), ノーヒットノーラン (no-hitter), イエローカード (yellow card), コーナーキック (corner kick), ペナルティキック (penalty kick)
-- **Tools (3)**: {槌|つち} (mallet), {木槌|きづち} (wooden mallet), グラインダー (grinder)
-- **Vehicle (6)**: {方向指示器|ほうこうしじき} (turn signal), ギア (gear), エンスト (engine stall), オートマ (automatic car), {発進|はっしん} (moving off), {放|はな}す (to let go; verb)
-- **School / lottery (4)**: {席替|せきが}え (changing seats), {二等|にとう} (second prize), {参加賞|さんかしょう} (participation prize), スクラッチ (scratch card)
-- **Plant / traditional / business (3)**: {数珠玉|じゅずだま} (Job's tears), {俵|たわら} (straw bale), {新装開店|しんそうかいてん} (grand reopening)
 
