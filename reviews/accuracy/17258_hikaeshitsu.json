@@ -1,0 +1,24 @@
+{
+  "entry_id": "17258_hikaeshitsu",
+  "headword": "{控室|ひかえしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T06:21:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'place' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

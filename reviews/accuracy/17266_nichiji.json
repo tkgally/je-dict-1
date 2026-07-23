@@ -1,0 +1,24 @@
+{
+  "entry_id": "17266_nichiji",
+  "headword": "{日次|にちじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-23T06:21:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'time-frequency'.",
+      "suggestion": "time-general"
+    }
+  ]
+}

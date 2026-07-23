@@ -1,0 +1,10 @@
+{
+  "entry_id": "17243",
+  "screened_at": "2026-07-23T06:24:20Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for \"物置\" in pair 12 is \"ものお\" but the full reading is \"ものおき\". This is a partial reading, but the instructions state \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" However, the example given for partial readings is \"先行→さきゆ followed by き (先行き=さきゆき)\", where the okurigana is outside the markup. In pair 12, \"き\" is also outside the markup, making it a correct partial reading according to the rules."
+  ],
+  "confidence": 0.5
+}
