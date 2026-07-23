@@ -2,6 +2,22 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-23] maintenance | Harvest the 9 loose 2026-07-22 observations (all reinforcements — Cleanup **P20** [off-vocab cohort into 17086–17202, 53/117 ~45% migrated in-run; detector 7,041→6,983], **P21** [frontier drains 06585–06588 soccer-position loanwords; 06583–06592 general-tier band zero-linked — invisible to the notes scorer, so the frontier sweep stays the inline-link instrument], **P13** [06585 sole-`general`→`sports` at the frontier]; Tooling **item 6** [more 1:1 `TAG_MIGRATION` additions: grammar→grammatical, literature→media, environment→daily-life, hobby→leisure, house→furniture, object→tool, sensation→health], **item 17** [23rd confirmation — 06583/06584 §4 self-check flags in-list `general`→science/music at `error` severity, rejected], **item 20** [64th/65th no-op + **new datum: §2 regenerate+reset-to-1 actively loops within a single day** → advance-cursor is the escape], **item 23** [reinforcement — 2026-07-22 new-entries run cherry-picked across date-batches; 2026-02/03 corpus dumps largely unusable]) + Activity A (overview tier sync) + Activity E (backlog-queue scope sync)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-2gz1sc`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 9 loose observations from the 2026-07-22 accuracy-review (17086–17202), new-entries, and two routine polish runs (priority notes-lanes + frontier 06583–06592). All were reinforcements of well-established, already-filed patterns, filed as dated updates on the existing prose backlog entries (Cleanup P20/P21/P13, Tooling item 6/17/20/23). The most notable new nuance: a concrete demonstration that the §2 "regenerate + reset priority cursor to line 1" backstop **actively loops within a single day** — one run reset to line 1 after an all-no-op lane, the next started at line 1 and hit the identical no-ops, and escaped only by advancing the cursor past the examined lines (Tooling item 20). The 17086–17202 tag migration also supplied several clean 1:1s for `check_tag_drift.py`'s `TAG_MIGRATION` map (Tooling item 6).
+- **[A] Sync** — refreshed `project/overview.md` General-tier count (27,051 tagged `general` + the 20 untiered 29181–29200, of 29,854 total as of 2026-07-23, per `build/audit_tiers.py`).
+- **[E] Maintain** — refreshed the `unknown-semantic-tags` `scope_estimate` in `backlog-queue.json` (7,041→6,983) and appended a dated UPDATE to its notes (17086–17202 migration; detector 6,983 flags / 5,665 entries; the new 1:1 map additions). No status/batch-readiness changes — all harvested items were incremental updates under existing open entries.
+- **[H] Metrics trend — not due**: only 6 new `metrics-history.jsonl` lines (333 total) since the page's twenty-third refresh at 327 runs (threshold ≥10).
+
+---
+
 ## [2026-07-22] maintenance | Harvest the 9 loose 2026-07-21/22 observations (eight reinforcements + one genuinely-new tooling datum — Cleanup **P21** [frontier drains 06569–06574; band uniformly zero-linked ~06150→~06600; **06578–06582 pinned to a 2026-01-18 creation batch**; note-field malformed wrappers {プロ野球|やきゅう}/コーラス{グループ} recur during the link sweep → `check_furigana_format.py` should scan `notes`], **P20** [off-vocab cohort into 16936–17085, 45/150 ~30% migrated in-run; detector 7,103→7,041]; Tooling **item 17** [22nd confirmation — in-list `general`→specific nits 16901–16935], **item 20** [62nd/63rd no-op], **item 21** [11th confirmation + **new datum: screening runs out of ID order → filter by `screened_at`, not mtime**]) + **Activity H** (twenty-third metrics-trend refresh) + Activity A (overview tier sync) + Activity E (backlog-queue scope sync)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 12 unharvested-observation-lines signal)
