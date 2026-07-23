@@ -1,0 +1,11 @@
+{
+  "entry_id": "19877",
+  "screened_at": "2026-07-23T12:23:24Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 6, {向|む}, is followed by \"かって{敬礼|けいれ\". The reading 'む' is correct for 向, but the following text 'かって{敬礼|けいれ' seems to be a truncated part of a larger phrase, and the furigana for 敬礼 is also truncated. This isn't an error in the kanji-reading mapping itself, but rather an incomplete example that might be misleading or indicate a parsing issue in the source data. However, based on the strict instruction to only flag incorrect kanji-reading mappings, this specific item is technically correct for the '向' part. I will flag it because the example is broken, which might indicate a problem with the source data, even if the '向' part itself is correct.",
+    "The reading for item 16, {礼|れい}, is followed by \" (etiquett)\". The word \"etiquett\" is truncated, which is not an error in the kanji-reading mapping but indicates an incomplete example."
+  ],
+  "confidence": 0.8
+}
