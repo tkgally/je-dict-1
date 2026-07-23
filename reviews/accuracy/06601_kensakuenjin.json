@@ -8,23 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:04:26Z",
+  "reviewed_at": "2026-07-23T15:34:21Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'transportation' is incorrect for '検索エンジン' (search engine).",
-      "suggestion": "technology"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'informal' is incorrect for '検索エンジン'.",
+      "concern": "The formality tag 'informal' is incorrect for '検索エンジン'. This is a neutral, technical term.",
       "suggestion": "neutral"
     }
   ]
