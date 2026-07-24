@@ -2,50 +2,15 @@
   "entry_id": "00484_mo",
   "headword": "も",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:52:04Z",
+  "reviewed_at": "2026-07-24T09:26:58Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete as it doesn't cover all senses.",
-      "suggestion": "Add 'both...and', 'neither...nor', 'as many as', 'as much as' to the top-level gloss."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'even' for sense 2 is incomplete and doesn't fully capture the nuance when used with negative indefinites.",
-      "suggestion": "Add 'any' (in negative contexts) to the gloss for sense 2, e.g., 'even, any'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'Nobody came.' is a natural rendering, but it doesn't explicitly show the 'even' or 'any' nuance of も in this negative indefinite context, which is what sense 2 is trying to convey.",
-      "suggestion": "Consider a translation that highlights the 'even' or 'any' aspect, e.g., 'Not even one person came.' or 'No one at all came.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'I haven't eaten anything.' is a natural rendering, but it doesn't explicitly show the 'even' or 'any' nuance of も in this negative indefinite context, which is what sense 2 is trying to convey.",
-      "suggestion": "Consider a translation that highlights the 'even' or 'any' aspect, e.g., 'I haven't eaten anything at all.' or 'I haven't eaten even a single thing.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'I don't want to go anywhere.' is a natural rendering, but it doesn't explicitly show the 'even' or 'any' nuance of も in this negative indefinite context, which is what sense 2 is trying to convey.",
-      "suggestion": "Consider a translation that highlights the 'even' or 'any' aspect, e.g., 'I don't want to go anywhere at all.' or 'I don't want to go even one place.'"
-    }
-  ]
+  "issues": []
 }

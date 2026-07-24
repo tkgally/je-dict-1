@@ -8,24 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T18:27:17Z",
+  "reviewed_at": "2026-07-24T09:27:09Z",
   "summary": {
-    "flagged": 2
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation for 'お大事に。' is incomplete and misleading for a learner. While 'Take care (of yourself)' and 'Get well soon' are common uses, the phrase itself literally means 'Please take good care (of yourself/it)' and is used in a broader context than just illness.",
+      "suggestion": "Add a more literal or broader explanation to the translation, or clarify the context. For example, 'Take good care (of yourself/it).' or 'Please take care (of yourself/it).' The current translation focuses too much on illness."
+    },
+    {
+      "dimension": "translation",
       "location": "examples[12]",
       "severity": "error",
-      "concern": "The English translation 'I'll take it easy and rest today' for '大事を取って今日は休みます。' is misleading. '大事を取る' means to take precautions or play it safe, not simply to 'take it easy'.",
-      "suggestion": "I'll play it safe and rest today. / I'll take precautions and rest today."
+      "concern": "The translation 'I'll play it safe and rest today.' for '大事を取って今日は休みます。' is a good idiomatic translation, but it loses the direct connection to the meaning of '大事' (important/valuable) in the idiom '大事を取る' (to take precautions, to play it safe). A learner might not connect this to the headword's meaning.",
+      "suggestion": "While 'play it safe' is natural, consider adding a parenthetical explanation or a slightly more literal alternative to help connect it to '大事'. For example, 'I'll take precautions (literally, 'take the important thing') and rest today.' or 'I'll prioritize safety and rest today.'"
     },
     {
       "dimension": "translation",
       "location": "examples[14]",
       "severity": "error",
-      "concern": "The English translation 'I caught a cold, so I took care and went to bed early.' for '風邪をひいたので、大事を取って早めに寝た。' is misleading. '大事を取る' means to take precautions or play it safe, not simply to 'take care' in this context.",
-      "suggestion": "I caught a cold, so I played it safe and went to bed early. / I caught a cold, so I took precautions and went to bed early."
+      "concern": "Similar to example 12, the translation 'I caught a cold, so I played it safe and went to bed early.' for '風邪をひいたので、大事を取って早めに寝た。' is idiomatic but obscures the connection to the headword '大事' for a learner.",
+      "suggestion": "Similar to example 12, consider adding a parenthetical explanation or a slightly more literal alternative to help connect it to '大事'. For example, 'I caught a cold, so I took precautions (literally, 'took the important thing') and went to bed early.' or 'I caught a cold, so I prioritized my health and went to bed early.'"
     }
   ]
 }
