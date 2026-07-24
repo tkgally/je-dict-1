@@ -8,23 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:04:35Z",
+  "reviewed_at": "2026-07-24T00:32:05Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'electronics' is completely unrelated to the meaning of '表裏' (front and back, duality).",
-      "suggestion": "Remove 'electronics' and add 'general' or 'abstract' as more appropriate tags."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
-      "severity": "warn",
-      "concern": "The formality tag 'formal' seems too strong for a word that can be used in everyday contexts, especially in sense 1. 'Neutral' might be more appropriate.",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '表裏'. While it can be used in formal contexts, it is also very commonly used in everyday speech and writing, making 'neutral' a more appropriate general classification.",
       "suggestion": "neutral"
     }
   ]
