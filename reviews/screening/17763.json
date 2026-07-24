@@ -1,0 +1,10 @@
+{
+  "entry_id": "17763",
+  "screened_at": "2026-07-24T21:22:52Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {手拍子|てびょうし} (てびょうし) indicates that the reading covers ONLY the kanji portion. However, in pair 2, {手拍子|てびょう) is given, which is a partial reading of the kanji. The same issue occurs in pair 8, {手拍子|てびょう). This is explicitly stated as NOT an error in the instructions, so it should not be flagged. However, the instructions also state that the reading covers ONLY the kanji portion, which these partial readings violate. This is a contradiction in the instructions. Given the instruction to \"Do NOT flag partial readings as errors\", I will not flag these. However, if the intent was for the reading to always cover the full kanji, then these would be errors."
+  ],
+  "confidence": 0.5
+}

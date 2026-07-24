@@ -1,0 +1,10 @@
+{
+  "entry_id": "17851",
+  "screened_at": "2026-07-24T21:33:08Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 8, \"正 → ただ\", is a partial reading. While partial readings are generally allowed, in this specific context, the full reading for 正しい is \"ただしい\". The provided reading \"ただ\" only covers the first two hiragana, leaving \"しい\" as implied okurigana. This is a common pattern for verbs and adjectives where the stem is read and the inflection is okurigana. However, the instruction states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" Given this, it's technically correct as \"正\" is read as \"ただ\" and \"しい\" is okurigana. Therefore, I will not flag it as an error based on the provided rules."
+  ],
+  "confidence": 0.9
+}

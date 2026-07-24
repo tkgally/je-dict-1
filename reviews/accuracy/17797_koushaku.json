@@ -1,0 +1,31 @@
+{
+  "entry_id": "17797_koushaku",
+  "headword": "{公爵|こうしゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T21:41:56Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'prince' which is misleading. While a duke can be a prince, 'prince' is not a direct translation of 公爵 in the context of peerage ranks.",
+      "suggestion": "duke"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'prince' which is misleading. While a duke can be a prince, 'prince' is not a direct translation of 公爵 in the context of peerage ranks.",
+      "suggestion": "duke (highest rank of peerage)"
+    }
+  ]
+}

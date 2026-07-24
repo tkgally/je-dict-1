@@ -1,0 +1,12 @@
+{
+  "entry_id": "17880",
+  "screened_at": "2026-07-24T21:36:34Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {先頭車両|せんとうしゃりょう} is followed by (せんとうしゃりょう) which is redundant and not part of the kanji-reading mapping itself, but rather a dictionary formatting issue. However, the prompt asks to check the kanji-reading mappings, and the mapping itself is correct. The prompt also states: \"Entry: {先頭車両|せんとうしゃりょう} (せんとうしゃりょう) — noun\". This implies that the part in parentheses is part of the dictionary entry format, not an error in the furigana mapping. Therefore, I will not flag it as an error in the mapping.",
+    "The entry for {改札口|かいさつぐち} is followed by \"は{先頭車両|せんと)\". The furigana for 先頭車両 is incomplete, only \"せんと\" is provided. This is a partial reading and the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, I will not flag it as an error.",
+    "The entry for {子|こ} is followed by \"どもが{先頭車両|せ)\". The furigana for 先頭車両 is incomplete, only \"せ\" is provided. This is a partial reading and the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, I will not flag it as an error."
+  ],
+  "confidence": 1.0
+}

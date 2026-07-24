@@ -1,0 +1,24 @@
+{
+  "entry_id": "17892_kaikigesshoku",
+  "headword": "{皆既月食|かいきげっしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T21:43:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "A total lunar eclipse is an astronomical event, not a weather phenomenon.",
+      "suggestion": "nature"
+    }
+  ]
+}
