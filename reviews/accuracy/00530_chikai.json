@@ -2,22 +2,15 @@
   "entry_id": "00530_chikai",
   "headword": "{近|ちか}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:27Z",
+  "reviewed_at": "2026-07-24T18:30:04Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation for sense 1 is incomplete as it mentions 'closeness in relationships or time' but the examples only cover physical proximity and time, not relationships. This could mislead learners into thinking '近い' is commonly used for relationships in the same way as physical proximity, without providing examples.",
-      "suggestion": "Either add examples demonstrating 'closeness in relationships' or remove 'or closeness in relationships' from the explanation if it's not a primary or common usage for intermediate learners."
-    }
-  ]
+  "issues": []
 }
