@@ -2,29 +2,15 @@
   "entry_id": "00533_osoi",
   "headword": "{遅|おそ}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:33Z",
+  "reviewed_at": "2026-07-24T18:30:05Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation 'I walk slowly' is grammatically correct but less natural than 'I am a slow walker' or 'I walk slowly' (with 'I' as the subject). The Japanese '歩くのが遅いです' emphasizes the act of walking being slow, rather than the person's inherent slowness.",
-      "suggestion": "Change 'I walk slowly' to 'I am a slow walker' or 'My walking is slow.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "warn",
-      "concern": "The English translation 'I eat slowly, so I'm always the last one eating' is a bit clunky. 'I'm a slow eater' or 'I eat slowly' would be more natural.",
-      "suggestion": "Change 'I eat slowly, so I'm always the last one eating' to 'I'm a slow eater, so I'm always the last one to finish eating.'"
-    }
-  ]
+  "issues": []
 }
