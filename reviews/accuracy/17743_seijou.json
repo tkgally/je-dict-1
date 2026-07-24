@@ -1,0 +1,24 @@
+{
+  "entry_id": "17743_seijou",
+  "headword": "{清浄|せいじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:48:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'descriptive' is too general and doesn't capture the core meaning of '清浄'.",
+      "suggestion": "Add 'quality' or 'state' to better reflect the meaning of purity and cleanliness."
+    }
+  ]
+}

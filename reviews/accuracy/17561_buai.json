@@ -1,0 +1,31 @@
+{
+  "entry_id": "17561_buai",
+  "headword": "{歩合|ぶあい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:44:51Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'rate' is too broad and misleading without context. While 'rate' can be a meaning of 歩合, it's specifically a 'rate of success/winning/passing' or a 'commission rate', not just any 'rate'. The current gloss implies it can mean 'speed' or 'interest rate', which it cannot.",
+      "suggestion": "commission; percentage; success rate"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'rate' is too broad and misleading without context. While 'rate' can be a meaning of 歩合, it's specifically a 'rate of success/winning/passing' or a 'commission rate', not just any 'rate'. The current gloss implies it can mean 'speed' or 'interest rate', which it cannot.",
+      "suggestion": "success rate; proportion"
+    }
+  ]
+}

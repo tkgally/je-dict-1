@@ -1,0 +1,24 @@
+{
+  "entry_id": "17697_ippuku",
+  "headword": "{一服|いっぷく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:47:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "The headword '一服' has two distinct meanings: 'a break' and 'a dose'. The tag 'consumption' only covers the 'dose' meaning, not the 'break' meaning. A more general tag is needed to cover both.",
+      "suggestion": "Add 'daily-life' to cover the 'break' meaning, or replace 'consumption' with 'daily-life' if a single tag is preferred and 'daily-life' is deemed broad enough to encompass the 'dose' meaning in the context of daily activities like taking medicine or tea."
+    }
+  ]
+}

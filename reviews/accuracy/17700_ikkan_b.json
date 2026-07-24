@@ -1,0 +1,31 @@
+{
+  "entry_id": "17700_ikkan_b",
+  "headword": "{一貫|いっかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:47:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'throughout' is misleading as a standalone meaning for 一貫. While it implies 'throughout' in the context of consistency, it's not a direct translation of the word itself.",
+      "suggestion": "Remove 'throughout' from the main gloss."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'consistently' in example 2 misrepresents the nuance of 一貫して in this context. It implies that the company *always* handles things in-house, rather than handling the *entire process* (from planning to manufacturing) in-house.",
+      "suggestion": "Change 'consistently' to 'entirely' or 'integrally' to better reflect the meaning of handling the whole process."
+    }
+  ]
+}

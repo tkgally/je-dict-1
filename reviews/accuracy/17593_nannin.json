@@ -1,0 +1,24 @@
+{
+  "entry_id": "17593_nannin",
+  "headword": "{何人|なんにん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:45:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

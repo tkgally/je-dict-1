@@ -1,0 +1,24 @@
+{
+  "entry_id": "17569_keshikakeru",
+  "headword": "{嗾|けしか}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:45:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tags 'incitement' and 'provocation'.",
+      "suggestion": "Replace 'incitement' and 'provocation' with 'action'."
+    }
+  ]
+}

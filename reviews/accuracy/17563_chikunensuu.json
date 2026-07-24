@@ -1,0 +1,24 @@
+{
+  "entry_id": "17563_chikunensuu",
+  "headword": "{築年数|ちくねんすう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:44:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'property' is not a valid tag.",
+      "suggestion": "Replace 'time' with 'time-general' and remove 'property'. Add 'building' and 'daily-life' as more specific and relevant tags."
+    }
+  ]
+}

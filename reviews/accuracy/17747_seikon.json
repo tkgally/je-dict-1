@@ -1,0 +1,24 @@
+{
+  "entry_id": "17747_seikon",
+  "headword": "{精魂|せいこん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:48:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '精魂'.",
+      "suggestion": "Replace 'emotion' with 'abstract' or 'cognition' or 'action'."
+    }
+  ]
+}
