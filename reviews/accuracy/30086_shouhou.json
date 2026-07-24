@@ -1,0 +1,24 @@
+{
+  "entry_id": "30086_shouhou",
+  "headword": "{商法|しょうほう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T12:24:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '商法' has two distinct meanings, only one of which is covered by the 'law' tag. The second meaning, 'a particular way of doing business', is not covered.",
+      "suggestion": "Add 'business' to the semantic tags."
+    }
+  ]
+}
