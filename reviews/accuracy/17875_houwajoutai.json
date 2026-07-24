@@ -1,0 +1,24 @@
+{
+  "entry_id": "17875_houwajoutai",
+  "headword": "{飽和状態|ほうわじょうたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T21:43:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'state' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

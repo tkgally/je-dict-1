@@ -1,0 +1,14 @@
+{
+  "entry_id": "17870",
+  "screened_at": "2026-07-24T21:35:28Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '靴' is 'くつ', but the provided reading 'あいちゃ' is incorrect and seems to be a partial reading of '愛着' instead of '靴'.",
+    "The reading for '使' is 'つか', but it is followed by 'い{続|つづ}けるう'. The 'う' at the end of 'つづけるう' seems like a typo or an extra character that doesn't belong to the okurigana of '続ける'.",
+    "The reading for '続' is 'つづ', but it is followed by 'けるうちに{道具|ど)'. The closing parenthesis ')' after 'ど' is misplaced and should be after '道具'.",
+    "The reading for '感' is 'かん', but it is followed by 'じる (to fee)'. The English translation 'to fee' is incomplete and should be 'to feel'.",
+    "The reading for '親' is 'した', but it is followed by 'しみが{湧|わ}く:'. The reading 'した' for '親' is only correct in the context of '親しい' (したしい) or '親しむ' (したしむ). In the context of '親しみ', the reading for '親' should be 'した'. However, the provided reading 'した' is correct for '親' in '親しみ'. The concern here is that '親' alone is not read 'した' in general, but it is correct in this specific compound. Given the instruction 'Do NOT flag partial readings as errors — they are correct by design', and '親しみ' is a valid word, this might be considered correct. However, if the intention was for '親' to be read as 'おや', then 'した' would be incorrect. Assuming '親しみ' is the intended word, 'した' is correct."
+  ],
+  "confidence": 0.9
+}

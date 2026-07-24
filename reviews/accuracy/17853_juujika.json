@@ -1,0 +1,24 @@
+{
+  "entry_id": "17853_juujika",
+  "headword": "{十字架|じゅうじか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T21:42:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'symbol' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

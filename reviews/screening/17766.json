@@ -1,0 +1,10 @@
+{
+  "entry_id": "17766",
+  "screened_at": "2026-07-24T21:23:14Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '成' in pair 12 is given as 'じょう', but the context ' = become,' suggests it might be part of a larger word where '成' has a different reading, or it's an incomplete reading for '成る' (なる). However, given the instruction \"Do NOT flag partial readings as errors — they are correct by design,\" and the fact that 'じょう' is a valid reading for '成' in compounds, this is likely not an error in the context of furigana for a single kanji. If it were intended to be '成る', the furigana should be 'な'. Without more context, it's hard to be certain, but it's worth noting as potentially ambiguous."
+  ],
+  "confidence": 0.7
+}
