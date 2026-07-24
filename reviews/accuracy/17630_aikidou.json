@@ -1,0 +1,31 @@
+{
+  "entry_id": "17630_aikidou",
+  "headword": "{合気道|あいきどう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:46:24Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'martial-arts' is not in the valid tag list.",
+      "suggestion": "sports"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'culture-tradition' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

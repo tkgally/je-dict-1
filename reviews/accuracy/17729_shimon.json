@@ -1,0 +1,24 @@
+{
+  "entry_id": "17729_shimon",
+  "headword": "{諮問|しもん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:48:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'government' is too narrow for the headword's meaning, which extends to institutional contexts beyond just government.",
+      "suggestion": "Replace 'government' with 'society' or 'business' to better reflect the broader application of '諮問'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "17713_ooba",
+  "headword": "{大葉|おおば}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:48:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'plant' is not in the valid tag list.",
+      "suggestion": "plant-general"
+    }
+  ]
+}

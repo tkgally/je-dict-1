@@ -1,0 +1,31 @@
+{
+  "entry_id": "17759_shingai",
+  "headword": "{心外|しんがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-24T06:49:08Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'regrettable' is misleading as the primary meaning is about feeling offended or indignant due to unexpected negative treatment, not simply regret.",
+      "suggestion": "offended, outrageous, unexpected"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'regrettable' is misleading as the primary meaning is about feeling offended or indignant due to unexpected negative treatment, not simply regret.",
+      "suggestion": "offended, outrageous, unexpected, hurt (feelings)"
+    }
+  ]
+}
