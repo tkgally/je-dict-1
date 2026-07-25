@@ -1,0 +1,24 @@
+{
+  "entry_id": "18565_jiketsu",
+  "headword": "{自決|じけつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:30:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies 'suicide' is always euphemistic, but it's a direct meaning in certain contexts, especially historical/military.",
+      "suggestion": "self-determination; suicide (often euphemistic, especially in historical/military contexts)"
+    }
+  ]
+}

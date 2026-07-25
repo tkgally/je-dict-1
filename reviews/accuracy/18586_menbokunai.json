@@ -1,0 +1,24 @@
+{
+  "entry_id": "18586_menbokunai",
+  "headword": "{面目|めんぼく}ない",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:31:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '面目ない'. It is an older, somewhat archaic expression, but not strictly formal in the sense of polite or official language. It's more akin to a strong, somewhat dramatic expression of shame.",
+      "suggestion": "neutral"
+    }
+  ]
+}

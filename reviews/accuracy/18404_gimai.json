@@ -1,0 +1,31 @@
+{
+  "entry_id": "18404_gimai",
+  "headword": "{義妹|ぎまい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:28:08Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 義妹 can mean 'younger stepsister' without further context, but the primary meaning is 'younger sister-in-law'. The 'stepsister' meaning is secondary and often requires context or is less common.",
+      "suggestion": "Change gloss to 'younger sister-in-law; also younger stepsister'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation specifies 'younger sister' for 義妹, but the Japanese sentence uses 義妹, which means 'younger sister-in-law' in this context (husband's sister). The translation should reflect 'sister-in-law'.",
+      "suggestion": "Change English to 'My husband's sister-in-law is getting married next month.'"
+    }
+  ]
+}

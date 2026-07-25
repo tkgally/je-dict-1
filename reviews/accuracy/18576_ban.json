@@ -1,0 +1,24 @@
+{
+  "entry_id": "18576_ban",
+  "headword": "{盤|ばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:31:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'object' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

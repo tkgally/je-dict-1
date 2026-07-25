@@ -1,0 +1,24 @@
+{
+  "entry_id": "18464_kenbangakki",
+  "headword": "{鍵盤楽器|けんばんがっき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:29:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and 'leisure' is not the primary semantic category for a musical instrument. 'Music' is a more accurate and specific tag.",
+      "suggestion": "Replace 'general' and 'leisure' with 'music'."
+    }
+  ]
+}

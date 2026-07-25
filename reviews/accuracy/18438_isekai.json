@@ -1,0 +1,24 @@
+{
+  "entry_id": "18438_isekai",
+  "headword": "{異世界|いせかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:28:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is not appropriate for the headword '異世界'. While '異世界' is often associated with leisure activities like reading or watching anime, the word itself does not denote leisure.",
+      "suggestion": "Remove 'leisure'."
+    }
+  ]
+}

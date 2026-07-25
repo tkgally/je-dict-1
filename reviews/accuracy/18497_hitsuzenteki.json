@@ -1,0 +1,24 @@
+{
+  "entry_id": "18497_hitsuzenteki",
+  "headword": "{必然的|ひつぜんてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:29:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '必然的' is not formal. It is a common adjective used in everyday language.",
+      "suggestion": "neutral"
+    }
+  ]
+}

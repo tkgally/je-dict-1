@@ -1,0 +1,38 @@
+{
+  "entry_id": "18639_hyakkaten",
+  "headword": "{百貨店|ひゃっかてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:32:12Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'place' is not in the valid tag list.",
+      "suggestion": "building"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'commerce' is not in the valid tag list.",
+      "suggestion": "shopping"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '百貨店' is not formal. It is a neutral term, though 'デパート' is more casual.",
+      "suggestion": "neutral"
+    }
+  ]
+}
