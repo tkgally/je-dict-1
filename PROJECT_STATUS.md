@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-23
+**Last updated**: 2026-07-25
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,15 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-25 (Routine v2: new-entries — 20 New Entries, IDs 30105–30124)
+Created 20 general-tier entries. Both **"seen in entry" candidates** were created first: {三毒|さんどく} (the three poisons, Buddhism; from entry 06623) and the suffix 〜{金|きん} (sum of money / fee / charge; from entry 06662, following the existing 〜{化|か} / 〜{感|かん} tilde-headword convention). The other 18 are hand-picked standalone lexemes, since the non-seen candidate pool remains **heavily polluted** — see the `[pattern]` observation logged this run. Clusters: institutions — {気象庁|きしょうちょう} (Japan Meteorological Agency), {商工会議所|しょうこうかいぎしょ} (chamber of commerce), {首相官邸|しゅしょうかんてい} (PM's office / the Kantei), {駆|か}け{込|こ}み{寺|でら} (place of last resort), {縁故|えんこ}{採用|さいよう} (hiring through connections); kanji-policy and grammar terms — {人名用漢字|じんめいようかんじ}, {教育漢字|きょういくかんじ}, {感動詞|かんどうし} (interjection); health — {脱水症状|だっすいしょうじょう} (dehydration), {出産予定日|しゅっさんよていび} (due date), {放射線科|ほうしゃせんか} (radiology dept.); business/tech — {異物混入|いぶつこんにゅう} (foreign-object contamination), {貸出|かしだし}{金利|きんり} (lending rate), {多要素認証|たようそにんしょう} (MFA), {浮動小数点|ふどうしょうすうてん} (floating point); maths and one textile term — {素因数|そいんすう} (prime factor), {立方根|りっぽうこん} (cube root), {格子縞|こうしじま} (check / plaid). No verbs or i-adjectives, so no conjugation tables; **no new kanji**. Two stale candidates removed as duplicates of existing entries (派出所 → 13284, 肘関節 → 29513); 5 referenced-but-missing words added as candidates ({商工会|しょうこうかい}, {公邸|こうてい}, {学習漢字|がくしゅうかんじ}, {生体認証|せいたいにんしょう}, {市松模様|いちまつもよう}). §4 cross-model self-check on all 20 changed entries: **18 clean, 2 flagged — 0 applied, 2 rejected** (an in-list `food` "too narrow" tag nit on {異物混入|いぶつこんにゅう}, rejected per the §A semantic-tag policy; and a prime-factor-multiplicity nit on a {素因数|そいんすう} example whose English faithfully mirrors the Japanese). $0.0087.
+
+- **Institutions / society (5)**: {気象庁|きしょうちょう} (JMA), {商工会議所|しょうこうかいぎしょ} (chamber of commerce), {首相官邸|しゅしょうかんてい} (PM's office), {駆|か}け{込|こ}み{寺|でら} (place of refuge), {縁故|えんこ}{採用|さいよう} (nepotistic hiring)
+- **Language / education (3)**: {人名用漢字|じんめいようかんじ} (name kanji), {教育漢字|きょういくかんじ} (elementary-school kanji), {感動詞|かんどうし} (interjection)
+- **Health (3)**: {脱水症状|だっすいしょうじょう} (dehydration), {出産予定日|しゅっさんよていび} (due date), {放射線科|ほうしゃせんか} (radiology department)
+- **Business / technology (4)**: {異物混入|いぶつこんにゅう} (foreign-object contamination), {貸出|かしだし}{金利|きんり} (lending rate), {多要素認証|たようそにんしょう} (MFA), {浮動小数点|ふどうしょうすうてん} (floating point)
+- **Maths / other (5)**: {素因数|そいんすう} (prime factor), {立方根|りっぽうこん} (cube root), {格子縞|こうしじま} (check pattern), {三毒|さんどく} (the three poisons), 〜{金|きん} (fee; sum of money — suffix)
+
 ### 2026-07-25 (Routine v2: new-entries — 15 New Entries, IDs 30090–30104)
 Created 15 general-tier entries. The **3 "seen in entry" candidates** were adjudicated first: {引|ひ}き{渡|わた}し (handover / delivery / extradition; from entry 06618) was created, while the other two were **variant-reading near-duplicates** and were dropped with their candidates removed — 雪ぐ/すすぐ duplicates the existing 30089 雪ぐ/そそぐ (source 06614 actually uses そそぐ), and 裏面/うらめん duplicates 18245 裏面/りめん. The remaining 12 are hand-picked standalone lexemes, since the non-seen candidate pool stays **heavily polluted** (corpus/OCR noise, number/counter phrases, transparent compounds). The batch: かけ{離|はな}れる (to differ greatly; verb-ichidan), {薬用|やくよう} (medicinal), {養豚|ようとん} (pig farming), {堕胎|だたい} (abortion; verb-suru), {甘柿|あまがき} (sweet persimmon), {柿色|かきいろ} (persimmon color), {音圧|おんあつ} (sound pressure), {広縁|ひろえん} (wide veranda), {局番|きょくばん} (telephone exchange number), {路側|ろそく} (roadside), {骨材|こつざい} (aggregate), {受贈|じゅぞう} (receiving a donation; verb-suru), {斜角|しゃかく} (oblique angle), {情欲|じょうよく} (carnal desire). Conjugation tables added to the 1 ichidan + 2 suru verbs; **1 new kanji** assigned an ID — 胎 (02787_tai_none_womb). §4 cross-model self-check on all 15 changed entries: **clean — 15/15, 0 flagged, 0 applied, 0 rejected**. $0.0065.
 
@@ -81,13 +90,3 @@ Created 15 general-tier entries. The **13 "seen in entry" candidates** (C22489�
 - **Business / finance (5)**: {入金|にゅうきん}{済|ず}み (payment received), {比較表|ひかくひょう} (comparison table), {借入額|かりいれがく} (amount borrowed), {社用車|しゃようしゃ} (company car), {通電|つうでん} (energizing; verb)
 - **Soccer positions (5)**: サブ (sub/backup), センターバック (center back), サイドバック (fullback), ボランチ (defensive midfielder), サイドハーフ (side midfielder)
 - **Other (5)**: {遺恨|いこん} (grudge), {地縛霊|じばくれい} (earthbound spirit), {炭化水素|たんかすいそ} (hydrocarbon), {相変化|そうへんか} (phase change; verb), {索引語|さくいんご} (index term)
-
-### 2026-07-22 (Routine v2: new-entries — 20 New Entries, IDs 30029–30048)
-Created 20 general-tier entries. The **5 remaining "seen in entry" candidates** (C22484–C22488, cited from entries 06576–06579) were created first — internal-completeness gaps in a rent/loan cluster: {賃料|ちんりょう} (rent), {不履行|ふりこう} (non-performance; default), マイカー (one's own car), {月々|つきづき} (monthly), {返済額|へんさいがく} (repayment amount). This **cleared the seen-in-entry queue**. The other 15 are hand-picked standalone lexemes, since the oldest corpus-harvested candidates remain **heavily polluted** (wrong kanji, mis-glossed coinages, fragments, compositional phrases). The 15 salvaged: {予診票|よしんひょう} (medical questionnaire), {囲碁盤|いごばん} (go board), {遠近両用|えんきんりょうよう} (bifocal), {無脊椎動物|むせきついどうぶつ} (invertebrate), {支払|しはら}い{済|ず}み (paid), {測定器|そくていき} (measuring instrument), {提|さ}げ{手|て} (handle), {発語|はつご} (utterance; verb-suru), {学習会|がくしゅうかい} (study group), {対照表|たいしょうひょう} (comparison table), {余暇活動|よかかつどう} (leisure activities), {送水管|そうすいかん} (water main), {状態報告|じょうたいほうこく} (status report), {休耕期|きゅうこうき} (fallow period), {導電|どうでん} (electrical conduction; verb-suru). Conjugation tables added to the 2 new suru-verbs ({発語|はつご}, {導電|どうでん}); no new kanji. §4 cross-model self-check on all 20 changed entries: **clean — 20/20, 0 flagged, 0 applied, 0 rejected**. $0.0086. Added {入金済|にゅうきんず}み, {通電|つうでん}, {比較表|ひかくひょう}, {借入額|かりいれがく}, {社用車|しゃようしゃ} as referenced-but-missing candidates. The seen-in-entry queue is empty again and awaits curator/polish restock.
-
-- **Seen-in-entry priority — rent/loan (5)**: {賃料|ちんりょう} (rent), {不履行|ふりこう} (non-performance; default), マイカー (one's own car), {月々|つきづき} (monthly), {返済額|へんさいがく} (repayment amount)
-- **Health / body (3)**: {予診票|よしんひょう} (medical questionnaire), {遠近両用|えんきんりょうよう} (bifocal), {無脊椎動物|むせきついどうぶつ} (invertebrate)
-- **Objects / tools (4)**: {囲碁盤|いごばん} (go board), {測定器|そくていき} (measuring instrument), {提|さ}げ{手|て} (handle), {送水管|そうすいかん} (water main)
-- **Money / documents (3)**: {支払|しはら}い{済|ず}み (paid), {対照表|たいしょうひょう} (comparison table), {状態報告|じょうたいほうこく} (status report)
-- **Other (5)**: {発語|はつご} (utterance; verb), {学習会|がくしゅうかい} (study group), {余暇活動|よかかつどう} (leisure activities), {休耕期|きゅうこうき} (fallow period), {導電|どうでん} (electrical conduction; verb)
-

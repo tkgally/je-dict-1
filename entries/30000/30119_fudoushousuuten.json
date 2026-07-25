@@ -1,0 +1,67 @@
+{
+  "id": "30119_fudoushousuuten",
+  "headword": "{浮動小数点|ふどうしょうすうてん}",
+  "reading": "ふどうしょうすうてん",
+  "romaji": "fudoushousuuten",
+  "part_of_speech": "noun",
+  "gloss": "floating point",
+  "definitions": [
+    {
+      "sense_number": 1,
+      "gloss": "floating point",
+      "explanation": "The way computers represent real numbers, with the position of the decimal point stored separately so that very large and very small values fit in the same format. Used almost exclusively in computing contexts."
+    }
+  ],
+  "examples": [
+    {
+      "id": "30119_fudoushousuuten_ex1",
+      "japanese": "{浮動小数点|ふどうしょうすうてん}{数|すう}で{計算|けいさん}する。",
+      "english": "To calculate using floating-point numbers.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "30119_fudoushousuuten_ex2",
+      "japanese": "{浮動小数点|ふどうしょうすうてん}{演算|えんざん}には{誤差|ごさ}が{生|しょう}じる。",
+      "english": "Floating-point arithmetic produces rounding errors.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    },
+    {
+      "id": "30119_fudoushousuuten_ex3",
+      "japanese": "{金額|きんがく}の{計算|けいさん}に{浮動小数点|ふどうしょうすうてん}を{使|つか}うと、わずかな{誤差|ごさ}が{積|つ}み{重|かさ}なることがある。",
+      "english": "If you use floating point for monetary calculations, tiny errors can accumulate.",
+      "sense_numbers": [
+        1
+      ],
+      "has_audio": false,
+      "notes": null
+    }
+  ],
+  "notes": "Almost always appears as part of a longer compound rather than on its own.\n\nCOMMON COMPOUNDS:\n- {浮動小数点|ふどうしょうすうてん}{数|すう}: floating-point number\n- {浮動小数点|ふどうしょうすうてん}{演算|えんざん}: floating-point arithmetic\n- {浮動小数点|ふどうしょうすうてん}{型|がた}: floating-point type (in programming)\n\nSIMILAR WORDS:\n- {固定|こてい}{小数点|しょうすうてん}: fixed point — the decimal point stays in one place; used where exactness matters\n- {整数|せいすう}: integer — a whole number, with no fractional part at all",
+  "schema_version": "2.0",
+  "metadata": {
+    "vocabulary_tier": "general",
+    "tags": {
+      "pos": [
+        "noun"
+      ],
+      "formality": "neutral",
+      "politeness": null,
+      "semantic": [
+        "technology"
+      ],
+      "domain": [
+        "technical"
+      ]
+    },
+    "created": "2026-07-25T18:20:39Z",
+    "modified": "2026-07-25T18:20:39Z"
+  }
+}
