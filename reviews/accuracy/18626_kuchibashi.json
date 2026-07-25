@@ -1,0 +1,24 @@
+{
+  "entry_id": "18626_kuchibashi",
+  "headword": "くちばし",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:31:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is too broad and not in the valid list. 'body' is also too broad.",
+      "suggestion": "Replace 'animal' with 'animal-bird' and 'body' with 'body-part'."
+    }
+  ]
+}

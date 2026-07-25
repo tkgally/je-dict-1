@@ -1,0 +1,38 @@
+{
+  "entry_id": "18617_netsuwosamasu",
+  "headword": "{熱|ねつ}を{冷|さ}ます",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:31:44Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The Japanese sentence refers to 'fever' (熱), but the English translation uses 'fever' as a noun, implying the fever itself is being cooled, rather than the person's body temperature. The Japanese '熱を冷ます' in this context means to bring down a fever, not to cool the fever as an object.",
+      "suggestion": "Cool down the feverish person with ice. / Bring down the fever with ice."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'cooled their forehead to bring it down' is awkward and slightly misleading. 'It' refers to the forehead, not the fever. The Japanese clearly states '熱を冷ました' (brought down the fever).",
+      "suggestion": "The child had a fever, so I cooled their forehead to bring down the fever."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The Japanese '熱が冷めてしまった' (netsu ga samete shimatta) refers to the enthusiasm or excitement cooling down, not necessarily 'killing the mood' in a general sense. While related, 'killed the mood' is a slightly different nuance and can imply a more negative or abrupt end to the atmosphere.",
+      "suggestion": "Just when things were getting exciting, the rain started and our enthusiasm cooled down."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18578_yotte",
+  "headword": "{因|よ}って",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:31:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'logic' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

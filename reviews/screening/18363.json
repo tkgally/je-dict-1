@@ -1,0 +1,10 @@
+{
+  "entry_id": "18363",
+  "screened_at": "2026-07-25T21:19:07Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '小' is 'ちい', but the full word is '小さい'. The reading 'ちい' is correct for the kanji '小' in this context, but the dictionary entry format specifies that the reading covers ONLY the kanji portion. In this case, 'さい' is okurigana, so '小' should be 'ちい'. However, the example given in the prompt '走|はし}る' implies that 'はし' is the reading for '走' and 'る' is okurigana. Following this logic, 'ちい' for '小' is correct. Re-evaluating based on the prompt's example, '小' -> 'ちい' is correct as 'さい' would be okurigana. Therefore, there are no incorrect mappings."
+  ],
+  "confidence": 0.5
+}

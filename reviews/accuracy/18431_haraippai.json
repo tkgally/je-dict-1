@@ -1,0 +1,24 @@
+{
+  "entry_id": "18431_haraippai",
+  "headword": "{腹一杯|はらいっぱい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:28:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss combines two distinct senses, which could be confusing for a learner. The first two phrases relate to satiety, while the third relates to doing something to the fullest extent.",
+      "suggestion": "Split the gloss into two distinct parts, reflecting the two senses of the word."
+    }
+  ]
+}

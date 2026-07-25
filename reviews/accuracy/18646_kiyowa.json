@@ -1,0 +1,24 @@
+{
+  "entry_id": "18646_kiyowa",
+  "headword": "{気弱|きよわ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:32:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'character' is not in the valid tag list.",
+      "suggestion": "personality"
+    }
+  ]
+}

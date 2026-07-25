@@ -1,0 +1,24 @@
+{
+  "entry_id": "18439_mitsuami",
+  "headword": "{三|み}つ{編|あ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:28:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for '三つ編み'. '三つ編み' refers to a hairstyle or a braided object, not a part of the body.",
+      "suggestion": "clothing"
+    }
+  ]
+}

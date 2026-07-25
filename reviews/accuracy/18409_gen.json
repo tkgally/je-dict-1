@@ -1,0 +1,24 @@
+{
+  "entry_id": "18409_gen",
+  "headword": "{弦|げん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:28:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is too narrow and misleading for the headword '弦'. While musical instruments and archery can be leisure activities, '弦' itself refers to a physical component, not the activity. A more appropriate tag would be 'tool' or 'music' (for sense 1) and 'tool' (for sense 2).",
+      "suggestion": "tool"
+    }
+  ]
+}

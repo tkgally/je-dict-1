@@ -1,0 +1,24 @@
+{
+  "entry_id": "18467_enza",
+  "headword": "{円座|えんざ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T21:29:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad and doesn't add specific meaning given 'furniture' is already present for sense 1. For sense 2, which refers to the act of sitting in a circle, 'general' is also not the most appropriate tag.",
+      "suggestion": "Remove 'general'. For sense 2, consider 'action' or 'daily-life' if a second tag is desired, but the headword itself primarily refers to the cushion."
+    }
+  ]
+}

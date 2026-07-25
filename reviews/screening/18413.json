@@ -1,0 +1,11 @@
+{
+  "entry_id": "18413",
+  "screened_at": "2026-07-25T21:24:49Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {初公開|はつこうかい} is given as (はつこうかい), but the example {初公開|はつこう} in item 2, 3, 9, 17, 18 shows a partial reading. While partial readings are allowed, the provided entry reading should ideally match the full kanji reading. This is not an error in the partial reading itself, but an inconsistency in how the full reading is presented versus how it's used in examples.",
+    "Item 8: {修復後|しゅうふくご} is followed by {初|はじ}めて{初). The reading for {初} is given as はじ, which is correct for 初めて. However, the entry for {初公開|はつこうかい} is given as はつこうかい, and in item 9, {初} is read as はつこ. This highlights that '初' can have different readings depending on context (はつ in compounds like 初公開, はじ in 初めて). The dictionary entry for 初公開 correctly uses はつ, but the example in item 8 and 9 shows the different readings of 初, which is not an error but an observation about the complexity of Japanese readings."
+  ],
+  "confidence": 0.8
+}
