@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06625_amayakasu_ex1",
-      "japanese": "{子供|こども}を{甘|あま}やかしすぎると{良|よ}くない。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{甘|あま}やかし⟦すぎる→過ぎる：01219_sugiru⟧⟦と→と：00512_to⟧⟦{良|よ}くない→良い：02350_yoi⟧。",
       "english": "It's not good to spoil children too much.",
       "has_audio": false,
       "sense_numbers": [
@@ -113,7 +113,7 @@
     },
     {
       "id": "06625_amayakasu_ex2",
-      "japanese": "{祖父母|そふぼ}は{孫|まご}を{甘|あま}やかす{傾向|けいこう}がある。",
+      "japanese": "⟦{祖父母|そふぼ}→祖父母：03110_sofubo⟧⟦は→は：00079_ha⟧⟦{孫|まご}→孫：03731_mago⟧⟦を→を：00422_wo⟧{甘|あま}やかす⟦{傾向|けいこう}→傾向：02695_keikou⟧⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧。",
       "english": "Grandparents tend to spoil their grandchildren.",
       "has_audio": false,
       "sense_numbers": [
@@ -122,7 +122,7 @@
     },
     {
       "id": "06625_amayakasu_ex3",
-      "japanese": "{彼|かれ}は{甘|あま}やかされて{育|そだ}った。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{甘|あま}やかされて⟦{育|そだ}った→育つ：01951_sodatsu⟧。",
       "english": "He was raised being spoiled.",
       "has_audio": false,
       "sense_numbers": [
@@ -131,7 +131,7 @@
     },
     {
       "id": "06625_amayakasu_ex4",
-      "japanese": "かわいいからといって{甘|あま}やかしてばかりいると、わがままな{子|こ}になるよ。",
+      "japanese": "⟦かわいい→かわいい：00857_kawaii⟧⟦から→から：00504_kara⟧⟦といって→と：00512_to⟧{甘|あま}やかして⟦ばかり→〜ばかり：02006_bakari⟧⟦いる→いる：00495_iru⟧⟦と→と：00512_to⟧、⟦わがまま→わがまま：03789_wagamama⟧な⟦{子|こ}→子：09851_ko⟧⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦よ→よ：09475_yo⟧。",
       "english": "If you keep spoiling them just because they're cute, they'll turn into a selfish child.",
       "has_audio": false,
       "sense_numbers": [
@@ -140,7 +140,7 @@
     },
     {
       "id": "06625_amayakasu_ex5",
-      "japanese": "{親|おや}が{子供|こども}を{甘|あま}やかしすぎた{結果|けっか}、{自分|じぶん}で{何|なに}もできない{大人|おとな}になってしまった。",
+      "japanese": "⟦{親|おや}→親：01357_oya⟧⟦が→が：00051_ga⟧⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{甘|あま}やかし⟦すぎた→過ぎる：01219_sugiru⟧⟦{結果|けっか}→結果：02486_kekka⟧、⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦できない→できる：00557_dekiru⟧⟦{大人|おとな}→大人：02856_otona⟧⟦に→に：00314_ni⟧⟦なって→なる：01970_naru⟧⟦しまった→しまう：03064_shimau⟧。",
       "english": "As a result of the parents spoiling the child too much, they grew into an adult who can't do anything on their own.",
       "has_audio": false,
       "sense_numbers": [
@@ -148,19 +148,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY:\n・Type: Transitive ({他動詞|たどうし})\n・Pair: {甘|あま}える (to act spoiled, to depend on) - intransitive\n・Pattern: XがYを{甘|あま}やかす\n\nASPECT:\n・{甘|あま}やかしている = is spoiling (ongoing action)\n・{甘|あま}やかされている = is being spoiled (passive)\n\nCOMMON PATTERNS:\n・{子供|こども}を{甘|あま}やかす (to spoil a child)\n・{甘|あま}やかして{育|そだ}てる (to raise someone in a spoiled manner)\n・{甘|あま}やかされて{育|そだ}つ (to grow up spoiled)\n\nNUANCE:\nUnlike simply being kind, {甘|あま}やかす often implies excessive leniency that may have negative consequences. It suggests failing to discipline or set appropriate boundaries.",
+  "notes": "TRANSITIVITY:\n・Type: transitive (⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧)\n・Pair: ⟦{甘|あま}える→甘える：06624_amaeru⟧ (to act spoiled, to seek indulgence) - intransitive\n・Pattern: X⟦が→が：00051_ga⟧Y⟦を→を：00422_wo⟧{甘|あま}やかす - the person being indulged is the object\n\nASPECT:\n・{甘|あま}やかしている = is spoiling (an action in progress, or a habit)\n・{甘|あま}やかされて⟦{育|そだ}つ→育つ：01951_sodatsu⟧ = to grow up spoiled - the passive plus a verb of growing is the usual way to say this about a person\n\nCOMMON PATTERNS:\n・⟦{子供|こども}→子供：00554_kodomo⟧⟦を→を：00422_wo⟧{甘|あま}やかす (to spoil a child)\n・{甘|あま}やかして⟦{育|そだ}てる→育てる：01235_sodateru⟧ (to raise someone indulgently)\n・{甘|あま}やかし⟦すぎる→過ぎる：01219_sugiru⟧ (to be too lenient)\n\nNUANCE:\nUnlike simple kindness, {甘|あま}やかす implies leniency that goes too far, and it is nearly always used with disapproval - it points at a failure to set limits. The word usually paired against it is ⟦しつけ→躾：10342_shitsuke⟧ (discipline, bringing a child up properly).",
   "cross_references": [
+    {
+      "type": "pair",
+      "target_id": "06624_amaeru",
+      "reading": "あまえる",
+      "headword": "{甘|あま}える",
+      "label": "to act spoiled, to seek indulgence (intransitive)"
+    },
     {
       "type": "related",
       "target_id": "16499_dekiai",
       "reading": "できあい",
       "headword": "{溺愛|できあい}",
       "label": "excessive doting"
+    },
+    {
+      "type": "contrast",
+      "target_id": "10342_shitsuke",
+      "reading": "しつけ",
+      "headword": "{躾|しつけ}",
+      "label": "discipline, upbringing"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-05-04T06:23:57Z",
+    "modified": "2026-07-25T03:45:27Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

@@ -100,11 +100,11 @@
     {
       "id": "00964_kyoudai_ex9",
       "japanese": "{兄弟|きょうだい}⟦げんか→喧嘩：02996_kenka⟧⟦は→は：00079_ha⟧⟦よく→よく：00601_yoku⟧⟦ある→ある：00006_aru⟧⟦こと→こと：01164_koto⟧⟦です→です：09485_desu⟧。",
-      "english": "Fights between brothers are common.",
+      "english": "Fights between siblings are common.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
-        2
+        1
       ]
     },
     {
@@ -116,9 +116,19 @@
       "sense_numbers": [
         2
       ]
+    },
+    {
+      "id": "00964_kyoudai_ex11",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{兄弟|きょうだい}⟦は→は：00079_ha⟧⟦みんな→みんな：02972_minna⟧⟦{男|おとこ}→男：00561_otoko⟧⟦です→です：09485_desu⟧。",
+      "english": "His siblings are all boys.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        2
+      ]
     }
   ],
-  "notes": "{兄弟|きょうだい} is written with the kanji for 'older brother' and 'younger brother,' but in modern usage, it typically refers to siblings in general, regardless of gender. When asking about siblings, Japanese people often use {兄弟|きょうだい}⟦は→は：00079_ha⟧⟦{何人|なんにん}→何人：17593_nannin⟧⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧ or ⟦ご→ご：noentry⟧{兄弟|きょうだい}⟦は→は：00079_ha⟧. For sisters specifically, you can say ⟦{姉妹|しまい}→姉妹：03201_shimai⟧.",
+  "notes": "MEANING AND GENDER:\n{兄弟|きょうだい} is written with the kanji for 'older brother' and 'younger brother,' but in modern usage it normally means siblings in general, regardless of gender. Sense 2 (male siblings only) is clear from context — for example when the number of brothers is contrasted with the number of sisters. For sisters specifically, use ⟦{姉妹|しまい}→姉妹：03201_shimai⟧.\n\nASKING ABOUT SOMEONE'S SIBLINGS:\n・{兄弟|きょうだい}⟦は→は：00079_ha⟧⟦{何人|なんにん}→何人：17593_nannin⟧⟦います→いる：00495_iru⟧⟦か→か：09473_ka⟧ (How many siblings do you have?)\n・⟦ご→ご：09882_go⟧{兄弟|きょうだい}⟦は→は：00079_ha⟧？ - the honorific prefix ⟦ご→ご：09882_go⟧ is normal when asking about another person's family, and is left off when talking about your own.\n\nCOUNTING - AN EASY TRAP:\nTwo similar-looking patterns count differently:\n・{兄弟|きょうだい}⟦が→が：00051_ga⟧⟦{三人|さんにん}→三人：10978_sannin⟧⟦います→いる：00495_iru⟧ = 'I have three siblings' (three besides yourself, four children in all).\n・⟦{三人|さんにん}→三人：10978_sannin⟧{兄弟|きょうだい}⟦です→です：09485_desu⟧ = 'we are three siblings' (three children in all, yourself included).\nThe compound form ⟦{三人|さんにん}→三人：10978_sannin⟧{兄弟|きょうだい} describes the size of the sibling group, so it counts the speaker as well.\n\nCOMMON COMPOUND:\n{兄弟|きょうだい}⟦げんか→喧嘩：02996_kenka⟧ (sibling quarrel) - note the rendaku: {喧嘩|けんか} becomes げんか in this compound, and it is usually written in kana.\n\nRELATED WORDS:\n⟦{兄|あに}→兄：00570_ani⟧ (older brother), ⟦{弟|おとうと}→弟：00572_otouto⟧ (younger brother), ⟦{姉|あね}→姉：00571_ane⟧ (older sister), ⟦{妹|いもうと}→妹：00573_imouto⟧ (younger sister), ⟦{一人|ひとり}っ{子|こ}→一人っ子：10101_hitorikko⟧ (only child).",
   "prominent_see_also": [
     {
       "target_id": "16427_kyoudai",
@@ -134,11 +144,25 @@
       "reading": "しまい",
       "headword": "{姉妹|しまい}",
       "label": "sisters"
+    },
+    {
+      "type": "related",
+      "target_id": "00552_kazoku",
+      "reading": "かぞく",
+      "headword": "{家族|かぞく}",
+      "label": "family"
+    },
+    {
+      "type": "related",
+      "target_id": "10101_hitorikko",
+      "reading": "ひとりっこ",
+      "headword": "{一人|ひとり}っ{子|こ}",
+      "label": "only child"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:08:59Z",
-    "modified": "2026-06-14T00:25:52Z",
+    "modified": "2026-07-25T03:45:27Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
