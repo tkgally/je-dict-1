@@ -9057,3 +9057,13 @@ Added 35 new dictionary entries (IDs 18899-18933) from candidate_words.json.
 Topics covered: food/drink, business/finance, education, law, culture, music, daily life
 Total entries: ~18,708 → ~18,743 (approximate)
 Remaining candidates: ~5,454 → ~5,418 (35 removed as entries + 1 stale candidate removed)
+
+### 2026-07-22 (Routine v2: new-entries — 20 New Entries, IDs 30029–30048)
+Created 20 general-tier entries. The **5 remaining "seen in entry" candidates** (C22484–C22488, cited from entries 06576–06579) were created first — internal-completeness gaps in a rent/loan cluster: {賃料|ちんりょう} (rent), {不履行|ふりこう} (non-performance; default), マイカー (one's own car), {月々|つきづき} (monthly), {返済額|へんさいがく} (repayment amount). This **cleared the seen-in-entry queue**. The other 15 are hand-picked standalone lexemes, since the oldest corpus-harvested candidates remain **heavily polluted** (wrong kanji, mis-glossed coinages, fragments, compositional phrases). The 15 salvaged: {予診票|よしんひょう} (medical questionnaire), {囲碁盤|いごばん} (go board), {遠近両用|えんきんりょうよう} (bifocal), {無脊椎動物|むせきついどうぶつ} (invertebrate), {支払|しはら}い{済|ず}み (paid), {測定器|そくていき} (measuring instrument), {提|さ}げ{手|て} (handle), {発語|はつご} (utterance; verb-suru), {学習会|がくしゅうかい} (study group), {対照表|たいしょうひょう} (comparison table), {余暇活動|よかかつどう} (leisure activities), {送水管|そうすいかん} (water main), {状態報告|じょうたいほうこく} (status report), {休耕期|きゅうこうき} (fallow period), {導電|どうでん} (electrical conduction; verb-suru). Conjugation tables added to the 2 new suru-verbs ({発語|はつご}, {導電|どうでん}); no new kanji. §4 cross-model self-check on all 20 changed entries: **clean — 20/20, 0 flagged, 0 applied, 0 rejected**. $0.0086. Added {入金済|にゅうきんず}み, {通電|つうでん}, {比較表|ひかくひょう}, {借入額|かりいれがく}, {社用車|しゃようしゃ} as referenced-but-missing candidates. The seen-in-entry queue is empty again and awaits curator/polish restock.
+
+- **Seen-in-entry priority — rent/loan (5)**: {賃料|ちんりょう} (rent), {不履行|ふりこう} (non-performance; default), マイカー (one's own car), {月々|つきづき} (monthly), {返済額|へんさいがく} (repayment amount)
+- **Health / body (3)**: {予診票|よしんひょう} (medical questionnaire), {遠近両用|えんきんりょうよう} (bifocal), {無脊椎動物|むせきついどうぶつ} (invertebrate)
+- **Objects / tools (4)**: {囲碁盤|いごばん} (go board), {測定器|そくていき} (measuring instrument), {提|さ}げ{手|て} (handle), {送水管|そうすいかん} (water main)
+- **Money / documents (3)**: {支払|しはら}い{済|ず}み (paid), {対照表|たいしょうひょう} (comparison table), {状態報告|じょうたいほうこく} (status report)
+- **Other (5)**: {発語|はつご} (utterance; verb), {学習会|がくしゅうかい} (study group), {余暇活動|よかかつどう} (leisure activities), {休耕期|きゅうこうき} (fallow period), {導電|どうでん} (electrical conduction; verb)
+
