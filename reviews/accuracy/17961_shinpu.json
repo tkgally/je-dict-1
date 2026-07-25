@@ -1,0 +1,31 @@
+{
+  "entry_id": "17961_shinpu",
+  "headword": "{神父|しんぷ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:28:25Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by implying 'Father' is a direct translation of 神父 in all contexts, when it's primarily a form of address. The explanation clarifies this, but the gloss itself should be more precise.",
+      "suggestion": "Catholic priest"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by implying 'Father' is a direct translation of 神父 in all contexts, when it's primarily a form of address. The explanation clarifies this, but the gloss itself should be more precise.",
+      "suggestion": "Catholic priest"
+    }
+  ]
+}

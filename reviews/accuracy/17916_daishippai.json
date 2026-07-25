@@ -1,0 +1,24 @@
+{
+  "entry_id": "17916_daishippai",
+  "headword": "{大失敗|だいしっぱい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:27:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too vague for a word describing a type of failure. '大失敗' clearly relates to 'evaluation' or 'cognition' (as it describes a judgment of an outcome).",
+      "suggestion": "evaluation"
+    }
+  ]
+}

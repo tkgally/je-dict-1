@@ -1,0 +1,24 @@
+{
+  "entry_id": "18146_shucchouteate",
+  "headword": "{出張手当|しゅっちょうてあて}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:31:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '出張手当' is not formal. It is a common term used in business contexts, but not inherently formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

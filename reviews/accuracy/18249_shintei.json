@@ -1,0 +1,24 @@
+{
+  "entry_id": "18249_shintei",
+  "headword": "{進呈|しんてい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:33:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The headword '進呈' is a humble expression, but the politeness tag is 'humble'. Humble expressions are used to humble oneself, not to describe the word itself as humble. The correct politeness tag for a humble expression should be 'honorific' or 'keigo' (if 'keigo' were a valid tag, which it isn't). Since 'honorific' is the closest valid tag for keigo expressions that humble the speaker, it should be used.",
+      "suggestion": "honorific"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18365_jinchuumimai",
+  "headword": "{陣中見舞|じんちゅうみま}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:35:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While it implies a certain level of respect, it's not strictly 'formal' in the sense of highly elevated language. It's more neutral or respectful.",
+      "suggestion": "neutral"
+    }
+  ]
+}

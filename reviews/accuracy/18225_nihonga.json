@@ -1,0 +1,24 @@
+{
+  "entry_id": "18225_nihonga",
+  "headword": "{日本画|にほんが}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:33:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'leisure' is inappropriate for '日本画' (Japanese-style painting).",
+      "suggestion": "Replace 'leisure' with 'art'."
+    }
+  ]
+}
