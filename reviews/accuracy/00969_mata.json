@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T18:27:15Z",
+  "reviewed_at": "2026-07-25T09:26:08Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.formality",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The headword 'また' is not inherently informal; it is a neutral conjunction/adverb.",
-      "suggestion": "Change 'informal' to 'neutral'."
+      "concern": "The gloss 'or' is misleading for the headword 'また' because 'また' itself does not mean 'or'. The 'or' meaning only applies to the compound 'または'.",
+      "suggestion": "Remove 'or' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[2].gloss",
+      "severity": "error",
+      "concern": "The gloss 'or, alternatively' is misleading for the headword 'また' because 'また' itself does not mean 'or'. The 'or' meaning only applies to the compound 'または'.",
+      "suggestion": "Remove 'or, alternatively' from this gloss, or clarify that it applies to 'または'."
     }
   ]
 }

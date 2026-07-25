@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06627_monotarinai_ex1",
-      "japanese": "{食事|しょくじ}の{量|りょう}が{物足|ものた}りない。",
+      "japanese": "⟦{食事|しょくじ}→食事：02087_shokuji⟧⟦の→の：09472_no⟧⟦{量|りょう}→量：03799_ryou⟧⟦が→が：00051_ga⟧{物足|ものた}りない。",
       "english": "The amount of food is not enough.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06627_monotarinai_ex2",
-      "japanese": "{彼|かれ}の{説明|せつめい}は{物足|ものた}りなかった。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{説明|せつめい}→説明：01449_setsumei⟧⟦は→は：00079_ha⟧{物足|ものた}りなかった。",
       "english": "His explanation was unsatisfying.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06627_monotarinai_ex3",
-      "japanese": "どこか{物足|ものた}りない{気|き}がする。",
+      "japanese": "⟦どこか→どこか：02361_dokoka⟧{物足|ものた}りない⟦{気|き}→気：02199_ki⟧⟦が→が：00051_ga⟧⟦する→する：00392_suru⟧。",
       "english": "I feel like something is missing.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{物|もの} (thing) + {足|た}りない (not sufficient) → something is lacking\n\nFORMS:\n・Adverbial: {物足|ものた}りなく\n・Noun form: {物足|ものた}りなさ (the feeling of insufficiency)\n\n・Negative: {物足|ものた}りなくない (double negative - rarely used)\n・Te-form: {物足|ものた}りなくて\n・Past: {物足|ものた}りなかった\n\nUSAGE PATTERNS:\n・Xが{物足|ものた}りない (X is unsatisfying)\n・どこか{物足|ものた}りない (something feels lacking)\n・{物足|ものた}りない{気|き}がする (to feel that something is lacking)\n\nSIMILAR WORDS:\n・{足|た}りない (not enough) - more direct, often about quantity\n・{物足|ものた}りない - implies emotional/qualitative insufficiency\n・{不満|ふまん} (dissatisfaction) - stronger discontent",
+  "notes": "WORD FORMATION:\n⟦もの→もの：02259_mono⟧ (thing) + ⟦{足|た}りない→足りる：01209_tariru⟧ (not sufficient) → something is lacking\n\nFORMS:\n・Adverbial: {物足|ものた}りなく\n・Noun form: {物足|ものた}りなさ (the feeling of insufficiency)\n\n・Negative: {物足|ものた}りなくない (double negative - rarely used)\n・Te-form: {物足|ものた}りなくて\n・Past: {物足|ものた}りなかった\n\nUSAGE PATTERNS:\n・Xが{物足|ものた}りない (X is unsatisfying)\n・どこか{物足|ものた}りない (something feels lacking)\n・{物足|ものた}りない{気|き}がする (to feel that something is lacking)\n\nSIMILAR WORDS:\n・⟦{足|た}りない→足りる：01209_tariru⟧ (not enough) - more direct, often about quantity\n・{物足|ものた}りない - implies emotional/qualitative insufficiency\n・⟦{不満|ふまん}→不満：02497_fuman⟧ (dissatisfaction) - stronger discontent",
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-01-19T12:17:44.570374Z",
+    "modified": "2026-07-25T09:17:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -91,5 +91,21 @@
         "negative": "{物足|ものた}りなくなかったら"
       }
     ]
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01209_tariru",
+      "reading": "たりる",
+      "headword": "{足|た}りる",
+      "label": "to be sufficient (plain insufficiency)"
+    },
+    {
+      "type": "related",
+      "target_id": "02497_fuman",
+      "reading": "ふまん",
+      "headword": "{不満|ふまん}",
+      "label": "dissatisfaction (stronger discontent)"
+    }
+  ]
 }

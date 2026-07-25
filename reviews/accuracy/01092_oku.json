@@ -8,38 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-20T03:35:18Z",
+  "reviewed_at": "2026-07-25T09:26:09Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "error",
-      "concern": "The gloss 'to leave (as is)' is too narrow and misleading for the second sense of 置く, especially when it functions as an auxiliary verb (te-oku). It implies only leaving something in a state, but te-oku also means to do something in advance or for future convenience.",
-      "suggestion": "Change gloss to 'to do in advance, to leave (for later)' or similar to encompass the auxiliary verb usage."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The English translation 'You should read the textbook before the exam.' misses the nuance of '置いて' (te-oku) which implies reading it in advance or for preparation, not just reading it at some point before the exam.",
-      "suggestion": "Change translation to 'You should read the textbook in advance before the exam.' or 'You should have read the textbook before the exam (for preparation).'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "error",
-      "concern": "The English translation 'I used the vegetables I had bought in advance.' is correct, but the Japanese '買って置いた' (katte oita) implies 'bought and kept/stored' rather than just 'bought in advance'. The '置く' here refers to the act of keeping them after buying.",
-      "suggestion": "Change translation to 'I used the vegetables I had bought and kept.' or 'I used the vegetables I had bought and put aside.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "error",
-      "concern": "The English translation 'I'll make a reservation in advance.' is correct, but the Japanese '予約して置きますね' (yoyaku shite okimasu ne) implies making the reservation and leaving it as such, or making it for future convenience, not just 'in advance'. The 'in advance' is already covered by '予約する'. The '置く' adds the nuance of 'making sure it's done and set'.",
-      "suggestion": "Change translation to 'I'll go ahead and make a reservation.' or 'I'll make the reservation (for us).'"
-    }
-  ]
+  "issues": []
 }
