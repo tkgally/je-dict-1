@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06629_dandori_ex1",
-      "japanese": "{会議|かいぎ}の{段取|だんど}りを{決|き}めよう。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦の→の：09472_no⟧{段取|だんど}り⟦を→を：00422_wo⟧⟦{決|き}めよう→決める：00858_kimeru⟧。",
       "english": "Let's decide on the arrangements for the meeting.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06629_dandori_ex2",
-      "japanese": "{段取|だんど}りが{悪|わる}くて{時間|じかん}がかかった。",
+      "japanese": "{段取|だんど}り⟦が→が：00051_ga⟧⟦{悪|わる}くて→悪い：00908_warui⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦が→が：00051_ga⟧⟦かかった→かかる：00711_kakaru⟧。",
       "english": "It took a long time because the planning was poor.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06629_dandori_ex3",
-      "japanese": "{段取|だんど}り{通|どお}りに{進|すす}めてください。",
+      "japanese": "{段取|だんど}り⟦{通|どお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧⟦{進|すす}めて→進める：01949_susumeru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please proceed according to the plan.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nOriginally a theater term referring to the steps ({段|だん}) of a plot or the arrangement of scenes.\n\nCOMMON EXPRESSIONS:\n・{段取|だんど}りを{組|く}む / {立|た}てる (to make arrangements/plans)\n・{段取|だんど}りが{良|よ}い / {悪|わる}い (good/bad planning)\n・{段取|だんど}り{通|どお}りに (according to plan)\n・{段取|だんど}り{八分|はちぶ} (good preparation is 80% of success)\n\nUSAGE NOTE:\n{段取|だんど}り emphasizes the practical sequence of steps rather than abstract planning. It's commonly used in work contexts where efficiency matters.\n\nSIMILAR WORDS:\n・{準備|じゅんび} (preparation) - general preparation\n・{手順|てじゅん} (procedure) - specific sequence of steps\n・{段取|だんど}り - focuses on organizing workflow efficiently",
+  "notes": "ORIGIN:\nOriginally a theater term referring to the steps ({段|だん}) of a plot or the arrangement of scenes.\n\nCOMMON EXPRESSIONS:\n・{段取|だんど}りを{組|く}む / {立|た}てる (to make arrangements/plans)\n・{段取|だんど}り⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧ / ⟦{悪|わる}い→悪い：00908_warui⟧ (good/bad planning)\n・{段取|だんど}り⟦{通|どお}り→通り：01475_toori⟧⟦に→に：00314_ni⟧ (according to plan)\n・{段取|だんど}り{八分|はちぶ} (good preparation is 80% of success)\n\nUSAGE NOTE:\n{段取|だんど}り emphasizes the practical sequence of steps rather than abstract planning. It's commonly used in work contexts where efficiency matters.\n\nSIMILAR WORDS:\n・⟦{準備|じゅんび}→準備：01431_junbi⟧ (preparation) - general preparation\n・⟦{手順|てじゅん}→手順：05452_tejun⟧ (procedure) - specific sequence of steps\n・{段取|だんど}り - focuses on organizing workflow efficiently",
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-25T09:17:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -56,5 +56,21 @@
         "action"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "01431_junbi",
+      "reading": "じゅんび",
+      "headword": "{準備|じゅんび}",
+      "label": "preparation (general)"
+    },
+    {
+      "type": "related",
+      "target_id": "05452_tejun",
+      "reading": "てじゅん",
+      "headword": "{手順|てじゅん}",
+      "label": "procedure, sequence of steps"
+    }
+  ]
 }

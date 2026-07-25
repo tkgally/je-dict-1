@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06628_hagayui_ex1",
-      "japanese": "{彼|かれ}の{優柔不断|ゆうじゅうふだん}な{態度|たいど}が{歯|は}がゆい。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧⟦{優柔不断|ゆうじゅうふだん}→優柔不断：16842_yuujuufudan⟧⟦な→な：09497_na⟧⟦{態度|たいど}→態度：03396_taido⟧⟦が→が：00051_ga⟧{歯|は}がゆい。",
       "english": "His indecisive attitude is frustrating.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06628_hagayui_ex2",
-      "japanese": "{自分|じぶん}では{何|なに}もできないのが{歯|は}がゆい。",
+      "japanese": "⟦{自分|じぶん}→自分：02887_jibun⟧⟦で→で：00502_de⟧⟦は→は：00079_ha⟧⟦{何|なに}→何：00498_nani⟧⟦も→も：00484_mo⟧⟦できない→できる：00557_dekiru⟧⟦の→の：09472_no⟧⟦が→が：00051_ga⟧{歯|は}がゆい。",
       "english": "It's frustrating that I can't do anything myself.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06628_hagayui_ex3",
-      "japanese": "{歯|は}がゆい{思|おも}いをした。",
+      "japanese": "{歯|は}がゆい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I felt frustrated (had a vexing experience).",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "ETYMOLOGY:\nLiterally \"itchy teeth\" - the sensation of wanting to bite down but being unable to, expressing impotent frustration.\n\nFORMS:\n・Adverbial: {歯|は}がゆく\n・Noun form: {歯|は}がゆさ (frustration, vexation)\n\n・Negative: {歯|は}がゆくない\n・Te-form: {歯|は}がゆくて\n・Past: {歯|は}がゆかった\n\nUSAGE PATTERNS:\n・Xが{歯|は}がゆい (X is frustrating)\n・{歯|は}がゆい{思|おも}いをする (to have a frustrating experience)\n・{歯|は}がゆく{感|かん}じる (to feel frustrated)\n\nSIMILAR WORDS:\n・もどかしい (frustrating) - similar meaning, focused on impatience\n・いらいらする (to be irritated) - more about annoyance\n・じれったい (impatient, irritating) - similar, more casual\n\nNUANCE:\n{歯|は}がゆい specifically expresses frustration at not being able to intervene or change a situation, often watching someone else fail to meet expectations.",
+  "notes": "ETYMOLOGY:\nLiterally \"itchy teeth\" - the sensation of wanting to bite down but being unable to, expressing impotent frustration.\n\nFORMS:\n・Adverbial: {歯|は}がゆく\n・Noun form: {歯|は}がゆさ (frustration, vexation)\n\n・Negative: {歯|は}がゆくない\n・Te-form: {歯|は}がゆくて\n・Past: {歯|は}がゆかった\n\nUSAGE PATTERNS:\n・Xが{歯|は}がゆい (X is frustrating)\n・{歯|は}がゆい⟦{思|おも}い→思い：10248_omoi⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (to have a frustrating experience)\n・{歯|は}がゆく{感|かん}じる (to feel frustrated)\n\nSIMILAR WORDS:\n・⟦もどかしい→もどかしい：06537_modokashii⟧ (frustrating) - similar meaning, focused on impatience\n・いらいらする (to be irritated) - more about annoyance\n・⟦じれったい→じれったい：22590_jirettai⟧ (impatient, irritating) - similar, more casual\n\nNUANCE:\n{歯|は}がゆい specifically expresses frustration at not being able to intervene or change a situation, often watching someone else fail to meet expectations.",
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-07-19T03:20:19Z",
+    "modified": "2026-07-25T09:17:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -99,6 +99,13 @@
       "reading": "もどかしい",
       "headword": "もどかしい",
       "label": "frustrating; vexing"
+    },
+    {
+      "type": "related",
+      "target_id": "22590_jirettai",
+      "reading": "じれったい",
+      "headword": "じれったい",
+      "label": "impatient, exasperating (more casual)"
     }
   ]
 }

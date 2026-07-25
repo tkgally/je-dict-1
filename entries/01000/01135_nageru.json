@@ -145,7 +145,7 @@
     {
       "id": "01135_nageru_ex4",
       "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→達：01551_tachi⟧⟦が→が：00051_ga⟧⟦{公園|こうえん}→公園：00581_kouen⟧⟦で→で：00502_de⟧⟦ボール→ボール：00017_booru⟧⟦を→を：00422_wo⟧{投|な}げて⟦{遊|あそ}んでいる→遊ぶ：00550_asobu⟧。",
-      "english": "The children are playing catch in the park.",
+      "english": "The children are playing with a ball in the park.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -245,7 +245,7 @@
     {
       "id": "01135_nageru_ex14",
       "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{投|な}げやり→投げやり：12781_nageyari⟧⟦な→な：09497_na⟧⟦{態度|たいど}→態度：03396_taido⟧⟦だ→だ：09496_da⟧。",
-      "english": "He has a half-hearted attitude.",
+      "english": "He has a careless, couldn't-care-less attitude.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -263,11 +263,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: Xを{投|な}げる (throw X).\n\nASPECT: ている indicates ongoing action. {投|な}げている = 'is throwing.'\n\nCOMMON PATTERNS:\n・⟦ボール→ボール：00017_booru⟧を{投|な}げる (throw a ball)\n・⟦{石|いし}→石：02177_ishi⟧を{投|な}げる (throw a stone)\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧を⟦{投|な}げかける→投げかける：28968_nagekakeru⟧ (pose a question)\n・⟦{投|な}げ{出|だ}す→投げ出す：10589_nagedasu⟧ (give up, abandon)\n・⟦{身|み}→身：01764_mi⟧を{投|な}げる (throw oneself—dramatic)\n\nBASEBALL TERMS:\n・⟦{投手|とうしゅ}→投手：06563_toushu⟧ (pitcher)\n・⟦{投球|とうきゅう}→投球：15510_toukyuu⟧ (pitching)\n\nFIGURATIVE USAGE:\n・⟦{投|な}げやり→投げやり：12781_nageyari⟧ (half-hearted, apathetic—adjective)",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). Pattern: Xを{投|な}げる (throw X).\n\nASPECT: ている indicates ongoing action. {投|な}げている = 'is throwing.'\n\nCOMMON PATTERNS:\n・⟦ボール→ボール：00017_booru⟧を{投|な}げる (throw a ball)\n・⟦{石|いし}→石：02177_ishi⟧を{投|な}げる (throw a stone)\n・⟦{質問|しつもん}→質問：00888_shitsumon⟧を⟦{投|な}げかける→投げかける：28968_nagekakeru⟧ (pose a question)\n・⟦{投|な}げ{出|だ}す→投げ出す：10589_nagedasu⟧ (give up, abandon)\n・⟦{身|み}→身：01764_mi⟧を{投|な}げる (throw oneself—dramatic)\n\nBASEBALL TERMS:\n・⟦{投手|とうしゅ}→投手：06563_toushu⟧ (pitcher)\n・⟦{投球|とうきゅう}→投球：15510_toukyuu⟧ (pitching)\n\nFIGURATIVE USAGE:\n・⟦{投|な}げやり→投げやり：12781_nageyari⟧ (careless, apathetic, devil-may-care—adjective)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10589_nagedasu",
+      "reading": "なげだす",
+      "headword": "{投|な}げ{出|だ}す",
+      "label": "to give up, abandon (sense 3 compound)"
+    },
+    {
+      "type": "related",
+      "target_id": "06563_toushu",
+      "reading": "とうしゅ",
+      "headword": "{投手|とうしゅ}",
+      "label": "pitcher (baseball)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-08T12:37:35Z",
-    "modified": "2026-06-16T09:18:46Z",
+    "modified": "2026-07-25T09:17:59Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
