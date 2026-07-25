@@ -151,6 +151,15 @@ A detector would:
 
 **Scope**: Lower priority than the tag-drift items above, but a useful long-term audit tool. See [Word Variants](../topics/word-variants.md) and [Handling Homographs](../topics/homographs.md) for the design context.
 
+**Update 2026-07-25 (a concrete worked example, and a sharper detector cut: the overlap is at the *sense* level, not the entry level)**: A 2026-07-25 routine polish run found the exact case this item was designed for and fixed it by hand: **06626 見栄** carried a **sense 2 "kabuki dramatic pose"** with three examples written **見栄を切る**, while **29012 見得** — the correct kanji for that sense — already existed as a full entry. The wrong sense was removed from 06626, the two entries cross-linked, and the 見得を切る / 見栄を張る verb split documented in the notes.
+
+Two refinements to the spec above follow from the case:
+
+1. **The overlap unit is the sense, not the entry.** A whole-entry duplicate check (`find_merge_candidates.py --merge-only`) cannot see this: 見栄 and 見得 are genuinely different entries and *should* both exist. Only one *sense* of one of them is misplaced. The check must compare each sense of entry A against the *whole* of entry B.
+2. **The candidate pairs are already computable.** `find_merge_candidates.py` groups by reading, so same-reading / different-kanji pairs are in reach today; what is missing is the per-sense comparison on top of that grouping. That makes this a small addition to an existing script rather than a new tool.
+
+Filed alongside as [Cleanup P8](cleanup-backlog.md#priority-8-unconsolidated-duplicate-expression-entries)'s new "sense-vs-entry split" sub-family, which also records a plain duplicate pair found the same run (01385_kimochi / 02485_kimochi, both 気持ち "feeling, mood").
+
 ## 8. Furigana format validator (`check_furigana_format.py`)
 
 **SHIPPED (2026-06-09)** — `build/check_furigana_format.py` is built as a read-only review queue (`--json`/`--summary`/`--severity`/`--range`). It classifies wrappers into `reading-truncated` (74 visible-bug truncations), `slash-reading` (130, Cleanup P12), `pure-kana`, `o-go-prefix`, `over-wrapped`, and `nested`, skipping kanji+katakana mixes (ヶ月, 筋トレ) to avoid false positives. Indexed in `planning/wiki/ideas/backlog-queue.json`; the Routine's systemic-fix mode drains it with per-entry verification.
@@ -235,6 +244,16 @@ whole class of silent linking errors that inline-link polishing can introduce.
 
 **Scope**: A full-corpus scan would also surface how many such broken links
 already exist; worth running once the gate is built.
+
+**Update 2026-07-25 (the strongest evidence yet: a single polish run silently introduced NINE dead links, all of which passed `validate.py` clean — and the documented check is the one that fails)**: A 2026-07-25 routine polish run wrote **nine inline links with plausible-but-nonexistent target IDs** (`00478_tomodachi`, `09048_koukyuu`, `09502_noni`, …). Every one of them **validated clean**. They were caught only by an **ad-hoc scan against the set of entry filenames** that the run happened to write for itself; without that improvisation they would have shipped.
+
+The sharp point this adds to the item is that **the documented check is the broken one**. Both `CLAUDE.md` and `prompts/comprehensive_polish.md` advise `python3 build/validate.py --id X | grep -i "word link"` as *the* way to verify inline links — so a polishing session that follows the documented procedure exactly, and sees a clean result, has verified nothing about target-ID existence. The failure is silent, it is introduced by the very sessions whose job is to *improve* linking, and it accumulates invisibly between the rare occasions someone writes an ad-hoc scan.
+
+This makes the item's priority materially higher than "worth running once the gate is built":
+
+- **Minimum viable fix**: have `validate.py` resolve every `⟦…：entry_id⟧` target against the set of existing entry IDs (or `build/word_id_lookup.json`) and report unresolvable targets as an error. The set is already loaded by other build steps, so the cost is negligible.
+- **Then run it once dictionary-wide** to size the existing dead-link population — nine were created in a *single* run, so the standing total is unlikely to be small.
+- **Related**: [Cleanup P24](cleanup-backlog.md#priority-24-inline-link-base-forms-written-with-furigana-braces) (39 entries whose link *base form* carries furigana braces) is the same blind spot seen from the other side — malformed link internals that no check looks at.
 
 ## 12. review_runner.py `--pass deep --range` deep-reviews the whole range, not just flagged
 
@@ -917,6 +936,15 @@ batching/concurrency (option b/d) the durable one if furigana screening is to co
 
 **Update 2026-07-22 (eleventh confirmation — ~8 s/entry reconfirmed, plus a genuinely-new state-integrity datum: filter "this run's" entries by `screened_at`, not file mtime)**: A 2026-07-21 routine accuracy-review reconfirmed the binding wall-clock bound — `review_runner.py --pass screening` ran at **~8 s/entry**, making the 400–600-entry furigana ranges the §A budget math nominally allows **impractical within one unattended run** (the standing ≤~100–200-ID sizing holds). The genuinely-new datum this window is about the runner's **interrupted-state integrity**, not just its speed: the screener **processes entries out of ID order (it appears to fan out in parallel), so an interrupted pass leaves non-contiguous partial state**, and — critically — the **written file mtime does not match the internal `screened_at` timestamp**, so filtering "the entries this run screened" by file mtime is unreliable and can miss or mis-attribute results. The fix is to **filter by the `screened_at` field the runner already records**, not by mtime. This matters for any §4 self-check or cursor-advance logic that reasons about "which entries did this invocation cover" after a truncation — the same truncation-resilience path items 21/31 already harden. Eleventh confirmation of the range-sizing constraint; the `screened_at`-vs-mtime point is a new, small, self-contained robustness fix for downstream result-attribution.
 
+**Update 2026-07-25 (twelfth confirmation — the first direct side-by-side throughput measurement against `review_accuracy.py`: ~8/min vs ~29/min, a 3.6× gap)**: A 2026-07-25 routine accuracy-review ran **both** review scripts over the same 490-entry range and measured them against each other for the first time: `review_runner.py --pass screening` sustained **~8 entries/min** while `review_accuracy.py` sustained **~29 entries/min** over identical inputs. The consequence is exactly the one this item predicts — **accuracy completed the full 490-entry range; screening was cut off at 18345 (421/490)** by the ~50-minute wrapper timeout. Per §A resilience the 421 covered results were kept and adjudicated.
+
+Two things this measurement settles:
+
+1. **The bottleneck is the screener specifically, not OpenRouter or the network.** Both scripts call the same API from the same host in the same run; a 3.6× gap is a property of the screener's request pattern (serial per-entry calls, no batching), which is what items 21/31 have inferred but never measured against a control.
+2. **The practical range cap is ~350 entries per Routine run**, the observing run's own recommendation and a number now backed by a measured rate rather than an estimate — 350 entries ÷ 8/min ≈ 44 min, inside the wrapper timeout with margin. That supersedes the looser "≤~100–200 IDs" guidance in the 2026-07-13/14 updates *for a full-length run*, while the smaller figures remain right for the short §4 self-check invocations.
+
+The durable fixes are unchanged and now better justified: **concurrency in the screener** (the accuracy script demonstrates the achievable rate on the same infrastructure), a `--resume`/skip-already-screened flag, or a faster screening model. Note that this per-run cost buys almost nothing at present — see [item 24](#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class), where the same 2026-07-25 run measured the screener at **~2% precision**.
+
 ## 22. Particle structured-field furigana-completeness sweep
 
 **Source**: 2026-06-17 routine polish session (priority lane, 00484_も)
@@ -1023,6 +1051,17 @@ will be forced to mine transparent compounds.
 
 **Update 2026-07-23 (reinforcement — a 20-entry run had to cherry-pick across many date-batches because the 2026-02/03 corpus dumps are largely unusable)**: A 2026-07-22 routine new-entries run reconfirmed the <10%-signal finding, naming the oldest corpus-harvested dumps (the **2026-02-25 / 03-18 / 03-28 batches**) as the worst pocket and re-enumerating the now-standard junk families with fresh examples: wrong kanji (怒燥 for 怒濤), wrong glosses (アンパッサン = "ice cream sundae"), fragments (がまま, 何かなり), compositional phrases (三年前, 本人の意向), and reading/gloss mismatches (三重 = みえ glossed "triple"). Because the seen-in-entry lane is drained (`seen_in_entry_count` reading ~0 since 2026-06-24), the run had to **cherry-pick genuine standalone words across many date-batches to fill the 20-entry run**. No new junk family; pure reconfirmation. Standing recommendation unchanged — a **curator `clean_up_candidates_list.md` bulk-prune of the corpus dumps** (routed *before* the next new-entries-heavy period) plus this item's intake plausibility heuristic to keep the pool from re-polluting. See Open Issues → candidate-pool quality.
 
+**Update 2026-07-25 (reinforcement — ~200 candidates scanned to assemble a batch of 15 — plus a genuinely-new intake gap: the seen-in-entry logger does not check the *reading* against existing entries)**: A 2026-07-25 routine new-entries run reconfirmed the <10%-signal finding with a fresh throughput figure — **scanning ~200 candidates was required to curate a clean batch of 15** — and re-enumerated the standing junk families with the now-familiar examples (OCR/coinage non-words 権使 / 些道 / 個尊 / 怒燥 / 発炭; compositional number-counter phrases 二通 / 八時 / 四十分; transparent compounds ○○部品 / ○○機能 / ○○鋼). Standing recommendation unchanged: curator `clean_up_candidates_list.md` bulk-prune plus this item's intake plausibility heuristic.
+
+The **new** datum concerns the *high*-quality lane, not the corpus junk. Two of the run's **"seen in entry" priority candidates were variant readings of entries that already exist**:
+
+- **雪ぐ / すすぐ** duplicates **30089** — and the source entry (06614 恥辱) actually uses **そそぐ**, so the logged reading was wrong as well as redundant;
+- **裏面 / うらめん** duplicates **18245** (裏面 / **りめん**) — same headword, different reading.
+
+Both slipped through because the comprehensive-polish "seen in entry" logger adds a candidate **without checking the reading against existing entries**. `build/check_duplicate.py` already performs exactly this check and is documented as the pre-creation gate, but it runs at *entry-creation* time, i.e. one stage too late: the polish run spends nothing to log a duplicate, and the new-entries run downstream pays the cost of discovering it. Worse, a same-headword/different-reading pair is precisely the case a naive surface-string check misses.
+
+**Suggested fix** (small, and it protects the one candidate lane that still has signal): call the `check_duplicate.py` logic — or `manage_candidates.py check` — at **candidate-add** time in the polish path, matching on **headword *and* reading independently**, and skip or annotate the candidate when either already resolves to an entry. Cheap, and it keeps the seen-in-entry lane's quality advantage from eroding as it refills.
+
 ## 26. accuracy-review prompt: embed the valid `formality` enum (formal/neutral/informal/vulgar)
 
 **Source**: 2026-06-20 routine new-entries self-check (gemini-2.5-flash, `tags` dimension)
@@ -1124,6 +1163,16 @@ boundaries)**, which would erase this dominant noise family on every range witho
  **Update 2026-07-18 (100% FP on 15567–15766 — a nominally never-reviewed range, yet all documented families)**: A 2026-07-17 accuracy-review furigana screen over **15567–15766** flagged **19 of 191 entries, 100% false positives** — every flag one of the documented families (okurigana splits, the runner's prompt-context/pair-extraction truncation artifact, contextual readings like お腹→なか). The deep pass was skipped per the known-noise shortcut (`reviews/calibration_report.md`). The datum worth noting: this band's `tags` dimension was genuinely contaminated (28% real off-vocab flags, see item 17 / Cleanup P20), yet its **furigana** was already clean — so tag drift and furigana quality are independent per range, and the screener produced zero value here even though the range had never been furigana-reviewed. Reconfirms both theses: the truncation family would be erased by sending untruncated fields, and a deterministic charset/grouping/reading lint would leave only true reading errors for the model.
 
 **Update 2026-07-24 (0% precision reconfirmed on the already-polished 17311–17560 range)**: A 2026-07-23 `review_runner.py` furigana screen over **17311–17560** flagged **37 of 241 entries at 0% precision** — every flag the documented screener context-truncation family (the reading display cut off, e.g. `変化球|へんかき` for へんかきゅう) plus okurigana/rendaku FPs; the deep pass was correctly skipped per the known-noise shortcut. Consistent with the documented 0–5% precision on already-structured ranges. Reinforces the untruncated-field fix (send the entry's full stored reading, and suppress a flag when the stored reading already matches the "should-be" full reading) and the deterministic-lint thesis for the screener's one true-positive class.
+
+**Update 2026-07-25 (the truncation artifact is now *quantified and verified entry-by-entry*: ~37 of 48 flags in one pass, measured precision 1/48 ≈ 2%)**: A 2026-07-25 accuracy-review furigana screen over **17911–18345** produced the cleanest characterisation of this bug so far. The reviewer's concerns quoted readings that were **cut off mid-word and in several cases carried a stray closing parenthesis** — `{配布物|はいふぶ)`, `{茶店|さて)`, `{防腐剤|ぼうふざ)` — and then flagged the truncation *it had itself produced* as an "incomplete reading."
+
+The observing run then **verified every one against the entry files**: 17917, 17920, 17928, 17944, 17945, 17978, 18012, 18023, 18057, 18070, 18148, 18152, 18161, 18162, 18183, 18292, 18297, 18298, 18312, 18315 **all carry the full, correct reading**. This single artifact accounts for **~37 of the 48 screening flags in the range**, and the pass's measured precision was **1 of 48 ≈ 2%**.
+
+Why this update matters more than another 0%-precision datapoint:
+
+- The **stray `)`** is a smoking gun. It shows the truncation happens in the **prompt builder's context-window assembly**, not in the model's reading of a correct prompt — the string is being cut mid-token and the surrounding punctuation left dangling. That localises the fix to one place in `review_runner.py`.
+- It puts a number on the payoff: fixing the context assembly would remove **roughly three-quarters of all screening flags** in a typical pass, at which point the residual (okurigana splits, rendaku, nanori) is small enough for the deterministic charset/grouping lint this item proposes to handle without a model at all.
+- Paired with [item 21](#21-chunk-the-reviewscreening-runners-to-fit-the-session-timeout)'s same-run measurement that the screener runs at ~8 entries/min (3.6× slower than `review_accuracy.py`), the current cost-benefit is stark: **the slowest instrument in the Routine is spending its budget generating its own false positives.** Until the context-assembly fix lands, the known-noise shortcut in §A (bulk-reject the documented families, skip the deep pass) is doing the right thing, and shrinking or skipping furigana screening on already-structured ranges costs the dictionary essentially nothing.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -1415,6 +1464,90 @@ that runs `--task notes` / `--task furigana` / `--task links` and asserts each
 writes its own priority file without touching the others. Until fixed, either
 correct the `CLAUDE.md` example to note the flag is `furigana`-only or point it
 at `make priorities`.
+
+## 34. `comprehensive_polish.md` names two cross-reference types the schema rejects
+
+**Source**: 2026-07-25 routine polish run — recurring; first reported 2026-05-09
+
+`prompts/comprehensive_polish.md` line 107 instructs the polisher to use, among others,
+the cross-reference types **`formality_variant`** and **`transitivity_pair`**:
+
+> Cross-references include obvious neighbors: synonyms, antonyms, transitivity pairs, register
+> variants. Use `synonym`, `antonym`, `related`, `contrast`, `formality_variant`,
+> `transitivity_pair` per the `cross-reference-entry` skill.
+
+Neither exists. `build/schema.json`'s enum is exactly:
+
+```
+["pair", "synonym", "antonym", "keigo", "related", "see_also", "contrast", "homophone"]
+```
+
+A polisher that follows the prompt as written **fails validation**, then has to guess a
+replacement mid-run (`pair` for a transitivity pair, `related` or `keigo` for a register
+variant). This is not hypothetical: session logs record the detour repeatedly —
+`comprehensive_2026-05-09_002` ("tried `formality_variant` but it isn't valid in schema — used
+`related` instead"), `comprehensive_2026-05-20_001` and `comprehensive_2026-05-31_002` (both
+"fixed cross_reference type transitivity_pair→pair"), and several 2026-05-13 entries created
+with the invalid type before it was caught.
+
+**It was already reported and never fixed.** A 2026-05-09 polish session filed it as a `[skill]`
+observation, and the 2026-05-09 wiki run recorded it in `planning/wiki/log.md` as skill
+recommendations (2) and (3) — but wiki sessions are forbidden from editing prompts/skills, so the
+recommendation has sat un-actioned for **two and a half months** while polish runs kept hitting it.
+The 2026-07-25 observation misattributes the source to `CLAUDE.md`; the string does **not** appear
+there (verified this run) — the live source is `prompts/comprehensive_polish.md:107`, which is why
+it keeps recurring: that is the prompt the Routine's `polish` mode follows on every run.
+
+**Suggested fix** — a curator one-liner, either direction:
+
+- **Correct the prompt** (recommended): replace `formality_variant` → `keigo` or `related`, and
+  `transitivity_pair` → `pair`, in `prompts/comprehensive_polish.md:107`; check
+  `.claude/skills/cross-reference-entry/` for the same wording while there.
+- **Or extend the schema** to admit both types, if the finer distinction is judged worth having —
+  but that requires a migration of existing `pair`/`related` references to stay meaningful, so the
+  prompt fix is the cheaper correct answer.
+
+Either way this belongs to the curator, not to a Routine run: `wiki` mode may not touch prompts,
+and `polish` mode legitimately works around it per-entry.
+
+## 35. Verb-class misassignment detector: conjugation tables contradicted by the entry's own examples
+
+**Source**: 2026-07-25 routine polish run (06624 甘える, 09361 バックレる)
+
+A verb entry's whole `conjugation` table is generated from its `pos` tag, so a **single wrong
+class tag fabricates the entire table** — see
+[Cleanup P25](cleanup-backlog.md#priority-25-fabricated-conjugation-tables-from-a-mis-assigned-verb-class)
+for the two confirmed cases (06624 甘える tagged `verb-godan`, producing 甘えらない / 甘えります /
+甘えった; 09361 バックレる likewise). This is among the worst silent-error classes the dictionary
+can carry: conjugation tables are exactly what a learner copies without checking, and nothing in
+the current pipeline looks at them again after generation.
+
+**The detector to build is self-contradiction, not reading shape.** The obvious heuristic —
+`verb-godan` + reading ending in -える/-いる — has a large, permanent false-positive family
+(31 entries measured 2026-07-25: the 入る/返る compounds 若返る / 跳ね返る / 裏返る / 覆る / 甦る /
+翻る / 気に入る / 痛み入る …, plus 炒る / 煎る), so it can only ever be a one-off scan with an
+allowlist. The **self-contradiction** rule has no false-positive family at all:
+
+> Flag a verb entry whose **own examples contain a conjugated form of its headword that its
+> declared class cannot produce** — e.g. an entry tagged `verb-godan` whose examples show the
+> ichidan past 甘えた / バックレた while its generated table claims 甘えった.
+
+The entry is disagreeing with itself, so every hit is real: either the tag is wrong (regenerate
+the table) or the example is wrong (fix the example). Both cases need a human decision, but
+neither is a false alarm.
+
+**Implementation sketch**: for each verb entry, generate the candidate conjugated forms for the
+*declared* class (the logic already lives in `build/add_conjugations.py`) **and** for the
+plausible alternative classes; scan the entry's own example sentences for occurrences of the
+headword stem followed by an inflectional ending; flag when the observed ending is derivable only
+from a class other than the declared one. Generalises to the reverse case (an ichidan-tagged godan
+verb) and to `verb-suru` mis-tags, and pairs naturally with the existing conjugation-hygiene items
+[5](#5-non-verb-conjugation-pruner--defensive-guard-in-add_conjugationspy) and
+[10](#10-add_conjugationspy-false-positive-suru-detection-on-godan-verbs-ending-in-する).
+
+**Then**: re-run `add_conjugations.py --force` on the confirmed mis-tagged entries after correcting
+`pos`, and record the dictionary-wide hit count — two cases surfaced from a single frontier run's
+incidental scan, which is not evidence that two is the total.
 
 ## Related pages
 

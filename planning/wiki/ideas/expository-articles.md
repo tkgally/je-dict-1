@@ -123,6 +123,31 @@ Which articles to write first, based on likely user interest and available entry
 | Lower | Seasonal words | Some coverage | Medium |
 | Lower | Business vocabulary | Growing coverage | Low |
 
+### Added 2026-07-25: `ている` and the te-form auxiliaries — an article as the cheapest answer to a real gap
+
+A 2026-07-25 routine polish run observed that **`ている` has no entry** and is marked `noentry` in the
+ASPECT notes of **37 entries** (count verified this run). It is plainly a core form for the dictionary's
+intermediate-learner audience, but it is also a **grammatical form rather than a vocabulary item**, and
+adding entries for auxiliaries would be a genuine change in what this dictionary *is* (see the
+[Cleanup Backlog informational note](cleanup-backlog.md) on the same observation, which frames the
+curator's three options).
+
+An **article** is the option that serves the learner without that scope change: one piece covering
+ている's progressive vs. resultative-state split — the distinction the ASPECT notes in those 37 entries
+keep gesturing at individually — extended to its te-form siblings ておく, てしまう, てみる, ていく/てくる.
+Entry coverage is unusually strong: the ASPECT notes already written across verb entries are effectively
+the article's source material, and each of the 37 `noentry` markers is a natural inbound link once the
+article exists.
+
+| Priority | Topic | Entry coverage | Complexity |
+|----------|-------|---------------|------------|
+| High | `ている` and the te-form auxiliaries (aspect) | Strong (37 entries' ASPECT notes + all verb entries) | Medium |
+
+Note the adjacent open question this would also settle in practice: whether an article can be an
+inline-link target. If it can, the 37 stale `noentry` markers resolve to the article; if not, they stay
+as they are and the article is discoverable only by browsing — worth deciding before writing, and
+related to the "landing pages for thematic search" question below.
+
 ## Open questions
 
 - How long should articles be? Print dictionary essays range from 500 to 5,000 words.
