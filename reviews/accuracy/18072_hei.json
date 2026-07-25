@@ -1,0 +1,24 @@
+{
+  "entry_id": "18072_hei",
+  "headword": "{丙|へい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:30:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '丙' is not inherently formal. While it appears in formal contexts like contracts, the character itself is neutral.",
+      "suggestion": "neutral"
+    }
+  ]
+}

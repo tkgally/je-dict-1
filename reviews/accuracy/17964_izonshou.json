@@ -1,0 +1,24 @@
+{
+  "entry_id": "17964_izonshou",
+  "headword": "{依存症|いぞんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:28:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific medical/psychological condition.",
+      "suggestion": "health"
+    }
+  ]
+}

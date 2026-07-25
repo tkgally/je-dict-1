@@ -1,0 +1,24 @@
+{
+  "entry_id": "17986_eiseikanri",
+  "headword": "{衛生|えいせい}{管理|かんり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:28:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'work' is too narrow and misleading for '衛生管理'. While hygiene management is often part of work, the term itself refers to the concept of managing hygiene, not specifically 'work' as an activity or occupation.",
+      "suggestion": "Replace 'work' with 'health' or 'daily-life' as these are more appropriate for hygiene and sanitation."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18083_boufuzai",
+  "headword": "{防腐剤|ぼうふざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-25T06:30:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific chemical substance. 'Health' or 'science' would be more appropriate given its function.",
+      "suggestion": "health"
+    }
+  ]
+}

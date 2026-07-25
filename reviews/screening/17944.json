@@ -1,0 +1,10 @@
+{
+  "entry_id": "17944",
+  "screened_at": "2026-07-25T06:21:06Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 4, \"市\", is given as \"し\", but the following text \"の{公共施設|こう)\" suggests that \"市\" is part of a larger compound \"市の公共施設\" where \"市\" would likely be read as \"し\" as a standalone word, but the furigana provided for the compound \"公共施設\" is \"こう\" which is incomplete. However, the instruction states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, the reading for \"市\" as \"し\" is correct for the kanji itself, and the partial reading for the following compound is also allowed. No error here."
+  ],
+  "confidence": 0.8
+}

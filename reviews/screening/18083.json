@@ -1,0 +1,10 @@
+{
+  "entry_id": "18083",
+  "screened_at": "2026-07-25T06:36:48Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for 防腐剤 is {防腐剤|ぼうふざい} (ぼうふざい), but in item 2, it's {防腐剤|ぼうふ) and in item 7, it's {防腐剤|ぼうふざ). These are partial readings, but the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, these are not errors."
+  ],
+  "confidence": 0.5
+}

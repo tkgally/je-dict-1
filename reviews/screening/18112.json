@@ -1,0 +1,11 @@
+{
+  "entry_id": "18112",
+  "screened_at": "2026-07-25T06:40:08Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 4. 歌声 → うたごえ is followed by {男性的|だんせい), which implies that the reading for 男性的 is だんせい. However, the entry for 男性的 is {男性的|だんせいてき}. This suggests a partial reading for 男性的, but the provided context doesn't make it clear if it's a partial reading or an error. Given the instruction \"Do NOT flag partial readings as errors\", this is ambiguous. However, if the intention was to read the full word 男性的, then だんせい would be an error.",
+    "The reading for 6. 香水 → こうすい is followed by {男性的|だんせい), which implies that the reading for 男性的 is だんせい. Similar to concern 4, this is ambiguous. If the intention was to read the full word 男性的, then だんせい would be an error."
+  ],
+  "confidence": 0.7
+}
