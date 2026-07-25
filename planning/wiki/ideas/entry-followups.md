@@ -635,6 +635,36 @@ noticed this while polishing an unrelated frontier range and flagged it as out o
 `modified`. A trivial single-entry fix; also a good candidate for a `check_tag_drift` semantic-mismatch
 catch (a `clothing` tag on a body-part word).
 
+## 01385_kimochi / 02485_kimochi (気持ち) — duplicate entries, merge candidate
+
+**Source**: 2026-07-25 routine polish run
+
+Two entries cover 気持ち, both glossed "feeling, mood": **01385_kimochi** and **02485_kimochi**.
+This is the classic parallel-sources-of-truth case that
+[Cleanup P8](cleanup-backlog.md#priority-8-unconsolidated-duplicate-expression-entries) describes —
+each polishing pass improves one of them and they drift further apart.
+
+**Recommended action**: a consolidation session (`prompts/consolidate_entries.md`, `resolve-duplicates`
+skill). Keep the lower ID (01385) per the usual rule unless the higher one is materially richer, merge
+the senses/examples/notes, and redirect inbound cross-references and inline links to the keeper.
+Because 気持ち is a high-frequency word, check `build/word_id_lookup.json` and inbound `⟦…：02485_kimochi⟧`
+links before deleting anything. `find_merge_candidates.py --merge-only` should already list this pair.
+
+## 00969_mata (また) — sense 3 "or" required また, not the bare adverb (fixed 2026-07-25; check the pattern elsewhere)
+
+**Source**: 2026-07-25 routine polish run
+
+00969 また's **sense 3 ("or")** carried **four examples using bare また** where the compound **または**
+is required. Corrected in-run.
+
+The reason it is filed here is the **generalisation the observing run drew**, which no detector covers:
+an entry for a bare adverb can grow a sense that only the *compound* form expresses, and the examples
+will then illustrate a form the headword does not have. **Recommended action**: when polishing any entry
+that glosses a bare adverb or particle with a sense that feels compound-only (また/または, もし/もしも,
+たとえ/たとえば, など/などと), check that each example actually uses the form the headword names. Worth
+raising as a checklist line in `prompts/comprehensive_polish.md` (curator call — Routine `wiki` runs may
+not edit prompts) rather than a script, since the judgment is semantic.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

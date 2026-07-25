@@ -2,6 +2,31 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-25] maintenance | Harvest 15 observations — four genuinely new findings (silent dead links, fabricated conjugation tables, braced link base forms, an invalid-cross-ref-type prompt bug) + the twenty-fifth metrics refresh
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 19 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/determined-rubin-yegzzu`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend this run); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+
+- **[F] Harvest** — all 15 loose observations from the 2026-07-25 new-entries, accuracy-review (17911–18345), and routine polish (frontier 06618–06631 + priority lane) runs. Unusually high-signal: four genuinely new findings rather than the usual reinforcement tail. Each claim was **verified against the repository before filing** — which changed three of them:
+  - The **39** (not 44) entries with braced inline-link base forms — re-measured dictionary-wide.
+  - The **31** (not 36) residual false positives in the verb-class reading-shape scan — re-measured after the run's own two fixes landed.
+  - The invalid cross-reference types are named in **`prompts/comprehensive_polish.md:107`**, *not* in `CLAUDE.md` as the observation stated (the strings do not appear there at all) — which matters, because that prompt is what `polish` mode follows on every run, explaining why the bug keeps recurring since it was first reported 2026-05-09.
+  - Also measured for the auxiliary-verb item, where the observation gave only 01092's own count: て行く 222/200, て来る 203/34, て見る 168/138, て置く 7/7 (occurrences/entries) — and used those numbers to file the item as deliberately **not** batch-ready, since the counts are a superset that includes correct main-verb uses.
+- **[D] New pages/sections** — three new Cleanup priorities (**P24** braced link base forms, **P25** fabricated conjugation tables, **P26** kanji-written auxiliaries), two new Tooling items (**34** the invalid-cross-ref-type prompt bug, **35** the verb-class self-contradiction detector), a new Cleanup *Informational* note on `ている` (37 `noentry` markers — a curator scope decision, not a workable backlog item), and a new High-priority topic in `ideas/expository-articles.md` (`ている` and the te-form auxiliaries).
+- **[C] Deepened existing items** — Tooling **11** (the nine silent dead links, and the finding that the *documented* link check is the one that verifies nothing), **24** (the screener's noise diagnosed to prompt-builder context truncation via the stray-`)` tell — ~37 of 48 flags), **21** (first side-by-side throughput measurement: ~8 vs ~29 entries/min), **23** (the seen-in-entry logger's missing reading check), **7** (a worked sense-vs-entry-split example); Cleanup **P8**, **P20**, **P21**.
+- **[E] Lint and maintain** — moved two P21 updates that the 2026-07-24 and 2026-07-25 wiki runs had mis-appended to the **Priority 23** section into Priority 21 where they belong (with a filing note); synced `ideas/backlog-queue.json` (scope 6,721→6,696 on `unknown-semantic-tags`; three new items queued with honest `batch_ready` flags — only the braced-base-form item is genuinely mechanical).
+- **[A] Sync** — `project/overview.md` General-tier and total counts refreshed (27,092 / 29,895).
+- **[H] Metrics trend — twenty-fifth refresh** of `topics/quality-metrics.md` (12 new lines, 341→353 runs, ~9,133 adjudicated flags): escalation-free window extends to a second consecutive refresh (**26 straight runs, 328–353**), `tags` apply-among-decided **62.0%**, furigana screening **1.1%**, review queue **new floor 12,496**, OpenRouter ~$0.44/day (<9% of cap). The refresh's headline is that **the one metric moving the wrong way is invisible to both ledgers**: dead inline links are not a reviewer flag, so no dimension can see them — filed to Tooling item 11 rather than logged as a `[pattern]` observation that would only round-trip back to the next harvest.
+
+**Two things routed explicitly to the curator** (a `wiki` run may not touch prompts, skills, or entries): the `comprehensive_polish.md:107` invalid-cross-ref-type fix (open since 2026-05-09), and the `ている` scope decision.
+
+**Index**: no new *pages* were created (all new content lives in existing pages), so `index.md` needed no change.
+
 ## [2026-07-25] maintenance | Harvest the 4 loose 2026-07-24/25 observations (three reinforcements + one important notes-lane counter-datum)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested-observation-lines signal)
