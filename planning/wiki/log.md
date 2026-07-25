@@ -2,6 +2,23 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-25] maintenance | Harvest the 4 loose 2026-07-24/25 observations (three reinforcements + one important notes-lane counter-datum)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 8 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Lock acquired cleanly on branch `claude/modest-keller-92xsxi`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown-only changes).
+
+**Activities**:
+- **[F] Harvest** — processed all 4 loose observations from the 2026-07-24 accuracy-review (17561–17760) and the 2026-07-24/25 routine polish runs (frontier 06614–06617 + priority notes-lanes). Filed: Cleanup **P20** (off-vocab creation-batch cohort contiguous into 17561–17760 — 75 entries migrated in-run: celestial/ability/memory/martial-arts/culture-tradition/location/place/land/property/equipment/audio/housing/rooms; detector 6,875→6,721); Cleanup **P21** (create-era zero-link band drains into the 06614–06617 agricultural block 恥辱/精米/脱穀/耕作, with a **new "examples-linked, notes-deferred" sub-signature** — the notes are dense with rare technical compounds 胚芽米/精米歩合/大吟醸/糠/千歯こき/足踏み脱穀機/籾摺り/耕作放棄地 that each need candidate creation before they can be linked); Tooling **item 20** (**an important counter-datum** — two priority notes-lanes were **NOT no-op**: the head-of-list basics から/大事/茶色い/低い/も/と had a real, template-required FUNCTIONS/USAGE overview section missing, +40–57→80–92; the low scores were **partly a real structural gap, not purely scorer noise**, so the retirement escalation becomes "fix the scorer + add a section-presence credit," not "remove the lane").
+- **[§3] Always-on capture** — コンバイン (seen in the 06614 block) already exists as entry 30081; **雪ぐ すすぐ** "to cleanse (a disgrace); to vindicate", seen in 06614 恥辱, added as candidate C22531.
+- **[A] Sync** — refreshed `project/overview.md` General-tier count (27,077 tagged `general` + the 20 untiered 29181–29200, of 29,880 total as of 2026-07-25, per `build/audit_tiers.py`).
+- **[E] Maintain** — refreshed the `unknown-semantic-tags` `scope_estimate` in `backlog-queue.json` (6,875→6,721) and appended a dated note (17561–17760 migration). No status/batch-readiness changes — all harvested items were incremental updates under existing open entries.
+- **[H] Metrics trend — not due**: only 7 new `metrics-history.jsonl` lines (348 total) since the twenty-fourth refresh at 341 runs (threshold ≥10).
+
+---
+
 ## [2026-07-24] maintenance | Harvest the loose 2026-07-23/24 observations (all reinforcements) + **Activity H** (twenty-fourth metrics-trend refresh)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 16 unharvested-observation-lines signal)
