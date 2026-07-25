@@ -635,6 +635,52 @@ noticed this while polishing an unrelated frontier range and flagged it as out o
 `modified`. A trivial single-entry fix; also a good candidate for a `check_tag_drift` semantic-mismatch
 catch (a `clothing` tag on a body-part word).
 
+## Bare adverbs glossed with a compound-only sense (pattern seeded by 00969_mata)
+
+**Source**: 2026-07-25 routine polish (00969_mata, corrected in-run)
+
+**00969_mata (また)** carried a **sense 3 "or"** whose four examples all used bare また where
+**または** is required — the sense exists only for the compound, not for the bare adverb. The run
+corrected 00969 itself, but flagged the general shape for a follow-up pass: **any entry whose headword
+is a bare adverb (or other short function word) but which glosses a sense that only the *compound*
+form carries**. The failure is invisible to validation and to tag review — the examples are
+grammatical-looking and the gloss is a real meaning of *something* — so it needs either a targeted
+human/model pass or a detector.
+
+**Detection idea**: for each sense, check whether the sense's example sentences actually contain the
+headword as written, or only a longer form beginning with it (また vs または, もし vs もしも, など vs
+などなど). `build/check_example_headword.py` already asks a related question for nouns
+([Cleanup P19](cleanup-backlog.md#priority-19-noun-examples-that-never-contain-their-headword)); the
+inverse check here is "examples contain the headword **only as a prefix of a longer lexeme**", which is
+a cheap string test worth adding to the same detector. Nearest neighbours to check by hand first: the
+other high-frequency bare adverbs with compound relatives.
+
+## ている has no entry and is linked as `noentry` in 36 entries — curator decision needed
+
+**Source**: 2026-07-25 routine polish (frontier work on ASPECT notes)
+
+The aspect auxiliary **ている** — a core grammatical form for intermediate learners, and the subject of
+the ASPECT section that verb entries are required to carry — **has no entry**, so inline links to it in
+ASPECT notes are written with the `noentry` sentinel in **36 entries** and render as plain text. This is
+not a defect of any one entry; it is an unresolved convention question the Routine cannot settle on its
+own, and it recurs every time the frontier reaches a verb entry.
+
+**The decision to make** (curator):
+
+1. **Create a grammar entry for ている** (and, by the same logic, likely 〜ておく / 〜てしまう / 〜てみる),
+   accepting that auxiliary/grammatical forms enter the headword inventory. This is what most learner
+   dictionaries do, and it would make the 36 existing links resolve immediately.
+2. **Document a standing convention that auxiliary forms are never linked**, in which case the `noentry`
+   markers should be removed rather than left as permanent dead sentinels, and the
+   [`inline-word-links` skill](../../../.claude/skills/) should say so explicitly.
+
+Either way the current state — 36 permanent `noentry` links to a form the dictionary teaches everywhere —
+is the one option that should not persist. Related: the `noentry` sentinel's other accumulation modes are
+tracked in [Tooling item 19](tooling-backlog.md#19-stale-noentry-inline-link-detector) (stale sentinels
+whose word *has since* gained an entry); this case is the opposite — a sentinel that will never resolve
+until a policy decision is made. See [Compound Verbs](../topics/compound-verbs.md) for the adjacent
+entry-vs-pattern design question.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

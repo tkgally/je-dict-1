@@ -84,6 +84,10 @@ Particle entries with extensive structured fields (e.g., 00051_ga and 00079_ha w
 
 **Standing-check re-confirmation (2026-06-24):** the systemic-fix selector surfaced this item again; `check_tag_drift.py --check conjugation-no-verb-pos --json` returned `[]` (0 dictionary-wide), so the `add_conjugations.py` exact-enum verb-POS guard is still holding against regeneration. The backlog-queue.json status was flipped `open`→`resolved` (matching the `tag-politeness-unsupported` guarded-standing-check precedent) so the selector advances to the next actionable item instead of re-picking a clean scope-0 check; the read-only detector stays indexed as a standing guard.
 
+**Sibling defect found 2026-07-25 — wrong verb *class* on a genuine verb (the guard does not cover this)**: the resolved sweep above removed conjugation tables from entries that are **not verbs**. A 2026-07-25 routine polish run found the adjacent, still-open failure: a **genuine verb tagged with the wrong class**, whose entire conjugation table is therefore fabricated morphology. **06624 甘える** (ichidan) was tagged `verb-godan` / `godan-ru`, so `add_conjugations.py` generated 甘えらない / 甘えります / 甘えった — plausible-looking forms that do not exist. The `add_conjugations.py` exact-enum POS guard cannot catch this: the POS *is* a verb POS, just the wrong one, so every downstream form is silently wrong for learners. A scan of all `verb-godan` entries whose reading ends in **-eru** returned **38 hits, 36 of them genuine godan** (the known 帰る / 滑る / 蹴る / 返る false-positive family) and **one further real case, 09361 バックレる**, contradicted by its own example (バックレた, an ichidan past). Both were fixed in-run with `add_conjugations.py --force`.
+
+The high-precision discriminator the run proposes — and the reason this is a *detector* item rather than a rename sweep — is to **cross-check the entry's own examples against its declared class**: flag a `verb-godan` entry whose examples contain the **ichidan** past/て-form of its headword (甘えた/甘えて for a headword whose godan past would be 甘えった). That inverts the -eru heuristic's 5% precision into something close to certainty, because the example sentences were written by a different process than the conjugation generator. Filed as [Tooling item 34](tooling-backlog.md#34-verb-class-mis-assignment-detector-fabricated-conjugation-tables-on-genuine-verbs); scope dictionary-wide is unmeasured (2 confirmed, both fixed).
+
 **Source**: Wiki maintenance 2026-05-11 (initial 12-entry onomatopoeia case) + 2026-05-12 (widened audit)
 
 The 2026-05-11 session identified 12 adverbial onomatopoeia entries (ぐつぐつ → ぐつぐたない etc.) carrying full godan conjugation blocks with nonsense forms. The 2026-05-12 follow-up audit shows this was a partial finding: **130 entries currently have a conjugation field while their POS tag contains no `verb-*` or `adjective-i` value**. All 130 carry a stray `verb_class` tag that triggered `add_conjugations.py`.
@@ -992,6 +996,8 @@ Both observing runs independently reach the same conclusion the P20 chain has dr
 
 **Update 2026-07-25 (the cohort runs contiguous into the 17561–17760 band — 75 entries migrated in-run; detector 6,875→6,721)**: A 2026-07-24 accuracy-review continued the sweep above 17560 and found the off-vocab creation-batch signature unbroken into the **17561–17760** band, with the now-standard free-form pre-taxonomy vocabulary — `celestial`, `ability`, `memory`, `martial-arts`, `culture-tradition`, `location`, `place`, `land`, `property`, `equipment`, `audio`, `housing`, `rooms`, … — and **migrated 75 entries** to in-list `VALID_SEMANTIC` tags in the same run. This extends the contiguous off-vocab cohort from the 17203–17560 block through **17760**; the observing run notes the broader **17000–17700 band likely needs the same treatment** and reiterates the standing conclusion of this whole priority — a **dedicated `check_tag_drift.py --check unknown-semantic` systemic-fix `unknown-semantic` batch over the 17000–17999 band would clear it faster than incremental per-range accuracy-review**. The dict-wide `unknown-semantic` residue stands at **6,721 flags across ~10,060 entries** (detector 2026-07-25, down from 6,875 on 2026-07-24 as this window's migrations land; semantic-mismatch 813, sole-general 3,825 alongside). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md).
 
+**Update 2026-07-25 (second — the cohort continues past 17760 into a themed 18250–18300 pocket; detector 6,721→6,696)**: A 2026-07-25 accuracy-review over **17911–18345** found the off-vocab creation-batch signature still running, now concentrated in a themed pocket at **18250–18300** (`security`, `vision`, `speech`, `group`, `tourism`, `place`, `posture`, `strategy`, `event`, `shape`, `body`, `biology`, `reading`) — migrated in-run. The observing run's judgment is worth recording as a **prioritisation datum for the whole priority**: the `tags` dimension of `review_accuracy.py` "reliably surfaces them and the migrations are unambiguous, so this is the cheapest remaining lever on the [5,448-entry] off-vocab backlog." That is the same conclusion the P20 chain has reached from the systemic-fix side (a dedicated `check_tag_drift.py --check unknown-semantic` sweep), now stated from the review side: **both lanes are high-precision on this cohort; the binding constraint is throughput, not judgment.** The dict-wide `unknown-semantic` residue stands at **6,696 flags across ~10,037 entries** (detector 2026-07-25, down from 6,721 earlier the same day; semantic-mismatch 813, sole-general 3,823 alongside). Same `unknown-semantic-tags` backlog item; reinforces [Tooling item 27](tooling-backlog.md).
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -1214,6 +1220,60 @@ Band now drained sequentially through **06568**; the dedicated 06500–06999 not
 **Update 2026-07-23 (the frontier drains through 06588; the soccer-position loanword cluster and the 06583–06592 general-tier band reconfirmed uniformly zero-linked)**: Two 2026-07-22 routine polish frontier runs carried the cursor further into the band. One reported the general-tier nouns **06583 炭素 / 06584 ファウル / 06589 スタメン / 06590 ビート / 06591 怨念 / 06592 開墾** (created Jan 2026) shipped with **zero** `⟦...⟧` links in examples and only partial linking in notes; the other hand-linked the **soccer-position loanword cluster 06585 ゴールキーパー / 06586 フォワード / 06587 ミッドフィルダー / 06588 ディフェンダー** (created/modified Jan–Jun 2026) — again **zero** `⟦...⟧` links in examples *or* notes at birth — with full example+notes coverage, and migrated 06585's sole-`general` tag to `sports` to match its three siblings (see the [P13](#priority-13-overuse-of-general-as-sole-semantic-tag) update 2026-07-23). Both runs restated the now-standard conclusion: **these general-tier create-era entries are invisible to the notes-quality priority scorer** (which keeps ranking already-polished basic/core adjectives; [Tooling item 20](tooling-backlog.md)), so the **sequential frontier sweep remains the effective instrument for inline-link completion**, and the ~06150→~06600 band stays uniformly zero-linked ahead of the ~5-entries/run cursor. Band now drained sequentially through **06588**; the dedicated 06500–06999 notes-linking sweep (gated on Tooling item 15) remains the higher-throughput fix.
 
 The recurring note-field datum this window is the **malformed-wrapper** counterpart to the 2026-07-21 note-field *reading*-error finding above: while linking the 06500s notes the frontier run again found furigana wrappers that were never checked at creation because they sit in `notes` — `{プロ野球|やきゅう}` (06573; the reading やきゅう belongs only to 野球, not the whole プロ野球 span → the whole-span wrap paints わきゅう over プロ野球) and single-argument / no-pipe brace spans `コーラス{グループ}` and `コーラス{パート}` (06574; katakana inside furigana braces with no reading), all fixed in-run. This reconfirms the standing recommendation that **`check_furigana_format.py`'s systemic-fix sweep should scan `notes` fields, not just headwords/examples** — the detector's field table already *counts* 584 note-field instances (see the [P9](#priority-9-malformed-furigana-wrappers) opening table), but the ID-range systemic-fix sweeps have historically worked headword/examples and let these create-era note-field wrappers accumulate; they surface only incidentally when the frontier link sweep reaches them. This is the same open note-field tooling gap as the P21 2026-07-21 update (both *reading* correctness and *format* wrappers inside `notes` are unchecked), distinct from [Tooling item 22](tooling-backlog.md)'s structured-field *completeness* sweep.
+
+**Update 2026-07-25 (the band is confirmed to continue *above* the cursor — 06627+ spot-checked zero-linked — and the frontier lane's per-entry cost is now quantified at 10–15 min)**: A 2026-07-25 routine polish run reported that **entries from ~06627 onward have zero inline-link coverage** (0 `⟦…⟧` markers in examples *and* notes; 06627–06632 spot-checked, all empty). Two things make this update more than the routine "band extends by five" datum:
+
+1. **It is a forward-looking check, not a rear-view one.** Previous P21 updates recorded the band as far as the frontier had *drained* it; this run sampled *ahead* of the cursor and found the same emptiness, so the band is not merely "unbroken ~06150 → 06626" but is expected to continue for the whole create-era block above it. Every entry above the cursor needs full tier-1 link work.
+2. **The frontier lane's economics are now measured**: roughly **10–15 minutes per entry** for a 9-example entry. At ~5 entries/run that is the dominant cost of the polish mode from here on — which is the quantitative form of the standing recommendation that a **dedicated 06500–06999 (and now 06600–07000) notes-and-examples linking sweep** would beat the ID-sequential crawl, and the strongest argument yet for unblocking [Tooling item 15](tooling-backlog.md) (the unlinked-label lint) so the sweep can be run as a detector-driven systemic-fix batch rather than by hand.
+
+Related sub-pattern filed the same day as its own priority: inline links whose *base form* carries furigana braces ([Priority 24](#priority-24-inline-link-base-forms-written-with-furigana-braces)) — a mechanical defect introduced *by* this linking work, so a base-form sweep should run alongside (or just after) any bulk link backfill.
+
+## Priority 24: Inline-link base forms written with furigana braces
+
+**Source**: Routine v2 polish run, 2026-07-25 (found and fixed live in 00969_mata)
+
+The inline-link syntax is `⟦surface→base：entry_id⟧`, where **`base` is plain kanji**
+(`⟦来た→来る：00254_kuru⟧`). **44 entries** instead write the base form with furigana
+wrappers — `→{来|く}る：00254_kuru` — putting reading braces in a field that is never
+rendered as ruby. The links still resolve (the entry_id is what matters), so this is
+cosmetic-to-structural rather than a dead-link class, but it makes the base form
+inconsistent with the documented format in the
+[`inline-word-links` skill](../../../.claude/skills/) and with the other ~thousands of
+links, and it will confuse any future tooling that parses base forms (e.g.
+[Tooling item 11](tooling-backlog.md#11-inline-link-target-id-resolution-gate-in-validatepy-or-pre-commitci)'s
+proposed base-form-vs-target consistency check, which would have to strip wrappers first).
+
+**Why it is a good systemic-fix candidate**: the transform is a regex **restricted to the
+segment between `→` and `：`** — strip `{`/`}` and the `|reading` half inside that segment
+only — which provably cannot touch surface text, readings elsewhere in the sentence, or
+the target id. It is one of the few genuinely `mechanical-safe` items on this page (still
+validated + spot-checked before commit per §B). Detection is a one-line grep for `→[^：⟧]*{`.
+
+**Scope**: 44 entries as measured 2026-07-25 (one, 00969_mata, fixed in-run → ~43 remaining).
+Indexed in `backlog-queue.json` as `inline-link-braced-baseform`.
+
+## Priority 25: Auxiliary verbs written in kanji after the te-form
+
+**Source**: Routine v2 polish run, 2026-07-25 (01092_oku)
+
+Contemporary Japanese writes **auxiliary** (non-lexical) verbs in hiragana: 〜ておく,
+〜てみる, 〜てくる, 〜ていく, 〜てしまう. The polish run found **01092_oku's own examples**
+writing the auxiliary with kanji — 〜て{置|お}く in **5 of its examples** — while the same
+entry's notes correctly wrote it in kana. That is a self-inconsistency inside a *basic-tier*
+entry teaching exactly that auxiliary, and it models an orthography learners should not
+copy.
+
+**Suggested detector**: flag a te-form (`て`/`で`) immediately followed by a kanji-written
+member of the auxiliary set — 置く / 見る / 来る / 行く / 仕舞う（しまう）/ 貰う / 呉れる /
+遣る — inside `examples`. The detector must be a review queue, not an auto-rewriter: the
+same kanji spellings are correct when the verb is **lexical** (本を{置|お}く "put the book
+down", 学校に{行|い}く "go to school"), so the discriminator is "immediately preceded by a
+te-form of another verb", and even that needs per-entry confirmation (て can end a clause
+that is followed by an independent lexical verb).
+
+**Scope**: unmeasured dictionary-wide; one confirmed entry (01092, fixed in-run). Worth
+scoping with the detector before deciding whether it merits a sweep — the te-form + kanji
+auxiliary bigram is cheap to count.
 
 ## Priority 22: Inconsistent free-text `part_of_speech` display field
 
