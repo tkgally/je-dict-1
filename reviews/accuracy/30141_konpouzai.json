@@ -1,0 +1,24 @@
+{
+  "entry_id": "30141_konpouzai",
+  "headword": "{梱包材|こんぽうざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T12:27:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'business' is not appropriate for '梱包材' (packing material). While packing material is used in business, the word itself does not denote a business concept.",
+      "suggestion": "Remove 'business'."
+    }
+  ]
+}
