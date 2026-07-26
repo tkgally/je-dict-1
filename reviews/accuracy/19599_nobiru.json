@@ -1,0 +1,24 @@
+{
+  "entry_id": "19599_nobiru",
+  "headword": "{延|の}びる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:36:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time-general' is too narrow for the headword's meaning, which also encompasses spatial extension.",
+      "suggestion": "Add 'movement' or 'general' to better reflect the spatial extension aspect of the word."
+    }
+  ]
+}

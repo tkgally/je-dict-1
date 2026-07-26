@@ -1,0 +1,24 @@
+{
+  "entry_id": "19600_kinzuru",
+  "headword": "{禁|きん}ずる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:25:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'emotion' is not appropriate for the headword '禁ずる' itself. While the word can be used in contexts involving emotions (e.g., suppressing tears), the word itself does not denote an emotion.",
+      "suggestion": "Remove 'emotion' tag."
+    }
+  ]
+}

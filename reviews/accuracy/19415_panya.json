@@ -1,0 +1,24 @@
+{
+  "entry_id": "19415_panya",
+  "headword": "パン{屋|や}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:36:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword 'パン屋' can refer to a person (baker) as well as a place (bakery). The 'occupation' tag correctly covers the person aspect, but 'building' is too narrow for the place aspect, which is more generally a 'shop' or 'business'.",
+      "suggestion": "Replace 'building' with 'shopping'."
+    }
+  ]
+}

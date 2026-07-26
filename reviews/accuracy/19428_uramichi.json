@@ -1,0 +1,24 @@
+{
+  "entry_id": "19428_uramichi",
+  "headword": "{裏道|うらみち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:22:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword has two distinct meanings, one of which is not covered by the 'geography' tag.",
+      "suggestion": "Add 'action' or 'cognition' to cover the 'underhanded method' sense."
+    }
+  ]
+}

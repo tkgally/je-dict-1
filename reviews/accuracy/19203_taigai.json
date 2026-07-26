@@ -1,0 +1,24 @@
+{
+  "entry_id": "19203_taigai",
+  "headword": "{体外|たいがい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:34:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect. '体外' means 'outside the body' and refers to a location or state, not a body part itself.",
+      "suggestion": "Replace 'body-part' with 'general' or 'existence'."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entry_id": "19250",
+  "screened_at": "2026-07-26T21:25:17Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 踏 in pair 11 is ふ, but the following kanji 切 is read ぎ, suggesting a rendaku sound change. However, the reading for 踏ん切り is ふんぎり, where the ん is part of the reading for 踏. The current mapping {踏|ふ} implies 踏=ふ, which is incomplete for ふんぎり. It should likely be {踏|ふん} or {踏ん|ふん} to correctly represent the reading of the kanji portion.",
+    "The reading for 切 in pair 12 is ぎ. While this is a valid rendaku for きり, the preceding kanji 踏 is read ふ in pair 11. If the full phrase is 踏ん切り, then the reading for 踏 should include the 'n' sound, and 切 would be ぎり. The current split {踏|ふ}ん{切|ぎ}り is problematic because 踏 is not just ふ, and 切 is not just ぎ. The reading for 踏ん切り is ふんぎり. If 踏 is ふ, then the ん is missing. If 切 is ぎ, then り is missing. This suggests an incorrect segmentation or reading for the compound."
+  ],
+  "confidence": 0.9
+}

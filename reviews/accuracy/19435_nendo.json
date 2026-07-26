@@ -1,0 +1,24 @@
+{
+  "entry_id": "19435_nendo",
+  "headword": "{粘土|ねんど}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:22:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for '粘土' (clay).",
+      "suggestion": "The most appropriate tag would be 'material' or 'art' given its common uses."
+    }
+  ]
+}

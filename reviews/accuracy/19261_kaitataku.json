@@ -1,0 +1,24 @@
+{
+  "entry_id": "19261_kaitataku",
+  "headword": "{買|か}い{叩|たた}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:19:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation misrepresents the Japanese. The Japanese sentence implies the speaker's price was beaten down, not that the dealer beat down the speaker's price.",
+      "suggestion": "The dealer bought it from me at a low price. / The dealer beat me down on the price."
+    }
+  ]
+}
