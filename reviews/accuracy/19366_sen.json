@@ -1,0 +1,38 @@
+{
+  "entry_id": "19366_sen",
+  "headword": "{栓|せん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:35:52Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'tap' which is not a primary meaning of 栓 (sen) on its own. While 栓 can be part of compounds like 消火栓 (fire hydrant) or 活栓 (stopcock), 'tap' as a standalone meaning for 栓 is misleading.",
+      "suggestion": "Remove 'tap' from the main gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 1 includes 'tap', which is misleading for 栓 (sen) on its own. While it appears in compounds, 'tap' is not a direct meaning of the headword.",
+      "suggestion": "Remove 'tap' from the gloss for sense 1."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'close the bath plug' is unnatural. One 'puts in' or 'stops' a bath plug, or 'closes the drain' with a plug, but doesn't typically 'close the bath plug'.",
+      "suggestion": "Change 'close the bath plug' to 'put in the bath plug' or 'stop up the bath with the plug'."
+    }
+  ]
+}

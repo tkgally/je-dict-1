@@ -1,0 +1,31 @@
+{
+  "entry_id": "19515_goshuugibukuro",
+  "headword": "ご{祝儀袋|しゅうぎぶくろ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:23:38Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is not formal. It is an everyday item.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The headword is not polite. It is an everyday item.",
+      "suggestion": "plain"
+    }
+  ]
+}

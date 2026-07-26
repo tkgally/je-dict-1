@@ -1,0 +1,24 @@
+{
+  "entry_id": "19644_teishutsusuru",
+  "headword": "{提出|ていしゅつ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:25:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'business' is too narrow for '提出する'. While it can be used in business contexts, it is a general action verb for submitting things in various situations (school, government, etc.).",
+      "suggestion": "Replace 'business' with 'action'."
+    }
+  ]
+}

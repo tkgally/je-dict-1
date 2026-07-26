@@ -1,0 +1,24 @@
+{
+  "entry_id": "19365_aruji",
+  "headword": "{主|あるじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T21:21:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword 'あるじ' (aruji) is not 'formal' in modern Japanese; it's more literary or archaic, but not strictly formal in the sense of polite language. It's often used in historical or fictional contexts, or to refer to a traditional role. 'Neutral' would be more appropriate for its general usage, or perhaps 'literary' if that were an option.",
+      "suggestion": "neutral"
+    }
+  ]
+}

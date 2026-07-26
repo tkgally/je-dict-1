@@ -1,0 +1,10 @@
+{
+  "entry_id": "19429",
+  "screened_at": "2026-07-26T21:45:16Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {病歴|びょうれき} (びょうれき) is followed by a partial reading {病歴|びょ} in item 3. This is a partial reading of the kanji, not a partial reading of the word. The instruction states \"Do NOT flag partial readings as errors — they are correct by design.\" However, this seems to be a typo where the reading is cut off prematurely, rather than a deliberate partial reading for a specific grammatical context. If the intention was to show a partial reading of the word, it should be {病歴|びょう} or {病歴|びょうれ}. The current {病歴|びょ} is an incomplete reading of the kanji 病歴."
+  ],
+  "confidence": 0.8
+}
