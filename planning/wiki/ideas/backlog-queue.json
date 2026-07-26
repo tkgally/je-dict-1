@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-07-25",
+  "updated": "2026-07-26",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -295,6 +295,22 @@
       "scope_estimate": 39,
       "severity": "warn",
       "notes": "Inline-link syntax is ⟦surface→base：entry_id⟧ where the base slot must be the plain kanji dictionary form. 39 entries instead carry furigana braces in the base slot (⟦{来|き}て→{来|く}る：00254_kuru⟧), pushing wrapper markup into a field that is never rendered as ruby. Measured 2026-07-25 dictionary-wide. Mechanical-safe because the regex is anchored on BOTH sides (→ ... ：) so it cannot escape the base-form slot and cannot touch the surface slot, where braces are correct. Fix: strip { , |reading and } from the base segment only; validate.py; spot-check ~10. Afterwards confirm the resulting base forms resolve in build/word_id_lookup.json -- a braced base form may have been masking a lookup that never worked (see tooling item 11)."
+    },
+    {
+      "id": "inline-link-dead-target-id",
+      "title": "Inline links whose target entry ID does not exist (292 occurrences / 160 entries)",
+      "source": "ideas/cleanup-backlog.md#priority-27",
+      "detect": "python3 - <<'PY'\nimport json,re,pathlib\nfiles=sorted(pathlib.Path('entries').rglob('*.json'))\nids={f.stem for f in files}\nL=json.load(open('build/word_id_lookup.json',encoding='utf-8'))\nLINK=re.compile(r'⟦([^⟧]*?)→([^⟧：]*)：([^⟧]+)⟧')\nfor f in files:\n    for m in LINK.finditer(f.read_text(encoding='utf-8')):\n        base,tid=m.group(2).strip(),m.group(3).strip()\n        if tid=='noentry' or tid in ids: continue\n        cand=L['by_headword'].get(base) or L['by_reading'].get(base) or []\n        print(f.stem, base, tid, [c['id'] for c in cand])\nPY",
+      "filter": "Work only rows where the candidate list has exactly ONE id (217 of 292) — that is the unambiguous 1:1 repair. Defer rows with 2+ candidates (74: こと/いる/から/後/体 homographs) to per-entry judgment, and the single no-candidate row (逆転する) to candidate creation or a `noentry` conversion.",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 1,
+      "batch_ready": true,
+      "status": "blocked",
+      "blocked_on": "tooling-backlog.md#11 — ship the validate.py target-resolution gate first; the population is iatrogenic (created by inline-link polishing) and will refill if repaired before the gate exists",
+      "scope_estimate": 292,
+      "severity": "error",
+      "notes": "Dictionary-wide scan 2026-07-26: 292 dead links / 144 distinct bad IDs / 160 entries, out of 262,189 inline links (0.11%). Entirely confined to 00000-07999 (the inline-link-polished band), densest at 05000-05999 (112), 03000-03999 (64), 04000-04999 (49). Failure mode is number invention, not word confusion: the romaji in the dead ID is almost always correct and only the digits are wrong (00433_miru -> 00283_miru), which is why no semantic check sees it. Suggested batching: one 1000-ID band per systemic-fix run, worst first; re-run the detect snippet at the end of the run to confirm the band is clear."
     },
     {
       "id": "verb-class-fabricated-conjugation",

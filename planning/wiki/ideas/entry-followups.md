@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-07-03 (added **07105 遠視** — no inline links + weak sole `general` tag where siblings 近視/乱視 use `health`, needs a full frontier polish; **06372 引き伸ばす** — dubious 書き伸ばす/押し伸ばす in its RELATED ～伸ばす note, revise to standard compounds. Prior 2026-06-26: 29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
+**Last updated**: 2026-07-26 (added **18554 訓読** — conflates 訓読 くんどく [kanbun kundoku] with 訓読み くんよみ; furigana + gloss corrected in-run, but the split is a curator call. **00475 / 00765 / 02640 やさしい** — three entries across two words [易しい / 優しい], with 00765's examples 6–10 all 優しい under an 易しい headword; needs a target-shape decision before any per-entry fix. **04467_shichou** — bound morphemes and honorific prefixes [`⟦{視|し}→視：noentry⟧`, `⟦ご→ご：noentry⟧`] routed through `noentry`, where they are permanently unresolvable and will be re-checked forever by the stale-`noentry` scan; a convention gap for the `inline-word-links` skill, not an entry defect. Also **lint**: marked the duplicate 気持ち filing and recorded its third report — polishers are linking 気持ち to *both* IDs arbitrarily, so the eventual merge gets more expensive every run.) Prior 2026-07-03 (added **07105 遠視** — no inline links + weak sole `general` tag where siblings 近視/乱視 use `health`, needs a full frontier polish; **06372 引き伸ばす** — dubious 書き伸ばす/押し伸ばす in its RELATED ～伸ばす note, revise to standard compounds. Prior 2026-06-26: 29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -637,6 +637,16 @@ catch (a `clothing` tag on a body-part word).
 
 ## 01385_kimochi / 02485_kimochi (気持ち) — duplicate entries, merge candidate
 
+> **Filing note (2026-07-26)**: this duplicates the earlier section
+> [01385_kimochi & 02485_kimochi — Duplicate entries needing consolidation](#01385_kimochi--02485_kimochi-気持ち--duplicate-entries-needing-consolidation),
+> which is the **canonical** one (it also records the malformed `{気持ち|きもち}` headword on 01385).
+> Both are kept for now because each carries detail the other lacks; merge them the next time this
+> page is linted. A **third** report arrived from a 2026-07-26 polish run, adding one operational
+> datum: **every polisher that links 気持ち has to pick an ID arbitrarily** — that run linked to
+> 01385 (the older/basic one), earlier runs picked 02485 — so inbound inline links are accumulating
+> against *both* IDs while the pair stays unresolved. That raises the cost of the eventual merge on
+> every polish run, which is the argument for doing it sooner rather than at the frontier's pace.
+
 **Source**: 2026-07-25 routine polish run
 
 Two entries cover 気持ち, both glossed "feeling, mood": **01385_kimochi** and **02485_kimochi**.
@@ -664,6 +674,69 @@ that glosses a bare adverb or particle with a sense that feels compound-only (�
 たとえ/たとえば, など/などと), check that each example actually uses the form the headword names. Worth
 raising as a checklist line in `prompts/comprehensive_polish.md` (curator call — Routine `wiki` runs may
 not edit prompts) rather than a script, since the judgment is semantic.
+
+## 18554_kundoku (訓読) — conflates 訓読 (kanbun kundoku) with 訓読み
+
+**Source**: 2026-07-25 accuracy-review run
+
+18554 訓読 treats two distinct things as one word:
+
+- **訓読 (くんどく)** — reading classical Chinese (漢文) as Japanese, the 漢文訓読 tradition;
+- **訓読み (くんよみ)** — the native-Japanese reading of a kanji, as opposed to 音読み.
+
+They are related historically but are not the same lexeme, and a learner looking up either one gets
+a muddled answer. The run **corrected the furigana and extended the gloss** so the entry is no longer
+wrong, but the underlying conflation remains.
+
+**Recommended fix**: split. Keep 18554 for 訓読 (くんどく) with the 漢文 sense, and create a separate
+entry for 訓読み (くんよみ), cross-referenced to 音読み if that entry exists (and to each other via
+`contrast`). Check `build/word_id_lookup.json` for inbound links to 18554 that actually meant 訓読み
+before splitting. **Curator decision** — an entry split is out of scope for a polish pass.
+
+## 00475 / 00765 / 02640 (やさしい) — three entries across two words
+
+**Source**: 2026-07-26 routine polish run
+
+やさしい is spread across three entries covering two distinct words (易しい "easy" and 優しい "kind"),
+and the split does not follow the words:
+
+| Entry | Headword | Actual content |
+|---|---|---|
+| 00475 | combined 易しい／優しい | both meanings in one entry |
+| 00765 | 易しい | documents **both** meanings; examples 6–10 are all 優しい |
+| 02640 | 優しい | 優しい only |
+
+So 00765 carries 優しい examples under an 易しい headword, and 00475 duplicates both senses wholesale.
+Any polisher reaching one of these has to decide the structure before making any per-entry fix, which
+is why the sequential frontier keeps deferring it.
+
+**Recommended fix**: decide the target shape first — the natural one is **two entries, one per word**
+(易しい and 優しい), with a `homophone` or `contrast` cross-reference between them, retiring or
+redirecting the third. Then move the misfiled 優しい examples out of 00765. Follow `/resolve-duplicates`
+for the retirement, and check inbound `⟦…⟧` links to all three IDs first — やさしい is high-frequency.
+**Curator decision** (which ID survives is an external-URL question — see `CLAUDE.md`, "Never renumber
+existing entries").
+
+## 04467_shichou — bound morphemes and honorific prefixes routed through `noentry`
+
+**Source**: 2026-07-26 routine polish run
+
+04467's notes contain `⟦{視|し}→視：noentry⟧` and `⟦ご→ご：noentry⟧` — a bound morpheme and an
+honorific prefix marked as "no entry exists." The marker is technically true and permanently
+unresolvable: 視 as a bound morpheme and ご- as a prefix will never become headwords, so these links
+sit in the `noentry` pool forever, and the [stale-`noentry` re-resolution scan](tooling-backlog.md#19-stale-noentry-inline-link-detector)
+will re-check them on every pass with no possible outcome.
+
+This is a **convention gap, not an entry defect**: etymology lines that decompose a compound into its
+morphemes have nowhere to point. Three coherent options — (a) don't link bound morphemes at all
+(leave them as plain text with furigana); (b) link them to the kanji index rather than to an entry;
+(c) keep `noentry` but add a distinct sentinel (e.g. `nolink`) so the re-resolution scan can skip
+them permanently.
+
+**Recommended**: (a) or (c). The `inline-word-links` skill should state the rule explicitly — this is
+the second skill-level linking gap found in the same cycle (see
+[Tooling 37](tooling-backlog.md#37-detector-copula-て-form-で-inline-linked-to-the-particle-で) for the
+copula `で` case). **Curator action** — `wiki` runs may not edit skills.
 
 ## Related pages
 
