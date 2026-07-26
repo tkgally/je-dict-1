@@ -1,0 +1,24 @@
+{
+  "entry_id": "18739_fumeiyo",
+  "headword": "{不名誉|ふめいよ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:29:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '不名誉'. While disgrace can evoke emotions, '不名誉' itself describes a state or condition, not an emotion.",
+      "suggestion": "Replace 'emotion' with 'evaluation' or 'descriptive'."
+    }
+  ]
+}

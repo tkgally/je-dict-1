@@ -1,0 +1,24 @@
+{
+  "entry_id": "19093_wagami",
+  "headword": "{我|わ}が{身|み}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:35:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '我が身' is not formal. It is a somewhat literary or emphatic way to refer to oneself, but not formal in the sense of polite or official language. It's more akin to 'my own self' or 'my very being' in English, which isn't inherently formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

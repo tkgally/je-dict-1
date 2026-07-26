@@ -1,0 +1,24 @@
+{
+  "entry_id": "18951_suiri",
+  "headword": "{推理|すいり}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:32:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'thought' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

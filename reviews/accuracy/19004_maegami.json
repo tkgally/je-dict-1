@@ -1,0 +1,24 @@
+{
+  "entry_id": "19004_maegami",
+  "headword": "{前髪|まえがみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:33:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    }
+  ]
+}

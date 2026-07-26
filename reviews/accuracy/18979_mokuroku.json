@@ -1,0 +1,24 @@
+{
+  "entry_id": "18979_mokuroku",
+  "headword": "{目録|もくろく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:33:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too vague for a word with specific meanings like 'catalog' or 'gift certificate'.",
+      "suggestion": "Replace 'general' with 'cognition' or 'daily-life' or 'culture'."
+    }
+  ]
+}

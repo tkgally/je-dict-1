@@ -1,0 +1,24 @@
+{
+  "entry_id": "18926_roujou",
+  "headword": "{籠城|ろうじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:32:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '籠城' primarily refers to a military strategy or a defensive action, not just a general 'action'.",
+      "suggestion": "Add 'military' to the semantic tags."
+    }
+  ]
+}

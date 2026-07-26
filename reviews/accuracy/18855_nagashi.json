@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T01:35:41Z",
+  "reviewed_at": "2026-07-26T09:31:21Z",
   "summary": {
     "flagged": 1
   },
@@ -15,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The semantic tag 'furniture' only applies to sense 1. Sense 2 ('cruising (for customers)') is not furniture.",
-      "suggestion": "Remove 'furniture' from the top-level semantic tags. Semantic tags should apply to all senses or be moved to individual senses if they only apply to one."
+      "concern": "The headword '流し' has two distinct meanings, but only one semantic tag ('furniture') is provided, which only covers the first meaning (kitchen sink). The second meaning ('cruising (for customers)') is not covered by any tag.",
+      "suggestion": "Add a semantic tag that covers the second meaning, such as 'occupation' or 'daily-life'."
     }
   ]
 }

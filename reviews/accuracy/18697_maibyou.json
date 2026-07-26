@@ -1,0 +1,24 @@
+{
+  "entry_id": "18697_maibyou",
+  "headword": "{毎秒|まいびょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:28:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'science' is inappropriate for the headword '毎秒'. While 'per second' is often used in scientific contexts, the word itself is a general temporal adverb, not a scientific term.",
+      "suggestion": "Remove 'science'."
+    }
+  ]
+}
