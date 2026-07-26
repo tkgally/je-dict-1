@@ -1,0 +1,24 @@
+{
+  "entry_id": "19195_gyousho",
+  "headword": "{行書|ぎょうしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:36:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'education' is incorrect for '行書' (semi-cursive script). While calligraphy can be taught, '行書' itself is a style of writing, not a concept related to education.",
+      "suggestion": "Replace 'education' with 'art' or 'language'."
+    }
+  ]
+}

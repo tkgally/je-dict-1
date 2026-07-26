@@ -1,0 +1,24 @@
+{
+  "entry_id": "19010_maniukeru",
+  "headword": "{真|ま}に{受|う}ける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:33:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'thought'",
+      "suggestion": "cognition"
+    }
+  ]
+}

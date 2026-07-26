@@ -1,0 +1,24 @@
+{
+  "entry_id": "18713_marukoge",
+  "headword": "{丸焦|まるこ}げ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:28:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'state' is not in the valid tag list.",
+      "suggestion": "general"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18758_kenkoutai",
+  "headword": "{健康体|けんこうたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:29:46Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is incorrect. While '健康体' refers to a body, it emphasizes the *state* of health rather than a physical part of the body.",
+      "suggestion": "Replace 'body-part' with 'health' or 'existence'."
+    }
+  ]
+}

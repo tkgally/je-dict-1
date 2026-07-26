@@ -1,0 +1,24 @@
+{
+  "entry_id": "19194_kyuukou",
+  "headword": "{休耕|きゅうこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:36:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad and inaccurate for '休耕'.",
+      "suggestion": "Replace 'general' with 'agriculture'."
+    }
+  ]
+}

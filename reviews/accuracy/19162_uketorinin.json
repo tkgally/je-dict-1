@@ -1,0 +1,24 @@
+{
+  "entry_id": "19162_uketorinin",
+  "headword": "{受取人|うけとりにん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:36:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word 受取人 (uketorinin) is not inherently formal. It is a neutral term used in various contexts, including everyday situations (e.g., receiving a package) as well as more formal ones (e.g., legal documents). Labeling it as 'formal' would mislead learners into thinking it's inappropriate for common use.",
+      "suggestion": "neutral"
+    }
+  ]
+}

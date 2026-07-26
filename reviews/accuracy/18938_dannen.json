@@ -1,0 +1,24 @@
+{
+  "entry_id": "18938_dannen",
+  "headword": "{断念|だんねん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:32:41Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'decision' is too narrow and doesn't fully capture the meaning of 'giving up' or 'abandoning'.",
+      "suggestion": "action"
+    }
+  ]
+}

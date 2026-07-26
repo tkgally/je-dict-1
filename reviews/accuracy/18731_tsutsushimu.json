@@ -1,0 +1,24 @@
+{
+  "entry_id": "18731_tsutsushimu",
+  "headword": "{謹|つつし}む",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:29:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'humble' is incorrect for this verb. While the verb expresses humility, 'humble' as a politeness tag is reserved for in-group reference forms (like kinship terms) or specific humble forms of verbs (e.g., いただく, 申す). This verb itself is not a humble form in the grammatical sense.",
+      "suggestion": "Change 'humble' to 'neutral' or remove it if 'neutral' is the default."
+    }
+  ]
+}

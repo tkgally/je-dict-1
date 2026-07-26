@@ -1,0 +1,24 @@
+{
+  "entry_id": "18738_harai",
+  "headword": "{払|はら}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:29:27Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a word with specific meanings related to payment, sweeping, and purification. More specific tags would better guide learners.",
+      "suggestion": "Replace 'general' with 'finance' and 'religion' to cover the payment and purification aspects, respectively. 'action' could also be added for the 'sweeping' sense."
+    }
+  ]
+}

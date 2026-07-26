@@ -1,0 +1,24 @@
+{
+  "entry_id": "18701_yarisugosu",
+  "headword": "やり{過|す}ごす",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:28:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to overdo' is misleading as a primary gloss for the headword, as it represents a secondary, less common meaning. The primary meaning is 'to let pass' or 'to wait out'.",
+      "suggestion": "Reorder the glosses to prioritize the more common meaning: 'to let pass; to wait out; to overdo'."
+    }
+  ]
+}

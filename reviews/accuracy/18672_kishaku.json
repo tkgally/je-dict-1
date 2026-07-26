@@ -1,0 +1,24 @@
+{
+  "entry_id": "18672_kishaku",
+  "headword": "{希釈|きしゃく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:28:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a specific concept like 'dilution'.",
+      "suggestion": "change to 'science' or 'chemistry' (if available), or 'action' as it's a suru-verb"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18873_chikyuuondanka",
+  "headword": "{地球|ちきゅう}{温暖|おんだん}{化|か}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:31:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'weather' is incorrect for '地球温暖化'.",
+      "suggestion": "Replace 'weather' with 'science' or 'environment' (if 'environment' were a valid tag, but it's not, so 'science' is the best fit from the list)."
+    }
+  ]
+}

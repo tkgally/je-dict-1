@@ -1,0 +1,24 @@
+{
+  "entry_id": "18709_kinshou",
+  "headword": "{僅少|きんしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:28:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'degree' is not in the valid tag list.",
+      "suggestion": "quantity"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "18918_yamitorihiki",
+  "headword": "{闇取引|やみとりひき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T09:32:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a term with a specific negative connotation.",
+      "suggestion": "Replace 'general' with 'economics' or 'law' or 'society'."
+    }
+  ]
+}
