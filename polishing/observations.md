@@ -504,3 +504,28 @@ All 15 observations cleared.)_
 - [pattern] Screening false-positive rate on 18653–19178 was 100% (49 flags, all rejected), consistent with the 0–5% precision measured 2026-06-10/11. Every flag was either the **truncated-token** family (the model claims 魅力→みりょ, 正体→し, 強制執行→き while the entry carries the full reading) or the **documented-variant** family (18990 物悲しい, where the flagged ものがな appears only in the notes line that explicitly labels it a variant reading). Both families are mechanically detectable before a flag is emitted.
 
 - [pattern] The always-on §3 capture loop now closes within a day: 5 of the 10 "seen in entry" candidates created this run (商工会, 公邸, 学習漢字, 生体認証, 市松模様) were logged by the 2026-07-25 new-entries run from its own new entries (30108/30109/30113/30118/30122), and this run's SIMILAR WORDS lists generated 9 more captures in turn. New-entries runs are therefore partly self-feeding, which is healthy, but it also means the seen-in queue refills at roughly half the rate it is drained (10 in, ~9 out per run) — it will not on its own outpace the polluted corpus pool, and curator restock of *good* standalone candidates is still the binding constraint on entry quality.
+
+## 2026-07-26 routine polish (priority lines 67–78 + frontier 06645–06649)
+
+- [tooling] The notes-quality scorer still awards 0/5 for "furigana" to every entry that
+  carries inline links in its notes: `⟦{漢字|かんじ}→漢字：01234_x⟧` leaves the bare base form
+  `漢字` after `FURIGANA_PATTERN` strips the wrapper, so `has_bare_kanji()` fires. All five
+  entries in this run's priority lane scored exactly 50 before polishing, and the missing
+  5 points were this bug in every case. Fix: strip the `→base：id⟧` tail before the bare-kanji
+  test in `build/score_note_quality.py`. (Reinforces the standing scorer-bug observation.)
+- [pattern] Priority-lane hit rate was 5/5 this run — the lane found real work (missing
+  USAGE/COMMON PATTERNS sections, `noentry` markers that now resolve, empty `cross_references`
+  on entries whose notes already listed the neighbors). The lane is productive again now that
+  it has moved past the closed-tier basics at the head of the list.
+- [pattern] Cleanup P21 (zero-inline-link creation band) is unbroken through 06645–06649:
+  all five frontier entries had zero `⟦...⟧` links in examples AND notes at birth, and all
+  five used `・` bullets rather than the house `- ` bullets. The band now runs ~06150→06649.
+- [pattern] Cleanup P17 (template-default register tags) recurs in the same band: 06646
+  せっかち carried `style: ["literary"]` and 06647 そそっかしい carried `formality: "formal"`,
+  both plainly wrong for casual personality adjectives. Both corrected in-run.
+- [entry] やさしい is spread over three entries — 00475 (combined 易しい／優しい), 00765
+  (易しい, but its examples 6–10 are all 優しい) and 02640 (優しい). 00765 documents both
+  meanings under an 易しい headword. Needs a consolidation decision, not a polish pass.
+- [tooling] `validate.py` still accepts inline links whose `target_id` does not exist
+  (two wrong IDs written this run — `01188_nokosu` for 残す and `00939_made` for まで —
+  passed validation and were caught only by a hand-rolled filesystem check).

@@ -8,9 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-16T06:32:26Z",
+  "reviewed_at": "2026-07-26T15:28:41Z",
   "summary": {
-    "flagged": 0
+    "flagged": 2
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[10]",
+      "severity": "error",
+      "concern": "The English translation is too literal and unnatural.",
+      "suggestion": "When the presentation ended, the audience gave a loud round of applause."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[15]",
+      "severity": "error",
+      "concern": "The English translation is unnatural and slightly misleading. 'Half-asleep' implies the subject is still in bed, but 'I'm blinking my eyes' suggests they are awake and doing something else.",
+      "suggestion": "I'm blinking my eyes, still half-asleep."
+    }
+  ]
 }
