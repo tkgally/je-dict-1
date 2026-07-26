@@ -1,0 +1,10 @@
+{
+  "entry_id": "21254",
+  "screened_at": "2026-07-26T03:21:14Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 化粧水 is given as けしょう, but the full reading should be けしょうすい. The provided reading is a partial reading, but the instructions state 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, the example given for partial readings is '先行→さきゆ followed by き (先行き=さきゆき)', where the okurigana is outside the markup. In this case, the 'すい' part of 'けしょうすい' is part of the kanji portion, not okurigana. Therefore, 'けしょう' is an incomplete reading for the kanji 化粧水."
+  ],
+  "confidence": 0.9
+}
