@@ -72,7 +72,7 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{前|まえ} (before) + {触|ふ}れ (touching, announcing) → advance announcement/sign\n\nCOMMON EXPRESSIONS:\n・{前触|まえぶ}れなく / {前触|まえぶ}れもなく (without warning, suddenly)\n・Xの{前触|まえぶ}れ (a harbinger/sign of X)\n・{前触|まえぶ}れがある (there are signs/warnings)\n\nSIMILAR WORDS:\n・{兆|きざ}し (sign, indication) - more subtle, natural signs\n・{前兆|ぜんちょう} (omen, premonition) - often for significant events\n・{前触|まえぶ}れ - can be natural signs or deliberate notification\n・{予告|よこく} (advance notice) - formal, intentional announcement",
+  "notes": "{前触|まえぶ}れ combines {前|まえ} (before) and {触|ふ}れ (announcing): something that goes ahead of an event, either as a natural sign of it or as a deliberate announcement of it.\n\nCOMMON EXPRESSIONS:\n- {前触|まえぶ}れ⟦なく→ない：01118_nai⟧ / {前触|まえぶ}れ⟦も→も：00484_mo⟧⟦なく→ない：01118_nai⟧ (without warning, suddenly)\n- X⟦の→の：09472_no⟧{前触|まえぶ}れ (a harbinger of X)\n- {前触|まえぶ}れ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (there are signs, there is prior notice)\n\nSIMILAR WORDS:\n- ⟦{兆|きざ}し→兆し：06633_kizashi⟧: subtler, natural early signs\n- ⟦{前兆|ぜんちょう}→前兆：09118_zenchou⟧: omen, usually of something significant\n- ⟦{予告|よこく}→予告：08379_yokoku⟧: advance notice, always deliberate\n- {前触|まえぶ}れ spans both: it can be a natural sign or an intentional heads-up\n\nThe negative {前触|まえぶ}れ⟦なく→ない：01118_nai⟧ is by far the most common use of the word.",
   "cross_references": [
     {
       "type": "related",
@@ -80,18 +80,32 @@
       "headword": "{兆|きざ}し",
       "label": "sign",
       "target_id": "06633_kizashi"
+    },
+    {
+      "type": "synonym",
+      "target_id": "09118_zenchou",
+      "reading": "ぜんちょう",
+      "headword": "{前兆|ぜんちょう}",
+      "label": "omen, premonition"
+    },
+    {
+      "type": "related",
+      "target_id": "08379_yokoku",
+      "reading": "よこく",
+      "headword": "{予告|よこく}",
+      "label": "advance notice (deliberate)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-26T00:31:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "communication"

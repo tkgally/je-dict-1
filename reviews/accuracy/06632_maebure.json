@@ -8,24 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:05:17Z",
+  "reviewed_at": "2026-07-26T00:30:22Z",
   "summary": {
     "flagged": 2
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
+      "location": "tags.formality",
       "severity": "error",
-      "concern": "The tag 'transportation' is clearly wrong for the headword '前触れ' (omen; harbinger; advance notice; forewarning). There is no connection to transportation.",
-      "suggestion": "Remove 'transportation'."
+      "concern": "The formality tag 'formal' is incorrect for '前触れ'. It is a neutral word.",
+      "suggestion": "neutral"
     },
     {
       "dimension": "tags",
-      "location": "tags.formality",
+      "location": "tags.semantic",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. '前触れ' is a neutral word, not specifically formal.",
-      "suggestion": "Change 'formal' to 'neutral'."
+      "concern": "The semantic tag 'communication' is too narrow and misleading for '前触れ', which primarily refers to signs or indications.",
+      "suggestion": "general"
     }
   ]
 }
