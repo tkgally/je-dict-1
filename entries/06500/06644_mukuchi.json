@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06644_mukuchi_ex1",
-      "japanese": "{彼|かれ}は{無口|むくち}な{人|ひと}で、{会議|かいぎ}でもほとんど{話|はな}さない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{無口|むくち}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧⟦で→だ：09496_da⟧、⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦ほとんど→ほとんど：00847_hotondo⟧⟦{話|はな}さない→話す：00467_hanasu⟧。",
       "english": "He's a quiet person and hardly speaks even in meetings.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06644_mukuchi_ex2",
-      "japanese": "{無口|むくち}だけど、{仕事|しごと}はきちんとやる{人|ひと}だ。",
+      "japanese": "{無口|むくち}⟦だけど→だけど：00033_dakedo⟧、⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦は→は：00079_ha⟧⟦きちんと→きちんと：00222_kichinto⟧⟦やる→やる：02980_yaru⟧⟦{人|ひと}→人：00476_hito⟧⟦だ→だ：09496_da⟧。",
       "english": "He's taciturn, but he does his work properly.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06644_mukuchi_ex3",
-      "japanese": "{父|ちち}は{無口|むくち}で、{家|いえ}でもあまり{話|はなし}をしなかった。",
+      "japanese": "⟦{父|ちち}→父：00566_chichi⟧⟦は→は：00079_ha⟧{無口|むくち}⟦で→だ：09496_da⟧、⟦{家|いえ}→家：00612_ie⟧⟦で→で：00502_de⟧⟦も→も：00484_mo⟧⟦あまり→あまり：00604_amari⟧⟦{話|はなし}→話：01496_hanashi⟧⟦を→を：00422_wo⟧⟦しなかった→する：00392_suru⟧。",
       "english": "My father was a man of few words and didn't talk much even at home.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,26 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes a personality trait rather than temporary silence.\n・{無口|むくち}な{人|ひと}/{性格|せいかく} (a quiet person/personality)\n・{無口|むくち}になる (to become quiet - e.g., after something happens)\n\nNUANCE:\nGenerally neutral to slightly negative. Unlike \"quiet\" in English, {無口|むくち} specifically refers to not speaking much, not to being calm or peaceful.\n\nCONTRAST:\n・{無口|むくち} ↔ おしゃべり (taciturn ↔ talkative)\n・{無口|むくち} ↔ {饒舌|じょうぜつ} (taciturn ↔ loquacious - more formal)\n\nKANJI BREAKDOWN:\n・{無|む} (without) + {口|くち} (mouth) = without [use of] mouth → not talkative",
+  "notes": "USAGE:\nDescribes a personality trait rather than temporary silence.\n・{無口|むくち}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧/⟦{性格|せいかく}→性格：03371_seikaku⟧ (a quiet person/personality)\n・{無口|むくち}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become quiet - e.g., after something happens)\n\nNUANCE:\nGenerally neutral to slightly negative. Unlike \"quiet\" in English, {無口|むくち} specifically refers to not speaking much, not to being calm or peaceful.\n\nCONTRAST:\n・{無口|むくち} ↔ ⟦おしゃべり→お喋り：01911_oshaberi⟧ (taciturn ↔ talkative)\n・{無口|むくち} ↔ ⟦{饒舌|じょうぜつ}→饒舌：08651_jouzetsu⟧ (taciturn ↔ loquacious - more formal)\n\nKANJI BREAKDOWN:\n・{無|む} (without) + ⟦{口|くち}→口：00560_kuchi⟧ (mouth) = without [use of] mouth → not talkative",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "おしゃべり",
-      "headword": "おしゃべり",
+      "headword": "お{喋|しゃべ}り",
       "label": "talkative",
       "target_id": "01911_oshaberi"
+    },
+    {
+      "type": "antonym",
+      "reading": "じょうぜつ",
+      "headword": "{饒舌|じょうぜつ}",
+      "label": "loquacious (formal)",
+      "target_id": "08651_jouzetsu"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:52:51Z",
-    "modified": "2026-01-19T12:17:44.583360Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -63,10 +70,10 @@
         "adjective-na",
         "noun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "personality"
       ]
     }
   }

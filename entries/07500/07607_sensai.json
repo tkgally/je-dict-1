@@ -22,7 +22,9 @@
       "japanese": "{繊細|せんさい}な{模様|もよう}だ。",
       "english": "It's a delicate pattern.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -30,7 +32,9 @@
       "japanese": "この{絵|え}は{繊細|せんさい}なタッチで{描|えが}かれている。",
       "english": "This painting is rendered with delicate brushwork.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -38,7 +42,9 @@
       "japanese": "{繊細|せんさい}な{味|あじ}わいのある{料理|りょうり}だ。",
       "english": "It's a dish with subtle, delicate flavors.",
       "has_audio": false,
-      "sense_numbers": [1],
+      "sense_numbers": [
+        1
+      ],
       "notes": null
     },
     {
@@ -46,7 +52,9 @@
       "japanese": "{繊細|せんさい}な{心|こころ}の{持|も}ち{主|ぬし}だ。",
       "english": "They have a sensitive heart.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -54,7 +62,9 @@
       "japanese": "{彼女|かのじょ}は{繊細|せんさい}な{性格|せいかく}で、{人|ひと}の{気持|きも}ちに{敏感|びんかん}だ。",
       "english": "She has a sensitive personality and is attuned to others' feelings.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     },
     {
@@ -62,7 +72,9 @@
       "japanese": "{繊細|せんさい}な{感性|かんせい}を{持|も}つ{彼|かれ}は、{自然|しぜん}の{小|ちい}さな{変化|へんか}にもすぐ{気|き}づく。",
       "english": "With his delicate sensibility, he immediately notices even small changes in nature.",
       "has_audio": false,
-      "sense_numbers": [2],
+      "sense_numbers": [
+        2
+      ],
       "notes": null
     }
   ],
@@ -74,11 +86,25 @@
       "headword": "{神経質|しんけいしつ}",
       "label": "nervous",
       "target_id": "07606_shinkeishitsu"
+    },
+    {
+      "type": "contrast",
+      "reading": "どんかん",
+      "headword": "{鈍感|どんかん}",
+      "label": "insensitive, thick-skinned",
+      "target_id": "06640_donkan"
+    },
+    {
+      "type": "related",
+      "reading": "びんかん",
+      "headword": "{敏感|びんかん}",
+      "label": "sensitive, responsive",
+      "target_id": "06641_binkan"
     }
   ],
   "metadata": {
     "created": "2026-01-20T12:57:12Z",
-    "modified": "2026-03-17T05:32:15Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -88,7 +114,7 @@
       ],
       "formality": "neutral",
       "semantic": [
-        "quality",
+        "descriptive",
         "personality"
       ],
       "domain": []

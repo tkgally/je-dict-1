@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06641_binkan_ex1",
-      "japanese": "{私|わたし}は{寒|さむ}さに{敏感|びんかん}だ。",
+      "japanese": "⟦{私|わたし}→私：02988_watashi⟧⟦は→は：00079_ha⟧⟦{寒|さむ}さ→寒さ：12336_samusa⟧⟦に→に：00314_ni⟧{敏感|びんかん}⟦だ→だ：09496_da⟧。",
       "english": "I'm sensitive to cold.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06641_binkan_ex2",
-      "japanese": "{彼女|かのじょ}は{人|ひと}の{感情|かんじょう}にとても{敏感|びんかん}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{人|ひと}→人：00476_hito⟧⟦の→の：09472_no⟧⟦{感情|かんじょう}→感情：00171_kanjou⟧⟦に→に：00314_ni⟧⟦とても→とても：00593_totemo⟧{敏感|びんかん}⟦だ→だ：09496_da⟧。",
       "english": "She's very sensitive to other people's feelings.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06641_binkan_ex3",
-      "japanese": "{敏感|びんかん}{肌|はだ}なので、この{化粧品|けしょうひん}は{使|つか}えない。",
+      "japanese": "{敏感|びんかん}⟦{肌|はだ}→肌：02243_hada⟧⟦なので→なので：29354_nanode⟧、⟦この→この：00962_kono⟧⟦{化粧品|けしょうひん}→化粧品：05119_keshouhin⟧⟦は→は：00079_ha⟧⟦{使|つか}えない→使う：00473_tsukau⟧。",
       "english": "I have sensitive skin, so I can't use this cosmetic.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes heightened responsiveness to stimuli, whether physical or emotional.\n・{敏感|びんかん}な{人|ひと} (a sensitive person)\n・{敏感|びんかん}に{反応|はんのう}する (to react sensitively)\n\nCOMMON COLLOCATIONS:\n・{敏感|びんかん}{肌|はだ} (sensitive skin - very common in cosmetic advertising)\n・{敏感|びんかん}に{察知|さっち}する (to sense keenly)\n・{価格|かかく}に{敏感|びんかん} (price-sensitive)\n・{流行|りゅうこう}に{敏感|びんかん} (trend-conscious)\n\nCONTRAST:\n・{敏感|びんかん} ↔ {鈍感|どんかん} (sensitive ↔ insensitive)\n\nNOTE:\nUnlike the often negative connotation of \"sensitive\" in English (oversensitive, touchy), {敏感|びんかん} is neutral to positive, implying awareness and responsiveness.",
+  "notes": "USAGE:\nDescribes heightened responsiveness to stimuli, whether physical or emotional.\n・{敏感|びんかん}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (a sensitive person)\n・{敏感|びんかん}⟦に→に：00314_ni⟧⟦{反応|はんのう}→反応：04812_hannou⟧⟦する→する：00392_suru⟧ (to react sensitively)\n\nCOMMON COLLOCATIONS:\n・{敏感|びんかん}⟦{肌|はだ}→肌：02243_hada⟧ (sensitive skin - very common in cosmetic advertising)\n・{敏感|びんかん}⟦に→に：00314_ni⟧⟦{察知|さっち}→察知：21208_sacchi⟧⟦する→する：00392_suru⟧ (to sense keenly)\n・⟦{価格|かかく}→価格：00147_kakaku⟧⟦に→に：00314_ni⟧{敏感|びんかん} (price-sensitive)\n・⟦{流行|りゅうこう}→流行：03678_ryuukou⟧⟦に→に：00314_ni⟧{敏感|びんかん} (trend-conscious)\n\nCONTRAST:\n・{敏感|びんかん} ↔ ⟦{鈍感|どんかん}→鈍感：06640_donkan⟧ (sensitive ↔ insensitive)\n\nNOTE:\nUnlike the often negative connotation of \"sensitive\" in English (oversensitive, touchy), {敏感|びんかん} is neutral to positive, implying awareness and responsiveness.",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "headword": "{鈍感|どんかん}",
       "label": "insensitive",
       "target_id": "06640_donkan"
+    },
+    {
+      "type": "contrast",
+      "reading": "せんさい",
+      "headword": "{繊細|せんさい}",
+      "label": "delicate, finely sensitive",
+      "target_id": "07607_sensai"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:51:33Z",
-    "modified": "2026-01-19T12:17:44.580992Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
