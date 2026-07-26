@@ -144,7 +144,7 @@
     },
     {
       "id": "05933_inekari_ex5",
-      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧うちに{稲刈|いねか}り⟦を→を：00422_wo⟧⟦{終|お}わらせなければならない→終わる：00567_owaru⟧。",
+      "japanese": "⟦{天気|てんき}→天気：00582_tenki⟧⟦が→が：00051_ga⟧⟦{良|よ}い→良い：02350_yoi⟧⟦うちに→うちに：28396_uchini⟧{稲刈|いねか}り⟦を→を：00422_wo⟧⟦{終|お}わらせ→終わる：00567_owaru⟧⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "We have to finish the rice harvesting while the weather is good.",
       "notes": null,
       "has_audio": false,
@@ -153,11 +153,33 @@
       ]
     }
   ],
-  "notes": "{稲刈|いねか}り combines ⟦{稲|いね}→稲：01820_ine⟧ (rice plant) and ⟦{刈|か}る→刈る：02043_karu⟧ (cutting).\n\nSEASON:\nTypically takes place in September-October in most of Japan.\n\nRELATED VOCABULARY:\n- ⟦{田植|たう}え→田植え：22734_taue⟧: rice planting (spring)\n- ⟦{稲穂|いなほ}→稲穂：10175_inaho⟧: ear of rice\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧: harvest\n- ⟦{豊作|ほうさく}→豊作：14227_housaku⟧: good harvest\n- ⟦{凶作|きょうさく}→凶作：16485_kyousaku⟧: poor harvest\n\nCULTURAL NOTE:\nMany schools include rice cultivation and harvesting as educational experiences.",
-  "cross_references": [],
+  "notes": "{稲刈|いねか}り combines ⟦{稲|いね}→稲：01820_ine⟧ (rice plant) and ⟦{刈|か}る→刈る：02043_karu⟧ (cutting).\n\nCOMMON PATTERNS:\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧: to harvest rice (the する verb is far less common than the noun)\n- {稲刈|いねか}り⟦の→の：09472_no⟧⟦{時期|じき}→時期：03269_jiki⟧ / {稲刈|いねか}り⟦の→の：09472_no⟧⟦{季節|きせつ}→季節：01304_kisetsu⟧: harvest time / harvest season\n- {稲刈|いねか}り⟦を→を：00422_wo⟧⟦{手伝|てつだ}う→手伝う：00898_tetsudau⟧: to help with the rice harvest\n\nSEASON:\nTypically takes place in September-October in most of Japan.\n\nRELATED VOCABULARY:\n- ⟦{田植|たう}え→田植え：22734_taue⟧: rice planting (spring)\n- ⟦{稲穂|いなほ}→稲穂：10175_inaho⟧: ear of rice\n- ⟦{収穫|しゅうかく}→収穫：03207_shuukaku⟧: harvest\n- ⟦{豊作|ほうさく}→豊作：14227_housaku⟧: good harvest\n- ⟦{凶作|きょうさく}→凶作：16485_kyousaku⟧: poor harvest\n\nCULTURAL NOTE:\nMany schools include rice cultivation and harvesting as educational experiences.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "たうえ",
+      "headword": "{田植|たう}え",
+      "label": "rice planting (spring)",
+      "target_id": "22734_taue"
+    },
+    {
+      "type": "related",
+      "reading": "しゅうかく",
+      "headword": "{収穫|しゅうかく}",
+      "label": "harvest (general)",
+      "target_id": "03207_shuukaku"
+    },
+    {
+      "type": "related",
+      "reading": "いね",
+      "headword": "{稲|いね}",
+      "label": "rice plant",
+      "target_id": "01820_ine"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T21:08:00Z",
+    "modified": "2026-07-26T15:19:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

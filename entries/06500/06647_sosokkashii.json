@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06647_sosokkashii_ex1",
-      "japanese": "そそっかしいので、よく{忘|わす}れ{物|もの}をする。",
+      "japanese": "そそっかしい⟦ので→ので：09501_node⟧、⟦よく→よく：00601_yoku⟧⟦{忘|わす}れ{物|もの}→忘れ物：01758_wasuremono⟧⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧。",
       "english": "I'm careless, so I often forget things.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06647_sosokkashii_ex2",
-      "japanese": "そそっかしい{人|ひと}だから、{確認|かくにん}を{二度|にど}するようにしている。",
+      "japanese": "そそっかしい⟦{人|ひと}→人：00476_hito⟧⟦だ→だ：09496_da⟧⟦から→から：00504_kara⟧、⟦{確認|かくにん}→確認：00158_kakunin⟧⟦を→を：00422_wo⟧⟦{二度|にど}→二度：09503_nido⟧⟦する→する：00392_suru⟧⟦ように→ように：10081_youni⟧⟦している→する：00392_suru⟧。",
       "english": "Since I'm scatterbrained, I make sure to check things twice.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06647_sosokkashii_ex3",
-      "japanese": "そそっかしく{飛|と}び{出|だ}して、{鍵|かぎ}を{閉|し}め{忘|わす}れた。",
+      "japanese": "そそっかしく⟦{飛|と}び{出|だ}して→飛び出す：02374_tobidasu⟧、⟦{鍵|かぎ}→鍵：02189_kagi⟧⟦を→を：00422_wo⟧⟦{閉|し}め→閉める：00485_shimeru⟧⟦{忘|わす}れた→忘れる：00474_wasureru⟧。",
       "english": "I rushed out carelessly and forgot to lock the door.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,40 @@
       ]
     }
   ],
-  "notes": "・そそっかしい → そそっかしくない (negative)\n・そそっかしい → そそっかしく (adverbial form)\n・そそっかしい → そそっかしかった (past)\n\nNUANCE:\nSuggests making mistakes due to rushing or not paying attention, not due to ignorance. Often used self-deprecatingly.\n\nCOMMON PATTERNS:\n・そそっかしい{人|ひと}/{性格|せいかく} (a careless person/personality)\n・そそっかしくて... (being careless, [I]...)\n\nCONTRAST:\n・そそっかしい ↔ {慎重|しんちょう} (careless ↔ careful/cautious)\n・そそっかしい ↔ {落|お}ち{着|つ}いている (hasty ↔ calm/composed)\n\nRELATED WORDS:\n・うっかり (carelessly, inadvertently - adverb)\n・{軽率|けいそつ} (rash, thoughtless - more formal)",
-  "cross_references": [],
+  "notes": "FORMS (i-adjective):\n- Negative: そそっかしくない\n- Adverbial: そそっかしく\n- Past: そそっかしかった\n\nUSAGE:\nDescribes a standing personality trait, not a single lapse. The mistakes come from rushing and not looking properly, never from ignorance.\n- そそっかしい⟦{人|ひと}→人：00476_hito⟧ / そそっかしい⟦{性格|せいかく}→性格：03371_seikaku⟧ (a careless person / personality)\n- そそっかしくて... (being careless, I...)\n\nNUANCE:\nMost often said of oneself, self-deprecatingly. Said of someone else it is a mild criticism, so it is used about family or close friends rather than about a superior.\n\nCONTRAST:\n- そそっかしい ↔ ⟦{慎重|しんちょう}→慎重：03264_shinchou⟧ (careless ↔ careful, cautious)\n- そそっかしい ↔ ⟦{落|お}ち{着|つ}いている→落ち着く：04670_ochitsuku⟧ (hasty ↔ calm, composed)\n\nRELATED WORDS:\n- ⟦うっかり→うっかり：01863_ukkari⟧ (carelessly, inadvertently): an adverb for a single slip\n- ⟦{軽率|けいそつ}→軽率：06866_keisotsu⟧ (rash, thoughtless): more formal, and about poor judgment rather than haste\n- ⟦せっかち→せっかち：06646_sekkachi⟧ (impatient): rushing itself, without the resulting mistakes",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "しんちょう",
+      "headword": "{慎重|しんちょう}",
+      "label": "careful, cautious",
+      "target_id": "03264_shinchou"
+    },
+    {
+      "type": "related",
+      "reading": "けいそつ",
+      "headword": "{軽率|けいそつ}",
+      "label": "rash (more formal)",
+      "target_id": "06866_keisotsu"
+    },
+    {
+      "type": "related",
+      "reading": "せっかち",
+      "headword": "せっかち",
+      "label": "impatient",
+      "target_id": "06646_sekkachi"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T03:54:03Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-26T15:19:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-i"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "personality"

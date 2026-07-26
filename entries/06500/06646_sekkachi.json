@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06646_sekkachi_ex1",
-      "japanese": "{彼|かれ}はせっかちで、エレベーターを{待|ま}てずに{階段|かいだん}を{使|つか}う。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧せっかち⟦で→だ：09496_da⟧、⟦エレベーター→エレベーター：01340_erebeetaa⟧⟦を→を：00422_wo⟧⟦{待|ま}てず→待つ：00469_matsu⟧⟦に→に：00314_ni⟧⟦{階段|かいだん}→階段：00782_kaidan⟧⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧。",
       "english": "He's impatient and takes the stairs because he can't wait for the elevator.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06646_sekkachi_ex2",
-      "japanese": "せっかちな{性格|せいかく}を{直|なお}したい。",
+      "japanese": "せっかち⟦な→な：09497_na⟧⟦{性格|せいかく}→性格：03371_seikaku⟧⟦を→を：00422_wo⟧⟦{直|なお}したい→直す：00869_naosu⟧。",
       "english": "I want to fix my impatient nature.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06646_sekkachi_ex3",
-      "japanese": "そんなにせっかちにならないで。まだ{時間|じかん}はある。",
+      "japanese": "⟦そんなに→そんなに：01646_sonnani⟧せっかち⟦に→に：00314_ni⟧⟦ならないで→なる：01970_naru⟧。⟦まだ→まだ：00603_mada⟧⟦{時間|じかん}→時間：00468_jikan⟧⟦は→は：00079_ha⟧⟦ある→ある：00006_aru⟧。",
       "english": "Don't be so impatient. We still have time.",
       "notes": null,
       "has_audio": false,
@@ -43,20 +43,39 @@
       ]
     }
   ],
-  "notes": "USAGE:\n・せっかちな{人|ひと}/{性格|せいかく} (an impatient person/personality)\n・せっかちになる (to become impatient)\n\nNUANCE:\nGenerally mildly negative, suggesting someone who rushes unnecessarily or can't relax. Often used self-deprecatingly.\n\nCOMMON EXPRESSIONS:\n・せっかちを{起|お}こす (to get impatient - somewhat literary)\n・せっかちな{食|た}べ{方|かた} (eating quickly/hastily)\n\nETYMOLOGY:\nFrom the verb {急|せ}く (to hurry) plus the suffix ～かち (tendency toward). Literally \"tendency to rush.\"\n\nCONTRAST:\n・せっかち ↔ のんびり (impatient ↔ easygoing/relaxed)\n・せっかち ↔ {気長|きなが} (impatient ↔ patient)",
-  "cross_references": [],
+  "notes": "USAGE:\n- せっかち⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ / せっかち⟦な→な：09497_na⟧⟦{性格|せいかく}→性格：03371_seikaku⟧ (an impatient person / personality)\n- せっかち⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to get impatient)\n- せっかち⟦な→な：09497_na⟧⟦{食|た}べ{方|かた}→食べ方：27437_tabekata⟧ (eating hastily)\n\nNUANCE:\nMildly negative — it suggests someone who rushes unnecessarily or cannot relax. Often used self-deprecatingly about oneself, and it is not rude about a close friend, but avoid applying it to a superior.\n\nETYMOLOGY:\nFrom ⟦{急|せ}く→急く：noentry⟧ (an older verb meaning to hurry, related to ⟦{急|いそ}ぐ→急ぐ：01191_isogu⟧) plus the suffix 〜かち (tendency toward). Literally \"a tendency to rush.\"\n\nCONTRAST:\n- せっかち ↔ ⟦のんびり→のんびり：01596_nonbiri⟧ (impatient ↔ easygoing, relaxed)\n- せっかち ↔ ⟦{気長|きなが}→気長：20721_kinaga⟧ (impatient ↔ patient)\n\nRELATED WORDS:\n- ⟦{慌|あわ}てる→慌てる：01874_awateru⟧ (to panic, to rush): a one-time reaction, not a standing trait\n- ⟦そそっかしい→そそっかしい：06647_sosokkashii⟧ (careless): rushing that produces mistakes",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "reading": "のんびり",
+      "headword": "のんびり",
+      "label": "easygoing",
+      "target_id": "01596_nonbiri"
+    },
+    {
+      "type": "antonym",
+      "reading": "きなが",
+      "headword": "{気長|きなが}",
+      "label": "patient",
+      "target_id": "20721_kinaga"
+    },
+    {
+      "type": "related",
+      "reading": "そそっかしい",
+      "headword": "そそっかしい",
+      "label": "careless, scatterbrained",
+      "target_id": "06647_sosokkashii"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T03:53:42Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-26T15:19:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adjective-na",
         "noun"
-      ],
-      "style": [
-        "literary"
       ],
       "formality": "neutral",
       "politeness": "plain",

@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06645_kuchibeta_ex1",
-      "japanese": "{口下手|くちべた}なので、{面接|めんせつ}が{苦手|にがて}だ。",
+      "japanese": "{口下手|くちべた}⟦な→な：09497_na⟧⟦ので→ので：09501_node⟧、⟦{面接|めんせつ}→面接：01100_mensetsu⟧⟦が→が：00051_ga⟧⟦{苦手|にがて}→苦手：03513_nigate⟧⟦だ→だ：09496_da⟧。",
       "english": "I'm not good at expressing myself, so I'm bad at interviews.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06645_kuchibeta_ex2",
-      "japanese": "{彼|かれ}は{口下手|くちべた}だけど、{行動|こうどう}で{気持|きも}ちを{見|み}せてくれる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{口下手|くちべた}⟦だ→だ：09496_da⟧⟦けど→けど：09477_kedo⟧、⟦{行動|こうどう}→行動：02728_koudou⟧⟦で→で：00502_de⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦を→を：00422_wo⟧⟦{見|み}せて→見せる：01988_miseru⟧⟦くれる→くれる：00724_kureru⟧。",
       "english": "He's not good with words, but he shows his feelings through actions.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06645_kuchibeta_ex3",
-      "japanese": "{口下手|くちべた}な{私|わたし}には、{手紙|てがみ}で{伝|つた}えるほうが{楽|らく}だ。",
+      "japanese": "{口下手|くちべた}⟦な→な：09497_na⟧⟦{私|わたし}→私：02988_watashi⟧⟦に→に：00314_ni⟧⟦は→は：00079_ha⟧、⟦{手紙|てがみ}→手紙：00675_tegami⟧⟦で→で：00502_de⟧⟦{伝|つた}える→伝える：01220_tsutaeru⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦{楽|らく}→楽：02169_raku⟧⟦だ→だ：09496_da⟧。",
       "english": "For someone inarticulate like me, it's easier to communicate through letters.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nDescribes difficulty with verbal expression, not a lack of intelligence or ideas.\n・{口下手|くちべた}な{人|ひと} (a person who's not good at expressing themselves)\n・{口下手|くちべた}だから... (because I'm bad with words...)\n\nNUANCE:\nOften used with a sense of humility or self-deprecation. The word suggests the speaker has thoughts and feelings but struggles to articulate them, rather than having nothing to say.\n\nCONTRAST:\n・{口下手|くちべた} ↔ {話|はなし}{上手|じょうず} (inarticulate ↔ good at talking)\n・{口下手|くちべた} ↔ {弁|べん}が{立|た}つ (inarticulate ↔ eloquent)\n\nRELATED WORDS:\n・{無口|むくち} (taciturn) - doesn't speak much (by choice/nature)\n・{口下手|くちべた} - wants to speak but can't express well\n\nKANJI BREAKDOWN:\n・{口|くち} (mouth) + {下手|へた} (unskillful) = unskillful with mouth → poor speaker",
+  "notes": "USAGE:\nDescribes difficulty with verbal expression, not a lack of intelligence or ideas.\n- {口下手|くちべた}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (a person who's not good at expressing themselves)\n- {口下手|くちべた}⟦だから→だから：00924_dakara⟧... (because I'm bad with words...)\n\nNUANCE:\nOften used with a sense of humility or self-deprecation. The word suggests the speaker has thoughts and feelings but struggles to articulate them, rather than having nothing to say.\n\nCONTRAST:\n- {口下手|くちべた} ↔ ⟦{話|はな}し{上手|じょうず}→話し上手：08467_hanashijouzu⟧ (inarticulate ↔ good at talking)\n- {口下手|くちべた} ↔ ⟦{弁|べん}が{立|た}つ→弁が立つ：20076_bengatatsu⟧ (inarticulate ↔ eloquent)\n\nRELATED WORDS:\n- ⟦{無口|むくち}→無口：06644_mukuchi⟧ (taciturn): doesn't speak much, by choice or nature\n- {口下手|くちべた}: wants to speak but can't express it well\n\nKANJI BREAKDOWN:\n- ⟦{口|くち}→口：00560_kuchi⟧ (mouth) + ⟦{下手|へた}→下手：00703_heta⟧ (unskillful) = unskillful with one's mouth → poor speaker",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "headword": "{無口|むくち}",
       "label": "taciturn",
       "target_id": "06644_mukuchi"
+    },
+    {
+      "type": "antonym",
+      "reading": "はなしじょうず",
+      "headword": "{話|はな}し{上手|じょうず}",
+      "label": "good at talking",
+      "target_id": "08467_hanashijouzu"
+    },
+    {
+      "type": "antonym",
+      "reading": "べんがたつ",
+      "headword": "{弁|べん}が{立|た}つ",
+      "label": "eloquent",
+      "target_id": "20076_bengatatsu"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:53:17Z",
-    "modified": "2026-01-19T12:17:44.584086Z",
+    "modified": "2026-07-26T15:19:51Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
