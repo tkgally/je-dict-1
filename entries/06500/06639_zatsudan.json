@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06639_zatsudan_ex1",
-      "japanese": "{休憩|きゅうけい}{時間|じかん}に{同僚|どうりょう}と{雑談|ざつだん}をした。",
+      "japanese": "⟦{休憩時間|きゅうけいじかん}→休憩時間：16113_kyuukeijikan⟧⟦に→に：00314_ni⟧⟦{同僚|どうりょう}→同僚：01023_douryou⟧⟦と→と：00512_to⟧{雑談|ざつだん}⟦を→を：00422_wo⟧⟦した→する：00392_suru⟧。",
       "english": "I chatted with my coworker during the break.",
       "has_audio": false,
       "sense_numbers": [
@@ -23,7 +23,7 @@
     },
     {
       "id": "06639_zatsudan_ex2",
-      "japanese": "{雑談|ざつだん}で{盛|も}り{上|あ}がった。",
+      "japanese": "{雑談|ざつだん}⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がった→盛り上がる：06344_moriagaru⟧。",
       "english": "We got excited chatting about random things.",
       "has_audio": false,
       "sense_numbers": [
@@ -32,7 +32,7 @@
     },
     {
       "id": "06639_zatsudan_ex3",
-      "japanese": "{仕事|しごと}の{話|はなし}はやめて{雑談|ざつだん}しよう。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧⟦{話|はなし}→話：01496_hanashi⟧⟦は→は：00079_ha⟧⟦やめて→やめる：00909_yameru⟧{雑談|ざつだん}⟦しよう→する：00392_suru⟧。",
       "english": "Let's stop talking about work and just chat.",
       "has_audio": false,
       "sense_numbers": [
@@ -40,10 +40,10 @@
       ]
     }
   ],
-  "notes": "WORD FORMATION:\n{雑|ざつ} (miscellaneous, various) + {談|だん} (talk, conversation) → miscellaneous talk\n\nCOMMON EXPRESSIONS:\n・{雑談|ざつだん}する (to chat, to have small talk)\n・{雑談|ざつだん}で{盛|も}り{上|あ}がる (to get excited chatting)\n・{雑談|ざつだん}{力|りょく} (ability to make small talk - a valued social skill)\n\nSIMILAR WORDS:\n・{世間話|せけんばなし} (small talk) - more about everyday topics, news\n・おしゃべり (chatting) - more casual, often longer conversations\n・{雑談|ざつだん} - general casual talk, often in work/formal settings\n・{井戸端|いどばた}{会議|かいぎ} (gossip session) - informal neighborhood gossip\n\nUSAGE NOTE:\n{雑談|ざつだん} is neutral and often used in workplace contexts. {雑談|ざつだん}{力|りょく} (small talk skills) is considered an important social skill in Japanese business culture for building relationships.",
+  "notes": "WORD FORMATION:\n{雑|ざつ} (miscellaneous, various) + {談|だん} (talk, conversation) → miscellaneous talk\n\nCOMMON EXPRESSIONS:\n・{雑談|ざつだん}⟦する→する：00392_suru⟧ (to chat, to have small talk)\n・{雑談|ざつだん}⟦で→で：00502_de⟧⟦{盛|も}り{上|あ}がる→盛り上がる：06344_moriagaru⟧ (to get excited chatting)\n・{雑談|ざつだん}{力|りょく} (ability to make small talk - a valued social skill)\n\nSIMILAR WORDS:\n・⟦{世間話|せけんばなし}→世間話：07021_sekenbanashi⟧ (small talk) - more about everyday topics, news\n・⟦おしゃべり→お喋り：01911_oshaberi⟧ (chatting) - more casual, often longer conversations\n・{雑談|ざつだん} - general casual talk, often in work/formal settings\n・⟦{井戸端|いどばた}{会議|かいぎ}→井戸端会議：07402_idobatakaigi⟧ (gossip session) - informal neighborhood gossip\n\nUSAGE NOTE:\n{雑談|ざつだん} is neutral and often used in workplace contexts. {雑談|ざつだん}{力|りょく} (small talk skills) is considered an important social skill in Japanese business culture for building relationships.",
   "metadata": {
     "created": "2026-01-18T03:30:27Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -59,5 +59,21 @@
         "communication"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "07021_sekenbanashi",
+      "reading": "せけんばなし",
+      "headword": "{世間話|せけんばなし}",
+      "label": "small talk about everyday topics"
+    },
+    {
+      "type": "related",
+      "target_id": "01911_oshaberi",
+      "reading": "おしゃべり",
+      "headword": "お{喋|しゃべ}り",
+      "label": "chatting; talkative"
+    }
+  ]
 }

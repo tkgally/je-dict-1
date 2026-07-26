@@ -1,0 +1,24 @@
+{
+  "entry_id": "07607_sensai",
+  "headword": "{繊細|せんさい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-26T06:26:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'quality' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

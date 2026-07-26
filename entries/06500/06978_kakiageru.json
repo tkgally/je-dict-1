@@ -134,7 +134,7 @@
     },
     {
       "id": "06978_kakiageru_ex4",
-      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{書|か}き{上|あ}げなければならない。",
+      "japanese": "⟦{論文|ろんぶん}→論文：03787_ronbun⟧⟦を→を：00422_wo⟧⟦{締|し}め{切|き}り→締め切り：04162_shimekiri⟧⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧{書|か}き{上|あ}げ⟦なければならない→なければならない：27600_nakerebanaranai⟧。",
       "english": "I have to finish writing the thesis before the deadline.",
       "notes": null,
       "has_audio": false,
@@ -161,11 +161,18 @@
       "headword": "{書|か}く",
       "label": "to write",
       "target_id": "00477_kaku"
+    },
+    {
+      "type": "synonym",
+      "reading": "しあげる",
+      "headword": "{仕上|しあ}げる",
+      "label": "to finish, to complete",
+      "target_id": "04664_shiageru"
     }
   ],
   "metadata": {
     "created": "2026-01-18T13:10:21Z",
-    "modified": "2026-06-11T07:35:55Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -176,7 +183,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "creation"
       ],
       "verb_class": "ichidan"
     }

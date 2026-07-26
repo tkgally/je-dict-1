@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06640_donkan_ex1",
-      "japanese": "{彼|かれ}は{鈍感|どんかん}だから、{彼女|かのじょ}の{気持|きも}ちに{気|き}づかない。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧{鈍感|どんかん}⟦だから→だから：00924_dakara⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦の→の：09472_no⟧⟦{気持|きも}ち→気持ち：01385_kimochi⟧⟦に→に：00314_ni⟧⟦{気|き}づかない→気付く：01933_kizuku⟧。",
       "english": "He's insensitive, so he doesn't notice her feelings.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06640_donkan_ex2",
-      "japanese": "{痛|いた}みに{鈍感|どんかん}な{人|ひと}もいる。",
+      "japanese": "⟦{痛|いた}み→痛み：01795_itami⟧⟦に→に：00314_ni⟧{鈍感|どんかん}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧⟦も→も：00484_mo⟧⟦いる→いる：00495_iru⟧。",
       "english": "There are people who are insensitive to pain.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06640_donkan_ex3",
-      "japanese": "あなたはもう{少|すこ}し{鈍感|どんかん}になったほうがいいよ。{気|き}にしすぎ。",
+      "japanese": "⟦あなた→あなた：02565_anata⟧⟦は→は：00079_ha⟧⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{鈍感|どんかん}⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧⟦ほう→方：01139_hou⟧⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦よ→よ：09475_yo⟧。⟦{気|き}にし→気にする：03026_kinisuru⟧⟦すぎ→過ぎる：01219_sugiru⟧。",
       "english": "You should be a little more thick-skinned. You worry too much.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "USAGE:\nUsed to describe someone who doesn't pick up on subtle cues, whether emotional, social, or physical.\n・{鈍感|どんかん}な{人|ひと} (an insensitive person)\n・{空気|くうき}に{鈍感|どんかん} (oblivious to the atmosphere)\n\nCOMMON COLLOCATIONS:\n・{鈍感|どんかん}になる (to become insensitive)\n・{鈍感|どんかん}{力|りょく} (the power of being thick-skinned - a positive spin)\n\nNOTE ON {鈍感|どんかん}{力|りょく}:\nThis term gained popularity from a 2007 bestselling book by {渡辺|わたなべ}{淳一|じゅんいち}. It presents being {鈍感|どんかん} positively as a survival skill—not overthinking or being overly sensitive to criticism.\n\nCONTRAST:\n・{鈍感|どんかん} ↔ {敏感|びんかん} (insensitive ↔ sensitive)\n・{鈍感|どんかん} ↔ {繊細|せんさい} (dull ↔ delicate/sensitive)",
+  "notes": "USAGE:\nUsed to describe someone who doesn't pick up on subtle cues, whether emotional, social, or physical.\n・{鈍感|どんかん}⟦な→な：09497_na⟧⟦{人|ひと}→人：00476_hito⟧ (an insensitive person)\n・⟦{空気|くうき}→空気：01390_kuuki⟧⟦に→に：00314_ni⟧{鈍感|どんかん} (oblivious to the atmosphere)\n\nCOMMON COLLOCATIONS:\n・{鈍感|どんかん}⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to become insensitive)\n・{鈍感|どんかん}{力|りょく} (the power of being thick-skinned - a positive spin)\n\nNOTE ON {鈍感|どんかん}{力|りょく}:\nThis term gained popularity from a 2007 bestselling book by {渡辺|わたなべ}{淳一|じゅんいち}. It presents being {鈍感|どんかん} positively as a survival skill—not overthinking or being overly sensitive to criticism.\n\nCONTRAST:\n・{鈍感|どんかん} ↔ ⟦{敏感|びんかん}→敏感：06641_binkan⟧ (insensitive ↔ sensitive)\n・{鈍感|どんかん} ↔ ⟦{繊細|せんさい}→繊細：07607_sensai⟧ (dull ↔ delicate/sensitive)",
   "cross_references": [
     {
       "type": "antonym",
@@ -51,11 +51,18 @@
       "headword": "{敏感|びんかん}",
       "label": "sensitive",
       "target_id": "06641_binkan"
+    },
+    {
+      "type": "contrast",
+      "reading": "せんさい",
+      "headword": "{繊細|せんさい}",
+      "label": "delicate, sensitive",
+      "target_id": "07607_sensai"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:51:03Z",
-    "modified": "2026-01-19T12:17:44.580195Z",
+    "modified": "2026-07-26T06:18:50Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
