@@ -485,3 +485,27 @@ _(2026-07-26 wiki (Routine v2) harvest: processed all **29** loose observations 
 - **Routed to the curator** (a `wiki` run may not touch prompts, skills, entries, or build scripts): the one-line `score_note_quality.py` fix; the `validate.py` link-resolution gate; `prompts/comprehensive_polish.md:107`'s two schema-invalid cross-reference types (**third** consecutive cycle — and the 2026-07-25 misattribution to `CLAUDE.md` has now propagated into the observation stream, re-verified false this run); and two `inline-word-links` skill rules (copula `で`, bound morphemes).
 All 29 observations cleared.)_
 - [tooling] `build/review_accuracy.py --ids` overwrites `reviews/accuracy/{id}.json` in place, so a §4 self-check on entries reviewed earlier in the same run destroys the original §A review record. Write self-check results to a separate path (or add a `--phase` suffix) so both passes survive.
+
+## 2026-07-27 — routine polish (00908–07441 priority lane, 06650–06655 frontier)
+
+- [pattern] `formality_variant` is documented as a valid cross-reference type in
+  `CLAUDE.md` and `prompts/comprehensive_polish.md`, but `build/schema.json` only allows
+  `pair, synonym, antonym, keigo, related, see_also, contrast, homophone`. Writing it
+  fails validation. Either add it to the schema enum or drop it from the docs/skill.
+- [pattern] Dead `noentry` markers keep turning up on words that have since been created
+  (03754 命令文→28285, 06529 スランプ→29125 / 喫する→29124 / 一勝→29129, 03682 百万人 splittable).
+  A detector that re-resolves every `noentry` marker against `word_id_lookup.json` would
+  clear these in bulk instead of one entry at a time.
+- [tooling] `build/validate.py --id` still reports "Entry is valid!" for inline links whose
+  target ID does not exist (caught 00494_aru and six wrong IDs by hand this run with an
+  ad-hoc checker). Link-target resolution belongs in validate.py.
+- [pattern] Cleanup P21 (no inline links at all) continues unbroken through 06650–06655 —
+  every frontier entry in this band needed full link coverage in examples *and* notes.
+- [pattern] Antonym pairs drift apart in their tags: 06528 連勝 was `formal`/`action` while
+  06529 連敗 was `neutral`/`leisure`. A check that compares tag sets across `antonym`
+  cross-reference pairs would find these cheaply.
+- [entry] 03794_warukuchi (わるくち) and 12672_waruguchi (わるぐち) are the same word 悪口
+  under two readings — merge candidates.
+- [pattern] 〜甲斐 words (06653 やり甲斐, 06654 生き甲斐) were both tagged `informal`; the
+  external reviewer flagged 06654 and the same correction applied to 06653. Worth a sweep
+  of `formality: informal` on ordinary Sino-Japanese/native nouns.

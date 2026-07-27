@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06650_nayami_ex1",
-      "japanese": "{悩|なや}みがあったら、いつでも{相談|そうだん}してね。",
+      "japanese": "{悩|なや}み⟦が→が：00051_ga⟧⟦あったら→ある：00006_aru⟧、⟦いつでも→いつでも：03826_itsudemo⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦して→する：00392_suru⟧⟦ね→ね：09474_ne⟧。",
       "english": "If you have any worries, feel free to talk to me anytime.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06650_nayami_ex2",
-      "japanese": "{仕事|しごと}の{悩|なや}みを{抱|かか}えている。",
+      "japanese": "⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{悩|なや}み⟦を→を：00422_wo⟧⟦{抱|かか}えている→抱える：02031_kakaeru⟧。",
       "english": "I'm carrying worries about work.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06650_nayami_ex3",
-      "japanese": "{彼女|かのじょ}は{人間関係|にんげんかんけい}の{悩|なや}みが{多|おお}い。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{人間関係|にんげんかんけい}→人間関係：11462_ningenkankei⟧⟦の→の：09472_no⟧{悩|なや}み⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "She has a lot of troubles with interpersonal relationships.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON COLLOCATIONS:\n・{悩|なや}みがある (to have worries)\n・{悩|なや}みを{抱|かか}える (to carry/have worries)\n・{悩|なや}みを{相談|そうだん}する (to consult about one's worries)\n・{悩|なや}みを{打|う}ち{明|あ}ける (to confide one's troubles)\n・{悩|なや}みの{種|たね} (source of worry, cause of trouble)\n\nTYPES OF {悩|なや}み:\n・{仕事|しごと}の{悩|なや}み (work troubles)\n・{人間関係|にんげんかんけい}の{悩|なや}み (relationship troubles)\n・{健康|けんこう}の{悩|なや}み (health concerns)\n・{贅沢|ぜいたく}な{悩|なや}み (a luxury problem, first-world problem)\n\nRELATED WORDS:\n・{悩|なや}む (to worry, to be troubled - verb)\n・{心配|しんぱい} (worry, anxiety - more about specific concerns)\n・{苦悩|くのう} (anguish, suffering - more intense)",
+  "notes": "{悩|なや}み is the noun for a personal worry or problem — something one keeps turning over in one's mind. It is countable and concrete enough to be 'had,' 'carried,' or 'confided': the thing itself, not the state of worrying (that is ⟦{悩|なや}む→悩む：02380_nayamu⟧).\n\nCOMMON COLLOCATIONS:\n・{悩|なや}み⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have worries)\n・{悩|なや}み⟦を→を：00422_wo⟧⟦{抱|かか}える→抱える：02031_kakaeru⟧ (to carry/have worries)\n・{悩|なや}み⟦を→を：00422_wo⟧⟦{相談|そうだん}→相談：02089_soudan⟧⟦する→する：00392_suru⟧ (to consult about one's worries)\n・{悩|なや}み⟦を→を：00422_wo⟧⟦{打|う}ち{明|あ}ける→打ち明ける：04230_uchiakeru⟧ (to confide one's troubles)\n・{悩|なや}み⟦の→の：09472_no⟧⟦{種|たね}→種：02157_tane⟧ (source of worry, cause of trouble)\n\nTYPES OF {悩|なや}み:\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦の→の：09472_no⟧{悩|なや}み (work troubles)\n・⟦{人間関係|にんげんかんけい}→人間関係：11462_ningenkankei⟧⟦の→の：09472_no⟧{悩|なや}み (relationship troubles)\n・⟦{健康|けんこう}→健康：02706_kenkou⟧⟦の→の：09472_no⟧{悩|なや}み (health concerns)\n・⟦{贅沢|ぜいたく}→贅沢：03309_zeitaku⟧⟦な→な：09497_na⟧{悩|なや}み (a luxury problem, first-world problem)\n\nRELATED WORDS:\n・⟦{悩|なや}む→悩む：02380_nayamu⟧ (to worry, to be troubled — the verb this noun comes from)\n・⟦{心配|しんぱい}→心配：00811_shinpai⟧ (worry, anxiety — directed at a specific outcome, often on someone else's behalf)\n・⟦{苦悩|くのう}→苦悩：05517_kunou⟧ (anguish, suffering — far more intense, and literary)",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,25 @@
       "reading": "なやむ",
       "headword": "{悩|なや}む",
       "label": "verb form"
+    },
+    {
+      "type": "related",
+      "target_id": "00811_shinpai",
+      "reading": "しんぱい",
+      "headword": "{心配|しんぱい}",
+      "label": "worry, anxiety"
+    },
+    {
+      "type": "related",
+      "target_id": "05517_kunou",
+      "reading": "くのう",
+      "headword": "{苦悩|くのう}",
+      "label": "anguish"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:55:24Z",
-    "modified": "2026-04-18T04:05:52Z",
+    "modified": "2026-07-27T00:19:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
