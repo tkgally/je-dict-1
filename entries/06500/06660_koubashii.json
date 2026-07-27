@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06660_koubashii_ex1",
-      "japanese": "{香|こう}ばしい{匂|にお}いがキッチンから{漂|ただよ}ってきた。",
+      "japanese": "{香|こう}ばしい⟦{匂|にお}い→匂い：00874_nioi⟧⟦が→が：00051_ga⟧⟦キッチン→キッチン：10815_kicchin⟧⟦から→から：00504_kara⟧⟦{漂|ただよ}って→漂う：04356_tadayou⟧⟦きた→来る：00254_kuru⟧。",
       "english": "A savory aroma wafted from the kitchen.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06660_koubashii_ex2",
-      "japanese": "{胡麻|ごま}を{炒|い}ると{香|こう}ばしくなる。",
+      "japanese": "⟦{胡麻|ごま}→胡麻：10337_goma⟧⟦を→を：00422_wo⟧⟦{炒|い}る→炒る：13402_iru⟧⟦と→と：00512_to⟧{香|こう}ばしく⟦なる→なる：01970_naru⟧。",
       "english": "Sesame seeds become fragrant when you toast them.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06660_koubashii_ex3",
-      "japanese": "{香|こう}ばしく{焼|や}いたパンにバターを{塗|ぬ}る。",
+      "japanese": "{香|こう}ばしく⟦{焼|や}いた→焼く：01123_yaku⟧⟦パン→パン：00553_pan⟧⟦に→に：00314_ni⟧⟦バター→バター：04671_bataa⟧⟦を→を：00422_wo⟧⟦{塗|ぬ}る→塗る：01174_nuru⟧。",
       "english": "Spread butter on nicely toasted bread.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "・{香|こう}ばしい → {香|こう}ばしくない (negative)\n・{香|こう}ばしい → {香|こう}ばしく (adverbial form)\n・{香|こう}ばしい → {香|こう}ばしかった (past)\n\nUSAGE:\nDescribes the pleasant, appetizing smell of foods that have been toasted, roasted, or grilled. The aroma comes from the Maillard reaction (browning).\n・{香|こう}ばしい{匂|にお}い/{香|かお}り (fragrant aroma)\n・{香|こう}ばしく{焼|や}く (to toast/roast until fragrant)\n\nCOMMON FOODS DESCRIBED:\n・{胡麻|ごま} (sesame seeds)\n・{煎|せん}{餅|べい} (rice crackers)\n・{焼|や}き{魚|ざかな} (grilled fish)\n・パン/トースト (bread/toast)\n・{焙煎|ばいせん}コーヒー (roasted coffee)\n\nNOTE:\n{香|こう}ばしい specifically refers to the savory, roasted aroma—not sweet fragrances (use {甘|あま}い{香|かお}り) or flowery scents (use {良|い}い{香|かお}り or {芳|かぐわ}しい).",
-  "cross_references": [],
+  "notes": "- {香|こう}ばしい → {香|こう}ばしくない (negative)\n- {香|こう}ばしい → {香|こう}ばしく (adverbial form)\n- {香|こう}ばしい → {香|こう}ばしかった (past)\n\nUSAGE:\nDescribes the pleasant, appetizing smell of foods that have been toasted, roasted, or grilled. The aroma comes from the Maillard reaction (browning).\n- {香|こう}ばしい⟦{匂|にお}い→匂い：00874_nioi⟧/⟦{香|かお}り→香り：00189_kaori⟧ (fragrant aroma)\n- {香|こう}ばしく⟦{焼|や}く→焼く：01123_yaku⟧ (to toast/roast until fragrant)\n\nCOMMON FOODS DESCRIBED:\n- ⟦{胡麻|ごま}→胡麻：10337_goma⟧ (sesame seeds)\n- ⟦{煎餅|せんべい}→煎餅：04958_senbei⟧ (rice crackers)\n- ⟦{焼|や}き{魚|ざかな}→焼き魚：13406_yakizakana⟧ (grilled fish)\n- ⟦パン→パン：00553_pan⟧/⟦トースト→トースト：20532_toosuto⟧ (bread/toast)\n- ⟦{焙煎|ばいせん}→焙煎：16935_baisen⟧⟦コーヒー→コーヒー：00789_koohii⟧ (roasted coffee)\n\nSIMILAR ADJECTIVES:\n- ⟦{芳|かんば}しい→芳しい：19832_kanbashii⟧ is literary and covers pleasant scents in general; {香|こう}ばしい is everyday and specific to roasting.\n\nNOTE:\n{香|こう}ばしい specifically refers to the savory, roasted aroma—not sweet fragrances (use ⟦{甘|あま}い→甘い：00617_amai⟧⟦{香|かお}り→香り：00189_kaori⟧) or flowery scents (use ⟦いい→いい：00118_ii⟧⟦{香|かお}り→香り：00189_kaori⟧ or ⟦{芳|かんば}しい→芳しい：19832_kanbashii⟧).",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "note": "fragrance, aroma (the noun)"
+    },
+    {
+      "type": "synonym",
+      "target_id": "19832_kanbashii",
+      "reading": "かんばしい",
+      "headword": "{芳|かんば}しい",
+      "note": "literary; pleasant scents in general"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T03:59:53Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-27T09:18:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

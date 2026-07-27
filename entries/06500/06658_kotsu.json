@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06658_kotsu_ex1",
-      "japanese": "{料理|りょうり}のコツを{教|おし}えてください。",
+      "japanese": "⟦{料理|りょうり}→料理：01523_ryouri⟧⟦の→の：09472_no⟧コツ⟦を→を：00422_wo⟧⟦{教|おし}えて→教える：00526_oshieru⟧⟦ください→ください：02899_kudasai⟧。",
       "english": "Please teach me the trick to cooking this.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06658_kotsu_ex2",
-      "japanese": "コツをつかめば、{簡単|かんたん}にできる。",
+      "japanese": "コツ⟦を→を：00422_wo⟧⟦つかめば→掴む：02290_tsukamu⟧、⟦{簡単|かんたん}に→簡単：00713_kantan⟧⟦できる→できる：00557_dekiru⟧。",
       "english": "Once you get the hang of it, it's easy.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06658_kotsu_ex3",
-      "japanese": "{成功|せいこう}のコツは{継続|けいぞく}すること だ。",
+      "japanese": "⟦{成功|せいこう}→成功：02638_seikou⟧⟦の→の：09472_no⟧コツ⟦は→は：00079_ha⟧⟦{継続|けいぞく}する→継続：00213_keizoku⟧⟦こと→こと：01164_koto⟧⟦だ→だ：09496_da⟧。",
       "english": "The secret to success is to keep going.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,19 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n・コツをつかむ (to get the hang of something)\n・コツを{覚|おぼ}える (to learn the knack)\n・コツを{教|おし}える (to teach the trick)\n・〜のコツ (the key to/the trick for ~)\n\nWRITING:\nUsually written in katakana as コツ. Sometimes written as {骨|こつ} (literally \"bone\"), but this is less common.\n\nUSAGE EXAMPLES:\n・{上達|じょうたつ}のコツ (the key to improvement)\n・{節約|せつやく}のコツ (the trick to saving money)\n・コミュニケーションのコツ (the secret to good communication)\n\nNUANCE:\nコツ implies that there's something specific—a technique, approach, or insight—that, once grasped, makes a task much easier. It's often something that isn't obvious but can be taught or discovered through experience.",
-  "cross_references": [],
+  "notes": "COMMON EXPRESSIONS:\n- コツ⟦を→を：00422_wo⟧⟦つかむ→掴む：02290_tsukamu⟧ (to get the hang of something)\n- コツ⟦を→を：00422_wo⟧⟦{覚|おぼ}える→覚える：00739_oboeru⟧ (to learn the knack)\n- コツ⟦を→を：00422_wo⟧⟦{教|おし}える→教える：00526_oshieru⟧ (to teach the trick)\n- 〜⟦の→の：09472_no⟧コツ (the key to/the trick for ~)\n\nWRITING:\nUsually written in katakana as コツ. Sometimes written as ⟦{骨|こつ}→骨：02166_hone⟧ (literally \"bone\"), but this is less common.\n\nUSAGE EXAMPLES:\n- ⟦{上達|じょうたつ}→上達：03346_joutatsu⟧⟦の→の：09472_no⟧コツ (the key to improvement)\n- ⟦{節約|せつやく}→節約：03302_setsuyaku⟧⟦の→の：09472_no⟧コツ (the trick to saving money)\n- ⟦コミュニケーション→コミュニケーション：08425_komyunikeeshon⟧⟦の→の：09472_no⟧コツ (the secret to good communication)\n\nNUANCE:\nコツ implies that there's something specific—a technique, approach, or insight—that, once grasped, makes a task much easier. It's often something that isn't obvious but can be taught or discovered through experience.\n\nSIMILAR WORDS:\n- ⟦{要領|ようりょう}→要領：14109_youryou⟧: the essentials or the efficient way of doing something; 要領がいい describes a person, コツ describes the task",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "14109_youryou",
+      "reading": "ようりょう",
+      "headword": "{要領|ようりょう}",
+      "note": "the essentials; the efficient way of doing something"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T03:58:50Z",
-    "modified": "2026-06-28T12:19:44Z",
+    "modified": "2026-07-27T09:18:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +65,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "cognition",
+        "education"
       ]
     }
   }

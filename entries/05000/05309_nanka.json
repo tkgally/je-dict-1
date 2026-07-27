@@ -3,7 +3,7 @@
   "headword": "なんか",
   "reading": "なんか",
   "part_of_speech": "adverb, particle",
-  "gloss": "something; kind of; like",
+  "gloss": "something; kind of; like; things like (dismissive)",
   "definitions": [
     {
       "sense_number": 1,
@@ -24,7 +24,7 @@
   "examples": [
     {
       "id": "05309_nanka_ex1",
-      "japanese": "なんか⟦{変|へん}→変：01124_hen⟧だ⟦な→な：09497_na⟧。",
+      "japanese": "なんか⟦{変|へん}→変：01124_hen⟧⟦だ→だ：09496_da⟧⟦な→な：09497_na⟧。",
       "english": "Something seems off.",
       "notes": null,
       "has_audio": false,
@@ -154,7 +154,7 @@
     },
     {
       "id": "05309_nanka_ex14",
-      "japanese": "⟦お{金|かね}→お金：00611_okane⟧なんかいらない。",
+      "japanese": "⟦お{金|かね}→お金：00611_okane⟧なんか⟦いらない→要る：09589_iru⟧。",
       "english": "I don't need things like money.",
       "notes": null,
       "has_audio": false,
@@ -183,11 +183,33 @@
       ]
     }
   ],
-  "notes": "なんか is a very common casual word with multiple functions.\n\nFILLER WORD:\n- Often used unconsciously in casual speech\n- Similar to English \"like\" or \"kind of\"\n- なんか、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦ね→ね：09474_ne⟧: It's kind of hot today, isn't it?\n\nDISMISSIVE PARTICLE:\n- 〜なんか: things like ~, someone like ~ (often self-deprecating)\n- More casual form of ⟦など→〜など：03095_nado⟧\n\nFORMAL EQUIVALENT:\n- ⟦{何|なに}か→何か：03873_nanika⟧ (なにか): something (more formal)",
-  "cross_references": [],
+  "notes": "なんか is a very common casual word with multiple functions.\n\nFILLER WORD:\n- Often used unconsciously in casual speech\n- Similar to English \"like\" or \"kind of\"\n- なんか、⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{暑|あつ}い→暑い：00619_atsui⟧⟦ね→ね：09474_ne⟧: It's kind of hot today, isn't it?\n\nDISMISSIVE PARTICLE:\n- 〜なんか: things like ~, someone like ~ (often self-deprecating)\n- More casual form of ⟦など→〜など：03095_nado⟧\n\nFORMAL EQUIVALENT:\n- ⟦{何|なに}か→何か：03873_nanika⟧ (なにか): something (more formal)\n\nREGISTER:\n- なんか belongs to casual speech. In a ⟦{面接|めんせつ}→面接：01100_mensetsu⟧, a report, or anything you ⟦{書|か}く→書く：00477_kaku⟧ formally, use ⟦{何|なに}か→何か：03873_nanika⟧ for sense 1 and ⟦など→〜など：03095_nado⟧ for sense 3.\n- The dismissive sense 3 sounds rude when aimed at another person; used about oneself it reads as modesty or self-pity instead.\n\nSIMILAR WORDS:\n- ⟦なんて→なんて：06918_nante⟧: close to sense 3 and also usable before a verb or a whole clause, where なんか cannot go\n- ⟦など→〜など：03095_nado⟧: the neutral written equivalent of sense 3\n- ⟦{何|なに}か→何か：03873_nanika⟧: the plain \"something\" without the vagueness or dismissal",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "03873_nanika",
+      "reading": "なにか",
+      "headword": "{何|なに}か",
+      "note": "the neutral \"something\""
+    },
+    {
+      "type": "synonym",
+      "target_id": "06918_nante",
+      "reading": "なんて",
+      "headword": "なんて",
+      "note": "similar dismissive use, wider distribution"
+    },
+    {
+      "type": "related",
+      "target_id": "03095_nado",
+      "reading": "など",
+      "headword": "〜など",
+      "note": "the written, neutral equivalent of sense 3"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:20:28Z",
-    "modified": "2026-06-05T16:10:53Z",
+    "modified": "2026-07-27T09:18:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

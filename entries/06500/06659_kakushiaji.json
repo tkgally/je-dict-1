@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06659_kakushiaji_ex1",
-      "japanese": "このカレーの{隠|かく}し{味|あじ}は{蜂蜜|はちみつ}だ。",
+      "japanese": "⟦この→この：00962_kono⟧⟦カレー→カレー：02898_karee⟧⟦の→の：09472_no⟧{隠|かく}し{味|あじ}⟦は→は：00079_ha⟧⟦{蜂蜜|はちみつ}→蜂蜜：14045_hachimitsu⟧⟦だ→だ：09496_da⟧。",
       "english": "The secret ingredient in this curry is honey.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06659_kakushiaji_ex2",
-      "japanese": "{隠|かく}し{味|あじ}に{味噌|みそ}を{少|すこ}し{加|くわ}える。",
+      "japanese": "{隠|かく}し{味|あじ}⟦に→に：00314_ni⟧⟦{味噌|みそ}→味噌：01037_miso⟧⟦を→を：00422_wo⟧⟦{少|すこ}し→少し：00596_sukoshi⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧。",
       "english": "Add a little miso as a secret ingredient.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06659_kakushiaji_ex3",
-      "japanese": "{隠|かく}し{味|あじ}が{効|き}いていて、{深|ふか}い{味|あじ}わいになっている。",
+      "japanese": "{隠|かく}し{味|あじ}⟦が→が：00051_ga⟧⟦{効|き}いて→効く：01932_kiku⟧⟦いて→いる：00495_iru⟧、⟦{深|ふか}い→深い：01211_fukai⟧⟦{味|あじ}わい→味わい：11899_ajiwai⟧⟦に→に：00314_ni⟧⟦なって→なる：01970_naru⟧⟦いる→いる：00495_iru⟧。",
       "english": "The secret ingredient works well, giving it a deep flavor.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,26 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n・{隠|かく}し{味|あじ}を{加|くわ}える (to add a secret ingredient)\n・{隠|かく}し{味|あじ}に〜を{使|つか}う (to use ~ as a secret ingredient)\n・{隠|かく}し{味|あじ}が{効|き}く (the secret ingredient works/takes effect)\n\nCOMMON {隠|かく}し{味|あじ} INGREDIENTS:\n・{蜂蜜|はちみつ} (honey) - in curry, dressings\n・{味噌|みそ} (miso) - in soups, stews\n・{醤油|しょうゆ} (soy sauce) - in Western dishes\n・{酢|す} (vinegar) - to brighten flavors\n・{牛乳|ぎゅうにゅう} (milk) - in tomato-based dishes\n・インスタントコーヒー (instant coffee) - in chocolate dishes\n\nNUANCE:\nThe key concept is that the ingredient enhances flavor without being obviously detectable. If you can clearly taste it, it's no longer a {隠|かく}し{味|あじ}.\n\nKANJI BREAKDOWN:\n・{隠|かく}す (to hide) + {味|あじ} (flavor) = hidden flavor",
-  "cross_references": [],
+  "notes": "COMMON EXPRESSIONS:\n- {隠|かく}し{味|あじ}⟦を→を：00422_wo⟧⟦{加|くわ}える→加える：01941_kuwaeru⟧ (to add a secret ingredient)\n- {隠|かく}し{味|あじ}⟦に→に：00314_ni⟧〜⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧ (to use ~ as a secret ingredient)\n- {隠|かく}し{味|あじ}⟦が→が：00051_ga⟧⟦{効|き}く→効く：01932_kiku⟧ (the secret ingredient works/takes effect)\n\nCOMMON {隠|かく}し{味|あじ} INGREDIENTS:\n- ⟦{蜂蜜|はちみつ}→蜂蜜：14045_hachimitsu⟧ (honey) - in curry, dressings\n- ⟦{味噌|みそ}→味噌：01037_miso⟧ (miso) - in soups, stews\n- ⟦{醤油|しょうゆ}→醤油：01056_shouyu⟧ (soy sauce) - in Western dishes\n- ⟦{酢|す}→酢：01057_su⟧ (vinegar) - to brighten flavors\n- ⟦{牛乳|ぎゅうにゅう}→牛乳：00777_gyuunyuu⟧ (milk) - in tomato-based dishes\n- インスタント⟦コーヒー→コーヒー：00789_koohii⟧ (instant coffee) - in chocolate dishes\n\nNUANCE:\nThe key concept is that the ingredient enhances flavor without being obviously detectable. If you can clearly taste it, it's no longer a {隠|かく}し{味|あじ}.\n\nKANJI BREAKDOWN:\n- ⟦{隠|かく}す→隠す：02034_kakusu⟧ (to hide) + ⟦{味|あじ}→味：00826_aji⟧ (flavor) = hidden flavor",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00826_aji",
+      "reading": "あじ",
+      "headword": "{味|あじ}",
+      "note": "the base noun: taste, flavor"
+    },
+    {
+      "type": "related",
+      "target_id": "02034_kakusu",
+      "reading": "かくす",
+      "headword": "{隠|かく}す",
+      "note": "to hide; the verb the compound is built on"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T03:59:15Z",
-    "modified": "2026-01-19T12:17:44.595124Z",
+    "modified": "2026-07-27T09:18:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +72,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "food"
+        "food",
+        "cooking"
       ]
     }
   }
