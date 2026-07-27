@@ -1,0 +1,24 @@
+{
+  "entry_id": "19942_shunbun",
+  "headword": "{春分|しゅんぶん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:41:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'culture-tradition' is not in the valid tag list.",
+      "suggestion": "Remove 'culture-tradition' or replace with a valid tag if appropriate."
+    }
+  ]
+}

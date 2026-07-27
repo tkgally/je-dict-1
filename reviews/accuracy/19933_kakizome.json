@@ -1,0 +1,24 @@
+{
+  "entry_id": "19933_kakizome",
+  "headword": "{書|か}き{初|ぞ}め",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:40:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'culture-tradition' is not in the valid tag list.",
+      "suggestion": "culture"
+    }
+  ]
+}

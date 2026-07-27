@@ -1,0 +1,24 @@
+{
+  "entry_id": "19712_kenshinsuru",
+  "headword": "{献身|けんしん}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:36:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "semantic tag 'actions' is not in the valid tag list",
+      "suggestion": "action"
+    }
+  ]
+}

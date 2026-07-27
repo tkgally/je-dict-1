@@ -1,0 +1,24 @@
+{
+  "entry_id": "19836_mogi",
+  "headword": "{模擬|もぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:38:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'education' is too narrow for the headword '模擬'. While '模擬試験' (mock exam) is common, '模擬' itself has broader applications beyond education, as shown in example 1 ('模擬裁判' - mock trial) and example 2 ('模擬店' - mock booth).",
+      "suggestion": "Replace 'education' with 'general' or 'action' (as it often implies an action of simulating/mocking)."
+    }
+  ]
+}

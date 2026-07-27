@@ -1,0 +1,24 @@
+{
+  "entry_id": "19900_tsuudokusuru",
+  "headword": "{通読|つうどく}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:40:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '通読する'. While it implies a thorough reading, the word itself is not inherently formal and can be used in everyday contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

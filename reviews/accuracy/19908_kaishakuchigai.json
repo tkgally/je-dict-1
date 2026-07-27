@@ -1,0 +1,24 @@
+{
+  "entry_id": "19908_kaishakuchigai",
+  "headword": "{解釈違|かいしゃくちが}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:40:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'thought' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

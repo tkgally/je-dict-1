@@ -1,0 +1,31 @@
+{
+  "entry_id": "19728_kokoronimeijiru",
+  "headword": "{心|こころ}に{銘|めい}じる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:36:30Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'emotions' is not in the valid tag list.",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'thought' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

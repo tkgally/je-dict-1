@@ -1,0 +1,24 @@
+{
+  "entry_id": "19798_touki",
+  "headword": "{登記|とうき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:37:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'legal' is not in the valid tag list.",
+      "suggestion": "law"
+    }
+  ]
+}

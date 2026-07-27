@@ -1,0 +1,22 @@
+{
+  "entry_id": "19943_kokuji",
+  "headword": "{酷似|こくじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:46:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'evaluation' is incorrect for '酷似'. '酷似' describes a state of strong similarity, not an act of judging or evaluating.",
+      "suggestion": "Remove 'evaluation'."
+    }
+  ]
+}
