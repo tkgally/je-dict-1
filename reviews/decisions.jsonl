@@ -4253,3 +4253,9 @@
 {"ts": "2026-07-26T21:48:13Z", "entry": "19337", "src": "furigana", "dim": "furigana", "sev": "error", "decision": "apply", "note": "note claimed sake variant kanji, unrelated char"}
 {"ts": "2026-07-26T21:48:13Z", "src": "furigana", "dim": "furigana", "sev": "warn", "decision": "reject", "n": 24, "note": "family: truncated readings, okurigana splits, rendaku"}
 {"ts":"2026-07-27T00:40:00Z","entry":"06654","src":"self-check","dim":"tags","sev":"error","decision":"apply","note":"formality informal -> neutral, standard word"}
+{"ts":"2026-07-27T06:35:34Z","entry":"22061","src":"self-check","dim":"furigana","sev":"warn","decision":"apply","note":"caught malformed {コンビニ} no-pipe brace span"}
+{"ts":"2026-07-27T06:35:34Z","entry":"22061","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","note":"払 ばら correct rendaku in コンビニ払い"}
+{"ts":"2026-07-27T06:35:34Z","entry":"22464","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","note":"愛好 あいこう correct; truncated-token misread"}
+{"ts":"2026-07-27T06:35:34Z","entry":"23002","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","note":"札 さつ correct; entry contrasts ふだ/さつ"}
+{"ts":"2026-07-27T06:35:34Z","entry":"23329","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","note":"赤茶色 あかちゃいろ correct; truncated-token misread"}
+{"ts":"2026-07-27T06:35:34Z","src":"self-check","dim":"furigana","sev":"warn","decision":"reject","n":4,"note":"family: partial-reading FPs model self-resolved"}
