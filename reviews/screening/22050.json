@@ -1,0 +1,10 @@
+{
+  "entry_id": "22050",
+  "screened_at": "2026-07-27T06:24:49Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '仕事' is 'しごと', but the following text 'は{基本給|きほんき)' suggests a partial reading 'しごと' followed by 'は'. The provided reading 'しごと' is for the full kanji, which is correct, but the context implies a partial reading for the compound. However, the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' This makes it ambiguous. Given the instruction, 'しごと' for '仕事' is correct as a full reading. The issue is more with the parsing of the example rather than the reading itself. I will flag it for review due to the ambiguity in interpretation of the example's context versus the strict rule."
+  ],
+  "confidence": 0.6
+}
