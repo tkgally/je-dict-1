@@ -2,6 +2,25 @@
 
 Chronological record of wiki maintenance sessions. Each entry records what was done.
 
+## [2026-07-27] maintenance | Harvest 17 observations — three defect classes found by string scans, not by the reviewer (887 no-pipe wrappers, 18,272 nakaguro bullets, a four-months-corrupt conjugation table)
+
+**Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 21 unharvested-observation-lines signal)
+
+**Pre-flight**: §0a `list_pull_requests` found **0 open PRs** — nothing to rescue, nothing to sweep via MCP. Branch level with `origin/main`. Lock acquired cleanly on `claude/determined-rubin-1gmnrx`.
+
+**Mode**: `wiki`. No entries changed → **§4 self-verification skipped** (OpenRouter untouched, $0 spend this run); §5 metrics line appended (mode=wiki, changed=0); **no `make build`** (markdown + one JSON index only, `docs/` untouched).
+
+**Activities**:
+- **[F] Harvest** — all **17** loose observations from the 2026-07-27 polish (00908–07441 priority lane / 06650–06655 frontier), systemic-fix (22000–23499) and accuracy-review (19701–19950) runs, filed and cleared. New **Cleanup P28** (mixed `・` vs `- ` bullets in `notes`, measured this session at **18,272 line-initial instances across 2,524 entries**); new **Tooling items 38–40** (`review_accuracy.py --ids` destroying the §A review record; a cross-reference-pair tag-consistency check; the conjugation-vs-headword invariant behind 22070 走り続ける). Updates to Cleanup P17/P20/P21 and Tooling 6/8/11/19/20/23/24/34. Two **Entry Follow-ups** (03794/12672 悪口 variant-reading consolidation; 08169/17946 中火, where one entry carries the reading of a different word).
+- **[H] Metrics trend — twenty-sixth refresh** of `topics/quality-metrics.md` (16 new metrics lines, 353→369 runs / ~9,923 adjudicated flags). The 26-run escalation-free window ends at **2** flags — both single judgment calls, not a tail — while `tags` apply-among-decided climbs to **71.1%** (413/168) on the 19701–19950 off-vocab cohort (**49.6% of entries** carrying an off-list tag), furigana screening holds at **2.1%** (3/143, with one 102-entry screen returning **0 applicable**), the review queue sets a new floor at **12,352**, and OpenRouter's daily peak nearly doubles to **$0.86** (still 17% of cap).
+- **[A] Sync** — `project/overview.md` counts refreshed (29,955 entries / 27,152 general).
+- **[E] Lint** — re-verified the recurring `formality_variant` claim: it occurs in exactly one file (`prompts/comprehensive_polish.md:107`), **not** in `CLAUDE.md`; the misattribution has now propagated through the observation stream for two cycles and is stated flatly in Tooling item 34.
+- **Queue sync** — `ideas/backlog-queue.json` gained `furigana-no-pipe-span` (needs-detector, scope 887) and `notes-bullet-nakaguro` (needs-decision, scope 18,272); `updated` → 2026-07-27.
+
+**Editorial theme**: the second consecutive refresh whose most consequential finding sits outside both ledgers. 22070 走り続ける shipped with all 33 conjugated forms doubled (`走り続けるる`, `走り続けるます`) and **validated cleanly for nearly four months**; 887 no-pipe brace spans render as literal curly braces on the live site and are invisible to the furigana detector; the 19701–19950 off-vocab tags that produced this window's high `tags` precision are decidable by set membership without any model call. Recorded on the metrics page as a maintenance principle — *the external reviewer is a good instrument for judgments and a poor, expensive one for facts* — with the corresponding deterministic checks filed as Tooling 6, 8, 11, 24, 39, 40.
+
+**Routed to the curator**: the `comprehensive_polish.md:107` schema-invalid cross-reference types (fourth cycle); the exact-headings addition to the `vocabulary-notes` skill (Tooling 20); and both Entry Follow-ups, each turning on a reading/headword decision that changes an entry's identity.
+
 ## [2026-07-26] maintenance | Harvest 29 observations — two long-standing diagnoses turned into measurements (292 dead inline links; the notes scorer mis-scoring 6,351 entries)
 
 **Session type**: Unified Routine v2 — `wiki` mode (scheduler: "wiki: highest scheduler debt among eligible modes"; 33 unharvested-observation-lines signal)
