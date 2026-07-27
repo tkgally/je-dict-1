@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06661_naosara_ex1",
-      "japanese": "{雨|あめ}の{日|ひ}は{尚更|なおさら}{外|そと}に{出|で}たくない。",
+      "japanese": "⟦{雨|あめ}→雨：00583_ame⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧⟦は→は：00079_ha⟧{尚更|なおさら}⟦{外|そと}→外：00671_soto⟧⟦に→に：00314_ni⟧⟦{出|で}たくない→出る：00513_deru⟧。",
       "english": "On rainy days, I want to go out even less.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06661_naosara_ex2",
-      "japanese": "{病気|びょうき}の{時|とき}は{尚更|なおさら}{栄養|えいよう}を{取|と}らなければならない。",
+      "japanese": "⟦{病気|びょうき}→病気：00771_byouki⟧⟦の→の：09472_no⟧⟦{時|とき}→時：02918_toki⟧⟦は→は：00079_ha⟧{尚更|なおさら}⟦{栄養|えいよう}→栄養：01882_eiyou⟧⟦を→を：00422_wo⟧⟦{取|と}らなければならない→取る：00565_toru⟧。",
       "english": "When you're sick, you need to get nutrition all the more.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06661_naosara_ex3",
-      "japanese": "{彼|かれ}が{反対|はんたい}すると、{彼女|かのじょ}は{尚更|なおさら}やりたくなる。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦が→が：00051_ga⟧⟦{反対|はんたい}する→反対する：05648_hantaisuru⟧⟦と→と：00512_to⟧、⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧{尚更|なおさら}⟦やりたく→やる：02980_yaru⟧⟦なる→なる：01970_naru⟧。",
       "english": "The more he opposes it, the more she wants to do it.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,40 @@
       ]
     }
   ],
-  "notes": "USAGE:\n{尚更|なおさら} expresses \"even more so\" when a condition intensifies another situation.\n・AならBは{尚更|なおさら}だ (If A, then B is even more so)\n・{尚更|なおさら}〜ない (even less likely to ~)\n\nCOMMON PATTERNS:\n・{尚更|なおさら}のこと (all the more reason; especially)\n・ましてや〜は{尚更|なおさら}だ (let alone ~; ~ is even more so)\n\nEXAMPLE STRUCTURE:\n「AでもBだ。Cなら{尚更|なおさら}だ。」\n(If A, then B. If C, then even more so.)\n\nWRITING NOTE:\nOften written in hiragana as なおさら in casual contexts. The kanji {尚更|なおさら} is more formal.\n\nRELATED WORDS:\n・ますます (increasingly, more and more)\n・いっそう (even more, still more)\n・{一層|いっそう} (all the more - more formal)",
-  "cross_references": [],
+  "notes": "USAGE:\n{尚更|なおさら} says that a fact already true becomes *more* true once some further condition is added. It needs that earlier condition to lean on — either stated in the same sentence or clear from context — so it rarely opens a conversation. It sits directly before the part of the clause it intensifies.\n\nCOMMON PATTERNS:\n- A⟦なら→なら：09575_nara⟧B⟦は→は：00079_ha⟧{尚更|なおさら}⟦だ→だ：09496_da⟧: if A, then B all the more\n- {尚更|なおさら}〜⟦ない→ない：01118_nai⟧: even less likely to ~\n- {尚更|なおさら}⟦の→の：09472_no⟧⟦こと→こと：01164_koto⟧: all the more reason\n- ⟦ましてや→ましてや：26861_mashiteya⟧〜⟦は→は：00079_ha⟧{尚更|なおさら}⟦だ→だ：09496_da⟧: let alone ~, which is more so still\n\nWRITING NOTE:\nUsually written in kana as なおさら. The kanji spelling {尚更|なおさら} is the more formal choice and is common in writing.\n\nSIMILAR ADVERBS:\n- ⟦ますます→ますます：01604_masumasu⟧: increasingly — describes a trend continuing, with no conditional step\n- ⟦{一層|いっそう}→一層：01730_issou⟧: all the more — close in meaning but formal, and usable without a stated condition\n- {尚更|なおさら} differs from both in requiring a prior fact that it builds on.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "いっそう",
+      "headword": "{一層|いっそう}",
+      "target_id": "01730_issou",
+      "label": "all the more (formal)"
+    },
+    {
+      "type": "related",
+      "reading": "ますます",
+      "headword": "ますます",
+      "target_id": "01604_masumasu",
+      "label": "increasingly"
+    },
+    {
+      "type": "related",
+      "reading": "ましてや",
+      "headword": "ましてや",
+      "target_id": "26861_mashiteya",
+      "label": "let alone"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T04:00:25Z",
-    "modified": "2026-01-19T12:17:44.596502Z",
+    "modified": "2026-07-27T18:20:42Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "adverb"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "descriptive"
