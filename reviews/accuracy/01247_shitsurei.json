@@ -2,23 +2,15 @@
   "entry_id": "01247_shitsurei",
   "headword": "{失礼|しつれい}",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-11T04:46:30Z",
+  "reviewed_at": "2026-07-27T09:28:52Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '失礼'. While it can be used in formal contexts, it is also very commonly used in everyday, neutral situations.",
-      "suggestion": "neutral"
-    }
-  ]
+  "issues": []
 }

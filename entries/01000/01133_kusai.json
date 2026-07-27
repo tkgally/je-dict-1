@@ -118,11 +118,40 @@
       ]
     }
   ],
-  "notes": "{臭|くさ}い is an i-adjective meaning \"smelly\" or figuratively \"suspicious.\"\n\nFORMS:\n- Negative: {臭|くさ}くない\n- Past: {臭|くさ}かった\n- Te-form: {臭|くさ}くて\n\nAS A SUFFIX (〜くさい):\nAttaches to nouns to mean \"smelling of\" or \"seems like\":\n- ⟦{汗|あせ}→汗：02173_ase⟧{臭|くさ}い: smelling of sweat\n- ⟦タバコ→タバコ：02909_tabako⟧{臭|くさ}い: smelling of cigarettes\n- ⟦{嘘|うそ}→嘘：01796_uso⟧{臭|くさ}い: seems like a lie\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧{臭|くさ}い: suspicious (like the culprit)\n\nRELATED:\n- ⟦におい→匂い：00874_nioi⟧/{臭|にお}い: smell, odor (neutral/negative)\n- ⟦{香|かお}り→香り：00189_kaori⟧: fragrance (pleasant)",
-  "cross_references": [],
+  "notes": "{臭|くさ}い is an i-adjective meaning \"smelly\" or figuratively \"suspicious.\"\n\nFORMS:\n- Negative: {臭|くさ}くない\n- Past: {臭|くさ}かった\n- Te-form: {臭|くさ}くて\n\nAS A SUFFIX (〜くさい):\nAttaches to nouns to mean \"smelling of\" or \"seems like\":\n- ⟦{汗|あせ}→汗：02173_ase⟧{臭|くさ}い: smelling of sweat\n- ⟦タバコ→タバコ：02909_tabako⟧{臭|くさ}い: smelling of cigarettes\n- ⟦{嘘|うそ}→嘘：01796_uso⟧{臭|くさ}い: seems like a lie\n- ⟦{犯人|はんにん}→犯人：03572_hannin⟧{臭|くさ}い: suspicious (like the culprit)\n\nThe suffix always carries a negative judgment, even when the base noun is neutral — ⟦{面倒|めんどう}くさい→面倒くさい：05308_mendokusai⟧ (too much bother) and ⟦{古臭|ふるくさ}い→古臭い：15771_furukusai⟧ (tiresomely old-fashioned) are the most common everyday examples.\n\nUSAGE AND REGISTER:\n- Saying {臭|くさ}い about a ⟦{人|ひと}→人：00476_hito⟧ to their face is blunt and rude; it is normal only between family or close friends. In polite company people describe the smell rather than the person.\n- Sense 2 (\"fishy\") is casual speech. In a report or formal discussion, use ⟦あやしい→怪しい：10267_ayashii⟧ instead.\n\nSIMILAR ADJECTIVES AND RELATED WORDS:\n- ⟦におい→匂い：00874_nioi⟧ / ⟦{臭|にお}い→匂い：00874_nioi⟧: smell, odor — 匂い for neutral or pleasant, 臭い for foul\n- ⟦{匂|にお}う→匂う：00319_niou⟧: to give off a smell (the verb)\n- ⟦{香|かお}り→香り：00189_kaori⟧: fragrance (pleasant)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00874_nioi",
+      "reading": "におい",
+      "headword": "{匂|にお}い",
+      "note": "the noun: smell, odor"
+    },
+    {
+      "type": "related",
+      "target_id": "00319_niou",
+      "reading": "におう",
+      "headword": "{匂|にお}う",
+      "note": "the verb: to give off a smell"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00189_kaori",
+      "reading": "かおり",
+      "headword": "{香|かお}り",
+      "note": "fragrance; the pleasant counterpart"
+    },
+    {
+      "type": "synonym",
+      "target_id": "10267_ayashii",
+      "reading": "あやしい",
+      "headword": "{怪|あや}しい",
+      "note": "suspicious; the neutral-register equivalent of sense 2"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:04:07Z",
-    "modified": "2026-05-14T13:14:49Z",
+    "modified": "2026-07-27T09:18:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {

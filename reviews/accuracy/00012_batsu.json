@@ -8,17 +8,31 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-14T09:30:36Z",
+  "reviewed_at": "2026-07-27T09:28:48Z",
   "summary": {
-    "flagged": 1
+    "flagged": 3
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
       "severity": "error",
-      "concern": "The gloss 'wrong' is too broad and misleading for the headword '×/バツ'. While '×' can indicate something is wrong, 'wrong' itself is an adjective or adverb, not a noun meaning 'X mark' or 'cross'.",
-      "suggestion": "Change 'wrong' to 'wrong answer' or 'incorrect mark' to align with the noun usage of '×/バツ'."
+      "concern": "The gloss 'wrong' is too broad and misleading as a primary gloss for the headword. While 'X mark' can indicate something is wrong, the word itself doesn't directly mean 'wrong' in all contexts.",
+      "suggestion": "X mark; cross; incorrect mark"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'previous marriage (slang)' is misleading. The slang refers to the status of being divorced, not the marriage itself.",
+      "suggestion": "divorced status (slang)"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[8]",
+      "severity": "error",
+      "concern": "The English translation 'Do you mind marrying someone who's been divorced?' is grammatically incorrect. It should be 'Do you mind marrying someone who has been divorced?' or 'Do you mind marrying someone who is divorced?'",
+      "suggestion": "Do you mind marrying someone who has been divorced?"
     }
   ]
 }

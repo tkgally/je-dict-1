@@ -2,36 +2,23 @@
   "entry_id": "00039_erai",
   "headword": "{偉|えら}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:39:11Z",
+  "reviewed_at": "2026-07-27T09:28:50Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "gloss",
       "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'terrible' is misleading without context, as '偉い' in this sense is an intensifier, not a direct synonym for 'terrible' as a negative adjective.",
-      "suggestion": "Change 'terrible' to 'terribly' or 'awfully' to better reflect its adverbial use as an intensifier in this context."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[12]",
-      "severity": "warn",
-      "concern": "The translation 'I had a terrible experience' for '偉い目に遭った' is a common interpretation but misses the nuance of '偉い' as an intensifier here, implying a *very* bad or *serious* experience, rather than just 'terrible'.",
-      "suggestion": "Change to 'I had a really terrible experience' or 'I had a serious/awful experience'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[13]",
-      "severity": "warn",
-      "concern": "The translation 'Things have gotten bad' for '偉いことになった' is a bit weak. '偉いこと' implies a *serious* or *grave* situation, not just 'bad'.",
-      "suggestion": "Change to 'Things have gotten serious' or 'Things have gotten really bad'."
+      "severity": "error",
+      "concern": "The gloss 'terrible' is misleading as a primary meaning for 偉い. While it can be used adverbially to mean 'terribly' or 'awfully' (as in 偉く), the adjective 偉い itself doesn't mean 'terrible' in the sense of 'bad'. It means 'great', 'important', or 'admirable'. The third sense in the definitions clarifies this adverbial usage, but the main gloss is confusing.",
+      "suggestion": "Remove 'terrible' from the main gloss. The adverbial usage is covered by the third sense and its examples."
     }
   ]
 }
