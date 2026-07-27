@@ -1,0 +1,24 @@
+{
+  "entry_id": "19932_kongen",
+  "headword": "{根源|こんげん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:40:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'abstract-concept' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}

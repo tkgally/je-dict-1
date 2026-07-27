@@ -1,0 +1,24 @@
+{
+  "entry_id": "19840_kika",
+  "headword": "{帰化|きか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:38:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '帰化' (naturalization) also has a biological meaning, which is not covered by 'society' or 'law'.",
+      "suggestion": "Add 'biology' to the semantic tags."
+    }
+  ]
+}

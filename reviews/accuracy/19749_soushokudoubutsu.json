@@ -1,0 +1,24 @@
+{
+  "entry_id": "19749_soushokudoubutsu",
+  "headword": "{草食動物|そうしょくどうぶつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:36:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'animals' is not in the valid tag list.",
+      "suggestion": "animal-general"
+    }
+  ]
+}

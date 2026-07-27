@@ -1,0 +1,22 @@
+{
+  "entry_id": "19924_parapara",
+  "headword": "ぱらぱら",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:46:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The 'weather' tag is too narrow and doesn't cover all meanings of 'ぱらぱら'.",
+      "suggestion": "Add 'daily-life' or 'general' to better encompass the broader usage, especially for senses 2 and 3."
+    }
+  ]
+}

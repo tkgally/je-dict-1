@@ -1,0 +1,24 @@
+{
+  "entry_id": "19819_geshi",
+  "headword": "{夏至|げし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-27T12:38:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'calendar' is not in the valid tag list.",
+      "suggestion": "time-general"
+    }
+  ]
+}
