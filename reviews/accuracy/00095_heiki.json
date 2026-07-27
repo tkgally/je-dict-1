@@ -2,43 +2,23 @@
   "entry_id": "00095_heiki",
   "headword": "{平気|へいき}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:40:46Z",
+  "reviewed_at": "2026-07-27T18:30:42Z",
   "summary": {
-    "flagged": 4
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'emotion' is too narrow for '平気'. While it can relate to emotional states, it also describes a state of being physically unaffected or capable of enduring something, which isn't strictly an emotion.",
-      "suggestion": "Remove 'emotion' or add broader tags like 'state' or 'condition'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "'calm face' is a bit too literal and not the most natural English for '平気な顔をしている' in this context. It implies a deliberate act of appearing calm, whereas 平気な顔 often means 'unfazed' or 'showing no concern'.",
-      "suggestion": "Change to 'Even when he fails, he shows no concern.' or '...he remains unfazed.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "'calm face' is again too literal and not the most natural English for '平気な顔だ' in this context. It implies a deliberate act of appearing calm, whereas 平気な顔 often means 'unfazed' or 'showing no concern'.",
-      "suggestion": "Change to 'Even when scolded, he remains unfazed.' or '...he shows no concern.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "warn",
-      "concern": "'Is it okay if I make you wait?' is a possible translation, but '待たせても平気？' more directly asks if the act of being made to wait is 'fine' or 'unbothersome' to the other person, rather than asking for permission. The nuance is slightly different.",
-      "suggestion": "Change to 'Are you okay with waiting?' or 'Would it be alright if I made you wait?'"
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is too narrow and potentially misleading for '平気'. While 'unconcerned' can relate to emotion, 'calm', 'fine', and 'okay' often describe a state of being or ability to handle something, not purely an emotion.",
+      "suggestion": "Replace 'emotion' with 'descriptive' or 'general' as it describes a state or condition rather than a specific emotion."
     }
   ]
 }

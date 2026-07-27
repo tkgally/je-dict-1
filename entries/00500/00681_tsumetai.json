@@ -2,7 +2,7 @@
   "id": "00681_tsumetai",
   "headword": "{冷|つめ}たい",
   "reading": "つめたい",
-  "part_of_speech": "adjective (i-adjective)",
+  "part_of_speech": "i-adjective",
   "gloss": "cold (to touch)",
   "definitions": [
     {
@@ -118,14 +118,21 @@
       ]
     }
   ],
-  "notes": "{冷|つめ}たい is an i-adjective meaning \"cold\" for things you can touch, or \"cold-hearted\" for people.\n\nFORMS:\n- Adverb: {冷|つめ}たく\n- Noun: {冷|つめ}たさ (coldness)\n- Negative: {冷|つめ}たくない\n- Past: {冷|つめ}たかった\n\nIMPORTANT DISTINCTION:\n- {冷|つめ}たい: cold to touch (objects, drinks, hands)\n- ⟦{寒|さむ}い→寒い：00664_samui⟧: cold weather/temperature (ambient)\n\nSENSE 1 - PHYSICAL COLD:\n- {冷|つめ}たい⟦{水|みず}→水：02258_mizu⟧: cold water\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{冷|つめ}たい: hands are cold\n- {冷|つめ}たい⟦ビール→ビール：01015_biiru⟧: cold beer\n\nSENSE 2 - COLD-HEARTED:\n- {冷|つめ}たい⟦{人|ひと}→人：00476_hito⟧: cold/unfriendly person\n- {冷|つめ}たい⟦{態度|たいど}→態度：03396_taido⟧: cold attitude\n- {冷|つめ}たい⟦{目|め}→目：00525_me⟧: cold eyes/gaze\n\nOPPOSITES:\n- ⟦{温|あたた}かい→暖かい：00618_atatakai⟧ / ⟦{暖|あたた}かい→暖かい：00618_atatakai⟧: warm\n- ⟦{熱|あつ}い→熱い：09888_atsui⟧: hot",
+  "notes": "USAGE:\n{冷|つめ}たい describes something cold when you touch it or drink it, and — of a person, their manner, or their gaze — an absence of warmth. It is used both before a noun ({冷|つめ}たい⟦{水|みず}→水：02258_mizu⟧) and as a predicate (⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{冷|つめ}たい). It is never used for cold weather — that is ⟦{寒|さむ}い→寒い：00664_samui⟧.\n\nFORMS:\n- Adverb: {冷|つめ}たく\n- Noun: {冷|つめ}たさ (coldness)\n- Negative: {冷|つめ}たくない\n- Past: {冷|つめ}たかった\n\nSIMILAR ADJECTIVES:\n- {冷|つめ}たい: cold to touch (objects, drinks, hands)\n- ⟦{寒|さむ}い→寒い：00664_samui⟧: cold weather/temperature (ambient)\n\nCOLLOCATIONS — SENSE 1, PHYSICAL COLD:\n- {冷|つめ}たい⟦{水|みず}→水：02258_mizu⟧: cold water\n- ⟦{手|て}→手：00569_te⟧⟦が→が：00051_ga⟧{冷|つめ}たい: hands are cold\n- {冷|つめ}たい⟦ビール→ビール：01015_biiru⟧: cold beer\n\nCOLLOCATIONS — SENSE 2, COLD-HEARTED:\n- {冷|つめ}たい⟦{人|ひと}→人：00476_hito⟧: cold/unfriendly person\n- {冷|つめ}たい⟦{態度|たいど}→態度：03396_taido⟧: cold attitude\n- {冷|つめ}たい⟦{目|め}→目：00525_me⟧: cold eyes/gaze\n\nOPPOSITES:\n- ⟦{温|あたた}かい→温かい：13395_atatakai⟧: warm to the touch (food, drink, hands) — the true opposite of {冷|つめ}たい, and also the opposite of its cold-hearted sense\n- ⟦{熱|あつ}い→熱い：09888_atsui⟧: hot to the touch\n- ⟦{暖|あたた}かい→暖かい：00618_atatakai⟧ is warm *weather*, and so pairs with ⟦{寒|さむ}い→寒い：00664_samui⟧ rather than with {冷|つめ}たい",
   "cross_references": [
     {
       "type": "antonym",
       "reading": "あたたかい",
+      "headword": "{温|あたた}かい",
+      "target_id": "13395_atatakai",
+      "label": "warm (to the touch)"
+    },
+    {
+      "type": "related",
+      "reading": "あたたかい",
       "headword": "{暖|あたた}かい",
       "target_id": "00618_atatakai",
-      "label": "warm"
+      "label": "warm (weather)"
     },
     {
       "type": "contrast",
@@ -144,7 +151,7 @@
   ],
   "metadata": {
     "created": "2026-01-07T12:36:47Z",
-    "modified": "2026-06-15T15:20:08Z",
+    "modified": "2026-07-27T18:20:42Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

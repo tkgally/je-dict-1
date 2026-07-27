@@ -2,22 +2,15 @@
   "entry_id": "00619_atsui",
   "headword": "{暑|あつ}い",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:17Z",
+  "reviewed_at": "2026-07-27T18:30:48Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is slightly incomplete.",
-      "suggestion": "Change 'hot (weather)' to 'hot (weather, temperature)' to align with the more complete sense gloss."
-    }
-  ]
+  "issues": []
 }
