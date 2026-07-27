@@ -1,6 +1,6 @@
 # Entry Follow-ups
 
-**Last updated**: 2026-07-26 (added **18554 訓読** — conflates 訓読 くんどく [kanbun kundoku] with 訓読み くんよみ; furigana + gloss corrected in-run, but the split is a curator call. **00475 / 00765 / 02640 やさしい** — three entries across two words [易しい / 優しい], with 00765's examples 6–10 all 優しい under an 易しい headword; needs a target-shape decision before any per-entry fix. **04467_shichou** — bound morphemes and honorific prefixes [`⟦{視|し}→視：noentry⟧`, `⟦ご→ご：noentry⟧`] routed through `noentry`, where they are permanently unresolvable and will be re-checked forever by the stale-`noentry` scan; a convention gap for the `inline-word-links` skill, not an entry defect. Also **lint**: marked the duplicate 気持ち filing and recorded its third report — polishers are linking 気持ち to *both* IDs arbitrarily, so the eventual merge gets more expensive every run.) Prior 2026-07-03 (added **07105 遠視** — no inline links + weak sole `general` tag where siblings 近視/乱視 use `health`, needs a full frontier polish; **06372 引き伸ばす** — dubious 書き伸ばす/押し伸ばす in its RELATED ～伸ばす note, revise to standard compounds. Prior 2026-06-26: 29452 猿人 wrong-reading **RESOLVED** — corrected to えんじん + file renamed 29452_sarujin→29452_enjin by the 2026-06-25 new-entries run [drop redundant candidate C22059]; added 書き替える C22065 — 替-variant of 08225 書き換える, fold as alternate orthography. Prior 2026-06-25: 29452_sarujin wrong-reading flagged; 2026-06-23: 00642_kinyoubi missing weekday cross_references)
+**Last updated**: 2026-07-27 (added **03794_warukuchi / 12672_waruguchi 悪口** — the same word split across two standard readings (わるくち / わるぐち), a variant-reading consolidation rather than a delete, needing a curator call on which reading leads the headword; and **08169_chuubi / 17946_nakabi 中火** — one of the two is simply wrong: 中火 is read ちゅうび, and なかび is the reading of 中日, so 17946 is either a mis-created duplicate or an entry that was meant to be 中日 and got the wrong kanji, notable because a 2026-07-20 furigana screen flagged its reading and the run *correctly* rejected the flag as an alternate reading — the real defect was invisible from inside the entry.) Prior 2026-07-26
 
 Specific entries identified during comprehensive-polish sessions as needing work beyond what fits a single polishing pass. Items below 00607 are likely to be addressed by the comprehensive-polish task as it advances. Each item includes the entry ID, the issue, and a recommended fix.
 
@@ -737,6 +737,57 @@ them permanently.
 the second skill-level linking gap found in the same cycle (see
 [Tooling 37](tooling-backlog.md#37-detector-copula-て-form-で-inline-linked-to-the-particle-で) for the
 copula `で` case). **Curator action** — `wiki` runs may not edit skills.
+
+## 03794_warukuchi & 12672_waruguchi (悪口) — same word under two readings, merge candidate
+
+**Source**: 2026-07-27 routine polish observation.
+
+`03794_warukuchi` (わるくち) and `12672_waruguchi` (わるぐち) are the same word — 悪口,
+"speaking ill of someone" — split across two entries by reading alone. Both readings are
+standard and dictionary-attested (わるぐち is the more common in modern speech; わるくち is
+the older/more formal), which makes this a **variant-reading consolidation**, not a
+duplicate-and-delete: the surviving entry should document both readings in a VARIANTS
+section rather than silently drop one.
+
+**Recommended resolution**: keep the lower ID (`03794`) as the surviving entry per the
+consolidation convention, fold in anything `12672` has that it lacks, add both readings to
+the notes, and redirect inbound cross-references and inline links. This needs the
+`consolidate-entries` skill and a curator decision on which reading leads the headword — the
+reading is filename-romaji-affecting, so it is not a Routine-side call.
+
+**Related**: [Cleanup P8](cleanup-backlog.md#priority-8-unconsolidated-duplicate-expression-entries).
+
+## 08169_chuubi & 17946_nakabi (中火) — one entry has the wrong reading entirely
+
+**Source**: 2026-07-27 routine polish observation (found while inline-linking 06656 火加減).
+
+Both entries carry the headword 中火 with the same gloss ("medium heat (cooking)"), under two
+different readings:
+
+| Entry | Headword | Reading |
+|---|---|---|
+| `08169_chuubi` | `{中火\|ちゅうび}` | ちゅうび |
+| `17946_nakabi` | `{中火\|なかび}` | なかび |
+
+**中火 is read ちゅうび.** なかび is the reading of **中日** (the middle day of a period —
+a different word with different kanji), so `17946` is not a variant reading: it is either a
+mis-created duplicate of 08169 or an entry that was *meant* to be 中日 and got the wrong
+kanji at creation.
+
+**Two possible resolutions, and the choice is a curator call**:
+1. **Duplicate** → delete/merge `17946` into `08169` per the `delete-entry` skill, redirecting
+   any inbound references.
+2. **Wrong kanji** → fix `17946`'s headword to 中日 and rewrite its gloss/examples, keeping
+   the ID and reading.
+
+Resolution (2) preserves an entry for a word the dictionary otherwise lacks, so it is worth
+checking whether 中日 has an entry before defaulting to deletion. Note that `17946` was
+already touched once, on 2026-07-20, when a furigana screen flagged its reading and the run
+**correctly rejected the flag as an alternate reading** — the deeper problem was not visible
+from inside the entry.
+
+**Related**: [Cleanup P8](cleanup-backlog.md#priority-8-unconsolidated-duplicate-expression-entries),
+`resolve-duplicates` skill.
 
 ## Related pages
 

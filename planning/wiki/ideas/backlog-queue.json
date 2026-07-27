@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-07-26",
+  "updated": "2026-07-27",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -339,6 +339,34 @@
       "scope_estimate": 7,
       "severity": "info",
       "notes": "Contemporary Japanese writes AUXILIARY verbs in kana (〜ておく/てみる/ていく/てくる), reserving kanji for the same verbs as MAIN verbs. 01092_oku wrote 〜て{置|お}く in 5 of its own examples while its notes used kana. Measured 2026-07-25 (occurrences/entries): て行く 222/200, て来る 203/34, て見る 168/138, て置く 7/7. NOT batch_ready and NOT mechanical: those counts are a superset -- the same strings are correct when the verb is the MAIN verb of a te-form sequence (持って{来|き}て, 駅で{見|み}た). Only the ておく row (7 entries) is a clean bounded batch. てみる/ていく/てくる need a documented house convention FIRST (example-sentences skill is the natural home) -- a blanket rewrite there is a style imposition, not a correction. Curator decision gates the rest."
+    },
+    {
+      "id": "furigana-no-pipe-span",
+      "title": "No-pipe brace spans ({コンビニ}, {稀}) — malformed wrappers the furigana detector cannot see",
+      "source": "ideas/cleanup-backlog.md#priority-9",
+      "detect": "python3 -c \"import json,glob,re;\\nimport sys\\nfor f in sorted(glob.glob('entries/*/[0-9]*.json')):\\n    d=json.load(open(f,encoding='utf-8')); s=json.dumps(d,ensure_ascii=False)\\n    for m in re.findall(r'\\\\{[^{}|]+\\\\}', s): print(d['id'], m)\"",
+      "fix_type": "semantic-verify",
+      "verify": "per-entry",
+      "priority": 9,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": 887,
+      "severity": "warn",
+      "notes": "Measured 2026-07-27: 887 instances across 616 entries. FURIGANA_PATTERN in build/japanese_utils.py requires a pipe, so these spans are never matched, never stripped, and render as literal curly braces on the live site; all five check_furigana_format.py subpatterns share that assumption, so this family is missing from every P9 scope estimate. Two sub-shapes: (a) kana/loanword spans to de-brace ({コンビニ}, {ゴミ}, {スカート}, {おひたし}); (b) bare kanji with no reading ({稀}, {続}, {匂}, {漸}) which also leave the kanji unglossed. NOT mechanical: a minority are intentional notation that must keep its braces -- {1, 2, 3, ...} set notation (23397 自然数), {X} pattern placeholders, {emotion} category labels. Ship a no-pipe subpattern in check_furigana_format.py with those as a documented reject family (tooling-backlog item 8) before sweeping."
+    },
+    {
+      "id": "notes-bullet-nakaguro",
+      "title": "Mixed bullet markers (・ vs '- ') inside notes fields",
+      "source": "ideas/cleanup-backlog.md#priority-28",
+      "detect": "python3 -c \"import json,glob,re;\\nfor f in sorted(glob.glob('entries/*/[0-9]*.json')):\\n    d=json.load(open(f,encoding='utf-8')); n=d.get('notes') or ''\\n    n='\\\\n'.join(map(str,n)) if isinstance(n,list) else n\\n    c=len(re.findall(r'(?m)^\\\\s*・', n))\\n    if c: print(d['id'], c)\"",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 28,
+      "batch_ready": false,
+      "status": "needs-decision",
+      "scope_estimate": 18272,
+      "severity": "info",
+      "notes": "Measured 2026-07-27: 18,272 line-initial ・ instances across 2,524 entries (~1/12 of the dictionary). Older notes templates use ・ as the list bullet; the house convention is '- '. Both render, and score_note_quality.py's bullet check treats them alike, so nothing surfaces it. Safe rule is doubly anchored: line-initial AND inside the notes field only -- ・ is real punctuation as a compound-name/loanword separator (コーヒー・ブレイク) and as a mid-line list separator, so example sentences, headwords, glosses, and mid-line ・ must not be touched. Sequence: reproduce the count in a detector, sample ~30 entries for line-initial ・ used as genuine punctuation, then sweep in ID blocks with validation after each."
     }
   ]
 }
