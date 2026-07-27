@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06651_omoiyari_ex1",
-      "japanese": "{思|おも}いやりのある{人|ひと}になりたい。",
+      "japanese": "{思|おも}いやり⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧⟦に→に：00314_ni⟧⟦なりたい→なる：01970_naru⟧。",
       "english": "I want to be a considerate person.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06651_omoiyari_ex2",
-      "japanese": "{彼|かれ}の{思|おも}いやりに{感動|かんどう}した。",
+      "japanese": "⟦{彼|かれ}→彼：01292_kare⟧⟦の→の：09472_no⟧{思|おも}いやり⟦に→に：00314_ni⟧⟦{感動|かんどう}した→感動：00167_kandou⟧。",
       "english": "I was moved by his thoughtfulness.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06651_omoiyari_ex3",
-      "japanese": "{思|おも}いやりを{持|も}って{接|せっ}することが{大切|たいせつ}だ。",
+      "japanese": "{思|おも}いやり⟦を→を：00422_wo⟧⟦{持|も}って→持つ：00478_motsu⟧⟦{接|せっ}する→接する：12920_sessuru⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "It's important to treat people with consideration.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "COMMON EXPRESSIONS:\n・{思|おも}いやりのある{人|ひと} (a considerate/thoughtful person)\n・{思|おも}いやりを{持|も}つ (to have consideration)\n・{思|おも}いやりに{欠|か}ける (to lack consideration)\n・{思|おも}いやりの{心|こころ} (a caring heart)\n\nCULTURAL NOTE:\n{思|おも}いやり is an important Japanese cultural value, emphasizing anticipating others' needs without being asked. It's related to concepts like {気配|きくば}り (attentiveness) and {心遣|こころづか}い (consideration).\n\nETYMOLOGY:\nFrom {思|おも}いやる (to sympathize with, to consider) - literally \"to send one's thoughts\" to another person.\n\nRELATED WORDS:\n・{気配|きくば}り (attentiveness, being considerate)\n・{心遣|こころづか}い (consideration, thoughtfulness)\n・{優|やさ}しさ (kindness, gentleness)",
+  "notes": "{思|おも}いやり is the disposition to imagine what another person is feeling and to act on it before being asked. It is a quality a person has, not an act performed, so it pairs with ⟦ある→ある：00006_aru⟧ and ⟦{持|も}つ→持つ：00478_motsu⟧ rather than with ⟦する→する：00392_suru⟧.\n\nCOMMON EXPRESSIONS:\n・{思|おも}いやり⟦の→の：09472_no⟧⟦ある→ある：00006_aru⟧⟦{人|ひと}→人：00476_hito⟧ (a considerate/thoughtful person)\n・{思|おも}いやり⟦を→を：00422_wo⟧⟦{持|も}つ→持つ：00478_motsu⟧ (to have consideration)\n・{思|おも}いやり⟦に→に：00314_ni⟧⟦{欠|か}ける→欠ける：13167_kakeru⟧ (to lack consideration)\n・{思|おも}いやり⟦の→の：09472_no⟧⟦{心|こころ}→心：01321_kokoro⟧ (a caring heart)\n\nCULTURAL NOTE:\n{思|おも}いやり is treated as a core social value in Japan and appears constantly in school mottoes and public messaging. What it emphasizes is anticipating what someone needs without their having to ask — asking outright can itself be seen as putting the other person on the spot.\n\nETYMOLOGY:\nThe masu-stem of ⟦{思|おも}いやる→思いやる：25839_omoiyaru⟧ (to sympathize with, to be considerate of) — literally 'to send one's thoughts' out to another person.\n\nRELATED WORDS:\n・⟦{気配|きくば}り→気配り：06688_kikubari⟧ (attentiveness — noticing and acting on small practical needs)\n・⟦{心遣|こころづか}い→心遣い：07296_kokorozukai⟧ (consideration shown in a specific gesture)\n・⟦{優|やさ}しさ→優しさ：25588_yasashisa⟧ (kindness, gentleness — a broader trait)",
   "cross_references": [
     {
       "type": "related",
@@ -65,11 +65,25 @@
       "reading": "あわれみ",
       "headword": "{憐|あわ}れみ",
       "label": "pity; can be condescending"
+    },
+    {
+      "type": "related",
+      "target_id": "07296_kokorozukai",
+      "reading": "こころづかい",
+      "headword": "{心遣|こころづか}い",
+      "label": "thoughtfulness"
+    },
+    {
+      "type": "related",
+      "target_id": "25839_omoiyaru",
+      "reading": "おもいやる",
+      "headword": "{思|おも}いやる",
+      "label": "to be considerate of (source verb)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T03:55:50Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-27T00:19:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

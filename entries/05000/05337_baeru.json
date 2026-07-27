@@ -153,11 +153,26 @@
       ]
     }
   ],
-  "notes": "{映|ば}える (ばえる) is a modern colloquial term that became popular with social media culture, particularly Instagram. It's derived from the traditional verb ⟦{映|は}える→映える：02393_haeru⟧ (はえる, to shine/stand out).\n\nCOMMON EXPRESSIONS:\n- {映|ば}える⟦{写真|しゃしん}→写真：00753_shashin⟧ (ばえるしゃしん): photogenic photo\n- {映|ば}え⟦スポット→スポット：11578_supotto⟧ (ばえスポット): Instagrammable spot\n- ⟦インスタ→インスタ：28008_insuta⟧{映|ば}え (いんすたばえ): Instagram-worthy\n\nUSAGE NOTE:\nThis reading ばえる is informal/colloquial. The standard reading ⟦{映|は}える→映える：02393_haeru⟧ means \"to shine\" or \"to look attractive\" in a more general sense.",
-  "cross_references": [],
+  "notes": "{映|ば}える (ばえる) is a modern colloquial term that became popular with social media culture, particularly Instagram. It's derived from the traditional verb ⟦{映|は}える→映える：02393_haeru⟧ (はえる, to shine/stand out).\n\nCOMMON EXPRESSIONS:\n- {映|ば}える⟦{写真|しゃしん}→写真：00753_shashin⟧ (ばえるしゃしん): photogenic photo\n- {映|ば}え⟦スポット→スポット：11578_supotto⟧ (ばえスポット): Instagrammable spot\n- ⟦インスタ→インスタ：28008_insuta⟧{映|ば}え (いんすたばえ): Instagram-worthy\n\nGRAMMAR:\n- The thing that photographs well is the subject, marked with ⟦が→が：00051_ga⟧ or ⟦は→は：00079_ha⟧; there is no object.\n- The masu-stem noun {映|ば}え is used at least as often as the verb, almost always as the second half of a compound: ⟦インスタ→インスタ：28008_insuta⟧{映|ば}え, ⟦{写真|しゃしん}→写真：00753_shashin⟧{映|ば}え. That compound position is where the voiced ば- reading comes from — it is rendaku on ⟦{映|は}える→映える：02393_haeru⟧ — and the standalone verb {映|ば}える is a back-formation from it.\n- It says nothing about how something looks in person, only how it comes out in a photo or video.\n\nUSAGE NOTE:\nThis reading ばえる is informal and belongs to social-media speech; it would be out of place in writing. The standard reading ⟦{映|は}える→映える：02393_haeru⟧ (はえる) means \"to shine\" or \"to stand out attractively\" in a more general sense and is neutral in register.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02393_haeru",
+      "reading": "はえる",
+      "headword": "{映|は}える",
+      "label": "to shine, to stand out (standard reading)"
+    },
+    {
+      "type": "related",
+      "target_id": "28008_insuta",
+      "reading": "いんすた",
+      "headword": "インスタ",
+      "label": "Instagram"
+    }
+  ],
   "metadata": {
     "created": "2026-01-16T05:48:20Z",
-    "modified": "2026-06-05T18:06:14Z",
+    "modified": "2026-07-27T00:19:33Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -170,7 +185,8 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "action"
+        "appearance",
+        "descriptive"
       ],
       "verb_class": "ichidan"
     }
