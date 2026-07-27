@@ -509,3 +509,11 @@ All 29 observations cleared.)_
 - [pattern] 〜甲斐 words (06653 やり甲斐, 06654 生き甲斐) were both tagged `informal`; the
   external reviewer flagged 06654 and the same correction applied to 06653. Worth a sweep
   of `formality: informal` on ordinary Sino-Japanese/native nouns.
+- [pattern] The non-"seen in entry" portion of `candidate_words.json` (~1,030 of 1,044) is
+  dominated by corpus residue that is not entry-worthy: inflected forms (勝てない, 動かない,
+  強く), transparent numeral/counter combinations (四十五, 三千円, 六歳), phrase fragments
+  (周囲の状況, 本人の意向), and apparent coinages or mis-glosses (個尊, 些道, 怒燥,
+  アンパッサン glossed "ice cream sundae"). A new-entries run that needs 20 words has to
+  hand-sift several hundred lines to find seven usable ones. Worth either a scored cleanup
+  pass over the pool or a `manage_candidates.py` quality filter, so the "seen in entry" lane
+  (13 items here, all good) isn't the only reliable source.
