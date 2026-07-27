@@ -1,0 +1,13 @@
+{
+  "entry_id": "30165",
+  "screened_at": "2026-07-27T21:25:46Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 成長率 in entry 1 is \"せいちょう\" but the full reading for 成長率 is \"せいちょうりつ\". This is a partial reading, but it's missing the 'りつ' part which is part of the kanji. The instruction states \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" However, in this case, the partial reading is for a compound word where the full compound is 成長率 (せいちょうりつ), and the reading provided is only for 成長 (せいちょう). This is a common pattern for splitting readings before okurigana, but here it's splitting within a compound word's kanji portion. Given the example \"先行→さきゆ followed by き (先行き=さきゆき)\", where the split is before okurigana, this case is different as 'りつ' is part of the kanji. It's possible this is an intentional partial reading for a specific context, but it deviates from the full kanji reading of 成長率.",
+    "The reading for 成長率 in entry 5 is \"せいちょう\" but the full reading for 成長率 is \"せいちょうりつ\". Similar to entry 1, this is a partial reading of the kanji compound.",
+    "The reading for 成長率 in entry 7 is \"せいちょ\" but the full reading for 成長率 is \"せいちょうりつ\". This is an even more truncated partial reading of the kanji compound.",
+    "The reading for 成長率 in entry 13 is \"せいちょう\" but the full reading for 成長率 is \"せいちょうりつ\". Similar to entries 1 and 5, this is a partial reading of the kanji compound."
+  ],
+  "confidence": 0.8
+}
