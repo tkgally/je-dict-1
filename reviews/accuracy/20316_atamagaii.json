@@ -1,0 +1,24 @@
+{
+  "entry_id": "20316_atamagaii",
+  "headword": "{頭|あたま}がいい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:43:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "tag 'personal-quality' is not in the valid tag list",
+      "suggestion": "cognition"
+    }
+  ]
+}
