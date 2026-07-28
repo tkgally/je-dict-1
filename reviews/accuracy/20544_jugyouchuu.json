@@ -1,0 +1,24 @@
+{
+  "entry_id": "20544_jugyouchuu",
+  "headword": "{授業中|じゅぎょうちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not a valid semantic tag. It should be replaced with a more specific time-related tag from the allowed list.",
+      "suggestion": "time-general"
+    }
+  ]
+}

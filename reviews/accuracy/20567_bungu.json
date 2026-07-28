@@ -1,0 +1,24 @@
+{
+  "entry_id": "20567_bungu",
+  "headword": "{文具|ぶんぐ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:33:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'objects' is not in the valid tag list.",
+      "suggestion": "tool"
+    }
+  ]
+}

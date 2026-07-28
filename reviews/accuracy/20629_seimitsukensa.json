@@ -1,0 +1,24 @@
+{
+  "entry_id": "20629_seimitsukensa",
+  "headword": "{精密検査|せいみつけんさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medicine' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

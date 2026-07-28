@@ -1,0 +1,24 @@
+{
+  "entry_id": "20688_bougurafu",
+  "headword": "{棒|ぼう}グラフ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:30:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'math' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}

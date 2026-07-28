@@ -1,0 +1,24 @@
+{
+  "entry_id": "20971_atsusa",
+  "headword": "{熱|あつ}さ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:31:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'temperature'",
+      "suggestion": "Replace 'temperature' with 'general' or 'descriptive'"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entry_id": "20552",
+  "screened_at": "2026-07-28T09:29:19Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '話' in pair 13 is 'はな', but the full reading for '話している' would be 'はなしている'. The provided reading 'はな' is a partial reading, which is allowed by the rules. However, the context 'している{最中|さい)' suggests that '話' is being read as 'はな' and the 'し' from 'している' is part of the okurigana, but the furigana for '最中' is 'さい' which is also a partial reading. This makes the entire phrase '話している最中' ambiguous in terms of how the furigana is applied. If '話' is 'はな', then 'している' is okurigana. If '最中' is 'さい', then 'ちゅう' is okurigana. This is not an error in the '話' reading itself, but rather an observation about the partial readings in the context.",
+    "The reading for '寝' in pair 14 is 'ね', but the full reading for '寝ている' would be 'ねている'. The provided reading 'ね' is a partial reading, which is allowed by the rules. Similar to pair 13, the context 'ている{最中|さいち)' suggests that '寝' is being read as 'ね' and the 'ている' is part of the okurigana, but the furigana for '最中' is 'さいち' which is also a partial reading. This makes the entire phrase '寝ている最中' ambiguous in terms of how the furigana is applied. If '寝' is 'ね', then 'ている' is okurigana. If '最中' is 'さいち', then 'ゅう' is okurigana. This is not an error in the '寝' reading itself, but rather an observation about the partial readings in the context."
+  ],
+  "confidence": 0.8
+}

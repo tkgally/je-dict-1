@@ -1,0 +1,24 @@
+{
+  "entry_id": "20538_fukuro",
+  "headword": "{復路|ふくろ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:50Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '復路'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

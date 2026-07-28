@@ -1,0 +1,24 @@
+{
+  "entry_id": "20638_jinjibu",
+  "headword": "{人事部|じんじぶ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organization' is not in the valid tag list.",
+      "suggestion": "Replace 'organization' with a valid tag like 'society' or 'business'."
+    }
+  ]
+}

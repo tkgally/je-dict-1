@@ -1,0 +1,24 @@
+{
+  "entry_id": "20552_saichuuni",
+  "headword": "{最中|さいちゅう}に",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:33:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and 'grammar' is not a valid semantic tag.",
+      "suggestion": "Replace 'time' with 'time-general' and remove 'grammar'."
+    }
+  ]
+}

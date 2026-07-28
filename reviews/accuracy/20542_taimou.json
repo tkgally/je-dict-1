@@ -1,0 +1,24 @@
+{
+  "entry_id": "20542_taimou",
+  "headword": "{体毛|たいもう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'body'.",
+      "suggestion": "body-part"
+    }
+  ]
+}
