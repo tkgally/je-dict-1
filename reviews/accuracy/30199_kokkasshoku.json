@@ -1,0 +1,24 @@
+{
+  "entry_id": "30199_kokkasshoku",
+  "headword": "黒褐色",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T12:31:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While the explanation mentions it belongs to written description and scientific writing, the word itself is not inherently formal in the same way a legal term or honorific would be. It's a precise descriptive term.",
+      "suggestion": "neutral"
+    }
+  ]
+}
