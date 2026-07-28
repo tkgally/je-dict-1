@@ -1,0 +1,10 @@
+{
+  "entry_id": "20101",
+  "screened_at": "2026-07-28T00:34:23Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 途絶 is given as とだ, but the full reading for 途絶える is とだえる. Since the entry is 途絶 and not 途絶える, and the reading is only for the kanji portion, とだ is a partial reading. However, the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, this is not an error."
+  ],
+  "confidence": 0.5
+}
