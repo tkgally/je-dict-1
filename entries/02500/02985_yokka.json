@@ -59,7 +59,7 @@
     },
     {
       "id": "02985_yokka_ex5",
-      "japanese": "{四日|よっか}⟦{間|かん}→間：noentry⟧⟦の→の：09472_no⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{四日|よっか}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
       "english": "It's a four-day business trip.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,26 @@
       ]
     }
   ],
-  "notes": "{四日|よっか} uses native Japanese counting and means both \"four days\" (duration) and \"the 4th\" (date).\n\nUSAGE:\n- Duration: {四日|よっか}⟦かかる→かかる：00711_kakaru⟧ (takes four days)\n- Date: {四日|よっか}⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧ (arrives on the 4th)\n- {四日|よっか}⟦{間|かん}→間：noentry⟧: four-day period (adds 〜間 for explicit duration)\n\nDAYS 1-10 (SPECIAL READINGS):\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧, ⟦{二日|ふつか}→二日：02954_futsuka⟧, ⟦{三日|みっか}→三日：02969_mikka⟧, {四日|よっか}, ⟦{五日|いつか}→五日：noentry⟧\n- ⟦{六日|むいか}→六日：02973_muika⟧, ⟦{七日|なのか}→七日：02927_nanoka⟧, ⟦{八日|ようか}→八日：02983_youka⟧, ⟦{九日|ここのか}→九日：02901_kokonoka⟧, ⟦{十日|とおか}→十日：02917_tooka⟧\n\nNOTE:\nDays 11-31 use regular ⟦{十一日|じゅういちにち}→十一日：noentry⟧ pattern, except ⟦{十四日|じゅうよっか}→十四日：noentry⟧, ⟦{二十日|はつか}→二十日：02934_hatsuka⟧, ⟦{二十四日|にじゅうよっか}→二十四日：noentry⟧.",
-  "cross_references": [],
+  "notes": "{四日|よっか} uses native Japanese counting and means both \"four days\" (duration) and \"the 4th\" (date).\n\nUSAGE:\n- Duration: {四日|よっか}⟦かかる→かかる：00711_kakaru⟧ (takes four days)\n- Date: {四日|よっか}⟦に→に：00314_ni⟧⟦{届|とど}く→届く：00899_todoku⟧ (arrives on the 4th)\n- {四日|よっか}⟦{間|かん}→〜間：28469_kan⟧: four-day period (adds 〜{間|かん} for explicit duration)\n\nDAYS 1-10 (SPECIAL READINGS):\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧, ⟦{二日|ふつか}→二日：02954_futsuka⟧, ⟦{三日|みっか}→三日：02969_mikka⟧, {四日|よっか}, ⟦{五日|いつか}→五日：28460_itsuka⟧\n- ⟦{六日|むいか}→六日：02973_muika⟧, ⟦{七日|なのか}→七日：02927_nanoka⟧, ⟦{八日|ようか}→八日：02983_youka⟧, ⟦{九日|ここのか}→九日：02901_kokonoka⟧, ⟦{十日|とおか}→十日：02917_tooka⟧\n\nNOTE:\nDays 11-31 use regular ⟦{十一日|じゅういちにち}→十一日：noentry⟧ pattern, except ⟦{十四日|じゅうよっか}→十四日：noentry⟧, ⟦{二十日|はつか}→二十日：02934_hatsuka⟧, ⟦{二十四日|にじゅうよっか}→二十四日：noentry⟧.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "02983_youka",
+      "reading": "ようか",
+      "headword": "{八日|ようか}",
+      "label": "8th; easily confused reading"
+    },
+    {
+      "type": "related",
+      "target_id": "28469_kan",
+      "reading": "かん",
+      "headword": "〜{間|かん}",
+      "label": "duration suffix"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-05-23T13:13:36Z",
+    "modified": "2026-07-28T21:26:00Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "basic",
@@ -133,7 +148,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "time"
+        "time-general"
       ]
     }
   }
