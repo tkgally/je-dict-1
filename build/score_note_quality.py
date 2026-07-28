@@ -58,7 +58,8 @@ def normalize_pos(pos_value):
         return 'verb-suru'
     if any(k in pos for k in ['verb-kuru', 'kuru compound', 'verb (irregular)', 'verb-irregular']):
         return 'verb-irregular'
-    if pos.startswith('verb') or 'verb' in pos.split(',')[0].strip():
+    # Word-boundary match: plain substring matching treats "adverb" as a verb.
+    if pos.startswith('verb') or re.search(r'\bverb\b', pos.split(',')[0].strip()):
         # Generic verb — try to classify
         if 'intransitive' in pos or 'transitive' in pos:
             return 'verb-godan'  # Default unclassified verbs to godan template
@@ -115,12 +116,19 @@ def strip_furigana_text(text):
     return FURIGANA_PATTERN.sub(r'\1', text)
 
 
+# Baseform + entry-id tail of an inline word link: ⟦{surface|reading}→baseform：id⟧.
+# The baseform is lookup metadata, never rendered, so by spec it carries no
+# furigana — it must not count as bare kanji in the display text.
+INLINE_LINK_TAIL_PATTERN = re.compile(r'→[^⟧]*⟧')
+
+
 def has_bare_kanji(text):
     """Check if text contains kanji not covered by furigana markup."""
     if not text:
         return False
-    # Remove furigana-annotated portions
-    stripped = FURIGANA_PATTERN.sub('', text)
+    # Drop the non-display tail of inline word links, then furigana-annotated portions
+    stripped = INLINE_LINK_TAIL_PATTERN.sub('', text)
+    stripped = FURIGANA_PATTERN.sub('', stripped)
     # Check remaining text for kanji
     for char in stripped:
         if is_kanji(char):
