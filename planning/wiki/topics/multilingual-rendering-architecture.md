@@ -207,7 +207,7 @@ Candidate paths, to be evaluated when the time comes (not now):
   language layer client-side from per-entry JSON). This keeps the static page count near
   today's while still giving the most valuable entries separate indexable URLs. A principled
   middle path that aligns with the tier-first rollout in
-  [multilingual §9](../ideas/multilingual-dictionary.md#9-phasing-rollout).
+  [multilingual §9](../ideas/multilingual-dictionary.md#9-phasing--rollout).
 
 This page does **not** pick among these — it flags that the choice exists and must be made
 **before** scaling beyond two languages, so it is a planned decision rather than a mid-rollout
@@ -276,7 +276,7 @@ none of this is built.
   scaled future. The hub's §6 listed "per-language page explosion" as a risk "to measure before
   committing"; this page measures it — and the answer is that it binds immediately. The
   hosting/rendering decision is therefore an *early* design lock-in item alongside storage and
-  staleness ([multilingual §9 step 1](../ideas/multilingual-dictionary.md#9-phasing-rollout)),
+  staleness ([multilingual §9 step 1](../ideas/multilingual-dictionary.md#9-phasing--rollout)),
   not a late one.
 - The recommendation keeps the project's serverless-static character for the first additional
   language while naming the exact point (language #3, or a general-tier-wide static commitment)

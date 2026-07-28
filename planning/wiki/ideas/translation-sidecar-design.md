@@ -335,7 +335,7 @@ instead of blocking on 100%.
   prototype**: a fixed sidecar shape, six referential-integrity rules, a four-state staleness
   machine with a normalizer, a queue format, and a field-level fallback contract. The next
   step toward implementation is not more design — it is the ~50-entry Chinese calibration
-  sample ([multilingual §9](multilingual-dictionary.md#9-phasing-rollout)), which would
+  sample ([multilingual §9](multilingual-dictionary.md#9-phasing--rollout)), which would
   exercise this sidecar shape against real advisor edits and reveal whether the
   whole-field-hash granularity and the superset-preservation rule survive contact with actual
   adaptations.

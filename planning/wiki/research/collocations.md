@@ -1,6 +1,6 @@
 # Collocations in Learner Dictionaries
 
-**Last updated**: 2026-06-02
+**Last updated**: 2026-07-28
 
 ## What collocations are and why they matter
 
@@ -130,6 +130,42 @@ je-dict-1 includes collocations in the `notes` field of entries, typically under
 5. **Cross-reference collocation partners**: When entry A lists "A + B" as a collocation, entry B should also reference the combination. The existing cross-reference system can support this.
 
 6. **Onomatopoeia + verb patterns**: For onomatopoeia entries (89 currently), systematically list the verbs they collocate with. This is a high-value, distinctively Japanese collocation type that general dictionaries often neglect.
+
+### Finding from polishing: the lexicalized compound that blocks the phrase (2026-07-28)
+
+A 2026-07-27 polish run surfaced a failure mode this page's framework predicts but the entry
+guidelines do not currently guard against. Several colour and temperature adjective entries
+illustrate the adjective with an **attributive phrase** in a slot where Japanese uses an
+**established N+N compound**: ×青い信号 for 青信号, ×赤い信号 for 赤信号.
+
+This is the *blocking* case of Yamashita & Jiang's L1-incongruence problem rather than the
+substitution case. The usual incongruent collocation (薬を飲む vs. "take medicine") gives the
+learner a wrong-but-existing partner to unlearn. Here the compound **pre-empts the productive
+rule entirely**: the adjective's ordinary attributive form is grammatical, semantically
+transparent, and simply not used, because a lexicalized item already occupies the meaning. An
+English speaker producing 青い信号 has made no grammatical error and will get no feedback.
+
+Three points worth carrying into practice:
+
+1. **It is invisible to every automated check the project has.** The phrase is well-formed JSON,
+   grammatical Japanese, and faithfully translated — so schema validation, the note scorer, and
+   the cross-model accuracy reviewer all pass it. Only a reader who knows the compound notices.
+   This is the clearest instance yet of the general point in
+   [dictionary-evaluation-metalexicography](dictionary-evaluation-metalexicography.md): idiomaticity
+   is not measurable by any instrument that checks correctness.
+2. **Model-written examples are structurally prone to it.** An example generated from a headword
+   plus a target sense composes productively by default; the lexicalized alternative has to be
+   *recalled*, and nothing in the generation prompt asks for it. Expect the class wherever an
+   entry's examples were written without a frequency check.
+3. **The affected population is enumerable.** The trigger is a specific structural collision —
+   a lexicalized N+N compound competing with the adjective's own attributive form — which
+   confines it to small clusters (colour + 信号/字/板/紙, temperature + 湯/水/蔵, 高/低, 大/小).
+   That makes it a bounded review queue rather than an open-ended quality concern.
+
+Filed as [Cleanup Backlog P29](../ideas/cleanup-backlog.md#priority-29-adjective-examples-that-teach-a-phrase-where-the-language-uses-a-set-compound).
+It also argues for a small addition to recommendation 2 above: entries for adjectives with a
+competing set compound should state the compound *and* mark the phrase as not idiomatic —
+knowing 青信号 exists does not tell a learner that ×青い信号 is unavailable.
 
 ### Future possibilities
 

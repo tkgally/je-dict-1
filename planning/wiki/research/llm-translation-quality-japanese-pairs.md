@@ -125,7 +125,7 @@ do **not** measure the things this project actually needs:
 
 So the published evidence sets the *prior* — "expect junior-translator-quality first drafts on
 a high-resource pair, with concentrated false-friend failures" — and the ~50-entry
-advisor-reviewed calibration sample ([multilingual §9](../ideas/multilingual-dictionary.md#9-phasing-rollout))
+advisor-reviewed calibration sample ([multilingual §9](../ideas/multilingual-dictionary.md#9-phasing--rollout))
 measures the *posterior* on this project's actual content. The calibration step is the direct
 analogue of `reviews/calibration_report.md`, which calibrated the furigana reviewers before
 scaling.
