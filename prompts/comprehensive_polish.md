@@ -104,7 +104,7 @@ This catches malformed links and IDs that don't resolve.
 - [ ] **Verb-specific** (when applicable): transitivity tag set; transitivity pair linked in `cross_references` if one exists; aspect/ている behavior documented in notes if non-obvious
 - [ ] **Na-adjective specific** (when applicable): notes describe -na vs -ni vs predicate forms
 - [ ] **Tags accurate**: `semantic`, `formality`, `politeness` reflect the word's actual character (not template defaults)
-- [ ] **Cross-references include obvious neighbors**: synonyms, antonyms, transitivity pairs, register variants. Use `synonym`, `antonym`, `related`, `contrast`, `formality_variant`, `transitivity_pair` per the `cross-reference-entry` skill.
+- [ ] **Cross-references include obvious neighbors**: synonyms, antonyms, transitivity pairs, register variants. Use one of the types the schema actually accepts — `pair` (transitivity pairs), `synonym`, `antonym`, `related`, `contrast`, `see_also`, `keigo` (register/politeness variants), `homophone` — per the `cross-reference-entry` skill. The authoritative list lives in `build/constants.py`; `transitivity_pair` and `formality_variant` are **not** valid and will fail schema validation.
 - [ ] **Back-link symmetry on direct neighbors**: for each entry referenced in `cross_references` and `prominent_see_also`, open the neighbor and confirm a back-link exists when one is appropriate. Add it if missing. Update the neighbor's `modified` timestamp. **Do NOT polish the neighbor further. Do NOT recurse.**
 
 ### Tier 3 — nice-to-have (style, polish)

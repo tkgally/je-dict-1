@@ -43,11 +43,24 @@
       ]
     }
   ],
-  "notes": "CHARACTERISTICS:\n・Starts suddenly without much warning\n・Usually stops after a short time\n・Common in summer months in Japan\n\nKANJI BREAKDOWN:\n・{俄|にわか} (sudden, unexpected) + {雨|あめ} (rain)\n\nRELATED WEATHER TERMS:\n・{夕立|ゆうだち} (evening rain shower - specifically in summer, often with thunder)\n・{通|とお}り{雨|あめ} (passing shower)\n・ゲリラ{豪雨|ごうう} (guerrilla rainstorm - modern term for sudden heavy downpours)\n\nWEATHER FORECAST EXPRESSION:\n・{俄雨|にわかあめ}に{注意|ちゅうい} (beware of sudden showers)\n・{所|ところ}により{俄雨|にわかあめ} (showers in some areas)\n\nCULTURAL NOTE:\n{俄雨|にわかあめ} is a common occurrence in Japanese summers, especially during the {梅雨|つゆ} (rainy season) and {夏|なつ}. Carrying a {折|お}りたたみ{傘|がさ} (folding umbrella) is standard practice in Japan.",
-  "cross_references": [],
+  "notes": "CHARACTERISTICS:\n・Starts suddenly without much warning\n・Usually stops after a short time\n・Common in summer months in Japan\n\nKANJI BREAKDOWN:\n・{俄|にわか} (sudden, unexpected) + ⟦{雨|あめ}→雨：00583_ame⟧ (rain)\n\nRELATED WEATHER TERMS:\n・⟦{夕立|ゆうだち}→夕立：05862_yuudachi⟧ (evening rain shower - specifically in summer, often with thunder)\n・⟦{通|とお}り{雨|あめ}→通り雨：17600_tooriame⟧ (passing shower - the closest synonym)\n・ゲリラ⟦{豪雨|ごうう}→豪雨：05860_gouu⟧ (guerrilla rainstorm - modern term for sudden heavy downpours)\n\nWEATHER FORECAST EXPRESSION:\n・{俄雨|にわかあめ}⟦に→に：00314_ni⟧⟦{注意|ちゅうい}→注意：01464_chuui⟧ (beware of sudden showers)\n・⟦{所|ところ}→所：01137_tokoro⟧により{俄雨|にわかあめ} (showers in some areas)\n\nWRITING:\nWeather forecasts and news usually write this word as にわか{雨|あめ}, since {俄|にわか} is outside the common-use kanji list. Both spellings are read にわかあめ.\n\nCULTURAL NOTE:\n{俄雨|にわかあめ} is a common occurrence in Japanese summers, especially during the ⟦{梅雨|つゆ}→梅雨：02232_tsuyu⟧ (rainy season) and ⟦{夏|なつ}→夏：02236_natsu⟧. Carrying a ⟦{折|お}りたたみ{傘|がさ}→折りたたみ傘：noentry⟧ (folding umbrella) is standard practice in Japan.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "05862_yuudachi",
+      "reading": "ゆうだち",
+      "headword": "{夕立|ゆうだち}"
+    },
+    {
+      "type": "synonym",
+      "target_id": "17600_tooriame",
+      "reading": "とおりあめ",
+      "headword": "{通|とお}り{雨|あめ}"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T04:04:33Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-28T15:26:23Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
