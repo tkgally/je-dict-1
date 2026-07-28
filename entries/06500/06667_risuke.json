@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06667_risuke_ex1",
-      "japanese": "{会議|かいぎ}をリスケしてもいいですか。",
+      "japanese": "⟦{会議|かいぎ}→会議：00710_kaigi⟧⟦を→を：00422_wo⟧リスケ⟦しても→する：00392_suru⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧。",
       "english": "Can we reschedule the meeting?",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06667_risuke_ex2",
-      "japanese": "{急|きゅう}な{予定|よてい}が{入|はい}ったので、リスケをお{願|ねが}いしたい。",
+      "japanese": "⟦{急|きゅう}な→急：13042_kyuu⟧⟦{予定|よてい}→予定：00824_yotei⟧⟦が→が：00051_ga⟧⟦{入|はい}った→入る：00494_hairu⟧⟦ので→ので：09501_node⟧、リスケ⟦を→を：00422_wo⟧⟦お{願|ねが}いしたい→願う：02387_negau⟧。",
       "english": "Something urgent came up, so I'd like to ask to reschedule.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06667_risuke_ex3",
-      "japanese": "{明日|あした}の{打|う}ち{合|あ}わせ、リスケになりました。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧⟦の→の：09472_no⟧⟦{打|う}ち{合|あ}わせ→打ち合わせ：07155_uchiawase⟧、リスケ⟦に→に：00314_ni⟧⟦なりました→なる：01970_naru⟧。",
       "english": "Tomorrow's meeting has been rescheduled.",
       "notes": null,
       "has_audio": false,
@@ -133,19 +133,33 @@
       ]
     }
   ],
-  "notes": "ABBREVIATION:\nリスケ is short for リスケジュール (reschedule). This type of abbreviation is common in Japanese business slang.\n\nUSAGE:\n・リスケする (to reschedule)\n・リスケになる (to be rescheduled)\n・リスケをお{願|ねが}いする (to request a reschedule)\n\nREGISTER:\nCasual business slang. In more formal contexts, use:\n・{日程|にってい}を{変更|へんこう}する (to change the schedule)\n・{予定|よてい}を{調整|ちょうせい}する (to adjust the schedule)\n・{延期|えんき}する (to postpone)\n\nSIMILAR ABBREVIATIONS:\n・アポ (appointment ← アポイントメント)\n・プレゼン (presentation ← プレゼンテーション)\n・ミーティング → MTG (meeting)\n\nNOTE:\nリスケ is widely understood in Japanese workplaces but may sound too casual for formal written communication.",
+  "notes": "ABBREVIATION:\nリスケ is clipped from リスケジュール (reschedule), following the standard Japanese pattern of cutting a loanword to about four moras.\n\nUSAGE:\n・リスケ⟦する→する：00392_suru⟧ (to reschedule)\n・リスケ⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧ (to be rescheduled - the usual way to report it, since the decision is treated as coming from the situation rather than from a person)\n・リスケ⟦を→を：00422_wo⟧⟦お{願|ねが}いする→願う：02387_negau⟧ (to request a reschedule)\nNote that リスケ means moving an appointment to a different time, not cancelling it. In finance the same word is also used for restructuring a loan repayment schedule.\n\nREGISTER:\nCasual in-house business slang - fine in a chat message or among colleagues, out of place in a letter to a client. More formal alternatives:\n・⟦{日程|にってい}→日程：04289_nittei⟧⟦を→を：00422_wo⟧⟦{変更|へんこう}する→変更：03616_henkou⟧ (to change the schedule)\n・⟦{予定|よてい}→予定：00824_yotei⟧⟦を→を：00422_wo⟧⟦{調整|ちょうせい}する→調整：14839_chousei⟧ (to adjust the schedule)\n・⟦{延期|えんき}する→延期：01888_enki⟧ (to postpone - only when the new time is later)\n\nSIMILAR ABBREVIATIONS:\n・⟦アポ→アポ：06668_apo⟧ (appointment - from アポイントメント)\n・⟦プレゼン→プレゼン：05505_purezen⟧ (presentation - from プレゼンテーション)",
   "cross_references": [
     {
       "type": "related",
       "reading": "あぽ",
       "headword": "アポ",
-      "label": "appointment",
+      "label": "appointment (same clipping pattern)",
       "target_id": "06668_apo"
+    },
+    {
+      "type": "related",
+      "reading": "へんこう",
+      "headword": "{変更|へんこう}",
+      "label": "change, modification (formal equivalent)",
+      "target_id": "03616_henkou"
+    },
+    {
+      "type": "related",
+      "reading": "えんき",
+      "headword": "{延期|えんき}",
+      "label": "postponement",
+      "target_id": "01888_enki"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:03:39Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-28T03:19:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -162,6 +176,7 @@
       ],
       "politeness": "plain",
       "semantic": [
+        "business",
         "time-general"
       ],
       "verb_class": "suru"

@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\nCompound verb: ⟦{打|う}つ→打つ：01221_utsu⟧ (to strike, to hit) + ⟦{上|あ}げる→上げる：02443_ageru⟧ (to raise)\n\nRELATED EXPRESSIONS:\n・⟦{打|う}ち{上|あ}げ→打ち上げ：09795_uchiage⟧ - noun form (launch; wrap-up party)\n・{打|う}ち{上|あ}げ⟦{花火|はなび}→花火：00087_hanabi⟧ - fireworks that are launched into the sky\n・{打|う}ち{上|あ}げ⟦パーティー→パーティー：02946_paatii⟧ - wrap-up party\n\nUSAGE:\nSense 2 (celebration) is very common in Japanese work culture:\n・⟦{公演|こうえん}→公演：11639_kouen⟧⟦の→の：09472_no⟧{打|う}ち{上|あ}げ (post-performance party)\n・⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦の→の：09472_no⟧{打|う}ち{上|あ}げ (filming wrap party)",
+  "notes": "FORMATION:\nCompound verb: ⟦{打|う}つ→打つ：01221_utsu⟧ (to strike, to hit) + ⟦{上|あ}げる→上げる：02443_ageru⟧ (to raise)\n\nPARTICLE PATTERNS:\n・〜⟦を→を：00422_wo⟧{打|う}ち{上|あ}げる - to launch something (transitive)\n・〜⟦が→が：00051_ga⟧{打|う}ち{上|あ}げられる - passive; the usual form in news reports, where the launching organization goes unstated\n\nASPECT:\n{打|う}ち{上|あ}げている describes a launch in progress or a repeated practice, not a resulting state. For something that has already been sent up and is now in orbit, use the passive {打|う}ち{上|あ}げられている.\n\nUSAGE:\nSense 1 covers anything sent up into the sky by its own thrust or by an explosive charge - fireworks, rockets, satellites, signal flares.\n\nSense 2 is almost always expressed with the noun form ⟦{打|う}ち{上|あ}げ→打ち上げ：09795_uchiage⟧ rather than with the verb, which is why the sense 2 examples below all use the noun:\n・{打|う}ち{上|あ}げ⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧ (hold a wrap-up party)\n・{打|う}ち{上|あ}げ⟦に→に：00314_ni⟧⟦{行|い}く→行く：00119_iku⟧ (go to the wrap-up party)\n・⟦{公演|こうえん}→公演：11639_kouen⟧⟦の→の：09472_no⟧{打|う}ち{上|あ}げ (post-performance party)\n・⟦{撮影|さつえい}→撮影：04175_satsuei⟧⟦の→の：09472_no⟧{打|う}ち{上|あ}げ (filming wrap party)\nThe party sense is a fixture of Japanese work and performance culture.\n\nRELATED EXPRESSIONS:\n・⟦{打|う}ち{上|あ}げ→打ち上げ：09795_uchiage⟧ - noun form (launch; wrap-up party)\n・{打|う}ち{上|あ}げ⟦{花火|はなび}→花火：00087_hanabi⟧ - fireworks that are launched into the sky\n・{打|う}ち{上|あ}げ⟦パーティー→パーティー：02946_paatii⟧ - wrap-up party",
   "prominent_see_also": [
     {
       "target_id": "09795_uchiage",
@@ -224,11 +224,18 @@
       "headword": "{打|う}つ",
       "label": "to hit",
       "target_id": "01221_utsu"
+    },
+    {
+      "type": "related",
+      "reading": "あげる",
+      "headword": "{上|あ}げる",
+      "label": "to raise (second element of the compound)",
+      "target_id": "02443_ageru"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-06-10T15:41:13Z",
+    "modified": "2026-07-28T03:19:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -239,7 +246,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "movement",
+        "culture"
       ],
       "verb_class": "ichidan"
     }
