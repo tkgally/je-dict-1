@@ -1,0 +1,24 @@
+{
+  "entry_id": "20072_miwohiku",
+  "headword": "{身|み}を{引|ひ}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:39:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'relationship'.",
+      "suggestion": "Replace 'relationship' with a valid tag from the list. 'society' or 'general' might be appropriate depending on the nuance."
+    }
+  ]
+}

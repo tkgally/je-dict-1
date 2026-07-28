@@ -1,0 +1,24 @@
+{
+  "entry_id": "20250_kanbanshouhin",
+  "headword": "{看板商品|かんばんしょうひん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-drink' is too specific and misleading for a general term like '看板商品'.",
+      "suggestion": "Remove 'food-drink'."
+    }
+  ]
+}

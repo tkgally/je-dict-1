@@ -1,0 +1,24 @@
+{
+  "entry_id": "20346_shojihin",
+  "headword": "{所持品|しょじひん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:44:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '所持品' is not inherently formal. While it can appear in formal contexts, it is also used in everyday situations (e.g., '忘れ物にご注意ください。所持品はすべてお持ち帰りください。'). It is a neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "20400_kikin",
+  "headword": "{基金|ききん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:45:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'organizations' is not in the valid tag list.",
+      "suggestion": "Replace 'organizations' with 'society' or 'business' depending on the primary focus of the organization aspect."
+    }
+  ]
+}

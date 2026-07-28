@@ -1,0 +1,24 @@
+{
+  "entry_id": "20019_senyuu",
+  "headword": "{戦友|せんゆう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:38:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'relationship' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

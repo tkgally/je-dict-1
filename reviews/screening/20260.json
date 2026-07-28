@@ -1,0 +1,13 @@
+{
+  "entry_id": "20260",
+  "screened_at": "2026-07-28T00:52:35Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '調査中' is 'ちょ' which is incomplete. It should be 'ちょうさちゅう'.",
+    "The reading for '幸' is 'さいわ' which is incomplete. It should be 'さいわい'.",
+    "The reading for '人' is 'にん' which is incomplete. It should be 'にん' or 'ひと' depending on context, but in this case, it's followed by 'はいなかった' so 'にん' is likely correct, but the reading is cut off.",
+    "The reading for '防' is 'ふせ' which is incomplete. It should be 'ふせぐ'."
+  ],
+  "confidence": 0.9
+}

@@ -1,11 +1,8 @@
 {
   "entry_id": "20187",
-  "screened_at": "2026-06-16T12:34:05Z",
+  "screened_at": "2026-07-28T00:44:02Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": true,
-  "concerns": [
-    "The reading for 腹 in pair 10 is given as ぷく, which is an atypical reading for 腹 when it's not part of a compound like 立腹. While it's part of the compound 立腹 (りっぷく), the individual reading 'ぷく' for 腹 is not a standard standalone reading. The common readings for 腹 are はら or ふく. Given the context of 'belly/stomach', はら would be the most common reading.",
-    "The reading for 怒 in pair 14 is given as おこ. While おこる (怒る) is a correct verb, the reading for just the kanji 怒 in isolation is typically いか (as seen in pair 11) or ど (in compounds like 激怒). 'おこ' is a partial reading of the verb おこる, but the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' However, the context 'る. It ofte' suggests it's meant to be part of the verb おこる, and 'おこ' by itself for 怒 is not a standalone kanji reading in the same way 'いか' is for 怒り."
-  ],
-  "confidence": 0.8
+  "flagged": false,
+  "concerns": [],
+  "confidence": 1.0
 }

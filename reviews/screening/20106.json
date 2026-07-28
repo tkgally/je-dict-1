@@ -1,0 +1,11 @@
+{
+  "entry_id": "20106",
+  "screened_at": "2026-07-28T00:34:59Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 孕 (haramu) is given as はら, but the full reading is はらむ. The provided reading is a partial reading, but the instruction states that the reading covers ONLY the kanji portion. In this case, the kanji is 孕, and the reading is はらむ, so はら is a partial reading of the kanji itself, not a split before okurigana. This is a subtle distinction, but it doesn't fit the 'partial readings are correct by design' rule as it's not a split before okurigana.",
+    "The reading for 抱 (kakaeru) is given as かか, but the full reading is かかえる. Similar to 孕, this is a partial reading of the kanji itself, not a split before okurigana."
+  ],
+  "confidence": 0.8
+}

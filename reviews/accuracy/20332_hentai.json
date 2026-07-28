@@ -1,0 +1,31 @@
+{
+  "entry_id": "20332_hentai",
+  "headword": "{変態|へんたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:44:05Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'nature' is too broad and misleading for the headword's primary meanings. While 'metamorphosis' is a natural phenomenon, 'nature' as a tag usually refers to the natural world in general, not specific biological processes. The headword also has a strong sense related to 'person' and 'abnormality'.",
+      "suggestion": "Replace 'nature' with 'biology' or 'change' to better reflect the 'metamorphosis' sense, or remove it if the 'person' sense is prioritized."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'informal' is incorrect for the headword '変態'. While Sense 1 (pervert) can be used informally, Sense 2 (metamorphosis) is a formal, scientific term. The headword itself is neutral in formality, with its usage determining the register.",
+      "suggestion": "Change 'informal' to 'neutral'."
+    }
+  ]
+}

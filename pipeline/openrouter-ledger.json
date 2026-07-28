@@ -1,64 +1,29 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-07-27",
+  "date": "2026-07-28",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.2022,
+  "spent_usd": 0.2685,
   "calls": [
     {
-      "ts": "2026-07-27T00:28:50Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 14,
-      "est_usd": 0.0063
-    },
-    {
-      "ts": "2026-07-27T03:26:33Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 20,
-      "est_usd": 0.0087
-    },
-    {
-      "ts": "2026-07-27T06:35:57Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 77,
-      "est_usd": 0.0097
-    },
-    {
-      "ts": "2026-07-27T09:29:44Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 13,
-      "est_usd": 0.0059
-    },
-    {
-      "ts": "2026-07-27T12:45:28Z",
+      "ts": "2026-07-28T00:54:37Z",
       "mode": "accuracy-review",
-      "phase": "accuracy-review",
-      "entries": 602,
-      "est_usd": 0.1427
+      "phase": "accuracy",
+      "entries": 498,
+      "est_usd": 0.2176
     },
     {
-      "ts": "2026-07-27T12:47:08Z",
+      "ts": "2026-07-28T01:09:57Z",
       "mode": "self-check",
       "phase": "self-check",
-      "entries": 30,
-      "est_usd": 0.0125
+      "entries": 7,
+      "est_usd": 0.0009
     },
     {
-      "ts": "2026-07-27T18:31:54Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 14,
-      "est_usd": 0.0063
-    },
-    {
-      "ts": "2026-07-27T21:28:49Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 18,
-      "est_usd": 0.0101
+      "ts": "2026-07-28T01:09:58Z",
+      "mode": "accuracy-review",
+      "phase": "screening",
+      "entries": 423,
+      "est_usd": 0.05
     }
   ]
 }

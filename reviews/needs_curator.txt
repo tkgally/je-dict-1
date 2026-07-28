@@ -60,3 +60,11 @@
 18554_kundoku — entry conflates 訓読 (くんどく, kanbun kundoku) with 訓読み (くんよみ, kun'yomi). Furigana corrected to くんよ this run and the gloss extended, but the two words arguably need separate entries or explicit senses. (routine accuracy-review 2026-07-25)
 2026-07-26T00:31:26Z 06637_hadazawari semantic tag: reviewer rejected 'cognition' for a tactile-quality noun. VALID_SEMANTIC has no perception/tactile tag; sibling entries (07919_shitazawari, 12758_tezawari, 12743_kanshoku) all use an off-vocabulary 'sensation' tag. Decide whether to add 'sensation' to VALID_SEMANTIC or migrate the family to an existing tag.
 02640_yasashii — gloss "kind, gentle; easy" merges 優しい and 易しい, and sense 2's examples (ex6–ex10) are all 易しい. Separate entries already exist: 00765_yasashii (易しい) and 00475_yasashii (combined). Needs a consolidation decision on which entry owns the "easy" sense. Flagged by accuracy review 2026-07-27 (routine polish self-check).
+2026-07-28 routine(accuracy-review) 19951-20450: 129 entries still carry off-vocabulary
+  semantic tags with no 1:1 migration target (position 7, relationship 6, character 5,
+  physical 5, agriculture 5, perception 4, math 4, disaster 4, location 4, quality 4,
+  commerce 4, personal-quality 4, ...). These need a taxonomy decision (extend
+  VALID_SEMANTIC vs. map to an existing tag), not per-entry guessing. Dictionary-wide
+  scope is far larger; see build/data/unknown_semantic_baseline.json.
+2026-07-28 routine(accuracy-review): suggest a CI check rejecting any furigana reading
+  containing [A-Za-z] (8 such defects existed dictionary-wide; all fixed this run).

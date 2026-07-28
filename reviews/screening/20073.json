@@ -1,0 +1,10 @@
+{
+  "entry_id": "20073",
+  "screened_at": "2026-07-28T00:31:13Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 一日中 is given as いちにち, but the full reading is いちにちじゅう. The provided reading is a partial reading, which is allowed by the rules, but it's followed by a closing parenthesis, suggesting the reading should cover the entire kanji portion. However, the example given in the prompt states \"Do NOT flag partial readings as errors — they are correct by design.\" So, this is not an error according to the rules."
+  ],
+  "confidence": 0.8
+}

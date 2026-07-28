@@ -1,0 +1,24 @@
+{
+  "entry_id": "20228_gajou",
+  "headword": "{牙城|がじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'metaphor' is not in the valid tag list.",
+      "suggestion": "Remove 'metaphor' or replace with a more appropriate tag from the list if one exists (e.g., 'expression' or 'general')."
+    }
+  ]
+}

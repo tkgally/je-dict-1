@@ -1,0 +1,24 @@
+{
+  "entry_id": "20418_zasshoku",
+  "headword": "{雑食|ざっしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:45:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss describes the headword as an adjective, but the headword is a noun.",
+      "suggestion": "omnivorous diet; omnivore"
+    }
+  ]
+}

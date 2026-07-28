@@ -1,0 +1,24 @@
+{
+  "entry_id": "20215_mitoru",
+  "headword": "{看取|みと}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:41:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'life' is not in the valid tag list.",
+      "suggestion": "Replace 'life' with 'general' or 'existence'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "20022_kinpin",
+  "headword": "{金品|きんぴん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:38:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation 'money and gifts' for 金品 is misleading in this context. 金品 refers to 'money and valuables/goods', not necessarily 'gifts'. While gifts can be valuables, the nuance of '金品' is broader and more neutral, especially in a legal/investigative context.",
+      "suggestion": "A public servant is being investigated on suspicion of receiving money and valuables from a contractor."
+    }
+  ]
+}
