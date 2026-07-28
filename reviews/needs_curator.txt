@@ -66,3 +66,5 @@
   commerce 4, personal-quality 4, ...). These need a taxonomy decision (extend
   VALID_SEMANTIC vs. map to an existing tag), not per-entry guessing. Dictionary-wide
   scope is far larger; see build/data/unknown_semantic_baseline.json.
+2026-07-28 routine(accuracy-review): suggest a CI check rejecting any furigana reading
+  containing [A-Za-z] (8 such defects existed dictionary-wide; all fixed this run).
