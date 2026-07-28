@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06668_apo_ex1",
-      "japanese": "{明日|あした}、{午後|ごご}3{時|じ}にアポを{入|い}れてあります。",
+      "japanese": "⟦{明日|あした}→明日：00501_ashita⟧、⟦{午後|ごご}→午後：00544_gogo⟧3⟦{時|じ}→時：09869_ji⟧⟦に→に：00314_ni⟧アポ⟦を→を：00422_wo⟧⟦{入|い}れて→入れる：01098_ireru⟧⟦あります→ある：00006_aru⟧。",
       "english": "I have an appointment scheduled for 3 PM tomorrow.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06668_apo_ex2",
-      "japanese": "アポなしで{訪問|ほうもん}するのは{失礼|しつれい}だ。",
+      "japanese": "アポ⟦なし→無し：03779_nashi⟧⟦で→で：00502_de⟧⟦{訪問|ほうもん}する→訪問：03622_houmon⟧⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{失礼|しつれい}→失礼：01247_shitsurei⟧⟦だ→だ：09496_da⟧。",
       "english": "It's rude to visit without an appointment.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06668_apo_ex3",
-      "japanese": "{新規|しんき}のお{客様|きゃくさま}からアポが{取|と}れた。",
+      "japanese": "⟦{新規|しんき}→新規：06289_shinki⟧⟦の→の：09472_no⟧⟦お{客様|きゃくさま}→お客様：08780_okyakusama⟧⟦から→から：00504_kara⟧アポ⟦が→が：00051_ga⟧⟦{取|と}れた→取る：00565_toru⟧。",
       "english": "I got an appointment with a new client.",
       "notes": null,
       "has_audio": false,
@@ -43,19 +43,33 @@
       ]
     }
   ],
-  "notes": "ABBREVIATION:\nアポ is short for アポイントメント (appointment). Very common in business Japanese.\n\nCOMMON EXPRESSIONS:\n・アポを{取|と}る (to get/make an appointment)\n・アポを{入|い}れる (to schedule an appointment)\n・アポがある (to have an appointment)\n・アポなし (without an appointment)\n\nBUSINESS CONTEXT:\n・{飛|と}び{込|こ}み{営業|えいぎょう} vs アポ{営業|えいぎょう}\n  (cold-calling sales vs appointment-based sales)\n・アポなし{訪問|ほうもん} (unannounced visit - generally considered rude in Japanese business culture)\n\nREGISTER:\nCasual business slang. In formal writing, use:\n・{約束|やくそく} (appointment, promise)\n・{面会|めんかい}の{予約|よやく} (reservation for a meeting)\n・{訪問|ほうもん}の{予定|よてい} (scheduled visit)\n\nSIMILAR ABBREVIATIONS:\n・リスケ (reschedule ← リスケジュール)\n・プレゼン (presentation ← プレゼンテーション)",
+  "notes": "ABBREVIATION:\nアポ is clipped from アポイントメント (appointment). The full form is rare in speech.\n\nCOLLOCATIONS:\n・アポ⟦を→を：00422_wo⟧⟦{取|と}る→取る：00565_toru⟧ (to secure an appointment - from the perspective of the person requesting it)\n・アポ⟦を→を：00422_wo⟧⟦{入|い}れる→入れる：01098_ireru⟧ (to put an appointment in the calendar)\n・アポ⟦が→が：00051_ga⟧⟦ある→ある：00006_aru⟧ (to have an appointment)\n・アポ⟦なし→無し：03779_nashi⟧ (without an appointment)\n\nUSAGE:\nアポ is a business appointment - a meeting arranged in advance with a client, a contact, or a company. It is not used for a doctor's appointment or a restaurant booking, which take ⟦{予約|よやく}→予約：01522_yoyaku⟧.\n\n・アポ⟦{営業|えいぎょう}→営業：01878_eigyou⟧ - appointment-based sales, as against ⟦{飛|と}び{込|こ}み→飛び込み：07114_tobikomi⟧{営業|えいぎょう} (cold calling)\n・アポ⟦なし→無し：03779_nashi⟧⟦{訪問|ほうもん}→訪問：03622_houmon⟧ - an unannounced visit, generally treated as rude in Japanese business culture\n\nREGISTER:\nCasual business slang; acceptable in speech and internal messages, but replaced in formal writing by:\n・⟦{約束|やくそく}→約束：01517_yakusoku⟧ (appointment, arrangement)\n・⟦{面会|めんかい}→面会：15925_menkai⟧⟦の→の：09472_no⟧⟦{予約|よやく}→予約：01522_yoyaku⟧ (a booked meeting)\n・⟦{訪問|ほうもん}→訪問：03622_houmon⟧⟦の→の：09472_no⟧⟦{予定|よてい}→予定：00824_yotei⟧ (a scheduled visit)\n\nSIMILAR ABBREVIATIONS:\n・⟦リスケ→リスケ：06667_risuke⟧ (reschedule - from リスケジュール)\n・⟦プレゼン→プレゼン：05505_purezen⟧ (presentation - from プレゼンテーション)",
   "cross_references": [
     {
       "type": "related",
       "reading": "りすけ",
       "headword": "リスケ",
-      "label": "reschedule",
+      "label": "reschedule (same clipping pattern)",
       "target_id": "06667_risuke"
+    },
+    {
+      "type": "related",
+      "reading": "やくそく",
+      "headword": "{約束|やくそく}",
+      "label": "appointment, promise (formal equivalent)",
+      "target_id": "01517_yakusoku"
+    },
+    {
+      "type": "contrast",
+      "reading": "よやく",
+      "headword": "{予約|よやく}",
+      "label": "reservation (restaurants, doctors)",
+      "target_id": "01522_yoyaku"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:04:06Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-28T03:19:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -71,7 +85,8 @@
       ],
       "politeness": "plain",
       "semantic": [
-        "daily-life"
+        "business",
+        "communication"
       ]
     }
   }

@@ -18,18 +18,8 @@
   ],
   "examples": [
     {
-      "id": "06665_douyara_ex1",
-      "japanese": "どうやら{彼|かれ}は{来|こ}ないらしい。",
-      "english": "Apparently, he's not coming.",
-      "notes": null,
-      "has_audio": false,
-      "sense_numbers": [
-        1
-      ]
-    },
-    {
       "id": "06665_douyara_ex2",
-      "japanese": "どうやら{雨|あめ}が{降|ふ}りそうだ。",
+      "japanese": "どうやら⟦{雨|あめ}→雨：00583_ame⟧⟦が→が：00051_ga⟧⟦{降|ふ}り→降る：00839_furu⟧⟦そうだ→そうだ：10076_souda⟧。",
       "english": "It looks like it's going to rain.",
       "notes": null,
       "has_audio": false,
@@ -38,8 +28,18 @@
       ]
     },
     {
+      "id": "06665_douyara_ex1",
+      "japanese": "どうやら⟦{彼|かれ}→彼：01292_kare⟧⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00254_kuru⟧⟦らしい→らしい：09502_rashii⟧。",
+      "english": "Apparently, he's not coming.",
+      "notes": null,
+      "has_audio": false,
+      "sense_numbers": [
+        1
+      ]
+    },
+    {
       "id": "06665_douyara_ex3",
-      "japanese": "どうやら{風邪|かぜ}を{引|ひ}いたらしく、{喉|のど}が{痛|いた}い。",
+      "japanese": "どうやら⟦{風邪|かぜ}→風邪：02188_kaze⟧⟦を→を：00422_wo⟧⟦{引|ひ}いた→引く：01978_hiku⟧⟦らしく→らしい：09502_rashii⟧、⟦{喉|のど}→喉：00977_nodo⟧⟦が→が：00051_ga⟧⟦{痛|いた}い→痛い：01108_itai⟧。",
       "english": "It seems I've caught a cold—my throat hurts.",
       "notes": null,
       "has_audio": false,
@@ -49,7 +49,7 @@
     },
     {
       "id": "06665_douyara_ex4",
-      "japanese": "どうやら{間|ま}に{合|あ}った。",
+      "japanese": "どうやら⟦{間|ま}に{合|あ}った→間に合う：01142_maniau⟧。",
       "english": "Somehow, I made it in time.",
       "notes": null,
       "has_audio": false,
@@ -58,9 +58,9 @@
       ]
     },
     {
-      "id": "06665_douyara_ex5",
-      "japanese": "{難|むずか}しい{試験|しけん}だったが、どうやら{合格|ごうかく}できたようだ。",
-      "english": "It was a difficult exam, but it seems I somehow managed to pass.",
+      "id": "06665_douyara_ex6",
+      "japanese": "どうやら⟦{無事|ぶじ}に→無事：01602_buji⟧⟦{届|とど}いた→届く：00899_todoku⟧⟦みたい→みたい：10755_mitai⟧⟦で→で：00502_de⟧⟦{安心|あんしん}した→安心：01288_anshin⟧。",
+      "english": "It seems it arrived safely, so I was relieved.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -68,9 +68,9 @@
       ]
     },
     {
-      "id": "06665_douyara_ex6",
-      "japanese": "どうやら{無事|ぶじ}に{届|とど}いたみたいで{安心|あんしん}した。",
-      "english": "It seems it arrived safely, so I was relieved.",
+      "id": "06665_douyara_ex5",
+      "japanese": "⟦{難|むずか}しい→難しい：00517_muzukashii⟧⟦{試験|しけん}→試験：01422_shiken⟧⟦だった→だ：09496_da⟧⟦が→が：00051_ga⟧、どうやら⟦{合格|ごうかく}→合格：02816_goukaku⟧⟦できた→できる：00557_dekiru⟧⟦ようだ→ようだ：26593_youda⟧。",
+      "english": "It was a difficult exam, but it seems I somehow managed to pass.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -78,11 +78,33 @@
       ]
     }
   ],
-  "notes": "TWO MAIN USES:\n\n1) INFERENCE: Apparently/It seems\n・どうやら〜らしい/ようだ/みたいだ (it seems that ~)\n・Based on observation, the speaker infers something\n\n2) BARELY: Just managed\n・どうやら〜た (somehow managed to ~)\n・Implies difficulty but ultimate success\n\nCOMMON PATTERNS:\n・どうやら〜らしい (apparently ~ / it seems ~)\n・どうやら〜ようだ (it appears that ~)\n・どうやら〜そうだ (it seems ~)\n\nNUANCE:\nどうやら suggests the speaker has some evidence but isn't completely certain. It's softer than はっきり (clearly) but more confident than もしかしたら (perhaps).\n\nEXAMPLES OF SENSE 2:\n・どうやら{無事|ぶじ}に{着|つ}いたようだ (It seems we've arrived safely somehow)\n・どうやら{切|き}り{抜|ぬ}けた (Somehow got through it)",
-  "cross_references": [],
+  "notes": "SENSE 1 - INFERENCE:\nどうやら marks the sentence as an inference the speaker has drawn from evidence in front of them, not as a fact they know directly. It pairs with a sentence-final evidential:\n・どうやら〜⟦らしい→らしい：09502_rashii⟧ (it seems that ~, from what I can tell)\n・どうやら〜⟦ようだ→ようだ：26593_youda⟧ / ⟦みたい→みたい：10755_mitai⟧ (it appears that ~)\n・どうやら〜⟦そうだ→そうだ：10076_souda⟧ (it looks like ~)\nLeaving the ending off - ×どうやら{彼|かれ}⟦は→は：00079_ha⟧⟦{来|こ}ない→来る：00254_kuru⟧ - is a common learner error; the adverb sets up an inference that the sentence ending has to complete.\n\nSENSE 2 - BARELY:\nWith a past-tense verb of achievement, どうやら says the outcome was reached, but only just, and not comfortably:\n・どうやら⟦{間|ま}に{合|あ}った→間に合う：01142_maniau⟧ (somehow made it in time)\n・どうやら⟦{切|き}り{抜|ぬ}けた→切り抜ける：16750_kirinukeru⟧ (somehow got through it)\nThe two senses often overlap in practice, since a speaker reporting a narrow escape is usually also hedging about it.\n\nREGISTER:\nNeutral, and slightly more written or considered than the everyday alternatives; common in news writing and narration.\n\nSIMILAR ADVERBS:\n・⟦どうも→どうも：02921_doumo⟧ - also introduces a hunch, but a vaguer one, and often about how the speaker feels rather than what the evidence shows\n・⟦たぶん→たぶん：00815_tabun⟧ - probably; a judgment of likelihood, with no implication that evidence is at hand\n・⟦もしかしたら→もしかしたら：08420_moshikashitara⟧ - perhaps; much less confident than どうやら\n・⟦はっきり→はっきり：01228_hakkiri⟧ - clearly; the opposite end of the certainty scale",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "02921_doumo",
+      "reading": "どうも",
+      "headword": "どうも",
+      "label": "somehow, it seems (vaguer hunch)"
+    },
+    {
+      "type": "related",
+      "target_id": "00815_tabun",
+      "reading": "たぶん",
+      "headword": "たぶん",
+      "label": "probably"
+    },
+    {
+      "type": "related",
+      "target_id": "08420_moshikashitara",
+      "reading": "もしかしたら",
+      "headword": "もしかしたら",
+      "label": "perhaps (less confident)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T04:02:16Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-28T03:19:21Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -92,7 +114,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "grammatical",
+        "cognition"
       ]
     }
   }

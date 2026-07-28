@@ -2,29 +2,15 @@
   "entry_id": "00140_kaiteki",
   "headword": "{快適|かいてき}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:42:00Z",
+  "reviewed_at": "2026-07-28T03:31:05Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'emotion' is inaccurate for '快適'.",
-      "suggestion": "Remove 'emotion'. '快適' describes a state of comfort or pleasantness, often related to physical sensations or environments, rather than an internal emotional state."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'for better sleep' is a bit too interpretive.",
-      "suggestion": "Change 'for better sleep' to 'for comfortable sleep' or 'for a comfortable sleep'."
-    }
-  ]
+  "issues": []
 }

@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-26T00:28:05Z",
+  "reviewed_at": "2026-07-28T03:31:06Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'quantity' is not appropriate for the second sense of the headword, which introduces hearsay.",
+      "suggestion": "Remove 'quantity' or add a more fitting tag for the second sense, such as 'communication' or 'expression'."
+    }
+  ]
 }
