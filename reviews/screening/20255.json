@@ -1,0 +1,12 @@
+{
+  "entry_id": "20255",
+  "screened_at": "2026-07-28T00:52:07Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 8, \"対 → たい (followed by: する{優越感|ゆうえ)\", is incomplete. The kanji 優越感 is given a partial reading of ゆうえ, but the full reading should be ゆうえつかん. The instruction states that the reading covers ONLY the kanji portion, and partial readings are correct by design. However, in this specific context, the partial reading of 優越感 as ゆうえ is problematic because it's followed by a closing brace, implying the reading for 優越感 should be complete within the braces. If the intention was to only read the first part of 優越感, it should have been {優越|ゆうえつ}感 or similar. As it stands, {優越感|ゆうえ} is an incomplete reading for the entire kanji sequence 優越感.",
+    "The reading for item 11, \"裏返 → うらがえ (followed by: しであることが{多|)\", is incomplete. The kanji 裏返 is given a partial reading of うらがえ, but the full reading should be うらがえし. The instruction states that the reading covers ONLY the kanji portion, and partial readings are correct by design. However, in this specific context, the partial reading of 裏返 as うらがえ is problematic because it's followed by し. If the intention was to only read the first part of 裏返, it should have been {裏返|うらがえ}し or similar. As it stands, {裏返|うらがえ} is an incomplete reading for the entire kanji sequence 裏返.",
+    "The reading for item 20, \"上回 → うわまわ (followed by: る: to exce)\", is incomplete. The kanji 上回 is given a partial reading of うわまわ, but the full reading should be うわまわる. The instruction states that the reading covers ONLY the kanji portion, and partial readings are correct by design. However, in this specific context, the partial reading of 上回 as うわまわ is problematic because it's followed by る. If the intention was to only read the first part of 上回, it should have been {上回|うわまわ}る or similar. As it stands, {上回|うわまわ} is an incomplete reading for the entire kanji sequence 上回."
+  ],
+  "confidence": 0.9
+}
