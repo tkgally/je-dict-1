@@ -1,6 +1,6 @@
 # Project Overview
 
-**Last updated**: 2026-07-27 (counts refreshed: 29,955 entries / 27,152 general / ~116,900 examples / ~16,600 cross-references). Prior 2026-07-26
+**Last updated**: 2026-07-28 (counts refreshed: 29,973 entries / 27,170 general / ~116,900 examples / ~16,600 cross-references). Prior 2026-07-27
 
 ## What je-dict-1 is
 
@@ -20,7 +20,7 @@ Rather than using JLPT levels (which are exam-oriented and have well-known probl
 
 - **Basic** (801 entries) — foundational words needed for survival communication. Closed tier.
 - **Core** (~1,982 entries) — essential vocabulary for adult communication. Closed tier.
-- **General** (27,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: 27,152 tagged `general`, plus 20 newly-created entries — 29181–29200, a 2026-06-12 batch — pending a `vocabulary_tier` backfill [see [Cleanup Backlog](../ideas/cleanup-backlog.md#priority-23)], of 29,955 total as of 2026-07-27.)
+- **General** (27,000+ entries, growing) — everything else. All new entries go here. There is no maximum size for the dictionary. (Current count: 27,170 tagged `general`, plus 20 newly-created entries — 29181–29200, a 2026-06-12 batch — pending a `vocabulary_tier` backfill [see [Cleanup Backlog](../ideas/cleanup-backlog.md#priority-23-20-entries-2918129200-missing-metadatavocabulary_tier)], of 29,973 total as of 2026-07-28.)
 
 See [Vocabulary Tier System](vocabulary-tiers.md) for details.
 

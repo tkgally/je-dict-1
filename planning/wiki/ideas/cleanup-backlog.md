@@ -1044,6 +1044,15 @@ The operational finding is that **the model is the wrong instrument for most of 
 
 The genuinely judgment-dependent residue splits in two, and neither part is a rename: **compound tags with no in-list synonym** (`safety`, `logic`, `degree`, `object`, `deception`, `event`, `physical`, `material`, `sensation`, `craft`, `quality-*`), and **labels that are not semantic categories at all** (`figurative`, `loanword`, `yojijukugo`) which should simply be dropped. Filed as a map extension to [Tooling item 6](tooling-backlog.md#6-tag-drift-detector); promoting the mapped portion to a dedicated `systemic-fix` item is the recommended next step.
 
+**Update 2026-07-28 (the band holds at ~44% into 19951–20450, and the *unmappable* residue is now the larger half)**: A 2026-07-28 accuracy-review over **19951–20450** found **221 of 498 entries (44%)** carrying at least one off-vocabulary semantic tag — the cohort is contiguous from 19701 through 20450 at 44–50% of entries, and the observing run calls it "the single largest quality defect in this ID band."
+
+The new datum is the **mappable/unmappable split, which has inverted**. Of the 221 entries, only **99** had a 1:1 migration target (the official `TAG_MIGRATION` map plus orthographic variants such as `food-drink`→`food`); **129 need a taxonomy decision** and cannot be swept. Earlier bands ran the other way — the 2026-07-27 measurement at 19701–19950 put the judgment-dependent residue at ~7% of occurrences. Two readings are consistent with that, and they have different consequences:
+
+- **The 19951+ creation batch used a genuinely different tag vocabulary** from the 19701–19950 one, in which case the residue is a one-band problem and the ~50-rename `TAG_MIGRATION` extension already filed under [Tooling item 6](tooling-backlog.md#6-tag-drift-detector) still clears most of what lies beyond it.
+- **The map extension has been absorbing the easy families as it grows**, so what is left in each successive band is increasingly the hard tail. On this reading the mapped-sweep strategy has a natural stopping point, and the curator taxonomy decision (which off-vocab tags become in-list, which get dropped, which get a nearest-in-list home) becomes the binding constraint rather than tooling.
+
+Distinguishing them is cheap and worth doing before the next sweep is sized: run `check_tag_drift.py --check unknown-semantic` over 19701–20450 and compare the *distinct off-list tag sets* of the two halves. If they overlap heavily, the second reading holds and the taxonomy decision should be escalated to the curator ahead of further migration runs.
+
 ## Priority 21: Unlinked 自動詞/他動詞 labels and particles in compound-verb notes
 
 **Source**: 2026-06-11 comprehensive-polish session (entries 06038–06047)
@@ -1285,7 +1294,7 @@ _(Filing note: the two updates below were appended to the Priority 23 section in
 
 **Sub-pattern worth noting for scoping** (from the 06614–06617 agricultural block, 2026-07-25): some entries in the band are "examples-linked, notes-deferred" — the notes are dense with rare technical compounds (胚芽米, 精米歩合, 千歯こき, 籾摺り, 耕作放棄地) that each need candidate creation before they can be linked. A batch sweep should link what resolves and log the rest as candidates rather than stalling.
 
-**Update 2026-07-27 (band unbroken through 06655)**: The 06650–06655 frontier polish run again found **every** entry in its range with zero `⟦...⟧` links in examples *and* notes, all hand-linked in-run. The zero-link create-era band is now confirmed unbroken from ~06150 through **06655**. Nothing new in kind — this is roughly the fifteenth consecutive frontier run to report it — but it is the datum that keeps the block-sweep recommendation alive: at ~5 entries per polish run the frontier will not cross this band for years, while the vocabulary inside it repeats enough that a dedicated sweep amortises its lookups. Co-occurring template defect this run: `・` bullets in the same notes fields, now filed as [P28](#priority-28-mixed-bullet-markers-nakaguro-vs-hyphen-inside-notes-fields).
+**Update 2026-07-27 (band unbroken through 06655)**: The 06650–06655 frontier polish run again found **every** entry in its range with zero `⟦...⟧` links in examples *and* notes, all hand-linked in-run. The zero-link create-era band is now confirmed unbroken from ~06150 through **06655**. Nothing new in kind — this is roughly the fifteenth consecutive frontier run to report it — but it is the datum that keeps the block-sweep recommendation alive: at ~5 entries per polish run the frontier will not cross this band for years, while the vocabulary inside it repeats enough that a dedicated sweep amortises its lookups. Co-occurring template defect this run: `・` bullets in the same notes fields, now filed as [P28](#priority-28-mixed-bullet-markers--vs----inside-notes-fields).
 
 ## Priority 22: Inconsistent free-text `part_of_speech` display field
 
@@ -1500,6 +1509,62 @@ Sequence it as: (1) add the count to a detector so the number is reproducible, (
 ~30 entries for line-initial `・` used as genuine punctuation, (3) sweep in ID blocks with
 validation after each. Cheap, cosmetic, dictionary-wide — a good low-risk `systemic-fix`
 item once step 2 clears.
+
+## Priority 29: Adjective examples that teach a phrase where the language uses a set compound
+
+**Source**: 2026-07-27 routine polish observation (00908–07441 priority lane).
+
+Several colour and temperature adjective entries illustrate the adjective with an
+attributive phrase in a slot where Japanese overwhelmingly uses an established compound:
+**×青い信号** for 青信号, **×赤い信号** for 赤信号. The phrase is grammatical, so nothing in
+the validation chain objects; it is simply not what a learner will meet, and an example
+sentence is the one place in an entry that claims to show real usage.
+
+**Why this class is worth a sweep rather than incidental fixing.** It is invisible to every
+instrument the project has. `validate.py` sees well-formed JSON; the note scorer sees a
+present EXAMPLES section; the cross-model accuracy reviewer judges whether the English
+translation matches the Japanese — and it does, faithfully, because the Japanese is
+grammatical. The defect lives in the gap between "correct" and "idiomatic", which only a
+reader who knows the compound will notice.
+
+**Shape of the population.** The trigger is a **lexicalized N+N compound that competes with
+the adjective's own attributive form**, so the affected clusters are small and enumerable
+rather than dictionary-wide:
+
+- **Colour** — 青/赤/黒/白/黄色 before 信号, and the same adjectives before 字 (赤字/黒字),
+  板 (黒板), 紙 (白紙), 熱 (黄熱).
+- **Temperature** — 熱/冷/温 before 湯 (熱湯), 水 (冷水/温水), 蔵 (冷蔵).
+- Likely also 早/速 (早朝, 速球), 高/低 (高熱, 低温), 大/小 (大雨, 小雨).
+
+**Suggested approach**: this is a *review queue*, not a mechanical rewrite — the adjective
+phrase is sometimes exactly right (青い空 is not a compound candidate), so each hit needs a
+reader. Enumerate the ~15 competing compounds above, grep the example sentences of the
+corresponding adjective entries for the adjective-plus-noun phrase, and hand-judge the
+hits. Small, bounded, and a genuine content improvement rather than a format one.
+Related: [research/collocations.md](../research/collocations.md) covers why this failure
+mode is systematically hard for non-native (and model-written) examples.
+
+## Priority 30: Latin characters inside furigana readings — RESOLVED 2026-07-28
+
+**Source**: 2026-07-28 routine accuracy-review (19951–20450).
+
+Eight entries dictionary-wide had Latin letters embedded in a furigana reading —
+`{旅|たbi}`, `{形式|けいしiki}`, `{敷金|しikikん}`, `{間違|まちga}`, plus four wrapper
+misuses. The cause is mechanical: a romaji-input IME sequence left uncommitted, so the
+un-converted keystrokes were written into the reading verbatim.
+
+**All 8 were fixed in that run and the class is now empty.** It is recorded here because
+of *how* it was found, which is the more durable lesson: the paid furigana screener caught
+**one** instance (in 19961); a one-line regex scan for `[A-Za-z]` inside a reading found the
+other **seven** in seconds. A reading containing a Latin letter is a defect **by
+construction** — there is no case where it is correct — which makes it the cheapest, most
+reliable check the project could run, and precisely the true-positive class that
+[Tooling item 24](tooling-backlog.md#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class)
+proposes replacing the screener with.
+
+**Recommended follow-up**: promote the scan to a permanent CI check so the class cannot
+refill. Unlike most items on this page, that requires no review queue and no judgment —
+any match is a failure. Tracked as the concrete first rule of Tooling item 24.
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect
 

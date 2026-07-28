@@ -695,20 +695,32 @@ before splitting. **Curator decision** — an entry split is out of scope for a 
 
 ## 00475 / 00765 / 02640 (やさしい) — three entries across two words
 
-**Source**: 2026-07-26 routine polish run
+**Source**: 2026-07-26 routine polish run; corrected and re-measured by the 2026-07-28 wiki harvest
+after a second 2026-07-27 polish run reported the *opposite* entry as the offender.
 
 やさしい is spread across three entries covering two distinct words (易しい "easy" and 優しい "kind"),
-and the split does not follow the words:
+and the split does not follow the words. **The two reports disagreed, so this harvest read all three
+files — and both were right.** The structure is worse than either described:
 
-| Entry | Headword | Actual content |
-|---|---|---|
-| 00475 | combined 易しい／優しい | both meanings in one entry |
-| 00765 | 易しい | documents **both** meanings; examples 6–10 are all 優しい |
-| 02640 | 優しい | 優しい only |
+| Entry | Headword | Sense 1 (ex1–5) | Sense 2 (ex6–10) |
+|---|---|---|---|
+| 00475 | combined 易しい／優しい | easy, simple | kind, gentle, tender |
+| 00765 | 易しい | easy (易しい) | **kind (優しい)** |
+| 02640 | 優しい | kind (優しい) | **easy (易しい)** |
 
-So 00765 carries 優しい examples under an 易しい headword, and 00475 duplicates both senses wholesale.
-Any polisher reaching one of these has to decide the structure before making any per-entry fix, which
-is why the sequential frontier keeps deferring it.
+**All three entries are near-complete treatments of both words** — 00765 and 02640 are mirror images
+of each other, each leading with its own headword's sense and then documenting the other word in
+full underneath, ten examples apiece. The duplication reaches the example level: 00765's ex1 and
+02640's ex7 are the same sentence (この問題は易しい), as are 00765's ex2 and 02640's ex8
+(易しい日本語で書いてある). This is not "one entry has some misfiled examples"; it is the same
+content written three times under three headwords.
+
+That also explains the contradictory reports, and is worth noting as a general caution: an entry
+whose *second* sense belongs to a different lemma looks correct from the inside — each sense is
+internally consistent, the examples match their glosses, and the furigana is right. Only a
+side-by-side read of the sibling entries reveals it. Any polisher reaching one of these has to
+decide the structure before making any per-entry fix, which is why the sequential frontier keeps
+deferring it.
 
 **Recommended fix**: decide the target shape first — the natural one is **two entries, one per word**
 (易しい and 優しい), with a `homophone` or `contrast` cross-reference between them, retiring or
@@ -788,6 +800,50 @@ from inside the entry.
 
 **Related**: [Cleanup P8](cleanup-backlog.md#priority-8-unconsolidated-duplicate-expression-entries),
 `resolve-duplicates` skill.
+
+## 00719_komu & 02574_komu (込む) — duplicate entries, and the 〜込む suffix is a third item with no entry
+
+**Source**: 2026-07-28 routine polish run (noticed while resolving a `込む：noentry` marker in
+06852_hourikomu).
+
+`00719_komu` ("to be crowded") and `02574_komu` ("to be crowded, to be congested") are the same
+lemma with the same reading and overlapping glosses — a straightforward merge candidate for a
+`consolidate_entries` pass. Which ID survives is a curator call (see `CLAUDE.md`, "Never renumber
+existing entries"); check inbound `⟦…⟧` links to both first.
+
+**The more interesting half is the third item.** The compound-forming suffix **〜込む** (書き込む,
+飛び込む, 放り込む, 話し込む) is a genuinely different morpheme from either entry — it does not mean
+"be crowded", it contributes a directional/thoroughness sense to a V1 stem — and it has **no entry
+at all**. So the merge does not resolve the `noentry` marker that surfaced this: a compound-verb
+entry linking its own 〜込む component has nowhere correct to point, and pointing it at the
+"crowded" entry would be actively wrong.
+
+This is the bound-morpheme gap that [04467_shichou](#04467_shichou--bound-morphemes-and-honorific-prefixes-routed-through-noentry)
+documents from the other direction, and it is the concrete case behind
+[topics/compound-verbs.md](../topics/compound-verbs.md)'s open question about whether productive V2
+suffixes deserve entries. Sequence the merge first (it is decidable now), then treat 〜込む as a
+separate curator decision.
+
+## でも (particle, "any ~" / "even ~") — no entry, and the candidate list will not accept it
+
+**Source**: 2026-07-28 routine polish run (00304_nandemo).
+
+The particle でも — the one in 何でも / 誰でも / いつでも "any ~", and in the concessive "even ~" —
+has no entry. The two entries occupying the surface form are different words: `00925_demo` is the
+sentence-initial conjunction "but, however", and `19416_demo` is デモ "demonstration". Inline links
+in 00304_nandemo therefore had to fall back to `：noentry⟧`, and the same gap almost certainly
+affects `08498_daredemo`, `03826_itsudemo`, and `08499_dokodemo`.
+
+**It cannot be queued through the normal route.** `manage_candidates.py add` rejects でも as a
+duplicate of the conjunction, because its duplicate check keys on (surface, reading) and cannot
+represent a homograph — see [Tooling item 41](tooling-backlog.md#41-manage_candidatespy-cannot-queue-a-homograph--the-duplicate-check-is-surface-reading-not-surface-reading-sense).
+Until that is fixed the curator would need `--force` or a separately-disambiguated candidate.
+
+**Why it is worth the workaround.** This is a high-frequency function word, it is the head of a
+small productive family (question word + でも), and the four entries that need it are all already
+written — so the `noentry` markers pointing at it are permanent dead ends rather than temporary
+ones. A particle entry here would also give the 〜でも cluster a common target, which is exactly
+what `particle-entry`'s contrast-and-pattern format is for.
 
 ## Related pages
 

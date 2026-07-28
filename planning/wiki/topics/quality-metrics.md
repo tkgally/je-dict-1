@@ -123,7 +123,7 @@ accumulated since the last update.
 >    and therefore absent from every P9 scope estimate on this page's sibling backlog.
 > 2. **18,272 line-initial `・` bullets across 2,524 entries** — roughly a twelfth of the dictionary
 >    still on the pre-2026 notes template, with `score_note_quality.py` treating the two markers alike
->    so nothing surfaces it ([new Cleanup P28](../ideas/cleanup-backlog.md#priority-28-mixed-bullet-markers-nakaguro-vs-hyphen-inside-notes-fields)).
+>    so nothing surfaces it ([new Cleanup P28](../ideas/cleanup-backlog.md#priority-28-mixed-bullet-markers--vs----inside-notes-fields)).
 > 3. **22070 走り続ける shipped with all 33 conjugated forms corrupt** — a whole-word furigana wrapper
 >    hid the ichidan tail from `add_conjugations.py`, doubling the stem (走り続けるる, 走り続けるます)
 >    from creation on **2026-04-04** until a wrapper sweep happened to rewrap the headword. It

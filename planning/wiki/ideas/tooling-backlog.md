@@ -327,6 +327,15 @@ for f in files:
 
 Nothing about the diagnosis has changed since this item was filed; what has changed is the evidence that the gap is **actively producing defects at a measurable rate**, not merely theoretically open. This remains the cheapest high-value gate outstanding: resolve every `⟦surface→base：entry_id⟧` target against `entries_index.json` / `word_id_lookup.json` in `validate.py`, and fail the entry. (Cleanup [P27](cleanup-backlog.md#priority-27-dead-inline-link-target-ids) tracks the existing population; this item is the inflow gate that stops it refilling.)
 
+**Update 2026-07-28 (third consecutive cycle — and the two new dead links show *why* a wrong-but-existing ID is the dangerous shape)**: The 2026-07-28 polish run again wrote links that `validate.py --id` passed clean, and again caught them only with a throwaway scan of `entries/*/*.json` basenames. The two links are worth recording individually because both point at **real entries for the wrong word**:
+
+- `何` linked to **`00294_motomoto`** (もともと "originally")
+- `でも` linked to **`09528_tanaka`** (田中, a surname)
+
+Neither is a dead *reference* — both IDs resolve, both render as working links on the live site, and both take the reader somewhere unrelated. This is a strictly worse failure than P27's 292 nonexistent-ID links, which at least fail visibly. It also means the gate this item proposes is necessary but **not sufficient**: existence-checking the target ID would not have caught either of these. The complete check is **base-form agreement** — resolve the link's own `base` segment through `word_id_lookup.json` and warn when the declared `entry_id` is not among the candidates. That is the same lookup the item's existing detect snippet already performs to *suggest* repairs; it just needs to run as an assertion rather than as a hint.
+
+Three cycles running, three separate sessions have each written their own link checker because the documented gate (`validate.py --id X | grep "word link"`, per `CLAUDE.md`) is a no-op. The recurrence is the argument: this is not a latent risk, it is an active one, and the sessions exposed to it are precisely the ones whose job is to add links.
+
 ## 12. review_runner.py `--pass deep --range` deep-reviews the whole range, not just flagged
 
 **Source**: Routine v2 new-entries / accuracy-review sessions, 2026-06-10
@@ -628,6 +637,16 @@ The prescription is unchanged and now has a one-sentence form worth pasting into
 
 The same run also produced the decisive argument for **not using the model as the tag detector at all** (see [Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration)): a deterministic scan found **51** off-vocab entries in the range where the model caught **32**. The model is the corroborator; `check_tag_drift.py --check unknown-semantic` is the detector.
 
+**Update 2026-07-28 (a *second* invented rule surfaces — "suru-verbs must carry the `action` tag" — and the tag dimension is now 96% of all flag volume)**: A 2026-07-28 accuracy-review over **19951–20450** flagged **44% of entries**, more than double routine2.md §A's 20% noise threshold, and the concentration is now extreme: **234 of the run's 244 issues (96%) came from the `tags` dimension alone**. As on the 19701–19950 band, most of that volume is legitimate — a not-in-list flag is correct by construction, and the band genuinely carries off-vocab tags at ~44% (see [Cleanup P20](cleanup-backlog.md#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration) 2026-07-28) — so the raw rate is not by itself evidence of noise here.
+
+What *is* new is a **second invented rule**, distinct from the twenty-plus-times-confirmed "too broad/narrow between in-list tags" family this item tracks: the reviewer asserts that **`verb-suru` entries must carry the `action` semantic tag**. No such requirement exists anywhere — not in `VALID_SEMANTIC`, not in `schema.json`, not in the `entry-guidelines` skill — and it is a POS-conditioned rule about tag *presence* rather than a judgment about tag *correctness*, which puts it outside what the `tags` dimension is asked to do at all.
+
+That matters more than one extra noise family, because it changes the diagnosis. The standing prescription has been "damp the prompt's enthusiasm for narrower tags." Two independently-invented rules suggest the model is **inferring editorial policy from the tag distribution it sees** and then enforcing its inference — which will keep generating new rules as the corpus shifts, and no amount of per-family suppression will get ahead of it. The prompt fix should therefore be **positive and closed** rather than a growing list of prohibitions:
+
+> Flag a semantic tag only if (a) it is absent from the `VALID_SEMANTIC` list supplied above, or (b) it plainly contradicts the headword's meaning. Do not propose additional tags, do not propose narrower alternatives to a valid tag, and do not apply rules about which tags a part of speech ought to carry.
+
+Clause (b) plus the two explicit "do not"s is the whole scope; anything else the model has inferred is out of bounds by construction. Twenty-fourth independent confirmation of the noise problem, and the first that argues the *form* of the fix rather than its content.
+
 ## 18. check_example_headword.py false-positive reduction
 
 **Source**: 2026-06-14/15 routine runs (example-headword-missing systemic-fix lane)
@@ -684,6 +703,15 @@ than auto-resolution.
 **Update 2026-07-27 (four more concrete instances; the case for a bulk re-resolve pass rather than per-entry discovery)**: The 2026-07-27 polish run found dead `noentry` markers on words that have since been created — **03754 命令文→28285**, **06529 スランプ→29125 / 喫する→29124 / 一勝→29129** — plus **03682 百万人**, which is not a missing entry at all but a splittable compound (百万 + 人). These keep surfacing one at a time because the only thing that looks at a `noentry` marker is a human reading the entry it sits in.
 
 The detector specified in this item resolves the whole class in one pass: re-resolve every `noentry` marker against `word_id_lookup.json` and emit (a) markers whose word now has an entry, with the target ID, and (b) markers whose word decomposes into two linkable entries. Both are review-queue output, not auto-fix — (a) still needs a human to confirm the sense matches, and (b) is a judgment call about link granularity. The recurrence rate (four this run, two in each of several earlier runs) makes this a self-healing scan worth having on a schedule rather than a one-off.
+
+**Update 2026-07-28 (the drip becomes a distribution: seven stale markers in a *single* entry, plus three more elsewhere)**: Two 2026-07-28 polish runs between them found ten more, and one of them breaks the "one or two at a time" pattern this item has documented since June:
+
+- **05091_ryoukai carried seven stale markers by itself** — です, 分かる, かかる, 明日, 時, メール, いい — every one of them a high-frequency word that has had an entry for months.
+- Three more singly: **00587 白無垢 → 27472_shiromuku**, **03436 通行人 → 28570_tsuukounin**, and **06662 未払い金**, which like 03682 百万人 in the previous update is not a missing entry but a mis-split compound.
+
+The seven-in-one-entry case is the genuinely new information, and it revises the scale estimate upward in a specific way. The drip pattern made stale markers look **Poisson-distributed** — a low uniform rate, a couple per run, "likely hundreds dictionary-wide." Seven in one entry says they are **clustered by entry age instead**: an entry written when the dictionary was small marks *everything* `noentry`, and every one of those markers goes stale together as the dictionary fills in around it. The population is therefore concentrated in the oldest entries and is plausibly larger than "hundreds" — but it is also **cheaper to clear than a uniform distribution would be**, because the hits arrive in dense per-entry batches where one file open resolves many markers.
+
+That is an argument for running the detector **entry-major and oldest-first** rather than scanning markers uniformly, and it strengthens the case for building it: the ten found this cycle were all incidental, and the entry that held seven of them was reached by the priority lane by luck, not by search.
 
 ## 20. Notes-priority ranking excludes recently-polished / structurally-passing entries
 
@@ -957,6 +985,20 @@ Two ways out, and the second is cheaper than it looks:
 
 Doing (2) without (1) would misscore the existing corpus; doing (1) without (2) leaves the scorer chasing synonyms forever. Recommend both, in that order — and note that a skill change is a **curator action** (a `wiki` run may not modify skills).
 
+**Update 2026-07-28 (scorer bug #2's root cause found, and it is a one-character substring match: `"adverb"` contains `"verb"`)**: The POS-misclassification half of this item has been reported since 2026-07-04 (まあ scored as `verb-godan`) without a mechanism. The 2026-07-28 priority-lane run found it. `normalize_pos()` in `build/score_note_quality.py` reaches a generic branch that tests
+
+```python
+'verb' in pos.split(',')[0]
+```
+
+— a **substring** test against the first comma-separated POS field. `"adverb"` contains `"verb"`, so every entry whose `part_of_speech` begins with `adverb` is classified `verb-godan` and scored against the verb template: it is required to have TRANSITIVITY, ASPECT, and COMMON PATTERNS sections that an adverb cannot sensibly have. The worked case is **00266_maido** (`part_of_speech: "adverb, noun"`), whose score stayed at **54 after a complete notes rewrite** — the missing points were structurally unreachable.
+
+The fix is one line: a word-boundary test (`re.search(r'\bverb', ...)`) or an explicit `adverb` check ahead of the generic verb branch.
+
+**This completes the diagnosis of the no-op streak, and both halves are now one-line fixes in the same file.** Bug #1 (inline-link base forms counted as bare kanji, measured at 6,351 entries) systematically *lowers* the score of the most-polished entries; bug #2 makes an entire POS class permanently unscoreable. Together they explain both directions of the ranking's inversion: the lane was fed entries that were already good and entries that could never be improved. Note the interaction with the section-name mismatch documented in the 2026-07-27 update above — an adverb entry misrouted to the verb template is *also* being matched against the wrong section-name list, so the two bugs compound rather than merely coexist.
+
+Recommended disposition is unchanged in kind and now fully specified: **fix both one-liners, regenerate `polishing/priority/notes.txt`, reset the priority cursor to line 1** (the current cursor position indexes a ranking produced by the buggy scorer and is meaningless afterward), and keep the lane. All three are **curator actions** — a `wiki` run may not modify build scripts.
+
 ## 21. Chunk the review/screening runners to fit the session timeout
 
 **Source**: 2026-06-16 routine runs (systemic-fix self-check + furigana accuracy-review)
@@ -1054,6 +1096,12 @@ The durable fixes are unchanged and now better justified: **concurrency in the s
 **Update 2026-07-26 (the first side-by-side per-pass throughput numbers, and a concrete cursor-desync consequence)**: A 2026-07-25 accuracy-review measured both runners through the agent proxy: `review_accuracy.py` **~3–5 entries/min**, `review_runner.py --pass screening` **~3/min**, and **running both concurrently halves each** — so the two passes should be run *sequentially*, not in parallel, and accuracy-review ranges should be sized at **~300 entries per run** rather than the 400–600 that routine2.md §A suggests.
 
 A 2026-07-26 sweep then produced the sharpest consequence yet: over 18653–19200, screening needed **~6.6 s/entry** and was **killed at 437 of 548 entries** (having reached 19178), while the accuracy pass over the *same* range ran at ~4 s/entry and finished. Because both passes advance the *same* cursor, the furigana and accuracy dimensions **silently drift out of sync** — the cursor records the accuracy pass's endpoint and the un-screened tail (19179–19200 here) is never revisited. That upgrades the fix from "size the range smaller" to one of: **checkpoint-and-resume in the runner**, or **separate cursors per pass**, or at minimum a warning when a pass ends short of the requested range. Range-sizing alone cannot prevent the desync, only make it rarer.
+
+**Update 2026-07-28 (thirteenth confirmation — the widest ratio yet measured, ~6×, and it puts the screener's *whole* wall-clock cost in one number)**: A 2026-07-28 accuracy-review measured `review_runner.py --pass screening` at **~8–9 entries/min** against `review_accuracy.py` at **~55 entries/min** on the same range — a **~6× gap**, wider than the 3.6× of 2026-07-25 and much wider than the ~1× the proxy-throttled 2026-07-26 run saw when both ran concurrently. The spread across measurements is itself informative: the accuracy script's rate varies with network conditions (29→55/min across runs) while the screener's sits stubbornly at 8–9/min in every measurement since 2026-07-03, which is the signature of a **fixed serial per-entry cost** rather than a shared bottleneck.
+
+The observing run stated the consequence in the plainest available terms: **a 500-entry screening pass takes ~55 minutes of wall clock and dominates the entire accuracy-review run.** That is essentially the whole time budget of an unattended Routine run spent on the pass which [item 24](#24-non-hiragana-reading-lint-cheap-replacement-for-the-furigana-screeners-true-positive-class) measures at 0–5% precision — and, per that item's 2026-07-28 update, whose false positives are now traced to a fixable bug in this same runner.
+
+Read together, items 21 and 24 have converged on one conclusion that neither reaches alone: **the screener's cost and its noise have a common home in `review_runner.py`, and both are fixable there.** Batching or parallelizing the per-entry calls addresses the 6× gap; fixing the context-snippet truncation addresses the ~75–98% false-positive rate. Until one of them lands, §A's known-noise shortcut (skip the deep pass on polished ranges) is not a workaround but the correct default.
 
 ## 22. Particle structured-field furigana-completeness sweep
 
@@ -1335,6 +1383,19 @@ Two fixes, both outside the model:
 2. **Post-filter the artifact family deterministically.** Drop any flag whose quoted reading does not appear verbatim in the entry's actual wrapper text. That is a string comparison against the file the run already has open, and by the 2026-07-25 measurement (~37 of 48 flags in one pass) plus this one it would remove the large majority of all screening flags — at which point what remains is small enough to judge honestly.
 
 The item's original proposal stands: the screener's genuine true-positive class (non-hiragana readings) is a **lint**, not a model call.
+
+**Update 2026-07-28 (the false-positive mechanism is finally *located in the source*, and the proposed lint outperforms the screener 7:1 in a head-to-head)**: This item's two halves both got their decisive datum in one run.
+
+**(1) The FP mechanism is the prompt builder's `followed by:` context snippet.** Prior updates localized the truncation to "the prompt harness" from the evidence of stray punctuation. The 2026-07-28 run named the field: `review_runner.py`'s screening prompt includes a **`followed by:` context snippet clipped at a fixed character width**, which routinely cuts mid-`{kanji|reading}` markup — `の{死者数|ししゃす`, `{記者会見|きしゃか}`. The model reads the clipped fragment as if it were the entry's actual furigana pair and reports an incomplete reading. Two independent measurements the same day:
+
+- **19951–20388**: **47 of 48 flags** were this one artifact — precision **~2%**.
+- **New entries 30165–30175**: **7 of 18 flags**, all seven verified correct at source. Note the range: these are *brand-new* entries in a §4 self-check, so the artifact is not a property of old or unpolished data.
+
+The fix is now concrete enough to specify: **clip the context at a wrapper boundary, or strip `{…|…}` markup from the context field entirely.** The second is simpler and loses nothing — the model is being asked about the headword's reading, not about the readings of neighbouring words, so the markup in the *context* is pure distraction even when it is not truncated.
+
+**(2) The proposed lint was run by hand and beat the screener 7:1.** The same run scanned the dictionary for Latin characters inside furigana readings — exactly the deterministic check this item proposes — and found **8 entries**: `{旅|たbi}`, `{形式|けいしiki}`, `{敷金|しikikん}`, `{間違|まちga}` and four wrapper misuses. **The paid screener had caught one of them** (in 19961); the regex found the other seven in seconds. All 8 were fixed and the class is empty (recorded as [Cleanup P30](cleanup-backlog.md#priority-30-latin-characters-inside-furigana-readings--resolved-2026-07-28)).
+
+That is the head-to-head this item has wanted since June, and it settles the cost-benefit: over the same corpus, **the free scan found 8× what the slowest and noisiest instrument in the Routine found**, and did so with zero false positives, because a Latin letter in a reading is wrong by construction rather than by judgment. The recommendation firms up accordingly — **ship the charset lint as a permanent CI check first** (it needs no review queue: any match fails), then either fix the context-snippet truncation or stop scheduling the screener on structured ranges. The lint is not a supplement to the screener; on this class it is a strict improvement over it.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -1863,6 +1924,50 @@ entry is a verb**, which is worth reflecting in that detector's severity assignm
 **Related**: [Cleanup P9](../ideas/cleanup-backlog.md#priority-9-malformed-furigana-wrappers)
 update 2026-07-27, [item 35](#35-verb-class-misassignment-detector-conjugation-tables-contradicted-by-the-entrys-own-examples)
 (the other family of wrong-but-valid conjugation tables), [item 5](#5-non-verb-conjugation-pruner--defensive-guard-in-add_conjugationspy).
+
+## 41. `manage_candidates.py` cannot queue a homograph — the duplicate check is (surface, reading), not (surface, reading, sense)
+
+**Source**: 2026-07-28 routine polish run (00304_nandemo and the 〜でも question-word cluster).
+
+`manage_candidates.py add` refuses a word when an entry already exists with the same
+surface form and reading. That is the right default and it prevents most accidental
+duplicates — but it makes the tool **structurally unable to queue a homograph**, which is
+exactly the case where a new entry is most clearly needed.
+
+**The worked case.** The particle **でも** ("any ~" in 何でも / 誰でも / いつでも, and "even ~")
+has no entry. The two entries that occupy the surface form are different words:
+`00925_demo` is the sentence-initial conjunction "but, however", and `19416_demo` is デモ
+"demonstration". A polishing session that wants to link ⟦でも⟧ therefore has to write
+`：noentry⟧` — and then cannot even leave a candidate behind, because `add` sees
+`でも/でも` and rejects it as a duplicate. **The gap is self-concealing**: the one mechanism
+the project has for recording "this word needs an entry" refuses precisely the words whose
+absence is hardest to notice. The same block applies to the sibling gaps in
+`08498_daredemo`, `03826_itsudemo`, and `08499_dokodemo`.
+
+**Why this is worth fixing rather than working around.** The `noentry` marker is not a
+neutral placeholder — [item 19](#19-stale-noentry-inline-link-detector) documents how those
+markers go stale and accumulate. A `noentry` that *cannot* be paired with a candidate is
+permanently stale by construction: nothing will ever create the entry that would resolve
+it, because nothing recorded that it was wanted. Every homograph gap thus quietly converts
+into a permanent dead link.
+
+**Suggested fix**, in increasing order of effort:
+
+1. **A `--force` flag** on `add`, which downgrades the duplicate check to a warning. One
+   line, unblocks the immediate case, but discards the reason for the override.
+2. **A disambiguator field** — `add "でも" "でも" "gloss" --sense "particle: any ~/even ~"` —
+   stored on the candidate and surfaced to the new-entries session, which is the consumer
+   that actually needs to know *which* でも it is being asked to write. This is the form
+   that matches how the block manifests: the problem is not that the check is too strict,
+   it is that (surface, reading) is the wrong key for a language with this many homographs.
+3. Have `check_duplicate.py` report the *senses* of the colliding entries rather than just
+   their IDs, so the session can tell a genuine duplicate from a homograph without opening
+   both files.
+
+Option 2 is the one worth building; 1 is an acceptable stopgap. Related:
+[item 23](#23-candidate-pool-pre-filter-for-corpus-harvesting--manage_candidates)
+(the same script's other structural problem, from the opposite direction — it accepts far
+too much corpus residue while rejecting words that are genuinely needed).
 
 ## Related pages
 
