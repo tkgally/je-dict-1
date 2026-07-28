@@ -1,0 +1,31 @@
+{
+  "entry_id": "20260_shukka",
+  "headword": "{出火|しゅっか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'disaster' is not in the valid tag list.",
+      "suggestion": "Replace 'disaster' with 'general' or 'daily-life'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Semantic tag 'news' is not in the valid tag list.",
+      "suggestion": "Replace 'news' with 'media' or 'communication'."
+    }
+  ]
+}

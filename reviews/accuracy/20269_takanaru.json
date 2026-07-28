@@ -1,0 +1,24 @@
+{
+  "entry_id": "20269_takanaru",
+  "headword": "{高鳴|たかな}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'sound' is inappropriate for the headword's meaning, which primarily describes a physical sensation or a sound's intensity, not 'sound' as a category of things.",
+      "suggestion": "Remove 'sound' tag."
+    }
+  ]
+}

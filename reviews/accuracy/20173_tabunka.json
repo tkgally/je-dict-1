@@ -1,0 +1,31 @@
+{
+  "entry_id": "20173_tabunka",
+  "headword": "{多文化|たぶんか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:41:09Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that '多文化' can mean 'multiculturalism' as a standalone noun, but it primarily functions as an adjective or a prefix meaning 'multicultural'. The noun form for 'multiculturalism' would typically be '多文化主義' (tabunka-shugi).",
+      "suggestion": "multicultural"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss implies that '多文化' can mean 'multiculturalism' as a standalone noun, but it primarily functions as an adjective or a prefix meaning 'multicultural'. The noun form for 'multiculturalism' would typically be '多文化主義' (tabunka-shugi).",
+      "suggestion": "multicultural; relating to multiple cultures"
+    }
+  ]
+}

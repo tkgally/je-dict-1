@@ -1,0 +1,31 @@
+{
+  "entry_id": "20235_waruyoi",
+  "headword": "{悪酔|わるよ}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:19Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food-drink' is not a valid semantic tag. The closest valid tag is 'consumption'.",
+      "suggestion": "consumption"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not a valid semantic tag. The closest valid tag is 'health'.",
+      "suggestion": "health"
+    }
+  ]
+}

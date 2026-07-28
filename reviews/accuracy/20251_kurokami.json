@@ -1,0 +1,24 @@
+{
+  "entry_id": "20251_kurokami",
+  "headword": "{黒髪|くろかみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:42:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'body'.",
+      "suggestion": "body-part"
+    }
+  ]
+}
