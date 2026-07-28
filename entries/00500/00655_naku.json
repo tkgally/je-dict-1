@@ -153,11 +153,33 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{泣|な}く (X cries).\n\nASPECT: ている indicates ongoing action. {泣|な}いている = 'is crying.'\n\nCOMMON PATTERNS:\n・{泣|な}いている (is crying)\n・{泣|な}かないで (don't cry)\n・{泣|な}き⟦{出|だ}す→出す：01087_dasu⟧ (burst into tears)\n・⟦{嬉|うれ}し{泣|な}き→嬉し泣き：19040_ureshinaki⟧ (tears of joy)\n\nKanji {泣|な}く contains water radical (氵). Different from ⟦{鳴|な}く→鳴く：04388_naku⟧ (animal sounds) - homophones with different kanji.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{泣|な}く (X cries).\n\nASPECT: ている indicates ongoing action. {泣|な}いている = 'is crying.'\n\nCOMMON PATTERNS:\n・{泣|な}いている (is crying)\n・{泣|な}かないで (don't cry)\n・{泣|な}き⟦{出|だ}す→出す：01087_dasu⟧ (burst into tears)\n・⟦{嬉|うれ}し{泣|な}き→嬉し泣き：19040_ureshinaki⟧ (tears of joy)\n\nUSAGE: {泣|な}く describes the act of crying itself; ⟦{涙|なみだ}→涙：02235_namida⟧⟦が→が：00051_ga⟧⟦{出|で}る→出る：00513_deru⟧ ('tears come out') focuses on the tears and can happen without any sobbing. The potential form {泣|な}ける is used idiomatically of things, not people: ⟦この→この：00962_kono⟧⟦{映画|えいが}→映画：02273_eiga⟧⟦は→は：00079_ha⟧{泣|な}ける = 'this movie is a tear-jerker.'\n\nKanji {泣|な}く contains the water radical (sanzui), a hint at its meaning. Different from ⟦{鳴|な}く→鳴く：04388_naku⟧ (animal sounds) - homophones with different kanji.",
+  "cross_references": [
+    {
+      "type": "antonym",
+      "target_id": "00685_warau",
+      "reading": "わらう",
+      "headword": "{笑|わら}う",
+      "label": "to laugh"
+    },
+    {
+      "type": "related",
+      "target_id": "02235_namida",
+      "reading": "なみだ",
+      "headword": "{涙|なみだ}",
+      "label": "tears"
+    },
+    {
+      "type": "homophone",
+      "target_id": "04388_naku",
+      "reading": "なく",
+      "headword": "{鳴|な}く",
+      "label": "of animals"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:47:39Z",
-    "modified": "2026-05-12T15:10:05Z",
+    "modified": "2026-07-28T21:20:00Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -168,7 +190,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "action",
+        "emotion"
       ],
       "verb_class": "godan-ku"
     }

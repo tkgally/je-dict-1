@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T09:57:25Z",
+  "reviewed_at": "2026-07-28T21:27:00Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'time' is too broad. A more specific tag is available.",
-      "suggestion": "time-general"
+      "concern": "The tag 'time-general' is too broad for a specific day/duration. 'time-day-of-week' is also not quite right as it's not a day of the week.",
+      "suggestion": "time-general is the closest available tag, but it's not ideal. There isn't a more specific tag for 'day of the month' or 'duration in days'."
     }
   ]
 }
