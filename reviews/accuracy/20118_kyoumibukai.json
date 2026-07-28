@@ -1,0 +1,31 @@
+{
+  "entry_id": "20118_kyoumibukai",
+  "headword": "{興味深|きょうみぶか}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:40:09Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Semantic tag 'description' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for 興味深い. While it can be used in formal contexts, it is not inherently a formal word and is commonly used in neutral settings.",
+      "suggestion": "neutral"
+    }
+  ]
+}
