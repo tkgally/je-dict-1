@@ -1,0 +1,31 @@
+{
+  "entry_id": "20968_yoinomyoujou",
+  "headword": "{宵|よい}の{明星|みょうじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:30:53Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'astronomy' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '宵の明星' is not formal; it's a common, poetic term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

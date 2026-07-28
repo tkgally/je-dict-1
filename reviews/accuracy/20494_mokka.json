@@ -1,0 +1,24 @@
+{
+  "entry_id": "20494_mokka",
+  "headword": "{目下|もっか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:28:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and misleading for '目下' (mokka), which specifically refers to 'at present' or 'currently'.",
+      "suggestion": "time-general"
+    }
+  ]
+}

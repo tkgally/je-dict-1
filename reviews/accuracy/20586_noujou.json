@@ -1,0 +1,24 @@
+{
+  "entry_id": "20586_noujou",
+  "headword": "{農場|のうじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'agriculture' is not in the valid tag list.",
+      "suggestion": "Replace 'agriculture' with 'work' or 'general'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "20676_kanryousuru",
+  "headword": "{完了|かんりょう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:30:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While '完了する' can be used in formal contexts, it is also very commonly used in neutral, everyday situations, especially in technical or administrative contexts (e.g., 'ダウンロードが完了した'). It is not exclusively formal.",
+      "suggestion": "neutral"
+    }
+  ]
+}

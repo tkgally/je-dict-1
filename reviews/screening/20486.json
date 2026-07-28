@@ -1,0 +1,10 @@
+{
+  "entry_id": "20486",
+  "screened_at": "2026-07-28T09:21:26Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `通行止` is `つうこうど` but the full word is `通行止め` (つうこうどめ). The reading `つうこうど` is a partial reading, which is allowed, but it's missing the `め` for the `止` kanji. However, the instructions state \"Do NOT flag partial readings as errors — they are correct by design.\" Therefore, this is not an error according to the rules."
+  ],
+  "confidence": 0.8
+}

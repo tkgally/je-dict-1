@@ -1,0 +1,24 @@
+{
+  "entry_id": "20685_funshitsutodoke",
+  "headword": "{紛失届|ふんしつとどけ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:30:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'legal' is not appropriate for '紛失届'. While it involves official procedures, it's not a legal term itself.",
+      "suggestion": "Remove 'legal'."
+    }
+  ]
+}

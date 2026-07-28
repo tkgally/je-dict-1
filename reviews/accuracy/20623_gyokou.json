@@ -1,0 +1,24 @@
+{
+  "entry_id": "20623_gyokou",
+  "headword": "{漁港|ぎょこう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is incorrect for '漁港' (fishing port). A fishing port is a location, not food itself.",
+      "suggestion": "Remove 'food'."
+    }
+  ]
+}

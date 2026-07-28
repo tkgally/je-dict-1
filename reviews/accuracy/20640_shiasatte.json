@@ -1,0 +1,31 @@
+{
+  "entry_id": "20640_shiasatte",
+  "headword": "{明明後日|しあさって}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:32:40Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is inconsistent and potentially misleading. 'three days from now' is correct, but 'the day after the day after tomorrow' is also three days from now, not two days after tomorrow.",
+      "suggestion": "three days from now"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is inconsistent and potentially misleading. 'three days from now' is correct, but 'two days after tomorrow' is not the same as 'three days from now'.",
+      "suggestion": "three days from now"
+    }
+  ]
+}

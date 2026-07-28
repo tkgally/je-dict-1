@@ -1,0 +1,24 @@
+{
+  "entry_id": "20814_hoomuran",
+  "headword": "ホームラン",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T09:30:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific sports term and its figurative use.",
+      "suggestion": "sports"
+    }
+  ]
+}
