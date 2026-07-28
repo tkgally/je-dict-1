@@ -1,0 +1,24 @@
+{
+  "entry_id": "20280_okurijou",
+  "headword": "{送|おく}り{状|じょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:43:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'commerce'",
+      "suggestion": "business"
+    }
+  ]
+}
