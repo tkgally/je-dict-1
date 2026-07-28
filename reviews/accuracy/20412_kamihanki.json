@@ -1,0 +1,24 @@
+{
+  "entry_id": "20412_kamihanki",
+  "headword": "{上半期|かみはんき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:45:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '上半期'.",
+      "suggestion": "time-period"
+    }
+  ]
+}

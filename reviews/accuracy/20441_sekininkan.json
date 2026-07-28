@@ -1,0 +1,24 @@
+{
+  "entry_id": "20441_sekininkan",
+  "headword": "{責任感|せきにんかん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-28T00:46:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'character' is not in the valid tag list.",
+      "suggestion": "personality"
+    }
+  ]
+}
