@@ -451,6 +451,14 @@ Two consequences for planning this backlog:
 - **Four defects in this slice were outside the wrapper family and needed hand adjudication**, none of them mechanically fixable: `{X|がく}` (23819 現象学) where the note's own "X + 学 produces field names" pattern had lost its 学 → `X{学|がく}`; `{それは|あなた}` (23874 次第で) where surface and reading were unrelated words → plain `それはあなた`; `{人|ひと}{々|びと}` (23903 原住民) → `{人々|ひとびと}`, matching the 13 existing uses dictionary-wide; and `{兎形目|うさぎがための もく}` (23656 齧歯類), a stray の with no source kanji → `{兎形目|うさぎがたもく}`, disambiguated by the entry's own `ウサギ{目|もく}` gloss. Only the last was caught by the §4 screener; the other three were only visible by reading the surrounding note. **A detector-driven sweep that trusts `suggestion` alone would have missed or mis-fixed all four** — per-entry verification continues to earn its cost.
 - **Empty-reading wrappers (`{チーム|}`, `{ある|}`) cluster tightly** in 23798–23809, a contiguous creation run. Like the no-pipe family above, these are a creation-time artifact of one batch rather than a diffuse problem, which is why per-slice measurement beats extrapolation.
 
+**Update 2026-07-29 (a measured slice, and two cautions about how to run the remaining sweep)**: The 2026-07-28 polish run swept **23500–23999** and reported three findings that change how the rest of this priority should be worked. They are written up in full in [topics/furigana-wrapper-anomalies.md](../topics/furigana-wrapper-anomalies.md) → "What a measured slice looks like (23500–23999)"; in brief:
+
+1. **100 of 110 findings were `pure-kana` wrappers inside `notes` fields** — katakana loanwords in SIMILAR WORDS / contrast lists, not headwords or examples. The create-era note-field blind spot, confirmed at scale in the scientific/technical creation cohort.
+2. **Four defects had `suggestion: null` and were outside the wrapper families entirely** — `{X|がく}` (23819, lost its 学), `{それは|あなた}` (23874, surface and reading unrelated), `{人|ひと}{々|びと}` (23903), `{兎形目|うさぎがための もく}` (23656, stray の). A sweep that trusted the detector's `suggestion` field would have missed or mis-fixed all four. **Do not treat `suggestion: null` rows as low-priority residue; they are where the real errors are.**
+3. **Empty-reading wrappers cluster in the contiguous 23798–23809 creation run**, not diffusely. Per-slice measurement beats linear extrapolation for sizing these sweeps.
+
+**Detector count this refresh**: 763 instances / 522 entries (error=2, info=272, warn=489; pure-kana=373, over-wrapped=272, o-go-prefix=116, nested=1, reading-truncated=1) — essentially flat against the 761 recorded in `backlog-queue.json`.
+
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
@@ -750,6 +758,35 @@ The band matters — 066xx is the same creation cohort as [P21](#priority-21-unl
 
 **Update 2026-07-27 (a seventh sub-family — 〜甲斐 nouns auto-tagged `informal`)**: The 06650–06655 frontier polish run found **06653 やり甲斐** and **06654 生き甲斐** both carrying `formality: informal`. The external §4 reviewer flagged 06654; the observing run verified the same error on 06653 and corrected both to `neutral`. These are ordinary native compound nouns of entirely neutral register — the same "creation template picked a non-neutral formality on a register-neutral word" artifact as the katakana-loanword (2026-07-14) and personality-adjective (2026-07-26) sub-families, but running in the `informal` direction and, unusually, over a **morphological** cluster rather than a semantic one. That makes the detector cut unusually cheap: `formality: informal` on any 〜甲斐 headword, and more broadly on ordinary Sino-Japanese/native nouns, which should default to `neutral`. Same 066xx cohort as the P18/P21 defects, reinforcing the single-combined-sweep recommendation of the 2026-07-26 update.
 
+**Update 2026-07-29 (two more bands, and the sub-family that will *never* migrate mechanically)**: Two consecutive accuracy-review sweeps re-measured the density above the polish frontier:
+
+| Band | Entries carrying ≥1 off-list tag | Rate |
+|---|---|---|
+| 20451–21050 | 237 / 599 | ~40% |
+| 20703–21300 | 159 / 598 | ~27% |
+
+The reviewer flags them reliably — this is the one dimension where the external model earns its cost — but `TAG_MIGRATION` in `build/check_tag_drift.py` **still has only 9 pairs**, so the applies are hand-adjudicated one entry at a time. The 20451–21050 pass left 32 flagged entries with no canonical destination; the 20703–21300 pass hand-adjudicated **70+ distinct off-vocab tags**.
+
+**The enumerated 1:1 map.** The 2026-07-29 run recorded the unambiguous pairs it decided, which is the concrete deliverable this item has been missing. Extending `TAG_MIGRATION` with these would convert most of the remaining ~5,900 instances from per-entry adjudication into a mechanical `systemic-fix` batch:
+
+| Off-list | → In-list | | Off-list | → In-list |
+|---|---|---|---|---|
+| `architecture` | `building` | | `literature` | `media` |
+| `housing` | `building` | | `publishing` | `media` |
+| `house` / `household` | `furniture` | | `math` | `number` |
+| `medicine` / `medical` | `health` | | `commerce` | `business` |
+| `psychology` | `cognition` | | `crime` | `law` |
+| `grammar` | `grammatical` | | `legal` | `law` |
+| `mimetic` | `onomatopoeia` | | `seasonal` | `time-season` |
+| `academic` | `education` | | `martial-arts` | `sports` |
+| `daily life` / `daily_life` | `daily-life` | | `astronomy` | `science` |
+
+Two cautions before anyone runs this as a bulk transform. First, `daily life`/`daily_life`→`daily-life` is a *spelling* normalisation, not a semantic decision, and should arguably be a separate always-on lint rather than a migration entry — it can never be wrong. Second, `astronomy`→`science` and `martial-arts`→`sports` are genuine losses of specificity; they are correct under the current closed vocabulary, but if `VALID_SEMANTIC` is ever widened they are the first candidates to re-add, so record them as *deliberate* coarsenings rather than silent ones.
+
+**And the sub-family that must stay in the semantic-verification lane: `place`.** Twelve instances in the 20703–21300 band alone, with **no single in-list destination** — it splits between `building` (storefront, ward, annex, clinic, wharf) and `geography` (alley, path). Any mechanical migration of `place` needs the headword, so it belongs with the per-entry lane no matter how large `TAG_MIGRATION` grows. This is the clean statement of the mappable/unmappable split the 2026-07-28 harvest asked for a discriminating test on: the split is not primarily about creation-batch vocabulary, it is about whether the off-list tag names a *category* (mappable) or a *superordinate* spanning several in-list categories (not mappable, ever).
+
+**Detector count moved**: `unknown-semantic` 6,218 → **5,939** this refresh, so the two sweeps are outrunning new-entry growth in this class — the first refresh where that is clearly true.
+
 ## Priority 18: "descriptive" semantic tag over-applied as a catch-all
 
 **Source**: Cross-model accuracy-review session 002 (entries 00201–00450), 2026-06-10
@@ -788,6 +825,16 @@ it in favour of `general`.
 What makes this filable rather than anecdotal: **06643 頑固, in the same creation batch, already uses `personality`** — so the inconsistency is *within* a single batch, not between eras. That rules out a policy change over time and points at per-entry tagger variance, which a detector can catch cheaply.
 
 **Suggested `check_tag_drift.py` sub-check**: `pos` contains `adjective-na` **and** the semantic tag list is exactly `["descriptive"]` **and** the examples take human subjects → propose `personality`. The human-subject test keeps it away from the legitimate uses (物の状態 descriptors), and the sole-tag condition keeps precision high. Emit as a review queue, not an auto-fix — 鈍感/敏感 show the boundary is genuinely fuzzy for perception adjectives.
+
+**Update 2026-07-29 (the class splits cleanly in two, and only one half is adjudicable)**: Two runs added evidence that this priority is really two problems wearing one tag.
+
+**(a) `formal` contradicted by the entry's own notes — adjudicable today, and being fixed.** The 2026-07-29 polish run found **06682 じわじわ** tagged `formal` while its own notes describe ⟦徐々に⟧ as "more formal" — the entry disagreeing with itself. The standing policy (`routine2.md` §A step 4) already licenses applying these, and it did. The run also proposed a sharper prior for finding more: **any entry with `onomatopoeia` in `pos` or `semantic` and `formality: formal` is almost certainly mistagged**, since mimetics are characteristically colloquial. That is a cheap, high-precision standalone scan and the best next action on this priority.
+
+**(b) `formal` with *no* register statement at all — currently unanswerable, and re-flagged forever.** The 2026-07-29 accuracy-review found five in one 600-entry band: **21031 {主観的|しゅかんてき}な, 21146 {相当|そうとう}する, 21258 {率直|そっちょく}に, 21265 {複雑化|ふくざつか}, 21279 {高度化|こうどか}**. The reviewer flags all five; the policy rejects all five, correctly, because silence is not contradiction; and the next pass over that band will flag them again. This half cannot be resolved by adjudication at all — it needs the *entry* to gain a REGISTER note or lose the tag, which is polish work, not review work.
+
+Filed as **Tooling item 44** (a `check_consistency.py` rule: non-neutral `formality` ∧ no REGISTER section → report). Sizing note carried there: five per 600 extrapolates to ~250 dictionary-wide, but this priority's whole thesis is that the class is concentrated in early and template-defaulted cohorts rather than uniform, so run the check before believing the extrapolation.
+
+The distinction matters beyond bookkeeping: half (a) is a defect the project can detect, decide, and fix on its own evidence, while half (b) is a *missing* piece of evidence that no amount of reviewing will supply. Counting them together has been making the reviewer's formality dimension look noisier than it is.
 
 ## Priority 19: Noun examples that never contain their headword
 
@@ -1301,6 +1348,15 @@ _(Filing note: the two updates below were appended to the Priority 23 section in
 
 **Update 2026-07-27 (band unbroken through 06655)**: The 06650–06655 frontier polish run again found **every** entry in its range with zero `⟦...⟧` links in examples *and* notes, all hand-linked in-run. The zero-link create-era band is now confirmed unbroken from ~06150 through **06655**. Nothing new in kind — this is roughly the fifteenth consecutive frontier run to report it — but it is the datum that keeps the block-sweep recommendation alive: at ~5 entries per polish run the frontier will not cross this band for years, while the vocabulary inside it repeats enough that a dedicated sweep amortises its lookups. Co-occurring template defect this run: `・` bullets in the same notes fields, now filed as [P28](#priority-28-mixed-bullet-markers--vs----inside-notes-fields).
 
+**Update 2026-07-29 (the frontier's link-free stretch is now mapped ahead of the lane, with a pace warning)**: Two polish runs measured the same creation-batch signature immediately ahead of the comprehensive frontier (`next: 06684`):
+
+- **06678–06680 and 06973/06981** (created 2026-01-18, last touched 2026-03-29): **zero** inline links in examples or notes.
+- **06684 そこそこ, 06685 とうてい, 06686 いやおうなく and the rest of the 06681–06690 run**: also zero — the whole block was created before inline links were part of entry creation.
+
+**Pace consequence, stated so the next run can plan for it**: an entry in this stretch needs roughly six examples plus a full notes field linked from scratch, i.e. **~3–4 entries per run rather than the usual pace**. A run that budgets for the normal rate through 06684–06690 will either overrun its context or leave entries half-linked, and half-linked is worse than untouched because the entry then looks polished. Better to plan three entries done properly.
+
+**A second, separable defect in the same cohort**: these entries' notes open with three throwaway conjugation bullets (`X → Xない (negative)` …) that duplicate the conjugation table the renderer already displays from the `conjugation` field. The note-quality scorer already penalises it (this cohort scores 47–62), so the priority lane will keep surfacing these entries for a reason that has nothing to do with their missing links. Filed separately as **Priority 31** below, because it is mechanically detectable and does not need the per-entry judgment that linking does — and because fixing it silently improves this cohort's scores without improving the entries, which is worth doing *after* the links, not before.
+
 ## Priority 22: Inconsistent free-text `part_of_speech` display field
 
 **Source**: 2026-06-23 routine polish run (frontier 6250–6254)
@@ -1390,6 +1446,21 @@ the resulting base forms resolve in `build/word_id_lookup.json` — a braced bas
 masking a lookup that never worked, which is exactly the failure mode
 [Tooling item 11](tooling-backlog.md#11-inline-link-target-id-resolution-gate-in-validatepy-or-pre-commitci)
 exists to catch.
+
+**Update 2026-07-29 — this is a *user-visible* defect, not link metadata, and the corpus is now measured.** The 2026-07-29 polish run found the fact that reframes this priority: **`docs/styles.css:245` renders `content: attr(data-baseform)` as the hover tooltip.** Whatever sits between `→` and `：` in an inline link is shown to the learner. So `⟦{言|い}う→{言|い}う：00515_iu⟧` puts a literal `{言|い}う` — braces, pipe and all — on screen.
+
+Dictionary-wide sweep, two families:
+
+| Family | Occurrences | Entries |
+|---|---|---|
+| **Braces left in the baseform** (this priority) | 254 | 39 |
+| **Kana instead of the dictionary form** (new, Priority 32 below) | 3,567 | 1,712 |
+
+Both are mechanically fixable from the target entry as ground truth: replace the baseform with the target's furigana-stripped headword. The transformation is decidable from `build/word_id_lookup.json`, touches **only link metadata**, and **cannot alter any Japanese text in an example or note** — which makes this one of the few genuinely safe candidates for the "purely-mechanical application" exception in `routine2.md` §B step 3, rather than the per-entry semantic verification that section defaults to.
+
+The scope estimate in this item's original text (39 entries) was right; what was wrong was the framing. This was filed as cosmetic tidying of an internal field. It is the tooltip a learner sees when they hover a word they do not know.
+
+*(Priorities 31 and 32, both filed from the same 2026-07-29 sweep, are at the end of this page in numeric order.)*
 
 ## Priority 25: Fabricated conjugation tables from a mis-assigned verb class
 
@@ -1570,6 +1641,61 @@ proposes replacing the screener with.
 **Recommended follow-up**: promote the scan to a permanent CI check so the class cannot
 refill. Unlike most items on this page, that requires no review queue and no judgment —
 any match is a failure. Tracked as the concrete first rule of Tooling item 24.
+
+## Priority 31: Redundant conjugation bullets at the head of notes
+
+**Source**: 2026-07-28 routine polish run (second run), 06678–06680 / 06973 / 06981 cohort
+
+Entries in the 2026-01-18 compound-verb creation batch open their `notes` field with three
+throwaway conjugation bullets in the shape
+
+```
+・X → Xない (negative)
+・X → Xます (polite)
+・X → Xて (te-form)
+```
+
+These duplicate, in prose, the conjugation table the renderer already builds from the
+entry's structured `conjugation` field — so the learner sees the same three forms twice on
+the page, once as a hand-written list and once in the full table. They also consume the
+first and most valuable lines of the notes, where a learner looks for what the word
+*means* and how it is used.
+
+**Detection**: notes whose first non-empty line is a `・` bullet matching
+`→ .*(ない|ます|て)\s*\(`. Bounded and mechanical to find; the *removal* still wants a glance
+per entry, because a few entries may use the same shape to document a genuinely irregular
+form worth calling out.
+
+**Interaction with the priority lane** (the reason this is filed rather than left as a
+note): `build/score_note_quality.py` penalises this pattern, so the cohort scores 47–62 and
+the notes-priority lane keeps surfacing it. A run that arrives expecting a thin note finds
+a note that is not thin, just badly ordered. Clearing this class removes a standing source
+of priority-lane no-ops — but it should be sequenced **after** the inline-link work on the
+same cohort (Priority 21), since deleting the bullets raises the score and would drop these
+entries down the ranking while they still have zero links.
+
+## Priority 32: Inline-link base forms written in kana instead of the dictionary form
+
+**Source**: 2026-07-29 routine polish run (dictionary-wide sweep)
+
+**3,567 inline links across 1,712 entries** carry a kana baseform where the dictionary form
+is kanji — e.g. `⟦{期間|きかん}→きかん：00229_kikan⟧`. Measured as: the link's declared baseform
+equals the target entry's `reading` while the target's `headword` differs.
+
+Per the tooltip finding in Priority 24 above, this is user-visible: hovering 期間 shows a
+tooltip reading `きかん` rather than `期間`. The learner gets the pronunciation they can
+already see in the furigana, instead of the headword they would need in order to look the
+word up — the one piece of information the tooltip exists to supply.
+
+**Fix**: identical to Priority 24 — replace the baseform with the target entry's
+furigana-stripped headword, resolved through `build/word_id_lookup.json`. Same safety
+argument (link metadata only, no Japanese text touched), same suitability for a mechanical
+`systemic-fix` batch. The two priorities should be done in one pass; they differ only in
+which malformed shape the baseform took.
+
+**Sizing note**: at 3,567 occurrences this is fourteen times Priority 24 and the largest
+mechanically-safe cleanup currently open. Worth running as its own `systemic-fix` item
+rather than as a rider on 24.
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect
 

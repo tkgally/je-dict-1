@@ -1,6 +1,6 @@
 # Furigana Wrapper Anomalies
 
-**Last updated**: 2026-05-19
+**Last updated**: 2026-07-29
 
 ## Overview
 
@@ -145,6 +145,69 @@ A `build/check_furigana_format.py` script would:
 3. Emit JSON or a fix-list of entry IDs to a polish prompt.
 
 Sub-pattern 3b (truncated readings) should be the highest-severity output bucket because those entries display visibly wrong furigana. Sub-pattern 2 (pure-kana wrappers) is next because many of those are reversed or mismatched. Sub-patterns 1 and 3a/3c are mostly cosmetic but worth a single sweep.
+
+## What a measured slice looks like (23500–23999, swept 2026-07-28)
+
+The counts above are dictionary-wide estimates from 2026-05. In 2026-07 a polish run
+swept a contiguous 500-entry slice and read every finding by hand. The result is worth
+recording in detail, because it contradicts three assumptions a bulk sweep would
+naturally make.
+
+**110 findings in 500 entries. 100 of them were `pure-kana` wrappers inside `notes`
+fields** — katakana loanwords sitting in SIMILAR WORDS and contrast lists, not in
+headwords or example sentences. This is sub-pattern 2 above, but concentrated far more
+narrowly than the dictionary-wide figure suggests: the defect is not "pure-kana wrappers
+occur throughout entries", it is "pure-kana wrappers occur in the note field's
+comparison lists". That is a create-time habit — when an entry writer lists neighbouring
+words in prose, they wrap each one uniformly, including the ones with no kanji to
+annotate — and this slice confirms it at scale in the scientific/technical creation
+cohort.
+
+### The detector's `suggestion` field is not a fix list
+
+Four of the 110 were outside every known wrapper family, and all four came back from
+`check_furigana_format.py` with **`suggestion: null`**:
+
+| Entry | Wrapper | What is actually wrong |
+|---|---|---|
+| 23819 | `{X|がく}` | The kanji 学 is **gone** — the surface is a literal Latin `X` |
+| 23874 | `{それは|あなた}` | Surface and reading are unrelated words |
+| 23903 | `{人|ひと}{々|びと}` | 々 split into its own wrapper; the pair should be one span |
+| 23656 | `{兎形目|うさぎがための もく}` | Stray の (and a space) inside the reading |
+
+A sweep that applied the detector's suggestions and skipped the nulls would have **missed
+or mis-fixed every one of them** — and these four are the only genuinely *wrong*
+information in the slice; the other 106 render acceptably. The `suggestion: null` rows are
+not residue left over after the easy cases; they are the rows where the string is damaged
+in a way no template can repair, which is exactly why the detector cannot propose a
+replacement. **Sort by `suggestion is null` first, not last.**
+
+This is a specific instance of the general principle recorded in
+[deterministic-vs-semantic-tasks.md](deterministic-vs-semantic-tasks.md): the detector's
+confidence is a property of the *pattern*, not of the *severity*.
+
+### Defects cluster by creation batch, so extrapolation over-counts
+
+The slice's empty-reading wrappers (`{チーム|}`, `{ある|}`, `{マイノリティ|}`) were not spread
+across the 500 entries. They fell in the **contiguous 23798–23809 run** — a single
+creation batch, twelve entries wide. Scaling any of these counts linearly from a sample
+therefore over-estimates when the sample happens to contain a batch and under-estimates
+when it does not.
+
+The practical rule: **measure per slice before sizing a sweep**, and expect the work to
+arrive in clumps that correspond to creation sessions rather than to ID ranges. The same
+clustering has now been observed independently for stale `noentry` markers (seven in one
+entry) and for missing inline links (whole creation runs with zero), which suggests it is
+a property of how the dictionary was built rather than a coincidence of this defect.
+
+### A related trap in mixed-script variant forms
+
+`build/find_missing_furigana.py` correctly flagged a bare 丸 inside the variant spelling
+**丸ノコ** written in an entry's explanatory prose. Katakana-mixed forms still need their
+kanji wrapped (`{丸|まる}ノコ`), and this is easy to miss because the surrounding sentence is
+English: the eye reads the Japanese fragment as a citation form rather than as text that
+the furigana rules apply to. Worth remembering whenever an entry documents orthographic
+variants — the variant list is prose, and prose is in scope.
 
 ## Implications for je-dict-1
 
