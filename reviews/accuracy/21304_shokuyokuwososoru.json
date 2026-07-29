@@ -1,0 +1,24 @@
+{
+  "entry_id": "21304_shokuyokuwososoru",
+  "headword": "{食欲|しょくよく}をそそる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'sensation' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

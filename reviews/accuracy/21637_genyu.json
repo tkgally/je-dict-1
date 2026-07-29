@@ -1,0 +1,24 @@
+{
+  "entry_id": "21637_genyu",
+  "headword": "{原油|げんゆ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:44Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'nature' is too broad and misleading for '原油' (crude oil), which is primarily an economic and industrial commodity.",
+      "suggestion": "Replace 'nature' with 'economics' or 'industry'."
+    }
+  ]
+}

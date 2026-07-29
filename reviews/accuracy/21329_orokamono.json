@@ -1,0 +1,31 @@
+{
+  "entry_id": "21329_orokamono",
+  "headword": "{愚|おろ}か{者|もの}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:32Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'insult'.",
+      "suggestion": "evaluation"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '愚か者' is not formal. It is often used in a dramatic or literary context, but its register is not formal in the sense of polite or official language. It's more akin to a strong, often derogatory, term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

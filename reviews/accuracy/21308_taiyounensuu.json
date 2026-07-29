@@ -1,0 +1,24 @@
+{
+  "entry_id": "21308_taiyounensuu",
+  "headword": "{耐用年数|たいようねんすう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for '耐用年数'.",
+      "suggestion": "Replace 'time' with 'time-period'."
+    }
+  ]
+}

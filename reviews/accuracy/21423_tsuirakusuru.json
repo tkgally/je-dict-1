@@ -1,0 +1,24 @@
+{
+  "entry_id": "21423_tsuirakusuru",
+  "headword": "{墜落|ついらく}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:22Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'disaster'",
+      "suggestion": "No direct replacement in the list. 'movement' is already present and covers the core meaning. 'accident' could be a plausible, but not perfect, replacement if a more specific tag is desired, but it's not in the valid list."
+    }
+  ]
+}

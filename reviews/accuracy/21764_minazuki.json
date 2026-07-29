@@ -1,0 +1,24 @@
+{
+  "entry_id": "21764_minazuki",
+  "headword": "{水無月|みなづき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not specific enough for a month name. 'time-month' is more appropriate.",
+      "suggestion": "time-month"
+    }
+  ]
+}

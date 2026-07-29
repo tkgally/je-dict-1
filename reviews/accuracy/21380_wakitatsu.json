@@ -1,0 +1,24 @@
+{
+  "entry_id": "21380_wakitatsu",
+  "headword": "{沸|わ}き{立|た}つ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'cooking' is too narrow and misleading for the headword's primary meaning, which encompasses any liquid boiling, not just in a culinary context. While it can apply to cooking, it's not a defining characteristic of the verb itself.",
+      "suggestion": "Remove 'cooking'. The 'action' tag would be more appropriate if a general action tag is desired, but it's not strictly necessary given the other tags."
+    }
+  ]
+}

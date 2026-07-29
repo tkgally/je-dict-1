@@ -1,0 +1,38 @@
+{
+  "entry_id": "21370_kanroni",
+  "headword": "{甘露煮|かんろに}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:23Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'candied' is misleading as it implies a hard, sugary coating, which is not typical for 甘露煮. While some 甘露煮 (like chestnuts) can be quite sweet and glazed, the primary characteristic is simmering in a sweet syrup, not a hard candy coating.",
+      "suggestion": "Remove 'candied' from the main gloss or clarify its specific application."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'candied' is misleading as it implies a hard, sugary coating, which is not typical for 甘露煮. While some 甘露煮 (like chestnuts) can be quite sweet and glazed, the primary characteristic is simmering in a sweet syrup, not a hard candy coating.",
+      "suggestion": "Remove 'candied' from the definition gloss or clarify its specific application."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The translation 'candied small fish' is misleading for 甘露煮, as 'candied' implies a hard, sugary coating, which is not how small fish are prepared in 甘露煮. They are simmered in a sweet soy sauce until tender and glazed.",
+      "suggestion": "Change 'candied small fish' to 'small fish simmered in sweet soy sauce' or 'sweet-simmered small fish'."
+    }
+  ]
+}

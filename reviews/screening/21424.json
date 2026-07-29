@@ -1,0 +1,13 @@
+{
+  "entry_id": "21424",
+  "screened_at": "2026-07-29T12:33:15Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for `制度` is `せいど` but the furigana provided is `かつ` which is incorrect. It should be `せいど`.",
+    "The reading for `産業` is `さんぎょう` but the furigana provided is `さんぎょ` which is a partial reading. While partial readings are allowed, in this context, it seems like an error as the full reading is `さんぎょう` and the okurigana is not present.",
+    "The reading for `新` is `あたら` but the furigana provided is `あたら` which is correct. However, the context `新しい` suggests that `新` should be read as `あたら` and `しい` is okurigana. The provided furigana `あたら` is correct for the kanji `新`.",
+    "The reading for `組` is `く` but the furigana provided is `く` which is correct. However, the context `取り組み` suggests that `組` should be read as `く` and `み` is okurigana. The provided furigana `く` is correct for the kanji `組`."
+  ],
+  "confidence": 0.8
+}

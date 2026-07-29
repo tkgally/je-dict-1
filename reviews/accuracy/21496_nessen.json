@@ -1,0 +1,24 @@
+{
+  "entry_id": "21496_nessen",
+  "headword": "{熱戦|ねっせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:31:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'conflict' is inappropriate for '熱戦'. While '熱戦' implies a competitive struggle, 'conflict' typically refers to a more serious disagreement, dispute, or armed struggle, which is not the primary meaning of '熱戦'.",
+      "suggestion": "Remove 'conflict'."
+    }
+  ]
+}

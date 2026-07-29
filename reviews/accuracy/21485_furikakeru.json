@@ -1,0 +1,24 @@
+{
+  "entry_id": "21485_furikakeru",
+  "headword": "{振|ふ}りかける",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:43Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'actions' is not a valid semantic tag.",
+      "suggestion": "action"
+    }
+  ]
+}

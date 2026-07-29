@@ -1,0 +1,24 @@
+{
+  "entry_id": "21604_tenkyosuru",
+  "headword": "{転居|てんきょ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is marked as 'formal', but the gloss and explanation indicate it is a formal word for moving house, commonly used in official and written contexts. This is a mismatch.",
+      "suggestion": "Change 'formal' to 'neutral' or remove the formality tag if it's not explicitly formal in all contexts."
+    }
+  ]
+}
