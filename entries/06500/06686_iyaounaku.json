@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06686_iyaounaku_ex1",
-      "japanese": "{否応|いやおう}なく{決断|けつだん}を{迫|せま}られた。",
+      "japanese": "{否応|いやおう}なく⟦{決断|けつだん}→決断：13250_ketsudan⟧⟦を→を：00422_wo⟧⟦{迫|せま}られた→迫る：03928_semaru⟧。",
       "english": "I was forced to make a decision whether I liked it or not.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06686_iyaounaku_ex2",
-      "japanese": "グローバル{化|か}で{否応|いやおう}なく{英語|えいご}が{必要|ひつよう}になった。",
+      "japanese": "⟦グローバル→グローバル：10847_guroobaru⟧⟦{化|か}→〜化：28335_ka⟧⟦で→で：00502_de⟧{否応|いやおう}なく⟦{英語|えいご}→英語：02274_eigo⟧⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦に→に：00314_ni⟧⟦なった→なる：01970_naru⟧。",
       "english": "With globalization, English became inevitably necessary.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06686_iyaounaku_ex3",
-      "japanese": "{時代|じだい}の{流|なが}れに{否応|いやおう}なく{巻|ま}き{込|こ}まれる。",
+      "japanese": "⟦{時代|じだい}→時代：01424_jidai⟧⟦の→の：09472_no⟧⟦{流|なが}れ→流れ：03504_nagare⟧⟦に→に：00314_ni⟧{否応|いやおう}なく⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧。",
       "english": "One gets swept up in the currents of the times, like it or not.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,19 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{否|いや} (no, unwilling) + {応|おう} (yes, consent) + なく (without)\nLiterally: \"without yes or no\" → regardless of one's wishes\n\nVARIANTS:\n・{否応|いやおう}なしに - Same meaning\n・{否応|いやおう}なく - Standard form\n・{有無|うむ}を{言|い}わさず - Without allowing objection (similar nuance)\n\nUSAGE:\n{否応|いやおう}なく typically precedes verbs describing being forced into a situation or having to accept something:\n・{否応|いやおう}なく{巻|ま}き{込|こ}まれる (to be inevitably drawn in)\n・{否応|いやおう}なく{従|したが}う (to comply whether one likes it or not)\n・{否応|いやおう}なく{変|か}わる (to change inevitably)\n\nNUANCE:\nEmphasizes the lack of choice—external circumstances or forces leave no room for refusal. Often used for societal changes, obligations, or situations beyond one's control.",
+  "notes": "FORMATION:\n{否|いや} (no, refusal) + {応|おう} (yes, consent) + なく (without)\nLiterally \"without a yes or a no\" — that is, without asking whether you agree.\n\nVARIANTS:\n・{否応|いやおう}なく - the standard adverbial form\n・{否応|いやおう}⟦なし→無し：03779_nashi⟧⟦に→に：00314_ni⟧ - same meaning, slightly more emphatic and a little more literary\n・⟦{有無|うむ}→有無：13019_umu⟧⟦を→を：00422_wo⟧⟦{言|い}わさず→言う：00515_iu⟧ - without letting anyone object; stresses an agent overriding you, where {否応|いやおう}なく usually points at circumstances\n\nUSAGE:\n{否応|いやおう}なく modifies a verb, and that verb is nearly always one of being acted upon — a passive, or a change that happens to the subject:\n・{否応|いやおう}なく⟦{巻|ま}き{込|こ}まれる→巻き込む：05753_makikomu⟧ (to be drawn in regardless)\n・{否応|いやおう}なく⟦{従|したが}う→従う：02059_shitagau⟧ (to comply whether one likes it or not)\n・{否応|いやおう}なく⟦{変|か}わる→変わる：00714_kawaru⟧ (to change inevitably)\nIt is not used of things the subject chose to do, so 否応なく行った sounds wrong unless the going was imposed.\n\nNUANCE:\nThe force is external — social change, an employer, the passage of time — and the speaker's own preference has been bypassed rather than overruled in argument. It is common in writing about society and history, and carries a note of resignation.\n\nSIMILAR WORDS:\n・⟦{必然|ひつぜん}→必然：05533_hitsuzen⟧ - inevitability as a logical outcome; states that something had to follow, without the sense of a will being ignored",
   "cross_references": [
     {
-      "type": "synonym",
-      "reading": "ひっすに",
-      "headword": "{必然|ひつぜん}に",
-      "label": "inevitably"
+      "type": "related",
+      "reading": "ひつぜん",
+      "headword": "{必然|ひつぜん}",
+      "label": "inevitability, necessity",
+      "target_id": "05533_hitsuzen"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:24:01Z",
-    "modified": "2026-06-08T02:21:06Z",
+    "modified": "2026-07-29T15:19:07Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
