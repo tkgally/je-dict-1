@@ -400,16 +400,17 @@
       "id": "link-target-dead",
       "title": "Inline links pointing at entry IDs that no longer exist (silently unlinked on the live site)",
       "source": "polishing/observations.md#2026-07-29",
-      "detect": "sweep: for every ⟦surface→base：id⟧, assert id == 'noentry' or id in entries/*/*.json basenames",
+      "detect": "python3 build/check_link_targets.py --summary",
       "filter": "re-resolve each dead id via build/word_id_lookup.json using the link's baseform/reading; FLAG any that resolve ambiguously (homographs)",
       "fix_type": "verify",
       "verify": "per-entry",
       "priority": 2,
-      "batch_ready": true,
-      "status": "open",
-      "scope_estimate": 292,
+      "batch_ready": false,
+      "status": "resolved",
+      "scope_estimate": 0,
       "severity": "error",
-      "notes": "292 links / 160 entries / 144 distinct dead IDs as of 2026-07-29. Renderer (html_utils.process_word_links) drops the link silently, and validate.py does not check target existence, so this is invisible in CI. Pair with a ratcheted validate.py check (baseline the 292, fail on new ones)."
+      "notes": "RESOLVED 2026-07-29 (routine systemic-fix). Corpus swept: all 291 links / 159 entries / 143 distinct dead IDs repaired (289 re-targeted via baseform lookup with per-mapping verification; 2 set to noentry — 逆転する and conditional ば, neither of which has an entry, both queued as candidates). Inflow gate shipped: build/validate.py now reports dead link targets as ERRORS (was warnings) and check_word_links is wired into the --entry/--id, --changed-only and --range paths, which previously skipped it entirely — that was why the documented `validate.py --id | grep \"word link\"` check was a no-op. New read-only detector: build/check_link_targets.py. Remaining half of the original ask (base-form agreement) filed as link-target-baseform-disagreement.",
+      "scope_measured_at": "2026-07-29"
     },
     {
       "id": "link-baseform-kana",
@@ -455,6 +456,22 @@
       "scope_estimate": null,
       "severity": "info",
       "notes": "2026-01-18 compound-verb creation batch signature (06678-06680, 06973, 06981). Penalised by score_note_quality.py, so the priority lane keeps surfacing the cohort. Sequence AFTER the inline-link work on the same entries (Priority 21): removing the bullets raises the score and would drop still-link-free entries down the ranking."
+    },
+    {
+      "id": "link-target-baseform-disagreement",
+      "title": "Inline links whose declared entry_id resolves, but not to the link's own base form (real entry, wrong word)",
+      "source": "polishing/observations.md#2026-07-29",
+      "detect": "for every ⟦surface→base：id⟧, resolve base through word_id_lookup.json (by_headword then by_reading) and compare the candidate set against the declared id",
+      "filter": "normalize first, or the signal drowns: (a) accept affix headwords written with 〜/～ (的→〜的, 者→〜者, 中→〜中) — 210 of 895; (b) accept a する-verb base pointing at its noun entry (確認する→00158_kakunin) — 267 of 895. The 418 that survive are the real queue.",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 2,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 418,
+      "scope_measured_at": "2026-07-29",
+      "severity": "error",
+      "notes": "Measured 2026-07-29 over 264,132 links: 7,296 noentry, 255,070 agree, 871 no lookup hit, 895 disagree; after the two normalizations above, 418 remain. Strictly worse than a dead target because the link renders and works — it just takes the reader to another word. Confirmed wrong-word cases in the survivor set: 立てる→01189_tateru (which is 建てる), 治る→00735_naoru (which is 直る). Survivors also contain a benign orthographic-variant family (頃→03091_koro 〜ころ; 街→00613_machi 町) that needs a policy call, not a fix. This is the second half of resolved item link-target-dead; the existence gate cannot see it."
     }
   ]
 }

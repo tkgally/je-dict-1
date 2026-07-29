@@ -350,6 +350,31 @@ Top offenders look like pre-renumbering stragglers rather than fresh mistakes: `
 
 Recommended shape, in order: (1) ratcheted existence check in `validate.py` — ~15 lines, ships now; (2) base-form-agreement warning alongside it; (3) a systemic-fix pass that re-resolves each of the 292 by its own baseform/reading via `word_id_lookup.json`, which is mechanical for the `_de`/`_mo`/`_to` particle bulk.
 
+**RESOLVED 2026-07-29 (routine systemic-fix) — and the diagnosis was wrong in one instructive way: the check already existed.**
+
+All three recommended steps shipped in one run, but step 1 turned out not to need writing. `check_word_links()` in `validate.py` has been resolving link targets against the entry-ID set all along, and a full `make validate` was reporting **308 word-link warnings** (291 dead targets + 17 malformed) the whole time. The reason six consecutive polish runs saw "Entry is valid!" is narrower and worse than "the check is missing":
+
+> `validate_single_entry()` — the function behind **both** `--entry` and `--id` — **never called `check_word_links` at all.** Neither did `validate_changed_only()` or `validate_range()`. The check ran only in the full-corpus path that a polishing session never invokes, and the pre-commit hook (`validate.py --entry`) was blind for the same reason.
+
+So every cycle of this item read the *symptom* correctly ("the documented check is a no-op") and inferred the *wrong cause* ("no check exists"), and each cycle's proposed fix — write a resolution check — would have added a second implementation next to a working one that simply wasn't wired into three of four entry points. **The durable lesson: when a documented check reports nothing, verify which code path the documented invocation actually takes before concluding the check is absent.** A single `grep -n check_word_links build/validate.py` would have closed six cycles' worth of speculation, and the ad-hoc scanners three sessions wrote were re-implementing code already in the file they were running.
+
+What shipped:
+
+- **Corpus swept to zero.** All **291** dead links / **159** entries / **143** distinct dead IDs repaired. 289 re-targeted by resolving each link's own baseform through `word_id_lookup.json`; **2** set to `noentry` because no entry exists to link to (`逆転する`, and the conditional particle `ば`), both queued as candidates. Every one of the 143 distinct `(dead_id, baseform)` mappings was verified individually before application, and the three where a *kana* baseform matched a *kanji*-headword entry were checked in situ — which caught the one false resolution the lookup produced on its own: `ば` → `03699_ba` (場, "place"), a reading homophone of the conditional particle, not the word. A run that had trusted the lookup's single-candidate answer would have shipped a working link to the wrong entry.
+- **The gate, made real rather than added.** Dead targets are now **errors** instead of warnings (they fail `make validate` and CI), and `check_word_links` is wired into `--entry`/`--id`, `--changed-only`, and `--range`, each checking against the whole dictionary's ID set rather than the subset under validation. **No baseline/ratchet was needed** — the corpus is at 0, so the check is absolute, which is stronger than the ratchet this item asked for and was only possible because the sweep and the gate shipped together.
+- **New detector**: `build/check_link_targets.py` (read-only; `--summary`, `--json`, `--by-target`, `--resolvable`, `--ambiguous`, `--count`), which also proposes a replacement per dead link. This is the sibling proposed as `check_inline_links.py` in the item text.
+- Note for future items: `build/tests/` still could not be run (no `pytest` in the image — Tooling 42), so the `validate.py` changes were verified by injecting a synthetic dead link and confirming exit 1 in all four modes, then confirming exit 0 and 30,031/30,031 valid after removal.
+
+**The base-form-agreement half is now measured, and it is not a warning you can just switch on** — filed separately as `link-target-baseform-disagreement` in [backlog-queue.json](backlog-queue.json). Over all **264,132** links: 7,296 `noentry`, **255,070 agree**, 871 with no lookup hit, and **895 disagree**. But a naive check would be mostly noise, in two normalizable families:
+
+| Family | Count | Verdict |
+|---|---|---|
+| Affix headword written with `〜`/`～` (`的`→`〜的` 09839, `者`→`〜者` 04662, `中`→`〜中` 09840) | 210 | benign — normalize the tilde |
+| する-verb base pointing at its noun entry (`確認する`→`00158_kakunin`) | 267 | benign by convention — but note a separate `25332_kakuninsuru` exists, so which is *preferred* is a policy call |
+| **Survivors after both normalizations** | **418** | the real queue |
+
+The survivors contain exactly the failure shape the 2026-07-28 update predicted, now with confirmed instances: **`立てる` → `01189_tateru`, which is 建てる** (to build, not to stand up), ×11, and **`治る` → `00735_naoru`, which is 直る** (to be fixed, not to heal), ×7. Both render as working links to a different word. They also contain a benign orthographic-variant family (`頃`→`03091_koro` 〜ころ; `街`→`00613_machi` 町) that needs a policy decision rather than a repair. So: agreement is worth shipping, but only behind the two normalizations, and its output is a review queue, not an auto-fix.
+
 ## 12. review_runner.py `--pass deep --range` deep-reviews the whole range, not just flagged
 
 **Source**: Routine v2 new-entries / accuracy-review sessions, 2026-06-10
