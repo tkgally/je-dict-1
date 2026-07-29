@@ -1,0 +1,24 @@
+{
+  "entry_id": "21206_yokugetsu",
+  "headword": "{翌月|よくげつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:17:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is too broad and not in the valid list.",
+      "suggestion": "time-general"
+    }
+  ]
+}

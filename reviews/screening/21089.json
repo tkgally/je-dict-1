@@ -1,0 +1,11 @@
+{
+  "entry_id": "21089",
+  "screened_at": "2026-07-29T00:28:05Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for item 5, 子供, is given as こども, but the following text indicates it's part of a larger phrase where 反抗的 is partially read as はんこう. This suggests that the reading for 子供 might be intended to be part of a compound or phrase where its reading changes, or the partial reading of 反抗的 is an error. However, given the instruction to not flag partial readings as errors, and that こども is the standard reading for 子供, the issue lies with the partial reading of 反抗的. But since the task is to check the given furigana readings, and こども is correct for 子供, this is not an error in the given reading for 子供 itself. The issue is with the subsequent partial reading of 反抗的. If we strictly follow the rule that the reading covers ONLY the kanji portion, then the reading for 子供 is correct. The problem is with the subsequent partial reading of 反抗的, which is not part of the current item's reading. Therefore, item 5 is correct as given.",
+    "The reading for item 7, 先生, is given as せんせい, but the following text indicates it's part of a larger phrase where 反抗的 is partially read as はんこう. Similar to item 5, this suggests that the reading for 先生 might be intended to be part of a compound or phrase where its reading changes, or the partial reading of 反抗的 is an error. However, given the instruction to not flag partial readings as errors, and that せんせい is the standard reading for 先生, the issue lies with the partial reading of 反抗的. But since the task is to check the given furigana readings, and せんせい is correct for 先生, this is not an error in the given reading for 先生 itself. The problem is with the subsequent partial reading of 反抗的, which is not part of the current item's reading. Therefore, item 7 is correct as given."
+  ],
+  "confidence": 0.9
+}

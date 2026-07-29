@@ -1,0 +1,24 @@
+{
+  "entry_id": "21001_gekai",
+  "headword": "{外科医|げかい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:17:47Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medicine' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

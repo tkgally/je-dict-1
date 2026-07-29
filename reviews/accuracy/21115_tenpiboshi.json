@@ -1,0 +1,24 @@
+{
+  "entry_id": "21115_tenpiboshi",
+  "headword": "{天日干|てんぴぼ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'food' is too narrow for the headword, which can apply to various items beyond food, as shown in example 2 (futon).",
+      "suggestion": "Replace 'food' with 'daily-life' or 'general'."
+    }
+  ]
+}

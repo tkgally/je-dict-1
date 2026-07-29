@@ -1,0 +1,24 @@
+{
+  "entry_id": "21022_ketteisuru",
+  "headword": "{決定|けってい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '決定する' is not inherently formal; it can be used in a wide range of contexts, including everyday speech. The current 'formal' tag is misleading.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "21278_basshi",
+  "headword": "{抜歯|ばっし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'body-part' is incorrect for '抜歯' (tooth extraction).",
+      "suggestion": "The correct tag should be 'health' or 'action' as it describes a medical procedure or an action."
+    }
+  ]
+}

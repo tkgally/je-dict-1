@@ -1,0 +1,24 @@
+{
+  "entry_id": "20763_jissen",
+  "headword": "{実線|じっせん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'technology' is too narrow for '実線'.",
+      "suggestion": "general"
+    }
+  ]
+}

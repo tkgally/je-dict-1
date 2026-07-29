@@ -1,0 +1,24 @@
+{
+  "entry_id": "21040_sujichigai",
+  "headword": "{筋違|すじちが}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and misleading for the headword's primary meaning (sense 1). While sense 2 relates to the body, the headword itself isn't primarily a 'body' term.",
+      "suggestion": "Remove 'body'. The 'health' tag would be more appropriate for sense 2, but 'body' is not a good fit for the headword as a whole."
+    }
+  ]
+}

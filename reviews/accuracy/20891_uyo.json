@@ -1,0 +1,24 @@
+{
+  "entry_id": "20891_uyo",
+  "headword": "{紆余|うよ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:33Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss implies that 紆余 can be used independently to mean 'winding, meandering, twists and turns', but the explanation states it's almost exclusively used in 紆余曲折 and rarely on its own.",
+      "suggestion": "Change the gloss to reflect its primary usage within 紆余曲折, or clarify that it's rarely used alone."
+    }
+  ]
+}

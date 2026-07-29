@@ -1,0 +1,24 @@
+{
+  "entry_id": "21039_zokuhatsusuru",
+  "headword": "{続発|ぞくはつ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'event' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

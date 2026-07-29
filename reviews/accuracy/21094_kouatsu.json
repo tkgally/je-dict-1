@@ -1,0 +1,24 @@
+{
+  "entry_id": "21094_kouatsu",
+  "headword": "{高圧|こうあつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'personality' is incorrect for the headword '高圧' (kouatsu). While the word can describe a 'high-handed' or 'overbearing' manner (sense 2), it does not directly refer to a personality trait itself. It describes an action or attitude.",
+      "suggestion": "Remove 'personality'."
+    }
+  ]
+}

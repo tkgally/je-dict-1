@@ -1,0 +1,24 @@
+{
+  "entry_id": "20977_hitsudokusho",
+  "headword": "{必読書|ひつどくしょ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'literature' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

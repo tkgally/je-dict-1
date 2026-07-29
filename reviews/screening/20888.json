@@ -1,0 +1,10 @@
+{
+  "entry_id": "20888",
+  "screened_at": "2026-07-29T00:28:04Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 仕立 is した, but the full word is 仕立て (shitate). The provided reading した is a partial reading, which is allowed, but the okurigana て is missing from the entry, making it seem like the reading is incomplete for the kanji portion itself. However, the instruction states 'the reading covers ONLY the kanji portion' and 'Do NOT flag partial readings as errors — they are correct by design.' Given this, it's technically not an error in the mapping of the kanji to its reading, but rather an observation about the presentation if the intent was to show the full reading of the kanji part before okurigana. But strictly following the rules, it's not an error."
+  ],
+  "confidence": 0.7
+}

@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T01:35:42Z",
+  "reviewed_at": "2026-07-29T00:19:29Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'travel' is too narrow and misleading for '予約困難'.",
-      "suggestion": "Replace 'travel' with 'general' or 'daily-life' as the concept applies broadly to various bookings, not just travel."
-    }
-  ]
+  "issues": []
 }

@@ -1,0 +1,31 @@
+{
+  "entry_id": "21026_kangaedasu",
+  "headword": "{考|かんが}え{出|だ}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:15Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss for sense 2 is misleading. While 考え出す can mean 'to begin to think', the nuance of '出す' here is more about the *initiation* of an action, rather than just 'starting pondering'. It implies a sudden or spontaneous beginning of thought, often about something specific.",
+      "suggestion": "to suddenly start thinking; to begin to ponder"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[5]",
+      "severity": "error",
+      "concern": "The English translation for example 5 is too literal and unnatural. 'Once you start thinking about it, you can't stop' doesn't fully capture the nuance of 'あまり考え出すと止まらなくなる' which implies that if one thinks *too much* or *too deeply* about something, they won't be able to stop.",
+      "suggestion": "If I start thinking too much, I can't stop."
+    }
+  ]
+}
