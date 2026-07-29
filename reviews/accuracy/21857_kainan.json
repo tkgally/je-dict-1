@@ -1,0 +1,31 @@
+{
+  "entry_id": "21857_kainan",
+  "headword": "{海難|かいなん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:13Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'disaster' is not in the valid tag list.",
+      "suggestion": "Replace 'disaster' with 'general' or 'nature' or 'accident'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'maritime' is not in the valid tag list.",
+      "suggestion": "Replace 'maritime' with 'transportation' or 'general'."
+    }
+  ]
+}

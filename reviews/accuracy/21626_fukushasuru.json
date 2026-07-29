@@ -1,0 +1,24 @@
+{
+  "entry_id": "21626_fukushasuru",
+  "headword": "{複写|ふくしゃ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:31Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '複写する' is not formal. It is a neutral term for 'to copy' or 'to duplicate'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

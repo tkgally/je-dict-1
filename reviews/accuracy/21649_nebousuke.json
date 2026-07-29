@@ -1,0 +1,24 @@
+{
+  "entry_id": "21649_nebousuke",
+  "headword": "{寝坊助|ねぼうすけ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    }
+  ]
+}

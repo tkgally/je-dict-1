@@ -1,0 +1,24 @@
+{
+  "entry_id": "21509_konshin",
+  "headword": "{懇親|こんしん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'human-relations'.",
+      "suggestion": "society"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entry_id": "21341",
+  "screened_at": "2026-07-29T12:23:35Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 作付 is given as さくづ, but the full word is 作付け (さくづけ). The reading さくづ only covers 作付, which is correct according to the rules. However, the example provided in the prompt for 'Compound readings split before okurigana' (先行→さきゆ followed by き (先行き=さきゆき)) suggests that the reading should cover the entire kanji portion before the okurigana. In this case, 作付 should be さくつけ, not さくづ. The 'づ' implies rendaku, but 作付 is not a compound where rendaku typically applies in this way. It's more likely a direct reading of 作付 as さくつけ, with け being okurigana. If 作付 is treated as a single unit, then さくづ is incorrect.",
+    "The reading for 田植 is given as たう, but the full word is 田植え (たうえ). Similar to the 作付 example, the reading たう only covers 田植. If 田植 is treated as a single unit, then たう is incorrect. The reading should be たうえ, with え being okurigana. The example '先行→さきゆ followed by き (先行き=さきゆき)' implies that the reading should cover the entire kanji portion before the okurigana. Therefore, 田植 should be たうえ."
+  ],
+  "confidence": 0.9
+}

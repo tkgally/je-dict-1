@@ -1,0 +1,24 @@
+{
+  "entry_id": "21616_totsuzenni",
+  "headword": "{突然|とつぜん}に",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time' is incorrect for '突然に'. While it relates to when something happens, its core meaning is about the manner or unexpectedness, not a duration or point in time.",
+      "suggestion": "Replace 'time' with 'descriptive' or 'change'."
+    }
+  ]
+}

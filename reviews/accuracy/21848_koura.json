@@ -1,0 +1,24 @@
+{
+  "entry_id": "21848_koura",
+  "headword": "{甲羅|こうら}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is too broad and not in the valid list. 'animal-general' is the correct tag for general animal terms.",
+      "suggestion": "Replace 'animal' with 'animal-general'."
+    }
+  ]
+}

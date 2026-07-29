@@ -1,0 +1,31 @@
+{
+  "entry_id": "21799_tabeyasui",
+  "headword": "{食|た}べやすい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:31:12Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'user-friendly (of food)' which is not a direct meaning of 食べやすい. While food can be 'user-friendly' in a broader sense, 食べやすい specifically refers to the ease of eating, not general usability.",
+      "suggestion": "Remove 'user-friendly (of food)' from the gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The definition gloss includes 'easy to handle (of food)' which is not a direct meaning of 食べやすい. While food can be 'easy to handle' in a broader sense, 食べやすい specifically refers to the ease of eating, not general handling.",
+      "suggestion": "Remove 'easy to handle (of food)' from the definition gloss."
+    }
+  ]
+}

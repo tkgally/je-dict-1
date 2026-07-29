@@ -1,0 +1,24 @@
+{
+  "entry_id": "21895_heikinteki",
+  "headword": "{平均的|へいきんてき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:31:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'description' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    }
+  ]
+}

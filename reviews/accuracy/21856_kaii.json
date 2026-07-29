@@ -1,0 +1,24 @@
+{
+  "entry_id": "21856_kaii",
+  "headword": "{怪異|かいい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'supernatural' is not in the valid tag list.",
+      "suggestion": "abstract"
+    }
+  ]
+}

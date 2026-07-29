@@ -1,0 +1,31 @@
+{
+  "entry_id": "21490_bossuru",
+  "headword": "{没|ぼっ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:52Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'death' is not in the valid tag list.",
+      "suggestion": "Replace 'death' with 'health' or 'existence'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'mental-state' is not in the valid tag list.",
+      "suggestion": "Replace 'mental-state' with 'cognition' or 'emotion'."
+    }
+  ]
+}

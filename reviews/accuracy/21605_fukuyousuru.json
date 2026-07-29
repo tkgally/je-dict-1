@@ -1,0 +1,24 @@
+{
+  "entry_id": "21605_fukuyousuru",
+  "headword": "{服用|ふくよう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to dose' is misleading. 'Dose' as a verb means to administer a dose to someone, not to take medicine oneself.",
+      "suggestion": "Remove 'to dose' or replace it with a more accurate synonym for taking medicine."
+    }
+  ]
+}

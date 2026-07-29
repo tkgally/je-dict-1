@@ -1,0 +1,24 @@
+{
+  "entry_id": "21514_ribetsu",
+  "headword": "{離別|りべつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:16Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'human-relations' is not in the valid tag list.",
+      "suggestion": "society"
+    }
+  ]
+}

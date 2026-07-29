@@ -1,0 +1,24 @@
+{
+  "entry_id": "21511_meiten",
+  "headword": "{名店|めいてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:29:12Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too specific and misleading for the headword '名店' (meiten), which means 'famous shop' or 'renowned store' in a general sense, not exclusively food-related establishments. While examples might include food, the word itself is broader.",
+      "suggestion": "Remove 'food'. The tag 'business' is appropriate, and 'general' could be added if a broader category is desired, but 'food' is incorrect as a primary semantic tag for the headword itself."
+    }
+  ]
+}

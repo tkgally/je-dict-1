@@ -1,0 +1,24 @@
+{
+  "entry_id": "21679_shuugousuru",
+  "headword": "{集合|しゅうごう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'social'",
+      "suggestion": "society"
+    }
+  ]
+}

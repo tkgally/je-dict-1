@@ -1,0 +1,24 @@
+{
+  "entry_id": "21461_tameikiwotsuku",
+  "headword": "ため{息|いき}をつく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T12:30:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not a valid semantic tag. It should be 'body-part' or 'body-internal'.",
+      "suggestion": "body-part"
+    }
+  ]
+}
