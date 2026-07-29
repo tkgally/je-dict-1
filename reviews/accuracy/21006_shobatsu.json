@@ -1,0 +1,24 @@
+{
+  "entry_id": "21006_shobatsu",
+  "headword": "{処罰|しょばつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:17:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword '処罰' (shobatsu) means 'punishment' or 'penalization'. While it is often applied in legal contexts, its core meaning is not exclusively 'law'. It can apply to various disciplinary actions outside of formal legal systems (e.g., school, workplace). The tag 'action' would be more appropriate as it describes the act of punishing.",
+      "suggestion": "action"
+    }
+  ]
+}

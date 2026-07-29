@@ -1,0 +1,24 @@
+{
+  "entry_id": "21272_kawaseihin",
+  "headword": "{革製品|かわせいひん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:58Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'clothing' is too narrow for '革製品' (leather goods), which includes items like bags and wallets that are not clothing.",
+      "suggestion": "Remove 'clothing' tag."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "20980_chiryouin",
+  "headword": "{治療院|ちりょういん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "The tag 'place' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

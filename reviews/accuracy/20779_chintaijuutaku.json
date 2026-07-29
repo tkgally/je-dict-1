@@ -1,0 +1,24 @@
+{
+  "entry_id": "20779_chintaijuutaku",
+  "headword": "{賃貸住宅|ちんたいじゅうたく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '賃貸住宅'. This is an everyday term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

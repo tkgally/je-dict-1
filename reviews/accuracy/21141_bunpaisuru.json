@@ -1,0 +1,24 @@
+{
+  "entry_id": "21141_bunpaisuru",
+  "headword": "{分配|ぶんぱい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}

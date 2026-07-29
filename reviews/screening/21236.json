@@ -1,0 +1,10 @@
+{
+  "entry_id": "21236",
+  "screened_at": "2026-07-29T00:21:56Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 十二分 in entry 3 is \"じゅうに\" but the full reading for 十二分 is \"じゅうにぶん\". This is a partial reading, but the instructions state that partial readings are correct by design. However, the instructions also state that the reading covers ONLY the kanji portion. In this case, the kanji portion is 十二分, but the reading is only for 十二. This is inconsistent with the example given where {走|はし}る means 走=はし, and る is okurigana outside the markup. Here, the 'ぶん' part of the reading is missing, not just okurigana. The same applies to entry 4."
+  ],
+  "confidence": 0.8
+}

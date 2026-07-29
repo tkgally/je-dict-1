@@ -1,0 +1,24 @@
+{
+  "entry_id": "20760_ushirogami",
+  "headword": "{後|うし}ろ{髪|がみ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is too broad and not specific enough for 'hair'.",
+      "suggestion": "body-part"
+    }
+  ]
+}

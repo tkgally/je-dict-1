@@ -1,0 +1,24 @@
+{
+  "entry_id": "20719_tsuttsuku",
+  "headword": "{突|つ}っつく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:03Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is not appropriate for the headword '突っつく'. While some examples involve communication, the core meaning of the verb itself does not directly relate to communication.",
+      "suggestion": "Remove 'communication'."
+    }
+  ]
+}

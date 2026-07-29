@@ -1,0 +1,24 @@
+{
+  "entry_id": "21070_deiriguchi",
+  "headword": "{出入|でい}り{口|ぐち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'place'",
+      "suggestion": "building"
+    }
+  ]
+}

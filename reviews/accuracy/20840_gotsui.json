@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-28T09:31:00Z",
+  "reviewed_at": "2026-07-29T00:18:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'quality' is not in the valid tag list.",
-      "suggestion": "descriptive"
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'impressive; amazing' for sense 2 is misleading. While the word can imply impressiveness due to its 'extreme in scale' meaning, 'impressive' itself is not a direct translation of ごつい in this context. It's more about the sheer size or quantity.",
+      "suggestion": "extreme; massive; huge"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[4]",
+      "severity": "error",
+      "concern": "The English translation 'Isn't that motorcycle impressive?' for 'あのバイク、ごつくない？' misrepresents the Japanese. In this context, 'ごつい' refers to the motorcycle's rugged, bulky, or powerful appearance, not just general impressiveness. The translation loses the specific nuance of 'ごつい'.",
+      "suggestion": "Isn't that motorcycle rugged/bulky/powerful-looking?"
     }
   ]
 }

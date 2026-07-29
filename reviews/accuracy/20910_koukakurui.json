@@ -1,0 +1,24 @@
+{
+  "entry_id": "20910_koukakurui",
+  "headword": "{甲殻類|こうかくるい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:17:56Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is not appropriate for the headword itself, which refers to the animal class, not food.",
+      "suggestion": "Remove 'food'."
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "entry_id": "20794",
+  "screened_at": "2026-07-29T00:28:34Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The entry for {科学技術|かがくぎじゅつ} is given as the example, but then later in the list, the entry for {政府|せいふ} is followed by \"は{科学技術|かがく)\". This suggests that the reading for 科学技術 is split, with \"かがく\" being the reading for 科学 and \"ぎじゅつ\" being the reading for 技術. However, the initial entry for {科学技術|かがくぎじゅつ} provides the full reading for the entire compound. This is not an error in itself, as partial readings are allowed, but it creates an inconsistency in how the same compound is presented. The prompt states that \"the reading covers ONLY the kanji portion\" and \"Do NOT flag partial readings as errors — they are correct by design.\" Given this, the initial entry {科学技術|かがくぎじゅつ} is correct as it provides the full reading for the kanji. The later instance of \"{科学技術|かがく)\" is also technically correct as a partial reading. The issue is not an error in a single mapping, but rather an ambiguity in how the example is presented versus how a similar compound is broken down later. However, since the prompt asks to flag \"incorrect kanji-reading mappings\" and not inconsistencies in presentation, and both are technically correct based on the rules, I will not flag this as an error in the mapping itself. \n\nUpon re-evaluation, the prompt states: \"the reading covers ONLY the kanji portion.\" and \"Do NOT flag partial readings as errors — they are correct by design.\" The entry {科学技術|かがくぎじゅつ} provides the reading \"かがくぎじゅつ\" for the kanji \"科学技術\". This is a correct mapping. The later instance \"{科学技術|かがく)\" is a partial reading, which is also explicitly allowed. Therefore, there are no incorrect kanji-reading mappings based on the provided rules."
+  ],
+  "confidence": 1.0
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "21093_doukon",
+  "headword": "{同梱|どうこん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:19:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'commerce'.",
+      "suggestion": "shopping"
+    }
+  ]
+}

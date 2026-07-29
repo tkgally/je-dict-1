@@ -1,0 +1,24 @@
+{
+  "entry_id": "21019_shitekina",
+  "headword": "{私的|してき}な",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-29T00:18:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'social' is incorrect for '私的な' (private/personal).",
+      "suggestion": "Replace 'social' with 'general' or 'abstract'."
+    }
+  ]
+}
