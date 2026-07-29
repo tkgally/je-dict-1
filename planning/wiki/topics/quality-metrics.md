@@ -1,6 +1,8 @@
 # Quality Metrics Trend
 
-**Last updated**: 2026-07-27 (twenty-sixth refresh: 369 runs spanning ~47 days, ~9,923 adjudicated flags; the 26-run escalation-free window ends at **2** flags — two single judgment calls, not a tail — while `tags` apply-among-decided climbs to **71.1%** [413/168] on the **19701–19950** off-vocab cohort measured at **49.6% of entries**, and furigana screening runs **2.1%** [3 applied of 143] with one 102-entry screen returning **0 applicable**; review queue sets a **new floor at 12,352**; OpenRouter's daily peak nearly doubles to **$0.86**. The refresh's headline is again off-ledger, and sharper than last time: **the three largest defects found this window — 887 no-pipe brace spans, 18,272 nakaguro bullets, and a verb whose 33 conjugated forms had been silently corrupt since April — were all found by string scans, not by the external reviewer.**)
+**Last updated**: 2026-07-29 (twenty-seventh refresh: 383 runs spanning ~49 days, ~10,368 adjudicated flags; the dictionary crossed **30,000 entries**. Three signals move at once and they point in different directions. (1) **The largest escalation event in the series — 162 flags to the curator**, 161 of them `tags`, ending the escalation-light era that has held since run 328; but it is a *queue* event, not a quality event: every one is an off-vocabulary tag with no destination in a 9-pair `TAG_MIGRATION` map, and this window also produced the **~19-pair migration table** that mechanises most of them. (2) `tags` apply-among-decided sets a **new series high at 73.9%** [366/129] as the sweeps work the 20451–21300 off-vocab cohort, while furigana screening runs **5.4%** [10/176] — its best in a month and still noise. (3) **The review queue rises for the first time since the series began**, 12,634 → **12,915**, setting no new floor. The refresh's headline, though, is a process result rather than a metric: **three curator items that had been open for 25 and 81 days were fixed this week, all of them one-liners** — the escalate→fix loop closed, and what closed it was reports that named the file, line, and replacement text instead of the symptom.)
+
+Prior 2026-07-27 (twenty-sixth refresh: 369 runs spanning ~47 days, ~9,923 adjudicated flags; the 26-run escalation-free window ends at **2** flags — two single judgment calls, not a tail — while `tags` apply-among-decided climbs to **71.1%** [413/168] on the **19701–19950** off-vocab cohort measured at **49.6% of entries**, and furigana screening runs **2.1%** [3 applied of 143] with one 102-entry screen returning **0 applicable**; review queue sets a **new floor at 12,352**; OpenRouter's daily peak nearly doubles to **$0.86**. The refresh's headline is again off-ledger, and sharper than last time: **the three largest defects found this window — 887 no-pipe brace spans, 18,272 nakaguro bullets, and a verb whose 33 conjugated forms had been silently corrupt since April — were all found by string scans, not by the external reviewer.**)
 
 Prior 2026-07-25 (twenty-fifth refresh: 353 runs spanning ~45 days, ~9,133 adjudicated flags; the escalation-free window extends to a **second consecutive** refresh — runs 342–353 escalated **0**, making **26 straight (328–353)**, `tags` apply-among-decided **62.0%** [142/87] as the accuracy sweeps carry the off-vocab cohort into the **17911–18345** band, furigana screening **1.1%** [1 applied of 88] with the dominant FP family finally **diagnosed** — a prompt-builder context truncation accounting for ~37 of 48 flags in one pass — review queue set a **new floor at 12,496**; the refresh's one adverse signal is off-ledger: a polish run silently introduced **nine dead inline links that `validate.py` passed clean**)
 
@@ -1382,6 +1384,91 @@ are (a) a dedicated systemic-fix/curator pass with an **expanded curated migrati
 warning to error so new entries stop refilling the backlog. Until those land, expect the
 `tags` ÷total apply rate to keep reading low while apply-among-decided stays high — the gap
 between the two columns *is* the escalation backlog, and it is the number to watch.
+
+### 10. New finding: the review queue's convergence rate is bounded by the sweep's own apply rate
+
+Runs 370–383 are the **first window in the series where the review queue rose** — 12,634 →
+**12,915**, a net **+281**, with a window minimum of 12,590 and therefore no new floor
+(the standing floor remains 12,352 from the twenty-sixth refresh). Twenty-five consecutive
+refreshes had reported either a new floor or a flat oscillation; this one reports a rise.
+
+The mechanism is visible in the same window's numbers, and it is structural rather than a
+malfunction. `reviews/queue.txt` is a "changed since last review" list: an accuracy sweep
+**drains** the range it reviews (§A step 7) and CI **re-adds** every entry that subsequently
+changes — *including the entries the sweep itself just fixed*, which `routine2.md` notes is
+"by design", so a correction gets a second look. That feedback edge is harmless when apply
+rates are low and dominant when they are high:
+
+| Window's accuracy sweeps | Range size | Entries changed | Re-added as a share of the range |
+|---|---|---|---|
+| 2026-07-28 01:09 | ~600 | 111 | ~19% |
+| 2026-07-28 09:37 | ~600 | 97 | ~16% |
+| 2026-07-29 00:29 | ~600 | 168 | **~28%** |
+
+Add the window's non-review inflow — 57 net new entries, a 64-entry systemic-fix batch, and
+four polish runs — and the arithmetic stops favouring the drain. **The queue falls fastest
+when the reviewer is finding nothing, and slowest when it is finding a great deal.** So a
+rising queue during a high-yield cohort is the expected shape, not a warning; the reading
+that would actually be alarming is a rising queue while apply rates are *low*.
+
+Practical consequence for how this metric is used: queue depth was already downgraded from a
+convergence signal to a floor indicator (finding 5). This window downgrades it further — it
+should be read **jointly with the apply rate**, and on its own it is close to uninformative.
+The genuinely useful surveillance number remains *where* the sweeps find dense contamination,
+which this window puts squarely at 20451–21300 (40% and 27% of entries carrying at least one
+off-vocabulary tag).
+
+### 11. New finding: escalation volume is a queue signal, and the escalate→fix loop finally closed
+
+**162 flags to the curator in one window** — 161 `tags` plus 1 `gloss` — against a prior
+series maximum of 48 and eleven of the last thirteen refreshes at zero. `reviews/needs_curator.txt`
+now stands at 102 lines.
+
+Read naively this looks like a quality collapse. It is not: **every one of the 161 is the same
+sentence** — an entry carrying a semantic tag outside `VALID_SEMANTIC` for which
+`build/check_tag_drift.py`'s `TAG_MIGRATION` map (still only **9 pairs**) offers no destination.
+The adjudication was correct in each case (the tag *is* invalid; the run genuinely could not
+decide where to send it), so these are neither reviewer noise nor dictionary errors left
+unfixed — they are a **missing lookup table**, escalated 161 times.
+
+The same window produced the table. The 2026-07-29 sweep recorded ~19 unambiguous 1:1 pairs
+(`architecture`/`housing`→`building`, `medicine`/`medical`→`health`, `psychology`→`cognition`,
+`mimetic`→`onomatopoeia`, `legal`/`crime`→`law`, …; full list at Cleanup P20), which would
+convert most of the 5,939 remaining `unknown-semantic` instances into a mechanical
+`systemic-fix` batch — and it identified the residue that never mechanises: **`place`**, which
+splits between `building` and `geography` depending on the headword. That is the durable
+distinction worth carrying forward: an off-list tag naming a *category* is mappable; one naming
+a *superordinate spanning several in-list categories* requires the headword, forever.
+
+**Interpretive rule for future refreshes**: escalation *count* is not a quality metric. Weight
+escalations by **distinct cause**, not by line. 161 lines with one cause is a smaller problem
+than three lines with three causes, and the current ledger format — which permits an aggregated
+line with an `n` count for bulk rejections but not for bulk escalations — makes the former look
+fifty times worse than it is. Extending the `n` convention to `flag` decisions would fix the
+distortion at its source.
+
+**And the loop closed.** Three items that this page has tracked as chronically-escalated were
+actually fixed this week:
+
+| Item | Open for | Fix |
+|---|---|---|
+| Tooling 20 (scorer POS substring bug: `"adverb"` contains `"verb"`) | 25 days | one line |
+| Tooling 20 (inline-link tail counted as bare kanji) | ~4 weeks | one line |
+| Tooling 34 (prompt names two schema-invalid cross-reference types) | **81 days**, 5 reported cycles | one line |
+
+All three were verified in the source during this refresh. The common factor in what finally
+moved them is worth stating, because it is the one lever this page's data suggests actually
+works: **in each case the fix landed within days of a report that named the exact file, line,
+and replacement text** — not within days of the first report, the tenth, or the most strongly
+worded. The 22% of entries mis-scored by the two scorer bugs also invalidates every
+priority-lane conclusion drawn before 2026-07-28, including the staleness hypothesis this page
+had partly accepted; that question is re-opened, with a clean baseline from 2026-07-28 forward.
+
+**Corollary, from the same refresh's detector re-run**: two standing checks recorded here as
+`resolved / scope 0` — `artifact-missing-target-id` and `example-headword-missing` — came back
+at **12** and **33**. A zero in this page's tables means "was zero when last measured", and the
+dictionary keeps growing into previously-empty classes. Treat any scope-0 count older than about
+a week as unknown rather than as empty.
 
 ## Implications for je-dict-1
 

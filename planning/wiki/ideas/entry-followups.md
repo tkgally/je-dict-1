@@ -845,6 +845,33 @@ written — so the `noentry` markers pointing at it are permanent dead ends rath
 ones. A particle entry here would also give the 〜でも cluster a common target, which is exactly
 what `particle-entry`'s contrast-and-pattern format is for.
 
+## 20891 {紆余|うよ} — the examples use the word the entry says is not used that way
+
+**Source**: 2026-07-29 routine accuracy-review (20703–21300)
+
+The entry's own explanation states that 紆余 is "rarely used on its own in modern
+Japanese" — which is correct; in practice it lives almost entirely inside the
+yojijukugo 紆余曲折 (うよきょくせつ, "twists and turns, ups and downs"). But examples 1 and
+2 use it as a standalone suru-verb: **紆余した道**, **川は紆余しながら**.
+
+The accuracy reviewer flagged the gloss; the flag was **rejected**, correctly, because
+the caveat the reviewer wanted is already in the notes. The defect is therefore invisible
+to the review dimension that found it: the *explanation* is right, and the *examples*
+contradict it, and nothing checks an entry's examples against its own usage note.
+
+**Why this needs a curator rather than a polish pass**: the fix is not a wording change.
+Either the examples are replaced with 紆余曲折 sentences — in which case the headword is
+arguably 紆余曲折 and this entry should be about the compound — or the entry keeps 紆余 as
+its headword and the examples become citation-style ("紆余 appears in 紆余曲折…"), which is
+not the house example format. Both are entry-identity decisions of the same kind as the
+やさしい and 込む follow-ups below.
+
+**Generalisable check worth sizing**: entries whose notes contain a "rarely used on its
+own" / "mainly in compounds" caveat, where the examples nonetheless use the bare
+headword. Probably a small class — bound morphemes and cranberry morphemes — but it is
+the one shape where an entry's prose and its examples can each be right in isolation and
+wrong together, which is precisely what no current check can see.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns
