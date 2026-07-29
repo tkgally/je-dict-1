@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-07-28",
+  "updated": "2026-07-29",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -395,6 +395,51 @@
       "scope_estimate": 0,
       "severity": "error",
       "notes": "RESOLVED 2026-07-28: all 8 dictionary-wide instances fixed in-run (uncommitted romaji IME input written into the reading verbatim). Kept as a queue entry because the class can refill and the check is free: a Latin letter in a reading is a defect by construction, with no correct case, so any match is a failure and no review queue is needed. Recommended for promotion to a permanent CI check -- see tooling-backlog.md item 24, where the same scan found 7 of the 8 instances the paid furigana screener missed."
+    },
+    {
+      "id": "link-target-dead",
+      "title": "Inline links pointing at entry IDs that no longer exist (silently unlinked on the live site)",
+      "source": "polishing/observations.md#2026-07-29",
+      "detect": "sweep: for every ⟦surface→base：id⟧, assert id == 'noentry' or id in entries/*/*.json basenames",
+      "filter": "re-resolve each dead id via build/word_id_lookup.json using the link's baseform/reading; FLAG any that resolve ambiguously (homographs)",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 2,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 292,
+      "severity": "error",
+      "notes": "292 links / 160 entries / 144 distinct dead IDs as of 2026-07-29. Renderer (html_utils.process_word_links) drops the link silently, and validate.py does not check target existence, so this is invisible in CI. Pair with a ratcheted validate.py check (baseline the 292, fail on new ones)."
+    },
+    {
+      "id": "link-baseform-kana",
+      "title": "Inline-link baseforms written in kana instead of the dictionary form (wrong hover tooltip)",
+      "source": "polishing/observations.md#2026-07-29",
+      "detect": "sweep: link baseform == target entry's reading AND target entry's furigana-stripped headword differs",
+      "filter": "replace the baseform with the target entry's furigana-stripped headword; skip targets whose headword IS kana",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 3,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 3567,
+      "severity": "warn",
+      "notes": "3,567 links / 1,712 entries as of 2026-07-29. styles.css:245 renders content: attr(data-baseform) as the hover tooltip, so learners see 'きかん' where '期間' belongs. Transformation is decidable from the target entry and touches link metadata only — no Japanese text changes."
+    },
+    {
+      "id": "link-baseform-braces",
+      "title": "Furigana braces left inside inline-link baseforms (literal {漢字|かんじ} in the tooltip)",
+      "source": "polishing/observations.md#2026-07-29",
+      "detect": "sweep: link baseform matches the furigana pattern \\{[^|{}]+\\|[^|{}]+\\}",
+      "filter": "strip furigana annotation from the baseform segment only (keep the kanji)",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 3,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 254,
+      "severity": "warn",
+      "notes": "254 links / 39 entries as of 2026-07-29. Same tooltip path as link-baseform-kana; strictly mechanical."
     }
   ]
 }
