@@ -56,6 +56,7 @@ class ValidationResult:
         target_id_errors: List of (file_path, error_message) for stale target_id references
         hardenable_warnings: List of (file_path, warning_message) for refs that could be hardened
         katakana_reading_errors: List of (file_path, error_message) for readings containing katakana
+        word_link_errors: List of (file_path, error_message) for links pointing at non-existent entries
         word_link_warnings: List of (file_path, warning_message) for word link format issues
         pos_consistency_warnings: List of (file_path, warning_message) for part_of_speech vs tags.pos mismatches
         pos_empty_count: Number of entries with empty tags.pos
@@ -70,6 +71,7 @@ class ValidationResult:
     target_id_errors: list[tuple[Path, str]] = field(default_factory=list)
     hardenable_warnings: list[tuple[Path, str]] = field(default_factory=list)
     katakana_reading_errors: list[tuple[Path, str]] = field(default_factory=list)
+    word_link_errors: list[tuple[Path, str]] = field(default_factory=list)
     word_link_warnings: list[tuple[Path, str]] = field(default_factory=list)
     pos_consistency_warnings: list[tuple[Path, str]] = field(default_factory=list)
     pos_empty_count: int = 0
@@ -470,17 +472,27 @@ def check_pos_consistency(entries_data: list[tuple[Path, dict]]) -> tuple[list[t
     return warnings, empty_count
 
 
-def check_word_links(entries_data: list[tuple[Path, dict]], all_ids: set) -> list[tuple[Path, str]]:
+def check_word_links(
+    entries_data: list[tuple[Path, dict]], all_ids: set
+) -> tuple[list[tuple[Path, str]], list[tuple[Path, str]]]:
     """
     Check word link markup in examples and notes for issues.
 
     Validates:
     - Balanced brackets (every ⟦ has matching ⟧)
     - Valid link format (surface→baseform：entry_id)
-    - Entry existence (warns if entry_id not in dictionary and not 'noentry')
+    - Entry existence (entry_id must be 'noentry' or a real entry ID)
 
-    Returns a list of (file_path, warning_message) for issues found.
+    A link pointing at a non-existent entry ID is an **error**, not a warning:
+    the renderer (html_utils.process_word_links) drops such a link silently, so
+    it is invisible on the live site and can only be caught here. The corpus was
+    swept clean of these on 2026-07-29, so this acts as a ratchet against new
+    ones.
+
+    Returns (errors, warnings) as lists of (file_path, message):
+    errors are dead link targets; warnings are format/bracket problems.
     """
+    errors = []
     warnings = []
 
     for file_path, entry in entries_data:
@@ -527,15 +539,33 @@ def check_word_links(entries_data: list[tuple[Path, dict]], all_ids: set) -> lis
 
                 link_entry_id = info_match.group(3)
 
-                # Warn if entry doesn't exist (but not for 'noentry')
+                # Dead target: the renderer would silently drop this link
                 if link_entry_id != NOENTRY and link_entry_id not in all_ids:
-                    warnings.append((
+                    errors.append((
                         file_path,
                         f"Word link references non-existent entry in {field_name}: "
-                        f"'{link_entry_id}'"
+                        f"'{link_entry_id}' (use 'noentry' if the word has no entry)"
                     ))
 
-    return warnings
+    return errors, warnings
+
+
+def load_all_entry_ids(project_root: Path) -> set:
+    """
+    Collect every entry ID in the dictionary.
+
+    Needed by the subset validation modes (--entry/--id/--changed-only/--range),
+    which must check inline word links and cross-references against the whole
+    dictionary rather than only the files they were asked to validate.
+    """
+    all_ids = set()
+    for file_path in (project_root / 'entries').glob('**/*.json'):
+        try:
+            with open(file_path, 'r', encoding='utf-8') as f:
+                all_ids.add(json.load(f).get('id', ''))
+        except (json.JSONDecodeError, IOError):
+            pass
+    return all_ids
 
 
 def validate_structured_cross_reference(ref: dict, entry_reading: str, entry_headword: str) -> list[str]:
@@ -931,7 +961,7 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
     katakana_reading_errors = check_katakana_readings(entries_data)
 
     # Check word link markup format and validity
-    word_link_warnings = check_word_links(entries_data, all_ids)
+    word_link_errors, word_link_warnings = check_word_links(entries_data, all_ids)
 
     # Check part_of_speech vs tags.pos consistency
     pos_consistency_warnings, pos_empty_count = check_pos_consistency(entries_data)
@@ -947,6 +977,7 @@ def validate_all_entries(project_root: Path) -> ValidationResult:
         target_id_errors=target_id_errors,
         hardenable_warnings=hardenable_warnings,
         katakana_reading_errors=katakana_reading_errors,
+        word_link_errors=word_link_errors,
         word_link_warnings=word_link_warnings,
         pos_consistency_warnings=pos_consistency_warnings,
         pos_empty_count=pos_empty_count
@@ -964,16 +995,8 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
     # Create validator once
     validator = Draft7Validator(schema)
 
-    # Get all existing IDs for cross-reference checking
-    entries_dir = project_root / 'entries'
-    all_ids = set()
-    for file_path in entries_dir.glob('**/*.json'):
-        try:
-            with open(file_path, 'r', encoding='utf-8') as f:
-                entry = json.load(f)
-                all_ids.add(entry.get('id', ''))
-        except (json.JSONDecodeError, IOError):
-            pass
+    # Get all existing IDs for cross-reference and word link checking
+    all_ids = load_all_entry_ids(project_root)
 
     print(f"Validating: {entry_path}")
     print("-" * 50)
@@ -1007,6 +1030,13 @@ def validate_single_entry(entry_path: Path, project_root: Path) -> int:
                         warnings.append(f"Cross-reference to '{ref.get('headword', reading)}' has no target_id")
             else:
                 errors.append(f"Invalid cross_reference format: expected string or object")
+
+        # Check inline word links: dead targets are errors, format issues notes.
+        # Without this, `validate.py --id` passed entries whose links pointed at
+        # non-existent entries — the check comprehensive_polish.md relies on.
+        link_errors, link_warnings = check_word_links([(entry_path, entry)], all_ids)
+        errors.extend(msg for _, msg in link_errors)
+        warnings.extend(msg for _, msg in link_warnings)
 
     if errors:
         print("Errors found:")
@@ -1061,6 +1091,7 @@ def validate_changed_only(project_root: Path) -> int:
     print("-" * 50)
 
     all_ids = set()
+    dictionary_ids = load_all_entry_ids(project_root)
     invalid_files = []
     valid = 0
 
@@ -1069,6 +1100,9 @@ def validate_changed_only(project_root: Path) -> int:
         if not file_path.exists():
             continue
         errors, entry = validate_entry_file(file_path, schema, all_ids, validator)
+        if entry is not None:
+            link_errors, _ = check_word_links([(file_path, entry)], dictionary_ids)
+            errors.extend(msg for _, msg in link_errors)
         if errors:
             invalid_files.append((file_path, errors))
         else:
@@ -1086,6 +1120,7 @@ def validate_changed_only(project_root: Path) -> int:
     total = valid + len(invalid_files)
     print(f"Validation complete: {valid}/{total} changed entries valid")
     print("Note: Cross-reference and duplicate checks skipped in --changed-only mode.")
+    print("      (Inline word link targets ARE checked against the whole dictionary.)")
     print("Run full validation (`make validate`) to check those.")
 
     return 1 if invalid_files else 0
@@ -1120,12 +1155,16 @@ def validate_range(project_root: Path, start: int, end: int) -> int:
     print("-" * 50)
 
     all_ids = set()
+    dictionary_ids = load_all_entry_ids(project_root)
     invalid_files = []
     valid = 0
     entries_data = []
 
     for file_path in entry_files:
         errors, entry = validate_entry_file(file_path, schema, all_ids, validator)
+        if entry is not None:
+            link_errors, _ = check_word_links([(file_path, entry)], dictionary_ids)
+            errors.extend(msg for _, msg in link_errors)
         if errors:
             invalid_files.append((file_path, errors))
         else:
@@ -1309,6 +1348,19 @@ def main():
             print(f"    - {error_msg}")
         print()
 
+    # Report dead word link targets (errors — the renderer drops these silently)
+    if result.word_link_errors:
+        print(f"\nWord link errors ({len(result.word_link_errors)} dead targets):\n")
+        shown = result.word_link_errors[:10]
+        for file_path, error_msg in shown:
+            rel_path = file_path.relative_to(project_root)
+            print(f"  {rel_path}:")
+            print(f"    - {error_msg}")
+        if len(result.word_link_errors) > 10:
+            print(f"\n  ... and {len(result.word_link_errors) - 10} more.")
+        print("\n  Fix with: python3 build/check_link_targets.py --by-target")
+        print()
+
     # Report word link warnings
     if result.word_link_warnings:
         print(f"\nWord link warnings ({len(result.word_link_warnings)} issues):\n")
@@ -1354,6 +1406,8 @@ def main():
         warnings.append(f"{len(result.hardenable_warnings)} hardenable refs")
     if result.katakana_reading_errors:
         warnings.append(f"{len(result.katakana_reading_errors)} katakana reading errors")
+    if result.word_link_errors:
+        warnings.append(f"{len(result.word_link_errors)} word link errors")
     if result.word_link_warnings:
         warnings.append(f"{len(result.word_link_warnings)} word link warnings")
     if result.pos_consistency_warnings:
@@ -1361,7 +1415,8 @@ def main():
     if warnings:
         print(f"  ({', '.join(warnings)})")
 
-    if result.invalid_files or result.target_id_errors or result.katakana_reading_errors:
+    if (result.invalid_files or result.target_id_errors
+            or result.katakana_reading_errors or result.word_link_errors):
         return 1
     return 0
 

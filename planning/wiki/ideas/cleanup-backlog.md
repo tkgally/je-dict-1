@@ -1556,6 +1556,19 @@ An inline link `⟦surface→base：entry_id⟧` whose `entry_id` names no exist
 
 **Suggested batching**: one systemic-fix run per 1,000-ID band, worst first (05000–05999, then 03000–03999, 04000–04999). Apply the unambiguous repairs, defer the ambiguous ones to a second pass, update `modified` on each entry touched, and re-run the detect snippet at the end of the run to confirm the band is clear.
 
+**RESOLVED 2026-07-29 (routine systemic-fix) — swept whole, not band by band, because the fix unit turned out to be the mapping and not the entry.** Final count on a fresh scan: **291 links / 159 entries / 143 distinct dead IDs** (one had been repaired since the 2026-07-26 scan). `build/check_link_targets.py --summary` now reports **0**.
+
+The suggested band-by-band batching was the wrong decomposition. The 291 links reduce to **143 distinct `(dead_id, baseform)` pairs**, and 47 of them are a single mapping (`00347_de` → `00502_de`) spread across 18 entries — so verifying per *entry* would have re-verified the same decision eighteen times while a per-*mapping* pass verified it once. Adjudicating all 143 mappings, then applying each to every occurrence, fit in one run with room for the gate as well. **For a systemic fix whose occurrences share a small set of decisions, verify the decision set, not the occurrence set** — and spot-check occurrences in situ to confirm the decision transfers.
+
+Outcome against this item's own predictions:
+
+- The **74%-unambiguous** estimate held (216 of 291 single-candidate, vs 217 predicted), and the 74 ambiguous / 1 unresolvable splits were exact.
+- The ambiguous 74 were **much cheaper than "route them per-entry"** suggested: 32 mappings, and all but a handful resolve by one deterministic rule — *prefer the candidate whose headword is the baseform character-for-character* — which picks the particle over its homographs every time (`も` over 藻/喪, `から` over 殻/空, `こと` over 琴/古都). Contexts were checked anyway and every one confirmed. The genuinely bivalent handful (`いる` = exist/要る/炒る, `やすい` = 安い/〜やすい, `もの`, `よく`, `ない`) needed the sentence, and in every case it was decisive at a glance: all six `いる` links were `〜ている` auxiliaries, both `やすい` links were `使いやすい`/`持ちやすい`.
+- **The one thing this item got wrong: "verification per link is a single lookup, not a semantic judgment."** Not quite. The dangerous class is a **kana baseform matching a kanji-headword entry**, where the lookup returns exactly one confident answer that is a *reading homophone*: `ば` (conditional particle) → `03699_ba` 場 "place". Treating single-candidate as self-verifying would have replaced a visibly-dead link with an invisibly-wrong working one. The class is small and detectable up front — 3 of 111 single-candidate mappings, the other two correct (`いっぱい`→一杯, `たち`→達) — so screen for it and read those in situ.
+- **1 unresolvable became 2**: `逆転する` as predicted, plus `ば` after the above rejection. Both set to `noentry` and queued as candidates.
+
+**"Do not sweep before the gate exists" was right, and both shipped together** — see [Tooling 11](tooling-backlog.md#11-inline-link-target-id-resolution-gate-in-validatepy-or-pre-commitci) for why the gate needed wiring rather than writing (the check existed; three of four CLI paths never called it). Because the corpus reached 0 in the same run, the gate is an absolute error rather than the ratchet this item assumed, so no baseline file is needed. The follow-on population — links that resolve but not to their own base form, 418 after normalization — is filed as `link-target-baseform-disagreement`.
+
 ## Priority 28: Mixed bullet markers (`・` vs `- `) inside notes fields
 
 **Source**: 2026-07-27 routine polish observation (00908–07441 priority lane, 06650–06655 frontier).
