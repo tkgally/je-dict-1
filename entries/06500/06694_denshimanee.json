@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06694_denshimanee_ex1",
-      "japanese": "{電子|でんし}マネーで{支払|しはら}えますか。",
+      "japanese": "{電子|でんし}マネー⟦で→で：00502_de⟧⟦{支払|しはら}えます→支払う：02116_shiharau⟧⟦か→か：09473_ka⟧。",
       "english": "Can I pay with electronic money?",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06694_denshimanee_ex2",
-      "japanese": "{電子|でんし}マネーにチャージする。",
+      "japanese": "{電子|でんし}マネー⟦に→に：00314_ni⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧。",
       "english": "To add money to an e-money card.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06694_denshimanee_ex3",
-      "japanese": "{最近|さいきん}は{現金|げんきん}より{電子|でんし}マネーを{使|つか}うことが{多|おお}い。",
+      "japanese": "⟦{最近|さいきん}→最近：00881_saikin⟧⟦は→は：00079_ha⟧⟦{現金|げんきん}→現金：02716_genkin⟧⟦より→より：09476_yori⟧{電子|でんし}マネー⟦を→を：00422_wo⟧⟦{使|つか}う→使う：00473_tsukau⟧⟦こと→こと：01164_koto⟧⟦が→が：00051_ga⟧⟦{多|おお}い→多い：01127_ooi⟧。",
       "english": "Lately I use electronic money more than cash.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{電子|でんし} (electronic) + マネー (money)\n\nTYPES IN JAPAN:\nPrepaid IC cards:\n・Suica ({首都圏|しゅとけん}のJR)\n・PASMO ({首都圏|しゅとけん}の{私鉄|してつ})\n・ICOCA ({関西|かんさい})\n・nanaco (セブンイレブン)\n・WAON (イオン)\n\nMobile payments:\n・PayPay\n・LINE Pay\n・{楽天|らくてん}ペイ\n・d{払|ばら}い\n\nCOLLOCATIONS:\n・{電子|でんし}マネーで{払|はら}う (to pay with e-money)\n・{電子|でんし}マネーにチャージする (to top up e-money)\n・{電子|でんし}マネー{対応|たいおう} (e-money compatible)\n\nRELATED TERMS:\n・キャッシュレス - Cashless\n・{非接触|ひせっしょく}{決済|けっさい} - Contactless payment\n・QRコード{決済|けっさい} - QR code payment",
+  "notes": "FORMATION:\n⟦{電子|でんし}→電子：03449_denshi⟧ (electronic) + ⟦マネー→マネー：29549_manee⟧ (money).\n\nWHAT IT COVERS:\nPrepaid transport IC cards (Suica, PASMO, ICOCA), retailer cards (nanaco, WAON), and smartphone payment apps (PayPay, LINE Pay, {楽天|らくてん}ペイ). Transport cards are accepted in convenience stores and vending machines as well as at ticket gates, so in ordinary conversation {電子|でんし}マネー usually means tapping a card or phone at a till rather than an online transfer.\n\nCOLLOCATIONS:\n- {電子|でんし}マネー⟦で→で：00502_de⟧⟦{払|はら}う→払う：00535_harau⟧ — to pay with e-money\n- {電子|でんし}マネー⟦に→に：00314_ni⟧⟦チャージ→チャージ：09729_chaaji⟧⟦する→する：00392_suru⟧ — to top up e-money\n- {電子|でんし}マネー⟦{対応|たいおう}→対応：02510_taiou⟧ — accepts e-money (the wording on shop signs)\n\nRELATED TERMS:\n- ⟦キャッシュレス→キャッシュレス：06096_kyasshuresu⟧ — cashless\n- ⟦{非接触|ひせっしょく}→非接触：15813_hisesshoku⟧⟦{決済|けっさい}→決済：05466_kessai⟧ — contactless payment\n- QRコード⟦{決済|けっさい}→決済：05466_kessai⟧ — QR-code payment",
   "cross_references": [
     {
       "type": "related",
@@ -51,11 +51,23 @@
       "headword": "{現金|げんきん}",
       "label": "cash",
       "target_id": "02716_genkin"
+    },
+    {
+      "type": "related",
+      "reading": "きゃっしゅれす",
+      "headword": "キャッシュレス",
+      "target_id": "06096_kyasshuresu"
+    },
+    {
+      "type": "related",
+      "reading": "けっさい",
+      "headword": "{決済|けっさい}",
+      "target_id": "05466_kessai"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:27:53Z",
-    "modified": "2026-01-19T12:14:28.214180Z",
+    "modified": "2026-07-30T09:18:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -65,7 +77,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "electronics"
+        "money",
+        "technology"
       ]
     }
   }

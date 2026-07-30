@@ -2,43 +2,15 @@
   "entry_id": "00463_wakaru",
   "headword": "{分|わ}かる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:23Z",
+  "reviewed_at": "2026-07-30T09:31:22Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'to know' is too broad and can be misleading for an intermediate learner without further context, as '分かる' primarily implies understanding or discerning rather than simply possessing factual knowledge (which is more often '知る').",
-      "suggestion": "Rephrase the top-level gloss to emphasize understanding/comprehension and discernment, perhaps 'to understand, to comprehend, to discern'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[2].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'to be found out' for sense 3 can have a negative connotation in English (e.g., 'a secret was found out'), which is not always present in the Japanese '分かる' in this sense.",
-      "suggestion": "Change 'to be found out' to 'to be discovered' or 'to be revealed' to avoid the negative connotation."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English translation 'I recognized the voice' is a bit strong. While 'recognized' is possible, 'I could tell by the voice' or 'I knew from the voice' might be a more direct and natural rendering of '声で分かった' in many contexts, especially if it's about discerning who it is rather than just identifying a familiar sound.",
-      "suggestion": "Change 'I recognized the voice' to 'I could tell by the voice' or 'I knew from the voice'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[12]",
-      "severity": "warn",
-      "concern": "The English translation 'Did you find out the name?' is a bit abrupt and could imply a search for a hidden name. 'Did you get the name?' or 'Do you know the name?' might be more natural depending on context, but 'Did you find out the name?' is acceptable if the context is about discovering it.",
-      "suggestion": "Consider 'Did you get the name?' or 'Do you know the name?' as alternatives, depending on the intended nuance of '分かりましたか'."
-    }
-  ]
+  "issues": []
 }

@@ -2,36 +2,15 @@
   "entry_id": "00481_tsukuru",
   "headword": "{作|つく}る",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:56Z",
+  "reviewed_at": "2026-07-30T09:31:24Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'to prepare, to organize' for sense 2 is incomplete and potentially misleading for '作る' in this context.",
-      "suggestion": "Add 'to make' or 'to form' to the gloss for sense 2, as '作る' still means 'to make' in these contexts, but for abstract things. For example, 'to make (a plan), to form (a list), to prepare, to organize'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation 'I make a meal' is grammatically correct but less natural than 'I make meals' or 'I cook meals' when referring to a general activity.",
-      "suggestion": "Change 'I make a meal' to 'I make meals' or 'I cook meals'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'I make a plan' is grammatically correct but less natural than 'I make plans' or 'I'll make a plan' depending on context.",
-      "suggestion": "Change 'I make a plan' to 'I make plans' or 'I'll make a plan'."
-    }
-  ]
+  "issues": []
 }
