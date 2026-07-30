@@ -51,6 +51,33 @@ Within example sentences and notes, specific words can link to their dictionary 
 - Added during polishing (never during initial entry creation)
 - Enables direct navigation from any mention of a word to its entry
 
+### Two field-level traps in the reference object (2026-07-30)
+
+Both surfaced in a single polish run and both are invisible until something else fails, so they
+are recorded here rather than left to be rediscovered.
+
+**1. `reading` is schema-constrained to hiragana, even when the headword is katakana.** The
+pattern is `^[ぁ-んーゝゞ]+$`, so a reference to キャッシュレス must declare its reading as
+きゃっしゅれす — a *transliteration*, not a copy. Any helper (or model) that builds a back-link by
+copying a neighbour's `headword` into the `reading` field produces a katakana string that fails
+validation, and the failure surfaces at `validate.py` time with no hint that transliteration was
+the missing step. Worth a line in the `cross-reference-entry` skill.
+
+**2. A reference with no `target_id` at all validates cleanly.** `validate.py` checks that a
+`target_id` *resolves*, not that one is *present*, so `{type, reading, headword, label}` passes
+and then renders as nothing. Dictionary-wide there are 64 such objects — but only **5** are
+defects: the other **59** carry a `label` and are deliberate pointers to words that have no entry
+("laborer (homophone)"). The rule the schema wants is therefore **"`target_id` or `label` is
+required"**, not "`target_id` is required"; see
+[Tooling 51](../ideas/tooling-backlog.md#51-a-cross-reference-with-no-target_id-validates-cleanly--but-the-obvious-schema-fix-would-break-59-intentional-refs).
+
+**3. The pair a machine can see is not always the pair the entry describes.** 00649 曲がる /
+02529 曲げる and 00711 かかる / 00854 かける each documented their transitivity pair in the notes
+*and* listed it in `prominent_see_also`, while both sides carried `cross_references: []` — so no
+machine-readable link existed in either direction and `check_semantic_clusters.py` stayed quiet.
+Prose and prominence are not substitutes for the structured link; 407 entries dictionary-wide have
+that combination ([Tooling 52](../ideas/tooling-backlog.md#52-does-check_semantic_clusterspy-count-a-prominent_see_also-mention-as-satisfying-the-pair-requirement)).
+
 ## Relationship labels
 
 Each cross-reference includes a `relationship` field:

@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-07-29",
+  "updated": "2026-07-30",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -286,15 +286,15 @@
       "id": "inline-link-braced-base-form",
       "title": "Inline-link base forms written with furigana braces instead of plain kanji",
       "source": "ideas/cleanup-backlog.md#priority-24",
-      "detect": "grep -rl '→[^：⟧]*{[^}]*|[^}]*}[^：⟧]*：' entries/",
+      "detect": "grep -rlE '→\\{[^}]*\\|[^}]*\\}：' entries/",
       "fix_type": "mechanical-safe",
       "verify": "spot-check",
-      "priority": 24,
+      "priority": 5,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 39,
+      "scope_estimate": 36,
       "severity": "warn",
-      "notes": "Inline-link syntax is ⟦surface→base：entry_id⟧ where the base slot must be the plain kanji dictionary form. 39 entries instead carry furigana braces in the base slot (⟦{来|き}て→{来|く}る：00254_kuru⟧), pushing wrapper markup into a field that is never rendered as ruby. Measured 2026-07-25 dictionary-wide. Mechanical-safe because the regex is anchored on BOTH sides (→ ... ：) so it cannot escape the base-form slot and cannot touch the surface slot, where braces are correct. Fix: strip { , |reading and } from the base segment only; validate.py; spot-check ~10. Afterwards confirm the resulting base forms resolve in build/word_id_lookup.json -- a braced base form may have been masking a lookup that never worked (see tooling item 11)."
+      "notes": "Inline-link syntax is ⟦surface→base：entry_id⟧ where the base slot must be the plain kanji dictionary form. 39 entries instead carry furigana braces in the base slot (⟦{来|き}て→{来|く}る：00254_kuru⟧), pushing wrapper markup into a field that is never rendered as ruby. Measured 2026-07-25 dictionary-wide. Mechanical-safe because the regex is anchored on BOTH sides (→ ... ：) so it cannot escape the base-form slot and cannot touch the surface slot, where braces are correct. Fix: strip { , |reading and } from the base segment only; validate.py; spot-check ~10. Afterwards confirm the resulting base forms resolve in build/word_id_lookup.json -- a braced base form may have been masking a lookup that never worked (see tooling item 11). 2026-07-30 re-measured: 36 entries (one cleared in-run). PROMOTED to priority 5: found independently by three separate polish runs (07-25, 07-29, 07-30) and worked zero times because priority 24 is below anything the systemic-fix selector reaches — a batch-ready, provably-safe, user-visible, 36-entry item should clear in one run. Duplicate of 'link-baseform-braces', which counts the same defect in occurrences (254) rather than entries; that item is now marked duplicate-of this one."
     },
     {
       "id": "inline-link-dead-target-id",
@@ -437,10 +437,10 @@
       "verify": "spot-check",
       "priority": 3,
       "batch_ready": true,
-      "status": "open",
+      "status": "duplicate",
       "scope_estimate": 254,
       "severity": "warn",
-      "notes": "254 links / 39 entries as of 2026-07-29. Same tooltip path as link-baseform-kana; strictly mechanical. 2026-07-29: same tooltip path confirmed in docs/styles.css:245; prose write-up at Priority 24."
+      "notes": "254 links / 39 entries as of 2026-07-29. Same tooltip path as link-baseform-kana; strictly mechanical. 2026-07-29: same tooltip path confirmed in docs/styles.css:245; prose write-up at Priority 24. 2026-07-30: DUPLICATE of 'inline-link-braced-base-form' (same defect, counted in occurrences rather than entries). Work the other item; kept here so the 254-occurrence figure is not lost."
     },
     {
       "id": "notes-leading-conjugation-bullets",
@@ -492,6 +492,62 @@
       "notes": "Cross-reference headword fields are scanned by no furigana instrument. 869 raw -> 116 fully-annotated -> 11 after normalization, of which 7 are genuine defects (over-wrapped okurigana x5, missing okurigana x1, unmarked rendaku x1).",
       "verify": "Whitelist the 面倒くさい/めんどくさい family (x4, both readings current). The over-wrapped cases need a human to choose the correct wrapper split.",
       "batch_ready": false
+    },
+    {
+      "id": "tag-sole-action-verb",
+      "title": "semantic == ['action'] on a verb (tautological — carries no information the POS lacks)",
+      "source": "ideas/cleanup-backlog.md#priority-34",
+      "detect": "python3 - : semantic == ['action'] and any(pos.startswith('verb')) over entries/",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 11,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 2085,
+      "severity": "info",
+      "notes": "Measured 2026-07-30 across all 30,049 entries. 'action' IS in VALID_SEMANTIC, so the unknown-semantic detector is blind to it by construction — the defect is tautology, not invalidity: pos:['verb-godan'] + semantic:['action'] tells a learner nothing about domain. Same shape as tag-sole-general one category over. No migration table possible; destination depends on meaning and is often two tags (かかる → time-general + money). Cap per run — this is a standing lane, not a sweep. Good first cut: verbs whose gloss already names a domain the taxonomy has a tag for. Examples fixed 2026-07-30: 00684 歌う→music, 06701 差し引く→finance, 06704 飛び付く→movement."
+    },
+    {
+      "id": "crossref-missing-target-id-unlabeled",
+      "title": "Cross-reference with neither target_id nor label (renders as nothing)",
+      "source": "ideas/tooling-backlog.md#51",
+      "detect": "scan cross_references[] for objects with no target_id and no label",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 5,
+      "severity": "warn",
+      "notes": "Measured 2026-07-30: 64 refs dictionary-wide lack target_id; 59 of them carry a label and are INTENTIONAL pointers to entry-less words (homophone/contrast display refs) — do not touch those. The 5 unlabeled ones are defects: 06057 (推薦する), 06060 (創造する), 06063 (肯定する), 29601 (年少), 29610 (炭素). validate.py checks that a target_id resolves, not that one is present, so these pass and render as nothing. The durable fix is a schema clause 'target_id OR label required' — NOT a bare required:[target_id], which would break the 59."
+    },
+    {
+      "id": "notes-duplicate-conjugation-block",
+      "title": "Verb/adj notes hand-list conjugated forms the `conjugation` field already holds",
+      "source": "ideas/cleanup-backlog.md#priority-31",
+      "detect": "notes line matching '→ ?.*(ない|ます|て|た)\\s*\\(' in an entry with a populated conjugation field",
+      "fix_type": "semantic",
+      "verify": "per-entry",
+      "priority": 12,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": null,
+      "severity": "warn",
+      "notes": "Supersedes the vaguer 'notes-leading-conjugation-bullets' spec: the discriminator is the populated `conjugation` field, not the bullet's position or marker. Three consecutive polish runs (2026-07-28/29/30) found it in EVERY verb entry they touched in the 066xx band (06678-06680, 06694-06697, 06701, 06704, 06973, 06981, 07004), so it is a property of the creation batch. Removal still wants a glance per entry — a few entries use the same shape to document a genuinely irregular form. Sequence AFTER the P21 inline-link work on the same cohort: deleting the bullets raises the note-quality score and would drop these entries down the priority ranking while they still have zero links."
+    },
+    {
+      "id": "tag-formality-contradicts-register-note",
+      "title": "formality: formal on an entry whose own REGISTER line opens 'Informal/Casual'",
+      "source": "ideas/tooling-backlog.md#44",
+      "detect": "REGISTER|TONE|STYLE line whose characterization opens Informal/Casual/Colloquial/Slang vs tags.formality == 'formal'",
+      "fix_type": "mechanical-safe",
+      "verify": "spot-check",
+      "priority": 7,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 6,
+      "severity": "warn",
+      "notes": "Measured 2026-07-30: 06955, 07352, 07365, 07367, 07398, 07411 — all 'REGISTER: Casual' with formality:formal. Converse (informal/vulgar tag vs 'REGISTER: Formal') = 0. Precision depends on anchoring to the POSITION of the word in the REGISTER line: the loose variant (informal/casual appearing anywhere in notes) returns 1,238 and is mostly noise, because notes routinely say 'more formal than the informal X'. Correction target is `informal` — the enum is formal/neutral/informal/vulgar, there is no `casual`."
     }
   ]
 }
