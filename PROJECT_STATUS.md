@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-29
+**Last updated**: 2026-07-30
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-30 (Routine v2: new-entries — 18 New Entries, IDs 30241–30258)
+Created 18 general-tier entries, **draining the entire "seen in entry" candidate pool again** (21 available; 18 created, 3 removed as stale). The three dropped were {逆転|ぎゃくてん}する (06839 already carries `noun` + `verb-suru`), {心掛|こころが}ける (okurigana variant of 10015 {心|こころ}がける), and {引|ひ}っ{越|こ}し (okurigana variant of 03704 {引越|ひっこ}し) — `check_duplicate.py` returned `OK` for all three and surfaced two of them only as parenthetical homophone notes, the same gap logged as a `[tooling]` observation on 2026-07-29. The batch completes the accounting cluster the last four runs have been building ({仮払金|かりばらいきん} finishing the {仮払|かりばら}い pair from 30222–30240, {取得費|しゅとくひ} joining the 費-expense family) and adds **three grammar entries** the dictionary had referenced but never defined: the general conditional ば (cross-referenced against 09575 なら, with the four-way ば/たら/なら/と contrast) and the feminine sentence-final combinations わよ and のよ, which join the existing ね/よ/ぜ/かしら particle set. {創|つく}る completes the つくる orthography trio alongside 00481 {作|つく}る and 17751 {造|つく}る, with a three-way ORTHOGRAPHY note and reciprocal cross-references. Conjugation table added to the one godan verb; **no new kanji**. 5 referenced-but-missing words added as candidates (C22635–C22639); the other 13 words named in the new notes were already entries or candidates. §4 cross-model self-check on all 18 changed entries: **17 clean, 1 flagged — 1 applied, 0 rejected** (`person` removed from {青春時代|せいしゅんじだい}'s semantic tags; it is a period, not a person). $0.0079.
+
+- **Grammar / particles (3)**: ば, わよ, のよ
+- **Accounting / finance (2)**: {仮払金|かりばらいきん}, {取得費|しゅとくひ}
+- **Work / school life (4)**: {歓送迎会|かんそうげいかい}, {三学期|さんがっき}, {本試験|ほんしけん}, {時間切|じかんぎ}れ
+- **Tools / technical (2)**: {充電式|じゅうでんしき}, {刈|か}り{払|はら}い{機|き}
+- **Places / people / nature (4)**: {滞在者|たいざいしゃ}, {本国|ほんごく}, {水遊|みずあそ}び, {細流|さいりゅう}
+- **Other (3)**: {非常時|ひじょうじ}, {青春時代|せいしゅんじだい}, {創|つく}る
+
 ### 2026-07-29 (Routine v2: new-entries — 19 New Entries, IDs 30222–30240)
 Created 19 general-tier entries, **draining the entire "seen in entry" candidate pool** (20 available; 19 created, 1 dropped). The dropped one — {売|う}り{上|あ}げ (うりあげ) — is only an okurigana variant of the existing entry `04102_uriage` ({売上|うりあげ}), so it was removed from `candidate_words.json` instead of becoming a duplicate; `check_duplicate.py` again returned `OK` and surfaced the collision only as a parenthetical homophone note, the same gap logged as a `[tooling]` observation on 2026-07-29. The batch continues the accounting cluster the last three runs have been building out ({前払金|まえばらいきん}, {内金|うちきん}, {償却|しょうきゃく}, {減価償却費|げんかしょうきゃくひ}, {仮払|かりばら}い, {予備費|よびひ}), all of them referenced from the 30203–30221 finance entries, and adds two mimetic adverbs (ちらほら, ぽつりぽつり) that join 06683 ぽつぽつ and 10525 まばら in the sparse-scatter family. Homophone cross-references were added where the duplicate check surfaced real collisions: {償却|しょうきゃく} ↔ 22409 {焼却|しょうきゃく}, {出航|しゅっこう} ↔ 11764 {出港|しゅっこう}. Conjugation tables added to the 4 suru-verbs ({償却|しょうきゃく}, {仮払|かりばら}い, {出航|しゅっこう}, グローバル{化|か}); **no new kanji**. 5 referenced-but-missing words added as candidates (C22614–C22618: {非常時|ひじょうじ}, {充電式|じゅうでんしき}, {仮払金|かりばらいきん}, {取得費|しゅとくひ}, {刈|か}り{払|はら}い{機|き}). §4 cross-model self-check on all 19 changed entries: **clean — 19/19, 0 flagged, 0 applied, 0 rejected**. $0.0083.
 
@@ -86,10 +96,3 @@ Created 18 general-tier entries. **All 15 remaining "seen in entry" candidates w
 - **Verbs / adjectives / expressions (4)**: やり{切|き}る, {偉|えら}そう, お{茶|ちゃ}する, そこまで
 - **Other (5)**: {工作員|こうさくいん}, {視神経|ししんけい}, {南極大陸|なんきょくたいりく}, レントゲン{写真|しゃしん}, {出力端子|しゅつりょくたんし}
 
-### 2026-07-27 (Routine v2: new-entries — 20 New Entries, IDs 30145–30164)
-Created 20 general-tier entries. **All 13 "seen in entry" candidates were created**, draining that lane to zero — each one came from a previous run's own entries (30126–30144, plus 06646, 06648, 06654, 07441), so the §3 capture loop is still closing within a day or two. The seen-in thirteen: {私邸|してい} (private residence of an official), {手|て}さばき (deft handling), {下落率|げらくりつ} (rate of decline), {伸|の}び{率|りつ} (growth rate), {致死率|ちしりつ} (fatality rate), {捺印欄|なついんらん} (seal box on a form), {製品化|せいひんか} (commercialization; noun + verb-suru), {感染者数|かんせんしゃすう} (case count), {草|くさ}っ{原|ぱら} (grassy patch; informal), {急|せ}く (to feel rushed; godan-ku, the source of せっかち), {出|だ}し{切|き}る (to give everything one has; godan-ru), {迷走神経|めいそうしんけい} (vagus nerve), and the suffix 〜{後|ご} (after ~). The other 7 are hand-picked standalone lexemes, since the non-seen candidate pool remains **heavily polluted** — see the `[pattern]` observation logged this run: {最大値|さいだいち} (maximum value), {広告費|こうこくひ} (advertising expenses), {諜報員|ちょうほういん} (intelligence agent), {法人格|ほうじんかく} (legal personality), {南極圏|なんきょくけん} (Antarctic Circle), {新規客|しんききゃく} (new customer), {包装材|ほうそうざい} (packaging material). The three 率-compounds join yesterday's {上昇率|じょうしょうりつ} and {感染率|かんせんりつ}, and each cross-references the others, so that family is now internally connected. Conjugation tables added to the 2 godan verbs and the suru-verb noun; **no new kanji**. 11 referenced-but-missing words added as candidates (C22557–C22567). §4 cross-model self-check on all 20 changed entries: **clean — 20/20, 0 flagged, 0 applied, 0 rejected**. $0.0087.
-
-- **Rates / statistics (5)**: {下落率|げらくりつ}, {伸|の}び{率|りつ}, {致死率|ちしりつ}, {感染者数|かんせんしゃすう}, {最大値|さいだいち}
-- **Business / documents (5)**: {製品化|せいひんか}, {捺印欄|なついんらん}, {広告費|こうこくひ}, {法人格|ほうじんかく}, {新規客|しんききゃく}
-- **Verbs / suffix (3)**: {急|せ}く (to feel rushed), {出|だ}し{切|き}る (to give one's all), 〜{後|ご} (after ~)
-- **People / places / things (7)**: {私邸|してい}, {手|て}さばき, {草|くさ}っ{原|ぱら}, {迷走神経|めいそうしんけい}, {諜報員|ちょうほういん}, {南極圏|なんきょくけん}, {包装材|ほうそうざい}
