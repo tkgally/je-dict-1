@@ -459,6 +459,17 @@ Two consequences for planning this backlog:
 
 **Detector count this refresh**: 763 instances / 522 entries (error=2, info=272, warn=489; pure-kana=373, over-wrapped=272, o-go-prefix=116, nested=1, reading-truncated=1) — essentially flat against the 761 recorded in `backlog-queue.json`.
 
+**Update 2026-07-30 — the katakana sub-family is already detected, and it is the one slice of `pure-kana` that needs no judgment.** A 2026-07-30 polish run found `⟦{ケーキ|けーき}→ケーキ：01356_keeki⟧` in 05837 しっとり's notes (fixed in-run) and proposed that `check_furigana_format.py` should grow a check for katakana surfaces inside `{…|…}`. **It already has one** — these land in the existing `pure-kana` subpattern, and the harvest measured **258 of the 373 `pure-kana` findings** as katakana-surfaced. (This is the third instance in two weeks of a run proposing a check the tooling already performs; see [Instrument Defects](../topics/instrument-defects.md).)
+
+The useful change is therefore not a new check but a **subpattern split**, because the two halves of `pure-kana` have different fix rules:
+
+| Sub-family | Count | Fix |
+|---|---|---|
+| Katakana surface (`{ケーキ|けーき}`, `{バイク|ばいく}`, `{チーム|ちーむ}`) | 258 | **Unconditional** — katakana needs no reading gloss; delete the wrapper, keep the surface. |
+| Everything else (`{3|さん}`, hiragana surfaces, numerals) | 115 | Judgment — a numeral's reading is genuinely informative and should often stay. |
+
+Splitting them turns 258 instances from "review queue" into "mechanical sweep with a validation pass", which is the distinction §B draws between what may be applied mechanically and what needs eyes. The residue that still needs judgment shrinks to 115. Distribution across fields is even (`examples` 197 / `notes` 175), so this is not a note-field-specific artifact like the 2026-07-29 slice above.
+
 ## Priority 10: "するする" typo in TRANSITIVITY → Pattern lines
 
 **Source**: Comprehensive-polish 2026-05-17 sessions 001–002 (entries 01808–01856)
@@ -666,6 +677,14 @@ Session 003 noted the pattern in the 03011–03035 range. Session 005 confirmed 
 **Update 2026-07-20 (the frontier-applied family reaches the 06546–06558 tool + traditional-games cohort)**: Two routine polish frontier runs applied more clear-cut sole-`general`→specific retags where exactly one in-list tag fits — **06546 のみ (chisel) → `tool`** (2026-07-19 run), and **06556 お手玉 / 06557 竹馬 → `leisure`** (2026-07-20 run, matching their traditional-games siblings 06554 あみだくじ / 06555 くじ引き). Same high-precision frontier-apply family as the 06527–06545 swimming/tide cohort above (the entry's own placeholder sole-`general` on a concrete single-domain word, applied in-run — *not* the accuracy-review lane's rejected in-list-narrowness noise). Confirms the sole-`general` create-era placeholder is continuous through the tool/game clusters of the 06500 block; the recommended `check_tag_drift` sweep over ~06400–07000 (now also covering leisure/game nouns) remains the higher-throughput fix than the one-or-two-per-run frontier crawl. (Paired with the [P17](#priority-17-formal-formality-tag-over-applied-in-early-entries) update 2026-07-20 `formal`-on-game-nouns finding — the two template-default artifacts co-occur on the same game/toy cohort.)
 
 **Update 2026-07-24 (the frontier-applied family continues across the 06589–06605 tech/loanword band)**: Two 2026-07-23 routine polish frontier runs found the sole-`general`-on-specific-nouns signature unbroken through the 06589+ create-era block: 06589 スタメン (was `["leisure","occupation"]`) → `sports`, 06590 ビート → `music`, 06591 怨念 → `emotion`, all migrated in-run as clearly-correct single-domain; and the 06599–06605 tech/food cohort (06600 deep-learning → `science`, 06602 USB-memory / 06603 hard-disk → `technology`, 06604 track-and-field → `sports`, 06605 processed-food) where the §4 self-check flagged `general`→specific as "too broad" at `error` severity — **rejected per the standing §A in-list-narrowness policy, but the underlying lazy-default is real**. Same high-precision frontier-apply family as the 06544/06545/06585 loanware cohorts; continuous through the 06500–06600 block, reinforcing the ~06400–07000 `check_tag_drift` sole-`general` sweep as the higher-throughput fix than the frontier crawl.
+
+**Update 2026-07-30 (the frontier crosses 06687–06690, and the within-block control case is the strongest evidence yet that these are template defaults)**: The 2026-07-30 polish run applied three more at the frontier — **06687 物覚え → `cognition`**, **06689 心掛け → `cognition`**, **06690 期末試験 → `education`** — and found the control case this item has been arguing from inference:
+
+> **06691 中間試験 (mid-term exam), the adjacent and near-identical entry, was already tagged `education`.**
+
+Two entries for the same kind of thing, created in the same batch, one tagged correctly and one left at sole-`general`. That is not a judgment the tagger made and got wrong; it is a default that was overwritten in one case and not the other. **Within-block inconsistency between near-identical neighbours is a stronger diagnostic than any single entry's tag**, and it is mechanically detectable: entries sharing a semantic neighbourhood where some carry a specific tag and others carry sole-`general`. Worth adding as a `check_tag_drift` heuristic — it would rank the sweep by confidence instead of treating all 3,790 sole-`general` entries alike.
+
+**Co-occurring defect worth reading at the same time** — 06687 物覚え carried sole-`general` **and** `formality: formal`, for an everyday spoken word. Both fields look like creation-time template values rather than judgments, and they are cheap to check together since a run already has the file open. This is the [P17](#priority-17-formal-formality-tag-over-applied-in-early-entries) family arriving on the same entries as this one; the standing recommendation is now explicitly **re-read `formality` whenever the frontier lane touches a sole-`general` entry**, rather than treating the two sweeps as independent.
 
 ## Priority 14: Notes content copied from wrong entry
 
@@ -1357,6 +1376,14 @@ _(Filing note: the two updates below were appended to the Priority 23 section in
 
 **A second, separable defect in the same cohort**: these entries' notes open with three throwaway conjugation bullets (`X → Xない (negative)` …) that duplicate the conjugation table the renderer already displays from the `conjugation` field. The note-quality scorer already penalises it (this cohort scores 47–62), so the priority lane will keep surfacing these entries for a reason that has nothing to do with their missing links. Filed separately as **Priority 31** below, because it is mechanically detectable and does not need the per-entry judgment that linking does — and because fixing it silently improves this cohort's scores without improving the entries, which is worth doing *after* the links, not before.
 
+**Update 2026-07-30 (the band is confirmed *all-or-nothing*, which changes how a run should be sized)**: The 2026-07-30 polish run worked 06688–06693 and found the coverage binary rather than partial: **not one `⟦…⟧` link across 23 examples and 6 notes fields**, in entries that already had complete furigana. The previous update predicted the pace; this one identifies the reason the pace is unpredictable.
+
+**Frontier-lane throughput is bimodal, not variable.** An already-linked entry is a 2-minute tag and cross-reference check; an unlinked one is 15+ minutes of lookups. There is very little in between, because linking was either part of an entry's creation or it was not. So a run's capacity depends almost entirely on *which kind of block it enters*, and it cannot find out until it opens the files.
+
+**The gap this exposes**: `polishing/priority/cross_refs.txt` orders entries by score but does not distinguish "no links at all" from "some links" — the two states that differ by an order of magnitude in cost. A run reading the priority file cannot see whether the next ten entries are a two-hour job or a twenty-minute one.
+
+The fix is small and lives in `prioritize_polishing.py`: emit a link-count (or a simple `zero-links` flag) alongside each ID. That would let a run either budget honestly or deliberately choose a homogeneous batch, and it would let this item's mapping work — currently done by hand, one polish run at a time — fall out of the priority build for free. Filed as a note here rather than a separate tooling item because it only matters while this band exists; once the create-era block is linked, the bimodality goes away.
+
 ## Priority 22: Inconsistent free-text `part_of_speech` display field
 
 **Source**: 2026-06-23 routine polish run (frontier 6250–6254)
@@ -1709,6 +1736,41 @@ which malformed shape the baseform took.
 **Sizing note**: at 3,567 occurrences this is fourteen times Priority 24 and the largest
 mechanically-safe cleanup currently open. Worth running as its own `systemic-fix` item
 rather than as a rider on 24.
+
+## Priority 33: Mimetic entries whose notes announce they are onomatopoeia but whose tags do not (77 entries)
+
+**Source**: 2026-07-30 routine polish run (05xxx onomatopoeia block); scope measured by the 2026-07-30 wiki harvest
+
+Entries for mimetic and onomatopoeic words in the 05xxx band carry
+`semantic: ["descriptive"]` with **no `onomatopoeia` tag** — including entries whose own notes
+open with the literal heading `ONOMATOPOEIA:` or state outright that the word "is an
+onomatopoeic word (オノマトペ)". The entry text and the entry's tags disagree, in the same file.
+
+Four were fixed at the frontier this run (**05268 はらはら**, **05836 ひんやり**,
+**05837 しっとり**, **05893 がっくり**), with **05374 ひやひや** and **05267 そわそわ** showing the
+same shape untouched.
+
+**Scope: 77 entries dictionary-wide**, measured by the harvest with the detector rule below.
+The population is not confined to 05xxx as the observing run supposed — it reaches from
+**01047 レンジ** and **01161 揺れる** up through the 05xxx block — but the *cause* the run
+identified still holds, because **19924 ぱらぱら**, a much later entry, **does** carry
+`onomatopoeia`. So this is a creation-era default that was corrected at some point, leaving a
+bounded historical population rather than an ongoing leak.
+
+**Detector rule** (deterministic, no semantic judgment beyond confirming the note text):
+
+> the entry's `notes` contain `ONOMATOPOEIA` or `オノマトペ`, **and** `onomatopoeia` is absent
+> from `tags.semantic`.
+
+**Why this is a good `systemic-fix` candidate.** It is the rare tag-drift family where the
+evidence is *inside the entry being changed* — the fix does not require deciding what the word
+means, only reading what the entry already says about itself. That puts it at the mechanical end
+of §B's verification spectrum, unlike the sole-`general` and off-vocabulary families where the
+destination tag is a judgment. Precision should be near 1.0; the only checks needed are that the
+note text is an assertion about the headword rather than a contrast with some other word, and
+that `descriptive` is retained alongside rather than replaced.
+
+**Related**: [Tooling 44](tooling-backlog.md#44-consistency-check-non-neutral-formality-with-no-register-statement-in-the-notes) proposes the mirror check — an `onomatopoeia` entry tagged `formality: formal` is almost certainly wrong, since mimetics are characteristically colloquial. The two run over overlapping populations and would compose well in one pass. See also [research/onomatopoeia-mimetics.md](../research/onomatopoeia-mimetics.md) for why the tag matters to a learner: mimetics are a category learners systematically under-produce, and the tag is what makes them findable as a class.
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect
 
