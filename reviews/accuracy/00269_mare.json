@@ -2,50 +2,15 @@
   "entry_id": "00269_mare",
   "headword": "{稀|まれ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:06:15Z",
+  "reviewed_at": "2026-07-30T09:31:21Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The top-level gloss includes 'seldom', which is an adverb, but the headword is an adjective-na. While 'まれ' can function adverbially, the primary gloss should reflect the stated POS.",
-      "suggestion": "Remove 'seldom' from the top-level gloss. The adverbial sense is covered in definition 2."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The tag 'formal' is inaccurate for '稀'. While it's not colloquial, it's not strictly formal either; it's a standard, somewhat literary term, but 'formal' overstates it.",
-      "suggestion": "Change 'formal' to 'standard' or remove the formality tag if it's not distinctly formal or informal."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The English translation 'I'm late on rare occasions' is a bit clunky and doesn't perfectly capture the nuance of '稀に遅刻することがある'.",
-      "suggestion": "Change to 'I am sometimes late' or 'I am rarely late'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'I fail on rare occasions too' is a bit clunky and doesn't perfectly capture the nuance of '稀に失敗することもある'.",
-      "suggestion": "Change to 'I also sometimes fail' or 'I rarely fail too'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[9]",
-      "severity": "warn",
-      "concern": "The English translation 'I rarely get phone calls' is a bit too strong for '稀に電話がかかってくる'. The Japanese implies 'sometimes' or 'occasionally' rather than 'rarely' in the sense of 'almost never'.",
-      "suggestion": "Change to 'I occasionally get phone calls' or 'Sometimes I get phone calls'."
-    }
-  ]
+  "issues": []
 }

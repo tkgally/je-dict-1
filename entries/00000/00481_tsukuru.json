@@ -208,11 +208,24 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{作|つく}る (make X).\n\nASPECT: ている indicates ongoing action or result. {作|つく}っている = 'is making' or 'has made.'\n\nCOMMON PATTERNS:\n・⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{作|つく}る (make food/cook)\n・⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{作|つく}る (make friends)\n・⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作|つく}る (make a plan)\n・X⟦で→で：00502_de⟧{作|つく}る (make from X)\n\nMultiple kanji: {作|つく}る (general), ⟦{造|つく}る→造る：17751_tsukuru⟧ (large-scale), ⟦{創|つく}る→創る：noentry⟧ (creative). Passive: {作|つく}られる.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY:\n⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{作|つく}る (make X). Passive {作|つく}られる is the ordinary way to say what something is made of or where it is produced.\n\nASPECT:\nている covers both the ongoing action and the resulting state: {作|つく}っている can be \"is making\" or \"has made (and it exists now),\" and context decides which.\n\nCOMMON PATTERNS:\n- ⟦ご{飯|はん}→ご飯：00776_gohan⟧⟦を→を：00422_wo⟧{作|つく}る — to cook a meal\n- ⟦{友達|ともだち}→友達：01478_tomodachi⟧⟦を→を：00422_wo⟧{作|つく}る — to make friends\n- ⟦{計画|けいかく}→計画：01172_keikaku⟧⟦を→を：00422_wo⟧{作|つく}る — to make a plan\n- ⟦{時間|じかん}→時間：00468_jikan⟧⟦を→を：00422_wo⟧{作|つく}る — to make time (for something)\n- X⟦で→で：00502_de⟧{作|つく}る — to make something out of X\n\nKANJI CHOICE:\n- {作|つく}る is the general-purpose spelling and the safe default.\n- ⟦{造|つく}る→造る：17751_tsukuru⟧ is for things built or brewed on a large scale — ships, buildings, sake.\n- ⟦{創|つく}る→創る：noentry⟧ is reserved for creating something that did not exist before, and is mostly seen in slogans and company mottos.\n\nSIMILAR WORDS:\n- ⟦{建|た}てる→建てる：01189_tateru⟧ is the verb for putting up a building; {作|つく}る is not used of houses except loosely.\n- ⟦{作成|さくせい}→作成：04186_sakusei⟧⟦する→する：00392_suru⟧ is the formal word for drawing up documents, lists, and plans — the business register of sense 2.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "たてる",
+      "headword": "{建|た}てる",
+      "target_id": "01189_tateru"
+    },
+    {
+      "type": "related",
+      "reading": "さくせい",
+      "headword": "{作成|さくせい}",
+      "target_id": "04186_sakusei"
+    }
+  ],
   "metadata": {
     "created": "2026-01-05T12:02:30Z",
-    "modified": "2026-05-11T16:23:57Z",
+    "modified": "2026-07-30T09:18:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -2,36 +2,15 @@
   "entry_id": "00477_kaku",
   "headword": "{書|か}く",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:51:50Z",
+  "reviewed_at": "2026-07-30T09:31:23Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[1].gloss",
-      "severity": "error",
-      "concern": "The gloss 'to draw, to paint' is incomplete and potentially misleading without the nuance provided in the explanation.",
-      "suggestion": "Change gloss to 'to draw (a picture), to paint (a picture)' or similar to clarify it's about visual art, not just any drawing."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[5]",
-      "severity": "warn",
-      "concern": "The English translation 'I draw a picture' is a bit unnatural for a standalone sentence; 'I'm drawing a picture' or 'I draw pictures' would be more common depending on context.",
-      "suggestion": "Change to 'I'm drawing a picture.' or 'I draw pictures.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[8]",
-      "severity": "warn",
-      "concern": "The English translation 'I drew a picture of a cat' is slightly ambiguous. It could mean a picture I own that depicts a cat, or a picture I created that depicts a cat. The Japanese clearly implies the latter.",
-      "suggestion": "Change to 'I drew a cat picture.' or 'I drew a picture depicting a cat.'"
-    }
-  ]
+  "issues": []
 }

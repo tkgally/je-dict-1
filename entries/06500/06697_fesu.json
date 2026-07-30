@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06697_fesu_ex1",
-      "japanese": "{夏|なつ}はロックフェスに{行|い}きたい。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧⟦ロック→ロック：08116_rokku⟧フェス⟦に→に：00314_ni⟧⟦{行|い}きたい→行く：00119_iku⟧。",
       "english": "I want to go to a rock festival in summer.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06697_fesu_ex2",
-      "japanese": "このフェスは{毎年|まいとし}{野外|やがい}で{開催|かいさい}される。",
+      "japanese": "⟦この→この：00962_kono⟧フェス⟦は→は：00079_ha⟧⟦{毎年|まいとし}→毎年：00731_maitoshi⟧⟦{野外|やがい}→野外：17152_yagai⟧⟦で→で：00502_de⟧⟦{開催|かいさい}→開催：10457_kaisai⟧⟦される→する：00392_suru⟧。",
       "english": "This festival is held outdoors every year.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06697_fesu_ex3",
-      "japanese": "フェスの{準備|じゅんび}で{忙|いそが}しい。",
+      "japanese": "フェス⟦の→の：09472_no⟧⟦{準備|じゅんび}→準備：01431_junbi⟧⟦で→で：00502_de⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm busy with festival preparations.",
       "notes": null,
       "has_audio": false,
@@ -43,18 +43,31 @@
       ]
     }
   ],
-  "notes": "ORIGIN:\nAbbreviation of フェスティバル (festival)\n\nUSAGE:\nPrimarily refers to music festivals, especially outdoor summer events:\n・ロックフェス (rock festival)\n・{夏|なつ}フェス (summer festival)\n・{野外|やがい}フェス (outdoor festival)\n・{音楽|おんがく}フェス (music festival)\n\nFAMOUS JAPANESE FESTIVALS:\n・フジロックフェスティバル (Fuji Rock Festival)\n・サマーソニック (Summer Sonic)\n・ロック・イン・ジャパン (Rock in Japan)\n・{京都|きょうと}{大作戦|だいさくせん} (Kyoto Daisakusen)\n\nEXTENDED USAGE:\nSometimes used for non-music events:\n・ビールフェス (beer festival)\n・グルメフェス (gourmet/food festival)\n・アニメフェス (anime festival)\n\nREGISTER:\nInformal/casual. The full form フェスティバル is more formal.",
-  "cross_references": [],
+  "notes": "ORIGIN:\nClipped from ⟦フェスティバル→フェスティバル：11703_fesutibaru⟧ (festival). The short form is the everyday word; the full form sounds formal or official.\n\nUSAGE:\nUsed above all of outdoor music events, especially the summer season of them:\n- ⟦ロック→ロック：08116_rokku⟧フェス — rock festival\n- {夏|なつ}フェス — summer festival (as a season and a genre of event)\n- ⟦{野外|やがい}→野外：17152_yagai⟧フェス — outdoor festival\n- ⟦{音楽|おんがく}→音楽：00661_ongaku⟧フェス — music festival\n\nEXTENDED USAGE:\nThe suffix has spread to any large themed gathering with stalls and a crowd: ⟦ビール→ビール：01015_biiru⟧フェス (beer festival), ⟦グルメ→グルメ：10845_gurume⟧フェス (food festival), ⟦アニメ→アニメ：01527_anime⟧フェス (anime festival). Note that it does not replace ⟦{祭|まつ}り→祭り：03735_matsuri⟧ for a traditional shrine or town festival.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ふぇすてぃばる",
+      "headword": "フェスティバル",
+      "target_id": "11703_fesutibaru"
+    },
+    {
+      "type": "contrast",
+      "reading": "まつり",
+      "headword": "{祭|まつ}り",
+      "target_id": "03735_matsuri"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T04:29:09Z",
-    "modified": "2026-01-19T12:17:44.626561Z",
+    "modified": "2026-07-30T09:18:34Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
       "pos": [
         "noun"
       ],
-      "formality": "formal",
+      "formality": "informal",
       "politeness": "plain",
       "semantic": [
         "leisure"
