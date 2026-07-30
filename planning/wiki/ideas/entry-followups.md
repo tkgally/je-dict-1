@@ -872,6 +872,44 @@ headword. Probably a small class — bound morphemes and cranberry morphemes —
 the one shape where an entry's prose and its examples can each be right in isolation and
 wrong together, which is precisely what no current check can see.
 
+## ば (conditional particle) and 逆転する — the two words the dead-link sweep could not link to
+
+**Source**: 2026-07-29 routine systemic-fix (the Tooling 11 dead-link sweep)
+
+The 2026-07-29 sweep repaired all 291 dead inline links by resolving each link's base form
+through `word_id_lookup.json`. **Two could not be repaired, because the word has no entry to
+link to.** Both were set to `noentry` and queued as candidates:
+
+| Word | Reading | Source entry | Note |
+|---|---|---|---|
+| 逆転する | ぎゃくてん-する | 05510 | "to reverse a situation" — an ordinary suru-verb gap |
+| **ば** | — | 05595 | the **conditional particle** |
+
+**ば is the one worth the curator's attention.** It is a core intermediate grammar point —
+one of the four main conditional forms a learner has to distinguish (ば / たら / と / なら) —
+and the dictionary has no entry for it at all. Everything else in that group is the kind of
+thing this dictionary exists to explain.
+
+Three things make it awkward rather than merely missing:
+
+1. **It is a bound form, not a free word.** ば attaches to a verb stem (行けば, 見れば), so it
+   belongs with the `〜` affix headwords (`〜的`, `〜者`, `〜中`) rather than as a bare entry —
+   a headword-form decision before it is a writing task.
+2. **The candidate list will not accept it**, for the same reason it refused でも: the
+   duplicate check keys on (surface, reading), and ば collides with existing entries. See
+   [Tooling 41](tooling-backlog.md#41-manage_candidatespy-cannot-queue-a-homograph--the-duplicate-check-is-surface-reading-not-surface-reading-sense).
+   So the normal capture path cannot queue it and it will not resurface on its own.
+3. **A homophone trap sits directly behind it.** The sweep's own lookup resolved ば to
+   `03699_ba` (場, "place") as a *single confident candidate* — the one false resolution in
+   111 mappings, caught only because the run read it in situ. Any future automated link repair
+   that trusts a single-candidate answer will make this exact mistake again. See
+   [P27](cleanup-backlog.md#priority-27-dead-inline-link-target-ids).
+
+**Recommended**: create ば as an affix-form particle entry alongside たら/と/なら (the
+`particle-entry` skill covers the predicate-list and contrast structure this needs), and note
+that until it exists, links to it must stay `noentry` rather than being resolved.
+逆転する is an ordinary candidate needing no decision.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

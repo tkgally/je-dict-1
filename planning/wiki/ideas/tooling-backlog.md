@@ -145,6 +145,12 @@ Once the map covers these, a deterministic+spot-checked systemic-fix sweep over 
 
 Both reinforce the 2026-07-26 sequencing note: run `check_tag_drift.py --check unknown-semantic` **before** spending OpenRouter budget on a range, and let the model see only what set membership cannot decide.
 
+**Update 2026-07-30 (the map is worth extending, but this range shows the tail is genuinely long — a table alone will not close `unknown-semantic`)**: The 2026-07-30 accuracy-review over **21301–21900** found **275 off-vocabulary semantic tags** spanning **~100 distinct tag strings** (`industry`, `human-relations`, `personal-qualities`, `stationery`, `maritime`, …). The shipped `TAG_MIGRATION` covers a handful; the ~19-pair table drafted on 2026-07-29 covers more.
+
+This is the first measurement that separates the two things this item has been arguing for. The **head** of the distribution is a lookup table and should be one — the same dozen renames recur in every sweep and paying a model to re-derive them is waste. The **tail** is not: ~100 distinct strings over 275 occurrences means most strings appear once or twice, each needing a genuine judgment about the best in-list destination, and no table written today will contain the next range's inventions. So the honest framing of the map's value is *throughput on the recurring head*, not closure of the class. Closure has to come from the inflow gate (item 27's CI ratchet, already shipped as a baseline) plus a residual judgment queue that never goes to zero while entries are still being created against no enum.
+
+The practical consequence for sequencing: extending the map raises the fraction a systemic-fix pass can auto-migrate, but the accuracy-review's `tags` dimension stays necessary for the tail — which is consistent with that dimension's high and rising apply rate (73.9% at the twenty-seventh metrics refresh). Map the head, review the tail, gate the inflow; none of the three substitutes for the others.
+
 ## 7. Polysemic kanji-variant overlap detector
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
@@ -759,6 +765,17 @@ That is an argument for running the detector **entry-major and oldest-first** ra
 
 That second case sharpens the argument. The population is not only decaying passively as the dictionary grows — **the Routine's own `new-entries` mode is a first-class producer of stale `noentry` markers**, at a rate proportional to how well the mode is doing its job. Every date-vocabulary entry written makes the date-vocabulary `noentry` markers staler. So the detector is not a one-off cleanup that can be deferred until the queue is worth the trouble; it is the missing back-edge of the entry-creation loop, and the right place to run it is **at the end of every `new-entries` run over the words that run just created** — a bounded scan of ~20 surfaces against `word_id_lookup.json`, essentially free — with the full entry-major oldest-first sweep (per the 2026-07-28 clustering finding) as the periodic catch-up for the historical backlog.
 
+**Update 2026-07-30 (the implementation site found — `manage_candidates.py sync` already computes exactly the input the detector needs)**: A 2026-07-30 polish run found **05836 ひんやり** marking すーすー and ひやっと as `noentry`; both have had entries (**29047**, **29048**) since they were created from candidates that 05836's own note had queued.
+
+The new information is not the sighting — it is the **placement**. `manage_candidates.py sync` already exists to remove candidates that have become entries, which means it already knows, on every run, the exact set of `(surface, reading)` pairs that just crossed from "no entry" to "has an entry". That set *is* the stale-marker work list, computed for free as a side effect of work the pipeline already does.
+
+This makes the 2026-07-29 update's conclusion concrete. That update established that `new-entries` is a first-class *producer* of stale markers and that the detector is "the missing back-edge of the entry-creation loop"; `sync` is where that back-edge already almost exists. Recommended shape:
+
+- **Incremental (closes the source)** — extend `sync` to rewrite `⟦…→<surface>：noentry⟧` to the new ID for each candidate it retires. Bounded by the size of the sync (~20 words after a `new-entries` run), so the cost is negligible and it runs on exactly the cadence that creates the problem.
+- **Historical (periodic catch-up)** — the full entry-major, oldest-first sweep above, for markers that went stale before the hook existed.
+
+The two halves are independent and the first is much the smaller change, so it should not wait on the second.
+
 ## 20. Notes-priority ranking excludes recently-polished / structurally-passing entries
 
 **Source**: 2026-06-14 routine polish session 004 (priority "notes" lane)
@@ -1327,6 +1344,15 @@ Two cheap fixes, both still open:
 - **(a) A `source` field on each candidate** (`corpus` / `seen-in-entry` / `curator`) so a run can filter to the high-yield pool in one pass instead of inferring provenance from the free-text gloss. This is the smaller change and captures most of the benefit.
 - **(b) A one-off bulk prune** via `prompts/clean_up_candidates_list.md` over the ~1,000 remainder, deleting families (1) and (2) outright. After the prune the pool would reflect genuine gaps, which is what the selector's `candidates_low` signal assumes it already does — note that the signal currently reads **1,021 candidates** and therefore never fires, while the *writable* pool is **12**. That gap is the sharpest statement of the problem: the Routine's own low-candidate alarm is measuring the wrong number by roughly two orders of magnitude.
 
+**Update 2026-07-30 — the writable pool reached zero.** The 2026-07-29 `new-entries` run **drained the `seen in entry` pool completely**: 20 available, 19 created, 1 removed as a stale okurigana variant. Every subsequent `new-entries` run falls back to the ~1,000-row corpus remainder until comprehensive-polish runs replenish the good pool.
+
+This is the predicted failure arriving on schedule, and it converts item (b) from a nice-to-have into the binding constraint. The two pools have opposite dynamics: the writable pool is **produced** by polish runs at a few words per run and **consumed** by new-entries runs at ~20 per run, so it empties whenever new-entries is selected more than about one run in five — which the selector's weighting makes routine. The corpus remainder, meanwhile, is large, static, and mostly unusable.
+
+Two consequences worth recording separately from the fix:
+
+- **The `candidates_low` signal is now not merely inaccurate but anti-correlated.** It reads ~1,024 and stays silent at the exact moment the pool a run can actually write from is empty. A run that trusts it spends its budget on triage.
+- **Pool depletion is a legible scheduling signal the selector could use.** A `source` field (fix (a)) would let `routine_next.py` count the writable pool directly and either fire `candidates_low` honestly or bias toward `polish` — which is what replenishes it. That makes (a) worth more than the context saving it was originally proposed for: it closes a feedback loop the selector currently cannot see.
+
 ## 26. accuracy-review prompt: embed the valid `formality` enum (formal/neutral/informal/vulgar)
 
 **Source**: 2026-06-20 routine new-entries self-check (gemini-2.5-flash, `tags` dimension)
@@ -1495,6 +1521,52 @@ The reported quotes are now diagnostic on sight, because they are *not valid fur
 **The true-positive class, and why it argues against retiring the screener outright.** The same 20451–21050 pass found a genuine defect the deterministic lints cannot see: **20908 {省力化|しょうりょくか}** contained `{急|きゅう}がれている` — 急 wrapped with its *on'yomi* in a context where the verb is 急ぐ (いそ). Every character is in the right script, the wrapper is well-formed, the reading is a real reading of that kanji; only the okurigana `がれている` reveals that the wrong reading was chosen. Item 24's proposed charset lint (which beat the screener 7:1 on Latin-letter readings) is blind to this by construction, because nothing about the string is out of place.
 
 That suggests a **third, narrow, deterministic check** worth its own small script rather than a model call: *a kanji wrapped with an on'yomi reading immediately followed by okurigana that forms a known verb/adjective inflection*. The kanji index already carries on'yomi and kun'yomi per kanji, so the test is "wrapper reading matches an on'yomi ∧ the following kana are inflectional okurigana" — enumerable, cheap, and it would have caught 20908. Worth sizing before the next screener spend: if the class is more than a handful of entries dictionary-wide, it is the second deterministic win taken off the screener's plate, and the residue left for the paid pass gets correspondingly harder to justify.
+
+### The context-snippet half — RESOLVED 2026-07-30 (routine accuracy-review, 21901–22500)
+
+The prompt-construction bug this item had been describing since 2026-06-18 — under three
+successive descriptions (*"pair-extraction truncating long compound readings"*, then
+*"the `followed by:` context snippet clipped mid-`{kanji|reading}`"*) — was fixed at the
+source. The final mechanism, verified in `build/review_runner.py` before the change:
+
+> `extract_furigana_pairs()` captured only **10 characters** of following context, and
+> `build_screening_prompt()` rendered it as `(followed by: {協議会|きょうぎか)`. A 10-character
+> window almost always cuts *inside* the next `{kanji|reading}` wrapper, and **the closing
+> paren of the annotation then reads as the wrapper's closing brace** — so the model was
+> shown a syntactically complete wrapper holding a truncated reading, and correctly
+> reported what it was shown.
+
+That last step is why the family survived four cycles of diagnosis: the artifact is not a
+malformed string the model mishandles, it is a *well-formed* string that means something
+different from what the entry says. `21902 協議会`, `21912 注力`, `21935 防衛線` were all
+verified against source and hold the full correct reading.
+
+**What shipped** (both the screening and deep prompts): 24-character capture, a
+`trim_context()` that cuts back to a wrapper boundary, `「」` delimiters that cannot be
+confused with `{…|…}` markup, and an explicit instruction that the excerpt may stop early
+and truncation must never be inferred from it.
+
+**Final precision measurements before the fix**, the two worst in the series:
+
+| Range | Flags | True positives | Precision |
+|---|---|---|---|
+| 21301–21900 | 21 | 0 | **0%** |
+| 21901–22500 | ~16% of entries | 0 inspected | **~0%** |
+
+Thirteen of the 21 flags in the first range quote a snippet cut mid-pair, with the stray
+`)` tell (`{急峻|きゅうしゅ)`, `{高圧的|こうあつ)`).
+
+**The durable lesson, which generalizes past this script**: *any context excerpt shown to a
+model must be cut at a token boundary of the markup it contains, and the delimiter wrapping
+the excerpt must not be confusable with that markup.* Both halves were needed — widening
+the window alone would have moved the cut, not removed it.
+
+**Still open in this item**: the charset lint (shipped as a hand-run scan, not yet CI) and
+the on'yomi-plus-okurigana check sketched above. The screener's post-fix precision is now
+**unmeasured** — every precision figure on this page predates the fix, so the "retire the
+screener" argument is suspended until a clean range is screened against the repaired prompt.
+That measurement is the next thing this item wants, and it is nearly free: one screening
+pass over a polished range.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -2154,6 +2226,12 @@ identity criterion is (surface, reading, **sense**). Fixing them together, with 
 shared helper that returns a three-way classification, is more likely to be right than
 patching either alone.
 
+**Update 2026-07-30 — a third failure mode on the same key, this one on the write side: okurigana variants enter the queue as new words.** The 2026-07-29 `new-entries` run found **売り上げ** queued as a candidate; it is an okurigana variant of the existing **04102_uriage** (`{売上|うりあげ}`), not a distinct word, and was removed rather than written.
+
+The mechanism is the same identity key seen from a third angle. `売り上げ` and `売上` are different *surfaces* with the same reading, so a (surface, reading) comparison sees no duplicate and the candidate is accepted — even though okurigana variation is precisely the case where surface difference does not imply word difference. Capture during polishing writes whatever spelling the source text used, so the queue accumulates these silently and each one costs a future `new-entries` run a lookup and a deletion.
+
+The fix belongs with items 41/43 rather than beside them: the shared identity helper should **normalize okurigana before comparing** (strip optional kana between kanji, or compare against the existing entry set by reading and then check surface compatibility). That makes the same helper answer all three questions — homograph, duplicate, orthographic variant — from one classification, which is the argument items 41 and 43 already make for consolidating them. Relatedly, [Cleanup P32](cleanup-backlog.md#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form) and [Entry Follow-ups](entry-followups.md) show the same normalization gap in inline links and merge candidates; the notion of "same word, different spelling" is missing project-wide, not just from `manage_candidates.py`.
+
 ## 44. Consistency check: non-neutral `formality` with no REGISTER statement in the notes
 
 **Source**: 2026-07-29 routine accuracy-review (20703–21300)
@@ -2186,6 +2264,134 @@ the check before sizing the fix.
 `semantic` **and** `formality: formal` is almost certainly mistagged — mimetics are
 characteristically colloquial. That one is cheap enough to run standalone and is likely
 to be high-precision.
+
+## 45. Extend the decisions-ledger `n` aggregation from `reject` to `flag`
+
+**Source**: 2026-07-29 routine wiki harvest (raised by the harvest itself while compiling the twenty-seventh metrics refresh)
+
+`prompts/routine2.md` §C permits one aggregated ledger line with an `"n"` count when a run
+bulk-**rejects** a recurring noise family, but provides no equivalent for bulk
+**escalations**. The asymmetry produced a measurable distortion the week it first mattered:
+
+> A single 2026-07-29 accuracy-review escalated **161 off-vocabulary tags that had no
+> destination in `TAG_MIGRATION`**. Because each needed its own `flag` line, the ledger
+> recorded 161 events, and the series' summary statistics recorded **the largest escalation
+> event on record (162)** — where the honest description is *"one missing lookup table,
+> 161 instances"*.
+
+Every downstream consumer inherits the distortion: `topics/quality-metrics.md`'s escalation
+counts, `metrics_snapshot.py`'s `flags_to_curator` field, and `reviews/needs_curator.txt`,
+which stood at 102 lines mostly describing one cause. The metrics page has since added
+finding 11 ("escalation *volume* is a queue signal, not a quality signal, and should be
+weighted by distinct cause") — but that is a reader-side caveat compensating for a
+recording-side defect, which is the weaker of the two places to fix it.
+
+**Fix**: one sentence in §C extending the `n` convention to `flag` decisions, with the same
+shape already specified for rejections (no `entry` field, an `"n"` count, a `note` naming
+the family). Cost: one sentence. Benefit: escalation counts become countable by *cause*,
+which is what every reader of them actually wants.
+
+**Second-order benefit worth noting**: `needs_curator.txt` becomes readable. A curator
+opening a 102-line file of near-identical entries cannot see how many distinct decisions
+are being asked of them; a file with one line saying "161 off-vocab tags, no 1:1 target"
+states the actual ask. The escalation channel's value depends on the curator reading it,
+and 161-line families are how that stops happening.
+
+**Caveat for whoever implements it**: the existing ledger already contains the 161 individual
+lines, so any precision statistic spanning 2026-07-29 needs the aggregation applied
+retroactively (or the window annotated) before it can be compared with later windows.
+
+## 46. Pre-scan off-vocabulary tags deterministically and feed the list to the accuracy reviewer
+
+**Source**: 2026-07-30 routine accuracy-review (21301–21900)
+
+The accuracy reviewer flagged off-vocabulary semantic tags on **245 of 598** entries in
+21301–21900. A free deterministic scan of the same range against `VALID_SEMANTIC` found
+**275** — so the model **missed ~11%** of a class that is decidable by set membership,
+without a model, in milliseconds.
+
+This is a different criticism from item 17's (which is about the reviewer's *false
+positives* on in-list narrowness nits). Here the reviewer is being paid to perform a set
+lookup and is performing it **imperfectly**, which is the worst combination: it costs money,
+it is slower, and its output cannot be trusted as complete, so a deterministic scan has to
+be run anyway to know what was missed.
+
+**Proposed sequencing change** — the reviewer should never be asked "is this tag in the
+list?":
+
+1. Run `check_tag_drift.py --check unknown-semantic` over the range first (free).
+2. Auto-migrate whatever `TAG_MIGRATION` resolves 1:1 (item 6).
+3. Pass the *residue* to the model as an explicit input — "these tags are known to be
+   off-vocabulary; choose the best in-list destination for each" — rather than asking it to
+   find them.
+
+Step 3 is the part only a model can do, and giving it the list converts the task from
+*detection* (where it underperforms a regex) to *judgment on a supplied list* (where it is
+the only available instrument). Item 6's 2026-07-30 update measures why step 3 cannot be
+eliminated: the ~100-distinct-string tail is genuinely judgment-dependent.
+
+This also composes with the §A budget rule. Detection currently consumes a share of the
+per-run OpenRouter budget to produce an incomplete answer; moving it out leaves the same
+dollars buying only judgment, which is the scarce thing.
+
+## 47. Cross-reference `headword` fields are invisible to every furigana instrument (7 confirmed defects)
+
+**Source**: 2026-07-30 routine wiki harvest (raised while checking whether `check_artifacts.py` covers a target-less cross-reference shape reported by the 2026-07-29 polish run)
+
+Every furigana instrument the project owns — `check_furigana_format.py`, the OpenRouter
+screening and deep passes, `find_missing_furigana.py`, `verify_furigana.py` — scans
+`examples` and `notes`. **None scans the `headword` field inside `cross_references` and
+`prominent_see_also` entries**, which are furigana-annotated strings rendered on the live
+site exactly like any other.
+
+The gap is measurable because those reference objects carry a redundant `reading` field, so
+each one **checks itself**: expand the `headword`'s furigana and compare it with the declared
+`reading`. Over the whole dictionary:
+
+| Stage | Count |
+|---|---|
+| Refs whose expanded headword disagrees with the declared reading | 869 |
+| …restricted to *fully* furigana-annotated headwords (a fair comparison) | 116 |
+| …after normalizing `〜`/`～` affix markers, `／` slash-variants, and katakana | **11** |
+
+All eleven survivors were inspected and **seven are genuine furigana defects**, in three
+families:
+
+- **Over-wrapped okurigana** — `{見積|みつも}もり` → みつも**も**り (×3, entries 08312 / 04699 / 05153 as `{見積|みつも}もる`), `{肩透|かたすか}かし` → かたすか**か**し (17589), `{届|とどけ}け` → とどけ**け** (07555). The wrapper swallows a kana the surface then repeats.
+- **Missing okurigana inside the wrapper** — `{弾|は}む` where 弾む is はずむ (04378).
+- **Unmarked rendaku** — `ぎっくり{腰|こし}` declared ぎっくり**ご**し (08034).
+
+The remaining four are one benign family: `{面倒|めんどう}くさい` declared めんどくさい (×4),
+where both readings are current and the reference is recording the colloquial one.
+
+Three things make this worth its own item rather than a note on item 8:
+
+1. **The check needs no external data and has no judgment component.** It compares a field
+   against another field in the same object. Precision here was 7/11 — and the 4 misses are
+   a single enumerable family that can be whitelisted.
+2. **The normalizations are already written.** `〜`/`～` affix markers and slash-variants are
+   the same two families item 11 had to normalize for base-form agreement; the katakana one
+   is a kana-folding call. Reusing that logic is most of the implementation.
+3. **The field is user-visible.** These strings render in the cross-reference block, so a
+   wrong reading here teaches a wrong reading, with no more excuse than one in an example.
+
+**Related finding — `check_artifacts.py`'s `missing-target-id` has a filter that hides
+malformed refs.** The same harvest checked the 2026-07-29 report that target-less
+cross-references still exist (06686 否応なく carried
+`{"type":"synonym","reading":"ひっすに","headword":"{必然|ひつぜん}に"}` — no `target_id`, and the
+reading not even matching its own headword). The detector's test is
+`not ref.get("target_id")`, which correctly catches both the absent key and an empty value.
+But it then skips any ref whose word has no entry, treating it as an *intentional pointer*
+(`ref_is_resolvable`). A ref like 06686's — whose declared reading does not match its own
+headword — is not an intentional pointer, it is malformed, and the resolvability filter is
+exactly what suppresses it. The self-consistency check above is the cheap way to see that
+class, and it should run **regardless of resolvability**, since a ref that disagrees with
+itself is wrong whether or not a target exists.
+
+**Suggested implementation**: a `--check ref-reading-disagreement` sub-check on
+`check_artifacts.py` (it already walks both reference fields), emitting the 11-row queue
+with the `面倒くさい` family whitelisted. Read-only, JSON queue, no auto-fix — three of the
+seven defects need a human to decide the correct wrapper split.
 
 ## Related pages
 
