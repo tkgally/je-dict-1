@@ -1,0 +1,24 @@
+{
+  "entry_id": "22485_kouei",
+  "headword": "{公営|こうえい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:41:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'government' is not in the valid tag list.",
+      "suggestion": "politics"
+    }
+  ]
+}

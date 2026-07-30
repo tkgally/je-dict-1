@@ -1,0 +1,31 @@
+{
+  "entry_id": "22301_anzenchitai",
+  "headword": "{安全地帯|あんぜんちたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:37:57Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'location' is not in the valid tag list.",
+      "suggestion": "Replace 'location' with 'general' or 'geography' if appropriate, or remove it if no suitable replacement exists."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'transport' is not in the valid tag list.",
+      "suggestion": "Replace 'transport' with 'transportation' if appropriate, or remove it if no suitable replacement exists."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "entry_id": "22018",
+  "screened_at": "2026-07-30T03:44:22Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 炊 (炊く) is だ, but the standard reading for 炊 alone in this context (炊き) would be たき or すい. 'だ' is likely a partial reading of 炊き (たき) where the 'き' is okurigana, but it's unusual to see just 'だ' for 炊. However, given the instruction not to flag partial readings, and the context '炊き: cooking one sho', it's plausible that 'だ' is intended as the reading for 炊 before the okurigana 'き'. If it were 炊く, the reading would be た. If it's 炊き, the reading for 炊 would be た.",
+    "The reading for 升 (しょう) is correct, but the context 'equals approximat' suggests it might be part of a larger phrase like '一升' (いっしょう) or '升目' (ますめ). However, as per instructions, we should not infer truncation. The reading しょう for 升 is valid as a unit of measurement."
+  ],
+  "confidence": 0.7
+}

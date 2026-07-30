@@ -1,0 +1,24 @@
+{
+  "entry_id": "22428_youisuru",
+  "headword": "{用意|ようい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:40:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is a suru-verb, which by convention should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    }
+  ]
+}

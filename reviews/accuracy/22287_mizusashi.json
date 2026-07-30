@@ -1,0 +1,31 @@
+{
+  "entry_id": "22287_mizusashi",
+  "headword": "{水差|みずさ}し",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:37:43Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is incorrect for '水差し' (mizusashi), which refers to a container for water, not food itself.",
+      "suggestion": "Replace 'food' with 'tool' or 'daily-life'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'culture' is too broad and not the primary semantic category for '水差し' (mizusashi), which is a physical object.",
+      "suggestion": "Replace 'culture' with 'tool' or 'daily-life'."
+    }
+  ]
+}

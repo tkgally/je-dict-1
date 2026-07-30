@@ -1,0 +1,31 @@
+{
+  "entry_id": "22184_koshoten",
+  "headword": "{古書店|こしょてん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:35:47Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'books' is not in the valid tag list.",
+      "suggestion": "Replace 'books' with a valid tag like 'general' or 'culture'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword '古書店' is not 'formal'. It is a neutral term for a used bookstore.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

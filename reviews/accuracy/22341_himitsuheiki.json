@@ -1,0 +1,24 @@
+{
+  "entry_id": "22341_himitsuheiki",
+  "headword": "{秘密|ひみつ}{兵器|へいき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:38:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'general' is too broad for a word that specifically refers to a weapon or asset. 'Military' or 'action' would be more appropriate given the primary meaning.",
+      "suggestion": "military"
+    }
+  ]
+}
