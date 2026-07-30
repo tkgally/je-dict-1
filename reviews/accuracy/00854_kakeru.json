@@ -2,15 +2,23 @@
   "entry_id": "00854_kakeru",
   "headword": "かける",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:50:28Z",
+  "reviewed_at": "2026-07-30T18:28:06Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'to put on' is too broad and misleading for the specific meaning of 'to put on (glasses)' in this entry. 'To put on' can refer to many things (clothes, makeup, etc.), but this entry only covers glasses.",
+      "suggestion": "to hang, to call, to wear (glasses)"
+    }
+  ]
 }

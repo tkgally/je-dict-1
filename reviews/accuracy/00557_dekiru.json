@@ -2,43 +2,15 @@
   "entry_id": "00557_dekiru",
   "headword": "できる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:54:19Z",
+  "reviewed_at": "2026-07-30T18:28:01Z",
   "summary": {
-    "flagged": 4
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'action' does not fit the headword's meaning, especially for sense 2 ('to be completed, to be made') where the subject is often inanimate and not performing an action.",
-      "suggestion": "Remove 'action' tag. Consider adding 'state' or 'existence' for sense 2."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English translation is slightly unnatural. 'since I was a child' implies the ability developed at that point and continued, but the Japanese '子供の時から泳ぐことができるようになりました' emphasizes the *becoming able* from that time.",
-      "suggestion": "Change to 'I became able to swim when I was a child.' or 'I've been able to swim since I was a child.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "warn",
-      "concern": "The English translation 'I have him help' is grammatically correct but sounds a bit formal or stilted for a natural conversation. 'I have him help me' or 'I get him to help' would be more natural.",
-      "suggestion": "Change to 'He can speak both English and Chinese, so I have him help me when talking with foreign customers.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "While 'opened' is possible, 'A new shop was built/established/appeared' is a more direct and common translation for 'できました' in this context, emphasizing its coming into existence.",
-      "suggestion": "Change to 'A new shop was built in front of the station.' or 'A new shop appeared in front of the station.'"
-    }
-  ]
+  "issues": []
 }
