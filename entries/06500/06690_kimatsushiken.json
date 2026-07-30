@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06690_kimatsushiken_ex1",
-      "japanese": "{来週|らいしゅう}から{期末試験|きまつしけん}が{始|はじ}まる。",
+      "japanese": "⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦から→から：00504_kara⟧{期末試験|きまつしけん}⟦が→が：00051_ga⟧⟦{始|はじ}まる→始まる：00841_hajimaru⟧。",
       "english": "Final exams start next week.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06690_kimatsushiken_ex2",
-      "japanese": "{期末試験|きまつしけん}の{勉強|べんきょう}で{忙|いそが}しい。",
+      "japanese": "{期末試験|きまつしけん}⟦の→の：09472_no⟧⟦{勉強|べんきょう}→勉強：00770_benkyou⟧⟦で→で：00502_de⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧。",
       "english": "I'm busy studying for finals.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06690_kimatsushiken_ex3",
-      "japanese": "{期末試験|きまつしけん}の{範囲|はんい}は{教科書|きょうかしょ}の{後半|こうはん}だ。",
+      "japanese": "{期末試験|きまつしけん}⟦の→の：09472_no⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦は→は：00079_ha⟧⟦{教科書|きょうかしょ}→教科書：01085_kyoukasho⟧⟦の→の：09472_no⟧⟦{後半|こうはん}→後半：12555_kouhan⟧⟦だ→だ：09496_da⟧。",
       "english": "The final exam covers the second half of the textbook.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{期末|きまつ} (end of term) + {試験|しけん} (exam)\n\nSCHOOL YEAR CONTEXT:\nJapanese schools typically have:\n・{一学期|いちがっき} (first term) - April to July\n・{二学期|にがっき} (second term) - September to December\n・{三学期|さんがっき} (third term) - January to March\n\nEach term may have a {期末試験|きまつしけん} at its end.\n\nRELATED TERMS:\n・{中間試験|ちゅうかんしけん} - Midterm exam\n・{追試験|ついしけん} - Makeup exam\n・{試験期間|しけんきかん} - Exam period\n\nCOLLOQUIAL:\nOften shortened to:\n・{期末|きまつ} (finals)\n・{期末テスト|きまつてすと} (final test)",
+  "notes": "FORMATION:\n⟦{期末|きまつ}→期末：22375_kimatsu⟧ (end of term) + ⟦{試験|しけん}→試験：01422_shiken⟧ (exam)\n\nSCHOOL YEAR CONTEXT:\nJapanese schools typically divide the year into three ⟦{学期|がっき}→学期：01073_gakki⟧:\n・⟦{一学期|いちがっき}→一学期：17203_ichigakki⟧ (first term) - April to July\n・⟦{二学期|にがっき}→二学期：23891_nigakki⟧ (second term) - September to December\n・⟦{三学期|さんがっき}→三学期：noentry⟧ (third term) - January to March\n\nEach term may end with a {期末試験|きまつしけん}.\n\nRELATED TERMS:\n・⟦{中間試験|ちゅうかんしけん}→中間試験：06691_chuukanshiken⟧ - midterm exam\n・⟦{追試験|ついしけん}→追試験：06692_tsuishiken⟧ - makeup exam\n・⟦{試験期間|しけんきかん}→試験期間：08738_shikenkikan⟧ - exam period\n\nCOLLOQUIAL:\nOften shortened to:\n・⟦{期末|きまつ}→期末：22375_kimatsu⟧ (finals)\n・⟦{期末|きまつ}→期末：22375_kimatsu⟧⟦テスト→テスト：01065_tesuto⟧ (final test)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "headword": "{追試験|ついしけん}",
       "label": "makeup exam",
       "target_id": "06692_tsuishiken"
+    },
+    {
+      "type": "related",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "examination, test",
+      "target_id": "01422_shiken"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:26:04Z",
-    "modified": "2026-01-19T12:17:44.621864Z",
+    "modified": "2026-07-30T00:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -75,7 +82,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "education"
       ]
     }
   }

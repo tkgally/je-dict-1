@@ -1,71 +1,15 @@
 {
   "_doc": "Daily OpenRouter spend ledger for the accuracy-review mode. Auto-reset by date (UTC). The Routine appends each accuracy-review run's estimated spend to 'spent_usd' and 'calls'. 'daily_cap_usd' is kept in sync with routine-config.json openrouter.daily_cap_usd.",
-  "date": "2026-07-29",
+  "date": "2026-07-30",
   "daily_cap_usd": 5.0,
-  "spent_usd": 0.6477,
+  "spent_usd": 0.0063,
   "calls": [
     {
-      "ts": "2026-07-29T00:29:40Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 598,
-      "est_usd": 0.2609
-    },
-    {
-      "ts": "2026-07-29T00:29:40Z",
-      "mode": "accuracy-review",
-      "phase": "screening",
-      "entries": 572,
-      "est_usd": 0.0572
-    },
-    {
-      "ts": "2026-07-29T03:29:17Z",
+      "ts": "2026-07-30T00:27:55Z",
       "mode": "self-check",
       "phase": "self-check",
-      "entries": 19,
-      "est_usd": 0.0084
-    },
-    {
-      "ts": "2026-07-29T06:25:42Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 8,
-      "est_usd": 0.0036
-    },
-    {
-      "ts": "2026-07-29T12:39:35Z",
-      "mode": "accuracy-review",
-      "phase": "accuracy",
-      "entries": 598,
-      "est_usd": 0.2618
-    },
-    {
-      "ts": "2026-07-29T12:39:35Z",
-      "mode": "accuracy-review",
-      "phase": "screening",
-      "entries": 180,
-      "est_usd": 0.04
-    },
-    {
-      "ts": "2026-07-29T15:30:22Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 11,
-      "est_usd": 0.0049
-    },
-    {
-      "ts": "2026-07-29T18:27:18Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 19,
-      "est_usd": 0.0083
-    },
-    {
-      "ts": "2026-07-29T21:33:43Z",
-      "mode": "self-check",
-      "phase": "self-check",
-      "entries": 40,
-      "est_usd": 0.0026
+      "entries": 14,
+      "est_usd": 0.0063
     }
   ]
 }

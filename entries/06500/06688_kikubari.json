@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06688_kikubari_ex1",
-      "japanese": "{彼女|かのじょ}は{周|まわ}りへの{気配|きくば}りができる{人|ひと}だ。",
+      "japanese": "⟦{彼女|かのじょ}→彼女：01286_kanojo⟧⟦は→は：00079_ha⟧⟦{周|まわ}り→周り：01732_mawari⟧⟦へ→へ：02473_he⟧⟦の→の：09472_no⟧{気配|きくば}り⟦が→が：00051_ga⟧⟦できる→できる：00557_dekiru⟧⟦{人|ひと}→人：00476_hito⟧⟦だ→だ：09496_da⟧。",
       "english": "She's someone who is considerate of those around her.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06688_kikubari_ex2",
-      "japanese": "もう{少|すこ}し{気配|きくば}りしてほしい。",
+      "japanese": "⟦もう→もう：00602_mou⟧⟦{少|すこ}し→少し：00596_sukoshi⟧{気配|きくば}り⟦して→する：00392_suru⟧⟦ほしい→ほしい：01107_hoshii⟧。",
       "english": "I wish you'd be a bit more considerate.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06688_kikubari_ex3",
-      "japanese": "{細|こま}やかな{気配|きくば}りに{感謝|かんしゃ}している。",
+      "japanese": "⟦{細|こま}やかな→細やか：13789_komayaka⟧{気配|きくば}り⟦に→に：00314_ni⟧⟦{感謝|かんしゃ}→感謝：00181_kansha⟧⟦している→する：00392_suru⟧。",
       "english": "I appreciate your thoughtful attention to detail.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{気|き} (spirit/attention) + {配|くば}り (distribution)\n→ Distributing one's attention to others' needs\n\nUSAGE:\n・{気配|きくば}りをする/できる - to be considerate\n・{気配|きくば}りが{足|た}りない - lacking in consideration\n・{細|こま}やかな{気配|きくば}り - thoughtful/meticulous consideration\n\nCULTURAL NOTE:\n{気配|きくば}り is highly valued in Japanese society, where anticipating others' needs without being asked is considered an important social skill. It involves reading the atmosphere ({空気|くうき}を{読|よ}む) and acting preemptively.\n\nSIMILAR WORDS:\n・{心配|こころくば}り - Thoughtfulness, consideration (slightly more formal)\n・{気遣|きづか}い - Concern, solicitude\n・{心遣|こころづか}い - Thoughtfulness, kindness\n・{目配|めくば}り - Keeping an eye on things, visual attentiveness",
+  "notes": "FORMATION:\n{気|き} (spirit/attention) + {配|くば}り (distribution)\n→ Distributing one's attention to others' needs\n\nUSAGE:\n・{気配|きくば}り⟦を→を：00422_wo⟧⟦する→する：00392_suru⟧/⟦できる→できる：00557_dekiru⟧ - to be considerate\n・{気配|きくば}り⟦が→が：00051_ga⟧⟦{足|た}りない→足りる：01209_tariru⟧ - lacking in consideration\n・⟦{細|こま}やかな→細やか：13789_komayaka⟧{気配|きくば}り - thoughtful, meticulous consideration\n\nCULTURAL NOTE:\n{気配|きくば}り is highly valued in Japanese society, where anticipating others' needs without being asked is considered an important social skill. It involves reading the atmosphere (⟦{空気|くうき}→空気：01390_kuuki⟧⟦を→を：00422_wo⟧⟦{読|よ}む→読む：00426_yomu⟧) and acting preemptively.\n\nSIMILAR WORDS:\n・⟦{心配|こころくば}り→心配り：07297_kokorokubari⟧ - thoughtfulness, consideration (slightly more formal)\n・⟦{気遣|きづか}い→気遣い：07295_kizukai⟧ - concern, solicitude\n・⟦{心遣|こころづか}い→心遣い：07296_kokorozukai⟧ - thoughtfulness, kindness\n・⟦{目配|めくば}り→目配り：07298_mekubari⟧ - keeping an eye on things, visual attentiveness",
   "cross_references": [
     {
       "type": "synonym",
@@ -148,11 +148,25 @@
       "headword": "{目配|めくば}り",
       "label": "watchfulness",
       "target_id": "07298_mekubari"
+    },
+    {
+      "type": "related",
+      "reading": "こころくばり",
+      "headword": "{心配|こころくば}り",
+      "label": "thoughtfulness (more formal)",
+      "target_id": "07297_kokorokubari"
+    },
+    {
+      "type": "related",
+      "reading": "こころづかい",
+      "headword": "{心遣|こころづか}い",
+      "label": "thoughtfulness, kindness",
+      "target_id": "07296_kokorozukai"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:24:55Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-30T00:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -160,7 +174,7 @@
         "noun",
         "verb-suru"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "plain",
       "semantic": [
         "cognition"

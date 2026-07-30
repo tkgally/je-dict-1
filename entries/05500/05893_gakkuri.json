@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "がっくり conveys a sudden, visible loss of spirits or physical strength. It often implies a bodily reaction — shoulders drooping, knees buckling — rather than just an internal feeling.\n\nSENSE 1 - EMOTIONAL DEJECTION:\n- がっくりする: to feel dejected, crestfallen\n- がっくり⟦{来|く}る→来る：00254_kuru⟧: to be hit with disappointment\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧がっくり⟦{落|お}とす→落とす：01246_otosu⟧: to drop one's shoulders in despair\n\nSENSE 2 - PHYSICAL WEAKENING:\n- ⟦{膝|ひざ}→膝：00940_hiza⟧⟦が→が：00051_ga⟧がっくりする: knees give way\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦が→が：00051_ga⟧がっくり⟦{落|お}ちる→落ちる：01242_ochiru⟧: stamina drops sharply\n\nSIMILAR WORDS:\n- ⟦がっかり→がっかり：00054_gakkari⟧: disappointed (similar but less physical, more internal)\n- ⟦しょんぼり→しょんぼり：05834_shonbori⟧: dejected, downcast (quieter, more passive sadness)\n- ⟦{落|お}ち{込|こ}む→落ち込む：05750_ochikomu⟧: to feel down (longer-lasting low mood)",
+  "notes": "がっくり conveys a sudden, visible loss of spirits or physical strength. It often implies a bodily reaction — shoulders drooping, knees buckling — rather than just an internal feeling.\n\nSENSE 1 - EMOTIONAL DEJECTION:\n- がっくり⟦する→する：00392_suru⟧: to feel dejected, crestfallen\n- がっくり⟦{来|く}る→来る：00254_kuru⟧: to be hit with disappointment\n- ⟦{肩|かた}→肩：02192_kata⟧⟦を→を：00422_wo⟧がっくり⟦{落|お}とす→落とす：01246_otosu⟧: to drop one's shoulders in despair\n\nSENSE 2 - PHYSICAL WEAKENING:\n- ⟦{膝|ひざ}→膝：00940_hiza⟧⟦が→が：00051_ga⟧がっくり⟦する→する：00392_suru⟧: knees give way\n- ⟦{体力|たいりょく}→体力：05318_tairyoku⟧⟦が→が：00051_ga⟧がっくり⟦{落|お}ちる→落ちる：01242_ochiru⟧: stamina drops sharply\n\nSIMILAR WORDS:\n- ⟦がっかり→がっかり：00054_gakkari⟧: disappointed (similar but less physical, more internal)\n- ⟦しょんぼり→しょんぼり：05834_shonbori⟧: dejected, downcast (quieter, more passive sadness)\n- ⟦{落|お}ち{込|こ}む→落ち込む：05750_ochikomu⟧: to feel down (longer-lasting low mood)",
   "cross_references": [
     {
       "type": "related",
@@ -216,11 +216,32 @@
       "reading": "しゅんと",
       "headword": "しゅんと",
       "label": "deflated, dejected"
+    },
+    {
+      "type": "related",
+      "reading": "がっかり",
+      "headword": "がっかり",
+      "label": "disappointed",
+      "target_id": "00054_gakkari"
+    },
+    {
+      "type": "related",
+      "reading": "しょんぼり",
+      "headword": "しょんぼり",
+      "label": "dejected, downcast",
+      "target_id": "05834_shonbori"
+    },
+    {
+      "type": "related",
+      "reading": "おちこむ",
+      "headword": "{落|お}ち{込|こ}む",
+      "label": "to feel down",
+      "target_id": "05750_ochikomu"
     }
   ],
   "metadata": {
     "created": "2026-01-16T14:51:32Z",
-    "modified": "2026-06-08T20:05:27Z",
+    "modified": "2026-07-30T00:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "core",
     "tags": {
@@ -231,7 +252,9 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "descriptive"
+        "onomatopoeia",
+        "descriptive",
+        "emotion"
       ],
       "verb_class": "suru"
     }

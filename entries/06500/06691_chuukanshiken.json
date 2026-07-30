@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06691_chuukanshiken_ex1",
-      "japanese": "{中間試験|ちゅうかんしけん}の{結果|けっか}が{返|かえ}ってきた。",
+      "japanese": "{中間試験|ちゅうかんしけん}⟦の→の：09472_no⟧⟦{結果|けっか}→結果：02486_kekka⟧⟦が→が：00051_ga⟧⟦{返|かえ}ってきた→返る：29164_kaeru⟧。",
       "english": "The midterm exam results came back.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06691_chuukanshiken_ex2",
-      "japanese": "{中間試験|ちゅうかんしけん}は{期末|きまつ}より{範囲|はんい}が{狭|せま}い。",
+      "japanese": "{中間試験|ちゅうかんしけん}⟦は→は：00079_ha⟧⟦{期末|きまつ}→期末：22375_kimatsu⟧⟦より→より：09476_yori⟧⟦{範囲|はんい}→範囲：03567_hani⟧⟦が→が：00051_ga⟧⟦{狭|せま}い→狭い：00750_semai⟧。",
       "english": "The midterm covers less material than the final.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06691_chuukanshiken_ex3",
-      "japanese": "{中間試験|ちゅうかんしけん}で{悪|わる}い{点|てん}を{取|と}ったから、{期末|きまつ}で{挽回|ばんかい}したい。",
+      "japanese": "{中間試験|ちゅうかんしけん}⟦で→で：00502_de⟧⟦{悪|わる}い→悪い：00908_warui⟧⟦{点|てん}→点：01553_ten⟧⟦を→を：00422_wo⟧⟦{取|と}った→取る：00565_toru⟧⟦から→から：00504_kara⟧、⟦{期末|きまつ}→期末：22375_kimatsu⟧⟦で→で：00502_de⟧⟦{挽回|ばんかい}→挽回：16313_bankai⟧⟦したい→する：00392_suru⟧。",
       "english": "I got a bad grade on the midterm, so I want to make up for it on the final.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{中間|ちゅうかん} (middle, midway) + {試験|しけん} (exam)\n\nUSAGE:\nTypically held about halfway through each school term. The material covered is usually the first half of the term's content.\n\nRELATED TERMS:\n・{期末試験|きまつしけん} - Final exam\n・{追試験|ついしけん} - Makeup exam\n・{小テスト|しょうてすと} - Quiz, short test\n\nCOLLOQUIAL:\nOften shortened to:\n・{中間|ちゅうかん} (midterms)\n・{中間テスト|ちゅうかんてすと} (midterm test)",
+  "notes": "FORMATION:\n⟦{中間|ちゅうかん}→中間：05458_chuukan⟧ (middle, midway) + ⟦{試験|しけん}→試験：01422_shiken⟧ (exam)\n\nUSAGE:\nTypically held about halfway through each school term. The material covered is usually the first half of the term's content, so its ⟦{範囲|はんい}→範囲：03567_hani⟧ is narrower than a ⟦{期末試験|きまつしけん}→期末試験：06690_kimatsushiken⟧.\n\nRELATED TERMS:\n・⟦{期末試験|きまつしけん}→期末試験：06690_kimatsushiken⟧ - final exam\n・⟦{追試験|ついしけん}→追試験：06692_tsuishiken⟧ - makeup exam\n・⟦{小|しょう}テスト→小テスト：27557_shoutesuto⟧ - quiz, short test\n\nCOLLOQUIAL:\nOften shortened to:\n・⟦{中間|ちゅうかん}→中間：05458_chuukan⟧ (midterms)\n・⟦{中間|ちゅうかん}→中間：05458_chuukan⟧⟦テスト→テスト：01065_tesuto⟧ (midterm test)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "headword": "{追試験|ついしけん}",
       "label": "makeup exam",
       "target_id": "06692_tsuishiken"
+    },
+    {
+      "type": "related",
+      "reading": "しけん",
+      "headword": "{試験|しけん}",
+      "label": "examination, test",
+      "target_id": "01422_shiken"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:26:31Z",
-    "modified": "2026-06-17T19:18:07Z",
+    "modified": "2026-07-30T00:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
