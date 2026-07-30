@@ -1,0 +1,22 @@
+{
+  "entry_id": "22620_manekiireru",
+  "headword": "{招|まね}き{入|い}れる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:51:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'society' is too narrow and doesn't cover the figurative sense of 'to bring about (something undesirable)'.",
+      "suggestion": "action"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "22791_komameni",
+  "headword": "こまめに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:52:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-general' is inappropriate for 'こまめに'.",
+      "suggestion": "Remove 'time-general'."
+    }
+  ]
+}

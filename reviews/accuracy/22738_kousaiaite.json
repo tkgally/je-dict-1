@@ -1,0 +1,38 @@
+{
+  "entry_id": "22738_kousaiaite",
+  "headword": "{交際相手|こうさいあいて}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:44:40Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'relationship' is not in the valid tag list.",
+      "suggestion": "Replace 'relationship' with 'society' or 'person'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "Replace 'people' with 'person'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}
