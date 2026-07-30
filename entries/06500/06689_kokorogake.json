@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06689_kokorogake_ex1",
-      "japanese": "{日頃|ひごろ}の{心掛|こころが}けが{大切|たいせつ}だ。",
+      "japanese": "⟦{日頃|ひごろ}→日頃：07284_higoro⟧⟦の→の：09472_no⟧{心掛|こころが}け⟦が→が：00051_ga⟧⟦{大切|たいせつ}→大切：01456_taisetsu⟧⟦だ→だ：09496_da⟧。",
       "english": "Your everyday mindset/attitude is important.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06689_kokorogake_ex2",
-      "japanese": "{健康|けんこう}に{良|よ}い{心掛|こころが}けをしている。",
+      "japanese": "⟦{健康|けんこう}→健康：02706_kenkou⟧⟦に→に：00314_ni⟧⟦{良|よ}い→良い：02350_yoi⟧{心掛|こころが}け⟦を→を：00422_wo⟧⟦している→する：00392_suru⟧。",
       "english": "I make an effort to maintain good health habits.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06689_kokorogake_ex3",
-      "japanese": "その{心掛|こころが}けは{立派|りっぱ}だ。",
+      "japanese": "⟦その→その：00993_sono⟧{心掛|こころが}け⟦は→は：00079_ha⟧⟦{立派|りっぱ}→立派：01093_rippa⟧⟦だ→だ：09496_da⟧。",
       "english": "That's an admirable attitude.",
       "notes": null,
       "has_audio": false,
@@ -43,7 +43,7 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{心|こころ} (heart/mind) + {掛|か}け (hanging on, keeping)\n→ Something kept in one's mind/heart\n\nRELATED VERB:\n{心掛|こころが}ける - to keep in mind, to try to, to make a point of\n・{早|はや}く{寝|ね}るよう{心掛|こころが}けている (I make a point of going to bed early)\n\nUSAGE:\n・{日頃|ひごろ}の{心掛|こころが}け - everyday attitude/habits\n・{良|よ}い{心掛|こころが}け - good intentions/attitude\n・{心掛|こころが}け{次第|しだい}だ - It depends on one's attitude\n\nNUANCE:\nRefers not just to intentions but to the conscious effort to maintain a certain attitude or practice habitually. Often used when praising someone's diligence or discipline.\n\nSIMILAR WORDS:\n・{心構|こころがま}え - Mental preparedness, readiness\n・{心得|こころえ} - Knowledge, understanding, rules to follow\n・{姿勢|しせい} - Posture, attitude (figurative)",
+  "notes": "FORMATION:\n{心|こころ} (heart/mind) + {掛|か}け (hanging on, keeping)\n→ Something kept in one's mind/heart\n\nRELATED VERB:\n⟦{心掛|こころが}ける→心掛ける：noentry⟧ - to keep in mind, to try to, to make a point of\n・⟦{早|はや}く→早く：02935_hayaku⟧⟦{寝|ね}る→寝る：00470_neru⟧⟦よう→よう：01114_you⟧⟦{心掛|こころが}けている→心掛ける：noentry⟧ (I make a point of going to bed early)\n\nUSAGE:\n・⟦{日頃|ひごろ}→日頃：07284_higoro⟧⟦の→の：09472_no⟧{心掛|こころが}け - everyday attitude, habits\n・⟦{良|よ}い→良い：02350_yoi⟧{心掛|こころが}け - good intentions, a good attitude\n・{心掛|こころが}け⟦{次第|しだい}→次第：03175_shidai⟧⟦だ→だ：09496_da⟧ - it depends on one's attitude\n\nNUANCE:\nRefers not just to intentions but to the conscious effort to maintain a certain attitude or practice habitually. Often used when praising someone's diligence or discipline.\n\nSIMILAR WORDS:\n・⟦{心構|こころがま}え→心構え：07026_kokorogamae⟧ - mental preparedness, readiness\n・⟦{心得|こころえ}→心得：07465_kokoroe⟧ - knowledge, understanding, rules to follow\n・⟦{姿勢|しせい}→姿勢：00371_shisei⟧ - posture; attitude (figurative)",
   "cross_references": [
     {
       "type": "related",
@@ -58,11 +58,18 @@
       "headword": "{心得|こころえ}",
       "label": "knowledge/rules",
       "target_id": "07465_kokoroe"
+    },
+    {
+      "type": "related",
+      "reading": "しせい",
+      "headword": "{姿勢|しせい}",
+      "label": "attitude, stance",
+      "target_id": "00371_shisei"
     }
   ],
   "metadata": {
     "created": "2026-01-18T04:25:21Z",
-    "modified": "2026-01-24T14:24:36Z",
+    "modified": "2026-07-30T00:17:41Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -72,7 +79,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "cognition",
+        "abstract"
       ]
     }
   }

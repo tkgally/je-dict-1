@@ -2,30 +2,15 @@
   "entry_id": "01074_ganbatte",
   "headword": "{頑張|がんば}って",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:55:20Z",
+  "reviewed_at": "2026-07-30T00:27:20Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.politeness",
-      "severity": "error",
-      "concern": "The headword '頑張って' is in the plain form (te-form), not polite.",
-      "suggestion": "politeness: plain"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[4]",
-      "severity": "error",
-      "concern": "The English translation for example 4 misrepresents the Japanese. The Japanese sentence uses '頑張って' in the sense of 'he tried his best' or 'he pushed through', not 'he persevered and finished it to the end'. The latter implies a successful completion, which is not explicitly stated by '頑張って' alone.",
-      "suggestion": "He was tired from work, but he pushed through and finished it."
-    }
-  ]
+  "issues": []
 }
