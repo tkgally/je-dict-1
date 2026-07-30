@@ -910,6 +910,25 @@ Three things make it awkward rather than merely missing:
 that until it exists, links to it must stay `noentry` rather than being resolved.
 逆転する is an ordinary candidate needing no decision.
 
+## 06703_furikiru — 15 examples, zero inline links, core tier
+
+**Source**: 2026-07-30 routine polish run (frontier 06698–06704; left untouched deliberately)
+
+振り切る sits in the [P21](cleanup-backlog.md#priority-21-unlinked-自動詞他動詞-labels-and-particles-in-compound-verb-notes)
+zero-link band with **15 examples and no `⟦…⟧` links anywhere**, and it is **core tier**, so its
+examples are read by more learners than a general-tier entry's. Linking it from scratch is on the
+order of 90 dictionary lookups — several times a normal frontier slot.
+
+The polish run made the right call in skipping it rather than half-linking it (a half-linked entry
+looks finished and stops attracting attention), but the consequence is that the frontier has now
+moved past it and nothing will return to it on its own.
+
+**Recommended**: a dedicated pass for this entry alone, or hold it until
+[Tooling 49](tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write)
+(the read-only link suggester) exists — this is precisely the entry that tool would pay for
+itself on. Also worth checking while it is open: the entry is a compound verb, so the
+`自動詞`/`他動詞` label and particle links that P21 was originally named for apply too.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

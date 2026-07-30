@@ -151,6 +151,14 @@ This is the first measurement that separates the two things this item has been a
 
 The practical consequence for sequencing: extending the map raises the fraction a systemic-fix pass can auto-migrate, but the accuracy-review's `tags` dimension stays necessary for the tail — which is consistent with that dimension's high and rising apply rate (73.9% at the twenty-seventh metrics refresh). Map the head, review the tail, gate the inflow; none of the three substitutes for the others.
 
+**Update 2026-07-30 (the reviewer is a source of *destinations*, not just detections — and it halves the curator queue)**: the 2026-07-30 accuracy-review over **22501–22766** measured what the tail costs with and without the model's help. For **34 off-vocabulary tags the deterministic 1:1 map could not resolve**, the `tags` dimension supplied a concrete in-list destination — craft/literature→`art`, facility/housing/place→`building`, perception/reading/mental-state→`cognition`, welfare→`society`. That cut the block's curator escalation **from 87 entries to 46**.
+
+This reframes the "review the tail" leg above. The reviewer's value on off-vocab tags is not detection — set membership is free, and item 46 already argues for pre-scanning it deterministically — it is *proposing where the tag should go*. And that is exactly the work `reviews/needs_curator.txt` currently queues for a human, one entry at a time.
+
+**Concrete recommendation**: run a `review_accuracy.py --dimensions tags` sweep **over the existing `needs_curator.txt` backlog** before asking the curator to decide each item by hand. The backlog is the accumulated residue of ranges where no destination was found; on this window's evidence, roughly half of it has a destination the reviewer will name for pennies. Whatever survives that pass is the genuine taxonomy question — and the twenty-eighth metrics refresh shows why this matters now: 337 escalations in four days, against a human loop that closed three items in the same period.
+
+**The counter-caveat, from the same run**: roughly a **quarter** of the reviewer's tag suggestions were "replace the off-vocab tag with `general`" (`location`, `place`, `position`, `object`, `space`, `status`, `document` — all spatial or metadata concepts the taxonomy has no slot for). Those were rejected as a family: they trade a descriptive tag for the catch-all and would inflate the `tag-sole-general` queue (Cleanup P13). So the sweep proposed above needs a standing rejection rule for `→ general` suggestions, and the residue is a **taxonomy** question for the curator — does `VALID_SEMANTIC` want a spatial-position slot? — rather than 100 per-entry questions.
+
 ## 7. Polysemic kanji-variant overlap detector
 
 **Source**: Wiki maintenance 2026-05-11 entry exploration
@@ -1562,11 +1570,38 @@ the excerpt must not be confusable with that markup.* Both halves were needed �
 the window alone would have moved the cut, not removed it.
 
 **Still open in this item**: the charset lint (shipped as a hand-run scan, not yet CI) and
-the on'yomi-plus-okurigana check sketched above. The screener's post-fix precision is now
-**unmeasured** — every precision figure on this page predates the fix, so the "retire the
-screener" argument is suspended until a clean range is screened against the repaired prompt.
-That measurement is the next thing this item wants, and it is nearly free: one screening
-pass over a polished range.
+the on'yomi-plus-okurigana check sketched above.
+
+### Post-fix measurement — 2026-07-30: three runs, zero precision, and a new cost argument
+
+The measurement this item asked for has now been taken, and it removes the last defence of the
+screener. **Three consecutive measured runs postdate the context-snippet fix and all three
+applied nothing**: 0 of 29 flags across the twenty-eighth metrics window. The 2026-07-30 (004)
+run screened 140 entries and produced **2 flags** — one a variant reading (毎年 まいとし, which
+the model itself called "not strictly incorrect") and one an okurigana split (一握). Both are
+documented false-positive families. So the "its noise may be an artefact of the truncation bug"
+objection is answered: the noise is the instrument.
+
+Two further findings from the same window:
+
+1. **A self-refuting flag.** On 22097 the screener wrote: *"The reading for 本屋大賞 should be
+   ほんやたいしょう, but the provided reading is ほんやたいしょう."* Expected and provided are the
+   identical string — the flag's own body refutes it. A one-line post-filter (drop any concern
+   whose quoted expected reading equals the provided one) suppresses this for free, and the shape
+   generalises cheaply to the other dimensions.
+2. **The screener is now the rate-limiting instrument in `accuracy-review` mode.** Measured
+   2026-07-30: **~1.9 entries/min** against the accuracy pass's **~3.4/min** over the same window.
+   One run can no longer cover a common range on both dimensions, so
+   `polishing/tasks/cross-model-review/progress.txt` is pinned to the slower of the two.
+
+That is the whole argument in one place: **zero measured precision post-fix, and it halves the
+range the accuracy pass could otherwise cover.** The recommendation is to **retire or heavily
+downsample** the furigana screening pass — keep the deterministic replacements this item already
+specifies (the non-hiragana-reading lint, the grouping/orphan-kana detector, item 47's
+self-checking cross-reference readings), which between them cover every true-positive class the
+screener has produced in two months. Downsampling — e.g. screening only *newly created* entries,
+never re-screening polished ranges — is the conservative version if retiring outright feels
+premature; the data does not require the conservative version.
 
 ## 25. Cross-reference target-id resolution: detector over-count, build-time reading fallback, and `id`-vs-`target_id` drift
 
@@ -2265,6 +2300,28 @@ the check before sizing the fix.
 characteristically colloquial. That one is cheap enough to run standalone and is likely
 to be high-precision.
 
+### Update 2026-07-30 — the *contradiction* slice is measured, and it is tiny at high precision
+
+The 2026-07-29 polish run's other direction (a tag contradicting the entry's own REGISTER prose)
+recurred on **06697 フェス**, tagged `formality: formal` while its REGISTER section read
+"Informal/casual. The full form フェスティバル is more formal." This harvest scanned the corpus for
+it, and the result is a useful lesson about how tightly to write the check:
+
+| Check | Hits | Character |
+|---|---|---|
+| `formality: formal` **and** the word informal/casual/colloquial appears anywhere in the notes | 1,238 | Mostly **noise** — notes routinely say "more formal than the informal X" |
+| `formality: formal` **and** a `REGISTER:`/`TONE:`/`STYLE:` line whose own characterization *opens* with Informal/Casual/Colloquial/Slang | **6** | Clean: 06955, 07352, 07365, 07367, 07398, 07411 — all `REGISTER: Casual` |
+| The converse (`informal`/`vulgar` tag vs a REGISTER line opening "Formal") | **0** | — |
+
+So the deterministic, zero-judgment slice is **6 entries** and the anchor that makes it precise is
+*the position of the word inside the REGISTER line*, not its presence in the notes. Worth shipping
+as written (`^(REGISTER|TONE|STYLE)[^:：]*[:：]\s*\**\s*(Informal|Casual|Colloquial|Slang)` vs
+`formality: formal`); the 1,238-hit loose variant is a model's job, not a checker's, and belongs
+to the accuracy reviewer's register dimension if anywhere.
+
+Schema note for whoever writes the fix: the enum is `formal`/`neutral`/`informal`/`vulgar`, so the
+correction target for a `REGISTER: Casual` entry is **`informal`**, not `casual`.
+
 ## 45. Extend the decisions-ledger `n` aggregation from `reject` to `flag`
 
 **Source**: 2026-07-29 routine wiki harvest (raised by the harvest itself while compiling the twenty-seventh metrics refresh)
@@ -2392,6 +2449,125 @@ itself is wrong whether or not a target exists.
 `check_artifacts.py` (it already walks both reference fields), emitting the 11-row queue
 with the `面倒くさい` family whitelisted. Read-only, JSON queue, no auto-fix — three of the
 seven defects need a human to decide the correct wrapper split.
+
+## 48. The §7 CI gate cannot distinguish "CI is slow" from "CI never started" — and its cross-check agrees with it when it is wrong
+
+**Source**: 2026-07-30 routine wiki run (raised by that run's own merge path, on PR #3069)
+
+`mcp__github__pull_request_read --method get_check_runs` returned `total_count: 0` on **eight
+consecutive polls over ~14 minutes**. The run cross-checked with
+`actions_list --workflow validate.yml --branch <branch>`, which **agreed** — also `total_count: 0`.
+Both were wrong: the workflow job's own `started_at` was 07:46:00Z, i.e. it had been queued
+*before* most of those polls. It became visible only after a later push, then ran to `success`
+in 60 seconds.
+
+By then the run had written a session-log section concluding "no workflow run was ever queued"
+and had stopped without merging.
+
+**The durable rule**: *absence of a check run is only ever evidence of "not visible yet", never
+of "not queued".* Neither endpoint is authoritative about absence — only about presence. This is
+the same shape as every case on [Instrument Defects](../topics/instrument-defects.md): the
+instrument's silence read as a fact about the world. What makes this one worse than the others is
+its position — it sits in the **merge** path, where a wrong reading strands finished work.
+
+**Consequence for `routine2.md` §7** (documentation only; the wiki mode does not edit prompts):
+
+- The `actions_list` cross-check does **not** buy an unattended run the ability to tell a slow CI
+  from a dead one. Adding it as a tie-breaker would be false precision.
+- The honest options are unchanged: keep polling to the cap, or leave the PR for the next run's
+  §0a rescue. Both are already in the prompt.
+- What should change is the **log wording**. A run that times out should write "checks not visible
+  within the cap" — never "no workflow run was queued". The first is what was observed; the second
+  is an inference the data does not support, and it is the sentence that turns a recoverable strand
+  into a misleading record for whoever reads the log next.
+
+A cheap mitigation worth considering: when the poll cap is reached, fetch the PR head commit's
+`started_at`/`created_at` via `get_commit` before writing the log line, so the record at least
+carries the timestamp evidence rather than the inference.
+
+## 49. Read-only inline-link *suggester* (propose `⟦…⟧`, never write)
+
+**Source**: 2026-07-30 routine polish run (measured on 06702, 10 unlinked examples)
+
+**Inline-link coverage is the dominant cost of `polish` mode, and roughly 90% of it is
+mechanical.** The measured split for one entry: ~60 dictionary lookups against
+`build/word_id_lookup.json`, then a handful of genuine judgments — homograph choice, word
+boundaries, whether a bound morpheme counts as a word. Batching all of an entry's lookups into
+one query already helped materially; the remaining cost is the model doing greedy longest-match
+segmentation by hand, one span at a time, which is what a program does better.
+
+**Proposal**: a read-only script that takes an entry ID, runs greedy longest-match over
+`by_headword` / `by_reading`, and emits (a) a proposed `⟦surface→base：id⟧` rewrite of each
+example and note line and (b) an **explicit ambiguity list** — spans with more than one candidate
+target, spans matching only by reading, and spans it declined to link. It never writes an entry.
+
+The precedent is the detector family: **propose, never apply**. The value is not automation, it is
+*budget reallocation* — a polish run would spend its judgment on the 10% that needs judgment and
+could plausibly cover 2–3× the entries at the same quality. Sequenced naturally ahead of
+[Cleanup P21](cleanup-backlog.md#priority-21-unlinked-自動詞他動詞-labels-and-particles-in-compound-verb-notes),
+which is a several-hundred-entry backlog of exactly this work.
+
+Known hazards the ambiguity list must surface rather than resolve: kana-only spans matching
+multiple homophones (the standing `by_reading` false-match caveat, Cleanup P2), particles and
+copula forms (`で` as copula vs particle — item 37), and base forms whose target headword needs
+furigana stripping (items 11 / Cleanup P24, P32).
+
+## 50. `find_missing_furigana.py --json` is accepted but does not emit JSON
+
+**Source**: 2026-07-30 routine new-entries run
+
+The flag is accepted silently and the output is human-formatted, JSON-ish text that `json.load`
+rejects. Any caller that trusts the flag gets an exception, or — worse in an unattended run —
+falls back to parsing the human format with a regex.
+
+Two acceptable fixes: implement a real `--json` mode (the tool already has the records in hand),
+or drop the flag so the failure is loud at argument-parsing time. Either is a few lines. The
+current state is the one state that should not exist: an option that claims a contract it does
+not honour.
+
+## 51. A cross-reference with no `target_id` validates cleanly — but the obvious schema fix would break 59 intentional refs
+
+**Source**: 2026-07-30 routine polish run (06704, removed in-run) + this harvest's corpus scan
+
+`build/validate.py` checks that a `target_id` *resolves*, not that one is *present*. A reference
+object of the shape `{type, reading, headword, label}` with no `target_id` at all therefore passes
+validation and renders as nothing on the page — silently invisible.
+
+The polish run proposed a one-line schema `required: ["target_id"]` on `cross_references[]`.
+**A corpus scan says that would fail.** Dictionary-wide, 64 reference objects have no `target_id`:
+
+| Shape | Count | Verdict |
+|---|---|---|
+| No `target_id`, **has** a `label` | 59 | **Intentional** — homophone/contrast pointers to words with no entry (`{工夫\|こうふ}` "laborer (homophone)", `イエス` "yes"), the class [Cleanup P2](cleanup-backlog.md#priority-2-missing-or-broken-cross-references) and item 25 already documented |
+| No `target_id`, **no** `label` | 5 | **Defects** — 06057, 06060, 06063, 29601, 29610 |
+
+So the rule the schema wants is not "`target_id` is required" but **"`target_id` or `label` is
+required"** — a reference must either point somewhere or say why it does not. That expresses the
+existing convention exactly, closes the 5 defects, and leaves the 59 deliberate pointers valid.
+
+Scope is small enough to fix by hand (5 entries: each names a real word — 推薦する, 創造する,
+肯定する, 年少, 炭素 — that has or deserves an entry), but the schema clause is what prevents the
+class from returning.
+
+## 52. Does `check_semantic_clusters.py` count a `prominent_see_also` mention as satisfying the pair requirement?
+
+**Source**: 2026-07-30 routine polish run (00649 曲がる / 02529 曲げる, 00711 かかる / 00854 かける)
+
+Both transitivity pairs described the pair **in their notes**, listed it in **`prominent_see_also`**,
+and had **`cross_references: []`** on both sides — so the machine-readable pair link did not exist
+in either direction, and `check_semantic_clusters.py` did not report it.
+
+If the checker treats a `prominent_see_also` mention as satisfying the pair requirement, that is
+the hole, and it is a one-condition fix. If it does not, then these pairs should have been in its
+queue and the miss has a different cause worth finding.
+
+**Scope**: entries with an empty `cross_references`, a non-empty `prominent_see_also`, and
+transitivity prose in the notes number **407** dictionary-wide (this harvest's scan). Not all are
+pair defects — the filter is deliberately loose — but it bounds the class, and 407 is large enough
+that "the checker sees this and stays quiet" is worth verifying before more of the frontier is
+polished on the assumption that it does not.
+
+Related: item 39 (cross-reference-pair tag consistency), item 25 (target-id resolution).
 
 ## Related pages
 

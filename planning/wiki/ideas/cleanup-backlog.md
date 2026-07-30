@@ -628,6 +628,18 @@ Both ranges sit *above* the comprehensive-polish frontier (`next: 06163`) and ca
 - The sibling terms **05904 パワハラ (pawahara)** and **05905 セクハラ (sekuhara)** both carry only the placeholder `general`.
 So four members of one tight semantic cluster carry four different (mostly wrong) tag treatments. The efficient fix is a **targeted accuracy-review `tags`-dimension pass over the harassment/～ハラ cluster** (and, more broadly, the abuse/workplace-conduct nouns), settling on one consistent in-list tag — `society` is the natural home for the abstract social-problem sense. The `social-issues`→`society` slice is deterministic (P20 migration); the `emotion`→`society` and sole-`general`→`society` slices need the reviewer's per-entry judgment.
 
+**Update 2026-07-30 (wrong-category sole tags are dense at the *frontier*, not only in the 5700–6340 block this priority was named for)**: The 2026-07-30 polish run found three of four frontier entries carrying a sole tag from an adjacent-sounding but wrong category:
+
+| Entry | Was | Applied | Shape of the error |
+|---|---|---|---|
+| 06694 電子マネー | `electronics` | `money` + `technology` | tagged for the *material* of the thing, not what it is |
+| 06695 小川 | `general` | `geography` + `nature` | placeholder (P13 overlap) |
+| 06696 トレンド | `time-general` | `change` + `society` + `media` | a fashion/trending word filed under time |
+
+`time-general` for トレンド is the same failure shape as the 朱肉→`animal-mammal` case that named this priority: **a tag picked from a category that sounds adjacent to some word in the gloss**, rather than from the word's domain. Finding it three times in four entries at 06694 means this priority's range estimate should extend well above the 5700–6340 block it was originally scoped to — the frontier band carries it too, at a rate high enough that a run touching four entries expects three hits.
+
+Note the interaction with [P34](#priority-34-action-as-the-sole-semantic-tag-on-a-verb-2085-entries) and [P13](#priority-13-overuse-of-general-as-sole-semantic-tag): all three are *sole-tag* defects on the same cohorts, and only this one (wrong category) is potentially detectable without a model. A single frontier pass that re-reads `semantic` on every entry it opens clears all three cheaper than three sweeps.
+
 ## Priority 12: Dual-reading furigana with slash separators — RESOLVED 2026-06-16
 
 **RESOLVED (2026-06-16).** A systemic-fix Routine run fixed all **118 entries** (131 slash-reading wrappers) flagged by `build/check_furigana_format.py` (`subpattern == 'slash-reading'`). Each `{漢字|よみ1/よみ2}` wrapper was replaced, per-entry, with the single reading the kanji actually takes in context: the rendaku'd compound reading where the wrapper decomposes the headword ({歩|ぽ} in 散歩, {袋|ぶくろ} in 寝袋, {顔|がお} in ドヤ顔), the inline-link target's reading where the wrapper sat inside a ⟦…⟧ link ({毎年|まいとし}→00731_maitoshi), or the primary reading for standalone/related words ({梅雨|つゆ}, {買春|ばいしゅん}). Notes that explicitly discuss the reading variation (e.g. 七 なな/しち, 分 ふん/ぷん) kept their prose explanation; the wrapper just dropped to one reading. Two malformed English-in-reading wrappers were also repaired (28654 アプリ内課金: `{課金|billing/charging}`→`{課金|かきん}`, `{内|inside}`→`{内|ない}`). The detector now returns **0** slash-reading instances. A furigana self-check screened 59 of the 118 changed IDs before the 540 s `timeout` wrapper killed `review_runner.py` (logged as a `[tooling]` observation); its 11 flags were all false positives (rendaku-in-compound, okurigana/partial readings "correct by design", and screener input-truncation artifacts), 0 applied. Tracked as `furigana-slash-reading` in `backlog-queue.json`.
@@ -683,6 +695,10 @@ Session 003 noted the pattern in the 03011–03035 range. Session 005 confirmed 
 > **06691 中間試験 (mid-term exam), the adjacent and near-identical entry, was already tagged `education`.**
 
 Two entries for the same kind of thing, created in the same batch, one tagged correctly and one left at sole-`general`. That is not a judgment the tagger made and got wrong; it is a default that was overwritten in one case and not the other. **Within-block inconsistency between near-identical neighbours is a stronger diagnostic than any single entry's tag**, and it is mechanically detectable: entries sharing a semantic neighbourhood where some carry a specific tag and others carry sole-`general`. Worth adding as a `check_tag_drift` heuristic — it would rank the sweep by confidence instead of treating all 3,790 sole-`general` entries alike.
+
+**Update 2026-07-30 (second) — the accuracy reviewer pushes *toward* this queue, and that suggestion family must be rejected as a family.** The 2026-07-30 accuracy-review over 22501–22766 found that roughly a **quarter of the reviewer's semantic-tag suggestions were "replace this off-vocabulary tag with `general`"** — `location`, `place`, `position`, `object`, `space`, `status`, `document`. Applying them would trade a descriptive (if off-vocabulary) tag for the catch-all and inflate this priority's 3,790-entry queue, so they were rejected as one aggregated family.
+
+The important part is *why* the reviewer keeps suggesting it: those seven strings are all spatial, positional, or metadata concepts, and **`VALID_SEMANTIC` has no slot for any of them**. The model is not being lazy — asked for an in-list destination for `position`, it correctly reports that the only honest answer in the list is `general`. So this is a **taxonomy question for the curator** (does the vocabulary want a spatial/positional tag? a document-type tag?) and not 100 per-entry questions. Until it is answered, both the reviewer and the migration map will keep routing that whole conceptual region into `general` or into `needs_curator.txt`. Standing rule meanwhile: **a `→ general` suggestion is rejected on sight**, the same way in-list narrowness nits are.
 
 **Co-occurring defect worth reading at the same time** — 06687 物覚え carried sole-`general` **and** `formality: formal`, for an everyday spoken word. Both fields look like creation-time template values rather than judgments, and they are cheap to check together since a run already has the file open. This is the [P17](#priority-17-formal-formality-tag-over-applied-in-early-entries) family arriving on the same entries as this one; the standing recommendation is now explicitly **re-read `formality` whenever the frontier lane touches a sole-`general` entry**, rather than treating the two sweeps as independent.
 
@@ -1382,6 +1398,12 @@ _(Filing note: the two updates below were appended to the Priority 23 section in
 
 **The gap this exposes**: `polishing/priority/cross_refs.txt` orders entries by score but does not distinguish "no links at all" from "some links" — the two states that differ by an order of magnitude in cost. A run reading the priority file cannot see whether the next ten entries are a two-hour job or a twenty-minute one.
 
+**Update 2026-07-30 (second) — the band continues through 06704, and the cost is now split into its mechanical and judgment halves.** Two further polish runs (06694–06697 + 07004, then 06698–06704) found zero link coverage in every entry they opened, extending the confirmed all-or-nothing band to **~06150→06704 unbroken**. One of them measured the work on a single entry — 06702, ten unlinked examples — and the split was roughly **90/10: ~60 dictionary lookups against `word_id_lookup.json`, then a handful of genuine judgments** (homograph choice, word boundaries, whether a bound morpheme counts as a word).
+
+That ratio is the argument for [Tooling item 49](tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write) — a read-only link *suggester* that proposes `⟦…⟧` spans and lists its ambiguities without ever writing an entry. It would not make this priority automatic; it would move a polish run's budget from the 90% that is lookup to the 10% that is judgment, which on this band is the difference between three entries per run and eight or nine. Given the band is ~550 entries wide and the frontier crosses it at ~7/run, the tooling is worth building before the crawl finishes it.
+
+**Entries too large for a frontier slot should be split out, not squeezed**: 06703 振り切る (15 examples, zero links, core tier) was left untouched by the 2026-07-30 run and filed to [Entry Follow-ups](entry-followups.md) instead. That is the right call — an entry needing an hour does not belong in a lane budgeted in minutes — and the pattern is worth generalising: **when the frontier meets an entry whose link debt exceeds the remaining slot, file it and move on rather than half-linking it.**
+
 The fix is small and lives in `prioritize_polishing.py`: emit a link-count (or a simple `zero-links` flag) alongside each ID. That would let a run either budget honestly or deliberately choose a homogeneous batch, and it would let this item's mapping work — currently done by hand, one polish run at a time — fall out of the priority build for free. Filed as a note here rather than a separate tooling item because it only matters while this band exists; once the create-era block is linked, the bimodality goes away.
 
 ## Priority 22: Inconsistent free-text `part_of_speech` display field
@@ -1486,6 +1508,19 @@ Dictionary-wide sweep, two families:
 Both are mechanically fixable from the target entry as ground truth: replace the baseform with the target's furigana-stripped headword. The transformation is decidable from `build/word_id_lookup.json`, touches **only link metadata**, and **cannot alter any Japanese text in an example or note** — which makes this one of the few genuinely safe candidates for the "purely-mechanical application" exception in `routine2.md` §B step 3, rather than the per-entry semantic verification that section defaults to.
 
 The scope estimate in this item's original text (39 entries) was right; what was wrong was the framing. This was filed as cosmetic tidying of an internal field. It is the tooltip a learner sees when they hover a word they do not know.
+
+**Update 2026-07-30 — filed a third time, from a third run, still unworked. Re-measured: 36 entries.** The 2026-07-30 polish run found the same defect in 00711 かかる (every notes link written `⟦{時間|じかん}→{時間|じかん}：00468_jikan⟧`), grepped the corpus, and filed it again — independently, without knowing this priority existed. That is a useful signal about the backlog rather than about the defect: **an item that is batch-ready, provably safe, user-visible, and 36 entries wide has now been discovered three times (2026-07-25, 2026-07-29, 2026-07-30) and worked zero times.** Its `backlog-queue.json` priority is 24, so the `systemic-fix` selector never reaches it; meanwhile each polish run that stumbles across it pays the discovery cost again. Small, safe, cheap items should be *promoted* in the queue precisely because they clear in one run — this one is a candidate for the next `systemic-fix` slot on those grounds alone.
+
+The run also contributed a tighter regex than the one above, anchored on the brace immediately after the arrow:
+
+```bash
+grep -rlE '→\{[^}]*\|[^}]*\}：' entries/     # 36 entries, 2026-07-30
+```
+```python
+re.sub(r'→\{([^|}]+)\|[^}]+\}：', r'→\1：', s)   # strips a reading from a slot that must not carry one
+```
+
+(The two regexes find the same class; this one cannot match a base form containing a nested brace, the other cannot match past a `：`. Either is safe.)
 
 *(Priorities 31 and 32, both filed from the same 2026-07-29 sweep, are at the end of this page in numeric order.)*
 
@@ -1714,6 +1749,31 @@ of priority-lane no-ops — but it should be sequenced **after** the inline-link
 same cohort (Priority 21), since deleting the bullets raises the score and would drop these
 entries down the ranking while they still have zero links.
 
+**Update 2026-07-30 — the band is unbroken and the detector is now specified.** Three
+consecutive polish runs found this in *every* verb entry they touched in the 066xx band:
+06678–06680 / 06973 / 06981 (the original), 06694–06697 + 07004, then 06701 and 06704. Two runs
+finding it in every candidate entry is no longer a cohort observation — it is a property of the
+band, and the frontier is walking it one entry at a time at ~7 entries per run.
+
+The runs also converged on a detector sharper than the "first non-empty line" test above, because
+it does not depend on bullet position or marker:
+
+> **a verb or adjective entry whose `notes` contain a line matching `→ ?.*(ない|ます|て|た)\s*\(`
+> *while the entry has a populated `conjugation` field*.**
+
+The conjugation field is the discriminator that makes it precise: the defect is not "the notes
+mention a conjugated form", it is "the notes hand-list forms the structured field already holds
+and the renderer already tables". Worth building before the frontier walks the rest of the band —
+a detector turns ~7 entries/run of incidental cleanup into one bounded systemic-fix pass.
+
+**Band signature (2026-07-30).** The 066xx–070xx create-era entries carry three defects together,
+and a run that opens one of these entries should expect all three: **zero inline-link coverage**
+(furigana braces present, not one `⟦…⟧` — [P21](#priority-21-unlinked-自動詞他動詞-labels-and-particles-in-compound-verb-notes)),
+**`・` bullets instead of `- `** ([P28](#priority-28-mixed-bullet-markers--vs----inside-notes-fields)),
+and the redundant conjugation head-block (this priority). They share a cause — one creation batch,
+one template — so the three queues are three views of the same cohort, and clearing them in one
+pass per entry is strictly cheaper than three sweeps.
+
 ## Priority 32: Inline-link base forms written in kana instead of the dictionary form
 
 **Source**: 2026-07-29 routine polish run (dictionary-wide sweep)
@@ -1771,6 +1831,59 @@ note text is an assertion about the headword rather than a contrast with some ot
 that `descriptive` is retained alongside rather than replaced.
 
 **Related**: [Tooling 44](tooling-backlog.md#44-consistency-check-non-neutral-formality-with-no-register-statement-in-the-notes) proposes the mirror check — an `onomatopoeia` entry tagged `formality: formal` is almost certainly wrong, since mimetics are characteristically colloquial. The two run over overlapping populations and would compose well in one pass. See also [research/onomatopoeia-mimetics.md](../research/onomatopoeia-mimetics.md) for why the tag matters to a learner: mimetics are a category learners systematically under-produce, and the tag is what makes them findable as a class.
+
+## Priority 34: `action` as the sole semantic tag on a verb (2,085 entries)
+
+**Source**: 2026-07-30 routine polish run (00684 歌う, 00711 かかる, 06701 差し引く, 06704 飛び付く — four of the six verbs the run touched); sized by the 2026-07-30 wiki harvest
+
+Four of six verbs in one polish slot carried `semantic: ["action"]` where a specific in-list tag
+was available and obvious:
+
+| Entry | Was | Should be | Note |
+|---|---|---|---|
+| 00684 歌う | `action` | `music` | its own noun 歌 is already tagged `music` |
+| 00711 かかる | `action` | `time-general` + `money` | the entry's own notes are about time and cost |
+| 06701 差し引く | `action` | `finance` | |
+| 06704 飛び付く | `action` | `movement` | |
+
+**Scope**: **2,085 entries** dictionary-wide have `semantic == ["action"]` and a `verb*` POS tag
+(measured 2026-07-30, all 30,049 entries). That is ~7% of the dictionary and by a wide margin the
+largest single tag-drift family on this page after `tag-sole-general`.
+
+**Why no existing instrument sees it.** `action` **is** in `VALID_SEMANTIC`, so the off-vocabulary
+detector (`check_tag_drift.py --check unknown-semantic`, [P20](#priority-20-out-of-taxonomy-semantic-tags-post-expansion-migration))
+is blind to it by construction, and the semantic-mismatch heuristic has no reason to fire. The
+defect is not that the tag is wrong — a verb *is* an action — but that **it carries no information
+the POS field did not already carry**. `pos: ["verb-godan"], semantic: ["action"]` is a tautology
+occupying the slot that should tell a learner what domain the word belongs to. This is the same
+failure as sole-`general` ([P13](#priority-13-overuse-of-general-as-sole-semantic-tag)), one
+category over: a placeholder that survives review because it is never *false*.
+
+**Detect** (deterministic, exact):
+
+```bash
+python3 - <<'PY'
+import json, pathlib
+for f in sorted(pathlib.Path("entries").rglob("*.json")):
+    d = json.loads(f.read_text(encoding="utf-8"))
+    t = (d.get("metadata") or {}).get("tags") or {}
+    if t.get("semantic") == ["action"] and any(str(p).startswith("verb") for p in (t.get("pos") or [])):
+        print(f.name[:5], d.get("headword"), "|", d.get("gloss"))
+PY
+```
+
+**Fix requires a model, per entry.** Unlike the off-vocabulary families there is no migration
+table — the destination depends on what the verb *means*, and the right answer is often two tags
+(かかる → `time-general` + `money`). The detector's job is to produce the queue and the gloss;
+the judgment cannot be batched away. Sequence it behind the off-vocabulary drain (P20), which is
+mechanisable, and consider capping it per run: at 2,085 entries this is a standing lane, not a
+sweep. A reasonable first cut is verbs whose gloss already names a domain the taxonomy has a tag
+for.
+
+**Related**: [P13](#priority-13-overuse-of-general-as-sole-semantic-tag) (the sole-`general`
+analogue — same shape, different placeholder),
+[P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied) (wrong-category tags,
+which a detector *can* see).
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect
 

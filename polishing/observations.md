@@ -566,31 +566,62 @@ queue-depth and metrics-finding observations needed no new action — both were 
 as findings 10 and 11 on `topics/quality-metrics.md`. New page: `topics/instrument-defects.md`.
 All 21 observations cleared.)_
 
-## 2026-07-30 (routine wiki — raised by the run's own §7 CI gate)
+## 2026-07-30 (routine wiki harvest, run 2 — all prior observations cleared)
 
-- [tooling] The §7 CI gate can produce a **false negative that survives its own cross-check**. On PR #3069, `mcp__github__pull_request_read --method get_check_runs` returned `total_count: 0` on eight consecutive polls over ~14 minutes, and `actions_list --workflow validate.yml --branch <branch>` **agreed**, also returning `total_count: 0`. Both were wrong: the job's `started_at` was 07:46:00Z, i.e. it had been queued before most of those polls. It surfaced only after a later push, then ran normally to `success` in 60 seconds. The run had already written a session-log section concluding "no workflow run was ever queued" and stopping unmerged. Durable rule: **absence of a check run is only ever evidence of "not visible yet", never of "not queued"** — neither endpoint is authoritative about absence, only about presence. Consequence for `routine2.md` §7: the `actions_list` cross-check does *not* let an unattended run distinguish "CI is slow" from "CI will never start", so the honest options remain (a) keep polling, or (b) leave the PR for §0a rescue — but the log note should say "checks not visible within the cap", not "no run was queued". Same shape as the cases now collected on `topics/instrument-defects.md` (the instrument's silence read as a fact about the world), and this one is in the *merge* path, where a wrong reading strands work.
+_(Harvested by the second 2026-07-30 routine `wiki` run: 19 observations from that day's own §7
+CI-gate note, the two polish runs (frontier 06694–06697 and 06698–06704), the new-entries run, and
+the accuracy-review run. Four of them were **measured against the corpus before filing**, which
+changed three of the recommendations:
+- **new Tooling 51** — the proposed one-line schema `required: [target_id]` on cross-references
+  **would have broken 59 intentional refs**: of 64 target-less reference objects dictionary-wide,
+  59 carry a `label` and are deliberate pointers to entry-less words; only **5** are defects
+  (06057/06060/06063/29601/29610). The rule the schema wants is "`target_id` **or** `label`".
+- **new Cleanup P34** — sole-`action`-on-a-verb, proposed as a frontier-band observation, is
+  **2,085 entries** dictionary-wide (~7%), the largest tag family after sole-`general`. Invisible
+  to every detector because `action` *is* in `VALID_SEMANTIC`: the defect is tautology, not
+  invalidity.
+- **Tooling 44 update** — the formality-contradicts-its-own-REGISTER-note check is **6 entries** at
+  high precision when anchored to the position of the word in the REGISTER line, and **1,238** of
+  mostly noise when not. The anchor is the whole check.
+- **Cleanup P24 update** — the braced-base-form family re-measured at **36 entries**, and found for
+  the *third* time by a *third* run that did not know the item existed. Promoted in
+  `backlog-queue.json` from priority 24 to 5 and its duplicate (`link-baseform-braces`) marked as
+  such: batch-ready, provably-safe, user-visible, 36 entries wide, worked zero times.
+Also filed: **new Tooling 48** (the §7 CI gate cannot distinguish "CI is slow" from "CI never
+started" — and its `actions_list` cross-check *agreed with it when it was wrong*; added as case 7
+on `topics/instrument-defects.md`, the first in the merge path); **new Tooling 49** (read-only
+inline-link *suggester* — the measured 90/10 lookup-to-judgment split on 06702 is the argument);
+**new Tooling 50** (`find_missing_furigana.py --json` accepted but not machine-readable);
+**new Tooling 52** (does `check_semantic_clusters.py` count a `prominent_see_also` mention as
+satisfying the pair requirement? 407 entries have the suspicious combination); **Tooling 24
+update** — the post-fix screener measurement this item asked for arrived: **0 applied of 29 across
+three consecutive post-fix runs**, plus a self-refuting flag (22097, expected == provided) and the
+screener now rate-limiting `accuracy-review` at ~1.9 entries/min vs the accuracy pass's ~3.4 —
+recommendation is now **retire or heavily downsample**; **Tooling 6 update** (the reviewer's `tags`
+dimension is a source of *destinations*, not just detections: 34 tags resolved, one block's curator
+escalation cut 87→46 — run a `--dimensions tags` sweep over the `needs_curator.txt` backlog before
+asking the curator, with a standing rejection of `→ general` suggestions); **Cleanup P11**
+(wrong-category sole tags are dense at the frontier, 3 of 4 entries, not only in the 5700–6340
+block), **P13** (a quarter of reviewer tag suggestions push off-vocab tags into `general` — a
+taxonomy question about spatial/metadata concepts, not 100 per-entry ones), **P21** (band confirmed
+unbroken ~06150→06704; entries too large for a slot should be filed, not half-linked), **P31** (the
+detector specified: notes line matching `(ない|ます|て|た)\s*\(` *while `conjugation` is
+populated*; band signature = zero links + `・` bullets + duplicate conjugation block, one cohort,
+three queues); **Entry Follow-up** 06703_furikiru (15 examples, zero links, core tier — deliberately
+skipped rather than half-linked); **topics/cross-references.md** gained the two field-level traps
+(katakana headword needs a *transliterated* hiragana `reading`; prose + `prominent_see_also` is not
+a substitute for the structured pair link). `backlog-queue.json` gained four items
+(`tag-sole-action-verb`, `crossref-missing-target-id-unlabeled`, `notes-duplicate-conjugation-block`,
+`tag-formality-contradicts-register-note`).
+**Closed with no action**: the variant-okurigana finding (00463 分かる listing `{解|わ}かる`) — the
+run grepped the corpus and found **0 remaining**, a one-off rather than a family.
+**[skill] recommendations (log only, not acted on here)**: `vocabulary-notes` — kanji named as
+objects of discussion in English etymology prose ("the 仮 element") still need furigana wrappers,
+4 of 18 new entries missed this; `cross-reference-entry` — a katakana headword's `reading` must be
+transliterated to hiragana, not copied.
+All 19 observations cleared.)_
 
-## 2026-07-30 — routine polish (priority lines 74–81 + frontier 06694–06697)
+## 2026-07-30 (routine wiki, run 2 — raised by the twenty-eighth metrics refresh)
 
-- [pattern] The 066xx–070xx create-era band has a consistent signature: **zero inline-link coverage** (furigana braces present, not one `⟦…⟧`), `・` bullets instead of `- `, and a notes block whose first three lines re-list the conjugation table that the `conjugation` field already holds. Seen in 06694, 06695, 06696, 06697, 06702, 07004 this run and in 06688–06693 the previous run — i.e. it is the band, not the individual entries. A detector for "verb/adj entry whose notes contain `→ …ない (negative)` while `conjugation` exists" would size the duplicate-conjugation half of this exactly.
-- [tooling] **Inline-link coverage is the dominant cost of `polish` mode and is mostly mechanical.** For 06702 (10 unlinked examples) the work split roughly 90/10: ~60 dictionary lookups, then a handful of genuine judgments (homograph choice, word boundaries, whether a bound morpheme counts as a word). Batching every lookup for an entry into one `word_id_lookup.json` query already helped a lot this run. A **read-only link *suggester*** — greedy longest-match over `by_headword`/`by_reading`, emitting `⟦…⟧` proposals plus an explicit ambiguity list, never writing entries — would let a polish run cover 2–3× the entries at the same quality, because the model would spend its budget on the 10% that needs judgment. Note the precedent from the detectors: propose, never apply.
-- [pattern] **Sole-semantic-tag drift is dense in the frontier band, not just in the 5700–6340 P11 block.** Three of the four frontier entries polished had a wrong or empty-of-information sole tag: 06694 電子マネー `electronics` → `money`+`technology`, 06695 小川 `general` → `geography`+`nature`, 06696 トレンド `time-general` → `change`+`society`+`media`. `time-general` for a fashion/trending word is the same failure shape as 朱肉→`animal-mammal`: a tag picked from an adjacent-sounding category. Worth extending the P11 range estimate upward.
-- [pattern] **A tag can contradict the entry's own notes and no check sees it.** 06697 フェス carried `formality: formal` while its own REGISTER section read "Informal/casual. The full form フェスティバル is more formal." This is deterministically detectable — notes containing `informal`/`casual`/`colloquial` prose vs `tags.formality: formal` (and the converse) — and needs no model. `check_tag_drift.py` already owns the politeness check; this is the same shape one field over. (Schema note for whoever writes the fix: the enum is `formal`/`neutral`/`informal`/`vulgar`, so the correction target is `informal`, not `casual`.)
-- [tooling] Checked and **closed**: variant-spelling lines in notes can carry wrong okurigana — 00463 分かる listed its variants as `{解|わ}かる`/`{判|わ}かる`, which render as 解かる/判かる (the real variants are 解る/判る). Grepped the whole corpus for that pattern afterwards: **0 remaining instances**, so this was a one-off, not a family. The near-miss matches (`{視|み}る`, `{観|み}る`) are correct spellings. No sweep needed.
-- [tooling] `cross_references[].reading` is schema-constrained to hiragana (`^[ぁ-んーゝゞ]+$`), so a katakana headword needs a transliterated reading (キャッシュレス → きゃっしゅれす). Any helper that copies a neighbour's headword into a back-link must convert rather than copy the reading — worth a line in the `cross-reference-entry` skill, since the failure only surfaces at validation.
-
-- [pattern] New-entry notes repeatedly introduced bare kanji when an etymology sentence names a single element in English prose ("The 仮 element…", "the emotional colour of 青春"). Four of eighteen entries this run. Worth a line in the vocabulary-notes skill: kanji named as objects of discussion still need furigana wrappers. (routine 2026-07-30)
-- [tooling] `build/find_missing_furigana.py --json` is not supported (the flag is accepted silently but the output is human-formatted JSON-ish text that json.load rejects). Either add a real --json mode or drop the flag. (routine 2026-07-30)
-- [tooling] The furigana screener is now the rate-limiting instrument in accuracy-review mode. Run 2026-07-30 (004) screened 140 entries in ~75 min (~1.9/min) against the accuracy pass's ~3.4/min over the same window, so one run can no longer cover a common range on both dimensions and the cursor is pinned to the slower one. Post-fix precision remains 0: 2 flags in 140 entries, one a variant reading (毎年 まいとし, which the model itself called "not strictly incorrect") and one an okurigana split (一握). Both are documented false-positive families. Three consecutive measured runs at 0 precision now postdate the 2026-07-30 context-snippet fix, so "retire or downsample the screener" is no longer blocked on the confounded pre-fix data.
-- [tooling] Screening flag on 22097 read: "The reading for 本屋大賞 should be ほんやたいしょう, but the provided reading is ほんやたいしょう." Expected and provided are the identical string — the model emitted a flag whose own body refutes it. A one-line post-filter (drop any concern where the quoted expected reading equals the provided one) would have suppressed it for free, and the same shape is cheap to detect generally.
-- [pattern] The accuracy reviewer's `tags` dimension is a usable source of *destinations* for off-vocab semantic tags, not just detections. In 22501-22766 it supplied a concrete in-list target for 34 tags that the deterministic 1:1 map could not resolve (craft/literature→art, facility/housing/place→building, perception/reading/mental-state→cognition, welfare→society). That cut the curator escalation for the block from 87 entries to 46. Worth considering a `--dimensions tags` sweep over the existing needs_curator.txt backlog before asking the curator to decide each one by hand.
-- [pattern] Roughly a quarter of the reviewer's tag suggestions are "replace <specific off-vocab tag> with `general`" (location, place, position, object, space, status, document — all spatial or metadata concepts the taxonomy has no slot for). Applying them would trade a descriptive tag for the catch-all and would inflate the `tag-sole-general` detector's queue. These were rejected as a family; the gap is a taxonomy question (does VALID_SEMANTIC want a spatial-position tag?) rather than a per-entry one.
-
-## 2026-07-30 — routine polish (priority lines 82–89 + frontier 06698–06704)
-
-- [pattern] **The braced-base-form link malformation is a real, countable family.** 00711 かかる wrote every notes link as `⟦{時間|じかん}→{時間|じかん}：00468_jikan⟧` — furigana braces in the *base-form* slot, where the convention is the bare base (`→時間：`). `build/validate.py` accepts it, so nothing has ever flagged it. A corpus grep for `→\{[^}]*\|[^}]*\}：` finds **37 entries**. The rewrite is `re.sub(r'→\{([^|}]+)\|[^}]+\}：', r'→\1：', s)` and is provably safe (it only ever strips a reading from a slot that must not carry one), so this is one of the rare items that qualifies for the §B "mechanical application" exemption. Good candidate for a `check_furigana_format.py` check plus a one-shot systemic-fix item.
-- [pattern] The 066xx duplicate-conjugation-block signature logged by the previous two runs **continues unbroken** through 06701 and 06704 (both opened with the three-line `X → Xない (negative) / Xて (te-form) / Xた (past)` list that the `conjugation` field already holds). Removed in both. Two consecutive runs finding it in every verb entry they touch in this band makes the proposed detector ("verb/adj entry whose notes contain `(negative)` while `conjugation` exists") worth building before the frontier walks the rest of the band one entry at a time.
-- [pattern] **Sole-tag `action` on verbs is the frontier band's version of tag drift.** Four of the six verbs touched this run carried `semantic: ["action"]` where a specific in-list tag was available and obvious: 00684 歌う → `music` (its own noun 歌 is already tagged `music`), 00711 かかる → `time-general`+`money`, 06701 差し引く → `finance`, 06704 飛び付く → `movement`. Unlike the off-vocab drift the P11 work targets, `action` *is* in `VALID_SEMANTIC`, so no detector can see it — it is only visible as "the tag carries no information the POS didn't already carry". A detector for `semantic == ["action"] and pos startswith verb` would size it; the fix still needs a model per entry.
-- [pattern] **Transitivity pairs documented in prose but absent from `cross_references`.** 00649 曲がる/02529 曲げる and 00711 かかる/00854 かける each described the pair in their notes and listed it in `prominent_see_also`, but both sides had `cross_references: []`, so the machine-readable pair link did not exist in either direction. `check_semantic_clusters.py` is the tool that should own this; worth checking whether it treats a `prominent_see_also` mention as satisfying the pair requirement (if so, that is the hole).
-- [entry] 06703_furikiru: 15 examples, zero inline links, core tier. Too large for one comprehensive-polish slot — needs its own pass. Left untouched this run.
-- [tooling] A dangling cross-reference (`{type, reading, headword, label}` with **no `target_id`**) sits in 06704 and validates cleanly: `build/validate.py` checks that a `target_id` resolves but not that one is present. Silently invisible on the rendered page. Removed here; a one-line schema `required` on `cross_references[].target_id` would close it corpus-wide, and a grep for the shape would size the backlog first.
+- [pattern] **The review queue is rising, for the second consecutive metrics refresh.** 12,352 (floor, 07-27) → 12,919 → **13,375**, its highest since 2026-07-16 and +1,023 from the floor. After ~40 refreshes of monotone decline this is the clearest adverse signal on `topics/quality-metrics.md`. The mechanism is understood and partly by design — every entry a sweep fixes re-enters the queue, and the last two windows changed 784 and ~900 entries — but the queue exists to converge, and it is not converging. Worth deciding explicitly whether the queue's definition ("changed since last review") is still the right one now that the Routine's own fixes dominate its inflow, or whether self-fixed entries should re-enter at a lower priority than never-reviewed ones.
+- [pattern] **Curator escalations are a trend, not an event: 337 in four days** (162 + 175 across two refresh windows, against 2 in the whole of the preceding two). All `tags`, all off-vocabulary with no in-list destination. The Routine is now generating human work faster than the human loop absorbs it (three items closed in the same period). Two mitigations are already filed — Tooling 6's `--dimensions tags` sweep over the existing backlog (measured to halve one block's escalations), and the taxonomy question behind Cleanup P13 — but the metric to watch is whether `reviews/needs_curator.txt` shrinks after the next accuracy-review, not whether the next window escalates fewer.

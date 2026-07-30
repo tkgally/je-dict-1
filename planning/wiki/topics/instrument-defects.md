@@ -155,6 +155,41 @@ Three things make this worth the space:
   lint accused across three separate runs. Prior sessions had done that work; the instrument
   simply could not see it.
 
+### 7. The CI gate — and the cross-check that agreed with it
+
+The first case on this page to sit in the **merge** path, where a wrong reading strands finished
+work rather than wasting a cycle.
+
+On PR #3069, the 2026-07-30 wiki run polled `mcp__github__pull_request_read --method
+get_check_runs` **eight times over ~14 minutes** and got `total_count: 0` every time. Suspecting
+the endpoint, it cross-checked with `actions_list --workflow validate.yml --branch <branch>` —
+which **agreed**, also returning `total_count: 0`. Two independent endpoints, same answer.
+
+The answer was wrong. The workflow job's own `started_at` was 07:46:00Z: it had been queued
+*before* most of those polls. It surfaced only after a later push, then ran to `success` in 60
+seconds. By then the run had written a session-log section concluding "no workflow run was ever
+queued" and had stopped without merging.
+
+What makes this case worth adding to a page that already has six:
+
+- **The cross-check did not help, and could not have.** Every other case here was settled by
+  finding a second source of evidence. Here the second source was the same kind of instrument
+  asking the same question of the same eventually-consistent API, so it reproduced the error
+  instead of catching it. *Independent* means independent of the failure mode, not merely a
+  different endpoint.
+- **The correct inference was available and weaker than the one made.** `total_count: 0` licenses
+  "no check run is **visible**"; the run wrote "no check run was **queued**". The durable rule:
+  **absence of a check run is evidence of "not visible yet", never of "not queued"** — these APIs
+  are authoritative about presence and silent about absence.
+- **The cost asymmetry is the reverse of the usual one.** Elsewhere on this page, over-trusting an
+  instrument caused wasted work. Here it caused *finished* work to sit unmerged, and the log to
+  record a false cause for it — which is worse, because the next reader inherits the wrong
+  explanation.
+
+Filed as [Tooling 48](../ideas/tooling-backlog.md#48-the-7-ci-gate-cannot-distinguish-ci-is-slow-from-ci-never-started--and-its-cross-check-agrees-with-it-when-it-is-wrong).
+The actionable part is small and is about *wording*: a timed-out run should log "checks not
+visible within the cap", not "no run was queued". The polling policy itself was already correct.
+
 ## What the cases have in common
 
 | | Symptom presented as | Actual locus | Cycles to find | Fix size |
