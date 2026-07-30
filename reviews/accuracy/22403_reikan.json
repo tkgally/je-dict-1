@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-12T12:46:33Z",
+  "reviewed_at": "2026-07-30T03:39:47Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
+      "concern": "The tag 'body-part' is incorrect for '冷汗'. Cold sweat is a bodily secretion/reaction, not a part of the body.",
+      "suggestion": "Remove 'body-part' and add 'health' or 'body-internal' if a more specific tag is desired, though 'emotion' is already present and sufficient for the primary meaning."
     }
   ]
 }

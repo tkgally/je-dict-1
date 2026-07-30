@@ -1,0 +1,24 @@
+{
+  "entry_id": "22242_ganban",
+  "headword": "{岩盤|がんばん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:36:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'politics' is not appropriate for the headword '岩盤' itself, which means 'bedrock' or 'solid base'. While it can be used in political contexts (as shown in examples), the word itself does not inherently mean 'politics'.",
+      "suggestion": "Remove 'politics'"
+    }
+  ]
+}

@@ -1,8 +1,10 @@
 {
   "entry_id": "22067",
-  "screened_at": "2026-06-16T12:34:27Z",
+  "screened_at": "2026-07-30T03:50:08Z",
   "model": "google/gemini-2.5-flash",
-  "flagged": false,
-  "concerns": [],
-  "confidence": 1.0
+  "flagged": true,
+  "concerns": [
+    "Reading 14: The kanji '版' is read as 'はん' in most contexts, including when it stands alone or in compounds like '初版' (しょはん). While 'ぱん' can occur due to rendaku in specific compounds (e.g., '新版' where 'しん' precedes it), '版' by itself is typically 'はん'. The entry provides '版 → ぱん' and then immediately after '版 → はん', suggesting a potential inconsistency or error in the first instance if it's meant to be a standalone reading."
+  ],
+  "confidence": 0.8
 }

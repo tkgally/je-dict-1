@@ -1,0 +1,24 @@
+{
+  "entry_id": "22329_hyakuninisshu",
+  "headword": "{百人一首|ひゃくにんいっしゅ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:38:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'literature' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

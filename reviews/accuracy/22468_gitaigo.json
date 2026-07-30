@@ -1,0 +1,38 @@
+{
+  "entry_id": "22468_gitaigo",
+  "headword": "{擬態語|ぎたいご}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:40:58Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by including 'phenomime' and 'ideophone for states and conditions'. While 擬態語 are a type of ideophone, 'ideophone' alone is a broader term, and 'phenomime' is a less common and potentially confusing term for intermediate learners. The core meaning is 'mimetic word'. The detailed explanation clarifies the nuance, but the concise gloss should be more direct.",
+      "suggestion": "mimetic word"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss is misleading by including 'phenomime' and 'ideophone for states and conditions'. While 擬態語 are a type of ideophone, 'ideophone' alone is a broader term, and 'phenomime' is a less common and potentially confusing term for intermediate learners. The core meaning is 'mimetic word'. The detailed explanation clarifies the nuance, but the concise gloss should be more direct.",
+      "suggestion": "mimetic word"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While 擬態語 is a linguistic term, the word itself is not inherently formal in usage. It's a neutral term used in linguistic discussions or explanations, not a word that elevates the formality of a sentence.",
+      "suggestion": "neutral"
+    }
+  ]
+}

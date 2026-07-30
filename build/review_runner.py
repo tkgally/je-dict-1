@@ -105,8 +105,10 @@ def extract_furigana_pairs(entry):
         if not text or not isinstance(text, str):
             return
         for m in FURIGANA_RE.finditer(text):
-            # Capture surrounding context (up to 10 chars after the match)
-            after = text[m.end():m.end()+10]
+            # Capture surrounding context (up to 24 chars after the match).
+            # Kept generous so trim_context() has room to cut back to a
+            # wrapper boundary instead of showing a half-wrapper.
+            after = text[m.end():m.end()+24]
             pairs.append({
                 "field": field_name,
                 "text": m.group(0),
@@ -147,6 +149,24 @@ def extract_furigana_pairs(entry):
     return pairs
 
 
+def trim_context(ctx, limit=18):
+    """Trim following-context text so it never ends inside a {kanji|reading} wrapper.
+
+    The context is shown to the model as "(followed by: ...)". A window that cuts
+    mid-wrapper produces text like `{協議会|きょうぎか)` — which reads as a complete
+    wrapper holding a truncated reading, and models reliably flag it as an
+    incomplete reading. Cutting back to the last wrapper boundary removes that
+    whole false-positive family.
+    """
+    if not ctx:
+        return ""
+    first = ctx.split("\n")[0][:limit]
+    brace = first.rfind("{")
+    if brace != -1 and "}" not in first[brace:]:
+        first = first[:brace]
+    return first
+
+
 def deduplicate_pairs(pairs):
     """Deduplicate pairs by (kanji, reading) — keep field info from first occurrence."""
     seen = {}
@@ -180,10 +200,10 @@ def build_screening_prompt(entry, pairs):
     unique_pairs = deduplicate_pairs(pairs)
     pair_lines = []
     for i, p in enumerate(unique_pairs, 1):
-        ctx = p.get("context_after", "")
+        ctx = trim_context(p.get("context_after", ""))
         display = f'{p["kanji"]} → {p["reading"]}'
         if ctx:
-            display += f'  (followed by: {ctx.split(chr(10))[0][:15]})'
+            display += f'  (followed by: 「{ctx}」)'
         pair_lines.append(f'{i}. {display}')
 
     pairs_text = "\n".join(pair_lines)
@@ -201,6 +221,9 @@ Known-correct patterns — do NOT flag any of these:
 - Standalone noun readings that differ from compound readings: 話→はなし as a noun.
 - Compound readings split before okurigana: 先行→さきゆ followed by き (先行き=さきゆき).
 - Counter and numeral sound changes: 一本→いっぽん, 三階→さんがい.
+Judge ONLY the "kanji → reading" pair itself. The 「...」 context after a pair is a
+short excerpt cut to a fixed length for display; it may stop early. Never infer
+that a reading is truncated or incomplete from that excerpt.
 If you are not confident a reading is actually wrong, do not flag it.
 
 Pairs:
@@ -474,11 +497,11 @@ def build_review_prompt(entry, pairs):
 
     pair_lines = []
     for i, p in enumerate(unique_pairs, 1):
-        ctx = p.get("context_after", "")
+        ctx = trim_context(p.get("context_after", ""))
         # Show the kanji with its reading and trailing context for okurigana visibility
         display = f'{p["kanji"]} → {p["reading"]}'
         if ctx:
-            display += f'  (followed by: {ctx.split(chr(10))[0][:15]})'
+            display += f'  (followed by: 「{ctx}」)'
         pair_lines.append(f'{i}. Field: {p["field"]} — {display}')
 
     pairs_text = "\n".join(pair_lines)
@@ -500,8 +523,11 @@ For example:
 - {{首飾|くびかざ}}り → 首飾 is read as くびかざ, り is okurigana → full word is くびかざり (necklace). くびかざ is CORRECT.
 DO NOT flag these partial readings as errors — they are correct by design.
 
-The "followed by" context after each pair shows what comes after the furigana markup.
-If the text after shows hiragana that completes a word, those are okurigana.
+The 「...」 "followed by" context after each pair shows what comes after the furigana
+markup. If the text after shows hiragana that completes a word, those are okurigana.
+That excerpt is cut to a fixed display length and may stop early — judge only the
+"kanji → reading" pair itself, and never infer a truncated or incomplete reading
+from the excerpt.
 
 Pairs to check:
 {pairs_text}

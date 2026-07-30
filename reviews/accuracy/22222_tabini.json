@@ -1,0 +1,31 @@
+{
+  "entry_id": "22222_tabini",
+  "headword": "たびに",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:36:29Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'grammar'",
+      "suggestion": "grammatical"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'time'",
+      "suggestion": "time-general"
+    }
+  ]
+}

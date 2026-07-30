@@ -1,0 +1,31 @@
+{
+  "entry_id": "22399_dounendai",
+  "headword": "{同年代|どうねんだい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:39:42Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'people'",
+      "suggestion": "person"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid tag 'time'",
+      "suggestion": "time-general"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "22174_shinbousuru",
+  "headword": "{辛抱|しんぼう}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:35:36Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'emotion' is incorrect for '辛抱する'. While endurance can involve emotional states, the core meaning of the verb is an action or a cognitive process of enduring, not an emotion itself.",
+      "suggestion": "action"
+    }
+  ]
+}

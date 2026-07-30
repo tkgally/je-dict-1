@@ -1,0 +1,24 @@
+{
+  "entry_id": "21982_haichigae",
+  "headword": "{配置換|はいちが}え",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:32:09Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this headword. While it's often used in business contexts, it's not inherently formal language; it's a neutral term for a common business action.",
+      "suggestion": "neutral"
+    }
+  ]
+}

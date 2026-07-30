@@ -1,0 +1,24 @@
+{
+  "entry_id": "22293_reitoushitsu",
+  "headword": "{冷凍室|れいとうしつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:37:48Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'household' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}

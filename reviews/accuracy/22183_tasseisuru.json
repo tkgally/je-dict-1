@@ -1,0 +1,24 @@
+{
+  "entry_id": "22183_tasseisuru",
+  "headword": "{達成|たっせい}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:35:45Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'achievement' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

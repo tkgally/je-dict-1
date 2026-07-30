@@ -1,0 +1,24 @@
+{
+  "entry_id": "22265_funosuu",
+  "headword": "{負|ふ}の{数|すう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T03:37:18Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'mathematics' is not in the valid tag list.",
+      "suggestion": "science"
+    }
+  ]
+}
