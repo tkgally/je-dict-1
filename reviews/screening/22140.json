@@ -1,0 +1,10 @@
+{
+  "entry_id": "22140",
+  "screened_at": "2026-07-30T15:30:40Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for '不向' should be 'ふむき' or 'ふむ' if 'き' is okurigana. The provided reading 'ふむ' is a partial reading, but the context 'き: unsuited' suggests that 'き' is part of the word '不向き'. If 'き' is okurigana, then '不向' should be read as 'ふむ'. If '不向き' is a single word, then '不向' should be read as 'ふむき'. Given the instruction 'the reading covers ONLY the kanji portion', '不向' should be 'ふむ'. However, the context 'き: unsuited' implies that '不向き' is the full word. If '不向' is meant to be read as 'ふむ', then 'き' is okurigana. This is a borderline case, but it's worth noting the potential ambiguity."
+  ],
+  "confidence": 0.7
+}

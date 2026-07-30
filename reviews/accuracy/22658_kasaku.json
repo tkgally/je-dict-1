@@ -1,0 +1,24 @@
+{
+  "entry_id": "22658_kasaku",
+  "headword": "{佳作|かさく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:34:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'arts' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

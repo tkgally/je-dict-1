@@ -1,0 +1,24 @@
+{
+  "entry_id": "22583_etsuke",
+  "headword": "{絵付|えつ}け",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:26:38Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'craft' is not in the valid tag list.",
+      "suggestion": "art"
+    }
+  ]
+}

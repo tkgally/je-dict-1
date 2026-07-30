@@ -1,0 +1,24 @@
+{
+  "entry_id": "22653_sendou",
+  "headword": "{先導|せんどう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:34:40Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'leadership' is not in the valid tag list.",
+      "suggestion": "action"
+    }
+  ]
+}

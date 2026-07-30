@@ -1,0 +1,38 @@
+{
+  "entry_id": "22580_rensaichuu",
+  "headword": "{連載中|れんさいちゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:26:18Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'publishing' is not in the valid tag list.",
+      "suggestion": "media"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation implies the novel is already serialized, but the Japanese implies it is currently being serialized.",
+      "suggestion": "I look forward to the novel being serialized every week."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The English translation uses 'serializing' as a verb, but the Japanese uses '連載中' as a noun/adjective-no.",
+      "suggestion": "A popular author has a new work currently being serialized in a magazine."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "22582_satsuire",
+  "headword": "{札入|さつい}れ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:26:26Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'accessory'",
+      "suggestion": "daily-life"
+    }
+  ]
+}
