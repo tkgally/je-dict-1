@@ -1,0 +1,24 @@
+{
+  "entry_id": "22534_chuuken",
+  "headword": "{忠犬|ちゅうけん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:20:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'animal' is not in the valid tag list.",
+      "suggestion": "animal-mammal"
+    }
+  ]
+}

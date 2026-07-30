@@ -1,0 +1,31 @@
+{
+  "entry_id": "22509_chinkasuru",
+  "headword": "{鎮火|ちんか}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:18:27Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word. While it's not an everyday casual word, it's not strictly 'formal' in the sense of highly elevated or technical language. 'Neutral' would be more appropriate for a word describing a fire being put out.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect. 'Polite' usually refers to verb conjugations or specific polite expressions. For a verb-suru headword like this, the politeness level is determined by its usage in a sentence, not inherent to the headword itself. The default 'plain' is appropriate here.",
+      "suggestion": "plain"
+    }
+  ]
+}
