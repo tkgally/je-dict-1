@@ -1,0 +1,24 @@
+{
+  "entry_id": "22518_kakubaru",
+  "headword": "{角張|かくば}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:19:15Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect for the headword '角張る'.",
+      "suggestion": "The politeness tag should be 'plain' as it is a standard verb and not inherently polite or humble."
+    }
+  ]
+}

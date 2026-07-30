@@ -1,0 +1,22 @@
+{
+  "entry_id": "22865_masshou",
+  "headword": "{末梢|まっしょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:55:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body-part' is too specific and potentially misleading for the general meaning of 'periphery' or 'extremity' which can apply to many things beyond the body. While it's used in anatomical contexts, the word itself isn't exclusively a body part.",
+      "suggestion": "Remove 'body-part'. The 'abstract' tag covers the general sense of 'periphery' and 'trivial detail'."
+    }
+  ]
+}

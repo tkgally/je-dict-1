@@ -1,0 +1,31 @@
+{
+  "entry_id": "22521_shagareru",
+  "headword": "しゃがれる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:19:22Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness level 'polite' is incorrect for the headword 'しゃがれる'.",
+      "suggestion": "plain"
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "22585_teatsuku",
+  "headword": "{手厚|てあつ}く",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:26:59Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'manner' is not in the valid tag list.",
+      "suggestion": "descriptive"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'hospitality' is not in the valid tag list.",
+      "suggestion": "daily-life"
+    }
+  ]
+}

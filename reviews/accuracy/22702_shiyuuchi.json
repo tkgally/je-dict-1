@@ -1,0 +1,24 @@
+{
+  "entry_id": "22702_shiyuuchi",
+  "headword": "{私有地|しゆうち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:40:05Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'property' is not in the valid tag list.",
+      "suggestion": "Replace 'property' with 'general' or 'law' (already present)."
+    }
+  ]
+}

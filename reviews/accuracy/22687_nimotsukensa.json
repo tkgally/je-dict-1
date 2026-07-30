@@ -1,0 +1,24 @@
+{
+  "entry_id": "22687_nimotsukensa",
+  "headword": "{荷物検査|にもつけんさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:38:25Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness level 'polite' is incorrect for a noun like '荷物検査'. Nouns themselves do not inherently carry politeness levels in this way, unless they are specific honorifics or humble forms. 'Plain' is the default for ordinary nouns.",
+      "suggestion": "Change 'politeness' to 'plain'."
+    }
+  ]
+}

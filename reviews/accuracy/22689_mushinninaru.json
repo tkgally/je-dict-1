@@ -1,0 +1,31 @@
+{
+  "entry_id": "22689_mushinninaru",
+  "headword": "{無心|むしん}になる",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:38:35Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'mental-state'",
+      "suggestion": "cognition"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "Politeness level is incorrect for the headword",
+      "suggestion": "plain"
+    }
+  ]
+}

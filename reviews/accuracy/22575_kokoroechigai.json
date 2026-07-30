@@ -1,0 +1,31 @@
+{
+  "entry_id": "22575_kokoroechigai",
+  "headword": "{心得違|こころえちが}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:25:49Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect. While not informal, '心得違い' is not strictly formal; it's more neutral or slightly stiff/old-fashioned, but not formal in the sense of keigo or highly academic/legal language.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect. '心得違い' refers to a cognitive error or a mistaken belief/understanding, not an act of communication itself.",
+      "suggestion": "cognition"
+    }
+  ]
+}

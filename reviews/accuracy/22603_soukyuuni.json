@@ -1,0 +1,24 @@
+{
+  "entry_id": "22603_soukyuuni",
+  "headword": "{早急|そうきゅう}に",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:28:35Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'time' is too broad and misleading for '早急に'.",
+      "suggestion": "Replace 'time' with 'action' or 'descriptive' as it describes the manner of an action."
+    }
+  ]
+}

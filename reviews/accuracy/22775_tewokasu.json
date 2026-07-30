@@ -1,0 +1,22 @@
+{
+  "entry_id": "22775_tewokasu",
+  "headword": "{手|て}を{貸|か}す",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:52:24Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'communication' is incorrect for '手を貸す'.",
+      "suggestion": "Remove 'communication'."
+    }
+  ]
+}

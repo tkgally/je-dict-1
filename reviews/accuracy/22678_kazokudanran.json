@@ -1,0 +1,22 @@
+{
+  "entry_id": "22678_kazokudanran",
+  "headword": "{家族|かぞく}{団|だん}らん",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:51:29Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "Politeness level is incorrect for the headword.",
+      "suggestion": "plain"
+    }
+  ]
+}

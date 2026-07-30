@@ -1,0 +1,24 @@
+{
+  "entry_id": "22744_nanameyomi",
+  "headword": "{斜|なな}め{読|よ}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:44:59Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'reading' is not in the valid tag list.",
+      "suggestion": "cognition"
+    }
+  ]
+}

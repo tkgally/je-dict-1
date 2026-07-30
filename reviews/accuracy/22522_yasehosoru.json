@@ -1,0 +1,31 @@
+{
+  "entry_id": "22522_yasehosoru",
+  "headword": "やせ{細|ほそ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:19:24Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Invalid semantic tag 'body'.",
+      "suggestion": "body-part"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "Politeness 'polite' is incorrect for a verb stem.",
+      "suggestion": "plain"
+    }
+  ]
+}

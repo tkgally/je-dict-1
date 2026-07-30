@@ -1,0 +1,22 @@
+{
+  "entry_id": "22823_hoozuewotsuku",
+  "headword": "{頬杖|ほおづえ}をつく",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:53:52Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'culture' is inappropriate for this expression. While cultural norms might dictate when it's considered rude, the act itself is a physical action, not a cultural concept.",
+      "suggestion": "Remove 'culture' and add 'action' as it describes a physical action."
+    }
+  ]
+}

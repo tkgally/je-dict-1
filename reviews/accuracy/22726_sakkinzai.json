@@ -1,0 +1,24 @@
+{
+  "entry_id": "22726_sakkinzai",
+  "headword": "{殺菌剤|さっきんざい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:43:11Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation uses 'fungicide' which is a specific type of germicide, but the Japanese '殺菌剤' is more general and means 'germicide' or 'disinfectant'.",
+      "suggestion": "To use a germicide in agriculture."
+    }
+  ]
+}

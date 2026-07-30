@@ -1,0 +1,24 @@
+{
+  "entry_id": "22715_minchoutai",
+  "headword": "{明朝体|みんちょうたい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:42:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect for a noun referring to a typeface. Typefaces themselves do not carry politeness.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -236,3 +236,64 @@
 22478  {掌握|しょうあく}  semantic=['power']  off-vocab=['power']
 22496  {曲|ま}がり  semantic=['location']  off-vocab=['location']
 # 22093 resolved during the same run's self-check (body -> body-part); ignore its line above.
+
+## 2026-07-30 routine accuracy-review 22501-22900 — off-vocab semantic tags needing a destination decision
+# Same class as the 21901-22500 block above: the set-membership flags are correct by
+# definition, but no in-list destination was clear enough to apply unilaterally.
+# This run migrated 108 entries whose tags had a clear equivalent, then applied a further
+# 34 reviewer-suggested destinations, leaving the entries below.
+# Destinations this run chose that the previous run had escalated (extend if the curator agrees):
+#   construction/facility/housing/place/infrastructure->building, crime->law, academic/perception/
+#   mental-state/psychology/sensation/reading->cognition, publishing/news->media, hobby/games->leisure,
+#   linguistics->language, tools->tool, culture-japanese/tradition/ceremony->culture, craft/literature->art,
+#   measurement->quantity, welfare->society, human-quality->personality, self-improvement->evaluation.
+# REJECTED as information-losing: every 'replace <specific off-vocab tag> with general' suggestion
+#   (location, place, position, object, space, status, document). Those need one curator decision
+#   for the whole family rather than entry-by-entry substitution with the catch-all.
+# tag frequency: [('interpersonal', 4), ('reading', 3), ('location', 3), ('body', 3), ('relationship', 2), ('degree', 2), ('position', 2), ('loanword', 2), ('senses', 2), ('household', 2), ('manner', 2), ('quality', 1), ('urban', 1), ('morality', 1), ('object', 1), ('place', 1), ('space', 1), ('document', 1), ('status', 1), ('honorifics', 1), ('time-holiday', 1), ('grammar-expression', 1), ('condition', 1), ('social-relations', 1), ('emergency', 1), ('time-planning', 1), ('life-events', 1), ('sound', 1), ('philosophy', 1), ('literature', 1), ('shape', 1), ('manufacturing', 1), ('life-death', 1)]
+22525  {旨|うま}さ  semantic=['food', 'quality']  off-vocab=['quality']
+22539  {愛人|あいじん}  semantic=['relationship']  off-vocab=['relationship']
+22561  {複合施設|ふくごうしせつ}  semantic=['building', 'urban']  off-vocab=['urban']
+22573  {不義|ふぎ}  semantic=['morality', 'relationship']  off-vocab=['morality', 'relationship']
+22581  {完読|かんどく}  semantic=['reading', 'education']  off-vocab=['reading']
+22584  {持|も}ち{手|て}  semantic=['daily-life', 'object']  off-vocab=['object']
+22588  {目|め}の{前|まえ}  semantic=['location', 'time-general']  off-vocab=['location']
+22589  はるかに  semantic=['degree']  off-vocab=['degree']
+22602  こちら{側|がわ}  semantic=['location']  off-vocab=['location']
+22612  {最下|さいか}  semantic=['position']  off-vocab=['position']
+22662  {演壇|えんだん}  semantic=['place']  off-vocab=['place']
+22692  {手狭|てぜま}になる  semantic=['space']  off-vocab=['space']
+22730  ホラー  semantic=['entertainment', 'loanword']  off-vocab=['loanword']
+22731  ミステリー  semantic=['entertainment', 'loanword']  off-vocab=['loanword']
+22737  {一覧表|いちらんひょう}  semantic=['business', 'document']  off-vocab=['document']
+22739  {作業中|さぎょうちゅう}  semantic=['work', 'status']  off-vocab=['status']
+22743  {読|よ}み{流|なが}す  semantic=['reading', 'action']  off-vocab=['reading']
+22745  さん{付|づ}け  semantic=['language', 'culture', 'honorifics']  off-vocab=['honorifics']
+22755  ほんの  semantic=['degree', 'quantity']  off-vocab=['degree']
+22760  ゴールデンウィーク  semantic=['time-holiday', 'culture', 'daily-life']  off-vocab=['time-holiday']
+22761  {場合|ばあい}によっては  semantic=['grammar-expression', 'condition']  off-vocab=['grammar-expression', 'condition']
+22767  {口利|くちき}き  semantic=['communication', 'social-relations']  off-vocab=['social-relations']
+22768  {忠言|ちゅうげん}  semantic=['communication', 'interpersonal']  off-vocab=['interpersonal']
+22769  {救急隊員|きゅうきゅうたいいん}  semantic=['occupation', 'health', 'emergency']  off-vocab=['emergency']
+22774  {過密|かみつ}スケジュール  semantic=['time-planning', 'work', 'daily-life']  off-vocab=['time-planning']
+22777  ぽっちゃり  semantic=['body', 'appearance']  off-vocab=['body']
+22792  {聞|き}き{澄|す}ます  semantic=['senses']  off-vocab=['senses']
+22793  {観|み}る  semantic=['senses', 'entertainment']  off-vocab=['senses']
+22805  {再婚|さいこん}  semantic=['family', 'life-events']  off-vocab=['life-events']
+22810  {金切|かなき}り{声|ごえ}  semantic=['sound']  off-vocab=['sound']
+22836  {左側|ひだりがわ}  semantic=['location']  off-vocab=['location']
+22838  {蚊帳|かや}  semantic=['household', 'daily-life']  off-vocab=['household']
+22839  {気|き}が{合|あ}う  semantic=['interpersonal', 'emotion']  off-vocab=['interpersonal']
+22841  {飛|と}ばし{読|よ}み  semantic=['reading']  off-vocab=['reading']
+22842  {箱入|はこい}り  semantic=['daily-life', 'interpersonal']  off-vocab=['interpersonal']
+22851  {無常感|むじょうかん}  semantic=['philosophy', 'emotion', 'culture']  off-vocab=['philosophy']
+22855  {引|ひ}きずり{込|こ}む  semantic=['movement', 'interpersonal']  off-vocab=['interpersonal']
+22857  やせ{形|がた}  semantic=['body', 'appearance']  off-vocab=['body']
+22868  {五七五|ごしちご}  semantic=['literature', 'culture']  off-vocab=['literature']
+22869  マグ  semantic=['food', 'household']  off-vocab=['household']
+22871  {屈曲|くっきょく}  semantic=['shape', 'body']  off-vocab=['shape', 'body']
+22876  {猛然|もうぜん}  semantic=['manner']  off-vocab=['manner']
+22882  {造幣|ぞうへい}  semantic=['economics', 'manufacturing']  off-vocab=['manufacturing']
+22887  {命|いのち}を{絶|た}つ  semantic=['life-death']  off-vocab=['life-death']
+22894  {卓上|たくじょう}  semantic=['position']  off-vocab=['position']
+22896  しゃきっと  semantic=['food', 'manner']  off-vocab=['manner']

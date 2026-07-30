@@ -1,0 +1,24 @@
+{
+  "entry_id": "22541_kairui",
+  "headword": "{貝類|かいるい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:21:23Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'animal'.",
+      "suggestion": "animal-general"
+    }
+  ]
+}

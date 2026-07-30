@@ -1,0 +1,24 @@
+{
+  "entry_id": "22679_obonyasumi",
+  "headword": "お{盆休|ぼんやす}み",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-30T15:37:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time' is not in the valid tag list.",
+      "suggestion": "time-general"
+    }
+  ]
+}
