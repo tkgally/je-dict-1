@@ -2,22 +2,15 @@
   "entry_id": "00649_magaru",
   "headword": "{曲|ま}がる",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:55Z",
+  "reviewed_at": "2026-07-30T18:28:02Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The 'action' tag is too narrow for the headword's full meaning.",
-      "suggestion": "Add 'state' or 'description' to reflect the 'to bend, to curve' sense, which describes a state or characteristic rather than an action performed by a subject."
-    }
-  ]
+  "issues": []
 }

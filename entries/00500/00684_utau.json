@@ -153,11 +153,25 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{歌|うた}う (sing X).\n\nASPECT: ている indicates ongoing action. {歌|うた}っている = 'is singing.'\n\nCOMMON PATTERNS:\n・⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う (sing a song)\n・⟦カラオケ→カラオケ：05080_karaoke⟧⟦で→で：00502_de⟧{歌|うた}う (sing at karaoke)\n・⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧{歌|うた}う (sing well)\n・{歌|うた}い⟦{方|かた}→方：10665_kata⟧ (way of singing)\n\nIn Japan, ⟦カラオケ→カラオケ：05080_karaoke⟧ is a popular pastime, so this verb is commonly used.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive). No pair verb. Pattern: X⟦を→を：00422_wo⟧{歌|うた}う (sing X).\n\nASPECT: ている indicates ongoing action. {歌|うた}っている = 'is singing.'\n\nCOMMON PATTERNS:\n・⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う (sing a song)\n・⟦カラオケ→カラオケ：05080_karaoke⟧⟦で→で：00502_de⟧{歌|うた}う (sing at karaoke)\n・⟦{上手|じょうず}→上手：00707_jouzu⟧⟦に→に：00314_ni⟧{歌|うた}う (sing well)\n・{歌|うた}い⟦{方|かた}→方：10665_kata⟧ (way of singing)\n\nCOGNATE OBJECT: ⟦{歌|うた}→歌：02179_uta⟧⟦を→を：00422_wo⟧{歌|うた}う repeats the same kanji and sounds redundant in English, but it is the normal Japanese phrasing whenever the song is not otherwise specified. With a named song the object simply replaces it.\n\nIn Japan, ⟦カラオケ→カラオケ：05080_karaoke⟧ is a popular pastime, so this verb is commonly used. A person who sings professionally is a ⟦{歌手|かしゅ}→歌手：00197_kashu⟧.",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "うた",
+      "headword": "{歌|うた}",
+      "target_id": "02179_uta"
+    },
+    {
+      "type": "related",
+      "reading": "かしゅ",
+      "headword": "{歌手|かしゅ}",
+      "label": "singer",
+      "target_id": "00197_kashu"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:23:05Z",
-    "modified": "2026-04-10T06:37:10Z",
+    "modified": "2026-07-30T18:21:25Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -168,7 +182,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "action"
+        "music"
       ],
       "verb_class": "godan-u"
     }

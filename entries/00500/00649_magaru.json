@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{曲|ま}げる→曲げる：02529_mageru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{曲|ま}がる (X turns/bends).\n\nASPECT: ている indicates resulting state. {曲|ま}がっている = 'is bent/curved' (current state).\n\nCOMMON PATTERNS:\n・⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧{曲|ま}がる (turn right)\n・⟦{左|ひだり}→左：00628_hidari⟧⟦に→に：00314_ni⟧{曲|ま}がる (turn left)\n・⟦{角|かど}→角：02195_kado⟧⟦を→を：00422_wo⟧{曲|ま}がる (turn at corner)\n・⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{曲|ま}がっている (road curves)\n\nPAIR: ⟦{曲|ま}げる→曲げる：02529_mageru⟧ (transitive) - ⟦{棒|ぼう}→棒：03726_bou⟧⟦を→を：00422_wo⟧{曲|ま}げる (bend the stick). Godan verb: te-form {曲|ま}がって.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). Pair: ⟦{曲|ま}げる→曲げる：02529_mageru⟧ (transitive). Pattern: X⟦が→が：00051_ga⟧{曲|ま}がる (X turns/bends).\n\nASPECT: ている indicates resulting state. {曲|ま}がっている = 'is bent/curved' (current state).\n\nCOMMON PATTERNS:\n・⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧{曲|ま}がる (turn right)\n・⟦{左|ひだり}→左：00628_hidari⟧⟦に→に：00314_ni⟧{曲|ま}がる (turn left)\n・⟦{角|かど}→角：02195_kado⟧⟦を→を：00422_wo⟧{曲|ま}がる (turn at corner)\n・⟦{道|みち}→道：00505_michi⟧⟦が→が：00051_ga⟧{曲|ま}がっている (road curves)\n\nPARTICLES: ⟦に→に：00314_ni⟧ marks the direction turned toward, ⟦を→を：00422_wo⟧ marks the corner or street the turn passes through, and the two combine freely - ⟦{角|かど}→角：02195_kado⟧⟦を→を：00422_wo⟧⟦{右|みぎ}→右：02257_migi⟧⟦に→に：00314_ni⟧{曲|ま}がる (turn right at the corner). ⟦で→で：00502_de⟧ marks a landmark the turn happens at (⟦{橋|はし}→橋：02163_hashi⟧⟦の→の：09472_no⟧⟦{前|まえ}→前：02255_mae⟧⟦で→で：00502_de⟧{曲|ま}がる, turn at the bridge). Sense 2 needs no direction: X⟦が→が：00051_ga⟧{曲|ま}がっている just says X is curved.\n\nPAIR: ⟦{曲|ま}げる→曲げる：02529_mageru⟧ (transitive) - ⟦{棒|ぼう}→棒：03726_bou⟧⟦を→を：00422_wo⟧{曲|ま}げる (bend the stick). Godan verb: te-form {曲|ま}がって.",
   "prominent_see_also": [
     {
       "target_id": "02529_mageru",
@@ -217,10 +217,18 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "pair",
+      "reading": "まげる",
+      "headword": "{曲|ま}げる",
+      "label": "transitive counterpart",
+      "target_id": "02529_mageru"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:23:42Z",
-    "modified": "2026-05-12T14:11:41Z",
+    "modified": "2026-07-30T18:20:54Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
