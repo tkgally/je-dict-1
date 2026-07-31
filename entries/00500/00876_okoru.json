@@ -208,11 +208,26 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: {自動詞|じどうし} (intransitive) for 'get angry'; can be {他動詞|たどうし} (transitive) for 'scold.' No pair verb. Pattern: X⟦が→が：00051_ga⟧{怒|おこ}る (X gets angry) or X⟦が→が：00051_ga⟧Y⟦を→を：00422_wo⟧{怒|おこ}る (X scolds Y).\n\nASPECT: ている indicates resulting state. {怒|おこ}っている = 'is angry' (state, not 'is getting angry').\n\nCOMMON PATTERNS:\n・{怒|おこ}っている (is angry - state)\n・{怒|おこ}られる (be scolded - passive)\n・{怒|おこ}らないで (don't get angry)\n・⟦すぐ→すぐ：00814_sugu⟧{怒|おこ}る (get angry easily)\n\nHOMOPHONE: Different from ⟦{起|お}こる→起こる：01910_okoru⟧ (to happen/occur) which uses different kanji.",
-  "cross_references": [],
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive) for 'get angry'; can be ⟦{他動詞|たどうし}→他動詞：10418_tadoushi⟧ (transitive) for 'scold.' No pair verb. Pattern: X⟦が→が：00051_ga⟧{怒|おこ}る (X gets angry) or X⟦が→が：00051_ga⟧Y⟦を→を：00422_wo⟧{怒|おこ}る (X scolds Y).\n\nASPECT: ている indicates resulting state. {怒|おこ}っている = 'is angry' (state, not 'is getting angry').\n\nCOMMON PATTERNS:\n・{怒|おこ}っている (is angry - state)\n・{怒|おこ}られる (be scolded - passive)\n・{怒|おこ}らないで (don't get angry)\n・⟦すぐ→すぐ：00814_sugu⟧{怒|おこ}る (get angry easily)\n\nHOMOPHONE: Different from ⟦{起|お}こる→起こる：01910_okoru⟧ (to happen/occur) which uses different kanji.",
+  "cross_references": [
+    {
+      "type": "synonym",
+      "target_id": "01202_shikaru",
+      "reading": "しかる",
+      "headword": "{叱|しか}る",
+      "label": "to scold (sense 2)"
+    },
+    {
+      "type": "related",
+      "target_id": "06886_haragatatsu",
+      "reading": "はらがたつ",
+      "headword": "{腹|はら}が{立|た}つ",
+      "label": "to feel angry (idiom)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:04:46Z",
-    "modified": "2026-05-13T13:06:24Z",
+    "modified": "2026-07-31T03:21:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

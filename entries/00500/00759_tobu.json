@@ -169,8 +169,8 @@
     },
     {
       "id": "00759_tobu_ex7",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧{飛|と}んでいます。",
-      "english": "The child is jumping.",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{高|たか}く→高い：00500_takai⟧{飛|と}びました。",
+      "english": "The child jumped high.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -189,8 +189,8 @@
     },
     {
       "id": "00759_tobu_ex9",
-      "japanese": "⟦{子供|こども}たち→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{楽|たの}しそうに→楽しい：00817_tanoshii⟧{飛|と}んでいます。",
-      "english": "The children are jumping around happily.",
+      "japanese": "⟦{子供|こども}たち→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{楽|たの}しそうに→楽しい：00817_tanoshii⟧{飛|と}んだり⟦{走|はし}ったり→走る：00519_hashiru⟧⟦しています→する：00392_suru⟧。",
+      "english": "The children are jumping and running around happily.",
       "notes": null,
       "has_audio": false,
       "sense_numbers": [
@@ -208,7 +208,7 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{飛|と}ぶ (X flies/jumps).\n\nASPECT: ている indicates ongoing action. {飛|と}んでいる = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n・⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}ぶ (fly through the sky)\n・⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{飛|と}ぶ (a bird flies)\n・⟦{飛|と}び{上|あ}がる→飛び上がる：06345_tobiagaru⟧ (jump up)\n・⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧ (jump/dive in)\n\nCovers both 'fly' and 'jump' in Japanese.\n\nRelated: ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane). Godan verb - past: {飛|と}んだ.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦が→が：00051_ga⟧{飛|と}ぶ (X flies/jumps).\n\nASPECT: ている indicates ongoing action. {飛|と}んでいる = 'is flying' (progressive).\n\nCOMMON PATTERNS:\n・⟦{空|そら}→空：02216_sora⟧⟦を→を：00422_wo⟧{飛|と}ぶ (fly through the sky)\n・⟦{鳥|とり}→鳥：00679_tori⟧⟦が→が：00051_ga⟧{飛|と}ぶ (a bird flies)\n・⟦{飛|と}び{上|あ}がる→飛び上がる：06345_tobiagaru⟧ (jump up)\n・⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧ (jump/dive in)\n\nORTHOGRAPHY: sense 1 (fly) is always written {飛|と}ぶ. For sense 2 (jump/leap), the precise kanji is ⟦{跳|と}ぶ→跳ぶ：19597_tobu⟧, which contains the {足|あし} radical; {飛|と}ぶ is nevertheless common for jumping in everyday writing. Both are read とぶ and conjugate identically, so the reading never tells you which is meant.\n\nRelated: ⟦{飛行機|ひこうき}→飛行機：00629_hikouki⟧ (airplane). Godan verb - past: {飛|と}んだ.",
   "prominent_see_also": [
     {
       "target_id": "02373_tobasu",
@@ -217,10 +217,18 @@
       "note": "transitive"
     }
   ],
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "homophone",
+      "target_id": "19597_tobu",
+      "reading": "とぶ",
+      "headword": "{跳|と}ぶ",
+      "label": "to jump, to leap (legs)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:39:34Z",
-    "modified": "2026-05-12T19:11:07Z",
+    "modified": "2026-07-31T03:20:15Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

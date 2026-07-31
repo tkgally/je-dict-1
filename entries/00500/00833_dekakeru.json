@@ -153,18 +153,32 @@
       ]
     }
   ],
-  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{出|で}かける (go out to X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {出|で}かけている = 'is out' (not at home currently).\n\nCOMMON PATTERNS:\n・⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧{出|で}かける (go out shopping)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{出|で}かける (leave for work)\n・⟦これから→これから：01287_korekara⟧{出|で}かける (about to go out)\n・{出|で}かけている (is out/not home)\n\nCompound of ⟦{出|で}る→出る：00513_deru⟧ (exit) + ⟦かける→かける：00854_kakeru⟧ (set about). Different from ⟦{出|で}る→出る：00513_deru⟧: {出|で}かける implies going somewhere with purpose.",
+  "notes": "TRANSITIVITY: ⟦{自動詞|じどうし}→自動詞：10977_jidoushi⟧ (intransitive). No pair verb. Pattern: X⟦に→に：00314_ni⟧{出|で}かける (go out to X).\n\nASPECT: ⟦ている→ている：noentry⟧ indicates resulting state. {出|で}かけている = 'is out' (not at home currently).\n\nCOMMON PATTERNS:\n・⟦{買|か}い{物|もの}→買い物：00853_kaimono⟧⟦に→に：00314_ni⟧{出|で}かける (go out shopping)\n・⟦{仕事|しごと}→仕事：00480_shigoto⟧⟦に→に：00314_ni⟧{出|で}かける (leave for work)\n・⟦これから→これから：01287_korekara⟧{出|で}かける (about to go out)\n・{出|で}かけている (is out/not home)\n\nCompound of ⟦{出|で}る→出る：00513_deru⟧ (exit) + ⟦かける→かける：00854_kakeru⟧ (set about). Different from ⟦{出|で}る→出る：00513_deru⟧: {出|で}かける implies going somewhere with purpose. The formal equivalent is ⟦{外出|がいしゅつ}する→外出する：26841_gaishutsusuru⟧, used in notices and written Japanese; the opposite move is ⟦{帰|かえ}る→帰る：00508_kaeru⟧ (return home).",
   "cross_references": [
     {
       "type": "see_also",
       "reading": "でる",
       "headword": "{出|で}る",
       "target_id": "00513_deru"
+    },
+    {
+      "type": "synonym",
+      "target_id": "26841_gaishutsusuru",
+      "reading": "がいしゅつする",
+      "headword": "{外出|がいしゅつ}する",
+      "label": "to go out (more formal)"
+    },
+    {
+      "type": "antonym",
+      "target_id": "00508_kaeru",
+      "reading": "かえる",
+      "headword": "{帰|かえ}る",
+      "label": "to return home"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:19:45Z",
-    "modified": "2026-05-12T22:18:10Z",
+    "modified": "2026-07-31T03:21:29Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
