@@ -1,0 +1,22 @@
+{
+  "entry_id": "22982_mijirogi",
+  "headword": "{身|み}じろぎ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '身じろぎ'. This word is not particularly formal; it's a neutral term for a slight movement.",
+      "suggestion": "neutral"
+    }
+  ]
+}

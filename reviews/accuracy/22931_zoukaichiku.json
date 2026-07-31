@@ -1,0 +1,22 @@
+{
+  "entry_id": "22931_zoukaichiku",
+  "headword": "{増改築|ぞうかいちく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:19Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Missing 'action' tag for a suru-verb/action noun.",
+      "suggestion": "Add 'action' to semantic_tags."
+    }
+  ]
+}

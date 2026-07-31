@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:54:30Z",
+  "reviewed_at": "2026-07-31T00:19:03Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'philosophy' is not in the valid tag list.",
-      "suggestion": "cognition"
-    }
-  ]
+  "issues": []
 }

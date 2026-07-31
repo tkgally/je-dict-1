@@ -1,0 +1,24 @@
+{
+  "entry_id": "23017_getsurei",
+  "headword": "{月齢|げつれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:22:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'health' is not appropriate for the headword '月齢' (moon age; lunar age; age in months (of a baby)). While 'age in months' can relate to health in the context of babies, the primary meaning of the word itself does not directly denote health. The tag 'nature' covers the 'moon age' aspect, and 'time-general' or 'person' could cover the 'age in months' aspect more accurately if needed, but 'health' is a misrepresentation of the word's core meaning.",
+      "suggestion": "Remove 'health'."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "22914_seitan",
+  "headword": "{生誕|せいたん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:08Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'existence' is too broad and doesn't capture the specific meaning of 'birth'.",
+      "suggestion": "Replace 'existence' with 'daily-life' or 'person'."
+    }
+  ]
+}

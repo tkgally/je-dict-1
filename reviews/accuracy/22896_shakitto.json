@@ -1,0 +1,22 @@
+{
+  "entry_id": "22896_shakitto",
+  "headword": "しゃきっと",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:06Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'food' is too narrow and misleading for the headword's overall meaning, which also encompasses alertness and mental state.",
+      "suggestion": "Remove 'food' as a top-level semantic tag. The 'descriptive' tag is appropriate for both senses."
+    }
+  ]
+}

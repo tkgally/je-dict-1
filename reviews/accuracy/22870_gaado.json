@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:55:41Z",
+  "reviewed_at": "2026-07-31T00:19:23Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'transportation' is incorrect for the headword's meaning of 'railway overpass'.",
-      "suggestion": "Replace 'transportation' with 'building' or 'general'."
-    }
-  ]
+  "issues": []
 }

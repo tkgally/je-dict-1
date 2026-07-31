@@ -1,0 +1,22 @@
+{
+  "entry_id": "23058_kouki",
+  "headword": "{香気|こうき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:27:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'cognition' is incorrect for '香気' (fragrance/aroma). 'Cognition' relates to mental processes, while '香気' describes a sensory quality.",
+      "suggestion": "Replace 'cognition' with 'descriptive' or 'daily-life' or 'food' (given examples)."
+    }
+  ]
+}
