@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-07-30
+**Last updated**: 2026-07-31
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,16 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-07-31 (Routine v2: new-entries — 20 New Entries, IDs 30259–30278)
+Created 20 general-tier entries, **draining the entire "seen in entry" candidate pool again** (14 available, all 14 created — no stale variants this time; `check_duplicate.py` returned `OK` for all, surfacing only the {開設|かいせつ}する ↔ 17850 {解説|かいせつ}する homophone, which became a `prominent_see_also`). The seen-in fourteen close references made by the 30241–30254 batch and by the comprehensive-polish frontier around 06698–06712. The batch adds **three grammar/function entries** the dictionary had referenced but never defined: どころか (two senses — "far from ~" and "let alone ~", with the connection rules for nouns/verbs/adjectives), そのような (the formal written counterpart of そんな), and {次|つぎ}に (sequencing adverb, two senses). {歓送会|かんそうかい} completes the party cluster alongside 16080 {送別会|そうべつかい}, 15791 {歓迎会|かんげいかい} and 30247 {歓送迎会|かんそうげいかい}; {漫画喫茶|まんがきっさ} and ネットカフェ cross-reference each other and 01079 {喫茶店|きっさてん}/06767 カフェ. The other 6 are hand-picked standalone lexemes, since the ~1,000-strong non-seen candidate pool remains **heavily polluted** with corpus noise, inflected forms of existing entries, and fully compositional compounds — a fuller `[pattern]` observation was logged again this run. Conjugation tables added to the godan verb, the suru-verb, and the 2 i-adjectives; **no new kanji**. 3 referenced-but-missing words added as candidates (C22649–C22651: あんまん, {口|くち}やかましい, {気|き}が{弱|よわ}い). §4 cross-model self-check on all 20 changed entries: **19 clean, 1 flagged — 1 applied, 1 rejected** ("childhood" dropped from {少年時代|しょうねんじだい}'s top-level gloss as too broad; the duplicate flag against the sense gloss was rejected, since that gloss never contained the word). $0.0088.
+
+- **Grammar / function words (3)**: どころか, そのような, {次|つぎ}に
+- **Work / social life (3)**: {歓送会|かんそうかい}, {宿泊客|しゅくはくきゃく}, {少年時代|しょうねんじだい}
+- **Places / eating out (4)**: {漫画喫茶|まんがきっさ}, ネットカフェ, ファストフード, {中華|ちゅうか}まん
+- **Verbs / adjectives (4)**: {飛|と}び{掛|か}かる, やかましい, おしとやか, {気|き}が{強|つよ}い
+- **Administration / finance (3)**: {行政機関|ぎょうせいきかん}, {譲渡費用|じょうとひよう}, {開設|かいせつ}する
+- **Other (3)**: {平常時|へいじょうじ}, {下痢止|げりど}め, {反対方向|はんたいほうこう}
+
 ### 2026-07-30 (Routine v2: new-entries — 18 New Entries, IDs 30241–30258)
 Created 18 general-tier entries, **draining the entire "seen in entry" candidate pool again** (21 available; 18 created, 3 removed as stale). The three dropped were {逆転|ぎゃくてん}する (06839 already carries `noun` + `verb-suru`), {心掛|こころが}ける (okurigana variant of 10015 {心|こころ}がける), and {引|ひ}っ{越|こ}し (okurigana variant of 03704 {引越|ひっこ}し) — `check_duplicate.py` returned `OK` for all three and surfaced two of them only as parenthetical homophone notes, the same gap logged as a `[tooling]` observation on 2026-07-29. The batch completes the accounting cluster the last four runs have been building ({仮払金|かりばらいきん} finishing the {仮払|かりばら}い pair from 30222–30240, {取得費|しゅとくひ} joining the 費-expense family) and adds **three grammar entries** the dictionary had referenced but never defined: the general conditional ば (cross-referenced against 09575 なら, with the four-way ば/たら/なら/と contrast) and the feminine sentence-final combinations わよ and のよ, which join the existing ね/よ/ぜ/かしら particle set. {創|つく}る completes the つくる orthography trio alongside 00481 {作|つく}る and 17751 {造|つく}る, with a three-way ORTHOGRAPHY note and reciprocal cross-references. Conjugation table added to the one godan verb; **no new kanji**. 5 referenced-but-missing words added as candidates (C22635–C22639); the other 13 words named in the new notes were already entries or candidates. §4 cross-model self-check on all 18 changed entries: **17 clean, 1 flagged — 1 applied, 0 rejected** (`person` removed from {青春時代|せいしゅんじだい}'s semantic tags; it is a period, not a person). $0.0079.
 
@@ -87,12 +97,4 @@ Created 20 general-tier entries. **All 8 "seen in entry" candidates were created
 - **Tools / technical (4)**: {入力端子|にゅうりょくたんし}, {電気工事士|でんきこうじし}, {丸|まる}のこ, {安全柵|あんぜんさく}
 - **Food / culture (3)**: {柿|かき}の{種|たね}, {祝|いわ}い{膳|ぜん}, {試飲会|しいんかい}
 - **Other (5)**: {一服|いっぷく}する, {打|う}つ{手|て}, {国番号|くにばんごう}, {畜産物|ちくさんぶつ}, {黒褐色|こっかっしょく}
-
-### 2026-07-27 (Routine v2: new-entries — 18 New Entries, IDs 30165–30182)
-Created 18 general-tier entries. **All 15 remaining "seen in entry" candidates were created**, draining that lane to zero again; 3 of the 18 came from that queue's own recent additions (C22557–C22567, cited from entries 30147–30163), so the §3 capture loop continues to close within a day. The seen-in fifteen: {成長率|せいちょうりつ} (growth rate), {最小値|さいしょうち} (minimum value), {平均値|へいきんち} (mean), {宣伝費|せんでんひ} (advertising expenses), {工作員|こうさくいん} (covert operative), {既存客|きぞんきゃく} (existing customer), {死者数|ししゃすう} (death toll), {視神経|ししんけい} (optic nerve), {南極大陸|なんきょくたいりく} (Antarctica), やり{切|き}る (to see through to the end; godan-ru), {下落幅|げらくはば} (extent of a decline), {偉|えら}そう (self-important; adjective-na), お{茶|ちゃ}する (to go for tea; verb-suru, informal), そこまで (that far / to that extent; two-sense expression), {未払|みはら}い{金|きん} (unpaid amount). The other 3 are hand-picked standalone lexemes, since the non-seen candidate pool remains **heavily polluted** with corpus/OCR noise: レントゲン{写真|しゃしん} (X-ray photograph), {出力端子|しゅつりょくたんし} (output terminal), {利益|りえき}を{得|え}る (to make a profit / to gain a benefit; two-sense expression). {最小値|さいしょうち}/{平均値|へいきんち} join the existing {最大値|さいだいち}, and {下落幅|げらくはば} extends the 率/幅 statistics family. Conjugation tables added to the godan verb and the suru-verb; **no new kanji**. 8 referenced-but-missing words added as candidates (C22572–C22579); 3 stale candidates removed (already entries). §4 self-check on all 18 changed entries: **accuracy pass clean — 0 flagged**; the furigana screener flagged 7, **all rejected** as one noise family — every source reading verified correct, and the flags trace to a prompt bug logged as a `[tooling]` observation (the screener's `followed by:` context is truncated mid-`{kanji|reading}` markup, and the model reads the truncation as an incomplete reading). $0.0101.
-
-- **Statistics / finance (6)**: {成長率|せいちょうりつ}, {最小値|さいしょうち}, {平均値|へいきんち}, {死者数|ししゃすう}, {下落幅|げらくはば}, {未払|みはら}い{金|きん}
-- **Business (3)**: {宣伝費|せんでんひ}, {既存客|きぞんきゃく}, {利益|りえき}を{得|え}る
-- **Verbs / adjectives / expressions (4)**: やり{切|き}る, {偉|えら}そう, お{茶|ちゃ}する, そこまで
-- **Other (5)**: {工作員|こうさくいん}, {視神経|ししんけい}, {南極大陸|なんきょくたいりく}, レントゲン{写真|しゃしん}, {出力端子|しゅつりょくたんし}
 
