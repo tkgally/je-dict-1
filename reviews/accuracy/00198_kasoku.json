@@ -2,22 +2,15 @@
   "entry_id": "00198_kasoku",
   "headword": "{加速|かそく}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:43:30Z",
+  "reviewed_at": "2026-07-31T09:23:26Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'action' is too broad and doesn't specifically capture the meaning of 'acceleration'.",
-      "suggestion": "Consider adding more specific semantic tags like 'motion', 'change', or 'process'."
-    }
-  ]
+  "issues": []
 }

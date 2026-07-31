@@ -2,22 +2,15 @@
   "entry_id": "00365_shikichi",
   "headword": "{敷地|しきち}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:09:22Z",
+  "reviewed_at": "2026-07-31T09:23:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'building' is too narrow for '敷地' (shikichi), which refers to the land itself, not the structure.",
-      "suggestion": "Replace 'building' with a more appropriate tag like 'land' or 'property', or remove it if no suitable tag exists."
-    }
-  ]
+  "issues": []
 }

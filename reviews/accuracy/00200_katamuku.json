@@ -2,50 +2,15 @@
   "entry_id": "00200_katamuku",
   "headword": "{傾|かたむ}く",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:43:35Z",
+  "reviewed_at": "2026-07-31T09:23:27Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'to decline' is too broad and can be misleading without context, as it primarily refers to a specific sense of decline (economic/prosperity) rather than a general decrease.",
-      "suggestion": "Change 'to decline' to 'to decline (e.g., prosperity)' or 'to decline (in power/prosperity)' to provide better context for intermediate learners."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'action' is too general and doesn't fully capture the nuances of '傾く'. While some senses involve an action, others describe a state or tendency.",
-      "suggestion": "Add more specific semantic tags like 'state', 'tendency', or 'change of state' to better reflect the headword's meaning across its senses."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The translation 'The sun is beginning to set' is a natural English rendering but loses the direct connection to '傾く' (to incline/lean) which is present in the Japanese. A more literal translation would help reinforce the meaning of the headword.",
-      "suggestion": "Change to 'The sun is inclining/leaning (towards setting)' or 'The sun is getting low' to better reflect the original verb's meaning in this context."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The translation 'The house was tilted by the earthquake' is acceptable, but '傾く' often implies a leaning or slanting rather than a forceful tilt. 'Leaned' or 'slanted' might be more natural for a house after an earthquake.",
-      "suggestion": "Change to 'The house leaned/slanted due to the earthquake' or 'The house was leaning/slanted after the earthquake'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[6]",
-      "severity": "warn",
-      "concern": "The translation 'The westward-slanting sunlight streamed into the room' is good, but '傾く' in this context often implies the sun itself is low in the west, causing the slant. 'Setting sun' or 'low sun' might be more idiomatic.",
-      "suggestion": "Change to 'The sunlight from the setting sun streamed into the room' or 'The low, westward sun's light streamed into the room'."
-    }
-  ]
+  "issues": []
 }

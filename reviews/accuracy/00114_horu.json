@@ -2,50 +2,15 @@
   "entry_id": "00114_horu",
   "headword": "{彫|ほ}る",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:41:19Z",
+  "reviewed_at": "2026-07-31T09:23:23Z",
   "summary": {
-    "flagged": 5
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss is incomplete as it omits 'to tattoo', which is a distinct and common meaning of 彫る.",
-      "suggestion": "Change 'to carve, to engrave' to 'to carve, to engrave, to tattoo'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[0]",
-      "severity": "warn",
-      "concern": "The English translation uses 'I carve' which implies a continuous or habitual action, but the Japanese '彫る' in this context is a simple statement of action, more akin to 'I will carve' or 'I carve a Buddha statue' as a general statement.",
-      "suggestion": "Change 'I carve a Buddha statue from wood.' to 'I will carve a Buddha statue from wood.' or 'I carve Buddha statues from wood.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "warn",
-      "concern": "Similar to example 0, 'I engrave' implies a continuous or habitual action, but the Japanese '彫る' here is a simple statement of action.",
-      "suggestion": "Change 'I engrave a name in stone.' to 'I will engrave a name in stone.' or 'I engrave names in stone.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "warn",
-      "concern": "The English 'I get a tattoo' is a natural way to express the action, but '彫る' here is more active, meaning 'to tattoo' or 'to get tattooed' (by someone else). The current translation implies the speaker is getting the tattoo done, which is correct, but the phrasing could be more direct.",
-      "suggestion": "Change 'I get a tattoo on my arm.' to 'I tattoo my arm.' or 'I get my arm tattooed.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[7]",
-      "severity": "warn",
-      "concern": "The English 'I had a dragon tattoo done on my back' is a bit clunky. A more natural phrasing would be 'I got a dragon tattoo on my back' or 'I had a dragon tattooed on my back.'",
-      "suggestion": "Change 'I had a dragon tattoo done on my back.' to 'I got a dragon tattoo on my back.'"
-    }
-  ]
+  "issues": []
 }

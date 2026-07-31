@@ -2,12 +2,13 @@
   "entry_id": "00441_fukushi",
   "headword": "{副詞|ふくし}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:11:29Z",
+  "reviewed_at": "2026-07-31T09:23:37Z",
   "summary": {
     "flagged": 1
   },
@@ -15,9 +16,9 @@
     {
       "dimension": "tags",
       "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The semantic tag 'communication' is too broad and not specific enough for a grammatical term.",
-      "suggestion": "Replace 'communication' with a more precise tag like 'linguistics' or 'grammar'."
+      "severity": "error",
+      "concern": "The semantic tag 'communication' is incorrect for '副詞' (adverb).",
+      "suggestion": "Replace 'communication' with 'language'."
     }
   ]
 }

@@ -389,6 +389,16 @@ What shipped:
 
 The survivors contain exactly the failure shape the 2026-07-28 update predicted, now with confirmed instances: **`立てる` → `01189_tateru`, which is 建てる** (to build, not to stand up), ×11, and **`治る` → `00735_naoru`, which is 直る** (to be fixed, not to heal), ×7. Both render as working links to a different word. They also contain a benign orthographic-variant family (`頃`→`03091_koro` 〜ころ; `街`→`00613_machi` 町) that needs a policy decision rather than a repair. So: agreement is worth shipping, but only behind the two normalizations, and its output is a review queue, not an auto-fix.
 
+**Shipped 2026-07-31 (routine systemic-fix): `build/check_link_baseform.py`** — read-only, same CLI shape as its sibling (`--summary`, `--json`, `--count`, `--by-base`, `--resolvable`, `--ambiguous`, `--range`). Three findings from building it:
+
+- **A third normalization was needed, and it subsumes the first.** Comparing the base form against the *declared entry's own headword* — including alternatives in a `優しい／易しい` headword, and with `〜`/`～` stripped — accepts **227** links, and takes the affix family's count to **0**: normalizing `〜ころ`→`ころ` catches everything the tilde-prefixed lookup key was meant to catch. The affix path is retained as a lookup-key fallback but never fires. The `する`-noun rule stands on its own at **267**.
+- **Re-measured on the current corpus: 405 disagree** (265,173 links; 256,094 agree; 870 no lookup hit; 0 dead targets). The item's 418 estimate held.
+- **The queue is two families, and only one is a defect** — which is the durable finding. (a) *Wrong word*: base and declared headword are different words sharing a reading. (b) *Benign orthographic indexing*: the declared entry **is** the same word under a kana headword or variant spelling (`頃`→`〜ころ` ×24, `上げる`→`あげる` ×18, `通り`→`どおり`, `焼きたて`→`焼き立て`). Sweeping (b) would be a regression, so the detector reports and never repairs.
+
+**First batch swept the same run**: the compound-homophone slice — base *and* declared headword both all-kanji, 2+ characters — is entirely family (a) and entirely unambiguous. **87 occurrences / 64 entries**, each verified against its own sentence before applying, each repair 1:1: `機能`→`昨日`, `状況`→`上京`, `電気`→`伝記`, `性格`→`正確`, `福祉`→`副詞`, `会社`→`外車`, `結婚式`→`結婚`. **318 remain**, and they are harder per link rather than easier — family (b) interleaved with genuine kanji-variant verb errors (`立てる`→`建てる`, `治る`→`直る`, `合う`→`会う`, `越える`→`超える`, `量る`→`測る`) that need sense judgment against the example. 12 are ambiguous (>1 lookup candidate) and belong to the curator.
+
+**Ratchet candidate once the queue is worked down.** This class is invisible to every semantic instrument the project owns: the run's §4 accuracy self-check over the same 64 entries returned **zero** findings on the dimension that was actually broken (and 25 unrelated tag opinions instead). Deterministic base-form resolution is the only thing that can see it, so `check_link_baseform.py --count` deserves the same absolute gate the dead-target check got — but only after the 318 are triaged, since a gate over a non-zero benign population would fail CI on correct links.
+
 ## 12. review_runner.py `--pass deep --range` deep-reviews the whole range, not just flagged
 
 **Source**: Routine v2 new-entries / accuracy-review sessions, 2026-06-10

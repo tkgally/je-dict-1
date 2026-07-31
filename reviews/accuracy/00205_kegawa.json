@@ -2,29 +2,23 @@
   "entry_id": "00205_kegawa",
   "headword": "{毛皮|けがわ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:04:41Z",
+  "reviewed_at": "2026-07-31T09:23:29Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'fur, pelt' is slightly incomplete as 'fur' can also refer to the hair on an animal, which is not the primary meaning of 毛皮.",
-      "suggestion": "Change to 'fur (skin), pelt' or 'animal fur, pelt' to clarify that it refers to the skin with fur attached, not just the hair."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss 'fur, pelt, animal skin with fur' is slightly redundant and could be more concise.",
-      "suggestion": "Change to 'fur (skin), pelt, animal skin with fur attached' or simply 'pelt, animal skin with fur attached'."
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'general' is too broad for a specific material like 'fur'.",
+      "suggestion": "clothing"
     }
   ]
 }

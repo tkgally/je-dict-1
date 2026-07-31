@@ -461,17 +461,17 @@
       "id": "link-target-baseform-disagreement",
       "title": "Inline links whose declared entry_id resolves, but not to the link's own base form (real entry, wrong word)",
       "source": "polishing/observations.md#2026-07-29",
-      "detect": "for every ⟦surface→base：id⟧, resolve base through word_id_lookup.json (by_headword then by_reading) and compare the candidate set against the declared id",
-      "filter": "normalize first, or the signal drowns: (a) accept affix headwords written with 〜/～ (的→〜的, 者→〜者, 中→〜中) — 210 of 895; (b) accept a する-verb base pointing at its noun entry (確認する→00158_kakunin) — 267 of 895. The 418 that survive are the real queue.",
+      "detect": "python3 build/check_link_baseform.py --summary",
+      "filter": "The detector now applies the three normalizations itself (headword identity, which subsumes the affix case; suru-verb base -> noun entry; lookup-key affix). What it reports is the real queue. Triage the report into (a) WRONG WORD -- base and declared headword are different words sharing a reading (compounds: 機能/昨日, 性格/正確; kanji-variant verbs: 立てる/建てる, 治る/直る) -- repair to `proposal`; and (b) BENIGN -- the declared entry is the same word under a kana headword or variant spelling (頃/〜ころ, 上げる/あげる, 焼きたて/焼き立て) -- leave alone. Family (b) is why this item is verify:per-entry and must never be swept.",
       "fix_type": "verify",
       "verify": "per-entry",
       "priority": 2,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 418,
-      "scope_measured_at": "2026-07-29",
+      "scope_estimate": 318,
+      "scope_measured_at": "2026-07-31",
       "severity": "error",
-      "notes": "Measured 2026-07-29 over 264,132 links: 7,296 noentry, 255,070 agree, 871 no lookup hit, 895 disagree; after the two normalizations above, 418 remain. Strictly worse than a dead target because the link renders and works — it just takes the reader to another word. Confirmed wrong-word cases in the survivor set: 立てる→01189_tateru (which is 建てる), 治る→00735_naoru (which is 直る). Survivors also contain a benign orthographic-variant family (頃→03091_koro 〜ころ; 街→00613_machi 町) that needs a policy call, not a fix. This is the second half of resolved item link-target-dead; the existence gate cannot see it."
+      "notes": "Detector shipped 2026-07-31 (routine systemic-fix): build/check_link_baseform.py, read-only, same CLI shape as check_link_targets.py (--summary/--json/--count/--by-base/--resolvable/--ambiguous/--range). Dictionary-wide over 265,173 links: 256,094 agree, 7,310 noentry, 870 no lookup hit, 227 accepted by headword identity, 267 by the suru-noun rule, 0 by the affix path (headword identity subsumes it), 405 disagree. FIRST BATCH DONE 2026-07-31: the compound-homophone class -- both base and declared headword all-kanji, 2+ chars -- swept entirely, 87 occurrences / 64 entries, every one verified in context before applying and every repair 1:1 with no ambiguity (機能->昨日, 状況->上京, 電気->伝記, 性格->正確, 福祉->副詞, 会社->外車, 結婚式->結婚). 318 remain. The remainder is harder per link, not easier: it is dominated by the benign orthographic family (頃->〜ころ 24, 上げる->あげる 18, 通り->どおり 5) that must be LEFT ALONE, interleaved with genuine kanji-variant verb errors (立てる->建てる 11, 治る->直る 7, 合う->会う 6, 越える->超える, 量る->測る) that need sense judgment against the example sentence. Next batch should take the kanji-variant verb pairs one base form at a time. 12 findings are ambiguous (>1 lookup candidate) and belong to the curator. Note for the curator: once the queue is worked down, `check_link_baseform.py --count` is ratchet-ready in the same way the dead-target gate is -- this class is invisible to every semantic instrument (the §4 accuracy self-check over the same 64 entries returned zero findings on it)."
     },
     {
       "id": "tag-onomatopoeia-missing",
