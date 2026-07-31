@@ -681,3 +681,7 @@ All 19 observations cleared.)_
   and `{艶|あで}やか` appearing in 22288's own similar-words contrast against つややか. Throughput was
   again ~2 entries/min against the accuracy pass's ~13. Tooling 24's "retire or heavily downsample"
   now has a fifth data point and still no counter-evidence.
+
+- [pattern] candidate_words.json is heavily polluted outside the "seen in entry" set: sampled windows of the ~1,000 remaining candidates are dominated by conjugated verb/adjective forms (勝てない, 知らない, 激しく), compositional phrases (一年前, 森の中, 二千円), and apparently non-existent coinages (権使, 些道, 個尊, 怒燥, 多角的一面). Roughly 1 in 10 sampled candidates was a usable headword. A dedicated clean_up_candidates_list pass — or a filter that rejects inflected forms and number+counter strings at harvest time — would raise new-entries throughput a lot. (routine 2026-07-31)
+- [tooling] Many ⟦…：noentry⟧ inline links are now stale: spot checks found ロープ (27860), 鉢 (29581), ために (28332), 返る (29164) all have entries despite being marked noentry. A re-resolve pass over noentry links (4,307 occurrences across 3,087 files) would convert a large number into real links with no editorial judgment required. (routine 2026-07-31)
+- [entry] 30270_kigatsuyoi had a furigana typo in its notes ({勝|き}ち{気|き} for {勝|か}ち{気|き}); fixed this run while creating its antonym 30281_kigayowai. (routine 2026-07-31)
