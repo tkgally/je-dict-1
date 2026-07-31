@@ -2,29 +2,15 @@
   "entry_id": "00105_hirosa",
   "headword": "{広|ひろ}さ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:41:07Z",
+  "reviewed_at": "2026-07-31T09:23:22Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "The tag 'size' is too general and doesn't fully capture the meaning of 広さ, which specifically refers to 'extent' or 'spaciousness' rather than just any dimension of size.",
-      "suggestion": "Replace 'size' with 'extent' or 'spaciousness' or 'dimension'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "warn",
-      "concern": "The English translation is a bit clunky and doesn't fully capture the nuance of '何個分' in a natural way.",
-      "suggestion": "Change to 'How many Tokyo Domes is it equivalent to in size?' or 'What is its size in terms of Tokyo Domes?'"
-    }
-  ]
+  "issues": []
 }

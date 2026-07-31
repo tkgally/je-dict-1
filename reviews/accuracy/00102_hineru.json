@@ -2,29 +2,23 @@
   "entry_id": "00102_hineru",
   "headword": "{捻|ひね}る",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T07:41:02Z",
+  "reviewed_at": "2026-07-31T09:23:21Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "translation",
       "location": "examples[1]",
-      "severity": "warn",
-      "concern": "The English translation 'I tilted my head and thought about it' for '首を捻って考えた' is a common interpretation but '捻る' here implies more of a 'puzzling over' or 'racking one's brains' rather than just a physical tilt. The nuance of 'thinking hard' is somewhat lost.",
-      "suggestion": "Consider 'I racked my brains, twisting my head in thought.' or 'I puzzled over it, twisting my head.'"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[11]",
-      "severity": "warn",
-      "concern": "The translation 'It's like an adult easily overpowering a child' for '大人が子供を捻るようなものだ' is a bit too strong. 'Overpowering' suggests physical dominance, while '捻る' in this context (sense 4) means 'to defeat easily' or 'to win against with little effort', which can be mental or skill-based, not necessarily physical overpowering.",
-      "suggestion": "Consider 'It's like an adult easily defeating a child.' or 'It's like an adult easily beating a child.'"
+      "severity": "error",
+      "concern": "The English translation 'I tilted my head and thought about it' for '首を捻って考えた' is misleading. While 'tilt' is a possible action, the Japanese implies 'puzzling over' or 'racking one's brains' in this context, aligning with sense 3 of the headword.",
+      "suggestion": "Change to 'I racked my brains thinking about it.' or 'I puzzled over it, tilting my head.'"
     }
   ]
 }

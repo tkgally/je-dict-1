@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-14T03:47:09Z",
+  "reviewed_at": "2026-07-31T09:24:05Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The main gloss 'encryption' is too narrow and misleading as the primary meaning. 暗号 (angou) primarily means 'code' or 'cipher', which can then be used for encryption.",
-      "suggestion": "Change to 'code, cipher'"
-    },
     {
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'general' is too broad for a word with a more specific technical meaning.",
-      "suggestion": "Change to 'technology' or 'communication'"
+      "concern": "The tag 'general' is too broad for a specific concept like 'code' or 'cipher'.",
+      "suggestion": "cognition"
     }
   ]
 }

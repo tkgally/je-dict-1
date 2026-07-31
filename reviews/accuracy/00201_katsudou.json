@@ -2,36 +2,15 @@
   "entry_id": "00201_katsudou",
   "headword": "{活動|かつどう}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-09T22:04:30Z",
+  "reviewed_at": "2026-07-31T09:23:28Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The gloss 'action' is too broad and can be misleading without context, as 活動 often implies organized or purposeful activity rather than just any 'action'.",
-      "suggestion": "Consider prioritizing 'activity' or adding a nuance to 'action' like 'purposeful action' or 'organized action' in the main gloss, or rephrasing the gloss to 'activity; action (often organized or purposeful)'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The gloss 'action' is too broad and can be misleading without context, as 活動 often implies organized or purposeful activity rather than just any 'action'.",
-      "suggestion": "Consider prioritizing 'activity' or adding a nuance to 'action' like 'purposeful action' or 'organized action' in the sense gloss, or rephrasing the gloss to 'activity; action (often organized or purposeful)'."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'action' is too general for 活動, which specifically refers to 'activity' or 'purposeful action'. While 'activity' is a type of 'action', 'action' alone doesn't fully capture the nuance of 活動.",
-      "suggestion": "Replace 'action' with 'activity' or 'purposeful action' to better reflect the headword's meaning."
-    }
-  ]
+  "issues": []
 }
