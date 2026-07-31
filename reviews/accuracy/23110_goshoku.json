@@ -1,0 +1,24 @@
+{
+  "entry_id": "23110_goshoku",
+  "headword": "{誤植|ごしょく}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:17:57Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'publishing' is not in the valid tag list.",
+      "suggestion": "Replace 'publishing' with 'media' or 'work'."
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "entry_id": "23166_gekitaka",
+  "headword": "{激高|げきたか}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:19:10Z",
+  "summary": {
+    "flagged": 6
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The headword 激高 (げきこう) means 'rage' or 'fury', not 'extremely expensive'. The reading げきたか is incorrect for 激高.",
+      "suggestion": "The gloss should reflect the meaning of 'rage' or 'fury'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'quantity' is incorrect for 激高 (げきこう), which means 'rage' or 'fury'.",
+      "suggestion": "Change 'quantity' to 'emotion'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "warn",
+      "concern": "The formality 'informal' might be too strong for 激高 (げきこう), which is a more formal or literary term for 'rage'.",
+      "suggestion": "Consider changing 'informal' to 'neutral' or 'formal'."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The example sentence uses 激高 (げきこう) in a context that implies 'expensive', which is incorrect for the actual meaning of the word ('rage'). The reading げきたか is also incorrect.",
+      "suggestion": "The example sentence and its translation need to be rewritten to reflect the correct meaning of 激高 (rage/fury)."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The example sentence uses 激高 (げきこう) in a context that implies 'expensive', which is incorrect for the actual meaning of the word ('rage'). The reading げきたか is also incorrect.",
+      "suggestion": "The example sentence and its translation need to be rewritten to reflect the correct meaning of 激高 (rage/fury)."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[2]",
+      "severity": "error",
+      "concern": "The example sentence uses 激高 (げきこう) in a context that implies 'expensive', which is incorrect for the actual meaning of the word ('rage'). The reading げきたか is also incorrect.",
+      "suggestion": "The example sentence and its translation need to be rewritten to reflect the correct meaning of 激高 (rage/fury)."
+    }
+  ]
+}

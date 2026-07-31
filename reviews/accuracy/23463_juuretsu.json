@@ -1,0 +1,22 @@
+{
+  "entry_id": "23463_juuretsu",
+  "headword": "{縦列|じゅうれつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:28:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'direction' is incorrect for '縦列' (column/vertical row). While it implies a direction, the primary meaning is about arrangement or structure.",
+      "suggestion": "Replace 'direction' with 'general' or 'arrangement' (if 'arrangement' were a valid tag, but it's not, so 'general' is the best fit from the valid list)."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "23226_shinkoujuutakuchi",
+  "headword": "{新興住宅地|しんこうじゅうたくち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:20:49Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'housing' is not in the valid tag list.",
+      "suggestion": "building"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'urban' is not in the valid tag list.",
+      "suggestion": "geography"
+    }
+  ]
+}

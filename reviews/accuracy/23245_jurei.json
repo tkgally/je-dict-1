@@ -1,0 +1,31 @@
+{
+  "entry_id": "23245_jurei",
+  "headword": "{樹齢|じゅれい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:16Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'plants' is not in the valid tag list.",
+      "suggestion": "Replace 'plants' with 'plant-general'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word. '樹齢' is a neutral, descriptive term.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "23339_saikensa",
+  "headword": "{再検査|さいけんさ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:23:21Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'business' is not appropriate for the headword '再検査' (reexamination/retest). While reexaminations can occur in business contexts, the word itself does not inherently denote 'business' as a semantic category.",
+      "suggestion": "Remove 'business'."
+    }
+  ]
+}

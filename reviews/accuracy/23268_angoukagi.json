@@ -1,0 +1,31 @@
+{
+  "entry_id": "23268_angoukagi",
+  "headword": "{暗号鍵|あんごうかぎ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:46Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'computing' is not in the valid tag list.",
+      "suggestion": "technology"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'security' is not in the valid tag list.",
+      "suggestion": "technology"
+    }
+  ]
+}

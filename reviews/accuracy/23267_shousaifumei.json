@@ -1,0 +1,31 @@
+{
+  "entry_id": "23267_shousaifumei",
+  "headword": "{詳細不明|しょうさいふめい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:44Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'information'",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid semantic tag 'news'",
+      "suggestion": "media"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "23429_genetsu",
+  "headword": "{解熱|げねつ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:28:14Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for this word. While it is a medical term, it is commonly used in everyday conversation and in contexts like over-the-counter medication packaging, making 'neutral' a more appropriate formality level.",
+      "suggestion": "neutral"
+    }
+  ]
+}

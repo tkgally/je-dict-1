@@ -1,0 +1,38 @@
+{
+  "entry_id": "23276_gouseijushi",
+  "headword": "{合成樹脂|ごうせいじゅし}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:59Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'materials' is not in the valid tag list.",
+      "suggestion": "Replace 'materials' with 'general' or 'technology'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'chemistry' is not in the valid tag list.",
+      "suggestion": "Replace 'chemistry' with 'science'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'manufacturing' is not in the valid tag list.",
+      "suggestion": "Replace 'manufacturing' with 'technology' or 'work'."
+    }
+  ]
+}
