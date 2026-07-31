@@ -2,22 +2,15 @@
   "entry_id": "00621_doyoubi",
   "headword": "{土曜日|どようび}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:20Z",
+  "reviewed_at": "2026-07-31T12:28:04Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "error",
-      "concern": "The explanation incorrectly states that the kanji 土 relates to Saturn as the 'earth planet'. In East Asian tradition, 土星 (dosei) refers to Saturn, and 土 (do) is indeed associated with the element earth, but Saturn is not the 'earth planet' in the same way Mars is the 'fire planet' or Mercury is the 'water planet'. The association is simply that the planet Saturn is represented by the character for earth.",
-      "suggestion": "Revise the explanation to clarify the relationship between 土 and Saturn. For example: 'The kanji 土 means 'earth/soil' and is associated with the planet Saturn (土星, dosei, 'earth star').'"
-    }
-  ]
+  "issues": []
 }
