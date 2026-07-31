@@ -1,0 +1,24 @@
+{
+  "entry_id": "23246_shouninyokkyuu",
+  "headword": "{承認欲求|しょうにんよっきゅう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:17Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Invalid tag 'psychology'",
+      "suggestion": "cognition"
+    }
+  ]
+}

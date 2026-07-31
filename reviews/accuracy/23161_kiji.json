@@ -1,0 +1,24 @@
+{
+  "entry_id": "23161_kiji",
+  "headword": "{雉|きじ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:19:01Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'nature' is too broad and 'culture' is not directly applicable to the headword itself.",
+      "suggestion": "animal-bird"
+    }
+  ]
+}

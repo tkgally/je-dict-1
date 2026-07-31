@@ -656,3 +656,28 @@ All 19 observations cleared.)_
 - [tooling] `part_of_speech` free text is split between `"noun, suru verb"` (1206 entries) and `"noun, suru-verb"` (331). The hyphenated form matches the `pos` tag vocabulary (`verb-suru`); the spaced form does not. Harmless for rendering today, but it blocks any future parsing of `part_of_speech` and is a one-line normalization if the curator wants it.
 - [entry] 00711 kakaru: the entry glosses only "to take (time/money), to cost", but かかる is the standard verb in {罠|わな}にかかる (to be caught in a trap) and ⟦{病気|びょうき}⟧にかかる (to fall ill). 06716 まんまと has to link 罠にかかる to it anyway. The entry needs the additional senses, or a separate entry.
 - [pattern] Several priority-lane "thin notes" entries (00621 土曜日 and its sibling day/month entries) have notes that are entirely kanji-etymology plus a set list, with **no usage information at all** — no particle, no "on Saturday", no frequency expressions. The day-of-week and month sets (00621, 00624, 00625, 00634, 00635, 00653, 00665, 00667, 00672 …) are formulaically similar and would be a good bounded systemic-fix batch: add a USAGE section to each.
+
+## 2026-07-31 (routine accuracy-review, 23101–23500 / 22276–22333)
+
+- [pattern] The free `VALID_SEMANTIC` diff found **171 of 400 entries (43%)** off-vocabulary in
+  23101–23500 — the fifth consecutive block where the free pre-scan, not the paid reviewer, was
+  the detector. Of the paid pass's 54 tag flags on post-migration entries, **38 either re-suggested
+  a tag the free scan had already applied or proposed `general`**; only 4 were novel and correct
+  (`action` on 鋳造/団体行動, `shopping` on 即日配送, `appearance` on コンシーラー). The reviewer's
+  standing value is as a destination oracle and in-list check, not as a detector.
+- [pattern] **Homograph substitution joins the homophone family.** 23166 {激高|げきたか} (slang
+  "sky-high expensive", part of the productive 激〜 intensifier set) drew four `error`-severity
+  flags all insisting it means "rage; fury" — that is 激高 read げきこう, the same characters with a
+  different reading. 23182 {悪感|あくかん} ("ill will") drew five insisting on "chill; nausea" —
+  that is the おかん reading. Both entries are internally consistent and correct. The model
+  substitutes a *written-form* neighbour, not just a spoken one; an entry documenting the minority
+  reading of a homograph will reliably draw a full sweep of error-severity flags.
+- [pattern] Both homograph flags nonetheless surfaced real coverage facts: 激高/げきこう was genuinely
+  missing (added as candidate C22661); 悪寒/おかん already exists at 12670. A rejected flag can still
+  be a useful coverage signal — worth harvesting rather than discarding.
+- [tooling] Furigana screening ran **58 entries, 3 flags, 0 applied** — the fifth consecutive
+  post-fix run at zero yield (cumulative 0 applied of ~35 flags). All three were documented
+  false-positive families: `{砲丸投|ほうがんな}げ` okurigana split, `{集|たか}り` (たかる is correct),
+  and `{艶|あで}やか` appearing in 22288's own similar-words contrast against つややか. Throughput was
+  again ~2 entries/min against the accuracy pass's ~13. Tooling 24's "retire or heavily downsample"
+  now has a fifth data point and still no counter-evidence.

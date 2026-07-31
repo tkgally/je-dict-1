@@ -1,0 +1,24 @@
+{
+  "entry_id": "23235_denshishoutorihiki",
+  "headword": "{電子商取引|でんししょうとりひき}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'economy' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}

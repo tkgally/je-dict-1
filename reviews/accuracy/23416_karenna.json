@@ -1,0 +1,22 @@
+{
+  "entry_id": "23416_karenna",
+  "headword": "{可憐|かれん}な",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:28:00Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '可憐な'. While the explanation states it's 'much more common in writing than in casual speech', this doesn't automatically make it 'formal'. It's more accurately described as 'literary' or 'poetic', which falls under 'neutral' formality in this dictionary's scheme, as it's not specifically used in formal business or official contexts.",
+      "suggestion": "neutral"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "23248_tsumibukai",
+  "headword": "{罪深|つみぶか}い",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:20Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'morality' is not in the valid tag list.",
+      "suggestion": "Replace 'morality' with 'general' or 'cognition' or 'emotion' if applicable, or remove it."
+    }
+  ]
+}

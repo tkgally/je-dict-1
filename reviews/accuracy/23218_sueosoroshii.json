@@ -1,0 +1,45 @@
+{
+  "entry_id": "23218_sueosoroshii",
+  "headword": "{末恐|すえおそ}ろしい",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:20:27Z",
+  "summary": {
+    "flagged": 4
+  },
+  "issues": [
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'frighteningly promising; awesome potential' is misleading. While the word implies great potential, the 'frightening' aspect is not about the potential itself being scary, but rather the overwhelming nature of such immense potential, often in a positive, awe-inspiring way. It's not about being literally scared.",
+      "suggestion": "overwhelmingly promising; awe-inspiring potential"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'frighteningly promising; having awesome potential; formidable future' is misleading. The 'frightening' aspect is not about the potential itself being scary, but rather the overwhelming nature of such immense potential, often in a positive, awe-inspiring way. It's not about being literally scared.",
+      "suggestion": "overwhelmingly promising; having awe-inspiring potential; formidable future"
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[0]",
+      "severity": "error",
+      "concern": "The English translation 'That child has frightening potential' is too literal and misses the nuance of '末恐ろしい'. It implies the potential itself is scary, rather than overwhelmingly impressive.",
+      "suggestion": "That child has overwhelmingly impressive potential."
+    },
+    {
+      "dimension": "translation",
+      "location": "examples[1]",
+      "severity": "error",
+      "concern": "The English translation 'They're still in high school, but their talent is frighteningly impressive' is too literal and misses the nuance of '末恐ろしい'. It implies the talent itself is scary, rather than overwhelmingly impressive.",
+      "suggestion": "They're still in high school, but their talent is overwhelmingly impressive."
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "entry_id": "23239_jikakushoujou",
+  "headword": "{自覚症状|じかくしょうじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:21:07Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'medicine' is not in the valid tag list.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    }
+  ]
+}

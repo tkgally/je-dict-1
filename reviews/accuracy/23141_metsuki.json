@@ -1,0 +1,24 @@
+{
+  "entry_id": "23141_metsuki",
+  "headword": "{目|め}つき",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T18:18:37Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'body' is not in the valid tag list.",
+      "suggestion": "body-part"
+    }
+  ]
+}
