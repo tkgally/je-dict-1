@@ -1,0 +1,22 @@
+{
+  "entry_id": "22962_womochimashite",
+  "headword": "をもちまして",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:39Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'time-general' is too narrow and potentially misleading for 'をもちまして'. While it can indicate a point in time, it also signifies 'with this' or 'by means of this', which is not purely temporal.",
+      "suggestion": "Replace 'time-general' with 'expression' or 'grammatical' to better reflect its function as a formal connective phrase."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "22817_insei",
+  "headword": "{陰性|いんせい}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:25:49Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'health' only covers the first sense of the word. The second sense, relating to personality, is not covered.",
+      "suggestion": "Add 'personality' to the semantic tags."
+    }
+  ]
+}

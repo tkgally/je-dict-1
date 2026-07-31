@@ -1,0 +1,22 @@
+{
+  "entry_id": "23095_tanku",
+  "headword": "タンク",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:27:55Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'tool' is too narrow and misleading for a word that also refers to a military vehicle. 'Tool' implies something used to perform a task, which a military tank is not primarily.",
+      "suggestion": "Add 'military' to the semantic tags, as the headword clearly refers to a military vehicle in one of its primary senses."
+    }
+  ]
+}

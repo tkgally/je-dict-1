@@ -1,0 +1,22 @@
+{
+  "entry_id": "23011_oresen",
+  "headword": "{折|お}れ{線|せん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:27:07Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'science' is too narrow and misleading for '折れ線' (broken line/line graph). While line graphs are used in science, the term itself is more general and applies to mathematics, data visualization, and general descriptive geometry.",
+      "suggestion": "Replace 'science' with 'general' or 'mathematics'."
+    }
+  ]
+}

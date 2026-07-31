@@ -1,0 +1,22 @@
+{
+  "entry_id": "22887_inochiwotatsu",
+  "headword": "{命|いのち}を{絶|た}つ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:02Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'health' is inappropriate for an expression meaning 'to end one's life' or 'to take a life'.",
+      "suggestion": "Remove 'health'."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "entry_id": "22894_takujou",
+  "headword": "{卓上|たくじょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:26:04Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The semantic tag 'furniture' is too narrow and misleading for the headword '卓上'. While it can refer to items on furniture, the word itself describes a location or a conceptual state, not a type of furniture.",
+      "suggestion": "Replace 'furniture' with 'general' or 'descriptive' as it broadly refers to 'on a table/desk' or 'theoretical'."
+    }
+  ]
+}

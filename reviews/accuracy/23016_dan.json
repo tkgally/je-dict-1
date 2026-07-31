@@ -1,0 +1,22 @@
+{
+  "entry_id": "23016_dan",
+  "headword": "{壇|だん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "tags"
+  ],
+  "reviewed_at": "2026-07-31T00:27:10Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'abstract' is inappropriate for the primary meaning of '壇' (platform/stage/podium), which refers to a physical structure. While sense 2 (world/circle) could be considered abstract, the headword itself is not primarily abstract.",
+      "suggestion": "Remove 'abstract'"
+    }
+  ]
+}
