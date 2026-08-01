@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:40:00Z",
+  "reviewed_at": "2026-08-01T06:34:35Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'government' is not in the valid tag list.",
-      "suggestion": "politics"
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "politeness tag is wrong for a noun",
+      "suggestion": "remove politeness tag"
     }
   ]
 }

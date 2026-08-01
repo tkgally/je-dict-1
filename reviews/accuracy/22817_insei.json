@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:25:49Z",
+  "reviewed_at": "2026-08-01T06:36:24Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'health' only covers the first sense of the word. The second sense, relating to personality, is not covered.",
-      "suggestion": "Add 'personality' to the semantic tags."
-    }
-  ]
+  "issues": []
 }

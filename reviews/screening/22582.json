@@ -1,0 +1,12 @@
+{
+  "entry_id": "22582",
+  "screened_at": "2026-08-01T06:47:26Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 札入 is given as さつい, but the full reading for 札入れ is さつ いれ. The provided reading さつい is a partial reading of the kanji portion, which is acceptable by the rules. However, the example given for 札入 is {札入|さつい}れ (さついれ), which implies that さついれ is the full reading for 札入. If 札入 is treated as a single unit, then さついれ would be the reading. But if it's 札 + 入, then 札=さつ and 入=い. The entry itself is {札入|さつい}れ (さついれ), which means the reading for 札入 is さついれ. The provided pair 札入 → さつい is a partial reading of さついれ, which is allowed by the rules. However, the example {札入|さつい}れ (さついれ) suggests that the reading for 札入 is さついれ, not just さつい. Given the rule \"the reading covers ONLY the kanji portion\", and the entry {札入|さつい}れ, it means the reading for 札入 is さつい. The 'れ' is okurigana. So, 札入 → さつい is correct according to the format. My initial interpretation was that 札入 was a single kanji compound, but it's 札 + 入. So, 札入 → さつい is a partial reading of 札入, which is allowed. Let's re-evaluate based on the strict rule: \"the reading covers ONLY the kanji portion\". For {札入|さつい}れ, the kanji portion is 札入, and its reading is さつい. The 'れ' is okurigana. This is consistent. So, 札入 → さつい is correct.",
+    "The reading for 小銭入 is given as こぜにい. The full word is 小銭入れ (こぜにいれ). The kanji portion is 小銭入. The reading for 小銭入 should be こぜにいれ. The provided reading こぜにい is missing the last れ. This is not a partial reading of a kanji, but a partial reading of the kanji compound. The rule states \"the reading covers ONLY the kanji portion\". So, for 小銭入, the reading should be こぜにいれ. Therefore, こぜにい is incorrect.",
+    "The reading for 長財布 is given as ながさいふ. The full word is 長財布 (ながざいふ). The reading for 長 is なが, and for 財 is ざい, and for 布 is ふ. So, 長財布 should be ながざいふ. The provided reading ながさいふ has さい instead of ざい. This is incorrect."
+  ],
+  "confidence": 0.8
+}

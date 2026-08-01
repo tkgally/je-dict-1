@@ -8,9 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:19:48Z",
+  "reviewed_at": "2026-08-01T06:31:36Z",
   "summary": {
-    "flagged": 0
+    "flagged": 1
   },
-  "issues": []
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.politeness",
+      "severity": "error",
+      "concern": "The politeness tag 'polite' is incorrect for a noun like 素直さ. Nouns typically do not carry politeness levels in the same way verbs or interjections do, unless they are honorifics or humble forms. 'neutral' would be more appropriate if any politeness tag is needed.",
+      "suggestion": "neutral"
+    }
+  ]
 }

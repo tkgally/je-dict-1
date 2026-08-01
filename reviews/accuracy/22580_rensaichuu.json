@@ -8,31 +8,9 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:26:18Z",
+  "reviewed_at": "2026-08-01T06:32:29Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "warn",
-      "concern": "Tag 'publishing' is not in the valid tag list.",
-      "suggestion": "media"
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The English translation implies the novel is already serialized, but the Japanese implies it is currently being serialized.",
-      "suggestion": "I look forward to the novel being serialized every week."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[2]",
-      "severity": "error",
-      "concern": "The English translation uses 'serializing' as a verb, but the Japanese uses '連載中' as a noun/adjective-no.",
-      "suggestion": "A popular author has a new work currently being serialized in a magazine."
-    }
-  ]
+  "issues": []
 }

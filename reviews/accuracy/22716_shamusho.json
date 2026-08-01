@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:42:07Z",
+  "reviewed_at": "2026-08-01T06:34:52Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The headword '社務所' is a noun referring to a building/place, and as such, does not inherently carry a politeness level. 'polite' is incorrect.",
-      "suggestion": "Change 'politeness' to 'plain' or remove the politeness tag if it's not applicable to nouns."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[1]",
-      "severity": "error",
-      "concern": "The English translation says 'temple stamp' but 御朱印 (goshuin) is specifically a 'shrine stamp' or 'seal' given at Shinto shrines and Buddhist temples. Given the context of '社務所' (shrine office), 'shrine stamp' is more appropriate and accurate.",
-      "suggestion": "Change 'temple stamp' to 'shrine stamp'."
+      "concern": "The politeness tag 'polite' is incorrect for a noun referring to a place/building. Nouns referring to things or places typically do not have politeness levels in Japanese, unless they are honorific/humble forms of specific items or concepts. 'Neutral' would be the appropriate default.",
+      "suggestion": "neutral"
     }
   ]
 }

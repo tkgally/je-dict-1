@@ -4,19 +4,28 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:26:02Z",
+  "reviewed_at": "2026-08-01T06:37:26Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The semantic tag 'health' is inappropriate for an expression meaning 'to end one's life' or 'to take a life'.",
-      "suggestion": "Remove 'health'."
+      "concern": "The gloss 'to take a life' implies killing another, which is not the primary meaning of the headword '命を絶つ' when used without further context. The headword primarily refers to ending one's own life.",
+      "suggestion": "to end one's life; to take one's own life"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'to kill' in the definition is misleading. While the phrase can be used in a passive form to mean 'to be killed', the active form '命を絶つ' primarily refers to ending one's own life, not actively killing another.",
+      "suggestion": "to end one's life; to take one's own life"
     }
   ]
 }

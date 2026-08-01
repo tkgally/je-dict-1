@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:45:25Z",
+  "reviewed_at": "2026-08-01T06:35:23Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'location' is not in the valid tag list.",
-      "suggestion": "Replace 'location' with 'general' or 'existence'."
+      "concern": "The headword is a suru-verb and action noun, but 'action' tag is missing.",
+      "suggestion": "Add 'action' to semantic_tags."
     }
   ]
 }

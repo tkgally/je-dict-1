@@ -1,0 +1,24 @@
+{
+  "entry_id": "22662_endan",
+  "headword": "{演壇|えんだん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T06:33:54Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'place' is not in the valid tag list.",
+      "suggestion": "building"
+    }
+  ]
+}
