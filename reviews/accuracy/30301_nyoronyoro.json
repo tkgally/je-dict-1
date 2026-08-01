@@ -1,0 +1,24 @@
+{
+  "entry_id": "30301_nyoronyoro",
+  "headword": "にょろにょろ",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T15:26:51Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "Missing 'onomatopoeia' tag for an onomatopoeic word.",
+      "suggestion": "Add 'onomatopoeia' to semantic_tags."
+    }
+  ]
+}
