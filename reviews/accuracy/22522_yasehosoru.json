@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:19:24Z",
+  "reviewed_at": "2026-08-01T06:31:31Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "Invalid semantic tag 'body'.",
-      "suggestion": "body-part"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "Politeness 'polite' is incorrect for a verb stem.",
-      "suggestion": "plain"
+      "concern": "The politeness tag 'polite' is incorrect for this verb. 'やせ細る' is a plain form verb and does not inherently carry polite politeness. It can be used in polite contexts by adding polite endings (e.g., やせ細ります), but the base form itself is plain.",
+      "suggestion": "Change 'polite' to 'plain'."
     }
   ]
 }

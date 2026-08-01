@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:25:55Z",
+  "reviewed_at": "2026-08-01T06:45:01Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'daily-life' is too general and doesn't capture the specific meanings of '箱入り'. The word has two distinct senses: one related to packaging/storage and another related to a person's upbringing. 'daily-life' is not specific enough for either.",
-      "suggestion": "Replace 'daily-life' with 'shopping' (for sense 1) and 'family' or 'personality' (for sense 2). Since the headword covers both, multiple tags are appropriate. 'shopping' and 'family' would be good choices."
-    }
-  ]
+  "issues": []
 }

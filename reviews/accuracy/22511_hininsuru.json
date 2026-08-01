@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:18:34Z",
+  "reviewed_at": "2026-08-01T06:31:18Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The headword '否認する' is a verb-suru, and its politeness is determined by its conjugation, not an inherent property of the word itself. Labeling it 'polite' is misleading as the plain form '否認する' is neutral in politeness.",
-      "suggestion": "Change 'polite' to 'plain'."
+      "concern": "The headword is a suru-verb, which does not inherently carry politeness. The politeness should be 'plain' as it is the default for ordinary vocabulary.",
+      "suggestion": "plain"
     }
   ]
 }

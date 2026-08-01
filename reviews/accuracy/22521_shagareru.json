@@ -8,23 +8,16 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-30T15:19:22Z",
+  "reviewed_at": "2026-08-01T06:31:30Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'body' is not in the valid tag list.",
-      "suggestion": "body-part"
-    },
-    {
-      "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness level 'polite' is incorrect for the headword 'しゃがれる'.",
+      "concern": "politeness tag is wrong for the headword",
       "suggestion": "plain"
     }
   ]
