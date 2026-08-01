@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{毎月|まいつき} means 'every month' and can function as both a noun and an adverb.\n\nREADINGS:\n- まいつき: more common in speech\n- まいげつ: also used\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜する: to do ~ every month\n- {毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once a month\n- {毎月|まいつき}の⟦{支払|しはら}い→支払う：02116_shiharau⟧: monthly payment\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year",
-  "cross_references": [],
+  "notes": "{毎月|まいつき} means \"every month\" and can function as both a noun and an adverb.\n\nREADINGS:\n- まいつき: more common in speech\n- まいげつ: also used, chiefly in formal or written contexts\n\nCOMMON PATTERNS:\n- {毎月|まいつき}〜⟦する→する：00392_suru⟧: to do ~ every month\n- {毎月|まいつき}⟦{一|いち}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once a month\n- {毎月|まいつき}⟦の→の：09472_no⟧⟦{支払|しはら}い→支払う：02116_shiharau⟧: monthly payment\n\nRELATED TIME WORDS:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "まいしゅう",
+      "headword": "{毎週|まいしゅう}",
+      "target_id": "00730_maishuu",
+      "label": "every week"
+    },
+    {
+      "type": "related",
+      "reading": "まいとし",
+      "headword": "{毎年|まいとし}",
+      "target_id": "00731_maitoshi",
+      "label": "every year"
+    },
+    {
+      "type": "related",
+      "reading": "こんげつ",
+      "headword": "{今月|こんげつ}",
+      "target_id": "00720_kongetsu",
+      "label": "this month"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:34:08Z",
-    "modified": "2026-02-16T03:47:29Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

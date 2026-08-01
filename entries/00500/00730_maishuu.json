@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{毎週|まいしゅう} means every week. Functions as both a noun and adverb.\n\nFORMATION:\n{毎|まい} (every) + {週|しゅう} (week)\n\nCOMMON PATTERNS:\n- {毎週|まいしゅう}[⟦{曜日|ようび}→曜日：03877_youbi⟧]に: every [day of week]\n- {毎週|まいしゅう}⟦{一|いっ}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once every week\n- {毎週|まいしゅう}⟦{二|に}→二：00736_ni⟧⟦{回|かい}→回：00957_kai⟧: twice a week\n\n{毎|まい} SERIES:\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧: every day\n- {毎週|まいしゅう}: every week\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧: every month\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year\n\nRELATED:\n- ⟦{先週|せんしゅう}→先週：00752_senshuu⟧: last week\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week",
-  "cross_references": [],
+  "notes": "{毎週|まいしゅう} means \"every week.\" It functions as both a noun and an adverb.\n\nFORMATION:\nThe prefix まい- (\"every\") attached to ⟦{週|しゅう}→週：03204_shuu⟧ (week).\n\nCOMMON PATTERNS:\n- {毎週|まいしゅう}[⟦{曜日|ようび}→曜日：03877_youbi⟧]⟦に→に：00314_ni⟧: every [day of the week]\n- {毎週|まいしゅう}⟦{一|いっ}→一：00705_ichi⟧⟦{回|かい}→回：00957_kai⟧: once every week\n- {毎週|まいしゅう}⟦{二|に}→二：00736_ni⟧⟦{回|かい}→回：00957_kai⟧: twice a week\n\nまい- SERIES:\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧: every day\n- {毎週|まいしゅう}: every week\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧: every month\n- ⟦{毎年|まいとし}→毎年：00731_maitoshi⟧: every year\n\nRELATED:\n- ⟦{先週|せんしゅう}→先週：00752_senshuu⟧: last week\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "まいにち",
+      "headword": "{毎日|まいにち}",
+      "target_id": "00729_mainichi",
+      "label": "every day"
+    },
+    {
+      "type": "related",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "target_id": "00732_maitsuki",
+      "label": "every month"
+    },
+    {
+      "type": "related",
+      "reading": "こんしゅう",
+      "headword": "{今週|こんしゅう}",
+      "target_id": "00721_konshuu",
+      "label": "this week"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:55:01Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

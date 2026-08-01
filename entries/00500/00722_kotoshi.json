@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{今年|ことし} means this year - the current year we are in.\n\nREADING NOTE:\nThe reading ことし is irregular. {今|こ} is not the standard reading of this kanji.\n\nYEAR SERIES:\n- {去年|きょねん}/{昨年|さくねん}: last year\n- {今年|ことし}/{本年|ほんねん}: this year\n- {来年|らいねん}: next year\n- {再来年|さらいねん}: the year after next\n\nCOMMON PATTERNS:\n- {今年|ことし}の[season/month]: this year's [season/month]\n- {今年|ことし}も: this year too\n- {今年|ことし}こそ: this year for sure\n\nFORMALITY:\n- {今年|ことし}: neutral\n- {本年|ほんねん}: formal (used in business, official contexts)",
-  "cross_references": [],
+  "notes": "{今年|ことし} means \"this year\" — the calendar year we are currently in.\n\nREADING NOTE:\nThe reading ことし is irregular and must be memorized as a whole: neither half follows from the usual readings of the two characters. Learners who guess こんねん by analogy with ⟦{今月|こんげつ}→今月：00720_kongetsu⟧ will not be understood.\n\nYEAR SERIES:\n- ⟦{去年|きょねん}→去年：00727_kyonen⟧ / ⟦{昨年|さくねん}→昨年：10433_sakunen⟧: last year\n- {今年|ことし} / ⟦{本年|ほんねん}→本年：21513_honnen⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{再来年|さらいねん}→再来年：01417_sarainen⟧: the year after next\n\nCOMMON PATTERNS:\n- {今年|ことし}⟦の→の：09472_no⟧⟦{夏|なつ}→夏：02236_natsu⟧: this summer (any ⟦{季節|きせつ}→季節：01304_kisetsu⟧ or month works the same way)\n- {今年|ことし}⟦も→も：00484_mo⟧: this year too, this year again\n- {今年|ことし}⟦こそ→こそ：12731_koso⟧: this year for sure (typical of New Year's resolutions)\n\nFORMALITY:\n- {今年|ことし}: neutral, the everyday word\n- ⟦{本年|ほんねん}→本年：21513_honnen⟧: formal, used in business writing, speeches, and official notices\n\nUSAGE:\nLike the other year words, it attaches to a verb adverbially with no particle ({今年|ことし}⟦{行|い}く→行く：00119_iku⟧, \"go this year\").",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "target_id": "00727_kyonen",
+      "label": "last year"
+    },
+    {
+      "type": "contrast",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "target_id": "00745_rainen",
+      "label": "next year"
+    },
+    {
+      "type": "synonym",
+      "reading": "ほんねん",
+      "headword": "{本年|ほんねん}",
+      "target_id": "21513_honnen",
+      "label": "formal"
+    },
+    {
+      "type": "related",
+      "reading": "こんげつ",
+      "headword": "{今月|こんげつ}",
+      "target_id": "00720_kongetsu",
+      "label": "this month"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:35:18Z",
-    "modified": "2026-02-16T00:05:19Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

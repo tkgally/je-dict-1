@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "TIME REFERENCE SERIES:\n- {先月|せんげつ}: last month\n- {今月|こんげつ}: this month\n- {来月|らいげつ}: next month\n\nThe {今|こん} prefix means \"this\" or \"current\" and forms a pattern with other time words:\n- {今日|きょう}: today\n- {今週|こんしゅう}: this week\n- {今年|ことし}: this year (note irregular reading)\n- {今朝|けさ}: this morning (irregular reading)\n\nUSAGE:\nCan function as both a noun ({今月|こんげつ}は{忙|いそが}しい) and adverbially ({今月|こんげつ}{届|とど}く).",
-  "cross_references": [],
+  "notes": "TIME REFERENCE SERIES:\n- ⟦{先月|せんげつ}→先月：00751_sengetsu⟧: last month\n- {今月|こんげつ}: this month\n- ⟦{来月|らいげつ}→来月：00744_raigetsu⟧: next month\n\nThe prefix こん- (\"this, current\") forms a pattern with other time words:\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today (irregular reading)\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧: this week\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year (irregular reading)\n- ⟦{今朝|けさ}→今朝：02877_kesa⟧: this morning (irregular reading)\n\nUSAGE:\nCan function as both a noun ({今月|こんげつ}⟦は→は：00079_ha⟧⟦{忙|いそが}しい→忙しい：00591_isogashii⟧, \"this month is busy\") and adverbially with no particle ({今月|こんげつ}⟦{届|とど}く→届く：00899_todoku⟧, \"it arrives this month\").\n\nNo particle is needed when it modifies a verb; ⟦に→に：00314_ni⟧ is not used with {今月|こんげつ} the way it is with a specific date.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "target_id": "00751_sengetsu",
+      "label": "last month"
+    },
+    {
+      "type": "contrast",
+      "reading": "らいげつ",
+      "headword": "{来月|らいげつ}",
+      "target_id": "00744_raigetsu",
+      "label": "next month"
+    },
+    {
+      "type": "related",
+      "reading": "こんしゅう",
+      "headword": "{今週|こんしゅう}",
+      "target_id": "00721_konshuu",
+      "label": "this week"
+    },
+    {
+      "type": "related",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "target_id": "00722_kotoshi",
+      "label": "this year"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:12:02Z",
-    "modified": "2026-02-16T00:05:19Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

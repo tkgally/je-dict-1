@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{来月|らいげつ} refers to the month following the current one and can function as both a noun and time adverb.\n\nTIME REFERENCE SERIES:\n- ⟦{先月|せんげつ}→せんげつ：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→こんげつ：00720_kongetsu⟧: this month\n- {来月|らいげつ}: next month\n\nThe {来|らい} prefix means 'coming' or 'next' and appears in ⟦{来週|らいしゅう}→らいしゅう：00746_raishuu⟧ (next week) and ⟦{来年|らいねん}→らいねん：00745_rainen⟧ (next year).\n\nUSAGE:\nLike other time nouns, {来月|らいげつ} often appears without a particle: {来月|らいげつ}⟦{引|ひ}っ{越|こ}します→ひっこす：01171_hikkosu⟧ (I'm moving next month). Use の to connect to nouns: {来月|らいげつ}の⟦{予定|よてい}→よてい：00824_yotei⟧ (next month's plans).",
-  "cross_references": [],
+  "notes": "{来月|らいげつ} refers to the month following the current one and can function as both a noun and a time adverb.\n\nTIME REFERENCE SERIES:\n- ⟦{先月|せんげつ}→せんげつ：00751_sengetsu⟧: last month\n- ⟦{今月|こんげつ}→こんげつ：00720_kongetsu⟧: this month\n- {来月|らいげつ}: next month\n\nThe prefix らい- (\"coming, next\") also appears in ⟦{来週|らいしゅう}→らいしゅう：00746_raishuu⟧ (next week) and ⟦{来年|らいねん}→らいねん：00745_rainen⟧ (next year).\n\nUSAGE:\nLike other time nouns, {来月|らいげつ} often appears without a particle: {来月|らいげつ}⟦{引|ひ}っ{越|こ}します→ひっこす：01171_hikkosu⟧ (I'm moving next month). Use ⟦の→の：09472_no⟧ to connect it to a following noun: {来月|らいげつ}⟦の→の：09472_no⟧⟦{予定|よてい}→よてい：00824_yotei⟧ (next month's plans).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "こんげつ",
+      "headword": "{今月|こんげつ}",
+      "target_id": "00720_kongetsu",
+      "label": "this month"
+    },
+    {
+      "type": "contrast",
+      "reading": "せんげつ",
+      "headword": "{先月|せんげつ}",
+      "target_id": "00751_sengetsu",
+      "label": "last month"
+    },
+    {
+      "type": "related",
+      "reading": "らいしゅう",
+      "headword": "{来週|らいしゅう}",
+      "target_id": "00746_raishuu",
+      "label": "next week"
+    },
+    {
+      "type": "related",
+      "reading": "らいねん",
+      "headword": "{来年|らいねん}",
+      "target_id": "00745_rainen",
+      "label": "next year"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:46:58Z",
-    "modified": "2026-02-19T12:27:56Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

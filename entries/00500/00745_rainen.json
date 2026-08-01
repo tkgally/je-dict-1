@@ -63,11 +63,47 @@
       ]
     }
   ],
-  "notes": "{来年|らいねん} means 'next year' and can function as either a noun or an adverb.\n\nTIME SERIES:\n- ⟦{去年|きょねん}→きょねん：00727_kyonen⟧/⟦{昨年|さくねん}→さくねん：10433_sakunen⟧: last year\n- ⟦{今年|ことし}→ことし：00722_kotoshi⟧: this year\n- {来年|らいねん}: next year\n- ⟦{再来年|さらいねん}→さらいねん：01417_sarainen⟧: the year after next\n\nTHE {来|らい} PREFIX:\nMeans 'coming/next' and appears in many time words:\n- ⟦{来週|らいしゅう}→らいしゅう：00746_raishuu⟧: next week\n- ⟦{来月|らいげつ}→らいげつ：00744_raigetsu⟧: next month\n- {来学期|らいがっき}: next semester\n\nCOMMON PATTERNS:\n- {来年|らいねん}の⟦{春|はる}→はる：00627_haru⟧: next spring\n- {来年|らいねん}から: starting next year\n- {来年|らいねん}までに: by next year\n- {来年|らいねん}こそ: next year for sure\n\nREGISTER:\n⟦{昨年|さくねん}→さくねん：10433_sakunen⟧ (last year) and {翌年|よくねん} (the following year) are more formal alternatives.",
-  "cross_references": [],
+  "notes": "{来年|らいねん} means \"next year\" and can function as either a noun or an adverb.\n\nTIME SERIES:\n- ⟦{去年|きょねん}→きょねん：00727_kyonen⟧/⟦{昨年|さくねん}→さくねん：10433_sakunen⟧: last year\n- ⟦{今年|ことし}→ことし：00722_kotoshi⟧: this year\n- {来年|らいねん}: next year\n- ⟦{再来年|さらいねん}→さらいねん：01417_sarainen⟧: the year after next\n\nTHE らい- PREFIX:\nMeans \"coming, next\" and appears in many time words:\n- ⟦{来週|らいしゅう}→らいしゅう：00746_raishuu⟧: next week\n- ⟦{来月|らいげつ}→らいげつ：00744_raigetsu⟧: next month\n- ⟦{来学期|らいがっき}→らいがっき：27523_raigakki⟧: next semester\n\nCOMMON PATTERNS:\n- {来年|らいねん}⟦の→の：09472_no⟧⟦{春|はる}→はる：00627_haru⟧: next spring\n- {来年|らいねん}⟦から→から：00504_kara⟧: starting next year\n- {来年|らいねん}⟦まで→まで：00490_made⟧⟦に→に：00314_ni⟧: by next year\n- {来年|らいねん}⟦こそ→こそ：12731_koso⟧: next year for sure\n\nREGISTER:\n⟦{昨年|さくねん}→さくねん：10433_sakunen⟧ (last year) and ⟦{翌年|よくねん}→よくねん：23355_yokunen⟧ (the following year) are more formal alternatives. Note that {来年|らいねん} is always relative to now, while ⟦{翌年|よくねん}→よくねん：23355_yokunen⟧ is relative to some other year already under discussion.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "target_id": "00722_kotoshi",
+      "label": "this year"
+    },
+    {
+      "type": "contrast",
+      "reading": "きょねん",
+      "headword": "{去年|きょねん}",
+      "target_id": "00727_kyonen",
+      "label": "last year"
+    },
+    {
+      "type": "related",
+      "reading": "さらいねん",
+      "headword": "{再来年|さらいねん}",
+      "target_id": "01417_sarainen",
+      "label": "year after next"
+    },
+    {
+      "type": "related",
+      "reading": "よくねん",
+      "headword": "{翌年|よくねん}",
+      "target_id": "23355_yokunen",
+      "label": "the following year, formal"
+    },
+    {
+      "type": "related",
+      "reading": "らいげつ",
+      "headword": "{来月|らいげつ}",
+      "target_id": "00744_raigetsu",
+      "label": "next month"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:28:26Z",
-    "modified": "2026-02-19T12:27:56Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

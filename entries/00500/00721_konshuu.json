@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{今週|こんしゅう} means 'this week' and functions as both a noun and an adverb.\n\nTIME SERIES:\n- {先週|せんしゅう}: last week\n- {今週|こんしゅう}: this week\n- {来週|らいしゅう}: next week\n\nCOMMON PATTERNS:\n- {今週|こんしゅう}の{月曜日|げつようび}: this Monday\n- {今週|こんしゅう}{中|ちゅう}に: within this week\n- {今週|こんしゅう}{末|まつ}: this weekend\n\nRELATED {今|こん}- WORDS:\n- {今月|こんげつ}: this month\n- {今年|ことし}: this year (irregular reading)\n- {今日|きょう}: today (irregular reading)\n- {今朝|けさ}: this morning (irregular reading)",
-  "cross_references": [],
+  "notes": "{今週|こんしゅう} means \"this week\" and functions as both a noun and an adverb.\n\nTIME SERIES:\n- ⟦{先週|せんしゅう}→先週：00752_senshuu⟧: last week\n- {今週|こんしゅう}: this week\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧: next week\n\nCOMMON PATTERNS:\n- {今週|こんしゅう}⟦の→の：09472_no⟧⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧: this Monday\n- {今週|こんしゅう}⟦{中|ちゅう}→〜中：09840_chuu⟧⟦に→に：00314_ni⟧: within this week, before the week is out\n- ⟦{今週末|こんしゅうまつ}→今週末：noentry⟧: this weekend (from {今週|こんしゅう} + ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧)\n\nRELATED こん- WORDS (the prefix meaning \"this, current\"):\n- ⟦{今月|こんげつ}→今月：00720_kongetsu⟧: this month\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year (irregular reading)\n- ⟦{今日|きょう}→今日：00496_kyou⟧: today (irregular reading)\n- ⟦{今朝|けさ}→今朝：02877_kesa⟧: this morning (irregular reading)\n\nUSAGE:\nUsed adverbially without a particle ({今週|こんしゅう}⟦{忙|いそが}しい→忙しい：00591_isogashii⟧); ⟦に→に：00314_ni⟧ is not attached the way it is to a specific day.",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "reading": "せんしゅう",
+      "headword": "{先週|せんしゅう}",
+      "target_id": "00752_senshuu",
+      "label": "last week"
+    },
+    {
+      "type": "contrast",
+      "reading": "らいしゅう",
+      "headword": "{来週|らいしゅう}",
+      "target_id": "00746_raishuu",
+      "label": "next week"
+    },
+    {
+      "type": "related",
+      "reading": "こんげつ",
+      "headword": "{今月|こんげつ}",
+      "target_id": "00720_kongetsu",
+      "label": "this month"
+    },
+    {
+      "type": "related",
+      "reading": "まいしゅう",
+      "headword": "{毎週|まいしゅう}",
+      "target_id": "00730_maishuu",
+      "label": "every week"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:24:43Z",
-    "modified": "2026-02-16T00:05:19Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

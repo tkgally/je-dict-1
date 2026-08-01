@@ -8,17 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:07:32Z",
+  "reviewed_at": "2026-08-01T09:29:20Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "Semantic tags 'building' and 'transportation' are incorrect for '比率' (ratio/proportion).",
-      "suggestion": "Replace 'building' and 'transportation' with 'quantity' or 'general'."
+      "concern": "The gloss includes 'percentage', which is not a direct meaning of 比率. While percentages are a type of ratio, 比率 itself doesn't mean 'percentage'.",
+      "suggestion": "Remove 'percentage' from the gloss."
     }
   ]
 }
