@@ -1,6 +1,6 @@
 # Handling Homographs
 
-**Last updated**: 2026-04-08
+**Last updated**: 2026-08-01
 
 ## The problem
 
@@ -145,8 +145,85 @@ All entries that share a written form or reading should be cross-referenced. The
 
 For near-synonym homophones (the かえる cluster, the つく cluster, etc.), contrastive notes explaining the differences are high-value content. These notes should appear in each entry of the cluster, not just one, since the learner may arrive at any entry first.
 
+## Neighbour substitution: how homographs break the project's *tools*
+
+Added 2026-08-01. Everything above concerns how homographs are presented to the learner. A
+separate problem emerged during July 2026: homographs and homophones are the single most
+reliable way to make je-dict-1's automated instruments produce confident, well-formed, wrong
+output. Three different instruments hit it in the same week, and the failure has the same shape
+in all three — **the tool silently substitutes a neighbour that shares the surface or the sound,
+then reasons correctly about the wrong word.**
+
+### 1. The paid reviewer substitutes a homophone
+
+| Entry | Reviewer insisted the gloss should be | The reviewer was describing |
+|---|---|---|
+| 23075 {講読\|こうどく} — reading and study of texts | "subscription (to a publication)" (×2 `error` flags) | 購読, a different word with the same reading |
+
+Both flags were rejected. This is not the familiar noise family — the model is not misreading
+the gloss or nitpicking style. It has replaced the headword.
+
+### 2. The paid reviewer substitutes a *homograph* — the same characters, another reading
+
+| Entry | Reviewer insisted | The reviewer was describing |
+|---|---|---|
+| 23166 {激高\|げきたか} — slang "sky-high expensive", from the productive 激〜 intensifier | "rage; fury" (×4 `error` flags) | 激高 read げきこう |
+| 23182 {悪感\|あくかん} — "ill will" | "chill; nausea" (×5 `error` flags) | the おかん reading |
+
+Both entries are internally consistent and correct. The pattern is sharp enough to predict:
+**an entry documenting the minority reading of a homograph will reliably draw a full sweep of
+error-severity flags across every dimension.** The model reads the kanji, retrieves the dominant
+reading, and evaluates the entry against that word.
+
+Two useful corollaries. First, a prompt fix is available and narrow: tell the reviewer that the
+headword's *kanji plus its stated reading* are jointly authoritative, and that a proposed gloss
+belonging to a different reading of the same characters is out of scope. Second — and this was
+the more valuable outcome — **a rejected flag can still be a coverage signal**: checking the
+neighbours the model had in mind showed 激高/げきこう was genuinely missing (added as candidate
+C22661) while 悪寒/おかん already existed at 12670. Worth harvesting rather than discarding.
+
+### 3. Inline-link resolution substitutes a homophone — 87 confirmed defects
+
+The 2026-07-31 `systemic-fix` run over `link-target-baseform-disagreement` found the same
+phenomenon written into the corpus itself: inline links whose base form is a real word with its
+own entry, pointing at a **homophone's** entry.
+
+機能→昨日, 状況→上京, 電気→伝記, 性格→正確, 福祉→副詞, 会社→外車 — **87 occurrences across
+64 entries**, every one a Sino-Japanese compound, all repaired 1:1 with no ambiguity.
+
+The same trap sets the boundary of the stale-`noentry` sweep
+([Cleanup P35](../ideas/cleanup-backlog.md)): links whose base form matches only a single
+character (角 → つの when the text means かど) or only a reading (ば → 場 when the text means the
+conditional particle) cannot be resolved mechanically at all. 883 of 3,797 stale markers fall in
+that class, against 2,887 that are safe.
+
+### Why this class is invisible
+
+The 87 broken links all rendered, resolved, and worked. The §4 self-check over those same 64
+entries returned **zero** findings on the dimension that was actually broken — and offered 25
+unrelated tag opinions instead. No furigana instrument, no tag check, and no accuracy review can
+see a link that points at a coherent entry for the wrong word.
+
+This is the corpus-side case of the argument on
+[Instrument Defects](instrument-defects.md): homograph substitution produces output that is
+*well-formed by every rule the project checks*. Only deterministic base-form resolution
+(`check_link_baseform.py`) can see it, which is the argument for wiring that check into the CI
+ratchet once its population is worked down.
+
+### Implication for entry design
+
+The dictionary's own homograph handling — separate entries per reading, cross-linked — is what
+makes the mechanical repairs possible: 激高/げきこう and 悪寒/おかん are answerable questions
+because reading is part of entry identity. The cost is that **entries for minority readings are
+permanently expensive to review**, since every automated pass will argue with them. Flagging
+such entries explicitly (a note line naming the dominant-reading neighbour, which several
+already carry) is cheap and gives the next adjudicator the context to reject a sweep of flags
+in one pass rather than five.
+
 ## Related pages
 
+- [Inline Link Integrity](inline-link-integrity.md) — the link-resolution half of the substitution problem
+- [Instrument Defects](instrument-defects.md) — why well-formed wrong output is the hard case
 - [Entry Design](../project/entry-design.md) — entry schema and required fields
 - [Cross-Reference Design](cross-references.md) — linking related entries
 - [Japanese Lexicography](../research/japanese-lexicography.md) — challenges specific to Japanese dictionaries

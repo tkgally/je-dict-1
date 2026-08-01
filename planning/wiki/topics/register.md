@@ -1,6 +1,6 @@
 # Register and Formality
 
-**Last updated**: 2026-05-03
+**Last updated**: 2026-08-01
 
 ## Why register matters
 
@@ -144,6 +144,40 @@ SLA research suggests learners should acquire register awareness in stages:
 3. Finally: keigo (sonkeigo/kenjougo), which even native Japanese speakers find challenging
 
 This maps loosely to vocabulary tiers: basic/core entries should have clear register marking; general-tier entries handle the full range.
+
+## Gap: no field expresses "dated"
+
+Added 2026-08-01, from a 2026-07-31 accuracy-review adjudication.
+
+23060 {外套|がいとう} (overcoat) drew a flag asking to change `formality: formal` to "'archaic'
+or 'old-fashioned' if such tags exist, or 'neutral'". The model is **right about the word** —
+外套 is dated beside コート, and a learner needs to know that before using it — but both
+destinations it offered are wrong, so the flag was rejected:
+
+- `formal` is a point on the **register** axis (how the situation constrains word choice).
+- Datedness is a point on a **currency** axis (whether contemporary speakers still use the word
+  at all).
+- `neutral` would erase the register signal without adding the currency one.
+
+The two axes are independent: 外套 is both formal *and* dated; ちょっと is both casual and
+entirely current; 拙者 is dated and was never neutral. Collapsing them into one enum forces
+every dated word to lie about one of its properties.
+
+Entries currently express datedness, when they express it at all, in prose — a notes line saying
+the word "sounds old-fashioned". That is invisible to filtering, to the reviewer, and to any
+consistency check, which is exactly why the reviewer proposed overwriting a correct `formality`
+value: from its side of the schema there was nowhere else to put the observation.
+
+**Options**, in increasing order of cost: (a) document the convention that datedness lives in a
+REGISTER notes line and add a standing rejection for flags that propose `formality: archaic`;
+(b) add a `currency` field (`current` / `dated` / `archaic`) alongside `formality`; (c) extend
+the semantic tag vocabulary, which is the wrong home — this is a property of the word's use, not
+its meaning.
+
+Same shape as the taxonomy question behind
+[Cleanup P13](../ideas/cleanup-backlog.md#priority-13-overuse-of-general-as-sole-semantic-tag):
+a real distinction with no slot, resolving by default into a field that means something else.
+**Curator decision** — a Routine run cannot add a schema field.
 
 ## Implementation roadmap
 
