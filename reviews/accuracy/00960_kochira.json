@@ -2,37 +2,51 @@
   "entry_id": "00960_kochira",
   "headword": "こちら",
   "model": "google/gemini-2.5-flash",
-  "prompt_version": 2,
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T13:52:29Z",
+  "reviewed_at": "2026-08-01T18:28:11Z",
   "summary": {
-    "flagged": 3
+    "flagged": 5
   },
   "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "error",
-      "concern": "The gloss for the headword is incomplete and misleading as it omits the 'I/we' meaning, which is a significant usage of こちら.",
-      "suggestion": "this way, this person (polite), I/we (humble)"
-    },
     {
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect. While こちら is more polite than ここ/これ, it is not strictly 'formal' in the sense of technical or highly official language. It's polite, but commonly used in everyday polite interactions.",
+      "concern": "The headword 'こちら' is not inherently formal. While it is more polite than 'ここ' or 'これ', it is commonly used in everyday polite speech and is better described as 'polite' rather than 'formal'.",
       "suggestion": "polite"
     },
     {
       "dimension": "tags",
       "location": "tags.politeness",
       "severity": "error",
-      "concern": "The politeness tag 'polite' is incorrect. While こちら is generally polite, its usage in sense 3 ('I, we') is explicitly humble, not just polite. The headword encompasses both polite and humble uses.",
-      "suggestion": "polite/humble"
+      "concern": "The headword 'こちら' is not inherently polite. While it is more polite than 'ここ' or 'これ', it is commonly used in everyday polite speech and is better described as 'neutral' rather than 'polite'.",
+      "suggestion": "neutral"
+    },
+    {
+      "dimension": "gloss",
+      "location": "gloss",
+      "severity": "error",
+      "concern": "The gloss 'this way, this person (polite)' is misleading. While 'こちら' can mean 'this way' or 'this person', the parenthetical '(polite)' applies to the entire gloss, implying that 'this way' is also polite, which is not always the case. More importantly, it omits the 'I/we (humble)' meaning, which is a distinct and important usage.",
+      "suggestion": "this way, this person, I/we (polite/humble)"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss 'this way, here (polite)' is misleading. While 'こちら' is more polite than 'ここ', it's not exclusively 'polite' in the sense of formal politeness. It's often just a more respectful or slightly indirect way of saying 'here' or 'this way' in general polite conversation.",
+      "suggestion": "this way, here"
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[1].gloss",
+      "severity": "error",
+      "concern": "The gloss 'this person (polite introduction)' is misleading. While 'こちら' is used for polite introductions, the parenthetical '(polite introduction)' implies it's only for introductions, which is not true. It can refer to a person in other polite contexts.",
+      "suggestion": "this person (polite)"
     }
   ]
 }

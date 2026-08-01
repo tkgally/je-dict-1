@@ -70,11 +70,32 @@
       "reading": "どの",
       "headword": "どの",
       "target_id": "00551_dono"
+    },
+    {
+      "type": "related",
+      "target_id": "00963_kore",
+      "reading": "これ",
+      "headword": "これ",
+      "label": "this (near speaker)"
+    },
+    {
+      "type": "related",
+      "target_id": "00994_sore",
+      "reading": "それ",
+      "headword": "それ",
+      "label": "that (near listener)"
+    },
+    {
+      "type": "related",
+      "target_id": "00916_are",
+      "reading": "あれ",
+      "headword": "あれ",
+      "label": "that (far from both)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:44:32Z",
-    "modified": "2026-05-11T22:12:09Z",
+    "modified": "2026-08-01T18:29:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -84,7 +105,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "interrogative"
+        "grammatical"
       ]
     }
   }
