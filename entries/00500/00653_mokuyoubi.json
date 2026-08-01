@@ -18,7 +18,9 @@
       "english": "Today is Thursday.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00653_mokuyoubi_ex2",
@@ -26,7 +28,9 @@
       "english": "Thursdays are busy.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00653_mokuyoubi_ex3",
@@ -34,7 +38,9 @@
       "english": "Are you free Thursday evening?",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00653_mokuyoubi_ex4",
@@ -42,7 +48,9 @@
       "english": "I study at the library on Thursdays.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     },
     {
       "id": "00653_mokuyoubi_ex5",
@@ -50,14 +58,45 @@
       "english": "There's a test next Thursday, so I have to study every day starting today.",
       "notes": null,
       "has_audio": false,
-      "sense_numbers": [1]
+      "sense_numbers": [
+        1
+      ]
     }
   ],
   "notes": "{木曜日|もくようび} is Thursday, the fourth day of the Japanese week.\n\nETYMOLOGY:\n⟦{木|もく}→木：00524_ki⟧ (wood/tree) + ⟦{曜日|ようび}→曜日：03877_youbi⟧ (day of the week). Based on the planet Jupiter, called ⟦{木星|もくせい}→木星：13082_mokusei⟧ (wood star) in Japanese.\n\nFORMS:\n- Full: {木曜日|もくようび}\n- Abbreviated: ⟦{木曜|もくよう}→木曜：03163_mokuyou⟧ or just ⟦{木|もく}→木：00524_ki⟧\n\nDAYS OF THE WEEK:\n- ⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧ (Sun), ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (Mon), ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧ (Tue)\n- ⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧ (Wed), {木曜日|もくようび} (Thu)\n- ⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧ (Fri), ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Sat)\n\nCOMMON PATTERNS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{木曜日|もくようび}: every Thursday\n- {木曜日|もくようび}⟦に→に：00314_ni⟧: on Thursday\n- ⟦{来週|らいしゅう}→来週：00746_raishuu⟧⟦の→の：09472_no⟧{木曜日|もくようび}: next Thursday",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ようび",
+      "headword": "{曜日|ようび}",
+      "label": "day of the week (category word)",
+      "target_id": "03877_youbi"
+    },
+    {
+      "type": "related",
+      "reading": "もくよう",
+      "headword": "{木曜|もくよう}",
+      "label": "Thursday (abbreviated)",
+      "target_id": "03163_mokuyou"
+    },
+    {
+      "type": "related",
+      "reading": "すいようび",
+      "headword": "{水曜日|すいようび}",
+      "label": "Wednesday",
+      "target_id": "00672_suiyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "きんようび",
+      "headword": "{金曜日|きんようび}",
+      "label": "Friday",
+      "target_id": "00642_kinyoubi"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:50:12Z",
-    "modified": "2026-05-12T15:10:05Z",
+    "modified": "2026-08-01T00:19:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

@@ -2,22 +2,15 @@
   "entry_id": "00626_hachigatsu",
   "headword": "{八月|はちがつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:29Z",
+  "reviewed_at": "2026-08-01T00:26:28Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation includes cultural information (Obon, hottest month) that is not universally true for 'August' as a concept, especially for learners outside Japan or the Northern Hemisphere. While relevant to Japan, it over-specifies the basic meaning of 'August'.",
-      "suggestion": "Remove or rephrase the cultural/climatic details to focus purely on the definition of 'August' as the eighth month. Perhaps move such details to a separate 'cultural notes' section if available, or rephrase to 'In Japan, August is typically the hottest month...'."
-    }
-  ]
+  "issues": []
 }

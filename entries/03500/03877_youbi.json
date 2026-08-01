@@ -66,7 +66,7 @@
   "notes": "USAGE:\n{曜日|ようび} is both a stand-alone noun meaning 'day of the week' as a category, and the suffix that turns one of the seven element kanji into a weekday name. The element kanji takes its on'yomi before it, so the seven names are formed regularly and only need to be learned once.\n\nDAYS OF THE WEEK:\n・⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧ (Sunday) - ⟦{日|にち}→日：02249_hi⟧ = sun\n・⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (Monday) - ⟦{月|げつ}→月：02230_tsuki⟧ = moon\n・⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧ (Tuesday) - ⟦{火|か}→火：02248_hi⟧ = fire\n・⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧ (Wednesday) - ⟦{水|すい}→水：02258_mizu⟧ = water\n・⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧ (Thursday) - ⟦{木|もく}→木：00524_ki⟧ = wood\n・⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧ (Friday) - ⟦{金|きん}→金：02666_kin⟧ = gold/metal\n・⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Saturday) - ⟦{土|ど}→土：02229_tsuchi⟧ = earth\n\nSHORTENED FORM:\nIn timetables, TV listings, store signs, and casual speech, the final {日|び} is often dropped: ⟦{火曜|かよう}→火曜：13459_kayou⟧ for ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧, {水曜|すいよう} for ⟦{水曜日|すいようび}→水曜日：00672_suiyoubi⟧, and so on. The short form is normal in writing and in speech among friends, but the full form with {日|び} is always safe and is what learners should use by default.\n\nCOMMON QUESTIONS:\n・⟦{何|なん}→何：03100_nan⟧{曜日|ようび}？ (What day?)\n・⟦{今日|きょう}→今日：00496_kyou⟧⟦は→は：00079_ha⟧⟦{何|なん}→何：03100_nan⟧{曜日|ようび}？ (What day is today?)\n\nRELATED TIME WORDS:\n⟦{週|しゅう}→週：03204_shuu⟧ (week), ⟦{平日|へいじつ}→平日：03033_heijitsu⟧ (weekday), ⟦{週末|しゅうまつ}→週末：03030_shuumatsu⟧ (weekend).",
   "metadata": {
     "created": "2026-01-12T13:55:10Z",
-    "modified": "2026-07-25T03:45:27Z",
+    "modified": "2026-08-01T00:19:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -80,5 +80,56 @@
         "time-day-of-week"
       ]
     }
-  }
+  },
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "にちようび",
+      "headword": "{日曜日|にちようび}",
+      "label": "Sunday",
+      "target_id": "00656_nichiyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "げつようび",
+      "headword": "{月曜日|げつようび}",
+      "label": "Monday",
+      "target_id": "00624_getsuyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "かようび",
+      "headword": "{火曜日|かようび}",
+      "label": "Tuesday",
+      "target_id": "00640_kayoubi"
+    },
+    {
+      "type": "related",
+      "reading": "すいようび",
+      "headword": "{水曜日|すいようび}",
+      "label": "Wednesday",
+      "target_id": "00672_suiyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "もくようび",
+      "headword": "{木曜日|もくようび}",
+      "label": "Thursday",
+      "target_id": "00653_mokuyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "きんようび",
+      "headword": "{金曜日|きんようび}",
+      "label": "Friday",
+      "target_id": "00642_kinyoubi"
+    },
+    {
+      "type": "related",
+      "reading": "どようび",
+      "headword": "{土曜日|どようび}",
+      "label": "Saturday",
+      "target_id": "00621_doyoubi"
+    }
+  ]
 }

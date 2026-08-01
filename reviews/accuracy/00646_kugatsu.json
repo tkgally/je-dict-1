@@ -2,22 +2,15 @@
   "entry_id": "00646_kugatsu",
   "headword": "{九月|くがつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:52Z",
+  "reviewed_at": "2026-08-01T00:26:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation includes cultural information that is not universally true for 'September' and might be misleading for learners outside of Japan.",
-      "suggestion": "Remove 'The new school term resumes after summer vacation. Features the autumn equinox.' as these are not inherent to the meaning of 'September' itself and can vary by region."
-    }
-  ]
+  "issues": []
 }

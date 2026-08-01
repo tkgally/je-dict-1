@@ -2,22 +2,15 @@
   "entry_id": "00635_juuichigatsu",
   "headword": "{十一月|じゅういちがつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:38Z",
+  "reviewed_at": "2026-08-01T00:26:30Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation includes cultural information that is not universally true for 'November' as a concept, making it less suitable for a general definition of the month.",
-      "suggestion": "Remove 'Late autumn with peak foliage in many areas and the Shichi-Go-San festival for children.' from the explanation, or rephrase it to indicate it's specific to Japan."
-    }
-  ]
+  "issues": []
 }

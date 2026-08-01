@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{十一月|じゅういちがつ} is November, the eleventh month of the year.\n\nFORMATION:\n⟦{十一|じゅういち}→十一：00949_juuichi⟧ (eleven) + ⟦{月|がつ}→月：02230_tsuki⟧ (month)\n\nSEASON:\nLate autumn in Japan. ⟦{紅葉|もみじ}→紅葉：05387_momiji⟧ (autumn foliage) reaches its peak in many areas.\n\nEVENTS:\n- ⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧ (November 15): festival celebrating children aged 3, 5, and 7. Families visit shrines.\n- ⟦{勤労感謝|きんろうかんしゃ}→勤労感謝：noentry⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (November 23): Labor Thanksgiving Day (national holiday)\n\nRELATED:\n- ⟦{十月|じゅうがつ}→十月：00634_juugatsu⟧: October\n- ⟦{十二月|じゅうにがつ}→十二月：00636_juunigatsu⟧: December",
-  "cross_references": [],
+  "notes": "{十一月|じゅういちがつ} is November, the eleventh month of the year.\n\nFORMATION:\n⟦{十一|じゅういち}→十一：00949_juuichi⟧ (eleven) + ⟦{月|がつ}→月：02230_tsuki⟧ (month)\n\nSEASON:\nLate autumn in Japan. ⟦{紅葉|もみじ}→紅葉：05387_momiji⟧ (autumn foliage) reaches its peak in many areas.\n\nEVENTS:\n- ⟦{七五三|しちごさん}→七五三：06185_shichigosan⟧ (November 15): festival celebrating children aged 3, 5, and 7. Families visit shrines.\n- ⟦{勤労感謝|きんろうかんしゃ}→勤労感謝：27517_kinroukansha⟧⟦の→の：09472_no⟧⟦{日|ひ}→日：02249_hi⟧ (November 23): Labor Thanksgiving Day (national holiday)\n\nRELATED:\n- ⟦{十月|じゅうがつ}→十月：00634_juugatsu⟧: October\n- ⟦{十二月|じゅうにがつ}→十二月：00636_juunigatsu⟧: December",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "じゅうがつ",
+      "headword": "{十月|じゅうがつ}",
+      "label": "October",
+      "target_id": "00634_juugatsu"
+    },
+    {
+      "type": "related",
+      "reading": "じゅうにがつ",
+      "headword": "{十二月|じゅうにがつ}",
+      "label": "December",
+      "target_id": "00636_juunigatsu"
+    },
+    {
+      "type": "related",
+      "reading": "なんがつ",
+      "headword": "{何月|なんがつ}",
+      "label": "what month",
+      "target_id": "22086_nangatsu"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:17:06Z",
-    "modified": "2026-05-12T14:11:41Z",
+    "modified": "2026-08-01T00:19:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

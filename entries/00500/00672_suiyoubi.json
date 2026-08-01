@@ -63,11 +63,33 @@
       ]
     }
   ],
-  "notes": "{水曜日|すいようび} is Wednesday, the third day of the Japanese week.\n\nETYMOLOGY:\n⟦{水|すい}→水：02258_mizu⟧ (water) + ⟦{曜日|ようび}→曜日：03877_youbi⟧ (day of the week). Based on the planet Mercury, called ⟦{水星|すいせい}→水星：18165_suisei⟧ (water star) in Japanese.\n\nFORMS:\n- Full: {水曜日|すいようび}\n- Abbreviated: ⟦{水曜|すいよう}→水曜：noentry⟧ or just ⟦{水|すい}→水：noentry⟧\n\nDAYS OF THE WEEK:\n- ⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧ (Sun), ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (Mon), ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧ (Tue)\n- {水曜日|すいようび} (Wed), ⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧ (Thu)\n- ⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧ (Fri), ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Sat)\n\nCOMMON PATTERNS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{水曜日|すいようび}: every Wednesday\n- {水曜日|すいようび}⟦に→に：00314_ni⟧: on Wednesday\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧{水曜日|すいようび}: this Wednesday",
-  "cross_references": [],
+  "notes": "{水曜日|すいようび} is Wednesday, the third day of the Japanese week.\n\nETYMOLOGY:\n⟦{水|すい}→水：02258_mizu⟧ (water) + ⟦{曜日|ようび}→曜日：03877_youbi⟧ (day of the week). Based on the planet Mercury, called ⟦{水星|すいせい}→水星：18165_suisei⟧ (water star) in Japanese.\n\nFORMS:\n- Full: {水曜日|すいようび}\n- Abbreviated: ⟦{水曜|すいよう}→水曜：noentry⟧ or just ⟦{水|すい}→水：02258_mizu⟧\n\nDAYS OF THE WEEK:\n- ⟦{日曜日|にちようび}→日曜日：00656_nichiyoubi⟧ (Sun), ⟦{月曜日|げつようび}→月曜日：00624_getsuyoubi⟧ (Mon), ⟦{火曜日|かようび}→火曜日：00640_kayoubi⟧ (Tue)\n- {水曜日|すいようび} (Wed), ⟦{木曜日|もくようび}→木曜日：00653_mokuyoubi⟧ (Thu)\n- ⟦{金曜日|きんようび}→金曜日：00642_kinyoubi⟧ (Fri), ⟦{土曜日|どようび}→土曜日：00621_doyoubi⟧ (Sat)\n\nCOMMON PATTERNS:\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧{水曜日|すいようび}: every Wednesday\n- {水曜日|すいようび}⟦に→に：00314_ni⟧: on Wednesday\n- ⟦{今週|こんしゅう}→今週：00721_konshuu⟧⟦の→の：09472_no⟧{水曜日|すいようび}: this Wednesday",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "ようび",
+      "headword": "{曜日|ようび}",
+      "label": "day of the week (category word)",
+      "target_id": "03877_youbi"
+    },
+    {
+      "type": "related",
+      "reading": "かようび",
+      "headword": "{火曜日|かようび}",
+      "label": "Tuesday",
+      "target_id": "00640_kayoubi"
+    },
+    {
+      "type": "related",
+      "reading": "もくようび",
+      "headword": "{木曜日|もくようび}",
+      "label": "Thursday",
+      "target_id": "00653_mokuyoubi"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:04:22Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-08-01T00:19:39Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
