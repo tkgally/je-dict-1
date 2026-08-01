@@ -1,0 +1,31 @@
+{
+  "entry_id": "23596_hifuen",
+  "headword": "{皮膚炎|ひふえん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:34:41Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medicine' is not in the valid tag list.",
+      "suggestion": "health"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'body' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

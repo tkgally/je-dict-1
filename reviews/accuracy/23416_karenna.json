@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T18:28:00Z",
+  "reviewed_at": "2026-08-01T21:31:30Z",
   "summary": {
     "flagged": 1
   },
@@ -15,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '可憐な'. While the explanation states it's 'much more common in writing than in casual speech', this doesn't automatically make it 'formal'. It's more accurately described as 'literary' or 'poetic', which falls under 'neutral' formality in this dictionary's scheme, as it's not specifically used in formal business or official contexts.",
+      "concern": "The formality tag 'formal' is incorrect for '可憐な'. While the explanation mentions it's more common in writing, the word itself isn't inherently formal in the same way legal or academic terms are. It's more of a descriptive adjective that can appear in various contexts, including literature and everyday descriptions, without necessarily being 'formal'. 'Neutral' would be more appropriate.",
       "suggestion": "neutral"
     }
   ]

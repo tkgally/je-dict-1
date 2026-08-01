@@ -1,0 +1,31 @@
+{
+  "entry_id": "23606_juseiran",
+  "headword": "{受精卵|じゅせいらん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:34:52Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'biology' is not in the valid tag list.",
+      "suggestion": "science"
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'medicine' is not in the valid tag list.",
+      "suggestion": "health"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "entry_id": "23556_onkyousetsubi",
+  "headword": "{音響|おんきょう}{設備|せつび}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:33:53Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The formality tag 'formal' is incorrect for '音響設備'.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

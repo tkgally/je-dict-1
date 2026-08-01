@@ -1,0 +1,24 @@
+{
+  "entry_id": "23587_yokintsuuchou",
+  "headword": "{預金通帳|よきんつうちょう}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:34:30Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "warn",
+      "concern": "Tag 'banking' is not in the valid tag list.",
+      "suggestion": "finance"
+    }
+  ]
+}

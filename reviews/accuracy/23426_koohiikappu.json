@@ -4,26 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T18:28:11Z",
+  "reviewed_at": "2026-08-01T21:31:41Z",
   "summary": {
-    "flagged": 2
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'cooking' is inappropriate for 'コーヒーカップ' (coffee cup/teacup ride). While coffee cups are used in the context of preparing and consuming beverages, the item itself is not a cooking utensil or related to the act of cooking.",
-      "suggestion": "Remove 'cooking'. Consider 'consumption' or 'daily-life' (already present) as more appropriate."
-    },
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'entertainment' is inappropriate for 'コーヒーカップ' in its primary sense (a coffee cup). While the 'teacup ride' sense is entertainment, the tag should reflect the headword's overall meaning or be specific to the relevant sense.",
-      "suggestion": "Remove 'entertainment'. If a tag for the ride is desired, it should be applied to that specific sense if the dictionary structure allows, or a more general tag like 'leisure' could be considered if it applies to both senses, but 'entertainment' is too specific to only one sense and misleading for the primary meaning."
-    }
-  ]
+  "issues": []
 }

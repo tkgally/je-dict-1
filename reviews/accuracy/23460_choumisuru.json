@@ -1,0 +1,31 @@
+{
+  "entry_id": "23460_choumisuru",
+  "headword": "{調味|ちょうみ}する",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:32:14Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The headword is a suru-verb, which by convention should have the 'action' tag.",
+      "suggestion": "Add 'action' to the semantic tags."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The word '調味する' is not particularly formal; it's a common verb used in cooking contexts.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

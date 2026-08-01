@@ -1,0 +1,10 @@
+{
+  "entry_id": "22966",
+  "screened_at": "2026-08-01T21:25:14Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "The reading for 街並 (machinami) is given as まちな, which is a partial reading. While partial readings are allowed by design, in this specific case, it seems to be missing the 'み' at the end, making it incomplete for the full word 'machinami'. If the intention was to represent the full word 'machinami', then 'まちなみ' would be the complete reading for 街並. However, the instructions state 'Do NOT flag partial readings as errors — they are correct by design.' and 'Never infer that a reading is truncated or incomplete from that excerpt.' Given these constraints, I will not flag it as an error, but it's worth noting the discrepancy if the goal is to represent the full word's reading."
+  ],
+  "confidence": 0.8
+}

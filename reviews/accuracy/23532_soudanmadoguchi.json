@@ -1,0 +1,31 @@
+{
+  "entry_id": "23532_soudanmadoguchi",
+  "headword": "{相談|そうだん}{窓口|まどぐち}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:33:26Z",
+  "summary": {
+    "flagged": 2
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'government' is too narrow and misleading. While consultation counters exist in government, they are also prevalent in many other sectors (hospitals, banks, businesses, etc.) as indicated in the explanation. 'Society' or 'daily-life' are more appropriate general tags.",
+      "suggestion": "Replace 'government' with 'society'."
+    },
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '相談窓口' is a neutral, descriptive term for a type of service point. It is not inherently 'formal' in its usage. It can appear in formal documents but is also used in everyday conversation when referring to such places.",
+      "suggestion": "Change 'formal' to 'neutral'."
+    }
+  ]
+}

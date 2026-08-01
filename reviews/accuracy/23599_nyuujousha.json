@@ -1,0 +1,38 @@
+{
+  "entry_id": "23599_nyuujousha",
+  "headword": "{入場者|にゅうじょうしゃ}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:34:45Z",
+  "summary": {
+    "flagged": 3
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "Tag 'people' is not in the valid tag list.",
+      "suggestion": "person"
+    },
+    {
+      "dimension": "tags",
+      "location": "semantic_tags",
+      "severity": "error",
+      "concern": "Tag 'events' is not in the valid tag list.",
+      "suggestion": "general"
+    },
+    {
+      "dimension": "tags",
+      "location": "formality",
+      "severity": "error",
+      "concern": "The headword '入場者' is not inherently formal; it's a neutral term for 'attendee' or 'visitor'.",
+      "suggestion": "neutral"
+    }
+  ]
+}

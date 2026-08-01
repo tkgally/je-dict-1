@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:26:35Z",
+  "reviewed_at": "2026-08-01T21:29:40Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The tag 'plant-general' is incorrect for '椿油' (camellia oil). While derived from a plant, the headword itself refers to an oil, which is a 'food' or 'daily-life' item, not a plant.",
-      "suggestion": "Remove 'plant-general'."
-    }
-  ]
+  "issues": []
 }

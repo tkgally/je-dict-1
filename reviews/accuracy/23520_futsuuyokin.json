@@ -1,0 +1,24 @@
+{
+  "entry_id": "23520_futsuuyokin",
+  "headword": "{普通|ふつう}{預金|よきん}",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:33:13Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The term '普通預金' is a common, everyday financial term and is not considered 'formal'. It's a neutral term.",
+      "suggestion": "neutral"
+    }
+  ]
+}

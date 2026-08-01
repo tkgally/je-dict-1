@@ -1,0 +1,24 @@
+{
+  "entry_id": "23539_taimu",
+  "headword": "タイム",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:33:34Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.semantic",
+      "severity": "error",
+      "concern": "The tag 'sport' is too narrow for the headword's meaning, which also includes general 'time' in a competitive context and 'time-out' in various activities, not just sports.",
+      "suggestion": "Add 'time-general' to better reflect the broader meaning of 'タイム' as 'time' in a competitive sense and 'time-out' in general activities."
+    }
+  ]
+}
