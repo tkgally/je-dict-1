@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:27:10Z",
+  "reviewed_at": "2026-08-01T21:30:48Z",
   "summary": {
     "flagged": 1
   },
@@ -15,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'abstract' is inappropriate for the primary meaning of '壇' (platform/stage/podium), which refers to a physical structure. While sense 2 (world/circle) could be considered abstract, the headword itself is not primarily abstract.",
-      "suggestion": "Remove 'abstract'"
+      "concern": "The headword '壇' has two distinct senses, and the 'building' tag only applies to the first sense. The second sense ('world; circle; community') is not related to 'building'.",
+      "suggestion": "Remove 'building' from the headword's semantic tags, as it only applies to one sense. Semantic tags for headwords should apply to all senses or be general enough to encompass them. Alternatively, if the dictionary supports it, add specific tags for each sense."
     }
   ]
 }

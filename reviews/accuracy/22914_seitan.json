@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:26:08Z",
+  "reviewed_at": "2026-08-01T21:29:00Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'existence' is too broad and doesn't capture the specific meaning of 'birth'.",
-      "suggestion": "Replace 'existence' with 'daily-life' or 'person'."
-    }
-  ]
+  "issues": []
 }

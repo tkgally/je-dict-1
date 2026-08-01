@@ -1,0 +1,24 @@
+{
+  "entry_id": "23415_nuguisaru",
+  "headword": "ぬぐい{去|さ}る",
+  "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
+  "dimensions": [
+    "gloss",
+    "translation",
+    "tags"
+  ],
+  "reviewed_at": "2026-08-01T21:31:28Z",
+  "summary": {
+    "flagged": 1
+  },
+  "issues": [
+    {
+      "dimension": "tags",
+      "location": "tags.formality",
+      "severity": "error",
+      "concern": "The headword is marked as 'formal', but the explanation for sense 2 states it is 'a literary, slightly formal verb common in journalism, essays, and speeches.' This suggests 'slightly formal' or 'literary' would be more accurate than 'formal'.",
+      "suggestion": "Change 'formal' to 'slightly formal' or 'literary' if available, otherwise 'neutral' might be more appropriate given the 'slightly formal' description."
+    }
+  ]
+}

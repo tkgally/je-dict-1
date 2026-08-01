@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:26:49Z",
+  "reviewed_at": "2026-08-01T21:30:02Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.formality",
-      "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for '誰彼'. While it's not an everyday casual word, it's not strictly 'formal' in the sense of academic or official language. It's more of a literary or slightly archaic expression, but its usage in the examples is not formal.",
-      "suggestion": "neutral"
-    }
-  ]
+  "issues": []
 }

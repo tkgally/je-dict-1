@@ -4,19 +4,13 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T00:27:02Z",
+  "reviewed_at": "2026-08-01T21:30:34Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'daily-life' is too general and doesn't capture the specific meanings of '札' as a card, label, or charm. More specific tags are available.",
-      "suggestion": "Replace 'daily-life' with 'tool' (for tag/label/sign), 'entertainment' (for playing card), and 'religion' (for talisman/charm)."
-    }
-  ]
+  "issues": []
 }

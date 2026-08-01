@@ -4,19 +4,21 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T18:28:20Z",
+  "reviewed_at": "2026-08-01T21:32:18Z",
   "summary": {
     "flagged": 1
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "translation",
+      "location": "examples[1]",
       "severity": "error",
-      "concern": "The semantic tag 'direction' is incorrect for '縦列' (column/vertical row). While it implies a direction, the primary meaning is about arrangement or structure.",
-      "suggestion": "Replace 'direction' with 'general' or 'arrangement' (if 'arrangement' were a valid tag, but it's not, so 'general' is the best fit from the valid list)."
+      "concern": "The English translation 'parallel parking' is incorrect for 縦列駐車. 縦列駐車 refers to 'tandem parking' or 'column parking', where cars are parked one behind the other, not side-by-side as in parallel parking.",
+      "suggestion": "Change 'parallel parking' to 'tandem parking' or 'column parking'."
     }
   ]
 }

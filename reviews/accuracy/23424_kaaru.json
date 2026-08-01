@@ -4,9 +4,11 @@
   "model": "google/gemini-2.5-flash",
   "prompt_version": 3,
   "dimensions": [
+    "gloss",
+    "translation",
     "tags"
   ],
-  "reviewed_at": "2026-07-31T18:28:07Z",
+  "reviewed_at": "2026-08-01T21:31:38Z",
   "summary": {
     "flagged": 1
   },
@@ -15,7 +17,7 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "The tag 'body-part' is incorrect for 'カール'.",
+      "concern": "The tag 'body-part' is incorrect for 'カール'. While it relates to hair, hair itself is not a body part in the same way an arm or leg is. 'Appearance' is sufficient.",
       "suggestion": "Remove 'body-part'."
     }
   ]

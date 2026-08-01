@@ -1,0 +1,11 @@
+{
+  "entry_id": "23016",
+  "screened_at": "2026-08-01T21:30:45Z",
+  "model": "google/gemini-2.5-flash",
+  "flagged": true,
+  "concerns": [
+    "Reading 2: 上 → あ. The common reading for 上 as a standalone kanji is うえ, かみ, あ (as in あがる), のぼ (as in のぼる), etc. 'あ' alone is a partial reading for verbs like 上がる (あがる) or 上げる (あげる), but as a standalone kanji, it's incomplete. Given the context 「がる。」, it's likely meant to be part of 上がる, but the instruction is to judge ONLY the 'kanji → reading' pair itself. '上' by itself is not typically read as 'あ'.",
+    "Reading 5: 供 → そな. Similar to '上', '供' alone is not typically read as 'そな'. It's a partial reading for verbs like 供える (そなえる). Given the context 「えた。」, it's clearly part of 供える, but the instruction is to judge ONLY the 'kanji → reading' pair itself. '供' by itself is not typically read as 'そな'."
+  ],
+  "confidence": 0.9
+}
