@@ -3,7 +3,7 @@
   "headword": "こちら",
   "reading": "こちら",
   "part_of_speech": "pronoun",
-  "gloss": "this way, this person (polite)",
+  "gloss": "this way, this person; I, we (polite/humble)",
   "definitions": [
     {
       "sense_number": 1,
@@ -174,17 +174,53 @@
     }
   ],
   "notes": "The polite equivalent of ⟦ここ→ここ：00961_koko⟧/⟦こっち→こっち：02903_kocchi⟧. Part of the ko-so-a-do demonstrative system. Used in three main ways: direction/location, introductions, and self-reference.\n\nTHREE MAIN USES:\n1. Direction/location: こちら⟦へ→へ：02473_he⟧⟦どうぞ→どうぞ：02920_douzo⟧ (This way, please) — very common in shops and restaurants\n2. Introductions: こちら⟦は→は：00079_ha⟧{田中|たなか}⟦さん→〜さん：09848_san⟧⟦です→です：09485_desu⟧ (This is Mr. Tanaka) — the polite way to introduce someone\n3. Self-reference: こちら⟦から→から：00504_kara⟧⟦{連絡|れんらく}→連絡：01524_renraku⟧⟦します→する：00392_suru⟧ (We will contact you) — humble way to say \"I/we\"\n\nKEY EXPRESSION:\nこちら⟦こそ→こそ：12731_koso⟧ — used to return a greeting, thanks, or apology. Means \"I should be the one (thanking you / apologizing).\" Very common in daily polite exchanges.\n\nKO-SO-A-DO SET:\n- こちら: here, this way (near speaker)\n- ⟦そちら→そちら：00990_sochira⟧: there, that way (near listener)\n- ⟦あちら→あちら：00913_achira⟧: over there (far from both)\n- ⟦どちら→どちら：00927_dochira⟧: which way, where (question)",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "keigo",
+      "target_id": "00961_koko",
+      "reading": "ここ",
+      "headword": "ここ",
+      "label": "plain equivalent (place)"
+    },
+    {
+      "type": "related",
+      "target_id": "00913_achira",
+      "reading": "あちら",
+      "headword": "あちら",
+      "label": "over there (polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "00990_sochira",
+      "reading": "そちら",
+      "headword": "そちら",
+      "label": "that way, near listener (polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "00927_dochira",
+      "reading": "どちら",
+      "headword": "どちら",
+      "label": "which way (question, polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "02903_kocchi",
+      "reading": "こっち",
+      "headword": "こっち",
+      "label": "casual equivalent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:20:20Z",
-    "modified": "2026-05-13T17:11:56Z",
+    "modified": "2026-08-01T18:29:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
       "pos": [
         "pronoun"
       ],
-      "formality": "formal",
+      "formality": "neutral",
       "politeness": "polite",
       "semantic": [
         "direction"

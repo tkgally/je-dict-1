@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06734_tobioriru_ex1",
-      "japanese": "{子供|こども}が{木|き}から{飛|と}び{降|お}りた。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦が→が：00051_ga⟧⟦{木|き}→木：00524_ki⟧⟦から→から：00504_kara⟧{飛|と}び{降|お}りた。",
       "english": "The child jumped down from the tree.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06734_tobioriru_ex2",
-      "japanese": "{電車|でんしゃ}が{止|と}まる{前|まえ}に{飛|と}び{降|お}りてはいけない。",
+      "japanese": "⟦{電車|でんしゃ}→電車：00522_densha⟧⟦が→が：00051_ga⟧⟦{止|と}まる→止まる：00555_tomaru⟧⟦{前|まえ}→前：02255_mae⟧⟦に→に：00314_ni⟧{飛|と}び{降|お}りて⟦は→は：00079_ha⟧⟦いけない→いけない：02335_ikenai⟧。",
       "english": "You must not jump off before the train stops.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06734_tobioriru_ex3",
-      "japanese": "{屋根|やね}から{飛|と}び{降|お}りるのは{危険|きけん}だ。",
+      "japanese": "⟦{屋根|やね}→屋根：02264_yane⟧⟦から→から：00504_kara⟧{飛|と}び{降|お}りる⟦の→の：09472_no⟧⟦は→は：00079_ha⟧⟦{危険|きけん}→危険：01141_kiken⟧⟦だ→だ：09496_da⟧。",
       "english": "Jumping off the roof is dangerous.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "・{飛|と}び{降|お}りる → {飛|と}び{降|お}りない (negative)\n・{飛|と}び{降|お}りる → {飛|と}び{降|お}りて (te-form)\n・{飛|と}び{降|お}りる → {飛|と}び{降|お}りた (past)\n\nFORMATION:\nCompound verb: {飛|と}ぶ (to fly, to jump) + {降|お}りる (to descend, to get off)\n\nUSAGE:\n・〜から{飛|と}び{降|お}りる (to jump down from ~)\n\nRELATED COMPOUND VERBS:\n・{飛|と}び{乗|の}る - to jump onto\n・{飛|と}び{込|こ}む - to jump/dive in\n・{飛|と}び{上|あ}がる - to jump up\n・{飛|と}び{出|だ}す - to jump out",
+  "notes": "FORMATION:\nCompound verb: ⟦{飛|と}ぶ→飛ぶ：00759_tobu⟧ (to fly, to jump) + ⟦{降|お}りる→降りる：00568_oriru⟧ (to descend, to get off).\n\nUSAGE:\n・〜⟦から→から：00504_kara⟧{飛|と}び{降|お}りる (to jump down from ~)\n\nThe starting point takes ⟦から→から：00504_kara⟧, not ⟦を→を：00422_wo⟧. The verb is intransitive, so it never takes a direct object.\n\nRELATED COMPOUND VERBS:\n・⟦{飛|と}び{乗|の}る→飛び乗る：noentry⟧ - to jump onto (the opposite motion)\n・⟦{飛|と}び{込|こ}む→飛び込む：04614_tobikomu⟧ - to jump/dive in\n・⟦{飛|と}び{上|あ}がる→飛び上がる：06345_tobiagaru⟧ - to jump up\n・⟦{飛|と}び{出|だ}す→飛び出す：02374_tobidasu⟧ - to jump out",
   "cross_references": [
     {
       "type": "related",
@@ -148,11 +148,18 @@
       "headword": "{降|お}りる",
       "label": "to get off",
       "target_id": "00568_oriru"
+    },
+    {
+      "type": "related",
+      "target_id": "04614_tobikomu",
+      "reading": "とびこむ",
+      "headword": "{飛|と}び{込|こ}む",
+      "label": "to jump in, to dive in"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-08-01T18:24:19Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {

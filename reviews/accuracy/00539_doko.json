@@ -2,36 +2,23 @@
   "entry_id": "00539_doko",
   "headword": "どこ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:44Z",
+  "reviewed_at": "2026-08-01T18:27:56Z",
   "summary": {
-    "flagged": 3
+    "flagged": 1
   },
   "issues": [
     {
-      "dimension": "gloss",
-      "location": "gloss",
+      "dimension": "tags",
+      "location": "semantic_tags",
       "severity": "warn",
-      "concern": "The top-level gloss 'where' is incomplete as 'どこ' can also mean 'which (place)' or 'what (place)' in certain contexts, especially when asking for a choice among multiple places, or when used with 'か' to mean 'somewhere/anywhere'.",
-      "suggestion": "Change 'where' to 'where; which place; what place'."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].gloss",
-      "severity": "warn",
-      "concern": "The sense gloss 'where' is incomplete as 'どこ' can also mean 'which (place)' or 'what (place)' in certain contexts, especially when asking for a choice among multiple places, or when used with 'か' to mean 'somewhere/anywhere'.",
-      "suggestion": "Change 'where' to 'where; which place; what place'."
-    },
-    {
-      "dimension": "translation",
-      "location": "examples[3]",
-      "severity": "error",
-      "concern": "The English translation 'Did you go anywhere during summer vacation?' is a mistranslation. The Japanese 'どこかに行きましたか？' implies 'Did you go *somewhere* during summer vacation?' or 'Did you go *to some place* during summer vacation?', not necessarily 'anywhere' in the sense of 'to any place at all'. The nuance of 'どこか' is 'some place' or 'somewhere', not 'any place' or 'anywhere' in a general interrogative sense.",
-      "suggestion": "Change 'Did you go anywhere during summer vacation?' to 'Did you go somewhere during summer vacation?' or 'Did you go to some place during summer vacation?'"
+      "concern": "Tag 'interrogative' is not in the valid tag list.",
+      "suggestion": "grammatical"
     }
   ]
 }

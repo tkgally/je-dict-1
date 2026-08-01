@@ -8,24 +8,17 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:07:38Z",
+  "reviewed_at": "2026-08-01T18:28:22Z",
   "summary": {
-    "flagged": 2
+    "flagged": 1
   },
   "issues": [
     {
       "dimension": "tags",
-      "location": "tags.semantic",
-      "severity": "error",
-      "concern": "The semantic tag 'food' is incorrect for the headword 'おぼつかない'.",
-      "suggestion": "Replace 'food' with 'descriptive' or 'cognition' or 'movement'."
-    },
-    {
-      "dimension": "tags",
       "location": "tags.formality",
       "severity": "error",
-      "concern": "The formality tag 'formal' is incorrect for the headword 'おぼつかない'.",
-      "suggestion": "Replace 'formal' with 'neutral'."
+      "concern": "The formality tag 'formal' is incorrect for this word. While not slang, it's not particularly formal either; it's more neutral or slightly literary.",
+      "suggestion": "neutral"
     }
   ]
 }

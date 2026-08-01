@@ -3,7 +3,7 @@
   "headword": "どちら",
   "reading": "どちら",
   "part_of_speech": "pronoun",
-  "gloss": "which (of two); where (polite)",
+  "gloss": "which (of two); where (polite); who (polite)",
   "definitions": [
     {
       "sense_number": 1,
@@ -174,10 +174,25 @@
     }
   ],
   "notes": "どちら is a polite interrogative with three main uses: asking which of two options, asking where (polite), and asking who (polite). It is more formal than ⟦どっち→どっち：02922_docchi⟧.\n\nKO-SO-A-DO SERIES:\n- ⟦こちら→こちら：00960_kochira⟧: this way/person (near speaker)\n- ⟦そちら→そちら：00990_sochira⟧: that way/person (near listener)\n- ⟦あちら→あちら：00913_achira⟧: over there/that person\n- どちら: which way/person (question)\n\nKEY PATTERNS:\n- どちら⟦が→が：00051_ga⟧⟦いい→いい：00118_ii⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Which do you prefer?\n- どちら⟦へ→へ：02473_he⟧: Where are you going? (polite)\n- どちら⟦{様|さま}→様：01549_sama⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Who are you? (very polite)\n- どちら⟦に→に：00314_ni⟧お⟦{勤|つと}め→勤める：00902_tsutomeru⟧⟦です→です：09485_desu⟧⟦か→か：09473_ka⟧: Where do you work? (polite)\n\nREGISTER:\nどちら is the standard polite form. Use ⟦どっち→どっち：02922_docchi⟧ in casual speech. In business or formal situations, どちら is strongly preferred.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00960_kochira",
+      "reading": "こちら",
+      "headword": "こちら",
+      "label": "this way (polite)"
+    },
+    {
+      "type": "related",
+      "target_id": "00913_achira",
+      "reading": "あちら",
+      "headword": "あちら",
+      "label": "over there (polite)"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:03:43Z",
-    "modified": "2026-06-10T14:04:28Z",
+    "modified": "2026-08-01T18:29:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

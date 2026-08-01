@@ -64,10 +64,39 @@
     }
   ],
   "notes": "ここ is a demonstrative pronoun meaning \"here\" or \"this place\" - a location near the speaker.\n\nKO-SO-A-DO PLACE SERIES:\n- ここ: here (near speaker)\n- ⟦そこ→そこ：00991_soko⟧: there (near listener)\n- ⟦あそこ→あそこ：00919_asoko⟧: over there (far from both)\n- ⟦どこ→どこ：00539_doko⟧: where (question)\n\nCOMMON PATTERNS:\n- ここ⟦に→に：00314_ni⟧: here (location)\n- ここ⟦で→で：00502_de⟧: here (action takes place)\n- ここ⟦から→から：00504_kara⟧: from here\n- ここ⟦まで→まで：00490_made⟧: up to here, this far\n- ⟦この→この：00962_kono⟧⟦{辺|へん}→辺：00937_hen⟧: around here\n\nGRAMMAR NOTE:\nUnlike ⟦この→この：00962_kono⟧ (this), which must modify a noun, ここ can stand alone as a complete noun phrase.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00991_soko",
+      "reading": "そこ",
+      "headword": "そこ",
+      "label": "there (near listener)"
+    },
+    {
+      "type": "related",
+      "target_id": "00919_asoko",
+      "reading": "あそこ",
+      "headword": "あそこ",
+      "label": "over there (far from both)"
+    },
+    {
+      "type": "related",
+      "target_id": "00539_doko",
+      "reading": "どこ",
+      "headword": "どこ",
+      "label": "where (question)"
+    },
+    {
+      "type": "keigo",
+      "target_id": "00960_kochira",
+      "reading": "こちら",
+      "headword": "こちら",
+      "label": "polite equivalent"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:54:06Z",
-    "modified": "2026-05-13T17:11:56Z",
+    "modified": "2026-08-01T18:20:15Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

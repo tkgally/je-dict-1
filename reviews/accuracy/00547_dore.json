@@ -2,36 +2,15 @@
   "entry_id": "00547_dore",
   "headword": "どれ",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:53:59Z",
+  "reviewed_at": "2026-08-01T18:27:57Z",
   "summary": {
-    "flagged": 3
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "gloss",
-      "severity": "warn",
-      "concern": "The top-level gloss 'which one' is too narrow and doesn't fully capture the usage of 'どれ' in all contexts, especially when it means 'any one' as seen in example 2.",
-      "suggestion": "Consider adding 'any one' or a similar phrase to the top-level gloss, or rephrasing to be more inclusive of its indefinite pronoun usage."
-    },
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation states 'A question word asking to identify one item from a group of three or more.' This is incomplete as 'どれ' can also function as an indefinite pronoun meaning 'any one' (as in example 2), not just a question word.",
-      "suggestion": "Revise the explanation to include its indefinite pronoun usage, or create a separate sense for it."
-    },
-    {
-      "dimension": "tags",
-      "location": "semantic_tags",
-      "severity": "warn",
-      "concern": "The tag 'interrogative' is incomplete. While 'どれ' is often interrogative, it also functions as an indefinite pronoun (e.g., 'どれでもいい').",
-      "suggestion": "Add 'indefinite pronoun' to the semantic_tags."
-    }
-  ]
+  "issues": []
 }

@@ -64,10 +64,39 @@
     }
   ],
   "notes": "あれ is a demonstrative pronoun for things far from both the speaker and listener. Part of the ko-so-a-do system.\n\nDEMONSTRATIVE SERIES (things):\n- ⟦これ→これ：00963_kore⟧: this (near speaker)\n- ⟦それ→それ：00994_sore⟧: that (near listener)\n- あれ: that (far from both)\n- ⟦どれ→どれ：00547_dore⟧: which one (question)\n\nSHARED KNOWLEDGE USE:\nあれ can also refer to something both speaker and listener know about, even if not physically present: あれ、⟦どう→どう：00543_dou⟧⟦なった→なる：01970_naru⟧？ (What happened with that thing?)\n\nMODIFYING NOUNS:\nTo modify a noun, use ⟦あの→あの：00915_ano⟧ instead: ⟦あの→あの：00915_ano⟧⟦{本|ほん}→本：00111_hon⟧ (that book over there), not あれ⟦{本|ほん}→本：00111_hon⟧.",
-  "cross_references": [],
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "00963_kore",
+      "reading": "これ",
+      "headword": "これ",
+      "label": "this (near speaker)"
+    },
+    {
+      "type": "related",
+      "target_id": "00994_sore",
+      "reading": "それ",
+      "headword": "それ",
+      "label": "that (near listener)"
+    },
+    {
+      "type": "related",
+      "target_id": "00547_dore",
+      "reading": "どれ",
+      "headword": "どれ",
+      "label": "which one (question)"
+    },
+    {
+      "type": "contrast",
+      "target_id": "00915_ano",
+      "reading": "あの",
+      "headword": "あの",
+      "label": "modifier form: あの + noun"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:57:33Z",
-    "modified": "2026-05-13T14:08:17Z",
+    "modified": "2026-08-01T18:29:53Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -77,7 +106,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "direction"
+        "grammatical"
       ]
     }
   }

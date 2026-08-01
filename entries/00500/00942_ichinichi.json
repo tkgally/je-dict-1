@@ -89,7 +89,7 @@
     },
     {
       "id": "00942_ichinichi_ex8",
-      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧たち⟦は→は：00079_ha⟧{一日|いちにち}{中|じゅう}⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{遊|あそ}んで→遊ぶ：00550_asobu⟧⟦いました→いる：00495_iru⟧。",
+      "japanese": "⟦{子供|こども}→子供：00554_kodomo⟧⟦たち→たち：01551_tachi⟧⟦は→は：00079_ha⟧{一日|いちにち}{中|じゅう}⟦{外|そと}→外：00671_soto⟧⟦で→で：00502_de⟧⟦{遊|あそ}んで→遊ぶ：00550_asobu⟧⟦いました→いる：00495_iru⟧。",
       "english": "The children were playing outside all day long.",
       "notes": null,
       "has_audio": false,
@@ -128,11 +128,26 @@
       ]
     }
   ],
-  "notes": "{一日|いちにち} refers to a period of one day or, with {中|じゅう}, means 'all day long.'\n\nREADING NOTE:\nWhen meaning 'the first day of the month,' this word is read {一日|ついたち}, not いちにち.\n\nCOMMON PATTERNS:\n- ⟦{一日|いちにち}{中|じゅう}→一日中：09519_ichinichijuu⟧: all day long\n- {一日|いちにち}⟦で→で：00502_de⟧: in one day\n- {一日|いちにち}⟦に→に：00314_ni⟧～⟦{回|かい}→回：00957_kai⟧: ~ times per day\n\nDURATION COUNTING:\nFor counting days as a duration, Japanese uses the native number system:\n- {一日|いちにち}: one day\n- ⟦{二日|ふつか}→二日：02954_futsuka⟧⟦{間|かん}→間：noentry⟧: two days\n- ⟦{三日|みっか}→三日：02969_mikka⟧⟦{間|かん}→間：noentry⟧: three days\n\nThe suffix ⟦{間|かん}→間：noentry⟧ is optional for {一日|いちにち} but typically added for other counts (⟦{二日間|ふつかかん}→二日間：noentry⟧, ⟦{三日間|みっかかん}→三日間：noentry⟧).",
-  "cross_references": [],
+  "notes": "{一日|いちにち} refers to a period of one day or, with {中|じゅう}, means 'all day long.'\n\nREADING NOTE:\nWhen meaning 'the first day of the month,' this word is read ⟦{一日|ついたち}→一日：10993_tsuitachi⟧, not いちにち.\n\nCOMMON PATTERNS:\n- ⟦{一日|いちにち}{中|じゅう}→一日中：09519_ichinichijuu⟧: all day long\n- {一日|いちにち}⟦で→で：00502_de⟧: in one day\n- {一日|いちにち}⟦に→に：00314_ni⟧～⟦{回|かい}→回：00957_kai⟧: ~ times per day\n\nDURATION COUNTING:\nFor counting days as a duration, Japanese uses the native number system:\n- {一日|いちにち}: one day\n- ⟦{二日|ふつか}→二日：02954_futsuka⟧⟦{間|かん}→間：noentry⟧: two days\n- ⟦{三日|みっか}→三日：02969_mikka⟧⟦{間|かん}→間：noentry⟧: three days\n\nThe suffix ⟦{間|かん}→間：noentry⟧ is optional for {一日|いちにち} but typically added for other counts (⟦{二日間|ふつかかん}→二日間：noentry⟧, ⟦{三日間|みっかかん}→三日間：noentry⟧).",
+  "cross_references": [
+    {
+      "type": "contrast",
+      "target_id": "10993_tsuitachi",
+      "reading": "ついたち",
+      "headword": "{一日|ついたち}",
+      "label": "same kanji, read ついたち (1st of the month)"
+    },
+    {
+      "type": "related",
+      "target_id": "09519_ichinichijuu",
+      "reading": "いちにちじゅう",
+      "headword": "{一日中|いちにちじゅう}",
+      "label": "all day long"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:40:53Z",
-    "modified": "2026-05-13T15:16:20Z",
+    "modified": "2026-08-01T18:21:55Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {

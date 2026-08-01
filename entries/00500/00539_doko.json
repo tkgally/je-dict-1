@@ -82,11 +82,32 @@
       "reading": "いつ",
       "headword": "いつ",
       "target_id": "00536_itsu"
+    },
+    {
+      "type": "related",
+      "target_id": "00961_koko",
+      "reading": "ここ",
+      "headword": "ここ",
+      "label": "here (near speaker)"
+    },
+    {
+      "type": "related",
+      "target_id": "00991_soko",
+      "reading": "そこ",
+      "headword": "そこ",
+      "label": "there (near listener)"
+    },
+    {
+      "type": "related",
+      "target_id": "00919_asoko",
+      "reading": "あそこ",
+      "headword": "あそこ",
+      "label": "over there (far from both)"
     }
   ],
   "metadata": {
     "created": "2026-01-07T12:45:29Z",
-    "modified": "2026-05-11T22:12:09Z",
+    "modified": "2026-08-01T18:29:53Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {
@@ -96,7 +117,8 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "interrogative"
+        "direction",
+        "grammatical"
       ]
     }
   }
