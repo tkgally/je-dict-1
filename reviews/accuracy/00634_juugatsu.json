@@ -2,22 +2,15 @@
   "entry_id": "00634_juugatsu",
   "headword": "{十月|じゅうがつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:37Z",
+  "reviewed_at": "2026-08-01T00:26:29Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation includes cultural/seasonal information that is not universally true for 'October' (e.g., 'Autumn is in full swing' and 'autumn foliage' are specific to the Northern Hemisphere). While potentially helpful, it's not a core part of the definition of 'October' itself and could be misleading for learners in other regions.",
-      "suggestion": "Remove the seasonal description from the explanation, or rephrase it to be more general or explicitly state it's for the Northern Hemisphere. For example, 'The tenth month of the year.' or 'The tenth month of the year. In the Northern Hemisphere, this is typically a month of autumn with pleasant weather and autumn foliage.'"
-    }
-  ]
+  "issues": []
 }

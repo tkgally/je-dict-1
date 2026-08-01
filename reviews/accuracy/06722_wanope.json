@@ -8,7 +8,7 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:07:27Z",
+  "reviewed_at": "2026-08-01T00:26:50Z",
   "summary": {
     "flagged": 1
   },
@@ -17,8 +17,8 @@
       "dimension": "tags",
       "location": "tags.semantic",
       "severity": "error",
-      "concern": "Semantic tags 'body-part' and 'time-general' are incorrect for the headword 'ワンオペ'.",
-      "suggestion": "Replace with 'daily-life' or 'work' or 'society'."
+      "concern": "The headword 'ワンオペ' has two distinct senses, one related to work and another to family/childcare. The current semantic tag 'work' only covers the first sense.",
+      "suggestion": "Add 'family' to the semantic tags to cover the second sense of solo parenting."
     }
   ]
 }

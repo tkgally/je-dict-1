@@ -8,17 +8,24 @@
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-17T19:07:23Z",
+  "reviewed_at": "2026-08-01T00:26:47Z",
   "summary": {
-    "flagged": 1
+    "flagged": 2
   },
   "issues": [
     {
-      "dimension": "tags",
-      "location": "tags.semantic",
+      "dimension": "gloss",
+      "location": "gloss",
       "severity": "error",
-      "concern": "The semantic tag 'electronics' is incorrect for the headword '呆れる' (to be amazed/appalled).",
-      "suggestion": "Replace 'electronics' with a more appropriate tag like 'emotion' or 'descriptive'."
+      "concern": "The gloss includes 'to be amazed', which can imply positive surprise, but 呆れる is almost exclusively used for negative surprise or dismay.",
+      "suggestion": "Remove 'to be amazed' from the gloss."
+    },
+    {
+      "dimension": "gloss",
+      "location": "definitions[0].gloss",
+      "severity": "error",
+      "concern": "The gloss includes 'to be amazed', which can imply positive surprise, but 呆れる is almost exclusively used for negative surprise or dismay.",
+      "suggestion": "Remove 'to be amazed' from the gloss."
     }
   ]
 }

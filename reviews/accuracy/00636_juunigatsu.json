@@ -2,22 +2,15 @@
   "entry_id": "00636_juunigatsu",
   "headword": "{十二月|じゅうにがつ}",
   "model": "google/gemini-2.5-flash",
+  "prompt_version": 3,
   "dimensions": [
     "gloss",
     "translation",
     "tags"
   ],
-  "reviewed_at": "2026-06-10T02:56:39Z",
+  "reviewed_at": "2026-08-01T00:26:31Z",
   "summary": {
-    "flagged": 1
+    "flagged": 0
   },
-  "issues": [
-    {
-      "dimension": "gloss",
-      "location": "definitions[0].explanation",
-      "severity": "warn",
-      "concern": "The explanation includes cultural information (Christmas, New Year preparation) that is not inherent to the meaning of 'December' itself, but rather common associations in some cultures. While relevant, it's not a direct part of the definition of the month.",
-      "suggestion": "Remove or rephrase the cultural associations to focus purely on the definition of the month. For example, 'The twelfth and final month of the year.'"
-    }
-  ]
+  "issues": []
 }
