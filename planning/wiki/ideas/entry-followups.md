@@ -929,6 +929,74 @@ moved past it and nothing will return to it on its own.
 itself on. Also worth checking while it is open: the entry is a compound verb, so the
 `自動詞`/`他動詞` label and particle links that P21 was originally named for apply too.
 
+## 00759 {飛|と}ぶ — only the two literal senses, none of the frequent extended ones
+
+**Source**: 2026-07-31 routine polish run (priority lane)
+
+The entry documents 'fly' and 'jump' and stops there. Missing, all common and all unmarked:
+
+| Pattern | Sense |
+|---|---|
+| {帽子\|ぼうし}が飛ぶ | to be blown off |
+| ページが飛ぶ / {順番\|じゅんばん}が飛ぶ | to be skipped |
+| データが飛ぶ | to be lost (data) |
+| {現場\|げんば}に飛ぶ | to rush off to |
+
+The polish run also had to **rewrite two of the existing 'jump' examples**, which were wrong
+rather than merely thin — 子供が飛んでいます reads as *flying*, not jumping, and the sense the
+example was written to teach is 跳ぶ/跳ねる territory.
+
+Adding four senses with examples and reworking the sense ordering is more than a polish slot
+affords; this is a rewrite. Basic tier, so it is also high-traffic. Note that 飛ぶ/跳ぶ is a
+[homograph pair](../topics/homographs.md) — whatever is added should say which spelling belongs
+to which sense.
+
+## 00711 かかる — missing 罠にかかる and 病気にかかる
+
+**Source**: 2026-07-31 routine polish run
+
+The entry glosses only "to take (time/money), to cost". But かかる is the standard verb in
+{罠|わな}にかかる (to be caught in a trap) and {病気|びょうき}にかかる (to fall ill), and neither
+is covered.
+
+This is already costing other entries: 06716 まんまと has to inline-link 罠にかかる *to this
+entry* regardless, so a reader following that link lands on "to cost" and learns nothing.
+
+Either add the senses here, or split — the に-marked "be caught by / come down with" sense is
+arguably a different verb from the "require (time, money)" one and is written 罹る in the medical
+case. Related: [Tooling 52](tooling-backlog.md) already flags this entry's transitivity pair
+(00711 かかる / 00854 かける) as having prose and `prominent_see_also` but no structured
+`cross_references` link.
+
+## 06718 かりかり — two obvious mimetic neighbours unlinked
+
+**Source**: 2026-08-01 routine polish run
+
+06718 かりかり links さくさく (05887) but not ぱりぱり (05259) or ばりばり (05720), which are the
+nearest members of the same crunchy-texture mimetic set. Left this run to avoid widening the
+run's neighbor edits past its frontier block. Small, and best done together with the rest of the
+05xxx/067xx mimetic cluster rather than alone.
+
+## The calendar family (00624–00672 and neighbours) — cross-references half-wired
+
+**Source**: 2026-08-01 routine polish run
+
+Before that run, essentially the whole day/month/date family carried **empty
+`cross_references`** — 00624, 00625, 00634, 00635, 00653, 00665, 00667, 00672, 00631, 00636,
+00640, 00642, 00646, 00657, 00662, 00668, 03877, with only 00621 and 00656 having any. The
+series structure — Monday↔Tuesday, January↔February, 何月↔月 — lived entirely in prose notes,
+so it was invisible to site navigation and to `check_semantic_clusters.py`.
+
+The run wired up the entries it touched plus their direct neighbours. **Still needing the same
+treatment**: 00631 (January), 00636 (December), 00640 (Tuesday), 00642 (Friday), 00646
+(September), 00657 (February), 00662 (June), 00668 (April), 22086 (何月).
+
+A second, related gap in the same family: several of these entries' notes are **entirely
+kanji-etymology plus a set list, with no usage information at all** — no particle, no "on
+Saturday", no frequency expressions (00621 土曜日 is the type specimen). Because the set is
+formulaically similar, adding a USAGE section to each is an unusually well-bounded
+`systemic-fix` batch: one template, ~17 entries, no per-entry judgment beyond the word itself.
+
 ## Related pages
 
 - [Cleanup Backlog](cleanup-backlog.md) — systemic patterns

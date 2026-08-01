@@ -735,6 +735,17 @@ verb-form-misparse cases (the 00472 仕様 / 22875 出回り class) without manu
 
 ## 19. Stale-`noentry` inline-link detector
 
+> **Update 2026-08-01 — the scope is measured, and it is 3,797, not "hundreds".** The
+> 2026-08-01 wiki harvest ran the detector this item describes: of 7,320 `noentry` links,
+> **3,797 (52%) now resolve**, of which **2,887 have a full headword match with exactly one
+> candidate entry** (mechanical) and 883 match only on a single character or a reading alone
+> (per-entry — homograph trap). **85% of the stale population points at entries in bands
+> 26000+**, i.e. it was created by the last few months of `new-entries` runs and is still
+> growing. That makes this item's *incremental half* — the `manage_candidates.py sync` hook —
+> the part that matters: it closes the source, while the sweep only clears the arrears. Filed
+> as [Cleanup P35](cleanup-backlog.md) with the full stratification; analysis on
+> [Inline Link Integrity](../topics/inline-link-integrity.md).
+
 **Source**: 2026-06-14/15 routine runs (multiple stale-`noentry` sightings)
 
 Inline links written as `⟦surface→base：noentry⟧` are correct at creation time when no
@@ -1400,6 +1411,19 @@ That reframes this item. Embedding the valid enum (this item's original fix) pre
 Note the asymmetry worth preserving if the dimension survives: routine2.md §A already says to apply a formality flag **only when the entry's own notes contradict the label**. The reviewer is being asked for exactly the judgment it is demonstrably worst at, so the prompt should encode the §A rule rather than leave it to adjudication.
 
 ## 24. Non-hiragana-reading lint (cheap replacement for the furigana screener's true-positive class)
+
+> **Update 2026-08-01 — fourth and fifth post-fix data points, both zero.** 2026-07-31
+> accuracy-review (22213–22275): **63 entries screened, zero flags raised** — not zero applied,
+> zero raised. 2026-07-31 accuracy-review (22276–22333): **58 entries, 3 flags, 0 applied**, all
+> three in documented false-positive families (`{砲丸投|ほうがんな}げ` okurigana split,
+> `{集|たか}り`, and `{艶|あで}やか` appearing inside 22288's *own* similar-words contrast).
+> Cumulative post-fix: **0 applied of ~35 flags across five consecutive runs**, with no
+> counter-evidence since the context-snippet repair. Throughput remains the binding constraint
+> at ~1.8–2 entries/min against the accuracy pass's ~13, and because the shared cursor
+> `polishing/tasks/cross-model-review/progress.txt` is pinned to the *screener's* frontier, the
+> slower instrument sets the pace of the faster one. The retire-or-downsample recommendation
+> now has five data points; a fixed 50-entry sample per run would unpin the cursor without
+> discarding the instrument outright. **Curator decision.**
 
 **Source**: 2026-06-18 accuracy-review furigana phase (entries 06926–07139), session 007
 
@@ -2370,6 +2394,18 @@ retroactively (or the window annotated) before it can be compared with later win
 
 ## 46. Pre-scan off-vocabulary tags deterministically and feed the list to the accuracy reviewer
 
+> **Update 2026-08-01 — two more blocks, and the ordering is now settled practice.** In
+> 22767–23100, **110 of the 118 entries the paid reviewer flagged on `tags` had already been
+> identified by the free `VALID_SEMANTIC` diff**; the reviewer's marginal contribution was 10
+> flags on in-list tags (2 applied) plus concrete destinations for tags the 1:1 map cannot
+> reach. In 23101–23500 the free scan found **171 of 400 entries (43%)** off-vocabulary, and of
+> the paid pass's 54 tag flags on post-migration entries, **38 either re-suggested a tag the
+> free scan had already applied or proposed `general`** — only 4 were novel and correct
+> (`action` on 鋳造/団体行動, `shopping` on 即日配送, `appearance` on コンシーラー). Five
+> consecutive blocks now agree: **the free scan is the detector; the paid pass is a destination
+> oracle plus in-list check.** Running them in that order is what the last two accuracy-review
+> runs did, and it should be the documented default rather than a per-run choice.
+
 **Source**: 2026-07-30 routine accuracy-review (21301–21900)
 
 The accuracy reviewer flagged off-vocabulary semantic tags on **245 of 598** entries in
@@ -2578,6 +2614,73 @@ that "the checker sees this and stays quiet" is worth verifying before more of t
 polished on the assumption that it does not.
 
 Related: item 39 (cross-reference-pair tag consistency), item 25 (target-id resolution).
+
+## 53. `review_accuracy.py` wrote an empty `description` on every issue it raised
+
+**Source**: 2026-07-31 routine systemic-fix run (`link-target-baseform-disagreement`)
+
+All **26** issues raised in that run came back with an empty `description`, leaving `suggestion`
+as the only adjudicable content — bare destinations like `"-> general"` and `"-> cognition"`.
+
+Adjudication still worked, because a tag suggestion is largely self-describing. But an
+`error`-severity flag whose entire evidence is a severity label, a dimension name, and a
+destination is thin, and **a flag with no stated reason is one a future run cannot audit** —
+which matters directly for the [decisions ledger](../topics/quality-metrics.md), whose whole
+purpose is retrospective precision measurement.
+
+Two candidate causes, cheap to distinguish: the field is being dropped by the response parser,
+or it is never requested in the prompt for that dimension. Worth checking whether the same
+emptiness appears on `gloss`/`translation` issues or only on `tags` — if only `tags`, it is a
+prompt-template gap rather than a parser bug.
+
+## 54. Candidate-list quality filter: reject inflected forms and number+counter strings at harvest time
+
+**Source**: 2026-07-31 routine new-entries run (30259–30278) and 2026-07-31 routine
+accuracy-review — two independent runs reporting the same thing within a day
+
+The ~1,000 candidates outside the `seen in entry` set are dominated by corpus-harvesting noise
+in three families:
+
+| Family | Examples |
+|---|---|
+| Inflected forms of words that already have entries | 激しく, 知らない, 勝てない, 優しく |
+| Compositional phrases and number+counter strings | 三年前, 一年前, 四十五, 二千円, 森の中, 片面印刷 |
+| Apparent non-words / coinages | 権使, 些道, 個尊, 怒燥, 多角的一面 |
+
+Sampled windows put usable headwords at roughly **1 in 10**, so a `new-entries` run working the
+oldest-first fallback order burns a large share of its context sifting rather than writing.
+
+Two fixes, and they are complementary: a **harvest-time filter** (an inflected form is
+detectable by lemmatising against `word_id_lookup.json`; number+counter is a regex) stops the
+inflow, and a **scoring pass** that demotes rather than deletes makes the existing fallback
+order usable without a destructive edit to `candidate_words.json`. A manual
+`clean_up_candidates_list` pass would clear the arrears but not the source.
+
+**Interacts with [item 23](#23-candidate-pool-pre-filter-for-corpus-harvesting--manage_candidates)**: the selector's `candidates_low`
+signal counts ~1,000 candidates and stays quiet, while the pool a run can actually write from is
+near empty. Scoring would make that count mean something.
+
+## 55. Detector: contrast words named in notes prose but absent from `cross_references`
+
+**Source**: 2026-07-31 routine polish run (priority lane, basic-tier verbs)
+
+Six of eight priority-lane entries named a contrast word **in prose** — 覚える→習う,
+洗う→拭く/すすぐ/磨く, やめる→続ける, 軽蔑→見下す/馬鹿にする — with no corresponding
+`cross_references` object. The relationship is therefore invisible to the site's navigation and
+to `check_semantic_clusters.py`: the prose is doing work the structured field exists to do.
+
+The extraction is mechanical where the prose is already linked: take every `⟦…：entry_id⟧` that
+appears inside a `SIMILAR WORDS` / `Different from` / `Opposite:` / `CONTRAST` note section, and
+diff those target IDs against the entry's `cross_references` target IDs. Report the difference.
+Because the section heading supplies the *relation type*, the detector can even propose the
+right `type` value rather than leaving it blank.
+
+Two caveats worth building in: it only sees entries that are already inline-linked (i.e. the
+below-frontier corpus — see [Inline Link Integrity](../topics/inline-link-integrity.md)), and
+not every prose mention deserves a structured ref, so this is a `verify: per-entry` queue rather
+than a mechanical sweep. Closely related to
+[item 52](#52-does-check_semantic_clusterspy-count-a-prominent_see_also-mention-as-satisfying-the-pair-requirement),
+which asks the mirror-image question about `prominent_see_also`.
 
 ## Related pages
 

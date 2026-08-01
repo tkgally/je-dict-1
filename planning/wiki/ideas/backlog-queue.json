@@ -1,7 +1,7 @@
 {
   "_doc": "Machine-readable index of open, batch-addressable backlog items for the Routine's systemic-fix mode (prompts/routine2.md §B). The wiki-maintenance session keeps this in sync with the prose backlog pages (ideas/cleanup-backlog.md, ideas/tooling-backlog.md). The selector (pipeline/routine_next.py) picks the lowest-'priority'-number item with status=='open' AND batch_ready==true. EVERY fix is verified per-entry before changing anything (the detectors are read-only review queues); 'fix_type' only indicates how safe the transform is once verified.",
   "version": 1,
-  "updated": "2026-07-30",
+  "updated": "2026-08-01",
   "items": [
     {
       "id": "furigana-reading-truncated",
@@ -149,7 +149,7 @@
       "priority": 10,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 3790,
+      "scope_estimate": 3791,
       "severity": "info",
       "notes": "Low-urgency enrichment, not an error. Only replace 'general' when a specific tag clearly applies from the gloss; otherwise leave it. Large scope — drain slowly."
     },
@@ -191,7 +191,7 @@
       "priority": 99,
       "batch_ready": false,
       "status": "detector-experimental",
-      "scope_estimate": 845,
+      "scope_estimate": 865,
       "severity": "warn",
       "notes": "P11 is the most pervasive tag-drift problem. The AUTHORITATIVE path for the in-list-but-wrong-category long tail is the accuracy-review mode's LLM tag pass (build/review_accuracy.py --dimensions tags), which judges each semantic tag against the headword (not example topics). For the MECHANICALLY-detectable slices, two high-precision checks were carved out of this noisy heuristic 2026-06-17 and ARE batch_ready: tag-proverb-idiom-mismatch and tag-concrete-noun-domain-mismatch (below). This keyword detector (check_tag_drift.py --check semantic-mismatch) stays batch_ready:false / experimental — it is a free, noisy manual-audit aid only (flags boat=transportation, school=building). Do NOT drive systemic-fix from it; use the two high-precision checks or the accuracy-review tags pass. Remediation prompt: prompts/fix_semantic_tag_drift.md."
     },
@@ -250,7 +250,7 @@
       "priority": 9,
       "batch_ready": true,
       "status": "open",
-      "scope_estimate": 5519,
+      "scope_estimate": 5009,
       "severity": "warn",
       "notes": "Curator tag-policy decision 2026-06-11: VALID_SEMANTIC expanded with 30 established tags (>=100 uses); remaining 9,036 instances across 7,292 entries migrate to in-list tags. Near-duplicates carry suggested targets (TAG_MIGRATION map in check_tag_drift.py) but still verify per entry. accuracy-review prompt v3 also drains this organically. See topics/schema-tag-reliability.md. UPDATE 2026-06-24: free-form cohort continues unbroken into 9240-9456 (~56% out-of-list; 35 error-flags migrated, ~86 residual). Dict-wide ~8,698 flags; per-range accuracy-review cannot drain it alone. UPDATE 2026-06-26: themed sub-batches migrated this window (9741-9814 20%; new shopping/tech cohort 9815-9849 60%). ENFORCE-SIDE SHIPPED 2026-06-25: validate_tags.py --check-no-new-unknown + build/data/unknown_semantic_baseline.json is now a CI step gating NEW off-vocab tags (legacy tail still gradual; live scope re-measured 8,267 instances / 6,759 entries / 1,109 distinct tags). Tooling item 27 full hard-error flip still pending the curated-migration drain. UPDATE 2026-06-28: free-form cohort confirmed contiguous through ~10947 — the 10700-11000 katakana/slang/loanword band is a dense, mostly-1:1-mappable pocket (10716-10887 45/67 flags off-vocab; 10905-10934 a 2026-02 claude-opus-4-6 batch, 25/60 entries); accuracy-review even MISSED ~9 off-vocab tags in a nominally-reviewed 10550-10715 range, so a single scoped check_tag_drift.py --check unknown-semantic sweep over 10700-11000 is the efficient next batch (per-range review cannot drain the dict-wide backlog). UPDATE 2026-07-08: free-form/off-vocab cohort confirmed contiguous well past 13000 — the 12507-13199 band is a dense off-list pocket (12520-12577 systematic compound off-vocab tags action-*/thought-*/society-*/culture-*; 12674-13199 65/526 entries genuinely off-list place/war/degree/quality/material/crime/information/sensation). Two accuracy-review runs migrated the provably-safe hyponym->parent tags (39 in 12507-12673, 28 in 12674-13199) but 37 judgment-dependent tags escalated to reviews/needs_curator.txt — the band's long tail needs an EXPANDED migration map (degree->quantity/general, place->geography/building, quality->evaluation, information->cognition/communication) folded into check_tag_drift.py, not per-range review (reviewer flagged 121 to apply 28, ~4x overstatement on a contaminated band). Escalation count is the metric to watch. UPDATE 2026-07-09: cohort confirmed contiguous into the 13200s; a 13200-13299 death/crime/martial-arts accuracy-review surfaced six clean context-independent 1:1 mappings NOT yet in TAG_MIGRATION (death->existence, crime->law, martial-arts->sports, writing->language, sport->sports, body->body-part) - fold into check_tag_drift.py's map so the systemic-fix mode can auto-migrate them dict-wide (Tooling item 6 / Cleanup P20 updates 2026-07-09). UPDATE 2026-07-10: the whole 13300-13549 block measured at a uniform high off-vocab density (13300-13349 20/50 = 40%; 13350-13549 46/200 = 23%), all 1:1-mappable to in-list tags this window (motion->movement, nature-*->nature, house->building, season->time-season, action-general->action, quality->abstract/descriptive, spatial->size, conflict->action, food-cooking->food, *-concept/*-speech families). Two runs independently conclude the whole 13xxx block is a single mostly-1:1-mappable off-vocab creation batch a dedicated check_tag_drift --check unknown-semantic systemic-fix sweep would clear faster than incremental per-range accuracy-review; cohort now contiguous through 13549 (Cleanup P20 update 2026-07-10). UPDATE 2026-07-11: a 13550-13649 accuracy-review ran 26% flagged (mostly rejected general-too-broad in-list noise, real applies legal->law/body->body-part/existence->health), and a 13650-13724 accuracy-review flagged 20/75 entries carrying off-list tags (body, transport, thought, character, quality, household, symbols, stationery, government, document, space, shape, academic, perception, relationship), migrated in-run; the whole 13650-14149 block likely predates closed-vocabulary enforcement and is the next contiguous check_tag_drift --check unknown-semantic sweep target above the already-mapped 13xxx cohort. Detector sample 2026-07-11: unknown-semantic 7,689 flags across 6,280 entries (Cleanup P20 / Tooling item 17 updates 2026-07-11). UPDATE 2026-07-15: off-vocab creation-batch cohort confirmed contiguous into the 15100s (a 15100-15153 accuracy-review migrated ~30/54 off-vocab tags in-run); 15000-15500 is the next confirming check_tag_drift --check unknown-semantic sweep target. UPDATE 2026-07-18: cohort confirmed contiguous through 16166 (two 2026-07-18 accuracy-reviews: 15767-15966 ~39% off-vocab / 85 tags / 76 entries migrated; 15967-16166 ~30% / 60 entries migrated). Detector 2026-07-18: unknown-semantic 7,323 flags across 10,516 entries (down from 7,505 on 2026-07-16). A dedicated 15000-17000 check_tag_drift --check unknown-semantic systemic-fix sweep would clear this baselined cohort faster than per-range accuracy-review. UPDATE 2026-07-21: cohort confirmed contiguous through 16900, with 16711-16900 the densest pocket measured (92/173 ~53%; 54 auto-migrated 1:1 in-run, 47 judgment-dependent off-vocab tags with no clean 1:1 target needing per-entry systemic-fix). Targeted 16700-17250 systemic-fix sweep recommended. Detector 2026-07-21: unknown-semantic 7,103 flags across 5,764 entries (down from 7,211 on 2026-07-20). UPDATE 2026-07-22: cohort confirmed contiguous into 17085 (a 2026-07-22 accuracy-review over 16936-17085 migrated 45/150 ~30% off-vocab tags in-run: food-drink/body/social + architecture/service/community/writing/commerce/mathematics), a second dense block inside the recommended 16700-17250 systemic-fix window. Detector 2026-07-22: unknown-semantic 7,041 flags across 5,718 entries (down from 7,103 on 2026-07-21). UPDATE 2026-07-23: cohort confirmed contiguous into 17086-17202 (a 2026-07-22 accuracy-review migrated 53/117 ~45% off-vocab tags in-run: human-relations/motion/disaster/environment/medical/industry/competition/hobby/literature/house/object/material/place/social/body/sensation/grammar/keigo/behavior); adjacent ~16000-18000 batch likely carries the same drift, so a single check_tag_drift --check unknown-semantic systemic-fix sweep across that band would clear it faster than the accuracy-review frontier. Several clean 1:1s folded into Tooling item 6's map (grammar->grammatical, literature->media, environment->daily-life, hobby->leisure, house->furniture, object->tool, sensation->health). Detector 2026-07-23: unknown-semantic 6,983 flags across 5,665 entries (down from 7,041 on 2026-07-22). | 2026-07-24: off-vocab cohort contiguous through 17203-17560 (30 + 56/76 tags migrated in-run); detector unknown-semantic 6,875 (down from 6,983). Dedicated 17000-17999 check_tag_drift sweep still recommended over per-range review. | 2026-07-25: cohort contiguous into 17561-17760 (75 entries migrated in-run: celestial/ability/memory/martial-arts/culture-tradition/location/place/land/property/equipment/audio/housing/rooms); broader 17000-17700 band needs the same sweep. Detector unknown-semantic 6,721 (down from 6,875). Scope re-read 2026-07-25 (second reading of the day): 6,696 unknown-semantic flags (was 6721); the 2026-07-25 accuracy sweep carried the cohort into the 17911-18345 band with a dense 18250-18300 pocket (security/vision/speech/group/tourism/posture/strategy/event/shape/biology/reading)."
     },
@@ -548,6 +548,66 @@
       "scope_estimate": 6,
       "severity": "warn",
       "notes": "Measured 2026-07-30: 06955, 07352, 07365, 07367, 07398, 07411 — all 'REGISTER: Casual' with formality:formal. Converse (informal/vulgar tag vs 'REGISTER: Formal') = 0. Precision depends on anchoring to the POSITION of the word in the REGISTER line: the loose variant (informal/casual appearing anywhere in notes) returns 1,238 and is mostly noise, because notes routinely say 'more formal than the informal X'. Correction target is `informal` — the enum is formal/neutral/informal/vulgar, there is no `casual`."
+    },
+    {
+      "id": "inline-link-stale-noentry",
+      "title": "Stale `noentry` inline links whose word now has an entry (2,887 mechanically fixable)",
+      "source": "ideas/cleanup-backlog.md#priority-35-stale-noentry-inline-links--3797-markers-now-resolve-2887-mechanically",
+      "detect": "scan every ⟦…→base：noentry⟧, look `base` up in build/word_id_lookup.json by_headword; keep hits with len(base)>=2 AND exactly one candidate entry",
+      "filter": "class A1+A2 only (headword match, multi-char, unique target). EXCLUDE single-character bases (498), reading-only matches (385) — homograph traps, per-entry.",
+      "fix_type": "mechanical",
+      "verify": "spot-check",
+      "priority": 2,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 2887,
+      "severity": "warn",
+      "notes": "Measured dictionary-wide 2026-08-01: 3,797 of 7,320 noentry links now resolve; 2,887 have a full headword match with exactly one candidate entry. 85% point at target entries in bands 26000+, i.e. created by recent new-entries runs — a live leak, so Tooling 19's manage_candidates.py sync hook should land alongside the sweep or the population regrows. User-visible: reader currently sees plain text where a working link exists. Analysis: topics/inline-link-integrity.md."
+    },
+    {
+      "id": "crossref-calendar-family",
+      "title": "Calendar-family entries with empty `cross_references` and no USAGE notes",
+      "source": "ideas/entry-followups.md#the-calendar-family-0062400672-and-neighbours--cross-references-half-wired",
+      "detect": "explicit ID list: 00631, 00636, 00640, 00642, 00646, 00657, 00662, 00668, 22086",
+      "filter": null,
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 6,
+      "batch_ready": true,
+      "status": "open",
+      "scope_estimate": 9,
+      "severity": "info",
+      "notes": "The 2026-08-01 polish run wired the day/month entries it touched plus direct neighbours; these 9 remain. Two defects per entry: no structured series links (the structure lives only in prose, so check_semantic_clusters.py cannot see it), and notes that are kanji-etymology plus a set list with no usage information at all — no particle, no 'on Saturday', no frequency expressions. Formulaically similar, so one template covers the set."
+    },
+    {
+      "id": "candidate-list-noise-filter",
+      "title": "Candidate list is ~90% unusable: inflected forms, number+counter strings, coinages",
+      "source": "ideas/tooling-backlog.md#54-candidate-list-quality-filter-reject-inflected-forms-and-numbercounter-strings-at-harvest-time",
+      "detect": "needs detector: lemmatise candidates against word_id_lookup.json; regex for number+counter",
+      "filter": null,
+      "fix_type": "tooling",
+      "verify": "n/a",
+      "priority": 8,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": 1000,
+      "severity": "warn",
+      "notes": "Two independent runs on 2026-07-31 measured ~1 usable headword per 10 sampled candidates outside the 'seen in entry' set. Burns new-entries context on sifting. Interacts with item 23 (source field): the selector's candidates_low signal counts ~1,000 and stays quiet while the writable pool is near empty."
+    },
+    {
+      "id": "crossref-missing-from-notes-prose",
+      "title": "Contrast words named in notes prose but absent from `cross_references`",
+      "source": "ideas/tooling-backlog.md#55-detector-contrast-words-named-in-notes-prose-but-absent-from-cross_references",
+      "detect": "needs detector: diff ⟦…：entry_id⟧ targets inside SIMILAR WORDS / Different from / Opposite: note sections against the entry's cross_references target IDs",
+      "filter": "only sees already-inline-linked (below-frontier) entries",
+      "fix_type": "verify",
+      "verify": "per-entry",
+      "priority": 9,
+      "batch_ready": false,
+      "status": "needs-detector",
+      "scope_estimate": null,
+      "severity": "info",
+      "notes": "6 of 8 basic-tier priority-lane entries on 2026-07-31 named a contrast word in prose with no structured ref (覚える→習う, 洗う→拭く/すすぐ/磨く, やめる→続ける, 軽蔑→見下す/馬鹿にする). The note section heading supplies the relation type, so the detector can propose the `type` value. Mirror image of item 52 (prominent_see_also)."
     }
   ]
 }

@@ -1719,6 +1719,19 @@ any match is a failure. Tracked as the concrete first rule of Tooling item 24.
 
 ## Priority 31: Redundant conjugation bullets at the head of notes
 
+> **Update 2026-08-01 — the na-adjective half is confirmed, and the band is contiguous.** The
+> 2026-07-31 polish run found all eight of 06705–06712 carrying the pattern: the five
+> i-adjectives (06705–06709) open their notes with `・Xい → Xく (adverbial)` bullets *while also
+> having a full generated `conjugation` table that the renderer already displays*, and the three
+> na-adjectives (06710–06712) carry an equivalent FORMS block. So the family is not
+> i-adjective-specific — it is a note-template habit spanning both adjective classes, and the
+> redundant block pushes the genuinely useful USAGE/NUANCE content below the fold.
+> The run deliberately **left them in place**: changing eight entries' note structure would make
+> them inconsistent with the rest of the dictionary, so this needs a decision plus a sweep, not
+> per-entry drift. That is the right call and it is also the reason the item has not moved —
+> it is blocked on a **curator decision** (is the generated table authoritative?), not on
+> detection.
+
 **Source**: 2026-07-28 routine polish run (second run), 06678–06680 / 06973 / 06981 cohort
 
 Entries in the 2026-01-18 compound-verb creation batch open their `notes` field with three
@@ -1884,6 +1897,72 @@ for.
 analogue — same shape, different placeholder),
 [P11](#priority-11-batch-creation-semantic-tag-transportation-misapplied) (wrong-category tags,
 which a detector *can* see).
+
+## Priority 35: Stale `noentry` inline links — 3,797 markers now resolve (2,887 mechanically)
+
+**Source**: 2026-08-01 routine polish run (5 hits in a ~14-entry sample, estimated "hundreds");
+2026-07-31 routine accuracy-review (spot checks: ロープ 27860, 鉢 29581, ために 28332, 返る 29164);
+originally described as [Tooling 19](tooling-backlog.md#19-stale-noentry-inline-link-detector).
+**Measured dictionary-wide by the 2026-08-01 wiki harvest.**
+
+A polishing run that meets a word with no entry writes `⟦水→水：noentry⟧`. The marker is correct
+when written. A later `new-entries` run creates that word, and nothing sweeps back — so the
+reader sees plain text where a working link now exists.
+
+Of **7,320** `noentry` links in the corpus, **3,797 (52%) now resolve** to a real entry.
+Stratified by resolution confidence:
+
+| Class | Count | Fix mode | Example |
+|---|---|---|---|
+| A1 headword match, multi-char, unique target | **2,123** | mechanical | 理容院 → `27288_riyouin` |
+| A2 katakana headword, unique target | **764** | mechanical (no reading ambiguity) | ボストンバッグ → `27285_bosutonbaggu` |
+| A3 headword match, multi-char, ambiguous | 27 | per-entry | 明日 → `00501_ashita` *or* `27453_myounichi` |
+| B headword match, **single character** | 498 | per-entry | 角 → `02158_tsuno` (つの), but the link's 角 is usually かど |
+| C reading-only match, multi-char | 337 | per-entry | たち → `01551_tachi` (達) — often the suffix, not the word |
+| D reading-only match, single character | 48 | reject by default | ば → `03699_ba` (場) — the link's ば is the conditional particle |
+
+**The batch is A1 + A2 = 2,887 links** with a full headword match and exactly one candidate
+entry. The evidence needed to accept each fix is entirely inside the link, so precision should
+be near 1.0 — this is the largest provably-safe, user-visible item on this page.
+
+**B, C and D (883) must not ride along.** A match on a single character or on a reading alone is
+as likely to be a homograph as the word — the same family (b) trap that made
+`link-target-baseform-disagreement` a `verify: per-entry` item.
+
+**This is a live leak, not historical residue.** Grouping A-class links by the band of the entry
+that now exists: 441 in 00000–25999, 662 in 26000–27999, **1,678 in 28000–29999**, 133 above
+30000. **85% was created by entry creation in the last few months**, and every `new-entries` run
+adds more. Tooling 19's incremental half — `manage_candidates.py sync` already computes the
+crossed-over word set for free — closes the source; this sweep only clears what has accumulated.
+
+**Related**: [Inline Link Integrity](../topics/inline-link-integrity.md) (full analysis and the
+other five link classes), [P24](#priority-24-inline-link-base-forms-written-with-furigana-braces),
+[P27](#priority-27-dead-inline-link-target-ids),
+[P32](#priority-32-inline-link-base-forms-written-in-kana-instead-of-the-dictionary-form).
+
+## Informational: Entries with zero inline links (23,294) are the polish frontier, not a defect
+
+**Source**: 2026-07-31 and 2026-08-01 routine polish runs, both reporting a frontier block
+"created with zero inline links … a creation batch that predates the requirement" and proposing
+a `check_link_coverage.py` detector plus a targeted backfill. **Measured and closed with no
+action by the 2026-08-01 wiki harvest.**
+
+There is no batch. Zero-link entries are 0–1.2% of every band below ID 06000, 62.7% of
+06000–07999 (the comprehensive frontier sits at 06723, inside that band), and ~100% of
+everything above 08000. Essentially all 265,750 inline links in the dictionary live below ID
+08000.
+
+`CLAUDE.md` states the cause directly: links are *never* added at creation time, only in a
+separate polishing step. So an unpolished block has no links by design, and **the frontier lane
+is the backfill**. A `check_link_coverage.py` would faithfully report "77% of the dictionary,"
+which is the frontier's position restated.
+
+Recorded here so the next run that trips over an unlinked block does not file it a fourth time.
+The strategic consequence — the frontier lane advances 4–8 entries per run against 23,294
+unlinked entries, so it cannot close the gap, and
+[Tooling 49](tooling-backlog.md#49-read-only-inline-link-suggester-propose--never-write) is the
+only filed item that attacks the real cost — is written up on
+[Inline Link Integrity](../topics/inline-link-integrity.md).
 
 ## Informational: `ている` has no entry and is `noentry` in 37 ASPECT notes — a convention decision, not a defect
 

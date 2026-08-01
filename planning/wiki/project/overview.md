@@ -1,10 +1,10 @@
 # Project Overview
 
-**Last updated**: 2026-07-30 (counts refreshed: 30,031 entries / 27,228 general / 117,263 examples / 16,902 cross-references). Prior 2026-07-29 (30,012 entries / 27,209 general / 117,198 examples / 16,821 cross-references — the dictionary crossed **30,000 entries** on 2026-07-29). Prior 2026-07-28
+**Last updated**: 2026-08-01 (counts refreshed: 30,088 entries / 27,285 general / 117,462 examples / 17,068 cross-references — cross-references passed **17,000**, +166 in two days, largely the calendar-family wiring). Prior 2026-07-30 (30,031 entries / 27,228 general / 117,263 examples / 16,902 cross-references). Prior 2026-07-29 (30,012 entries — the dictionary crossed **30,000 entries** on 2026-07-29)
 
 ## What je-dict-1 is
 
-je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of late July 2026 it contains **just over 30,000 entries** with more than 117,000 example sentences and 16,900 cross-references.
+je-dict-1 is a Japanese-English learner's dictionary hosted as a static website at [tkgje.jp](https://www.tkgje.jp/). It targets intermediate learners of Japanese — people who can read kana and are actively building vocabulary. As of August 2026 it contains **just over 30,000 entries** with more than 117,000 example sentences and 17,000 cross-references.
 
 The dictionary is entirely static: HTML, CSS, and JavaScript generated from JSON source files by a Python build pipeline, deployed via GitHub Pages. There is no server, no database, and no user accounts.
 
