@@ -8,7 +8,7 @@
     {
       "sense_number": 1,
       "gloss": "candy, hard candy, sweets",
-      "explanation": "A sweet confection, typically hard candy made from sugar. Different from 雨 (ame, rain) which has the same pronunciation."
+      "explanation": "A sweet confection, typically hard candy made from sugar. Different from {雨|あめ} (rain), which has the same pronunciation."
     }
   ],
   "examples": [
@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "Primarily refers to hard candy or boiled sweets. Distinguished from ⟦{雨|あめ}→雨：00583_ame⟧ (rain) by kanji, though the pronunciation is the same.\n\nSCOPE:\n{飴|あめ} traditionally means hard candy made from sugar or starch syrup. In modern usage it can refer to candy more broadly, though ⟦チョコレート→チョコレート：05183_chokoreeto⟧ (chocolate) and ⟦キャンディー→キャンディー：23081_kyandii⟧ (candy, loanword) are used for specific types.\n\nCOMMON TYPES:\n- ⟦のど→喉：00977_nodo⟧{飴|あめ}: throat lozenges\n- ⟦{水飴|みずあめ}→水飴：noentry⟧: starch syrup, liquid candy\n- ⟦{金太郎飴|きんたろうあめ}→金太郎飴：noentry⟧: patterned candy sticks\n\nIDIOM:\n{飴|あめ}⟦と→と：00512_to⟧⟦{鞭|むち}→鞭：11178_muchi⟧ — literally \"candy and whip,\" equivalent to English \"carrot and stick.\" Describes using rewards and punishments together.\n\nRELATED TERMS:\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧: sweets, snacks (broader category)\n- ⟦キャンディー→キャンディー：23081_kyandii⟧: candy (loanword)",
-  "cross_references": [],
+  "notes": "Primarily refers to hard candy or boiled sweets. Distinguished from ⟦{雨|あめ}→雨：00583_ame⟧ (rain) by kanji, though the pronunciation is the same.\n\nSCOPE:\n{飴|あめ} traditionally means hard candy made from sugar or starch syrup. In modern usage it can refer to candy more broadly, though ⟦チョコレート→チョコレート：05183_chokoreeto⟧ (chocolate) and ⟦キャンディー→キャンディー：23081_kyandii⟧ (candy, loanword) are used for specific types.\n\nCOMMON TYPES:\n- ⟦のど→喉：00977_nodo⟧{飴|あめ}: throat lozenges\n- ⟦{水飴|みずあめ}→水飴：27566_mizuame⟧: starch syrup, liquid candy\n- ⟦{金太郎飴|きんたろうあめ}→金太郎飴：noentry⟧: patterned candy sticks\n\nIDIOM:\n{飴|あめ}⟦と→と：00512_to⟧⟦{鞭|むち}→鞭：11178_muchi⟧ — literally \"candy and whip,\" equivalent to English \"carrot and stick.\" Describes using rewards and punishments together.\n\nRELATED TERMS:\n- ⟦お{菓子|かし}→お菓子：02852_okashi⟧: sweets, snacks (broader category)\n- ⟦キャンディー→キャンディー：23081_kyandii⟧: candy (loanword)",
+  "cross_references": [
+    {
+      "type": "homophone",
+      "reading": "あめ",
+      "headword": "{雨|あめ}",
+      "target_id": "00583_ame",
+      "label": "rain"
+    },
+    {
+      "type": "synonym",
+      "reading": "きゃんでぃー",
+      "headword": "キャンディー",
+      "target_id": "23081_kyandii",
+      "label": "loanword"
+    },
+    {
+      "type": "related",
+      "reading": "おかし",
+      "headword": "お{菓子|かし}",
+      "target_id": "02852_okashi",
+      "label": "sweets, broader category"
+    },
+    {
+      "type": "related",
+      "reading": "みずあめ",
+      "headword": "{水飴|みずあめ}",
+      "target_id": "27566_mizuame",
+      "label": "starch syrup"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:44:38Z",
-    "modified": "2026-05-12T16:12:28Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-6",
     "vocabulary_tier": "basic",
     "tags": {

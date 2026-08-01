@@ -63,11 +63,40 @@
       ]
     }
   ],
-  "notes": "{毎年|まいとし} means \"every year\" and functions as both a noun and an adverb.\n\nREADINGS:\nCan also be read as まいねん. Both readings are correct; まいねん is slightly more formal.\n\nPATTERN:\n{毎|まい} + time period forms frequency words:\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧: every day\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧: every month\n- {毎年|まいとし}: every year\n\nCOMMON PATTERNS:\n- {毎年|まいとし}〜に: every year in ~\n- {毎年|まいとし}〜になると: every year when ~ comes\n- {毎年|まいとし}{恒例|こうれい}の: annual (customary)\n\nRELATED TIME WORDS:\n- ⟦{去年|きょねん}→去年：00727_kyonen⟧: last year\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{年々|ねんねん}→年々：10417_nennen⟧: year by year",
-  "cross_references": [],
+  "notes": "{毎年|まいとし} means \"every year\" and functions as both a noun and an adverb.\n\nREADINGS:\nCan also be read まいねん. Both readings are correct; まいねん is slightly more formal and is the usual reading in news writing and announcements.\n\nPATTERN:\nThe prefix まい- (\"every\") attaches to a time period to form frequency words:\n- ⟦{毎日|まいにち}→毎日：00729_mainichi⟧: every day\n- ⟦{毎週|まいしゅう}→毎週：00730_maishuu⟧: every week\n- ⟦{毎月|まいつき}→毎月：00732_maitsuki⟧: every month\n- {毎年|まいとし}: every year\n\nCOMMON PATTERNS:\n- {毎年|まいとし}〜⟦に→に：00314_ni⟧: every year in ~\n- {毎年|まいとし}〜⟦に→に：00314_ni⟧⟦なる→なる：01970_naru⟧⟦と→と：00512_to⟧: every year when ~ comes around\n- {毎年|まいとし}⟦{恒例|こうれい}→恒例：12597_kourei⟧⟦の→の：09472_no⟧: annual, customary (of an event held year after year)\n\nRELATED TIME WORDS:\n- ⟦{去年|きょねん}→去年：00727_kyonen⟧: last year\n- ⟦{今年|ことし}→今年：00722_kotoshi⟧: this year\n- ⟦{来年|らいねん}→来年：00745_rainen⟧: next year\n- ⟦{年々|ねんねん}→年々：10417_nennen⟧: year by year",
+  "cross_references": [
+    {
+      "type": "related",
+      "reading": "まいつき",
+      "headword": "{毎月|まいつき}",
+      "target_id": "00732_maitsuki",
+      "label": "every month"
+    },
+    {
+      "type": "related",
+      "reading": "まいにち",
+      "headword": "{毎日|まいにち}",
+      "target_id": "00729_mainichi",
+      "label": "every day"
+    },
+    {
+      "type": "related",
+      "reading": "ねんねん",
+      "headword": "{年々|ねんねん}",
+      "target_id": "10417_nennen",
+      "label": "year by year"
+    },
+    {
+      "type": "related",
+      "reading": "ことし",
+      "headword": "{今年|ことし}",
+      "target_id": "00722_kotoshi",
+      "label": "this year"
+    }
+  ],
   "metadata": {
     "created": "2026-01-07T12:59:08Z",
-    "modified": "2026-06-16T12:23:55Z",
+    "modified": "2026-08-01T09:19:26Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
