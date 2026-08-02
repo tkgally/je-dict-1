@@ -69,7 +69,7 @@
     },
     {
       "id": "02917_tooka_ex6",
-      "japanese": "{十日|とおか}⟦{間|かん}→間：00914_aida⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{十日|とおか}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦です→です：09485_desu⟧。",
       "english": "It's a ten-day trip.",
       "notes": null,
       "has_audio": false,
@@ -118,7 +118,7 @@
       ]
     }
   ],
-  "notes": "{十日|とおか} uses native Japanese counting and has two meanings: the 10th day of the month, and a duration of ten days.\n\nDAYS OF THE MONTH (1-10):\nThe first ten days use special native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st)\n- ⟦{二日|ふつか}→二日：02954_futsuka⟧ (2nd)\n- ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th)\n- ⟦{五日|いつか}→いつか：01809_itsuka⟧ (5th)\n- ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th)\n- ⟦{八日|ようか}→八日：02983_youka⟧ (8th)\n- ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th)\n- {十日|とおか} (10th)\n\nAfter the 10th, most days use Sino-Japanese numbers + ⟦{日|にち}→日：12732_nichi⟧ (e.g., ⟦{十一日|じゅういちにち}→十一日：noentry⟧).\n\nDURATION USAGE:\n- {十日|とおか}⟦{間|かん}→間：00914_aida⟧: a ten-day period\n- {十日|とおか}⟦ぶり→ぶり：noentry⟧⟦に→に：00314_ni⟧: for the first time in ten days\n- {十日|とおか}⟦ほど→程：01724_hodo⟧⟦かかる→かかる：00711_kakaru⟧: it takes about ten days",
+  "notes": "{十日|とおか} uses native Japanese counting and has two meanings: the 10th day of the month, and a duration of ten days.\n\nDAYS OF THE MONTH (1-10):\nThe first ten days use special native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st)\n- ⟦{二日|ふつか}→二日：02954_futsuka⟧ (2nd)\n- ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th)\n- ⟦{五日|いつか}→いつか：01809_itsuka⟧ (5th)\n- ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th)\n- ⟦{八日|ようか}→八日：02983_youka⟧ (8th)\n- ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th)\n- {十日|とおか} (10th)\n\nAfter the 10th, most days use Sino-Japanese numbers + ⟦{日|にち}→日：12732_nichi⟧ (e.g., ⟦{十一日|じゅういちにち}→十一日：noentry⟧).\n\nDURATION USAGE:\n- {十日|とおか}⟦{間|かん}→〜間：28469_kan⟧: a ten-day period\n- {十日|とおか}⟦ぶり→ぶり：noentry⟧⟦に→に：00314_ni⟧: for the first time in ten days\n- {十日|とおか}⟦ほど→程：01724_hodo⟧⟦かかる→かかる：00711_kakaru⟧: it takes about ten days",
   "cross_references": [
     {
       "type": "related",
@@ -126,11 +126,25 @@
       "headword": "{九日|ここのか}",
       "label": "ninth day",
       "target_id": "02901_kokonoka"
+    },
+    {
+      "type": "related",
+      "target_id": "02934_hatsuka",
+      "headword": "{二十日|はつか}",
+      "reading": "はつか",
+      "label": "twenty days, twentieth day"
+    },
+    {
+      "type": "related",
+      "target_id": "28469_kan",
+      "headword": "〜{間|かん}",
+      "reading": "かん",
+      "label": "duration suffix 〜間"
     }
   ],
   "metadata": {
     "created": "2026-01-11T09:50:00Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-08-02T21:21:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -140,7 +154,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "time-general"
       ]
     }
   }

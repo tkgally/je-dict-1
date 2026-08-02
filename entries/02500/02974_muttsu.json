@@ -63,7 +63,7 @@
       ]
     }
   ],
-  "notes": "{六|むっ}つ is the native Japanese number for counting six general items.\n\nNATIVE COUNTING SYSTEM (1-10):\n- ⟦{一|ひと}つ→一つ：02948_hitotsu⟧ (1), ⟦{二|ふた}つ→二つ：02953_futatsu⟧ (2), ⟦{三|みっ}つ→三つ：02970_mittsu⟧ (3), ⟦{四|よっ}つ→四つ：03039_yottsu⟧ (4), ⟦{五|いつ}つ→五つ：02892_itsutsu⟧ (5)\n- {六|むっ}つ (6), ⟦{七|なな}つ→七つ：02926_nanatsu⟧ (7), ⟦{八|やっ}つ→八つ：02979_yattsu⟧ (8), ⟦{九|ここの}つ→九つ：02902_kokonotsu⟧ (9), ⟦{十|とお}→十：00708_juu⟧ (10)\n\nWHEN TO USE:\n- General objects without specific counters\n- Age up to 9: {六|むっ}つ = 6 years old\n- Abstract things: ⟦{理由|りゆう}→理由：01102_riyuu⟧⟦が→が：00051_ga⟧{六|むっ}つ (six reasons)\n\nCHINESE VS. NATIVE:\n- ⟦{六|ろく}→六：00747_roku⟧: Sino-Japanese (used with counters like ⟦{個|こ}→〜個：00645_ko⟧, ⟦{本|ほん}→〜本：00688_hon⟧)\n- {六|むっ}つ: Native Japanese (standalone counting)\n\nEXAMPLE CONTRAST:\n- ⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧{六|むっ}つ: six apples (native)\n- ⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧⟦{六|ろっ}→六：00747_roku⟧⟦{個|こ}→〜個：00645_ko⟧: six apples (Sino-Japanese + counter)",
+  "notes": "{六|むっ}つ is the native Japanese number for counting six general items.\n\nNATIVE COUNTING SYSTEM (1-10):\n- ⟦{一|ひと}つ→一つ：02948_hitotsu⟧ (1), ⟦{二|ふた}つ→二つ：02953_futatsu⟧ (2), ⟦{三|みっ}つ→三つ：02970_mittsu⟧ (3), ⟦{四|よっ}つ→四つ：03039_yottsu⟧ (4), ⟦{五|いつ}つ→五つ：02892_itsutsu⟧ (5)\n- {六|むっ}つ (6), ⟦{七|なな}つ→七つ：02926_nanatsu⟧ (7), ⟦{八|やっ}つ→八つ：02979_yattsu⟧ (8), ⟦{九|ここの}つ→九つ：02902_kokonotsu⟧ (9), ⟦{十|とお}→十：28376_too⟧ (10)\n\nWHEN TO USE:\n- General objects without specific counters\n- Age up to 9: {六|むっ}つ = 6 years old\n- Abstract things: ⟦{理由|りゆう}→理由：01102_riyuu⟧⟦が→が：00051_ga⟧{六|むっ}つ (six reasons)\n\nCHINESE VS. NATIVE:\n- ⟦{六|ろく}→六：00747_roku⟧: Sino-Japanese (used with counters like ⟦{個|こ}→〜個：00645_ko⟧, ⟦{本|ほん}→〜本：00688_hon⟧)\n- {六|むっ}つ: Native Japanese (standalone counting)\n\nEXAMPLE CONTRAST:\n- ⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧{六|むっ}つ: six apples (native)\n- ⟦りんご→りんご：02269_ringo⟧⟦を→を：00422_wo⟧⟦{六|ろっ}→六：00747_roku⟧⟦{個|こ}→〜個：00645_ko⟧: six apples (Sino-Japanese + counter)",
   "cross_references": [
     {
       "type": "related",
@@ -71,11 +71,25 @@
       "headword": "{五|いつ}つ",
       "label": "five (things)",
       "target_id": "02892_itsutsu"
+    },
+    {
+      "type": "related",
+      "target_id": "01004_tsu",
+      "headword": "つ",
+      "reading": "つ",
+      "label": "general native counter (1-9)"
+    },
+    {
+      "type": "related",
+      "target_id": "02926_nanatsu",
+      "headword": "{七|なな}つ",
+      "reading": "ななつ",
+      "label": "seven (things)"
     }
   ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-08-02T12:18:13Z",
+    "modified": "2026-08-02T21:21:03Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "basic",
@@ -86,7 +100,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "number"
       ]
     }
   }

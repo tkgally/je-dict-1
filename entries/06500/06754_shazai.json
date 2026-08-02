@@ -104,7 +104,7 @@
   "examples": [
     {
       "id": "06754_shazai_ex1",
-      "japanese": "{会社|かいしゃ}は{公式|こうしき}に{謝罪|しゃざい}した。",
+      "japanese": "⟦{会社|かいしゃ}→会社：00607_kaisha⟧⟦は→は：00079_ha⟧⟦{公式|こうしき}→公式：04167_koushiki⟧⟦に→に：00314_ni⟧{謝罪|しゃざい}⟦した→する：00392_suru⟧。",
       "english": "The company issued an official apology.",
       "notes": null,
       "has_audio": false,
@@ -114,7 +114,7 @@
     },
     {
       "id": "06754_shazai_ex2",
-      "japanese": "{謝罪|しゃざい}{会見|かいけん}を{開|ひら}いた。",
+      "japanese": "{謝罪|しゃざい}⟦{会見|かいけん}→会見：11447_kaiken⟧⟦を→を：00422_wo⟧⟦{開|ひら}いた→開く：01979_hiraku⟧。",
       "english": "They held an apology press conference.",
       "notes": null,
       "has_audio": false,
@@ -124,7 +124,7 @@
     },
     {
       "id": "06754_shazai_ex3",
-      "japanese": "{心|こころ}からの{謝罪|しゃざい}が{必要|ひつよう}だ。",
+      "japanese": "⟦{心|こころ}→心：01321_kokoro⟧⟦から→から：00504_kara⟧⟦の→の：09472_no⟧{謝罪|しゃざい}⟦が→が：00051_ga⟧⟦{必要|ひつよう}→必要：00846_hitsuyou⟧⟦だ→だ：09496_da⟧。",
       "english": "A heartfelt apology is necessary.",
       "notes": null,
       "has_audio": false,
@@ -133,7 +133,7 @@
       ]
     }
   ],
-  "notes": "VERB FORM:\n{謝罪|しゃざい}する (to apologize formally)\n\nUSAGE:\nUsed for formal or serious apologies, especially:\n・{公式|こうしき}{謝罪|しゃざい} (official apology)\n・{謝罪|しゃざい}{会見|かいけん} (apology press conference)\n・{謝罪|しゃざい}{文|ぶん} (written apology)\n・{謝罪|しゃざい}を{求|もと}める (to demand an apology)\n・{謝罪|しゃざい}を{受|う}け{入|い}れる (to accept an apology)\n\nCULTURE:\nIn Japan, formal apologies often involve bowing deeply. Public figures and companies often hold press conferences to apologize for scandals or problems.\n\nREGISTER:\nFormal. For casual apologies, use {謝|あやま}る or ごめん(なさい).\n\nSIMILAR WORDS:\n・{謝|あやま}る - to apologize (general)\n・{詫|わ}びる - to apologize (humble)\n・{陳謝|ちんしゃ} - formal apology (even more formal)",
+  "notes": "VERB FORM:\n{謝罪|しゃざい}⟦する→する：00392_suru⟧ (to apologize formally)\n\nUSAGE:\nUsed for formal or serious apologies, especially:\n・⟦{公式|こうしき}→公式：04167_koushiki⟧{謝罪|しゃざい} (official apology)\n・{謝罪|しゃざい}⟦{会見|かいけん}→会見：11447_kaiken⟧ (apology press conference)\n・{謝罪|しゃざい}⟦{文|ぶん}→文：03716_bun⟧ (written apology)\n・{謝罪|しゃざい}⟦を→を：00422_wo⟧⟦{求|もと}める→求める：02316_motomeru⟧ (to demand an apology)\n・{謝罪|しゃざい}⟦を→を：00422_wo⟧⟦{受|う}け{入|い}れる→受け入れる：05755_ukeireru⟧ (to accept an apology)\n\nCULTURE:\nIn Japan, formal apologies often involve bowing deeply. Public figures and companies often hold press conferences to apologize for scandals or problems.\n\nREGISTER:\nFormal. For casual apologies, use ⟦{謝|あやま}る→謝る：01177_ayamaru⟧ or ⟦ごめんなさい→ごめんなさい：00931_gomennasai⟧.\n\nSIMILAR WORDS:\n・⟦{謝|あやま}る→謝る：01177_ayamaru⟧ - to apologize (general)\n・⟦{詫|わ}びる→詫びる：14174_wabiru⟧ - to apologize (humble)\n・⟦{陳謝|ちんしゃ}→陳謝：07994_chinsha⟧ - formal apology (even more formal)",
   "cross_references": [
     {
       "type": "related",
@@ -141,11 +141,25 @@
       "headword": "{謝|あやま}る",
       "label": "to apologize",
       "target_id": "01177_ayamaru"
+    },
+    {
+      "type": "related",
+      "target_id": "14174_wabiru",
+      "headword": "{詫|わ}びる",
+      "reading": "わびる",
+      "label": "to apologize (humble)"
+    },
+    {
+      "type": "related",
+      "target_id": "07994_chinsha",
+      "headword": "{陳謝|ちんしゃ}",
+      "reading": "ちんしゃ",
+      "label": "formal apology (even more formal)"
     }
   ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-03-29T03:05:07Z",
+    "modified": "2026-08-02T21:26:48Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -154,9 +168,9 @@
         "verb-suru"
       ],
       "formality": "formal",
-      "politeness": "humble",
+      "politeness": "plain",
       "semantic": [
-        "action"
+        "communication"
       ],
       "verb_class": "suru"
     }
