@@ -1,6 +1,6 @@
 # Japanese-English Learner's Dictionary - Project Status
 
-**Last updated**: 2026-08-01
+**Last updated**: 2026-08-02
 **Current phase**: Phase 6 - Continued Expansion & Polish
 
 **Live site**: https://www.tkgje.jp/
@@ -51,6 +51,17 @@ Based on multi-model LLM evaluation (Claude Haiku 4.5, GPT-5.2, Gemini 3 Flash),
 
 ## Recent Changes
 
+### 2026-08-02 (Routine v2: new-entries — 20 New Entries, IDs 30318–30337)
+Created 20 general-tier entries, **draining the "seen in entry" lane again** (15 available, 13 created). Two were dropped as stale before creation: C22687 エグい, a katakana orthographic variant of existing 05608 えぐい, and C22691 {白状|はくじょう}, already covered by 21378 {白状|はくじょう}する, whose POS tags are `["noun", "verb-suru"]`. The seen-in thirteen: the three {派|は}-suffix performer types {速球派|そっきゅうは} / {本格派|ほんかくは} / {実力派|じつりょくは}, which now cross-describe each other and 30317 {技巧派|ぎこうは}; the accounting pair {他人資本|たにんしほん} and {純資産|じゅんしさん}, **completing the {自己資本|じこしほん} contrast set** started on 2026-08-01; the mimetic ふにゃふにゃ (distinguished from ぐにゃぐにゃ, ふわふわ, and べちゃべちゃ by loss-of-firmness vs. bending vs. pleasant softness vs. wetness); {飛|と}び{乗|の}る (intransitive, に-marked, paired against {飛|と}び{降|お}りる); {忙|せわ}しい (the same kanji as {忙|いそが}しい read せわしい, linked to existing 06736 {忙|せわ}しない); はしたない, with a REGISTER section on its dated, prescriptive flavor; {何分|なんぷん} (two senses — duration and clock-minute — plus the ふん/ぷん counter alternation, and the {何分|なにぶん} homograph warning); {四時|よじ}, documenting the three irregular hour readings よじ/しちじ/くじ; {最期|さいご}, with the ✗{最後|さいご}を{看取|みと}る kanji-choice mistake called out; and {優良|ゆうりょう}. The other 7 are hand-picked, because the ~990-strong non-seen pool is **still heavily polluted** — filtered scans of the C11000–C20000 blocks returned mostly numeric fragments (三百, 六歳, 四人), transparent compounds (全商品, 追加機能, 調達費), and apparent non-words (個尊, 些道, 怒燥, 老健); the `[pattern]` observation now also notes that `routine_next.py`'s `candidates_low` signal reads raw count and so reports "plentiful" while real supply is ~15/run. The seven: {完了形|かんりょうけい} (grammar term, with the {進行形|しんこうけい}/{受動態|じゅどうたい}/{仮定法|かていほう} series), {避難口|ひなんぐち} (contrasted with the commoner 07045 {非常口|ひじょうぐち}), {国章|こくしょう}, {推進者|すいしんしゃ}, {受取先|うけとりさき} (placed in the 〜{先|さき} series with 12275 {宛先|あてさき} / 23506 {送|おく}り{先|さき} / 11083 {取引先|とりひきさき}), {不許可|ふきょか}, and {内通者|ないつうしゃ}. Conjugation tables added to the godan verb and the 2 i-adjectives; **no new kanji**. 2 stale candidates removed, 5 added from words the new entries reference; 1,004 remain. §4 cross-model self-check on all 20 new entries: **2 flagged, 2 applied, 0 rejected** — both `tags.formality` `formal`→`neutral` on {避難口|ひなんぐち} and {受取先|うけとりさき}, applied because the dictionary's own comparable entries (非常口, 宛先, 送り先) all tag `neutral`. $0.0087.
+
+- **Performer / people types (5)**: {速球派|そっきゅうは}, {本格派|ほんかくは}, {実力派|じつりょくは}, {推進者|すいしんしゃ}, {内通者|ないつうしゃ}
+- **Finance / business (3)**: {他人資本|たにんしほん}, {純資産|じゅんしさん}, {受取先|うけとりさき}
+- **Time (2)**: {何分|なんぷん}, {四時|よじ}
+- **Descriptive (3)**: ふにゃふにゃ, {忙|せわ}しい, はしたない
+- **Verbs (1)**: {飛|と}び{乗|の}る
+- **Evaluation / life (2)**: {優良|ゆうりょう}, {最期|さいご}
+- **Institutional / academic (4)**: {完了形|かんりょうけい}, {避難口|ひなんぐち}, {国章|こくしょう}, {不許可|ふきょか}
+
 ### 2026-08-01 (Routine v2: new-entries — 20 New Entries, IDs 30298–30317)
 Created 20 general-tier entries, **draining the "seen in entry" lane completely** (all 16 available were created). The seen-in sixteen: the clipped day names {月曜|げつよう} and {水曜|すいよう}; ベーコン; the three mimetics うねうね / にょろにょろ / くにゃくにゃ, which now sit alongside 06717 くねくね and 25196 ぐにゃぐにゃ with SIMILAR WORDS sections spelling out fixed-shape vs. creature-in-motion vs. loss-of-stiffness; the yojijukugo {孤軍奮闘|こぐんふんとう}; {金太郎飴|きんたろうあめ} (two senses — the candy, and the figurative "cookie-cutter", which is now the commoner one); {今週末|こんしゅうまつ} (documenting the bare-adverbial use without に); イクボス, **completing the pair** with 06723 イクメン; the two contrast pairs {動産|どうさん}↔{不動産|ふどうさん} and {自己資本|じこしほん}↔{他人資本|たにんしほん}; {比|ひ} (standalone ratio plus the far commoner {前年比|ぜんねんひ} suffix use); なんとも (two senses keyed entirely to whether the predicate is affirmative or negative); {物|もの}の{哀|あわ}れ; and ノスタルジー, **paired** with 06000 {郷愁|きょうしゅう}. The other 4 are hand-picked, because the ~1,000-strong non-seen pool remains **heavily polluted** — a filter for plain 2-kanji candidates returned 112 items of which a large share are not real words (権使, 些道, 個尊, 怒燥, 発炭, 人義, 印示, 下告, 消痛), with numeric fragments (三百, 八十, 六人) and transparent compounds making up most of the rest; a `[pattern]` observation asks for a `clean_up_candidates_list.md` pass before this pool is used for bulk creation again. The four: {一分|いっぷん} (documenting the whole いっぷん/にふん/さんぷん counter set and the いちぶ reading of the same characters), {冒涜的|ぼうとくてき} (na-adjective off existing 19484 {冒涜|ぼうとく}), {学科長|がっかちょう} (placed in the {学部長|がくぶちょう}/{学長|がくちょう}/{校長|こうちょう} series), and {技巧派|ぎこうは} (the {派|は}-suffix performer-type series). Conjugation added to the one suru-verb; **no new kanji**. 1 stale candidate removed (C19811 {雄蕊|おしべ} → existing 29501 {雄|お}しべ, an orthographic variant that `manage_candidates.py sync` cannot see); 6 added from words the new entries reference; 997 remain. §4 cross-model self-check on all 20 changed entries: **2 flagged, 0 applied, 2 rejected** — both tag-vocabulary nits (`onomatopoeia` asked for in `semantic` when the project keeps it in `pos`; an in-list `grammatical`→`expression` narrowness substitution, rejected by §A policy). $0.0087.
 
@@ -91,12 +102,3 @@ Created 18 general-tier entries, **draining the entire "seen in entry" candidate
 - **Tools / technical (2)**: {充電式|じゅうでんしき}, {刈|か}り{払|はら}い{機|き}
 - **Places / people / nature (4)**: {滞在者|たいざいしゃ}, {本国|ほんごく}, {水遊|みずあそ}び, {細流|さいりゅう}
 - **Other (3)**: {非常時|ひじょうじ}, {青春時代|せいしゅんじだい}, {創|つく}る
-
-### 2026-07-29 (Routine v2: new-entries — 19 New Entries, IDs 30222–30240)
-Created 19 general-tier entries, **draining the entire "seen in entry" candidate pool** (20 available; 19 created, 1 dropped). The dropped one — {売|う}り{上|あ}げ (うりあげ) — is only an okurigana variant of the existing entry `04102_uriage` ({売上|うりあげ}), so it was removed from `candidate_words.json` instead of becoming a duplicate; `check_duplicate.py` again returned `OK` and surfaced the collision only as a parenthetical homophone note, the same gap logged as a `[tooling]` observation on 2026-07-29. The batch continues the accounting cluster the last three runs have been building out ({前払金|まえばらいきん}, {内金|うちきん}, {償却|しょうきゃく}, {減価償却費|げんかしょうきゃくひ}, {仮払|かりばら}い, {予備費|よびひ}), all of them referenced from the 30203–30221 finance entries, and adds two mimetic adverbs (ちらほら, ぽつりぽつり) that join 06683 ぽつぽつ and 10525 まばら in the sparse-scatter family. Homophone cross-references were added where the duplicate check surfaced real collisions: {償却|しょうきゃく} ↔ 22409 {焼却|しょうきゃく}, {出航|しゅっこう} ↔ 11764 {出港|しゅっこう}. Conjugation tables added to the 4 suru-verbs ({償却|しょうきゃく}, {仮払|かりばら}い, {出航|しゅっこう}, グローバル{化|か}); **no new kanji**. 5 referenced-but-missing words added as candidates (C22614–C22618: {非常時|ひじょうじ}, {充電式|じゅうでんしき}, {仮払金|かりばらいきん}, {取得費|しゅとくひ}, {刈|か}り{払|はら}い{機|き}). §4 cross-model self-check on all 19 changed entries: **clean — 19/19, 0 flagged, 0 applied, 0 rejected**. $0.0083.
-
-- **Accounting / finance (6)**: {前払金|まえばらいきん}, {内金|うちきん}, {償却|しょうきゃく}, {減価償却費|げんかしょうきゃくひ}, {仮払|かりばら}い, {予備費|よびひ}
-- **Tools / technical (3)**: インパクトドライバー, {草刈|くさか}り{機|き}, {差|さ}し{込|こ}み{口|ぐち}
-- **Transport / weather (3)**: {出航|しゅっこう}, {便数|びんすう}, {雨風|あめかぜ}
-- **Adverbs / expressions (3)**: ちらほら, ぽつりぽつり, それなり
-- **Other (4)**: {急場|きゅうば}, {前作|ぜんさく}, {暗記力|あんきりょく}, グローバル{化|か}
