@@ -99,7 +99,7 @@
     },
     {
       "id": "02954_futsuka_ex9",
-      "japanese": "{二日|ふつか}⟦{間|かん}→間：00914_aida⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{二日|ふつか}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{旅行|りょこう}→旅行：00748_ryokou⟧⟦です→です：09485_desu⟧。",
       "english": "It's a two-day trip.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,33 @@
       ]
     }
   ],
-  "notes": "{二日|ふつか} means both \"two days\" (duration) and \"the 2nd\" (date).\n\nUSAGE:\n- Duration: {二日|ふつか}⟦かかる→かかる：00711_kakaru⟧ (takes two days)\n- Date: 1⟦{月|がつ}→月：02230_tsuki⟧{二日|ふつか} (January 2nd)\n\nDAYS OF THE MONTH (1-10):\nThese have irregular native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st), {二日|ふつか} (2nd), ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th), ⟦{五日|いつか}→五日：noentry⟧ (5th), ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th), ⟦{八日|ようか}→八日：02983_youka⟧ (8th), ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th), ⟦{十日|とおか}→十日：02917_tooka⟧ (10th)\n\nNOTE:\nFrom the 11th onward, regular readings are used: ⟦{十一日|じゅういちにち}→十一日：noentry⟧, etc.",
-  "cross_references": [],
+  "notes": "{二日|ふつか} means both \"two days\" (duration) and \"the 2nd\" (date).\n\nUSAGE:\n- Duration: {二日|ふつか}⟦かかる→かかる：00711_kakaru⟧ (takes two days)\n- Date: 1⟦{月|がつ}→月：02230_tsuki⟧{二日|ふつか} (January 2nd)\n\nDAYS OF THE MONTH (1-10):\nThese have irregular native Japanese readings:\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧ (1st), {二日|ふつか} (2nd), ⟦{三日|みっか}→三日：02969_mikka⟧ (3rd)\n- ⟦{四日|よっか}→四日：02985_yokka⟧ (4th), ⟦{五日|いつか}→五日：28460_itsuka⟧ (5th), ⟦{六日|むいか}→六日：02973_muika⟧ (6th)\n- ⟦{七日|なのか}→七日：02927_nanoka⟧ (7th), ⟦{八日|ようか}→八日：02983_youka⟧ (8th), ⟦{九日|ここのか}→九日：02901_kokonoka⟧ (9th), ⟦{十日|とおか}→十日：02917_tooka⟧ (10th)\n\nNOTE:\nFrom the 11th onward, regular readings are used: ⟦{十一日|じゅういちにち}→十一日：noentry⟧, etc.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "10993_tsuitachi",
+      "headword": "{一日|ついたち}",
+      "reading": "ついたち",
+      "label": "the first (day of the month)"
+    },
+    {
+      "type": "related",
+      "target_id": "02969_mikka",
+      "headword": "{三日|みっか}",
+      "reading": "みっか",
+      "label": "three days"
+    },
+    {
+      "type": "related",
+      "target_id": "28469_kan",
+      "headword": "〜{間|かん}",
+      "reading": "かん",
+      "label": "duration suffix 〜間"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-05-22T23:27:28Z",
+    "modified": "2026-08-02T21:21:03Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "basic",
     "tags": {
@@ -132,7 +154,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "time-general"
       ]
     }
   }

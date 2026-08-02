@@ -79,7 +79,7 @@
     },
     {
       "id": "02969_mikka_ex7",
-      "japanese": "{三日|みっか}⟦{間|かん}→間：noentry⟧⟦の→の：09472_no⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
+      "japanese": "{三日|みっか}⟦{間|かん}→〜間：28469_kan⟧⟦の→の：09472_no⟧⟦{出張|しゅっちょう}→出張：01094_shucchou⟧⟦です→です：09485_desu⟧。",
       "english": "It's a three-day business trip.",
       "notes": null,
       "has_audio": false,
@@ -118,11 +118,26 @@
       ]
     }
   ],
-  "notes": "{三日|みっか} has two meanings: a duration of three days, and the 3rd day of the month. Context usually makes the meaning clear.\n\nDAYS OF THE MONTH (1-10):\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧, ⟦{二日|ふつか}→二日：02954_futsuka⟧, {三日|みっか}, ⟦{四日|よっか}→四日：02985_yokka⟧, ⟦{五日|いつか}→五日：noentry⟧\n- ⟦{六日|むいか}→六日：02973_muika⟧, ⟦{七日|なのか}→七日：02927_nanoka⟧, ⟦{八日|ようか}→八日：02983_youka⟧, ⟦{九日|ここのか}→九日：02901_kokonoka⟧, ⟦{十日|とおか}→十日：02917_tooka⟧\n\nCOMMON EXPRESSIONS:\n- {三日|みっか}⟦{間|かん}→間：noentry⟧: three days (with counter)\n- {三日|みっか}⟦{後|ご}→後：09580_ato⟧: three days later\n- {三日|みっか}⟦{前|まえ}→前：02255_mae⟧: three days ago\n\nIDIOM:\n{三日|みっか}⟦{坊主|ぼうず}→坊主：10119_bouzu⟧ literally \"three-day monk\" means someone who gives up easily or lacks perseverance. Used when someone starts something but quickly abandons it.",
-  "cross_references": [],
+  "notes": "{三日|みっか} has two meanings: a duration of three days, and the 3rd day of the month. Context usually makes the meaning clear.\n\nDAYS OF THE MONTH (1-10):\n- ⟦{一日|ついたち}→一日：10993_tsuitachi⟧, ⟦{二日|ふつか}→二日：02954_futsuka⟧, {三日|みっか}, ⟦{四日|よっか}→四日：02985_yokka⟧, ⟦{五日|いつか}→五日：28460_itsuka⟧\n- ⟦{六日|むいか}→六日：02973_muika⟧, ⟦{七日|なのか}→七日：02927_nanoka⟧, ⟦{八日|ようか}→八日：02983_youka⟧, ⟦{九日|ここのか}→九日：02901_kokonoka⟧, ⟦{十日|とおか}→十日：02917_tooka⟧\n\nCOMMON EXPRESSIONS:\n- {三日|みっか}⟦{間|かん}→〜間：28469_kan⟧: three days (with counter)\n- {三日|みっか}⟦{後|ご}→後：09580_ato⟧: three days later\n- {三日|みっか}⟦{前|まえ}→前：02255_mae⟧: three days ago\n\nIDIOM:\n{三日|みっか}⟦{坊主|ぼうず}→坊主：10119_bouzu⟧ literally \"three-day monk\" means someone who gives up easily or lacks perseverance. Used when someone starts something but quickly abandons it.",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "02954_futsuka",
+      "headword": "{二日|ふつか}",
+      "reading": "ふつか",
+      "label": "two days"
+    },
+    {
+      "type": "related",
+      "target_id": "02985_yokka",
+      "headword": "{四日|よっか}",
+      "reading": "よっか",
+      "label": "four days"
+    }
+  ],
   "metadata": {
     "created": "2026-01-11T10:10:00Z",
-    "modified": "2026-05-23T13:13:36Z",
+    "modified": "2026-08-02T21:21:03Z",
     "ai_model": "claude-opus-4-5",
     "schema_version": "2.0",
     "vocabulary_tier": "basic",
@@ -133,7 +148,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "time"
+        "time-general"
       ]
     }
   }

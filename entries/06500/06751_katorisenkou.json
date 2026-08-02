@@ -14,7 +14,7 @@
   "examples": [
     {
       "id": "06751_katorisenkou_ex1",
-      "japanese": "{夏|なつ}は{蚊取|かと}り{線香|せんこう}が{欠|か}かせない。",
+      "japanese": "⟦{夏|なつ}→夏：02236_natsu⟧⟦は→は：00079_ha⟧{蚊取|かと}り{線香|せんこう}⟦が→が：00051_ga⟧⟦{欠|か}かせない→欠かす：10138_kakasu⟧。",
       "english": "Mosquito coils are essential in summer.",
       "notes": null,
       "has_audio": false,
@@ -24,7 +24,7 @@
     },
     {
       "id": "06751_katorisenkou_ex2",
-      "japanese": "{蚊取|かと}り{線香|せんこう}を{焚|た}いて{寝|ね}る。",
+      "japanese": "{蚊取|かと}り{線香|せんこう}⟦を→を：00422_wo⟧⟦{焚|た}いて→焚く：02285_taku⟧⟦{寝|ね}る→寝る：00470_neru⟧。",
       "english": "I burn a mosquito coil and go to sleep.",
       "notes": null,
       "has_audio": false,
@@ -34,7 +34,7 @@
     },
     {
       "id": "06751_katorisenkou_ex3",
-      "japanese": "{蚊取|かと}り{線香|せんこう}の{香|かお}りは{夏|なつ}の{風物詩|ふうぶつし}だ。",
+      "japanese": "{蚊取|かと}り{線香|せんこう}⟦の→の：09472_no⟧⟦{香|かお}り→香り：00189_kaori⟧⟦は→は：00079_ha⟧⟦{夏|なつ}→夏：02236_natsu⟧⟦の→の：09472_no⟧⟦{風物詩|ふうぶつし}→風物詩：08649_fuubutsushi⟧⟦だ→だ：09496_da⟧。",
       "english": "The smell of mosquito coils is a sign of summer.",
       "notes": null,
       "has_audio": false,
@@ -43,11 +43,33 @@
       ]
     }
   ],
-  "notes": "FORMATION:\n{蚊|か} (mosquito) + {取|と}り (repelling) + {線香|せんこう} (incense)\n\nUSAGE:\n・{蚊取|かと}り{線香|せんこう}を{焚|た}く (to burn a mosquito coil)\n・{蚊取|かと}り{線香|せんこう}を{立|た}てる (to light a mosquito coil)\n・{蚊取|かと}り{線香|せんこう}{立|た}て (mosquito coil holder - pig-shaped ones are iconic)\n\nCULTURE:\n{蚊取|かと}り{線香|せんこう} is closely associated with Japanese summer. The distinctive green spiral coil and its smoke are nostalgic symbols. Traditional holders are often shaped like pigs ({蚊遣|かや}り{豚|ぶた}).\n\nMODERN ALTERNATIVES:\n・{電気|でんき}{蚊取|かと}り (electric mosquito repellent)\n・{蚊取|かと}りマット (mosquito mat)\n・{液体|えきたい}{蚊取|かと}り (liquid mosquito repellent)",
-  "cross_references": [],
+  "notes": "FORMATION:\n⟦{蚊|か}→蚊：04294_ka⟧ (mosquito) + ⟦{取|と}り→取る：00565_toru⟧ (repelling) + ⟦{線香|せんこう}→線香：09995_senkou⟧ (incense)\n\nUSAGE:\n・{蚊取|かと}り{線香|せんこう}⟦を→を：00422_wo⟧⟦{焚|た}く→焚く：02285_taku⟧ (to burn a mosquito coil)\n・{蚊取|かと}り{線香|せんこう}⟦を→を：00422_wo⟧⟦{立|た}てる→立てる：01196_tateru⟧ (to light a mosquito coil)\n・{蚊取|かと}り{線香|せんこう}⟦{立|た}て→立てる：01196_tateru⟧ (mosquito coil holder - pig-shaped ones are iconic)\n\nCULTURE:\n{蚊取|かと}り{線香|せんこう} is closely associated with Japanese summer. The distinctive green spiral coil and its smoke are nostalgic symbols. Traditional holders are often shaped like pigs (⟦{蚊遣|かや}り{豚|ぶた}→蚊遣り豚：noentry⟧).\n\nMODERN ALTERNATIVES:\n・⟦{電気|でんき}→電気：09780_denki⟧⟦{蚊取|かと}り→蚊取り：23175_katori⟧ (electric mosquito repellent)\n・⟦{蚊取|かと}り→蚊取り：23175_katori⟧⟦マット→マット：21812_matto⟧ (mosquito mat)\n・⟦{液体|えきたい}→液体：04134_ekitai⟧⟦{蚊取|かと}り→蚊取り：23175_katori⟧ (liquid mosquito repellent)",
+  "cross_references": [
+    {
+      "type": "related",
+      "target_id": "23175_katori",
+      "headword": "{蚊取|かと}り",
+      "reading": "かとり",
+      "label": "mosquito repelling"
+    },
+    {
+      "type": "related",
+      "target_id": "04294_ka",
+      "headword": "{蚊|か}",
+      "reading": "か",
+      "label": "mosquito"
+    },
+    {
+      "type": "related",
+      "target_id": "09995_senkou",
+      "headword": "{線香|せんこう}",
+      "reading": "せんこう",
+      "label": "incense stick"
+    }
+  ],
   "metadata": {
     "created": "2026-01-18T05:06:08Z",
-    "modified": "2026-01-19T12:17:44.666124Z",
+    "modified": "2026-08-02T21:23:46Z",
     "ai_model": "claude-opus-4-5",
     "vocabulary_tier": "general",
     "tags": {
@@ -57,7 +79,7 @@
       "formality": "neutral",
       "politeness": "plain",
       "semantic": [
-        "general"
+        "daily-life"
       ]
     }
   }
